@@ -5,12 +5,16 @@
     "synoniemen": [
       "scope of consolidation",
       "groep-perimeter"
-    ]
+    ],
+    "vertaling": {
+      "fr": "périmètre de consolidation",
+      "en": "scope of consolidation"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -45,9 +49,24 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/consolidatiekring.json",
+      "primary_bronnen": [
+        "WVV art. 3:22",
+        "WVV art. 3:24",
+        "KB-WVV art. 3:97",
+        "KB-WVV art. 3:98",
+        "KB-WVV art. 3:99",
+        "KB-WVV art. 3:105",
+        "KB-WVV art. 3:124",
+        "CBN-advies 2022/09",
+        "CBN-advies 2011/5"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -56,30 +75,424 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "claude-sonnet-4-5",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Pass 1 content gevuld op basis van bundle-chunks (CBN-adviezen 2022/09, 2011/5 + WVV/KB-WVV-referenties)."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De consolidatiekring is de verzameling van vennootschappen waarvan de cijfers worden samengevoegd in de geconsolideerde jaarrekening. In een gewone (verticale) groep omvat de kring de consoliderende moedervennootschap en al haar Belgische of buitenlandse dochterondernemingen die zij — alleen of samen — controleert. In een horizontale groep (consortium) omvat de kring alle vennootschappen die onder centrale leiding staan plus hun dochterondernemingen. De kring is dus géén juridisch verzonnen geheel maar een toepassing van het controlecriterium uit het WVV op de feitelijke groepsstructuur.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" },
+            { "type": "cbn", "naam": "CBN-advies 2022/09 — Consolidatie bij de horizontale groep", "ref": "Consolidatiekring" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is de consolidatiekring de afbakening van de 'economische eenheid' waarover gerapporteerd wordt. Door alle gecontroleerde entiteiten samen te brengen, presenteert de moedervennootschap de groep alsof het één enkele onderneming was — onderlinge transacties verdwijnen, externe schulden, vorderingen, omzet en kosten blijven over. De keuze welke vennootschap in of buiten de kring valt, bepaalt rechtstreeks de groepsomzet, het groepsresultaat en de balanstotaal. Voor analisten is de juistheid van de kring de eerste vraag: ontbrekende of overbodige dochters geven een vertekend beeld van de groep.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:105", "context": "Beginsel getrouw beeld in geconsolideerde jaarrekening" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese economische functie van consolidatiekring" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil dat de jaarrekening van een groep het beeld geeft van het geheel, niet enkel van de moedervennootschap. Een aandeelhouder of crediteur die enkel de enkelvoudige jaarrekening van de moeder zou zien, mist de risico's en opbrengsten die in de dochters zitten. De kring is dus de operationele uitwerking van het beginsel 'substance over form' in groepsrapportering: niet de juridische zelfstandigheid van elke entiteit telt, maar de gezamenlijke economische realiteit. Daarom is het controlebegrip (art. 1:14 WVV) en niet het eigendomsbegrip de determinant.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:105", "context": "Getrouw beeld als overriding principe" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14", "context": "Controlebegrip" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio legis op basis van CBN-advies 2022/09 en KB-WVV systematiek" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "controle-bij-consolidatie",
+        "consolidatieverplichting"
+      ],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": [
+        "consolidatiemethoden",
+        "wijziging-consolidatiekring"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 3:22-3:30 + KB-WVV art. 3:97-3:99 (uitsluitingen), art. 3:105 (getrouw beeld)",
+        "toelichting": "Stabiel kader sinds inwerkingtreding WVV (1 januari 2020). Voorheen W.Venn. art. 110 e.v. + KB van 6 maart 1990 — inhoudelijk grotendeels identiek, enkel artikelnummering gewijzigd."
+      },
+      "voor": [
+        {
+          "tekst": "Elke vennootschap die als consoliderende vennootschap of consortium-lid een geconsolideerde jaarrekening moet opstellen. De kring wordt vastgesteld op de balansdatum van de moedervennootschap.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:110, tweede lid", "context": "Balansdatum-regel, met afwijking tot 3 maanden" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een entiteit valt binnen de kring zodra de moedervennootschap controle uitoefent — exclusief of samen — in rechte of in feite. Controle in rechte volgt uit meerderheid van stemrechten of statutaire bevoegdheid; controle in feite wordt vermoed bij meerderheid van stemrechten in de laatste twee algemene vergaderingen of bij feitelijke aanstelling van de meerderheid van bestuurders.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" },
+              { "type": "cbn", "naam": "CBN-advies 2011/5 — Consolidatiekring", "ref": "Consolidatieplicht en bepaling van de consolidatiekring" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Natuurlijke personen worden nooit opgenomen in de kring — zelfs wanneer een natuurlijke persoon de centrale leiding uitoefent (bv. bij een familiale holding). De consolidatieplicht geldt enkel voor vennootschappen met rechtspersoonlijkheid; verenigingen, stichtingen en maatschappen kunnen nooit zelf moedervennootschap zijn.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22", "context": "Toepassingsgebied vennootschappen met rechtspersoonlijkheid" },
+              { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatiekring", "context": "Geen natuurlijke personen, geen vzw/stichting/maatschap als moeder" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Een dochter onterecht buiten de kring laten (uit gemak of om groepscijfers te verbeteren) tast het getrouw beeld aan en kan tot weigering van het commissarisoordeel leiden. De uitzonderingen op opname (art. 3:97-3:98 KB-WVV) moeten 'strikt' worden geïnterpreteerd — niet als planningsinstrument.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:105" },
+              { "type": "cbn", "naam": "CBN-advies 2011/5", "ref": "Consolidatieplicht en bepaling van de consolidatiekring", "context": "Strikte interpretatie van art. 107, 4° KB W.Venn. (= huidig 3:99 KB-WVV)" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "verticale-consolidatiekring",
+        "naam": { "primair": "Verticale consolidatiekring (groep met moedervennootschap)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij een verticale groep staat één moedervennootschap aan het hoofd. De consolidatiekring bevat die moeder samen met alle dochterondernemingen die zij — rechtstreeks of via tussenliggende vennootschappen — controleert (art. 1:15 WVV). Ook kleindochters en achterkleindochters horen erbij, zolang de keten van controle ononderbroken is.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "horizontale-consolidatiekring",
+        "naam": { "primair": "Horizontale consolidatiekring (consortium)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een consortium ontstaat wanneer twee of meer vennootschappen die geen moeder-dochter-relatie hebben (en evenmin zustervennootschappen van een gemeenschappelijke moeder zijn) onder centrale leiding staan. Voorbeelden: dezelfde meerderheid van bestuurders, of een gemeenschappelijke aandeelhouder-natuurlijke persoon. Alle consortium-leden zijn 'consoliderende vennootschap'; samen met hun dochters vormen ze de kring. De stichting of natuurlijke persoon die de centrale leiding uitoefent zelf, valt buiten de kring (geen rechtspersoonlijkheid als vennootschap).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:19", "context": "Definitie consortium / centrale leiding" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:24" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Horizontale groep" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Wettelijke vermoedens van centrale leiding (weerlegbaar tenzij anders bepaald): (1) gezamenlijke meerderheid van bestuurders in beide vennootschappen (onweerlegbaar); (2) gemeenschappelijke aandeelhouder die in beide de meerderheid van stemrechten houdt; (3) statutaire of contractuele centrale-leiding-clausule.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:19" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Voorbeeld 1 + Voorbeeld 7" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "weglatingen-uit-kring",
+        "naam": { "primair": "Weglatingen uit de consolidatiekring" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "KB-WVV laat in beperkte gevallen toe dat een dochter buiten de kring blijft (facultatief — art. 3:97) of verplicht buiten de kring blijft (art. 3:98). De wetgever wil deze uitzonderingen strikt geïnterpreteerd zien — ze mogen niet ingezet worden om groepscijfers te 'beïnvloeden'.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97" },
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:98" },
+                  { "type": "cbn", "naam": "CBN-advies 2011/5", "ref": "Consolidatieplicht en bepaling van de consolidatiekring" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "verwaarloosbare-betekenis",
+              "naam": { "primair": "Verwaarloosbare betekenis (immaterialiteit)" },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een dochter mag buiten de kring blijven indien zij — alleen of samen met andere weggelaten dochters — slechts een te verwaarlozen betekenis heeft voor het getrouw beeld van het geheel. De materialiteits-toets geldt zowel individueel als cumulatief: tien kleine dochters samen kunnen wél materieel zijn.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97, 1°" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "onevenredige-kosten",
+              "naam": { "primair": "Onevenredige kosten of vertraging" },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "Indien de gegevens van de dochter slechts kunnen worden bekomen tegen onevenredig hoge kosten of met aanzienlijke vertraging, kan zij buiten de kring blijven. Strikt te interpreteren: 'kosten' verwijst naar reële operationele moeilijkheid, niet naar het feit dat consolideren altijd werk vraagt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97, 2°" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "uitsluitend-voor-vervreemding",
+              "naam": { "primair": "Aandelen aangehouden voor latere vervreemding" },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een dochter waarvan de aandelen uitsluitend met het oog op latere vervreemding worden gehouden, mag buiten de kring blijven. CBN bevestigt: deze grond moet 'strikt' geïnterpreteerd worden — louter een intentie tot verkoop volstaat niet; er moet een concreet, vastomlijnd verkoopproject zijn.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97, 3°" },
+                      { "type": "cbn", "naam": "CBN-advies 2011/5", "ref": "Consolidatieplicht en bepaling van de consolidatiekring", "context": "Strikte interpretatie + niet ter beïnvloeding groepscijfers" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "controle-in-feite-strijdig-met-getrouw-beeld",
+              "naam": { "primair": "Verplichte weglating bij strijdigheid met getrouw beeld" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij dochters waarover enkel controle in feite wordt uitgeoefend (geen rechtsverhouding), moet de dochter buiten de kring blijven als opneming in strijd zou zijn met het beginsel van getrouw beeld (art. 3:105 KB-WVV). Dit is dus géén keuze maar een verplichting.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:98" },
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:105" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "geen-weglating-consortium-lid",
+              "naam": { "primair": "Consortium-leden zelf mogen niet weggelaten worden" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "De uitzonderingen 3:97 en 3:98 gelden enkel voor dochters van consoliderende vennootschappen, niet voor de consoliderende vennootschappen zelf. In een consortium kan een lid dus niet weggelaten worden, ook niet wegens 'te verwaarlozen betekenis'.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatiekring" }
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-verticale-groep",
+        "titel": "Verticale groep — Aurelia Holding",
+        "context": "Aurelia Holding NV bezit 100 % van Zelena Bio NV en 80 % van Vermeer Verpakking BV. Vermeer Verpakking BV bezit op haar beurt 60 % van Vermeer Logistics SRL (Italië).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaard verticale-groep-illustratie" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Consolidatiekring:\n\n```mermaid\ngraph TD\n  A[Aurelia Holding NV<br/>= consoliderende vennootschap] -->|100%| B[Zelena Bio NV]\n  A -->|80%| V[Vermeer Verpakking BV]\n  V -->|60%| L[Vermeer Logistics SRL]\n```\n\nDe kring bevat **vier** vennootschappen: Aurelia (moeder), Zelena, Vermeer Verpakking en Vermeer Logistics. De buitenlandse vestiging telt mee omdat de keten van controle ononderbroken is."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-horizontale-groep",
+        "titel": "Horizontale groep — gemeenschappelijke private stichting",
+        "context": "Private Stichting P (familievermogen) bezit 90 % van vennootschap X en 85 % van vennootschap Y. X en Y zijn geen dochter van elkaar. Beide hebben elk één dochter (X1 en Y1).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Voorbeeld 7" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "```mermaid\ngraph TD\n  P[Private Stichting P<br/>= centrale leiding<br/>NIET in kring] -.->|90%| X[Vennootschap X<br/>= consoliderend]\n  P -.->|85%| Y[Vennootschap Y<br/>= consoliderend]\n  X -->|controle| X1[Dochter X1]\n  Y -->|controle| Y1[Dochter Y1]\n```\n\nConsortium = X + Y. Consolidatiekring = {X, Y, X1, Y1}. De stichting valt buiten de kring (geen vennootschap met rechtspersoonlijkheid). X en Y dragen samen de consolidatieverplichting."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Consolidatiekring verwarren met controlecriterium",
+        "verkeerde_assumptie": "Wie de kring kent, kent automatisch de consolidatieplicht.",
+        "kernpunt": "De kring (wie zit erin) en de consolidatieverplichting (moet er überhaupt geconsolideerd worden) zijn twee aparte vragen. Een kleine groep kan vrijgesteld zijn van consolidatie ondanks dat de kring duidelijk afgebakend is — de groottecriteria-toets gebeurt eerst (art. 3:25 WVV), pas daarna wordt de kring relevant.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25", "context": "Vrijstelling kleine groep" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Didactische scheiding 'kring' vs 'verplichting'" }
+          ]
+        }
+      },
+      {
+        "titel": "Uitzonderingen als planningsinstrument gebruiken",
+        "verkeerde_assumptie": "De uitzonderingen in art. 3:97 KB-WVV bieden flexibiliteit om groepscijfers te 'optimaliseren' (bv. dochters met verlies weglaten).",
+        "kernpunt": "Het Verslag aan de Koning en CBN-advies 2011/5 stellen uitdrukkelijk: de uitzonderingen mogen NIET ingeroepen worden om het beeld van het groepsgeheel te beïnvloeden. Een dochter met grote verliezen 'wegens latere vervreemding' weglaten zonder concreet verkoopplan = misbruik van uitzondering = inbreuk op getrouw beeld.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2011/5", "ref": "Consolidatieplicht en bepaling van de consolidatiekring" }
+          ]
+        }
+      },
+      {
+        "titel": "Natuurlijke persoon of stichting als consoliderende entiteit",
+        "verkeerde_assumptie": "Wanneer een familiale stichting of een natuurlijke persoon de groep controleert, moet die stichting/persoon zelf consolideren.",
+        "kernpunt": "Consolidatieplicht geldt enkel voor vennootschappen met rechtspersoonlijkheid (art. 3:22 WVV). Een stichting, vzw, maatschap of natuurlijke persoon kan nooit moedervennootschap zijn. Bij horizontale groepen valt de centrale-leiding-entiteit dus buiten de kring; de plicht ligt collectief bij de consortium-vennootschappen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatieverplichting – Consoliderende vennootschap" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "moedervennootschap-perspectief",
+      "naam": { "primair": "Consoliderende moedervennootschap" },
+      "intro": "De accountant die de moedervennootschap bijstaat bij het opmaken van de geconsolideerde jaarrekening of het bepalen van de kring.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "bepalen-kring-elk-boekjaar",
+              "naam": { "primair": "Kring opnieuw bepalen elk boekjaar" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op elke balansdatum: (1) controleer welke participaties leiden tot controle in rechte (stemrechten); (2) check feitelijke controle-indicatoren (samenstelling bestuursorgaan, dominante stemrechten in twee opeenvolgende AVG's); (3) verwerk acquisities en desinvesteringen sinds vorig boekjaar; (4) documenteer keuzes onder art. 3:97 KB-WVV (welke dochters bewust buiten de kring, waarom) — die motivering moet de commissaris kunnen toetsen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Boekhouderspraktijk bij jaarafsluiting groep" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "documenteer-uitzondering",
+              "naam": { "primair": "Schriftelijke motivering bij weglating" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een dochter weglaten op grond van art. 3:97 KB-WVV vereist een schriftelijke motivering in het dossier: welke grond (immaterialiteit / onevenredige kosten / vervreemding), met cijfermatige onderbouwing (% van groepstotaal voor immaterialiteit) of concreet verkoopproject. Deze motivering komt in de toelichting bij de geconsolideerde jaarrekening (art. 3:114 KB-WVV).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97" },
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:114", "context": "Toelichting bij weglatingen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-kring-volledigheid",
+              "naam": { "primair": "Volledigheidstest van de kring" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris start de groepscontrole met een onafhankelijke lijst van alle deelnemingen + stemrechten + bestuursmandaten van de moeder. Vergelijking met de door management gerapporteerde kring. Verschillen onderzoeken: ontbreekt een dochter? Wordt een controle-in-feite-relatie genegeerd? Audit-bewijs voor weglatingen (art. 3:97/3:98) op grond + materialiteit. Bij twijfel: management vragen om herwerking van de kring.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 600 — Special Considerations - Audits of Group Financial Statements", "ref": "§22-23" },
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:97" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Audit-praktijk groepscontrole" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
+    { "type": "vereist", "target": "controle-bij-consolidatie", "toelichting": "Het controlecriterium bepaalt welke entiteiten in de kring zitten." },
+    { "type": "triggert", "target": "consolidatiemethoden", "toelichting": "Per entiteit in de kring wordt — afhankelijk van het type controle — een consolidatiemethode gekozen (integraal · evenredig · vermogensmutatie)." },
+    { "type": "beinvloed_door", "target": "wijziging-consolidatiekring", "toelichting": "Acquisities en desinvesteringen wijzigen de kring tussen twee balansdata." }
   ]
 }
