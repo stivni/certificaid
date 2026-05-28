@@ -1,75 +1,242 @@
 {
   "id": "gemeentebelastingen-sui-generis",
   "naam": {
-    "primair": "Gemeentebelastingen sui generis"
+    "primair": "Gemeentebelastingen sui generis",
+    "synoniemen": ["eigen lokale belastingen", "autonome gemeentebelastingen"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.II.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["2.7.II.B"],
     "scope": {
       "in": [
-        "Eigen lokale belastingen: afval · honden · standgelden · 2e verblijven · drijfkracht · ...",
+        "Eigen lokale belastingen: afval · honden · standgelden · 2e verblijven · drijfkracht · naamborden · parking · ...",
         "Variëteit per gemeente",
         "Bezwaarprocedures + grenzen aan creativiteit",
         "Toepassing op ondernemingen (drijfkracht · economische heffingen)"
       ],
       "out": [
-        {
-          "topic": "Lokale belasting-reglement-procedure",
-          "richting": "moet-verwijzen",
-          "ref": "lokale-belasting-reglement"
-        },
-        {
-          "topic": "Aanvullende gemeentebelasting PB",
-          "richting": "mag-verwijzen",
-          "ref": "aanvullende-gemeentebelasting-pb"
-        }
+        { "topic": "Lokale belasting-reglement-procedure", "richting": "moet-verwijzen", "ref": "lokale-belasting-reglement" },
+        { "topic": "Aanvullende gemeentebelasting PB", "richting": "mag-verwijzen", "ref": "aanvullende-gemeentebelasting-pb" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/gemeentebelastingen-sui-generis.json",
+      "primary_bronnen": [
+        "Grondwet art. 170 §4",
+        "Decreet Vlaamse Gemeentewet",
+        "Algemene Wet Lokale Belastingen 24-12-1996"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:30:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit grondwet + algemene wet lokale belastingen + doctrine." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "Gemeentebelastingen sui generis (letterlijk 'van eigen aard') zijn lokale belastingen die de gemeente autonoom heft op basis van haar grondwettelijke fiscale autonomie (art. 170 §4 Grondwet), buiten de federale, gewestelijke of provinciale belastingen om. Ze worden geheven op feitelijke gronden die de gemeente zelf definieert: huisvuilbelasting, hondenbelasting, belasting op tweede verblijven, belasting op drijfkracht, leegstandsheffing, belasting op naamborden/uithangborden, belasting op parkeren, belasting op terrassen, ... Het tarief en de grondslag worden bij gemeentelijk belastingreglement vastgelegd door de gemeenteraad.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170 §4", "context": "Gemeentelijke fiscale autonomie" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: elke gemeente kiest haar eigen 'menu' van sui-generis-belastingen. Dezelfde activiteit (bv. een hond houden) kan in gemeente A 60 EUR kosten en in gemeente B niets. Voor een onderneming met meerdere vestigingen betekent dit aanzienlijke verschillen: een productieonderneming met sterk motorvermogen betaalt drijfkrachtbelasting in sommige gemeenten (max 60 EUR/kW vroeger, vaak afgeschaft), niets in andere; een retailer met een uithangbord betaalt naamborden-belasting in bepaalde gemeenten. Voor de accountant van een KMO: telkens nakijken welke lokale heffingen van toepassing zijn op cliënt-vestigingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Lokale fiscaliteit-praktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is institutioneel: de Belgische gemeente heeft via art. 170 §4 Grondwet een 'eigen' belastingbevoegdheid — afgebakend door wetgevingsmacht (Vlaamse Codex Gemeentewet) en rechtspraak (Raad van State). Functioneel: het vergoedt diensten of compenseert externaliteiten op lokaal niveau (afval → huisvuilbelasting; honden → controlekost gemeente; tweede verblijven → druk op infrastructuur). De variëteit weerspiegelt het lokale democratische zelfbestuur.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170 §4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine fiscaal federalisme" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "voorvereisten": ["lokale-fiscale-autonomie"],
+      "naast_relevant": ["lokale-belasting-reglement", "aanvullende-gemeentebelasting-pb"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Grondwet art. 170 §4 + Algemene Wet Lokale Belastingen 24-12-1996 + decreten gemeentewet (Vl/Br/W)",
+        "toelichting": "Stabiel kader. Individuele belastingen wijzigen jaarlijks bij beslissing van de gemeenteraad. Sommige klassieke heffingen (drijfkracht) worden door steeds meer gemeenten afgeschaft of vervangen door alternatieven."
+      },
+      "voor": [
+        {
+          "tekst": "Lokale activiteiten of feiten die de gemeente fiscaal wil belasten: afvalbeheer, dieren, verblijf, economische activiteit met externaliteit, gebruik openbaar domein, leegstand, ...",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) gemeenteraad neemt een belastingreglement aan dat heffingsfeit, tarief, betalingsmodaliteiten + bezwaarprocedure beschrijft; (2) het reglement wordt voorgelegd voor goedkeuring aan de gouverneur (toezicht); (3) bekendgemaakt via aanplakking + publicatie; (4) inwerkingtreding na de wettelijke wachttermijn.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardprocedure" }]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Risico van nietigverklaring door de Raad van State indien de gemeente buiten haar bevoegdheid treedt (bv. een belasting dubbelt een gewestelijke belasting, of treedt in op gronden die exclusief federaal/gewestelijk zijn). Klassiek voorbeeld: gemeenten mogen geen 'inkomstenbelasting' heffen — dat is federaal voorbehouden. Belasting moet objectief, proportioneel en niet-discriminerend zijn.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine + RvSt-rechtspraak" }]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "voorbeelden-typische",
+        "naam": { "primair": "Typische sui-generis-belastingen" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Klassieke verzameling: (1) huisvuilbelasting (forfait of pay-as-you-throw); (2) hondenbelasting (per hond); (3) belasting op tweede verblijven (forfait per appartement, vooral kustgemeenten); (4) belasting op drijfkracht (op motorvermogen industrie — sterk in onbruik); (5) belasting op naamborden/uithangborden (per m²); (6) belasting op terrassen en gebruik openbaar domein; (7) parkeerheffing (commerciële parkings); (8) leegstandsheffing (woningen + bedrijfsruimten); (9) reclameheffing; (10) belasting op nachtwinkels.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Empirische verzameling Belgische gemeentereglementen" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "grenzen-aan-creativiteit",
+        "naam": { "primair": "Grenzen aan gemeentelijke creativiteit" },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale autonomie kent grenzen: (1) niet-bevoegdheidsoverschrijding — geen federale of gewestelijke materies; (2) gelijkheidsbeginsel — geen ongelijke behandeling zonder objectieve rechtvaardiging; (3) proportionaliteit — heffing moet redelijk verband houden met dienst of feit; (4) niet-confiscatoire — de heffing mag de eigendomsrecht niet uithollen; (5) belastingplichtige moet kunnen aantonen dat hij geen draagkracht heeft (in beginsel — uitzonderlijk). Raad van State vernietigt regelmatig 'creatieve' reglementen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine + RvSt-rechtspraak" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaarprocedure",
+        "naam": { "primair": "Bezwaarprocedure" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Twee niveaus van bezwaar: (1) tegen het reglement zelf — Raad van State binnen 60 dagen na bekendmaking; (2) tegen een individuele aanslag — bezwaarschrift bij het college van burgemeester en schepenen binnen 3 maanden (Algemene Wet Lokale Belastingen art. 9), daarna rechtbank van eerste aanleg / hof van beroep. De accountant adviseert de cliënt over haalbaarheid van een bezwaar — vaak nuttig bij twijfelachtige aanslagen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Algemene Wet Lokale Belastingen 24-12-1996", "ref": "art. 9" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardprocedure" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-drijfkracht",
+        "titel": "Drijfkrachtbelasting industrieel bedrijf",
+        "context": "Productieonderneming Zelena Industries NV in een industriegemeente heeft motoren met totaal 200 kW geïnstalleerd vermogen. Gemeentelijk reglement: 20 EUR/kW boven de eerste 10 kW, vrijstelling voor energiezuinige installaties (warmtekracht).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Typisch reglement" }]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — belastbaar vermogen = 200 − 10 = 190 kW.",
+              "Stap 2 — drijfkrachtbelasting bruto = 190 × 20 = 3.800 EUR.",
+              "Stap 3 — controle vrijstellingen: warmtekracht-installatie (50 kW) → potentieel vrij → 140 kW belastbaar.",
+              "Stap 4 — netto = 140 × 20 = 2.800 EUR jaarlijks."
+            ],
+            "resultaat": "Aanzienlijke kost — geeft argument om naar gemeente zonder drijfkrachtbelasting te overwegen, of vrijstellingsdossier in te dienen. Drijfkrachtbelasting wordt door steeds meer Vlaamse gemeenten afgeschaft."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Veronderstellen dat gemeentebelastingen overal hetzelfde zijn",
+        "verkeerde_assumptie": "Alle Belgische gemeenten hebben dezelfde basisbelastingen.",
+        "kernpunt": "Niets is minder waar: 581 gemeenten = 581 belastingreglementen. Bij elke nieuwe cliëntactiviteit, vestiging of gemeente: het volledige belastingreglement van de gemeente raadplegen (publiek beschikbaar via gemeentewebsite). Dezelfde activiteit kan 0 EUR of duizenden EUR per jaar kosten naargelang de gemeente.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
+      "id": "kmo-met-vestigingen",
+      "naam": { "primair": "KMO met lokale vestigingen" },
+      "intro": "De accountant die de KMO begeleidt bij vestigingsvragen en lokale fiscaliteit.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "scan-lokale-heffingen",
+              "naam": { "primair": "Scan lokale heffingen per vestiging" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke nieuwe vestiging of activiteit-uitbreiding: scan de gemeentelijke belastingreglementen (downloadbaar via gemeentewebsite of OE-Vlaanderen). Identificeer relevante heffingen voor het type cliënt (drijfkracht voor productie, naamborden voor retail, terrassen voor horeca, parkeerheffing voor commerciële parking). Geef de cliënt een totaal-overzicht van de jaarlijkse fiscale kost per vestiging.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "KMO-adviespraktijk" }]
+                  }
+                }
+              }
+            },
+            {
+              "id": "bezwaardossier",
+              "naam": { "primair": "Bezwaarschrift opstellen tegen aanslag" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij betwistbare aanslag (verkeerde feiten, ongelijke behandeling, buiten bevoegdheid gemeente): formeel bezwaarschrift bij college van burgemeester en schepenen binnen 3 maanden. Inhoud: feiten + juridische gronden + bewijsstukken. Vereisten formeel + aangetekend versturen of via DAVO-platform. De accountant stelt het op; de cliënt ondertekent.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardadvies-praktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "lokale-en-regionale-belastingen" },
+    { "type": "vereist", "target": "lokale-belasting-reglement", "toelichting": "Elke sui-generis-belasting moet steunen op een gemeentelijk belastingreglement." }
   ]
 }
