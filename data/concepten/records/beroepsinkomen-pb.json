@@ -3,13 +3,17 @@
   "naam": {
     "primair": "Beroepsinkomen (PB)",
     "synoniemen": [
-      "revenu professionnel"
-    ]
+      "revenu professionnel",
+      "beroepsinkomsten"
+    ],
+    "vertaling": {
+      "fr": "revenu professionnel"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -19,20 +23,6 @@
       "2.2.VI.A",
       "2.2.VI.B",
       "2.2.X"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-Σ-record voor inkomstencategorie III beroepsinkomen — kaderoverzicht 5 sub-categorieën"
-      }
     ],
     "scope": {
       "in": [
@@ -75,20 +65,72 @@
           "ref": "voordelen-alle-aard"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/beroepsinkomen-pb.json",
+      "primary_bronnen": [
+        "WIB92 art. 23",
+        "WIB92 art. 30",
+        "WIB92 art. 32",
+        "WIB92 art. 49",
+        "WIB92 art. 51",
+        "WIB92 art. 52",
+        "WIB92 art. 53",
+        "WIB92 art. 89",
+        "WIB92 art. 146"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-Σ-record voor inkomstencategorie III beroepsinkomen — kaderoverzicht 5 sub-categorieën"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Σ-kader-inhoud gevuld vanuit bundle (WIB92 art. 23, 30, 32, 49, 51, 52, 89). Bundle-flow zonder extra MCP."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Beroepsinkomen is de derde inkomenscategorie van de personenbelasting (art. 23 WIB92): inkomsten die rechtstreeks of onrechtstreeks voortkomen uit werkzaamheden van alle aard. De wet onderscheidt vijf species: (1) winst (handelaar/onderneming), (2) baten (vrij beroep), (3) winst en baten van een vorige beroepswerkzaamheid (stopzettingsmeerwaarden), (4) bezoldigingen (werknemers, bedrijfsleiders, meewerkende echtgenoten) en (5) pensioenen, renten en vervangingsinkomsten. Het netto-beroepsinkomen is het brutobedrag verminderd met beroepskosten (werkelijk of forfait), beroepsverliezen van het tijdperk en overgedragen verliezen van vorige tijdperken.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Beroepsinkomen is de hoofdas van de Belgische personenbelasting: het draagt de progressie (schijven tot 50 %), de bedrijfsvoorheffing aan de bron en de aftrekbare beroepskosten. Vijf species lijken juridisch onderscheiden maar lopen door elkaar: een arts is 'baten', maar in een doktersvennootschap wordt hij 'bedrijfsleider' met bezoldigingen; een zelfstandige boekhouder is 'baten' tot hij een eenmanszaak omzet in BV (dan winst → bezoldiging). De stagiair moet daarom eerst de juiste species identificeren, dan de aftrek-mechaniek (forfait vs werkelijk) en pas dan de indexering en barema-toepassing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23, 30" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van species + cross-overgang bij vennootschap-vorming" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De vijf-species-structuur weerspiegelt het socio-economisch onderscheid tussen arbeid (loontrekkende), kapitaal+arbeid (zelfstandige/bedrijfsleider) en passieve vervanging (pensioen/werkloosheid). Het brutering→aftrek-schema (art. 23 § 2 WIB) zorgt voor symmetrie: ieder belastingplichtige draagt alleen netto-arbeidsinkomsten af. Het forfaitair kostenpercentage (art. 51 WIB) biedt loontrekkenden vereenvoudiging en eenheid (30 % werknemers, 3 % bedrijfsleiders), terwijl zelfstandigen typisch werkelijke kosten verantwoorden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23, 51" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis van de species-structuur" }
           ]
         }
       }
@@ -96,30 +138,320 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 23-89"
+        "wettelijke_basis": "WIB92 art. 23-89"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke PB-aangifte (vak IV werknemers, vak XVI bedrijfsleiders, vak XVII winst, vak XVIII baten, vak V pensioenen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "vakken IV/V/XVI/XVII/XVIII" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij omzetting eenmanszaak → vennootschap: verschuiving van 'winst' (PB-art. 23-1°) naar 'bezoldiging bedrijfsleider' (art. 30-2°/32).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 30, 32" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "species-1-winst",
+        "naam": { "primair": "Species 1 — Winst" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomen van handelaars, nijveraars en landbouwers uit hun beroepswerkzaamheid (art. 23 § 1, 1° + art. 24 e.v. WIB92). Aangifte vak XVII PB. Belastbaar zijn alle ondernemingsopbrengsten verminderd met aankoop handelsgoederen + beroepskosten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-1°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "species-2-baten",
+        "naam": { "primair": "Species 2 — Baten" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomen van beoefenaars van vrije beroepen, ambten, posten en alle andere niet als loontrekkende uitgeoefende winstgevende bezigheid (art. 23 § 1, 2° + art. 27 WIB92). Aangifte vak XVIII PB. Typisch: arts, advocaat, architect, accountant in persoon. Forfaitair kostenpercentage is dégressief: 28,7 % / 10 % / 5 % / 3 % (art. 51).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-2°, art. 51-4°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "species-3-stopzetting",
+        "naam": { "primair": "Species 3 — Winst en baten van een vorige beroepswerkzaamheid" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomen verkregen na stopzetting van de beroepswerkzaamheid: stopzettingsmeerwaarden, terugnemingen, nagekomen baten (art. 23 § 1, 3° + art. 28 WIB92). Vaak afzonderlijk belast aan 16,5 % of 33 % (zie record stopzettingsmeerwaarde).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-3°" }
+              ]
+            },
+            "relaties": [
+              { "type": "vergelijkbaar_met", "target": "stopzettingsmeerwaarde" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "species-4-bezoldigingen",
+        "naam": { "primair": "Species 4 — Bezoldigingen" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie sub-categorieën (art. 30 WIB92): (1) werknemers (art. 31 — arbeidsovereenkomst), (2) bedrijfsleiders (art. 32 — mandataris of leidende functie buiten arbeidsovereenkomst), (3) meewerkende echtgenoten (art. 33). Aangifte vak IV werknemers, vak XVI bedrijfsleiders. Bezoldigingen omvatten loon, voordelen alle aard, premies, tantièmes en gelijkgestelde voordelen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 30" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "species-5-pensioenen",
+        "naam": { "primair": "Species 5 — Pensioenen, renten en vervangingsinkomsten" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Wettelijke + aanvullende pensioenen, werkloosheidsuitkeringen, ZIV-uitkeringen, brugpensioenen en andere vervangingsinkomsten die een tijdelijke of definitieve derving van bezoldiging compenseren (art. 23 § 1, 5° + art. 34 + art. 146 WIB92). Aangifte vak V PB. Specifieke belastingvermindering art. 147-154.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-5°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 146" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "netto-bewerking",
+        "naam": { "primair": "Bewerking bruto → netto (art. 23 § 2 WIB)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "Drie stappen in vaste volgorde (art. 23 § 2): (a) bruto-inkomen per beroepswerkzaamheid − aftrekbare beroepskosten (werkelijk gerechtvaardigd óf forfaitair via art. 51) = netto per werkzaamheid; (b) eventuele beroepsverliezen van het belastbare tijdperk worden afgetrokken van andere beroepswerkzaamheden van dezelfde belastingplichtige; (c) van het saldo worden overgedragen beroepsverliezen van vorige tijdperken afgetrokken. Vrijgestelde inkomsten worden eerst uitgesloten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 2" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Bruto-netto-cascade:\n\n```mermaid\nflowchart TD\n  A[Bruto-beroepsinkomsten per species] --> B{Vrijgesteld?}\n  B -->|ja| Z[Uitgesloten]\n  B -->|nee| C[− Beroepskosten werkelijk OF forfait art. 51]\n  C --> D[Netto per werkzaamheid]\n  D --> E[− Beroepsverliezen tijdperk andere werkzaamheden]\n  E --> F[− Overgedragen beroepsverliezen vorige tijdperken]\n  F --> G[Netto belastbaar beroepsinkomen]\n```"
+          }
+        ]
+      },
+      {
+        "id": "forfaitair-kostenpercentage",
+        "naam": { "primair": "Forfaitair kostenpercentage (art. 51 WIB)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij gebrek aan bewezen werkelijke kosten worden beroepskosten forfaitair bepaald op: werknemers 30 % (max € 2.950); bedrijfsleiders 3 % (max € 1.555,50); meewerkende echtgenoten 5 % (max € 2.592,50); baten (dégressief) 28,7 % / 10 % / 5 % / 3 % op schijven (max € 2.592,50); winst 30 % (max € 2.950). Plafonds zijn niet-geïndexeerde bedragen — zie Cijferzakboekje voor geïndexeerd plafond aanslagjaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 51" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Forfaitkosten per species (WIB92 art. 51, niet-geïndexeerd):\n\n| Species | Forfait-% | Plafond (niet-geïnd.) |\n|---|---|---|\n| Werknemers | 30 % | € 2.950 |\n| Bedrijfsleiders | 3 % | € 1.555,50 |\n| Meewerkende echtgenoten | 5 % | € 2.592,50 |\n| Baten (schijf 1: ≤ 3.750) | 28,7 % | (schijven cumul. max € 2.592,50) |\n| Baten (3.750-7.450) | 10 % | — |\n| Baten (7.450-12.400) | 5 % | — |\n| Baten (> 12.400) | 3 % | — |\n| Winst | 30 % | € 2.950 |"
+          }
+        ]
+      },
+      {
+        "id": "werkelijke-kosten-bewijslast",
+        "naam": { "primair": "Werkelijke beroepskosten — bewijslast (art. 49 WIB)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Werkelijke beroepskosten zijn aftrekbaar als de belastingplichtige bewijst dat ze in het belastbare tijdperk gedaan of gedragen werden om belastbare inkomsten te verkrijgen of te behouden, én dat hij de echtheid en het bedrag verantwoordt door bewijsstukken (subsidiair: alle door gemeen recht toegelaten bewijsmiddelen, behalve de eed). Niet-aftrekbare uitgaven (art. 53) blijven uitgesloten — zie record beroepskosten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" }
+              ]
+            },
+            "relaties": [
+              { "type": "vereist", "target": "beroepskosten" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "bezoldiging-meewerkende-echtgenoot",
+        "naam": { "primair": "Meewerkende echtgenoot — bezoldigingsregime (art. 33)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een echtgenoot die de zelfstandige helpt zonder andere beroepsinkomsten kan een deel van diens beroepsinkomen krijgen toegerekend als 'bezoldiging meewerkende echtgenoot' (art. 30-3° + art. 33 WIB92). Sinds 2003 verplicht 'maxistatuut' (eigen sociale-zekerheids-bijdragen). Forfaitkosten 5 % met plafond € 2.592,50 (niet-geïndexeerd, art. 51). Niet verwarren met huwelijksquotient — daar is er géén meewerk-activiteit.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 30-3°, 33" }
+              ]
+            },
+            "relaties": [
+              { "type": "vergelijkbaar_met", "target": "huwelijksquotient" }
+            ]
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-werknemer-net",
+        "titel": "Werknemer met bruto € 45.000 — netto beroepsinkomen via forfait",
+        "context": "Loontrekkende, geen werkelijke kosten geclaimd, aanslagjaar fictief op niet-geïndexeerde bedragen.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Berekening:\n\n| Stap | Bedrag |\n|---|---|\n| Bruto-bezoldigingen (fiche 281.10 code 250) | € 45.000,00 |\n| Persoonlijke RSZ-bijdragen werknemer (13,07 %, art. 52-7°/52-14 WIB) | − € 5.881,50 |\n| Netto belastbaar vóór forfaitkosten | € 39.118,50 |\n| Forfaitair kostenforfait 30 % | € 11.735,55 |\n| → begrensd op plafond (niet-geïndexeerd € 2.950) | − € 2.950,00 |\n| **Netto beroepsinkomen** | **€ 36.168,50** |\n\nIn de aangifte: code 1250-11 (bruto) — code 1255-06 (RSZ) — forfait wordt automatisch berekend; bij keuze werkelijke kosten code 1258/1271."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23, 51, 52-7°" },
+            { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "vak IV" }
+          ]
+        }
+      },
+      {
+        "id": "vb-bedrijfsleider-net",
+        "titel": "Bedrijfsleider met bruto € 60.000 — netto beroepsinkomen + bedrijfsvoorheffing",
+        "context": "Zaakvoerder BV. Geen werkelijke kosten geclaimd. Sociale bijdrage zelfstandige zelf afgehouden buiten loonadministratie.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Berekening:\n\n| Stap | Bedrag |\n|---|---|\n| Bruto-bezoldiging bedrijfsleider (fiche 281.20 code 400) | € 60.000,00 |\n| Sociale bijdragen zelfstandige (≈ 20,5 % schatting) | − € 12.300,00 |\n| Netto belastbaar vóór forfaitkosten | € 47.700,00 |\n| Forfaitair kostenforfait 3 % | € 1.431,00 |\n| → begrensd op plafond (niet-geïndexeerd € 1.555,50) | − € 1.431,00 |\n| **Netto beroepsinkomen** | **€ 46.269,00** |\n\nAangifte: code 1401-54. Hier kunnen werkelijke kosten gunstig zijn (kantooronkosten + autokosten + interest art. 52-11°)."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boeking bezoldiging bedrijfsleider in vennootschap (maandelijks bruto € 5.000):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 618 | Bezoldigingen bestuurders, zaakvoerders, beherende vennoten | 5.000 | |\n| | aan 4530 Bedrijfsvoorheffing | | (variabel) |\n| | aan 416/489 R/C zaakvoerder | | (saldo) |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 30-2°, 32, 51-2°" },
+            { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "vak XVI code 1401" }
+          ]
+        }
+      },
+      {
+        "id": "vb-vrijberoep-baten",
+        "titel": "Vrij beroep — baten arts € 80.000, forfait-cascade",
+        "context": "Arts in eigen praktijk (niet in vennootschap). Aangifte vak XVIII PB.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Baten-forfait dégressief (art. 51-4°, niet-geïndexeerd):\n\n| Schijf | % | Bedrag | Forfait |\n|---|---|---|---|\n| Eerste € 3.750 | 28,7 % | 3.750 | 1.076,25 |\n| 3.750-7.450 | 10 % | 3.700 | 370,00 |\n| 7.450-12.400 | 5 % | 4.950 | 247,50 |\n| > 12.400 | 3 % | 67.600 | 2.028,00 |\n| Som forfait (theoretisch) | | | 3.721,75 |\n| → begrensd op plafond € 2.592,50 (niet-geïndexeerd) | | | **2.592,50** |\n\nNetto beroepsinkomen = € 80.000 − € 2.592,50 = € 77.407,50. In de praktijk claimt arts werkelijke kosten (assistente, huur kabinet, IT) ver boven dat plafond."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 51-4°" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bezoldiging meewerkende echtgenoot ≠ huwelijksquotient",
+        "verkeerde_assumptie": "Beide regimes 'verschuiven' inkomen van één naar andere echtgenoot, dus ze zijn varianten van hetzelfde mechanisme.",
+        "kernpunt": "Meewerkende echtgenoot (art. 30-3°/33) vereist effectieve meewerk-activiteit + eigen sociale-zekerheids-statuut (maxistatuut). Huwelijksquotient (art. 87) is automatische toerekening (30 %, plafond ± € 6.700 niet-geïndexeerd) bij grote inkomensongelijkheid zonder dat de andere echtgenoot meewerkt. Beide kunnen niet samen toegepast worden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 33, 87" }
+          ]
+        }
+      },
+      {
+        "titel": "Forfaitair plafond wordt vaak niet bereikt — werkelijke kosten kunnen gunstig zijn",
+        "verkeerde_assumptie": "Het forfait (30 % werknemers / 3 % bedrijfsleiders) is altijd zo gunstig dat werkelijke kosten geen meerwaarde geven.",
+        "kernpunt": "Bij werknemers met lange woon-werk-trajecten of een eigen werkkring zijn werkelijke kosten (autokosten 0,15 €/km woon-werk + werkkamer + IT) typisch hoger dan het plafond. Bij bedrijfsleiders is het plafond € 1.555,50 (niet-geïndexeerd) bijna altijd te laag → werkelijke kosten zijn de norm.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "personenbelasting"
-    },
-    {
-      "type": "bevat",
-      "target": "werknemersbezoldiging"
-    },
-    {
-      "type": "bevat",
-      "target": "bedrijfsleidersbezoldiging"
-    },
-    {
-      "type": "bevat",
-      "target": "winst-baten-zelfstandige"
-    },
-    {
-      "type": "vereist",
-      "target": "beroepskosten"
+      "id": "stagiair-aangifte-pb",
+      "naam": { "primair": "Stagiair die de PB-aangifte van een cliënt opmaakt" },
+      "intro": "Per inkomensspecies komt de informatie van een andere fiche en gaat ze in een ander aangiftevak. De stagiair moet vooraf de juiste species identificeren.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-species-classificatie",
+              "naam": { "primair": "Species-classificatie vóór aangifte" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Identificeer juridisch statuut: arbeidsovereenkomst → werknemer (vak IV); mandaat/leiding zonder arbeidsovereenkomst → bedrijfsleider (vak XVI); zelfstandige handelaar/nijveraar → winst (vak XVII); vrij beroep → baten (vak XVIII); pensioen/uitkering → vak V. (2) Verzamel fiches 281.10/281.20/281.50/281.11. (3) Match fiche-codes op aangifte-codes. (4) Beslis forfait of werkelijke kosten op basis van fiche + werkelijke uitgaven cliënt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 23, 30" },
+                      { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "personenbelasting" },
+    { "type": "bevat", "target": "werknemersbezoldiging" },
+    { "type": "bevat", "target": "bedrijfsleidersbezoldiging" },
+    { "type": "bevat", "target": "winst-baten-zelfstandige" },
+    { "type": "bevat", "target": "voordelen-alle-aard" },
+    { "type": "vereist", "target": "beroepskosten" },
+    { "type": "triggert", "target": "bedrijfsvoorheffing" }
   ]
 }
