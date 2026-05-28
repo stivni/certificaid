@@ -8,12 +8,16 @@
       "value-added tax",
       "VAT",
       "TVA"
-    ]
+    ],
+    "vertaling": {
+      "fr": "taxe sur la valeur ajoutée",
+      "en": "value-added tax"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -30,9 +34,22 @@
       "2.4.taak.1"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw.json",
+      "primary_bronnen": [
+        "Wetboek van de belasting over de toegevoegde waarde (W.BTW) — Wet 03-07-1969",
+        "Richtlijn 2006/112/EG (BTW-systeemrichtlijn)",
+        "Uitvoeringsverordening (EU) nr. 282/2011",
+        "K.B. nr. 1 van 29-12-1992 (regeling voor de voldoening van de BTW)",
+        "K.B. nr. 20 van 20-07-1970 (tarieven van de BTW)",
+        "K.B. nr. 4 van 29-12-1969 (teruggaven)",
+        "K.B. nr. 24 van 29-12-1992 (voldoening)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -41,6 +58,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Σ-hoofdrecord BTW gevuld vanuit bundle-chunks (W.BTW, Richtlijn 2006/112, KB nr. 1/4/20/24). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -93,27 +117,891 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw).",
+        "tekst": "De belasting over de toegevoegde waarde (btw) is een algemene verbruiksbelasting die strikt evenredig is aan de prijs van geleverde goederen en diensten — ongeacht het aantal schakels in de productie- en distributieketen tot en met de kleinhandelsfase. Bij elke schakel wordt btw geheven op de verkoopprijs en mag de schakel zelf de btw op zijn aankopen aftrekken; per saldo draagt elke schakel slechts btw af op de toegevoegde waarde die hij creëert, en wordt de volledige eindprijs-btw economisch gedragen door de eindverbruiker.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 1, lid 2",
+              "context": "Beginsel + werking BTW-stelsel tot kleinhandelsfase"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 2",
+              "context": "BTW geheven op leveringen van goederen en diensten verricht onder bezwarende titel door een als zodanig handelende belastingplichtige"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is btw een eindverbruikersbelasting, juridisch een ondernemersbelasting. De fiscus int via de keten van belastingplichtigen — niet via de eindconsument. Elke belastingplichtige is tegelijk inner (op verkopen → output-btw) en betaler (op aankopen → input-btw); via het aftrekrecht (art. 45 W.BTW) ontstaat een netto-saldo dat hij periodiek aan de Schatkist betaalt of terugkrijgt. Wie geen recht op aftrek heeft (particulier, vrijgestelde belastingplichtige) draagt de btw definitief. De keten breekt waar het aftrekrecht stopt — daar valt de last neer.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 1, lid 2"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 45",
+              "context": "Aftrekrecht — neutraliteit voor belastingplichtige"
+            },
+            {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese keten-mechanisme: standaardleer fiscaal handboek"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis is dubbel: (1) neutraliteit — de belasting mag de keuze tussen integratie en uitbesteding niet beïnvloeden en mag de concurrentie tussen lidstaten niet verstoren; daarom heffing op elke schakel met aftrek van voorbelasting, in plaats van een cumulatieve omzetbelasting; (2) verbruikslocalisatie — het tarief en de heffing volgen het land van verbruik, niet het land van productie. De systeemrichtlijn 2006/112/EG harmoniseert deze logica binnen de EU; lidstaten implementeren via nationaal recht (in België het W.BTW).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "preambule + art. 1",
+              "context": "Gemeenschappelijk BTW-stelsel — neutraliteits- en verbruiksbeginsel"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese ratio legis BTW-stelsel"
             }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscaal-recht"
+      ],
+      "naast_relevant": [
+        "personenbelasting",
+        "vennootschapsbelasting"
+      ],
+      "volgkennis": [
+        "btw-belastingplichtige",
+        "btw-levering-goederen",
+        "btw-dienstverlening",
+        "plaats-van-handeling-btw",
+        "opeisbaarheid-btw",
+        "maatstaf-van-heffing-btw",
+        "btw-tarieven",
+        "btw-aftrek",
+        "btw-aangifte",
+        "btw-grensoverschrijdend"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "1971",
-        "wettelijke_basis": "W.BTW 03-07-1969 + EU-richtlijn 2006/112"
+        "sinds": "1971-01-01",
+        "wettelijke_basis": "W.BTW 03-07-1969 (in werking 01-01-1971) — geharmoniseerd via Richtlijn 2006/112/EG (opvolger van de Zesde Richtlijn 77/388/EEG)",
+        "toelichting": "Het btw-stelsel is sinds 1971 in werking in België. De materie is sterk Europees gestuurd: nationale wetgeving moet overeenstemmen met Richtlijn 2006/112/EG en met Uitvoeringsverordening (EU) nr. 282/2011 (rechtstreeks toepasselijk). Tarieven en bedragen worden geregeld geïndexeerd of bijgesteld."
+      },
+      "voor": [
+        {
+          "tekst": "Elke ondernemer (natuurlijke persoon of vennootschap) die geregeld en zelfstandig handelingen onder bezwarende titel verricht: leveringen van goederen, dienstverrichtingen, invoer en intracommunautaire verwervingen. De ondernemer registreert zich bij de btw-administratie, krijgt een btw-identificatienummer (BE0XXX.XXX.XXX) en doet periodieke aangifte.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4 + art. 50"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Particulieren en niet-belastingplichtige rechtspersonen (overheid bij gezagshandelingen) staan in beginsel buiten het stelsel — zij dragen de btw definitief als eindverbruiker. Vrijgestelde belastingplichtigen (art. 44 W.BTW: medische zorg, onderwijs, sociale dienstverlening, financiële diensten) factureren geen btw en hebben geen recht op aftrek.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 44",
+                "context": "Vrijstellingen zonder recht op aftrek"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Neutraliteit voor de belastingplichtige: dankzij het aftrekrecht weegt de btw economisch niet op de ondernemingsmarge, ongeacht de lengte van de productieketen. Een geïntegreerd bedrijf en een keten van onderaannemers betalen samen evenveel btw aan de Schatkist.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "richtlijn",
+                "naam": "Richtlijn 2006/112/EG",
+                "ref": "art. 1, lid 2"
+              },
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 45"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Foutieve kwalificatie van een handeling (levering vs. dienst, plaats van handeling, tarief) leidt tot ofwel te weinig afgedragen btw (proportionele boete + nalatigheidsinteresten op grond van art. 70 + 91 W.BTW) ofwel te veel gefactureerde btw die de afnemer mogelijk niet kan recupereren. Btw die ten onrechte op een factuur staat is volgens art. 51, §1, 3° W.BTW gewoon verschuldigd door de uitreiker — ook al was er geen levering of dienst.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 51, §1, 3°",
+                "context": "Btw vermeld op factuur is verschuldigd door de uitreiker, zelfs zonder onderliggende handeling"
+              },
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 70 + art. 91"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor de schakel die geen recht op aftrek heeft (vrijgestelde belastingplichtige, gemengde belastingplichtige met deelproratabreuk) is btw een kostprijs-component. Inschatting van het aftrekpercentage bij investeringen (bedrijfsmiddelen-herziening over 5 of 15 jaar) is een cruciale planningstap.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 46 + art. 49"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "btw-keten-mechanisme",
+        "naam": {
+          "primair": "BTW-keten en cascade-aftrek"
+        },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "De btw werkt als een ketting van schakels: elke belastingplichtige rekent op zijn verkoopprijs btw aan (output-btw), trekt de btw af die hij zelf op aankopen heeft betaald (input-btw) en stort het verschil aan de Schatkist. De volledige eindprijs-btw belandt zo bij de eindverbruiker, ook al heeft elke schakel slechts btw afgedragen op zijn eigen toegevoegde waarde. De keten breekt waar een schakel geen aftrekrecht heeft (vrijgestelde belastingplichtige, particulier) — daar wordt de btw definitieve last.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "richtlijn",
+                    "naam": "Richtlijn 2006/112/EG",
+                    "ref": "art. 1, lid 2"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 45"
+                  }
+                ]
+              }
+            }
+          },
+          "voorbeelden": [
+            {
+              "titel": "Cascade-voorbeeld: van houtkapper tot consument (tarief 21 %)",
+              "context": "Drie schakels in een productieketen, alle btw-plichtig met volledig aftrekrecht. Tarief 21 %. Bedragen excl. btw.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Standaard cascade-illustratie BTW"
+                  }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Schakel",
+                    "Aankoop excl.",
+                    "Verkoop excl.",
+                    "Output-btw 21 %",
+                    "Input-btw 21 %",
+                    "Saldo aan Schatkist"
+                  ],
+                  "rijen": [
+                    [
+                      "Houtkapper",
+                      "0",
+                      "100",
+                      "21",
+                      "0",
+                      "21"
+                    ],
+                    [
+                      "Zagerij",
+                      "100",
+                      "150",
+                      "31,50",
+                      "21",
+                      "10,50"
+                    ],
+                    [
+                      "Meubelmaker",
+                      "150",
+                      "300",
+                      "63",
+                      "31,50",
+                      "31,50"
+                    ],
+                    [
+                      "Eindverbruiker",
+                      "300 (excl.) → betaalt 363 incl.",
+                      "—",
+                      "—",
+                      "—",
+                      "—"
+                    ],
+                    [
+                      "TOTAAL aan Schatkist",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "63"
+                    ]
+                  ],
+                  "toelichting": "De eindverbruiker betaalt 63 EUR btw op 300 EUR toegevoegde waarde. Dat bedrag is verdeeld over de drie schakels (21 + 10,50 + 31,50 = 63). Elke schakel droeg slechts btw af op zijn eigen toegevoegde waarde — geen cumulatie."
+                }
+              ]
+            }
+          ],
+          "valkuilen": [
+            {
+              "titel": "Btw is geen kostprijs voor de ondernemer",
+              "verkeerde_assumptie": "Een stagiair denkt dat een ondernemer 21 % btw 'extra betaalt' op zijn aankopen — dus dat de aankoopprijs duurder wordt door btw.",
+              "kernpunt": "Voor een belastingplichtige met volledig aftrekrecht is btw géén kostprijs: de input-btw wordt teruggevorderd of verrekend. Btw is alleen kostprijs voor wie geen of beperkt aftrekrecht heeft (particulier, art. 44-vrijgestelde, gemengde belastingplichtige). Toets bij elke boekingsvraag: 'heeft deze schakel aftrekrecht?'",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 45"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "vier-bouwelementen-btw",
+        "naam": {
+          "primair": "De vier bouwelementen van een btw-handeling"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Om btw correct toe te passen op een handeling moet de accountant systematisch vier vragen beantwoorden: (1) is de uitvoerder een belastingplichtige? (2) wat voor handeling is het — levering van goederen, dienst, invoer of intracommunautaire verwerving? (3) waar vindt de handeling plaats? (4) tegen welke maatstaf van heffing en welk tarief wordt geheven? Pas wanneer deze vier elementen vaststaan, volgt de vraag wanneer de btw opeisbaar wordt en wie ze moet voldoen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 2 + art. 4 + art. 10 + art. 18 + art. 21-22 + art. 26 + art. 37"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Didactische volgorde 'vier bouwelementen' is standaardleer in fiscaal handboek"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "element-1-belastingplichtige",
+              "naam": {
+                "primair": "1. Belastingplichtige (Wie?)"
+              },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eenieder die op zelfstandige wijze geregeld een economische activiteit uitoefent, ongeacht het oogmerk of het resultaat. Sluit in: ondernemers, vrije beroepen, vennootschappen. Sluit uit: werknemers, particulieren (occasioneel), gezagshandelingen van de overheid. Detail in afgesplitst record `btw-belastingplichtige`.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 4"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "element-2-handeling",
+              "naam": {
+                "primair": "2. Belastbare handeling (Wat?)"
+              },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vier categorieën: (a) levering van goederen — overdracht van de macht om als eigenaar te beschikken (art. 10 W.BTW); (b) dienstverrichting — elke handeling die geen levering van goederen is (art. 18 W.BTW); (c) intracommunautaire verwerving — aankoop uit andere EU-lidstaat (art. 25bis); (d) invoer — binnenkomen in de EU vanuit een derde land (art. 23). Detail in `btw-levering-goederen` en `btw-dienstverlening`.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 10 + art. 18 + art. 23 + art. 25bis"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "element-3-plaats",
+              "naam": {
+                "primair": "3. Plaats van handeling (Waar?)"
+              },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bepaalt of België — en niet een ander land — heffingsbevoegd is. Algemene regels: levering van goederen → plaats waar het goed zich bevindt op het moment van vertrek (art. 14-15); dienst B2B → plaats waar de afnemer gevestigd is (art. 21, §2); dienst B2C → plaats waar de dienstverrichter gevestigd is (art. 21, §1); uitzonderingen voor onroerende diensten, vervoer, restaurant, evenementen. Detail in `plaats-van-handeling-btw`.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 14 + art. 15 + art. 21 + art. 21bis + art. 22"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "element-4-maatstaf-en-tarief",
+              "naam": {
+                "primair": "4. Maatstaf van heffing en tarief (Hoeveel?)"
+              },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maatstaf = de tegenprestatie die de leverancier ontvangt of moet ontvangen, inclusief bijkomende kosten (vervoer, verpakking, verzekering) en uitgezonderd de btw zelf (art. 26 W.BTW + art. 78 Richtlijn 2006/112). Tarieven België: 0 %, 6 %, 12 % en 21 % — vastgelegd in K.B. nr. 20 (tabel A = 6 %; tabel B = 12 %; tabel C = 0 %; restcategorie = 21 % standaardtarief). Detail in `maatstaf-van-heffing-btw` en `btw-tarieven`.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 26 + art. 37"
+                      },
+                      {
+                        "type": "kb",
+                        "naam": "K.B. nr. 20 van 20-07-1970",
+                        "ref": "art. 1"
+                      },
+                      {
+                        "type": "richtlijn",
+                        "naam": "Richtlijn 2006/112/EG",
+                        "ref": "art. 78"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "btw-stelsels-vergelijking",
+        "naam": {
+          "primair": "Bijzondere btw-regimes — vergelijkingsmatrix"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Naast het gewone btw-stelsel kent het W.BTW vier bijzondere regimes. Elk heeft eigen drempel, formele verplichtingen en aftrek-effect. De keuze wordt gestuurd door omzet, aard van de activiteit en administratieve capaciteit.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 56 + art. 56bis + art. 4, §2"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "regimes-overzicht",
+              "naam": {
+                "primair": "Vergelijkingstabel btw-regimes"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Vier regimes naast het gewone stelsel — keuze afhankelijk van omzet, sector en organisatiestructuur.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "kolommen": [
+                    "Regime",
+                    "Wettelijke basis",
+                    "Drempel/voorwaarde",
+                    "Btw aanrekenen?",
+                    "Aftrekrecht?",
+                    "Aangifte"
+                  ],
+                  "rijen": [
+                    [
+                      "Gewoon stelsel",
+                      "W.BTW art. 50 e.v.",
+                      "Standaard",
+                      "Ja (0/6/12/21 %)",
+                      "Volledig (mits art. 45)",
+                      "Kwartaal of maand"
+                    ],
+                    [
+                      "Kleine onderneming (KO-regeling)",
+                      "W.BTW art. 56bis",
+                      "Omzet ≤ 25 000 EUR/jaar (niet-geïndexeerd)",
+                      "Nee",
+                      "Nee",
+                      "Geen periodieke btw-aangifte; jaarlijkse klantenlijst"
+                    ],
+                    [
+                      "Forfaitaire regeling",
+                      "W.BTW art. 56 + KB nr. 2",
+                      "Specifieke sectoren (bakker, kapper, café, kleinhandel) — uitdovend (geen nieuwe instromers sinds 01-01-2022)",
+                      "Ja, forfaitair berekend",
+                      "Volledig",
+                      "Kwartaalaangifte met forfaitair berekende omzet"
+                    ],
+                    [
+                      "BTW-eenheid",
+                      "W.BTW art. 4, §2 + KB nr. 55",
+                      "Groep van in Belgie gevestigde belastingplichtigen met financiele, economische en organisatorische banden",
+                      "Eén btw-nummer voor de groep; interne handelingen buiten btw",
+                      "Volledig (op groepsniveau)",
+                      "Eén aangifte voor de hele groep"
+                    ],
+                    [
+                      "Landbouwregeling",
+                      "W.BTW art. 57",
+                      "Landbouwers die uitsluitend landbouwproducten leveren",
+                      "Forfaitaire compensatie 6 % (niet eigenlijk btw)",
+                      "Geen aftrek",
+                      "Geen periodieke aangifte"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "btw-rechtsbronnen-hierarchie",
+        "naam": {
+          "primair": "Hiërarchie van btw-rechtsbronnen"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een btw-vraag wordt steeds beoordeeld door de rechtsbronnen in vaste volgorde af te toetsen: (1) EU-recht — Richtlijn 2006/112/EG en Uitvoeringsverordening (EU) nr. 282/2011 (rechtstreeks toepasselijk); (2) wet — Wetboek van de belasting over de toegevoegde waarde (W.BTW, Wet 03-07-1969); (3) koninklijk besluit (KB nr. 1 t.e.m. KB nr. 56, elk met eigen onderwerp); (4) ministerieel besluit (MB); (5) administratieve commentaar (circulaires, beslissingen, FAQ van de FOD Financiën) — niet bindend voor de rechter maar wel bindend voor de fiscus tegen zichzelf (vertrouwensbeginsel); (6) rechtspraak (HvJ-EU, Hof van Cassatie).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 1 + diverse delegaties aan de Koning"
+                  },
+                  {
+                    "type": "richtlijn",
+                    "naam": "Richtlijn 2006/112/EG",
+                    "ref": "art. 1"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Hiërarchie is doctrine — standaard in fiscaal handboek"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "kb-overzicht",
+              "naam": {
+                "primair": "Belangrijkste koninklijke besluiten"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Sleutel-KB's die de stagiair moet herkennen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "KB",
+                    "Onderwerp"
+                  ],
+                  "rijen": [
+                    [
+                      "KB nr. 1 (29-12-1992)",
+                      "Regeling voor de voldoening van de btw — factuurinhoud, boekhoudkundige verplichtingen, aangiftemodaliteiten"
+                    ],
+                    [
+                      "KB nr. 2 (07-11-2019)",
+                      "Forfaitaire regeling — sectoren en berekeningsformules"
+                    ],
+                    [
+                      "KB nr. 3 (10-12-1969)",
+                      "Aftrek van btw"
+                    ],
+                    [
+                      "KB nr. 4 (29-12-1969)",
+                      "Teruggaven van btw"
+                    ],
+                    [
+                      "KB nr. 10 (29-12-1992)",
+                      "Belastingplichtige — uitoefening keuze-mogelijkheden (vrijwillige belastingplicht, verhuur)"
+                    ],
+                    [
+                      "KB nr. 14 (03-06-1970)",
+                      "Onroerende leveringen — vervreemdingen van gebouwen"
+                    ],
+                    [
+                      "KB nr. 20 (20-07-1970)",
+                      "Tarieven — tabel A (6 %), tabel B (12 %), tabel C (0 %)"
+                    ],
+                    [
+                      "KB nr. 24 (29-12-1992)",
+                      "Voldoening van de btw — betalingsmodaliteiten"
+                    ],
+                    [
+                      "KB nr. 31 (02-04-2002)",
+                      "Verleggingsregeling — overdracht heffingsplicht aan medecontractant"
+                    ],
+                    [
+                      "KB nr. 55 (09-03-2007)",
+                      "BTW-eenheid"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Btw is geen Belgische belasting",
+        "verkeerde_assumptie": "De stagiair behandelt btw als een puur nationaal vraagstuk en grijpt eerst naar de Belgische wettekst. Bij twijfel zoekt hij naar een circulaire.",
+        "kernpunt": "Btw is een sterk geharmoniseerd Europees stelsel: de Belgische wet moet conform zijn met Richtlijn 2006/112/EG en met Uitvoeringsverordening (EU) nr. 282/2011 (rechtstreeks toepasselijk). Bij conflict heeft het EU-recht voorrang. Bij twijfel kijkt men eerst naar de richtlijn en de rechtspraak van het Hof van Justitie van de EU (HvJ-EU) — niet naar een Belgische circulaire.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 1"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Btw op factuur ≠ btw aftrekbaar",
+        "verkeerde_assumptie": "Wat op de inkomende factuur als btw staat, mag automatisch in vak 59 van de aangifte (aftrekbare btw).",
+        "kernpunt": "Aftrek vereist dat de inkomende factuur regelmatig is (alle vermeldingen art. 5 KB nr. 1), dat de aankoop bestemd is voor belaste uitgaande handelingen (art. 45 W.BTW) en dat er geen aftrekverbod geldt (art. 45, §2 — tabak, recepties; beperking 50 % auto's). Btw op een onregelmatige factuur is niet aftrekbaar, ook al is ze effectief betaald. Btw die ten onrechte werd aangerekend (bv. op een vrijgestelde handeling) is evenmin aftrekbaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 45, §1 + §2"
+            },
+            {
+              "type": "kb",
+              "naam": "K.B. nr. 1 van 29-12-1992",
+              "ref": "art. 5",
+              "context": "Factuurinhoud"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Σ-record ≠ detailrecord",
+        "verkeerde_assumptie": "Voor een concrete casus volstaat het om dit Σ-record te lezen.",
+        "kernpunt": "Dit Σ-record geeft alleen de architectuur. Voor toepassing op een concrete casus moet de stagiair systematisch naar de detailrecords: `btw-belastingplichtige`, `btw-levering-goederen`, `btw-dienstverlening`, `plaats-van-handeling-btw`, `opeisbaarheid-btw`, `maatstaf-van-heffing-btw`, `btw-tarieven`, `btw-aftrek`, `btw-aangifte`, `btw-grensoverschrijdend`.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Pedagogische valkuil — leespad-discipline"
+            }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "beslisboom",
+        "intro": "Vier-stappen-beslisboom om een btw-vraag systematisch aan te pakken — gebruik dit Σ-record als kaart en navigeer naar de detailrecords.",
+        "inhoud": {
+          "mermaid": "flowchart TD\n  A[Concrete handeling] --> B{Wie? Belastingplichtige?}\n  B -->|Nee — particulier/vrijgesteld| Z[Geen btw verschuldigd op output<br/>— maar input-btw is kostprijs]\n  B -->|Ja| C{Wat? Levering goederen,<br/>dienst, ICV of invoer?}\n  C --> D{Waar? Belastbaar in Belgie?}\n  D -->|Nee — buitenland| Y[Buitenlandse btw of vrijstelling<br/>→ zie btw-grensoverschrijdend]\n  D -->|Ja| E{Hoeveel?<br/>Maatstaf x tarief}\n  E --> F{Wanneer opeisbaar?<br/>Factuurdatum vs leveringsdatum}\n  F --> G[Btw verschuldigd<br/>→ aangifte + betaling]\n  G --> H{Heeft afnemer aftrekrecht?}\n  H -->|Ja| I[Neutraal — recupereert input-btw]\n  H -->|Nee| J[Definitieve last bij afnemer]"
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor-btw-overzicht",
+      "naam": {
+        "primair": "Eigen kantoor — cliëntdossier btw"
+      },
+      "intro": "Wat de accountant doet wanneer hij een cliënt-dossier opent dat onder het btw-stelsel valt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-output-input",
+              "naam": {
+                "primair": "Boeking output-btw en input-btw"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Standaardboeking bij een verkoopfactuur (output-btw): debiteren klanten (400) en crediteren verkopen (70xx) plus verschuldigde btw (451000). Bij een aankoopfactuur (input-btw): debiteren aankopen (60xx) plus aftrekbare btw (411000) en crediteren leveranciers (440). Op kwartaal- of maandeinde wordt het saldo 451 vs 411 berekend en op rekeningen 450 (te betalen) of 412 (terug te vorderen) geboekt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "context": "Verkoopfactuur 1 000 EUR + 21 % btw aan klant met btw-nummer in België",
+                  "rijen": [
+                    {
+                      "rekening": "400 Klanten",
+                      "debet": 1210,
+                      "credit": null
+                    },
+                    {
+                      "rekening": "70 Verkopen",
+                      "debet": null,
+                      "credit": 1000
+                    },
+                    {
+                      "rekening": "451000 Te betalen btw (output)",
+                      "debet": null,
+                      "credit": 210
+                    }
+                  ]
+                },
+                {
+                  "type": "boeking",
+                  "context": "Aankoopfactuur kantoorbenodigdheden 500 EUR + 21 % btw, volledig aftrekbaar",
+                  "rijen": [
+                    {
+                      "rekening": "61 Diensten en diverse goederen",
+                      "debet": 500,
+                      "credit": null
+                    },
+                    {
+                      "rekening": "411000 Aftrekbare btw (input)",
+                      "debet": 105,
+                      "credit": null
+                    },
+                    {
+                      "rekening": "440 Leveranciers",
+                      "debet": null,
+                      "credit": 605
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "kwalificatie-vooraf",
+              "naam": {
+                "primair": "Voorafgaande btw-kwalificatie nieuwe activiteit"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij opstart van een nieuwe activiteit of een nieuw soort transactie loopt de accountant de vier bouwelementen langs (belastingplichtige · handeling · plaats · maatstaf+tarief) en bepaalt: (a) is btw-registratie verplicht of optioneel? (b) welk regime past best (gewoon vs KO vs forfait — zie vergelijkingstabel)? (c) is een ruling bij de Dienst Voorafgaande Beslissingen aangewezen voor onzekere kwalificaties? Deze voorafgaande kwalificatie voorkomt regularisaties achteraf met boete plus interesten.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "optimalisatie-aftrek",
+              "naam": {
+                "primair": "Optimaliseren aftrekrecht (gemengde belastingplichtige)"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij een gemengde belastingplichtige (deels art. 44-vrijgestelde activiteit, deels belaste activiteit) berekent de accountant het algemene verhoudingsgetal (omzet belast / totale omzet, art. 46, §1) of past hij het werkelijke gebruik toe (art. 46, §2 — verplicht sinds 01-01-2023 voor nieuwe gemengde btw-plichtigen). De keuze beïnvloedt rechtstreeks het cash-effect en moet jaarlijks worden gemonitord.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "regime-keuze",
+              "naam": {
+                "primair": "Keuze tussen gewoon stelsel, KO en BTW-eenheid"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Vuistregels bij regime-advies: (1) verwachte omzet onder 25 000 EUR + B2C-cliënteel → KO-regeling overwegen (geen factuur-btw vereenvoudigt prijszetting); (2) verwachte omzet boven 25 000 EUR of B2B-cliënteel → gewoon stelsel (klanten willen aftrekbare btw); (3) groep van verbonden vennootschappen met veel interne facturatie + minstens één gemengde belastingplichtige in de groep → BTW-eenheid analyseren (interne handelingen buiten btw verminderen niet-aftrekbare btw).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -133,6 +1021,22 @@
     },
     {
       "type": "bevat",
+      "target": "plaats-van-handeling-btw"
+    },
+    {
+      "type": "bevat",
+      "target": "opeisbaarheid-btw"
+    },
+    {
+      "type": "bevat",
+      "target": "maatstaf-van-heffing-btw"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-tarieven"
+    },
+    {
+      "type": "bevat",
       "target": "btw-aftrek"
     },
     {
@@ -140,8 +1044,25 @@
       "target": "btw-aangifte"
     },
     {
+      "type": "bevat",
+      "target": "btw-grensoverschrijdend"
+    },
+    {
       "type": "vergelijkbaar_met",
-      "target": "personenbelasting"
+      "target": "personenbelasting",
+      "toelichting": "Beide zijn fiscale stelsels in België, maar fundamenteel verschillend: btw is een indirecte verbruiksbelasting (gedragen door eindverbruiker, ondernemer is doorgever), personenbelasting is een directe inkomstenbelasting (gedragen door wie het inkomen verkrijgt).",
+      "gelijkenissen": [
+        "Beide vereisen periodieke aangifte aan de FOD Financiën",
+        "Beide kennen vrijstellingen en bijzondere regimes",
+        "Beide vallen onder fiscaal recht en kennen administratieve én rechterlijke geschilbeslechting"
+      ],
+      "verschillen": [
+        "Directe (PB op inkomen) vs indirecte (btw op verbruik) belasting",
+        "PB grotendeels Belgisch geregeld (WIB92); btw sterk Europees geharmoniseerd (Richtlijn 2006/112/EG)",
+        "PB: jaarlijkse aangifte met aanslag door de fiscus; btw: maand- of kwartaalaangifte met zelfberekening door de belastingplichtige",
+        "PB: progressief tarief op gezinsinkomen; btw: vlak tarief per goed/dienst (0/6/12/21 %)"
+      ],
+      "render_hint": "als_glossarium"
     }
   ]
 }
