@@ -2,20 +2,14 @@
   "id": "outplacementkost",
   "naam": {
     "primair": "Outplacementkost",
-    "synoniemen": [
-      "outplacement"
-    ]
+    "synoniemen": ["outplacement", "outplacementbegeleiding"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.2.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.2.taak.3"],
     "scope": {
       "in": [
         "Werkgever-verplichting bij collectief ontslag of bij werknemer 45+ met voldoende ancienniteit",
@@ -24,54 +18,323 @@
         "Werknemer: niet-belastbaar inkomen"
       ],
       "out": [
-        {
-          "topic": "Loon-en-payroll K-techniek (cascade-context)",
-          "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
-        },
-        {
-          "topic": "Werknemers-vergoedingen Σ (alternatieven)",
-          "richting": "mag-verwijzen",
-          "ref": "werknemers-vergoedingen"
-        }
+        {"topic": "Loon-en-payroll K-techniek (cascade-context)", "richting": "moet-verwijzen", "ref": "loon-en-payroll"},
+        {"topic": "Werknemers-vergoedingen Σ (alternatieven)", "richting": "mag-verwijzen", "ref": "werknemers-vergoedingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/outplacementkost.json",
+      "primary_bronnen": [
+        "Wet 5 september 2001 (CAO 82bis outplacement)",
+        "Wet Eenheidsstatuut 26 december 2013",
+        "WIB92 art. 38 § 1, 27°"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit CAO 82bis + Wet Eenheidsstatuut + WIB92 art. 38"}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Outplacement is een begeleidingsprogramma — typisch 30 tot 60 uur over 6 tot 12 maanden — door een erkend outplacementbureau om een ontslagen werknemer te helpen een nieuwe job te vinden. De kost wordt gedragen door de werkgever en is verplicht in twee gevallen: (1) algemeen regime — werknemers die recht hebben op een opzegtermijn (of opzegvergoeding) van minstens 30 weken (typisch ≈ 10 jaar anciënniteit); (2) bijzonder regime '45+' — werknemers van 45 jaar of ouder met minstens 1 jaar anciënniteit. Voor de werknemer is de outplacementbegeleiding een niet-belastbaar voordeel (art. 38 §1, 27° WIB92); voor de werkgever een aftrekbare bedrijfskost (VenB).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "CAO nr. 82bis betreffende outplacement", "ref": "art. 1-5", "context": "Verplicht outplacementaanbod"},
+            {"type": "wettekst", "naam": "Wet 26 december 2013 (Eenheidsstatuut)", "ref": "art. 11-14", "context": "Algemeen regime ≥ 30 weken opzeg"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 38 § 1, 27°", "context": "Vrijstelling voordeel outplacement"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Outplacement is fiscaal-sociaal een gunstige constructie: de werkgever krijgt een aftrekbare bedrijfskost én vervult zijn wettelijke verplichting in geld én ondersteunt de werknemer; de werknemer ontvangt waardevolle begeleiding zonder belasting noch RSZ-impact. Het verschil met een 'gewone' opzegvergoeding is groot: een opzegvergoeding van 4.000 EUR genereert ≈ 2.000 EUR netto voor de werknemer; outplacement van 4.000 EUR levert 4.000 EUR aan begeleidings­diensten zonder fiscale lekkage. In het algemeen regime (≥ 30 weken opzeg) wordt 4 weken loon van de opzegvergoeding verminderd in ruil voor het outplacementaanbod — een 'budgetneutrale' compensatie waar de werkgever niets extra betaalt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet Eenheidsstatuut", "ref": "art. 11"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ontslag-advies-praktijk"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Outplacement is ontstaan uit het sociaal overleg (CAO 82, later 82bis, 1976-2007) om de overgang naar een nieuwe job te verkleinen — actieve arbeidsmarktinstrument. De Wet Eenheidsstatuut van 2013 heeft het outplacement verzwaard voor langere anciënniteit (≥ 30 weken opzeg = outplacement verplicht) als compensatie voor de gelijkschakeling van opzegtermijnen tussen arbeiders en bedienden. De fiscale gunstregeling (art. 38 §1, 27° WIB92) erkent de sociale doelstelling: het is geen verloning maar reïntegratie-investering.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sociale-overleg-historiek + ratio legis"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["opzegvergoeding"],
+      "kader": "loon-en-payroll"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "CAO nr. 82bis (oorspronkelijk 2007) + Wet Eenheidsstatuut 2013 (art. 11-14) + WIB92 art. 38 §1, 27°"
+      },
+      "voor": [
+        {
+          "tekst": "Twee regimes naast elkaar: (1) Algemeen regime — alle werknemers (≥ 18 jaar, geen pensioen-leeftijd) ontslagen door werkgever met recht op ≥ 30 weken opzegtermijn (of equivalente opzegvergoeding). (2) Bijzonder regime '45+' — werknemers ≥ 45 jaar met ≥ 1 jaar ononderbroken anciënniteit ontslagen door werkgever.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wet Eenheidsstatuut", "ref": "art. 11"},
+              {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 3"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Ontslag om dringende reden — geen recht op outplacement. Vrijwillig ontslag door werknemer — geen recht. Werknemer met minder dan 1 jaar anciënniteit (45+-regime) of minder dan 30 weken opzegrecht (algemeen regime).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 4-5"}
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Aanbod door werkgever binnen 15 dagen na ontslag (algemeen regime) of binnen 15 dagen na het einde van de arbeidsovereenkomst (45+-regime). Werknemer heeft 4 weken om te aanvaarden of weigeren. Niet aanvaarden = werkgever vervalt zijn verplichting maar werknemer verliest mogelijk recht op uitkering RVA.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 6"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "algemeen-regime",
+        "naam": {"primair": "Algemeen regime — werknemers ≥ 30 weken opzeg"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor werknemers met recht op een opzegtermijn (of opzegvergoeding) van minstens 30 weken: de werkgever moet een outplacementpakket aanbieden van minstens 60 uur begeleiding over 12 maanden. In ruil wordt de opzegvergoeding verminderd met 4 weken loon (= budget-neutraal voor de werkgever). Indien werknemer outplacement weigert: opzegvergoeding wordt volledig betaald.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet Eenheidsstatuut", "ref": "art. 11", "context": "Algemeen regime 30+ weken"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regime-45-plus",
+        "naam": {"primair": "Bijzonder regime '45+'"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor werknemers ≥ 45 jaar met ≥ 1 jaar anciënniteit, ontslagen door werkgever, ongeacht de duur van de opzegtermijn: de werkgever moet een outplacementaanbod doen van minstens 30 uur over 3 maanden (verlengbaar tot 60 uur over 12 maanden afhankelijk van anciënniteit). Deze verplichting geldt naast het algemeen regime — als beide van toepassing zijn, primeert het algemeen regime (gunstiger voor werknemer).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 3", "context": "45+-regime"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-behandeling-werknemer",
+        "naam": {"primair": "Fiscaal voor werknemer — vrijstelling"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het voordeel van het outplacementprogramma is voor de werknemer niet-belastbaar (art. 38 §1, 27° WIB92) — komt niet op de fiche 281.10 als bezoldiging. Geen RSZ-werknemer, geen BV. Dit is een belangrijk verschil met een opzegvergoeding: bij outplacement gaat de volledige waarde naar effectieve dienstverlening, niet naar belasting + RSZ.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 38 § 1, 27°"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-behandeling-werkgever",
+        "naam": {"primair": "Fiscaal voor werkgever — VenB-aftrekbaar"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De outplacementkost is voor de werkgever volledig aftrekbaar als bedrijfskost in de VenB (art. 49 WIB92 — algemene aftrekbaarheid bedrijfskosten). Boekhoudkundig: 6181 (erelonen) of 6182 (diensten van derden) — niet op klasse 62 (geen bezoldiging). Geen aansprakelijkheidsbijdrage RSZ.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 49"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekhoudpraktijk outplacement"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-algemeen-regime",
+        "titel": "Algemeen regime — bediende 12 jaar anciënniteit",
+        "context": "Sven (bediende, 47 jaar, 12 jaar anciënniteit bij Aurelia Holding NV) wordt ontslagen. Wettelijke opzegtermijn: ≈ 36 weken (algemeen regime van toepassing want ≥ 30 weken). Werkgever stelt outplacementprogramma voor.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet Eenheidsstatuut", "ref": "art. 11"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — werknemer aanvaardt outplacement: opzegvergoeding wordt verminderd met 4 weken loon (≈ 4 × 875 = 3.500 EUR)",
+              "Stap 2 — werkgever koopt outplacementprogramma van erkend bureau: marktprijs ≈ 4.000-6.000 EUR voor 60 uur begeleiding",
+              "Stap 3 — werkgever boekt 5.000 EUR op 6182 (diensten van derden), VenB-aftrekbaar",
+              "Stap 4 — werknemer-zijde: 3.500 EUR minder opzegvergoeding (verlies ≈ 1.750 EUR netto) + 60 uur begeleiding (waarde ≈ 5.000 EUR, niet-belastbaar)",
+              "Stap 5 — netto-effect werkgever: 5.000 EUR uitgave − 3.500 EUR bespaarde opzegvergoeding + RSZ + BV-spaar op die 3.500 = ≈ 250 EUR extra kost",
+              "Stap 6 — netto-effect werknemer: ≈ 1.750 EUR minder cash maar 5.000 EUR begeleiding (waarde > spaar)"
+            ],
+            "resultaat": "Quasi-budgetneutraal voor werkgever, sociaal-economisch sterk voordeel voor werknemer. De wetgever heeft het zo ontworpen dat de werkgever 'gedwongen' wordt te investeren in werknemers-reïntegratie zonder extra cash uit te geven."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking outplacementkost werkgever",
+            "rijen": [
+              {"rekening": "6182 — Erelonen en honoraria (outplacementbureau)", "debet": 5000.00, "credit": null, "omschrijving": "Outplacement 60 uur Sven"},
+              {"rekening": "411 — Terug te vorderen btw", "debet": 1050.00, "credit": null, "omschrijving": "BTW 21 % aftrekbaar"},
+              {"rekening": "440 — Leveranciers", "debet": null, "credit": 6050.00, "omschrijving": "Factuur outplacementbureau XYZ"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Outplacement boeken op klasse 62 (bezoldigingen)",
+        "verkeerde_assumptie": "Outplacement is iets dat de werknemer 'krijgt' bij ontslag — dus boeken bij bezoldigingen (klasse 62).",
+        "kernpunt": "Outplacement is GEEN bezoldiging — het is een dienst van een derde (outplacementbureau) aan de werkgever, niet aan de werknemer. Boeken op 6181/6182 (diensten van derden) of 6189 (erelonen). Geen RSZ-werknemer, geen RSZ-werkgever, geen BV. Onjuist boeken op klasse 62 = onjuiste fiche 281.10 = belastingfraude-risico.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 38 § 1, 27°"}
+          ]
+        }
+      },
+      {
+        "titel": "Outplacement aanbieden zonder erkend bureau",
+        "verkeerde_assumptie": "We organiseren zelf een interne 'coaching' van 60 uur — dat telt als outplacement.",
+        "kernpunt": "Outplacement moet uitgevoerd worden door een erkend outplacementbureau (Federgon-leden of regionaal erkend). Een interne begeleiding voldoet niet aan de wettelijke voorwaarden van CAO 82bis. Risico: opzegvergoeding-vermindering van 4 weken wordt teruggevorderd door werknemer + niet-aftrekbaarheid bij fiscale controle.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 7", "context": "Erkenningsvoorwaarden outplacementbureau"}
+          ]
+        }
+      },
+      {
+        "titel": "Outplacement vergeten in opzegberekening (algemeen regime)",
+        "verkeerde_assumptie": "Werkgever betaalt volledige opzegvergoeding + outplacement bovenop.",
+        "kernpunt": "In het algemeen regime (≥ 30 weken opzeg): de opzegvergoeding wordt met 4 weken loon verminderd in ruil voor outplacement. Niet 'extra' bovenop — een 'in ruil voor' constructie. De werkgever betaalt dus geen dubbele kost. Belangrijk voor budget-discussies met cliënt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet Eenheidsstatuut", "ref": "art. 11"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "loon-en-payroll"
+      "id": "werkgever-bij-ontslag",
+      "naam": {"primair": "Werkgever bij ontslag"},
+      "intro": "De accountant adviseert over outplacement-keuze en boekt de factuur.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "fiscaal-voordeel-uitleg-aan-client",
+              "naam": {"primair": "Fiscaal-sociaal voordeel uitleggen aan werkgever"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij ontslag-advies aan werkgever: leg uit dat outplacement (in algemeen regime ≥ 30 weken) quasi-budgetneutraal is — 4 weken minder opzegvergoeding tegenover de outplacementfactuur. Werkgever betaalt feitelijk niets extra (bespaarde RSZ-werkgever op die 4 weken compenseert eventuele meer-kost outplacement-factuur). Voor werknemer: volledig fiscaal vrijgesteld + reële begeleiding. Win-win.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ontslag-adviespraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-factuur-outplacement",
+              "naam": {"primair": "Boeking factuur outplacement"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Factuur outplacementbureau ontvangen: boeken op 6182 (Erelonen en honoraria — diensten van derden), met BTW-aftrek (21 %). Géén klasse 62, géén fiche 281.10. De factuur bij dossier bijhouden voor fiscale aftrekbaarheid (art. 49 WIB92).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 49"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-outplacement-verplichting",
+              "naam": {"primair": "Compliance-controle outplacement-verplichting"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij audit van een werkgever met ontslag-bewegingen: controleer of voor elke werknemer die voldoet aan de outplacement-criteria (≥ 30 weken opzeg of 45+ met ≥ 1 jaar anciënniteit) effectief een outplacement-aanbod werd gedaan binnen 15 dagen. Bewijsstukken: schriftelijk aanbod, ontvangstbewijs door werknemer, factuur outplacementbureau. Niet-naleving = werkgever-aansprakelijkheid + reputatierisico.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "CAO 82bis", "ref": "art. 6"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "HR-compliance-audit"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "loon-en-payroll"},
+    {"type": "vereist", "target": "opzegvergoeding", "toelichting": "Outplacement in algemeen regime is gekoppeld aan opzegvergoeding (4 weken loon-vermindering in ruil voor outplacement)."},
+    {"type": "vergelijkbaar_met", "target": "opzegvergoeding", "gelijkenissen": ["Beide ontstaan bij ontslag", "Beide zijn werkgevers-kosten"], "verschillen": ["Outplacement: dienst (begeleiding) — niet-belastbaar voor werknemer (art. 38 §1, 27° WIB92), geen RSZ", "Opzegvergoeding: cash-uitkering — volledig belastbaar (afzonderlijke aanslag) en RSZ-onderworpen", "Outplacement: VenB-aftrekbaar bij werkgever op klasse 61 (diensten)", "Opzegvergoeding: VenB-aftrekbaar bij werkgever op klasse 62 (bezoldigingen)"], "verwarring_risico": "Studenten zien outplacement als 'extra loonkost' — maar het is fiscaal-sociaal compleet anders behandeld dan een cash-vergoeding."}
   ]
 }
