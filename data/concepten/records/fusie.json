@@ -4,27 +4,35 @@
     "primair": "Fusie",
     "synoniemen": [
       "merger",
-      "merger by acquisition",
-      "merger by creation",
-      "zuster-fusie"
-    ]
+      "fusie van vennootschappen"
+    ],
+    "vertaling": { "fr": "fusion" }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.taak.2",
-      "3.0.taak.3",
-      "2.3.III.B"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.taak.2", "3.0.taak.3", "2.3.III.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fusie.json",
+      "primary_bronnen": [
+        "WVV art. 12:2",
+        "WVV art. 12:3",
+        "WVV art. 12:7",
+        "WVV art. 12:11 t.e.m. 12:35",
+        "WIB92 art. 2 — 6°/1",
+        "WIB92 art. 210",
+        "WIB92 art. 211",
+        "ITAA-norm fusie-splitsing",
+        "CBN-advies 2021/10"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,53 +40,65 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit reorganisatie-cluster (skelet-doc regel ~1345)"
+        "wijziging": "Skeleton-record aangemaakt uit fusie-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle-chunks (WVV boek 12, WIB92, ITAA-norm fusie-splitsing, CBN 2021/10 + 2009/07)."
       }
     ],
     "scope": {
       "in": [
-        "3 modaliteiten: fusie door overneming · fusie door oprichting · zuster-fusie",
-        "Uitwisseling aandelen + ruilverhouding",
-        "Algemene rechtsopvolging — automatische overgang activa+passiva",
-        "Revisor-verslag (bijzonder mandaat + ITAA-norm-fusie-splitsing)",
-        "Geruisloze fusie (vereenvoudigde dochter-fusie) — sub-sectie"
+        "3 modaliteiten: fusie door overneming, fusie door oprichting, zuster-fusie (en geruisloze moeder-dochter-fusie)",
+        "Uitwisseling aandelen en bepaling van de ruilverhouding",
+        "Algemene rechtsopvolging (universele overgang activa en passiva van rechtswege)",
+        "Revisor-verslag (bijzonder mandaat, ITAA-norm fusie-splitsing)",
+        "Procedurele stappen WVV boek 12 (voorstel, verslagen, AV-besluit, notariele akte, publicatie)",
+        "Boekhoudkundige verwerking — continuiteitsbeginsel (CBN-advies 2021/10)"
       ],
       "out": [
-        {
-          "topic": "Reorganisatie-Σ als parent-keuzekader",
-          "richting": "moet-verwijzen",
-          "ref": "reorganisatie"
-        },
-        {
-          "topic": "Splitsing als verwante modaliteit",
-          "richting": "moet-verwijzen",
-          "ref": "splitsing"
-        },
-        {
-          "topic": "Fiscale-fusie-splitsing-regime — fiscale neutraliteit",
-          "richting": "moet-verwijzen",
-          "ref": "fiscale-fusie-splitsing"
-        },
-        {
-          "topic": "Bijzondere mandaten — revisor-verslag ruilverhouding",
-          "richting": "moet-verwijzen",
-          "ref": "bijzondere-mandaten"
-        }
+        { "topic": "Reorganisatie-Sigma als parent-keuzekader", "richting": "moet-verwijzen", "ref": "reorganisatie" },
+        { "topic": "Splitsing als verwante modaliteit", "richting": "moet-verwijzen", "ref": "splitsing" },
+        { "topic": "Fiscale-fusie-splitsing-regime (WIB92 art. 211 voorwaarden + gevolgen)", "richting": "moet-verwijzen", "ref": "fiscale-fusie-splitsing" },
+        { "topic": "Bijzondere mandaten — revisor-verslag ruilverhouding", "richting": "moet-verwijzen", "ref": "bijzondere-mandaten" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een fusie is de vennootschapsrechtelijke verrichting waarbij het gehele vermogen — activa en passiva — van een of meer vennootschappen, als gevolg van ontbinding zonder vereffening, in zijn geheel overgaat op een andere vennootschap, tegen uitreiking van aandelen van de verkrijgende vennootschap aan de aandeelhouders van de ontbonden vennootschap. Een eventuele bijbetaling in geld (opleg) mag niet meer bedragen dan 10% van de nominale of fractiewaarde van de uitgegeven aandelen. Het WVV onderscheidt drie hoofdtypes: fusie door overneming (art. 12:2 WVV), fusie door oprichting van een nieuwe vennootschap (art. 12:3 WVV), en met fusie gelijkgestelde verrichtingen — vooral de zusterfusie en de geruisloze moeder-dochter-fusie (art. 12:7 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:2" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:3" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:7" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 a) en b)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een fusie is meer dan een juridische verschuiving van papier: economisch betekent ze dat twee (of meer) ondernemingen voortaan onder een dak werken, met gedeelde activa, personeel, schulden en aandeelhouders. De vroegere aandeelhouders van de overgenomen vennootschap krijgen aandelen van de overnemer in ruil voor hun oude aandelen — in een verhouding die de relatieve waarde van beide vennootschappen weerspiegelt (de ruilverhouding). Vanuit boekhoudkundig oogpunt is er continuiteit: de overnemer neemt activa en passiva over tegen hun bestaande boekwaarde (CBN-advies 2021/10). Vanuit fiscaal oogpunt is er ook continuiteit: latente meerwaarden, voorzieningen en overgedragen verliezen migreren mee (mits voorwaarden art. 211 WIB92 vervuld zijn). Dat is het 'rollover-mechanisme' dat de fusie pas economisch zinvol maakt — anders zou elke fusie een belastingafrekening triggeren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2021/10 (boekhoudkundige verwerking van fusies)", "ref": "boekhoudkundige continuiteit" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economische rationale" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom kiezen ondernemingen voor fusie en niet voor een gewone overname? Twee redenen domineren. Eerste: bij een share-deal blijft de overgenomen vennootschap juridisch bestaan — twee balansen, twee aangiftes, twee algemene vergaderingen. Bij fusie wordt alles geconsolideerd in een entiteit. Tweede: fusie biedt fiscale neutraliteit (geen realisatie van meerwaarden) en universele rechtsopvolging (geen herhandtekening van duizenden contracten). De prijs is wel formeel: voorstel zes weken op voorhand, twee verslagen (bestuur + revisor), gekwalificeerde AV-meerderheid, notariele akte, publicatie en verzetrecht van schuldeisers.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13 + 12:24 + 12:26 + 12:31" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis vergelijking met share-deal" }
           ]
         }
       }
@@ -86,138 +106,469 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV boek 12"
-      }
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV boek 12 (Wet 23 maart 2019), uitvoeringsbesluit KB WVV; fiscaal: WIB92 art. 210-214."
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Het bestuursorgaan stelt een voorstel tot fusie op (art. 12:24 WVV) met ruilverhouding, datum van fusie-werking en eventueel toegekende rechten aan houders van bijzondere effecten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:24" }]
+          }
+        },
+        {
+          "tekst": "Een bedrijfsrevisor of externe accountant maakt een verslag over de ruilverhouding (art. 12:26 WVV). Vrijstelling mogelijk bij eenparige instemming van alle aandeelhouders van alle betrokken vennootschappen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:26" },
+              { "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 1 + par. 5" }
+            ]
+          }
+        },
+        {
+          "tekst": "De algemene vergadering van elke betrokken vennootschap beslist met de meerderheid vereist voor statutenwijziging, in authentieke akte (art. 12:31 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:31" }]
+          }
+        },
+        {
+          "tekst": "Eventuele opleg in geld mag de 10%-grens van de nominale of fractiewaarde van de uitgegeven aandelen niet overschrijden (art. 12:2 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:2" }]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Universele rechtsopvolging: alle activa, passiva, contracten en personeel gaan van rechtswege over, geen individuele toestemming nodig (behoudens intuitu personae-clausules).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:13" }]
+          }
+        },
+        {
+          "tekst": "Fiscale neutraliteit: geen realisatie van latente meerwaarden, voorzieningen en vrijgestelde reserves blijven behouden (art. 211 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" }]
+          }
+        },
+        {
+          "tekst": "Boekhoudkundige continuiteit: de overnemer hervat de balansen tegen boekwaarde — geen herwaardering nodig (CBN 2021/10).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "advies", "naam": "CBN-advies 2021/10", "ref": "boekhoudkundige continuiteit" }]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onjuiste ruilverhouding: minderheidsaandeelhouders kunnen de fusie aanvechten of schadevergoeding eisen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 5 en par. 4" }]
+          }
+        },
+        {
+          "tekst": "Schuldeisers van de overgenomen of overnemende vennootschap kunnen binnen twee maanden na publicatie verzet aantekenen en bijkomende zekerheid eisen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:15" }]
+          }
+        },
+        {
+          "tekst": "Fiscale herkwalificatie als belastingontwijking (art. 183bis WIB92): meerwaarden alsnog belast.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" }]
+          }
+        }
+      ]
     },
-    "bouwstenen": [
+    "subconcepten": [
       {
         "id": "fusie-door-overneming",
-        "naam": {
-          "primair": "Fusie door overneming"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — overgenomen venn houdt op te bestaan; overnemende venn neemt vermogen over.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Fusie door overneming" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een bestaande vennootschap (de 'overnemer') neemt het gehele vermogen van een of meer andere vennootschappen (de 'overgenomenen') over. De overgenomen vennootschap wordt ontbonden zonder vereffening; haar aandeelhouders ontvangen aandelen van de overnemer. Dit is veruit de meest gebruikte modaliteit in de praktijk.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:2" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 a)" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "fusie-door-oprichting",
-        "naam": {
-          "primair": "Fusie door oprichting"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — alle bestaande venn verdwijnen → nieuwe venn ontstaat.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Fusie door oprichting van een nieuwe vennootschap" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Twee of meer bestaande vennootschappen brengen hun gehele vermogen samen in een door hen opgerichte nieuwe vennootschap. De oorspronkelijke vennootschappen worden allemaal ontbonden zonder vereffening. Hun aandeelhouders worden aandeelhouder van de nieuwe vennootschap. Symbolisch sterkere 'samensmelting' dan een overneming.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:3" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 b)" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "zuster-fusie",
-        "naam": {
-          "primair": "Zuster-fusie"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — fusie tussen venn met dezelfde aandeelhouders/moeder.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "zusterfusie",
+        "naam": { "primair": "Zusterfusie (met fusie door overneming gelijkgesteld)" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Vereenvoudigde modaliteit voor twee vennootschappen waarvan alle aandelen in handen zijn van dezelfde persoon (natuurlijke persoon of vennootschap). Het vermogen gaat over van rechtswege, zonder uitgifte van nieuwe aandelen door de overnemer — want de eigenaar van beide is al dezelfde. Vandaar de naam 'gelijkgestelde verrichting' (art. 12:7 WVV).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:7" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 c) 2)" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "geruisloze-fusie",
-        "naam": {
-          "primair": "Geruisloze fusie (vereenvoudigde dochter-fusie)"
-        },
-        "bouwsteen_type": "uitzondering",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — vereenvoudigde procedure bij 100% dochter; OP-RE.B mogelijk eigen record bij content-zwaarte.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Geruisloze fusie (moeder-dochter-fusie)" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Als de overnemer reeds alle aandelen van de over te nemen vennootschap bezit, vereenvoudigt de procedure dramatisch: geen ruilverhouding nodig (geen nieuwe aandelen uitgegeven), geen revisorverslag over de pariteit. In de praktijk de snelste manier om een 100%-dochter te 'absorberen' in de moeder. Boekhoudkundig kan een fusieverlies of -winst ontstaan tussen de boekwaarde van de deelneming en de netto-boekwaarde van de overgenomen vermogensbestanddelen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:7 (1°)" },
+                  { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "moeder-dochter-fusie + fusieverschil" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Fusieverschil bij moeder-dochter-fusie: het verschil tussen de boekwaarde van de deelneming in de boeken van de moeder en het netto-eigen vermogen van de dochter wordt geboekt. Positief verschil (deelneming > eigen vermogen dochter) wordt typisch als fusieverlies of als goodwill geboekt; negatief verschil als fusiewinst.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "fusieverschil moeder-dochter" },
+                  { "type": "kb", "naam": "KB WVV", "ref": "art. 3:77 par. 5" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "ruilverhouding",
-        "naam": {
-          "primair": "Ruilverhouding"
-        },
-        "bouwsteen_type": "begrip",
+        "naam": { "primair": "Ruilverhouding" },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De ruilverhouding bepaalt hoeveel aandelen van de overnemer worden uitgereikt per aandeel van de overgenomen vennootschap. Ze is gebaseerd op de relatieve economische waarde van beide vennootschappen. Voorbeeld: als vennootschap A 100 aandelen heeft met een waarde van 10.000 EUR elk (totaal 1.000.000 EUR) en B 50 aandelen heeft met een waarde van 8.000 EUR elk (totaal 400.000 EUR), en A neemt B over, dan moet A nieuwe aandelen uitgeven aan B-aandeelhouders voor een totale waarde van 400.000 EUR — dat is 40 nieuwe aandelen van A. Ruilverhouding: 40/50 = 4 A-aandelen voor 5 B-aandelen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 5" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch berekeningsvoorbeeld" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De ruilverhouding is geen waarderingsoefening: het is een pariteit-oefening. Beide vennootschappen moeten consistent gewaardeerd zijn (zelfde methoden, zelfde aannames over werkkapitaal, normalisaties, etc.). De ITAA-norm verplicht de revisor om de gekozen methoden te toetsen op (a) aanvaardbaarheid en (b) onderlinge consistentie tussen beide vennootschappen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 4.1 t.e.m. 4.6" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "universele-overgang",
+        "naam": { "primair": "Universele overgang van vermogen" },
+        "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — verhouding tussen toegekende nieuwe aandelen en bestaande aandelen; gecontroleerd door revisor.",
+            "tekst": "Door de notariele akte gaan op de datum van fusie alle activa, passiva, contracten, rechten en plichten van de overgenomen vennootschap van rechtswege over op de overnemer. Werknemers gaan mee over (CAO 32bis behoudt anciënniteit en arbeidsvoorwaarden). Vergunningen, leases, leningen — alles automatisch, behalve clausules die persoonsgebonden zijn (intuitu personae).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "CAO 32bis-koppeling op basis van algemene rechtsleer" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "procedure-stappen",
+        "naam": { "primair": "Procedurele stappen — chronologie" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "De fusie verloopt in zeven stappen, met strakke termijnen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:24 t.e.m. 12:35" }]
+            },
+            "weergaven": [
+              {
+                "type": "tijdslijn",
+                "stappen": [
+                  "Stap 1 — bestuursorgaan stelt voorstel tot fusie op (art. 12:24)",
+                  "Stap 2 — voorstel neergelegd bij griffie, minstens 6 weken voor de AV",
+                  "Stap 3 — revisor of accountant maakt verslag over ruilverhouding (art. 12:26); bestuur maakt eigen toelichtingsverslag",
+                  "Stap 4 — documenten ter inzage voor aandeelhouders gedurende minstens 1 maand",
+                  "Stap 5 — algemene vergadering beslist met gekwalificeerde meerderheid (art. 12:31); notariele akte verplicht",
+                  "Stap 6 — publicatie in Belgisch Staatsblad binnen 15 dagen",
+                  "Stap 7 — schuldeisers kunnen binnen 2 maanden na publicatie verzet aantekenen (art. 12:15)"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-continuiteit",
+        "naam": { "primair": "Boekhoudkundige continuiteit" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De verkrijgende vennootschap neemt activa, passiva en eigen-vermogensbestanddelen van de overgenomen vennootschap over tegen hun boekwaarde op het moment van fusie. Vrijgestelde reserves, kapitaalsubsidies en herwaarderingsmeerwaarden worden teruggevonden in het eigen vermogen van de overnemer. Geen herwaardering, geen 'fair value step-up'. Dat is de regel — voor uitzonderingen zie CBN-advies 2021/10.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "boekhoudkundige continuiteit" },
+                { "type": "kb", "naam": "KB WVV", "ref": "art. 3:77 par. 5" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "fusie-aurelia-zelena",
+        "titel": "Aurelia Holding NV neemt Zelena Bio NV over",
+        "context": "Aurelia Holding NV (waarde 5.000.000 EUR, 5.000 aandelen) neemt Zelena Bio NV (waarde 1.000.000 EUR, 10.000 aandelen) over. De aandeelhouders van Zelena moeten aandelen van Aurelia ontvangen voor een totale waarde van 1.000.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch berekeningsvoorbeeld" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "ruilverhouding-berekening",
+            "naam": { "primair": "Berekening ruilverhouding" },
+            "bouwsteen_type": "formule",
+            "kern": {
+              "definitie": {
+                "tekst": "Waarde per Aurelia-aandeel = 5.000.000 / 5.000 = 1.000 EUR. Waarde per Zelena-aandeel = 1.000.000 / 10.000 = 100 EUR. Ruilverhouding: 1 Aurelia-aandeel per 10 Zelena-aandelen (100/1.000). Een Zelena-aandeelhouder met 100 aandelen krijgt 10 nieuwe Aurelia-aandelen. Aurelia geeft in totaal 1.000 nieuwe aandelen uit (10.000 Zelena-aandelen / 10).",
+                "grondslag": {
+                  "confidence": "afgeleid",
+                  "bronnen": [
+                    { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Berekening" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Ruilverhouding gelijkstellen aan waardering",
+        "verkeerde_assumptie": "De revisor moet de waarde van de vennootschappen vaststellen.",
+        "kernpunt": "De revisor toetst de pariteit, niet de absolute waarde. Hij beoordeelt of de gekozen waarderingsmethoden aanvaardbaar zijn, of ze correct zijn toegepast, en of de afgeleide ruilverhouding redelijk is. Hij geeft geen onafhankelijke waardering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 4 + par. 5" }]
+        }
+      },
+      {
+        "titel": "Geruisloze fusie inzetten zonder fusieverlies-impact te checken",
+        "verkeerde_assumptie": "Bij 100%-dochter is alles eenvoudig — geen ruilverhouding, geen revisor, dus geen risico.",
+        "kernpunt": "Boekhoudkundig kan een fusieverlies ontstaan tussen de boekwaarde van de deelneming (vaak hoger dan netto-eigen-vermogen van de dochter wegens betaalde goodwill bij aankoop) en het verkregen vermogen. Dit fusieverlies wordt typisch geboekt onder goodwill (art. 78 par. 7 KB WVV), wat afschrijfbaar is. Fiscaal kan het herkwalificatie-risico geven.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "fusieverschil" },
+            { "type": "advies", "naam": "CBN-advies 2009/07", "ref": "boekhoudkundige verwerking" }
+          ]
+        }
+      },
+      {
+        "titel": "Opleg in geld groter dan 10%",
+        "verkeerde_assumptie": "Een fusie kan bestaan uit aandelen plus 'wat extra cash'.",
+        "kernpunt": "De opleg in geld is gelimiteerd tot 10% van de nominale of fractiewaarde van de uitgegeven aandelen (art. 12:2 WVV). Boven die grens is de verrichting geen fusie meer in juridische zin — ze valt buiten het fiscaal-neutrale regime en kan fiscaal worden geherkwalificeerd als verkoop met realisatie van meerwaarden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 a)" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Modaliteit-keuze tussen overneming, oprichting en zusterfusie",
+        "opties": [
+          {
+            "keuze": "Fusie door overneming",
+            "voordeel": "Bekendste, snelste; behoud van de naam, het ondernemingsnummer en de geschiedenis van de overnemer.",
+            "nadeel": "Symbolisch ongelijk — een 'kleinere' vennootschap kan zich opgeslokt voelen."
+          },
+          {
+            "keuze": "Fusie door oprichting van een nieuwe vennootschap",
+            "voordeel": "Symbolisch gelijkwaardig — 'echte samensmelting', geen winnaar/verliezer.",
+            "nadeel": "Nieuw ondernemingsnummer, nieuwe vergunningen aanvragen waar persoonsgebonden, nieuw rekeningplan nodig — kost meer administratie."
+          },
+          {
+            "keuze": "Zusterfusie of geruisloze fusie",
+            "voordeel": "Geen ruilverhouding, geen revisorverslag, gestroomlijnde procedure.",
+            "nadeel": "Beperkt tot situaties met 100%-overlap in aandeelhouderschap."
+          }
+        ],
+        "vuistregel": "Bij 100%-controle: kies zusterfusie of geruisloze fusie. Bij gelijkwaardige partners die symboliek belangrijk vinden: oprichting van nieuwe vennootschap. In alle andere gevallen: fusie door overneming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:2 + 12:3 + 12:7" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische keuze in herstructureringspraktijk" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "reorganisatie"
+      "id": "revisor-controle-fusie",
+      "naam": { "primair": "Bedrijfsrevisor / externe accountant — controle ruilverhouding" },
+      "intro": "Het bijzonder mandaat over de ruilverhouding is een kernopdracht voor de gecertificeerd accountant of bedrijfsrevisor bij elke klassieke fusie.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "verslag-fusie-revisor",
+              "naam": { "primair": "Opstellen revisorverslag" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: identificeer de opdracht (art. 12:26) en de relevante feiten. Stap 2: identificeer de gekozen waarderingsmethoden. Stap 3: toets aanvaardbaarheid (algemeen aanvaard in beroepsliteratuur of specifiek gepast). Stap 4: toets correcte toepassing. Stap 5: toets onderlinge consistentie tussen beide vennootschappen. Stap 6: bereken of de ruilverhouding wiskundig klopt. Stap 7: formuleer oordeel (relevant en redelijk, mits voorbehoud, of afkeurend).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [{ "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 4 + par. 5" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
+    {
+      "id": "boekhouder-fusie",
+      "naam": { "primair": "Accountant als boekhouder — fusie-boekingen" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhoudkundige-verwerking-fusie",
+              "naam": { "primair": "Boekhoudkundige verwerking" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij de overnemer: (1) inboeking activa en passiva tegen boekwaarde; (2) afboeking deelneming in dochter bij geruisloze fusie; (3) bepaling fusieverschil (verschil deelneming versus netto-eigen-vermogen); (4) verwerking fusieverschil onder goodwill (positief) of fusiewinst (negatief); (5) overdracht van vrijgestelde reserves, kapitaalsubsidies en herwaarderingsmeerwaarden naar het eigen vermogen van de overnemer — om de onaantastbaarheidsvoorwaarde te respecteren (CBN-advies 2021/10).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "boekhoudkundige verwerking fusie" },
+                      { "type": "kb", "naam": "KB WVV", "ref": "art. 3:77 par. 5" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscaal-fusie",
+      "naam": { "primair": "Accountant als fiscaal adviseur — neutraliteitscheck" },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "neutraliteit-check",
+              "naam": { "primair": "Fiscale-neutraliteit-check" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Verifieer: (a) binnenlandse of intra-Europese verkrijgende vennootschap; (b) continuiteit waarderingsregels; (c) zakelijke overwegingen (geen ontwijking — art. 183bis WIB92); (d) overdraagbaarheid van overgedragen verliezen (beperkt naar pro-rata van fiscaal netto-actief, art. 206 WIB92); (e) bewaring vrijgestelde reserves en kapitaalsubsidies. Documenteer in bestuursverslag de zakelijke motivatie.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 206 par. 2" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "reorganisatie" },
     {
       "type": "vergelijkbaar_met",
-      "target": "splitsing"
+      "target": "splitsing",
+      "toelichting": "Gespiegelde verrichtingen: fusie consolideert vennootschappen, splitsing verdeelt. Zelfde procedurele structuur (voorstel, revisorverslag, AV, akte, publicatie), maar tegengestelde richting.",
+      "gelijkenissen": [
+        "Zelfde procedure WVV boek 12",
+        "Zelfde fiscaal regime (art. 211 WIB92)",
+        "Beide ontbinden de overdragende vennootschap (bij volledige verrichting) zonder vereffening"
+      ],
+      "verschillen": [
+        "Fusie: meerdere vennootschappen worden een; splitsing: een vennootschap wordt meerdere",
+        "Fusie: een ruilverhouding tussen twee partijen; splitsing: meerdere ruilverhoudingen + verdelingsregel (pro rata of niet)"
+      ],
+      "render_hint": "als_keuze"
     },
-    {
-      "type": "vereist",
-      "target": "bijzondere-mandaten"
-    },
-    {
-      "type": "vereist",
-      "target": "fiscale-fusie-splitsing"
-    }
+    { "type": "vereist", "target": "bijzondere-mandaten" },
+    { "type": "vereist", "target": "fiscale-fusie-splitsing" }
   ]
 }
