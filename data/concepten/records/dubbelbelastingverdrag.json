@@ -5,26 +5,40 @@
     "afkorting": "DBV",
     "synoniemen": [
       "double tax treaty",
-      "bilateraal belastingverdrag",
-      "verdrag tot voorkoming dubbele belasting"
-    ]
+      "convention préventive de la double imposition",
+      "belastingverdrag"
+    ],
+    "vertaling": {
+      "en": "Double Tax Treaty (DTT)",
+      "fr": "Convention préventive de la double imposition"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit",
-      "regeling"
+      "regeling",
+      "entiteit"
     ],
     "ankers": [
-      "2.8.I",
-      "2.8.taak.2"
+      "2.8.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/dubbelbelastingverdrag.json",
+      "primary_bronnen": [
+        "DBV België-Nederland 2001 — art. 23",
+        "DBV België-Nederland 2001 — Protocol II",
+        "OECD-MTC 2017 — Preamble + Art. 23A/23B",
+        "Synthesetekst BE-Fins DBV (MLI-effect)",
+        "Aangifte VenB 2025 — vak DBI buitenlandse verdragslanden"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,36 +47,36 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (BE-NL DBV art. 23 + OECD-MTC 2017 + MLI-illustratie BE-Fins)."
       }
     ],
     "scope": {
       "in": [
-        "Bilateraal verdrag tussen twee staten ter voorkoming dubbele belasting",
-        "Structuur DBV: woonplaats · vaste inrichting · inkomenstoewijzing per categorie · methodes voorkoming · informatie-uitwisseling",
-        "Interpretatie: art 31 Verdrag van Wenen · commentaar OESO · circulaires",
-        "Hiërarchie: DBV gaat voor op intern recht (art 168 Grondwet)",
-        "België heeft ~90 DBV's afgesloten"
+        "Bilaterale belastingverdragen — concrete BE-DBV's (BE-NL, BE-FR, BE-DE, ...)",
+        "BE-stelsel: vrijstelling met progressievoorbehoud (hoofdregel) vs verrekening (interest/royalty via FBB)",
+        "Structuur per DBV: woonplaats · vaste inrichting · inkomenstoewijzing per categorie · methodes voorkoming · informatie-uitwisseling",
+        "Werking: voorrang op nationaal recht art. 5 GW · gewoonlijk via Memorie van Toelichting + Protocol"
       ],
       "out": [
         {
-          "topic": "OESO-modelverdrag (model voor DBV)",
+          "topic": "OESO-modelverdrag (template)",
           "richting": "moet-verwijzen",
           "ref": "oeso-modelverdrag"
         },
         {
-          "topic": "MLI-instrument (wijziging DBV's)",
+          "topic": "Methode voorkoming (vrijstelling-met-progressievoorbehoud · FBB)",
+          "richting": "mag-verwijzen"
+        },
+        {
+          "topic": "MLI-wijziging op DBV (sinds 2020)",
           "richting": "moet-verwijzen",
           "ref": "mli-instrument"
-        },
-        {
-          "topic": "MAP-procedure (geschillen)",
-          "richting": "moet-verwijzen",
-          "ref": "map"
-        },
-        {
-          "topic": "Methodes voorkoming",
-          "richting": "moet-verwijzen",
-          "ref": "vrijstelling-met-progressievoorbehoud"
         }
       ]
     }
@@ -70,19 +84,228 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (dubbelbelastingverdrag).",
+        "tekst": "Een dubbelbelastingverdrag is een bilateraal verdrag tussen twee staten dat regelt hoe heffingsbevoegdheid voor inkomsten- en vermogensbelasting tussen hen wordt verdeeld om dubbele belasting (en — sinds BEPS — ook dubbele niet-belasting) te vermijden. Het wijst per inkomenscategorie aan welke staat als 'bronstaat' en welke als 'woonstaat' mag belasten, vaak met plafonds op bronheffingen, en specificeert de methode (vrijstelling met progressievoorbehoud OF verrekening) waarmee de woonstaat dubbele belasting wegneemt. België heeft ca. 100 actieve DBV's, voornamelijk gebaseerd op het OESO-modelverdrag, met als typische plekken voor afwijkingen: bronheffing-tarieven, grensarbeider-regeling, fictieve woonplaats van bestuurders.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "Hoofdstuk V art. 23", "context": "Concreet voorbeeld van methode voorkoming" },
+            { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "Preamble", "context": "Doel — vermijden dubbele belasting + ontwijking" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch effect: een Belgische inwoner met buitenlands inkomen (bv. loon uit Nederland, dividend uit Frankrijk, royalty's uit Duitsland) krijgt niet 'twee keer belasting' op hetzelfde inkomen. Mechanisme: (1) DBV bepaalt welke staat heffingsbevoegd is (typisch: bronstaat heeft eerste, beperkt heffingsrecht; woonstaat heeft restant); (2) woonstaat vermijdt cumulatie door één van twee methodes toe te passen. België koos in zijn DBV-praktijk traditioneel voor vrijstelling met progressievoorbehoud (vooral voor loon, vaste-inrichting-winst, vastgoed): het buitenlandse inkomen wordt vrijgesteld maar telt mee voor de progressie-bepaling op de overige inkomsten. Voor specifieke categorieën (interest, royalty's, dividenden die niet onder DBI vallen) gebruikt België echter de verrekeningsmethode via FBB (Forfaitair Gedeelte Buitenlandse Belasting).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 a)", "context": "Belgische methode: 'stelt België deze inkomsten vrij van belasting, maar... mag België het belastingtarief toepassen dat van toepassing zou zijn indien die inkomsten niet waren vrijgesteld'" },
+            { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 b)", "context": "Verrekeningsmethode voor dividend/interest/royalty's: 'wordt... de op die inkomsten geheven Nederlandse belasting in mindering gebracht van de Belgische belasting'" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Twee complementaire ratio's: (1) economische — voorkomen dat grensoverschrijdende activiteit (handel, investering, mobiliteit van personen) wordt belemmerd door dubbele belasting die het rendement uitholt; (2) anti-misbruik — sinds BEPS expliciet ook voorkomen dat verdragen worden gebruikt om dubbele niet-belasting te creëren (treaty shopping, hybride mismatches). De Preamble OESO-MV 2017 verwoordt dit dubbele doel als '...without creating opportunities for non-taxation or reduced taxation through tax evasion or avoidance...'.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "PREAMBLE TO THE CONVENTION", "context": "Voorkomen dubbele belasting + dubbele niet-belasting" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "oeso-modelverdrag",
+        "personenbelasting",
+        "vennootschapsbelasting"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "mli-instrument",
+        "eu-fiscale-richtlijnen"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Bilateraal verdrag — voorrang op nationaal recht volgens art. 5 GW en cassatie-rechtspraak (Le Ski-arrest 1971)",
+        "toelichting": "Elk DBV heeft eigen ingangsdatum en eigen wijzigings-protocollen. Sinds 2020 zijn de meeste BE-DBV's bovendien gewijzigd door het MLI."
+      },
+      "voor": [
+        {
+          "tekst": "Elke grensoverschrijdende fiscale situatie tussen België en een verdragsstaat: Belgische inwoner met buitenlandse inkomstenbron, niet-inwoner met Belgische bron, expat met dual residency, vennootschap met vaste inrichting of dochter in het buitenland, grensarbeider, bestuurder-mandataris.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 1-2", "context": "Persoonlijk + materieel toepassingsgebied" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Geen DBV-toepassing wanneer België geen DBV heeft met de andere staat (= belastingparadijzen, lijst FOD Financiën). In dat geval geldt enkel nationaal recht; vermindering dubbele belasting kan dan enkel via eenzijdige BE-maatregelen (art. 156 WIB92 'helft van het overige inkomen'-vrijstelling voor PB; geen DBI voor VenB).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 156", "context": "Eenzijdige BE-maatregel zonder DBV — halvering belasting op niet-verdragsinkomen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "structuur-typisch-dbv",
+        "naam": {
+          "primair": "Standaardstructuur van een DBV (OESO-MV-template)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een typisch BE-DBV volgt de OESO-MV-structuur: art. 1 personen, art. 2 belastingen, art. 3-5 definities + woonplaats + vaste inrichting, art. 6-21 inkomenscategorie-toewijzing, art. 22 vermogen, art. 23 methode voorkoming, art. 24-29 non-discriminatie + MAP + uitwisseling + anti-misbruik (PPT sinds MLI), art. 30-31 inwerkingtreding/beëindiging. Daarnaast: een Protocol met land-specifieke afwijkingen en interpretatieve afspraken (bv. Protocol II bij BE-NL DBV voor grensarbeiders-vergoedingsmechanisme).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "Verdragstekst — hoofdstukken I-VII" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "be-methode-vrijstelling-progressie",
+        "naam": {
+          "primair": "Belgische standaardmethode — vrijstelling met progressievoorbehoud"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdregel in BE-DBV's: voor inkomenscategorieën waarvoor het DBV heffingsbevoegdheid aan de bronstaat toewijst (typisch: vastgoed-inkomsten art. 6, ondernemingswinst via VI art. 7, loon art. 15, bestuursvergoedingen art. 16), stelt België deze inkomsten vrij van Belgische belasting, maar mag België het belastingtarief toepassen dat van toepassing zou zijn indien die inkomsten niet waren vrijgesteld. Effect: het buitenlandse inkomen telt mee voor het bepalen van de progressie-schijven op het overige (Belgische) inkomen. Mathematisch: gemiddelde aanslagvoet x belastbaar Belgisch inkomen, waarbij het gemiddelde wordt berekend op het wereldinkomen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 a)" },
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 23A", "context": "Exemption method with progression" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "be-methode-fbb",
+        "naam": {
+          "primair": "Belgische verrekenings-methode — FBB (Forfaitair Gedeelte Buitenlandse Belasting)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor specifieke inkomenscategorieën (typisch: interest en royalty's die niet onder de DBI-regeling vallen), volgt België de verrekeningsmethode: het buitenlandse inkomen wordt mee belast in België, maar de buitenlandse bronheffing wordt verrekend met de Belgische belasting via het FBB-mechanisme. Het FBB wordt forfaitair berekend (vandaar de naam — geen exacte verrekening, maar een vast percentage), historisch 15/85 van het nettobedrag voor interest. Sinds verschillende hervormingen geldt FBB enkel nog voor inkomsten waarop in de bronstaat effectief belasting werd geheven en die in het kader van een beroepsactiviteit zijn verkregen. Voor dividenden uit een verdragsland aan een Belgische vennootschap loopt vermindering doorgaans via DBI-regime (art. 202-204 WIB92), niet via FBB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 b)" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 285-289", "context": "FBB-regeling — verrekening buitenlandse belasting" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorrang-op-nationaal-recht",
+        "naam": {
+          "primair": "Voorrang op nationaal recht"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Volgens vaste cassatie-rechtspraak (Le Ski-arrest 1971) heeft een rechtstreeks werkend verdrag voorrang op een afwijkende nationale wet, ook latere. Praktisch: wanneer WIB92 een bepaald inkomen belastbaar acht maar het DBV de heffingsbevoegdheid aan de bronstaat geeft, geldt het DBV. De aangifte verloopt dan via specifieke codes voor 'vrijgesteld bij verdrag' (PB) of via specifieke vakken (VenB — kolom 1 vs 2 in vak DBI).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "aangifte", "naam": "Aangifte VenB 2025", "ref": "vak DBI — splitsing buitenlandse inrichting verdragsvrijgesteld vs niet-vrijgesteld" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Le Ski-doctrine — fiscaal vaste leer" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verliezen-buitenlandse-vi",
+        "naam": {
+          "primair": "Recapture-regel — verliezen buitenlandse VI"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een Belgische onderneming verliezen leed in een buitenlandse vaste inrichting en die verliezen in mindering bracht van haar Belgische winsten, dan vervalt de vrijstelling-met-progressie op latere winsten van die VI — in zoverre de buitenlandse staat die latere winsten zelf van belasting vrijstelt door verrekening van de eerdere verliezen. Doel: dubbele aftrek van verliezen voorkomen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 d)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ratio-belgie-dbi-keten",
+        "naam": {
+          "primair": "Wisselwerking DBV ↔ DBI-regime (VenB)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor dividenden die een Belgische vennootschap ontvangt van een vennootschap-inwoner van een verdragsstaat: de bronheffing van die staat wordt beperkt door het DBV (typisch 5% of 15% volgens art. 10 OESO-MV-template), en de Belgische vrijstelling loopt via het DBI-regime (art. 202-204 WIB92) — niet via art. 23 DBV. Het DBV speelt hier de rol van plafonneerder van de bronheffing; het DBI-regime is het Belgisch instrument om de dubbele economische belasting van uitgekeerde winst te neutraliseren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 c)", "context": "'worden in België vrijgesteld van de vennootschapsbelasting op de voorwaarden en binnen de grenzen die in de Belgische wetgeving zijn bepaald' — verwijzing naar DBI" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-204" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "DBV maakt buitenlands inkomen 'helemaal belastingvrij' in België",
+        "verkeerde_assumptie": "Het buitenlandse inkomen vermeld in een DBV is in België niet meer fiscaal relevant.",
+        "kernpunt": "Vrijstelling met progressievoorbehoud betekent: het inkomen is vrijgesteld van Belgische belasting maar telt mee voor de progressie-tarief op de overige Belgische inkomsten. Een PB-belastingplichtige met 30.000 EUR Belgisch loon + 30.000 EUR Nederlands loon (vrijgesteld via DBV) wordt op het Belgische loon belast tegen de gemiddelde aanslagvoet die zou gelden op 60.000 EUR — dus aan een hogere effectieve voet dan wanneer hij enkel 30.000 EUR had. Mathematisch is dat anders dan 'volledig vrijgesteld'.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 a)" }
+          ]
+        }
+      },
+      {
+        "titel": "DBV-vrijstelling = Belgische vrijstelling automatisch toegepast",
+        "verkeerde_assumptie": "Vrijstelling onder DBV geldt automatisch zonder aangifte.",
+        "kernpunt": "De vrijstelling moet expliciet geclaimd worden in de Belgische aangifte (code voor 'vrijgesteld onder DBV' in PB; voor VenB: vak DBI splitsing kolom verdragsland) met bewijs van bronstaat-belasting. Zonder claim wordt het inkomen aangeslagen aan normaal Belgisch tarief.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "aangifte", "naam": "Aangifte VenB 2025", "ref": "vak DBI — splitsingsregels", "context": "Verplichte splitsing tussen verdrag-vrijgestelde VI en andere" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk PB-aangifte" }
+          ]
+        }
+      },
+      {
+        "titel": "Oud DBV blijft tekst-getrouw na 2020",
+        "verkeerde_assumptie": "Het DBV uit 2001 (BE-NL) is nog steeds dezelfde tekst als bij ondertekening.",
+        "kernpunt": "Sinds het MLI in werking trad voor België (2019) zijn ca. 100 DBV's gewijzigd. Altijd kijken naar de 'synthetised text' van OESO of FOD Financiën, of toepassing van MLI-bepalingen vermelden. Een PPT-claim van de fiscus tegen een holding-structuur kan steunen op MLI art. 7 — niet op het originele DBV.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "Synthesetekst BE-Fins DBV (illustratie MLI)", "ref": "MLI art. 16 ─ Procedure voor onderling overleg", "context": "Voorbeeld van MLI-werking op bestaand DBV" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -91,7 +314,13 @@
     },
     {
       "type": "vereist",
-      "target": "oeso-modelverdrag"
+      "target": "oeso-modelverdrag",
+      "toelichting": "Concrete DBV's zijn typisch gebaseerd op het OESO-MV. Voor interpretatie van een DBV-bepaling geldt het OESO-MV-commentaar als gezaghebbende bron (voor zover de DBV-tekst de modeltekst volgt)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "mli-instrument",
+      "toelichting": "Bij Belgische DBV's die als 'Covered Tax Agreement' werden aangemeld onder het MLI moet het MLI-effect bij elke fiscale analyse worden meegenomen."
     }
   ]
 }
