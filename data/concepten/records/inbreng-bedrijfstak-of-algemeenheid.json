@@ -3,30 +3,43 @@
   "naam": {
     "primair": "Inbreng van bedrijfstak of algemeenheid",
     "synoniemen": [
-      "transfer of going concern",
-      "TOGC",
-      "TOGS",
-      "partial demerger by contribution",
-      "inbreng-bedrijfstak",
-      "inbreng-algemeenheid"
-    ]
+      "inbreng bedrijfsafdeling",
+      "apport partiel",
+      "apport d'universalité"
+    ],
+    "vertaling": {
+      "fr": "apport d'une branche d'activité ou d'une universalité"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
     ],
     "ankers": [
-      "3.0.IV.A",
-      "3.0.taak.2",
-      "2.3.III.B"
+      "3.0.IV.D",
+      "3.0.IV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/inbreng-bedrijfstak-of-algemeenheid.json",
+      "primary_bronnen": [
+        "WVV art. 12:8-12:10 (overdracht bedrijfstak)",
+        "WVV art. 12:13-12:14 (overdracht algemeenheid)",
+        "WIB92 art. 46",
+        "WIB92 art. 184bis",
+        "Wbtw art. 11",
+        "Wbtw art. 18, § 3",
+        "Wb Reg art. 117"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -34,16 +47,23 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~844, primair-thema reorganisatie)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WVV boek 12, WIB92 art. 46 + 184bis, Wbtw art. 11 + 18 § 3)."
       }
     ],
     "scope": {
       "in": [
         "Twee verwante modaliteiten in 1 record: inbreng-bedrijfstak (zelfstandig functionerend onderdeel) vs inbreng-algemeenheid (volledig vermogen)",
         "Inbreng tegen uitgifte van aandelen in de ontvangende vennootschap",
-        "Fiscaal-neutraliteits-regime VenB — voorwaarden vrijstelling realisatie meerwaarden",
-        "BTW-vrijstelling overdracht algemeenheid (art 11/18 Wbtw)",
-        "Registratierechten-vrijstelling",
+        "Fiscaal-neutraliteits-regime VenB (art. 46 WIB92) — voorwaarden vrijstelling meerwaarden",
+        "BTW-vrijstelling overdracht algemeenheid (art. 11 / 18 § 3 Wbtw)",
+        "Registratierechten-vrijstelling (art. 117 Wb Reg)",
         "Revisor-verslag op de inbreng"
       ],
       "out": [
@@ -83,38 +103,168 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Inbreng van bedrijfstak of algemeenheid** is een vennootschapsrechtelijke en fiscale rechtsfiguur waarbij een vennootschap (of natuurlijke persoon-eenmanszaak) een **organisch geheel** van activa en passiva inbrengt in een andere vennootschap, in ruil voor **aandelen** van die ontvangende vennootschap. Twee modaliteiten: (1) **Inbreng van bedrijfstak** (art. 12:8-12:10 WVV) = een zelfstandig functionerend onderdeel van de activiteit; (2) **Inbreng van algemeenheid** (art. 12:13-12:14 WVV) = het volledig vermogen van de inbrenger. Onder fiscaal-neutraliteits-voorwaarden (art. 46 WIB92) zijn de latente meerwaarden **vrijgesteld** van vennootschapsbelasting bij de inbrenger.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8-12:10", "context": "Inbreng bedrijfstak" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13-12:14", "context": "Inbreng algemeenheid" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46", "context": "Fiscaal-neutraal regime" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het regime laat **herstructureringen** toe zonder onmiddellijke belasting-trigger op latente meerwaarden — bv. omvorming eenmanszaak naar vennootschap, scheiding van activiteiten over verschillende vennootschappen, holdingstructurering. Het verschil met **fusie/splitsing** is dat de inbrenger blijft bestaan (verwerft de aandelen van de ontvangende vennootschap), terwijl bij fusie/splitsing de inbrenger verdwijnt of opgesplitst wordt. Het verschil met een **gewone natura-inbreng** is dat hier een **organisch geheel** wordt ingebracht (autonome bedrijfsuitoefening), niet enkel individuele activa.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Aansluiting fiscale waarden" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "**Drie samenwerkende fiscale regimes** maken het mechanisme aantrekkelijk:\n\n1. **VenB-neutraal**: art. 46 WIB92 → meerwaarden niet onmiddellijk belast; fiscale waarden gaan over naar de ontvangende vennootschap (art. 184bis WIB92).\n2. **BTW-neutraal**: art. 11 Wbtw → overdracht algemeenheid/bedrijfstak is geen belastbare handeling (geen btw verschuldigd, geen aftrek-correctie).\n3. **Registratierechten-neutraal**: art. 117 Wb Reg → vrijstelling van overdrachts-rechten voor onroerende goederen die deel uitmaken van de bedrijfstak/algemeenheid.\n\nDe ratio: **economisch dezelfde activiteit blijft bestaan**, alleen onder andere juridische structuur — geen 'realisatie' van waarde dus geen reden voor onmiddellijke belasting. Anti-misbruik: voorwaarden in elk regime (zakelijke motieven, geen cash-vergoeding > 10%, enz.).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
+            { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
+            { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 117" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese drie-regime-samenwerking" }
           ]
         }
       }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1989-01-01",
+        "wettelijke_basis": "WIB92 art. 46 (sinds 1992 hercodificatie); WVV-procedure-bepalingen sinds 2019",
+        "toelichting": "Art. 46 WIB92 vindt zijn oorsprong in EU-richtlijn 90/434/EEG (fusie-richtlijn). Verschillende keren hervormd (laatste wijziging: 2025 voor 'algemeenheid' i.p.v. 'algemeenheid van goederen')."
+      },
+      "voor": [
+        {
+          "tekst": "**Omvorming eenmanszaak → vennootschap** (typische case): natuurlijke persoon brengt zijn eenmanszaak (cliënteel + materieel + voorraden + schulden) in een nieuwe of bestaande BV/NV in. Latente meerwaarden op cliënteel of vastgoed vrijgesteld → kapitalisatie zonder cash-belasting.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Activiteits-splitsing** binnen bestaande vennootschap: vennootschap A brengt haar bedrijfstak B in nieuwe vennootschap NewCo → ontvangt aandelen NewCo → zo ontstaat een holdingstructuur.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Pre-fusie reorganisatie**: voor een grote fusie eerst activiteiten afzonderen in bedrijfstakken via inbreng — vereenvoudigt latere fusie-/overname-transacties.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-context herstructurering" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Definitie bedrijfstak** (art. 46, § 1, lid 3 WIB92): een **autonoom organisch geheel** dat in staat is om door zijn eigen middelen te functioneren — d.w.z. omvat cliënteel, materieel/voorraden, personeel, lopende contracten, gerelateerde schulden. Loutere overdracht van losse activa volstaat niet.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Inbrengverkrijgende vennootschap** is Belgisch of in een andere EU-lidstaat gevestigd (art. 46 § 1 lid 1 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vergoeding uitsluitend in aandelen** — geen cash-bijbetaling > 10% van de nominale waarde van de uit te geven aandelen (bij sommige varianten 0%). Dit garandeert dat het 'doorrol'-karakter behouden blijft.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 3°" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Zakelijke motieven** — anti-misbruik-clausule (art. 46 § 1 lid 1, 4° + art. 344 § 2 WIB92): de verrichting mag niet als hoofddoel of als één van de hoofddoelen belastingontduiking of -ontwijking hebben. Voorbeelden van zakelijke motieven: opvolging, scheiding risicovolle activiteiten, professionalisering management.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 4°" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Revisorverslag** verplicht op de inbreng (WVV art. 7:183 / 5:112 — natura-inbreng), met dezelfde inhoudelijke vereisten als bij gewone kapitaalverhoging in natura.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verlies fiscale neutraliteit** indien voorwaarden niet voldaan — de meerwaarden worden alsnog belast bij de inbrenger als 'gewone realisatie' (art. 184bis § 1 lid 4 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Niet-voldoen voorwaarden art. 46" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Anti-misbruik (art. 344 § 2 WIB92 + algemene art. 344 § 1)** — fiscus kan de verrichting herkwalificeren indien zakelijke motieven ontbreken. Voorzichtig: 'tax-shopping' (zoeken naar fiscaal voordeel als enige motief) wordt geviseerd.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344, § 2", "context": "Anti-misbruik fiscale herstructureringen" }
+            ]
+          }
+        }
+      ]
     },
     "subconcepten": [
       {
         "id": "inbreng-bedrijfstak",
         "naam": {
-          "primair": "Inbreng van bedrijfstak"
+          "primair": "Inbreng van bedrijfstak",
+          "synoniemen": ["inbreng bedrijfsafdeling", "branch transfer"]
         },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — zelfstandig functionerend onderdeel van een vennootschap wordt ingebracht in een andere vennootschap tegen uitgifte van aandelen.",
+              "tekst": "Inbreng van een **bedrijfstak** = een onderdeel van een vennootschap dat **autonoom kan functioneren** (cliënteel, materieel, personeel, contracten, schulden) — gedefinieerd in art. 46 § 1 lid 3 WIB92. De inbrenger blijft bestaan (verschilt van splitsing).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktijk-toets bedrijfstak: zou een derde de bedrijfstak kunnen overnemen en er een zelfstandige onderneming van maken zonder bijkomende elementen van de oorspronkelijke vennootschap te verwerven? Indien ja → bedrijfstak; indien nee → losse activa-inbreng (geen art. 46-regime).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-toets bedrijfstak" }
                 ]
               }
             }
@@ -124,49 +274,375 @@
       {
         "id": "inbreng-algemeenheid",
         "naam": {
-          "primair": "Inbreng van algemeenheid"
+          "primair": "Inbreng van algemeenheid",
+          "synoniemen": ["inbreng algemeenheid van goederen", "universal transfer"]
         },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — volledig vermogen van een vennootschap wordt ingebracht in een andere vennootschap (volledig ipv onderdeel).",
+              "tekst": "Inbreng van een **algemeenheid** = het **volledig vermogen** van de inbrenger (alle activa en passiva). De inbrenger wordt typisch ontbonden of houdt enkel de verworven aandelen aan (omvorming). Variant van vermogensoverdracht — verschilt van fusie omdat de inbrenger niet automatisch verdwijnt.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13-12:14" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
                 ]
               }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "fiscale-doorrol-mechaniek",
+        "naam": {
+          "primair": "Fiscale doorrol — werking art. 184bis WIB92"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Fiscale-neutraliteits-mechaniek**:\n\n1. **Bij de inbrenger**: meerwaarden gerealiseerd op activa van de bedrijfstak worden **vrijgesteld** van VenB (art. 46 § 1 WIB92).\n2. **Bij de ontvangende vennootschap**: activa worden geboekt op **fiscaal gestort kapitaal = fiscale nettowaarde** bij de inbrenger (art. 184bis § 1 WIB92) — niet op werkelijke inbrengwaarde. De boekhoudkundige meerwaarde tussen werkelijke waarde en fiscale waarde wordt opgevolgd in een **fiscaal opvolgingstabel** (latente belastingschuld).\n3. **Doorrol fiscale aspecten**: afschrijvingsbasis, herwaarderingsmeerwaarden, latente meerwaarden, verlies-overgangen — alles gaat mee als 'erfenis'.\n4. **Bij latere realisatie** (verkoop activa door de ontvanger): de uitgestelde meerwaarde wordt alsnog belast bij de **ontvangende vennootschap**.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-overdracht-algemeenheid",
+        "naam": {
+          "primair": "BTW — geen belastbare handeling (art. 11 Wbtw)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Art. 11 Wbtw** + **art. 18, § 3 Wbtw**: de overdracht onder bezwarende titel of om niet, in de vorm van een **inbreng in vennootschap**, van een **algemeenheid van goederen** of een **bedrijfstak**, wordt **niet als levering** beschouwd → geen btw verschuldigd, geen herzienings-procedure. **Voorwaarde**: ontvanger is btw-belastingplichtige en zet de activiteit voort. Indien voorwaarden niet voldaan: overdracht wel belastbaar → btw 21% verschuldigd op activa-onderdelen, met aftrek mogelijk voor ontvanger.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
+                { "type": "wettekst", "naam": "Wbtw", "ref": "art. 18, § 3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "registratierechten-vrijstelling",
+        "naam": {
+          "primair": "Registratierechten — art. 117 Wb Reg"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Art. 117 Wb Reg**: inbreng van onroerende goederen die deel uitmaken van een bedrijfstak/algemeenheid is **vrijgesteld** van het gewone verkooprecht (12%/12,5%). In de plaats: algemeen vast recht €50. Voorwaarde: zelfde voorwaarden als art. 46 WIB92 — zakelijke motieven, vergoeding in aandelen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 117", "context": "Vrijstelling onroerend bij inbreng bedrijfstak" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vergelijking-met-fusie",
+        "naam": {
+          "primair": "Vergelijking inbreng-bedrijfstak vs fusie/splitsing"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Cruciaal onderscheid** voor structurerings-advies:\n\n| Aspect | Inbreng-bedrijfstak | Inbreng-algemeenheid | Fusie | Splitsing |\n|---|---|---|---|---|\n| Inbrenger | Blijft bestaan | Kan blijven (omvorming) of ontbonden | Verdwijnt | Verdwijnt of behoudt deel |\n| Object | Onderdeel | Volledig vermogen | Volledig vermogen | Volledig vermogen |\n| Vergoeding | Aandelen NewCo aan inbrenger | Aandelen aan inbrenger | Aandelen aan aandeelhouders inbrenger | Aandelen aan aandeelhouders inbrenger |\n| Fiscaal regime | Art. 46 WIB92 | Art. 46 WIB92 | Art. 211 WIB92 | Art. 211 WIB92 |\n| BTW | Art. 11 Wbtw | Art. 11 Wbtw | Art. 11 Wbtw | Art. 11 Wbtw |\n| Reg. rechten | Art. 117 Wb Reg | Art. 117 Wb Reg | Art. 117 Wb Reg | Art. 117 Wb Reg |\n| WVV-procedure | art. 12:8-12:10 | art. 12:13-12:14 | art. 12:36 e.v. | art. 12:74 e.v. |\n\n**Kernverschil voor accountant**: bij inbreng-bedrijfstak ontvangt de **inbrengende vennootschap** zelf de aandelen (deelneming-actief). Bij fusie ontvangen de **aandeelhouders** van de verdwenen vennootschap rechtstreeks aandelen — dit beïnvloedt aandeelhoudersstructuur, fiscale opvolging en boekhoudkundige verwerking radicaal.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "boek 12" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 211" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vergelijkingstabel structurerings-keuze" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-omvorming-eenmanszaak",
+        "titel": "Tom Eenmanszaak → BV TomCo: inbreng-bedrijfstak",
+        "context": "Tom heeft een eenmanszaak (loodgieterij): cliënteel (gewaardeerd €80.000), 2 bestelwagens (boekwaarde €15.000, marktwaarde €25.000), voorraad €10.000, vorderingen €20.000, leverancierschulden €15.000. Totaal netto: €120.000. Latente meerwaarde: €80.000 cliënteel + €10.000 wagens = €90.000. Tom richt BV TomCo op met inbreng van zijn volledige eenmanszaak (= algemeenheid bij eenmanszaak). Onder art. 46 WIB92 → fiscaal neutraal.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boekingen BV TomCo bij oprichting (inbreng-algemeenheid eenmanszaak)",
+            "boekingen": [
+              { "datum": "2026-09-01", "debet": [{"rekening": "210", "label": "Immateriële vaste activa — cliënteel", "bedrag": 80000}, {"rekening": "241", "label": "Vervoermiddelen (bestelwagens)", "bedrag": 25000}, {"rekening": "30", "label": "Voorraad", "bedrag": 10000}, {"rekening": "40", "label": "Handelsvorderingen", "bedrag": 20000}], "credit": [{"rekening": "44", "label": "Leveranciersschulden — overgenomen", "bedrag": 15000}, {"rekening": "11", "label": "Onbeschikbare inbreng (BV) — aan Tom", "bedrag": 120000}] }
+            ],
+            "toelichting": "Activa geboekt aan inbrengwaarde (= marktwaarde bevestigd door revisor). Tom ontvangt aandelen voor €120.000."
+          },
+          {
+            "type": "tabel",
+            "titel": "Fiscale impact bij Tom (PB) — art. 46 vs art. 28 WIB92",
+            "kolommen": ["Element", "Bedrag (€)", "Art. 46-regime", "Zonder art. 46 (art. 28 stopzetting)"],
+            "rijen": [
+              ["Meerwaarde cliënteel", "80.000", "Vrijgesteld", "16,5% PB = €13.200"],
+              ["Meerwaarde wagens (> 5 j gebruikt)", "10.000", "Vrijgesteld", "16,5% PB = €1.650"],
+              ["TOTAAL belasting", "—", "€0", "€14.850"]
+            ],
+            "conclusie": "Belasting-besparing €14.850 door toepassing art. 46 WIB92. Voorwaarden: zakelijke motieven (= professionalisering, beperking aansprakelijkheid Tom — duidelijk niet-fiscaal), inbreng tegen aandelen (geen cash > 10%), BV is Belgisch."
+          },
+          {
+            "type": "tabel",
+            "titel": "Fiscale opvolging bij BV TomCo",
+            "kolommen": ["Element", "Fiscaal gestort kapitaal", "Boekwaarde", "Latent belastbaar bij latere verkoop"],
+            "rijen": [
+              ["Cliënteel (€80.000 marktwaarde, €0 fiscale waarde Tom)", "€0 fiscaal", "€80.000 boekhoudkundig", "€80.000"],
+              ["Bestelwagens (€25.000 marktwaarde, €15.000 fiscale waarde)", "€15.000 fiscaal", "€25.000 boekhoudkundig", "€10.000"],
+              ["TOTAAL", "Fiscaal kapitaal = €15.000 + andere fiscale waarden", "EV €120.000", "Latente belasting €90.000 × 25% = €22.500"]
+            ],
+            "conclusie": "BV TomCo neemt de fiscale 'erfenis' over. Bij latere verkoop van cliënteel of wagens wordt de meerwaarde geboekt en belast bij BV TomCo (niet langer bij Tom). Belangrijk: bij latere kapitaalvermindering of liquidatie BV → pro-rata kapitaal-vs-reserves berekening start met fiscaal kapitaal €15.000, niet €120.000."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-bedrijfstak-uitsplitsing",
+        "titel": "NV Multi → NV Multi-Holding + NV Branche: bedrijfstak-inbreng",
+        "context": "NV Multi heeft 2 activiteiten: 'industrie' en 'vastgoed'. Beslist te splitsen voor risico-scheiding. NV Multi brengt haar industrie-bedrijfstak in (cliënteel + machines + personeel + lopende contracten + gerelateerde schulden) in een nieuwe NV Branche tegen aandelen. NV Multi (nu 'Multi-Holding') houdt 100% van NV Branche + de vastgoed-tak. Marktwaarde industrie-tak: €2.000.000; fiscale waarde €1.200.000.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boekingen bij NV Multi (overdragende, na inbreng-bedrijfstak)",
+            "boekingen": [
+              { "datum": "2026-07-01", "debet": [{"rekening": "281", "label": "Deelnemingen in verbonden ondernemingen — aandelen NV Branche", "bedrag": 2000000}], "credit": [{"rekening": "23", "label": "Machines (overdracht)", "bedrag": 800000}, {"rekening": "40", "label": "Vorderingen (overdracht)", "bedrag": 300000}, {"rekening": "44", "label": "Schulden (overdracht)", "bedrag": -100000}, {"rekening": "763", "label": "Niet-recurrente opbrengst (vrijgesteld)", "bedrag": 1000000}], "toelichting": "Vereenvoudigd. Werkelijke verwerking: alle individuele activa/passiva worden afgeboekt; meerwaarde €800.000 (= 2.000 - 1.200) gerealiseerd EN vrijgesteld onder art. 46 → boeking naar belastingvrije reserves" }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boekingen bij NV Branche (verkrijgende)",
+            "boekingen": [
+              { "datum": "2026-07-01", "debet": [{"rekening": "23", "label": "Machines (aan marktwaarde)", "bedrag": 800000}, {"rekening": "40", "label": "Vorderingen", "bedrag": 300000}], "credit": [{"rekening": "44", "label": "Schulden", "bedrag": 100000}, {"rekening": "100", "label": "Geplaatst kapitaal (aandelen aan NV Multi)", "bedrag": 1000000}] }
+            ],
+            "toelichting": "NV Branche ontvangt activa aan marktwaarde; geeft aandelen uit aan NV Multi voor €1.000.000 (= netto). Onder art. 184bis: fiscaal gestort kapitaal NV Branche = €1.200.000 (fiscale nettowaarde bij overdrager) — boekhoudkundig €1.000.000. Latente belasting opgevolgd in fiscale tabel."
+          },
+          {
+            "type": "tabel",
+            "titel": "Drie-regime-impact",
+            "kolommen": ["Regime", "Effect", "Bedrag bespaard"],
+            "rijen": [
+              ["VenB art. 46", "Meerwaarde €800.000 vrijgesteld bij overdracht (geen 25% belasting)", "€200.000"],
+              ["BTW art. 11 Wbtw", "Geen btw verschuldigd op overdracht (anders zou cash-flow stress ontstaan)", "Liquiditeit-besparing"],
+              ["Reg. rechten art. 117 Wb Reg", "N.v.t. (geen onroerend goed in deze bedrijfstak)", "—"]
+            ],
+            "conclusie": "Belasting-besparing €200.000 door inbreng-bedrijfstak. Voorwaarde: zakelijke motieven (risico-scheiding industrie vs vastgoed = legitiem)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-anti-misbruik",
+        "titel": "Anti-misbruik scenario — geen zakelijke motieven",
+        "context": "NV X wil een terrein verkopen voor €1.000.000 (latente meerwaarde €500.000). Om belasting te vermijden, plant X een 'inbreng-bedrijfstak' van louter het terrein in nieuwe NV Y, en wil dan korte tijd later de aandelen NV Y verkopen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, 4°" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344, § 2" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Anti-misbruik-toets",
+            "kolommen": ["Criterium", "Casus", "Geslaagd?"],
+            "rijen": [
+              ["Vormt het terrein een 'bedrijfstak' (autonoom geheel)?", "Louter activum, geen personeel/cliënteel", "✗ FAALT"],
+              ["Zakelijke motieven?", "Onmiddellijke verkoop aandelen na inbreng = enkel fiscaal motief", "✗ FAALT"],
+              ["Resultaat: art. 46 toepassing", "—", "Geweigerd"],
+              ["Gevolg: art. 184bis lid 4 — meerwaarde alsnog belast bij realisatie", "€500.000 × 25% VenB", "€125.000 belasting"]
+            ],
+            "conclusie": "Fiscus zal de verrichting herkwalificeren (art. 344 § 2 WIB92): geen art. 46-voordeel, geen vrijstelling. Bovendien risico op administratieve boete + interesten."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bedrijfstak = elke verzameling activa",
+        "verkeerde_assumptie": "Elke groep activa kan als 'bedrijfstak' worden ingebracht onder art. 46 WIB92.",
+        "kernpunt": "Bedrijfstak vereist een **autonoom functionerend organisch geheel** — cliënteel + materieel + personeel + lopende contracten + schulden. Losse activa zonder operationele samenhang vallen NIET onder art. 46. Praktijk-toets: kan een derde de bedrijfstak overnemen en er een zelfstandige onderneming van maken? Indien nee → geen bedrijfstak.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
+          ]
+        }
+      },
+      {
+        "titel": "Fiscale neutraliteit = onbeperkt voordeel",
+        "verkeerde_assumptie": "Art. 46 betekent dat de meerwaarde definitief belastingvrij is.",
+        "kernpunt": "Het regime is **uitgestelde belasting**, niet vrijstelling. Bij latere verkoop van het activum door de ontvangende vennootschap wordt de meerwaarde alsnog belast — de fiscale waarde wordt 'doorgerold' (art. 184bis WIB92). Voor PB-inbrenger: dezelfde regel via art. 90, 8°/9°/10° met carry-over.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+          ]
+        }
+      },
+      {
+        "titel": "Cash-vergoeding tot 25% toegelaten",
+        "verkeerde_assumptie": "Een geringe cash-bijbetaling (10-25%) tast art. 46 niet aan.",
+        "kernpunt": "Art. 46 § 1 lid 1, 3° vereist dat de vergoeding **uitsluitend** uit aandelen bestaat — een **opleg in geld** mag enkel ter afronding van breuken (zeer beperkte ratio). Boven dit wordt het regime afgewezen. Bij fusie/splitsing geldt een 10%-tolerantie (art. 211 WIB92), maar voor inbreng bedrijfstak is de regel strikter.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 3°" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Inbreng-bedrijfstak vs Asset deal vs Share deal",
+        "opties": [
+          {
+            "keuze": "Inbreng-bedrijfstak (art. 46 WIB92)",
+            "voordeel": "Fiscaal neutraal (geen belasting meerwaarden); BTW-neutraal; vergroot eigen vermogen via aandelen.",
+            "nadeel": "Vereist zakelijke motieven; complexe procedure (revisor + AV + notaris); cash-vergoeding nagenoeg uitgesloten."
+          },
+          {
+            "keuze": "Asset deal (verkoop losse activa tegen cash)",
+            "voordeel": "Volledige cash bij verkoper; eenvoudige procedure; flexibele samenstelling deal.",
+            "nadeel": "Volle belasting meerwaarden (25% VenB of PB-tarieven); btw verschuldigd; reg. rechten op onroerend."
+          },
+          {
+            "keuze": "Share deal (verkoop aandelen vennootschap die de tak bezit)",
+            "voordeel": "Meerwaarden op aandelen vaak vrijgesteld (VenB art. 192 of PB 'normaal beheer'); geen btw.",
+            "nadeel": "Koper neemt latente belastingen + verplichtingen over; meer DD-werk; voorbehoud bij koper-prijs."
+          }
+        ],
+        "vuistregel": "**Inbreng-bedrijfstak** = optimaal voor **interne herstructurering** (zelfde groep, holding-creatie, eenmanszaak-omvorming). **Asset deal** = beste bij **externe verkoop** wanneer koper enkel bepaalde activa wenst en verkoper cash wil. **Share deal** = optimaal bij **integrale externe overname** met fiscaal-vriendelijk exit voor verkoper.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-inbrenger",
+      "naam": { "primair": "Vanuit de inbrengende vennootschap / eenmanszaak" },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscaal-art46-check",
+              "naam": { "primair": "Voorwaarden art. 46 WIB92 — checklist" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Checklist art. 46 WIB92 — voor accountant**:\n\n1. **Object** = bedrijfstak (autonoom geheel) of algemeenheid (volledig vermogen)?\n2. **Ontvangende vennootschap** = Belgisch of in EU-lidstaat gevestigd?\n3. **Vergoeding** = uitsluitend in aandelen? Beperkte breuk-opleg in geld toegelaten.\n4. **Zakelijke motieven** = aanwezig en documenteerbaar? Bv. opvolging, risico-scheiding, professionalisering, integratie groep.\n5. **Anti-misbruik** = transactie niet gericht op enkele belastingontduiking?\n6. **Revisorverslag** = revisor aangewezen + waardering bevestigd?\n7. **Indien alle 1-6 voldaan**: art. 46 van toepassing → vrijstelling meerwaarden + art. 184bis doorrol fiscale waarden.\n8. **Fiscale tabel** = wijzigingen registreren in aangifte VenB (opgave 275C voor fiscale meerwaarden + reserves; ruling kan worden gevraagd vooraf — DVB-ruling).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 184bis, 344, § 2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist accountant" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-dvb-ruling",
+              "naam": { "primair": "Rulings bij voorafgaande beslissingsdienst (DVB)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor **complexe of grote inbreng-bedrijfstak-verrichtingen** is het sterk aangeraden een **voorafgaande beslissing (ruling) bij de DVB** (Dienst Voorafgaande Beslissingen, FOD Financiën) aan te vragen. Doel: zekerheid over (a) bedrijfstak-kwalificatie; (b) zakelijke motieven worden aanvaard; (c) anti-misbruik niet wordt ingeroepen. Doorlooptijd ~3 maanden; kostprijs €4.000-€10.000 ereloon. Praktijk-vuistregel: ruling vragen bij meerwaarde > €500.000 of bij verrichting waarvoor zakelijke motieven discussieerbaar zijn.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-aanbeveling DVB-ruling" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
+    { "type": "valt_onder", "target": "kapitaalverhoging" },
+    { "type": "vereist", "target": "fiscale-fusie-splitsing" },
     {
-      "type": "valt_onder",
-      "target": "kapitaalverhoging"
+      "type": "vergelijkbaar_met",
+      "target": "fusie",
+      "gelijkenissen": [
+        "Beide zijn herstructureringsverrichtingen met fiscale neutraliteit (art. 46 vs art. 211 WIB92)",
+        "Beide kennen BTW- en reg. rechten-vrijstelling"
+      ],
+      "verschillen": [
+        "Inbreng-bedrijfstak: inbrenger blijft bestaan + ontvangt aandelen; fusie: inbrenger verdwijnt, aandeelhouders ontvangen aandelen rechtstreeks",
+        "Inbreng kan partieel (bedrijfstak); fusie is altijd integraal",
+        "Fusie is bilateral (twee vennootschappen worden één); inbreng creëert moeder-dochter-relatie"
+      ],
+      "verwarring_risico": "Inbreng-algemeenheid lijkt op fusie (volledig vermogen) maar fundamenteel anders: bij fusie ontvangen de aandeelhouders aandelen, bij inbreng ontvangt de vennootschap zelf aandelen.",
+      "render_hint": "als_keuze"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "fusie"
+      "target": "splitsing",
+      "gelijkenissen": [
+        "Beide kunnen leiden tot meerdere afzonderlijke entiteiten",
+        "Beide vallen onder art. 46 of art. 211 fiscale neutraliteit"
+      ],
+      "verschillen": [
+        "Inbreng-bedrijfstak: één bedrijfstak naar één nieuwe vennootschap, inbrenger blijft + ontvangt aandelen",
+        "Splitsing: vermogen wordt over meerdere vennootschappen verdeeld, aandeelhouders ontvangen aandelen rechtstreeks"
+      ],
+      "render_hint": "als_keuze"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "splitsing"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "overdracht-onderneming"
-    },
-    {
-      "type": "vereist",
-      "target": "fiscale-fusie-splitsing"
+      "target": "overdracht-onderneming",
+      "gelijkenissen": [
+        "Beide brengen een bedrijfsentiteit van A naar B",
+        "Beide kunnen BTW-vrijstelling art. 11 Wbtw genieten"
+      ],
+      "verschillen": [
+        "Inbreng-bedrijfstak: vergoeding in aandelen (geen cash); overdracht-onderneming: doorgaans cash (asset deal) of aandelen (share deal)",
+        "Inbreng-bedrijfstak: fiscaal-neutraal art. 46; overdracht: meerwaarden belast tenzij voldoet aan andere regimes"
+      ],
+      "render_hint": "als_keuze"
     }
   ]
 }
