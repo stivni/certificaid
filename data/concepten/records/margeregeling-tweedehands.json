@@ -2,34 +2,31 @@
   "id": "margeregeling-tweedehands",
   "naam": {
     "primair": "Margeregeling tweedehandsgoederen",
-    "synoniemen": [
-      "margesysteem",
-      "winstmargeregeling"
-    ]
+    "synoniemen": ["winstmargeregeling", "art. 58 §4 WBTW", "marge-regime tweedehands"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.IV"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.IV"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/margeregeling-tweedehands.json",
+      "primary_bronnen": [
+        "WBTW art. 58 §4",
+        "KB nr. 53",
+        "Richtlijn 2006/112/EG art. 311-325"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:15:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — winstmarge-mechaniek + voorwaarden + globaal vs per goed"}
     ],
     "scope": {
       "in": [
@@ -39,31 +36,39 @@
         "Berekening marge per goed of globaal · facturatie zonder BTW-vermelding"
       ],
       "out": [
-        {
-          "topic": "BTW-tarieven (op marge wel toe te passen)",
-          "richting": "mag-verwijzen",
-          "ref": "btw-tarieven"
-        },
-        {
-          "topic": "BTW-bedrijfswagen tweedehands",
-          "richting": "mag-verwijzen",
-          "ref": "btw-bedrijfswagen"
-        }
+        {"topic": "BTW-tarieven (op marge wel toe te passen)", "richting": "mag-verwijzen", "ref": "btw-tarieven"},
+        {"topic": "BTW-bedrijfswagen tweedehands", "richting": "mag-verwijzen", "ref": "btw-bedrijfswagen"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (margeregeling-tweedehands).",
+        "tekst": "De margeregeling (WBTW art. 58 §4) is een bijzondere BTW-regeling voor belastingplichtige wederverkopers van tweedehandsgoederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten. In plaats van BTW te berekenen op de volledige verkoopprijs, wordt BTW geheven enkel op de WINSTMARGE — het verschil tussen verkoopprijs en aankoopprijs (verminderd met de erin begrepen BTW). Doel: voorkomen dat tweedehandsgoederen dubbel BTW dragen (eerste verkoop nieuw + herverkoop tweedehands).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4"},
+            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: een tweedehandshandelaar in auto's koopt een wagen aan voor 5.000 EUR van een particulier (geen BTW want particulier is geen belastingplichtige). Hij verkoopt door voor 7.000 EUR. Onder normale BTW zou hij 21 % op 7.000 = 1.470 EUR BTW moeten heffen → cumul. Onder marge: BTW op (7.000 − 5.000) = 2.000 EUR marge × 21/121 = 347 EUR BTW (de marge bevat BTW). De factuur aan de koper vermeldt GEEN BTW (omdat onder margeregeling) — koper kan dus ook GEEN aftrek claimen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°-3°"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardvoorbeeld tweedehandshandel"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder margeregeling zou tweedehandshandel niet leefbaar zijn: BTW al betaald bij eerste verkoop (door particulier of vrijgestelde) zou opnieuw geheven worden bij elke heruitverkoop. Het regime herstelt economische neutraliteit: BTW wordt enkel geheven op de toegevoegde waarde (= marge van de wederverkoper). EU-grondslag: art. 311-325 Richtlijn 2006/112.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 311-325 (titel XII hoofdstuk 4)"}
           ]
         }
       }
@@ -71,19 +76,278 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "1995",
-        "wettelijke_basis": "Art 58 §4 W.BTW + KB nr 53"
-      }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "btw"
+        "wettelijke_basis": "WBTW art. 58 §4 + KB nr. 53 (23-12-1994)",
+        "toelichting": "Stabiel sinds 1995 (Belgische omzetting Richtlijn 94/5)."
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatieve toepassingsvoorwaarden: (1) de leverancier is een belastingplichtige WEDERVERKOPER (= zijn beroep is aan-/verkoop van tweedehands of antiek) — niet een toevallige verkoop; (2) de goederen zijn gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen of antiquiteiten; (3) de aankoop gebeurde van: een NIET-belastingplichtige (particulier); een vrijgestelde belastingplichtige (art. 44); een belastingplichtige onder de vrijstellingsregeling (art. 56bis kleine onderneming); of een andere wederverkoper die zelf de margeregeling toepaste.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°"},
+              {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 314"}
+            ]
+          }
+        }
+      ]
     },
+    "subconcepten": [
+      {
+        "id": "marge-per-goed",
+        "naam": {"primair": "Marge per goed (individueel)"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Standaardmethode: voor elk goed afzonderlijk wordt de marge berekend = verkoopprijs − aankoopprijs. Wanneer marge negatief is (verlies): geen BTW verschuldigd (geen recuperatie, het verlies blijft als economische verlies). Werkt vooral bij specifieke, identificeerbare goederen (auto's, kunst, antiek).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, eerste lid"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "marge-globaal",
+        "naam": {"primair": "Globale margeregeling (per aangiftetijdvak)"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Voor fungibele of niet-individueel-identificeerbare voorwerpen (bv. kledingstukken, kleine objecten, postzegels, munten): in plaats van marge per goed mag de wederverkoper kiezen voor GLOBALE marge per aangiftetijdvak = (totaal verkoopprijzen van alle marge-goederen) − (totaal aankoopprijzen van alle marge-goederen in datzelfde tijdvak). Eindejaarsregularisatie: totale jaarmarge ofwel positief = BTW geheven, ofwel negatief = geen overdracht naar volgend jaar.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, derde-vijfde lid"},
+                  {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 318"}
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "formule-marge",
+        "naam": {"primair": "Formule berekening BTW op marge"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Marge incl. BTW = verkoopprijs − aankoopprijs. BTW-bedrag = marge_incl_BTW × tarief / (100 + tarief). Bv. tarief 21 % → BTW = marge × 21/121. Maatstaf van heffing = marge_incl_BTW − BTW.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 5°"},
+                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 315"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "BTW = (verkoopprijs − aankoopprijs) × tarief / (100 + tarief)"
+          }
+        ]
+      },
+      {
+        "id": "facturatie-marge",
+        "naam": {"primair": "Facturatie onder margeregeling"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De factuur uitgereikt onder margeregeling vermeldt GEEN BTW-bedrag of -tarief afzonderlijk. Verplichte vermelding: 'Bijzondere regeling — gebruikte goederen' / 'Bijzondere regeling — kunstvoorwerpen' / 'Bijzondere regeling — voorwerpen voor verzamelingen en antiquiteiten' (Richtlijn art. 226, 14). Doel: de koper kan zien dat hij geen recht op aftrek heeft, en de prijs is incl. een impliciete marge-BTW.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 7°"},
+                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 226, 14"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geen-aftrek-bij-koop",
+        "naam": {"primair": "Geen recht op aftrek bij koper"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De koper die een goed onder margeregeling koopt, kan GEEN BTW aftrekken (de BTW staat niet op factuur en is impliciet in de marge geconsolideerd). Dit is logisch: zou aftrek mogelijk zijn, dan zou het regime ineffectief worden (negatieve marge-belasting). Bij doorverkoop door koper-belastingplichtige: hij kan zelf opnieuw margeregeling toepassen (als wederverkoper), of normale regeling kiezen (dan BTW op volledige prijs — meestal nadelig).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §5"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inventaris-wederverkoper",
+        "naam": {"primair": "Inventarisplicht wederverkoper"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De wederverkoper moet jaarlijks een INVENTARIS van de voorraad opmaken van goederen onderworpen aan de margeregeling (KB nr. 53 art. 2). Per goed: aankoopdatum, aankoopprijs, beschrijving. Onontbeerlijk voor BTW-controle en voor de marge-berekening bij doorverkoop.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-tweedehands-auto",
+        "titel": "Tweedehands auto — winstmarge",
+        "context": "Garage Aurelia (BVBA, BTW-belastingplichtige wederverkoper) koopt op 15 maart 2026 een tweedehands wagen van een particulier voor 8.000 EUR. Verkoopt door op 20 april 2026 voor 12.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — toets voorwaarden: wederverkoper ✓; gebruikt goed ✓; aankoop van particulier ✓ → margeregeling toepasselijk",
+              "Stap 2 — marge incl. BTW = 12.000 − 8.000 = 4.000 EUR",
+              "Stap 3 — BTW = 4.000 × 21/121 = 694,21 EUR",
+              "Stap 4 — maatstaf van heffing = 4.000 − 694,21 = 3.305,79 EUR",
+              "Stap 5 — factuur aan koper: 'Bijzondere regeling — gebruikte goederen — totaal te betalen 12.000 EUR' (geen BTW vermeld)",
+              "Stap 6 — BTW-aangifte: rooster 03 (binnenlandse leveringen 21 %): 3.305,79 EUR; rooster 54 (verschuldigde BTW): 694,21 EUR. Koopprijs niet in rooster 81/82 (geen aftrek)."
+            ],
+            "resultaat": "Vergelijking met normale regeling: 12.000 × 21/121 = 2.082 EUR BTW. Margeregeling = 694 EUR. Besparing: 1.388 EUR voor de keten. Het tweedehandshandelaarschap is concurrentieel met particuliere verkoop dankzij dit regime."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4"},
+            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3"}
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-globaal-kleding",
+        "titel": "Globale margeregeling — tweedehandskledingwinkel",
+        "context": "Aurelia Vintage VOF verkoopt tweedehandskleding gekocht van particulieren via 'kilo-aankoop' (niet per stuk gewaardeerd). Q1 2026: totaal aankoopprijzen 5.000 EUR; totaal verkoopprijzen 9.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — fungibele goederen + niet individueel waardeerbaar → globale marge toegelaten (KB nr. 53 art. 3)",
+              "Stap 2 — globale marge Q1 = 9.000 − 5.000 = 4.000 EUR incl. BTW",
+              "Stap 3 — BTW Q1 = 4.000 × 21/121 = 694,21 EUR",
+              "Stap 4 — Q4-jaarregularisatie: totaal jaarverkoop − totaal jaaraankoop − reeds aangegeven marges Q1-Q3 = eventuele resterende marge of negatieve marge (negatief = geen overdracht)"
+            ],
+            "resultaat": "Globale methode vermijdt aankoopprijs-tracking per individueel kledingstuk. Eindejaars-regularisatie blijft verplicht."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, derde-vijfde lid"}
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Margeregeling toepassen op alle aankopen",
+        "verkeerde_assumptie": "'Ik ben tweedehandshandelaar, dus alles is marge.'",
+        "kernpunt": "Margeregeling werkt enkel voor aankopen van particulieren, vrijgestelde belastingplichtigen, kleine ondernemingen (art. 56bis) of andere wederverkopers onder margeregeling. Kopen van een normale BTW-plichtige (bv. fleet-management-bedrijf dat zijn wagenpark vernieuwt) = aankoop MET BTW → normale regime (BTW-aftrek bij aankoop + BTW op volledige verkoopprijs). Voor elk goed registreren wat de status van de leverancier was.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°"}
+          ]
+        }
+      },
+      {
+        "titel": "BTW-aftrek claimen op aankoopprijs onder marge",
+        "verkeerde_assumptie": "'Bij de aankoop van een tweedehands wagen voor 8.000 EUR kan ik 8.000 × 21/121 = 1.388 EUR BTW recupereren.'",
+        "kernpunt": "Bij aankoop van een particulier was er GEEN BTW op de aankoop (particulier is niet BTW-plichtig). Er is dus niets om af te trekken. Het marge-mechanisme is ZELF de neutraliteits-correctie — geen aanvullende aftrek. Indien wel BTW op aankoop (bv. bij aankoop van een belastingplichtige): keuze normale regeling met aftrek + volledige BTW op verkoop OF margeregeling toepassen (mits voorwaarden) — niet beide.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §5"}
+          ]
+        }
+      },
+      {
+        "titel": "Negatieve marge regenereren in volgend jaar",
+        "verkeerde_assumptie": "'In Q4 had ik negatieve marge → ik schuif door naar Q1 volgend jaar.'",
+        "kernpunt": "KB nr. 53 art. 3 expliciet: een negatieve totale jaarmarge geeft GEEN recht op overdracht naar volgend jaar. Het verlies blijft als economisch verlies bij de wederverkoper. Praktisch: regel je verkopen zodat globale jaarmarge positief blijft.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, vijfde lid"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "alternatief_referentiestelsel",
-      "target": "btw"
+      "id": "kantoor-tweedehands-client",
+      "naam": {"primair": "Kantoor begeleidt tweedehandshandelaar"},
+      "intro": "De accountant bij een cliënt-wederverkoper (garage tweedehands, antiekhandelaar, kunstgalerij, vintage-kledingwinkel).",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "marge-administratie",
+              "naam": {"primair": "Marge-administratie opzetten"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke aankoop: leverancierscategorie noteren (particulier / belastingplichtige / vrijgestelde / kleine onderneming) → bepaalt of margeregeling toepasselijk is. Per goed (of per categorie bij globaal): aankoopdatum + aankoopprijs in apart marge-register. Bij verkoop: linken aankoop ↔ verkoop, berekening marge, BTW-bedrag splitsen. Jaarlijkse inventaris opmaken (KB nr. 53 art. 2).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2 + art. 3"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadministratie marge-handelaar"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "keuze-marge-vs-normaal",
+              "naam": {"primair": "Marge vs normale regeling — wanneer kiezen"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Marge = voordelig wanneer hoge verkoopprijs en gering verschil met aankoop (lage marge ⇒ lage BTW). Normaal = voordelig wanneer aankoop MET BTW (aftrek) en lage verkoopmarge bij belastingplichtige koper (die ook aftrekt). De wederverkoper mag per LEVERING kiezen, mits niet onder voorbehoud (art. 58 §4, 4°). Belangrijk: B2B-verkoop met aftrekbare BTW kan ook normale regeling vereisen vanuit klant-vraag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 4°"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk keuze-criterium"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "btw"},
+    {"type": "alternatief_referentiestelsel", "target": "btw", "toelichting": "Margeregeling is een keuze-alternatief voor de normale BTW-regeling — niet beide tegelijk."},
+    {"type": "vergelijkbaar_met", "target": "btw-bedrijfswagen", "gelijkenissen": ["Beide zijn bijzondere regimes voor wederverkoop van voertuigen"], "verschillen": ["Margeregeling = BTW op marge zonder BTW-vermelding; gewone BTW-bedrijfswagen = BTW op volledige prijs met BTW-vermelding + aftrek-beperkingen"], "render_hint": "als_glossarium"}
   ]
 }
