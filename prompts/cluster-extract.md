@@ -9,6 +9,7 @@ Vul één skeleton-record (schema 2.2) naar status `concept`. **Korte prompt —
   - `bronnen_chunks`: pre-fetched chunks per query (uit scope.in + naam) — primaire content-bron
   - `verwante_records`: id + naam + concept_type + definitie-snippet van relatie-targets
 - `data/concepten/schema-2.2.schema.json` — leidend voor **velden, types, enums, `$comment`-richtlijnen**.
+- `docs/concept-schrijfregels.md` — **stijl- en doelpubliek-regels** (verplicht lezen): doelpubliek = stagiair gecertificeerd accountant met boekhoudkundige + fiscale basiskennis, **geen jurist**. Normale taal, geen legalese, afkortingen voluit bij eerste vermelding.
 
 ## Output
 
@@ -28,23 +29,17 @@ Vul één skeleton-record (schema 2.2) naar status `concept`. **Korte prompt —
    - `verondersteld` — geen bron, vermijd zoveel mogelijk
    - `betwijfeld` / `weerlegd` — alleen bij echt conflict
 4. **Bronnen**: gebruik chunks uit bundle. Maximaal 2 extra `mcp__certificaid-rag__zoek_bronnen` voor gaten.
-5. **Voorbeelden** — **minstens 2-3 voorbeelden** per record. Eisen:
-   - Concrete €-bedragen + klasse-codes (klasse 6 → klasse 5 voor boekingen)
-   - Voor verrichtingen: balans-snapshot vóór + na
-   - Voor procedures: tijdslijn of flow-diagram (mermaid-syntax in proza-weergave)
-   - Voor regimes: cijfer-uitwerking van toepassing-cascade
-   - Voor ratio's: berekening met getallen + interpretatie
+5. **Didactisch denken**: jij oordeelt wat de stagiair nodig heeft om dit concept te **begrijpen en te kunnen toepassen** in de praktijk. Geen quota — geen artificiële "minstens N voorbeelden". Wel:
+   - **Substantie** (wat betekent het economisch/praktisch) en **rationale** (waarom werkt het zo) zijn even belangrijk als definitie
+   - **Voorbeelden** waar ze het concept tastbaar maken: concrete €-bedragen, klasse-codes, boekingen, balans-snapshots, berekenings-stappen
+   - **Diagrammen** (mermaid in proza-weergave) waar visualisatie de samenhang helder maakt: flow voor procedures, beslisboom voor keuzes, tijdslijn voor cycli
+   - **Valkuilen** waar studenten typisch struikelen (didactische "wat ik fout deed"-meta)
+   - **Speelruimtes** waar de wet keuze toelaat + criteria voor goede keuze
    - Gebruik `weergaven[].type`: `boeking` · `balans_snapshot` · `tabel` · `proza` (mermaid kan in proza)
 
-6. **Diagrammen** — waar conceptueel zinvol, voeg mermaid-markdown toe in `proza`-weergave:
-   - Procedure-flows (sequentie van stappen)
-   - Beslissingsbomen (keuze-cascades zoals tarief-toepassing)
-   - Class-diagrammen (parent-sub-concept-relaties)
-   - Tijdslijnen (cyclus-overzicht)
-
-   Mermaid-voorbeeld in proza-weergave:
+   Mermaid-voorbeeld:
    ```
-   {"type": "proza", "tekst": "Flow:\n\n```mermaid\nflowchart TD\n  A[Start] --> B[Stap 1]\n  B --> C{Beslis}\n  C -->|ja| D[X]\n  C -->|nee| E[Y]\n```"}
+   {"type": "proza", "tekst": "Beslisboom:\n\n```mermaid\nflowchart TD\n  A[Start] --> B{Test}\n  B -->|ja| C[X]\n  B -->|nee| D[Y]\n```"}
    ```
 6. **Validate**:
    ```python

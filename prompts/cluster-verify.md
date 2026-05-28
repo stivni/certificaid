@@ -22,12 +22,15 @@ jsonschema.validate(record, schema)
 - Voor elke `metadata.scope.in[]`-string: wordt het topic effectief behandeld in `inhoud`?
 - Gaten → flag
 
-### 3. Voorbeelden-kwaliteit
-- Minstens 2 voorbeelden? (verplicht voor regelingen/regimes/verrichtingen)
-- Bevatten concrete €-bedragen?
-- Klasse-codes voor boekingen?
-- Balans-snapshot vóór/na waar verrichting?
-- Tijdslijn/diagram voor procedures?
+### 3. Didactisch nut + praktische verankering
+- Hebben de voorbeelden concrete cijfers/situaties die het concept tastbaar maken? (geen abstracte herhaling van definitie)
+- Wordt de **substantie** + **rationale** uitgewerkt — niet alleen wat het IS, maar wat het BETEKENT en WAAROM het zo werkt?
+- Diagrammen waar visualisatie helpt (procedures · keuzecascades · cycli)?
+- Valkuilen aanwezig waar studenten typisch struikelen?
+- Speelruimtes aanwezig waar keuze + criteria relevant zijn?
+- Schrijfstijl: normale taal (geen legalese), afkortingen voluit bij eerste vermelding?
+
+⚠️ Geen quota op voorbeelden/diagrammen — beoordeel of het concept didactisch overkomt.
 
 ### 4. Bron-citaat-discipline
 - Per claim met `confidence: "geciteerd"`: bron-ref is correct (artikel-nummer, advies-code)?
