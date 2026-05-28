@@ -9,24 +9,34 @@
       "SRL",
       "société à responsabilité limitée",
       "private limited company"
-    ]
+    ],
+    "vertaling": {"fr": "société à responsabilité limitée (SRL)"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.I",
-      "3.0.I.A",
-      "3.0.I.B",
-      "3.0.I.C"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.I", "3.0.I.A", "3.0.I.B", "3.0.I.C"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/besloten-vennootschap.json",
+      "primary_bronnen": [
+        "WVV art. 1:5",
+        "WVV art. 5:1",
+        "WVV art. 5:3",
+        "WVV art. 5:4",
+        "WVV art. 5:16",
+        "WVV art. 5:48",
+        "WVV art. 5:142",
+        "WVV art. 5:143",
+        "WVV art. 5:153"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -34,7 +44,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~982, hernoemd van bv-rechtsvorm)"
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WVV boek 5)."
       }
     ],
     "scope": {
@@ -49,74 +66,460 @@
         "Alarmbel aangepast aan kapitaal-loos systeem (netto-actief-criterium)"
       ],
       "out": [
-        {
-          "topic": "Vergelijking met andere vormen + keuze-criteria",
-          "richting": "moet-verwijzen",
-          "ref": "ondernemingsvormen"
-        },
-        {
-          "topic": "Oprichtingsprocedure",
-          "richting": "moet-verwijzen",
-          "ref": "oprichting-vennootschap"
-        },
-        {
-          "topic": "Kapitaalbescherming + alarmbel",
-          "richting": "moet-verwijzen",
-          "ref": "kapitaalbescherming"
-        },
-        {
-          "topic": "Oprichtersaansprakelijkheid bij kennelijk ontoereikend financieel plan",
-          "richting": "moet-verwijzen",
-          "ref": "oprichtersaansprakelijkheid"
-        },
-        {
-          "topic": "Grootte-categorieën — schema · controle",
-          "richting": "moet-verwijzen",
-          "ref": "vennootschap-groottecategorieen"
-        }
+        {"topic": "Vergelijking met andere vormen + keuze-criteria", "richting": "moet-verwijzen", "ref": "ondernemingsvormen"},
+        {"topic": "Oprichtingsprocedure", "richting": "moet-verwijzen", "ref": "oprichting-vennootschap"},
+        {"topic": "Kapitaalbescherming + alarmbel", "richting": "moet-verwijzen", "ref": "kapitaalbescherming"},
+        {"topic": "Oprichtersaansprakelijkheid bij kennelijk ontoereikend financieel plan", "richting": "moet-verwijzen", "ref": "oprichtersaansprakelijkheid"},
+        {"topic": "Grootte-categorieën — schema · controle", "richting": "moet-verwijzen", "ref": "vennootschap-groottecategorieen"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De besloten vennootschap (BV) is sinds het WVV (1 mei 2019) de default-rechtsvorm voor kapitaalvennootschappen in België. Het is een vennootschap met rechtspersoonlijkheid (art. 1:5 §2 WVV) waarvan de aandeelhouders aansprakelijk zijn ten belope van hun inbreng (art. 5:1 WVV). De BV vervangt de vroegere BVBA: het minimumkapitaal-concept werd afgeschaft (art. 4:13 + 5:3 WVV) en vervangen door een 'toereikend aanvangsvermogen' onderbouwd in een financieel plan (art. 5:4). Aandelen kunnen verschillende rechten dragen (winst, stem, liquidatie — art. 5:48). Bestuur door één of meerdere bestuurders (geen verplichte collegialiteit). Volledig boek 5 WVV regelt de BV.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:1", "context": "Beperkte aansprakelijkheid"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "Aanvangsvermogen"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Financieel plan"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: de BV is de werkpaard-vorm voor ondernemingen, KMO's, vrije beroepen, vennootschappen-eenpersoon en familiale werkvennootschappen. Sterke punten: kapitaalloos (start mogelijk met klein aanvangsvermogen), statutaire vrijheid (aandelen-soorten, uittredingsregeling, dividendpolitiek), eenvoudig bestuur (geen verplicht college, één bestuurder kan), aandelen-overdracht statutair regelbaar (default: aandelen zijn beperkt overdraagbaar — 'besloten' karakter behouden). Zwakke punten: dubbele uitkeringstoets (netto-actief + liquiditeit, art. 5:142-143) vóór dividend; verplicht financieel plan met bestuurdersaansprakelijkheid bij gebrekkige onderbouwing (art. 5:16); aandelen niet beursgenoteerd. Vroegere BVBA's werden van rechtswege BV per 1 januari 2020 en moesten hun statuten uiterlijk 1 januari 2024 aanpassen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:48"},
+            {"type": "advies", "naam": "CBN 2019/14", "ref": "Van kapitaalhoudende BVBA naar kapitaalloze BV"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk BV"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De WVV-hervormer verkoos voor de BV (default-vorm) een radicale vereenvoudiging: weg met het achterhaalde kapitaalbeschermingsregime (minimumkapitaal-stortingsplicht-volstortingsplicht), naar een dynamische bescherming via netto-actief + liquiditeitstoets op het moment van uitkering. Zo wordt de werkelijke schuldeiserbescherming verzekerd zonder een statisch (en vaak fictief) kapitaalcijfer te hanteren. De statutaire vrijheid maakt de BV inzetbaar voor uiteenlopende contexten — van solo-zelfstandige tot grote familievennootschap met aandelen-soorten.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV-MvT", "ref": "Art. 4:13"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer WVV-hervorming"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["ondernemingsvormen"],
+      "kader": "ondernemingsvormen",
+      "naast_relevant": ["naamloze-vennootschap", "cooperatieve-vennootschap"],
+      "volgkennis": ["oprichting-vennootschap", "kapitaalbescherming", "financieel-plan"]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "2019",
-        "wettelijke_basis": "WVV boek 5"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV boek 5 (Wet 23 maart 2019)",
+        "toelichting": "Vroegere BVBA's: van rechtswege BV per 1 januari 2020 — statuten formeel aangepast uiterlijk 1 januari 2024."
+      },
+      "voor": [
+        {
+          "tekst": "Default-keuze voor: solo-ondernemer met aansprakelijkheidszorg; 2-10 vennoten KMO; familievennootschap met meerdere aandelen-soorten; vrije beroepers; holding-structuur.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:1"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Plannen voor publieke kapitaalophaling of beursnotering → kies NV. Activiteit met coöperatief doel → kies CV.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Oprichting vereist: (1) één of meer oprichters (kan 1 — eenpersoons-BV expliciet toegelaten), (2) notariële akte (art. 5:11 WVV), (3) toereikend aanvangsvermogen geconcretiseerd in een financieel plan (art. 5:3 + 5:4), (4) statuten + benoeming bestuurder(s), (5) neerlegging KBO + publicatie BS.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:11"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "(a) Geen minimumkapitaal — start mogelijk met klein aanvangsvermogen (15.000-30.000 EUR gangbaar). (b) Beperkte aansprakelijkheid — privévermogen beschermd behoudens kennelijke-grove-fout (art. 5:16). (c) Statutaire vrijheid — meerdere aandelensoorten, statutair regelbare uittreding, flexibele winstverdeling. (d) Eenvoudig bestuur (één bestuurder kan, geen verplicht college).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:1"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:48"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:70", "context": "Bestuursmodellen BV"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "(a) Bestuurdersaansprakelijkheid art. 5:16 — bij faillissement binnen 3 jaar na oprichting beoordelen rechtbanken of aanvangsvermogen 'kennelijk ontoereikend' was; aansprakelijkheid op privévermogen oprichters. (b) Dubbele uitkeringstoets vóór dividend (art. 5:142-143) — overtreding triggert terugbetaling-plicht aandeelhouders (art. 5:144). (c) Alarmbelprocedure bij negatief netto-actief of liquiditeitsproblematiek (art. 5:153).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 5:153"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "kenmerk-aanvangsvermogen",
+        "naam": {"primair": "Toereikend aanvangsvermogen (vervanging minimumkapitaal)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de BV-oprichting moet het aanvangsvermogen 'toereikend' zijn in het licht van de voorgenomen bedrijvigheid (art. 5:3 WVV). Geen wettelijk minimum-bedrag — wel onderbouwing in het financieel plan (art. 5:4) dat ten minste twee jaar liquiditeit + solvabiliteit moet aantonen. Beoordeling achteraf: indien de vennootschap binnen 3 jaar na oprichting failliet wordt verklaard en het aanvangsvermogen 'kennelijk ontoereikend' was voor een normale uitoefening van de activiteit gedurende minstens 2 jaar, dan zijn de oprichters hoofdelijk aansprakelijk voor het netto-passief (art. 5:16).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-aandelen-soorten",
+        "naam": {"primair": "Aandelen-soorten en statutaire flexibiliteit"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BV mag verschillende aandelen-soorten uitgeven (art. 5:48 WVV) met afwijkende stem-, winst- en liquidatierechten. Een aandeel geeft default één stem; statuten kunnen meervoudig stemrecht voorzien, of stemrechtloze aandelen. Geen nominale waarde verplicht — aandelen hebben een 'fractiewaarde' (totaal eigen vermogen / aantal aandelen). Aandelen kunnen worden uitgegeven boven of onder fractiewaarde (uitgiftepremie).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:48"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:42", "context": "Stemrecht aandelen"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-bestuur",
+        "naam": {"primair": "Bestuur — soepel en vrijgevormd"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BV wordt bestuurd door één of meer bestuurders (art. 5:70 WVV). Eén bestuurder is mogelijk — geen verplichting tot collegiaal orgaan. Bestuurders worden benoemd door de AV; mandaten kunnen bepaalde of onbepaalde duur hebben. De statuten kunnen het bestuur ook als college organiseren. Bestuurders zijn 'ad nutum' herroepbaar tenzij statuten anders bepalen — een belangrijke wijziging tov de vroegere BVBA waar bestuurders statutair tot zaakvoerder konden benoemd worden + slechts om gegronde redenen ontslagen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:70"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-uitkeringstest",
+        "naam": {"primair": "Dubbele uitkeringstest (netto-actief + liquiditeit)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór elke dividend-uitkering moet het bestuursorgaan twee tests doorlopen: (1) Netto-actief-test (art. 5:142 WVV): netto-actief na uitkering blijft positief en mag niet onder het statutair onbeschikbaar eigen vermogen vallen (inbreng + reserves die niet uitkeerbaar zijn). (2) Liquiditeits-test (art. 5:143): het bestuursorgaan verklaart in een verslag dat de vennootschap, gelet op de te verwachten ontwikkelingen, in staat is om gedurende minstens 12 maanden na de uitkering haar opeisbare schulden te voldoen. Overtreding leidt tot terugbetaling-plicht aandeelhouders + bestuurdersaansprakelijkheid (art. 5:144).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:144"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-alarmbel",
+        "naam": {"primair": "Alarmbelprocedure BV (aangepast)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer het netto-actief negatief dreigt te worden of de liquiditeit dreigt onder druk te komen, moet het bestuursorgaan binnen 2 maanden de AV bijeenroepen om te beslissen over ontbinding of maatregelen tot herstel (art. 5:153 WVV). In tegenstelling tot de vroegere BVBA (gebaseerd op % kapitaalverlies) is de alarmbel nu gebaseerd op netto-actief — coherent met het kapitaalloze regime. Niet-naleving triggert bestuurdersaansprakelijkheid voor schade aan derden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:153"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-uittreding",
+        "naam": {"primair": "Uittreding lastens vennootschapsvermogen"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Nieuw onder WVV: statuten van de BV kunnen voorzien dat aandeelhouders kunnen uittreden lastens het vennootschapsvermogen (art. 5:154-155 WVV). Dit was vroeger enkel mogelijk in CV's. Praktische impact: een familiale BV kan voorzien dat een aandeelhouder bij overlijden of pensioen zijn aandelen door de vennootschap zelf laat uitkopen (zonder dat de andere aandeelhouders persoonlijk hoeven mee te betalen). Uitkering volgt de uitkeringstoets (art. 5:142-143).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:154"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:155"}
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-oprichting-bv-architect",
+        "titel": "Oprichting BV door een vrij beroep (architectenkantoor)",
+        "context": "Architect A start zijn eigen BV. Hij wil 25.000 EUR cash inbrengen + bestaande inboedel (computers, plannen, software-licenties) waardeerd op 8.000 EUR. Verwachte omzet jaar 1: 90.000 EUR; vaste kosten ca. 35.000 EUR/jaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:7", "context": "Inbreng in natura"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — financieel plan: A werkt 2-jaar-projectie uit: jaar 1 omzet 90.000 EUR - vaste kosten 35.000 EUR - eigen bezoldiging 40.000 EUR = winst ~15.000 EUR; jaar 2 omzet 110.000 EUR met vergelijkbare structuur. Aanvangsvermogen 33.000 EUR > 12 maanden vaste kosten → 'toereikend' onderbouwd (art. 5:4).",
+              "Stap 2 — inbreng in natura: 8.000 EUR inboedel vereist verslag bedrijfsrevisor (art. 5:7 WVV) wanneer waarde > drempel; voor kleine inbreng kan ook gewone notariële verslaggeving volstaan.",
+              "Stap 3 — boekingen oprichting (vereenvoudigd): D 550 Bank 25.000 / D 240 Inboedel 8.000 / C 100 Inbreng 33.000. Notariskosten ~1.800 EUR aftrekbaar als oprichtingskost (rek. 200 + afschrijven over 5 j).",
+              "Stap 4 — aandelen: 330 aandelen à fractiewaarde 100 EUR (33.000 / 330) — A houdt 100 % (één aandeelhouder = eenpersoons-BV toegelaten).",
+              "Stap 5 — registratie: KBO + neerlegging statuten + publicatie BS → start activiteit binnen 1 maand."
+            ],
+            "resultaat": "BV opgericht met 33.000 EUR aanvangsvermogen, financieel plan onderbouwd, beperkte aansprakelijkheid. A geniet VenB-tarief (potentieel KMO 20 % indien bezoldiging ≥ minimum + andere voorwaarden art. 215 §3 WIB92)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-uitkeringstest-bv",
+        "titel": "Toepassing dubbele uitkeringstest vóór dividend",
+        "context": "BV 'Optima' heeft per 31/12/N: eigen vermogen 180.000 EUR (waarvan 60.000 EUR statutair onbeschikbare reserve), liquide middelen 95.000 EUR, kortlopende schulden 50.000 EUR. Bestuur stelt voor 70.000 EUR dividend uit te keren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitgewerkt cijfervoorbeeld uitkeringstoets"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — netto-actief-test (art. 5:142): netto-actief na uitkering = 180.000 − 70.000 = 110.000 EUR. Moet > statutair onbeschikbaar deel (60.000 EUR). 110.000 > 60.000 ✓.",
+              "Stap 2 — liquiditeits-test (art. 5:143): bestuursorgaan moet schriftelijk verklaren dat na uitkering, de vennootschap gedurende minstens 12 maanden haar opeisbare schulden kan voldoen. Liquide middelen na uitkering: 95.000 − 70.000 = 25.000 EUR. Kortlopende schulden 50.000 EUR. Verklaring vereist projectie van inkomende kasstromen tegenover uitgaande verplichtingen.",
+              "Stap 3 — beoordeling: gezien 25.000 EUR liquiditeit < 50.000 EUR korte termijn schulden, moet bestuursorgaan aantonen dat 12-maands-cashflow-projectie de gap dekt. Indien niet → uitkering verlaten of beperken. Bv. beperken tot 40.000 EUR: na uitkering 55.000 EUR liquide → ruimer.",
+              "Stap 4 — verslag in notulen + boekhouding: D 14 Overgedragen winst 40.000 / C 471 Dividend te betalen 40.000; later D 471 / C 550 Bank 40.000.",
+              "Stap 5 — bij overtreding (art. 5:144): aandeelhouders moeten teveel uitgekeerde dividend terugbetalen + bestuurders hoofdelijk aansprakelijk."
+            ],
+            "resultaat": "Dividend gereduceerd van 70.000 naar 40.000 EUR op basis van liquiditeits-test. Document-trail (notulen bestuur + verslag) bewaard voor 5 j."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-uittreding-familie-bv",
+        "titel": "Uittreding aandeelhouder lastens vennootschapsvermogen (familie-BV)",
+        "context": "Familie-BV 'Tandem': vader (60 % - 600 aandelen), zoon A (20 % - 200), zoon B (20 % - 200). Statuten voorzien uittredingsregeling. Vader (75 j) wil uittreden en zijn aandelen door de BV laten uitkopen. Aandelen-waarde bepaald op 250 EUR per aandeel (totaal 150.000 EUR voor 600 aandelen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:154"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:155"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — statutaire grondslag toetsen: art. 5:154 WVV vereist dat uittreding lastens vennootschapsvermogen statutair voorzien is.",
+              "Stap 2 — uitkeringstoets (art. 5:142-143): BV moet 150.000 EUR uitkeren. Netto-actief vóór: 900.000 EUR; na: 750.000 EUR. Liquiditeit-verklaring 12-maands cash gevraagd.",
+              "Stap 3 — boekingen: D 100 Inbreng (deel vader) 240.000 / D 14 Overgedragen winst -90.000 / C 489 Schuld aan uittredende aandeelhouder 150.000. Vervolgens D 489 / C 550 Bank 150.000. Aandelen worden vernietigd → totaal aandelen daalt van 1000 naar 400.",
+              "Stap 4 — gevolg: zoon A en zoon B houden elk 200 aandelen — eigendomsverhouding nu 50/50."
+            ],
+            "resultaat": "Vader treedt uit zonder dat A of B persoonlijk moeten meebetalen — vermogen van de BV financiert de uittreding."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BV nog 'BVBA' noemen of in oude termen denken",
+        "verkeerde_assumptie": "Stagiairs gebruiken 'BVBA' (vroegere benaming) of denken in oude BVBA-categorieën (minimumkapitaal 18.550 EUR, statutaire zaakvoerder ontslaglimiet).",
+        "kernpunt": "Sinds WVV: 'BV' (geen 'BVBA' meer). Geen minimumkapitaal — 'toereikend aanvangsvermogen' (art. 5:3). Bestuurders zijn 'ad nutum' herroepbaar tenzij statuten anders. Statutair onbeschikbare eigen vermogenrekening vervangt vroegere kapitaal-rubriek.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:70"}
+          ]
+        }
+      },
+      {
+        "titel": "Uitkeringstest vergeten of slordig toepassen",
+        "verkeerde_assumptie": "Bestuur deelt dividend uit op basis van uitsluitend beschikbare reserves (vroegere BVBA-praktijk) zonder formele liquiditeits-test.",
+        "kernpunt": "Sinds WVV verplicht BEIDE tests + schriftelijke verklaring van het bestuursorgaan (art. 5:142-143). Niet-naleving triggert (a) terugvordering bij aandeelhouders te kwader trouw, (b) bestuurdersaansprakelijkheid (art. 5:144).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:144"}
+          ]
+        }
+      },
+      {
+        "titel": "Financieel plan 'pro forma' opstellen",
+        "verkeerde_assumptie": "Het financieel plan wordt door de notaris als pro-forma-document behandeld.",
+        "kernpunt": "Het financieel plan is een serieuze verantwoordings-deliverable. Bij faillissement binnen 3 jaar wordt het opgevraagd; gebreken (geen onderbouwde projecties, kennelijk fictieve omzet, onvoldoende werkkapitaal) leiden tot persoonlijke aansprakelijkheid oprichters voor het netto-passief (art. 5:16).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"}
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-eigen-kantoor-bv",
+      "naam": {"primair": "Eigen kantoor — BV-cliënt boekhouden en adviseren"},
+      "intro": "De accountant voert dossier voor een BV-cliënt: boekhouding, jaarrekening, uitkeringstoets, fiscaal.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-aanvangsvermogen",
+              "naam": {"primair": "Boeking aanvangsvermogen bij oprichting"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "BV-aanvangsvermogen wordt geboekt op rek. 100 'Inbreng' (vervangt vroegere 100 'Kapitaal'). Bij inbreng in natura: rek. 100 / actief-rek (240 inboedel, 220 grond, etc.). Bij inbreng in geld: rek. 100 / rek. 550 Bank. Statutair onbeschikbare reserves: rek. 131 'Onbeschikbare reserves' — moet apart bijgehouden worden voor toepassing uitkeringstoets (art. 5:142).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "advies", "naam": "CBN 2019/14", "ref": "Van kapitaalhoudende BVBA naar kapitaalloze BV"},
+                      {"type": "wettekst", "naam": "KB WVV", "ref": "art. 3:89", "context": "Minimum algemeen rekeningstelsel"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "boeking-dividend",
+              "naam": {"primair": "Boeking dividend met dubbele uitkeringstoets"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vóór boeking: documenteer beide tests in een verslag bestuur. Boeking: (1) AV-beslissing dividend: D 14 Overgedragen winst / C 471 Dividend te betalen. (2) Inhouding RV 30 % (of 15 % VVPRbis): D 471 / C 453 RV te betalen. (3) Uitbetaling netto: D 471 / C 550 Bank. (4) Afdracht RV aan fiscus binnen 15 dagen: D 453 / C 550 Bank. Bewaar verslag bestuur + AV-notulen + cashflow-projectie minimaal 5 j.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142"},
+                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:143"},
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 269", "context": "Tarief RV"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-uittredingsregeling",
+              "naam": {"primair": "Advies — statutaire uittredingsregeling opstellen"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij oprichting of statutenwijziging adviseert de accountant of een uittredingsregeling lastens vennootschapsvermogen (art. 5:154) zinvol is. Voor: familievennootschappen met opvolgings-zorg. Tegen: kleine groei-BV waar elke euro werkkapitaal telt. Indien gekozen: specifieke statutaire voorwaarden (drempelleeftijd, opzeg-termijn, waarderingsmethode bedrijfsrevisor).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:154"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
+    {"type": "valt_onder", "target": "ondernemingsvormen"},
+    {"type": "vereist", "target": "financieel-plan"},
+    {"type": "vereist", "target": "kapitaalbescherming"},
     {
-      "type": "valt_onder",
-      "target": "ondernemingsvormen"
-    },
-    {
-      "type": "vereist",
-      "target": "financieel-plan"
-    },
-    {
-      "type": "vereist",
-      "target": "kapitaalbescherming"
+      "type": "vergelijkbaar_met",
+      "target": "naamloze-vennootschap",
+      "gelijkenissen": [
+        "Beide hebben rechtspersoonlijkheid",
+        "Beide bieden beperkte aansprakelijkheid aandeelhouders tot inbreng",
+        "Beide zijn VenB-plichtig (art. 179 WIB92)",
+        "Beide moeten dubbele boekhouding voeren"
+      ],
+      "verschillen": [
+        "BV: geen minimumkapitaal — 'toereikend aanvangsvermogen' + financieel plan (art. 5:3-4) · NV: minimumkapitaal 61.500 EUR volstort (art. 7:2)",
+        "BV: één bestuurder kan — geen verplicht college · NV: in principe minstens drie bestuurders (art. 7:85)",
+        "BV: aandelen statutair beperkt overdraagbaar (besloten karakter) · NV: aandelen vrij overdraagbaar default",
+        "BV: uittreding lastens vennootschap statutair mogelijk (art. 5:154) · NV: niet voorzien",
+        "BV: dubbele uitkeringstoets · NV: enkel netto-actief-test"
+      ],
+      "verwarring_risico": "Stagiairs verwarren vaak BV en NV omdat beide 'kapitaalvennootschappen' zijn. Kritisch verschil sinds WVV: BV is kapitaalloos en aanzienlijk flexibeler; NV behoudt klassiek kapitaalregime + zwaarder bestuur.",
+      "render_hint": "als_waarschuwing"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "naamloze-vennootschap"
+      "target": "cooperatieve-vennootschap",
+      "gelijkenissen": ["Beide kapitaalloos (sinds WVV)", "Beide hebben rechtspersoonlijkheid", "Beide VenB-plichtig"],
+      "verschillen": [
+        "BV: geen specifiek doel-vereiste · CV: verplicht coöperatief doel (art. 6:1 WVV)",
+        "BV: aandelen vrij in soorten · CV: meer rigide rechten-structuur volgens coöperatief beginsel"
+      ],
+      "verwarring_risico": "Vroegere CVBA werd vaak gebruikt waar BVBA gepaster was. Sinds WVV: indien geen echt coöperatief doel → BV verplicht.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
