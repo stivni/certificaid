@@ -6,17 +6,20 @@
       "business cycle analysis",
       "cyclusbenadering",
       "transaction cycles",
-      "P2P",
-      "O2C",
-      "H2R",
+      "procure-to-pay (P2P)",
+      "order-to-cash (O2C)",
+      "hire-to-retire (H2R)",
       "process cycles",
       "cyclus-aanpak"
-    ]
+    ],
+    "vertaling": {
+      "fr": "analyse par cycle"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -30,22 +33,22 @@
     ],
     "scope": {
       "in": [
-        "Methodische opsplitsing bedrijfsvoering in 5 typische cycli met eigen risico's + sleutel-controles",
-        "Vergelijkingsmatrix per cyclus: processtappen · risico's · sleutelcontroles · IT-systemen · KPI's",
-        "#aankoopcyclus (P2P, procure-to-pay) — behoefte→bestelling→ontvangst→factuur→betaling; three-way matching; risico's: ongeoorloofde aankopen · dubbele betalingen · fictieve leveranciers (1.7.IX.A)",
-        "#productiecyclus — grondstoffen→WIP→afgewerkt product; kostprijsallocatie + voorraad-mutaties; risico's: rendementsverlies · schroot · foute kostenverdeling (1.7.IX.B)",
-        "#verkoopcyclus (O2C, order-to-cash) — order→kredietcheck→levering→facturatie→inning; risico's: fictieve verkopen · cut-off · oneigenlijke kortingen (1.7.IX.C)",
-        "#hr-cyclus (hire-to-retire) — aanwerving→contract→loonberekening→uitbetaling→uitdiensttreding; risico's: fictieve werknemers · foute loonparameters (1.7.IX.D)",
-        "#voorraadcyclus — perpetual inventory + periodieke fysieke tellingen; cut-off rond balansdatum; magazijnbeveiliging (1.7.IX.E)"
+        "Methodische opsplitsing bedrijfsvoering in vijf typische cycli met eigen risico's en sleutelcontroles",
+        "Vergelijkingsmatrix per cyclus: processtappen, risico's, sleutelcontroles, IT-systemen, KPI's",
+        "Aankoopcyclus (P2P, procure-to-pay): behoefte naar bestelling naar ontvangst naar factuur naar betaling; three-way matching",
+        "Productiecyclus: grondstoffen naar WIP naar afgewerkt product; kostprijsallocatie en voorraad-mutaties",
+        "Verkoopcyclus (O2C, order-to-cash): order naar kredietcheck naar levering naar facturatie naar inning",
+        "HR-cyclus (hire-to-retire): aanwerving naar contract naar loonberekening naar uitbetaling naar uitdiensttreding",
+        "Voorraadcyclus: perpetual inventory plus periodieke fysieke tellingen; cut-off rond balansdatum; magazijnbeveiliging"
       ],
       "out": [
         {
-          "topic": "IC als toepassings-kader (intern)",
+          "topic": "Interne controle als toepassings-kader",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
         },
         {
-          "topic": "COSO-controle-activiteiten worden per cyclus toegepast (shared)",
+          "topic": "COSO-controle-activiteiten per cyclus toegepast",
           "richting": "moet-verwijzen",
           "ref": "coso-framework"
         },
@@ -67,9 +70,17 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/cyclus-analyse.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ITAA-norm-kmo-controlenorm"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -77,27 +88,535 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:40:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit ISA 315 (bedrijfsprocessen) en standaardleer cyclus-aanpak in audit-praktijk."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Cyclus-analyse is de standaard-methodologische benadering waarbij de bedrijfsvoering van een onderneming wordt opgesplitst in een beperkt aantal typische transactionele cycli - elk met eigen processtappen, risico's, sleutelcontroles en informatica-systemen. De vijf canonieke cycli in audit-praktijk en interne-controle-ontwerp zijn: aankoop (procure-to-pay), productie, verkoop (order-to-cash), personeel (hire-to-retire) en voorraad. De cyclus-aanpak structureert zowel het ontwerp van interne controle (welke controles per cyclus) als de externe audit (welk bewijs verzamelen per cyclus).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 16 - bedrijfsprocessen en transactiestromen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardmethodologie audit-handboeken" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De waarde van cyclus-analyse is praktisch: in plaats van losse risico's te lijsten, biedt de cyclus-aanpak een coherent verhaal dat correspondeert met de feitelijke werking. De stagiair leert risico's herkennen in volgorde van transactie-uitvoering (bv. fictieve verkoop kan ontstaan op order-stap, niet op betalingsstap). Per cyclus zijn er typische sleutelcontroles (three-way matching in aankoop, kredietcheck in verkoop, fysieke telling in voorraad) die in elke onderneming terugkomen - de cyclus-aanpak is daarmee een pedagogisch zeer effectief raster. ERP-systemen zijn overigens ook langs deze cycli opgebouwd (modules Purchasing, Manufacturing, Sales, HR, Inventory).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ERP-architectuur + audit-pedagogiek" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Een cyclus-aanpak operationaliseert de COSO-component 'controle-activiteiten' (component 3) en het ISA 315-vereiste van inzicht in de bedrijfsprocessen (par. 16). Zonder cyclus-aanpak loopt risico-identificatie chaotisch (random lijstje); met cyclus-aanpak verzamelt de auditor op systematische manier de relevante beweringen (volledigheid, juistheid, bestaan, ...) per cyclus en evalueert hij of de bijhorende sleutelcontroles werken. Voor het management is de cyclus-aanpak de operationele lens om interne controle te ontwerpen en te budgeteren - je investeert in controles waar de cyclus ze nodig heeft.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 16 en par. 26 - significant transactiestromen identificeren" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "interne-controle",
+        "coso-framework"
+      ],
+      "naast_relevant": [
+        "functiescheiding",
+        "it-controles"
+      ],
+      "volgkennis": [
+        "evaluatie-interne-controle",
+        "audit-bewijs"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Universele methodologie in audit en interne-controle-ontwerp. Cyclus-namen kunnen verschillen (sommige handboeken gebruiken 4 cycli, andere 6 of 7) maar de essentie is constant."
+      },
+      "voor": [
+        {
+          "tekst": "Bij ontwerp van interne controle (één deelproject per cyclus), bij planning externe audit (significante transactiestromen identificeren - ISA 315 par. 26), bij interne audit (jaarplan met cyclus-audits), bij ERP-implementatie (modules per cyclus uitrollen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 26" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "aankoopcyclus",
+        "naam": { "primair": "Aankoopcyclus (Procure-to-Pay, P2P)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Cyclus van behoefte naar betaling: aanvraag (behoefte uiten) - inkooporder (autorisatie en bestelling) - ontvangst (goederen of dienst geleverd) - facturatie (leveranciersfactuur) - boeking - betaling. Sleutelcontrole: three-way matching - inkooporder, ontvangstbon en factuur moeten kwalitatief en kwantitatief overeenstemmen voordat tot betaling wordt overgegaan.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "aankoop-risicos",
+              "naam": { "primair": "Aankoop-risico's" },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Ongeoorloofde aankopen - bestellingen zonder autorisatie; (2) Fictieve leveranciers - betaling naar eigen of bevriende rekening (klassieke interne fraude); (3) Dubbele betaling van dezelfde factuur; (4) Niet-conforme leveringen (kwantiteit, kwaliteit, prijs); (5) Cut-off-issues rond jaareinde (factuur in verkeerd boekjaar).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - frauderisicofactoren oneigenlijke toe-eigening" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "aankoop-sleutelcontroles",
+              "naam": { "primair": "Aankoop-sleutelcontroles" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Autorisatie inkooporder boven een grens door manager of zaakvoerder; (2) Three-way matching (inkooporder + ontvangstbon + factuur); (3) Geautomatiseerde duplicaat-detectie op factuurnummer per leverancier; (4) Validatie van nieuwe leveranciers (KBO-check, bankrekening-validatie, fysiek bezoek); (5) Functiescheiding aankoop versus betaling.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "productiecyclus",
+        "naam": { "primair": "Productiecyclus" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Cyclus van grondstoffen tot afgewerkt product: behoefte-planning (MRP, master production schedule) - vrijgave van grondstoffen uit magazijn - bewerking (work in progress, WIP) - kwaliteitscontrole - afgewerkt product. Centrale boekhoudkundige kwesties: kostprijsallocatie (directe en indirecte kosten naar producten), voorraadwaardering en voorraadmutaties.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard productiecyclus audit-handboek" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "productie-risicos",
+              "naam": { "primair": "Productie-risico's" },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Rendementsverlies of schroot dat niet correct wordt geregistreerd; (2) Foute toewijzing indirecte kosten aan producten (over- of underabsorption); (3) WIP-waardering (welke kosten in WIP, welke al kost); (4) Verlies of diefstal in productie; (5) Cut-off-issues bij in-uit-stroming WIP rond balansdatum.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard productie-risico's" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "productie-sleutelcontroles",
+              "naam": { "primair": "Productie-sleutelcontroles" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Vergelijking standaardkosten versus werkelijke kosten met variance-analyse; (2) Goedkeuring schroot-meldingen door productiemanager; (3) Fysieke tellingen WIP op specifieke meetmomenten; (4) Standaardtijden geverifieerd via tijdsregistratie; (5) Periodieke review van kostprijscalculatie-parameters.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard interne controle productie" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "verkoopcyclus",
+        "naam": { "primair": "Verkoopcyclus (Order-to-Cash, O2C)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Cyclus van order tot inning: klantorder - kredietwaardigheidstoets - levering - facturatie - inning - opvolging openstaande vorderingen. Sleutelcontrole bij elke schakel: het bedrag aan vorderingen, de waardering en de cut-off zijn klassiek de eerste audit-risico's.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 240", "ref": "par. 26 - verplichte focus op revenue recognition" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "verkoop-risicos",
+              "naam": { "primair": "Verkoop-risico's" },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Fictieve verkopen - omzet boeken voor niet-bestaande transacties (klassieke management fraude voor target-druk); (2) Cut-off - omzet in verkeerd boekjaar boeken; (3) Oneigenlijke kortingen of credit notes om relaties met klanten te verbergen; (4) Verkoop zonder kredietcheck waardoor oninbare vorderingen ontstaan; (5) Bill-and-hold-transacties (omzet boeken voor goederen die nog niet verzonden zijn).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 240", "ref": "par. 26 + Bijlage 1 - revenue recognition risico's" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "verkoop-sleutelcontroles",
+              "naam": { "primair": "Verkoop-sleutelcontroles" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Geautomatiseerde kredietcheck voor nieuwe klanten en bij order-creatie; (2) Aansluiting facturatie met levering (geleverde hoeveelheden facturatie matchen); (3) Manager-goedkeuring voor credit notes; (4) Cut-off-procedure rond balansdatum (laatste vrachtbrieven en facturen); (5) Periodieke review openstaande vorderingen ageing.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "hr-cyclus",
+        "naam": { "primair": "HR-cyclus (Hire-to-Retire, H2R)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Cyclus van aanwerving tot uitdiensttreding: aanwerving - contract - tijdsregistratie of prestaties - loonberekening - uitbetaling - sociale lasten - uitdiensttreding. In Belgie typisch via een sociaal secretariaat (Acerta, Securex, SD Worx) dat een groot deel van de loonberekening overneemt - de IC-vraag wordt dan ook: hoe betrouwbaar is het sociaal secretariaat (ISAE 3402-rapport vragen).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 402", "ref": "Serviceorganisatie en gebruikersorganisatie" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "hr-risicos",
+              "naam": { "primair": "HR-risico's" },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Fictieve werknemers ('ghost employees') in de loonadministratie; (2) Foute loonparameters (uurloon, anciennitsspremies, gezinslast) - kost de werkgever of nadeel voor werknemer; (3) Niet-afgesloten contracten na uitdiensttreding (loon blijft betaald); (4) Foute toepassing wetgeving (RSZ, bedrijfsvoorheffing, vakantiegeld); (5) Toegang tot loonsysteem niet correct beheerd.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - ghost employees" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "hr-sleutelcontroles",
+              "naam": { "primair": "HR-sleutelcontroles" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Aansluiting personeelsbestand met sociaal secretariaat; (2) Goedkeuring HR-manager voor nieuwe werknemers en loonwijzigingen; (3) Functiescheiding aanwerving (HR) versus loonberekening (boekhouder) versus uitbetaling (treasury); (4) Periodieke review actieve werknemers door zaakvoerder; (5) Maandelijkse trendanalyse loonkost.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk Belgische kmo" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "voorraadcyclus",
+        "naam": { "primair": "Voorraadcyclus" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Beheer van voorraad in alle vormen (grondstoffen, WIP, afgewerkt product, handelsvoorraad). Twee modellen: perpetual inventory (continue boekhoudkundige opvolging van elke beweging) versus periodic inventory (alleen via fysieke tellingen). In de meeste moderne ondernemingen: perpetual via ERP, aangevuld met periodieke fysieke tellingen voor validatie.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 501", "ref": "par. 4-8 - voorraad-opname" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "voorraad-risicos",
+              "naam": { "primair": "Voorraad-risico's" },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Diefstal of verlies dat niet wordt geregistreerd; (2) Cut-off-issues rond balansdatum (welke voorraad is van wie); (3) Verouderde of onverkoopbare voorraad zonder afwaardering (waardering tegen NRV); (4) Verkeerde kostenallocatie aan voorraad; (5) Niet-eigendomsvoorraad (consignment, in transit) verkeerd opgenomen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 501", "ref": "par. 4-8" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "voorraad-sleutelcontroles",
+              "naam": { "primair": "Voorraad-sleutelcontroles" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Periodieke (minstens jaarlijkse) fysieke voorraadtelling met onafhankelijke telploeg; (2) Cut-off-procedure rond telmoment (geen bewegingen tijdens telling, sluitnummering vrachtbrieven); (3) Magazijnbeveiliging (toegangscontrole, camera's, alarm); (4) Periodieke review slow-movers en obsolete inventory; (5) Aansluiting magazijnsysteem met grootboek.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 501", "ref": "par. 4-8" }
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "cyclus-matrix",
+        "naam": { "primair": "Vergelijkingsmatrix van de vijf cycli" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Compacte vergelijking van de cycli op vijf assen: processtappen, typische risico's, sleutelcontroles, ERP-module en relevante boekhoudbeweringen. Helpt de stagiair om systematisch te denken en niet een cyclus over te slaan in zijn analyse.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pedagogisch standaardraster" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Cyclus", "Hoofdrisico", "Sleutelcontrole", "ERP-module", "Belangrijkste beweringen"],
+            "rijen": [
+              ["Aankoop (P2P)", "Fictieve leveranciers, dubbele betaling", "Three-way matching", "Purchasing / Accounts Payable", "Volledigheid + juistheid + cut-off schulden"],
+              ["Productie", "Kostenallocatie + schroot", "Standaard versus werkelijke kost", "Manufacturing", "Waardering voorraad + cut-off"],
+              ["Verkoop (O2C)", "Fictieve verkopen + cut-off omzet", "Aansluiting facturatie en levering", "Sales / Accounts Receivable", "Bestaan omzet + cut-off + waardering vorderingen"],
+              ["HR (H2R)", "Ghost employees", "Aansluiting bestand sociaal secretariaat", "HR / Payroll", "Bestaan personeel + juistheid loonkost"],
+              ["Voorraad", "Diefstal + obsolete", "Fysieke telling + NRV-review", "Inventory", "Bestaan + waardering + eigendom"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "treasury-cyclus-optioneel",
+        "naam": { "primair": "Treasury-cyclus (optionele zesde cyclus)" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Sommige handboeken behandelen treasury (beheer liquide middelen, financieringen, intresten, valuta) als een aparte zesde cyclus. Sleutelcontroles: bankreconciliatie, dubbele handtekening voor uitgaande betalingen, autorisatie van leningen door bestuursorgaan, hedging-policies. Voor de meeste kmo's gegroepeerd onder aankoop en verkoop, maar bij grotere ondernemingen of bij specifiek treasury-risico apart te behandelen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Variabele cyclus-indeling in audit-handboeken" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaste-activa-cyclus-optioneel",
+        "naam": { "primair": "Vaste-activa-cyclus (optionele cyclus)" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Cyclus van investeringsbeslissing tot desinvestering: capex-budget - autorisatie - aankoop - activering - afschrijving - revaluatie of impairment - verkoop of buitengebruikstelling. Sleutelcontroles: autorisatie capex door bestuursorgaan boven een grens, fysieke inventaris vaste activa periodiek, review afschrijvingsmethode en restwaarde, impairment-tests bij triggers. Bij investeringsintensieve ondernemingen een aparte audit-focus.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk audit-handboeken" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cyclus-kmo-aanpassing",
+        "naam": { "primair": "Aanpassing voor kmo-context" },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "In een kmo zijn cycli vaak minder strikt gescheiden - dezelfde persoon werkt over verschillende cycli. De cyclus-aanpak blijft pedagogisch zinvol maar wordt operationeel pragmatisch toegepast: minder formele documentatie per cyclus, focus op de sleutelcontroles met grootste impact, gebruik van standaardchecklists in plaats van uitgewerkte flowcharts. ITAA-norm-KMO-controlenorm erkent expliciet deze schaalbaarheid.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 43 documentatie aangepast aan omvang" },
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A156 schaalbaarheid" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Cyclus-indeling als rigide regel toepassen",
+        "verkeerde_assumptie": "Er zijn exact vijf cycli, niet meer en niet minder.",
+        "kernpunt": "De cyclus-indeling is een pragmatische conventie, geen wet. Sommige handboeken hanteren 4 cycli, andere 6 of 7 (treasury, vaste activa, IT als aparte cyclus). Belangrijk is dat de gekozen indeling de bedrijfsprocessen van de cliente goed dekt - in een holding zonder personeel of voorraad zijn die cycli niet relevant.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Variatie in cyclus-indeling tussen handboeken" }
+          ]
+        }
+      },
+      {
+        "titel": "Cycli onafhankelijk benaderen",
+        "verkeerde_assumptie": "Aankoop, verkoop en voorraad kunnen los geanalyseerd worden.",
+        "kernpunt": "De cycli zijn sterk verweven. Een verkoop triggert een voorraadafname; een aankoop triggert een schuld; productie zit tussen voorraad-grondstoffen en voorraad-afgewerkt-product. Cut-off-issues kruisen vaak twee cycli. Bij audit: cross-checks tussen cycli zijn waardevol (verkoop versus voorraadbeweging, aankoop versus voorraadtoename).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Audit-best-practice cross-cycle-testing" }
+          ]
+        }
+      },
+      {
+        "titel": "Cyclus-analyse vervangt risico-inschatting",
+        "verkeerde_assumptie": "Door de cyclus-aanpak heb ik vanzelf alle risico's gevat.",
+        "kernpunt": "De cyclus-aanpak structureert risico-identificatie maar vervangt het niet. Cliente-specifieke risico's (afhankelijkheid van een dominante klant, complex IFRS-toepassingsdomein, fraude-context, regulatoire druk) overstijgen de standaard-cycli en moeten apart worden ingeschat conform ISA 315.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 19 - inzicht in entiteit en omgeving" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "auditor-cyclus-aanpak",
+      "naam": {
+        "primair": "Auditor structureert planning via cycli"
+      },
+      "intro": "De externe auditor gebruikt cyclus-analyse in zijn risico-inschatting en bewijsverzameling.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "significant-transactiestromen",
+              "naam": { "primair": "Identificeren significante transactiestromen per cyclus" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "ISA 315 par. 26 vereist dat de auditor significante transactiestromen, rekeningsaldi en toelichtingen identificeert. Cyclus-analyse is hier het ordenende principe: per cyclus de typische transactiestromen lijsten, met materialiteit-relevante volumes en risico-inschatting per bewering. Output: audit-strategie per cyclus.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 26" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "cyclus-audit-programma",
+              "naam": { "primair": "Cyclus-audit-programma opstellen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per cyclus een geintegreerd auditprogramma dat (1) ITGC-relevantie inschat, (2) sleutelcontroles toetst (operating effectiveness), (3) cyclus-specifieke gegevensgerichte werkzaamheden plant (detailcontroles, cijferanalyses), (4) cut-off-werkzaamheden rond balansdatum, (5) specifieke risicogerichte werkzaamheden (bv. revenue recognition-focus per ISA 240 par. 26).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. 6 - opzet van verdere controlewerkzaamheden" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adviseur-cyclus-ontwerp",
+      "naam": {
+        "primair": "Adviseur structureert ontwerp interne controle per cyclus"
+      },
+      "intro": "De accountant in adviesopdracht gebruikt cyclus-analyse als ontwerp-structuur.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "deelproject-per-cyclus",
+              "naam": { "primair": "Een deelproject per cyclus" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Strakke project-structuur: een verantwoordelijke per cyclus, een werkgroep met de relevante operationele managers, een geintegreerd schema voor proces-mapping, risico-identificatie, controle-selectie en documentatie. Prioritering op basis van materialiteit en risico - aankoop en verkoop typisch eerst, gevolgd door voorraad en personeel, tot slot productie (vaak meest complex).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardproject-aanpak interne-controle-ontwerp" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -105,15 +624,13 @@
     },
     {
       "type": "vereist",
-      "target": "functiescheiding"
+      "target": "coso-framework",
+      "toelichting": "Cyclus-analyse is de operationele toepassing van de COSO-component 'controle-activiteiten' op de feitelijke bedrijfsprocessen."
     },
     {
       "type": "vereist",
-      "target": "it-controles"
-    },
-    {
-      "type": "triggert",
-      "target": "audit-bewijs"
+      "target": "functiescheiding",
+      "toelichting": "Functiescheiding wordt per cyclus concreet ingevuld (besteller versus betaler in aankoop, verkoper versus inning in verkoop, ...)."
     }
   ]
 }
