@@ -1,35 +1,16 @@
 {
   "id": "voorheffingen-en-verrekeningen-venb",
   "naam": {
-    "primair": "Voorheffingen en verrekeningen (VenB)",
-    "synoniemen": [
-      "précomptes et imputations ISoc"
-    ]
+    "primair": "Voorheffingen en verrekeningen VenB",
+    "synoniemen": ["verrekeningen vennootschapsbelasting", "VenB-verrekeningen"],
+    "vertaling": {"en": "withholding taxes and tax credits — corporate income tax", "fr": "précomptes et imputations à l'impôt des sociétés"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.3.II.J"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (-venb behouden voorlopig, OP-VB.A pending: mogelijke rename of split)"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.3.II.J"],
     "scope": {
       "in": [
         "FBB (forfaitair gedeelte buitenlandse belasting): verrekening buitenlandse bronheffing tegen Belgische VenB",
@@ -39,64 +20,129 @@
         "Wetgevings-logica fundamenteel anders dan PB-aftrek-cascade → géén generieke samenvoeging mogelijk"
       ],
       "out": [
-        {
-          "topic": "Voorafbetalingen (generiek + VenB-perspectief)",
-          "richting": "moet-verwijzen",
-          "ref": "voorafbetalingen"
-        },
-        {
-          "topic": "Roerende voorheffing (instrument)",
-          "richting": "moet-verwijzen",
-          "ref": "roerende-voorheffing"
-        },
-        {
-          "topic": "Bedrijfsvoorheffing (instrument)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfsvoorheffing"
-        },
-        {
-          "topic": "DBI-aftrek (vrijstelling vs FBB-verrekening)",
-          "richting": "mag-verwijzen",
-          "ref": "dbi-aftrek"
-        },
-        {
-          "topic": "Internationaal-fiscaal kader",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Voorafbetalingen (generiek + VenB-perspectief)", "richting": "moet-verwijzen", "ref": "voorafbetalingen"},
+        {"topic": "Roerende voorheffing (instrument)", "richting": "moet-verwijzen", "ref": "roerende-voorheffing"},
+        {"topic": "Bedrijfsvoorheffing (instrument)", "richting": "moet-verwijzen", "ref": "bedrijfsvoorheffing"},
+        {"topic": "DBI-aftrek (vrijstelling vs FBB-verrekening)", "richting": "mag-verwijzen", "ref": "dbi-aftrek"},
+        {"topic": "Internationaal-fiscaal kader", "richting": "mag-verwijzen"}
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-fiscaliteit-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/voorheffingen-en-verrekeningen-venb.json",
+      "primary_bronnen": ["WIB 92 art. 276-292"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-fiscaliteit-2026-05-28", "wijziging": "Voorheffingen + verrekeningen VenB uitgewerkt: FBB, RV-verrekening, voorafbetalings-verrekening, vermeerderingsbijdrage, concreet rekenvoorbeeld met aangifte-vakken."}
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
-        }
+        "tekst": "Het regime van voorheffingen + verrekeningen bij vennootschapsbelasting (VenB) regelt hoe vooruitbetaalde of bronheffings-belastingen worden afgezet tegen de uiteindelijke VenB-aanslag. Vier hoofd-categorieën: (1) voorafbetalingen — vrijwillige kwartaal-stortingen om de vermeerderings-bijdrage te vermijden (WIB art. 218); (2) verrekenbare voorheffingen — roerende voorheffing (RV) op door de vennootschap ontvangen dividenden/interesten, en bedrijfsvoorheffing (BV) op de aan haar betaalde bezoldigingen (zelden van toepassing); (3) forfaitair gedeelte buitenlandse belasting (FBB) — verrekening van buitenlandse bronheffing op roerende inkomsten (art. 285-292); (4) belastingkredieten (research-O&O, energetische renovatie, ...). Saldo na verrekening = werkelijk verschuldigde of terug te krijgen VenB.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 276-292 (verrekeningen) + 218 (voorafbetalingen)"}]}
+      },
+      "substantie": {
+        "tekst": "Het vermijden van dubbele belasting is de drijvende logica. Als een Belgische vennootschap dividenden krijgt uit een Franse dochter, zijn die in Frankrijk al belast (bronheffing) en in België bij ontvangst (RV 30 %). Zonder verrekenings-mechanisme zou dezelfde euro 2-3 keer belast worden. De FBB (forfaitair gedeelte buitenlandse belasting) geeft een fictieve verrekening voor de buitenlandse bronheffing; de RV op binnenkomende dividenden wordt verrekend tegen VenB. Voor de stagiair gecertificeerd-accountant zit het werk in het correct invullen van de aangifte VenB (formulier 275.1) — verkeerde invulling = teveel betaald of fout terugvragen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom geen samenvoeging met PB-aftrekken? De logica is fundamenteel anders. In de PB worden voorheffingen aangerekend op de uiteindelijke PB-schuld van de natuurlijke persoon — bedrijfsvoorheffing op zijn loon, roerende voorheffing op zijn dividenden. In de VenB komt bedrijfsvoorheffing NOOIT bij de vennootschap terug (die is voor de werknemer); enkel ROERENDE voorheffing op door de vennootschap ontvangen inkomsten is relevant. Bovendien werkt VenB met voorafbetalings-vermeerdering (art. 218) die in PB niet bestaat. Daarom: aparte fenomeen-records, geen samenvoeging.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
       }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vennootschapsbelasting", "voorafbetalingen", "roerende-voorheffing"],
+      "kader": "vennootschapsbelasting",
+      "naast_relevant": ["bedrijfsvoorheffing", "forfaitair-gedeelte-buitenlandse-belasting", "dbi-aftrek"],
+      "volgkennis": ["aangifte-vennootschapsbelasting"]
     },
     "gebruikscontext": {
-      "geldigheid": {
-        "status": "in-voege",
-        "wettelijke_basis": "WIB art 276-296"
+      "voor": [
+        {"tekst": "Opstellen aangifte VenB — saldo-berekening: verschuldigde VenB − voorafbetalingen − RV-verrekening − FBB = te betalen of terug te krijgen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Kwartaal-planning voorafbetalingen — vermeerderings-bijdrage vermijden (typisch 6,75 % over te weinig voorafbetaalde grondslag).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 218"}]}},
+        {"tekst": "Internationale dividend-flow — verrekening FBB voor buitenlandse bronheffing.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "voorafbetalingen-venb",
+        "naam": {"primair": "Voorafbetalingen VenB"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Vrijwillige kwartaal-stortingen door de vennootschap om de eind-VenB voor te financieren en de vermeerderings-bijdrage te vermijden. Vier vervaltermijnen (VA1 t/m VA4): 10 april, 10 juli, 10 oktober, 20 december. Elke storting krijgt een 'bonificatie-percentage' dat het belastings-effect bepaalt — vroege betaling = hogere bonificatie. Indien onvoldoende voorafbetaald: vermeerderings-bijdrage van typisch 6,75 % (AJ 2025) op de te weinig voorafbetaalde grondslag.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 218"}]}},
+            "substantie": {"tekst": "Voor de KMO-accountant: zelfs zonder cashbehoefte zijn voorafbetalingen vaak fiscaal voordelig — 6,75 % vermeerdering is duurder dan kortlopende bankrente. Vuistregel: betaal in VA1 (april) zoveel als mogelijk = hoogste bonificatie. Starters genieten gedurende 3 jaar vrijstelling van vermeerdering — typische 'starter-faciliteit'.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+          }
+        }
+      },
+      {
+        "id": "rv-verrekening-venb",
+        "naam": {"primair": "RV-verrekening bij VenB"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Roerende voorheffing (typisch 30 %) ingehouden op aan de vennootschap betaalde dividenden, interesten, royalty's is verrekenbaar tegen haar uiteindelijke VenB-schuld (WIB art. 276 + 281). Voorwaarden: (a) inkomsten zijn opgenomen in belastbare grondslag (of vrijgesteld via DBI); (b) RV werkelijk ingehouden + gestort. Bij DBI-aftrek: de RV blijft verrekenbaar zelfs op het vrijgestelde dividend (dubbele beneficiaire behandeling). Niet-verrekend overschot: terugbetaald.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 276 + 281"}]}},
+            "substantie": {"tekst": "Praktisch frequent bij dividenden uit dochter-vennootschappen waar de moeder onder de DBI-drempel zit (geen 95 %-vrijstelling). Voorbeeld: Aurelia Holding krijgt 100 KEUR brutodividend van een 8 %-deelneming → RV 30 KEUR ingehouden + Aurelia ontvangt 70 KEUR netto. Aurelia geeft 100 KEUR aan in haar VenB-grondslag, krijgt 30 KEUR RV-verrekening tegen verschuldigde VenB.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+          }
+        }
+      },
+      {
+        "id": "fbb",
+        "naam": {"primair": "Forfaitair gedeelte buitenlandse belasting (FBB)", "afkorting": "FBB"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "FBB is een fictieve verrekening voor buitenlandse bronheffing op door de Belgische vennootschap ontvangen roerende inkomsten — typisch op interesten en royalty's (zelden op dividenden, omdat die meestal DBI-vrijgesteld zijn). Berekening: 15/85 van het werkelijk ontvangen bedrag (forfaitair) of de werkelijke ingehouden buitenlandse bronheffing — afhankelijk van DBV. Verrekenbaar tegen Belgische VenB tot max. de bedragen die de werkelijke buitenlandse heffing toelaten. Niet-verrekend overschot is NIET terugbetaalbaar (in tegenstelling tot RV).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 285-292"}]}},
+            "substantie": {"tekst": "Belangrijk voor multinationale groep-structuren. Voorbeeld: Belgische moeder krijgt 100 KEUR interest van Italiaanse dochter; Italië heft 15 % bronheffing (per DBV) = 15 KEUR; België belast netto 85 KEUR + verrekent FBB = 15/85 × 85 = 15 KEUR (gelijk aan werkelijke heffing). Voor dividenden uit klein-deelneming (geen DBI): vaak combinatie RV-verrekening + FBB-verrekening voor zelfde brutostroom.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-saldo-zelena",
+        "titel": "Saldo-berekening VenB — Zelena Bio NV (AJ 2025)",
+        "context": "Zelena Bio NV: VenB op belastbare grondslag = 83.625 EUR. Voorafbetalingen VA1 30.000 + VA2 25.000 + VA3 20.000 + VA4 10.000 = 85.000. Ontvangen dividend 100 KEUR met 30 % RV (= 30.000) gestort. Belastingjaar 2025.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Saldo-cascade aangifte VenB (EUR, AJ 2025)",
+            "rijen": [
+              ["Belastbare grondslag (na cascade)", "334.500"],
+              ["VenB-tarief 25 %", "83.625"],
+              ["VERMINDERINGEN/VERREKENINGEN (vakken 1830-1843):", ""],
+              ["  − Voorafbetalingen (vak 1830)", "−85.000"],
+              ["  − RV verrekenbaar (vak 1840)", "−30.000"],
+              ["  − FBB (vak 1841)", "0"],
+              ["= SALDO (negatief = teruggave)", "−31.375"],
+              ["Vermeerderings-bijdrage (geen — voldoende voorafbetaald)", "0"],
+              ["TE RECUPEREREN", "31.375 EUR"]
+            ],
+            "interpretatie": "VenB 83,6 KEUR wordt volledig gedekt door voorafbetalingen + RV-verrekening (115 KEUR totaal). Overschot van 31,4 KEUR krijgt Zelena Bio terug van de fiscus. Geen vermeerderings-bijdrage want voorafbetalingen ruim voldoende. Belangrijk: RV is verrekenbaar EN het dividend kan eventueel onder DBI-aftrek vallen (als deelneming > 10 % én > 2,5 MEUR aanschaffingswaarde) — dubbele begunstiging."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Bedrijfsvoorheffing voor VenB rekenen", "verkeerde_assumptie": "BV op aan medewerkers betaalde lonen mag de vennootschap verrekenen.", "kernpunt": "Bedrijfsvoorheffing wordt ingehouden DOOR de vennootschap en gestort aan de fiscus — voor rekening van de werknemer. Voor de vennootschap is BV een doorgeefluik, geen verrekening. De werknemer recupereert BV in zijn PB-aangifte. Verwarring leidt tot dubbele aanrekening + naheffing.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "RV verrekenen op DBI-vrijgesteld dividend vergeten", "verkeerde_assumptie": "DBI-vrijgesteld dividend → geen RV-verrekening mogelijk.", "kernpunt": "DBI-vrijstelling + RV-verrekening zijn cumulatief. Dividend is voor 100 % vrijgesteld via DBI, MAAR de RV (30 %) blijft verrekenbaar tegen andere VenB-schuld. Dubbele begunstiging is bewust — wet wil cross-border dividenden niet penaliseren.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 276 + 281"}]}},
+      {"titel": "FBB als terugbetaalbaar krediet behandelen", "verkeerde_assumptie": "FBB-overschot wordt terugbetaald zoals RV-overschot.", "kernpunt": "FBB is alleen verrekenbaar tot beloop van de Belgische VenB-schuld op de buitenlandse inkomsten. Overschot NIET terugbetaald (in tegenstelling tot RV). Reden: FBB compenseert dubbele belasting; geen dubbele belasting = geen recht op terugbetaling.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 287"}]}},
+      {"titel": "Vermeerderings-bijdrage onderschatten bij groeiende vennootschap", "verkeerde_assumptie": "Voorafbetaling op basis van vorig-jaar-VenB volstaat.", "kernpunt": "Bij snel groeiende vennootschap (sterke winststijging) → voorafbetaling op basis van vorig jaar = onvoldoende → vermeerderings-bijdrage 6,75 % over tekort. Vuistregel: schat verwachte VenB tijdig (bij Q3-cijfers) en pas VA aan. Starters (eerste 3 jaar): vrijstelling vermeerdering.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 218 §2 (starter-vrijstelling)"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "vennootschapsbelasting"
-    },
-    {
-      "type": "vereist",
-      "target": "voorafbetalingen"
-    }
+    {"type": "valt_onder", "target": "vennootschapsbelasting"},
+    {"type": "vereist", "target": "voorafbetalingen"},
+    {"type": "bevat", "target": "forfaitair-gedeelte-buitenlandse-belasting", "toelichting": "FBB is één van de verrekenings-mechanismen."},
+    {"type": "beinvloed_door", "target": "roerende-voorheffing", "toelichting": "RV op binnenkomende inkomsten is verrekenbaar tegen VenB."},
+    {"type": "vergelijkbaar_met", "target": "dbi-aftrek", "gelijkenissen": ["Beide vermijden dubbele belasting op grensoverschrijdende dividenden"], "verschillen": ["DBI = vrijstelling 100 % (geen belasting); FBB = verrekening van werkelijke buitenlandse heffing"], "verwarring_risico": "Studenten denken vaak dat DBI en FBB elkaar uitsluiten — ze zijn cumuleerbaar op zelfde dividend."}
   ]
 }
