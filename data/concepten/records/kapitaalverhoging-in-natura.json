@@ -3,25 +3,44 @@
   "naam": {
     "primair": "Kapitaalverhoging in natura",
     "synoniemen": [
-      "inbreng in natura",
-      "non-cash capital increase",
-      "contribution in kind"
-    ]
+      "inbreng in natura bij kapitaalverhoging",
+      "natura-inbreng"
+    ],
+    "vertaling": {
+      "fr": "augmentation de capital par apport en nature"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
     ],
     "ankers": [
-      "3.0.IV.A"
+      "3.0.IV.A",
+      "3.0.IV.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kapitaalverhoging-in-natura.json",
+      "primary_bronnen": [
+        "WVV art. 5:112",
+        "WVV art. 5:133",
+        "WVV art. 7:183",
+        "WVV art. 7:7",
+        "WIB92 art. 184bis",
+        "WIB92 art. 47",
+        "Wb Reg art. 115bis",
+        "CBN-advies 2012/8",
+        "ITAA-norm fusie/splitsing § 2 + § 4"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,16 +48,23 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~833)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WVV art. 7:183/5:112, WIB92 art. 184bis/47, Wb Reg art. 115bis, CBN 2012/8, ITAA-norm waarderingsmethoden). Bundle-flow extract."
       }
     ],
     "scope": {
       "in": [
-        "Kapitaalverhoging waarbij de inbreng niet uit geld bestaat — goederen · vorderingen · aandelen",
-        "Revisorverslag-verplichting bij BV/NV — evaluatie-methodes + waarderingsplafond",
+        "Kapitaalverhoging waarbij de inbreng niet uit geld bestaat — goederen, vorderingen, aandelen",
+        "Revisorverslag-verplichting bij BV/NV — evaluatie-methoden + waarderingsplafond",
         "Risico van overwaardering — revisor-controle als anti-misbruik",
         "Latente meerwaarden — fiscaal realisatiemoment bij inbreng vanuit eigen patrimonium",
-        "Inbreng-onroerend (sub-sectie) — registratierechten-vrijstelling art 115bis Wb Reg · gemengde betaling · btw-impact nieuw gebouw"
+        "Inbreng-onroerend (sub-concept) — registratierechten art. 115bis Wb Reg · btw-impact"
       ],
       "out": [
         {
@@ -62,62 +88,421 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Kapitaalverhoging in natura** is een verrichting waarbij de tegenprestatie voor de uitgifte van nieuwe aandelen bestaat uit een **niet-geldelijke inbreng**: een lichamelijk goed (machine, voertuig, vastgoed), een onlichamelijk goed (intellectueel eigendom, clientèle), een schuldvordering, of aandelen in een andere vennootschap. De verrichting volgt de algemene kapitaalverhoging-procedure (statutenwijziging + notariële akte) plus een verplicht **revisorverslag** (art. 7:183 NV / 5:112 BV WVV) dat de waardering en de waarderingsmethoden onderzoekt.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183", "context": "NV: revisorverslag kapitaalverhoging in natura" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:112", "context": "BV: revisorverslag verhoging inbreng in natura" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch laat de natura-inbreng toe bestaande activa van de aandeelhouder/derde (vastgoed, eenmanszaak-activa, deelneming in andere vennootschap, terugbetalingsvordering) om te zetten in eigen vermogen van de doelvennootschap zonder cash-storting. De **bedrijfsrevisor** (of commissaris) verifieert dat de **waarde van de inbreng** ten minste overeenkomt met het aantal × fractiewaarde + uitgiftepremie van de uit te geven aandelen — dit is de **anti-overwaardering**-garantie ten voordele van derden en bestaande aandeelhouders. Het bestuursorgaan stelt een eigen verslag op dat aangeeft waarom de inbreng van belang is voor de vennootschap en waarom een eventuele afwijking van de revisor-conclusies gerechtvaardigd is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183", "context": "Bestuurdersverslag + revisorverslag" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De verplichte revisor-controle bestaat omdat een natura-inbreng — anders dan een geld-inbreng — een **subjectief waarderings-oordeel** vereist. Zonder controle kan de inbrenger aandelen verkrijgen die niet overeenstemmen met de werkelijke economische waarde van het ingebrachte goed (overwaardering) → benadeling van de andere aandeelhouders en van de vennootschapsschuldeisers. De ratio is dezelfde als bij **quasi-inbreng**: voorkomen dat de wettelijke kapitaal-bescherming wordt omzeild via een transactie met een oprichter/bestuurder/aandeelhouder kort na de oprichting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm fusie/splitsing", "ref": "§ 2 + § 4", "context": "Anti-overwaardering ratio + waarderingsmethoden-cascade" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio anti-overwaardering" }
           ]
         }
       }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23-03-2019)",
+        "toelichting": "Procedure quasi-identiek aan vroegere W.Venn.-bepalingen (art. 444 W.Venn. → art. 7:183 WVV); WVV-hervorming heeft revisor-rol ongewijzigd gelaten."
+      },
+      "voor": [
+        {
+          "tekst": "Bij **overdracht van eenmanszaak** naar een nieuwe of bestaande vennootschap (cliënteel, materieel, vorderingen → kapitaal).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46", "context": "Fiscaal neutrale inbreng bedrijfstak" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **inbreng van vastgoed** in een patrimoniumvennootschap (motieven: successieplanning, opvolging, scheiding privé/professioneel).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 115bis", "context": "Vrijstelling registratierechten bij zuivere inbreng" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **capitalisatie van schuldvordering** (rekening-courant aandeelhouder → kapitaal) — schuldgraad verbetert zonder cash-uitstroom.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2021/07", "ref": "Boekhoudkundige verwerking schuldvordering in kapitaal", "datum": "2021-05-05" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Bestuurdersverslag** + **revisorverslag** (of commissaris-verslag indien een commissaris is benoemd) verplicht — beide verslagen worden neergelegd en bekendgemaakt (art. 2:7 + 2:13 WVV). Ontbreken = **nietigheid** van AV-besluit + verslagen (art. 7:183 § 1 lid 5 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183", "context": "Nietigheid bij ontbreken verslagen" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Inbreng moet 'op geld waardeerbaar' en overdraagbaar** zijn (art. 1:8 WVV jo. 7:2). Inbreng in nijverheid (arbeid) is uitgesloten bij NV.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:8" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Overwaardering**: indien de revisor de waardering te hoog inschat, krijgen de andere aandeelhouders een verwaterend aandeel, en hebben schuldeisers minder reële dekking. De revisor draagt civielrechtelijke aansprakelijkheid (art. 3:75 + 3:99 WVV) en kan tuchtrechtelijk worden vervolgd door het IBR.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:75", "context": "Aansprakelijkheid commissaris/revisor" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Fiscale realisatie van latente meerwaarden** bij inbreng vanuit eigen patrimonium: de inbreng wordt fiscaal beschouwd als een **vervreemding tegen werkelijke waarde** (art. 90, 8°/9° WIB92 voor PB; art. 184bis WIB92 voor VenB) — tenzij het regime van inbreng bedrijfstak of algemeenheid (art. 46 WIB92) wordt toegepast.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Inbreng = vervreemding tegen werkelijke waarde, behoudens art. 46" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 47", "context": "Gespreide belasting meerwaarden 5j+ activa" }
+            ]
+          }
+        }
+      ]
     },
     "subconcepten": [
       {
         "id": "inbreng-onroerend",
         "naam": {
-          "primair": "Inbreng van onroerend goed"
+          "primair": "Inbreng van onroerend goed",
+          "synoniemen": ["vastgoed-inbreng"]
         },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — registratierechten 0% bij inbreng tegen aandelen (art 115bis Wb Reg) · natuurlijke persoon naar vennootschap · gemengde betaling pro-rata · btw-impact bij nieuw gebouw · revisor-evaluatie methodologisch zwaarder.",
+              "tekst": "Inbreng van een **onroerend goed** (terrein, gebouw, gemengd) tegen aandelen. Specifieke fiscale en registratierechten-regels: zuivere inbreng van een onroerend goed dat niet hoofdzakelijk voor bewoning bestemd is door een natuurlijk persoon in een Belgische vennootschap is **vrijgesteld van het verkooprecht** (12%) en valt onder het **algemeen vast recht** van €50 — art. 115bis Wb Reg + art. 169bis (gewestelijk Brussel). Bij **gemengde betaling** (deels aandelen, deels geld of schuldvordering): het 'geld'-deel valt onder gewoon verkooprecht. **BTW**: bij inbreng van een **nieuw gebouw** (geleverd binnen 2 jaar na ingebruikneming) kan de inbrenger opteren voor btw-stelsel — anders registratierecht.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 115bis", "context": "Inbreng onroerend in vennootschap: vrijstelling onder voorwaarden" },
+                  { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 169bis", "context": "Brussel: kadastraal-perceel-test" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "**Praktijk-toepassing**: art. 115bis is vooral aantrekkelijk voor inbreng van commercieel of gemengd vastgoed in een vennootschap (in plaats van een verkoop met 12% registratierechten). De vrijstelling geldt NIET voor inbreng van een woning bestemd voor bewoning door een natuurlijke persoon in een vennootschap die de woning later weer verhuurt aan diezelfde persoon — dit valt onder de 'gemengde betaling'-uitzondering en wordt fiscaal als verkoop behandeld.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 115bis" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-uitwerking 115bis-vrijstelling" }
                 ]
               }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "revisor-procedure",
+        "naam": {
+          "primair": "Revisor-procedure bij natura-inbreng"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Stappen revisor-tussenkomst** (art. 7:183 WVV):\n\n```mermaid\nflowchart TD\n  A[Bestuursorgaan: ontwerp-verslag waarom inbreng van belang is + beschrijving + waardering] --> B[Aanwijzing bedrijfsrevisor]\n  B --> C[Revisor onderzoekt waarderings-methodes]\n  C --> D[Revisor verklaart of waardering minstens = aantal x fractiewaarde + uitgiftepremie]\n  D --> E{Revisor: redelijk?}\n  E -->|Ja| F[Definitief bestuurdersverslag + revisorverslag]\n  E -->|Afwijking| G[Bestuur motiveert afwijking]\n  G --> F\n  F --> H[Voorleggen aan AV - agenda vermeldt verslagen]\n  H --> I[AV beslist 75 procent meerderheid]\n  I --> J[Notariële akte + neerlegging + bekendmaking]\n```\n\n**Termijn**: verslagen moeten 15 dagen vóór de AV ter beschikking van aandeelhouders zijn (art. 5:101/7:166 WVV). Ontbreken verslagen → nietigheid AV-besluit.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:112" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waarderingsmethoden",
+        "naam": {
+          "primair": "Waarderingsmethoden — cascade per goedsoort"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De revisor moet de **gepastheid** van de gekozen waarderingsmethode beoordelen (ITAA-norm fusie/splitsing § 2 + § 4). Per type goed:\n\n- **Onroerend goed** — markt-vergelijkingsmethode (recente transacties) of expertisewaarde door beëdigd schatter; bij rendementspand: DCF op huurinkomsten.\n- **Aandelen niet-genoteerd** — combinatie van intrinsieke waarde (NAV), rendementswaarde (DCF/EBITDA-multiples), peer-vergelijking; vaak gewogen gemiddelde.\n- **Aandelen genoteerd** — beurskoers (gemiddelde 30d of laatste koers).\n- **Handelsfonds / cliënteel** — multiples op winst (EBIT × factor) of overdrachtsprijs gelijkaardige zaken.\n- **Schuldvordering** — nominale waarde indien volwaardig; verminderde waarde indien debiteur in moeilijkheden (CBN 2021/07).\n- **Materiële vaste activa** — netto-boekwaarde, second-hand-marktwaarde of expertise.\n\nDe revisor mag NIET zelf de waardering doen (taak van bestuursorgaan) maar moet ze 'redelijk' verklaren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm fusie/splitsing", "ref": "§ 2", "context": "Beoordeling waarderingsmethoden" },
+                { "type": "norm", "naam": "ITAA-norm fusie/splitsing", "ref": "§ 4", "context": "Economische waardering" },
+                { "type": "advies", "naam": "CBN-advies 2021/07", "ref": "Schuldvordering nominale waarde", "datum": "2021-05-05" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "latente-meerwaarden-fiscaal",
+        "naam": {
+          "primair": "Latente meerwaarden — fiscaal realisatiemoment"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de inbrenger is de natura-inbreng fiscaal een vervreemding tegen werkelijke waarde: latente meerwaarden worden gerealiseerd en in principe belast op het moment van de inbreng:\n\n- **PB inbrenger (natuurlijk persoon)** — meerwaarde op onroerend goed: art. 90, 8°/10° WIB92 (16,5% of vrijstelling na 5/8 jaar); meerwaarde op aandelen: art. 90, 9° (33% bij speculatief karakter) of belastingvrij (normaal beheer). Stopzettingsmeerwaarden op activa van eenmanszaak: art. 28 WIB92.\n- **VenB inbrenger (vennootschap)** — meerwaarde op activa: belastbaar tegen 25% (of 20% kmo-tarief), tenzij gespreide belasting art. 47 WIB92 (activa >5 jaar, herbelegging binnen 3-5 jaar in afschrijfbare goederen).\n- **Bedrijfstak-inbreng (art. 46 WIB92)** — fiscale neutraliteit mits voorwaarden voldaan: (1) bedrijfstak vormt autonoom geheel; (2) inbrengverkrijgende vennootschap is Belgisch of EU; (3) verkrijgt aandelen als enige vergoeding; (4) zakelijke motieven aanwezig. Dan: fiscale waarden gaan mee — geen onmiddellijke meerwaarde-belasting (zie record `inbreng-bedrijfstak-of-algemeenheid`).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Inbreng = vervreemding tegen werkelijke waarde" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 47", "context": "Gespreide belasting 5j+ activa" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46", "context": "Fiscaal neutrale inbreng bedrijfstak" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 90, 8°-10°", "context": "PB diverse meerwaarden" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-inbreng-machine",
+        "titel": "BV ProdCo — inbreng machine vanuit eenmanszaak",
+        "context": "Tom is eenmanszaak-eigenaar en wil zijn productie-machine (boekwaarde €30.000, marktwaarde €70.000) inbrengen in zijn nieuwe BV ProdCo. Machine 6 jaar geleden gekocht (>5j → potentiële gespreide belasting). Revisorverslag bevestigt waardering €70.000. In ruil ontvangt hij 700 nieuwe aandelen van fractiewaarde €100.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:112" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 47" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking in BV ProdCo — Inbreng machine",
+            "boekingen": [
+              { "datum": "2026-05-01", "debet": [{"rekening": "23", "label": "Installaties, machines en uitrusting", "bedrag": 70000}], "credit": [{"rekening": "11", "label": "Onbeschikbare inbreng (BV)", "bedrag": 70000}] }
+            ],
+            "toelichting": "Machine geboekt aan inbrengwaarde €70.000 (= waarde door revisor bevestigd). Aandelen 700 × €100 — geen uitgiftepremie omdat fractiewaarde = inbrengwaarde."
+          },
+          {
+            "type": "tabel",
+            "titel": "Fiscale impact bij Tom (eenmanszaak PB)",
+            "kolommen": ["Element", "Waarde", "Fiscaal regime"],
+            "rijen": [
+              ["Marktwaarde inbreng", "€70.000", "Werkelijke waarde (art. 184bis WIB92)"],
+              ["Boekwaarde machine", "€30.000", "Fiscale netto-waarde"],
+              ["Stopzettingsmeerwaarde", "€40.000", "Art. 28 WIB92: 16,5% PB indien activum > 5 j"],
+              ["Spreiding mogelijk?", "Art. 47 WIB92 — voorwaarden", "Herbelegging volledige €70.000 in afschrijfbare goederen binnen 3-5 j → spreiding over afschrijvingsduur"]
+            ],
+            "conclusie": "Bij inbreng in BV: spreiding lastig want machine zit nu IN de BV. Daarom vaak voorkeur voor art. 46 inbreng-bedrijfstak als de hele eenmanszaak wordt overgedragen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-inbreng-onroerend",
+        "titel": "BV Vastgoed Pro — inbreng commercieel pand (art. 115bis)",
+        "context": "Marie brengt een commercieel pand (kantoorgebouw, marktwaarde €500.000, geen woon-bestemming) in haar bestaande BV Vastgoed Pro. Revisorverslag bevestigt waardering. In ruil ontvangt ze 5.000 nieuwe aandelen × €100. Geen gemengde betaling.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 115bis" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:112" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking BV — Inbreng onroerend",
+            "boekingen": [
+              { "datum": "2026-07-15", "debet": [{"rekening": "221", "label": "Terreinen + gebouwen", "bedrag": 500000}], "credit": [{"rekening": "11", "label": "Onbeschikbare inbreng", "bedrag": 500000}] }
+            ]
+          },
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Registratierechten — inbreng vs verkoop",
+            "kolommen": ["Scenario", "Wettelijke basis", "Tarief / vast recht", "Bedrag op €500.000"],
+            "rijen": [
+              ["Inbreng zuiver in vennootschap (art. 115bis)", "Wb Reg art. 115bis", "€50 algemeen vast recht", "€50"],
+              ["Verkoop aan vennootschap", "Wb Reg gewoon verkooprecht", "12% Vlaams / 12,5% Brussel", "€60.000 / €62.500"],
+              ["Gemengde inbreng (deels schuld overgenomen)", "115bis + gewoon recht op geld-deel", "Pro rata 12%", "Afhankelijk van geld-deel"]
+            ],
+            "conclusie": "Vrijstelling 115bis = ca. €60.000 besparing t.o.v. verkoop. Voorwaarde: zuivere inbreng (alleen aandelen als tegenprestatie)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-inbreng-aandelen-holding",
+        "titel": "Holding-structurering — inbreng aandelen werkmaatschappij",
+        "context": "Familie Janssens bezit privé 100% van NV WerkCo (waarde €1.500.000 volgens revisor). Ze brengen deze aandelen in hun nieuwe NV HoldCo. HoldCo geeft 15.000 aandelen × €100 uit aan Familie Janssens.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183" },
+            { "type": "advies", "naam": "CBN-advies 2012/8", "ref": "Inbreng financiële vaste activa", "datum": "2012-07-04" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking HoldCo — Inbreng aandelen WerkCo",
+            "boekingen": [
+              { "datum": "2026-09-01", "debet": [{"rekening": "281", "label": "Deelnemingen in verbonden ondernemingen", "bedrag": 1500000}], "credit": [{"rekening": "100", "label": "Geplaatst kapitaal", "bedrag": 1500000}] }
+            ],
+            "toelichting": "NV HoldCo nieuwe rubriek 28 'Financiële vaste activa'. Voor familie privé: latente meerwaarde op aandelen is in PB onder art. 90, 9° WIB92 — meestal vrijgesteld als 'normaal beheer privé-vermogen', behalve bij speculatie."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Revisor bepaalt de waardering",
+        "verkeerde_assumptie": "De bedrijfsrevisor stelt de inbrengwaarde vast.",
+        "kernpunt": "Art. 7:183 § 1 lid 1 WVV: het BESTUURSORGAAN stelt de gemotiveerde waardering vast in zijn eigen verslag. De revisor onderzoekt de waardering en verklaart of ze 'redelijk' is. De revisor mag geen waardering opdringen — bestuur mag motiveren waarom het afwijkt, mits uitleg in eindverslag.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183, § 1" }
+          ]
+        }
+      },
+      {
+        "titel": "Art. 115bis vrijstelling = altijd toepasselijk",
+        "verkeerde_assumptie": "Elke inbreng van onroerend in een vennootschap is vrij van registratierecht.",
+        "kernpunt": "Art. 115bis Wb Reg vrijstelling werkt enkel bij **zuivere inbreng** (alleen aandelen als tegenprestatie). Bij gemengde betaling (deels aandelen, deels geld of overgenomen schuld) wordt het 'geld-deel' belast tegen gewoon verkooprecht (12%/12,5%). Bovendien geldt voor inbreng van woonruimte door een natuurlijk persoon: anti-misbruik (Wb Reg art. 18 § 2 of art. 169bis Brussel — gewest-afhankelijk).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 115bis" },
+            { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 169bis", "context": "Brussel" }
+          ]
+        }
+      },
+      {
+        "titel": "Inbreng = belastingneutraal",
+        "verkeerde_assumptie": "Een inbreng in natura is een 'ruil' zonder fiscale realisatie.",
+        "kernpunt": "Art. 184bis WIB92: een inbreng wordt fiscaal beschouwd als vervreemding tegen werkelijke waarde → latente meerwaarden worden gerealiseerd en belast. Alleen onder art. 46 (inbreng bedrijfstak of algemeenheid) is er fiscale neutraliteit. Voor PB-inbrengers: art. 28 (stopzetting), 90, 8°-10° (diverse) gelden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-vennootschap-natura",
+      "naam": { "primair": "Vanuit de inbrengverkrijgende vennootschap" },
+      "intro": "Boekhouder boekt aan inbrengwaarde; auditor controleert juistheid van waardering en consistentie tussen verslagen.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhouder-natura",
+              "naam": { "primair": "Boekhoudkundige verwerking" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Het ingebrachte goed wordt op de **inbrengwaarde** geboekt (= waarde bevestigd door revisor). Tegenboeking: rekening 100 Geplaatst kapitaal (NV) of 11 Onbeschikbare inbreng (BV) voor het fractiewaarde-deel; rekening 1100/1110 Uitgiftepremie voor het deel boven de fractiewaarde. **Aandachtspunt CBN 2012/8**: bij inbreng in een gemengde verrichting (inbreng + verkoop = ruil), wordt de meerwaarde op het verkochte deel in resultatenrekening genomen, terwijl op het behouden deel een herwaarderingsmeerwaarde kan worden geboekt (mits voorwaarden art. 3:35 KB WVV).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2012/8", "ref": "Financiële vaste activa", "datum": "2012-07-04" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "auditor-natura-controle",
+              "naam": { "primair": "Audit-aandachtspunten" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Audit-checklist** bij natura-inbreng-controle:\n\n1. Aanwezigheid bestuurdersverslag + revisorverslag (neergelegd ter griffie?).\n2. Consistentie tussen ingebracht goed en inbrengwaarde in boekhouding.\n3. Waarderingsmethode gepast voor goedsoort? Gedocumenteerd?\n4. Verschil tussen inbrengwaarde en fiscale waarde — herwaarderingsmeerwaarde correct geboekt? Latente belasting?\n5. Volstortingsstatus — natura-inbreng is in principe volledig volstort (NV art. 7:14; BV art. 5:8).\n6. Quasi-inbreng-risico: gebeurt er kort na de inbreng een verwante transactie (verkoop terug aan oprichter)?",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183", "context": "Vereisten verslagen" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk audit-checklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
+    { "type": "valt_onder", "target": "kapitaalverhoging" },
+    { "type": "gecontroleerd_door", "target": "bedrijfsrevisor" },
     {
-      "type": "valt_onder",
-      "target": "kapitaalverhoging"
+      "type": "vergelijkbaar_met",
+      "target": "quasi-inbreng",
+      "gelijkenissen": [
+        "Beide vereisen revisorverslag + bestuursverslag (art. 7:8 vs 7:183 WVV)",
+        "Beide beschermen tegen verkapte voordelen aan oprichter/aandeelhouder",
+        "Beide zijn van toepassing op transacties met natura-element"
+      ],
+      "verschillen": [
+        "Kapitaalverhoging in natura = inbreng tegen aandelen; quasi-inbreng = verkoop van goed door oprichter aan vennootschap tegen prijs ≥ 10% kapitaal, binnen 2 jaar na oprichting",
+        "Kapitaalverhoging is initiatief van vennootschap; quasi-inbreng triggert anti-misbruik wettelijk",
+        "Kapitaalverhoging: aandelen → EV ↑; quasi-inbreng: cash → EV neutraal (actief-verschuiving)"
+      ],
+      "verwarring_risico": "Beide hebben dezelfde controle-mechaniek (revisor), wat doet vergeten dat het verschillende verrichtingen zijn.",
+      "render_hint": "als_waarschuwing"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "quasi-inbreng"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "inbreng-bedrijfstak-of-algemeenheid"
-    },
-    {
-      "type": "gecontroleerd_door",
-      "target": "bedrijfsrevisor"
+      "target": "inbreng-bedrijfstak-of-algemeenheid",
+      "gelijkenissen": [
+        "Beide zijn vormen van natura-inbreng (goederen ipv geld)",
+        "Beide vereisen revisorverslag"
+      ],
+      "verschillen": [
+        "Kapitaalverhoging in natura kan over één activum gaan; inbreng bedrijfstak vereist een autonoom geheel (organisch geheel)",
+        "Inbreng bedrijfstak geniet fiscale neutraliteit (art. 46 WIB92); kapitaalverhoging in natura niet automatisch"
+      ],
+      "verwarring_risico": "Bij overdracht van een eenmanszaak: keuze tussen 'gewone natura-inbreng' (fiscaal belastbaar) vs 'inbreng bedrijfstak' (fiscaal neutraal, strengere voorwaarden) is cruciaal.",
+      "render_hint": "als_keuze"
     }
   ]
 }
