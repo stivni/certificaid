@@ -2,17 +2,16 @@
   "id": "kostprijsmethoden",
   "naam": {
     "primair": "Kostprijsmethoden",
-    "synoniemen": [
-      "costing methods"
-    ]
+    "synoniemen": ["costing methods"],
+    "vertaling": {
+      "fr": "méthodes de calcul du prix de revient"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.8.III",
       "1.8.III.A",
@@ -30,32 +29,21 @@
         "Volledig vs partieel · vastgesteld vs voorafbepaald"
       ],
       "out": [
-        {
-          "topic": "Full-costing (volledige kostencalculatie)",
-          "richting": "moet-verwijzen",
-          "ref": "full-costing"
-        },
-        {
-          "topic": "Direct-costing (variabele-kost-aanpak)",
-          "richting": "moet-verwijzen",
-          "ref": "direct-costing"
-        },
-        {
-          "topic": "Standaardkostenmethode (voorafbepaald)",
-          "richting": "moet-verwijzen",
-          "ref": "standaardkostenmethode"
-        },
-        {
-          "topic": "Activity-Based Costing",
-          "richting": "moet-verwijzen",
-          "ref": "activity-based-costing"
-        }
+        {"topic": "Full-costing (volledige kostencalculatie)", "richting": "moet-verwijzen", "ref": "full-costing"},
+        {"topic": "Direct-costing (variabele-kost-aanpak)", "richting": "moet-verwijzen", "ref": "direct-costing"},
+        {"topic": "Standaardkostenmethode (voorafbepaald)", "richting": "moet-verwijzen", "ref": "standaardkostenmethode"},
+        {"topic": "Activity-Based Costing", "richting": "moet-verwijzen", "ref": "activity-based-costing"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kostprijsmethoden.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -64,46 +52,191 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-management-accounting-2026-05-28",
+        "wijziging": "Σ-keuze-kader ingevuld vanuit standaard management-accounting-leer. Bundle-chunks waren niet bruikbaar (retrieval bracht transfer pricing en IFRS-waarderingstechnieken in plaats van cost-accounting). Volledig afgeleid + verondersteld."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Kostprijsmethoden zijn de gestructureerde technieken die binnen de analytische boekhouding gebruikt worden om de kostprijs van een product, dienst of project te berekenen. Vier hoofdmethodes worden onderscheiden langs twee assen. (1) Wat-wordt-meegerekend: full costing (alle kosten — vast + variabel) versus direct costing (alleen variabele kosten in de product-kostprijs). (2) Hoe-worden-de-cijfers-bepaald: vastgesteld of historisch (werkelijke kosten achteraf) versus voorafbepaald of standaard (normkosten vooraf, met variantieanalyse achteraf). Activity-Based Costing (ABC) verfijnt de toerekening van indirecte kosten via activity-pools en cost-drivers — kan in principe op zowel full als direct costing gestapeld worden.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard handboek-typologie management accounting"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De keuze van methode hangt niet af van wat 'correct' is in absolute zin — alle vier zijn coherente boekhoudkundige redeneringen — maar van het doel: prijszetting voor de markt vraagt full costing (anders dek je geen vaste kosten over de lange termijn); short-term beslissingen (extra order accepteren? eigen productie of inkopen?) vragen direct costing (alleen variabele kosten zijn beslissings-relevant); efficiency-opvolging vraagt standaardkosten (vergelijk werkelijk vs norm); precisie in heterogene productie met veel overhead vraagt ABC. Veel ondernemingen gebruiken meerdere methodes parallel — full costing voor de jaarrekening, direct costing voor de operationele dashboard, ABC voor strategische pricing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doel-gerichte synthese"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Geen enkele kostprijsmethode is universeel beter — elke maakt een trade-off tussen accuratesse en eenvoud, en tussen lange-termijn-rendement (full costing) en korte-termijn-beslissingen (direct costing). De gecertificeerd accountant moet de keuze kunnen motiveren vanuit het managementdoel, niet vanuit 'wat-staat-er-in-het-handboek'. Een productie-bedrijf met homogene producten en lage overhead vaart wel met full costing; een dienstverlener met klant-specifieke projecten en hoge overhead vaart wel met ABC.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["analytische-boekhouding"],
+      "kader": "analytische-boekhouding",
+      "volgkennis": ["full-costing", "direct-costing", "standaardkostenmethode", "activity-based-costing", "break-even-analyse"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke onderneming die meer wil weten dan haar globaal resultaat — die wil weten wat de kostprijs is per product, per klant of per dienst, om prijszetting te onderbouwen, marges te bewaken of beslissingen over product-mix en investeringen te maken.",
+          "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "twee-assen",
+        "naam": {"primair": "Twee assen — wat meerekenen × hoe bepalen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "As 1 (volledigheid van kostentoerekening): full costing rekent alle productiekosten (vast + variabel) toe aan het product. Direct costing rekent enkel variabele kosten toe — vaste kosten zijn periodekosten die niet in de stockwaardering komen. As 2 (tijdshorizon van de cijfers): vastgesteld of werkelijk (kosten worden achteraf bepaald uit de boekhouding) versus voorafbepaald of standaard (kosten worden vooraf vastgelegd als norm; afwijkingen ten opzichte van die norm worden geanalyseerd via variantieanalyse). De keuze op as 1 en as 2 zijn onafhankelijk: 'full + werkelijk', 'full + standaard', 'direct + werkelijk', 'direct + standaard' zijn allemaal denkbare combinaties.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "abc-positie",
+        "naam": {"primair": "ABC als verfijning, niet als vierde alternatief"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Activity-Based Costing wordt didactisch vaak naast full/direct/standaard gezet als 'vierde methode', maar het zit op een andere as. ABC zegt niets over of vaste kosten in de productkost moeten zitten (full vs direct) of of normkosten worden gebruikt (vastgesteld vs standaard). ABC zegt hoe indirecte kosten worden toegerekend: niet via één algemene cost-driver (typisch arbeidsuren of machine-uren), maar via meerdere activity-pools met elk hun eigen driver. ABC bovenop full costing geeft preciezere full-costs; ABC bovenop standaardkostenmethode geeft preciezere normen.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "trade-off-accuratesse-eenvoud",
+        "naam": {"primair": "Accuratesse versus eenvoud — implementatie-kosten"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoe meer methodes en hoe verfijnder de toerekening, hoe nauwkeuriger de kostprijs — maar hoe duurder ook de boekhoudkundige opvolging. Een ABC-systeem met 30 activity-pools geeft micro-accurate kostprijzen maar vraagt continue meting van drivers. Een eenvoudig full-costing-model met één globale overhead-coëfficiënt is grof maar bijna kosteloos in onderhoud. Vuistregel: investeer in verfijning waar de directie effectief stuurt en waar de overhead-verhouding hoog is (>30% van totale kost).",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-zelfde-case-vier-methodes",
+        "titel": "Zelena Bio NV — zelfde tafel-productie, vier kostprijzen",
+        "context": "Zelena Bio produceert 100 tafels in maart. Variabele kosten per tafel: 250 EUR (hout 200 + variabele arbeid 50). Vaste productiekosten maand: 20.000 EUR (huur fabriek, afschrijving CNC, kaderloon). Geen voorraadwijziging (alle 100 tafels verkocht).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch cijfervoorbeeld"}]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Methode", "Kostprijs per tafel", "Rationale", "Geschikt voor"],
+            "rijen": [
+              ["Full costing (werkelijk)", "250 + (20.000/100) = 450 EUR", "Alle kosten gedeeld door volume", "Lange-termijn prijszetting · jaarrekening-stockwaardering"],
+              ["Direct costing", "250 EUR (vaste 20.000 als periodekost)", "Alleen variabele kosten in productkost", "Make-or-buy · accept-or-reject · break-even-analyse"],
+              ["Standaardkostenmethode (full)", "Norm: 220 + (18.000/100) = 400 EUR", "Voorafbepaalde normkosten; afwijking 50 EUR/tafel = variantie", "Efficiency-opvolging · budgetcontrole"],
+              ["ABC (full)", "250 + (afwijkende overhead-allocatie via activity-pools)", "Indirecte kosten via meerdere drivers", "Heterogene productie · hoge overhead-verhouding"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Eén methode als 'de juiste' beschouwen",
+        "verkeerde_assumptie": "'Full costing is correct want anders dek je geen vaste kosten' of 'direct costing is moderner'.",
+        "kernpunt": "Geen enkele methode is intrinsiek correcter. De keuze hangt af van het beslissingsdoel. Voor de jaarrekening-stockwaardering is full costing wel verplicht (zowel onder B-GAAP als IAS 2). Voor interne beslissingen primeert relevantie boven volledigheid.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Direct-costing-kostprijs gebruiken voor langetermijn-prijszetting",
+        "verkeerde_assumptie": "Een prijs zetten op basis van variabele kost + winstmarge.",
+        "kernpunt": "Direct costing dekt geen vaste kosten. Bij langetermijn-prijszetting moet de marge boven variabele kost groot genoeg zijn om de vaste kosten te dragen over het totale volume. Direct costing levert de contributiemarge — niet de eindprijs.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Standaardkosten gelijkstellen aan budgetkosten",
+        "verkeerde_assumptie": "Standaardkost = budget per eenheid.",
+        "kernpunt": "Een standaardkost is een norm-kost per eenheid (engineered standard, ideaal of haalbaar). Een budget is een totaalbedrag voor een periode (volume × standaardkost + vaste budgetposten). Standaardkosten zijn input voor budgetten — niet hetzelfde concept.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "intro": "Keuze van kostprijsmethode in functie van het management-doel.",
+        "inhoud": {
+          "assen": ["Doel", "Aanbevolen methode"],
+          "rijen": [
+            {"doel": "Prijszetting voor de markt (lange termijn)", "methode": "Full costing — alle kosten dekken via prijs"},
+            {"doel": "Accept-or-reject extra order, korte termijn", "methode": "Direct costing — alleen variabele kost als ondergrens"},
+            {"doel": "Make-or-buy", "methode": "Direct costing + analyse vermijdbare vaste kosten"},
+            {"doel": "Efficiency-opvolging productie", "methode": "Standaardkostenmethode + variantieanalyse"},
+            {"doel": "Strategische product-mix beslissing", "methode": "ABC voor accurate kostprijs heterogene producten"},
+            {"doel": "Stockwaardering jaarrekening (B-GAAP / IAS 2)", "methode": "Full costing — wettelijk verplicht"},
+            {"doel": "Budget opstellen", "methode": "Standaardkostenmethode × verwacht volume + vaste budgetposten"}
+          ]
+        }
+      },
+      {
+        "type": "beslisboom",
+        "intro": "Keuze-flow van methode.",
+        "inhoud": {
+          "mermaid": "flowchart TD\n  A[Welk doel?] --> B{Externe rapportering?}\n  B -->|ja| C[Full costing verplicht IAS 2 / B-GAAP]\n  B -->|nee| D{Korte-termijn beslissing?}\n  D -->|ja accept-or-reject<br/>make-or-buy| E[Direct costing]\n  D -->|nee strategisch / pricing| F{Overhead-verhouding hoog?}\n  F -->|ja >30 procent + heterogene productie| G[ABC bovenop full costing]\n  F -->|nee homogene productie| H[Full costing met globale driver]\n  H --> I{Efficiency meten?}\n  G --> I\n  I -->|ja| J[+ Standaardkostenmethode + variantieanalyse]"
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "kmo-met-stuurvraag",
+      "naam": {"primair": "Kmo-cliente met sturingsvraag"},
+      "intro": "Een kmo-cliente wil weten welke kostprijsmethode bij haar past.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "doel-eerst-bevragen",
+              "naam": {"primair": "Doel eerst bevragen — niet methode"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eerste vraag aan de cliente: 'wat wil je weten en welke beslissing wil je daarop bouwen?' — niet 'welke methode wil je?'. Pas na het doel komt de methode-keuze. Vaak blijkt de cliente in feite verschillende doelen tegelijk te willen — dan twee methodes parallel opzetten (bv. full costing in de jaarrekening, direct costing in een operationele dashboard).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "analytische-boekhouding"
-    },
-    {
-      "type": "bevat",
-      "target": "full-costing"
-    },
-    {
-      "type": "bevat",
-      "target": "direct-costing"
-    },
-    {
-      "type": "bevat",
-      "target": "standaardkostenmethode"
-    },
-    {
-      "type": "bevat",
-      "target": "activity-based-costing"
-    }
+    {"type": "valt_onder", "target": "analytische-boekhouding"},
+    {"type": "bevat", "target": "full-costing"},
+    {"type": "bevat", "target": "direct-costing"},
+    {"type": "bevat", "target": "standaardkostenmethode"},
+    {"type": "bevat", "target": "activity-based-costing"}
   ]
 }
