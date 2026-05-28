@@ -3,14 +3,15 @@
   "naam": {
     "primair": "Uitgestelde belastingen",
     "synoniemen": [
-      "deferred tax",
-      "latente belastingen"
+      "deferred taxes",
+      "fiscale latenties",
+      "klasse 168"
     ]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -45,9 +46,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/uitgestelde-belastingen.json",
+      "primary_bronnen": [
+        "MAR klasse 168 (KB 21-10-2018)",
+        "KB 29-04-2019 WVV art 3:30",
+        "IAS 12 (IFRS-perspectief)"
+      ]
     },
     "changelog": [
       {
@@ -55,31 +62,170 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — timing-verschillen + B-GAAP/IFRS vergelijking + voorbeeld"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Uitgestelde belastingen** (Engels: *deferred tax*) zijn een passiefpost (**MAR-rekening 168**) of activapost (zeldzaam onder B-GAAP) die de **fiscale impact** weerspiegelt van een **tijdelijk verschil** tussen het **boekhoudkundig resultaat** en het **fiscaal belastbaar resultaat**. Een tijdelijk verschil ontstaat wanneer een opbrengst of kost in boekjaar X wordt erkend voor boekhoudkundige doeleinden maar pas in boekjaar Y (eerder of later) belastbaar of aftrekbaar wordt — bv. een meerwaarde die boekhoudkundig vrijgesteld is met latere taxatie, of een versnelde fiscale afschrijving versus lineaire boekhoudkundige afschrijving. Het Belgische B-GAAP-systeem kent een **beperkte erkenning** van uitgestelde belastingen, in tegenstelling tot IFRS (IAS 12) dat een **volledige erkenning** vereist.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 16 — rekening 168",
+              "context": "Uitgestelde belastingen — passiefpost"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:30",
+              "context": "Erkenningsregel uitgestelde belastingen onder B-GAAP"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**B-GAAP**: uitgestelde belastingen worden in België **alleen** geboekt voor **specifieke gevallen** die de wetgever heeft aangeduid — typisch:\n- Vrijgestelde meerwaarden op materiële vaste activa onder de **gespreide taxatie**-regeling (art. 47 WIB92);\n- Vrijgestelde meerwaarden op aandelen onder voorwaarde-regeling;\n- Kapitaalsubsidies (KB-AR 1976 — taxatie gespreid pro-rata afschrijving).\n\nGeen algemene boeking van **tijdelijke verschillen** zoals onder IFRS — het Belgische systeem is **historisch-kost-conservatief** en vertrouwt op het matching tussen boekhoudkundig en fiscaal resultaat.\n\n**IFRS (IAS 12)**: alle tijdelijke verschillen tussen boekwaarde en fiscale waarde van activa/passiva geven aanleiding tot uitgestelde belasting-actief of -passief, te waarderen aan het **verwachte toekomstige tarief**.\n\n**Boekingsschema B-GAAP** voor een vrijgestelde meerwaarde van 100.000 EUR (gespreide taxatie 5 jaar):\n```\nBoekjaar X — bij realisatie meerwaarde:\n7100 Meerwaarde op realisatie    C 100.000 (in resultaat)\n168 Uitgestelde belastingen      C 25.000 (latente VenB 25%)\n\nBoekjaar X+1 t/m X+4 — proportionele taxatie 5.000 EUR latentie per jaar:\n168 Uitgestelde belastingen      D 5.000\n   77 Onttrekking belasting       C 5.000 (of rechtstreeks tegen 6700)\n```",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:30",
+              "context": "B-GAAP beperkte erkenning"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 47",
+              "context": "Gespreide taxatie meerwaarden MVA"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "IAS 12",
+              "ref": "IAS 12 par. 5",
+              "context": "Volledige erkenning tijdelijke verschillen"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Uitgestelde belastingen bestaan om het **matching-principe** ook bij fiscaliteit te respecteren: een opbrengst die boekhoudkundig in jaar X is erkend maar pas in jaar X+3 fiscaal belastbaar wordt, moet de **toekomstige belastinglast** al in jaar X laten doorklinken — anders is het boekhoudkundig nettoresultaat in X overgewaardeerd en in X+3 onderschat. Het B-GAAP heeft dit principe **selectief** geïmplementeerd voor situaties waar het verschil structureel en omvangrijk is (vrijgestelde meerwaarden, kapitaalsubsidies). IFRS heeft het **veralgemeend** — wat de jaarrekeningen IFRS-conform vergelijkbaar maakt over jurisdicties met verschillende belastingstelsels.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IAS 12",
+              "ref": "IAS 12 — basis for conclusions",
+              "context": "Rationale full provision approach"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "voorbeeld-gespreide-taxatie",
+        "naam": {
+          "primair": "Voorbeeld gespreide taxatie meerwaarde (WIB art. 47)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Verkoop van een bedrijfsmachine boekt een meerwaarde van **100.000 EUR**. De vennootschap herinvesteert binnen 3 jaar in nieuwe MVA met 5-jarige afschrijving en kiest voor **gespreide taxatie** (art. 47 WIB92): de meerwaarde wordt belast pro rata van de afschrijving van het nieuwe actief (20 % per jaar).\n\n**Boekhoudkundig in jaar 0**:\n- Meerwaarde 100.000 EUR in resultatenrekening (763 of 70x).\n- Fiscaal NIET onmiddellijk belast — uitgestelde belastinglast.\n- VenB-tarief 25 % → uitgestelde belasting 25.000 EUR.\n\n**Boekingen jaar 0**:\n```\n6701 Verschuldigde belastingen op resultaat (totaal): vermindert met 25.000 uitstel\n168 Uitgestelde belastingen        C 25.000\n   (tegenpost in 7700 Onttrekking aan uitgestelde belastingen)\n```\n\n**Jaar 1 t/m 5 — proportionele afbouw**:\n```\n168                                D 5.000\n   7700                            C 5.000\n```\nHet fiscaal belastbaar resultaat van die jaren wordt verhoogd met 20 % × 100.000 = 20.000 EUR; de bijhorende VenB van 5.000 EUR verhoogt klasse 67, gecompenseerd door de onttrekking uit klasse 168.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 47",
+                  "context": "Gespreide taxatie"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:30",
+                  "context": "Boekhoudkundige verwerking gespreide taxatie"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "B-GAAP verwarren met IFRS-systeem",
+        "verkeerde_assumptie": "Voor elk timing-verschil tussen boekhouding en fiscaliteit moet een uitgestelde belasting worden geboekt.",
+        "kernpunt": "Onder **B-GAAP** is dit **niet** zo. Alleen de wettelijk aangeduide gevallen (gespreide taxatie, kapitaalsubsidies, vrijstellingsregimes met voorwaarden) leiden tot klasse 168. Voor alle andere timing-verschillen (versnelde fiscale afschrijving op een investeringsaftrek bv.) wordt **geen** uitgestelde belasting geboekt — het verschil wordt impliciet door de fiscale herzieningsberekening opgevangen. Onder **IFRS (IAS 12)** is volledige erkenning vereist.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:30",
+              "context": "Beperkte erkenning B-GAAP"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "IAS 12",
+              "ref": "IAS 12",
+              "context": "Volledige erkenning IFRS"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Klasse 168 met voorziening verwarren",
+        "verkeerde_assumptie": "Klasse 16 = voorzieningen — dus klasse 168 is een voorziening voor toekomstige belastingen.",
+        "kernpunt": "Klasse 168 is **conceptueel anders** dan de voorzieningen (160-163). Een voorziening dekt een **risico of verplichting** met onzeker bedrag of termijn. Klasse 168 dekt een **vastgestelde latente belastingverplichting** voortvloeiend uit een specifieke gespreide-taxatie- of vrijstellings-regeling — bedrag is bekend, alleen de uitbetaling/aftrek is gespreid in de tijd.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — MAR",
+              "ref": "Klasse 16 (160-163 vs 168)",
+              "context": "Conceptueel verschil voorziening vs uitgestelde belasting"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "boekhouding"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "voorzieningen",
+      "gelijkenissen": [
+        "Beide MAR-klasse 16",
+        "Beide passief-rubrieken voor toekomstige uitstromen"
+      ],
+      "verschillen": [
+        "Voorziening: onzeker bedrag/termijn, risico-driven",
+        "Uitgestelde belasting: bekend bedrag, timing-verschil-driven, alleen specifieke wettelijke gevallen onder B-GAAP"
+      ],
+      "verwarring_risico": "Studenten boeken een algemene 'fiscale voorziening' in klasse 168 of een gespreide-taxatie-latentie in klasse 161 (belasting-voorziening).",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
