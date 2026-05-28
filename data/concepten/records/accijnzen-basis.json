@@ -2,36 +2,33 @@
   "id": "accijnzen-basis",
   "naam": {
     "primair": "Accijnzen — basis",
-    "synoniemen": [
-      "accijns",
-      "excises"
-    ]
+    "synoniemen": ["accijns", "excises", "verbruiksbelasting accijnsgoederen"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.IX",
-      "2.4.X",
-      "2.4.XI"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.IX", "2.4.X", "2.4.XI"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/accijnzen-basis.json",
+      "primary_bronnen": [
+        "Algemene Wet Accijnzen 22-12-2009",
+        "Richtlijn (EU) 2020/262 (algemene regeling accijns — herschikking)",
+        "Richtlijn 92/83/EEG (alcohol)",
+        "Richtlijn 2011/64/EU (tabak)",
+        "Richtlijn 2003/96/EG (energie)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T17:00:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — accijnsgoederen + entrepot + uitslag-tot-verbruik + Belgische bijzondere accijns"}
     ],
     "scope": {
       "in": [
@@ -42,31 +39,40 @@
         "Belgische bijzondere accijns + Europese gemeenschappelijke accijns"
       ],
       "out": [
-        {
-          "topic": "Douaneprocedures bij invoer",
-          "richting": "moet-verwijzen",
-          "ref": "douaneprocedures-btw-invoer"
-        },
-        {
-          "topic": "BTW bij invoer (accijnzen + BTW samen)",
-          "richting": "mag-verwijzen",
-          "ref": "btw-grensoverschrijdend"
-        }
+        {"topic": "Douaneprocedures bij invoer", "richting": "moet-verwijzen", "ref": "douaneprocedures-btw-invoer"},
+        {"topic": "BTW bij invoer (accijnzen + BTW samen)", "richting": "mag-verwijzen", "ref": "btw-grensoverschrijdend"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (accijnzen-basis).",
+        "tekst": "Accijnzen zijn indirecte verbruiksbelastingen die specifiek op bepaalde producten worden geheven, ook wel 'sin taxes' (productspecifieke verbruiksbelastingen) genoemd. Belgisch hoofdkader: de Algemene Wet Accijnzen van 22 december 2009 + bijzondere uitvoeringsregels per goederengroep. EU-harmonisatie: Richtlijn (EU) 2020/262 (algemene regeling — herschikking van 2008/118) + drie sectorrichtlijnen voor alcohol (92/83 + 92/84), tabak (2011/64) en energie (2003/96). Accijnzen worden geheven naast en boven de BTW: bij verkoop van een fles wijn betaalt de consument zowel accijns als BTW.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 1"},
+            {"type": "wettekst", "naam": "Algemene Wet Accijnzen 22-12-2009", "ref": "art. 1 e.v."}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Accijnzen werken via het beginsel van 'uitslag tot verbruik' (release for consumption): de belasting wordt verschuldigd wanneer de accijnsgoederen het 'belastingentrepot' verlaten — niet bij productie, niet bij invoer. Tot dan circuleren ze onder ACCIJNSSCHORSING in een gesloten EU-circuit van vergunde belastingentrepots, met elektronische administratieve documenten (e-AD / EMCS-systeem). Door deze schorsing wordt cumul-betalingsverplichting voor wederverkopers vermeden — alleen de eindleverancier aan de consument betaalt. Voor de boekhouder: accijnzen worden NIET meegerekend als omzet (CBN-advies — accijnzen op tabak/alcohol/minerale olie zijn niet rechtstreeks verbonden met omzet en horen apart in de boekhouding).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 7 (uitslag tot verbruik)"},
+            {"type": "cbn", "naam": "CBN-advies — accijnzen + omzet-relatie", "ref": "Boekhoudkundige plaatsing accijns"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Accijnzen dienen drie doelen: (1) fiscale opbrengst — historische geschiedenis als prominente staatsfinancieringsbron; (2) gedragsregulering — 'sin taxes' op alcohol en tabak verhogen prijs om consumptie te ontmoedigen + dekken externe maatschappelijke kosten (gezondheidszorg, ongevallen); (3) milieubeleid — accijns op energie/brandstof verinnerlijkt CO2-emissies. EU-harmonisatie van structuur (definities, tarief-vorm) garandeert vrije goederenverkeer; tarief-NIVEAU blijft nationaal bevoegd (binnen EU-minima).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "Considerans"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Drievoudig beleidsobjectief — standaardleer"}
           ]
         }
       }
@@ -74,19 +80,254 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "2009",
-        "wettelijke_basis": "Accijnzenwet 22-12-2009 + KB-uitvoering"
+        "sinds": "2010-04-01",
+        "wettelijke_basis": "Algemene Wet Accijnzen 22-12-2009 + Richtlijn (EU) 2020/262",
+        "toelichting": "EU-harmonisatie sinds 1993 (interne markt); Richtlijn (EU) 2020/262 als herschikking sinds 13-02-2023 van toepassing."
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
     },
+    "subconcepten": [
+      {
+        "id": "accijnsgoederen",
+        "naam": {"primair": "Accijnsgoederen — vier hoofdcategorieën"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "EU-geharmoniseerde accijnsgoederen (Richtlijn 2020/262 art. 1): (1) ENERGIE — minerale oliën (benzine, diesel, stookolie), aardgas, elektriciteit, steenkool (richtlijn 2003/96); (2) ALCOHOL en alcoholhoudende dranken — bier, wijn, sterke drank (richtlijnen 92/83 + 92/84); (3) TABAKSFABRIKATEN — sigaretten, sigaren, tabak voor het rollen (richtlijn 2011/64). Daarnaast Belgisch NATIONAAL: (4) BIJZONDERE BELGISCHE ACCIJNZEN — koffie en niet-alcoholhoudende dranken (frisdrank, water in bepaalde verpakkingen). De Belgische bijzondere accijns is een 'andere indirecte belasting met specifieke doeleinden' (art. 1 lid 2 Richtlijn 2020/262 — toegelaten mits BTW-/accijns-regels nageleefd).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 1"},
+                  {"type": "wettekst", "naam": "Algemene Wet Accijnzen 22-12-2009", "ref": "art. 1 e.v."}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "belastingentrepot-schorsing",
+        "naam": {"primair": "Belastingentrepot + accijnsschorsing"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het belastingentrepot is een door de fiscus vergunde plaats waar een 'erkend entrepothouder' accijnsgoederen mag produceren, verwerken, opslaan, ontvangen of verzenden onder schorsing van accijns — d.w.z. zonder onmiddellijke betaling. De accijns wordt pas verschuldigd bij UITSLAG TOT VERBRUIK: (a) goederen verlaten het entrepot zonder schorsing-regeling te volgen; (b) goederen worden gehouden buiten accijnsschorsing; (c) productie buiten schorsing; (d) onregelmatige invoer. Tussen lidstaten verplaatsen accijnsgoederen onder schorsing met elektronisch geleidedocument via EMCS (Excise Movement and Control System).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 3, 1) + art. 7"},
+                  {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 3, 6) (accijnsschorsingsregeling)"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vergunningen-actoren",
+        "naam": {"primair": "Actoren met vergunning (entrepothouder · geregistreerde geadresseerde · ...)"},
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verschillende vergunde rollen in de keten: (1) ERKEND ENTREPOTHOUDER — gerechtigd om in belastingentrepot accijnsgoederen onder schorsing te beheren; (2) GEREGISTREERDE GEADRESSEERDE — gerechtigd om in eigen lidstaat accijnsgoederen onder schorsing TE ONTVANGEN van een andere lidstaat (kan ze daarna niet zelf onder schorsing doorsturen); (3) GEREGISTREERDE VERZENDER — gerechtigd om accijnsgoederen na invoer in de EU onmiddellijk onder schorsing door te verzenden naar een andere lidstaat; (4) ACCIJNSVERTEGENWOORDIGER — vertegenwoordigt buitenlandse leverancier voor accijnsverplichtingen in lidstaat van verbruik (bij verkopen op afstand).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 3, 1)-4)"}
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "uitslag-tot-verbruik",
+        "naam": {"primair": "Belastbaar feit — uitslag tot verbruik"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De accijns is verschuldigd op het moment van 'uitslag tot verbruik' (art. 7 Richtlijn 2020/262). Vier scenarios maken accijns opeisbaar: (a) feitelijke uitslag uit accijnsschorsingsregeling; (b) houden van accijnsgoederen buiten een schorsingsregeling waarvoor geen accijns is geheven; (c) productie van accijnsgoederen buiten een schorsingsregeling; (d) invoer van accijnsgoederen, tenzij ze meteen onder schorsing worden geplaatst. Heffende lidstaat: deze waar uitslag tot verbruik plaatsvindt → bestemmingsprincipe.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 7"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-structuur",
+        "naam": {"primair": "Tariefstructuur — per categorie verschillend"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Tarief-vorm verschilt per goedensoort: (a) specifieke accijns = vast bedrag per eenheid (per liter, per 1.000 sigaretten, per hectoliter, per ton); (b) ad valorem accijns = % van de detailhandelsprijs (vooral tabak — combineert beide); (c) gemengde stelsels (alcohol op alcoholgehalte + volume). EU stelt MINIMA op (bv. art. 4-7 Richtlijn 92/84 voor alcohol); België heft typisch boven die minima. Actuele tarieven: raadpleeg Cijferzakboekje of FOD Financiën — wijzigen jaarlijks met indexatie.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn (EU) 92/84/EEG", "ref": "art. 4-7"},
+                {"type": "richtlijn", "naam": "Richtlijn (EU) 2011/64/EU", "ref": "art. 7-14 (tabak)"},
+                {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Tarief-structuur-synthese (EU-minima + Belgische specificaties)"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-plaatsing",
+        "naam": {"primair": "Boekhoudkundige plaatsing accijnzen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Accijnzen op specifieke producten (minerale oliën, tabak, alcohol) worden volgens CBN-standpunt NIET rechtstreeks met de omzet verbonden en mogen NIET van de omzet worden afgetrokken bij voorstelling jaarrekening — ze blijven inbegrepen in de omzet (anders dan BTW die wel uit omzet wordt gehaald). Wel: aparte boekingen mogelijk om accijns-stroom traceerbaar te houden. Dit verschil met BTW komt omdat accijns een productspecifieke belasting is, terwijl BTW een algemene transactiebelasting is.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies — accijnzen + omzet", "ref": "Boekhoudkundige verwerking"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-op-accijns",
+        "naam": {"primair": "BTW geheven op accijns-inclusieve prijs"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij invoer van accijnsgoederen wordt het BTW-maatstaf berekend op: douanewaarde + invoerrecht + ACCIJNS + bijkomende kosten. Dus BTW wordt geheven op een grondslag die ALREEDS accijns omvat — bij hoge accijnsgoederen (whisky, sigaretten) kan dit een belangrijk bedrag zijn. Praktisch: voor een fles whisky met douanewaarde 10 EUR, invoerrecht 0 (intra-EU), accijns 30 EUR → BTW-maatstaf 40 EUR × 21 % = 8,40 EUR BTW. Totaal belastingen: 38,40 EUR op 10 EUR douanewaarde.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 34 (maatstaf invoer)"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-import-wijn",
+        "titel": "Invoer Italiaanse wijn — accijns + BTW",
+        "context": "Aurelia Wijnhandel BVBA importeert wijn uit Italië (= intra-EU IC-verwerving onder accijnsschorsing via EMCS). 1.000 flessen à 5 EUR groothandelsprijs = 5.000 EUR netto. Accijns op stille wijn België (anno 2024): 0 EUR (België heft geen accijns op stille wijn, alleen op mousserende + sterke drank). Mousserende variant: ca. 0,21 EUR per fles 0,75 L (orde van grootte — Cijferzakboekje raadplegen).",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stille wijn-scenario: accijns = 0 EUR → BTW-maatstaf = 5.000 EUR; BTW 21 % = 1.050 EUR",
+              "Mousserende-variant: accijns ≈ 1.000 × 0,21 = 210 EUR (CZB raadplegen voor actueel tarief); BTW-maatstaf = 5.210 EUR; BTW 21 % = 1.094,10 EUR",
+              "Boekhoudkundig: omzet boeking inclusief accijns (CBN-standpunt); accijnsbedrag intern traceerbaar via subgrootboek; BTW gescheiden op 411/451"
+            ],
+            "resultaat": "Voor stille wijn = België een accijns-uitzondering — sterke commerciële voorkeur. Voor mousserend + sterke drank = aanzienlijke accijnskost waar voorzichtig mee om te gaan."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 92/83/EEG", "ref": "art. 7-9 (mousserend) + art. 10 (stille wijn)"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Indicatieve berekening — actuele tarieven Cijferzakboekje"}
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Accijns gelijkstellen met BTW",
+        "verkeerde_assumptie": "'Accijns werkt als BTW: belastingplichtige rekent aan, doorberekenen aan klant.'",
+        "kernpunt": "Accijns is GEEN belasting met aftrek-recht zoals BTW. Het is een EENMALIGE heffing bij uitslag-tot-verbruik. Geen tussenstap-aftrek, geen koppeling per transactie. De accijnsschorsing (entrepot-systeem) is het mechanisme dat cumulatie vermijdt — analogie met BTW-aftrek maar gefundamenteel anders. Boekhoudkundig ook anders: accijns blijft in omzet (CBN); BTW wordt uit omzet gehaald.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies — accijnzen + omzet", "ref": "Plaatsing in jaarrekening"}
+          ]
+        }
+      },
+      {
+        "titel": "EMCS-procedure overslaan bij IC-verzendingen",
+        "verkeerde_assumptie": "'Goederen accijnsbetaald in lidstaat A → kunnen vrij doorverzonden worden naar lidstaat B.'",
+        "kernpunt": "Voor IC-verzending onder accijnsschorsing is het elektronische EMCS-traject (Excise Movement and Control System) verplicht: e-AD (elektronisch administratief document) opmaken in lidstaat A, ontvangen bevestigd in lidstaat B. Zonder EMCS: accijns verschuldigd in lidstaat A én potentieel opnieuw in lidstaat B. Voor geregistreerde geadresseerden in lidstaat B is registratie + borg verplicht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 17-32 (EMCS)"}
+          ]
+        }
+      },
+      {
+        "titel": "Verlies of breuk in entrepot zonder vrijstelling claimen",
+        "verkeerde_assumptie": "'Goederen verloren in mijn entrepot → geen accijns want geen uitslag.'",
+        "kernpunt": "Bij verlies of vernietiging in belastingentrepot: vrijstelling MOGELIJK mits formele toestemming en bewijslast (proces-verbaal, vernietiging onder toezicht). Anders: de fictie 'uitslag tot verbruik' wordt geactiveerd en accijns is verschuldigd. Houders van entrepot moeten dus verlies-protocollen volgen — gewoon 'wegboeken' is niet voldoende.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 6 (verlies, vernietiging) + art. 8"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vergelijkbaar_met",
-      "target": "btw"
+      "id": "kantoor-accijns-client",
+      "naam": {"primair": "Kantoor begeleidt accijns-plichtige cliënt"},
+      "intro": "De accountant bij een cliënt die accijnsgoederen invoert, produceert of verhandelt (drankhandel, brouwerij, distillerie, tabakshandel, brandstofstation).",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "vergunning-aanvragen",
+              "naam": {"primair": "Vergunning belastingentrepot aanvragen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënten met regelmatige accijnsoperaties: vergunning erkend entrepothouder aanvragen bij FOD Financiën — Algemene Administratie Douane en Accijnzen. Vereist: borg, fysieke entrepot-faciliteit, voldoende boekhoudkundige discipline (per-product-volume registratie), EMCS-aansluiting. Cashflow-voordeel: schorsing van accijns tot uitslag-tot-verbruik. Cliënten met enkel sporadische accijnsoperaties: gebruik geregistreerde geadresseerde of doe via een accijnsvertegenwoordiger.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "richtlijn", "naam": "Richtlijn (EU) 2020/262", "ref": "art. 3, 1) + art. 15-16"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadvies vergunning"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "subgrootboek-accijns",
+              "naam": {"primair": "Subgrootboek accijns + omzet-koppeling"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Hoewel CBN-standpunt accijns binnen omzet houdt, vereist analyse + controle een apart subgrootboek per accijnsgoed (volume + accijnsbedrag). Boekingen: aankoop in entrepot D 60 (incl. eventuele accijns indien al betaald) / C 44; uitslag-tot-verbruik aanvaarden: accijns op aangifte bij FOD Financiën (forfaitair per maand of per uitslag) + voldoening via maandaangifte AC4-formulier.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "cbn", "naam": "CBN-advies — accijnzen + omzet", "ref": "Boekhoudkundige plaatsing"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijksubgrootboek-organisatie"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "fiscaal-recht"},
+    {"type": "vergelijkbaar_met", "target": "btw", "gelijkenissen": ["Beide indirecte verbruiksbelastingen die in fine door de consument worden gedragen"], "verschillen": ["Accijns = productspecifiek + geen aftrek-systeem (schorsing-regime ipv aftrek); BTW = algemene transactiebelasting + aftrek-systeem"], "render_hint": "als_glossarium"},
+    {"type": "beinvloed_door", "target": "douaneprocedures-btw-invoer", "toelichting": "Bij invoer van accijnsgoederen worden accijns en BTW gezamenlijk geheven via het DAU."}
   ]
 }
