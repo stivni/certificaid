@@ -2,14 +2,18 @@
   "id": "bedrijfsvoorheffing",
   "naam": {
     "primair": "Bedrijfsvoorheffing",
+    "afkorting": "BV",
     "synoniemen": [
-      "BV"
-    ]
+      "précompte professionnel"
+    ],
+    "vertaling": {
+      "fr": "précompte professionnel"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -21,25 +25,38 @@
         "Schalen + categorieën + verminderingen (gezinslast · alleenstaande · kinderen ten laste)",
         "Afhouding bij werkgever (inhoudingsplicht)",
         "Maandelijkse aangifte 274 + jaarlijkse fiche 281.10/281.50",
-        "Voorheffing op finale PB-aanslag (kan teruggave of saldo opleveren)"
+        "Voorheffing op finale PB-aanslag (kan teruggave of saldo opleveren)",
+        "Vrijstelling van doorstorting (R&D, ploegenarbeid, overuren)"
       ],
       "out": [
         {
-          "topic": "Loon-en-payroll K-techniek (cascade-context)",
+          "topic": "Werknemers-bezoldiging — onderworpen-grondslag",
           "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
+          "ref": "werknemersbezoldiging"
         },
         {
-          "topic": "Werknemers-vergoedingen Σ (alternatieven)",
-          "richting": "mag-verwijzen",
-          "ref": "werknemers-vergoedingen"
+          "topic": "Bedrijfsleidersbezoldiging — onderworpen-grondslag",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bedrijfsvoorheffing.json",
+      "primary_bronnen": [
+        "WIB92 art. 270",
+        "WIB92 art. 272",
+        "WIB92 art. 273",
+        "WIB92 art. 275",
+        "WIB92 art. 296",
+        "KB/WIB 92 art. 86-95"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -48,30 +65,327 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 270-275 + KB/WIB art. 86-95). Aangifte 274 + fiche 281.10 + verrekening art. 296 uitgewerkt."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bedrijfsvoorheffing (BV) is een gedeeltelijke voorheffing op de inkomstenbelasting (PB of BNI), opeisbaar bij het betalen of toekennen van belastbare bezoldigingen, pensioenen, renten of toelagen (art. 273 WIB92). De voorheffing is verschuldigd door de werkgever, schuldenaar of mandataris (art. 270 WIB92), die ze van het brutobedrag inhoudt en aan de fiscus doorstort. De berekening gebeurt forfaitair volgens schalen vastgesteld door de Koning (KB/WIB art. 86-95 + Bijlage III), naargelang de categorie inkomen, de gezinssituatie en de kinderlast.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 273, 275" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "BV is het 'pay-as-you-earn'-systeem van de Belgische personenbelasting. Het systeem heeft drie effecten: (1) **Spreiding voor de overheid** — maandelijkse cash-flow in plaats van één betaling per jaar. (2) **Aansprakelijkheid bij de werkgever** — de werkgever is fiscaal aansprakelijk voor de juiste berekening + tijdige doorstorting (art. 272 + boetes art. 444 e.v.); een vergissing (onder-inhouding) levert hem een rechtstreekse schuld bij de fiscus op. (3) **Quasi-eindafrekening voor werknemers** — voor zuivere loontrekkenden met geen andere inkomsten ligt het ingehouden bedrag dicht bij de finale PB; bij gemengde inkomens (loon + huur + dividenden) of gunstvariabelen (huwelijksquotient, kinderlast laat aangepast) ontstaan correcties via de finale aanslag. Vanaf 2003 bestaan 'BV-vrijstellingen van doorstorting' (R&D-onderzoekers, ploegen-/nachtarbeid, overuren, startende ondernemingen) als steunmechanisme: de werkgever houdt wel BV in, maar mag een percentage niet doorstorten — een directe loonkost-subsidie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 272, 275" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De BV als bronheffing is een algemeen principe in moderne belastingstelsels (PAYE in VK, prélèvement à la source in FR, Lohnsteuer in DE). Drie redenen: (a) belastinginkomsten worden gespreid over het jaar i.p.v. één piek bij eindafrekening; (b) de overheid verzekert zich tegen wanbetaling/insolvabiliteit van de belastingplichtige; (c) administratieve eenvoud voor de meeste belastingplichtigen (75-80 % van de loontrekkenden hoeven geen aanvulling te betalen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "PAYE-vergelijking + beleidsratio bronheffing" }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 270-275 + KB/WIB art. 86-95 + Bijlage III"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke uitbetaling van bezoldiging (werknemer of bedrijfsleider), pensioen, vervangingsinkomen door een Belgische schuldenaar.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 273" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Betalen of toekennen van bezoldigingen (art. 273-1°) — dus het moment van uitbetaling (boekhoudkundig: D 455/618 C 5500), niet de datum van prestatie.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 273" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "schuldenaars-bv",
+        "naam": { "primair": "Schuldenaars BV (art. 270)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "BV is verschuldigd door (art. 270 WIB92): (1) personen die bezoldigingen, pensioenen, renten of toelagen betalen of toekennen — werkgever, vennootschap, RSZ, RVA, pensioenfonds; (2) opdrachtgevers van werknemers wier loon hoofdzakelijk uit fooien bestaat; (3) schuldenaars van inkomsten van podiumkunstenaars/sportbeoefenaars; (4) mandatarissen van niet-inwoners. De BV moet worden ingehouden (art. 272) zonder dat partijen contractueel kunnen afwijken — d.w.z. de werknemer ontvangt netto, niet bruto.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 272" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schalen-bv",
+        "naam": { "primair": "BV-schalen en parameters (KB/WIB Bijlage III)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BV wordt berekend volgens schalen vastgesteld bij KB (art. 275 § 1, in uitvoering art. 86-95 KB/WIB + Bijlage III). Drie hoofdschalen: (I) gewone bezoldigingen werknemers (maandelijks/wekelijks); (II) bedrijfsleiders; (III) vervangingsinkomens/pensioenen. Parameters: bruto-belastbaar bedrag, burgerlijke staat (alleenstaande/gehuwd/wettelijk samenwonend), gezinslast (aantal kinderen ten laste, gehandicapt kind, andere personen ten laste), specifieke verminderingen (bv. lage lonen, woon-werk). De BV-schaal is daarom progressief gestaffeld zodat ze een eerste benadering geeft van de finale PB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 275 § 1" },
+                { "type": "kb", "naam": "KB/WIB 92", "ref": "art. 86-95 + Bijlage III" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aangifte-274-en-281",
+        "naam": { "primair": "Aangifteformulieren 274 + fiches 281" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Twee periodieke verplichtingen:",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB 92", "ref": "art. 86-95" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Periodieke administratie:\n\n| Document | Frequentie | Vervaldatum | Doel |\n|---|---|---|---|\n| **Aangifte 274** | Maandelijks (of trimestrieel voor schuldenaars < bepaalde grens) | 15e van de maand volgend op betaling | Aangifte + doorstorting BV |\n| **Fiche 281.10** (werknemers) | Jaarlijks | Vóór 1 maart Y+1 | Bruto-loon + ingehouden BV + RSZ over jaar Y |\n| **Fiche 281.20** (bedrijfsleiders) | Jaarlijks | Vóór 1 maart Y+1 | Idem voor bedrijfsleiders |\n| **Fiche 281.50** (commissies, makelaarslonen, erelonen aan derden) | Jaarlijks | Vóór 30 juni Y+1 | Verklarende fiche voor derden |\n| **Samenvattende opgave 325** | Jaarlijks | Vóór 1 maart Y+1 | Totaalstaat per type fiche |"
+          }
+        ]
+      },
+      {
+        "id": "verrekening-art-296",
+        "naam": { "primair": "Verrekening BV op finale PB (art. 296)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De ingehouden BV wordt op de finale aanslag PB van de belastingplichtige verrekend (art. 296 WIB92). Indien BV > finale PB: terugbetaling. Indien BV < finale PB: te-betalen-saldo. Drie correctieoorzaken: (a) inkomsten buiten loon (huur, dividenden, alimentatie) waarop geen BV werd ingehouden; (b) verminderingen niet door werkgever toegepast (bv. extra kinderlast tijdens jaar); (c) belastingvermindering (langetermijnsparen, pensioenfonds) die enkel via aangifte werkt. Loontrekkenden zonder andere inkomsten zien typisch een kleine teruggave (≈ € 100-300) of een klein saldo.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 296" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-doorstorting",
+        "naam": { "primair": "Vrijstelling van doorstorting BV — steunmechanisme" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor bepaalde categorieën van werkgevers/werknemers houdt de werkgever wel de BV in op het loon (werknemer 'voelt het niet'), maar moet hij een **percentage van die BV NIET doorstorten** aan de fiscus — wat een directe loonkost-subsidie is voor de werkgever (art. 275 § 3 e.v. WIB92). Belangrijkste: BV-vrijstelling onderzoekers/R&D (80 % op masters in wetenschappelijke richtingen, art. 275/3); ploegen- en nachtarbeid (22,8 %, art. 275/5); overuren (vrijstelling op de eerste 130 uur, art. 275/1); startende ondernemingen (10/20 % voor 4 jaar). Aangifte 274.32 / 274.33 voor afzonderlijke claim.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 275/1, 275/3, 275/5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-verwerking-bv",
+        "naam": { "primair": "Boekhoudkundige verwerking (rekening 4530)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "BV wordt boekhoudkundig geboekt op rekening 4530 'Ingehouden voorheffingen — Bedrijfsvoorheffing' (MAR). Bij toekenning bezoldiging: D 620/618 / C 4530 + 454 + 455. Bij doorstorting: D 4530 / C 5500. Saldo 4530 op balansdatum = nog niet-doorgestorte BV (typisch december-BV die in januari doorgestort wordt → vlottend passief).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "MAR (KB 21.10.2018)", "ref": "Bijlage 1, rek. 4530" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-bv-werknemer",
+        "titel": "Werknemer bruto € 3.000/maand — BV-berekening en boeking",
+        "context": "Alleenstaand, geen kinderen ten laste. BV-schaal werknemers (illustratief, AJ 2025).",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "BV-berekening (vereenvoudigd):\n\n| Stap | Bedrag |\n|---|---|\n| Bruto-loon | € 3.000,00 |\n| − RSZ-werknemer 13,07 % | − € 392,10 |\n| Belastbaar loon | € 2.607,90 |\n| BV-schaal alleenstaande zonder kinderen (KB/WIB Bijlage III) ≈ 22 % | ≈ € 575,00 |\n| Netto op rekening | ≈ € 2.032,90 |\n\nJaarlijks: BV ingehouden ± € 6.900 → op fiche 281.10 code 286. Verrekening via aangifte PB code 1286."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Maandelijkse boekingen (vennootschap-zijde):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 620 | Bezoldigingen werknemers | 3.000,00 | |\n| 621 | Werkgeversbijdragen RSZ (± 25 %) | 750,00 | |\n| | aan 454 RSZ (werkgever + werknemer) | | 1.142,10 |\n| | aan 4530 Bedrijfsvoorheffing | | 575,00 |\n| | aan 455 Bezoldigingen (netto te betalen) | | 2.032,90 |\n\nBV-doorstorting (15e volgende maand):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 4530 | Bedrijfsvoorheffing | 575,00 | |\n| | aan 5500 Bank | | 575,00 |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 296" },
+            { "type": "kb", "naam": "KB/WIB 92", "ref": "art. 86-95 + Bijlage III" }
+          ]
+        }
+      },
+      {
+        "id": "vb-eindafrekening",
+        "titel": "Verrekening BV op finale aanslag — kleine teruggave",
+        "context": "Werknemer bruto € 45.000 jaar X; BV ingehouden € 9.500; aanvulling huwelijksquotient (huwelijk met niet-werkende partner) effect € 1.200 belastingvermindering.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Finale aanslag PB AJ X+1:\n\n| Stap | Bedrag |\n|---|---|\n| Belastbaar netto-beroepsinkomen (na RSZ + forfait) | ± € 36.500 |\n| Berekende PB op gemeenschappelijke aanslag (met huwelijksquotient) | ≈ € 8.500 |\n| Aanvullende gemeentebelasting 7 % | + € 595 |\n| **Totaal verschuldigd** | **€ 9.095** |\n| Verrekening BV (art. 296) | − € 9.500 |\n| **Terugbetaling** | **€ 405** |\n\nAangifte PB code 1286 = € 9.500 (BV); fiscus berekent vrijstelling huwelijksquotient (€ 1.200 was niet in BV-schaal toegepast want werkgever wist niet) en betaalt verschil terug."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87, 296" }
+          ]
+        }
+      },
+      {
+        "id": "vb-vrijstelling-rd",
+        "titel": "BV-vrijstelling 80 % onderzoekers (art. 275/3)",
+        "context": "Tech-vennootschap met 5 onderzoekers (master wetenschap/ingenieurswetenschap). Brutoloon elk € 4.500/maand. BV ingehouden ± € 1.200/maand per onderzoeker.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Steunmechanisme:\n\n| Element | Per onderzoeker/maand | Totaal jaar (5 personen) |\n|---|---|---|\n| BV ingehouden op loon | € 1.200 | € 72.000 |\n| Vrijstelling doorstorting 80 % (art. 275/3) | € 960 | **€ 57.600** |\n| BV werkelijk door te storten | € 240 | € 14.400 |\n| → Loonkost-besparing voor werkgever | € 960/maand | **€ 57.600/jaar** |\n\nDe werknemer ontvangt netto-onveranderd; de vennootschap mag 80 % van de BV behouden. Aangifte 274.33 voor R&D-claim. Voorwaarden: master-diploma + R&D-functie + R&D-project conform Belspo-erkenning."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 275/3" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BV ingehouden ≠ definitieve PB",
+        "verkeerde_assumptie": "De BV-inhouding is de definitieve belasting op het loon.",
+        "kernpunt": "BV is een voorheffing — een 'voorschot' (art. 273). De finale aanslag PB (AJ X+1) wordt berekend op het wereldwijd belastbaar inkomen, met alle correcties (huwelijksquotient, kinderlast laat aangepast, langetermijnsparen, dividenden, huur). BV wordt dan verrekend (art. 296) en kan tot teruggave OF te-betalen-saldo leiden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 273, 296" }
+          ]
+        }
+      },
+      {
+        "titel": "Werkgever aansprakelijk bij onder-inhouding (geen verhaal op werknemer)",
+        "verkeerde_assumptie": "Wanneer de werkgever vergeet BV in te houden, krijgt hij dat bedrag later terug van de werknemer.",
+        "kernpunt": "Art. 272 + 444 WIB stellen de werkgever rechtstreeks aansprakelijk voor onder-inhouding. De fiscus vordert de niet-ingehouden BV bij de werkgever (niet bij de werknemer) + boete. De werkgever heeft theoretisch een burgerlijk verhaal op de werknemer, maar in de praktijk vaak verloren wegens fout van de werkgever zelf.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 272" }
+          ]
+        }
+      },
+      {
+        "titel": "BV op VAA mag niet vergeten worden",
+        "verkeerde_assumptie": "Op een voordeel alle aard wordt geen BV ingehouden want er gaat geen geld door.",
+        "kernpunt": "VAA wordt fiscaal als belastbaar loon beschouwd. De werkgever moet maandelijks BV inhouden op het fictief totaalloon (geldloon + VAA-forfait per maand). Vergeet hij dat, dan blijft hij aansprakelijk. Sociaal secretariaat doet dit normaliter automatisch, maar boekhouder moet controleren dat alle VAA op fiche 281.10/281.20 staan.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 31, 273" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "loon-en-payroll"
+      "id": "boekhouder-bv",
+      "naam": { "primair": "Boekhouder/HR-administrator bij werkgever" },
+      "intro": "Maandelijkse cyclus berekening + aangifte 274 + jaarafsluiting fiches 281.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "maand-cyclus",
+              "naam": { "primair": "Maandcyclus BV-administratie" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Verkrijg loonstrook + samenvatting van sociaal secretariaat. (2) Controleer BV-bedrag (eventueel via simulator-tool voor steekproef). (3) Boek 620/618 D bruto + 4530 C BV + 454 C RSZ + 455 C netto. (4) Vóór 15e van maand M+1: aangifte 274 elektronisch indienen + BV via Belconnect doorstorten. (5) Bij jaareinde: fiches 281.10/281.20 + opgave 325 indienen vóór 1 maart.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 270-275" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "claim-vrijstelling-rd",
+              "naam": { "primair": "Claim BV-vrijstelling R&D / ploegen / overuren" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Identificeer kwalificerende werknemers (master wetenschap voor R&D-vrijstelling; ploegenarbeid > X% prestatie; overuren > 130/jr). (2) Houd normale BV in op loon (werknemer-side ongewijzigd). (3) Bereken vrijstellingspercentage (80 % R&D / 22,8 % ploegen / 41,25 % overuren). (4) Vul aangifte 274.33 (R&D), 274.32 (ploegen), 274.31 (overuren). (5) Documenteer Belspo-erkenning + ploegrooster + uurstaten in dossier (controle-bestand). (6) Doorstort enkel niet-vrijgesteld deel.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 275/1, 275/3, 275/5" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "personenbelasting" },
+    { "type": "beinvloed_door", "target": "werknemersbezoldiging" },
+    { "type": "beinvloed_door", "target": "bedrijfsleidersbezoldiging" }
   ]
 }
