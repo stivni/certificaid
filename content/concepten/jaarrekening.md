@@ -416,7 +416,7 @@ _`stap`_
 - → IFRS-rapportering individuele JR → [[ifrs]] _(moet-verwijzen)_
 - → Boekhoudbeginselen die jaarrekening fundeerden → [[boekhoudbeginselen]] _(moet-verwijzen)_
 - → Eindejaarsverrichtingen (inventaris + waarderings-correcties) → [[eindejaarsverrichtingen]] _(moet-verwijzen)_
-- → Groottecategorie-cascade (drempels → schema + controle) → ⏳ groottecategorie-vennootschap _(moet-verwijzen)_
+- → Groottecategorie-cascade (drempels → schema + controle) → [[vennootschap-groottecategorieen]] _(moet-verwijzen)_
 - → Jaarrekeninganalyse (ratio's + diagnose) → [[jaarrekeninganalyse]] _(moet-verwijzen)_
 - ↪ Specifieke balansposten (vaste-activa, voorraden, EV, ...) _(mag-verwijzen)_
 
@@ -429,7 +429,7 @@ _`stap`_
 - [[dubbele-boekhouding]] — De jaarrekening is het output-document van de dubbele-boekhouding-cyclus: dagboek → grootboek → proefbalans → JR.
 - [[eindejaarsverrichtingen]] — De eindejaarsverrichtingen (inventaris + waarderings-correcties + afschrijvingen + voorzieningen) gaan logisch en wettelijk vooraf aan de jaarrekening.
 ### `beinvloed_door`
-- ⏳ groottecategorie-vennootschap — De groottecategorie (micro/klein/groot/zeer groot) bepaalt welk schemamodel (bijlagen KB) en welke verplichte staten (sociale balans, jaarverslag, commissaris) van toepassing zijn.
+- [[vennootschap-groottecategorieen]] — De groottecategorie (micro/klein/groot/zeer groot) bepaalt welk schemamodel (bijlagen KB) en welke verplichte staten (sociale balans, jaarverslag, commissaris) van toepassing zijn.
 ### `vergelijkbaar_met`
 - [[geconsolideerde-jaarrekening]] — De enkelvoudige jaarrekening en de geconsolideerde jaarrekening zijn beide synthesedocumenten, maar dekken een andere scope.
     - **Gelijkenissen**:

@@ -132,14 +132,14 @@ De vzw mag een **microschema** van jaarrekening opmaken en neerleggen._
 ## Verder lezen (scope-out)
 
 - → Boekhoudplicht (algemeen wie-moet-boekhouden) → [[boekhoudplicht]] _(moet-verwijzen)_
-- ↪ Vennootschap-groottecategorie → ⏳ groottecategorie-vennootschap _(mag-verwijzen)_
+- ↪ Vennootschap-groottecategorie → [[vennootschap-groottecategorieen]] _(mag-verwijzen)_
 
 ## Relaties
 
 ### `valt_onder`
 - [[boekhoudplicht]]
 ### `vergelijkbaar_met`
-- ⏳ groottecategorie-vennootschap
+- [[vennootschap-groottecategorieen]]
     - **Gelijkenissen**:
         - Cascade-mechaniek (drempels overschrijden bepaalt categorie)
         - Drempels micro en klein zijn geharmoniseerd met vennootschapsdrempels sinds WVV

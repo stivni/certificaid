@@ -13,7 +13,9 @@
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["gebeurtenis"],
+    "categorieen": [
+      "gebeurtenis"
+    ],
     "ankers": [
       "1.1.taak.1",
       "1.1.II.L",
@@ -66,10 +68,26 @@
         "Jaarafsluit-boekingen + heropening-cyclus voor volgend boekjaar"
       ],
       "out": [
-        {"topic": "Specifieke waarderingsregels per balanspost", "richting": "mag-verwijzen", "ref": "jaarrekening"},
-        {"topic": "Resultaatverwerking + dividend (uitkering aan aandeelhouders)", "richting": "moet-verwijzen", "ref": "uitkering-aan-aandeelhouders"},
-        {"topic": "Audit-procedures bij jaarafsluit (commissaris)", "richting": "moet-verwijzen", "ref": "controle-opdracht"},
-        {"topic": "Boekhoudbeginselen die de correcties sturen", "richting": "moet-verwijzen", "ref": "boekhoudbeginselen"}
+        {
+          "topic": "Specifieke waarderingsregels per balanspost",
+          "richting": "mag-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "Resultaatverwerking + dividend (uitkering aan aandeelhouders)",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Audit-procedures bij jaarafsluit (commissaris)",
+          "richting": "moet-verwijzen",
+          "ref": "controle-opdracht"
+        },
+        {
+          "topic": "Boekhoudbeginselen die de correcties sturen",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudbeginselen"
+        }
       ]
     }
   },
@@ -80,9 +98,24 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89", "context": "Wettelijke jaarlijkse inventarisplicht"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "De inventaris — ten minste eens per jaar opnemingen, verificaties, onderzoekingen en waarderingen"},
-            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23", "context": "Voorzieningen + waardeverminderingen"}
+            {
+              "type": "wettekst",
+              "naam": "Wetboek van Economisch Recht",
+              "ref": "art. III.89",
+              "context": "Wettelijke jaarlijkse inventarisplicht"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "174/1",
+              "context": "De inventaris — ten minste eens per jaar opnemingen, verificaties, onderzoekingen en waarderingen"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019",
+              "ref": "art. 3:23",
+              "context": "Voorzieningen + waardeverminderingen"
+            }
           ]
         }
       },
@@ -91,10 +124,29 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Voorzichtigheid + matching — wederzijdse hiërarchie"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Overlopende rekeningen klasse 49 — toerekening interest aan boekjaar"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rol eindejaarsverrichtingen — standaardleer"}
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2010/12",
+              "context": "Voorzichtigheid + matching — wederzijdse hiërarchie"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2018/18"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "148/4",
+              "context": "Overlopende rekeningen klasse 49 — toerekening interest aan boekjaar"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese rol eindejaarsverrichtingen — standaardleer"
+            }
           ]
         }
       },
@@ -103,18 +155,41 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Geciteerd inventaris-citaat"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio-legis synthese — functie eindejaarsverrichtingen voor getrouw beeld"}
+            {
+              "type": "wettekst",
+              "naam": "Wetboek van Economisch Recht",
+              "ref": "art. III.89"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "174/1",
+              "context": "Geciteerd inventaris-citaat"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio-legis synthese — functie eindejaarsverrichtingen voor getrouw beeld"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["dubbele-boekhouding", "boekhoudbeginselen"],
+      "voorvereisten": [
+        "dubbele-boekhouding",
+        "boekhoudbeginselen"
+      ],
       "kader": "boekhouding",
-      "naast_relevant": ["jaarrekening"],
-      "volgkennis": ["jaarrekening", "uitkering-aan-aandeelhouders", "controle-opdracht"]
+      "naast_relevant": [
+        "jaarrekening"
+      ],
+      "volgkennis": [
+        "jaarrekening",
+        "uitkering-aan-aandeelhouders",
+        "controle-opdracht"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -128,8 +203,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
-              {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"}
+              {
+                "type": "wettekst",
+                "naam": "Wetboek van Economisch Recht",
+                "ref": "art. III.89"
+              },
+              {
+                "type": "cbn",
+                "naam": "CBN-advies",
+                "ref": "174/1"
+              }
             ]
           }
         }
@@ -140,7 +223,12 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard timing-praktijk ITAA-kantoor"}
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Standaard timing-praktijk ITAA-kantoor"
+              }
             ]
           }
         }
@@ -151,7 +239,12 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 3:54 + art. 3:10", "context": "Termijnen jaarrekening + AV + neerlegging"}
+              {
+                "type": "wettekst",
+                "naam": "Wetboek van vennootschappen en verenigingen",
+                "ref": "art. 3:54 + art. 3:10",
+                "context": "Termijnen jaarrekening + AV + neerlegging"
+              }
             ]
           }
         }
@@ -162,7 +255,11 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -173,8 +270,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              {
+                "type": "cbn",
+                "naam": "CBN-advies",
+                "ref": "2018/18"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -183,7 +288,9 @@
     "bouwstenen": [
       {
         "id": "stap-1-inventaris",
-        "naam": {"primair": "Stap 1 — Wettelijke inventaris (WER art. III.89)"},
+        "naam": {
+          "primair": "Stap 1 — Wettelijke inventaris (WER art. III.89)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -191,8 +298,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
-                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "De inventaris — citaat letterlijke wet"}
+                {
+                  "type": "wettekst",
+                  "naam": "Wetboek van Economisch Recht",
+                  "ref": "art. III.89"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies",
+                  "ref": "174/1",
+                  "context": "De inventaris — citaat letterlijke wet"
+                }
               ]
             }
           }
@@ -200,7 +316,9 @@
       },
       {
         "id": "stap-2-waarderingscorrecties",
-        "naam": {"primair": "Stap 2 — Waarderingscorrecties (afschrijvingen + waardeverminderingen + voorzieningen)"},
+        "naam": {
+          "primair": "Stap 2 — Waarderingscorrecties (afschrijvingen + waardeverminderingen + voorzieningen)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -208,8 +326,18 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23", "context": "Waardeverminderingen + voorzieningen"},
-                {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25", "context": "Voorzieningen voor grote herstellingswerken — concrete boeking 6360 → 162"}
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019",
+                  "ref": "art. 3:23",
+                  "context": "Waardeverminderingen + voorzieningen"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies",
+                  "ref": "2018/25",
+                  "context": "Voorzieningen voor grote herstellingswerken — concrete boeking 6360 → 162"
+                }
               ]
             }
           }
@@ -217,7 +345,9 @@
       },
       {
         "id": "stap-3-overlopende-rekeningen",
-        "naam": {"primair": "Stap 3 — Overlopende rekeningen (klasse 49)"},
+        "naam": {
+          "primair": "Stap 3 — Overlopende rekeningen (klasse 49)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -225,8 +355,18 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 — vier sub-rekeningen + boeking interest op obligaties"},
-                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Matching + voorzichtigheid hiërarchie"}
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies",
+                  "ref": "148/4",
+                  "context": "Klasse 49 — vier sub-rekeningen + boeking interest op obligaties"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies",
+                  "ref": "2010/12",
+                  "context": "Matching + voorzichtigheid hiërarchie"
+                }
               ]
             }
           }
@@ -234,7 +374,9 @@
       },
       {
         "id": "stap-4-resultaatverwerking",
-        "naam": {"primair": "Stap 4 — Resultaatverwerking (klasse 79)"},
+        "naam": {
+          "primair": "Stap 4 — Resultaatverwerking (klasse 79)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -242,9 +384,22 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — MAR klasse 79 (resultaatverwerking)"},
-                {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142 (wettelijke reserve BV)"},
-                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard resultaatverwerking-cyclus"}
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018",
+                  "ref": "Bijlage 1 — MAR klasse 79 (resultaatverwerking)"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 5:142 (wettelijke reserve BV)"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Standaard resultaatverwerking-cyclus"
+                }
               ]
             }
           }
@@ -252,7 +407,9 @@
       },
       {
         "id": "stap-5-afsluit-heropening",
-        "naam": {"primair": "Stap 5 — Jaarafsluit + heropening volgend boekjaar"},
+        "naam": {
+          "primair": "Stap 5 — Jaarafsluit + heropening volgend boekjaar"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -260,8 +417,16 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — MAR klasse 89 (saldo te bestemmen)"},
-                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018",
+                  "ref": "Bijlage 1 — MAR klasse 89 (saldo te bestemmen)"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28"
+                }
               ]
             }
           }
@@ -269,7 +434,9 @@
       },
       {
         "id": "wisselkoers-correctie",
-        "naam": {"primair": "Specifiek — wisselkoers-correctie op deviezenverrichtingen"},
+        "naam": {
+          "primair": "Specifiek — wisselkoers-correctie op deviezenverrichtingen"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -277,7 +444,12 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "cbn", "naam": "CBN-advies", "ref": "152/1", "context": "Boekingen van deviezenverrichtingen en verwerking van koersverschillen"}
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies",
+                  "ref": "152/1",
+                  "context": "Boekingen van deviezenverrichtingen en verwerking van koersverschillen"
+                }
               ]
             }
           }
@@ -292,8 +464,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:21 (afschrijvingen)"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019",
+              "ref": "art. 3:21 (afschrijvingen)"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -317,9 +497,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019",
+              "ref": "art. 3:23"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2018/25"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -327,8 +519,18 @@
             "type": "boeking",
             "titel": "Boeking waardevermindering 50%",
             "stappen": [
-              {"rekening": "6340", "omschrijving": "Waardeverminderingen op handelsvorderingen — Toevoeging", "debet": 10000, "credit": 0},
-              {"rekening": "4090", "omschrijving": "Geboekte waardeverminderingen op handelsvorderingen", "debet": 0, "credit": 10000}
+              {
+                "rekening": "6340",
+                "omschrijving": "Waardeverminderingen op handelsvorderingen — Toevoeging",
+                "debet": 10000,
+                "credit": 0
+              },
+              {
+                "rekening": "4090",
+                "omschrijving": "Geboekte waardeverminderingen op handelsvorderingen",
+                "debet": 0,
+                "credit": 10000
+              }
             ]
           },
           {
@@ -344,8 +546,17 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 overlopende rekeningen — over te dragen kosten"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"}
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "148/4",
+              "context": "Klasse 49 overlopende rekeningen — over te dragen kosten"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2010/12"
+            }
           ]
         },
         "weergaven": [
@@ -370,9 +581,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142 (wettelijke reserve BV)"},
-            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — klasse 79"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            {
+              "type": "wettekst",
+              "naam": "Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 5:142 (wettelijke reserve BV)"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018",
+              "ref": "Bijlage 1 — klasse 79"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -400,8 +623,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"}
+            {
+              "type": "wettekst",
+              "naam": "Wetboek van Economisch Recht",
+              "ref": "art. III.89"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "174/1"
+            }
           ]
         }
       },
@@ -412,8 +643,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25"}
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019",
+              "ref": "art. 3:23"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2018/25"
+            }
           ]
         }
       },
@@ -424,8 +663,17 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 — boeking van prorata van gelopen interest op obligaties"},
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"}
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "148/4",
+              "context": "Klasse 49 — boeking van prorata van gelopen interest op obligaties"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2010/12"
+            }
           ]
         }
       },
@@ -436,7 +684,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"}
+            {
+              "type": "cbn",
+              "naam": "CBN-advies",
+              "ref": "2018/18"
+            }
           ]
         }
       }
@@ -447,14 +699,38 @@
         "intro": "Standaard timing eindejaarscyclus voor een 31/12-afsluitende vennootschap.",
         "inhoud": {
           "stappen": [
-            {"datum": "1-15 december N", "actie": "Opstart inventaris-voorbereiding: aankondiging fysieke voorraadtelling, klant- en leverancierssaldo-controles starten."},
-            {"datum": "20-31 december N", "actie": "Fysieke voorraadtelling op balansdatum. Bankafstemming. Going-concern-check met bestuursorgaan."},
-            {"datum": "Januari N+1", "actie": "Waarderingscorrecties boeken: afschrijvingen, waardeverminderingen, voorzieningen. Eerste set overlopende rekeningen (klasse 49) opmaken."},
-            {"datum": "Februari-maart N+1", "actie": "Definitieve eindejaarsboekingen + proefbalans. Resultaat berekenen (klasse 89). Voorstel resultaatverwerking opmaken."},
-            {"datum": "Maart-april N+1", "actie": "Bestuursorgaan keurt jaarrekening voorlopig goed + roept algemene vergadering bijeen."},
-            {"datum": "Mei-juni N+1", "actie": "Gewone AV (binnen 6 maanden — WVV art. 3:54): definitieve goedkeuring jaarrekening + beslissing dividend."},
-            {"datum": "Juli N+1", "actie": "NBB-neerlegging jaarrekening via XBRL (binnen 30 dagen na goedkeuring + max 7 maanden na balansdatum). Fiscale aangifte VenB (binnen 7 maanden + 1 dag)."},
-            {"datum": "Augustus N+1 ev.", "actie": "Heropening boekjaar N+1 (technisch reeds vanaf 01/01/N+1; afsluit-correcties worden geretroceerd doorgevoerd)."}
+            {
+              "datum": "1-15 december N",
+              "actie": "Opstart inventaris-voorbereiding: aankondiging fysieke voorraadtelling, klant- en leverancierssaldo-controles starten."
+            },
+            {
+              "datum": "20-31 december N",
+              "actie": "Fysieke voorraadtelling op balansdatum. Bankafstemming. Going-concern-check met bestuursorgaan."
+            },
+            {
+              "datum": "Januari N+1",
+              "actie": "Waarderingscorrecties boeken: afschrijvingen, waardeverminderingen, voorzieningen. Eerste set overlopende rekeningen (klasse 49) opmaken."
+            },
+            {
+              "datum": "Februari-maart N+1",
+              "actie": "Definitieve eindejaarsboekingen + proefbalans. Resultaat berekenen (klasse 89). Voorstel resultaatverwerking opmaken."
+            },
+            {
+              "datum": "Maart-april N+1",
+              "actie": "Bestuursorgaan keurt jaarrekening voorlopig goed + roept algemene vergadering bijeen."
+            },
+            {
+              "datum": "Mei-juni N+1",
+              "actie": "Gewone AV (binnen 6 maanden — WVV art. 3:54): definitieve goedkeuring jaarrekening + beslissing dividend."
+            },
+            {
+              "datum": "Juli N+1",
+              "actie": "NBB-neerlegging jaarrekening via XBRL (binnen 30 dagen na goedkeuring + max 7 maanden na balansdatum). Fiscale aangifte VenB (binnen 7 maanden + 1 dag)."
+            },
+            {
+              "datum": "Augustus N+1 ev.",
+              "actie": "Heropening boekjaar N+1 (technisch reeds vanaf 01/01/N+1; afsluit-correcties worden geretroceerd doorgevoerd)."
+            }
           ]
         }
       }
@@ -463,7 +739,9 @@
   "accountant_perspectieven": [
     {
       "id": "kantoor-jaarafsluit",
-      "naam": {"primair": "Kantoor bij jaarafsluit van cliënt"},
+      "naam": {
+        "primair": "Kantoor bij jaarafsluit van cliënt"
+      },
       "intro": "De jaarafsluit is de drukste én meest waarde-toevoegende periode van de accountant: kritische beoordelingen, dossier-discipline, communicatie met cliënt over voorzichtigheidskeuzes en continuïteit.",
       "rollen": [
         {
@@ -471,7 +749,9 @@
           "elementen": [
             {
               "id": "checklist-eindejaarsverrichtingen",
-              "naam": {"primair": "Checklist eindejaarsverrichtingen"},
+              "naam": {
+                "primair": "Checklist eindejaarsverrichtingen"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -479,8 +759,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
-                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard rubrieksgewijze checklist"}
+                      {
+                        "type": "cbn",
+                        "naam": "CBN-advies",
+                        "ref": "174/1"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard rubrieksgewijze checklist"
+                      }
                     ]
                   }
                 }
@@ -493,7 +782,9 @@
           "elementen": [
             {
               "id": "auditor-jaarafsluit",
-              "naam": {"primair": "Auditor-positie bij jaarafsluit"},
+              "naam": {
+                "primair": "Auditor-positie bij jaarafsluit"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -501,9 +792,21 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "norm", "naam": "ISA 570", "ref": "ISA 570 (continuïteit)"},
-                      {"type": "norm", "naam": "ISA 700", "ref": "ISA 700 (oordeel + rapport)"},
-                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                      {
+                        "type": "norm",
+                        "naam": "ISA 570",
+                        "ref": "ISA 570 (continuïteit)"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 700",
+                        "ref": "ISA 700 (oordeel + rapport)"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -516,7 +819,9 @@
           "elementen": [
             {
               "id": "adviseur-resultaatverwerking",
-              "naam": {"primair": "Advies aan AV over resultaatverwerking"},
+              "naam": {
+                "primair": "Advies aan AV over resultaatverwerking"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -524,8 +829,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142-143", "context": "Uitkeringstoets BV"},
-                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                      {
+                        "type": "wettekst",
+                        "naam": "Wetboek van vennootschappen en verenigingen",
+                        "ref": "art. 5:142-143",
+                        "context": "Uitkeringstoets BV"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -537,10 +851,30 @@
     }
   ],
   "relaties": [
-    {"type": "vereist", "target": "dubbele-boekhouding", "toelichting": "Eindejaarsverrichtingen worden geboekt binnen het dubbele-boekhouding-stelsel — buiten dat stelsel ontbreekt het kader."},
-    {"type": "vereist", "target": "boekhoudbeginselen", "toelichting": "De inhoudelijke correcties (afschrijvingen, voorzichtigheid, matching, going concern) volgen rechtstreeks uit de beginselen."},
-    {"type": "triggert", "target": "jaarrekening", "toelichting": "Eindejaarsverrichtingen culmineren in de opmaak van de jaarrekening (balans + RR + toelichting)."},
-    {"type": "triggert", "target": "uitkering-aan-aandeelhouders", "toelichting": "De resultaatverwerking (stap 4) bevat het dividend-voorstel; de effectieve uitkering valt onder een aparte WVV-procedure (uitkering-aan-aandeelhouders)."},
-    {"type": "gecontroleerd_door", "target": "controle-opdracht", "toelichting": "Bij middelgrote + grote vennootschappen toetst de commissaris de eindejaarsverrichtingen en de daaruit voortvloeiende jaarrekening (ISA-normenkader)."}
+    {
+      "type": "vereist",
+      "target": "dubbele-boekhouding",
+      "toelichting": "Eindejaarsverrichtingen worden geboekt binnen het dubbele-boekhouding-stelsel — buiten dat stelsel ontbreekt het kader."
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen",
+      "toelichting": "De inhoudelijke correcties (afschrijvingen, voorzichtigheid, matching, going concern) volgen rechtstreeks uit de beginselen."
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekening",
+      "toelichting": "Eindejaarsverrichtingen culmineren in de opmaak van de jaarrekening (balans + RR + toelichting)."
+    },
+    {
+      "type": "triggert",
+      "target": "winstuitkering",
+      "toelichting": "De resultaatverwerking (stap 4) bevat het dividend-voorstel; de effectieve uitkering valt onder een aparte WVV-procedure (uitkering-aan-aandeelhouders)."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "controle-opdracht",
+      "toelichting": "Bij middelgrote + grote vennootschappen toetst de commissaris de eindejaarsverrichtingen en de daaruit voortvloeiende jaarrekening (ISA-normenkader)."
+    }
   ]
 }

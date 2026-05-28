@@ -172,7 +172,7 @@ _`vuistregel`_
 
 - → Controle-test (basis voor wie-in-kring) → [[controle-bij-consolidatie]] _(moet-verwijzen)_
 - → Consolidatiekring (wie zit erin operationeel) → [[consolidatiekring]] _(moet-verwijzen)_
-- ↪ Groottecategorie-vennootschap (drempels groot/klein) → ⏳ groottecategorie-vennootschap _(mag-verwijzen)_
+- ↪ Groottecategorie-vennootschap (drempels groot/klein) → [[vennootschap-groottecategorieen]] _(mag-verwijzen)_
 
 ## Relaties
 

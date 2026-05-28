@@ -37,12 +37,36 @@
         "Going-concern-evaluatie hoort hier"
       ],
       "out": [
-        { "topic": "Cyclus-context (fase 4)", "richting": "moet-verwijzen", "ref": "controleopdracht" },
-        { "topic": "Bewijs als input", "richting": "moet-verwijzen", "ref": "audit-bewijs" },
-        { "topic": "Eindverslag als output", "richting": "moet-verwijzen", "ref": "controleverklaring" },
-        { "topic": "Going-concern-principe + diepe inhoud", "richting": "moet-verwijzen", "ref": "continuiteit-going-concern" },
-        { "topic": "Auditcomité-communicatie", "richting": "moet-verwijzen", "ref": "auditcomite" },
-        { "topic": "IC-deficiënties bron", "richting": "moet-verwijzen", "ref": "interne-controle" }
+        {
+          "topic": "Cyclus-context (fase 4)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Bewijs als input",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Eindverslag als output",
+          "richting": "moet-verwijzen",
+          "ref": "controleverklaring"
+        },
+        {
+          "topic": "Going-concern-principe + diepe inhoud",
+          "richting": "moet-verwijzen",
+          "ref": "continuiteit"
+        },
+        {
+          "topic": "Auditcomité-communicatie",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "IC-deficiënties bron",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        }
       ]
     },
     "provenance": {
@@ -64,8 +88,20 @@
       "rerank_calls": 0
     },
     "changelog": [
-      { "operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)" },
-      { "operatie": "cluster-extract", "timestamp": "2026-05-28T12:20:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 560/450/700/260/265/570/720). Sub-concepten: subsequent events, misstatements-evaluatie, overall review, communicatie governance, management letter, going concern." }
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 560/450/700/260/265/570/720). Sub-concepten: subsequent events, misstatements-evaluatie, overall review, communicatie governance, management letter, going concern."
+      }
     ]
   },
   "inhoud": {
@@ -75,8 +111,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "par. 41 datering" },
-            { "type": "norm", "naam": "ISA 560", "ref": "Doelstellingen par. 4" }
+            {
+              "type": "norm",
+              "naam": "ISA 700 (herzien)",
+              "ref": "par. 41 datering"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 560",
+              "ref": "Doelstellingen par. 4"
+            }
           ]
         }
       },
@@ -85,8 +129,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 450", "ref": "par. 11 bias-evaluatie" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ISA 450",
+              "ref": "par. 11 bias-evaluatie"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       },
@@ -95,18 +147,38 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 560", "ref": "" },
-            { "type": "norm", "naam": "ISA 450", "ref": "" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ISA 560",
+              "ref": ""
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 450",
+              "ref": ""
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["controleopdracht", "audit-bewijs"],
+      "voorvereisten": [
+        "controleopdracht",
+        "audit-bewijs"
+      ],
       "kader": "controleopdracht",
-      "naast_relevant": ["continuiteit-going-concern", "auditcomite"],
-      "volgkennis": ["controleverklaring"]
+      "naast_relevant": [
+        "continuiteit-going-concern",
+        "auditcomite"
+      ],
+      "volgkennis": [
+        "controleverklaring"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -120,7 +192,11 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -128,13 +204,21 @@
       "trigger_einde": [
         {
           "tekst": "Afronding eindigt met ondertekening en datering controleverklaring (ISA 700 par. 41) — niet vóórdat (a) voldoende en geschikt bewijs verzameld is, (b) ondertekende LOR ontvangen, (c) jaarrekening door bestuur goedgekeurd, (d) afrondings-werkdocumenten compleet in dossier.",
-            "grondslag": {
-              "confidence": "geciteerd",
-              "bronnen": [
-                { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "par. 41" },
-                { "type": "norm", "naam": "ISA 580", "ref": "" }
-              ]
-            }
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "norm",
+                "naam": "ISA 700 (herzien)",
+                "ref": "par. 41"
+              },
+              {
+                "type": "norm",
+                "naam": "ISA 580",
+                "ref": ""
+              }
+            ]
+          }
         }
       ]
     },
@@ -143,7 +227,9 @@
         "id": "subsequent-events",
         "naam": {
           "primair": "Subsequent events (gebeurtenissen na einddatum verslagperiode)",
-          "vertaling": { "en": "subsequent events" }
+          "vertaling": {
+            "en": "subsequent events"
+          }
         },
         "concept_type": "procedure",
         "inhoud": {
@@ -153,8 +239,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 560", "ref": "Doelstellingen + Vereisten" },
-                  { "type": "advies", "naam": "CBN-advies 2009/9", "ref": "IAS 10 Gebeurtenissen na balansdatum" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 560",
+                    "ref": "Doelstellingen + Vereisten"
+                  },
+                  {
+                    "type": "advies",
+                    "naam": "CBN-advies 2009/9",
+                    "ref": "IAS 10 Gebeurtenissen na balansdatum"
+                  }
                 ]
               }
             }
@@ -163,7 +257,9 @@
       },
       {
         "id": "misstatements-evaluatie",
-        "naam": { "primair": "Misstatements-evaluatie (clearing memo, ISA 450)" },
+        "naam": {
+          "primair": "Misstatements-evaluatie (clearing memo, ISA 450)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -172,7 +268,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 450", "ref": "par. 8-13" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 450",
+                    "ref": "par. 8-13"
+                  }
                 ]
               }
             }
@@ -181,7 +281,9 @@
       },
       {
         "id": "overall-analytical-review",
-        "naam": { "primair": "Overall analytical review" },
+        "naam": {
+          "primair": "Overall analytical review"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -190,8 +292,16 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 520", "ref": "Cijferanalyses bij afronding" },
-                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 520",
+                    "ref": "Cijferanalyses bij afronding"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
                 ]
               }
             }
@@ -200,7 +310,9 @@
       },
       {
         "id": "going-concern-evaluatie",
-        "naam": { "primair": "Going-concern-evaluatie (ISA 570 herzien)" },
+        "naam": {
+          "primair": "Going-concern-evaluatie (ISA 570 herzien)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -209,8 +321,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 570 (herzien)", "ref": "Vereisten + par. 22" },
-                  { "type": "advies", "naam": "CBN-advies 2018/18", "ref": "Jaarlijkse beoordeling continuïteitsveronderstelling" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 570 (herzien)",
+                    "ref": "Vereisten + par. 22"
+                  },
+                  {
+                    "type": "advies",
+                    "naam": "CBN-advies 2018/18",
+                    "ref": "Jaarlijkse beoordeling continuïteitsveronderstelling"
+                  }
                 ]
               }
             }
@@ -219,7 +339,9 @@
       },
       {
         "id": "communicatie-governance",
-        "naam": { "primair": "Communicatie met de met governance belaste personen (ISA 260)" },
+        "naam": {
+          "primair": "Communicatie met de met governance belaste personen (ISA 260)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -228,7 +350,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 260 (herzien)", "ref": "Vereisten" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 260 (herzien)",
+                    "ref": "Vereisten"
+                  }
                 ]
               }
             }
@@ -237,7 +363,9 @@
       },
       {
         "id": "management-letter",
-        "naam": { "primair": "Management letter — interne-controle-deficiënties (ISA 265)" },
+        "naam": {
+          "primair": "Management letter — interne-controle-deficiënties (ISA 265)"
+        },
         "concept_type": "instrument",
         "inhoud": {
           "kern": {
@@ -246,7 +374,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 265", "ref": "Vereisten + Toepassingsgerichte teksten" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 265",
+                    "ref": "Vereisten + Toepassingsgerichte teksten"
+                  }
                 ]
               }
             }
@@ -257,7 +389,9 @@
     "bouwstenen": [
       {
         "id": "datering-verklaring",
-        "naam": { "primair": "Datering van de controleverklaring" },
+        "naam": {
+          "primair": "Datering van de controleverklaring"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -265,8 +399,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "par. 41" },
-                { "type": "norm", "naam": "ISA 560", "ref": "par. 10-13" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 700 (herzien)",
+                  "ref": "par. 41"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ISA 560",
+                  "ref": "par. 10-13"
+                }
               ]
             }
           }
@@ -274,7 +416,9 @@
       },
       {
         "id": "andere-informatie",
-        "naam": { "primair": "Andere informatie naast de jaarrekening (ISA 720 herzien)" },
+        "naam": {
+          "primair": "Andere informatie naast de jaarrekening (ISA 720 herzien)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -282,7 +426,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 720 (herzien)", "ref": "Definities + Vereisten" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 720 (herzien)",
+                  "ref": "Definities + Vereisten"
+                }
               ]
             }
           }
@@ -290,7 +438,9 @@
       },
       {
         "id": "engagement-quality-review",
-        "naam": { "primair": "Engagement Quality Review (EQR)" },
+        "naam": {
+          "primair": "Engagement Quality Review (EQR)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -298,7 +448,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 220 (herzien)", "ref": "Engagement Quality Review" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 220 (herzien)",
+                  "ref": "Engagement Quality Review"
+                }
               ]
             }
           }
@@ -313,7 +467,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 560", "ref": "Vereisten par. 6-9" }
+            {
+              "type": "norm",
+              "naam": "ISA 560",
+              "ref": "Vereisten par. 6-9"
+            }
           ]
         }
       },
@@ -324,7 +482,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 570 (herzien)", "ref": "Vereisten par. 16-23" }
+            {
+              "type": "norm",
+              "naam": "ISA 570 (herzien)",
+              "ref": "Vereisten par. 16-23"
+            }
           ]
         }
       },
@@ -335,7 +497,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 450", "ref": "par. 11" }
+            {
+              "type": "norm",
+              "naam": "ISA 450",
+              "ref": "par. 11"
+            }
           ]
         }
       }
@@ -346,12 +512,30 @@
         "intro": "Typische afrondings-activiteiten in chronologische volgorde (voor jaarafsluiting 31/12).",
         "inhoud": {
           "mijlpalen": [
-            { "moment": "Eind feb / begin mrt jaar T+1", "actie": "Definitieve jaarrekening beschikbaar · subsequent events review start" },
-            { "moment": "Maart", "actie": "Overall analytical review · misstatements-evaluatie · going-concern-toetsing" },
-            { "moment": "Maart-april", "actie": "Communicatie naar governance (memo significante bevindingen) · management letter opgesteld" },
-            { "moment": "Vóór datum verklaring", "actie": "Engagement quality review (indien PIE) · LOR ontvangen ondertekend" },
-            { "moment": "Datum verklaring", "actie": "Bestuur goedkeurt jaarrekening · auditor dateert en ondertekent verklaring" },
-            { "moment": "Daarna", "actie": "Subsequent events alert tot uitgifte aan derden (ISA 560 par. 10-13)" }
+            {
+              "moment": "Eind feb / begin mrt jaar T+1",
+              "actie": "Definitieve jaarrekening beschikbaar · subsequent events review start"
+            },
+            {
+              "moment": "Maart",
+              "actie": "Overall analytical review · misstatements-evaluatie · going-concern-toetsing"
+            },
+            {
+              "moment": "Maart-april",
+              "actie": "Communicatie naar governance (memo significante bevindingen) · management letter opgesteld"
+            },
+            {
+              "moment": "Vóór datum verklaring",
+              "actie": "Engagement quality review (indien PIE) · LOR ontvangen ondertekend"
+            },
+            {
+              "moment": "Datum verklaring",
+              "actie": "Bestuur goedkeurt jaarrekening · auditor dateert en ondertekent verklaring"
+            },
+            {
+              "moment": "Daarna",
+              "actie": "Subsequent events alert tot uitgifte aan derden (ISA 560 par. 10-13)"
+            }
           ]
         }
       }
@@ -360,14 +544,18 @@
   "accountant_perspectieven": [
     {
       "id": "perspectief-afronder",
-      "naam": { "primair": "De accountant in de afrondingsfase" },
+      "naam": {
+        "primair": "De accountant in de afrondingsfase"
+      },
       "rollen": [
         {
           "rol": "auditor",
           "elementen": [
             {
               "id": "afronding-checklist",
-              "naam": { "primair": "Afrondings-checklist" },
+              "naam": {
+                "primair": "Afrondings-checklist"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -375,9 +563,21 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "" },
-                      { "type": "norm", "naam": "ISA 560", "ref": "" },
-                      { "type": "norm", "naam": "ISA 230", "ref": "par. 14-16" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 700 (herzien)",
+                        "ref": ""
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 560",
+                        "ref": ""
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 230",
+                        "ref": "par. 14-16"
+                      }
                     ]
                   }
                 }
@@ -389,10 +589,25 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "controleopdracht" },
-    { "type": "beinvloed_door", "target": "audit-bewijs" },
-    { "type": "triggert", "target": "controleverklaring" },
-    { "type": "beinvloed_door", "target": "continuiteit-going-concern" },
-    { "type": "gedocumenteerd_in", "target": "auditcomite" }
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "audit-bewijs"
+    },
+    {
+      "type": "triggert",
+      "target": "controleverklaring"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "continuiteit"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "auditcomite"
+    }
   ]
 }

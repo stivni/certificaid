@@ -95,7 +95,7 @@
         {
           "topic": "Groottecategorie-cascade (drempels → schema + controle)",
           "richting": "moet-verwijzen",
-          "ref": "groottecategorie-vennootschap"
+          "ref": "vennootschap-groottecategorieen"
         },
         {
           "topic": "Jaarrekeninganalyse (ratio's + diagnose)",
@@ -804,9 +804,27 @@
               "Overschreden?"
             ],
             "rijen": [
-              ["Jaargemiddelde werknemers", "50", "10", "5", "Nee"],
-              ["Jaaromzet excl. btw", "€11.250.000", "€900.000", "€500.000", "Nee"],
-              ["Balanstotaal", "€6.000.000", "€450.000", "€380.000", "Nee"]
+              [
+                "Jaargemiddelde werknemers",
+                "50",
+                "10",
+                "5",
+                "Nee"
+              ],
+              [
+                "Jaaromzet excl. btw",
+                "€11.250.000",
+                "€900.000",
+                "€500.000",
+                "Nee"
+              ],
+              [
+                "Balanstotaal",
+                "€6.000.000",
+                "€450.000",
+                "€380.000",
+                "Nee"
+              ]
             ],
             "conclusie": "0 drempels overschreden voor klein én micro → micro-vennootschap → mag microschema (bijlage 7 KB) toepassen, OF verkort schema (bijlage 5-6 KB) als TopSlot dat wenst. Geen commissaris-verplichting."
           },
@@ -851,11 +869,26 @@
             "type": "tijdslijn",
             "titel": "Termijn-cascade",
             "stappen": [
-              {"datum": "31-12-2025", "gebeurtenis": "Afsluiting boekjaar"},
-              {"datum": "Vóór 30-06-2026", "gebeurtenis": "Uiterste datum AV voor goedkeuring (= 6 maanden na afsluitdatum, art. 3:1 WVV)"},
-              {"datum": "15-05-2026", "gebeurtenis": "AV keurt JR goed (binnen termijn)"},
-              {"datum": "Vóór 14-06-2026", "gebeurtenis": "Uiterste datum NBB-neerlegging (= 30 dagen na goedkeuring, art. 3:10 WVV)"},
-              {"datum": "Vóór 31-07-2026", "gebeurtenis": "Absolute uiterste datum (= 7 maanden na afsluitdatum, art. 3:10 WVV) — dit is een tweede limiet die ook geldt"}
+              {
+                "datum": "31-12-2025",
+                "gebeurtenis": "Afsluiting boekjaar"
+              },
+              {
+                "datum": "Vóór 30-06-2026",
+                "gebeurtenis": "Uiterste datum AV voor goedkeuring (= 6 maanden na afsluitdatum, art. 3:1 WVV)"
+              },
+              {
+                "datum": "15-05-2026",
+                "gebeurtenis": "AV keurt JR goed (binnen termijn)"
+              },
+              {
+                "datum": "Vóór 14-06-2026",
+                "gebeurtenis": "Uiterste datum NBB-neerlegging (= 30 dagen na goedkeuring, art. 3:10 WVV)"
+              },
+              {
+                "datum": "Vóór 31-07-2026",
+                "gebeurtenis": "Absolute uiterste datum (= 7 maanden na afsluitdatum, art. 3:10 WVV) — dit is een tweede limiet die ook geldt"
+              }
             ]
           },
           {
@@ -883,11 +916,31 @@
           {
             "type": "tabel",
             "titel": "Groottecategorie + cascade NV MidCorp",
-            "kolommen": ["Criterium", "Drempel klein", "MidCorp", "Overschreden?"],
+            "kolommen": [
+              "Criterium",
+              "Drempel klein",
+              "MidCorp",
+              "Overschreden?"
+            ],
             "rijen": [
-              ["Werknemers (VTE)", "50", "75", "Ja"],
-              ["Jaaromzet excl. btw", "€11.250.000", "€15.000.000", "Ja"],
-              ["Balanstotaal", "€6.000.000", "€8.500.000", "Ja"]
+              [
+                "Werknemers (VTE)",
+                "50",
+                "75",
+                "Ja"
+              ],
+              [
+                "Jaaromzet excl. btw",
+                "€11.250.000",
+                "€15.000.000",
+                "Ja"
+              ],
+              [
+                "Balanstotaal",
+                "€6.000.000",
+                "€8.500.000",
+                "Ja"
+              ]
             ],
             "conclusie": "3 drempels overschreden gedurende 2 opeenvolgende boekjaren → groot → (1) volledig schema verplicht (bijlagen 2-3 KB); (2) jaarverslag bestuursorgaan verplicht (art. 3:6 WVV); (3) sociale balans volledig schema; (4) commissaris verplicht (art. 3:70 WVV) — benoeming voor 3 jaar (art. 3:58 WVV)."
           },
@@ -1061,7 +1114,9 @@
           "elementen": [
             {
               "id": "jaarafsluit-cyclus",
-              "naam": {"primair": "Jaarafsluit-cyclus uitvoeren"},
+              "naam": {
+                "primair": "Jaarafsluit-cyclus uitvoeren"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1088,7 +1143,9 @@
             },
             {
               "id": "balanspresentatie-correct-schema",
-              "naam": {"primair": "Balanspresentatie volgens correct schema"},
+              "naam": {
+                "primair": "Balanspresentatie volgens correct schema"
+              },
               "bouwsteen_type": "regel",
               "kern": {
                 "definitie": {
@@ -1114,7 +1171,9 @@
           "elementen": [
             {
               "id": "controleverklaring-jaarrekening",
-              "naam": {"primair": "Wettelijke controleverklaring (commissarisrol)"},
+              "naam": {
+                "primair": "Wettelijke controleverklaring (commissarisrol)"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1140,7 +1199,9 @@
           "elementen": [
             {
               "id": "aansluit-werk-fiscale-aangiften",
-              "naam": {"primair": "Aansluiting boekhoudkundig resultaat → VenB-aangifte"},
+              "naam": {
+                "primair": "Aansluiting boekhoudkundig resultaat → VenB-aangifte"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1166,7 +1227,9 @@
           "elementen": [
             {
               "id": "schema-keuze-advies",
-              "naam": {"primair": "Schema-keuze begeleiden"},
+              "naam": {
+                "primair": "Schema-keuze begeleiden"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -1187,7 +1250,9 @@
             },
             {
               "id": "waarderingsregels-advies",
-              "naam": {"primair": "Waarderingsregels-keuze adviseren"},
+              "naam": {
+                "primair": "Waarderingsregels-keuze adviseren"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -1213,7 +1278,9 @@
           "elementen": [
             {
               "id": "kmo-stagiair-begeleiding",
-              "naam": {"primair": "KMO-stagiair-begeleiding bij jaarrekening-opmaak"},
+              "naam": {
+                "primair": "KMO-stagiair-begeleiding bij jaarrekening-opmaak"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1248,7 +1315,9 @@
           "elementen": [
             {
               "id": "interne-boekhouding-aanleveren",
-              "naam": {"primair": "Aanleveren van een correcte boekhouding voor afsluit"},
+              "naam": {
+                "primair": "Aanleveren van een correcte boekhouding voor afsluit"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1274,7 +1343,9 @@
           "elementen": [
             {
               "id": "av-procedure-organiseren",
-              "naam": {"primair": "AV-procedure organiseren binnen wettelijke termijnen"},
+              "naam": {
+                "primair": "AV-procedure organiseren binnen wettelijke termijnen"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -1365,7 +1436,7 @@
     },
     {
       "type": "beinvloed_door",
-      "target": "groottecategorie-vennootschap",
+      "target": "vennootschap-groottecategorieen",
       "grondslag": {
         "confidence": "geciteerd",
         "bronnen": [

@@ -260,7 +260,7 @@ _`vuistregel`_
 ## Verder lezen (scope-out)
 
 - ↪ Specifieke waarderingsregels per balanspost → [[jaarrekening]] _(mag-verwijzen)_
-- → Resultaatverwerking + dividend (uitkering aan aandeelhouders) → ⏳ uitkering-aan-aandeelhouders _(moet-verwijzen)_
+- → Resultaatverwerking + dividend (uitkering aan aandeelhouders) → [[winstuitkering]] _(moet-verwijzen)_
 - → Audit-procedures bij jaarafsluit (commissaris) → ⏳ controle-opdracht _(moet-verwijzen)_
 - → Boekhoudbeginselen die de correcties sturen → [[boekhoudbeginselen]] _(moet-verwijzen)_
 
@@ -271,6 +271,6 @@ _`vuistregel`_
 - [[boekhoudbeginselen]] — De inhoudelijke correcties (afschrijvingen, voorzichtigheid, matching, going concern) volgen rechtstreeks uit de beginselen.
 ### `triggert`
 - [[jaarrekening]] — Eindejaarsverrichtingen culmineren in de opmaak van de jaarrekening (balans + RR + toelichting).
-- ⏳ uitkering-aan-aandeelhouders — De resultaatverwerking (stap 4) bevat het dividend-voorstel; de effectieve uitkering valt onder een aparte WVV-procedure (uitkering-aan-aandeelhouders).
+- [[winstuitkering]] — De resultaatverwerking (stap 4) bevat het dividend-voorstel; de effectieve uitkering valt onder een aparte WVV-procedure (uitkering-aan-aandeelhouders).
 ### `gecontroleerd_door`
 - ⏳ controle-opdracht — Bij middelgrote + grote vennootschappen toetst de commissaris de eindejaarsverrichtingen en de daaruit voortvloeiende jaarrekening (ISA-normenkader).

@@ -31,9 +31,21 @@
         "Moedermaatschappij-definitie"
       ],
       "out": [
-        { "topic": "Controle-test (basis voor wie-in-kring)", "richting": "moet-verwijzen", "ref": "controle-bij-consolidatie" },
-        { "topic": "Consolidatiekring (wie zit erin operationeel)", "richting": "moet-verwijzen", "ref": "consolidatiekring" },
-        { "topic": "Groottecategorie-vennootschap (drempels groot/klein)", "richting": "mag-verwijzen", "ref": "groottecategorie-vennootschap" }
+        {
+          "topic": "Controle-test (basis voor wie-in-kring)",
+          "richting": "moet-verwijzen",
+          "ref": "controle-bij-consolidatie"
+        },
+        {
+          "topic": "Consolidatiekring (wie zit erin operationeel)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiekring"
+        },
+        {
+          "topic": "Groottecategorie-vennootschap (drempels groot/klein)",
+          "richting": "mag-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        }
       ]
     },
     "provenance": {
@@ -57,8 +69,20 @@
       "rerank_calls": 0
     },
     "changelog": [
-      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
-      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:10:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — wanneer moet een geconsolideerde jaarrekening opgesteld worden." }
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:10:00Z",
+        "model": "claude-sonnet-4-5",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Pass 1 content gevuld — wanneer moet een geconsolideerde jaarrekening opgesteld worden."
+      }
     ]
   },
   "inhoud": {
@@ -68,9 +92,22 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25", "context": "Vrijstelling kleine groep" },
-            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatieverplichting – Consoliderende vennootschap" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:22"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:25",
+              "context": "Vrijstelling kleine groep"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2022/09",
+              "ref": "Consolidatieverplichting – Consoliderende vennootschap"
+            }
           ]
         }
       },
@@ -79,8 +116,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22-3:25" },
-            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese B-GAAP vs IFRS-pad" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:22-3:25"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28",
+              "context": "Synthese B-GAAP vs IFRS-pad"
+            }
           ]
         }
       },
@@ -89,16 +135,30 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
-            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio legis groep-rapportering" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:25"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28",
+              "context": "Ratio legis groep-rapportering"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["controle-bij-consolidatie"],
+      "voorvereisten": [
+        "controle-bij-consolidatie"
+      ],
       "kader": "geconsolideerde-jaarrekening",
-      "volgkennis": ["consolidatiekring", "consolidatiemethoden"]
+      "volgkennis": [
+        "consolidatiekring",
+        "consolidatiemethoden"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -112,8 +172,17 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:24, tweede lid", "context": "Consortium" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:22"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:24, tweede lid",
+                "context": "Consortium"
+              }
             ]
           }
         }
@@ -124,8 +193,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
-              { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatieverplichting – Consoliderende vennootschap" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:22"
+              },
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2022/09",
+                "ref": "Consolidatieverplichting – Consoliderende vennootschap"
+              }
             ]
           }
         }
@@ -136,8 +213,17 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24", "context": "Groottecriteria-berekening op geconsolideerde basis" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:25"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 1:24",
+                "context": "Groottecriteria-berekening op geconsolideerde basis"
+              }
             ]
           }
         },
@@ -146,7 +232,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:26" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:26"
+              }
             ]
           }
         }
@@ -157,8 +247,16 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
-              { "type": "cbn", "naam": "CBN-advies 2024/07", "ref": "Voorbeeld 5: beoordeling op geconsolideerde of geaggregeerde basis" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:25"
+              },
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2024/07",
+                "ref": "Voorbeeld 5: beoordeling op geconsolideerde of geaggregeerde basis"
+              }
             ]
           }
         }
@@ -167,7 +265,9 @@
     "subconcepten": [
       {
         "id": "tweesporen-test-bgaap",
-        "naam": { "primair": "B-GAAP-spoor: controle + groottedrempel" },
+        "naam": {
+          "primair": "B-GAAP-spoor: controle + groottedrempel"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -176,9 +276,21 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
-                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 6 + § 7" },
-                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Consolidatie moedervennootschap" }
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 3:25"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 1:24 § 6 + § 7"
+                  },
+                  {
+                    "type": "cbn",
+                    "naam": "CBN-advies 2022/03",
+                    "ref": "Consolidatie moedervennootschap"
+                  }
                 ]
               }
             }
@@ -187,7 +299,9 @@
       },
       {
         "id": "ifrs-spoor",
-        "naam": { "primair": "IFRS-spoor: IFRS 10 control + EU-IAS-verordening" },
+        "naam": {
+          "primair": "IFRS-spoor: IFRS 10 control + EU-IAS-verordening"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -196,8 +310,17 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "IFRS 10 — Geconsolideerde jaarrekening", "ref": "§4-7" },
-                  { "type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10", "context": "EU-endorsement IFRS" }
+                  {
+                    "type": "norm",
+                    "naam": "IFRS 10 — Geconsolideerde jaarrekening",
+                    "ref": "§4-7"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "Verordening (EU) 2023/1803",
+                    "ref": "IFRS 10",
+                    "context": "EU-endorsement IFRS"
+                  }
                 ]
               }
             }
@@ -213,8 +336,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
-            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:25"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -231,7 +362,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Voorbeeld 1" }
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2022/09",
+              "ref": "Voorbeeld 1"
+            }
           ]
         },
         "weergaven": [
@@ -250,8 +385,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 6 + § 7" },
-            { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Consolidatie moedervennootschap" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:24 § 6 + § 7"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2022/03",
+              "ref": "Consolidatie moedervennootschap"
+            }
           ]
         }
       },
@@ -262,7 +405,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:26" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:26"
+            }
           ]
         }
       },
@@ -273,8 +420,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:14"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:15"
+            }
           ]
         }
       }
@@ -283,7 +438,9 @@
   "accountant_perspectieven": [
     {
       "id": "moeder-perspectief",
-      "naam": { "primair": "Moedervennootschap" },
+      "naam": {
+        "primair": "Moedervennootschap"
+      },
       "intro": "De accountant die de moeder bijstaat bij het bepalen of consolidatie verplicht is.",
       "rollen": [
         {
@@ -291,7 +448,9 @@
           "elementen": [
             {
               "id": "jaarlijkse-toets-plicht",
-              "naam": { "primair": "Jaarlijkse toets consolidatieplicht" },
+              "naam": {
+                "primair": "Jaarlijkse toets consolidatieplicht"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -299,8 +458,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22-3:26" },
-                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Boekhouderspraktijk jaarafsluiting groep" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 3:22-3:26"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Boekhouderspraktijk jaarafsluiting groep"
+                      }
                     ]
                   }
                 }
@@ -313,7 +481,9 @@
           "elementen": [
             {
               "id": "controle-volledigheid-plicht",
-              "naam": { "primair": "Audit volledigheid consolidatieplicht" },
+              "naam": {
+                "primair": "Audit volledigheid consolidatieplicht"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -321,8 +491,16 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 600 — Audits of Group Financial Statements", "ref": "§21-23" },
-                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 600 — Audits of Group Financial Statements",
+                        "ref": "§21-23"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -335,7 +513,9 @@
           "elementen": [
             {
               "id": "advies-groeiende-groep",
-              "naam": { "primair": "Advies bij groei langs drempel" },
+              "naam": {
+                "primair": "Advies bij groei langs drempel"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -343,7 +523,12 @@
                   "grondslag": {
                     "confidence": "verondersteld",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk groeiende familiale groepen" }
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Adviespraktijk groeiende familiale groepen"
+                      }
                     ]
                   }
                 }
@@ -355,8 +540,17 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
-    { "type": "vereist", "target": "controle-bij-consolidatie" },
-    { "type": "triggert", "target": "consolidatiekring" }
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    },
+    {
+      "type": "vereist",
+      "target": "controle-bij-consolidatie"
+    },
+    {
+      "type": "triggert",
+      "target": "consolidatiekring"
+    }
   ]
 }

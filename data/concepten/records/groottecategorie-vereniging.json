@@ -33,7 +33,7 @@
         {
           "topic": "Vennootschap-groottecategorie",
           "richting": "mag-verwijzen",
-          "ref": "groottecategorie-vennootschap"
+          "ref": "vennootschap-groottecategorieen"
         }
       ]
     },
@@ -286,7 +286,7 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "groottecategorie-vennootschap",
+      "target": "vennootschap-groottecategorieen",
       "gelijkenissen": [
         "Cascade-mechaniek (drempels overschrijden bepaalt categorie)",
         "Drempels micro en klein zijn geharmoniseerd met vennootschapsdrempels sinds WVV"

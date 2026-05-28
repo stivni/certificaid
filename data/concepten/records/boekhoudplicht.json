@@ -36,7 +36,7 @@
         {
           "topic": "Groottecategorie-vennootschap (drempels)",
           "richting": "moet-verwijzen",
-          "ref": "groottecategorie-vennootschap"
+          "ref": "vennootschap-groottecategorieen"
         },
         {
           "topic": "Groottecategorie-vereniging",
