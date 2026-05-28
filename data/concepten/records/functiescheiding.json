@@ -4,17 +4,19 @@
     "primair": "Functiescheiding",
     "synoniemen": [
       "segregation of duties",
-      "SoD",
       "separation of duties",
       "functie-onverenigbaarheid",
       "rolscheiding",
       "taakverdeling"
-    ]
+    ],
+    "vertaling": {
+      "fr": "séparation des fonctions"
+    }
   },
   "concept_type": "principe",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -25,16 +27,16 @@
     ],
     "scope": {
       "in": [
-        "Organisatorisch principe: onverenigbare functies door verschillende personen om fraude + fouten te beperken",
-        "4 functies (ACR-IH-leer): Autoriseren · Uitvoeren · Registreren · Bewaren",
-        "Eén persoon mag max 2 niet-aangrenzende functies hebben",
-        "Toepassingen: aankoopcyclus (besteller≠ontvanger≠betaler) · HR (administratie≠uitbetaling) · kassa (registratie≠controle)",
-        "IT-functiescheiding (1.7.X.C): RBAC = Role-Based Access Control",
-        "Voorkomt dat één gebruiker complete transactie kan afwerken zonder externe controle"
+        "Organisatorisch principe: onverenigbare functies door verschillende personen om fraude en fouten te beperken",
+        "Vier functies (ACR-IH-leer): Autoriseren, Uitvoeren, Registreren, Bewaren",
+        "Een persoon mag maximaal twee niet-aangrenzende functies hebben",
+        "Toepassingen: aankoopcyclus (besteller <> ontvanger <> betaler), HR (administratie <> uitbetaling), kassa (registratie <> controle)",
+        "Informatica-functiescheiding (1.7.X.C): Role-Based Access Control (RBAC)",
+        "Voorkomt dat een gebruiker een complete transactie kan afwerken zonder externe controle"
       ],
       "out": [
         {
-          "topic": "IC-kader (parent)",
+          "topic": "Interne controle als parent-kader",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
         },
@@ -44,26 +46,35 @@
           "ref": "ontwerp-interne-controle"
         },
         {
-          "topic": "Concrete toepassing per cyclus (shared)",
+          "topic": "Concrete toepassing per cyclus",
           "richting": "moet-verwijzen",
           "ref": "cyclus-analyse"
         },
         {
-          "topic": "RBAC-detail in IT-controles",
+          "topic": "Role-Based Access Control detail",
           "richting": "moet-verwijzen",
           "ref": "it-controles"
         },
         {
-          "topic": "Sleutelcontrole testen (audit)",
+          "topic": "Sleutelcontrole testen door auditor",
           "richting": "mag-verwijzen",
           "ref": "audit-bewijs"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/functiescheiding.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ISA 240",
+        "AWW 2017 art. 9 (handleiding interne procedures)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -71,27 +82,365 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit ISA 315 Bijlage 3 (functiescheiding-definitie), AWW-handleiding (kantoor-functiescheiding) en ITAA-praktijkleer ACR-IH."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Functiescheiding is het organisatorisch principe dat onverenigbare functies aan verschillende personen worden toegewezen, zodat geen enkele persoon alleen een volledige transactie kan initieren, uitvoeren, registreren en bewaren. Het doel is volgens ISA 315 (herzien-2019) Bijlage 3 om beperkingen aan te brengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken fouten te maken en te verhullen of fraude te plegen en te verhullen. Klassiek voorbeeld: een manager die kredietverkopen autoriseert is niet verantwoordelijk voor het bijhouden van de vorderingenadministratie.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3 - Functiescheiding" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de Belgische beroepspraktijk gebruikt men de zogenaamde ACR-IH-leer (Autoriseren, Uitvoeren, Registreren, Bewaren) - in het Engels ook Authorization, Custody, Record-keeping - waarbij de vuistregel is dat een persoon nooit meer dan twee niet-aangrenzende van deze vier functies mag combineren. Wie bijvoorbeeld een betaling autoriseert mag niet ook de boeking ervan registreren noch de bankrekening beheren. In de praktijk zit functiescheiding ingebed in autorisatie-instellingen in het ERP, in handtekenmandaten bij de bank en in de organisatie-structuur van de onderneming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ACR-IH-leer standaard in ITAA-opleiding en Belgische audit-handboeken" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Functiescheiding werkt op een dubbel principe: (1) preventie - het wordt fysiek moeilijker om fraude alleen uit te voeren omdat samenspanning met een collega nodig is, en collusie verhoogt het detectie-risico; (2) detectie - elke functie controleert impliciet de vorige, fouten worden eerder ontdekt. ISA 240 erkent collusie expliciet als een van de grondoorzaken die elke functiescheiding kan doorbreken - vandaar dat functiescheiding alleen onvoldoende is en altijd aangevuld moet worden met andere controles (autorisatie-limieten, monitoring, rotatie). Functiescheiding is ook expliciet voorzien voor accountantskantoren zelf in de antiwitwaswet (art. 9): twee functies per kantoor - hoogste verantwoordelijke en AMLCO.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 240", "ref": "Toepassingsgerichte teksten A1 - kenmerken van fraude inclusief collusie" },
+            { "type": "norm", "naam": "ITAA-Handleiding-interne-procedures-AWW-2019", "ref": "Art. 9 - twee functies per kantoor" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "interne-controle"
+      ],
+      "naast_relevant": [
+        "it-controles",
+        "ontwerp-interne-controle"
+      ],
+      "volgkennis": [
+        "cyclus-analyse",
+        "evaluatie-interne-controle"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Universeel principe, verankerd in ISA 315 Bijlage 3, in alle audit-handboeken, en wettelijk voor kantoren in antiwitwaswet 2017 art. 9."
+      },
+      "voor": [
+        {
+          "tekst": "Bij het ontwerp van elke transactionele cyclus (aankoop, verkoop, voorraad, treasury, personeel) en bij het ontwerp van toegangsrechten in een informatica-systeem (Role-Based Access Control).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "In een kleine onderneming met een of twee werknemers is volledige functiescheiding onmogelijk. Daar geldt het compenserende-controles-principe: de eigenaar-zaakvoerder neemt persoonlijk de autorisatie- en monitoring-rol op zich; de externe accountant of boekhouder vervult een onafhankelijke detectie-rol via periodieke reviews.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 265", "ref": "par. A3-A4 - schaalbaarheid in kleinere entiteiten" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Sterke preventieve werking tegen interne fraude (vereist collusie) en tegen onopzettelijke fouten (volgende functie ontdekt). Erkende sleutelcontrole - externe auditors steunen graag op een goed werkende functiescheiding, wat de scope van gegevensgerichte werkzaamheden vermindert.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15 steunen op interne beheersingsmaatregelen" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Pseudo-functiescheiding op papier maar niet in praktijk: een medewerker heeft formeel niet de bevoegdheid maar krijgt feitelijk het paswoord van een collega om snel iets te regelen. Collusie - twee of meer personen die samen frauderen - doorbreekt elke functiescheiding. Management override - de zaakvoerder die zijn eigen procedures negeert - is een specifiek risico in kmo's.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - frauderisicofactoren collusie en management override" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vier-functies-acrib",
+        "naam": { "primair": "De vier onverenigbare functies (ACR-IH)" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "(A) Autoriseren - goedkeuring geven voor een transactie (bv. inkooporder goedkeuren, kredietverkoop autoriseren); (U) Uitvoeren - de feitelijke handeling stellen (bv. goederen bestellen, factuur betalen); (R) Registreren - de boeking in de administratie verwerken; (B) Bewaren - de fysieke of digitale activa beheren (bv. magazijnbeheer, kasbeheer, bankrekening). Een persoon mag maximaal twee niet-aangrenzende van deze vier functies cumuleren. ACR-IH staat voor de Engelse Authorization, Custody, Record-keeping waarbij in de Nederlandstalige opleiding Uitvoeren als vierde toegevoegd wordt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3 - autoriseren, registreren, bewaren" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ACR-IH-leer in Belgische audit-handboeken" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Functie", "Wat", "Voorbeeld in aankoopcyclus"],
+            "rijen": [
+              ["Autoriseren (A)", "Goedkeuring geven", "Aankoopverantwoordelijke keurt inkooporder goed"],
+              ["Uitvoeren (U)", "De handeling stellen", "Magazijnier ontvangt en controleert goederen"],
+              ["Registreren (R)", "Boeken in administratie", "Boekhouder verwerkt inkomende factuur"],
+              ["Bewaren (B)", "Activa beheren", "Treasury-verantwoordelijke voert betaling uit"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vuistregel-twee-functies",
+        "naam": { "primair": "Vuistregel: max twee niet-aangrenzende functies" },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een persoon mag maximaal twee van de vier ACR-IH-functies cumuleren, en bij voorkeur twee die niet-aangrenzend zijn in de transactie-flow. Concreet onveilige combinaties: dezelfde persoon autoriseert + bewaart de activa (autorisatie zonder check op feitelijke output), of registreert + bewaart (kan eigen toe-eigening verbergen door wegmoffelen in administratie). Veilige combinatie: autoriseren + uitvoeren door dezelfde persoon (mits andere persoon de uitkomst registreert en bewaart).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardregel uit Belgische audit-opleiding" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassing-aankoopcyclus",
+        "naam": { "primair": "Toepassing aankoopcyclus" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Klassieke functiescheiding in aankoop: aanvrager (behoefte uiten) <> goedkeurder (autorisatie) <> aankoper (bestellen) <> magazijnier (ontvangen) <> boekhouder (registreren) <> betaalverantwoordelijke (betalen). Bij een kmo worden deze rollen gegroepeerd maar de zaakvoerder houdt minstens de autorisatie- en betaalfunctie zelf. ERP-systemen zoals SAP, Microsoft Dynamics en Odoo implementeren dit via workflow-stappen waar elke stap door een andere user wordt afgevinkt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassing-it-rbac",
+        "naam": { "primair": "Informatica-functiescheiding via Role-Based Access Control" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In het informatica-domein wordt functiescheiding afgedwongen via Role-Based Access Control (RBAC): elke gebruiker krijgt een rol toegewezen (bv. inkoper, boekhouder, magazijnier) en die rol bepaalt welke schermen, transacties en bedragen hij mag gebruiken. Voor sleutelcontroles gelden twee fundamentele beginselen: (1) least privilege - elke gebruiker krijgt het minimum aan rechten dat hij voor zijn functie nodig heeft; (2) need-to-know - toegang tot gevoelige data alleen voor wie ze functioneel nodig heeft. Periodieke user-access-reviews controleren of de toegekende rechten nog passend zijn (cruciaal bij verloop, functiewissels, rolwijzigingen).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172 general IT controls" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk IT-governance, COBIT-aligned" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kantoor-functiescheiding-aww",
+        "naam": { "primair": "Functiescheiding in het ITAA-kantoor (antiwitwaswet)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De antiwitwaswet (AWW 2017) verplicht elk ITAA-kantoor twee gescheiden functies te voorzien: (1) een verantwoordelijke op het hoogste niveau (typisch een vennoot of zaakvoerder) en (2) een Anti-Money Laundering Compliance Officer (AMLCO). In kantoren met minstens tien beroepsbeoefenaars moeten deze functies door verschillende personen worden uitgeoefend - een wettelijke toepassing van het functiescheiding-beginsel op het kantoor zelf.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-Handleiding-interne-procedures-AWW-2019", "ref": "Art. 9" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "collusie-grondbeperking",
+        "naam": { "primair": "Grondbeperking: collusie" },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Functiescheiding faalt wanneer twee of meer personen samenspannen. Daarom altijd combineren met andere controles: rotatie van personeel in sleutelfuncties, verplichte vakantie (vervanger detecteert afwijkingen tijdens afwezigheid), management oversight, geautomatiseerde uitzonderingsrapporten, periodieke onafhankelijke reviews. Collusie is een van de vier inherente beperkingen van interne controle (zie record interne-controle).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 240", "ref": "A1 - kenmerken van fraude inclusief samenspanning" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-zelena-bio-aankoop",
+        "titel": "Functiescheiding aankoopcyclus bij Zelena Bio NV",
+        "context": "Zelena Bio NV (kmo, 15 werknemers) heeft een eenvoudig ERP. De zaakvoerder wil weten welke functiescheiding-controles minimum nodig zijn voor de aankoopcyclus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardadvies voor kmo-aankoopcyclus" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Stap", "Door", "ACR-IH"],
+            "rijen": [
+              ["Aanvraag", "Magazijnier", "Aanvragen (trigger, geen ACR-IH-functie)"],
+              ["Goedkeuring inkooporder boven 1.000 EUR", "Zaakvoerder", "A"],
+              ["Bestellen bij leverancier", "Aankoper", "U"],
+              ["Ontvangst goederen en telling", "Magazijnier", "U + B"],
+              ["Inboeking factuur en aansluiting met inkooporder", "Boekhouder", "R"],
+              ["Betaling vrijgeven (tweehandtekeningsregel)", "Zaakvoerder", "A + U op treasury"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Pseudo-functiescheiding via gedeelde paswoorden",
+        "verkeerde_assumptie": "Het volstaat dat de functies op papier gescheiden zijn.",
+        "kernpunt": "Functiescheiding is alleen effectief als de toegangsrechten in de IT-systemen technisch afdwingen wat de papieren procedure voorschrijft. Gedeelde paswoorden, generieke accounts (admin, supervisor) of de gewoonte om elkaars sessie open te laten staan, vernietigen alle papieren scheiding. User-access-reviews en authenticatie-logs zijn daarom essentieel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172 general IT controls" }
+          ]
+        }
+      },
+      {
+        "titel": "Functiescheiding eisen in een te kleine entiteit",
+        "verkeerde_assumptie": "Een kmo met drie werknemers moet ook volledige ACR-IH toepassen.",
+        "kernpunt": "Volledige functiescheiding is in een micro-onderneming feitelijk onmogelijk. De juiste vraag is dan welke compenserende controles aanwezig zijn: zaakvoerder-betrokkenheid bij autorisatie, externe accountant als onafhankelijke detectie-laag, jaarlijkse fysieke tellingen. Documenteer in het auditdossier waarom volledige functiescheiding ontbreekt en wat compenseert.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 265", "ref": "par. A3-A4 schaalbaarheid" }
+          ]
+        }
+      },
+      {
+        "titel": "Functiescheiding als magic bullet zien",
+        "verkeerde_assumptie": "Met goede functiescheiding kan er geen fraude meer zijn.",
+        "kernpunt": "Functiescheiding sluit collusie en management override niet uit. Het verlaagt het risico maar verwijdert het nooit volledig. Daarom altijd combineren met monitoring, verplichte vakantie, periodieke rotatie en management oversight. Functiescheiding is een sleutelcontrole, geen enige controle.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "auditor-test-functiescheiding",
+      "naam": {
+        "primair": "Externe auditor toetst functiescheiding bij cliente"
+      },
+      "intro": "De auditor die functiescheiding wil identificeren als sleutelcontrole en operating effectiveness wil toetsen.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "rbac-extract",
+              "naam": { "primair": "RBAC-extract opvragen uit ERP" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vraag aan de IT-afdeling een extract van de toegekende rollen per user in het ERP-systeem. Analyseer op SoD-conflicten: same-user-met-tegenstrijdige-rollen, niet-verwijderde inactieve users, generieke accounts. Tools zoals SAP GRC of ACL/IDEA detecteren SoD-conflicten automatisch.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172 general IT controls" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "walkthrough-fysiek",
+              "naam": { "primair": "Walk-through fysieke functiescheiding" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Volg een complete transactie van begin tot einde (aankoop, betaling, levering, boeking) en noteer wie elke stap effectief uitvoert. Vergelijk met de papieren procedure en de rolbeschrijvingen. Een gap tussen papier en praktijk is een design-deficiency die in het management letter moet (ISA 265).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. 8 walk-through bij toetsing IC" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adviseur-kantoor-amlco",
+      "naam": {
+        "primair": "Eigen kantoor: AMLCO-functie inrichten"
+      },
+      "intro": "De ITAA-beroepsbeoefenaar die zijn eigen kantoor conform antiwitwaswet moet inrichten.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "amlco-aanduiding",
+              "naam": { "primair": "AMLCO aanduiden (tweede functie)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per kantoor twee functies aanduiden: (1) verantwoordelijke op het hoogste niveau - meestal een vennoot of zaakvoerder; (2) Anti-Money Laundering Compliance Officer - belast met de antiwitwas-procedures, kan een andere persoon of dezelfde zijn in kantoren met minder dan tien beroepsbeoefenaars. Vanaf tien beroepsbeoefenaars verplicht twee verschillende personen. Documenteer aanstelling in het kantoor-procedure-handboek en meld aan ITAA waar vereist.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-Handleiding-interne-procedures-AWW-2019", "ref": "Art. 9" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -99,7 +448,8 @@
     },
     {
       "type": "vereist",
-      "target": "it-controles"
+      "target": "it-controles",
+      "toelichting": "Functiescheiding wordt operationeel afgedwongen via Role-Based Access Control in informatica-systemen."
     }
   ]
 }
