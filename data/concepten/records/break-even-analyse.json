@@ -2,22 +2,16 @@
   "id": "break-even-analyse",
   "naam": {
     "primair": "Break-even-analyse",
-    "synoniemen": [
-      "break-even-point",
-      "BEP",
-      "kostenstructuur-analyse"
-    ]
+    "afkorting": "BEP",
+    "synoniemen": ["break-even-point", "kostenstructuur-analyse", "cost-volume-profit-analyse", "CVP-analyse"],
+    "vertaling": {"fr": "analyse du point mort"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.8.III.D"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.8.III.D"],
     "scope": {
       "in": [
         "Contributiemarge = omzet - variabele kosten",
@@ -26,100 +20,192 @@
         "Sensitiviteit voor prijs- en kostenwijzigingen"
       ],
       "out": [
-        {
-          "topic": "Direct costing (contributiemarge-context)",
-          "richting": "moet-verwijzen",
-          "ref": "direct-costing"
-        },
-        {
-          "topic": "Kostprijsmethoden Σ",
-          "richting": "mag-verwijzen",
-          "ref": "kostprijsmethoden"
-        }
+        {"topic": "Direct costing (contributiemarge-context)", "richting": "moet-verwijzen", "ref": "direct-costing"},
+        {"topic": "Kostprijsmethoden Σ", "richting": "mag-verwijzen", "ref": "kostprijsmethoden"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/break-even-analyse.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer (CVP-analyse)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
-        }
+        "tekst": "De break-even-analyse (ook cost-volume-profit-analyse of CVP-analyse) berekent het verkoopvolume waarbij de totale opbrengsten gelijk zijn aan de totale kosten — het break-even-punt (BEP). Onder het BEP draait de onderneming verlies; erboven winst. Het BEP-volume = vaste kosten / contributiemarge per eenheid. Het BEP-omzet = vaste kosten / contributiemarge-ratio. Daarnaast levert de analyse twee bijhorende inzichten: de veiligheidsmarge (afstand tussen huidige omzet en BEP-omzet, in procenten — hoe ver weg van verlies?) en de operationele hefboom (effect van een omzet-wijziging op het bedrijfsresultaat).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard CVP-leer"}]}
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair: break-even-analyse maakt de winstgevoeligheid van een onderneming tastbaar. Een onderneming met hoge vaste kosten en lage contributiemarge per eenheid (kapitaalintensieve industrie: chemie, staal) heeft een hoog BEP — een omzet-daling van 10% kan haar in verlies brengen. Een onderneming met lage vaste kosten en hoge contributiemarge (dienstverlening, software) heeft een laag BEP — ze is veerkrachtig in moeilijke periodes. De analyse leert ook: lage prijzen verlagen de contributiemarge en duwen het BEP omhoog; hogere vaste kosten (nieuwe investering) doen hetzelfde. Een prijswijziging van 5% beweegt het BEP veel sterker dan een vaste-kostenwijziging van 5% — prijsdiscipline is essentieel.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "De analyse vertrekt vanuit één eenvoudige identiteit: winst = (verkoopprijs − variabele kost) × volume − vaste kosten. Bij winst = 0 vind je het BEP-volume. Het inzicht is dat winst pas ontstaat wanneer de cumulatieve contributiemarge (van alle verkochte eenheden) de vaste kosten heeft 'opgevuld'. Elk extra verkocht stuk daarboven is volledig contributie-bijdrage aan winst — een fenomeen dat de operationele hefboom verklaart.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
       }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["direct-costing", "analytische-boekhouding"],
+      "kader": "analytische-boekhouding"
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Beslissingen over prijszetting · investeringen die vaste kosten doen stijgen · sensitiviteitsanalyse bij omzet-prognoses · communicatie aan kredietverleners (operationeel risicoprofiel) · go/no-go nieuwe productlijn of locatie.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Multi-product-ondernemingen zonder duidelijke product-mix-veronderstelling — een gewogen-gemiddelde contributiemarge is nodig en het BEP wordt mix-afhankelijk. Bovendien veronderstelt BEP-analyse lineariteit (constante prijs, constante variabele kost per eenheid, constante vaste kost) — buiten het relevant range breekt dat (volumekortingen, opschaling productiecapaciteit).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
     },
     "bouwstenen": [
       {
-        "id": "bep-formule",
-        "naam": {
-          "primair": "Break-even-punt-formule"
-        },
+        "id": "formule-bep",
+        "naam": {"primair": "Formule BEP — kern"},
         "bouwsteen_type": "formule",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
+            "tekst": "Break-even-volume (in eenheden) = Vaste kosten / Contributiemarge per eenheid. Break-even-omzet (in EUR) = Vaste kosten / Contributiemarge-ratio. Met doelwinst W: doelvolume = (Vaste kosten + W) / Contributiemarge per eenheid. Veiligheidsmarge (in %) = (Huidige omzet − BEP-omzet) / Huidige omzet — meet hoeveel omzet kan dalen voordat verlies ontstaat.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
           }
-        }
+        },
+        "weergaven": [
+          {"type": "formule_expressie", "uitdrukking": "BEP-volume = Vaste kosten / (Prijs − Variabele kost per eenheid)"},
+          {"type": "formule_expressie", "uitdrukking": "BEP-omzet = Vaste kosten / Contributiemarge-ratio"},
+          {"type": "formule_expressie", "uitdrukking": "Doelvolume met winst W = (Vaste kosten + W) / Contributiemarge per eenheid"},
+          {"type": "formule_expressie", "uitdrukking": "Veiligheidsmarge = (Werkelijke omzet − BEP-omzet) / Werkelijke omzet"}
+        ]
       },
       {
-        "id": "veiligheidsmarge-formule",
-        "naam": {
-          "primair": "Veiligheidsmarge-formule"
-        },
-        "bouwsteen_type": "formule",
+        "id": "operationele-hefboom",
+        "naam": {"primair": "Operationele hefboom (operating leverage)"},
+        "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
+            "tekst": "De operationele hefboom = Contributiemarge totaal / Bedrijfsresultaat. Hij geeft aan hoeveel procent het bedrijfsresultaat verandert bij 1% omzet-verandering. Voorbeeld: hefboom 5 = een omzetstijging van 10% geeft een resultaatstijging van 50%; een omzetdaling van 10% geeft een resultaatdaling van 50%. Hoge hefboom (hoge vaste kosten, hoge CM) = hoog rendement bij groei, hoog risico bij krimp. Lage hefboom = stabiel maar minder explosief.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        },
+        "weergaven": [
+          {"type": "formule_expressie", "uitdrukking": "Operationele hefboom = Contributiemarge totaal / Bedrijfsresultaat"}
+        ]
+      },
+      {
+        "id": "veronderstellingen",
+        "naam": {"primair": "Veronderstellingen — geldigheidsgrenzen"},
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "BEP-analyse veronderstelt: (1) constante verkoopprijs per eenheid binnen het analyse-bereik; (2) constante variabele kost per eenheid (geen volumekortingen op grondstoffen, geen leerkromme-effect); (3) constante vaste kosten binnen het relevant range (geen stapeffecten bij extra productiehal of extra ploeg); (4) bij multi-product: constante product-mix; (5) productie = verkoop (geen voorraadwijziging). Buiten deze veronderstellingen wordt het BEP onbetrouwbaar — gebruik dan piecewise-analyse per range.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bep-zelena",
+        "titel": "Zelena Bio NV — BEP + veiligheidsmarge + hefboom",
+        "context": "Zelena verkoopt tafels aan 500 EUR/stuk. Variabele kost: 250 EUR/stuk. Vaste kosten maand: 100.000 EUR. Huidige verkoop: 600 tafels/maand.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch BEP-voorbeeld"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "BEP + veiligheidsmarge + hefboom",
+            "stappen": [
+              "Contributiemarge per tafel = 500 − 250 = 250 EUR",
+              "Contributiemarge-ratio = 250 / 500 = 50%",
+              "BEP-volume = 100.000 / 250 = 400 tafels",
+              "BEP-omzet = 100.000 / 0,50 = 200.000 EUR",
+              "Huidige omzet = 600 × 500 = 300.000 EUR",
+              "Veiligheidsmarge = (300.000 − 200.000) / 300.000 = 33%",
+              "Huidige CM totaal = 600 × 250 = 150.000 EUR",
+              "Huidig bedrijfsresultaat = 150.000 − 100.000 = 50.000 EUR",
+              "Operationele hefboom = 150.000 / 50.000 = 3,0"
+            ],
+            "resultaat": "Zelena moet 400 tafels per maand verkopen om quitte te draaien. Ze heeft een veiligheidsmarge van 33% — een omzetdaling van 33% breekt break-even. Met een hefboom van 3,0 versterkt elke 1% omzet-wijziging het resultaat met 3% — een omzetdaling van 10% reduceert het resultaat van 50.000 naar 35.000 EUR (−30%)."
+          },
+          {
+            "type": "proza",
+            "tekst": "Grafische voorstelling:\n\n```mermaid\ngraph TD\n  A[Omzet stijgt lineair] --> Z[winstzone boven BEP]\n  B[Totale kosten:<br/>vaste + variabele] --> Y[verlieszone onder BEP]\n  C[BEP-volume 400 tafels<br/>BEP-omzet 200.000 EUR] --> D[Snijpunt omzet = kosten]\n```"
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-sensitiviteit",
+        "titel": "Sensitiviteit — prijsverlaging 10%",
+        "context": "Zelfde scenario: stel Zelena verlaagt de verkoopprijs van 500 naar 450 EUR (−10%). Verwachte omzet-stijging: nihil (markt-elasticiteit ≈ 0 voor deze niche).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Nieuwe CM = 450 − 250 = 200 EUR per tafel",
+              "Nieuw BEP-volume = 100.000 / 200 = 500 tafels (was 400)",
+              "Bij ongewijzigd volume (600): nieuwe omzet = 600 × 450 = 270.000; nieuwe CM totaal = 600 × 200 = 120.000; nieuw resultaat = 120.000 − 100.000 = 20.000 EUR (was 50.000)",
+              "Effect: resultaat daalt 60% bij prijsdaling van 10% (zonder volumecompensatie)"
+            ],
+            "resultaat": "Een prijsverlaging van 10% is dramatischer dan veel managers verwachten — bij ongewijzigd volume valt 60% van de winst weg. Vraag voor de directie: welk extra volume is nodig om verlies te dekken? Antwoord: nieuw doelvolume bij 50.000 EUR resultaat = (100.000 + 50.000) / 200 = 750 tafels — een volume-stijging van 25% is nodig om dezelfde winst te halen na de prijsdaling."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BEP-analyse extrapoleren buiten het relevant range",
+        "verkeerde_assumptie": "Het BEP-volume blijft constant zolang we de formule maar gebruiken.",
+        "kernpunt": "BEP-analyse veronderstelt lineariteit binnen een bepaald bereik. Bij grote omzet-uitbreiding worden nieuwe machines + ploegen nodig — de vaste kost springt omhoog. Dan is het 'oude' BEP irrelevant; de analyse moet opnieuw per kostenstap.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Multi-product BEP behandelen alsof het één product is",
+        "verkeerde_assumptie": "Bij meerdere producten kan je de gewogen CM gewoon gebruiken voor BEP.",
+        "kernpunt": "Bij meerdere producten is het BEP-volume afhankelijk van de product-mix. Een gewogen-gemiddelde CM geeft alleen een BEP indien de mix constant blijft. Bij verschuiving naar meer high-margin-producten daalt het BEP; bij verschuiving naar low-margin stijgt het. Communiceer expliciet 'BEP bij huidige mix' en analyseer mix-scenario's apart.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "BEP-volume gelijkstellen aan 'minimum verkoop'",
+        "verkeerde_assumptie": "Het BEP is het 'minimum' dat de onderneming nodig heeft.",
+        "kernpunt": "Het BEP geeft het volume voor nul winst — niet voor levensvatbaarheid. De onderneming heeft ook winst nodig om eigenaars te belonen, te herinvesteren en risico op te vangen. 'Strategisch BEP' bevat een doelwinst en ligt typisch 20-40% boven het rekenkundig BEP.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "analytische-boekhouding"
+      "id": "advies-investering",
+      "naam": {"primair": "Advies bij investerings- of expansie-beslissing"},
+      "intro": "Cliente overweegt een investering die de vaste kosten doet stijgen — wat is het nieuwe BEP en de risico-impact?",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "voor-en-na-bep",
+              "naam": {"primair": "Voor-en-na-BEP-vergelijking"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor het investeringsbesluit: bereken het huidig BEP-volume en de huidige veiligheidsmarge. Simuleer dan het nieuw BEP met de bijkomende vaste kosten. Vergelijk: hoeveel extra volume is nodig om hetzelfde rendement te halen? Welke veiligheidsmarge blijft over? Bij krapper-wordende veiligheidsmarge (<15%): rode vlag — onderneming wordt kwetsbaarder voor conjunctuur. De cliente moet de investering kunnen rechtvaardigen op basis van een concrete, realistische volumegroei — niet op basis van 'we zien wel'.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "analytische-boekhouding"},
+    {"type": "vereist", "target": "direct-costing", "toelichting": "BEP-analyse bouwt op de contributiemarge-redenering — die komt uit direct costing."}
   ]
 }

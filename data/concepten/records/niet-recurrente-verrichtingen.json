@@ -3,13 +3,15 @@
   "naam": {
     "primair": "Niet-recurrente verrichtingen",
     "synoniemen": [
-      "uitzonderlijke verrichtingen"
+      "uitzonderlijke verrichtingen",
+      "klasse 66-76",
+      "buitengewone resultaten"
     ]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "gebeurtenis"
@@ -39,9 +41,14 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/niet-recurrente-verrichtingen.json",
+      "primary_bronnen": [
+        "KB 21-10-2018 — MAR klasse 66 + 76",
+        "KB 29-04-2019 WVV"
+      ]
     },
     "changelog": [
       {
@@ -49,31 +56,163 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — klasse 66/76 + criteria niet-recurrent + voorbeelden"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Niet-recurrente verrichtingen** zijn **eenmalige, materiële, niet-terugkerende** gebeurtenissen die buiten het gewone bedrijfsleven en buiten de gewone financiële cyclus van de onderneming vallen. Ze worden geboekt in **MAR-klasse 66** (niet-recurrente kosten) en **MAR-klasse 76** (niet-recurrente opbrengsten) en verschijnen als afzonderlijke lijn op de resultatenrekening, na het bedrijfsresultaat en het financieel resultaat. Typische voorbeelden: realisatie-meerwaarden of -minderwaarden bij verkoop van materiële of financiële vaste activa, herstructureringskosten, brand- of stormschade, dotaties of terugnemingen van uitzonderlijke voorzieningen, eenmalige uitkoop van een directielid.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 66 + 76",
+              "context": "Niet-recurrente kosten en opbrengsten"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**Drie cumulatieve criteria** voor classificatie als niet-recurrent:\n1. **Eenmalig** — niet onderdeel van een terugkerend patroon;\n2. **Materieel** — significante impact op het resultaat (niet bagatelle-bedragen);\n3. **Niet-terugkerend** — los van de gewone activiteit (operating of financieel).\n\n**MAR-klasse 66 — Niet-recurrente kosten** (selectie):\n- **660 Niet-recurrente afschrijvingen + waardeverminderingen op oprichtingskosten + IVA/MVA/FVA**\n- **661 Niet-recurrente waardeverminderingen op FVA**\n- **662 Voorzieningen voor niet-recurrente bedrijfsrisico's en -kosten**\n- **663 Niet-recurrente minderwaarden op realisatie van VA**\n- **664-668 Andere niet-recurrente bedrijfskosten**\n\n**MAR-klasse 76 — Niet-recurrente opbrengsten**:\n- **760 Terugnemingen van niet-recurrente afschrijvingen**\n- **761 Terugnemingen waardeverminderingen FVA**\n- **762 Terugnemingen voorzieningen voor niet-recurrente risico's**\n- **763 Niet-recurrente meerwaarden op realisatie van VA**\n- **764-768 Andere niet-recurrente opbrengsten**",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 66 + 76",
+              "context": "Sub-rubricering"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De afscheiding van niet-recurrente posten is **essentieel voor financiële analyse**: lezers van de jaarrekening moeten het **duurzame, terugkerende** resultaat (operationeel + financieel) kunnen onderscheiden van **eenmalige, niet-projecteerbare** events. Een vennootschap met een nettowinst van 10 miljoen EUR waarvan 8 miljoen voortkomt uit een eenmalige verkoop van een bedrijfspand heeft een fundamenteel andere **toekomstig genererend vermogen** dan een vennootschap met diezelfde winst uit lopende activiteiten. Klasse 66/76 maakt deze onderscheiding zichtbaar — een belangrijke input voor ratio's zoals **operating margin** of **earning quality**.",
+        "grondslag": {
+          "confidence": "afgeleid",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Analytische rationale"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "meerwaarde-realisatie-mva",
+        "naam": {
+          "primair": "Realisatie-meerwaarde op materiële vaste activa (763)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Verkoop van een bedrijfspand met boekwaarde 300.000 EUR (aanschaffingswaarde 500.000 - afschrijvingen 200.000) voor 450.000 EUR.\n\n**Boeking afboeking activa**:\n```\n55 Bank                                         D 450.000\n220 Afschrijvingen terreinen en gebouwen         D 200.000\n   22 Terreinen en gebouwen                      C 500.000\n   763 Niet-recurrente meerwaarden op realisatie C 150.000\n```\nDe 150.000 EUR wordt geboekt als **niet-recurrente opbrengst** — eenmalig, materieel, geen onderdeel van de bedrijfsactiviteit.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 — MAR",
+                  "ref": "Rekening 763",
+                  "context": "Realisatie-meerwaarden vaste activa"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herstructureringskosten",
+        "naam": {
+          "primair": "Herstructureringskosten (662 + 663-665)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Vennootschap besluit een productiesite te sluiten. Verwachte kosten: ontslagvergoedingen 800.000 EUR + afboeking machine-park 300.000 EUR + opzeggings-vergoedingen huur 100.000 EUR.\n\n**Bij beslissing** (publieke aankondiging — IAS-37/IFRS-conform):\n- Voorziening voor herstructurering aanleggen:\n```\n662 Voorzieningen voor niet-recurrente bedrijfsrisico's    D 1.200.000\n   163 Voorzieningen voor andere risico's                   C 1.200.000\n```\n\nBij **werkelijke aanwending** in latere boekjaren: rekening 163 wordt afgebouwd tegen de werkelijke kost.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 — MAR",
+                  "ref": "Rekening 662",
+                  "context": "Voorzieningen voor niet-recurrente bedrijfsrisico's en -kosten"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Materialiteit onderschatten",
+        "verkeerde_assumptie": "Elke uitzonderlijke gebeurtenis hoort in klasse 66/76, ongeacht het bedrag.",
+        "kernpunt": "Een gebeurtenis moet **materieel** zijn voor classificatie als niet-recurrent. Een kleine eenmalige post (bv. 500 EUR verlies bij verkoop kantoorbenodigdheden) blijft in de gewone klasse 64. De materialiteits-drempel volgt uit het algemene materialiteitsoordeel van de onderneming/commissaris — geen vaste regel, maar typisch een paar % van het resultaat.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Materialiteitsregel in B-GAAP"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Recurrent fenomeen als niet-recurrent boeken",
+        "verkeerde_assumptie": "Een verkoop van een oude machine elk jaar is niet-recurrent omdat het 'eenmalig per machine' is.",
+        "kernpunt": "Realisatie-meerwaarden op MVA worden in **klasse 76** geboekt wanneer ze **uitzonderlijk en materieel** zijn. Bij een onderneming die structureel oude machines verkoopt (bv. autohandel-tweedehands) is dit **operationeel** — boeking in klasse 74 of 70. De vraag: zou je dit elk jaar verwachten?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Substance-over-form-toets recurrent"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "boekhouding"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "financiele-verrichtingen",
+      "gelijkenissen": [
+        "Beide buiten het bedrijfsresultaat",
+        "Symmetrische kost-/opbrengstklassen-structuur"
+      ],
+      "verschillen": [
+        "65/75: recurrent + financierings-gerelateerd",
+        "66/76: eenmalig + materieel + buitengewoon"
+      ],
+      "verwarring_risico": "Realisatie-meerwaarden of waardeverminderingen verkeerd classificeren tussen 65/75 en 66/76.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
