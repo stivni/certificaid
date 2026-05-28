@@ -2,82 +2,155 @@
   "id": "erfpacht",
   "naam": {
     "primair": "Erfpacht",
-    "synoniemen": [
-      "emphyteose"
-    ]
+    "synoniemen": ["erfpachtrecht"],
+    "vertaling": {"en": "long lease (emphyteusis)", "fr": "emphytéose"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit",
-      "regeling"
-    ],
-    "ankers": [
-      "1.1.II.X"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.1.II.X"],
     "scope": {
       "in": [
-        "Art 1722 BW",
-        "Looptijd 27-99 jaar",
+        "Boek 3 BW (zakelijke rechten, hervorming 2021) — vroeger Wet 10/01/1824",
+        "Looptijd 15-99 jaar",
         "Canon-verplichting (jaarlijkse vergoeding)",
-        "Boekhoudkundige cascade — actief bij erfpachter · passief bij eigenaar",
-        "Fiscaal: registratierechten 2% (gunsttarief)"
+        "Boekhoudkundige cascade — actief bij erfpachter · niet meer op balans blote eigenaar (CBN 2015/5)",
+        "Fiscaal: registratierechten 5% (Vlaanderen 2024 — vroeger 2%)"
       ],
       "out": [
-        {
-          "topic": "Opsplitsing-eigendom — overkoepelende vergelijking",
-          "richting": "moet-verwijzen",
-          "ref": "opsplitsing-eigendom"
-        },
-        {
-          "topic": "Vaste-activa-context (boekhouding)",
-          "richting": "mag-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "Registratierechten (fiscaal)",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Opsplitsing-eigendom — overkoepelende vergelijking", "richting": "moet-verwijzen", "ref": "opsplitsing-eigendom"},
+        {"topic": "Vaste-activa-context (boekhouding)", "richting": "mag-verwijzen", "ref": "vaste-activa"},
+        {"topic": "Registratierechten (fiscaal)", "richting": "mag-verwijzen", "ref": "registratie-en-successierechten"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/erfpacht.json",
+      "primary_bronnen": ["BW Boek 3 (zakelijke rechten 2021)", "CBN-advies 2015/5", "CBN-advies 158/1 (concessies)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Erfpacht uitgewerkt: definitie + 15-99 jaar + canon + boekingen + fiscale tarieven."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Erfpacht (Boek 3 BW, hervorming 2021 — daarvoor Wet van 10/01/1824) is een zakelijk recht dat het vol genot geeft van een aan een ander toebehorend onroerend goed, in ruil voor een jaarlijkse of periodieke canon. Wettelijke karakteristieken: (1) zakelijk recht (volgt het goed, ingeschreven in kadaster, opposable aan derden); (2) volledig genotsrecht (gelijk aan eigendom voor de duur, behalve substantie aantasten); (3) tegenprestatie verplicht (canon, vroeger genoemd 'erfpachtvergoeding'); (4) looptijd minimum 15 jaar, maximum 99 jaar. Bij einde: opstal-werken die de erfpachter heeft uitgevoerd worden eigendom van de blote eigenaar (natrekking), eventueel mits vergoeding.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "BW Boek 3", "ref": "art. 3.167 e.v. (zakelijke rechten — erfpacht)"}, {"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Erfpachtrecht"}]}
+      },
+      "substantie": {
+        "tekst": "Erfpacht wordt gebruikt voor: (a) langetermijn-exploitatie zonder volle aankoop (vroeger vaak landbouw, nu commerciële vastgoed-projecten); (b) gemeenten of religieuze instellingen die grond willen behouden maar exploitatie willen mogelijk maken; (c) joint-venture-vastgoed waarbij grondeigenaar inbreng doet via erfpacht. Boekhoudkundig: bij erfpachter activeren op klasse 22 voor het eenmalige instapbedrag + jaarlijkse canon naar 6602 (klasse 6 'erfpachtvergoedingen'). Afschrijving over looptijd (CBN 2015/5). Blote eigenaar: vroeger werd grond op balans gehouden — CBN 2015/5 stelt dat blote eigenaar in principe de grond NIET meer op balans heeft zolang erfpacht loopt (eerst bij einde recht heropleving).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Erfpacht — boekhoudkundige verwerking"}, {"type": "cbn", "naam": "CBN-advies 158/1", "ref": "Periodieke vergoeding"}]}
+      },
+      "rationale": {
+        "tekst": "Het wettelijk minimum van 15 jaar (verlaagd van 27 jaar in hervorming 2021) reflecteert het 'duurzaam karakter' van het recht — kortere termijn = gewone huur. Maximum 99 jaar voorkomt dat het recht 'eeuwig' wordt en de blote eigenaar zijn eigendomswaarde verliest. Het gunsttarief 5% registratierechten (vs 12% gewone verkoop) stimuleert deze rechtsfiguur als alternatief voor pure aankoop — fiscaal voordelig voor zowel grondeigenaar (canon = passief inkomen) als gebruiker (lagere instapdrempel).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["opsplitsing-eigendom"],
+      "kader": "opsplitsing-eigendom",
+      "naast_relevant": ["opstal", "vruchtgebruik"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2021-09-01",
+        "wettelijke_basis": "Boek 3 BW (Wet 04.02.2020 invoering Boek 3)",
+        "toelichting": "Hervorming Boek 3 BW (zakelijke rechten) van 2021 heeft erfpacht uit Wet 10/01/1824 gemoderniseerd. Minimum-termijn verlaagd van 27 naar 15 jaar."
+      },
+      "voor": [
+        {"tekst": "Commerciële vastgoed-projecten waar grondeigenaar grond wil behouden (stad, religieuze instelling, familie).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "voorwaarden-erfpacht",
+        "naam": {"primair": "Wettelijke voorwaarden"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "(1) Onroerend goed (gebouw OF grond). (2) Looptijd 15-99 jaar — kortere termijn = gewone huur. (3) Verplichte canon (periodiek, eenmalig kan onder voorwaarden) — pure gratis erfpacht is gen erfpacht. (4) Authentieke akte + inschrijving hypotheekkantoor (publiciteit, opposable aan derden). (5) Registratierechten + notariskosten bij vestiging.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "BW Boek 3", "ref": "art. 3.167 e.v."}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-erfpacht-erfpachter",
+        "naam": {"primair": "Boekhoudkundige cascade bij erfpachter"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij vestiging: eenmalige instapprijs + notaris + registratierechten geactiveerd op klasse 22 (erfpachtrecht) — afschrijving lineair over looptijd erfpacht. Periodieke canon: kost 6602 'erfpachtvergoedingen' (jaarlijks). Bij einde: indien volledig afgeschreven = boekwaarde 0; bij vervroegd einde uitboeken minderwaarde.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Erfpacht — boekhoudkundige verwerking"}]}
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Periodieke canon activeren",
+        "verkeerde_assumptie": "De jaarlijkse canon moet samen met instapprijs op klasse 22 worden geactiveerd.",
+        "kernpunt": "CBN 2015/5: alleen de EENMALIGE prijs + bijhorende kosten worden geactiveerd. PERIODIEKE canon = jaarkost (6602). Activering periodieke canon zou eigen vermogen + actief overschatten zonder dat een werkelijke investering is gedaan.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Periodieke vergoeding"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-erfpachter",
+      "naam": {"primair": "Erfpachter (gebruiker van het zakelijk recht)"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "boekh-erfpacht-vestiging",
+              "naam": {"primair": "Vestiging + jaarlijkse cascade"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij notariële akte: activeer eenmalige instapprijs + bijkomende kosten op klasse 22. Documenteer in investeringsregister looptijd. Per jaar: afschrijving 22 → 229 + canon-betaling 6602 → 55. Eind looptijd: uitboeken.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Boekingen"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-registratie-erfpacht",
+              "naam": {"primair": "Registratierechten 5% — gunsttarief"},
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vlaanderen 2024: 5% op kapitalisatiewaarde + alle canons (geactualiseerd). Voorheen 2% — verhoging in 2024 binnen Vlaamse Codex Fiscaliteit. Brussel en Wallonië: vergelijkbare tarieven. Vergelijken met 12% bij gewone verkoop maakt erfpacht aantrekkelijk voor langetermijn-gebruik.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "Boek 2 — registratiebelasting"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "opsplitsing-eigendom"
-    }
+    {"type": "valt_onder", "target": "opsplitsing-eigendom"},
+    {"type": "vergelijkbaar_met", "target": "opstal", "gelijkenissen": ["Beide zakelijk recht, beide tot 99 jaar"], "verschillen": ["Erfpacht: vol genot bestaand goed", "Opstal: recht om TE bouwen op andermans grond"]},
+    {"type": "vergelijkbaar_met", "target": "vruchtgebruik", "gelijkenissen": ["Beide genotsrecht op goed van ander"], "verschillen": ["Erfpacht: vast lange duur 15-99 jaar", "Vruchtgebruik: levenslang / max 30 j rechtspersoon"]}
   ]
 }
