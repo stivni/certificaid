@@ -2,21 +2,14 @@
   "id": "personeelskosten",
   "naam": {
     "primair": "Personeelskosten",
-    "synoniemen": [
-      "loonkosten",
-      "klasse 62"
-    ]
+    "synoniemen": ["loonkosten", "klasse 62", "bezoldigingen sociale lasten en pensioenen"]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.M"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.M"],
     "scope": {
       "in": [
         "MAR-klasse 62 — 620 wedden + 621-624 sociale lasten",
@@ -25,59 +18,359 @@
         "Shared thema met werknemers-vergoedingen (cluster-Σ) en loon-en-payroll (K-techniek)"
       ],
       "out": [
-        {
-          "topic": "Werknemers-vergoedingen Σ (advies-keuze loonpakket)",
-          "richting": "moet-verwijzen",
-          "ref": "werknemers-vergoedingen"
-        },
-        {
-          "topic": "Loon-en-payroll K-techniek (cascade bruto→netto)",
-          "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
-        },
-        {
-          "topic": "Bedrijfskosten (klasse 60-65 algemeen)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfskosten"
-        }
+        {"topic": "Werknemers-vergoedingen Σ (advies-keuze loonpakket)", "richting": "moet-verwijzen", "ref": "werknemers-vergoedingen"},
+        {"topic": "Loon-en-payroll K-techniek (cascade bruto→netto)", "richting": "moet-verwijzen", "ref": "loon-en-payroll"},
+        {"topic": "Bedrijfskosten (klasse 60-65 algemeen)", "richting": "moet-verwijzen", "ref": "bedrijfskosten"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/personeelskosten.json",
+      "primary_bronnen": [
+        "KB 12 september 1983 (MAR — minimum algemeen rekeningenstelsel)",
+        "KB WVV uitvoering — Boek 3 jaarrekening",
+        "CBN-advies 2016/15"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:30:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit MAR-structuur + CBN-advies 2016/15 + boekhoudpraktijk"}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Personeelskosten zijn alle kosten die een onderneming maakt in verband met haar werknemers (niet bedrijfsleiders). Boekhoudkundig komen ze terecht in klasse 62 van het Minimum Algemeen Rekeningenstelsel (MAR): 620 'Bezoldigingen en rechtstreekse sociale voordelen', 621 'Werkgeversbijdragen voor sociale verzekeringen', 622 'Werkgeverspremies voor buitenwettelijke verzekeringen', 623 'Andere personeelskosten', 624 'Pensioenen'. In de resultatenrekening verschijnen ze onder rubriek 'Bezoldigingen, sociale lasten en pensioenen' (rubriek 62 in het schema KB WVV). In de toelichting worden ze gedetailleerd in de sociale balans (jaarrekening-bijlage).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "klasse 62", "context": "Indeling klasse 62 in 620-624"},
+            {"type": "kb", "naam": "KB WVV uitvoering", "ref": "art. 3:90", "context": "Resultatenrekening — rubriek bezoldigingen, sociale lasten en pensioenen"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Personeelskosten zijn vaak een van de grootste kostenposten in de resultatenrekening — voor een dienstenbedrijf kan 60-80 % van de totale kosten in klasse 62 vallen. Voor een productieonderneming wordt een deel van klasse 62 doorgeschoven naar de kostprijs van de productie (allocatie naar voorraad of bedrijfskostprijs). De drie hoofd-onderverdelingen tonen het volledige fiscaal-sociaal kostenplaatje: 620 = bruto loon naar werknemer, 621 = werkgevers-RSZ aan RSZ, 622 = buitenwettelijke voordelen (groepsverzekering, hospitalisatie), 624 = pensioenuitkeringen aan ex-werknemers (bij directe pensioentoezegging). De stagiair moet kunnen onderscheiden tussen klasse 62 (werknemers met arbeidsovereenkomst) en 618 (bedrijfsleiders) — twee verschillende juridisch-fiscale regimes.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "advies", "naam": "CBN-advies 2016/15", "ref": "Boekingen tijdens het boekjaar", "context": "Onderscheid 618 vs 620"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekhoudpraktijk"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Personeelskosten zitten in een eigen klasse (62) — niet samen met andere bedrijfskosten (klasse 61) — omdat ze voor de jaarrekening apart moeten worden gerapporteerd. De wetgever wil transparantie over de werkgelegenheids- en sociale-kost-impact van een onderneming: hoeveel personen werken er, welke kostencategorieën, welke sociale lasten worden afgedragen. De sociale balans (jaarrekening-bijlage) verdiept dit verder: gemiddeld personeelsbestand, geleverde uren, opleidingskosten, in-/uitstroom. Deze afzonderlijke rapportering ondersteunt zowel werkgevers-statistieken (FOD ECONOMIE), CAO-overleg op sectoraal niveau, als de schuldeisers- en aandeelhoudersbescherming bij analyse van de financiële gezondheid van de onderneming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis MAR + sociale balans"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhouding", "minimum-algemeen-rekeningenstelsel"],
+      "kader": "bedrijfskosten",
+      "naast_relevant": ["loon-en-payroll", "werknemers-vergoedingen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB 12 september 1983 (MAR) + KB WVV uitvoering Boek 3"
+      },
+      "voor": [
+        {
+          "tekst": "Iedere onderneming die personeel tewerkstelt onder arbeidsovereenkomst — KMO's, grote ondernemingen, vzw's. Boekhoudkundige verplichting via klasse 62; rapporteringsverplichting in jaarrekening + sociale balans (afhankelijk van groottecriteria).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "kb", "naam": "KB WVV uitvoering", "ref": "art. 3:90"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "rekening-620-wedden",
+        "naam": {"primair": "620 — Bezoldigingen en rechtstreekse sociale voordelen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bevat alle brutobezoldigingen aan werknemers: lonen + 13e maand + dubbel vakantiegeld + commissies + premies + voordelen alle aard (VAA bedrijfswagen, GSM, ...). Sub-rekeningen voor segmentering: 6200 (arbeiders), 6201 (bedienden), 6202 (directiepersoneel), 6203 (uitzendkrachten). De totale jaarsom op 620 moet aansluiten met de som van de fiches 281.10 van alle werknemers.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "rekening 620"},
+                {"type": "advies", "naam": "CBN-advies 2016/15", "ref": "Boekingen 620"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rekening-621-rsz-werkgever",
+        "naam": {"primair": "621 — Werkgeversbijdragen voor sociale verzekeringen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bevat de werkgevers-RSZ-bijdragen (≈ 25 % van bruto, sector-afhankelijk), Fonds voor Sluiting van Ondernemingen, sectorale Sociaal Fonds-bijdragen, jaarlijkse vakantiegeld-bijdrage voor arbeiders (15,2 % × 108 % bruto). Tegen-boeking: 454 (RSZ — totaal werknemer + werkgever).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "rekening 621"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rekening-622-buitenwettelijke-verzekeringen",
+        "naam": {"primair": "622 — Werkgeverspremies voor buitenwettelijke verzekeringen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bevat premies voor extra-legale voordelen die niet onder de wettelijke sociale zekerheid vallen: groepsverzekering (2e-pijler pensioen), hospitalisatieverzekering, arbeidsongevallenverzekering (FEDRIS) bovenop wettelijk minimum, ambulante zorgverzekering. Deze voordelen kwalificeren fiscaal vaak gunstig (geen RSZ-werknemer, beperkte VAA-impact).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "rekening 622"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rekening-623-andere-personeelskosten",
+        "naam": {"primair": "623 — Andere personeelskosten"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Verzamelrekening voor heterogene kosten: maaltijdcheques (werkgeversbijdrage), ecocheques, kosten arbeidsgeneeskunde, sociaal secretariaat-fee, opleidingsuren personeel, kantine-toelagen, kerstcadeau-vouchers, ontslagvergoedingen die niet als 'bezoldiging' gekwalificeerd worden, juridische kosten arbeidsrechtbank. Voor een KMO is dit vaak de 'rest-categorie' waar alles in beland dat niet onder 620-622 valt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "rekening 623"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rekening-624-pensioenen",
+        "naam": {"primair": "624 — Pensioenen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bevat de pensioenuitkeringen die de onderneming rechtstreeks (= zonder verzekeringsmaatschappij) betaalt aan gepensioneerde ex-werknemers (directe pensioentoezeggingen). Komt minder en minder voor — moderne pensioenplannen lopen via groepsverzekeringen (rekening 622). Bij overgang van directe toezegging naar externe verzekering: provisie pensioen op rekening 16 (voorzieningen voor pensioenen en soortgelijke verplichtingen) wordt geliquideerd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 12 september 1983 — MAR", "ref": "rekening 624"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sociale-balans",
+        "naam": {"primair": "Sociale balans (jaarrekening-bijlage)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor middelgrote en grote ondernemingen (boven groottecriteria-drempel) verplichte bijlage bij de jaarrekening: gedetailleerde aantal werknemers + uren + opleidingen + diversiteits-statistieken. Geconsolideerde data wordt door de NBB gepubliceerd voor sectorbenchmarking. De sociale balans is een aanvullende discloseering bovenop klasse 62 — niet een dubbele boeking.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB WVV uitvoering", "ref": "art. 3:104", "context": "Sociale balans"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostenallocatie-productie-vs-admin",
+        "naam": {"primair": "Kostenallocatie productie vs administratie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In productieondernemingen wordt een deel van klasse 62 doorgeboekt naar de kostprijs van productie via klasse 90-99 (analytische rekeningen) of via 'doorboeking aan productie' (rekening 71 — wijzigingen voorraden + bestellingen in uitvoering). Concreet: directe productieloons worden in de voorraadwaarde van afgewerkte producten of in 'goederen in bewerking' opgenomen. Resultaat: niet alle klasse 62 verschijnt in de jaarwinst als kost — een deel zit verstopt in de voorraadwaardering op 31/12.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB WVV uitvoering", "ref": "art. 3:24", "context": "Voorraadwaardering inclusief productieloons"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-volledige-personeelskosten",
+        "titel": "Volledige personeelskosten — KMO bediende",
+        "context": "Aurelia Holding NV — bediende Sven, bruto-jaarloon 42.000 EUR, inclusief 13e maand 3.500 EUR en dubbel vakantiegeld 3.220 EUR (jaarbasis). + VAA bedrijfswagen 4.800 EUR/jaar. + groepsverzekering werkgeversbijdrage 2.000 EUR/jaar. + maaltijdcheques 7 EUR × 220 dagen × werkgeversaandeel 5,91 EUR = 1.300 EUR/jaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Indicatieve KMO-loonpakket-samenstelling"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Klasse 62 — jaaroverzicht voor Sven",
+            "rijen": [
+              {"rekening": "620 — Bezoldigingen", "bedrag": 46800, "omschrijving": "42.000 bruto + 4.800 VAA wagen"},
+              {"rekening": "621 — Werkgevers-RSZ", "bedrag": 10500, "omschrijving": "≈ 25 % × 42.000"},
+              {"rekening": "622 — Buitenwettelijke verzekeringen", "bedrag": 2000, "omschrijving": "Groepsverzekering"},
+              {"rekening": "623 — Andere personeelskosten", "bedrag": 1300, "omschrijving": "Maaltijdcheques werkgeversaandeel"},
+              {"rekening": "Totaal personeelskost Sven", "bedrag": 60600, "omschrijving": "Volledige loonkost voor werkgever"}
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Maandelijkse loonboeking — gemiddeld",
+            "rijen": [
+              {"rekening": "620 — Bezoldigingen", "debet": 3900.00, "credit": null, "omschrijving": "Bruto-equivalent Sven (3.500 + 1/12 13e + 1/12 dubbel + 1/12 VAA)"},
+              {"rekening": "621 — Werkgeversbijdragen sociale verzekeringen", "debet": 875.00, "credit": null, "omschrijving": "RSZ-werkgever 25 %"},
+              {"rekening": "622 — Buitenwettelijke verzekeringen", "debet": 166.67, "credit": null, "omschrijving": "1/12 groepsverzekering"},
+              {"rekening": "623 — Andere personeelskosten", "debet": 108.33, "credit": null, "omschrijving": "1/12 maaltijdcheques"},
+              {"rekening": "453 — Ingehouden voorheffingen", "debet": null, "credit": 850.00, "omschrijving": "BV"},
+              {"rekening": "454 — RSZ", "debet": null, "credit": 1332.45, "omschrijving": "RSZ werknemer + werkgever"},
+              {"rekening": "456 — Provisies bezoldigingen", "debet": null, "credit": 583.33, "omschrijving": "Provisie 13e maand + dubbel vakantiegeld"},
+              {"rekening": "455 — Bezoldigingen te betalen", "debet": null, "credit": 2284.22, "omschrijving": "Netto-loon"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bedrijfsleidersbezoldiging op 620 boeken (klasse 62)",
+        "verkeerde_assumptie": "Het loon van de zaakvoerder is ook een 'personeelskost' — boeken op 620.",
+        "kernpunt": "Bedrijfsleidersbezoldigingen (zaakvoerders, bestuurders, werkende vennoten zonder arbeidsovereenkomst) horen op 618 (Bezoldigingen, premies voor buitenwettelijke verzekeringen, ouderdoms- en overlevingspensioenen van bestuurders, zaakvoerders en werkende vennoten) — NIET op klasse 62. Andere fiche (281.20 ipv 281.10), andere RSZ-regime (zelfstandigen, niet werknemers). Verkeerd boeken = foutieve jaarrekening + fiche-fout.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "advies", "naam": "CBN-advies 2016/15", "ref": "Vergoedingen aan bestuurders en werkende vennoten"}
+          ]
+        }
+      },
+      {
+        "titel": "Maaltijdcheques als bezoldiging op 620 boeken",
+        "verkeerde_assumptie": "Maaltijdcheques zijn een loon-vorm — boeken op 620.",
+        "kernpunt": "Maaltijdcheques (en ecocheques, geschenkcheques, sport- en cultuurcheques) horen op 623 (Andere personeelskosten), niet op 620. Reden: ze zijn fiscaal-sociaal anders behandeld (niet-belastbaar binnen plafonds, geen RSZ) en horen niet bij fiche 281.10 bezoldigingen. Boekhoudkundige scheiding ondersteunt deze fiscaal-sociale scheiding.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Vakantiegeld-provisie vergeten — onderschatting klasse 62 jaar N",
+        "verkeerde_assumptie": "Klasse 62 = effectief betaalde loonkost in jaar N.",
+        "kernpunt": "Volgens accrual-principe moeten provisies voor toekomstige verplichtingen (dubbel vakantiegeld bedienden jaar N+1, eindejaarspremie/13e maand jaar N+1) in jaar N geboekt worden. Vuistregel: 18,2 % × bruto-jaarloon bedienden + sectorale eindejaarspremie. Onderschatting op 31/12 → onderschatting klasse 62 → overschatting winst → IRS/fiscale fraude-risico bij audit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
+      "id": "kmo-werkgever",
+      "naam": {"primair": "KMO-werkgever — jaarrekening en analyse"},
+      "intro": "De accountant die de jaarrekening opmaakt, klasse 62 analyseert en sociale-balans-bijlage voorbereidt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "structurering-sub-rekeningen",
+              "naam": {"primair": "Structurering sub-rekeningen klasse 62"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij opzet rekeningen-stelsel: gebruik sub-rekeningen voor analytische rapportering. Standaard-segmentering: 6200 arbeiders / 6201 bedienden / 6202 directiepersoneel / 6203 uitzendkrachten. Voor productie-onderneming bovendien: per afdeling (productie, verkoop, administratie). Voor 622: sub per type verzekering (groepsverzekering, hospitalisatie). Dit faciliteert latere analyse, audit, en kostenallocatie naar voorraad.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-structurering"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-volledigheid-klasse-62",
+              "naam": {"primair": "Volledigheidstest klasse 62"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Substantieve audit: (1) aansluiting jaartotaal klasse 62 ↔ som fiches 281.10 van alle werknemers; (2) recompute provisies vakantiegeld en eindejaarspremie/13e maand (18,2 % vuistregel of CBN-formule); (3) test cut-off december/januari — boeking van december-loon en provisies in jaar N, geen schuiven naar jaar N+1; (4) analytische review jaar-over-jaar: % personeelskosten / omzet — abnormale verandering trigger voor follow-up (turnover, herstructurering, fraude); (5) verifieer correcte boeking VAA bedrijfswagen volgens forfaitaire WIB92-formule (CO2 × ouderdom × cataloguswaarde).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard audit-werkprogramma personeelskosten"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ratio-analyse",
+              "naam": {"primair": "Ratio-analyse personeelskosten"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Twee belangrijke ratio's bij bedrijfsanalyse: (1) personeelskost-ratio = klasse 62 / omzet — sectoraal vergelijken (NBB-data). Dienstensector typisch 40-70 %, productie 15-30 %, retail 8-15 %. (2) productiviteit = toegevoegde waarde / klasse 62 — geeft aan hoeveel waarde elke euro personeelskost genereert. Trendwaarneming over 3 jaar belangrijker dan absolute waarde. Bij sterke afwijking: graven naar oorzaak (loonsverhogingen niet doorgerekend, overcapaciteit, gunstige sectorale CAO, ...).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard financiële-analyse-praktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "boekhouding"},
+    {"type": "bevat", "target": "bruto-loon"},
+    {"type": "bevat", "target": "rsz-werkgever"},
+    {"type": "bevat", "target": "dertiende-maand"},
+    {"type": "bevat", "target": "enkel-en-dubbel-vakantiegeld"},
+    {"type": "bevat", "target": "opzegvergoeding"},
+    {"type": "bevat", "target": "outplacementkost"},
+    {"type": "vergelijkbaar_met", "target": "bedrijfsleidersbezoldiging", "gelijkenissen": ["Beide zijn bezoldigings-kosten in de resultatenrekening", "Beide worden op de jaarrekening apart gerapporteerd"], "verschillen": ["Personeelskosten: klasse 62 (werknemers met arbeidsovereenkomst, RSZ-werknemer/werkgever)", "Bedrijfsleidersbezoldiging: klasse 618 (zelfstandige bedrijfsleiders, sociale bijdragen zelfstandigen)", "Fiches: 281.10 voor personeel; 281.20 voor bedrijfsleiders", "Sociale balans: enkel werknemers in klasse 62"], "verwarring_risico": "Bij familiale vennootschappen waar de zaakvoerder ook 'als bediende' werkt, kan beide regimes naast elkaar lopen — boekhouding moet zorgvuldig scheiden tussen klasse 62 en 618."}
   ]
 }
