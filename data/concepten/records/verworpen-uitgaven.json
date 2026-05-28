@@ -7,12 +7,15 @@
       "dépenses non admises",
       "DNA",
       "niet-aftrekbare uitgaven VenB"
-    ]
+    ],
+    "vertaling": {
+      "fr": "dépenses non admises"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -22,9 +25,24 @@
       "2.3.II.E"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/verworpen-uitgaven.json",
+      "primary_bronnen": [
+        "WIB92 art. 52",
+        "WIB92 art. 53",
+        "WIB92 art. 66",
+        "WIB92 art. 197",
+        "WIB92 art. 198",
+        "WIB92 art. 198/1",
+        "WIB92 art. 198bis",
+        "WIB92 art. 219",
+        "aangifte-VenB-2025-verworpen-uitgaven"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,36 +50,53 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-familie-Σ aangemaakt (overzicht niet-aftrekbare uitgaven; autokosten-VU als VenB-perspectief op autokosten, niet sub-sectie)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld op basis van aangifte-VenB-2025 sleutelcodes + WIB92 art. 52-66 + 198. Familie-Σ-fiche met cross-links naar gedetailleerde sub-fiches (autokosten, abnormale voordelen, ebitda-aftrekbeperking, bijzondere-aanslagen)."
       }
     ],
     "scope": {
       "in": [
-        "Familie-overzicht: 11 categorieën niet-aftrekbare uitgaven art 53-66 WIB",
-        "Keuze-categorie binnen belastbare-grondslag-cascade (bewerking 2 art 76 KB-WIB)",
-        "Categorieën: VU-autokosten (cross via perspectief autokosten) · VU-restaurant · VU-receptie-geschenken · VU-boetes art 198 · VU-abnormale voordelen · VU-niet-bewezen kosten · VU-eigen-loonkosten · VU-vrijwillige aanvullende pensioenen · ...",
-        "Bewijslast: belastingplichtige toont aftrekbaarheid + bedrag",
-        "Cascade-effect: VU verhoogt belastbare grondslag → meer VenB",
-        "Cross-link met beroepskosten (PB-perspectief op zelfde uitgaven)"
+        "Familie-overzicht van niet-aftrekbare uitgaven in de VenB-aangifte (Vak 'Verworpen uitgaven' — codes 1201-1265)",
+        "Bewerking 2 van art. 76 KB-WIB92: 'belastbare gereserveerde winst + verworpen uitgaven = belastbare grondslag vóór aftrekken'",
+        "Categorieën A-H per aangifte-vak (niet-aftrekbare belastingen · autokosten · interesten-beperkingen · abnormale voordelen · belastingparadijzen · Pijler-2 · diamant · belastingkredieten · andere)",
+        "Wettelijke basis: art. 52 + 53 (algemene niet-aftrekbaarheid) + art. 66 (CO2-formule autokosten) + art. 198 (specifieke niet-aftrekbare beroepskosten VenB) + art. 198/1 (financieringskostensurplus EBITDA-regel) + art. 219 (afzonderlijke aanslag niet-verantwoorde kosten)",
+        "Bewijslast (art. 49 + art. 340): belastingplichtige toont aftrekbaarheid + bedrag",
+        "Cascade-effect: VU verhoogt belastbare grondslag → meer VenB"
       ],
       "out": [
         {
-          "topic": "Beroepskosten (generieke aftrekbaarheidstest art 49 WIB)",
+          "topic": "Beroepskosten in PB-context (generieke aftrekbaarheidstest art. 49 WIB)",
           "richting": "moet-verwijzen",
           "ref": "beroepskosten"
         },
         {
-          "topic": "Autokosten-CO2-aftrekbeperking (VenB-perspectief op autokosten)",
+          "topic": "Autokosten-CO2-aftrekbeperking (VenB-detailregeling)",
           "richting": "moet-verwijzen",
           "ref": "autokosten"
         },
         {
-          "topic": "Bijzondere aanslagen (cross: VU-onaftrekbare-aftrekken)",
+          "topic": "Bijzondere aanslagen VenB (cross: niet-verantwoorde kosten → art. 219)",
           "richting": "moet-verwijzen",
           "ref": "bijzondere-aanslagen-venb"
         },
         {
-          "topic": "Belastbare grondslag (cascade)",
+          "topic": "Abnormale of goedgunstige voordelen (sub-categorie art. 26)",
+          "richting": "moet-verwijzen",
+          "ref": "abnormale-goedgunstige-voordelen"
+        },
+        {
+          "topic": "EBITDA-aftrekbeperking (sub-categorie financieringskostensurplus)",
+          "richting": "moet-verwijzen",
+          "ref": "ebitda-aftrekbeperking"
+        },
+        {
+          "topic": "Belastbare grondslag VenB (cascade)",
           "richting": "moet-verwijzen",
           "ref": "belastbare-grondslag-vennootschapsbelasting"
         }
@@ -71,26 +106,494 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Verworpen uitgaven (VU) zijn uitgaven die boekhoudkundig als beroepskost zijn geboekt — waardoor de boekhoudkundige winst werd verminderd — maar die FISCAAL niet of slechts gedeeltelijk aftrekbaar zijn. Bij de fiscale berekening van de vennootschapsbelasting worden deze uitgaven toegevoegd aan de belastbare grondslag (Bewerking 2 KB-WIB92 art. 76: belastbare gereserveerde winst + verworpen uitgaven). De wettelijke basis is verspreid over verschillende artikelen: art. 53 (algemene niet-aftrekbare beroepskosten in PB én VenB), art. 66 (CO2-aftrekbeperking autokosten), art. 198 (specifieke VenB-niet-aftrekbaarheden), art. 198/1 (EBITDA-financieringskostensurplus), art. 219 (afzonderlijke aanslag op niet-verantwoorde kosten). De VenB-aangifte structureert de VU in een eigen vak met subsecties A tot H en specifieke codes (1201-1265).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Vak Verworpen uitgaven — codes 1201-1265" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch effect: elke euro die geboekt is als kost maar fiscaal verworpen wordt, verhoogt de belastbare grondslag met dezelfde euro → 25% VenB extra (basis-tarief 2025) of 20% bij KMO-verlaagd tarief. Een restaurantnota van 1.000 EUR (waarvan 690 EUR verworpen onder de 31%-aftrekbaarheid van art. 53,8°bis) kost de vennootschap dus 690 × 25% = 172,50 EUR extra VenB. Cumulatief over alle VU-categorieën kan het effect aanzienlijk zijn — vooral bij vennootschappen met veel autokosten, restaurants en geschenken. Daarnaast zijn sommige VU-categorieën 'sanctie-triggers': niet-verantwoorde kosten en verdoken meerwinsten (art. 219) leiden tot een bijzondere afzonderlijke aanslag van 100% (verhoogd) of 50% (verminderd voor identificatie binnen 2 jaar).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "8°bis — 31%-aftrekbaarheid restaurant" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: de wetgever erkent dat sommige beroepskosten boekhoudkundig terecht als kost worden gezien (cf. boekhoudkundige getrouwheidsplicht) maar dat ze om beleidsredenen niet fiscaal aftrekbaar mogen zijn. Drie hoofdmotieven: (1) gedragsturing — sancties op vervuilend gedrag (autokosten met hoge CO2), op luxe-consumptie (restaurants, recepties, geschenken) en boetes; (2) anti-misbruik — niet-verantwoorde kosten triggeren art. 219-bijzondere aanslag; abnormale voordelen vermijden winstverschuiving naar verbonden vennootschappen; (3) internationale coördinatie — Pijler-2 minimumbelasting, ATAD-richtlijnen (hybridemismatch, EBITDA-financieringskostensurplus), betalingen naar belastingparadijzen. De fiscale verwerping werkt steeds als 'add-back' op de boekhoudkundige winst — de boekhoudkundige verwerking blijft onaangetast.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — beleidssturing + anti-misbruik + internationale coördinatie" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vennootschapsbelasting",
+        "belastbare-grondslag-vennootschapsbelasting",
+        "beroepskosten"
+      ],
+      "kader": "belastbare-grondslag-vennootschapsbelasting",
+      "naast_relevant": [
+        "autokosten",
+        "abnormale-goedgunstige-voordelen",
+        "ebitda-aftrekbeperking",
+        "bijzondere-aanslagen-venb"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 53-66 + art 198"
+        "wettelijke_basis": "WIB92 art. 52-66 (algemene niet-aftrekbaarheid) + art. 198-198/1 + art. 219 (afzonderlijke aanslag)",
+        "toelichting": "Stabiel kader; periodieke uitbreidingen (Pijler 2 sinds 2024, EBITDA-regel sinds 2019 ATAD, hybridemismatch ATAD II 2020) en aanpassingen van plafonds. Specifieke afbouw aangekondigd in komende hervormingen (bv. nieuwe aanpak autokosten 2030)."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschappen die de VenB-aangifte voorbereiden: voor elke boekhoudkundige kost moet worden nagegaan of die fiscaal volledig, gedeeltelijk of niet aftrekbaar is — en het verworpen deel toegevoegd worden aan de belastbare grondslag.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Vak Verworpen uitgaven", "context": "Eindcode 1240 = totaalbedrag VU" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Boekhoudkundige verwerking: kost geboekt als beroepskost (klasse 6) → boekhoudkundig resultaat verlaagd. Fiscaal: per categorie (art. 53, 66, 198, etc.) bepalen welk deel verworpen wordt → toevoeging aan belastbare grondslag (Bewerking 2). Bewijslast (art. 49 + art. 340 WIB): belastingplichtige toont aftrekbaarheid + bedrag van de kost.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 340" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verzuim VU correct te coderen → fiscus voegt zelf toe (bij controle) + nalatigheidsintrest + mogelijk belastingverhoging. · Niet-verantwoorde kosten verkeerd boeken → triggert afzonderlijke aanslag art. 219 (100% verhoogd, 50% verminderd). · Restaurant + receptiekosten samen boeken in één rekening 6135 → onmogelijke uitsplitsing voor 31% vs 50%-aftrekbaarheid.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-risico VenB-aangifte" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "categorie-niet-aftrekbare-belastingen",
+        "naam": {
+          "primair": "Niet-aftrekbare belastingen (subsectie A)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1201-1204. Omvat: VenB zelf (incl. voorafbetalingen, vermeerderingen, afzonderlijke aanslagen art. 219-219quinquies), niet-doorbelaste roerende voorheffing, gewestelijke belastingen die niet aftrekbaar zijn (art. 198 §1, 5°: bv. milieubelastingen), geldboeten en strafrechtelijke + administratieve boeten (art. 53, 6°). Logica: belastingen zijn geen 'echte' beroepskost in de zin van art. 49 + de wetgever wil voorkomen dat boetes fiscaal worden 'verzacht' door aftrek.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "6° — geldboeten" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 1° + 5°" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1201-1204" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-niet-aftrekbare-uitgaven-luxe",
+        "naam": {
+          "primair": "Restaurant + receptiekosten + niet-specifieke kleding (subsectie B)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1207-1209. Restaurantkosten: 69% verworpen (= 31% aftrekbaar — art. 53, 8°bis). Receptiekosten: 50% verworpen (= 50% aftrekbaar — art. 53, 8°). Niet-specifieke beroepskledij: 100% verworpen (art. 53, 7°) — alleen 'kleren die door hun aard niet-anders dan voor de beroepswerkzaamheid kunnen gebruikt worden' (specifiek werkkleed, bouwhelm, ziekenhuispak) zijn aftrekbaar. Geschenken aan personeel met logo/firma-naam zijn vaak vol aftrekbaar (anti-cumulatie met receptie).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "7°, 8°, 8°bis" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1207-1209" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-autokosten",
+        "naam": {
+          "primair": "Niet-aftrekbare autokosten + VAA-deel (subsectie B)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1205-1206. Code 1205: CO2-formule autokosten art. 66 §1 + art. 198bis — aftrekpercentage bepaald door (gram CO2/km × 0,005 + 50%) met minimum 50% en maximum 100%, of voor diesel +4% en LPG -1%. Plug-in hybride vóór 2018: vol aftrekbaar; daarna verfijndere regeling. Code 1206: 17%/40% van het voordeel-van-alle-aard van persoonlijk gebruik bedrijfsvoertuig (40% indien werkgever ook brandstof betaalt voor privé). Detail-regeling: zie autokosten-record.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198bis" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1205-1206" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-interesten-beperkingen",
+        "naam": {
+          "primair": "Interesten + financieringskostensurplus (subsectie C)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1210-1217 + 1262. Code 1210: overdreven interesten (art. 55 — markttarief overschreden). Code 1211: thin-cap-regel 5×(reserves+kapitaal)-grens (art. 198 §1, 11° en 11°/1) — interestbetalingen aan verbonden onderneming buiten EER of in laag-belastingland boven 5× ratio worden verworpen. Code 1262: ATAD-EBITDA-aftrekbeperking (art. 198/1) — financieringskostensurplus boven 30% van fiscaal EBITDA of 3 mio EUR drempel wordt verworpen. Detail: zie ebitda-aftrekbeperking-record. Code 1212: abnormale of goedgunstige voordelen (art. 26) — verworven ten gunste van een verbonden partij. Detail: zie abnormale-goedgunstige-voordelen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 55" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 11° + 11°/1" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1210-1217 + 1262" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-internationale-anti-misbruik",
+        "naam": {
+          "primair": "Belastingparadijzen + hybridemismatch + CFC (subsectie E)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1223 + 1236-1238. Code 1223: betalingen aan personen/entiteiten in belastingparadijzen — verworpen als geen aangifte 275 F is ingediend (vanaf 100.000 EUR/jaar) of als belastingplichtige niet kan aantonen dat de betaling werkelijk en eerlijk is voor reële economische verrichtingen. Code 1236: hybridemismatch-betalingen ATAD II (art. 198 §1, 10°/1 e.v.) — verworpen indien dezelfde betaling 'double-deduction' of 'deduction-no-inclusion' veroorzaakt. Code 1237: hybridemismatch-inkomsten niet in winst (art. 185 §2/1). Code 1238: niet-uitgekeerde winst van Controlled Foreign Corporation (art. 185/2 — Circulaire 2024/C/82).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 10° + 10°/1" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 185", "context": "§2/1 + 185/2" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1223, 1236-1238" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-niet-verantwoorde-kosten",
+        "naam": {
+          "primair": "Niet-verantwoorde kosten + verdoken meerwinsten (code 1225)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Code 1225 — extreem belangrijk: niet-verantwoorde kosten (geheime commissies, niet-geverifieerde betalingen, ontbreken fiscale fiches 281.50) + verdoken meerwinsten (onverklaarde vermogensaanwas, onderschat omzet). Naast de gewone VU triggert dit een AFZONDERLIJKE AANSLAG van 100% (verhoogd) of 50% (verminderd indien begunstigde wordt geïdentificeerd binnen 2 jaar of indien de verkrijger fiscaal in regel is) onder art. 219. Het effect: voor elke EUR ongedekte uitgave wordt 25% VenB (basis) PLUS 100% afzonderlijke aanslag = ca. 125% van het bedrag aan belasting verschuldigd. Sanctioneel mechanisme.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Code 1225" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-pijler-2",
+        "naam": {
+          "primair": "Minimumbelasting Pijler 2 (codes 1249-1250)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Codes 1249 + 1250. Code 1249: minimumbelasting Pijler 2 (wet 19/12/2023) — multinationale groepen met geconsolideerde omzet ≥750 mio EUR moeten een wereldwijde effectieve belasting van minstens 15% betalen; nationaal extra-belasting bij onderschrijden. Code 1250: betaling voor bijheffing Pijler 2 — spiegelbeeld code 1069 in vak Reserves. Effectieve toepassing alleen voor zeer grote groepen; voor KMO's irrelevant maar het examen kan ernaar verwijzen om internationale context te toetsen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1249-1250" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pijler 2 wet 19/12/2023" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "totaalcode-1240",
+        "naam": {
+          "primair": "Eindsom verworpen uitgaven (code 1240)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Code 1240 = TOTAAL van alle VU-categorieën (1201-1239 + 1249-1265). Dit bedrag wordt overgedragen naar Vak 'Uiteenzetting van de winst' en draagt rechtstreeks bij aan de belastbare grondslag (Bewerking 2 KB-WIB art. 76). Formule: Belastbare gereserveerde winst (B-code) + Verworpen uitgaven (code 1240) + Uitgekeerde dividenden = belastbare basis vóór aftrekken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Code 1240 — eindsom" },
+                { "type": "kb", "naam": "KB-WIB92", "ref": "art. 76", "context": "Bewerking 2" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vu-cascade-restaurant",
+        "titel": "VU-cascade: restaurant + autokosten + boete bij KMO",
+        "context": "KMO-vennootschap met boekhoudkundige winst 100.000 EUR. Boekhoudkundig geboekt: restaurantkosten 5.000 EUR (rek 615), receptiekosten 2.000 EUR (rek 6131), administratieve boete RSZ 1.500 EUR (rek 6601), 1 bedrijfswagen diesel CO2 130g/km met totale autokosten 12.000 EUR (incl. brandstof). VenB-tarief: 20% (verlaagd KMO op eerste 100.000 EUR).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "6°, 8°, 8°bis" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1203, 1205, 1207, 1208" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Restaurant 5.000 EUR: 31% aftrekbaar (art. 53, 8°bis) → verworpen deel = 69% × 5.000 = 3.450 EUR (code 1208).",
+              "Stap 2 — Receptie 2.000 EUR: 50% aftrekbaar (art. 53, 8°) → verworpen = 50% × 2.000 = 1.000 EUR (code 1207).",
+              "Stap 3 — Boete RSZ 1.500 EUR: 100% verworpen (art. 53, 6°) → 1.500 EUR (code 1203).",
+              "Stap 4 — Autokosten CO2 130g (diesel): aftrekpercentage = (130 × 0,005 + 50%) + 4% (diesel-correctie) - kapping: max 100%. Berekening: 65% + 4% = 69%. Verworpen = 31% × 12.000 = 3.720 EUR (code 1205).",
+              "Stap 5 — Totaal VU code 1240: 3.450 + 1.000 + 1.500 + 3.720 = 9.670 EUR.",
+              "Stap 6 — Belastbare grondslag wordt: 100.000 + 9.670 = 109.670 EUR.",
+              "Stap 7 — VenB (KMO 20%): 109.670 × 20% = 21.934 EUR. Zonder VU zou VenB bedragen: 100.000 × 20% = 20.000 EUR. Extra VenB door VU = 1.934 EUR."
+            ],
+            "resultaat": "Voor 5.000+2.000+1.500+12.000 = 20.500 EUR aan brutoboekingskosten leveren 9.670 EUR aan VU op. De extra VenB van 1.934 EUR is de fiscale 'kost' van die niet-aftrekbare uitgaven. Optimalisatie-tip: voor restaurant-pieken eerder receptie-context inroepen (50% aftrekbaar > 31%); voor wagens met hoge CO2 elektrisch alternatief overwegen (100% aftrekbaar overgangsregime)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-niet-verantwoorde-kosten",
+        "titel": "Niet-verantwoorde kosten — afzonderlijke aanslag art. 219",
+        "context": "Vennootschap heeft 15.000 EUR betaald aan 'consultancy' zonder factuur of bewijs; ook niet-aangegeven uitkering aan bestuurder van 8.000 EUR. Geen fiscale fiches 281.50 ingediend. Identificatie van verkrijger binnen 2 jaar: NEE.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Code 1225" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Niet-verantwoorde kosten + verdoken meerwinsten: 15.000 + 8.000 = 23.000 EUR (code 1225).",
+              "Stap 2 — Toevoeging aan belastbare grondslag (VU-effect): 23.000 EUR → VenB 25% = 5.750 EUR.",
+              "Stap 3 — Afzonderlijke aanslag art. 219 (verhoogd tarief 100% — geen identificatie binnen 2 jaar): 100% × 23.000 = 23.000 EUR.",
+              "Stap 4 — Totaal belasting op 23.000 EUR ongedekte uitgave: 5.750 + 23.000 = 28.750 EUR.",
+              "Stap 5 — Effectief tarief: 28.750 / 23.000 = 125% — méér dan het bedrag zelf!",
+              "Stap 6 — Alternatief — als binnen 2 jaar de verkrijger werd geïdentificeerd EN die persoon zijn inkomsten fiscaal regulariseerde: verminderd tarief 50% → afzonderlijke aanslag = 11.500 EUR; totaal 17.250 EUR (75%)."
+            ],
+            "resultaat": "Niet-verantwoorde kosten zijn drie keer duurder dan gewone VU. De sanctionerende werking van art. 219 vermijdt dat vennootschappen onbelaste cash-betalingen kunnen maken aan derden zonder identificatie. Praktisch: ALTIJD factuur + fiches 281.50 voor consultancy of variabele uitkeringen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-multinationale-financieringskosten",
+        "titel": "ATAD-EBITDA-aftrekbeperking + thin-cap (multinationale context)",
+        "context": "Belgische dochter van internationale groep. Fiscaal EBITDA: 8.000.000 EUR. Brutorente betaald aan moedervennootschap (vestiging in Luxemburg, geen belastingparadijs): 5.000.000 EUR. Verkregen rente: 1.000.000 EUR. Netto financieringskostensurplus: 4.000.000 EUR. Reserves + kapitaal van de Belgische dochter: 200.000 EUR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 11°/1 — thin-cap" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1", "context": "EBITDA-aftrekbeperking" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Codes 1211 + 1262" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Thin-cap-test (art. 198 §1, 11°/1): grens = 5 × (reserves + kapitaal) = 5 × 200.000 = 1.000.000 EUR. Schuld aan verbonden moeder bedraagt vermoedelijk veel meer. Interesten boven 1.000.000-grens worden verworpen.",
+              "Stap 2 — Stel gemiddelde schuld aan moeder = 100.000.000 EUR; rente 5% = 5.000.000 EUR. Verhouding: schuld 100M / 5×eigen-vermogen 1M = veel boven 5×-ratio.",
+              "Stap 3 — Code 1211 thin-cap VU: rente × (1 - 1.000.000/100.000.000) = 5.000.000 × 99/100 = 4.950.000 EUR verworpen.",
+              "Stap 4 — Code 1262 EBITDA-test (art. 198/1): 30% × EBITDA 8.000.000 = 2.400.000 EUR óf 3 mio EUR drempel — de hogere geldt → 3 mio EUR aftrekbare interesten max. Surplus = 4.000.000 - 3.000.000 = 1.000.000 EUR.",
+              "Stap 5 — Cumulatie: thin-cap (4.950.000) en EBITDA (1.000.000) zijn parallelle regimes — fiscus past steeds de meest beperkende toe. Hier thin-cap is dominant.",
+              "Stap 6 — VU code 1211 = 4.950.000 EUR (thin-cap), code 1262 = 0 (geen extra EBITDA-effect want al door thin-cap verworpen).",
+              "Stap 7 — Effect op belastbare grondslag: +4.950.000 EUR → ca. +1.237.500 EUR extra VenB (25%)."
+            ],
+            "resultaat": "De thin-cap regel kan substantieel meer verwerpen dan de EBITDA-regel — afhankelijk van eigen-vermogensstructuur. Voor multinationale herstructureringen: thin-cap-monitoring en EBITDA-rapportering essentieel. Detail-regimes: zie ebitda-aftrekbeperking-record."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Verworpen uitgave verwarren met afzonderlijke aanslag",
+        "verkeerde_assumptie": "Niet-verantwoorde kosten worden 'gewoon' toegevoegd aan de belastbare grondslag als VU.",
+        "kernpunt": "Niet-verantwoorde kosten en verdoken meerwinsten leveren TWEE effecten: (a) toevoeging aan belastbare grondslag (gewone VU); (b) afzonderlijke aanslag art. 219 van 100% (verhoogd) of 50% (verminderd na identificatie). Cumulatief effect: ca. 125% belasting op het bedrag. Sanctie-mechanisme — niet ontwijken door 'gewone VU' te boeken.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" }
+          ]
+        }
+      },
+      {
+        "titel": "Restaurant + receptie in één rekening boeken",
+        "verkeerde_assumptie": "Restaurant en receptie zijn beide 'representatiekosten' en kunnen samen op rekening 6131 staan.",
+        "kernpunt": "Restaurant (31% aftrekbaar) en receptie (50% aftrekbaar) hebben verschillende behandeling. Boekhoudkundige uitsplitsing vereist — anders is bewijslast voor 50%-aftrek (receptie) niet te vervullen en wordt de hele post tegen het strengste regime (31%) verworpen. Aparte rekeningen: 6131 (receptie + geschenken) vs 6135 (restaurant).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "8° + 8°bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Boekhoudkundige praktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "VU vergeten te boeken in Bewerking 2",
+        "verkeerde_assumptie": "Boekhoudkundige niet-aftrekbare kost wordt automatisch uit fiscale grondslag uitgesloten omdat 'belastingen niet aftrekbaar zijn'.",
+        "kernpunt": "VU zijn boekhoudkundig WEL geboekt (klasse 6) — boekhoudkundige winst is dus al verminderd. Fiscaal moeten ze ADD-BACK in Bewerking 2 (KB-WIB art. 76) → toevoegen aan belastbare grondslag. Het zijn dus geen 'aftrekbare belastingen' in PB-zin, maar wel een fiscale correctie op de boekhoudkundige winst.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB-WIB92", "ref": "art. 76", "context": "Bewerking 2" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-specifieke beroepskledij = 100% verworpen, niet 50%",
+        "verkeerde_assumptie": "Een kostuum voor bestuurder is gedeeltelijk aftrekbaar als 'beroepskledij'.",
+        "kernpunt": "Art. 53, 7° WIB92: alleen kleding 'die door haar aard niet anders dan voor de beroepswerkzaamheid kan worden gebruikt' is aftrekbaar (werkkledij, specifieke uniformen, veiligheidsschoenen). Een kostuum, jas, gewone hemden zijn 100% VERWORPEN — geen partial-aftrek mogelijk. Vaak vergeten bij bestuurder-vennootschappen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "7°" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Overzichtsmatrix VU-codes 2025 (subsectie, code, wettelijke basis)",
+        "inhoud": {
+          "kolommen": ["Subsectie", "Code", "Categorie", "Wettelijke basis"],
+          "rijen": [
+            ["A — belastingen", "1201", "Niet-aftrekbare belastingen (VenB, RV, afz. aanslagen)", "art. 198 §1, 1° + 5°"],
+            ["A — boetes", "1203", "Geldboeten en straffen (incl. administratief)", "art. 53, 6°"],
+            ["B — autokosten", "1205", "CO2-formule niet-aftrekbaar deel", "art. 66 + 198bis"],
+            ["B — autokosten", "1206", "VAA-deel 17%/40% bij persoonlijk gebruik", "art. 66 §1"],
+            ["B — recepties", "1207", "Receptiekosten 50% verworpen", "art. 53, 8°"],
+            ["B — restaurant", "1208", "Restaurantkosten 31% aftrekbaar (69% verworpen)", "art. 53, 8°bis"],
+            ["B — kleding", "1209", "Niet-specifieke beroepskledij 100%", "art. 53, 7°"],
+            ["C — interesten", "1210", "Overdreven interesten (markttarief overschreden)", "art. 55"],
+            ["C — interesten", "1211", "Thin-cap 5×(reserves+kapitaal)-grens", "art. 198 §1, 11° + 11°/1"],
+            ["C — financiering", "1262", "EBITDA-aftrekbeperking", "art. 198/1"],
+            ["C — voordelen", "1212", "Abnormale of goedgunstige voordelen", "art. 26"],
+            ["C — liberaliteiten", "1216", "Liberaliteiten incl. vrijgestelde (lijst identiteit)", "art. 198 §1, 4°"],
+            ["D — Pijler 2", "1249", "Minimumbelasting Pijler 2", "Wet 19/12/2023"],
+            ["E — internationaal", "1223", "Betalingen aan belastingparadijzen", "art. 198 §1, 10°"],
+            ["E — sanctie", "1225", "Niet-verantwoorde kosten + verdoken meerwinsten", "art. 219 (+afz. aanslag)"],
+            ["H — totaal", "1240", "Eindsom verworpen uitgaven", "Som van alle bovenstaande"]
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vennootschap-aangifte",
+      "naam": {
+        "primair": "Vennootschap — VenB-aangifte"
+      },
+      "intro": "De accountant die de VenB-aangifte van een vennootschap voorbereidt of nakijkt — VU is de kern van de fiscale aanpassingen op de boekhoudkundige winst.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "checklist-vu",
+              "naam": {
+                "primair": "VU-checklist bij VenB-aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per rekening klasse 6 (kosten) van de proef-en-saldibalans systematisch: (1) is er een VU-impact? (2) zo ja, welke code in aangifte-vak Verworpen uitgaven (1201-1265)? (3) bedrag fiscaal verworpen deel berekenen? (4) ondersteunend bewijsstuk? Aandacht voor: rek 6131 (recepties) → 50% VU code 1207; rek 6135 (restaurant) → 69% VU code 1208; rek 615 (autokosten) → CO2-formule code 1205 + VAA-deel code 1206; rek 6601-6603 (belastingen + boetes) → code 1203; rek 6500 (financiële kosten) → check interesten thin-cap (1211) + EBITDA (1262). Eindcontrole: code 1240 = totaal moet kloppen met som van alle codes.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "Vak Verworpen uitgaven" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "VenB-controlewerkwijze" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fiches-281-50",
+              "naam": {
+                "primair": "Fiches 281.50 voor commissies, makelaarslonen, etc."
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor alle commissies, makelaarslonen, restaurantkosten, juridisch-/boekhoudkundig-advies, geschenken, etc. boven het wettelijk plafond (250 EUR per bestemmeling per jaar): fiscale fiches 281.50 INDIENEN tegen 30/6 van het jaar volgend op betaling. Vergeten → kost wordt 'niet-verantwoord' (art. 219) → afzonderlijke aanslag 100% (of 50%) bovenop gewone VenB. Praktisch: lijst per begunstigde maken vanaf januari; controleren tegen factuurregister; ALTIJD bestemmeling identificeren met naam + adres + KBO/RSZ-nummer.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 57", "context": "Verplichting fiches 281.50" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sanctie-vermijdingspraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-restaurantbeleid",
+              "naam": {
+                "primair": "Advies inzake restaurant- + receptie-beleid"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënten met veel restaurantkosten (handelsvennootschappen, consulting): (1) duidelijke uitsplitsing receptie (50%) vs restaurant (31%) op boeking en factuur; (2) overweeg of bepaalde kosten als 'receptie' kunnen worden gekwalificeerd (bv. ontvangst klanten op kantoor met catering = receptie 50%) eerder dan restaurant; (3) voor seminaries en personeelsevents: 100% aftrekbaar binnen vorming-context (art. 53 niet van toepassing); (4) digitale receptie/online events: identieke regels. Documentatie: gastenlijst + agenda + foto's voor receptiekosten — bewijslast art. 49 + 340.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 53" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Restaurantbeleid-optimalisatie" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -98,11 +601,39 @@
     },
     {
       "type": "valt_onder",
-      "target": "belastbare-grondslag-vennootschapsbelasting"
+      "target": "belastbare-grondslag-vennootschapsbelasting",
+      "toelichting": "VU = Bewerking 2 (KB-WIB art. 76): toevoeging aan belastbare gereserveerde winst."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "beroepskosten"
+      "target": "beroepskosten",
+      "gelijkenissen": [
+        "Beide werken op zelfde uitgaven (kostenstroom uit klasse 6)",
+        "Beide vereisen bewijslast (art. 49 + art. 340)",
+        "Beide hanteren aftrekpercentages voor specifieke categorieën (auto, restaurant, receptie)"
+      ],
+      "verschillen": [
+        "Beroepskosten (art. 49) = PB-context: aftrek van bruto-inkomen → belastingbesparing aan marginaal tarief",
+        "Verworpen uitgaven = VenB-context: add-back op boekhoudkundige winst → extra VenB",
+        "VU heeft eigen aangifte-codes (1201-1265); beroepskosten heeft eigen rubrieken in PB-aangifte"
+      ],
+      "verwarring_risico": "Studenten verwarren 'beroepskosten' (PB-fenomeen) met 'verworpen uitgaven' (VenB-fenomeen) — terwijl het inhoudelijk hetzelfde soort uitgaven betreft met andere fiscale techniek.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "bevat",
+      "target": "abnormale-goedgunstige-voordelen",
+      "toelichting": "Code 1212 — abnormale/goedgunstige voordelen art. 26 zijn sub-categorie binnen VU."
+    },
+    {
+      "type": "bevat",
+      "target": "ebitda-aftrekbeperking",
+      "toelichting": "Code 1262 — financieringskostensurplus boven 30%-EBITDA-drempel (art. 198/1) is sub-categorie binnen VU."
+    },
+    {
+      "type": "triggert",
+      "target": "bijzondere-aanslagen-venb",
+      "toelichting": "Code 1225 — niet-verantwoorde kosten + verdoken meerwinsten triggeren afzonderlijke aanslag art. 219 bovenop gewone VU."
     }
   ]
 }

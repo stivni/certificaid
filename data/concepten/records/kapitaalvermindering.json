@@ -6,12 +6,15 @@
       "kapitaaldaling",
       "share capital reduction",
       "capital decrease"
-    ]
+    ],
+    "vertaling": {
+      "fr": "réduction de capital"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
@@ -21,8 +24,25 @@
       "3.0.IV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kapitaalvermindering.json",
+      "primary_bronnen": [
+        "WVV art. 7:208",
+        "WVV art. 7:195",
+        "WVV art. 7:196",
+        "WVV art. 7:197",
+        "WVV art. 5:142",
+        "WVV art. 5:143",
+        "WVV art. 5:144",
+        "WIB92 art. 18, 2°ter",
+        "WIB92 art. 184",
+        "Wet 25-12-2017 (programmawet)"
+      ],
+      "mcp_calls": 2,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,16 +50,24 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~839)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle + 2 extra MCP-zoekopdrachten (WVV 7:195 + 5:144). Wachttermijn schuldeisers WVV = 2 maanden (niet 3 zoals task spec aangeeft); BV-vermindering volgt aparte uitkerings-procedure (netto-actief + liquiditeitstest)."
       }
     ],
     "scope": {
       "in": [
-        "Vermindering van het maatschappelijk kapitaal — AV-besluit + statutenwijziging",
-        "Wachttermijn 2 maanden + verzetsrecht schuldeisers",
+        "Vermindering van het maatschappelijk kapitaal (NV) of vermindering van de inbreng (BV/CV)",
+        "Schuldeisersbescherming bij NV — 2 maanden verzetsrecht (WVV art. 7:195)",
+        "BV/CV: andere mechaniek — netto-actief-test + liquiditeitstest (art. 5:142-5:144 WVV)",
         "Modaliteiten: terugbetaling kapitaal · aanzuivering verlies · vrijstelling volstortingsplicht",
-        "Pro-rata-toerekening (sinds wet 25 dec 2017) — bedrag pro rata toegerekend aan gestort kapitaal én reserves",
-        "Reserve-deel belast als dividend (roerende voorheffing)"
+        "Pro-rata-toerekening (Wet 25-12-2017) — bedrag pro rata aan gestort kapitaal én reserves",
+        "Reserve-deel belast als dividend (RV 30%)"
       ],
       "out": [
         {
@@ -48,12 +76,12 @@
           "ref": "kapitaalverhoging"
         },
         {
-          "topic": "Alarmbel-procedure bij vermindering door verlies",
+          "topic": "Alarmbel-procedure bij verlies > drempel",
           "richting": "moet-verwijzen",
           "ref": "alarmbel-procedure"
         },
         {
-          "topic": "Kapitaalbescherming — netto-actief-test bij uitkeringen aan aandeelhouders",
+          "topic": "Kapitaalbescherming — netto-actief-test bij uitkeringen aandeelhouders",
           "richting": "moet-verwijzen",
           "ref": "kapitaalbescherming"
         },
@@ -68,64 +96,459 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Kapitaalvermindering** is de verrichting waarbij een vennootschap haar maatschappelijk kapitaal (NV) of haar onbeschikbare inbreng (BV/CV) verlaagt. Dit gebeurt via een **AV-besluit + statutenwijziging + notariële akte** (75%-meerderheid). De vermindering kan reëel zijn (terugbetaling aan aandeelhouders of vrijstelling van de volstortingsplicht) of formeel (aanzuivering van overgedragen verliezen). Bij NV is een **schuldeisersbeschermings-procedure** verplicht — schuldeisers hebben **2 maanden** vanaf bekendmaking om een zekerheid te eisen voor hun vorderingen (art. 7:195 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195", "context": "NV: 2 maanden verzetstermijn schuldeisers" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:208", "context": "Algemene procedure kapitaalvermindering NV" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch gaat het bij **reële vermindering** om een uitkering van eigen vermogen aan de aandeelhouders (terugbetaling kapitaal of vrijstelling nog te volstorten saldo) → de vennootschap verarmt. Bij **formele vermindering door aanzuivering verlies** verschuift het eigen vermogen binnen het EV (kapitaal ↓, verlies ↓ → totaal EV neutraal) — typische toepassing bij **alarmbel-vermindering** wanneer overgedragen verliezen het kapitaal hebben aangetast. Sinds de **Wet 25-12-2017** wordt elke reële vermindering bij NV/BV **pro rata** toegerekend aan het gestort kapitaal én aan de bestaande belaste reserves: het deel dat overeenstemt met reserves wordt fiscaal **geherkwalificeerd als dividend** en is onderworpen aan roerende voorheffing 30%.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter", "context": "Pro-rata-toerekening reserves bij kapitaalvermindering" },
+            { "type": "wettekst", "naam": "Programmawet 25-12-2017", "ref": "art. 86", "context": "Invoering pro-rata-regel" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het wettelijk kader rond kapitaalvermindering balanceert drie belangen: (1) **schuldeisersbescherming** — kapitaal is een minimumdekking voor schulden, dus uitkering verlaagt deze dekking → wachttermijn + zekerheidsrecht; (2) **flexibiliteit voor vennootschap** — overtollig kapitaal moet kunnen terugkeren naar aandeelhouders; (3) **fiscale neutraliteit** — voorkomen dat aandeelhouders dividend-belasting ontwijken via 'verkapte dividenden' onder de vorm van kapitaalvermindering (vandaar de pro-rata-regel sinds 2017). Bij **BV/CV** is het kapitaalconcept verdwenen; uitkering volgt **netto-actief-test + liquiditeitstest** (art. 5:142-5:144 WVV) — bestuur staat persoonlijk aansprakelijk bij overschatting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142", "context": "BV: netto-actief-test" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143", "context": "BV: liquiditeitstest" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese drie-belangen-balans" }
           ]
         }
       }
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23-03-2019) + Programmawet 25-12-2017 voor fiscaal pro-rata",
+        "toelichting": "Pro-rata-toerekening reserves bij kapitaalvermindering is van toepassing op verminderingen waartoe vanaf 1 januari 2018 wordt besloten."
+      },
+      "voor": [
+        {
+          "tekst": "Bij **overtollig kapitaal** — terugbetaling aan aandeelhouders wanneer de activiteit minder kapitaal vereist dan vroeger (krimp, opvolging, exit-vermogen).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **aanzuivering overgedragen verlies** — wanneer historische verliezen de continuïteit hypothekeren (alarmbel-trigger). De vermindering 'wist' het verlies door kapitaal-aanzuivering — geen uitstroom van middelen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:196", "context": "Vermindering door aanzuivering" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **vrijstelling volstortingsplicht** — aandeelhouders worden vrijgesteld van het saldo niet-opgevraagd kapitaal (NV — art. 7:195). Het kapitaal daalt zonder cash-uitkering."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**NV-procedure** — schuldeisersbescherming (art. 7:195 WVV): de schuldeisers hebben gedurende **2 maanden** na bekendmaking in het BS het recht een zekerheid te eisen voor vaststaande maar nog niet opeisbare vorderingen. De vennootschap kan dit afweren door betaling tegen waarde of door zekerheid te stellen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195", "context": "2 maanden verzetstermijn schuldeisers" }
+            ]
+          }
+        },
+        {
+          "tekst": "**BV/CV-procedure** — geen schuldeisersbescherming via wachttermijn, maar **dubbele test bij elke uitkering** (art. 5:142-144 WVV): (a) **netto-actief-test** — uitkering mag eigen vermogen niet onder onbeschikbare inbreng + statutair onbeschikbare reserves brengen; (b) **liquiditeitstest** — bestuur moet schriftelijk vaststellen dat de vennootschap, redelijkerwijze, gedurende minstens 12 maanden in staat is haar schulden te betalen. Beide tests worden in een **bestuursverslag** gemotiveerd; afwezigheid = persoonlijke aansprakelijkheid bestuur.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Notariële akte + 75%-meerderheid AV**: zelfde regel als bij verhoging (statutenwijziging).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Bestuurdersaansprakelijkheid** wanneer netto-actief-test of liquiditeitstest verkeerd is toegepast bij BV/CV (art. 5:144 § 2 WVV — bestuurders hoofdelijk aansprakelijk tegenover de vennootschap en derden).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144, § 2" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Fiscaal pro-rata-effect** — door art. 18, 2°ter WIB92 wordt elke reële vermindering deels als dividend belast (RV 30%) ook al juridisch is het 'terugbetaling kapitaal'. Onderschatten van dit effect kan leiden tot onaangename verrassingen voor aandeelhouders.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter" }
+            ]
+          }
+        }
+      ]
+    },
     "bouwstenen": [
       {
-        "id": "pro-rata-toerekening",
+        "id": "modaliteiten-vermindering",
         "naam": {
-          "primair": "Pro-rata-toerekening kapitaal/reserves"
+          "primair": "Drie modaliteiten van kapitaalvermindering"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — sinds wet 25 dec 2017: bedrag van kapitaalvermindering wordt pro rata toegerekend aan gestort kapitaal én reserves; het reservedeel wordt fiscaal herkwalificeerd als dividend (RV).",
+            "tekst": "**Drie modaliteiten** kapitaalvermindering:\n\n1. **Reële vermindering — terugbetaling aan aandeelhouders** (art. 7:195 NV / 5:142 BV). Cash-uitkering vanuit EV. Schuldeisersbescherming 2 maanden (NV) of dubbele test (BV).\n\n2. **Reële vermindering — vrijstelling volstortingsplicht** (NV). Aandeelhouders hoeven het saldo niet-opgevraagd kapitaal niet meer te storten. Geen cash-uitkering nu, maar verlies van toekomstige inning. Idem schuldeisersbescherming 2 maanden.\n\n3. **Formele vermindering — aanzuivering overgedragen verlies** (art. 7:196 WVV). Boekhoudkundige verschuiving binnen EV: D 100 Geplaatst kapitaal / C 141 Overgedragen verlies. Geen schuldeisersbescherming (geen vermogensafvloei). Vaak gebruikt bij alarmbel-herstel.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:196" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "pro-rata-toerekening",
+        "naam": {
+          "primair": "Pro-rata-toerekening kapitaal/reserves (Wet 25-12-2017)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds **Wet 25-12-2017** wordt elke reële kapitaalvermindering (NV én BV inbreng-vermindering) **pro rata** toegerekend aan:\n\n- het **fiscaal gestort kapitaal** (deel = belastingvrij, terugbetaling kapitaal);\n- de **bestaande belaste reserves** (geïncorporeerd of niet) — dit deel wordt fiscaal **geherkwalificeerd als dividend** → RV 30% (of 15% voor liquidatiereserve > 5j).\n\n**Verhouding** = (fiscaal gestort kapitaal) / (fiscaal gestort kapitaal + belaste reserves). De aandeelhouder ontvangt het bruto bedrag, de vennootschap betaalt de RV 30% op het reserves-deel.\n\n**Excluded**: belastingvrije reserves (bv. liquidatiereserve) volgen aparte regels; vermindering door aanzuivering verlies = geen reële vermindering, geen pro-rata.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter", "context": "Pro-rata-herkwalificatie reserves" },
+                { "type": "wettekst", "naam": "Programmawet 25-12-2017", "ref": "art. 85-88", "context": "Invoering pro-rata" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Anti-misbruik: voor 2018 konden vennootschappen 'kunstmatig' kapitaal verhogen via incorporatie van belaste reserves, om dat kapitaal later belastingvrij terug te betalen. De pro-rata-regel sluit deze route af."
+          }
+        }
+      },
+      {
+        "id": "schuldeisersbescherming-nv",
+        "naam": {
+          "primair": "Schuldeisersbescherming bij NV — procedure"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Schuldeisersbescherming-procedure bij NV-kapitaalvermindering** (art. 7:195 WVV):\n\n```mermaid\nflowchart TD\n  A[AV beslist tot kapitaalvermindering] --> B[Notariële akte verlijden]\n  B --> C[Bekendmaking in Bijlagen BS]\n  C --> D[2 maanden wachttermijn]\n  D --> E{Schuldeiser eist zekerheid?}\n  E -->|Nee| F[Uitkering aan aandeelhouders mag starten na 2 mnd]\n  E -->|Ja| G[Vennootschap kiest: zekerheid stellen OF betaling tegen waarde]\n  G --> H{Akkoord?}\n  H -->|Ja| F\n  H -->|Nee| I[Rechter beslist - meest gerede partij dagvaardt]\n  I --> J[Tot vonnis: uitkering geblokkeerd]\n```\n\n**Welke vorderingen?** Vaststaande maar nog niet opeisbare vorderingen op het ogenblik van de bekendmaking, plus vorderingen waarvoor procedure was ingesteld vóór de AV. **Niet**: vorderingen ontstaan na de bekendmaking.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195", "context": "Schuldeisersbescherming 2 mnd NV" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bv-uitkering-procedure",
+        "naam": {
+          "primair": "BV/CV — netto-actief-test + liquiditeitstest"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**BV/CV-vermindering van de inbreng**: omdat de BV geen kapitaal-concept meer kent, vervangt WVV de schuldeisersbescherming door **twee cumulatieve tests** (art. 5:142 + 5:143 + 5:144 WVV):\n\n**Test 1 — Netto-actief-test (art. 5:142):** uitkering mag het netto-actief niet onder de som van (a) onbeschikbare inbreng + (b) statutair onbeschikbare reserves brengen. AV beslist op basis van laatst goedgekeurde JR of recentere staat (max. 6 mnd oud).\n\n**Test 2 — Liquiditeitstest (art. 5:143):** bestuur stelt schriftelijk vast dat de vennootschap, gelet op de te verwachten ontwikkelingen, redelijkerwijze in staat zal zijn om gedurende een periode van **minstens 12 maanden** haar opeisbare schulden te betalen. Bestuursverslag = verplicht, eventueel met commissaris-verklaring.\n\n**Sanctie (art. 5:144):** ontbreekt één van beide tests of zijn ze foutief → de uitkering kan worden teruggevorderd én de bestuurders zijn hoofdelijk aansprakelijk tegenover de vennootschap en derden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142", "context": "Netto-actief-test" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143", "context": "Liquiditeitstest 12 maanden" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144", "context": "Sanctie + aansprakelijkheid" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-nv-terugbetaling-prorata",
+        "titel": "NV Capitaal — reële vermindering met pro-rata-toerekening",
+        "context": "NV Capitaal heeft EV: kapitaal €500.000 (fiscaal gestort), belaste reserves €300.000, overgedragen winst €200.000 (= totaal EV €1.000.000). AV beslist op 30-06-2026 een vermindering van €100.000 via terugbetaling aan aandeelhouders. Notariële akte + bekendmaking 5-07-2026. Geen verzet schuldeisers binnen 2 maanden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195, 7:208" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "Pro-rata-berekening fiscaal gestort kapitaal vs reserves",
+            "stappen": [
+              "Stap 1 — Verhouding: fiscaal gestort kapitaal €500.000 / (€500.000 + €300.000 belaste reserves) = 5/8 = 62,5%",
+              "Stap 2 — Kapitaal-deel van vermindering: €100.000 × 62,5% = €62.500 (belastingvrij)",
+              "Stap 3 — Reserves-deel: €100.000 × 37,5% = €37.500 (= dividend voor RV-doeleinden)",
+              "Stap 4 — RV 30% × €37.500 = €11.250 (ingehouden door vennootschap, doorgestort aan FOD Financiën)",
+              "Stap 5 — Netto-uitkering aandeelhouders: €100.000 - €11.250 = €88.750"
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boekingen — kapitaalvermindering NV Capitaal",
+            "boekingen": [
+              { "datum": "2026-09-10", "debet": [{"rekening": "100", "label": "Geplaatst kapitaal — vermindering", "bedrag": 100000}], "credit": [{"rekening": "489", "label": "Te betalen aan aandeelhouders", "bedrag": 100000}], "toelichting": "Vermindering geboekt na verstrijken 2 maanden wachttermijn" },
+              { "datum": "2026-09-15", "debet": [{"rekening": "489", "label": "Te betalen aan aandeelhouders", "bedrag": 100000}], "credit": [{"rekening": "550", "label": "Bank — netto-uitkering", "bedrag": 88750}, {"rekening": "453", "label": "Ingehouden voorheffingen (RV)", "bedrag": 11250}], "toelichting": "Cash naar aandeelhouders + RV ingehouden" },
+              { "datum": "2026-09-30", "debet": [{"rekening": "453", "label": "Ingehouden voorheffingen", "bedrag": 11250}], "credit": [{"rekening": "550", "label": "Bank — doorstorting FOD", "bedrag": 11250}] }
+            ]
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Eigen vermogen — VOOR vs NA",
+            "kolommen": ["Rubriek", "VOOR (€)", "NA (€)"],
+            "rijen": [
+              ["Geplaatst kapitaal", "500.000", "400.000"],
+              ["Belaste reserves", "300.000", "300.000"],
+              ["Overgedragen winst", "200.000", "200.000"],
+              ["TOTAAL EV", "1.000.000", "900.000"]
+            ],
+            "conclusie": "Cash-uitstroom €100.000 (€88.750 aandeelhouders + €11.250 fiscus). Boekhoudkundig vermindert alleen rekening 100; de reserves blijven onaangetast in de boekhouding, maar fiscaal worden ze 'geconsumeerd' pro rata (cumulatief geheugen via 211/212 fiscale tabel)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-aanzuivering-verlies",
+        "titel": "NV HerstelCo — kapitaalvermindering door aanzuivering verlies",
+        "context": "NV HerstelCo heeft kapitaal €200.000, overgedragen verlies €(-150.000), liquide middelen €5.000. EV = €50.000 — alarmbel-zone bereikt. AV beslist op 1-06-2026 om €150.000 kapitaal aan te zuiveren tegen het verlies.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:196", "context": "Vermindering door aanzuivering" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking — Aanzuivering verlies via kapitaalvermindering",
+            "boekingen": [
+              { "datum": "2026-06-01", "debet": [{"rekening": "100", "label": "Geplaatst kapitaal", "bedrag": 150000}], "credit": [{"rekening": "141", "label": "Overgedragen verlies", "bedrag": 150000}] }
+            ],
+            "toelichting": "Pure interne EV-verschuiving. Geen cash-uitstroom. Geen schuldeisersbescherming nodig (geen vermogensafvloei). Geen pro-rata-effect (geen reële vermindering)."
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Eigen vermogen — VOOR vs NA aanzuivering",
+            "kolommen": ["Rubriek", "VOOR (€)", "NA (€)"],
+            "rijen": [
+              ["Geplaatst kapitaal", "200.000", "50.000"],
+              ["Overgedragen verlies", "-150.000", "0"],
+              ["TOTAAL EV", "50.000", "50.000"]
+            ],
+            "conclusie": "Totaal EV onveranderd. Alleen de presentatie verandert: vennootschap toont nu kapitaal €50.000 zonder gecumuleerde verliezen → minder zorgwekkend signaal naar derden. Toekomstige winsten kunnen meteen uitkeerbaar worden ipv eerst verlies te recupereren."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-bv-uitkering",
+        "titel": "BV DeltaCo — vermindering van inbreng + dubbele test",
+        "context": "BV DeltaCo: onbeschikbare inbreng €300.000, beschikbare reserves €100.000, liquide middelen €250.000, schulden korte termijn €200.000. AV beslist op 15-09-2026 een vermindering van inbreng met €80.000 (terugbetaling aandeelhouders).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142, 5:143, 5:144" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Test 1 — Netto-actief-test (art. 5:142)",
+            "kolommen": ["Element", "Voor (€)", "Na uitkering (€)", "OK?"],
+            "rijen": [
+              ["Onbeschikbare inbreng (klasse 11)", "300.000", "220.000", "—"],
+              ["Beschikbare reserves (klasse 133)", "100.000", "100.000", "—"],
+              ["Statutair onbeschikbaar?", "0", "0", "—"],
+              ["Vereist EV-minimum (na uitkering)", "—", "220.000 (onbeschikbare inbreng)", "—"],
+              ["Werkelijk EV na uitkering", "—", "320.000 (220 + 100)", "✓ Voldoende"]
+            ],
+            "conclusie": "EV na uitkering €320.000 > onbeschikbare inbreng €220.000 → netto-actief-test PASSED."
+          },
+          {
+            "type": "tabel",
+            "titel": "Test 2 — Liquiditeitstest (art. 5:143)",
+            "kolommen": ["Element", "Bedrag (€)"],
+            "rijen": [
+              ["Liquide middelen na uitkering", "170.000"],
+              ["Verwachte cashflow uit operaties komende 12 mnd", "200.000"],
+              ["Te betalen schulden komende 12 mnd", "200.000"],
+              ["Totaal beschikbaar voor schulden", "370.000"],
+              ["Conclusie bestuur", "Vennootschap kan haar opeisbare schulden gedurende minstens 12 mnd voldoen → test PASSED. Bestuursverslag opgesteld."]
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boekingen BV DeltaCo",
+            "boekingen": [
+              { "datum": "2026-09-30", "debet": [{"rekening": "11", "label": "Onbeschikbare inbreng", "bedrag": 80000}], "credit": [{"rekening": "489", "label": "Te betalen aan aandeelhouders", "bedrag": 80000}] },
+              { "datum": "2026-09-30", "debet": [{"rekening": "489", "label": "Te betalen aan aandeelhouders", "bedrag": 80000}], "credit": [{"rekening": "550", "label": "Bank (-RV pro-rata want belaste reserves bestaan)", "bedrag": 80000}], "toelichting": "RV inhouding via pro-rata: verhouding inbreng/reserves moet vóór uitkering worden bepaald; reserves-deel triggert RV 30%" }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Kapitaalvermindering = belastingvrij",
+        "verkeerde_assumptie": "Geld dat de vennootschap aan aandeelhouders terugbetaalt via kapitaalvermindering is altijd belastingvrij.",
+        "kernpunt": "Sinds Wet 25-12-2017 (art. 18, 2°ter WIB92) wordt elke reële vermindering pro rata toegerekend aan kapitaal én belaste reserves. Het reserves-deel = dividend → RV 30%. Voor de aandeelhouder kan dit duizenden EUR's verschil maken — vroegtijdig fiscaal advies inwinnen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter" }
+          ]
+        }
+      },
+      {
+        "titel": "Geen schuldeiserstest bij BV",
+        "verkeerde_assumptie": "Omdat BV geen schuldeisersbeschermings-wachttermijn heeft (zoals NV), is uitkering uit BV altijd vrij.",
+        "kernpunt": "BV heeft GEEN 2-mnd-wachttermijn, MAAR de dubbele test (netto-actief + liquiditeit) is strenger in de praktijk — bestuur staat persoonlijk aansprakelijk (art. 5:144). Bovendien moet voor BV de liquiditeitstest schriftelijk worden gemotiveerd in bestuursverslag (12-maanden-prognose).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142-5:144" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanzuivering verlies = pro-rata",
+        "verkeerde_assumptie": "Ook bij aanzuivering van verlies geldt de pro-rata-toerekening tussen kapitaal en reserves.",
+        "kernpunt": "Pro-rata-regel (art. 18, 2°ter WIB92) geldt enkel bij **reële vermindering** met vermogensafvloei. Aanzuivering verlies is een interne EV-verschuiving — geen reële uitkering, geen pro-rata, geen RV. Wel: bij latere kapitaalverhoging via incorporatie reserves om het 'gesneuvelde' kapitaal te herstellen kan de pro-rata-cyclus opnieuw worden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-uitwerking pro-rata-scope" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Reële vermindering — terugbetaling of vrijstelling volstortingsplicht?",
+        "opties": [
+          {
+            "keuze": "Terugbetaling kapitaal (cash naar aandeelhouders)",
+            "voordeel": "Aandeelhouders ontvangen direct cash; ideaal voor exit/opvolging.",
+            "nadeel": "Pro-rata-effect: deel wordt geherkwalificeerd als dividend (RV 30%); vereist liquiditeit in de vennootschap."
+          },
+          {
+            "keuze": "Vrijstelling volstortingsplicht (NV, niet-volstort kapitaal)",
+            "voordeel": "Geen cash-uitstroom; aandeelhouders worden ontheven van toekomstige stortingsverplichting.",
+            "nadeel": "Geen onmiddellijk economisch voordeel voor aandeelhouder; werkt enkel wanneer kapitaal niet volledig volstort is."
+          }
+        ],
+        "vuistregel": "Bij overtollig kapitaal in een liquide vennootschap → terugbetaling. Bij NV met groot niet-volstort kapitaal en zwakke aandeelhouder-positie → vrijstelling.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
+      "id": "perspectief-vennootschap-vermindering",
+      "naam": { "primair": "Vanuit de vennootschap" },
+      "intro": "Accountant adviseert over fiscale optimalisatie, voert pro-rata-berekening uit, en stelt bij BV de tests-documentatie op.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "prorata-fiscaal-advies",
+              "naam": { "primair": "Pro-rata-fiscaal advies + RV-aangifte" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Stappenplan voor accountant**:\n\n1. **Inventarisatie EV-componenten** vóór de vermindering: opvragen 'fiscaal gestort kapitaal' uit fiscale tabel (211 + 212 aangifte VenB), belaste reserves, belastingvrije reserves, liquidatiereserve per vintage.\n2. **Berekening pro-rata-verhouding**: kapitaal / (kapitaal + belaste reserves).\n3. **Toepassing op vermindering-bedrag**: kapitaal-deel × 0% RV; reserves-deel × 30% RV (of 15% liquidatiereserve > 5 j).\n4. **Aangifte roerende voorheffing (formulier 273A)** binnen 15 dagen na toekenning of betaling van het dividend-deel.\n5. **Bijwerking fiscale tabel** (aangifte VenB van het lopende boekjaar): fiscaal gestort kapitaal ↓, belaste reserves ↓ pro rata.\n6. **Notulering AV + bestuursverslag** archiveren met pro-rata-berekening (5j-bewaarplicht art. III.86 WER).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 18, 2°ter, art. 269" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist accountant" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhouder-vermindering",
+              "naam": { "primair": "Boekhoudkundige verwerking" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Boekingsschema** kapitaalvermindering:\n\n1. **Terugbetaling (NV) — na 2 mnd wachttermijn**:\n```\nD 100 Geplaatst kapitaal\n  C 489 Te betalen aan aandeelhouders\n```\nBij effectieve betaling: D 489 / C 550 Bank − 453 Ingehouden RV op reserves-deel.\n\n2. **Aanzuivering verlies**:\n```\nD 100 Geplaatst kapitaal\n  C 141 Overgedragen verlies\n```\n\n3. **Vrijstelling volstortingsplicht (NV)**:\n```\nD 100 Geplaatst kapitaal (= vermindering geplaatst kapitaal met niet-volstort deel)\n  C 101 Niet-opgevraagd kapitaal (verdwijnt — vordering uitgedoofd)\n```\nNetto-effect op cash = nul; netto-effect op EV = nul (beide rubrieken contra-elkaar weggeboekt).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese boekingsschema's" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "vereist", "target": "kapitaalbescherming" },
+    { "type": "beinvloed_door", "target": "algemene-vergadering" },
     {
       "type": "vergelijkbaar_met",
-      "target": "kapitaalverhoging"
-    },
-    {
-      "type": "triggert",
-      "target": "alarmbel-procedure"
-    },
-    {
-      "type": "vereist",
-      "target": "kapitaalbescherming"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "algemene-vergadering"
+      "target": "kapitaalverhoging",
+      "gelijkenissen": [
+        "Beide vereisen statutenwijziging + notariële akte + 75% AV-meerderheid",
+        "Beide volgen procedure WVV boek 7 hoofdstuk Kapitaal (NV) en boek 5 (BV)"
+      ],
+      "verschillen": [
+        "Verhoging = EV ↑, externe inbreng; vermindering = EV ↓, uitkering of verlies-aanzuivering",
+        "Verhoging kent voorkeurrecht; vermindering kent schuldeisersbescherming (NV 2 mnd) of dubbele test (BV)",
+        "Verhoging heeft geen pro-rata-effect; vermindering wel (art. 18, 2°ter WIB92)"
+      ],
+      "verwarring_risico": "Beide raken EV — de juridische procedures lijken op elkaar (notaris + 75%), maar de derden-bescherming-mechaniek is fundamenteel anders.",
+      "render_hint": "als_keuze"
     }
   ]
 }
