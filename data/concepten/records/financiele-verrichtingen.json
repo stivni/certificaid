@@ -3,13 +3,14 @@
   "naam": {
     "primair": "Financiële verrichtingen",
     "synoniemen": [
-      "financiële kosten en opbrengsten"
+      "financieel resultaat",
+      "klasse 65-75"
     ]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "gebeurtenis"
@@ -38,9 +39,14 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/financiele-verrichtingen.json",
+      "primary_bronnen": [
+        "MAR klasse 65 + 75 (KB 21-10-2018)",
+        "KB 29-04-2019 WVV — financieel resultaat"
+      ]
     },
     "changelog": [
       {
@@ -48,31 +54,147 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — klasse 65/75 + sub-rubrieken + voorbeelden"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Financiële verrichtingen** zijn de **terugkerende** financiële kosten en opbrengsten van een onderneming, geboekt in **MAR-klasse 65** (kosten) en **MAR-klasse 75** (opbrengsten). Ze vormen het **financieel resultaat** dat tussen het bedrijfsresultaat (klasse 60-65/70-74 voor het bedrijfsdeel — exclusief 65) en het niet-recurrent resultaat (66/76) op de resultatenrekening verschijnt. Typische posten: **rentelasten op leningen**, **rente-opbrengsten op vorderingen**, **disconto- en provisiekosten** bij bankverrichtingen, **agio bij obligatie-uitgifte**, **valutaresultaten** en **waardeverminderingen op financiële vaste activa**.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 65 + 75",
+              "context": "Sub-rubricering financiële verrichtingen"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**MAR-klasse 65 — Financiële kosten** (selectie):\n- **650 Rentekosten** op schulden (banklening, obligatie, kasgeld-kredieten)\n- **651 Provisiekosten** voor bankgaranties, kredieten\n- **652 Minderwaarden op realisatie van vlottende activa** (excl. handels-)\n- **653 Disconto op vorderingen** (factoring-kosten)\n- **654 Negatieve wisselresultaten**\n- **656 Voorzieningen voor financiële risico's**\n- **657 Negatieve waardeverminderingen op vlottende activa**\n\n**MAR-klasse 75 — Financiële opbrengsten**:\n- **750 Opbrengsten uit financiële vaste activa** (dividenden, interest)\n- **751 Opbrengsten uit vlottende financiële activa** (intresten op deposito's, kasbons)\n- **752 Meerwaarden op realisatie van vlottende activa**\n- **753 Subsidies in kapitaal en in intrest** (rentesubsidies)\n- **754 Positieve wisselresultaten**\n- **756 Terugnemingen van voorzieningen voor financiële risico's**\n\n**Onderscheid met klasse 66/76**: financiële verrichtingen zijn **recurrent** — een lening die loopt sinds jaren genereert elk boekjaar interest. Niet-recurrente verrichtingen zijn éénmalig of buitengewoon.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 65 + 75",
+              "context": "Sub-rubricering + onderscheid recurrent vs niet-recurrent"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De afscheiding van financiële verrichtingen van het bedrijfsresultaat heeft een belangrijk **analytisch doel**: lezers van de jaarrekening kunnen het **operationele rendement** (bedrijfsresultaat) onderscheiden van het effect van de **financieringsstructuur** (financieel resultaat). Twee identieke ondernemingen met dezelfde EBIT (bedrijfsresultaat) maar verschillende leverage (eigen vermogen versus banklening) zullen dezelfde bedrijfsmarge tonen maar een verschillend financieel resultaat — wat ratio-analyse zoals dekking-rente-lasten of EBITDA-margin transparant maakt.",
+        "grondslag": {
+          "confidence": "afgeleid",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Analytische rationale + ratio-context"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "rente-banklening",
+        "naam": {
+          "primair": "Rentelast op banklening (650)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Banklening van 200.000 EUR aan 4 % jaarlijkse rente, kwartaal-betaling.\n\n**Kwartaalboeking** (rente = 200.000 × 4% / 4 = 2.000 EUR):\n```\n650 Rentekosten op schulden       D 2.000\n   55 Bank                         C 2.000\n```\n\nVoor de **toerekening per boekjaar**: bij een banklening die kwartalen doorloopt op balansdatum is een **toe-te-rekenen rente** (492) nodig voor de fractie tussen laatste betalingsdatum en jaareinde.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 — MAR",
+                  "ref": "Rekening 650",
+                  "context": "Rentekosten op schulden"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "valutaresultaat",
+        "naam": {
+          "primair": "Valutaresultaat — wisselverschillen op vorderingen/schulden"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Een factuur van 10.000 USD wordt verstuurd bij koers 0,90 EUR/USD = 9.000 EUR boekwaarde. Betaling ontvangen 3 maanden later bij koers 0,95 EUR/USD = 9.500 EUR.\n\n**Initiële boeking**:\n```\n400 Vorderingen op klanten        D 9.000\n   70 Omzet                       C 9.000\n```\n\n**Bij betaling**:\n```\n55 Bank                           D 9.500\n   400 Vorderingen                 C 9.000\n   754 Positieve wisselresultaten  C 500\n```\n\nBij **balansdatum** voor nog niet vereffende vreemdvalutavorderingen: herwaardering aan slotkoers met boeking van het verschil (754 of 654). Bij waardedaling: **657 Negatieve waardeverminderingen op vlottende activa** (volgens art. 3:43 KB).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:43-44",
+                  "context": "Vreemde valuta — herwaarderingsregels"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 65/75 verwarren met 66/76",
+        "verkeerde_assumptie": "Alle wisselverliezen of waardeverminderingen op financiële activa horen bij 'uitzonderlijk' (66).",
+        "kernpunt": "**Recurrente** financiële operaties (jaarlijkse interest, normale valutaresultaten op exporten, waardeverminderingen op vlottende handels-vorderingen) horen in **65/75**. Klasse **66/76** is voor **eenmalige, materiële, niet-recurrente** gebeurtenissen — meerwaarde bij verkoop van een dochteronderneming, herstructureringskost, schade-uitkering bij brand.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — MAR",
+              "ref": "Klasse 65/75 vs 66/76",
+              "context": "Recurrent vs niet-recurrent onderscheid"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "boekhouding"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "niet-recurrente-verrichtingen",
+      "gelijkenissen": [
+        "Beide buiten het bedrijfsresultaat",
+        "Beide hebben symmetrische kost-/opbrengstklassen (65/75 vs 66/76)"
+      ],
+      "verschillen": [
+        "Financieel = recurrent + financierings-gerelateerd",
+        "Niet-recurrent = eenmalig + materieel + buitengewoon"
+      ],
+      "verwarring_risico": "Stagiairs classificeren een grote eenmalige meerwaarde verkeerd in klasse 75 ipv 76.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
