@@ -1,78 +1,348 @@
 {
   "id": "innovatie-aftrek",
   "naam": {
-    "primair": "Innovatie-aftrek",
-    "synoniemen": [
-      "innovatieaftrek",
-      "IP-aftrek"
-    ]
+    "primair": "Aftrek voor innovatie-inkomsten",
+    "afkorting": "innovatie-aftrek",
+    "synoniemen": ["IP-aftrek nieuwe regime", "aftrek innovatie-inkomsten art. 205/1"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.3.II.D"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.3.II.D"],
     "scope": {
       "in": [
-        "85% vrijstelling van netto-octrooi-inkomsten en kwalificerende IP-inkomsten",
-        "Opvolger van oude octrooi-aftrek (80%)",
-        "Nexus-benadering (OESO BEPS) — verband eigen R&D-uitgaven",
-        "Documentatie + boekhoudkundige isolering van inkomsten + kosten"
+        "85 % vrijstelling van netto-octrooi-inkomsten en kwalificerende IP-inkomsten",
+        "Opvolger van oude octrooi-inkomen-aftrek (80 %)",
+        "Nexus-benadering (OESO BEPS Action 5) — verband eigen R&D-uitgaven",
+        "Documentatie + boekhoudkundige isolering van inkomsten + kosten",
+        "Onbeperkt overdraagbaar + omzetbaar in belastingkrediet (art. 289decies)"
       ],
       "out": [
-        {
-          "topic": "Σ-keuzekader VenB-voordelen",
-          "richting": "mag-verwijzen",
-          "ref": "fiscale-voordelen-vennootschap"
-        },
-        {
-          "topic": "Investeringsaftrek voor R&D (cumuleerbaar?)",
-          "richting": "mag-verwijzen",
-          "ref": "investeringsaftrek"
-        }
+        {"topic": "Σ-keuzekader VenB-voordelen", "richting": "mag-verwijzen", "ref": "fiscale-voordelen-vennootschap"},
+        {"topic": "Investeringsaftrek voor R&D (cumuleerbaar?)", "richting": "mag-verwijzen", "ref": "investeringsaftrek"}
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fiscale-voordelen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/innovatie-aftrek.json",
+      "primary_bronnen": ["WIB92 art. 205/1", "WIB92 art. 205/2", "WIB92 art. 205/3", "WIB92 art. 205/4", "WIB92 art. 289decies"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "fiscale-voordelen-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle — art. 205/1-205/4 WIB92, nexus-formule, 85 %-vrijstelling."}
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "tekst": "De aftrek voor innovatie-inkomsten (art. 205/1 tot 205/4 WIB92) stelt 85 % van de netto-inkomsten uit kwalificerende intellectuele eigendomsrechten vrij van vennootschapsbelasting. Kwalificerende rechten zijn o.a. octrooien, kwekersrechten, auteursrechtelijk beschermde software ontwikkeld in een R&D-project, en weesgeneesmiddelen. Het regime geldt sinds 1 juli 2016 (wet 9-2-2017) en vervangt de oudere octrooi-inkomen-aftrek (80 %, art. 543 WIB92). Het volgt de OESO-nexus-benadering: de aftrek wordt evenredig beperkt naargelang het aandeel eigen R&D-uitgaven in de totale R&D-kosten van het IP-actief.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §1"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het effectief belastingtarief op netto-innovatie-inkomen daalt zo van 25 % naar 3,75 % (= 25 % × 15 %). Concreet: een softwarebedrijf met 1 mio EUR licentie-inkomsten betaalt — na aftrek R&D-kosten en nexus-correctie — slechts ca. 37.500 EUR belasting i.p.v. 250.000 EUR. Voor R&D-intensieve bedrijven (biotech, software, deep-tech) is dit het meest impactvolle fiscale regime. De aftrek wordt op de netto-IP-inkomsten toegepast: bruto-inkomsten minus rechtstreekse kosten (afschrijving IP, R&D-uitgaven, royalty's). Niet-gebruikte aftrek is onbeperkt overdraagbaar; sinds 2017 ook omzetbaar in een belastingkrediet (art. 289decies) — handig voor verlieslatende vennootschappen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 289decies"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Effectief tarief 25 % × 15 % = 3,75 %"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: stimuleren van R&D-activiteit in België. De OESO heeft via BEPS Action 5 (2015) een 'nexus-approach' opgelegd om 'patent box'-regimes te beperken tot reële economische activiteit — anders zouden lege IP-holdings buitenlandse R&D-inkomsten kunnen onderbrengen in landen met gunstige aftrek. De nexus-formule koppelt de aftrek aan de eigen R&D-inspanning: hoe meer eigen R&D, hoe meer aftrek. Zo wordt fiscaal voordeel gekoppeld aan substantiële economische activiteit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2 §2 (nexus)"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 5-context"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vennootschapsbelasting"],
+      "kader": "fiscale-voordelen-vennootschap"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2016-07-01",
+        "wettelijke_basis": "WIB92 art. 205/1 tot 205/4 + art. 289decies (belastingkrediet) + opgave 275 INNO",
+        "toelichting": "Ingevoerd door wet 9-2-2017 ter vervanging van oude octrooi-aftrek (art. 543 WIB92, 80 %-aftrek alleen voor octrooi-inkomsten). Overgangsregime tot 30-6-2021 voor reeds ontwikkelde IP onder oude regime."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschap met inkomsten uit kwalificerend intellectueel eigendomsrecht: octrooien (incl. aanvullende beschermingscertificaten en aangevraagde octrooien), kwekersrechten, weesgeneesmiddelen, data- en marktexclusiviteit (regulatorische bescherming), auteursrechtelijk beschermde software ontwikkeld in een R&D-project.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §2 2°"}]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) volle eigendom, mede-eigendom, vruchtgebruik of licentierechten op het IP; (2) IP gekoppeld aan eigen R&D-activiteit (anders nexus-aftrek 0); (3) afzonderlijke boekhouding per IP-actief om netto-inkomsten, R&D-uitgaven en uitbestede kosten te kunnen identificeren; (4) opgave 275 INNO bij aangifte met gedetailleerde berekening.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §3"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/3"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Effectief tarief 3,75 % i.p.v. 25 % op netto-innovatie-inkomen. Combineerbaar met andere aftrekken (DBI, investeringsaftrek, ...). Onbeperkt overdraagbaar bij ontoereikende winst. Omzetbaar in belastingkrediet (art. 289decies × 25 %-tarief) — verzilverbaar zelfs bij verlieslijdende vennootschap binnen 5 jaar.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 289decies"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Risico van te ruime kwalificatie ('alle software' i.p.v. 'software ontwikkeld in een echt R&D-project'). Bij controle: de fiscus eist documentatie van het R&D-project (projectplan, BELSPO-attest of equivalent, gewerkte uren, kostentoerekening). Geen reëel R&D = aftrek wordt verworpen + nalatigheidsinteresten.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/3"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkervaring controles"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vrijstellingspercentage",
+        "naam": {"primair": "85 %-vrijstelling"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "85 % van de netto-innovatie-inkomsten wordt vrijgesteld; slechts 15 % blijft belastbaar. Combineerd met VenB-tarief 25 %: effectief tarief = 25 % × 15 % = 3,75 % op het netto-innovatie-inkomen. Bij KMO-tarief 20 % op eerste schijf: effectief 3 %.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §1"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "nexus-formule",
+        "naam": {"primair": "Nexus-breuk"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De aftrek wordt vermenigvuldigd met een nexus-breuk: (kwalificerende R&D-uitgaven × 1,3) / totale R&D-uitgaven, met maximum 1. Kwalificerende R&D-uitgaven = eigen R&D + uitbestede R&D aan niet-verbonden partijen. Niet-kwalificerend = uitbestede R&D aan verbonden partijen + acquisitiekosten IP. Zo wordt aftrek beperkt naargelang de eigen substantiële R&D-inspanning.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2 §2"}]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "nexus = min(1, (eigen R&D + uitbestede R&D niet-verbonden) × 1,3 / totale R&D)"
+          }
+        ]
+      },
+      {
+        "id": "netto-inkomen-berekening",
+        "naam": {"primair": "Netto-innovatie-inkomen"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Netto-innovatie-inkomen = bruto IP-inkomsten (royalty's, licenties, embedded IP-deel van productverkoop, schadevergoeding bij inbreuk) MIN rechtstreekse kosten van het IP (afschrijving IP-actief, lopende R&D-kosten, betaalde royalty's, ...). Bij negatief netto-inkomen in een jaar: te recapturen in volgende jaren tot het positief is. Aftrek = 85 % × netto-inkomen × nexus.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2 §1"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2 §3 (recapture)"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastingkrediet-omzetting",
+        "naam": {"primair": "Omzetting in belastingkrediet (art. 289decies)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien de aftrek niet of niet volledig kon worden gebruikt door onvoldoende winst, kan ze worden omgezet in een belastingkrediet = bedrag van niet-gebruikte aftrek × 25 %. Dit krediet is verrekenbaar met VenB van de volgende 5 belastbare tijdperken, en eventueel terugbetaalbaar na uitputting. Belangrijk voor R&D-startups die nog verlieslatend zijn — fiscaal voordeel wordt verzilverd zonder winst.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 289decies"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwalificerende-ip",
+        "naam": {"primair": "Kwalificerende intellectuele eigendomsrechten"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Kwalificeren: (a) octrooien + aanvullende beschermingscertificaten + aangevraagde octrooien; (b) kwekersrechten; (c) auteursrechtelijk beschermde software ontwikkeld in een R&D-project (R&D-erkenning is belangrijk); (d) weesgeneesmiddelen; (e) data- en marktexclusiviteit voor geneesmiddelen of gewasbeschermingsmiddelen. NIET kwalificerend: handelsmerken, modellen, domeinnamen, knowhow zonder octrooi.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §2"}]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-softwarebedrijf",
+        "titel": "TechLab BV — software in R&D-project",
+        "context": "TechLab BV ontwikkelt een SaaS-platform via een erkend R&D-project. Jaar N: licentie-inkomsten 1.000.000 EUR; directe kosten (afschrijving software 100.000 + lopende R&D 300.000) = 400.000 EUR. Eigen R&D-uitgaven over heel het project: 800.000 EUR; geen uitbestede R&D; geen acquisitie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1-205/2"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — netto-innovatie-inkomen = 1.000.000 − 400.000 = 600.000 EUR.",
+              "Stap 2 — nexus-breuk = min(1, (800.000 × 1,3) / 800.000) = min(1, 1,3) = 1 (volle nexus, want geen niet-kwalificerende uitgaven).",
+              "Stap 3 — aftrek = 85 % × 600.000 × 1 = 510.000 EUR.",
+              "Stap 4 — belastbaar deel innovatie-inkomen = 600.000 − 510.000 = 90.000 EUR.",
+              "Stap 5 — bij VenB 25 %: belasting op innovatie-inkomen = 22.500 EUR i.p.v. 150.000 EUR (zonder aftrek). Effectief tarief = 22.500 / 600.000 = 3,75 %."
+            ],
+            "resultaat": "Fiscaal voordeel 127.500 EUR voor één boekjaar. Indien onvoldoende winst om hele aftrek te benutten: rest onbeperkt overdraagbaar of omzetbaar in belastingkrediet 510.000 × 25 % = 127.500 EUR."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Oude octrooi-aftrek (80 %) en nieuwe innovatie-aftrek (85 %) verwarren",
+        "verkeerde_assumptie": "Beide regimes zijn identiek; je kan de oude 80 % blijven gebruiken.",
+        "kernpunt": "De oude octrooi-aftrek (art. 543 WIB92, 80 %) gold ENKEL voor octrooi-inkomsten en heeft GEEN nexus-beperking. Het nieuwe regime (art. 205/1, 85 %) heeft een ruimere kwalificatie (incl. software) maar OOK nexus-correctie. Overgangsregime tot 30-6-2021 voor reeds ontwikkelde IP onder oude regime — daarna verplicht nieuwe regime.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 543 (oud)"}
+          ]
+        }
+      },
+      {
+        "titel": "'Alle software' kwalificeert",
+        "verkeerde_assumptie": "Software die in de vennootschap ontwikkeld wordt komt automatisch in aanmerking.",
+        "kernpunt": "Software kwalificeert alleen als ze 'beschermd door auteursrecht' is EN 'ontwikkeld in een R&D-project'. R&D-erkenning is cruciaal: BELSPO-attest of equivalent, project-documentatie, gewerkte uren-registratie. Loutere bedrijfssoftware (CRM, ERP-customizing) zonder echt R&D-karakter = geen aftrek.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1 §2 2°"}]
+        }
+      },
+      {
+        "titel": "Bruto-inkomen i.p.v. netto-inkomen vrijstellen",
+        "verkeerde_assumptie": "85 % × bruto IP-inkomsten = aftrek.",
+        "kernpunt": "De aftrek is 85 % × NETTO-innovatie-inkomen = bruto MIN directe kosten (afschrijving IP-actief, lopende R&D-kosten, betaalde royalty's, ...). En vervolgens nog te beperken via nexus-breuk indien er niet-kwalificerende R&D-uitgaven zijn.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 205/2 §1"}]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "fiscale-voordelen-vennootschap"
+      "id": "rd-intensieve-vennootschap",
+      "naam": {"primair": "R&D-intensieve vennootschap (biotech/software/deep-tech)"},
+      "intro": "Accountant van een vennootschap met substantiële R&D-activiteit en IP-portfolio.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "opgave-275-inno",
+              "naam": {"primair": "Opgave 275 INNO opmaken"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per kwalificerend IP-actief een aparte berekening: bruto IP-inkomsten, directe kosten, netto-inkomen, R&D-uitgaven (kwalificerend + niet-kwalificerend), nexus-breuk, aftrek 85 %. De opgave 275 INNO wordt elektronisch bij de aangifte VenB ingediend. Documentatie (project-plan, BELSPO-attest, kostentoerekening) gereed houden voor controle.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/3"},
+                      {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1439 — opgave 275 INNO"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "keuze-omzetting-belastingkrediet",
+              "naam": {"primair": "Keuze: aftrek vs belastingkrediet"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor verlieslatende of nipt-winstgevende vennootschappen: omzetting in belastingkrediet (art. 289decies) heeft voorkeur — krediet is verrekenbaar over 5 jaar en kan terugbetaald worden. Voor winstgevende vennootschappen: aftrek geeft groter onmiddellijk effect (vermindert belastbare basis 1-op-1; belastingkrediet is 25 % van zelfde bedrag). Bij overdraagbare aftrek + voldoende toekomstige winst: aftrek behouden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 289decies"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhoudkundige-isolering",
+              "naam": {"primair": "Boekhoudkundige isolering van IP-inkomsten"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per kwalificerend IP-actief: aparte analytische rekening voor (a) bruto-inkomsten (royalty's, licenties, embedded IP-deel van productverkoop), (b) directe kosten (afschrijving 213/214, lopende R&D 61x), (c) R&D-uitgaven per categorie (eigen, uitbesteed verbonden, uitbesteed niet-verbonden, acquisitie). Zonder deze isolering: aftrek niet onderbouwbaar bij controle.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/3"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk innovatie-aftrek"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "fiscale-voordelen-vennootschap"},
+    {"type": "triggert", "target": "aangifte-vennootschapsbelasting", "toelichting": "Code 1439 + opgave 275 INNO in de aangifte VenB."}
   ]
 }
