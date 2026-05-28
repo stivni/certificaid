@@ -3,7 +3,7 @@ title: PO 2.8 — Europees en internationaal fiscaal recht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.8 (Europees en internationaal fiscaal recht).
 tags: [examen, voorbeeldvragen, po-2-8]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 2.8 — Europees en internationaal fiscaal recht

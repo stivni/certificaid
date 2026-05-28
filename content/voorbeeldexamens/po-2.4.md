@@ -3,12 +3,12 @@ title: PO 2.4 — Belasting over de toegevoegde waarde
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.4 (Belasting over de toegevoegde waarde).
 tags: [examen, voorbeeldvragen, po-2-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 2.4 — Belasting over de toegevoegde waarde
 
-**31 unieke vraag-eenheden** (waarvan 2 clusters, totaal 33 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
+**31 unieke vraag-eenheden** (waarvan 2 clusters, totaal 33 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 31 met modelantwoord
 
 <a id="2024-1-vr11A"></a>
 
@@ -978,40 +978,105 @@ gegenereerd_op: 2026-05-26
 <a id="2008-bibf-vrD1"></a>
 <a id="2003-bibf-vrD1"></a>
 
-> [!question]- Boekhoudkundige organisatie en wettelijke verplichtingen voor een taverne-restaurant als BTW-plichtige
+> [!question]- BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater
 > *Examens 2008-bibf (2008-bibf-vrD1) & 2003-bibf (2003-bibf-vrD1) · PO 2.4*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
-> Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na de administratieve formaliteiten opteert hij bij de BTW-administratie voor het statuut van normale kwartaal-BTW-belastingplichtige. Hij vraagt u zijn boekhoudkundig dossier te beheren.
+> Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW-administratie voor het statuut van normale trimestriële BTW-belastingplichtige. Hij vraagt u om zijn boekhoudkundig dossier te beheren.
 >
-> Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden, alsook welke stukken/informatie u ieder kwartaal/jaar van hem wenst te ontvangen.
+> Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie u ieder trimester van hem wenst te ontvangen.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > Als kwartaal-BTW-belastingplichtige horeca-uitbater moet de cliënt (a) een aan zijn activiteit aangepaste BTW-boekhouding voeren met de wettelijk verplichte boeken, (b) facturen uitreiken en kastickets afleveren via een geregistreerd kassasysteem (GKS) wanneer zijn jaaromzet restaurant-/cateringdiensten > 25.000 EUR, (c) kwartaalaangiften en de jaarlijkse klantenlisting indienen, en (d) zijn boeken en stukken 10 jaar bewaren. Per kwartaal bezorgt hij u: aankoop-/onkostenfacturen, verkoopfacturen, dagontvangstenboek met de Z-rapporten/kastickets, kas- en bankuittreksels en de loonstaten. 🔗
+> > 
+> > **BTW-verplichtingen (W.BTW + KB nr. 1):**
+> > 
+> > - **Aangifte bij aanvang/wijziging/stopzetting** activiteit bij het bevoegde BTW-controlekantoor (art. 53 W.BTW). 📖
+> > - **BTW-boekhouding aangepast aan de activiteit** (art. 14 §1 KB nr. 1): boek voor inkomende facturen, boek voor uitgaande facturen, **dagboek van ontvangsten** per bedrijfszetel (verplicht voor handelingen waarvoor geen factuur moet worden uitgereikt — typisch horeca-verkopen aan particulieren), en een **centralisatieboek** als er meerdere boeken zijn. 📖
+> > - **Facturen uitreiken** voor handelingen aan BTW-plichtigen/rechtspersonen en bewaren van dubbels (art. 53, §2 W.BTW). 📖
+> > - **Geregistreerd kassasysteem (GKS) met kasticket** wanneer de jaaromzet uit restaurant-/cateringdiensten (exclusief BTW, dranken niet meegeteld) meer bedraagt dan **25.000 EUR** (art. 21bis KB nr. 1 + KB 30.12.2009). 📖
+> > - **Periodieke BTW-aangifte per kwartaal** indienen uiterlijk de **20e** van de maand volgend op het kwartaal en de verschuldigde BTW betalen; bij keuze voor het normale kwartaalregime zijn **voorschotten** verschuldigd (art. 53, §1 W.BTW + KB nr. 1). 🔗
+> > - **Jaarlijkse klantenlisting** (lijst BTW-belastingplichtige afnemers) indienen vóór 31 maart van het volgende jaar (KB nr. 23). 📖
+> > - **Intracommunautaire opgave** indien IC-leveringen of -diensten (KB nr. 50) — voor zuivere horeca meestal niet aan de orde. 🔗
+> > - **Bewaarplicht** van boeken, facturen en stukken gedurende **7 jaar** (sinds 2019; voor het examenjaar 2003 gold nog **10 jaar** — art. 60 W.BTW). ❓
+> > 
+> > **Boekhoudkundige en sociale verplichtingen:**
+> > 
+> > - **Boekhoudplicht** als natuurlijke persoon met zelfstandige beroepsactiviteit (vroeger Wet 17.07.1975, sinds WER Boek III art. III.82 e.v.): minstens een **vereenvoudigde boekhouding** (financieel dagboek, aankoopboek, verkoopboek, inventarisboek) zolang de omzet ≤ de drempel (vandaag 500.000 EUR ex BTW); daarboven dubbel boekhouden. 🔗
+> > - **Jaarlijkse inventaris** en opmaak van **jaarrekening** (interne jaarrekening voor de eenmanszaak). 🔗
+> > - **Aansluiting bij een sociaal verzekeringsfonds** voor zelfstandigen + driemaandelijkse sociale bijdragen. 🔗
+> > - **Personenbelasting**: jaarlijkse PB-aangifte met **deel 2** (winst-/baten); kwartaalvoorafbetalingen om belastingvermeerdering te vermijden. 🔗
+> > - **Bedrijfsvoorheffing** en RSZ inhouden en doorstorten indien personeel in dienst. 🔗
+> > 
+> > Wat u als boekhouder telkens vóór het einde van de maand na het kwartaal van de cliënt nodig heeft om de BTW-aangifte op te maken:
+> > 
+> > - **Aankoopfacturen en onkostennota's** van het kwartaal (handelsgoederen, dranken, voeding, energie, huur, telefoon, verzekeringen, ...), origineel of elektronisch. 🔗
+> > - **Verkoopfacturen** uitgereikt aan BTW-plichtige klanten / op vraag (seminaries, bedrijfsmaaltijden, ...). 🔗
+> > - **Dagboek van ontvangsten** en/of de **dagelijkse Z-rapporten** van het geregistreerd kassasysteem (of, bij omzet ≤ 25.000 EUR restaurant/catering: het manueel bijgehouden ontvangstenboek met dagtotalen). 🔗
+> > - **Kas- en bankuittreksels** van alle beroepsrekeningen + kasboek. 🔗
+> > - **Creditnota's** (uitgaand en inkomend) en eventuele **invoerdocumenten / IC-stukken**. 🔗
+> > - **Loon- en personeelsstaten** (indien personeel): individuele rekeningen, lonen, bedrijfsvoorheffing, RSZ-aangifte. 🔗
+> > - **Eventuele investeringsdocumenten** (aankoop materieel, auto, inrichting) — relevant voor BTW-aftrek en afschrijving. 🔗
+> > - **Stand van vorderingen/schulden** op kwartaaleinde (klanten- en leverancierssaldi) voor de tussentijdse afsluit. 🔗
+> > 
+> > Jaarlijks bijkomend: **inventaris voorraad** (drank, food, klein materieel) en kilometerstand/privégebruik beroepsvoertuig voor het BTW-aftrekverhoudingscijfer. 🔗
+> > 
+> > Het **geregistreerd kassasysteem (GKS)** voor horeca bestond in 2003 nog niet — het werd ingevoerd vanaf **2014** (KB 30.12.2009 + KB 01.10.2013). In 2003 hield een taverne-uitbater zijn omzet bij in een **gewoon dagontvangstenboek** (per bedrijfszetel, dagelijks ingevuld met afzonderlijke vermelding per BTW-tarief — art. 14 KB nr. 1). De 25.000 EUR-drempel en de GKS-verplichting zijn dus enkel relevant voor de moderne lezing van de vraag. Het juist toepassen van het tijdperk-correcte regime is de typische valkuil bij oudere examenvragen. 🔗
+> > 
+> > **W.BTW**: art. 53 (aanvangsaangifte, periodieke aangifte, facturatie), art. 60 (bewaarplicht boeken en stukken), art. 56bis (kasticket horeca). **KB nr. 1 W.BTW** (29.12.1992): art. 14 (boekhouding aangepast aan de activiteit + verplichte boeken inclusief dagboek van ontvangsten), art. 21bis (kasticket-/GKS-plicht horeca > 25.000 EUR). **KB nr. 23** (09.12.2009): jaarlijkse klantenlisting. **KB nr. 50**: intracommunautaire opgave. **WER Boek III** (art. III.82 e.v.): algemene boekhoudplicht zelfstandigen. 📖  
+> > *Bron: art. 53, 56bis, 60 W.BTW · art. 14, 21bis KB nr. 1 · KB nr. 23 · WER art. III.82*
 
 <a id="2008-bibf-vrD2"></a>
 <a id="2003-bibf-vrD2"></a>
 
-> [!question]- BTW-factureringsplicht bij voorschotten en bewaarplicht documenten voor een schrijnwerker
+> [!question]- BTW-factureringsverplichtingen bij voorschotfacturen voor schrijnwerkerswerken
 > *Examens 2008-bibf (2008-bibf-vrD2) & 2003-bibf (2003-bibf-vrD2) · PO 2.4*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
-> Een zelfstandige schrijnwerker stelt offertes op met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot vóór aanvang der werkzaamheden, een tweede voorschot halfweg, en het saldo bij voltooiing. Hij stelt vervolgens één factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.
+> Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.
 >
 > **Is er een reden om hem te adviseren zijn werkwijze aan te passen?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Ja** — de schrijnwerker moet zijn werkwijze aanpassen. Voor elk ontvangen voorschot is hij **wettelijk verplicht een factuur uit te reiken** (uiterlijk de 15de dag van de maand volgend op die waarin de btw opeisbaar wordt). Eén eindfactuur "voldaan" voor het totaal volstaat dus niet. 🔗
+> > 
+> > Bij een dienst (aannemingswerk) wordt de btw in beginsel opeisbaar op het tijdstip waarop de dienst is verricht (art. 22 WBTW). **Wanneer de prijs of een deel ervan wordt ontvangen vóór dat tijdstip — een voorschot — wordt de btw opeisbaar over het ontvangen bedrag op het tijdstip van de betaling** (art. 22bis §1 WBTW, parallel aan art. 17 §1 derde lid voor goederen). 📖
+> > 
+> > De belastingplichtige is gehouden een factuur uit te reiken **uiterlijk de vijftiende dag van de maand volgend op die waarin de btw opeisbaar is geworden** (art. 53 §2 WBTW + art. 4 KB nr. 1). Concreet voor deze schrijnwerker:
+> > 
+> > - **Voorschot 1** (vóór aanvang) → factuur uiterlijk de 15de van de volgende maand.
+> > - **Voorschot 2** (halfweg) → idem.
+> > - **Saldo bij voltooiing** → factuur uiterlijk de 15de van de maand volgend op de oplevering.
+> > 
+> > De vermelding "voldaan" op één eindfactuur dekt deze verplichting niet: de wet vereist dat de **opeisbaarheid per voorschot wordt vastgelegd** in een factuur, zodat de btw tijdig kan worden afgedragen. 🔗
+> > 
+> > Een **offerte** of **bestelbon** is geen factuur in de zin van het WBTW — ook al draagt zij prijsaanduidingen. Zolang er geen factuur is uitgereikt voor een voorschot dat reeds ontvangen werd, is de schrijnwerker in overtreding, ook al heeft hij de btw uiteindelijk via de eindfactuur correct aangegeven. Het uitreikingsmoment (en niet alleen het uiteindelijk afdragen) is de wettelijke verplichting. 🔗
+> > 
+> > Art. 22 en 22bis §1 WBTW (opeisbaarheid btw bij diensten en bij ontvangst van voorschot vóór de dienst); art. 53 §2, 1° WBTW (factureringsverplichting per belastbare handeling); art. 4 KB nr. 1 (uitreikingstermijn = 15de van de maand volgend op opeisbaarheid). 📖  
+> > *Bron: Art. 22, 22bis §1, 53 §2 WBTW; Art. 4 KB nr. 1*
 >
-> **Welke zijn de documenten die hij dient te bewaren?**
+> **Welk zijn de documenten die hij dient te bewaren?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > De schrijnwerker moet — als btw-belastingplichtige én als ondernemer onder het WVV/boekhoudrecht — de volgende stukken bewaren:
+> > 
+> > - **Kopieën van alle uitgereikte facturen** (voorschotfacturen + eindfactuur) en de **ontvangen facturen** (van zijn leveranciers/onderaannemers). 📖
+> > - **Boekhouding** in de zin van art. 14 KB nr. 1: het **boek voor inkomende facturen**, het **boek voor uitgaande facturen** en het **dagboek van ontvangsten** (in een ononderbroken reeks volgnummers). 📖
+> > - **Alle andere stukken** met betrekking tot zijn economische activiteit: offertes, bestelbons, contracten, verzendingsnota's, creditnota's, bankuittreksels, kasstaten. 🔗
+> > - **Btw-aangiften**, **listings van belastingplichtige afnemers** en eventuele **intracommunautaire opgaven**. 🔗
+> > - **Sociale en fiscale stukken** verbonden aan de activiteit (loon-, bedrijfsvoorheffings- en directe-belasting-documenten — niet uniek voor btw, wel verplicht).
+> > 
+> > **Bewaartermijn**: **10 jaar** te rekenen vanaf 1 januari van het jaar volgend op hun datum (sinds W 20.11.2022, voor belastingen die opeisbaar zijn geworden vanaf 01.01.2023; daarvóór was de termijn 7 jaar). 📖
+> > 
+> > De **bewaarplicht treft eenieder** (niet alleen de belastingplichtige zelf): ook de afnemer moet zijn ontvangen facturen bewaren (art. 60 §1, tweede lid WBTW). De plaats van bewaring is vrij te kiezen, maar de stukken moeten op verzoek van de fiscus **zonder onnodig uitstel** ter beschikking worden gesteld (art. 60 §2 en art. 61 §1 WBTW). 📖
+> > 
+> > Art. 60 WBTW (bewaarplicht facturen + 10 jaar sinds W 20.11.2022); art. 61 WBTW (voorleggingsplicht aan administratie); art. 14 KB nr. 1 (verplichte btw-boekhouding: boek inkomende/uitgaande facturen + dagboek ontvangsten). 📖  
+> > *Bron: Art. 60, 61 WBTW; Art. 14 KB nr. 1*
 
 <a id="2008-bibf-vrE1"></a>
 

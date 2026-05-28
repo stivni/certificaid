@@ -3,12 +3,12 @@ title: PO 4.0 — Deontologische beginselen in verband met het beroep en beginse
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 4.0 (Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving).
 tags: [examen, voorbeeldvragen, po-4-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 4.0 — Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving
 
-**30 unieke vraag-eenheden** (waarvan 1 cluster, totaal 31 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
+**30 unieke vraag-eenheden** (waarvan 1 cluster, totaal 31 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 30 met modelantwoord
 
 <a id="2024-1-vr6A"></a>
 
@@ -692,30 +692,79 @@ gegenereerd_op: 2026-05-26
 <a id="2014-1-vr45"></a>
 <a id="2013-1-vr35"></a>
 
-> [!question]- Deontologie — onafhankelijkheid externe accountant: verboden mandaten en opdrachten (juist/fout)
+> [!question]- Onafhankelijkheid externe accountant: toegelaten en verboden activiteiten en mandaten
 > *Examens 2014-1 (2014-1-vr45) & 2013-1 (2013-1-vr35) · PO 4.0*
 >
 > 🔁 **2× bevraagd** (varianten)
 >
-> In het KB van 1 maart 1998 wordt eveneens de onafhankelijkheid van de externe accountant/belastingconsulent behandeld. In dat kader wordt er ook gesproken over mandaten en opdrachten die men niet mag aanvaarden. Geef hierna aan of de stellingen juist of fout zijn.
+> In het kader van de onafhankelijkheid zijn er een aantal activiteiten die expliciet werden uitgesloten als uit te voeren door een externe accountant en/of belastingconsulent of er zijn activiteiten die mits te voldoen aan een aantal voorwaarden toch kunnen uitgevoerd worden. Duid aan welke bewering juist of fout is.
 >
-> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Mits voorafgaande toestemming van de Raad kan een bestuursmandaat worden opgenomen in een commerciële vennootschap.</span>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een externe accountant en/of belastingconsulent mag, mits voorafgaande vraag aan het instituut, een activiteit van verzekeringsmakelaar uitoefenen.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** De activiteit van verzekeringsmakelaar is een onverenigbare activiteit voor de externe accountant/belastingconsulent — ook niet "mits voorafgaande vraag aan het instituut" toegelaten. 🔗
+> > 
+> > Het algemene beginsel uit art. 11 en art. 9 KB 1 maart 1998 verbiedt elk mandaat, functie of activiteit die de onafhankelijkheid in het gedrang brengt. 📖 De activiteit van verzekeringsmakelaar wordt — net zoals bij erkende boekhouders-fiscalisten (vgl. art. 21 §2 KB 18 juli 2017 BIBF, dat dit met zoveel woorden zegt) — beschouwd als een activiteit die per definitie de onafhankelijkheid en onpartijdigheid in gevaar brengt en is dus onverenigbaar; een individuele toelating door het Instituut heelt dit niet. 🔗 De vraag-formulering "mits voorafgaande vraag aan het instituut" suggereert ten onrechte dat hier een gewone toestemmingsprocedure volstaat. 🔗
+> > 
+> > Art. 9, 11 en 15 KB 1 maart 1998 (algemeen onafhankelijkheidsbeginsel + verbod onverenigbare mandaten). Voor de analoge regel bij BIBF expliciet: art. 21 §2 KB 18 juli 2017 ("activiteiten van verzekeringsmakelaar of -agent ... brengen altijd de onafhankelijkheid en onpartijdigheid in het gedrang"). 📖  
+> > *Bron: Art. 9, 11, 15 KB 1 maart 1998*
 >
-> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Mits voorafgaande toestemming kan hij een mandaat als onafhankelijke of externe bestuurder vervullen in een vennootschap, waarin zijn of haar echtgeno(o)t(e) stemrechten heeft.</span>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een externe accountant en/of belastingconsulent mag geen makelaar in krediet- en beleggingsverrichtingen zijn.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Juist**
+> > 
+> > **JUIST.** De activiteit van makelaar in krediet- en beleggingsverrichtingen is onverenigbaar met de hoedanigheid van externe accountant/belastingconsulent. 🔗
+> > 
+> > Bancaire en financiële tussenpersoons-activiteiten brengen de onafhankelijkheid structureel in het gedrang (commissieverbod + belangenconflict). Art. 29 KB 1998 verbiedt expliciet om commissie- of makelaarslonen toe te kennen of te ontvangen die verband houden met de opdrachten. 📖 De BIBF-tegenhanger maakt dezelfde keuze uitdrukkelijk ("alle bancaire activiteiten en activiteiten van financiële dienstverlening waarvoor inschrijving bij FSMA vereist is" — art. 21 §2 KB 2017). 📖
+> > 
+> > Art. 11 en 29 KB 1 maart 1998 (onafhankelijkheidsbeginsel + verbod commissielonen). Bevestigd door analoge BIBF-regel in art. 21 §2 KB 18 juli 2017. 📖  
+> > *Bron: Art. 11, 29 KB 1 maart 1998*
 >
-> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De interne accountant en/of belastingconsulent valt niet onder de onafhankelijkheidsverplichtingen gezien hij gebonden is door een arbeidsovereenkomst en dus steeds de opdrachten van zijn werkgever moet volgen.</span>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een externe accountant en/of belastingconsulent kan een bestuursmandaat waarnemen in een commerciële vennootschap met winstoogmerk, en dit zonder voorafgaande toestemming van de raad van het instituut indien dit mandaat voorttvloeit uit een rechterlijke beslissing.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Juist**
+> > 
+> > **JUIST.** Een bestuursmandaat in een commerciële vennootschap met winstoogmerk is in beginsel verboden, maar wanneer het voortvloeit uit een rechterlijke beslissing (bv. gerechtelijke aanstelling als voorlopig bestuurder) is geen voorafgaande toestemming van de Raad vereist. 🔗
+> > 
+> > Het algemene principe (art. 13 §2 KB 1998) is dat de externe accountant geen functie, mandaat of opdracht mag aanvaarden die hem ertoe brengt zich in te laten met het beheer van een commerciële onderneming — behoudens voorafgaande toestemming van de Raad van het Instituut. 📖 De uitzondering bij mandaten die uit een rechterlijke beslissing voortvloeien (bv. gerechtelijk mandataris, voorlopig bewindvoerder, vereffenaar aangesteld door de rechtbank) wordt traditioneel aanvaard: hier is het mandaat geen vrije keuze van de accountant maar een gerechtelijke aanstelling, en de onafhankelijkheid van de rechterlijke macht vervangt de controle van de Raad. 🔗
+> > 
+> > Art. 13 §2 KB 1 maart 1998 (verbod beheers-betrokkenheid, behoudens uitzonderingen waaronder rechterlijke aanstelling). Algemene onafhankelijkheidsplicht: art. 9 en 11 KB 1998. 📖  
+> > *Bron: Art. 13 §2 KB 1 maart 1998*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een externe accountant en/of belastingconsulent mag, mits te voldoen aan gestelde voorwaarden, tegelijkertijd zoveel mandaten van onafhankelijke bestuurder waarnemen als hij/zij het wenst, zolang de voorwaarden van bekwaamheid en beschikbaarheid vervuld blijven.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Het aantal mandaten van onafhankelijke bestuurder is in de praktijk beperkt — niet "zoveel als hij wenst", ook al zijn bekwaamheid en beschikbaarheid vervuld. 🔗
+> > 
+> > Naast de individuele beoordeling (bekwaamheid + beschikbaarheid) gelden er kwantitatieve grenzen die door de Raad van het Instituut worden bewaakt: een externe accountant mag zijn beroepsinkomsten niet laten afhangen van een te beperkt aantal opdrachten (art. 14 KB 1998) maar evenmin zoveel mandaten cumuleren dat de zorgvuldigheid in het gedrang komt. 📖 De Raad geeft per mandaat een voorafgaande beoordeling, en weigert wanneer de cumul de onafhankelijkheid of de beschikbaarheid in het gedrang brengt — een onbeperkt aantal is dus uitgesloten. 🔗
+> > 
+> > Art. 13 §2 en art. 14 KB 1 maart 1998 (voorafgaande toestemming Raad + verbod om de activiteit zodanig te beperken of te spreiden dat de onafhankelijkheid in het gedrang komt). 📖  
+> > *Bron: Art. 13 §2, 14 KB 1 maart 1998*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een externe accountant en/of belastingconsulent zal nooit een toestemming krijgen om een mandaat op te nemen in een zuivere patrimoniumvennootschap.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Een mandaat in een zuivere patrimoniumvennootschap (vennootschap die uitsluitend het beheer van het privé-vermogen tot doel heeft) is wel toegelaten — dit is precies de klassieke uitzondering. 🔗
+> > 
+> > Het verbod van art. 13 §2 KB 1998 viseert commerciële vennootschappen / vennootschappen met een echte handels- of beroepsactiviteit. Een zuivere patrimoniumvennootschap (beheer van eigen vermogen, geen commerciële activiteit) wordt traditioneel uitgesloten van het verbod: de accountant kan daar — vaak voor zijn eigen of familiale patrimoniumstructuur — wél een bestuursmandaat opnemen, mits dit niet conflicteert met cliëntopdrachten. 🔗 "Nooit" is daarom te absoluut. 🔗
+> > 
+> > De uitzondering geldt enkel voor een **zuivere** patrimoniumvennootschap. Zodra er een commerciële activiteit bijkomt (verhuur met dienstverlening, handel in onroerend goed, ...) valt het mandaat opnieuw onder het algemene verbod en is voorafgaande toestemming van de Raad nodig. 🤖
+> > 
+> > Art. 13 §2 KB 1 maart 1998 + vaste interpretatie van de Raad van het Instituut: zuivere patrimoniumvennootschap valt buiten het verbod op bestuursmandaten in commerciële vennootschappen. 🔗  
+> > *Bron: Art. 13 §2 KB 1 maart 1998*
 
 <a id="2014-1-vr46"></a>
 

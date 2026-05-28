@@ -3,7 +3,7 @@ title: PO 1.2 — Boekhoudrecht en jaarrekeningenrecht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.2 (Boekhoudrecht en jaarrekeningenrecht).
 tags: [examen, voorbeeldvragen, po-1-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 1.2 — Boekhoudrecht en jaarrekeningenrecht

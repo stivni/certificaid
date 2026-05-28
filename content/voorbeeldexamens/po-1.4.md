@@ -3,7 +3,7 @@ title: PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de gecon
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.4 (Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening).
 tags: [examen, voorbeeldvragen, po-1-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening
@@ -13,7 +13,7 @@ gegenereerd_op: 2026-05-26
 <a id="2015-1-vr11"></a>
 <a id="2013-2-vr8"></a>
 
-> [!question]- Positief consolidatieverschil: definitie en oorzaken
+> [!question]- Consolidatieverschillen: definitie en oorzaken
 > *Examens 2015-1 (2015-1-vr11) & 2013-2 (2013-2-vr8) · PO 1.4*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
@@ -22,53 +22,55 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > Een **positief consolidatieverschil** is het verschil dat bij de **eerste consolidatie** overblijft tussen (a) de aanschaffingsprijs van de aandelen van de dochter en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat** dat verschil zoveel mogelijk is toegerekend aan onder- of overgewaardeerde activa en schulden. Het residu verschijnt aan de **actiefzijde** van de geconsolideerde balans onder "Consolidatieverschillen" (overname-goodwill). ⚖️
+> > Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt **aan actiefzijde** van de geconsolideerde balans onder de post "Consolidatieverschillen". 📖
 > > 
-> > **Formule**: positief consolidatieverschil = aanschaffingsprijs deelneming − (%-belang × reële waarde netto-activa dochter op overnamedatum). De toerekening aan herwaarderingen van identificeerbare bestanddelen gebeurt **vóór** het residu als goodwill wordt gepresenteerd. 🤖
+> > Het residu functioneert in de geconsolideerde jaarrekening economisch als **goodwill** en wordt systematisch afgeschreven volgens een passend plan. In de enkelvoudige jaarrekening van de moeder blijft de deelneming gewoon aan aanschaffingsprijs staan — consolidatieverschil bestaat enkel op groepsniveau. 🔗
 > > 
-> > Het positief consolidatieverschil wordt **systematisch afgeschreven** ten laste van de geconsolideerde resultatenrekening (standaard max. 5 jaar; gemotiveerde langere termijn tot 20 jaar, te verantwoorden in de toelichting). Spiegelbeeld: bij een aanschaffingsprijs **lager** dan het pro-rata eigen vermogen ontstaat een **negatief consolidatieverschil** (badwill) aan de passiefzijde. 🤖
-> > 
-> > Art. 3:140 KB WVV (toerekening positief consolidatieverschil aan over/ondergewaardeerde activa en passiva) en art. 3:129 KB WVV (compensatie aanschaffingswaarde deelneming met aandeel eigen vermogen op overnamedatum). CBN-advies 2022/11 illustreert het mechanisme; CBN-advies 2013/3 toont de berekening bij step acquisitions. 📖  
-> > *Bron: art. 3:129 en 3:140 KB WVV*
+> > Art. 3:130 KB WVV regelt de **toerekening eerst, residu daarna**: het verschil uit de compensatie van de aanschaffingsprijs met het EV-aandeel (art. 3:127, a)) wordt zoveel mogelijk toegerekend aan actief-/passiefbestanddelen waarvan de waarde afwijkt van de boekwaarde; het overblijvende verschil komt in de post "Consolidatieverschillen", aan actiefzijde als het positief is. CBN-advies 2016/7 bevestigt dit toerekeningsbeginsel. 📖  
+> > *Bron: Art. 3:130 KB WVV*
 >
 > Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Vier voornaamste oorzaken van een positief consolidatieverschil**:
+> > - **Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen, financiële vaste activa of voorraden waarvan de werkelijke waarde op overnamedatum hoger ligt dan de historische boekwaarde. 📖
+> > - **Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 📖
+> > - **Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans van de dochter niet voorkomen maar wel marktwaarde hebben. 🔗
+> > - **Residuele goodwill (goodwill in enge zin)** — het niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als "Consolidatieverschillen" aan actiefzijde van de geconsolideerde balans staan. 📖 📖
 > > 
-> > 1. **Ondergewaardeerde activa** — bezittingen van de dochter (terreinen, gebouwen, voorraden, financiële vaste activa) staan aan historische boekwaarde lager dan hun reële waarde op overnamedatum. ⚖️
-> > 2. **Overgewaardeerde of niet-geboekte passiva** — schulden of voorzieningen die op de balans van de dochter te hoog staan, of latente verplichtingen (latente belastingen op herwaarderingen, ongunstige contracten) die niet erkend zijn. ⚖️
-> > 3. **Niet-geboekte immateriële waardebronnen** — intern opgebouwde merknaam, cliënteel, knowhow, lopende O&O-projecten of synergiën met de groep die in de enkelvoudige rekening van de dochter niet aan de erkenningscriteria voldoen, maar waarvoor de overnemer wel betaalt. ⚖️
-> > 4. **Overname-premie (goodwill stricto sensu)** — residueel deel dat na alle herwaarderingen overblijft: betaling voor verwachte rentabiliteit, marktpositie of een strategische premie (concurrent uit de markt, controle verwerven). ⚖️
+> > Art. 3:130 KB WVV schrijft een **strikte volgorde** voor: oorzaken 1–3 moeten **eerst** worden toegerekend aan de specifieke actief-/passiefbestanddelen waarvan de waarde afwijkt; pas wat dan nog overblijft is residuele goodwill (oorzaak 4). Wie het hele verschil meteen als één "goodwill"-post zou boeken, schendt het toerekeningsbeginsel. 🔗
 > > 
-> > De vier oorzaken volgen uit de berekeningssystematiek: het verschil tussen aanschaffingsprijs en boekwaardelijk aandeel in het eigen vermogen wordt **eerst** toegerekend aan onder/overgewaardeerde identificeerbare bestanddelen (oorzaken 1-2) en aan niet-erkende immateriële activa (oorzaak 3); het **niet-toerekenbare residu** is de zuivere overnamepremie (oorzaak 4). 🤖
-> > 
-> > De wet vereist dat de toerekening aan over/ondergewaardeerde activa en passiva **eerst** gebeurt ("zoveel mogelijk"), zodat de geconsolideerde balans de werkelijke economische waarde van de groepsactiva weerspiegelt. Alleen het niet-toerekenbare deel krijgt de aparte rubriek "Consolidatieverschillen" — anders zou alles onder één goodwill-post verdwijnen en de informatieve waarde van de balans dalen. 🤖
-> > 
-> > Art. 3:140 KB WVV: het positief consolidatieverschil wordt **"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde"** — dekt oorzaken 1-2 (en deels 3). Niet-toerekenbaar residu = oorzaken 3 (niet-erkenbare immateriële elementen) en 4 (overprijs). CBN-advies 126/8 omschrijft het consolidatieverschil als het surplus boven het toerekenbare deel; CBN-advies 2022/11 toont de toerekening aan terreinen vóór het residu. 📖  
-> > *Bron: art. 3:140 KB WVV*
+> > Art. 3:130 KB WVV: het verschil wordt "zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming"; het residu komt in de post "Consolidatieverschillen" (actiefzijde bij positief verschil). 📖  
+> > *Bron: Art. 3:130 KB WVV*
 
 <a id="2014-1-vr7"></a>
 <a id="2013-1-vr7"></a>
 
-> [!question]- Geconsolideerde jaarrekening — maximale afwijking afsluitingsdatum
+> [!question]- Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening
 > *Examens 2014-1 (2014-1-vr7) & 2013-1 (2013-1-vr7) · PO 1.4*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.
->
+> 
 > **Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Drie (3) maanden.** Het verschil tussen de afsluitingsdatum van een in de consolidatie opgenomen dochter en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen. ⚖️
+> > **Drie maanden.** 📖
 > > 
-> > Het Belgisch KB WVV (art. 3:109) noemt zelf **geen expliciete cijfergrens** — het stelt enkel dat de geconsolideerde jaarrekening op een ander tijdstip mag afgesloten worden om rekening te houden met de balansdatum van de meeste of belangrijkste dochters. ⚖️ De harde grens van 3 maanden komt uit **IFRS 10 §B93** (historisch art. 27 Zevende Richtlijn 83/349/EEG) en wordt in de Belgische doctrine als algemeen aanvaarde drempel toegepast. 🤖 Bij afwijking moet er bovendien rekening gehouden worden met belangrijke gebeurtenissen tussen beide afsluitdata, en het verschil moet van jaar tot jaar gelijk blijven. ⚖️
+> > **Principe (KB WVV art. 3:109, eerste lid)**: de geconsolideerde jaarrekening wordt afgesloten op dezelfde datum als de jaarrekening van de consoliderende vennootschap. 📖
 > > 
-> > IFRS 10 §B93 (expliciete 3-maanden-grens); KB WVV art. 3:109 (afwijking toegelaten, geen cijfergrens in tekst); art. 27 Zevende Richtlijn 83/349/EEG (historische oorsprong). 📖  
-> > *Bron: IFRS 10 §B93; KB WVV art. 3:109*
+> > **Afwijking voor een dochter (KB WVV art. 3:110, tweede lid)**: wanneer een dochter haar boekjaar op een andere balansdatum afsluit, mag haar jaarrekening in de consolidatie worden opgenomen mits aanvullende financiële informatie wordt opgesteld of mits passende correcties. 🔗
+> > 
+> > **Cap drie maanden (IFRS 10 B93)**: "Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen" — bovendien moeten de duur van de verslagperioden en het eventuele verschil tussen de data van jaar tot jaar gelijk blijven. 📖
+> > 
+> > De numerieke cap van drie maanden staat letterlijk in IFRS 10 B93; het KB WVV legt geen expliciete maandengrens op maar werkt met een principle-based regel ("aanvullende financiële informatie" of correcties indien verschil > 0). In de praktijk wordt de drie-maanden-grens als norm aangehouden voor beide kaders. 🔗
+> > 
+> > Bij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) belangrijke gebeurtenissen vermelden die zich tussen de balansdatum van de opgenomen jaarrekening en de afsluitingsdatum van de geconsolideerde jaarrekening hebben voorgedaan. 📖
+> > 
+> > IFRS 10 B92-B93 (principe gelijke verslagdatum + drie-maanden-cap + gelijkblijvend verschil); KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond op niveau van de geconsolideerde jaarrekening); KB WVV art. 3:110, tweede lid (aanvullende info bij afwijkende dochter-balansdatum); KB WVV art. 3:111 (toelichtingsplicht bij afwijking). 📖  
+> > *Bron: IFRS 10 B92-B93; KB WVV art. 3:109, 3:110, 3:111*
 
 <a id="2014-1-vr8"></a>
 

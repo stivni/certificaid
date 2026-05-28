@@ -460,9 +460,13 @@ def _render_antwoord_callout(
         body = f"_Antwoord blokkeert op ontbrekend record._ {beschrijving}"
         return _callout("success", _antwoord_callout_titel(deelvraag), body, collapsed=True)
 
-    if status == "beantwoord":
+    # Render zodra blokken[] aanwezig zijn — accepteert alle status-varianten
+    # ("beantwoord", "beantwoord_zonder_cijfers", "betwijfeld", "niet_beantwoordbaar",
+    # "topic_only_kader", etc.). Agents kunnen genuanceerde statussen leveren;
+    # placeholder enkel wanneer er écht geen inhoud is.
+    blokken = vraag_antwoord.get("blokken", [])
+    if blokken:
         vraagtype = deelvraag.get("vraagtype", "open")
-        blokken = vraag_antwoord.get("blokken", [])
         delen: list[str] = []
 
         if vraagtype == "mc_keuze":
@@ -475,6 +479,18 @@ def _render_antwoord_callout(
             elif oordeel is False:
                 delen.append("**Antwoord: Fout**")
 
+        # Status-flag tonen bij niet-standaard status
+        if status and status != "beantwoord":
+            label_map = {
+                "beantwoord_zonder_cijfers": "_Antwoord zonder concrete cijfers (bijlage ontbreekt)._",
+                "betwijfeld": "_Antwoord onder voorbehoud._",
+                "niet_beantwoordbaar": "_Vraag niet volledig beantwoordbaar; framework geleverd._",
+                "topic_only_kader": "_Topic-only herinnering; framework geleverd._",
+                "topic_only": "_Topic-only herinnering; framework geleverd._",
+            }
+            label = label_map.get(status, f"_Status: {status}._")
+            delen.append(label)
+
         # Typed blokken (motivering bij mc/jf, of volledig antwoord bij open)
         blokken_md = _render_antwoord_blokken(blokken)
         if blokken_md.strip():
@@ -485,7 +501,11 @@ def _render_antwoord_callout(
             body = "_Antwoord aangemerkt als beantwoord (geen verdere toelichting)._"
         return _callout("success", _antwoord_callout_titel(deelvraag), body, collapsed=True)
 
-    # Onbekende status → placeholder
+    if status == "beantwoord":
+        body = "_Antwoord aangemerkt als beantwoord (geen verdere toelichting)._"
+        return _callout("success", _antwoord_callout_titel(deelvraag), body, collapsed=True)
+
+    # Status zonder blokken (en niet wacht/hard_blocked) → placeholder
     body = _PLACEHOLDER_GEEN_ANTWOORD
     return _callout("success", "Antwoord (klik om te openen)", body, collapsed=True)
 
@@ -623,38 +643,85 @@ def _groepeer_per_cluster(
 ) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     """Groepeer cluster-leden naar één canonieke render-entry.
 
-    Behoudt natuurlijke volgorde: het eerst-encountered lid van een cluster
-    wordt de canonieke positie-houder; latere leden worden weggelaten.
+    De **echte canonical** wordt opgehaald uit `_clusters/<po>.json` (waar
+    apply_cluster_review.py de alphabetic-first cluster-canonical heeft
+    vastgelegd). Dat is de vraag-id waar het antwoord op staat. Eerdere
+    versie nam "first-encountered" als canonical, wat tot rendering-fouten
+    leidde wanneer render-volgorde ≠ alphabetic-volgorde (cluster-lid
+    zonder antwoord werd ten onrechte als canonical gerenderd).
 
     Returns:
         (render_vragen, leden_per_canonical_vraag_id)
-        - render_vragen: gefilterde lijst (singletons + canonieken)
+        - render_vragen: gefilterde lijst — alleen de canonical per cluster
+          komt in render, op de positie van de eerst-encountered lid (om
+          natuurlijke volgorde van het examen te behouden).
         - leden_per_canonical_vraag_id: dict van canonical_vraag_id → ALLE
-          leden (incl. canonical) in de volgorde waarin ze in de input
-          voorkwamen. Voor singletons: niet aanwezig.
+          leden (incl. canonical) in input-volgorde.
     """
+    # Bouw een lookup: cluster_id → canonical vraag_id, geladen uit
+    # cluster-files via _laad_cluster_file (gecached).
+    def _canonical_voor_cluster(cid: str, po_codes: list[str]) -> str | None:
+        for po in po_codes:
+            cl_file = _laad_cluster_file(po)
+            if not cl_file:
+                continue
+            for c in cl_file.get("clusters", []):
+                if c.get("cluster_id") == cid:
+                    voork = c.get("voorkomens", [])
+                    if voork:
+                        # Alphabetic first → matcht apply_cluster_review.py
+                        return sorted(v["vraag_id"] for v in voork)[0]
+        return None
+
     seen_clusters: set[str] = set()
-    render_vragen: list[dict[str, Any]] = []
     leden_per_cluster: dict[str, list[dict[str, Any]]] = {}
     canonical_per_cluster: dict[str, str] = {}
+    positie_per_cluster: dict[str, int] = {}  # positie eerst-encountered lid
 
-    for v in vragen:
+    # Eerste pass: verzamel alle leden per cluster, bepaal canonical
+    for idx, v in enumerate(vragen):
+        interp = v.get("interpretatie", {}) or {}
+        cid = interp.get("cluster_id")
+        if not cid:
+            continue
+        leden_per_cluster.setdefault(cid, []).append(v)
+        if cid not in seen_clusters:
+            seen_clusters.add(cid)
+            positie_per_cluster[cid] = idx
+            # Echte canonical uit cluster-file
+            po_codes = interp.get("programmaonderdeel_ids") or []
+            real_canonical = _canonical_voor_cluster(cid, po_codes)
+            canonical_per_cluster[cid] = real_canonical or v["vraag_id"]
+
+    # Tweede pass: bouw render_vragen
+    # - Singletons in natuurlijke volgorde
+    # - Per cluster: gebruik canonical-vraag op positie van eerst-encountered lid
+    render_vragen: list[dict[str, Any]] = []
+    clusters_geplaatst: set[str] = set()
+    # Maak een dict van vraag_id → vraag voor snelle canonical-lookup
+    vraag_by_id = {v["vraag_id"]: v for v in vragen}
+
+    for idx, v in enumerate(vragen):
         interp = v.get("interpretatie", {}) or {}
         cid = interp.get("cluster_id")
         if cid:
-            leden_per_cluster.setdefault(cid, []).append(v)
-            if cid not in seen_clusters:
-                seen_clusters.add(cid)
-                render_vragen.append(v)
-                canonical_per_cluster[cid] = v["vraag_id"]
-            # Latere leden: skip in render-volgorde
+            if cid in clusters_geplaatst:
+                continue
+            clusters_geplaatst.add(cid)
+            canonical_vid = canonical_per_cluster.get(cid)
+            canonical_vraag = vraag_by_id.get(canonical_vid) if canonical_vid else None
+            # Fallback: als canonical niet in deze vragen-lijst zit (zou raar zijn),
+            # gebruik eerst-encountered
+            render_vragen.append(canonical_vraag if canonical_vraag else v)
         else:
             render_vragen.append(v)
 
     # Mappen leden → canonical_vraag_id voor render-tijd lookup
     leden_per_canonical: dict[str, list[dict[str, Any]]] = {}
     for cid, leden in leden_per_cluster.items():
-        leden_per_canonical[canonical_per_cluster[cid]] = leden
+        canonical_vid = canonical_per_cluster.get(cid)
+        if canonical_vid:
+            leden_per_canonical[canonical_vid] = leden
 
     return render_vragen, leden_per_canonical
 

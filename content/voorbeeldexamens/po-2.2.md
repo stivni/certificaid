@@ -3,7 +3,7 @@ title: PO 2.2 — Personenbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.2 (Personenbelasting).
 tags: [examen, voorbeeldvragen, po-2-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 2.2 — Personenbelasting

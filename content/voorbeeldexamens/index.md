@@ -3,7 +3,7 @@ title: Voorbeeldexamens
 description: Alle voorbeeldexamenvragen gegroepeerd per programmaonderdeel uit het ITAA-examenprogramma.
 tags: [examen, voorbeeldvragen, overzicht]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # Voorbeeldexamens — per programmaonderdeel

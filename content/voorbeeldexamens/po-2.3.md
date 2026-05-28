@@ -3,12 +3,12 @@ title: PO 2.3 — Vennootschapsbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.3 (Vennootschapsbelasting).
 tags: [examen, voorbeeldvragen, po-2-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 2.3 — Vennootschapsbelasting
 
-**15 unieke vraag-eenheden** (waarvan 1 cluster, totaal 17 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 14 met modelantwoord
+**15 unieke vraag-eenheden** (waarvan 1 cluster, totaal 17 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 15 met modelantwoord
 
 <a id="2024-1-vr8A"></a>
 
@@ -167,32 +167,164 @@ gegenereerd_op: 2026-05-26
 <a id="2013-2-vr24"></a>
 <a id="2013-2-vr25"></a>
 
-> [!question]- Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille
+> [!question]- Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten
 > *Examens 2015-1 (2015-1-vr33) & 2013-2 (2013-2-vr24) & 2013-2 (2013-2-vr25) · PO 2.3*
 >
 > 🔁 **3× bevraagd** (varianten)
 >
-> Vennootschap ABC heeft een beleggingsportefeuille. Resultaat boekjaar 22.150 EUR: verkoop beleggingen 25.000 EUR, aankoopkosten 1.200 EUR, verkoopkosten 1.650 EUR. Geen andere kosten en opbrengsten. Vennootschap voldoet aan criteria art. 15 W.Venn. Fiscaal overgedragen verlies van 10.000 EUR van aanslagjaar 2013. Geen recht op notionele intrestaftrek. Niet voldaan aan voorwaarden verlaagd tarief. Aanslagjaar 2014.
+> Een vennootschap ABC heeft de volgende balans- en resultatenrekeningen per 31 december 2012. De personenwagens zijn onderworpen aan de beperking van 30%. Er waren geen overdrachten van fiscale verliezen, notionele intrestaftrek en investeringsaftrek. De vennootschap is een KMO-vennootschap in de zin van artikel 15 van het Wetboek van Vennootschappen en werd opgericht op 13 maart 2011. De aandelen zijn allemaal in handen van natuurlijke personen.
 > 
-> **Beleggingsportefeuille per 31 december 2013**
+> **Balans**
+> 
+> **Actief**
+> 
+> | Rubriek | Jaar 2012 | Jaar 2011 |
+> | --- | --- | --- |
+> | Materiële vaste activa | 15.000 | 20.000 |
+> | Vorderingen < jaar | 100.000 | 95.000 |
+> | Liquide middelen | 30.000 | 35.000 |
+> | BALANSTOTAAL | 145.000 | 150.000 |
+> 
+> **Passief**
+> 
+> | Rubriek | Jaar 2012 | Jaar 2011 |
+> | --- | --- | --- |
+> | Geplaatst kapitaal | 60.000 | 60.000 |
+> | Wettelijke reserve | 6.000 | 6.000 |
+> | Overgedragen resultaat | -20.000 | -5.000 |
+> | Schulden < jaar | 99.000 | 89.000 |
+> | BALANSTOTAAL | 145.000 | 150.000 |
+> 
+> **Resultatenrekening 2012**
 > 
 > | Label | Bedrag |
 > | --- | --- |
-> | Aandelen ING: aanschaf 15/02/2011, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 13.000, verkoopkosten 250 |   |
-> | Obligaties X: aanschaf 31/01/2013, aanschaffingswaarde 100.000, aankoopkosten 1.000, verkoop 15/05/2013 voor 120.000, verkoopkosten 1.200 |   |
-> | Aandelen BNP Paribas: aanschaf 31/01/2013, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 12.000, verkoopkosten 200 |   |
+> | Omzet | 256.000 |
+> | Voordeel in natura personenwagens (opbrengst) | 10.000 |
+> | Financiële opbrengsten | 5.000 |
+> | Huur gebouwen | -25.000 |
+> | Afschrijvingen | -5.000 |
+> | Nutsvoorzieningen | -5.000 |
+> | Erelonen | -5.000 |
+> | Renting personenwagens – kapitaal | -50.000 |
+> | Restaurantkosten | -5.000 |
+> | Bezoldiging bedrijfsleider | -36.000 |
+> | Brutobezoldiging personeel | -100.000 |
+> | Patronale bijdragen | -35.000 |
+> | Voordeel in natura personenwagens (kost) | -10.000 |
+> | Intrest renting personenwagens | -5.000 |
+> | Benzine personenwagens | -5.000 |
+> | VERLIES | -15.000 |
 >
-> Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen recht op notionele intrestaftrek.
+> Bepaal het belastbare resultaat voor aanslagjaar 2013. Detailleer uw berekeningen.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Belastbaar resultaat AJ 2013 ≈ 915 EUR** — boekverlies van 15.000 wordt omgebogen door verworpen uitgaven (autokosten + restaurantkosten), waarna de notionele intrestaftrek het saldo verder verlaagt. 🔗
+> > 
+> > | Rubriek | Bedrag |
+> > |---|---:|
+> > | Totaal opbrengsten | 271.000 |
+> > | Totaal kosten | -286.000 |
+> > | **Boekhoudkundig verlies** | **-15.000** |
+> > 
+> > De vennootschap heeft een fiscaal nul-startpunt na resultaatverwerking (overgedragen resultaat 2011: -5.000 → 2012: -20.000, het verlies vloeit door). 🔗
+> > 
+> > **a) Autokosten — 30 %-beperking** (casus stelt dit expliciet — art. 66 + 198bis WIB 92, toepassing AJ 2013):
+> > 
+> > | Autokost (kost-zijde) | Bedrag |
+> > |---|---:|
+> > | Renting personenwagens – kapitaal | 50.000 |
+> > | Benzine personenwagens | 5.000 |
+> > | **Subtotaal aftrekbeperkte kosten** | **55.000** |
+> > | Verworpen uitgave = 30 % × 55.000 | **16.500** 📖 |
+> > 
+> > *Niet onderworpen aan de aftrekbeperking*: de financiële intrest op de renting (5.000) — intresten op autokosten vallen buiten art. 66 WIB 92 voor AJ 2013. 🔗 De VAA-kost (-10.000) en de tegenboeking als opbrengst (+10.000) saldoën op nul; het VAA wordt apart als verworpen uitgave 'autokosten ten belope van het VAA' opgenomen, maar omdat in deze casus de VAA-opbrengst exact gelijk is aan de VAA-kost is er geen nettocorrectie meer nodig. ❓
+> > 
+> > **b) Restaurantkosten — 31 % niet-aftrekbaar** (art. 53, 8°bis WIB 92):
+> > 
+> > | Bedrag | Verworpen |
+> > |---:|---:|
+> > | 5.000 | 5.000 × 31 % = **1.550** 📖 |
+> > 
+> > **Totaal verworpen uitgaven**: 16.500 + 1.550 = **18.050** 🔗
+> > 
+> > **Resultaat na eerste bewerking**: -15.000 + 18.050 = **+ 3.050** 🔗
+> > 
+> > Casus zegt: "geen overdrachten van NIA". Voor AJ 2013 is er nog gewone NIA op het lopend boekjaar (afschaffing van de overdraagbaarheid van NIA-stock is een latere maatregel).
+> > 
+> > **Risicokapitaal** = gecorrigeerd eigen vermogen aan het einde van het vorige belastbare tijdperk (01/01/2012, zijnde balans 2011):
+> > 
+> > | Bestanddeel EV per 31/12/2011 | Bedrag |
+> > |---|---:|
+> > | Geplaatst kapitaal | 60.000 |
+> > | Wettelijke reserve | 6.000 |
+> > | Overgedragen resultaat | -5.000 |
+> > | **Eigen vermogen** | **61.000** |
+> > 
+> > Geen aftrek-correcties vermeld (geen eigen aandelen, geen deelnemingen, geen herwaarderingsmeerwaarden, geen vaste inrichting in het buitenland). 🔗
+> > 
+> > **Tarief AJ 2013** (Cijferzakboekje): basis 3,000 % + KMO-verhoging 0,5 % = **3,500 %** (de vennootschap is een kleine vennootschap art. 15 W.Venn.). 📖
+> > 
+> > **NIA = 61.000 × 3,5 % ≈ 2.135** 🔗
+> > 
+> > **Belastbaar resultaat na NIA**: 3.050 – 2.135 = **≈ 915 EUR** 🔗
+> > 
+> > De "30 %-beperking" in de casus is een **vereenvoudiging voor de oefening** — in werkelijkheid hangt de aftrekbaarheid van autokosten voor AJ 2013 af van de CO2-uitstoot per voertuig (gradenschaal 60 %–100 %, art. 198bis WIB 92). 📖 De examencasus geeft een forfaitair percentage "30 % verworpen" mee zodat de student kan rekenen zonder CO2-gegevens — neem dit op als gegeven, niet als algemene regel. Pas op: **financiële intresten** op autoleningen/renting vallen voor AJ 2013 **niet** onder de aftrekbeperking (sinds AJ 2021 wél). 🔗
+> > 
+> > **Verworpen uitgaven**: art. 198 § 1 WIB 92 (algemeen kader), art. 66 + 198bis WIB 92 (autokosten — aftrekbeperking volgens CO2 voor AJ 2013), art. 53, 8°bis WIB 92 (restaurantkosten 31 % niet-aftrekbaar). **Notionele intrestaftrek**: art. 205bis–205novies WIB 92 (versie AJ 2013 — vóór afschaffing door wet 25/12/2017). **KMO-definitie**: art. 15 W.Venn. (versie AJ 2013, nu art. 1:24 WVV) — voorwaarde voor verhoogd NIA-tarief én voor verlaagd KMO-tarief art. 215 WIB 92. 📖  
+> > *Bron: art. 198, 66, 198bis, 53/8°bis, 205bis–205novies WIB 92; art. 15 W.Venn. (AJ 2013)*
 >
-> Geef op welke tarieven van toepassing zijn EN op welk bedrag van het belastbare resultaat. Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan de voorwaarden voor verlaagd tarief.
+> Bepaal de verschuldigde vennootschapsbelasting.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Verschuldigde vennootschapsbelasting ≈ 222 EUR** — KMO-vennootschap met belastbaar inkomen ≤ 322.500 EUR, dus opklimmende verlaagde tarieven art. 215 WIB 92 (versie AJ 2013). Volledig belastbaar in de eerste schijf 0–25.000 aan 24,25 %. 🔗
+> > 
+> > **Toetsing voorwaarden verlaagd tarief** (art. 215, derde lid WIB 92, versie AJ 2013):
+> > 
+> > | Voorwaarde | Status |
+> > |---|---|
+> > | Belastbaar inkomen ≤ 322.500 EUR | ✓ (915 EUR) |
+> > | Geen financiële vennootschap (aandelenbezit > 50 %) | ✓ (geen aandelen vermeld) |
+> > | Aandelen niet ≥ 50 % in handen van andere vennootschap | ✓ (alle aandelen bij natuurlijke personen) |
+> > | Bezoldiging bedrijfsleider ≥ 36.000 EUR (of ≥ belastbaar inkomen) | ✓ (bezoldiging = 36.000) |
+> > | Dividenduitkering ≤ 13 % gestort kapitaal | ✓ (geen dividenduitkering) |
+> > 
+> > → Voldoet aan alle voorwaarden, dus **verlaagd tarief van toepassing**. 🔗
+> > 
+> > **Tariefberekening** (art. 215, tweede lid WIB 92 versie AJ 2013):
+> > 
+> > | Schijf | Tarief | Belastbaar | Belasting |
+> > |---|---:|---:|---:|
+> > | 0 – 25.000 | 24,25 % | 915 | **221,89** |
+> > | 25.000 – 90.000 | 31 % | 0 | 0 |
+> > | 90.000 – 322.500 | 34,5 % | 0 | 0 |
+> > | **Subtotaal VenB** | | | **≈ 222** 📖 |
+> > 
+> > *(Aanvullende crisisbijdrage 3 % nog van toepassing voor AJ 2013 — art. 463bis WIB 92: 222 × 3 % ≈ 7. Globaal verschuldigd ≈ 229 EUR.)* 🔗
+> > 
+> > De bezoldiging bedrijfsleider van 36.000 EUR voldoet exact aan de drempel die in AJ 2013 gold voor de KMO-uitsluiting van art. 215 ("minstens gelijk aan 36.000 EUR of aan het belastbare resultaat indien dat lager is"). 📖 De drempel werd later opgetrokken (sinds AJ 2019: 45.000 EUR). Voor de examencasus AJ 2013 geldt de oude 36.000 EUR-drempel. 🔗
+> > 
+> > Art. 215 WIB 92, eerste en tweede lid (versie AJ 2013, ingevoegd bij wet 24/12/2002 art. 12): **tarief 33 % als gewone basis**; verlaagde opklimmende tarieven 24,25 % / 31 % / 34,5 % voor belastbaar inkomen ≤ 322.500 EUR. Voorwaarden in art. 215 derde lid (geen financiële vennootschap, aandeelhouderschap, minimumbezoldiging, dividend ≤ 13 % gestort kapitaal). Crisisbijdrage 3 % op de verschuldigde VenB — art. 463bis WIB 92 (afgeschaft sinds AJ 2018). 📖  
+> > *Bron: art. 215 + 463bis WIB 92 (versie AJ 2013); wet 24/12/2002 art. 12*
+>
+> Bepaal de eventuele overdrachten van fiscale verliezen en notionele intrestaftrek naar de volgende aanslagjaren.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Geen overdracht** — noch fiscaal verlies, noch onbenutte NIA naar AJ 2014. Het belastbare resultaat is positief (≈ 915 EUR) na alle bewerkingen, en de NIA werd volledig benut binnen de restwinst. 🔗
+> > 
+> > **a) Overdracht fiscaal verlies**: art. 206 WIB 92 — fiscale verliezen worden overgedragen indien het belastbaar resultaat van het jaar negatief is na alle bewerkingen. Hier: resultaat na 1e bewerking = +3.050 (positief). De NIA mag op grond van art. 205bis WIB 92 (AJ 2013) ten hoogste de restwinst opslorpen, dus na NIA: 915 EUR (positief). → **Geen verliessaldo aan te leggen**. 🔗
+> > 
+> > **b) Overdracht NIA**: art. 205quinquies WIB 92 (versie AJ 2013) — onbenutte NIA was overdraagbaar gedurende 7 jaar tot in AJ 2012; sinds AJ 2013 (wet 28/12/2011) is **alleen het 'stock'-deel reeds opgebouwd vóór AJ 2013** nog overdraagbaar. Voor AJ 2013 wordt de gewone (lopende) NIA volledig benut of valt weg. Hier is NIA = 2.135 en restwinst na VU = 3.050 → NIA volledig aftrekbaar; **geen NIA-overschot**. 🔗
+> > 
+> > **c) Andere overdrachten**: investeringsaftrek (casus zegt geen overdracht), DBI-aftrek (geen aandelen), risicokapitaal-stock (geen stock). → Niets over te dragen. 🔗
+> > 
+> > Vanaf AJ 2013 is de **overdraagbaarheid van de lopende NIA afgeschaft** (wet 28/12/2011) — alleen reeds opgebouwde NIA-stock van vóór AJ 2013 bleef overdraagbaar (over 7 jaar, met cap vanaf AJ 2013). 📖 Sinds de hervorming-2017 (wet 25/12/2017) is de NIA-stock-aftrek volledig uitdovend en is de NIA zelf vanaf AJ 2021 afgeschaft. Voor AJ 2013-casus: enkel het stock-deel kan overdraagbaar zijn — niet de lopende NIA van het belastbaar tijdperk zelf. ❓
+> > 
+> > Art. 206 WIB 92 (overdracht beroepsverliezen — onbeperkt in tijd). Art. 205bis–205novies WIB 92 (notionele intrestaftrek, AJ 2013-versie). Art. 205quinquies WIB 92 zoals gewijzigd door wet 28/12/2011 (BS 30/12/2011) — afschaffing overdraagbaarheid lopende NIA, behoud stock met 7-jarige cap. 📖  
+> > *Bron: art. 206 + 205bis–205novies WIB 92 (AJ 2013); wet 28/12/2011*
 
 <a id="2015-1-vr34"></a>
 

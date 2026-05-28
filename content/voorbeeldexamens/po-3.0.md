@@ -3,12 +3,12 @@ title: PO 3.0 — Vennootschaps- en verenigingsrecht en insolventiewetgeving
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 3.0 (Vennootschaps- en verenigingsrecht en insolventiewetgeving).
 tags: [examen, voorbeeldvragen, po-3-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 3.0 — Vennootschaps- en verenigingsrecht en insolventiewetgeving
 
-**38 unieke vraag-eenheden** (waarvan 1 cluster, totaal 39 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 37 met modelantwoord
+**38 unieke vraag-eenheden** (waarvan 1 cluster, totaal 39 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 38 met modelantwoord
 
 <a id="2024-1-vr1A"></a>
 
@@ -650,36 +650,73 @@ gegenereerd_op: 2026-05-26
 <a id="2014-1-vr15"></a>
 <a id="2013-2-vr17"></a>
 
-> [!question]- Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)
+> [!question]- Vennootschapsvormen: kenmerken per vennootschapsvorm
 > *Examens 2014-1 (2014-1-vr15) & 2013-2 (2013-2-vr17) · PO 3.0*
 >
 > 🔁 **2× bevraagd** (varianten)
 >
-> Kruis de juiste antwoorden aan in onderstaande tabel. De punten worden toegekend per kolom en de kolom dient volledig juist te zijn.
->
-> In welke vennootschap zijn de vennoten/aandeelhouders hoofdelijk aansprakelijk voor de schulden van hun vennootschap? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+> Kruis de juiste antwoorden aan in onderstaande tabel:
+> 1. Welke vennootschap kan opgericht worden met een onderhandse akte?
+> 2. Welke vennootschap kan winstbewijzen toekennen?
+> 3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België?
+> 4.
 > 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> **Welke vennootschap moet een minimumkapitaal hebben?**
 >
-> Welke vennootschap kan winstbewijzen toekennen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+> Duid per vennootschapsvorm (NV, BVBA, CVA, CVBA, CVOA, VOF) aan welk kenmerk van toepassing is: (1) oprichting met onderhandse akte, (2) winstbewijzen toekennen, (3) verplichte neerlegging jaarrekening NBB, (4) verplicht minimumkapitaal.
 > 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
->
-> Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
+> - **a** 1 - Oprichting met onderhandse akte mogelijk
+> - **b** 2 - Winstbewijzen toekennen mogelijk
+> - **c** 3 - Verplichte neerlegging jaarrekening bij NBB
+> - **d** 4 - Verplicht minimumkapitaal
 > 
-> > [!success]- Antwoord (klik om te openen)
+> > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
->
-> Voor welke soort vennootschap zijn de oprichters, vóór de oprichting, verplicht om een financieel plan op te stellen? (Kruis aan voor NV, BVBA, CVA, CVBA, CVOA, VOF)
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: ?**
+> > 
+> > **Matrix — kenmerken per vennootschapsvorm (W.Venn., versie 2013/2014):**
+> > 
+> > | Kenmerk | NV | BVBA | CVA | CVBA | CVOA | VOF |
+> > |---|:---:|:---:|:---:|:---:|:---:|:---:|
+> > | (1) Oprichting met onderhandse akte mogelijk | nee | nee | nee | nee | nee | **ja** |
+> > | (2) Winstbewijzen toekennen mogelijk | **ja** | **ja** | **ja** | nee | nee | nee |
+> > | (3) Verplichte neerlegging jaarrekening NBB | **ja** | **ja** | **ja** | **ja** | nee * | nee * |
+> > | (4) Verplicht minimumkapitaal | **ja** (61.500 €) | **ja** (18.550 €) | **ja** (61.500 €) | **ja** (18.550 €, vast 6.200 €) | nee | nee |
+> > | (5) Hoofdelijk + onbeperkt aansprakelijke vennoten | nee | nee | enkel beherende vennoot | nee | **ja** (alle vennoten) | **ja** (alle vennoten) |
+> > | (6) Financieel plan vóór oprichting verplicht | **ja** | **ja** | **ja** | **ja** | nee | nee |
+> > 
+> > \* CVOA en VOF moeten enkel neerleggen indien zij als "groot" worden gekwalificeerd of indien een onbeperkt aansprakelijke vennoot een rechtspersoon is die zelf neerleggingsplichtig is (art. 97-98 W.Venn.). Voor het typische examen-antwoord: **nee**. 🔗
+> > 
+> > **Toetsing per examen** — dit canonical-antwoord dekt cluster 3.0-c1:
+> > - *2013-2-vr17* toetst rijen (1), (2), (3), (4).
+> > - *2014-1-vr15* toetst rijen (5), (2), (3), (6). 🔗
+> > 
+> > **Per kenmerk de logica (W.Venn.):**
+> > 
+> > - **(1) Onderhandse akte** — art. 66 W.Venn.: enkel de **VOF** en de gewone **commanditaire vennootschap (Comm.V)** mogen bij onderhandse akte worden opgericht. Alle kapitaalvennootschappen (NV, BVBA, CVA, CVBA) en óók de **CVOA** vereisen een notariële (authentieke) oprichtingsakte. 📖 De Comm.V staat niet in de tabel; van de zes gevraagde vormen is dus alleen VOF "ja".
+> > - **(2) Winstbewijzen** — toegelaten in de **NV** (art. 483 W.Venn., nu art. 7:50 WVV: "winstbewijzen vertegenwoordigen het kapitaal niet") en in de **BVBA** + **CVA** via de NV-regels die op deze vormen toepasselijk verklaard zijn. Niet voorzien voor coöperatieve vormen (CVBA/CVOA — het coöperatief gedachtengoed verzet zich tegen niet-kapitaalvertegenwoordigende winstrechten) noch voor de VOF (personenvennootschap zonder aandelenstructuur). 🔗
+> > - **(3) Neerlegging NBB** — art. 98 W.Venn.: alle rechtspersonen met **beperkte aansprakelijkheid** (NV, BVBA, CVA, CVBA) leggen verplicht hun jaarrekening neer in het standaardschema. Vormen met **onbeperkt aansprakelijke vennoten** (CVOA, VOF, Comm.V) zijn vrijgesteld, tenzĳ zij "groot" zijn of een onbeperkt aansprakelijke vennoot-rechtspersoon hebben (CBN-advies 2017/16). 🔗
+> > - **(4) Minimumkapitaal** — NV en CVA: 61.500 € volgestort bij oprichting (art. 439 W.Venn.). BVBA: 18.550 € (art. 214 W.Venn.). CVBA: 18.550 € met vast gedeelte van minstens 6.200 € (art. 390 W.Venn.). CVOA en VOF: geen wettelijk minimumkapitaal. 📖
+> > - **(5) Hoofdelijke aansprakelijkheid vennoten** — enkel **VOF** en **CVOA** hebben vennoten die onbeperkt en hoofdelijk aansprakelijk zijn voor de schulden van de vennootschap ("OA-vennoot"). In de **CVA** is de beherende (gecommanditeerde) vennoot onbeperkt aansprakelijk, maar de commanditaire vennoten niet — strikt genomen geen "hoofdelijk" antwoord voor de hele groep aandeelhouders, dus in de matrix conventioneel als **nee** ingevuld voor de aandeelhouders, met opmerking. 🔗
+> > - **(6) Financieel plan** — vereist voor alle kapitaalvennootschappen met beperkte aansprakelijkheid: **NV** (art. 440 W.Venn.), **BVBA** (art. 215), **CVA** (art. 657), **CVBA** (art. 391). De plicht hangt samen met de oprichtersaansprakelijkheid bij faillissement binnen drie jaar wegens kennelijk ontoereikend aanvangskapitaal (art. 229, 405, 456, 657 W.Venn.). Voor **VOF en CVOA** geen financieel plan — hun schuldeisers worden beschermd door de onbeperkte aansprakelijkheid van de vennoten zelf, niet door een kapitaalfilter. 🔗
+> > 
+> > **Vier van deze zes vormen bestaan niet meer onder het WVV (2019)**. Het WVV behoudt enkel NV, BV (ex-BVBA), CV (één nieuwe coöperatieve vorm, kapitaalloos), VOF en CommV. **Afgeschaft**: CVA (Comm.VA), CVBA en CVOA — zij moesten omgevormd worden tegen 1 januari 2024 (art. 41 §2 Invoeringswet WVV; CBN-advies 2020/13). Voor het examen 2026 zijn deze vormen historisch curriculum; voor 2013/2014-examens nog de geldende werkelijkheid. Ook nieuw onder WVV: het **minimumkapitaal van de BV is afgeschaft** en vervangen door de eis van een toereikend aanvangsvermogen (art. 5:3-5:4 WVV) — het financieel plan wordt daardoor des te belangrijker. 📖
+> > 
+> > **Drie veelgemaakte fouten:**
+> > - **CVOA ≠ onderhands**: studenten zien "onbeperkt aansprakelijk" en denken automatisch "onderhandse akte", zoals bij de VOF. Maar de **coöperatieve vennootschap** — met of zonder beperkte aansprakelijkheid — vereiste onder W.Venn. een **authentieke akte** (art. 66 W.Venn. somt enkel VOF en Comm.V op). 🔗
+> > - **CVA hoofdelijkheid**: de Comm.VA (CVA) is een NV-variant met één beherende vennoot die onbeperkt aansprakelijk is. De commanditaire aandeelhouders zijn dat **niet**. In een examen-matrix-cel waar gevraagd wordt of "de vennoten/aandeelhouders" hoofdelijk aansprakelijk zijn, is het juiste antwoord conventioneel **nee** voor CVA (de meerderheid van de aandeelhouders is dat niet), met de nuance dat één vennoot wel hoofdelijk aansprakelijk is. 🔗
+> > - **Winstbewijzen in BVBA**: vaak vergeten omdat ze in de praktijk zelden voorkomen, maar wettelijk toegelaten via de verwijzing naar NV-regels. 🔗
+> > 
+> > **W.Venn. (geldend 2013/2014):**
+> > - Oprichtingsakte: **art. 66 W.Venn.** (VOF + Comm.V mogen onderhands; alle andere authentiek). 📖
+> > - Winstbewijzen NV: **art. 483 W.Venn.** (= art. 7:50 WVV). 📖
+> > - Neerlegging jaarrekening NBB: **art. 97-98 W.Venn.** + **art. 100 W.Venn.** (uitzondering voor VOF/CVOA tenzij groot of OA-vennoot-rechtspersoon). 🔗
+> > - Minimumkapitaal: **art. 214 W.Venn.** (BVBA 18.550 €), **art. 390** (CVBA 18.550 / 6.200 vast), **art. 439** (NV 61.500 €), CVA via art. 657. 📖
+> > - Financieel plan: **art. 215, 391, 440 W.Venn.** + bestuurdersaansprakelijkheid art. 229/405/456. 📖
+> > - Hoofdelijke aansprakelijkheid VOF: **art. 204 W.Venn.**; CVOA: **art. 352 W.Venn.**. 🔗
+> > 
+> > **WVV (vanaf 1 mei 2019, historisch perspectief):** art. 2:4 WVV (oprichtingsakte — VOF/CommV onderhands, alle andere authentiek); art. 5:4 WVV (BV-financieel plan, geen minimumkapitaal meer); art. 6:5 (CV-financieel plan); art. 7:3 (NV-financieel plan). CVBA/CVOA/Comm.VA afgeschaft (CBN-advies 2020/13). 📖  
+> > *Bron: art. 66, 97-98, 204, 214, 352, 390, 439, 440, 483, 657 W.Venn. (oude versie 2013/2014); art. 2:4, 5:4, 7:50 WVV (historische context)*
 
 <a id="2014-1-vr16"></a>
 

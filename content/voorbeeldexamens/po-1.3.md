@@ -3,12 +3,12 @@ title: PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.3 (Analyse en kritische beoordeling van de jaarrekening).
 tags: [examen, voorbeeldvragen, po-1-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
 
-**11 unieke vraag-eenheden** (waarvan 1 cluster, totaal 13 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 10 met modelantwoord
+**11 unieke vraag-eenheden** (waarvan 1 cluster, totaal 13 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 11 met modelantwoord
 
 <a id="2024-1-vr10A"></a>
 
@@ -131,56 +131,120 @@ gegenereerd_op: 2026-05-26
 <a id="2014-1-vr5"></a>
 <a id="2013-1-vr4"></a>
 
-> [!question]- Berekening financiële ratio's op basis van jaarrekening
+> [!question]- Berekening van financiële ratio's op basis van de jaarrekening
 > *Examens 2015-1 (2015-1-vr8) & 2014-1 (2014-1-vr5) & 2013-1 (2013-1-vr4) · PO 1.3*
 >
 > 🔁 **3× bevraagd** (varianten)
 >
-> Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd.
+> In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio's telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
+> 
+> **Bijkomende informatie uit toelichting**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Investeringen in materiële vaste activa tijdens het boekjaar | 451.692,38 |
+> | Kapitaalsubsidies aangerekend op de resultatenrekening | 56.498,19 |
+> | Andere exploitatiesubsidies ontvangen | 0 |
 >
-> **Brutoverkoopmarge: welke berekening is correct?**
+> Bereken het nettobedrijfskapitaal voor het boekjaar.
 > 
-> - **a** (1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74
-> - **b** (1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26
-> - **c** (1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73
-> - **d** (968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66
-> 
-> > [!success]- Welke optie(s)? (klik om te openen)
+> > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Nettobedrijfskapitaal (NBK) = Permanent vermogen − Vaste activa**, of equivalent **Vlottende activa − Schulden op ten hoogste 1 jaar**. 🔗 Het meet de structurele financiering die overblijft voor de exploitatiecyclus na financiering van de vaste activa met lange middelen. 🔗
+> > 
+> > **Formule (top-down)**: NBK = (Eigen vermogen [10/15] + Voorzieningen en uitgestelde belastingen [16] + Schulden op meer dan één jaar [17]) − Vaste activa [20/28]. 🔗
+> > 
+> > **Formule (bottom-up, equivalent)**: NBK = Vlottende activa [29/58] − Schulden op ten hoogste één jaar [42/48] − Overlopende rekeningen passief [492/3]. 🔗
+> > 
+> > **Te gebruiken posten uit het volledig schema** (rubriek-codes KB 29/04/2019 — bijlagen bij het uitvoeringsbesluit WVV):
+> > - 10/15 Eigen vermogen (na winstverdeling) 📖
+> > - 16 Voorzieningen + uitgestelde belastingen 📖
+> > - 17 Schulden op meer dan één jaar 📖
+> > - 20/28 Vaste activa (oprichtingskosten + immateriële + materiële + financiële) 📖
+> > 
+> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de balans-bijlage. De stagiair vult per post het bedrag uit de jaarrekening in en past de formule toe — antwoord uitdrukken tot **2 cijfers na de komma** zoals expliciet gevraagd in de instructie. 🤖
+> > 
+> > **Vermeldenswaard** — Het MC-cluster 2014-1 vr5b toont de typische valkuilen rond NBK: ❓
+> > 
+> > 1. **De 'overlopende rekeningen op meer dan 1 jaar'** (rubriek 285/8 of soortgelijk) tellen mee als vaste activa, **niet** als vlottende activa — wie ze bij vlottend zet, krijgt een te hoog NBK.
+> > 2. **Het deel "vorderingen op meer dan 1 jaar dat binnen het jaar vervalt"** (rubr. 290) hoort bij vlottend, niet bij vaste.
+> > 3. **Te bestemmen winst** moet **integraal in eigen vermogen na winstverdeling** zitten (de vraag specificeert "balans NA winstverdeling"). 🔗
+> > 
+> > Rubriek-indeling balans: KB 29/04/2019 tot uitvoering van het WVV, bijlagen 2-3 (volledig + verkort schema). De ratio NBK staat niet als zodanig in een wettekst gedefinieerd — het is een **analytische ratio uit de financiële analyse** (NBB-jaarrekeningmodel, doctrine Ooghe/Van Wymeersch). 🔗  
+> > *Bron: KB 29/04/2019, bijlage 2 (volledig schema balans)*
 >
-> **Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?**
+> Bereken de brutoverkoopmarge (in %) voor het boekjaar.
 > 
-> - **a** (1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56
-> - **b** 1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59
-> - **c** 1.600.244 x 100 / 1.479.283 = 108,18
-> - **d** (1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51
-> 
-> > [!success]- Welke optie(s)? (klik om te openen)
+> > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Brutoverkoopmarge (%) = Brutomarge / Omzet × 100**, waarbij **Brutomarge = Omzet + Voorraadwijziging + Geproduceerde vaste activa + Andere bedrijfsopbrengsten − Aankopen handelsgoederen/grond- en hulpstoffen − Diensten en diverse goederen**. 🔗 Ze meet hoeveel % van de omzet overblijft na directe inkoop- en operationele input-kosten — vóór personeel, afschrijvingen en niet-kaskosten. 🔗
+> > 
+> > **Formule NBB**: Brutoverkoopmarge = (70/74 − 60 − 61) / 70 × 100. 🔗 Sommige definities (o.a. NBB-balanscentrale) gebruiken in de noemer **bedrijfsopbrengsten exclusief niet-recurrente** (70/74) i.p.v. enkel omzet (70); de cluster-MC-opties 2015-1 vr8a en 2014-1 illustreren de spanning.
+> > 
+> > **Toe te passen rubrieken** (KB 29/04/2019, bijlage 3 — resultatenrekening):
+> > - 70 Omzet 📖
+> > - 71 Voorraad gereed product/goederen in bewerking — wijziging 📖
+> > - 72 Geproduceerde vaste activa 📖
+> > - 74 Andere bedrijfsopbrengsten (**exclusief exploitatiesubsidies** indien je strikt NBB-definitie volgt) 📖
+> > - 60 Handelsgoederen, grond- en hulpstoffen 📖
+> > - 61 Diensten en diverse goederen 📖
+> > 
+> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Let op**: de toelichting vermeldt dat er **geen andere exploitatiesubsidies** ontvangen werden — dat sluit een correctie op rubriek 74 uit. **Kapitaalsubsidies aangerekend op het resultaat (56.498,19)** zitten bij rubriek 74 maar zijn **niet** operationeel; in een strikte NBB-lezing horen ze niet thuis in de brutomarge-teller. 🤖
+> > 
+> > Uitdrukken tot **2 cijfers na de komma**. 🔗
+> > 
+> > **Valkuil** — Drie courante definitie-varianten van "brutomarge" geven verschillende cijfers: ❓
+> > 1. **Enge handelsmarge** (handelsondernemingen): (Omzet − Aankopen handelsgoederen ± voorraadwijziging) / Omzet.
+> > 2. **NBB-definitie brutoverkoopmarge** (productie + handel): (Omzet + 71 + 72 + 74 − 60 − 61) / Omzet — sluit personeel en afschrijvingen uit.
+> > 3. **Toegevoegde-waarde-marge**: (Toegevoegde waarde) / Omzet.
+> > 
+> > Lees de **specifieke wording van de vraag** en kies de bijhorende formule. Voor het ITAA-examen is **definitie 2 (NBB-brutoverkoopmarge)** het meest voor de hand liggend. 🔗
+> > 
+> > Rubriek-indeling resultatenrekening: KB 29/04/2019 tot uitvoering WVV, bijlage 3. Formule brutoverkoopmarge: NBB-balanscentrale, ratio-overzicht volledig schema (doctrine financiële analyse — geen wettekst). 🔗  
+> > *Bron: KB 29/04/2019, bijlage 3 (volledig schema resultatenrekening)*
 >
-> **Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?**
+> Bereken de personeelskosten ten opzichte van de toegevoegde waarde (in %) voor het boekjaar.
 > 
-> - **a** 968.829 x 100 / 10.274.463 = 9,43
-> - **b** 968.829 x 100 / 8.177.941 = 11,85
-> - **c** 1.417.747 x 100 / 10.274.463 = 13,80
-> - **d** 1.479.283 x 100 / 8.177.941 = 18,09
-> 
-> > [!success]- Welke optie(s)? (klik om te openen)
+> > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
->
-> **Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?**
-> 
-> - **a** 3.444.161 / 530.373 = 6,49
-> - **b** 3.457.309 / 530.373 = 6,52
-> - **c** 3.457.309 / 1.344.750 = 2,57
-> - **d** 3.444.161 / 1.344.750 = 2,56
-> 
-> > [!success]- Welke optie(s)? (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> > **Personeelskosten / Toegevoegde waarde (%) = 62 / Toegevoegde waarde × 100**, waarbij **Toegevoegde waarde = Bedrijfsopbrengsten (excl. niet-recurrente, excl. exploitatiesubsidies) − Aankopen handelsgoederen/grond- en hulpstoffen (60) − Diensten en diverse goederen (61)**. 🔗 De ratio meet **welk aandeel van de gecreëerde waarde naar de werknemers gaat** — een hoge waarde (> 80%) signaleert weinig marge voor afschrijvingen, financiële kosten en winst. 🔗
+> > 
+> > **Formule**: Personeelskosten/TW = 62 / (70/74 − 60 − 61 − 740) × 100 🔗
+> > 
+> > waarbij **740 = exploitatiesubsidies** (uitgesloten omdat ze niet uit eigen waardetoevoeging komen — ze zijn **transferinkomen**).
+> > 
+> > **Toe te passen rubrieken**:
+> > - 62 Bezoldigingen, sociale lasten en pensioenen 📖
+> > - 70/74 Bedrijfsopbrengsten (excl. niet-recurrente — rubriek 76A) 📖
+> > - 740 Exploitatiesubsidies (in mindering brengen in de noemer) 📖
+> > - 60 + 61 (in mindering brengen) 📖
+> > 
+> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Specifieke aandachtspunten uit de toelichting**:
+> > - Geen andere exploitatiesubsidies → rubriek 740 = 0 → **geen correctie nodig**. 🔗
+> > - Kapitaalsubsidies aangerekend op resultaat (56.498,19) zitten in rubriek **753** (financiële opbrengst) of **74** (andere bedrijfsopbrengst, niet-recurrente kant) afhankelijk van presentatie; in de strikte NBB-formule **niet** in TW-teller. 🤖
+> > 
+> > Uitdrukken tot **2 cijfers na de komma**. 🔗
+> > 
+> > **Vermeldenswaard — variant-overzicht binnen het cluster** (1.3-c1):
+> > 
+> > - **2013-1 vr4** vraagt: nettobedrijfskapitaal · brutoverkoopmarge · personeelskosten/TW.
+> > - **2014-1 vr5** vraagt: bruto TW per werknemer · NBK · nettorentabiliteit totaal activa · liquiditeit in enge zin.
+> > - **2015-1 vr8** vraagt: brutoverkoopmarge · personeelskosten/TW · nettorentabiliteit EV na belastingen · voorraadrotatie.
+> > 
+> > **Aanvullende formules die in de cluster opduiken** (referentie voor stagiair die alle drie de examens voorbereidt): 🔗
+> > 
+> > | Ratio | Formule (rubriek-codes) |
+> > |---|---|
+> > | **Bruto TW per werknemer** | (70/74 − 60 − 61 − 740) / gemiddeld aantal VTE [9087] |
+> > | **Nettorentabiliteit totaal activa vóór belasting + financiële kosten** | (Resultaat boekjaar vóór belasting [9903 vóór 67/77] + Kosten van schulden [650 of 65] − Intrestsubsidies) / Totaal activa [20/58] × 100 (zie CBN 2011/14) 📖 |
+> > | **Liquiditeit in enge zin (quick ratio)** | (Vorderingen ≤ 1 jaar [40/41] + Geldbeleggingen [50/53] + Liquide middelen [54/58]) / (Schulden ≤ 1 jaar [42/48] + Overlopende rekeningen passief [492/3]) |
+> > | **Nettorentabiliteit EV na belastingen** | Resultaat boekjaar na belastingen [9904] / Eigen vermogen [10/15] × 100 |
+> > | **Rotatie voorraad handelsgoederen** | Aankopen handelsgoederen (60) / Gemiddelde voorraad handelsgoederen (3) — eenheid: keer per jaar |
+> > 
+> > Voor elke ratio: noemer en teller komen uit het **volledig schema**; gebruik **gemiddelden** waar het over een **stock-grootheid in een flow-ratio** gaat (typisch: voorraadrotatie). 🤖
+> > 
+> > Rubriek-codes en presentatie: KB 29/04/2019, bijlagen 2-3 (volledig + verkort schema). Nettorentabiliteit-formule met aanpassing voor financiële kosten en exclusie intrestsubsidies: **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** (sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'). 📖 Overige ratio-definities: NBB-balanscentrale ratio-overzicht en doctrine financiële analyse (Ooghe/Van Wymeersch) — geen formele wettekst. 🔗  
+> > *Bron: KB 29/04/2019, bijl. 2-3 + CBN-advies 2011/14*
 
 <a id="2015-1-vr9"></a>
 
@@ -383,19 +447,81 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > _Antwoord zonder concrete cijfers (bijlage ontbreekt)._
+> > 
+> > **Brutoverkoopmarge (%) = (Bedrijfsresultaat / Omzet) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening (zie `_poc_notitie`). ❓
+> > 
+> > **Te gebruiken cijfers uit de resultatenrekening** (volledig schema KB WVV, art. 3:89 e.v.):
+> > 
+> > - **Teller — Bedrijfsresultaat** = code 9901 (= 70/74 − 60/64) 🔗. Dit is de courante operationele winst vóór financieel resultaat en belastingen.
+> > - **Noemer — Omzet** = code 70 (rubriek I.A. van de resultatenrekening) 🔗.
+> > 
+> > **Opmerking over de toelichting**: de exploitatiesubsidie van 415 EUR (item 2) zit reeds vervat in rubriek 74 'Andere bedrijfsopbrengsten' en dus in het bedrijfsresultaat — er hoeft niets extra te worden bijgeteld of afgetrokken voor deze ratio 🔗.
+> > 
+> > Formule toepassen: brutoverkoopmarge = (9901 / 70) × 100, afronden op 2 cijfers na de komma. 🔗
+> > 
+> > **Vermeldenswaard** 🔗: er bestaat geen unieke definitie van 'brutoverkoopmarge' in Belgische jaarrekening-doctrine. Twee varianten komen voor in handboeken financiële analyse:
+> >   1. **Bedrijfsresultaat / Omzet** (operationele marge — meest gebruikte invulling bij ITAA-examens en NBB-balanscentrale).
+> >   2. **(Omzet − kostprijs verkopen) / Omzet** (commerciële marge — zelden in Belgische context omdat 'kostprijs verkopen' geen aparte rubriek is in het volledig schema).
+> > 
+> > In deze vraag wordt variant 1 verwacht (gebruikelijke ITAA-invulling, en de enige variant die rechtstreeks uit het Belgisch schema afleesbaar is zonder analytische gegevens) 🤖. 🔗
+> > 
+> > KB WVV art. 3:89 e.v. (schema resultatenrekening, rubrieken 70 en 9901) 🔗. Geen specifiek CBN-advies dat de formule 'brutoverkoopmarge' bindend definieert; de NBB-balanscentrale en ITAA-cursusmateriaal hanteren consistent Bedrijfsresultaat/Omzet 🤖. 🔗  
+> > *Bron: KB WVV art. 3:89; rubrieken 70 en 9901*
 >
 > Bereken de nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > _Antwoord zonder concrete cijfers (bijlage ontbreekt)._
+> > 
+> > **Nettorentabiliteit totaal der activa, vóór belastingen en financiële kosten (%) = ((Resultaat vóór belasting + Kosten van schulden) / Totaal der activa) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening. ❓
+> > 
+> > **Te gebruiken cijfers** (CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa') 📖:
+> > 
+> > **Teller** = Resultaat van het boekjaar vóór belasting (code 9903) **+** Kosten van schulden (code 650) 📖.
+> > 
+> > - Code 9903 = winst/verlies van het boekjaar **vóór** belastingen (= 70/66 − 60/65 + 76 − 66 − 67) 🔗.
+> > - Code 650 = financiële kosten 'Kosten van schulden' (intresten op leningen, leasings, kortlopend krediet, ...) 📖.
+> > - De toelichting meldt expliciet: **geen intrestsubsidies** (item 3) en **geen disconto** (item 4) — dus geen bijkomende correcties op de financiële kosten 🔗.
+> > 
+> > **Noemer** = Totaal der activa = code 20/58 (balanstotaal aan de actiefzijde) 🔗.
+> > 
+> > Formule toepassen: ((9903 + 650) / 20/58) × 100, afronden op 2 cijfers na de komma. 📖
+> > 
+> > **Waarom 'vóór belastingen en financiële kosten'?** 📖 Door belastingen en kosten van schulden uit het resultaat te elimineren krijgt men zicht op de **economische rentabiliteit** van de onderneming, los van haar financieringskeuze (eigen vermogen vs. vreemd vermogen) en los van het belastingtarief (CBN-advies 2011/14).
+> > 
+> > **Valkuil** 🔗: 'netto' verwijst hier niet naar 'na belasting' maar naar het **netto**resultaat (= resultaat ná afschrijvingen en niet-kaskosten, in tegenstelling tot de **bruto**rentabiliteit die de niet-kaskosten weer optelt). Vergelijk met de brutorentabiliteit-formule in hetzelfde CBN-advies: teller = nettoresultaat vóór belasting **+ niet-kaskosten** + kosten van schulden. 📖
+> > 
+> > CBN-advies 2011/14 — Herwaarderingsmeerwaarden, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden' (formule nettorentabiliteit totaal der activa vóór belasting en kosten van schulden) 📖. KB WVV art. 3:89 (resultatenrekening, codes 650 en 9903) en art. 3:90 (balans, code 20/58) 🔗. 📖  
+> > *Bron: CBN-advies 2011/14; KB WVV art. 3:89-3:90; codes 650, 9903, 20/58*
 >
 > Bereken de liquiditeit in ruime zin.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > _Antwoord zonder concrete cijfers (bijlage ontbreekt)._
+> > 
+> > **Liquiditeit in ruime zin = Vlottende activa / Schulden op ten hoogste 1 jaar** ❓ (current ratio) — concrete verhouding niet berekenbaar zonder de bijgevoegde balans. ❓
+> > 
+> > **Te gebruiken cijfers uit de balans na winstverdeling** (KB WVV, volledig schema):
+> > 
+> > - **Teller — Vlottende activa** = code 29/58 (= som voorraden 3 + vorderingen op ten hoogste 1 jaar 40/41 + geldbeleggingen 50/53 + liquide middelen 54/58 + overlopende rekeningen 490/1) 🔗.
+> > - **Noemer — Schulden op ten hoogste 1 jaar** = code 42/48 (inclusief schulden op meer dan 1 jaar die binnen het jaar vervallen 42, financiële schulden 43, handelsschulden 44, ontvangen vooruitbetalingen 46, fiscale/sociale/loonschulden 45, overige schulden 47/48) 🔗 — **niet** verhoogd met de overlopende rekeningen 492/3 (die staan apart) 🤖.
+> > 
+> > Formule: 29/58 ÷ 42/48, weergegeven als ratio (bv. 1,75) tot 2 cijfers na de komma.
+> > 
+> > Een waarde ≥ 1 betekent dat de vlottende activa in principe volstaan om de kortlopende schulden te dekken; richtwaarde 1,5–2 wordt gangbaar als gezond beschouwd 🤖. 🔗
+> > 
+> > **Valkuil — ruime zin vs. enge zin** 🔗:
+> >   - **Liquiditeit in ruime zin** (current ratio, acid test 1): teller = **alle** vlottende activa (incl. voorraden).
+> >   - **Liquiditeit in enge zin** (quick ratio): teller = vlottende activa **min voorraden en bestellingen in uitvoering** (de minst liquide post wordt weggelaten omdat ze niet onmiddellijk te gelde te maken is).
+> >   - **Cash ratio** (liquiditeit in strenge/onmiddellijke zin): teller = enkel geldbeleggingen (50/53) + liquide middelen (54/58).
+> > 
+> > De vraag stelt expliciet 'in ruime zin' — dus voorraden meetellen. 🔗
+> > 
+> > KB WVV art. 3:90 (schema balans, rubrieken vlottende activa 29/58 en schulden op ten hoogste 1 jaar 42/48) 🔗. Standaarddefinitie in Belgische financiële analyse (NBB-balanscentrale ratio-bundel, ITAA-cursus financiële analyse) 🤖. 🔗  
+> > *Bron: KB WVV art. 3:90; balanscodes 29/58 en 42/48*
 
 <a id="2013-2-vr7"></a>
 

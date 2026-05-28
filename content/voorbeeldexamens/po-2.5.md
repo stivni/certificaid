@@ -3,12 +3,12 @@ title: PO 2.5 — Fiscale procedure
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.5 (Fiscale procedure).
 tags: [examen, voorbeeldvragen, po-2-5]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 2.5 — Fiscale procedure
 
-**19 unieke vraag-eenheden** (waarvan 2 clusters, totaal 21 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 17 met modelantwoord
+**19 unieke vraag-eenheden** (waarvan 2 clusters, totaal 21 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 19 met modelantwoord
 
 <a id="2024-1-vr9A"></a>
 
@@ -294,62 +294,141 @@ gegenereerd_op: 2026-05-26
 <a id="2014-1-vr39"></a>
 <a id="2013-2-vr32"></a>
 
-> [!question]- Fiscale procedure — vraag om inlichtingen van derden: regelmatigheid, termijn en overmacht
+> [!question]- Fiscale procedure: vraag om inlichtingen over een derde, regelmatigheid en termijn
 > *Examens 2014-1 (2014-1-vr39) & 2013-2 (2013-2-vr32) · PO 2.5*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
-> Eén van uw cliënten – de BVBA 'Souris' die een winkel uitbaat van informaticamateriaal – ontvangt op 2 februari 2014 een vraag om inlichtingen met betrekking tot derden (leveranciers van 'Sumsang'-schermen type 123ZXY): volledige identiteit, aantal aangekochte schermen per leverancier, aankoopprijs en eventuele korting. De belastingplichtige krijgt een termijn van 12 dagen. Op 10 februari 2014 werd de toegang tot het bedrijf volledig afgesloten wegens wateroverlast en een termijn van 3 weken is nodig om de lokalen te herstellen.
+> Één van uw cliënten – een verwarmingsinstallateur – ontvangt op 10 september 2013 een vraag om inlichtingen, luidende als volgt (NB: het gaat hier over een aanvraag van inlichtingen betreffende een derde):
+> "Gelieve mij de volgende inlichtingen mede te delen:
+> - de volledige identiteit van al uw leveranciers bij wie u een verwarmingsketel van het type XYZ100 hebt aangekocht;
+> - het aantal aangekochte verwarmingsketels bij elk van de betrokken leveranciers;
+> - de aankoopprijs van de verwarmingsketels met vermelding van de eventuele korting die u hebt genoten."
+> De belastingplichtige krijgt een termijn van 10 dagen om de gevraagde inlichtingen te verstrekken.
+> 
+> Uw cliënt meldt u ook dat, op 15 september, de toegang tot het bedrijf volledig geblokkeerd werd door stakingspiketten en dat de onderhandelingen met de vakbonden zeker 2 weken zullen aanslepen.
 >
-> **Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde inlichtingen betreft?**
+> Is deze vraag om inlichtingen regelmatig voor wat de aard van de gevraagde inlichtingen betreft? Verklaar uw antwoord.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Ja**, de vraag om inlichtingen is regelmatig naar haar aard. Art. 323 WIB laat de administratie toe om bij een belastingplichtige inlichtingen op te vragen over **derden** (zelfs niet met name aangeduide groepen) met wie hij rechtstreeks of onrechtstreeks in betrekking is geweest uit hoofde van zijn beroepswerkzaamheid. Identiteit van leveranciers, aantallen en aankoopprijzen vallen daar zonder meer onder. 🔗
+> > 
+> > Twee regimes naast elkaar in het WIB:
+> > 
+> > - **Art. 316 WIB** — vraag om inlichtingen aan de belastingplichtige zelf over **zijn eigen** fiscale toestand. 📖
+> > - **Art. 323 WIB** — vraag om inlichtingen aan diezelfde belastingplichtige (of een andere natuurlijke/rechtspersoon) over **derden** met wie hij in betrekking is geweest. 📖
+> > 
+> > De drie gevraagde elementen — identiteit leveranciers, aantal aangekochte ketels/schermen, aankoopprijs en korting — zijn typische derdeninlichtingen: ze dienen om de fiscale toestand van de leveranciers te controleren, niet die van de cliënt zelf. Art. 323 vereist enkel dat het gaat om verrichtingen waarin de aangezochte (rechts)persoon rechtstreeks of onrechtstreeks betrokken was — een aankoop bij een leverancier voldoet daaraan. 🔗
+> > 
+> > Verwar art. 316 (eigen toestand, vaste termijn van 1 maand vanaf de 3de werkdag na verzending) niet met art. 323 (derden, termijn vrij door de administratie bepaald). Een examenvraag die de termijn van 1 maand ook op derdenonderzoek toepast, is fout. 🔗
+> > 
+> > Art. 323 WIB 1992: de administratie mag van natuurlijke of rechtspersonen, binnen de door haar bepaalde termijn (verlengbaar wegens wettige redenen), de overlegging vorderen van inlichtingen over elke persoon of groep van personen — zelfs niet met name aangeduid — met wie zij rechtstreeks of onrechtstreeks in betrekking zijn geweest uit hoofde van hun verrichtingen of activiteiten. 📖  
+> > *Bron: Art. 323 WIB 1992*
 >
-> **Is de antwoordtermijn wettelijk?**
+> Is de antwoordtermijn van 10 dagen wettelijk? Verklaar uw antwoord.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Ja**, de termijn is wettelijk. Voor een derdenonderzoek (art. 323 WIB) bepaalt de **administratie zelf** de antwoordtermijn — er is geen wettelijke minimumduur. Een termijn van 10 dagen (of 12 dagen in de variant van 2014-1-vr39) is dus rechtsgeldig. 🔗
+> > 
+> > Het cruciale onderscheid:
+> > 
+> > - **Art. 316 WIB** (eigen toestand): de termijn is **wettelijk vastgelegd** op één maand, te rekenen vanaf de derde werkdag na verzending van de vraag. 📖
+> > - **Art. 323 WIB** (derden): de wet zegt enkel "binnen de door haar bepaalde termijn" — de administratie bepaalt dus zelf hoe lang de geadresseerde krijgt. 📖
+> > 
+> > De wet stelt enkel als grens dat de termijn **redelijk** moet zijn (algemene beginselen van behoorlijk bestuur). In de praktijk is 10 of 12 dagen voor een gerichte vraag over een afgebakende productlijn (verwarmingsketels XYZ100 / Sumsang-schermen 123ZXY) doorgaans niet onredelijk. 🔗
+> > 
+> > De rechter kan een door de administratie opgelegde termijn die manifest onredelijk kort is afkeuren op grond van het redelijkheidsbeginsel; in concreto zal dat bij 10-12 dagen voor afgebakende vragen zelden lukken. 🤖
+> > 
+> > Art. 323 WIB 1992: "binnen de door haar bepaalde termijn, welke wegens wettige redenen kan worden verlengd". Geen wettelijke minimum- of standaardduur — vergelijk met de vaste maand-termijn van art. 316 WIB voor de belastingplichtige zelf. 📖  
+> > *Bron: Art. 323 WIB 1992 (vgl. art. 316 WIB)*
 >
-> **Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden, aangezien het momenteel niet mogelijk is om de vereiste stukken te raadplegen?**
+> Hoe moet tewerk gegaan worden om binnen de gestelde termijn te antwoorden, aangezien het momenteel, door de staking, niet mogelijk is om de vereiste stukken te raadplegen? Verklaar uw antwoord.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Schriftelijk en gemotiveerd een verlenging vragen** binnen de oorspronkelijke termijn, met beroep op de **wettige reden** (staking / wateroverlast = overmacht: de stukken zijn fysiek onbereikbaar). Art. 323 WIB voorziet die verlenging uitdrukkelijk. Best aangetekend, met bewijsstukken (politievaststelling, verzekeringsattest, persbericht over de staking). 🔗
+> > 
+> > Concrete stappen voor de cliënt:
+> > 
+> > - **Reageer binnen de oorspronkelijke termijn** (10 of 12 dagen) — niet wachten tot de termijn verstreken is. 🔗
+> > - **Stuur een aangetekende brief** aan de bevoegde controleambtenaar met (i) verwijzing naar de vraag om inlichtingen, (ii) beschrijving van de overmachtssituatie, (iii) **vraag om verlenging** met opgave van de gevraagde nieuwe einddatum (bv. 3 weken na hervatting toegang). 🔗
+> > - **Voeg bewijsstukken bij**: voor staking → vakbondsbericht of persbericht over de piketten; voor wateroverlast → vaststelling brandweer/politie, foto's, verzekeringsdossier. 🔗
+> > - **Bevestig de bereidheid om mee te werken** zodra de stukken opnieuw raadpleegbaar zijn — passieve niet-antwoording riskeert een aanslag van ambtswege (art. 351 WIB) en administratieve boetes (art. 445 WIB). 🔗
+> > 
+> > Een verlenging vragen is geen "toestemming met terugwerkende kracht": wie de oorspronkelijke termijn laat verstrijken zonder iets te doen, staat juridisch in gebreke — zelfs als de overmacht objectief vaststaat. Het schriftelijk **vooraf** vragen van uitstel is dus essentieel. 🔗
+> > 
+> > Art. 323 WIB 1992: de door de administratie bepaalde termijn "kan wegens wettige redenen worden verlengd". Overmacht (stakingspiketten die toegang verhinderen, wateroverlast die het bedrijf onbereikbaar maakt) is een typische wettige reden. Sancties bij niet-medewerking: aanslag van ambtswege (art. 351 WIB) en administratieve geldboete (art. 445 WIB). 📖  
+> > *Bron: Art. 323 WIB 1992 (verlenging); art. 351 + art. 445 WIB 1992 (sancties)*
 
 <a id="2014-1-vr40"></a>
 <a id="2013-2-vr33"></a>
 
-> [!question]- Fiscale procedure — bezwaar: roerende voorheffing, ambtshalve aanslag, erfgenamen, ex-echtgenoot
+> [!question]- Bezwaarrecht: vier stellingen over wie bezwaar kan indienen
 > *Examens 2014-1 (2014-1-vr40) & 2013-2 (2013-2-vr33) · PO 2.5*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
+>
+> Geef aan of onderstaande uitspraken waar of niet waar zijn.
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Met betrekking tot de roerende voorheffing, kan enkel de schuldenaar van de voorheffing (degene die de voorheffing moet inhouden) een bezwaarschrift indienen. De verkrijger van de inkomsten waarop de voorheffing werd ingehouden, kan dit recht niet uitoefenen.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
->
-> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer de belastingplichtige ambtshalve is aangeslagen en de directeur zes maanden na ontvangst van het bezwaarschrift nog geen beslissing heeft genomen, kan de belastingplichtige het geschil, te allen tijde, voor de rechtbank van eerste aanleg brengen.</span>
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Ook de verkrijger van de inkomsten kan bezwaar indienen tegen de roerende voorheffing — niet enkel de schuldenaar die ze moet inhouden. 🔗
+> > 
+> > Art. 366 WIB92 verleent het bezwaarrecht aan de **belastingschuldige**. Voor de roerende voorheffing is dat principieel de schuldenaar van het inkomen (art. 261 WIB92), maar in een aantal gevallen is de verkrijger zelf de schuldenaar van de RV (art. 262 WIB92 — bv. RV op buitenlandse inkomsten geïnd in België). Bovendien is de RV een voorheffing die in hoofde van de verkrijger wordt verrekend (art. 280 WIB92): wanneer de inhouding zijn fiscale toestand raakt, heeft hij als belastingschuldige van de eindbelasting eveneens belang en bezwaarrecht. 🔗
+> > 
+> > Art. 366 WIB92 (bezwaar door belastingschuldige) + art. 261-262 WIB92 (schuldenaars RV — incl. verkrijger in afwijkingsgevallen) + art. 280 WIB92 (verrekening RV bij verkrijger). 📖  
+> > *Bron: Art. 366 WIB92; art. 261-262 WIB92; art. 280 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Indien een belastingplichtige overlijdt en twee kinderen nalaat, en slechts één van die kinderen bezwaar indient tegen de ten name van de overledene gevestigde belasting, geldt zijn bezwaarschrift voor het geheel van de aanslag en voor alle erfgenamen samen.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Het bezwaarschrift van één erfgenaam geldt enkel voor diens eigen aandeel in de belastingschuld, niet voor het geheel van de aanslag en evenmin voor de andere erfgenamen. 🔗
+> > 
+> > Bij overlijden treden de erfgenamen elk voor hun erfdeel in de fiscale rechten en plichten van de overledene. Art. 366 WIB92 erkent het bezwaarrecht in hoofde van **de belastingschuldige** (en de echtgenoot op wiens goederen wordt ingevorderd / medeschuldenaar). Elke erfgenaam is belastingschuldige voor zijn eigen aandeel; een bezwaar van één erfgenaam bindt de andere erfgenamen dus niet en strekt zich niet automatisch uit tot de volledige aanslag. Wie de bezwaartermijn laat verstrijken, wordt voor zijn aandeel niet beschermd door het bezwaar van zijn medeërfgenaam. 🤖
+> > 
+> > Verwar dit niet met art. 367 WIB92: dat artikel bepaalt dat één bezwaarschrift tegen een aanslag op betwiste **bestanddelen** van rechtswege geldt voor de andere aanslagen op dezelfde bestanddelen. Het gaat dáár over verschillende aanslagjaren bij dezelfde belastingschuldige, niet over verschillende erfgenamen die elk hun eigen aandeel moeten betwisten. 🔗
+> > 
+> > Art. 366 WIB92 (bezwaarrecht beperkt tot belastingschuldige / echtgenoot / medeschuldenaar) — elke erfgenaam handelt voor zijn eigen aandeel. Art. 367 WIB92 (uitbreidingseffect) ziet enkel op meerdere aanslagen op dezelfde bestanddelen, niet op meerdere erfgenamen. 📖  
+> > *Bron: Art. 366-367 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De echtgescheiden echtgenoot heeft de mogelijkheid om bezwaar in te dienen tegen een aanslag die betrekking heeft op een aanslagjaar voor de uitspraak van de echtscheiding, zelfs indien de andere echtgenoot dit niet heeft gedaan, maar wel op voorwaarde dat de belasting op de goederen van de indiener van het bezwaarschrift wordt ingevorderd.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Juist**
+> > 
+> > **JUIST.** De echtgescheiden echtgenoot kan zelfstandig bezwaar indienen tegen een aanslag van vóór de echtscheiding, mits de belasting op zijn/haar goederen wordt ingevorderd. 📖
+> > 
+> > Art. 366 WIB92 verleent het bezwaarrecht expliciet niet alleen aan de belastingschuldige, maar óók aan **de echtgenoot op wiens goederen de aanslag wordt ingevorderd**. Die hoedanigheid blijft bestaan voor aanslagen die betrekking hebben op een aanslagjaar van vóór de uitspraak van de echtscheiding (toen er gemeenschappelijke aanslag was). De ex-echtgenoot heeft dan een eigen, autonoom bezwaarrecht — los van of de andere ex-echtgenoot al dan niet bezwaar heeft ingediend. De voorwaarde dat de belasting op zijn/haar goederen wordt ingevorderd is precies de in art. 366 vermelde voorwaarde. 🔗
+> > 
+> > Art. 366 WIB92: "De belastingschuldige, alsmede zijn echtgenoot op wiens goederen de aanslag wordt ingevorderd ... kan tegen het bedrag van de gevestigde aanslag ... schriftelijk bezwaar indienen." Dit autonoom bezwaarrecht overleeft de echtscheiding voor aanslagen die op de gewezen gemeenschap betrekking hebben. 📖  
+> > *Bron: Art. 366 WIB92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer de belastingplichtige ambtshalve is aangeslagen en de directeur zes maanden na ontvangst van het bezwaarschrift nog geen beslissing heeft genomen, kan de belastingplichtige het geschil, te allen tijde, voor de rechtbank van eerste aanleg brengen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Bij een **ambtshalve** aanslag wordt de termijn van zes maanden verlengd met drie maanden — de belastingplichtige moet dus **negen maanden** zonder beslissing afwachten voor hij rechtstreeks naar de rechtbank van eerste aanleg kan stappen. 🔗
+> > 
+> > Art. 1385undecies Ger.W. bepaalt dat een vordering bij de rechtbank van eerste aanleg slechts ontvankelijk is na het uitputten van het administratief beroep én — bij gebrek aan beslissing van de adviseur-generaal — na het verstrijken van een wachttermijn van **zes maanden**. Diezelfde bepaling verlengt die termijn met **drie maanden** wanneer de betwiste belasting van ambtswege werd gevestigd. De stelling negeert die verlenging en is dus onjuist. 🔗
+> > 
+> > De woorden "te allen tijde" zijn op zich correct — eens de wachttermijn verstreken is, geldt er geen vervaltermijn meer om de zaak voor de rechtbank te brengen — maar de fout zit in het cijfer **zes** maanden bij een ambtshalve aanslag. 🔗
+> > 
+> > Zes maanden geldt bij een **gewone** aanslag, negen maanden bij een **ambtshalve** aanslag. Een examenstelling die expliciet "ambtshalve aangeslagen" vermeldt én vervolgens "zes maanden" noemt, is een klassieke valstrik die de verlenging uit art. 1385undecies Ger.W. negeert. 🤖
+> > 
+> > Art. 1385undecies Ger.W. (wachttermijn 6 maanden voor rechtstreeks beroep bij rechtbank van eerste aanleg, verlengd met 3 maanden bij ambtshalve aanslag) — samenlezen met art. 366 WIB92 (administratief beroep is verplicht voorgaande stap). 📖  
+> > *Bron: Art. 1385undecies Ger.W.; art. 366 WIB92*
 
 <a id="2014-1-vr41"></a>
 

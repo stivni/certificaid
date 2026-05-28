@@ -3,12 +3,12 @@ title: PO 1.7 — Interne controle
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.7 (Interne controle).
 tags: [examen, voorbeeldvragen, po-1-7]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-26
+gegenereerd_op: 2026-05-28
 ---
 
 # PO 1.7 — Interne controle
 
-**17 unieke vraag-eenheden** (waarvan 1 cluster, totaal 18 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 16 met modelantwoord
+**17 unieke vraag-eenheden** (waarvan 1 cluster, totaal 18 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 17 met modelantwoord
 
 <a id="2024-1-vr3A"></a>
 
@@ -292,18 +292,35 @@ gegenereerd_op: 2026-05-26
 <a id="2014-1-vr11"></a>
 <a id="2013-1-vr9"></a>
 
-> [!question]- Interne controle — procedure opstellen voor terugbetaling kleine kosten met functiescheiding
+> [!question]- Procedure met functiescheiding voor kasbetalingen kleine kosten
 > *Examens 2014-1 (2014-1-vr11) & 2013-1 (2013-1-vr9) · PO 1.7*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
-> De secretaresse van de zaakvoerder betaalt kleine kosten gemaakt door het personeel terug via een kas.
+> Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt door het personeel terug via een kas.
 >
-> Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen in voorkomen.
+> Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen voorkomen.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > Voorbeeldprocedure met **drie** controletechnische functiescheidingen (beschikken — uitvoeren — registreren — controleren — bewaren). De **werknemer** doet de uitgave en levert het stavingstuk in; de **diensthoofd/zaakvoerder** keurt de terugbetaling goed (beschikkende functie); de **secretaresse** betaalt uit kas en houdt de kas (uitvoerende + bewarende functie op haar kas); de **boekhouder** boekt de uitgave in de boekhouding (registrerende functie); de **zaakvoerder of een tweede persoon** voert periodiek (bv. maandelijks) een kascontrole uit met telling en aansluiting op het kasboek (controlerende functie). 🔗
+> > 
+> > **Procedure stap voor stap** — met aanduiding van de functiescheiding bij elke stap:
+> > 
+> > 1. **Initiëren van de uitgave** — De werknemer doet een kleine uitgave (bv. parkeerkosten, kantoorbenodigdheden) en bewaart het originele kassticket/factuur. Hij vult een onkostennota in met datum, bedrag en aard en hecht het stavingstuk aan. 🤖
+> > 2. **Goedkeuren — *beschikkende functie*** — De zaakvoerder (of het diensthoofd) controleert of de uitgave bedrijfsmatig en redelijk is en parafeert de onkostennota vóór terugbetaling. Zonder paraaf geen uitbetaling. 🔗
+> > 3. **Uitbetalen + bewaren — *uitvoerende + bewarende functie*** — De secretaresse betaalt het bedrag uit de kas, laat de werknemer aftekenen op de onkostennota en bewaart deze + het stavingstuk in haar kasdossier. 🔗
+> > 4. **Registreren — *registrerende functie*** — De **boekhouder** (een andere persoon dan de secretaresse) boekt de uitgave op basis van de gegoedgekeurde onkostennota op de gepaste kostenrekening en mutaties op de kasrekening (zonder zelf toegang tot de kas). 🔗
+> > 5. **Periodieke kascontrole — *controlerende functie*** — Minstens maandelijks telt de zaakvoerder (of een derde persoon, niet de secretaresse en niet de boekhouder) de kas en sluit deze aan op het saldo van de boekhouding en op de bewaarde onkostennota's. Een proces-verbaal van de kascontrole wordt door beide partijen ondertekend. 🔗
+> > 
+> > **De vereiste twee functiescheidingen zijn in deze procedure ruim aanwezig**: (i) de **beschikkende** functie (zaakvoerder — goedkeuring) is gescheiden van de **uitvoerende** functie (secretaresse — uitbetaling); (ii) de **uitvoerende/bewarende** functie (secretaresse — kas) is gescheiden van de **registrerende** functie (boekhouder — boeking); (iii) de **controlerende** functie (kascontrole) is gescheiden van wie de kas voert. 🔗
+> > 
+> > De **klassieke vijf controletechnische functies** zijn: **B**eschikken — **U**itvoeren — **R**egistreren — **C**ontroleren — **B**ewaren (ezelsbruggetje **BURCB**). De basisregel: deze functies moeten over verschillende personen verdeeld zijn opdat geen enkele persoon een volledige transactie alleen kan initiëren, uitvoeren én verbergen. Vraag-goed-lezen: "minimaal twee functiescheidingen" is een **minimum**; een volwaardige procedure raakt er meestal drie of vier. 🤖
+> > 
+> > In een **kleine BVBA / familiaal bedrijf** is volledige functiescheiding vaak praktisch onhaalbaar (te weinig personeel). ISA 315 (herzien-2019) erkent dit uitdrukkelijk: bij minder complexe entiteiten kan **direct toezicht door de zaakvoerder-eigenaar** (bv. zelf de kascontrole doen + alle onkostennota's paraferén) compenseren voor beperkte functiescheiding. In het examenantwoord: vermeld die compenserende controle expliciet — alleen "er is geen functiescheiding mogelijk" is geen aanvaardbaar antwoord. 🔖 📖
+> > 
+> > **ISA 315 (herzien-2019), §A157**: "Het kan minder praktisch uitvoerbaar zijn om functiescheiding in minder complexe entiteiten met minder medewerkers tot stand te brengen. In een door de eigenaar bestuurde entiteit kan de eigenaar-bestuurder echter mogelijk meer effectief toezicht uitoefenen door directe betrokkenheid … wat de over het algemeen beperktere mogelijkheden voor functiescheiding kan compenseren." De vijf controletechnische functies (beschikken/uitvoeren/registreren/controleren/bewaren) zijn klassieke audit-doctrine — niet wettelijk vastgelegd in een specifiek artikel, maar standaard in interne-controle-leerboeken en impliciet in ISA 315 §26 (interne beheersingsactiviteiten). 📖  
+> > *Bron: ISA 315 (herzien-2019), §A157 + §26*
 
 <a id="2013-2-vr10"></a>
 
