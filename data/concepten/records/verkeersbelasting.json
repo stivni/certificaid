@@ -1,74 +1,205 @@
 {
   "id": "verkeersbelasting",
   "naam": {
-    "primair": "Verkeersbelasting"
+    "primair": "Verkeersbelasting",
+    "synoniemen": ["jaarlijkse verkeersbelasting"],
+    "vertaling": { "fr": "taxe de circulation" }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.I.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.7.I.B"],
     "scope": {
       "in": [
-        "Gewestelijke belasting op motorvoertuigen",
-        "Vlaanderen: CO2-modulering + ecoscore-tarief",
+        "Jaarlijkse gewestelijke belasting op motorvoertuigen",
+        "Vlaanderen: CO2-modulering + ecoscore-component (sinds 2016)",
         "Wallonië + Brussel: cilinderinhoud-tarief (klassiek)",
+        "Oldtimer-tarief (voertuigen ≥ 25 jaar — vlak forfait)",
         "Vrijstellingen + verminderingen per categorie"
       ],
       "out": [
-        {
-          "topic": "Belasting-inverkeerstelling (eenmalig)",
-          "richting": "moet-verwijzen",
-          "ref": "belasting-inverkeerstelling"
-        },
-        {
-          "topic": "Autokosten-fiscaal (bedrijfsauto)",
-          "richting": "mag-verwijzen",
-          "ref": "autokosten"
-        }
+        { "topic": "Belasting-inverkeerstelling (eenmalig)", "richting": "moet-verwijzen", "ref": "belasting-inverkeerstelling" },
+        { "topic": "Autokosten-fiscaal (bedrijfsauto)", "richting": "mag-verwijzen", "ref": "autokosten" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/verkeersbelasting.json",
+      "primary_bronnen": [
+        "WIGB (Wetboek Inkomstenbelastingen Gebruikersbelastingen)",
+        "VCF Titel 2.2 (Vl)",
+        "Decreten gewestelijke wegen-fiscaliteit"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:45:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld op basis van gewestelijke voertuigfiscaliteit-doctrine." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "De verkeersbelasting is een jaarlijkse gewestelijke belasting verschuldigd door de titularis (inschrijver) van een motorvoertuig (auto, motorfiets, vrachtwagen, bus, autocar, aanhangwagen) zolang dat voertuig in België is ingeschreven. Het tarief verschilt per gewest: Vlaanderen heeft sinds 2016 een gemoduleerd systeem dat CO2-uitstoot, euronorm en brandstof in rekening brengt; Brussel en Wallonië hanteren nog grotendeels de klassieke tabel op basis van cilinderinhoud (cc/PK) of nuttige last. Voor voertuigen ≥ 25 jaar geldt een 'oldtimer-tarief': een vlak en sterk verlaagd forfait.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
+            { "type": "wettekst", "naam": "WIGB", "ref": "Titel II — Verkeersbelasting", "context": "Federale grondslag, gewestelijk uitgewerkt" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer voertuigfiscaliteit" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor een typische personenwagen (benzine, 1.4 L, recente euronorm) in Vlaanderen: 250-400 EUR per jaar. Voor een 'maluswagen' (diesel, oudere euronorm, hoge CO2): 700-1.500 EUR per jaar. Voor elektrische wagens: 0 EUR (volledige vrijstelling in Vlaanderen sinds 2016, beleidsbeslissing). Brussel/Wallonië hanteren tabellen rond 200-700 EUR voor courante wagens. Bedrijfswagens worden door de werkgever betaald; impact op TWR (total wagenkost) bij wagenkeuze. Voertuigen ≥ 25 jaar betalen een 'oldtimer-tarief' (Vl ca. 41 EUR; Wa/Br vergelijkbaar laag) onder voorwaarde van beperkt gebruik.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Empirische cijfers" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Klassiek: gebruikersbelasting voor het openbaar wegennet ('wie gebruikt, betaalt'). Modern (Vl): sturend instrument om ecologische voertuigkeuze te stimuleren — CO2-component verhoogt voor vervuilende wagens, vrijstelling voor elektrische wagens. Oldtimer-tarief: erkenning dat ≥ 25 jaar oude voertuigen geen 'dagelijks vervoer' meer zijn en bescherming van het historische erfgoed.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine voertuigfiscaliteit" }]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "naast_relevant": ["belasting-inverkeerstelling", "autokosten"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIGB Titel II (federaal kader) + VCF Titel 2.2 (Vl) + gewestelijke decreten Wallonië en Brussel",
+        "toelichting": "Volledig gewestelijk sinds zesde staatshervorming. Vlaamse hervorming met ecoscore-tarief 2016. Brussel en Wallonië onderzoeken vergelijkbare CO2-gestuurde hervormingen maar hanteren nog grotendeels klassieke tabel."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere natuurlijke of rechtspersoon op wiens naam een motorvoertuig is ingeschreven bij de DIV (Directie Inschrijving Voertuigen). Belasting volgt de inschrijving — eens een voertuig 'uit verkeer genomen' is en geschrapt, vervalt de belasting pro rata.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Vrijstellingen: elektrische voertuigen (Vl: volledig vrijgesteld; Wa/Br: gedeeltelijk); personen met handicap onder voorwaarden; voertuigen voor militair/diplomatiek gebruik; voertuigen ≥ 25 jaar genieten oldtimer-tarief (geen vrijstelling maar sterk verminderd forfait).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse vrijstellingsregeling" }]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-personenwagen-vl",
+        "naam": { "primair": "Vlaams tarief personenwagen (gemoduleerd)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaams systeem (sinds 2016): basisbedrag (functie cilinderinhoud cc OF kW elektrisch) × correctiecoëfficiënt(CO2) × correctiecoëfficiënt(brandstof + euronorm). Elektrisch: vrijstelling (basisbedrag × 0). Diesel + oude euronorm: malus tot 1,5× basis. Recente benzine zuinige wagen: licht verlaagd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaams decreet 2016" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-tabel-br-wa",
+        "naam": { "primair": "Klassiek tarief Brussel/Wallonië" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In Brussel en Wallonië wordt het tarief nog grotendeels bepaald door de cc-tabel uit het WIGB: range 79-4.000 EUR/jaar afhankelijk van cilinderinhoud, leeftijd, en brandstof. Slechts beperkte CO2-correctie. Voor vrachtwagens: nuttige last als basis.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "WIGB-tabel" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "oldtimer-tarief",
+        "naam": { "primair": "Oldtimer-tarief (voertuigen ≥ 25 jaar)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor voertuigen ≥ 25 jaar wordt een vlak verminderd tarief toegepast (Vl ca. 41 EUR/jaar incl. aanvullende verkeersbelasting — exact bedrag in Cijferzakboekje). Voorwaarden: voertuig in originele staat + beperkt gebruik (geen woon-werk, geen beroepsgebruik) + bewijs ouderdom. Voorheen was de drempel 30 jaar; verlaagd naar 25 jaar voor enkele jaren in Vlaanderen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaams oldtimer-regime" }]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BIV en verkeersbelasting verwarren",
+        "verkeerde_assumptie": "BIV en jaarlijkse verkeersbelasting zijn dezelfde belasting.",
+        "kernpunt": "BIV = EENMALIG bij inschrijving (aankoop / overdracht). Verkeersbelasting = JAARLIJKS zolang het voertuig ingeschreven blijft. Een voertuig betaalt typisch beide: eenmaal BIV, daarna elk jaar verkeersbelasting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+        }
+      },
+      {
+        "titel": "Tarief Vlaanderen veralgemenen naar Brussel/Wallonië",
+        "verkeerde_assumptie": "Het Vlaamse ecoscore-tarief geldt overal in België.",
+        "kernpunt": "Verkeersbelasting is gewestelijk en de drie gewesten hanteren verschillende formules. Brussel/Wallonië rekenen nog op cilinderinhoud-basis. Bij verhuis naar ander gewest verandert de jaarlijkse verkeersbelasting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "venn-wagenpark",
+      "naam": { "primair": "Vennootschap met wagenpark" },
+      "intro": "De accountant die wagenparkfiscaliteit becijfert.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "wagenkeuze-impact",
+              "naam": { "primair": "Verkeersbelasting in wagenkeuze-analyse" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij wagenkeuze: verkeersbelasting opnemen in de TCO/TWR-vergelijking. Elektrisch heeft 0 EUR verkeersbelasting (Vl) — significant verschil over 5 jaar leasing. Diesel + oudere euronorm: malus — kan een wagen € 5.000-10.000 duurder maken over leasingsperiode. Combinatie met BIV-malus, VAA-kost werknemer, BTW-aftrekbeperking levert het volledige plaatje op.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Wagenpark-adviespraktijk" }]
+                  }
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
+    { "type": "valt_onder", "target": "lokale-en-regionale-belastingen" },
+    { "type": "vergelijkbaar_met", "target": "belasting-inverkeerstelling",
+      "gelijkenissen": ["Beide zijn gewestelijke voertuigbelastingen", "Beide gebaseerd op cilinderinhoud / kW (klassiek) of CO2 (Vl modern)"],
+      "verschillen": ["BIV: éénmalig bij inschrijving", "Verkeersbelasting: jaarlijks zolang ingeschreven"],
+      "verwarring_risico": "Klassieke vraag van cliënten — duidelijk onderscheiden in advies."
     }
   ]
 }
