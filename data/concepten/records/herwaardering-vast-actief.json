@@ -2,85 +2,190 @@
   "id": "herwaardering-vast-actief",
   "naam": {
     "primair": "Herwaardering van vast actief",
-    "synoniemen": [
-      "revalorisatie vast actief",
-      "herwaarderingsmeerwaarde"
-    ]
+    "synoniemen": ["herwaarderingsmeerwaarde"],
+    "vertaling": {"en": "revaluation of fixed assets", "fr": "réévaluation d'immobilisations"}
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "1.1.II.B"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["1.1.II.B"],
     "scope": {
       "in": [
-        "Art 57 KB 29-04-2019",
+        "Art 57 KB 29-04-2019 (uitvoering WVV)",
         "Herwaarderingsmeerwaarde — boekwaarde verhogen naar (hogere) actuele waarde",
         "Boeking in klasse 12 (herwaarderingsmeerwaarden onder EV)",
-        "CBN-advies 2019-9",
+        "CBN-advies 2011/14 (herwaarderingsmeerwaarden)",
         "IAS 16 revaluation model-link",
         "Behoud-vereisten + duurzaamheid-criteria"
       ],
       "out": [
-        {
-          "topic": "Vaste activa generiek",
-          "richting": "moet-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "Eigen vermogen (klasse 12 herwaarderings-meerwaarden)",
-          "richting": "moet-verwijzen",
-          "ref": "eigen-vermogen"
-        },
-        {
-          "topic": "IFRS — IAS 16 revaluation model",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Vaste activa generiek", "richting": "moet-verwijzen", "ref": "vaste-activa"},
+        {"topic": "Eigen vermogen (klasse 12 herwaarderings-meerwaarden)", "richting": "moet-verwijzen", "ref": "eigen-vermogen"},
+        {"topic": "IFRS — IAS 16 revaluation model", "richting": "mag-verwijzen", "ref": "materiele-vaste-activa"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/herwaardering-vast-actief.json",
+      "primary_bronnen": ["KB 29.04.2019 art. 57", "CBN-advies 2011/14", "Verordening (EU) 2023/1803 — IAS 16"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Herwaardering uitgewerkt: art. 57 KB + voorwaarden + boeking klasse 12 + IAS 16 vergelijking."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Herwaardering van een vast actief = de boekwaarde van een MVA of FVA verhogen naar de hogere actuele waarde, met als tegenboeking een 'herwaarderingsmeerwaarde' in het eigen vermogen (klasse 12). Wettelijke basis: art. 57 KB 29.04.2019 (uitvoering WVV). Toepassingsgebied: alleen materiële vaste activa (klasse 22-27) en financiële vaste activa (klasse 28 — deelnemingen en aandelen). Voorwaarden (art. 57 § 1): (a) duurzame waarde verhoogd boven aanschaffingswaarde; (b) waarde rechtvaardigt economisch nut activum; (c) waarde overschrijdt boekwaarde op materiële wijze; (d) consistent over vergelijkbare activa.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57"}, {"type": "cbn", "naam": "CBN-advies 2011/14", "ref": "Herwaarderingsmeerwaarden"}]}
+      },
+      "substantie": {
+        "tekst": "Stagiair moet onthouden: (1) Herwaardering ≠ terugneming afschrijving. Afschrijving terugnemen = correctie eerdere foutieve afschrijving (uitzonderlijk, CBN 2011/14). Herwaardering = nieuwe waarde-vaststelling boven oorspronkelijke aanschaffingswaarde. (2) Geen impact op resultaat. Meerwaarde gaat naar klasse 12 (eigen vermogen) — niet naar 763 resultaat. (3) Verplicht jaarlijks toetsen of meerwaarde nog bestaat — bij waardedaling: corrigeren (CBN 2011/14). (4) Fiscaal niet belastbaar zolang in eigen vermogen blijft (uitgedrukte maar niet-gerealiseerde meerwaarde, art. 44 WIB92). Bij realisatie (verkoop activum): meerwaarde wordt belastbaar.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2011/14", "ref": "Onderscheid + correctie"}, {"type": "wettekst", "naam": "WIB92", "ref": "art. 44"}]}
+      },
+      "rationale": {
+        "tekst": "Herwaardering doorbreekt het 'aanschaffingswaarde-principe' (waardering op kostprijs minus afschrijvingen) voor situaties waar de werkelijke economische waarde aanzienlijk en duurzaam hoger ligt — typisch oude gebouwen waarvan de marktwaarde door inflatie/aantrekkelijkheid stijgt. De wetgever beperkt dit STRICT: enkel MVA + FVA, niet voorraden of vorderingen; alleen duurzame waarde-verhoging (geen tijdelijke marktbubbel); meerwaarde in eigen vermogen (geen uitkeerbare winst). IFRS IAS 16 'revaluation model' is breder (alle waarderings-componenten, ook neerwaartse herziening via OCI). Voor de stagiair-analyse: een onderneming met grote rubriek 12 'herwaarderingsmeerwaarden' heeft een verleden van actieve herwaardering — niet noodzakelijk slecht maar wel signaal voor onderzoek.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "vaste-activa",
+      "naast_relevant": ["materiele-vaste-activa"]
+    },
+    "subconcepten": [
+      {
+        "id": "voorwaarden-art-57",
+        "naam": {"primair": "Voorwaarden art. 57 KB"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "(1) Toepassingsgebied beperkt tot MVA (klasse 22-27) + FVA (deelnemingen + aandelen klasse 28). NIET op IMA, voorraden, vorderingen, geldbeleggingen klasse 5. (2) Duurzaam karakter: niet één toevallige waardestijging maar volgehouden hogere waarde. (3) Materieel verschil met boekwaarde. (4) Bewijs van waarde: meestal externe taxatie (vastgoed-expert, accountant). (5) Consistent toepassen op vergelijkbare activa-klassen.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57 § 1"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-herwaardering",
+        "naam": {"primair": "Boekhoudkundige verwerking"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "(1) Activum verhogen tot nieuwe waarde via rubriek ...8 'geboekte meerwaarden': bv. 2208 D voor gebouw. (2) Tegenpost in EV: 12 'herwaarderingsmeerwaarden' (sub 121 op MVA + 122 op FVA + 123 op deelnemingen) C. (3) Latere afschrijving rekent op nieuwe (hogere) boekwaarde — overschot van afschrijving wordt opbrengst uit terugneming herwaarderingsmeerwaarde 760. (4) Jaarlijkse toets: nog steeds gerechtvaardigd? Bij waardedaling: 12 D / 2208 C (correctie).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57"}, {"type": "cbn", "naam": "CBN-advies 2011/14", "ref": "Correctie herwaarderingsmeerwaarden"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-herwaardering-gebouw",
+              "titel": "Herwaardering gebouw: boekwaarde 200.000 → marktwaarde 350.000",
+              "context": "Zelena Bio NV bezit kantoorgebouw aanschaffingswaarde 250.000, geaccumuleerde afschrijvingen 50.000 = boekwaarde 200.000. Taxatie 2026: 350.000 EUR.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking herwaardering 150.000",
+                  "rijen": [
+                    {"rekening": "2208 — Geboekte herwaarderingsmeerwaarden gebouwen", "debet": 150000, "credit": null},
+                    {"rekening": "121 — Herwaarderingsmeerwaarden op MVA", "debet": null, "credit": 150000}
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Herwaarderingsmeerwaarde als winst boeken",
+        "verkeerde_assumptie": "Een herwaardering van 150.000 EUR = winst die kan worden uitgekeerd.",
+        "kernpunt": "Art. 57 KB: meerwaarde gaat naar EIGEN VERMOGEN (klasse 12) — NIET resultaat. Niet uitkeerbaar als dividend zolang meerwaarde niet 'gerealiseerd' is (verkoop activum). Het verschil met realisatie-meerwaarde (763) is essentieel.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57"}]}
+      },
+      {
+        "titel": "Herwaardering op IMA, voorraden of vorderingen",
+        "verkeerde_assumptie": "Alle vaste activa kunnen worden geherwaardeerd.",
+        "kernpunt": "Art. 57 KB beperkt herwaardering tot MVA + FVA (deelnemingen + aandelen). IMA (klasse 21), oprichtingskosten (20), voorraden, vorderingen mogen NIET worden geherwaardeerd. Uitzondering: tussentijdse opwaardering bij IMA-overgang naar IFRS — daar moet de stagiair de Be-GAAP-beperking kennen.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57 § 1"}]}
+      },
+      {
+        "titel": "Jaarlijkse toets vergeten",
+        "verkeerde_assumptie": "Een eenmaal geboekte herwaardering blijft op de balans.",
+        "kernpunt": "CBN 2011/14: jaarlijks op inventarisdatum nagaan of meerwaarde nog bestaat. Bij waardedaling: meerwaarde corrigeren (12 D / activum C). Negeren is overtreding van het voorzichtigheidsbeginsel + auditor-aandachtspunt.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2011/14", "ref": "Correctie herwaarderingsmeerwaarden"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vaste-activa"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-herwaardering-implementatie",
+              "naam": {"primair": "Implementatie + jaarlijkse opvolging"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij vestiging: externe taxatie + raad-van-bestuur-besluit + boeking. Toelichting bij jaarrekening: vermelding waarderingsgrondslag, vergelijkende meerwaarde-tabel. Jaarlijks: herziening met taxatie of marktindicator.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 57 + toelichting"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-herwaardering-bewijs",
+              "naam": {"primair": "Toets herwaarderings-bewijs + duurzaamheid"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vraag taxatieverslag op + onafhankelijkheid taxateur. Toets methode (marktbenadering, inkomstenbenadering). Vergelijk met andere indicatoren (kadastrale waarde, vorige verkoop in omgeving). Bij FVA: dochter-JR + business plan + DCF. Vraag bewijs van duurzaam karakter (geen tijdelijke bubbel).",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 540", "ref": "Schattingen"}, {"type": "norm", "naam": "ISA 620", "ref": "Werk van een deskundige"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-herwaardering-belasting",
+              "naam": {"primair": "Fiscale behandeling — art. 44 WIB92"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "WIB92 art. 44: 'uitgedrukte maar niet-verwezenlijkte meerwaarden' zijn vrijgesteld zolang ze (a) in onaantastbaarheids-rekening in EV blijven (klasse 12) en (b) niet uitgekeerd worden. Bij overdracht of uitkering: meerwaarde wordt belastbaar. Toelichting + onaantastbaarheids-vereiste in fiscaal aangifte VenB.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 44"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "vaste-activa"},
+    {"type": "alternatief_referentiestelsel", "target": "materiele-vaste-activa", "toelichting": "IAS 16 'revaluation model' — IFRS-variant van Be-GAAP herwaardering."}
   ]
 }
