@@ -5,12 +5,15 @@
     "synoniemen": [
       "cessatiemeerwaarde",
       "plus-value de cessation"
-    ]
+    ],
+    "vertaling": {
+      "fr": "plus-value de cessation"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling",
       "gebeurtenis"
@@ -19,28 +22,14 @@
       "2.2.VI.B",
       "2.2.X"
     ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (rename van stopzettingsmeerwaarde-pb: -pb gestript, fenomeen ook in VenB-context)"
-      }
-    ],
     "scope": {
       "in": [
         "Meerwaarde bij stopzetting eenmanszaak / vrij beroep (cessatie)",
-        "Tariefstructuur: 16,5%-tarief (vrijwillige stopzetting + bepaalde activa) · 33% · progressief tarief",
+        "Tariefstructuur: 10 % · 16,5 % · 33 % · progressief — afhankelijk van leeftijd, aard activa en oorzaak stopzetting",
         "Onderscheid materiële vaste activa · klantenbestand/goodwill · voorraden",
-        "Verschillende behandeling: ingebrekestelling (overlijden · pensioen) vs vrijwillig",
-        "Spreiding-mogelijkheid: gespreide belasting bij wederbelegging",
-        "Gespreide belasting bij overlijden (forfait)",
+        "Verschillende behandeling: gedwongen stopzetting (overlijden · pensioen) vs vrijwillig",
+        "Spreiding-mogelijkheid: gespreide belasting bij wederbelegging (art. 47)",
+        "Vrijstelling bij inbreng in vennootschap (art. 46 — fiscale neutraliteit)",
         "Voortzetting door erfgenaam: vrijstelling onder voorwaarden"
       ],
       "out": [
@@ -65,20 +54,69 @@
           "ref": "belastingberekening-pb"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/stopzettingsmeerwaarde.json",
+      "primary_bronnen": [
+        "WIB92 art. 28",
+        "WIB92 art. 39",
+        "WIB92 art. 40",
+        "WIB92 art. 46",
+        "WIB92 art. 47",
+        "WIB92 art. 169",
+        "WIB92 art. 171",
+        "aangifte-PB-2025-stopzetting (vak XXI)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:50:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle: tariefcascade 10/16,5/33 % + neutralisering art. 46/47 + activa-types uitgewerkt."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een stopzettingsmeerwaarde is een meerwaarde verkregen of vastgesteld uit hoofde of naar aanleiding van de gehele of gedeeltelijke stopzetting van een beroepswerkzaamheid (eenmanszaak winst, vrij beroep baten) of van een bedrijfsafdeling/tak van werkzaamheid (art. 28, lid 1, 1° WIB92). Ze ontstaat op de activa die voor die beroepswerkzaamheid werden gebruikt (materiële vaste activa, immateriële vaste activa zoals goodwill en cliënteel, financiële vaste activa, voorraden) en wordt belast in de PB als 'winst of baten van een vorige beroepswerkzaamheid' (art. 23 § 1, 3°) — typisch tegen afzonderlijke gunsttarieven (10 %, 16,5 % of 33 %) in plaats van het progressief tarief.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-3°, 28 lid 1, 1°" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bij stopzetting van een eenmanszaak komt de zelfstandige aan een fiscaal 'afrekenmoment': de fiscus 'koopt' de verborgen meerwaarden af tegen een verlaagd afzonderlijk tarief. Hoeveel de zelfstandige uiteindelijk betaalt hangt af van drie variabelen: (1) wat hij stopzet (welk type activa); (2) hoe (vrijwillig of gedwongen door overlijden, ziekte, onteigening, pensioen); (3) op welke leeftijd (60-jaar-grens). De wetgever gebruikt deze cascade om enerzijds 'langlopende winsten' (cliënteel opgebouwd over jaren) niet te zwaar te belasten, anderzijds vrijwillige rocades (bv. omzetting eenmanszaak → vennootschap) te kanaliseren via art. 46 (fiscale neutraliteit). Praktisch is dit één van de meest gevoelige momenten voor optimalisatie: een goede planning van het stopzettingsmoment + activa-toewijzing kan tienduizenden euro fiscale besparing opleveren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 46, 47, 171" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De gunsttarieven (10/16,5/33 %) corrigeren een progressie-effect: zonder afzonderlijk tarief zouden alle latente meerwaarden in één belastbaar tijdperk vallen, waardoor het marginaal tarief 50 %+ wordt. De 10 %-grens (vanaf 60 jaar of gedwongen) erkent dat ouderen vaak hun pensioen-financiering uit de stopzetting halen. Art. 46-47-vrijstellingen ondersteunen herstructurering (vennootschap-vorming, voortzetting binnen familie) zonder fiscale hindernis.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 171" }
           ]
         }
       }
@@ -86,22 +124,325 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 28 + 171"
+        "wettelijke_basis": "WIB92 art. 28, 39, 40, 46, 47, 169, 171"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke definitieve stopzetting van zelfstandige eenmanszaak of vrij beroep (cessatie, pensioen, overlijden, omzetting in vennootschap).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 28" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Vrijwillige stopzetting (cessatie-akte + uitschrijving KBO + BTW-stopzetting), of gedwongen stopzetting (overlijden, blijvende arbeidsongeschiktheid > 66 %, onteigening), of omzetting in vennootschap.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 46" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "definitie-meerwaarde",
+        "naam": { "primair": "Bepaling van de meerwaarde (art. 43 WIB)" },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Meerwaarde = werkelijke verkoopprijs (of overdrachtswaarde) − fiscale netto-boekwaarde van het actief. Fiscale netto-boekwaarde = aanschaffingswaarde − fiscaal aanvaarde afschrijvingen − eventuele waardeverminderingen. Aftrekbaar: werkelijke kosten van overdracht (notaris, makelaar) — vandaar 'meerwaarden na aftrek werkelijke overdrachtskosten' op aangifte vak XXI.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 43" },
+                { "type": "aangifte", "naam": "aangifte-PB-2025-stopzetting", "ref": "vak XXI rubriek 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tariefcascade",
+        "naam": { "primair": "Tariefcascade stopzettingsmeerwaarden (art. 171 WIB)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Afzonderlijke tarieven (art. 171 WIB92), te beoordelen per activum:",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 171, 1°-4°" },
+                { "type": "aangifte", "naam": "aangifte-PB-2025-stopzetting", "ref": "vak XXI rubriek 1" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Tariefcascade (PB aanslagjaar 2025):\n\n| Tarief | WIB | Wanneer van toepassing | Aangiftecode |\n|---|---|---|---|\n| **10 %** | art. 171-2° | Stopzetting vanaf **60 jaar** (of pensioen) · gedwongen stopzetting (overlijden, blijvende arbeidsongeschiktheid > 66 %, onteigening) — op materiële + immateriële vaste activa | 1686-60 |\n| **16,5 %** | art. 171-4° | Vrijwillige stopzetting **vóór 60 jaar** — meerwaarden op **vaste activa die meer dan 5 jaar** voor de beroepswerkzaamheid werden gebruikt (incl. cliënteel/goodwill > 5 j) | 1690-56 |\n| **33 %** | art. 171-1° | Vrijwillige stopzetting **vóór 60 jaar** — meerwaarden op activa die **minder dan 5 jaar** in gebruik waren, of op voorraden | 1691-55 |\n| Progressief | — | Uitzonderlijk wanneer geen afzonderlijk tarief voorzien | 1692-54 |\n\n**Verhoogd met aanvullende gemeentebelasting + crisisbijdrage.**"
+          },
+          {
+            "type": "proza",
+            "tekst": "Beslisboom tarief:\n\n```mermaid\nflowchart TD\n  A[Stopzettingsmeerwaarde per actief] --> B{Oorzaak?}\n  B -->|Vrijwillig| C{Leeftijd 60+?}\n  B -->|Gedwongen overlijden/AO>66%/onteigening| TEN[10 %]\n  C -->|ja| TEN\n  C -->|nee| D{Activum > 5 jaar in gebruik?}\n  D -->|ja| ZEVT[16,5 %]\n  D -->|nee — incl. voorraden| DRIE[33 %]\n```"
+          }
+        ]
+      },
+      {
+        "id": "neutralisering-art46",
+        "naam": { "primair": "Vrijstelling bij inbreng in vennootschap (art. 46 WIB)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Stopzettingsmeerwaarden worden volledig maar tijdelijk vrijgesteld bij inbreng van de eenmanszaak (of een bedrijfstak) in een vennootschap, mits cumulatief: (1) inbreng tegen aandelen; (2) maatschappelijke zetel binnen EER; (3) voortzetting van de activiteit; (4) vereiste boekhoudkundige continuïteit (zelfde boekwaarden in de vennootschap). De vrijgestelde meerwaarde wordt latent gehouden in de vennootschap en zal worden belast bij latere realisatie. Dit is dé manier om een eenmanszaak fiscaal-neutraal te transformeren in een BV/NV.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46 § 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gespreide-belasting-art47",
+        "naam": { "primair": "Gespreide belasting bij wederbelegging (art. 47 WIB)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Meerwaarden op materiële + immateriële vaste activa die meer dan 5 jaar gebruikt waren, kunnen onder bepaalde voorwaarden (art. 47 WIB) gespreid worden belast over de afschrijvingsperiode van een wederbelegging — d.w.z. herbelegging van de verkoopprijs in nieuwe vaste activa binnen 3 (of 5) jaar. Dit mechanisme is vooral relevant bij gehele stopzetting wanneer de zelfstandige onmiddellijk in een vennootschap herbelegt of in een ander beroepsproject investeert.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 47" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "activa-categorisering",
+        "naam": { "primair": "Categorisering van activa bij stopzetting" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Niet alle activa volgen hetzelfde tarief. Per type:",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 171" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Activa-type → tariefimpact:\n\n| Type actief | Gewone behandeling | Voorbeeld |\n|---|---|---|\n| **Materiële vaste activa > 5 j** (machine, gebouw, voertuig) | 16,5 % bij vrijwillig vóór 60 / 10 % bij gedwongen/60+ | Bestelwagen 8 jaar gebruikt |\n| **Materiële vaste activa < 5 j** | 33 % bij vrijwillig vóór 60 | Recent gekochte machine |\n| **Goodwill / cliënteel (> 5 j opgebouwd)** | 16,5 % bij vrijwillig vóór 60 / 10 % bij gedwongen/60+ | Cliënteel arts overgedragen |\n| **Voorraden** (winst-eenmanszaak) | 33 % bij vrijwillig — geen 16,5 % | Overgenomen stock kledijwinkel |\n| **Immobilisaties privégebruik** | Geen meerwaarde — geen beroepsactief | Privéwoning ondernemer |\n| **Latente winst klanten (factureerbaar maar niet gefactureerd)** | Progressief (vorderingen, geen meerwaarde) | Uren bij vrij beroep |"
+          }
+        ]
+      },
+      {
+        "id": "vrijstelling-voortzetting-erfgenaam",
+        "naam": { "primair": "Vrijstelling voortzetting door erfgenaam (art. 40 + 169 WIB)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij overlijden van de zelfstandige worden stopzettingsmeerwaarden volledig vrijgesteld wanneer de beroepswerkzaamheid wordt voortgezet door de overlevende echtgenoot, één of meer erfgenamen of legatarissen in de rechte lijn of in de zijlijn tot de tweede graad (art. 40 WIB92). De activa moeten met behoud van boekwaarden worden overgenomen — fiscale neutraliteit (continuïteit). Doel: familiale ondernemingen niet onbedoeld liquideren wegens fiscaal afrekenmoment.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 40, 169" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-tariefcascade-volledig",
+        "titel": "Vrijwillige stopzetting bakker 52 jaar — tariefcascade volledig uitgewerkt",
+        "context": "Bakker stopt op 52 jaar. Verkoopt: cliënteel/goodwill (opgebouwd 25 jaar) voor € 60.000; oven (gebruikt 8 jaar, boekwaarde € 5.000) voor € 12.000; bestelwagen (gebruikt 3 jaar, boekwaarde € 8.000) voor € 14.000; voorraad grondstoffen (boekwaarde € 4.000) voor € 6.000.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Per actief:\n\n| Actief | Verkoopprijs | Netto-boekwaarde | Meerwaarde | > 5 j? | Tarief | Belasting |\n|---|---|---|---|---|---|---|\n| Cliënteel/goodwill | 60.000 | 0 (volledig afgeschreven) | 60.000 | Ja (25 j) | **16,5 %** | 9.900 |\n| Oven | 12.000 | 5.000 | 7.000 | Ja (8 j) | **16,5 %** | 1.155 |\n| Bestelwagen | 14.000 | 8.000 | 6.000 | Nee (3 j) | **33 %** | 1.980 |\n| Voorraad | 6.000 | 4.000 | 2.000 | n.v.t. (voorraad) | **33 %** | 660 |\n| **Totaal** | | | **75.000** | | | **€ 13.695** |\n\nAangifte vak XXI: code 1690 € 67.000; code 1691 € 8.000. Belasting + aanvullende gemeentebelasting (typisch 7 %) + crisisbijdrage. \n\nAlternatief scenario: bakker wacht tot 60 jaar (vrijwillige stopzetting na 60 jaar = ook 10 %). Belasting wordt dan: 60.000 × 10 % + 7.000 × 10 % + 6.000 × 10 % + 2.000 × 10 % = **€ 7.500** → besparing € 6.195."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 43, 171" },
+            { "type": "aangifte", "naam": "aangifte-PB-2025-stopzetting", "ref": "vak XXI rubriek 1" }
+          ]
+        }
+      },
+      {
+        "id": "vb-inbreng-vennootschap",
+        "titel": "Inbreng eenmanszaak in BV — art. 46 fiscale neutraliteit",
+        "context": "Advocaat, 45 jaar, brengt zijn eenmanszaak (cliënteel € 200.000 marktwaarde, kantoor-inrichting boekwaarde € 10.000 marktwaarde € 15.000) in tegen aandelen van een nieuw opgerichte BV.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Twee scenario's:\n\n**Scenario A — gewone stopzetting:**\n\n| Actief | Meerwaarde | Tarief | Belasting |\n|---|---|---|---|\n| Cliënteel 25 j opgebouwd | 200.000 | 16,5 % | 33.000 |\n| Inrichting > 5 j | 5.000 | 16,5 % | 825 |\n| **Onmiddellijk te betalen** | 205.000 | | **€ 33.825** |\n\n**Scenario B — inbreng via art. 46 (vrijstelling):**\n\n| Actief | Meerwaarde | Behandeling |\n|---|---|---|\n| Cliënteel 200.000 + inrichting 5.000 | 205.000 | Tijdelijk vrijgesteld — overgedragen aan BV, latent |\n| **Onmiddellijk te betalen** | | **€ 0** |\n\nVoorwaarden art. 46: inbreng tegen aandelen + zetel EER + voortzetting + boekhoudkundige continuïteit (BV boekt cliënteel op € 200.000 met dezelfde 'historische' boekwaarde voor latere realisatie). Bij latere verkoop van het cliënteel door de BV worden de meerwaarden in VenB belast (25 %) → uitstel + lager tarief mogelijk."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boekingen bij inbreng (vennootschap-zijde, BV oprichting):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 211 | Goodwill / cliënteel | 200.000 | |\n| 24 | Materieel — inrichting | 15.000 | |\n| | aan 10 Geplaatst kapitaal | | 215.000 |\n\nLatente meerwaarde wordt opgevolgd via fiscale staat 275C (geen aparte boeking)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 46 § 1" }
+          ]
+        }
+      },
+      {
+        "id": "vb-overlijden-voortzetting",
+        "titel": "Overlijden ondernemer + voortzetting door echtgenoot",
+        "context": "Bakker overlijdt op 58 jaar. Latente meerwaarde cliënteel + activa € 100.000. Echtgenote zet bakkerij voort.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Vergelijking:\n\n| Scenario | Tarief | Belasting |\n|---|---|---|\n| Echtgenote stopt onmiddellijk → meerwaarden bij overlijden | **10 %** (art. 171-2°, overlijden) | € 10.000 |\n| Echtgenote zet activiteit voort (art. 40 WIB) | **Vrijgesteld** met behoud boekwaarden | **€ 0** |\n\nVoorwaarden art. 40: voortzetting door overlevende echtgenoot of erfgenaam rechte lijn + boekhoudkundige continuïteit (echtgenote boekt cliënteel op zelfde boekwaarde als overledene had). Geen onmiddellijke belasting; meerwaarden blijven latent tot eigen stopzetting van de voortzetter."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 40, 171-2°" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Voorraden krijgen géén 16,5 %-tarief (ook bij oude ondernemer)",
+        "verkeerde_assumptie": "Bij vrijwillige stopzetting wordt alle stille reserves tegen 16,5 % belast — ook voorraad.",
+        "kernpunt": "Voorraden zijn nooit 'vaste activa > 5 jaar' — ze worden continu doorverkocht. Meerwaarde op voorraden = winst gemaakt bij realisatie, en valt onder art. 171-1° (33 %) of progressief tarief, niet onder 16,5 %. Alleen materiële + immateriële vaste activa krijgen het verlaagd tarief.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 171-1°, 171-4°" }
+          ]
+        }
+      },
+      {
+        "titel": "'5-jaar-regel' meet ingebruikname, niet aankoop",
+        "verkeerde_assumptie": "Een actief telt voor 16,5 % zodra het meer dan 5 jaar in bezit is.",
+        "kernpunt": "Art. 171-4° spreekt over activa die 'meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt'. Beslissend is de werkelijke ingebruikname als beroepsactief, niet de aankoopdatum. Voor cliënteel begint de telling typisch met het begin van de beroepswerkzaamheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 171-4°" }
+          ]
+        }
+      },
+      {
+        "titel": "Art. 46-neutraliteit ≠ definitieve vrijstelling",
+        "verkeerde_assumptie": "Wanneer de eenmanszaak in een vennootschap wordt ingebracht (art. 46), is de meerwaarde definitief vrijgesteld.",
+        "kernpunt": "Art. 46 is een uitstel, geen vrijstelling: de latente meerwaarde wordt 'meegegeven' aan de vennootschap (boekwaardecontinuïteit) en wordt bij latere realisatie in VenB belast. Voordeel: tijdwinst, mogelijk lager VenB-tarief, planning van realisatie. Risico: niet-naleving voorwaarden (geen aandelen, geen voortzetting) → onmiddellijke belasting alsnog.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Stopzettingsmoment kiezen",
+        "opties": [
+          {
+            "keuze": "Stopzetten vóór 60 jaar (vrijwillig)",
+            "voordeel": "Vrijheid van moment + activa met < 5 j gebruik direct vermarkt",
+            "nadeel": "16,5 % op > 5 j activa + 33 % op recente activa; geen 10 %-tarief"
+          },
+          {
+            "keuze": "Wachten tot 60 jaar",
+            "voordeel": "10 %-tarief op alle vaste activa (materieel + immaterieel)",
+            "nadeel": "Bedrijfsrisico's blijven; 'opgehouden inkomen' theoretisch in tussenliggende jaren"
+          },
+          {
+            "keuze": "Inbreng vóór stopzetting (art. 46)",
+            "voordeel": "Onmiddellijke neutralisering meerwaarden; VenB-tarief mogelijk gunstiger; flexibiliteit verdere planning",
+            "nadeel": "Vennootschap-structuur + jaarlijkse kosten; verlies privé-PB-eenvoud"
+          }
+        ],
+        "vuistregel": "Bij grote latente meerwaarde (> € 100.000) + nog actieve loopbaan: art. 46-inbreng prevaleert. Bij geplande pensioen-stopzetting: wachten tot 60 jaar voor 10 %-tarief. Bij gedwongen stopzetting: geen keuze — 10 % automatisch.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 171" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "winst-baten-zelfstandige"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "gespreide-belasting-meerwaarden"
-    },
-    {
-      "type": "triggert",
-      "target": "belastingberekening-pb"
+      "id": "stagiair-stopzetting-eenmanszaak",
+      "naam": { "primair": "Stagiair bij stopzetting eenmanszaak cliënt" },
+      "intro": "Strategisch + uitvoerend werkpakket: voorbereiden stopzetting, kiezen scenario, aangifte vak XXI invullen.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "stap-scenario-analyse",
+              "naam": { "primair": "Scenario-analyse vóór stopzetting" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Inventariseer activa: per actief boekwaarde, geschatte marktwaarde, ingebruikname-datum (> 5 j?). (2) Beoordeel mogelijke triggers: leeftijd 60+? Gedwongen stopzetting? Inbreng-perspectief? (3) Bereken belasting voor 3 scenario's: (a) vrijwillig nu, (b) wachten 60 j, (c) inbreng art. 46. (4) Maak cash-flow-projectie. (5) Adviseer cliënt schriftelijk met scenario's + risico's. (6) Documenteer overweging in cliëntdossier.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 28, 46, 171" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-aangifte-vak-xxi",
+              "naam": { "primair": "Aangifte PB vak XXI invullen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Splits stopzettingsmeerwaarden in 3 tariefbuckets: code 1686 (10 %), 1690 (16,5 %), 1691 (33 %). (2) Trek werkelijke overdrachtskosten af (notaris, makelaar) — per actief. (3) Voeg opgave 276K bij (gespreide belasting art. 47) indien wederbelegging gekozen. (4) Voor inbreng art. 46: geen aangifte stopzettingsmeerwaarden — boekhoudkundige continuïteit in BV via fiscale staat 275C. (5) Bij overlijden + voortzetting: opgave continuïteits-verklaring.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-PB-2025-stopzetting", "ref": "vak XXI" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "winst-baten-zelfstandige" },
+    { "type": "vergelijkbaar_met", "target": "gespreide-belasting-meerwaarden", "gelijkenissen": ["beide gunstmechanismen op meerwaarden van vaste activa", "beide vereisen > 5 j gebruik"], "verschillen": ["stopzettingsmeerwaarde = afzonderlijk tarief 10/16,5/33 % bij cessatie; gespreide belasting (art. 47) = wederbelegging spreidt over afschrijvingsperiode nieuwe activa", "stopzettingsmeerwaarde komt enkel bij stopzetting; gespreide belasting werkt ook tijdens activiteit"], "verwarring_risico": "Beide kunnen gecombineerd: bij stopzetting + wederbelegging in nieuwe vaste activa kan men kiezen tussen 16,5 %-tarief óf gespreide belasting via 47." },
+    { "type": "triggert", "target": "belastingberekening-pb" },
+    { "type": "is_uitzondering_op", "target": "beroepsinkomen-pb" }
   ]
 }
