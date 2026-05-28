@@ -3,14 +3,18 @@
   "naam": {
     "primair": "Opbrengstverantwoording (IFRS 15)",
     "synoniemen": [
+      "revenue recognition",
       "IFRS 15",
-      "Revenue from Contracts with Customers"
-    ]
+      "opbrengsten uit contracten met klanten"
+    ],
+    "vertaling": {
+      "en": "Revenue from Contracts with Customers"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -39,9 +43,14 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/opbrengstverantwoording.json",
+      "primary_bronnen": [
+        "IFRS 15 (Verordening EU 2023/1803)",
+        "EU 1606/2002 (rechtsbasis)"
+      ]
     },
     "changelog": [
       {
@@ -49,26 +58,260 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — IFRS 15 5-stappen-model + B-GAAP vergelijking"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**IFRS 15 — Opbrengsten uit contracten met klanten** is de internationale verslaggevingsstandaard die het **erkennings- en waarderingsprincipe** voor opbrengsten harmoniseert: een entiteit moet opbrengsten erkennen om de overdracht van beloofde **goederen of diensten** aan klanten weer te geven, voor een bedrag dat de **vergoeding** reflecteert waarop de entiteit verwacht recht te hebben. De standaard, in werking sinds 2018 (vervangt IAS 18 en IAS 11), introduceert het **5-stappen-model** als universele aanpak voor alle sector en alle contracttypes. IFRS 15 geldt voor **alle entiteiten** die onder IFRS rapporteren — verplicht voor genoteerde Belgische groepen, optioneel voor andere groepen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 15",
+              "ref": "IFRS 15 (Verordening EU 2023/1803)",
+              "context": "Opbrengsten uit contracten met klanten — algemene scope"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**5-stappen-model van IFRS 15**:\n\n1. **Identificeer het contract** met de klant — afdwingbare rechten en plichten, commerciële substantie, geld in te vorderen waarschijnlijk;\n2. **Identificeer de prestatieverplichtingen** in het contract — onderscheiden \"distinct\" goederen of diensten waarvan de klant baat kan hebben los van elkaar;\n3. **Bepaal de transactieprijs** — de vergoeding waarop de entiteit verwacht recht te hebben, **exclusief** namens derden geïnde bedragen (bv. btw). Houd rekening met: variabele vergoeding, significant financieringscomponent, niet-geldelijke vergoeding;\n4. **Wijs de transactieprijs toe** aan de afzonderlijke prestatieverplichtingen — pro rata aan **stand-alone selling prices** (SSP);\n5. **Erken opbrengsten** wanneer (of naarmate) de prestatieverplichting wordt **vervuld** — d.w.z. wanneer de controle over het goed/dienst is overgedragen.\n\n**Over-time vs. point-in-time**:\n- **Over-time recognition** (pro-rata door de tijd) wanneer aan één van drie criteria wordt voldaan: (a) de klant ontvangt en consumeert simultaan met de prestatie, (b) de prestatie creëert een activum onder controle van de klant, (c) de entiteit heeft geen alternatief gebruik voor het activum + heeft een afdwingbaar recht op betaling voor de tot dan geleverde prestatie;\n- **Point-in-time recognition** anders — bij overgang van controle (typisch goederenverkoop bij levering).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 15",
+              "ref": "IFRS 15 par. 46-65 (waardering) + par. 31-38 (vervulling)",
+              "context": "Transactieprijs + vervullingsmoment + over-time vs point-in-time"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "IFRS 15 lost een **fragmentatie-probleem** op dat onder IAS 18 (vervangen) bestond: verschillende industrieën hanteerden verschillende erkenningspraktijken voor vergelijkbare contracten. Software-bundels (licentie + onderhoud + implementatie), bouwprojecten (multi-jaar met milestones), telecom-contracten (toestel + abonnement) — elke sector had eigen interpretaties. Het 5-stappen-model dwingt **één principe-gebaseerde aanpak** voor alle sectoren: identificeer wat je apart belooft, wijs prijzen toe op basis van wat ze zouden kosten als losse verkoop, en erken naarmate je de belofte vervult. Dit verbetert **vergelijkbaarheid** tussen ondernemingen en jurisdicties en versterkt de **revenue quality** in de jaarrekening.",
+        "grondslag": {
+          "confidence": "afgeleid",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Rationale-synthese — IASB-basis for conclusions"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2018-01-01",
+        "wettelijke_basis": "IFRS 15 (Verordening EU 2023/1803) — endorsement EU",
+        "toelichting": "IFRS 15 vervangt IAS 18 (Revenue) en IAS 11 (Construction contracts). In werking voor boekjaren startend op of na 1 januari 2018."
+      },
+      "voor": [
+        {
+          "tekst": "Voor alle entiteiten die onder **IFRS** rapporteren — verplicht voor Belgische **genoteerde groepen** (EU 1606/2002), optioneel voor niet-genoteerde groepen die kiezen voor IFRS.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "richtlijn",
+                "naam": "IFRS 15",
+                "ref": "IFRS 15",
+                "context": "Toepassingsgebied"
+              },
+              {
+                "type": "wettekst",
+                "naam": "EU 1606/2002",
+                "ref": "art. 4",
+                "context": "Verplichte IFRS voor genoteerde groepen"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-contract-identificatie",
+        "naam": {
+          "primair": "Stap 1 — contract identificeren"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **contract** valt onder IFRS 15 wanneer cumulatief: (1) partijen het contract hebben goedgekeurd en zich verbinden tot uitvoering; (2) de rechten en plichten op overgedragen goederen/diensten identificeerbaar zijn; (3) de betalingsvoorwaarden identificeerbaar zijn; (4) het contract **commerciële substantie** heeft (risico/timing/cashflow wordt naar verwachting beïnvloed); (5) het waarschijnlijk is dat de entiteit de vergoeding zal **innen**.\n\nMeerdere contracten kunnen samen worden behandeld (combinatie) bij dezelfde klant of verbonden klanten, bij gelijktijdige onderhandeling met één commercieel doel, of bij interdependentie tussen prestaties.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 15",
+                  "ref": "IFRS 15 par. 9-17",
+                  "context": "Contract-identificatie + combinatie-criteria"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-prestatieverplichtingen",
+        "naam": {
+          "primair": "Stap 2 — prestatieverplichtingen identificeren"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **prestatieverplichting** is een **distinct** beloofde goed of dienst (of bundel) waarvoor de klant het voordeel apart of in combinatie met andere middelen kan ontvangen, EN waarvoor de belofte apart identificeerbaar is van andere beloften in het contract. Een **garantie** is geen aparte prestatieverplichting wanneer ze alleen verzekert dat het product werkt zoals afgesproken; **wel** een aparte verplichting wanneer ze een extra dienst aanbiedt (uitgebreide garantie, service-contract).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 15",
+                  "ref": "IFRS 15 par. 22-30 + B28-B32",
+                  "context": "Prestatieverplichtingen + garanties"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-transactieprijs",
+        "naam": {
+          "primair": "Stap 3 — transactieprijs bepalen"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De **transactieprijs** is de vergoeding waarop de entiteit verwacht recht te hebben in ruil voor overdracht van de beloofde goederen/diensten, **exclusief** namens derden geïnde bedragen (btw). Te overwegen:\n- **Variabele vergoeding** (kortingen, rebates, bonussen, prestatieboeten) — schatten met verwachte waarde of meest waarschijnlijke waarde, met **constraint** (alleen erkennen voor zover hoogst waarschijnlijk niet zal moeten worden teruggedraaid);\n- **Significante financieringscomponent** — als er > 1 jaar verstrijkt tussen prestatie en betaling, moet rentecomponent worden afgescheiden;\n- **Niet-geldelijke vergoeding** (ruil) — waarderen aan reële waarde van ontvangen activa;\n- **Vergoeding aan klant** (kortingen, rebates) — verminderen transactieprijs tenzij voor een distinct goed/dienst van de klant.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 15",
+                  "ref": "IFRS 15 par. 46-72",
+                  "context": "Transactieprijs + variabele vergoeding + financieringscomponent"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-4-allocatie",
+        "naam": {
+          "primair": "Stap 4 — toewijzen aan prestatieverplichtingen"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De transactieprijs wordt **pro rata** verdeeld over de prestatieverplichtingen op basis van hun **stand-alone selling prices (SSP)** — de prijs waarvoor de entiteit het goed/dienst afzonderlijk zou verkopen aan een vergelijkbare klant. Wanneer SSP niet rechtstreeks observeerbaar is, schat de entiteit deze met methodes: aangepaste marktbenadering, kostprijs-plus-marge, of **residual approach** (alleen voor één SSP, alleen wanneer aan strikte voorwaarden voldaan).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 15",
+                  "ref": "IFRS 15 par. 73-86",
+                  "context": "Allocatie + SSP-schattingen"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-5-erkenning",
+        "naam": {
+          "primair": "Stap 5 — opbrengsten erkennen bij vervulling"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Opbrengsten worden erkend **wanneer of naarmate** een prestatieverplichting wordt vervuld door **overdracht van controle** aan de klant. **Over-time** wanneer aan één van de drie criteria wordt voldaan (klant ontvangt simultaan / actief onder controle klant / geen alternatief + recht op betaling). Anders **point-in-time** — typisch bij goederenverkoop bij levering. Bij over-time: voortgang meten via input-methode (kosten, uren) of output-methode (geleverde eenheden, milestones).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 15",
+                  "ref": "IFRS 15 par. 31-45",
+                  "context": "Vervulling prestatieverplichting + over-time vs point-in-time"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Software-bundel: licentie + implementatie + onderhoud",
+        "context": "Aurelia Software verkoopt aan een klant een 3-jaar software-pakket:\n- Eeuwige softwarelicentie (waarde 60.000 EUR los);\n- Implementatie-project (15.000 EUR los);\n- 3 jaar onderhoud + updates (15.000 EUR per jaar, 45.000 EUR los).\n- Contractprijs: 100.000 EUR upfront (10 % korting op 120.000 EUR).\n\n**Stap 1**: contract geldig.\n**Stap 2**: 3 prestatieverplichtingen — licentie, implementatie, onderhoud (distinct).\n**Stap 3**: transactieprijs = 100.000 EUR.\n**Stap 4**: allocatie pro rata SSP: licentie 50 % → 50.000; implementatie 12,5 % → 12.500; onderhoud 37,5 % → 37.500.\n**Stap 5**:\n- Licentie: point-in-time bij overdracht → 50.000 EUR opbrengst dag 1;\n- Implementatie: over-time gedurende project (bv. 6 maanden) → 12.500 EUR gespreid;\n- Onderhoud: over-time over 3 jaar → 12.500 EUR per jaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 15",
+              "ref": "IFRS 15 — bijlagen + voorbeelden",
+              "context": "Toepassing 5-stappen op software-bundel"
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bruto vs. netto opbrengsten (agent vs principal)",
+        "verkeerde_assumptie": "De totale geïnde vergoeding van een klant is altijd opbrengst.",
+        "kernpunt": "IFRS 15 onderscheidt **principal** (entiteit controleert het goed/dienst vóór overdracht — bruto opbrengsten boeken) van **agent** (entiteit faciliteert alleen — alleen commissie boeken). Indicatoren voor principal: inventaris-risico, prijsdiscretie, primaire verantwoordelijkheid jegens klant. Een platform zoals Airbnb is **agent** (alleen commissie als opbrengst), niet principal.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 15",
+              "ref": "IFRS 15 par. B34-B38",
+              "context": "Principal vs agent"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "B-GAAP klasse 70 verwarren met IFRS 15-opbrengst",
+        "verkeerde_assumptie": "B-GAAP-klasse 70 en IFRS 15-opbrengst geven hetzelfde cijfer.",
+        "kernpunt": "B-GAAP **klasse 70** (omzet) wordt erkend op factuurbasis met overdracht risico's en eigendom (ruwer dan IFRS 15). IFRS 15 kan tot **timing-verschillen** leiden — bv. een softwarelicentie wordt onder B-GAAP volledig erkend bij contract, onder IFRS 15 mogelijk gesplitst over licentie + onderhoud. Bij overgang naar IFRS-rapportering moet **retrospectieve aanpassing** worden gedaan (IFRS 1).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 15",
+              "ref": "IFRS 15 + IFRS 1",
+              "context": "Eerste IFRS-toepassing — retrospectief"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
