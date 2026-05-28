@@ -2,36 +2,35 @@
   "id": "maatschap",
   "naam": {
     "primair": "Maatschap",
-    "synoniemen": [
-      "société simple",
-      "simple partnership",
-      "vennootschap van gemeen recht"
-    ]
+    "synoniemen": ["burgerlijke maatschap", "société simple", "civielrechtelijke maatschap"],
+    "vertaling": {"fr": "société simple"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.I",
-      "3.0.I.A",
-      "3.0.I.B"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.I", "3.0.I.A", "3.0.I.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/maatschap.json",
+      "primary_bronnen": [
+        "WVV art. 1:5",
+        "WVV art. 4:13",
+        "WVV art. 4:14",
+        "WVV art. 4:15",
+        "WIB92 art. 29",
+        "Wet 18 september 2017 (UBO-register)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T00:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1012, hernoemd van maatschap-rechtsvorm)"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T00:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-vennootschapsrecht-2026-05-28", "wijziging": "Skeleton aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle"}
     ],
     "scope": {
       "in": [
@@ -43,46 +42,396 @@
         "Populair bij vermogensplanning + estate planning"
       ],
       "out": [
-        {
-          "topic": "Vergelijking met andere vormen",
-          "richting": "moet-verwijzen",
-          "ref": "ondernemingsvormen"
-        },
-        {
-          "topic": "Aansprakelijkheid vennoten",
-          "richting": "moet-verwijzen",
-          "ref": "bestuurdersaansprakelijkheid"
-        }
+        {"topic": "Vergelijking met andere vormen", "richting": "moet-verwijzen", "ref": "ondernemingsvormen"},
+        {"topic": "Aansprakelijkheid vennoten", "richting": "moet-verwijzen", "ref": "bestuurdersaansprakelijkheid"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De maatschap is de enige vennootschap ZONDER rechtspersoonlijkheid in het WVV (art. 1:5 §1 WVV). Vennoten brengen iets in (geld, natura, nijverheid) om samen activiteit uit te oefenen of opbrengsten te delen. Geen rechtspersoonlijkheid betekent: geen apart rechtssubject, geen apart vermogen tov de vennoten in juridische zin (al kent het Hof van Cassatie wel een 'doelvermogen' toe — zie MvT WVV art. 4:13). Vennoten zijn hoofdelijk en onbeperkt aansprakelijk voor de maatschappelijke verbintenissen (art. 4:14 WVV). Fiscaal-transparant: de maatschap wordt niet belast — inkomsten worden rechtstreeks aan de vennoten toegerekend in PB volgens hun aandeel (art. 29 WIB92). Geregeld in WVV boek 4. Sinds 2019 verplicht KBO-inschrijving + UBO-register.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14", "context": "Hoofdelijke aansprakelijkheid maatschap-vennoten"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29", "context": "Fiscale transparantie maatschap"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: de maatschap is dé vorm voor (a) familievermogensplanning — overdracht effectenportefeuille of vastgoed-portefeuille naar volgende generatie met behoud controle bij ouders via statuten + zaakvoerderschap, (b) burgerlijke maatschap voor vrije beroepers die hun praktijken willen poolen (advocatenkantoor onder maatschap-vorm), (c) doorkijk-fiscaal vehikel — geen VenB, inkomsten direct bij vennoten. Sterke punten: geen oprichtingskost (onderhandse akte volstaat), geen publicatie jaarrekening (discretie!), fiscaal transparant, statutaire vrijheid quasi totaal. Zwakke punten: onbeperkte hoofdelijke aansprakelijkheid alle vennoten (deal-breaker voor commerciële activiteit met derden-risico). Sinds 2019 KBO + UBO-register verplicht — minder anonimiteit dan vroeger maar nog steeds geen jaarrekening-publicatie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+            {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk maatschap"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De maatschap wortelt in het 19e-eeuwse Burgerlijk Wetboek (oude 'société civile') en behield haar plaats in het WVV omdat zij een unieke combinatie biedt: vermogenspooling + fiscale transparantie + discretie zonder de overhead van een rechtspersoon. In een Belgische context waar familievermogensplanning intensief gebruik maakt van structuren met behoud-van-controle, is de maatschap een fundamenteel instrument. Het verlies van anonimiteit (KBO/UBO sinds 2019) is bewust ingevoerd om witwasrisico's en fiscale ondoorzichtigheid in te dijken, zonder de basis-functionaliteit van de maatschap te ondergraven.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV-MvT", "ref": "Art. 4:13", "context": "Continuïteit en functie maatschap"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer estate-planning"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["ondernemingsvormen"],
+      "kader": "ondernemingsvormen",
+      "naast_relevant": ["vennootschap-onder-firma"],
+      "volgkennis": ["successieplanning", "schenking-met-voorbehoud-vruchtgebruik"]
+    },
     "gebruikscontext": {
-      "geldigheid": {
-        "status": "in-voege",
-        "wettelijke_basis": "WVV boek 4"
+      "geldigheid": {"status": "in-voege", "sinds": "2019-05-01", "wettelijke_basis": "WVV boek 4"},
+      "voor": [
+        {
+          "tekst": "Geschikt voor: (a) familiale vermogensplanning — effectenportefeuille/vastgoed inbrengen + schenking aandelen aan kinderen + behoud zaakvoerderschap ouders, (b) burgerlijke maatschap vrije beroepers (advocaten, artsen — historisch), (c) doorkijk-fiscaal vehikel bij beperkt risico-profiel (vermogensbeheer zonder externe schuld).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet voor: commerciële activiteit met externe-klant-risico (klant-claims, leveranciersschulden) → ALL VENNOTEN privévermogen aansprakelijk. Bij dergelijke activiteit: kies altijd een vorm met rechtspersoonlijkheid + beperkte aansprakelijkheid (BV/CV/NV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard waarschuwing"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Oprichting: (1) minstens 2 vennoten (natuurlijke personen of rechtspersonen), (2) maatschapsovereenkomst (onderhands), (3) sinds 2019: KBO-inschrijving + UBO-register verplicht (Wet 18 september 2017 — UBO; KB 30 juli 2018). Geen notariële akte verplicht, geen publicatie BS, geen jaarrekening-neerlegging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+              {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "(a) Geen publicatie jaarrekening — discretie. (b) Fiscale transparantie — geen VenB, inkomsten rechtstreeks belast bij vennoten in PB (zelfde tarief als rechtstreekse eigendom). (c) Geen oprichtingskost notariële akte. (d) Statutaire vrijheid quasi totaal (winstverdeling, bestuur, uittreding statutair regelbaar). (e) Eenvoudige boekhouding (kasboek + aankoop/verkoop-dagboeken — vereenvoudigd toegelaten — CBN 2019/11).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+              {"type": "advies", "naam": "CBN 2019/11", "ref": "Beoogde personen - rechtsvorm", "context": "Maatschap = organisatie zonder rechtspersoonlijkheid → vereenvoudigde boekhouding"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "(a) HOOFDRISICO: onbeperkte hoofdelijke aansprakelijkheid alle vennoten op privévermogen voor maatschappelijke verbintenissen (art. 4:14 WVV). (b) Bij overlijden vennoot: maatschap wordt in beginsel ontbonden tenzij statuten anders bepalen (art. 4:25 WVV) — kritisch in successie-context. (c) UBO-register vereist: namen vennoten + uiteindelijke begunstigden in centraal register beschikbaar voor bevoegde autoriteiten (verminderde anonimiteit). (d) Geen aparte rechtspersoonlijkheid → vennoten worden formeel zelf gehouden aan contracten; vereist 'maatschap'-vermelding in alle handelingen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 4:25", "context": "Ontbindingsoorzaken"},
+              {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "kenmerk-geen-rechtspersoonlijkheid",
+        "naam": {"primair": "Afwezigheid rechtspersoonlijkheid"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 1:5 §1 WVV: 'De maatschap is een vennootschap zonder rechtspersoonlijkheid.' Concreet: geen eigen rechtssubject, geen apart vermogen in juridische zin, geen mogelijkheid om in eigen naam in rechte op te treden (vennoten samen wel). Wettelijke 'doelvermogen'-leer: maatschapsvermogen wordt economisch afgescheiden van privévermogen vennoten — schuldeisers van de maatschap kunnen ZOWEL het maatschappelijk vermogen ALS het privévermogen vennoten aanspreken (anders dan vennootschappen met rechtspersoonlijkheid waar subsidiariteit speelt). Persoonlijke schuldeisers van een vennoot: enkel verhaal op zijn aandeel in de maatschap (art. 4:15).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:15"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-fiscale-transparantie",
+        "naam": {"primair": "Fiscale transparantie — geen VenB"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 29 WIB92: de inkomsten van een maatschap worden niet bij de maatschap belast (geen VenB), maar rechtstreeks bij elke vennoot in PB volgens diens aandeel in de winst. De aard van het inkomen wordt 'doorgekeken' — dividend ontvangen door maatschap → dividend bij vennoot; huurinkomst → onroerend inkomen bij vennoot. Praktisch: voor een effectenportefeuille in maatschap is de PB-aanslag identiek aan rechtstreekse eigendom (zelfde RV/PB-tarieven), maar het VEHIKEL biedt controle + planning-mogelijkheden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-aansprakelijkheid-maatschap",
+        "naam": {"primair": "Hoofdelijke aansprakelijkheid alle vennoten"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 4:14 WVV: vennoten zijn hoofdelijk en onbeperkt aansprakelijk voor de verbintenissen van de maatschap. Anders dan bij VOF (waar rechtspersoonlijkheid een subsidiariteits-buffer biedt — eerst vennootschapsvermogen uitwinnen), kunnen schuldeisers van de maatschap rechtstreeks elke vennoot voor het volledige bedrag aanspreken. In familiale-maatschap-context is dit aanvaardbaar (geen externe schulden) maar in operationele activiteiten doorgaans onverantwoord.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-kbo-ubo-maatschap",
+        "naam": {"primair": "KBO + UBO-registratie sinds 2019"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds Wet 15 april 2018 (uitvoering richtlijn 4AML) zijn maatschappen verplicht zich in te schrijven in de KBO + de uiteindelijke begunstigden (UBO's) registreren in het UBO-register (Wet 18 september 2017 + KB 30 juli 2018). UBO = elke natuurlijke persoon die uiteindelijk meer dan 25 % van de maatschap aanhoudt of zeggenschap uitoefent. Niet-naleving: boetes 250-50.000 EUR + mogelijke strafrechtelijke gevolgen. Toegankelijkheid UBO-register: bevoegde autoriteiten, onderworpen entiteiten + (gedeeltelijk) publiek voor entiteiten met rechtspersoonlijkheid.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"},
+                {"type": "kb", "naam": "KB 30 juli 2018", "ref": "Uitvoering UBO-register"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-bestuur-maatschap",
+        "naam": {"primair": "Bestuur — statutaire vrijheid"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Default: alle vennoten samen besturen. Statuten kunnen één of meerdere zaakvoerders aanduiden (vennoot of niet-vennoot), met bepaalde of onbepaalde duur, en met afwijkende beslissings-regels (gewone meerderheid ipv unaniem). In familiale maatschap: ouders aangewezen als statutair zaakvoerder met exclusieve beslissingsbevoegdheid → kinderen-vennoten hebben enkel informatierecht + recht op winstverdeling, geen bestuursrecht. Dit maakt 'overdracht-met-behoud-controle' mogelijk.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:22"}
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-familiale-maatschap-effecten",
+        "titel": "Familiale maatschap effectenportefeuille (1.500.000 EUR)",
+        "context": "Ouders (X en Y, 65 j) willen hun effectenportefeuille (1.500.000 EUR, aandelen + obligaties) inbrengen in een familiale maatschap en geleidelijk schenken aan hun 2 kinderen (A en B) met behoud van controle.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+            {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard familiale-maatschap-structuur"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — oprichting: onderhandse maatschapsovereenkomst. X en Y zijn de oprichters; A en B treden meteen toe als vennoten. Statuten: X en Y zijn statutair zaakvoerder met exclusieve beslissingsbevoegdheid.",
+              "Stap 2 — inbreng: X en Y brengen 1.500.000 EUR portefeuille in voor 1.500 delen à 1.000 EUR. Aandelenverdeling initieel: X 50 % (750 delen), Y 50 % (750 delen), A 0 %, B 0 %.",
+              "Stap 3 — schenking aandelen via bankgift: X en Y schenken elk 250 delen aan A en 250 delen aan B (totaal 1.000 delen geschonken — 666.667 EUR aan waarde elk). Schenkbelasting Vlaanderen rechte lijn = 3 % op 1.000.000 EUR (gesplitst geregistreerd) = 30.000 EUR. OF: niet-registreren + 3-jaars-overleving voor 0 % belasting.",
+              "Stap 4 — eindstructuur: X en Y elk 250 delen (16,67 % elk), A en B elk 500 delen (33,33 % elk). Maar X en Y blijven statutair zaakvoerder — volledige controle behouden.",
+              "Stap 5 — UBO: A en B nu UBO (elk > 25 %). Inschrijving UBO-register binnen 30 dagen.",
+              "Stap 6 — fiscaal: dividend/coupon op effecten in 2026 = ca. 35.000 EUR. Toerekening pro rata aandeel: X en Y elk 5.833 EUR, A en B elk 11.667 EUR. Belast in PB van elke vennoot (RV ingehouden door instelling al voldoende voor anonieme effecten)."
+            ],
+            "resultaat": "Successieplanning gerealiseerd: kinderen worden eigenaar van 2/3 portefeuille tegen 3 % belasting; ouders behouden volledige controle via zaakvoerderschap; jaarlijkse inkomsten doorvloeien naar elke vennoot conform aandeel."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-fiscale-transparantie",
+        "titel": "Doorkijk-fiscaliteit maatschap met dividend + huur",
+        "context": "Maatschap 'Patrim': 4 vennoten (elk 25 %); activa: aandelenportefeuille (jaarlijks dividend 12.000 EUR, RV 30 % ingehouden) + verhuurd appartement (jaarlijkse netto-huur 18.000 EUR, KI = 1.200 EUR).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 7", "context": "Onroerend inkomen privé"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 17", "context": "Roerende inkomsten"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld transparantie"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — dividenden: RV 30 % al ingehouden = 3.600 EUR; netto-dividend uitkeerd 8.400 EUR aan maatschap. Pro rata aan elke vennoot: 2.100 EUR netto + 900 EUR RV al ingehouden = 3.000 EUR bruto per vennoot. PB-belastbaar: dividend valt onder RV-bevrijding (art. 313 WIB92) — geen extra PB.",
+              "Stap 2 — huurinkomst: appartement = onroerend privé. Belastbaar = geïndexeerd KI × 1,4 (indien niet verhuurd aan zelfstandige) of werkelijke huur. KI 1.200 × indexering 2026 (~2,07) × 1,4 = ca. 3.477 EUR belastbaar per maatschap (niet werkelijke huur — privé). Pro rata aan elke vennoot: 869 EUR belastbaar onroerend inkomen → PB-tabel.",
+              "Stap 3 — aangifte: elke vennoot ontvangt 'maatschap-attest' met zijn aandeel in dividenden + onroerend inkomen + andere. Aangifte vak III/VII PB.",
+              "Stap 4 — gevolgen: zelfde fiscaliteit als rechtstreekse eigendom van effecten + appartement door de 4 personen pro rata. Maatschap is louter een 'beleg-vehikel' zonder fiscaal voordeel of nadeel."
+            ],
+            "resultaat": "Volledige fiscale transparantie geïllustreerd: maatschap fiscaal 'onzichtbaar', vennoten belast als rechtstreekse eigenaars."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-maatschap-aansprakelijkheid",
+        "titel": "Aansprakelijkheid bij geschil — maatschap zonder externe schuld vs met",
+        "context": "Maatschap 'Optima' wordt aangesproken door een aannemer die renovatiewerken uitvoerde aan een maatschap-pand: factuur 45.000 EUR onbetaald. Maatschap heeft 4 vennoten — A (vermogend, 500.000 EUR privé), B (50.000 EUR), C (0 EUR), D (200.000 EUR).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld hoofdelijke aansprakelijkheid"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — maatschappelijk vermogen onvoldoende: cash op maatschap-rekening 5.000 EUR. Tekort 40.000 EUR.",
+              "Stap 2 — aannemer richt zich op vennoot A (heeft het meest vermogen) voor het volledige tekort (hoofdelijkheid art. 4:14). Geen subsidiariteit zoals bij VOF — schuldeiser kan onmiddellijk privévermogen aanspreken.",
+              "Stap 3 — A betaalt 40.000 EUR + heeft regres-vordering op B (10.000 EUR pro rata 25 %), C (10.000), D (10.000). A recupereert 10.000 van D, 10.000 van B → blijft met 10.000 EUR netto-verlies steken (C insolvent).",
+              "Stap 4 — fiscaal: A's 10.000 EUR verlies = NIET aftrekbaar in PB tenzij ingebracht beroepsvermogen aantoont (zelden bij familiale maatschap).",
+              "Stap 5 — beleidsadvies: voor activiteit met externe schulden (renovatie + verhuur) zou een BV (beperkte aansprakelijkheid) veel passender geweest zijn dan een maatschap."
+            ],
+            "resultaat": "A betaalt 40.000 EUR; netto-verlies 10.000 EUR door insolvabiliteit van C. Illustreert het kernrisico van een maatschap voor operaties met derde-partijen."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Maatschap kiezen voor commerciële activiteit",
+        "verkeerde_assumptie": "Cliënt of stagiair denkt dat een maatschap een 'lichtgewicht' BV-alternatief is.",
+        "kernpunt": "Maatschap heeft GEEN rechtspersoonlijkheid + ONBEPERKTE hoofdelijke aansprakelijkheid (art. 4:14 WVV). Voor elke activiteit met derden-risico (klanten, leveranciers, werknemers) is een maatschap onverantwoord — gebruik BV. Maatschap is enkel verantwoord in laag-risico vermogensbeheer (familiale effecten/vastgoed zonder externe schuld).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"}
+          ]
+        }
+      },
+      {
+        "titel": "UBO-registratie vergeten",
+        "verkeerde_assumptie": "Stagiair denkt dat een maatschap zonder rechtspersoonlijkheid 'onder de radar' kan blijven en geen administratieve verplichtingen heeft.",
+        "kernpunt": "Sinds 2019 verplicht: KBO-inschrijving + UBO-register. Niet-naleving: boete 250-50.000 EUR. UBO-aangifte moet binnen 1 maand na wijziging (toetreding, schenking aandelen, statuten) bijgewerkt worden — typische valkuil bij familiale maatschappen die regelmatig aandelen schenken.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"},
+            {"type": "kb", "naam": "KB 30 juli 2018", "ref": "UBO-uitvoering"}
+          ]
+        }
+      },
+      {
+        "titel": "Doorkijk-fiscaliteit als 'verlaagd tarief' zien",
+        "verkeerde_assumptie": "Student denkt dat fiscale transparantie van de maatschap een 'voordeel' is dat de belasting verlaagt.",
+        "kernpunt": "Transparantie = neutraal (zelfde fiscaliteit als rechtstreekse eigendom). Geen VenB (zou 25 % zijn) — maar inkomsten zijn al onderworpen aan PB bij de vennoot (RV 30 % op dividend, PB-progressief op onroerend, etc.). De maatschap bespaart niet op belasting — ze faciliteert wel vermogenscontrole + planning + discretie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard misconceptie"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "ondernemingsvormen"
+      "id": "perspectief-maatschap-familieadviseur",
+      "naam": {"primair": "Adviseur — familiale maatschap + successieplanning"},
+      "intro": "De accountant adviseert + boekhoudt voor een familiale maatschap: oprichting, UBO, schenkingen, jaarlijkse fiscale aangifte.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-familiale-maatschap",
+              "naam": {"primair": "Familiale maatschap opstellen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stappen-checklist bij oprichting familiale maatschap: (1) Doel + activa identificeren (effecten/vastgoed/aandelen vennootschap). (2) Statuten opstellen met: zaakvoerder-aanduiding (ouders), winstverdelings-clausule, schenkings-clausules, opvolgingsmechanisme bij overlijden. (3) UBO-inschrijving organiseren. (4) Schenkings-strategie: bankgift met meldingsplicht, registratie 3 % rechte lijn, of niet-registreren + 3-jaars-overleving. (5) Notarieel advies voor schenkings-akte indien bedragen significant of complexe regelingen (voorbehoud vruchtgebruik).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WVV", "ref": "art. 4:1"},
+                      {"type": "wettekst", "naam": "Wet 18 september 2017", "ref": "UBO-register"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk familiale maatschap"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscale-aangifte-maatschap",
+              "naam": {"primair": "Jaarlijkse fiscale rapportage vennoten"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Jaarlijks bereidt de accountant 'maatschap-fiscale-attesten' voor elke vennoot: pro rata aandeel in (a) roerende inkomsten (dividend + interest, met al ingehouden RV), (b) onroerende inkomsten (geïndexeerd KI × 1,4 of werkelijke huur), (c) eventuele meerwaarden. Elke vennoot neemt zijn deel op in PB-aangifte vak III/VII. Geen geconsolideerde aangifte op maatschap-niveau (geen VenB). Bewaar: maatschap-jaarrekening (vereenvoudigd) + verdeel-staat + bankafschriften.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 29"},
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 7"},
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 17"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "ondernemingsvormen"},
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vennootschap-onder-firma",
+      "gelijkenissen": [
+        "Beide personenvennootschappen WVV boek 4",
+        "Beide onbeperkte hoofdelijke aansprakelijkheid alle vennoten",
+        "Beide vereenvoudigde boekhouding toegelaten",
+        "Beide statutaire vrijheid"
+      ],
+      "verschillen": [
+        "Maatschap: GEEN rechtspersoonlijkheid (art. 1:5 §1) · VOF: rechtspersoonlijkheid (art. 1:5 §2)",
+        "Maatschap: fiscaal-transparant (PB bij vennoot, art. 29 WIB92) · VOF: VenB-plichtig (art. 179 WIB92)",
+        "Maatschap: geen jaarrekening-publicatie · VOF: jaarrekening-publicatie verplicht (art. 3:1 WVV)",
+        "Maatschap: schuldeiser kan onmiddellijk privé aanspreken · VOF: subsidiariteit (eerst vennootschapsvermogen)"
+      ],
+      "verwarring_risico": "Stagiairs verwarren maatschap en VOF — beide zijn personenvennootschappen onder boek 4. Kritisch verschil: rechtspersoonlijkheid → fundamenteel verschillende fiscale + publicatie-regimes.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
