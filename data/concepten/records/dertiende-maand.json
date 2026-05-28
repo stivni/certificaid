@@ -2,20 +2,14 @@
   "id": "dertiende-maand",
   "naam": {
     "primair": "Dertiende maand",
-    "synoniemen": [
-      "13e maand"
-    ]
+    "synoniemen": ["13e maand", "13de maand"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.2.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.2.taak.3"],
     "scope": {
       "in": [
         "Sectoraal vastgelegd (CAO)",
@@ -23,54 +17,297 @@
         "Belastbaar als gewone bezoldiging"
       ],
       "out": [
-        {
-          "topic": "Loon-en-payroll K-techniek (cascade-context)",
-          "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
-        },
-        {
-          "topic": "Werknemers-vergoedingen Σ (alternatieven)",
-          "richting": "mag-verwijzen",
-          "ref": "werknemers-vergoedingen"
-        }
+        {"topic": "Loon-en-payroll K-techniek (cascade-context)", "richting": "moet-verwijzen", "ref": "loon-en-payroll"},
+        {"topic": "Werknemers-vergoedingen Σ (alternatieven)", "richting": "mag-verwijzen", "ref": "werknemers-vergoedingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/dertiende-maand.json",
+      "primary_bronnen": [
+        "Sectorale CAO's (per paritair comité)",
+        "WIB92 art. 31",
+        "Wet 12 april 1965 (loonbescherming)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:10:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit payroll-kennis (bundle-chunks bevatten geen primaire bron voor 13e maand)"}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De dertiende maand is een bijkomende bezoldiging gelijk aan ongeveer één maandloon, jaarlijks toegekend aan de werknemer bovenop het gewone loon. De toekenning, het bedrag en de berekeningsregels zijn niet wettelijk verplicht maar volgen uit de sectorale CAO van het bevoegde paritair comité (PC) of, bij ontstentenis daarvan, uit de individuele arbeidsovereenkomst of bedrijfs-CAO. Typisch wordt de dertiende maand uitbetaald in december. Fiscaal en sociaal kwalificeert ze als gewone bezoldiging — volledig onderworpen aan RSZ-werknemer en RSZ-werkgever, en aan bedrijfsvoorheffing volgens een afzonderlijke (lees: hogere) schaal voor 'exceptionele vergoedingen'.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 31", "context": "Bezoldigingen werknemers — alle voordelen die opbrengst van arbeid vormen"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-kennis — CAO-bronnen sectoraal, bundle bevat geen primaire CAO-bron"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de werknemer voelt de dertiende maand als 'gratis extra loon' in december, maar dat is fiscaal misleidend: door de afzonderlijke BV-schaal en de volledige RSZ-onderwerping blijft er netto vaak slechts ≈ 50 % van het bruto over. Voor de werkgever is het een vaste jaarlijkse loonkost-piek die boekhoudkundig wordt opgevangen door maandelijkse provisioning (1/12 per maand op 620, tegenboeking 456 of 459). Sectoraal is de dertiende maand meestal verplicht in bediendensectoren (bv. PC 200) en zelden in arbeiderssectoren — de aanwezigheid hangt af van de cao van het paritair comité.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-praktijk + sectorale CAO-kennis"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De dertiende maand ontstond historisch als sectorale collectieve verworvenheid — een vorm van uitgestelde verloning die de loonsverhoging na een vol jaar prestatie symbolisch markeert. Vandaag dient ze als instrument van CAO-onderhandelingen (vakbonden eisen verhoging via 13e/14e maand wanneer een eigenlijke loonsverhoging wordt afgeremd door de loonnorm-wet) en als sociaal voordeel dat de jaarlijkse koopkracht in december versterkt (eindejaarsuitgaven, kerstcadeaus).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["bruto-loon"],
+      "kader": "loon-en-payroll",
+      "naast_relevant": ["eindejaarspremie"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Sectorale CAO's per paritair comité; WIB92 art. 31 voor fiscale kwalificatie",
+        "toelichting": "Geen federale wet die de 13e maand verplicht maakt — de verplichting komt uit de sectorale CAO. Niet alle sectoren kennen een 13e maand."
+      },
+      "voor": [
+        {
+          "tekst": "Werknemers in een paritair comité waarvan de CAO een dertiende maand voorziet (bv. PC 200 — bedienden in niet-paritair vermelde sectoren), of werknemers met een individuele/bedrijfs-CAO-clausule die de 13e maand bedingt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard CAO-praktijk bediendensectoren"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Doorgaans: ononderbroken tewerkstelling gedurende het volledige refertejaar; pro-rata bij uitdiensttreding of in-dienst-treding tijdens het jaar; uitsluitingen voor schorsingen die niet gelijkgesteld worden met arbeidsdagen (bv. ziekte boven gewaarborgde periode in sommige CAO's). De exacte regels per sector verschillen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene CAO-praktijk"}
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Uitbetaling typisch in december van het lopende jaar of januari van het volgende jaar; pro-rata uitbetaling bij uitdienst voor het einde van het refertejaar.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "berekening-13e",
+        "naam": {"primair": "Standaardberekening dertiende maand"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Bruto dertiende maand = bruto-maandloon (van december of refertemaand) × (gepresteerde maanden / 12). Voor werknemers met een volledig refertejaar = één volledig bruto-maandloon. Pro-rata bij minder dan 12 maanden anciënniteit binnen het refertejaar.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard pro-rata-CAO-formule"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afzonderlijke-bv-schaal",
+        "naam": {"primair": "Bedrijfsvoorheffing — afzonderlijke schaal exceptionele vergoedingen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Op de dertiende maand wordt geen reguliere maandelijkse BV-schaal toegepast, maar een afzonderlijke schaal voor 'exceptionele vergoedingen' (KB/WIB92 Bijlage III). Die schaal hangt af van het referte-jaarloon en levert typisch een hoger inhoudingspercentage dan op een gewoon maandloon — vandaar het gevoel dat de 13e maand 'zwaarder belast' is. De afrekening met de werkelijke aanslag gebeurt evenwel in de jaarlijkse personenbelasting; over-/onderhouding wordt daar gecorrigeerd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "KB/WIB92 Bijlage III — afzonderlijke schalen voor exceptionele vergoedingen"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-provisioning",
+        "naam": {"primair": "Maandelijkse provisioning (1/12)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Om de loonkost gelijkmatig over het jaar te spreiden, boekt de werkgever elke maand 1/12 van de verwachte dertiende maand (inclusief RSZ-werkgever) als provisie. Bij effectieve uitbetaling in december wordt de provisie geliquideerd. Hierdoor weerspiegelt de maandelijkse resultatenrekening de werkelijke economische loonkost van die maand, niet enkel de cash-flow.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard accruel-boekhoudpraktijk"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-eindejaarspremie",
+        "naam": {"primair": "Verschil met eindejaarspremie"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "In de praktijk worden 'dertiende maand' en 'eindejaarspremie' vaak door elkaar gebruikt — maar ze kunnen verschillen in berekeningsbasis: de dertiende maand is meestal exact één maandloon (volledig of pro-rata), terwijl een eindejaarspremie ook een vast forfaitair bedrag, een percentage of een loon-overstijgend bedrag kan zijn afhankelijk van de CAO. In sommige sectoren bestaan beide naast elkaar (= 13e maand + premie). Fiscaal en boekhoudkundig is de behandeling identiek.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sectorale CAO-praktijk"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-13e-bediende",
+        "titel": "Bediende — dertiende maand op een bruto van € 3.500",
+        "context": "Sven, bediende PC 200, bruto-maandloon 3.500 EUR, volledig refertejaar gewerkt. Uitbetaling 13e maand in december.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Indicatieve berekening — afzonderlijke BV-schaal Cijferzakboekje raadplegen"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bruto 13e maand = 3.500,00 EUR",
+              "Stap 2 — RSZ-werknemer 13,07 %: 457,45 EUR",
+              "Stap 3 — belastbaar: 3.500 − 457,45 = 3.042,55 EUR",
+              "Stap 4 — BV afzonderlijke schaal (exceptionele vergoedingen, indicatief ≈ 37 % voor dit loonniveau): ≈ 1.125 EUR — exact bedrag uit KB/WIB92 Bijlage III via Cijferzakboekje",
+              "Stap 5 — netto 13e maand: 3.042,55 − ≈1.125 = ≈ 1.918 EUR",
+              "Stap 6 — werkgevers-RSZ ≈ 25 %: 875 EUR — totale loonkost werkgever ≈ 4.375 EUR"
+            ],
+            "resultaat": "Op 3.500 EUR bruto blijft netto ≈ 1.918 EUR over — beduidend lager dan bij gewoon maandloon (≈ 2.317 EUR netto) door de hogere afzonderlijke BV-schaal."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking provisie 13e maand (maandelijks 1/12)",
+            "rijen": [
+              {"rekening": "620 — Bezoldigingen", "debet": 291.67, "credit": null, "omschrijving": "1/12 × 3.500 = 291,67"},
+              {"rekening": "621 — Werkgeversbijdragen sociale verzekeringen", "debet": 72.92, "credit": null, "omschrijving": "1/12 × 875 RSZ-werkgever"},
+              {"rekening": "456 — Provisie voor te betalen bezoldigingen", "debet": null, "credit": 364.59, "omschrijving": "Provisie 13e maand inclusief RSZ-werkgever"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vergeten dat de dertiende maand niet wettelijk verplicht is",
+        "verkeerde_assumptie": "Elke werknemer in België heeft recht op een 13e maand omdat 'dat zo hoort'.",
+        "kernpunt": "De 13e maand is een CAO-recht, geen federaal-wettelijk recht. Sectoren zonder CAO-bepaling (bv. sommige arbeidersectoren of starterssectoren) kennen geen 13e maand tenzij contractueel bedongen. Eerst PC + CAO-tekst raadplegen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Reguliere BV-schaal toepassen op de 13e maand",
+        "verkeerde_assumptie": "De BV op de 13e maand is dezelfde als op een gewoon maandloon — gewoon 3.500 EUR door de schaal halen.",
+        "kernpunt": "De 13e maand valt onder de afzonderlijke BV-schaal voor 'exceptionele vergoedingen' (KB/WIB92 Bijlage III). Die schaal is gestaffeld op basis van het referte-jaarloon en geeft typisch een hoger percentage. Bij het examen: altijd KB/WIB92 Bijlage III via het Cijferzakboekje raadplegen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Provisie niet aanleggen — winst overschatten",
+        "verkeerde_assumptie": "De 13e maand is een december-kost; tot dan boekhoudkundig negeren.",
+        "kernpunt": "Zonder maandelijkse provisie (1/12) overschat de werkgever zijn periodieke winst gedurende 11 maanden en boekt hij een grote eenmalige loonkost in december — overtreding van het accrual-principe. CBN-praktijk: maandelijkse provisie op 456 of 459.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "loon-en-payroll"
+      "id": "werkgever-client",
+      "naam": {"primair": "Werkgever-cliënt (KMO met personeel)"},
+      "intro": "De accountant die de loonprovisies en de december-loonafrekening verzorgt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "maandelijkse-provisie",
+              "naam": {"primair": "Maandelijkse provisie 1/12"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per maand 1/12 van de verwachte 13e maand provisioneren: debet 620 (1/12 bruto) + 621 (1/12 RSZ-werkgever), credit 456 of 459 provisie. Bij effectieve uitbetaling in december: de provisie liquideren en het werkelijke bedrag tegen-boeken. Verschil tussen provisie en werkelijkheid loopt door de resultatenrekening van december.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard accrual-boekhoudpraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-provisie-13e",
+              "naam": {"primair": "Toets provisie 13e maand op jaareinde"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij jaareinde-audit: nagaan of de provisie 13e maand op 31/12 (op rekening 456/459) overeenstemt met de verwachte uitbetaling. Bereken: aantal werknemers × verwacht bruto + werkgevers-RSZ. Aansluiting tussen provisie en effectieve uitbetaling van december/januari. Cut-off-risico: provisie te laag = onderschatting passiva en overschatting winst.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard audit-procedure jaareinde-provisies"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "loon-en-payroll"},
+    {"type": "vergelijkbaar_met", "target": "eindejaarspremie", "gelijkenissen": ["Beide jaarlijkse bijkomende bezoldigingen, uitbetaald rond eindejaar", "Beide volledig RSZ-onderworpen + afzonderlijke BV-schaal", "Beide CAO-gestuurd (geen federaal-wettelijke verplichting)"], "verschillen": ["Dertiende maand: typisch exact één maandloon (volledig of pro-rata)", "Eindejaarspremie: kan vast forfait, percentage of loon-overstijgend bedrag zijn", "Sommige sectoren kennen beide naast elkaar"], "verwarring_risico": "De termen worden in de praktijk vaak door elkaar gebruikt — eerst sectorale CAO-tekst checken voor de exacte definitie en berekening."},
+    {"type": "vergelijkbaar_met", "target": "enkel-en-dubbel-vakantiegeld", "gelijkenissen": ["Beide zijn bijkomende bezoldigingen bovenop het reguliere maandloon", "Beide vragen maandelijkse provisioning"], "verschillen": ["Dertiende maand: sectoraal CAO-recht, uitbetaling december", "Vakantiegeld: federaal wettelijk recht (KB 30-03-1967), uitbetaling vóór vakantie (typisch mei/juni)"], "verwarring_risico": "Beiden zijn 'extra bezoldigingen' maar volgen verschillende juridische regimes (sectoraal CAO vs federaal arbeidsrecht)."}
   ]
 }
