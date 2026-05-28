@@ -1,17 +1,17 @@
 {
   "id": "memorierekeningen",
   "naam": {
-    "primair": "Memorierekeningen (rechten en verplichtingen buiten balans)",
+    "primair": "Memorierekeningen",
     "synoniemen": [
-      "niet-in-balans-rechten-en-verplichtingen",
+      "niet in de balans opgenomen rechten en verplichtingen",
       "klasse 0",
-      "rechten en verplichtingen buiten balans"
+      "off-balance-rekeningen"
     ]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -41,9 +41,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/memorierekeningen.json",
+      "primary_bronnen": [
+        "MAR-bijlage KB 21-10-2018 — Klasse 0",
+        "CBN-advies 2017/07 — Niet in de balans opgenomen rechten en verplichtingen",
+        "CBN-advies 2015/04 — Leasing"
+      ]
     },
     "changelog": [
       {
@@ -51,21 +57,69 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — MAR-klasse 0 + boekings-voorbeelden + verschil B-GAAP/IFRS"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Memorierekeningen** zijn rekeningen van de **MAR-klasse 0** waarop rechten en verplichtingen worden bijgehouden die het vermogen, de financiële positie of het resultaat van de onderneming **aanmerkelijk kunnen beïnvloeden** maar die **niet in de balans** worden opgenomen omdat ze (nog) geen actuele activa of passiva vormen. Voorbeelden: gestelde of ontvangen garanties, persoonlijke en zakelijke zekerheden, niet-uitgeoefende aankoopopties bij operationele leasing, eventuele restschulden, niet-opgenomen kredietlijnen, retro-cessies. Klasse 0 functioneert als **memorie** of geheugen — daadwerkelijke vermogensverschuiving leidt tot reguliere boeking op klassen 1-9.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 0 (29) (30)",
+              "context": "Niet in de balans opgenomen rechten en verplichtingen — opsomming sub-categorieën"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2017/07",
+              "ref": "Boeking van rechten en verplichtingen onder klasse 0",
+              "context": "Inhoudelijke afbakening klasse 0 + rekening 09 als diverse-categorie"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De **klasse 0** is **dubbelzijdig**: elke memoriële boeking wordt op **twee tegengestelde 0-rekeningen** opgenomen — debet 09x recht/verbintenis · credit 09y tegenboeking, of omgekeerd. Sub-categorieën:\n\n- **00** Zekerheden door derden gesteld voor rekening van de onderneming\n- **01** Persoonlijke zekerheden door de onderneming gesteld voor derden\n- **02** Zakelijke zekerheden door de onderneming gesteld op haar eigen activa\n- **03** Goederen en waarden van derden in bewaring/consignatie/bewerking\n- **04** Verleende kredietopeningen niet opgenomen\n- **05** Verkregen kredietopeningen niet opgenomen\n- **06** Verbintenissen wegens termijnverrichtingen op aandelen/effecten\n- **07** Diverse rechten en verplichtingen\n- **09** Restcategorie (diverse rechten en verplichtingen — niet uitputbaar via 00-07)\n\nDeze rekeningen verschijnen in de **toelichting bij de jaarrekening** (staat XVII/VIII *Aard en zakelijk doel van buitenbalans-regelingen*) — niet op de balans zelf.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 0",
+              "context": "Sub-rubricering 00-09"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2017/07",
+              "ref": "Rekening 09",
+              "context": "09 als restcategorie voor niet-opgesomde rechten/verplichtingen"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Klasse 0 lost een spanning op in het boekhoudrecht: de **balanslogica** vereist dat een passief alleen wordt opgenomen wanneer het een **actuele verplichting** vertegenwoordigt (geen voorwaardelijke of toekomstige), maar de **getrouw-beeld-norm** vereist dat **belangrijke risico's en rechten** zichtbaar blijven voor lezers van de jaarrekening. Klasse 0 + toelichtingsstaten brengen deze beide vereisten samen: het cijfer staat niet in de balans (waar het misleidend zou zijn), maar wel in de toelichting met aard, omvang en doel — zodat banken, leveranciers en investeerders het integrale risicoprofiel kennen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2017/07",
+              "ref": "Algemeen + boekingsregels",
+              "context": "Functie klasse 0 + toelichtings-vereisten"
             }
           ]
         }
@@ -73,23 +127,80 @@
     },
     "bouwstenen": [
       {
+        "id": "boeking-gestelde-zekerheid",
+        "naam": {
+          "primair": "Boeking gestelde zekerheid"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de onderneming aan een derde (bv. een bank, een verhuurder) een **zakelijke zekerheid** stelt — bv. een pand op een onroerend goed, een handelszekerheid op de bedrijfsactiva — wordt dit geboekt in klasse 0:\n\n```\n020 Onroerende goederen bezwaard met hypotheek    D 500.000\n   021 Crediteuren wegens gestelde zakelijke zekerheid C 500.000\n```\n(De waarde = nominale waarde van het bezwaarde goed of het maximum-bedrag van de hypothecaire inschrijving.)\n\nBij **vrijgave** (bv. lening volledig terugbetaald): omgekeerde boeking.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2017/07",
+                  "ref": "Boeking gestelde zekerheid",
+                  "context": "Symmetrische boeking + waardering aan nominale waarde"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-operationele-leasing",
+        "naam": {
+          "primair": "Boeking operationele leasing — aankoopoptie + niet-vervallen huur"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Onder **B-GAAP** wordt operationele leasing **niet** op de balans opgenomen (huur als kost in klasse 61). De aankoopoptie en het saldo van toekomstige huurbedragen worden wel in **klasse 0** geboekt als off-balance verplichting:\n\n```\n051 Verbintenissen wegens niet-opgenomen huurleasingen   D 36.000\n   050 Crediteuren leasingverbintenissen                  C 36.000\n```\n(Voor een leasing met 3 jaar restduur × 12.000 EUR jaarhuur)\n\nDe aankoopoptie wordt apart vermeld (typisch 5-10 % van aanschaffingsprijs).\n\n**Belangrijk verschil IFRS 16**: onder IFRS gaat dezelfde lease wél op de balans (right-of-use-actief + lease-verplichting). Dit is een van de grootste B-GAAP/IFRS-verschillen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2015/04",
+                  "ref": "Leasing — informatieverschaffing toelichting",
+                  "context": "Aankoopoptie als verplichting in klasse 0 + buitenbalans-toelichting"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 16",
+                  "ref": "IFRS 16",
+                  "context": "On-balance presentatie alle leases (uitgezonderd kortlopende + low-value)"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "subconcepten": [
+      {
         "id": "rechten-memoriaal",
         "naam": {
           "primair": "Rechten (ontvangen garanties + verkregen verbintenissen)"
         },
-        "bouwsteen_type": "begrip",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Rechten** in klasse 0 zijn de **voordelen** die de onderneming heeft ontvangen van derden: ontvangen borgtochten, bankgaranties die haar zijn verleend, niet-opgenomen kredietlijnen, beloofde overheidssubsidies waarvan de toekenning nog niet zeker is. Ze worden geboekt aan debet-zijde (van de tegenrekeningparen) en signaleren toekomstige inkomende geldstromen of zekerheden waar de onderneming op kan rekenen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 21-10-2018 MAR",
+                    "ref": "Klasse 0 — rechten",
+                    "context": "Rechten-zijde memorierekeningen"
+                  }
+                ]
+              }
             }
           }
         }
@@ -99,21 +210,58 @@
         "naam": {
           "primair": "Verplichtingen (gestelde zekerheden + gegeven verbintenissen)"
         },
-        "bouwsteen_type": "begrip",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Verplichtingen** in klasse 0 zijn de **risico's** die de onderneming op zich heeft genomen tegenover derden: gestelde borgtochten, hypotheken op eigen activa, garanties aan dochterondernemingen, verkregen termijnverrichtingen die nog moeten worden afgewikkeld. Ze worden geboekt aan credit-zijde (van de tegenrekeningparen) en signaleren mogelijke toekomstige uitstromen of vermogensverhinderingen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 21-10-2018 MAR",
+                    "ref": "Klasse 0 — verplichtingen",
+                    "context": "Verplichtingen-zijde memorierekeningen"
+                  }
+                ]
+              }
             }
           }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 0 vergeten bij commissaris-controle",
+        "verkeerde_assumptie": "Klasse 0 is informatief — geen impact op balans/resultaat, dus geen controle nodig.",
+        "kernpunt": "Klasse 0 is **onderdeel van de jaarrekening** (toelichting staat XVII/VIII) en moet door de commissaris worden gecontroleerd. Een belangrijke off-balance verplichting (bv. een hypothecaire inschrijving van 2 miljoen EUR op het bedrijfsvastgoed) niet vermelden, is een **materieel verzuim** dat het getrouw beeld aantast.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2017/07",
+              "ref": "Algemeen",
+              "context": "Klasse 0 + buitenbalans-toelichting"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Operationele leasing onder IFRS off-balance houden",
+        "verkeerde_assumptie": "Voor IFRS-rapportering kan de operationele leasing in klasse 0 blijven zoals onder B-GAAP.",
+        "kernpunt": "**IFRS 16** schrapt het onderscheid tussen operationele en financiële leasing voor de lessee: **alle** leasecontracten met looptijd > 12 maanden en bedrag > low-value-drempel komen op de balans (right-of-use-actief + lease-verplichting). De klasse 0-presentatie geldt **alleen** voor B-GAAP-rapportering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 16",
+              "ref": "IFRS 16",
+              "context": "On-balance presentatie alle leases"
+            }
+          ]
         }
       }
     ]
@@ -122,6 +270,19 @@
     {
       "type": "valt_onder",
       "target": "boekhouding"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schulden-op-korte-termijn",
+      "gelijkenissen": [
+        "Beide signaleren een toekomstige verplichting tot uitstroom van middelen"
+      ],
+      "verschillen": [
+        "Schulden: actuele verplichting + zeker bedrag → op de balans (klasse 42-48)",
+        "Memorierekeningen: voorwaardelijk of onzeker actueel statuut → buiten de balans (klasse 0)"
+      ],
+      "verwarring_risico": "Een aankoopoptie bij operationele lease op de balans boeken (verkeerd onder B-GAAP) of een verschuldigde factuur op klasse 0 boeken (idem).",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
