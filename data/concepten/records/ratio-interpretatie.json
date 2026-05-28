@@ -1,18 +1,16 @@
 {
   "id": "ratio-interpretatie",
   "naam": {
-    "primair": "Ratio-interpretatie (K-techniek)"
+    "primair": "Ratio-interpretatie",
+    "synoniemen": ["ratio-analyse-methodologie", "kruisverbanden ratio's"],
+    "vertaling": {"en": "ratio interpretation methodology", "fr": "interprétation des ratios"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.9.V.E"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.9.V.E"],
     "scope": {
       "in": [
         "Methodologisch hoe-interpreteer-ik-ratios (cross-categorie)",
@@ -23,54 +21,133 @@
         "Valkuilen: window-dressing · niet-recurrente · seizoens-effect"
       ],
       "out": [
-        {
-          "topic": "Specifieke ratio-categorieën",
-          "richting": "moet-verwijzen",
-          "ref": "liquiditeits-ratios"
-        },
-        {
-          "topic": "Financiële diagnose (geheel-oordeel inclusief kwalitatief)",
-          "richting": "moet-verwijzen",
-          "ref": "financiele-diagnose"
-        }
+        {"topic": "Specifieke ratio-categorieën", "richting": "moet-verwijzen", "ref": "liquiditeits-ratios"},
+        {"topic": "Financiële diagnose (geheel-oordeel inclusief kwalitatief)", "richting": "moet-verwijzen", "ref": "financiele-diagnose"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/ratio-interpretatie.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:20:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Procedurale record uitgewerkt: 3 interpretatie-assen (tijd · sector · cross-categorie), DuPont-decomposition, cash-conversion-cycle cross-link, sector-benchmark-bronnen, 5 valkuilen."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
+        "tekst": "Ratio-interpretatie is de methodologische laag boven de losse ratio-categorieën — de discipline om uit een tabel ratio's een betekenisvol oordeel te halen. Vier interpretatie-assen werken samen: (1) trend-analyse over 3-5 jaar (welke kant gaan we op?), (2) sector-benchmark (hoe verhouden we ons tot vergelijkbare bedrijven?), (3) cross-categorie verbanden (DuPont-decomposition, cash-conversion-cycle), (4) kwalitatieve duiding (wat verklaart de cijfers? eenmalig of structureel?). Zonder deze methodologie blijven ratio's geïsoleerde getallen zonder betekenis.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Methodologie ratio-analyse — Ooghe & Van Wymeersch + ITAA-handboek"}]}
+      },
+      "substantie": {
+        "tekst": "Eén ratio op één moment is een snapshot zonder context — als naar één foto kijken van een wedstrijd zonder de eindstand te kennen. De vakkundige analist combineert daarom altijd minstens drie dimensies: (a) hoe is het geëvolueerd? (b) hoe doen de concurrenten het? (c) wat verklaart het via DuPont of cash-conversion-cycle? Een ROE van 12 % is bij voorbeeld 'matig' in software (sector-norm 20 %) maar 'uitstekend' in retail-food (sector-norm 8 %). De cijfers fluisteren — de analist moet het verhaal eruit halen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["liquiditeits-ratios", "solvabiliteits-ratios", "rentabiliteits-ratios", "activiteits-ratios"],
+      "kader": "jaarrekeninganalyse",
+      "naast_relevant": ["financiele-diagnose"],
+      "volgkennis": ["financiele-diagnose", "faillissementspredictie-modellen"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Bouwen van financieel diagnose-rapport — methodologische backbone van het hoofdstuk 'analyse en interpretatie'.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Kredietverlening + bancair onderhoud — banken vragen jaarlijks ratio-analyse met jaar-op-jaar evolutie en sector-vergelijking.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tijd-as",
+        "naam": {"primair": "Tijd-as: trend over 3-5 jaar"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Bouw een tijdreeks van 3-5 boekjaren voor elke ratio. Bereken jaar-op-jaar veranderingen en gemiddelde + standaarddeviatie. Patronen herkennen: (a) stabiel — predictiebaar, lage risico-premie; (b) trend op of neer — extrapoleer voor toekomst; (c) volatiel zonder trend — cyclisch of risicovol; (d) trend-omslag — recente structurele wijziging onderzoeken. Trend-analyse is bijna altijd informatiever dan absolute-niveau-analyse.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "sector-as",
+        "naam": {"primair": "Sector-as: benchmark tegen peers"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Identificeer 3-10 sector-vergelijkbare bedrijven (zelfde NACE-code, vergelijkbare omzet-grootte). Bronnen: (1) NBB-balanscentrale — sectoraggregaten gratis online; (2) Belfius Companyweb — betaalde benchmark-rapporten; (3) Trends Top — top-200 per sector; (4) Graydon — kredietrapporten; (5) jaarlijkse sector-rapporten van federaties (Agoria, Comeos, ...). Positioneer per ratio: top kwartiel — boven gemiddelde — onder gemiddelde — bottom kwartiel.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "cross-as",
+        "naam": {"primair": "Cross-as: verbanden tussen ratio's"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Ratio's hangen samen — DuPont-decomposition + cash-conversion-cycle leggen de mechanismen bloot. (1) DuPont 3-factor: ROE = nettomarge × omloopsnelheid activa × hefboom — verklaart waarom een ROE laag of hoog is. (2) Cash-conversion-cycle: CCC = DIO + DSO − DPO — verbindt activiteits- met liquiditeits-ratios. (3) Werkkapitaalbehoefte vs netto-bedrijfskapitaal — toetst structurele financiering. (4) EBITDA / interestlasten — interest coverage, brug rentabiliteit ↔ solvabiliteit. Cross-verbanden tonen waar pijnpunten clusteren.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "dupont-decomposition",
+        "naam": {"primair": "DuPont-decomposition"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {"tekst": "ROE = (nettowinst / omzet) × (omzet / totaal activa) × (totaal activa / eigen vermogen) = nettomarge × kapitaalomloop × financiële hefboom. Diagnose-tool: stel je ROE-A 18 % en ROE-B 12 %. DuPont laat zien of A's voordeel komt uit (1) margekracht (premium-positionering), (2) kapitaalefficiëntie (light asset model), of (3) hefboomgebruik (meer schuld — meer risico). Strategische implicaties verschillen totaal.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "cash-conversion-link",
+        "naam": {"primair": "Cash-conversion-cycle als brug"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {"tekst": "CCC = DIO + DSO − DPO (in dagen) verbindt activiteits-ratio's met liquiditeit. Een stijgende CCC → meer werkkapitaal-behoefte → minder cash voor andere doeleinden → druk op liquiditeit. Daling van current ratio gecombineerd met stijging van CCC = klassiek alarm-patroon. Omgekeerd: bedrijven met negatieve CCC (supermarkten) gebruiken hun werkkapitaal als financieringsbron en kunnen lage current ratio combineren met sterke liquiditeit.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "benchmark-bronnen",
+        "naam": {"primair": "Sector-benchmark-bronnen"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {"tekst": "Belgische bronnen: (1) NBB-balanscentrale — gratis sectorrapporten op nbb.be → aggregaten op NACE-niveau; (2) Belfius Companyweb / Trends Top — abonnement, individuele en peer-vergelijking; (3) Graydon — kredietrapporten met peer-positionering; (4) federatie-rapporten (Agoria voor industrie, Comeos voor handel, BCC voor bouw). Internationaal: Bloomberg, S&P Capital IQ. Voor KMO-analyse: combineer NBB-aggregaten (sector) met Companyweb-individuele rapporten (peer-vergelijking).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-dupont-vergelijking",
+        "titel": "DuPont-vergelijking — twee retailers met identieke ROE",
+        "context": "Twee retailers, beide ROE 18 %, totaal andere strategie.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Maatstaf", "Retailer A (premium)", "Retailer B (discount)"],
+            "rijen": [
+              ["Nettomarge", "12 %", "3 %"],
+              ["Omloopsnelheid activa", "1,5×", "4,0×"],
+              ["Financiële hefboom", "1,0×", "1,5×"],
+              ["ROE = product", "18 %", "18 %"]
+            ],
+            "interpretatie": "Identieke ROE, totaal andere businessmodel: A verdient via marge (luxe, kleine volumes, weinig schuld); B verdient via omloop (kleine marge, hoge volumes, beetje hefboom). Strategische implicaties: A kwetsbaar voor consumenten-trend-shift; B kwetsbaar voor prijsdruk en logistieke kostenstijging. Zonder DuPont zou je twee identieke bedrijven zien — met DuPont zie je twee totaal verschillende risicoprofielen."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Ratio's zonder context citeren", "verkeerde_assumptie": "Current ratio 1,2 betekent automatisch 'matig liquide'.", "kernpunt": "Eén ratio op één moment in één bedrijf zegt niets zonder (1) historische trend, (2) sector-benchmark, (3) cross-verbanden. Een current ratio van 1,2 kan uitstekend zijn voor een supermarkt en alarmerend voor een bouwbedrijf.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Window-dressing niet opmerken", "verkeerde_assumptie": "Balansdatum-ratio's reflecteren de normale situatie.", "kernpunt": "Bedrijven manipuleren balanspresentatie rond jaareinde: schulden tijdelijk aflossen (en januari heropnemen), factoring (vorderingen verdwijnen), late afschrijvings-aanpassingen. Vergelijk met tussentijdse staten waar beschikbaar, of bekijk mediaan over jaar uit Companyweb/Belfius.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Niet-recurrente items als duurzaam interpreteren", "verkeerde_assumptie": "Winststijging dit jaar zet zich door.", "kernpunt": "Eenmalige effecten (verkoop activa, fiscale tax credits, vrijgevallen voorzieningen, sale-lease-back winsten) bekijken in detail. Zuiverder vergelijking: bedrijfsresultaat (rubriek 9901) i.p.v. nettowinst (9904). Lees rubrieken 76/66 in de toelichting voor uitzonderlijk resultaat.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Seizoenseffecten als trend lezen", "verkeerde_assumptie": "Voorraad steeg 30 % t.o.v. vorig jaar — slecht teken.", "kernpunt": "Seizoens-gevoelige sectoren (kerstartikelen, ijsproducenten, tuincenters) hebben sterk variabele balans-snapshots. Vergelijk altijd dezelfde balansdatum jaar-op-jaar; gebruik gemiddelde balans-stand (begin + einde) / 2 voor ratio's met balans-component en stroom-component.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Kwantitatief overschatten, kwalitatief onderschatten", "verkeerde_assumptie": "Alle ratio's groen = bedrijf gezond.", "kernpunt": "Ratio's zijn lagging indicators uit het verleden — ze missen toekomstige bedreigingen (technologische verstoring, klantverlies, key-person dependency, regulatoire wijzigingen). Combineer altijd met kwalitatieve signalen: leiderschapswissel, klantconcentratie, sector-trends, jaarverslag-toelichting over risico's.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "jaarrekeninganalyse"
-    }
+    {"type": "valt_onder", "target": "jaarrekeninganalyse"},
+    {"type": "vereist", "target": "liquiditeits-ratios"},
+    {"type": "vereist", "target": "solvabiliteits-ratios"},
+    {"type": "vereist", "target": "rentabiliteits-ratios"},
+    {"type": "vereist", "target": "activiteits-ratios"},
+    {"type": "triggert", "target": "financiele-diagnose", "toelichting": "Goede ratio-interpretatie voedt de integrale financiële diagnose."}
   ]
 }
