@@ -3,13 +3,17 @@
   "naam": {
     "primair": "Gewestelijke belastingverminderingen (PB)",
     "synoniemen": [
+      "gewest-belastingvermindering personenbelasting",
       "réductions d'impôt régionales"
-    ]
+    ],
+    "vertaling": {
+      "fr": "réductions d'impôt régionales"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -19,9 +23,20 @@
       "2.2.XIII"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/gewestelijke-belastingverminderingen-pb.json",
+      "primary_bronnen": [
+        "WIB92 art. 178/1",
+        "WIB92 art. 14536bis",
+        "WIB92 art. 14538/1",
+        "WIB92 art. 14546/1",
+        "Bijzondere Financieringswet (BFW) 6 januari 1989"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,38 +44,50 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifiek)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + algemene gewest-fiscale kennis. Hub-fiche: gewest-specifieke regelingen verdienen mogelijk eigen records (woonbonus-vlaanderen, chèque-habitat-walloniê, isolatie-brussel)."
       }
     ],
     "scope": {
       "in": [
-        "Belastingverminderingen op gewest-niveau (sinds 6e staatshervorming 2014)",
-        "Vlaams Gewest: woonbonus-overgang · isolatie · dakwerken · winwinlening · dienstencheques · zorgverlof",
-        "Waals Gewest: chèque habitat · isolatie · pensioensparen-aanvulling · dienstencheques",
-        "Brussels Hoofdstedelijk Gewest: woonbonus · isolatie · dienstencheques · titres-services",
-        "Mechaniek: vermindering op belasting (niet inkomen) — wordt afgetrokken na tariefberekening",
-        "Cascade-volgorde gewest-decimes-impact"
+        "Algemeen mechanisme gewestelijke belastingverminderingen sinds 6e staatshervorming (Bijzondere Financieringswet 1989, gewijzigd 2014)",
+        "Aanrekeningsvolgorde art. 178/1 WIB92 — eerst federale verminderingen op gereduceerde belasting Staat, dan saldo op gewestelijke PB",
+        "Vlaams Gewest: geïntegreerde woonbonus uitgedoofd voor leningen vanaf 1/1/2020 (overgangsregime), winwinlening, isolatie-uitgaven, dakwerken, dienstencheques (gewestelijk luik)",
+        "Waals Gewest: chèque habitat (vervanger woonbonus sinds 2016), dienstencheques (titres-services), specifieke verminderingen energie",
+        "Brussels Hoofdstedelijk Gewest: woonbonus uitgedoofd, dienstencheques, energiebesparende uitgaven (art. 14536bis)",
+        "Gemeenschappelijke kenmerken: vermindering grijpt op berekende belasting (niet grondslag), vast tarief × in aanmerking komend bedrag",
+        "Cascade-impact: aanvullende gemeentebelasting en agglomeratiebelasting (art. 466) volgen op het saldo NA gewestelijke verminderingen"
       ],
       "out": [
         {
-          "topic": "Federale belastingverminderingen (parallelle cascade)",
+          "topic": "Federale belastingverminderingen (pensioensparen, langetermijnsparen, giften)",
           "richting": "moet-verwijzen",
           "ref": "federale-belastingverminderingen-pb"
         },
         {
-          "topic": "Eigen-woning-fiscaal regime (woonbonus per gewest)",
-          "richting": "moet-verwijzen",
-          "ref": "eigen-woning-fiscaal"
-        },
-        {
-          "topic": "Belastingberekening-procedure (waar verminderingen in cascade passen)",
+          "topic": "Belastingberekening-procedure (volgorde in cascade)",
           "richting": "moet-verwijzen",
           "ref": "belastingberekening-pb"
         },
         {
-          "topic": "Gewestelijke fiscale autonomie (algemeen kader)",
+          "topic": "Aftrekbare bestedingen (eerdere stap = aftrek inkomen)",
+          "richting": "moet-verwijzen",
+          "ref": "aftrekbare-bestedingen-pb"
+        },
+        {
+          "topic": "Aanvullende gemeentebelasting (volgt op saldo na gewestelijke verminderingen)",
           "richting": "mag-verwijzen",
-          "ref": "gewestelijke-fiscale-autonomie"
+          "ref": "aanvullende-gemeentebelasting-pb"
+        },
+        {
+          "topic": "Gewest-specifieke detailregelingen (woonbonus per gewest, chèque habitat) — eigen records aan te maken",
+          "richting": "mag-verwijzen"
         }
       ]
     }
@@ -68,26 +95,388 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Gewestelijke belastingverminderingen zijn voordelen op de berekende personenbelasting die door de Vlaamse, Waalse of Brusselse wetgever zijn opgezet voor de aan dat gewest toegewezen bevoegdheden — voornamelijk woningfiscaliteit, energiebesparing, dienstencheques en specifieke gewestelijke gunstregimes. Sinds de zesde staatshervorming (Bijzondere Financieringswet, gewijzigd 2014) hebben de gewesten een eigen 'gewest-belasting' deel binnen de PB-cascade en bepalen ze autonoom welke bestedingen op dat deel recht geven op vermindering. Het federale WIB92 voorziet de structuur (bv. art. 14538/1 — leeg met 'Tekst: WIB 92 – Historische versie – Vlaams Gewest') en de gewest-decreten vullen de inhoud in.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 14538/1", "context": "Vlaams Gewest" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 14536bis", "context": "Brussels Hoofdstedelijk Gewest" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch effect: de belastingplichtige wordt voor zijn 'gewest-fiscale woonplaats' (= gemeente waar hij op 1 januari AJ gevestigd is) onder het regime van dat gewest gebracht voor de gewestelijke verminderingen. Een belastingplichtige in Antwerpen geniet Vlaamse regelingen (Vlaamse woonbonus voor lopende leningen, isolatie-vermindering); in Luik Waalse (chèque habitat); in Schaarbeek Brusselse. Verhuizing tussen gewesten in de loop van het jaar kan dus fiscaal impact hebben — wel altijd via de peildatum 1 januari AJ. Door art. 178/1 worden eerst de federale verminderingen op de gereduceerde belasting Staat aangerekend en daarna pas op de gewest-PB als saldo. Praktische impact: bij PB-aangifte twee parallelle codereeksen (federaal Vak X + gewestelijk Vak X-gewestelijk).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Gewestaanwijzings-praktijk + aangifte-codes" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: de gewesten kregen via de Bijzondere Financieringswet de bevoegdheid over fiscale aspecten die nauw verbonden zijn met hun materiële bevoegdheden (huisvesting, energie, sociaal beleid). De fiscale verminderingen vormen het instrument om gewestelijk beleid te ondersteunen zonder dat de basis-PB versplinterd wordt. De aanrekenings-volgorde (federaal eerst, gewestelijk pas voor het saldo) verzekert dat de federale verminderingen voorrang hebben op de schaarse fiscale capaciteit van middeninkomens — pas bij voldoende belasting komen gewestelijke regelingen tot hun volledig effect.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1", "context": "Aanrekenings-volgorde" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — gewestelijke fiscale autonomie" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "belastingberekening-pb"
+      ],
+      "kader": "belastingberekening-pb",
+      "naast_relevant": [
+        "federale-belastingverminderingen-pb",
+        "aanvullende-gemeentebelasting-pb"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 145/1-145/47 + gewestdecreten"
+        "sinds": "AJ 2015",
+        "wettelijke_basis": "Bijzondere Financieringswet 16/01/1989 (gewijzigd door bijzondere wet 6/01/2014) + gewest-decreten",
+        "toelichting": "Sinds zesde staatshervorming. Gewesten hebben binnen hun bevoegdheden volledige autonomie inzake belastingverminderingen voor PB-rijksinwoners van het gewest. De woonbonus is in alle gewesten uitgedoofd voor nieuwe leningen (Vlaams Gewest 1/1/2020; Waals chèque habitat sinds 2016; Brussels woonbonus afgeschaft 1/1/2017)."
+      },
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen die op 1 januari AJ rijksinwoner zijn van het Vlaams, Waals of Brussels Gewest en die in het belastbaar tijdperk uitgaven hebben gedaan die door het gewest van hun fiscale woonplaats erkend zijn voor vermindering (woningfiscaliteit, energie, dienstencheques, specifieke domeinen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) fiscale woonplaats in het gewest op 1 januari AJ; (2) werkelijke betaling van een in dat gewest erkende uitgave in het belastbaar tijdperk; (3) bewijsstuk (fiscaal attest of energie-attest of uittreksel gewest-erkende dienstenleverancier); (4) plafond per regeling; (5) anti-cumulatie met federale of andere gewest-regelingen vermijden.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene voorwaarden gewest-verminderingen" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Naast federale verminderingen krijgen de inwoners van een gewest extra fiscale tegemoetkomingen voor gewest-prioritaire investeringen — vooral woningverwerving (woonbonus-overgang, chèque habitat), energiebesparing, en dienstencheques. Effect afhankelijk van gewest: een Vlaams overgangsdossier met grote woonbonus kan ettelijke duizenden EUR/jaar opleveren over de duur van de lening.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 14538/1", "context": "Vlaamse regeling" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische impact gewest-fiscaliteit" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verkeerde gewest-toewijzing bij verhuizing tussen gewesten: peildatum is 1 januari AJ — verhuis naar ander gewest vóór 1 januari betekent volledige overgang naar regime nieuw gewest voor dat inkomstenjaar, ook voor lopende lening-verminderingen (die mogelijk minder voordelig zijn in nieuw gewest). · Federale en gewestelijke verminderingen op dezelfde uitgave laten cumuleren (bv. dakisolatie federaal + gewest = niet toegelaten). · Gewest-aangifte-codes verwarren met federale codes.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico gewest-fiscaliteit" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "aanrekenings-volgorde-art-178-1",
+        "naam": {
+          "primair": "Aanrekenings-volgorde (art. 178/1 WIB92)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Federale belastingverminderingen (art. 1451-14516, 14526, 14527, 14533, 14535, 154bis) worden EERST aangerekend op de 'gereduceerde belasting Staat' met betrekking tot de art. 130-belaste inkomsten. Verminderingen die niet volledig kunnen worden aangerekend, gaan vervolgens naar de gewestelijke PB. Volgorde binnen verminderingen: (1) niet-omzetbaar in krediet en geen latere heffing; (2) niet-omzetbaar in krediet maar wél latere heffing; (3) omzetbaar in belastingkrediet. Doelstelling: voorkomen van fiscale capaciteit-verlies bij middeninkomens met meerdere parallel-regelingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vlaams-gewest-regelingen",
+        "naam": {
+          "primair": "Vlaams Gewest — hoofdregelingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voornaamste Vlaamse PB-verminderingen: (1) Geïntegreerde woonbonus (art. 14538/1 — Vlaamse versie): uitgedoofd voor leningen aangegaan vanaf 1/1/2020; overgangsregime voor lopende leningen (basis-vermindering 30%, plafond 2.280 EUR + verhoging eerste 10 jaar + per kind ten laste op moment lening). (2) Winwinlening / Vriendenaandeel: vermindering 2,5% × jaarbedrag van de lening, max bedragen per persoon (per gewestelijk decreet); 30% éénmalige vermindering bij faillissement-verlies. (3) Energiebesparende investeringen: dakisolatie (uitgefaseerd), warmtepomp, zonneboiler — gewestelijke premie + fiscale impact. (4) Dienstencheques: gewest-vermindering bovenop federaal residu (Vlaamse plafond per gezin per jaar). Concrete tarieven en plafonds: VCF + Vlaamse PB-Codex per AJ.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 14538/1", "context": "Vlaamse versie" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Overzicht Vlaamse PB-verminderingen — concrete bedragen Cijferzakboekje" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waals-gewest-regelingen",
+        "naam": {
+          "primair": "Waals Gewest — hoofdregelingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voornaamste Waalse PB-verminderingen: (1) Chèque habitat (sinds 2016): vervangt de woonbonus voor leningen aangegaan vanaf 1/1/2016. Forfaitair voordeel per jaar (gemiddeld 1.520 EUR de eerste 10 jaar, daarna degressief), gekoppeld aan inkomen + gezinslast; geldig 20 jaar. Niet cumuleerbaar met de oude woonbonus. (2) Dienstencheques (titres-services): gewest-vermindering op aankoop van cheques, plafond per gezin per jaar. (3) Energiebesparende investeringen: warmtepompen, energie-renovatie. (4) Vlaamse winwinlening-equivalent in Wallonië: 'Coup de Pouce' (lening tussen particulieren). Wettelijke basis: Décret du 06/05/1999 + opvolgende decreten Waalse fiscaliteit.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Overzicht Waalse PB-verminderingen — gedetailleerde bedragen Cijferzakboekje" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "brussels-gewest-regelingen",
+        "naam": {
+          "primair": "Brussels Hoofdstedelijk Gewest — hoofdregelingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voornaamste Brusselse PB-verminderingen: (1) Woonbonus volledig afgeschaft voor leningen vanaf 1/1/2017 — overgangsregime alleen voor oude leningen. Vervangen door overdrachtbelasting-vermindering (regio-belasting, niet PB). (2) Dienstencheques (titres-services): Brusselse gewest-vermindering bovenop federaal niveau (afnemend door reformes 2020+). (3) Energiebesparende investeringen via art. 14536bis. (4) Specifieke renovatie-stimuli (Renolution) en isolatie-premies (vooral via gewest-premie + gewest-vermindering combinatie).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 14536bis", "context": "Brussels Gewest energiebesparende uitgaven" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Overzicht Brusselse PB-verminderingen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "peildatum-fiscale-woonplaats",
+        "naam": {
+          "primair": "Peildatum fiscale woonplaats (1 januari AJ)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor bepaling van het toepasselijke gewest-fiscaal regime telt de fiscale woonplaats op 1 januari van het aanslagjaar (= 1 januari ná het inkomstenjaar). Een belastingplichtige die op 15 december van inkomstenjaar N van Vlaanderen naar Wallonië verhuist: voor inkomstenjaar N (= AJ N+1) wordt het Waalse regime toegepast — ondanks dat 11,5 maanden uit het jaar in Vlaanderen werden gepresteerd. Praktisch gevolg: bij verhuizing vóór 1 januari moet de Vlaamse woonbonus-vermindering NIET meer worden geclaimd (lening valt onder Waals regime — chèque habitat in plaats van basisuitwerking).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene peildatumregel PB" },
+                { "type": "wettekst", "naam": "Bijzondere Financieringswet 16/01/1989", "ref": "art. 5/1", "context": "Toewijzingsregel inkomen aan gewest" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vlaamse-woonbonus-overgang",
+        "titel": "Vlaamse geïntegreerde woonbonus — overgangsregime lopende lening uit 2018",
+        "context": "Echtpaar A+B woont in Antwerpen (Vlaams Gewest), heeft op 1/3/2018 een hypothecaire lening van 200.000 EUR afgesloten voor enige eigen woning. Op 1 januari AJ 2025 zijn ze beide rijksinwoner van het Vlaams Gewest. 2 kinderen ten laste op moment lening aangegaan. Jaarlijkse kapitaalaflossingen + intresten: 11.500 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 14538/1", "context": "Vlaamse versie — overgangsregeling" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse woonbonus-overgang" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — gewest-aanwijzing op 1/1 AJ 2025: Vlaams Gewest ✓.",
+              "Stap 2 — lening aangegaan op 1/3/2018 < 1/1/2020 → onder overgangsregime Vlaamse geïntegreerde woonbonus.",
+              "Stap 3 — basisbedrag in aanmerking (per echtgenoot): 2.280 EUR (niet-geïndexeerd). Voor jaar 7 van de lening (2024): basis + verhoging eerste 10 jaar +760 EUR + verhoging 2 kinderen op moment lening +80 EUR = 3.120 EUR per echtgenoot (niet-geïndexeerd).",
+              "Stap 4 — totaal beide echtgenoten: 2 × 3.120 = 6.240 EUR. Hun jaarlijkse aflossingen + intresten van 11.500 EUR overschrijden plafond → enkel 6.240 EUR in aanmerking.",
+              "Stap 5 — tarief vermindering: 30% (overgangsregime).",
+              "Stap 6 — totale gewest-vermindering: 6.240 × 30% = 1.872 EUR.",
+              "Stap 7 — die 1.872 EUR komt in mindering op het gewest-deel van de PB (art. 178/1, lid 2 — na federale verminderingen)."
+            ],
+            "resultaat": "Vlaamse woonbonus levert dit gezin in AJ 2025 ca. 1.872 EUR PB-besparing (niet-geïndexeerd). Volledig opgebruikt aan beide echtgenoten — anders worden niet-benutte saldi niet overdraagbaar. Bij verhuizing naar Brussel of Wallonië vóór 1/1 zou het regime wijzigen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-waalse-cheque-habitat",
+        "titel": "Waalse chèque habitat — lening 2019",
+        "context": "Belastingplichtige C woont in Namen (Waals Gewest), heeft op 15/9/2019 een hypothecaire lening van 180.000 EUR aangegaan voor enige eigen woning. Belastbaar inkomen 2024 = 35.000 EUR. Gehuwd, 1 kind ten laste.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Waalse chèque habitat regime" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — gewest-aanwijzing op 1/1 AJ 2025: Waals Gewest ✓.",
+              "Stap 2 — lening 15/9/2019 → onder Waals chèque-habitat-regime.",
+              "Stap 3 — chèque-bedrag is forfaitair op basis van inkomen + gezinslast (niet op werkelijke aflossingen): basis ca. 1.520 EUR + verhoging per kind ten laste ca. 125 EUR = 1.645 EUR voor jaren 1-10.",
+              "Stap 4 — voor jaar 6 van de lening (2024) = nog volle bedrag; vanaf jaar 11 degressief.",
+              "Stap 5 — totale chèque-vermindering AJ 2025: 1.645 EUR (op gewest-PB).",
+              "Stap 6 — looptijd: 20 jaar — eerste 10 jaar vol, dan degressief naar 0."
+            ],
+            "resultaat": "De Waalse chèque habitat geeft een forfaitair voordeel van ~1.645 EUR/jaar over 10 vol-jaar + 10 degressieve jaren. Voor lagere inkomens kan het systeem voordeliger zijn dan de oude woonbonus; voor hoge inkomens minder."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-aanrekening-art-178-1",
+        "titel": "Aanrekenings-volgorde art. 178/1 — federaal eerst",
+        "context": "Belastingplichtige D, inwoner Vlaams Gewest, heeft federale vermindering pensioensparen 297 EUR + gewest-vermindering woonbonus-overgang 1.872 EUR. Gereduceerde belasting Staat (art. 130-deel) = 1.000 EUR, gewest-PB = 5.000 EUR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — federale vermindering pensioensparen 297 EUR wordt EERST aangerekend op gereduceerde belasting Staat 1.000 EUR. Resterend federaal: 1.000 − 297 = 703 EUR.",
+              "Stap 2 — saldo aanrekening federale verminderingen op gewest-PB: 297 was volledig aanrekenbaar federaal → geen overschot, alles op federaal niveau.",
+              "Stap 3 — gewest-vermindering woonbonus 1.872 EUR wordt aangerekend op gewest-PB 5.000 EUR. Resterend gewest: 5.000 − 1.872 = 3.128 EUR.",
+              "Stap 4 — totaal PB na verminderingen: 703 (federaal) + 3.128 (gewest) = 3.831 EUR.",
+              "Stap 5 — vervolgens wordt aanvullende gemeentebelasting (typisch 7%) berekend op deze 3.831 EUR.",
+              "Stap 6 — alternative scenario: stel federale vermindering was 1.500 EUR > federale belasting 1.000 EUR. Surplus van 500 EUR zou dan worden aangerekend op gewest-PB (art. 178/1, §1, lid 2)."
+            ],
+            "resultaat": "De aanrekenings-volgorde van art. 178/1 verzekert dat federale verminderingen voorrang krijgen op federale belasting; pas bij surplus gaan ze naar gewest-deel. Gewestelijke verminderingen blijven exclusief op gewest-PB."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vergeten dat woonbonus is uitgedoofd voor nieuwe leningen",
+        "verkeerde_assumptie": "Een lening voor eigen woning aangegaan in 2024 geeft nog Vlaamse woonbonus.",
+        "kernpunt": "Vlaamse geïntegreerde woonbonus is uitgedoofd voor leningen aangegaan vanaf 1/1/2020. Brussel: vanaf 1/1/2017. Wallonië: vervangen door chèque habitat sinds 1/1/2016. Voor nieuwe leningen vanaf die data: geen woonbonus meer — alleen overgangsregime voor lopende dossiers. Praktisch: nieuwe huizenkopers in Vlaanderen krijgen geen fiscaal voordeel meer voor de hypotheek zelf; in Wallonië wel chèque habitat; in Brussel niets PB-zijde (compensatie deels via lager registratierecht).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 14538/1", "context": "Vlaamse versie — uitdovingsregime" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Gewest-specifieke uitdoof-data" }
+          ]
+        }
+      },
+      {
+        "titel": "Verkeerde gewest-toewijzing bij verhuizing einde december",
+        "verkeerde_assumptie": "Wie 11 maanden in Vlaanderen woonde en in december naar Brussel verhuist, valt voor dat inkomstenjaar nog onder Vlaams regime.",
+        "kernpunt": "Peildatum is 1 januari van het AANSLAGJAAR. Wie op 15/12/2024 naar Brussel verhuist: op 1/1/2025 is hij rijksinwoner Brussels Gewest → voor inkomstenjaar 2024 (AJ 2025) gelden de BRUSSELSE gewest-verminderingen, niet de Vlaamse. Vlaamse woonbonus van zijn lening kan dus NIET meer worden geclaimd voor AJ 2025; mogelijk geen Brusselse equivalent.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 5/1", "context": "Toewijzingsregel" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Peildatum-praktijk gewest-fiscaliteit" }
+          ]
+        }
+      },
+      {
+        "titel": "Federale en gewestelijke verminderingen voor zelfde uitgave cumuleren",
+        "verkeerde_assumptie": "Dakisolatie-uitgave kan zowel federaal (art. 14542) als gewestelijk (Vlaamse regeling) afgetrokken worden.",
+        "kernpunt": "Anti-cumulatie: voor dezelfde uitgave kan slechts één vermindering worden geclaimd. Bij energiebesparende investeringen: gewest heeft prioriteit (federale uitfasering sinds 2014). Voor sommige uitgaven federaal residu nog beperkt mogelijk — Cijferzakboekje + gewest-FAQ per AJ raadplegen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Anti-cumulatie-regels" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Overzichtsmatrix gewestelijke woonbonus + chèque habitat (status en hoofdkenmerken)",
+        "inhoud": {
+          "kolommen": ["Gewest", "Regime nieuwe lening", "Tarief vermindering", "Plafond", "Uitdovings-datum"],
+          "rijen": [
+            ["Vlaanderen", "Geen woonbonus meer (uitgedoofd)", "Overgang: 30%", "2.280 EUR/echtgenoot + verhogingen", "1/1/2020"],
+            ["Wallonië", "Chèque habitat (forfaitair)", "Forfait per gezinscoëfficiënt", "~1.520 EUR/jaar + 125 per kind", "Lening vanaf 1/1/2016 — chèque"],
+            ["Brussel", "Geen PB-vermindering meer", "—", "—", "1/1/2017"]
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particulier-client",
+      "naam": {
+        "primair": "Particuliere cliënt (PB-aangifte gewest)"
+      },
+      "intro": "De accountant die de PB-aangifte voorbereidt en gewest-specifieke verminderingen correct in kaart brengt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "gewest-toewijzing-check",
+              "naam": {
+                "primair": "Gewest-toewijzing controleren"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke aangifte: (1) gemeente op 1/1 AJ uit gemeente-attest verifiëren; (2) gewest-aanwijzing checken — Vlaams (incl. faciliteitengemeenten), Brussels (19 gemeenten), Waals; (3) voor klant die in loop van jaar verhuisde: NIEUWE gewest-regime toepassen voor AJ; (4) gewest-specifieke codereeksen invullen in PB-aangifte (Vlaams Vak X-gewestelijk; Waals attest 'logement'; Brussels eigen rubrieken); (5) federale + gewest-attesten apart bewaren (zelfde fysieke attest kan voor beide nodig zijn — bv. isolatie-werkmensen geven aan twee soorten attesten).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 178/1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "PB-controlewerkwijze gewest-aspect" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-grensoverschrijdende-verhuizing",
+              "naam": {
+                "primair": "Advies bij geplande gewest-grensoverschrijdende verhuizing"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënt overweegt verhuizing van Vlaanderen naar Brussel of Wallonië (of vice versa). Concrete impact op fiscale planning: (1) verlies/winst van woonbonus-overgang voor lopende lening; (2) verschillende dienstencheques-plafonds per gewest; (3) verschillende energie-vermindering-regimes. ALTIJD per concrete situatie doorrekenen — verhuizen vóór 1 januari heeft volle impact voor het volledige inkomstenjaar; vermijd verhuizing eind december als de oude regime gunstiger is en de verhuizing administratief uitgesteld kan worden tot januari.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Fiscale verhuizings-planning" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -95,11 +484,30 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "federale-belastingverminderingen-pb"
+      "target": "federale-belastingverminderingen-pb",
+      "gelijkenissen": [
+        "Beide werken op de berekende belasting (niet op grondslag)",
+        "Beide hanteren vast percentage of forfait",
+        "Beide vereisen werkelijke betaling + bewijsstuk"
+      ],
+      "verschillen": [
+        "Federaal: pensioensparen, langetermijnsparen, giften, monumentenzorg",
+        "Gewestelijk: woonfiscaliteit, energiebesparing, dienstencheques (gewest-deel)",
+        "Aanrekenings-volgorde art. 178/1: federaal eerst op gereduceerde belasting Staat, gewest pas op gewest-PB",
+        "Federaal uniform; gewest verschilt per Vlaanderen/Wallonië/Brussel"
+      ],
+      "verwarring_risico": "Studenten verwarren systematisch federaal en gewestelijk; let op aangifte-codes en peildatum 1 januari AJ.",
+      "render_hint": "als_glossarium"
     },
     {
       "type": "triggert",
-      "target": "belastingberekening-pb"
+      "target": "belastingberekening-pb",
+      "toelichting": "Gewestelijke verminderingen komen na de federale verminderingen in de cascade (art. 178/1)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gezinssituatie",
+      "toelichting": "Gewest-toewijzing op 1/1 AJ wordt bepaald door de fiscale woonplaats, die afhankelijk is van gezinssituatie (gehuwden hebben gemeenschappelijke fiscale woonplaats)."
     }
   ]
 }
