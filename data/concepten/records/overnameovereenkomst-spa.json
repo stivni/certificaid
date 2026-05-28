@@ -4,28 +4,30 @@
     "primair": "Overnameovereenkomst (SPA)",
     "afkorting": "SPA",
     "synoniemen": [
-      "share purchase agreement",
-      "asset purchase agreement",
-      "APA",
-      "koop-verkoop-overeenkomst onderneming"
-    ]
+      "Share Purchase Agreement",
+      "Asset Purchase Agreement (APA)",
+      "overnamecontract"
+    ],
+    "vertaling": { "en": "Share Purchase Agreement" }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.V",
-      "3.0.V.A",
-      "3.0.V.B",
-      "3.0.V.D"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.taak.2", "3.0.taak.3", "2.3.III.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/overnameovereenkomst-spa.json",
+      "primary_bronnen": [
+        "CBN-advies 126/15 (aanpassing aan-/verkoopprijs deelneming)",
+        "Burgerlijk Wetboek (koop-verkoop, art. 1582 e.v. oud BW)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,57 +35,317 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit overdracht-onderneming-cluster (skelet-doc regel ~578)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld op basis van CBN-126/15 + algemene M&A-praktijk. Bundle bevatte veel noise (IFRS-3, IAS-32) niet gebruikt."
       }
     ],
     "scope": {
       "in": [
-        "Contractueel instrument dat de overdracht regelt",
-        "Partijen · voorwerp (aandelen of activa) · prijs + prijsaanpassingsmechanisme",
-        "R&W-catalogus (representations & warranties)",
-        "Voorwaarden opschortend/ontbindend · garanties · MAC-clausule",
-        "Post-closing-verplichtingen",
-        "Geschillenbeslechting"
+        "Contractueel instrument dat een overdracht van onderneming regelt",
+        "Hoofdbestanddelen: partijen, voorwerp (aandelen of activa), prijs + prijsaanpassings-mechanisme",
+        "Representations & warranties (R&W) — catalogus van uitspraken die de verkoper waarborgt",
+        "Voorwaarden (opschortend / ontbindend), garanties, MAC-clausule (material adverse change)",
+        "Post-closing-verplichtingen (non-compete, transitie, escrow-vrijgave)",
+        "Geschillenbeslechting (arbitrage / rechtbank, toepasselijk recht)"
       ],
       "out": [
-        {
-          "topic": "Overdracht onderneming — Σ-context",
-          "richting": "moet-verwijzen",
-          "ref": "overdracht-onderneming"
-        },
-        {
-          "topic": "Aandeelhoudersovereenkomsten — raakvlak",
-          "richting": "moet-verwijzen",
-          "ref": "aandeelhoudersovereenkomsten"
-        }
+        { "topic": "Overdracht-onderneming als Sigma-context", "richting": "moet-verwijzen", "ref": "overdracht-onderneming" },
+        { "topic": "Aandeelhoudersovereenkomsten — raakvlak (na overdracht in joint-venture-structuur)", "richting": "moet-verwijzen", "ref": "aandeelhoudersovereenkomsten" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De overnameovereenkomst (Engels Share Purchase Agreement bij aandelenovername, Asset Purchase Agreement bij handelsfonds-overname) is het contractueel kerninstrument dat een overdracht van onderneming regelt. Ze legt vast wie wat aan wie verkoopt, voor welke prijs, onder welke voorwaarden, met welke garanties en wat er gebeurt als de garanties niet kloppen. Het is een gewone koop-verkoop-overeenkomst in burgerlijk recht (oud BW art. 1582 e.v.), maar contractueel sterk uitgebreid omdat het voorwerp — een levende onderneming — veel verborgen risico's draagt die in de basis-koopregels niet zijn voorzien.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk-synthese" },
+            { "type": "advies", "naam": "CBN-advies 126/15", "ref": "aanpassing aan-/verkoopprijs" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De SPA is in praktijk vaak 50 tot 150 paginas lang, met meer dan de helft besteed aan R&W (representations & warranties) en vrijwaring (indemnification). Reden: bij overdracht van een onderneming weet de koper nooit volledig wat hij koopt — er kunnen latente fiscale claims, lopende geschillen, milieuverplichtingen of foutieve cijfers schuilgaan. Het R&W-pakket is de manier waarop de verkoper bevestigt dat 'wat hij toont, klopt' en zich verbindt om schade te dragen indien iets uit zijn waarborgen achteraf onjuist blijkt. De prijsaanpassings-mechanismen (closing accounts of locked-box) zorgen ervoor dat de uiteindelijke prijs overeenstemt met de waarde van de onderneming op closing-datum.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "advies", "naam": "CBN-advies 126/15", "ref": "waarborgen + prijsherziening" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk (omvang en doel SPA)" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom zo'n lange overeenkomst voor een 'gewone' koop-verkoop? Omdat het algemene koop-recht (oud BW) onvoldoende beschermt tegen overdracht-specifieke risico's. Het oud-BW kent vrijwaring voor verborgen gebreken (art. 1641), maar binnen heel beperkte tijdsspanne en alleen voor 'materiele' gebreken. Een latente belastingschuld of een onbestaande klant kwalificeert niet als materieel gebrek in burgerlijk-rechtelijke zin. Vandaar dat partijen alles contractueel inkleden: wat ik garandeer, hoe lang ik daar voor opdraai, tot welke maximumbedrag, en hoe geschillen worden opgelost.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 1641 e.v. (verborgen gebreken)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis SPA-praktijk" }
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "overdracht-onderneming"
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Burgerlijk recht (koop-verkoop, contractsvrijheid art. 5.14 nieuw BW, oud-BW art. 1134 e.v.)"
+      },
+      "voor": [
+        {
+          "tekst": "Elke private M&A-transactie waarbij een onderneming of een deelneming overgaat van de ene partij naar de andere — share-deal, asset-deal, secondary-deal.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beursgenoteerde overnames met openbaar bod — daar gelden specifieke regels van de wet op de openbare overnamebiedingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Domein-afbakening" }]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "voorwerp-prijs",
+        "naam": { "primair": "Voorwerp en prijs" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het voorwerp wordt exact omschreven: het aantal aandelen of de lijst van activa, met identificatie van de doelvennootschap of het over te dragen handelsfonds. De prijs wordt geuit als een bedrag (of een berekenings-formule op closing-datum) plus een aanpassingsmechanisme om te corrigeren voor wijzigingen tussen signing en closing.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
+            },
+            "substantie": {
+              "tekst": "Twee gebruikelijke prijsmechanismen: (1) Closing accounts (Anglo-Saksisch model): de prijs wordt voorlopig vastgesteld bij signing, daarna gecorrigeerd op basis van een effectieve balans op closing-datum (vooral werkkapitaal en netto-schuld). (2) Locked-box (Europees model): de prijs is definitief op basis van een eerdere balans (de 'locked box date'), gekoppeld aan een verbod voor de verkoper om waarde uit de onderneming te halen ('leakage') tussen die datum en closing.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk-onderscheid" }]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "representations-warranties",
+        "naam": { "primair": "Representations & warranties (R&W)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een catalogus van uitspraken die de verkoper bevestigt als juist op signing en typisch herhaalt op closing. Voorbeelden: 'De jaarrekeningen zijn opgesteld in overeenstemming met BE-GAAP en geven een getrouw beeld', 'Er zijn geen lopende belangrijke geschillen', 'Alle vergunningen zijn geldig en in regel', 'Er bestaat geen change-of-control-clausule die door deze transactie wordt getriggerd'. Indien een R&W achteraf onjuist blijkt, kan de koper de verkoper aansprakelijk stellen voor de geleden schade.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 126/15", "ref": "waarborgen werkelijkheid waarderingen" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijwaring-indemnification",
+        "naam": { "primair": "Vrijwaring en beperkingen (caps, baskets, survival)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De aansprakelijkheid van de verkoper voor R&W-schendingen wordt typisch beperkt door: (a) Cap — maximum bedrag waarvoor de verkoper kan worden aangesproken (vaak 10-30% van de aankoopprijs); (b) Basket — drempel waaronder geen claim mogelijk is (de minimis-drempel) en/of de claim slechts geldt boven een bepaalde aggregate threshold; (c) Survival — tijdslimiet binnen welke een claim moet worden gemeld (typisch 12-24 maanden voor business reps, langer voor fiscale en titel-reps); (d) Knowledge qualifiers ('to the knowledge of seller') — beperking tot wat de verkoper wist of redelijkerwijs moest weten.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "opschortende-voorwaarden",
+        "naam": { "primair": "Opschortende voorwaarden (conditions precedent)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Voorwaarden die vervuld moeten zijn vooraleer closing kan plaatsvinden. Klassieke voorbeelden: (a) regelgevende goedkeuringen (mededingingsautoriteit, FSMA bij beursgenoteerde context); (b) instemming van bepaalde tegenpartijen bij change-of-control-clausules; (c) afwezigheid van een MAC (material adverse change) tussen signing en closing; (d) bevestiging dat R&W op closing nog steeds juist zijn ('bring-down').",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "mac-clausule",
+        "naam": { "primair": "MAC-clausule (material adverse change)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een opschortende voorwaarde of ontbindingsgrond die de koper toelaat de transactie af te blazen of de prijs te heronderhandelen als zich tussen signing en closing een materieel nadelige verandering voordoet in de business, financiele positie, vooruitzichten of regelgevende omgeving van de doel. De definitie 'materieel' is sterk onderhandeld — meestal worden externe gebeurtenissen (macroeconomische schokken, oorlogen, pandemie) uitgesloten.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "post-closing",
+        "naam": { "primair": "Post-closing-verplichtingen" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verbintenissen die na closing nog gelden. Typisch: (a) Non-compete — de verkoper verbindt zich om gedurende N jaar (vaak 2-3 jaar) niet te concurreren met de overgedragen activiteit; (b) Non-solicit — geen actief benaderen van werknemers of klanten; (c) Transitie-assistentie — de verkoper helpt de koper met overdracht van kennis en relaties; (d) Escrow-arrangement — een deel van de prijs wordt geblokkeerd op een rekening om eventuele claims onder R&W te dekken (vrijgave na N maanden).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "structuur-spa",
+        "naam": { "primair": "Typische structuur van een SPA" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "De SPA volgt doorgaans een vaste structuur.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+            },
+            "weergaven": [
+              {
+                "type": "stappenlijst",
+                "stappen": [
+                  "1. Partijen en achtergrond (whereas-clauses)",
+                  "2. Definities (lange lijst — bepaalt betekenis in heel het contract)",
+                  "3. Voorwerp en prijs (incl. prijsmechanisme)",
+                  "4. Opschortende voorwaarden voor closing",
+                  "5. Verplichtingen tussen signing en closing (interim covenants)",
+                  "6. Closing-procedure (wat wordt op closing-dag uitgewisseld)",
+                  "7. Representations & warranties (verkoper + koper)",
+                  "8. Vrijwaring en beperkingen (caps, baskets, survival)",
+                  "9. Post-closing-verplichtingen (non-compete, transitie, escrow)",
+                  "10. Geschillenbeslechting + toepasselijk recht + diversen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-verwerking-prijsherziening",
+        "naam": { "primair": "Boekhoudkundige verwerking van prijsherziening" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien R&W-claims leiden tot een prijsherziening: bij de koper wordt de aanschaffingswaarde van de deelneming overeenkomstig aangepast; bij de verkoper wordt de gerealiseerde meerwaarde of minderwaarde aangepast (verhogen of verlagen). Indien de claim leidt tot een vergoeding (niet tot prijsaanpassing), wordt dit als opbrengst of last verwerkt afhankelijk van de afspraak in de overeenkomst.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 126/15", "ref": "boekhoudkundige verwerking prijsherziening" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "R&W lezen als 'algemene goedheid' in plaats van als precieze juridische uitspraken",
+        "verkeerde_assumptie": "R&W zijn standaardformuleringen die je gewoon copy-paste vanuit een precedent.",
+        "kernpunt": "Elke R&W is een precieze juridische verbintenis. 'Knowledge qualifiers' ('to the seller's knowledge') versus 'absolute reps' veranderen de aansprakelijkheid drastisch. Een 'wide' representation ('de jaarrekening is correct in alle materiele opzichten') geeft meer claimruimte dan een 'narrow' rep ('de jaarrekening is opgesteld in overeenstemming met BE-GAAP'). Lees elke woord.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Best practice review" }]
+        }
+      },
+      {
+        "titel": "Escrow vergeten te koppelen aan vrijgave-trigger",
+        "verkeerde_assumptie": "Geld in escrow wordt automatisch na X maanden vrijgegeven aan de verkoper.",
+        "kernpunt": "Escrow-vrijgave wordt typisch gekoppeld aan (a) afwezigheid van pendings claims, (b) afwezigheid van bekendgemaakte schendingen, of (c) eindbalans tussen koper en verkoper. Het mechanisme moet contractueel exact zijn — wie geeft instructie aan de escrow-agent? Wat als beide partijen het oneens zijn?",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Best practice" }]
+        }
+      },
+      {
+        "titel": "Disclosure letter niet correct gebruiken",
+        "verkeerde_assumptie": "De disclosure letter is een formaliteit waarin men 'voor de zekerheid' alles vermeldt.",
+        "kernpunt": "De disclosure letter beperkt de R&W: alles dat in de disclosure letter wordt vermeld, vormt geen schending van een R&W. Een te ruime disclosure letter ondergraaft de bescherming van de koper. Een te beperkte disclosure letter legt de verkoper open voor onnodige claims. Onderhandel met dezelfde zorg als de R&W zelf.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "adviseur-spa",
+      "naam": { "primair": "Accountant als adviseur bij SPA-onderhandeling" },
+      "intro": "De gecertificeerd accountant heeft een rol bij het cijfermatige luik van de SPA: prijsmechanisme, closing accounts, definities van EBITDA en netto-schuld.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "prijsmechanisme-advies",
+              "naam": { "primair": "Advies over prijsmechanisme" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: definieer EBITDA voor de doelvennootschap (normalisaties — eigenaar-bezoldiging, niet-recurrente posten). Stap 2: definieer 'net debt' en 'working capital' (welke items tellen mee, welke niet). Stap 3: stel een referentiebalans op (locked-box) of beschrijf de closing accounts-procedure. Stap 4: definieer 'leakage' bij locked-box (welke uitstromen zijn verboden tussen locked-box-datum en closing). Stap 5: review het R&W-pakket op cijfermatige uitspraken (jaarrekening juist, voorraden gewaardeerd, voorzieningen adequaat).",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk accountant-rol" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "overdracht-onderneming" },
     {
       "type": "vergelijkbaar_met",
-      "target": "aandeelhoudersovereenkomsten"
+      "target": "aandeelhoudersovereenkomsten",
+      "toelichting": "Beide regelen rechten tussen aandeelhouders, maar SPA regelt de eenmalige overdracht, aandeelhoudersovereenkomst regelt het lopende samenleven.",
+      "gelijkenissen": [
+        "Beide zijn contracten tussen aandeelhouders",
+        "Beide bevatten clausules over aandelen, governance en exit"
+      ],
+      "verschillen": [
+        "SPA = transactie-document (one-shot, signing → closing); aandeelhoudersovereenkomst = duurzaam document (loopt zolang partijen aandeelhouder zijn)",
+        "SPA focust op overdracht en R&W; aandeelhoudersovereenkomst focust op governance, blokkeringen, exit-rechten"
+      ]
     }
   ]
 }
