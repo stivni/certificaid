@@ -2,20 +2,15 @@
   "id": "deelneming-financieel-vast-actief",
   "naam": {
     "primair": "Deelneming als financieel vast actief",
-    "synoniemen": [
-      "FVA-deelneming"
-    ]
+    "synoniemen": ["deelneming", "financial fixed asset"],
+    "vertaling": {"en": "participation as financial fixed asset", "fr": "participation — immobilisation financière"}
   },
-  "concept_type": "instrument",
+  "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.C"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.C"],
     "scope": {
       "in": [
         "MAR-klasse 28 — duurzame deelnemingen + LT-vorderingen verbonden partijen",
@@ -24,63 +19,201 @@
         "Onderscheid speculatieve geldbeleggingen (klasse 50-53)"
       ],
       "out": [
-        {
-          "topic": "Eindejaarsverrichtingen (waardering + correcties)",
-          "richting": "moet-verwijzen",
-          "ref": "eindejaarsverrichtingen"
-        },
-        {
-          "topic": "Jaarrekening (presentatie balans)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "IFRS-perspectief",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Eindejaarsverrichtingen (waardering + correcties)", "richting": "moet-verwijzen", "ref": "eindejaarsverrichtingen"},
+        {"topic": "Jaarrekening (presentatie balans)", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "IFRS-perspectief", "richting": "mag-verwijzen", "ref": "ifrs"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/deelneming-financieel-vast-actief.json",
+      "primary_bronnen": ["MAR-KB 21.10.2018 Bijlage 1 — klasse 28", "CBN-advies 126/8 (waardering FVA)", "Verordening (EU) 2023/1803 — IAS 28 + IFRS 9", "Richtlijn 2013/34/EU art. 2 (verbonden onderneming)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Klasse 28 uitgewerkt: deelnemingen + LT-vorderingen verbonden + at-cost vs equity + boeking."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Klasse 28 'financiële vaste activa' (FVA) omvat duurzaam aangehouden aandelen + LT-vorderingen op verbonden ondernemingen. Sub-rubrieken: 280 deelnemingen in verbonden ondernemingen · 281 vorderingen op verbonden ondernemingen · 282 deelnemingen in ondernemingen met deelnemingsverhouding · 283 vorderingen op ondernemingen met deelnemingsverhouding · 284 andere aandelen · 285 andere vorderingen · 286 borgtochten · 288 overige FVA. Begrip 'deelneming': maatschappelijk belang als bedoeld in art. 1:14 WVV — aandelen of effecten met duurzaamheids- of strategisch karakter. 'Verbonden onderneming' = controle, gezamenlijke controle of significante invloed (art. 1:20 WVV).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB 21.10.2018", "ref": "Bijlage 1 klasse 28"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 1:14 + 1:20"}]}
+      },
+      "substantie": {
+        "tekst": "Onderscheid klasse 28 ↔ klasse 51 zit in INTENTIE + DUUR: klasse 28 = strategisch/duurzaam aanhouden om relatie te onderhouden, controle uit te oefenen, of via dividend stabiel rendement te krijgen; klasse 51 = speculatief of liquide-overschot. Waardering Be-GAAP: at-cost (CBN 126/8) — aanschaffingswaarde + eventueel waardevermindering bij duurzame waardedaling. Equity-method (proportioneel aandeel in eigen vermogen dochter) is BeGAAP-vrije keuze in enkelvoudige jaarrekening; verplicht voor geassocieerde deelnemingen in geconsolideerde jaarrekening. IFRS 9 (financiële instrumenten) hanteert reële-waarde-waardering met verwerking via OCI (waardestijging niet via P&L) of via P&L (FVTPL) afhankelijk van business model.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 126/8", "ref": "FVA-waardering"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 9 + IAS 28"}]}
+      },
+      "rationale": {
+        "tekst": "Aparte FVA-rubriek bestaat omdat deelnemingen anders functioneren dan zowel andere vaste activa (gen afschrijving — geen verbruik door tijd) als andere financiële instrumenten (gen direct verkoop — strategisch karakter). Voorzichtigheidsbeginsel verbiedt herwaardering naar boven (geen 'goodwill-creatie'), maar verplicht waardevermindering bij duurzame waardedaling. Voor de stagiair: bij analyse van groep-vennootschappen is FVA + LT-vorderingen op verbonden ondernemingen typisch grote post — vraag altijd transfer-pricing-documentatie en deelnemingen-overzicht.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "boekhouding",
+      "naast_relevant": ["geldbeleggingen-en-liquide-middelen", "consolidatie"],
+      "volgkennis": ["dbi-aftrek", "consolidatie", "groepscontext"]
+    },
+    "subconcepten": [
+      {
+        "id": "deelneming-vs-belegging",
+        "naam": {"primair": "Deelneming vs kortetermijn-belegging — afgrenzing"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "WVV art. 1:14 § 1: 'deelneming' = maatschappelijke rechten in andere onderneming, bestemd om door duurzaam verband bij te dragen tot eigen werkzaamheid. Vermoeden van deelneming (lid 2): aandelenbezit ≥ 10%. Onder 10%: kan deelneming zijn mits aangetoond duurzaam karakter (raad-positie, strategische samenwerking, langetermijn-overeenkomst).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 1:14"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-280-deelnemingen-verbonden",
+        "naam": {"primair": "280 — Deelnemingen in verbonden ondernemingen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verbonden = controle (> 50%) of joint control (= 50%) of significante invloed (≥ 20%). Sub: 2800 aanschaffingswaarde · 2808 herwaarderingsmeerwaarden · 2809 waardeverminderingen (-). Boeking bij aankoop: 2800 D / 55 (bank) C. Bij waardedaling duurzaam: 633 (waardevermindering FVA) D / 2809 C.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "klasse 280"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 1:20 verbonden onderneming"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-aankoop-deelneming",
+              "titel": "Aurelia Holding koopt 60% Zelena Bio voor 1.500.000 EUR",
+              "context": "Strategische deelneming voor verticale integratie.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking aankoop",
+                  "rijen": [
+                    {"rekening": "2800 — Deelnemingen verbonden ond. — aanschaffingswaarde", "debet": 1500000, "credit": null},
+                    {"rekening": "550 — Bank", "debet": null, "credit": 1500000}
+                  ]
+                }
+              ]
             }
           ]
         }
+      },
+      {
+        "id": "klasse-281-lt-vordering-verbonden",
+        "naam": {"primair": "281 — LT-vorderingen op verbonden ondernemingen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Inter-companylening van moeder aan dochter (of omgekeerd) met termijn > 1 jaar. Transfer-pricing: marktconforme rente verplicht voor fiscaal motief (art. 26 WIB92, circulaire 2020/C/35). Disconteringsregel art. 3:45 KB WVV: bij renteloze of laag-rente LT-vordering aan contante waarde.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 26"}, {"type": "circulaire", "naam": "Circulaire 2020/C/35", "ref": "Transfer pricing"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "at-cost-vs-equity",
+        "naam": {"primair": "At-cost vs equity-method"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Be-GAAP standaard = at-cost: aanschaffingswaarde + waardevermindering bij duurzame daling. Geen impact op winst dochteronderneming. IFRS / consolidatie: equity-method (IAS 28 voor geassocieerde deelnemingen + joint ventures) — initieel aan kostprijs, daarna jaarlijks bijgesteld voor aandeel in winst/verlies + ontvangen dividenden. Boeking equity: 280 D / 7591 (aandeel in resultaat verbonden onderneming) C bij positief resultaat.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 28"}, {"type": "cbn", "naam": "CBN-advies 126/8", "ref": "FVA-waardering"}]}
+            }
+          }
+        }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 51 vs 280 verwarren",
+        "verkeerde_assumptie": "Aandelen in een dochter mogen onder 'aandelen 51' staan.",
+        "kernpunt": "Strategische aandelen met deelnemingsverhouding (≥ 10% vermoedelijk, of expliciet duurzaam karakter) horen onder 280-282. Speculatieve aandelen (winstrealisatie korte termijn) → 51. Foutieve rubricering vertekent ratio-analyse (vaste-activa-ratio) en fiscale behandeling (DBI-aftrek alleen voor deelnemingen).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 1:14"}]}
+      },
+      {
+        "titel": "Inter-companylening renteloos boeken",
+        "verkeerde_assumptie": "Tussen moeder en dochter mag de lening renteloos zijn omdat het 'eigen geld' blijft.",
+        "kernpunt": "Transfer-pricing (art. 26 WIB92) eist marktconforme rente — zo niet wordt 'abnormaal voordeel' belast bij debiteur OF rente bij crediteur fictief belast. Documenteer benchmarks (vergelijkbare leningen externe banken). Bij audit-cliënt grote post 281: vraag transfer-pricing-documentatie.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 26"}]}
+      },
+      {
+        "titel": "Waardevermindering = automatisch fiscaal aftrekbaar",
+        "verkeerde_assumptie": "Bij koersdaling beursaandeel in 280: waardevermindering 633 = direct in resultaat én fiscaal aftrekbaar.",
+        "kernpunt": "WIB92 art. 198 7°: waardeverminderingen op aandelen zijn fiscaal NIET aftrekbaar (behalve in specifieke vereffenings-gevallen). Boekhoudkundig wel boeken, fiscaal toevoegen aan verworpen uitgaven. Onder DBI-regime kan meerwaarde wél vrijgesteld zijn — maar minderwaarde niet aftrekbaar (asymmetrie).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198 7°"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
-    },
-    {
-      "type": "triggert",
-      "target": "eindejaarsverrichtingen"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf — deelnemings-beheer"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-fva-register",
+              "naam": {"primair": "Deelnemingen-register bijhouden"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per deelneming: identiteit dochter + % aandelen + aanschaffingsdatum + aanschaffingswaarde + later geboekte meerwaarden/waardeverminderingen + boekwaarde. Bij ontvangen dividend: 750 (financiële opbrengst) D / 55 C. Jaarafsluit-check: vergelijk boekwaarde met aandeel in eigen vermogen dochter (uit dochters JR) — bij duurzame negatieve afwijking → waardevermindering boeken.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "cbn", "naam": "CBN-advies 126/8", "ref": "FVA-waardering"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-fva-waardering",
+              "naam": {"primair": "Waarderings-toets FVA"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per deelneming materieel bedrag: vraag laatste JR + financiële prognose dochter. Vergelijk boekwaarde met aandeel in eigen vermogen (impairment-indicator). Bij niet-genoteerd: due diligence van DCF-business plan. ISA 540 (schattingen). Bij meerderheidsdeelneming: wijs op consolidatieverplichting (art. 1:33 WVV).",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 540", "ref": "Boekhoudkundige schattingen"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-dbi-aftrek",
+              "naam": {"primair": "DBI-aftrek bij dividenden uit deelneming"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Dividenden uit klasse 280-282 deelnemingen kunnen 100% afgetrokken worden van VenB-basis (art. 202-205 WIB92) mits: (a) minimum 10% deelneming OF aanschaffingswaarde ≥ 2.500.000 EUR; (b) houdduur ≥ 1 jaar; (c) onderworpen aan vergelijkbaar VenB-tarief in land dochter (subject-to-tax-vereiste). Onder DBI-aftrek wordt economisch dubbel-belasten van groep-winst vermeden.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 202-205"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "vaste-activa", "toelichting": "Klasse 28 = derde grote FVA-categorie."},
+    {"type": "vergelijkbaar_met", "target": "geldbeleggingen-en-liquide-middelen", "gelijkenissen": ["Beide kunnen aandelen bevatten"], "verschillen": ["Klasse 28 = duurzaam; klasse 51 = speculatief", "Fiscaal: DBI-aftrek alleen voor deelnemingen"]},
+    {"type": "triggert", "target": "eindejaarsverrichtingen", "toelichting": "Jaarlijkse waardering tegen aandeel in EV dochter."},
+    {"type": "vereist", "target": "consolidatie", "toelichting": "Meerderheidsdeelneming triggert consolidatieverplichting."},
+    {"type": "alternatief_referentiestelsel", "target": "ifrs", "toelichting": "IFRS 9 (financial instruments) + IAS 28 (associates) — equity-method standaard."}
   ]
 }

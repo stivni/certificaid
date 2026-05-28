@@ -2,87 +2,222 @@
   "id": "geldbeleggingen-en-liquide-middelen",
   "naam": {
     "primair": "Geldbeleggingen en liquide middelen",
-    "synoniemen": [
-      "liquide middelen",
-      "kas en bank"
-    ]
+    "synoniemen": ["klasse 5"],
+    "vertaling": {"en": "current investments and cash", "fr": "placements de trésorerie et valeurs disponibles"}
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.G"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.G"],
     "scope": {
       "in": [
         "MAR-klasse 5 — paraplu-naam-behouden (NBB-conventie)",
-        "Geldbeleggingen: genoteerd vs niet-genoteerd · termijndeposito's",
-        "Liquide middelen: kas + bank + postcheques",
+        "Geldbeleggingen (50-53): genoteerd vs niet-genoteerd · termijndeposito's",
+        "Liquide middelen (54-58): kas + bank + postcheques",
         "Eigen aandelen via klasse 50",
         "Beleggings-waardevermindering"
       ],
       "out": [
-        {
-          "topic": "Eindejaarsverrichtingen (waardering + correcties)",
-          "richting": "moet-verwijzen",
-          "ref": "eindejaarsverrichtingen"
-        },
-        {
-          "topic": "Jaarrekening (presentatie balans)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "IFRS-perspectief",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Eindejaarsverrichtingen (waardering + correcties)", "richting": "moet-verwijzen", "ref": "eindejaarsverrichtingen"},
+        {"topic": "Jaarrekening (presentatie balans)", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "IFRS-perspectief", "richting": "mag-verwijzen", "ref": "ifrs"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/geldbeleggingen-en-liquide-middelen.json",
+      "primary_bronnen": ["MAR-KB 21.10.2018 Bijlage 1 — klasse 5", "KB 29.04.2019 art. 3:52, 3:53", "CBN-advies 152/1 (deviezenverrichtingen)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Klasse 5 uitgewerkt: 50-53 geldbeleggingen + 54-58 liquide middelen + waarderingsregels."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "MAR-klasse 5 omvat de twee meest liquide categorieën op het actief: (a) geldbeleggingen (50-53) = kortetermijn-beleggingen aangehouden voor speculatief of liquide-overschot beheer — 50 eigen aandelen · 51 aandelen (genoteerd of niet) · 52 vastrentende effecten · 53 termijndeposito's (sub 530 > 1 jaar, 531/532 ≤ 1 jaar). (b) Liquide middelen (54-58) = onmiddellijk beschikbare middelen — 54 te incasseren waarden · 55 kredietinstellingen (giro + bank rekening-courant) · 56 postchecks · 57 kassen. Sub-rekening 8 = geboekte meerwaarden; 9 = waardeverminderingen (-).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB 21.10.2018", "ref": "Bijlage 1 klasse 5"}]}
+      },
+      "substantie": {
+        "tekst": "Onderscheid klasse 5 ↔ klasse 28 (financiële vaste activa) zit in INTENTIE + DUUR: klasse 5 = speculatief of tijdelijk parkeren van overtollige cash; klasse 28 = duurzaam aanhouden van deelneming. Dezelfde aandelen kunnen in beide rubrieken — afhankelijk van bedoeling. Belangrijke wettelijke regels (KB 29.04.2019 art. 3:52-3:53): geldbeleggingen tegen aanschaffingswaarde, waardevermindering verplicht bij duurzame waardedaling, geen herwaardering toegestaan tenzij actieve markt + voorzichtigheid. Eigen aandelen (50) hebben speciale regels — verbod opnemen onder activa indien gehouden tot vernietiging (WVV art. 7:215).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:52-3:53"}]}
+      },
+      "rationale": {
+        "tekst": "De afzonderlijke rubriek 'eigen aandelen' (50) reflecteert het juridisch eigen-vermogens-karakter: bij aanhouden tegen vernietiging is het géén actief maar een EV-correctie. KB 29.04.2019 dwingt tot voorzichtige waardering (geen herwaardering, wel waardevermindering) om winstuitkering op basis van papieren meerwaarde te voorkomen. Voor de stagiair: klasse 5 herken aan onmiddellijke beschikbaarheid + speculatieve/kortetermijn-intentie.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["dubbele-boekhouding", "rekeningstelsel-mar"],
+      "kader": "boekhouding",
+      "naast_relevant": ["deelneming-financieel-vast-actief", "handelsvorderingen"],
+      "volgkennis": ["eindejaarsverrichtingen", "liquiditeits-ratios"]
+    },
+    "subconcepten": [
+      {
+        "id": "klasse-50-eigen-aandelen",
+        "naam": {"primair": "50 — Eigen aandelen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Aandelen die de vennootschap zelf bezit (na inkoop). Gedurende aanhouding: rubriek 500 aanschaffingswaarde + 509 waardevermindering. Bij doel = vernietiging: niet als actief maar afzonderlijk EV-correctie. WVV art. 7:215 stelt strikte voorwaarden (maximaal 20% kapitaal, voldoende uitkeerbare winst, beslissing AV).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "klasse 50"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 7:215"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-51-aandelen",
+        "naam": {"primair": "51 — Aandelen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Aandelen aangehouden als kortetermijn-belegging — niet duurzaam (anders klasse 28). Sub: 510 aanschaffingswaarde + 519 waardevermindering. Genoteerd aandeel: waardevermindering op basis van beurskoers eind boekjaar als lager dan aanschaffingswaarde. Niet-genoteerd: schatting op basis van intrinsieke waarde of meest recente transactie.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:52"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-52-vastrentende-effecten",
+        "naam": {"primair": "52 — Vastrentende effecten"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Obligaties + andere vastrentende effecten aangehouden als kortetermijn-belegging. Actuarieel rendement-aanpak: verschil aanschaffingswaarde ↔ terugbetalingswaarde wordt pro rata in resultaat opgenomen (CBN 148/5). Sub: 520 aanschaffingswaarde + 529 waardevermindering.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 148/5", "ref": "Actuarieel rendement vastrentende effecten"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-53-termijndeposito",
+        "naam": {"primair": "53 — Termijndeposito's"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Cash geblokkeerd op een rekening tegen vooraf vastgelegde looptijd + rente. 530 op meer dan één jaar · 531 op één maand tot één jaar · 532 op ten hoogste één maand.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "klasse 53"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-54-58-liquide-middelen",
+        "naam": {"primair": "54-58 — Liquide middelen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Onmiddellijk beschikbare middelen. 54 te incasseren waarden (cheques in incassoportefeuille) · 55 kredietinstellingen — bank rekening-courant (550-557 per bank) · 56 postchecks · 57 kassen (cash + biljetten). Vreemde valuta tegen koers eind boekjaar (CBN 152/1) — koersverschil naar resultaat.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "klasse 54-58"}, {"type": "cbn", "naam": "CBN-advies 152/1", "ref": "Deviezenverrichtingen"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-omzet-naar-bank",
+              "titel": "Klant betaalt 1.000 EUR op bank",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "rijen": [
+                    {"rekening": "550 — Bank A — rekening-courant", "debet": 1000, "credit": null},
+                    {"rekening": "400 — Klanten", "debet": null, "credit": 1000}
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 5 vs klasse 28 verwarren",
+        "verkeerde_assumptie": "Alle aandelen aangehouden door een vennootschap horen onder klasse 28.",
+        "kernpunt": "Onderscheid op INTENTIE + DUUR. Klasse 28: duurzaam (controle/invloed/strategisch). Klasse 51: kortetermijn-belegging (winst halen uit koers, parkeren cash). Wijziging intentie: overdracht tussen klassen via uitzonderlijke verrichting.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Vreemde-valuta-koers vergeten bij eindejaar",
+        "verkeerde_assumptie": "Bankrekening in USD blijft tegen historische koers staan.",
+        "kernpunt": "CBN 152/1: vreemde-valuta tegoeden worden eind boekjaar omgezet aan slotkoers. Koersverschil → 654 (negatief koersverschil) of 754 (positief koersverschil). Bij rekening in EUR-zone: geen probleem; bij USD/GBP/CHF: jaarlijks adjustment.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 152/1", "ref": "Deviezenverrichtingen"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
-    },
-    {
-      "type": "triggert",
-      "target": "eindejaarsverrichtingen"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf — kasbeheer"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-bankreconciliatie",
+              "naam": {"primair": "Maandelijkse bank-reconciliatie"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per maand: vergelijk saldo 550 (boekhouding) met bankstaat. Identificeer afwijkingen (cheques in transit, niet-geboekte rente, automatische incasso). Maak reconciliatieverslag — verplicht bewijsstuk voor audit. Saldo 57 (kas) telt fysiek na: registreer afwijking (kasverschil) op 658 (uitzonderlijke kost) of 758.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-cash-confirmation",
+              "naam": {"primair": "Bank confirmation + kas-telling"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bank confirmation: direct contact met alle banken voor saldobevestiging + opgave faciliteiten + waarborgen + tekenbevoegdheden. Kas-telling: fysieke tel op balansdatum (of dichtbij + cut-off-procedures). Voor termijndeposito's: bevestiging looptijd + vroegtijdige uitstap-clausules. ISA 505.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 505", "ref": "Externe bevestigingen"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-meerwaarden-beleggingen",
+              "naam": {"primair": "Belasting van meerwaarden + dividenden klasse 5"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Meerwaarden aandelen (klasse 51) → belastbaar tegen 25% VenB (art. 192 WIB92), tenzij vrijstelling DBI-aftrek voor deelnemingen met houdduur en minimum-deelneming. Vastrentende effecten (klasse 52): rente naar 750/751, belastbaar als gewone opbrengst. Dividenden ontvangen: roerende voorheffing 30%, te verrekenen tegen VenB.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 192 + DBI-regime art. 202-205"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "balans", "toelichting": "Vlottende activa — meest liquide categorie."},
+    {"type": "vergelijkbaar_met", "target": "deelneming-financieel-vast-actief", "gelijkenissen": ["Beide kunnen aandelen bevatten"], "verschillen": ["Klasse 5 = kortetermijn-belegging; klasse 28 = duurzaam aanhouden"]},
+    {"type": "triggert", "target": "eindejaarsverrichtingen", "toelichting": "Waardeverminderings-toets + valutaire conversie."}
   ]
 }

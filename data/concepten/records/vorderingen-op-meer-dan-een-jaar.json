@@ -1,21 +1,16 @@
 {
   "id": "vorderingen-op-meer-dan-een-jaar",
   "naam": {
-    "primair": "Vorderingen op meer dan een jaar",
-    "synoniemen": [
-      "LT-vorderingen"
-    ]
+    "primair": "Vorderingen op meer dan één jaar",
+    "synoniemen": ["LT-vorderingen", "langetermijn-vorderingen"],
+    "vertaling": {"en": "non-current receivables", "fr": "créances à plus d'un an"}
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.D"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.D"],
     "scope": {
       "in": [
         "MAR-klasse 29 — vorderingen > 1 jaar",
@@ -24,63 +19,173 @@
         "Cross financiële vaste activa (klasse 28)"
       ],
       "out": [
-        {
-          "topic": "Eindejaarsverrichtingen (waardering + correcties)",
-          "richting": "moet-verwijzen",
-          "ref": "eindejaarsverrichtingen"
-        },
-        {
-          "topic": "Jaarrekening (presentatie balans)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "IFRS-perspectief",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Eindejaarsverrichtingen (waardering + correcties)", "richting": "moet-verwijzen", "ref": "eindejaarsverrichtingen"},
+        {"topic": "Jaarrekening (presentatie balans)", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "IFRS-perspectief", "richting": "mag-verwijzen", "ref": "ifrs"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vorderingen-op-meer-dan-een-jaar.json",
+      "primary_bronnen": ["MAR-KB 21.10.2018 Bijlage 1 — klasse 29", "KB 29.04.2019 art. 3:45", "CBN-advies 137/4 (renteloze LT-vorderingen)", "CBN-advies 137/8 (vordering omgevormd tot LT)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Klasse 29 uitgewerkt: LT-vorderingen + disconteringsvraag + voorbeeld."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Klasse 29 omvat vorderingen op derden met restduur > 1 jaar vanaf balansdatum. Sub-rubrieken: 290 handelsvorderingen op meer dan één jaar · 291 overige vorderingen · 292 te innen wissels · 294/295 borgtochten · 298 geboekte waardeverminderingen (-). Onderscheid met klasse 28 (FVA): klasse 29 = vorderingen op klanten/derden (commercieel of overig); klasse 28 = duurzame deelnemingen + LT-vorderingen op verbonden ondernemingen. Bij herklassering (LT-vordering wordt ≤ 1 jaar): verschuiven naar klasse 40 'vervallend binnen het jaar' bij eindejaars-presentatie.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB 21.10.2018", "ref": "Bijlage 1 klasse 29"}]}
+      },
+      "substantie": {
+        "tekst": "De kerngedachte van rubriek 29 is matching met de balansstructuur: vlottend (≤ 1 jaar, klasse 3-5) versus duurzaam (> 1 jaar, klasse 2). Bij vorderingen ontstaat een specifieke vraag: moet de waarde gediscontered worden naar contante waarde? Art. 3:45 KB WVV antwoordt: ja, bij vorderingen zonder rente of met abnormaal lage rente + looptijd > 1 jaar → boeking aan contante waarde + jaarlijkse rentecomponent in resultaat (CBN 137/4). Bij commercieel-gangbare rente: nominale waarde volstaat. Klassiek voorbeeld: lening aan personeel zonder rente over 5 jaar — actuele waarde berekenen met marktrente.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:45 § 2 lid 1 c"}, {"type": "cbn", "naam": "CBN-advies 137/4", "ref": "Renteloze LT-vorderingen"}]}
+      },
+      "rationale": {
+        "tekst": "De disconteringsregel reflecteert het voorzichtigheidsbeginsel en het tijdsvoorkeurs-principe: 1.000 EUR die je over 5 jaar terugkrijgt is vandaag minder waard dan 1.000 EUR nu. Voor renteloze LT-vorderingen wordt het 'gemiste rendement' (geïmpliceerde rentecomponent) tijdens de looptijd terug opgebouwd via rubriek 75. Dit voorkomt dat de balans gefavoriseerd is door fictief-hoge vorderingen + onmiddellijk-erkend rente-resultaat dat in werkelijkheid over jaren wordt verdiend.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["handelsvorderingen", "rekeningstelsel-mar"],
+      "kader": "boekhouding",
+      "naast_relevant": ["deelneming-financieel-vast-actief"],
+      "volgkennis": ["eindejaarsverrichtingen"]
+    },
+    "subconcepten": [
+      {
+        "id": "klasse-290-handelsvorderingen-lt",
+        "naam": {"primair": "290 — Handelsvorderingen > 1 jaar"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Niet-gebruikelijk in dagelijkse handel, maar kan voorkomen bij langlopende contracten met termijnbetalingen (bv. levering op afbetaling, leveringsovereenkomst met betalingstermijn 18-36 maanden, ICT-implementaties). Bij ontstaan: actief 290 D / 700 (omzet) C. Indien renteloos of laag-rente: disconteren (zie CBN 137/4).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "rubriek 290"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-291-overige-vorderingen-lt",
+        "naam": {"primair": "291 — Overige LT-vorderingen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Niet-commerciële vorderingen > 1 jaar: leningen aan personeel, voorschotten aan bestuurders, vorderingen op fiscus voor recuperatie over meerdere jaren, gestort kapitaal in joint-venture vóór effectieve uitkering.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "rubriek 291"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "discontering-lt-vordering",
+        "naam": {"primair": "Discontering renteloze LT-vordering"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Art. 3:45 § 2 lid 1 c KB WVV: LT-vorderingen zonder rente of met rente lager dan marktrente worden geboekt tegen contante waarde (actuele waarde = nominaal / (1 + i)^n). Verschil nominaal - actuele waarde = nog niet verdiende rente (oprichtingskost-achtige techniek of via 4901 'over te dragen kosten'). Tijdens looptijd: pro rata rente-component naar resultaat (rubriek 7510 'opbrengsten uit vlottende activa' of 7521 specifiek voor LT-vorderingen).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:45 § 2 lid 1 c"}, {"type": "cbn", "naam": "CBN-advies 137/4", "ref": "Renteloze vorderingen"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-renteloze-lening",
+              "titel": "Renteloze lening 10.000 EUR aan personeelslid over 5 jaar (marktrente 4%)",
+              "context": "Actuele waarde = 10.000 / (1,04)^5 = 8.219 EUR. Verschil 1.781 = geïmpliceerde rente.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "(1) Toekenning lening",
+                  "rijen": [
+                    {"rekening": "291 — Overige LT-vorderingen — nominaal", "debet": 10000, "credit": null},
+                    {"rekening": "4901 — Over te dragen rentecomponent (-)", "debet": null, "credit": 1781},
+                    {"rekening": "550 — Bank", "debet": null, "credit": 8219}
+                  ]
+                },
+                {
+                  "type": "boeking",
+                  "titel": "(2) Jaar 1 — pro rata rente in resultaat",
+                  "rijen": [
+                    {"rekening": "4901 — Over te dragen rentecomponent", "debet": 329, "credit": null},
+                    {"rekening": "7510 — Opbrengsten uit vlottende activa (rente)", "debet": null, "credit": 329}
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Discontering vergeten bij renteloze LT-vordering",
+        "verkeerde_assumptie": "Nominale waarde 100.000 EUR over 10 jaar = waardering 100.000 EUR.",
+        "kernpunt": "Art. 3:45 § 2 c KB WVV verplicht discontering bij renteloos of laag-rente + LT > 1 jaar. Nominale waarde overschat actief + verlaagt voorzichtigheidsbeginsel. Toets: zou een derde deze vordering vandaag kopen voor de nominale waarde? Bij rente 0% en looptijd > 1 jaar: nee.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:45 § 2 c"}]}
+      },
+      {
+        "titel": "Klasse 29 vs klasse 28 verwarren",
+        "verkeerde_assumptie": "Alle LT-vorderingen gaan in klasse 29.",
+        "kernpunt": "LT-vorderingen op VERBONDEN ondernemingen (moeder, dochter, zuster, deelneming) gaan onder klasse 28 (financiële vaste activa, sub 283/284). Klasse 29 is voor LT-vorderingen op niet-verbonden derden. Belangrijk voor consolidatie + transfer-pricing-rapportering.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "klasse 28 vs 29"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
-    },
-    {
-      "type": "triggert",
-      "target": "eindejaarsverrichtingen"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-rubricering",
+              "naam": {"primair": "Restduur-toets bij elke vordering"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per vordering bij ontstaan + elk eindejaar: vraag de restduur tot vervaldag. > 1 jaar → klasse 29; ≤ 1 jaar → klasse 40-41 (handel) of klasse 416 (overige). Bij overgang van LT naar KT (vordering nadert vervaldag): herklassering bij volgende balansopstelling.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-discontering-controle",
+              "naam": {"primair": "Discontering-toets bij renteloze LT-vorderingen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Steekproef klasse 29: vraag onderliggend contract op + check rente-clausule. Bij rente 0% of laag (< 50% marktrente): toets actualisatie. Bij ontbreken: aanpassing voorstellen (waardevermindering op nominaal — discontering-saldo).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "balans", "toelichting": "Eind van vaste-activa-blok — boven de splitsing vast/vlottend."},
+    {"type": "vergelijkbaar_met", "target": "handelsvorderingen", "gelijkenissen": ["Beide vorderingen op derden"], "verschillen": ["Klasse 29 > 1 jaar; klasse 40-41 ≤ 1 jaar", "Disconteringsplicht bij LT-renteloos"]},
+    {"type": "triggert", "target": "eindejaarsverrichtingen"}
   ]
 }
