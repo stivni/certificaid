@@ -2,35 +2,33 @@
   "id": "factuur-btw",
   "naam": {
     "primair": "Factuur (BTW)",
-    "synoniemen": [
-      "BTW-factuur",
-      "e-invoice"
-    ]
+    "synoniemen": ["BTW-factuur", "verkoopfactuur", "e-factuur"]
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit",
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.I"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit", "regeling"],
+    "ankers": ["2.4.I"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/factuur-btw.json",
+      "primary_bronnen": [
+        "WBTW art. 53",
+        "WBTW art. 53decies",
+        "WBTW art. 1, 2°",
+        "KB nr. 1 art. 5",
+        "Richtlijn 2006/112/EG art. 233"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:00:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — factuurplicht + verplichte vermeldingen + e-invoicing 2026"}
     ],
     "scope": {
       "in": [
@@ -41,31 +39,41 @@
         "Bewaarplicht en formele voorwaarden voor BTW-aftrek bij ontvanger"
       ],
       "out": [
-        {
-          "topic": "BTW-aftrek vereist correcte factuur",
-          "richting": "moet-verwijzen",
-          "ref": "btw-aftrek"
-        },
-        {
-          "topic": "Opeisbaarheid getriggerd door factuurdatum",
-          "richting": "moet-verwijzen",
-          "ref": "opeisbaarheid-btw"
-        }
+        {"topic": "BTW (algemeen kader)", "richting": "moet-verwijzen", "ref": "btw"},
+        {"topic": "BTW-aftrek bij ontvanger", "richting": "moet-verwijzen", "ref": "btw-aftrek"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (factuur-btw).",
+        "tekst": "De BTW-factuur is het officiële document waarop de leverancier de aan zijn afnemer aangerekende BTW vermeldt en dat als bewijsstuk dient voor het uitoefenen van het aftrekrecht door de afnemer. Sinds 1 januari 2026 is voor B2B-handelingen tussen Belgische belastingplichtigen de gestructureerde elektronische factuur (e-factuur volgens Peppol BIS-norm + EN 16931) de verplichte standaardvorm — de papieren factuur wordt uitzondering.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2bis"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 1, 2°", "context": "Definitie 'elektronische factuur'"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Drie functies tegelijk: (1) commercieel betalingsverzoek; (2) BTW-bewijsstuk — leverancier verwerkt rooster 03/54, afnemer rooster 59; (3) fiscaal bewijs van de transactie voor inkomstenbelasting + boekhoudplicht. Door deze drievoudige functie zijn de inhoudelijke eisen strikt: ontbreekt een verplichte vermelding, dan kan dit gevolgen hebben voor BTW-aftrek bij de ontvanger of beboete worden bij controle. De e-factuur (vanaf 2026) zorgt voor automatische verwerking en realtime cross-check tussen aangiftes.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 53"},
+            {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese drie functies factuur"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De factuur is de hoeksteen van het self-assessment BTW-systeem: zonder dit document kan de fiscus de keten verkoop ↔ aankoop niet cross-checken. De e-invoicing-hervorming is een Europese trend (Italië voorop, België volgt 2026) om carrousel-fraude te bestrijden door realtime data-stromen naar de belastingadministratie. Tegelijk vermindert het de administratieve last voor bedrijven (automatische verwerking).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 233 + art. 217-240"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Beleidscontext e-invoicing"}
           ]
         }
       }
@@ -73,19 +81,262 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "1969",
-        "wettelijke_basis": "Art 53 W.BTW + KB nr 1"
-      }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "btw"
+        "sinds": "2026-01-01",
+        "wettelijke_basis": "WBTW art. 53 §2bis (W 06-02-2024) — verplichte gestructureerde e-facturatie B2B",
+        "toelichting": "Verplichte e-invoicing voor B2B-handelingen tussen Belgische BTW-belastingplichtigen sinds 01-01-2026 (W 06-02-2024). Belangrijkste uitzonderingen: belastingplichtige onderworpen aan kleine-ondernemingsregeling art. 56 (vrijstellingsregeling jaaromzet ≤ 25.000 EUR) en gefailleerde belastingplichtige. Voor B2C blijft de keuze tussen papier en elektronisch (mits aanvaarding klant)."
+      },
+      "trigger_start": [
+        {
+          "tekst": "Factuurplicht ontstaat bij elke levering van goederen of dienst aan een belastingplichtige medecontractant (B2B) en bij sommige handelingen aan particulieren (B2C — bv. nieuw vervoermiddel, vastgoed nieuwbouw, leveringen op afstand).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2"}]
+          }
+        }
+      ]
     },
+    "bouwstenen": [
+      {
+        "id": "termijn-factuur",
+        "naam": {"primair": "Termijn factuur uitreiken"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De factuur moet uitgereikt worden uiterlijk de 15de dag van de maand volgend op de maand waarin de BTW opeisbaar is geworden (= maand van levering of dienst, of maand van betaling bij vooruitbetaling). Voor intracommunautaire leveringen: idem (art. 53 §3).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2 + §3"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "verplichte-vermeldingen",
+        "naam": {"primair": "Verplichte vermeldingen (KB nr. 1 art. 5)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Lijst verplichte vermeldingen op elke BTW-factuur: (1) datum uitreiking; (2) opeenvolgend factuurnummer (eigen reeks); (3) naam/adres/BTW-nummer leverancier; (4) naam/adres/BTW-nummer afnemer (bij B2B); (5) datum belastbaar feit indien verschillend van factuurdatum; (6) beschrijving en hoeveelheid van goederen of voorwerp van de diensten; (7) eenheidsprijs + kortingen; (8) maatstaf van heffing per tarief; (9) BTW-tarief per categorie; (10) totaal BTW; (11) totaal incl. BTW; (12) bij verlegging of vrijstelling: vermelding van het toepasselijke regime ('BTW verlegd', 'vrijgesteld art. 39bis', ...).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5 §1 1°-7°"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "e-factuur-norm",
+        "naam": {"primair": "Gestructureerde e-factuur — Peppol BIS / EN 16931"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vanaf 2026: B2B-facturen tussen Belgische belastingplichtigen moeten gestructureerd elektronisch worden uitgereikt en ontvangen via het Peppol-netwerk (Belgisch standaardkanaal). Formaat: UBL/Peppol BIS Billing 3.0, conform Europese normen EN 16931-1 (semantiek) + CEN/TS 16931-2 (syntaxis). Een PDF op e-mail = GEEN gestructureerde e-factuur (geen machinaal verwerkbaar). Software-pakketten verzorgen aansluiting via Peppol-access points.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2bis"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "creditnota",
+        "naam": {"primair": "Creditnota — correctie van een factuur"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een creditnota (verbeteringsstuk) wijzigt of annuleert een oorspronkelijke factuur: bij retour van goederen, prijsvermindering achteraf, factuur-aanvulling, fout. Vereisten: zelfde formaat als de oorspronkelijke factuur (sinds 2026 ook e-factuur als de oorspronkelijke dat was), expliciete verwijzing naar de oorspronkelijke factuur, datum + nummer, en omkering van bedragen (negatieve bedragen of credit-aanduiding). BTW-effect: bij de leverancier rooster 48 (creditnota op uitgaande); bij de afnemer rooster 64 (creditnota op aankoop) — beide doen de oorspronkelijke aftrek of belastingschuld omkeren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2 lid 3 ('document dat wijzigingen aanbrengt geldt als factuur')"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewaarplicht",
+        "naam": {"primair": "Bewaarplicht facturen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingplichtigen moeten alle uitgaande en inkomende facturen bewaren gedurende 10 jaar (algemene fiscale bewaartermijn art. 60 WBTW + art. 315 WIB92). Elektronische facturen mogen elektronisch bewaard, mits authenticiteit van de oorsprong, integriteit van de inhoud en leesbaarheid gewaarborgd (art. 233 Richtlijn 2006/112). Bij controle moet de belastingplichtige de facturen onmiddellijk kunnen voorleggen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 60"},
+                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 233 + art. 244-247"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-factuur-standaard",
+        "titel": "Standaard B2B-factuur 21 %",
+        "context": "Aurelia Holding NV (BTW BE0123.456.789) factureert aan Zelena Bio NV (BTW BE0987.654.321) op 12 maart 2026: 5 software-licenties à 1.000 EUR netto = 5.000 EUR.",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Factuur 2026-0034 — verplichte vermeldingen",
+            "rijen": [
+              "Datum uitreiking: 12 maart 2026",
+              "Factuurnummer: 2026-0034",
+              "Leverancier: Aurelia Holding NV — BTW BE0123.456.789 — Adres: ...",
+              "Afnemer: Zelena Bio NV — BTW BE0987.654.321 — Adres: ...",
+              "Datum belastbaar feit: 10 maart 2026 (leveringsdatum)",
+              "Beschrijving: 5 × Softwarelicentie ABC, jaarabonnement",
+              "Eenheidsprijs: 1.000 EUR — Hoeveelheid: 5",
+              "Maatstaf van heffing 21 %: 5.000 EUR",
+              "BTW 21 %: 1.050 EUR",
+              "Totaal te betalen: 6.050 EUR",
+              "Vermelding regime: standaardregime BTW"
+            ]
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "kb", "naam": "KB nr. 1", "ref": "art. 5 §1"}]
+        }
+      },
+      {
+        "id": "voorbeeld-creditnota",
+        "titel": "Creditnota wegens retour",
+        "context": "Zelena Bio NV retourneert 2 van de 5 licenties uit voorbeeld hierboven. Aurelia maakt creditnota.",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Creditnota 2026-CN-005",
+            "rijen": [
+              "Datum uitreiking: 25 maart 2026",
+              "Nummer: 2026-CN-005",
+              "Verwijzing naar oorspronkelijke factuur: 2026-0034 dd 12-03-2026",
+              "Reden: retour 2 licenties",
+              "Maatstaf van heffing: -2.000 EUR (21 %)",
+              "BTW 21 %: -420 EUR",
+              "Totaal: -2.420 EUR"
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking bij Aurelia (leverancier)",
+            "rijen": [
+              {"rekening": "451 — Te betalen BTW", "debet": 420, "credit": null, "omschrijving": "Vermindering verschuldigde BTW (rooster 48)"},
+              {"rekening": "70 — Omzet", "debet": 2000, "credit": null, "omschrijving": "Vermindering omzet"},
+              {"rekening": "400 — Handelsdebiteur Zelena", "debet": null, "credit": 2420, "omschrijving": "Verminderde vordering"}
+            ]
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2 lid 3"},
+            {"type": "kb", "naam": "KB 21-10-2018 (MAR)", "ref": "Klasse 4 — rekeningen 400 + 451"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "PDF op e-mail = e-factuur",
+        "verkeerde_assumptie": "'Ik stuur mijn factuur per e-mail als PDF — dat is een elektronische factuur sinds 2026.'",
+        "kernpunt": "Sinds 2026 vereist B2B-tussen-Belgische-belastingplichtigen een GESTRUCTUREERDE e-factuur (machinaal verwerkbaar UBL/Peppol-formaat via Peppol-netwerk). Een PDF op e-mail is GEEN gestructureerde e-factuur. Boete + verlies aftrekrecht mogelijk. Software aansluiten op Peppol is nodig.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2bis"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 1, 2°"}
+          ]
+        }
+      },
+      {
+        "titel": "Verlegging vergeten te vermelden",
+        "verkeerde_assumptie": "Bij IC-levering of B2B-bouwsector volstaat de factuur zonder BTW.",
+        "kernpunt": "Bij elke verlegging moet de factuur expliciet de vermelding bevatten: 'BTW verlegd' (bij IC-levering: 'Vrijstelling art. 39bis WBTW'; bij bouwwerk in onroerende staat: 'BTW verlegd — medecontractant'). Ontbreekt de vermelding, dan riskeert de leverancier zelf de BTW te moeten betalen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5 §1, 7°"}
+          ]
+        }
+      },
+      {
+        "titel": "Factuur 'corrigeren' door overschrijven of een nieuwe te maken zonder verwijzing",
+        "verkeerde_assumptie": "Een foute factuur kan ik gewoon weggooien en een nieuwe maken.",
+        "kernpunt": "Een uitgereikte factuur kan enkel gewijzigd worden via een verbeteringsstuk (creditnota) dat expliciet en ondubbelzinnig verwijst naar de oorspronkelijke factuur. Een tweede factuur zonder verwijzing leidt tot dubbele BTW-verplichting voor de leverancier (art. 51 §1, 3° WBTW: 'wie BTW vermeldt op factuur, is BTW schuldig').",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2 lid 3"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 51 §1, 3°"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "btw"
+      "id": "kantoor-facturatie-client",
+      "naam": {"primair": "Kantoor adviseert cliënt over facturatie"},
+      "intro": "De accountant bij invoering en bewaking van het facturatie-proces van de cliënt.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "implementatie-e-invoicing",
+              "naam": {"primair": "Implementatie e-invoicing 2026 — checklist"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stappen voor cliënt: (1) software-keuze met Peppol-aansluiting (gangbare pakketten: Exact, Yuki, Octopus); (2) registratie op Peppol-access point; (3) configuratie verplichte vermeldingen volgens KB nr. 1 art. 5; (4) test-runs met cliënten en leveranciers; (5) archivering-proces e-facturen (10 jaar). Begeleiding: aandachtspunt — kleine-onderneming-regeling-cliënten zijn vrijgesteld van e-invoicing maar moeten wel kunnen ontvangen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 53 §2bis"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Implementatie-checklist e-invoicing"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "factuur-validatie",
+              "naam": {"primair": "Validatie ingaande facturen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke ingaande factuur: checken op verplichte vermeldingen vóór codering. Ontbrekend BTW-nummer afnemer, factuurdatum, of regime-vermelding = retour aan leverancier voor correctie. Eventuele cross-check BTW-nummer via VIES voor IC-aankopen. Bij e-factuur: automatische validatie door software maar kantoor blijft eindverantwoordelijk.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardpraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "btw"},
+    {"type": "vereist", "target": "btw", "toelichting": "Factuur is uitvoerend instrument voor het BTW-systeem (factureren van verschuldigde BTW)."},
+    {"type": "triggert", "target": "btw-aftrek", "toelichting": "Regelmatige factuur is voorwaarde voor uitoefening van aftrekrecht bij ontvanger (KB nr. 3 art. 3)."}
   ]
 }
