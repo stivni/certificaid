@@ -5,27 +5,42 @@
     "afkorting": "SHA",
     "synoniemen": [
       "shareholders agreement",
+      "SHA",
       "syndicaatsovereenkomst",
-      "aandeelhouderspact"
-    ]
+      "aandeelhoudersovereenkomst"
+    ],
+    "vertaling": {
+      "fr": "pacte d'actionnaires"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit"
+      "regeling"
     ],
     "ankers": [
-      "3.0.VI",
-      "3.0.VI.A",
-      "3.0.VI.B",
-      "3.0.VI.C",
-      "3.0.VI.D"
+      "3.0.IV.C"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aandeelhoudersovereenkomsten.json",
+      "primary_bronnen": [
+        "WVV art. 5:34",
+        "WVV art. 5:62",
+        "WVV art. 5:155",
+        "WVV art. 7:79",
+        "WVV art. 7:80",
+        "oud BW art. 1382",
+        "nieuw BW art. 6.4",
+        "BW art. 1142"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,7 +48,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~868)"
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WVV art. 5:34/5:62/5:155 + gemeen contractenrecht). Geen extra MCP-calls."
       }
     ],
     "scope": {
@@ -71,37 +93,117 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een aandeelhoudersovereenkomst (SHA — Shareholders Agreement) is een privaatrechtelijk contract tussen twee of meer aandeelhouders van eenzelfde vennootschap waarin zij afspraken maken over de uitoefening van hun aandeelhoudersrechten — typisch over (a) controle en stemcoördinatie, (b) overdracht en exit van aandelen, (c) board-vertegenwoordiging, (d) winstuitkering en dividend-beleid, (e) vetorechten en bijzondere meerderheden. De SHA is een aanvulling op de statuten en het WVV — geen vervanging. Bindingskracht beperkt tot ondertekenaars (relativiteit van het contract, art. 1165 oud BW / 5.103 nieuw BW); de vennootschap is in principe geen partij tenzij ze meetekent. Aanvaard door WVV art. 5:34 (BV) en 7:79-7:80 (NV) — stemovereenkomsten zijn uitdrukkelijk geldig binnen bepaalde grenzen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:34" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:79" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:80" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De SHA is het 'tweede leven' van vennootschapsrecht buiten de statuten. Voordeel: privacy (geen publicatie in KBO, ondertegenstelbaar voor derden) en flexibiliteit (kan gedetailleerder zijn dan statuten kunnen). Nadeel: relativiteit — geen tegenstelbaarheid aan derde verkrijger zonder kennisgeving; geen rechtstreekse 'reële' uitvoering (art. 1142 oud BW / 5.85 nieuw BW: niet-nakoming verbintenis = schadevergoeding, geen automatische dwang). Bij belangrijke clausules (voorkooprecht, lock-up) verkiest men daarom dubbele verankering: statutair (tegenwerpelijk aan iedereen, ook nieuwe aandeelhouders) + contractueel (bijkomende sancties bv. boetebeding, gedwongen verkoop). Common law-clausules zoals drag-along, tag-along, leaver-clausules zijn vrijelijk in Belgisch recht inzetbaar mits respect voor openbare orde en goede zeden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW", "ref": "art. 1142 (oud) / 5.85 (nieuw)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese SHA-positionering in Belgisch recht" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom een SHA naast de statuten? (1) Privacy — statuten worden gepubliceerd via KBO; SHA blijft onder partijen. (2) Detailniveau — SHA kan complexere voorwaarden bevatten (tag-along percentages, leaver-prijsformules) die de statuten conceptueel niet vatten. (3) Tijdelijke afspraken — SHA's hebben vaak een looptijd (5-10 jaar); statuten zijn permanent tot wijziging. (4) Bilateraal versus erga omnes — SHA bindt alleen ondertekenaars; statuten binden ook nieuwe aandeelhouders. (5) Sancties — SHA kan boetes en gedwongen verkoop bevatten die statutair moeilijker te schrijven zijn.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese voordeel-nadeel statuten vs SHA" }
           ]
         }
       }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "aandeel",
+        "algemene-vergadering"
+      ],
+      "kader": "aandeel",
+      "volgkennis": [
+        "overdracht-onderneming"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 5:34 (BV) · 7:79-7:80 (NV) + gemeenrechtelijk contractenrecht (boek 5 + 6 BW)",
+        "toelichting": "Geldig in beginsel sinds altijd; gecodificeerd onder WVV met expliciete erkenning stemovereenkomsten."
+      },
+      "voor": [
+        {
+          "tekst": "Typisch ingezet bij: (a) joint ventures (verdeling 50/50 of 60/40, deadlock-mechanismen); (b) familievennootschappen (afspraken tussen generaties); (c) start-ups met investeerders (preferent dividend, anti-dilution, exit-rechten); (d) management buy-out / leveraged buy-out (rol management vs financier); (e) opvolging-overdracht (gefaseerde overname met earn-out).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk SHA-use cases" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Geldigheidsvoorwaarden contract (art. 5.27 nieuw BW): (1) toestemming partijen; (2) bekwaamheid; (3) bepaald voorwerp; (4) geoorloofde oorzaak. Specifiek voor SHA-stemovereenkomsten (art. 5:34 BV / 7:80 NV WVV): (a) beperkt in de tijd (anders nietigheid wegens onbepaalde looptijd); (b) verenigbaar met vennootschapsbelang; (c) niet in strijd met WVV-bepalingen (bv. NIET 'altijd voor goedkeuring jaarrekening stemmen' — schending wettelijke beoordelingsplicht).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:34" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:80" },
+              { "type": "wettekst", "naam": "BW", "ref": "art. 5.27 (nieuw)" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Nietige SHA-clausules: (a) stemverbintenissen voor onbepaalde tijd of voor onbeperkte materies (art. 7:80 §2); (b) clausule die wettelijke minderheidsrechten uitschakelt (art. 2:60 minderheidsvordering bv. niet contractueel weg te bedingen); (c) clausules in strijd met goede zeden of openbare orde; (d) verbintenissen die de bestuursonafhankelijkheid van bestuurders ondermijnen (bv. bestuurder die zich engageert 'tegen het vennootschapsbelang' te stemmen — nietig).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:80 §2" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Sancties bij schending SHA: meestal contractuele schadevergoeding (art. 1142 oud BW); slechts uitzonderlijk gedwongen uitvoering (verkoop aandelen aan koper indien gerechtelijke vordering binnen redelijke termijn). Verkrijger te goeder trouw die niet wist van SHA-beperking is in principe beschermd — daarom de gelaagde aanbeveling: dubbele verankering statutair + contractueel + neerlegging SHA-uittreksel in aandeelhoudersregister voor 'kennis-fictie'.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "BW", "ref": "art. 1142" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
         "id": "stand-stillclausule",
         "naam": {
-          "primair": "Stand-stillclausule"
+          "primair": "Stand-stillclausule (lock-up)"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — overdrachtbeperking gedurende een bepaalde termijn (lock-up).",
+            "tekst": "Verbintenis van een aandeelhouder om gedurende een bepaalde periode (typisch 3-7 jaar) zijn aandelen NIET over te dragen, te verpanden of te bezwaren. Doel: rust in aandeelhouderschap, vermijden 'free riders' die mee profiteren van waardestijging en dan vroegtijdig uitstappen, voldoende horizon voor strategische beslissingen.\n\n**Uitwerking**:\n- Looptijd: noodzakelijk bepaald (art. 1129 oud BW); typisch 3-7 jaar; oneindige duur = nietigheid.\n- Uitzonderingen vaak voorzien: schenking aan eerste-graads-familie, overdracht binnen consortium, overlijden, gedwongen uitvoering door schuldeisers.\n- Sancties: forfaitaire boete (X% van transactieprijs) + verplichting tot herstel (verkoper moet aandelen terugkopen).\n- Combinatie met voorkooprecht: lock-up gevolgd door voorkooprecht is klassieke twee-staps-bescherming.\n\n**Praktische tip**: noteer in aandeelhoudersregister 'aandelen onderworpen aan lock-up SHA dd. xx-xx-xxxx tot xx-xx-xxxx' — verschaft kennis aan nieuwe verkrijgers en versterkt afdwingbaarheid.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:62" },
+                { "type": "wettekst", "naam": "BW", "ref": "art. 5.27 (nieuw)" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke lock-up-praktijk" }
               ]
             }
           }
@@ -110,24 +212,17 @@
       {
         "id": "voorkooprecht-sha",
         "naam": {
-          "primair": "Voorkooprecht (SHA)",
-          "synoniemen": [
-            "right of first refusal",
-            "ROFR"
-          ]
+          "primair": "Voorkooprecht (SHA) — Right of First Refusal (ROFR)"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — contractueel voorrang bij verkoop aan derden; niet hetzelfde als wettelijk voorkeurrecht bij kapitaalverhoging.",
+            "tekst": "Contractueel recht van bestaande aandeelhouders om voorrang te krijgen wanneer een mede-aandeelhouder zijn aandelen wil verkopen. Mechaniek typisch:\n\n1. Verkopende aandeelhouder ontvangt bod van derde partij X met prijs P.\n2. Verkoper notificeert mede-aandeelhouders: 'derde X biedt P voor mijn aandelen — wenst u voorkoop?'\n3. Mede-aandeelhouders hebben een termijn (typisch 15-30 dagen) om mee te delen of ze de aandelen aan dezelfde voorwaarden willen overnemen.\n4. Bij uitoefening voorkoop: aandelen gaan naar mede-aandeelhouders pro rata of volgens afgesproken verdeelsleutel.\n5. Bij geen-uitoefening: verkoper mag verkopen aan X aan dezelfde of betere voorwaarden binnen bepaalde termijn.\n\n**Verschil met wettelijk voorkeurrecht (art. 5:128/7:188)**: voorkeurrecht bij uitgifte NIEUWE aandelen (kapitaalverhoging); voorkooprecht SHA bij verkoop BESTAANDE aandelen aan derde. Verschillende mechaniek, ander toepassingsgebied.\n\n**Aanvullende varianten**:\n- *Right of First Offer (ROFO)*: verkoper moet eerst zijn aandelen aanbieden aan mede-aandeelhouders aan een prijs die HIJ bepaalt; pas indien afgewezen mag hij aan derden verkopen aan minimaal dezelfde prijs.\n- *Tag-along*: meerderheidsaandeelhouder die verkoopt, moet ook minderheid laten mee verkopen aan dezelfde prijs.\n- *Drag-along*: meerderheidsaandeelhouder die verkoopt kan minderheid VERPLICHTEN mee te verkopen aan dezelfde prijs.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:62" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkdomein SHA-clausules" }
               ]
             }
           }
@@ -136,20 +231,17 @@
       {
         "id": "exit-clausule",
         "naam": {
-          "primair": "Exit-clausule"
+          "primair": "Exit-clausule (uitstapmechanismen)"
         },
-        "bouwsteen_type": "mechanisme",
+        "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — drag-along / tag-along / put-call-opties bij uittreding van aandeelhouder.",
+            "tekst": "Contractuele bepalingen die regelen onder welke omstandigheden een aandeelhouder zijn aandelen kan of moet verkopen aan de andere(n). Typische varianten:\n\n**Put-optie (verkooprecht)**: aandeelhouder X heeft recht zijn aandelen te verkopen aan Y aan een vooraf bepaalde prijs of formule, bij triggers zoals: overlijden, arbeidsongeschiktheid, exit, change of control, dispute.\n\n**Call-optie (kooprecht)**: omgekeerd, Y heeft recht aandelen X te kopen.\n\n**Leaver-clausules** (typisch in start-ups voor managers-aandeelhouders):\n- *Good leaver*: bij overlijden, ziekte, ontslag zonder fout → aandelen aan 'fair market value'.\n- *Bad leaver*: bij ontslag wegens fout, niet-naleving non-compete → aandelen aan boekwaarde (laag) of zelfs 0,01 EUR (extreem geval).\n\n**Russian Roulette / Texas Shoot-out** (bij deadlock 50/50): aandeelhouder A maakt aandeelhouder B een prijsbod voor de helft van de aandelen; B kiest: ofwel verkoopt aan A aan die prijs, ofwel koopt van A aan dezelfde prijs. Beslecht deadlock door af te dwingen dat de bieder een eerlijke prijs voorstelt.\n\n**Earn-out**: prijs gedeeltelijk gekoppeld aan toekomstige prestaties (typisch overdracht onderneming met behoud verkoper als manager).\n\n**Statutaire uittreding BV**: art. 5:154 WVV — kan ook geïmplementeerd worden in SHA voor extra detail.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:154" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard exit-clausules" }
               ]
             }
           }
@@ -163,15 +255,12 @@
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — waarborg op zetels in de raad van bestuur via SHA.",
+            "tekst": "Afspraken over hoeveel zetels in het bestuursorgaan elke aandeelhouder of -groep krijgt. Typisch:\n\n- Investeerder met 30% krijgt 1 zetel op 5 (in plaats van 0 die hij anders bij gewone meerderheidsbeslissing zou hebben).\n- Familie-aandeelhouders A en B krijgen 2 zetels elk; investeerder C krijgt 1 zetel + observerrol.\n- Onafhankelijk bestuurder benoemd door beide partijen samen — vaak voor deadlock-vermijding.\n\n**Beperking**: het bestuur is volgens WVV onafhankelijk — een bestuurder mag zich niet contractueel verplichten om altijd 'volgens instructies van X' te stemmen (schending fiduciaire plicht jegens vennootschap). Wel geldig: aandeelhouders verbinden zich op AV te stemmen voor benoeming X als bestuurder. Eens benoemd moet X autonoom oordelen.\n\n**Sancties bij schending**: ontslag van overeenkomstig benoemde bestuurder door tegenpartij is door AV mogelijk (gewone meerderheid art. 7:73 §4) — SHA kan voorzien in compensatie (schadevergoeding) voor dat ontslag.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:51", "context": "Bestuurdersaansprakelijkheid jegens vennootschap = onverzoenbaar met 'altijd-volgens-instructies'-verbintenis" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard board-representation-clausule" }
               ]
             }
           }
@@ -180,39 +269,208 @@
       {
         "id": "controle-verwerving",
         "naam": {
-          "primair": "Controle-verwerving (stemcoördinatie)"
+          "primair": "Controle-verwerving (stemcoördinatie / syndicaatsovereenkomst)"
         },
-        "bouwsteen_type": "mechanisme",
+        "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — stemgedrag-coördinatie / syndicaatsovereenkomst.",
+            "tekst": "Stemovereenkomst tussen meerdere aandeelhouders om hun stemmen gezamenlijk uit te oefenen, vaak om in concert controle te verwerven of te bewaren. Expliciet erkend door art. 5:34 BV / 7:79-7:80 NV WVV.\n\n**Geldigheidsvoorwaarden** (art. 7:80 §2 WVV):\n1. **Beperkt in de tijd** — vaste looptijd, niet 'onbeperkt'. Typisch 5-10 jaar.\n2. **Niet in strijd met vennootschapsbelang** — een afspraak om systematisch tégen het belang van de vennootschap te stemmen is nietig.\n3. **Verenigbaar met WVV-bepalingen** — bv. niet contractueel afzien van minderheidsvordering (art. 2:60).\n\n**Praktische toepassing**:\n- Twee kleine aandeelhouders A (15%) en B (10%) verbinden zich gezamenlijk te stemmen — combineren 25% en kunnen daardoor statutenwijziging (75%-drempel) blokkeren.\n- Familievennootschap waar 3 broers/zussen elk 20% hebben + niet-familie investeerder 40%: 3 familie-leden tekenen syndicaatsovereenkomst om in concert te stemmen → 60% controle als blok.\n\n**Cassatie + rechtspraak**: niet-naleving = schadevergoeding (art. 1142 oud BW); reële uitvoering (= het feit dwingen dat de afvallige aandeelhouder alsnog volgens afspraak stemt) is in beginsel niet mogelijk maar uitzonderlijk wel via kort geding-bevel voor toekomstige stemmingen.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:34" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:80" },
+                { "type": "wettekst", "naam": "BW", "ref": "art. 1142" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dubbele-verankering",
+        "naam": {
+          "primair": "Dubbele verankering — statuten + SHA"
+        },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Beste praktijk voor kritieke clausules (lock-up, voorkooprecht, drag-along, tag-along): verankeren in zowel de statuten als in een SHA tussen aandeelhouders.\n\n**Voordeel statutair**:\n- Erga omnes binding — geldt voor elke aandeelhouder, ook nieuwe verkrijgers.\n- Inschrijving in KBO = openbaarheid.\n- Bij overdracht in strijd met statutaire clausule: nietigheid mogelijk.\n\n**Voordeel SHA**:\n- Detailniveau (formules, drempels, sancties).\n- Privacy — niet in KBO.\n- Specifieke boetes en uitvoering-clausules.\n\n**Combinatie**: statuten verankeren het PRINCIPE ('overdracht onderworpen aan voorkooprecht van bestaande aandeelhouders'); SHA werkt de UITVOERING uit (procedure, termijnen, prijsformule, sancties).\n\nBij elke nieuwe aandeelhouder: meteen laten meetekenen op SHA (de 'adherence-clausule' — bestaande aandeelhouders maken acceptatie SHA voorwaarde voor verkoopgoedkeuring).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beste praktijk SHA-statuten-combinatie" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-sha-startup",
+        "titel": "Start-up SHA — founders + VC-investeerder",
+        "context": "Start-up BV Techo: founders A en B elk 40% (= 800 aandelen elk); VC-investeerder C 20% (= 400 aandelen) na series A van 500.000 EUR. SHA wordt opgesteld om de relatie te kaderen.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Belangrijkste SHA-clausules**:\n\n1. **Lock-up**: founders A en B verbinden zich 4 jaar lang hun aandelen niet over te dragen. Uitzonderingen: schenking aan partner/kinderen, overlijden, ontslag (zie leaver).\n\n2. **Vesting-clausule** (specifiek startup): founders 'verdienen' hun aandelen over 4 jaar — 25% na 1 jaar 'cliff', dan maandelijks pro rata. Bij vroegtijdig vertrek (bad leaver) worden niet-gevestigde aandelen aan 0,01 EUR ingekocht door vennootschap.\n\n3. **Voorkooprecht / ROFR**: bij verkoop aan derde, eerst aanbieden aan andere ondertekenaars pro rata.\n\n4. **Tag-along**: indien A of B verkoopt aan derde X meer dan 25% van zijn aandelen, mag VC-investeerder C mee verkopen aan dezelfde prijs pro rata.\n\n5. **Drag-along**: bij verkoop van ≥ 75% van de vennootschap aan een externe overnemer, kunnen de meerderheidsaandeelhouders de minderheid VERPLICHTEN mee te verkopen aan dezelfde prijs (vermijdt minderheid-blokkering bij exit).\n\n6. **Board-vertegenwoordiging**: raad van bestuur 5 leden — A en B elk 2 zetels, VC-investeerder 1 zetel + observerrol bij audit-vragen.\n\n7. **Anti-dilution**: VC-investeerder krijgt bij latere kapitaalverhoging tegen LAGERE prijs dan zijn instap (= 'down round'), compenserende uitgifte gratis aandelen ('full ratchet' of 'weighted average').\n\n8. **Preferred dividend**: VC krijgt eerst zijn 5% rendement op de inbreng (500.000 × 5% = 25.000 EUR/jaar) vooraleer A en B dividenden krijgen.\n\n9. **Looptijd SHA**: 7 jaar of tot exit (IPO of verkoop > 80%).\n\n10. **Sancties**: bij schending — boete 25% van transactiewaarde + verplichting tot herstel.\n\n**Dubbele verankering**: clausules 3, 4, 5 ook in statuten opgenomen voor tegenwerpelijkheid; gedetailleerde uitvoering blijft in SHA."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard startup-SHA-clausules" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-stand-still-familie",
+        "titel": "Familievennootschap — stand-stillclausule bij overdracht",
+        "context": "BV Familieholding: ouder V draagt 60% van zijn 600 aandelen over aan zijn 3 kinderen K1, K2, K3 (200 aandelen elk). V wil vermijden dat één kind binnen 5 jaar zijn aandelen aan een buitenstaander verkoopt.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Stand-stillclausule SHA**:\n\n```\nArt. 4 — Stand-still\n4.1 K1, K2 en K3 verbinden zich gedurende een periode van 5 jaar vanaf de datum van overdracht (1 juli 2026 tot 30 juni 2031) hun aandelen NIET over te dragen aan personen buiten de familie [V, K1, K2, K3 en hun eerste-graads-afstammelingen].\n4.2 Uitzonderingen toegelaten zonder voorafgaande toestemming: schenking aan partner/kinderen, overlijden, gedwongen overdracht door schuldeisers met voorafgaande aankondiging.\n4.3 Bij schending: forfaitaire boete 50% van transactiewaarde + verplichting tot terugkoop door overige familieleden aan dezelfde prijs.\n```\n\n**Dubbele verankering statuten**: art. 8 statuten BV Familieholding: 'Overdracht van aandelen aan personen buiten de familie [V, K1, K2, K3, hun afstammelingen] vereist goedkeuring van de andere familie-aandeelhouders. Statutair overdrachtsverbod gedurende 5 jaar vanaf overdrachtsdatum.'\n\n**Effect**: indien K1 toch wil verkopen aan investeerder X binnen die 5 jaar:\n- Statutair: overdracht is nietig wegens niet-naleving statutaire goedkeuringsregel.\n- Contractueel SHA: K1 betaalt 50% boete + moet aandelen terugbieden aan K2+K3.\n\n**Boekhoudkundige impact**: stand-still heeft geen directe boekhoudkundige impact (geen vermogensoverdracht); wel relevant voor waardebepaling bij latere overdracht (lock-up verlaagt liquiditeit en dus waarde — discount typisch 15-25%)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:62" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Familievennootschap-stand-still" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-voorkooprecht-uitwerking",
+        "titel": "Voorkooprecht (ROFR) — concrete uitwerking",
+        "context": "BV Trio: aandeelhouders A (40%), B (35%), C (25%). SHA bevat voorkooprecht (ROFR): bij verkoop aan derde moeten aandelen eerst worden aangeboden aan andere ondertekenaars pro rata van hun bestaand belang. C wil zijn 250 aandelen verkopen aan derde X voor 1.000 EUR/aandeel = 250.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — C notificeert A en B per aangetekende brief: 'derde X biedt 250.000 EUR voor mijn 250 aandelen — wenst u voorkoop?'",
+              "Stap 2 — termijn voor antwoord: 30 dagen (zoals in SHA bepaald).",
+              "Stap 3 — pro rata-verdeling: A heeft 40%, B heeft 35%. Verhouding A:B = 40:35 = 8:7. Indien beide voorkoop willen → A koopt 8/15 × 250 = 133,3 aandelen, B 7/15 × 250 = 116,7. Door afronding-clausule (typisch SHA): A krijgt 134, B krijgt 116.",
+              "Stap 4a — beide voorkopen: 134 × 1.000 + 116 × 1.000 = 250.000 EUR. C heeft zijn geld; A bezit nu 940 aandelen (40% + 134), B heeft 466 aandelen (35% + 116).",
+              "Stap 4b — alleen A voorkoopt: A koopt 250 aandelen volledig voor 250.000 EUR. A bezit nu 1.050 aandelen (= 60% indien geen herverdeling).",
+              "Stap 4c — niemand voorkoopt: C mag verkopen aan X aan dezelfde of betere voorwaarden binnen termijn (typisch 6 maanden). Aandeel-overdracht in aandeelhoudersregister; X wordt nieuwe aandeelhouder en moet typisch SHA-adherence-clausule tekenen.",
+              "Stap 5 — boekhoudkundig: in BV Trio geen impact (interne overdracht). In A's boekhouding (indien A vennootschap is): rekening 280 'Deelnemingen in verbonden ondernemingen' debet × bedrag voorkoop, 550 'Bank' credit."
+            ],
+            "resultaat": "Voorkooprecht beschermt de bestaande aandeelhouders tegen ongewenste nieuwkomers EN tegen overdracht aan partijen waarmee strategisch belangenconflict bestaat. Belangrijk: prijs ligt vast (geboden prijs van X) — geen onderhandeling, voorkomt prijs-spelletjes."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke ROFR-uitwerking" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "SHA = statuten",
+        "verkeerde_assumptie": "Een aandeelhoudersovereenkomst werkt automatisch erga omnes en bindt nieuwe verkrijgers van aandelen.",
+        "kernpunt": "SHA = contract = relativiteit (art. 1165 oud BW / 5.103 nieuw BW). Bindt ALLEEN ondertekenaars. Een nieuwe verkrijger te goeder trouw die niet wist van SHA is niet gebonden. Daarom: (a) bij elke aandeel-overdracht laten nieuwe verkrijger meetekenen op SHA (adherence-clausule); (b) kritieke clausules statutair verankeren voor erga omnes-binding.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW", "ref": "art. 5.103 (nieuw)" }
+          ]
+        }
+      },
+      {
+        "titel": "Voorkooprecht SHA = voorkeurrecht WVV",
+        "verkeerde_assumptie": "Het contractuele voorkooprecht in een SHA is hetzelfde concept als het wettelijk voorkeurrecht bij kapitaalverhoging.",
+        "kernpunt": "Verschillende concepten:\n- **Wettelijk voorkeurrecht** (art. 5:128 / 7:188 WVV): bij UITGIFTE van nieuwe aandelen (kapitaalverhoging in geld). Beschermt tegen verwatering. Niet contractueel weg te bedingen — wettelijk dwingend.\n- **Contractueel voorkooprecht / ROFR** (in SHA): bij VERKOOP van bestaande aandelen aan derde. Beschermt tegen ongewenste nieuwe aandeelhouders.\n\nBeide kunnen tegelijk gelden voor dezelfde aandeelhouder maar grijpen op andere momenten in.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:128" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188" }
+          ]
+        }
+      },
+      {
+        "titel": "Stemovereenkomst altijd geldig",
+        "verkeerde_assumptie": "Aandeelhouders mogen om het even welke afspraken maken over hun stemgedrag.",
+        "kernpunt": "Art. 7:80 §2 WVV: stemovereenkomsten zijn nietig indien (a) onbeperkt in tijd, (b) in strijd met vennootschapsbelang, of (c) bestuurders worden contractueel verplicht hun stem in bepaalde zin uit te brengen ('bestuurders mogen niet meegebonden zijn aan stemafspraken van aandeelhouders, dit ondermijnt hun fiduciaire plicht).\n\nGeldige stemovereenkomsten = beperkt in tijd + voor specifieke materies + niet in strijd met vennootschapsbelang.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:80 §2" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-aandeelhouder",
+      "naam": {
+        "primair": "Cliënt-aandeelhouder bij SHA-opstelling"
+      },
+      "intro": "De accountant adviseert bij opzet en uitvoering van een SHA — vaak in samenwerking met advocaat-vennootschapsrecht.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "sha-checklist",
+              "naam": {
+                "primair": "SHA-checklist voor cliënt"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij opzet van een SHA voor cliënt-aandeelhouder doorlopen:\n\n1. **Doel** — control, exit, dividend-beleid, board-vertegenwoordiging? Per doel: passende clausule.\n2. **Looptijd** — bepaald (5-10 jaar typisch) + verlengmechanisme.\n3. **Triggers** — wanneer grijpt elke clausule in (verkoop, ontslag, overlijden, change of control)?\n4. **Prijsformules** — voor exit-clausules: fair market value, vermogenswaarde, EBITDA-multiple, ...?\n5. **Sancties** — boeteclausules, terugkoop-verplichting, dwangsom.\n6. **Statutair verankeren** welke clausules (kritieke).\n7. **Adherence-clausule** voor nieuwe aandeelhouders.\n8. **Geschillenbeslechting** — arbitrage, bevoegde rechtbank.\n9. **Fiscaal advies** — sommige SHA-clausules (preferred dividend, anti-dilution) kunnen fiscale impact hebben (controle-vraag bij DBI-vrijstelling, art. 90 9° meerwaarde-belasting).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "SHA-opstellingschecklist" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "waarderings-impact-sha",
+              "naam": {
+                "primair": "Impact SHA-clausules op aandelen-waardering"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "SHA-clausules beïnvloeden de waarde van aandelen — relevant voor bedrijfswaardering, fiscale aangifte (schenking, successie), 'fair market value'-bepaling:\n\n- Lock-up + voorkoopclausules → discount voor illiquiditeit (typisch 15-25%).\n- Drag-along → kan minderheidsdiscount verkleinen (mogelijkheid mee in exit).\n- Tag-along → beschermt minderheidsdiscount.\n- Preferred dividend → verlaagt waarde van gewone aandelen, verhoogt waarde preferente.\n- Anti-dilution → beschermt waarde investeerder ten koste van overige.\n\nBij waardebepaling expliciet rapporteren welke SHA-clausules in aanmerking zijn genomen en hoe ze de waarde beïnvloeden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Waarderingspraktijk SHA-impact" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vereist",
       "target": "aandeel"
     },
     {
-      "type": "vergelijkbaar_met",
-      "target": "overnameovereenkomst-spa"
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering",
+      "toelichting": "Stemcoördinatie via SHA werkt door op stemgedrag in AV."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "gecertificeerd-accountant",
+      "toelichting": "GA adviseert bij opzet (samen met advocaat) en waardering-impact op aandelen."
     }
   ]
 }
