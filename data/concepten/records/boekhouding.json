@@ -10,10 +10,8 @@
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.1.taak.1",
       "1.1.I",
@@ -22,9 +20,23 @@
       "1.2.III"
     ],
     "provenance": {
-      "model": "skeleton-generator",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/boekhouding.json",
+      "primary_bronnen": [
+        "WER Boek III art. III.82-III.95",
+        "KB nr. 1 BTW art. 14 (BTW-aangepaste boekhouding)",
+        "KB 21-10-2018 (boekhoudkundige verplichtingen ondernemers)",
+        "CBN-advies 174/1",
+        "CBN-advies 2019/12",
+        "CBN-advies 2022/03",
+        "ISA 250 (herzien)",
+        "ISA 300"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,6 +45,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Inhoud-velden gevuld als overzichts-record (boekhouding-discipline). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -43,63 +62,378 @@
         "Interface met andere disciplines (fiscaliteit · controle · bedrijfseconomie)"
       ],
       "out": [
-        {
-          "topic": "Wettelijk kader-detail (WER + KB + CBN)",
-          "richting": "moet-verwijzen",
-          "ref": "belgisch-boekhoudrecht"
-        },
-        {
-          "topic": "Boekhoudbeginselen (voorzichtigheid · matching · continuïteit · ...)",
-          "richting": "moet-verwijzen",
-          "ref": "boekhoudbeginselen"
-        },
-        {
-          "topic": "Dubbele-boekhouding-mechaniek (dagboek · grootboek · MAR · proefbalans)",
-          "richting": "moet-verwijzen",
-          "ref": "dubbele-boekhouding"
-        },
-        {
-          "topic": "Jaarrekening-opmaak + presentatie",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Wie moet boekhouden? (scope)",
-          "richting": "moet-verwijzen",
-          "ref": "boekhoudplicht"
-        },
-        {
-          "topic": "Boekhoud-perspectief van VAA / autokosten / werknemers",
-          "richting": "niet-verwijzen"
-        }
+        {"topic": "Wettelijk kader-detail (WER + KB + CBN)", "richting": "moet-verwijzen", "ref": "belgisch-boekhoudrecht"},
+        {"topic": "Boekhoudbeginselen (voorzichtigheid · matching · continuïteit · ...)", "richting": "moet-verwijzen", "ref": "boekhoudbeginselen"},
+        {"topic": "Dubbele-boekhouding-mechaniek (dagboek · grootboek · MAR · proefbalans)", "richting": "moet-verwijzen", "ref": "dubbele-boekhouding"},
+        {"topic": "Jaarrekening-opmaak + presentatie", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Wie moet boekhouden? (scope)", "richting": "moet-verwijzen", "ref": "boekhoudplicht"},
+        {"topic": "Boekhoud-perspectief van VAA / autokosten / werknemers", "richting": "niet-verwijzen"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "Boekhouding is de discipline van het systematisch registreren, klasseren, samenvatten en interpreteren van de economische verrichtingen van een onderneming in termen van geld. Ze produceert twee soorten output: (a) tussentijdse rapportering aan het bestuur en de fiscus (BTW-aangiften, periodieke proefbalans) en (b) een jaarlijkse synthese in de vorm van een jaarrekening (balans, resultatenrekening, toelichting, sociale balans en kasstroomtabel waar toepasselijk). In België valt boekhouding onder een gecodificeerd kader (WER Boek III + KB 29-04-2019) en wordt ze in de praktijk uitgeoefend door zowel interne medewerkers van de onderneming als externe ITAA-gecertificeerd accountants.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
-            }
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.84", "context": "Elke boekhouding wordt door middel van een stelsel van boeken en rekeningen gevoerd"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Beginselen van een regelmatige boekhouding — verplichting + vereisten + jaarrekening"},
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "art. 3", "context": "Boekhoudkundige verplichtingen ondernemers"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Boekhouding is het 'taal-systeem' van de onderneming: alle economische realiteit wordt vertaald in twee dimensies (debet/credit) en geklasseerd in het MAR-rekeningstelsel (klassen 0-9). Ze dient drie hoofddoelen: (1) intern beheer — manager en bestuur leiden uit de cijfers af waar winst, kosten en cashflow vandaan komen; (2) verantwoording aan derden — crediteurs, fiscus, sociale zekerheid, klanten leiden de financiële gezondheid af uit de jaarrekening; (3) bewijs — bij geschillen, fiscale controles en juridische procedures vormen de boekhoudkundige stukken bewijs (art. III.86 WER + bewaartermijn 7 jaar). De accountant treedt op als 'vertaler': hij vertaalt de transactiestroom in betrouwbare cijfers conform B-GAAP en is daarvoor mede-aansprakelijk.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.86"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese drie-doelen-functie boekhouding — standaardleer"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Boekhouding bestaat omdat economische verrichtingen anders niet objectief vergelijkbaar of controleerbaar zijn. Zonder een gecodificeerd registratie-stelsel zou elke onderneming een eigen 'verhaal' vertellen over haar resultaat en vermogen, met onmogelijke vergelijkbaarheid en hoog manipulatierisico. De Belgische wetgever heeft daarom drie elkaar versterkende lagen ingevoerd: (1) verplichting tot boekhouding (WER III.82); (2) standaardisatie via MAR + schema's (KB 29-04-2019); (3) verplichte publicatie van de jaarrekening (NBB-Balanscentrale). Boekhouding is in die zin een collectieve 'taal' die vertrouwen tussen marktpartijen mogelijk maakt — meer dan een fiscale verplichting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.82"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio-legis-synthese boekhoudplicht — standaardleer Belgisch boekhoudrecht"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "bevat",
-      "target": "belgisch-boekhoudrecht"
     },
+    "voorkennis_leespad": {
+      "kader": "belgisch-boekhoudrecht",
+      "volgkennis": ["belgisch-boekhoudrecht", "boekhoudbeginselen", "boekhoudplicht", "dubbele-boekhouding", "jaarrekening", "eindejaarsverrichtingen", "analytische-boekhouding"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER Boek III art. III.82-III.95 + KB 21-10-2018 + KB 29-04-2019",
+        "toelichting": "De boekhoudplicht zelf is materieel onveranderd sinds de Boekhoudwet 17-07-1975. Het juridisch kader is herhaaldelijk geherstructureerd (integratie WER 2014, KB 29-04-2019 met WVV-afstemming) maar de kernverplichting — een gestandaardiseerde dubbele boekhouding voeren — blijft constant."
+      },
+      "voor": [
+        {
+          "tekst": "Elke 'onderneming' in de zin van WER art. I.1 (vennootschappen, VOF, CV, vzw's, stichtingen, eenmanszaken in handelaarsverband) is boekhoudplichtig. Voor kleinere niet-handelaars-eenmanszaken (omzet < 500.000 EUR) volstaat een vereenvoudigde 'eenpartige' boekhouding (kasboek + verkoop-/aankoopboek). Voor niet-micro ondernemingen is een dubbele boekhouding verplicht.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.82 (boekhoudplicht)"},
+              {"type": "kb", "naam": "KB 21-10-2018", "ref": "art. 3"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/12", "context": "Groottecriteria verenigingen en stichtingen — vereenvoudigde vs dubbele boekhouding"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Particulieren die enkel privé-vermogen beheren (geen ondernemingsactiviteit) zijn niet boekhoudplichtig in B-GAAP-zin — hun fiscale verplichtingen zijn beperkt tot de PB-aangifte. Bepaalde publiekrechtelijke rechtspersonen die geen goederen of diensten op een markt aanbieden zijn ook uitgezonderd (CBN 2019/09).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/09", "context": "Boekhoudplichtige onderneming — uitzonderingen"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Een goed gevoerde boekhouding levert: (1) interne stuurinformatie voor management (cost control, marge-analyse); (2) basis voor fiscale aangifte (vennootschapsbelasting + BTW); (3) financierings-onderhandelings-positie tegenover banken (via NBB-Balanscentrale-publicatie); (4) bescherming bij geschillen (boekhouding als bewijs WER III.86). De marginale kost van degelijke boekhouding is laag tegenover deze voordelen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Boekhoudfouten of -tekorten leiden tot: burgerrechtelijke aansprakelijkheid van bestuurders (art. 2:56 WVV — bestuursfout); strafrechtelijke straffen bij valsheid in geschrifte (Sw. art. 196); fiscale herziening + boetes; aansprakelijkheid van het accountantskantoor (ITAA-tuchtrecht + civiele claims). CBN 174/1 wijst expliciet op de gekoppelde burger- en strafrechtelijke straffen aan boekhoudverplichtingen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Aan boekhoudverplichting zijn burgerrechtelijke en strafrechtelijke straffen gekoppeld"},
+              {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 2:56", "context": "Bestuursfout-aansprakelijkheid"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vormen-van-boekhouding",
+        "naam": {"primair": "Twee vormen: vereenvoudigde vs dubbele boekhouding"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Belgisch boekhoudrecht onderscheidt twee vormen, gestuurd door groottecriteria en rechtsvorm: (1) Vereenvoudigde ('eenpartige') boekhouding — drie verplichte journalen: aankoopboek, verkoopboek, financieel boek. Geen klassiek balans-en-resultatenrekening-stelsel; jaarlijks wel een inventaris en een vereenvoudigde staat. Mogelijk voor micro-eenmanszaken en kleine vzw's beneden de drempels van CBN 2019/12. (2) Dubbele boekhouding — verplicht voor alle vennootschappen + grotere vzw's: elke verrichting raakt minstens 2 rekeningen (debet + credit gelijk); MAR + dagboek + grootboek + proefbalans → balans + resultatenrekening + toelichting.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.84-III.85"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Vereenvoudigde vs dubbele boekhouding"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2019/12", "context": "Groottecriteria verenigingen + welke vorm"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rolverdeling-client-accountant",
+        "naam": {"primair": "Rolverdeling cliënt ↔ accountant"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In de praktijk is de boekhouding een gedeelde verantwoordelijkheid: de cliënt levert de primaire stukken (facturen, bankafschriften, contracten); de accountant boekt of controleert + zorgt voor de eindejaarsverrichtingen + de jaarrekening. De wettelijke aansprakelijkheid voor de boekhouding ligt bij het bestuursorgaan van de vennootschap (WVV art. 2:56) — niet bij de externe accountant. De ITAA-norm voor opdrachtbrief (NSP-norm + opdracht-tot-bijstand-norm) verplicht een duidelijke schriftelijke rolverdeling: wie boekt wat, met welke frequentie, en welke verantwoordelijkheid neemt elke partij.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 2:56"},
+                {"type": "norm", "naam": "ITAA-norm gedragslijnen relaties IBR", "ref": "ITAA-norm gedragslijnen", "context": "Opdrachtbrief + rolverdeling"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interface-disciplines",
+        "naam": {"primair": "Interface met andere disciplines"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Boekhouding is geen geïsoleerde discipline — ze interfacet met: (a) fiscaliteit — de boekhoudkundige jaarrekening is de basis voor de aangifte vennootschapsbelasting (boekhoudkundig resultaat → fiscale correcties → belastbare grondslag); (b) BTW — KB nr. 1 (art. 14) vereist een 'aan de omvang aangepaste boekhouding om de BTW toe te passen en te controleren'; (c) controle — voor middelgrote en grote vennootschappen voert de commissaris een audit conform ISA-normen (ISA 250 wet- en regelgeving, ISA 300 planning, etc.); (d) bedrijfseconomie — financiële analyse, ratio-analyse en bedrijfswaardering vertrekken altijd vanuit de boekhoudkundige cijfers.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "K.B. nr. 1 BTW", "ref": "art. 14", "context": "BTW-plichtigen moeten een aan de omvang van hun activiteiten aangepaste boekhouding voeren"},
+                {"type": "norm", "naam": "ISA 250 (herzien)", "ref": "ISA 250", "context": "Wet- en regelgeving bij controle"},
+                {"type": "norm", "naam": "ISA 300", "ref": "ISA 300", "context": "Planning van een controle"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese vier-interfaces"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "jaarcyclus",
+        "naam": {"primair": "Jaarcyclus van de boekhouding"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De boekhouding-jaarcyclus bestaat uit: (1) heropening — overname saldi van vorig boekjaar via klasse 89; (2) lopende boekingen — dagelijkse/wekelijkse registratie van facturen, bankverrichtingen, salarissen, BTW; (3) periodieke afsluitingen — maand/kwartaal proefbalans, BTW-aangifte, BV-aangifte; (4) eindejaarsverrichtingen — inventaris, afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen, resultaatverwerking; (5) jaarafsluiting — afsluiting via klasse 89 en opmaak balans + resultatenrekening + toelichting; (6) NBB-neerlegging — verplichte publicatie binnen 7 maanden na afsluitdatum (of 30 dagen na goedkeuring AV).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89", "context": "Jaarlijkse inventaris + jaarafsluiting"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:10 + 3:11"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard jaarcyclus-overzicht"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Jaarcyclus van de boekhouding:\n\n```mermaid\nflowchart LR\n  A[Heropening<br/>klasse 89] --> B[Lopende boekingen<br/>aankoop · verkoop · bank · loon]\n  B --> C[Periodiek<br/>maand/kwartaal proefbalans + BTW/BV]\n  C --> B\n  C --> D[Eindejaarsverrichtingen<br/>inventaris + correcties]\n  D --> E[Jaarafsluiting<br/>balans + RR + toelichting]\n  E --> F[NBB-neerlegging<br/>binnen 7 maanden]\n  F --> A\n```"
+          }
+        ]
+      },
+      {
+        "id": "synthesedocumenten",
+        "naam": {"primair": "Synthesedocumenten"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarrekening bestaat verplicht uit drie kerndocumenten: (1) balans — momentopname van vermogen op afsluitdatum; (2) resultatenrekening — overzicht kosten en opbrengsten van het boekjaar; (3) toelichting — bijlagen met details over waarderingsregels, verrichtingen met verbonden partijen, niet-balans-engagementen, etc. Voor grote vennootschappen + middelgrote vennootschappen die zich daartoe verbinden komt daar bij: (4) sociale balans (werknemers-informatie); (5) jaarverslag van het bestuursorgaan; (6) kasstroomtabel (vaak optioneel, soms verplicht onder IFRS). Microschema beperkt zich tot een verkorte versie van (1) + (2).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:1 e.v. (jaarrekening-schema's)"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Jaarrekening — elke onderneming moet er een opstellen"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-kmo-jaarcyclus",
+        "titel": "Boekhoudcyclus van een kleine BV (microschema)",
+        "context": "BV ABC — handelsvennootschap met 4 werknemers, omzet 450.000 EUR. Microschema. Boekjaar 01/01 - 31/12. Externe ITAA-accountant verzorgt de boekhouding maandelijks.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische jaarcyclus-illustratie"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Januari: heropening boekjaar — saldi balanssen uit jaar N-1 hernemen via klasse 89. Lopende boekingen starten: aankoopfacturen → 60 + 411 BTW + 4400 leveranciers; verkoopfacturen → 4000 klanten + 451 BTW + 70 verkopen; bankafschriften → 5500.",
+              "Per kwartaal: BTW-aangifte op basis van saldi klasse 451 (te betalen BTW) − klasse 411 (te recupereren BTW). Saldo betalen aan FOD Financiën.",
+              "Maandelijks: looncyclus — 620 Brutolonen / 4530 RSZ-werknemer / 454 BV / 4550 Netto te betalen + werkgeversbijdragen via 621.",
+              "31/12: eindejaarsverrichtingen — fysieke inventaris voorraden, afschrijvingen materieel actief (klasse 6302 → 2219), waardeverminderingen dubieuze klanten (klasse 6340 → 4090), overlopende rekeningen klasse 49.",
+              "Februari N+1: opmaak microschema (balans + RR + beperkte toelichting). Tijdige goedkeuring door bestuursorgaan + AV.",
+              "Mei N+1: NBB-neerlegging via XBRL (binnen 7 maanden na 31/12).",
+              "Juni N+1: aangifte vennootschapsbelasting (binnen 7 maanden + 1 dag na boekjaar)."
+            ],
+            "resultaat": "Bij correcte uitvoering: tijdige jaarrekening + fiscale aangifte + vrijwaring van bestuurdersaansprakelijkheid + krediet-onderhandelingspositie. Boekhouding-cyclus 'sluit' rond, klaar voor jaar N+1."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-vereenvoudigde-vs-dubbele",
+        "titel": "Vereenvoudigde vs dubbele boekhouding — keuze bij oprichting eenmanszaak",
+        "context": "Een freelance consultant start een eenmanszaak. Verwachte jaaromzet 80.000 EUR (geen voorraad). BTW-plichtig. Welke boekhoudvorm?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.85"},
+            {"type": "kb", "naam": "K.B. nr. 1 BTW", "ref": "art. 14"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Voorwaarden vereenvoudigde boekhouding (eenmanszaak / kleine vzw):\n\n- omzet < 500.000 EUR (bepaalde sectoren: 620.000 EUR);\n- geen vennootschapsvorm (eenmanszaak of kleine vereniging);\n- drie boeken: aankoop · verkoop · financieel.\n\nVoor deze freelance consultant met 80.000 EUR omzet: vereenvoudigde boekhouding volstaat wettelijk. MAAR — keuze voor dubbele boekhouding heeft voordelen:\n\n1. Betere stuurinformatie (debiteurenstand, marges per dienst);\n2. Eenvoudiger om later naar BV over te schakelen;\n3. Krediet-onderhandelingen met bank verlopen vlotter;\n4. BTW-controle: art. 14 KB nr. 1 vereist een 'aan de omvang aangepaste boekhouding' — vereenvoudigde voldoet, maar dubbele is robuuster.\n\nVuistregel: bij ambitie tot groei → dubbele boekhouding van bij start; bij stabiele kleine activiteit → vereenvoudigd voldoet."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-interface-fiscaliteit",
+        "titel": "Interface boekhouding → vennootschapsbelasting",
+        "context": "BV XYZ heeft boekjaar afgesloten met boekhoudkundig resultaat 100.000 EUR. Tijdens het jaar: 5.000 EUR autokosten (deels niet-aftrekbaar), 2.000 EUR boetes (niet-aftrekbaar), 8.000 EUR ontvangen dividenden uit Belgische dochter (DBI 100% aftrekbaar). Belastbare grondslag berekenen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 198 (verworpen uitgaven) + art. 202-204 (DBI)"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Illustratie boekhoudkundig → fiscaal traject"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Vertrekpunt: boekhoudkundig resultaat 100.000 EUR (gewoonlijke balans + RR).",
+              "Bijtelling verworpen uitgaven (art. 198 WIB92): autokosten niet-aftrekbaar deel (bv. 30% van 5.000 = 1.500 EUR) + boetes 2.000 EUR = +3.500 EUR.",
+              "Aftrek DBI (art. 202-204 WIB92): -8.000 EUR.",
+              "Belastbare grondslag = 100.000 + 3.500 − 8.000 = 95.500 EUR.",
+              "Belasting AJ 2026 (KMO-tarief 20% op eerste schijf, standaard 25%): bv. 25% × 95.500 ≈ 23.875 EUR (vereenvoudigd).",
+              "Boekhoudkundige verwerking: 6700 Belasting op resultaat 23.875 D / 4520 Verschuldigde belastingen 23.875 C."
+            ],
+            "resultaat": "Boekhoudkundig resultaat (100.000) verschilt van belastbare grondslag (95.500) door fiscale correcties — de aangifte vennootschapsbelasting is dus geen 1-op-1 kopie van de boekhouding, maar vertrekt er wel rechtstreeks van. Dit is de essentie van de interface boekhouding ↔ fiscaliteit."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Boekhouding = enkel een 'fiscale verplichting' zien",
+        "verkeerde_assumptie": "Boekhouding bestaat alleen omdat de fiscus haar nodig heeft — de hele cyclus is gericht op de aangifte.",
+        "kernpunt": "De wettelijke boekhoudplicht (WER III.82) staat los van de fiscale aangiftes en is ouder + breder. Boekhouding dient drie doelen — intern beheer, externe verantwoording, bewijs — waarvan fiscaliteit er slechts één is. Een onderneming met enkel 'fiscale boekhouding' verliest 80% van de waarde (geen stuurinformatie, beperkte krediet-onderhandelingen, zwakkere bewijspositie).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.82"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Aansprakelijkheid 'afgeschoven' op externe accountant",
+        "verkeerde_assumptie": "Mijn accountant is verantwoordelijk voor mijn boekhouding — als er iets fout gaat, betaalt hij.",
+        "kernpunt": "De wettelijke aansprakelijkheid voor de boekhouding ligt bij het bestuursorgaan van de vennootschap (WVV art. 2:56). De externe accountant kan civielrechtelijk aansprakelijk worden voor zijn eigen fouten (binnen ITAA-tuchtrecht + civiele recht), maar de bestuurder blijft eindverantwoordelijk. Goed opdrachtbrief + duidelijke rolverdeling vermijden discussies.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 2:56"},
+            {"type": "norm", "naam": "ITAA-norm gedragslijnen", "ref": "ITAA-norm gedragslijnen", "context": "Opdrachtbrief verplicht voor ITAA-leden"}
+          ]
+        }
+      },
+      {
+        "titel": "Vereenvoudigde boekhouding = 'minder werk' veronderstellen",
+        "verkeerde_assumptie": "Vereenvoudigde boekhouding is een korter pad voor wie minder verdient — bespaart tijd en geld.",
+        "kernpunt": "Vereenvoudigde boekhouding bespaart formaliteiten (geen MAR, geen balansschema) maar zorgt voor magere stuurinformatie en moeilijke overstap naar dubbele boekhouding bij groei. Voor ambitieuze kleine ondernemingen is dubbele boekhouding van bij start vaak verstandiger — kost meer initieel, maar bouwt een professionele basis. Vereenvoudigd is geschikt voor bewust stabiele kleinschaligheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "bevat",
-      "target": "jaarrekening"
+      "id": "eigen-kantoor-portefeuille",
+      "naam": {"primair": "Eigen kantoor met cliënten-portefeuille"},
+      "intro": "Het accountantskantoor verzorgt voor een veelheid aan cliënten de boekhouding — van eenmanszaken tot middelgrote BV's. Schaal-efficiëntie + kwaliteit + opdrachtbrief-discipline zijn cruciaal.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "client-onboarding",
+              "naam": {"primair": "Cliënt-onboarding en boekhoudplan-keuze"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke nieuwe cliënt: (1) rechtsvorm + grootteklasse bepalen → boekhoudvorm kiezen (vereenvoudigd vs dubbele); (2) opdrachtbrief opmaken conform ITAA-norm — rolverdeling cliënt/kantoor, frequentie, honoraria, aansprakelijkheidsbeperkingen; (3) BTW-regime + frequentie nagaan (maand/kwartaal); (4) jaarafsluitdatum + termijnen jaarrekening + fiscale aangifte vastleggen; (5) softwarekeuze + cloud-toegang regelen voor stuk-uitwisseling.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "norm", "naam": "ITAA-norm gedragslijnen", "ref": "ITAA-norm gedragslijnen"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk ITAA-kantoor"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "boekhouding-als-stuurinstrument",
+              "naam": {"primair": "Boekhouding inzetten als stuurinstrument voor de cliënt"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een goede accountant blijft niet bij het 'leveren van de jaarrekening'. Hij vertaalt de cijfers naar bedrijfsinzicht: marge-evolutie per productgroep, klant-concentratie-risico, debiteurendoorlooptijd, schuldgraad. Twee tot drie keer per jaar een kort dashboard-gesprek met de zaakvoerder maakt het verschil tussen een 'verplichte kost' en een waardevolle adviespartner. Ratio's uit het record 'activiteits-ratios' zijn een goed vertrekpunt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "bevat", "target": "belgisch-boekhoudrecht", "toelichting": "Het wettelijke kader waarbinnen de discipline functioneert."},
+    {"type": "bevat", "target": "boekhoudbeginselen", "toelichting": "De materiële waarderings- en presentatie-uitgangspunten."},
+    {"type": "bevat", "target": "boekhoudplicht", "toelichting": "Wie moet boekhouden + groottecriteria."},
+    {"type": "bevat", "target": "dubbele-boekhouding", "toelichting": "De dominante boekhoudvorm + mechaniek."},
+    {"type": "bevat", "target": "jaarrekening", "toelichting": "Het eindproduct van de boekhouding-cyclus."},
+    {"type": "bevat", "target": "eindejaarsverrichtingen", "toelichting": "Cruciale stap in de jaarcyclus."},
+    {"type": "bevat", "target": "analytische-boekhouding", "toelichting": "Aanvullend interne stuurboekhouding bovenop de algemene boekhouding."},
+    {"type": "uitgevoerd_door", "target": "gecertificeerd-accountant", "toelichting": "ITAA-gecertificeerd accountants oefenen de discipline professioneel uit."}
   ]
 }
