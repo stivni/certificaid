@@ -2,21 +2,15 @@
   "id": "investeringsevaluatie",
   "naam": {
     "primair": "Investeringsevaluatie",
-    "synoniemen": [
-      "investment appraisal",
-      "capital budgeting"
-    ]
+    "synoniemen": ["capital budgeting", "investerings-beslissing", "investeringsanalyse"],
+    "vertaling": {"en": "investment appraisal", "fr": "évaluation d'investissement"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "4.0.taak.6"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["4.0.taak.6"],
     "scope": {
       "in": [
         "Methodes: NPV (Net Present Value) · IRR (Internal Rate of Return) · payback-periode · gediscontineerde payback · profitability index",
@@ -26,144 +20,136 @@
         "Cross kasstroomanalyse voor kasstroom-input"
       ],
       "out": [
-        {
-          "topic": "Marginale analyse (make-or-buy-input)",
-          "richting": "moet-verwijzen",
-          "ref": "marginale-analyse"
-        },
-        {
-          "topic": "Kasstroomanalyse (kasstroom-input)",
-          "richting": "moet-verwijzen",
-          "ref": "kasstroom-analyse"
-        },
-        {
-          "topic": "Bedrijfswaardering (DCF-verwante techniek)",
-          "richting": "mag-verwijzen",
-          "ref": "bedrijfswaardering"
-        }
+        {"topic": "Marginale analyse (make-or-buy-input)", "richting": "moet-verwijzen", "ref": "marginale-analyse"},
+        {"topic": "Kasstroomanalyse (kasstroom-input)", "richting": "moet-verwijzen", "ref": "kasstroom-analyse"},
+        {"topic": "Bedrijfswaardering (DCF-verwante techniek)", "richting": "mag-verwijzen", "ref": "bedrijfswaardering"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/investeringsevaluatie.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:50:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Investeringsevaluatie uitgewerkt: NPV + IRR + payback + WACC met formules en concreet rekenvoorbeeld."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
-        }
+        "tekst": "Investeringsevaluatie is de discipline om te beslissen of een capitaalinvestering (nieuwe machine, gebouw, IT-systeem, overname) economisch verantwoord is. Vier complementaire methoden: (1) Netto Contante Waarde (NCW of NPV) — som van toekomstige kasstromen verdisconteerd tegen kapitaalkost; (2) Interne Rentevoet (IRR) — disconteringsvoet die NPV op nul brengt; (3) terugverdientijd (payback) — hoeveel jaar tot de investering terugverdiend is; (4) winst-index (profitability index, PI) — verhouding NPV / initiële investering. Disconteringsvoet is typisch de WACC (gewogen kapitaalkost). Een investering is theoretisch aanvaardbaar bij NPV > 0, IRR > WACC, en past binnen de risico-bereidheid van het bedrijf.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard corporate finance methodologie — Brealey/Myers, Damodaran"}]}
+      },
+      "substantie": {
+        "tekst": "Investeringsevaluatie verzoent twee tijdstippen: cash uit vandaag, kasstromen morgen. Het centrale inzicht: een euro nu is meer waard dan een euro over 5 jaar (tijdwaarde van geld). NPV maakt die vergelijking expliciet door alle toekomstige kasstromen terug te brengen naar 'vandaag-euros'. Voor de accountant die KMO's adviseert is investeringsevaluatie typisch nodig bij: machine-vervanging, capaciteits-uitbreiding, overname, make-or-buy-beslissing, IT-projecten met meerjarige horizon. Vuistregel: investering aanvaarden indien NPV > 0; bij keuze tussen alternatieven, neem hoogste NPV (NIET hoogste IRR — IRR vertekent bij verschillende project-omvang).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom niet gewoon 'investering goedkeuren als ze winst oplevert'? Omdat winst niet rekening houdt met (a) timing — eerder cash = meer waard; (b) kapitaalkost — geld kost iets (rente schuld, vereist rendement aandeelhouder); (c) risico — onzekere kasstromen zijn minder waard dan zekere. NPV-methode integreert al die elementen via de disconteringsvoet. IRR is intuïtiever (geeft een rendement-percentage) maar heeft problemen met (i) project-schaal (kleine IRR-winnaar kan grote NPV-verliezer zijn) en (ii) onconventionele kasstromen (meerdere oplossingen mogelijk). Daarom: NPV als hoofdcriterium, IRR + payback als aanvullende perspectieven.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
       }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekening", "kasstroom-analyse"],
+      "naast_relevant": ["marginale-analyse", "bedrijfswaardering"],
+      "volgkennis": ["bedrijfswaardering", "financieel-plan"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Investerings-advies aan KMO-cliënt — nieuwe machine, capaciteits-uitbreiding, IT-investering met meerjarige horizon.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Make-or-buy-beslissingen — outsourcing van productie of administratie versus interne capaciteit. NPV-vergelijking over horizon van 5-10 jaar.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Subsidie-aanvraag — investeringssteun-dossiers (Vlaio, regionale agentschappen) vragen vaak een investerings-evaluatie met aangetoonde rentabiliteit.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "risico": [
+        {"tekst": "Over-optimistische kasstroom-projecties — typische bias bij projectinitiator. Bouw scenario-analyse (base / pessimistisch / optimistisch) en sensitiviteitstest van kritische parameters (omzet-groei, kostprijs-evolutie).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
     },
     "bouwstenen": [
       {
         "id": "npv-formule",
-        "naam": {
-          "primair": "Net Present Value-formule"
-        },
+        "naam": {"primair": "Net Present Value-formule"},
         "bouwsteen_type": "formule",
         "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
+          "definitie": {"tekst": "NPV = −I₀ + Σ (CFt / (1 + r)^t) voor t = 1 tot n, waarbij I₀ = initiële investering, CFt = nettokasstroom in jaar t, r = disconteringsvoet (typisch WACC), n = looptijd. Beslisregel: NPV > 0 → aanvaard (waarde-creatie); NPV < 0 → verwerp (waarde-vernietiging); NPV = 0 → break-even tegen kapitaalkost.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       },
       {
         "id": "irr-formule",
-        "naam": {
-          "primair": "Internal Rate of Return"
-        },
+        "naam": {"primair": "Internal Rate of Return"},
         "bouwsteen_type": "formule",
         "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
+          "definitie": {"tekst": "IRR is de disconteringsvoet r waarvoor NPV = 0. Iteratief op te lossen (Excel: =IRR(); financiële rekenmachine). Beslisregel: IRR > WACC → aanvaard (project rendeert meer dan kapitaalkost); IRR < WACC → verwerp. Beperking: IRR-vergelijking tussen projecten kan misleidend zijn — een klein project met IRR 25 % kan minder NPV opleveren dan groot project met IRR 15 %. Bij scale-verschillen: NPV is leidend.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       },
       {
         "id": "payback-periode",
-        "naam": {
-          "primair": "Payback-periode"
-        },
+        "naam": {"primair": "Payback-periode"},
         "bouwsteen_type": "formule",
         "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
+          "definitie": {"tekst": "Payback (terugverdientijd) = aantal jaren tot cumulatieve nettokasstroom = initiële investering. Eenvoudige vorm: I₀ / jaarlijkse kasstroom. Bij ongelijke kasstromen: cumulatief tellen tot terugverdiend. Gediscontineerde payback corrigeert voor tijdwaarde door verdisconteerde kasstromen te gebruiken. Vuistregel: < 3 jaar = aantrekkelijk; > 7 jaar = riskant voor KMO. Beperking: negeert kasstromen na payback-punt — dus geen volledig rentabiliteitsbeeld.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       },
       {
         "id": "wacc-formule",
-        "naam": {
-          "primair": "WACC-formule"
-        },
+        "naam": {"primair": "WACC-formule"},
         "bouwsteen_type": "formule",
         "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
+          "definitie": {"tekst": "WACC = (E / V) × Ke + (D / V) × Kd × (1 − T) waarbij E = marktwaarde eigen vermogen, D = marktwaarde schuld, V = E + D, Ke = vereist rendement eigen vermogen (Capital Asset Pricing Model: Ke = Rf + β × marktrisicopremie), Kd = rente op schuld, T = belastingsvoet. T-factor reflecteert tax shield op rente. Typisch WACC voor Belgische KMO: 7-12 %. Vuistregel: hogere risico-perceptie → hogere β → hogere Ke → hogere WACC.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "profitability-index",
+        "naam": {"primair": "Profitability Index (PI)"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {"tekst": "PI = (NPV + I₀) / I₀ = present value van toekomstige kasstromen / initiële investering. Beslisregel: PI > 1 → aanvaard; PI < 1 → verwerp. Voordeel boven NPV: schaal-onafhankelijk — geschikt voor rangordening van projecten bij kapitaalrantsoenering (vast budget, meerdere kandidaten).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-investering-zelena",
+        "titel": "Investerings-evaluatie nieuwe productielijn — Zelena Bio NV",
+        "context": "Zelena overweegt investering in nieuwe productielijn: initiële investering 1.000 KEUR, verwachte netto-jaarkasstroom 280 KEUR gedurende 5 jaar, geen restwaarde. WACC = 10 %.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "PV jaar 1: 280 / 1,10 = 254,5",
+              "PV jaar 2: 280 / 1,21 = 231,4",
+              "PV jaar 3: 280 / 1,331 = 210,4",
+              "PV jaar 4: 280 / 1,464 = 191,3",
+              "PV jaar 5: 280 / 1,611 = 173,9",
+              "Σ PV = 1.061,5",
+              "NPV = −1.000 + 1.061,5 = +61,5 KEUR",
+              "IRR (op te lossen): r ≈ 12,4 % > WACC 10 % → aanvaard",
+              "Payback (ongediscontineerd): 1.000 / 280 = 3,57 jaar",
+              "Gediscontineerde payback: tussen jaar 4 en 5 (cum. PV jaar 4 = 887,6 < 1.000)",
+              "PI = 1.061,5 / 1.000 = 1,06"
+            ],
+            "resultaat": "NPV +61,5 KEUR → marginaal positief: investering creëert waarde tegen WACC 10 %. IRR 12,4 % bevestigt. Payback 3,6 jaar = aanvaardbaar. PI 1,06 = elke euro investering levert 6 cent NPV. Aanbeveling: aanvaarden, maar met sensitiviteit-test — een 10 %-daling kasstroom (260 i.p.v. 280) brengt NPV naar 0. Sensitive op omzet-volume. Stel scenario-analyse op."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Gemiddelde i.p.v. marginale kasstromen", "verkeerde_assumptie": "Kasstroom-projectie = totale omzet × marge.", "kernpunt": "Gebruik UITSLUITEND marginale kasstromen — wat verandert er bij wel/niet investeren? Sunk costs (al uitgegeven studie-kosten) NIET meenemen. Allocaties van bestaande overhead NIET meenemen tenzij deze werkelijk toenemen. Opportunity costs (gemiste alternatieve aanwending) WEL meenemen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Te lage disconteringsvoet kiezen", "verkeerde_assumptie": "Gebruik de bankrente of een 'redelijke' 5 % als disconteringsvoet.", "kernpunt": "De disconteringsvoet moet de WACC of project-specifieke risicogewogen vereist rendement zijn — typisch 7-15 % voor Belgische KMO afhankelijk van risico. Te lage voet maakt alle projecten kunstmatig 'rendabel' en leidt tot waarde-vernietigende investeringen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Werkkapitaal-impact vergeten", "verkeerde_assumptie": "Investeringskasstroom = enkel CAPEX-uitgaaf + jaarlijkse winst.", "kernpunt": "Een productie-uitbreiding vergroot ook werkkapitaal-behoefte: meer voorraad, meer klantenkrediet → Δ WKB. Deze cash-uitgave moet meegeteld worden in jaar van uitbreiding, en wordt teruggewonnen op project-einde (werkkapitaal vrijkomt). Vergeten = systematische NPV-overschatting.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Optimistische projecties zonder sensitiviteit", "verkeerde_assumptie": "Eén projectie volstaat, met de 'meest waarschijnlijke' cijfers.", "kernpunt": "Bouw altijd 3 scenario's (pessimistisch / base / optimistisch) + sensitiviteit op kritische variabelen (omzet, kostprijs, levensduur). Een investering met positieve NPV alleen in optimistisch scenario is geen veilige investering. Risk-adjusted NPV = gewogen gemiddelde van scenario-NPV's.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "IRR als rangschikkings-criterium gebruiken", "verkeerde_assumptie": "Hoogste IRR = beste project.", "kernpunt": "IRR vertekent bij scale-verschillen — een klein project met IRR 30 % kan minder NPV genereren dan groot project met IRR 12 %. Bij wederzijds uitsluitende projecten: NPV is leidend. IRR is wel nuttig als snelle filter en als communicatie-tool naar niet-financiële stakeholders.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
     ]
   },
-  "relaties": []
+  "relaties": [
+    {"type": "vereist", "target": "kasstroom-analyse"},
+    {"type": "vergelijkbaar_met", "target": "bedrijfswaardering", "gelijkenissen": ["Beide gebruiken DCF-techniek met disconteringsvoet"], "verschillen": ["Investeringsevaluatie = micro (één project); bedrijfswaardering = macro (hele onderneming)"], "verwarring_risico": "Studenten gebruiken WACC inconsequent — bij projectinvestering soms een aangepaste project-specifieke risicovoet."},
+    {"type": "beinvloed_door", "target": "marginale-analyse", "toelichting": "Make-or-buy-beslissingen vereisen marginale-kosten-analyse als input voor kasstroom-projectie."}
+  ]
 }
