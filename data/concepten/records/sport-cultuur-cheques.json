@@ -3,25 +3,59 @@
   "naam": {
     "primair": "Sport- en cultuurcheques",
     "synoniemen": [
-      "SC-cheques"
+      "sport/cultuurcheques",
+      "sportcheques",
+      "cultuurcheques"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
       "2.2.taak.3"
     ],
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/sport-cultuur-cheques.json",
+      "primary_bronnen": [
+        "WIB92 art. 38 — 25°",
+        "WIB92 art. 38/1 §3",
+        "WIB92 art. 198 (verworpen uitgaven)",
+        "aangifte-VenB-2025-verworpen-uitgaven code 1215"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+        "wijziging": "Inhoud gevuld uit bundle-chunks (WIB92 art. 38/1 §3 + art. 38 — 25° + aangifte-VenB-2025 code 1215)."
+      }
+    ],
     "scope": {
       "in": [
-        "Cheque-stelsel werkgever → werknemer (max €100/jaar — vrijgesteld onder voorwaarden)",
-        "Aftrekbaarheidsregime te verifiëren",
-        "PB-vrijstelling onder voorwaarden",
-        "Boekhoudkundige verwerking (klasse 61/62)"
+        "Cheque-stelsel werkgever → werknemer/bedrijfsleider (max 100 EUR/jaar — PB- en RSZ-vrij)",
+        "Cumulatieve voorwaarden art. 38/1 §3: CAO of individuele overeenkomst, op naam, geldigheidsduur 15 maanden, niet omruilbaar voor geld",
+        "Bestedingsdomein: sport- en cultuurinstellingen erkend door de bevoegde overheid",
+        "Volledig verworpen uitgave werkgever (code 1215 VenB-aangifte)",
+        "Boekhoudkundige verwerking via 623 Andere personeelskosten"
       ],
       "out": [
         {
@@ -40,39 +74,297 @@
           "ref": "geschenken-aan-werknemers"
         }
       ]
-    },
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ]
+    }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Sport- en cultuurcheques zijn cheques die een werkgever aan werknemers of bedrijfsleiders uitkeert en die uitsluitend besteed mogen worden bij sport- en cultuurinstellingen erkend door de bevoegde gemeenschap (Vlaamse, Franstalige of Duitstalige Gemeenschap) — sportclubs, fitnesscentra, theatergroepen, musea, concertzalen, dans-/muziekscholen, ... Mits cumulatieve voorwaarden van WIB92 art. 38/1 §3 zijn vervuld (CAO of individuele overeenkomst, op naam, geldigheidsduur 15 maanden, jaarplafond 100 EUR per werknemer), is de tussenkomst vrijgesteld van personenbelasting (art. 38 — 25°) en van Rijksdienst voor Sociale Zekerheid (RSZ).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3", "context": "Cumulatieve voorwaarden sport-cultuurcheques" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38 — 25°", "context": "PB-vrijstelling" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: de kleinste extra-legale cheque-vergoeding van de drie (max 100 EUR/jaar — vergeleken met 250 EUR ecocheques en ca. 1.520 EUR maaltijdcheques). Volledig vrij van PB en RSZ voor de werknemer — 100 EUR netto. Voor de werkgever volledig verworpen uitgave (code 1215 VenB-aangifte). Vaak gebruikt als 'welness-extra' bovenop loon: jaarlijkse 100 EUR voor fitness-abonnement, museumpas, theaterabonnement of dansles. Beperkt voordelig in absolute zin, maar populair vanwege het 'goed-gevoel'-aspect bij personeel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3 — 4°", "context": "Jaarplafond 100 EUR" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215", "context": "Volledig verworpen uitgave" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: gezondheid, mentaal welzijn en cultuurparticipatie van werknemers stimuleren via fiscaal-aantrekkelijke koopkracht. Het lagere jaarplafond (100 EUR vs 250 EUR ecocheques) reflecteert de smallere doelgroep aan toegelaten bestedingen (sport + cultuur vs een veel bredere CAO 98-lijst). Het regime is bewust beperkt om sluikse loonsverhoging te vermijden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — welzijn-stimulerende verloning" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "loon-en-payroll"
+      ],
+      "kader": "werknemers-vergoedingen",
+      "naast_relevant": [
+        "maaltijdcheques",
+        "ecocheques"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 38 — 25° + art. 38/1 §3",
+        "toelichting": "Plafond 100 EUR/jaar nominaal in art. 38/1 §3 — niet jaarlijks geïndexeerd. Geldigheidsduur 15 maanden (langer dan maaltijdcheques, korter dan ecocheques)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke werkgever die werknemers of bedrijfsleiders een aanvullende welzijns-/cultuurgerichte vergoeding wil bieden, vaak als jaarlijkse extra naar aanleiding van een welzijnsbeleid of als 'attentie' (bv. begin schooljaar voor school-gerelateerde activiteiten).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3 — 1°", "context": "CAO of individuele overeenkomst" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief (art. 38/1 §3): (1) toekenning in CAO sectoraal/ondernemingsvlak OF in een geschreven individuele overeenkomst (gelijke regeling werknemers en bedrijfsleiders); (2) cheque op naam; (3) geldigheidsduur max 15 maanden vanaf terbeschikkingstelling; (4) jaartotaal per werknemer max 100 EUR; (5) niet omruilbaar voor geld, geheel of gedeeltelijk.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3", "context": "Cumulatieve voorwaarden 1° t/m 5°" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Volledig PB-vrij en RSZ-vrij voor de werknemer — 100 EUR netto extra. Bevordert deelname aan sportieve/culturele activiteiten — vaak gewaardeerd door personeel als 'menselijk' signaal.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38 — 25°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij overschrijding van één voorwaarde vervalt de PB-vrijstelling voor het VOLLEDIGE bedrag. Voor de werkgever: zoals ecocheques is de werkgevers-tussenkomst ALTIJD volledig verworpen uitgave — vergeten in te vullen in code 1215 leidt tot onjuiste VenB-aangifte. Beperkt absolute voordeel: door het lage jaarplafond (100 EUR) is de impact op het loonpakket klein.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3" },
+              { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-jaarplafond",
+        "naam": {
+          "primair": "Jaarplafond: max 100 EUR per werknemer"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het totale bedrag aan sport- en cultuurcheques toegekend door de werkgever per werknemer of bedrijfsleider mag per jaar niet hoger zijn dan 100 EUR (art. 38/1 §3 — 4°). Bij overschrijding vervalt de vrijstelling voor het volledige bedrag — niet enkel het excedent.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3 — 4°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-geldigheid",
+        "naam": {
+          "primair": "Geldigheidsduur 15 maanden + reactivering"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke sport-/cultuurcheque heeft een geldigheidsduur van maximaal 15 maanden vanaf terbeschikkingstelling (art. 38/1 §3 — 3°). Niet-bestede cheques verlopen daarna. Eenmalige reactivering binnen 3 maanden na vervaldatum mogelijk — gereactiveerde cheque is dan 3 maanden geldig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3 — 3°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3", "context": "Reactiveringsmogelijkheid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-bestedingsdomein",
+        "naam": {
+          "primair": "Bestedingsdomein: erkende sport- en cultuurinstellingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sport- en cultuurcheques kunnen alleen worden besteed bij sport- of cultuurinstellingen die door de bevoegde gemeenschap (Vlaamse, Franstalige, Duitstalige Gemeenschap) erkend zijn als zodanig. Voorbeelden: erkende sportclubs en fitnesscentra, theatergezelschappen, musea, concertzalen, kunstacademies. De uitgever (Edenred, Pluxee, ...) houdt een lijst van aanvaarde instellingen bij die de werknemer via app of website kan raadplegen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk uitgevers + erkennings-regelgeving gemeenschappen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-verworpen-uitgave",
+        "naam": {
+          "primair": "Volledige verworpen uitgave werkgever (code 1215)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Net als ecocheques zijn sport- en cultuurcheques voor de werkgever VOLLEDIG een verworpen uitgave (code 1215 in de VenB-aangifte). Geen aftrekbaar deel — dit is een belangrijk verschil met maaltijdcheques (waar 2 EUR/cheque wel aftrekbaar is via art. 53 — 14° WIB92).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215", "context": "Voordelen uit maaltijd-, sport-, cultuur- of ecocheques (uitzondering: 2 EUR per maaltijdcheque)" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "fitness-zelena",
+        "titel": "Sport-cheque van 100 EUR voor fitness — Zelena Bio NV",
+        "context": "Zelena Bio NV beslist via individuele overeenkomst om elke voltijdse werknemer in januari een sport-cheque van 100 EUR toe te kennen, te besteden in erkende fitnesscentra en sportclubs. Doel: gezondheidsbeleid + employer branding.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard uitkeringspraktijk" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Uitkering 100 EUR sport-cheques aan één werknemer",
+            "rijen": [
+              { "rekening": "623 Andere personeelskosten — sport-cultuurcheques", "debet": 100, "credit": null, "omschrijving": "Werkgevers-tussenkomst (volledig verworpen uitgave)" },
+              { "rekening": "440 Leveranciers (Edenred / Pluxee)", "debet": null, "credit": 100, "omschrijving": "Factuur uitgever sport-cultuurcheques" }
+            ]
+          },
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Werknemer: 100 EUR netto in handen, vrij van PB + vrij van RSZ.",
+              "Stap 2 — Werkgever boekhoudkundig: 100 EUR personeelskost.",
+              "Stap 3 — Werkgever fiscaal: 100 EUR volledig verworpen uitgave → code 1215 VenB-aangifte. Belastbaar resultaat stijgt met 100 EUR.",
+              "Stap 4 — Netto-kost werkgever na VenB (25 % tarief): 100 + 25 = 125 EUR."
+            ],
+            "resultaat": "Werknemer krijgt 100 EUR netto besteedbaar in fitness/sport-/cultuursector. Zelena draagt netto ca. 125 EUR — nog steeds gunstig vergeleken met een bruto-loonsverhoging die ca. 375 EUR bruto zou kosten om 100 EUR netto op te leveren."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Sport-cheques voor niet-erkende activiteiten",
+        "verkeerde_assumptie": "Een werknemer wil zijn sport-cheque besteden bij een privé-yoga-leerkracht die niet erkend is door de Gemeenschap.",
+        "kernpunt": "Alleen erkende sport- en cultuurinstellingen aanvaarden de cheque. Bij niet-erkenning kan de cheque niet betaald worden — geen omruil voor cash mogelijk (art. 38/1 §3 — 5° verbiedt dat). De werknemer riskeert de waarde te verliezen bij verval.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3 — 5°" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Sport-cheques en eco-cheques door elkaar gebruiken",
+        "verkeerde_assumptie": "Een student denkt dat het regime (plafonds, geldigheidsduur) identiek is.",
+        "kernpunt": "Sport-cultuur-cheques: 100 EUR/jaar, 15 maanden geldig. Ecocheques: 250 EUR/jaar, 24 maanden geldig. Aftrekbaarheid werkgever: beide volledig verworpen uitgave (code 1215). Bestedingsdomein verschilt fundamenteel: sport/cultuur-instellingen vs CAO 98-lijst ecologische producten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §3" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "werkgever",
+      "naam": {
+        "primair": "Werkgever-vennootschap"
+      },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "verworpen-uitgave-code-1215",
+              "naam": {
+                "primair": "Verworpen uitgave (code 1215)"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "In de VenB-aangifte rubriek 13 (code 1215): het volledige bedrag van de sport-cultuurcheques-werkgevers-tussenkomst toevoegen. Gecumuleerd met eventuele ecocheques en maaltijdcheques-excedent. De fiche-discipline (281.10/281.20) vereist geen aparte vermelding van vrijgestelde cheques onder het plafond, maar de werkgever moet de uitkering wel kunnen verantwoorden.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-positionering",
+              "naam": {
+                "primair": "Positionering sport-cultuur-cheque in pakket"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij 100 EUR/jaar is de financiële impact beperkt — gebruik sport-cultuur-cheques als 'attentie'-bestanddeel naast een groter pakket (maaltijdcheques + cash + eventueel groepsverzekering), niet als hoofdbouwsteen. Communiceer ze in HR-context als 'welzijns-/cultuurgeschenk', niet als loon — sluit zo aan bij gezondheidsbeleid en employer branding.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk HR-positionering" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -80,7 +372,32 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "maaltijdcheques"
+      "target": "maaltijdcheques",
+      "gelijkenissen": [
+        "Beide cheques onder art. 38/1 WIB92 — voorwaarden CAO of individuele overeenkomst, op naam, geldigheidsduur",
+        "Beide PB-vrij + RSZ-vrij voor werknemer onder voorwaarden"
+      ],
+      "verschillen": [
+        "Sport-cultuur-cheques: max 100 EUR/jaar · 15 maanden geldig · enkel erkende sport-/cultuurinstellingen · VOLLEDIG verworpen uitgave werkgever · geen werknemersbijdrage vereist",
+        "Maaltijdcheques: max 6,91 EUR/cheque werkgevers-tussenkomst + min 1,09 EUR werknemersbijdrage · 12 maanden geldig · 2 EUR/cheque aftrekbaar werkgever"
+      ],
+      "verwarring_risico": "Drie geldigheidsduren in dezelfde wettekst (12/15/24 maanden voor maaltijd/sport-cultuur/eco) zijn een klassiek examenvalkuil.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "ecocheques",
+      "gelijkenissen": [
+        "Beide cheques uitsluitend besteedbaar in een specifiek domein (sport/cultuur of ecologie)",
+        "Beide volledig verworpen uitgave werkgever (code 1215)",
+        "Beide niet omruilbaar voor geld"
+      ],
+      "verschillen": [
+        "Sport-cultuur-cheques: 100 EUR/jaar · 15 maanden geldig · erkende instellingen",
+        "Ecocheques: 250 EUR/jaar · 24 maanden geldig · CAO 98-lijst NAR producten/diensten"
+      ],
+      "verwarring_risico": "Plafonds en geldigheidsduren wisselen.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
