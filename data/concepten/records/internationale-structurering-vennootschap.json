@@ -1,16 +1,17 @@
 {
   "id": "internationale-structurering-vennootschap",
   "naam": {
-    "primair": "Internationale structurering vennootschap",
+    "primair": "Internationale structurering van vennootschappen",
     "synoniemen": [
+      "internationale belastingplanning",
       "international tax structuring",
-      "holdingstructurering"
+      "holding-finance-IP-structurering"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -19,9 +20,20 @@
       "2.8.taak.4"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/internationale-structurering-vennootschap.json",
+      "primary_bronnen": [
+        "WIB92 art. 202-205 (DBI)",
+        "WIB92 art. 205/1-205/4 (innovatieaftrek)",
+        "WIB92 art. 185/2 (CFC-rules)",
+        "ATAD-richtlijn 2016/1164/EU (art. 7-8 CFC)",
+        "OESO-modelverdrag art. 4 + 5 + 9"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,7 +41,14 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (DBI, CFC, BEPS Action 5)."
       }
     ],
     "scope": {
@@ -42,22 +61,22 @@
       ],
       "out": [
         {
-          "topic": "Exit-planning vennootschap (zetelverplaatsing)",
+          "topic": "Exit-planning (verhuis vennootschap)",
           "richting": "moet-verwijzen",
           "ref": "exit-planning-vennootschap"
         },
         {
-          "topic": "Transfer pricing (intra-group arrangements)",
+          "topic": "Transfer pricing (intragroep-prijszetting)",
           "richting": "moet-verwijzen",
           "ref": "transfer-pricing"
         },
         {
-          "topic": "Holding-successieplanning (vermogensplanning-cross)",
+          "topic": "Familiale opvolging via holding",
           "richting": "mag-verwijzen",
-          "ref": "holding-successieplanning"
+          "ref": "successieplanning"
         },
         {
-          "topic": "ATAD CFC-rules",
+          "topic": "ATAD-richtlijn (anti-misbruik EU)",
           "richting": "moet-verwijzen",
           "ref": "atad-richtlijn"
         }
@@ -67,24 +86,367 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationale-structurering-vennootschap).",
+        "tekst": "Internationale structurering van vennootschappen is het ontwerp en de inrichting van een grensoverschrijdende groepsstructuur (moeder, dochters, vaste inrichtingen, financierings- en IP-vehikels) met fiscale, juridische en operationele oogmerken. Klassieke bouwblokken: een holding-vennootschap in een gunstig DBV- en deelnemingsvrijstellingsregime (BE met DBI-aftrek + uitgaande RV-vrijstelling); operationele dochters in marktstaten; eventueel een IP-box-vennootschap in een land met innovatie-aftrek; en een finance-vehikel voor groepsfinanciering. De internationale fiscale spelregels (DBI, DBV, BEPS, ATAD) bepalen wat fiscaal werkt en wat als kunstmatige constructie wordt aangepakt.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-205" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer internationale structurering" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De praktijk balanceert tussen drie fiscale doelen: (1) minimaliseren van bronheffingen (RV op dividenden, interesten, royalty's) tussen groepsentiteiten; (2) optimaliseren van het globale tarief door winstrealisatie waar tarieven laag zijn (mits substance); (3) vermijden van dubbele belasting via DBV's en DBI-aftrek. België is historisch een aantrekkelijke holding-jurisdictie: 100 % DBI-aftrek op kwalificerende dividenden + 0 % uitgaande RV op naar EU-moeders (moeder-dochterrichtlijn) + ruim DBV-netwerk. Sinds BEPS (2015+) en ATAD (2016) zijn de spelregels strenger: substance-vereisten (echt personeel, lokale beslissing), anti-treaty-shopping-clausules in DBV's en CFC-rules (gecontroleerde buitenlandse vennootschap, art. 185/2 WIB92) belemmeren passieve laag-tarief-structuren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 202 + 185/2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer internationale belastingplanning post-BEPS" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De rationale voor internationale structurering verschuift in twee golven. Pre-BEPS (tot ~2015): belastingplanning was vooral fiscale arbitrage — winst boeken in laag-tarief-jurisdictie via passieve substance. Post-BEPS: planning moet aligneren met economic substance (BEPS Action 5: harmful tax practices). De rationale is nu: structureer waar de operationele activiteit zit, maak gebruik van bona-fide regimes (innovatie-aftrek voor R&D-activiteit, holding-regimes voor genuine groepsfinanciering), vermijd kunstmatige tussenliggende vehikels. Voor de Belgische accountant: combineer Belgische voordelen (DBI, deelnemingsvrijstelling) met BEPS-conforme substance-keuzes — geen pure shell-vennootschappen meer.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 5 + Action 6 — standaardleer post-BEPS structurering" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vennootschapsbelasting",
+        "vaste-inrichting",
+        "dubbelbelastingverdrag",
+        "transfer-pricing"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "exit-planning-vennootschap",
+        "dbi-aftrek",
+        "atad-richtlijn",
+        "beps-actieplan"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 202-205 (DBI); art. 205/1-205/4 (innovatie-aftrek); art. 185/2 (CFC); ATAD-richtlijn 2016/1164/EU (in BE-recht via art. 185/2 + 198/1 + 207/7 e.v.); MLI principal purpose test",
+        "toelichting": "Sinds ATAD (omzetting per AJ 2020) en BEPS-MLI-implementatie (gefaseerd 2019-2024) zijn de regels aanzienlijk verstrengd. Cliënten die historisch gebruikten 'klassieke' structuren (Cypriotische SPV, Maltese trading-vennootschap) moeten geherstructureerd worden naar substantieele set-ups."
+      },
+      "voor": [
+        {
+          "tekst": "Belgische KMO met groei naar het buitenland: opzetten van dochters of VI's in marktstaten + fiscale optimalisatie via DBI bij dividenduitkering naar de moeder.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 202" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Multinationale groep met Belgische holding: optimaliseren van groepsfinanciering en IP-management binnen post-BEPS-regels.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Belastingoptimalisatie via DBI (100 % aftrek op kwalificerende deelnemingsdividenden, mits 10 %-of-2,5-mio-EUR-test + 1-jaar-bezit) + 0 % uitgaande RV onder moeder-dochterrichtlijn (EU) of via DBV-tariefverlaging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-203" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Risico's: (1) CFC-aanrekening — passieve laag-tarief-winsten worden alsnog aan de BE-moeder toegerekend (art. 185/2); (2) niet-aftrekbaarheid kosten van een dochter zonder substance; (3) anti-misbruik via GAAR (art. 344 §1) of principal-purpose-test (MLI); (4) DAC6-aangifteplicht voor structurerings-arrangements met grensoverschrijdende fiscale hallmarks; (5) reputatie en CFI-meldingen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 185/2 + 344 §1" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "holding-vehicle",
+        "naam": {
+          "primair": "Holding-vennootschap (België als hub)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een Belgische holding-vennootschap fungeert als groeps-tussenhoofd dat (1) deelnemingsdividenden uit dochters ontvangt met 100 %-DBI-aftrek (art. 202-203 WIB92); (2) interesten op groepsleningen ontvangt (waarbij MIA-vrijstelling vroeger via notionele-interestaftrek werkte — sinds AJ 2024 afgeschaft); (3) meerwaarden op aandelen realiseert met vrijstelling onder voorwaarden (art. 192). Voorwaarden: ≥ 10 % participatie of ≥ 2,5 mio EUR aanschaffingswaarde, 1 jaar ononderbroken bezit, taxatie-voorwaarde (geen low-tax-blacklist).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-203 + 192" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ip-box-en-innovatie-aftrek",
+        "naam": {
+          "primair": "IP-box en innovatie-aftrek"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De Belgische innovatie-aftrek (art. 205/1-205/4 WIB92) staat 85 % aftrek toe van de netto-innovatie-inkomsten — leidt tot een effectief tarief van circa 3,75 % op kwalificerend IP-inkomen. Voorwaarde: nexus-ratio (verhouding eigen R&D-kosten / totale R&D-kosten) — geen IP-stripping. Andere landen hebben vergelijkbare IP-box-regimes (Luxemburg, Cyprus, Hongarije, Nederland). Internationaal structurerend: kiezen waar het IP wordt ontwikkeld + gehouden, rekening houdend met nexus + substance.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 205/1-205/4" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "finance-vehikel-en-thin-cap",
+        "naam": {
+          "primair": "Finance-vehikel + thin-cap-beperkingen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Groepsfinanciering via een finance-vehikel: een groepsentiteit verzamelt overtollige liquiditeiten en leent door aan operationele dochters. Fiscaal voordeel: interest in lage-tarief-land aftrekbaar bij hoge-tarief-dochter. Beperkingen: ATAD-interest-aftrekbeperking (art. 198/1 WIB92) — EBITDA-30 %-regel op overschot-interest; thin-cap-regels voor 5/1-verhouding lening/eigen vermogen. Substance: werkelijke risico-overdracht + lokaal beslissingscentrum + voldoende eigen kapitaal.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 + 198 §1, 11°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cfc-rules-art-185-2",
+        "naam": {
+          "primair": "CFC-rules (art. 185/2 WIB92, ATAD-implementatie)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds AJ 2020: niet-uitgekeerde inkomsten van een gecontroleerde buitenlandse vennootschap (CFC) worden in de Belgische moeder belast, wanneer (a) BE-vennootschap > 50 % belang heeft + (b) buitenlandse vennootschap effectief belast wordt op < 50 % van het Belgische tarief (i.e. < 12,5 %) + (c) de inkomsten zijn passief (royalty's, interesten, dividenden) of voortvloeien uit kunstmatige transfers. Doel: anti-belastingontwijking via offshore-shells.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 185/2" },
+                { "type": "richtlijn", "naam": "ATAD 2016/1164/EU", "ref": "art. 7-8" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "principal-purpose-test",
+        "naam": {
+          "primair": "Principal Purpose Test (PPT — MLI/DBV)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds BEPS Action 6 + MLI: in Belgische DBV's (die MLI ratificeerden) staat een PPT — verdragsvoordelen worden geweigerd indien een van de hoofddoelen van een arrangement was om dat voordeel te verkrijgen, tenzij de toekenning in lijn ligt met het doel en de strekking van het verdrag. Praktisch: een tussen-holding zonder substance kan worden 'geneerd' — de RV-vrijstelling of DBI-toepassing kan worden geweigerd. Documentatie van legitieme zakelijke redenen wordt cruciaal.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "MLI", "ref": "art. 7 (PPT)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "substance-vereisten",
+        "naam": {
+          "primair": "Substance-vereisten (BEPS 5 + EU-blacklist)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Onder BEPS Action 5 + EU-blacklist-criteria moet een vennootschap economische substance hebben in haar vestigingsland: (a) lokaal kantoor; (b) gekwalificeerd personeel ter plaatse (minimum aantal afhankelijk van activiteit); (c) lokale besluitvorming (boardvergaderingen, banktransacties, contractsluiting); (d) eigen kosten in verhouding tot activiteit. Een vennootschap zonder substance riskeert: weigering van verdragsvoordelen (PPT), CFC-aanrekening, opname op EU-blacklist met negatieve gevolgen voor cliënten.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 5 + EU-blacklist substance-standaarden" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dac6-meldingsplicht",
+        "naam": {
+          "primair": "DAC6-meldingsplicht voor structurerings-arrangements"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "DAC6 (EU-richtlijn 2018/822, in BE omgezet via Wet 20-12-2019) verplicht intermediairs (accountants, advocaten, banken) om grensoverschrijdende fiscale arrangements met bepaalde hallmarks te melden aan de fiscus binnen 30 dagen. Hallmarks: gebruik van laag-tarief-staat, conversie van inkomen-type, betalingen aan blacklist-land, etc. Niet-melding = boetes tot 100.000 EUR per dossier. Bij elke internationale structureringsklus: DAC6-hallmark-check verplicht.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "richtlijn", "naam": "Richtlijn 2018/822/EU (DAC6)", "ref": "Bijlage IV" },
+                { "type": "wettekst", "naam": "Wet 20 december 2019", "ref": "art. 6-15" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klassieke offshore-structuren post-BEPS gebruiken",
+        "verkeerde_assumptie": "Een Belgische cliënt kan zijn passieve inkomsten via een Cypriotische SPV of Maltese trading-vennootschap blijven structureren zonder fiscale gevolgen.",
+        "kernpunt": "Post-BEPS (vanaf 2018-2020): CFC-aanrekening (art. 185/2), PPT-weigering, DAC6-melding, EU-blacklist-gevolgen. Klassieke shell-structuren werken niet meer fiscaal-neutraal. Bij heroverweging: substance toevoegen of structuur ontmantelen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 185/2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS/ATAD-praktijkrealiteit" }
+          ]
+        }
+      },
+      {
+        "titel": "DBI-aftrek aannemen zonder taxatie-voorwaarde te checken",
+        "verkeerde_assumptie": "Elke dividend van een buitenlandse dochter komt automatisch in aanmerking voor 100 %-DBI.",
+        "kernpunt": "Art. 203 WIB92 stelt taxatievoorwaarden: dochter mag niet onderworpen zijn aan een belasting die afwijkt van het normale tarief van de vestigingsstaat of < 50 % van het Belgische tarief. Dochters in blacklist-jurisdicties of in specifieke vrijgestelde regimes verliezen DBI-toepassing.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 203" }
+          ]
+        }
+      },
+      {
+        "titel": "DAC6-meldingsplicht onderschatten",
+        "verkeerde_assumptie": "Alleen 'agressieve' structuren moeten gemeld worden.",
+        "kernpunt": "DAC6-hallmarks zijn ruim — ook bona-fide structuren met grensoverschrijdend element kunnen meldplichtig zijn (bv. omzetting van inkomen-categorie, betalingen naar blacklist-land). Bij twijfel: melden of motiveren waarom niet. Boetes tot 100.000 EUR per dossier.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2018/822/EU (DAC6)", "ref": "Bijlage IV" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "be-groep-met-internationale-vertakkingen",
+      "naam": {
+        "primair": "Belgische groep met internationale vertakkingen"
+      },
+      "intro": "Accountant van een Belgische KMO of middelgrote groep met dochters of activiteiten in het buitenland.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "structurerings-audit",
+              "naam": {
+                "primair": "Structurerings-audit: substance + risk-mapping"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Map de bestaande structuur (juridische + economische entiteiten + geldstromen); (2) toets substance per entiteit (kantoor, personeel, beslissingen); (3) check CFC-risico (art. 185/2 — passieve, laag-belaste dochter?); (4) toets PPT in DBV's voor groep-dividenden/RV; (5) identificeer DAC6-hallmarks; (6) advies: herinrichten (substance toevoegen of ontmantelen) of behouden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 185/2 + 198/1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk post-BEPS" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "dbi-jaarlijkse-toets",
+              "naam": {
+                "primair": "Jaarlijkse DBI- en CFC-toets bij elke afsluiting"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke afsluiting: (a) per buitenlandse deelneming: DBI-voorwaarden checken (participatie, bezitsduur, taxatievoorwaarde); (b) CFC-toets per dochter > 50 % belang in laag-tarief-land; (c) toets op interest-aftrek-beperking (EBITDA-30 %); (d) DAC6-controle van het boekjaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-203 + 185/2 + 198/1" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vereist",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "transfer-pricing",
+      "toelichting": "Intragroep-prijszetting tussen entiteiten van een internationale structuur valt onder TP-regels (art. 185 §2 WIB92)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "atad-richtlijn",
+      "toelichting": "ATAD bracht CFC-rules (art. 185/2), interest-aftrek-beperking (art. 198/1) en exit-tax (art. 5)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "toelichting": "BEPS Action 5 (substance), Action 6 (PPT/anti-treaty-shopping), Action 12 (mandatory disclosure) zijn de drivers van post-2015 verstrenging."
+    },
+    {
+      "type": "triggert",
+      "target": "exit-planning-vennootschap",
+      "toelichting": "Bij herstructurering naar het buitenland: exit-belasting + 5-jaars-spreiding ATAD."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "successieplanning",
+      "gelijkenissen": [
+        "Beide gebruiken holding-structuren",
+        "Beide combineren fiscale + juridische optimalisatie"
+      ],
+      "verschillen": [
+        "Internationale structurering: focus op operationele groep + cross-border tarieven",
+        "Successieplanning: focus op overdracht aan volgende generatie + schenk-/erfbelasting"
+      ],
+      "verwarring_risico": "Cliënten verwarren beide — vragen 'successieplanning' terwijl ze internationale operationele structurering bedoelen.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
