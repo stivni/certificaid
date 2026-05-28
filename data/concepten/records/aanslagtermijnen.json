@@ -2,25 +2,28 @@
   "id": "aanslagtermijnen",
   "naam": {
     "primair": "Aanslagtermijnen",
-    "synoniemen": [
-      "aanslagtermijnen-fiscaal",
-      "termijnen aanslag"
-    ]
+    "synoniemen": ["onderzoeks- en aanslagtermijnen", "termijnen vestiging belasting"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.5.II"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.5.II"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aanslagtermijnen.json",
+      "primary_bronnen": [
+        "WIB92 art. 333",
+        "WIB92 art. 354",
+        "WIB92 art. 358",
+        "Wet 20 november 2022 (verlenging aanslagtermijnen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,15 +32,23 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: 3 termijnen (3/4/10 jaar) + Wet 20-11-2022 herziening + bijzondere termijnen art. 358."
       }
     ],
     "scope": {
       "in": [
         "Gewone aanslagtermijn: 3 jaar (vanaf 1 januari van aanslagjaar)",
-        "Verlengde termijn: 5 jaar (vroeger 7) bij niet-aangifte / laattijdige aangifte",
-        "Bijzondere termijn: 10 jaar bij fraude (was 7)",
+        "Verlengde termijn: 4 jaar bij niet- of laattijdige aangifte (na Wet 20-11-2022; was 3+geen-aangifte → 7 jaar voorheen)",
+        "Bijzondere termijn: 10 jaar bij fraude (Wet 20-11-2022, was 7 jaar)",
+        "Bijzondere termijn 6 jaar voor 'complexe aangiftes' (semi-internationaal) sinds 2023",
         "Schorsings- en stuitings-mechanismen",
-        "Rename uit: aanslagtermijnen-fiscaal (PO 2.5)"
+        "Onderzoekstermijnen vs aanslagtermijnen"
       ],
       "out": [
         {
@@ -56,59 +67,93 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De aanslagtermijn is de wettelijke periode waarbinnen de fiscus de aanslag moet vestigen — daarna kan ze niet meer rechtsgeldig belasten voor dat aanslagjaar. De termijn loopt in beginsel vanaf 1 januari van het aanslagjaar. Het Belgisch recht onderscheidt een gewone termijn van 3 jaar (art. 354 WIB92), een verlengde termijn van 4 jaar bij niet-aangifte of laattijdige aangifte, een termijn van 6 jaar voor complexe situaties (sinds 2023) en een termijn van 10 jaar bij fraude. De Wet van 20 november 2022 hervormde deze termijnen substantieel — vroegere bedragen (3/7/7 jaar) gelden nog voor aanslagjaren vóór de inwerkingtreding.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" },
+            { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wetswijziging WIB92 — verlenging aanslagtermijnen" }
           ]
         }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair is de aanslagtermijn de 'klok' van fiscaal recht. Buiten de termijn is een aanslag nietig — gewoon rechtsmiddel om aanslagen aan te vechten. Tegelijk geldt: deze termijnen werden in 2022 substantieel verlengd, dus oude reflexen ('na 3 jaar ben je veilig') gelden niet meer onbeperkt. Bij een dossier met internationale dimensie, beweerd misbruik of laattijdige/onvolledige aangifte: verwacht een langere termijn dan vroeger.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging WIB92 art. 333 + 354 — verlenging termijnen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Aanslagtermijnen balanceren rechtszekerheid (de belastingplichtige moet op een gegeven moment kunnen uitgaan van afgehandeldheid) tegen het belang van de Staat om gerechtvaardigde belastingen te kunnen heffen, vooral wanneer informatie pas laat beschikbaar komt (internationale uitwisseling, klokkenluiders, leaks).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["aanslag-cyclus"],
+      "kader": "fiscale-procedure"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "AJ 2023",
+        "wettelijke_basis": "Wet 20 november 2022 (verlenging onderzoeks- en aanslagtermijnen)",
+        "toelichting": "Voor aanslagjaren tot AJ 2022 gelden de oude termijnen (3 / 7 / 7 jaar). Vanaf AJ 2023 de hervormde termijnen (3 / 4 / 6 / 10 jaar). Bij examen-vragen: kijk welk aanslagjaar relevant is."
       }
     },
     "bouwstenen": [
       {
         "id": "gewone-termijn-3j",
-        "naam": {
-          "primair": "Gewone termijn 3 jaar"
-        },
+        "naam": { "primair": "Gewone termijn — 3 jaar" },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: vanaf 1 januari aanslagjaar",
+            "tekst": "De gewone aanslagtermijn bedraagt 3 jaar te rekenen vanaf 1 januari van het aanslagjaar (art. 354, eerste lid WIB92). Voor aanslagjaar 2026 loopt de gewone termijn dus van 1-1-2026 tot 31-12-2028. Geldt voor alle inkomstenbelastingen wanneer de aangifte tijdig en correct is ingediend.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354, eerste lid" }
               ]
             }
           }
         }
       },
       {
-        "id": "verlengde-termijn-5j",
-        "naam": {
-          "primair": "Verlengde termijn 5 jaar"
-        },
+        "id": "verlengde-termijn-4j",
+        "naam": { "primair": "Verlengde termijn — 4 jaar (niet- of laattijdige aangifte)" },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: bij niet-aangifte/laattijdig",
+            "tekst": "Bij niet-aangifte of laattijdige aangifte is de aanslagtermijn 4 jaar (vroeger 7 jaar; gewijzigd door Wet 20-11-2022). Geldt vanaf AJ 2023. Voor oudere aanslagjaren blijft 7 jaar van toepassing.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354, tweede lid" },
+                { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging WIB92 art. 333 + 354 — verlenging termijnen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "termijn-6j-complex",
+        "naam": { "primair": "Bijzondere termijn — 6 jaar (complexe aangiften)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds AJ 2023 geldt een aanslagtermijn van 6 jaar voor aangiften met een 'semi-complex internationaal' karakter: meldingsplicht juridische constructies, transferpricingbestand, bepaalde grensoverschrijdende transacties. Geïntroduceerd door Wet 20-11-2022 om internationale gegevensuitwisseling tijdig te kunnen verwerken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354, derde lid" },
+                { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging WIB92 art. 333 + 354 — verlenging termijnen" }
               ]
             }
           }
@@ -116,32 +161,126 @@
       },
       {
         "id": "bijzondere-termijn-10j",
-        "naam": {
-          "primair": "Bijzondere termijn 10 jaar"
-        },
+        "naam": { "primair": "Bijzondere termijn — 10 jaar (fraude)" },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: bij fiscale fraude",
+            "tekst": "Bij fiscale fraude (opzettelijke onttrekking van inkomsten, gebruik van valse stukken, frauduleuze constructies) bedraagt de aanslagtermijn 10 jaar (vroeger 7 jaar; gewijzigd door Wet 20-11-2022). Geldt vanaf AJ 2023. De fiscus draagt de bewijslast van de fraude-intentie — een louter rekenfout of nalatigheid volstaat niet voor toepassing van deze verlengde termijn.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354, vierde lid" },
+                { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging WIB92 art. 333 + 354 — verlenging termijnen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderzoekstermijn-vs-aanslagtermijn",
+        "naam": { "primair": "Onderzoekstermijn versus aanslagtermijn" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Aanslagtermijn (art. 354) = periode waarbinnen de fiscus de aanslag moet vestigen. Onderzoekstermijn (art. 333) = periode waarbinnen de fiscus onderzoeksdaden mag stellen (vragen om inlichtingen, controle ter plaatse, derdenonderzoek). De onderzoekstermijn loopt parallel met de aanslagtermijn. Een onderzoek buiten de onderzoekstermijn maakt eventueel verkregen bewijs onbruikbaar voor een aanslag (wel mogelijk met voorafgaande toestemming van de directeur, art. 333 in fine).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 333" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schorsing-stuiting",
+        "naam": { "primair": "Schorsing en stuiting van termijnen" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De aanslagtermijn kan geschorst of gestuit worden in welbepaalde gevallen. Stuiting: een nieuwe termijn van dezelfde duur begint volledig opnieuw te lopen (bv. door dagvaarding tot betaling — Burgerlijk Wetboek art. 2244). Schorsing: de termijn 'pauzeert' en loopt verder na het schorsings-event (bv. gedurende lopend rechtsgeding over een prejudiciële vraag). Art. 358 WIB92 voorziet specifieke verlengingen bij Europese rechtspraak die de Belgische belasting beïnvloedt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 358" },
+                { "type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2244", "context": "Stuitingsmechanismen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "art-358-bijzondere-gevallen",
+        "naam": { "primair": "Bijzondere termijn art. 358 WIB92" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 358 WIB92 voorziet aanvullende aanslagtermijnen — buiten de gewone art. 354-termijnen — voor specifieke situaties: (1) HvJ EU-rechtspraak die een Belgische regel onverenigbaar verklaart (24 maanden vanaf het arrest); (2) ontdekte ontdoken aanslag dankzij internationale gegevensuitwisseling (24 maanden vanaf ontvangst); (3) bepaalde gewijzigde feiten of nieuwe stukken (12 maanden). Zwaarwegende uitzonderingen — zelden ingeroepen, maar belangrijk om te kennen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 358" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-termijntabel",
+        "titel": "Aanslagtermijnen — overzichtstabel",
+        "context": "Aanslagjaar AJ — termijnen vanaf 1 januari AJ.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" },
+            { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging art. 354 WIB92" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Situatie", "Aanslagtermijn (vanaf AJ 2023)", "Oude termijn (tot en met AJ 2022)"],
+            "rijen": [
+              ["Tijdige + correcte aangifte", "3 jaar", "3 jaar"],
+              ["Niet-aangifte of laattijdige aangifte", "4 jaar", "7 jaar (geen-aangifte)"],
+              ["Complexe internationale aangifte (juridische constructies, transferpricing)", "6 jaar", "n.v.t."],
+              ["Bewezen fraude", "10 jaar", "7 jaar"],
+              ["Art. 358 specifieke gevallen", "24 of 12 maand vanaf trigger", "Idem"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Oude '3-7-7'-reflex toepassen",
+        "verkeerde_assumptie": "De aanslagtermijnen zijn 3 jaar (gewoon) / 7 jaar (geen aangifte) / 7 jaar (fraude).",
+        "kernpunt": "Sinds AJ 2023 — Wet 20-11-2022: 3 / 4 / 6 / 10 jaar. De oude '3-7-7'-formule geldt enkel voor aanslagjaren tot en met AJ 2022. Bij examenvraag: lees zorgvuldig welk aanslagjaar betrokken is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 20 november 2022", "ref": "wijziging WIB92 art. 333 + 354 — verlenging termijnen" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanslag- en bezwaartermijn verwarren",
+        "verkeerde_assumptie": "De aanslagtermijn = de termijn waarbinnen de belastingplichtige bezwaar moet indienen.",
+        "kernpunt": "Twee verschillende termijnen voor verschillende partijen. Aanslagtermijn (3/4/6/10 jaar, art. 354 WIB92) = voor de fiscus om de aanslag te vestigen. Bezwaartermijn (1 jaar vanaf verzending aanslagbiljet, art. 371 WIB92) = voor de belastingplichtige om bezwaar in te dienen. Verschillende startpunten, verschillende lengtes.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+          ]
+        }
+      }
     ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" }
   ]
 }

@@ -4,15 +4,19 @@
     "primair": "Juridische constructie (Caymantaks)",
     "afkorting": "JC",
     "synoniemen": [
-      "Caymantaks",
       "doorkijktaxatie",
-      "transparantietaks JC"
-    ]
+      "Caymantax",
+      "look-through tax",
+      "transparante belasting buitenlandse juridische constructies"
+    ],
+    "vertaling": {
+      "fr": "construction juridique (taxe Caïman)"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -21,9 +25,20 @@
       "2.8.XVII"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/juridische-constructie-cayman.json",
+      "primary_bronnen": [
+        "WIB92 art. 2 §1, 13°-15° (definitie JC)",
+        "WIB92 art. 5/1 (doorkijktaxatie PB)",
+        "WIB92 art. 220/1 (doorkijktaxatie RPB)",
+        "WIB92 art. 307 §1/1 (meldingsplicht)",
+        "KB 18-12-2015 (lijst Type-I + Type-II)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,7 +46,14 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 5/1 + 220/1, KB 18-12-2015 lijsten)."
       }
     ],
     "scope": {
@@ -44,17 +66,17 @@
       ],
       "out": [
         {
-          "topic": "Belasting niet-inwoners (JC-niet-Belgische oprichter)",
+          "topic": "Belasting van niet-inwoners (algemene basis)",
           "richting": "moet-verwijzen",
           "ref": "belasting-niet-inwoners"
         },
         {
-          "topic": "Fiscale regularisatie (regularisatie JC-historiek)",
+          "topic": "Fiscale regularisatie (oplossing bij verzwegen JC)",
           "richting": "mag-verwijzen",
           "ref": "fiscale-regularisatie-en-buitenlandse-goederen"
         },
         {
-          "topic": "Successieplanning (cross vermogen + JC)",
+          "topic": "Successieplanning (vaak met JC verbonden)",
           "richting": "mag-verwijzen",
           "ref": "successieplanning"
         }
@@ -64,31 +86,328 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (juridische-constructie-cayman).",
+        "tekst": "De Caymantaks (officieel: doorkijktaxatie op juridische constructies, art. 5/1 en 220/1 WIB92) is een Belgisch transparantie-regime dat buitenlandse juridische constructies (JC) fiscaal 'doorkijkt': de inkomsten van de JC worden geacht rechtstreeks te zijn verkregen door de Belgische oprichter, derde-begunstigde of erfgenaam — alsof de constructie niet bestaat. Twee categorieën: Type-I (entiteiten zonder rechtspersoonlijkheid, bv. trusts en fiduciaire verhoudingen) en Type-II (entiteiten met rechtspersoonlijkheid in een land waar ze niet onderworpen zijn aan een vennootschapsbelasting of aan een belasting van minstens 1 % — opgenomen op de KB-lijst van 18 december 2015 en latere wijzigingen). De ratio: anti-belastingontwijking door verplaatsing van vermogen naar laag- of niet-belaste structuren.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 §1, 13°-15°" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 220/1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de Belgische oprichter (of begunstigde) van een Type-I of Type-II JC zijn de inkomsten van de constructie jaarlijks belastbaar als 'eigen' inkomsten, zelfs als er geen daadwerkelijke uitkering plaatsvindt. Geen dividend-fictie meer nodig — de transparantie is volledig. Bovendien geldt een aangifteplicht in de PB-aangifte (rubriek XIII bis) waar elke Belgische rijksinwoner met enige band met een JC dit moet melden, op straffe van een afzonderlijke geldboete (6.250 EUR per niet-aangegeven JC, geïndexeerd). Bij latere uitkering: in principe geen tweede belasting (vermijding dubbele heffing), tenzij de constructie nooit werd aangegeven.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 307 §1/1" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De Caymantaks werd ingevoerd in 2013 (de eerste versie) als anti-misbruik-instrument tegen het gebruik van offshore-trusts en laag-belaste holdings voor vermogensplanning. De keuze voor doorkijk-fictie (in plaats van eenvoudige bronheffing of meldingsplicht) reflecteert een politieke keuze om verborgen vermogen actief te ontmaskeren en de gewone progressieve PB op te leggen. Sinds de uitbreidingen van 2017, 2019 en 2024 is de scope verbreed naar steeds meer EER-stichtingen en private foundations — wat oorspronkelijk een 'Cayman'-regime was, treft nu ook Luxemburgse SPF's, Liechtensteinse Stiftungen en bepaalde Maltese fundaties zonder echte heffing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Historiek + politieke rationale Caymantaks — standaardleer" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "fiscale-residentie",
+        "successieplanning"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "fiscale-regularisatie-en-buitenlandse-goederen",
+        "anti-misbruik"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "2015",
-        "wettelijke_basis": "Art 5/1 + 220/1 WIB (Programmawet 10-08-2015)"
+        "sinds": "2013-08-01 (eerste invoering) — uitbreidingen 2017, 2019, 2024",
+        "wettelijke_basis": "WIB92 art. 2 §1, 13°-15° + art. 5/1 + 220/1 + 307 §1/1; KB 18 december 2015 (Type-I + Type-II lijst); diverse wijzigings-KB's",
+        "toelichting": "Sinds AJ 2024 verder verstrengd: substance-vereisten voor uitsluiting (echte economische activiteit > 50 % personeelskosten + actief management lokaal). Lijst-KB wordt regelmatig bijgewerkt — bij twijfel: KB raadplegen voor exacte JC-status van een land/entiteit."
+      },
+      "voor": [
+        {
+          "tekst": "Belgische rijksinwoner-natuurlijke-persoon die oprichter, latere derde-begunstigde of erfgenaam is van een trust, stichting of laag-belaste holding in een KB-lijst-land.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1" }
+            ]
+          }
+        },
+        {
+          "tekst": "Belgische rechtspersonen onderworpen aan rechtspersonenbelasting (vzw, stichting) — vergelijkbare doorkijk-regel via art. 220/1.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 220/1" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "JC's waar voldoende substance kan worden aangetoond (effectieve commerciële activiteit, eigen personeel, lokale besluitvorming) — substance-uitzondering art. 5/1 §3.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1 §3" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "type-i-vs-type-ii",
+        "naam": {
+          "primair": "Type-I versus Type-II JC"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Type-I (art. 2 §1, 13°, a)): rechtsverhoudingen zonder rechtspersoonlijkheid — typisch trusts (common law) en fiduciaire verhoudingen. Type-II (art. 2 §1, 13°, b)): rechtspersonen die in hun vestigingsland niet onderworpen zijn aan inkomstenbelasting van minstens 1 %, of die expliciet op de KB-lijst staan (Liechtenstein Stiftung, Luxemburgse SPF, Curaçaose Stichting Particulier Fonds, etc.). Het KB van 18 december 2015 (regelmatig herzien) lijst de specifieke entiteitsvormen per land op.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 §1, 13°" },
+                { "type": "kb", "naam": "KB 18 december 2015", "ref": "Bijlage I-II" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "doorkijk-belasting",
+        "naam": {
+          "primair": "Doorkijk-belastingmechanisme"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Jaarlijks worden de inkomsten van de JC fiscaal toegerekend aan de Belgische oprichter, alsof de oprichter ze rechtstreeks verkreeg. Type van inkomen blijft behouden: dividenden blijven dividenden, interest blijft interest, etc. Belastbaarheid: volgens de gewone PB-regels (categorieën art. 6 WIB92). Indien meerdere oprichters: pro rata. Indien geen oprichter meer in leven: derde-begunstigden of statutaire opvolgers (cascaderegeling art. 2 §1, 14°-15°).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1 §1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "meldingsplicht-aangifte",
+        "naam": {
+          "primair": "Meldingsplicht in PB-aangifte (rubriek XIII bis)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke Belgische rijksinwoner die oprichter, derde-begunstigde of erfgenaam is van een JC, moet jaarlijks in de PB-aangifte vermelden: bestaan van de JC, type, vestigingsland, naam/identiteit. Sinds AJ 2022 ook detail van de jaarinkomsten + uitkeringen. Niet-aangifte: forfaitaire boete van 6.250 EUR (geïndexeerd) per JC en per jaar (art. 445 WIB92). Boete onafhankelijk van de inkomsten van de JC.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 307 §1/1" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 445" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vermijding-dubbele-belasting-bij-uitkering",
+        "naam": {
+          "primair": "Vermijding dubbele belasting bij latere uitkering"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de JC later effectief uitkeert aan de Belgische oprichter of begunstigde, zou er in principe dubbele belasting ontstaan (eerst doorkijk-belasting jaarlijks, dan nog eens als dividend bij uitkering). Art. 21 §1, 12° WIB92 stelt deze uitkeringen vrij voor zover de inkomsten van de JC werden belast in toepassing van art. 5/1. Voorwaarde: aangifte van de JC moet correct gebeurd zijn — verzwegen JC's verliezen deze vrijstelling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 21 §1, 12°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "substance-uitzondering",
+        "naam": {
+          "primair": "Substance-uitzondering (art. 5/1 §3)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De doorkijktaxatie wordt niet toegepast op JC's die een echte economische activiteit uitoefenen waarbij lokaal personeel actief is en beslissingen worden genomen — gebaseerd op het substance-over-form-principe. Sinds 2024 (Wet 22 december 2023) zijn de criteria verstrengd: minstens 50 % van de jaarlijkse exploitatiekosten moet personeelskosten zijn en de personen moeten lokaal handelen. Holdings die louter passieve participaties beheren komen niet in aanmerking.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "exit-tax-bij-overdracht-jc",
+        "naam": {
+          "primair": "Exit-belasting bij overdracht JC"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds 2024: bij overdracht van vermogen uit een JC naar een andere JC, of bij verhuis van de oprichter uit België, geldt een exit-fictie: latente meerwaarden op de activa worden geacht uitgekeerd te zijn aan de oprichter — belastbaar in BE. Doel: voorkomen dat oprichters vlak vóór emigratie hun JC herstructureren om aan toekomstige doorkijktaxatie te ontsnappen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 18 §1, 3°ter (exit-fictie sinds 2024)" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "JC niet aangeven omdat 'er nog niets is uitgekeerd'",
+        "verkeerde_assumptie": "Cliënten denken: zolang de trust niets uitkeert, is er niets te melden.",
+        "kernpunt": "Aangifteplicht (rubriek XIII bis) bestaat onafhankelijk van uitkering — vanaf het bestaan van de juridische verhouding. Bovendien is de doorkijk-belasting jaarlijks verschuldigd op de inkomsten van de JC, zelfs zonder uitkering. Niet-aangifte = forfait-boete + verlies van vrijstelling op latere uitkering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 307 §1/1 + 445" }
+          ]
+        }
+      },
+      {
+        "titel": "Aannemen dat dochtervennootschappen in laag-tarief-landen automatisch JC zijn",
+        "verkeerde_assumptie": "Studenten typeren elke dochter in een laag-tarief-land als JC.",
+        "kernpunt": "Type-II JC vereist (a) opname op de KB-lijst of (b) effectieve onderwerping < 1 %. Reguliere holdings in laag-tarief-landen (bv. Cypriotische LTD met 12,5 % VenB) zijn géén JC — daar zijn andere anti-misbruik-regels (CFC art. 185/2, GAAR, etc.) van toepassing. Eerst KB-lijst raadplegen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 §1, 13°, b)" },
+            { "type": "kb", "naam": "KB 18 december 2015", "ref": "Bijlage II" }
+          ]
+        }
+      },
+      {
+        "titel": "Vrijstelling latere uitkering vergeten als JC nooit werd aangegeven",
+        "verkeerde_assumptie": "Bij een uitkering uit een JC zou vanzelf vrijstelling gelden omdat de doorkijk-belasting bestaat.",
+        "kernpunt": "Art. 21 §1, 12° WIB92 stelt enkel uitkeringen vrij voor zover de JC-inkomsten effectief werden belast (= aangegeven + meegenomen in PB). Bij verzwegen JC's: dubbele belasting (jaarlijkse + uitkering) plus boetes. Regularisatie is dan de enige oplossing.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 21 §1, 12°" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particulier-met-jc",
+      "naam": {
+        "primair": "Particulier met (vermeende) JC-betrokkenheid"
+      },
+      "intro": "De accountant bij wie een cliënt verschijnt met een trust, Liechtensteinse stichting, Luxemburgse SPF, etc.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "screening-jc-status",
+              "naam": {
+                "primair": "JC-screening bij elke nieuwe cliënt"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Vraag systematisch naar buitenlandse rechtsverhoudingen (trusts, stichtingen, holdings); (2) classificeer per entiteit: Type-I / Type-II / geen JC; (3) raadpleeg KB-lijst 18-12-2015 + wijzigingen; (4) bij JC: vraag oprichtingsakte, statuten, jaarrekening; (5) bereken doorkijk-inkomsten + identificeer overdracht-events.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 5/1 + 307 §1/1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard JC-screening-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "regularisatie-bij-verzwegen-jc",
+              "naam": {
+                "primair": "Regularisatie aanraden bij verzwegen JC"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënt komt met een verzwegen historische JC? Eerste advies: regularisatie via het Contactpunt Regularisaties (Wet 21 juli 2016). Voordelen: vermijdt strafrechtelijke vervolging + boetes; behoudt vrijstelling latere uitkering. Risico van afwachten: automatische uitwisseling van inlichtingen (CRS, DAC6) brengt de structuur toch aan het licht — dan zwaardere sancties.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "Wet 21 juli 2016 (permanente regularisatie)", "ref": "art. 5-10" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "triggert",
+      "target": "fiscale-regularisatie-en-buitenlandse-goederen",
+      "toelichting": "Verzwegen JC's worden best vrijwillig geregulariseerd om vrijstelling latere uitkering te behouden."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "personenbelasting",
+      "toelichting": "Doorkijk-belasting is een transparantie-regime dat afwijkt van het normale gescheiden-belastbaarheid-principe tussen oprichter en rechtspersoon."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "anti-misbruik",
+      "toelichting": "Caymantaks is een specifieke anti-misbruik-bepaling die de algemene GAAR (art. 344 §1 WIB92) aanvult."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "internationale-structurering-vennootschap",
+      "gelijkenissen": [
+        "Beide handelen over grensoverschrijdende vermogensstructuren",
+        "Beide hebben anti-misbruik-overwegingen"
+      ],
+      "verschillen": [
+        "JC-regime: focus op natuurlijke-persoon-eigenaar (PB)",
+        "Internationale structurering: focus op vennootschap-eigenaar (VenB) — gebruikt CFC-rules en substance-tests"
+      ],
+      "verwarring_risico": "Niet elke buitenlandse vennootschap is een JC. KB-lijst eerst nakijken.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
