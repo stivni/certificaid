@@ -1,104 +1,62 @@
-# Cluster-extract — schrijf inhoud voor een cluster van schema-2.2-concepten
+# Cluster-extract — Fase 2 (content)
 
-**Fase 2** van de extractie-pipeline. Voor **Fase 1** (skeleton-batch-generatie vanuit skelet-doc), zie `prompts/cluster-skeleton.md`.
+Vul één skeleton-record (schema 2.2) naar status `concept`. **Korte prompt — schema is leidend.**
 
-Je bent een Sonnet-agent die voor één **cluster** schema-2.2-skeletons (status: skeleton) omzet naar volledig uitgewerkte concept-records (status: concept). Eén doorloop, alle aspecten ineens. Output: schema-2.2-valide JSON-records met content.
+## Input
 
-## Wat is je input
+- `data/extractie/bundles/<record-id>.json` — bevat:
+  - `skeleton`: het volledige skeleton-record (scope · sub-concept-hints · cross-relaties · ankers)
+  - `bronnen_chunks`: pre-fetched chunks per query (uit scope.in + naam) — primaire content-bron
+  - `verwante_records`: id + naam + concept_type + definitie-snippet van relatie-targets
+- `data/concepten/schema-2.2.schema.json` — leidend voor **velden, types, enums, `$comment`-richtlijnen**.
 
-1. **Skeleton-records** in `data/concepten/records/<id>.json` — schema-2.2-valide skeletons met scope.in/out + sub-concepten + cross-relaties al ingevuld (handmatig of door eerdere agent-pass). `metadata.status: "skeleton"`.
-2. **Oude v2.1-records** in `data/concepten/records-v21/<id>.json` — bestaande content (mogelijk onder oude naam) als **draft-input**, niet als waarheid.
-3. **Bronnen** via MCP `zoek_bronnen(query, top_k)` voor verdieping. Pre-fetched chunks kunnen klaar staan in `data/extractie/bronnen-chunks/<cluster>/` indien beschikbaar.
-4. **Skelet-doc** `docs/granulariteit-skelet.md` voor cluster-positionering + cross-cluster-relaties.
-5. **Schema** `data/concepten/schema-2.2.schema.json` als single-source-of-truth voor valide output.
+## Output
 
-## Wat is je output
+`data/concepten/records/<record-id>.json` (overschrijven) met:
+- `metadata.status: "concept"`
+- Alle inhoud-velden gevuld waar zinvol (schema $comment + skeleton-hints leiden je)
+- `metadata.changelog[]` append: `{operatie: "cluster-extract", timestamp, model, wijziging}`
+- Schema-2.2-valide
 
-Per record een **volledig ingevuld schema-2.2 JSON**: `data/concepten/records/<id>.json` overschrijven.
+## Werkwijze
 
-Eisen voor "ingevuld":
-- `metadata.status: "concept"` (was `"skeleton"`)
-- `inhoud.kern.definitie` + `substantie` (waar zinvol) + `rationale` (waar zinvol) — met grondslag + bronnen
-- `inhoud.elementen[]` — sub-concepten, regels, stappen, formules uitgewerkt
-- `inhoud.gebruikscontext` — voor, niet_voor, voorwaarden, voordeel, risico, geldigheid (voor regimes)
-- `inhoud.accountant_perspectieven[]` — wat doet de accountant in deze rol
-- `inhoud.voorbeelden[]` — **concrete cases** met cijfers, boekingen, balans-impact (zie hieronder!)
-- `inhoud.valkuilen[]` — didactische valkuilen
-- `inhoud.speelruimtes[]` — keuze-vrijheid + criteria
-- `relaties[]` — top-level relaties naar andere records
-- `metadata.changelog` — append entry voor deze operatie
+1. **Lees** bundle.json + schema-2.2.
+2. **Vul schema-velden** vanuit chunks. Volg `$comment` per veld voor inhoudelijke richtlijn (bv. plaatsings-regel inhoud vs perspectieven).
+3. **Confidence eerlijk**:
+   - `geciteerd` — bron dekt claim rechtstreeks (parafrase OK)
+   - `afgeleid` — multi-bron-conclusie of bron + logische redenering
+   - `verondersteld` — geen bron, vermijd zoveel mogelijk
+   - `betwijfeld` / `weerlegd` — alleen bij echt conflict
+4. **Bronnen**: gebruik chunks uit bundle. Maximaal 2 extra `mcp__certificaid-rag__zoek_bronnen` voor gaten.
+5. **Voorbeelden** — **minstens 2-3 voorbeelden** per record. Eisen:
+   - Concrete €-bedragen + klasse-codes (klasse 6 → klasse 5 voor boekingen)
+   - Voor verrichtingen: balans-snapshot vóór + na
+   - Voor procedures: tijdslijn of flow-diagram (mermaid-syntax in proza-weergave)
+   - Voor regimes: cijfer-uitwerking van toepassing-cascade
+   - Voor ratio's: berekening met getallen + interpretatie
+   - Gebruik `weergaven[].type`: `boeking` · `balans_snapshot` · `tabel` · `proza` (mermaid kan in proza)
 
-## Volgorde binnen je doorloop
+6. **Diagrammen** — waar conceptueel zinvol, voeg mermaid-markdown toe in `proza`-weergave:
+   - Procedure-flows (sequentie van stappen)
+   - Beslissingsbomen (keuze-cascades zoals tarief-toepassing)
+   - Class-diagrammen (parent-sub-concept-relaties)
+   - Tijdslijnen (cyclus-overzicht)
 
-Werk per record in deze volgorde (in 1 file-edit per record):
+   Mermaid-voorbeeld in proza-weergave:
+   ```
+   {"type": "proza", "tekst": "Flow:\n\n```mermaid\nflowchart TD\n  A[Start] --> B[Stap 1]\n  B --> C{Beslis}\n  C -->|ja| D[X]\n  C -->|nee| E[Y]\n```"}
+   ```
+6. **Validate**:
+   ```python
+   import json, jsonschema
+   schema = json.load(open('data/concepten/schema-2.2.schema.json'))
+   record = json.load(open('data/concepten/records/<id>.json'))
+   jsonschema.validate(record, schema)
+   ```
+7. **Commit**: `git add data/concepten/records/<id>.json && git commit --no-verify -m "extract: <id>"`
 
-1. **Beschrijven**: kern.definitie + substantie + rationale + elementen + gebruikscontext.
-2. **Relaties**: top-level `relaties[]` + cross-cluster cross-links.
-3. **Accountant-perspectieven**: rollen per positie (boekhouder · auditor · fiscaal · adviseur · begeleider).
-4. **Didactisch verrijken**: voorbeelden + valkuilen + speelruimtes + syntheses.
-5. **Claims-checken (als laatste!)**: ga elke claim na, upgrade `verondersteld` → `geciteerd`/`afgeleid` waar bron rechtstreeks dekt, of degradeer naar `betwijfeld`/`weerlegd`. Pas bronnen aan.
+## Rapport
 
-Zie de detail-prompts:
-- `prompts/operaties/1-beschrijven.md`
-- `prompts/operaties/2-relaties_aanvullen.md`
-- `prompts/operaties/3-accountant_perspectief.md`
-- `prompts/operaties/4-didactisch_verrijken.md`
-- `prompts/operaties/5-claims_checken.md`
-
-## Didactische verrijking — EXPLICIET
-
-Vrouw studeert om examen-klaar te raken. Records zonder concrete uitwerking helpen niet. Eis:
-
-**Voor elke regeling / verrichting / gebeurtenis MOET minstens één voorbeeld**:
-- **Boekingen** met klasse-codes en bedragen (klasse 6 → klasse 5, etc.)
-- **Balans-snapshots** vóór + na de verrichting (waar relevant)
-- **Berekeningen** met getallen (geen formules zonder cijfers)
-- **Cases** met realistische bedragen die in examen-vragen voorkomen (€100.000 omzet, 5 werknemers, etc.)
-
-Voor kaders / principes / actoren: voorbeelden mogen procedurele cases zijn (wie doet wat wanneer).
-
-Gebruik `weergaven[].type` (uit `inhoud_type` enum): `boeking` voor boekhoud-voorbeelden, `balans_snapshot` voor balans-impact, `tabel` voor vergelijkingen, `proza` voor toelichting.
-
-## Bronnen-strategie
-
-1. **Pre-fetched chunks** als beschikbaar (`data/extractie/bronnen-chunks/<cluster>/*.md`) — gebruik primair.
-2. **MCP zoek_bronnen** voor extra verdieping: alleen wanneer pre-fetched onvoldoende is. Max 5 calls per record. Gebruik scope.in[]-strings als query-templates.
-3. **Bron-referenties** in `bronnen[]`: `type` = `wettekst`/`kb`/`cbn`/`norm`/`richtlijn`/`circulaire` voor primaire bronnen; `ai_model` voor afgeleide claims. Verplicht `ref` voor primaire bronnen (artikel-nummer, advies-code, ISA-nummer).
-4. **Bestaande v2.1-content** als draft: lees `data/concepten/records-v21/<id>.json` als beschikbaar — bevat al wettelijke verwijzingen die je kunt overnemen (maar valideer + actualiseer!).
-
-## Schema-2.2-eisen (CRITICAL)
-
-- `metadata.schema_version: "2.2"`
-- `metadata.status: "concept"` (na je werk)
-- `metadata.categorieen[]`: lijst K/E/G/R-categorieën (kader · entiteit · gebeurtenis · regeling) — een record kan hybride zijn
-- `metadata.ankers[]`: PO-anchors uit cluster-spec
-- `metadata.scope.in[]`: behoud uit skeleton
-- `metadata.scope.out[]`: list van objects `{topic, richting, ref}` waar `richting` = `moet-verwijzen`/`mag-verwijzen`/`niet-verwijzen`
-- `metadata.provenance.model`: jouw model-naam
-- `metadata.changelog`: append entry met operatie="cluster-extract"
-- `inhoud.kern`: ten minste 1 van definitie/substantie/rationale
-- `inhoud.gebruikscontext.geldigheid` (voor regimes): status uit `in-voege`/`uitdovend`/`afgeschaft`/`historisch`/`ontwerp`
-- Elke claim heeft `grondslag.confidence` + `grondslag.bronnen[]` (≥1)
-- Confidence-tokens: `geciteerd`/`afgeleid`/`verondersteld`/`betwijfeld`/`weerlegd`
-- Tijdens beschrijven-fase alleen `verondersteld` of `betwijfeld`; claims-checken upgrade/degrade
-
-## Validatie vóór je opslaat
-
-Na elk record-update:
-```python
-import json, jsonschema
-schema = json.load(open('data/concepten/schema-2.2.schema.json'))
-record = json.load(open('data/concepten/records/<id>.json'))
-jsonschema.validate(record, schema)  # mag niet falen
-```
-
-Als validatie faalt: fix vóór je verder gaat. Schema is leidend.
-
-## Eindrapport
-
-Aan het einde van je doorloop:
-- Aantal records klaar (`status=concept`)
-- Aantal claims per confidence-token (geciteerd/afgeleid/verondersteld/betwijfeld)
-- Cross-cluster relaties aangemaakt (top-level relaties[])
-- Open punten / gaten / vragen voor mens-review
-- Bron-coverage: welke records hebben primaire bron-citaten, welke niet
+- Aantal claims + verdeling per confidence-token
+- Bronnen-coverage (welke claims hebben primaire bron-ref)
+- Open punten / twijfels

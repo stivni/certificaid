@@ -82,3 +82,4 @@ data/extractie/matches.sqlite3
 
 # Tarief-records vision-extractie staging (ADR-026)
 data/tarieven/_poc/
+data/extractie/bundles/
