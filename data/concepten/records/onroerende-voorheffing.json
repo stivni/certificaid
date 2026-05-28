@@ -2,75 +2,240 @@
   "id": "onroerende-voorheffing",
   "naam": {
     "primair": "Onroerende voorheffing",
-    "afkorting": "OV"
+    "afkorting": "OV",
+    "vertaling": { "fr": "précompte immobilier" }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.I.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.7.I.B"],
     "scope": {
       "in": [
         "Gewestelijke belasting op onroerend goed (Vl/Wal/Br)",
-        "Basis = kadastraal inkomen (KI) · gewestelijk basistarief",
+        "Basis = kadastraal inkomen (KI) · gewestelijk basistarief (Vl 3,97 % / Br + Wa 1,25 %)",
         "Opcentiemen door provincie + gemeente",
-        "Vrijstellingen + verminderingen (gezinswoning · kinderen · handicap)",
+        "Vrijstellingen + verminderingen (gezinswoning · kinderen · handicap · energetisch)",
         "Cross naar personenbelasting (verrekening of aanrekening)"
       ],
       "out": [
-        {
-          "topic": "Gemeentelijke opcentiemen detail",
-          "richting": "moet-verwijzen",
-          "ref": "gemeentelijke-opcentiemen-onroerende-voorheffing"
-        },
-        {
-          "topic": "PB-cross (verrekening)",
-          "richting": "mag-verwijzen",
-          "ref": "personenbelasting"
-        }
+        { "topic": "Gemeentelijke opcentiemen detail", "richting": "moet-verwijzen", "ref": "gemeentelijke-opcentiemen-onroerende-voorheffing" },
+        { "topic": "PB-cross (verrekening)", "richting": "mag-verwijzen", "ref": "personenbelasting" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/onroerende-voorheffing.json",
+      "primary_bronnen": [
+        "WIB92 art. 251",
+        "WIB92 art. 255",
+        "WIB92 art. 257-260",
+        "VCF Titel 2.1 (Vl)",
+        "WIB92 art. 464 (opcentiemen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld op basis van WIB92 + VCF + standaard OV-doctrine." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "De onroerende voorheffing (OV) is een jaarlijkse gewestelijke belasting op onroerend goed, gebaseerd op het kadastraal inkomen (KI) van het goed. Sinds de zesde staatshervorming is de OV een volledige gewestelijke materie: Vlaanderen, Brussel en Wallonië bepalen zelf het basistarief, de vrijstellingen en de verminderingen. Het basistarief is in Vlaanderen 3,97 %, in Brussel en Wallonië 1,25 %. Daarbij komen provinciale (verdwenen in Vl sinds 2018) en gemeentelijke opcentiemen die het effectief tarief vermenigvuldigen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 251", "context": "OV op kadastraal inkomen" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 255", "context": "Tarief OV" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De OV is in de praktijk een 'samengestelde' jaarlijkse vastgoedbelasting: bij een Vlaamse gezinswoning met geïndexeerd KI 2.000 EUR + 1.500 gemeentelijke opcentiemen: 2.000 × 3,97 % × 16 = 1.270 EUR. Voor de eigenaar is dat één van de belangrijkste vaste lasten op vastgoed (na hypotheekrente). De OV is verschuldigd door de eigenaar of de houder van een zakelijk recht (vruchtgebruiker, erfpachter, opstalhouder) op 1 januari van het aanslagjaar. Bij doorverhuur kan de OV contractueel aan de huurder worden doorgerekend voor commerciële huur (niet voor woninghuur — gewestelijk verbod in Vl/W).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 251" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard OV-praktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Klassiek: belasting op vermogenshouder van onroerend goed (Vermögensteuer) — onroerend goed levert (theoretisch) een gebruikswaarde of huurwaarde op, en de OV is de fiscale prijs daarvan. Het KI is een geforfaitiseerde geschatte nettohuurwaarde uit de jaren '70 (laatste perekwatie 1979–1980), wat tot scheve verhoudingen leidt tussen oude en nieuwe woningen. Sinds 2014 volledig gewestelijke bevoegdheid — gewesten gebruiken het tarief en de verminderingen als beleidsinstrument (huisvestingsbeleid, gezinsbeleid, energiebeleid).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine OV + perekwatie-rationale" }]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "voorvereisten": ["kadastraal-inkomen"],
+      "naast_relevant": ["gemeentelijke-opcentiemen-onroerende-voorheffing", "personenbelasting"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 251-260 (federaal kader) + VCF Titel 2.1 (Vl) + decreten/ordonnanties Wallonië en Brussel",
+        "toelichting": "OV is gewestelijk sinds 2014 (zesde staatshervorming). Vlaanderen heeft het regime aanzienlijk hervormd en sterk geïntegreerd in de VCF. Brussel en Wallonië volgen nog grotendeels de oorspronkelijke WIB92-structuur."
+      },
+      "voor": [
+        {
+          "tekst": "Eigenaar, vruchtgebruiker, erfpachter, opstalhouder of bezitter (zelfs zonder titel) van een in België gelegen onroerend goed (gebouwd of ongebouwd) op 1 januari van het aanslagjaar. Voor een gewoon huis: de eigenaar betaalt. Bij vruchtgebruik: de vruchtgebruiker (geniet de gebruiksvruchten). Bij appartement: de mede-eigenaar pro rata zijn aandeel.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 251" }]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Vrijstellingen: openbaar domein, religieuze gebouwen voor erediensten, scholen, ziekenhuizen onder voorwaarden, monumenten (Vl: vermindering), onroerend goed voor industriële productie (deeltijds, voor 'outillage'). Verminderingen voor gezinswoning + kinderen ten laste + handicap + energetische renovatie (Vl).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 253" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse vrijstellings-doctrine" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vermindering gezinswoning + kinderen ten laste (Vl): vanaf 2 kinderen ten laste een vermindering — orde van grootte 8-20 % van de OV. Vermindering voor handicap. Korting voor energetisch presterende nieuwbouw (E-peil-grens). Exacte bedragen + voorwaarden in Cijferzakboekje of VCF.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse OV-doctrine" }]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "ki-basis",
+        "naam": { "primair": "Kadastraal inkomen als basis" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het kadastraal inkomen (KI) is een geforfaitiseerde schatting van de jaarlijkse netto-huurwaarde van het onroerend goed, vastgelegd door de Administratie van het Kadaster bij ingebruikname of bij wijziging. Het wordt jaarlijks geïndexeerd. Geïndexeerd KI = nominaal KI × indexcoëfficiënt. De laatste algemene perekwatie dateert van 1980 — het KI is dus structureel verouderd en gemiddeld lager dan de werkelijke huurwaarde. Een nieuwe perekwatie wordt in alle gewesten besproken maar nog niet uitgevoerd.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 471 e.v.", "context": "Kadastraal inkomen" }
+              ]
             }
+          }
+        }
+      },
+      {
+        "id": "basistarief-vl",
+        "naam": { "primair": "Basistarief Vlaanderen 3,97 %" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Vlaamse basistarief is 3,97 % van het geïndexeerde KI (verhoogd in vergelijking met de 'federale 1,25 % traditie' bij overdracht in 2014). Brussel en Wallonië hebben 1,25 % behouden. Het Vlaamse hogere basistarief wordt gecompenseerd door specifieke verminderingen (gezinswoning, kinderen) zodat de effectieve OV op een gezinswoning niet noodzakelijk hoger is dan in BHG/W.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 255", "context": "Basistarief 1,25 % federaal — gewestelijk vermenigvuldigd" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betaalplicht-1jan",
+        "naam": { "primair": "Belastingplichtige op 1 januari" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De OV is verschuldigd door wie op 1 januari van het aanslagjaar eigenaar of zakelijk rechthebbende is. Bij verkoop in de loop van het jaar: in beginsel betaalt de verkoper (was eigenaar op 1 januari), maar in de praktijk wordt via notariële akte een pro rata-verrekening overeengekomen tussen verkoper en koper. Bij vruchtgebruik: de vruchtgebruiker (niet de blote eigenaar).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 251" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vl-gezin",
+        "titel": "OV Vlaanderen — gezinswoning met 3 kinderen",
+        "context": "Gezinswoning Vlaanderen, geïndexeerd KI 2.000 EUR. Gemeentelijke opcentiemen 1.500. Gezin met 3 kinderen ten laste — vermindering kinderen ten laste.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardvoorbeeld" }]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — basis-OV Vl = 2.000 × 3,97 % = 79,4 EUR.",
+              "Stap 2 — opcentiemen-factor = 1 + 1.500/100 = 16.",
+              "Stap 3 — bruto OV-totaal = 79,4 × 16 = 1.270 EUR.",
+              "Stap 4 — vermindering kinderen ten laste (Vl, illustratief, bv. 7,75 EUR per kind × 16 = 124 EUR voor 3 kinderen — exact bedrag in Cijferzakboekje): aftrek ≈ 372 EUR.",
+              "Stap 5 — netto OV ≈ 898 EUR."
+            ],
+            "resultaat": "Aanzienlijk verminderd door gezinsvermindering. Exact bedrag per kind opzoeken in Cijferzakboekje / VCF."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Verwarring met de vroegere PB-rubriek 'onroerend inkomen'",
+        "verkeerde_assumptie": "De OV is dezelfde belasting als de onroerende inkomstenbelasting binnen de personenbelasting.",
+        "kernpunt": "De OV is een jaarlijkse gewestelijke vastgoedbelasting, los van de PB. Daarnaast belast de PB het 'onroerend inkomen' van de eigenaar (KI van eigen woning is vrijgesteld; verhuurde panden: KI of werkelijke huurwaarde). Voor verhuurde panden geldt: KI vermeld in de aangifte + de OV is verrekenbaar in beperkte mate (bedrijfsmatige verhuur).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek didactisch verschil" }
           ]
         }
       }
-    }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
+      "id": "vastgoedeigenaar",
+      "naam": { "primair": "Cliënt-vastgoedeigenaar / verhuurder" },
+      "intro": "De accountant die fiscale planning rond vastgoed begeleidt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "verminderingen-claimen",
+              "naam": { "primair": "Verminderingen claimen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controleer jaarlijks bij het aanslagbiljet OV of alle verminderingen correct zijn toegepast: gezinswoning + kinderen ten laste + handicap + energetische renovatie. Bij ontbrekende vermindering: bezwaarschrift bij FOD/gewestelijke administratie (binnen 3 maanden in Vl bij Vlaamse Belastingdienst). Voor verhuurd vastgoed: nakijken of huurder/eigenaar correct de OV draagt volgens huurovereenkomst.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "lokale-en-regionale-belastingen" },
+    { "type": "vereist", "target": "kadastraal-inkomen" },
+    { "type": "bevat", "target": "gemeentelijke-opcentiemen-onroerende-voorheffing", "toelichting": "Gemeentelijke opcentiemen zijn een onlosmakelijk onderdeel van de uiteindelijke OV-aanslag." }
   ]
 }
