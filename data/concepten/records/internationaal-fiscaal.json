@@ -5,12 +5,16 @@
     "synoniemen": [
       "international tax law",
       "fiscaliteit internationaal"
-    ]
+    ],
+    "vertaling": {
+      "en": "International tax law",
+      "fr": "droit fiscal international"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -25,9 +29,20 @@
       "2.8.XVII"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/internationaal-fiscaal.json",
+      "primary_bronnen": [
+        "OECD-MTC 2017 — Chapter V Methods for Elimination of Double Taxation (art. 23A/23B)",
+        "OECD-MTC art. 25 (MAP)",
+        "Circulaire 2020/C/35 (Verrekenprijzen + arm's length)",
+        "DBV BE-NL 2001 — art. 23 (illustratie BE-methode)",
+        "Verdrag van Wenen 23-5-1969 inzake het verdragenrecht (art. 31)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -36,6 +51,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Σ-record voor PO 2.8 'internationaal fiscaal recht'. Inhoud-velden gevuld als overzicht-laag boven de 9 sub-records (DBV, OESO-MV, MLI, BEPS, EU-richtlijnen, vaste-inrichting, MAP, CbCR, atad)."
       }
     ],
     "scope": {
@@ -88,20 +110,280 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationaal-fiscaal).",
+        "tekst": "Internationaal fiscaal recht is het geheel van regels, beginselen en instrumenten dat de fiscaliteit van grensoverschrijdende situaties regelt — wanneer twee of meer staten heffingsbevoegdheid claimen over hetzelfde inkomen, dezelfde activiteit of dezelfde belastingplichtige. Het bouwt op drie pijlers: (1) bilaterale dubbelbelastingverdragen (DBV's), gebaseerd op het OESO-modelverdrag en gewijzigd door het Multilateraal Instrument (MLI); (2) EU-fiscale richtlijnen (Moeder-dochter, Interest-Royalty, Fusierichtlijn, ATAD I+II, DAC-cascade, BTW-richtlijn); (3) eenzijdige Belgische instrumenten (WIB92 + KB's). Doel: voorkomen van zowel dubbele belasting (door verdragen en methodes 23A/23B) als dubbele niet-belasting (door BEPS, PPT, ATAD).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "Chapter V — Methods for Elimination of Double Taxation", "context": "Art. 23A exemption + 23B credit" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Σ-synthese over drie pijlers internationaal fiscaal recht" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch instapkader voor de stagiair: bij elke grensoverschrijdende fiscale vraag stelt hij vier vragen, in volgorde: (1) Wie is belastingplichtig waar? — woonplaatstoets per land (inwoner vs niet-inwoner) → DBV-art. 4 lost dubbele residentie op met tie-breaker. (2) Welk inkomen valt waar? — inkomenscategorie-toewijzing volgens DBV-art. 6-21 (vastgoed, ondernemingswinst via VI, dividend, interest, royalty, loon, ...). (3) Hoe wordt dubbele belasting voorkomen? — methode 23A vrijstelling met progressievoorbehoud (BE-standaard) of 23B verrekening (BE voor interest/royalty via FBB; voor dividend via DBI-regime art. 202-204 WIB92). (4) Werkt er een anti-misbruik-laag? — PPT in DBV's na MLI, ATAD GAAR/CFC/interest-aftrek-beperking, EU-DAC6 meldingsplicht, BEPS-CbCR. Een goede stagiair-aanpak: identificeer de juridische bron-laag waar het antwoord moet komen (intern recht → DBV → MLI-laag → EU-richtlijn → BEPS-anti-misbruik) en werk top-down door.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 4 + 5 + 6-21 + 23 + 25 + 29", "context": "Structuur die elk DBV volgt" },
+            { "type": "circulaire", "naam": "Circulaire 2020/C/35", "ref": "Hoofdstuk XII Inleiding", "context": "Belgische administratie volgt TPG 2017 + BEPS-acties 8-10" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "4-stappen-aanpak voor stagiair" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Internationaal fiscaal recht balanceert drie spanningsvelden tegelijk: (1) fiscale soevereiniteit van staten (elke staat wil zijn aandeel) versus economische mobiliteit (handel, kapitaal, personen mogen niet belemmerd worden); (2) inning bij de bronstaat (waar economisch waarde gecreëerd wordt) versus de woonstaat (waar de belastingplichtige sociale infrastructuur gebruikt); (3) zekerheid voor belastingplichtigen versus anti-misbruik-bevoegdheid van fiscussen. Sinds BEPS (2015) verschoof de balans expliciet: 'no double taxation, but also no double non-taxation' (Preamble OESO-MV 2017 + MLI art. 6). Politieke driver: G20-respons op publieke verontwaardiging over multinational tax planning (Apple/Ireland, Starbucks/Netherlands).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "Preamble + MLI art. 6", "context": "'eliminate double taxation... without creating opportunities for non-taxation'" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer drie spanningsvelden" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "vennootschapsbelasting",
+        "btw",
+        "fiscale-residentie"
+      ],
+      "naast_relevant": [
+        "transfer-pricing",
+        "algemene-anti-misbruik-bepaling"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Combinatie van DBV-netwerk (ca. 100 BE-DBV's) + MLI (vanaf 2019) + EU-richtlijnen + WIB92/WBTW + BEPS-implementatie",
+        "toelichting": "Internationaal fiscaal recht is een levend kader — DBV's wijzigen via MLI, EU-richtlijnen evolueren (DAC8 in voorbereiding, Pijler 2 sinds AJ 2025)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke grensoverschrijdende fiscale situatie: een Belgische inwoner met buitenlandse inkomstenbron, een niet-inwoner met Belgische bron, een vennootschap met buitenlandse VI of dochter, expats, grensarbeiders, multinationale groepen, bestuurders-mandatarissen, holdingstructuren, transferpricing-vragen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drie-pijlers",
+        "naam": {
+          "primair": "Drie pijlers van internationaal fiscaal recht (BE-perspectief)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Pijler 1 — DBV-netwerk: ca. 100 bilaterale verdragen, gebaseerd op OESO-MV, gewijzigd door MLI. Pijler 2 — EU-recht: directe belastingen (Moeder-dochterrichtlijn, Interest-Royalty, Fusierichtlijn, ATAD I+II, DAC) + indirecte belastingen (BTW-richtlijn 2006/112, BTW-teruggaaf 2008/9) + Pijler 2 GloBE-richtlijn 2022/2523. Pijler 3 — Belgische unilaterale instrumenten: WIB92 art. 156 (halvering belasting niet-verdragsinkomen), art. 202-204 (DBI), art. 285-289 (FBB), art. 321/1-7 (CbCR + master/local file), aangiftecode-systeem.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Structuur-synthese BE-perspectief" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vier-stappen-aanpak",
+        "naam": {
+          "primair": "Vier-stappen-aanpak voor grensoverschrijdende fiscale analyse"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Stap 1 — woonplaats: is belastingplichtige BE-inwoner of niet-inwoner? Dubbele residentie? → tie-breaker DBV art. 4. Stap 2 — categorie + bron: in welke inkomenscategorie valt het inkomen + waar ligt de bron? → DBV art. 6-21 wijst aan welke staat mag belasten. Stap 3 — methode: hoe vermijdt de woonstaat dubbele belasting? → DBV art. 23A (vrijstelling met progressie, BE-standaard) of 23B (verrekening). Stap 4 — anti-misbruik: zit er een PPT, GAAR of ATAD-bepaling in de weg? → DBV art. 29 + ATAD GAAR + algemene-anti-misbruik-bepaling art. 344 §1 WIB92.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 4, 6-21, 23, 29", "context": "Standaard-structuur DBV" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische werkmethode" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "methodes-voorkoming-be",
+        "naam": {
+          "primair": "BE-methodes voor voorkoming dubbele belasting"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "(a) Vrijstelling met progressievoorbehoud (DBV art. 23A → BE-hoofdregel): buitenlands inkomen vrijgesteld, telt mee voor progressie op overig inkomen. Voor: vastgoed, VI-winst, loon, bestuursvergoedingen. (b) Verrekening via FBB (DBV art. 23B): buitenlands inkomen mee belast, buitenlandse bronheffing afgetrokken via Forfaitair Gedeelte Buitenlandse Belasting (art. 285-289 WIB92). Voor: interest, royalty's. (c) DBI-regime (art. 202-204 WIB92): vrijstelling van dividend ontvangen door BE-vennootschap, mits taxatievoorwaarde + minimumdeelneming van 10% of 2,5 mln EUR aanschaffingswaarde. (d) Halvering belasting (art. 156 WIB92): eenzijdige BE-maatregel voor inkomen uit niet-verdragslanden — halvering van de Belgische belasting op het buitenlandse inkomen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 23A + 23B" },
+                { "type": "modelverdrag", "naam": "DBV BE-NL 2001", "ref": "art. 23 §1 a-c", "context": "Belgische methode-keuze per inkomen" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 156", "context": "Eenzijdige halvering zonder DBV" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-204", "context": "DBI-regime voor dividend" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 285-289", "context": "FBB voor interest/royalty" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-misbruik-laag",
+        "naam": {
+          "primair": "Anti-misbruik-laag — internationaal én Belgisch"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds BEPS bestaat een meerlagige anti-misbruik-architectuur. (1) Internationaal niveau: PPT in DBV's (via MLI art. 7) — verdragsvoordelen weigeren bij hoofddoel = belastingvoordeel. (2) EU-niveau: ATAD I GAAR (Algemene Anti-Misbruik-Regel) + CFC-regels + interest-aftrek 30% EBITDA-beperking; ATAD II hybride mismatches; DAC6 meldingsplicht voor agressieve grensoverschrijdende planning. (3) BE-niveau: algemene-anti-misbruik-bepaling art. 344 §1 WIB92 + transferpricing-correcties art. 26 + 185 §2 WIB92 + specifieke anti-misbruik-bepalingen (art. 198 §1 11°, art. 207 WIB92 voor verliesverrekening na aandelenwijziging). Lagen werken cumulatief — een holdingstructuur kan zowel onder PPT, ATAD GAAR als art. 344 §1 vallen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "MLI", "ref": "art. 7 (PPT)" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Meerlagige anti-misbruik-architectuur" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "arm-s-length-principe",
+        "naam": {
+          "primair": "Arm's length-principe (transfer pricing)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Internationale standaard voor verdeling van winst over groepsleden van een multinationale onderneming: leden van de groep moeten in hun prijszetting worden beschouwd als niet-verbonden. Gebaseerd op OESO-MV art. 9 (Associated Enterprises) en uitgewerkt in de OESO Transfer Pricing Guidelines 2017 (TPG 2017, na BEPS-actie 8-10 ingrijpend herzien). BE-implementatie: art. 26 + art. 185 §2 WIB92 (winstcorrectie bij niet-marktconforme transacties) + Circulaire 2020/C/35 die de TPG 2017 onderschrijft. De Verdrag van Wenen-regels inzake verdragsinterpretatie (art. 31) garanderen dat OESO-commentaar (waaronder TPG 2017) gezaghebbend is voor de interpretatie van DBV-bepalingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Circulaire 2020/C/35", "ref": "Inleiding", "context": "'Het arm's length principe is internationaal aanvaarde standaard'" },
+                { "type": "modelverdrag", "naam": "Verdrag van Wenen 23-5-1969", "ref": "art. 31", "context": "Interpretatieregels voor verdragen" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Vergelijkingsmatrix BE-methode per inkomenscategorie onder een typisch DBV (gebaseerd op OESO-MV-template).",
+        "inhoud": {
+          "kolommen": ["Inkomenscategorie", "DBV-artikel", "Bronstaat-recht", "BE-woonstaat methode"],
+          "rijen": [
+            ["Vastgoed-inkomsten", "art. 6", "Onbeperkt", "Vrijstelling met progressie (art. 23A)"],
+            ["Ondernemingswinst (via VI)", "art. 7", "Beperkt tot VI-winst", "Vrijstelling met progressie (art. 23A)"],
+            ["Dividend", "art. 10", "Beperkt (5% / 15%)", "DBI-regime (art. 202-204 WIB92)"],
+            ["Interest", "art. 11", "Beperkt (typisch 10%)", "Verrekening via FBB (art. 23B + 285-289 WIB92)"],
+            ["Royalty", "art. 12", "Variabel per DBV", "Verrekening via FBB"],
+            ["Loon", "art. 15", "Werkstaat tenzij 183-d", "Vrijstelling met progressie (art. 23A)"],
+            ["Bestuursvergoeding", "art. 16", "Vennootschapsstaat", "Vrijstelling met progressie (art. 23A)"],
+            ["Pensioen", "art. 18", "Variabel (woon- of bronstaat)", "Variabel — DBV-specifiek"]
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Direct naar DBV zonder eerst WIB92 te checken",
+        "verkeerde_assumptie": "Bij grensoverschrijdende situaties begin je met het DBV.",
+        "kernpunt": "Een DBV is een 'verdelings-instrument' tussen twee staten — het wijst heffingsbevoegdheid aan maar creëert geen heffing. Vraag eerst: is dit inkomen onder Belgisch nationaal recht (WIB92, WBTW) belastbaar? Zo nee → geen DBV-toets nodig. Zo ja → past het DBV de Belgische heffingsbevoegdheid in?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische analysevolgorde" }
+          ]
+        }
+      },
+      {
+        "titel": "BTW = internationaal fiscaal",
+        "verkeerde_assumptie": "Grensoverschrijdende BTW-vragen zitten in hetzelfde kader als directe belastingen.",
+        "kernpunt": "Indirecte belastingen (BTW, accijnzen) leven naast de directe belastingen — eigen EU-richtlijn 2006/112, eigen anti-misbruik (PPT WBTW, verleggingsregeling, OSS/IOSS), eigen identificatie-regels (fiscaal vertegenwoordiger). Bij een BTW-vraag: ga eerst naar de BTW-laag (plaats van handeling-regels art. 21 WBTW, verlegging, ...) — DBV's spelen er geen rol in.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG (BTW)", "ref": "art. 1", "context": "Aparte BTW-laag" }
+          ]
+        }
+      },
+      {
+        "titel": "MLI vervangt DBV's",
+        "verkeerde_assumptie": "Het Multilateraal Instrument heeft de oude DBV's overbodig gemaakt.",
+        "kernpunt": "MLI is een wijzigings-instrument bovenop bestaande DBV's. Een concrete BE-DBV-toepassing vereist altijd: (1) basis-DBV-tekst lezen; (2) toetsen welke MLI-bepalingen door beide partijen werden aanvaard; (3) synthese maken. OESO publiceert 'synthetised texts' die beide samenvoegen, maar juridisch leven ze naast elkaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "MLI", "ref": "art. 1", "context": "'modifies' (wijzigt, vervangt niet)" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "kantoor-internationaal",
+      "naam": {
+        "primair": "Kantoor met internationaal-fiscale praktijk"
+      },
+      "intro": "De accountant die KMO's met grensoverschrijdende activiteit begeleidt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "internationaal-checklist",
+              "naam": {
+                "primair": "Checklist bij elke grensoverschrijdende cliënt"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stel bij elke cliënt met grensoverschrijdende activiteit minstens deze vragen vóór de aangifte: (1) Welke landen zijn betrokken? Bestaat er een BE-DBV met dat land? (2) Is de cliënt inwoner volgens BE-recht én volgens het andere land? Dual residency? (3) Welke inkomenscategorieën zijn grensoverschrijdend (vastgoed, VI, loon, dividend, interest, royalty)? (4) Welke methode (vrijstelling/verrekening) past het DBV toe? (5) Bestaat er MLI-effect op het DBV? Sinds wanneer? (6) Is er een anti-misbruik-risico (PPT, art. 344 §1, ATAD)? (7) Zijn er specifieke EU-richtlijn-voordelen (PSD-DBI, IRS) van toepassing?",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist op basis van DBV-structuur" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "structuur-advies",
+              "naam": {
+                "primair": "Advies bij grensoverschrijdende structuren"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elk advies over een grensoverschrijdende structuur (holding-keuze, financierings-structuur, IP-locatie, expat-package): expliciet checken op PPT-risico. Een structuur die alleen fiscaal voordeel oplevert zonder economische substance (kantoor, FTE's, beslissingsbevoegdheid lokaal) is een doelwit voor PPT-weigering. Cliënt informeren over EU DAC6-meldingsplicht voor grensoverschrijdende constructies met hallmarks (art. 326/2 WIB92 + uitvoerings-KB).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 326/2", "context": "DAC6-meldingsplicht agressieve constructies" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk post-BEPS" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -114,6 +396,26 @@
     {
       "type": "bevat",
       "target": "oeso-modelverdrag"
+    },
+    {
+      "type": "bevat",
+      "target": "mli-instrument"
+    },
+    {
+      "type": "bevat",
+      "target": "beps-actieplan"
+    },
+    {
+      "type": "bevat",
+      "target": "eu-fiscale-richtlijnen"
+    },
+    {
+      "type": "bevat",
+      "target": "map"
+    },
+    {
+      "type": "bevat",
+      "target": "country-by-country-reporting"
     },
     {
       "type": "bevat",
