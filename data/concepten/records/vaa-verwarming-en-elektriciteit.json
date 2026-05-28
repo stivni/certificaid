@@ -4,12 +4,15 @@
     "primair": "VAA — verwarming en elektriciteit",
     "synoniemen": [
       "VAA nutsvoorzieningen"
-    ]
+    ],
+    "vertaling": {
+      "fr": "ATN chauffage et électricité"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -41,9 +44,18 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vaa-verwarming-en-elektriciteit.json",
+      "primary_bronnen": [
+        "KB/WIB92 art. 18 §3 (forfait verwarming + elektriciteit)",
+        "WIB92 art. 36",
+        "Cijferzakboekje 2026"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -52,30 +64,328 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit basis VAA-kennis + Cijferzakboekje-bedragen 2026."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Wanneer een werkgever of vennootschap aan een werknemer of bedrijfsleider gratis (of tegen onderprijs) verwarming en/of elektriciteit ter beschikking stelt — typisch wanneer de werknemer in een door de werkgever ter beschikking gestelde woning verblijft of de vennootschap de nutsfacturen rechtstreeks betaalt — wordt het voordeel forfaitair belast als VAA. KB/WIB92 art. 18 §3 voorziet twee tarieven per element op basis van de hoedanigheid van de begunstigde: een hoger forfait voor kaderleden, bedrijfsleiders en gelijkgestelden ('leidinggevend personeel'); een lager forfait voor andere werknemers. Voor 2026 (indicatief, exact via Cijferzakboekje): verwarming €990 (kaderlid) — circa €450 (niet-kaderlid); elektriciteit €500 (kaderlid) — circa €230 (niet-kaderlid).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 — concrete bedragen voor leidinggevend personeel" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het forfait is sterk gestileerd: een werknemer die enkel een wat ruimer verwarmd kantoor heeft, draagt deze VAA niet — pas wanneer de werkgever de nutsfactures voor de privé-woning van de werknemer betaalt of in een gratis ter beschikking gestelde woning de energie inbegrepen is. De twee tarieven (kaderlid vs niet-kaderlid) reflecteren een veronderstelling dat een directielid een ruimere woning bewoont, met hoger verbruik. In de praktijk komt dit VAA bijna altijd samen voor met VAA-woning: een directeurswoning met betaalde nutsvoorzieningen vormt het klassieke combinatie-VAA-pakket.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fiscale praktijk + ratio kaderlid-onderscheid" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Forfaitaire bepaling vermijdt fiscale discussies over het werkelijk privé-verbruik van elektriciteit en verwarming in een grotendeels door werkgever betaalde woning. Het tweelagig-tarief (kaderlid hoger) corrigeert grof voor verbruiksverschillen — geen exacte calibratie maar pragmatische scheidslijn.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "werknemers-vergoedingen"
+      ],
+      "kader": "werknemers-vergoedingen",
+      "naast_relevant": [
+        "vaa-woning",
+        "vaa-pc-en-communicatie"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2026-01-01",
+        "wettelijke_basis": "KB/WIB92 art. 18 §3",
+        "toelichting": "Bedragen worden periodiek bij KB herzien (typisch jaarlijks geïndexeerd). Exacte AJ-bedragen via Cijferzakboekje."
+      },
+      "voor": [
+        {
+          "tekst": "Werknemers en bedrijfsleiders aan wie de werkgever of vennootschap gratis (of tegen onderprijs) verwarming en/of elektriciteit ter beschikking stelt — typisch via een ter beschikking gestelde woning met inbegrepen energiekosten, of via rechtstreekse betaling van privé-nutsfacturen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Verwarming en elektriciteit van kantoorruimtes die enkel professioneel worden gebruikt — geen privé-voordeel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Een werknemer die zijn eigen energie-leverancier-factuur betaalt en daarvoor een (forfaitaire) onkostenvergoeding van werkgever ontvangt — die loopt onder andere regels (onkostenvergoeding, fiche 281.30 wegens kosten eigen aan werkgever).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "forfait-verwarming",
+        "naam": {
+          "primair": "Forfait verwarming"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Forfait VAA verwarming per jaar (cijfer 2026, illustratief): voor kaderleden, bedrijfsleiders en gelijkgestelden ~€990; voor andere werknemers ~€450. Het hogere bedrag voor kaderleden weerspiegelt een verondersteld hoger verbruik in ruimere woningen. Cijferzakboekje voor exacte AJ-bedragen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-elektriciteit",
+        "naam": {
+          "primair": "Forfait elektriciteit"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Forfait VAA elektriciteit per jaar (cijfer 2026, illustratief): voor kaderleden, bedrijfsleiders en gelijkgestelden ~€500; voor andere werknemers ~€230. Geldt enkel voor non-verwarmings-elektriciteit (verlichting, apparaten) — bij elektrische verwarming wordt de verbruikswaarde toegerekend aan het verwarming-forfait.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kaderlid-criterium",
+        "naam": {
+          "primair": "Wie is 'kaderlid' of leidinggevend?"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De begunstigde valt onder het hogere tarief wanneer hij/zij bedrijfsleider is in de zin van art. 32 WIB92 (zaakvoerder, bestuurder, vennoot in een PV) OF tot het kaderpersoneel behoort (gewoonlijk: directieleden, departementshoofden — sociale wetgeving op het kaderbegrip is mee leidend). Voor andere werknemers (bedienden, arbeiders zonder leidinggevende verantwoordelijkheid) geldt het lagere tarief.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32", "context": "Definitie bedrijfsleider" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cumulatie-met-vaa-woning",
+        "naam": {
+          "primair": "Cumulatie met VAA-woning"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "VAA verwarming en elektriciteit zijn naast-VAA-woning cumulerend: een directielid dat een gratis directeurswoning bewoont MÉT inbegrepen nutsvoorzieningen draagt drie forfaits: VAA-woning + VAA-verwarming + VAA-elektriciteit. Klassieke combinatie in oudere KMO-loonpakketten — fiscaal vandaag minder courant gezien de hoge VAA-bedragen voor woning.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-directeurswoning",
+        "titel": "Directeurswoning met inbegrepen nutsvoorzieningen — bedrijfsleider Pieter",
+        "context": "Aurelia Holding NV stelt een woning ter beschikking aan zaakvoerder Pieter. De vennootschap betaalt rechtstreeks de facturen voor verwarming (aardgas) en elektriciteit. Pieter is bedrijfsleider art. 32 WIB92 → hogere tarieven van toepassing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — VAA verwarming (kaderlid) = 990 EUR/jaar",
+              "Stap 2 — VAA elektriciteit (kaderlid) = 500 EUR/jaar",
+              "Stap 3 — Totaal nutsvoorzieningen-VAA = 990 + 500 = 1.490 EUR/jaar",
+              "Stap 4 — Komt bovenop VAA-woning (forfait op basis van kadastraal inkomen — apart record)",
+              "Stap 5 — Op fiche 281.20 van Pieter: bezoldigingen + 1.490 EUR uit nutsvoorzieningen + VAA-woning"
+            ],
+            "resultaat": "Voor Pieter komt 1.490 EUR nutsvoorzieningen-VAA bovenop het VAA-woning en zijn cash-bezoldiging. Bij marginaal tarief 50 % + gemeente: PB-impact ~800 EUR netto."
+          },
+          {
+            "type": "boeking",
+            "titel": "Betaling nutsfacturen door Aurelia Holding NV",
+            "rijen": [
+              { "rekening": "611 — Verwarming · 612 — Elektriciteit (energieverbruik)", "debet": 4500, "credit": null },
+              { "rekening": "411 — Aftrekbare btw (deels)", "debet": 945, "credit": null },
+              { "rekening": "440 — Leveranciers", "debet": null, "credit": 5445 }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Werkelijke energiekost als VAA aangeven",
+        "verkeerde_assumptie": "Studenten denken dat het VAA = werkelijk betaalde nutsfactuur door werkgever × privégebruik-%.",
+        "kernpunt": "Het VAA is FORFAITAIR — gefixeerd bedrag uit KB/WIB92 art. 18 §3, ongeacht de werkelijke factuur. Een werknemer die in een grote slecht-geïsoleerde villa woont met 6.000 EUR jaarlijkse energiekost betaalt evenveel VAA (~1.490 EUR voor kaderlid) als een werknemer in een energie-efficiënte woning met 2.000 EUR werkelijke kost. Voor de vennootschap blijft de werkelijke kost volledig aftrekbaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+          ]
+        }
+      },
+      {
+        "titel": "Geen onderscheid tussen kaderlid en niet-kaderlid maken",
+        "verkeerde_assumptie": "Eén forfaitbedrag voor verwarming en één voor elektriciteit, ongeacht de hoedanigheid van de begunstigde.",
+        "kernpunt": "Er bestaan TWEE tarieven per element. Bedrijfsleider of kaderlid → hoger tarief (~990/500 EUR). Bediende of arbeider zonder leidinggevende functie → lager tarief (~450/230 EUR). Cijferzakboekje raadplegen voor de exacte bedragen en de juiste categorie selecteren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+          ]
+        }
+      },
+      {
+        "titel": "VAA-nutsvoorzieningen vervangt VAA-woning",
+        "verkeerde_assumptie": "Wie VAA-woning aangeeft hoeft geen apart VAA voor verwarming/elektriciteit aan te geven.",
+        "kernpunt": "De drie VAA's zijn cumulatief: VAA-woning belast het 'wonen' op zich; VAA-verwarming + VAA-elektriciteit belast de inbegrepen nutsvoorzieningen apart. Als de werknemer zelf zijn nutsfacturen betaalt: enkel VAA-woning aangeven. Als de werkgever ook nutsvoorzieningen betaalt: alle drie aangeven.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "directiewoning-adviseur",
+      "naam": {
+        "primair": "Loon- en woningpakket-adviseur (KMO + directie)"
+      },
+      "intro": "De accountant die het loonpakket met directiewoning + nutsvoorzieningen voor een bedrijfsleider beoordeelt en in de aangifte verwerkt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiche-281-vaa-nuts",
+              "naam": {
+                "primair": "Fiche-vermelding nuts-VAA"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op jaareinde: forfait-bedragen voor verwarming + elektriciteit (kaderlid-tarief voor bedrijfsleider) toevoegen aan de fiche 281.20 (bedrijfsleider) of 281.10 (werknemer). De werkelijke energiekosten blijven op klasse 61 als aftrekbare bedrijfskost. Zonder fiche-vermelding loopt de vennootschap risico op aanslag geheime commissielonen (100 %, art. 219 WIB92).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "directiewoning-trend",
+              "naam": {
+                "primair": "Directiewoning-trend en alternatieven"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Sinds de wet van 2018 op VAA-woning (forfait × 2) en de progressieve verhogingen zijn directiewoning-pakketten fiscaal veel minder voordelig dan vroeger. Adviseren om nieuwe constructies te vermijden tenzij er specifieke huisvestingsnoden zijn. Bestaande constructies: jaarlijks herevalueren of een afbouw (verkoop aan bedrijfsleider, herstructurering huurformule) niet voordeliger is.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk loonoptimalisatie 2026" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "werknemers-vergoedingen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vaa-woning",
+      "gelijkenissen": [
+        "Beide forfaitaire VAA's op basis van KB/WIB92 art. 18 §3",
+        "Beide leiden tot vermelding op fiche 281",
+        "Beide typisch gecombineerd in directie-loonpakketten"
+      ],
+      "verschillen": [
+        "Nutsvoorzieningen-VAA: vast forfait afhankelijk van hoedanigheid (kaderlid/niet)",
+        "VAA-woning: formule op basis van kadastraal inkomen × coëfficient — meestal substantieel hoger",
+        "Nutsvoorzieningen-VAA enkel wanneer werkgever rechtstreeks nutsfacturen betaalt"
+      ]
+    },
+    {
+      "type": "vereist",
+      "target": "bedrijfsleidersbezoldiging",
+      "toelichting": "Klassieke combinatie met andere VAA's in directie-pakketten."
     }
   ]
 }

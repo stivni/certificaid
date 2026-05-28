@@ -1,16 +1,16 @@
 {
   "id": "groottecategorie-vereniging",
   "naam": {
-    "primair": "Groottecategorie vereniging (VZW/stichting)",
+    "primair": "Groottecategorie vereniging",
     "synoniemen": [
-      "VZW-groottecategorie",
-      "vereniging-grootte"
+      "groottecriteria vzw",
+      "groottecriteria vzw/stichting"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -38,9 +38,14 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/groottecategorie-vereniging.json",
+      "primary_bronnen": [
+        "WVV art 1:28, 1:29, 3:47",
+        "CBN-advies 2019/12"
+      ]
     },
     "changelog": [
       {
@@ -48,31 +53,250 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — drempels micro/klein/groot vzw + cascade naar boekhoudregime"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De **groottecategorie vereniging** bepaalt of een vzw, ivzw of stichting onder een **micro-, klein- of groot regime** valt. De categorie volgt uit het overschrijden van drempelwaarden op de balansdatum van het laatst afgesloten boekjaar en cascadeert naar (1) het **boekhoudregime** (vereenvoudigd vs. dubbel) en (2) het **jaarrekeningschema** (vereenvoudigd / microschema / verkort / volledig). Drie cascade-trappen voor verenigingen die dubbele boekhouding voeren: **micro-vzw** (microschema mogelijk) · **kleine vzw** (verkort schema) · **grote vzw** (volledig schema). Daarnaast bestaat de categorie **\"hele kleine\" vzw** (lager dan micro) die met **vereenvoudigde boekhouding** mag werken (CBN-advies 2019/12).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12 — Groottecriteria verenigingen en stichtingen",
+              "context": "Volledige uitwerking groottecriteria + cascade naar boekhoud- en jaarrekeningschema"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:28, 1:29",
+              "context": "Kleine en micro-vereniging — definities"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**Drie drempelparen voor verenigingen die dubbele boekhouding voeren** (perfect geharmoniseerd met de vennootschapscriteria sinds het WVV, art. 1:28-29):\n\n**Kleine vzw** (één criterium mag overschreden zijn):\n- Jaargemiddelde personeelsbestand: **50** werknemers\n- Jaaromzet (excl. btw): **9.000.000 EUR**\n- Balanstotaal: **4.500.000 EUR**\n\n**Micro-vzw** (subset van klein — één criterium mag overschreden zijn):\n- Jaargemiddelde personeelsbestand: **10** werknemers\n- Jaaromzet (excl. btw): **700.000 EUR**\n- Balanstotaal: **350.000 EUR**\n\n**Vereenvoudigde-boekhouding-drempel** (apart, niet dezelfde als bij vennootschappen — CBN-advies 2019/12):\n- Jaargemiddelde **5** werknemers\n- **334.500 EUR** andere dan niet-recurrente ontvangsten\n- **1.337.000 EUR** bezittingen\n- **1.337.000 EUR** schulden\n\n*Let op*: deze drempels worden periodiek herzien — controleer de actuele bedragen in het Belgisch Staatsblad of via CBN-advies 2024/07.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12",
+              "context": "Drempelwaarden vereenvoudigde boekhouding + kleine + micro-vzw"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het Belgische verenigingsrecht erkent dat vzw's en stichtingen sterk verschillen in **economische omvang** — van een dorpsfanfare tot een ziekenhuiskoepel met honderden personeelsleden. De drempelstructuur **schaalt de administratieve last** aan de economische realiteit: hele kleine vzw's volstaan met een kasboek + jaarlijkse staat van ontvangsten en uitgaven; grote vzw's voeren een volwaardige dubbele boekhouding met volledig schema en commissaris-controle.",
+        "grondslag": {
+          "confidence": "afgeleid",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Rationale-synthese"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2020-01-01",
+        "wettelijke_basis": "WVV art. 1:28-29 (Wet 23-03-2019) + CBN-advies 2019/12",
+        "toelichting": "WVV-drempels gelden voor boekjaren startend na 31-12-2019. Drempels worden periodiek aangepast aan inflatie."
+      },
+      "voor": [
+        {
+          "tekst": "Voor elke **vzw, ivzw of stichting** die op de balansdatum moet bepalen welk boekhoudregime en welk jaarrekeningschema van toepassing is.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2019/12",
+                "ref": "2019/12"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-vereenvoudigde-boekhouding-vzw",
+        "naam": {
+          "primair": "Drempel vereenvoudigde boekhouding vzw"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vzw mag **vereenvoudigde boekhouding** voeren als ze op balansdatum **niet meer dan één** van de volgende vier criteria overschrijdt: (1) jaargemiddelde **5 werknemers**; (2) **334.500 EUR** niet-recurrente-ontvangsten (excl. btw); (3) **1.337.000 EUR** bezittingen; (4) **1.337.000 EUR** schulden. Het bestuursorgaan kiest **jaarlijks** of het deze optie licht (CBN 2019/12).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/12",
+                  "ref": "2019/12 — Criteria",
+                  "context": "4 drempels vereenvoudigde boekhouding"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-kleine-vzw",
+        "naam": {
+          "primair": "Drempel kleine vzw (WVV art. 1:28)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **kleine vzw** is een vzw die op balansdatum van het laatst afgesloten boekjaar **niet meer dan één** van de volgende criteria overschrijdt: (1) **50** werknemers (jaargemiddelde); (2) **9.000.000 EUR** jaaromzet (excl. btw); (3) **4.500.000 EUR** balanstotaal. Een kleine vzw die dubbele boekhouding voert mag een **verkort schema** van jaarrekening opmaken en neerleggen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 1:28",
+                  "context": "Definitie kleine vzw"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/12",
+                  "ref": "Grootte van een vzw die dubbele boekhouding voert",
+                  "context": "Cascade naar verkort schema"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-micro-vzw",
+        "naam": {
+          "primair": "Drempel micro-vzw (WVV art. 1:29)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **micro-vzw** is een **kleine vzw** die op balansdatum bovendien **niet meer dan één** van de volgende drie verlaagde criteria overschrijdt: (1) **10** werknemers (jaargemiddelde); (2) **700.000 EUR** jaaromzet (excl. btw); (3) **350.000 EUR** balanstotaal. Een micro-vzw die dubbele boekhouding voert mag een **microschema** van jaarrekening opmaken — het meest beknopte schema.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 1:29",
+                  "context": "Definitie micro-vzw"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/12",
+                  "ref": "Grootte van een vzw die dubbele boekhouding voert",
+                  "context": "Cascade naar microschema"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cascade-jaarrekeningschema",
+        "naam": {
+          "primair": "Cascade groottecategorie naar jaarrekeningschema"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De cascade voor een vzw die **dubbele boekhouding** voert:\n- **Micro-vzw** → microschema (KB 29-04-2019)\n- **Kleine vzw, niet micro** → verkort schema\n- **Grote vzw** (geen kleine vzw) → volledig schema + verplicht jaarverslag + (boven hogere drempels) commissaris\n\nVoor een **vereenvoudigde-boekhouding-vzw**: vereenvoudigd schema, geen klassiek balans/ROW.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/12",
+                  "ref": "2019/12",
+                  "context": "Volledige cascade-tabel"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Vzw \"Buurtwerk\" — micro-vzw met dubbele boekhouding",
+        "context": "Vzw met 7 werknemers, 600.000 EUR omzet (subsidies + dienstenverhuur), 280.000 EUR balanstotaal. De vzw heeft gekozen voor dubbele boekhouding.\n\n**Toetsing klein-criterium** (1:28): werknemers 7 ≤ 50, omzet 600.000 ≤ 9.000.000, balanstotaal 280.000 ≤ 4.500.000 — geen criterium overschreden → klein.\n**Toetsing micro-criterium** (1:29): werknemers 7 ≤ 10, omzet 600.000 ≤ 700.000, balanstotaal 280.000 ≤ 350.000 — geen criterium overschreden → micro.\n\nDe vzw mag een **microschema** van jaarrekening opmaken en neerleggen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12"
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vereenvoudigde-boekhouding-drempel verwarren met klein-vzw-drempel",
+        "verkeerde_assumptie": "Onder \"kleine vzw\" mag vereenvoudigde boekhouding gevoerd worden.",
+        "kernpunt": "Twee **verschillende drempels**: (1) **vereenvoudigde boekhouding vs. dubbele boekhouding** wordt bepaald door de vier criteria van CBN 2019/12 (5 VTE · 334.500 / 1.337.000 / 1.337.000 EUR); (2) **microschema vs. verkort vs. volledig** wordt bepaald door de WVV-criteria 1:28-29. Een kleine vzw moet dus wel dubbele boekhouding voeren als ze de eerste drempel overschrijdt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12",
+              "context": "Twee aparte drempel-sets"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "boekhoudplicht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "groottecategorie-vennootschap",
+      "gelijkenissen": [
+        "Cascade-mechaniek (drempels overschrijden bepaalt categorie)",
+        "Drempels micro en klein zijn geharmoniseerd met vennootschapsdrempels sinds WVV"
+      ],
+      "verschillen": [
+        "Verenigingen hebben een extra drempel voor vereenvoudigde boekhouding (CBN 2019/12)",
+        "Vennootschappen kennen ook 'zeer grote' categorie (extra commissaris-trigger); vzw's cascade stopt bij groot"
+      ],
+      "verwarring_risico": "Stagiairs passen vennootschapscascade reflexmatig toe op vzw's en vergeten de aparte vereenvoudigde-boekhouding-toets.",
+      "render_hint": "als_keuze"
     }
   ]
 }
