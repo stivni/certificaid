@@ -2,28 +2,34 @@
   "id": "ontbinding-en-vereffening",
   "naam": {
     "primair": "Ontbinding en vereffening",
-    "synoniemen": [
-      "dissolution and liquidation",
-      "vereffeningsprocedure"
-    ]
+    "synoniemen": ["liquidatie van een vennootschap", "dissolution et liquidation"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.IX",
-      "3.0.IX.A",
-      "3.0.IX.B",
-      "3.0.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.IX", "3.0.IX.B", "3.0.X"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/ontbinding-en-vereffening.json",
+      "primary_bronnen": [
+        "WVV art. 2:71",
+        "WVV art. 2:75",
+        "WVV art. 2:79",
+        "WVV art. 2:91",
+        "WVV art. 2:96",
+        "WVV art. 2:107",
+        "WVV art. 2:112",
+        "CBN-advies 2022/06",
+        "CBN-advies 2024/09",
+        "ITAA-norm ontbinding-vereffening"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,7 +37,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1199, breder dan alleen insolventie)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld op basis van WVV boek 2 + CBN-adviezen 2022/05-06-07 + 2024/09 + ITAA-norm ontbinding-vereffening."
       }
     ],
     "scope": {
@@ -44,46 +57,45 @@
         "Context: bij gezonde venn (uitkering aandeelhouders) vs insolvente venn (overgang naar faillissement)"
       ],
       "out": [
-        {
-          "topic": "Parent kader — WER boek XX (voor gerechtelijke vereffening)",
-          "richting": "moet-verwijzen",
-          "ref": "insolventierecht-wer-boek-xx"
-        },
-        {
-          "topic": "Faillissement als alternatieve route bij insolventie",
-          "richting": "moet-verwijzen",
-          "ref": "faillissement"
-        },
-        {
-          "topic": "AV-besluit als trigger-mechanisme",
-          "richting": "moet-verwijzen",
-          "ref": "algemene-vergadering"
-        },
-        {
-          "topic": "Bijzondere mandaten — boekenstaat bij ontbinding als type",
-          "richting": "moet-verwijzen",
-          "ref": "bijzondere-mandaten"
-        },
-        {
-          "topic": "Rehabilitatie + beroepsverbod (cross natuurlijk persoon)",
-          "richting": "mag-verwijzen",
-          "ref": "rehabilitatie-en-beroepsverbod"
-        }
+        { "topic": "Parent kader — WER boek XX (voor gerechtelijke vereffening)", "richting": "moet-verwijzen", "ref": "insolventierecht-wer-boek-xx" },
+        { "topic": "Faillissement als alternatieve route bij insolventie", "richting": "moet-verwijzen", "ref": "faillissement" },
+        { "topic": "AV-besluit als trigger-mechanisme", "richting": "moet-verwijzen", "ref": "algemene-vergadering" },
+        { "topic": "Bijzondere mandaten — boekenstaat bij ontbinding als type", "richting": "moet-verwijzen", "ref": "bijzondere-mandaten" },
+        { "topic": "Rehabilitatie + beroepsverbod (cross natuurlijk persoon)", "richting": "mag-verwijzen", "ref": "rehabilitatie-en-beroepsverbod" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Ontbinding is de juridische beslissing om een vennootschap te beëindigen; vereffening is de daaropvolgende feitelijke afwikkeling waarbij de activa worden verkocht, de schulden voldaan en het saldo onder de aandeelhouders verdeeld. Ontbinding zonder vereffening bestaat niet — beide vormen één procedure in twee fases. Het Wetboek van vennootschappen en verenigingen (WVV, boek 2 titel 8 — art. 2:70 tot 2:119) regelt de vrijwillige variant. De gerechtelijke vereffening (door rechter bevolen wegens grove tekortkomingen of langdurige inactiviteit) valt onder boek XX van het Wetboek van Economisch Recht (WER). Een faillissement leidt eveneens tot ontbinding van de rechtspersoon bij sluiting.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:70 e.v." },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 (ontbindingsgronden)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:79 (afsluiting + doorhaling)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair is het kernonderscheid: gaat het om een **gezonde** vennootschap (activa > schulden — vereffening levert een uitkering aan aandeelhouders op) of een **deficitaire** vennootschap (schulden > activa — vereffening eindigt zonder uitkering en kan kantelen in faillissement)? Bij de gezonde variant is er ruimte voor de 'turbo-vereffening' (onmiddellijke sluiting in één AV-akte, art. 2:80) als er geen openstaande schulden meer zijn. Bij de deficitaire variant moet de vereffenaar de schuldeisers raadplegen en, bij staking van betaling + geschokte krediet, het faillissement aanvragen — anders riskeert hij persoonlijke aansprakelijkheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:80 (onmiddellijke sluiting)" },
+            { "type": "cbn", "naam": "CBN-advies 2022/06", "ref": "Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-categorisatie" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het systeem van ontbinding + vereffening bestaat om bij beëindiging van een rechtspersoon de rechten van schuldeisers veilig te stellen — zij moeten eerst worden voldaan, vóór aandeelhouders enig saldo ontvangen. Tegelijk biedt het een gestructureerde manier om gezonde vennootschappen 'opgeruimd' af te sluiten (bv. na overname van de activiteit door een nieuwe entiteit, of na pensionering van de zaakvoerder). De rol van de gecertificeerd accountant is wettelijk verankerd: bij elke vrijwillige ontbinding moet hij/zij een 'staat van activa en passiva' opmaken en de continuïteitsevaluatie uitvoeren (WVV art. 2:71 § 2 + ITAA-norm).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 § 2" },
+            { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ II.2 — Staat van A/P in continuïteit" }
           ]
         }
       }
@@ -91,72 +103,383 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV boek 2 titel 8 + WER boek XX"
-      }
+        "sinds": "2020-01-01",
+        "wettelijke_basis": "WVV boek 2 titel 8 (W 23-03-2019); aansluitende CBN-adviezen 2022/05, 2022/06, 2022/07, 2024/09"
+      },
+      "voor": [
+        {
+          "tekst": "Vrijwillige ontbinding: vennootschap heeft haar doel bereikt of opgegeven; aandeelhouders willen actief de stekker eruit trekken. Gerechtelijke vereffening: rechter beveelt einde wegens wettige redenen (langdurige inactiviteit, grove tekortkomingen, niet-neerleggen jaarrekeningen 3 opeenvolgende jaren).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:74 (gerechtelijke ontbinding wegens niet-neerlegging)" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Vrijwillig: bijzondere algemene vergadering (statutenwijzigingsmeerderheid) beslist tot ontbinding op verslag van bestuursorgaan + accountant. Gerechtelijk: dagvaarding door belanghebbende of openbaar ministerie → rechterlijk vonnis dat de vennootschap ontbindt + vereffenaar aanstelt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 (vrijwillig)" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:74-75 (gerechtelijk)" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Vereffening eindigt door een AV-besluit dat de eindrekening goedkeurt, waarna de vereffenaar de afsluiting laat publiceren en de rechtspersoon wordt doorgehaald in de Kruispuntbank van Ondernemingen (art. 2:79).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:79" }
+            ]
+          }
+        }
+      ]
     },
-    "bouwstenen": [
+    "subconcepten": [
+      {
+        "id": "vrijwillige-ontbinding",
+        "naam": { "primair": "Vrijwillige ontbinding (WVV)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Beslissing van de algemene vergadering om de vennootschap te ontbinden, genomen met de meerderheid vereist voor statutenwijziging (NV: 75%; BV: 75%). Voorafgaand zijn drie documenten nodig (art. 2:71 § 2): (1) een verslag van het bestuursorgaan met motivering; (2) een staat van activa en passiva niet ouder dan 3 maanden; (3) een controleverslag van een commissaris, bedrijfsrevisor of externe accountant op die staat. Zonder die drie documenten is het AV-besluit nietig.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 § 2" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:147 (BV) / art. 7:181 (NV) — quorum-meerderheid" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De wet wil voorkomen dat aandeelhouders een vennootschap laten verdwijnen zonder de schuldeisers in te lichten. De staat van A/P + controleverslag is hét waarborg-instrument: het toont objectief of er voldoende activa zijn om alle schulden te dekken, of niet.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "gerechtelijke-vereffening",
+        "naam": { "primair": "Gerechtelijke vereffening" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De ondernemingsrechtbank kan op vordering van een belanghebbende of het openbaar ministerie de ontbinding bevelen wanneer de vennootschap (art. 2:74-75 WVV): drie opeenvolgende boekjaren geen jaarrekening heeft neergelegd; gedurende lange tijd inactief blijft zonder publieke opmerkingen; of zware tekortkomingen in haar werking vertoont. De rechter stelt zelf een vereffenaar aan, vaak een advocaat. Deze procedure valt formeel onder WVV maar leeft in symbiose met boek XX WER wanneer er ook insolventie speelt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:74-75" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vereffenaar",
+        "naam": { "primair": "Vereffenaar — aanstelling en mandaat" },
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De vereffenaar wordt aangesteld door (a) de statuten, (b) de algemene vergadering bij ontbindingsbesluit, of (c) de rechtbank (bij gerechtelijke vereffening of indien AV in gebreke blijft, art. 2:75). Diens benoeming moet — opmerkelijk! — worden bevestigd of homologeerd door de ondernemingsrechtbank (art. 2:75) vóór de vereffening rechtsgeldig verder kan, tenzij de venn vereenvoudigde voorwaarden vervult. Het mandaat omvat: realiseren van activa, betalen van schulden, vertegenwoordigen vennootschap in rechte, uitkeren saldo aan aandeelhouders.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:75 (aanstelling + homologatie)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:91 (bevoegdheden vereffenaar)" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Belangrijk voor de stagiair: niet iedereen kan vereffenaar zijn. Verboden o.a. wie strafrechtelijk veroordeeld is voor faillissementsmisdrijven of wie een beroepsverbod heeft. Bij homologatieverzoek moet de vereffenaar uittreksels strafregister voorleggen + verklaring CKO ('geen verbod').",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:75 § 2" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "procedure-stappen",
+        "naam": { "primair": "Procedure-stappen in chronologie" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Stap 1 — Voorbereiding**: bestuursorgaan stelt staat van A/P + verslag op; accountant maakt controleverslag. **Stap 2 — Ontbindings-AV**: notariële akte → ontbinding + vereffenaar aanduiding → bekendmaking BS. **Stap 3 — Homologatie**: vereffenaar laat zijn benoeming homologeren door ondernemingsrechtbank (art. 2:75). **Stap 4 — Vereffening**: realisatie activa, betaling schulden, jaarlijkse staat van vereffening (art. 2:99). **Stap 5 — Verdelingsplan**: bij meer dan één schuldeiser of complexe situatie — verdelingsplan ter goedkeuring rechter (art. 2:97 § 2). **Stap 6 — Eindrekening**: opmaak + AV-goedkeuring. **Stap 7 — Sluitings-AV + doorhaling**: bekendmaking sluiting, vennootschap stopt te bestaan, doorhaling KBO.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:75 t/m art. 2:79" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:91-99 (vereffening)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "onmiddellijke-sluiting-turbo",
+        "naam": { "primair": "Onmiddellijke sluiting ('turbo-vereffening')" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer de vennootschap (a) geen schuldeisers meer heeft of (b) alle bekende schuldeisers schriftelijk hun akkoord geven, kan de AV in één enkele akte ontbinden + vereffenen + sluiten (art. 2:80). Geen vereffenaar nodig, geen aparte sluitings-AV. De staat van A/P + accountantsverslag + bestuursverslag blijven verplicht. Dit is verreweg de gebruikelijkste vorm voor kleine vennootschappen zonder schulden.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:80" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/06", "ref": "Toepassingsvoorwaarden + Voorbeeld" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De turbo-route bespaart kosten en tijd. Voor een familie-BV die haar activiteit jaren geleden heeft gestopt, met enkel een banksaldo en geen schulden meer, is dit één notariële akte van een paar duizend EUR — versus een volledige vereffening die maanden duurt en meer kost.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
       {
         "id": "boekenstaat-bij-ontbinding",
-        "naam": {
-          "primair": "Boekenstaat bij ontbinding"
-        },
-        "bouwsteen_type": "stap",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — staat van actief en passief + continuïteits-evaluatie door accountant; categorisch bijzonder mandaat (ITAA-norm).",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Boekenstaat (staat van activa en passiva) bij ontbinding" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Dit is de wettelijk verplichte staat van activa en passiva niet ouder dan 3 maanden die het bestuursorgaan moet opmaken vóór de ontbindings-AV (WVV art. 2:71 § 2). Hij wordt opgesteld in 'continuïteit' — d.w.z. volgens de gebruikelijke jaarrekening-regels (CBN), niet in liquidatie-waarde. De accountant geeft op deze staat een **controleverslag** uit. Centrale vraag: zijn alle activa correct gewaardeerd? zijn alle schulden volledig opgenomen? is de informatie up-to-date en compleet? De ITAA-norm 'opdrachten met betrekking tot ontbinding en vereffening' geeft de praktische werkpapieren mee.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 § 2, 2°-3°" },
+                  { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ II.2 — Staat A/P in continuïteit" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Voor de accountant: deze opdracht is een 'bijzonder mandaat' uit het Wetboek (vergelijkbaar met inbreng in natura). Hij staat 'in continuïteit' — dus geen herwaardering, geen liquidatiekosten in de staat verwerken. Wel: een continuïteitsverslag in het algemeen, dat aangeeft of er een continuïteitsprobleem bestaat. Bij ontbinding na faillissementsdreiging is dat continuïteitsoordeel manifest negatief en de staat moet dat reflecteren.",
+                "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ II.2" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrichtlijn" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "heropening-vereffening",
+        "naam": { "primair": "Heropening van de vereffening (vergeten actief of passief)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Zelfs na sluiting kan blijken dat een actief (bv. teruggevonden vordering) of een passief (bv. opgelegde fiscale rectificatie) onbekend was. De vereffening kan dan **heropend** worden op verzoek van een belanghebbende. De heropende vereffening krijgt zelfs een aparte boekhouding en eigen jaarrekening (CBN-advies 2024/09). Dit kan tot 5 jaar na de sluitings-publicatie.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "cbn", "naam": "CBN-advies 2024/09", "ref": "Verslaggeving bij heropening van de vereffening" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:79 § 4 (vergeten activa/passiva)" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "vereffenaarsaansprakelijkheid",
-        "naam": {
-          "primair": "Vereffenaarsaansprakelijkheid"
-        },
+        "naam": { "primair": "Vereffenaarsaansprakelijkheid" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De vereffenaar is persoonlijk aansprakelijk voor fouten in de uitoefening van zijn mandaat (art. 2:96 WVV). Drie veel-voorkomende fouten: (a) **selectieve betaling** — eerst aandeelhouders uitbetalen terwijl er schuldeisers openstaan; (b) **niet-naleving verdelingsplan** — bij meerdere niet-bevoorrechte schuldeisers de gelijkheid schenden; (c) **niet-aangifte faillissement** — bij vaststelling staking betaling + geschokte krediet moet hij faillissement aanvragen, niet de vereffening doorzetten. Bij gerechtelijke vereffening die deficitair blijkt, geldt boek XX WER en kan aansprakelijkheid voor netto-passief volgen (art. XX.225-226).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:96" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.225-226" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "drie-documenten-art-2-71",
+        "naam": { "primair": "Drie verplichte documenten bij vrijwillige ontbinding" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — plichten + sancties (3.0.IX.B).",
+            "tekst": "Vóór de ontbindings-AV moeten klaarliggen: (1) bestuursverslag met verantwoording; (2) staat van A/P niet ouder dan 3 maanden; (3) controleverslag van commissaris, bedrijfsrevisor of (externe) accountant. Het bestuursverslag MOET ingaan op de gevolgen voor schuldeisers; het controleverslag MOET een verklaring bevatten of de staat een getrouw beeld geeft. Ontbreken van één van de drie → nietigheid AV-besluit.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:71 § 2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "saldo-aandeelhouders-pas-na-schuldeisers",
+        "naam": { "primair": "Saldo voor aandeelhouders pas na schuldeisers" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Aandeelhouders hebben slechts recht op het saldo na betaling (of provisionering voor toekomstige betaling) van alle schuldeisers. Vereffenaar die deze volgorde schendt is persoonlijk aansprakelijk. Bij twijfel over een schuld: provisioneren, niet uitkeren.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:97-98" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Turbo-vereffening van een 'slapende' BV — Aurelia Beheer BV",
+        "context": "Aurelia Beheer BV (familie-vennootschap, 1 aandeelhouder = mevrouw Aurelia) is sinds 2 jaar inactief, heeft enkel een banksaldo van 45.000 EUR en geen schulden behalve een gehonoreerde lening.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2022/06", "ref": "Voorbeeld" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "tekst": "Week 1: Accountant maakt tussentijdse balans + staat A/P. Geen schulden meer (lening afgelost).\nWeek 2: Bestuur stelt verslag op + accountant controleverslag.\nWeek 3: Notariële akte — ontbinding + onmiddellijke sluiting in één AV (art. 2:80).\nWeek 4: Bekendmaking Belgisch Staatsblad + doorhaling KBO.\nWeek 4: Banksaldo 45.000 EUR uitgekeerd aan mevr. Aurelia (verminderd met liquidatiebonus 30% in PB sinds 2018 ofwel onder voorwaarden VVPRbis-tarief)."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Ontbinding ≠ stop zonder formaliteiten",
+        "verkeerde_assumptie": "Een inactieve vennootschap stopt automatisch te bestaan als ze haar jaarrekening niet meer neerlegt.",
+        "kernpunt": "Een vennootschap blijft bestaan tot ze formeel ontbonden + vereffend + doorgehaald is. Niet-neerleggen leidt na 3 jaar tot mogelijke gerechtelijke ontbinding (art. 2:74) — maar tot dan blijven jaarrekening- en aangifteverplichtingen lopen, met bijhorende boetes.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:74" }
+          ]
+        }
+      },
+      {
+        "titel": "Turbo-vereffening bij dubieuze schuldeiser",
+        "verkeerde_assumptie": "Onmiddellijke sluiting werkt zolang de aandeelhouder beweert dat er geen schulden meer zijn.",
+        "kernpunt": "Art. 2:80 vereist OF geen schuldeisers, OF schriftelijk akkoord van élke bekende schuldeiser. Vergeten van één schuldeiser (bv. een lopende fiscale controle, een potentiële garantieverplichting) kan de turbo-sluiting nietig maken en leiden tot vereffenaarsaansprakelijkheid voor het saldo dat al werd uitgekeerd.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:80" }
+          ]
+        }
+      },
+      {
+        "titel": "Staat in continuïteit = ook in liquidatie",
+        "verkeerde_assumptie": "Bij ontbinding moet de staat van A/P meteen in liquidatiewaarde worden opgesteld.",
+        "kernpunt": "De WVV en de ITAA-norm zijn duidelijk: de staat is opgesteld 'in continuïteit' (dezelfde waarderingsregels als de laatste jaarrekening). De **eerste vereffenings-jaarrekening** is wel in liquidatie. De staat is een momentopname vóór de ontbinding, niet erna.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ II.2" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "faillissement"
-    },
-    {
-      "type": "vereist",
-      "target": "algemene-vergadering"
-    },
-    {
-      "type": "triggert",
-      "target": "bijzondere-mandaten"
+      "id": "bijzonder-mandaat-staat-ap",
+      "naam": { "primair": "Accountant levert staat A/P + controleverslag bij ontbinding" },
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "controleverslag-staat-ap",
+              "naam": { "primair": "Controleverslag op staat van activa en passiva" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Werk volgens ITAA-norm 'ontbinding-vereffening': (1) plan de opdracht, identificeer de risico's (volledigheid passiva, juistheid activa); (2) verzamel bewijs door inspectie van boekhouding + bevestigingen schuldeisers; (3) toets continuïteit — kan de vennootschap, mocht ze niet ontbinden, twaalf maanden voortgaan? (4) formuleer een verklaring: zonder voorbehoud, met voorbehoud, of weigering. Verslag binnen 3 maanden na staat-datum.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ II.2 + § 2 Verantwoordelijkheden" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "vereffenings-jaarrekening",
+              "naam": { "primair": "Eerste vereffenings-jaarrekening — overgang naar liquidatie-grondslag" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij het opmaken van de eerste jaarrekening **na** de ontbinding: stap af van continuïteits-grondslag. Concreet: hervorm immateriële vaste activa en goodwill naar nul, voorraden naar netto-realiseerbare waarde, materiële vaste activa naar marktwaarde of liquidatiewaarde, en voorzien voor liquidatiekosten (vereffenaars-erelonen, notariskosten, eventuele ontslagvergoedingen). CBN-advies 2022/06 geeft concrete schema's.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2022/06", "ref": "Jaarrekeningrechtelijke gevolgen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "vergelijkbaar_met", "target": "faillissement",
+      "gelijkenissen": ["Beide leiden tot einde van de rechtspersoon", "Beide vereisen schuldeisers eerst te voldoen"],
+      "verschillen": ["Vereffening typisch bij solvabele venn — faillissement bij insolvabele", "Vereffening = aandeelhouders kiezen einde; faillissement = ondernemingsrechter dwingt", "Vereffenaar handelt onder controle aandeelhouders; curator onder rechter-commissaris"],
+      "render_hint": "als_keuze"
+    },
+    { "type": "vereist", "target": "algemene-vergadering" },
+    { "type": "triggert", "target": "bijzondere-mandaten" }
   ]
 }
