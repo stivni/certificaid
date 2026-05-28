@@ -1,0 +1,498 @@
+{
+  "id": "btw-bedrijfswagen",
+  "naam": {
+    "primair": "Btw bedrijfswagen",
+    "synoniemen": [
+      "btw autokosten",
+      "btw voertuig",
+      "btw wagen gebruik"
+    ],
+    "vertaling": {
+      "fr": "TVA véhicule d'entreprise"
+    }
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "concept",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IV"
+    ],
+    "scope": {
+      "in": [
+        "BTW-aftrekregime voor personenwagens/voertuigen <8 zitplaatsen",
+        "50%-aftrekplafond (absoluut)",
+        "Aftrekbeperking bij gemengd gebruik: min(50%, beroepspercentage)",
+        "BTW-heffing op privégebruik (dienst-om-niet correctie)",
+        "Drie methodes maatstaf privégebruik: werkelijke kosten / CO₂-forfait / dagforfait",
+        "Woon-werk = privé voor BTW"
+      ],
+      "out": [
+        {
+          "topic": "Inkomstenbelasting-perspectief op autokosten (50%-regel art 49 + CO2-aftrek VenB + VAA-PB)",
+          "richting": "mag-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "Algemene BTW-aftrekmechanica en herzieningen",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "Voordeel-alle-aard-formule wagen (inkomstenbelasting-pendant)",
+          "richting": "mag-verwijzen",
+          "ref": "voordelen-alle-aard"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "claude-sonnet-4-5",
+      "wave_id": "migration-v21-to-v22-2026-05-28",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v21-to-v22-migration"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
+      },
+      {
+        "operatie": "v21-naar-v22-migratie",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "claude-sonnet-4-5",
+        "wave_id": "migration-v21-to-v22-2026-05-28",
+        "wijziging": "Schema 2.1 → 2.2 migratie: elementen→subconcepten+bouwstenen splitsing, categorieen+scope+geldigheid toegevoegd, relatie-targets gemapt naar canonical v22-records. Record was vergeten in Wave-1 skeleton-generation maar bestond als volwaardig v21-record."
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Het **btw-regime voor bedrijfswagens** is een bijzonder stelsel dat de **aftrekbaarheid van btw op autokosten** aan een wettelijk maximum bindt en tegelijk een **btw-heffing op het privégebruik** van de wagen oplegt. Het regime geldt voor elke personenwagen, minibus of motorvoertuig met minder dan 8 passagiersplaatsen (naast de bestuurder) die (ook) voor niet-beroepsdoeleinden wordt gebruikt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Twee mechanismen werken samen:\n\n1. **Aftrekbeperking**: de btw op aanschaf, leasing, brandstof, onderhoud en alle andere autokosten is maximaal **50% aftrekbaar** — ook al gebruikt de vennootschap de wagen uitsluitend beroepsmatig.\n\n2. **Privégebruik-correctie**: wordt de wagen ook privé gebruikt (bv. woon-werkverkeer, weekendritten), dan moet de vennootschap **btw aanrekenen op dat privégebruik** als dienst om niet. De maatstaf van heffing is hetzij de werkelijke kosten, hetzij een forfait op basis van CO₂ of een dagforfait.\n\nHet resultaat: zelfs bij 100% beroepsgebruik mag nooit meer dan 50% worden afgetrokken; bij gemengd gebruik wordt de aftrek óók beperkt door het privégebruik-aandeel en volgt bovenop een uitgaande maatstaf.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De 50%-beperking is een Belgische compromisoplossing: in de praktijk is privégebruik moeilijk te bewijzen, dus wordt het plafond wettelijk vastgelegd als absolute bovengrens, ongeacht de feitelijke verhouding."
+      },
+      "rationale": {
+        "tekst": "De Europese btw-richtlijn laat lidstaten toe het recht op aftrek te beperken voor gemengd gebruikte goederen (art. 176 Btw-richtlijn). België kiest voor een dubbel slot: een absoluut aftrekplafond van 50% en een herstelbelasting op het privégebruik. Dit dwingt belastingplichtigen tot documentatie van rijgedrag en maakt een accurate private/professionele splitsing fiscaal-juridisch relevant.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke btw-plichtige vennootschap of eenmanszaak die een **personenwagen, lichte vrachtwagen of minibus** aanschaft, least of gebruikt voor de activiteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij de bestuurder de wagen ook **buiten de beroepstijden** gebruikt (woon-werkverkeer, weekendreis), ook als de vennootschap dat als een voordeel in natura toekent.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Echte bestelwagens en vrachtwagens** (N1/N2/N3-categorie met uitsluitend laadvermogen) — die vallen buiten de definitie van 'personenwagen' en hebben een ander aftrekregime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De beperking geldt enkel voor voertuigen die ook voor personenvervoer ontworpen zijn; het bepalende criterium is het aantal zitplaatsen en de homologatie."
+        },
+        {
+          "tekst": "Voertuigen die door de **aard van de activiteit zelf** uitsluitend beroepsmatig gebruikt worden, zoals taxi's en rijschoolwagens — voor die categorieën bestaat een **volledige aftrek**.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Te verifiëren: de exacte uitzonderingscategorieën op de 50%-beperking kunnen afhangen van administratieve toleranties en rechtspraak."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastingplichtige **voert een met btw belaste activiteit** — een vrijgestelde belastingplichtige (art. 44) heeft geen aftrekrecht en moet dit regime dan ook niet toepassen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **privégebruik door een bestuurder of werknemer**: het regime vereist dat de vennootschap de btw op dat gebruik periodiek **aanrekent en afdraagt** — via de maandelijkse of kwartaalaangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Te hoge aftrek geclaimd**: vennootschappen die meer dan 50% aftrekken (ook bij bewijs van uitsluitend beroepsgebruik) riskeren navordering, boetes en nalatigheidsintresten bij controle.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Geen aangifte van privégebruik**: het niet-aanrekenen van btw op het privégebruik is een omissie die btw-administratie bij controle als fraude kan kwalificeren met administratieve boete.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "geldigheid": {
+        "status": "in-voege"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "toepassingsgebied-personenwagen",
+        "naam": {
+          "primair": "Toepassingsgebied: definitie personenwagen",
+          "synoniemen": [
+            "voertuigcategorie btw",
+            "welke wagens"
+          ]
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **personenwagen** in de zin van dit regime is elk voertuig bestemd of geschikt voor het vervoer van personen over de weg, met maximaal **8 zitplaatsen naast de bestuurder**. Minibussen (9 personen) en motorfietsen vallen ook onder het regime. De juridische definitie steunt op de voertuighomologatie (kentekencode), niet op het feitelijk gebruik.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aftrekplafond-50-procent",
+        "naam": {
+          "primair": "Absoluut aftrekplafond van 50%",
+          "synoniemen": [
+            "maximumaftrek autokosten btw",
+            "50%-regel"
+          ]
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De btw op **alle autokosten** (aanschaf, leasing, brandstof, onderhoud, herstelling, parkeren, wasbeurt) is **maximaal 50% aftrekbaar**, ongeacht het aandeel beroepsgebruik. Dit is een absoluut plafond: zelfs bij bewijs van 100% beroepsgebruik mag de aftrek nooit meer dan 50% bedragen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het plafond is een Belgische administratieve vereenvoudiging: de overheid erkent dat bewijs van zuiver beroepsgebruik praktisch onwerkbaar is, en kiest voor een forfaitaire bovengrens."
+          }
+        }
+      },
+      {
+        "id": "gemengd-gebruik-aftrekbeperking",
+        "naam": {
+          "primair": "Aftrekbeperking bij gemengd gebruik",
+          "synoniemen": [
+            "beroeps/privé-verhouding",
+            "werkelijk beroepsgebruik"
+          ]
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer de wagen **ook privé** wordt gebruikt, is de aftrekbare btw het **minimum van 50% en het werkelijk beroepspercentage**:\n\n- Beroepsgebruik 80% → aftrek = min(50%, 80%) = **50%**\n- Beroepsgebruik 30% → aftrek = min(50%, 30%) = **30%**\n\nHet beroepsgebruik moet worden aangetoond, bv. via een **rittenregistratie** (kilometers per rit, datum, doel). Woon-werkverkeer geldt in beginsel als **privé** in het kader van btw.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het minimum-principe vermijdt dat de beperking omzeild wordt door een hoog beroepsgebruik te claimen: het plafond van 50% geldt altijd, en daarbínnen geldt het werkelijke gebruik als verdere begrenzing."
+          }
+        }
+      },
+      {
+        "id": "btw-op-privetgebruik",
+        "naam": {
+          "primair": "Btw-heffing op privégebruik",
+          "synoniemen": [
+            "uitgang privégebruik",
+            "dienst om niet",
+            "gebruik voor privédoeleinden"
+          ]
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennootschap een bedrijfswagen ter beschikking stelt van een bestuurder, werknemer of zaakvoerder voor **privégebruik**, moet zij hierop **btw aanrekenen en afdragen** als ware het een dienst om niet. De maatstaf van heffing is de **werkelijk gemaakte kosten** voor het privédeel (inclusief afschrijving, brandstof, onderhoud, leasingkost), of — met akkoord van de administratie — een **CO₂-forfait** of een **dagforfait**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze correctie zou de vennootschap btw aftrekken zonder dat de eindgebruiker (werknemer/zaakvoerder) ooit belast werd — een ongerechtvaardigde subsidie via het btw-systeem."
+          }
+        }
+      },
+      {
+        "id": "co2-forfait",
+        "naam": {
+          "primair": "CO₂-forfait voor maatstaf privégebruik",
+          "synoniemen": [
+            "forfaitaire maatstaf privégebruik",
+            "voordeel in natura btw"
+          ]
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De administratie aanvaardt een **vereenvoudigd CO₂-forfait** als alternatieve maatstaf van heffing voor het privégebruik. De formule:\n\n**Jaarlijkse maatstaf = CO₂-coëfficiënt × CO₂-uitstoot × 6**\n\nWaar de CO₂-coëfficiënt en de vermenigvuldigingsfactor jaarlijks door de minister worden vastgesteld. De **btw** wordt berekend op deze jaarlijkse maatstaf aan het standaardtarief van 21%.\n\nHet forfait geldt per jaar; bij deeltijds gebruik wordt het prorata berekend.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Te verifiëren: de exacte formule en coëfficiënten worden periodiek bijgesteld via circulaires. De basisformule hierboven is representatief voor de administratieve praktijk maar moet worden gevalideerd tegen de meest recente circulaire."
+          }
+        }
+      },
+      {
+        "id": "keuze-methode-maatstaf",
+        "naam": {
+          "primair": "Keuze maatstaf van heffing privégebruik",
+          "synoniemen": [
+            "werkelijke kosten vs forfait"
+          ]
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De belastingplichtige kan kiezen tussen drie methoden voor de maatstaf van heffing op het privégebruik:\n\n- **Methode 1 (werkelijke kosten)**: alle autokosten × privégebruikaandeel (bewezen via rittenregistratie)\n- **Methode 2 (CO₂-forfait)**: formule op basis van CO₂-uitstoot — eenvoudiger maar minder verfijnd\n- **Methode 3 (dagforfait)**: vaste dagbedragen per privédag, te vermenigvuldigen met het aantal privédagen\n\nDe keuze is per voertuig te maken en geldt doorgaans voor het **volledige boekjaar**. Eénmaal gekozen voor een methode, mag niet willekeurig worden gewisseld.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Te verifiëren: de exacte voorwaarden voor methodekeuze en -wijziging worden bepaald door administratieve beslissingen en circulaires; de basisstructuur is representatief."
+          }
+        }
+      },
+      {
+        "id": "woon-werkverkeer-privetgebruik",
+        "naam": {
+          "primair": "Woon-werkverkeer als privégebruik",
+          "synoniemen": [
+            "woon-werk btw",
+            "traject woning-werkplaats"
+          ]
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "In het kader van btw geldt het **woon-werktraject als privégebruik**, ook al wordt het maatschappelijk beschouwd als een arbeidsgebonden verplaatsing. Dit is een cruciale afwijking van de inkomstenbelasting, waar woon-werkverkeer soms gedeeltelijk beroepsmatig is.\n\nConcreet: kilometers tussen woning en vaste werkplaats tellen mee als **privékilometers** bij de berekening van het beroepsgebruikpercentage voor btw.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit volgt uit de Europese rechtspraak (Seeling-doctrine) en de Belgische administratieve positie: transport van de woning naar de vaste werkplaats is geen 'economisch gebruik' in de zin van de btw."
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-aftrek",
+      "toelichting": "Het regime voor bedrijfswagens is een bijzondere aftrekbeperking binnen het algemene btw-aftrekmechanisme.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "autokosten",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "voordelen-alle-aard",
+      "toelichting": "Het privégebruik van een bedrijfswagen genereert zowel een btw-correctie (dit regime) als een voordeel alle aard voor de inkomstenbelasting — twee parallelle berekeningslogica's die elk een eigen maatstaf kennen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
+}
