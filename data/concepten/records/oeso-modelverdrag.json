@@ -5,13 +5,18 @@
     "afkorting": "OESO-MV",
     "synoniemen": [
       "OECD Model Tax Convention",
-      "Modelverdrag"
-    ]
+      "Modelverdrag",
+      "OECD-MTC"
+    ],
+    "vertaling": {
+      "en": "OECD Model Tax Convention on Income and on Capital",
+      "fr": "Modèle de Convention fiscale OCDE"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -20,9 +25,20 @@
       "2.8.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/oeso-modelverdrag.json",
+      "primary_bronnen": [
+        "OECD Model Tax Convention 2017 — art. 1-32",
+        "OECD-MTC Commentary on Art. 5 (Permanent Establishment)",
+        "OECD-MTC Commentary on Articles 23A and 23B",
+        "OECD-MTC Commentary on Article 25 (MAP)",
+        "Wet 19-12-2023 Pijler 2 art. 3 13° (verwijzing OESO-MV art. 7)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,6 +47,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (OECD-MTC condensed 2017 + commentary art. 5, 23, 25)."
       }
     ],
     "scope": {
@@ -43,18 +66,23 @@
       ],
       "out": [
         {
-          "topic": "Dubbelbelastingverdrag (DBV)",
+          "topic": "Dubbelbelastingverdrag (DBV) — concrete bilaterale verdragen",
           "richting": "moet-verwijzen",
           "ref": "dubbelbelastingverdrag"
         },
         {
-          "topic": "BEPS-actieplan (OESO-context)",
+          "topic": "BEPS-actieplan (OESO-context, drijfveer achter 2017-update)",
           "richting": "moet-verwijzen",
           "ref": "beps-actieplan"
         },
         {
-          "topic": "VN-modelverdrag (alternatief voor ontwikkelingslanden)",
+          "topic": "VN-modelverdrag (alternatief voor ontwikkelingslanden — meer bronstaat-rechten)",
           "richting": "mag-verwijzen"
+        },
+        {
+          "topic": "Multilateraal Instrument (MLI) — wijzigt bestaande DBV's",
+          "richting": "moet-verwijzen",
+          "ref": "mli-instrument"
         }
       ]
     }
@@ -62,24 +90,279 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (oeso-modelverdrag).",
+        "tekst": "Het OESO-modelverdrag (OECD Model Tax Convention on Income and on Capital) is een door de OESO opgestelde template voor bilaterale dubbelbelastingverdragen tussen staten. Het bevat 31 standaard-artikelen + een uitgebreid commentaar dat door OESO-lidstaten gezamenlijk wordt onderhouden. Staten gebruiken het modelverdrag als onderhandelingsbasis en wijken er bilateraal van af waar nodig. Het commentaar geldt als gezaghebbende interpretatiebron — ook voor verdragen die vóór een commentaar-update werden gesloten, voor zover de wijziging een verduidelijking is en geen wijziging van het regime (laatste belangrijke update: 2017, met BEPS-aanpassingen).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "modelverdrag", "naam": "OECD Model Tax Convention 2017", "ref": "Introductie + Council Recommendation 1997", "context": "Standaard-template, gezaghebbende interpretatie via commentaar" },
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Commentary on Art. 5 par. 3", "context": "Commentaar-updates met retro-werking voor verduidelijkingen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wanneer twee staten een DBV willen sluiten — dat wil zeggen: regelen welke staat welk soort inkomen of vermogen mag belasten — hoeven ze niet vanaf nul te onderhandelen. Ze vertrekken van het OESO-modelverdrag als 'common language' en passen artikel-per-artikel aan: tarieven (bv. bronheffing op interest/dividend), drempels (12 maanden voor bouwwerf-VI, percentages voor deelnemingsdividend), of uitzonderingen voor specifieke inkomenscategorieën. De praktische impact is enorm: Belgische DBV's met andere OESO-landen volgen typisch 80-90% van het modelverdrag, waardoor de structuur (woonplaats-toets art. 4 → vaste-inrichting-toets art. 5 → inkomenscategorie-toewijzing art. 6-21 → methode voorkoming art. 23) overal hetzelfde is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Table of Contents (Art. 1-31)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk-synthese — Belgische DBV's gebruiken OESO-MV als template" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis (Preamble OESO-MV): twee doelen tegelijk. (1) Dubbele belasting elimineren — een inwoner van staat A die activiteit verricht in staat B zou anders door beide landen belast kunnen worden op hetzelfde inkomen, wat economische mobiliteit van personen, kapitaal, goederen en diensten belemmert. (2) Belastingontwijking voorkomen — zonder verdrag kunnen multinationals winst kunstmatig verschuiven naar laag-belaste jurisdicties. Sinds BEPS (2015) wordt anti-misbruik expliciet ingebouwd (art. 29 PPT — Principal Purpose Test).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "THE COUNCIL — Preambule + Considering", "context": "'remove the obstacles that international juridical double taxation presents to the free movement...'" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "vennootschapsbelasting",
+        "belasting-niet-inwoners"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "dubbelbelastingverdrag",
+        "mli-instrument",
+        "beps-actieplan"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Niet-bindend modelverdrag — bindend wordt het pas via bilaterale DBV's die het overnemen",
+        "sinds": "1963 (eerste draft) — laatste update 2017",
+        "toelichting": "Het modelverdrag zelf is een aanbeveling van de OESO-Raad, niet bindend recht. Het krijgt rechtskracht wanneer staten het overnemen in een bilateraal DBV. Updates worden door werkgroepen van OESO-lidstaten voorbereid; commentaar-updates kunnen retroactief de interpretatie van oudere verdragen beïnvloeden (voor zover het verduidelijkingen zijn)."
+      },
+      "voor": [
+        {
+          "tekst": "Onderhandeling, interpretatie en toepassing van bilaterale belastingverdragen tussen staten met betrekking tot inkomstenbelasting en vermogensbelasting. Praktisch: bij elke grensoverschrijdende situatie (Belgische inwoner met buitenlands inkomen, niet-inwoner met Belgische bron, vaste-inrichtingsvraag) is het OESO-modelverdrag de gedeelde 'lens' om te bepalen welk land mag belasten en hoe dubbele belasting wordt vermeden.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 1-2", "context": "Toepassingsgebied: belastingen op inkomen en vermogen" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet voor indirecte belastingen (BTW, accijnzen, douanerechten — die hebben hun eigen EU-/internationaal regime). Niet voor sociale-zekerheids-bijdragen (regeling via aparte sociale-zekerheidsverdragen + EU-Verordening 883/2004). Niet voor strikt nationale heffingen zonder grensoverschrijdende dimensie.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 2", "context": "Taxes Covered — beperking tot belastingen op inkomen en vermogen" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "structuur-art-1-31",
+        "naam": {
+          "primair": "Structuur — 31 artikelen + commentaar"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdstuk I (art. 1-2): toepassingsgebied — personen + belastingen. Hoofdstuk II (art. 3-5): definities, woonplaats, vaste inrichting. Hoofdstuk III (art. 6-21): toewijzingsregels per inkomenscategorie. Hoofdstuk IV (art. 22): vermogensbelasting. Hoofdstuk V (art. 23A/23B): methode voor voorkoming van dubbele belasting (vrijstelling met progressievoorbehoud OF verrekening). Hoofdstuk VI (art. 24-29): non-discriminatie, MAP (mutual agreement procedure), uitwisseling van inlichtingen, anti-misbruik (PPT toegevoegd 2017). Hoofdstuk VII (art. 30-31): territoriale uitbreiding, inwerkingtreding, beëindiging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC 2017", "ref": "Table of Contents" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "woonplaats-art-4",
+        "naam": {
+          "primair": "Woonplaats-conflict (art. 4) — tie-breaker rules"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 4 lost de situatie op waarin een persoon volgens nationaal recht inwoner is van béide verdragsstaten ('dual residency'). Voor natuurlijke personen: cascade van tie-breaker tests (1) duurzaam tehuis ('permanent home') → (2) middelpunt van levensbelangen → (3) gewoon verblijf → (4) nationaliteit → (5) onderling overleg tussen autoriteiten. Voor vennootschappen (sinds BEPS 2017): geen automatische 'place of effective management'-test meer, maar onderling overleg (mutual agreement) — bij gebrek aan akkoord geen verdragsvoordelen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 4 par. 2-3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaste-inrichting-art-5",
+        "naam": {
+          "primair": "Vaste inrichting (Permanent Establishment) — art. 5"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vaste inrichting is een vaste bedrijfsinrichting waarin de werkzaamheid van een onderneming geheel of gedeeltelijk wordt uitgeoefend (par. 1). Positief opgesomd (par. 2): zetel van leiding, filiaal, kantoor, fabriek, werkplaats, mijn/oliebron/steengroeve. Bouwwerf-VI (par. 3): pas vanaf 12 maanden. Negatief afgebakend (par. 4): voorbereidende of hulpwerkzaamheden (opslag, uitstalling, levering, inkoop, informatieverzameling). Agent-VI (par. 5): wie habitueel contracten sluit namens een onderneming creëert een VI in de staat waar hij handelt — tenzij het een onafhankelijke agent is (par. 6). Sinds BEPS 2017: anti-fragmentatie-regel (par. 4.1) en bredere agent-definitie ('habitually plays the principal role').",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 5" },
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Commentary on Art. 5 par. 1-6", "context": "Doel VI: vaststellen heffingsrecht voor business profits onder art. 7" },
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Commentary on Art. 5 par. 4", "context": "BEPS Action 7 — prospectieve toepassing voor par. 4-6" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ondernemingswinst-art-7",
+        "naam": {
+          "primair": "Ondernemingswinst (art. 7) — VI-toets"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdregel: ondernemingswinst is enkel belastbaar in de woonstaat van de onderneming, tenzij ze wordt behaald via een vaste inrichting in de andere staat. In dat geval mag de bronstaat (waar de VI is) belasting heffen, maar enkel op de winst die aan de VI toerekenbaar is. Toerekening gebeurt volgens het 'arm's-length-principe' (functioneel-analytisch — de VI als onafhankelijke onderneming behandelen, vergelijkbare functies, activa en risico's). De Belgische Pijler-2 wetgeving (Wet 19-12-2023 art. 3 13°) verwijst expliciet naar OESO-MV art. 7 voor de VI-definitie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 7" },
+                { "type": "wettekst", "naam": "Wet 19-12-2023 (Pijler 2)", "ref": "art. 3 13°", "context": "Verwijst expliciet naar OESO-MV art. 7 voor VI-definitie" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inkomenscategorieen-art-6-21",
+        "naam": {
+          "primair": "Inkomenscategorie-toewijzing (art. 6-21)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Per inkomenscategorie wijst het modelverdrag heffingsbevoegdheid toe: art. 6 onroerend goed (bronstaat — staat waar gelegen); art. 7 ondernemingswinst (woonstaat tenzij VI); art. 8 internationaal vervoer (woonstaat van effectieve leiding); art. 10 dividend (woonstaat-inwoner mag belast worden door woonstaat én bronstaat, met bronstaat-plafond — typisch 5% voor deelnemingsdividend ≥ 25%, 15% voor overig); art. 11 interest (bronstaat tot max 10%, woonstaat onbeperkt); art. 12 royalty (alleen woonstaat in OESO-MV; VN-MV laat bronstaat-heffing toe); art. 13 meerwaarden; art. 15 inkomsten uit dienstbetrekking (werkstaat tenzij 183-dagen-regel); art. 17 artiest/sportbeoefenaar (waar prestatie geleverd); art. 18 pensioen; art. 19 overheidsambt; art. 21 'andere inkomsten' (woonstaat-rest-categorie).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 6-21" },
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 11", "context": "Interest — bronheffing max 10%" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "methode-voorkoming-art-23",
+        "naam": {
+          "primair": "Methode voorkoming dubbele belasting — art. 23A / 23B"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Twee methodes, beide via art. 23 ingebouwd in het modelverdrag. (a) Art. 23A — Vrijstellingsmethode met progressievoorbehoud: de woonstaat vrijgesteld het buitenlandse inkomen, maar mag het wel meetellen voor de tarief-bepaling op de overige inkomsten (effect = duwt overige inkomsten in hogere schijven). (b) Art. 23B — Verrekenings (credit) methode: de woonstaat belast het wereldinkomen volledig, maar verleent een verrekening van de buitenlandse belasting, beperkt tot de woonstaat-belasting op datzelfde inkomen ('ordinary credit'). België koos in zijn DBV-praktijk traditioneel voor vrijstelling met progressievoorbehoud (art. 23A); voor sommige inkomstencategorieën (interest, royalty) gebruikt België echter een Forfaitair Gedeelte Buitenlandse Belasting (FBB)-verrekening.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 23A" },
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 23B" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ppt-anti-misbruik-art-29",
+        "naam": {
+          "primair": "Principal Purpose Test (PPT) — art. 29 (BEPS 2017)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Algemene anti-misbruikbepaling: verdragsvoordelen worden geweigerd wanneer redelijkerwijze kan worden geconcludeerd dat het verkrijgen van het voordeel een van de hoofddoelen ('one of the principal purposes') van een transactie of regeling was, tenzij toekenning van het voordeel in overeenstemming is met doel en strekking van de relevante bepalingen. Toegevoegd door BEPS-Action 6 (treaty shopping) en geïmporteerd in bestaande DBV's via het MLI.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 29 par. 9", "context": "PPT-bepaling 2017-versie" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Modelverdrag = rechtstreeks bindend",
+        "verkeerde_assumptie": "Stagiairs denken dat het OESO-modelverdrag rechtstreekse rechtskracht heeft tussen staten.",
+        "kernpunt": "Het modelverdrag is een aanbeveling, geen verdrag. Bindend wordt het pas wanneer twee staten een bilateraal DBV sluiten dat (delen van) het modelverdrag overneemt. Het commentaar is gezaghebbend voor de interpretatie van die bilaterale DBV's. Voor een concrete casus moet altijd het bilaterale DBV (BE-NL, BE-FR, BE-DE, ...) worden geraadpleegd, niet het modelverdrag zelf.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Council Recommendation 1997", "context": "'concerning' (aanbeveling) — geen bindende tekst" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Bronheffing automatisch 10% bij interest",
+        "verkeerde_assumptie": "Het modelverdrag voorziet 10% bronheffing op interest dus elk DBV met BE doet dat ook.",
+        "kernpunt": "Het 10%-plafond in art. 11 OESO-MV is een suggestie. In bilaterale DBV's variëren de tarieven aanzienlijk: sommige BE-DBV's verlagen tot 0%, andere voorzien 5% of 15%. Bovendien is in vele intra-EU situaties de Interest-Royalty-Richtlijn 2003/49/EG van toepassing — die elimineert de bronheffing volledig voor kwalificerende deelnemingen. Altijd het concrete DBV én eventuele EU-richtlijn raadplegen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "art. 11 par. 2", "context": "Plafond niet hoger dan 10%" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bilateraal-DBV-variatie" }
+          ]
+        }
+      },
+      {
+        "titel": "BTW vaste inrichting = directe-belasting vaste inrichting",
+        "verkeerde_assumptie": "Als een buitenlandse onderneming een BTW-vaste-inrichting heeft in België, dan heeft ze ook een art.-5-vaste-inrichting voor de inkomstenbelasting.",
+        "kernpunt": "OESO-MV Commentary art. 5 par. 5 stelt expliciet: BTW/GST-behandeling is irrelevant voor de interpretatie van vaste inrichting onder art. 5. De twee concepten leven naast elkaar — een onderneming kan BTW-VI hebben zonder art.-5-VI te hebben en vice versa.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OECD-MTC", "ref": "Commentary on Art. 5 par. 5" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dubbelbelastingverdrag",
+      "gelijkenissen": [
+        "Beide regelen heffingsbevoegdheid tussen staten voor inkomsten- en vermogensbelasting",
+        "DBV's volgen typisch de structuur en grote lijnen van het OESO-MV"
+      ],
+      "verschillen": [
+        "OESO-MV is template + niet-bindende aanbeveling",
+        "Een DBV is een bilateraal bindend verdrag, geratificeerd in beide staten",
+        "DBV-tarieven en -drempels kunnen substantieel afwijken van OESO-MV"
+      ],
+      "verwarring_risico": "In examenvragen wordt soms 'het modelverdrag' geciteerd terwijl een concreet bilateraal DBV bedoeld wordt — altijd nakijken of de vraag een specifieke staat-paar betreft.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "toelichting": "OESO-MV 2017-update verwerkt de BEPS-aanbevelingen (Action 6 PPT, Action 7 PE-definitie, Action 14 MAP)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "mli-instrument",
+      "toelichting": "Het MLI implementeert OESO-MV-wijzigingen in bestaande DBV's zonder dat elk DBV bilateraal heronderhandeld moet worden."
     }
   ]
 }
