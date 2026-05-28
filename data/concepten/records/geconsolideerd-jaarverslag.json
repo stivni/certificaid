@@ -3,15 +3,21 @@
   "naam": {
     "primair": "Geconsolideerd jaarverslag",
     "synoniemen": [
-      "consolidated annual report"
-    ]
+      "consolidated annual report",
+      "consolidated management report"
+    ],
+    "vertaling": {
+      "fr": "rapport de gestion consolidé",
+      "en": "consolidated management report"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "kader"
+      "kader",
+      "gebeurtenis"
     ],
     "ankers": [
       "1.4.I.F"
@@ -25,54 +31,271 @@
         "Publicatie naast geconsolideerde JR"
       ],
       "out": [
-        {
-          "topic": "Statutair jaarverslag (individueel niveau)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Opmaak-procedure",
-          "richting": "mag-verwijzen",
-          "ref": "opmaak-geconsolideerde-jaarrekening"
-        }
+        { "topic": "Statutair jaarverslag (individueel niveau)", "richting": "moet-verwijzen", "ref": "jaarrekening" },
+        { "topic": "Opmaak-procedure", "richting": "mag-verwijzen", "ref": "opmaak-geconsolideerde-jaarrekening" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/geconsolideerd-jaarverslag.json",
+      "primary_bronnen": [
+        "WVV art. 3:32",
+        "WVV art. 3:6",
+        "WVV art. 3:35",
+        "Memorie van toelichting WVV (art. 3:32)",
+        "Richtlijn (EU) 2022/2464 (CSRD)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:40:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — verslag-inhoud + CSRD-context + verschillen met statutair." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het geconsolideerd jaarverslag is het door het bestuursorgaan opgestelde tekstuele document dat de geconsolideerde jaarrekening toelicht en aanvult op het niveau van de groep. Het beschrijft de gang van zaken, de resultaten, de risico's, de niet-financiële informatie en de vooruitzichten van de groep als geheel — niet enkel van de moedervennootschap. Verplicht voor elke groep die een geconsolideerde jaarrekening moet opstellen (art. 3:32 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Waar de geconsolideerde jaarrekening de cijfers van de groep toont, geeft het jaarverslag het verhaal achter de cijfers: strategie, markttrends, materiële risico's, bestuurssamenstelling, beleid rond duurzaamheid, voorname acquisities en desinvesteringen. Het verslag wordt onder verantwoordelijkheid van het bestuursorgaan opgesteld (collegiaal aansprakelijk) en wordt mee neergelegd bij de NBB samen met de geconsolideerde jaarrekening. Voor grote groepen geldt sinds 2024 de CSRD-uitbreiding: het jaarverslag bevat een aparte duurzaamheidsverslaggeving conform ESRS.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:6", "context": "Inhoud statutair jaarverslag — parallel" },
+            { "type": "richtlijn", "naam": "Richtlijn (EU) 2022/2464 (CSRD)", "ref": "art. 19a-29a", "context": "Duurzaamheidsverslaggeving" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Cijfers alleen zijn voor stakeholders moeilijk te interpreteren — vooral bij groepen waar de cijfers het resultaat zijn van veel intercompany-bewegingen en methodologische keuzes. Het jaarverslag biedt het 'narratief': waarom is de omzet gestegen of gedaald, welke risico's spelen, welke beslissingen heeft het bestuur genomen. Voor groepen met openbare-belang-status (beursgenoteerd, kredietinstelling, verzekeraar) wordt het verslag een belangrijk communicatie-instrument naar investeerders en regulatoren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio legis jaarverslag-stakeholdercommunicatie" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["geconsolideerde-jaarrekening"],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": ["jaarrekening"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 3:32 (sinds 2020). CSRD-uitbreiding van toepassing per groep-categorie: beursgenoteerde groepen vanaf boekjaar 2024, grote ondernemingen vanaf 2025, beursgenoteerde KMO's vanaf 2026.",
+        "toelichting": "WVV art. 3:32 verwijst inhoudelijk grotendeels naar art. 3:6 (statutair jaarverslag) met aanpassingen voor groepscontext. CSRD vervangt de oudere NFRD voor grote ondernemingen."
+      },
+      "voor": [
+        {
+          "tekst": "Elke moedervennootschap (of consortium gezamenlijk) die een geconsolideerde jaarrekening moet opstellen. Bij vrijstelling van consolidatie (kleine groep, sub-consolidatie) vervalt ook de plicht tot geconsolideerd jaarverslag.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25-3:26", "context": "Vrijstelling consolidatie = vrijstelling jaarverslag" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "verplichte-inhoud",
+        "naam": { "primair": "Verplichte inhoudelijke rubrieken" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Art. 3:32 WVV (in samenhang met art. 3:6) somt op wat het geconsolideerd jaarverslag minstens moet bevatten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:6" }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "tekst": "| Rubriek | Inhoud (groepsniveau) | Wettelijke basis |\n|---|---|---|\n| Bedrijfsoverzicht | Aard van de bedrijvigheid + voornaamste markten + geografische spreiding | art. 3:6 § 1, 1° + 3:32 |\n| Resultaat-bespreking | Eerlijke uiteenzetting van de ontwikkeling en resultaten van de groep | art. 3:6 § 1, 1° |\n| Risico's en onzekerheden | Voornaamste risico's waaraan de groep wordt blootgesteld + maatregelen | art. 3:6 § 1, 1° tweede lid |\n| Niet-financiële verklaring | Voor grote groepen: milieu, sociaal, mensenrechten, anti-corruptie (NFRD/CSRD) | art. 3:6/1 + CSRD |\n| Onderzoek en ontwikkeling | R&D-werkzaamheden van de groep | art. 3:6 § 1, 4° |\n| Belangrijke gebeurtenissen na balansdatum | Materiële post-balansdatum-events | art. 3:6 § 1, 3° |\n| Bestuur en deugdelijk bestuur | Voor beursgenoteerden: corporate-governance-verklaring | art. 3:6 § 2 + Code 2020 |\n| Eigen aandelen | Verwerving en bezit van eigen aandelen | art. 3:6 § 1, 7° |\n| Bijkantoren | Vermelding van bijkantoren van de groep | art. 3:6 § 1, 5° |"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verschil-met-statutair",
+        "naam": { "primair": "Verschillen met het statutair jaarverslag" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het geconsolideerd en het statutair jaarverslag verschillen in scope (groep vs individueel) en in detail (groepsstrategie vs vennootschapscijfers). In de praktijk worden beide vaak in één 'gecombineerd jaarverslag' voorgesteld, met duidelijke aanduiding welke delen op de groep en welke op de moedervennootschap betrekking hebben.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:35", "context": "Gecombineerd verslag mogelijk" }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "tekst": "| Aspect | Statutair jaarverslag | Geconsolideerd jaarverslag |\n|---|---|---|\n| Scope | Enkele vennootschap | Groep als geheel |\n| Wettelijke basis | WVV art. 3:6 | WVV art. 3:32 |\n| Wie stelt op? | Bestuursorgaan moedervennootschap | Bestuursorgaan moedervennootschap (of consortium) |\n| Verplicht bij | Grote vennootschappen (art. 3:6 § 5) | Alle consolidatieplichtige groepen |\n| Inhoud cijfers | Verwijst naar statutaire JR | Verwijst naar geconsolideerde JR |\n| Risico-analyse | Risico's vennootschap | Risico's groep (incl. dochters) |\n| Niet-financiële info | Vanaf grote ondernemingen | Vanaf grote groepen |\n| Combinatie | Mag in één document samen met geconsolideerd verslag (art. 3:35 WVV) — duidelijk gescheiden |  |"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "csrd-niet-financiele-rapportering",
+        "naam": { "primair": "CSRD: duurzaamheidsverslaggeving" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De Corporate Sustainability Reporting Directive (CSRD, Richtlijn (EU) 2022/2464) verplicht grote en beursgenoteerde groepen om een aparte duurzaamheidsverslaggeving op te nemen in het geconsolideerd jaarverslag conform de European Sustainability Reporting Standards (ESRS). Dubbele materialiteit: financiële én impact-perspectief. Onafhankelijke beperkte (limited) assurance verplicht. Gefaseerde invoering 2024-2028.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "richtlijn", "naam": "Richtlijn (EU) 2022/2464 (CSRD)", "ref": "art. 19a, 29a" },
+                  { "type": "richtlijn", "naam": "Gedelegeerde Verordening (EU) 2023/2772 — ESRS", "ref": "Set 1" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-aurelia-jaarverslag-skelet",
+        "titel": "Skelet geconsolideerd jaarverslag Aurelia Groep 2025",
+        "context": "Aurelia Holding NV is een grote, onbeursgenoteerde groep met dochters in voedingsverpakking en biotech. Geen organisatie van openbaar belang, maar wel grote onderneming → CSRD-plicht vanaf boekjaar 2025 (uitstel mogelijk voor onbeursgenoteerde grote ondernemingen).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Didactisch voorbeeld jaarverslag-structuur" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Hoofdstuk 1 — Bedrijvigheid en marktcontext groep\nHoofdstuk 2 — Bespreking geconsolideerd resultaat 2025 (vs 2024)\nHoofdstuk 3 — Voornaamste risico's en onzekerheden groep (geopolitiek, grondstoffen, valuta)\nHoofdstuk 4 — Investeringen, acquisities, desinvesteringen\nHoofdstuk 5 — Duurzaamheidsverslag (ESRS-conform) — dubbele materialiteit + ESG-KPI's\nHoofdstuk 6 — Onderzoek en ontwikkeling\nHoofdstuk 7 — Belangrijke gebeurtenissen na balansdatum\nHoofdstuk 8 — Eigen aandelen en bijkantoren\nHoofdstuk 9 — Vooruitzichten 2026"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Statutair en geconsolideerd verslag door elkaar lopen",
+        "verkeerde_assumptie": "Wanneer beide verslagen in één document zijn opgenomen, hoeft het onderscheid tussen 'vennootschap' en 'groep' niet expliciet gemaakt.",
+        "kernpunt": "Art. 3:35 WVV laat een gecombineerd verslag toe, maar vereist dat duidelijk aangegeven wordt welke delen betrekking hebben op de vennootschap en welke op de groep. Onduidelijkheid kan tot weigering van het commissarisoordeel leiden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:35" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-financiële informatie kwalitatief invullen zonder kwantificering",
+        "verkeerde_assumptie": "De CSRD-vereiste 'rapporteer over milieu/sociaal' wordt vervuld door enkele paragrafen tekst over duurzaamheidsambities.",
+        "kernpunt": "ESRS-conforme rapportering vereist kwantitatieve KPI's (CO2-emissies scope 1/2/3, verloopcijfers, opleidingen, ...), dubbele materialiteit-analyse en beperkte assurance door een onafhankelijke partij. Tekstuele intentieverklaringen volstaan niet.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn (EU) 2022/2464 (CSRD)", "ref": "art. 19a" },
+            { "type": "richtlijn", "naam": "Gedelegeerde Verordening (EU) 2023/2772 — ESRS", "ref": "Set 1" }
+          ]
+        }
+      },
+      {
+        "titel": "Bij vrijstelling van consolidatie nog wel jaarverslag opmaken",
+        "verkeerde_assumptie": "Een kleine groep die vrijgesteld is van consolidatie, moet nog wel een geconsolideerd jaarverslag opmaken.",
+        "kernpunt": "Vrijstelling van consolidatie omvat ook vrijstelling van het geconsolideerd jaarverslag (art. 3:25-3:26 WVV). Het statutair jaarverslag van de moeder blijft verplicht volgens art. 3:6 WVV indien zij groot is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32", "context": "Plicht enkel als er een geconsolideerde JR is" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "moeder-bestuursorgaan",
+      "naam": { "primair": "Moedervennootschap — bestuursorgaan" },
+      "intro": "Accountant die het bestuur ondersteunt bij het opmaken van het geconsolideerd jaarverslag.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "opmaak-jaarverslag",
+              "naam": { "primair": "Opmaak geconsolideerd jaarverslag" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Inventariseer wettelijke verplichte rubrieken (art. 3:32 + 3:6 WVV); (2) verzamel informatie per dochter via group reporting package; (3) groepsrisico's herwegen (niet enkel optellen van dochter-risico's); (4) bij grote groepen: dubbele materialiteits-analyse voor ESRS-rapportering opstarten in Q3; (5) verslag laten goedkeuren door bestuursorgaan vóór algemene vergadering; (6) neerlegging samen met geconsolideerde JR bij NBB.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:32" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "verificatie-coherentie",
+              "naam": { "primair": "Verificatie coherentie verslag ↔ geconsolideerde JR" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris (of een aangewezen sustainability assurance provider voor ESRS) verifieert: (1) of het verslag in overeenstemming is met de geconsolideerde jaarrekening (geen tegenstrijdige cijfers of duidingen); (2) of de wettelijk verplichte rubrieken volledig zijn opgenomen; (3) of het verslag een eerlijk beeld geeft van de groep. Verslag van de commissaris bevat een aparte sectie over het jaarverslag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:80", "context": "Commissarisverslag" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
+    { "type": "vergelijkbaar_met", "target": "jaarrekening", "gelijkenissen": ["Beide bevatten een jaarverslag (art. 3:6 voor statutair, art. 3:32 voor geconsolideerd)", "Beide opgesteld door het bestuursorgaan", "Beide neergelegd bij NBB"], "verschillen": ["Statutair = vennootschap; geconsolideerd = groep", "Statutair enkel bij grote ondernemingen verplicht; geconsolideerd bij elke consolidatieplichtige groep", "Gecombineerd verslag mag (art. 3:35 WVV) mits duidelijk onderscheid"], "verwarring_risico": "Studenten halen scope (vennootschap vs groep) en risico-analyses (individueel vs geconsolideerd) door elkaar.", "render_hint": "als_waarschuwing" }
   ]
 }
