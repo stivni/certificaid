@@ -2,76 +2,138 @@
   "id": "geactiveerde-rente",
   "naam": {
     "primair": "Geactiveerde rente",
-    "synoniemen": [
-      "activeren van financieringskosten"
-    ]
+    "synoniemen": ["geactiveerde interest", "capitalized borrowing costs"],
+    "vertaling": {"en": "capitalized borrowing costs", "fr": "intérêts intercalaires"}
   },
-  "concept_type": "regime",
+  "concept_type": "principe",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "1.1.II.B"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.1.II.B"],
     "scope": {
       "in": [
-        "Art 38 KB 29-04-2019",
+        "Art 38 KB 29-04-2019 (uitvoering WVV)",
         "Interest tijdens constructie/productie van vast actief — kan worden geactiveerd als deel aanschaffingswaarde",
         "Waarderings-aspect van vaste activa (verhoogt boekwaarde + afschrijvingsbasis)",
-        "Voorwaarden + maximale duur"
+        "Voorwaarden + maximale duur (tot ingebruikname)"
       ],
       "out": [
-        {
-          "topic": "Vaste activa generiek",
-          "richting": "moet-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "IFRS — IAS 23 borrowing costs",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Vaste activa generiek", "richting": "moet-verwijzen", "ref": "vaste-activa"},
+        {"topic": "IFRS — IAS 23 borrowing costs", "richting": "mag-verwijzen", "ref": "ifrs"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/geactiveerde-rente.json",
+      "primary_bronnen": ["KB 29.04.2019 art. 38", "CBN-advies 2012/13 (IMA-aanschaffingsprijs)", "Verordening (EU) 2023/1803 — IAS 23"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Geactiveerde rente uitgewerkt: art. 38 KB + voorwaarden + boeking + IAS 23 vergelijking."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Art. 38 KB 29.04.2019 (uitvoering WVV) staat toe dat de financieringskosten (rente op leningen) die rechtstreeks verband houden met de productie of de constructie van een vast actief, geactiveerd worden als onderdeel van de aanschaffingswaarde — beperkt tot de periode tot het actief in gebruik wordt genomen. Het gaat om een KEUZE (niet verplicht): de onderneming kan ofwel rente direct in resultaat boeken (klasse 650 — financiële kosten) ofwel kapitaliseren op klasse 22-27. Onder IFRS (IAS 23): voor qualifying assets is activering VERPLICHT.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 23"}]}
+      },
+      "substantie": {
+        "tekst": "Stagiair moet begrijpen: rente op een 24-maandige bouwlening is een werkelijke kost — vraag is alleen WANNEER hij in het resultaat verschijnt. Als hij gekapitaliseerd wordt: hogere boekwaarde + jaarlijkse afschrijving = rente wordt gespreid over levensduur actief (bv. 33 jaar voor gebouw). Als hij direct in resultaat gaat: 'klap' in jaar bouw. Voor analyse: gekapitaliseerde rente flatteert het bedrijfsresultaat van het bouwjaar (geen kost), maar verhoogt afschrijving in latere jaren. Vermelding in toelichting bij jaarrekening is verplicht.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38 § 2 — vermelding toelichting"}]}
+      },
+      "rationale": {
+        "tekst": "De keuze om rente te activeren reflecteert het 'matching-principle': rente tijdens constructie is een onvermijdelijke kost van het tot stand brengen van het actief — dezelfde logica als directe constructiekost (lonen bouwvakkers, materiaal). Activering verzoent het kost-resultaat met de gebruiksperiode van het actief. Be-GAAP laat dit als OPTIE; IFRS maakt het VERPLICHT voor qualifying assets (≥ substantial period of time to be ready for use — typisch > 12 maanden).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "vaste-activa"
+    },
+    "subconcepten": [
+      {
+        "id": "voorwaarden-activering-rente",
+        "naam": {"primair": "Voorwaarden activering rente"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Art. 38 KB: (1) rente moet effectief gemaakt zijn op vreemd vermogen specifiek voor productie/constructie van het actief OF op algemene leningen pro rata (gewogen gemiddelde rente × geïnvesteerd bedrag in actief); (2) periode = tot ingebruikname actief; (3) keuze moet consistent zijn over boekjaren + tussen vergelijkbare activa; (4) toelichting bij jaarrekening: bedrag geactiveerde rente vermelden.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-geactiveerde-rente",
+        "naam": {"primair": "Boekhoudkundige verwerking"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij keuze activering: jaarlijks tijdens constructie boeken 22 (gebouw in aanbouw — sub-rubriek 27) D / 651 (terug-geboekte gekapitaliseerde rente) C met als tegenboeking 650 (rente op leningen) blijft kost. Effect: 651 compenseert 650, netto rente in resultaat = 0; rente verschijnt op actief.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38"}, {"type": "cbn", "naam": "CBN-advies 158/1", "ref": "Aanschaffingswaarde"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-activering-rente",
+              "titel": "Bouw machine 24 maanden — rente 100.000 EUR geactiveerd",
+              "context": "Zelena Bio NV bouwt productie-installatie (1.000.000 EUR) over 24 maanden met bouwlening 5% rente.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Rente tijdens bouwjaar 1 (geactiveerd 50.000 EUR)",
+                  "rijen": [
+                    {"rekening": "650 — Rente op leningen", "debet": 50000, "credit": null},
+                    {"rekening": "550 — Bank", "debet": null, "credit": 50000}
+                  ]
+                },
+                {
+                  "type": "boeking",
+                  "titel": "Activering rente (compensatie)",
+                  "rijen": [
+                    {"rekening": "27 — Vaste activa in aanbouw", "debet": 50000, "credit": null},
+                    {"rekening": "651 — Geactiveerde financieringskosten (-)", "debet": null, "credit": 50000}
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Rente activeren na ingebruikname",
+        "verkeerde_assumptie": "Rente op de bouwlening blijft activeren zolang de lening loopt.",
+        "kernpunt": "Art. 38 KB beperkt activering tot DE PERIODE TOT INGEBRUIKNAME. Na opening fabriek: rente direct in 650 als kost. Veelgemaakte fout bij langlopende projectfinanciering.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38"}]}
+      },
+      {
+        "titel": "Activering niet vermeld in toelichting",
+        "verkeerde_assumptie": "Activering is een interne keuze die niet hoeft te worden vermeld.",
+        "kernpunt": "Art. 38 § 2 KB: het bedrag van de geactiveerde financieringskosten moet expliciet in de toelichting bij de jaarrekening worden vermeld — voor vergelijkbaarheid en analyse-doeleinden.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 38 § 2"}]}
+      },
+      {
+        "titel": "IFRS-keuze verwarren met Be-GAAP-keuze",
+        "verkeerde_assumptie": "Onder IFRS is activering ook optioneel.",
+        "kernpunt": "IAS 23 'Borrowing costs' (versie 2007): activering VERPLICHT voor qualifying assets (= activa die substantiële periode nodig hebben om gebruiksklaar te zijn — > 12 maanden typisch). Geen optie meer. Belangrijk verschil voor Be-GAAP → IFRS conversie.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 23 § 8"}]}
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "vaste-activa"
-    }
+    {"type": "valt_onder", "target": "vaste-activa"},
+    {"type": "alternatief_referentiestelsel", "target": "ifrs", "toelichting": "IAS 23 'Borrowing costs' verplicht activering — Be-GAAP-optie."}
   ]
 }
