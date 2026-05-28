@@ -6,15 +6,18 @@
       "consolidatieverschil-goodwill",
       "goodwill",
       "badwill"
-    ]
+    ],
+    "vertaling": {
+      "fr": "écart de consolidation / goodwill",
+      "en": "goodwill / bargain purchase gain"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "kader",
-      "entiteit"
+      "kader"
     ],
     "ankers": [
       "1.4.I.D",
@@ -30,71 +33,185 @@
         "Badwill direct in resultaat"
       ],
       "out": [
-        {
-          "topic": "Eerste consolidatie (ontstaans-moment)",
-          "richting": "moet-verwijzen",
-          "ref": "eerste-consolidatie"
-        },
-        {
-          "topic": "Minderheidsbelangen (full-goodwill vs partial-goodwill)",
-          "richting": "moet-verwijzen",
-          "ref": "minderheidsbelangen"
-        },
-        {
-          "topic": "IFRS-IAS 36 impairment context",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        { "topic": "Eerste consolidatie (ontstaans-moment)", "richting": "moet-verwijzen", "ref": "eerste-consolidatie" },
+        { "topic": "Minderheidsbelangen (full-goodwill vs partial-goodwill)", "richting": "moet-verwijzen", "ref": "minderheidsbelangen" },
+        { "topic": "IFRS-IAS 36 impairment context", "richting": "mag-verwijzen", "ref": "ifrs" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/consolidatieverschil.json",
+      "primary_bronnen": [
+        "KB-WVV art. 3:130",
+        "KB-WVV art. 3:131",
+        "KB-WVV art. 3:142 § 3",
+        "IFRS 3 — Bedrijfscombinaties",
+        "IAS 36 — Bijzondere waardeverminderingen",
+        "CBN-advies 2013/3"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:15:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — goodwill/badwill bij eerste consolidatie + behandeling B-GAAP vs IFRS." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het consolidatieverschil is het verschil dat ontstaat bij de eerste consolidatie tussen (1) de aanschaffingsprijs van de deelneming en (2) het aandeel van de moeder in het netto-eigen vermogen van de dochter op de overnamedatum, na herwaardering van de identificeerbare activa en verplichtingen tegen reële waarde. Een positief verschil (te veel betaald) heet 'goodwill'; een negatief verschil (koopje) heet 'badwill' of 'bargain purchase gain'. Goodwill verschijnt als immaterieel actief op de geconsolideerde balans; badwill wordt onder IFRS direct in resultaat genomen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130", "context": "Toewijzing eerste consolidatieverschil" },
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:131", "context": "Behandeling positief en negatief verschil" },
+            { "type": "norm", "naam": "IFRS 3 — Bedrijfscombinaties", "ref": "§32-34" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Goodwill is het 'onverklaarde surplus' in de koopprijs: niet toewijsbaar aan identificeerbare activa (gebouw, machine, klantenbestand). Economisch staat het voor: synergieën die de koper verwacht, marktpositie van de dochter, kwaliteit van het personeel, merknaam — items die je niet apart op een balans kan zetten. Badwill is omgekeerd: de koper betaalt minder dan de gewaardeerde netto-activa, vaak omdat de verkoper haast had of het bedrijf in moeilijkheden is. De wet behandelt badwill voorzichtig: vóór erkenning eerst nogmaals nakijken of de fair-value-meting van activa en passiva correct is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "IFRS 3", "ref": "§32-36", "context": "Recognition + measurement bargain purchase" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Economische uitleg goodwill/badwill" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het consolidatieverschil is geen 'kunstgreep' maar volgt uit het principe dat de geconsolideerde balans het werkelijke geheel weergeeft. Als de moeder 1500 betaalt voor een dochter met netto-activa van 1200, moet die 300 ergens terug te vinden zijn in de geconsolideerde cijfers — anders verdwijnt geld uit het 'kader' van de groep. Goodwill is de balanspost die deze 300 zichtbaar maakt. De impairment-test (IAS 36) of afschrijving (B-GAAP art. 3:131 KB-WVV) zorgt ervoor dat de goodwill realistisch blijft: als de overnemende verwachting niet uitkomt, moet de boekwaarde dalen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:105" },
+            { "type": "norm", "naam": "IAS 36", "ref": "§80-99", "context": "Goodwill impairment" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio legis goodwill in groepsboekhouding" }
           ]
         }
       }
     },
-    "bouwstenen": [
+    "voorkennis_leespad": {
+      "voorvereisten": ["eerste-consolidatie"],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": ["consolidatiemethoden"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB-WVV art. 3:130-3:131 (B-GAAP) + IFRS 3 + IAS 36 (IFRS, via EU-endorsement Verordening (EU) 2023/1803)"
+      },
+      "voor": [
+        {
+          "tekst": "Elke groep die een dochter integraal of evenredig consolideert (KB-WVV art. 3:130 e.v.) of die een geassocieerde onderneming volgens vermogensmutatie verwerkt (art. 3:142 § 3 KB-WVV). Goodwill ontstaat ook bij IFRS-bedrijfscombinaties (IFRS 3).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130" },
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:142 § 3" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij IFRS-impairment kan een grote goodwill-impairment het geconsolideerd resultaat in één boekjaar zwaar drukken. Markten reageren sterk op goodwill-impairments — vandaar de behoefte aan vroege signalering en degelijke documentatie van de impairment-test.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "IAS 36", "ref": "§80-99" },
+              { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
       {
-        "id": "goodwill-allocatie-cgu",
-        "naam": {
-          "primair": "Goodwill-allocatie aan CGU's"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
+        "id": "berekening-consolidatieverschil",
+        "naam": { "primair": "Berekening eerste consolidatieverschil" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Formule: consolidatieverschil = aanschaffingsprijs deelneming − aandeel moeder in herwaardeerd netto-eigen vermogen van dochter op overnamedatum.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130" },
+                  { "type": "norm", "naam": "IFRS 3", "ref": "§32" }
+                ]
+              },
+              "weergaven": [
                 {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
+                  "type": "formule_expressie",
+                  "tekst": "Consolidatieverschil = Koopprijs − ( % belang × Fair-value-NA dochter )\n\nwaarbij Fair-value-NA = som van geherwaardeerde identificeerbare activa − geherwaardeerde passiva (incl. voorwaardelijke verplichtingen)"
+                }
+              ]
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "stap-1-fair-value-na",
+              "naam": { "primair": "Stap 1 — fair value van identificeerbare activa en verplichtingen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op de overnamedatum worden alle identificeerbare activa en verplichtingen van de dochter geherwaardeerd tegen reële waarde — niet tegen boekwaarde. Dit kan immateriële activa onthullen die niet op de individuele balans van de dochter staan (bv. klantenrelaties, merken).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "IFRS 3", "ref": "§10-17" },
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130, eerste lid" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "stap-2-toewijzing-verschil",
+              "naam": { "primair": "Stap 2 — toewijzing van het verschil" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij integrale of evenredige consolidatie wordt het eerste verschil 'zoveel mogelijk' toegewezen aan de identificeerbare activa en passiva (art. 3:130 KB-WVV). Het residu is goodwill (positief) of badwill (negatief). Bij vermogensmutatie wordt het verschil 'voor zover mogelijk' toegewezen (art. 3:142 § 3 KB-WVV) — minder strikt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130" },
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:142 § 3" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "behandeling-bgaap-vs-ifrs",
+        "naam": { "primair": "Behandeling goodwill: B-GAAP vs IFRS" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "B-GAAP (art. 3:131 KB-WVV): positieve goodwill wordt afgeschreven over de gebruiksduur (max 10 jaar tenzij economisch verantwoorde langere duur, in toelichting). Onder IFRS 3 + IAS 36 wordt goodwill NIET afgeschreven maar jaarlijks getoetst op impairment.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:131", "context": "Afschrijving goodwill" },
+                  { "type": "norm", "naam": "IFRS 3", "ref": "§B63" },
+                  { "type": "norm", "naam": "IAS 36", "ref": "§10, §80-99" }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "tekst": "| Aspect | B-GAAP (KB-WVV art. 3:131) | IFRS (IFRS 3 + IAS 36) |\n|---|---|---|\n| Goodwill na eerste opname | Afschrijving over gebruiksduur | Geen afschrijving |\n| Toets impairment | Wanneer indicatoren wijzen op duurzame waardevermindering | Jaarlijks verplicht + bij indicatoren |\n| Niveau impairment | Per dochteronderneming (of CGU) | Per cash-generating unit (CGU) |\n| Badwill | Direct in resultaat (uitzonderlijke baat) | Bargain purchase gain — direct in resultaat na hertoetsing |\n| Wijziging boekwaarde | Lineaire afschrijving voorspelbaar | Schoksgewijs door impairment |"
                 }
               ]
             }
@@ -103,76 +220,174 @@
       },
       {
         "id": "impairment-test-ias-36",
-        "naam": {
-          "primair": "Impairment-test IAS 36 (jaarlijks)"
-        },
-        "bouwsteen_type": "stap",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "afschrijving-goodwill-bgaap",
-        "naam": {
-          "primair": "Afschrijving goodwill B-GAAP (vs IFRS-vrijstelling)"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "badwill-direct-resultaat",
-        "naam": {
-          "primair": "Badwill direct in resultaat"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Impairment-test goodwill (IAS 36)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Onder IFRS wordt goodwill bij eerste opname toegerekend aan een cash-generating unit (CGU) — de kleinste groep activa die onafhankelijke kasstromen genereert. Jaarlijks (en bij indicatoren) wordt de recoverable amount van de CGU vergeleken met haar boekwaarde inclusief goodwill. Bij tekort: verlies erkennen, eerst op goodwill, dan pro-rata op andere activa van de CGU.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "IAS 36", "ref": "§66, §80-99, §104" }
+                ]
+              }
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-positieve-goodwill",
+        "titel": "Aurelia koopt Zelena Bio — positieve goodwill",
+        "context": "Aurelia Holding NV verwerft 100 % van Zelena Bio NV voor 1.500.000 EUR. Op overnamedatum bedraagt het netto-eigen vermogen van Zelena (na herwaardering van activa naar fair value) 1.200.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130-3:131" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bepaal aandeel in fair-value-NA: 100 % × 1.200.000 = 1.200.000 EUR.",
+              "Stap 2 — consolidatieverschil: 1.500.000 − 1.200.000 = 300.000 EUR (positief = goodwill).",
+              "Stap 3 — toewijzing aan identificeerbare activa: niet meer mogelijk (alle activa al op fair value).",
+              "Stap 4a (B-GAAP) — boek 300.000 EUR als 'goodwill' onder klasse 21 immateriële vaste activa; afschrijving 30.000 EUR/jaar over 10 jaar.",
+              "Stap 4b (IFRS) — boek 300.000 EUR als 'goodwill'; toewijzen aan CGU 'biotech-divisie'; jaarlijkse impairment-test."
+            ],
+            "resultaat": "Geconsolideerde balans toont 300.000 EUR goodwill op activa. Onder B-GAAP daalt deze elk jaar met 30.000 EUR; onder IFRS blijft 300.000 EUR staan tenzij impairment vereist."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boeking eerste consolidatie (B-GAAP, vereenvoudigd):\n- Debet  211 Goodwill (consolidatieverschil)     300.000\n- Debet  diverse activa Zelena (fair value)    1.500.000\n- Credit diverse passiva Zelena (fair value)    300.000\n- Credit 28 Deelneming Zelena                  1.500.000"
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-badwill",
+        "titel": "Reorganisatie-overname met badwill",
+        "context": "Aurelia koopt 100 % van een dochter in moeilijkheden voor 800.000 EUR. Fair-value-NA van de dochter bedraagt 1.100.000 EUR (verkoper had haast).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "IFRS 3", "ref": "§32-36" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — verschil: 800.000 − 1.100.000 = −300.000 EUR (negatief = badwill).",
+              "Stap 2 — eerst hertoetsen: zijn alle activa correct gewaardeerd? Verplichtingen volledig? Pensioenverplichtingen niet vergeten? Indien hertoetsing badwill niet wegneemt:",
+              "Stap 3 (IFRS) — 300.000 EUR opnemen als 'bargain purchase gain' direct in winst-en-verliesrekening van het overnamejaar.",
+              "Stap 3 (B-GAAP) — KB-WVV art. 3:131 voorziet dat een negatief verschil dat een goed gefundeerd vooruitzicht op een ongunstig resultaat van de dochter weerspiegelt, in resultaat genomen wordt naargelang dit ongunstige resultaat zich realiseert; andere badwill direct in resultaat."
+            ],
+            "resultaat": "Badwill = uitzonderlijke winst van 300.000 EUR in jaar van overname. Vereist motivering in toelichting waarom de verkoper akkoord ging met een verlies-deal."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Boekwaarde gebruiken in plaats van fair value",
+        "verkeerde_assumptie": "Het consolidatieverschil = koopprijs − boekwaarde-eigen-vermogen van de dochter.",
+        "kernpunt": "De vergelijking gebeurt met het fair-value-eigen-vermogen na herwaardering van activa en passiva. Eerst alle activa en passiva op fair value, eventueel nieuwe immateriële activa identificeren (klantenrelaties, merken) en dan het residu als goodwill boeken.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130, eerste lid" },
+            { "type": "norm", "naam": "IFRS 3", "ref": "§10-18" }
+          ]
+        }
+      },
+      {
+        "titel": "Goodwill afschrijven onder IFRS",
+        "verkeerde_assumptie": "Goodwill wordt jaarlijks afgeschreven over een nuttige levensduur, zoals andere immateriële activa.",
+        "kernpunt": "IFRS schrijft goodwill NIET af (IFRS 3 §B63). Enkel impairment-test. B-GAAP doet wel afschrijven (art. 3:131 KB-WVV) — dit is een fundamenteel verschil tussen de twee referentiestelsels.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "IFRS 3", "ref": "§B63" },
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:131" }
+          ]
+        }
+      },
+      {
+        "titel": "Badwill direct als winst boeken zonder hertoetsing",
+        "verkeerde_assumptie": "Negatief consolidatieverschil = mooie uitzonderlijke winst, boek meteen.",
+        "kernpunt": "Bij badwill schrijft IFRS 3 §36 voor om eerst de identificatie en waardering van activa, verplichtingen en aanschaffingsprijs te hertoetsen. Pas als badwill na hertoetsing standhoudt, wordt deze als bargain purchase gain in resultaat erkend. Een 'goedkope overname' is zeldzaam en vereist documentatie.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "IFRS 3", "ref": "§36" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groep-na-overname",
+      "naam": { "primair": "Groep na overname" },
+      "intro": "Accountant die de eerste consolidatie en de jaarlijkse opvolging van goodwill verzorgt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-eerste-consolidatieverschil",
+              "naam": { "primair": "Boeking eerste consolidatieverschil" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op overnamedatum: (1) fair-value-waardering door externe expert documenteren; (2) identificeerbare immateriële activa identificeren (klantenlijsten, merken, technologie); (3) consolidatieverschil berekenen; (4) bij positief verschil: goodwill onder rubriek 21 Immateriële vaste activa (in toelichting: gebruiksduur en methode bij B-GAAP; CGU-allocatie bij IFRS); (5) afschrijvingsplan opstellen of impairment-monitoring opzetten.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:130-3:131" },
+                      { "type": "norm", "naam": "IFRS 3", "ref": "§B64-B67", "context": "Disclosure" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-impairment-test",
+              "naam": { "primair": "Audit van impairment-test goodwill" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris controleert: (1) is goodwill correct toegerekend aan CGU's? (2) zijn de impairment-assumpties (groeivoet, disconteringsvoet, kasstroomprognose) verdedigbaar in licht van marktomstandigheden? (3) wordt de test jaarlijks uitgevoerd of enkel bij triggers? (4) bij impairment-verlies: is verdeling correct (eerst goodwill, dan pro-rata)? Goodwill is een hoog-risico-area in groepsaudits vanwege subjectiviteit van kasstroom-assumpties.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "IAS 36", "ref": "§80-104" },
+                      { "type": "norm", "naam": "ISA 540 — Auditing Accounting Estimates", "ref": "§A45-A60" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
+    { "type": "beinvloed_door", "target": "eerste-consolidatie", "toelichting": "Het consolidatieverschil ontstaat bij de eerste consolidatie van een dochter." },
+    { "type": "vergelijkbaar_met", "target": "ifrs", "gelijkenissen": ["Beide kennen het concept consolidatieverschil bij bedrijfscombinaties", "Beide vereisen toewijzing aan identificeerbare activa vóór goodwill-erkenning"], "verschillen": ["B-GAAP: afschrijving over max 10 jaar (art. 3:131 KB-WVV)", "IFRS: geen afschrijving, wel jaarlijkse impairment-test (IAS 36)", "Badwill: IFRS vereist hertoetsing vóór erkenning (§36); B-GAAP heeft een specifieke regel voor 'verwachte verliezen'-badwill"], "verwarring_risico": "Studenten halen B-GAAP-afschrijving en IFRS-impairment door elkaar — fundamenteel verschillende benadering van goodwill na eerste opname.", "render_hint": "als_waarschuwing" }
   ]
 }
