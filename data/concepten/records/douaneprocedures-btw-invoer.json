@@ -2,35 +2,32 @@
   "id": "douaneprocedures-btw-invoer",
   "naam": {
     "primair": "Douaneprocedures BTW-invoer",
-    "synoniemen": [
-      "invoer-BTW",
-      "DAU-aangifte"
-    ]
+    "synoniemen": ["invoer-BTW", "BTW bij import uit derde landen", "ET 14.000"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.IX",
-      "2.4.X"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.IX", "2.4.X"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/douaneprocedures-btw-invoer.json",
+      "primary_bronnen": [
+        "WBTW art. 23-25",
+        "WBTW art. 51 §2, 1° (verlegging invoer)",
+        "KB nr. 7 (invoer-BTW)",
+        "UCC (Verordening (EU) 952/2013)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:30:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — invoer-BTW mechaniek + DAU + ET 14.000-vergunning + douanevertegenwoordiger"}
     ],
     "scope": {
       "in": [
@@ -41,49 +38,285 @@
         "Douanevertegenwoordiger: direct vs indirect"
       ],
       "out": [
-        {
-          "topic": "Douanewaarde (maatstaf)",
-          "richting": "moet-verwijzen",
-          "ref": "douanewaarde"
-        },
-        {
-          "topic": "Accijnzen bij invoer accijnsgoederen",
-          "richting": "moet-verwijzen",
-          "ref": "accijnzen-basis"
-        },
-        {
-          "topic": "BTW-grensoverschrijdend Σ",
-          "richting": "moet-verwijzen",
-          "ref": "btw-grensoverschrijdend"
-        }
+        {"topic": "Douanewaarde — basis voor invoerrechten + BTW", "richting": "moet-verwijzen", "ref": "douanewaarde"},
+        {"topic": "Accijnzen bij invoer accijnsgoederen", "richting": "moet-verwijzen", "ref": "accijnzen-basis"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (douaneprocedures-btw-invoer).",
+        "tekst": "Bij invoer van goederen uit derde landen (= buiten EU) in België is BTW verschuldigd. Het 'belastbaar feit' voor invoer-BTW is het in het vrije verkeer brengen van de goederen op het Belgische douanegebied (WBTW art. 23-25). De BTW wordt geheven samen met eventuele invoerrechten via het Enig Document (DAU — Document Administratif Unique, in EU-jargon SAD). De importeur kan kiezen tussen twee betalingsregimes: (1) onmiddellijke betaling bij de douane (KB nr. 7 art. 4 — default); (2) verlegging van de betaling naar de BTW-aangifte mits vergunning ET 14.000 (KB nr. 7 art. 5 §2 — cashflow-voordeel).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 23-25"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2, 1°"},
+            {"type": "kb", "naam": "KB nr. 7", "ref": "art. 4-5"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De maatstaf van heffing voor invoer-BTW is de DOUANEWAARDE (zie record douanewaarde) verhoogd met de invoerrechten, accijnzen en bijkomende kosten tot de eerste bestemming in België (vervoer, verzekering, commissie). Op dit totaal komt het Belgische BTW-tarief (typisch 21 %, soms 6 % voor specifieke goederen zoals boeken, geneesmiddelen). De BTW is recupereerbaar voor BTW-belastingplichtige importeur via rooster 87 (IC- en derde-landen-aankopen) + 59 (aftrek), mits verlegging-vergunning of effectieve betaling.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 34"},
+            {"type": "kb", "naam": "KB nr. 7", "ref": "art. 1-4"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Invoer-BTW realiseert het 'bestemmingsprincipe': BTW wordt geheven waar de consumptie plaatsvindt. Een Chinese fabrikant betaalt geen Belgische BTW bij export naar België — die wordt pas bij invoer in de EU geheven. Het verleggingsregime (ET 14.000) elimineert de cashflow-druk voor importeurs (ze hoeven geen BTW vooraf te storten aan de douane en dan terug te vragen via de aangifte) — een vereiste voor het concurrentievermogen van Belgische logistiek-knooppunten zoals de haven van Antwerpen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 7", "ref": "art. 5 §2"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio bestemmingsprincipe + cashflow-faciliteit"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "btw"
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WBTW art. 23-25 + KB nr. 7 + EU Douanewetboek (UCC, Vo. 952/2013)",
+        "toelichting": "Sinds 2016 toepassing UCC. ET 14.000-vergunning sinds 2017 sterk vereenvoudigd (afschaffing borg-vereiste voor gevestigde belastingplichtigen)."
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "dau-enig-document",
+        "naam": {"primair": "Enig Document (DAU) — invoeraangifte"},
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het Enig Document is het EU-uniforme aangifteformulier voor douaneoperaties — invoer, uitvoer, doorvoer. Sinds 2020 elektronisch via PLDA (België) of het Customs Decision-systeem. Bevat: identificatie importeur, beschrijving goederen (HS-code), oorsprong, douanewaarde, douaneregime, verschuldigde rechten + BTW. Het Enig Document is het officiële BEWIJSSTUK van invoer en gemaakte aangifte — zonder DAU geen BTW-aftrek mogelijk.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 7", "ref": "art. 4"},
+                  {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkkennis DAU + PLDA — bundle-chunks bevestigen aanwezigheid PLDA"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "et-14000-verlegging",
+        "naam": {"primair": "Vergunning ET 14.000 — verlegging invoer-BTW"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Met vergunning ET 14.000 (KB nr. 7 art. 5 §2) wordt de BTW bij invoer NIET aan de douane betaald, maar verlegd naar de eerstvolgende BTW-aangifte van de importeur: rooster 87 (IC- en niet-EU-aankopen) als maatstaf, rooster 57 (BTW verschuldigd) en rooster 59 (BTW aftrekbaar) gelijktijdig → cashflow-neutraal (nul effect bij volledig recht op aftrek). Voorwaarden: belastingplichtige met periodieke aangifte; goede compliance-staat; sinds 2017 geen borg meer vereist voor in België gevestigde belastingplichtigen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2, 1°"},
+                  {"type": "kb", "naam": "KB nr. 7", "ref": "art. 5 §2"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "douanevertegenwoordiger",
+        "naam": {"primair": "Douanevertegenwoordiger — direct vs indirect"},
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een douaneagent (expediteur) kan in twee hoedanigheden optreden (UCC art. 18): (1) DIRECTE vertegenwoordiging — in naam EN voor rekening van de aangever (importeur); aangever blijft enige schuldenaar van rechten en BTW; (2) INDIRECTE vertegenwoordiging — in eigen naam maar voor rekening van de importeur; vertegenwoordiger wordt hoofdelijk schuldenaar samen met importeur. Praktisch: indirecte vertegenwoordiging is vaker bij niet-EU-importeurs zonder Belgische BTW-identificatie; directe bij Belgische BTW-belastingplichtigen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 18"}
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "maatstaf-invoer-btw",
+        "naam": {"primair": "Maatstaf van heffing invoer-BTW"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Maatstaf = douanewaarde + invoerrechten + accijnzen + bijkomende kosten (vervoer, verzekering, commissie tot eerste bestemming in België). Voorbeeld: container Chinese kleding, douanewaarde 50.000 EUR + invoerrecht 12 % = 6.000 EUR + vervoer-naar-Brussel 2.000 EUR → maatstaf 58.000 EUR; BTW 21 % = 12.180 EUR.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 34"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {"type": "formule_expressie", "uitdrukking": "Maatstaf_BTW = Douanewaarde + Invoerrechten + Accijnzen + Vervoer/Verzekering tot 1ste bestemming"}
+        ]
+      },
+      {
+        "id": "vrijstellingen-invoer",
+        "naam": {"primair": "Vrijstellingen bij invoer"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Belangrijkste vrijstellingen invoer-BTW: (1) kleine zendingen met geringe waarde (drempel ≤ 22 EUR sinds 2021 afgeschaft — nu vanaf 1 EUR BTW); (2) tijdelijke invoer met vrijstelling van invoerrechten (WBTW art. 42 §3); (3) goederen onder douane-entrepot of doorvoerregeling (BTW pas bij vrijgeven uit entrepot); (4) monsters van handelsstalen (mits voorwaarden); (5) terugkomende goederen (originaire EU-export die terugkomt); (6) diplomatieke / consulaire importen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 40 + art. 42"},
+                {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardvrijstellingen invoer + afschaffing 22 EUR-drempel 2021"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betalingsmodaliteiten",
+        "naam": {"primair": "Betalingsmodaliteiten via PLDA"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Op het elektronische PLDA-systeem worden invoeraangiftes ingediend. Op de aangifte komt één van de vermeldingen: (a) 'betaling' — BTW onmiddellijk te storten via PLDA-rekening; (b) 'uitstel van betaling' — verlegging naar BTW-aangifte (vergunning ET 14.000); (c) 'vrijstelling' — wettelijke vrijstellingsgrond aanduiden. Elke aangifte krijgt een DAU-referentie die in de boekhouding van de importeur als bewijsstuk dient.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB nr. 7", "ref": "art. 4"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-invoer-met-et14000",
+        "titel": "Invoer container Chinese kleding — met ET 14.000",
+        "context": "Aurelia Holding BVBA (BTW-belastingplichtige, ET 14.000-vergunning, maandaangifte) importeert in maart 2026 een container kleding uit China. Douanewaarde: 50.000 EUR. Invoerrecht 12 % (textiel). Vervoer Antwerpen → magazijn 2.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Invoeraangifte (DAU) via PLDA: indienen door douane-expediteur (directe vertegenwoordiging)",
+              "Stap 2 — Invoerrechten: 50.000 × 12 % = 6.000 EUR — onmiddellijk te betalen aan de douane",
+              "Stap 3 — Maatstaf invoer-BTW: 50.000 + 6.000 + 2.000 = 58.000 EUR",
+              "Stap 4 — BTW 21 %: 12.180 EUR — VERLEGD (ET 14.000) → niet aan douane, wel in BTW-aangifte",
+              "Stap 5 — BTW-aangifte maart 2026: rooster 87 (aankopen 21 %): 58.000; rooster 57 (BTW verschuldigd verlegging): 12.180; rooster 59 (BTW aftrekbaar): 12.180 → netto-effect = nul (cashflow-neutraal)",
+              "Stap 6 — Boeking: D 60 'Aankopen handelsgoederen' 58.000 / C 44 'Te betalen China-leverancier' 50.000 + C 451 'Te betalen invoerrechten' 6.000 + C 489 'Diverse schulden vervoer' 2.000. BTW-verlegging: D 411 12.180 / C 451 12.180."
+            ],
+            "resultaat": "Zonder ET 14.000-vergunning zou Aurelia 12.180 EUR cash moeten voorschieten aan de douane en pas in de aangifte recupereren — cashflow-vertraging van enkele maanden. Met vergunning: nul vooruitbetaling."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 34 + art. 51 §2"},
+            {"type": "kb", "naam": "KB nr. 7", "ref": "art. 4-5"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "ET 14.000-verlegging vergeten in de BTW-aangifte",
+        "verkeerde_assumptie": "'Onder ET 14.000 is er geen BTW meer, dus niets te doen in de aangifte.'",
+        "kernpunt": "Verlegging betekent dat de BTW VERSCHOVEN is naar de aangifte, NIET dat er geen BTW is. Vergeten te boeken in rooster 57 (verschuldigde verlegging) → boete + ambtshalve aanslag. Software moet automatisch DAU-data uit PLDA inlezen in de boekhouding. Een 'verlegging vergeten' is een typische bevinding bij BTW-controles van importeurs.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2"}
+          ]
+        }
+      },
+      {
+        "titel": "DAU als handelsfactuur behandelen",
+        "verkeerde_assumptie": "'Ik heb de factuur van de Chinese leverancier — dat volstaat voor BTW-aftrek.'",
+        "kernpunt": "Bij invoer is het BEWIJSSTUK voor BTW-aftrek het DAU (Enig Document), NIET de handelsfactuur van de buitenlandse leverancier. Het DAU is het document waarop het BTW-bedrag van de invoer vermeld staat én die de Belgische douane bezit. Bewaartermijn: 10 jaar (BTW + douane).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 7", "ref": "art. 4"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkpraktijk DAU als bewijsstuk"}
+          ]
+        }
+      },
+      {
+        "titel": "Indirecte vertegenwoordiging gelijkstellen met directe",
+        "verkeerde_assumptie": "'Een douaneagent verzorgt de aangifte — voor mij is alles gelijk of hij direct of indirect handelt.'",
+        "kernpunt": "Bij indirecte vertegenwoordiging wordt de agent HOOFDELIJK schuldenaar van rechten en BTW. Bij solvabiliteits-zorgen van de importeur kan dit zware risico's opleveren voor de agent — vandaar dat indirecte vertegenwoordiging meestal duurder is. Importeur en agent moeten contractueel scherp afspreken welk type vertegenwoordiging.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 18 + art. 77"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "douanewaarde"
+      "id": "kantoor-import-client",
+      "naam": {"primair": "Kantoor begeleidt importeur"},
+      "intro": "De accountant bij een Belgisch BVBA/NV met substantiële invoer uit derde landen.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "et14000-aanvraag",
+              "naam": {"primair": "Vergunning ET 14.000 aanvragen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënten met substantiële invoer (drempel: meerdere invoeren per jaar of grote volumes): ET 14.000-vergunning aanvragen via FOD Financiën — formulier 14.000 + bewijs van goede BTW-discipline (geen openstaande dwangbevelen). Cashflow-voordeel = substantieel (geen 21 % vooruitbetalen aan douane). Sinds 2017 geen borg meer vereist voor BE-gevestigden.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 7", "ref": "art. 5 §2"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "verwerking-dau",
+              "naam": {"primair": "Verwerking DAU's in boekhouding"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per maandelijkse aangifte: alle DAU's verzamelen + checken op vermelding 'uitstel' of 'betaling'. Per DAU boeken: aankoopprijs (klasse 6) + invoerrechten (klasse 6 of als kostprijs activa); bij ET 14.000: BTW-verlegging in roosters 87 + 57 + 59 (cashflow-neutraal); bij directe betaling: BTW in rooster 81-83 + 59 (na betaling aan douane). DAU-referenties bewaren voor 10 jaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardprocedure import-administratie"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "btw"},
+    {"type": "vereist", "target": "douanewaarde", "toelichting": "Maatstaf invoer-BTW = douanewaarde + bijkomende kosten."},
+    {"type": "beinvloed_door", "target": "accijnzen-basis", "toelichting": "Bij invoer van accijnsgoederen worden zowel BTW als accijnzen via het DAU geheven."}
   ]
 }

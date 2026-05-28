@@ -1,22 +1,29 @@
 {
   "id": "simulatie-leer",
   "naam": {
-    "primair": "Simulatie-leer"
+    "primair": "Simulatie-leer",
+    "synoniemen": ["simulatie in fiscaal recht", "geveinsdheid"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.1.IX.B"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.1.IX.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/simulatie-leer.json",
+      "primary_bronnen": [
+        "Burgerlijk Wetboek art. 1321 (oud)",
+        "WIB92 art. 344",
+        "Cassatie Brepols (6 juni 1961)",
+        "Cassatie Au Vieux Saint-Martin (29 januari 1988)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +32,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: simulatie als pre-AAMB-instrument, Brepols + Au Vieux Saint-Martin-doctrine, verhouding met AAMB."
       }
     ],
     "scope": {
@@ -32,6 +46,8 @@
         "Pre-AAMB-instrument (jurisprudentieel)",
         "Rechtshandeling wordt geherkwalificeerd op basis van werkelijke bedoeling partijen",
         "Smaller toepassingsgebied dan AAMB (vereist effectieve simulatie van wil)",
+        "Brepols-doctrine: vrije keuze minst belaste weg",
+        "Au Vieux Saint-Martin-arrest: grenzen aan vrije keuze",
         "Nog steeds actief naast AAMB"
       ],
       "out": [
@@ -51,28 +67,186 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "tekst": "De simulatie-leer is een jurisprudentiële techniek waarmee de fiscus een veinzed rechtshandeling (de 'ostensibele' handeling die partijen naar buiten toonden) opzij kan zetten en de werkelijk gewilde handeling (de 'occulte' of 'tegenakte') fiscaal kan belasten. Vereist bewijs dat de partijen niet de fiscale gevolgen van de voorgewende rechtshandeling wensten te aanvaarden — de uiterlijke verschijningsvorm verschilt van wat ze werkelijk wilden. Volgt uit art. 1321 oud Burgerlijk Wetboek (nu art. 5.197 BW): tegenakten gelden niet ten aanzien van derden (waaronder de fiscus).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 5.197 (oud art. 1321)", "context": "Tegenakten niet tegenwerpbaar derden" },
+            { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "diverse arresten — leer simulatie", "context": "Klassiek instrument vóór invoering AAMB" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair: simulatie is het 'klassieke' wapen van de fiscus tegen schijnconstructies — ouder dan de AAMB en met een hogere drempel. De partijen veinzen iets te doen wat ze in werkelijkheid niet wilden. Klassiek voorbeeld: een 'verkoop' tussen broer en zus die in werkelijkheid een schenking is (om successierechten te ontwijken). Vergeleken met AAMB: simulatie heeft een striktere bewijslast (effectieve geveinsdheid bewijzen, vaak via tegenakten of getuigen) maar leidt — als bewezen — tot zwaarder gevolg (de werkelijke handeling wordt belast, niet enkel herkwalificeerd).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijksamenvatting" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Simulatie steunt op het algemeen civielrechtelijk beginsel dat tegenakten niet kunnen worden tegengeworpen aan derden te goeder trouw (waaronder de fiscus). De fiscale toepassing is een uitvloeisel van het realiteitsbeginsel: fiscus volgt de economische waarheid, niet de juridische verpakking.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 5.197" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["interpretatie-fiscale-wet"],
+      "kader": "anti-misbruik",
+      "naast_relevant": ["algemene-anti-misbruik-bepaling"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Klassieke jurisprudentiële leer — blijft naast de AAMB (art. 344 §1 WIB92) bestaan. Fiscus kan kiezen welk instrument in te roepen op basis van het bewijsmateriaal."
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatieve voorwaarden voor toepassing simulatie-leer: (1) Bewijs van geveinsdheid: partijen toonden naar buiten één rechtshandeling, wilden in werkelijkheid een andere; (2) De werkelijke rechtshandeling moet identificeerbaar zijn (anders bestaat er geen alternatief om te belasten); (3) De fiscus moet zich op de werkelijke handeling beroepen (niet enkel de schijn betwisten).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard doctrinaire synthese" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "brepols-doctrine",
+        "naam": { "primair": "Brepols-doctrine — vrije keuze minst belaste weg" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In het arrest Brepols (Cassatie 6 juni 1961) erkende het Hof van Cassatie dat de belastingplichtige het recht heeft om de minst belaste weg te kiezen — zolang de gekozen rechtshandelingen reëel zijn en alle juridische gevolgen door partijen aanvaard worden. Er is dus géén simulatie wanneer de partijen oprecht de gekozen vorm willen, ook al doen ze dat enkel om fiscaal voordeel te bekomen. Dit arrest plaatst de grens tussen toelaatbare 'belastingontwijking' en ontoelaatbare 'simulatie'.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "Brepols-arrest, 6 juni 1961" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "au-vieux-saint-martin",
+        "naam": { "primair": "Au Vieux Saint-Martin — grenzen Brepols" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In het arrest Au Vieux Saint-Martin (Cassatie 29 januari 1988) verfijnde Cassatie Brepols: de belastingplichtige kan de minst belaste weg kiezen 'op voorwaarde dat partijen alle juridische gevolgen aanvaarden'. Wanneer ze één enkele gevolg willen ontlopen, terwijl ze de andere gevolgen aanvaarden, is er simulatie — de geveinsde rechtshandeling wordt opzijgezet. Dit arrest verscherpt de simulatie-leer en wordt tot vandaag toegepast.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "Au Vieux Saint-Martin, 29 januari 1988" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijs-geveinsdheid",
+        "naam": { "primair": "Bewijs van geveinsdheid" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus moet bewijzen dat partijen niet wilden wat de ostensibele akte uitdrukt. Bewijsmiddelen: tegenakten (geheime documenten waarin de partijen de werkelijke bedoeling vastleggen), schriftelijke correspondentie, getuigen, vermoedens (concordante feiten die enkel zinvol zijn als simulatie wordt aanvaard). Bewijslast is zwaar: louter onverklaarbare gunstige fiscale gevolgen volstaan niet — dat zou neerkomen op herkwalificatie (AAMB-bevoegdheid).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 340", "context": "Bewijsmiddelen gemeen recht" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-aamb",
+        "naam": { "primair": "Verhouding tot AAMB" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Simulatie en AAMB (art. 344 §1 WIB92) zijn complementaire — niet alternatieve — instrumenten. Simulatie vereist bewijs van geveinsdheid (zwaardere bewijslast) en leidt tot belasting van de werkelijke handeling. AAMB vereist enkel dat de gekozen rechtshandeling 'fiscaal misbruik' uitmaakt (strijdig met doel van de wet, hoofdzakelijk fiscaal gemotiveerd) en leidt tot herkwalificatie naar de meer voor de hand liggende rechtsfiguur. De fiscus kan kiezen of beide tegelijk inroepen — bij betwisting wordt eerst simulatie getest (lex specialis); als die niet slaagt, kan AAMB nog uitkomst bieden.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrinaire synthese" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-schenking-vermomd",
+        "titel": "Klassiek voorbeeld — vermomde schenking",
+        "context": "Broer 'verkoopt' een onroerend goed met een waarde van 300.000 EUR aan zijn zus voor 50.000 EUR; geen enkele betaling vindt werkelijk plaats.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek didactisch voorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Naar de buitenwereld toe: een 'verkoop' aan 50.000 EUR (registratierechten ca. 6.000 EUR in Vlaanderen). In werkelijkheid willen broer en zus geen verkoop: geen betaling vindt plaats, er bestaat geen prijsdiscussie, de verkoper draagt nog onderhoudskosten. De fiscus kan via simulatie de werkelijke schenking belasten met schenkingsrechten (oplopend tot 25 % tussen broer en zus in rechte lijn). Bewijs van simulatie: geen betalingsbewijs, geen koopmotief, geen marktconforme prijsbepaling — concordante vermoedens."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Simulatie verwarren met fiscaal misbruik (AAMB)",
+        "verkeerde_assumptie": "Bij elke fiscale constructie waar de motieven 'verdacht' lijken, is er simulatie.",
+        "kernpunt": "Simulatie vereist bewijs van geveinsdheid — partijen wilden iets anders dan ze deden voorkomen. Als partijen werkelijk de gekozen vorm wilden (Brepols), is er géén simulatie, ook al was de motivering uitsluitend fiscaal. Voor zulke constructies bestaat AAMB als breder instrument.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "Brepols-arrest" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" }
+          ]
+        }
+      },
+      {
+        "titel": "Belastingontwijking ≠ simulatie",
+        "verkeerde_assumptie": "Wie minst belaste weg kiest = simuleert.",
+        "kernpunt": "De Belgische rechtspraak (Brepols 1961) erkent uitdrukkelijk het recht op de minst belaste weg — zolang partijen de gekozen vorm écht willen, met alle gevolgen. Belastingontwijking via reële, juridische middelen is legaal; simulatie (veinzing) is niet.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "Brepols-arrest, 6 juni 1961" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "anti-misbruik"
-    },
+    { "type": "valt_onder", "target": "anti-misbruik" },
     {
       "type": "vergelijkbaar_met",
-      "target": "algemene-anti-misbruik-bepaling"
+      "target": "algemene-anti-misbruik-bepaling",
+      "gelijkenissen": [
+        "Beide laten de fiscus toe een gekozen kwalificatie opzij te zetten",
+        "Beide instrumenten kunnen naast elkaar worden ingeroepen"
+      ],
+      "verschillen": [
+        "Simulatie: vereist bewijs van geveinsdheid (zwaardere bewijslast). AAMB: vereist bewijs van fiscaal misbruik (lichtere bewijslast)",
+        "Simulatie: belast de werkelijk gewilde handeling. AAMB: herkwalificeert naar gangbare rechtsfiguur",
+        "Simulatie: jurisprudentieel (art. 5.197 BW). AAMB: wettelijk (art. 344 §1 WIB92, sinds 1993 → herziene versie 2012)"
+      ],
+      "verwarring_risico": "Beide worden vaak ingeroepen in dezelfde casus — examen-vragen zetten studenten op het spoor van AAMB terwijl simulatie ook (of beter) kan werken, of omgekeerd.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
