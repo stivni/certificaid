@@ -7,12 +7,16 @@
       "assurance-opdrachten",
       "types audit-opdracht",
       "scope of engagement"
-    ]
+    ],
+    "vertaling": {
+      "fr": "types de missions",
+      "en": "engagement types"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -29,7 +33,7 @@
         "(c) samenstelling (no assurance, geen oordeel — ISRS 4410 + ITAA-samenstellingsnorm)",
         "(d) overeengekomen procedures (no assurance, feitelijke bevindingen — ISRS 4400)",
         "Vergelijkingsmatrix: zekerheidsniveau · oordeelsstijl · verslag-type · toepasselijke norm · typische cliëntcontext",
-        "#normenkader-piramide — ISA/ISRE/ISAE/ISRS-internationaal + ITAA-normen-Belgische-overlay"
+        "Normenkader-piramide — ISA/ISRE/ISAE/ISRS-internationaal + ITAA-normen-Belgische-overlay"
       ],
       "out": [
         {
@@ -70,9 +74,20 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "cluster-extract-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opdracht-types.json",
+      "primary_bronnen": [
+        "ITAA-norm-kmo-controlenorm § 1.1.2 Ratione materiae",
+        "ITAA-norm-samenstellingsopdrachten-ISRS4410",
+        "ISA 700 (herzien)",
+        "ISA 705 (herzien)",
+        "International Framework for Assurance Engagements (IAASB)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -81,50 +96,324 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ITAA-KMO-controlenorm § 1.1.2 + ITAA-samenstellingsnorm + ISA-stelsel). 4 opdrachttypes uitgewerkt als sub-concepten met vergelijkingsmatrix."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "‘Opdracht-types’ is het overkoepelende kader dat de soorten dienstverlening van de gecertificeerd accountant en bedrijfsrevisor rond financiële informatie ordent volgens het zekerheidsniveau dat de beroepsbeoefenaar daarover communiceert. De internationale IAASB-architectuur kent vier hoofdtypes: (a) controle (audit, reasonable assurance, ISA-stelsel), (b) beoordeling (review, limited assurance, ISRE-stelsel), (c) overige assurance-opdrachten over niet-historische informatie (ISAE-stelsel), en (d) verwante diensten zonder assurance — samenstelling (ISRS 4410) en overeengekomen procedures (ISRS 4400). In België voegen ITAA-normen een nationale laag toe die deze internationale standaarden contextualiseert voor KMO's en kleine vzw's.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 Ratione materiae" },
+            { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "Toepassing in België" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De typering is geen taxonomie-oefening maar een **contractuele en deontologische beslissing** met directe gevolgen: hoe meer zekerheid de cliënt vraagt, hoe meer werk en kost; hoe meer zekerheid je belooft, hoe groter je beroepsaansprakelijkheid. De vier types staan op een ladder van zekerheid: van reasonable assurance (kans op fout teruggebracht tot ‘vaktechnisch aanvaardbaar laag niveau’) over limited assurance (foutkans ‘aanvaardbaar maar groter’) naar geen assurance (de beroepsbeoefenaar oordeelt niet over de betrouwbaarheid).\n\nDe oordeelsformulering verandert mee:\n- Controle → positief oordeel: ‘naar ons oordeel geven de jaarrekening een getrouw beeld’\n- Beoordeling → negatief oordeel: ‘er zijn ons geen feiten gebleken waaruit zou blijken dat de jaarrekening géén getrouw beeld geeft’\n- Samenstelling → geen oordeel, alleen vermelding dat de informatie is samengesteld\n- AUP → geen conclusie, alleen feitelijke bevindingen ‘we hebben procedure X uitgevoerd en bevonden Y’",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 (positief/negatief oordeel)" },
+            { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "par. 7 (geen assurance)" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom vier types en niet één? Markten en stakeholders hebben verschillende informatie-behoeften: een grootbank vóór kredietbeslissing wil reasonable assurance, een aandeelhouder die periodiek wil meekijken neemt genoegen met limited assurance, een kleine zaakvoerder die zijn boeken professioneel laat opmaken heeft genoeg aan een samenstelling, een fiscus die één specifieke conformiteit wil checken vraagt een AUP. Door de types te standaardiseren én te koppelen aan internationale normen (ISA/ISRE/ISAE/ISRS) krijg je vergelijkbaarheid tussen landen en tussen kantoren — een audit-verslag onder ISA betekent in Antwerpen hetzelfde als in Frankfurt. Het IAASB-framework verbindt de types onderling tot één coherente piramide.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis van assurance-piramide" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "naast_relevant": [
+        "controleopdracht",
+        "beoordeling-cyclus"
+      ],
+      "volgkennis": [
+        "controleopdracht",
+        "beoordeling-cyclus",
+        "isae-opdracht",
+        "overeengekomen-procedures-opdracht",
+        "controleverklaring"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "IAASB-stelsel (ISA · ISRE · ISAE · ISRS) · ITAA-normen (KMO-controlenorm, samenstellingsnorm)",
+        "toelichting": "Het 4-types-kader is structureel binnen IAASB en wordt periodiek bijgewerkt (recente herzieningen ISA 600, ISA 220, ISRS 4400 in 2020). De ITAA-normen volgen IAASB met Belgische uitzonderingen."
+      },
+      "voor": [
+        {
+          "tekst": "Praktijk-keuzecriteria: (a) wettelijke vereiste — boven groottecriteria (WVV) is wettelijke controle (commissaris) verplicht; (b) gebruiker van de informatie — banken eisen vaak controle of beoordeling vóór kredietverlening; (c) cost/benefit — een KMO zonder externe stakeholders heeft zelden controle nodig, samenstelling volstaat; (d) specifieke behoefte — fusie-controle, due diligence, fiscale check → vaak AUP of ISAE.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "controle-audit",
+        "naam": {
+          "primair": "(a) Controle-opdracht — reasonable assurance",
+          "vertaling": { "en": "audit" }
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Assurance-opdracht met redelijke mate van zekerheid: de kans dat de beroepsbeoefenaar een verkeerde uitspraak doet, wordt teruggebracht tot een vaktechnisch aanvaardbaar laag niveau. De accountant brengt een **positief oordeel** uit: ‘naar ons oordeel geven de financiële overzichten een getrouw beeld’ (ISA 700). Normenkader: ISA-stelsel (internationaal) + ITAA-KMO-controlenorm (België-KMO). Wettelijk verplicht voor (middel-)grote vennootschappen (commissaris-mandaat WVV); contractueel mogelijk voor andere entiteiten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 (assurance-opdrachten met redelijke mate van zekerheid)" },
+                  { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "Vormen van een oordeel" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "beoordeling-review",
+        "naam": {
+          "primair": "(b) Beoordelings-opdracht — limited assurance",
+          "vertaling": { "en": "review" }
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Assurance-opdracht met beperkte mate van zekerheid: de foutkans is teruggebracht tot een aanvaardbaar niveau dat groter is dan bij reasonable assurance. De accountant formuleert een **conclusie in negatieve vorm**: ‘er zijn ons geen feiten gebleken waaruit zou blijken dat de financiële overzichten geen getrouw beeld geven’. Scope: voornamelijk navraag + cijferanalyse (geen volledig substantive bewijswerk). Normenkader: ISRE 2400 (review jaarrekening) · ISRE 2410 (review tussentijdse financiële informatie) + ITAA-KMO-controlenorm (beoordelingshoofdstuk).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 (assurance-opdrachten met beperkte mate van zekerheid)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "samenstelling-compilation",
+        "naam": {
+          "primair": "(c) Samenstellingsopdracht — geen assurance",
+          "vertaling": { "en": "compilation" }
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Geen assurance-opdracht. De beroepsbeoefenaar past zijn deskundigheid in administratieve verwerking en financiële verslaggeving toe om de cliënt te helpen financiële informatie op te stellen en te presenteren. Hij **controleert niet** en formuleert **geen oordeel** of conclusie over de betrouwbaarheid. Het management blijft volledig verantwoordelijk voor de informatie en de basis ervan. De waarde voor gebruikers ligt in de professionele opmaak en het naleven van ethische voorschriften door de samensteller. Normenkader: ISRS 4410 (herzien) + ITAA-norm-samenstellingsopdrachten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "par. 6-8" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "overeengekomen-procedures-aup",
+        "naam": {
+          "primair": "(d) Overeengekomen procedures (AUP) — geen assurance, feitelijke bevindingen",
+          "afkorting": "AUP",
+          "vertaling": { "en": "agreed-upon procedures" }
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Geen assurance-opdracht. De beroepsbeoefenaar voert specifiek met de cliënt overeengekomen procedures uit en rapporteert uitsluitend feitelijke bevindingen — geen oordeel, geen conclusie. Voorbeeld: ‘we hebben de saldi van rekening X bevestigd bij de bank en bevonden Y EUR verschil met de boeken’. De gebruikers van het rapport trekken zelf hun conclusies. Normenkader: ISRS 4400 (herzien 2020). Veel gebruikt voor fiscale checks, subsidie-controles, deal-specifieke due diligence-stukken.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISRS 4400", "ref": "Agreed-Upon Procedures Engagements" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese AUP-praktijk" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "normenkader-piramide",
+        "naam": { "primair": "Normenkader-piramide: IAASB + ITAA" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Internationaal niveau (IAASB)**: vier normen-families bovenop het International Framework for Assurance Engagements:\n- ISA-serie (200-810) — controle van historische financiële informatie\n- ISRE-serie (2400, 2410) — beoordeling van historische financiële informatie\n- ISAE-serie (3000, 3400-3420) — assurance over andere dan historische financiële informatie (prognoses, duurzaamheidsrapportering, ...)\n- ISRS-serie (4400, 4410) — verwante diensten zonder assurance\n\n**Belgisch niveau (ITAA + tot 2022 IBR/IAB)**: ITAA-normen die IAASB-standaarden ‘in werking stellen’ in België met aanpassingen voor lokale context. Belangrijkste:\n- ITAA-KMO-controlenorm — proportionele controle + beoordeling voor KMO/kleine vzw\n- ITAA-norm-samenstellingsopdrachten (ISRS 4410-toepassing)\n- ITAA-effectennorm, fusie-splitsing-norm, ontbinding-vereffening-norm, omzetting-norm — bijzondere mandaten\n- ITAA-norm-opdrachtbrief, ITAA-norm-intern-kwaliteitsmanagement — overkoepelend",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "Toepassing in België par. 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vergelijkingsmatrix-types",
+        "naam": { "primair": "Vergelijkingsmatrix opdracht-types" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Pedagogische synthese — zie weergave hieronder.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2" },
+                { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "par. 6-8" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Type", "Zekerheid", "Oordeelsstijl", "Norm (intl)", "Norm (BE)", "Typische cliënt"],
+            "rijen": [
+              ["Controle (audit)", "Redelijk (reasonable)", "Positief — ‘getrouw beeld’", "ISA 200-810", "ITAA-KMO-controlenorm hfdst 3", "Wettelijke commissaris-opdracht · krediet-audit"],
+              ["Beoordeling (review)", "Beperkt (limited)", "Negatief — ‘geen feiten gebleken...’", "ISRE 2400/2410", "ITAA-KMO-controlenorm hfdst 4", "Tussentijdse rapportering · midprijs-opdracht"],
+              ["Samenstelling", "Geen", "Geen oordeel", "ISRS 4410", "ITAA-norm samenstellingsopdrachten", "KMO met externe boekhouder · vzw"],
+              ["Overeengekomen procedures (AUP)", "Geen", "Feitelijke bevindingen", "ISRS 4400", "—", "Fiscale check · subsidie-controle · deal-DD"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wettelijk-vs-contractueel",
+        "naam": { "primair": "Wettelijke vs contractuele opdracht" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Wettelijke opdracht** = wet legt het type opdracht op (commissaris-controle bij vennootschappen boven groottecriteria — WVV art. 3:72; bijzondere mandaten bij fusie-splitsing-omzetting-ontbinding — bedrijfsrevisor of gecertificeerd accountant); de cliënt kan het type niet weigeren. **Contractuele opdracht** = cliënt en accountant kiezen samen, vastgelegd in opdrachtbrief. Belangrijk: de KMO-controlenorm ratione materiae geldt voor *contractuele* controle- en beoordelingsopdrachten bij KMO/kleine vzw — voor commissaris-opdrachten gelden de ISA's onverkort.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 3:72" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "‘Samenstelling met assurance’",
+        "verkeerde_assumptie": "De cliënt vraagt een samenstelling en verwacht toch een verklaring dat de cijfers betrouwbaar zijn.",
+        "kernpunt": "Samenstelling is geen assurance-opdracht (ISRS 4410 par. 7) — de accountant controleert niet en geeft geen oordeel. Het management blijft volledig verantwoordelijk. Wie als samensteller toch ‘we hebben de cijfers nagezien’ in een verslag schrijft, creëert oneigenlijke verwachtingen en mogelijke aansprakelijkheid (expectation gap).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-samenstellingsopdrachten-ISRS4410", "ref": "par. 7-8" }
+          ]
+        }
+      },
+      {
+        "titel": "Positief versus negatief oordeel — niet vergelijkbaar in praktijk",
+        "verkeerde_assumptie": "Een ‘negatief geformuleerd oordeel’ uit een beoordeling is hetzelfde als een positief oordeel uit een controle, alleen ander formulering.",
+        "kernpunt": "Niet hetzelfde. De negatieve formulering reflecteert beperkter bewijswerk — een beoordeling vraagt voornamelijk navraag + cijferanalyse, geen substantive procedures. Een gebruiker die kredietbeslissingen op een review-rapport baseert moet weten dat de zekerheid lager is dan bij audit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2" }
+          ]
+        }
+      },
+      {
+        "titel": "AUP vergelijken met audit-procedures",
+        "verkeerde_assumptie": "Bij een AUP doe je gewoon een paar van de audit-procedures en dat is ‘klein audit’.",
+        "kernpunt": "De procedures zijn vooraf overeengekomen met de cliënt en uniek voor de opdracht. Er is géén risico-inschatting, géén materialiteit-bepaling, géén oordeel. Het rapport bevat alleen feitelijke bevindingen voor gebruikers die zelf de conclusies trekken — wat het juist ongeschikt maakt voor algemeen publiek (vandaar restrictie op verspreiding in ISRS 4400).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISRS 4400", "ref": "Reikwijdte" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Welk opdracht-type voorstellen aan een KMO-cliënt?",
+        "opties": [
+          { "keuze": "Controle (wettelijk verplicht)", "voordeel": "Geen keuze — boven groottecriteria moet er een commissaris zijn", "nadeel": "Hoogste kostprijs · uitgebreidste tijd-investering cliënt" },
+          { "keuze": "Vrijwillige controle (contractueel)", "voordeel": "Hoogste zekerheid voor banken/investeerders — verbeterde financieringscondities", "nadeel": "Duur als geen externe gebruiker dit echt vraagt" },
+          { "keuze": "Beoordeling (review)", "voordeel": "Tussenniveau zekerheid · geschikt bij periodieke krediet-rapportage of intern toezicht", "nadeel": "Markt minder bekend met negatieve oordeelsvorm — uitleg nodig aan stakeholders" },
+          { "keuze": "Samenstelling", "voordeel": "Kosteneffectief · past bij KMO zonder externe stakeholders", "nadeel": "Geen zekerheid over betrouwbaarheid — onvoldoende voor krediet-aanvragen" },
+          { "keuze": "Overeengekomen procedures", "voordeel": "Maatwerk per specifieke behoefte (bv. fiscaal nazicht subsidie)", "nadeel": "Beperkt tot afgesproken procedures — geen breed beeld" }
+        ],
+        "vuistregel": "Begin met ‘wie zijn de gebruikers en wat doen ze met de informatie?’ — daar volgt het juiste type uit, niet uit prijs alleen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkadvies opdrachttype-keuze" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "bevat",
-      "target": "controleopdracht"
-    },
-    {
-      "type": "bevat",
-      "target": "beoordeling-cyclus"
-    },
-    {
-      "type": "bevat",
-      "target": "isae-opdracht"
-    },
-    {
-      "type": "bevat",
-      "target": "overeengekomen-procedures-opdracht"
-    },
-    {
-      "type": "vereist",
-      "target": "opdrachtaanvaarding-en-opdrachtbrief"
-    },
-    {
-      "type": "triggert",
-      "target": "controleverklaring"
+      "id": "perspectief-keuze-client",
+      "naam": { "primair": "De accountant als adviseur bij opdrachttype-keuze" },
+      "intro": "Voor cliënten zonder wettelijke verplichting is de keuze van het opdrachttype een advies-moment vóór de opdrachtbrief.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "keuze-stappenplan",
+              "naam": { "primair": "Stappenplan voor opdrachttype-keuze" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Wettelijke check: vallen we boven groottecriteria of in een geregelde sector? → controle verplicht (commissaris). (2) Stakeholder-mapping: wie gaat de jaarrekening lezen en welke beslissingen worden erop gebaseerd? (banken · investeerders · AV · fiscus). (3) Match zekerheidsniveau aan stakeholder-behoefte. (4) Kostprijs-discussie + benchmark. (5) Vastleggen in opdrachtbrief met expliciete vermelding type en zekerheidsniveau.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "bevat", "target": "controleopdracht" },
+    { "type": "bevat", "target": "beoordeling-cyclus" },
+    { "type": "bevat", "target": "isae-opdracht" },
+    { "type": "bevat", "target": "overeengekomen-procedures-opdracht" },
+    { "type": "vereist", "target": "opdrachtaanvaarding-en-opdrachtbrief" },
+    { "type": "triggert", "target": "controleverklaring" }
   ]
 }
