@@ -1,23 +1,40 @@
 {
   "id": "taxatieprocedure",
   "naam": {
-    "primair": "Taxatieprocedure"
+    "primair": "Taxatieprocedure",
+    "synoniemen": [
+      "vestigingsprocedure",
+      "vestiging van de aanslag"
+    ],
+    "vertaling": {
+      "fr": "procédure de taxation"
+    }
   },
-  "concept_type": "kader",
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "kader"
+      "gebeurtenis"
     ],
     "ankers": [
       "2.5.I",
       "2.5.II"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/taxatieprocedure.json",
+      "primary_bronnen": [
+        "WIB92 art. 346 (bericht van wijziging)",
+        "WIB92 art. 351-352 (ambtshalve aanslag)",
+        "WIB92 art. 305-308 (aangifte)",
+        "WIB92 art. 354 (onderzoekstermijnen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +43,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 346-352)."
       }
     ],
     "scope": {
@@ -36,54 +60,250 @@
         "Termijnen + vormvereisten per stap"
       ],
       "out": [
-        {
-          "topic": "Termijnen detail",
-          "richting": "moet-verwijzen",
-          "ref": "aanslagtermijnen"
-        },
-        {
-          "topic": "Cyclus-overzicht per aanslagjaar",
-          "richting": "moet-verwijzen",
-          "ref": "aanslag-cyclus"
-        },
-        {
-          "topic": "Bewijsmiddelen",
-          "richting": "moet-verwijzen",
-          "ref": "fiscale-bewijsmiddelen"
-        },
-        {
-          "topic": "Behoorlijk bestuur als waarborg",
-          "richting": "mag-verwijzen",
-          "ref": "beginselen-behoorlijk-bestuur"
-        }
+        { "topic": "Termijnen detail", "richting": "moet-verwijzen", "ref": "aanslagtermijnen" },
+        { "topic": "Cyclus-overzicht per aanslagjaar", "richting": "moet-verwijzen", "ref": "aanslag-cyclus" },
+        { "topic": "Bewijsmiddelen", "richting": "moet-verwijzen", "ref": "fiscale-bewijsmiddelen" },
+        { "topic": "Behoorlijk bestuur als waarborg", "richting": "mag-verwijzen", "ref": "beginselen-behoorlijk-bestuur" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De taxatieprocedure is de administratieve fase waarin de fiscus, op basis van de aangifte en eventueel onderzoek, het bedrag van de verschuldigde inkomstenbelasting vaststelt en kohier-vatbaar verklaart. Ze omvat drie hoofdsporen: (1) gewone aanslag conform aangifte, (2) aanslag na bericht van wijziging (BvW) wanneer de fiscus van de aangifte afwijkt, en (3) ambtshalve aanslag bij ontbrekende of niet-tijdige aangifte. De procedure wordt federaal geregeld in WIB92 art. 346-352.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346-352" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de cliënt is de taxatieprocedure het moment waarop de aangifte 'tegengelezen' wordt. De fiscus heeft drie middelen: een vraag om inlichtingen (informeel onderzoek), een bericht van wijziging (formele kennisgeving van een geplande rechtzetting) en — bij niet-meewerken — een ambtshalve aanslag waarbij de bewijslast omkeert. Het bericht van wijziging is hét moment waarop de accountant moet reageren binnen de strikte termijn van 1 maand: zwijgen wordt door de fiscus geïnterpreteerd als instemming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346 + art. 351" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-synthese" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De procedure is opgebouwd rond het beginsel van tegensprekelijkheid: de fiscus moet zijn voorgenomen afwijking van de aangifte motiveren en aan de belastingplichtige meedelen (BvW) vóórdat hij de aanslag vestigt. Dit beschermt de belastingplichtige tegen verrassings-taxaties en is een operationalisering van de hoorplicht (audi alteram partem). De ambtshalve aanslag is de sanctie bij niet-meewerken: hij verschuift de bewijslast naar de belastingplichtige.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346 + art. 352" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["aangifteplicht"],
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["fiscale-controle", "aanslagtermijnen"],
+      "volgkennis": ["bezwaarprocedure"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 346-352"
+      },
+      "trigger_start": [
+        {
+          "tekst": "Ontvangst van de aangifte door de fiscus (of het verstrijken van de aangiftetermijn zonder aangifte) start de taxatieprocedure.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 305-308" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De inkohiering en betekening van het aanslagbiljet eindigt de taxatieprocedure en start de bezwaarperiode.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 297 + art. 366" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vraag-om-inlichtingen",
+        "naam": { "primair": "Vraag om inlichtingen (VOI)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Informeel onderzoeksinstrument: de fiscus stelt schriftelijke vragen aan de belastingplichtige of aan derden. Antwoordtermijn standaard 1 maand (verlengbaar op gemotiveerd verzoek). Niet of laattijdig antwoorden kan leiden tot ambtshalve aanslag en administratieve boete.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 316 + art. 351" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bericht-van-wijziging",
+        "naam": { "primair": "Bericht van wijziging (BvW)", "afkorting": "BvW" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Formele kennisgeving waarin de fiscus aankondigt dat hij wil afwijken van de aangifte. Moet gemotiveerd zijn (welke bedragen, op welke gronden). De belastingplichtige heeft een dwingende antwoordtermijn van 1 maand (te rekenen vanaf de derde werkdag na verzending). Pas na het antwoord — of bij stilzitten — wordt de aanslag gevestigd. Een aanslag zonder voorafgaand BvW (waar dat verplicht was) is nietig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-aanslag",
+        "naam": { "primair": "Aanslag van ambtswege" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Sanctie-aanslag voor wie geen of een onbruikbare aangifte indient, niet antwoordt op vragen om inlichtingen, of weigert mee te werken aan een controle (art. 351 WIB92). De fiscus raamt de inkomsten zelf — vaak forfaitair op basis van tekenen-en-indiciën of vergelijking. Gevolg: de bewijslast keert om. De belastingplichtige moet vervolgens aantonen dat het juiste bedrag lager is (art. 352).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 351-352" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderzoekstermijn",
+        "naam": { "primair": "Onderzoekstermijn" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Standaard 3 jaar vanaf 1 januari van het aanslagjaar. Verlengd tot 6 jaar bij grensoverschrijdende dossiers, tot 10 jaar bij fraude (art. 333 WIB92). De fiscus moet binnen deze termijn de aanslag vestigen — daarna is hij verjaard.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 333 + art. 354" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Aurelia Holding NV — bericht van wijziging op autokostenaftrek",
+        "context": "Aurelia gaf in aangifte AJ 2025 90.000 EUR autokosten aan (BMW iX). De fiscus stuurt op 12 juni 2026 een BvW: aftrekbeperking volgens werkelijke CO₂ → slechts 60.000 EUR aftrekbaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "v1-stap-1",
+            "naam": { "primair": "Antwoord vóór 12 juli" },
+            "bouwsteen_type": "stap",
+            "kern": {
+              "definitie": {
+                "tekst": "Aurelia heeft tot 12 juli 2026 om gemotiveerd te reageren (1 maand vanaf 3e werkdag na verzending). Reageert ze niet → aanslag conform BvW.",
+                "grondslag": {
+                  "confidence": "geciteerd",
+                  "bronnen": [
+                    { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Antwoordtermijn BvW = 1 maand, niet 6 maanden",
+        "verkeerde_assumptie": "Op een bericht van wijziging kun je binnen 6 maanden reageren (verwarring met bezwaar).",
+        "kernpunt": "De antwoordtermijn op een BvW is dwingend 1 maand. Pas op de aanslag zelf is de bezwaartermijn 6 maanden van toepassing. Verschillende fase, verschillende termijn.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" }
+          ]
+        }
+      },
+      {
+        "titel": "Ambtshalve aanslag is niet 'pakken wat je krijgt'",
+        "verkeerde_assumptie": "Bij een ambtshalve aanslag kan de fiscus zomaar willekeurige bedragen vorderen.",
+        "kernpunt": "Ook een ambtshalve aanslag moet redelijk en gemotiveerd zijn (beginsel van behoorlijk bestuur). Hij mag niet kennelijk onredelijk zijn. De belastingplichtige draagt wel de bewijslast om het juiste bedrag aan te tonen — niet de fiscus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 352" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beginselen behoorlijk bestuur" }
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "aanslagtermijnen"
+      "id": "respons-op-bvw",
+      "naam": { "primair": "Reageren op bericht van wijziging" },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "respons-stap-1",
+              "naam": { "primair": "Termijn agenderen + dossier ophalen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Onmiddellijk de antwoorddatum (3e werkdag na verzending + 1 maand) in de agenda zetten. Boekhouding + onderliggende stukken klaarzetten voor het betwiste punt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoor-vuistregel" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "respons-stap-2",
+              "naam": { "primair": "Gemotiveerd antwoord opstellen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Schriftelijk antwoord per aangetekende brief of via MyMinfin/Bizfin. Per voorgenomen rechtzetting: feitelijke + juridische motivering, met verwijzing naar boekstukken en wetsartikelen. Een akkoord kan een bezwaar later bemoeilijken — alleen tekenen wat onbetwistbaar is.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "fiscale-procedure" },
+    { "type": "vereist", "target": "aanslagtermijnen" },
+    { "type": "triggert", "target": "aanslag-cyclus" }
   ]
 }
