@@ -6,12 +6,15 @@
       "wagenkost",
       "voertuigkost",
       "bedrijfswagen-kosten"
-    ]
+    ],
+    "vertaling": {
+      "fr": "frais de voiture"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -56,9 +59,27 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/autokosten.json",
+      "primary_bronnen": [
+        "WIB92 art. 36 §2",
+        "WIB92 art. 65",
+        "WIB92 art. 66 §1, §3, §4, §5, §6",
+        "WIB92 art. 198 §1, 9° en 9°bis",
+        "WIB92 art. 198bis",
+        "WIB92 art. 550",
+        "VCF art. 2.3.4.1.2",
+        "VCF art. 2.3.4.1.2/1",
+        "VCF art. 2.3.4.1.3",
+        "MAR (KB 21.10.2018) klasse 61",
+        "CBN-advies 2016/26",
+        "Aangifte VenB 2025 — codes 1205 en 1206"
+      ],
+      "mcp_calls": 3,
+      "rerank_calls": 2
     },
     "changelog": [
       {
@@ -67,106 +88,911 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 36, 66, 198, 198bis, 550 + VCF + MAR + CBN 2016/26 + aangifte VenB-codes). 2 extra MCP-calls voor MAR-klasse-61 en BTW-aftrek-context."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Autokosten = het cluster van fiscale en boekhoudkundige regels rond de kosten verbonden aan een personenwagen, auto voor dubbel gebruik of minibus (artikel 65 WIB 92) die voor beroeps- of vennootschapsdoeleinden wordt gebruikt. Het regime regelt vier afzonderlijke maar verstrengelde dimensies: (1) de boekhoudkundige opname onder klasse 61 'Diensten en diverse goederen' en klasse 63 'Afschrijvingen'; (2) de aftrek-beperking in PB en VenB via een CO2-cascade (art. 66 §1 + 198bis WIB 92) met als basisformule 100 % − [120 % − (0,5 % × coëfficiënt × gr CO2/km)], maximaal 50 % en minimaal 40 % (60 % vanaf 200 gr/km); (3) de belasting van het persoonlijk gebruik via het voordeel van alle aard (VAA) op naam van de verkrijger (art. 36 §2 WIB 92) — cataloguswaarde × CO2-percentage × leeftijdspercentage × 6/7; en (4) de BTW-aftrek-beperking tot maximaal 50 % (art. 45 §2 WBTW), te bepalen via één van drie administratieve methodes.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198bis" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9° en 9°bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van de vier dimensies — geen één bron beschrijft het cluster integraal." }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor een gecertificeerd accountant is 'autokosten' een van de meest klassieke verworpen-uitgaven-bronnen in de VenB-aangifte (codes 1205 en 1206) en één van de typische valkuilen in de PB van bedrijfsleiders die een wagen via de vennootschap aanhouden. De kern-redenering: één economische uitgave (bijvoorbeeld een lease van 800 EUR/maand + 200 EUR brandstof) wordt voor de berekening van de belastbare basis driedubbel beperkt. Eerst wordt boekhoudkundig 100 % geboekt op klasse 61/63. Vervolgens wordt fiscaal slechts een percentage tussen 40 % en 100 % (vanaf AJ 2027 voor nieuwe wagens: doorgaans 0 %, behalve elektrisch) aanvaard — het verschil verschijnt als verworpen uitgave (code 1205). Wanneer de wagen ook privé wordt gebruikt en de werkgever-vennootschap de brandstof ten laste neemt, wordt bovenop 1205 een tweede VU geboekt: 40 % van het VAA (code 1206), dat tegelijk als beroepsinkomen wordt belast in de PB van de bedrijfsleider/werknemer. BTW-zijdig is maximaal 50 % aftrekbaar, met een dwingende keuze tussen drie ramings-methodes. De accountant beheert dus parallel: (a) MAR-klasse 61 boeking, (b) CO2-aftrek-formule per voertuig, (c) VAA-berekening per verkrijger, (d) BTW-methode-keuze.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9° en 9°bis" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205-1206" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van de stagiair-mental-model 'één uitgave, drievoudige beperking'." }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wou twee doelen tegelijk realiseren: (1) het sociaal-fiscaal voordeel van een gratis bedrijfswagen weer correct belasten (art. 36 §2 — anders zou een loonsverhoging via wagen-on-top altijd voordeliger zijn dan cash); en (2) milieugedrag sturen door de aftrek te koppelen aan CO2-uitstoot. Sinds de hervorming-De Croo (W 25.11.2021) loopt een uitdoof-traject: wagens gekocht/geleased/gehuurd vóór 1 juli 2023 blijven onder de oude regel (max 100 %, min 50 %); wagens vanaf 1 juli 2023 tot 31 december 2025 zijn geplafonneerd op 50 %; wagens vanaf 1 januari 2026 zijn 0 % aftrekbaar tenzij CO2-uitstoot = 0 (volledig elektrisch). De overgangsbepaling staat in artikel 550 WIB 92 en bouwt het aftrektarief af tussen AJ 2026 (75 %) en AJ 2031 (50 %) voor wagens van vóór 1 januari 2018. Dat verklaart waarom de stagiair op het examen voertuig-per-voertuig moet redeneren op basis van AANKOOPDATUM, niet aanslagjaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 550" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsratio uit de overgangsstructuur van art. 550 — afgeleid uit de getrapte percentages per AJ." }
           ]
         }
       }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "uitdovend",
+        "sinds": "2023-07-01",
+        "wettelijke_basis": "Wet 25.11.2021 houdende fiscale en sociale vergroening van de mobiliteit (B.S. 03.12.2021) + W 22.12.2023",
+        "toelichting": "Het oude regime (max 100 %, min 50 %) loopt uit voor wagens gekocht/geleased/gehuurd vóór 1 juli 2023. Wagens 1 juli 2023 – 31 december 2025 zijn intermediair (max 50 %). Wagens vanaf 1 januari 2026 zijn 0 % aftrekbaar tenzij volledig elektrisch (art. 66 §1/1 + art. 550 WIB 92). De aftrek voor laadstations daalt vanaf 1 januari 2030 naar 75 % (art. 66 §6 WIB 92). De stagiair moet per dossier de aankoopdatum nakijken voor de juiste regel."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschap die een bedrijfswagen aankoopt, leaset of huurt voor gebruik door bedrijfsleider of werknemer — al dan niet met persoonlijk gebruik.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 65" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" }
+            ]
+          }
+        },
+        {
+          "tekst": "Zelfstandige in PB die een wagen gebruikt voor beroepsverplaatsingen — kostenaftrek met dezelfde CO2-cascade.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" }
+            ]
+          }
+        },
+        {
+          "tekst": "Werknemer of bedrijfsleider die een eigen wagen gebruikt voor woon-werkverplaatsingen: forfait 0,15 EUR/afgelegde kilometer (art. 66 §4 WIB 92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §4" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Voertuigen uitsluitend gebruikt voor taxidienst, verhuring met bestuurder (vrijgesteld van verkeersbelasting), autorijschool-onderricht of uitsluitend verhuur aan derden — geen aftrekbeperking.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §2, 1°-4°" }
+            ]
+          }
+        },
+        {
+          "tekst": "Lichte vrachtwagens en bestelwagens (N1-categorie volgens WIGB) — die vallen onder de algemene beroepskostenaftrek, niet onder de CO2-cascade. Let op: door bouw kan een wagen die als 'auto voor dubbel gebruik' wordt gepresenteerd toch fiscaal een personenwagen zijn.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 65" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Negatief uit art. 65: enkel daar opgesomde categorieën vallen onder art. 66/198bis." }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Dubbele verworpen-uitgave-fout: 1205 (CO2-aftrek-beperking op TOTALE kost incl. brandstof) en 1206 (40 % of 17 % van VAA) worden BEIDE geboekt; ze zijn cumulatief en niet alternatief. Schermt de stagiair dat niet correct af, dan onder-schat hij de belastbare basis met meerdere duizenden euro per wagen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205 en 1206" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9°bis" }
+            ]
+          }
+        },
+        {
+          "tekst": "Valse-hybride-trap: oplaadbare hybride aangekocht vanaf 1 januari 2018 met batterij < 0,5 kWh/100 kg of CO2 > 50 gr/km wordt fiscaal gelijkgesteld met het overeenkomstig brandstof-voertuig (× 2,5 als geen equivalent bestaat). Vergeten te checken = veel te hoge aftrek én te laag VAA.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 tiende lid" }
+            ]
+          }
+        },
+        {
+          "tekst": "Forgetten plug-in-hybride brandstof-minimum 50 % vanaf 01.01.2023 — voor benzine-/dieselkosten van een vanaf 01.01.2023 aangekocht oplaadbaar hybridevoertuig is het aftrek-percentage minstens 50 %, ongeacht de gewone CO2-formule.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1205 — toelichting plug-in hybride brandstof" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Aanschaf / lease-start / huur-start van een voertuig art. 65 WIB 92 door de onderneming of door bedrijfsleider/werknemer voor beroepsdoel. De AANKOOPDATUM bepaalt het toepasselijke regime (vóór 01.07.2023 = oud; 01.07.2023 – 31.12.2025 = intermediair; vanaf 01.01.2026 = nieuw).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 550" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
         "id": "co2-formule-venb",
         "naam": {
-          "primair": "CO2-aftrek-formule VenB"
+          "primair": "CO2-aftrekformule (art. 66 §1 + 198bis WIB 92)"
         },
         "bouwsteen_type": "formule",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Aftrek-tarief = 100 % − [120 % − (0,5 % × coëfficiënt × gr CO2/km)], met coëfficiënt = 1 voor diesel · 0,95 voor benzine/andere · 0,90 voor aardgas < 12 fiscale PK. Resultaat in PB en VenB BEGRENSD op maximaal 50 % en minimaal 40 %. Uitzondering: 60 % indien CO2 ≥ 200 gr/km of geen CO2-data bij DIV. Resultaat wordt afgerond tot de hogere/lagere tiende naargelang het cijfer van de honderdsten al dan niet 5 bereikt.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198bis" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1205 — aftrekformule autokosten" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De formule is een dubbele cascade: hoe meer CO2 een voertuig uitstoot, hoe lager de aftrek. Onder 200 gr/km blijft minstens 40 % aftrekbaar; boven 200 gr/km bedraagt het tarief vast 60 % (let op: een hard 60 % zonder minimum 40 % is HOGER dan wat de formule onder 200 gr/km soms zou geven — de wetgever heeft hier een 'cliff' ingebouwd om sterk vervuilende wagens niet onbeperkt nadelig te behandelen).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "De 60 %-cliff is logisch afleidbaar uit de structuur." }
               ]
             }
           }
-        }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "expressie": "aftrek_% = MAX(40 %, MIN(100 % − (120 % − 0,5 % × c × CO2), 50 %))     waar c ∈ {1; 0,95; 0,90}",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" }
+              ]
+            }
+          },
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Aftrek-percentage per CO2-uitstoot — benzine (coëfficiënt 0,95)",
+            "rijen": [
+              { "co2_g_km": "60", "formule": "100 − [120 − (0,5 × 0,95 × 60)] = 100 − [120 − 28,5] = 100 − 91,5 = 8,5 → min 40 %", "aftrek": "40 %" },
+              { "co2_g_km": "100", "formule": "100 − [120 − 47,5] = 27,5 → min 40 %", "aftrek": "40 %" },
+              { "co2_g_km": "140", "formule": "100 − [120 − 66,5] = 46,5 → max 50 %", "aftrek": "46,5 %" },
+              { "co2_g_km": "180", "formule": "100 − [120 − 85,5] = 65,5 → max 50 %", "aftrek": "50 %" },
+              { "co2_g_km": "200+", "formule": "vaste cliff", "aftrek": "60 %" }
+            ],
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitwerking van de formule voor didactische tabel." }
+              ]
+            }
+          }
+        ]
       },
       {
         "id": "vaa-auto-formule",
         "naam": {
-          "primair": "VAA-auto-formule (catalogusprijs × CO2 × leeftijd × 6/7)"
+          "primair": "VAA-auto-formule (art. 36 §2 WIB 92)"
         },
         "bouwsteen_type": "formule",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "VAA = cataloguswaarde × CO2-percentage × leeftijdspercentage × (6/7). De cataloguswaarde is de catalogusprijs nieuw incl. opties en werkelijk betaalde BTW, zónder kortingen. Het CO2-basispercentage bedraagt 5,5 % bij een referentie-CO2 van 95 gr/km (diesel) of 115 gr/km (benzine/LPG/aardgas), met ±0,1 %-punt per gram afwijking, begrensd op 4 % (min) en 18 % (max). Het leeftijdspercentage daalt per schijf van 12 maanden vanaf eerste inschrijving: 100 % (0-12 m) → 94 % → 88 % → 82 % → 76 % → 70 % (vanaf 61 maanden). Het VAA mag nooit minder bedragen dan 820 EUR per jaar (niet-geïndexeerd basisbedrag; jaarlijks geïndexeerd in het Cijferzakboekje). Eigen bijdrage van de verkrijger wordt in mindering gebracht.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 eerste tot twaalfde lid" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "expressie": "VAA = cataloguswaarde × CO2_% × leeftijds_% × 6/7 − eigen_bijdrage     (min 820 EUR/jaar geïndexeerd)",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2" }
+              ]
+            }
+          },
+          {
+            "type": "tabel",
+            "titel": "Leeftijdscoëfficiënt VAA (art. 36 §2 vierde lid)",
+            "rijen": [
+              { "leeftijd_maanden": "0 – 12", "percentage": "100 %" },
+              { "leeftijd_maanden": "13 – 24", "percentage": "94 %" },
+              { "leeftijd_maanden": "25 – 36", "percentage": "88 %" },
+              { "leeftijd_maanden": "37 – 48", "percentage": "82 %" },
+              { "leeftijd_maanden": "49 – 60", "percentage": "76 %" },
+              { "leeftijd_maanden": "vanaf 61", "percentage": "70 %" }
+            ],
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 vierde lid" }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "btw-50-procent-aftrek",
+        "naam": {
+          "primair": "BTW-aftrek max 50 % personenwagen (art. 45 §2 WBTW)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor BTW geheven op de aankoop, huur, lease, brandstof, onderhoud en herstellingen van een personenwagen / auto voor dubbel gebruik is de aftrek beperkt tot maximaal 50 %. Het werkelijke beroepsmatige gebruik wordt geraamd via één van drie administratieve methodes (administratieve beslissing E.T.119.650 van 20.10.2011 + opvolgers): (1) METHODE 1 — werkelijk gebruik via volledige kilometeradministratie per wagen per jaar; (2) METHODE 2 — semi-forfait met formule: % privé = ((afstand-woon-werk × 200 × 2) + 6.000) / totale_km × 100, vervolgens % beroep = 100 − % privé, geplafonneerd op 50 %; (3) METHODE 3 — algemeen forfait 35 % beroepsgebruik (toepasbaar op heel het wagenpark mits ≥ 4 wagens en geen werkelijk gebruik). Eens gekozen geldt de methode per kalenderjaar.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "De drie methodes komen uit administratieve beslissing E.T.119.650/4 — bundle bevat geen volledige tekst; samenstelling op basis van algemene praktijk-kennis. Te verifiëren via primaire bron." }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De 50 %-cap is een onweerlegbaar plafond: zelfs als een wagen 100 % beroepsmatig zou worden gebruikt, blijft de BTW-aftrek beperkt tot 50 %. Dat is een Europese afwijking onder art. 176 BTW-Richtlijn. Methode 1 is precies maar administratief zwaar (volle km-registratie); methode 2 is een redelijke mix; methode 3 is alleen interessant voor flottes ≥ 4 wagens.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van administratieve praktijk — bundle bevat geen primaire bron voor de methodes." }
               ]
             }
           }
         }
       },
       {
-        "id": "btw-50-procent-aftrek",
+        "id": "vu-1205-niet-aftrekbare-autokosten",
         "naam": {
-          "primair": "BTW-aftrek max 50% personenwagen"
+          "primair": "Verworpen uitgave code 1205 — niet-aftrekbare autokosten"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Het niet-aftrekbare gedeelte van TOTALE autokosten (lease, afschrijving, brandstof, onderhoud, verzekering, BIV, verkeersbelasting) en het niet-aftrekbare gedeelte van verwezenlijkte minderwaarden op autovoertuigen wordt geboekt als verworpen uitgave onder code 1205 in de VenB-aangifte. Berekening per voertuig op basis van de CO2-cascade (zie co2-formule-venb). Voor minderwaarden geldt een aparte ratio: tarief = 100 − [(som fiscaal aanvaarde afschrijvingen, per BT beperkt tot 100 %) / (som geboekte afschrijvingen voor dezelfde BT)] × 100.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1205" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1 vijfde lid" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vu-1206-autokosten-vaa-gedeelte",
+        "naam": {
+          "primair": "Verworpen uitgave code 1206 — autokosten ten belope van gedeelte VAA"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor voertuigen die kosteloos of niet voor persoonlijk gebruik ter beschikking zijn gesteld, is een ADDITIONEEL stuk autokost verworpen: (a) 40 % van het VAA (vóór bijdrage van de verkrijger) wanneer de brandstofkosten verbonden met dit persoonlijk gebruik geheel of gedeeltelijk door de vennootschap ten laste worden genomen (art. 198 §1, 9°bis WIB 92); (b) 17 % van het VAA wanneer geen brandstof door de vennootschap wordt gedragen (art. 198 §1, 9° WIB 92). Dit komt BOVENOP code 1205 — niet in de plaats van.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9°bis" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1206" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Economische logica: de vennootschap genereert een aftrekbare loonkost (de wagen + brandstof) maar slechts een deel daarvan wordt geneutraliseerd door belasting op de werknemer (het VAA). Het verschil tussen werkelijke kostprijs en VAA is een 'verborgen' loonsubsidie. De wetgever recupereert die door 40 %/17 % van het VAA als VU aan de vennootschap aan te rekenen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9°bis" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsratio van de dubbele neutralisatie." }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "overgangsregime-art-550",
+        "naam": {
+          "primair": "Overgangsregime aftrek per aankoopdatum (art. 550 WIB 92)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor voertuigen aangekocht/geleased/gehuurd VÓÓR 1 JANUARI 2026 geldt art. 550 WIB 92 ipv het nieuwe art. 66 §1/1. Drie subregimes: (a) Aankoop VÓÓR 1.7.2023 — oude formule, min 50 %, max 100 % (uitz. 40 % bij ≥ 200 gr/km of geen DIV-data); voor vóór-2018-wagens een uitdoof-traject naar AJ (min 75 % AJ 2026 → 70 % AJ 2027 → 65 % AJ 2028 → 60 % AJ 2029 → 55 % AJ 2030 → 50 % vanaf AJ 2031). (b) Aankoop 1.7.2023 – 31.12.2025 — formule met max 50 % (tenzij CO2 = 0: dan ongeplafonneerd). (c) Plug-in hybride aangekocht 1.7.2023 – 31.12.2025 — eigen tarievenstaffel. Vanaf 1.1.2026 (= art. 66 §1/1) zijn niet-elektrische wagens 0 % aftrekbaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 550" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Uitdoof-trap art. 550 voor wagens aangekocht vóór 1.1.2018",
+            "rijen": [
+              { "aanslagjaar": "AJ 2026", "minimum_aftrek": "75 %" },
+              { "aanslagjaar": "AJ 2027", "minimum_aftrek": "70 %" },
+              { "aanslagjaar": "AJ 2028", "minimum_aftrek": "65 %" },
+              { "aanslagjaar": "AJ 2029", "minimum_aftrek": "60 %" },
+              { "aanslagjaar": "AJ 2030", "minimum_aftrek": "55 %" },
+              { "aanslagjaar": "vanaf AJ 2031", "minimum_aftrek": "50 %" }
+            ],
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 550 derde lid" }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "valse-hybride-correctie",
+        "naam": {
+          "primair": "Valse-hybride-correctie (art. 36 §2 tiende lid)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een oplaadbare hybride aangekocht vanaf 1 januari 2018 met (a) batterij met energiecapaciteit < 0,5 kWh per 100 kg wagengewicht OF (b) CO2-uitstoot > 50 gr/km (resp. > 75 gr/km bij Euro 6e-bis-1-norm of later) wordt als VALSE HYBRIDE behandeld. De in aanmerking te nemen CO2-uitstoot wordt dan gelijkgesteld met die van het OVEREENSTEMMEND voertuig met enkel een verbrandingsmotor en dezelfde brandstof. Bestaat geen overeenstemmend voertuig, dan wordt de uitstootwaarde × 2,5. De FOD Financiën publiceert een lijst valse hybrides. Niet van toepassing op hybrides aangekocht vóór 01.01.2018.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 tiende lid" },
+                { "type": "kb", "naam": "KB/WIB 92", "ref": "art. 19" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoud-klasse-61-63",
+        "naam": {
+          "primair": "Boekhoudkundige plaatsing autokosten — MAR klasse 61 + 63"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Autokosten worden boekhoudkundig opgedeeld over de MAR-rekeningen: lease- en huurkosten op 61040 'Huur rollend materieel: bedrijfswagens' / 61041 'Huur rollend materieel: personenwagens'; onderhoud en herstellingen op 61140 / 61141; brandstof, verzekering, BIV, verkeersbelasting en parking op andere 61-subrekeningen of op 64 (Andere bedrijfskosten — voor belastingen als verkeersbelasting/BIV als bedrijfskost). Afschrijvingen op 6302 'Afschrijvingen op materiële vaste activa'. De BOEKHOUDKUNDIGE opname is volledig (100 %); de FISCALE beperking gebeurt extra-comptabel in de aangifte via codes 1205 en 1206.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "MAR — KB 21.10.2018 Bijlage 1", "ref": "klasse 6, rekeningen 610-611-630" },
+                { "type": "cbn", "naam": "CBN-advies 2016/26", "ref": "boekhoudkundige verwerking kilometerheffing — diensten en diverse goederen" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De scheiding boekhoudkundig (100 %) / fiscaal (beperkt) is een vaste accountant-reflex: in de jaarrekening verschijnt de werkelijke economische kost, in de fiscale aangifte wordt het niet-aftrekbare deel toegevoegd aan de belastbare basis via verworpen uitgaven. Daardoor blijft de boekhouding consistent met de werkelijkheid en wordt de fiscale correctie traceerbaar.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene werking dubbele boekhouding × verworpen uitgaven." }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "biv-verkeersbelasting-vlaanderen",
+        "naam": {
+          "primair": "BIV en verkeersbelasting (Vlaams gewest — VCF)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De Belasting op de Inverkeerstelling (BIV) voor personenauto's, auto's voor dubbel gebruik en minibussen wordt in Vlaanderen berekend volgens een CO2-gebaseerde formule (VCF art. 2.3.4.1.2 voor wagens vóór 1.1.2021; art. 2.3.4.1.2/1 voor nieuwere). De belasting bedraagt nooit minder dan 41,99 EUR en nooit meer dan 10.497,70 EUR; voor wegvoertuigen die ≥ 30 jaar geleden voor de eerste keer in het verkeer kwamen geldt het minimum van 41,99 EUR (oldtimer-regeling, art. 2.3.4.1.3). Voor wagens zonder gekende CO2-uitstoot wordt deze afgeleid uit brandstof, cilinderinhoud en euronorm (art. 2.3.4.1.6). Brussel en Wallonië hebben eigen formules.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.1.2" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.1.2/1" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.1.3" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.1.6" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "km-vergoeding-woon-werk-eigen-wagen",
+        "naam": {
+          "primair": "Woon-werk-km-vergoeding met eigen wagen — forfait 0,15 EUR/km"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wie zijn eigen wagen gebruikt voor verplaatsingen tussen woonplaats en plaats van tewerkstelling kan in PB de beroepskosten daarvoor forfaitair aftrekken aan 0,15 EUR per afgelegde kilometer (art. 66 §4 WIB 92), op voorwaarde dat het voertuig zijn eigendom is, op zijn naam ingeschreven, via bestendige huur/lease ter beschikking is, of toebehoort aan werkgever/vennootschap met VAA op naam belast (art. 66 §5). Voor twee echtgenoten of ouder-kind die samen rijden mag het forfait slechts aan één persoon worden toegekend voor het gezamenlijk afgelegde traject. Voor woon-werk met bedrijfswagen valt deze forfait WEG (er is dan VAA in plaats van km-vergoeding).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §4" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "laadstations-aftrek",
+        "naam": {
+          "primair": "Aftrek laadstations elektrische wagens"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten met betrekking tot laadstations voor elektrische wagens zijn 100 % aftrekbaar (uitzondering 5° in art. 66 §2 WIB 92). Vanaf 1 januari 2030 worden de kosten van vanaf die datum aangekochte/geleased/gehuurde laadstations slechts ten belope van 75 % aftrekbaar (art. 66 §6 nieuw).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §2, 5°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §6 (vanaf 1.1.2030)" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vaa-werknemer",
+        "titel": "VAA-berekening — werknemer met benzine-bedrijfswagen 18 maanden oud",
+        "context": "Een vennootschap stelt aan haar werknemer een benzine-personenwagen ter beschikking, ook voor persoonlijk gebruik. Catalogusprijs nieuw (incl. opties + werkelijk betaalde BTW): 50.000 EUR. CO2-uitstoot: 130 gr/km. Eerste inschrijving: 14 maanden geleden (= leeftijdsklasse 13-24 maanden → 94 %). De vennootschap neemt ook de brandstof voor persoonlijk gebruik ten laste. Geen eigen bijdrage van de werknemer. Referentie-CO2 benzine: 115 gr/km.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "VAA per jaar — stappen",
+            "stappen": [
+              "Stap 1 — CO2-percentage: basis 5,5 % bij ref 115 g/km. Voertuig 130 g/km → 15 g boven referentie → 5,5 % + (15 × 0,1 %) = 7,0 %. (Plafond max 18 % niet bereikt.)",
+              "Stap 2 — Leeftijdspercentage: 94 % (leeftijdsklasse 13-24 m).",
+              "Stap 3 — Toepassen formule: VAA = 50.000 × 7,0 % × 94 % × (6/7) = 50.000 × 0,07 × 0,94 × 0,857142 = 2.820,00 EUR/jaar (afgerond).",
+              "Stap 4 — Vergelijken met minimum 820 EUR (geïndexeerd in Cijferzakboekje). 2.820 > minimum → behouden.",
+              "Stap 5 — Geen eigen bijdrage → belastbaar VAA op naam werknemer = 2.820 EUR/jaar.",
+              "Stap 6 — VU in vennootschap (code 1206): 40 % × 2.820 = 1.128 EUR (brandstof door vennootschap gedragen → 40 %, niet 17 %)."
+            ],
+            "resultaat": "Werknemer: 2.820 EUR belastbaar als beroepsinkomen. Vennootschap: 1.128 EUR verworpen uitgave (code 1206), bovenop CO2-aftrek-beperking (code 1205)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9°bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitgewerkt cijfervoorbeeld op basis van wettekst-formules; referentie-CO2 = laatst-gepubliceerd basisbedrag in WIB92." }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-co2-aftrek-cascade-venb",
+        "titel": "CO2-aftrek-cascade — diesel-wagen 140 gr/km, aangekocht 2024",
+        "context": "Vennootschap heeft op 15 mei 2024 een diesel-personenwagen geleased voor 12.000 EUR/jaar (lease + onderhoud + verzekering). CO2-uitstoot: 140 gr/km. AJ 2026 (boekjaar = kalenderjaar 2025). Aankoop binnen vensters 1.7.2023 – 31.12.2025 → art. 550 vierde lid: tarief uit formule MET max 50 %.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "Aftrekbaar gedeelte + VU 1205",
+            "stappen": [
+              "Stap 1 — Formule: 100 % − [120 % − (0,5 % × 1 × 140)] = 100 − [120 − 70] = 100 − 50 = 50 %.",
+              "Stap 2 — Plafond toepassing: art. 550 vierde lid plafonneert op MAX 50 % voor wagens vanaf 1.7.2023 → resultaat blijft 50 %.",
+              "Stap 3 — Aftrekbaar = 50 % × 12.000 = 6.000 EUR.",
+              "Stap 4 — Verworpen uitgave (code 1205) = 12.000 − 6.000 = 6.000 EUR.",
+              "Stap 5 — Indien dezelfde wagen vanaf 1.1.2026 zou worden aangekocht: art. 66 §1/1 → 0 % aftrek (niet-elektrisch) → VU 12.000 EUR."
+            ]
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 550" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-boeking-lease-wagen",
+        "titel": "Boekhoudkundige verwerking — maandelijkse lease bedrijfswagen + tankbeurt",
+        "context": "Maandelijkse lease-factuur 800 EUR + 21 % BTW = 968 EUR. Tankkaart-factuur brandstof voor de wagen: 200 EUR + 21 % BTW = 242 EUR. BTW-methode 2 met % beroep berekend op 50 % (max).",
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking lease-factuur",
+            "regels": [
+              { "rekening": "61040", "omschrijving": "Huur rollend materieel — bedrijfswagens", "debet": 800.00, "credit": null },
+              { "rekening": "411", "omschrijving": "Aftrekbare BTW (50 % van 168)", "debet": 84.00, "credit": null },
+              { "rekening": "61040", "omschrijving": "Niet-aftrekbare BTW als kost (50 % van 168)", "debet": 84.00, "credit": null },
+              { "rekening": "440", "omschrijving": "Leveranciers", "debet": null, "credit": 968.00 }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking brandstof-factuur",
+            "regels": [
+              { "rekening": "61210", "omschrijving": "Brandstof rollend materieel", "debet": 200.00, "credit": null },
+              { "rekening": "411", "omschrijving": "Aftrekbare BTW (50 %)", "debet": 21.00, "credit": null },
+              { "rekening": "61210", "omschrijving": "Niet-aftrekbare BTW als kost (50 %)", "debet": 21.00, "credit": null },
+              { "rekening": "440", "omschrijving": "Leveranciers", "debet": null, "credit": 242.00 }
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Effectief geboekte kost in 61040 + 61210 = 1.105 EUR (884 lease incl. niet-aftrekbare BTW + 221 brandstof incl. niet-aftrekbare BTW). Op deze 1.105 EUR wordt EXTRA-COMPTABEL de CO2-cascade toegepast voor de VenB-aangifte (code 1205). De niet-aftrekbare BTW wordt MEE in de basis voor 1205 genomen (zij maakt deel uit van de werkelijke autokost)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "MAR — KB 21.10.2018 Bijlage 1", "ref": "rekeningen 61040, 61210" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke accountant-praktijk: niet-aftrekbare BTW als kostenboeking + verdere VU-cascade in aangifte." }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "1205 én 1206 zijn cumulatief, niet alternatief",
+        "verkeerde_assumptie": "Stagiairs denken vaak dat als ze code 1205 hebben geboekt (CO2-aftrek-beperking op de totale wagenkost), code 1206 niet meer moet — omdat 'het VAA al fiscaal verwerkt is op de werknemer'.",
+        "kernpunt": "Code 1205 corrigeert de TOTALE wagenkost in de vennootschap voor het CO2-element. Code 1206 voegt DAARBOVENOP een extra verworpen uitgave toe van 40 % (brandstof door vennootschap) of 17 % (geen brandstof) van het VAA, want de fiscale wetgever wil het verschil tussen werkelijke wagenkost en VAA dat als 'loonsubsidie' werkt, opnieuw belasten. Beide codes moeten dus IN PARALLEL worden ingevuld.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9° en 9°bis" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205 + 1206" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanslagjaar versus aankoopdatum",
+        "verkeerde_assumptie": "De aftrek-regel volgt het aanslagjaar van de aangifte.",
+        "kernpunt": "Voor autokosten geldt het regime van de AANKOOP-/LEASE-/HUURDATUM van het voertuig, niet het aanslagjaar. Een wagen aangekocht op 30 juni 2023 valt onder het OUDE regime (min 50 %, max 100 %) tot zijn afschrijving op; een wagen aangekocht op 1 juli 2023 valt onder het MAX-50 %-regime; een wagen aangekocht vanaf 1 januari 2026 valt onder 0 %-aftrek. Op het examen moet de stagiair dus per voertuig opzoeken WANNEER de aanschaffingsovereenkomst werd getekend (art. 550 WIB 92).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 550" }
+          ]
+        }
+      },
+      {
+        "titel": "Valse hybride niet als hybride behandelen",
+        "verkeerde_assumptie": "Een plug-in hybride krijgt automatisch het gunstige CO2-tarief uit de homologatie (typisch 30-50 gr/km).",
+        "kernpunt": "Sinds 1.1.2018 kwalificeert een plug-in hybride met batterij < 0,5 kWh per 100 kg of CO2 > 50 gr/km als VALSE HYBRIDE. Voor zowel art. 36 §2 (VAA) als art. 66 §1 (aftrek) wordt het CO2-cijfer dan VERVANGEN door dat van het equivalente brandstof-voertuig (of × 2,5 als geen equivalent bestaat). Niet checken = volledig verkeerde VAA en aftrek.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 tiende lid" }
+          ]
+        }
+      },
+      {
+        "titel": "BTW-aftrek 50 % blokkeert niet de bovengrens, maar PLAFONNEERT die",
+        "verkeerde_assumptie": "Als je 80 % beroepsmatig gebruik aantoont via een volledig kilometerschrift, mag je 80 % BTW aftrekken.",
+        "kernpunt": "Ook bij methode 1 (werkelijk gebruik) is de BTW-aftrek op personenwagens art. 45 §2 WBTW HARD geplafonneerd op 50 %, ongeacht het werkelijke beroepsmatige gebruik. De methodes bepalen wel of je ONDER 50 % zit, nooit erboven. (Uitzondering: voor lichte vracht-wagens en voor wagens onder art. 66 §2 WIB 92 (taxidienst, verhuur, autorijschool, doorgerekend aan derden) gelden andere BTW-regels.)",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard praktijk-kennis BTW-personenwagens." }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Keuze BTW-aftrek-methode personenwagen",
+        "opties": [
+          {
+            "keuze": "Methode 1 — werkelijk gebruik via volledige km-administratie",
+            "voordeel": "Precies, geeft de hoogste BTW-aftrek bij hoog beroepsmatig gebruik (tot 50 %).",
+            "nadeel": "Administratief zwaar — elke verplaatsing moet per voertuig per dag worden geregistreerd."
+          },
+          {
+            "keuze": "Methode 2 — semi-forfait (woon-werk + privé)",
+            "voordeel": "Pragmatisch compromis; geen detail-registratie vereist; formule uniformeert privé-gebruik.",
+            "nadeel": "Werkt minder gunstig dan methode 1 bij sterk beroepsmatige rijders; vereist accurate opgave woon-werk-afstand."
+          },
+          {
+            "keuze": "Methode 3 — algemeen forfait 35 % (vlot pak ≥ 4 wagens)",
+            "voordeel": "Geen voertuig-per-voertuig-berekening; één tarief voor heel het wagenpark.",
+            "nadeel": "BTW-aftrek beperkt tot 35 % — slechter dan methode 2 bij wagens met veel beroepsmatige km."
+          }
+        ],
+        "vuistregel": "Voor een KMO met 1-3 wagens en bedrijfsleider die voornamelijk klant-bezoeken doet: methode 2 of methode 1. Voor een grotere vloot van vertegenwoordigers waar onderling km-gebruik sterk varieert: methode 1 per voertuig waar mogelijk, methode 3 voor de rest.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel BTW-methodes; geen primaire bron in bundle." }
+          ]
+        }
+      },
+      {
+        "titel": "Wagen via vennootschap of cash-equivalent als loonsverhoging",
+        "opties": [
+          {
+            "keuze": "Bedrijfswagen via vennootschap (klassiek)",
+            "voordeel": "VAA-tarief vaak gunstiger dan brutoloon-belasting; vennootschap betaalt en trekt deels af; aantrekkelijk voor werknemer/bedrijfsleider.",
+            "nadeel": "Vanaf 1.1.2026: 0 % aftrek voor niet-elektrische wagens → 100 % VU; bovendien VU 1206 op 40 % VAA; CO2-bijdrage RSZ; milieu-impact."
+          },
+          {
+            "keuze": "Mobiliteitsbudget (regime art. 1-19 W 17.03.2019)",
+            "voordeel": "Flexibel: pijlers 1 (groene wagen) + 2 (woning, fiets, OV) + 3 (cash met sociale bijdrage); vaak fiscaal gunstiger dan klassieke wagen vanaf 2026.",
+            "nadeel": "Strikte voorwaarden (vroegere wagen-12-maanden-regel); administratie pijler-2-bestedingen complex."
+          },
+          {
+            "keuze": "Cash-for-car (mobiliteitsvergoeding — uitdovend)",
+            "voordeel": "Eenvoudige vergoeding berekend op 20 % van 6/7 cataloguswaarde; PB-tarief gunstiger dan klassiek loon.",
+            "nadeel": "Uitdovend regime — geen nieuwe toegang sinds 1.1.2026. Bestaande contracten lopen door (zie record cash-for-car)."
+          },
+          {
+            "keuze": "Eigen wagen + km-vergoeding woon-werk 0,15 EUR/km (art. 66 §4)",
+            "voordeel": "Geen VAA; werknemer-werkgever-relatie blijft cash-gebaseerd; eenvoudige berekening.",
+            "nadeel": "0,15 EUR/km dekt zelden de werkelijke autokost; vereist voldoende loon om wagen te financieren."
+          }
+        ],
+        "vuistregel": "Vanaf AJ 2027 voor niet-elektrische wagens is een klassieke bedrijfswagen-financieel onaantrekkelijk geworden ten opzichte van mobiliteitsbudget of cash-loonsverhoging. Voor elektrische wagens blijft de klassieke route (100 % aftrek + lager VAA + lagere CO2-bijdrage) het meest gunstige.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1/1 + 550" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Strategische afweging op basis van de uitdoof-cijfers." }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-vennootschap-werkgever",
+      "naam": {
+        "primair": "Vennootschap die wagen ter beschikking stelt"
+      },
+      "intro": "De vennootschap is fiscaal-juridisch eigenaar of lessee van de wagen. De accountant beheert hier boekhouding, fiscale aangifte (codes 1205-1206 + VAA op fiche), BTW-aangifte en advies over wagenkeuze.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-lease-of-aankoop",
+              "naam": { "primair": "Boekhoudkundige inboeking lease- of aankoopcyclus" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij lease: maandelijkse factuur op 61040/61041 (Huur rollend materieel), niet-aftrekbare BTW (50 % cap of methode-specifiek) bijgevoegd op dezelfde kostrekening. Bij aankoop: actief op 241 'Rollend materieel' tegen aanschaffingswaarde + niet-aftrekbare BTW; afschrijving op 6302 over 4 of 5 jaar lineair (uitzondering: degressief uitgesloten voor personenwagens, art. 64 WIB 92). Brandstof op 61210, onderhoud op 61140/61141, verzekering op 615, BIV en verkeersbelasting op 640 (Andere bedrijfskosten — belastingen).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "MAR — KB 21.10.2018 Bijlage 1", "ref": "klasse 61, 63, 64" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-toepassing — degressief uitgesloten is praktijk-kennis." }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "vaa-fiche-281-10-281-20",
+              "naam": { "primair": "VAA op fiche 281.10 (werknemer) of 281.20 (bedrijfsleider)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Het belastbaar VAA-bedrag voor het kalenderjaar wordt jaarlijks op fiche 281.10 (werknemer) of 281.20 (bedrijfsleider) vermeld onder code 'voordeel van alle aard — bedrijfswagen'. Maandelijks wordt op het loonbriefje een twaalfde geboekt; bedrijfsvoorheffing wordt berekend op brutoloon INCL. dat maandelijks VAA. Boekhoudkundig: 620 (Bezoldigingen) tegen 455 of 489 — afhankelijk van of een netto-uitbetaling of een louter VAA. In de praktijk wordt het VAA als 'gross-up' op brutoloon geboekt zodat bedrijfsvoorheffing klopt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-praktijk; geen primaire bron in bundle." }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "vu-1205-1206-aangifte",
+              "naam": { "primair": "VenB-aangifte codes 1205 + 1206 invullen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij vak Verworpen uitgaven (vak B van de VenB-aangifte): (1) code 1205 = niet-aftrekbaar deel van de TOTALE wagenkost (lease/afschrijving/brandstof/onderhoud/verzekering/verkeersbelasting/niet-aftrekbare BTW) op basis van de CO2-formule per wagen; (2) code 1206 = 40 % (brandstof door vennootschap) of 17 % (geen brandstof) van het VAA per begunstigde. Per wagen apart berekenen — een KMO met 5 verschillende wagens heeft 5 sub-berekeningen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205 + 1206" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 §1, 9° en 9°bis" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "btw-aftrek-jaarlijkse-keuze",
+              "naam": { "primair": "BTW-methode-keuze + herziening" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eind van het kalenderjaar (uiterlijk in de aangifte van 1e kwartaal of januari N+1) wordt de werkelijke jaarlijkse beroepsmatige aftrek berekend en wordt een herziening geboekt (rooster 61 of 62 van de BTW-aangifte) om het verschil tussen de voorlopig toegepaste aftrek en het werkelijke percentage recht te zetten. Eens een methode voor een wagen gekozen is, blijft die voor het hele kalenderjaar gelden — wijziging mag enkel op 1 januari van een nieuw jaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 45 §2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BTW-herzieningspraktijk; primaire bron beslissing E.T.119.650 niet in bundle." }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-wagenkeuze-2026",
+              "naam": { "primair": "Wagenkeuze-advies voor klanten — overgang 2026" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor klanten die in 2026 een nieuwe wagen overwegen: (1) niet-elektrisch = 0 % aftrek → economisch zelden te verantwoorden vergeleken met cash of mobiliteitsbudget; (2) volledig elektrisch = 100 % aftrek (afnemend in jaren) + lager VAA (geen brandstof-VU) + lagere RSZ-CO2-bijdrage; (3) lopende lease/eigendom: laten doorlopen onder art. 550 — wisselen kost potentiële minderwaarde. Reken altijd het integraal kost-plaatje per scenario over de volledige bezitstermijn (4-5 jaar) inclusief residu-waarde.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 66 §1/1 + 550" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Strategisch advies op basis van uitdoof-traject." }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perspectief-bedrijfsleider-werknemer",
+      "naam": {
+        "primair": "Bedrijfsleider/werknemer met bedrijfswagen"
+      },
+      "intro": "De persoon op wiens naam het VAA wordt belast. Vooral relevant voor de PB-aangifte van de bedrijfsleider — een dossier dat de accountant typisch ook voor zijn cliënt-natuurlijke-persoon behandelt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "vaa-aangifte-pb",
+              "naam": { "primair": "VAA-bedrijfswagen op PB-aangifte" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Het VAA dat op fiche 281.10/281.20 staat, wordt overgenomen in vak IV (bezoldigingen werknemers) of vak XVII (bezoldigingen bedrijfsleiders) van de PB-aangifte. Het draagt eigen bedrijfsvoorheffing en sociale-zekerheids-effecten (in vennootschapscontext geen RSZ op VAA-wagen, maar wel CO2-solidariteits-bijdrage; in werknemerscontext WEL gewone RSZ op VAA op brutoloon-basis). De stagiair moet hier zorgen dat het VAA-bedrag op de fiche overeenstemt met de werkelijke periodes van terbeschikkingstelling.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "PB-aangiftepraktijk; geen primaire bron in bundle voor RSZ-aspect." }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "eigen-bijdrage-aftrek-vaa",
+              "naam": { "primair": "Eigen bijdrage werknemer in mindering brengen" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer de werknemer een eigen bijdrage betaalt voor het persoonlijk gebruik van de wagen (typisch maandelijkse 'auto-bijdrage' van 50-200 EUR), wordt deze in mindering gebracht op het bruto-VAA (art. 36 §2 laatste lid). Resultaat: lager netto-VAA → lagere belasting. De accountant moet checken dat de eigen bijdrage daadwerkelijk wordt ingehouden op het loonbriefje (NIET enkel contractueel afgesproken).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 §2 laatste lid" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "vergelijkbaar_met",
-      "target": "mobiliteitsbudget"
+      "target": "mobiliteitsbudget",
+      "toelichting": "Mobiliteitsbudget is een wettelijk alternatief voor de klassieke bedrijfswagen, met 3 pijlers (groene wagen / duurzame woning-vervoer / cash met sociale bijdrage). Vanaf 2026 wordt het regime relatief gunstiger naarmate niet-elektrische bedrijfswagens 0 % aftrek krijgen.",
+      "gelijkenissen": [
+        "Beide regimes regelen vergoeding voor mobiliteit van werknemer/bedrijfsleider",
+        "Beide worden gekoppeld aan inhouding op brutoloon of werkgeversbijdrage"
+      ],
+      "verschillen": [
+        "Autokosten: vennootschap heeft eigendoms-/lease-relatie met de wagen + VAA-belasting; mobiliteitsbudget: budgetbedrag dat werknemer verdeelt over 3 pijlers",
+        "Autokosten: aftrek-beperking via CO2-cascade; mobiliteitsbudget: andere fiscale behandeling per pijler",
+        "Autokosten: vanaf 2026 0 % aftrek voor niet-elektrisch; mobiliteitsbudget: blijft toegankelijk"
+      ],
+      "verwarring_risico": "Een klant kan denken dat zijn 'auto via de zaak' al een mobiliteitsbudget IS — fout. Mobiliteitsbudget vereist expliciete keuze en wettelijke procedure (W 17.03.2019).",
+      "render_hint": "als_keuze"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "cash-for-car"
+      "target": "cash-for-car",
+      "toelichting": "Cash-for-car (mobiliteitsvergoeding) is een UITDOVEND alternatief: werknemer gaf zijn bedrijfswagen op in ruil voor een cash-bedrag berekend op de cataloguswaarde × 20 % × 6/7. Geen nieuwe toegang sinds 1.1.2026; bestaande contracten lopen door.",
+      "gelijkenissen": [
+        "Beide regimes vertrekken vanuit de cataloguswaarde van een hypothetische bedrijfswagen",
+        "Beide kennen een PB-impact en sociale-zekerheidsbehandeling"
+      ],
+      "verschillen": [
+        "Autokosten: werknemer rijdt MET een wagen + VAA + 1205/1206 in vennootschap; cash-for-car: werknemer rijdt zelf, vennootschap heeft GEEN wagen meer, krijgt cash",
+        "Cash-for-car is uitdovend (geen nieuwe instappers); autokosten blijven actief (zij het minder gunstig voor niet-elektrisch)"
+      ],
+      "verwarring_risico": "Het 6/7-mechanisme komt in beide voor (in VAA én in cash-for-car-formule), maar betekent fiscaal niet hetzelfde.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "woon-werkverkeer-en-km-vergoeding",
+      "toelichting": "Werknemer/bedrijfsleider die GEEN bedrijfswagen heeft maar zelf een wagen gebruikt voor woon-werkverplaatsing, valt onder de aparte km-vergoeding 0,15 EUR/km (art. 66 §4 WIB 92). Geen VAA, geen 1205/1206, maar ook geen brede vennootschapskostenaftrek.",
+      "gelijkenissen": [
+        "Beide regimes regelen mobiliteit van werknemer naar de werkplek"
+      ],
+      "verschillen": [
+        "Autokosten (bedrijfswagen): vennootschap draagt + aftrek-beperking + VAA; km-vergoeding: werknemer draagt + forfait 0,15 EUR/km",
+        "Bij bedrijfswagen vervalt de forfaitaire km-aftrek volgens art. 66 §4"
+      ],
+      "render_hint": "als_keuze"
     },
     {
       "type": "beinvloed_door",
-      "target": "vaste-activa"
+      "target": "vaste-activa",
+      "toelichting": "Een AANGEKOCHTE wagen is een materieel vast actief op 241 'Rollend materieel' en wordt afgeschreven volgens algemene activa-regels (lineair, doorgaans 4-5 jaar — degressief uitgesloten voor personenwagens art. 64 WIB 92). De afschrijvingskost vormt een deel van de basis voor de CO2-aftrek-beperking en wordt geboekt op 6302."
+    },
+    {
+      "type": "valt_onder",
+      "target": "verworpen-uitgaven-venb",
+      "toelichting": "Het niet-aftrekbare deel van de autokost + 40 %/17 % van VAA komt in vak B (codes 1205 en 1206) van de verworpen-uitgaven-rubriek van de VenB-aangifte."
+    },
+    {
+      "type": "vereist",
+      "target": "co2-uitstoot-bepaling",
+      "toelichting": "Voor zowel CO2-aftrek-formule, VAA-formule, BIV-berekening als valse-hybride-correctie is een correct CO2-cijfer per voertuig vereist (uit DIV-databank, homologatie of formule-bepaling bij ontbreken)."
     }
   ]
 }
