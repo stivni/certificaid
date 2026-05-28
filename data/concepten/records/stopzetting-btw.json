@@ -2,14 +2,24 @@
   "id": "stopzetting-btw",
   "naam": {
     "primair": "Stopzetting BTW",
-    "synoniemen": ["beëindiging btw-activiteit", "604C-procedure", "deregistratie btw"]
+    "synoniemen": [
+      "beëindiging btw-activiteit",
+      "604C-procedure",
+      "deregistratie btw"
+    ]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["gebeurtenis", "regeling"],
-    "ankers": ["2.4.II", "2.4.taak.1"],
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.II",
+      "2.4.taak.1"
+    ],
     "scope": {
       "in": [
         "604C-aangifte stopzetting BTW-activiteit (binnen maand na stop)",
@@ -18,9 +28,16 @@
         "Cross overdracht-algemeenheid-btw bij continuïteit (TOGC art 11)"
       ],
       "out": [
-        { "topic": "BTW-herziening bij stopzetting", "richting": "moet-verwijzen", "ref": "btw-herziening-bedrijfsmiddelen" },
-        { "topic": "Overdracht algemeenheid (TOGC art 11)", "richting": "moet-verwijzen", "ref": "overdracht-algemeenheid-btw" },
-        { "topic": "Opstart-formaliteiten (spiegel)", "richting": "moet-verwijzen", "ref": "opstart-btw-formaliteiten" }
+        {
+          "topic": "BTW-herziening bij stopzetting",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        },
+        {
+          "topic": "Opstart-formaliteiten (spiegel)",
+          "richting": "moet-verwijzen",
+          "ref": "opstart-btw-formaliteiten"
+        }
       ]
     },
     "provenance": {
@@ -40,8 +57,20 @@
       "rerank_calls": 0
     },
     "changelog": [
-      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
-      { "operatie": "cluster-extract", "timestamp": "2026-05-28T14:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (W.BTW art. 11, 12, 48)." }
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:40:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (W.BTW art. 11, 12, 48)."
+      }
     ]
   },
   "inhoud": {
@@ -51,10 +80,30 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°", "context": "604C-aangifte stopzetting" },
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°", "context": "Onttrekking voorraad bij stopzetting" },
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2", "context": "Herziening bedrijfsmiddelen" },
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11", "context": "Vrijstelling bij overdracht algemeenheid" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 53 §1 1°",
+              "context": "604C-aangifte stopzetting"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 12 §1 5°",
+              "context": "Onttrekking voorraad bij stopzetting"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 48 §2",
+              "context": "Herziening bedrijfsmiddelen"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 11",
+              "context": "Vrijstelling bij overdracht algemeenheid"
+            }
           ]
         }
       },
@@ -63,9 +112,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economisch effect" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 12 §1 5°"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 11"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese economisch effect"
+            }
           ]
         }
       },
@@ -74,16 +136,31 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "richtlijn", "naam": "BTW-richtlijn 2006/112/EG", "ref": "art. 18 c + art. 184-188" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis" }
+            {
+              "type": "richtlijn",
+              "naam": "BTW-richtlijn 2006/112/EG",
+              "ref": "art. 18 c + art. 184-188"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["btw", "opstart-btw-formaliteiten"],
+      "voorvereisten": [
+        "btw",
+        "opstart-btw-formaliteiten"
+      ],
       "kader": "btw",
-      "naast_relevant": ["btw-herziening-bedrijfsmiddelen", "overdracht-algemeenheid-btw"]
+      "naast_relevant": [
+        "btw-herziening-bedrijfsmiddelen",
+        "overdracht-algemeenheid-btw"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -97,7 +174,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 53 §1 1°"
+              }
             ]
           }
         }
@@ -108,8 +189,16 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 11"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -120,8 +209,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
-              { "type": "kb", "naam": "K.B. nr. 10", "ref": "art. 2" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 53 §1"
+              },
+              {
+                "type": "kb",
+                "naam": "K.B. nr. 10",
+                "ref": "art. 2"
+              }
             ]
           }
         }
@@ -132,8 +229,16 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 53 §1"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -144,8 +249,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 70" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 12 §1 5°"
+              },
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 70"
+              }
             ]
           }
         },
@@ -154,8 +267,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
-              { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10-11" }
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 48 §2"
+              },
+              {
+                "type": "kb",
+                "naam": "K.B. nr. 3",
+                "ref": "art. 10-11"
+              }
             ]
           }
         }
@@ -164,7 +285,9 @@
     "bouwstenen": [
       {
         "id": "stap-1-laatste-aangifte",
-        "naam": { "primair": "Stap 1 — Laatste periodieke aangifte" },
+        "naam": {
+          "primair": "Stap 1 — Laatste periodieke aangifte"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -172,7 +295,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 2°" }
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 53 §1 2°"
+                }
               ]
             }
           }
@@ -180,7 +307,9 @@
       },
       {
         "id": "stap-2-onttrekking-voorraad",
-        "naam": { "primair": "Stap 2 — Onttrekking voorraad (art. 12 §1 5°)" },
+        "naam": {
+          "primair": "Stap 2 — Onttrekking voorraad (art. 12 §1 5°)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -188,8 +317,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 33 §1 1°" }
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 12 §1 5°"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 33 §1 1°"
+                }
               ]
             }
           }
@@ -197,7 +334,9 @@
       },
       {
         "id": "stap-3-herziening-bedrijfsmiddelen",
-        "naam": { "primair": "Stap 3 — Herziening bedrijfsmiddelen (art. 48 §2)" },
+        "naam": {
+          "primair": "Stap 3 — Herziening bedrijfsmiddelen (art. 48 §2)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -205,8 +344,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
-                { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10" }
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 48 §2"
+                },
+                {
+                  "type": "kb",
+                  "naam": "K.B. nr. 3",
+                  "ref": "art. 10"
+                }
               ]
             }
           }
@@ -220,7 +367,9 @@
       },
       {
         "id": "stap-4-604c",
-        "naam": { "primair": "Stap 4 — 604C indienen + nummerdoorhaling" },
+        "naam": {
+          "primair": "Stap 4 — 604C indienen + nummerdoorhaling"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -228,8 +377,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" },
-                { "type": "kb", "naam": "K.B. nr. 10", "ref": "art. 2" }
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 53 §1 1°"
+                },
+                {
+                  "type": "kb",
+                  "naam": "K.B. nr. 10",
+                  "ref": "art. 2"
+                }
               ]
             }
           }
@@ -237,7 +394,9 @@
       },
       {
         "id": "uitzondering-art-11",
-        "naam": { "primair": "Uitzondering art. 11 — overdracht algemeenheid" },
+        "naam": {
+          "primair": "Uitzondering art. 11 — overdracht algemeenheid"
+        },
         "bouwsteen_type": "uitzondering",
         "kern": {
           "definitie": {
@@ -245,8 +404,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
-                { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 11 §1" }
+                {
+                  "type": "wettekst",
+                  "naam": "W.BTW",
+                  "ref": "art. 11"
+                },
+                {
+                  "type": "kb",
+                  "naam": "K.B. nr. 3",
+                  "ref": "art. 11 §1"
+                }
               ]
             }
           }
@@ -261,10 +428,26 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
-            { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 12 §1 5°"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 48 §2"
+            },
+            {
+              "type": "kb",
+              "naam": "K.B. nr. 3",
+              "ref": "art. 10"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -287,9 +470,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
-            { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 11 §1" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 11"
+            },
+            {
+              "type": "kb",
+              "naam": "K.B. nr. 3",
+              "ref": "art. 11 §1"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -315,7 +510,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 53 §1 1°"
+            }
           ]
         }
       },
@@ -326,7 +525,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 33 §1 1°" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 33 §1 1°"
+            }
           ]
         }
       },
@@ -337,7 +540,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" }
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 11"
+            }
           ]
         }
       }
@@ -346,7 +553,9 @@
   "accountant_perspectieven": [
     {
       "id": "stopper-zelfstandige",
-      "naam": { "primair": "Stoppende zelfstandige (pensioen, overdracht)" },
+      "naam": {
+        "primair": "Stoppende zelfstandige (pensioen, overdracht)"
+      },
       "intro": "Accountant van een zelfstandige of vennootschap die de activiteit beëindigt.",
       "rollen": [
         {
@@ -354,7 +563,9 @@
           "elementen": [
             {
               "id": "scenario-analyse-art-11",
-              "naam": { "primair": "Scenario-analyse art. 11 vs gewone stopzetting" },
+              "naam": {
+                "primair": "Scenario-analyse art. 11 vs gewone stopzetting"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -362,8 +573,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard stopzettings-praktijk" }
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 11"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard stopzettings-praktijk"
+                      }
                     ]
                   }
                 }
@@ -376,7 +596,9 @@
           "elementen": [
             {
               "id": "inventarisatie-eindstand",
-              "naam": { "primair": "Inventarisatie + bedrijfsmiddelenlijst per stopzettingsdatum" },
+              "naam": {
+                "primair": "Inventarisatie + bedrijfsmiddelenlijst per stopzettingsdatum"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -384,8 +606,17 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 60", "context": "Bewaartermijn btw-stukken" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 60",
+                        "context": "Bewaartermijn btw-stukken"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -397,23 +628,25 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "btw" },
-    { "type": "triggert", "target": "btw-herziening-bedrijfsmiddelen", "toelichting": "Stopzetting binnen herzieningstermijn activeert pro-rata herziening." },
-    { "type": "vergelijkbaar_met", "target": "overdracht-algemeenheid-btw",
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "triggert",
+      "target": "btw-herziening-bedrijfsmiddelen",
+      "toelichting": "Stopzetting binnen herzieningstermijn activeert pro-rata herziening."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "opstart-btw-formaliteiten",
       "gelijkenissen": [
-        "Beide handelen over beëindiging activiteit en activa-overgang",
-        "Beide vereisen 604C-aangifte"
+        "Spiegelprocedure — registratie/de-registratie via 604-formulieren"
       ],
       "verschillen": [
-        "Stopzetting zonder opvolger = onttrekking + herziening (btw verschuldigd); art. 11-overdracht = continuïteit (geen btw)",
-        "Stopzetting heeft definitief karakter; overdracht behoudt aftrekketen via overnemer"
+        "604A vóór aanvang; 604C binnen één maand na stopzetting",
+        "Opstart genereert aftrek; stopzetting kan herziening triggeren"
       ],
-      "verwarring_risico": "Studenten passen art. 11 toe waar geen algemeenheid wordt overgedragen — enkele activa volstaan niet.",
-      "render_hint": "als_keuze"
-    },
-    { "type": "vergelijkbaar_met", "target": "opstart-btw-formaliteiten",
-      "gelijkenissen": ["Spiegelprocedure — registratie/de-registratie via 604-formulieren"],
-      "verschillen": ["604A vóór aanvang; 604C binnen één maand na stopzetting", "Opstart genereert aftrek; stopzetting kan herziening triggeren"],
       "verwarring_risico": "Formulier 604A/B/C verwisselen — A = aanvang, B = wijziging, C = stopzetting.",
       "render_hint": "als_glossarium"
     }

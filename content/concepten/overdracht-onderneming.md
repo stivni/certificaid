@@ -276,7 +276,6 @@ _`stap`_
 - → Aandeelhoudersovereenkomsten — pre-overdracht-context → [[aandeelhoudersovereenkomsten]] _(moet-verwijzen)_
 - → Reorganisatie-Sigma — alternatieve herstructurerings-route → [[reorganisatie]] _(moet-verwijzen)_
 - ↪ Meerwaarde-aandelen VenB — verkoperskant → [[meerwaarde-aandelen-venb]] _(mag-verwijzen)_
-- ↪ BTW-perspectief: overdracht algemeenheid → ⏳ overdracht-algemeenheid-btw _(mag-verwijzen)_
 
 ## Relaties
 

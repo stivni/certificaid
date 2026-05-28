@@ -72,11 +72,6 @@
           "topic": "ATAD-richtlijn (anti-misbruik)",
           "richting": "moet-verwijzen",
           "ref": "atad-richtlijn"
-        },
-        {
-          "topic": "Fiscale fusierichtlijn (reorganisaties)",
-          "richting": "moet-verwijzen",
-          "ref": "fiscale-fusierichtlijn"
         }
       ]
     }
@@ -88,9 +83,24 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (PSD)", "ref": "art. 1", "context": "Toepassingsgebied moeder-dochter-relaties" },
-            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG (BTW)", "ref": "art. 1", "context": "Gemeenschappelijk BTW-stelsel" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese - lijst van voornaamste richtlijnen" }
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2011/96/EU (PSD)",
+              "ref": "art. 1",
+              "context": "Toepassingsgebied moeder-dochter-relaties"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG (BTW)",
+              "ref": "art. 1",
+              "context": "Gemeenschappelijk BTW-stelsel"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese - lijst van voornaamste richtlijnen"
+            }
           ]
         }
       },
@@ -99,8 +109,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (PSD)", "ref": "art. 1 + art. 3 (10% deelneming + 2 jaar optioneel)" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijksynthese EU-fiscaal recht" }
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2011/96/EU (PSD)",
+              "ref": "art. 1 + art. 3 (10% deelneming + 2 jaar optioneel)"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Praktijksynthese EU-fiscaal recht"
+            }
           ]
         }
       },
@@ -109,7 +128,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer EU-fiscaal recht (Lang, Pinto...)" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaardleer EU-fiscaal recht (Lang, Pinto...)"
+            }
           ]
         }
       }
@@ -146,8 +170,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (PSD)", "ref": "art. 1" },
-                { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (PSD)", "ref": "art. 3", "context": "Definitie moedermaatschappij — 10% deelneming + 2-jaar optie" }
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2011/96/EU (PSD)",
+                  "ref": "art. 1"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2011/96/EU (PSD)",
+                  "ref": "art. 3",
+                  "context": "Definitie moedermaatschappij — 10% deelneming + 2-jaar optie"
+                }
               ]
             }
           }
@@ -165,7 +198,12 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer Interest-Royalty 2003/49/EG" }
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Standaardleer Interest-Royalty 2003/49/EG"
+                }
               ]
             }
           }
@@ -183,7 +221,12 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer Fusierichtlijn 2009/133/EG" }
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Standaardleer Fusierichtlijn 2009/133/EG"
+                }
               ]
             }
           }
@@ -201,8 +244,18 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer ATAD I/II" },
-                { "type": "circulaire", "naam": "Circulaire 2017/C/56", "ref": "A. ALGEMEEN", "context": "BE-omzetting BEPS-maatregelen" }
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Standaardleer ATAD I/II"
+                },
+                {
+                  "type": "circulaire",
+                  "naam": "Circulaire 2017/C/56",
+                  "ref": "A. ALGEMEEN",
+                  "context": "BE-omzetting BEPS-maatregelen"
+                }
               ]
             }
           }
@@ -220,8 +273,18 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "circulaire", "naam": "Circulaire 2017/C/56", "ref": "A. ALGEMEEN", "context": "BE-omzetting DAC4" },
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "DAC1-7 overzicht" }
+                {
+                  "type": "circulaire",
+                  "naam": "Circulaire 2017/C/56",
+                  "ref": "A. ALGEMEEN",
+                  "context": "BE-omzetting DAC4"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "DAC1-7 overzicht"
+                }
               ]
             }
           }
@@ -239,8 +302,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG (BTW)", "ref": "art. 1", "context": "'Bij deze richtlijn wordt het gemeenschappelijke stelsel van belasting over de toegevoegde waarde ingesteld'" },
-                { "type": "richtlijn", "naam": "Richtlijn 2008/9/EG (BTW-teruggaaf EU)", "ref": "art. 1" }
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG (BTW)",
+                  "ref": "art. 1",
+                  "context": "'Bij deze richtlijn wordt het gemeenschappelijke stelsel van belasting over de toegevoegde waarde ingesteld'"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2008/9/EG (BTW-teruggaaf EU)",
+                  "ref": "art. 1"
+                }
               ]
             }
           }
@@ -255,7 +327,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "EU-recht-doctrine — art. 288 VWEU + rechtstreekse werking" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "EU-recht-doctrine — art. 288 VWEU + rechtstreekse werking"
+            }
           ]
         }
       },
@@ -266,8 +343,18 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (PSD)", "ref": "art. 3", "context": "10% + 2 jaar houdperiode" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Wisselwerking PSD ↔ BE-DBI-taxatievoorwaarde" }
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2011/96/EU (PSD)",
+              "ref": "art. 3",
+              "context": "10% + 2 jaar houdperiode"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Wisselwerking PSD ↔ BE-DBI-taxatievoorwaarde"
+            }
           ]
         }
       }
@@ -285,10 +372,6 @@
     {
       "type": "bevat",
       "target": "atad-richtlijn"
-    },
-    {
-      "type": "bevat",
-      "target": "fiscale-fusierichtlijn"
     },
     {
       "type": "beinvloed_door",

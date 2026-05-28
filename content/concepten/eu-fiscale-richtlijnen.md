@@ -118,7 +118,6 @@ _`regel`_
 
 - → Moeder-dochterrichtlijn (detail) → [[moeder-dochterrichtlijn]] _(moet-verwijzen)_
 - → ATAD-richtlijn (anti-misbruik) → [[atad-richtlijn]] _(moet-verwijzen)_
-- → Fiscale fusierichtlijn (reorganisaties) → ⏳ fiscale-fusierichtlijn _(moet-verwijzen)_
 
 ## Relaties
 
@@ -127,6 +126,5 @@ _`regel`_
 ### `bevat`
 - [[moeder-dochterrichtlijn]]
 - [[atad-richtlijn]]
-- ⏳ fiscale-fusierichtlijn
 ### `beinvloed_door`
 - [[beps-actieplan]] — ATAD I+II en DAC4-7 zijn de EU-omzetting van BEPS-acties 2, 3, 4 en 13.

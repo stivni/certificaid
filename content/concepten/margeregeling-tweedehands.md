@@ -188,7 +188,6 @@ _`vuistregel`_
 ## Verder lezen (scope-out)
 
 - ↪ BTW-tarieven (op marge wel toe te passen) → [[btw-tarieven]] _(mag-verwijzen)_
-- ↪ BTW-bedrijfswagen tweedehands → ⏳ btw-bedrijfswagen _(mag-verwijzen)_
 
 ## Relaties
 
@@ -196,9 +195,3 @@ _`vuistregel`_
 - [[btw]]
 ### `alternatief_referentiestelsel`
 - [[btw]] — Margeregeling is een keuze-alternatief voor de normale BTW-regeling — niet beide tegelijk.
-### `vergelijkbaar_met`
-- ⏳ btw-bedrijfswagen
-    - **Gelijkenissen**:
-        - Beide zijn bijzondere regimes voor wederverkoop van voertuigen
-    - **Verschillen**:
-        - Margeregeling = BTW op marge zonder BTW-vermelding; gewone BTW-bedrijfswagen = BTW op volledige prijs met BTW-vermelding + aftrek-beperkingen

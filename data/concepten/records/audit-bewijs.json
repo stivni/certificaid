@@ -41,14 +41,41 @@
         "Niet-naleving van wet- en regelgeving — NOCLAR (non-compliance with laws and regulations, ISA 250)"
       ],
       "out": [
-        { "topic": "Cyclus-context (fase 3)", "richting": "moet-verwijzen", "ref": "controleopdracht" },
-        { "topic": "Planning stuurt bewijswerk (input)", "richting": "moet-verwijzen", "ref": "audit-planning" },
-        { "topic": "Afronding gebruikt bewijs voor oordeel (output)", "richting": "moet-verwijzen", "ref": "audit-afronding" },
-        { "topic": "Dossier-documentatie", "richting": "moet-verwijzen", "ref": "revisiedossier" },
-        { "topic": "IT-controles als bewijs in IT-omgeving (cross IC)", "richting": "moet-verwijzen", "ref": "it-controles" },
-        { "topic": "Cyclus-substantive-testing", "richting": "moet-verwijzen", "ref": "cyclus-analyse" },
-        { "topic": "Verbonden-partijen-procedures", "richting": "mag-verwijzen", "ref": "verbonden-partijen" },
-        { "topic": "Fraude-procedures (ISA 240)", "richting": "moet-verwijzen", "ref": "fraude" }
+        {
+          "topic": "Cyclus-context (fase 3)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Planning stuurt bewijswerk (input)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Afronding gebruikt bewijs voor oordeel (output)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-afronding"
+        },
+        {
+          "topic": "Dossier-documentatie",
+          "richting": "moet-verwijzen",
+          "ref": "revisiedossier"
+        },
+        {
+          "topic": "IT-controles als bewijs in IT-omgeving (cross IC)",
+          "richting": "moet-verwijzen",
+          "ref": "it-controles"
+        },
+        {
+          "topic": "Cyclus-substantive-testing",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "Verbonden-partijen-procedures",
+          "richting": "mag-verwijzen",
+          "ref": "verbonden-partijen"
+        }
       ]
     },
     "provenance": {
@@ -71,8 +98,20 @@
       "rerank_calls": 0
     },
     "changelog": [
-      { "operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)" },
-      { "operatie": "cluster-extract", "timestamp": "2026-05-28T12:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 500/505/520/530/540/580/250). Sub-concepten: assertions, 7 procedures, steekproef, LOR, IT-bewijs, schattingen, NOCLAR." }
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 500/505/520/530/540/580/250). Sub-concepten: assertions, 7 procedures, steekproef, LOR, IT-bewijs, schattingen, NOCLAR."
+      }
     ]
   },
   "inhoud": {
@@ -82,8 +121,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 500", "ref": "Doelstellingen + definities" },
-            { "type": "norm", "naam": "ISA 530", "ref": "par. 2 (steunpunt op ISA 500)" }
+            {
+              "type": "norm",
+              "naam": "ISA 500",
+              "ref": "Doelstellingen + definities"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 530",
+              "ref": "par. 2 (steunpunt op ISA 500)"
+            }
           ]
         }
       },
@@ -92,9 +139,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. A190 categorieën beweringen" },
-            { "type": "norm", "naam": "ISA 500", "ref": "par. A30 betrouwbaarheid bewijs" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ISA 315 (herzien 2019)",
+              "ref": "par. A190 categorieën beweringen"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 500",
+              "ref": "par. A30 betrouwbaarheid bewijs"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       },
@@ -103,16 +162,31 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 230", "ref": "par. 8 (ervaren auditor-test)" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ISA 230",
+              "ref": "par. 8 (ervaren auditor-test)"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["controleopdracht", "audit-planning"],
+      "voorvereisten": [
+        "controleopdracht",
+        "audit-planning"
+      ],
       "kader": "controleopdracht",
-      "volgkennis": ["audit-afronding", "controleverklaring", "revisiedossier"]
+      "volgkennis": [
+        "audit-afronding",
+        "controleverklaring",
+        "revisiedossier"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -126,7 +200,11 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         }
@@ -135,7 +213,9 @@
     "subconcepten": [
       {
         "id": "assertions",
-        "naam": { "primair": "Audit-beweringen (assertions)" },
+        "naam": {
+          "primair": "Audit-beweringen (assertions)"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -144,7 +224,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. A190" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 315 (herzien 2019)",
+                    "ref": "par. A190"
+                  }
                 ]
               }
             }
@@ -153,7 +237,9 @@
       },
       {
         "id": "zeven-procedures",
-        "naam": { "primair": "De 7 controleprocedures (ISA 500/505/520)" },
+        "naam": {
+          "primair": "De 7 controleprocedures (ISA 500/505/520)"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -162,9 +248,21 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 500", "ref": "par. A14-A25" },
-                  { "type": "norm", "naam": "ISA 505", "ref": "Externe bevestigingen" },
-                  { "type": "norm", "naam": "ISA 520", "ref": "Cijferanalyses" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 500",
+                    "ref": "par. A14-A25"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ISA 505",
+                    "ref": "Externe bevestigingen"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ISA 520",
+                    "ref": "Cijferanalyses"
+                  }
                 ]
               }
             }
@@ -173,7 +271,9 @@
       },
       {
         "id": "steekproef",
-        "naam": { "primair": "Steekproef (ISA 530)" },
+        "naam": {
+          "primair": "Steekproef (ISA 530)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -182,7 +282,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 530", "ref": "par. 1-2 + definities" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 530",
+                    "ref": "par. 1-2 + definities"
+                  }
                 ]
               }
             }
@@ -203,7 +307,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 580", "ref": "Schriftelijke bevestigingen" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 580",
+                    "ref": "Schriftelijke bevestigingen"
+                  }
                 ]
               }
             }
@@ -212,7 +320,9 @@
       },
       {
         "id": "it-bewijs",
-        "naam": { "primair": "IT-bewijs en CAATs" },
+        "naam": {
+          "primair": "IT-bewijs en CAATs"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -221,8 +331,16 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. 25 + A99-A115 IT-omgeving" },
-                  { "type": "norm", "naam": "ISA 330", "ref": "par. A14 CAATs" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 315 (herzien 2019)",
+                    "ref": "par. 25 + A99-A115 IT-omgeving"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ISA 330",
+                    "ref": "par. A14 CAATs"
+                  }
                 ]
               }
             }
@@ -231,7 +349,9 @@
       },
       {
         "id": "boekhoudkundige-schattingen",
-        "naam": { "primair": "Boekhoudkundige schattingen (ISA 540 herzien)" },
+        "naam": {
+          "primair": "Boekhoudkundige schattingen (ISA 540 herzien)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -240,7 +360,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 540 (herzien)", "ref": "Vereisten + definities" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 540 (herzien)",
+                    "ref": "Vereisten + definities"
+                  }
                 ]
               }
             }
@@ -261,7 +385,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 250 (herzien)", "ref": "Vereisten + Inleiding" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 250 (herzien)",
+                    "ref": "Vereisten + Inleiding"
+                  }
                 ]
               }
             }
@@ -272,7 +400,9 @@
     "bouwstenen": [
       {
         "id": "voldoende-en-geschikt",
-        "naam": { "primair": "Voldoende EN geschikt — twee aparte kwaliteiten" },
+        "naam": {
+          "primair": "Voldoende EN geschikt — twee aparte kwaliteiten"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -280,7 +410,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 500", "ref": "par. A4 + A30" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 500",
+                  "ref": "par. A4 + A30"
+                }
               ]
             }
           }
@@ -288,7 +422,9 @@
       },
       {
         "id": "positieve-vs-negatieve-bevestiging",
-        "naam": { "primair": "Positieve vs negatieve externe bevestiging (ISA 505)" },
+        "naam": {
+          "primair": "Positieve vs negatieve externe bevestiging (ISA 505)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -296,7 +432,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 505", "ref": "par. A23 negatieve bevestigingen" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 505",
+                  "ref": "par. A23 negatieve bevestigingen"
+                }
               ]
             }
           }
@@ -304,7 +444,9 @@
       },
       {
         "id": "accumuleren-afwijkingen",
-        "naam": { "primair": "Accumuleren van geïdentificeerde afwijkingen (ISA 450)" },
+        "naam": {
+          "primair": "Accumuleren van geïdentificeerde afwijkingen (ISA 450)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -312,7 +454,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 450", "ref": "par. 5-13" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 450",
+                  "ref": "par. 5-13"
+                }
               ]
             }
           }
@@ -327,7 +473,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 500", "ref": "par. A30 betrouwbaarheid" }
+            {
+              "type": "norm",
+              "naam": "ISA 500",
+              "ref": "par. A30 betrouwbaarheid"
+            }
           ]
         }
       },
@@ -338,7 +488,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 530", "ref": "par. 14 projectie" }
+            {
+              "type": "norm",
+              "naam": "ISA 530",
+              "ref": "par. 14 projectie"
+            }
           ]
         }
       },
@@ -349,7 +503,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 580", "ref": "par. 4 + A1" }
+            {
+              "type": "norm",
+              "naam": "ISA 580",
+              "ref": "par. 4 + A1"
+            }
           ]
         }
       }
@@ -360,12 +518,36 @@
         "intro": "Bewijs-piramide — oplopende overtuigingskracht.",
         "inhoud": {
           "rangorde": [
-            { "niveau": "Laag", "bewijs": "Mondelinge navraag bij management", "indicatief": "Alleen voor context, nooit als enige bron" },
-            { "niveau": "Laag-medium", "bewijs": "Inspectie van door entiteit aangeleverde kopieën", "indicatief": "Voldoende voor lage-risico-posten" },
-            { "niveau": "Medium", "bewijs": "Inspectie originelen + cijferanalyse + herrekening", "indicatief": "Standaard bewijswerk medium-risk" },
-            { "niveau": "Medium-hoog", "bewijs": "Herperformance van interne controle", "indicatief": "Sterk indien IC betrouwbaar bevonden" },
-            { "niveau": "Hoog", "bewijs": "Externe bevestiging rechtstreeks aan auditor (ISA 505)", "indicatief": "Hoogste betrouwbaarheid voor saldi" },
-            { "niveau": "Hoog", "bewijs": "Eigen observatie of meting door auditor", "indicatief": "Voorraadopname-bijwoning, fysieke inspectie" }
+            {
+              "niveau": "Laag",
+              "bewijs": "Mondelinge navraag bij management",
+              "indicatief": "Alleen voor context, nooit als enige bron"
+            },
+            {
+              "niveau": "Laag-medium",
+              "bewijs": "Inspectie van door entiteit aangeleverde kopieën",
+              "indicatief": "Voldoende voor lage-risico-posten"
+            },
+            {
+              "niveau": "Medium",
+              "bewijs": "Inspectie originelen + cijferanalyse + herrekening",
+              "indicatief": "Standaard bewijswerk medium-risk"
+            },
+            {
+              "niveau": "Medium-hoog",
+              "bewijs": "Herperformance van interne controle",
+              "indicatief": "Sterk indien IC betrouwbaar bevonden"
+            },
+            {
+              "niveau": "Hoog",
+              "bewijs": "Externe bevestiging rechtstreeks aan auditor (ISA 505)",
+              "indicatief": "Hoogste betrouwbaarheid voor saldi"
+            },
+            {
+              "niveau": "Hoog",
+              "bewijs": "Eigen observatie of meting door auditor",
+              "indicatief": "Voorraadopname-bijwoning, fysieke inspectie"
+            }
           ]
         }
       }
@@ -374,14 +556,18 @@
   "accountant_perspectieven": [
     {
       "id": "perspectief-bewijsverzamelaar",
-      "naam": { "primair": "De accountant als bewijsverzamelaar" },
+      "naam": {
+        "primair": "De accountant als bewijsverzamelaar"
+      },
       "rollen": [
         {
           "rol": "auditor",
           "elementen": [
             {
               "id": "werkprogramma-uitvoering",
-              "naam": { "primair": "Concrete uitvoering bewijswerk per cyclus" },
+              "naam": {
+                "primair": "Concrete uitvoering bewijswerk per cyclus"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -389,8 +575,16 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 330", "ref": "" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 330",
+                        "ref": ""
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -402,10 +596,25 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "controleopdracht" },
-    { "type": "beinvloed_door", "target": "audit-planning" },
-    { "type": "triggert", "target": "audit-afronding" },
-    { "type": "gedocumenteerd_in", "target": "revisiedossier" },
-    { "type": "vereist", "target": "it-controles" }
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "audit-planning"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-afronding"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "revisiedossier"
+    },
+    {
+      "type": "vereist",
+      "target": "it-controles"
+    }
   ]
 }

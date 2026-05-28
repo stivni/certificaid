@@ -2,14 +2,24 @@
   "id": "btw-aftrek",
   "naam": {
     "primair": "BTW-aftrek",
-    "synoniemen": ["recht op aftrek", "voorbelasting", "aftrek voorbelasting"]
+    "synoniemen": [
+      "recht op aftrek",
+      "voorbelasting",
+      "aftrek voorbelasting"
+    ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["regeling"],
-    "ankers": ["2.4.III", "2.4.IV", "2.4.VII"],
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III",
+      "2.4.IV",
+      "2.4.VII"
+    ],
     "provenance": {
       "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
@@ -27,8 +37,19 @@
       "rerank_calls": 0
     },
     "changelog": [
-      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
-      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:45:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — art. 45 principe + uitsluitingen + pro-rata + autokosten"}
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:45:00Z",
+        "model": "claude-sonnet-4-5",
+        "wijziging": "Pass 1 content — art. 45 principe + uitsluitingen + pro-rata + autokosten"
+      }
     ],
     "scope": {
       "in": [
@@ -39,9 +60,16 @@
         "Uitsluitingen art 45 §3 (autokosten 50% · onthaal · receptie · ...)"
       ],
       "out": [
-        {"topic": "Herziening bedrijfsmiddelen (15j vastgoed · 5j BM)", "richting": "moet-verwijzen", "ref": "btw-herziening-bedrijfsmiddelen"},
-        {"topic": "BTW-bedrijfswagen 50%-regel + methodes", "richting": "moet-verwijzen", "ref": "btw-bedrijfswagen"},
-        {"topic": "Vrijstellingen art 44 (geen aftrek)", "richting": "moet-verwijzen", "ref": "btw-vrijstellingen"}
+        {
+          "topic": "Herziening bedrijfsmiddelen (15j vastgoed · 5j BM)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        },
+        {
+          "topic": "Vrijstellingen art 44 (geen aftrek)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vrijstellingen"
+        }
       ]
     }
   },
@@ -52,8 +80,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §1"},
-            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 167-168"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §1"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 167-168"
+            }
           ]
         }
       },
@@ -62,9 +98,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §1"},
-            {"type": "kb", "naam": "KB nr. 3", "ref": "art. 3"},
-            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese principe van neutraliteit BTW — standaardleer"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §1"
+            },
+            {
+              "type": "kb",
+              "naam": "KB nr. 3",
+              "ref": "art. 3"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28",
+              "context": "Synthese principe van neutraliteit BTW — standaardleer"
+            }
           ]
         }
       },
@@ -73,8 +122,17 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 1.2"},
-            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaard-citaat HvJ over neutraliteit"}
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 1.2"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28",
+              "context": "Standaard-citaat HvJ over neutraliteit"
+            }
           ]
         }
       }
@@ -91,9 +149,21 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §1"},
-              {"type": "kb", "naam": "KB nr. 3", "ref": "art. 2"},
-              {"type": "kb", "naam": "KB nr. 3", "ref": "art. 3"}
+              {
+                "type": "wettekst",
+                "naam": "WBTW",
+                "ref": "art. 45 §1"
+              },
+              {
+                "type": "kb",
+                "naam": "KB nr. 3",
+                "ref": "art. 2"
+              },
+              {
+                "type": "kb",
+                "naam": "KB nr. 3",
+                "ref": "art. 3"
+              }
             ]
           }
         }
@@ -102,7 +172,9 @@
     "subconcepten": [
       {
         "id": "pro-rata-aftrek",
-        "naam": {"primair": "Pro-rata bij gemengde belastingplichtige"},
+        "naam": {
+          "primair": "Pro-rata bij gemengde belastingplichtige"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -111,9 +183,21 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WBTW", "ref": "art. 46"},
-                  {"type": "kb", "naam": "KB nr. 3", "ref": "art. 12-14"},
-                  {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 173-175"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WBTW",
+                    "ref": "art. 46"
+                  },
+                  {
+                    "type": "kb",
+                    "naam": "KB nr. 3",
+                    "ref": "art. 12-14"
+                  },
+                  {
+                    "type": "richtlijn",
+                    "naam": "Richtlijn 2006/112/EG",
+                    "ref": "art. 173-175"
+                  }
                 ]
               }
             },
@@ -122,8 +206,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "kb", "naam": "KB nr. 3", "ref": "art. 12-19"},
-                  {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 175"}
+                  {
+                    "type": "kb",
+                    "naam": "KB nr. 3",
+                    "ref": "art. 12-19"
+                  },
+                  {
+                    "type": "richtlijn",
+                    "naam": "Richtlijn 2006/112/EG",
+                    "ref": "art. 175"
+                  }
                 ]
               }
             }
@@ -131,7 +223,9 @@
           "bouwstenen": [
             {
               "id": "algemeen-verhoudingsgetal",
-              "naam": {"primair": "Algemeen verhoudingsgetal"},
+              "naam": {
+                "primair": "Algemeen verhoudingsgetal"
+              },
               "bouwsteen_type": "formule",
               "kern": {
                 "definitie": {
@@ -139,7 +233,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 174-175"}
+                      {
+                        "type": "richtlijn",
+                        "naam": "Richtlijn 2006/112/EG",
+                        "ref": "art. 174-175"
+                      }
                     ]
                   }
                 }
@@ -150,7 +248,9 @@
       },
       {
         "id": "uitsluitingen-art-45-3",
-        "naam": {"primair": "Uitsluitingen van aftrek (art. 45 §3 WBTW)"},
+        "naam": {
+          "primair": "Uitsluitingen van aftrek (art. 45 §3 WBTW)"
+        },
         "concept_type": "regime",
         "inhoud": {
           "kern": {
@@ -159,8 +259,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3"},
-                  {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3, 3°-4°"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WBTW",
+                    "ref": "art. 45 §3"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WBTW",
+                    "ref": "art. 45 §3, 3°-4°"
+                  }
                 ]
               }
             }
@@ -168,28 +276,44 @@
           "bouwstenen": [
             {
               "id": "kosten-onthaal",
-              "naam": {"primair": "Kosten van onthaal (4°)"},
+              "naam": {
+                "primair": "Kosten van onthaal (4°)"
+              },
               "bouwsteen_type": "uitzondering",
               "kern": {
                 "definitie": {
                   "tekst": "Kosten gemaakt voor het 'onthaal' van klanten of zakenrelaties (recepties, feestjes, geschenken bij klantenbezoek) zijn 100 % uitgesloten van BTW-aftrek. Onderscheid met restaurantkosten op verplaatsing (3°) en publiciteitskosten (wel aftrekbaar): pure relatiekost = niet aftrekbaar.",
                   "grondslag": {
                     "confidence": "geciteerd",
-                    "bronnen": [{"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3, 4°"}]
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 45 §3, 4°"
+                      }
+                    ]
                   }
                 }
               }
             },
             {
               "id": "logies-spijzen-dranken",
-              "naam": {"primair": "Logies, spijzen en dranken (3°)"},
+              "naam": {
+                "primair": "Logies, spijzen en dranken (3°)"
+              },
               "bouwsteen_type": "uitzondering",
               "kern": {
                 "definitie": {
                   "tekst": "Kosten van logies, spijzen en dranken in de zin van art. 18 §1 lid 2, 10°-11° zijn niet aftrekbaar — TENZIJ: (a) personeel buiten de onderneming met levering of dienstverrichting (= 'op verplaatsing'); (b) belastingplichtige die zelf dezelfde diensten onder bezwarende titel verstrekt (= horeca-uitbater die zijn input recupereert).",
                   "grondslag": {
                     "confidence": "geciteerd",
-                    "bronnen": [{"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3, 3°"}]
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 45 §3, 3°"
+                      }
+                    ]
                   }
                 }
               }
@@ -201,7 +325,9 @@
     "bouwstenen": [
       {
         "id": "ontstaan-recht-aftrek",
-        "naam": {"primair": "Tijdstip ontstaan aftrekrecht (art. 2 KB nr. 3)"},
+        "naam": {
+          "primair": "Tijdstip ontstaan aftrekrecht (art. 2 KB nr. 3)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -209,8 +335,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "kb", "naam": "KB nr. 3", "ref": "art. 2"},
-                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 167 + art. 179"}
+                {
+                  "type": "kb",
+                  "naam": "KB nr. 3",
+                  "ref": "art. 2"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG",
+                  "ref": "art. 167 + art. 179"
+                }
               ]
             }
           }
@@ -218,7 +352,9 @@
       },
       {
         "id": "regelmatige-factuur-vereist",
-        "naam": {"primair": "Regelmatige factuur — formele voorwaarde"},
+        "naam": {
+          "primair": "Regelmatige factuur — formele voorwaarde"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -226,8 +362,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "kb", "naam": "KB nr. 3", "ref": "art. 3 §1"},
-                {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5"}
+                {
+                  "type": "kb",
+                  "naam": "KB nr. 3",
+                  "ref": "art. 3 §1"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB nr. 1",
+                  "ref": "art. 5"
+                }
               ]
             }
           }
@@ -235,7 +379,9 @@
       },
       {
         "id": "directe-band",
-        "naam": {"primair": "Directe en onmiddellijke band"},
+        "naam": {
+          "primair": "Directe en onmiddellijke band"
+        },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
@@ -243,9 +389,21 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 168"},
-                {"type": "rechtspraak", "naam": "HvJ — BLP Group, Midland Bank, Cibo Participations"},
-                {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardleer band-vereiste"}
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG",
+                  "ref": "art. 168"
+                },
+                {
+                  "type": "rechtspraak",
+                  "naam": "HvJ — BLP Group, Midland Bank, Cibo Participations"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-5",
+                  "datum": "2026-05-28",
+                  "context": "Standaardleer band-vereiste"
+                }
               ]
             }
           }
@@ -271,8 +429,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45"},
-            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
           ]
         }
       },
@@ -295,9 +461,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 46"},
-            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 175"},
-            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 46"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 175"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
           ]
         }
       },
@@ -320,8 +498,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3, 4°"},
-            {"type": "wettekst", "naam": "WIB92", "ref": "art. 53, 8°"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §3, 4°"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 53, 8°"
+            }
           ]
         }
       }
@@ -334,8 +520,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 44"},
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §1"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 44"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §1"
+            }
           ]
         }
       },
@@ -345,7 +539,13 @@
         "kernpunt": "Art. 45 §3, 3° sluit kosten van spijzen en dranken uit, MAAR uitzondering (a): kosten voor het personeel buiten de onderneming belast met levering of dienstverrichting. Dus: een monteur die op verplaatsing een broodje eet → 100 % aftrekbaar; eindejaarsreceptie voor klanten op kantoor → niet aftrekbaar (= onthaal 4°). Onderscheid scherp bewaken in boekhouding.",
         "grondslag": {
           "confidence": "geciteerd",
-          "bronnen": [{"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §3, 3° + 4°"}]
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §3, 3° + 4°"
+            }
+          ]
         }
       },
       {
@@ -355,8 +555,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "kb", "naam": "KB nr. 3", "ref": "art. 3"},
-            {"type": "kb", "naam": "KB nr. 1", "ref": "art. 5"}
+            {
+              "type": "kb",
+              "naam": "KB nr. 3",
+              "ref": "art. 3"
+            },
+            {
+              "type": "kb",
+              "naam": "KB nr. 1",
+              "ref": "art. 5"
+            }
           ]
         }
       }
@@ -365,7 +573,9 @@
   "accountant_perspectieven": [
     {
       "id": "kantoor-aftrek",
-      "naam": {"primair": "Kantoor verwerkt aftrek-aanvragen cliënt"},
+      "naam": {
+        "primair": "Kantoor verwerkt aftrek-aanvragen cliënt"
+      },
       "intro": "De accountant die maandelijks/kwartaalheid de aankopen van de cliënt verwerkt en het aftrekrecht bewaakt.",
       "rollen": [
         {
@@ -373,7 +583,9 @@
           "elementen": [
             {
               "id": "codering-aftrek",
-              "naam": {"primair": "Codering aankopen per aftrekstatus"},
+              "naam": {
+                "primair": "Codering aankopen per aftrekstatus"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -381,8 +593,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 45"},
-                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaard-coderingsregels kantoor"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 45"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Standaard-coderingsregels kantoor"
+                      }
                     ]
                   }
                 }
@@ -395,7 +616,9 @@
           "elementen": [
             {
               "id": "optimalisatie-pro-rata",
-              "naam": {"primair": "Methode-keuze pro-rata: algemeen vs werkelijk gebruik"},
+              "naam": {
+                "primair": "Methode-keuze pro-rata: algemeen vs werkelijk gebruik"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -403,8 +626,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 46 §2"},
-                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 46 §2"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Adviespraktijk"
+                      }
                     ]
                   }
                 }
@@ -416,9 +648,24 @@
     }
   ],
   "relaties": [
-    {"type": "valt_onder", "target": "btw"},
-    {"type": "vereist", "target": "factuur-btw", "toelichting": "Aftrek vereist regelmatige factuur (KB nr. 3 art. 3)."},
-    {"type": "is_uitzondering_op", "target": "btw-vrijstellingen", "toelichting": "Vrijstellingen art. 44 sluiten aftrek uit; aftrek geldt enkel voor belaste handelingen of vrijstellingen met aftrek (export, IC-leveringen)."},
-    {"type": "triggert", "target": "btw-herziening-bedrijfsmiddelen", "toelichting": "Aftrek op bedrijfsmiddelen kan herzien worden binnen 5 jaar (roerend) of 15 jaar (onroerend) bij bestemmingswijziging."}
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "factuur-btw",
+      "toelichting": "Aftrek vereist regelmatige factuur (KB nr. 3 art. 3)."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "btw-vrijstellingen",
+      "toelichting": "Vrijstellingen art. 44 sluiten aftrek uit; aftrek geldt enkel voor belaste handelingen of vrijstellingen met aftrek (export, IC-leveringen)."
+    },
+    {
+      "type": "triggert",
+      "target": "btw-herziening-bedrijfsmiddelen",
+      "toelichting": "Aftrek op bedrijfsmiddelen kan herzien worden binnen 5 jaar (roerend) of 15 jaar (onroerend) bij bestemmingswijziging."
+    }
   ]
 }

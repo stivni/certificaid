@@ -62,11 +62,6 @@
       ],
       "out": [
         {
-          "topic": "Algemene exit-belasting-mechaniek",
-          "richting": "moet-verwijzen",
-          "ref": "exit-belasting"
-        },
-        {
           "topic": "ATAD-richtlijn (basis)",
           "richting": "moet-verwijzen",
           "ref": "atad-richtlijn"
@@ -91,9 +86,21 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 214/1" },
-            { "type": "richtlijn", "naam": "ATAD 2016/1164/EU", "ref": "art. 5" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 210bis"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 214/1"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "ATAD 2016/1164/EU",
+              "ref": "art. 5"
+            }
           ]
         }
       },
@@ -102,8 +109,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis" },
-            { "type": "rechtspraak", "naam": "HvJ National Grid Indus C-371/10", "ref": "29 november 2011" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 210bis"
+            },
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ National Grid Indus C-371/10",
+              "ref": "29 november 2011"
+            }
           ]
         }
       },
@@ -112,9 +127,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "rechtspraak", "naam": "HvJ National Grid Indus C-371/10", "ref": "punten 73-87" },
-            { "type": "richtlijn", "naam": "ATAD 2016/1164/EU", "ref": "considerans 10" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer exit-tax EU-jurisprudentie" }
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ National Grid Indus C-371/10",
+              "ref": "punten 73-87"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "ATAD 2016/1164/EU",
+              "ref": "considerans 10"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaardleer exit-tax EU-jurisprudentie"
+            }
           ]
         }
       }
@@ -144,7 +172,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis §1" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 210bis §1"
+              }
             ]
           }
         },
@@ -153,7 +185,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 + 210bis" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 211 + 210bis"
+              }
             ]
           }
         }
@@ -164,7 +200,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 214/1" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 214/1"
+              }
             ]
           }
         }
@@ -175,7 +215,12 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Post-Brexit praktijk" }
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Post-Brexit praktijk"
+              }
             ]
           }
         }
@@ -194,7 +239,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis §1-2" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 210bis §1-2"
+                }
               ]
             }
           }
@@ -212,8 +261,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 214/1" },
-                { "type": "richtlijn", "naam": "ATAD 2016/1164/EU", "ref": "art. 5 §2" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 214/1"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "ATAD 2016/1164/EU",
+                  "ref": "art. 5 §2"
+                }
               ]
             }
           }
@@ -231,7 +288,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis §3" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 210bis §3"
+                }
               ]
             }
           }
@@ -249,7 +310,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "rechtspraak", "naam": "HvJ National Grid Indus C-371/10", "ref": "29 november 2011, punten 73-87" }
+                {
+                  "type": "rechtspraak",
+                  "naam": "HvJ National Grid Indus C-371/10",
+                  "ref": "29 november 2011, punten 73-87"
+                }
               ]
             }
           }
@@ -267,7 +332,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "rechtspraak", "naam": "HvJ DMC C-164/12", "ref": "23 januari 2014" }
+                {
+                  "type": "rechtspraak",
+                  "naam": "HvJ DMC C-164/12",
+                  "ref": "23 januari 2014"
+                }
               ]
             }
           }
@@ -285,8 +354,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WVV", "ref": "art. 14:1 e.v." },
-                { "type": "richtlijn", "naam": "EU Mobility Directive 2019/2121", "ref": "Titel II" }
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 14:1 e.v."
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "EU Mobility Directive 2019/2121",
+                  "ref": "Titel II"
+                }
               ]
             }
           }
@@ -301,7 +378,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis + 214/1" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 210bis + 214/1"
+            }
           ]
         },
         "weergaven": [
@@ -327,7 +408,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 214/1" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 214/1"
+            }
           ]
         }
       },
@@ -338,7 +423,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis §3" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 210bis §3"
+            }
           ]
         }
       },
@@ -349,7 +438,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 210bis §2" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 210bis §2"
+            }
           ]
         }
       }
@@ -369,11 +462,6 @@
       "type": "beinvloed_door",
       "target": "atad-richtlijn",
       "toelichting": "ATAD art. 5 bracht de 5-jaars-spreidingsregel in EU-recht; geïmplementeerd in WIB92 art. 214/1."
-    },
-    {
-      "type": "triggert",
-      "target": "exit-belasting",
-      "toelichting": "Concrete fiscale heffing die uit de exit-planning volgt."
     },
     {
       "type": "vergelijkbaar_met",

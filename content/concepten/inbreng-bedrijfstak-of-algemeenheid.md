@@ -271,7 +271,6 @@ _`stap`_
 
 - → Algemene kapitaalverhoging-procedure als modaliteit → [[kapitaalverhoging]] _(moet-verwijzen)_
 - → Fiscale neutraliteit bij fusie/splitsing — verwante regimes → [[fiscale-fusie-splitsing]] _(moet-verwijzen)_
-- → BTW-perspectief overdracht algemeenheid → ⏳ overdracht-algemeenheid-btw _(moet-verwijzen)_
 - → Fusie als alternatieve reorganisatie → [[fusie]] _(moet-verwijzen)_
 - → Splitsing — partiële splitsing als verwant → [[splitsing]] _(moet-verwijzen)_
 - → Overdracht-onderneming als alternatieve route (share-deal/asset-deal) → [[overdracht-onderneming]] _(moet-verwijzen)_

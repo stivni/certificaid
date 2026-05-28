@@ -57,11 +57,6 @@
           "ref": "verbonden-partijen"
         },
         {
-          "topic": "Fraude-risico-inschatting",
-          "richting": "moet-verwijzen",
-          "ref": "fraude"
-        },
-        {
           "topic": "Interne-controle-evaluatie als input controle-risico",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
@@ -119,7 +114,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 300", "ref": "par. 7-9 + A3" }
+            {
+              "type": "norm",
+              "naam": "ISA 300",
+              "ref": "par. 7-9 + A3"
+            }
           ]
         }
       },
@@ -128,9 +127,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 300", "ref": "par. 9" },
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 6-7 inspelen op risico's" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese planning-architectuur" }
+            {
+              "type": "norm",
+              "naam": "ISA 300",
+              "ref": "par. 9"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 6-7 inspelen op risico's"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese planning-architectuur"
+            }
           ]
         }
       },
@@ -139,8 +151,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 300", "ref": "par. 2 + A1" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ISA 300",
+              "ref": "par. 2 + A1"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       }
@@ -172,7 +192,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "ISA 300", "ref": "par. A3 + A24" }
+              {
+                "type": "norm",
+                "naam": "ISA 300",
+                "ref": "par. A3 + A24"
+              }
             ]
           }
         }
@@ -183,7 +207,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "ISA 300", "ref": "par. 6" }
+              {
+                "type": "norm",
+                "naam": "ISA 300",
+                "ref": "par. 6"
+              }
             ]
           }
         }
@@ -203,7 +231,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. 19-27" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 315 (herzien 2019)",
+                    "ref": "par. 19-27"
+                  }
                 ]
               }
             }
@@ -223,8 +255,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 200", "ref": "Definities — audit-risico" },
-                  { "type": "norm", "naam": "ISA 330", "ref": "par. A10-A11 timing + aard" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 200",
+                    "ref": "Definities — audit-risico"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ISA 330",
+                    "ref": "par. A10-A11 timing + aard"
+                  }
                 ]
               }
             }
@@ -244,8 +284,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 320", "ref": "par. A8 + A9" },
-                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 3.1.3 Materialiteit" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 320",
+                    "ref": "par. A8 + A9"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ITAA-norm-kmo-controlenorm",
+                    "ref": "§ 3.1.3 Materialiteit"
+                  }
                 ]
               }
             }
@@ -265,7 +313,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 300", "ref": "par. 7-9 + A14" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 300",
+                    "ref": "par. 7-9 + A14"
+                  }
                 ]
               }
             }
@@ -276,7 +328,9 @@
     "bouwstenen": [
       {
         "id": "discussiemeeting-fraude",
-        "naam": { "primair": "Verplichte teambespreking fraude-risico" },
+        "naam": {
+          "primair": "Verplichte teambespreking fraude-risico"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -284,8 +338,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 240", "ref": "par. 16 + Bijlage 3 indicatoren" },
-                { "type": "norm", "naam": "ISA 300", "ref": "par. 5 betrokkenheid kernleden" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 240",
+                  "ref": "par. 16 + Bijlage 3 indicatoren"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ISA 300",
+                  "ref": "par. 5 betrokkenheid kernleden"
+                }
               ]
             }
           }
@@ -293,7 +355,9 @@
       },
       {
         "id": "scalability-kmo",
-        "naam": { "primair": "Schaalbaarheid voor KMO" },
+        "naam": {
+          "primair": "Schaalbaarheid voor KMO"
+        },
         "bouwsteen_type": "vuistregel",
         "kern": {
           "substantie": {
@@ -301,8 +365,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 300", "ref": "par. A13" },
-                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.1.1 + § 3.1.3" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 300",
+                  "ref": "par. A13"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm-kmo-controlenorm",
+                  "ref": "§ 2.1.1 + § 3.1.3"
+                }
               ]
             }
           }
@@ -310,7 +382,9 @@
       },
       {
         "id": "controle-vs-substantief",
-        "naam": { "primair": "Test of controls vs substantive procedures — keuze in planning" },
+        "naam": {
+          "primair": "Test of controls vs substantive procedures — keuze in planning"
+        },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "substantie": {
@@ -318,7 +392,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 330", "ref": "par. A10 + par. 8" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 330",
+                  "ref": "par. A10 + par. 8"
+                }
               ]
             }
           }
@@ -333,7 +411,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. 19-27 (entiteit-specifiek inzicht)" }
+            {
+              "type": "norm",
+              "naam": "ISA 315 (herzien 2019)",
+              "ref": "par. 19-27 (entiteit-specifiek inzicht)"
+            }
           ]
         }
       },
@@ -344,7 +426,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 320", "ref": "par. A8-A9" }
+            {
+              "type": "norm",
+              "naam": "ISA 320",
+              "ref": "par. A8-A9"
+            }
           ]
         }
       },
@@ -355,7 +441,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. 32 significant risks" }
+            {
+              "type": "norm",
+              "naam": "ISA 315 (herzien 2019)",
+              "ref": "par. 32 significant risks"
+            }
           ]
         }
       }
@@ -366,11 +456,26 @@
         "intro": "Typische planningsactiviteiten in chronologische volgorde (voor jaarafsluiting 31/12).",
         "inhoud": {
           "mijlpalen": [
-            { "moment": "Sept-okt jaar T", "actie": "Cliëntcontinuering · update inzicht entiteit (gesprekken management, nieuwsmonitoring sector)" },
-            { "moment": "Okt-nov jaar T", "actie": "Walk-through significante cycli · evaluatie interne beheersing · IT-audit-input" },
-            { "moment": "Nov jaar T", "actie": "Materialiteit bepalen op basis van interim-cijfers · team-bespreking fraude (ISA 240)" },
-            { "moment": "Nov-dec jaar T", "actie": "Risico-inschatting per assertion · significant risks identificeren · werkprogramma opstellen" },
-            { "moment": "Dec jaar T", "actie": "Communicatie planning naar management/governance — geplande timing, materialiteit (in algemene termen), aandachtsgebieden" }
+            {
+              "moment": "Sept-okt jaar T",
+              "actie": "Cliëntcontinuering · update inzicht entiteit (gesprekken management, nieuwsmonitoring sector)"
+            },
+            {
+              "moment": "Okt-nov jaar T",
+              "actie": "Walk-through significante cycli · evaluatie interne beheersing · IT-audit-input"
+            },
+            {
+              "moment": "Nov jaar T",
+              "actie": "Materialiteit bepalen op basis van interim-cijfers · team-bespreking fraude (ISA 240)"
+            },
+            {
+              "moment": "Nov-dec jaar T",
+              "actie": "Risico-inschatting per assertion · significant risks identificeren · werkprogramma opstellen"
+            },
+            {
+              "moment": "Dec jaar T",
+              "actie": "Communicatie planning naar management/governance — geplande timing, materialiteit (in algemene termen), aandachtsgebieden"
+            }
           ]
         }
       }
@@ -379,14 +484,18 @@
   "accountant_perspectieven": [
     {
       "id": "perspectief-auditor",
-      "naam": { "primair": "De accountant als planner van de controle" },
+      "naam": {
+        "primair": "De accountant als planner van de controle"
+      },
       "rollen": [
         {
           "rol": "auditor",
           "elementen": [
             {
               "id": "planning-werkdocumenten",
-              "naam": { "primair": "Werkdocumenten die uit planning voortkomen" },
+              "naam": {
+                "primair": "Werkdocumenten die uit planning voortkomen"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -394,8 +503,16 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 230", "ref": "Vereisten par. 7-11" },
-                      { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "documentatie-eisen par. 38" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 230",
+                        "ref": "Vereisten par. 7-11"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 315 (herzien 2019)",
+                        "ref": "documentatie-eisen par. 38"
+                      }
                     ]
                   }
                 }
@@ -407,10 +524,21 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "controleopdracht" },
-    { "type": "triggert", "target": "audit-bewijs" },
-    { "type": "beinvloed_door", "target": "interne-controle" },
-    { "type": "beinvloed_door", "target": "fraude" },
-    { "type": "beinvloed_door", "target": "coso-framework" }
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-bewijs"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interne-controle"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "coso-framework"
+    }
   ]
 }

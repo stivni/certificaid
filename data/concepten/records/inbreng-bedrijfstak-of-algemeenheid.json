@@ -78,11 +78,6 @@
           "ref": "fiscale-fusie-splitsing"
         },
         {
-          "topic": "BTW-perspectief overdracht algemeenheid",
-          "richting": "moet-verwijzen",
-          "ref": "overdracht-algemeenheid-btw"
-        },
-        {
           "topic": "Fusie als alternatieve reorganisatie",
           "richting": "moet-verwijzen",
           "ref": "fusie"
@@ -107,9 +102,24 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8-12:10", "context": "Inbreng bedrijfstak" },
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13-12:14", "context": "Inbreng algemeenheid" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46", "context": "Fiscaal-neutraal regime" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 12:8-12:10",
+              "context": "Inbreng bedrijfstak"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 12:13-12:14",
+              "context": "Inbreng algemeenheid"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46",
+              "context": "Fiscaal-neutraal regime"
+            }
           ]
         }
       },
@@ -118,7 +128,12 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Aansluiting fiscale waarden" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 184bis",
+              "context": "Aansluiting fiscale waarden"
+            }
           ]
         }
       },
@@ -127,10 +142,27 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
-            { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
-            { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 117" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese drie-regime-samenwerking" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46"
+            },
+            {
+              "type": "wettekst",
+              "naam": "Wbtw",
+              "ref": "art. 11"
+            },
+            {
+              "type": "wettekst",
+              "naam": "Wb Reg",
+              "ref": "art. 117"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese drie-regime-samenwerking"
+            }
           ]
         }
       }
@@ -148,7 +180,11 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 46"
+              }
             ]
           }
         },
@@ -157,7 +193,11 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 12:8"
+              }
             ]
           }
         },
@@ -166,7 +206,12 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-context herstructurering" }
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Praktijk-context herstructurering"
+              }
             ]
           }
         }
@@ -177,7 +222,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 46, § 1, lid 3"
+              }
             ]
           }
         },
@@ -186,7 +235,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 46, § 1"
+              }
             ]
           }
         },
@@ -195,7 +248,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 3°" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 46, § 1, lid 1, 3°"
+              }
             ]
           }
         },
@@ -204,7 +261,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 4°" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 46, § 1, lid 1, 4°"
+              }
             ]
           }
         },
@@ -213,7 +274,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183" }
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 7:183"
+              }
             ]
           }
         }
@@ -224,7 +289,12 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis", "context": "Niet-voldoen voorwaarden art. 46" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 184bis",
+                "context": "Niet-voldoen voorwaarden art. 46"
+              }
             ]
           }
         },
@@ -233,7 +303,12 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344, § 2", "context": "Anti-misbruik fiscale herstructureringen" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 344, § 2",
+                "context": "Anti-misbruik fiscale herstructureringen"
+              }
             ]
           }
         }
@@ -244,7 +319,10 @@
         "id": "inbreng-bedrijfstak",
         "naam": {
           "primair": "Inbreng van bedrijfstak",
-          "synoniemen": ["inbreng bedrijfsafdeling", "branch transfer"]
+          "synoniemen": [
+            "inbreng bedrijfsafdeling",
+            "branch transfer"
+          ]
         },
         "concept_type": "verrichting",
         "inhoud": {
@@ -254,8 +332,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" },
-                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" }
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 46, § 1, lid 3"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 12:8"
+                  }
                 ]
               }
             },
@@ -264,7 +350,12 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-toets bedrijfstak" }
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Praktijk-toets bedrijfstak"
+                  }
                 ]
               }
             }
@@ -275,7 +366,10 @@
         "id": "inbreng-algemeenheid",
         "naam": {
           "primair": "Inbreng van algemeenheid",
-          "synoniemen": ["inbreng algemeenheid van goederen", "universal transfer"]
+          "synoniemen": [
+            "inbreng algemeenheid van goederen",
+            "universal transfer"
+          ]
         },
         "concept_type": "verrichting",
         "inhoud": {
@@ -285,8 +379,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13-12:14" },
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 12:13-12:14"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 46, § 1, lid 3"
+                  }
                 ]
               }
             }
@@ -307,8 +409,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 46"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 184bis"
+                }
               ]
             }
           }
@@ -326,8 +436,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
-                { "type": "wettekst", "naam": "Wbtw", "ref": "art. 18, § 3" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wbtw",
+                  "ref": "art. 11"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "Wbtw",
+                  "ref": "art. 18, § 3"
+                }
               ]
             }
           }
@@ -345,7 +463,12 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wb Reg", "ref": "art. 117", "context": "Vrijstelling onroerend bij inbreng bedrijfstak" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wb Reg",
+                  "ref": "art. 117",
+                  "context": "Vrijstelling onroerend bij inbreng bedrijfstak"
+                }
               ]
             }
           }
@@ -363,9 +486,22 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "wettekst", "naam": "WVV", "ref": "boek 12" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 211" },
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vergelijkingstabel structurerings-keuze" }
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "boek 12"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 46, 211"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Vergelijkingstabel structurerings-keuze"
+                }
               ]
             }
           }
@@ -380,8 +516,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 184bis"
+            }
           ]
         },
         "weergaven": [
@@ -389,29 +533,105 @@
             "type": "boeking",
             "titel": "Boekingen BV TomCo bij oprichting (inbreng-algemeenheid eenmanszaak)",
             "boekingen": [
-              { "datum": "2026-09-01", "debet": [{"rekening": "210", "label": "Immateriële vaste activa — cliënteel", "bedrag": 80000}, {"rekening": "241", "label": "Vervoermiddelen (bestelwagens)", "bedrag": 25000}, {"rekening": "30", "label": "Voorraad", "bedrag": 10000}, {"rekening": "40", "label": "Handelsvorderingen", "bedrag": 20000}], "credit": [{"rekening": "44", "label": "Leveranciersschulden — overgenomen", "bedrag": 15000}, {"rekening": "11", "label": "Onbeschikbare inbreng (BV) — aan Tom", "bedrag": 120000}] }
+              {
+                "datum": "2026-09-01",
+                "debet": [
+                  {
+                    "rekening": "210",
+                    "label": "Immateriële vaste activa — cliënteel",
+                    "bedrag": 80000
+                  },
+                  {
+                    "rekening": "241",
+                    "label": "Vervoermiddelen (bestelwagens)",
+                    "bedrag": 25000
+                  },
+                  {
+                    "rekening": "30",
+                    "label": "Voorraad",
+                    "bedrag": 10000
+                  },
+                  {
+                    "rekening": "40",
+                    "label": "Handelsvorderingen",
+                    "bedrag": 20000
+                  }
+                ],
+                "credit": [
+                  {
+                    "rekening": "44",
+                    "label": "Leveranciersschulden — overgenomen",
+                    "bedrag": 15000
+                  },
+                  {
+                    "rekening": "11",
+                    "label": "Onbeschikbare inbreng (BV) — aan Tom",
+                    "bedrag": 120000
+                  }
+                ]
+              }
             ],
             "toelichting": "Activa geboekt aan inbrengwaarde (= marktwaarde bevestigd door revisor). Tom ontvangt aandelen voor €120.000."
           },
           {
             "type": "tabel",
             "titel": "Fiscale impact bij Tom (PB) — art. 46 vs art. 28 WIB92",
-            "kolommen": ["Element", "Bedrag (€)", "Art. 46-regime", "Zonder art. 46 (art. 28 stopzetting)"],
+            "kolommen": [
+              "Element",
+              "Bedrag (€)",
+              "Art. 46-regime",
+              "Zonder art. 46 (art. 28 stopzetting)"
+            ],
             "rijen": [
-              ["Meerwaarde cliënteel", "80.000", "Vrijgesteld", "16,5% PB = €13.200"],
-              ["Meerwaarde wagens (> 5 j gebruikt)", "10.000", "Vrijgesteld", "16,5% PB = €1.650"],
-              ["TOTAAL belasting", "—", "€0", "€14.850"]
+              [
+                "Meerwaarde cliënteel",
+                "80.000",
+                "Vrijgesteld",
+                "16,5% PB = €13.200"
+              ],
+              [
+                "Meerwaarde wagens (> 5 j gebruikt)",
+                "10.000",
+                "Vrijgesteld",
+                "16,5% PB = €1.650"
+              ],
+              [
+                "TOTAAL belasting",
+                "—",
+                "€0",
+                "€14.850"
+              ]
             ],
             "conclusie": "Belasting-besparing €14.850 door toepassing art. 46 WIB92. Voorwaarden: zakelijke motieven (= professionalisering, beperking aansprakelijkheid Tom — duidelijk niet-fiscaal), inbreng tegen aandelen (geen cash > 10%), BV is Belgisch."
           },
           {
             "type": "tabel",
             "titel": "Fiscale opvolging bij BV TomCo",
-            "kolommen": ["Element", "Fiscaal gestort kapitaal", "Boekwaarde", "Latent belastbaar bij latere verkoop"],
+            "kolommen": [
+              "Element",
+              "Fiscaal gestort kapitaal",
+              "Boekwaarde",
+              "Latent belastbaar bij latere verkoop"
+            ],
             "rijen": [
-              ["Cliënteel (€80.000 marktwaarde, €0 fiscale waarde Tom)", "€0 fiscaal", "€80.000 boekhoudkundig", "€80.000"],
-              ["Bestelwagens (€25.000 marktwaarde, €15.000 fiscale waarde)", "€15.000 fiscaal", "€25.000 boekhoudkundig", "€10.000"],
-              ["TOTAAL", "Fiscaal kapitaal = €15.000 + andere fiscale waarden", "EV €120.000", "Latente belasting €90.000 × 25% = €22.500"]
+              [
+                "Cliënteel (€80.000 marktwaarde, €0 fiscale waarde Tom)",
+                "€0 fiscaal",
+                "€80.000 boekhoudkundig",
+                "€80.000"
+              ],
+              [
+                "Bestelwagens (€25.000 marktwaarde, €15.000 fiscale waarde)",
+                "€15.000 fiscaal",
+                "€25.000 boekhoudkundig",
+                "€10.000"
+              ],
+              [
+                "TOTAAL",
+                "Fiscaal kapitaal = €15.000 + andere fiscale waarden",
+                "EV €120.000",
+                "Latente belasting €90.000 × 25% = €22.500"
+              ]
             ],
             "conclusie": "BV TomCo neemt de fiscale 'erfenis' over. Bij latere verkoop van cliënteel of wagens wordt de meerwaarde geboekt en belast bij BV TomCo (niet langer bij Tom). Belangrijk: bij latere kapitaalvermindering of liquidatie BV → pro-rata kapitaal-vs-reserves berekening start met fiscaal kapitaal €15.000, niet €120.000."
           }
@@ -424,8 +644,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46" }
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 12:8"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46"
+            }
           ]
         },
         "weergaven": [
@@ -433,25 +661,99 @@
             "type": "boeking",
             "titel": "Boekingen bij NV Multi (overdragende, na inbreng-bedrijfstak)",
             "boekingen": [
-              { "datum": "2026-07-01", "debet": [{"rekening": "281", "label": "Deelnemingen in verbonden ondernemingen — aandelen NV Branche", "bedrag": 2000000}], "credit": [{"rekening": "23", "label": "Machines (overdracht)", "bedrag": 800000}, {"rekening": "40", "label": "Vorderingen (overdracht)", "bedrag": 300000}, {"rekening": "44", "label": "Schulden (overdracht)", "bedrag": -100000}, {"rekening": "763", "label": "Niet-recurrente opbrengst (vrijgesteld)", "bedrag": 1000000}], "toelichting": "Vereenvoudigd. Werkelijke verwerking: alle individuele activa/passiva worden afgeboekt; meerwaarde €800.000 (= 2.000 - 1.200) gerealiseerd EN vrijgesteld onder art. 46 → boeking naar belastingvrije reserves" }
+              {
+                "datum": "2026-07-01",
+                "debet": [
+                  {
+                    "rekening": "281",
+                    "label": "Deelnemingen in verbonden ondernemingen — aandelen NV Branche",
+                    "bedrag": 2000000
+                  }
+                ],
+                "credit": [
+                  {
+                    "rekening": "23",
+                    "label": "Machines (overdracht)",
+                    "bedrag": 800000
+                  },
+                  {
+                    "rekening": "40",
+                    "label": "Vorderingen (overdracht)",
+                    "bedrag": 300000
+                  },
+                  {
+                    "rekening": "44",
+                    "label": "Schulden (overdracht)",
+                    "bedrag": -100000
+                  },
+                  {
+                    "rekening": "763",
+                    "label": "Niet-recurrente opbrengst (vrijgesteld)",
+                    "bedrag": 1000000
+                  }
+                ],
+                "toelichting": "Vereenvoudigd. Werkelijke verwerking: alle individuele activa/passiva worden afgeboekt; meerwaarde €800.000 (= 2.000 - 1.200) gerealiseerd EN vrijgesteld onder art. 46 → boeking naar belastingvrije reserves"
+              }
             ]
           },
           {
             "type": "boeking",
             "titel": "Boekingen bij NV Branche (verkrijgende)",
             "boekingen": [
-              { "datum": "2026-07-01", "debet": [{"rekening": "23", "label": "Machines (aan marktwaarde)", "bedrag": 800000}, {"rekening": "40", "label": "Vorderingen", "bedrag": 300000}], "credit": [{"rekening": "44", "label": "Schulden", "bedrag": 100000}, {"rekening": "100", "label": "Geplaatst kapitaal (aandelen aan NV Multi)", "bedrag": 1000000}] }
+              {
+                "datum": "2026-07-01",
+                "debet": [
+                  {
+                    "rekening": "23",
+                    "label": "Machines (aan marktwaarde)",
+                    "bedrag": 800000
+                  },
+                  {
+                    "rekening": "40",
+                    "label": "Vorderingen",
+                    "bedrag": 300000
+                  }
+                ],
+                "credit": [
+                  {
+                    "rekening": "44",
+                    "label": "Schulden",
+                    "bedrag": 100000
+                  },
+                  {
+                    "rekening": "100",
+                    "label": "Geplaatst kapitaal (aandelen aan NV Multi)",
+                    "bedrag": 1000000
+                  }
+                ]
+              }
             ],
             "toelichting": "NV Branche ontvangt activa aan marktwaarde; geeft aandelen uit aan NV Multi voor €1.000.000 (= netto). Onder art. 184bis: fiscaal gestort kapitaal NV Branche = €1.200.000 (fiscale nettowaarde bij overdrager) — boekhoudkundig €1.000.000. Latente belasting opgevolgd in fiscale tabel."
           },
           {
             "type": "tabel",
             "titel": "Drie-regime-impact",
-            "kolommen": ["Regime", "Effect", "Bedrag bespaard"],
+            "kolommen": [
+              "Regime",
+              "Effect",
+              "Bedrag bespaard"
+            ],
             "rijen": [
-              ["VenB art. 46", "Meerwaarde €800.000 vrijgesteld bij overdracht (geen 25% belasting)", "€200.000"],
-              ["BTW art. 11 Wbtw", "Geen btw verschuldigd op overdracht (anders zou cash-flow stress ontstaan)", "Liquiditeit-besparing"],
-              ["Reg. rechten art. 117 Wb Reg", "N.v.t. (geen onroerend goed in deze bedrijfstak)", "—"]
+              [
+                "VenB art. 46",
+                "Meerwaarde €800.000 vrijgesteld bij overdracht (geen 25% belasting)",
+                "€200.000"
+              ],
+              [
+                "BTW art. 11 Wbtw",
+                "Geen btw verschuldigd op overdracht (anders zou cash-flow stress ontstaan)",
+                "Liquiditeit-besparing"
+              ],
+              [
+                "Reg. rechten art. 117 Wb Reg",
+                "N.v.t. (geen onroerend goed in deze bedrijfstak)",
+                "—"
+              ]
             ],
             "conclusie": "Belasting-besparing €200.000 door inbreng-bedrijfstak. Voorwaarde: zakelijke motieven (risico-scheiding industrie vs vastgoed = legitiem)."
           }
@@ -464,20 +766,48 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, 4°" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344, § 2" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46, § 1, 4°"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 344, § 2"
+            }
           ]
         },
         "weergaven": [
           {
             "type": "tabel",
             "titel": "Anti-misbruik-toets",
-            "kolommen": ["Criterium", "Casus", "Geslaagd?"],
+            "kolommen": [
+              "Criterium",
+              "Casus",
+              "Geslaagd?"
+            ],
             "rijen": [
-              ["Vormt het terrein een 'bedrijfstak' (autonoom geheel)?", "Louter activum, geen personeel/cliënteel", "✗ FAALT"],
-              ["Zakelijke motieven?", "Onmiddellijke verkoop aandelen na inbreng = enkel fiscaal motief", "✗ FAALT"],
-              ["Resultaat: art. 46 toepassing", "—", "Geweigerd"],
-              ["Gevolg: art. 184bis lid 4 — meerwaarde alsnog belast bij realisatie", "€500.000 × 25% VenB", "€125.000 belasting"]
+              [
+                "Vormt het terrein een 'bedrijfstak' (autonoom geheel)?",
+                "Louter activum, geen personeel/cliënteel",
+                "✗ FAALT"
+              ],
+              [
+                "Zakelijke motieven?",
+                "Onmiddellijke verkoop aandelen na inbreng = enkel fiscaal motief",
+                "✗ FAALT"
+              ],
+              [
+                "Resultaat: art. 46 toepassing",
+                "—",
+                "Geweigerd"
+              ],
+              [
+                "Gevolg: art. 184bis lid 4 — meerwaarde alsnog belast bij realisatie",
+                "€500.000 × 25% VenB",
+                "€125.000 belasting"
+              ]
             ],
             "conclusie": "Fiscus zal de verrichting herkwalificeren (art. 344 § 2 WIB92): geen art. 46-voordeel, geen vrijstelling. Bovendien risico op administratieve boete + interesten."
           }
@@ -492,7 +822,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 3" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46, § 1, lid 3"
+            }
           ]
         }
       },
@@ -503,7 +837,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184bis" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 184bis"
+            }
           ]
         }
       },
@@ -514,7 +852,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, § 1, lid 1, 3°" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 46, § 1, lid 1, 3°"
+            }
           ]
         }
       }
@@ -543,7 +885,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       }
@@ -552,14 +898,18 @@
   "accountant_perspectieven": [
     {
       "id": "perspectief-inbrenger",
-      "naam": { "primair": "Vanuit de inbrengende vennootschap / eenmanszaak" },
+      "naam": {
+        "primair": "Vanuit de inbrengende vennootschap / eenmanszaak"
+      },
       "rollen": [
         {
           "rol": "fiscaal",
           "elementen": [
             {
               "id": "fiscaal-art46-check",
-              "naam": { "primair": "Voorwaarden art. 46 WIB92 — checklist" },
+              "naam": {
+                "primair": "Voorwaarden art. 46 WIB92 — checklist"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -567,8 +917,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 184bis, 344, § 2" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist accountant" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 46, 184bis, 344, § 2"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Praktijk-checklist accountant"
+                      }
                     ]
                   }
                 }
@@ -581,7 +940,9 @@
           "elementen": [
             {
               "id": "advies-dvb-ruling",
-              "naam": { "primair": "Rulings bij voorafgaande beslissingsdienst (DVB)" },
+              "naam": {
+                "primair": "Rulings bij voorafgaande beslissingsdienst (DVB)"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -589,7 +950,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-aanbeveling DVB-ruling" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Praktijk-aanbeveling DVB-ruling"
+                      }
                     ]
                   }
                 }
@@ -601,8 +967,14 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "kapitaalverhoging" },
-    { "type": "vereist", "target": "fiscale-fusie-splitsing" },
+    {
+      "type": "valt_onder",
+      "target": "kapitaalverhoging"
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-fusie-splitsing"
+    },
     {
       "type": "vergelijkbaar_met",
       "target": "fusie",

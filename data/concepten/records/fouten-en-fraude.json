@@ -35,11 +35,6 @@
       ],
       "out": [
         {
-          "topic": "Fraude-mechaniek (ISA 240, fraud risk factors)",
-          "richting": "moet-verwijzen",
-          "ref": "fraude"
-        },
-        {
           "topic": "Interne controle als mitigatie-context",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
@@ -99,7 +94,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 240", "ref": "par. 2-3 - definities fraude (intentioneel) versus fouten (onintentioneel)" }
+            {
+              "type": "norm",
+              "naam": "ISA 240",
+              "ref": "par. 2-3 - definities fraude (intentioneel) versus fouten (onintentioneel)"
+            }
           ]
         }
       },
@@ -108,8 +107,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - frauderisicofactoren langs de drie hoeken van de fraudedriehoek" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cressey-fraudedriehoek - standaardleer ACFE en audit-handboeken" }
+            {
+              "type": "norm",
+              "naam": "ISA 240",
+              "ref": "Bijlage 1 - frauderisicofactoren langs de drie hoeken van de fraudedriehoek"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Cressey-fraudedriehoek - standaardleer ACFE en audit-handboeken"
+            }
           ]
         }
       },
@@ -118,7 +126,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pedagogisch standaardraamwerk COSO + interne-controle-handboeken" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Pedagogisch standaardraamwerk COSO + interne-controle-handboeken"
+            }
           ]
         }
       }
@@ -146,7 +159,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "ISA 240", "ref": "Doelstellingen - identificeren risico's op afwijking als gevolg van fraude" }
+              {
+                "type": "norm",
+                "naam": "ISA 240",
+                "ref": "Doelstellingen - identificeren risico's op afwijking als gevolg van fraude"
+              }
             ]
           }
         }
@@ -155,7 +172,9 @@
     "subconcepten": [
       {
         "id": "fouten-onbedoeld",
-        "naam": { "primair": "Fouten (onbedoelde afwijkingen)" },
+        "naam": {
+          "primair": "Fouten (onbedoelde afwijkingen)"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -164,7 +183,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 240", "ref": "par. 2 - fouten vs fraude" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 240",
+                    "ref": "par. 2 - fouten vs fraude"
+                  }
                 ]
               }
             }
@@ -172,7 +195,9 @@
           "bouwstenen": [
             {
               "id": "mitigatie-fouten",
-              "naam": { "primair": "Mitigatie van fouten" },
+              "naam": {
+                "primair": "Mitigatie van fouten"
+              },
               "bouwsteen_type": "mechanisme",
               "kern": {
                 "definitie": {
@@ -180,7 +205,11 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 interne beheersingsactiviteiten" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 315 (herzien-2019)",
+                        "ref": "par. 20 interne beheersingsactiviteiten"
+                      }
                     ]
                   }
                 }
@@ -191,7 +220,9 @@
       },
       {
         "id": "fraude-intentioneel",
-        "naam": { "primair": "Fraude (intentioneel bedrog voor voordeel)" },
+        "naam": {
+          "primair": "Fraude (intentioneel bedrog voor voordeel)"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -200,7 +231,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 240", "ref": "par. 3 - frauduleuze financiele verslaggeving + oneigenlijke toe-eigening" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 240",
+                    "ref": "par. 3 - frauduleuze financiele verslaggeving + oneigenlijke toe-eigening"
+                  }
                 ]
               }
             }
@@ -208,7 +243,9 @@
           "bouwstenen": [
             {
               "id": "fraudedriehoek-cressey",
-              "naam": { "primair": "Fraudedriehoek (Cressey)" },
+              "naam": {
+                "primair": "Fraudedriehoek (Cressey)"
+              },
               "bouwsteen_type": "mechanisme",
               "kern": {
                 "definitie": {
@@ -216,7 +253,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - drie omstandigheden die typisch aanwezig zijn bij fraude" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "Bijlage 1 - drie omstandigheden die typisch aanwezig zijn bij fraude"
+                      }
                     ]
                   }
                 }
@@ -224,7 +265,9 @@
             },
             {
               "id": "mitigatie-fraude",
-              "naam": { "primair": "Mitigatie van fraude" },
+              "naam": {
+                "primair": "Mitigatie van fraude"
+              },
               "bouwsteen_type": "mechanisme",
               "kern": {
                 "definitie": {
@@ -232,7 +275,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - mitigatie via verkleinen gelegenheid" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "Bijlage 1 - mitigatie via verkleinen gelegenheid"
+                      }
                     ]
                   }
                 }
@@ -243,7 +290,9 @@
       },
       {
         "id": "verspilling",
-        "naam": { "primair": "Verspilling (waste)" },
+        "naam": {
+          "primair": "Verspilling (waste)"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -252,7 +301,11 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A91 doelstellingen IC inclusief doeltreffendheid" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 315 (herzien-2019)",
+                    "ref": "par. A91 doelstellingen IC inclusief doeltreffendheid"
+                  }
                 ]
               }
             }
@@ -260,7 +313,9 @@
           "bouwstenen": [
             {
               "id": "mitigatie-verspilling",
-              "naam": { "primair": "Mitigatie van verspilling" },
+              "naam": {
+                "primair": "Mitigatie van verspilling"
+              },
               "bouwsteen_type": "mechanisme",
               "kern": {
                 "definitie": {
@@ -268,7 +323,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard managementcontrole - bedrijfseconomie" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard managementcontrole - bedrijfseconomie"
+                      }
                     ]
                   }
                 }
@@ -281,7 +341,9 @@
     "bouwstenen": [
       {
         "id": "afwijking-accumuleren",
-        "naam": { "primair": "Afwijkingen accumuleren tijdens controle (ISA 450)" },
+        "naam": {
+          "primair": "Afwijkingen accumuleren tijdens controle (ISA 450)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -289,7 +351,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 450", "ref": "par. 5-8 accumuleren en evalueren afwijkingen" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 450",
+                  "ref": "par. 5-8 accumuleren en evalueren afwijkingen"
+                }
               ]
             }
           }
@@ -297,7 +363,9 @@
       },
       {
         "id": "indicatoren-fraude",
-        "naam": { "primair": "Indicatoren van fraude (red flags)" },
+        "naam": {
+          "primair": "Indicatoren van fraude (red flags)"
+        },
         "bouwsteen_type": "risico",
         "kern": {
           "definitie": {
@@ -305,7 +373,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 240",
+                  "ref": "Bijlage 1"
+                }
               ]
             }
           }
@@ -313,7 +385,9 @@
       },
       {
         "id": "professioneel-kritische-instelling",
-        "naam": { "primair": "Professioneel-kritische instelling tegenover fraude" },
+        "naam": {
+          "primair": "Professioneel-kritische instelling tegenover fraude"
+        },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
@@ -321,7 +395,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 240", "ref": "par. 12-14" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 240",
+                  "ref": "par. 12-14"
+                }
               ]
             }
           }
@@ -329,7 +407,9 @@
       },
       {
         "id": "rapportering-fraude",
-        "naam": { "primair": "Rapportering van fraude" },
+        "naam": {
+          "primair": "Rapportering van fraude"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -337,7 +417,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 240", "ref": "par. 38-43 rapportering" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 240",
+                  "ref": "par. 38-43 rapportering"
+                }
               ]
             }
           }
@@ -352,17 +436,38 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Didactisch voorbeeld"
+            }
           ]
         },
         "weergaven": [
           {
             "type": "tabel",
-            "kolommen": ["Observatie", "Categorisatie", "Mitigatie"],
+            "kolommen": [
+              "Observatie",
+              "Categorisatie",
+              "Mitigatie"
+            ],
             "rijen": [
-              ["Boekhouder tikt 4.500 in plaats van 45.000 EUR voor een leveranciersfactuur (komma-positie)", "Fout", "Geautomatiseerde tolerantietest tov inkooporder + vier-ogen-controle"],
-              ["Aankoopverantwoordelijke creëert fictieve leverancier en betaalt naar eigen rekening 12.500 EUR", "Fraude (oneigenlijke toe-eigening)", "Functiescheiding aankoop/betaling + onafhankelijke validatie nieuwe leveranciers + monitoring atypische betalingen"],
-              ["Marketing bestelt 3.000 promo-tassen voor een beurs waar uiteindelijk slechts 500 bezoekers komen", "Verspilling", "Budget-discipline + post-event ROI-analyse + procurement-procedure"]
+              [
+                "Boekhouder tikt 4.500 in plaats van 45.000 EUR voor een leveranciersfactuur (komma-positie)",
+                "Fout",
+                "Geautomatiseerde tolerantietest tov inkooporder + vier-ogen-controle"
+              ],
+              [
+                "Aankoopverantwoordelijke creëert fictieve leverancier en betaalt naar eigen rekening 12.500 EUR",
+                "Fraude (oneigenlijke toe-eigening)",
+                "Functiescheiding aankoop/betaling + onafhankelijke validatie nieuwe leveranciers + monitoring atypische betalingen"
+              ],
+              [
+                "Marketing bestelt 3.000 promo-tassen voor een beurs waar uiteindelijk slechts 500 bezoekers komen",
+                "Verspilling",
+                "Budget-discipline + post-event ROI-analyse + procurement-procedure"
+              ]
             ]
           }
         ]
@@ -376,7 +481,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 240", "ref": "par. 12-14 professioneel-kritische instelling" }
+            {
+              "type": "norm",
+              "naam": "ISA 240",
+              "ref": "par. 12-14 professioneel-kritische instelling"
+            }
           ]
         }
       },
@@ -387,7 +496,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - collusie en management override als grondbeperkingen" }
+            {
+              "type": "norm",
+              "naam": "ISA 240",
+              "ref": "Bijlage 1 - collusie en management override als grondbeperkingen"
+            }
           ]
         }
       },
@@ -398,7 +511,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ACFE Report to the Nations + COSO control environment" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "ACFE Report to the Nations + COSO control environment"
+            }
           ]
         }
       }
@@ -417,7 +535,9 @@
           "elementen": [
             {
               "id": "frauderisicobrainstorm",
-              "naam": { "primair": "Brainstorm frauderisico in opdrachtteam" },
+              "naam": {
+                "primair": "Brainstorm frauderisico in opdrachtteam"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -425,7 +545,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 240", "ref": "par. 15-16 + 26 + 32-33" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "par. 15-16 + 26 + 32-33"
+                      }
                     ]
                   }
                 }
@@ -433,7 +557,9 @@
             },
             {
               "id": "specifieke-werkzaamheden-fraude",
-              "naam": { "primair": "Specifieke werkzaamheden tegen management override" },
+              "naam": {
+                "primair": "Specifieke werkzaamheden tegen management override"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -441,7 +567,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 240", "ref": "par. 32-33" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "par. 32-33"
+                      }
                     ]
                   }
                 }
@@ -463,7 +593,9 @@
           "elementen": [
             {
               "id": "fraude-risk-assessment",
-              "naam": { "primair": "Fraude-risico-inventarisatie per cyclus" },
+              "naam": {
+                "primair": "Fraude-risico-inventarisatie per cyclus"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -471,8 +603,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fraud risk assessment-praktijk" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "Bijlage 1"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard fraud risk assessment-praktijk"
+                      }
                     ]
                   }
                 }

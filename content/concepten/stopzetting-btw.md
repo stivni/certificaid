@@ -196,7 +196,6 @@ _`stap`_
 ## Verder lezen (scope-out)
 
 - → BTW-herziening bij stopzetting → [[btw-herziening-bedrijfsmiddelen]] _(moet-verwijzen)_
-- → Overdracht algemeenheid (TOGC art 11) → ⏳ overdracht-algemeenheid-btw _(moet-verwijzen)_
 - → Opstart-formaliteiten (spiegel) → [[opstart-btw-formaliteiten]] _(moet-verwijzen)_
 
 ## Relaties
@@ -206,14 +205,6 @@ _`stap`_
 ### `triggert`
 - [[btw-herziening-bedrijfsmiddelen]] — Stopzetting binnen herzieningstermijn activeert pro-rata herziening.
 ### `vergelijkbaar_met`
-- ⏳ overdracht-algemeenheid-btw
-    - **Gelijkenissen**:
-        - Beide handelen over beëindiging activiteit en activa-overgang
-        - Beide vereisen 604C-aangifte
-    - **Verschillen**:
-        - Stopzetting zonder opvolger = onttrekking + herziening (btw verschuldigd); art. 11-overdracht = continuïteit (geen btw)
-        - Stopzetting heeft definitief karakter; overdracht behoudt aftrekketen via overnemer
-    - ⚠️ **Verwarringsrisico**: Studenten passen art. 11 toe waar geen algemeenheid wordt overgedragen — enkele activa volstaan niet.
 - [[opstart-btw-formaliteiten]]
     - **Gelijkenissen**:
         - Spiegelprocedure — registratie/de-registratie via 604-formulieren

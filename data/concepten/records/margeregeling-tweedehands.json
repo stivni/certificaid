@@ -2,14 +2,22 @@
   "id": "margeregeling-tweedehands",
   "naam": {
     "primair": "Margeregeling tweedehandsgoederen",
-    "synoniemen": ["winstmargeregeling", "art. 58 §4 WBTW", "marge-regime tweedehands"]
+    "synoniemen": [
+      "winstmargeregeling",
+      "art. 58 §4 WBTW",
+      "marge-regime tweedehands"
+    ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["regeling"],
-    "ankers": ["2.4.IV"],
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IV"
+    ],
     "provenance": {
       "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
@@ -25,8 +33,19 @@
       "rerank_calls": 0
     },
     "changelog": [
-      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
-      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:15:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — winstmarge-mechaniek + voorwaarden + globaal vs per goed"}
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:15:00Z",
+        "model": "claude-sonnet-4-5",
+        "wijziging": "Pass 1 content — winstmarge-mechaniek + voorwaarden + globaal vs per goed"
+      }
     ],
     "scope": {
       "in": [
@@ -36,8 +55,11 @@
         "Berekening marge per goed of globaal · facturatie zonder BTW-vermelding"
       ],
       "out": [
-        {"topic": "BTW-tarieven (op marge wel toe te passen)", "richting": "mag-verwijzen", "ref": "btw-tarieven"},
-        {"topic": "BTW-bedrijfswagen tweedehands", "richting": "mag-verwijzen", "ref": "btw-bedrijfswagen"}
+        {
+          "topic": "BTW-tarieven (op marge wel toe te passen)",
+          "richting": "mag-verwijzen",
+          "ref": "btw-tarieven"
+        }
       ]
     }
   },
@@ -48,8 +70,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4"},
-            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 58 §4"
+            },
+            {
+              "type": "kb",
+              "naam": "KB nr. 53",
+              "ref": "art. 2"
+            }
           ]
         }
       },
@@ -58,8 +88,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°-3°"},
-            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaardvoorbeeld tweedehandshandel"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 58 §4, 2°-3°"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28",
+              "context": "Standaardvoorbeeld tweedehandshandel"
+            }
           ]
         }
       },
@@ -68,7 +107,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 311-325 (titel XII hoofdstuk 4)"}
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 311-325 (titel XII hoofdstuk 4)"
+            }
           ]
         }
       }
@@ -85,8 +128,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°"},
-              {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 314"}
+              {
+                "type": "wettekst",
+                "naam": "WBTW",
+                "ref": "art. 58 §4, 2°"
+              },
+              {
+                "type": "richtlijn",
+                "naam": "Richtlijn 2006/112/EG",
+                "ref": "art. 314"
+              }
             ]
           }
         }
@@ -95,7 +146,9 @@
     "subconcepten": [
       {
         "id": "marge-per-goed",
-        "naam": {"primair": "Marge per goed (individueel)"},
+        "naam": {
+          "primair": "Marge per goed (individueel)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -104,7 +157,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, eerste lid"}
+                  {
+                    "type": "kb",
+                    "naam": "KB nr. 53",
+                    "ref": "art. 3, eerste lid"
+                  }
                 ]
               }
             }
@@ -113,7 +170,9 @@
       },
       {
         "id": "marge-globaal",
-        "naam": {"primair": "Globale margeregeling (per aangiftetijdvak)"},
+        "naam": {
+          "primair": "Globale margeregeling (per aangiftetijdvak)"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -122,8 +181,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, derde-vijfde lid"},
-                  {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 318"}
+                  {
+                    "type": "kb",
+                    "naam": "KB nr. 53",
+                    "ref": "art. 3, derde-vijfde lid"
+                  },
+                  {
+                    "type": "richtlijn",
+                    "naam": "Richtlijn 2006/112/EG",
+                    "ref": "art. 318"
+                  }
                 ]
               }
             }
@@ -134,7 +201,9 @@
     "bouwstenen": [
       {
         "id": "formule-marge",
-        "naam": {"primair": "Formule berekening BTW op marge"},
+        "naam": {
+          "primair": "Formule berekening BTW op marge"
+        },
         "bouwsteen_type": "formule",
         "kern": {
           "definitie": {
@@ -142,8 +211,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 5°"},
-                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 315"}
+                {
+                  "type": "wettekst",
+                  "naam": "WBTW",
+                  "ref": "art. 58 §4, 5°"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG",
+                  "ref": "art. 315"
+                }
               ]
             }
           }
@@ -157,7 +234,9 @@
       },
       {
         "id": "facturatie-marge",
-        "naam": {"primair": "Facturatie onder margeregeling"},
+        "naam": {
+          "primair": "Facturatie onder margeregeling"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -165,8 +244,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 7°"},
-                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 226, 14"}
+                {
+                  "type": "wettekst",
+                  "naam": "WBTW",
+                  "ref": "art. 58 §4, 7°"
+                },
+                {
+                  "type": "richtlijn",
+                  "naam": "Richtlijn 2006/112/EG",
+                  "ref": "art. 226, 14"
+                }
               ]
             }
           }
@@ -174,7 +261,9 @@
       },
       {
         "id": "geen-aftrek-bij-koop",
-        "naam": {"primair": "Geen recht op aftrek bij koper"},
+        "naam": {
+          "primair": "Geen recht op aftrek bij koper"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -182,7 +271,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §5"}
+                {
+                  "type": "wettekst",
+                  "naam": "WBTW",
+                  "ref": "art. 45 §5"
+                }
               ]
             }
           }
@@ -190,7 +283,9 @@
       },
       {
         "id": "inventaris-wederverkoper",
-        "naam": {"primair": "Inventarisplicht wederverkoper"},
+        "naam": {
+          "primair": "Inventarisplicht wederverkoper"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -198,7 +293,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2"}
+                {
+                  "type": "kb",
+                  "naam": "KB nr. 53",
+                  "ref": "art. 2"
+                }
               ]
             }
           }
@@ -227,8 +326,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4"},
-            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 58 §4"
+            },
+            {
+              "type": "kb",
+              "naam": "KB nr. 53",
+              "ref": "art. 3"
+            }
           ]
         }
       },
@@ -251,7 +358,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, derde-vijfde lid"}
+            {
+              "type": "kb",
+              "naam": "KB nr. 53",
+              "ref": "art. 3, derde-vijfde lid"
+            }
           ]
         }
       }
@@ -264,7 +375,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 2°"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 58 §4, 2°"
+            }
           ]
         }
       },
@@ -275,7 +390,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WBTW", "ref": "art. 45 §5"}
+            {
+              "type": "wettekst",
+              "naam": "WBTW",
+              "ref": "art. 45 §5"
+            }
           ]
         }
       },
@@ -286,7 +405,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "kb", "naam": "KB nr. 53", "ref": "art. 3, vijfde lid"}
+            {
+              "type": "kb",
+              "naam": "KB nr. 53",
+              "ref": "art. 3, vijfde lid"
+            }
           ]
         }
       }
@@ -295,7 +418,9 @@
   "accountant_perspectieven": [
     {
       "id": "kantoor-tweedehands-client",
-      "naam": {"primair": "Kantoor begeleidt tweedehandshandelaar"},
+      "naam": {
+        "primair": "Kantoor begeleidt tweedehandshandelaar"
+      },
       "intro": "De accountant bij een cliënt-wederverkoper (garage tweedehands, antiekhandelaar, kunstgalerij, vintage-kledingwinkel).",
       "rollen": [
         {
@@ -303,7 +428,9 @@
           "elementen": [
             {
               "id": "marge-administratie",
-              "naam": {"primair": "Marge-administratie opzetten"},
+              "naam": {
+                "primair": "Marge-administratie opzetten"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -311,8 +438,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "kb", "naam": "KB nr. 53", "ref": "art. 2 + art. 3"},
-                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadministratie marge-handelaar"}
+                      {
+                        "type": "kb",
+                        "naam": "KB nr. 53",
+                        "ref": "art. 2 + art. 3"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Praktijkadministratie marge-handelaar"
+                      }
                     ]
                   }
                 }
@@ -325,7 +461,9 @@
           "elementen": [
             {
               "id": "keuze-marge-vs-normaal",
-              "naam": {"primair": "Marge vs normale regeling — wanneer kiezen"},
+              "naam": {
+                "primair": "Marge vs normale regeling — wanneer kiezen"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -333,8 +471,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WBTW", "ref": "art. 58 §4, 4°"},
-                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk keuze-criterium"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 58 §4, 4°"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-5",
+                        "datum": "2026-05-28",
+                        "context": "Adviespraktijk keuze-criterium"
+                      }
                     ]
                   }
                 }
@@ -346,8 +493,14 @@
     }
   ],
   "relaties": [
-    {"type": "valt_onder", "target": "btw"},
-    {"type": "alternatief_referentiestelsel", "target": "btw", "toelichting": "Margeregeling is een keuze-alternatief voor de normale BTW-regeling — niet beide tegelijk."},
-    {"type": "vergelijkbaar_met", "target": "btw-bedrijfswagen", "gelijkenissen": ["Beide zijn bijzondere regimes voor wederverkoop van voertuigen"], "verschillen": ["Margeregeling = BTW op marge zonder BTW-vermelding; gewone BTW-bedrijfswagen = BTW op volledige prijs met BTW-vermelding + aftrek-beperkingen"], "render_hint": "als_glossarium"}
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "btw",
+      "toelichting": "Margeregeling is een keuze-alternatief voor de normale BTW-regeling — niet beide tegelijk."
+    }
   ]
 }
