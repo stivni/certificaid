@@ -1,24 +1,30 @@
 {
   "id": "levensverzekering-successieplanning",
   "naam": {
-    "primair": "Levensverzekering als successieplanningsinstrument"
+    "primair": "Levensverzekering als successieplanningsinstrument",
+    "synoniemen": ["levensverzekering-planning", "AB-BC-verzekering"],
+    "vertaling": {"fr": "assurance-vie planification successorale"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit",
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.VI.D",
-      "2.6.VI.E"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.6.VI.D", "2.6.VI.E"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/levensverzekering-successieplanning.json",
+      "primary_bronnen": [
+        "W.Succ. art. 8 (federaal — fictie levensverzekering)",
+        "VCF art. 2.7.1.0.6 (Vlaams — fictie levensverzekering)",
+        "Wet 4 april 2014 verzekeringen (verzekeringsrecht)",
+        "AB-clausule + branche 21/23/26 (technische bronnen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud levensverzekering-planning gevuld vanuit W.Succ. art. 8 + VCF + technische verzekeringsbronnen."
       }
     ],
     "scope": {
@@ -37,40 +50,210 @@
         "Branche 21 vs branche 23 vs branche 26"
       ],
       "out": [
-        {
-          "topic": "Fictiebepaling erfbelasting",
-          "richting": "moet-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Successieplanning kader",
-          "richting": "moet-verwijzen",
-          "ref": "successieplanning"
-        }
+        {"topic": "Fictiebepaling erfbelasting", "richting": "moet-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Successieplanning kader", "richting": "moet-verwijzen", "ref": "successieplanning"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Een levensverzekering met successieplanning-oogmerk is een verzekeringscontract waarbij een persoon (verzekeringnemer) een premie betaalt aan een verzekeraar, en bij overlijden van een verzekerde een uitkering ontvangt door een vooraf aangewezen begunstigde. Drie partijen in het contract — de A-B-C-trio (verzekeringnemer A · verzekerde B · begunstigde C) — kunnen wel of niet samenvallen. De fiscale behandeling bij erfbelasting hangt af van die configuratie (art. 8 W.Succ. / VCF art. 2.7.1.0.6). Het instrument wordt gebruikt om: (a) een gegarandeerd kapitaal aan een specifieke begunstigde te bezorgen los van het erfrecht; (b) liquiditeit te creëren bij overlijden om de erfbelasting te betalen; (c) niet-erfgenamen (vriend, partner zonder huwelijk) een vermogensvoordeel toe te kennen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.6"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch werkt het instrument zoals volgt: een ouder (verzekeringnemer + verzekerde A=B) sluit een verzekering die bij zijn overlijden 200.000 EUR uitkeert aan zijn kind C. Civielrechtelijk is dit geen erfenis (de uitkering komt rechtstreeks van de verzekeraar, niet uit de nalatenschap) — wat het kind buiten de erfreserve-discussie tussen alle kinderen kan houden indien gewenst. Fiscaal echter: art. 8 W.Succ. herwaardeert de uitkering ALS legaat voor de erfbelasting — het kind betaalt erfbelasting volgens de tarieftabel rechte lijn. De configuratie A≠B is interessant voor planning: ouder verzekeringnemer + kind verzekerde + ander kind begunstigde leidt bij overlijden van het verzekerde kind tot een afkoop-clause zonder erfbelasting (art. 8 grijpt enkel op overlijden van de verzekeringnemer). Branche 21 (gegarandeerd rendement) vs branche 23 (beleggingsverzekering) vs branche 26 (kapitalisatieovereenkomst zonder verzekerd risico) hebben verschillende fiscale + civielrechtelijke gevolgen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard planningsdossier — A-B-C-configuratie"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["erfbelasting", "erfrecht"],
+      "kader": "successieplanning"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Art. 8 W.Succ. (federaal) + VCF art. 2.7.1.0.6 (Vlaanderen); Wet 4 april 2014 verzekeringen",
+        "toelichting": "Stabiel regime. Vlaanderen heeft sinds decreet 2017 de fictie verfijnd om bepaalde planning-configuraties (huwelijksgemeenschap-verzekeringen) anders te behandelen. Een gunstige Vlaamse hervorming sinds 2022 maakt bepaalde overdracht-tussen-echtgenoten-verzekeringen flexibeler."
+      },
+      "voor": [
+        {
+          "tekst": "Cliënten met (a) een complexe gezinssituatie (kinderen uit verschillende huwelijken, niet-gehuwde partner, vriend), (b) liquiditeitsbehoefte bij overlijden (bedrijfsleider met grote illiquide aandelen), of (c) wens om reserveregels van het erfrecht te omzeilen voor een specifieke vermogensbeschikking.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard planningsadvies"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "(a) Reserve-bescherming: civielrechtelijk kunnen reservataire erfgenamen onder bepaalde voorwaarden inkorting eisen indien de premies disproportioneel waren ten opzichte van het patrimonium. (b) Fiscale herwaardering: art. 8 W.Succ. is een fictiebepaling — de verzekeraar deelt automatisch aan de fiscus. (c) Bij branche 23: kapitaal niet gegarandeerd, prestatie kan lager uitvallen dan ingelegd. (d) Anti-misbruik: een 'sterfbed-verzekering' (premie kort vóór overlijden, hoge uitkering) kan door VLABEL als simulatie worden geherkwalificeerd.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+              {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.86", "context": "Inkorting"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "fictie-art-8",
+        "naam": {"primair": "Fictiebepaling art. 8 W.Succ."},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een som die naar aanleiding van het overlijden van een verzekerde wordt uitgekeerd aan een derde-begunstigde op grond van een levensverzekeringscontract waarin de overledene als verzekeringnemer fungeerde, wordt geacht als legaat door de overledene aan de begunstigde te zijn verkregen. Gevolg: de uitkering valt onder de erfbelasting, met tarief volgens de verwantschap tussen verzekeringnemer (de overledene) en begunstigde. Vlaamse equivalent: VCF art. 2.7.1.0.6 met enkele verfijningen voor huwelijksgemeenschap-verzekeringen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.6"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "abc-configuraties",
+        "naam": {"primair": "A-B-C-configuraties + fiscale gevolgen"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie rollen (A = verzekeringnemer, B = verzekerde, C = begunstigde) leiden tot verschillende uitkomsten: (i) A=B≠C — typisch (ouder verzekert eigen leven voor kind): bij overlijden uitkering aan C, fictie art. 8 grijpt, erfbelasting verschuldigd door C. (ii) A≠B=C — bij overlijden van B krijgt C zichzelf (= B) niets, geen erfbelasting. (iii) A=C≠B — bij overlijden van B krijgt A zichzelf de uitkering, geen erfbelasting (A betaalde de premie, A krijgt terug). (iv) A≠B≠C — ouder A verzekert echtgenoot B voor kind C: bij overlijden B betaalt A premies door en bij overlijden A wordt C de nieuwe verzekeringnemer; vraagstuk wordt complex bij dubbel overlijden.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ABC-analyse"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Configuratie", "Trigger", "Fiscale uitkomst"],
+            "rijen": [
+              ["A=B≠C", "Overlijden A=B", "Erfbelasting door C (fictie art. 8)"],
+              ["A≠B=C", "Overlijden B=C", "Geen uitkering (zelf overleden), nvt"],
+              ["A=C≠B", "Overlijden B", "Geen erfbelasting (A krijgt eigen kapitaal terug)"],
+              ["A≠B≠C", "Overlijden A", "Doorlopende premies, fiscale check op B's overlijden later"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "branche-21-23-26",
+        "naam": {"primair": "Branche 21 vs 23 vs 26"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Branche 21 — verzekering met gegarandeerd rendement; kapitaalbescherming + interest. Branche 23 — beleggingsverzekering gekoppeld aan fondsen (geen kapitaalgarantie, hoger rendementspotentieel). Branche 26 — kapitalisatieovereenkomst zonder verzekerd risico (puur belegging). Fiscaal voor successie: alle drie vallen onder art. 8 W.Succ. zodra er overlijden + uitkering aan begunstigde plaatsvindt. Verschillen vooral in PB (roerende voorheffing 30% op vermogenswinst bij afkoop branche 23; vrijstelling bij branche 21 na 8 jaar onder voorwaarden; branche 26 = roerend inkomen bij afkoop).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 §1 9°", "context": "PB-regime"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard productdifferentiatie"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorbeeld-planning-ab-bc",
+        "naam": {"primair": "AB-BC-techniek voor partnerverzekering"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Klassieke planning voor echtgenoten: 'AB-BC'-configuratie. Beide echtgenoten zijn elk verzekeringnemer + verzekerde + begunstigde van elkaar — twee kruisende contracten: contract 1 (A=verzn, A=verz, B=beg) + contract 2 (B=verzn, B=verz, A=beg). Bij overlijden van A: B krijgt uitkering; art. 8 grijpt → erfbelasting tussen partners (3% Vl). Bij overlijden van B vóór A: A krijgt uitkering uit contract 2 (eigen verzekering); art. 8 grijpt evenzeer → erfbelasting. Wat de techniek wel oplost: liquiditeit + zekerheid van uitkering los van het erfrecht. Wat niet: de erfbelasting wordt niet vermeden tenzij echt het kapitaal aan partner gelegateerd wordt en gezinswoning-vrijstelling wordt geclaimd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard partnerplanning"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Levensverzekering = 'belastingvrij' voor begunstigde",
+        "verkeerde_assumptie": "Studenten denken vaak dat een levensverzekering een belastingvrije manier is om vermogen aan iemand te bezorgen — buiten de erfbelasting om.",
+        "kernpunt": "Art. 8 W.Succ. behandelt de uitkering ALS legaat — erfbelasting volgens de tarieftabel tussen verzekeringnemer en begunstigde. Voor een vriend (geen verwantschap) komt dat in Vlaanderen neer op 25-55%. Het instrument is dus geen belastingvermijding maar een planningstool voor LIQUIDITEIT + GERICHTHEID van overdracht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"}
+          ]
+        }
+      },
+      {
+        "titel": "Configuratie A=C≠B verwarren met de standaard",
+        "verkeerde_assumptie": "Alle levensverzekering-uitkeringen vallen automatisch onder art. 8.",
+        "kernpunt": "Wanneer de verzekeringnemer A tegelijk de begunstigde is (A=C) en iemand anders is verzekerde (B), valt de uitkering bij overlijden B aan A NIET onder art. 8 — A krijgt zijn eigen kapitaal terug. Dit is een vaak gebruikte techniek bij kruislingse partnerverzekeringen om sommige uitkomsten te optimaliseren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "successieplanning"
+      "id": "planningsdossier",
+      "naam": {"primair": "Levensverzekering in planningsdossier"},
+      "intro": "De accountant die samen met verzekeringsmakelaar + notaris een successieplanning uitwerkt.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "abc-configuratie-doorrekenen",
+              "naam": {"primair": "ABC-configuratie doorrekenen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elk planningsdossier: maak een ABC-matrix met alle bestaande verzekeringen en bereken voor elk scenario (overlijden A, overlijden B) de erfbelasting voor de begunstigde. Vergelijk met alternatieven (handgift, schenking met voorbehoud, FBO-gunstregime). Vermijd verzekeringen die fiscaal nadeliger zijn dan een gewone erfenis.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk planningsadvies"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "successieplanning"},
+    {"type": "triggert", "target": "erfbelasting", "toelichting": "Fictiebepaling art. 8 W.Succ. — uitkering aan derde-begunstigde wordt belast als legaat."}
   ]
 }
