@@ -1,15 +1,17 @@
 {
   "id": "roerend-inkomen-internationaal",
   "naam": {
-    "primair": "Roerend inkomen — internationaal",
+    "primair": "Roerend inkomen internationaal",
     "synoniemen": [
-      "international movable income"
+      "internationale dividenden interest royalty's",
+      "cross-border RV-regime",
+      "DBV-tarieven roerend"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -17,9 +19,21 @@
       "2.8.VIII"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/roerend-inkomen-internationaal.json",
+      "primary_bronnen": [
+        "OESO-modelverdrag art. 10 (dividenden)",
+        "OESO-modelverdrag art. 11 (interesten)",
+        "OESO-modelverdrag art. 12 (royalty's)",
+        "Moeder-dochterrichtlijn 2011/96/EU",
+        "Interest-Royalty-richtlijn 2003/49/EG",
+        "WIB92 art. 285-289 (FBB)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,7 +41,14 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (art. 10-12 OESO-MV, moeder-dochter + interest-royalty-richtlijnen)."
       }
     ],
     "scope": {
@@ -40,22 +61,22 @@
       ],
       "out": [
         {
-          "topic": "Moeder-dochterrichtlijn (EU vrijstelling)",
+          "topic": "Moeder-dochterrichtlijn (specifiek instrument)",
           "richting": "moet-verwijzen",
           "ref": "moeder-dochterrichtlijn"
         },
         {
-          "topic": "Interest-royaltyrichtlijn",
+          "topic": "Interest-royalty-richtlijn (specifiek instrument)",
           "richting": "moet-verwijzen",
           "ref": "interest-royalty-richtlijn"
         },
         {
-          "topic": "FBB (verrekening)",
+          "topic": "FBB-verrekentechniek (toepassing)",
           "richting": "moet-verwijzen",
           "ref": "forfaitair-gedeelte-buitenlandse-belasting"
         },
         {
-          "topic": "Roerend inkomen PB (Belgische pendant)",
+          "topic": "Belgische roerende inkomsten (PB-context)",
           "richting": "moet-verwijzen",
           "ref": "roerend-inkomen-pb"
         }
@@ -65,19 +86,355 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (roerend-inkomen-internationaal).",
+        "tekst": "Roerend inkomen internationaal omvat de fiscale regels die gelden wanneer dividenden, interesten of royalty's grensoverschrijdend worden uitgekeerd — typisch tussen een betalende vennootschap in één land en een uiteindelijk gerechtigde in een ander land. Drie lagen werken samen: (1) interne bronheffing van de betaalstaat (in BE: roerende voorheffing 30 % op dividenden + interest); (2) verdragsbeperking via DBV (art. 10-12 OESO-MV) — meestal verlaagde tarieven 0/5/10/15 %; (3) EU-richtlijnen voor intra-EU-uitkeringen — moeder-dochterrichtlijn (2011/96/EU) voor dividenden tussen verbonden vennootschappen en interest-royalty-richtlijn (2003/49/EG) voor interest en royalty's tussen verbonden vennootschappen. Bij de ontvanger: vrijstelling of FBB-verrekening om dubbele belasting te vermijden.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 10 + 11 + 12" },
+            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU (moeder-dochter)", "ref": "art. 1-5" },
+            { "type": "richtlijn", "naam": "Richtlijn 2003/49/EG (interest-royalty)", "ref": "art. 1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de Belgische accountant is dit dé vraag bij elke grensoverschrijdende uitkering: welk tarief wordt geheven, en hoe de belastinglast minimaliseren? Stappenplan: (a) Heeft betaalstaat een interne bronheffing? Belgische dividenden: standaard 30 % RV. (b) Geldt een DBV-tariefverlaging? Voor de meeste Belgische DBV's: 5 % bij ≥ 10 %-deelneming (moeder-dochter), 15 % bij portfolio. (c) Geldt een EU-richtlijn? Moeder-dochter: 0 % bronheffing bij ≥ 10 %-belang + 1 jaar bezit. Interest-royalty: 0 % bij ≥ 25 %-belang + 2 jaar bezit. (d) Bij de ontvanger: DBI-aftrek (voor dividend) of FBB (interest/royalty) om dubbele belasting te vermijden. (e) Beneficial owner-test: het ontvangende vehikel moet de werkelijke uiteindelijk gerechtigde zijn — anti-treaty-shopping.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 10-12" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk RV-internationaal" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De rationale van het regime is dubbel. (1) Voorkoming dubbele belasting: zonder regeling zouden grensoverschrijdende roerende inkomsten zowel in de betaalstaat (bronheffing) als de woonstaat (gewone belasting) worden geheven — een belemmering voor kapitaalmobiliteit. DBV's en EU-richtlijnen elimineren of milderen dit. (2) Anti-misbruik: maar omgekeerd mag dit niet leiden tot dubbele non-belasting via treaty-shopping (een ontvanger-vehikel kunstmatig in een gunstige jurisdictie plaatsen). Vandaar anti-misbruik-clausules (beneficial owner, principal purpose test, anti-conduit-regels). Sinds BEPS Action 6 (2017) staan in de meeste moderne DBV's expliciete misbruik-bepalingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 10-12 + 29 (PPT)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer DBV-rationale + BEPS Action 6" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "dubbelbelastingverdrag",
+        "roerend-inkomen-pb",
+        "roerende-voorheffing"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "moeder-dochterrichtlijn",
+        "interest-royalty-richtlijn",
+        "forfaitair-gedeelte-buitenlandse-belasting",
+        "dbi-aftrek"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "OESO-MV art. 10-12; Richtlijn 2011/96/EU (moeder-dochter, herziene versie); Richtlijn 2003/49/EG (interest-royalty); WIB92 art. 269 e.v. (Belgische RV); art. 285-289 (FBB); art. 202-205 (DBI)",
+        "toelichting": "Sinds BEPS-MLI-implementatie hebben veel Belgische DBV's PPT-clausules — verdragsvoordelen kunnen worden geweigerd bij misbruik. EU-richtlijnen blijven gelden zoals voorzien maar met anti-misbruik-clausule (art. 1, lid 4 moeder-dochter)."
+      },
+      "voor": [
+        {
+          "tekst": "Belgische vennootschap die dividend uitkeert aan een EU-moeder met ≥ 10 %-deelneming: 0 % RV onder moeder-dochterrichtlijn.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 5" }
+            ]
+          }
+        },
+        {
+          "tekst": "Belgische BV ontvangt buitenlandse interest van Amerikaanse obligaties: BE-belastbaar in VenB, FBB-verrekening voor de Amerikaanse bronheffing.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 285" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "EU-richtlijnen vrijstellen bronheffingen bij groepsuitkeringen — directe cash-besparing van 10-30 % per uitkering.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 5" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Weigering verdragsvoordelen door PPT/beneficial-owner-test bij tussen-vennootschappen zonder substance. Resultaat: volle bronheffing zonder verrekening. Substance + documentatie van zakelijke redenen zijn essentieel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 29 (PPT 2017-versie)" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "dividenden-art-10-dbv",
+        "naam": {
+          "primair": "Dividenden onder art. 10 DBV"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 10 OESO-MV: dividenden uit een verdragsstaat mogen worden belast in de woonstaat van de ontvanger; de bronstaat behoudt een beperkt heffingsrecht via bronheffing. OESO-modeltarieven (variabel per DBV): 5 % bij ≥ 25 %-vennootschapsdeelneming (moeder-dochter), 15 % in andere gevallen (portfolio). Belgische DBV's gebruiken vaak 5 % bij ≥ 10 %-deelneming (overlap met moeder-dochterrichtlijn) en 15 % in portfolio. Sinds 2017 staat in de meeste Belgische DBV's een minimum-bezitsperiode van 365 dagen voor de 5 %-toepassing — BEPS Action 6-implementatie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 10 §2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interest-art-11-dbv",
+        "naam": {
+          "primair": "Interesten onder art. 11 DBV"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 11 OESO-MV: interesten uit een verdragsstaat mogen in de woonstaat worden belast; bronstaat heeft beperkt heffingsrecht (typisch 10 % max). Veel Belgische DBV's verlagen tot 0 % voor inter-vennootschapsleningen of voor specifieke schuldvorderingen (bv. bankleningen). Onder interest-royalty-richtlijn (2003/49/EG): 0 % bij ≥ 25 %-belang + 2 jaar bezit + beide entiteiten in EU. Voor portfolio-interest: art. 11 §2-tarief van DBV.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 11 §2" },
+                { "type": "richtlijn", "naam": "Richtlijn 2003/49/EG", "ref": "art. 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "royalty-art-12-dbv",
+        "naam": {
+          "primair": "Royalty's onder art. 12 DBV"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 12 OESO-MV: royalty's zijn in principe slechts belastbaar in de woonstaat van de uiteindelijk gerechtigde (geen bronheffing, mits Belgische DBV's deze regel volgen — niet alle landen, sommige laten bronheffing toe). Praktisch: voor Belgische uitkeringen van royalty's naar EU-vennootschap met ≥ 25 %-belang geldt 0 % via Interest-Royalty-richtlijn. Voor portfolio-royalty's of niet-EU-ontvangers: DBV-tarief (vaak 0-10 %).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 12 §1" },
+                { "type": "richtlijn", "naam": "Richtlijn 2003/49/EG", "ref": "art. 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "moeder-dochter-vrijstelling",
+        "naam": {
+          "primair": "Moeder-dochterrichtlijn: 0 % bronheffing + DBI-aftrek"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Richtlijn 2011/96/EU (herziene moeder-dochter): voor intra-EU-dividenden tussen verbonden vennootschappen (a) geen bronheffing in de uitkerende lidstaat (art. 5); (b) vrijstelling in de ontvangende lidstaat (art. 4 — Belgisch geïmplementeerd via DBI-aftrek art. 202-205 WIB92). Voorwaarden: minstens 10 %-deelneming + 1 jaar bezitsduur. Sinds 2015 anti-misbruik-clausule (art. 1 lid 4): voordeel wordt geweigerd bij kunstmatige arrangements met als hoofddoel belastingvoordeel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 1, 4 + 5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interest-royalty-vrijstelling",
+        "naam": {
+          "primair": "Interest-royalty-richtlijn: 0 % bronheffing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Richtlijn 2003/49/EG: voor intra-EU-uitkeringen van interest en royalty's tussen verbonden vennootschappen (≥ 25 %-belang + 2 jaar bezit) geldt 0 % bronheffing in de uitkerende lidstaat. Ontvangende lidstaat belast normaal. Voorwaarden: beide vennootschappen onderworpen aan een opgesomde lijst van EU-vennootschapsbelastingen; uiteindelijk gerechtigde-vereiste. Anti-misbruik-clausule sinds 2015.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "richtlijn", "naam": "Richtlijn 2003/49/EG", "ref": "art. 1 + 5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beneficial-owner-vereiste",
+        "naam": {
+          "primair": "Beneficial owner-vereiste"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "DBV-voordelen (art. 10/11/12) zijn enkel beschikbaar voor de uiteindelijk gerechtigde (beneficial owner) van het inkomen. Een tussen-vennootschap die optreedt als loutere doorgeefluik (conduit) zonder werkelijke economische functie kwalificeert niet. HvJ in Danish Cases (C-115/16 e.v., 2019) bevestigde een ruime EU-conform interpretatie van het beneficial-owner-begrip. Praktisch: substance-toets op het ontvangende vehikel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 10 §2 + 11 §2 + 12 §1" },
+                { "type": "rechtspraak", "naam": "HvJ Danish Cases C-115/16 e.v.", "ref": "26 februari 2019" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-treaty-shopping-ppt",
+        "naam": {
+          "primair": "Anti-treaty-shopping (PPT — BEPS Action 6)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "MLI art. 7 PPT (Principal Purpose Test): verdragsvoordelen worden geweigerd indien een van de hoofddoelen van een arrangement was om dat voordeel te verkrijgen, tenzij de toekenning in lijn ligt met het doel en strekking van het verdrag. Belgische DBV's na MLI-ratificatie (gefaseerd 2019-2024) bevatten PPT. Resultaat: planning vereist legitieme zakelijke redenen + substance, niet enkel formele vehikels.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "MLI", "ref": "art. 7 (PPT)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fbb-vs-dbi-keuze",
+        "naam": {
+          "primair": "Keuze FBB vs DBI (ontvanger-zijde)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij ontvangst van buitenlands roerend inkomen door BE-vennootschap: dividenden → DBI-aftrek (art. 202-205, 100 % vrijstelling mits voorwaarden); interesten + royalty's → FBB (art. 285-289, forfait 15/85 verrekening). Bij ontvangst door PB-rijksinwoner-natuurlijke-persoon: normale RV-tarief op het bruto-inkomen + eventuele FBB-aftrek voor de buitenlandse bronheffing (afhankelijk van DBV).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 202 + 285" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-dividend-be-moeder-fr-dochter",
+        "titel": "Belgische moeder ontvangt dividend van Franse dochter",
+        "context": "Aurelia Holding NV (BE, 25 %-belang sinds 5 jaar) ontvangt bruto-dividend 1.000.000 EUR van Bordeaux SAS (FR-dochter).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 4 + 5" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 202" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — uitkerende kant (FR): moeder-dochterrichtlijn → 0 % bronheffing (≥ 10 % + ≥ 1 jaar).",
+              "Stap 2 — ontvangende kant (BE): dividend opgenomen in resultaat 1.000.000 EUR.",
+              "Stap 3 — DBI-aftrek art. 202 WIB92: 100 % aftrek mits taxatievoorwaarde (FR VenB) + bezitsduur + 10 %-minimum vervuld.",
+              "Stap 4 — effectief belastbaar in BE: 0 EUR (volledige DBI-aftrek).",
+              "Stap 5 — totale belastingdruk: enkel FR VenB op de winst waarmee het dividend werd uitgekeerd (geen bronheffing, geen BE-VenB)."
+            ],
+            "resultaat": "Optimale fiscale neutraliteit voor groepsuitkering. Voorwaarde: substance van Belgische moeder + bewijs taxatievoorwaarde dochter."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-portfolio-dividend-pb",
+        "titel": "Belgische particulier ontvangt portfolio-dividend uit Duitsland",
+        "context": "Mevrouw Z., BE-rijksinwoner, ontvangt 1.000 EUR bruto dividend van een Duitse beursvennootschap. DBV BE-DE: 15 %-bronheffing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "DBV BE-DE", "ref": "art. 10 §2 b" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Bruto dividend: 1.000 EUR.",
+              "Duitse bronheffing 15 % (DBV-tarief): 150 EUR.",
+              "Netto ontvangen: 850 EUR.",
+              "BE RV op het netto: 850 × 30 % = 255 EUR.",
+              "Geen FBB-verrekening op portfolio-dividenden in PB sinds AJ 1990.",
+              "Netto-netto: 850 − 255 = 595 EUR."
+            ],
+            "resultaat": "Totale belastingdruk 405 EUR op 1.000 EUR bruto = 40,5 %. Belangrijk: geen FBB-compensatie voor PB-portfolio-dividenden — een veel-vergeten valkuil."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Moeder-dochterrichtlijn ook op niet-EU-dochter toepassen",
+        "verkeerde_assumptie": "0 %-bronheffing toepassen op dividend van een Zwitserse of UK-dochter omdat het moederbedrijf in BE staat.",
+        "kernpunt": "Moeder-dochterrichtlijn geldt enkel intra-EU. Voor Zwitserland: aparte BE-CH-overeenkomst die vergelijkbare 0 %-werking heeft. Voor UK post-Brexit: enkel DBV-tarieven (gewoonlijk 5 %). Eerst land-status checken.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 2 (definitie EU-vennootschap)" }
+          ]
+        }
+      },
+      {
+        "titel": "Bezitsduur-eis voor moeder-dochter vergeten",
+        "verkeerde_assumptie": "0 %-bronheffing aanvragen voor een dividend van een recent verworven dochter.",
+        "kernpunt": "Moeder-dochterrichtlijn vereist 1-jaar minimumbezit (sommige lidstaten korter, BE 12 maanden). Bij niet-vervulling: lidstaten mogen bronheffing toepassen. Plan acquisities en dividenduitkeringen rond deze drempel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2011/96/EU", "ref": "art. 3" }
+          ]
+        }
+      },
+      {
+        "titel": "Beneficial-owner-vereiste onderschatten",
+        "verkeerde_assumptie": "Een Belgische holding-vennootschap die dividend doorbetaalt naar offshore-aandeelhouders kan toch DBV-voordelen claimen.",
+        "kernpunt": "HvJ Danish Cases (2019): een conduit-vennootschap zonder werkelijke economische functie is geen beneficial owner. Bronstaat mag voordelen weigeren. Substance + reële beslissingsbevoegdheid in de tussen-vennootschap zijn essentieel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "rechtspraak", "naam": "HvJ Danish Cases C-115/16 e.v.", "ref": "26 februari 2019" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Tarief-matrix: welk regime voor welke uitkering?",
+        "inhoud": {
+          "rijen": [
+            {"uitkering": "Dividend EU intra-groep (≥ 10 % + 1 jaar)", "bronheffing": "0 % (moeder-dochterrichtlijn)", "ontvanger-behandeling": "DBI-aftrek 100 % bij BE-moeder"},
+            {"uitkering": "Dividend EU portfolio (< 10 %)", "bronheffing": "DBV-tarief (typisch 15 %)", "ontvanger-behandeling": "VenB belast; geen FBB (PB) / DBI mogelijk indien voorwaarden"},
+            {"uitkering": "Dividend niet-EU groep (≥ 10 %)", "bronheffing": "DBV-tarief (typisch 5 %)", "ontvanger-behandeling": "DBI mits taxatievoorwaarde dochter"},
+            {"uitkering": "Interest EU intra-groep (≥ 25 % + 2 jaar)", "bronheffing": "0 % (interest-royalty-richtlijn)", "ontvanger-behandeling": "VenB belast; FBB"},
+            {"uitkering": "Interest portfolio", "bronheffing": "DBV-tarief (typisch 10 %)", "ontvanger-behandeling": "VenB belast; FBB 15/85"},
+            {"uitkering": "Royalty EU intra-groep (≥ 25 % + 2 jaar)", "bronheffing": "0 % (interest-royalty-richtlijn)", "ontvanger-behandeling": "VenB belast; mogelijk innovatie-aftrek"},
+            {"uitkering": "Royalty niet-EU", "bronheffing": "DBV-tarief (0-10 %)", "ontvanger-behandeling": "VenB belast; FBB"}
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -85,8 +442,44 @@
       "target": "internationaal-fiscaal"
     },
     {
+      "type": "vereist",
+      "target": "dubbelbelastingverdrag",
+      "toelichting": "Tarief en methodologie volgen uit het concrete DBV en eventuele EU-richtlijnen."
+    },
+    {
+      "type": "triggert",
+      "target": "forfaitair-gedeelte-buitenlandse-belasting",
+      "toelichting": "Bij ontvangst van buitenlandse interest of royalty in VenB-context: FBB-verrekening."
+    },
+    {
+      "type": "triggert",
+      "target": "dbi-aftrek",
+      "toelichting": "Bij ontvangst van buitenlands dividend in VenB-context (≥ 10 % + voorwaarden): DBI-aftrek."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "moeder-dochterrichtlijn",
+      "toelichting": "Specifiek EU-regime voor intra-EU groepsdividenden — 0 %-bronheffing + ontvanger-vrijstelling."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interest-royalty-richtlijn",
+      "toelichting": "Specifiek EU-regime voor intra-EU groepsinterest en -royalty's — 0 %-bronheffing."
+    },
+    {
       "type": "vergelijkbaar_met",
-      "target": "roerend-inkomen-pb"
+      "target": "roerend-inkomen-pb",
+      "gelijkenissen": [
+        "Beide handelen over roerende inkomsten (dividend, interest, royalty)",
+        "Beide gebruiken DBV-tariefverlagingen"
+      ],
+      "verschillen": [
+        "Internationaal: focus op grensoverschrijdende RV-modaliteiten + EU-richtlijnen",
+        "PB: focus op interne belastbaarheid van Belgische particulieren — RV-bevrijdend, geen DBI/FBB op portfolio voor PB",
+        "Ontvanger-behandeling verschilt: PB heeft geen DBI; VenB heeft DBI + FBB; PB-FBB sinds AJ 1990 afgeschaft"
+      ],
+      "verwarring_risico": "Studenten passen DBI of FBB toe op PB-portfolio-dividend — fout. PB-particulier heeft minder anti-dubbele-belasting-tools dan VenB-vennootschap.",
+      "render_hint": "als_glossarium"
     }
   ]
 }

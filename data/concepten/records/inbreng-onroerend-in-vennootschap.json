@@ -1,23 +1,31 @@
 {
   "id": "inbreng-onroerend-in-vennootschap",
   "naam": {
-    "primair": "Inbreng onroerend goed in vennootschap"
+    "primair": "Inbreng onroerend goed in vennootschap",
+    "synoniemen": ["inbreng-in-natura van onroerend goed"],
+    "vertaling": {"fr": "apport d'immeuble en société"}
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.I.D"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.6.I.D"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/inbreng-onroerend-in-vennootschap.json",
+      "primary_bronnen": [
+        "W.Reg. art. 115 (federaal — roerende inbreng 0%)",
+        "W.Reg. art. 115bis (federaal — onroerende inbreng 0% mits voorwaarden)",
+        "W.Reg. art. 44 (verkooprecht — terugval bij gebruik bewoning)",
+        "W.Reg. art. 129 (verkrijging onroerend goed uit personenvennootschap door vennoot)",
+        "WVV art. 7:182 + 7:183 (inbreng in natura NV)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +34,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit W.Reg. art. 115/115bis (federaal, wijziging wet 30-10-2025) + cross naar WVV."
       }
     ],
     "scope": {
@@ -36,44 +51,318 @@
         "Cross naar kapitaalverhoging-in-natura (vennootschapsrecht)"
       ],
       "out": [
-        {
-          "topic": "Kapitaalverhoging-in-natura (vennootschapsrecht)",
-          "richting": "moet-verwijzen",
-          "ref": "kapitaalverhoging-in-natura"
-        },
-        {
-          "topic": "Verkooprecht (zonder vrijstelling)",
-          "richting": "mag-verwijzen",
-          "ref": "verkooprecht"
-        }
+        {"topic": "Kapitaalverhoging-in-natura (vennootschapsrecht)", "richting": "moet-verwijzen", "ref": "kapitaalverhoging-in-natura"},
+        {"topic": "Verkooprecht (zonder vrijstelling)", "richting": "mag-verwijzen", "ref": "verkooprecht"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "De inbreng van een onroerend goed in een vennootschap is een verrichting waarbij een natuurlijke persoon of rechtspersoon eigendom (of een zakelijk recht) op een onroerend goed overdraagt aan een vennootschap in ruil voor aandelen, hetzij bij oprichting hetzij bij een kapitaalverhoging. Fiscaal staat zo'n inbreng tegenover de gewone verkoop van onroerend goed (verkooprecht 12% federaal / Vl 3-12% woonbonus). Vanaf 25-11-2025 (wet 30-10-2025) geldt federaal: 0% registratierecht voor inbreng van onroerend goed (anders dan woningen ingebracht door een natuurlijke persoon) in een vennootschap met zetel in België of EER (W.Reg. art. 115bis). Voor woningen ingebracht door een natuurlijke persoon: het normale verkooprecht 12% (federaal) of het gewestelijke equivalent.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115", "context": "Federaal — roerende inbreng 0%"},
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis", "context": "Federaal — onroerende inbreng 0% mits voorwaarden"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is dit regime hét instrument om een onroerend goed van privé naar een vennootschap over te brengen zonder de zware verkooprecht-last (12% federaal of 3-12% gewest). Voorbeeld: een ondernemer brengt een bedrijfsgebouw ter waarde van 500.000 EUR in zijn nieuwe operationele BV in. Bij gewone verkoop: 12% × 500.000 = 60.000 EUR verkooprecht. Bij inbreng (mits niet woning door natuurlijke persoon): 0% — een besparing van 60.000 EUR. De keerzijde: bij latere uittreding/liquidatie wordt de oorspronkelijke vrijstelling soms via art. 129 W.Reg. ge'recaptureerd' indien de vennoot het goed weer 'rechtstreeks' terugneemt (eigendom-terug naar privé). Het regime werkt enkel als de inbreng werkelijk wordt vergoed door aandelen (geen gemengde inbreng met opleg).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"},
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 129", "context": "Terugverkrijging door vennoot"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard structureringsdossier"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De rationale is economisch: men wil de oprichting en kapitalisatie van vennootschappen niet ontmoedigen door zware overdrachtsbelastingen op patrimoniumbestanddelen die als productiemiddel in een onderneming gaan. Door inbreng tegen 0% te belasten (i.t.t. verkoop) blijven middelen vrij voor het bedrijf en niet voor de Schatkist. De uitzondering voor woningen ingebracht door natuurlijke persoon voorkomt misbruik (privé-vermogen 'in een holding' steken om de zware woning-verkooprechten te ontwijken).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis", "context": "Uitzondering woningen door NP"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsrationale"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["verkooprecht"],
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["kapitaalverhoging-in-natura"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2025-11-25",
+        "wettelijke_basis": "W.Reg. art. 115 + 115bis (federaal — gewijzigd door wet 30-10-2025 art. 22-23, in voege 25-11-2025)",
+        "toelichting": "Het regime is in 2025 ingrijpend hervormd: de oude grens tussen 'algemeenheid van goederen' en 'bedrijfstak' (vrijstelling) tegenover 'gedeeltelijke inbreng' (recht 12%) is afgeschaft. Sinds 25-11-2025: 0% voor alle inbrengen van onroerend goed in vennootschappen met zetel in België of EER, met als enige uitzondering woningen ingebracht door natuurlijke personen (verkooprecht blijft verschuldigd). Vlaanderen heeft het federaal regime overgenomen via VCF-verwijzingen; Brussel en Wallonië volgen het federaal art. 115bis."
+      },
+      "voor": [
+        {
+          "tekst": "Wanneer een onderneming wordt opgericht of geherkapitaliseerd en daarbij onroerend goed wordt ingebracht in ruil voor aandelen — typisch: ondernemer brengt zijn bedrijfsgebouw in zijn nieuwe BV, of een familie consolideert vastgoed in een patrimoniumvennootschap.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"}
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Inbreng van een woning (= onroerend goed dat gedeeltelijk of geheel tot bewoning wordt aangewend of bestemd is) door een natuurlijke persoon. Voor zulke inbreng blijft het normale verkooprecht (12% federaal, gewestelijk variant) verschuldigd. Bedoeling: anti-misbruik tegen privé-woning-via-holding.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis", "context": "Uitzondering woning door NP"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (a) inbreng in een vennootschap waarvan de zetel van werkelijke leiding in België of een staat van de EER gevestigd is; (b) inbreng wordt vergoed door aandelen (niet door geld of een schuldvordering); (c) ingeval natuurlijke persoon ↔ vennootschap: het onroerend goed mag niet hoofdzakelijk tot bewoning worden aangewend of bestemd zijn.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "0% registratierecht in plaats van 12% verkooprecht — een onmiddellijke kostenbesparing van 12% × waarde onroerend goed.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij latere terugneming door de vennoot van een onroerend goed dat de vennootschap heeft verworven via inbreng, kan het recht alsnog verschuldigd zijn (art. 129 W.Reg.) — vooral bij personenvennootschappen (VOF, CommV) en bij vennoten/verbonden personen. Een 'inbreng-uittreding'-strategie binnen korte tijd kan worden geherkwalificeerd via anti-misbruik (art. 18 §2 W.Reg.).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 129"},
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 18 §2", "context": "Anti-misbruik"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-0-procent",
+        "naam": {"primair": "Federaal tarief 0% sinds wet 30-10-2025"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds 25-11-2025 is het federaal verschuldigd recht op inbreng van onroerende goederen in een vennootschap 0%, mits aan de voorwaarden voldaan (W.Reg. art. 115bis). Voor inbreng van roerende goederen (machines, immateriële vaste activa, vorderingen, ...) gold al voordien 0% (W.Reg. art. 115). Vóór 25-11-2025 gold een gedifferentieerd tarief afhankelijk van inbreng-modaliteit (algemeenheid vs bedrijfstak vs gemengde inbreng).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis", "context": "Wijziging 30-10-2025"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitzondering-woning-np",
+        "naam": {"primair": "Uitzondering: woning ingebracht door natuurlijke persoon"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien een natuurlijke persoon een onroerend goed inbrengt dat gedeeltelijk of geheel tot bewoning wordt aangewend of bestemd is, is het normale verkooprecht verschuldigd: 12% federaal (Brussel/Wallonië) of gewestelijk tarief Vlaanderen (3% woonbonus of 12% andere woningen). Doel: voorkomen dat de privé-woning belastingvrij in een patrimoniumvennootschap wordt geparkeerd. Komt een rechtspersoon (bv. holding) een woning inbrengen, is dit anti-misbruik niet van toepassing — voor woning-inbreng door RP geldt nog steeds 0%.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vorm-vergoeding",
+        "naam": {"primair": "Vorm van de tegenprestatie — aandelen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De inbreng moet worden vergoed door aandelen — niet door (een combinatie met) opleg in geld, vorderingen of obligaties. Een gemengde inbreng (deel aandelen, deel cash) wordt fiscaal opgesplitst: het deel vergoed in aandelen valt onder art. 115bis (0%), het deel vergoed in geld valt onder het verkooprecht (12%). Doel: voorkomen dat een verkapte verkoop als 'inbreng' wordt verpakt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 120", "context": "Gemengde inbreng"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verband-wvv",
+        "naam": {"primair": "Verband met vennootschapsrecht — inbreng in natura"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Civielrechtelijk is een inbreng-in-natura van onroerend goed onderworpen aan de procedurele eisen van WVV: (a) een verslag van het bestuursorgaan dat de inbreng beschrijft en de waardering motiveert (art. 7:183 NV, idem BV); (b) een verslag van een bedrijfsrevisor of accountant ter validatie van de waardering; (c) een notariële akte met opname in de oprichtingsakte of statutenwijziging. De fiscale 0%-vrijstelling ontslaat NIET van deze civielrechtelijke procedurele eisen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 7:182"},
+                {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 7:183"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "terugneming-vennoot",
+        "naam": {"primair": "Terugneming door vennoot — art. 129 W.Reg."},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennoot van een personenvennootschap (VOF, CommV) of een vennoot/verbonden persoon van een kapitaalvennootschap een onroerend goed rechtstreeks 'terugneemt' uit de vennootschap (anders dan bij inbreng — dus bv. door verkoop, kapitaalvermindering in natura, vereffening) wordt het verkooprecht alsnog verschuldigd op de waarde van het goed. Dit voorkomt dat de inbreng-vrijstelling wordt aangewend om de zware verkoopbelasting te ontwijken via een snelle inbreng-uittreding-route.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 129"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-inbreng-bedrijfsgebouw",
+        "titel": "Inbreng bedrijfsgebouw bij oprichting BV — 0% (2026)",
+        "context": "Cedric (zelfstandig consultant) richt Zelena BV op en wenst zijn bedrijfsgebouw (kantoor + parking, marktwaarde 480.000 EUR, géén bewoning) in te brengen tegen 480 aandelen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — WVV-procedure: bestuursverslag + revisorale waardering 480.000 EUR.",
+              "Stap 2 — Notariële oprichtingsakte met opname van de inbreng + uitgifte van 480 aandelen aan Cedric.",
+              "Stap 3 — Fiscaal: art. 115bis W.Reg. → 0% registratierecht (geen woning). Hypotheekrecht: niet van toepassing (geen hypotheekvestiging).",
+              "Stap 4 — Bij latere aandelenverkoop: meerwaarde op aandelen volgens fiscaal regime aandelen-verkoop (rolt rond de inbreng-waarde 480.000 EUR als historische basis)."
+            ],
+            "resultaat": "0 EUR registratierecht (vergeleken met 12% × 480.000 = 57.600 EUR bij gewone verkoop). Civielrechtelijke en revisorale procedures correct doorlopen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-woning-uitzondering",
+        "titel": "Woning ingebracht door natuurlijke persoon — verkooprecht verschuldigd",
+        "context": "Marie wil haar tweede woning (vakantiehuis) inbrengen in haar vastgoed-BV ter optimalisatie van de inkomsten-stroom.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Aangezien Marie een natuurlijke persoon is en het goed 'tot bewoning bestemd' is (vakantiewoning), valt de inbreng NIET onder de 0%-vrijstelling van art. 115bis. Het normale verkooprecht is verschuldigd: 12% federaal kader (bv. Brussel/Wallonië) of gewestelijke variant (Vlaanderen 12% voor andere dan eigen gezinswoning). Op een waarde van 350.000 EUR komt dat neer op ca. 42.000 EUR verkooprecht. Bovenop notariskosten + revisor-ereloon. Conclusie: voor privé-tweede-woning is inbreng fiscaal niet aantrekkelijk; alternatieven (rechtstreekse aankoop door de vennootschap, gewone verhuur) verdienen prioriteit."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Oude tariefsysteem (algemeenheid vs bedrijfstak vs woning) verder toepassen",
+        "verkeerde_assumptie": "Studenten leren nog het pre-2025 systeem met onderscheid tussen algemeenheid (vrijstelling), bedrijfstak (vrijstelling) en gewone gemengde inbreng (12%).",
+        "kernpunt": "Sinds wet 30-10-2025 (in voege 25-11-2025): één eenvoudig systeem — 0% voor alle inbrengen in vennootschap met zetel in BE/EER, MET ALS ENIGE UITZONDERING woning door natuurlijke persoon. Het oude onderscheid is afgeschaft.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis", "context": "Wijziging 2025"}
+          ]
+        }
+      },
+      {
+        "titel": "Inbreng denken zonder revisor-waardering",
+        "verkeerde_assumptie": "Omdat het fiscaal 0% is, is een inbreng ook procedureel eenvoudig.",
+        "kernpunt": "De fiscale vrijstelling ontslaat niet van de civielrechtelijke procedure: bestuursverslag (motivering economisch belang), revisorale waarderingsverslag (art. 7:183 WVV), notariële akte. Niet correct uitvoeren leidt tot nietigheid van de inbreng + bestuurdersaansprakelijkheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 7:183"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vergelijkbaar_met",
-      "target": "kapitaalverhoging-in-natura"
+      "id": "ondernemer-structurering",
+      "naam": {"primair": "Ondernemer bij structureringsdossier"},
+      "intro": "De accountant die de oprichting of herstructurering van een vennootschap begeleidt en de impact van vastgoedinbreng inschat.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "afweging-inbreng-vs-verkoop",
+              "naam": {"primair": "Afweging inbreng vs verkoop"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke transactie waar onroerend goed van privé naar vennootschap (of tussen vennootschappen) verschuift: eerst inbreng-route checken (0% W.Reg. art. 115bis) vs gewone verkoop (12%). Inbreng is doorgaans fiscaal voordeliger maar vereist (a) WVV-procedure + revisor en (b) tegenprestatie in aandelen. Niet alle bedrijfsstructuren laten een inbreng toe (bv. wanneer de vennootschap niet wil verwateren).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 115bis"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "anti-misbruik-bewaken",
+              "naam": {"primair": "Anti-misbruik bewaken — geen snelle uittreding"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vermijd inbreng-uittreding-constructies binnen een korte termijn (bv. inbreng + kapitaalvermindering in natura binnen 12 maanden) — VLABEL/FOD Financiën kunnen art. 129 W.Reg. of de algemene anti-misbruikbepaling (art. 18 §2 W.Reg.) inroepen om alsnog verkooprecht te heffen. Houd minimum 3 jaar voortzettings-perspectief.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 129"},
+                      {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 18 §2"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"},
+    {"type": "vergelijkbaar_met", "target": "kapitaalverhoging-in-natura", "gelijkenissen": ["Beide vereisen WVV-procedure inbreng-in-natura", "Beide kunnen onroerend goed als voorwerp hebben", "Beide worden vergoed door aandelen"], "verschillen": ["Inbreng-in-vennootschap: fiscaal regime W.Reg. art. 115bis (registratierecht)", "Kapitaalverhoging-in-natura: vennootschapsrechtelijk regime WVV art. 7:182-183 (procedure + verslagen)"], "verwarring_risico": "Beide aspecten gelden vaak tegelijk: één enkele inbreng-verrichting is zowel fiscaal (W.Reg.) als civielrechtelijk (WVV) gereglementeerd.", "render_hint": "als_glossarium"},
+    {"type": "is_uitzondering_op", "target": "verkooprecht", "toelichting": "Vrijstelling van het normale 12% verkooprecht bij eigendomsoverdracht onroerend goed."}
   ]
 }
