@@ -7,12 +7,15 @@
       "avantages de toute nature",
       "ATN",
       "voordelen in natura"
-    ]
+    ],
+    "vertaling": {
+      "fr": "avantages de toute nature"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -20,27 +23,14 @@
     "ankers": [
       "2.2.VI.A"
     ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-filter-record: overzicht VAA-fenomenen; details in eigen records per VAA-type"
-      }
-    ],
     "scope": {
       "in": [
         "Filter-categorie: overzicht alle VAA-fenomenen (geen inhoudelijke details — die wonen in eigen records)",
         "Formule-overzicht: forfaitaire ramingen vs werkelijke waarde",
         "VAA als component beroepsinkomen (toegevoegd aan bruto-loon werknemer/bedrijfsleider)",
         "Aansprakelijkheid werkgever voor BV inhouding op VAA",
-        "RSZ-onderwerping van VAA (deels gelijklopend met fiscaal, maar niet identiek)"
+        "RSZ-onderwerping van VAA (deels gelijklopend met fiscaal, maar niet identiek)",
+        "Boekhoudkundige verwerking VAA: kost boeken naar aard (CBN-128/8)"
       ],
       "out": [
         {
@@ -67,27 +57,72 @@
           "topic": "VAA verwarming + elektriciteit",
           "richting": "moet-verwijzen",
           "ref": "vaa-verwarming-en-elektriciteit"
-        },
-        {
-          "topic": "Werknemers-vergoedingen-overzicht (Σ alle vergoedingsvormen)",
-          "richting": "moet-verwijzen",
-          "ref": "werknemers-vergoedingen"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/voordelen-alle-aard.json",
+      "primary_bronnen": [
+        "WIB92 art. 31",
+        "WIB92 art. 32",
+        "WIB92 art. 32/1",
+        "WIB92 art. 36",
+        "WIB92 art. 38",
+        "WIB92 art. 38/1",
+        "WIB92 art. 198 § 1, 9° (VAA-autokosten VU)",
+        "CBN-128/8 (Boeking van voordelen van alle aard)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-filter-record"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Filter-overzicht uitgewerkt: forfait vs werkelijke waarde + CBN-128/8 boekingsregel + VAA-auto-formule + voorbeelden."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een voordeel van alle aard (VAA) is een niet-monetair voordeel dat een werknemer (art. 31 WIB92) of bedrijfsleider (art. 32 WIB92) verkrijgt 'uit hoofde of naar aanleiding' van zijn beroepswerkzaamheid. VAA worden bij het belastbaar beroepsinkomen gevoegd en zijn dus onderworpen aan progressieve PB + bedrijfsvoorheffing aan de bron. De waardering gebeurt forfaitair (KB/WIB art. 18) voor de meest voorkomende categorieën (bedrijfswagen, woning, verwarming, elektriciteit, PC, smartphone, renteloze lening) of, bij gebreke aan forfait, tegen de werkelijke waarde voor de verkrijger (art. 36 § 1 WIB92).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 31, 32, 36" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "VAA zijn een hoofdcomponent van de moderne bezoldigingsstructuur, zeker voor bedrijfsleiders. Drie principes sturen hun behandeling: (1) **Waardering** — forfait (typisch voordelig voor de verkrijger) waar de wetgever een KB-formule heeft (KB/WIB art. 18, bv. bedrijfswagen CO2-formule); werkelijke waarde als niets is voorzien (bv. firmaprijs voor concertkaarten). (2) **Onderwerping** — VAA volgt typisch werknemers-RSZ (sociale-zekerheidsbijdrage 13,07 %) én PB (progressief tarief) én BV. Op enkele uitzonderingen (sport-/cultuur-/ecocheques binnen grenzen art. 38-25° + 38/1) bestaat een vrijstelling. (3) **Boekhoudkundig** — CBN-128/8 leert: de kost wordt naar zijn aard geboekt (auto: 6402; woning: 6131; lening: vordering 416), niet als 'Bezoldiging'. Daardoor staat een VAA-kost meestal niet in rekening 618/620, maar wordt het belastbaar deel apart op de fiche aangegeven.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 31, 36" },
+            { "type": "advies", "id": "CBN-128/8", "naam": "CBN-advies 128/8", "ref": "Boeking van voordelen van alle aard", "datum": "1996" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het VAA-regime sluit een achterpoort: zonder VAA-toerekening zouden werkgevers fiscale-progressie-loon kunnen vervangen door natuurlijke gunsten (auto, woning, lening tegen 0 %) en zo de progressie omzeilen. De forfaitaire raming (KB/WIB 18) is een compromis: vereenvoudigt administratie + biedt een vaak gunstige (laag-geraamde) waardering voor populaire voordelen, maar geeft de wetgever een instrument om gedragsregels op te leggen (bv. CO2-gemoduleerde VAA-auto, om milieubewust voertuigbeleid te stimuleren).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsratio achter VAA-regime" }
           ]
         }
       }
@@ -95,30 +130,244 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 36 + KB/WIB art 18"
+        "wettelijke_basis": "WIB92 art. 31, 32, 32/1, 36, 38, 38/1; KB/WIB art. 18 (forfaitaire ramingen)"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke werknemer of bedrijfsleider die naast het loon een natuurlijk voordeel ontvangt van de werkgever/vennootschap.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 31, 32" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Bij niet-loon-gebonden vergoedingen die als 'eigen kosten van de werkgever/vennootschap' worden gekwalificeerd (art. 32/1, 'kostenforfait') — dan geen VAA, ook geen belasting bij verkrijger.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 32/1" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "waardering-principe",
+        "naam": { "primair": "Waardering — forfait OF werkelijke waarde (art. 36 WIB)" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 36 § 1 WIB92: andere dan in geld verkregen voordelen alle aard gelden voor de werkelijke waarde bij de verkrijger. Wanneer de Koning de waarde forfaitair heeft vastgesteld (KB/WIB art. 18), prevaleert dat forfait. De wetgever heeft forfaits gemaakt voor: bedrijfswagen (CO2-gemoduleerd, art. 36 § 2 + KB/WIB), gratis ter beschikking gestelde woning, verwarming, elektriciteit, gratis maaltijden, PC + smartphone + tablet + internet, renteloze of laag rentende lening. Voor andere voordelen (firmaprijs voor producten, evenementen-tickets) → werkelijke waarde verkrijger.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 § 1 + § 2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfaits-overzicht",
+        "naam": { "primair": "Forfaitaire ramingen — overzicht KB/WIB art. 18" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Per VAA-type een eigen formule (typisch jaarlijks geïndexeerd):",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB", "ref": "art. 18" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "VAA-forfaits (overzicht aanslagjaar 2025 — niet-geïndexeerde grondbedragen, ter illustratie):\n\n| VAA-type | Forfait-formule | Minimum |\n|---|---|---|\n| **Bedrijfswagen** | Cataloguswaarde × CO2-coëfficiënt × 6/7 × leeftijds-correctie | jaarlijks minimum (€ 1.600 aj. 2025) |\n| **Woning** (verhuur door werkgever) | KI × 100/60 × 5/3 (kort 2,78 × KI) — met aanvullingen voor bemeubelde verhuur | n.v.t. |\n| **Verwarming** | Forfait per jaar: leidinggevende ± € 2.350 / overige werknemers ± € 1.060 (aanslagjaar 2025) | n.v.t. |\n| **Elektriciteit** | Forfait: leidinggevende ± € 1.170 / overige werknemers ± € 530 | n.v.t. |\n| **PC + internet + smartphone + tablet** | PC: € 72/jaar; internet: € 60/jaar; smartphone: € 36/jaar (forfaits zoals 2024) | n.v.t. |\n| **Renteloze of laag rentende lening** | Verschil tussen referentierentevoet (KB/WIB) en effectief rentepercentage × leningbedrag | n.v.t. |\n| **Andere** | Werkelijke waarde verkrijger (art. 36 § 1) | n.v.t. |\n\n*Cijfers indicatief; voor aanslagjaar-correct bedragen → Cijferzakboekje of FOD-circulaire.*"
+          }
+        ]
+      },
+      {
+        "id": "bv-inhouding-vaa",
+        "naam": { "primair": "Bedrijfsvoorheffing op VAA — werkgever verantwoordelijk" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "VAA worden bij het belastbaar loon van de werknemer/bedrijfsleider gevoegd. De werkgever/vennootschap moet bedrijfsvoorheffing inhouden op het maandelijks fictief loon (geld-loon + VAA-forfait gedeeld per maand). Wordt het VAA pas op jaareinde gerapporteerd zonder maandelijkse inhouding, dan blijft de werkgever fiscaal aansprakelijk (art. 270 + 272 WIB92). Praktijk: sociaal secretariaat berekent maandelijks fictief totaalloon incl. VAA en houdt BV in.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 270, 272" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-aard",
+        "naam": { "primair": "Boekhoudkundige verwerking — kost naar aard (CBN-128/8)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "CBN-128/8 stelt dat kosten boekhoudkundig naar hun aard geboekt worden — niet naar fiscale kwalificatie. VAA-kosten verschijnen dus op klasse 6-rekeningen die hun aard weerspiegelen: autokosten op 6402, woning-onderhoud op 6131, energie op 6101, IT op 6112. De vennootschap meldt het belastbaar VAA-bedrag (forfait) op fiche 281.10/281.20, maar boekt geen specifieke 'VAA-rekening'. Uitzondering: privé-uitgaven die door de vennootschap definitief in plaats van de werknemer worden betaald → wel als 'Bezoldigingen' (rek. 620/618) boeken want het is materieel loon.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "id": "CBN-128/8", "naam": "CBN-advies 128/8", "ref": "Boeking van voordelen van alle aard", "datum": "1996" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "venb-impact-vaa",
+        "naam": { "primair": "Impact op VenB — verworpen uitgaven dubbele correctie" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In de vennootschap zijn VAA-kosten typisch 100 % geboekt in klasse 6. Fiscaal: (1) gewone aftrekbeperkingen blijven (autokosten CO2-formule art. 198bis, restaurant 31 % verwerpen art. 53-8°bis); (2) bovendien moet voor bepaalde VAA-types een bijkomende verworpen uitgave worden opgenomen — bv. 17 % van het VAA-auto-bedrag (of 40 % bij brandstofkostenvergoeding) als VU op code 1206 (art. 198 § 1, 9° WIB92).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 § 1, 9°" },
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1206" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verschil-vaa-vs-eigen-kosten",
+        "naam": { "primair": "VAA vs 'eigen kosten van de werkgever/vennootschap' (art. 32/1)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Niet elke vergoeding aan een werknemer/bedrijfsleider is een VAA. Wanneer de uitgave (representatie, telefoon, kantoor thuis) gemaakt wordt in opdracht van of in het belang van de werkgever/vennootschap, geldt zij als 'eigen kosten van de werkgever' (art. 32/1 WIB92). Gevolg: geen VAA bij verkrijger + aftrek bij vennootschap. Strikte voorwaarden: rechtvaardigend dossier (functieprofiel, kost-categorie), redelijke bedragen, in lijn met circulaire of ruling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32/1" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-vaa-auto-bedrijfsleider",
+        "titel": "Bedrijfsleider met bedrijfswagen — VAA-berekening + dubbele correctie",
+        "context": "BV stelt een wagen ter beschikking aan zaakvoerder. Cataloguswaarde € 35.000, CO2 110 g/km benzine, leeftijd 2 jaar. Jaarkost wagen (afschrijving + brandstof + onderhoud + verzekering) € 8.000.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "VAA-berekening (forfait KB/WIB):\n\n| Component | Berekening | Bedrag |\n|---|---|---|\n| Cataloguswaarde | | € 35.000 |\n| CO2-coëfficiënt (benzine 110 g): 5,5 % + (110 − 78) × 0,1 % = 5,5 % + 3,2 % = 8,7 % (capped op specifieke max) | indicatief — exacte tabel KB/WIB | 8,7 % |\n| Tussenfactor: catalwaarde × CO2-coëff. | 35.000 × 0,087 | 3.045 |\n| Leeftijdscorrectie (2 jaar in dienst): 94 % | 3.045 × 0,94 | 2.862 |\n| × 6/7 (eigen-bijdrage-impliciet) | 2.862 × 6/7 | **€ 2.453** VAA/jr |\n\n→ VAA wordt bij maandelijks loon gevoegd: € 2.453 / 12 ≈ € 205/maand op fiche 281.20."
+          },
+          {
+            "type": "berekening",
+            "tekst": "Vennootschap-impact (VenB):\n\n| Element | Berekening | Bedrag |\n|---|---|---|\n| Wagenkosten boekhoudkundig | | € 8.000 |\n| Aftrek CO2-formule art. 198bis (110 g → ± 90 % aftrek) | 8.000 × 0,90 | 7.200 |\n| Niet-aftrekbaar deel autokosten (code 1205) | 8.000 − 7.200 | **€ 800** VU |\n| VAA-correctie 17 % (geen brandstofkost-vergoeding) | 2.453 × 17 % | **€ 417** VU (code 1206) |\n| **Totaal verworpen uitgaven** | | **€ 1.217** |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 § 2, 198 § 1 9°, 198bis" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205, 1206" }
+          ]
+        }
+      },
+      {
+        "id": "vb-vaa-renteloze-lening",
+        "titel": "Renteloze lening van werkgever aan werknemer",
+        "context": "Werknemer krijgt van zijn vennootschap een renteloze lening van € 20.000 op 1 januari, terugbetaalbaar over 5 jaar. Referentierentevoet KB/WIB voor hypothecaire leningen 2024: 1,90 % (illustratief).",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "VAA-berekening:\n\n| Element | Berekening | Bedrag |\n|---|---|---|\n| Schuld saldo begin jaar | | € 20.000 |\n| Referentierentevoet (KB/WIB) | | 1,90 % |\n| Effectieve rentevoet (renteloos) | | 0 % |\n| VAA-jaar = (rente_ref − rente_eff) × saldo | (0,019 − 0) × 20.000 | **€ 380** |\n\nVoor jaar 1 wordt € 380 als VAA gevoegd bij loon werknemer. In volgende jaren neemt saldo af → VAA daalt. Boekhoudkundig: de lening staat op rekening 416 (Diverse vorderingen) — geen 6-kost — maar het belastbaar VAA wordt op de fiche 281.10 vermeld (CBN-128/8)."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boekingen bij toekenning lening + VAA:\n\n| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| 01/01 | 416 | Vordering op werknemer (lening) | 20.000 | |\n| 01/01 | | aan 5500 Bank | | 20.000 |\n| Maandelijks | (geen kost-boeking voor VAA) | VAA wordt op fiche aangegeven, niet als loon-kost geboekt | | |\n| 31/12 | (terugbetaling-tranche) | | | |\n| | 5500 | Bank | (afbetaling) | |\n| | | aan 416 | | (afbetaling) |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 § 1" },
+            { "type": "kb", "naam": "KB/WIB", "ref": "art. 18 § 3" },
+            { "type": "advies", "id": "CBN-128/8", "naam": "CBN-advies 128/8", "datum": "1996", "ref": "renteloze lening" }
+          ]
+        }
+      },
+      {
+        "id": "vb-vaa-pc-smartphone",
+        "titel": "Werknemer met laptop + smartphone + internet thuis",
+        "context": "Werknemer krijgt: laptop (vennootschap-eigen), smartphone met abonnement, vast internet thuis vergoed door werkgever.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "VAA per jaar (forfait KB/WIB):\n\n| Voordeel | Forfait |\n|---|---|\n| Laptop / PC | € 72,00 |\n| Smartphone (toestel + abonnement) | € 36,00 |\n| Internet thuis | € 60,00 |\n| **Totaal jaarlijks VAA** | **€ 168,00** |\n\n→ Maandelijks: € 14,00 bij loon gevoegd. Bedrijfsvoorheffing op loon + € 14 maandelijks; geen extra werkgevers-RSZ (PC/internet/smartphone vrijgesteld van werkgevers-RSZ binnen forfait)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB", "ref": "art. 18 § 3 — forfaits PC/communicatie" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "VAA ≠ patronale RSZ-vrij",
+        "verkeerde_assumptie": "Wat onder de VAA-forfait valt, is automatisch ook vrijgesteld van werkgevers-RSZ.",
+        "kernpunt": "VAA volgt in principe ook werkgevers-RSZ (patronale bijdrage ± 25 %). De RSZ-grondslag kan verschillen van de fiscale grondslag — bv. VAA-bedrijfswagen heeft een **CO2-solidariteitsbijdrage** apart, voorbij de gewone werkgevers-RSZ. Voor PC/internet/smartphone is in RSZ vaak een ruimere vrijstelling dan fiscaal. Conclusie: altijd RSZ-positie afzonderlijk verifiëren bij sociaal secretariaat.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "RSZ-fiscaal verschil bekend uit praktijk; geen wettekst in bundle" }
+          ]
+        }
+      },
+      {
+        "titel": "VAA-forfait is niet altijd het minimum",
+        "verkeerde_assumptie": "Wanneer een forfait bestaat, mag de werknemer altijd de forfaitaire raming gebruiken.",
+        "kernpunt": "Voor bedrijfswagen geldt een minimum-VAA (bv. € 1.600/jaar in aanslagjaar 2025). Wanneer de berekende formule een lager bedrag oplevert, wordt het minimum toegepast. Voor woning met onevenredig hoge marktwaarde-werkelijk vs. forfait kan de fiscus in uitzonderlijke gevallen werkelijke waarde toepassen (art. 36 § 1 als anti-misbruik).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36 § 1, § 2" }
+          ]
+        }
+      },
+      {
+        "titel": "Privé-uitgave betaald door werkgever ≠ VAA-forfait — wel volle loonkost",
+        "verkeerde_assumptie": "Wanneer de werkgever een privé-uitgave van de werknemer betaalt (bv. privé-vakantie), is dit een VAA-forfait.",
+        "kernpunt": "CBN-128/8 stelt expliciet: privé-uitgaven die normaliter door de werknemer zelf moeten worden gedragen, maar definitief door de onderneming in zijn plaats worden betaald, worden integraal als 'Bezoldigingen' (rek. 620/618) geboekt voor het volledige bedrag. Geen forfait — wel materiële loon. Voor een privé-reis € 5.000 = € 5.000 belastbaar loon.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "id": "CBN-128/8", "naam": "CBN-advies 128/8", "datum": "1996", "ref": "Privé-uitgaven definitief in plaats van werknemer" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "beroepsinkomen-pb"
-    },
-    {
-      "type": "bevat",
-      "target": "vaa-woning"
-    },
-    {
-      "type": "bevat",
-      "target": "vaa-pc-en-communicatie"
-    },
-    {
-      "type": "bevat",
-      "target": "vaa-renteloze-lening"
-    },
-    {
-      "type": "bevat",
-      "target": "vaa-verwarming-en-elektriciteit"
-    }
+    { "type": "valt_onder", "target": "beroepsinkomen-pb" },
+    { "type": "bevat", "target": "vaa-woning" },
+    { "type": "bevat", "target": "vaa-pc-en-communicatie" },
+    { "type": "bevat", "target": "vaa-renteloze-lening" },
+    { "type": "bevat", "target": "vaa-verwarming-en-elektriciteit" },
+    { "type": "bevat", "target": "autokosten" },
+    { "type": "triggert", "target": "bedrijfsvoorheffing" },
+    { "type": "triggert", "target": "verworpen-uitgaven" }
   ]
 }
