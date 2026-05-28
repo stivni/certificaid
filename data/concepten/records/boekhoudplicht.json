@@ -9,7 +9,7 @@
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -55,9 +55,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/boekhoudplicht.json",
+      "primary_bronnen": [
+        "WER art III.82, III.83, III.84, III.85, III.86, III.89",
+        "KB 21-10-2018 boekhoudkundige verplichtingen art 1, 2, 3",
+        "CBN-2019/09, CBN-2019/11, CBN-2019/12"
+      ]
     },
     "changelog": [
       {
@@ -66,50 +72,408 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — kern + bouwstenen drempels + voorbeelden + valkuilen op basis van WER + KB + CBN"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Boekhoudplicht** is de wettelijke verplichting voor een **boekhoudplichtige onderneming** (gedefinieerd in art. III.82 WER) om een **passende boekhouding** te voeren die al haar verrichtingen, bezittingen, rechten, vorderingen, schulden en verplichtingen omvat (art. III.83 WER). De boekhoudplicht treft alle ondernemingen in de zin van art. I.1 WER — natuurlijke personen met een zelfstandige beroepsactiviteit (inclusief vrije beroepen sinds 1 november 2018), alle rechtspersonen en organisaties zonder rechtspersoonlijkheid — met uitzondering van enkele specifieke categorieën (bestuurders-natuurlijke-personen, zuivere land- en tuinbouw, politieke partijen, en sport-/hobby-inkomsten van natuurlijke personen).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "wettekst",
+              "naam": "WER",
+              "ref": "art. III.82, § 1",
+              "context": "Opsomming boekhoudplichtige ondernemingen"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WER",
+              "ref": "art. III.83",
+              "context": "Boekhouding omvat alle verrichtingen, bezittingen, rechten, vorderingen, schulden en verplichtingen"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/09",
+              "ref": "2019/09",
+              "context": "Boekhoudplichtige onderneming — definitie + uitzonderingen + vrije beroepen sinds 01-11-2018"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De boekhoudplicht is **dé fundering** van het Belgische boekhoud- en jaarrekeningrecht. Twee regimes bestaan naast elkaar:\n\n1. **Dubbele boekhouding** (algemeen regime, art. III.84 WER) — verplicht voor alle kapitaalvennootschappen (BV, CV, NV, SE, SCE) ongeacht omzet, voor grote ondernemingen, voor (grote) VZW's/stichtingen, en voor elke onderneming die niet voldoet aan de vereenvoudigde-boekhoudings-voorwaarden;\n2. **Vereenvoudigde boekhouding** (uitzonderingsregime, art. III.85 WER + art. 1 KB 21-10-2018) — beperkt tot natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF en CommV, mét omzet ≤ **500.000 EUR** (excl. btw) over het laatste boekjaar — drempel **620.000 EUR** voor brandstoffenkleinhandel. Onder dit regime volstaan **drie dagboeken**: financieel dagboek, aankoopboek en verkoopboek, gekoppeld aan een jaarlijkse inventaris.\n\nVoor VZW's, IVZW's en stichtingen geldt een **eigen drempel-set** (CBN 2019/12): vereenvoudigde boekhouding is mogelijk wanneer niet méér dan één van vier criteria wordt overschreden (jaargemiddelde 5 werknemers · 334.500 EUR niet-recurrente ontvangsten · 1.337.000 EUR bezittingen · 1.337.000 EUR schulden).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WER",
+              "ref": "art. III.84",
+              "context": "Algemeen regime — dubbele boekhouding"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WER",
+              "ref": "art. III.85, § 1",
+              "context": "Uitzonderings-regime — vereenvoudigde boekhouding voor bep. ondernemingen onder drempel"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 boekhoudkundige verplichtingen",
+              "ref": "art. 1",
+              "context": "Drempel vereenvoudigde boekhouding: 500.000 EUR omzet (620.000 EUR voor brandstoffenkleinhandel)"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/11",
+              "ref": "2019/11",
+              "context": "Beoogde personen vereenvoudigde boekhouding: natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF, CommV — kapitaalvennootschappen steeds dubbel"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12",
+              "context": "Groottecriteria VZW/stichting: jaargemiddelde 5 werknemers / 334.500 EUR ontvangsten / 1.337.000 EUR bezittingen / 1.337.000 EUR schulden"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De boekhoudplicht bestaat omdat het **economisch verkeer** vereist dat ondernemingen op een **gestructureerde, controleerbare en publiek toetsbare** manier rekenschap geven van hun vermogenstoestand — niet enkel aan zichzelf, maar aan **derden die rechten op de onderneming laten gelden**: schuldeisers, aandeelhouders, werknemers, sociale zekerheid en fiscus. De Wet van 15 april 2018 heeft het toepassingsgebied uitgebreid van louter handelaren naar **alle ondernemingen** (inclusief vrije beroepen) — passend in een economie waar het oude onderscheid handelaar/niet-handelaar achterhaald was. Het duale regime (dubbel vs. vereenvoudigd) **schaalt de last aan de omvang**: kleine zelfstandigen en vennootschappen zonder afgescheiden vermogen (VOF, CommV) krijgen een lichter regime, maar elke kapitaalvennootschap (waar derden hun verhaal beperkt is) moet steeds een volledige dubbele boekhouding voeren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/09",
+              "ref": "2019/09",
+              "context": "Wet 15-04-2018 — uitbreiding boekhoudplicht naar vrije beroepen + ruime overgangsperiode tot 01-11-2018"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/11",
+              "ref": "2019/11",
+              "context": "Kapitaalvennootschappen (BV, CV, NV, SE, SCE) altijd dubbele boekhouding — ongeacht omzet"
             }
           ]
         }
       }
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2018-11-01",
+        "wettelijke_basis": "Wet 15-04-2018 hervorming ondernemingsrecht (uitbreiding) + WER Boek III Titel 3 + KB 21-10-2018",
+        "toelichting": "Het huidige toepassingsgebied (incl. vrije beroepen) is in werking sinds 1 november 2018; voor bestaande organisaties die op die datum nieuw boekhoudplichtig werden, gold een overgangsperiode."
+      },
+      "voor": [
+        {
+          "tekst": "Voor elke **boekhoudplichtige onderneming** in de zin van art. III.82 WER — d.w.z. iedere natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent (inclusief vrije beroepen sinds 01-11-2018), iedere rechtspersoon naar Belgisch recht, elke organisatie zonder rechtspersoonlijkheid die wel een onderneming is, en buitenlandse ondernemingen met een Belgisch bijkantoor.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WER",
+                "ref": "art. III.82, § 1",
+                "context": "Opsomming boekhoudplichtige ondernemingen"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Niet** boekhoudplichtig (art. III.82, § 1, tweede lid WER): (1) natuurlijke personen wiens zelfstandige beroepsactiviteit louter bestaat uit het uitoefenen van **bestuursmandaten**; (2) ondernemingen die uitsluitend een **land- of tuinbouwbedrijf** exploiteren, behalve wanneer ze in de vennootschapsbelasting belast worden; (3) verenigingen/stichtingen onderworpen aan minstens gelijkwaardige bijzondere boekhoudregels; (4) politieke-partij-verenigingen onder de wet van 4 juli 1989; (5) natuurlijke personen met diverse-inkomsten-activiteit (art. 90, 1°bis WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WER",
+                "ref": "art. III.82, § 1, tweede lid",
+                "context": "Uitzonderingen op boekhoudplicht — vijf categorieën"
+              }
+            ]
+          }
+        }
+      ]
+    },
     "bouwstenen": [
       {
-        "id": "vereenvoudigde-boekhouding-drempel",
+        "id": "drempel-vereenvoudigde-boekhouding-onderneming",
         "naam": {
-          "primair": "Vereenvoudigde boekhouding — drempel + voorwaarden (art III.85)"
+          "primair": "Drempel vereenvoudigde boekhouding — onderneming (500.000 EUR)"
         },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Een natuurlijke persoon, organisatie zonder rechtspersoonlijkheid, VOF of CommV mag een **vereenvoudigde boekhouding** voeren wanneer de omzet (excl. btw) over het laatste boekjaar **niet hoger is dan 500.000 EUR** (art. 1 KB 21-10-2018). De drempel wordt op **620.000 EUR** gebracht voor ondernemingen wier voornaamste activiteit bestaat uit de kleinhandel in gasvormige of vloeibare koolwaterstoffen voor motorvoertuigen (tankstations). Bij overschrijding van de drempel moet vanaf het volgende boekjaar overgeschakeld worden naar een volledige dubbele boekhouding.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
                 {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 boekhoudkundige verplichtingen",
+                  "ref": "art. 1",
+                  "context": "500.000 EUR omzet-drempel; 620.000 EUR voor brandstoffenkleinhandel"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WER",
+                  "ref": "art. III.85, § 1",
+                  "context": "Wettelijke basis vereenvoudigde boekhouding"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "**Belangrijk**: kapitaalvennootschappen (**BV, CV, NV, SE, SCE**) komen **nooit** in aanmerking voor vereenvoudigde boekhouding, **ongeacht hun omzet**. Voor hen is dubbele boekhouding altijd verplicht. Een **startersjaar-regeling** (art. 3 KB 21-10-2018) staat toe dat een startende VOF of CommV in zijn eerste boekjaar al van het vereenvoudigde regime gebruikmaakt, voor zover **uit te goeder trouw opgemaakte vooruitzichten** blijkt dat de drempel niet zal worden overschreden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/11",
+                  "ref": "2019/11",
+                  "context": "Kapitaalvennootschappen altijd dubbel"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018",
+                  "ref": "art. 3",
+                  "context": "Startersjaar-regeling voor VOF en CommV"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-vereenvoudigde-boekhouding-vzw",
+        "naam": {
+          "primair": "Drempel vereenvoudigde boekhouding — VZW/stichting"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een kleine vzw, ivzw of stichting (inclusief micro-vzw's) mag een **vereenvoudigde boekhouding** voeren wanneer ze op balansdatum van het laatste afgesloten boekjaar **niet meer dan één** van de volgende vier criteria overschrijdt:\n\n1. **Jaargemiddelde van 5 werknemers** (in voltijdsequivalenten);\n2. **334.500 EUR** aan andere dan niet-recurrente ontvangsten (excl. btw);\n3. **1.337.000 EUR** aan bezittingen;\n4. **1.337.000 EUR** aan schulden.\n\nHet bestuursorgaan licht deze optie **jaarlijks** — een vzw kan dus van jaar tot jaar wisselen tussen vereenvoudigd en dubbel naargelang de criteria. Een vzw die meer dan één drempel overschrijdt **moet** dubbele boekhouding voeren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2019/12",
+                  "ref": "2019/12",
+                  "context": "Vier criteria + één-mag-worden-overschreden-regel + jaarlijkse keuze"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-boekhouding-vereisten",
+        "naam": {
+          "primair": "Wettelijke vereisten — wat moet de boekhouding bevatten?"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke boekhoudplichtige onderneming moet een **passende boekhouding** voeren die alle verrichtingen, bezittingen, rechten, vorderingen, schulden en verplichtingen omvat (art. III.83 WER). Onder het regime van de **dubbele boekhouding** (art. III.84) houdt dit concreet in:\n\n1. **Chronologische dagboeken** — financieel dagboek (kas, bank, post), aankoopboek, verkoopboek + eventueel hulpdagboeken;\n2. **Grootboek** — alle rekeningen volgens het **Minimum Algemeen Rekeningstelsel (MAR)** (KB 12-09-1983);\n3. **Inventaris** — minstens eenmaal per jaar, omzichtig en te goeder trouw, op een door de onderneming gekozen datum (art. III.89 WER);\n4. **Inventarisboek** waarin de inventarisstukken worden ingeschreven;\n5. **Jaarrekening** — opgemaakt vanuit de inventaris.\n\nOnder de **vereenvoudigde boekhouding** (art. III.85) volstaan **drie dagboeken** (financieel · aankoop · verkoop) + jaarlijkse inventaris — geen verplicht rekeningenstelsel, geen klassieke balans/resultatenrekening volgens MAR.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WER",
+                  "ref": "art. III.83",
+                  "context": "Boekhouding omvat alle verrichtingen + vermogensbestanddelen"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WER",
+                  "ref": "art. III.89, § 1",
+                  "context": "Verplichting jaarlijkse inventaris — opmaak in een boek"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WER",
+                  "ref": "art. III.85, § 1",
+                  "context": "Vereenvoudigde boekhouding — drie dagboeken zonder rekeningenstelsel"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 7/4",
+                  "ref": "7/4",
+                  "context": "Inventaris als verantwoordingsstuk voor de jaarrekening"
                 }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Startende BV — altijd dubbele boekhouding",
+        "context": "Zelena Bio BV wordt opgericht in maart 2026 met een verwachte omzet van 80.000 EUR in het eerste boekjaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/11",
+              "ref": "2019/11",
+              "context": "BV altijd dubbele boekhouding ongeacht omzet"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "VZW \"Eco-Buurt\" — drempel-toetsing",
+        "context": "Vzw met 3 VTE werknemers, 250.000 EUR contributies en subsidies, 800.000 EUR bezittingen en 750.000 EUR schulden. Toetsing per criterium: werknemers 3 ≤ 5 OK · ontvangsten 250.000 ≤ 334.500 OK · bezittingen 800.000 ≤ 1.337.000 OK · schulden 750.000 ≤ 1.337.000 OK. Geen enkele drempel overschreden — de vzw mag **vereenvoudigde boekhouding** voeren. Het bestuursorgaan moet wel jaarlijks bevestigen dat de optie wordt gelicht.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12",
+              "context": "Toetsing groottecriteria vzw"
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vrije beroepen vergeten",
+        "verkeerde_assumptie": "Een dokter, advocaat of architect hoeft geen WER-boekhouding te voeren — die heeft een eigen regime.",
+        "kernpunt": "Sinds 1 november 2018 (Wet 15-04-2018) zijn vrije beroepen **wel** boekhoudplichtige ondernemingen. Ze vallen onder dezelfde regels als andere natuurlijke personen-zelfstandigen: dubbele boekhouding tenzij omzet ≤ 500.000 EUR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/09",
+              "ref": "2019/09",
+              "context": "Wet 15-04-2018 — vrije beroepen voortaan boekhoudplichtig"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "BV verwarren met VOF/CommV qua boekhoudregime",
+        "verkeerde_assumptie": "Een kleine BV met lage omzet mag toch vereenvoudigde boekhouding voeren — net als een VOF.",
+        "kernpunt": "Het criterium is **rechtsvorm**, niet omzet. BV, CV, NV, SE en SCE moeten **altijd** dubbele boekhouding voeren, ongeacht hoe klein hun omzet is. Alleen natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF en CommV kunnen onder de 500.000-EUR-drempel kiezen voor vereenvoudigd.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/11",
+              "ref": "2019/11",
+              "context": "Rechtsvorm-eerst-test"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "VZW-drempels verwarren met vennootschapsdrempels",
+        "verkeerde_assumptie": "Voor een vzw zijn de groottedrempels dezelfde als voor een vennootschap (50 VTE, 11.250.000 EUR omzet, 6.000.000 EUR balanstotaal).",
+        "kernpunt": "Voor VZW/stichtingen gelden **eigen, lagere drempels** (CBN 2019/12): 5 werknemers · 334.500 EUR ontvangsten · 1.337.000 EUR bezittingen · 1.337.000 EUR schulden. Bovendien is de vraag bij een vzw: vereenvoudigd vs. dubbel **boekhouden** — niet welk jaarrekeningschema.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2019/12",
+              "ref": "2019/12",
+              "context": "Aparte drempels voor verenigingen"
+            }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — accountant bij intake nieuwe cliënt"
+      },
+      "intro": "De accountant moet bij elke nieuwe cliënt onmiddellijk vaststellen welk boekhoudregime van toepassing is — dit bepaalt de inrichting van de boekhouding, het te leveren werk en de aansprakelijkheid.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "regime-bepaling-checklist",
+              "naam": {
+                "primair": "Beslisboom: welk boekhoudregime?"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Stap 1**: bepaal de **rechtsvorm**. BV/CV/NV/SE/SCE? → dubbele boekhouding, einde discussie.\n**Stap 2**: vzw/ivzw/stichting? → toets de **vier CBN 2019/12-criteria** (5 VTE · 334.500 EUR ontvangsten · 1.337.000 EUR bezittingen · 1.337.000 EUR schulden). Meer dan één overschreden? → dubbel.\n**Stap 3**: natuurlijke persoon, organisatie zonder rechtspersoonlijkheid, VOF of CommV? → toets de **omzet-drempel** (500.000 EUR; 620.000 EUR voor brandstoffenkleinhandel). Onder drempel? → vereenvoudigd toegestaan. Boven? → dubbel.\n**Stap 4**: check de **uitzonderingen** op de boekhoudplicht zelf (zuivere land-/tuinbouw zonder VenB, bestuurder-natuurlijk-persoon, ...) — zo nee, ben je sowieso niet boekhoudplichtig.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "cbn",
+                        "naam": "CBN-adviezen 2019/09 + 2019/11 + 2019/12",
+                        "ref": "2019/09, 2019/11, 2019/12",
+                        "context": "Synthese drie CBN-adviezen tot praktische beslisboom"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "overgang-vereenvoudigd-naar-dubbel",
+              "naam": {
+                "primair": "Begeleiding overgang vereenvoudigd naar dubbel"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een cliënt de drempel overschrijdt, moet vanaf het **volgende boekjaar** een dubbele boekhouding worden gevoerd. Praktisch: (1) MAR-rekeningenstelsel inrichten en openen met de eindsaldi uit de inventaris van het laatste vereenvoudigde boekjaar als **beginbalans**; (2) waarderingsregels formeel vastleggen in een waarderingsregelement; (3) de cliënt waarschuwen voor de bijkomende administratieve last (grootboek, gedetailleerde toelichting bij jaarrekening, mogelijk neerleggingsplicht).",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-28",
+                        "context": "Praktijk-redenering uit drempelregels — geen directe bron"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -118,6 +482,10 @@
     {
       "type": "vereist",
       "target": "dubbele-boekhouding"
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekening"
     }
   ]
 }

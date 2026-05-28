@@ -2,21 +2,14 @@
   "id": "gezamenlijke-regelingen",
   "naam": {
     "primair": "Gezamenlijke regelingen (IFRS 11)",
-    "synoniemen": [
-      "joint arrangements",
-      "joint operations en joint ventures"
-    ]
+    "synoniemen": ["joint arrangements", "joint operations en joint ventures"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.4.II.A"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.4.II.A"],
     "scope": {
       "in": [
         "IFRS 11 — joint arrangements",
@@ -25,54 +18,231 @@
         "Boekhoudkundige verwerking per type"
       ],
       "out": [
-        {
-          "topic": "Consolidatiemethoden Σ (vermogensmutatie voor joint ventures)",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatiemethoden"
-        },
-        {
-          "topic": "Evenredige consolidatie (B-GAAP-equivalent)",
-          "richting": "moet-verwijzen",
-          "ref": "evenredige-consolidatie"
-        }
+        {"topic": "Consolidatiemethoden Σ (vermogensmutatie voor joint ventures)", "richting": "moet-verwijzen", "ref": "consolidatiemethoden"},
+        {"topic": "Evenredige consolidatie (B-GAAP-equivalent)", "richting": "moet-verwijzen", "ref": "evenredige-consolidatie"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/gezamenlijke-regelingen.json",
+      "primary_bronnen": ["IFRS 11", "IAS 28", "CBN-advies 179/1", "CBN-advies 3/3"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld uit bundle: IFRS 11 + IAS 28 + CBN 3/3 (TV-equivalent BE-GAAP)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een gezamenlijke regeling (joint arrangement, IFRS 11) is een contractuele afspraak waarbij twee of meer partijen samen de controle over een activiteit uitoefenen — geen enkele partij controleert alleen, maar beslissingen over de relevante activiteiten vereisen de unanieme instemming van de controlerende partijen. IFRS 11 onderscheidt twee soorten: (1) joint operation — de partijen hebben directe rechten op de activa en verplichtingen voor de schulden van de regeling; (2) joint venture — de partijen hebben rechten op de netto-activa (een aparte entiteit met afgescheiden vermogen).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De keuze-as 'rechten op activa+verplichtingen' versus 'rechten op netto-activa' bepaalt de boekhoudkundige verwerking. Bij een joint operation boekt elke partij haar pro-rata-aandeel in elk actief, elke verplichting, elke opbrengst en kost (regel-per-regel, vergelijkbaar met evenredige consolidatie onder BE-GAAP). Bij een joint venture is er een afgescheiden vehicle met eigen rechtspersoonlijkheid en vermogen — de partner houdt zijn belang aan via de vermogensmutatiemethode (één-regel-deelneming met aandeel in resultaat). Sinds IFRS 11 (2013) is evenredige consolidatie voor JV's niet meer toegelaten onder IFRS — verplicht VMM. Onder BE-GAAP (KB WVV art. 3:140) blijft evenredige consolidatie de regel voor gemeenschappelijke dochterondernemingen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 16, 24"},
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:140"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: de juridische vorm (afgescheiden vehicle of niet) is niet doorslaggevend — wel de economische substantie: wat zijn de rechten en verplichtingen van de partners? Bij een joint operation dragen partners hun aandeel van de risico's en lasten rechtstreeks; bij een joint venture is hun blootstelling beperkt tot het eigen vermogen van de aparte entiteit. IFRS 11 verving IAS 31 om deze substance-over-form-benadering te versterken en de keuze tussen evenredige consolidatie en VMM voor JV's af te schaffen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 Basis for Conclusions"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer IFRS 11"}
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["consolidatiekring", "controle-vennootschap"],
+      "kader": "consolidatiemethoden",
+      "naast_relevant": ["vermogensmutatiemethode", "evenredige-consolidatie", "integrale-consolidatie"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "IFRS 11 (Verordening (EU) 2023/1803) — verplicht voor beursgenoteerde groepen sinds boekjaar 2013; BE-GAAP-equivalent in art. 3:140 KB WVV (evenredige consolidatie)",
+        "toelichting": "IFRS 11 trad in werking voor boekjaren vanaf 1 januari 2013; verving IAS 31 (Belangen in joint ventures). Onder BE-GAAP geldt nog steeds het oudere model van 'gemeenschappelijke dochterondernemingen' met evenredige consolidatie (art. 3:140)."
+      },
+      "voor": [
+        {"tekst": "Toepasselijk bij elke contractuele afspraak waarbij twee of meer partijen samen controle uitoefenen — niet alleen formele JV-vennootschappen, ook contractuele consortia, tijdelijke handelsvennootschappen (TV's), en niet-geïncorporeerde samenwerkingsverbanden.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 4-5"}, {"type": "cbn", "naam": "CBN-advies", "ref": "3/3"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Niet toepasselijk wanneer één partij eenzijdig de controle uitoefent (= dochter, IFRS 10 → integrale consolidatie) of wanneer er enkel notabele invloed is zonder gezamenlijke controle (= associate, IAS 28 → VMM).",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 7-8"}]}}
+      ],
+      "voorwaarden": [
+        {"tekst": "Cumulatief vereist: (1) een contractuele afspraak (statuten, samenwerkingsovereenkomst, aandeelhoudersovereenkomst); (2) gezamenlijke controle — beslissingen over relevante activiteiten vereisen unanieme instemming van de controlerende partijen; (3) een gedefinieerde activiteit waarop die controle slaat.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 5-7"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "joint-operation",
+        "naam": {"primair": "Joint operation", "vertaling": {"fr": "activité conjointe"}},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een gezamenlijke regeling waarbij de partijen rechten hebben op de activa en verplichtingen voor de schulden van de regeling. Geen afgescheiden vehicle, óf wel een vehicle maar de juridische/contractuele vorm geeft de partners directe rechten op de activa en directe verplichtingen voor de schulden. Voorbeeld: twee oliemaatschappijen die een gezamenlijk pijpleiding-project exploiteren — elk gebruikt en bezit haar deel van de pijpleiding.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 15, B14-B33"}]}
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "boekhoudkundige-verwerking-jo",
+              "naam": {"primair": "Boekhoudkundige verwerking joint operation"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Elke joint operator boekt regel-per-regel (alinea 20 IFRS 11): (a) zijn activa, inclusief zijn aandeel in gezamenlijk aangehouden activa; (b) zijn verplichtingen, inclusief zijn aandeel in gezamenlijk aangegane schulden; (c) zijn opbrengsten uit de verkoop van zijn aandeel van de output; (d) zijn aandeel in opbrengsten uit gezamenlijke verkoop van output; (e) zijn kosten, inclusief zijn aandeel in gezamenlijke kosten.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 20"}]}
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "joint-venture",
+        "naam": {"primair": "Joint venture", "vertaling": {"fr": "co-entreprise"}},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een gezamenlijke regeling waarbij de partijen (joint venturers) rechten hebben op de netto-activa van de regeling. Vereist een afgescheiden vehicle (separate vehicle) met eigen rechtspersoonlijkheid, waarbij noch de juridische vorm noch de contractuele bepalingen de partijen directe rechten geven op activa of directe verplichtingen voor schulden. Voorbeeld: twee farmaceutische bedrijven richten een aparte NV op om samen een R&D-platform te exploiteren — ze bezitten aandelen in de NV.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 16, B19-B27"}]}
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "boekhoudkundige-verwerking-jv",
+              "naam": {"primair": "Boekhoudkundige verwerking joint venture — VMM"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Elke joint venturer boekt zijn belang in de JV via de vermogensmutatiemethode (IAS 28), tenzij vrijstellingen gelden (bv. een investeringsmaatschappij die belegt voor IFRS 9-waardering tegen reële waarde). Eén regel in de balans ('Belang in JV'), één regel in resultatenrekening ('Aandeel in resultaat JV'). Geen integrale of evenredige opname meer.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 24"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 28"}]}
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "beslisboom-classificatie",
+        "naam": {"primair": "Beslisboom classificatie joint arrangement"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Stappen voor classificatie (IFRS 11 alinea B14-B33): Stap 1 — is er een separate vehicle? Nee → joint operation. Ja → ga naar stap 2. Stap 2 — geeft de juridische vorm van de vehicle de partijen directe rechten op activa en directe verplichtingen voor schulden? Ja → joint operation. Nee → ga naar stap 3. Stap 3 — geven de contractuele bepalingen die directe rechten/verplichtingen? Ja → joint operation. Nee → ga naar stap 4. Stap 4 — wijzen andere feiten en omstandigheden (bv. quasi-totaal van output afnemen tegen kostprijs) op directe blootstelling aan activa/schulden? Ja → joint operation. Nee → joint venture.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 B14-B33"}]}
+          }
+        },
+        "weergaven": [
+          {
+            "type": "beslisboom",
+            "titel": "Classificatie joint arrangement",
+            "tekst": "```mermaid\nflowchart TD\n  A[Joint arrangement] --> B{Separate vehicle?}\n  B -->|Nee| JO[Joint operation]\n  B -->|Ja| C{Juridische vorm geeft directe rechten/verplichtingen?}\n  C -->|Ja| JO\n  C -->|Nee| D{Contractuele bepalingen geven die?}\n  D -->|Ja| JO\n  D -->|Nee| E{Andere feiten + omstandigheden?}\n  E -->|Ja| JO\n  E -->|Nee| JV[Joint venture — VMM]\n```"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Joint venture = aparte vennootschap = altijd VMM (onder IFRS, niet onder BE-GAAP)",
+        "verkeerde_assumptie": "Een gemeenschappelijke dochteronderneming wordt evenredig geconsolideerd, ongeacht het referentiestelsel.",
+        "kernpunt": "Sinds IFRS 11 (2013) is evenredige consolidatie voor JV's onder IFRS afgeschaft — verplicht VMM. Onder BE-GAAP (KB WVV art. 3:140) blijft evenredige consolidatie wel de regel. Bij dual-rapportering BE-GAAP/IFRS: dezelfde JV krijgt twee verschillende verwerkingen.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 24"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:140"}]}
+      },
+      {
+        "titel": "Separate vehicle automatisch = joint venture",
+        "verkeerde_assumptie": "Een aparte rechtspersoon → altijd joint venture → VMM.",
+        "kernpunt": "Niet automatisch. Een vehicle waarvan de juridische of contractuele vorm de partners directe rechten geeft op de activa en directe verplichtingen voor de schulden, is een joint operation — ook al is er een afgescheiden vennootschap. De substance bepaalt, niet de form (alinea B22-B27 IFRS 11).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 B22-B27"}]}
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "BE-GAAP vs IFRS — verschillende verwerking JV",
+        "opties": [
+          {"keuze": "BE-GAAP (art. 3:140 KB WVV) — evenredige consolidatie voor gemeenschappelijke dochterondernemingen", "voordeel": "Behoud zicht op pro rata activa/schulden", "nadeel": "Niet IFRS-conform — dubbele rapportering bij beursgenoteerde dochter"},
+          {"keuze": "IFRS 11 — VMM voor joint ventures, regel-per-regel voor joint operations", "voordeel": "Substance-over-form; één regel-presentatie reflecteert beperkte aansprakelijkheid in JV-vehicle", "nadeel": "Verlies zicht op individuele activa/schulden JV in groepsbalans"}
+        ],
+        "vuistregel": "Voor BE-GAAP-rapportering: behoud evenredige consolidatie voor gemeenschappelijke dochters. Voor IFRS-rapportering (beursgenoteerde groep): classificeren als JO of JV → verwerking volgt vanzelf.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:140"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "joint-partner",
+      "naam": {"primair": "Joint partner (deelnemer in JV/JO)"},
+      "intro": "De accountant van een vennootschap die deelneemt in een gezamenlijke regeling.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "classificatie-bij-aanvang",
+              "naam": {"primair": "Classificatie bij aanvang regeling"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij aanvang van elke nieuwe samenwerking: analyseer (1) bestaat er gezamenlijke controle? (2) is er een separate vehicle? (3) wat zeggen statuten + contractuele afspraken over rechten op activa en verplichtingen voor schulden? Documenteer de classificatie joint operation vs joint venture grondig — beïnvloedt alle volgende boekingen. Herclassificeer bij wijziging van contractuele afspraken of feiten/omstandigheden.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 17-19 + B14-B33"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard IFRS 11 toepassingsanalyse"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-classificatie-jo-jv",
+              "naam": {"primair": "Audit classificatie JO/JV"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controleer of de classificatie consistent is met de juridische vorm én de contractuele realiteit. Lees de samenwerkingsovereenkomst, statuten van het vehicle, en governance-bepalingen. Vraag bevestiging van significant judgements (toelichting IFRS 12 par. 7) — vooral bij borderline-gevallen waar feiten en omstandigheden de doorslag geven.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 par. 7"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 11 alinea 17"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "geconsolideerde-jaarrekening"},
+    {"type": "vereist", "target": "controle-vennootschap", "toelichting": "Vereist gezamenlijke controle (joint control) — geen unilaterale controle (anders dochter) en geen pure invloed (anders associate)."},
+    {"type": "triggert", "target": "vermogensmutatiemethode", "toelichting": "Joint ventures onder IFRS 11 → verplicht VMM (IAS 28)."},
+    {"type": "vergelijkbaar_met", "target": "evenredige-consolidatie",
+      "gelijkenissen": ["Beide behandelen gezamenlijk gecontroleerde activiteiten", "Beide leiden tot regel-per-regel-opname bij joint operations"],
+      "verschillen": ["IFRS 11: joint operation → regel-per-regel; joint venture → VMM (één regel)", "BE-GAAP (art. 3:140): alle gemeenschappelijke dochters → evenredige consolidatie (regel-per-regel pro rata)", "IFRS 11 substance-based; BE-GAAP form-based"],
+      "verwarring_risico": "Studenten denken dat 'gemeenschappelijke onderneming = evenredige consolidatie' altijd — terwijl IFRS dit sinds 2013 niet meer kent voor JV's.",
+      "render_hint": "als_keuze"
     }
   ]
 }
