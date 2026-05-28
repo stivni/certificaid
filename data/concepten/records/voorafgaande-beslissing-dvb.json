@@ -2,28 +2,28 @@
   "id": "voorafgaande-beslissing-dvb",
   "naam": {
     "primair": "Voorafgaande beslissing (DVB)",
-    "synoniemen": [
-      "DVB-ruling",
-      "ruling"
-    ],
-    "afkorting": "DVB"
+    "afkorting": "DVB",
+    "synoniemen": ["ruling", "fiscale ruling", "rulingcommissie"],
+    "vertaling": { "fr": "décision anticipée (SDA)" }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling",
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.5.VIII",
-      "2.1.IX"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling", "gebeurtenis"],
+    "ankers": ["2.5.VIII", "2.1.IX"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/voorafgaande-beslissing-dvb.json",
+      "primary_bronnen": [
+        "Wet 24 december 2002 art. 20-28 (Dienst Voorafgaande Beslissingen)",
+        "KB 17 januari 2003 (uitvoering rulingprocedure)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,6 +32,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (Wet 24-12-2002 art. 20-28)."
       }
     ],
     "scope": {
@@ -42,40 +49,183 @@
         "Bindende werking voor administratie + grenzen aan rulings"
       ],
       "out": [
-        {
-          "topic": "AAMB als beperking van rulings",
-          "richting": "mag-verwijzen",
-          "ref": "algemene-anti-misbruik-bepaling"
-        },
-        {
-          "topic": "Fiscale beginselen (legaliteit · gelijkheid)",
-          "richting": "mag-verwijzen",
-          "ref": "fiscale-beginselen"
-        }
+        { "topic": "AAMB als beperking van rulings", "richting": "mag-verwijzen", "ref": "algemene-anti-misbruik-bepaling" },
+        { "topic": "Fiscale beginselen (legaliteit · gelijkheid)", "richting": "mag-verwijzen", "ref": "fiscale-beginselen" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "Een voorafgaande beslissing (in de praktijk 'ruling' genoemd) is een schriftelijke beslissing van de federale Dienst Voorafgaande Beslissingen (DVB) waarin de fiscus zich bindt over de fiscale gevolgen van een door de belastingplichtige voorgenomen verrichting. Het systeem is geregeld in art. 20-28 van de Wet van 24 december 2002 (programmawet) en het KB van 17 januari 2003. De beslissing geldt typisch 5 jaar (verlengbaar) zolang de feitelijke en juridische context onveranderd blijft.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 20-28" },
+            { "type": "kb", "naam": "KB 17 januari 2003", "ref": "uitvoering rulingprocedure" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch wordt een ruling aangevraagd vóór een transactie van enige omvang of complexiteit: herstructurering (fusie, splitsing, partiële inbreng), grensoverschrijdende holding, octrooi-inkomsten, tax shelter, beroepsmatige terbeschikkingstelling van vastgoed. De aanvraag start met een pre-filing (vrijblijvende verkenning, anoniem mogelijk) en mondt na onderhandeling uit in een gemotiveerde beslissing. Eens uitgereikt bindt de ruling de fiscus, op voorwaarde dat de verrichting reëel uitgevoerd wordt zoals beschreven.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 23" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-typische ruling-onderwerpen" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De DVB werd opgericht om rechtszekerheid te bieden in een steeds complexere fiscale wetgeving. Belastingplichtigen (en buitenlandse investeerders) willen vooraf weten welke fiscale gevolgen een transactie heeft. Voor de overheid is het ruling-systeem een instrument om grote investeringen aan te trekken (tax shelter, holding-regimes, ...) en om aggressieve fiscale planning vroeg te detecteren. Het verbod om over zuiver hypothetische gevallen te beslissen of voor reeds uitgevoerde verrichtingen voorkomt misbruik.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese DVB" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["fiscaal-recht"],
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["anti-misbruik", "fiscale-beginselen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Wet 24 december 2002 art. 20-28 + KB 17 januari 2003",
+        "toelichting": "Stabiel sinds 2003. Sinds 2017 strengere transparantie (publicatie geanonimiseerde rulings) onder druk van Europa (BEPS-context)."
+      },
+      "voor": [
+        {
+          "tekst": "Voorgenomen verrichting (vóór uitvoering) waarover er fiscale onzekerheid bestaat. Klassieke onderwerpen: fusie/splitsing (belastingneutraliteit), inbreng in natura, holding-structuren, vastgoed-belegging via vennootschap, tax shelter, octrooi-inkomsten, transfer pricing.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Typische DVB-praktijk" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Reeds uitgevoerde verrichtingen (de DVB beslist NIET retroactief); zaken die in een lopend bezwaar of geschil zitten; zuiver hypothetische vragen zonder concrete plannen; vragen die enkel een nationale wet interpreteren zonder feitelijke context (art. 22 Wet 24-12-2002).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 22" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Rechtszekerheid vooraf — de fiscus kan later niet meer terugkomen op de beslissing zolang de feitelijke context klopt. Vermijden van langdurige procedures achteraf. Voor grensoverschrijdende structuren: een geldige Belgische ruling vergroot het comfort van buitenlandse partners.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 23" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoordeel" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "verloop",
+        "naam": { "primair": "Verloop van de procedure" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "(1) Pre-filing — vrijblijvend (eventueel anoniem) verkennend gesprek met DVB-team. (2) Schriftelijke aanvraag met feiten + voorgenomen verrichting + fiscale vragen. (3) Behandeling door DVB-team van 3 leden (gespecialiseerd per materie). (4) Onderhandeling — bijsturing van de verrichting kan voorgesteld worden om binnen de wet te blijven. (5) Schriftelijke gemotiveerde beslissing binnen 3 maanden (verlengbaar). (6) Geanonimiseerde publicatie op fisconetplus.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 21-23" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geldigheidsduur",
+        "naam": { "primair": "Geldigheidsduur (5 jaar)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een voorafgaande beslissing geldt typisch 5 jaar (art. 23 Wet 24-12-2002), tenzij anders bepaald — verlengbaar op gemotiveerde aanvraag. De geldigheid eindigt vroeger indien (a) de feitelijke context wijzigt, (b) de wetgeving wijzigt, of (c) blijkt dat de beslissing op onvolledige/onjuiste informatie steunde.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 23" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bindende-werking",
+        "naam": { "primair": "Bindende werking" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Eens uitgereikt bindt de beslissing de fiscale administratie (art. 23 §1 Wet 24-12-2002): de aanslagdienst mag niet afwijken van de ruling-uitspraak. Voorwaarde: de feitelijke uitvoering komt overeen met wat in de aanvraag werd beschreven. De belastingplichtige is NIET gebonden: hij kan afzien van de verrichting of er anders mee omgaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 23" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grenzen-rulings",
+        "naam": { "primair": "Grenzen aan rulings" },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "DVB mag GEEN beslissing geven die strijdig is met de wet of die de strekking ervan ondermijnt. Sinds 2012-2017 is de DVB veel strenger geworden tegenover constructies die enkel een fiscaal voordeel beogen (anti-misbruik-bepaling art. 344 §1). Ruling-beslissingen die de wetgeving omzeilen kunnen later door de rechter naast zich neergelegd worden (cf. Cassatie-arresten 2015-2018).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Evolutie strenger DVB-beleid post-LuxLeaks" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Geen ruling voor reeds uitgevoerde verrichtingen",
+        "verkeerde_assumptie": "We kunnen achteraf nog een ruling vragen om de fiscale gevolgen vast te leggen.",
+        "kernpunt": "Art. 22 sluit dit expliciet uit. Ruling = vooraf. Voor reeds uitgevoerde verrichtingen ben je aangewezen op gewone aangifte + eventueel bezwaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 22" }
+          ]
+        }
+      },
+      {
+        "titel": "Ruling-bescherming valt weg bij feitelijke afwijking",
+        "verkeerde_assumptie": "Met onze ruling in de hand mogen we de structuur licht aanpassen — de bescherming blijft.",
+        "kernpunt": "Zodra de werkelijke uitvoering wezenlijk afwijkt van wat in de aanvraag staat (andere bedragen, andere partijen, andere timing), valt de bindende werking weg. De aanslagdienst kan dan gewoon belasten zoals de wet voorschrijft. Bij twijfel: nieuwe ruling aanvragen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 23" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk DVB-handhaving" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" }
   ]
 }

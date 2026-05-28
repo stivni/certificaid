@@ -2,69 +2,204 @@
   "id": "belasting-inverkeerstelling",
   "naam": {
     "primair": "Belasting op inverkeerstelling",
-    "afkorting": "BIV"
+    "afkorting": "BIV",
+    "vertaling": { "fr": "taxe de mise en circulation" }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.I.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.7.I.B"],
     "scope": {
       "in": [
         "Eenmalige gewestelijke belasting bij inschrijving voertuig",
-        "Berekeningsbasis: CO2 + brandstof + ouderdom + vermogen",
-        "Vlaanderen: ecoscore-systeem · Wal/Br: klassieke berekening",
-        "Vrijstellingen (overgangsregelingen · gehandicapten · ...)"
+        "Berekeningsbasis: cilinderinhoud + CO2 + brandstof + ouderdom + vermogen",
+        "Vlaanderen: ecoboni-malus-systeem (CO2-gebaseerd) · Wallonië/Brussel: klassieke cilinderinhoud-tabel",
+        "Vrijstellingen (overgangsregelingen · gehandicapten · oldtimers > 30j)"
       ],
       "out": [
-        {
-          "topic": "Verkeersbelasting (jaarlijks)",
-          "richting": "moet-verwijzen",
-          "ref": "verkeersbelasting"
-        }
+        { "topic": "Verkeersbelasting (jaarlijks)", "richting": "moet-verwijzen", "ref": "verkeersbelasting" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/belasting-inverkeerstelling.json",
+      "primary_bronnen": [
+        "WIGB (Wetboek Inkomstenbelastingen Gebruikersbelastingen)",
+        "VCF Titel 2.4 (Vlaanderen)",
+        "Decreet Vlaams Gewest CO2-criteria BIV"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:25:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld op basis van gewestelijke voertuigfiscaliteit-doctrine." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "De belasting op inverkeerstelling (BIV) is een eenmalige gewestelijke belasting die verschuldigd is bij de eerste inschrijving in België van een voertuig (auto, motorfiets, vliegtuig, boot) op naam van een belastingplichtige, of bij de overdracht/wijziging van titularis indien een nieuwe inschrijvingsaanvraag nodig is. Het tarief verschilt fundamenteel per gewest: Vlaanderen hanteert sinds 2012 een ecoboni-malus-systeem gebaseerd op CO2-uitstoot + brandstof + euronorm + leeftijd; Brussel en Wallonië hanteren een klassieke tabel gebaseerd op cilinderinhoud (PK/cc) en ouderdom van het voertuig.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIGB", "ref": "Titel V — BIV", "context": "Federale grondslag, gewestelijk uitgewerkt" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer voertuigfiscaliteit BE" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: een 'aankoopbelasting' op voertuigen, geheven eenmalig bij eerste inschrijving van het voertuig op naam van de eigenaar. Voor een typische nieuwe wagen (benzine, 1.4 L, 4-5 PS-klasse) in Vlaanderen: tussen 100 en 1.000 EUR; voor een 'maluswagen' (hoge CO2, diesel pré-Euro 6): 2.000-10.000 EUR. Het Vlaamse ecoboni-malus-systeem stuurt actief de keuze richting milieuvriendelijke voertuigen (elektrische wagens: 0 EUR BIV). In Wallonië/Brussel is het tarief gematigder en stabieler maar minder ecologisch gestuurd. Het vroegere inkomenscriterium (BIV lager voor kleine inkomens) is afgeschaft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse BIV-decreet 2011 + voortdurende aanpassingen" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Klassiek deel: budgettair — de eerste inschrijving van een wagen genereert eenmalig een fors bedrag voor het gewest. Modern (Vl): sturend instrument om de wagenpark-vergroening te versnellen. Het ecoboni-malus-systeem maakt nieuwe milieuonvriendelijke wagens duurder (malus) en milieuvriendelijke goedkoper of gratis (boni) — een vorm van Pigou-belasting op CO2-externaliteit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrinaire analyse Vlaams milieubeleid" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "naast_relevant": ["verkeersbelasting"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIGB Titel V (federaal kader) + gewestelijke decreten (VCF Titel 2.4 voor Vlaanderen; decreet Wallonië; ordonnantie Brussel)",
+        "toelichting": "Vlaanderen herziet jaarlijks de CO2-grenzen en parameters van het ecoboni-malus-systeem. Brussel en Wallonië werken nog grotendeels met cc-tabel. Inkomenscriterium dat vroeger BIV deed dalen bij lage inkomens is afgeschaft."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere eerste inschrijving in België van een voertuig op naam van een belastingplichtige (natuurlijke of rechtspersoon). Ook: hertaxatie bij overdracht aan een nieuwe titularis (tenzij familievrijstelling).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Vrijstellingen: voertuigen voor militair/diplomatiek gebruik; personen met handicap onder voorwaarden; oldtimers > 30 jaar (vlak forfait, niet de tabel); overdracht tussen echtgenoten of bloedverwanten in rechte lijn (familiale vrijstelling); elektrische voertuigen in Vlaanderen (BIV = 0 EUR sinds 2024 — controleer huidige status).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse vrijstellings-doctrine" }]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vlaamse-formule",
+        "naam": { "primair": "Vlaamse formule: ecoboni-malus" },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "BIV-Vl = basisbedrag (functie cilinderinhoud OF kW elektrisch) × correctiecoëfficiënt(CO2) × correctiecoëfficiënt(brandstof + euronorm) × ouderdomscorrectie. Hoe hoger CO2 + hoe slechter euronorm → malus (verhoging). Elektrisch + waterstof: 0 EUR. Sinds 2012 jaarlijks bijgesteld. Vooral CO2-component vermindert de BIV voor zuinige wagens en verhoogt ze fors voor 'maluswagens' (vroeger diesel, grote SUV's).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse BIV-decreet" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "klassieke-tabel-br-wa",
+        "naam": { "primair": "Klassieke cc-tabel (Brussel, Wallonië)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In Brussel en Wallonië wordt de BIV nog berekend volgens de klassieke tabel uit het WIGB: per schijf van cilinderinhoud (cc) of fiscale paardenkracht (PK), met een ouderdomsdegressie (oudere wagen = lagere BIV). Range typisch 61,5 EUR (kleine wagen, > 10 jaar) tot 4.957 EUR (grote benzine-/dieselwagen, nieuw).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "WIGB-tabel BIV" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "co2-component",
+        "naam": { "primair": "CO2-correctie (Vlaanderen)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Per gram CO2/km boven of onder een referentiewaarde (recent ca. 100 g voor benzine, 95 g voor diesel) wordt een correctiebedrag toegevoegd (malus) of afgetrokken (boni). De referentiewaarde wordt jaarlijks bijgesteld om de transitie naar lagere-CO2-wagens te volgen. Effect: tussen twee identieke voertuigen kan de BIV honderden EUR verschillen op basis van enkele grammen CO2.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse BIV-doctrine 2012+" }]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BIV en verkeersbelasting verwarren",
+        "verkeerde_assumptie": "BIV en jaarlijkse verkeersbelasting zijn dezelfde belasting met andere namen.",
+        "kernpunt": "BIV = EENMALIGE belasting bij inschrijving (aankoop / overdracht). Verkeersbelasting = JAARLIJKS verschuldigd zolang het voertuig ingeschreven blijft. Beide zijn gewestelijk maar functioneel anders: BIV stuurt aankoopkeuze, verkeersbelasting stuurt gebruiksduur.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Voertuigfiscaliteit-doctrine" }]
+        }
+      },
+      {
+        "titel": "Tarieven over de gewesten heen veralgemenen",
+        "verkeerde_assumptie": "Een Vlaamse BIV-berekening geldt ook voor Brussel of Wallonië.",
+        "kernpunt": "De drie gewesten hanteren totaal verschillende methoden: Vlaanderen ecoboni-malus (CO2 + euronorm), Brussel/Wallonië klassieke cc-tabel. De gewestelijke woonplaats van de titularis bepaalt het toepasselijke regime. Voor identiek voertuig kan BIV honderden EUR verschillen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
+      "id": "venn-met-wagenpark",
+      "naam": { "primair": "Vennootschap met wagenpark" },
+      "intro": "De accountant die wagenparkbeheer en fiscale optimalisatie begeleidt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "biv-in-twr",
+              "naam": { "primair": "BIV als kost in TWR" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "BIV is een fiscaal aftrekbare kost voor de vennootschap. Bij voertuigkeuze (firmawagen): vergelijk de totale wagenkost (TWR = total cost of ownership) inclusief BIV, jaarlijkse verkeersbelasting, BTW-aftrek (gedeeltelijk geblokkeerd voor personenwagens), CO2-bijdrage RSZ, VAA werknemer. Een 'maluswagen' kost niet enkel meer BIV maar typisch ook meer VAA en RSZ.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Wagenpark-adviespraktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "lokale-en-regionale-belastingen" },
+    { "type": "vergelijkbaar_met", "target": "verkeersbelasting",
+      "gelijkenissen": ["Beide zijn gewestelijke voertuigbelastingen", "Beide gebaseerd op cilinderinhoud / kW (klassiek)"],
+      "verschillen": ["BIV: éénmalig, bij inschrijving", "Verkeersbelasting: jaarlijks, zolang ingeschreven"],
+      "verwarring_risico": "Cliënten vragen vaak 'wat ben ik voor mijn wagen verschuldigd?' — duidelijk maken welk van beide bedragen het is."
     }
   ]
 }
