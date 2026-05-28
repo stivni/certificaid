@@ -3,36 +3,35 @@
   "naam": {
     "primair": "Coöperatieve vennootschap",
     "afkorting": "CV",
-    "synoniemen": [
-      "SC",
-      "société coopérative",
-      "cooperative society"
-    ]
+    "synoniemen": ["CVBA (oud)", "CVOA (oud)", "société coopérative (SC)"],
+    "vertaling": {"fr": "société coopérative (SC)"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.I",
-      "3.0.I.A",
-      "3.0.I.B"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.I", "3.0.I.A", "3.0.I.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/cooperatieve-vennootschap.json",
+      "primary_bronnen": [
+        "WVV art. 1:5",
+        "WVV art. 6:1",
+        "WVV art. 6:3",
+        "WVV art. 6:4",
+        "WVV art. 6:54",
+        "CBN-advies 2020/13"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T00:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~994, hernoemd van cv-rechtsvorm)"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T00:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-vennootschapsrecht-2026-05-28", "wijziging": "Skeleton aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle (WVV boek 6 + CBN 2020/13)"}
     ],
     "scope": {
       "in": [
@@ -44,51 +43,366 @@
         "Uittredingsregime — statutair geregeld + scheidingsaandeel"
       ],
       "out": [
-        {
-          "topic": "Vergelijking met andere vormen",
-          "richting": "moet-verwijzen",
-          "ref": "ondernemingsvormen"
-        },
-        {
-          "topic": "Oprichting",
-          "richting": "moet-verwijzen",
-          "ref": "oprichting-vennootschap"
-        }
+        {"topic": "Vergelijking met andere vormen", "richting": "moet-verwijzen", "ref": "ondernemingsvormen"},
+        {"topic": "Oprichting", "richting": "moet-verwijzen", "ref": "oprichting-vennootschap"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De coöperatieve vennootschap (CV) is een kapitaalvennootschap met rechtspersoonlijkheid (art. 1:5 §2 WVV) die als hoofddoel moet hebben aan de behoeften van haar vennoten te voldoen of hun economische of sociale activiteit te ontwikkelen, hetzij door deelneming, hetzij door een dergelijke deelname te bevorderen (art. 6:1 WVV — coöperatief doel). Sinds WVV (2019) is dit coöperatief doel verplicht; loutere belegging of patrimoniale doelstellingen zonder coöperatief karakter zijn uitgesloten. CV's met rechtspersoonlijkheid hebben beperkte aansprakelijkheid (vennoten ten belope van inbreng). Geen minimumkapitaal sinds WVV — wel toereikend aanvangsvermogen + financieel plan. Sterke karaktertrek: variabel kapitaal — vennoten kunnen statutair toetreden of uittreden zonder statutenwijziging.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1", "context": "Coöperatief doel als bestaansvoorwaarde"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:3", "context": "Aanvangsvermogen"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:4", "context": "Financieel plan"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: de CV onderscheidt zich van de BV door (a) verplicht coöperatief doel — geen 'CV ter belegging' meer, en (b) variabel kapitaal — vennoten kunnen statutair-soepel in- en uittreden tegen scheidingsaandeel (art. 6:54 e.v. WVV). Oude CVBA's en CVOA's verdwenen onder WVV: vennootschappen die hun activiteit niet op het coöperatief gedachtengoed voerden, moesten omzetten naar BV (CBN-advies 2020/13). De 'erkende coöperatie' is een aanvullend optioneel statuut (KB 8 januari 1962) met fiscale voordelen — beperkte interest-vrijstelling op aandelen (art. 21 12° WIB92) en vrijstelling werknemers-premies onder voorwaarden. Geschikte sectoren: landbouw-coöperaties, sociale economie, hernieuwbare energie (burgercoöperaties), zorg-coöperaties.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54", "context": "Uittredingsregime CV"},
+            {"type": "advies", "naam": "CBN 2020/13", "ref": "Overgang kapitaalhoudende CV naar kapitaalloze"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°", "context": "Interest-vrijstelling erkende coöperatie"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk CV-sectoren"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "WVV beperkte CV strikt tot vennootschappen met coöperatief karakter omdat onder W.Venn. de CVBA werd misbruikt als 'soepele BVBA' (lagere oprichtingsdrempel + variabel kapitaal voor regelmatige uittredingen). De BV werd onder WVV zo flexibel gemaakt dat ze die rol overnam, waardoor de CV haar oorspronkelijke coöperatieve identiteit terugkrijgt. Het variabel kapitaal blijft het kenmerk dat de CV bijzonder geschikt maakt voor vennootschapsvormen met wisselend ledenbestand (landbouw-leveranciers, energie-burgers, sociale economie).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "advies", "naam": "CBN 2020/13", "ref": "Inleiding", "context": "WVV beperking CV tot coöperatief gedachtengoed"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer WVV"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["ondernemingsvormen"],
+      "kader": "ondernemingsvormen",
+      "naast_relevant": ["besloten-vennootschap"],
+      "volgkennis": ["oprichting-vennootschap"]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "sinds": "2019",
-        "wettelijke_basis": "WVV boek 6"
-      }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "ondernemingsvormen"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV boek 6",
+        "toelichting": "CVBA's en CVOA's (vroegere W.Venn.-vormen) zijn afgeschaft. Bestaande CVBA's zonder coöperatief karakter moesten omzetten naar BV (CBN-advies 2020/13)."
+      },
+      "voor": [
+        {
+          "tekst": "Geschikt voor: landbouw-coöperaties (afzetcoöperatie, aankoopcoöperatie), sociale economie (sociale werkplaatsen, beschutte werkplaatsen), hernieuwbare energie (burgercoöperatie windturbine/zonnepanelen), zorg (groepspraktijken huisartsen, mutualiteiten), retail-collectief.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sectoren CV-praktijk"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet geschikt voor: zuiver commerciële activiteit zonder coöperatief karakter; loutere holding/belegging; familievennootschap voor patrimonium-beheer (kies BV of maatschap).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+              {"type": "advies", "naam": "CBN 2020/13", "ref": "Inleiding"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "(a) Variabel kapitaal — vennoten kunnen vrij in/uittreden tegen scheidingsaandeel zonder statutenwijziging. (b) Erkende coöperatie-statuut (optioneel) geeft fiscale voordelen: tot 800 EUR (geïndexeerd, raadpleeg Cijferzakboekje) per dividend per jaar vrijgesteld in PB (art. 21 12° WIB92). (c) Beperkte aansprakelijkheid (zoals BV). (d) Geen minimumkapitaal sinds WVV.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54", "context": "Variabel kapitaal"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°"},
+              {"type": "wettekst", "naam": "KB 8 januari 1962", "ref": "Erkende coöperatie"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "(a) Verlies coöperatief karakter → CV kan ontbonden of vorm-aangepast worden (rechterlijke sanctie). (b) Bij erkende coöperatie: jaarlijkse erkenningsvereisten + controle Nationale Raad voor de Coöperatie — verlies erkenning bij niet-naleving. (c) Variabel kapitaal vereist nauwgezet aandelenregister bijhouden — administratieve overhead.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+              {"type": "wettekst", "naam": "KB 8 januari 1962", "ref": "Erkenningsvoorwaarden"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico's CV"}
+            ]
+          }
+        }
+      ]
     },
+    "bouwstenen": [
+      {
+        "id": "kenmerk-cooperatief-doel",
+        "naam": {"primair": "Verplicht coöperatief doel"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 6:1 WVV: de CV moet als hoofddoel hebben aan de behoeften van haar vennoten te voldoen of hun economische of sociale activiteit te ontwikkelen — door deelneming of door deelname te bevorderen. Concreet: vennoten zijn ook gebruikers/klanten/leveranciers (niet louter belegger). Bij rechterlijke beoordeling: indien CV in feite een belegging-vehikel is zonder coöperatief karakter, kan ze ontbonden of tot omzetting verplicht worden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-variabel-kapitaal",
+        "naam": {"primair": "Variabel kapitaal en uittreding"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het inbrengkapitaal CV is variabel: vennoten kunnen statutair vrij toetreden (nieuwe inbreng) of uittreden (terugbetaling scheidingsaandeel, art. 6:54 WVV) zonder dat de statuten gewijzigd moeten worden. Het scheidingsaandeel bedraagt het deel van de inbreng + reserves dat aan de uittredende vennoot toekomt (statutair waarderingsmechanisme). Praktisch: een aandelenregister wordt bijgehouden waarin in- en uittredingen geboekt worden. Uitkering volgt de uitkeringstoets (art. 6:115 — analoog aan BV).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54"},
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 6:115", "context": "Uitkeringstoets CV"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-erkende-cooperatie",
+        "naam": {"primair": "Erkende coöperatie — optioneel statuut"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een CV kan optioneel erkend worden door de Nationale Raad voor de Coöperatie (NRC) via inschrijving op basis van KB 8 januari 1962. Erkenning vereist naleving van 7 coöperatieve beginselen (vrije toetreding, democratische besluitvorming '1 vennoot 1 stem' in beginsel, beperkte intrest op kapitaal, dividenduitkering pro rata transacties met de vennoot, geen winstoogmerk-overheersing, opleiding/informatie aan leden, samenwerking tussen coöperaties). Fiscale voordelen: (a) interest-vrijstelling tot drempel (art. 21 12° WIB92), (b) vrijstelling werknemers-premie onder voorwaarden, (c) toegang tot specifieke subsidies.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "KB 8 januari 1962", "ref": "Erkende coöperatie"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kenmerk-bestuur-cv",
+        "naam": {"primair": "Bestuur CV — analoog BV"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bestuur door één of meer bestuurders, benoemd door AV (art. 6:58 WVV). Bestuurders mogen vennoten of niet-vennoten zijn. Stemrecht in AV: principe '1 vennoot = 1 stem' bij erkende coöperatie; bij niet-erkende CV kan statutair afgeweken worden (bv. stemrecht pro rata inbreng). Beslissingen ad nutum herroepbaar tenzij statuten anders bepalen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WVV", "ref": "art. 6:58"},
+                {"type": "wettekst", "naam": "KB 8 januari 1962", "ref": "Beginsel democratische stemming"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-burger-cv-zonnepanelen",
+        "titel": "Burgercoöperatie zonnepanelen-park",
+        "context": "Vereniging van 80 omwonenden wil samen 320 kWp zonnepanelen plaatsen op dorpskerk-dak. Investering totaal 280.000 EUR. Coöperatieve structuur — vennoten zijn ook elektriciteit-afnemers + delen in de winst.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54"},
+            {"type": "kb", "naam": "KB 8 januari 1962", "ref": "Erkende coöperatie"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld burgercoöperatie energie"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — coöperatief doel: vennoten zijn omwonenden die collectief investeren én elektriciteit afnemen tegen voordeel-tarief. Past in art. 6:1 ('behoeften van vennoten' — duurzame energie + financieel rendement).",
+              "Stap 2 — aanvangsvermogen: vennoten brengen elk 3.500 EUR in (80 × 3.500 = 280.000 EUR). Geen wettelijk minimum — wel financieel plan dat 2 j cashflow dekt.",
+              "Stap 3 — aandelen: 80 aandelen à 3.500 EUR (statuten kunnen meerdere aandelen per vennoot toelaten). Variabel kapitaal: nieuwe burgers kunnen toetreden mits statutaire voorwaarden.",
+              "Stap 4 — erkenning NRC aanvragen: voldoet aan 7 beginselen → fiscaal voordeel art. 21 12° WIB92 — eerste 800 EUR (niet-geïndexeerd) interest/dividend per vennoot per jaar vrijgesteld PB.",
+              "Stap 5 — boekingen oprichting: D 550 Bank 280.000 / C 100 Inbreng 280.000. Boekjaar N: D 220 Zonnepanelen 280.000 / C 550 Bank 280.000. Afschrijving over 15 j: jaarlijks D 6302 Afschrijvingen 18.667 / C 2209 Afschrijvingen op zonnepanelen 18.667."
+            ],
+            "resultaat": "CV opgericht en erkend; 80 burger-vennoten genieten beperkte interest-vrijstelling + delen in winst (gewone dividend op surplus boven interest)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-uittreding-cv",
+        "titel": "Uittreding vennoot met scheidingsaandeel",
+        "context": "CV 'AgriCo' (landbouw-afzetcoöperatie, 50 leden-landbouwers) heeft per 31/12/N: inbreng 250.000 EUR (50 × 5.000), reserves 75.000 EUR. Landbouwer X stopt zijn activiteit en wil uittreden — heeft 5.000 EUR ingebracht. Statuten: scheidingsaandeel = pro rata inbreng + reserves.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:115"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld uittreding"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — scheidingsaandeel: inbreng 5.000 + pro rata reserves (75.000 / 50 = 1.500) = 6.500 EUR.",
+              "Stap 2 — uitkeringstoets art. 6:115 (vergelijkbaar met BV-dubbele-test): netto-actief na 6.500 EUR uitkering > onbeschikbare reserves; liquiditeitsverklaring 12 m. door bestuursorgaan.",
+              "Stap 3 — boekingen: D 100 Inbreng 5.000 / D 13 Reserves 1.500 / C 489 Schuld aan uittredende vennoot 6.500. Vervolgens D 489 / C 550 Bank 6.500.",
+              "Stap 4 — aandelenregister: X uitgeschreven; aantal vennoten daalt van 50 naar 49. Geen statutenwijziging nodig (variabel kapitaal)."
+            ],
+            "resultaat": "X heeft 6.500 EUR uittredings-vergoeding; CV behoudt rechtspersoonlijkheid + continueert normaal. Uittreding fiscaal: terugbetaling fiscaal kapitaal (5.000 EUR vrijgesteld) + 1.500 EUR meerwaarde aandelen (in beginsel PB-vrij voor normaal beheer privévermogen)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-omzetting-oud-cvba",
+        "titel": "Omzetting oude CVBA → BV (geen coöperatief karakter)",
+        "context": "Oude CVBA 'Vastgoed-CV' uit 2010, kapitaal 25.000 EUR, 3 vennoten — louter holding voor 4 verhuurde appartementen. Geen coöperatief karakter.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "advies", "naam": "CBN 2020/13", "ref": "Inleiding"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 14:2"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — diagnose: activiteit (verhuur 4 appartementen tussen 3 verwante personen) past niet bij coöperatief doel art. 6:1 WVV — vennoten zijn geen 'gebruikers' van de vennootschap.",
+              "Stap 2 — omzetting naar BV vereist (CBN 2020/13): voorstel + verslag bestuur + AV 4/5 meerderheid + notariële akte.",
+              "Stap 3 — kapitaal-conversie: 25.000 EUR CVBA-kapitaal wordt 'inbreng' in BV-rubriek 100 (statutair onbeschikbaar). Boeking transitie: D 100 Geplaatst kapitaal CVBA 25.000 / C 100 Inbreng BV 25.000.",
+              "Stap 4 — rechtspersoonlijkheid blijft (art. 14:2); KBO-nr ongewijzigd; geen fiscale herstructurering-belasting."
+            ],
+            "resultaat": "Vroegere CVBA omgevormd tot BV — coöperatief vorm verlaten omdat coöperatief karakter ontbrak. Activiteit verhuur continueert onder BV-regime."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "CVBA als 'soepele BV' gebruiken",
+        "verkeerde_assumptie": "Onder W.Venn. werd CVBA vaak gekozen voor de lage drempel + variabel kapitaal — student denkt dat dat nog steeds kan onder WVV.",
+        "kernpunt": "WVV beperkt CV strikt tot coöperatieve activiteiten (art. 6:1). Een CV zonder echt coöperatief karakter loopt het risico op rechterlijke ontbinding of dwingende omzetting. De BV is nu het 'soepele' kanaal voor niet-coöperatieve activiteiten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1"},
+            {"type": "advies", "naam": "CBN 2020/13", "ref": "Inleiding"}
+          ]
+        }
+      },
+      {
+        "titel": "Verwarring CV en erkende coöperatie",
+        "verkeerde_assumptie": "Student denkt dat élke CV een 'erkende coöperatie' is en dus de fiscale voordelen geniet.",
+        "kernpunt": "'Erkende coöperatie' is een AANVULLEND statuut bovenop CV: vereist erkenning door Nationale Raad voor de Coöperatie via KB 8 januari 1962, mits 7 beginselen vervuld. Enkel erkende CV's genieten interest-vrijstelling art. 21 12° WIB92. Niet-erkende CV's krijgen geen fiscaal extra-voordeel tov BV.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 8 januari 1962", "ref": "Erkende coöperatie"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°"}
+          ]
+        }
+      },
+      {
+        "titel": "Geïndexeerd bedrag uit het hoofd kennen",
+        "verkeerde_assumptie": "Student leert '190 EUR' of '800 EUR' als interest-vrijstelling.",
+        "kernpunt": "De fiscale drempel wordt jaarlijks geïndexeerd. Niet-geïndexeerd basisbedrag staat in art. 21 12° WIB92. Bij het examen: actueel bedrag uit Cijferzakboekje halen — nooit uit het hoofd opgeven.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk indexering WIB92-bedragen"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "financieel-plan"
+      "id": "perspectief-cv-cooperatie",
+      "naam": {"primair": "Begeleider — coöperatieve sector"},
+      "intro": "De accountant adviseert + boekhoudt voor een CV: erkenning aanvragen, uittredingen registreren, fiscaal voordeel benutten.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhouding-variabel-kapitaal",
+              "naam": {"primair": "Boekhouding variabel kapitaal CV"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toetreding nieuwe vennoot: D 550 Bank / C 100 Inbreng. Uittreding: D 100 Inbreng (deel uitgetreden) + eventueel D 13 Reserves (pro rata) / C 489 Schuld aan uittredende vennoot, dan D 489 / C 550 Bank. Aandelenregister bijhouden met datum + bedrag + identificatie vennoot. Verschil met BV: geen kapitaal-rubriek-aanpassing-via-statuten nodig.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WVV", "ref": "art. 6:54"},
+                      {"type": "advies", "naam": "CBN 2020/13", "ref": "Boekhoudkundige verwerking overgang"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-erkenning-nrc",
+              "naam": {"primair": "Erkenning Nationale Raad voor de Coöperatie aanvragen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor een CV met coöperatief karakter is erkenning door NRC fiscaal interessant: (a) controleer naleving 7 beginselen, (b) dien aanvraagdossier in bij FOD Economie (statuten + jaarrekening + getuigschrift), (c) ontvang erkenning + Z-nummer, (d) jaarlijkse herziening op basis van jaarrekening. Communiceer aan vennoten dat hun interest tot wettelijke drempel vrijgesteld is in PB (art. 21 12° WIB92) — relevant voor aangifte vak VII.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB 8 januari 1962", "ref": "Erkende coöperatie"},
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 21 12°"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "ondernemingsvormen"},
+    {"type": "vereist", "target": "financieel-plan"},
+    {
+      "type": "vergelijkbaar_met",
+      "target": "besloten-vennootschap",
+      "gelijkenissen": ["Beide kapitaalloos sinds WVV", "Beide rechtspersoonlijkheid", "Beide VenB-plichtig", "Beide beperkte aansprakelijkheid"],
+      "verschillen": [
+        "CV: verplicht coöperatief doel · BV: geen doel-vereiste",
+        "CV: variabel kapitaal — vrije toetreding/uittreding · BV: statutair geregelde overdracht aandelen",
+        "CV: erkenning NRC mogelijk met fiscaal voordeel · BV: geen extra-fiscaal voordeel"
+      ],
+      "verwarring_risico": "CVBA werd onder W.Venn. vaak misbruikt als 'soepele BVBA'. Sinds WVV strikt beperkt tot coöperatieve activiteit.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
