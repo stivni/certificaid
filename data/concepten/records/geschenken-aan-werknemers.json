@@ -4,26 +4,58 @@
     "primair": "Geschenken aan werknemers",
     "synoniemen": [
       "gelegenheidsgeschenken",
-      "jaarlijkse geschenken",
+      "sociale voordelen geschenken",
       "geschenkcheques"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
       "2.2.taak.3"
     ],
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/geschenken-aan-werknemers.json",
+      "primary_bronnen": [
+        "WIB92 art. 38 (sociale voordelen)",
+        "Comm. IB 38/23 t.e.m. 38/33 (administratieve commentaar — niet-exhaustieve lijst sociale voordelen)",
+        "RSZ-uitvoeringsbesluit (KB 28-11-1969) — uitsluiting kleine geschenken uit loonbegrip",
+        "Sociale balans rubriek 103 — Voordelen bovenop het loon"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:25:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+        "wijziging": "Inhoud gevuld uit bundle-chunks (WIB92 art. 31, art. 38 — 24°, CBN-advies S100 sociale balans) + domeinkennis sociale voordelen + Comm. IB 38/23-33."
+      }
+    ],
     "scope": {
       "in": [
-        "Gelegenheidsgeschenken vrijgesteld onder grenzen — Sinterklaas/Kerst/Nieuwjaar max €40/werknemer + €40/kind",
-        "Eervolle onderscheiding: €120",
-        "Pensionering: €40/dienstjaar (min €120 · max €1.000)",
-        "Boven grens: belastbaar loon",
+        "Gelegenheidsgeschenken vrijgesteld onder grenzen — Sinterklaas/Kerst/Nieuwjaar max 40 EUR/werknemer + 40 EUR/kind ten laste",
+        "Huwelijk: max 245 EUR per gebeurtenis",
+        "Eervolle onderscheiding: max 120 EUR",
+        "Pensionering: 40 EUR/dienstjaar (min 120 EUR · max 1.000 EUR)",
+        "Boven grens of buiten gelegenheid: belastbaar loon",
         "Werkgever aftrekbaar mits binnen grenzen + collectief karakter"
       ],
       "out": [
@@ -38,39 +70,391 @@
           "ref": "ecocheques"
         }
       ]
-    },
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ]
+    }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Geschenken aan werknemers omvat de occasionele attenties die een werkgever uit een 'duidelijk sociaal oogpunt' aan werknemers of bedrijfsleiders toekent — typisch ter gelegenheid van Sinterklaas/Kerst/Nieuwjaar, huwelijk, geboorte van een kind, eervolle onderscheiding of pensionering. Deze geschenken worden niet beschouwd als belastbaar loon (sociaal voordeel — beschreven in administratieve Comm. IB 38/23 t.e.m. 38/33) op voorwaarde dat ze binnen de specifieke plafonds per gelegenheid blijven en aan alle werknemers van dezelfde categorie worden toegekend (collectief karakter). Worden de plafonds overschreden, dan wordt het volledige geschenk belastbaar loon — niet enkel het excedent.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 31", "context": "Bezoldigingen — anti-omzetting" },
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33", "context": "Niet-exhaustieve lijst sociale voordelen — administratieve tolerantie" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch een marginaal regime — de bedragen zijn beperkt (40 EUR Sinterklaas, 120 EUR eervolle onderscheiding, max 1.000 EUR pensionering). Voor de werknemer: volledig PB-vrij en RSZ-vrij. Voor de werkgever doorgaans aftrekbaar als personeelskost (sociaal voordeel), mits collectief karakter. Op de sociale balans worden de vrijgestelde voordelen vermeld onder rubriek 103 ('Voordelen bovenop het loon'). In de praktijk wordt vaak gewerkt met algemene geschenkcheques (bv. via uitgevers Edenred) die de werknemer kan inwisselen — het bedrag blijft binnen de specifieke grenzen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33" },
+            { "type": "advies", "naam": "CBN-advies S100", "ref": "Rubriek 103 — Voordelen bovenop het loon", "context": "Sociale-balans-rapportering" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is sociaal-economisch: 'sociale voordelen' (in de zin van Comm. IB 38/23 e.v.) zijn beperkte voordelen die de werkgever vanuit een duidelijk sociaal oogpunt toekent en die het contact tussen personeelsleden bevorderen of hun band met de onderneming verstevigen. Dit is geen aanvullende verloning maar een 'gebaar' — vandaar de strikte plafonds én de eis van collectief karakter (alle werknemers van eenzelfde categorie krijgen het, niet een geselecteerde elite). Buiten deze tolerantie wordt het geschenk gezien als loon en valt onder de gewone PB + RSZ-regimes.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nr. 38/23", "context": "Definitie sociaal voordeel" },
+            { "type": "advies", "naam": "CBN-advies S100", "ref": "Rubriek 103", "context": "Doelstelling van het sociaal voordeel" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "loon-en-payroll"
+      ],
+      "kader": "werknemers-vergoedingen"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 31 + Comm. IB 38/23 t.e.m. 38/33 + KB 28-11-1969 RSZ-uitvoering",
+        "toelichting": "Plafonds zijn administratieve tolerantie-bedragen (Comm. IB) — periodiek bijgewerkt via circulaires. Actuele bedragen raadplegen via FOD Financiën-circulaires of fiscaal handboek."
+      },
+      "voor": [
+        {
+          "tekst": "Elke werkgever die naar aanleiding van een specifieke gelegenheid (eindejaarsfeest, huwelijk, geboorte, eervolle onderscheiding, pensionering) een attentie wil aanbieden aan al zijn werknemers of een hele werknemerscategorie.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Selectieve geschenken aan een individuele werknemer of een minderheid van werknemers buiten een collectieve gelegenheid (bv. een 'kerstgeschenk' enkel aan de CEO). Geen collectief karakter → herkwalificatie tot loon.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "circulaire", "naam": "Comm. IB", "ref": "nr. 38/23", "context": "Vereiste van collectief karakter" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) gegeven naar aanleiding van een specifieke gelegenheid (Sinterklaas/Kerst/Nieuwjaar, huwelijk, geboorte, eervolle onderscheiding, pensionering); (2) bedrag onder het plafond voor die gelegenheid; (3) collectief karakter — alle werknemers van eenzelfde categorie krijgen het; (4) geschenk-natuur (niet cash, doorgaans cadeaubon, fysiek geschenk of geschenkcheque).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese tolerantievoorwaarden" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Volledig PB-vrij en RSZ-vrij voor werknemer; aftrekbaar als personeelskost werkgever (sociaal voordeel — niet onder de algemene aftrekbeperking van art. 53 — 14° die enkel maaltijdcheques treft).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Aftrekbaarheidsregel sociale voordelen" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij overschrijding van het plafond of bij ontbreken van collectief karakter wordt het VOLLEDIGE geschenk belastbaar loon — niet enkel het excedent. PB + RSZ retroactief. Buiten gelegenheid (bv. 'gewoon zomaar een geschenk in juli'): geen tolerantie, wordt automatisch loon.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33", "context": "Plafondoverschrijding doet vrijstelling vervallen" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-sint-kerst",
+        "naam": {
+          "primair": "Drempel Sinterklaas/Kerst/Nieuwjaar: 40 EUR + 40 EUR per kind ten laste"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor geschenken naar aanleiding van Sinterklaas, Kerst of Nieuwjaar: maximum 40 EUR per werknemer + 40 EUR per kind ten laste van de werknemer. Onder de tolerantie van Comm. IB 38/23 e.v. Worden de bedragen overschreden, dan vervalt de vrijstelling voor het volledige bedrag. Praktijk: 50 EUR kerstpakket aan een werknemer met 2 kinderen = 50 EUR vrijstelling tot 40 + 80 = 120 EUR (ruim binnen).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-huwelijk-wettelijk-samenwonen",
+        "naam": {
+          "primair": "Drempel huwelijk/wettelijk samenwonen: 245 EUR"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Ter gelegenheid van het huwelijk of de verklaring van wettelijk samenwonen van een werknemer: maximum 245 EUR per gebeurtenis. Boven dit bedrag: vrijstelling vervalt voor het volledige bedrag. Tolerantie-bedrag uit Comm. IB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-eervolle-onderscheiding",
+        "naam": {
+          "primair": "Drempel eervolle onderscheiding: 120 EUR"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Ter gelegenheid van een eervolle burgerlijke of militaire onderscheiding (bv. erekruis, eremedaille van de arbeid): maximum 120 EUR. Buiten een formele eervolle onderscheiding: geen tolerantie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-pensionering",
+        "naam": {
+          "primair": "Drempel pensionering: 40 EUR/dienstjaar (min 120 EUR · max 1.000 EUR)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Ter gelegenheid van de pensionering van een werknemer: 40 EUR per gepresteerd dienstjaar, met een minimum van 120 EUR en een maximum van 1.000 EUR. Voorbeelden: 5 dienstjaren = 200 EUR (boven min 120); 30 dienstjaren = 1.200 EUR → begrensd tot 1.000 EUR maximum. Boven de drempel vervalt de vrijstelling voor het volledige bedrag.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-collectief-karakter",
+        "naam": {
+          "primair": "Collectief karakter vereist"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De tolerantie geldt enkel als het geschenk een collectief karakter heeft — alle werknemers van eenzelfde categorie (bv. alle bedienden, of alle voltijdsen) krijgen het. Selectieve geschenken aan één werknemer (buiten een individuele gelegenheid zoals huwelijk of pensionering die per definitie individueel is) vallen automatisch onder gewoon loon. De Comm. IB benadrukt dat het sociaal voordeel een bijdrage moet leveren aan 'het contact tussen personeelsleden of hun band met de onderneming'.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nr. 38/23" },
+                { "type": "advies", "naam": "CBN-advies S100", "ref": "Rubriek 103 — Voordelen bovenop het loon", "context": "Doelstelling sociaal voordeel" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-niet-cash",
+        "naam": {
+          "primair": "Geen cash — fysiek geschenk of geschenkcheque"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De tolerantie geldt voor geschenken in natura (fysiek pakket) of voor geschenkcheques (cadeaubonnen besteedbaar bij een handelaar of online). Cash-uitkering valt niet onder de tolerantie en wordt automatisch behandeld als loon. Geschenkcheques via gespecialiseerde uitgevers (Edenred, Cadhoc, ...) zijn de meest praktische vorm.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33", "context": "Sociaal voordeel — geen cash" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "kerstpakket-zelena",
+        "titel": "Kerstpakket Zelena Bio NV — 50 EUR per werknemer + 40 EUR per kind",
+        "context": "Zelena Bio NV beslist om aan al haar 50 werknemers een kerstpakket te geven van 50 EUR + 40 EUR per kind ten laste. 3 werknemers hebben 2 kinderen, 5 werknemers hebben 1 kind, de rest geen kinderen ten laste.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard tolerantie-toepassing" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Toets plafond per werknemer: 50 EUR > 40 EUR werknemer-plafond → 10 EUR boven.",
+              "Stap 2 — Toets met kinderen: werknemer + 2 kinderen krijgt 50 + 2×40 = 130 EUR (waarde geschenk) terwijl plafond 40 + 80 = 120 EUR is → 10 EUR boven.",
+              "Stap 3 — Conclusie: het geschenk overschrijdt de drempel — VOLLEDIGE bedrag wordt belastbaar loon (niet enkel het excedent).",
+              "Stap 4 — Werkgever moet dus 50 EUR/werknemer + extra per kind als belastbaar loon kwalificeren op de fiche 281.10 + bedrijfsvoorheffing inhouden + RSZ-rechtzetting.",
+              "Stap 5 — Alternatief: kerstpakket op 40 EUR/werknemer + 40 EUR per kind houden — volledig PB- en RSZ-vrij + werkgever aftrekbaar."
+            ],
+            "resultaat": "Lesson: PRECIES op of onder de drempel blijven. De plafonds zijn 'alles-of-niets' — een paar euro overschrijden = volledige herkwalificatie tot loon."
+          }
+        ]
+      },
+      {
+        "id": "pensionering-aurelia",
+        "titel": "Pensionering Aurelia Holding NV — werknemer met 25 dienstjaren",
+        "context": "Een werknemer van Aurelia Holding NV gaat met pensioen na 25 dienstjaren. Het bedrijf overweegt een afscheidsgeschenk.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Berekening drempel: 25 × 40 = 1.000 EUR (= maximum bereikt).",
+              "Stap 2 — Geschenk van 1.000 EUR (cadeaubon of fysiek geschenk) — exact op drempel, blijft vrijgesteld.",
+              "Stap 3 — Geschenk van 1.100 EUR — overschrijdt 1.000 EUR plafond → VOLLEDIGE 1.100 EUR wordt belastbaar loon.",
+              "Stap 4 — Werkgever boekt 1.000 EUR op rekening 623 Andere personeelskosten (sociaal voordeel, aftrekbaar), géén RSZ, géén bedrijfsvoorheffing."
+            ],
+            "resultaat": "25 dienstjaren = exact bij maximum-plafond. Voor 30+ dienstjaren blijft het plafond 1.000 EUR — de wettelijke beperking 'min 120 EUR · max 1.000 EUR' kapt langere carrières af."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Overschrijden = alleen het excedent belast",
+        "verkeerde_assumptie": "Een student denkt: 'Bij 50 EUR kerstgeschenk in plaats van 40 EUR is alleen die extra 10 EUR belastbaar.'",
+        "kernpunt": "Bij overschrijding van de drempel is het VOLLEDIGE bedrag belastbaar loon — niet enkel het excedent. Dit is een 'alles-of-niets'-regel, zoals bij maaltijdcheques onder art. 38/1. Werkgever moet de hele 50 EUR als loon kwalificeren met PB + RSZ.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" }
+          ]
+        }
+      },
+      {
+        "titel": "Cash-geschenk in plaats van fysiek geschenk of cheque",
+        "verkeerde_assumptie": "Een werkgever geeft 40 EUR cash aan elke werknemer 'voor de kerst'.",
+        "kernpunt": "Cash valt niet onder de tolerantie van sociaal voordeel. Cash-betalingen zijn loon, ongeacht het sociaal-bedoeld karakter. Gebruik altijd fysiek geschenk of geschenkcheque om de PB- en RSZ-vrijstelling te claimen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/23 t.e.m. 38/33" }
+          ]
+        }
+      },
+      {
+        "titel": "Geen collectief karakter — geschenk enkel voor 'best performers'",
+        "verkeerde_assumptie": "Een werkgever beloont de drie topverkopers met een 'kerstgeschenk' van 40 EUR.",
+        "kernpunt": "Sociaal voordeel veronderstelt collectief karakter — geschenk aan alle werknemers van eenzelfde categorie. Selectieve toekenning aan een minderheid op basis van prestatie maakt het tot variable beloning (loon). De juiste vorm voor prestatie-koppeling is een niet-recurrente resultaatsgebonden bonus CAO 90 (zie ander record).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "circulaire", "naam": "Comm. IB", "ref": "nr. 38/23" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "werkgever",
+      "naam": {
+        "primair": "Werkgever-vennootschap"
+      },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-plafond-monitoring",
+              "naam": {
+                "primair": "Monitoring plafonds per gelegenheid"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke gelegenheid (Sinterklaas, Kerst, huwelijken, pensioneringen): de waarde van het geschenk vooraf checken tegen het toepasselijk plafond. Bij plafondbedragen vlak boven (bv. 41 EUR cadeau): liever 39 EUR + tweede klein attentie dan het volledige bedrag aan loon-herkwalificatie verliezen. Hou een register bij van geschenken per werknemer per gelegenheid voor controleerbaarheid.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "circulaire", "naam": "Comm. IB", "ref": "nrs. 38/24 — 38/25" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-geschenk",
+              "naam": {
+                "primair": "Boeking sociaal-voordeel-geschenk"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij geschenk binnen drempel: debet 623 Andere personeelskosten — sociale voordelen, credit 440 Leveranciers (uitgever cadeaubon) of 550 Bank (bij eigen aankoop fysiek geschenk). Geen RSZ-, geen bedrijfsvoorheffings-boeking. Op de sociale balans verschijnt het bedrag onder rubriek 103 (Voordelen bovenop het loon). Bij geschenk BUITEN drempel: behandel als gewoon loon — debet 620 Bezoldigingen, credit 453 + 454 + 455 (incl. PB en RSZ-werknemer) + 621 RSZ-werkgever.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies S100", "ref": "Rubriek 103 — Voordelen bovenop het loon" },
+                      { "type": "kb", "naam": "KB 21.10.2018 — Minimum Algemeen Rekeningstelsel", "ref": "Klasse 6 — 623 Andere personeelskosten" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "controle-fiche-bij-overschrijding",
+              "naam": {
+                "primair": "Fiche 281.10 bij plafondoverschrijding"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Indien een geschenk een drempel overschrijdt: behandel als belastbaar loon — vermeld op fiche 281.10 (vak IV, code 250 totaal bezoldigingen). Bij niet-vermelding op fiche: bijzondere aanslag geheime commissielonen (art. 219 WIB92, 100 %). Bij twijfel: pre-emptief op fiche zetten en bedrijfsvoorheffing inhouden — beter te veel dan te weinig.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219", "context": "Bijzondere aanslag geheime commissielonen" },
+                      { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "vak IV" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
