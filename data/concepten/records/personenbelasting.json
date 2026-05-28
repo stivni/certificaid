@@ -6,12 +6,15 @@
     "synoniemen": [
       "impôt des personnes physiques",
       "IPP"
-    ]
+    ],
+    "vertaling": {
+      "fr": "impôt des personnes physiques"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -26,9 +29,30 @@
       "2.2.taak.4"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/personenbelasting.json",
+      "primary_bronnen": [
+        "WIB92 art. 1",
+        "WIB92 art. 2 — 1°",
+        "WIB92 art. 5",
+        "WIB92 art. 6",
+        "WIB92 art. 23",
+        "WIB92 art. 87",
+        "WIB92 art. 89",
+        "WIB92 art. 126",
+        "WIB92 art. 130",
+        "WIB92 art. 305",
+        "WIB92 art. 307",
+        "WIB92 art. 308/1",
+        "WIB92 art. 360",
+        "WIB92 art. 466",
+        "WIB92 art. 468"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -37,22 +61,29 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt als Σ-hoofdrecord PO 2.2 (absorbeert inkomstencategorieen-pb als sub-sectie)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 1, 2, 5, 6, 23, 87, 89, 126, 130, 305, 307, 308/1, 360, 466, 468). Σ-overzicht PB als sub-discipline."
       }
     ],
     "scope": {
       "in": [
         "Σ-overzicht sub-discipline personenbelasting (PO 2.2)",
-        "Belastingplichtige PB (rijksinwoner art 3-3bis WIB · aanknopingspunt · woonplaats vs zetel fortuin)",
-        "Gezinslast + inkomenstoerekening (huwelijksquotient · echtgenoten-samenvoeging)",
-        "4 inkomenscategorieën-overzicht: onroerend · roerend · beroepsinkomen · diverse inkomsten",
-        "Aanslagjaar vs inkomstenjaar (AJ=IJ+1)",
+        "Belastingplichtige PB (rijksinwoner art. 3-3bis WIB92, aanknopingspunt, woonplaats vs zetel-fortuin)",
+        "Gezinslast + inkomenstoerekening (huwelijksquotient, gemeenschappelijke aanslag)",
+        "4 inkomenscategorieën-overzicht (onroerend, roerend, beroeps, diverse)",
+        "Aanslagjaar vs inkomstenjaar (AJ = IJ+1)",
         "Aangifteplicht (algemeen)",
-        "Aanvullende gemeentebelasting + gewest-decimes (impact op tarief)",
+        "Aanvullende gemeentebelasting + gewest-decimes — impact op tarief",
         "Cascade aftrekken-en-verminderingen (federaal + gewestelijk) → tarief → belastingberekening"
       ],
       "out": [
         {
-          "topic": "Detail-uitwerking inkomstencategorieën",
+          "topic": "Detail-uitwerking onroerend inkomen",
           "richting": "moet-verwijzen",
           "ref": "onroerend-inkomen-pb"
         },
@@ -62,22 +93,22 @@
           "ref": "beroepsinkomen-pb"
         },
         {
-          "topic": "Roerend inkomen (dividenden · interesten · royalty's)",
+          "topic": "Roerend inkomen (dividenden, interesten, royalty's)",
           "richting": "moet-verwijzen",
           "ref": "roerend-inkomen-pb"
         },
         {
-          "topic": "Diverse inkomsten art 90 WIB",
+          "topic": "Diverse inkomsten (art. 90 WIB92)",
           "richting": "moet-verwijzen",
           "ref": "diverse-inkomsten-pb"
         },
         {
-          "topic": "Aangifte-proces deel 1 + 2 (vakken/codes/termijnen)",
+          "topic": "Aangifte-proces deel 1 + 2 (vakken, codes, termijnen)",
           "richting": "moet-verwijzen",
           "ref": "aangifte-pb"
         },
         {
-          "topic": "Belastingberekening-procedure (schijven · samenvoeging · verminderingen)",
+          "topic": "Belastingberekening-procedure (schijven, samenvoeging, verminderingen)",
           "richting": "moet-verwijzen",
           "ref": "belastingberekening-pb"
         },
@@ -87,14 +118,19 @@
           "ref": "aanslagbiljet-pb"
         },
         {
-          "topic": "Vennootschapsbelasting (paralllele sub-discipline)",
+          "topic": "Vennootschapsbelasting (parallele sub-discipline)",
           "richting": "mag-verwijzen",
           "ref": "vennootschapsbelasting"
         },
         {
-          "topic": "Algemene fiscale procedure (bezwaar · controle · sancties)",
+          "topic": "Algemene fiscale procedure (bezwaar, controle, sancties)",
           "richting": "moet-verwijzen",
           "ref": "fiscale-procedure"
+        },
+        {
+          "topic": "Huwelijksquotient (rekentechniek)",
+          "richting": "moet-verwijzen",
+          "ref": "huwelijksquotient"
         }
       ]
     }
@@ -102,26 +138,173 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De personenbelasting (PB) is de federale inkomstenbelasting die door rijksinwoners — natuurlijke personen met hun woonplaats of de zetel van hun fortuin in België — wordt betaald op hun totale netto-inkomen, ongeacht of dat inkomen in België of in het buitenland werd behaald (wereldwijd-inkomen-beginsel). Het belastbaar inkomen is de som van vier inkomenscategorieën: onroerend inkomen, roerend inkomen, beroepsinkomen en divers inkomen — verminderd met de aftrekbare bestedingen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 1 §1 1°", "context": "'een belasting op het totale inkomen van rijksinwoners, personenbelasting geheten'" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 5", "context": "Rijksinwoners belastbaar op al hun inkomsten, zelfs indien in het buitenland behaald" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 6", "context": "Belastbaar inkomen = totaal netto-inkomen − aftrekbare bestedingen; totaal netto = som van 4 categorieën" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De PB is een progressieve belasting op gezinsbasis: hoe hoger het inkomen, hoe hoger het marginale tarief. Het beoogt twee economische functies: (1) financieringsfunctie — de PB is de grootste inkomstenbron van de federale staat; (2) herverdelingsfunctie — door de progressieve schijven en gezinslast-correcties (belastingvrije som, kinderen ten laste, huwelijksquotient) wordt fiscale draagkracht gewogen volgens gezinssituatie. De berekening verloopt steeds in dezelfde cascade: brutering per categorie → kosten/forfait → totaal netto-inkomen → aftrekbare bestedingen → tarief → verminderingen → voorheffingen verrekenen → eindafrekening (aanslag).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 130", "context": "Progressieve schijven" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van fiscale functies + cascade-overzicht uit standaardleer" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is om de fiscale draagkracht van natuurlijke personen te belasten naar verhouding van hun werkelijke economische capaciteit, gemeten over één jaar (kalenderjaar = belastbaar tijdperk), met respect voor (a) de bron van het inkomen (categorieën met eigen netto-bepaling en uitzonderingstarieven), (b) de gezinscontext (samenwoners/gehuwden krijgen gemeenschappelijke aanslag met inkomenstoerekening), en (c) de territoriale band met België (rijksinwoner = wereldwijd; niet-inwoner = aparte belasting BNI). Het gewest- en gemeentelijk niveau plakken via opcentiemen (aanvullende gemeentebelasting) en gewest-gebonden verminderingen extra lagen op de federale berekening — vandaar de term 'gewestelijke PB' voor het deel onder gewestelijke bevoegdheid sinds de zesde staatshervorming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 5" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 360", "context": "Aanslagjaar vs belastbaar tijdperk" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 466" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 468", "context": "Aanvullende gemeentebelasting op de PB" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — standaardleer fiscaal handboek" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscaal-recht",
+        "belasting-definitie-en-functies"
+      ],
+      "naast_relevant": [
+        "vennootschapsbelasting",
+        "belasting-niet-inwoners",
+        "rechtspersonenbelasting"
+      ],
+      "volgkennis": [
+        "onroerend-inkomen-pb",
+        "roerend-inkomen-pb",
+        "beroepsinkomen-pb",
+        "diverse-inkomsten-pb",
+        "aangifte-pb",
+        "belastingberekening-pb",
+        "aanslagbiljet-pb"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 1-178 + KB-WIB"
-      }
+        "wettelijke_basis": "WIB92 art. 1 §1 1° + Titel II (art. 3-178) + KB/WIB92",
+        "toelichting": "Stabiel kader sinds 1992; jaarlijks aangepast door programmawetten en hervormingen (tarieven, plafonds, verminderingen). Sinds de 6de staatshervorming (Bijzondere wet 6 januari 2014) is een deel van de PB-bevoegdheid (woon-bonus, opcentiemen, fiscale verminderingen voor eigen woning) overgedragen aan de gewesten — vandaar 'gewestelijke PB' naast 'federale PB' binnen één aanslag."
+      },
+      "voor": [
+        {
+          "tekst": "Elke natuurlijke persoon die rijksinwoner is — dus zijn woonplaats of de zetel van zijn fortuin in België heeft gevestigd. Voor gehuwden zonder feitelijke scheiding bepaalt de plaats waar het gezin gevestigd is de belastingwoonplaats. Inschrijving in het Rijksregister geldt als weerlegbaar vermoeden van woonplaats in België.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Definitie rijksinwoner + Rijksregister-vermoeden + belastingwoonplaats gehuwden" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 3", "context": "Aan PB onderworpen: rijksinwoners" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet-rijksinwoners (natuurlijke personen zonder woonplaats noch zetel-van-fortuin in België) vallen onder de belasting van niet-inwoners (BNI/IPP-NR, art. 227 e.v. WIB92) — een aparte belasting met eigen aanknopingspunten (Belgische bron) en eigen aangifteformulier. Binnenlandse vennootschappen vallen onder de vennootschapsbelasting; andere Belgische rechtspersonen onder de rechtspersonenbelasting.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 1 §1", "context": "4 inkomstenbelastingen — PB enkel voor rijksinwoners" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Onderworpenheid vereist cumulatief: (1) natuurlijke persoon zijn; (2) rijksinwoner zijn op enig moment in het belastbaar tijdperk; (3) belastbare inkomsten hebben verkregen in dat tijdperk (anders is er geen verschuldigde belasting, maar wel een aangifteplicht voor de meeste belastingplichtigen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 3" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 5" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 305", "context": "Aangifteplicht voor PB-belastingplichtigen" }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Aanknopingspunten voor woonplaats: inschrijving Rijksregister (sterk vermoeden), gezin in België, kinderen op Belgische school, eigen woning België, hoofdberoepsactiviteit in België. Voor zetel-fortuin: locatie van het beheer/bestuur van het vermogen (bv. Belgische bank-rekening, makelaarsdossier in België).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Beoordeling 'naar de omstandigheden'" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-indicaties uit rechtspraak en fiscale handboeken" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "De gemeenschappelijke aanslag (gehuwden/wettelijk samenwonenden) opent gezinscorrecties: huwelijksquotient bij asymmetrische inkomens, gezamenlijke belastingvrije som, kinderen ten laste — vaak fiscaal gunstiger dan twee afzonderlijke aanslagen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 126" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-aangifte of laattijdige aangifte leidt tot ambtshalve aanslag met belastingverhogingen (10 % tot 200 %) en interesten — zelfs als achteraf blijkt dat geen belasting verschuldigd was. De aangifteplicht is een onafhankelijke verplichting (art. 305 WIB92).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 351", "context": "Aanslag van ambtswege" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
+      {
+        "id": "rijksinwoner-aanknopingspunt",
+        "naam": {
+          "primair": "Rijksinwoner / belastingplichtige PB"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Rijksinwoner = natuurlijke persoon die ofwel zijn woonplaats in België heeft gevestigd, ofwel — bij afwezigheid van woonplaats — de zetel van zijn fortuin in België heeft. De beoordeling gebeurt 'naar de omstandigheden': feitelijk centrum van levensbelangen. Inschrijving in het Rijksregister levert een weerlegbaar vermoeden van woonplaats in België op. Voor gehuwden (zonder feitelijke scheiding) wordt de belastingwoonplaats bepaald door waar het gezin gevestigd is. Diplomatieke ambtenaren in het buitenland blijven rijksinwoner (art. 2 — 1° b-d).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 3", "context": "Aan PB onderworpen: rijksinwoners" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De dubbele aanknoping (woonplaats + zetel-fortuin) voorkomt fiscale niemandsmanland: wie geen vast adres heeft maar wel vermogen beheert vanuit België, blijft fiscaal aanknoopbaar. Het Rijksregister-vermoeden is een praktische bewijslast-omkering — de fiscus moet niet bewijzen waar je woont, jij moet bewijzen dat je elders woont.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
+              ]
+            }
+          }
+        }
+      },
       {
         "id": "inkomstencategorieen-overzicht",
         "naam": {
@@ -130,37 +313,44 @@
         "bouwsteen_type": "mechanisme",
         "kern": {
           "substantie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — 4-categorieën-matrix (onroerend · roerend · beroeps · diverse) + brutering/netto-bepaling/tarifering per categorie",
+            "tekst": "Het belastbaar inkomen van een rijksinwoner bestaat uit de som van vier categorieën (art. 6 WIB92): (1) onroerend inkomen — kadastraal inkomen of huur; (2) roerend inkomen — dividenden, interesten, royalty's; (3) beroepsinkomen — onderverdeeld in winst, baten, bezoldigingen, pensioenen, en winst/baten van vorige werkzaamheid (art. 23 §1); (4) divers inkomen — meerwaarden, onderhoudsuitkeringen, occasionele winsten (art. 90 WIB92). Elke categorie kent een eigen netto-bepalingsregel (bruto minus kosten of forfait) en kan onder uitzonderingstarieven vallen (afzonderlijk belast: art. 171 WIB92). Inkomsten van onroerende of roerende goederen die gebruikt worden in een beroepswerkzaamheid worden geherclassificeerd als beroepsinkomsten (art. 37).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 §1", "context": "5 sub-categorieën beroepsinkomen" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 37", "context": "Herclassificatie zakelijke roerende/onroerende inkomsten naar beroep" }
               ]
             }
           }
-        }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Categorie", "Sub-categorieën", "Netto-bepaling", "Tariefnoot"],
+            "rijen": [
+              ["1. Onroerend inkomen", "Eigen woning · verhuurd · ongebouwd", "KI geïndexeerd × revalorisatie, of werkelijke huur − 40 % forfait", "Globaal tarief (art. 130) — gewestelijke verminderingen"],
+              ["2. Roerend inkomen", "Dividenden · interesten · royalty's · auteursrechten", "Bruto − inningskosten (forfait of werkelijk)", "Veelal afzonderlijk 30 % (RV bevrijdend) — globaal indien gunstiger"],
+              ["3. Beroepsinkomen", "Winst · baten · bezoldigingen · pensioenen · vorige werkzaamheid", "Bruto − beroepskosten (forfait of werkelijk)", "Globaal progressief (art. 130)"],
+              ["4. Diverse inkomsten", "Meerwaarden · onderhoudsuitkeringen · occasionele winst · prijzen", "Bruto − werkelijke kosten", "Vaak afzonderlijk (art. 171: 16,5 % / 33 %)"]
+            ]
+          }
+        ]
       },
       {
         "id": "aanslagjaar-vs-inkomstenjaar",
         "naam": {
-          "primair": "Aanslagjaar vs inkomstenjaar"
+          "primair": "Aanslagjaar vs inkomstenjaar (AJ = IJ + 1)"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — AJ = IJ+1 voor natuurlijke personen",
+            "tekst": "Voor natuurlijke personen geldt: het belastbaar tijdperk is steeds het kalenderjaar (1 januari − 31 december). De voor een aanslagjaar verschuldigde belasting wordt gevestigd op de inkomsten van dat belastbaar tijdperk. Aanslagjaar = inkomstenjaar + 1. Voorbeeld: inkomsten 2025 worden belast in aanslagjaar 2026 (aangifte in te dienen in 2026, aanslag gevestigd in 2026-2027). Voor vennootschappen kan het belastbaar tijdperk afwijken van het kalenderjaar — voor PB nooit.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 360", "context": "'De voor een aanslagjaar verschuldigde belasting wordt gevestigd op de inkomsten die de belastingplichtige in het belastbare tijdperk heeft verkregen.'" },
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 199-200", "context": "Belastbaar tijdperk = kalenderjaar voor PB" }
               ]
             }
           }
@@ -174,15 +364,13 @@
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — wie moet aangifte indienen, vrijstellingen",
+            "tekst": "Elke aan de PB onderworpen belastingplichtige is jaarlijks verplicht een aangifte in te dienen in de vormen en termijnen bepaald door art. 307-311 WIB92. De aangifte vermeldt: alle belastbare inkomsten per categorie, buitenlandse rekeningen (a), buitenlandse levensverzekeringen (b), juridische constructies (c), winwin-leningen (d). Voor papieren aangifte: einde juni van het aanslagjaar. Voor elektronische aangifte (Tax-on-web): einde juli; verlengd tot 16 oktober wanneer buitenlandse beroepsinkomsten of bepaalde categorieën aanwezig (art. 308/1). Bij overlijden: de erfgenamen, algemene legatarissen of begiftigden vervullen de aangifteplicht (art. 305 lid 2).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 305", "context": "Algemene aangifteplicht + erfgenamen-substitutie" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 307 §1/1", "context": "Vermeldingen op aangifte (buitenlandse rekeningen, etc.)" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 308/1", "context": "Verlengde termijn elektronische aangifte (16 oktober)" }
               ]
             }
           }
@@ -191,81 +379,452 @@
       {
         "id": "aanvullende-gemeentebelasting-mechaniek",
         "naam": {
-          "primair": "Aanvullende gemeentebelasting + gewest-decimes"
+          "primair": "Aanvullende gemeentebelasting + agglomeratiebelasting"
         },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "substantie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — opslag op federale PB door gemeente + gewest-impact",
+            "tekst": "Bovenop de federale PB heffen gemeente en (in voorkomend geval) agglomeratie een aanvullende belasting, uitgedrukt als een uniform percentage van de berekeningsgrondslag (federale belasting na verminderingen). Het percentage wordt jaarlijks door de gemeenteraad vastgesteld via belastingreglement (uiterlijk 31 januari) en moet beperkt zijn tot één decimaal. Voor agglomeraties geldt een wettelijk maximum van 1 %. Gemeentelijke tarieven schommelen typisch tussen 0 % (enkele rijke gemeenten) en 9 % (gemiddeld ca. 7 %). Op de aanvullende gemeentebelasting mag géén vermindering of vrijstelling worden toegepast — ze grijpt steeds op de berekende federale belasting.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 466", "context": "Berekeningsgrondslag aanvullende belasting" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 468", "context": "Uniform percentage, 1 decimaal, max 1 % voor agglomeraties, geen vermindering toepasbaar" }
               ]
             }
           }
         }
       },
       {
-        "id": "rijksinwoner-aanknopingspunt",
+        "id": "wereldwijd-inkomen",
         "naam": {
-          "primair": "Rijksinwoner / belastingplichtige PB"
+          "primair": "Wereldwijd-inkomen-beginsel"
         },
-        "bouwsteen_type": "regel",
+        "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — woonplaats vs zetel-fortuin, art 3-3bis WIB",
+            "tekst": "Rijksinwoners zijn aan de PB onderworpen op grond van al hun belastbare inkomsten, zelfs indien sommige daarvan in het buitenland zijn behaald of verkregen. Dubbele belasting wordt vermeden door dubbelbelastingverdragen (vrijstelling-met-progressievoorbehoud of verrekening van buitenlandse bronheffing).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 5" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 155", "context": "Vrijstelling met progressievoorbehoud voor verdrags-vrijgestelde inkomsten" }
               ]
             }
           }
         }
+      },
+      {
+        "id": "berekenings-cascade",
+        "naam": {
+          "primair": "Berekenings-cascade PB"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De PB-berekening verloopt in een vaste cascade: (1) bruto-inkomsten per categorie verzamelen; (2) per categorie netto-bepaling (forfait of werkelijke kosten); (3) som = totaal netto-inkomen (art. 6); (4) aftrekbare bestedingen aftrekken → belastbaar inkomen; (5) tariefstructuur toepassen (art. 130: progressieve schijven OF art. 171: afzonderlijke tarieven); (6) belastingvrije som en gezinslast-verminderingen (kinderen, ouderdom, handicap); (7) belastingverminderingen (giften, pensioensparen, dienstencheques, eigen woning); (8) basisbelasting Staat berekenen; (9) gemeentelijke opcentiemen erop berekenen; (10) bedrijfsvoorheffing + voorafbetalingen + roerende voorheffing verrekenen → resultaat = te betalen of terug te krijgen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 130", "context": "Progressieve tariefschijven" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 466" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cascade-synthese — uitwerking in record belastingberekening-pb" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Cascade-visualisatie:\n\n```mermaid\nflowchart TD\n  A[Bruto-inkomsten per categorie] --> B[Netto per categorie: forfait of werkelijke kosten]\n  B --> C[Totaal netto-inkomen art. 6]\n  C --> D[− Aftrekbare bestedingen]\n  D --> E[Belastbaar inkomen]\n  E --> F[Tarief art. 130 schijven OF art. 171 afzonderlijk]\n  F --> G[− Belastingvrije som + gezinslast]\n  G --> H[− Belastingverminderingen federaal + gewestelijk]\n  H --> I[Basisbelasting Staat]\n  I --> J[+ Aanvullende gemeentebelasting %]\n  J --> K[− Voorheffingen RV/BV + voorafbetalingen]\n  K --> L{Te betalen of terug}\n```"
+          }
+        ]
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-tweeverdieners",
+        "titel": "Tweeverdieners-gezin met kinderen — overzicht cascade AJ 2026",
+        "context": "Gezin Vandermeulen-Peeters (wettelijk gehuwd, gezin gevestigd in Gent). Inkomstenjaar 2025. Echtgenoot A = bediende, brutoloon 60.000 EUR. Echtgenoot B = leerkracht halftijds, brutoloon 22.000 EUR. 2 kinderen ten laste. Aanvullende gemeentebelasting Gent = 6,9 %.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 130" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 466" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 468" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Illustratieve cascade — exacte tarieven/plafonds via Cijferzakboekje AJ 2026" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — categorie 3 (beroepsinkomen): A: 60.000 bruto. Forfait beroepskosten ≈ 5.520 (forfait cap). Netto A ≈ 54.480. B: 22.000 bruto. Forfait ≈ 5.520 (cap bereikt). Netto B ≈ 16.480.",
+              "Stap 2 — geen onroerend/roerend/divers inkomen. Totaal netto-inkomen = 54.480 + 16.480 = 70.960 EUR.",
+              "Stap 3 — geen aftrekbare bestedingen → belastbaar inkomen = 70.960 EUR. Check huwelijksquotient: B/totaal = 16.480/70.960 ≈ 23 % (< 30 %) → quotient grijpt in voor aanvulling van B tot 30 %.",
+              "Stap 4 — toepassing tarief art. 130 op gesplitste inkomens per echtgenoot (gemeenschappelijke aanslag, afzonderlijke vaststelling per echtgenoot art. 126 §1) → basisbelasting Staat ≈ 18.500 EUR (illustratief).",
+              "Stap 5 — verminderingen: belastingvrije som per echtgenoot + verhoging voor 2 kinderen ten laste (toegerekend aan hoogstverdiener) → te verminderen belasting ≈ −3.200 EUR.",
+              "Stap 6 — federale basisbelasting na verminderingen ≈ 15.300 EUR.",
+              "Stap 7 — aanvullende gemeentebelasting Gent: 15.300 × 6,9 % ≈ 1.056 EUR.",
+              "Stap 8 — totaal verschuldigd ≈ 16.356 EUR. Verrekening bedrijfsvoorheffing (geheven aan bron op brutolonen, ≈ 14.500 EUR) → saldo ≈ 1.856 EUR bij te betalen op aanslagbiljet."
+            ],
+            "resultaat": "De cascade illustreert dat de gemeentelijke opcentiemen circa 7 % bovenop de federale belasting voegen. Een variatie van 0 % naar 9 % tussen gemeenten geeft enkele honderden tot duizenden EUR verschil per jaar. Exacte tarieven en plafonds AJ 2026 in Cijferzakboekje."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-gemengd-inkomen",
+        "titel": "Eénverdiener met huurinkomsten en spaargelden",
+        "context": "Mevr. Janssens, gepensioneerd, alleenstaand, rijksinwoner Antwerpen. Inkomstenjaar 2025: (1) pensioen 24.000 EUR; (2) huurinkomsten privé-woning verhuurd aan particulier (KI 1.500 EUR geïndexeerd); (3) spaarrekening: 850 EUR interesten (RV bevrijdend); (4) dividenden Belgische aandelen: 1.200 EUR (RV 30 % bevrijdend).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 171", "context": "Afzonderlijke aanslagvoeten" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Categorie", "Bruto", "Netto-bepaling", "Behandeling"],
+            "rijen": [
+              ["Onroerend (privé-verhuur particulier)", "n.v.t.", "KI 1.500 × indexcoëfficiënt × 1,40 (revalorisatie)", "Globaal samen met pensioen"],
+              ["Roerend — spaargeld", "850 EUR", "Vrijgesteld tot wettelijk plafond (geïndexeerd; basisbedrag 800 EUR niet-geïndexeerd) — surplus belast 15 %", "Bevrijdend RV — niet aan te geven indien onder plafond"],
+              ["Roerend — dividenden", "1.200 EUR", "Bevrijdend RV 30 % aan bron geheven (360 EUR)", "Niet aan te geven (tenzij art. 21 lid 1 14° eerste schijf terugvragen)"],
+              ["Beroepsinkomen (pensioen)", "24.000 EUR", "Geen forfait — bruto = netto", "Globaal tarief art. 130 met vermindering art. 154"]
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Les voor de stagiair: roerende inkomsten met bevrijdende RV (interesten, dividenden) hoeven in principe niet aangegeven te worden — de roerende voorheffing aan bron is de definitieve belasting. Aangeven kan voordelig zijn wanneer de globale belasting (incl. opcentiemen) lager zou uitkomen, of om de eerste schijf dividenden (geïndexeerd ca. 833 EUR AJ 2026, art. 21 lid 1 14° WIB92) terug te vorderen. De huurinkomsten van een privé-woning verhuurd aan een particulier worden globaal belast op basis van kadastraal inkomen (niet werkelijke huur) × revalorisatie-coëfficiënt 1,40, niet op basis van de werkelijk geïnde huur."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-internationale-tewerkstelling",
+        "titel": "Rijksinwoner met Nederlandse bezoldigingen — wereldwijd inkomen + DBV",
+        "context": "Dhr. Verheyden, ingenieur, woont in Antwerpen (gezin in België) maar werkt voor Nederlandse werkgever in Eindhoven. Brutoloon 80.000 EUR (volledig Nederlandse bron, art. 15 DBV BE-NL → belastbaar in NL, vrijgesteld in BE met progressievoorbehoud). Bijkomend: 5.000 EUR huurinkomsten Belgisch appartement.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 5", "context": "Wereldwijd-inkomen-beginsel" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 155", "context": "Vrijstelling met progressievoorbehoud" },
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag inkomen en vermogen", "ref": "art. 15", "context": "Toewijzing arbeidsinkomen aan werkstaat" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Dhr. Verheyden is rijksinwoner: gezin in België → woonplaats = België (art. 2 — 1° + Rijksregister-vermoeden).",
+              "Stap 2 — Wereldwijd inkomen aan te geven: 80.000 (NL-bezoldiging) + onroerend inkomen (KI Belgisch appartement).",
+              "Stap 3 — Vrijstelling-met-progressievoorbehoud (art. 155 + DBV BE-NL): de NL-bezoldiging is in BE vrijgesteld maar telt mee voor het tarief op het niet-vrijgestelde inkomen.",
+              "Stap 4 — Belastingberekening: stap 1 = belasting op (80.000 + KI) tegen art. 130-tarief; stap 2 = effectief tarief = stap1 / (80.000 + KI); stap 3 = stap2 × KI = effectief verschuldigde federale PB.",
+              "Stap 5 — Resultaat: KI wordt belast tegen het marginale tarief alsof het bovenop 80.000 EUR komt → hoger tarief dan bij isolatie van het onroerend inkomen. Dit is het progressievoorbehoud: het 'opduwen' van het Belgisch inkomen in hogere schijven."
+            ],
+            "resultaat": "Belgische rijksinwoner blijft wereldwijd belast (art. 5). Het DBV vrijwaart tegen dubbele belasting op de NL-bezoldiging, maar via progressievoorbehoud beïnvloedt die bezoldiging wel het tarief op het Belgisch deel — een typisch examenvalkuilpunt."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Rijksinwoner ≠ Belgische nationaliteit",
+        "verkeerde_assumptie": "Stagiairs denken dat enkel Belgen rijksinwoner kunnen zijn (en dus aan PB onderworpen).",
+        "kernpunt": "Rijksinwonerschap is een feitelijk begrip dat niets te maken heeft met nationaliteit. Een Spanjaard die in Brussel woont met zijn gezin is rijksinwoner en betaalt PB op wereldwijd inkomen. Een Belg die emigreert naar Spanje en daar zijn gezin en levenscentrum heeft, is géén rijksinwoner meer en betaalt enkel BNI op Belgische bron-inkomsten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Definitie zonder nationaliteits-vereiste" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanslagjaar vs inkomstenjaar in formuleringen",
+        "verkeerde_assumptie": "Studenten verwarren AJ en IJ in oefeningen, bv. 'aangifte voor AJ 2026 betreft inkomsten 2026'.",
+        "kernpunt": "Voor natuurlijke personen geldt altijd AJ = IJ + 1. Aangifte voor AJ 2026 betreft inkomsten 2025. In het examen: lees zorgvuldig of de vraag spreekt over aanslagjaar (jaar waarin de aanslag wordt gevestigd) of inkomstenjaar (jaar waarin het inkomen werd verkregen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 360" }
+          ]
+        }
+      },
+      {
+        "titel": "RV bevrijdend = niet aangeven, ook niet 'voor de vorm'",
+        "verkeerde_assumptie": "Studenten geven dividenden en interesten aan in de aangifte 'voor de volledigheid', ook al is de roerende voorheffing bevrijdend.",
+        "kernpunt": "Wanneer de RV bevrijdend is (volle 30 % geheven aan bron op dividenden van Belgische oorsprong), hoeven die inkomsten NIET te worden aangegeven. Aangeven kán enkel wanneer dat fiscaal voordeliger is (lager globaal tarief, of om eerste schijf dividenden art. 21 lid 1 14° terug te vorderen). Aangeven 'voor de vorm' kan tot ongunstige globale belasting leiden via art. 313.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 313", "context": "Bevrijdend karakter RV — geen verplichting tot aangifte" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 21 lid 1 14°", "context": "Vrijstelling eerste schijf dividenden via aangifte" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanvullende gemeentebelasting verminderen 'vergeten'",
+        "verkeerde_assumptie": "Een belastingvermindering toepassen op de gemeentelijke opcentiemen, of de basisbelasting Staat al inclusief gemeentebelasting nemen.",
+        "kernpunt": "Op de aanvullende gemeentebelasting mag GEEN vermindering, vrijstelling of uitzondering worden toegepast (art. 468 lid 3). Ze grijpt op de basisbelasting Staat NA verminderingen — niet ervoor. De berekening is dus sequentieel: federale PB (met alle verminderingen) → opslag gemeentebelasting (% × federale PB) → totaal.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 468", "context": "'Op de aanvullende belasting op de personenbelasting mag geen vermindering ... worden toegepast.'" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 466" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Vergelijkingsmatrix vier inkomstenbelastingen art. 1 WIB92",
+        "inhoud": {
+          "kolommen": ["Belasting", "Belastingplichtige", "Grondslag", "Tarief"],
+          "rijen": [
+            ["PB (art. 3-178)", "Rijksinwoner (natuurlijke persoon)", "Wereldwijd inkomen, 4 categorieën", "Progressief 25 % → 50 % + opcentiemen"],
+            ["VenB (art. 179-219bis)", "Binnenlandse vennootschap", "Wereldwijd inkomen vennootschap", "25 % (KMO-tarief 20 % op eerste 100K)"],
+            ["RPB (art. 220-226)", "Belgische rechtspersoon ≠ vennootschap (vzw, OFP, ...)", "Beperkt aan specifieke inkomstencategorieën", "Variërende tarieven per categorie"],
+            ["BNI (art. 227-248)", "Niet-inwoner (PP of rechtspersoon)", "Belgische bron-inkomsten", "PB-tarieven of VenB-tarieven naargelang subcategorie"]
+          ]
+        }
       }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particulier-client-pb",
+      "naam": {
+        "primair": "Particuliere cliënt — PB-aangifte en advisering"
+      },
+      "intro": "De accountant die voor een particuliere cliënt of gezin de PB-aangifte voorbereidt en het belastbaar inkomen optimaliseert.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "checklist-categorieen",
+              "naam": {
+                "primair": "Checklist 4 categorieën doorlopen"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke nieuwe cliënt of jaarlijkse aangifte: systematisch de 4 inkomstencategorieën doorlopen (onroerend → roerend → beroeps → diverse). Vermijd categorie-blindheid. Specifiek nakijken: privé-verhuurde tweede woning, buitenlandse bankrekening (verplicht aan te geven, art. 307), occasionele winsten (vlooienmarkt, Airbnb), schenkingen of nalatenschappen (RV-implicaties roerend inkomen), buitenlandse pensioenen of dividenden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 6" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 307" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk PB-stage" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "rijksinwoner-toets",
+              "naam": {
+                "primair": "Rijksinwoner-toets bij internationale cliënten"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij cliënten met internationale dimensie (expat, Belg in buitenland, grensarbeider): eerst rijksinwonerschap vaststellen (art. 2 — 1° WIB92 + DBV-tiebreaker). Pas dan kan worden bepaald of PB of BNI van toepassing is. Documenteer in het dossier: woonplaats (Rijksregister-uittreksel), gezinsverblijf, vermogensbeheer-locatie. Vermijd 'automatisch' PB-aangifte voor wie misschien niet meer rijksinwoner is.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+                      { "type": "modelverdrag", "naam": "OESO-modelverdrag inkomen en vermogen", "ref": "art. 4", "context": "Tiebreaker dubbel-inwonerschap" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "optimalisatie-categorie-keuze",
+              "naam": {
+                "primair": "Keuze: roerend inkomen aangeven of niet?"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënten met dividenden van Belgische aandelen (RV 30 % aan bron): nagaan of het globaal belasten voordeliger is. Vuistregel: bij lage globale belasting (gepensioneerd, beperkte andere inkomsten) wordt globaal tarief mogelijk gunstiger; bij hoog inkomen blijft de RV bevrijdend voordeliger. Ook nagaan of de eerste schijf dividenden (art. 21 lid 1 14°, geïndexeerd ca. 833 EUR AJ 2026) terug te vorderen is via opname in aangifte.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 21 lid 1 14°" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 313" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-optimalisatie PB" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "uitleg-cascade",
+              "naam": {
+                "primair": "Cliënt de cascade uitleggen"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënten zien vaak alleen het eindbedrag op het aanslagbiljet en niet de cascade ervoor. Een goed adviesgesprek doorloopt: 'Dit is uw belastbaar inkomen' → 'Dit is uw belasting volgens schijven' → 'Hier zijn uw verminderingen' → 'Daarop komt nog x % gemeentebelasting'. Maakt fiscale optimalisatie tastbaar (bv. 'als u 1.000 EUR meer pensioensparen doet, wint u 300 EUR vermindering, dus netto-kost 700 EUR voor 1.000 EUR sparen').",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk PB-stage" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eigen-kantoor-zelfstandige",
+      "naam": {
+        "primair": "Zelfstandige cliënt — PB op winst of baten"
+      },
+      "intro": "De accountant die de boekhouding van een eenmanszaak/zelfstandige verzorgt en de PB-aangifte erop bouwt (winst of baten als beroepsinkomen).",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "scheiding-prive-beroep",
+              "naam": {
+                "primair": "Strikte scheiding privé-beroep in de boekhouding"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor een zelfstandige is de PB-aangifte volledig afhankelijk van de boekhoudkundige resultaten. Documenteer per uitgave het beroepskarakter; verwerk privé-onttrekkingen via een privé-rekening (klasse 416 of klasse 689); vermijd vermenging in klasse 6 (kosten). Bij onroerende goederen of voertuigen die voor beroep én privé worden gebruikt: bepaal het beroepsgebruik-percentage en documenteer met kilometerstaat of m²-verdeling — dit bepaalt direct het aftrekbare deel in de PB.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 49", "context": "Beroepskosten aftrekbaar voor zover bewezen + beroepskarakter" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "Niet-aftrekbare uitgaven (privé)" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk boekhouding zelfstandige" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "voorafbetalingen-pb-rol",
+              "naam": {
+                "primair": "Voorafbetalingen plannen voor zelfstandigen"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Zelfstandigen hebben géén bedrijfsvoorheffing aan bron op hun winst/baten. Om belastingvermeerdering (art. 157 e.v. WIB92) te vermijden, moeten ze voorafbetalingen verrichten in 4 kwartalen (VA1 t.e.m. VA4). De accountant plant deze op basis van geprojecteerde winst en maakt de cliënt attent op de hoogste bonificatie bij VA1 (vroegste kwartaal) en de wettelijke vermeerdering bij geen of onvoldoende VA. Detail in record voorafbetalingen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 157", "context": "Belastingvermeerdering bij geen/onvoldoende VA" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 175-177" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "fiscaal-recht"
+      "target": "fiscaal-recht",
+      "toelichting": "PB is één van de vier inkomstenbelastingen (art. 1 WIB92) binnen het Belgisch fiscaal recht."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "vennootschapsbelasting"
+      "target": "vennootschapsbelasting",
+      "gelijkenissen": [
+        "Beide zijn federale inkomstenbelastingen op het wereldwijd inkomen (art. 1 WIB92)",
+        "Beide gebruiken het concept 'belastbaar tijdperk' en 'aanslagjaar'",
+        "Beide hebben een aangifteplicht met administratieve sancties bij niet-naleving",
+        "Beide kennen voorafbetalingen om belastingvermeerdering te vermijden"
+      ],
+      "verschillen": [
+        "PB belast natuurlijke personen (rijksinwoners), VenB binnenlandse vennootschappen",
+        "PB-belastbaar tijdperk = kalenderjaar (vast); VenB-belastbaar tijdperk = boekjaar (kan afwijken)",
+        "PB is progressief (schijven 25-50 % + opcentiemen); VenB is proportioneel (25 % standaard, 20 % KMO eerste schijf)",
+        "PB werkt met 4 inkomstencategorieën + eigen netto-bepalingen per categorie; VenB werkt op één resultaat (boekhoudkundige winst → fiscale aanpassingen)",
+        "PB kent gezinslast-correcties (huwelijksquotient, kinderen ten laste); VenB niet",
+        "PB kent gewest- en gemeentelijke opcentiemen; VenB enkel federaal"
+      ],
+      "verwarring_risico": "Bij eenmansvennootschap-keuze (zelfstandige onder PB vs vennootschap onder VenB): stagiairs verwarren regelmatig de twee belastingstelsels. De zelfstandige blijft natuurlijke persoon onder PB; pas bij oprichting van een vennootschap (BV, NV) wordt de winst onder VenB belast en wordt aan de zaakvoerder een bezoldiging uitbetaald die op zijn beurt onder PB belastbaar is (dubbele laag).",
+      "render_hint": "als_keuze"
     },
     {
       "type": "bevat",
-      "target": "onroerend-inkomen-pb"
+      "target": "onroerend-inkomen-pb",
+      "toelichting": "Eerste van de vier inkomstencategorieën (art. 6 1° WIB92)."
     },
     {
       "type": "bevat",
-      "target": "roerend-inkomen-pb"
+      "target": "roerend-inkomen-pb",
+      "toelichting": "Tweede categorie (art. 6 2°)."
     },
     {
       "type": "bevat",
-      "target": "beroepsinkomen-pb"
+      "target": "beroepsinkomen-pb",
+      "toelichting": "Derde categorie (art. 6 3°), opgesplitst in 5 subcategorieën conform art. 23 §1."
     },
     {
       "type": "bevat",
-      "target": "diverse-inkomsten-pb"
+      "target": "diverse-inkomsten-pb",
+      "toelichting": "Vierde categorie (art. 6 4°), zie art. 90 WIB92."
     },
     {
       "type": "triggert",
-      "target": "aangifte-pb"
+      "target": "aangifte-pb",
+      "toelichting": "Onderworpenheid aan PB leidt automatisch tot aangifteplicht (art. 305 WIB92)."
     },
     {
       "type": "triggert",
-      "target": "belastingberekening-pb"
+      "target": "belastingberekening-pb",
+      "toelichting": "Aangifte van inkomsten activeert de berekeningscascade (art. 130 e.v.)."
+    },
+    {
+      "type": "triggert",
+      "target": "aanslagbiljet-pb",
+      "toelichting": "Berekening resulteert in vestiging van de aanslag (art. 353-359 WIB92)."
+    },
+    {
+      "type": "bevat",
+      "target": "huwelijksquotient",
+      "toelichting": "Specifieke techniek van inkomenstoerekening tussen echtgenoten — sub-mechanisme bij gemeenschappelijke aanslag (art. 87-89)."
+    },
+    {
+      "type": "bevat",
+      "target": "voorafbetalingen",
+      "toelichting": "Stelsel van vooruitbetaling voor zelfstandigen + bedrijfsleiders om vermeerdering te vermijden."
     }
   ]
 }
