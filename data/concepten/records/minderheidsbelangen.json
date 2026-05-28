@@ -2,22 +2,14 @@
   "id": "minderheidsbelangen",
   "naam": {
     "primair": "Minderheidsbelangen",
-    "synoniemen": [
-      "non-controlling interests",
-      "NCI",
-      "minority interests"
-    ]
+    "synoniemen": ["belangen van derden", "non-controlling interests", "NCI", "minority interests"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.4.I.D"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.4.I.D"],
     "scope": {
       "in": [
         "Minority interests / non-controlling interests (NCI)",
@@ -27,54 +19,213 @@
         "IFRS 3 keuze-as: full-goodwill vs partial-goodwill"
       ],
       "out": [
-        {
-          "topic": "Integrale consolidatie (ontstaans-context)",
-          "richting": "moet-verwijzen",
-          "ref": "integrale-consolidatie"
-        },
-        {
-          "topic": "Consolidatieverschil (goodwill-context)",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatieverschil"
-        }
+        {"topic": "Integrale consolidatie (ontstaans-context)", "richting": "moet-verwijzen", "ref": "integrale-consolidatie"},
+        {"topic": "Consolidatieverschil (goodwill-context)", "richting": "moet-verwijzen", "ref": "consolidatieverschil"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/minderheidsbelangen.json",
+      "primary_bronnen": ["KB WVV art. 3:132", "KB WVV art. 3:145", "IFRS 3", "IFRS 10", "CBN-advies 2022/09"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle: KB WVV art. 3:132 + IFRS 3 B69 + CBN 2022/09 voorbeeld 10."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Minderheidsbelangen (BE-GAAP: 'belangen van derden'; IFRS: 'non-controlling interests' of NCI) zijn het aandeel in het eigen vermogen en het resultaat van een integraal geconsolideerde dochter dat NIET toekomt aan de moedervennootschap. Ze ontstaan zodra de moeder minder dan 100 % van het EV-belang in de dochter bezit terwijl zij toch de controle uitoefent (anders zou de dochter niet integraal worden geconsolideerd). In de geconsolideerde balans verschijnen ze in een aparte rubriek IX 'Belangen van derden', tussen het groeps-EV en het vreemd vermogen; in de resultatenrekening als afzonderlijke lijn onder het geconsolideerd resultaat.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"},
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:145"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: de groep behandelt de hele dochter alsof zij van haar is (integrale opname), maar erkent dat een deel van het vermogen en het resultaat eigenlijk toebehoort aan externe aandeelhouders van de dochter. Die externe aandeelhouders zijn geen schuldeisers (geen recht op terugbetaling), maar ook geen groepsaandeelhouders (geen recht op groepsdividend). Daarom een eigen rubriek tussen EV en VV: 'Belangen van derden' is een soort 'EV van anderen'. Op resultaatniveau wordt eerst het volledige resultaat van de dochter in de geconsolideerde RR opgenomen; daarna wordt het deel dat toekomt aan minderheden afgetrokken om tot het groepsresultaat te komen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer minderheidsbelang-presentatie"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: het volledig opnemen van een 60%-dochter zou zonder afzonderlijke minderheidsaanduiding misleidend zijn — de gebruiker zou denken dat het hele vermogen aan de groepsaandeelhouders toekomt. De rubriek 'Belangen van derden' herstelt dat door zichtbaar te maken hoeveel vermogen aan externe partijen toekomt. Het verzoent de 'one-entity-view' (groep als economische eenheid) met de 'parent-view' (alleen wat aan moeder-aandeelhouders toebehoort).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer consolidatie — entity-theory vs parent-theory"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["integrale-consolidatie"],
+      "kader": "consolidatiemethoden",
+      "naast_relevant": ["consolidatieverschil"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB WVV art. 3:132 + art. 3:145; IFRS 10 (Verordening 2023/1803) + IFRS 3 voor goodwill-keuze",
+        "toelichting": "Stabiele regeling. Een grote IFRS-wijziging: sinds IFRS 3 (2008) kan goodwill bij overname op twee manieren gewaardeerd worden — full-goodwill (inclusief NCI) of partial-goodwill (alleen moeder-aandeel)."
+      },
+      "voor": [
+        {"tekst": "Verschijnt altijd wanneer een dochter integraal geconsolideerd wordt en de moeder minder dan 100 % bezit. Geldt ook bij de-facto-controle zonder meerderheid stemrechten — dan zijn de minderheidsbelangen relatief groot.",
+         "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Niet bij 100%-dochters (geen minderheidsbelang, hoogstens een rubriek 'IX. Belangen van derden = 0'). Niet bij vermogensmutatiemethode (één-regel-presentatie — minderheidsbelang gaat op in het VMM-saldo). Niet bij evenredige consolidatie (alleen pro-rata-deel opgenomen, dus geen 'overschot' voor derden).",
+         "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:139"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:140"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "ev-presentatie",
+        "naam": {"primair": "EV-presentatie — rubriek IX"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In de geconsolideerde balans verschijnen 'Belangen van derden' in rubriek IX, na het eigen vermogen van de groep (rubrieken I-VIII) en vóór het vreemd vermogen. Onder IFRS staat het binnen het totale eigen vermogen ('Equity'), gerubriceerd onder 'Non-controlling interests' apart van 'Equity attributable to owners of the parent'. Berekening op verkrijgingsdatum: aandeel derden × EV dochter op die datum. Daarna wordt het aandeel jaarlijks bijgewerkt voor het deel van derden in het resultaat en in EV-mutaties.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10 alinea 22"}]}
+          }
+        }
+      },
+      {
+        "id": "resultaat-presentatie",
+        "naam": {"primair": "Resultaat-presentatie — afzonderlijke lijn"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het volledige resultaat van de dochter wordt regel-per-regel in de geconsolideerde RR opgenomen (omzet, kosten, bedrijfsresultaat, ...) tot aan het netto-resultaat. Daaronder twee lijnen: 'Aandeel van de groep in het resultaat' + 'Aandeel van derden in het resultaat'. Het aandeel van derden = % belang derden × netto-resultaat dochter (na aanpassingen). Bij IFRS-presentatie staat dit als 'profit attributable to owners of the parent' + 'profit attributable to non-controlling interests'.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:145"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10 alinea 22, B94"}]}
+          }
+        }
+      },
+      {
+        "id": "formule-berekening-nci",
+        "naam": {"primair": "Berekening minderheidsbelang"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Op verkrijgingsdatum: NCI = % aandeel derden × identifiable net assets dochter (BE-GAAP: boekhoudkundig EV). Daarna jaarlijks bijwerken: NCI(t) = NCI(t-1) + (% derden × resultaat dochter jaar t) - (% derden × dividend dochter jaar t) ± andere EV-mutaties.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardformule"}]}
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "NCI(verkrijgingsdatum) = %_derden × EV_dochter(verkrijgingsdatum)"
+          }
+        ]
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cbn-2022-09",
+        "titel": "Minderheidsbelang in CBN 2022/09 voorbeeld 10 (80%-dochter)",
+        "context": "X koopt 80 % van X1 voor 200. EV X1 = 450. Aandeel X in EV = 360. Aandeel derden in EV = 90 (20 % × 450). Goodwill = 200 - 360 = -160 (negatief consolidatieverschil).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies", "ref": "2022/09 voorbeeld 10"}]},
+        "weergaven": [
+          {
+            "type": "balans_snapshot",
+            "titel": "Geconsolideerde balans X + X1 — EV-deel",
+            "tekst": "Rubriek I-VIII (groeps-EV): Kapitaal 100 + Reserves 300 + Consolidatieverschil (passief) 160 = 560. Rubriek IX (Belangen van derden): 90. Totaal EV-zijde: 650."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "NCI = vreemd vermogen",
+        "verkeerde_assumptie": "Studenten zien 'Belangen van derden' en denken aan een schuld aan externe aandeelhouders.",
+        "kernpunt": "NCI is géén schuld — minderheidsaandeelhouders hebben geen recht op terugbetaling, alleen op een aandeel in het EV en in dividenden. Daarom staat de rubriek aan de EV-kant van de balans (rubriek IX, vóór VV), niet onder schulden.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}]}
+      },
+      {
+        "titel": "Verwarring met minderheidsvordering (WVV)",
+        "verkeerde_assumptie": "'Minderheidsbelang' = de minderheidsvordering van art. 5:104 / 7:157 WVV.",
+        "kernpunt": "Twee totaal verschillende begrippen die toevallig 'minderheid' delen. De minderheidsvordering is een vennootschapsrechtelijk procedureel recht (vordering namens vennootschap tegen bestuurders door aandeelhouders met ≥10 % BV / ≥1 % NV). Het minderheidsbelang in consolidatie is een boekhoudkundige presentatierubriek voor het EV-aandeel van niet-controlerende aandeelhouders.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 5:104, 7:157"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}]}
+      },
+      {
+        "titel": "Verlies-NCI: negatief saldo",
+        "verkeerde_assumptie": "NCI kan niet negatief worden — bij verlies stopt men met afboeken.",
+        "kernpunt": "Onder IFRS 10 (alinea B94) wordt het aandeel van derden in verlies onbeperkt afgeboekt, ook als NCI negatief wordt — minderheid draagt dus virtueel mee in verliezen. Onder BE-GAAP geldt dezelfde logica (totale toerekening van resultaat aan derden naar rato van belang).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10 alinea B94"}]}
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "IFRS 3 — full-goodwill vs partial-goodwill voor NCI-waardering bij overname",
+        "opties": [
+          {"keuze": "Partial-goodwill (proportional method) — NCI = % derden × identifiable net assets fair value", "voordeel": "Eenvoudig, geen waardering van NCI tegen reële waarde nodig", "nadeel": "Goodwill bevat enkel het deel van de moeder — niet de full economic goodwill"},
+          {"keuze": "Full-goodwill (fair value method) — NCI = reële waarde NCI op verkrijgingsdatum", "voordeel": "Goodwill weerspiegelt economic value van de hele dochter (inclusief synergie-potentieel)", "nadeel": "Vereist fair value-meting van NCI (typisch via aandelenkoers of taxatie)"}
+        ],
+        "vuistregel": "IFRS 3 laat de keuze per business combination — niet als entity-policy. Beursgenoteerde dochters: full-goodwill makkelijker (marktwaarde NCI = aandelenkoers × aantal NCI-aandelen). Niet-genoteerde: partial-goodwill praktischer.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 3 alinea 19"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "consolidatiemethoden"
+      "id": "groepsmoeder-nci",
+      "naam": {"primair": "Groepsmoedervennootschap"},
+      "intro": "De accountant die de geconsolideerde jaarrekening opstelt en moet beslissen over NCI-presentatie en -waardering.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "nci-update-jaarlijks",
+              "naam": {"primair": "Jaarlijkse update minderheidsbelang"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke consolidatie: NCI(t-1) → NCI(t) door (1) aandeel derden in resultaat van dochter optellen, (2) aandeel derden in dividend van dochter aftrekken, (3) eventuele EV-mutaties (kapitaalverhogingen, herwaarderingsreserves, OCI-bewegingen) pro rata toewijzen. Bij wijziging van belang zonder controleverlies (bv. moeder koopt nog 10 % bij): NCI naar rato aanpassen tegen een EV-tegenpost (geen P&L-impact, IFRS 10 alinea 23).",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10 alinea 23, B96"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-nci-allocatie",
+              "naam": {"primair": "Audit NCI-allocatie + bewegingen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Verifieer (1) de juiste berekening van het %-belang derden (statuten + aandeelhoudersregister); (2) de openingsbalans NCI op verkrijgingsdatum (reproduceer EV-aandeel × %); (3) de jaarlijkse update (resultaat-allocatie + dividenduitkeringen); (4) de gekozen IFRS 3-methode (full vs partial goodwill) en haar consistente toepassing; (5) toelichting IFRS 12 par. 10-17 over significante NCI.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 par. 10-17"}, {"type": "norm", "naam": "ISA 600", "ref": "par. A23 + Bijlage 2"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "consolidatiemethoden"},
+    {"type": "vereist", "target": "integrale-consolidatie", "toelichting": "Minderheidsbelangen ontstaan alleen bij integrale consolidatie van een niet-100%-dochter."},
+    {"type": "vergelijkbaar_met", "target": "consolidatieverschil",
+      "gelijkenissen": ["Beide ontstaan op verkrijgingsdatum bij eerste integrale consolidatie", "Beide nemen het pro-rata-aandeel van de moeder versus derden in rekening"],
+      "verschillen": ["Consolidatieverschil = excedent of tekort aanschaffingsprijs t.o.v. moeder-EV-aandeel → goodwill of badwill", "Minderheidsbelang = derden-EV-aandeel op verkrijgingsdatum → eigen EV-rubriek", "Goodwill kan ook NCI omvatten onder full-goodwill-methode (IFRS 3)"],
+      "render_hint": "als_glossarium"
     }
   ]
 }
