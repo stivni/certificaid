@@ -2,22 +2,15 @@
   "id": "variantieanalyse",
   "naam": {
     "primair": "Variantieanalyse",
-    "synoniemen": [
-      "variance analysis",
-      "verschillen-boekhouding"
-    ]
+    "synoniemen": ["variance analysis", "verschillen-boekhouding", "afwijkingsanalyse"],
+    "vertaling": {"fr": "analyse des écarts"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.8.VI",
-      "1.8.VI.C"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.8.VI", "1.8.VI.C"],
     "scope": {
       "in": [
         "Afwijking budget vs werkelijk",
@@ -27,54 +20,181 @@
         "Cross standaardkostenmethode"
       ],
       "out": [
-        {
-          "topic": "Standaardkostenmethode (input-normen)",
-          "richting": "moet-verwijzen",
-          "ref": "standaardkostenmethode"
-        },
-        {
-          "topic": "Budgetbeheer Σ (parent)",
-          "richting": "moet-verwijzen",
-          "ref": "budgetbeheer"
-        }
+        {"topic": "Standaardkostenmethode (input-normen)", "richting": "moet-verwijzen", "ref": "standaardkostenmethode"},
+        {"topic": "Budgetbeheer Σ (parent)", "richting": "moet-verwijzen", "ref": "budgetbeheer"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/variantieanalyse.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+        "tekst": "Variantieanalyse (variance analysis) is de gestructureerde uiteenrafeling van de afwijking tussen werkelijk gerealiseerde cijfers en een referentienorm — een budget of standaardkost. De totale variantie wordt opgesplitst naar oorzaak (prijs versus hoeveelheid, volume versus efficiency, markt versus operationeel) en naar verantwoordelijkheid (inkoop, productie, verkoop, ...). Doel: management-by-exception mogelijk maken — focus op materiële afwijkingen en verklaren waarom ze zijn ontstaan.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "substantie": {
+        "tekst": "Variantieanalyse maakt twee soorten verschillen zichtbaar: prijs-effect (kostprijs of verkoopprijs per eenheid wijkt af van norm) en hoeveelheids-effect (verbruik of volume per eenheid wijkt af van norm). Door beide te isoleren wordt de verantwoordelijkheid duidelijk: een prijsstijging op grondstof is meestal niet aan productie te wijten — wel een hoger verbruik. Voor de gecertificeerd accountant is dit een controle-instrument: ongunstige varianties wijzen op procesinefficiëntie, prijsdruk of marktwijzigingen die actie vereisen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Zonder variantieanalyse blijft het verschil tussen 'budget' en 'werkelijk' een ondoorzichtige globale afwijking die niet stuurt — een budget-overschrijding van 50.000 EUR zegt niet of de organisatie meer verbruikt heeft, meer betaald heeft, of meer verkocht en daardoor logisch meer ingekocht. Door op te splitsen naar prijs × hoeveelheid wordt het verschil interpreteerbaar en kan de directie gericht ingrijpen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["budgetbeheer", "standaardkostenmethode"],
+      "kader": "budgetbeheer"
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Periodieke (maandelijkse, kwartaal) management-rapportering · efficiency-opvolging productie · budget-control · post-mortem-analyse na projecten · oorzakelijk afwijkings-onderzoek bij forecasting-fouten.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "variantie-formules",
+        "naam": {"primair": "Twee basisformules — prijs × hoeveelheid"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor elke kostencategorie (grondstof, arbeid, overhead) wordt de totale variantie opgesplitst in een prijsvariantie en een hoeveelheidsvariantie. Prijsvariantie (PV) = werkelijke hoeveelheid × (werkelijke prijs − standaardprijs). Hoeveelheidsvariantie (HV) = standaardprijs × (werkelijke hoeveelheid − standaardhoeveelheid). Som = totale variantie = werkelijke kost − standaardkost. Conventie: positieve variantie = ongunstig (werkelijk > standaard); negatieve = gunstig. De volgorde van decompositie heeft impact op de exacte cijfers — meest gebruikte conventie is PV op werkelijke hoeveelheid, HV op standaardprijs.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        },
+        "weergaven": [
+          {"type": "formule_expressie", "uitdrukking": "Prijsvariantie = (Werkelijke prijs − Standaardprijs) × Werkelijke hoeveelheid"},
+          {"type": "formule_expressie", "uitdrukking": "Hoeveelheidsvariantie = (Werkelijke hoeveelheid − Standaardhoeveelheid) × Standaardprijs"},
+          {"type": "formule_expressie", "uitdrukking": "Totale variantie = Werkelijke kost − Standaardkost = PV + HV"}
+        ]
+      },
+      {
+        "id": "variantie-types",
+        "naam": {"primair": "Soorten varianties — overzicht"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Per kostencategorie: grondstof-prijsvariantie + grondstof-hoeveelheidsvariantie (verbruik); arbeids-loontariefvariantie + arbeids-efficiencyvariantie (uren); variabele-overhead-spendingvariantie + efficiencyvariantie; vaste-overhead-budgetvariantie + volumevariantie (capaciteitsbenutting). Aan opbrengstkant: verkoop-prijsvariantie + verkoop-volumevariantie + verkoop-mixvariantie (welke producten verkocht). De optelsom van alle varianties verklaart het verschil tussen 'budgetwinst' en 'werkelijke winst'.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "verantwoordelijkheid",
+        "naam": {"primair": "Verantwoordelijkheid per variantie"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Prijsvariantie grondstof → inkoop (kan keuze van leverancier of timing van aankoop beïnvloeden). Hoeveelheidsvariantie grondstof → productie (verbruik per eenheid). Loontariefvariantie → personeel/HR. Efficiencyvariantie arbeid → productie. Volumevariantie vaste OH → verkoop (volume) + algemene directie (capaciteitsbeslissing). Verkoopprijsvariantie → commercieel. Een goede variantierapport benoemt expliciet de verantwoordelijke; alleen dan stuurt het management-actie.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "management-by-exception",
+        "naam": {"primair": "Management-by-exception — materialiteitsdrempel"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Niet elke variantie verdient management-aandacht. Gangbare drempels: absoluut bedrag (bv. > 5.000 EUR) en relatief percentage (bv. > 10% van de standaard). Onder de drempel: 'binnen norm', geen verdere actie. Boven de drempel: oorzaak-analyse + corrigerende actie. Het systeem moet zo gekalibreerd zijn dat 5-10% van de varianties boven de drempel uitkomt — anders is de drempel te laag (te veel ruis) of te hoog (significante problemen worden gemist).",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-grondstof-variantie",
+        "titel": "Zelena Bio NV — grondstof-variantie tafel-productie",
+        "context": "Standaard: 2 kg eikenhout × 50 EUR/kg = 100 EUR per tafel. Maart: 100 tafels geproduceerd. Werkelijk: 220 kg gekocht aan 52 EUR/kg = 11.440 EUR.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch cijfervoorbeeld"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "Decompositie totale variantie",
+            "stappen": [
+              "Standaardkost = 100 tafels × 100 = 10.000 EUR",
+              "Werkelijke kost = 11.440 EUR",
+              "Totale variantie = 11.440 − 10.000 = +1.440 EUR ongunstig",
+              "Prijsvariantie = 220 kg × (52 − 50) = +440 EUR ongunstig (verantwoordelijke: inkoop — kunnen ze de hogere prijs vermijden?)",
+              "Hoeveelheidsvariantie = 50 × (220 − 200) = +1.000 EUR ongunstig (verantwoordelijke: productie — waarom 220 kg in plaats van 200 kg?)",
+              "Controle: 440 + 1.000 = 1.440 ✓"
+            ],
+            "resultaat": "Productie heeft een groter probleem dan inkoop. Mogelijke oorzaken hoger verbruik: meer uitval, foute zaagmaten, kwaliteitsprobleem hout. Inkoop heeft een prijsstijging van 4% gerealiseerd — eventueel marktbeweging onderzoeken."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Variantie = schuldvraag",
+        "verkeerde_assumptie": "Een ongunstige variantie wijst altijd een schuldige aan.",
+        "kernpunt": "Varianties zijn diagnostische signalen, geen veroordelingen. Een hogere prijsvariantie kan een legitieme marktbeweging zijn waar inkoop machteloos tegen is. Een ongunstige efficiencyvariantie kan veroorzaakt zijn door een verkeerde standaard (te ambitieus) of door externe omstandigheden (slechtere grondstof-kwaliteit). De variantie opent het gesprek; ze beantwoordt het niet.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Alleen ongunstige varianties onderzoeken",
+        "verkeerde_assumptie": "Gunstige varianties zijn altijd goed nieuws — geen actie nodig.",
+        "kernpunt": "Onverwacht gunstige varianties zijn even verdacht als ongunstige. Een gunstige prijsvariantie kan wijzen op kwaliteitsdaling van grondstof; een gunstige efficiencyvariantie kan wijzen op verkorte productiestappen die de kwaliteit in gevaar brengen. Onderzoek beide kanten van de drempel.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Decompositie van varianties — overzicht per kostencategorie.",
+        "inhoud": {
+          "assen": ["Prijs-as", "Hoeveelheids-as"],
+          "rijen": [
+            {"as": "Grondstof", "prijs": "Prijsvariantie grondstof", "hoeveelheid": "Hoeveelheidsvariantie grondstof (verbruik)"},
+            {"as": "Arbeid", "prijs": "Loontariefvariantie", "hoeveelheid": "Efficiencyvariantie arbeid (uren)"},
+            {"as": "Variabele overhead", "prijs": "Variabele-OH-spendingvariantie", "hoeveelheid": "Efficiencyvariantie variabele OH"},
+            {"as": "Vaste overhead", "prijs": "Budget-variantie vaste OH", "hoeveelheid": "Volumevariantie (capaciteitsbenutting)"},
+            {"as": "Verkoop", "prijs": "Verkoopprijsvariantie", "hoeveelheid": "Verkoopvolumevariantie + mixvariantie"}
           ]
         }
       }
-    }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "budgetbeheer"
+      "id": "controller-rol",
+      "naam": {"primair": "Controller-rol — periodieke variantierapport"},
+      "intro": "De gecertificeerd accountant in een controller-rol bouwt het maandelijks variantierapport.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "variantierapport-opmaak",
+              "naam": {"primair": "Variantierapport opmaken"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maandelijks rapport bevat: (1) executive summary met de top-3 materiële varianties; (2) decompositie per kostencategorie met prijs- en hoeveelheidsvariantie; (3) korte schriftelijke verklaring per materiële variantie (van de verantwoordelijke afdeling); (4) corrigerende acties voor de volgende maand. Vorm: bondig (max 2-3 pagina's) en altijd vergelijkbaar met vorige maanden (trend-zichtbaarheid).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "budgetbeheer"},
+    {"type": "vereist", "target": "standaardkostenmethode", "toelichting": "Zonder voorafbepaalde standaarden of budget is variantieanalyse onmogelijk — er moet een norm zijn om tegen te vergelijken."}
   ]
 }
