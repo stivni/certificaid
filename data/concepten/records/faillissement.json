@@ -2,27 +2,33 @@
   "id": "faillissement",
   "naam": {
     "primair": "Faillissement",
-    "synoniemen": [
-      "faillite",
-      "bankruptcy"
-    ]
+    "synoniemen": ["faillite", "bankruptcy"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.X",
-      "3.0.X.E",
-      "3.0.X.F"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.X", "3.0.X.E", "3.0.X.F"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/faillissement.json",
+      "primary_bronnen": [
+        "WER art. XX.98",
+        "WER art. XX.99",
+        "WER art. XX.102",
+        "WER art. XX.108",
+        "WER art. XX.132",
+        "WER art. XX.156",
+        "WER art. XX.173",
+        "WER art. XX.225",
+        "WER art. XX.226"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,7 +36,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1192, NIEUW)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:55:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WER art. XX.98-235 + WER art. XX.225-226 aansprakelijkheid)."
       }
     ],
     "scope": {
@@ -43,51 +56,45 @@
         "Verschoonbaarheid (natuurlijk persoon)"
       ],
       "out": [
-        {
-          "topic": "Parent kader — WER boek XX",
-          "richting": "moet-verwijzen",
-          "ref": "insolventierecht-wer-boek-xx"
-        },
-        {
-          "topic": "Gerechtelijke-reorganisatie als alternatieve route",
-          "richting": "moet-verwijzen",
-          "ref": "gerechtelijke-reorganisatie"
-        },
-        {
-          "topic": "Bestuurdersaansprakelijkheid bij faillissement (WER XX:225)",
-          "richting": "moet-verwijzen",
-          "ref": "bestuurdersaansprakelijkheid"
-        },
-        {
-          "topic": "Oprichtersaansprakelijkheid bij faillissement binnen 3 jaar",
-          "richting": "moet-verwijzen",
-          "ref": "oprichtersaansprakelijkheid"
-        },
-        {
-          "topic": "Ontbinding-vereffening als gerechtelijke afhandeling",
-          "richting": "moet-verwijzen",
-          "ref": "ontbinding-en-vereffening"
-        },
-        {
-          "topic": "Rehabilitatie + verschoonbaarheid",
-          "richting": "moet-verwijzen",
-          "ref": "rehabilitatie-en-beroepsverbod"
-        }
+        { "topic": "Parent kader — WER boek XX", "richting": "moet-verwijzen", "ref": "insolventierecht-wer-boek-xx" },
+        { "topic": "Gerechtelijke-reorganisatie als alternatieve route", "richting": "moet-verwijzen", "ref": "gerechtelijke-reorganisatie" },
+        { "topic": "Bestuurdersaansprakelijkheid bij faillissement (WER XX:225)", "richting": "moet-verwijzen", "ref": "bestuurdersaansprakelijkheid" },
+        { "topic": "Oprichtersaansprakelijkheid bij faillissement binnen 3 jaar", "richting": "moet-verwijzen", "ref": "oprichtersaansprakelijkheid" },
+        { "topic": "Ontbinding-vereffening als gerechtelijke afhandeling", "richting": "moet-verwijzen", "ref": "ontbinding-en-vereffening" },
+        { "topic": "Rehabilitatie + verschoonbaarheid", "richting": "moet-verwijzen", "ref": "rehabilitatie-en-beroepsverbod" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het faillissement is de gerechtelijke procedure waarbij het volledige vermogen van een onderneming die duurzaam haar schulden niet meer kan betalen, onder het beheer van een curator wordt geplaatst. De curator realiseert de activa en verdeelt de opbrengst onder de schuldeisers volgens een wettelijke rangorde. Het is de eindprocedure binnen boek XX van het Wetboek van Economisch Recht (WER) — wat overblijft wanneer reorganisatie geen redelijk vooruitzicht meer biedt. Voor rechtspersonen leidt het faillissement tot ontbinding; voor natuurlijke personen kan het uitmonden in kwijtschelding van restschulden.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.98", "context": "De faillissementsprocedure strekt ertoe het vermogen van de schuldenaar onder bevoegdheid van een curator te plaatsen" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.99 § 1", "context": "Toepassingsvoorwaarden faillietverklaring" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is faillissement het einde van de onderneming als going concern: de boedel (vermogen op datum vonnis) wordt 'bevroren', alle uitvoeringsmaatregelen van individuele schuldeisers worden opgeschort en vervangen door één collectieve afwikkeling. Voor de accountant valt zijn rol grotendeels weg vanaf het vonnis — de curator neemt het beheer over. Wat blijft: bijstand aan de gefailleerde-natuurlijke-persoon voor kwijtschelding restschulden, aangifte schuldvordering bij eigen openstaande facturen, en de stortvloed aan documenten die de curator opvraagt (boekhouding laatste 3 jaar, klantenlijsten, bankuittreksels).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.110 (boedel-omvang)" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.156 (aangifte schuldvordering)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrol accountant na faillissement" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het faillissement bestaat om twee redenen: (1) collectief schuldeisersbelang — zonder gemeenschappelijke procedure leidt 'eerst komt, eerst maalt' tot ongelijke behandeling en kapot-procederen van de schuldenaar; (2) marktintegriteit — een insolvabele onderneming uit de markt halen voorkomt dat ze nieuwe schuldeisers besmet. De 'tweede-kans'-gedachte (verschoonbaarheid voor natuurlijke personen sinds 2017) erkent dat sociale dood van de ondernemer een sub-optimaal maatschappelijk resultaat is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 (kwijtschelding restschulden)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Rechtseconomische rationale" }
           ]
         }
       }
@@ -95,98 +102,436 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WER boek XX"
-      }
+        "sinds": "2018-05-01",
+        "wettelijke_basis": "WER boek XX, titel VI (W 11-08-2017, hervormd W 7-06-2023)"
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) **duurzame staking van betaling** — de schuldenaar betaalt structureel niet meer (geen incidentele kasspanning); (2) **geschokt krediet** — leveranciers en bankiers willen niet meer leveren of lenen zonder cash. Eén van beide volstaat niet. Beide voorwaarden worden door de rechter feitelijk getoetst.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.99 § 1" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Drie initiatieven kunnen het faillissement uitlokken: (a) **bekentenis** door de schuldenaar zelf (art. XX.102 — verplicht binnen 1 maand na duurzame staking); (b) **dagvaarding** door een schuldeiser of door het openbaar ministerie; (c) **ambtshalve** door de rechtbank na onderzoek door de kamer voor ondernemingen in moeilijkheden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.99 e.v." },
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.102", "context": "Verplichte aangifteplicht binnen 1 maand" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Voor bestuurders: laattijdige aangifte (>1 maand na staking betaling) of voortzetten reddeloos verliesgevende activiteit kan leiden tot persoonlijke aansprakelijkheid voor het netto-passief van het faillissement (art. XX.225 — 'wrongful trading').",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" },
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.226", "context": "Aansprakelijkheid bestuurders + bijstand-verleners" }
+            ]
+          }
+        }
+      ]
     },
+    "subconcepten": [
+      {
+        "id": "twee-toepassingsvoorwaarden",
+        "naam": { "primair": "Twee cumulatieve toepassingsvoorwaarden" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Duurzame staking van betaling**: de schuldenaar is niet meer in staat om zijn opeisbare schulden structureel te voldoen. 'Duurzaam' onderscheidt dit van een tijdelijke kasspanning. Indicatoren: aanhoudende achterstanden RSZ/btw, protest van wisselbrieven, onbetaalde lonen, niet-gehonoreerde betalingsovereenkomsten. **Geschokt krediet**: het vertrouwen van de buitenwereld is verdwenen — banken willen niet meer lenen, leveranciers eisen contante betaling, kredietverzekeraars schrappen dekking. De rechtbank toetst beide feitelijk, niet op basis van een mathematische formule.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.99 § 1" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Het dubbele criterium voorkomt voortijdige faillietverklaring bij tijdelijke liquiditeitskrapte (vereiste 'duurzaam') én bij een onderneming die op papier solvabel lijkt maar de facto niet meer functioneert (vereiste 'geschokt krediet').",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "procedure-aangifte-vonnis-publicatie",
+        "naam": { "primair": "Procedure: aangifte → vonnis → publicatie" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Stap 1 — Aangifte/dagvaarding**: schuldenaar dient aangifte in via Regsol, of een schuldeiser dagvaardt. Bijgevoegd: balans + resultatenrekening, lijst schuldeisers, personeelslijst. **Stap 2 — Faillietvonnis**: ondernemingsrechtbank spreekt faillissement uit, stelt curator(en) en rechter-commissaris aan, bepaalt termijn voor aangifte schuldvorderingen (meestal 30 dagen). **Stap 3 — Publicatie**: het vonnis wordt bekendgemaakt in het Belgisch Staatsblad en in Regsol. Het is uitvoerbaar bij voorraad (art. XX.108) — beroep schorst de uitvoering niet.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.99 e.v. (vonnis)" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.108", "context": "Uitvoerbaar bij voorraad" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "curator-rol",
+        "naam": { "primair": "Curator — beheer en vereffening boedel" },
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De curator (vaak een advocaat, soms een gecertificeerd accountant of bedrijfsrevisor) wordt door de rechtbank aangesteld en neemt onmiddellijk na het vonnis het beheer van de gefailleerde over (art. XX.132). Drie kerntaken: (1) **inventariseren** van het vermogen (art. XX.134); (2) **realiseren** van de activa (verkoop voorraad, vorderingen innen, eventueel verderzetting activiteit met machtiging rechter-commissaris); (3) **verifiëren** van de aangegeven schuldvorderingen en **uitkeren** volgens rangorde. De curator legt periodiek rekening en verantwoording af aan de rechter-commissaris.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.98" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.132" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.134" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.140 (verderzetting met machtiging)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "rangorde-schuldeisers-faillissement",
+        "naam": { "primair": "Rangorde schuldeisers bij verdeling" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De opbrengst van de boedel wordt verdeeld volgens een wettelijke rangorde: (1) **boedelschulden** — kosten faillissement zelf (erelonen curator, lopende huur, lonen na faillietvonnis); (2) **bijzondere voorrechten** op specifieke goederen (pand, hypotheek, retentierecht); (3) **algemene voorrechten** (RSZ, btw, lonen vóór faillissement binnen wettelijke grenzen); (4) **gewone schuldeisers** (proportionele uitkering 'pari passu'); (5) **achtergestelde schuldeisers** (vaak aandeelhouders-leningen) — bijna altijd nul. Aandeelhouders staan na alle schuldeisers en krijgen meestal niets terug.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.145 (uitkering door curator)" },
+                  { "type": "wettekst", "naam": "Hypotheekwet", "ref": "art. 17-19" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Rangorde-synthese uit boek XX + hypotheekwet" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "termijnen-procedure",
+        "naam": { "primair": "Termijnen en sluiting" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Aangifte schuldvorderingen**: schuldeisers dienen binnen de termijn van het vonnis (meestal 30 dagen, soms langer) hun vordering elektronisch in via Regsol (art. XX.155-156). Laattijdige aangifte blijft mogelijk tot de afsluiting, maar verliest het recht op reeds gedane uitkeringen. **Sluiting van het faillissement**: gebeurt door vonnis bij ofwel (a) **ontoereikend actief** (snelle sluiting zonder uitkering — vaak binnen 6-12 maanden), ofwel (b) **vereffening** na verdeling van de opbrengst. De sluiting beëindigt het mandaat van de curator en, voor een rechtspersoon, ontbindt en sluit ze ineens de vereffening.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.155-156" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.134 §2-5", "context": "Sluiting wegens ontoereikend actief" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "verschoonbaarheid-natuurlijke-persoon",
+        "naam": { "primair": "Kwijtschelding restschulden (natuurlijke persoon)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer de gefailleerde een natuurlijke persoon is, kan hij bij de rechtbank de kwijtschelding van restschulden vragen (art. XX.173). De rechter wijst dit toe behoudens manifeste fraude of zware fout. Effect: schulden die na liquidatie van de boedel openblijven, worden onafdwingbaar. Dit geldt enkel voor de gefailleerde-natuurlijke-persoon zelf — niet voor borgen of mede-debiteuren, behalve voor de kosteloze persoonlijke zekerheidsteller (echtgenoot, ouder die borg stond).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 § 1" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Het 'tweede-kans'-principe: een ondernemer die te goeder trouw failliet ging mag herbeginnen zonder een levenslange schuldenlast. Voor rechtspersonen geldt dit niet — die houden bij sluiting gewoon op te bestaan.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "faillissementsaansprakelijkheid-bestuurders",
+        "naam": { "primair": "Faillissementsaansprakelijkheid van bestuurders" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Twee aansprakelijkheidsgrondslagen bij faillissement van een rechtspersoon: (1) **art. XX.225 — wrongful trading**: bestuurders die wisten of moesten weten dat er geen redelijk vooruitzicht was om de continuïteit van de onderneming te behouden of een faillissement te vermijden, en die toch de verliesgevende activiteit voortzetten, kunnen aansprakelijk worden gesteld voor het netto-passief; (2) **art. XX.226 — kennelijk grove fout** die heeft bijgedragen tot het faillissement (bv. boekhouding niet gevoerd, fictieve facturen, gebruik vennootschap voor persoonlijke doeleinden). De curator (of een schuldeiser bij stilzittende curator) stelt de vordering in.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.226", "context": "Geldt ook voor huidige of gewezen bestuurders, dagelijkse bestuurders, leden directieraad" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktisch: de bestuurder die zijn jaarrekening laat publiceren met een waarschuwing 'continuïteit onzeker' en niet handelt, of die nog leveranciers laat leveren wetende dat hij niet kan betalen, riskeert zijn privé-vermogen. De accountant die bestuurders bijstaat moet hierop wijzen — laattijdige aangifte van faillissement is bijna altijd een verkeerde keuze voor de bestuurder.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.226" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviesvertaling voor accountant" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
     "bouwstenen": [
       {
-        "id": "voorwaarde-duurzame-staking",
-        "naam": {
-          "primair": "Voorwaarde: duurzame staking van betaling + geschokt krediet"
-        },
+        "id": "aangifteplicht-1-maand",
+        "naam": { "primair": "Aangifteplicht binnen 1 maand" },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — cumulatieve toepassingsvoorwaarden voor faillietverklaring.",
+            "tekst": "De schuldenaar die voldoet aan de voorwaarden van faillissement (duurzame staking + geschokt krediet) moet binnen één maand na het ontstaan ervan aangifte doen bij de ondernemingsrechtbank (art. XX.102). Niet-aangifte na deze termijn is op zichzelf al een mogelijk grond voor bestuurdersaansprakelijkheid.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.102" }
               ]
             }
           }
         }
       },
       {
-        "id": "curator",
-        "naam": {
-          "primair": "Curator"
-        },
-        "bouwsteen_type": "begrip",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — door rechtbank aangesteld; beheert boedel · realiseert activa · keert schuldeisers uit volgens rangorde.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "rangorde-schuldeisers",
-        "naam": {
-          "primair": "Rangorde schuldeisers"
-        },
+        "id": "boedel-omvang",
+        "naam": { "primair": "Boedel = volledig vermogen op datum vonnis" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — voorrechten · hypotheken · gewone schuldeisers · achtergestelden.",
+            "tekst": "De boedel omvat alle goederen die toebehoren aan de gefailleerde op de datum van het faillietvonnis, inclusief vorderingen, onroerende goederen, immateriële activa en goederen verworven tijdens de procedure. Uitzondering: persoonlijke goederen 'voor eigen gebruik' en levensonderhoud voor de gefailleerde-natuurlijke-persoon en zijn gezin.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.110 § 3" },
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.2, 5°", "context": "Levensonderhoud" }
               ]
             }
           }
+        }
+      },
+      {
+        "id": "terugvordering-koopwaren",
+        "naam": { "primair": "Terugvordering niet-geleverde koopwaren" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Verkochte koopwaren die nog niet aan de gefailleerde (of voor zijn rekening aan een derde) zijn geleverd of verzonden, kunnen door de verkoper worden teruggevorderd (art. XX.199). Dit is een uitzondering op het beginsel dat alle goederen tot de boedel behoren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.199" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "faillissement-geen-grond-arbeidsbreuk",
+        "naam": { "primair": "Faillissement op zich geen grond voor opzeg arbeidsovereenkomsten" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het faillissement van een natuurlijke persoon of rechtspersoon kan op zich alleen geen grond zijn voor automatische beëindiging van arbeidsovereenkomsten (art. XX.191). De curator beslist over voortzetting of opzeg, met respect voor arbeidsrechtelijke beschermingsregels.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.191" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Tijdslijn van een faillissement — Zelena Bio NV",
+        "context": "Zelena Bio NV staakt structureel haar betalingen sinds januari. De bank trekt het kaskrediet in op 15 februari. De zaakvoerder doet bekentenis op 1 maart.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch tijdslijn-voorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tijdslijn",
+            "tekst": "Dag 0 (1 maart): Bekentenis via Regsol\nDag 3: Vonnis faillietverklaring — curator en rechter-commissaris aangesteld\nDag 3 + 1: Curator neemt boekhouding, sleutels, IT-toegang over\nDag 3 — Dag 30: Inventarisatie + aangifte schuldvorderingen door schuldeisers (termijn = 30 dagen)\nDag 30 — Maand 6: Realisatie activa (verkoop voorraad, inning vorderingen)\nMaand 6 — Maand 12: Verificatievonnis + verdeling opbrengst volgens rangorde\nMaand 12+: Sluitingsvonnis → ontbinding NV"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Faillissement = einde van de accountant-rol",
+        "verkeerde_assumptie": "Zodra het faillissement wordt uitgesproken, kan de accountant zijn dossier sluiten.",
+        "kernpunt": "De curator vraagt bijna altijd de volledige boekhouding van de laatste 3 jaar op + klantenlijsten + bankuittreksels. De accountant moet meewerken (beroepsplicht) en, als kosteloos zekerheidsteller of medebestuurder, eigen aansprakelijkheidsrisico's bewaken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beroepspraktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "Beroep tegen faillietvonnis schorst niets",
+        "verkeerde_assumptie": "Een hoger beroep tegen het faillietvonnis houdt de procedure tegen.",
+        "kernpunt": "Het vonnis is uitvoerbaar bij voorraad (art. XX.108): de curator neemt onmiddellijk het beheer over, zelfs als beroep is aangetekend. Pas bij vernietiging in beroep wordt de situatie achteraf rechtgezet — wat in de praktijk zelden gebeurt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.108" }
+          ]
+        }
+      },
+      {
+        "titel": "Verschoonbaarheid geldt voor de vennootschap",
+        "verkeerde_assumptie": "Een failliete BV kan om kwijtschelding van restschulden vragen.",
+        "kernpunt": "Kwijtschelding (art. XX.173) geldt enkel voor natuurlijke personen. Een rechtspersoon houdt bij sluiting op te bestaan en de restschulden gaan mee verdwijnen — maar dat is geen kwijtschelding, dat is ontbinding. Wie persoonlijke borgen heeft gesteld (zaakvoerder, echtgenoot) blijft daarvoor instaan, tenzij die borg een 'kosteloze persoonlijke zekerheid' was.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 § 1" }
+          ]
         }
       }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "insolventierecht-wer-boek-xx"
+      "id": "eigen-kantoor-bij-faillissement-client",
+      "naam": { "primair": "Accountant bij faillissement van eigen cliënt" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "dossier-overdragen-curator",
+              "naam": { "primair": "Dossier overdragen aan curator" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Binnen de eerste week na het vonnis: lever de volledige boekhouding van de laatste 7 jaar, de personeelslijst, de openstaande klanten- en leveranciersbalans en de bankuittreksels. De curator heeft toegang tot Regsol nodig — vraag de cliënt om elektronische toegangscodes mee te delen. Bewaar zelf kopieën — vooral van eigen advies-correspondentie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.152", "context": "Curator kan een beroep doen op gefailleerde + bijstandverleners" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkstap-vertaling" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "verschoonbaarheid-vragen",
+              "naam": { "primair": "Natuurlijke persoon: kwijtschelding restschulden vragen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Als de gefailleerde een eenmanszaak of vrije beroeper is: dien binnen 3 maanden na faillietvonnis een verzoek tot kwijtschelding van restschulden in via Regsol (art. XX.173). De rechtbank wijst dit standaard toe behoudens fraude — zwijgen kost de cliënt zijn 'tweede kans'.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 § 1" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "bestuurder-aansprakelijkheid-bespreken",
+              "naam": { "primair": "Bestuurder-aansprakelijkheid bespreken vóór aangifte" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij rechtspersoon-faillissement: bespreek met de bestuurder de risico's van art. XX.225 (wrongful trading) en XX.226 (kennelijk grove fout). Documenteer de redelijke vooruitzichten-analyse — als bestuurder kan aantonen dat hij op het moment van doorgaan redelijkerwijs op herstel mocht hopen, is wrongful trading uitgesloten. Een goed gedocumenteerd budget + cashflow-plan helpt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.225 + XX.226" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Risico-mitigatie via documentatie" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "vergelijkbaar_met",
-      "target": "gerechtelijke-reorganisatie"
-    },
-    {
-      "type": "triggert",
-      "target": "bestuurdersaansprakelijkheid"
-    },
-    {
-      "type": "triggert",
-      "target": "oprichtersaansprakelijkheid"
-    },
-    {
-      "type": "triggert",
-      "target": "ontbinding-en-vereffening"
+      "id": "schuldeiser-positie-eigen-kantoor",
+      "naam": { "primair": "Accountantskantoor als schuldeiser (openstaande erelonen)" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "aangifte-schuldvordering-doen",
+              "naam": { "primair": "Eigen aangifte schuldvordering tijdig indienen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Binnen de termijn van het faillietvonnis (meestal 30 dagen): dien via Regsol aangifte in van openstaande erelonen — naam, ondernemingsnummer, bedrag, eventuele voorrang. Boekhoudkundige erelonen genieten geen bijzonder voorrecht: ze zijn 'gewone schuld'. Verwacht dus zelden meer dan de 'pari passu'-uitkering (typisch 5-15% bij faillissement zonder voorrechten-overschot).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.155-156" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "insolventierecht-wer-boek-xx" },
+    { "type": "vergelijkbaar_met", "target": "gerechtelijke-reorganisatie",
+      "gelijkenissen": ["Beide vallen onder WER boek XX", "Beide zijn gerechtelijke procedures onder ondernemingsrechtbank"],
+      "verschillen": ["Reorganisatie zoekt continuïteit; faillissement vereffent de boedel", "Reorganisatie schort uitvoeringsmaatregelen op; faillissement neemt het beheer over"],
+      "verwarring_risico": "Studenten zien faillissement vaak als 'mislukte reorganisatie'; in werkelijkheid zijn het twee autonome routes met eigen voorwaarden",
+      "render_hint": "als_keuze"
+    },
+    { "type": "triggert", "target": "bestuurdersaansprakelijkheid" },
+    { "type": "triggert", "target": "oprichtersaansprakelijkheid" },
+    { "type": "triggert", "target": "ontbinding-en-vereffening" },
+    { "type": "vereist", "target": "rehabilitatie-en-beroepsverbod" }
   ]
 }
