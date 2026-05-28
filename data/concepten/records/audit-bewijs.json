@@ -8,12 +8,16 @@
       "controlebewijs",
       "audit procedures",
       "audit techniques"
-    ]
+    ],
+    "vertaling": {
+      "fr": "éléments probants",
+      "en": "audit evidence"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -28,109 +32,380 @@
     "scope": {
       "in": [
         "Bewijsverzamelings-fase — wat onderbouwt het audit-oordeel",
-        "#audit-beweringen (assertions ISA 315): balans-saldi (bestaan/volledigheid/waardering/rechten) · transacties (occurrence/volledigheid/juistheid/cut-off/classificatie) · toelichtingen",
-        "7 procedures ISA 500/505/520: #inspectie · #observatie · #navraag · #externe-bevestiging (banken/klanten/leveranciers ISA 505) · #herrekening · #herperformance · #analytische-procedures",
-        "#steekproef (ISA 530 statistisch vs niet-statistisch)",
-        "#schriftelijke-bevestiging-management (LOR ISA 580)",
-        "#it-bewijs (audittrail · IT-controls · CAATs · ISA 315/330)",
-        "#boekhoudkundige-schattingen (ISA 540 — voorzieningen · fair value · going concern)",
-        "#noclar (niet-naleving wet+regelgeving · ISA 250)"
+        "Audit-beweringen (assertions ISA 315): balans-saldi (bestaan/volledigheid/waardering/rechten) · transacties (occurrence/volledigheid/juistheid/cut-off/classificatie) · toelichtingen",
+        "7 procedures ISA 500/505/520: inspectie · observatie · navraag · externe bevestiging · herrekening · herperformance · cijferanalyses",
+        "Steekproef (ISA 530 statistisch vs niet-statistisch)",
+        "Schriftelijke bevestiging management (letter of representation, ISA 580)",
+        "IT-bewijs (audittrail · IT-controls · CAATs · ISA 315/330)",
+        "Boekhoudkundige schattingen (ISA 540 — voorzieningen · fair value · going concern)",
+        "Niet-naleving van wet- en regelgeving — NOCLAR (non-compliance with laws and regulations, ISA 250)"
       ],
       "out": [
-        {
-          "topic": "Cyclus-context (fase 3)",
-          "richting": "moet-verwijzen",
-          "ref": "controleopdracht"
-        },
-        {
-          "topic": "Planning stuurt bewijswerk (input)",
-          "richting": "moet-verwijzen",
-          "ref": "audit-planning"
-        },
-        {
-          "topic": "Afronding gebruikt bewijs voor oordeel (output)",
-          "richting": "moet-verwijzen",
-          "ref": "audit-afronding"
-        },
-        {
-          "topic": "Dossier-documentatie",
-          "richting": "moet-verwijzen",
-          "ref": "revisiedossier"
-        },
-        {
-          "topic": "IT-controles als bewijs in IT-omgeving (cross IC)",
-          "richting": "moet-verwijzen",
-          "ref": "it-controles"
-        },
-        {
-          "topic": "Cyclus-substantive-testing",
-          "richting": "moet-verwijzen",
-          "ref": "cyclus-analyse"
-        },
-        {
-          "topic": "Verbonden-partijen-procedures",
-          "richting": "mag-verwijzen",
-          "ref": "verbonden-partijen"
-        },
-        {
-          "topic": "Fraude-procedures (ISA 240)",
-          "richting": "moet-verwijzen",
-          "ref": "fraude"
-        }
+        { "topic": "Cyclus-context (fase 3)", "richting": "moet-verwijzen", "ref": "controleopdracht" },
+        { "topic": "Planning stuurt bewijswerk (input)", "richting": "moet-verwijzen", "ref": "audit-planning" },
+        { "topic": "Afronding gebruikt bewijs voor oordeel (output)", "richting": "moet-verwijzen", "ref": "audit-afronding" },
+        { "topic": "Dossier-documentatie", "richting": "moet-verwijzen", "ref": "revisiedossier" },
+        { "topic": "IT-controles als bewijs in IT-omgeving (cross IC)", "richting": "moet-verwijzen", "ref": "it-controles" },
+        { "topic": "Cyclus-substantive-testing", "richting": "moet-verwijzen", "ref": "cyclus-analyse" },
+        { "topic": "Verbonden-partijen-procedures", "richting": "mag-verwijzen", "ref": "verbonden-partijen" },
+        { "topic": "Fraude-procedures (ISA 240)", "richting": "moet-verwijzen", "ref": "fraude" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "cluster-extract-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/audit-bewijs.json",
+      "primary_bronnen": [
+        "ISA 500",
+        "ISA 505",
+        "ISA 520",
+        "ISA 530",
+        "ISA 540 (herzien)",
+        "ISA 580",
+        "ISA 315 (herzien 2019)",
+        "ISA 250 (herzien)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T08:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T12:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 500/505/520/530/540/580/250). Sub-concepten: assertions, 7 procedures, steekproef, LOR, IT-bewijs, schattingen, NOCLAR." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Audit-bewijs (controle-informatie) is alle informatie waarop de auditor zich baseert om tot conclusies te komen die zijn oordeel onderbouwen. Bron-types: financiële administratie van de entiteit zelf én bronnen van buiten (externe bevestigingen, fysieke observatie, externe deskundigen). Twee kwaliteitseisen die ISA 500 oplegt: **voldoende** (sufficient — voldoende kwantiteit) én **geschikt** (appropriate — relevant en betrouwbaar). Hoe hoger het ingeschatte risico op afwijking van materieel belang, hoe meer of overtuigender het bewijs nodig is.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ISA 500", "ref": "Doelstellingen + definities" },
+            { "type": "norm", "naam": "ISA 530", "ref": "par. 2 (steunpunt op ISA 500)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bewijs is geen verzameling losse documenten maar een **gestructureerde stapel argumenten per assertion**. Voor elke materiële post in de jaarrekening vraagt de auditor: ‘welke beweringen moeten waar zijn opdat dit cijfer correct is, en welke procedure overtuigt mij van elk?’ Voorbeeld: handelsvorderingen 1.250.000 EUR — assertions: (a) bestaan: er bestaan klanten die ons dit verschuldigd zijn (procedure: externe bevestiging, ISA 505); (b) waardering: het bedrag is recupereerbaar (procedure: ouderdomsanalyse + waardevermindering); (c) rechten: wij zijn eigenaar van de vordering (procedure: factuur-leveringsbon-overeenkomst inspectie); (d) cut-off: vorderingen horen tot juiste boekjaar (procedure: cut-off test rond 31/12); (e) presentatie: correcte klassering KT/LT.\n\nDe **bewijspiramide** (overtuigingskracht oplopend): inspectie kopieën < inspectie originelen < externe bevestiging < eigen herperformance van controle door auditor.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. A190 categorieën beweringen" },
+            { "type": "norm", "naam": "ISA 500", "ref": "par. A30 betrouwbaarheid bewijs" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom zo formeel? De auditor geeft een oordeel dat juridisch tegenstelbaar moet zijn — bij latere fraude of insolventie kan een schadeclaim volgen. Zonder bewijs-traceability per cijfer kan hij in een tuchtprocedure of voor een rechtbank niet aantonen dát hij zorgvuldig werkte. Door bewijs gestructureerd per assertion te ordenen, kan een ervaren auditor die niet bij de controle betrokken was (ISA 230 par. 8) achteraf reconstrueren wat gedaan is en waarom. Dat is de bewijslast-architectuur van de hele beroepsgroep.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 230", "ref": "par. 8 (ervaren auditor-test)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["controleopdracht", "audit-planning"],
+      "kader": "controleopdracht",
+      "volgkennis": ["audit-afronding", "controleverklaring", "revisiedossier"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "ISA 500-599 (bewijsfamilie) · ISA 315/330 (link met planning) · ITAA-KMO-controlenorm",
+        "toelichting": "ISA 540 (herzien 2018, ingangsdatum 15/12/2019) versterkt verwachtingen rond schattingen. ISRS 4400 (herzien 2020) regelt AUP buiten audit-context."
+      },
+      "voor": [
+        {
+          "tekst": "Audit-bewijs wordt verzameld doorheen heel de bewijsfase (typisch jan-feb na boekafsluiting 31/12), maar ook tijdens interim-werk (nov-dec) voor risk-assessment + controls-tests, en in afronding (mrt-apr) voor subsequent events + LOR.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "assertions",
+        "naam": { "primair": "Audit-beweringen (assertions)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Beweringen zijn impliciete beweringen van het bestuur door het opstellen van de jaarrekening — de auditor identificeert ze om risico's per bewering in te schatten (ISA 315 herzien 2019 par. A190). Drie groepen:\n\n**Voor transactiestromen en gebeurtenissen**: (1) occurrence — heeft de transactie zich werkelijk voorgedaan en betreft ze de entiteit; (2) volledigheid — alle transacties zijn opgenomen; (3) juistheid — correcte bedragen; (4) cut-off — in juiste boekjaar; (5) classificatie — in juiste rekening.\n\n**Voor balanssaldi op einddatum**: (1) bestaan; (2) rechten en verplichtingen; (3) volledigheid; (4) juistheid waardering en allocatie.\n\n**Voor presentatie en toelichtingen**: (1) occurrence/rechten/verplichtingen; (2) volledigheid; (3) classificatie/begrijpelijkheid; (4) juistheid waardering.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. A190" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "zeven-procedures",
+        "naam": { "primair": "De 7 controleprocedures (ISA 500/505/520)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**1. Inspectie** — onderzoeken van administratieve vastleggingen of documenten (intern of extern) of fysieke activa. Voorbeeld: factuur-leveringsbon-bestelbon trio bekijken; voorraad-aanwezigheid in magazijn inspecteren.\n\n**2. Observatie** — toezien op een proces dat door anderen wordt uitgevoerd. Voorbeeld: aanwezig zijn bij voorraadopname rond 31/12.\n\n**3. Externe bevestiging** (ISA 505) — rechtstreeks ontvangen schriftelijk antwoord van een derde. Voorbeeld: banken-bevestiging (saldi + facilities + ondertekeningsbevoegden), debiteuren-circularisatie, advocaat-bevestigingsbrief.\n\n**4. Herrekening** — wiskundige juistheid van documenten of administratieve vastleggingen verifiëren.\n\n**5. Herperformance** — onafhankelijk uitvoeren van procedures of interne beheersingsmaatregelen die oorspronkelijk door de entiteit werden gedaan.\n\n**6. Cijferanalyses** (ISA 520) — evaluaties van financiële informatie via plausibele relaties tussen financiële en niet-financiële data (bv. loonkost/headcount, bruto-marge per product).\n\n**7. Navraag** — vragen stellen aan management, governance of derden — schriftelijk of mondeling. Alleen voldoende: zelden — meestal combineren met andere procedure.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 500", "ref": "par. A14-A25" },
+                  { "type": "norm", "naam": "ISA 505", "ref": "Externe bevestigingen" },
+                  { "type": "norm", "naam": "ISA 520", "ref": "Cijferanalyses" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "steekproef",
+        "naam": { "primair": "Steekproef (ISA 530)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Steekproef = toepassen van procedures op minder dan 100% van de items binnen een populatie, zodanig dat elk item een kans heeft om geselecteerd te worden. Twee benaderingen:\n\n**Statistische steekproef**: random of systematische selectie + waarschijnlijkheidstheorie om resultaat naar populatie te extrapoleren met gekende foutmarge. Vereist gedefinieerde steekproefomvang gebaseerd op tolerable error, expected error en confidence level. Voorbeeld: monetary unit sampling (MUS) bij debiteuren.\n\n**Niet-statistische steekproef**: professionele oordeelsvorming bepaalt selectie (bv. alle items boven materialiteit + steekproef onder). Geen formele statistische extrapolatie maar wel geredeneerde conclusie.\n\nDe auditor moet evalueren of identificeerde afwijkingen representatief zijn voor de hele populatie (projection of misstatements).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 530", "ref": "par. 1-2 + definities" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "schriftelijke-bevestiging-management",
+        "naam": {
+          "primair": "Schriftelijke bevestiging management (Letter of Representation)",
+          "afkorting": "LOR"
+        },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een schriftelijke verklaring van het management aan de auditor, gedateerd dicht bij maar niet later dan de datum van de controleverklaring, met bevestigingen over: (a) verantwoordelijkheid management voor opstellen jaarrekening; (b) alle informatie en toegang verschaft; (c) toepassing continuïteitsveronderstelling; (d) alle transacties geboekt; (e) verbonden partijen, claims, schattingen, subsequent events bekendgemaakt. **Niet vervangen** door andere bewijsvormen — wel aanvullend en niet voldoende op zichzelf. Indien management weigert te ondertekenen → mogelijk oordeelonthouding (ISA 580 par. 17-20).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 580", "ref": "Schriftelijke bevestigingen" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "it-bewijs",
+        "naam": { "primair": "IT-bewijs en CAATs" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "In moderne entiteiten is veel bewijs IT-gedreven: ERP-systemen genereren journaalboekingen automatisch, ondersteunende documenten zijn elektronisch. De auditor moet (1) de IT-controle-omgeving evalueren (general IT controls — toegangsbeheer, change management, backup; application controls — input validation, geautoriseerde workflow); (2) zelf computer-assisted audit techniques (CAATs) gebruiken: data-extractie + analyse via tools (IDEA, ACL, scripting). Voorbeeld: volledige populatie verkoopfacturen testen op anomalieën, niet steekproef-gebaseerd.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "par. 25 + A99-A115 IT-omgeving" },
+                  { "type": "norm", "naam": "ISA 330", "ref": "par. A14 CAATs" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-schattingen",
+        "naam": { "primair": "Boekhoudkundige schattingen (ISA 540 herzien)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Schattingen (voorzieningen, afschrijvingen, waardeverminderingen, fair values, going concern) zijn intrinsiek onzeker. ISA 540 (herzien, ingangsdatum 15/12/2019) versterkt de aanpak: (1) inzicht in de gevolgde methode + onderliggende assumpties van management; (2) inschatting van inherent risico via complexiteit, subjectiviteit, schattingsonzekerheid; (3) test van de uitkomst, OF herperformance met eigen methode + ranges, OF terugkijken naar uitkomst-vs-realisatie van vorige boekjaren; (4) overall evaluatie of geheel van schattingen leidt tot redelijke uitkomst — geen systematische optimist/pessimist-bias.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 540 (herzien)", "ref": "Vereisten + definities" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "noclar",
+        "naam": {
+          "primair": "Niet-naleving van wet- en regelgeving (NOCLAR — Non-Compliance with Laws and Regulations)",
+          "afkorting": "NOCLAR"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "ISA 250 (herzien) regelt hoe de auditor in zijn werkzaamheden rekening houdt met wet- en regelgeving. Twee categorieën: (1) wetgeving met **directe impact op de jaarrekening** (fiscale wetten, sociale zekerheid, milieuwetgeving die provisies vereist) — auditor controleert naleving als deel van zijn werk; (2) **overige wetgeving** (corruptiewetten, antiwitwas, sectorregulering) — auditor blijft alert voor signalen, voert specifieke werkzaamheden uit (navraag bij management/governance, leest notulen) zonder dat hij volledige naleving controleert. Bij vermoeden van niet-naleving: communicatie met management en governance, eventueel rapportering aan toezichthouder, mogelijk gevolgen voor verklaring.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 250 (herzien)", "ref": "Vereisten + Inleiding" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "voldoende-en-geschikt",
+        "naam": { "primair": "Voldoende EN geschikt — twee aparte kwaliteiten" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Voldoende** = kwantiteit. Hoeveel bewijs is nodig? Hangt af van risico (hoger risico → meer bewijs) en bewijskwaliteit (hogere kwaliteit → minder hoeveelheid nodig). **Geschikt** = kwaliteit, opgedeeld in: (a) **relevantie** — bewijs gericht op de juiste assertion (een externe bankbevestiging is relevant voor bestaan kas-banktegoed maar niet voor waardering voorraden); (b) **betrouwbaarheid** — bron-eigenschappen: extern > intern; schriftelijk > mondeling; origineel > kopie; door entiteit met goede IB > slechte IB; door auditor zelf verkregen > door management aangereikt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 500", "ref": "par. A4 + A30" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "positieve-vs-negatieve-bevestiging",
+        "naam": { "primair": "Positieve vs negatieve externe bevestiging (ISA 505)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Positieve bevestiging**: derde wordt gevraagd het saldo te bevestigen — antwoord vereist (zonder antwoord = follow-up). Hoogste betrouwbaarheid. **Negatieve bevestiging**: derde wordt alleen gevraagd te reageren indien hij niet akkoord is. Lagere zekerheid (uitblijven antwoord ≠ bevestiging). ISA 505 staat negatieve bevestiging alleen toe als combinatie van: laag RMM, kleine homogene saldi, betrouwbaar IB-systeem, geen verwachte uitzonderingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 505", "ref": "par. A23 negatieve bevestigingen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "accumuleren-afwijkingen",
+        "naam": { "primair": "Accumuleren van geïdentificeerde afwijkingen (ISA 450)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Alle tijdens de controle vastgestelde afwijkingen (behalve duidelijk triviale) worden in een lijst (Summary of Audit Differences / SAD-list) gehouden. Bij afronding (fase 4) worden ze gecommuniceerd aan management voor correctie; niet-gecorrigeerde afwijkingen worden vergeleken met materialiteit voor het uiteindelijke oordeel. Een ‘triviaal’-drempel (vaak 5% van materialiteit, max 5.000 EUR) wordt vooraf vastgelegd.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 450", "ref": "par. 5-13" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Documenten = bewijs",
+        "verkeerde_assumptie": "Alles wat de cliënt aanlevert is bewijs voor zijn beweringen.",
+        "kernpunt": "Bewijs heeft kwaliteit. Een door management gegenereerd Excel zonder doorklik naar onderliggende systemen is zwak bewijs; een door de bank rechtstreeks naar de auditor gestuurde bevestiging is sterk. Bovendien zijn betalingsbewijzen geen bewijs voor het bestaan van een vordering — alleen voor de inning. Wie ‘ik heb het document gezien’ als enige bewijs aanvoert, faalt op het kwaliteitsvereiste.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 500", "ref": "par. A30 betrouwbaarheid" }
+          ]
+        }
+      },
+      {
+        "titel": "Steekproef = automatisch geldig",
+        "verkeerde_assumptie": "Als ik een steekproef trek, mag ik die naar de hele populatie extrapoleren.",
+        "kernpunt": "Alleen statistische steekproef met random of systematic selection mag extrapoleren met gekende foutmarge. ‘Ik nam de eerste 10 facturen’ is geen geldige steekproef. Bovendien geldt: gevonden fouten moeten *geprojecteerd* worden naar de populatie (ISA 530 par. 14) — niet alleen ‘we vonden 3 fouten dus 3 fouten’.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 530", "ref": "par. 14 projectie" }
+          ]
+        }
+      },
+      {
+        "titel": "LOR = vrijbrief",
+        "verkeerde_assumptie": "Een ondertekende letter of representation van het bestuur vervangt eigen bewijswerk.",
+        "kernpunt": "ISA 580 par. 4: een LOR is *aanvullend* bewijs, niet vervangend. Zelfs een uitgebreide LOR ontslaat de auditor niet van zijn substantief werk. Bij twijfel over de integriteit van het bestuur kan een LOR zelfs onbetrouwbaar zijn — dan moet de auditor de hele bewijslast herevalueren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 580", "ref": "par. 4 + A1" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Bewijs-piramide — oplopende overtuigingskracht.",
+        "inhoud": {
+          "rangorde": [
+            { "niveau": "Laag", "bewijs": "Mondelinge navraag bij management", "indicatief": "Alleen voor context, nooit als enige bron" },
+            { "niveau": "Laag-medium", "bewijs": "Inspectie van door entiteit aangeleverde kopieën", "indicatief": "Voldoende voor lage-risico-posten" },
+            { "niveau": "Medium", "bewijs": "Inspectie originelen + cijferanalyse + herrekening", "indicatief": "Standaard bewijswerk medium-risk" },
+            { "niveau": "Medium-hoog", "bewijs": "Herperformance van interne controle", "indicatief": "Sterk indien IC betrouwbaar bevonden" },
+            { "niveau": "Hoog", "bewijs": "Externe bevestiging rechtstreeks aan auditor (ISA 505)", "indicatief": "Hoogste betrouwbaarheid voor saldi" },
+            { "niveau": "Hoog", "bewijs": "Eigen observatie of meting door auditor", "indicatief": "Voorraadopname-bijwoning, fysieke inspectie" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "controleopdracht"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "audit-planning"
-    },
-    {
-      "type": "triggert",
-      "target": "audit-afronding"
-    },
-    {
-      "type": "gedocumenteerd_in",
-      "target": "revisiedossier"
-    },
-    {
-      "type": "vereist",
-      "target": "it-controles"
+      "id": "perspectief-bewijsverzamelaar",
+      "naam": { "primair": "De accountant als bewijsverzamelaar" },
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "werkprogramma-uitvoering",
+              "naam": { "primair": "Concrete uitvoering bewijswerk per cyclus" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per cyclus (verkopen-debiteuren, aankopen-crediteuren, voorraad, lonen, vaste activa, EV, schulden, belastingen): (1) walk-through bij planning — flow begrijpen; (2) controls-test indien plan was te steunen op IB; (3) substantive analytical procedure als marge/ratio plausibel is; (4) tests of details: steekproef facturen (occurrence + juistheid), cut-off-test rond 31/12 (volledigheid), externe bevestigingen voor saldi (bestaan); (5) waardevermindering-evaluatie (waardering); (6) presentatie/disclosure-check tegen verslaggevingsstelsel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "controleopdracht" },
+    { "type": "beinvloed_door", "target": "audit-planning" },
+    { "type": "triggert", "target": "audit-afronding" },
+    { "type": "gedocumenteerd_in", "target": "revisiedossier" },
+    { "type": "vereist", "target": "it-controles" }
   ]
 }
