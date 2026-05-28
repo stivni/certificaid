@@ -2,21 +2,15 @@
   "id": "direct-costing",
   "naam": {
     "primair": "Direct costing (variabele-kost-aanpak)",
-    "synoniemen": [
-      "variable costing",
-      "marginal costing"
-    ]
+    "synoniemen": ["variable costing", "marginal costing", "variabele-kostencalculatie"],
+    "vertaling": {"fr": "méthode du coût variable (direct costing)"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "1.8.III.B"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.8.III.B"],
     "scope": {
       "in": [
         "Alleen variabele kosten in product-kostprijs · vaste kosten als periode-kost",
@@ -25,54 +19,169 @@
         "NIET jaarrekening-conform (geen accepted IFRS/B-GAAP voor externe rapportering)"
       ],
       "out": [
-        {
-          "topic": "Kostprijsmethoden Σ-keuze-kader",
-          "richting": "moet-verwijzen",
-          "ref": "kostprijsmethoden"
-        },
-        {
-          "topic": "Break-even-analyse (toepassings-cross)",
-          "richting": "mag-verwijzen",
-          "ref": "break-even-analyse"
-        }
+        {"topic": "Kostprijsmethoden Σ-keuze-kader", "richting": "moet-verwijzen", "ref": "kostprijsmethoden"},
+        {"topic": "Break-even-analyse (toepassings-cross)", "richting": "mag-verwijzen", "ref": "break-even-analyse"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/direct-costing.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer (handboek-knowledge). Bundle-chunks niet bruikbaar."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Direct costing (ook variable of marginal costing) is de kostprijsmethode waarbij alleen de variabele kosten van een product in de kostprijs worden opgenomen. Vaste kosten — productie én niet-productie — worden behandeld als periodekosten die direct in het resultaat van de periode komen. De resultatenrekening wordt opgesteld in een 'contributiemarge-formaat': omzet minus variabele kosten = contributiemarge, en daarvan worden de vaste kosten afgetrokken om het resultaat te bepalen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard management-accounting-handboek"}]}
+      },
+      "substantie": {
+        "tekst": "Direct costing draait de redenering om: niet 'wat kost dit product gemiddeld om te produceren?', maar 'wat brengt dit product bij als ik er één extra verkoop?'. Die laatste vraag is beslissings-relevant — vaste kosten lopen toch door, of we nu één tafel meer of minder verkopen. Het ratio omzet ↔ contributiemarge wordt zo de prijsondergrens voor kortetermijn-beslissingen (extra order, special order, make-or-buy in bestaande capaciteit). Voor langetermijn-prijszetting en jaarrekening volstaat direct costing echter niet — daar moet full costing gebruikt worden.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Het uitgangspunt van direct costing is dat vaste kosten niet causaal verbonden zijn aan één extra eenheid productie — ze ontstaan door beslissingen over capaciteit en niet door beslissingen over volume binnen die capaciteit. Daarom is het misleidend ze in de productkost te stoppen wanneer je beslissingen evalueert binnen het relevant range. De contributiemarge meet de werkelijke marginale bijdrage per eenheid, los van toerekening-arbitraires.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["kostprijsmethoden", "analytische-boekhouding"],
+      "kader": "kostprijsmethoden",
+      "naast_relevant": ["full-costing"],
+      "volgkennis": ["break-even-analyse", "marginale-analyse"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Korte-termijn beslissingen waarbij vaste kosten onvermijdelijk zijn: accept-or-reject extra order, make-or-buy in bestaande capaciteit, product-mix-optimalisatie bij capaciteitsbeperking, break-even-analyse, sensitiviteitsanalyse bij prijs- of volume-wijzigingen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Stockwaardering in de jaarrekening — onder IAS 2 én KB W.Venn. moeten voorraden gewaardeerd worden inclusief vaste productie-overhead (= full costing). Direct costing voor de jaarrekening is dus niet toegestaan. Direct costing is ook misleidend voor langetermijn-prijszetting — verkoopprijzen die alleen de variabele kost dekken, leiden over de cyclus tot verlies.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.10-13"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "contributiemarge",
+        "naam": {"primair": "Contributiemarge — kern-begrip"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Contributiemarge (CM) = verkoopprijs per eenheid − variabele kost per eenheid. Op totaal-niveau: CM-totaal = totale omzet − totale variabele kosten. De CM 'draagt bij' aan de dekking van de vaste kosten + winst. CM-ratio = CM / omzet (% van omzet dat beschikbaar blijft na variabele kosten). Een hoge CM-ratio (typisch dienstverlening: 60-80%) betekent dat één extra verkochte eenheid bijna volledig naar winst gaat zodra vaste kosten gedekt zijn; een lage CM-ratio (typisch handel: 10-25%) betekent dat je veel volume nodig hebt om winst te maken.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        },
+        "weergaven": [
+          {"type": "formule_expressie", "uitdrukking": "Contributiemarge per eenheid = Verkoopprijs − Variabele kost per eenheid"},
+          {"type": "formule_expressie", "uitdrukking": "Contributiemarge-ratio = (Omzet − Variabele kosten) / Omzet"}
+        ]
+      },
+      {
+        "id": "resultatenrekening-formaat",
+        "naam": {"primair": "Contributiemarge-formaat resultatenrekening"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In direct costing wordt de resultatenrekening opgesteld in vijf lagen: (1) Omzet; (2) min Variabele productiekosten = Contributiemarge productie; (3) min Variabele verkoopkosten (bv. commissies) = Contributiemarge totaal; (4) min Vaste productiekosten + Vaste verkoop/administratie-kosten; (5) = Bedrijfsresultaat. Dit verschilt van het full-costing-formaat (omzet − cost of goods sold = brutomarge − operationele kosten = bedrijfsresultaat). Het verschil is leerzaam: in direct-costing-formaat zie je onmiddellijk de hefboomstructuur (operating leverage).",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "verschil-resultaten-bij-voorraadwijziging",
+        "naam": {"primair": "Verschil in resultaat — full vs direct costing bij voorraadwijziging"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij gelijke verkoop en productie geven full costing en direct costing hetzelfde resultaat. Bij stijgende voorraad geeft full costing een hoger resultaat dan direct costing (omdat een deel van de vaste productiekosten in voorraad blijft 'opgeslagen' en niet in resultaat valt). Bij dalende voorraad omgekeerd. Het verschil = vaste overhead per eenheid × voorraadwijziging in eenheden. Examenvalkuil: studenten denken dat de twee methodes 'hetzelfde resultaat over tijd' geven — dat klopt alleen als de totale productie = totale verkoop over de gehele beschouwingsperiode.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard management-accounting-handboekprincipe"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-direct-vs-full",
+        "titel": "Zelena Bio NV — direct costing vs full costing bij voorraadwijziging",
+        "context": "Zelena Bio produceert 1.000 tafels in jaar 1, verkoopt 800 (200 in voorraad). Variabele kost: 250 EUR/tafel. Vaste productiekost jaar: 100.000 EUR. Verkoopprijs: 500 EUR/tafel. Geen variabele verkoopkosten.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch cijfervoorbeeld"}]},
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Post", "Direct costing", "Full costing"],
+            "rijen": [
+              ["Omzet", "800 × 500 = 400.000", "800 × 500 = 400.000"],
+              ["min Variabele productiekost verkocht", "800 × 250 = 200.000", "—"],
+              ["= Contributiemarge", "200.000", "—"],
+              ["min Cost of goods sold (variabel + vast pro rata)", "—", "800 × (250 + 100) = 280.000"],
+              ["= Brutomarge", "—", "120.000"],
+              ["min Vaste productiekost in resultaat", "100.000 (volledig)", "20.000 (alleen idle-deel + niet-toegerekend)"],
+              ["= Bedrijfsresultaat", "100.000", "120.000"]
+            ]
+          },
+          {
+            "type": "berekening",
+            "titel": "Verklaring verschil",
+            "stappen": [
+              "Verschil = 120.000 − 100.000 = 20.000 EUR",
+              "Bij full costing zit 200 tafels × 100 EUR vaste overhead = 20.000 EUR 'opgesloten' in de stockwaardering",
+              "Bij direct costing valt die 20.000 EUR direct in het resultaat van jaar 1",
+              "Wanneer jaar 2 de voorraad terug naar 0 brengt, draait het verschil zich om — over de twee jaren samen geven beide methodes hetzelfde resultaat."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Direct costing-prijs als langetermijn-prijs gebruiken",
+        "verkeerde_assumptie": "'De variabele kost is 250 EUR; als ik 350 EUR vraag heb ik 100 EUR winst per tafel.'",
+        "kernpunt": "100 EUR contributiemarge per tafel is geen winst — het is een bijdrage aan de dekking van de vaste kosten. Pas wanneer de totale CM > totale vaste kosten ontstaat er winst. Bij 100.000 EUR vaste kosten heb je 1.000 tafels nodig om break-even te draaien.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Direct costing gebruiken in de gepubliceerde jaarrekening",
+        "verkeerde_assumptie": "Direct costing is een geldige boekhoudkundige methode voor voorraadwaardering.",
+        "kernpunt": "Direct costing is interne management-keuze en GEEN aanvaarde methode onder IAS 2 of KB W.Venn. voor externe rapportering. Voor de jaarrekening moet de voorraad gewaardeerd worden inclusief vaste productie-overhead (full costing). Direct costing leeft alleen in de interne dashboards.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.10"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "advies-extra-order",
+      "naam": {"primair": "Advies extra order met restcapaciteit"},
+      "intro": "Een productie-cliente krijgt een extra order onder de normale verkoopprijs en vraagt of ze die mag accepteren.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "cm-test",
+              "naam": {"primair": "Contributiemarge-test"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Als de extra order capaciteit gebruikt die anders ongebruikt blijft (geen extra vaste kosten): aanvaardingscriterium = aangeboden prijs > variabele kost. Elke euro daarboven is contributiemarge en dus winstverhogend. Belangrijk: dit geldt alleen op korte termijn en bij vrije capaciteit. Bij volle capaciteit ontstaan opportunity costs (gemiste verkoop tegen normale prijs) — die moeten meegeteld worden als 'kost' van de extra order.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "kostprijsmethoden"
-    }
+    {"type": "valt_onder", "target": "kostprijsmethoden"},
+    {"type": "vergelijkbaar_met", "target": "full-costing", "gelijkenissen": ["Beide rekenen variabele productiekosten toe aan het product", "Beide gebruiken cost-drivers voor toerekening van indirecte kosten waar dat zinvol is"], "verschillen": ["Direct costing behandelt vaste productiekosten als periodekost; full costing rekent ze toe aan productkost", "Direct costing is interne management-keuze; full costing is verplicht voor jaarrekening-stockwaardering", "Bij voorraadwijziging geven beide verschillende resultaten — verschil = vaste overhead × voorraad-Δ"], "verwarring_risico": "Studenten gebruiken direct costing voor de jaarrekening — dat is niet toegestaan.", "render_hint": "als_keuze"},
+    {"type": "vereist", "target": "break-even-analyse", "toelichting": "Break-even-analyse bouwt op de contributiemarge-redenering van direct costing."}
   ]
 }

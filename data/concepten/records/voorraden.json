@@ -10,7 +10,7 @@
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -44,9 +44,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/voorraden.json",
+      "primary_bronnen": [
+        "KB 29-04-2019 WVV (waarderingsregels art. 3:35-39)",
+        "MAR klasse 30-39",
+        "IAS 2 (IFRS-perspectief)"
+      ]
     },
     "changelog": [
       {
@@ -54,26 +60,270 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — MAR-klassen + waarderings-methodes + waardeverminderingen + onderhanden werk"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Voorraden** zijn lichamelijke roerende activa die de onderneming aanhoudt **om te verkopen** (handelsgoederen, afgewerkte producten), **om te verbruiken in het productieproces** (grondstoffen, hulpstoffen) of die zich **in bewerking** bevinden (goederen in bewerking, onderhanden werk). Ze vormen samen met de geldmiddelen en kortlopende vorderingen het **werkkapitaal** van de onderneming en staan op de actief-zijde van de balans onder de **vlottende activa** (MAR-klasse 30-39). Voorraden zijn typisch activiteitsgebonden: een handelsfirma kent vooral klasse 34 (handelsgoederen); een productiebedrijf kent klassen 30-33 + 37 (onderhanden) + 35 (gereed product).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV — bijlage MAR",
+              "ref": "Klasse 3",
+              "context": "Klasse 3 — Voorraden + bestellingen in uitvoering"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De **MAR-klasse 3** kent volgende sub-rubrieken:\n- **30** Grondstoffen\n- **31** Hulpstoffen\n- **32** Goederen in bewerking\n- **33** Gereed product\n- **34** Handelsgoederen\n- **35** Onroerende goederen bestemd voor verkoop\n- **36** Vooruitbetalingen op aankopen voor voorraden\n- **37** Bestellingen in uitvoering (onderhanden werk — diensten + projecten)\n\nVoorraden worden bij **inkomst** geboekt aan **aanschaffingswaarde** (aankoopprijs + bijkomende kosten zoals vervoer, douane, niet-aftrekbare btw) of aan **vervaardigingsprijs** (aankoopprijs grondstoffen + directe productiekosten + redelijk deel indirecte productiekosten). Op **balansdatum** worden ze gewaardeerd aan de **laagste** van aanschaffings-/vervaardigingsprijs en **marktwaarde** (laagste-waarde-regel — voorzichtigheidsbeginsel). Het verschil leidt tot een **waardevermindering** geboekt via rekening **631 (Waardeverminderingen op voorraden)** met als tegenpost een vermindering van de voorraadrekening.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:35 e.v.",
+              "context": "Aanschaffingswaarde + vervaardigingsprijs + laagste-waarde-regel"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV — bijlage MAR",
+              "ref": "Klasse 3 + rekening 631",
+              "context": "Voorraad-rubricering + waardevermindering"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Voorraden zitten **tussen** geld en realisatie: ze zijn al geïnvesteerde middelen die nog moeten worden omgezet in vorderingen of cash. Een correcte voorraadwaardering is essentieel omdat ze (1) de bedrijfsmarge bepaalt (kostprijs verkochte goederen = beginvoorraad + aankopen − eindvoorraad), (2) de getrouw-beeld-waardering van vlottende activa beïnvloedt, en (3) typisch een belangrijk audit-risico vormt (manipulatie via overschatting → winst opblazen). Het voorzichtigheidsbeginsel verplicht **onmiddellijke afboeking** bij waardedaling (laagste-waarde-regel) maar geen activering van winsten op niet-verkochte voorraad.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:35",
+              "context": "Voorzichtigheidsbeginsel + laagste-waarde-regel"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "waardering-fifo",
+        "naam": {
+          "primair": "FIFO — first-in-first-out"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**FIFO** veronderstelt dat de **oudst aangekochte** voorraad eerst wordt verkocht of verbruikt. Bij stijgende aankoopprijzen: kostprijs verkochte goederen wordt laag gewaardeerd (oude prijzen), eindvoorraad hoog (recente prijzen) → hogere boekhoudkundige winst. Bij dalende prijzen: omgekeerd. FIFO is in België de meest gebruikte methode omdat ze (1) het matching-principe vrij dicht benadert en (2) de eindvoorraad waardeert aan recente, realistische prijzen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:37",
+                  "context": "Toegestane waarderingsmethodes voor voorraden"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-lifo",
+        "naam": {
+          "primair": "LIFO — last-in-first-out"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**LIFO** veronderstelt dat de **meest recent aangekochte** voorraad eerst wordt verkocht. Bij stijgende prijzen: kostprijs verkochte goederen hoog (recente prijzen), eindvoorraad laag (oude prijzen) → lagere winst. **Belangrijk**: LIFO is **toegelaten** in het Belgische boekhoudrecht (KB 29-04-2019), maar **verboden** onder IFRS (IAS 2) — een belangrijk verschil bij overgang van B-GAAP naar IFRS.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:37",
+                  "context": "B-GAAP staat LIFO toe"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-gmp",
+        "naam": {
+          "primair": "Gemiddelde gewogen prijs (GMP)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**GMP** berekent de eenheidsprijs als het gewogen gemiddelde van alle aankopen sinds begin van het boekjaar (of voortschrijdend na elke aankoop). Geschikt voor inwisselbare bulk-voorraden (granen, vloeistoffen, metalen). Vlakt prijsschommelingen uit — geen winst- of verliesmanipulatie via voorraadbeweging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:37",
+                  "context": "GMP toegelaten"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardevermindering-voorraad",
+        "naam": {
+          "primair": "Waardevermindering op voorraad (laagste-waarde-regel)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de **marktwaarde** (realisatiewaarde voor verkoopvoorraden, vervangingswaarde voor verbruiksvoorraden) op balansdatum **lager** is dan de boekwaarde, moet een **waardevermindering** worden geboekt (laagste-waarde-regel, art. 3:35 KB).\n\n**Boeking** (waardevermindering = verschil aanschaffingswaarde min marktwaarde):\n```\n631 Waardeverminderingen op voorraden    D 1.500\n   34x Voorraad handelsgoederen          C 1.500\n```\nIndien de waarde later herstelt, mag de waardevermindering worden **teruggenomen** via rekening **6310** (terugneming).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:35-39",
+                  "context": "Laagste-waarde-regel + waardeverminderingen"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderhanden-werk",
+        "naam": {
+          "primair": "Onderhanden werk (klasse 37) — pro-rata"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Klasse 37 — Bestellingen in uitvoering** dekt projecten die op balansdatum **niet zijn afgerond**: bouwwerven, software-ontwikkeling, ingenieursopdrachten, langlopende dienstenprojecten. Het Belgische boekhoudrecht laat **twee methodes** toe:\n\n1. **Completed-contract** (oudere methode): winst pas erkennen bij oplevering — voorzichtig maar niet matching-conform;\n2. **Percentage-of-completion / pro-rata** (CBN-aanbevolen): winst evenredig met voortgangspercentage erkennen — matcht opbrengsten en kosten.\n\nDe pro-rata-methode boekt het onderhanden werk aan **vervaardigingsprijs + redelijke winstopslag op de afgewerkte fractie**. Vereist betrouwbare voortgangsmeting.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:38",
+                  "context": "Bestellingen in uitvoering — waardering"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Handelsfirma — eindvoorraad-waardering FIFO",
+        "context": "Zelena Bio handelt in biologische voedingsproducten. Op 31-12 zijn er 1.000 eenheden in voorraad. De laatste aankopen waren:\n- 1 oktober: 400 stuks aan 12 EUR\n- 15 november: 400 stuks aan 13 EUR\n- 5 december: 200 stuks aan 14 EUR\n\nDe marktwaarde op balansdatum is 13 EUR/stuk.\n\n**FIFO-waardering**: de 1.000 stuks zijn (chronologisch achterstevoren) de meest recente: 200 × 14 + 400 × 13 + 400 × 12 = 2.800 + 5.200 + 4.800 = **12.800 EUR**.\n**Marktwaarde**: 1.000 × 13 = 13.000 EUR.\n\n**Laagste-waarde-regel**: voorraad blijft aan 12.800 EUR (lager dan markt). Geen waardevermindering nodig.\n\nIndien marktwaarde 11 EUR/stuk was geweest (11.000 EUR < 12.800 EUR), waardevermindering 1.800 EUR via rekening 631.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:35-37",
+              "context": "Toepassing FIFO + laagste-waarde-regel"
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "LIFO denken te mogen gebruiken onder IFRS",
+        "verkeerde_assumptie": "LIFO is internationaal toegestaan — geen probleem bij overstap naar IFRS.",
+        "kernpunt": "**IAS 2 verbiedt LIFO**. Een Belgische vennootschap die LIFO gebruikt en overstapt op IFRS moet **omschakelen** naar FIFO of gewogen gemiddelde, met retrospectieve aanpassing van de openingsbalans (IFRS 1).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IAS 2",
+              "ref": "IAS 2 par. 25",
+              "context": "Toegestane methodes: FIFO of gewogen gemiddelde — LIFO niet toegestaan"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Voorraad-waardering manipuleren via methodewissel",
+        "verkeerde_assumptie": "Je kunt jaarlijks tussen FIFO en LIFO wisselen om de winst te optimaliseren.",
+        "kernpunt": "Het **bestendigheidsbeginsel** (art. 3:8 KB) verplicht **stelselmatige** toepassing van waarderingsregels. Wijziging is alleen mogelijk bij belangrijke veranderingen in activiteit of omstandigheden, **met verantwoording in de toelichting** en aanduiding van het impact-cijfer op het resultaat.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:8",
+              "context": "Bestendigheid waarderingsregels"
+            }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Voorraadwaarderingsmethode kiezen",
+        "opties": [
+          {
+            "keuze": "FIFO",
+            "voordeel": "Eindvoorraad realistisch (recente prijzen); algemeen toegepast; IFRS-compatibel.",
+            "nadeel": "Bij stijgende prijzen: hogere winst, dus hogere VenB."
+          },
+          {
+            "keuze": "LIFO",
+            "voordeel": "Bij stijgende prijzen: kostprijs hoog → lagere winst → lagere VenB (cash-voordeel).",
+            "nadeel": "Verboden onder IFRS; eindvoorraad onrealistisch laag."
+          },
+          {
+            "keuze": "Gemiddelde gewogen prijs",
+            "voordeel": "Vlak resultaat — geen winstmanipulatie door voorraadbeweging; geschikt voor bulk.",
+            "nadeel": "Geen voordeel bij sterke prijsbewegingen; rekentechnisch iets complexer."
+          }
+        ],
+        "vuistregel": "Voor productiebedrijven met bulk-voorraden: GMP. Voor handel en distributie: FIFO. LIFO alleen kiezen met goed gemotiveerd fiscaal voordeel én geen IFRS-ambitie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:37",
+              "context": "Drie toegestane methodes"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -83,6 +333,20 @@
     {
       "type": "triggert",
       "target": "eindejaarsverrichtingen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "ifrs",
+      "gelijkenissen": [
+        "Beide herkennen voorraden bij overgang risico/eigendom",
+        "Beide kennen laagste-waarde-regel (cost or net realisable value)"
+      ],
+      "verschillen": [
+        "B-GAAP staat LIFO toe; IFRS (IAS 2) niet",
+        "IAS 2 vereist NRV-toets (net realisable value); B-GAAP gebruikt 'marktwaarde'"
+      ],
+      "verwarring_risico": "Stagiairs vergeten dat LIFO een belangrijke B-GAAP-only-methode is bij IFRS-conversie.",
+      "render_hint": "als_keuze"
     }
   ]
 }
