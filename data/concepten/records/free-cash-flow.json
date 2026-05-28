@@ -1,24 +1,17 @@
 {
   "id": "free-cash-flow",
   "naam": {
-    "primair": "Free cash flow",
+    "primair": "Vrije kasstroom (Free Cash Flow)",
     "afkorting": "FCF",
-    "synoniemen": [
-      "vrije kasstroom",
-      "FCFE",
-      "FCFF"
-    ]
+    "synoniemen": ["free cash flow", "vrije kasstroom", "beschikbare cash flow"],
+    "vertaling": {"en": "free cash flow", "fr": "flux de trésorerie disponible"}
   },
   "concept_type": "ratio",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.9.IV.C"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.9.IV.C"],
     "scope": {
       "in": [
         "FCF · FCFE (to Equity) · FCFF (to Firm)",
@@ -27,54 +20,113 @@
         "Berekening + correcties"
       ],
       "out": [
-        {
-          "topic": "Kasstroomanalyse Σ (algemeen kasstroom-overzicht)",
-          "richting": "moet-verwijzen",
-          "ref": "kasstroom-analyse"
-        },
-        {
-          "topic": "Bedrijfswaardering (DCF-toepassing)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfswaardering"
-        }
+        {"topic": "Kasstroomanalyse Σ (algemeen kasstroom-overzicht)", "richting": "moet-verwijzen", "ref": "kasstroom-analyse"},
+        {"topic": "Bedrijfswaardering (DCF-toepassing)", "richting": "moet-verwijzen", "ref": "bedrijfswaardering"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/free-cash-flow.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "FCF uitgewerkt: FCFF vs FCFE, conciliatie operationele kasstroom → FCF, voorbeeld, koppeling naar DCF-waardering."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+        "tekst": "Vrije kasstroom (Free Cash Flow, FCF) is de cash die overblijft na operationele uitgaven en investeringen die nodig zijn om de bedrijfsactiviteiten op huidig niveau te onderhouden. Twee varianten: (1) FCFF (Free Cash Flow to the Firm) — cash beschikbaar voor alle kapitaalverschaffers (aandeelhouders + schuldeisers); (2) FCFE (Free Cash Flow to Equity) — cash beschikbaar enkel voor aandeelhouders, na rente en schuldaflossing. FCFF wordt verdisconteerd met WACC; FCFE met de eigen-kapitaalkost. FCF is daarmee de centrale input voor Discounted Cash Flow (DCF) waardering.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie corporate finance — Damodaran, Belgisch waarderings-kader"}]}
+      },
+      "substantie": {
+        "tekst": "FCF is de centrale waardering-maatstaf — wat zou een rationele koper bereid zijn te betalen voor de cash-stromen die het bedrijf produceert? Waar nettowinst beïnvloed kan worden door afschrijvings-keuzes, voorzieningen en accrual-discretie, is FCF veel moeilijker te manipuleren: het is écht binnenkomende cash min écht uitgaande cash voor onderhoud. Een groeiende onderneming heeft typisch lage FCF (groei-capex slokt op), wat haar niet minder waardevol maakt — wel meer afhankelijk van toekomstige verbetering. Mature onderneming = hoge FCF = directe cash-output voor aandeelhouders.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom een aparte definitie naast operationele kasstroom? Operationele kasstroom (cash flow from operations, CFO) houdt geen rekening met capex — een productiebedrijf met +500 CFO en 600 onderhoudscapex heeft −100 FCF en glijdt achteruit, terwijl de winst-rekening misschien zelfs positief is. FCF maakt de werkelijke 'overschot na onderhoud' zichtbaar. DCF-waardering bouwt op deze toekomstige FCF-stroom: ondernemingswaarde = Σ FCFFt / (1 + WACC)^t + eindwaarde.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["kasstroom-analyse", "jaarrekening"],
+      "kader": "kasstroom-analyse",
+      "naast_relevant": ["rentabiliteits-ratios"],
+      "volgkennis": ["bedrijfswaardering", "investeringsevaluatie"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "DCF-bedrijfswaardering — discontering van toekomstige FCFF tegen WACC geeft ondernemingswaarde (Enterprise Value).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Dividend-capaciteit — hoeveel cash kan duurzaam uitgekeerd worden? FCFE is de bovengrens.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Schuldcapaciteit / leverage-analyse — FCFF na onderhoud is de basis waaruit interest + aflossing van potentiële schuld komt.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "fcff",
+        "naam": {"primair": "Free Cash Flow to the Firm (FCFF)", "afkorting": "FCFF", "synoniemen": ["unlevered free cash flow"]},
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "FCFF = bedrijfsresultaat na belastingen (NOPAT) + afschrijvingen − werkkapitaal-toename − onderhoudscapex. Geeft cash beschikbaar voor ALLE kapitaalverschaffers (aandeelhouders + schuldeisers), vóór financierings-keuzes. Wordt verdisconteerd met WACC (gewogen kapitaalkost) om Enterprise Value te krijgen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+            "substantie": {"tekst": "FCFF is 'leverage-onafhankelijk' — het kapitaalstructuur-neutraal cash beeld. Daarom geschikt voor vergelijking tussen ondernemingen met verschillende schuldgraad. Bij overname-waardering: koper kijkt naar FCFF want hij kan na overname de kapitaalstructuur wijzigen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+          },
+          "bouwstenen": [
+            {"id": "fcff-formule", "naam": {"primair": "Formule FCFF"}, "bouwsteen_type": "formule", "kern": {"definitie": {"tekst": "FCFF = EBIT × (1 − belastingsvoet) + afschrijvingen + waardeverminderingen − Δ werkkapitaalbehoefte − capex onderhoud. Alternatief vanuit kasstroomoverzicht: FCFF = operationele kasstroom + interestlasten × (1 − belastingsvoet) − onderhoudscapex.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
           ]
         }
+      },
+      {
+        "id": "fcfe",
+        "naam": {"primair": "Free Cash Flow to Equity (FCFE)", "afkorting": "FCFE", "synoniemen": ["levered free cash flow"]},
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "FCFE = FCFF − rentebetalingen × (1 − belastingsvoet) − netto schuldaflossing. Geeft cash beschikbaar enkel voor aandeelhouders, ná interest en aflossing. Wordt verdisconteerd met de eigen-kapitaalkost (Ke) om de equity-waarde te krijgen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+            "substantie": {"tekst": "FCFE is wat de aandeelhouder mag verwachten als 'maximale duurzame dividenduitkering'. Indien FCFE > dividend → bedrijf bouwt cash-buffer op of geeft aandelen-inkoop. Indien dividend > FCFE → onhoudbaar (financiering door schuld of activa-verkoop).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-fcf-zelena",
+        "titel": "FCF-berekening — Zelena Bio NV (20X4)",
+        "context": "Zelena Bio NV: EBIT 450, belastingsvoet 25 %, afschrijvingen 320, Δ werkkapitaal-behoefte +500, totaal capex 800 waarvan onderhoudscapex 350. Rentelast 50, schuldaflossing 100 (1.000 EUR).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "NOPAT = EBIT × (1 − 0,25) = 450 × 0,75 = 337,5",
+              "+ Afschrijvingen 320",
+              "− Δ werkkapitaal 500",
+              "− Onderhoudscapex 350",
+              "= FCFF = 337,5 + 320 − 500 − 350 = −192,5",
+              "− Rente na belasting = 50 × 0,75 = 37,5",
+              "− Schuldaflossing 100",
+              "= FCFE = −192,5 − 37,5 − 100 = −330"
+            ],
+            "resultaat": "FCFF van −193 KEUR en FCFE van −330 KEUR: het bedrijf verbrandt cash. Diagnose: werkkapitaal-stijging (500) is de grote slokop — combinatie van groei + slechtere DSO/DIO. Onderscheid tussen onderhoudscapex (350) en groei-capex (450 = 800 − 350) is methodisch belangrijk: groei-capex is discretionair. Strikt genomen: FCF op onderhoudsbasis is wat duurzaam beschikbaar is. Aanbeveling: werkkapitaal-discipline en heroverweging groei-capex tot werkkapitaal onder controle."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Onderhoudscapex en groeicapex niet onderscheiden", "verkeerde_assumptie": "Alle capex is onderhoud — alleen totaal-capex aftrekken voor FCF.", "kernpunt": "Onderhoudscapex (vervanging) is verplicht — moet uit FCF. Groeicapex (uitbreiding) is discretionair — beleidskeuze, niet verplicht. Voor DCF-waardering: gebruik onderhouds-FCF voor duurzaamheids-test; voor capex-budgettering: gebruik totaal-FCF. Schatting onderhoudscapex ≈ jaarlijkse afschrijvingen (vuistregel).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "FCFF en FCFE verwarren", "verkeerde_assumptie": "Beide leiden naar dezelfde waarde via DCF.", "kernpunt": "FCFF verdisconteer je met WACC → resultaat is Enterprise Value (EV). FCFE verdisconteer je met Ke (eigen-kapitaalkost) → resultaat is equity-waarde direct. Equity-waarde = EV − netto schuld. Beide moeten consistent zijn; inconsistente match (FCFF + Ke, of FCFE + WACC) geeft systematisch verkeerde waarde.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Operationele kasstroom als FCF gebruiken", "verkeerde_assumptie": "Cash flow from operations (CFO) uit het kasstroomoverzicht IS de FCF.", "kernpunt": "CFO is operationele cash VOOR capex. FCF = CFO − onderhoudscapex (eventueel ook FCFF aanpassing voor rente). Een bedrijf met CFO +500 en onderhoudscapex 600 heeft FCF −100, niet +500. Verwarring leidt tot systematische over-waardering bij DCF.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "kasstroom-analyse"
-    }
+    {"type": "valt_onder", "target": "kasstroom-analyse"},
+    {"type": "vereist", "target": "kasstroom-analyse"},
+    {"type": "triggert", "target": "bedrijfswaardering", "toelichting": "FCFF is de hoofd-input voor DCF-waarderings-techniek."}
   ]
 }
