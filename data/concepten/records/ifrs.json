@@ -1,17 +1,17 @@
 {
   "id": "ifrs",
   "naam": {
-    "primair": "International Financial Reporting Standards (IFRS)",
+    "primair": "International Financial Reporting Standards",
     "afkorting": "IFRS",
     "synoniemen": [
-      "International Financial Reporting Standards",
-      "IAS"
+      "internationale verslaggevingsstandaarden",
+      "IAS/IFRS"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -75,9 +75,16 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/ifrs.json",
+      "primary_bronnen": [
+        "Verordening (EG) 1606/2002 (EU-rechtsbasis IFRS)",
+        "Verordening (EU) 2023/1803 — geconsolideerde IFRS",
+        "IFRS 1, IAS 1, IFRS 15, IFRS 16, IAS 12, IAS 2",
+        "KB 29-04-2019 WVV — Belgische toepassing"
+      ]
     },
     "changelog": [
       {
@@ -85,26 +92,230 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — Σ-hoofdrecord IFRS — kader + principe vs rule-based + verschillen B-GAAP"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**IFRS** (*International Financial Reporting Standards*) is een coherent stelsel van **internationale verslaggevingsstandaarden** dat sinds 2001 wordt uitgegeven door de **IASB** (*International Accounting Standards Board*) in Londen. IFRS omvat zowel de standaarden uitgegeven door de IASB (genaamd \"IFRS\") als de oudere, nog geldige standaarden van haar voorganger IASC (genaamd \"IAS\"), aangevuld met interpretaties (SIC, IFRIC). In de EU werd IFRS in 2002 verplicht gesteld door **Verordening (EG) 1606/2002** voor de **geconsolideerde jaarrekening van genoteerde vennootschappen**, en sindsdien geleidelijk uitgebreid (optioneel voor niet-genoteerde groepen onder Belgische wet). De huidige geconsolideerde versie staat in **Verordening (EU) 2023/1803**.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "Verordening (EG) 1606/2002",
+              "ref": "art. 2",
+              "context": "Definitie IFRS — IAS/IFRS + SIC/IFRIC interpretaties uitgegeven door IASB"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Verordening (EU) 2023/1803",
+              "ref": "Geconsolideerde IFRS-tekst",
+              "context": "Huidige EU-endorsed IFRS"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Belangrijkste **structurele kenmerken** van IFRS, vergeleken met Belgisch-GAAP:\n\n**1. Principle-based vs. rule-based**\n- IFRS is overwegend **principle-based**: de standaarden formuleren beginsels (substance over form, true and fair view) waarvan de toepassing **professional judgment** vraagt;\n- B-GAAP (KB 29-04-2019 + CBN-adviezen) is meer **rule-based**: gedetailleerde regels per type transactie, met minder ruimte voor afwijking.\n\n**2. Reële waarde vs. historische kost**\n- IFRS staat **reële-waarde-meting** veelvuldig toe (financiële instrumenten verplicht IFRS 9, vastgoed-investeringen optioneel IAS 40, biologische activa IAS 41);\n- B-GAAP houdt strikter vast aan **historische kost** met voorzichtigheidsbeginsel — alleen waardeverminderingen erkenbaar, geen meerwaarderecognitie bij vlottende activa.\n\n**3. Substantie over vorm**\n- IFRS volgt sterk de **economische substantie** van een transactie (bv. IFRS 16 alle leases on-balance, IFRS 15 5-stappen-model voor revenue);\n- B-GAAP volgt vaak de **juridische vorm** (bv. operationele leasing off-balance via klasse 0).\n\n**4. Volledige uitgestelde belastingen**\n- IAS 12 vereist erkenning van **alle tijdelijke verschillen**;\n- B-GAAP erkent uitgestelde belastingen alleen voor specifieke wettelijke gevallen.\n\n**5. Comprehensive income**\n- IFRS (IAS 1) kent **Other Comprehensive Income (OCI)** — niet-gerealiseerde resultaten (herwaarderingen, valuta-omrekeningsverschillen);\n- B-GAAP kent geen OCI — alleen klassieke resultaatlogica.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IAS 1",
+              "ref": "IAS 1 — presentatie jaarrekening",
+              "context": "Comprehensive income concept"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "IFRS 16",
+              "ref": "IFRS 16",
+              "context": "On-balance presentatie alle leases — substantie over vorm"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7",
+              "datum": "2026-05-28",
+              "context": "Synthese B-GAAP/IFRS-verschillen"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "IFRS bestaat omdat **kapitaalmarkten globaliseren** terwijl jaarrekening-stelsels nationaal blijven: een Engelse pensioenfondsbeheerder die de jaarrekening van een Belgische beursgenoteerde groep wil vergelijken met een Duitse of Japanse equivalent kan dat alleen wanneer alle drie volgens dezelfde regels rapporteren. De EU-verordening 1606/2002 koos voor IFRS als gemeenschappelijke taal — geharmoniseerd, hoog-kwalitatief, gevalideerd door een onafhankelijke standardsetter (IASB). Belgische beursgenoteerde groepen rapporteren dus geconsolideerd in IFRS; hun **statutaire** (vennootschappelijke) jaarrekening blijft in B-GAAP (basis voor VenB, kapitaalsbescherming, dividenduitkering).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "Verordening (EG) 1606/2002",
+              "ref": "Preambule + art. 4",
+              "context": "Doelstelling harmonisatie kapitaalmarkt-verslaggeving"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2005-01-01",
+        "wettelijke_basis": "Verordening (EG) 1606/2002 + Verordening (EU) 2023/1803 (huidige geconsolideerde tekst) + KB 29-04-2019 art. 8:5 (Belgische toepassing)",
+        "toelichting": "EU-IFRS-verplichting voor geconsolideerde jaarrekening van Belgische genoteerde vennootschappen vanaf boekjaren startend op of na 1 januari 2005. Verschillende IFRS-standaarden worden via afzonderlijke EU-verordeningen geëndosseerd."
+      },
+      "voor": [
+        {
+          "tekst": "Verplicht voor de **geconsolideerde jaarrekening van EU-genoteerde groepen** (art. 4 Verordening 1606/2002). Optioneel voor de geconsolideerde jaarrekening van **niet-genoteerde groepen** in België (op vrije keuze). De **statutaire jaarrekening** van een Belgische vennootschap blijft steeds B-GAAP.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "Verordening (EG) 1606/2002",
+                "ref": "art. 4 + art. 5",
+                "context": "Verplichte IFRS voor genoteerde + optie niet-genoteerde"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Niet** in IFRS: de **statutaire (enkelvoudige) jaarrekening** van een Belgische vennootschap blijft verplicht in B-GAAP. IFRS-rapportering geldt alleen voor de **geconsolideerde** jaarrekening.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:1",
+                "context": "Statutaire jaarrekening volgens KB 29-04-2019 (B-GAAP)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "ifrs-1-eerste-toepassing",
+        "naam": {
+          "primair": "IFRS 1 — Eerste toepassing"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**IFRS 1** regelt hoe een entiteit IFRS voor de eerste keer toepast. De entiteit moet:\n1. Een **openingsbalans** opstellen op de transitiedatum (eerste dag van de vroegste vergelijkende periode);\n2. Alle balansposten herzien volgens IFRS (activa erkennen die onder B-GAAP niet werden erkend, passiva idem, posten reclassificeren, posten waarderen aan IFRS-vereisten);\n3. Het **verschil** tussen B-GAAP-openingsbalans en IFRS-openingsbalans rechtstreeks in het **eigen vermogen** boeken (retained earnings of een aparte component).\n\nIFRS 1 biedt **optionele vrijstellingen** (bv. business combinations vóór transitiedatum hoeven niet retrospectief herrekend) en **verplichte uitzonderingen** (bv. schattingen mogen niet met hindsight worden herzien).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IFRS 1",
+                  "ref": "IFRS 1 par. 2-3 + 6-9",
+                  "context": "Toepassingsgebied + openingsbalans-procedure"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ias-1-presentatie",
+        "naam": {
+          "primair": "IAS 1 — Presentatie jaarrekening"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**IAS 1** bepaalt de inhoud en presentatie van een IFRS-jaarrekening. Vereiste componenten:\n1. **Statement of financial position** (balans) — actief/passief, current/non-current onderscheid;\n2. **Statement of profit or loss and other comprehensive income** — winst/verlies + OCI (Other Comprehensive Income);\n3. **Statement of changes in equity** — beweging eigen vermogen;\n4. **Statement of cash flows** — operationele, investerings- en financieringscash flows;\n5. **Notes** — accounting policies + toelichtingen.\n\nVergelijkende informatie voor **vorige periode** is verplicht. Posten met **comprehensive income** (zoals herwaardering MVA via revaluation model, valuta-omrekeningsverschillen, IFRS 9-OCI-items) gaan via OCI, niet via P&L.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "richtlijn",
+                  "naam": "IAS 1",
+                  "ref": "IAS 1 par. 10 + 81-87",
+                  "context": "Verplichte componenten + comprehensive income"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Statutaire jaarrekening in IFRS rapporteren",
+        "verkeerde_assumptie": "Als de moedervennootschap IFRS rapporteert, gaat ook de statutaire jaarrekening in IFRS.",
+        "kernpunt": "De **statutaire jaarrekening** van een Belgische vennootschap blijft **verplicht in B-GAAP**, ook als die vennootschap onderdeel is van een beursgenoteerde IFRS-groep. Dit is essentieel voor: (1) vennootschapsbelasting (start vanuit B-GAAP-resultaat), (2) kapitaalbescherming (nettoactieftest BV), (3) winstuitkering (B-GAAP-reserves bepalen). IFRS geldt alleen voor de **geconsolideerde** jaarrekening.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV + KB 29-04-2019",
+              "ref": "art. 3:1",
+              "context": "Statutaire jaarrekening = B-GAAP"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "IFRS = US GAAP",
+        "verkeerde_assumptie": "IFRS en US GAAP zijn convergerende stelsels — hetzelfde resultaat.",
+        "kernpunt": "IFRS en US GAAP zijn **twee verschillende stelsels**. Convergentieprojecten (bv. IFRS 15 = ASC 606 voor revenue, IFRS 16 ≠ ASC 842 voor leases) hebben grote verschillen verminderd maar **niet weggewerkt**. Belangrijke verschillen blijven: LIFO toegestaan onder US GAAP, niet IFRS; verschillende behandeling van research & development; pension accounting; impairment-toets.",
+        "grondslag": {
+          "confidence": "afgeleid",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
+              "naam": "claude-opus-4-7",
               "datum": "2026-05-28"
             }
           ]
         }
       }
-    }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Reële waarde versus historische kost (waar IFRS keuze biedt)",
+        "opties": [
+          {
+            "keuze": "Cost model — historische kost min afschrijvingen min waardeverminderingen",
+            "voordeel": "Lagere volatiliteit, eenvoudiger te bepalen, vergelijkbaar met B-GAAP.",
+            "nadeel": "Boekwaarde kan ver afwijken van marktwaarde — minder relevant voor lezer."
+          },
+          {
+            "keuze": "Revaluation / fair value model — herwaardering aan reële waarde",
+            "voordeel": "Balans toont actuele waarde — relevanter voor besluitvorming.",
+            "nadeel": "Hoge volatiliteit van eigen vermogen of resultaat; vereist regelmatige (jaarlijkse) waardering; complexer."
+          }
+        ],
+        "vuistregel": "Voor materiële vaste activa met stabiele lange-termijn-functie (gebouwen industrie): cost model. Voor financiële instrumenten en investment property: reële waarde via OCI of P&L.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "IAS 16 + IAS 40",
+              "ref": "IAS 16 par. 29-31, IAS 40 par. 30",
+              "context": "Keuze cost vs revaluation"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
