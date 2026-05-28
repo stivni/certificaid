@@ -11,6 +11,7 @@ tags:
 
 ## Navigatie
 
+- [[tree|🌳 Concept-tree]] — volledige hiërarchie per discipline → cluster → record (uit `granulariteit-skelet.md`)
 - [[_index-po|📚 Per programmaonderdeel (PO)]] — best startpunt om PO-gericht te studeren
 - [[_index-type|🔖 Per concept-type]] — instrument · verrichting · procedure · balanspost · ratio · regime · kader · principe · actor
 - [[_index-categorie|🗂 Per K/E/G/R-categorie]] — kader · entiteit · gebeurtenis · regeling
