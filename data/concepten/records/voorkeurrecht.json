@@ -4,22 +4,39 @@
     "primair": "Voorkeurrecht",
     "synoniemen": [
       "preferent inschrijvingsrecht",
+      "voorkeursrecht",
       "preemptive right"
-    ]
+    ],
+    "vertaling": {
+      "fr": "droit de préférence",
+      "en": "preemptive right"
+    }
   },
-  "concept_type": "regime",
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
-      "3.0.IV.A"
+      "3.0.IV.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/voorkeurrecht.json",
+      "primary_bronnen": [
+        "WVV art. 5:108-110 (BV - voorkeurrecht, termijn, beperking/opheffing)",
+        "WVV art. 7:188 (NV - voorkeurrecht bij inbreng in geld)",
+        "WVV art. 7:176 (NV - termijn minimaal 15 dagen)",
+        "WVV art. 7:178-180 (NV - beperking/opheffing + scrips + bijzondere bescherming)",
+        "CBN-advies 2016/1 (Verrichtingen met betrekking tot inschrijvingsrechten)"
+      ],
+      "mcp_calls": 1,
+      "rerank_calls": 1
     },
     "changelog": [
       {
@@ -27,15 +44,24 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~875)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle-chunks + 1 extra MCP-call voor WVV-artikelen voorkeurrecht (5:108-110, 7:176-180)"
       }
     ],
     "scope": {
       "in": [
-        "Preferent inschrijvingsrecht bij kapitaalverhoging in geld — anti-verwatering",
-        "Termijn voor uitoefening",
-        "Afschaffing door AV: voorwaarden + rapport bestuur + commissaris-rapport",
-        "Overdraagbaarheid van het voorkeurrecht"
+        "Preferent inschrijvingsrecht bij kapitaalverhoging in geld - anti-verwatering",
+        "Termijn voor uitoefening: minimaal 15 dagen (zowel BV als NV)",
+        "Beperking of opheffing door algemene vergadering: voorwaarden + verslag bestuursorgaan + verslag commissaris/bedrijfsrevisor",
+        "Bijzondere bescherming bij beperking ten gunste van een bepaalde persoon (NV)",
+        "Overdraagbaarheid van het voorkeurrecht (NV - los van het aandeel verhandelbaar; BV - in principe niet)",
+        "Scrips-praktijk in genoteerde vennootschappen (NV)"
       ],
       "out": [
         {
@@ -47,6 +73,11 @@
           "topic": "Aandeel als onderliggend object",
           "richting": "moet-verwijzen",
           "ref": "aandeel"
+        },
+        {
+          "topic": "Kapitaalverhoging in natura - daar geldt geen voorkeurrecht",
+          "richting": "mag-verwijzen",
+          "ref": "kapitaalverhoging-in-natura"
         }
       ]
     }
@@ -54,26 +85,369 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het voorkeurrecht is het recht dat bestaande aandeelhouders van rechtswege hebben om bij een kapitaalverhoging in geld bij voorrang in te schrijven op de nieuwe aandelen, in verhouding tot het deel van het kapitaal of de inbreng dat hun aandelen vertegenwoordigen. Het beschermt hen tegen verwatering van hun stemrecht en hun aanspraak op de reserves. De termijn voor uitoefening bedraagt minstens vijftien dagen, te rekenen vanaf de openstelling van de inschrijving. Het voorkeurrecht geldt enkel bij inbreng in geld; bij inbreng in natura is er per definitie een welbepaalde inbrenger en speelt het recht niet.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:108" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:176" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:109" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wanneer een vennootschap nieuwe aandelen uitgeeft tegen contanten, krijgen de bestaande aandeelhouders een 'eerste kans' om deze te kopen. Het voorkeurrecht heeft een economische waarde: vooral op de beurs is dat zichtbaar - zodra de nieuwe uitgifte wordt aangekondigd, daalt de koers van het oude aandeel en wordt het voorkeurrecht apart verhandelbaar als 'inschrijvingsrecht'. Wie zijn voorkeurrecht niet wil uitoefenen, kan het verkopen en zo de waarde recupereren die anders naar de nieuwe inschrijvers zou gaan. In genoteerde vennootschappen zorgt de zogenaamde scrips-praktijk ervoor dat niet-uitgeoefende voorkeurrechten op de markt worden verkocht; de opbrengst gaat naar de oude houders.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2016/1", "ref": "Afzondering van een inschrijvingsrecht - economische realiteit waarde-overdracht" },
+            { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 594 - scrips-praktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) bescherming tegen kwantitatieve verwatering - de aandeelhouder behoudt zijn proportionele aandeel in stemrecht en in winstrechten; (2) bescherming tegen kwalitatieve verwatering - bij een uitgifteprijs onder de werkelijke waarde van het aandeel zou een aandeelhouder anders een onverdiende waardesprong zien overgaan naar de nieuwe inschrijvers. Het voorkeurrecht is bij de BV bovendien een 'harde' regel: het kan niet bij statuten beperkt worden (art. 5:110 §1 WVV). Bij de NV mag de algemene vergadering het voorkeurrecht beperken of opheffen, maar enkel in het belang van de vennootschap en met dubbele rapportering (bestuursorgaan + commissaris/bedrijfsrevisor) - precies om de bescherming van minderheidsaandeelhouders niet uit te hollen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §1" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:178" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis - standaardleer" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "aandeel",
+        "kapitaalverhoging"
+      ],
+      "kader": "kapitaalverhoging",
+      "naast_relevant": [
+        "kapitaalverhoging-in-natura"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV - art. 5:108-110 BV, art. 7:176, 7:178-180, 7:188 NV"
+      },
+      "voor": [
+        {
+          "tekst": "Elke kapitaalverhoging (of inbrengverhoging in een BV) door inbreng in geld waarbij nieuwe aandelen worden uitgegeven. Ook bij uitgifte van converteerbare obligaties of inschrijvingsrechten - dezelfde regels gelden voor die instrumenten die later in aandelen kunnen omgezet worden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:178", "context": "Uitgebreid tot converteerbare obligaties en inschrijvingsrechten" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Kapitaalverhoging in natura - de inbrenger is per definitie bepaald (degene die het actief inbrengt). Voorkeurrecht heeft hier geen werking; wel gelden andere beschermingsregels (verslag bedrijfsrevisor over waardering).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Logische afgrenzing - voorkeurrecht koppelt aan geld-inbreng" }
+            ]
+          }
+        },
+        {
+          "tekst": "Uitgifte aan kredietinstellingen of financiële instellingen die als doorgeefluik fungeren naar de bestaande aandeelhouders (overeenkomstig art. 7:175-176) - dat is geen opheffing in juridische zin.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:179" }
+            ]
+          }
+        },
+        {
+          "tekst": "Wanneer alle aandeelhouders gezamenlijk afstand doen van hun voorkeurrecht op de algemene vergadering - dat is geen 'opheffing' maar een afstand. Alle aandeelhouders moeten dan aanwezig of vertegenwoordigd zijn en uitdrukkelijk afstand doen (in volmacht: idem).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:179" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §2" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Termijn van minimum 15 dagen vanaf openstelling inschrijving. Aankondiging in het Belgisch Staatsblad (NV) of mededeling aan de aandeelhouders volgens art. 2:30 (BV). Inschrijving in verhouding tot het deel kapitaal/inbreng dat de aandelen vertegenwoordigen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:176" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:109" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Aandeelhouder behoudt zijn stemkracht en zijn aanspraak op de reserves (kwantitatief). Wanneer de uitgifteprijs onder de werkelijke waarde ligt, vangt hij de waardesprong op via deelname aan de uitgifte; doet hij niet mee, dan kan hij in een NV zijn voorkeurrecht verkopen (scrips) en de waarde toch recupereren.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "cbn", "naam": "CBN-advies 2016/1", "ref": "Afzondering van een inschrijvingsrecht" },
+              { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 594" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-uitgeoefend voorkeurrecht in een niet-genoteerde NV wordt afhankelijk van de statutaire regeling: ofwel komen de niet-opgeneomen aandelen aan andere inschrijvers toe, ofwel zoals de statuten voorzien. Aandeelhouder die niet alert is, kan zijn anti-verwateringsbescherming volledig verliezen zonder compensatie.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 594", "context": "In niet-genoteerde vennootschappen kunnen de statuten het lot van de niet-uitgeoefende rechten vrij bepalen" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-15-dagen",
+        "naam": {
+          "primair": "Minimumtermijn 15 dagen"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het voorkeurrecht kan worden uitgeoefend gedurende een termijn van ten minste vijftien dagen, te rekenen van de dag van de openstelling van de inschrijving. De algemene vergadering bepaalt de exacte termijn (in het kader van het toegestane kapitaal: het bestuursorgaan). Korter dan 15 dagen mag niet; langer mag wel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:176" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:109" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beperking-opheffing-nv",
+        "naam": {
+          "primair": "Beperking of opheffing van het voorkeurrecht (NV)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De algemene vergadering kan het voorkeurrecht beperken of opheffen, in het belang van de vennootschap, met naleving van de aanwezigheids- en meerderheidsvereisten voor een statutenwijziging. Het voorstel moet expliciet in de oproeping vermeld zijn. Het bestuursorgaan verantwoordt in een verslag uitdrukkelijk de redenen en de gevolgen voor de vermogens- en lidmaatschapsrechten van de bestaande aandeelhouders. De commissaris (of bij ontstentenis een bedrijfsrevisor of gecertificeerd accountant) brengt een beoordelingsverslag uit over de financiële en boekhoudkundige gegevens van dat bestuursverslag.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:178" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bijzondere-bescherming-art-7-180",
+        "naam": {
+          "primair": "Bijzondere bescherming bij opheffing ten gunste van bepaalde persoon"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer het voorkeurrecht wordt beperkt of opgeheven ten gunste van één of meer bepaalde personen die geen personeel zijn, gelden aanvullende waarborgen: (1) de identiteit van de begunstigde(n) moet vermeld worden; (2) in genoteerde vennootschappen gelden specifieke regels voor de uitgifteprijs; (3) de verslagen van bestuursorgaan en commissaris moeten uitdrukkelijk de redelijkheid van prijs en omstandigheden verantwoorden. Het begrip 'bepaalde personen' omvat naast de natuurlijke persoon ook derden die voor zijn rekening handelen, verbonden personen en personen die in onderling overleg handelen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:178" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:180" },
+                { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 598" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bv-niet-statutair-beperkbaar",
+        "naam": {
+          "primair": "BV - voorkeurrecht niet statutair beperkbaar"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "In de BV kan het voorkeurrecht niet bij de statuten beperkt of opgeheven worden (art. 5:110 §1). Het kan wel ad hoc door een besluit van de algemene vergadering opgeheven worden, met dezelfde rapportering als bij de NV (verslag bestuursorgaan + verslag commissaris/bedrijfsrevisor). De BV biedt dus extra harde bescherming: een minderheidsaandeelhouder kan via een statutaire clausule niet preventief van zijn anti-verwateringsbescherming worden ontdaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §1" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "scrips-praktijk",
+        "naam": {
+          "primair": "Scrips-praktijk (NV genoteerd)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij het verstrijken van de uitoefeningstermijn worden in genoteerde vennootschappen niet-uitgeoefende voorkeurrechten als 'scrips' op de markt of via private plaatsing verkocht. De opbrengst, na aftrek van kosten, gaat naar de houders van die niet-uitgeoefende voorkeurrechten. Zo recupereren ook 'passieve' aandeelhouders de economische waarde van hun voorkeurrecht zonder dat ze zelf moeten participeren in de uitgifte. Dit is een door de FSMA aanbevolen marktpraktijk die in het WVV werd ingeschreven.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 594" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-waardering-inschrijvingsrecht",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking van een afgezonderd inschrijvingsrecht"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het aan een bestaand aandeel verbonden voorkeurrecht maakt boekhoudkundig deel uit van dat aandeel - het is geen apart actief tot het afgezonderd wordt. Zodra het inschrijvingsrecht wordt afgezonderd (met het oog op uitoefening of verkoop), moet de waarde-overdracht uitgedrukt worden: de boekwaarde van het oude effect wordt aangepast en het inschrijvingsrecht krijgt een eigen boekwaarde ten belope van diezelfde waardesprong. Het inschrijvingsrecht is geen 'opbrengst' van het aandeel - het is een afsplitsing van waarde.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2016/1", "ref": "Afzondering van een inschrijvingsrecht - boekhoudkundige verwerking" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-anti-verwatering",
+        "titel": "Anti-verwatering bij kapitaalverhoging in geld",
+        "context": "NV Aurelia heeft 10.000 aandelen, alle in handen van twee aandeelhouders: A houdt 7.000 (70%), B houdt 3.000 (30%). Ze willen 5.000 nieuwe aandelen uitgeven aan een uitgifteprijs van 100 EUR/aandeel om de groei te financieren. De huidige reële waarde per aandeel is 150 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Geconstrueerd didactisch voorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 - voorkeurrecht in verhouding tot bestaand aandeel: A krijgt recht op 70% van 5.000 = 3.500 nieuwe aandelen; B op 30% = 1.500 nieuwe aandelen.",
+              "Stap 2 - indien A en B beiden hun voorkeurrecht uitoefenen: na uitgifte 15.000 aandelen. A houdt 7.000 + 3.500 = 10.500 (70%), B houdt 3.000 + 1.500 = 4.500 (30%). Verhoudingen behouden.",
+              "Stap 3 - waarde-bescherming: theoretische ex-rights-prijs = (10.000 * 150 + 5.000 * 100) / 15.000 = (1.500.000 + 500.000) / 15.000 = 133,33 EUR. De waarde 'verwatert' van 150 naar 133,33 - maar elke aandeelhouder die deelneemt, koopt nieuwe aandelen aan 100 (= 33,33 EUR onder de nieuwe ex-rights-prijs). Het verschil compenseert de verwatering.",
+              "Stap 4 - alternatief: A neemt niet deel. Op de beurs zou hij zijn voorkeurrechten kunnen verkopen voor ca. 33,33 EUR x (3.500 / 7.000) per oud aandeel = 16,67 EUR per oud aandeel (waarde scrip). Niet-genoteerde NV: hangt van statutaire regeling af.",
+              "Stap 5 - effect zonder voorkeurrecht: zou A niet meedoen, dan zou zijn aandeel verwateren van 70% naar 7.000/15.000 = 46,7% - ongecompenseerd."
+            ],
+            "resultaat": "Het voorkeurrecht zorgt voor proportionele bescherming. Alleen volledige opheffing (met motivering + commissarisverslag) kan A's aandeel laten verwateren tegen zijn wil."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Voorkeurrecht en kapitaalverhoging in natura door elkaar halen",
+        "verkeerde_assumptie": "Bij elke kapitaalverhoging hebben de bestaande aandeelhouders een voorkeurrecht.",
+        "kernpunt": "Het voorkeurrecht geldt alleen bij inbreng in geld. Bij inbreng in natura is de inbrenger noodzakelijk bepaald (het is hij die het actief inbrengt). Daar beschermen andere mechanismen: het verslag van de bedrijfsrevisor over de waardering, en de verantwoording van het bestuursorgaan. Anti-verwatering loopt daar via prijscontrole, niet via een voorkeurrecht.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardonderscheid vennootschapsrecht" }
+          ]
+        }
+      },
+      {
+        "titel": "Afstand van voorkeurrecht ('allen samen') verwarren met opheffing door AV",
+        "verkeerde_assumptie": "Wanneer alle aandeelhouders op de algemene vergadering instemmen met een uitgifte aan een derde, is dat juridisch een 'opheffing' van het voorkeurrecht en moet er een commissarisverslag komen.",
+        "kernpunt": "Wanneer alle aandeelhouders unaniem afstand doen van hun voorkeurrecht (aanwezig of vertegenwoordigd, met afstand in de volmacht), is dat juridisch geen opheffing - het is een gemeenschappelijke afstand. De zwaardere procedure (bestuursverslag + commissarisverslag + bijzondere bescherming) is dan niet vereist. Dit geldt voor zowel BV als NV. Voorwaarde: het moet werkelijk unaniem zijn.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:179" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §2" }
+          ]
+        }
+      },
+      {
+        "titel": "BV-voorkeurrecht statutair denken weg te schrijven",
+        "verkeerde_assumptie": "Bij een BV-oprichting kunnen we het voorkeurrecht statutair afschaffen, zodat we later makkelijker kunnen uitgeven aan een derde.",
+        "kernpunt": "Art. 5:110 §1 WVV bepaalt uitdrukkelijk dat het voorkeurrecht in de BV niet bij de statuten kan beperkt of opgeheven worden. Dat moet ad hoc per uitgifte gebeuren via een besluit van de algemene vergadering (met de zwaardere rapportering of een unanieme afstand). Een statutaire clausule die dit poogt te omzeilen, is nietig.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:110 §1" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vennootschap-uitgever",
+      "naam": {
+        "primair": "Uitgevende vennootschap (BV/NV)"
+      },
+      "intro": "De accountant of bedrijfsrevisor die de uitgevende vennootschap begeleidt of certificeert bij een kapitaalverhoging.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "verslag-bij-opheffing",
+              "naam": {
+                "primair": "Beoordelingsverslag bij beperking/opheffing voorkeurrecht"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een algemene vergadering het voorkeurrecht beperkt of opheft, brengt de commissaris (of bij afwezigheid een bedrijfsrevisor of gecertificeerd accountant) een beoordelingsverslag uit over de financiële en boekhoudkundige gegevens in het verslag van het bestuursorgaan. De ITAA heeft daarvoor een modelverslag (Bijlage 5 - Effectennorm). De accountant beoordeelt of die gegevens, in alle van materieel belang zijnde opzichten, getrouw en toereikend zijn om de algemene vergadering correct voor te lichten over de gevolgen van de opheffing.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:178" },
+                      { "type": "norm", "naam": "ITAA-norm effectenverrichtingen", "ref": "Bijlage 5 - Modelverslag" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "verwerking-inschrijvingsrechten",
+              "naam": {
+                "primair": "Boekhoudkundige verwerking inschrijvingsrechten"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor de uitgevende vennootschap zelf: de uitgifte van het voorkeurrecht heeft geen aparte boeking - het recht behoort tot het aandeel. Bij de aandeelhouder-rechtspersoon (cliënt die een inschrijvingsrecht ontvangt en afsplitst): de boekwaarde van het oude aandeel wordt verlaagd en een nieuwe rubriek 'inschrijvingsrechten' opgenomen ten belope van de waarde-overdracht. Bij uitoefening: inschrijvingsrecht + bijbetaling -> nieuwe aandelen. Bij verkoop van het inschrijvingsrecht: realiseerbare waarde wordt verkocht en het verschil met de boekwaarde wordt in resultaat genomen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2016/1", "ref": "Verrichtingen met betrekking tot inschrijvingsrechten" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -82,6 +456,11 @@
     {
       "type": "beinvloed_door",
       "target": "aandeel"
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "kapitaalverhoging-in-natura",
+      "toelichting": "Bij inbreng in natura speelt het voorkeurrecht niet - de inbrenger is per definitie bepaald."
     }
   ]
 }
