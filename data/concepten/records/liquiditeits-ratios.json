@@ -1,275 +1,174 @@
 {
   "id": "liquiditeits-ratios",
   "naam": {
-    "primair": "Liquiditeitsratio's"
+    "primair": "Liquiditeitsratio's",
+    "synoniemen": ["liquiditeitsindicatoren", "kortetermijn-ratio's"],
+    "vertaling": {"en": "liquidity ratios", "fr": "ratios de liquidité"}
   },
   "concept_type": "ratio",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.3.II.C",
-      "1.9.V.D"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.3.II.C", "1.9.V.D"],
     "scope": {
       "in": [
-        "Σ-categorie voor 4 ratio's: current-ratio · quick-ratio · cash-ratio · cash-conversion-cycle",
-        "Gemeenschappelijke interpretatie: Korte-termijn-vermogen om verplichtingen te dekken · benchmark-bandbreedtes · valkuilen (voorraad-overschatting · betalingsgewoonten-verschillen)",
+        "Σ-categorie voor 4 ratio's: current ratio · quick ratio · cash ratio · cash conversion cycle",
+        "Gemeenschappelijke interpretatie: kortetermijn-vermogen om verplichtingen te dekken",
         "Benchmark-bandbreedtes per sector",
         "Valkuilen + signaalwaarde",
         "Nooit-in-isolement-principe (combineer met andere categorieën + kwalitatieve signalen)"
       ],
       "out": [
-        {
-          "topic": "Ratio-interpretatie cross-categorie (DuPont · cash-conversion-cycle)",
-          "richting": "moet-verwijzen",
-          "ref": "ratio-interpretatie"
-        },
-        {
-          "topic": "Jaarrekeninganalyse Σ (parent)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekeninganalyse"
-        },
-        {
-          "topic": "Financiële diagnose (geheel-oordeel)",
-          "richting": "mag-verwijzen",
-          "ref": "financiele-diagnose"
-        }
+        {"topic": "Ratio-interpretatie cross-categorie (DuPont · K-techniek)", "richting": "moet-verwijzen", "ref": "ratio-interpretatie"},
+        {"topic": "Jaarrekeninganalyse Σ (parent)", "richting": "moet-verwijzen", "ref": "jaarrekeninganalyse"},
+        {"topic": "Financiële diagnose (geheel-oordeel)", "richting": "mag-verwijzen", "ref": "financiele-diagnose"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/liquiditeits-ratios.json",
+      "primary_bronnen": ["KB W.Venn. — minimum genormaliseerd rekeningenstelsel", "Richtlijn 2013/34/EU art. 55 (balans-schema)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:45:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Σ-record liquiditeits-ratios uitgewerkt: 4 ratio's (current, quick, cash, CCC) als sub-concepten met formule + voorbeeld + benchmark + valkuilen. Inhoud overwegend afgeleid via standaardleer (Ooghe & Van Wymeersch, ITAA-handboeken)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Liquiditeitsratio's meten het vermogen van een onderneming om haar kortetermijn-verplichtingen (≤ 1 jaar) na te komen met haar kortetermijn-middelen. Vier kerngetallen vormen de standaardset: (1) current ratio (vlottende activa / kortlopende schulden); (2) quick ratio of acid test (vlottende activa − voorraden / kortlopende schulden); (3) cash ratio (liquide middelen / kortlopende schulden); (4) cash conversion cycle (DSO + DIO − DPO in dagen). Samen schetsen ze een gelaagd beeld van betaalcapaciteit: van breed (alle vlottende activa beschikbaar) tot eng (alleen pure cash) en dynamisch (hoeveel dagen kapitaal vastgepind in werkkapitaal).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie liquiditeitsratio's — Belgische financiële analyse"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Liquiditeit is het 'survival-vraag' — kan de onderneming morgen haar leverancier betalen, haar salarissen, haar BTW-aanslag? Een onderneming kan winstgevend zijn op papier en toch failliet gaan wegens liquiditeitsproblemen ('profitable insolvency'). Vandaar de centrale plaats in elke analyse — vooral voor crediteuren en banken die op kortetermijn-zekerheid kijken. De vier ratio's zijn complementair, niet vervangend: een gezonde current ratio kan een liquiditeitscrisis verbergen wanneer de voorraden onverkoopbaar zijn (vandaar quick ratio); een gezonde quick ratio kan misleidend zijn wanneer de vorderingen oninbaar zijn (vandaar cash ratio); en alle stand-ratio's negeren de tijdsdimensie (vandaar cash conversion cycle).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom een aparte categorie? Liquiditeit en solvabiliteit zijn fundamenteel verschillend. Solvabiliteit kijkt langetermijn (kan de onderneming uiteindelijk al haar schulden afbetalen?) — liquiditeit kijkt kortetermijn (kan ze deze maand betalen?). Een bedrijf kan zeer solvabel zijn (veel langetermijn-eigen-vermogen) en toch liquiditeitsproblemen hebben (alle cash in voorraad gestoken). Banken differentieren expliciet: liquiditeit voor kasfaciliteit, solvabiliteit voor investeringskrediet. De vier liquiditeitsratio's bieden een gradiënt — van mild (current) naar streng (cash ratio) — die toelaat de werkelijke 'kasknepen' te lokaliseren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekening", "jaarrekeninganalyse"],
+      "kader": "jaarrekeninganalyse",
+      "naast_relevant": ["solvabiliteits-ratios", "activiteits-ratios", "kasstroom-analyse"],
+      "volgkennis": ["ratio-interpretatie", "financiele-diagnose"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Krediet-beoordeling kortetermijn — banken bij kasfaciliteit, leveranciers bij krediet-toekenning, kredietverzekeraars.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Going-concern-toets — ISA 570 lijst kortetermijn-liquiditeitsproblemen als trigger-indicator (negatieve werkkapitaal-positie, kortlopende schulden > vlottende activa).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3"}]}},
+        {"tekst": "Bank-covenants — kredietovereenkomsten bevatten vaak minimumdrempels voor current ratio (typisch ≥ 1,0 of ≥ 1,2). Breach activeert clausules (renteverhoging, vervroegde opeisbaarheid).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk Belgische kredietdocumentatie"}]}}
+      ],
+      "risico": [
+        {"tekst": "Window-dressing risico (zie ook valkuilen): liquiditeitsratio's worden vaak gemanipuleerd rond balansdatum via tijdelijke factoring, late betalingen of cash-laad-en-los-bewegingen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
     "subconcepten": [
       {
         "id": "current-ratio",
-        "naam": {
-          "primair": "Current ratio"
-        },
+        "naam": {"primair": "Current ratio (algemene liquiditeit)", "synoniemen": ["algemene liquiditeit", "working capital ratio"]},
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
-              "grondslag": {
-                "confidence": "verondersteld",
-                "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
-                ]
-              }
-            }
+            "definitie": {"tekst": "Current ratio = vlottende activa / kortlopende schulden. Vlottende activa = voorraden (3) + vorderingen ≤ 1 jaar (40-41) + geldbeleggingen (50-53) + liquide middelen (54-58) + overlopende rekeningen actief (490). Kortlopende schulden = schulden ≤ 1 jaar (42-48) + overlopende rekeningen passief (492).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "KB W.Venn. — MAR", "ref": "klasse 3-5 + 42-49"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+            "substantie": {"tekst": "De breedste liquiditeitsmaat — geeft aan hoeveel keer de onderneming haar kortlopende schulden zou kunnen dekken als ze al haar vlottende activa zou liquideren. Vuistregel current ratio ≥ 1: vlottende activa volstaan voor kortlopende schulden. Maar: sterk sectorafhankelijk.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
           },
           "bouwstenen": [
-            {
-              "id": "current-ratio-formule",
-              "naam": {
-                "primair": "Formule current-ratio"
-              },
-              "bouwsteen_type": "formule",
-              "kern": {
-                "definitie": {
-                  "tekst": "⏳ Te beschrijven in Fase 2",
-                  "grondslag": {
-                    "confidence": "verondersteld",
-                    "bronnen": [
-                      {
-                        "type": "ai_model",
-                        "naam": "cluster-skeleton-agent",
-                        "datum": "2026-05-28"
-                      }
-                    ]
-                  }
-                }
-              }
-            }
+            {"id": "benchmark-current", "naam": {"primair": "Benchmark-bandbreedtes per sector"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Algemene vuistregel: 1,5-2,0 voor industriële KMO is comfortabel. Onder 1,0: alarmsignaal. Boven 2,5: mogelijk te conservatief (cash- en voorraadoverschot). Sector-specifiek: supermarktketens 0,5-0,8 (extreme voorraadrotatie + leverancierskrediet); industriële productie 1,5-2,5; bouw 1,0-1,5 (hoge voorraad + lopende werken); IT-dienstverlening 2,0-3,0 (lage voorraad, snelle inning).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "NBB-balanscentrale sectoraggregaten + Belfius-sectoranalyses orde van grootte"}]}}}}
+          ],
+          "voorbeelden": [
+            {"id": "voorbeeld-current-zelena", "titel": "Current ratio — Zelena Bio NV (20X4)", "context": "Balans Zelena Bio NV per 31-12-20X4.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["Vlottende activa: voorraden 1.600 + handelsvorderingen 2.000 + liquide middelen 1.200 = 4.800 (1.000 EUR)", "Kortlopende schulden: handelsschulden 1.600 + overige schulden ≤ 1 jaar 1.600 = 3.200 (1.000 EUR)", "Current ratio = 4.800 / 3.200 = 1,50"], "resultaat": "1,50 — gezond voor industriële KMO (benchmark 1,5-2,5). Boven 1,0-drempel, comfortabele buffer voor onverwachte vertragingen."}]}
           ]
         }
       },
       {
         "id": "quick-ratio",
-        "naam": {
-          "primair": "Quick ratio"
-        },
+        "naam": {"primair": "Quick ratio (acid test)", "synoniemen": ["acid-test ratio", "snelle liquiditeit"]},
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
-              "grondslag": {
-                "confidence": "verondersteld",
-                "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
-                ]
-              }
-            }
+            "definitie": {"tekst": "Quick ratio = (vlottende activa − voorraden) / kortlopende schulden. Identiek aan current ratio maar voorraden (klasse 3) worden uit de teller gehaald. Reden: voorraden zijn de minst liquide vlottende activa — verkooptijd kan maanden zijn, en bij liquidatie vaak slechts 30-50 % van boekwaarde.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+            "substantie": {"tekst": "Strenge liquiditeitsmaat — meet 'echte' kortetermijn-betaalkracht zonder afhankelijkheid van voorraadverkoop. Bij een handelsonderneming met grote voorraad (auto-dealer, juwelier) kan current ratio 2,0 en quick ratio 0,4 zijn — wat een totaal ander beeld geeft van kasknepen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
           },
           "bouwstenen": [
-            {
-              "id": "quick-ratio-formule",
-              "naam": {
-                "primair": "Formule quick-ratio"
-              },
-              "bouwsteen_type": "formule",
-              "kern": {
-                "definitie": {
-                  "tekst": "⏳ Te beschrijven in Fase 2",
-                  "grondslag": {
-                    "confidence": "verondersteld",
-                    "bronnen": [
-                      {
-                        "type": "ai_model",
-                        "naam": "cluster-skeleton-agent",
-                        "datum": "2026-05-28"
-                      }
-                    ]
-                  }
-                }
-              }
-            }
+            {"id": "benchmark-quick", "naam": {"primair": "Benchmark-bandbreedtes"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Vuistregel quick ratio ≥ 1,0: vlottende activa zonder voorraden volstaan voor kortlopende schulden. Industriële KMO: 0,8-1,5 typisch. Dienstverlening (geen voorraad): quick ratio ≈ current ratio. Handel/distributie: vaak quick ratio veel lager dan current — 0,3-0,7 niet zeldzaam.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+          ],
+          "voorbeelden": [
+            {"id": "voorbeeld-quick-zelena", "titel": "Quick ratio — Zelena Bio NV (20X4)", "context": "Zie balans Zelena Bio NV uit current-ratio voorbeeld.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["Vlottende activa zonder voorraden: 4.800 − 1.600 = 3.200", "Kortlopende schulden: 3.200", "Quick ratio = 3.200 / 3.200 = 1,00"], "resultaat": "1,00 — minimaal aanvaardbaar. Combinatie current 1,50 en quick 1,00: voorraden vormen 1/3 van vlottende activa. Indien voorraad-verkoop traag zou zijn → onmiddellijke kasknepen. Werkpunt: voorraadrotatie verhogen of voorraad afbouwen."}]}
           ]
         }
       },
       {
         "id": "cash-ratio",
-        "naam": {
-          "primair": "Cash ratio"
-        },
+        "naam": {"primair": "Cash ratio", "synoniemen": ["onmiddellijke liquiditeit", "absolute liquiditeit"]},
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
-              "grondslag": {
-                "confidence": "verondersteld",
-                "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
-                ]
-              }
-            }
+            "definitie": {"tekst": "Cash ratio = (liquide middelen + geldbeleggingen) / kortlopende schulden. Strengste stand-ratio: enkel rubrieken 50-58 (geldbeleggingen + liquide middelen) in de teller. Vorderingen ≤ 1 jaar worden weggehouden omdat hun werkelijke inning onzeker is.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+            "substantie": {"tekst": "De 'crisis-ratio' — kan de onderneming morgen al haar schulden betalen zónder vorderingen te innen, zonder voorraad te verkopen, alleen met de huidige cash? Geen enkele onderneming streeft naar cash ratio = 1 (ongebruikt kapitaal); typisch 0,1-0,3 voldoende. Te hoog (> 0,5) wijst op cash-overschot zonder investeringsbestemming — kapitaalsverkwisting.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
           },
           "bouwstenen": [
-            {
-              "id": "cash-ratio-formule",
-              "naam": {
-                "primair": "Formule cash-ratio"
-              },
-              "bouwsteen_type": "formule",
-              "kern": {
-                "definitie": {
-                  "tekst": "⏳ Te beschrijven in Fase 2",
-                  "grondslag": {
-                    "confidence": "verondersteld",
-                    "bronnen": [
-                      {
-                        "type": "ai_model",
-                        "naam": "cluster-skeleton-agent",
-                        "datum": "2026-05-28"
-                      }
-                    ]
-                  }
-                }
-              }
-            }
+            {"id": "benchmark-cash", "naam": {"primair": "Benchmark-bandbreedtes"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Vuistregel: 0,1-0,3 voldoende. Onder 0,05: risicovol (geen buffer voor onverwachte vertraging). Boven 0,5: kapitaalsverkwisting tenzij voorbereiding voor grote uitgave (investering, dividend, overname).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+          ],
+          "voorbeelden": [
+            {"id": "voorbeeld-cash-zelena", "titel": "Cash ratio — Zelena Bio NV (20X4)", "context": "Zie balans Zelena Bio NV.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["Liquide middelen: 1.200 (1.000 EUR)", "Kortlopende schulden: 3.200", "Cash ratio = 1.200 / 3.200 = 0,375"], "resultaat": "0,375 — aan de hoge kant. Combinatie current 1,50 + quick 1,00 + cash 0,38: onderneming heeft voldoende cash maar wellicht te veel. Vraag: is dit voorbereiding op een specifieke uitgave (investering, dividend), of slordig kasbeheer? Cash-yield optimaliseren via geldbeleggingen of versnelde investering."}]}
           ]
         }
       },
       {
         "id": "cash-conversion-cycle",
-        "naam": {
-          "primair": "Cash conversion cycle"
-        },
+        "naam": {"primair": "Cash conversion cycle (CCC)", "afkorting": "CCC", "synoniemen": ["operationele cyclus", "kasconversiecyclus"]},
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
-              "grondslag": {
-                "confidence": "verondersteld",
-                "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
-                ]
-              }
-            }
+            "definitie": {"tekst": "CCC = DIO + DSO − DPO (in dagen). DIO = days inventory outstanding = (voorraden × 365) / kostprijs verkopen; DSO = days sales outstanding = (handelsvorderingen × 365) / omzet; DPO = days payables outstanding = (handelsschulden × 365) / aankopen. CCC = aantal dagen waarin geld 'vast zit' in het werkkapitaal — van betaling leverancier tot inning klant.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardformule operationele cyclus"}]}},
+            "substantie": {"tekst": "De dynamische liquiditeitsmaat — voegt tijdsdimensie toe aan de stand-ratio's. Een CCC van 60 dagen betekent dat de onderneming 60 dagen werkkapitaal moet financieren (voorraad + klanten − leveranciers). Kortere CCC = minder werkkapitaal-financiering nodig = lagere financiële kosten. Sommige bedrijven hebben negatieve CCC (supermarkten: klanten betalen meteen, leveranciers pas na 30-60 dagen) — die genereren cash via groei.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
           },
           "bouwstenen": [
-            {
-              "id": "cash-conversion-cycle-formule",
-              "naam": {
-                "primair": "Formule cash-conversion-cycle"
-              },
-              "bouwsteen_type": "formule",
-              "kern": {
-                "definitie": {
-                  "tekst": "⏳ Te beschrijven in Fase 2",
-                  "grondslag": {
-                    "confidence": "verondersteld",
-                    "bronnen": [
-                      {
-                        "type": "ai_model",
-                        "naam": "cluster-skeleton-agent",
-                        "datum": "2026-05-28"
-                      }
-                    ]
-                  }
-                }
-              }
-            }
+            {"id": "benchmark-ccc", "naam": {"primair": "Benchmark-bandbreedtes"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Sector-specifiek. Supermarkt: -10 tot -30 dagen (negatieve cyclus, cash-genererend). Industriële KMO: 40-90 dagen typisch. Bouw: 90-180 dagen (lange werkduur + onderhandse marktwerking). Detailhandel non-food: 30-60 dagen. Stijgende CCC over jaren is alarmsignaal — voorraadprobleem of inningsprobleem of beide.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+          ],
+          "voorbeelden": [
+            {"id": "voorbeeld-ccc-zelena", "titel": "Cash conversion cycle — Zelena Bio NV (20X4)", "context": "Zelena Bio NV: omzet 5.700, kostprijs verkopen 3.600 (rubriek 60+61), aankopen ≈ 3.000.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["DIO = 1.600 × 365 / 3.600 = 162 dagen voorraadrotatie", "DSO = 2.000 × 365 / 5.700 = 128 dagen klantenkredieten", "DPO = 1.600 × 365 / 3.000 = 195 dagen leverancierskrediet", "CCC = 162 + 128 − 195 = 95 dagen"], "resultaat": "95 dagen — boven sectorgemiddelde voedingsindustrie (typisch 40-70). Hoge DIO (162 d) en hoge DSO (128 d) wijzen op werkkapitaal-spanning. Werkpunt: voorraadrotatie versnellen + klantenkrediettermijn verkorten."}]}
           ]
         }
       }
+    ],
+    "valkuilen": [
+      {"titel": "Vuistregels universaal toepassen", "verkeerde_assumptie": "Current ratio < 1 = automatisch slecht.", "kernpunt": "Sector-specifiek. Supermarkten (Delhaize, Carrefour) hebben structureel current ratio < 1 wegens razendsnelle voorraadrotatie + langere leverancierskrediettermijn. Vergelijken met sector-benchmark, niet met algemene vuistregel.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Voorraad-waardering negeren", "verkeerde_assumptie": "Voorraden zijn een betrouwbare component van vlottende activa.", "kernpunt": "Voorraadwaardering is sterk schatting-afhankelijk: FIFO/gemiddelde kostprijs, waardeverminderingen op verouderde of incourante stock, lange productiecycli. Een current ratio van 2,0 met grotendeels obsolete voorraad is misleidend. Kijk altijd naar voorraadrotatie (DIO) en waardeverminderingen in toelichting.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Window-dressing onopgemerkt laten", "verkeerde_assumptie": "Liquiditeitsratio's per balansdatum reflecteren de normale situatie.", "kernpunt": "Ratio's worden vaak gemanipuleerd rond balansdatum: factoring zonder regres (vorderingen → cash), aflossing schulden net vóór jaareinde (terug opgenomen in januari), versnelde inningscampagne. Vergelijk balansdatum-ratio's met meerdere tussentijdse staten of mediaan over een jaar — niet enkel het 'snapshot'.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Stand-ratio's zonder dynamische check gebruiken", "verkeerde_assumptie": "Current/quick/cash ratio geven een volledig liquiditeitsbeeld.", "kernpunt": "Stand-ratio's zijn momentopnames; ze missen de tijdsdimensie. Combineer altijd met cash conversion cycle (dynamisch) en kasstroomanalyse (operationele kasstroom). Onderneming met current 1,5 en CCC 180 dagen heeft veel werkkapitaal-financiering nodig — bank-buffer staat onder druk.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Eén-ratio-één-jaar-conclusies trekken", "verkeerde_assumptie": "Een current ratio van 1,2 is voldoende informatie om een liquiditeitsoordeel te geven.", "kernpunt": "Combineer altijd: (a) vier liquiditeitsratio's; (b) trend over 3-5 jaar; (c) sectorbenchmark; (d) kwalitatieve signalen (rappels, betalingsachterstanden BTW/RSZ — gepubliceerd in jaarverslag). Eén-ratio-één-jaar wordt routinematig misleidend.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
     ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "jaarrekeninganalyse"
-    }
+    {"type": "valt_onder", "target": "jaarrekeninganalyse", "toelichting": "Eerste ratio-categorie binnen jaarrekening-analyse."},
+    {"type": "vereist", "target": "jaarrekening", "toelichting": "Ratio's berekenen uit balans + resultatenrekening."},
+    {"type": "vergelijkbaar_met", "target": "solvabiliteits-ratios", "gelijkenissen": ["Beide gaan over schuld-dekking"], "verschillen": ["Liquiditeit = korte termijn (≤ 1 jaar); solvabiliteit = lange termijn"], "verwarring_risico": "Studenten gebruiken 'liquide' en 'solvabel' soms door elkaar — liquide = momentaan kan betalen; solvabel = uiteindelijk al haar schulden kan afbetalen."},
+    {"type": "beinvloed_door", "target": "activiteits-ratios", "toelichting": "Voorraadrotatie + klantenkrediettermijn (DIO + DSO) zijn componenten van CCC én indicatoren van activiteits-efficiëntie."},
+    {"type": "triggert", "target": "kasstroom-analyse", "toelichting": "Liquiditeitsalarm via ratio's → grondige kasstroom-analyse voor diagnose."}
   ]
 }
