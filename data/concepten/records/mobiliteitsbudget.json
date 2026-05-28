@@ -4,12 +4,15 @@
     "primair": "Mobiliteitsbudget",
     "synoniemen": [
       "federaal mobiliteitsbudget"
-    ]
+    ],
+    "vertaling": {
+      "fr": "budget mobilité"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -43,9 +46,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "claude-opus-4-7-1m",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/mobiliteitsbudget.json",
+      "primary_bronnen": [
+        "WIB92__art_38__sub_36deg"
+      ],
+      "mcp_calls": 2,
+      "iteratie": "cluster-extract-v1"
     },
     "changelog": [
       {
@@ -54,24 +63,191 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:30:00Z",
+        "model": "claude-opus-4-7-1m",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Cluster-extract Fase 2: kern + 3 pijlers + voorbeeld met cijfers + gebruikscontext + valkuilen + accountant_perspectieven. Bron-corpus dekt Wet 17-03-2019 niet rechtstreeks; cross-reference in WIB92 art. 38 is enige primaire bron. Pijler-structuur en cijfer-mechaniek = verondersteld (ai_model)."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het federaal mobiliteitsbudget is een wettelijke regeling (Wet van 17 maart 2019) waarbij een werknemer die recht heeft op een bedrijfswagen — of voor een nieuwe wagen in aanmerking zou komen — dat recht inruilt voor een jaarlijks geldbudget gelijk aan de Total Cost of Ownership (TCO) van de wagen waarop hij anders recht zou hebben. De werknemer besteedt dat budget vrij binnen drie pijlers: (1) een milieuvriendelijke bedrijfswagen, (2) duurzame vervoersmiddelen en woon-werkverplaatsingen, (3) een cash-saldo uitbetaald als loon.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "id": "WIB92__art_38__sub_36deg",
+              "naam": "WIB92",
+              "ref": "Art. 38, lid (cross-ref): 'mobiliteitsbudget … met toepassing van de wet van 17 maart 2019 betreffende de invoering van een mobiliteitsbudget'",
+              "context": "WIB92 verwijst naar de wet 17 maart 2019 als referentiekader. De wettekst zelf is niet in het bron-corpus opgenomen."
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Pijler-structuur en TCO-mechaniek = algemene HR/fiscale kennis over de wet 17-03-2019; te verifiëren tegen primaire bron bij latere claims_checken-operatie."
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is het mobiliteitsbudget een omzettingsmechanisme: de werkgever blijft hetzelfde totaalpakket dragen (TCO van de bedrijfswagen blijft de bovengrens), maar de werknemer ruilt het natura-voordeel (de wagen + tankkaart + verzekering + onderhoud) in voor een keuzemenu. Pijler 1 (milieuvriendelijke wagen) volgt de gewone bedrijfswagen-fiscaliteit. Pijler 2 (duurzame mobiliteit — fiets, openbaar vervoer, deelmobiliteit, huisvestingskosten dicht bij het werk, ...) is volledig vrijgesteld van personenbelasting en sociale bijdragen. Pijler 3 (cash-saldo, het restant op het einde van het jaar) is onderworpen aan een bijzondere sociale bijdrage maar vrijgesteld van personenbelasting. Het mobiliteitsbudget is dus niet 'gratis geld' maar een herallocatie van een al toegekend voordeel.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Pijler-mechaniek (fiscaal regime per pijler) niet rechtstreeks in bron-corpus. Te verifiëren bij latere operatie tegen wet 17-03-2019 + uitvoerings-KB."
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is tweezijdig: (a) milieu-doelstelling — Belgische bedrijfswagens veroorzaken een buitenproportioneel deel van de CO2-uitstoot, en het mobiliteitsbudget biedt een fiscaal aantrekkelijk alternatief dat duurzaam vervoer beloont; (b) loon-flexibilisering zonder fiscaal-budgettair verlies — door het budget aan de TCO van de wagen te koppelen blijft het belastbaar voordeel-equivalent ongeveer gelijk, terwijl de werknemer keuzevrijheid krijgt. Het is daarmee de modernere opvolger-piste naast de uitdovende mobiliteitsvergoeding (cash-for-car).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Ratio legis afgeleid uit context Wet 17-03-2019 + parallelisme met cash-for-car (uitdovend sinds wet 7 juli 2024)."
             }
           ]
         }
       }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-03-01",
+        "wettelijke_basis": "Wet van 17 maart 2019 betreffende de invoering van een mobiliteitsbudget (BS 29-03-2019); diverse wijzigingen (wet 25-11-2021) breidden Pijler 2 uit en versoepelden de toegangsvoorwaarden.",
+        "toelichting": "Sinds de afschaffing van cash-for-car voor nieuwe gevallen is het mobiliteitsbudget het enige actieve federale 'wagen-inruil'-regime."
+      },
+      "voor": [
+        {
+          "tekst": "Werknemers die al ≥12 maanden over een bedrijfswagen beschikken (of er recht op hebben gehad) bij hun huidige werkgever, en die hun wagen-recht willen inruilen voor een flexibel mobiliteitspakket.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28",
+                "context": "Anciënniteitsvoorwaarde uit wet 17-03-2019 art. 3-4; versoepeld sinds wet 25-11-2021. Te verifiëren."
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Werkgevers die ten minste 36 maanden ononderbroken een of meerdere bedrijfswagens ter beschikking stelden vóór invoering van het mobiliteitsbudget-systeem (toegangsvoorwaarde werkgever).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28",
+                "context": "36-maandenvoorwaarde werkgever uit wet 17-03-2019. Te verifiëren."
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Schriftelijke aanvraag door werknemer + schriftelijk akkoord werkgever; werkgever bepaalt vrij of hij het systeem aanbiedt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Niet-cumuleerbaar met de fiscale vrijstellingen voor woon-werkverplaatsing met openbaar vervoer (WIB92 art. 38 §1, eerste lid, 9°) en met de fiscale fietsvergoeding (WIB92 art. 38 §1, eerste lid, 14°), TENZIJ het geval bedoeld in art. 10, §3 van de wet 17-03-2019.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "id": "WIB92__art_38__sub_36deg",
+                "naam": "WIB92",
+                "ref": "Art. 38 (geconsolideerde uitsluitingslid): 'De vrijstellingen bedoeld in het eerste lid, 9°, a) en b), en 14°, zijn niet van toepassing wanneer de belastingplichtige tegelijkertijd een mobiliteitsbudget ontvangt … met toepassing van de wet van 17 maart 2019 …, tenzij het geval bedoeld in artikel 10, § 3, van dezelfde wet.'"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Werknemer wint keuzevrijheid (multimodaal vervoer) zonder loonverlies in koopkracht — pijler 2-bestedingen zijn fiscaal volledig vrijgesteld.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Werkgever vermijdt CO2-solidariteitsbijdrage voor het deel dat in pijler 2 of 3 belandt; HR-imago en duurzaamheidsobjectief profiteren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onjuiste TCO-berekening (referentiewagen vs. werkelijke kost) kan budget structureel te laag of te hoog zetten — administratieve revisie nodig bij verandering van wagen-categorie of bij wijziging fiscale spelregels.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Cumul-verbod met vrijstellingen 9° en 14° (WIB92 art. 38) — een werknemer die mobiliteitsbudget krijgt én tegelijk klassieke woon-werkvergoeding ontvangt, verliest die laatste vrijstelling tenzij uitzondering art. 10 §3.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "id": "WIB92__art_38__sub_36deg",
+                "naam": "WIB92",
+                "ref": "Art. 38 (uitsluitingslid)"
+              }
+            ]
+          }
+        }
+      ]
     },
     "subconcepten": [
       {
@@ -83,19 +259,64 @@
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
+              "tekst": "Pijler 1 laat de werknemer een deel van zijn mobiliteitsbudget besteden aan een milieuvriendelijke bedrijfswagen die voldoet aan vooropgestelde milieucriteria (sinds 2026: elektrisch of zeer beperkte CO2-uitstoot). De wagen volgt het gewone fiscaal regime voor bedrijfswagens (VAA-berekening WIB92 art. 36 §2 + aftrekbaarheid WIB92 art. 66).",
               "grondslag": {
                 "confidence": "verondersteld",
                 "bronnen": [
                   {
                     "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
+                    "naam": "claude-opus-4-7-1m",
+                    "datum": "2026-05-28",
+                    "context": "Definitie pijler 1 + verstrenging milieucriteria over de tijd (Wet 25-11-2021 + Verg. fiscaliteit) niet rechtstreeks in bron-corpus. WIB92 art. 36 en 66 wel."
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Het deel van het budget gebruikt voor de milieuvriendelijke wagen wordt afgetrokken van het beschikbare budget; de werknemer behoudt de voordelen én ondervindt de fiscale lasten van een klassieke bedrijfswagen (voordeel van alle aard, BIV, ...). Het wagen-restant — wat niet aan pijler 1 besteed wordt — is beschikbaar voor pijler 2 en/of 3.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7-1m",
                     "datum": "2026-05-28"
                   }
                 ]
               }
             }
-          }
+          },
+          "bouwstenen": [
+            {
+              "id": "milieucriteria-pijler-1",
+              "naam": {
+                "primair": "Milieucriteria pijler 1"
+              },
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor wagens besteld vanaf 1 januari 2026 moet de pijler-1-wagen koolstofneutraal zijn (CO2-uitstoot = 0 g/km) — dit lijnt op met de algemene fiscale verstrenging voor bedrijfswagens (WIB92 art. 66 §1/1). Voor eerder bestelde wagens golden tussentijdse drempels die geleidelijk strenger werden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "id": "WIB92__art_66__sub_2deg_part2",
+                        "naam": "WIB92",
+                        "ref": "Art. 66 §1/1 — verstrengde aftrekpercentages voor bedrijfswagens vanaf 1 jan 2026"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28",
+                        "context": "Pijler 1 volgt de algemene bedrijfswagen-fiscaliteit qua milieu-eisen; specifieke pijler-1-drempels te verifiëren tegen wet 17-03-2019 + KB."
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         }
       },
       {
@@ -107,19 +328,58 @@
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
+              "tekst": "Pijler 2 omvat alle duurzame vervoersalternatieven en aanverwante diensten waaraan het mobiliteitsbudget besteed kan worden: zachte mobiliteit (fiets, step), openbaar vervoer (abonnement trein/tram/bus, zelfs voor inwonende gezinsleden), gedeelde mobiliteit (carsharing, deelfietsen), woon-werk-voetgangerskilometers, parking voor openbaar vervoer, én — sinds de wet 25-11-2021 — huisvestingskosten (huur of hypothecaire-intresten) wanneer de werknemer binnen 10 km van het werk woont.",
               "grondslag": {
                 "confidence": "verondersteld",
                 "bronnen": [
                   {
                     "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
+                    "naam": "claude-opus-4-7-1m",
+                    "datum": "2026-05-28",
+                    "context": "Inhoud pijler 2 + uitbreiding huisvestingskosten te verifiëren tegen wet 17-03-2019 (gewijzigd 25-11-2021). De 10km-drempel is een geheugen-claim."
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Pijler-2-bestedingen zijn vrijgesteld van personenbelasting én van sociale bijdragen. Dit maakt pijler 2 fiscaal het meest aantrekkelijke kanaal — eke euro besteed in pijler 2 levert ~1 euro netto op, in tegenstelling tot loon waar bruto ≈ 2× netto.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7-1m",
                     "datum": "2026-05-28"
                   }
                 ]
               }
             }
-          }
+          },
+          "bouwstenen": [
+            {
+              "id": "categorieen-pijler-2",
+              "naam": {
+                "primair": "Categorieën pijler 2"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toegelaten bestedingen omvatten: (a) zachte mobiliteit — fiets (aankoop, leasing, onderhoud, accessoires, fietsvergoeding), elektrische step, e.d.; (b) openbaar-vervoer-abonnementen (incl. inwonende gezinsleden); (c) gedeelde mobiliteit — auto-/scooter-/fietsdelen, taxi, autoverhuur (max. 30 dagen/jaar); (d) voetgangers-kilometervergoeding voor woon-werk; (e) parking bij openbaar-vervoer-knooppunten; (f) huisvestingskosten (huur of hypotheek-intresten) indien werknemer binnen 10 km van werk woont.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28",
+                        "context": "Volledige categorie-lijst pijler 2 niet in bron-corpus. Stagiair: te checken tegen wet 17-03-2019 art. 8 + 9 (gewijzigd 25-11-2021)."
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         }
       },
       {
@@ -131,13 +391,27 @@
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2",
+              "tekst": "Pijler 3 is het restant-budget dat op het einde van het kalenderjaar niet aan pijler 1 of 2 werd besteed, en dat als een geldsom aan de werknemer wordt uitbetaald. Het cash-saldo is vrijgesteld van personenbelasting maar onderworpen aan een bijzondere werknemers-sociale bijdrage van 38,07 %.",
               "grondslag": {
                 "confidence": "verondersteld",
                 "bronnen": [
                   {
                     "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
+                    "naam": "claude-opus-4-7-1m",
+                    "datum": "2026-05-28",
+                    "context": "Tarief 38,07 % bijzondere RSZ-bijdrage werknemer op cash-saldo — bekend cijfer maar niet in bron-corpus. Te verifiëren tegen wet 17-03-2019 art. 13."
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Pijler 3 maakt het mobiliteitsbudget aantrekkelijk ook voor werknemers die hun bedrijfswagen niet maximaal nodig hebben: hun overschot vertaalt zich in extra netto-loon (zonder PB, met enkel een bijzondere bijdrage). Het saldo wordt jaarlijks vastgesteld; er is geen overdracht naar volgend jaar.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7-1m",
                     "datum": "2026-05-28"
                   }
                 ]
@@ -146,16 +420,422 @@
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "tco-formule",
+        "naam": {
+          "primair": "TCO-formule mobiliteitsbudget"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Het jaarlijks mobiliteitsbudget = jaarlijkse Total Cost of Ownership (TCO) van de bedrijfswagen waarop de werknemer recht had of zou hebben gehad. TCO omvat: leasing-/financieringskost + brandstof-/laadkosten + verzekering + onderhoud + belastingen (BIV, verkeersbelasting, CO2-solidariteitsbijdrage werkgever) − eigen bijdrage werknemer. Tussen 20 % (laagste) en 200 % (hoogste) van de gemiddelde TCO van een referentiewagen in de werkgevers-vloot — afhankelijk van de positie van de werknemer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-opus-4-7-1m",
+                  "datum": "2026-05-28",
+                  "context": "TCO-formule en min/max-vorken (20%-200%) afkomstig uit wet 17-03-2019 + KB 21-03-2019; niet rechtstreeks in bron-corpus. Te verifiëren bij claims_checken."
+                }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Jaarlijks budget = (leasingkost + brandstof + verzekering + onderhoud + belastingen + CO2-bijdrage) − eigen bijdrage werknemer"
+          }
+        ]
+      },
+      {
+        "id": "cumulverbod-art38",
+        "naam": {
+          "primair": "Cumulverbod met vrijstellingen WIB92 art. 38"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een werknemer die een mobiliteitsbudget ontvangt op grond van de wet 17 maart 2019 kan voor dezelfde periode geen aanspraak meer maken op de fiscale vrijstelling voor woon-werkverplaatsing met openbaar vervoer (WIB92 art. 38 §1, eerste lid, 9°, a en b) noch op de vrijstelling voor de fietsvergoeding (WIB92 art. 38 §1, eerste lid, 14°). Uitzondering: het geval bedoeld in art. 10, §3 van de wet 17 maart 2019.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "id": "WIB92__art_38__sub_36deg",
+                  "naam": "WIB92",
+                  "ref": "Art. 38 (uitsluitingslid mobiliteitsbudget)"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-werknemer-8000-budget",
+        "titel": "Werknemer Jan ruilt bedrijfswagen in voor €8.000 mobiliteitsbudget",
+        "context": "Jan is sales-medewerker bij BV Optima. Hij heeft recht op een Volkswagen Passat (TCO €8.000/jaar). Jan besluit zijn wagen-recht in te ruilen voor het mobiliteitsbudget vanaf 1 januari 2026.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Cijfer-voorbeeld didactisch geconstrueerd; tarieven (38,07% bijzondere bijdrage) zijn algemeen gekend maar niet in bron-corpus geverifieerd."
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "Verdeling budget €8.000 over 3 pijlers (40 / 40 / 20)",
+            "stappen": [
+              {
+                "stap": 1,
+                "omschrijving": "Pijler 1 — elektrische Renault Zoë (kleinere wagen, lagere TCO)",
+                "bedrag": "€3.200 (40 %)",
+                "fiscaal_regime": "Klassieke bedrijfswagen-fiscaliteit: VAA elektrisch ≈ €1.540 minimum/jaar, aftrekbaar bij werkgever 100 % (WIB92 art. 66 §1)."
+              },
+              {
+                "stap": 2,
+                "omschrijving": "Pijler 2 — NMBS-abonnement (€1.200) + fiets-leasing (€1.500) + parking aan station (€500)",
+                "bedrag": "€3.200 (40 %)",
+                "fiscaal_regime": "Vrijgesteld van personenbelasting + sociale bijdragen → netto-effect = €3.200."
+              },
+              {
+                "stap": 3,
+                "omschrijving": "Pijler 3 — cash-saldo eind van het jaar",
+                "bedrag": "€1.600 (20 %)",
+                "fiscaal_regime": "Vrijgesteld PB; bijzondere RSZ-werknemersbijdrage 38,07 % → netto ≈ €1.600 − €609 = €991."
+              },
+              {
+                "stap": 4,
+                "omschrijving": "Netto-effect totaal voor Jan",
+                "berekening": "Pijler 1 (gebruik wagen) + €3.200 (P2 netto) + €991 (P3 netto) = wagen + €4.191 cash-equivalent",
+                "vergelijking": "Was Jan in de klassieke bedrijfswagen gebleven, dan had hij enkel de wagen-VAA gehad (≈ €1.540 bij elektrische Passat-equivalent) — géén cash, géén pijler-2-vrijstellingen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "TCO ≠ catalogusprijs",
+        "verkeerde_assumptie": "Het budget gelijkt op de aankoopprijs of cataloguswaarde van de bedrijfswagen.",
+        "kernpunt": "Het budget is de jaarlijkse TCO (alle kosten op jaarbasis: leasing + brandstof + verzekering + onderhoud + belastingen + CO2-bijdrage), niet de eenmalige aankoopprijs. Een wagen van €40.000 catalogus kan een TCO hebben van €8.000-€12.000/jaar afhankelijk van bezetting en wagen-type.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Pijler 3 ≠ volledig netto-loon",
+        "verkeerde_assumptie": "Het cash-saldo (pijler 3) is volledig nettoloon want PB-vrijgesteld.",
+        "kernpunt": "Pijler 3 is wel vrijgesteld van personenbelasting, maar onderworpen aan een bijzondere werknemers-RSZ-bijdrage van 38,07 %. Op €1.000 cash-saldo houdt de werknemer ~€619,30 netto over — fiscaal nog steeds voordeliger dan klassiek brutoloon (waar netto/bruto ≈ 50 %), maar geen 1-op-1 nettoloon.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Cumul met fietsvergoeding verboden",
+        "verkeerde_assumptie": "Een werknemer met mobiliteitsbudget kan daarnaast nog fiscaal vrijgestelde fietsvergoeding (€0,35/km) opstrijken.",
+        "kernpunt": "WIB92 art. 38 sluit cumulatie expliciet uit: vrijstellingen 9° (openbaar vervoer woon-werk) en 14° (fietsvergoeding) zijn niet beschikbaar wanneer een mobiliteitsbudget loopt, behalve in de specifieke uitzondering van art. 10 §3 wet 17-03-2019.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "id": "WIB92__art_38__sub_36deg",
+              "naam": "WIB92",
+              "ref": "Art. 38 (uitsluitingslid)"
+            }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "keuzekader",
+        "intro": "Drie regimes voor werknemer-mobiliteit: gewone bedrijfswagen vs. cash-for-car (uitdovend) vs. mobiliteitsbudget.",
+        "inhoud": {
+          "assen": [
+            "Behoud werkelijke wagen",
+            "Fiscale aantrekkelijkheid",
+            "Flexibiliteit besteding",
+            "Beschikbaarheid voor nieuwe gevallen"
+          ],
+          "vergelijkingstabel": [
+            {
+              "regime": "Bedrijfswagen (gewoon)",
+              "wagen": "ja, werkelijke wagen",
+              "fiscaal": "VAA werknemer (CO2-formule) + aftrekbeperking werkgever",
+              "flexibiliteit": "geen — wagen-of-niets",
+              "beschikbaar": "ja (in-voege)"
+            },
+            {
+              "regime": "Cash-for-car",
+              "wagen": "neen, vervangen door geldsom",
+              "fiscaal": "Forfaitair belastbaar voordeel",
+              "flexibiliteit": "geen pijlers — vast cash-bedrag",
+              "beschikbaar": "neen (uitdovend voor nieuwe gevallen)"
+            },
+            {
+              "regime": "Mobiliteitsbudget",
+              "wagen": "optioneel — pijler 1 = milieuvriendelijke wagen",
+              "fiscaal": "P1 = bedrijfswagen-regime · P2 = volledig vrijgesteld · P3 = vrij PB + 38,07 % RSZ",
+              "flexibiliteit": "hoog — keuze tussen 3 pijlers",
+              "beschikbaar": "ja (in-voege, enige groei-piste)"
+            }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "werkgever-vennootschap",
+      "naam": {
+        "primair": "Werkgever-vennootschap die mobiliteitsbudget aanbiedt"
+      },
+      "intro": "De accountant adviseert de werkgever bij invoering, helpt de TCO bepalen en zorgt voor correcte boekhoudkundige + fiscale verwerking.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "checklist-invoering",
+              "naam": {
+                "primair": "Checklist invoering mobiliteitsbudget"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Verifieer 36-maanden-voorwaarde werkgever; (2) bepaal de TCO-formule en referentie-wagen-categorieën in de wagen-policy; (3) stel een CAO of individueel akkoord op met de werknemers; (4) bepaal welke pijler-2-bestedingen toegestaan zijn (intern reglement); (5) implementeer een digitale tool voor budget-tracking; (6) coördineer met sociaal secretariaat voor RSZ-pijler-3-bijdragen.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-pijler-2",
+              "naam": {
+                "primair": "Boeking pijler 2 — bv. NMBS-abonnement werknemer"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Pijler-2-bestedingen worden geboekt als personeelskosten (klasse 62) — 'Andere personeelskosten' of een dedicated mobiliteits-subrekening. Werkgever recupereert btw niet op personenvervoer (KB nr 45 btw, art. 45 §3). Geen patronale RSZ-bijdrage door vrijstelling pijler 2.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28",
+                        "context": "Boekhoudkundige rubricering = standaard PCMN-toepassing; btw-aftrekbeperking personenvervoer KB nr 45 — algemeen gekend maar niet in bron-corpus."
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "omschrijving": "Aankoop NMBS-abonnement €1.200 voor werknemer in kader pijler 2",
+                  "boeking": [
+                    {"rekening": "623 Andere personeelskosten (mobiliteitsbudget P2)", "debet": "1200,00"},
+                    {"rekening": "440 Leveranciers (NMBS)", "credit": "1200,00"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscale-verwerking-werkgever",
+              "naam": {
+                "primair": "Fiscale verwerking werkgever per pijler"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Pijler 1: aftrekbaarheid bedrijfswagen volgens WIB92 art. 66 §1/1 (verstrengde regels vanaf 1-7-2023, koolstofneutraal voor wagens gekocht/geleased vanaf 1-1-2028). Pijler 2 en 3: volledig aftrekbaar als personeelskost in de mate dat het mobiliteitsbudget niet wordt overschreden. CO2-solidariteitsbijdrage werkgever blijft van toepassing op de pijler-1-wagen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "id": "WIB92__art_66__sub_2deg_part2",
+                        "naam": "WIB92",
+                        "ref": "Art. 66 §1/1 — aftrekbaarheid bedrijfswagens"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "werknemer",
+      "naam": {
+        "primair": "Werknemer-belastingplichtige"
+      },
+      "intro": "De accountant adviseert de werknemer over de keuze tussen wagen-behoud en mobiliteitsbudget, en over optimale verdeling over de 3 pijlers.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "afweging-werknemer",
+              "naam": {
+                "primair": "Afweging wagen vs. mobiliteitsbudget"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vuistregel: hoe minder de werknemer de wagen nodig heeft voor woon-werk (bv. bij hybride werk, korte woon-werk-afstand, OV-bereikbare locatie), hoe interessanter het mobiliteitsbudget. Een werknemer die 80 % van zijn budget in pijler 2 kan steken, haalt netto ~80 % rendement. Wie de wagen écht nodig heeft, blijft beter bij pijler 1 of bij de klassieke bedrijfswagen.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscale-aangifte-werknemer",
+              "naam": {
+                "primair": "Aangifte werknemer: vakken op fiche 281.10"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Pijler 1 (bedrijfswagen): VAA verschijnt in vak 1254/2254 (voordeel van alle aard). Pijler 2: niet aan te geven (volledig vrijgesteld). Pijler 3 (cash-saldo): niet als belastbaar loon (PB-vrijgesteld); de bijzondere RSZ-bijdrage wordt door werkgever ingehouden en is geen aftrekbare beroepskost.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28",
+                        "context": "Concrete aangifte-vakken (1254/2254 VAA) bekend uit aangifte-template PB; te verifiëren tegen recentste fiche 281.10-instructies."
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "vergelijkbaar_met",
-      "target": "autokosten"
+      "target": "autokosten",
+      "toelichting": "Pijler 1 van het mobiliteitsbudget volgt de gewone bedrijfswagen-fiscaliteit (autokosten-regime).",
+      "gelijkenissen": [
+        "Beide gebruiken WIB92 art. 36 §2 VAA-formule voor de wagen",
+        "Beide vallen onder de aftrekbeperking WIB92 art. 66"
+      ],
+      "verschillen": [
+        "Mobiliteitsbudget heeft een TCO-plafond + keuzevrijheid; klassieke bedrijfswagen niet",
+        "Mobiliteitsbudget kent een cumul-verbod met km-vergoeding; klassieke wagen niet automatisch"
+      ],
+      "verwarring_risico": "Stagiairs verwarren soms 'mobiliteitsbudget' met 'mobiliteitsvergoeding' — de eerste is het 3-pijlerssysteem; de tweede (cash-for-car) is de uitdovende geldsom-variant.",
+      "render_hint": "als_keuze"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "cash-for-car"
+      "target": "cash-for-car",
+      "toelichting": "Beide regimes zetten een bedrijfswagen-recht om in iets anders, maar het mobiliteitsbudget heeft 3 keuze-pijlers waar cash-for-car enkel een geldsom voorzag.",
+      "gelijkenissen": [
+        "Beide vereisen anciënniteit bij werkgever",
+        "Beide veronderstellen werknemer ruilt bedrijfswagen-recht in",
+        "Beide hebben gunstig fiscaal regime t.o.v. klassiek loon"
+      ],
+      "verschillen": [
+        "Cash-for-car: één forfaitair belastbaar voordeel; mobiliteitsbudget: 3 pijlers met eigen fiscaal regime",
+        "Cash-for-car is uitdovend (geen nieuwe gevallen); mobiliteitsbudget is de actieve regeling"
+      ],
+      "verwarring_risico": "Naamovereenkomst (beide 'mobiliteit') — let op: cash-for-car is officieel 'mobiliteitsvergoeding', mobiliteitsbudget is een 3-pijlersysteem.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "woon-werkverkeer-en-km-vergoeding",
+      "toelichting": "WIB92 art. 38 sluit cumulatie met de vrijstellingen voor openbaar-vervoer (9°) en fietsvergoeding (14°) uit, behalve onder art. 10 §3 wet 17-03-2019.",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "id": "WIB92__art_38__sub_36deg",
+            "naam": "WIB92",
+            "ref": "Art. 38 (uitsluitingslid)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "autokosten",
+      "toelichting": "Voor TCO-bepaling pijler 1 en VAA-mechaniek bedrijfswagen: zie record autokosten."
     }
   ]
 }
