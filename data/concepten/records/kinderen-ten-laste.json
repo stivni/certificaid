@@ -1,12 +1,19 @@
 {
   "id": "kinderen-ten-laste",
   "naam": {
-    "primair": "Kinderen ten laste"
+    "primair": "Kinderen ten laste",
+    "synoniemen": [
+      "kind ten laste",
+      "personen ten laste"
+    ],
+    "vertaling": {
+      "fr": "enfants à charge"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -15,9 +22,24 @@
       "2.2.IV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kinderen-ten-laste.json",
+      "primary_bronnen": [
+        "WIB92 art. 2 — 4°",
+        "WIB92 art. 132",
+        "WIB92 art. 132bis",
+        "WIB92 art. 133",
+        "WIB92 art. 134",
+        "WIB92 art. 136",
+        "WIB92 art. 137",
+        "WIB92 art. 138",
+        "WIB92 art. 141"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,29 +48,43 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 2-4°, 132, 132bis, 133, 134, 136-138, 141). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
       "in": [
-        "Voorwaarden om kind fiscaal ten laste te nemen (deel uitmaken gezin · netto-bestaansmiddelen-plafond · leeftijd)",
-        "Verhoging belastingvrije som per kind (oplopend voor 1 → 4+ kinderen + zwaar gehandicapt kind)",
-        "Co-ouderschap-toerekening: 50-50-verdeling fiscale voordelen",
-        "Bijzondere categorieën: pleegkinderen · grootouders · ouders ten laste"
+        "Voorwaarden om kind fiscaal ten laste te nemen (deel uitmaken gezin op 1 januari van AJ · netto-bestaansmiddelen-plafond · definitie kind)",
+        "Verhoging belastingvrije som per kind (oplopend voor 1 → 4+ kinderen, toeslag <3 jaar, gehandicapt-kind telt voor twee)",
+        "Co-ouderschap-toerekening (art. 132bis WIB92): 50-50-verdeling toeslagen op belastingvrije som",
+        "Bijzondere categorieën: pleegkinderen, kind 'volledig of hoofdzakelijk ten laste' (art. 2,4°), overleden/doodgeboren/vermist/ontvoerd kind (art. 138), kind met eigen inkomen samengevoegd (art. 137)",
+        "Verhoogd plafond netto-bestaansmiddelen voor kinderen ten laste (art. 141)",
+        "Terugbetaalbaar belastingkrediet voor kind ten laste (art. 134 §3)"
       ],
       "out": [
         {
-          "topic": "Belastingvrije som basis + andere verhogingen (handicap belastingplichtige · leeftijd)",
+          "topic": "Belastingvrije som basis + andere verhogingen (handicap belastingplichtige · alleenstaande-ouder-toeslag art. 133)",
           "richting": "moet-verwijzen",
           "ref": "belastingvrije-som"
         },
         {
-          "topic": "Gezinssituatie burgerlijke staat",
+          "topic": "Gezinssituatie burgerlijke staat (gemeenschappelijke aanslag, jaar huwelijk/scheiding)",
           "richting": "moet-verwijzen",
           "ref": "gezinssituatie"
         },
         {
-          "topic": "Kinderbijslag (sociaalrechtelijk, geen fiscaal)",
+          "topic": "Kinderbijslag (sociaalrechtelijk regime, niet fiscaal)",
           "richting": "niet-verwijzen"
+        },
+        {
+          "topic": "Aftrekbare onderhoudsuitkeringen (alimentatie) — interfereert met co-ouderschap-keuze",
+          "richting": "mag-verwijzen",
+          "ref": "aftrekbare-bestedingen-pb"
         }
       ]
     }
@@ -56,38 +92,557 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een 'kind ten laste' is een afstammeling van de belastingplichtige of zijn echtgenoot — of een kind dat de belastingplichtige volledig of hoofdzakelijk ten laste heeft — dat op 1 januari van het aanslagjaar deel uitmaakt van zijn gezin en in het belastbare tijdperk persoonlijk geen netto-bestaansmiddelen heeft gehad boven het wettelijk plafond. Wanneer een kind ten laste is, wordt het basisbedrag van de belastingvrije som van de ouder(s) verhoogd met een toeslag die progressief stijgt met het aantal kinderen (1 → 4 en meer). Een gehandicapt kind telt voor twee, en voor een kind onder 3 jaar geldt een bijkomende toeslag.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 4°", "context": "Definitie 'kinderen'" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 141", "context": "Verhoogd bestaansmiddelen-plafond voor kinderen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch effect: elk kind ten laste verlaagt de te betalen personenbelasting van de ouder doordat een groter deel van het inkomen 'in de belastingvrije som' valt. Het mechanisme werkt progressief — niet lineair: het tweede kind brengt méér extra dan het eerste, het derde méér dan het tweede (1 kind: 870 EUR niet-geïndexeerd; 2 kinderen: 2.240 EUR; 3 kinderen: 5.020 EUR; 4 kinderen: 8.120 EUR; daarboven +3.100 EUR per kind). Voor lagere inkomens, waar het volledige voordeel niet kan worden 'opgebruikt' tegen de berekende belasting, wordt het saldo (max 550 EUR per kind, niet-geïndexeerd) omgezet in een terugbetaalbaar belastingkrediet — de fiscus betaalt dit dan effectief uit (art. 134 §3).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132", "context": "Oplopende toeslagen-tabel" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 134", "context": "Belasting op belastingvrije som + omzetting in terugbetaalbaar krediet" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het stelsel houdt rekening met de draagkracht van het gezin: een gezin met meer kinderen ten laste heeft per definitie hogere noodzakelijke uitgaven (levensonderhoud, opvoeding, scholing) en moet daarvoor fiscaal gecompenseerd worden. De progressieve toeslagen-tabel weerspiegelt dat de extra kost van een bijkomend kind sneller toeneemt dan lineair (schaal-effect omslaand). De gelijkstelling 'gehandicapt kind telt voor twee' erkent verhoogde zorgkosten. Co-ouderschap-regeling (art. 132bis) splitst het voordeel correct tussen gescheiden ouders met gelijkmatige huisvesting — wat de feitelijke kost-verdeling reflecteert.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — progressieve schaal weerspiegelt sociale draagkracht" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "gezinssituatie"
+      ],
+      "kader": "belastingvrije-som",
+      "naast_relevant": [
+        "aftrekbare-bestedingen-pb"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 132-136"
+        "wettelijke_basis": "WIB92 art. 132-141",
+        "toelichting": "Stabiel regime — periodieke aanpassingen via indexering en occasioneel beleidswijzigingen (bv. invoering toeslag <3 jaar, gelijkstelling co-ouderschap art. 132bis)."
+      },
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen met kinderen, ascendenten, zijverwanten tot 2e graad, of personen van wie ze als kind ten laste waren — die op 1 januari van het aanslagjaar deel uitmaken van het gezin en eigen netto-bestaansmiddelen onder het plafond hebben.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) kwalificatie als 'kind' in de zin van art. 2,4° WIB92 — afstammeling van belastingplichtige of zijn echtgenoot, óf kind dat hij volledig of hoofdzakelijk ten laste heeft; (2) deel uitmaken van het gezin op 1 januari van het aanslagjaar (art. 136); (3) eigen netto-bestaansmiddelen niet hoger dan 1.800 EUR (niet-geïndexeerd) — voor kinderen ten laste verhoogd tot 5.265 EUR door art. 141 (niet-geïndexeerd).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 4°" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 141" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Een kind van wie alle belastbare inkomsten worden samengevoegd met die van de ouders, blijft ten laste ongeacht de omvang van zijn inkomsten (art. 137) — uitzondering op het netto-bestaansmiddelen-plafond. Praktisch betreft dit minderjarige kinderen wier roerend inkomen op naam van de ouders wordt belast.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 137" }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Het kind woont permanent bij de belastingplichtige · het kind is student met beperkte studentenjob · het kind is jonger dan 18 jaar (sowieso vermoeden van ten-laste-zijn behoudens tegenbewijs) · co-ouderschap met gelijkmatige huisvesting (art. 132bis).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk PB-aangifte" }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Kind verdient meer dan plafond uit studentenjob (boven netto-bestaansmiddelen 5.265 EUR niet-geïndexeerd voor kinderen ten laste · 1.800 EUR voor anderen — Cijferzakboekje voor geïndexeerde waarden). · Kind woont niet meer bij ouder op 1 januari AJ (zelfs als ouder onderhoudsuitkeringen betaalt). · Aftrek onderhoudsuitkeringen voor het kind sluit ten-laste-name uit (anti-cumulatie art. 132bis, laatste lid).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 141" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis", "context": "Anti-cumulatie met aftrek onderhoudsuitkeringen" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Verhoging belastingvrije som: progressief stijgend met aantal kinderen (1 → 4+). Voor lagere inkomens: omzetting in terugbetaalbaar belastingkrediet tot 550 EUR per kind (niet-geïndexeerd, art. 134 §3) — gezin met inkomen onder de belastingvrije som krijgt cash terug van de fiscus.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 134" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Vergissing bij co-ouderschap: ouders 'spreken af' dat één van beiden het kind ten laste neemt zonder dat de wettelijke voorwaarden van art. 132bis (geregistreerde overeenkomst of rechterlijke beslissing met gelijkmatige huisvesting) vervuld zijn → fiscus weigert verdeling. · Vergissing bij netto-bestaansmiddelen-berekening (verwarring bruto vs netto, vergeten freistelling van eerste schijf studentenjob).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Risico-analyse fiscale praktijk" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "definitie-kind",
+        "naam": {
+          "primair": "Definitie 'kind' (art. 2,4°)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "'Kind' omvat drie categorieën: (1) afstammelingen van de belastingplichtige (eigen biologische of geadopteerde kinderen); (2) afstammelingen van zijn echtgenoot of wettelijk samenwonende (stiefkinderen); (3) kinderen die hij volledig of hoofdzakelijk ten laste heeft (pleegkinderen, kleinkinderen die hij opvoedt). De fiscus kijkt naar feitelijke situatie, niet enkel naar biologische afstamming.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 4°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorwaarde-gezinsband-1-jan",
+        "naam": {
+          "primair": "Voorwaarde 'deel uitmaken van het gezin op 1 januari AJ'"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het kind moet deel uitmaken van het gezin van de belastingplichtige op 1 januari van het aanslagjaar (= 1 januari ná het inkomstenjaar). Peildatum-regel: een kind dat in december van het belastbaar tijdperk uit het gezin vertrekt (bv. samenwoning met partner), is voor dat jaar NIET meer ten laste. Omgekeerd: een kind dat in januari nog deel uitmaakt van het gezin, blijft fiscaal ten laste voor het volledige voorgaande inkomstenjaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorwaarde-bestaansmiddelen",
+        "naam": {
+          "primair": "Netto-bestaansmiddelen-plafond"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Algemeen plafond (art. 136): 1.800 EUR netto-bestaansmiddelen per jaar (niet-geïndexeerd). Voor kinderen ten laste verhoogt art. 141 dit plafond tot 5.265 EUR (niet-geïndexeerd). Geïndexeerde bedragen jaarlijks raadplegen in Cijferzakboekje. 'Netto' = bruto verminderd met forfaitaire kostenaftrek. Studentenjob: eerste schijf wordt niet meegerekend (bestaansmiddelenuitsluiting, art. 143 — niet in deze bundle, maar standaard regime). Niet alle inkomsten tellen mee: kinderbijslag, studietoelagen en bepaalde sociale uitkeringen worden uitgesloten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 141" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toeslagen-tabel",
+        "naam": {
+          "primair": "Toeslagen-tabel art. 132 (niet-geïndexeerd)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Verhoging belastingvrije som — basisbedragen WIB92 art. 132 (niet-geïndexeerd; geïndexeerd bedrag in Cijferzakboekje opzoeken voor het toepasselijke AJ):\n• 1 kind: 870 EUR\n• 2 kinderen: 2.240 EUR\n• 3 kinderen: 5.020 EUR\n• 4 kinderen: 8.120 EUR\n• > 4 kinderen: 8.120 + 3.100 per kind boven het vierde\n• Bijkomend +325 EUR voor elk kind <3 jaar op 1 januari AJ (niet cumuleerbaar met vermindering voor kinderoppas art. 14535)\n• Gehandicapt kind: telt voor twee in deze tabel",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Aantal kinderen ten laste", "Toeslag belastingvrije som (niet-geïndexeerd, EUR)"],
+            "rijen": [
+              ["1 kind", "870"],
+              ["2 kinderen", "2.240"],
+              ["3 kinderen", "5.020"],
+              ["4 kinderen", "8.120"],
+              ["5e en volgende", "+3.100 per kind"],
+              ["Kind <3 jaar (extra)", "+325 per kind"],
+              ["Gehandicapt kind", "telt voor twee"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "co-ouderschap-art-132bis",
+        "naam": {
+          "primair": "Co-ouderschap-regeling (art. 132bis)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer twee belastingplichtigen niet meer hetzelfde gezin vormen maar samen voldoen aan de onderhoudsplicht (art. 203 §1 BW) voor kinderen met gelijkmatige huisvesting, worden de toeslagen van art. 132, 1° tot 5° voor de helft toegekend aan elk van beide. De gelijkmatige huisvesting moet aangetoond worden door (a) een geregistreerde of gehomologeerde overeenkomst, of (b) een rechterlijke beslissing, waarin uitdrukkelijk de gelijke verdeling is vermeld. De overeenkomst/beslissing moet uiterlijk op 1 januari AJ bestaan. Toeslag <3 jaar (132,6°) gaat naar de ouder die geen vermindering voor kinderoppas vraagt. Anti-cumulatie: niet van toepassing als één van de ouders voor het kind onderhoudsuitkeringen aftrekt (art. 104,1°).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "terugbetaalbaar-krediet",
+        "naam": {
+          "primair": "Terugbetaalbaar belastingkrediet (art. 134 §3)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de belasting op de belastingvrije som (berekend tegen 25-50% via de schijven van art. 134 §2) groter is dan de overeenkomstig art. 130 berekende belasting, is het 'surplus' normaal verloren. Voor het deel dat overeenstemt met toeslagen voor kinderen ten laste (art. 132, 1°-6°) wordt dat surplus echter omgezet in een terugbetaalbaar belastingkrediet — de fiscus betaalt dit cash uit aan de belastingplichtige. Plafond: 550 EUR per kind (niet-geïndexeerd); de helft (≈275 EUR) per kind voor wie art. 132bis (co-ouderschap) van toepassing is. Gehandicapt kind: telt voor twee.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 134", "context": "§3, derde alinea" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fictie-overleden-vermist",
+        "naam": {
+          "primair": "Fictie overleden, doodgeboren of vermist kind (art. 138)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een in het belastbaar tijdperk overleden kind wordt geacht deel uit te maken van het gezin op 1 januari AJ, mits het reeds vóór het vorige AJ ten laste was, óf tijdens het belastbaar tijdperk geboren én overleden is. Idem voor doodgeboren kind of miskraam na ten minste 180 dagen zwangerschap. Vermist of ontvoerd kind <18 jaar op 1 januari AJ: ten-laste-fictie geldt mits aangifte bij politie/parket uiterlijk 31 december van het belastbaar tijdperk en het kind reeds voor vorig AJ ten laste was of in dat jaar geboren is.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 138" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "samenvoeging-eigen-inkomen",
+        "naam": {
+          "primair": "Samenvoeging eigen inkomen kind (art. 137)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Kinderen wier belastbare inkomsten volledig worden samengevoegd met die van de ouders, blijven ten laste ongeacht de omvang van die inkomsten. Praktisch: roerende inkomsten op naam van minderjarige kinderen worden in principe samen belast met die van de ouders (art. 126 §4 WIB92, standaard regime). Voor die inkomsten geldt het bestaansmiddelen-plafond van art. 136 niet als drempel om ten-laste-status te verliezen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 137" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-3-kinderen-met-baby",
+        "titel": "Gezin met 3 kinderen waarvan 1 jonger dan 3 jaar — verhoging belastingvrije som",
+        "context": "Gehuwd koppel A+B met gemeenschappelijke aanslag. Drie kinderen: 8 jaar, 5 jaar en 1,5 jaar. Geen handicap. Alle kinderen wonen permanent bij hun ouders. Geen co-ouderschap. Bedragen in niet-geïndexeerd WIB92-niveau (geïndexeerd bedrag = Cijferzakboekje voor het toepasselijk AJ).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld op basis van art. 132-tabel" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — verhoging voor 3 kinderen ten laste (art. 132, 3°): 5.020 EUR.",
+              "Stap 2 — bijkomende toeslag voor het kind <3 jaar (art. 132, 6°): +325 EUR (op voorwaarde dat geen vermindering voor kinderoppas voor dat kind wordt gevraagd in art. 14535).",
+              "Stap 3 — totaal verhoging belastingvrije som van het gezin: 5.020 + 325 = 5.345 EUR (niet-geïndexeerd).",
+              "Stap 4 — deze verhoging wordt toegekend aan de echtgenoot met het hoogste belastbaar inkomen (art. 134 §4 — standaardregime).",
+              "Stap 5 — belastingbesparing wordt berekend via art. 134 §2-tabel: 25% op de eerste schijf (0 → 5.705 EUR) van de totale belastingvrije som. Voor enkel de toeslag: 5.345 × 25% = 1.336,25 EUR bruto belastingvoordeel (vóór indexering)."
+            ],
+            "resultaat": "Niet-geïndexeerd: 1.336,25 EUR belastingbesparing dankzij de 3 kinderen ten laste, voor het kind <3 jaar extra +325 × 25% = 81,25 EUR. Geïndexeerd zal het effect groter zijn — exacte indexering Cijferzakboekje."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-co-ouderschap",
+        "titel": "Gescheiden ouders met co-ouderschap art. 132bis — 2 kinderen 50-50",
+        "context": "Gescheiden ouders A en B met gehomologeerde overeenkomst die gelijkmatige huisvesting van 2 minderjarige kinderen (10 en 13 jaar) vastlegt. Geen handicap. Geen aftrek van onderhoudsuitkeringen tussen partijen. Allebei een eigen inkomen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — verhoging voor 2 kinderen ten laste (art. 132, 2°): 2.240 EUR (niet-geïndexeerd).",
+              "Stap 2 — toepassing art. 132bis: helft voor elke ouder: 2.240 / 2 = 1.120 EUR.",
+              "Stap 3 — ouder A krijgt 1.120 EUR verhoging belastingvrije som; ouder B krijgt 1.120 EUR.",
+              "Stap 4 — belastingbesparing per ouder: 1.120 × 25% (eerste schijf art. 134 §2) = 280 EUR.",
+              "Stap 5 — totaal voordeel voor beide ouders samen: 560 EUR. Dat is exact gelijk aan het niet-gesplitste voordeel (2.240 × 25% = 560 EUR) — co-ouderschap verdeelt het voordeel, vergroot het niet.",
+              "Documentatie-eis: afschrift van de gehomologeerde overeenkomst moet ter beschikking van de fiscus gehouden worden (art. 132bis, voorlaatste alinea)."
+            ],
+            "resultaat": "De verdeling is neutraal voor de schatkist en correct voor de gezinssituatie. Aandachtspunt: als één van beide ouders onderhoudsuitkeringen aftrekt voor een kind, dan vervalt art. 132bis voor dat kind."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-belastingkrediet-laag-inkomen",
+        "titel": "Alleenstaande ouder met laag inkomen — terugbetaalbaar belastingkrediet (art. 134 §3)",
+        "context": "Alleenstaande ouder met 2 kinderen ten laste (8 en 11 jaar). Belastbaar inkomen 15.000 EUR. De berekende belasting (art. 130) is laag — wellicht onvoldoende om de volledige belasting op de belastingvrije som (incl. toeslagen voor kinderen) te 'verdragen'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 134" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Mechanisme art. 134 §3" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — toeslagen 2 kinderen: 2.240 EUR (art. 132, 2°).",
+              "Stap 2 — basisbedrag belastingvrije som: 4.785 EUR (art. 131).",
+              "Stap 3 — bovendien: alleenstaande-ouder-toeslag art. 133, 1°: +870 EUR.",
+              "Stap 4 — totale belastingvrije som: 4.785 + 2.240 + 870 = 7.895 EUR (niet-geïndexeerd).",
+              "Stap 5 — belasting op die belastingvrije som (art. 134 §2): 25% × 5.705 + 30% × (7.895 − 5.705) = 1.426,25 + 657 = 2.083,25 EUR.",
+              "Stap 6 — gestileerd: basisbelasting (art. 130) op 15.000 EUR ≈ 2.000 EUR — onvoldoende om volledige belastingvrije-som-belasting te 'consumeren'. Surplus = 83,25 EUR.",
+              "Stap 7 — dat surplus voor zover toerekenbaar aan kinder-toeslagen (art. 132,1°-6°) wordt omgezet in terugbetaalbaar krediet (art. 134 §3). Plafond: 550 EUR per kind = 1.100 EUR max — surplus ligt ruim onder plafond.",
+              "Stap 8 — de fiscus betaalt 83,25 EUR cash uit aan de ouder (mits aangifte correct ingevuld)."
+            ],
+            "resultaat": "Voor lage-inkomen-gezinnen werkt het regime dus als een 'negatieve belasting' voor kinderen ten laste — sociale bescherming die het standaard belastingvrijesomstelsel uitbreidt voor wie te weinig belastingen betaalt om er volledig van te genieten."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Peildatum '1 januari AJ' verwarren met '1 januari inkomstenjaar'",
+        "verkeerde_assumptie": "Studenten denken dat het kind op 1 januari van het inkomstenjaar deel moet uitmaken van het gezin.",
+        "kernpunt": "Het is 1 januari van het ÁÁNSLAGJAAR (= 1 januari ná het inkomstenjaar). Een kind dat in december van inkomstenjaar N alleen gaat wonen, is voor inkomstenjaar N NIET meer ten laste. Omgekeerd is een baby geboren op 31 december van inkomstenjaar N wel ten laste voor dat jaar, want hij maakt deel uit van het gezin op 1 januari AJ N+1.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-geïndexeerde WIB92-bedragen klakkeloos gebruiken",
+        "verkeerde_assumptie": "De bedragen van 1.800 EUR (algemeen bestaansmiddelen-plafond), 5.265 EUR (verhoogd voor kinderen), 870 EUR (basis-toeslag) en 550 EUR (krediet) uit het hoofd toepassen.",
+        "kernpunt": "Al deze bedragen in WIB92 zijn niet-geïndexeerd. Voor elke concrete berekening moet het geïndexeerde bedrag voor het toepasselijke aanslagjaar uit het Cijferzakboekje gehaald worden. Veelvoorkomende examenfout: met basisbedragen rekenen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard WIB92 indexeringspraktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "Co-ouderschap toepassen zonder geregistreerde overeenkomst",
+        "verkeerde_assumptie": "Gescheiden ouders 'verdelen' de fiscale toeslagen onderling, zonder formele overeenkomst of vonnis — de fiscus zal dat wel volgen.",
+        "kernpunt": "Art. 132bis is strikt: uiterlijk op 1 januari AJ moet er ofwel een geregistreerde of gehomologeerde overeenkomst, ofwel een rechterlijke beslissing zijn die expliciet vermeldt dat de huisvesting gelijkmatig is verdeeld én (in geval van overeenkomst) dat de partijen bereid zijn de toeslagen te verdelen. Zonder dit formeel kader: één van de ouders krijgt de volledige toeslag (typisch degene bij wie het kind hoofdzakelijk verblijft).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" }
+          ]
+        }
+      },
+      {
+        "titel": "Anti-cumulatie co-ouderschap ↔ aftrek onderhoudsuitkeringen vergeten",
+        "verkeerde_assumptie": "Eén ouder trekt onderhoudsuitkeringen af én neemt het kind voor de helft ten laste (co-ouderschap).",
+        "kernpunt": "Art. 132bis sluit zijn toepassing uit voor toeslagen die betrekking hebben op een kind waarvoor onderhoudsuitkeringen (art. 104,1°) worden afgetrokken. Kiezen: ófwel art. 132bis-deling, ófwel aftrek van de onderhoudsuitkeringen. Voor lagere alimentaties is co-ouderschap-deling gunstiger; voor hoge alimentaties (vooral aan 21+-student) kan de aftrek voordeliger zijn (80% aftrekbaarheid).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis", "context": "Laatste alinea — niet van toepassing op kind met afgetrokken onderhoudsuitkeringen" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Co-ouderschap-deling (art. 132bis) vs aftrek onderhoudsuitkeringen (art. 104,1°)",
+        "opties": [
+          {
+            "keuze": "Co-ouderschap-deling — 50% van toeslag voor elke ouder, geen aftrek alimentatie",
+            "voordeel": "Beide ouders krijgen voordeel; eenvoudig administratief; toeslag <3 jaar gaat naar ouder zonder kinderoppas-vermindering",
+            "nadeel": "Voordeel is gespreid en mogelijk minder geconcentreerd; alimentatie kan niet meer worden afgetrokken voor dat kind"
+          },
+          {
+            "keuze": "Aftrek onderhoudsuitkeringen door betalende ouder (geen art. 132bis voor dat kind)",
+            "voordeel": "80% aftrek mogelijk; voor hoge alimentaties (bv. studerend kind 21+) kan dat veel meer opleveren dan halve toeslag belastingvrije som",
+            "nadeel": "Betalende ouder krijgt geen toeslag belastingvrije som voor dat kind; alimentatie is bij ontvanger belastbaar (80%)"
+          }
+        ],
+        "vuistregel": "Vergelijk netto-effect: (helft toeslag × tarief belastingvrije-som-schijf) vs (alimentatie × 80% × marginaal tarief betalende ouder − belasting bij ontvanger). Voor jonge kinderen met lage alimentatie meestal art. 132bis voordeliger; voor studerende kinderen met hoge alimentatie meestal aftrek voordeliger.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard optimalisatie-afweging fiscale praktijk" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particulier-client",
+      "naam": {
+        "primair": "Particuliere cliënt (PB-aangifte gezin)"
+      },
+      "intro": "De accountant die de PB-aangifte voor een gezin met kinderen voorbereidt of nakijkt — bijzonder belangrijk bij gewijzigde gezinssituatie of co-ouderschap.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "checklist-ten-laste",
+              "naam": {
+                "primair": "Ten-laste-checklist bij PB-aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per persoon in het gezin op 1 januari AJ: (1) kwalificeert hij/zij als 'kind' (art. 2,4°), ascendent, zijverwant <2e graad of voormalig pleegouder (art. 136)? (2) maakte hij/zij deel uit van het gezin op 1 januari AJ? (3) heeft hij/zij eigen netto-bestaansmiddelen onder het geïndexeerd plafond (5.265 niet-geïndexeerd voor kinderen, 1.800 voor anderen)? (4) is er handicap (telt voor 2)? (5) is hij/zij <3 jaar (+325 EUR extra)? (6) is er co-ouderschap met geldige overeenkomst? Vul rubrieken Vak II in: aantal kinderen, kind <3 jaar, gehandicapt kind, kind onder co-ouderschap.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 132" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardcontrolewerkwijze PB-aangifte" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "afweging-co-ouderschap-alimentatie",
+              "naam": {
+                "primair": "Optimalisatie-afweging co-ouderschap vs aftrek onderhoudsuitkeringen"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij gescheiden cliënt met kinderen: berekenen welk regime fiscaal voordeliger is — art. 132bis (helft van toeslag) versus aftrek alimentatie (art. 104,1° aan 80%). Voor jonge kinderen met lage alimentatie: meestal art. 132bis. Voor studerende kinderen >18-21 jaar met hoge alimentatie (bv. >5.000 EUR/jaar): aftrek vaak voordeliger. Belangrijk: keuze geldt per kind, niet per gezin — voor twee kinderen kan voor het ene aftrek en voor het andere co-ouderschap-deling worden gekozen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis", "context": "Anti-cumulatie per kind" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Fiscale optimalisatiepraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-client-anticipatie",
+              "naam": {
+                "primair": "Anticipatie bij gezinswijziging"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij geboorte, scheiding, overlijden of vertrek uit het gezin: cliënt waarschuwen dat de peildatum 1 januari AJ bepalend is. Een kind dat in november alleen gaat wonen, is voor het lopende inkomstenjaar nog ten laste; volgend jaar niet meer. Bij scheiding in de loop van het jaar: bekijk of een co-ouderschap-overeenkomst tegen 1 januari AJ kan worden geregistreerd (anders verlies van halve toeslag voor één van de ouders).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 132bis" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 136" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkadvies fiscale planning" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "personenbelasting"
     },
     {
-      "type": "beinvloed_door",
-      "target": "gezinssituatie"
+      "type": "triggert",
+      "target": "belastingvrije-som",
+      "toelichting": "Elk kind ten laste verhoogt het basisbedrag van de belastingvrije som met de toeslagen-tabel van art. 132."
     },
     {
-      "type": "triggert",
-      "target": "belastingvrije-som"
+      "type": "beinvloed_door",
+      "target": "gezinssituatie",
+      "toelichting": "Burgerlijke staat en gemeenschappelijke aanslag bepalen of toeslag aan één partner of aan beide wordt toegekend (incl. art. 133 alleenstaande-ouder-toeslag)."
+    },
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "aftrekbare-bestedingen-pb",
+      "toelichting": "Voor één en hetzelfde kind: aftrek onderhoudsuitkeringen door één ouder sluit co-ouderschap-deling (art. 132bis) voor dat kind uit. Keuze per kind."
     }
   ]
 }
