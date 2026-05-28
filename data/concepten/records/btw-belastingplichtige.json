@@ -1,23 +1,43 @@
 {
   "id": "btw-belastingplichtige",
   "naam": {
-    "primair": "BTW-belastingplichtige"
+    "primair": "BTW-belastingplichtige",
+    "synoniemen": [
+      "btw-plichtige",
+      "assujetti TVA"
+    ],
+    "vertaling": {
+      "fr": "assujetti à la TVA"
+    }
   },
-  "concept_type": "kader",
+  "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
     ],
     "ankers": [
-      "2.4.I"
+      "2.4.II",
+      "2.4.II.A",
+      "2.4.II.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-belastingplichtige.json",
+      "primary_bronnen": [
+        "W.BTW art. 4",
+        "W.BTW art. 44 (vrijstellingen)",
+        "W.BTW art. 56bis (KO-regeling)",
+        "K.B. nr. 10 van 29-12-1992 (uitoefening keuzemogelijkheden)",
+        "K.B. nr. 55 van 09-03-2007 (BTW-eenheid)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +46,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "BTW-belastingplichtige gevuld vanuit W.BTW art. 4 + art. 44 + art. 56bis. Bundle-flow extract."
       }
     ],
     "scope": {
@@ -57,20 +84,501 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-belastingplichtige).",
+        "tekst": "Een btw-belastingplichtige is eenieder die in de uitoefening van een economische activiteit geregeld en zelfstandig — met of zonder winstoogmerk, hoofdzakelijk of aanvullend — leveringen van goederen of diensten verricht die in het W.BTW zijn omschreven, ongeacht waar de economische activiteit wordt uitgeoefend. De definitie staat in art. 4, §1 W.BTW en bevat vier cumulatieve kenmerken: (a) economische activiteit, (b) geregeld karakter, (c) zelfstandigheid, (d) leveringen of diensten in de zin van het W.BTW.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4, §1"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wie als btw-belastingplichtige kwalificeert, treedt toe tot het btw-stelsel als 'doorgever': hij rekent btw aan op zijn verkopen (output-btw) en mag de btw op zijn aankopen aftrekken (input-btw, zie `btw-aftrek`). Hij krijgt een btw-identificatienummer (BE0XXX.XXX.XXX), is verplicht facturen uit te reiken volgens KB nr. 1 en moet periodiek aangifte doen. Niet de wettelijke vorm telt (een vzw of feitelijke vereniging kan belastingplichtig zijn), maar wel de aard van de activiteit. De toets is feitelijk-economisch — een werknemer is uitgesloten (geen zelfstandigheid), een occasionele verkoper ook (geen geregeld karakter).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4, §1, tweede lid",
+              "context": "Uitsluiting loontrekkenden via ondergeschiktheidstoets"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 50 + art. 53"
+            },
+            {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: btw moet drukken op het verbruik, niet op de productiefactoren. Wie geregeld en zelfstandig deelneemt aan het economisch verkeer is logischerwijs de inner-doorgever van de belasting. De ruime functionele definitie (geen oogmerk-vereiste, geen winstvereiste, geen vormvereiste) zorgt ervoor dat ook vzw's, vrije beroepen, holdings, overheidsbedrijven en buitenlandse ondernemingen onder het stelsel kunnen vallen — telkens wanneer ze leveringen of diensten verrichten die binnen de scope van het W.BTW vallen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 9"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis — standaardleer"
+            }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw",
+        "fiscaal-recht"
+      ],
+      "kader": "btw",
+      "naast_relevant": [
+        "btw-eenheid",
+        "vrijstellingsregeling-kleine-onderneming"
+      ],
+      "volgkennis": [
+        "opstart-btw-formaliteiten",
+        "btw-aftrek",
+        "btw-aangifte"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke ondernemer (natuurlijk persoon, vennootschap, vereniging) die regelmatig en zelfstandig economische handelingen verricht: handelaars, vrije beroepen, ambachtslui, vastgoedontwikkelaars, holdings die actief management voeren, buitenlandse ondernemingen met Belgische klanten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4, §1"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Loontrekkenden en personen in een ondergeschiktheidsverhouding worden expliciet uitgesloten (art. 4, §1, tweede lid). Ook particulieren die occasioneel iets verkopen (geen geregeld karakter), zuivere holdings die enkel aandelen aanhouden zonder actief management, en de overheid voor zover ze gezagshandelingen verricht (jure imperii).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4, §1, tweede lid"
+              },
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 6",
+                "context": "Overheid - gezagshandelingen"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief vereist: (1) economische activiteit — exploitatie van een goed of recht met het oog op duurzaam inkomen; (2) geregeld karakter — herhaaldelijke en niet-occasionele handelingen; (3) zelfstandigheid — geen ondergeschiktheid; (4) leveringen of diensten in de zin van het W.BTW. Het winstoogmerk is GEEN voorwaarde — ook een vzw kan belastingplichtig zijn.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4, §1"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De belastingplicht begint vanaf het ogenblik dat de persoon de intentie heeft een economische activiteit aan te vatten en daartoe voorbereidende handelingen verricht (bv. investeringen, huur lokaal). Formele identificatie via 604A-aangifte bij de FOD Financiën — uiterlijk vóór de start van de activiteit.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 53, §1"
+              },
+              {
+                "type": "kb",
+                "naam": "K.B. nr. 10 van 29-12-1992",
+                "ref": "art. 1"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "HvJ-EU Rompelman-rechtspraak: voorbereidende handelingen geven al recht op aftrek"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Belastingplicht eindigt bij stopzetting van de economische activiteit, te melden via 604C-aangifte. Bij overdracht van algemeenheid of bedrijfstak (art. 11 W.BTW) volgt geen btw-heffing — de overnemer treedt in de schoenen van de overdrager.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 11 + art. 53, §1"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij twijfelgevallen (vzw met commerciële nevenactiviteit, vermogensvennootschap met af-en-toe-verhuur, particulier-handel) kan de fiscus achteraf belastingplicht vaststellen — met regularisatie van uitgaande btw zonder dat de afnemers nog kunnen worden geïnd. Cash-effect: btw moet uit eigen middelen worden bijgepast.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4 + art. 70"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "categorieen-belastingplichtige",
+        "naam": {
+          "primair": "Vier categorieën btw-belastingplichtige"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Naargelang de mix van uitgaande handelingen onderscheidt het W.BTW vier categorieën, elk met eigen aftrek-rechten en aangifte-verplichtingen. De categorie bepaalt mede de boekhoudkundige verwerking van input-btw.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 44 + art. 45 + art. 46"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "categorie-tabel",
+              "naam": {
+                "primair": "Vergelijking vier categorieën"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Vier categorieën — verschil zit in aftrekrecht.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 44 + art. 45 + art. 46"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "kolommen": [
+                    "Categorie",
+                    "Uitgaande handelingen",
+                    "Btw aanrekenen?",
+                    "Aftrekrecht?",
+                    "Voorbeeld"
+                  ],
+                  "rijen": [
+                    [
+                      "Gewone belastingplichtige",
+                      "Volledig belaste handelingen",
+                      "Ja",
+                      "Volledig (mits art. 45)",
+                      "Bouwondernemer, kruidenier, ICT-consultant"
+                    ],
+                    [
+                      "Vrijgestelde belastingplichtige (art. 44)",
+                      "Volledig vrijgestelde handelingen zonder aftrekrecht",
+                      "Nee",
+                      "Geen aftrek",
+                      "Arts, ziekenhuis, school, verzekeraar, bank"
+                    ],
+                    [
+                      "Gemengde belastingplichtige",
+                      "Mix van belaste + art. 44-vrijgestelde handelingen",
+                      "Ja, op het belaste deel",
+                      "Pro-rata of werkelijk gebruik (art. 46)",
+                      "Tandarts met dental-shop, holdingsvennootschap met dienstverlening + dividend"
+                    ],
+                    [
+                      "Gedeeltelijke belastingplichtige",
+                      "Mix van handelingen binnen + buiten btw-scope (bv. holding met dividend)",
+                      "Ja, op het btw-deel",
+                      "Op basis van werkelijk gebruik voor btw-activiteit",
+                      "Holding met passieve participatie + actieve dienstverlening"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "ratione-personae",
+        "naam": {
+          "primair": "Wie kan btw-belastingplichtige zijn?"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "De definitie is rechtsvorm-neutraal — het W.BTW spreekt over 'eenieder'. Concreet: natuurlijke personen (zelfstandige, vrij beroep, eenmanszaak), vennootschappen (BV, NV, CommV, Maatschap met rechtspersoonlijkheid), verenigingen (vzw, feitelijke vereniging), openbare instellingen (voor zover ze niet als overheid jure imperii handelen) en buitenlandse ondernemingen die belastbare handelingen verrichten in België.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 4"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 6",
+                    "context": "Overheid - gezagshandelingen vs commerciele activiteit"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Vier casussen — wel of geen btw-belastingplichtige?",
+        "context": "Toets de definitie van art. 4 W.BTW telkens op de vier kenmerken: economische activiteit · geregeld · zelfstandig · leveringen/diensten W.BTW.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard didactische voorbeelden"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": [
+              "Casus",
+              "Belastingplichtig?",
+              "Reden"
+            ],
+            "rijen": [
+              [
+                "Werknemer bij accountantskantoor, doet daarnaast occasioneel een vriendendienst tegen betaling",
+                "Nee",
+                "Ondergeschiktheidsverhouding + occasioneel karakter — geen 'geregeld + zelfstandig'"
+              ],
+              [
+                "Particulier verkoopt twee oude auto's via tweedehandsplatform",
+                "Nee",
+                "Geen geregeld karakter — incidenteel"
+              ],
+              [
+                "Vzw die jaarlijks 200 sportworkshops organiseert tegen betaling",
+                "Ja",
+                "Geregeld + zelfstandig + dienstverrichting onder bezwarende titel — winstoogmerk irrelevant. Mogelijk wel vrijgesteld onder art. 44, §2, 3°"
+              ],
+              [
+                "Holding zonder activiteit (enkel aandelenportefeuille en dividend)",
+                "Nee",
+                "Geen economische activiteit (passief beheer van vermogen) — geen aftrekrecht op kosten"
+              ],
+              [
+                "Holding die ook actief management-fees factureert aan dochters",
+                "Ja, gemengd of gedeeltelijk",
+                "Het management-deel is een dienstverrichting onder bezwarende titel — gedeeltelijke belastingplicht"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vrijgestelde belastingplichtige ≠ niet-belastingplichtige",
+        "verkeerde_assumptie": "Een arts of bank 'doet niet aan btw' — dus is geen belastingplichtige in de zin van art. 4 W.BTW.",
+        "kernpunt": "Een vrijgestelde belastingplichtige (art. 44 W.BTW: medisch, onderwijs, sociale zorg, financieel) is wel degelijk belastingplichtig in de zin van art. 4. Hij rekent geen btw aan en heeft geen aftrekrecht, maar hij valt onder het stelsel — denkt aan bepaalde rapportering, klantenlisting, intracommunautaire verwervingen waarop hij wél btw verschuldigd is. Niet-belastingplichtig is enkel de particulier of de overheid (jure imperii).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4 + art. 44"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Winstoogmerk is geen voorwaarde",
+        "verkeerde_assumptie": "Een vzw is per definitie niet btw-plichtig want zonder winstoogmerk.",
+        "kernpunt": "Art. 4, §1 W.BTW zegt expliciet 'met of zonder winstoogmerk, hoofdzakelijk of aanvullend'. Een vzw die geregeld diensten of leveringen tegen betaling verricht is belastingplichtig — mogelijk vrijgesteld onder art. 44, §2 (sociale doelen) maar wel binnen het stelsel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 4, §1"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Holding-test: actief versus passief",
+        "verkeerde_assumptie": "Elke holding-vennootschap is btw-plichtig.",
+        "kernpunt": "Een zuivere holding (enkel aandelen aanhouden + dividend incasseren) verricht geen economische activiteit en is geen btw-belastingplichtige — geen aftrekrecht op kosten. Pas wanneer de holding actief management-, advies- of administratieve diensten verricht tegen vergoeding aan haar dochters, wordt ze (gedeeltelijk) belastingplichtig. Vaste rechtspraak HvJ-EU (Polysar, Larentia + Minerva).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ-EU Polysar (C-60/90)",
+              "ref": "20-06-1991"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
               "datum": "2026-05-28"
             }
           ]
         }
       }
-    }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor-kwalificatie",
+      "naam": {
+        "primair": "Eigen kantoor — kwalificatie cliënt"
+      },
+      "intro": "Bij intake van een nieuwe cliënt of nieuwe activiteit kwalificeert de accountant de btw-status.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "intake-kwalificatie",
+              "naam": {
+                "primair": "Intake-checklist btw-kwalificatie"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij intake test de accountant: (1) is er een economische activiteit (vs zuiver passief vermogen)? (2) is ze geregeld (vs occasioneel)? (3) is ze zelfstandig (vs werknemer)? (4) valt ze binnen W.BTW (leveringen/diensten) of erbuiten (financieel, dividend)? Antwoord JA op alle vier → belastingplichtige. Tweede vraag: gewoon, vrijgesteld, gemengd of gedeeltelijk? Bepaalt het aftrekrecht-regime.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "registratie-604a",
+              "naam": {
+                "primair": "Begeleiding 604A-aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij start: 604A-aangifte indienen bij FOD Financiën vóór aanvang activiteit. Verkrijg btw-identificatienummer (BE-formaat). Daarna: keuze maand- of kwartaalaangifte (KB nr. 1 art. 18: kwartaal als omzet < 2 500 000 EUR; uitzondering 250 000 EUR voor bepaalde sectoren), inschrijven in OSS bij e-commerce, configureren boekhoudpakket met juiste btw-codes.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
