@@ -1,24 +1,30 @@
 {
   "id": "registratieformaliteit-akten",
   "naam": {
-    "primair": "Registratieformaliteit van akten"
+    "primair": "Registratieformaliteit van akten",
+    "synoniemen": ["formaliteit der registratie"],
+    "vertaling": {"fr": "formalité d'enregistrement"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.I.A",
-      "2.6.I.B"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.6.I.A", "2.6.I.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/registratieformaliteit-akten.json",
+      "primary_bronnen": [
+        "W.Reg. art. 19-40 (registratieverplichting + termijnen)",
+        "W.Reg. art. 41 (boetes laattijdige registratie)",
+        "W.Reg. art. 161-165 (vrijstellingen formaliteit)",
+        "WVV (notariële akten + repertorium)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud procedure registratie gevuld vanuit W.Reg. art. 19-41 + repertoriumregels."
       }
     ],
     "scope": {
@@ -38,40 +51,239 @@
         "Accountant-perspectief: vertegenwoordiging bij registratie (absorbeert oude vertegenwoordiging-belastingadministratie)"
       ],
       "out": [
-        {
-          "topic": "Concrete rechten (verkoop/verdeel/hypotheek)",
-          "richting": "moet-verwijzen",
-          "ref": "verkooprecht"
-        },
-        {
-          "topic": "Schenkbelasting bij schenking",
-          "richting": "moet-verwijzen",
-          "ref": "schenkbelasting"
-        }
+        {"topic": "Concrete rechten (verkoop/verdeel/hypotheek)", "richting": "moet-verwijzen", "ref": "verkooprecht"},
+        {"topic": "Schenkbelasting bij schenking", "richting": "moet-verwijzen", "ref": "schenkbelasting"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "De registratieformaliteit is de procedure waardoor bepaalde akten verplicht aan een ontvangstkantoor van de Algemene Administratie van de Patrimoniumdocumentatie (federaal) of VLABEL (Vlaanderen) worden aangeboden om geregistreerd te worden. Twee gevolgen: (1) FISCAAL — de toepasselijke registratiebelasting (verkooprecht, schenkbelasting, verdeelrecht, hypotheekrecht, vast recht) wordt geïnd; (2) JURIDISCH — de akte verkrijgt vaste datum (rechtszekerheid + tegenwerpbaarheid aan derden) en wordt opgenomen in het repertorium. Drie categorieën akten: notariële akten (alle), onderhandse akten (sommige — bv. handelshuur, verkoop onroerend goed), gerechtelijke akten (sommige). Termijn standaard 4 maanden voor schenkings-akten + akten over onroerende goederen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 19"},
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 32"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is de notaris de centrale actor bij registratie van notariële akten: hij is wettelijk verplicht de akte ter registratie aan te bieden binnen 15 dagen (notariële akten) of soms binnen 4 maanden (schenkingsakte). De cliënt betaalt aan de notaris die op zijn beurt de registratie regelt + de belasting overmaakt. Voor onderhandse akten ligt de verantwoordelijkheid bij de partijen zelf — typisch bij handelshuren, leasingovereenkomsten, of compromis-akten van verkoop. De accountant kan optreden als gemandateerd vertegenwoordiger om onderhandse akten aan te bieden (volmacht volstaat). Niet-registratie of laattijdige registratie wordt bestraft met een verhoging van het verschuldigd recht (typisch 50-200% — gewest-afhankelijk).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 32"},
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 41bis", "context": "Boete laattijdige registratie"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk + notarisrol"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Twee samenhangende doelen: (1) fiscaal — de Staat wil zekerheid dat alle belastbare overdrachten worden vastgesteld; zonder registratieplicht kunnen partijen onderhands transacties verbergen; (2) civielrechtelijk — registratie geeft vaste datum + bewijswaarde + tegenwerpbaarheid aan derden, wat essentieel is voor rechtszekerheid in het vermogensverkeer (vooral bij onroerend goed, schenkingen, huurcontracten). De boete bij laattijdige registratie steunt op het belang van tijdige fiscale inning + ontmoediging van uitstelgedrag.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 19"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doelmatigheidsbeschouwing"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "registratie-en-successierechten"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "W.Reg. art. 19-41bis + 161-165 (federaal en regionaal) + VCF Titel 3 hoofdstuk 1 (Vlaanderen)",
+        "toelichting": "Stabiel regime. Elektronische registratie is sinds 2018 gefaseerd ingevoerd: notariële akten kunnen via E-registration; onderhandse akten via MyMinFin. Volledige verplichte elektronische registratie voor alle akten uiterlijk 2028 (federaal)."
+      },
+      "trigger_start": [
+        {
+          "tekst": "De ondertekening van een akte die onderworpen is aan de registratieplicht — typisch bij notariële verlijding, bij ondertekening van een onderhandse compromis-akte of bij een gerechtelijke uitspraak.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 19"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "registratie-plichtige-akten",
+        "naam": {"primair": "Registratieplichtige akten"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Verplicht te registreren binnen welbepaalde termijn: (a) ALLE notariële akten verleden in België (art. 19 W.Reg.); (b) onderhandse akten betreffende verkoop, ruil, schenking, deling van onroerend goed; (c) onderhandse akten van huur, onderverhuur, overdracht van huur van onroerend goed; (d) gerechtelijke beslissingen die overdracht van onroerend goed bevatten; (e) bepaalde commerciële akten (handelshuur). Onderhandse akten over louter roerend goed (bv. een gewone factuur) zijn NIET registratieplichtig — tenzij men ze vrijwillig laat registreren voor de vaste datum.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 19"},
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 33", "context": "Onderhandse akten huur"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "termijnen-registratie",
+        "naam": {"primair": "Termijnen voor aanbieding"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Notariële akten in België: 15 dagen vanaf ondertekening (W.Reg. art. 32). Onderhandse akten over onroerend goed (verkoop, schenking onroerend, deling, ruil, hypotheek): 4 maanden. Onderhandse huurakten: 4 maanden vanaf datum akte. Schenkingsakten: 4 maanden. Gerechtelijke akten: 4 maanden vanaf datum uitspraak.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 32"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Type akte", "Termijn"],
+            "rijen": [
+              ["Notariële akte België", "15 dagen vanaf ondertekening"],
+              ["Onderhandse akte onroerend goed", "4 maanden"],
+              ["Onderhandse huurakte", "4 maanden"],
+              ["Schenkingsakte", "4 maanden"],
+              ["Gerechtelijke uitspraak", "4 maanden vanaf datum"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "repertorium",
+        "naam": {"primair": "Repertorium + vaste datum"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij registratie wordt elke akte opgenomen in het 'repertorium' van het registratiekantoor — een chronologisch register dat de akte een vaste datum geeft en haar bestaan officieel maakt. De vaste datum is essentieel voor: (a) tegenwerpbaarheid aan derden (een ongedateerde of post-gedateerde akte is verdacht); (b) berekening van termijnen (bv. 3-jaars-vermoeden art. 7 W.Succ.); (c) volgorde van zekerheidsrechten. Het repertorium is openbaar raadpleegbaar voor partijen + notarissen + advocaten — andere derden alleen mits gerechtvaardigd belang.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 175 e.v.", "context": "Repertorium"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sancties-laattijdig",
+        "naam": {"primair": "Sancties bij niet- of laattijdige registratie"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Boete bij laattijdige aanbieding: doorgaans dezelfde grootteorde als het ontdoken recht (50-200%, gewest-afhankelijk). Voor onjuiste opgave van de graad van verwantschap tussen schenker en begiftigde: ondeelbare boete gelijk aan het ontdoken recht (W.Reg. art. 139). Bovenop: nalatigheidsinteresten op het verschuldigd bedrag. Bij volledige niet-aanbieding (= fiscale fraude): strafrechtelijke sancties + administratieve verhoging tot 200%. Notaris die zijn registratieplicht niet nakomt: tuchtrechtelijke aansprakelijkheid + persoonlijke boete.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 41bis"},
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 139", "context": "Onjuiste verwantschap"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijstellingen-formaliteit",
+        "naam": {"primair": "Vrijstellingen van de formaliteit"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde akten zijn vrijgesteld van de registratieformaliteit (W.Reg. art. 161-165): bv. authentieke akten verleden in het buitenland en aangeboden ter erkenning, bepaalde fiscale documenten van de Staat, bepaalde gerechtelijke uitspraken (uitvoeringsbevelen, afsluitingen faillissement). Vrijstelling van formaliteit betekent geen vrijstelling van belasting — de belasting kan langs een andere weg verschuldigd zijn. Het 'recht in debet' (art. 159bis Wal / art. 162 federaal) laat toe registratie te krijgen zonder onmiddellijke betaling bij bepaalde gevallen (rechtsbijstand, voorlopige zekerheidsmaatregelen).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 161"},
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 162"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Registratie verwarren met inschrijving in hypotheekkantoor",
+        "verkeerde_assumptie": "Een akte 'registreren' en een hypotheek 'inschrijven' zijn hetzelfde.",
+        "kernpunt": "Registratie (kantoor Patrimoniumdocumentatie/VLABEL) = fiscaal-juridische formaliteit op de akte zelf: vaste datum + heffing van verkooprecht/schenkbelasting/andere rechten. Inschrijving (kantoor Rechtszekerheid, vroeger hypotheekkantoor) = zakelijk-publicitair op het onroerend goed: nodig voor tegenwerpbaarheid van eigendomsoverdracht of hypotheek aan derden. Bij vastgoedoverdracht: eerst registratie (binnen 15 dagen / 4 maanden), daarna pas inschrijving (verzendt notaris naar Rechtszekerheid).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 32", "context": "Registratie"},
+            {"type": "wettekst", "naam": "Hypotheekwet 16 december 1851", "ref": "art. 1 + 90", "context": "Inschrijving"}
+          ]
+        }
+      },
+      {
+        "titel": "Onderhandse huurakten 'mogen wachten'",
+        "verkeerde_assumptie": "Een ondertekende huurovereenkomst kan zonder problemen later worden geregistreerd zodra de verhuurder daar tijd voor heeft.",
+        "kernpunt": "Onderhandse huurakten over onroerend goed zijn registratieplichtig binnen 4 maanden. Niet-geregistreerde huurovereenkomst is niet tegenwerpbaar aan derden (incl. nieuwe eigenaar bij verkoop), wat de huurder zonder bescherming kan laten. Bij geschillen kan de huurder zelf de registratie afdwingen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 33"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "vertegenwoordiging-registratie",
+      "naam": {"primair": "Vertegenwoordiging bij registratie + administratie"},
+      "intro": "De accountant treedt als gemandateerd vertegenwoordiger op voor cliënten bij VLABEL of het federaal registratiekantoor — voor aanbieden van akten, attestaanvragen of bezwaarschriften.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "mandaat-volmacht",
+              "naam": {"primair": "Mandaat + volmacht regelen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor handelingen ten aanzien van VLABEL of het federaal kantoor: vraag bij elke nieuwe cliënt een schriftelijk mandaat met expliciete bevoegdheid voor 'fiscale vertegenwoordiging registratie- en successierechten'. Algemene volmacht inkomstenbelasting volstaat niet steeds — bezwaarprocedures vereisen specifiek mandaat.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.4.1.0.1"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "termijnbewaking",
+              "naam": {"primair": "Termijnbewaking voor onderhandse akten"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor onderhandse akten waarvan de cliënt zelf instaat voor registratie (handelshuur, leasingovereenkomst, samenwerkingsakkoord met fiscale impact): registreer een agenda-trigger op datum + 4 maanden. Vermijd boete door automatische opvolging.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "art. 41bis"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"}
   ]
 }
