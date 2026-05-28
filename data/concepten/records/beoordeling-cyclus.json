@@ -7,12 +7,16 @@
       "beoordelingsopdracht",
       "limited assurance engagement",
       "ISRE-opdracht"
-    ]
+    ],
+    "vertaling": {
+      "fr": "mission d'examen limité",
+      "en": "review engagement"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -23,72 +27,289 @@
     "scope": {
       "in": [
         "Limited assurance · ISRE 2400 (jaarrekening) + ISRE 2410 (tussentijds)",
-        "Negatief geformuleerd oordeel ('Niets is ons onder de aandacht gekomen waaruit blijkt dat...')",
-        "Scope: voornamelijk navraag + analytische procedures · geen volledig bewijswerk",
-        "KMO-context: ITAA-KMO-controlenorm deel 2"
+        "Negatief geformuleerd oordeel (‘Niets is ons onder de aandacht gekomen waaruit blijkt dat...’)",
+        "Scope: voornamelijk navraag + cijferanalyses · geen volledig bewijswerk",
+        "KMO-context: ITAA-KMO-controlenorm deel 2 (hoofdstuk 4 beoordelingsopdrachten)"
       ],
       "out": [
-        {
-          "topic": "Parent-Σ opdracht-types",
-          "richting": "moet-verwijzen",
-          "ref": "opdracht-types"
-        },
-        {
-          "topic": "Gemeenschappelijke 4-fase-cyclus",
-          "richting": "moet-verwijzen",
-          "ref": "controleopdracht"
-        },
-        {
-          "topic": "Verslag-vorm (negatieve oordeelsstijl)",
-          "richting": "moet-verwijzen",
-          "ref": "controleverklaring"
-        }
+        { "topic": "Parent — opdracht-types-overzicht", "richting": "moet-verwijzen", "ref": "opdracht-types" },
+        { "topic": "Gemeenschappelijke 4-fase-cyclus", "richting": "moet-verwijzen", "ref": "controleopdracht" },
+        { "topic": "Verslag-vorm (negatieve oordeelsstijl)", "richting": "moet-verwijzen", "ref": "controleverklaring" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "cluster-extract-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/beoordeling-cyclus.json",
+      "primary_bronnen": [
+        "ISRE 2400 (herzien)",
+        "ISRE 2410",
+        "ISA 520",
+        "ITAA-norm-kmo-controlenorm § 1.1.2 + hfdst 4 + Bijlage 4",
+        "ITAA-norm-omzetting-vennootschap (model conclusie)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T08:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T12:35:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ITAA-KMO-controlenorm hfdst 4 + ITAA-norm-omzetting + ISA 520). Verschil met controle uitgewerkt + standaard-conclusie-formulering uit ITAA-modellen." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "De beoordeling (review engagement) is een assurance-opdracht met **beperkte mate van zekerheid** (limited assurance) over historische financiële informatie. De beroepsbeoefenaar voert procedures uit — voornamelijk navraag bij management en cijferanalyses (ISA 520 / ISRE 2400) — en formuleert een **conclusie in negatieve vorm**: ‘niets is ons onder de aandacht gekomen waaruit zou blijken dat de financiële overzichten geen getrouw beeld geven’. Normenkader: ISRE 2400 (herzien) voor beoordeling jaarrekening; ISRE 2410 voor tussentijdse financiële informatie door (onafhankelijke) auditor van de entiteit; ITAA-KMO-controlenorm hoofdstuk 4 voor BE-KMO-context.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 (beperkte mate van zekerheid)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een beoordeling is *geen controle-light*. Het is een **andersoortige opdracht** met een fundamenteel ander zekerheidsprofiel: in plaats van substantieel bewijswerk en risico-georiënteerde detail-tests komt het accent op (1) navraag bij management en governance over de financiële posten en transacties; (2) cijferanalyses — vergelijking met budget, voorgaande jaren, sector, plausibiliteit van ratio's en relaties. Externe bevestigingen, fysieke voorraadopname, herperformance van interne controles — al die diepwerk-procedures zijn **niet** vereist tenzij de procedures iets aan het licht brengen dat ze afdwingt.\n\nWat klinkt als een ‘zwakker’ product is feitelijk een ander product met een ander doel: een tussentijds rapport voor een aandeelhouder of bank, een snelle assurance-check op een kwartaalrapportering, een KMO-jaarafsluiting waar geen wettelijke controle vereist is maar wel ‘meer dan samenstelling’ gewenst.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISRE 2400 (herzien)", "ref": "Doelstellingen + Vereisten — procedures" },
+            { "type": "norm", "naam": "ISA 520", "ref": "Cijferanalyses" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom een tussenniveau? Niet elke stakeholder heeft reasonable assurance nodig. Een KMO-bank die jaarlijks het kredietdossier opnieuw beoordeelt, kan met limited assurance leven — hij wil weten of er rode vlaggen zijn opgedoken sinds vorige check. Tussentijdse rapportering (Q2-cijfers) leent zich niet voor volwaardige audit-werk binnen weken na afsluiting — review past beter. De negatief geformuleerde conclusie weerspiegelt eerlijk de beperkte zekerheid: de auditor zegt niet ‘alles is OK’ maar ‘in wat ik zag is niets opgevallen’.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["opdracht-types"],
+      "kader": "opdracht-types",
+      "naast_relevant": ["controleopdracht"],
+      "volgkennis": ["controleverklaring"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "ISRE 2400 (herzien) · ISRE 2410 · ITAA-norm-kmo-controlenorm hfdst 4 + Bijlage 4 (modelverslag)",
+        "toelichting": "ISRE-stelsel sluit aan op IAASB-framework; de ITAA-KMO-controlenorm operationaliseert de beoordeling voor KMO en kleine (i)vzw/stichting in België."
+      },
+      "voor": [
+        {
+          "tekst": "Typische gebruikssituaties: (a) tussentijdse rapportering (Q1/Q2-cijfers) voor banken of investeerders; (b) jaarafsluiting van KMO zonder wettelijke commissaris maar waar bank/aandeelhouder meer dan samenstelling wil; (c) wettelijk voorbehouden review-mandaten (bv. omzettingsverslag staat van activa en passiva — ITAA-norm-omzetting); (d) due-diligence-toepassingen waar tijd/budget audit niet toelaat.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "Bijlage 4 + Bijlage 5" },
+              { "type": "norm", "naam": "ITAA-norm-omzetting-vennootschap", "ref": "Conclusie" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "isre-2400-jaarrekening",
+        "naam": { "primair": "ISRE 2400 (herzien) — beoordeling historische jaarrekening" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Internationale standaard voor beoordelingsopdrachten over historische financiële overzichten waar de beroepsbeoefenaar **niet** de auditor van de entiteit is (of wel de auditor maar dan specifiek voor andere opdrachten dan de wettelijke controle). Vereist: opdrachtbrief, onafhankelijkheid, planning gebaseerd op inzicht in entiteit + risico-inschatting van waar materiële afwijkingen kunnen voorkomen, procedures (voornamelijk navraag + cijferanalyses), schriftelijke bevestiging management, conclusie in negatieve formulering. Aangepaste conclusie (met voorbehoud / negatief / onthouding) volgt vergelijkbare logica als ISA 705 voor audit.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISRE 2400 (herzien)", "ref": "Toepassingsgebied + Vereisten" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "isre-2410-tussentijds",
+        "naam": { "primair": "ISRE 2410 — beoordeling tussentijdse financiële informatie door auditor entiteit" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Specifiek voor het geval waarin de **commissaris/auditor van de entiteit** een review uitvoert op tussentijdse financiële informatie (typisch Q1, H1, 9M-cijfers van beursgenoteerde of grote groepen). Voordeel: hij kent de entiteit al uit zijn jaarcontrole en kan voortbouwen op zijn kennis-entiteit en risico-inschatting. Procedures blijven beperkt (navraag + cijferanalyses), conclusie is negatief geformuleerd.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISRE 2410", "ref": "Toepassingsgebied" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "kmo-review-itaa",
+        "naam": { "primair": "KMO-review onder ITAA-controlenorm hoofdstuk 4" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Belgische uitwerking voor KMO en kleine (i)vzw/stichting. Werkstroom volgt dezelfde 4-fase-cyclus als de controleopdracht (aanvaarden · plannen · bewijswerk-beperkt-tot-navraag-en-analyse · afronden + verklaring) maar elke fase is **proportioneel afgestemd** op limited assurance:\n\n- **Plannen** — inzicht in entiteit, risico-inschatting van plekken waar materiële afwijking waarschijnlijker is; geen volledige IC-evaluatie zoals bij audit.\n- **Bewijswerk** — navraag bij management + cijferanalyses ISA 520; aanvullende procedures alleen indien navraag/analyse inconsistenties oplevert.\n- **Afronden** — geaccumuleerde misstatements-evaluatie + schriftelijke bevestiging management + ondertekenen beoordelingsverslag.\n\nDe ITAA-KMO-controlenorm Bijlage 4 levert het standaard-model voor het beoordelingsverslag.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.1.1 evenredigheid + hfdst 4 + Bijlage 4" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "negatieve-conclusie-formulering",
+        "naam": { "primair": "Negatieve oordeelsformulering — standaardtekst" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Standaardformulering ITAA-modellen: *‘Op grond van de beoordeling is niets onder onze aandacht gekomen dat ons ertoe aanzet van mening te zijn dat [de financiële overzichten / staat van activa en passiva], in alle van materieel belang zijnde opzichten, niet is opgesteld in overeenstemming met het van toepassing zijnde stelsel inzake financiële verslaggeving.’*\n\nAangepaste conclusies (analoog aan ISA 705): conclusie met voorbehoud, ongunstige conclusie, of geen conclusie geformuleerd (oordeelonthouding). De materieel-en-diepgaand-test van ISA 705 wordt overeenkomstig toegepast.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-omzetting-vennootschap", "ref": "Conclusie" },
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "Bijlage 4 voorbeeldverslag" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "evenredigheidsbeginsel",
+        "naam": { "primair": "Evenredigheidsbeginsel (KMO)" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "ITAA-KMO-controlenorm § 2.1.1: de toepassing van de norm is evenredig met de omvang en aard van de activiteiten van de KMO of kleine vzw. Praktisch: een KMO met 8 personeelsleden en 10 miljoen omzet vergt geen formeel auditcomité-charter of uitgebreid risico-inschattingsproces. De auditor schaalt zijn werk maar zonder de essentie (risico-inschatting per assertion, materialiteit, gedocumenteerde aanpak) op te geven.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.1.1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cijferanalyse-als-hoofdprocedure",
+        "naam": { "primair": "Cijferanalyse (ISA 520) als hoofdprocedure in review" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In een review draagt de cijferanalyse veel meer gewicht dan in een audit. Typische analyses: (a) jaar-op-jaar-vergelijking per post; (b) maand-op-maand-trends en seizoens-patronen; (c) bruto-marge-evolutie per product/segment; (d) loonkost / FTE-evolutie; (e) DSO/DPO/DOH-werkkapitaal-ratio's; (f) consistentie tussen omzet (klant-cyclus) en kasontvangsten (banken). Bevindingen die buiten verwachte range vallen → opvolgvragen → eventueel aanvullende procedures (ISA 520 par. 7).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 520", "ref": "Vereisten par. 5-7" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Review = mini-audit",
+        "verkeerde_assumptie": "Bij een review doe ik gewoon een paar audit-procedures minder.",
+        "kernpunt": "Review en audit zijn fundamenteel verschillend in **type bewijs**: review steunt voornamelijk op navraag + cijferanalyse; audit op substantieve detail-tests. Bovendien is de **oordeelsformulering** anders (negatief vs positief). Stakeholders die ‘met-voorbehoud-audit’ verwachten als ze een review-conclusie zien, lopen verkeerd — daarom altijd het type opdracht expliciet vermelden in opdrachtbrief en verslag.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2" }
+          ]
+        }
+      },
+      {
+        "titel": "Negatief oordeel = ‘alles in orde’",
+        "verkeerde_assumptie": "‘Niets is ons onder de aandacht gekomen’ betekent dat de jaarrekening getrouw is.",
+        "kernpunt": "De formulering is bewust beperkt: het zegt alleen dat **bij de uitgevoerde procedures** geen materiële afwijkingen opvielen. Het sluit niet uit dat een diepere audit problemen had blootgelegd. De gebruiker moet beseffen dat de zekerheid lager is dan bij een audit-oordeel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Review vrijstelt onafhankelijkheid",
+        "verkeerde_assumptie": "Bij een KMO-review die geen wettelijke controle is, geldt minder strikte onafhankelijkheid.",
+        "kernpunt": "Onafhankelijkheid (IESBA-code) en deontologie (ITAA) gelden voor **alle assurance-opdrachten** — review inbegrepen. Boekhouder die ook eigen werk reviewt = zelf-review-bedreiging die niet weg te safeguarden is — kan dus de review niet uitvoeren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Vergelijking controle vs beoordeling.",
+        "inhoud": {
+          "kolommen": ["Aspect", "Controle (audit)", "Beoordeling (review)"],
+          "rijen": [
+            ["Zekerheidsniveau", "Redelijk (reasonable)", "Beperkt (limited)"],
+            ["Norm", "ISA-stelsel + ITAA-KMO-controlenorm", "ISRE 2400/2410 + ITAA-KMO-controlenorm"],
+            ["Hoofdprocedures", "Substantive procedures (inspectie, externe bevestiging, herperformance) + cijferanalyse + tests of controls", "Navraag + cijferanalyses (ISA 520)"],
+            ["Oordeelsvorm", "Positief — ‘geven een getrouw beeld’", "Negatief — ‘niets is ons onder de aandacht gekomen’"],
+            ["Externe bevestigingen", "Standaard procedure", "Niet vereist tenzij navraag/analyse problemen oplevert"],
+            ["Bijwonen voorraad-opname", "Vereist (ISA 501)", "Niet vereist"],
+            ["Typische tijdsinvestering", "Hoog", "Beduidend lager (vaak 30-50%)"],
+            ["Gebruikssituatie", "Wettelijke commissaris · krediet-audit · M&A-audit", "Tussentijdse rapportering · KMO zonder commissaris · omzettingsverslag"]
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "opdracht-types"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "controleopdracht"
-    },
-    {
-      "type": "triggert",
-      "target": "controleverklaring"
+      "id": "perspectief-review-uitvoerder",
+      "naam": { "primair": "De accountant als review-uitvoerder" },
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "review-werkstroom",
+              "naam": { "primair": "Concrete werkstroom KMO-review" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Aanvaarden: opdrachtbrief met expliciete vermelding ‘beoordelings-/reviewopdracht onder ITAA-KMO-controlenorm’; onafhankelijkheid checken. (2) Plannen: inzicht entiteit (kort als KMO bekend), risico-inschatting per assertion, materialiteit, werkprogramma op maat. (3) Procedures: management-interviews per cyclus + cijferanalyses (jaar-op-jaar, ratio's, bruto-marge per product); follow-up van uitzonderingen. (4) Afronden: clearing memo (geaccumuleerde misstatements), schriftelijke bevestiging management, beoordelingsverslag opstellen volgens ITAA-Bijlage-4-model met negatieve conclusie.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "hfdst 4 + Bijlage 4" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "opdracht-types" },
+    { "type": "vergelijkbaar_met", "target": "controleopdracht", "gelijkenissen": ["Beide assurance-opdrachten over historische financiële informatie", "Beide vergen onafhankelijkheid, opdrachtbrief, risico-georiënteerde planning", "Beide eindigen met geschreven verslag aan gebruikers"], "verschillen": ["Zekerheidsniveau: redelijk (controle) vs beperkt (review)", "Procedures: substantive + tests of controls (controle) vs navraag + cijferanalyses (review)", "Oordeelsformulering: positief vs negatief", "Tijdsinvestering: typisch 2-3x meer bij controle"], "verwarring_risico": "Gebruikers verwarren beide types; verslag moet expliciet vermelden welk type opdracht.", "render_hint": "als_keuze" },
+    { "type": "triggert", "target": "controleverklaring" }
   ]
 }
