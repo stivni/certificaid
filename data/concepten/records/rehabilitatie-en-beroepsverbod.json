@@ -2,24 +2,30 @@
   "id": "rehabilitatie-en-beroepsverbod",
   "naam": {
     "primair": "Rehabilitatie en beroepsverbod",
-    "synoniemen": [
-      "rehabilitation",
-      "professional ban"
-    ]
+    "synoniemen": ["réhabilitation et interdiction professionnelle"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.X"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["3.0.X", "3.0.X.G"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/rehabilitatie-en-beroepsverbod.json",
+      "primary_bronnen": [
+        "WER art. XX.173",
+        "WER art. XX.229",
+        "WER art. XX.237",
+        "Strafwetboek 2024 art. 48",
+        "Strafwetboek 2024 art. 57",
+        "KB 24-10-1934 (beroepsverbod handeldrijvende beroepen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,7 +33,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1206, -en--smell behouden tot content-uitwerking — OP-INS.A)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit WER art. XX.229 e.v. + strafwetboek 2024 art. 48/57."
       }
     ],
     "scope": {
@@ -36,31 +49,39 @@
         "Beroepsverbod — verbod uit te oefenen + procedure tot opheffing"
       ],
       "out": [
-        {
-          "topic": "Faillissement — context-trigger (natuurlijke persoon)",
-          "richting": "moet-verwijzen",
-          "ref": "faillissement"
-        },
-        {
-          "topic": "Tuchtprocedure ITAA — beroepsverbod-mechaniek-parallel",
-          "richting": "moet-verwijzen",
-          "ref": "tuchtprocedure-itaa"
-        }
+        { "topic": "Faillissement — context-trigger (natuurlijke persoon)", "richting": "moet-verwijzen", "ref": "faillissement" },
+        { "topic": "Tuchtprocedure ITAA — beroepsverbod-mechaniek-parallel", "richting": "moet-verwijzen", "ref": "tuchtprocedure-itaa" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Rehabilitatie en beroepsverbod zijn twee tegenovergestelde mechanismen rond de gevolgen van een faillissement of strafrechtelijke veroordeling voor de natuurlijke persoon-ondernemer. **Rehabilitatie** (WER art. XX.237) herstelt de gefailleerde-natuurlijke-persoon in zijn eer en rechten nadat hij al zijn vorderingen — inclusief renten en kosten — volledig heeft betaald. **Beroepsverbod** (Strafwetboek 2024 art. 48 + 57; KB 24-10-1934) is een bijkomende straf die de strafrechter kan uitspreken bij ernstige misdrijven verbonden aan een beroepsactiviteit, en die de veroordeelde belet om dat beroep verder uit te oefenen — eventueel voor 3 tot 10 jaar of zelfs definitief.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.237" },
+            { "type": "wettekst", "naam": "Strafwetboek 2024", "ref": "art. 48" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de accountant zijn beide vooral relevant in twee scenario's: (a) een **cliënt-zaakvoerder** die na een faillissement verder wil ondernemen — kan hij dat zonder beroepsverbod? rehabilitatie levert dat 'schone lei'-effect; (b) **eigen tuchtrechtelijke positie** — een beroepsverbod opgelegd door een strafrechter raakt direct de erkenning als gecertificeerd accountant (parallel tuchtsanctie ITAA). De praktische impact: een beroepsverbod-veroordeling sluit iemand uit van bestuurdersmandaten in vennootschappen, vereffenaarsmandaten en directiefuncties.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB 24-10-1934", "ref": "art. 1", "context": "Reikwijdte beroepsverbod" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-relevantie" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Beide instrumenten dienen tegengestelde maar complementaire doelen. Beroepsverbod beschermt het economisch verkeer tegen recidivisten die hun beroep gebruikten als instrument voor misdrijven (faillissementsmisdrijven, fiscale fraude, witwasdaden). Rehabilitatie biedt daartegenover een 'eerlijke kans' aan de gefailleerde die te goeder trouw zijn verplichtingen alsnog nakwam — het 'tweede-kans'-principe ook op het niveau van professionele waardigheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Rechts-politieke rationale" }
           ]
         }
       }
@@ -68,28 +89,33 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WER boek XX"
+        "sinds": "2018-05-01",
+        "wettelijke_basis": "WER boek XX titel VIII (Verbodsbepalingen en rehabilitatie); Strafwetboek 2024 art. 48 + 57 (in werking 8-04-2026); KB 24-10-1934"
       }
     },
     "subconcepten": [
       {
-        "id": "rehabilitatie",
-        "naam": {
-          "primair": "Rehabilitatie"
-        },
-        "concept_type": "regime",
+        "id": "rehabilitatie-procedure",
+        "naam": { "primair": "Rehabilitatie — procedure en voorwaarden" },
+        "concept_type": "procedure",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — natuurlijke persoon na faillissement: rechten herwinnen na termijn + voorwaarden (verschoonbaarheid).",
+              "tekst": "Rehabilitatie is bestemd voor de **gefailleerde-natuurlijke-persoon die GEEN kwijtschelding van restschulden heeft verkregen** (art. XX.237 WER). Voorwaarde: hij heeft alle nog door hem verschuldigde bedragen (hoofdsom, intresten, kosten) volledig betaald. De gefailleerde dient een verzoekschrift in bij de ondernemingsrechtbank; bij positieve uitspraak wordt hij hersteld in zijn eer en rechten — wat o.a. betekent dat hij weer bestuurder kan worden van een vennootschap en de bepalingen van het KB van 24-10-1934 niet langer op hem van toepassing zijn.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.237" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Belangrijk: rehabilitatie ≠ kwijtschelding. Kwijtschelding (art. XX.173) is veel gemakkelijker — de meeste gefailleerden krijgen die automatisch tenzij er fraude is. Wie kwijtschelding kreeg, **hoeft geen rehabilitatie meer aan te vragen** — hij is al hersteld in zijn rechten. Rehabilitatie is dus eigenlijk vooral relevant voor de zeldzame gevallen waar kwijtschelding werd geweigerd (bv. wegens kennelijk grove fout) maar de gefailleerde alsnog alles betaalde.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 (kwijtschelding) vs art. XX.237 (rehabilitatie)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Verhouding twee figuren" }
                 ]
               }
             }
@@ -97,39 +123,155 @@
         }
       },
       {
-        "id": "beroepsverbod",
-        "naam": {
-          "primair": "Beroepsverbod"
-        },
+        "id": "beroepsverbod-strafrechtelijk",
+        "naam": { "primair": "Strafrechtelijk beroepsverbod (Strafwetboek art. 48 + 57)" },
         "concept_type": "regime",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — verbod uit te oefenen + procedure tot opheffing.",
+              "tekst": "De strafrechter kan een veroordeelde verbieden zijn beroep uit te oefenen wanneer hij **ernstig misbruik heeft gemaakt** van zijn beroep om het misdrijf te plegen of te vergemakkelijken (Strafwetboek 2024 art. 48). De duur is bepaald in het vonnis — gewoonlijk 3 tot 10 jaar, in ernstige gevallen definitief. Voor rechtspersonen bestaat een analoge straf: art. 57 verbiedt activiteiten die deel uitmaken van het maatschappelijk doel. Inbreuk op een uitgesproken beroepsverbod is zelf strafbaar (Strafwetboek art. 442nonies oud / vergelijkbaar nieuw).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "Strafwetboek 2024", "ref": "art. 48", "context": "Beroepsverbod natuurlijke persoon" },
+                  { "type": "wettekst", "naam": "Strafwetboek 2024", "ref": "art. 57", "context": "Activiteits-verbod rechtspersoon" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "beroepsverbod-administratief-handeldrijvende",
+        "naam": { "primair": "Administratief beroepsverbod (KB 24-10-1934)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het oudere KB 24 oktober 1934 voorziet een **automatisch** beroepsverbod voor de gefailleerde + voor wie veroordeeld wordt voor specifieke fraude-misdrijven (faillissementsmisdrijven, valsheid in geschriften, oplichting in handelsverband). Dit verbod sluit hem o.a. uit van bestuurder-, zaakvoerder- en commissarismandaten in NV/BV/CV. Het kan worden opgeheven op verzoek bij de rechter (rehabilitatie), of vervalt automatisch na een verloop van jaren mits geen recidive.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "kb", "naam": "KB 24 oktober 1934", "ref": "art. 1-2" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese KB 1934 — niet in bundle als primaire chunk" }
                 ]
               }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "volledige-betaling-voorwaarde",
+        "naam": { "primair": "Volledige betaling als kernvoorwaarde rehabilitatie" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor rehabilitatie volstaat het niet dat de boedel is vereffend — de gefailleerde moet **persoonlijk** alle nog openstaande bedragen (hoofdsom + intresten + kosten) hebben betaald. Onbetaalde restanten beletten de rehabilitatie tot ze zijn voldaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.237" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ernstig-misbruik-criterium",
+        "naam": { "primair": "Criterium 'ernstig misbruik van beroep'" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De strafrechter kan beroepsverbod alleen uitspreken indien hij vaststelt dat de veroordeelde 'ernstig misbruik heeft gemaakt' van zijn beroep. Niet elke misdrijf in beroepsverband leidt automatisch tot beroepsverbod — er moet een aantoonbaar verband zijn tussen het beroep en de modus operandi van het misdrijf.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Strafwetboek 2024", "ref": "art. 48" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Cliënt-zaakvoerder na faillissement vraagt advies — Aurelia BV gefaald",
+        "context": "Jan-Pieter Aurelia (50 jaar) zag zijn BV failliet gaan; geen kwijtschelding toegekend wegens late aangifte (art. XX.225-risico). Hij wil herbeginnen met nieuwe activiteit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch scenario" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "tekst": "Stap 1: Inventariseren — KB 24-10-1934 verbiedt nieuwe bestuurder/zaakvoerder-mandaten zolang faillissement loopt + 5 jaar na sluiting.\nStap 2: Optie A — wachten 5 jaar + rehabilitatie aanvragen na volledige betaling.\nStap 3: Optie B — als eenmanszaak/freelancer verder werken (geen vennootschapsmandaat → buiten reikwijdte KB).\nStap 4: Documenteren strafregister — een eventueel strafrechtelijk beroepsverbod (art. 48 SW) is veel zwaarder dan het administratieve."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Rehabilitatie = automatisch na faillissement",
+        "verkeerde_assumptie": "Wie failliet ging krijgt na enkele jaren automatisch een 'schone lei' via rehabilitatie.",
+        "kernpunt": "Rehabilitatie vereist actief verzoekschrift én volledige betaling van alle openstaande bedragen. Bij kwijtschelding (XX.173) is rehabilitatie niet nodig — dat geeft sowieso volledig herstel. De automatische 'tweede kans' werkt dus via kwijtschelding, niet via rehabilitatie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.173 + XX.237" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Beroepsverbod = enkel strafrechtelijk",
+        "verkeerde_assumptie": "Beroepsverbod wordt enkel uitgesproken door een strafrechter na veroordeling.",
+        "kernpunt": "Er zijn drie sporen: (a) strafrechtelijk (Strafwetboek art. 48 + 57); (b) administratief (KB 24-10-1934 — automatisch bij faillissement of bepaalde misdrijven); (c) tuchtrechtelijk (ITAA-tuchtcommissie kan tijdelijke of definitieve schorsing opleggen). De drie sporen werken cumulatief.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Strafwetboek 2024", "ref": "art. 48" },
+            { "type": "kb", "naam": "KB 24-10-1934", "ref": "art. 1-2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "insolventierecht-wer-boek-xx"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "faillissement"
+      "id": "accountant-bij-client-met-faillissementsverleden",
+      "naam": { "primair": "Cliënt met faillissementsverleden wil opnieuw ondernemen" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "compatibiliteits-check",
+              "naam": { "primair": "Compatibiliteits-check voor bestuurdersmandaten" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controleer vóór aanstelling als bestuurder/zaakvoerder: (1) is er een strafrechtelijk beroepsverbod uitgesproken? (uittreksel strafregister model 596-1); (2) loopt nog een administratief verbod (KB 24-10-1934)? (3) is rehabilitatie uitgesproken? Indien onzeker: vraag de cliënt om een eigen verklaring 'geen beroepsverbod' bij de griffie ondernemingsrechtbank. Bij twijfel: weiger het mandaat (eigen aansprakelijkheid).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkcheck" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "insolventierecht-wer-boek-xx" },
+    { "type": "beinvloed_door", "target": "faillissement" }
   ]
 }
