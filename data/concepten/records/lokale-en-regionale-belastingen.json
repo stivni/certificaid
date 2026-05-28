@@ -6,7 +6,7 @@
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -18,9 +18,22 @@
       "2.7.taak.3"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/lokale-en-regionale-belastingen.json",
+      "primary_bronnen": [
+        "Grondwet art. 170",
+        "Grondwet art. 41",
+        "Grondwet art. 162",
+        "BWHI 16-01-1989 art. 3",
+        "WIB92 art. 464",
+        "Gemeentedecreet/DLB",
+        "Decreet 30-05-2008 vestiging gemeentebelastingen Vlaanderen"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,6 +42,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:35:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Σ-overzicht ingevuld: driehoek federaal-gewest-gemeente + bevoegdheidsverdeling. Cluster anti-misbruik-lokaal."
       }
     ],
     "scope": {
@@ -65,20 +85,273 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "Lokale en regionale belastingen omvat alle belastingen geheven door overheden onder het federale niveau: de drie gewesten (Vlaanderen, Wallonië, Brussel) en de lokale besturen (provincies en gemeenten). Het is een Σ-overzicht dat de fiscale driehoek federaal — gewest — gemeente in kaart brengt en aanduidt waar elke deelbevoegdheid grondslag, tarief en inning bepaalt. De bevoegdheidsverdeling steunt op artikel 170 Grondwet (legaliteit + decentralisering), de Bijzondere Financieringswet van 16 januari 1989 (gewestelijk niveau) en artikelen 41 en 162 Grondwet (gemeentelijk en provinciaal niveau).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 41" },
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 162" },
+            { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 3" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de accountant betekent dit drie parallelle systemen die naast elkaar bestaan voor één cliënt: een vennootschap die in Vlaanderen gevestigd is en een onroerend goed in Wallonië bezit, betaalt federale VenB, Vlaamse aanvullende gemeentebelasting (via PB-werknemers), Waalse onroerende voorheffing op het Waalse vastgoed, en lokale Vlaamse heffingen (bedrijfsbelasting, milieuheffing) van de gemeente waar de zetel ligt. Voor advies, aangifte en betwisting moet de accountant per belasting opnieuw uitzoeken: welk niveau? welke procedure? welke beroepsweg? Het concept is daarom vooral een navigatie-instrument om bevoegdheid en procedureregime correct te alloceren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese praktijksituatie multi-niveau-fiscaliteit" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De Belgische staatsstructuur kent geen unitair fiscaal systeem: opeenvolgende staatshervormingen hebben fiscale bevoegdheden gedecentraliseerd om gewesten en lokale besturen autonoom beleid te laten voeren in materies die hen toegewezen zijn (huisvesting, milieu, mobiliteit, gemeentelijk welzijn). De overlap-risico's worden afgedwongen door (1) het legaliteitsbeginsel — elk niveau heft enkel via een eigen norm (wet, decreet, ordonnantie, reglement); (2) non-bis-in-idem — geen dubbele belasting op hetzelfde feit; (3) wettelijke verbods-lijsten zoals WIB92 art. 464 (gemeenten en provincies mogen geen opcentiemen heffen op PB, VenB, RPB of BNI).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464", "context": "Verbod opcentiemen op directe federale belastingen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis multi-laag fiscale autonomie" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscaal-recht"
+      ],
+      "volgkennis": [
+        "gewestelijke-fiscale-autonomie",
+        "lokale-fiscale-autonomie",
+        "provinciale-belastingen"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Grondwet art. 41, 162, 170 + BWHI 16-01-1989 + gewest-specifieke codices (VCF, Brusselse Codex Fiscale Procedure, Waals decreet 6-5-1999) + gemeentewetten/-decreten"
+      },
+      "voor": [
+        {
+          "tekst": "Telkens een belasting niet duidelijk federaal is: eerst bepalen aan welk niveau ze toebehoort (gewestelijk/provinciaal/gemeentelijk), dan welke procedure-codex geldt, dan welke administratie ze int.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel multi-niveau-fiscaliteit" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "driehoek-overzicht",
+        "naam": {
+          "primair": "Driehoek federaal — gewest — lokaal"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Drie bevoegdheidsniveaus naast elkaar. Federaal: alle 'klassieke' belastingen (PB-basis, VenB, btw, accijnzen, douane) — basis WIB92 + Btw-Wetboek + W.Acc. Gewestelijk: lijst van eigen belastingen (registratie, successie, OV, verkeersbelasting, BIV, eurovignet, spelen en weddenschappen, …) + aanvullende gewestelijke PB via opcentiemen/kortingen — basis BFW. Lokaal: gemeentelijke en provinciale belastingen op alles wat niet federaal of gewestelijk verboden is (bedrijfsbelasting, milieu, parkeer, tweede verblijven, reclameborden, …) + aanvullende gemeentebelasting PB als belangrijkste opbrengstpost — basis GW art. 41/162/170 §4 + gemeentewetten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
+                  { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 3" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "tabel-niveaus",
+              "naam": { "primair": "Vergelijkingstabel bevoegdheden" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per niveau de drie sleutelvragen: (a) wie heft? (b) welk reglementair instrument? (c) welke beroepsweg?\n\n• Federaal — FOD Financiën heft → wet (WIB92, BtwW, AWGI, WMGI) → bezwaar bij gewestelijke directeur, daarna fiscale rechtbank → hof van beroep.\n• Gewest — VLABEL/Brussel Fiscaliteit/SPW Fiscalité heft → decreet of ordonnantie (VCF, Brusselse Codex Fiscale Procedure, Waals decreet) → bezwaar bij gewestelijke fiscaliteitsdienst, daarna fiscale rechtbank.\n• Gemeente/Provincie — gemeentebestuur/provinciebestuur heft → belastingreglement (raadsbeslissing) → bezwaar bij College van Burgemeester en Schepenen / Bestendige Deputatie, daarna fiscale rechtbank.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
+                      { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 117-124" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard navigatietabel handboek fiscaal recht" }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": ["Niveau", "Heffende overheid", "Reglementair instrument", "Bezwaar"],
+                  "rijen": [
+                    ["Federaal", "FOD Financiën", "Wet (WIB92, BtwW, …)", "Gewestelijke directeur → fiscale rechtbank"],
+                    ["Gewest", "VLABEL / Brussel Fiscaliteit / SPW", "Decreet / Ordonnantie", "Gewestelijke fiscale administratie → fiscale rechtbank"],
+                    ["Gemeente", "Gemeentebestuur", "Belastingreglement gemeenteraad", "College B&S → fiscale rechtbank"],
+                    ["Provincie", "Provinciebestuur", "Provinciaal reglement", "Bestendige Deputatie → fiscale rechtbank"]
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "principe-legaliteit",
+        "naam": {
+          "primair": "Legaliteitsbeginsel (art. 170 GW)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Geen belasting zonder wet — elke belasting heeft een normatieve grondslag op het juiste niveau. §1: federaal — wet; §2: gewest — decreet/ordonnantie binnen BFW-grenzen; §3 (geschrapt) — gemeenschappen; §4: provincies en gemeenten — eigen reglement binnen de wet die hun bevoegdheid omkadert. Een belasting zonder geldige norm is nietig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "principe-non-bis-in-idem",
+        "naam": {
+          "primair": "Non-bis-in-idem tussen niveaus"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Een lager niveau mag niet hetzelfde belastbaar feit belasten dat al door een hoger niveau belast wordt, behoudens bij wet/decreet uitdrukkelijk toegelaten. Concrete uitwerkingen: WIB92 art. 464 verbiedt gemeenten en provincies om opcentiemen op PB, VenB, RPB of BNI te heffen — uitzondering: de aanvullende gemeentebelasting op PB (art. 465 e.v. WIB92) is wel uitdrukkelijk toegelaten. VCF art. 2.3.4.2.2 verbiedt opcentiemen op BIV.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.2.2", "context": "Verbod opcentiemen op BIV" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-aanvullende-gemeentebelasting-pb",
+        "naam": {
+          "primair": "Aanvullende gemeentebelasting op de PB als hoofdbron lokale fiscaliteit"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Gemeenten heffen procentuele opcentiemen (typisch 6-9 %) op de federaal berekende PB van hun inwoners (WIB92 art. 465-470). Voor de meeste gemeenten is dit de grootste fiscale ontvangst, naast de gemeentelijke opcentiemen op de gewestelijke onroerende voorheffing. Tarief vastgesteld door gemeenteraad in jaarlijks belastingreglement. De FOD Financiën int en stort door.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 465 t.e.m. 470", "context": "Aanvullende gemeentebelasting op PB" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bevoegdheidsallocatie verwarren bij multi-gewestelijk dossier",
+        "verkeerde_assumptie": "Een Vlaamse cliënt = altijd Vlaamse fiscaliteit voor alles.",
+        "kernpunt": "Per belasting opnieuw lokaliseren: PB-aanvullend = gemeente van fiscale woonplaats op 1 januari; OV/registratierechten = ligging onroerend goed; verkeersbelasting/BIV = inschrijver-woonplaats; aanvullende gewestelijke PB = gewest van woonplaats op 1 januari. Eén cliënt kan dus in 2 of 3 gewesten tegelijk belastbaar zijn voor verschillende belastingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 5 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-valkuil multi-gewestelijke cliënt" }
+          ]
+        }
+      },
+      {
+        "titel": "Bezwaarprocedure verwarren tussen niveaus",
+        "verkeerde_assumptie": "Stagiair stuurt bezwaar tegen gemeentebelasting naar gewestelijke directeur (federaal-PB-reflex).",
+        "kernpunt": "Bezwaar tegen gemeentebelasting → College B&S binnen termijn van het belastingreglement (typisch 3 maanden). Bezwaar tegen Vlaamse gewestbelasting → VLABEL. Bezwaar tegen federale belasting → gewestelijke directeur AAFisc. Elk niveau heeft eigen termijn en eigen bestuursorgaan; niet onderling uitwisselbaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 117 e.v." },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-valkuil bezwaarprocedure" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "advies-bij-opstart",
+      "naam": {
+        "primair": "Advies bij opstart vennootschap — gewestelijke en lokale fiscaliteit"
+      },
+      "intro": "Bij oprichting van een vennootschap of vestigingskeuze adviseert de accountant over de fiscale impact per niveau.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "vestigingsplaats-impact",
+              "naam": {
+                "primair": "Vestigingsplaats-impact in kaart brengen"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij keuze vennootschapszetel of inwoner-domicilie: inventariseer per niveau (gewest + gemeente) de relevante belastingen. Vergelijk effectieve tarieven aanvullende gemeentebelasting PB, OV-opcentiemen (gemeente + provincie), bedrijfsbelasting van de gemeente. Schenkings- en successierechten verschillen per gewest. Voor accountant-advies: cijfers concreet maken met ramingen op basis van jaarlijkse cijferzakboekjes of belastingreglementen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk vestigingskeuze" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vertegenwoordiging-fiscus",
+      "naam": {
+        "primair": "Vertegenwoordiging bij gewestelijke en lokale fiscus"
+      },
+      "intro": "De accountant vertegenwoordigt de cliënt bij controle, bezwaar of bemiddeling op gewestelijk of lokaal niveau.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "bezwaar-routing",
+              "naam": {
+                "primair": "Bezwaar correct routeren per niveau"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eerste vraag bij elk fiscaal dispuut: welk niveau? Aanslagbiljet vermeldt heffingsoverheid + bezwaarinstantie + bezwaartermijn. Termijnen zijn dwingend en niveau-specifiek (federaal PB = 6 maanden vanaf verzending; Vlaamse gewestbelasting = 3 maanden; gemeentebelasting = doorgaans 3 maanden vanaf 3e werkdag na verzending). Verkeerd geadresseerd bezwaar = vaak verlies van termijn.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 366-371", "context": "Federale bezwaartermijn" },
+                      { "type": "wettekst", "naam": "VCF", "ref": "art. 3.5.2.0.1 e.v.", "context": "Vlaamse bezwaartermijn" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese termijnen 3 niveaus" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
