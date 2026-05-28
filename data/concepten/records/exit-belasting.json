@@ -1,0 +1,541 @@
+{
+  "id": "exit-belasting",
+  "naam": {
+    "primair": "Exit-belasting",
+    "synoniemen": [
+      "exit tax",
+      "uittreedbelasting",
+      "latente meerwaarden bij zetelverplaatsing"
+    ],
+    "vertaling": {
+      "fr": "Taxe de sortie",
+      "en": "Exit tax"
+    }
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "concept",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVI",
+      "2.8.taak.2"
+    ],
+    "scope": {
+      "in": [
+        "Belasting op latente meerwaarden bij vertrek uit Belgisch belastinggebied",
+        "Drie triggersituaties: zetelverplaatsing · activa-overdracht VI · opheffing Belgische VI",
+        "Berekening: Fair Market Value − fiscale boekwaarde",
+        "Gespreide betaling 5 jaar binnen EER (keuze-regime)",
+        "Onmiddellijke heffing bij vertrek naar derde landen",
+        "Vrijstelling bij fiscaal-neutrale herstructurering onder fusierichtlijn",
+        "ATAD-omzetting (art. 5 EU-richtlijn 2016/1164)"
+      ],
+      "out": [
+        {
+          "topic": "Strategisch-advieskader bij zetelverplaatsing/herstructurering",
+          "richting": "mag-verwijzen",
+          "ref": "exit-planning-vennootschap"
+        },
+        {
+          "topic": "Grensoverschrijdende fusie-fiscale neutraliteit",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-fusierichtlijn"
+        },
+        {
+          "topic": "Algemene vennootschapsbelasting-mechaniek",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschapsbelasting"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "claude-sonnet-4-5",
+      "wave_id": "migration-v21-to-v22-2026-05-28",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v21-to-v22-migration"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data (operatie beschrijven)."
+      },
+      {
+        "operatie": "v21-naar-v22-migratie",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "claude-sonnet-4-5",
+        "wave_id": "migration-v21-to-v22-2026-05-28",
+        "wijziging": "Schema 2.1 → 2.2 migratie: elementen→subconcepten+bouwstenen splitsing, categorieen+scope+geldigheid toegevoegd, relatie-targets gemapt naar canonical v22-records. Record was vergeten in Wave-1 skeleton-generation maar bestond als volwaardig v21-record."
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De **exit-belasting** is een Belgisch vennootschapsbelasting-regime dat **latente (niet-gerealiseerde) meerwaarden** op activa of op de totaliteit van activa van een vennootschap belastbaar maakt op het ogenblik dat die activa — of de zetel — **het Belgische belastinggebied verlaten**, zonder dat er een werkelijke realisatie (verkoop) plaatsvindt.\n\nDe belasting wordt geheven alsof de activa op het moment van vertrek worden verkaaand voor hun **fair market value**. Het verschil tussen fair market value en de fiscale boekwaarde (aanschaffingswaarde min fiscale afschrijvingen) wordt als belastbare meerwaarde beschouwd.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het regime treft drie klassieke situaties:\n1. **Zetelverplaatsing** — de vennootschap verplaatst haar fiscale woonplaats naar het buitenland (of verplaatst haar werkelijke leiding).\n2. **Overdracht activa naar buitenlandse vaste inrichting** — activa vertrekken van het Belgische hoofdhuis naar een buitenlandse vaste inrichting, of de vaste inrichting zelf wordt overgedragen aan het buitenlandse hoofdhuis.\n3. **Verdrag-vrijgestelde winst** — door verdragswijziging of hertoewijzing van heffingsbevoegdheid vallen inkomsten die voordien in België belastbaar waren voortaan buiten de Belgische belastingmacht (soms aangeduid als de 'treaty override exit').\n\nBelgië voerde de exit-belasting in via de omzetting van de **ATAD-richtlijn** (Anti-Tax Avoidance Directive), die EU-lidstaten verplichtte een exit-belasting in te voeren. Kernkeuze van de richtlijn: de belastingplichtige mag de belasting **gespreid betalen over vijf jaar** (bij overplaatsing binnen de EER) in plaats van onmiddellijk.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Zonder exit-belasting zouden vennootschappen ongestraft kunnen 'ontsnappen' aan Belgische belastingheffing op meerwaarden die tijdens de Belgische periode zijn opgebouwd, door vlak voor realisatie de zetel of activa te verschuiven naar een land dat geen of lagere belasting heft."
+      },
+      "rationale": {
+        "tekst": "De ratio legis is het **behoud van de heffingsbevoegdheid over in België opgebouwde latente meerwaarden**. Het principe 'source state belasting' vereist dat een staat het recht heeft te belasten wat op haar grondgebied is aangemaakt. Zodra de band met België verbreekt (door zetelverplaatsing of activa-overdracht) vervalt in principe de Belgische heffingsbevoegdheid — de exit-belasting 'kristalliseert' de schuld op dat moment.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die hun **fiscale woonplaats of werkelijke leiding** naar het buitenland overbrengen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zetelverplaatsing doorbreekt de onbeperkte belastingplicht in België; exit-belasting herstelt de afdoening van de in België opgebouwde waarde."
+        },
+        {
+          "tekst": "Vennootschappen die **significante activa overdragen naar een buitenlandse vaste inrichting** of omgekeerd — de vaste inrichting opheven en activa repatriëren zonder Belgische taxatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Grensoverschrijdende herstructureringen** (fusie, splitsing, inbreng van bedrijfstak) waarbij Belgisch vermogen overgaat naar een buitenlandse rechtspersoon.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Zuiver binnenlandse** zetelverplaatsing (van de ene Belgische gemeente naar de andere) — er is geen wijziging van de belastingmacht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Verkoop van activa aan een **derde op de markt** — dit is een normale realisatie die via de gewone VenB-regels belast wordt; de exit-belasting is alleen relevant voor fictieve realisaties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het **tijdstip van vertrek** uit de Belgische belastingmacht (zetelverplaatsing, overdracht van activa naar buitenlandse vaste inrichting of opheffing van de Belgische vaste inrichting) triggert de exit-belasting. De belasting wordt vastgesteld in het aanslagjaar waarin het vertrek plaatsvindt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Cashflow-probleem**: de exit-belasting is verschuldigd op niet-gerealiseerde meerwaarden. De vennootschap heeft geen cash ontvangen maar moet wel belasting betalen — tenzij het gespreide betaling-regime (5 jaar, EER) wordt toegepast.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Dubbele belasting**: het ontvangstland kan dezelfde meerwaarden nogmaals belasten bij latere realisatie als het de Belgische exit-heffing niet erkent als 'ingangsprijs'. ATAD verplicht EU-landen tot erkenning maar dit is niet gegarandeerd buiten de EU.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "geldigheid": {
+        "status": "in-voege"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "belastingbare-grondslag",
+        "naam": {
+          "primair": "Belastbare grondslag — fair market value min fiscale boekwaarde"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastbare meerwaarde bij exit wordt berekend als:\n\n**Meerwaarde = Fair Market Value (FMV) − Fiscale boekwaarde**\n\n- **Fair Market Value** = de prijs die onafhankelijke partijen in een arm's length transactie zouden overeenkomen op het moment van vertrek.\n- **Fiscale boekwaarde** = aanschaffingswaarde min fiscale afschrijvingen en eventuele eerder vrijgestelde meerwaarden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het gebruik van FMV in plaats van de boekwaarde voorkomt dat de vennootschap de activawaarde kunstmatig laag houdt om de exitbelasting te minimaliseren."
+          }
+        }
+      },
+      {
+        "id": "gespreide-betaling",
+        "naam": {
+          "primair": "Gespreide betaling over vijf jaar (EER)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennootschap haar zetel of activa overbrengt naar **een andere EER-lidstaat** (EU + Noorwegen, IJsland, Liechtenstein), mag zij de exitbelasting **gespreid betalen in vijf gelijke jaarlijkse schijven**. De gespreide betaling is niet verplicht maar is een keuze van de belastingplichtige.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze maatregel vloeide voort uit het EU-recht (vrij verkeer van vestiging) en werd via de ATAD-richtlijn gearmoniseerd. Onmiddellijke invordering bij EER-verplaatsingen werd als een ongeoorloofde belemmering beschouwd."
+          }
+        },
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer een vennootschap haar zetel of activa overbrengt naar **een andere EER-lidstaat** (EU + Noorwegen, IJsland, Liechtenstein), mag zij de exitbelasting **gespreid betalen in vijf gelijke jaarlijkse schijven**. De gespreide betaling is niet verplicht maar is een keuze van de belastingplichtige.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-sonnet-4-6",
+                    "datum": "2026-05-23"
+                  }
+                ]
+              },
+              "rationale": "Deze maatregel vloeide voort uit het EU-recht (vrij verkeer van vestiging) en werd via de ATAD-richtlijn gearmoniseerd. Onmiddellijke invordering bij EER-verplaatsingen werd als een ongeoorloofde belemmering beschouwd."
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "verval-gespreide-betaling",
+              "naam": {
+                "primair": "Verval van het gespreide-betaling-regime"
+              },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "Het gespreide-betaling-regime **vervalt onmiddellijk** (het resterende saldo wordt onmiddellijk opeisbaar) bij:\n- **Verdere overdracht** van de activa of zetel buiten de EER,\n- **Faillissement of insolventie** van de vennootschap,\n- **Niet-betaling** van een jaarlijkse schijf.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-sonnet-4-6",
+                        "datum": "2026-05-23"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "onmiddellijke-belasting-derde-landen",
+        "naam": {
+          "primair": "Onmiddellijke belasting bij vertrek naar derde landen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij zetelverplaatsing of activa-overdracht naar een **land buiten de EER** (bv. Zwitserland, VS, Hong Kong) is de exit-belasting **onmiddellijk en volledig opeisbaar** — geen gespreide betaling mogelijk. De vennootschap moet de belasting mee opnemen in de aangifte VenB van het jaar van vertrek.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassingsgebied-exit-belasting",
+        "naam": {
+          "primair": "Toepassingsgebied — drie triggersituaties"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De exit-belasting is van toepassing in drie specifieke situaties:\n\n1. **Zetelverplaatsing**: de vennootschap brengt haar fiscale woonplaats of de zetel van werkelijke leiding over naar het buitenland — de Belgische onbeperkte belastingplicht eindigt.\n\n2. **Overdracht activa naar vaste inrichting**: activa worden overgedragen van het Belgische hoofdhuis naar een buitenlandse vaste inrichting, of de Belgische vaste inrichting van een buitenlandse vennootschap wordt naar het buitenlandse hoofdhuis overgedragen.\n\n3. **Opheffing/wegvalling Belgische vaste inrichting**: een buitenlandse vennootschap heeft een Belgische vaste inrichting en heft die op — de in België opgebouwde latente meerwaarden op activa die eerder aan de Belgische heffingsbevoegdheid onderworpen waren, worden belast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "atad-omzetting",
+        "naam": {
+          "primair": "Omzetting ATAD-richtlijn"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De Belgische exit-belasting is een **implementatie van de ATAD-richtlijn** (Anti-Tax Avoidance Directive, EU-richtlijn 2016/1164), artikel 5. De richtlijn verplichtte EU-lidstaten uiterlijk op 1 januari 2020 een exit-belasting in te voeren voor vennootschappen die hun zetel of activa verplaatsen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verband-transfer-pricing",
+        "naam": {
+          "primair": "Verband met arm's length en transfer pricing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De bepaling van de **fair market value** bij exit-belasting steunt op het **arm's length beginsel**: wat zouden onafhankelijke partijen betalen? Dit is dezelfde maatstaf als die gebruikt wordt bij transfer pricing. In groepsverband — waarbij activa worden overgedragen aan een verbonden buitenlandse entiteit — zal de Belgische fiscus de exit-waarde controleren aan de hand van transfer pricing-methoden (vergelijkbare ongecontroleerde transacties, cost plus, TNMM, ...).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herstructurering-vrijstelling",
+        "naam": {
+          "primair": "Vrijstelling bij fiscaal neutrale herstructurering"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Grensoverschrijdende fusies, splitsingen en inbrengen van bedrijfstakken die vallen onder de **fiscale fusierichtlijn** (Richtlijn 2009/133/EG) kunnen vrijgesteld zijn van exit-belasting, mits de overdragende en de ontvangende vennootschap beide binnen de EU gevestigd zijn en de continuïteit van de Belgische belastingmacht gewaarborgd blijft (bv. via een Belgische vaste inrichting die de activa verder houdt).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De precieze voorwaarden voor deze vrijstelling zijn complex en afhankelijk van de specifieke structuur van de herstructurering — te verifiëren bij claims_checken."
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "atad-richtlijn",
+      "toelichting": "De Belgische exit-belasting is een directe omzetting van artikel 5 ATAD-richtlijn.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "vaste-inrichting",
+      "toelichting": "De overdracht van activa naar of van een buitenlandse vaste inrichting is één van de drie trigger-situaties voor exit-belasting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "transfer-pricing",
+      "toelichting": "De fair market value-bepaling voor de belastbare grondslag steunt op het arm's length beginsel, dezelfde maatstaf als transfer pricing.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-fusie-splitsing",
+      "toelichting": "Bij grensoverschrijdende fiscale fusies en splitsingen speelt exit-belasting een rol als de Belgische heffingsbevoegdheid verloren gaat — tenzij vrijgesteld via de fusierichtlijn.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationale-structurering-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
+}
