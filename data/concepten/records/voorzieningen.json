@@ -9,7 +9,7 @@
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -42,9 +42,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/voorzieningen.json",
+      "primary_bronnen": [
+        "KB 29-04-2019 WVV art 3:33",
+        "MAR klasse 16",
+        "IAS 37 (IFRS-perspectief)"
+      ]
     },
     "changelog": [
       {
@@ -52,26 +58,182 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — MAR-klasse 16 + voorzichtigheidsbeginsel + onderscheid schulden/uitgestelde belastingen"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een **voorziening** is een passiefpost (MAR-klasse 16) die op balansdatum een **bestaand risico of toekomstige verplichting** dekt waarvan het **bedrag of de termijn onzeker** is, maar waarvan de uitstroom van middelen voldoende waarschijnlijk is om erkenning te rechtvaardigen. De voorziening is gebaseerd op het **voorzichtigheidsbeginsel** (art. 3:23 KB): de onderneming moet anticiperen op kosten en verliezen die uit het verleden voortvloeien, ook als de exacte uitbetalingsdatum of het exacte bedrag nog niet vaststaat. Voorzieningen verschillen van **schulden** (waar zowel bedrag als termijn vaststaan) en van **uitgestelde belastingen** (een specifiek timing-verschil-fenomeen, ondanks dezelfde klasse 16).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:33",
+              "context": "Voorzieningen voor risico's en kosten"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:23",
+              "context": "Voorzichtigheidsbeginsel"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De **MAR-klasse 16** kent volgende sub-rubrieken:\n- **160** Pensioenen en soortgelijke verplichtingen\n- **161** Belastingen (geschillen + vermoede aanslagen)\n- **162** Grote herstellingen en onderhoud\n- **163** Andere risico's en kosten (waarborgen aan klanten, hangende processen, herstructurering)\n- **168** Uitgestelde belastingen (zie apart record)\n\n**Boekingsschema**:\n- Aanleg: **635/637 Voorzieningen voor risico's en kosten** (kost) D | **160-163** (passief) C\n- Aanwending bij voordoen risico: **160-163** D | rechtstreeks tegen werkelijke kost\n- Terugneming bij wegvallen: **160-163** D | **6350/6370** C (resulteert in kostenvermindering)",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV — bijlage MAR",
+              "ref": "Klasse 16 (160-163, 168)",
+              "context": "Sub-rubricering voorzieningen + uitgestelde belastingen"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Voorzieningen bestaan om het **matching-principe** in evenwicht te brengen met het **voorzichtigheidsbeginsel**: gebeurtenissen uit het verleden (bv. een verkoop met productgarantie, of een proces dat aanhangig is gemaakt) genereren toekomstige kosten waarvan de exacte realisatie onzeker is. Als deze niet werden voorzien, zou het resultaat van het huidige boekjaar te rooskleurig zijn en het resultaat van het toekomstige jaar te zwaar belast. De voorziening 'reserveert' kost in het jaar waarin het risico ontstond, ook al wordt de uitbetaling pas later geconcretiseerd.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:23",
+              "context": "Voorzichtigheidsbeginsel + matching"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "criteria-voorziening-erkenning",
+        "naam": {
+          "primair": "Erkenningscriteria voorziening"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een voorziening wordt erkend als **cumulatief** wordt voldaan:\n1. **Bestaande verplichting** — voortspruitend uit een gebeurtenis in het verleden (juridisch of feitelijk, bv. publiek aangekondigde herstructurering);\n2. **Waarschijnlijke uitstroom** van middelen om de verplichting af te wikkelen;\n3. **Betrouwbare schatting** van het bedrag mogelijk.\n\nVoldoet de situatie aan (1) en (2) maar niet aan (3) → **voorwaardelijke verplichting** in toelichting (klasse 0 of disclosure), geen passiefpost. Voldoet alleen aan (1) → vermelding in toelichting indien materieel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:33",
+                  "context": "Voorziening-erkenningsregel"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-voorziening",
+        "naam": {
+          "primair": "Waardering — best estimate + eventuele actualisatie"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een voorziening wordt gewaardeerd aan het **beste schattingsbedrag** dat de onderneming op balansdatum verwacht uit te geven om de verplichting af te wikkelen. Voor **langetermijn-voorzieningen** (bv. pensioenverplichtingen op 10-20 jaar) mag de waarde worden **geactualiseerd** met een redelijke disconteringsvoet (typisch overheidsobligatierente van vergelijkbare looptijd). De jaarlijkse **opbouw van de actualisatie** wordt geboekt als financiële kost (klasse 65).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:33",
+                  "context": "Best-estimate-waardering + actualisatie LT-voorzieningen"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Voorziening waarborg op verkochte producten",
+        "context": "Zelena Bio NV verkoopt jaarlijks 100.000 producten met 2 jaar garantie. Op basis van historische ervaring komt 2 % van de producten terug onder garantie, gemiddelde herstelkost 15 EUR.\n\n**Aanleg op 31-12** (boekjaar 1):\n- Verwachte garantieclaims: 100.000 × 2 % × 15 EUR = **30.000 EUR**\n- Boeking:\n```\n637 Voorzieningen voor andere risico's en kosten    D 30.000\n   163 Voorzieningen voor andere risico's            C 30.000\n```\n\n**Aanwending in boekjaar 2** wanneer claims binnenkomen (bv. herstel kost 25.000 EUR):\n```\n163 Voorzieningen voor andere risico's              D 25.000\n   614/611                                          C 25.000 (tegen werkelijke kost)\n```\nAls er na het garantieperiode nog 5.000 EUR voorziening overblijft → **terugneming**:\n```\n163                                                 D 5.000\n   6370 Terugnemingen voorzieningen                C 5.000\n```",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:33",
+              "context": "Voorbeeldtoepassing waarborg-voorziening"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Voorziening grote herstelling — cyclisch onderhoud",
+        "context": "Een industriële onderneming heeft een productielijn die elke 5 jaar een groot onderhoud nodig heeft (kost ca. 200.000 EUR). Tussenliggende jaren: kleine onderhoudsbeurten.\n\n**Spreiding via voorziening**: elk jaar wordt 40.000 EUR geboekt als voorziening (162) om de toekomstige grote onderhoudsuitgave te spreiden over de 5 jaren waarin de slijtage opbouwt. Dit voldoet aan het matching-principe — onderhoudskost evenredig met gebruiksperiode.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:33",
+              "context": "Voorzieningen voor grote herstellingen — rekening 162"
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Voorziening verwarren met reserve",
+        "verkeerde_assumptie": "Een voorziening en een reserve zijn allebei buffers tegen toekomstige tegenvallers.",
+        "kernpunt": "Geen. Een **voorziening** (klasse 16, **passief**) dekt een **specifiek bestaand risico of verplichting** uit het verleden — komt **ten laste van het resultaat** (klasse 63). Een **reserve** (klasse 13, **eigen vermogen**) is een **bestemming van behaalde winst** — geen kostenpost, geen specifiek risico, maar interne winstreservering voor toekomstige groei of dividend-uitsmering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "Klasse 13 vs Klasse 16",
+              "context": "Reserve = bestemming winst; voorziening = bestaand risico"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Voorziening boeken zonder bestaande gebeurtenis",
+        "verkeerde_assumptie": "Je kunt anticipatief een voorziening boeken voor mogelijke toekomstige tegenvallers — bv. een algemene 'crisis-voorziening' van 100.000 EUR.",
+        "kernpunt": "Een voorziening vereist een **gebeurtenis in het verleden** die de verplichting creëert. Algemene 'voor-de-zekerheid'-voorzieningen zonder concreet aanwijsbare oorzaak zijn **niet toegelaten** — dat zou winst manipuleren ('cookie jar reserving'). Voor toekomstige tegenvallers die geen passend voorzieningsfeit hebben: gebruik een **reserve** uit winstbestemming.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:33",
+              "context": "Vereiste bestaande verplichting"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -81,6 +243,32 @@
     {
       "type": "vereist",
       "target": "boekhoudbeginselen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schulden-op-korte-termijn",
+      "gelijkenissen": [
+        "Beide passief-rubrieken die toekomstige uitstroom van middelen erkennen"
+      ],
+      "verschillen": [
+        "Schuld: bedrag + termijn vaststaan; voorziening: minstens één van beide onzeker",
+        "Schuld: feitelijk al geconsumeerd (factuur, loon, lening); voorziening: risico nog te realiseren"
+      ],
+      "verwarring_risico": "Stagiairs boeken een vaststaande factuur als voorziening of een onzeker risico als schuld.",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "uitgestelde-belastingen",
+      "gelijkenissen": [
+        "Beide gebruiken MAR-klasse 16"
+      ],
+      "verschillen": [
+        "Voorziening (160-163): risico/kost-driven; uitgestelde belasting (168): timing-verschil-driven tussen fiscaal en boekhoudkundig resultaat",
+        "Voorziening raakt klasse 63 (operating); uitgestelde belasting raakt klasse 67 (belastingen)"
+      ],
+      "verwarring_risico": "Beide klasse 16 — studenten denken dat het hetzelfde fenomeen is.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
