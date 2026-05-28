@@ -4,13 +4,17 @@
     "primair": "Bedrijfsleidersbezoldiging",
     "synoniemen": [
       "bedrijfsleidersloon",
-      "zaakvoerdersbezoldiging"
-    ]
+      "zaakvoerdersbezoldiging",
+      "rémunération de dirigeant d'entreprise"
+    ],
+    "vertaling": {
+      "fr": "rémunération de dirigeant d'entreprise"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -29,7 +33,7 @@
         {
           "topic": "Werknemer-loon en payroll-cascade",
           "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
+          "ref": "werknemersbezoldiging"
         },
         {
           "topic": "Tantième-details",
@@ -39,7 +43,7 @@
         {
           "topic": "VAA-componenten (woning · auto · lening · ...)",
           "richting": "moet-verwijzen",
-          "ref": "vaa-woning"
+          "ref": "voordelen-alle-aard"
         },
         {
           "topic": "Groepsverzekering / IPT als pensioencomponent",
@@ -59,9 +63,21 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bedrijfsleidersbezoldiging.json",
+      "primary_bronnen": [
+        "WIB92 art. 30",
+        "WIB92 art. 32",
+        "WIB92 art. 32/1",
+        "WIB92 art. 38-19°",
+        "WIB92 art. 198 § 1, 9°bis",
+        "WIB92 art. 215"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -70,84 +86,366 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 30-32, 215). 4-bouwblokken-mix + 45.000-regel + bezoldigingstheorie uitgewerkt."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bezoldigingen van bedrijfsleiders zijn alle beloningen verleend of toegekend aan een natuurlijke persoon die (1) een opdracht als bestuurder, zaakvoerder, vereffenaar of soortgelijke functies uitoefent, of (2) in een vennootschap een leidende functie of een leidende werkzaamheid van dagelijks bestuur, van commerciële, financiële of technische aard uitoefent buiten een arbeidsovereenkomst (art. 32 WIB92). Ze omvatten vaste/veranderlijke tantièmes, zitpenningen, voordelen alle aard, geherkwalificeerde huur (boven 5/3 van het gerevaloriseerd KI) en alle sommen die de vennootschap toekent buiten dividenden of terugbetaling eigen kosten.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bedrijfsleidersbezoldiging is een hoofdstrategisch instrument: de zaakvoerder bouwt zijn vergoeding op uit een mix van vier kanalen die elk een eigen fiscale logica hebben. (1) Maandelijks loon — onderworpen aan progressieve PB (tot 50 %) + bedrijfsvoorheffing + sociale bijdragen zelfstandige; aftrekbaar als kost in vennootschap. (2) Tantième — geboekt na het belastbare tijdperk maar fiscaal in datzelfde tijdperk aftrekbaar via art. 195 WIB; voorheffing inhouden bij toekenning AV. (3) VAA (woning, auto, lening, energie) — forfaitair gewaardeerd, bij loon gevoegd, deels aftrekbaar in vennootschap (autokosten + 17 %/40 % verworpen uitgave). (4) Onrechtstreekse vergoeding — huur (art. 32-3° herkwalificatie), groepsverzekering/IPT (80 %-regel art. 59), dividend (DBI-mogelijkheden, RV 30 % maar VVPR-bis 15 % onder voorwaarden). De optimale mix balanceert PB-progressie, 45.000-EUR-regel voor KMO-tarief VenB en RV-niveau op dividenden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, 195, 215" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese 4-bouwblokken bezoldigingsmix" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De fiscale wetgever heeft historisch een ongelijkheid willen voorkomen tussen werknemers en bedrijfsleiders. Daarom worden bedrijfsleiders 'gelijkgesteld' aan loontrekkenden voor PB-grondslag (art. 30-2°), maar zonder de loonbescherming + werkgevers-RSZ van werknemers. De 45.000-EUR-regel (art. 215-4°) komt uit de hervorming 2018: ze beoogt een ware bezoldiging boven sluip-dividenden, anders verliest de KMO haar verlaagd VenB-tarief 20 %.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 30-2°, 215-4°" }
           ]
         }
       }
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 30-2°, 32, 195, 215; vanaf AJ 2019"
+      },
+      "voor": [
+        {
+          "tekst": "Bij KMO-zaakvoerder/bestuurder die periodiek vergoeding uit eigen vennootschap ontvangt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij aandeelhouder die op de borderline tussen 'bezoldiging' en 'dividend' kiest (mix-optimalisatie).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 215" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Toekenning ten laste van het resultaat van het belastbaar tijdperk — boeking op rekening 618 (Bezoldigingen bestuurders, zaakvoerders, beherende vennoten).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "kb", "naam": "MAR (KB 21.10.2018)", "ref": "Bijlage 1, klasse 6" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 215-4°" }
+            ]
+          }
+        }
+      ]
+    },
     "bouwstenen": [
       {
-        "id": "45000-bezoldigingsregel",
-        "naam": {
-          "primair": "45.000-EUR-bezoldigingsregel (KMO-tarief)"
-        },
-        "bouwsteen_type": "drempel",
+        "id": "definitie-bedrijfsleider",
+        "naam": { "primair": "Wie is 'bedrijfsleider' fiscaal?" },
+        "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Twee categorieën (art. 32 WIB92): (1) natuurlijke persoon met mandaat (bestuurder, zaakvoerder, vereffenaar of gelijksoortige functie); (2) natuurlijke persoon met leidende functie of leidende werkzaamheid van dagelijks bestuur (commercieel, financieel, technisch) buiten een arbeidsovereenkomst. Cat. 2 mag enkel als hij niet onder een arbeidscontract werkt — zo niet, is hij werknemer (art. 30-1°).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" }
               ]
             }
           }
         }
       },
       {
-        "id": "bezoldigingstheorie",
-        "naam": {
-          "primair": "Bezoldigingstheorie (aftrekbaarheid kosten woning/auto)"
+        "id": "bouwblokken-mix",
+        "naam": { "primair": "4 bouwblokken bezoldigingsmix" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De zaakvoerder bouwt zijn vergoeding op uit één of meer van vier kanalen:",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, 195" }
+              ]
+            }
+          }
         },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "4 kanalen bezoldigingsmix:\n\n| Kanaal | Fiscaal in PB | Aftrekbaar in vennootschap | Bedrijfsvoorheffing | Sociale bijdrage |\n|---|---|---|---|---|\n| (1) Maandelijks loon | Progressief 25-50 % | 100 % (rek. 618) | Ja, tabel III | Ja (zelfstandige ± 20,5 %) |\n| (2) Tantième | Progressief (PB-jaar van AV-beslissing) | 100 % in resultaat-tijdperk (art. 195) | Ja | Ja (zelfstandige) |\n| (3) VAA (woning/auto/lening/energie/maaltijd) | Bij loon → progressief | 100 % minus aftrekbeperkingen art. 198 | Op forfait-waarde | Op forfait-waarde |\n| (4) Onrechtstreeks: huur > 5/3 KI, dividend, groepsverzekering | Loon/dividend/PB-vrij naargelang | Variabel | Variabel | Soms |"
+          }
+        ]
+      },
+      {
+        "id": "45000-bezoldigingsregel",
+        "naam": { "primair": "45.000-EUR-bezoldigingsregel (KMO-tarief)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een kleine vennootschap verliest het verlaagd VenB-tarief 20 % (op de eerste schijf van € 100.000 winst — art. 215, lid 2 WIB92) wanneer ze, vanaf het vijfde belastbare tijdperk vanaf oprichting, niet aan ten minste één bedrijfsleider (art. 32) een bezoldiging toekent ten laste van het resultaat die gelijk is aan of hoger is dan: ofwel € 45.000, ofwel — indien lager — het belastbaar inkomen van de vennootschap (art. 215, lid 3, 4°).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 215, lid 3, 4°" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Beslisflow KMO-tarief:\n\n```mermaid\nflowchart TD\n  A[Kleine vennootschap art. 1:24 WVV?] -->|nee| Z[25 %-tarief]\n  A -->|ja| B{> 5e belastbaar tijdperk vanaf oprichting?}\n  B -->|nee| KMO[20 % op eerste 100k]\n  B -->|ja| C{Bezoldiging ≥ 45.000 EUR aan minstens 1 bedrijfsleider?}\n  C -->|ja| KMO\n  C -->|nee| D{Bezoldiging ≥ belastbaar inkomen vennootschap?}\n  D -->|ja| KMO\n  D -->|nee| Z\n```"
+          }
+        ]
+      },
+      {
+        "id": "bezoldigingstheorie",
+        "naam": { "primair": "Bezoldigingstheorie (aftrekbaarheid kosten woning/auto)" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "De Cassatie-rechtspraak (sinds arrest 12-06-2015) staat toe dat een vennootschap kosten van een onroerend goed (woning, deels of volledig privé bewoond door de zaakvoerder) als beroepskost aftrekt op grond van art. 49 WIB92, mits de uitgave een (kosteloos) voordeel uitmaakt dat in de bezoldigingspolitiek past — d.w.z. de uitgave is een vergoeding voor de prestaties van de bedrijfsleider en wordt als VAA bij hem belast. Dit is een belangrijke uitzondering op de strikte 'maatschappelijk doel'-test: de causaliteitsband wordt afgeleid uit de bezoldigingspolitiek, niet uit een directe link met inkomstenverwerving.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 32" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cassatie 12-06-2015 + parallelle rechtspraak (zonder directe bron in bundle)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herkwalificatie-huur",
+        "naam": { "primair": "Herkwalificatie huur > 5/3 gerevaloriseerd KI" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een bedrijfsleider een gebouwd onroerend goed verhuurt aan zijn vennootschap, wordt de huur boven 5/3 van het gerevaloriseerd KI fiscaal geherkwalificeerd tot bezoldiging (art. 32, lid 2, 3°). Gevolg: op dat overschot wordt bedrijfsvoorheffing ingehouden + sociale bijdragen verschuldigd, en het bedrag wordt in PB belast als beroepsinkomen i.p.v. onroerend inkomen. De kosten in verband met dat onroerend goed worden niet meer in aftrek gebracht op het overschot-deel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, lid 2, 3°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kosten-eigen-werkgever-art32-1",
+        "naam": { "primair": "Eigen kosten werkgever — bedrijfsleider (art. 32/1)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde kosten die de vennootschap voor haar bedrijfsleider draagt (representatie, kantoor thuis, parkeren ...) worden niet als bezoldiging belast als ze 'eigen kosten van de vennootschap' vormen — d.w.z. de werknemer/bedrijfsleider doet die uitgaven in opdracht van of in het belang van de vennootschap. Het is een soort omgekeerde VAA: geen belasting bij bedrijfsleider, wel aftrek bij vennootschap. Strakke voorwaarden (art. 32/1).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32/1" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-bezoldiging-60k",
+        "titel": "Zaakvoerder BV — bruto-loon € 60.000 in jaar X",
+        "context": "Eenpersoons-BV. Geen VAA. Bedrijfsvoorheffing aan de bron. Sociale bijdragen via sociaal verzekeringsfonds.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Loon-cascade bedrijfsleider:\n\n| Stap | Bedrag |\n|---|---|\n| Brutobezoldiging (fiche 281.20 code 400) | € 60.000,00 |\n| Geraamde bedrijfsvoorheffing (≈ 40 % progressief — schatting) | − € 24.000,00 |\n| Sociale bijdragen zelfstandige (3 × kwartaal-voorlopig ± 20,5 %) | − € 12.300,00 (apart betaald, achteraf herzien) |\n| Forfaitkosten 3 % (max € 1.555,50) — toegepast in PB-aangifte | (later) |\n| Netto in handen (bruto − BV − sociale bijdr.) | ± € 23.700,00 |\n\nAangifte PB: code 1401-54 (bruto € 60.000) — code 1405 (BV) — afzonderlijk sociale bijdragen via code 1632."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boekingen in vennootschap (jaarbasis):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 618 | Bezoldigingen bestuurders | 60.000 | |\n| | aan 4530 Bedrijfsvoorheffing | | 24.000 |\n| | aan 416/489 R/C zaakvoerder | | 36.000 |\n| | (4530 wordt maandelijks afgedragen aan fiscus) | | |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, 270" },
+            { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "vak XVI code 1401" }
+          ]
+        }
+      },
+      {
+        "id": "vb-45000-regel",
+        "titel": "KMO-tarief test — vennootschap met winst € 80.000 + bezoldiging € 30.000",
+        "context": "Kleine vennootschap (art. 1:24 WVV), 7e boekjaar, één zaakvoerder die € 30.000 bezoldiging trekt. Belastbare winst vóór VenB-tarief = € 80.000.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Test 45.000-regel (art. 215-4°):\n\n| Test | Resultaat |\n|---|---|\n| Bezoldiging € 30.000 ≥ € 45.000? | NEE |\n| Bezoldiging € 30.000 ≥ belastbaar inkomen vennootschap € 80.000? | NEE |\n| → KMO-tarief verloren | **VenB-tarief 25 %** op volledige € 80.000 |\n\nVenB = € 80.000 × 25 % = **€ 20.000**\n\nTegen-scenario: bezoldiging optrekken tot € 45.000 (extra € 15.000 loon):\n\n| | Bedrag |\n|---|---|\n| Bezoldiging nieuw | € 45.000 |\n| Belastbaar inkomen vennootschap nieuw | € 80.000 − € 15.000 = € 65.000 |\n| Test ≥ € 45.000 | JA → KMO-tarief OK |\n| VenB | € 65.000 × 20 % = **€ 13.000** |\n\nExtra PB op extra loon bedrijfsleider (marginaal 50 % + 7 % gemeente): ± € 8.000. Netto-besparing: € 20.000 − € 13.000 − € 8.000 = − € 1.000 → **niet rendabel** zonder bijkomende analyse (sociale bijdragen, IPT-aftrek). Vandaar dat de 45.000-regel vaak vergt: ofwel hogere bezoldiging + IPT, ofwel accepteren van 25 %-tarief."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215, lid 3, 4°" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-tarief-voorafbetalingen", "ref": "code 1754" }
+          ]
+        }
+      },
+      {
+        "id": "vb-mix-met-tantieme",
+        "titel": "Bezoldigingsmix: maandloon € 36.000 + tantième € 24.000 + VAA-auto € 4.000",
+        "context": "Zaakvoerder kiest mix om over de 45.000-regel te raken én EUR 60.000 totaal te bereiken. Wagen 165 g CO2, cataloguswaarde € 35.000, leeftijd 0 jaar.",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Componenten en aangifte-codes:\n\n| Component | Bedrag | Vennootschap-boeking | PB-aangifte |\n|---|---|---|---|\n| Maandloon | € 36.000 | 618 | code 1401 |\n| Tantième (na AV-beslissing maart Y+1) | € 24.000 | 695 → 618 (resultaatsbestemming) | code 1401 (kalenderjaar van toekenning) |\n| VAA-auto (CO2-forfait) | € 4.000 | (bij loon, op fiche 281.20 code 401-409) | code 1401/code 1254 |\n| **Totaal bezoldiging** | **€ 64.000** | | |\n\nTest 45.000-regel: € 64.000 ≥ € 45.000 → KMO-tarief OK.\n\nVerworpen uitgaven autokosten in vennootschap: niet-aftrekbaar deel op CO2-formule + 17 % VAA als VU (code 1206)."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Tantième-boekingen:\n\nBij AV (maart Y+1, op bestemming resultaat boekjaar Y):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 14 | Overgedragen winst | 24.000 | |\n| | aan 47 Tantièmes betaalbaar | | 24.000 |\n\nBij betaling (april Y+1):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 47 | Tantièmes betaalbaar | 24.000 | |\n| | aan 4530 Bedrijfsvoorheffing | | (BV) |\n| | aan 5500 Bank | | (saldo) |\n\nFiscale aftrek in boekjaar Y via art. 195 WIB (toekenning ten laste van het resultaat van dat tijdperk)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, 195, 198 § 1, 9°" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Tantième fiscaal aftrekbaar in jaar van toekenning, niet in jaar van AV-beslissing",
+        "verkeerde_assumptie": "Een tantième die in maart Y+1 op de AV wordt beslist, is fiscaal aftrekbaar in jaar Y+1.",
+        "kernpunt": "Een tantième die op de gewone AV wordt toegekend uit het resultaat van boekjaar Y, is via art. 195 WIB fiscaal aftrekbaar in boekjaar Y (mits boeking 14→47 vóór goedkeuring jaarrekening), maar bij de bedrijfsleider belastbaar in kalenderjaar Y+1 (datum van toekenning). Cash-flow + timing-effect.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 195" }
+          ]
+        }
+      },
+      {
+        "titel": "45.000-EUR-regel — VAA telt mee, maar niet alle componenten",
+        "verkeerde_assumptie": "VAA voor woning of auto telt automatisch mee voor de 45.000-EUR-toets.",
+        "kernpunt": "De drempel kijkt naar 'bezoldiging ten laste van het resultaat van het belastbaar tijdperk' (art. 215). VAA-loon telt mee voor zover het effectief als kost in de vennootschap is geboekt (bv. autokost is kost; woning-VAA is voor het loon-deel kost via rekening 618). Niet-vergoede voordelen (passieve woning eigendom van bedrijfsleider, dividend) tellen NIET mee. Bedrijfsvoorheffing inhouding telt ook niet (komt al uit de bezoldiging).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Bezoldiging vs dividend — twee kanalen",
+        "opties": [
+          {
+            "keuze": "Hogere bezoldiging (45.000 +)",
+            "voordeel": "KMO-tarief 20 % gewaarborgd; sociale bijdragen bouwen wettelijk pensioen op; IPT-aftrek mogelijk; geen RV",
+            "nadeel": "Progressieve PB tot 50 % + 7 % gemeente; sociale bijdragen zelfstandige ± 20,5 %"
+          },
+          {
+            "keuze": "Lagere bezoldiging + meer dividend",
+            "voordeel": "RV 30 % flat (of 15 % VVPR-bis) i.p.v. progressieve PB; geen sociale bijdragen op dividend",
+            "nadeel": "Verlies KMO-tarief (VenB 25 %); geen aftrek dividenden in vennootschap (vs. 100 % aftrek bezoldiging); RV bovenop VenB → double-tax"
+          }
+        ],
+        "vuistregel": "Bezoldiging minstens op € 45.000 of vennootschap-winst om KMO-tarief te behouden; daarboven keuze tussen extra loon (PB-progressie) of dividend (RV-flat). Optimum hangt af van PB-marginaal tarief eigenaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215, 269" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "verlaagd-tarief-kleine-vennootschap"
-    },
-    {
-      "type": "bevat",
-      "target": "tantieme"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "dividend-uitkering"
+      "id": "stagiair-fiscaal-advies",
+      "naam": { "primair": "Stagiair die bezoldigingsmix adviseert" },
+      "intro": "Per cliënt-zaakvoerder maakt de stagiair een jaarlijkse pro forma optimalisatie: 45.000-toets + IPT-ruimte + RV-niveau.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-bezoldigingsadvies",
+              "naam": { "primair": "Jaarlijks bezoldigingsadvies (najaar)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Schat geprojecteerde winst boekjaar. (2) Test 45.000-EUR-regel: voldoende? Indien niet, simuleer minimumloon. (3) Bereken IPT-ruimte (80 %-regel art. 59) — eventuele extra storting tot fiscale grens. (4) Bereken tantième-mogelijkheid (boeken tijdig vóór jaareinde, AV maart Y+1). (5) Documenteer in bezoldigingsmemo aan cliënt: bedragen + cash-flow per kwartaal + risico's controle.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 32, 59, 195, 215" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekingen-bedrijfsleider",
+              "naam": { "primair": "Boekingen bezoldiging + BV + sociale bijdragen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Maandelijks: 618 D / 4530 BV C + 416 R/C C. (2) Bedrijfsvoorheffing maandelijks afdragen: 4530 D / 5500 C. (3) Sociale bijdragen: 6230 (sociale bijdragen zelfstandige) D / 4540 C, kwartaalbetaling. (4) Tantième: 14 D / 47 C bij AV; 47 D / 4530 + 5500 C bij betaling. (5) IPT-premie: 6230 D / 5500 C (vennootschap-deel, 100 % aftrekbaar binnen 80 %-regel).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "MAR (KB 21.10.2018)", "ref": "rek. 618, 4530, 6230" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "beroepsinkomen-pb" },
+    { "type": "vereist", "target": "verlaagd-tarief-kleine-vennootschap" },
+    { "type": "bevat", "target": "tantieme" },
+    { "type": "bevat", "target": "voordelen-alle-aard" },
+    { "type": "triggert", "target": "bedrijfsvoorheffing" },
+    { "type": "vergelijkbaar_met", "target": "dividend-uitkering", "gelijkenissen": ["beide manieren waarop aandeelhouder-zaakvoerder vergoed wordt uit eigen vennootschap"], "verschillen": ["bezoldiging = aftrekbaar in venn., progressief in PB, sociale bijdragen; dividend = niet aftrekbaar in venn., RV 30 %/15 % VVPR-bis, geen sociale bijdragen"], "verwarring_risico": "Mix-optimalisatie vergt simulatie per cliënt; geen 'best in alle gevallen'." },
+    { "type": "vergelijkbaar_met", "target": "werknemersbezoldiging", "gelijkenissen": ["beide vallen onder art. 30 WIB beroepsinkomen", "beide met bedrijfsvoorheffing"], "verschillen": ["werknemer: arbeidsovereenkomst + werkgevers-RSZ + werknemers-RSZ; bedrijfsleider: mandaat zonder arbeidsovereenkomst + zelfstandigen-sociale-bijdragen"], "verwarring_risico": "Cumul bezoldiging werknemer + bedrijfsleider mogelijk indien gescheiden functies, anders herkwalificatie risico." }
   ]
 }
