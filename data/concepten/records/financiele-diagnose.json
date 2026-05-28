@@ -1,18 +1,16 @@
 {
   "id": "financiele-diagnose",
   "naam": {
-    "primair": "Financiële diagnose"
+    "primair": "Financiële diagnose",
+    "synoniemen": ["financieel oordeel", "geheel-financiële beoordeling"],
+    "vertaling": {"en": "financial diagnosis", "fr": "diagnostic financier"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.9.VI.A"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.9.VI.A"],
     "scope": {
       "in": [
         "Integrale beoordeling financiële positie",
@@ -21,63 +19,121 @@
         "Output: diagnose-rapport voor cliënt-leiding / kredietverlener / commissaris"
       ],
       "out": [
-        {
-          "topic": "Continuiteit (trigger-indicatoren)",
-          "richting": "moet-verwijzen",
-          "ref": "continuiteit"
-        },
-        {
-          "topic": "Faillissementspredictie-modellen (kwantitatief)",
-          "richting": "moet-verwijzen",
-          "ref": "faillissementspredictie-modellen"
-        },
-        {
-          "topic": "Ratio-interpretatie (methodologie)",
-          "richting": "moet-verwijzen",
-          "ref": "ratio-interpretatie"
-        },
-        {
-          "topic": "Kamers voor ondernemingen in moeilijkheden (insolventie-trigger)",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Continuiteit (trigger-indicatoren)", "richting": "moet-verwijzen", "ref": "continuiteit"},
+        {"topic": "Faillissementspredictie-modellen (kwantitatief)", "richting": "moet-verwijzen", "ref": "faillissementspredictie-modellen"},
+        {"topic": "Ratio-interpretatie (methodologie)", "richting": "moet-verwijzen", "ref": "ratio-interpretatie"},
+        {"topic": "Kamers voor ondernemingen in moeilijkheden (insolventie-trigger)", "richting": "mag-verwijzen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/financiele-diagnose.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:30:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Financiële diagnose uitgewerkt: 5-staps-procedure, kwantitatief + kwalitatief, structuur diagnose-rapport, valkuilen."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
+        "tekst": "Financiële diagnose is het integrale oordeel over de financiële gezondheid van een onderneming — een samenhangend beeld dat ratio's, trends, sectorbenchmarks, kwalitatieve signalen en eventueel kwantitatieve predictie-modellen integreert tot één conclusie + aanbevelingen. Het is de top-laag boven de losse ratio-categorieën: niet één getal, niet één test, maar een professioneel expert-oordeel dat antwoord geeft op de vraag 'hoe staat dit bedrijf ervoor en wat moet er gebeuren?'. De output is typisch een diagnose-rapport voor cliënt-leiding, kredietverlener, commissaris of insolventie-actor.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ITAA-handboek financiële diagnose + praktijk-conventies Belgische accountants"}]}
+      },
+      "substantie": {
+        "tekst": "Een financiële diagnose is geen som van ratio-tabellen — het is een verhaal. Beoordeel je vier domeinen (liquiditeit, solvabiliteit, rentabiliteit, activiteit) afzonderlijk, dan krijg je vier conclusies; combineer je ze in DuPont + cash-conversion-cycle, dan krijg je inzicht in oorzakelijke verbanden; integreer je ze met kwalitatieve signalen (sector-trends, klantconcentratie, leiderschap), dan krijg je een diagnose. De accountant die enkel een ratio-tabel rapporteert levert ruwe data; de accountant die een diagnose schrijft, levert advies. Het verschil zit in synthese, contextualisering en concrete aanbevelingen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom een eigen procedure naast de ratio's? Omdat de waarde voor de cliënt niet zit in de getallen, maar in het oordeel. Banken, investeerders, RvB-leden, commissarissen — allen hebben behoefte aan een gesynthetiseerde diagnose: 'Op basis van X, Y en Z is mijn conclusie dat dit bedrijf in liquiditeits-spanning verkeert door werkkapitaal-erosie; aanbevolen acties zijn A, B, C'. De Kamers voor Ondernemingen in Moeilijkheden bouwen hun beoordeling op zulke diagnoses; commissarissen baseren going-concern-conclusies erop; banken hun rating-bevestiging.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekeninganalyse", "liquiditeits-ratios", "solvabiliteits-ratios", "rentabiliteits-ratios", "activiteits-ratios", "ratio-interpretatie"],
+      "kader": "jaarrekeninganalyse",
+      "naast_relevant": ["faillissementspredictie-modellen", "continuiteit"],
+      "volgkennis": ["continuiteit"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Jaarlijks diagnose-rapport voor KMO-cliënt — typisch onderdeel van jaargesprek na boekjaar-afsluiting.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Going-concern-oordeel voor commissaris — ISA 570 vraagt geïntegreerd oordeel over financiële + niet-financiële indicatoren.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570", "ref": "paragrafen 13-15"}]}},
+        {"tekst": "Bank-kredietverlenging — banken vragen jaarlijks een financiële diagnose ter onderbouwing van risicobeoordeling.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Kamers voor Ondernemingen in Moeilijkheden — voorzitter van de Kamer vraagt expert-diagnose bij signalering.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "diagnose-stap-1-context",
+        "naam": {"primair": "Stap 1: context vaststellen"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Begin met de strategische + sectorale context: welke generic strategy voert het bedrijf? In welke sector zit het (en welke benchmarks gelden)? Wat is de levensfase (start-up, groei, mature, herstructurering)? Wie zijn de belangrijkste stakeholders (banken, aandeelhouders, leveranciers, RSZ/btw)? Zonder context worden cijfers betekenisloos.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "diagnose-stap-2-ratio-analyse",
+        "naam": {"primair": "Stap 2: ratio-analyse vier categorieën"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Bereken en interpreteer alle vier categorieën: (a) liquiditeit (current, quick, cash ratio, CCC); (b) solvabiliteit (schuldgraad, dekkingsgraad, gearing); (c) rentabiliteit (brutomarge, EBITDA-marge, ROE, ROA); (d) activiteit (DSO, DPO, DIO, werkkapitaalbehoefte). Bouw tabel met 3-jaar evolutie + sector-benchmark. Markeer top-3 alarmsignalen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "diagnose-stap-3-cross-analyse",
+        "naam": {"primair": "Stap 3: cross-categorie verbanden (DuPont, CCC)"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Pas DuPont-decomposition toe op ROE; bereken cash-conversion-cycle; analyseer werkkapitaalbehoefte versus netto bedrijfskapitaal. Doel: cross-mechanismen blootleggen — bv. dalende ROE komt door margekrap (sector-druk) of door kapitaal-erosie (groei zonder rendement) of door hefboom-vermindering (schuldafbouw)?", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "diagnose-stap-4-kwalitatief",
+        "naam": {"primair": "Stap 4: kwalitatieve signalen"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Inventariseer niet-financiële signalen: (a) klantconcentratie (één klant > 30 % omzet = risico); (b) leveranciersconcentratie; (c) sleutel-persoon-afhankelijkheid; (d) sector-trends en disruptie (technologie, regulatie); (e) achterstanden RSZ + btw (publieke trigger insolventie); (f) leiderschap-wissels en bestuurs-conflicten; (g) lopende geschillen of fiscale aanslagen. ISA 570 + CBN-advies 2010/14 lijsten deze trigger-indicatoren.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3"}]}}
+        }
+      },
+      {
+        "id": "diagnose-stap-5-synthese",
+        "naam": {"primair": "Stap 5: synthese + aanbevelingen"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Schrijf executive summary (3-5 zinnen): wat is de algemene gezondheid? Wat zijn de top-3 sterke punten? Wat zijn de top-3 zwakke punten / risico's? Concrete aanbevelingen (3-5) met prioriteit en tijdshorizon: bv. 'binnen 3 maanden DSO terugbrengen van 95 naar 60 dagen door inningsdiscipline'; 'binnen 12 maanden eigen vermogen versterken via kapitaalverhoging'. Aanbevelingen moeten actionable en meetbaar zijn.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "rapport-structuur",
+        "naam": {"primair": "Diagnose-rapport — standaard-structuur"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {"tekst": "Aanbevolen structuur (~10-15 pagina's voor KMO): (1) Executive summary (1 pag.); (2) Context — bedrijf, sector, strategie (1-2 pag.); (3) Financieel overzicht — balans + resultaat per 3 jaar (2 pag.); (4) Ratio-analyse vier categorieën (3-4 pag.); (5) Cross-analyse DuPont + CCC (1 pag.); (6) Kwalitatieve indicatoren (1-2 pag.); (7) Synthese + aanbevelingen (1-2 pag.); (8) Bijlagen — gedetailleerde ratio-tabellen, sector-benchmark-data. Visuals (grafieken trends, sector-positionering) verhogen de leesbaarheid voor niet-financiële lezers.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {"titel": "Tabel zonder verhaal afleveren", "verkeerde_assumptie": "Een dossier met ratio-tabellen is een diagnose.", "kernpunt": "Tabellen zijn input, geen output. Diagnose vereist synthese — wat betekent dit alles? Welke richting gaat het bedrijf? Wat moet er gebeuren? Zonder synthese-paragraaf en concrete aanbevelingen is het rapport een document, geen advies.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Enkel kwantitatief, geen kwalitatief", "verkeerde_assumptie": "Ratio's vertellen het hele verhaal.", "kernpunt": "Ratio's zijn lagging indicators. Een gezond ratiobeeld kan een naderende disruptie verbergen (klantverlies, technologische shift). Een zwak ratiobeeld kan tijdelijk zijn (eenmalige investering). Kwalitatieve signalen contextualiseren cijfers — overslaan = oppervlakkige diagnose.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Generieke aanbevelingen ('kostbesparing')", "verkeerde_assumptie": "Standaard-aanbevelingen volstaan voor een rapport.", "kernpunt": "Concrete + meetbare + tijds-gebonden aanbevelingen zijn vereist. NIET: 'verbeter werkkapitaal'. WEL: 'DSO terugbrengen van 95 naar 60 dagen binnen 6 maanden door (1) inningsprocedure, (2) factoring voor 3 grootste klanten, (3) prefactura voor nieuwe klanten'.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Diagnose zonder leiding bespreken", "verkeerde_assumptie": "Rapport opleveren = diagnose communiceren.", "kernpunt": "Effectieve diagnose vraagt mondelinge bespreking met cliënt-leiding waar de assumpties getest worden ('Heb ik klantconcentratie correct begrepen?') en aanbevelingen besproken ('Welke heeft jullie voorkeur, wat blokkeert?'). Schriftelijk rapport zonder gesprek = vaak ongelezen of verkeerd begrepen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "jaarrekeninganalyse"
-    }
+    {"type": "valt_onder", "target": "jaarrekeninganalyse"},
+    {"type": "vereist", "target": "ratio-interpretatie"},
+    {"type": "vereist", "target": "liquiditeits-ratios"},
+    {"type": "vereist", "target": "solvabiliteits-ratios"},
+    {"type": "vereist", "target": "rentabiliteits-ratios"},
+    {"type": "vereist", "target": "activiteits-ratios"},
+    {"type": "triggert", "target": "continuiteit", "toelichting": "Negatieve diagnose triggert verdere going-concern-evaluatie."},
+    {"type": "bevat", "target": "faillissementspredictie-modellen", "toelichting": "Z-score en varianten zijn één kwantitatieve component binnen de bredere diagnose."}
   ]
 }
