@@ -18,33 +18,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/onroerend-inkomen-pb.json"
 ---
 
-# Onroerend inkomen (PB)
-
-_Regime_
-
-📋 Regeling · Anchors: `2.2.V` · `2.2.V.A` · `2.2.V.B` · Wave: `skeleton-pb-venb-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: vastgoed-inkomen PB · huurinkomen PB · inkomsten van onroerende goederen — **Vertalingen**: fr: revenus immobiliers (IPP)
+_Regime_ · ook: vastgoed-inkomen PB · huurinkomen PB · inkomsten van onroerende goederen
 
 ## Definitie
 
-📖 Het onroerend inkomen is de eerste van de vier inkomstencategorieën die samen het belastbaar inkomen in de personenbelasting vormen (art. 6 WIB92). Het omvat de fiscaal vastgestelde opbrengst uit eigendom, vruchtgebruik of zakelijk gebruiksrecht op onroerende goederen die niet voor de beroepswerkzaamheid worden gebruikt. De grondslag is doorgaans NIET de werkelijk ontvangen huur, maar het (geïndexeerd) kadastraal inkomen — eventueel verhoogd met 40 % brutering en/of begrensd door werkelijke nettohuur (art. 7 WIB92). Beroepsmatig gebruikte onroerende goederen volgen het regime van het beroepsinkomen (art. 37 WIB92), niet dat van het onroerend inkomen.
+Het onroerend inkomen is de eerste van de vier inkomstencategorieën die samen het belastbaar inkomen in de personenbelasting vormen (art. 6 WIB92). Het omvat de fiscaal vastgestelde opbrengst uit eigendom, vruchtgebruik of zakelijk gebruiksrecht op onroerende goederen die niet voor de beroepswerkzaamheid worden gebruikt. De grondslag is doorgaans NIET de werkelijk ontvangen huur, maar het (geïndexeerd) kadastraal inkomen — eventueel verhoogd met 40 % brutering en/of begrensd door werkelijke nettohuur (art. 7 WIB92). Beroepsmatig gebruikte onroerende goederen volgen het regime van het beroepsinkomen (art. 37 WIB92), niet dat van het onroerend inkomen.
 
-<small>📚 WIB92 — art. 6 — _wettekst_ · WIB92 — art. 7 — _wettekst_ · WIB92 — art. 37 — _wettekst_</small>
+<small>📖 WIB92 — art. 6 — _wettekst_ · WIB92 — art. 7 — _wettekst_ · WIB92 — art. 37 — _wettekst_</small>
 
 ## Substantie
 
-🔗 Economisch betekent het onroerend inkomen dat de wetgever de 'opbrengstcapaciteit' van vastgoed forfaitair belast via het kadastraal inkomen, eerder dan de feitelijke huuropbrengst. Vier categorieën bestaan naast elkaar: (1) eigen woning — vrijgesteld in de federale PB, eventueel met gewestelijk woonfiscaal voordeel; (2) niet-verhuurd ander vastgoed (tweede verblijf, leegstaand pand) — belast op geïndexeerd KI × 1,40 voor gebouwen, KI voor gronden; (3) verhuurd aan particulier voor privégebruik — zelfde regime als niet-verhuurd (geïndexeerd KI × 1,40), de werkelijke huur blijft buiten beschouwing; (4) verhuurd aan vennootschap, zelfstandige of vereniging die het beroepsmatig gebruikt — belast op max(geïndexeerd KI × 1,40 ; brutohuur − kostenforfait 40 % voor gebouwen / 10 % voor gronden, met cap). Het systeem creëert dus een gunstig regime voor particuliere verhuur (vaak < werkelijke huur belast) en een streng regime voor verhuur aan beroepsbeoefenaars.
+Economisch betekent het onroerend inkomen dat de wetgever de 'opbrengstcapaciteit' van vastgoed forfaitair belast via het kadastraal inkomen, eerder dan de feitelijke huuropbrengst. Vier categorieën bestaan naast elkaar: (1) eigen woning — vrijgesteld in de federale PB, eventueel met gewestelijk woonfiscaal voordeel; (2) niet-verhuurd ander vastgoed (tweede verblijf, leegstaand pand) — belast op geïndexeerd KI × 1,40 voor gebouwen, KI voor gronden; (3) verhuurd aan particulier voor privégebruik — zelfde regime als niet-verhuurd (geïndexeerd KI × 1,40), de werkelijke huur blijft buiten beschouwing; (4) verhuurd aan vennootschap, zelfstandige of vereniging die het beroepsmatig gebruikt — belast op max(geïndexeerd KI × 1,40 ; brutohuur − kostenforfait 40 % voor gebouwen / 10 % voor gronden, met cap). Het systeem creëert dus een gunstig regime voor particuliere verhuur (vaak < werkelijke huur belast) en een streng regime voor verhuur aan beroepsbeoefenaars.
 
-<small>📚 WIB92 — art. 7 — _wettekst_ · WIB92 — art. 13 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 1-6 — _aangifte_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 7 — _wettekst_ · WIB92 — art. 13 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 1-6 — _aangifte_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🔗 De ratio legis is dubbel: (1) administratieve eenvoud — het kadastraal inkomen is een vooraf vastgesteld jaarbedrag dat zonder bewijslevering door huurder/verhuurder kan worden gebruikt; (2) sociaal beleid — particuliere verhuur (woningmarkt) wordt fiscaal aangemoedigd door belasting op een meestal lager forfaitair KI in plaats van op werkelijke huur. Daartegenover staat dat verhuur aan beroepsbeoefenaars wel op werkelijke nettohuur kan worden belast, om misbruik (lage KI's omzeilen via beroepsmatige huurder) te vermijden. De 1,40-brutering compenseert deels het feit dat KI's al lang niet meer perekwiseerd zijn (basis 1975).
+De ratio legis is dubbel: (1) administratieve eenvoud — het kadastraal inkomen is een vooraf vastgesteld jaarbedrag dat zonder bewijslevering door huurder/verhuurder kan worden gebruikt; (2) sociaal beleid — particuliere verhuur (woningmarkt) wordt fiscaal aangemoedigd door belasting op een meestal lager forfaitair KI in plaats van op werkelijke huur. Daartegenover staat dat verhuur aan beroepsbeoefenaars wel op werkelijke nettohuur kan worden belast, om misbruik (lage KI's omzeilen via beroepsmatige huurder) te vermijden. De 1,40-brutering compenseert deels het feit dat KI's al lang niet meer perekwiseerd zijn (basis 1975).
 
-<small>📚 WIB92 — art. 7 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 7 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -71,155 +63,143 @@ Stabiel regime. Eigen woning is sinds zesde staatshervorming gewestelijk geregel
 
 ## Sub-concepten
 
-### 📦 Eigen woning (vrijgesteld federaal, gewestelijk)  
-_`regime` (subconcept)_
+### 📦 Eigen woning (vrijgesteld federaal, gewestelijk)
 
 #### Definitie
 
-📖 De eigen woning, gedefinieerd in art. 2, 15° WIB92 met verwijzing naar art. 5/5 §4 BFG-wet, is de woning die de belastingplichtige zelf bewoont of waar hij zelf niet woont om beroeps- of sociale redenen. Het KI van de eigen woning is federaal vrijgesteld en wordt NIET in vak III aangegeven. Eventuele aftrekken (intresten, kapitaalaflossingen, premies levensverzekering) zijn sinds 2014 een gewestelijke bevoegdheid — drie regimes naast elkaar (Vlaams, Waals, Brussels) met telkens eigen overgangsregels (oude woonbonus, geïntegreerde woonbonus, chèque-habitat, ...).
+De eigen woning, gedefinieerd in art. 2, 15° WIB92 met verwijzing naar art. 5/5 §4 BFG-wet, is de woning die de belastingplichtige zelf bewoont of waar hij zelf niet woont om beroeps- of sociale redenen. Het KI van de eigen woning is federaal vrijgesteld en wordt NIET in vak III aangegeven. Eventuele aftrekken (intresten, kapitaalaflossingen, premies levensverzekering) zijn sinds 2014 een gewestelijke bevoegdheid — drie regimes naast elkaar (Vlaams, Waals, Brussels) met telkens eigen overgangsregels (oude woonbonus, geïntegreerde woonbonus, chèque-habitat, ...).
 
-<small>📚 WIB92 — art. 2 — 15° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot 'Eigen woning' — _aangifte_</small>
+<small>📖 WIB92 — art. 2 — 15° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot 'Eigen woning' — _aangifte_</small>
 
-### 📦 Niet-verhuurd of verhuurd aan particulier voor privégebruik  
-_`regime` (subconcept)_
-
-#### Definitie
-
-📖 Voor gebouwen die niet worden verhuurd, of die worden verhuurd aan een natuurlijke persoon die ze niet beroepsmatig gebruikt: belastbaar inkomen = geïndexeerd KI × 1,40. Voor gronden in dezelfde situatie: enkel het geïndexeerd KI (geen 1,40-brutering). Het werkelijk ontvangen huurbedrag is irrelevant — belastingplichtige geeft enkel het niet-geïndexeerde KI aan (codes 1106-58 voor gebouwen, 1107-57 voor gronden), fiscus berekent zelf indexering en brutering.
-
-<small>📚 WIB92 — art. 7 — 1° en 2° a — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 2 en 3 — _aangifte_</small>
-
-### 📦 Verhuurd aan vennootschap of beroepsmatige huurder  
-_`regime` (subconcept)_
+### 📦 Niet-verhuurd of verhuurd aan particulier voor privégebruik
 
 #### Definitie
 
-📖 Voor gebouwen verhuurd aan vennootschappen, rechtspersonen (anders dan sociale huisvestingsmaatschappijen voor woongebruik), of aan natuurlijke personen die het pand geheel of gedeeltelijk beroepsmatig gebruiken: belastbaar inkomen = max(geïndexeerd KI × 1,40 ; brutohuur − kostenforfait). Het kostenforfait bedraagt 40 % voor gebouwen (met absolute cap van 2/3 × revaloriseringscoëfficiënt × niet-geïndexeerd KI, art. 13 WIB92) en 10 % voor gronden. Belastingplichtige geeft KI én brutohuur aan (codes 1109-55 + 1110-54 voor gebouwen, 1112-52 + 1113-51 voor gronden).
+Voor gebouwen die niet worden verhuurd, of die worden verhuurd aan een natuurlijke persoon die ze niet beroepsmatig gebruikt: belastbaar inkomen = geïndexeerd KI × 1,40. Voor gronden in dezelfde situatie: enkel het geïndexeerd KI (geen 1,40-brutering). Het werkelijk ontvangen huurbedrag is irrelevant — belastingplichtige geeft enkel het niet-geïndexeerde KI aan (codes 1106-58 voor gebouwen, 1107-57 voor gronden), fiscus berekent zelf indexering en brutering.
 
-<small>📚 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 5a-5c — _aangifte_</small>
+<small>📖 WIB92 — art. 7 — 1° en 2° a — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 2 en 3 — _aangifte_</small>
 
-### 📦 Verhuurd voor land- of tuinbouw onder pachtwetgeving  
-_`regime` (subconcept)_
+### 📦 Verhuurd aan vennootschap of beroepsmatige huurder
 
 #### Definitie
 
-📖 Wanneer een onroerend goed wordt verhuurd onder de pachtwetgeving (of een vergelijkbaar buitenlands recht dat de pachtprijzen beperkt) en de pachter het voor land- of tuinbouw gebruikt: belastbaar inkomen = geïndexeerd KI (zonder 1,40-brutering). Gunstigste regime — geen brutering, geen vergelijking met werkelijke pacht. Code 1108-56 in vak III.
+Voor gebouwen verhuurd aan vennootschappen, rechtspersonen (anders dan sociale huisvestingsmaatschappijen voor woongebruik), of aan natuurlijke personen die het pand geheel of gedeeltelijk beroepsmatig gebruiken: belastbaar inkomen = max(geïndexeerd KI × 1,40 ; brutohuur − kostenforfait). Het kostenforfait bedraagt 40 % voor gebouwen (met absolute cap van 2/3 × revaloriseringscoëfficiënt × niet-geïndexeerd KI, art. 13 WIB92) en 10 % voor gronden. Belastingplichtige geeft KI én brutohuur aan (codes 1109-55 + 1110-54 voor gebouwen, 1112-52 + 1113-51 voor gronden).
 
-<small>📚 WIB92 — art. 7 — 2° b — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 4 — code 1108-56 — _aangifte_</small>
+<small>📖 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 5a-5c — _aangifte_</small>
+
+### 📦 Verhuurd voor land- of tuinbouw onder pachtwetgeving
+
+#### Definitie
+
+Wanneer een onroerend goed wordt verhuurd onder de pachtwetgeving (of een vergelijkbaar buitenlands recht dat de pachtprijzen beperkt) en de pachter het voor land- of tuinbouw gebruikt: belastbaar inkomen = geïndexeerd KI (zonder 1,40-brutering). Gunstigste regime — geen brutering, geen vergelijking met werkelijke pacht. Code 1108-56 in vak III.
+
+<small>📖 WIB92 — art. 7 — 2° b — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 4 — code 1108-56 — _aangifte_</small>
 
 ## Bouwstenen
 
-### 🧮 Formule belastbaar inkomen — niet-verhuurd of particulier gehuurd gebouw  
-_`formule`_
+### 🧮 Formule belastbaar inkomen — niet-verhuurd of particulier gehuurd gebouw
 
-🔗 Belastbaar onroerend inkomen = niet-geïndexeerd KI × indexeringscoëfficiënt × 1,40. Indexeringscoëfficiënt aanslagjaar 2025 ≈ 2,0915 (exact bedrag in Cijferzakboekje opzoeken). Voor gronden vervalt de × 1,40.
+Belastbaar onroerend inkomen = niet-geïndexeerd KI × indexeringscoëfficiënt × 1,40. Indexeringscoëfficiënt aanslagjaar 2025 ≈ 2,0915 (exact bedrag in Cijferzakboekje opzoeken). Voor gronden vervalt de × 1,40.
 
-<small>📚 WIB92 — art. 7 — 1° en 2° a — _wettekst_ · WIB92 — art. 518 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 7 — 1° en 2° a — _wettekst_ · WIB92 — art. 518 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 🧮 Formule — verhuur aan vennootschap/beroepsmatige huurder  
-_`formule`_
+### 🧮 Formule — verhuur aan vennootschap/beroepsmatige huurder
 
-📖 Belastbaar onroerend inkomen = max( geïndexeerd KI × 1,40 ; brutohuur + huurvoordelen − kostenforfait ). Kostenforfait = 40 % voor gebouwen, met cap 2/3 × revaloriseringscoëfficiënt × niet-geïndexeerd KI (art. 13). Voor gronden: 10 % zonder cap. Indien de berekening uit de KI-route hoger uitvalt dan de nettohuur, geldt KI × 1,40 als minimum.
+Belastbaar onroerend inkomen = max( geïndexeerd KI × 1,40 ; brutohuur + huurvoordelen − kostenforfait ). Kostenforfait = 40 % voor gebouwen, met cap 2/3 × revaloriseringscoëfficiënt × niet-geïndexeerd KI (art. 13). Voor gronden: 10 % zonder cap. Indien de berekening uit de KI-route hoger uitvalt dan de nettohuur, geldt KI × 1,40 als minimum.
 
-<small>📚 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_</small>
+<small>📖 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_</small>
 
-### 📜 Uitsluiting eigen woning uit vak III  
-_`regel`_
+### 📜 Uitsluiting eigen woning uit vak III
 
-📖 Het KI van de eigen woning (art. 2, 15° WIB92) wordt NIET in vak III aangegeven en is federaal vrijgesteld. Sinds de zesde staatshervorming (2014) zijn de gewesten exclusief bevoegd voor de fiscaliteit van de eigen woning, inclusief aftrekken voor hypothecaire intresten en kapitaalaflossingen.
+Het KI van de eigen woning (art. 2, 15° WIB92) wordt NIET in vak III aangegeven en is federaal vrijgesteld. Sinds de zesde staatshervorming (2014) zijn de gewesten exclusief bevoegd voor de fiscaliteit van de eigen woning, inclusief aftrekken voor hypothecaire intresten en kapitaalaflossingen.
 
-<small>📚 WIB92 — art. 2 — 15° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III opmerking 'Eigen woning is vrijgesteld' — _aangifte_</small>
+<small>📖 WIB92 — art. 2 — 15° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III opmerking 'Eigen woning is vrijgesteld' — _aangifte_</small>
 
-### 📜 Herkwalificatie bovenmatige huur bedrijfsleider  
-_`regel`_
+### 📜 Herkwalificatie bovenmatige huur bedrijfsleider
 
-📖 Wanneer een bedrijfsleider een gebouw verhuurt aan een vennootschap waarin hij een leidinggevende functie uitoefent, en de huur + huurvoordelen overschrijden 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt (5,46 voor AJ 2025), dan wordt het overschrijdende deel als bezoldiging van bedrijfsleider geherkwalificeerd (art. 32, tweede lid, 3° WIB92). Het herkwalificeerde deel verschuift van vak III naar vak XVI rubriek 2 (code 1401-54), wordt belast aan progressief PB-tarief en is onderworpen aan sociale zekerheidsbijdragen voor zelfstandigen.
+Wanneer een bedrijfsleider een gebouw verhuurt aan een vennootschap waarin hij een leidinggevende functie uitoefent, en de huur + huurvoordelen overschrijden 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt (5,46 voor AJ 2025), dan wordt het overschrijdende deel als bezoldiging van bedrijfsleider geherkwalificeerd (art. 32, tweede lid, 3° WIB92). Het herkwalificeerde deel verschuift van vak III naar vak XVI rubriek 2 (code 1401-54), wordt belast aan progressief PB-tarief en is onderworpen aan sociale zekerheidsbijdragen voor zelfstandigen.
 
-<small>📚 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot herkwalificatie + Vak XVI code 1401-54 — _aangifte_</small>
+<small>📖 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot herkwalificatie + Vak XVI code 1401-54 — _aangifte_</small>
 
-### ⚙️ Indexering KI  
-_`mechanisme`_
+### ⚙️ Indexering KI
 
-🔗 Het kadastraal inkomen werd vastgesteld op basis van de huurmarkt van 1975 en wordt jaarlijks geïndexeerd via een coëfficiënt die in de programmawet wordt gepubliceerd. Belastingplichtige geeft het niet-geïndexeerde KI aan in vak III; de fiscus past zelf de coëfficiënt toe. Voor AJ 2025 (inkomstenjaar 2024): coëfficiënt ≈ 2,0915 (Cijferzakboekje raadplegen voor exact bedrag). Dit is de eerste stap; de × 1,40-brutering is een aparte tweede stap die enkel voor gebouwen geldt.
+Het kadastraal inkomen werd vastgesteld op basis van de huurmarkt van 1975 en wordt jaarlijks geïndexeerd via een coëfficiënt die in de programmawet wordt gepubliceerd. Belastingplichtige geeft het niet-geïndexeerde KI aan in vak III; de fiscus past zelf de coëfficiënt toe. Voor AJ 2025 (inkomstenjaar 2024): coëfficiënt ≈ 2,0915 (Cijferzakboekje raadplegen voor exact bedrag). Dit is de eerste stap; de × 1,40-brutering is een aparte tweede stap die enkel voor gebouwen geldt.
 
-<small>📚 WIB92 — art. 518 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 518 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Voorbeelden
 
-### 💡 Particuliere verhuur — appartement verhuurd aan jong gezin 🔗
+> [!example]- Particuliere verhuur — appartement verhuurd aan jong gezin
+> _Mevrouw De Smedt bezit een appartement met niet-geïndexeerd KI van €1.200. Ze verhuurt het aan een jong koppel (beide werknemers, geen beroepsmatig gebruik) voor €1.000/maand = €12.000/jaar. Indexeringscoëfficiënt AJ 2025 = 2,0915 (illustratief — Cijferzakboekje raadplegen)._
+>
+> **Berekening:**
+>
+> - Stap 1 — niet-geïndexeerd KI = €1.200 (vermeld in aangifte rubriek 2, code 1106-58).
+> - Stap 2 — geïndexeerd KI = €1.200 × 2,0915 = €2.509,80.
+> - Stap 3 — brutering: €2.509,80 × 1,40 = €3.513,72.
+> - Stap 4 — werkelijke huur €12.000 IRRELEVANT — wordt niet vermeld en niet belast.
+> - Stap 5 — belastbaar onroerend inkomen vak III = €3.513,72.
+> - Stap 6 — dit bedrag wordt samengevoegd met andere inkomsten en belast aan progressief PB-tarief (eerste schijven 25-40 %).
+>
+> → **Resultaat**: Belastbaar inkomen ≈ €3.514 op werkelijke huur €12.000 — dus ca. 29 % van de huur effectief belast. Sterk gunstig regime voor particuliere verhuur.
+>
+> <small>🔗 WIB92 — art. 7 — 2° a — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-_Mevrouw De Smedt bezit een appartement met niet-geïndexeerd KI van €1.200. Ze verhuurt het aan een jong koppel (beide werknemers, geen beroepsmatig gebruik) voor €1.000/maand = €12.000/jaar. Indexeringscoëfficiënt AJ 2025 = 2,0915 (illustratief — Cijferzakboekje raadplegen)._
+> [!example]- Verhuur aan vennootschap — kantoorruimte aan derden-BV
+> _Meneer Janssens verhuurt een gelijkvloerse handelsruimte (geen herkwalificatie-risico — geen bedrijfsleider) aan een advocatenkantoor (BV) voor €18.000/jaar brutohuur. Niet-geïndexeerd KI = €1.500. Indexeringscoëfficiënt AJ 2025 = 2,0915. Revaloriseringscoëfficiënt = 5,46._
+>
+> **Berekening:**
+>
+> - Stap 1 — KI-route: geïndexeerd KI = €1.500 × 2,0915 = €3.137,25. Brutering × 1,40 = €4.392,15.
+> - Stap 2 — huur-route: brutohuur €18.000 × kostenforfait 40 % = €7.200 forfait.
+> - Stap 3 — toets cap kostenforfait (art. 13): cap = 2/3 × 5,46 × €1.500 = €5.460. Forfait €7.200 > cap €5.460 — toepasselijk forfait beperkt tot €5.460.
+> - Stap 4 — netto-huur: €18.000 − €5.460 = €12.540.
+> - Stap 5 — max(€4.392,15 ; €12.540) = €12.540 (huur-route wint).
+> - Stap 6 — belastbaar inkomen vak III rubriek 5a = €12.540. KI €1.500 in code 1109-55, brutohuur €18.000 in code 1110-54.
+> - Stap 7 — dit bedrag wordt belast aan progressief PB-tarief, doorgaans 45-50 % marginaal.
+>
+> → **Resultaat**: Bij verhuur aan vennootschap: ca. 70 % van brutohuur effectief belast (na 40 %-forfait, met cap-correctie). Veel ongunstiger dan bij particuliere verhuur.
+>
+> <small>🔗 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Berekening:**
-- Stap 1 — niet-geïndexeerd KI = €1.200 (vermeld in aangifte rubriek 2, code 1106-58).
-- Stap 2 — geïndexeerd KI = €1.200 × 2,0915 = €2.509,80.
-- Stap 3 — brutering: €2.509,80 × 1,40 = €3.513,72.
-- Stap 4 — werkelijke huur €12.000 IRRELEVANT — wordt niet vermeld en niet belast.
-- Stap 5 — belastbaar onroerend inkomen vak III = €3.513,72.
-- Stap 6 — dit bedrag wordt samengevoegd met andere inkomsten en belast aan progressief PB-tarief (eerste schijven 25-40 %).
-
-→ **Resultaat**: Belastbaar inkomen ≈ €3.514 op werkelijke huur €12.000 — dus ca. 29 % van de huur effectief belast. Sterk gunstig regime voor particuliere verhuur.
-
-<small>📚 WIB92 — art. 7 — 2° a — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### 💡 Verhuur aan vennootschap — kantoorruimte aan derden-BV 🔗
-
-_Meneer Janssens verhuurt een gelijkvloerse handelsruimte (geen herkwalificatie-risico — geen bedrijfsleider) aan een advocatenkantoor (BV) voor €18.000/jaar brutohuur. Niet-geïndexeerd KI = €1.500. Indexeringscoëfficiënt AJ 2025 = 2,0915. Revaloriseringscoëfficiënt = 5,46._
-
-**Berekening:**
-- Stap 1 — KI-route: geïndexeerd KI = €1.500 × 2,0915 = €3.137,25. Brutering × 1,40 = €4.392,15.
-- Stap 2 — huur-route: brutohuur €18.000 × kostenforfait 40 % = €7.200 forfait.
-- Stap 3 — toets cap kostenforfait (art. 13): cap = 2/3 × 5,46 × €1.500 = €5.460. Forfait €7.200 > cap €5.460 — toepasselijk forfait beperkt tot €5.460.
-- Stap 4 — netto-huur: €18.000 − €5.460 = €12.540.
-- Stap 5 — max(€4.392,15 ; €12.540) = €12.540 (huur-route wint).
-- Stap 6 — belastbaar inkomen vak III rubriek 5a = €12.540. KI €1.500 in code 1109-55, brutohuur €18.000 in code 1110-54.
-- Stap 7 — dit bedrag wordt belast aan progressief PB-tarief, doorgaans 45-50 % marginaal.
-
-→ **Resultaat**: Bij verhuur aan vennootschap: ca. 70 % van brutohuur effectief belast (na 40 %-forfait, met cap-correctie). Veel ongunstiger dan bij particuliere verhuur.
-
-<small>📚 WIB92 — art. 7 — 2° c — _wettekst_ · WIB92 — art. 13 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### 💡 Herkwalificatie bovenmatige huur — bedrijfsleider verhuurt aan eigen BV 🔗
-
-_De heer Peeters (bedrijfsleider van BV Peeters Consult) verhuurt een kantoorpand aan zijn eigen vennootschap voor €24.000/jaar. Niet-geïndexeerd KI van het pand = €1.800. Revaloriseringscoëfficiënt AJ 2025 = 5,46._
-
-**Berekening:**
-- Stap 1 — herkwalificatiegrens (art. 32, 3°): 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt = 5/3 × €1.800 × 5,46 = €16.380.
-- Stap 2 — werkelijke huur €24.000 > grens €16.380 — overschrijdende deel = €24.000 − €16.380 = €7.620.
-- Stap 3 — €7.620 wordt geherkwalificeerd als bezoldiging bedrijfsleider (vak XVI rubriek 2, code 1401-54) — progressief PB-tarief + RSZ-bijdrage zelfstandigen.
-- Stap 4 — resterend deel €16.380 blijft als huur in vak III rubriek 5a. Aangiftedragers: KI €1.800 (code 1109-55) + brutohuur €16.380 (code 1110-54).
-- Stap 5 — vergelijk in vak III: KI-route €1.800 × 2,0915 × 1,40 = €5.270,58 vs huur-route €16.380 − kostenforfait. Cap: 2/3 × 5,46 × €1.800 = €6.552. Forfait 40 % = €6.552 → precies op cap. Netto-huur = €16.380 − €6.552 = €9.828.
-- Stap 6 — max(€5.270,58 ; €9.828) = €9.828. Belastbaar in vak III = €9.828; belastbaar in vak XVI = €7.620 (op marginaal PB-tarief + RSZ).
-
-→ **Resultaat**: Door de herkwalificatie verschuift €7.620 naar vak XVI met hoger marginaal tarief én sociale bijdragen. Klassieke fout van bedrijfsleiders die menen hun salaris fiscaal te 'optimaliseren' via verhuur aan eigen BV.
-
-<small>📚 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · WIB92 — art. 7 — 2° c — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+> [!example]- Herkwalificatie bovenmatige huur — bedrijfsleider verhuurt aan eigen BV
+> _De heer Peeters (bedrijfsleider van BV Peeters Consult) verhuurt een kantoorpand aan zijn eigen vennootschap voor €24.000/jaar. Niet-geïndexeerd KI van het pand = €1.800. Revaloriseringscoëfficiënt AJ 2025 = 5,46._
+>
+> **Berekening:**
+>
+> - Stap 1 — herkwalificatiegrens (art. 32, 3°): 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt = 5/3 × €1.800 × 5,46 = €16.380.
+> - Stap 2 — werkelijke huur €24.000 > grens €16.380 — overschrijdende deel = €24.000 − €16.380 = €7.620.
+> - Stap 3 — €7.620 wordt geherkwalificeerd als bezoldiging bedrijfsleider (vak XVI rubriek 2, code 1401-54) — progressief PB-tarief + RSZ-bijdrage zelfstandigen.
+> - Stap 4 — resterend deel €16.380 blijft als huur in vak III rubriek 5a. Aangiftedragers: KI €1.800 (code 1109-55) + brutohuur €16.380 (code 1110-54).
+> - Stap 5 — vergelijk in vak III: KI-route €1.800 × 2,0915 × 1,40 = €5.270,58 vs huur-route €16.380 − kostenforfait. Cap: 2/3 × 5,46 × €1.800 = €6.552. Forfait 40 % = €6.552 → precies op cap. Netto-huur = €16.380 − €6.552 = €9.828.
+> - Stap 6 — max(€5.270,58 ; €9.828) = €9.828. Belastbaar in vak III = €9.828; belastbaar in vak XVI = €7.620 (op marginaal PB-tarief + RSZ).
+>
+> → **Resultaat**: Door de herkwalificatie verschuift €7.620 naar vak XVI met hoger marginaal tarief én sociale bijdragen. Klassieke fout van bedrijfsleiders die menen hun salaris fiscaal te 'optimaliseren' via verhuur aan eigen BV.
+>
+> <small>🔗 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · WIB92 — art. 7 — 2° c — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ Werkelijke huur aangeven bij particuliere verhuur
+> [!warning]- Werkelijke huur aangeven bij particuliere verhuur
+> **Verkeerde assumptie**: Stagiairs en eigenaars denken vaak dat ze de werkelijke huur (€1.000/maand = €12.000/jaar) moeten aangeven in vak III.
+>
+> **Kernpunt**: Bij verhuur aan particulier voor privégebruik (rubriek 2) wordt enkel het niet-geïndexeerde KI ingevuld — de fiscus berekent zelf indexering × 1,40. De werkelijke huur is irrelevant voor belastingbasis en wordt niet vermeld. Werkelijke huur enkel relevant bij verhuur aan vennootschap/beroep (rubriek 5).
+>
+> <small>📖 WIB92 — art. 7 — 2° a — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 2 — alleen KI — _aangifte_</small>
 
-**Verkeerde assumptie**: Stagiairs en eigenaars denken vaak dat ze de werkelijke huur (€1.000/maand = €12.000/jaar) moeten aangeven in vak III.
+> [!warning]- Geïndexeerd KI invullen in plaats van niet-geïndexeerd
+> **Verkeerde assumptie**: Belastingplichtige berekent zelf het geïndexeerde KI en vult dat in vak III in.
+>
+> **Kernpunt**: Vak III vraagt altijd het niet-geïndexeerde basis-KI (vermeld op het laatste aanslagbiljet onroerende voorheffing of in MyMinFin). De fiscus past zelf de jaarlijkse coëfficiënt toe + de eventuele × 1,40-brutering. Wie zelf indexeert betaalt dubbel.
+>
+> <small>📖 aangifte-PB-2025-bezoldigingen — Vak III opmerking 'Alle KI's vermelden als niet-geïndexeerd bedrag' — _aangifte_</small>
 
-**Kernpunt**: Bij verhuur aan particulier voor privégebruik (rubriek 2) wordt enkel het niet-geïndexeerde KI ingevuld — de fiscus berekent zelf indexering × 1,40. De werkelijke huur is irrelevant voor belastingbasis en wordt niet vermeld. Werkelijke huur enkel relevant bij verhuur aan vennootschap/beroep (rubriek 5).
-
-<small>📚 WIB92 — art. 7 — 2° a — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubriek 2 — alleen KI — _aangifte_</small>
-
-### ⚠️ Geïndexeerd KI invullen in plaats van niet-geïndexeerd
-
-**Verkeerde assumptie**: Belastingplichtige berekent zelf het geïndexeerde KI en vult dat in vak III in.
-
-**Kernpunt**: Vak III vraagt altijd het niet-geïndexeerde basis-KI (vermeld op het laatste aanslagbiljet onroerende voorheffing of in MyMinFin). De fiscus past zelf de jaarlijkse coëfficiënt toe + de eventuele × 1,40-brutering. Wie zelf indexeert betaalt dubbel.
-
-<small>📚 aangifte-PB-2025-bezoldigingen — Vak III opmerking 'Alle KI's vermelden als niet-geïndexeerd bedrag' — _aangifte_</small>
-
-### ⚠️ Verhuur aan vennootschap voor woongebruik gelijkstellen met particuliere verhuur
-
-**Verkeerde assumptie**: Een vennootschap huurt mijn appartement om er een werknemer in te laten wonen — dat is toch privégebruik, dus rubriek 2?
-
-**Kernpunt**: NEE — verhuur aan een vennootschap gaat altijd naar rubriek 5 (belast op brutohuur), ook als de vennootschap het pand effectief als woning gebruikt. Enige uitzondering: verhuur aan een erkende sociale huisvestingsmaatschappij voor uitsluitend woongebruik door een natuurlijk persoon → terug naar rubriek 2 (art. 7 — 2° bbis WIB92).
-
-<small>📚 WIB92 — art. 7 — 2° bbis — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot 'Rubriek 5 vs. 2' — _aangifte_</small>
+> [!warning]- Verhuur aan vennootschap voor woongebruik gelijkstellen met particuliere verhuur
+> **Verkeerde assumptie**: Een vennootschap huurt mijn appartement om er een werknemer in te laten wonen — dat is toch privégebruik, dus rubriek 2?
+>
+> **Kernpunt**: NEE — verhuur aan een vennootschap gaat altijd naar rubriek 5 (belast op brutohuur), ook als de vennootschap het pand effectief als woning gebruikt. Enige uitzondering: verhuur aan een erkende sociale huisvestingsmaatschappij voor uitsluitend woongebruik door een natuurlijk persoon → terug naar rubriek 2 (art. 7 — 2° bbis WIB92).
+>
+> <small>📖 WIB92 — art. 7 — 2° bbis — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III noot 'Rubriek 5 vs. 2' — _aangifte_</small>
 
 ## Accountant-perspectieven
 
@@ -229,28 +209,25 @@ _De accountant die de PB-aangifte voor een cliënt-eigenaar van vastgoed voorber
 
 #### 💰 Fiscaal adviseur
 
-##### 👣 Juiste vak III-rubriek kiezen per onroerend goed  
-_`stap`_
+##### 👣 Juiste vak III-rubriek kiezen per onroerend goed
 
-📖 Per onroerend goed van de cliënt eerst bepalen: (1) is het de eigen woning? → NIET aangeven; (2) wordt het beroepsmatig gebruikt door de eigenaar? → rubriek 1 (enkel-melding KI); (3) niet verhuurd? → rubriek 2 (gebouw) of 3 (grond); (4) verhuurd aan pachter voor land-/tuinbouw? → rubriek 4; (5) verhuurd aan particulier privégebruik? → rubriek 2 of 3 (zelfde regime als niet-verhuurd); (6) verhuurd aan vennootschap of beroepsmatige huurder? → rubriek 5a/b/c (KI + brutohuur). Niet-geïndexeerde KI's altijd uit MyMinFin halen — nooit zelf indexeren.
+Per onroerend goed van de cliënt eerst bepalen: (1) is het de eigen woning? → NIET aangeven; (2) wordt het beroepsmatig gebruikt door de eigenaar? → rubriek 1 (enkel-melding KI); (3) niet verhuurd? → rubriek 2 (gebouw) of 3 (grond); (4) verhuurd aan pachter voor land-/tuinbouw? → rubriek 4; (5) verhuurd aan particulier privégebruik? → rubriek 2 of 3 (zelfde regime als niet-verhuurd); (6) verhuurd aan vennootschap of beroepsmatige huurder? → rubriek 5a/b/c (KI + brutohuur). Niet-geïndexeerde KI's altijd uit MyMinFin halen — nooit zelf indexeren.
 
-<small>📚 WIB92 — art. 7 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 1-6 — _aangifte_</small>
+<small>📖 WIB92 — art. 7 — _wettekst_ · aangifte-PB-2025-bezoldigingen — Vak III rubrieken 1-6 — _aangifte_</small>
 
-##### 👣 Herkwalificatie-screening bedrijfsleider  
-_`stap`_
+##### 👣 Herkwalificatie-screening bedrijfsleider
 
-📖 Bij elke bedrijfsleider-cliënt die vastgoed verhuurt aan zijn eigen vennootschap: bereken jaarlijks de grens 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt (5,46 AJ 2025). Indien werkelijke huur > grens: bereken overschrijding en splits in aangifte tussen vak III (resterend deel) en vak XVI code 1401-54 (geherkwalificeerd deel). Documenteer berekening in dossier — frequente controlevraag van fiscus.
+Bij elke bedrijfsleider-cliënt die vastgoed verhuurt aan zijn eigen vennootschap: bereken jaarlijks de grens 5/3 × niet-geïndexeerd KI × revaloriseringscoëfficiënt (5,46 AJ 2025). Indien werkelijke huur > grens: bereken overschrijding en splits in aangifte tussen vak III (resterend deel) en vak XVI code 1401-54 (geherkwalificeerd deel). Documenteer berekening in dossier — frequente controlevraag van fiscus.
 
-<small>📚 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 WIB92 — art. 32, tweede lid, 3° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 #### 🧭 Adviseur
 
-##### 🧭 Advies aan vastgoedinvesteerder: particulier of via vennootschap?  
-_`vuistregel`_
+##### 🧭 Advies aan vastgoedinvesteerder: particulier of via vennootschap?
 
-🔗 Voor zuivere woningverhuur aan particulieren: eigendom in PB houden is bijna altijd fiscaal voordeliger dan via een vennootschap (KI × 1,40 << werkelijke huur × VenB-tarief). Voor commercieel vastgoed met hoge huur: vennootschapsstructuur kan voordelig zijn want werkelijke kosten (afschrijvingen, financieringskosten, onderhoud) volledig aftrekbaar. Meerwaarde-belastingaspecten (gespreide taxatie, fiscale gevolgen verkoop) moeten in de afweging worden meegenomen. Geen one-size-fits-all advies — case-by-case berekening nodig.
+Voor zuivere woningverhuur aan particulieren: eigendom in PB houden is bijna altijd fiscaal voordeliger dan via een vennootschap (KI × 1,40 << werkelijke huur × VenB-tarief). Voor commercieel vastgoed met hoge huur: vennootschapsstructuur kan voordelig zijn want werkelijke kosten (afschrijvingen, financieringskosten, onderhoud) volledig aftrekbaar. Meerwaarde-belastingaspecten (gespreide taxatie, fiscale gevolgen verkoop) moeten in de afweging worden meegenomen. Geen one-size-fits-all advies — case-by-case berekening nodig.
 
-<small>📚 WIB92 — art. 7 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 7 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

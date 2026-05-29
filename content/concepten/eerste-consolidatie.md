@@ -17,27 +17,19 @@ tags:
 gegenereerd_uit: "data/concepten/records/eerste-consolidatie.json"
 ---
 
-# Eerste consolidatie
-
-_Verrichting_
-
-📅 Gebeurtenis · Anchors: `1.4.I.G` · `1.4.II.D` · Wave: `skeleton-cross-cutting-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: initial consolidation · first consolidation — **Vertalingen**: fr: première consolidation · en: initial consolidation
+_Verrichting_ · ook: initial consolidation · first consolidation
 
 ## Definitie
 
-📖 Eerste consolidatie is de boekhoudkundige verrichting waarmee een verworven (of voor het eerst gecontroleerde) dochter in de geconsolideerde jaarrekening wordt opgenomen. Op de overnamedatum worden de identificeerbare activa en verplichtingen van de dochter geherwaardeerd tegen reële waarde, het aandeel van de moeder daarin wordt vergeleken met de koopprijs, en het verschil komt op de geconsolideerde balans als goodwill (positief) of badwill (negatief).
+Eerste consolidatie is de boekhoudkundige verrichting waarmee een verworven (of voor het eerst gecontroleerde) dochter in de geconsolideerde jaarrekening wordt opgenomen. Op de overnamedatum worden de identificeerbare activa en verplichtingen van de dochter geherwaardeerd tegen reële waarde, het aandeel van de moeder daarin wordt vergeleken met de koopprijs, en het verschil komt op de geconsolideerde balans als goodwill (positief) of badwill (negatief).
 
-<small>📚 KB-WVV — art. 3:130, eerste lid — _wettekst_ · IFRS 3 — Bedrijfscombinaties — §4-7 — _norm_ · CBN-advies 2013/3 — Inleiding — _cbn_</small>
+<small>📖 KB-WVV — art. 3:130, eerste lid — _wettekst_ · IFRS 3 — Bedrijfscombinaties — §4-7 — _norm_ · CBN-advies 2013/3 — Inleiding — _cbn_</small>
 
 ## Substantie
 
-🔗 Eerste consolidatie is geen routine-jaarafsluitings-verrichting maar een eenmalige 'foto' op de overnamedatum: alle cijfers van de dochter worden hertekend alsof de groep haar net gekocht heeft tegen marktprijs. Pas vanaf dat moment beweegt de boekhouding van de dochter mee met de groep. De fair-value-stap is cruciaal: zonder herwaardering zou de goodwill kunstmatig groot zijn (omdat boekwaarden vaak onder fair value liggen, vooral voor afgeschreven activa).
+Eerste consolidatie is geen routine-jaarafsluitings-verrichting maar een eenmalige 'foto' op de overnamedatum: alle cijfers van de dochter worden hertekend alsof de groep haar net gekocht heeft tegen marktprijs. Pas vanaf dat moment beweegt de boekhouding van de dochter mee met de groep. De fair-value-stap is cruciaal: zonder herwaardering zou de goodwill kunstmatig groot zijn (omdat boekwaarden vaak onder fair value liggen, vooral voor afgeschreven activa).
 
-<small>📚 IFRS 3 — §10-17 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
+<small>🔗 IFRS 3 — §10-17 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -51,103 +43,93 @@ _Verrichting_
 
 ## Sub-concepten
 
-### 📦 Procedure eerste consolidatie — 5 stappen  
-_`procedure` (subconcept)_
+### 📦 Procedure eerste consolidatie — 5 stappen
 
 #### Definitie
 
-🔗 Standaardprocedure voor één nieuwe dochter in de kring.
+Standaardprocedure voor één nieuwe dochter in de kring.
 
-<small>📚 KB-WVV — art. 3:130 — _wettekst_ · IFRS 3 — §4-17 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
+<small>🔗 KB-WVV — art. 3:130 — _wettekst_ · IFRS 3 — §4-17 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
 
-#### 👣 Stap 1 — overnamedatum vaststellen  
-_`stap`_
+#### 👣 Stap 1 — overnamedatum vaststellen
 
-📖 Bepaal de exacte datum waarop control overgaat. Dit is vaak de closing-datum, niet de signing-datum. Belangrijk voor de cut-off van resultaten: enkel resultaat ná overnamedatum hoort tot de groep.
+Bepaal de exacte datum waarop control overgaat. Dit is vaak de closing-datum, niet de signing-datum. Belangrijk voor de cut-off van resultaten: enkel resultaat ná overnamedatum hoort tot de groep.
 
-<small>📚 IFRS 3 — §8-9 — _norm_</small>
+<small>📖 IFRS 3 — §8-9 — _norm_</small>
 
-#### 👣 Stap 2 — koopprijs (consideration transferred)  
-_`stap`_
+#### 👣 Stap 2 — koopprijs (consideration transferred)
 
-📖 Bepaal de totale tegenprestatie: cash + uitgegeven aandelen (fair value) + overgenomen schulden + contingent consideration (fair value). Transactiekosten worden onder IFRS NIET in de koopprijs opgenomen — ze gaan rechtstreeks in resultaat (IFRS 3 §53).
+Bepaal de totale tegenprestatie: cash + uitgegeven aandelen (fair value) + overgenomen schulden + contingent consideration (fair value). Transactiekosten worden onder IFRS NIET in de koopprijs opgenomen — ze gaan rechtstreeks in resultaat (IFRS 3 §53).
 
-<small>📚 IFRS 3 — §37-53 — _norm_</small>
+<small>📖 IFRS 3 — §37-53 — _norm_</small>
 
-#### 👣 Stap 3 — fair value identificeerbare activa en verplichtingen  
-_`stap`_
+#### 👣 Stap 3 — fair value identificeerbare activa en verplichtingen
 
-📖 Herwaardeer elke identificeerbare actief en verplichting van de dochter naar fair value op overnamedatum. Identificeer immateriële activa die nog niet op de balans staan (klantenrelaties, merken, technologie). Voorwaardelijke verplichtingen ook opnemen indien betrouwbaar meetbaar. Externe waarderingsexperten (Purchase Price Allocation-experts) worden vaak ingeschakeld voor materiële overnames.
+Herwaardeer elke identificeerbare actief en verplichting van de dochter naar fair value op overnamedatum. Identificeer immateriële activa die nog niet op de balans staan (klantenrelaties, merken, technologie). Voorwaardelijke verplichtingen ook opnemen indien betrouwbaar meetbaar. Externe waarderingsexperten (Purchase Price Allocation-experts) worden vaak ingeschakeld voor materiële overnames.
 
-<small>📚 IFRS 3 — §10-17 — _norm_ · KB-WVV — art. 3:130, eerste lid — _wettekst_</small>
+<small>📖 IFRS 3 — §10-17 — _norm_ · KB-WVV — art. 3:130, eerste lid — _wettekst_</small>
 
-#### 👣 Stap 4 — consolidatieverschil bepalen  
-_`stap`_
+#### 👣 Stap 4 — consolidatieverschil bepalen
 
-📖 Verschil = koopprijs − aandeel moeder in fair-value-NA dochter. Positief verschil = goodwill (op activa); negatief = badwill (na hertoetsing in resultaat). Bij minderheidsbelangen kiest de groep onder IFRS tussen 'partial goodwill' (alleen aandeel moeder in goodwill) en 'full goodwill' (volledige goodwill incl. aandeel minderheid).
+Verschil = koopprijs − aandeel moeder in fair-value-NA dochter. Positief verschil = goodwill (op activa); negatief = badwill (na hertoetsing in resultaat). Bij minderheidsbelangen kiest de groep onder IFRS tussen 'partial goodwill' (alleen aandeel moeder in goodwill) en 'full goodwill' (volledige goodwill incl. aandeel minderheid).
 
-<small>📚 IFRS 3 — §19, §32-36 — _norm_ · KB-WVV — art. 3:130-3:131 — _wettekst_</small>
+<small>📖 IFRS 3 — §19, §32-36 — _norm_ · KB-WVV — art. 3:130-3:131 — _wettekst_</small>
 
-#### 👣 Stap 5 — measurement period (IFRS) tot 12 maanden  
-_`stap`_
+#### 👣 Stap 5 — measurement period (IFRS) tot 12 maanden
 
-📖 Onder IFRS 3 §45-50 heeft de overnemer maximaal 12 maanden ná overnamedatum om de fair-value-metingen te finaliseren ('measurement period'). Tijdens dat venster mogen aanpassingen retroactief naar overnamedatum geboekt worden. Na 12 maanden zijn correcties enkel nog mogelijk als foutcorrecties (IAS 8).
+Onder IFRS 3 §45-50 heeft de overnemer maximaal 12 maanden ná overnamedatum om de fair-value-metingen te finaliseren ('measurement period'). Tijdens dat venster mogen aanpassingen retroactief naar overnamedatum geboekt worden. Na 12 maanden zijn correcties enkel nog mogelijk als foutcorrecties (IAS 8).
 
-<small>📚 IFRS 3 — §45-50 — _norm_</small>
+<small>📖 IFRS 3 — §45-50 — _norm_</small>
 
-### 📦 Step acquisition — stapsgewijze verwerving  
-_`verrichting` (subconcept)_
+### 📦 Step acquisition — stapsgewijze verwerving
 
 #### Definitie
 
-📖 Bij een step acquisition (CBN-advies 2013/3) verwerft de moeder controle in meerdere stappen. Onder IFRS 3 §41-42 wordt de eerder aangehouden deelneming op overnamedatum geherwaardeerd naar fair value; het verschil met de boekwaarde gaat in resultaat. CBN volgt een andere benadering: elke stap apart verwerken met eigen consolidatieverschil-berekening.
+Bij een step acquisition (CBN-advies 2013/3) verwerft de moeder controle in meerdere stappen. Onder IFRS 3 §41-42 wordt de eerder aangehouden deelneming op overnamedatum geherwaardeerd naar fair value; het verschil met de boekwaarde gaat in resultaat. CBN volgt een andere benadering: elke stap apart verwerken met eigen consolidatieverschil-berekening.
 
-<small>📚 CBN-advies 2013/3 — Praktische uitwerking — _cbn_ · IFRS 3 — §41-42 — _norm_</small>
+<small>📖 CBN-advies 2013/3 — Praktische uitwerking — _cbn_ · IFRS 3 — §41-42 — _norm_</small>
 
 ## Voorbeelden
 
-### 💡 Aurelia verwerft 80 % van Vermeer Verpakking BV 🔗
-
-_Overnamedatum 1 oktober 2025. Aurelia betaalt 4.000.000 EUR cash. Boekwaarde eigen vermogen Vermeer: 3.500.000 EUR. Fair-value-herwaardering: gebouw +400.000 EUR (boekwaarde lager dan markt), niet-geboekte klantenrelaties +200.000 EUR, latente belastingschuld op herwaarderingen +150.000 EUR._
-
-**Berekening:**
-- Stap 1 — overnamedatum: 1 oktober 2025 (closing).
-- Stap 2 — koopprijs: 4.000.000 EUR cash.
-- Stap 3 — fair-value-NA Vermeer: 3.500.000 (boekwaarde) + 400.000 (gebouw) + 200.000 (klantenrelaties) − 150.000 (latente belasting) = 3.950.000 EUR.
-- Stap 4a — aandeel moeder in fair-value-NA: 80 % × 3.950.000 = 3.160.000 EUR.
-- Stap 4b — consolidatieverschil: 4.000.000 − 3.160.000 = 840.000 EUR positief → goodwill.
-- Stap 4c — minderheidsbelangen (partial goodwill, B-GAAP-aanpak): 20 % × 3.950.000 = 790.000 EUR op passief 'belangen van derden'.
-- Stap 5 — resultaat 1 januari–30 september 2025 van Vermeer: NIET in geconsolideerd resultaat (vóór overnamedatum). Resultaat 1 oktober–31 december: WEL in geconsolideerd resultaat, met 20 % toegerekend aan minderheidsbelangen.
-
-→ **Resultaat**: Geconsolideerde balans 31 december 2025 toont: gebouw geherwaardeerd, klantenrelaties als immaterieel actief 200.000 EUR, goodwill 840.000 EUR, latente belastingschuld 150.000 EUR, belangen van derden 790.000 EUR.
-
-<small>📚 KB-WVV — art. 3:130 — _wettekst_ · IFRS 3 — §10-19, §32 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
+> [!example]- Aurelia verwerft 80 % van Vermeer Verpakking BV
+> _Overnamedatum 1 oktober 2025. Aurelia betaalt 4.000.000 EUR cash. Boekwaarde eigen vermogen Vermeer: 3.500.000 EUR. Fair-value-herwaardering: gebouw +400.000 EUR (boekwaarde lager dan markt), niet-geboekte klantenrelaties +200.000 EUR, latente belastingschuld op herwaarderingen +150.000 EUR._
+>
+> **Berekening:**
+>
+> - Stap 1 — overnamedatum: 1 oktober 2025 (closing).
+> - Stap 2 — koopprijs: 4.000.000 EUR cash.
+> - Stap 3 — fair-value-NA Vermeer: 3.500.000 (boekwaarde) + 400.000 (gebouw) + 200.000 (klantenrelaties) − 150.000 (latente belasting) = 3.950.000 EUR.
+> - Stap 4a — aandeel moeder in fair-value-NA: 80 % × 3.950.000 = 3.160.000 EUR.
+> - Stap 4b — consolidatieverschil: 4.000.000 − 3.160.000 = 840.000 EUR positief → goodwill.
+> - Stap 4c — minderheidsbelangen (partial goodwill, B-GAAP-aanpak): 20 % × 3.950.000 = 790.000 EUR op passief 'belangen van derden'.
+> - Stap 5 — resultaat 1 januari–30 september 2025 van Vermeer: NIET in geconsolideerd resultaat (vóór overnamedatum). Resultaat 1 oktober–31 december: WEL in geconsolideerd resultaat, met 20 % toegerekend aan minderheidsbelangen.
+>
+> → **Resultaat**: Geconsolideerde balans 31 december 2025 toont: gebouw geherwaardeerd, klantenrelaties als immaterieel actief 200.000 EUR, goodwill 840.000 EUR, latente belastingschuld 150.000 EUR, belangen van derden 790.000 EUR.
+>
+> <small>🔗 KB-WVV — art. 3:130 — _wettekst_ · IFRS 3 — §10-19, §32 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ Volledig boekjaar van dochter consolideren
+> [!warning]- Volledig boekjaar van dochter consolideren
+> **Verkeerde assumptie**: Wanneer Aurelia op 1 oktober 80 % van Vermeer koopt, neemt zij het volledige boekjaar (jan-dec) van Vermeer in de geconsolideerde resultatenrekening op.
+>
+> **Kernpunt**: Enkel het resultaat ná overnamedatum hoort bij de groep. Resultaat 1 januari–30 september blijft bij de vroegere aandeelhouders en wordt niet geconsolideerd. Dit vereist een 'cut-off'-balans op overnamedatum (KB-WVV art. 3:130 + IFRS 3 §8-9).
+>
+> <small>📖 IFRS 3 — §8-9 — _norm_ · KB-WVV — art. 3:130 — _wettekst_</small>
 
-**Verkeerde assumptie**: Wanneer Aurelia op 1 oktober 80 % van Vermeer koopt, neemt zij het volledige boekjaar (jan-dec) van Vermeer in de geconsolideerde resultatenrekening op.
+> [!warning]- Fair value-stap overslaan
+> **Verkeerde assumptie**: Boekwaarde eigen vermogen dochter gebruiken om consolidatieverschil te berekenen.
+>
+> **Kernpunt**: Eerst ALLE activa en passiva van de dochter herwaarderen naar fair value op overnamedatum. Boekwaarde-vergelijking leidt tot kunstmatig opgeblazen goodwill (omdat boekwaarden vaak onder fair value liggen). Bijgevolg ook latente belastingen op herwaarderingen erkennen.
+>
+> <small>📖 IFRS 3 — §10-17, §24-25 — _norm_ · KB-WVV — art. 3:130, eerste lid — _wettekst_</small>
 
-**Kernpunt**: Enkel het resultaat ná overnamedatum hoort bij de groep. Resultaat 1 januari–30 september blijft bij de vroegere aandeelhouders en wordt niet geconsolideerd. Dit vereist een 'cut-off'-balans op overnamedatum (KB-WVV art. 3:130 + IFRS 3 §8-9).
-
-<small>📚 IFRS 3 — §8-9 — _norm_ · KB-WVV — art. 3:130 — _wettekst_</small>
-
-### ⚠️ Fair value-stap overslaan
-
-**Verkeerde assumptie**: Boekwaarde eigen vermogen dochter gebruiken om consolidatieverschil te berekenen.
-
-**Kernpunt**: Eerst ALLE activa en passiva van de dochter herwaarderen naar fair value op overnamedatum. Boekwaarde-vergelijking leidt tot kunstmatig opgeblazen goodwill (omdat boekwaarden vaak onder fair value liggen). Bijgevolg ook latente belastingen op herwaarderingen erkennen.
-
-<small>📚 IFRS 3 — §10-17, §24-25 — _norm_ · KB-WVV — art. 3:130, eerste lid — _wettekst_</small>
-
-### ⚠️ Transactiekosten in koopprijs opnemen onder IFRS
-
-**Verkeerde assumptie**: Adviseurs-fees, due-diligence-kosten en bankcommissies worden aan de koopprijs toegevoegd en dus aan de goodwill toegerekend.
-
-**Kernpunt**: IFRS 3 §53 zegt expliciet dat transactiekosten direct in winst-en-verliesrekening gaan in het jaar waarin ze opgelopen worden. Goodwill blijft beperkt tot het echte 'overgaande' verschil. Onder B-GAAP is de behandeling minder uniform; CBN-advies aanvaardt activering bij oprichtingskosten / immateriële activa, maar transactiekosten van overnames vallen typisch in resultaat.
-
-<small>📚 IFRS 3 — §53 — _norm_</small>
+> [!warning]- Transactiekosten in koopprijs opnemen onder IFRS
+> **Verkeerde assumptie**: Adviseurs-fees, due-diligence-kosten en bankcommissies worden aan de koopprijs toegevoegd en dus aan de goodwill toegerekend.
+>
+> **Kernpunt**: IFRS 3 §53 zegt expliciet dat transactiekosten direct in winst-en-verliesrekening gaan in het jaar waarin ze opgelopen worden. Goodwill blijft beperkt tot het echte 'overgaande' verschil. Onder B-GAAP is de behandeling minder uniform; CBN-advies aanvaardt activering bij oprichtingskosten / immateriële activa, maar transactiekosten van overnames vallen typisch in resultaat.
+>
+> <small>📖 IFRS 3 — §53 — _norm_</small>
 
 ## Accountant-perspectieven
 
@@ -157,21 +139,19 @@ _De accountant die de eerste consolidatie technisch uitvoert en de PPA (Purchase
 
 #### 📒 Boekhouder
 
-##### 👣 Purchase Price Allocation uitvoeren  
-_`stap`_
+##### 👣 Purchase Price Allocation uitvoeren
 
-🔗 (1) Snelle inventarisatie van alle activa/passiva op overnamedatum (cut-off-balans van de dochter); (2) extern waarderingsexpert inschakelen voor onroerend goed, immateriële activa, voorraden van bijzondere waarde; (3) latente belastingen op herwaarderingen (vaak vergeten); (4) consolidatieverschil berekenen en boeken; (5) measurement period openen — markeer in dossier wanneer 12 maanden verstrijken voor afsluitende boeking.
+(1) Snelle inventarisatie van alle activa/passiva op overnamedatum (cut-off-balans van de dochter); (2) extern waarderingsexpert inschakelen voor onroerend goed, immateriële activa, voorraden van bijzondere waarde; (3) latente belastingen op herwaarderingen (vaak vergeten); (4) consolidatieverschil berekenen en boeken; (5) measurement period openen — markeer in dossier wanneer 12 maanden verstrijken voor afsluitende boeking.
 
-<small>📚 IFRS 3 — §B41-B49, §24-25 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
+<small>🔗 IFRS 3 — §B41-B49, §24-25 — _norm_ · claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
 
 #### 🧭 Adviseur
 
-##### 🧭 Advies bij deal-structurering  
-_`vuistregel`_
+##### 🧭 Advies bij deal-structurering
 
-🤖 Voor de signing: simulatie van post-acquisition geconsolideerde cijfers maken. Hoeveel goodwill ontstaat? Welke impact op groepsratio's (solvabiliteit, EBITDA-marge)? Welke latente belastingen worden geboekt? Bij hoge goodwill onder IFRS: management bewust maken van toekomstige impairment-risico en bijhorende communicatie-implicaties.
+Voor de signing: simulatie van post-acquisition geconsolideerde cijfers maken. Hoeveel goodwill ontstaat? Welke impact op groepsratio's (solvabiliteit, EBITDA-marge)? Welke latente belastingen worden geboekt? Bij hoge goodwill onder IFRS: management bewust maken van toekomstige impairment-risico en bijhorende communicatie-implicaties.
 
-<small>📚 claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-sonnet-4-5 — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

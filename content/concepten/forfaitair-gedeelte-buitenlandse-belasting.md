@@ -17,33 +17,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/forfaitair-gedeelte-buitenlandse-belasting.json"
 ---
 
-# Forfaitair gedeelte van buitenlandse belasting (FBB)
-
-_Regime_
-
-📋 Regeling · Anchors: `2.8.I` · `2.8.VII` · Wave: `skeleton-btw-internationaal-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Afk.**: FBB — **Synoniemen**: quotité forfaitaire d'impôt étranger · QFIE · buitenlandse-belasting-verrekening — **Vertalingen**: fr: quotité forfaitaire d'impôt étranger (QFIE)
+_Regime_ · afk: **FBB** · ook: quotité forfaitaire d'impôt étranger · QFIE · buitenlandse-belasting-verrekening
 
 ## Definitie
 
-📖 Het Forfaitair Gedeelte van Buitenlandse Belasting (FBB) is de Belgische verrekentechniek om dubbele belasting te vermijden op buitenlandse roerende inkomsten (interesten, royalty's — niet meer voor dividenden sinds AJ 1990). Geregeld in art. 285-289 WIB92. Op het netto-buitenlandse roerend inkomen wordt forfaitair 15/85 (= 17,65 %) als fictieve buitenlandse belasting bijgeteld; dat bedrag wordt vervolgens verrekend met de Belgische vennootschapsbelasting. Een eventueel overschot is in principe niet terugbetaalbaar en gaat verloren.
+Het Forfaitair Gedeelte van Buitenlandse Belasting (FBB) is de Belgische verrekentechniek om dubbele belasting te vermijden op buitenlandse roerende inkomsten (interesten, royalty's — niet meer voor dividenden sinds AJ 1990). Geregeld in art. 285-289 WIB92. Op het netto-buitenlandse roerend inkomen wordt forfaitair 15/85 (= 17,65 %) als fictieve buitenlandse belasting bijgeteld; dat bedrag wordt vervolgens verrekend met de Belgische vennootschapsbelasting. Een eventueel overschot is in principe niet terugbetaalbaar en gaat verloren.
 
-<small>📚 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 286 — _wettekst_ · WIB92 — art. 287 — _wettekst_</small>
+<small>📖 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 286 — _wettekst_ · WIB92 — art. 287 — _wettekst_</small>
 
 ## Substantie
 
-🔗 FBB compenseert de fiscale-soevereiniteits-overlap: de bronstaat heft (gedeeltelijk) op het inkomen via een bronheffing, en België belast het zelf integraal omdat de ontvanger Belgisch rijksinwoner-vennootschap is. Door FBB wordt de fiscale lekkage van die dubbele heffing forfaitair opgevangen. Het 15/85-tarief weerspiegelt een veronderstelde gemiddelde buitenlandse bronheffing — niet de werkelijk geheven belasting. Resultaat: een Belgische vennootschap die buitenlandse interest ontvangt, betaalt netto ongeveer de Belgische VenB minus 17,65 %-bijtelling op het netto-bedrag (mits voorwaarden).
+FBB compenseert de fiscale-soevereiniteits-overlap: de bronstaat heft (gedeeltelijk) op het inkomen via een bronheffing, en België belast het zelf integraal omdat de ontvanger Belgisch rijksinwoner-vennootschap is. Door FBB wordt de fiscale lekkage van die dubbele heffing forfaitair opgevangen. Het 15/85-tarief weerspiegelt een veronderstelde gemiddelde buitenlandse bronheffing — niet de werkelijk geheven belasting. Resultaat: een Belgische vennootschap die buitenlandse interest ontvangt, betaalt netto ongeveer de Belgische VenB minus 17,65 %-bijtelling op het netto-bedrag (mits voorwaarden).
 
-<small>📚 WIB92 — art. 286 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 286 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🔗 Het forfait-karakter (15/85 in plaats van werkelijke buitenlandse belasting) was historisch een vereenvoudigings-mechanisme — geen bewijslast over werkelijk geheven bronheffingen, geen onderhandelingen per land. Sinds de jaren 90 is FBB beperkt tot interesten en royalty's: voor dividenden gebruikt België ofwel de DBI-aftrek (art. 202 WIB92, vrijstellingsmethode) ofwel — bij portfolio-dividenden — geen specifieke verrekening. De rationale is dus tweeledig: (1) bestaande dubbele belasting milderen; (2) administratieve eenvoud door forfait-bedrag in plaats van werkelijke verrekening.
+Het forfait-karakter (15/85 in plaats van werkelijke buitenlandse belasting) was historisch een vereenvoudigings-mechanisme — geen bewijslast over werkelijk geheven bronheffingen, geen onderhandelingen per land. Sinds de jaren 90 is FBB beperkt tot interesten en royalty's: voor dividenden gebruikt België ofwel de DBI-aftrek (art. 202 WIB92, vrijstellingsmethode) ofwel — bij portfolio-dividenden — geen specifieke verrekening. De rationale is dus tweeledig: (1) bestaande dubbele belasting milderen; (2) administratieve eenvoud door forfait-bedrag in plaats van werkelijke verrekening.
 
-<small>📚 WIB92 — art. 285 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 285 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -62,76 +54,69 @@ Beperkt tot buitenlandse interesten en royalty's. Dividenden hebben hun eigen re
 
 ## Bouwstenen
 
-### 🧮 Formule FBB (15/85)  
-_`formule`_
+### 🧮 Formule FBB (15/85)
 
-📖 Standaardformule (art. 286 WIB92): FBB = 15/85 × netto-buitenlands roerend inkomen. Het netto-bedrag is het bedrag na buitenlandse bronheffing maar voor Belgische belasting. Voorbeeld: netto interest 8.500 EUR — FBB = 8.500 × 15/85 = 1.500 EUR. De FBB wordt zowel bij het belastbaar inkomen geteld (bruto = 8.500 + 1.500 = 10.000 EUR) als verrekend met de eindbelasting. Resultaat: belasting op 10.000, minus verrekening 1.500 EUR.
+Standaardformule (art. 286 WIB92): FBB = 15/85 × netto-buitenlands roerend inkomen. Het netto-bedrag is het bedrag na buitenlandse bronheffing maar voor Belgische belasting. Voorbeeld: netto interest 8.500 EUR — FBB = 8.500 × 15/85 = 1.500 EUR. De FBB wordt zowel bij het belastbaar inkomen geteld (bruto = 8.500 + 1.500 = 10.000 EUR) als verrekend met de eindbelasting. Resultaat: belasting op 10.000, minus verrekening 1.500 EUR.
 
-<small>📚 WIB92 — art. 286 — _wettekst_</small>
+<small>📖 WIB92 — art. 286 — _wettekst_</small>
 
-### 📜 Verrekening zonder terugbetaling (overschot verloren)  
-_`regel`_
+### 📜 Verrekening zonder terugbetaling (overschot verloren)
 
-📖 De FBB wordt verrekend met de Belgische vennootschapsbelasting (art. 286 WIB92). Wanneer de FBB hoger is dan de eindbelasting (bv. bij verlieslijdende boekjaren), is het overschot niet-terugbetaalbaar en gaat het verloren — het kan in principe niet worden overgedragen naar volgende boekjaren. Dit verschilt van bijvoorbeeld verliesoverdracht of de DBI-aftrek, die wél overdraagbaar is.
+De FBB wordt verrekend met de Belgische vennootschapsbelasting (art. 286 WIB92). Wanneer de FBB hoger is dan de eindbelasting (bv. bij verlieslijdende boekjaren), is het overschot niet-terugbetaalbaar en gaat het verloren — het kan in principe niet worden overgedragen naar volgende boekjaren. Dit verschilt van bijvoorbeeld verliesoverdracht of de DBI-aftrek, die wél overdraagbaar is.
 
-<small>📚 WIB92 — art. 286 — _wettekst_ · WIB92 — art. 292 — _wettekst_</small>
+<small>📖 WIB92 — art. 286 — _wettekst_ · WIB92 — art. 292 — _wettekst_</small>
 
-### 📜 Voorwaarde: feitelijke buitenlandse belasting (art. 285)  
-_`regel`_
+### 📜 Voorwaarde: feitelijke buitenlandse belasting (art. 285)
 
-📖 FBB veronderstelt dat het inkomen in het buitenland aan een belasting van gelijkaardige aard als de Belgische werd onderworpen. Een nominale heffing van 0 % volstaat niet. Praktisch: bij interest uit een vrijgesteld regime in een laag-tarief-jurisdictie kan FBB worden geweigerd. Documentatie van buitenlandse belastbaarheid wordt aanbevolen.
+FBB veronderstelt dat het inkomen in het buitenland aan een belasting van gelijkaardige aard als de Belgische werd onderworpen. Een nominale heffing van 0 % volstaat niet. Praktisch: bij interest uit een vrijgesteld regime in een laag-tarief-jurisdictie kan FBB worden geweigerd. Documentatie van buitenlandse belastbaarheid wordt aanbevolen.
 
-<small>📚 WIB92 — art. 285 — _wettekst_</small>
+<small>📖 WIB92 — art. 285 — _wettekst_</small>
 
-### 📜 Bezitsduur-vereisten (art. 289)  
-_`regel`_
+### 📜 Bezitsduur-vereisten (art. 289)
 
-📖 Anti-misbruik-bepaling (art. 289 WIB92): de FBB wordt geweigerd indien de schuldvordering of het roerend goed niet gedurende een volle ononderbroken periode in volle eigendom werd gehouden. Voorkomt 'dividend stripping' analoog: kortstondige aankoop van een schuldvordering vlak voor coupon-uitkering om FBB te verkrijgen.
+Anti-misbruik-bepaling (art. 289 WIB92): de FBB wordt geweigerd indien de schuldvordering of het roerend goed niet gedurende een volle ononderbroken periode in volle eigendom werd gehouden. Voorkomt 'dividend stripping' analoog: kortstondige aankoop van een schuldvordering vlak voor coupon-uitkering om FBB te verkrijgen.
 
-<small>📚 WIB92 — art. 289 — _wettekst_</small>
+<small>📖 WIB92 — art. 289 — _wettekst_</small>
 
-### ⚙️ FBB versus DBI-aftrek (afbakening)  
-_`mechanisme`_
+### ⚙️ FBB versus DBI-aftrek (afbakening)
 
-📖 Twee technieken voor buitenlandse vennootschap-inkomsten: FBB (art. 285-289, voor interest en royalty's) en DBI-aftrek (art. 202-205 WIB92, voor dividenden). FBB werkt via opwaardering bruto + verrekening met eindbelasting; DBI werkt via aftrek van 100 % van het netto-dividend van de belastbare grondslag. DBI vereist participatie ≥ 10 % of ≥ 2,5 mio EUR + 1 jaar bezitstermijn — strenger dan FBB. Voor een minderheidsbelegging in buitenlandse interestpapier: FBB. Voor een deelneming met dividenden: DBI.
+Twee technieken voor buitenlandse vennootschap-inkomsten: FBB (art. 285-289, voor interest en royalty's) en DBI-aftrek (art. 202-205 WIB92, voor dividenden). FBB werkt via opwaardering bruto + verrekening met eindbelasting; DBI werkt via aftrek van 100 % van het netto-dividend van de belastbare grondslag. DBI vereist participatie ≥ 10 % of ≥ 2,5 mio EUR + 1 jaar bezitstermijn — strenger dan FBB. Voor een minderheidsbelegging in buitenlandse interestpapier: FBB. Voor een deelneming met dividenden: DBI.
 
-<small>📚 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 202 — _wettekst_</small>
+<small>📖 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 202 — _wettekst_</small>
 
 ## Voorbeelden
 
-### 💡 Belgische BV ontvangt interest op Nederlandse obligatielening 🔗
-
-_Aurelia Holding NV ontvangt in N: bruto interest 10.000 EUR uit Nederlandse obligaties; NL bronheffing 15 % = 1.500 EUR; netto ontvangen 8.500 EUR._
-
-**Berekening:**
-- Netto-buitenlands inkomen: 8.500 EUR.
-- FBB = 15/85 × 8.500 = 1.500 EUR.
-- Bruto belastbaar = netto + FBB = 8.500 + 1.500 = 10.000 EUR (= het oorspronkelijke bruto).
-- VenB op 10.000 EUR aan 25 % = 2.500 EUR.
-- Verrekening FBB = 1.500 EUR.
-- Netto BE-belasting = 2.500 − 1.500 = 1.000 EUR.
-
-→ **Resultaat**: Totale belastingdruk: 1.500 (NL bronheffing) + 1.000 (BE netto) = 2.500 EUR op 10.000 EUR bruto = 25 % — dezelfde druk als bij een 100 % Belgisch inkomen.
-
-<small>📚 WIB92 — art. 286 — _wettekst_</small>
+> [!example]- Belgische BV ontvangt interest op Nederlandse obligatielening
+> _Aurelia Holding NV ontvangt in N: bruto interest 10.000 EUR uit Nederlandse obligaties; NL bronheffing 15 % = 1.500 EUR; netto ontvangen 8.500 EUR._
+>
+> **Berekening:**
+>
+> - Netto-buitenlands inkomen: 8.500 EUR.
+> - FBB = 15/85 × 8.500 = 1.500 EUR.
+> - Bruto belastbaar = netto + FBB = 8.500 + 1.500 = 10.000 EUR (= het oorspronkelijke bruto).
+> - VenB op 10.000 EUR aan 25 % = 2.500 EUR.
+> - Verrekening FBB = 1.500 EUR.
+> - Netto BE-belasting = 2.500 − 1.500 = 1.000 EUR.
+>
+> → **Resultaat**: Totale belastingdruk: 1.500 (NL bronheffing) + 1.000 (BE netto) = 2.500 EUR op 10.000 EUR bruto = 25 % — dezelfde druk als bij een 100 % Belgisch inkomen.
+>
+> <small>🔗 WIB92 — art. 286 — _wettekst_</small>
 
 ## Valkuilen
 
-### ⚠️ FBB toepassen op dividenden
+> [!warning]- FBB toepassen op dividenden
+> **Verkeerde assumptie**: Studenten verrekenen 15/85 op buitenlandse dividenden ontvangen door een BE-vennootschap.
+>
+> **Kernpunt**: Sinds AJ 1990 geen FBB op dividenden — dividenden in vennootschapsbelasting gaan via DBI-aftrek (art. 202 WIB92). De 15/85-FBB-formule geldt uitsluitend voor interest en royalty's.
+>
+> <small>📖 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 202 — _wettekst_</small>
 
-**Verkeerde assumptie**: Studenten verrekenen 15/85 op buitenlandse dividenden ontvangen door een BE-vennootschap.
-
-**Kernpunt**: Sinds AJ 1990 geen FBB op dividenden — dividenden in vennootschapsbelasting gaan via DBI-aftrek (art. 202 WIB92). De 15/85-FBB-formule geldt uitsluitend voor interest en royalty's.
-
-<small>📚 WIB92 — art. 285 — _wettekst_ · WIB92 — art. 202 — _wettekst_</small>
-
-### ⚠️ FBB-overschot verwachten terug te krijgen
-
-**Verkeerde assumptie**: FBB die niet kan worden verrekend (door verlies of beperkte VenB) wordt overgedragen of terugbetaald.
-
-**Kernpunt**: FBB-overschot is in principe niet-terugbetaalbaar en gaat verloren als de eindbelasting onvoldoende is. Vooral relevant bij verliesjaren of vennootschappen met massieve aftrekposten. Plan FBB-realisatie in winstjaren.
-
-<small>📚 WIB92 — art. 286 + 292 — _wettekst_</small>
+> [!warning]- FBB-overschot verwachten terug te krijgen
+> **Verkeerde assumptie**: FBB die niet kan worden verrekend (door verlies of beperkte VenB) wordt overgedragen of terugbetaald.
+>
+> **Kernpunt**: FBB-overschot is in principe niet-terugbetaalbaar en gaat verloren als de eindbelasting onvoldoende is. Vooral relevant bij verliesjaren of vennootschappen met massieve aftrekposten. Plan FBB-realisatie in winstjaren.
+>
+> <small>📖 WIB92 — art. 286 + 292 — _wettekst_</small>
 
 ## Verder lezen (scope-out)
 

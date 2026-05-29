@@ -16,33 +16,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/vaa-renteloze-lening.json"
 ---
 
-# VAA — renteloze of goedkope lening
-
-_Regime_
-
-📋 Regeling · Anchors: `2.2.taak.3` · Wave: `skeleton-cross-cutting-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: VAA lening · rekening-courant-VAA · RC-zaakvoerder-VAA — **Vertalingen**: fr: ATN prêt sans intérêt
+_Regime_ · ook: VAA lening · rekening-courant-VAA · RC-zaakvoerder-VAA
 
 ## Definitie
 
-🔗 Wanneer een werkgever of vennootschap aan een werknemer of bedrijfsleider een renteloze of goedkope lening verstrekt — d.w.z. een lening tegen een rente die lager is dan de marktrente — vormt het verschil een belastbaar voordeel van alle aard (VAA). Het VAA wordt forfaitair berekend als: openstaand kapitaal × (referentierentevoet − werkelijk betaalde rente). De referentierentevoeten worden jaarlijks bij KB vastgesteld (KB/WIB92 art. 18 §3) en verschillen naargelang het soort lening: hypothecaire vs niet-hypothecaire lening, vaste vs variabele rente. Het meest courante toepassingsgeval is de negatieve rekening-courant van een zaakvoerder bij zijn vennootschap.
+Wanneer een werkgever of vennootschap aan een werknemer of bedrijfsleider een renteloze of goedkope lening verstrekt — d.w.z. een lening tegen een rente die lager is dan de marktrente — vormt het verschil een belastbaar voordeel van alle aard (VAA). Het VAA wordt forfaitair berekend als: openstaand kapitaal × (referentierentevoet − werkelijk betaalde rente). De referentierentevoeten worden jaarlijks bij KB vastgesteld (KB/WIB92 art. 18 §3) en verschillen naargelang het soort lening: hypothecaire vs niet-hypothecaire lening, vaste vs variabele rente. Het meest courante toepassingsgeval is de negatieve rekening-courant van een zaakvoerder bij zijn vennootschap.
 
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_ · WIB92 — art. 36 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 KB/WIB92 — art. 18 §3 — _kb_ · WIB92 — art. 36 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Substantie
 
-🔗 Praktisch komt dit vooral voor bij bedrijfsleiders die meer uit hun vennootschap halen dan ze als bezoldiging of dividend uitkeren — de schuld 'in rekening-courant' is dan economisch een lening van de vennootschap aan de bedrijfsleider. Zonder bezoldigings-VAA-correctie zou dit een lege fiscale gunst zijn (geld nemen zonder fiscaal effect). Het KB-systeem belast forfaitair een marktrente — meestal hoger dan wat de zaakvoerder werkelijk zou betalen. Het werkelijk overgemaakte bedrag (of het saldo per einde maand × dagen / 365) maal de referentievoet vormt de berekenings­basis. Voor 2026 ligt de niet-hypothecaire vaste-rente-referentievoet rond 6–7 %, hypothecair fors lager (gewoonlijk in de buurt van de marktrente — ongeveer 2–4 % afhankelijk van duurtijd).
+Praktisch komt dit vooral voor bij bedrijfsleiders die meer uit hun vennootschap halen dan ze als bezoldiging of dividend uitkeren — de schuld 'in rekening-courant' is dan economisch een lening van de vennootschap aan de bedrijfsleider. Zonder bezoldigings-VAA-correctie zou dit een lege fiscale gunst zijn (geld nemen zonder fiscaal effect). Het KB-systeem belast forfaitair een marktrente — meestal hoger dan wat de zaakvoerder werkelijk zou betalen. Het werkelijk overgemaakte bedrag (of het saldo per einde maand × dagen / 365) maal de referentievoet vormt de berekenings­basis. Voor 2026 ligt de niet-hypothecaire vaste-rente-referentievoet rond 6–7 %, hypothecair fors lager (gewoonlijk in de buurt van de marktrente — ongeveer 2–4 % afhankelijk van duurtijd).
 
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🤖 De referentievoet vangt de gedachte op dat 'gratis kapitaal lenen' een economisch voordeel is — niet zelfanders dan een bezoldiging in natura. Door een vaste forfaitaire voet te gebruiken vermijdt de wetgever discussies over wat de 'werkelijke' marktrente voor een specifieke lening zou zijn. De ratio is anti-misbruik: zonder het VAA-regime zou een bedrijfsleider zijn winst in feite onbeperkt kunnen omtoveren tot rente-loze schulden, wat ineens een verkapte uitkering wordt.
+De referentievoet vangt de gedachte op dat 'gratis kapitaal lenen' een economisch voordeel is — niet zelfanders dan een bezoldiging in natura. Door een vaste forfaitaire voet te gebruiken vermijdt de wetgever discussies over wat de 'werkelijke' marktrente voor een specifieke lening zou zijn. De ratio is anti-misbruik: zonder het VAA-regime zou een bedrijfsleider zijn winst in feite onbeperkt kunnen omtoveren tot rente-loze schulden, wat ineens een verkapte uitkering wordt.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🤖 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -59,80 +51,77 @@ De referentievoeten worden jaarlijks bij KB vastgesteld op basis van OLO + opsla
 
 ## Bouwstenen
 
-### 📜 Categorieën referentierentevoeten  
-_`regel`_
+### 📜 Categorieën referentierentevoeten
 
-📖 KB/WIB92 art. 18 §3 onderscheidt vier categorieën met elk een eigen referentievoet: (1) Hypothecaire lening met vaste rente; (2) Hypothecaire lening met variabele rente; (3) Niet-hypothecaire lening met vaste looptijd; (4) Niet-hypothecaire lening zonder vaste looptijd (= klassiek rekening-courant zaakvoerder). De niet-hypothecaire voet zonder vaste looptijd is doorgaans de hoogste (cijfer 2026: orde van grootte 6–7 %) — net om RC-zaakvoerder fiscaal te ontmoedigen.
+KB/WIB92 art. 18 §3 onderscheidt vier categorieën met elk een eigen referentievoet: (1) Hypothecaire lening met vaste rente; (2) Hypothecaire lening met variabele rente; (3) Niet-hypothecaire lening met vaste looptijd; (4) Niet-hypothecaire lening zonder vaste looptijd (= klassiek rekening-courant zaakvoerder). De niet-hypothecaire voet zonder vaste looptijd is doorgaans de hoogste (cijfer 2026: orde van grootte 6–7 %) — net om RC-zaakvoerder fiscaal te ontmoedigen.
 
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_</small>
+<small>📖 KB/WIB92 — art. 18 §3 — _kb_</small>
 
-### 🧮 Formule VAA renteloze lening  
-_`formule`_
+### 🧮 Formule VAA renteloze lening
 
-🔗 VAA = gemiddeld openstaand kapitaal over het jaar × (referentievoet − werkelijke aangerekende rente). Het gemiddelde wordt berekend op het rekening-courant-saldo per einde maand (Σ saldi / 12). Bij wisselend kapitaal: lineaire interpolatie of dagberekening. Resultaat: het verschil 'gemist aan rente' wordt als bezoldiging toegevoegd op de fiche 281 van de begunstigde.
+VAA = gemiddeld openstaand kapitaal over het jaar × (referentievoet − werkelijke aangerekende rente). Het gemiddelde wordt berekend op het rekening-courant-saldo per einde maand (Σ saldi / 12). Bij wisselend kapitaal: lineaire interpolatie of dagberekening. Resultaat: het verschil 'gemist aan rente' wordt als bezoldiging toegevoegd op de fiche 281 van de begunstigde.
 
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### ⚙️ Klassieke toepassing — rekening-courant zaakvoerder  
-_`mechanisme`_
+### ⚙️ Klassieke toepassing — rekening-courant zaakvoerder
 
-🔗 Bij een rekening-courant met debet-saldo (zaakvoerder schuldt aan de vennootschap) wordt de niet-hypothecaire voet zonder vaste looptijd toegepast (categorie 4). Boekhoudkundig: rekening 416 'Vorderingen op aandeelhouders' (D, vordering vennootschap op zaakvoerder). Wordt geen rente aangerekend? Volledig VAA op die referentievoet. Wordt deel-rente aangerekend (bv. 2 % terwijl referentievoet 6,5 %)? VAA op het verschil van 4,5 %.
+Bij een rekening-courant met debet-saldo (zaakvoerder schuldt aan de vennootschap) wordt de niet-hypothecaire voet zonder vaste looptijd toegepast (categorie 4). Boekhoudkundig: rekening 416 'Vorderingen op aandeelhouders' (D, vordering vennootschap op zaakvoerder). Wordt geen rente aangerekend? Volledig VAA op die referentievoet. Wordt deel-rente aangerekend (bv. 2 % terwijl referentievoet 6,5 %)? VAA op het verschil van 4,5 %.
 
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### ⚙️ Boekhoudkundige verwerking rente RC  
-_`mechanisme`_
+### ⚙️ Boekhoudkundige verwerking rente RC
 
-🔗 Indien de vennootschap wél rente aanrekent op de RC (best practice om VAA te vermijden of te minimaliseren): vordering rente op 416 (D) tegenover opbrengst 751 'Opbrengsten uit vlottende activa' (C). De zaakvoerder ontvangt fiche 281.50 voor interesten als roerend inkomen — onderworpen aan 30 % roerende voorheffing in zijn PB (categorie roerende inkomsten). VAA op het verschil tussen referentievoet en aangerekende rente komt op fiche 281.20 (bedrijfsleider) bij bezoldigingen — onderworpen aan PB-progressie + 13,07 % RSZ niet (bedrijfsleider zonder dienstverband).
+Indien de vennootschap wél rente aanrekent op de RC (best practice om VAA te vermijden of te minimaliseren): vordering rente op 416 (D) tegenover opbrengst 751 'Opbrengsten uit vlottende activa' (C). De zaakvoerder ontvangt fiche 281.50 voor interesten als roerend inkomen — onderworpen aan 30 % roerende voorheffing in zijn PB (categorie roerende inkomsten). VAA op het verschil tussen referentievoet en aangerekende rente komt op fiche 281.20 (bedrijfsleider) bij bezoldigingen — onderworpen aan PB-progressie + 13,07 % RSZ niet (bedrijfsleider zonder dienstverband).
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Voorbeelden
 
-### 💡 Negatieve rekening-courant zaakvoerder Pieter — 50.000 EUR 🔗
-
-_Pieter heeft als zaakvoerder van Aurelia Holding NV een gemiddeld openstaand rekening-courant-debet-saldo van 50.000 EUR over het hele jaar 2026. De vennootschap rekent géén rente aan. Stel: referentievoet niet-hypothecair zonder vaste looptijd 2026 = 6,5 % (illustratief — exact uit Cijferzakboekje)._
-
-**Berekening:**
-- Stap 1 — Gemiddeld saldo = 50.000 EUR over 12 maanden
-- Stap 2 — Referentievoet 2026: 6,5 % (illustratief, opzoeken in Cijferzakboekje)
-- Stap 3 — VAA = 50.000 × (6,5 % − 0 %) = 3.250 EUR
-- Stap 4 — Op fiche 281.20 van Pieter: bezoldigingen + 3.250 EUR VAA
-- Stap 5 — Belasting bij marginaal 50 % + gemeente: ~1.700 EUR netto PB-impact
-- Stap 6 — Vergelijk: zou Pieter 6,5 % vrijwillig betalen → 3.250 EUR rente aan vennootschap (= aanvullende winst → 25 % VenB → ~813 EUR vennootschapsbelasting) + Pieter geen VAA. Soms gunstiger om wel rente aan te rekenen.
-
-→ **Resultaat**: Door géén rente aan te rekenen bespaart de vennootschap 0 EUR; Pieter draagt ~1.700 EUR PB-meerprijs. Optimalisatie-overweging: matig rente aanrekenen tot ~75 % van referentievoet, of regulariseren via dividend.
-
-**Boeking:**
-
-
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+> [!example]- Negatieve rekening-courant zaakvoerder Pieter — 50.000 EUR
+> _Pieter heeft als zaakvoerder van Aurelia Holding NV een gemiddeld openstaand rekening-courant-debet-saldo van 50.000 EUR over het hele jaar 2026. De vennootschap rekent géén rente aan. Stel: referentievoet niet-hypothecair zonder vaste looptijd 2026 = 6,5 % (illustratief — exact uit Cijferzakboekje)._
+>
+> **Berekening:**
+>
+> - Stap 1 — Gemiddeld saldo = 50.000 EUR over 12 maanden
+> - Stap 2 — Referentievoet 2026: 6,5 % (illustratief, opzoeken in Cijferzakboekje)
+> - Stap 3 — VAA = 50.000 × (6,5 % − 0 %) = 3.250 EUR
+> - Stap 4 — Op fiche 281.20 van Pieter: bezoldigingen + 3.250 EUR VAA
+> - Stap 5 — Belasting bij marginaal 50 % + gemeente: ~1.700 EUR netto PB-impact
+> - Stap 6 — Vergelijk: zou Pieter 6,5 % vrijwillig betalen → 3.250 EUR rente aan vennootschap (= aanvullende winst → 25 % VenB → ~813 EUR vennootschapsbelasting) + Pieter geen VAA. Soms gunstiger om wel rente aan te rekenen.
+>
+> → **Resultaat**: Door géén rente aan te rekenen bespaart de vennootschap 0 EUR; Pieter draagt ~1.700 EUR PB-meerprijs. Optimalisatie-overweging: matig rente aanrekenen tot ~75 % van referentievoet, of regulariseren via dividend.
+>
+> **📒 Boeking VAA Pieter op jaarafsluiting (regularisatie via 416 → 489 + 281)**
+>
+> | Rekening | Debet | Credit |
+> | --- | --- | --- |
+> | 416 — Vorderingen op aandeelhouders/zaakvoerders | 50.000 |  |
+> | 489 — Diverse schulden (rekening-courant Pieter) |  | 50.000 |
+>
+> <small>🔗 KB/WIB92 — art. 18 §3 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ Werkelijke marktrente gebruiken in plaats van KB-referentievoet
+> [!warning]- Werkelijke marktrente gebruiken in plaats van KB-referentievoet
+> **Verkeerde assumptie**: Studenten denken dat het VAA = openstaand kapitaal × (huidige marktrente − werkelijke rente).
+>
+> **Kernpunt**: Het VAA gebruikt steeds de FORFAITAIRE referentievoet uit het jaarlijks KB (KB/WIB92 art. 18 §3), niet een 'echte' marktrente die de zaakvoerder elders zou kunnen krijgen. Cijferzakboekje raadplegen voor het exacte percentage per categorie en per AJ.
+>
+> <small>📖 KB/WIB92 — art. 18 §3 — _kb_</small>
 
-**Verkeerde assumptie**: Studenten denken dat het VAA = openstaand kapitaal × (huidige marktrente − werkelijke rente).
+> [!warning]- VAA op brutosaldo i.p.v. gemiddeld saldo
+> **Verkeerde assumptie**: VAA = eindsaldo RC × referentievoet.
+>
+> **Kernpunt**: Niet op het eindsaldo maar op het GEMIDDELD openstaand kapitaal over het jaar — typisch berekend als gemiddelde van de maand-einde-saldi. Een zaakvoerder die zijn RC vlak voor jaareinde 'aflost' om dan kort daarna weer op te nemen, ontsnapt niet aan VAA: het hele jaar telt mee.
+>
+> <small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Kernpunt**: Het VAA gebruikt steeds de FORFAITAIRE referentievoet uit het jaarlijks KB (KB/WIB92 art. 18 §3), niet een 'echte' marktrente die de zaakvoerder elders zou kunnen krijgen. Cijferzakboekje raadplegen voor het exacte percentage per categorie en per AJ.
-
-<small>📚 KB/WIB92 — art. 18 §3 — _kb_</small>
-
-### ⚠️ VAA op brutosaldo i.p.v. gemiddeld saldo
-
-**Verkeerde assumptie**: VAA = eindsaldo RC × referentievoet.
-
-**Kernpunt**: Niet op het eindsaldo maar op het GEMIDDELD openstaand kapitaal over het jaar — typisch berekend als gemiddelde van de maand-einde-saldi. Een zaakvoerder die zijn RC vlak voor jaareinde 'aflost' om dan kort daarna weer op te nemen, ontsnapt niet aan VAA: het hele jaar telt mee.
-
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ Rente aanrekenen = altijd voordeliger dan VAA betalen
-
-**Verkeerde assumptie**: Het is altijd beter om rente aan te rekenen op de RC dan VAA te dragen — zo loopt het probleem weg.
-
-**Kernpunt**: De afweging is niet eenduidig. Rente aanrekenen genereert een belastbare opbrengst bij de vennootschap (25 % VenB) + 30 % roerende voorheffing bij de zaakvoerder. Dat is een totaal van 47,5 % belasting op die rente. VAA daarentegen wordt belast aan de marginale PB-voet van de zaakvoerder + gemeente, doorgaans 53–55 %. Het verschil kan klein zijn; bij hoge marginale PB-voeten is rente aanrekenen iets gunstiger.
-
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+> [!warning]- Rente aanrekenen = altijd voordeliger dan VAA betalen
+> **Verkeerde assumptie**: Het is altijd beter om rente aan te rekenen op de RC dan VAA te dragen — zo loopt het probleem weg.
+>
+> **Kernpunt**: De afweging is niet eenduidig. Rente aanrekenen genereert een belastbare opbrengst bij de vennootschap (25 % VenB) + 30 % roerende voorheffing bij de zaakvoerder. Dat is een totaal van 47,5 % belasting op die rente. VAA daarentegen wordt belast aan de marginale PB-voet van de zaakvoerder + gemeente, doorgaans 53–55 %. Het verschil kan klein zijn; bij hoge marginale PB-voeten is rente aanrekenen iets gunstiger.
+>
+> <small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Accountant-perspectieven
 
@@ -142,21 +131,19 @@ _De accountant die de jaarafsluiting van een KMO-vennootschap met een actieve RC
 
 #### 📒 Boekhouder
 
-##### 👣 Maandelijkse opvolging RC-saldi  
-_`stap`_
+##### 👣 Maandelijkse opvolging RC-saldi
 
-🔗 Houd elk maand het eindsaldo van rekening 416 'Vorderingen op aandeelhouders' bij. Op jaarafsluiting: bereken het gemiddeld saldo (Σ maand-einde-saldi / 12). Vermenigvuldig met de referentievoet (jaarlijks KB) min de werkelijk aangerekende rente → VAA-bedrag. Toevoegen aan fiche 281.20 voor de bedrijfsleider.
+Houd elk maand het eindsaldo van rekening 416 'Vorderingen op aandeelhouders' bij. Op jaarafsluiting: bereken het gemiddeld saldo (Σ maand-einde-saldi / 12). Vermenigvuldig met de referentievoet (jaarlijks KB) min de werkelijk aangerekende rente → VAA-bedrag. Toevoegen aan fiche 281.20 voor de bedrijfsleider.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 #### 🧭 Adviseur
 
-##### 🧭 Afbouw-strategie negatieve RC  
-_`vuistregel`_
+##### 🧭 Afbouw-strategie negatieve RC
 
-🔗 Bij chronisch negatieve RC: drie afbouwstrategieën — (1) bezoldiging optrekken (cash bezoldiging → vermindering schuld op 416); (2) dividend uitkeren (compensatie tegen schuld); (3) rente aanrekenen aan minstens de referentievoet (vermijdt VAA maar genereert rente-opbrengst vennootschap + RV bij zaakvoerder). Combineren is vaak optimaal: lichte rente + jaarlijkse bezoldigingsverhoging.
+Bij chronisch negatieve RC: drie afbouwstrategieën — (1) bezoldiging optrekken (cash bezoldiging → vermindering schuld op 416); (2) dividend uitkeren (compensatie tegen schuld); (3) rente aanrekenen aan minstens de referentievoet (vermijdt VAA maar genereert rente-opbrengst vennootschap + RV bij zaakvoerder). Combineren is vaak optimaal: lichte rente + jaarlijkse bezoldigingsverhoging.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

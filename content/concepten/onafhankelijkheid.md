@@ -20,33 +20,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/onafhankelijkheid.json"
 ---
 
-# Onafhankelijkheid
-
-_Principe_
-
-🏛️ Kader · 📋 Regeling · Anchors: `4.0.I.A` · `4.0.I.B` · `1.6.I.B` · Wave: `skeleton-controle-beroep-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: independence · auditor independence · professional independence — **Vertalingen**: fr: indépendance · en: independence
+_Principe_ · ook: independence · auditor independence · professional independence
 
 ## Definitie
 
-📖 Onafhankelijkheid is het deontologische beginsel dat verplicht is voor audit-, review- en andere assurance-opdrachten. Het houdt in dat de beroepsbeoefenaar zijn oordeel uitoefent zonder gecompromitteerd te worden door belangen, druk of relaties — en dat hij ook naar buiten toe als onafhankelijk wordt waargenomen. Onafhankelijkheid kent twee dimensies (IESBA Code of Ethics, Section 400.4): (a) independence-of-mind — een geesteshouding die conclusies toelaat zonder beïnvloeding door factoren die professioneel oordeel compromitteren; (b) independence-in-appearance — vermijden van feiten en omstandigheden die een redelijke, geïnformeerde derde partij zouden doen twijfelen aan de onafhankelijkheid van de beroepsbeoefenaar.
+Onafhankelijkheid is het deontologische beginsel dat verplicht is voor audit-, review- en andere assurance-opdrachten. Het houdt in dat de beroepsbeoefenaar zijn oordeel uitoefent zonder gecompromitteerd te worden door belangen, druk of relaties — en dat hij ook naar buiten toe als onafhankelijk wordt waargenomen. Onafhankelijkheid kent twee dimensies (IESBA Code of Ethics, Section 400.4): (a) independence-of-mind — een geesteshouding die conclusies toelaat zonder beïnvloeding door factoren die professioneel oordeel compromitteren; (b) independence-in-appearance — vermijden van feiten en omstandigheden die een redelijke, geïnformeerde derde partij zouden doen twijfelen aan de onafhankelijkheid van de beroepsbeoefenaar.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.4 + 400.5 — _norm_ · Wet 17 maart 2019 (ITAA-wet) — art. 37 — _wettekst_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 400.4 + 400.5 — _norm_ · Wet 17 maart 2019 (ITAA-wet) — art. 37 — _wettekst_</small>
 
 ## Substantie
 
-📖 Onafhankelijkheid is een strengere standaard dan objectiviteit. Objectiviteit is een fundamenteel beginsel dat voor élke beroepsactiviteit geldt (bv. ook fiscaal advies of een gewone boekhouding); onafhankelijkheid komt daar bovenop voor assurance-opdrachten — waar derden (banken, beleggers, regelgevers) op het oordeel van de accountant of bedrijfsrevisor steunen. Het IESBA-kader vereist daarbij de toepassing van het conceptueel kader: bij elke opdracht moeten dreigingen worden geïdentificeerd, geëvalueerd en aangepakt. Voor opdrachten bij Public Interest Entities (PIE — beursgenoteerde vennootschappen, banken, verzekeraars) gelden bovendien specifieke rotatie- en cooling-off-regels die de International Independence Standards (Section 540 en verder) uitwerken.
+Onafhankelijkheid is een strengere standaard dan objectiviteit. Objectiviteit is een fundamenteel beginsel dat voor élke beroepsactiviteit geldt (bv. ook fiscaal advies of een gewone boekhouding); onafhankelijkheid komt daar bovenop voor assurance-opdrachten — waar derden (banken, beleggers, regelgevers) op het oordeel van de accountant of bedrijfsrevisor steunen. Het IESBA-kader vereist daarbij de toepassing van het conceptueel kader: bij elke opdracht moeten dreigingen worden geïdentificeerd, geëvalueerd en aangepakt. Voor opdrachten bij Public Interest Entities (PIE — beursgenoteerde vennootschappen, banken, verzekeraars) gelden bovendien specifieke rotatie- en cooling-off-regels die de International Independence Standards (Section 540 en verder) uitwerken.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.10 + 540 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 400.10 + 540 — _norm_</small>
 
 ## Rationale
 
-🔗 De ratio legis is de geloofwaardigheid van het assurance-oordeel ten opzichte van derden. Een audit of review is alleen waardevol als gebruikers (beleggers, banken, fiscus) erop kunnen vertrouwen dat het oordeel van de beroepsbeoefenaar niet beïnvloed is door bindingen met de gecontroleerde entiteit. Daarom is independence-in-appearance even belangrijk als independence-of-mind: het volstaat niet dat de beroepsbeoefenaar zelf overtuigd is dat hij objectief is — een redelijke buitenstaander moet dat ook kunnen vaststellen. Daarom legt de wet uit voorzorg specifieke onverenigbaarheden op (financiële belangen, familiebanden, bepaalde diensten-combinaties), eerder dan elke situatie casus-per-casus te beoordelen.
+De ratio legis is de geloofwaardigheid van het assurance-oordeel ten opzichte van derden. Een audit of review is alleen waardevol als gebruikers (beleggers, banken, fiscus) erop kunnen vertrouwen dat het oordeel van de beroepsbeoefenaar niet beïnvloed is door bindingen met de gecontroleerde entiteit. Daarom is independence-in-appearance even belangrijk als independence-of-mind: het volstaat niet dat de beroepsbeoefenaar zelf overtuigd is dat hij objectief is — een redelijke buitenstaander moet dat ook kunnen vaststellen. Daarom legt de wet uit voorzorg specifieke onverenigbaarheden op (financiële belangen, familiebanden, bepaalde diensten-combinaties), eerder dan elke situatie casus-per-casus te beoordelen.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.6-400.8 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 IESBA Code of Ethics 2024 — Section 400.6-400.8 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -68,155 +60,132 @@ Onafhankelijkheid is verankerd in art. 37 ITAA-wet ('volledige onafhankelijkheid
 
 ## Sub-concepten
 
-### 📦 Independence of mind  
-_`principe` (subconcept)_
+### 📦 Independence of mind
 
 #### Definitie
 
-📖 Independence-of-mind is de geesteshouding die de beroepsbeoefenaar toelaat conclusies te formuleren zonder beïnvloeding door factoren die zijn professioneel oordeel compromitteren — waardoor hij met integriteit handelt en professionele skepticism uitoefent. Het is een interne, mentale stand.
+Independence-of-mind is de geesteshouding die de beroepsbeoefenaar toelaat conclusies te formuleren zonder beïnvloeding door factoren die zijn professioneel oordeel compromitteren — waardoor hij met integriteit handelt en professionele skepticism uitoefent. Het is een interne, mentale stand.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.5 (a) — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 400.5 (a) — _norm_</small>
 
-### 📦 Independence in appearance  
-_`principe` (subconcept)_
-
-#### Definitie
-
-📖 Independence-in-appearance is het vermijden van feiten en omstandigheden zo significant dat een redelijke en geïnformeerde derde partij waarschijnlijk zou concluderen dat de integriteit, objectiviteit of professionele skepticism van de beroepsbeoefenaar gecompromitteerd is. Beide dimensies — of mind én in appearance — zijn noodzakelijk: een audit-partner die zelf overtuigd is van zijn onafhankelijkheid maar in een schijnbaar belangenconflict zit, voldoet niet aan de standaard.
-
-<small>📚 IESBA Code of Ethics 2024 — Section 400.5 (b) — _norm_</small>
-
-### 📦 Chinese walls als afschermingsmechanisme  
-_`procedure` (subconcept)_
+### 📦 Independence in appearance
 
 #### Definitie
 
-📖 Chinese walls zijn organisatorische maatregelen die binnen één kantoor functionele en fysieke scheiding creëren tussen teams die werken voor cliënten met potentieel conflicterende belangen. Componenten: (1) functionele scheiding — afzonderlijke teams zonder gedeelde teamleden; (2) fysieke scheiding — afzonderlijke werkzones, geen toevallige kantoor-ontmoetingen rond gevoelige dossiers; (3) informationele afscherming — geen toegang tot elkaars dossiers in het document-management-systeem, geen overdracht van vertrouwelijke informatie; (4) toezicht-laag — onafhankelijke partner bewaakt naleving van de muur. Klassieke toepassingen: dezelfde cliënten staan tegenover elkaar in een geschil, audit-cliënt en advies-cliënt zijn fusie-tegenpartijen, of het kantoor adviseert beide partijen in een onderhandeling.
+Independence-in-appearance is het vermijden van feiten en omstandigheden zo significant dat een redelijke en geïnformeerde derde partij waarschijnlijk zou concluderen dat de integriteit, objectiviteit of professionele skepticism van de beroepsbeoefenaar gecompromitteerd is. Beide dimensies — of mind én in appearance — zijn noodzakelijk: een audit-partner die zelf overtuigd is van zijn onafhankelijkheid maar in een schijnbaar belangenconflict zit, voldoet niet aan de standaard.
 
-<small>📚 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.10 + R310.11 — _norm_ · IESBA Code of Ethics — Section 320 Professional Appointments — par. 320.7 A1 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 400.5 (b) — _norm_</small>
+
+### 📦 Chinese walls als afschermingsmechanisme
+
+#### Definitie
+
+Chinese walls zijn organisatorische maatregelen die binnen één kantoor functionele en fysieke scheiding creëren tussen teams die werken voor cliënten met potentieel conflicterende belangen. Componenten: (1) functionele scheiding — afzonderlijke teams zonder gedeelde teamleden; (2) fysieke scheiding — afzonderlijke werkzones, geen toevallige kantoor-ontmoetingen rond gevoelige dossiers; (3) informationele afscherming — geen toegang tot elkaars dossiers in het document-management-systeem, geen overdracht van vertrouwelijke informatie; (4) toezicht-laag — onafhankelijke partner bewaakt naleving van de muur. Klassieke toepassingen: dezelfde cliënten staan tegenover elkaar in een geschil, audit-cliënt en advies-cliënt zijn fusie-tegenpartijen, of het kantoor adviseert beide partijen in een onderhandeling.
+
+<small>📖 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.10 + R310.11 — _norm_ · IESBA Code of Ethics — Section 320 Professional Appointments — par. 320.7 A1 — _norm_</small>
 
 #### Rationale
 
-📖 Chinese walls zijn een safeguard, geen wondermiddel. IESBA Section 320 maakt expliciet dat de muur niet altijd voldoende is: bij zelf-toetsings-bedreiging (auditor controleert eigen advies) of fundamentele belangenstrijd (kantoor staat aan beide kanten van een transactie waarin de uitkomst zero-sum is) blijft opdracht-weigering of opdracht-teruggave de enige correcte uitweg. De auditor moet documenteren waarom de safeguard in dit specifieke geval volstaat.
+Chinese walls zijn een safeguard, geen wondermiddel. IESBA Section 320 maakt expliciet dat de muur niet altijd voldoende is: bij zelf-toetsings-bedreiging (auditor controleert eigen advies) of fundamentele belangenstrijd (kantoor staat aan beide kanten van een transactie waarin de uitkomst zero-sum is) blijft opdracht-weigering of opdracht-teruggave de enige correcte uitweg. De auditor moet documenteren waarom de safeguard in dit specifieke geval volstaat.
 
-<small>📚 IESBA Code of Ethics — Section 320 — limitations of safeguards — _norm_</small>
+<small>📖 IESBA Code of Ethics — Section 320 — limitations of safeguards — _norm_</small>
 
 ## Bouwstenen
 
-### ⚙️ Conceptueel kader voor onafhankelijkheid  
-_`mechanisme`_
+### ⚙️ Conceptueel kader voor onafhankelijkheid
 
-📖 Bij elke assurance-opdracht doorloopt het kantoor het conceptueel kader: (1) identificeer dreigingen voor onafhankelijkheid — vijf categorieën: self-interest, self-review, advocacy, familiarity, intimidation; (2) evalueer of de dreiging op een acceptabel niveau zit, rekening houdend met de specifieke feiten en omstandigheden; (3) pak de dreiging aan door (a) eliminatie van de omstandigheid, (b) toepassing van safeguards die het niveau terugbrengen, of (c) weigeren / beëindigen van de opdracht.
+Bij elke assurance-opdracht doorloopt het kantoor het conceptueel kader: (1) identificeer dreigingen voor onafhankelijkheid — vijf categorieën: self-interest, self-review, advocacy, familiarity, intimidation; (2) evalueer of de dreiging op een acceptabel niveau zit, rekening houdend met de specifieke feiten en omstandigheden; (3) pak de dreiging aan door (a) eliminatie van de omstandigheid, (b) toepassing van safeguards die het niveau terugbrengen, of (c) weigeren / beëindigen van de opdracht.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.10-400.15 + 120.4-120.5 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 400.10-400.15 + 120.4-120.5 — _norm_</small>
 
-### 📜 Verbod op verboden financiële belangen (Section 510)  
-_`regel`_
+### 📜 Verbod op verboden financiële belangen (Section 510)
 
-📖 Een audit-team-lid mag geen direct financieel belang hebben in de audit-cliënt (geen aandelen, obligaties, financiële participaties — Section 510). Indirect materieel financieel belang is ook verboden. Geldt ook voor onmiddellijke familie (echtgenoot/partner, afhankelijke kinderen). Voor naaste familie (ouders, broers, zussen): self-interest-threat te evalueren. Pensioenfondsen van het kantoor of netwerk: aparte regels.
+Een audit-team-lid mag geen direct financieel belang hebben in de audit-cliënt (geen aandelen, obligaties, financiële participaties — Section 510). Indirect materieel financieel belang is ook verboden. Geldt ook voor onmiddellijke familie (echtgenoot/partner, afhankelijke kinderen). Voor naaste familie (ouders, broers, zussen): self-interest-threat te evalueren. Pensioenfondsen van het kantoor of netwerk: aparte regels.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 510 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 510 — _norm_</small>
 
-### 📜 Familiale en persoonlijke relaties (Section 521)  
-_`regel`_
+### 📜 Familiale en persoonlijke relaties (Section 521)
 
-📖 Een audit-team-lid mag niet meewerken aan een opdracht waar onmiddellijke familie een bestuurder, officer, of werknemer met significante invloed is op het audit-onderwerp. Voor naaste familie en andere nauwe relaties: dreiging evalueren — typische safeguard is het audit-team-lid uit het team verwijderen of de verantwoordelijkheden zo structureren dat hij niet werkt aan zaken die de familie raakt.
+Een audit-team-lid mag niet meewerken aan een opdracht waar onmiddellijke familie een bestuurder, officer, of werknemer met significante invloed is op het audit-onderwerp. Voor naaste familie en andere nauwe relaties: dreiging evalueren — typische safeguard is het audit-team-lid uit het team verwijderen of de verantwoordelijkheden zo structureren dat hij niet werkt aan zaken die de familie raakt.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 521 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 521 — _norm_</small>
 
-### ⚙️ Niet-assurance-diensten en self-review-threat (Section 600)  
-_`mechanisme`_
+### ⚙️ Niet-assurance-diensten en self-review-threat (Section 600)
 
-📖 Een kantoor mag niet voor dezelfde cliënt zowel niet-assurance-diensten (bv. boekhouding, IT-implementatie, juridische bijstand) als assurance-diensten leveren wanneer de niet-assurance-diensten een self-review-threat creëren die niet via safeguards aanvaardbaar te maken is. Bij PIE: nog strengere lijst van verboden niet-assurance-diensten. Bij niet-PIE: case-by-case evaluatie via conceptueel kader. Typische safeguard: ander team de niet-assurance-dienst laten uitvoeren; bij hoge dreiging: niet-assurance-dienst weigeren.
+Een kantoor mag niet voor dezelfde cliënt zowel niet-assurance-diensten (bv. boekhouding, IT-implementatie, juridische bijstand) als assurance-diensten leveren wanneer de niet-assurance-diensten een self-review-threat creëren die niet via safeguards aanvaardbaar te maken is. Bij PIE: nog strengere lijst van verboden niet-assurance-diensten. Bij niet-PIE: case-by-case evaluatie via conceptueel kader. Typische safeguard: ander team de niet-assurance-dienst laten uitvoeren; bij hoge dreiging: niet-assurance-dienst weigeren.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 600 + 950 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 600 + 950 — _norm_</small>
 
-### 📜 Lange relatie en rotatie (Section 540 + 940)  
-_`regel`_
+### 📜 Lange relatie en rotatie (Section 540 + 940)
 
-📖 Long association creëert familiarity threat. Voor PIE-audits gelden specifieke partner-rotatie-regels (Section 540): de engagement-partner mag een maximumtermijn op de cliënt zitten (typisch 7 jaar) gevolgd door een cooling-off (typisch 5 jaar) waarin hij geen significante invloed mag uitoefenen op de opdracht. Voor andere assurance-opdrachten (Section 940): geen vaste termijn, maar het kantoor moet beoordelen of familiarity threats voldoende beheerst worden. Safeguards: rotatie van teamleden, appropriate reviewer, periodieke onafhankelijkheids-audits.
+Long association creëert familiarity threat. Voor PIE-audits gelden specifieke partner-rotatie-regels (Section 540): de engagement-partner mag een maximumtermijn op de cliënt zitten (typisch 7 jaar) gevolgd door een cooling-off (typisch 5 jaar) waarin hij geen significante invloed mag uitoefenen op de opdracht. Voor andere assurance-opdrachten (Section 940): geen vaste termijn, maar het kantoor moet beoordelen of familiarity threats voldoende beheerst worden. Safeguards: rotatie van teamleden, appropriate reviewer, periodieke onafhankelijkheids-audits.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 540 + 940 — _norm_</small>
+<small>📖 IESBA Code of Ethics 2024 — Section 540 + 940 — _norm_</small>
 
-### 📜 Onafhankelijkheidsverklaring bij opdrachtaanvaarding  
-_`regel`_
+### 📜 Onafhankelijkheidsverklaring bij opdrachtaanvaarding
 
-🔗 Bij aanvaarding van elke assurance-opdracht moet het kantoor de onafhankelijkheidsverklaring schriftelijk documenteren in het opdrachtdossier: bevestiging van afwezigheid van verboden financiële belangen, geen verboden familiale relaties, geen onverenigbare niet-assurance-diensten, threats-and-safeguards-analyse uitgevoerd. Bij langlopende cliëntrelaties: jaarlijkse hernieuwing van deze verklaring. Voor commissaris-opdrachten geldt bovendien art. 14 van de revisorenwet — formele onafhankelijkheidsverklaring aan de algemene vergadering.
+Bij aanvaarding van elke assurance-opdracht moet het kantoor de onafhankelijkheidsverklaring schriftelijk documenteren in het opdrachtdossier: bevestiging van afwezigheid van verboden financiële belangen, geen verboden familiale relaties, geen onverenigbare niet-assurance-diensten, threats-and-safeguards-analyse uitgevoerd. Bij langlopende cliëntrelaties: jaarlijkse hernieuwing van deze verklaring. Voor commissaris-opdrachten geldt bovendien art. 14 van de revisorenwet — formele onafhankelijkheidsverklaring aan de algemene vergadering.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.15 — _norm_ · Wet 7 december 2016 (revisorenwet) — art. 14 — _wettekst_</small>
+<small>🔗 IESBA Code of Ethics 2024 — Section 400.15 — _norm_ · Wet 7 december 2016 (revisorenwet) — art. 14 — _wettekst_</small>
 
 ## Voorbeelden
 
-### 💡 Audit-partner heeft aandelen via fonds — self-interest threat 🔗
+> [!example]- Audit-partner heeft aandelen via fonds — self-interest threat
+> _Audit-partner Devos van kantoor Vermeulen & Partners ontdekt dat zijn echtgenote via een breed indexfonds (BEL20 ETF) een indirect financieel belang heeft in audit-cliënt Aurelia Holding NV (genoteerd op de BEL20)._
+>
+> 1. Stap 1 — identificeer: indirect financieel belang via ETF — onmiddellijke familie (echtgenote).
+> 2. Stap 2 — evalueer materialiteit: voor een breed indexfonds met BEL20 is het indirecte belang typisch zeer klein per individueel aandeel — niet materieel.
+> 3. Stap 3 — pak aan: documenteer in dossier dat (a) het belang via diversified ETF is, (b) niet materieel, (c) geen actieve sturing — dreiging op acceptabel niveau. Geen verdere safeguard nodig.
+> 4. Stap 4 — Hypothetisch alternatief: indien Devos rechtstreeks individuele Aurelia-aandelen zou aanhouden: verboden (Section 510) — onmiddellijk vervreemden of audit-team verlaten.
+>
+> <small>🔗 IESBA Code of Ethics 2024 — Section 510 — _norm_</small>
 
-_Audit-partner Devos van kantoor Vermeulen & Partners ontdekt dat zijn echtgenote via een breed indexfonds (BEL20 ETF) een indirect financieel belang heeft in audit-cliënt Aurelia Holding NV (genoteerd op de BEL20)._
-
-**Weergave** `stappenlijst`:
-
-```json
-{
-  "stappen": [
-    "Stap 1 — identificeer: indirect financieel belang via ETF — onmiddellijke familie (echtgenote).",
-    "Stap 2 — evalueer materialiteit: voor een breed indexfonds met BEL20 is het indirecte belang typisch zeer klein per individueel aandeel — niet materieel.",
-    "Stap 3 — pak aan: documenteer in dossier dat (a) het belang via diversified ETF is, (b) niet materieel, (c) geen actieve sturing — dreiging op acceptabel niveau. Geen verdere safeguard nodig.",
-    "Stap 4 — Hypothetisch alternatief: indien Devos rechtstreeks individuele Aurelia-aandelen zou aanhouden: verboden (Section 510) — onmiddellijk vervreemden of audit-team verlaten."
-  ]
-}
-```
-
-<small>📚 IESBA Code of Ethics 2024 — Section 510 — _norm_</small>
-
-### 💡 Self-review threat — kantoor implementeerde de boekhoudsoftware 🔗
-
-_Het kantoor Vermeulen & Partners heeft drie jaar geleden een ERP-systeem geïmplementeerd voor cliënt Zelena Bio NV. Vermeulen & Partners wordt nu gevraagd om de commissaris-functie bij Zelena Bio uit te voeren._
-
-**Weergave** `stappenlijst`:
-
-```json
-{
-  "stappen": [
-    "Stap 1 — identificeer: self-review threat — de commissaris-functie zou impliceren dat het kantoor zijn eigen IT-implementatie moet auditeren.",
-    "Stap 2 — evalueer: dreiging hoog wanneer (a) IT-systeem genereert significante financiële data, (b) commissaris zou steunen op IT-controls die het kantoor zelf heeft gebouwd.",
-    "Stap 3 — pak aan: safeguards moeilijk — een 'appropriate reviewer' bij hetzelfde kantoor heft de dreiging niet voldoende op (Section 600).",
-    "Stap 4 — Conclusie: het kantoor moet de commissaris-functie weigeren OF de IT-implementatie-relatie afbouwen voor een geschikte cooling-off. Bij PIE-cliënt: nog strenger — IT-implementatie van dat materiële karakter is volledig verboden naast assurance."
-  ]
-}
-```
-
-<small>📚 IESBA Code of Ethics 2024 — Section 606 — IT systems services — _norm_</small>
+> [!example]- Self-review threat — kantoor implementeerde de boekhoudsoftware
+> _Het kantoor Vermeulen & Partners heeft drie jaar geleden een ERP-systeem geïmplementeerd voor cliënt Zelena Bio NV. Vermeulen & Partners wordt nu gevraagd om de commissaris-functie bij Zelena Bio uit te voeren._
+>
+> 1. Stap 1 — identificeer: self-review threat — de commissaris-functie zou impliceren dat het kantoor zijn eigen IT-implementatie moet auditeren.
+> 2. Stap 2 — evalueer: dreiging hoog wanneer (a) IT-systeem genereert significante financiële data, (b) commissaris zou steunen op IT-controls die het kantoor zelf heeft gebouwd.
+> 3. Stap 3 — pak aan: safeguards moeilijk — een 'appropriate reviewer' bij hetzelfde kantoor heft de dreiging niet voldoende op (Section 600).
+> 4. Stap 4 — Conclusie: het kantoor moet de commissaris-functie weigeren OF de IT-implementatie-relatie afbouwen voor een geschikte cooling-off. Bij PIE-cliënt: nog strenger — IT-implementatie van dat materiële karakter is volledig verboden naast assurance.
+>
+> <small>🔗 IESBA Code of Ethics 2024 — Section 606 — IT systems services — _norm_</small>
 
 ## Valkuilen
 
-### ⚠️ Onafhankelijkheid voldoet wanneer ik zelf overtuigd ben dat ik objectief ben
+> [!warning]- Onafhankelijkheid voldoet wanneer ik zelf overtuigd ben dat ik objectief ben
+> **Verkeerde assumptie**: Studenten denken dat onafhankelijkheid een subjectieve, interne stand is — 'ik weet dat ik onpartijdig ben'.
+>
+> **Kernpunt**: Onafhankelijkheid kent TWEE dimensies: independence-of-mind én independence-in-appearance. Beide moeten voldoen. Een redelijke buitenstaander moet, op basis van de zichtbare feiten en omstandigheden, kunnen vaststellen dat geen dreiging voor onafhankelijkheid bestaat. Een audit-partner die overtuigd is van zijn objectiviteit maar zichtbaar grote belangen heeft in de cliënt voldoet niet — schijn telt.
+>
+> <small>📖 IESBA Code of Ethics 2024 — Section 400.5 — _norm_</small>
 
-**Verkeerde assumptie**: Studenten denken dat onafhankelijkheid een subjectieve, interne stand is — 'ik weet dat ik onpartijdig ben'.
+> [!warning]- Onafhankelijkheid is alleen voor audit
+> **Verkeerde assumptie**: Studenten beperken onafhankelijkheid tot wettelijke audit (commissaris-mandaat).
+>
+> **Kernpunt**: Onafhankelijkheid geldt voor ALLE assurance-opdrachten: wettelijke controle, review (ISRE 2400), agreed-upon-procedures (ISRS 4400), isae-opdracht (ISAE 3000/3402), bijzondere wettelijke opdrachten (inbreng in natura, ontbinding-vereffening, omzetting van vennootschap, etc.). De diepgang van de regels kan verschillen (PIE strenger dan non-PIE), maar het basisbeginsel onafhankelijkheid geldt voor élke opdracht waar derden op het oordeel van de beroepsbeoefenaar steunen.
+>
+> <small>📖 IESBA Code of Ethics 2024 — Section 400.2 + 900-series — _norm_</small>
 
-**Kernpunt**: Onafhankelijkheid kent TWEE dimensies: independence-of-mind én independence-in-appearance. Beide moeten voldoen. Een redelijke buitenstaander moet, op basis van de zichtbare feiten en omstandigheden, kunnen vaststellen dat geen dreiging voor onafhankelijkheid bestaat. Een audit-partner die overtuigd is van zijn objectiviteit maar zichtbaar grote belangen heeft in de cliënt voldoet niet — schijn telt.
-
-<small>📚 IESBA Code of Ethics 2024 — Section 400.5 — _norm_</small>
-
-### ⚠️ Onafhankelijkheid is alleen voor audit
-
-**Verkeerde assumptie**: Studenten beperken onafhankelijkheid tot wettelijke audit (commissaris-mandaat).
-
-**Kernpunt**: Onafhankelijkheid geldt voor ALLE assurance-opdrachten: wettelijke controle, review (ISRE 2400), agreed-upon-procedures (ISRS 4400), isae-opdracht (ISAE 3000/3402), bijzondere wettelijke opdrachten (inbreng in natura, ontbinding-vereffening, omzetting van vennootschap, etc.). De diepgang van de regels kan verschillen (PIE strenger dan non-PIE), maar het basisbeginsel onafhankelijkheid geldt voor élke opdracht waar derden op het oordeel van de beroepsbeoefenaar steunen.
-
-<small>📚 IESBA Code of Ethics 2024 — Section 400.2 + 900-series — _norm_</small>
-
-### ⚠️ Safeguards lossen elke dreiging op
-
-**Verkeerde assumptie**: Studenten denken dat een appropriate reviewer altijd voldoende is om elke onafhankelijkheids-dreiging te neutraliseren.
-
-**Kernpunt**: Safeguards kunnen veel oplossen, maar niet alles. Wanneer een dreiging niet via safeguards tot een acceptabel niveau gebracht kan worden, MOET het kantoor de opdracht weigeren of beëindigen, of de scope van een niet-assurance-dienst aanpassen (Section 120.5 + 950.13). Bepaalde combinaties (verboden financiële belangen, verboden niet-assurance-diensten bij PIE) zijn absoluut verboden — geen safeguard kan ze repareren.
-
-<small>📚 IESBA Code of Ethics 2024 — Section 120.5 + 510.4 (absolute prohibitions) — _norm_</small>
+> [!warning]- Safeguards lossen elke dreiging op
+> **Verkeerde assumptie**: Studenten denken dat een appropriate reviewer altijd voldoende is om elke onafhankelijkheids-dreiging te neutraliseren.
+>
+> **Kernpunt**: Safeguards kunnen veel oplossen, maar niet alles. Wanneer een dreiging niet via safeguards tot een acceptabel niveau gebracht kan worden, MOET het kantoor de opdracht weigeren of beëindigen, of de scope van een niet-assurance-dienst aanpassen (Section 120.5 + 950.13). Bepaalde combinaties (verboden financiële belangen, verboden niet-assurance-diensten bij PIE) zijn absoluut verboden — geen safeguard kan ze repareren.
+>
+> <small>📖 IESBA Code of Ethics 2024 — Section 120.5 + 510.4 (absolute prohibitions) — _norm_</small>
 
 ## Syntheses
 
-### 🧩 Synthese  
-_`matrix`_
+### 🧩 Matrix
 
 Onafhankelijkheid versus objectiviteit — sleutelverschillen
+
+| Aspect | Objectiviteit | Onafhankelijkheid |
+| --- | --- | --- |
+| Toepassingsgebied | Alle beroepsactiviteiten | Audit, review en andere assurance-opdrachten |
+| Aard | Mentale stand — geen ongepaste invloed | Mentaal + zichtbaar — schijn telt |
+| IESBA-bron | Section 110 (fundamental principles) | Section 400+ (International Independence Standards) |
+| Strafrechtelijke kant | Tucht via deontologie | Tucht + voor commissaris: nietigheid + administratieve sancties FSMA bij PIE |
+| Concrete verboden | Geen voor objectiviteit als algemeen beginsel | Lijst absolute verboden (financiële belangen, familie, bepaalde diensten) |
 
 ## Accountant-perspectieven
 
@@ -226,35 +195,31 @@ _De gecertificeerd accountant in een ITAA-kantoor die assurance-opdrachten uitvo
 
 #### 🔍 Auditor
 
-##### 👣 Onafhankelijkheidsanalyse bij elke assurance-opdracht  
-_`stap`_
+##### 👣 Onafhankelijkheidsanalyse bij elke assurance-opdracht
 
-🔗 Bij elke nieuwe of doorlopende assurance-opdracht: (1) doorloop een onafhankelijkheids-checklist die financiële belangen, familiale en persoonlijke relaties, niet-assurance-diensten, long-association en intimidatie afdekt; (2) raadpleeg het kantoor-brede onafhankelijkheidsregister (welke familieleden, financiële posities, etc. heeft elk team-lid?); (3) documenteer de threats-and-safeguards-analyse in het opdrachtdossier; (4) bij twijfel: appropriate-reviewer of compliance-officer van het kantoor inschakelen.
+Bij elke nieuwe of doorlopende assurance-opdracht: (1) doorloop een onafhankelijkheids-checklist die financiële belangen, familiale en persoonlijke relaties, niet-assurance-diensten, long-association en intimidatie afdekt; (2) raadpleeg het kantoor-brede onafhankelijkheidsregister (welke familieleden, financiële posities, etc. heeft elk team-lid?); (3) documenteer de threats-and-safeguards-analyse in het opdrachtdossier; (4) bij twijfel: appropriate-reviewer of compliance-officer van het kantoor inschakelen.
 
-<small>📚 IESBA Code of Ethics 2024 — Section 400.15 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 IESBA Code of Ethics 2024 — Section 400.15 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-##### 👣 Centraal onafhankelijkheidsregister op kantoorniveau  
-_`stap`_
+##### 👣 Centraal onafhankelijkheidsregister op kantoorniveau
 
-🔗 Het kantoor houdt een centraal register bij van: (a) alle audit-cliënten + PIE-status; (b) alle onafhankelijkheids-relevante feiten van elke beroepsbeoefenaar (financiële participaties, familieleden in posities van invloed, externe mandaten); (c) niet-assurance-diensten per cliënt — om self-review-conflicten te detecteren bij scope-uitbreiding; (d) jaarlijkse bevestiging door elke beroepsbeoefenaar dat zijn persoonlijke situatie geen onbekende dreigingen genereert.
+Het kantoor houdt een centraal register bij van: (a) alle audit-cliënten + PIE-status; (b) alle onafhankelijkheids-relevante feiten van elke beroepsbeoefenaar (financiële participaties, familieleden in posities van invloed, externe mandaten); (c) niet-assurance-diensten per cliënt — om self-review-conflicten te detecteren bij scope-uitbreiding; (d) jaarlijkse bevestiging door elke beroepsbeoefenaar dat zijn persoonlijke situatie geen onbekende dreigingen genereert.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-##### 👣 Belangenconflict opvangen via informed consent + functiescheiding  
-_`stap`_
+##### 👣 Belangenconflict opvangen via informed consent + functiescheiding
 
-📖 Stappen wanneer een potentieel belangenconflict opduikt: (1) Detectie — drie scenarios: cliënt-versus-cliënt (tegengestelde belangen tussen twee opdrachtgevers), cliënt-versus-eigen-belang (kantoor heeft financieel of persoonlijk belang in uitkomst), cliënt-versus-derde (kantoor adviseerde een tegenpartij in vorige opdracht); (2) Risico-inschatting — weegt het commercieel voordeel op tegen het risico op vertrouwensschade en de reputatie-impact bij ontdekking; (3) Bij doorgang: combinatie van waarborgen — schriftelijke informed consent van álle betrokken cliënten (zij weten van het conflict en aanvaarden de opzet), Chinese walls als organisatorische afscherming, en Engagement Quality Review door een onafhankelijke partner buiten beide teams; (4) Bij weigering — tijdig en duidelijk naar cliënt communiceren waarom, en waar mogelijk een alternatief kantoor suggereren (collegiale relaties + cliënt-belang); (5) Documentatie — beslissing, motivering en safeguards in het cliënt-dossier zodat een latere inspectie kan reconstrueren waarom de opdracht aanvaardbaar was.
+Stappen wanneer een potentieel belangenconflict opduikt: (1) Detectie — drie scenarios: cliënt-versus-cliënt (tegengestelde belangen tussen twee opdrachtgevers), cliënt-versus-eigen-belang (kantoor heeft financieel of persoonlijk belang in uitkomst), cliënt-versus-derde (kantoor adviseerde een tegenpartij in vorige opdracht); (2) Risico-inschatting — weegt het commercieel voordeel op tegen het risico op vertrouwensschade en de reputatie-impact bij ontdekking; (3) Bij doorgang: combinatie van waarborgen — schriftelijke informed consent van álle betrokken cliënten (zij weten van het conflict en aanvaarden de opzet), Chinese walls als organisatorische afscherming, en Engagement Quality Review door een onafhankelijke partner buiten beide teams; (4) Bij weigering — tijdig en duidelijk naar cliënt communiceren waarom, en waar mogelijk een alternatief kantoor suggereren (collegiale relaties + cliënt-belang); (5) Documentatie — beslissing, motivering en safeguards in het cliënt-dossier zodat een latere inspectie kan reconstrueren waarom de opdracht aanvaardbaar was.
 
-<small>📚 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.9-R310.12 — _norm_ · ISQM 1 — Quality Management at firm level — Engagement Quality Review-vereisten — _norm_</small>
+<small>📖 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.9-R310.12 — _norm_ · ISQM 1 — Quality Management at firm level — Engagement Quality Review-vereisten — _norm_</small>
 
 #### 👥 Begeleider
 
-##### 🧭 Cliënt-uitleg bij afwijzing van een gevraagde niet-assurance-dienst  
-_`vuistregel`_
+##### 🧭 Cliënt-uitleg bij afwijzing van een gevraagde niet-assurance-dienst
 
-🔗 Wanneer een cliënt een extra niet-assurance-dienst vraagt die zou conflicteren met de lopende assurance-opdracht: (a) leg uit dat het verbod uit IESBA-regels en wetgeving komt, niet uit kantoor-keuze; (b) leg uit dat de regels ook in het belang van de cliënt zijn — een geloofwaardig auditverslag is van waarde voor banken/fiscus/aandeelhouders; (c) bied alternatieven: ander kantoor voor de niet-assurance-dienst, of het assurance-mandaat herzien.
+Wanneer een cliënt een extra niet-assurance-dienst vraagt die zou conflicteren met de lopende assurance-opdracht: (a) leg uit dat het verbod uit IESBA-regels en wetgeving komt, niet uit kantoor-keuze; (b) leg uit dat de regels ook in het belang van de cliënt zijn — een geloofwaardig auditverslag is van waarde voor banken/fiscus/aandeelhouders; (c) bied alternatieven: ander kantoor voor de niet-assurance-dienst, of het assurance-mandaat herzien.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

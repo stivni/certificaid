@@ -17,33 +17,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/mobiliteitsbudget.json"
 ---
 
-# Mobiliteitsbudget
-
-_Regime_
-
-📋 Regeling · Anchors: `2.2.taak.3` · `2.3.taak.3` · Wave: `skeleton-cross-cutting-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: federaal mobiliteitsbudget — **Vertalingen**: fr: budget mobilité
+_Regime_ · ook: federaal mobiliteitsbudget
 
 ## Definitie
 
-🔗 Het federaal mobiliteitsbudget is een wettelijke regeling (Wet van 17 maart 2019) waarbij een werknemer die recht heeft op een bedrijfswagen — of voor een nieuwe wagen in aanmerking zou komen — dat recht inruilt voor een jaarlijks geldbudget gelijk aan de Total Cost of Ownership (TCO) van de wagen waarop hij anders recht zou hebben. De werknemer besteedt dat budget vrij binnen drie pijlers: (1) een milieuvriendelijke bedrijfswagen, (2) duurzame vervoersmiddelen en woon-werkverplaatsingen, (3) een cash-saldo uitbetaald als loon.
+Het federaal mobiliteitsbudget is een wettelijke regeling (Wet van 17 maart 2019) waarbij een werknemer die recht heeft op een bedrijfswagen — of voor een nieuwe wagen in aanmerking zou komen — dat recht inruilt voor een jaarlijks geldbudget gelijk aan de Total Cost of Ownership (TCO) van de wagen waarop hij anders recht zou hebben. De werknemer besteedt dat budget vrij binnen drie pijlers: (1) een milieuvriendelijke bedrijfswagen, (2) duurzame vervoersmiddelen en woon-werkverplaatsingen, (3) een cash-saldo uitbetaald als loon.
 
-<small>📚 WIB92 — Art. 38, lid (cross-ref): 'mobiliteitsbudget … met toepassing van de wet van 17 maart 2019 betreffende de invoering van een mobiliteitsbudget' — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — Art. 38, lid (cross-ref): 'mobiliteitsbudget … met toepassing van de wet van 17 maart 2019 betreffende de invoering van een mobiliteitsbudget' — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Substantie
 
-🤖 Economisch is het mobiliteitsbudget een omzettingsmechanisme: de werkgever blijft hetzelfde totaalpakket dragen (TCO van de bedrijfswagen blijft de bovengrens), maar de werknemer ruilt het natura-voordeel (de wagen + tankkaart + verzekering + onderhoud) in voor een keuzemenu. Pijler 1 (milieuvriendelijke wagen) volgt de gewone bedrijfswagen-fiscaliteit. Pijler 2 (duurzame mobiliteit — fiets, openbaar vervoer, deelmobiliteit, huisvestingskosten dicht bij het werk, ...) is volledig vrijgesteld van personenbelasting en sociale bijdragen. Pijler 3 (cash-saldo, het restant op het einde van het jaar) is onderworpen aan een bijzondere sociale bijdrage maar vrijgesteld van personenbelasting. Het mobiliteitsbudget is dus niet 'gratis geld' maar een herallocatie van een al toegekend voordeel.
+Economisch is het mobiliteitsbudget een omzettingsmechanisme: de werkgever blijft hetzelfde totaalpakket dragen (TCO van de bedrijfswagen blijft de bovengrens), maar de werknemer ruilt het natura-voordeel (de wagen + tankkaart + verzekering + onderhoud) in voor een keuzemenu. Pijler 1 (milieuvriendelijke wagen) volgt de gewone bedrijfswagen-fiscaliteit. Pijler 2 (duurzame mobiliteit — fiets, openbaar vervoer, deelmobiliteit, huisvestingskosten dicht bij het werk, ...) is volledig vrijgesteld van personenbelasting en sociale bijdragen. Pijler 3 (cash-saldo, het restant op het einde van het jaar) is onderworpen aan een bijzondere sociale bijdrage maar vrijgesteld van personenbelasting. Het mobiliteitsbudget is dus niet 'gratis geld' maar een herallocatie van een al toegekend voordeel.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🤖 De ratio legis is tweezijdig: (a) milieu-doelstelling — Belgische bedrijfswagens veroorzaken een buitenproportioneel deel van de CO2-uitstoot, en het mobiliteitsbudget biedt een fiscaal aantrekkelijk alternatief dat duurzaam vervoer beloont; (b) loon-flexibilisering zonder fiscaal-budgettair verlies — door het budget aan de TCO van de wagen te koppelen blijft het belastbaar voordeel-equivalent ongeveer gelijk, terwijl de werknemer keuzevrijheid krijgt. Het is daarmee de modernere opvolger-piste naast de uitdovende mobiliteitsvergoeding (cash-for-car).
+De ratio legis is tweezijdig: (a) milieu-doelstelling — Belgische bedrijfswagens veroorzaken een buitenproportioneel deel van de CO2-uitstoot, en het mobiliteitsbudget biedt een fiscaal aantrekkelijk alternatief dat duurzaam vervoer beloont; (b) loon-flexibilisering zonder fiscaal-budgettair verlies — door het budget aan de TCO van de wagen te koppelen blijft het belastbaar voordeel-equivalent ongeveer gelijk, terwijl de werknemer keuzevrijheid krijgt. Het is daarmee de modernere opvolger-piste naast de uitdovende mobiliteitsvergoeding (cash-for-car).
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -69,125 +61,114 @@ Sinds de afschaffing van cash-for-car voor nieuwe gevallen is het mobiliteitsbud
 
 ## Sub-concepten
 
-### 📦 Pijler 1 — milieuvriendelijke wagen  
-_`regime` (subconcept)_
+### 📦 Pijler 1 — milieuvriendelijke wagen
 
 #### Definitie
 
-🤖 Pijler 1 laat de werknemer een deel van zijn mobiliteitsbudget besteden aan een milieuvriendelijke bedrijfswagen die voldoet aan vooropgestelde milieucriteria (sinds 2026: elektrisch of zeer beperkte CO2-uitstoot). De wagen volgt het gewone fiscaal regime voor bedrijfswagens (VAA-berekening WIB92 art. 36 §2 + aftrekbaarheid WIB92 art. 66).
+Pijler 1 laat de werknemer een deel van zijn mobiliteitsbudget besteden aan een milieuvriendelijke bedrijfswagen die voldoet aan vooropgestelde milieucriteria (sinds 2026: elektrisch of zeer beperkte CO2-uitstoot). De wagen volgt het gewone fiscaal regime voor bedrijfswagens (VAA-berekening WIB92 art. 36 §2 + aftrekbaarheid WIB92 art. 66).
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### Substantie
 
-🤖 Het deel van het budget gebruikt voor de milieuvriendelijke wagen wordt afgetrokken van het beschikbare budget; de werknemer behoudt de voordelen én ondervindt de fiscale lasten van een klassieke bedrijfswagen (voordeel van alle aard, BIV, ...). Het wagen-restant — wat niet aan pijler 1 besteed wordt — is beschikbaar voor pijler 2 en/of 3.
+Het deel van het budget gebruikt voor de milieuvriendelijke wagen wordt afgetrokken van het beschikbare budget; de werknemer behoudt de voordelen én ondervindt de fiscale lasten van een klassieke bedrijfswagen (voordeel van alle aard, BIV, ...). Het wagen-restant — wat niet aan pijler 1 besteed wordt — is beschikbaar voor pijler 2 en/of 3.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-#### 📏 Milieucriteria pijler 1  
-_`drempel`_
+#### 📏 Milieucriteria pijler 1
 
-🔗 Voor wagens besteld vanaf 1 januari 2026 moet de pijler-1-wagen koolstofneutraal zijn (CO2-uitstoot = 0 g/km) — dit lijnt op met de algemene fiscale verstrenging voor bedrijfswagens (WIB92 art. 66 §1/1). Voor eerder bestelde wagens golden tussentijdse drempels die geleidelijk strenger werden.
+Voor wagens besteld vanaf 1 januari 2026 moet de pijler-1-wagen koolstofneutraal zijn (CO2-uitstoot = 0 g/km) — dit lijnt op met de algemene fiscale verstrenging voor bedrijfswagens (WIB92 art. 66 §1/1). Voor eerder bestelde wagens golden tussentijdse drempels die geleidelijk strenger werden.
 
-<small>📚 WIB92 — Art. 66 §1/1 — verstrengde aftrekpercentages voor bedrijfswagens vanaf 1 jan 2026 — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — Art. 66 §1/1 — verstrengde aftrekpercentages voor bedrijfswagens vanaf 1 jan 2026 — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-### 📦 Pijler 2 — duurzame mobiliteit  
-_`regime` (subconcept)_
+### 📦 Pijler 2 — duurzame mobiliteit
 
 #### Definitie
 
-🤖 Pijler 2 omvat alle duurzame vervoersalternatieven en aanverwante diensten waaraan het mobiliteitsbudget besteed kan worden: zachte mobiliteit (fiets, step), openbaar vervoer (abonnement trein/tram/bus, zelfs voor inwonende gezinsleden), gedeelde mobiliteit (carsharing, deelfietsen), woon-werk-voetgangerskilometers, parking voor openbaar vervoer, én — sinds de wet 25-11-2021 — huisvestingskosten (huur of hypothecaire-intresten) wanneer de werknemer binnen 10 km van het werk woont.
+Pijler 2 omvat alle duurzame vervoersalternatieven en aanverwante diensten waaraan het mobiliteitsbudget besteed kan worden: zachte mobiliteit (fiets, step), openbaar vervoer (abonnement trein/tram/bus, zelfs voor inwonende gezinsleden), gedeelde mobiliteit (carsharing, deelfietsen), woon-werk-voetgangerskilometers, parking voor openbaar vervoer, én — sinds de wet 25-11-2021 — huisvestingskosten (huur of hypothecaire-intresten) wanneer de werknemer binnen 10 km van het werk woont.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### Substantie
 
-🤖 Pijler-2-bestedingen zijn vrijgesteld van personenbelasting én van sociale bijdragen. Dit maakt pijler 2 fiscaal het meest aantrekkelijke kanaal — eke euro besteed in pijler 2 levert ~1 euro netto op, in tegenstelling tot loon waar bruto ≈ 2× netto.
+Pijler-2-bestedingen zijn vrijgesteld van personenbelasting én van sociale bijdragen. Dit maakt pijler 2 fiscaal het meest aantrekkelijke kanaal — eke euro besteed in pijler 2 levert ~1 euro netto op, in tegenstelling tot loon waar bruto ≈ 2× netto.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-#### 📜 Categorieën pijler 2  
-_`regel`_
+#### 📜 Categorieën pijler 2
 
-🤖 Toegelaten bestedingen omvatten: (a) zachte mobiliteit — fiets (aankoop, leasing, onderhoud, accessoires, fietsvergoeding), elektrische step, e.d.; (b) openbaar-vervoer-abonnementen (incl. inwonende gezinsleden); (c) gedeelde mobiliteit — auto-/scooter-/fietsdelen, taxi, autoverhuur (max. 30 dagen/jaar); (d) voetgangers-kilometervergoeding voor woon-werk; (e) parking bij openbaar-vervoer-knooppunten; (f) huisvestingskosten (huur of hypotheek-intresten) indien werknemer binnen 10 km van werk woont.
+Toegelaten bestedingen omvatten: (a) zachte mobiliteit — fiets (aankoop, leasing, onderhoud, accessoires, fietsvergoeding), elektrische step, e.d.; (b) openbaar-vervoer-abonnementen (incl. inwonende gezinsleden); (c) gedeelde mobiliteit — auto-/scooter-/fietsdelen, taxi, autoverhuur (max. 30 dagen/jaar); (d) voetgangers-kilometervergoeding voor woon-werk; (e) parking bij openbaar-vervoer-knooppunten; (f) huisvestingskosten (huur of hypotheek-intresten) indien werknemer binnen 10 km van werk woont.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-### 📦 Pijler 3 — cash-saldo  
-_`regime` (subconcept)_
+### 📦 Pijler 3 — cash-saldo
 
 #### Definitie
 
-🤖 Pijler 3 is het restant-budget dat op het einde van het kalenderjaar niet aan pijler 1 of 2 werd besteed, en dat als een geldsom aan de werknemer wordt uitbetaald. Het cash-saldo is vrijgesteld van personenbelasting maar onderworpen aan een bijzondere werknemers-sociale bijdrage van 38,07 %.
+Pijler 3 is het restant-budget dat op het einde van het kalenderjaar niet aan pijler 1 of 2 werd besteed, en dat als een geldsom aan de werknemer wordt uitbetaald. Het cash-saldo is vrijgesteld van personenbelasting maar onderworpen aan een bijzondere werknemers-sociale bijdrage van 38,07 %.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### Substantie
 
-🤖 Pijler 3 maakt het mobiliteitsbudget aantrekkelijk ook voor werknemers die hun bedrijfswagen niet maximaal nodig hebben: hun overschot vertaalt zich in extra netto-loon (zonder PB, met enkel een bijzondere bijdrage). Het saldo wordt jaarlijks vastgesteld; er is geen overdracht naar volgend jaar.
+Pijler 3 maakt het mobiliteitsbudget aantrekkelijk ook voor werknemers die hun bedrijfswagen niet maximaal nodig hebben: hun overschot vertaalt zich in extra netto-loon (zonder PB, met enkel een bijzondere bijdrage). Het saldo wordt jaarlijks vastgesteld; er is geen overdracht naar volgend jaar.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Bouwstenen
 
-### 🧮 TCO-formule mobiliteitsbudget  
-_`formule`_
+### 🧮 TCO-formule mobiliteitsbudget
 
-🤖 Het jaarlijks mobiliteitsbudget = jaarlijkse Total Cost of Ownership (TCO) van de bedrijfswagen waarop de werknemer recht had of zou hebben gehad. TCO omvat: leasing-/financieringskost + brandstof-/laadkosten + verzekering + onderhoud + belastingen (BIV, verkeersbelasting, CO2-solidariteitsbijdrage werkgever) − eigen bijdrage werknemer. Tussen 20 % (laagste) en 200 % (hoogste) van de gemiddelde TCO van een referentiewagen in de werkgevers-vloot — afhankelijk van de positie van de werknemer.
+Het jaarlijks mobiliteitsbudget = jaarlijkse Total Cost of Ownership (TCO) van de bedrijfswagen waarop de werknemer recht had of zou hebben gehad. TCO omvat: leasing-/financieringskost + brandstof-/laadkosten + verzekering + onderhoud + belastingen (BIV, verkeersbelasting, CO2-solidariteitsbijdrage werkgever) − eigen bijdrage werknemer. Tussen 20 % (laagste) en 200 % (hoogste) van de gemiddelde TCO van een referentiewagen in de werkgevers-vloot — afhankelijk van de positie van de werknemer.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-### 📜 Cumulverbod met vrijstellingen WIB92 art. 38  
-_`regel`_
+### 📜 Cumulverbod met vrijstellingen WIB92 art. 38
 
-📖 Een werknemer die een mobiliteitsbudget ontvangt op grond van de wet 17 maart 2019 kan voor dezelfde periode geen aanspraak meer maken op de fiscale vrijstelling voor woon-werkverplaatsing met openbaar vervoer (WIB92 art. 38 §1, eerste lid, 9°, a en b) noch op de vrijstelling voor de fietsvergoeding (WIB92 art. 38 §1, eerste lid, 14°). Uitzondering: het geval bedoeld in art. 10, §3 van de wet 17 maart 2019.
+Een werknemer die een mobiliteitsbudget ontvangt op grond van de wet 17 maart 2019 kan voor dezelfde periode geen aanspraak meer maken op de fiscale vrijstelling voor woon-werkverplaatsing met openbaar vervoer (WIB92 art. 38 §1, eerste lid, 9°, a en b) noch op de vrijstelling voor de fietsvergoeding (WIB92 art. 38 §1, eerste lid, 14°). Uitzondering: het geval bedoeld in art. 10, §3 van de wet 17 maart 2019.
 
-<small>📚 WIB92 — Art. 38 (uitsluitingslid mobiliteitsbudget) — _wettekst_</small>
+<small>📖 WIB92 — Art. 38 (uitsluitingslid mobiliteitsbudget) — _wettekst_</small>
 
 ## Voorbeelden
 
-### 💡 Werknemer Jan ruilt bedrijfswagen in voor €8.000 mobiliteitsbudget 🤖
-
-_Jan is sales-medewerker bij BV Optima. Hij heeft recht op een Volkswagen Passat (TCO €8.000/jaar). Jan besluit zijn wagen-recht in te ruilen voor het mobiliteitsbudget vanaf 1 januari 2026._
-
-**Berekening:**
-- {'stap': 1, 'omschrijving': 'Pijler 1 — elektrische Renault Zoë (kleinere wagen, lagere TCO)', 'bedrag': '€3.200 (40 %)', 'fiscaal_regime': 'Klassieke bedrijfswagen-fiscaliteit: VAA elektrisch ≈ €1.540 minimum/jaar, aftrekbaar bij werkgever 100 % (WIB92 art. 66 §1).'}
-- {'stap': 2, 'omschrijving': 'Pijler 2 — NMBS-abonnement (€1.200) + fiets-leasing (€1.500) + parking aan station (€500)', 'bedrag': '€3.200 (40 %)', 'fiscaal_regime': 'Vrijgesteld van personenbelasting + sociale bijdragen → netto-effect = €3.200.'}
-- {'stap': 3, 'omschrijving': 'Pijler 3 — cash-saldo eind van het jaar', 'bedrag': '€1.600 (20 %)', 'fiscaal_regime': 'Vrijgesteld PB; bijzondere RSZ-werknemersbijdrage 38,07 % → netto ≈ €1.600 − €609 = €991.'}
-- {'stap': 4, 'omschrijving': 'Netto-effect totaal voor Jan', 'berekening': 'Pijler 1 (gebruik wagen) + €3.200 (P2 netto) + €991 (P3 netto) = wagen + €4.191 cash-equivalent', 'vergelijking': 'Was Jan in de klassieke bedrijfswagen gebleven, dan had hij enkel de wagen-VAA gehad (≈ €1.540 bij elektrische Passat-equivalent) — géén cash, géén pijler-2-vrijstellingen.'}
-
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+> [!example]- Werknemer Jan ruilt bedrijfswagen in voor €8.000 mobiliteitsbudget
+> _Jan is sales-medewerker bij BV Optima. Hij heeft recht op een Volkswagen Passat (TCO €8.000/jaar). Jan besluit zijn wagen-recht in te ruilen voor het mobiliteitsbudget vanaf 1 januari 2026._
+>
+> **🧮 Verdeling budget €8.000 over 3 pijlers (40 / 40 / 20)**
+>
+> - {'stap': 1, 'omschrijving': 'Pijler 1 — elektrische Renault Zoë (kleinere wagen, lagere TCO)', 'bedrag': '€3.200 (40 %)', 'fiscaal_regime': 'Klassieke bedrijfswagen-fiscaliteit: VAA elektrisch ≈ €1.540 minimum/jaar, aftrekbaar bij werkgever 100 % (WIB92 art. 66 §1).'}
+> - {'stap': 2, 'omschrijving': 'Pijler 2 — NMBS-abonnement (€1.200) + fiets-leasing (€1.500) + parking aan station (€500)', 'bedrag': '€3.200 (40 %)', 'fiscaal_regime': 'Vrijgesteld van personenbelasting + sociale bijdragen → netto-effect = €3.200.'}
+> - {'stap': 3, 'omschrijving': 'Pijler 3 — cash-saldo eind van het jaar', 'bedrag': '€1.600 (20 %)', 'fiscaal_regime': 'Vrijgesteld PB; bijzondere RSZ-werknemersbijdrage 38,07 % → netto ≈ €1.600 − €609 = €991.'}
+> - {'stap': 4, 'omschrijving': 'Netto-effect totaal voor Jan', 'berekening': 'Pijler 1 (gebruik wagen) + €3.200 (P2 netto) + €991 (P3 netto) = wagen + €4.191 cash-equivalent', 'vergelijking': 'Was Jan in de klassieke bedrijfswagen gebleven, dan had hij enkel de wagen-VAA gehad (≈ €1.540 bij elektrische Passat-equivalent) — géén cash, géén pijler-2-vrijstellingen.'}
+>
+> <small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ TCO ≠ catalogusprijs
+> [!warning]- TCO ≠ catalogusprijs
+> **Verkeerde assumptie**: Het budget gelijkt op de aankoopprijs of cataloguswaarde van de bedrijfswagen.
+>
+> **Kernpunt**: Het budget is de jaarlijkse TCO (alle kosten op jaarbasis: leasing + brandstof + verzekering + onderhoud + belastingen + CO2-bijdrage), niet de eenmalige aankoopprijs. Een wagen van €40.000 catalogus kan een TCO hebben van €8.000-€12.000/jaar afhankelijk van bezetting en wagen-type.
+>
+> <small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-**Verkeerde assumptie**: Het budget gelijkt op de aankoopprijs of cataloguswaarde van de bedrijfswagen.
+> [!warning]- Pijler 3 ≠ volledig netto-loon
+> **Verkeerde assumptie**: Het cash-saldo (pijler 3) is volledig nettoloon want PB-vrijgesteld.
+>
+> **Kernpunt**: Pijler 3 is wel vrijgesteld van personenbelasting, maar onderworpen aan een bijzondere werknemers-RSZ-bijdrage van 38,07 %. Op €1.000 cash-saldo houdt de werknemer ~€619,30 netto over — fiscaal nog steeds voordeliger dan klassiek brutoloon (waar netto/bruto ≈ 50 %), maar geen 1-op-1 nettoloon.
+>
+> <small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
-**Kernpunt**: Het budget is de jaarlijkse TCO (alle kosten op jaarbasis: leasing + brandstof + verzekering + onderhoud + belastingen + CO2-bijdrage), niet de eenmalige aankoopprijs. Een wagen van €40.000 catalogus kan een TCO hebben van €8.000-€12.000/jaar afhankelijk van bezetting en wagen-type.
-
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ Pijler 3 ≠ volledig netto-loon
-
-**Verkeerde assumptie**: Het cash-saldo (pijler 3) is volledig nettoloon want PB-vrijgesteld.
-
-**Kernpunt**: Pijler 3 is wel vrijgesteld van personenbelasting, maar onderworpen aan een bijzondere werknemers-RSZ-bijdrage van 38,07 %. Op €1.000 cash-saldo houdt de werknemer ~€619,30 netto over — fiscaal nog steeds voordeliger dan klassiek brutoloon (waar netto/bruto ≈ 50 %), maar geen 1-op-1 nettoloon.
-
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ Cumul met fietsvergoeding verboden
-
-**Verkeerde assumptie**: Een werknemer met mobiliteitsbudget kan daarnaast nog fiscaal vrijgestelde fietsvergoeding (€0,35/km) opstrijken.
-
-**Kernpunt**: WIB92 art. 38 sluit cumulatie expliciet uit: vrijstellingen 9° (openbaar vervoer woon-werk) en 14° (fietsvergoeding) zijn niet beschikbaar wanneer een mobiliteitsbudget loopt, behalve in de specifieke uitzondering van art. 10 §3 wet 17-03-2019.
-
-<small>📚 WIB92 — Art. 38 (uitsluitingslid) — _wettekst_</small>
+> [!warning]- Cumul met fietsvergoeding verboden
+> **Verkeerde assumptie**: Een werknemer met mobiliteitsbudget kan daarnaast nog fiscaal vrijgestelde fietsvergoeding (€0,35/km) opstrijken.
+>
+> **Kernpunt**: WIB92 art. 38 sluit cumulatie expliciet uit: vrijstellingen 9° (openbaar vervoer woon-werk) en 14° (fietsvergoeding) zijn niet beschikbaar wanneer een mobiliteitsbudget loopt, behalve in de specifieke uitzondering van art. 10 §3 wet 17-03-2019.
+>
+> <small>📖 WIB92 — Art. 38 (uitsluitingslid) — _wettekst_</small>
 
 ## Syntheses
 
-### 🧩 Synthese  
-_`keuzekader`_
+### 🧩 Synthese
 
 Drie regimes voor werknemer-mobiliteit: gewone bedrijfswagen vs. cash-for-car (uitdovend) vs. mobiliteitsbudget.
 
@@ -199,30 +180,27 @@ _De accountant adviseert de werkgever bij invoering, helpt de TCO bepalen en zor
 
 #### 🧭 Adviseur
 
-##### 👣 Checklist invoering mobiliteitsbudget  
-_`stap`_
+##### 👣 Checklist invoering mobiliteitsbudget
 
-🤖 (1) Verifieer 36-maanden-voorwaarde werkgever; (2) bepaal de TCO-formule en referentie-wagen-categorieën in de wagen-policy; (3) stel een CAO of individueel akkoord op met de werknemers; (4) bepaal welke pijler-2-bestedingen toegestaan zijn (intern reglement); (5) implementeer een digitale tool voor budget-tracking; (6) coördineer met sociaal secretariaat voor RSZ-pijler-3-bijdragen.
+(1) Verifieer 36-maanden-voorwaarde werkgever; (2) bepaal de TCO-formule en referentie-wagen-categorieën in de wagen-policy; (3) stel een CAO of individueel akkoord op met de werknemers; (4) bepaal welke pijler-2-bestedingen toegestaan zijn (intern reglement); (5) implementeer een digitale tool voor budget-tracking; (6) coördineer met sociaal secretariaat voor RSZ-pijler-3-bijdragen.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### 📒 Boekhouder
 
-##### 👣 Boeking pijler 2 — bv. NMBS-abonnement werknemer  
-_`stap`_
+##### 👣 Boeking pijler 2 — bv. NMBS-abonnement werknemer
 
-🤖 Pijler-2-bestedingen worden geboekt als personeelskosten (klasse 62) — 'Andere personeelskosten' of een dedicated mobiliteits-subrekening. Werkgever recupereert btw niet op personenvervoer (KB nr 45 btw, art. 45 §3). Geen patronale RSZ-bijdrage door vrijstelling pijler 2.
+Pijler-2-bestedingen worden geboekt als personeelskosten (klasse 62) — 'Andere personeelskosten' of een dedicated mobiliteits-subrekening. Werkgever recupereert btw niet op personenvervoer (KB nr 45 btw, art. 45 §3). Geen patronale RSZ-bijdrage door vrijstelling pijler 2.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### 💰 Fiscaal adviseur
 
-##### 📜 Fiscale verwerking werkgever per pijler  
-_`regel`_
+##### 📜 Fiscale verwerking werkgever per pijler
 
-🔗 Pijler 1: aftrekbaarheid bedrijfswagen volgens WIB92 art. 66 §1/1 (verstrengde regels vanaf 1-7-2023, koolstofneutraal voor wagens gekocht/geleased vanaf 1-1-2028). Pijler 2 en 3: volledig aftrekbaar als personeelskost in de mate dat het mobiliteitsbudget niet wordt overschreden. CO2-solidariteitsbijdrage werkgever blijft van toepassing op de pijler-1-wagen.
+Pijler 1: aftrekbaarheid bedrijfswagen volgens WIB92 art. 66 §1/1 (verstrengde regels vanaf 1-7-2023, koolstofneutraal voor wagens gekocht/geleased vanaf 1-1-2028). Pijler 2 en 3: volledig aftrekbaar als personeelskost in de mate dat het mobiliteitsbudget niet wordt overschreden. CO2-solidariteitsbijdrage werkgever blijft van toepassing op de pijler-1-wagen.
 
-<small>📚 WIB92 — Art. 66 §1/1 — aftrekbaarheid bedrijfswagens — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — Art. 66 §1/1 — aftrekbaarheid bedrijfswagens — _wettekst_ · claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ### Werknemer-belastingplichtige
 
@@ -230,21 +208,19 @@ _De accountant adviseert de werknemer over de keuze tussen wagen-behoud en mobil
 
 #### 🧭 Adviseur
 
-##### 🧭 Afweging wagen vs. mobiliteitsbudget  
-_`vuistregel`_
+##### 🧭 Afweging wagen vs. mobiliteitsbudget
 
-🤖 Vuistregel: hoe minder de werknemer de wagen nodig heeft voor woon-werk (bv. bij hybride werk, korte woon-werk-afstand, OV-bereikbare locatie), hoe interessanter het mobiliteitsbudget. Een werknemer die 80 % van zijn budget in pijler 2 kan steken, haalt netto ~80 % rendement. Wie de wagen écht nodig heeft, blijft beter bij pijler 1 of bij de klassieke bedrijfswagen.
+Vuistregel: hoe minder de werknemer de wagen nodig heeft voor woon-werk (bv. bij hybride werk, korte woon-werk-afstand, OV-bereikbare locatie), hoe interessanter het mobiliteitsbudget. Een werknemer die 80 % van zijn budget in pijler 2 kan steken, haalt netto ~80 % rendement. Wie de wagen écht nodig heeft, blijft beter bij pijler 1 of bij de klassieke bedrijfswagen.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 #### 💰 Fiscaal adviseur
 
-##### 📜 Aangifte werknemer: vakken op fiche 281.10  
-_`regel`_
+##### 📜 Aangifte werknemer: vakken op fiche 281.10
 
-🤖 Pijler 1 (bedrijfswagen): VAA verschijnt in vak 1254/2254 (voordeel van alle aard). Pijler 2: niet aan te geven (volledig vrijgesteld). Pijler 3 (cash-saldo): niet als belastbaar loon (PB-vrijgesteld); de bijzondere RSZ-bijdrage wordt door werkgever ingehouden en is geen aftrekbare beroepskost.
+Pijler 1 (bedrijfswagen): VAA verschijnt in vak 1254/2254 (voordeel van alle aard). Pijler 2: niet aan te geven (volledig vrijgesteld). Pijler 3 (cash-saldo): niet als belastbaar loon (PB-vrijgesteld); de bijzondere RSZ-bijdrage wordt door werkgever ingehouden en is geen aftrekbare beroepskost.
 
-<small>📚 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
+<small>🤖 claude-opus-4-7-1m — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

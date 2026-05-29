@@ -16,33 +16,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/interest-royalty-richtlijn.json"
 ---
 
-# Interest-royaltyrichtlijn
-
-_Regime_
-
-📋 Regeling · Anchors: `2.8.III` · Wave: `skeleton-btw-internationaal-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Afk.**: IRR — **Synoniemen**: interest-royalty directive · IRD · interest- en royaltyrichtlijn — **Vertalingen**: fr: directive intérêts-redevances · en: Interest and Royalties Directive
+_Regime_ · afk: **IRR** · ook: interest-royalty directive · IRD · interest- en royaltyrichtlijn
 
 ## Definitie
 
-📖 De Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) legt een gemeenschappelijke fiscale regeling op voor grensoverschrijdende betalingen van interest en royalty's tussen verbonden ondernemingen uit verschillende EU-lidstaten. Kerngedachte: zulke betalingen worden vrijgesteld van alle bronbelastingen in de bronstaat (lidstaat van de uitbetaler), op voorwaarde dat de ontvanger de uiteindelijk gerechtigde (beneficial owner) is en een verbonden onderneming is. De richtlijn voorkomt dat hetzelfde inkomen tweemaal belast wordt — één keer bij de uitbetalende vennootschap (door RV-inhouding) én één keer bij de ontvanger als belastbare opbrengst.
+De Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) legt een gemeenschappelijke fiscale regeling op voor grensoverschrijdende betalingen van interest en royalty's tussen verbonden ondernemingen uit verschillende EU-lidstaten. Kerngedachte: zulke betalingen worden vrijgesteld van alle bronbelastingen in de bronstaat (lidstaat van de uitbetaler), op voorwaarde dat de ontvanger de uiteindelijk gerechtigde (beneficial owner) is en een verbonden onderneming is. De richtlijn voorkomt dat hetzelfde inkomen tweemaal belast wordt — één keer bij de uitbetalende vennootschap (door RV-inhouding) én één keer bij de ontvanger als belastbare opbrengst.
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 7 — _richtlijn_ · Richtlijn 2003/49/EG — art. 2 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 7 — _richtlijn_ · Richtlijn 2003/49/EG — art. 2 — _richtlijn_</small>
 
 ## Substantie
 
-🔗 Stel: een Belgische dochter betaalt een interestbedrag van 100.000 EUR aan haar Duitse moeder voor een groepslening. Zonder de richtlijn zou België op die uitbetaling een RV van 30 % inhouden = 30.000 EUR. De Duitse moeder ontvangt 70.000 EUR netto en moet die nog opnemen in haar belastbare basis in Duitsland (mits verdrag bij verrekening). Met de richtlijn houdt België géén RV in: de Duitse moeder ontvangt het volle bedrag van 100.000 EUR en betaalt enkel Duitse VenB op de netto-marge. Resultaat: één enkele belasting bij de ontvanger op zijn netto-marge, geen extra fiscale belasting bij de overdracht. Hetzelfde principe geldt voor royalty-stromen (licentievergoedingen voor IP-rechten binnen een groep).
+Stel: een Belgische dochter betaalt een interestbedrag van 100.000 EUR aan haar Duitse moeder voor een groepslening. Zonder de richtlijn zou België op die uitbetaling een RV van 30 % inhouden = 30.000 EUR. De Duitse moeder ontvangt 70.000 EUR netto en moet die nog opnemen in haar belastbare basis in Duitsland (mits verdrag bij verrekening). Met de richtlijn houdt België géén RV in: de Duitse moeder ontvangt het volle bedrag van 100.000 EUR en betaalt enkel Duitse VenB op de netto-marge. Resultaat: één enkele belasting bij de ontvanger op zijn netto-marge, geen extra fiscale belasting bij de overdracht. Hetzelfde principe geldt voor royalty-stromen (licentievergoedingen voor IP-rechten binnen een groep).
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🔗 De ratio legis sluit aan bij de Moeder-dochterrichtlijn maar voor andere kapitaalstromen: niet dividenden (vennootschappelijk rendement) maar interest (vergoeding voor schuldfinanciering) en royalty's (vergoeding voor IP-gebruik). Doel: belemmeringen voor financierings- en IP-stromen binnen grensoverschrijdende EU-groepen wegnemen, omdat zonder richtlijn elke interest- en royalty-betaling een bronbelasting kan oplopen (in België standaard 30 %, met DBV verlaagd tot 10 %). Voor de werking van de interne markt en de fiscale neutraliteit tussen binnenlandse en grensoverschrijdende groepsfinanciering moest die belasting weg. Tegelijk bouwt de richtlijn substantiële anti-misbruik-bepalingen in: enkel de 'uiteindelijk gerechtigde' krijgt het voordeel, zodat pure doorstroom-vennootschappen (conduit-structuren) niet kunnen profiteren.
+De ratio legis sluit aan bij de Moeder-dochterrichtlijn maar voor andere kapitaalstromen: niet dividenden (vennootschappelijk rendement) maar interest (vergoeding voor schuldfinanciering) en royalty's (vergoeding voor IP-gebruik). Doel: belemmeringen voor financierings- en IP-stromen binnen grensoverschrijdende EU-groepen wegnemen, omdat zonder richtlijn elke interest- en royalty-betaling een bronbelasting kan oplopen (in België standaard 30 %, met DBV verlaagd tot 10 %). Voor de werking van de interne markt en de fiscale neutraliteit tussen binnenlandse en grensoverschrijdende groepsfinanciering moest die belasting weg. Tegelijk bouwt de richtlijn substantiële anti-misbruik-bepalingen in: enkel de 'uiteindelijk gerechtigde' krijgt het voordeel, zodat pure doorstroom-vennootschappen (conduit-structuren) niet kunnen profiteren.
 
-<small>📚 Richtlijn 2003/49/EG — preambule + art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 Richtlijn 2003/49/EG — preambule + art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -72,124 +64,112 @@ De richtlijn liet overgangsregels toe voor Griekenland, Spanje en Portugal (art.
 
 ## Bouwstenen
 
-### 📏 Minimum-deelneming 25 %  
-_`drempel`_
+### 📏 Minimum-deelneming 25 %
 
-🔗 De richtlijn geldt enkel tussen 'verbonden ondernemingen' (art. 1 lid 7). De drempel is een rechtstreekse of onrechtstreekse deelneming van ten minste 25 % in kapitaal of stemrechten — ofwel houdt de uitbetaler ≥ 25 % in de ontvanger, ofwel omgekeerd, ofwel houdt een derde gemeenschappelijke vennootschap ≥ 25 % in beide. Belangrijk verschil met de MDR: daar volstaat 10 %.
+De richtlijn geldt enkel tussen 'verbonden ondernemingen' (art. 1 lid 7). De drempel is een rechtstreekse of onrechtstreekse deelneming van ten minste 25 % in kapitaal of stemrechten — ofwel houdt de uitbetaler ≥ 25 % in de ontvanger, ofwel omgekeerd, ofwel houdt een derde gemeenschappelijke vennootschap ≥ 25 % in beide. Belangrijk verschil met de MDR: daar volstaat 10 %.
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 7 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 Richtlijn 2003/49/EG — art. 1 lid 7 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 📏 Houdperiode 2 jaar (optie lidstaat)  
-_`drempel`_
+### 📏 Houdperiode 2 jaar (optie lidstaat)
 
-🔗 Een lidstaat heeft de mogelijkheid om de richtlijn niet toe te passen op een onderneming uit een andere lidstaat indien de deelnemingsvereisten niet vervuld waren gedurende een ononderbroken periode van ten minste 2 jaar (art. 1 lid 10). België past deze 2-jaar-houdperiode toe via de Belgische uitvoering art. 107 KB-WIB. Bij vroegtijdige beëindiging vervalt de vrijstelling met terugwerkende kracht.
+Een lidstaat heeft de mogelijkheid om de richtlijn niet toe te passen op een onderneming uit een andere lidstaat indien de deelnemingsvereisten niet vervuld waren gedurende een ononderbroken periode van ten minste 2 jaar (art. 1 lid 10). België past deze 2-jaar-houdperiode toe via de Belgische uitvoering art. 107 KB-WIB. Bij vroegtijdige beëindiging vervalt de vrijstelling met terugwerkende kracht.
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 10 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 Richtlijn 2003/49/EG — art. 1 lid 10 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 💡 Uiteindelijk gerechtigde (beneficial owner)  
-_`begrip`_
+### 💡 Uiteindelijk gerechtigde (beneficial owner)
 
-📖 Een onderneming wordt alleen als uiteindelijk gerechtigde behandeld indien zij de interest of royalty's 'te eigen gunste' ontvangt — NIET als bemiddelende instantie, tussenpersoon, trustee of gemachtigde van een derde (art. 1 lid 4). Een vaste inrichting kan beneficial owner zijn indien (a) de schuldvordering of het IP-recht daadwerkelijk verband houdt met die vaste inrichting, EN (b) zij in haar lidstaat onderworpen is aan de bedoelde vennootschapsbelasting (art. 1 lid 5). Dit criterium is dé sleutel-anti-misbruik-bepaling van de richtlijn: het sluit conduit-structuren uit. De HvJ vereist daarbij economische substantie — eigen personeel, eigen besluitvorming, eigen risico's — vooraleer beneficial-owner-status wordt toegekend (Deense BO-zaken).
+Een onderneming wordt alleen als uiteindelijk gerechtigde behandeld indien zij de interest of royalty's 'te eigen gunste' ontvangt — NIET als bemiddelende instantie, tussenpersoon, trustee of gemachtigde van een derde (art. 1 lid 4). Een vaste inrichting kan beneficial owner zijn indien (a) de schuldvordering of het IP-recht daadwerkelijk verband houdt met die vaste inrichting, EN (b) zij in haar lidstaat onderworpen is aan de bedoelde vennootschapsbelasting (art. 1 lid 5). Dit criterium is dé sleutel-anti-misbruik-bepaling van de richtlijn: het sluit conduit-structuren uit. De HvJ vereist daarbij economische substantie — eigen personeel, eigen besluitvorming, eigen risico's — vooraleer beneficial-owner-status wordt toegekend (Deense BO-zaken).
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 4-5 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 Richtlijn 2003/49/EG — art. 1 lid 4-5 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 💡 Interest (art. 2 a)  
-_`begrip`_
+### 💡 Interest (art. 2 a)
 
-📖 Inkomsten uit schuldvorderingen van welke aard ook, al dan niet door hypotheek verzekerd, al dan niet aanspraak gevend op een aandeel in de winst van de schuldenaar. Inclusief: inkomsten uit leningen, obligaties, schuldbewijzen, en de aan zulke instrumenten verbonden premies en prijzen. UITGESLOTEN: boete voor te late betaling. Belangrijk: de definitie is breed en omvat alle vormen van schuld-vergoeding — ook deelnemende leningen worden in eerste instantie als interest aangemerkt, tenzij de bronstaat ze als winstuitkering herkwalificeert (art. 4 lid 1).
+Inkomsten uit schuldvorderingen van welke aard ook, al dan niet door hypotheek verzekerd, al dan niet aanspraak gevend op een aandeel in de winst van de schuldenaar. Inclusief: inkomsten uit leningen, obligaties, schuldbewijzen, en de aan zulke instrumenten verbonden premies en prijzen. UITGESLOTEN: boete voor te late betaling. Belangrijk: de definitie is breed en omvat alle vormen van schuld-vergoeding — ook deelnemende leningen worden in eerste instantie als interest aangemerkt, tenzij de bronstaat ze als winstuitkering herkwalificeert (art. 4 lid 1).
 
-<small>📚 Richtlijn 2003/49/EG — art. 2 a — _richtlijn_ · Richtlijn 2003/49/EG — art. 4 lid 1 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 2 a — _richtlijn_ · Richtlijn 2003/49/EG — art. 4 lid 1 — _richtlijn_</small>
 
-### 💡 Royalty's (art. 2 b)  
-_`begrip`_
+### 💡 Royalty's (art. 2 b)
 
-📖 Vergoedingen van welke aard ook voor het gebruik (of het recht van gebruik) van: auteursrecht op een werk van letterkunde, kunst of wetenschap (inclusief bioscoopfilms en software); octrooi; fabrieks- of handelsmerk; tekening of model; plan; geheim recept of geheime werkwijze; inlichtingen omtrent ervaringen op het gebied van nijverheid, handel of wetenschap (know-how); industriële, commerciële of wetenschappelijke uitrusting. Het concept is breed maar vereist altijd een gebruiksrecht — niet een eigendomsoverdracht.
+Vergoedingen van welke aard ook voor het gebruik (of het recht van gebruik) van: auteursrecht op een werk van letterkunde, kunst of wetenschap (inclusief bioscoopfilms en software); octrooi; fabrieks- of handelsmerk; tekening of model; plan; geheim recept of geheime werkwijze; inlichtingen omtrent ervaringen op het gebied van nijverheid, handel of wetenschap (know-how); industriële, commerciële of wetenschappelijke uitrusting. Het concept is breed maar vereist altijd een gebruiksrecht — niet een eigendomsoverdracht.
 
-<small>📚 Richtlijn 2003/49/EG — art. 2 b — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 2 b — _richtlijn_</small>
 
-### 📜 Bronbelastingvrijstelling — door inhouding of aanslag (art. 1 lid 1)  
-_`regel`_
+### 📜 Bronbelastingvrijstelling — door inhouding of aanslag (art. 1 lid 1)
 
-📖 Uitkeringen van interest of royalty's die ontstaan in een lidstaat worden vrijgesteld van ALLE belastingen in die bronstaat — zowel inhouding (RV) als aanslag (heffing op het gebruik in de bedrijfsuitgave-aftrek). Voorwaarde: de ontvanger is een verbonden EU-onderneming én uiteindelijk gerechtigde. De vrijstelling werkt UITSLUITEND aan bronzijde — de moederstaat is vrij om de inkomende stroom als belastbaar inkomen te behandelen (in tegenstelling tot de MDR die ook moederzijdig werkt via vrijstelling/credit).
+Uitkeringen van interest of royalty's die ontstaan in een lidstaat worden vrijgesteld van ALLE belastingen in die bronstaat — zowel inhouding (RV) als aanslag (heffing op het gebruik in de bedrijfsuitgave-aftrek). Voorwaarde: de ontvanger is een verbonden EU-onderneming én uiteindelijk gerechtigde. De vrijstelling werkt UITSLUITEND aan bronzijde — de moederstaat is vrij om de inkomende stroom als belastbaar inkomen te behandelen (in tegenstelling tot de MDR die ook moederzijdig werkt via vrijstelling/credit).
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_</small>
 
-### 📜 Arms-length-correctie (art. 4 lid 2)  
-_`regel`_
+### 📜 Arms-length-correctie (art. 4 lid 2)
 
-📖 Wanneer wegens een bijzondere verhouding (verbondenheid) tussen uitbetaler en ontvanger het betaalde bedrag aan interest of royalty's hoger is dan wat in een normale arms-length-onderhandeling zou zijn overeengekomen, geldt de vrijstelling alleen voor het arms-length-deel. Het surplus wordt belast volgens nationaal recht (typisch: RV ingehouden, eventueel als verkapt dividend gekwalificeerd). Dit haakt aan op transferpricing-regels van art. 9 OESO-modelverdrag.
+Wanneer wegens een bijzondere verhouding (verbondenheid) tussen uitbetaler en ontvanger het betaalde bedrag aan interest of royalty's hoger is dan wat in een normale arms-length-onderhandeling zou zijn overeengekomen, geldt de vrijstelling alleen voor het arms-length-deel. Het surplus wordt belast volgens nationaal recht (typisch: RV ingehouden, eventueel als verkapt dividend gekwalificeerd). Dit haakt aan op transferpricing-regels van art. 9 OESO-modelverdrag.
 
-<small>📚 Richtlijn 2003/49/EG — art. 4 lid 2 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 4 lid 2 — _richtlijn_</small>
 
-### 📜 Attest-procedure voor vrijstelling (art. 1 lid 11-13)  
-_`regel`_
+### 📜 Attest-procedure voor vrijstelling (art. 1 lid 11-13)
 
-📖 De bronstaat (België) mag eisen dat de ontvanger via een attest aantoont dat de voorwaarden vervuld zijn: bewijs van fiscale woonplaats, beneficial-owner-verklaring, taxatie-verklaring (art. 3 a iii), bewijs minimumdeelneming, vermelding hoelang die deelneming bestaat. Het attest is 1 tot 3 jaar geldig (art. 1 lid 13). Wordt het attest niet voorgelegd op het betalingstijdstip, mag de bronstaat de RV alsnog inhouden (art. 1 lid 11). De ontvanger kan dan binnen minstens 2 jaar teruggave vorderen (art. 1 lid 15-16), met rente bij vertraging.
+De bronstaat (België) mag eisen dat de ontvanger via een attest aantoont dat de voorwaarden vervuld zijn: bewijs van fiscale woonplaats, beneficial-owner-verklaring, taxatie-verklaring (art. 3 a iii), bewijs minimumdeelneming, vermelding hoelang die deelneming bestaat. Het attest is 1 tot 3 jaar geldig (art. 1 lid 13). Wordt het attest niet voorgelegd op het betalingstijdstip, mag de bronstaat de RV alsnog inhouden (art. 1 lid 11). De ontvanger kan dan binnen minstens 2 jaar teruggave vorderen (art. 1 lid 15-16), met rente bij vertraging.
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 11-13 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 15-16 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 1 lid 11-13 — _richtlijn_ · Richtlijn 2003/49/EG — art. 1 lid 15-16 — _richtlijn_</small>
 
 ## Voorbeelden
 
-### 💡 Belgische dochter — Duitse moeder — groepslening 🔗
+> [!example]- Belgische dochter — Duitse moeder — groepslening
+> _Zelena Bio NV (België) heeft een lening van 5.000.000 EUR ontvangen van haar moeder Zelena Holding GmbH (Duitsland, 100 % aandeelhouder). Jaarlijkse interest aan 3 % marktconform = 150.000 EUR. Lening loopt sinds 2022. Beide voldoen aan art. 3 (rechtsvorm in bijlage) en aan art. 1 lid 7 (verbonden — 100 % > 25 %)._
+>
+> **Berekening:**
+>
+> - Stap 1 — kwalificatie: interest in de zin van art. 2 a (vergoeding voor schuldvordering — lening).
+> - Stap 2 — voorwaarden IRR: verbonden vennootschap (100 % deelneming Duitse moeder); beneficial owner (Duitse moeder ontvangt voor eigen gunste — geen tussenpersoon); houdperiode > 2 jaar (sinds 2022, dus eind 2024 voldaan).
+> - Stap 3 — zonder IRR: Zelena Bio houdt 30 % RV in = 45.000 EUR — Duitse moeder ontvangt 105.000 EUR netto. Daarna verrekening in Duitsland via DBV.
+> - Stap 4 — mét IRR (art. 107 KB-WIB): geen RV — Duitse moeder ontvangt 150.000 EUR brutto.
+> - Stap 5 — bij Zelena Bio NV: de interest blijft een aftrekbare bedrijfsuitgave (mits arms-length én geen thin-cap-beperking).
+>
+> → **Resultaat**: Volledige eliminatie RV. Zelena Bio NV moet wel een vrijstellingsattest van de Duitse fiscale autoriteiten verkrijgen en bewaren in haar dossier (art. 1 lid 11).
+>
+> <small>🔗 Richtlijn 2003/49/EG — art. 1 + art. 2 a — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-_Zelena Bio NV (België) heeft een lening van 5.000.000 EUR ontvangen van haar moeder Zelena Holding GmbH (Duitsland, 100 % aandeelhouder). Jaarlijkse interest aan 3 % marktconform = 150.000 EUR. Lening loopt sinds 2022. Beide voldoen aan art. 3 (rechtsvorm in bijlage) en aan art. 1 lid 7 (verbonden — 100 % > 25 %)._
-
-**Berekening:**
-- Stap 1 — kwalificatie: interest in de zin van art. 2 a (vergoeding voor schuldvordering — lening).
-- Stap 2 — voorwaarden IRR: verbonden vennootschap (100 % deelneming Duitse moeder); beneficial owner (Duitse moeder ontvangt voor eigen gunste — geen tussenpersoon); houdperiode > 2 jaar (sinds 2022, dus eind 2024 voldaan).
-- Stap 3 — zonder IRR: Zelena Bio houdt 30 % RV in = 45.000 EUR — Duitse moeder ontvangt 105.000 EUR netto. Daarna verrekening in Duitsland via DBV.
-- Stap 4 — mét IRR (art. 107 KB-WIB): geen RV — Duitse moeder ontvangt 150.000 EUR brutto.
-- Stap 5 — bij Zelena Bio NV: de interest blijft een aftrekbare bedrijfsuitgave (mits arms-length én geen thin-cap-beperking).
-
-→ **Resultaat**: Volledige eliminatie RV. Zelena Bio NV moet wel een vrijstellingsattest van de Duitse fiscale autoriteiten verkrijgen en bewaren in haar dossier (art. 1 lid 11).
-
-<small>📚 Richtlijn 2003/49/EG — art. 1 + art. 2 a — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### 💡 Beneficial-owner-toets — Luxemburgse holding zonder substantie 🔗
-
-_Aurelia BV (België) betaalt 200.000 EUR royalty's aan Aurelia IP Sàrl (Luxemburg, 100 % zustermaatschappij gehouden door dezelfde Amerikaanse moeder Aurelia Inc.). Aurelia IP Sàrl heeft één deeltijdse bestuurder, geen kantoor, geen IT, en sluist 95 % van de ontvangen royalty's binnen 48 uur door naar Aurelia Inc. via een licentie-overeenkomst._
-
-Beneficial-owner-toets stap-voor-stap:
-
-```mermaid
-flowchart TD
-  A[BE betaalt royalty aan LU Sàrl] --> B{LU Sàrl: ontvangst te eigen gunste?}
-  B -->|95% doorvloeit binnen 48u naar US| C[Geen BO — conduit]
-  B -->|gebruikt voor eigen activiteit, eigen risico| D[BO-status erkend]
-  C --> E[Belgische fiscus weigert vrijstelling]
-  C --> F[30% RV ingehouden of nageheven]
-  D --> G[IRR-vrijstelling geldt]
-```
-
-Key indicatoren tegen BO-status (HvJ-criteria): (1) korte tussentijd ontvangst-doorbetaling; (2) geen eigen personeel; (3) geen eigen besluitvorming over IP; (4) winstmarge < 5 % (puur conduit). Bij twijfel weigert de Belgische fiscus de vrijstelling én past algemene anti-misbruik-bepaling (art. 344 §1 WIB92) toe.
-
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+> [!example]- Beneficial-owner-toets — Luxemburgse holding zonder substantie
+> _Aurelia BV (België) betaalt 200.000 EUR royalty's aan Aurelia IP Sàrl (Luxemburg, 100 % zustermaatschappij gehouden door dezelfde Amerikaanse moeder Aurelia Inc.). Aurelia IP Sàrl heeft één deeltijdse bestuurder, geen kantoor, geen IT, en sluist 95 % van de ontvangen royalty's binnen 48 uur door naar Aurelia Inc. via een licentie-overeenkomst._
+>
+> Beneficial-owner-toets stap-voor-stap:
+>
+> ```mermaid
+> flowchart TD
+>   A[BE betaalt royalty aan LU Sàrl] --> B{LU Sàrl: ontvangst te eigen gunste?}
+>   B -->|95% doorvloeit binnen 48u naar US| C[Geen BO — conduit]
+>   B -->|gebruikt voor eigen activiteit, eigen risico| D[BO-status erkend]
+>   C --> E[Belgische fiscus weigert vrijstelling]
+>   C --> F[30% RV ingehouden of nageheven]
+>   D --> G[IRR-vrijstelling geldt]
+> ```
+>
+> Key indicatoren tegen BO-status (HvJ-criteria): (1) korte tussentijd ontvangst-doorbetaling; (2) geen eigen personeel; (3) geen eigen besluitvorming over IP; (4) winstmarge < 5 % (puur conduit). Bij twijfel weigert de Belgische fiscus de vrijstelling én past algemene anti-misbruik-bepaling (art. 344 §1 WIB92) toe.
+>
+> <small>🔗 Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ IRR-drempel 25 % verwarren met MDR-drempel 10 %
+> [!warning]- IRR-drempel 25 % verwarren met MDR-drempel 10 %
+> **Verkeerde assumptie**: De drempels van MDR en IRR zijn identiek (beide 10 %).
+>
+> **Kernpunt**: IRR vereist 25 % deelneming (kapitaal of stemrechten); MDR vereist 10 %. Bij groepsverbanden waar de deelneming tussen 10 % en 25 % ligt: MDR-vrijstelling geldt voor dividenden, maar IRR-vrijstelling geldt NIET voor interest of royalty's — daar valt men terug op het bilateraal dubbelbelastingverdrag (vaak 10 % verlaagd tarief).
+>
+> <small>🔗 Richtlijn 2003/49/EG — art. 1 lid 7 + art. 3 b — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Verkeerde assumptie**: De drempels van MDR en IRR zijn identiek (beide 10 %).
+> [!warning]- Beneficial-owner-toets als formele check zien
+> **Verkeerde assumptie**: Een vrijstellingsattest van de andere lidstaat volstaat — de Belgische fiscus moet de vrijstelling toepassen.
+>
+> **Kernpunt**: Het attest is een minimumvereiste (art. 1 lid 11-13), maar de Belgische fiscus mag substantie van de ontvanger toetsen. Bij gebrek aan economische realiteit (geen personeel, geen functies, geen risico's) weigert hij de vrijstelling ondanks het attest — HvJ heeft dit bevestigd in de Deense BO-zaken. Praktijk: substance-file aanleggen bij elke grensoverschrijdende intra-group interest- of royalty-stroom.
+>
+> <small>🔗 Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Kernpunt**: IRR vereist 25 % deelneming (kapitaal of stemrechten); MDR vereist 10 %. Bij groepsverbanden waar de deelneming tussen 10 % en 25 % ligt: MDR-vrijstelling geldt voor dividenden, maar IRR-vrijstelling geldt NIET voor interest of royalty's — daar valt men terug op het bilateraal dubbelbelastingverdrag (vaak 10 % verlaagd tarief).
-
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 7 + art. 3 b — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ Beneficial-owner-toets als formele check zien
-
-**Verkeerde assumptie**: Een vrijstellingsattest van de andere lidstaat volstaat — de Belgische fiscus moet de vrijstelling toepassen.
-
-**Kernpunt**: Het attest is een minimumvereiste (art. 1 lid 11-13), maar de Belgische fiscus mag substantie van de ontvanger toetsen. Bij gebrek aan economische realiteit (geen personeel, geen functies, geen risico's) weigert hij de vrijstelling ondanks het attest — HvJ heeft dit bevestigd in de Deense BO-zaken. Praktijk: substance-file aanleggen bij elke grensoverschrijdende intra-group interest- of royalty-stroom.
-
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 4 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ IRR toepassen op royalty's voor uitrusting buiten EU
-
-**Verkeerde assumptie**: De richtlijn werkt overal waar één partij EU is.
-
-**Kernpunt**: Art. 1 lid 1 vereist dat BEIDE partijen EU-vennootschappen (of EU-vaste-inrichtingen) zijn. Een Belgische betaler met een Amerikaanse moeder valt NIET onder IRR — daar gelden het Belgisch-Amerikaans dubbelbelastingverdrag en interne Belgische RV-regels.
-
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_</small>
+> [!warning]- IRR toepassen op royalty's voor uitrusting buiten EU
+> **Verkeerde assumptie**: De richtlijn werkt overal waar één partij EU is.
+>
+> **Kernpunt**: Art. 1 lid 1 vereist dat BEIDE partijen EU-vennootschappen (of EU-vaste-inrichtingen) zijn. Een Belgische betaler met een Amerikaanse moeder valt NIET onder IRR — daar gelden het Belgisch-Amerikaans dubbelbelastingverdrag en interne Belgische RV-regels.
+>
+> <small>📖 Richtlijn 2003/49/EG — art. 1 lid 1 — _richtlijn_</small>
 
 ## Accountant-perspectieven
 
@@ -199,28 +179,25 @@ _De accountant van een Belgische vennootschap die interest of royalty's verschul
 
 #### 💰 Fiscaal adviseur
 
-##### 👣 Attest opvragen vóór elke betaling  
-_`stap`_
+##### 👣 Attest opvragen vóór elke betaling
 
-📖 Vraag de ontvanger om een vrijstellingsattest af te leveren vóór de eerste betaling. Het attest bevat (1) bewijs fiscale woonplaats EU-lidstaat, (2) beneficial-owner-verklaring, (3) taxatie-verklaring, (4) bewijs deelneming ≥ 25 %, (5) duur van de deelneming. Geldig 1-3 jaar — bij vervaldatum tijdig hernieuwen. Zonder geldig attest: RV inhouden uit voorzichtigheid; terugvordering achteraf is mogelijk maar belast het kassaverkeer.
+Vraag de ontvanger om een vrijstellingsattest af te leveren vóór de eerste betaling. Het attest bevat (1) bewijs fiscale woonplaats EU-lidstaat, (2) beneficial-owner-verklaring, (3) taxatie-verklaring, (4) bewijs deelneming ≥ 25 %, (5) duur van de deelneming. Geldig 1-3 jaar — bij vervaldatum tijdig hernieuwen. Zonder geldig attest: RV inhouden uit voorzichtigheid; terugvordering achteraf is mogelijk maar belast het kassaverkeer.
 
-<small>📚 Richtlijn 2003/49/EG — art. 1 lid 11-13 — _richtlijn_</small>
+<small>📖 Richtlijn 2003/49/EG — art. 1 lid 11-13 — _richtlijn_</small>
 
-##### 👣 Arms-length-toets op de interestvoet of royaltyvergoeding  
-_`stap`_
+##### 👣 Arms-length-toets op de interestvoet of royaltyvergoeding
 
-📖 Vóór elke intra-group betaling: documenteer dat de interestvoet (bij lening) of royaltyvergoeding (bij IP) marktconform is. Voor interest: vergelijk met externe leningstarieven van vergelijkbare looptijd/risico. Voor royalty's: gebruik benchmark-databases (RoyaltyStat, ktMINE) of een Comparable Uncontrolled Price (CUP) studie. Een te hoge vergoeding wordt geweigerd voor het surplus (art. 4 lid 2): IRR-vrijstelling geldt enkel voor het arms-length-deel, surplus wordt RV-belast en mogelijk als verkapt dividend geherkwalificeerd.
+Vóór elke intra-group betaling: documenteer dat de interestvoet (bij lening) of royaltyvergoeding (bij IP) marktconform is. Voor interest: vergelijk met externe leningstarieven van vergelijkbare looptijd/risico. Voor royalty's: gebruik benchmark-databases (RoyaltyStat, ktMINE) of een Comparable Uncontrolled Price (CUP) studie. Een te hoge vergoeding wordt geweigerd voor het surplus (art. 4 lid 2): IRR-vrijstelling geldt enkel voor het arms-length-deel, surplus wordt RV-belast en mogelijk als verkapt dividend geherkwalificeerd.
 
-<small>📚 Richtlijn 2003/49/EG — art. 4 lid 2 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 Richtlijn 2003/49/EG — art. 4 lid 2 — _richtlijn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 #### 📒 Boekhouder
 
-##### 👣 Boeking interest zonder RV-inhouding  
-_`stap`_
+##### 👣 Boeking interest zonder RV-inhouding
 
-🔗 Bij IRR-vrijstelling: het volledige bruto-bedrag stroomt naar de ontvanger. Boeking voor een interestschuld van 100.000 EUR: 650 Kosten van schulden (interest) → 173 Schulden aan moederonderneming = 100.000 (debet 650 / credit 173); later 173 → 55 Bank = 100.000. Geen 451 'Te betalen RV' op deze stroom. Voor pro-rata-temporis-boekingen volgens CBN-advies 2013/12.
+Bij IRR-vrijstelling: het volledige bruto-bedrag stroomt naar de ontvanger. Boeking voor een interestschuld van 100.000 EUR: 650 Kosten van schulden (interest) → 173 Schulden aan moederonderneming = 100.000 (debet 650 / credit 173); later 173 → 55 Bank = 100.000. Geen 451 'Te betalen RV' op deze stroom. Voor pro-rata-temporis-boekingen volgens CBN-advies 2013/12.
 
-<small>📚 CBN-advies 2013/12 — Interesten en royalty's — _cbn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 CBN-advies 2013/12 — Interesten en royalty's — _cbn_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

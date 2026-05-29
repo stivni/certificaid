@@ -16,33 +16,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/sport-cultuur-cheques.json"
 ---
 
-# Sport- en cultuurcheques
-
-_Regime_
-
-📋 Regeling · Anchors: `2.2.taak.3` · Wave: `cluster-extract-werknemers-vergoedingen-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: sport/cultuurcheques · sportcheques · cultuurcheques
+_Regime_ · ook: sport/cultuurcheques · sportcheques · cultuurcheques
 
 ## Definitie
 
-📖 Sport- en cultuurcheques zijn cheques die een werkgever aan werknemers of bedrijfsleiders uitkeert en die uitsluitend besteed mogen worden bij sport- en cultuurinstellingen erkend door de bevoegde gemeenschap (Vlaamse, Franstalige of Duitstalige Gemeenschap) — sportclubs, fitnesscentra, theatergroepen, musea, concertzalen, dans-/muziekscholen, ... Mits cumulatieve voorwaarden van WIB92 art. 38/1 §3 zijn vervuld (CAO of individuele overeenkomst, op naam, geldigheidsduur 15 maanden, jaarplafond 100 EUR per werknemer), is de tussenkomst vrijgesteld van personenbelasting (art. 38 — 25°) en van Rijksdienst voor Sociale Zekerheid (RSZ).
+Sport- en cultuurcheques zijn cheques die een werkgever aan werknemers of bedrijfsleiders uitkeert en die uitsluitend besteed mogen worden bij sport- en cultuurinstellingen erkend door de bevoegde gemeenschap (Vlaamse, Franstalige of Duitstalige Gemeenschap) — sportclubs, fitnesscentra, theatergroepen, musea, concertzalen, dans-/muziekscholen, ... Mits cumulatieve voorwaarden van WIB92 art. 38/1 §3 zijn vervuld (CAO of individuele overeenkomst, op naam, geldigheidsduur 15 maanden, jaarplafond 100 EUR per werknemer), is de tussenkomst vrijgesteld van personenbelasting (art. 38 — 25°) en van Rijksdienst voor Sociale Zekerheid (RSZ).
 
-<small>📚 WIB92 — art. 38/1 §3 — _wettekst_ · WIB92 — art. 38 — 25° — _wettekst_</small>
+<small>📖 WIB92 — art. 38/1 §3 — _wettekst_ · WIB92 — art. 38 — 25° — _wettekst_</small>
 
 ## Substantie
 
-📖 Economisch: de kleinste extra-legale cheque-vergoeding van de drie (max 100 EUR/jaar — vergeleken met 250 EUR ecocheques en ca. 1.520 EUR maaltijdcheques). Volledig vrij van PB en RSZ voor de werknemer — 100 EUR netto. Voor de werkgever volledig verworpen uitgave (code 1215 VenB-aangifte). Vaak gebruikt als 'welness-extra' bovenop loon: jaarlijkse 100 EUR voor fitness-abonnement, museumpas, theaterabonnement of dansles. Beperkt voordelig in absolute zin, maar populair vanwege het 'goed-gevoel'-aspect bij personeel.
+Economisch: de kleinste extra-legale cheque-vergoeding van de drie (max 100 EUR/jaar — vergeleken met 250 EUR ecocheques en ca. 1.520 EUR maaltijdcheques). Volledig vrij van PB en RSZ voor de werknemer — 100 EUR netto. Voor de werkgever volledig verworpen uitgave (code 1215 VenB-aangifte). Vaak gebruikt als 'welness-extra' bovenop loon: jaarlijkse 100 EUR voor fitness-abonnement, museumpas, theaterabonnement of dansles. Beperkt voordelig in absolute zin, maar populair vanwege het 'goed-gevoel'-aspect bij personeel.
 
-<small>📚 WIB92 — art. 38/1 §3 — 4° — _wettekst_ · aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
+<small>📖 WIB92 — art. 38/1 §3 — 4° — _wettekst_ · aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
 
 ## Rationale
 
-🔗 Ratio legis: gezondheid, mentaal welzijn en cultuurparticipatie van werknemers stimuleren via fiscaal-aantrekkelijke koopkracht. Het lagere jaarplafond (100 EUR vs 250 EUR ecocheques) reflecteert de smallere doelgroep aan toegelaten bestedingen (sport + cultuur vs een veel bredere CAO 98-lijst). Het regime is bewust beperkt om sluikse loonsverhoging te vermijden.
+Ratio legis: gezondheid, mentaal welzijn en cultuurparticipatie van werknemers stimuleren via fiscaal-aantrekkelijke koopkracht. Het lagere jaarplafond (100 EUR vs 250 EUR ecocheques) reflecteert de smallere doelgroep aan toegelaten bestedingen (sport + cultuur vs een veel bredere CAO 98-lijst). Het regime is bewust beperkt om sluikse loonsverhoging te vermijden.
 
-<small>📚 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -64,70 +56,68 @@ Plafond 100 EUR/jaar nominaal in art. 38/1 §3 — niet jaarlijks geïndexeerd. 
 
 ## Bouwstenen
 
-### 📏 Jaarplafond: max 100 EUR per werknemer  
-_`drempel`_
+### 📏 Jaarplafond: max 100 EUR per werknemer
 
-📖 Het totale bedrag aan sport- en cultuurcheques toegekend door de werkgever per werknemer of bedrijfsleider mag per jaar niet hoger zijn dan 100 EUR (art. 38/1 §3 — 4°). Bij overschrijding vervalt de vrijstelling voor het volledige bedrag — niet enkel het excedent.
+Het totale bedrag aan sport- en cultuurcheques toegekend door de werkgever per werknemer of bedrijfsleider mag per jaar niet hoger zijn dan 100 EUR (art. 38/1 §3 — 4°). Bij overschrijding vervalt de vrijstelling voor het volledige bedrag — niet enkel het excedent.
 
-<small>📚 WIB92 — art. 38/1 §3 — 4° — _wettekst_</small>
+<small>📖 WIB92 — art. 38/1 §3 — 4° — _wettekst_</small>
 
-### 📜 Geldigheidsduur 15 maanden + reactivering  
-_`regel`_
+### 📜 Geldigheidsduur 15 maanden + reactivering
 
-📖 Elke sport-/cultuurcheque heeft een geldigheidsduur van maximaal 15 maanden vanaf terbeschikkingstelling (art. 38/1 §3 — 3°). Niet-bestede cheques verlopen daarna. Eenmalige reactivering binnen 3 maanden na vervaldatum mogelijk — gereactiveerde cheque is dan 3 maanden geldig.
+Elke sport-/cultuurcheque heeft een geldigheidsduur van maximaal 15 maanden vanaf terbeschikkingstelling (art. 38/1 §3 — 3°). Niet-bestede cheques verlopen daarna. Eenmalige reactivering binnen 3 maanden na vervaldatum mogelijk — gereactiveerde cheque is dan 3 maanden geldig.
 
-<small>📚 WIB92 — art. 38/1 §3 — 3° — _wettekst_ · WIB92 — art. 38/1 §3 — _wettekst_</small>
+<small>📖 WIB92 — art. 38/1 §3 — 3° — _wettekst_ · WIB92 — art. 38/1 §3 — _wettekst_</small>
 
-### 📜 Bestedingsdomein: erkende sport- en cultuurinstellingen  
-_`regel`_
+### 📜 Bestedingsdomein: erkende sport- en cultuurinstellingen
 
-🔗 Sport- en cultuurcheques kunnen alleen worden besteed bij sport- of cultuurinstellingen die door de bevoegde gemeenschap (Vlaamse, Franstalige, Duitstalige Gemeenschap) erkend zijn als zodanig. Voorbeelden: erkende sportclubs en fitnesscentra, theatergezelschappen, musea, concertzalen, kunstacademies. De uitgever (Edenred, Pluxee, ...) houdt een lijst van aanvaarde instellingen bij die de werknemer via app of website kan raadplegen.
+Sport- en cultuurcheques kunnen alleen worden besteed bij sport- of cultuurinstellingen die door de bevoegde gemeenschap (Vlaamse, Franstalige, Duitstalige Gemeenschap) erkend zijn als zodanig. Voorbeelden: erkende sportclubs en fitnesscentra, theatergezelschappen, musea, concertzalen, kunstacademies. De uitgever (Edenred, Pluxee, ...) houdt een lijst van aanvaarde instellingen bij die de werknemer via app of website kan raadplegen.
 
-<small>📚 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 📜 Volledige verworpen uitgave werkgever (code 1215)  
-_`regel`_
+### 📜 Volledige verworpen uitgave werkgever (code 1215)
 
-📖 Net als ecocheques zijn sport- en cultuurcheques voor de werkgever VOLLEDIG een verworpen uitgave (code 1215 in de VenB-aangifte). Geen aftrekbaar deel — dit is een belangrijk verschil met maaltijdcheques (waar 2 EUR/cheque wel aftrekbaar is via art. 53 — 14° WIB92).
+Net als ecocheques zijn sport- en cultuurcheques voor de werkgever VOLLEDIG een verworpen uitgave (code 1215 in de VenB-aangifte). Geen aftrekbaar deel — dit is een belangrijk verschil met maaltijdcheques (waar 2 EUR/cheque wel aftrekbaar is via art. 53 — 14° WIB92).
 
-<small>📚 aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
+<small>📖 aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
 
 ## Voorbeelden
 
-### 💡 Sport-cheque van 100 EUR voor fitness — Zelena Bio NV 🔗
-
-_Zelena Bio NV beslist via individuele overeenkomst om elke voltijdse werknemer in januari een sport-cheque van 100 EUR toe te kennen, te besteden in erkende fitnesscentra en sportclubs. Doel: gezondheidsbeleid + employer branding._
-
-**Boeking:**
-
-
-**Berekening:**
-- Stap 1 — Werknemer: 100 EUR netto in handen, vrij van PB + vrij van RSZ.
-- Stap 2 — Werkgever boekhoudkundig: 100 EUR personeelskost.
-- Stap 3 — Werkgever fiscaal: 100 EUR volledig verworpen uitgave → code 1215 VenB-aangifte. Belastbaar resultaat stijgt met 100 EUR.
-- Stap 4 — Netto-kost werkgever na VenB (25 % tarief): 100 + 25 = 125 EUR.
-
-→ **Resultaat**: Werknemer krijgt 100 EUR netto besteedbaar in fitness/sport-/cultuursector. Zelena draagt netto ca. 125 EUR — nog steeds gunstig vergeleken met een bruto-loonsverhoging die ca. 375 EUR bruto zou kosten om 100 EUR netto op te leveren.
-
-<small>📚 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+> [!example]- Sport-cheque van 100 EUR voor fitness — Zelena Bio NV
+> _Zelena Bio NV beslist via individuele overeenkomst om elke voltijdse werknemer in januari een sport-cheque van 100 EUR toe te kennen, te besteden in erkende fitnesscentra en sportclubs. Doel: gezondheidsbeleid + employer branding._
+>
+> **📒 Uitkering 100 EUR sport-cheques aan één werknemer**
+>
+> | Rekening | Debet | Credit | Omschrijving |
+> | --- | --- | --- | --- |
+> | 623 Andere personeelskosten — sport-cultuurcheques | 100 |  | Werkgevers-tussenkomst (volledig verworpen uitgave) |
+> | 440 Leveranciers (Edenred / Pluxee) |  | 100 | Factuur uitgever sport-cultuurcheques |
+>
+> **Berekening:**
+>
+> - Stap 1 — Werknemer: 100 EUR netto in handen, vrij van PB + vrij van RSZ.
+> - Stap 2 — Werkgever boekhoudkundig: 100 EUR personeelskost.
+> - Stap 3 — Werkgever fiscaal: 100 EUR volledig verworpen uitgave → code 1215 VenB-aangifte. Belastbaar resultaat stijgt met 100 EUR.
+> - Stap 4 — Netto-kost werkgever na VenB (25 % tarief): 100 + 25 = 125 EUR.
+>
+> → **Resultaat**: Werknemer krijgt 100 EUR netto besteedbaar in fitness/sport-/cultuursector. Zelena draagt netto ca. 125 EUR — nog steeds gunstig vergeleken met een bruto-loonsverhoging die ca. 375 EUR bruto zou kosten om 100 EUR netto op te leveren.
+>
+> <small>🔗 WIB92 — art. 38/1 §3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Valkuilen
 
-### ⚠️ Sport-cheques voor niet-erkende activiteiten
+> [!warning]- Sport-cheques voor niet-erkende activiteiten
+> **Verkeerde assumptie**: Een werknemer wil zijn sport-cheque besteden bij een privé-yoga-leerkracht die niet erkend is door de Gemeenschap.
+>
+> **Kernpunt**: Alleen erkende sport- en cultuurinstellingen aanvaarden de cheque. Bij niet-erkenning kan de cheque niet betaald worden — geen omruil voor cash mogelijk (art. 38/1 §3 — 5° verbiedt dat). De werknemer riskeert de waarde te verliezen bij verval.
+>
+> <small>🔗 WIB92 — art. 38/1 §3 — 5° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Verkeerde assumptie**: Een werknemer wil zijn sport-cheque besteden bij een privé-yoga-leerkracht die niet erkend is door de Gemeenschap.
-
-**Kernpunt**: Alleen erkende sport- en cultuurinstellingen aanvaarden de cheque. Bij niet-erkenning kan de cheque niet betaald worden — geen omruil voor cash mogelijk (art. 38/1 §3 — 5° verbiedt dat). De werknemer riskeert de waarde te verliezen bij verval.
-
-<small>📚 WIB92 — art. 38/1 §3 — 5° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### ⚠️ Sport-cheques en eco-cheques door elkaar gebruiken
-
-**Verkeerde assumptie**: Een student denkt dat het regime (plafonds, geldigheidsduur) identiek is.
-
-**Kernpunt**: Sport-cultuur-cheques: 100 EUR/jaar, 15 maanden geldig. Ecocheques: 250 EUR/jaar, 24 maanden geldig. Aftrekbaarheid werkgever: beide volledig verworpen uitgave (code 1215). Bestedingsdomein verschilt fundamenteel: sport/cultuur-instellingen vs CAO 98-lijst ecologische producten.
-
-<small>📚 WIB92 — art. 38/1 §3 — _wettekst_ · WIB92 — art. 38/1 §4 — _wettekst_</small>
+> [!warning]- Sport-cheques en eco-cheques door elkaar gebruiken
+> **Verkeerde assumptie**: Een student denkt dat het regime (plafonds, geldigheidsduur) identiek is.
+>
+> **Kernpunt**: Sport-cultuur-cheques: 100 EUR/jaar, 15 maanden geldig. Ecocheques: 250 EUR/jaar, 24 maanden geldig. Aftrekbaarheid werkgever: beide volledig verworpen uitgave (code 1215). Bestedingsdomein verschilt fundamenteel: sport/cultuur-instellingen vs CAO 98-lijst ecologische producten.
+>
+> <small>📖 WIB92 — art. 38/1 §3 — _wettekst_ · WIB92 — art. 38/1 §4 — _wettekst_</small>
 
 ## Accountant-perspectieven
 
@@ -135,21 +125,19 @@ _Zelena Bio NV beslist via individuele overeenkomst om elke voltijdse werknemer 
 
 #### 💰 Fiscaal adviseur
 
-##### 👣 Verworpen uitgave (code 1215)  
-_`stap`_
+##### 👣 Verworpen uitgave (code 1215)
 
-📖 In de VenB-aangifte rubriek 13 (code 1215): het volledige bedrag van de sport-cultuurcheques-werkgevers-tussenkomst toevoegen. Gecumuleerd met eventuele ecocheques en maaltijdcheques-excedent. De fiche-discipline (281.10/281.20) vereist geen aparte vermelding van vrijgestelde cheques onder het plafond, maar de werkgever moet de uitkering wel kunnen verantwoorden.
+In de VenB-aangifte rubriek 13 (code 1215): het volledige bedrag van de sport-cultuurcheques-werkgevers-tussenkomst toevoegen. Gecumuleerd met eventuele ecocheques en maaltijdcheques-excedent. De fiche-discipline (281.10/281.20) vereist geen aparte vermelding van vrijgestelde cheques onder het plafond, maar de werkgever moet de uitkering wel kunnen verantwoorden.
 
-<small>📚 aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
+<small>📖 aangifte-VenB-2025-verworpen-uitgaven — code 1215 — _aangifte_</small>
 
 #### 🧭 Adviseur
 
-##### 🧭 Positionering sport-cultuur-cheque in pakket  
-_`vuistregel`_
+##### 🧭 Positionering sport-cultuur-cheque in pakket
 
-🔗 Bij 100 EUR/jaar is de financiële impact beperkt — gebruik sport-cultuur-cheques als 'attentie'-bestanddeel naast een groter pakket (maaltijdcheques + cash + eventueel groepsverzekering), niet als hoofdbouwsteen. Communiceer ze in HR-context als 'welzijns-/cultuurgeschenk', niet als loon — sluit zo aan bij gezondheidsbeleid en employer branding.
+Bij 100 EUR/jaar is de financiële impact beperkt — gebruik sport-cultuur-cheques als 'attentie'-bestanddeel naast een groter pakket (maaltijdcheques + cash + eventueel groepsverzekering), niet als hoofdbouwsteen. Communiceer ze in HR-context als 'welzijns-/cultuurgeschenk', niet als loon — sluit zo aan bij gezondheidsbeleid en employer branding.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

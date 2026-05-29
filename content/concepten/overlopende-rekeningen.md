@@ -16,29 +16,21 @@ tags:
 gegenereerd_uit: "data/concepten/records/overlopende-rekeningen.json"
 ---
 
-# Overlopende rekeningen
-
-_Balanspost_
-
-🏢 Entiteit · Anchors: `1.1.II.L` · Wave: `extract-jaarrekening-rest-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: transitorische rekeningen · tijdsverschilcorrecties
+_Balanspost_ · ook: transitorische rekeningen · tijdsverschilcorrecties
 
 ## Definitie
 
-📖 **Overlopende rekeningen** (MAR-klasse 49 actief + 89 passief) zijn balansposten die het **matching-principe** operationaliseren: ze schuiven kosten en opbrengsten naar het **juiste boekjaar** waarin ze economisch thuishoren, los van het moment van facturatie of betaling. Vier sub-rubrieken:
+**Overlopende rekeningen** (MAR-klasse 49 actief + 89 passief) zijn balansposten die het **matching-principe** operationaliseren: ze schuiven kosten en opbrengsten naar het **juiste boekjaar** waarin ze economisch thuishoren, los van het moment van facturatie of betaling. Vier sub-rubrieken:
 - **490 Over te dragen kosten** (actief): kosten **al betaald** maar economisch toebehorend aan volgend boekjaar
 - **491 Verkregen opbrengsten** (actief): opbrengsten **al verdiend** maar nog niet gefactureerd
 - **492 Toe te rekenen kosten** (passief): kosten **al opgelopen** maar nog niet gefactureerd door leverancier
 - **493 Over te dragen opbrengsten** (passief): opbrengsten **al ontvangen** maar economisch toebehorend aan volgend boekjaar
 
-<small>📚 KB 29-04-2019 WVV — bijlage MAR — Klasse 49 + 89 — _kb_</small>
+<small>📖 KB 29-04-2019 WVV — bijlage MAR — Klasse 49 + 89 — _kb_</small>
 
 ## Substantie
 
-📖 Het mechanisme: bij **jaarafsluit** worden bedragen overgeheveld tussen klasse 6/7 (resultaat) en klasse 49/89 (balans). Bij **heropening** van het volgende boekjaar worden de overlopende rekeningen omgekeerd doorgeboekt — de kost of opbrengst landt dan automatisch in het juiste boekjaar.
+Het mechanisme: bij **jaarafsluit** worden bedragen overgeheveld tussen klasse 6/7 (resultaat) en klasse 49/89 (balans). Bij **heropening** van het volgende boekjaar worden de overlopende rekeningen omgekeerd doorgeboekt — de kost of opbrengst landt dan automatisch in het juiste boekjaar.
 
 **Vier scenario's**:
 
@@ -49,20 +41,19 @@ _Balanspost_
 | Eindejaars-bonus personeel | Nog niet betaald | Huidig boekjaar | 492 Toe te rekenen kosten | Kost extra erkend → resultaat **daalt** |
 | Abonnement-jaarvooruit ontvangen | Nu ontvangen | Volgend boekjaar | 493 Over te dragen opbrengsten | Opbrengst teruggeschoven → resultaat **daalt** |
 
-<small>📚 KB 29-04-2019 WVV — art. 3:24 + Klasse 49/89 — _kb_</small>
+<small>📖 KB 29-04-2019 WVV — art. 3:24 + Klasse 49/89 — _kb_</small>
 
 ## Rationale
 
-🔗 Zonder overlopende rekeningen zou het **moment van facturatie of betaling** bepalend zijn voor het resultaat — wat economisch misleidend is. Een huur die in december wordt betaald maar betrekking heeft op januari volgend jaar zou anders het lopende boekjaar onterecht belasten. Het matching-principe stelt dat opbrengsten en kosten **moeten worden erkend in de periode waarin ze zijn verdiend of opgelopen**, niet wanneer cash beweegt. Klasse 49/89 maakt deze verschuiving boekhoudkundig mogelijk zonder de oorspronkelijke factuur of betaling te herzien.
+Zonder overlopende rekeningen zou het **moment van facturatie of betaling** bepalend zijn voor het resultaat — wat economisch misleidend is. Een huur die in december wordt betaald maar betrekking heeft op januari volgend jaar zou anders het lopende boekjaar onterecht belasten. Het matching-principe stelt dat opbrengsten en kosten **moeten worden erkend in de periode waarin ze zijn verdiend of opgelopen**, niet wanneer cash beweegt. Klasse 49/89 maakt deze verschuiving boekhoudkundig mogelijk zonder de oorspronkelijke factuur of betaling te herzien.
 
-<small>📚 KB 29-04-2019 WVV — art. 3:24 — _kb_</small>
+<small>🔗 KB 29-04-2019 WVV — art. 3:24 — _kb_</small>
 
 ## Bouwstenen
 
-### ⚙️ Boeking — over te dragen kost (490)  
-_`mechanisme`_
+### ⚙️ Boeking — over te dragen kost (490)
 
-🔗 **Scenario**: Een vennootschap betaalt in december 2025 een verzekeringspremie van 12.000 EUR voor de periode 1 januari 2026 tot 31 december 2026.
+**Scenario**: Een vennootschap betaalt in december 2025 een verzekeringspremie van 12.000 EUR voor de periode 1 januari 2026 tot 31 december 2026.
 
 **Initiële boeking** (bij betaling, december 2025):
 ```
@@ -84,12 +75,11 @@ Resultaat: de 12.000 EUR kost staat nu op de balans (490) en niet in het resulta
 ```
 De kost landt nu in het resultaat van 2026 — economisch correct.
 
-<small>📚 KB 29-04-2019 WVV — Klasse 49 — _kb_</small>
+<small>🔗 KB 29-04-2019 WVV — Klasse 49 — _kb_</small>
 
-### ⚙️ Boeking — toe te rekenen kost (492)  
-_`mechanisme`_
+### ⚙️ Boeking — toe te rekenen kost (492)
 
-🔗 **Scenario**: De vennootschap verbruikt in december 2025 elektriciteit voor 3.500 EUR, maar ontvangt de factuur pas in februari 2026.
+**Scenario**: De vennootschap verbruikt in december 2025 elektriciteit voor 3.500 EUR, maar ontvangt de factuur pas in februari 2026.
 
 **Correctie eindejaar** (31-12-2025) — de kost hoort economisch bij 2025:
 ```
@@ -111,12 +101,11 @@ Resultaat: kost van 3.500 EUR is in resultaat 2025 erkend; 492 is een **passief-
 ```
 In 2026 blijft netto in resultaat: 3.700 (werkelijke factuur) - 3.500 (heropening tegenboeking) = 200 EUR — de schattings-afwijking.
 
-<small>📚 KB 29-04-2019 WVV — Klasse 89 — _kb_</small>
+<small>🔗 KB 29-04-2019 WVV — Klasse 89 — _kb_</small>
 
-### ⚙️ Boeking — over te dragen opbrengst (493)  
-_`mechanisme`_
+### ⚙️ Boeking — over te dragen opbrengst (493)
 
-🔗 **Scenario**: Een abonnementsbedrijf ontvangt in oktober 2025 een jaarabonnement van 600 EUR voor de periode oktober 2025 tot september 2026.
+**Scenario**: Een abonnementsbedrijf ontvangt in oktober 2025 een jaarabonnement van 600 EUR voor de periode oktober 2025 tot september 2026.
 
 **Initiële boeking** (oktober 2025):
 ```
@@ -131,25 +120,23 @@ _`mechanisme`_
 ```
 Resultaat: 150 EUR omzet erkend in 2025, 450 EUR teruggeschoven naar 2026 via balans-passief.
 
-<small>📚 KB 29-04-2019 WVV — Klasse 89 — _kb_</small>
+<small>🔗 KB 29-04-2019 WVV — Klasse 89 — _kb_</small>
 
 ## Valkuilen
 
-### ⚠️ Klasse 49 verwarren met klasse 89
+> [!warning]- Klasse 49 verwarren met klasse 89
+> **Verkeerde assumptie**: Alle overlopende rekeningen staan op de actief-zijde.
+>
+> **Kernpunt**: **49 = actief**, **89 = passief**. De fictieve regel: "betaal/ontvang vooraf" levert een **actief** (490 of 491 — waarde nog te verbruiken/innen); "betaal/ontvang achteraf" levert een **passief** (492 of 493 — schuld of voorschot van klant).
+>
+> <small>📖 KB 29-04-2019 WVV — Klasse 49 + Klasse 89 — _kb_</small>
 
-**Verkeerde assumptie**: Alle overlopende rekeningen staan op de actief-zijde.
-
-**Kernpunt**: **49 = actief**, **89 = passief**. De fictieve regel: "betaal/ontvang vooraf" levert een **actief** (490 of 491 — waarde nog te verbruiken/innen); "betaal/ontvang achteraf" levert een **passief** (492 of 493 — schuld of voorschot van klant).
-
-<small>📚 KB 29-04-2019 WVV — Klasse 49 + Klasse 89 — _kb_</small>
-
-### ⚠️ Vergeten te heropenen in volgend boekjaar
-
-**Verkeerde assumptie**: Een eenmalige boeking op 31-12 is voldoende.
-
-**Kernpunt**: Elke afsluit-boeking op klasse 49/89 moet bij **heropening** van het volgende boekjaar **omgekeerd** worden doorgeboekt, anders blijft het bedrag eeuwig op de balans staan en wordt het matchings-effect ongedaan gemaakt.
-
-<small>📚 KB 29-04-2019 WVV — Klasse 49/89 — _kb_</small>
+> [!warning]- Vergeten te heropenen in volgend boekjaar
+> **Verkeerde assumptie**: Een eenmalige boeking op 31-12 is voldoende.
+>
+> **Kernpunt**: Elke afsluit-boeking op klasse 49/89 moet bij **heropening** van het volgende boekjaar **omgekeerd** worden doorgeboekt, anders blijft het bedrag eeuwig op de balans staan en wordt het matchings-effect ongedaan gemaakt.
+>
+> <small>🔗 KB 29-04-2019 WVV — Klasse 49/89 — _kb_</small>
 
 ## Verder lezen (scope-out)
 

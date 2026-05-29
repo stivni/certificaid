@@ -19,33 +19,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/onderhoudsuitkering.json"
 ---
 
-# Onderhoudsuitkering
-
-_Regime_
-
-📋 Regeling · Anchors: `2.2.IX` · `2.2.IX.A` · `2.2.IX.B` · `2.2.XI` · Wave: `skeleton-pb-venb-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: alimentatie · pension alimentaire · onderhoudsgeld — **Vertalingen**: fr: pension alimentaire
+_Regime_ · ook: alimentatie · pension alimentaire · onderhoudsgeld
 
 ## Definitie
 
-📖 Een onderhoudsuitkering is een periodieke of eenmalige (kapitaal-)betaling die een persoon verschuldigd is aan een ander op grond van een wettelijke of conventionele onderhoudsplicht (burgerrechtelijk: art. 203-209 BW). Fiscaal werkt het regime SYMMETRISCH: voor de BETALER is 80 % van het betaalde bedrag aftrekbaar als 'aftrekbare besteding' (art. 104, 1° WIB92, vak XI PB); voor de ONTVANGER is 80 % van het ontvangen bedrag belastbaar als 'divers inkomen' (art. 90, 3° + art. 99 WIB92, vak XV PB). De 20 %-vrijstelling aan ontvangstzijde wordt verklaard door forfaitair geraamde innings-/bewaringskosten. De 20 %-niet-aftrekbaarheid aan betalerzijde reflecteert het persoonlijke (familie-)karakter van de uitkering.
+Een onderhoudsuitkering is een periodieke of eenmalige (kapitaal-)betaling die een persoon verschuldigd is aan een ander op grond van een wettelijke of conventionele onderhoudsplicht (burgerrechtelijk: art. 203-209 BW). Fiscaal werkt het regime SYMMETRISCH: voor de BETALER is 80 % van het betaalde bedrag aftrekbaar als 'aftrekbare besteding' (art. 104, 1° WIB92, vak XI PB); voor de ONTVANGER is 80 % van het ontvangen bedrag belastbaar als 'divers inkomen' (art. 90, 3° + art. 99 WIB92, vak XV PB). De 20 %-vrijstelling aan ontvangstzijde wordt verklaard door forfaitair geraamde innings-/bewaringskosten. De 20 %-niet-aftrekbaarheid aan betalerzijde reflecteert het persoonlijke (familie-)karakter van de uitkering.
 
-<small>📚 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · BW — art. 203 e.v. — _wettekst_</small>
+<small>📖 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · BW — art. 203 e.v. — _wettekst_</small>
 
 ## Substantie
 
-🔗 Praktisch is de onderhoudsuitkering een onmisbaar instrument bij echtscheiding en gezinshereniging — het regelt de financiële zorg tussen ex-partners én ouders/kinderen. Fiscaal wordt het zorgvuldig geregeld door symmetrie te bewaren: wat een betaler aftrekt, wordt bij ontvanger belast. Dat creëert een sterk fiscaal voordeel WANNEER de marginale tarieven van betaler en ontvanger verschillen. Voorbeeld: betaler 50 % marginaal, ontvanger 25 % marginaal → besparing per €1 betaalde onderhoudsuitkering = 0,80 × (50 % − 25 %) = €0,20 voor het gezin. Voor hooggeschoold-laaggeschoold-koppels of werkende-ex met thuisblijvende-ex creëert het regime daarmee een fiscaal-vriendelijke wijze om geld door te schuiven. Veel cliënten onderschatten dit voordeel: een EOT-akkoord met expliciete onderhoudsuitkering kan duizenden euro's per jaar besparen vergeleken met een 'kapitaal in één keer'-oplossing.
+Praktisch is de onderhoudsuitkering een onmisbaar instrument bij echtscheiding en gezinshereniging — het regelt de financiële zorg tussen ex-partners én ouders/kinderen. Fiscaal wordt het zorgvuldig geregeld door symmetrie te bewaren: wat een betaler aftrekt, wordt bij ontvanger belast. Dat creëert een sterk fiscaal voordeel WANNEER de marginale tarieven van betaler en ontvanger verschillen. Voorbeeld: betaler 50 % marginaal, ontvanger 25 % marginaal → besparing per €1 betaalde onderhoudsuitkering = 0,80 × (50 % − 25 %) = €0,20 voor het gezin. Voor hooggeschoold-laaggeschoold-koppels of werkende-ex met thuisblijvende-ex creëert het regime daarmee een fiscaal-vriendelijke wijze om geld door te schuiven. Veel cliënten onderschatten dit voordeel: een EOT-akkoord met expliciete onderhoudsuitkering kan duizenden euro's per jaar besparen vergeleken met een 'kapitaal in één keer'-oplossing.
 
-<small>📚 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🔗 De symmetrische 80 %-regel reflecteert twee doelstellingen. (1) Fiscale neutraliteit: wat één persoon aan een ander overdraagt op grond van wettelijke plicht moet niet dubbel belast worden (eens bij de betaler die het verdient, eens bij de ontvanger die het krijgt). De wet 'verschuift' dus belastinggrondslag tussen partijen. (2) Anti-misbruik via 20 %-cliff: door slechts 80 % aftrekbaar/belastbaar te maken, voorkomt de wet dat 'onderhoudsuitkeringen' worden gebruikt voor ongewone vrijwillige overdrachten tussen familieleden. De 80 %-keuze (i.p.v. 100 %) erkent ook dat de uitkering deels eigen-gebruik dekt (huishouden, opvoeding) — geen pure inkomensoverdracht.
+De symmetrische 80 %-regel reflecteert twee doelstellingen. (1) Fiscale neutraliteit: wat één persoon aan een ander overdraagt op grond van wettelijke plicht moet niet dubbel belast worden (eens bij de betaler die het verdient, eens bij de ontvanger die het krijgt). De wet 'verschuift' dus belastinggrondslag tussen partijen. (2) Anti-misbruik via 20 %-cliff: door slechts 80 % aftrekbaar/belastbaar te maken, voorkomt de wet dat 'onderhoudsuitkeringen' worden gebruikt voor ongewone vrijwillige overdrachten tussen familieleden. De 80 %-keuze (i.p.v. 100 %) erkent ook dat de uitkering deels eigen-gebruik dekt (huishouden, opvoeding) — geen pure inkomensoverdracht.
 
-<small>📚 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -71,136 +63,126 @@ Structureel stabiel regime sinds WIB92-invoering. Achterstallen-regime gemoderni
 
 ## Sub-concepten
 
-### 📦 Ontvangstkant — divers inkomen art. 90, 3°  
-_`regime` (subconcept)_
+### 📦 Ontvangstkant — divers inkomen art. 90, 3°
 
 #### Definitie
 
-📖 Bij de begunstigde wordt 80 % van de ontvangen onderhoudsuitkering belast als divers inkomen (art. 90, 3° + art. 99 WIB92). Aangifte in vak XV PB. PROGRESSIEF belast (geen afzonderlijk tarief — anders dan andere diverse inkomsten). De 20 % is fiscaal vrijgesteld. Bij minderjarig kind als ontvanger: zelfstandige aangifte van het kind (apart kohier); meestal beneden belastingvrije som = geen effectieve belasting. Bij ouder als ontvanger: globalisatie met eigen inkomsten.
+Bij de begunstigde wordt 80 % van de ontvangen onderhoudsuitkering belast als divers inkomen (art. 90, 3° + art. 99 WIB92). Aangifte in vak XV PB. PROGRESSIEF belast (geen afzonderlijk tarief — anders dan andere diverse inkomsten). De 20 % is fiscaal vrijgesteld. Bij minderjarig kind als ontvanger: zelfstandige aangifte van het kind (apart kohier); meestal beneden belastingvrije som = geen effectieve belasting. Bij ouder als ontvanger: globalisatie met eigen inkomsten.
 
-<small>📚 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_</small>
+<small>📖 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_</small>
 
-### 📦 Betalingskant — aftrekbare besteding art. 104, 1°  
-_`regime` (subconcept)_
-
-#### Definitie
-
-📖 Bij de betaler is 80 % van de betaalde onderhoudsuitkering aftrekbaar als aftrekbare besteding (art. 104, 1° WIB92) — aangifte in vak XI PB. Vermindering aan TARIEF zoals andere aftrekbare bestedingen = marginaal tarief. Geen plafond per persoon, geen jaarlijkse limiet (anders dan voor kinderoppas-aftrek bv.). Bewijsstukken vereist: gerechtelijk vonnis/notariële akte + betalingsbewijzen. Niet aftrekbaar bij gemeenschappelijke aanslag met de ontvanger.
-
-<small>📚 WIB92 — art. 104, 1° — _wettekst_</small>
-
-### 📦 Achterstallen-regime art. 100/105  
-_`regime` (subconcept)_
+### 📦 Betalingskant — aftrekbare besteding art. 104, 1°
 
 #### Definitie
 
-📖 Wanneer onderhoudsuitkeringen die betrekking hebben op vorige belastbare tijdperken in één keer worden betaald (bv. wegens vonnis met terugwerkende kracht), bestaat een keuze: (a) gespreide belasting/aftrek per oorspronkelijk jaar (vermijdt progressie-effect) OF (b) globale aangifte in jaar van betaling. Bij ontvanger: art. 100 + art. 171, 5° WIB92 — belasting aan het 'gemiddelde tarief van vier voorafgaande jaren' i.p.v. progressief. Bij betaler: art. 105 — aftrek in jaar van betaling met gemiddelde-tarief-keuze. Verplichte claim in aangifte met rubriek 'achterstallen' + jaartal-uitsplitsing.
+Bij de betaler is 80 % van de betaalde onderhoudsuitkering aftrekbaar als aftrekbare besteding (art. 104, 1° WIB92) — aangifte in vak XI PB. Vermindering aan TARIEF zoals andere aftrekbare bestedingen = marginaal tarief. Geen plafond per persoon, geen jaarlijkse limiet (anders dan voor kinderoppas-aftrek bv.). Bewijsstukken vereist: gerechtelijk vonnis/notariële akte + betalingsbewijzen. Niet aftrekbaar bij gemeenschappelijke aanslag met de ontvanger.
 
-<small>📚 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
+<small>📖 WIB92 — art. 104, 1° — _wettekst_</small>
+
+### 📦 Achterstallen-regime art. 100/105
+
+#### Definitie
+
+Wanneer onderhoudsuitkeringen die betrekking hebben op vorige belastbare tijdperken in één keer worden betaald (bv. wegens vonnis met terugwerkende kracht), bestaat een keuze: (a) gespreide belasting/aftrek per oorspronkelijk jaar (vermijdt progressie-effect) OF (b) globale aangifte in jaar van betaling. Bij ontvanger: art. 100 + art. 171, 5° WIB92 — belasting aan het 'gemiddelde tarief van vier voorafgaande jaren' i.p.v. progressief. Bij betaler: art. 105 — aftrek in jaar van betaling met gemiddelde-tarief-keuze. Verplichte claim in aangifte met rubriek 'achterstallen' + jaartal-uitsplitsing.
+
+<small>📖 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
 
 ## Bouwstenen
 
-### 🧮 Symmetrische 80 %-formule (art. 99 + 104, 1°)  
-_`formule`_
+### 🧮 Symmetrische 80 %-formule (art. 99 + 104, 1°)
 
-📖 Belastbaar bij ontvanger = brutobetaling × 80 %. Aftrekbaar bij betaler = brutobetaling × 80 %. De 20 %-niet-belaste/niet-aftrekbare schijf is een politieke compromis. Voor het gezamenlijk gezin (vóór scheiding) was er geen fiscaal voordeel; na scheiding ontstaat het voordeel WANNEER marginale tarieven verschillen.
+Belastbaar bij ontvanger = brutobetaling × 80 %. Aftrekbaar bij betaler = brutobetaling × 80 %. De 20 %-niet-belaste/niet-aftrekbare schijf is een politieke compromis. Voor het gezamenlijk gezin (vóór scheiding) was er geen fiscaal voordeel; na scheiding ontstaat het voordeel WANNEER marginale tarieven verschillen.
 
-<small>📚 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_</small>
+<small>📖 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_</small>
 
-### 📜 Niet-samenwoning-vereiste (art. 104, 1°)  
-_`regel`_
+### 📜 Niet-samenwoning-vereiste (art. 104, 1°)
 
-📖 Voor fiscaal regime: betaler en ontvanger mogen NIET DEEL VAN HETZELFDE GEZIN zijn (= verschillende fiscale woonplaats per 1 januari van het aanslagjaar). Bij echtscheiding: scheiding van tafel en bed met aparte adressen → regime van toepassing vanaf inschrijving in bevolkingsregister. Bij feitelijke scheiding: regime toepasbaar mits dezelfde administratieve scheiding. Het gaat enkel om 'gezin' in fiscale zin.
+Voor fiscaal regime: betaler en ontvanger mogen NIET DEEL VAN HETZELFDE GEZIN zijn (= verschillende fiscale woonplaats per 1 januari van het aanslagjaar). Bij echtscheiding: scheiding van tafel en bed met aparte adressen → regime van toepassing vanaf inschrijving in bevolkingsregister. Bij feitelijke scheiding: regime toepasbaar mits dezelfde administratieve scheiding. Het gaat enkel om 'gezin' in fiscale zin.
 
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 2 — 2° — _wettekst_</small>
+<small>📖 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 2 — 2° — _wettekst_</small>
 
-### 📜 Wettelijke titel-vereiste  
-_`regel`_
+### 📜 Wettelijke titel-vereiste
 
-📖 Verplicht onderliggend stuk: (a) gerechtelijk vonnis (bv. echtscheiding, alimentatievonnis); (b) EOT-akkoord met homologatie of geregistreerd; (c) notariële overeenkomst (uitvoerbare titel); (d) buitenlandse equivalent gehonoreerd via internationaal privaatrecht. Een gewone privé-overeenkomst tussen partijen volstaat NIET. Vrijwillige geste zonder titel = geen aftrek/belasting.
+Verplicht onderliggend stuk: (a) gerechtelijk vonnis (bv. echtscheiding, alimentatievonnis); (b) EOT-akkoord met homologatie of geregistreerd; (c) notariële overeenkomst (uitvoerbare titel); (d) buitenlandse equivalent gehonoreerd via internationaal privaatrecht. Een gewone privé-overeenkomst tussen partijen volstaat NIET. Vrijwillige geste zonder titel = geen aftrek/belasting.
 
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-### 👣 Bewijsdossier opstellen + bewaren  
-_`stap`_
+### 👣 Bewijsdossier opstellen + bewaren
 
-🔗 Stagiair bouwt voor elke cliënt-betaler een onderhoudsuitkering-dossier: (1) authentiek afschrift gerechtelijk vonnis of notariële akte; (2) jaarlijks overzicht betalingen met datums + bedragen; (3) bankafschriften per betaling met duidelijke vermelding ontvanger; (4) identificatie ontvanger (rijksregisternummer, adres); (5) controle adres ontvanger ≠ adres betaler op 1 januari aanslagjaar. Bewaar dossier 5 jaar (art. 354 WIB92-verjaringstermijn).
+Stagiair bouwt voor elke cliënt-betaler een onderhoudsuitkering-dossier: (1) authentiek afschrift gerechtelijk vonnis of notariële akte; (2) jaarlijks overzicht betalingen met datums + bedragen; (3) bankafschriften per betaling met duidelijke vermelding ontvanger; (4) identificatie ontvanger (rijksregisternummer, adres); (5) controle adres ontvanger ≠ adres betaler op 1 januari aanslagjaar. Bewaar dossier 5 jaar (art. 354 WIB92-verjaringstermijn).
 
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 354 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 354 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Voorbeelden
 
-### 💡 Tariefarbitrage tussen ex-echtgenoten — €12.000 onderhoudsuitkering 🔗
+> [!example]- Tariefarbitrage tussen ex-echtgenoten — €12.000 onderhoudsuitkering
+> _De heer Janssens (50 % marginaal PB-tarief — voltijds advocaat) betaalt €1.000/maand onderhoudsuitkering aan mevrouw Janssens (gescheiden sinds 2022, herstelt na burnout, marginaal 25 %). Vonnis EOT bekrachtigd 2023. Inkomstenjaar 2024 = €12.000 totaal betaald._
+>
+> **Berekening:**
+>
+> - Stap 1 — bij betaler (Janssens man): aftrekbaar = €12.000 × 80 % = €9.600. Aangifte vak XI rubriek 'Onderhoudsuitkeringen'.
+> - Stap 2 — fiscale besparing betaler = €9.600 × 50 % (marginaal) = €4.800 PB-vermindering.
+> - Stap 3 — bij ontvanger (Janssens vrouw): belastbaar = €12.000 × 80 % = €9.600. Aangifte vak XV rubriek 'Onderhoudsuitkeringen ontvangen'.
+> - Stap 4 — fiscale heffing ontvanger = €9.600 × 25 % (marginaal, na belastingvrije som) = €2.400 PB.
+> - Stap 5 — netto-effect voor het 'gespleten' gezin = besparing betaler − heffing ontvanger = €4.800 − €2.400 = €2.400 winst voor het gezamenlijk netto-inkomen.
+> - Stap 6 — vergelijk 'zonder onderhoudsuitkering' (kapitaal in één keer): Janssens man betaalt 50 % marginaal op hele inkomen, Janssens vrouw heeft minder eigen inkomen + geen toegang tot belastingvrije som-verhoging via kinderlast.
+>
+> → **Resultaat**: Voor scheidende koppels met sterk verschillende inkomens is een GESTRUCTUREERDE onderhoudsuitkering (periodiek, op grond van EOT-vonnis) doorgaans aanzienlijk voordeliger dan een 'kapitaal-uitkoop'. Stagiair adviseert dit vroeg in scheidingsproces.
+>
+> <small>🔗 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-_De heer Janssens (50 % marginaal PB-tarief — voltijds advocaat) betaalt €1.000/maand onderhoudsuitkering aan mevrouw Janssens (gescheiden sinds 2022, herstelt na burnout, marginaal 25 %). Vonnis EOT bekrachtigd 2023. Inkomstenjaar 2024 = €12.000 totaal betaald._
+> [!example]- Onderhoudsuitkering aan minderjarig kind — €500/maand
+> _De heer De Vries betaalt €500/maand alimentatie voor zijn 10-jarige dochter (woont bij ex-echtgenote). Vonnis voorziet dit als kinder-alimentatie aan het kind via de moeder. Inkomstenjaar 2024 = €6.000 totaal. Marginaal De Vries 45 %._
+>
+> **Berekening:**
+>
+> - Stap 1 — bij betaler (De Vries): aftrekbaar = €6.000 × 80 % = €4.800 in vak XI. Belastingbesparing = €4.800 × 45 % = €2.160.
+> - Stap 2 — kwalificatie ontvangst: alimentatie 'aan het kind' (niet 'aan de moeder' — vonnis-tekstualisering matters). Het MINDERJARIG kind is fiscaal eigen aangifte-plichtig voor dit deel (apart kohier).
+> - Stap 3 — bij kind: belastbaar = €6.000 × 80 % = €4.800 als divers inkomen. Maar belastingvrije som AJ 2025 = €10.160 (geïndexeerd, illustratief). €4.800 < €10.160 → effectieve belasting = €0.
+> - Stap 4 — netto-effect voor het gezin = €2.160 besparing betaler, €0 heffing ontvanger = €2.160 totale winst.
+> - Stap 5 — administratie: kind krijgt eigen 'kohier' van fiscus met aangifte (kan via voogd-ouder worden ingevuld). Op 18 jaar wordt kind volledig zelfstandig fiscaal aangifteplichtig.
+>
+> → **Resultaat**: Onderhoudsuitkering aan minderjarig kind is het meest fiscaal-voordelige scenario: betaler trekt 80 % af aan hoog marginaal, kind heeft praktisch geen belasting (onder belastingvrije som).
+>
+> <small>📖 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · BW — art. 203 — _wettekst_</small>
 
-**Berekening:**
-- Stap 1 — bij betaler (Janssens man): aftrekbaar = €12.000 × 80 % = €9.600. Aangifte vak XI rubriek 'Onderhoudsuitkeringen'.
-- Stap 2 — fiscale besparing betaler = €9.600 × 50 % (marginaal) = €4.800 PB-vermindering.
-- Stap 3 — bij ontvanger (Janssens vrouw): belastbaar = €12.000 × 80 % = €9.600. Aangifte vak XV rubriek 'Onderhoudsuitkeringen ontvangen'.
-- Stap 4 — fiscale heffing ontvanger = €9.600 × 25 % (marginaal, na belastingvrije som) = €2.400 PB.
-- Stap 5 — netto-effect voor het 'gespleten' gezin = besparing betaler − heffing ontvanger = €4.800 − €2.400 = €2.400 winst voor het gezamenlijk netto-inkomen.
-- Stap 6 — vergelijk 'zonder onderhoudsuitkering' (kapitaal in één keer): Janssens man betaalt 50 % marginaal op hele inkomen, Janssens vrouw heeft minder eigen inkomen + geen toegang tot belastingvrije som-verhoging via kinderlast.
-
-→ **Resultaat**: Voor scheidende koppels met sterk verschillende inkomens is een GESTRUCTUREERDE onderhoudsuitkering (periodiek, op grond van EOT-vonnis) doorgaans aanzienlijk voordeliger dan een 'kapitaal-uitkoop'. Stagiair adviseert dit vroeg in scheidingsproces.
-
-<small>📚 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### 💡 Onderhoudsuitkering aan minderjarig kind — €500/maand 📖
-
-_De heer De Vries betaalt €500/maand alimentatie voor zijn 10-jarige dochter (woont bij ex-echtgenote). Vonnis voorziet dit als kinder-alimentatie aan het kind via de moeder. Inkomstenjaar 2024 = €6.000 totaal. Marginaal De Vries 45 %._
-
-**Berekening:**
-- Stap 1 — bij betaler (De Vries): aftrekbaar = €6.000 × 80 % = €4.800 in vak XI. Belastingbesparing = €4.800 × 45 % = €2.160.
-- Stap 2 — kwalificatie ontvangst: alimentatie 'aan het kind' (niet 'aan de moeder' — vonnis-tekstualisering matters). Het MINDERJARIG kind is fiscaal eigen aangifte-plichtig voor dit deel (apart kohier).
-- Stap 3 — bij kind: belastbaar = €6.000 × 80 % = €4.800 als divers inkomen. Maar belastingvrije som AJ 2025 = €10.160 (geïndexeerd, illustratief). €4.800 < €10.160 → effectieve belasting = €0.
-- Stap 4 — netto-effect voor het gezin = €2.160 besparing betaler, €0 heffing ontvanger = €2.160 totale winst.
-- Stap 5 — administratie: kind krijgt eigen 'kohier' van fiscus met aangifte (kan via voogd-ouder worden ingevuld). Op 18 jaar wordt kind volledig zelfstandig fiscaal aangifteplichtig.
-
-→ **Resultaat**: Onderhoudsuitkering aan minderjarig kind is het meest fiscaal-voordelige scenario: betaler trekt 80 % af aan hoog marginaal, kind heeft praktisch geen belasting (onder belastingvrije som).
-
-<small>📚 WIB92 — art. 90, 3° — _wettekst_ · WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_ · BW — art. 203 — _wettekst_</small>
-
-### 💡 Achterstallen-claim — vonnis met terugwerkende kracht 📖
-
-_Echtscheidingsvonnis 2024 met terugwerkende kracht tot 2022. De heer Smedt betaalt in december 2024 €36.000 achterstallen (3 × €12.000 voor 2022-2023-2024) aan ex-echtgenote. Zonder bijzondere claim zou €28.800 (80 %) volledig in 2024 belast worden bij ontvanger._
-
-**Berekening:**
-- Stap 1 — zonder achterstallen-claim (verkeerd): ontvanger geeft €28.800 in vak XV 2024 aan → globaliseert met eigen inkomen → marginaal 40 % → €11.520 PB. Plus progressie-effect door spike komt zij in hogere schijf.
-- Stap 2 — met achterstallen-claim (art. 100 + 171, 5°): vraag 'gemiddelde tarief van vier voorafgaande jaren'. Bij stabiel inkomen ontvanger 2020-2023 (marginaal 25 %): gemiddeld tarief ≈ 27 % → belasting = €28.800 × 27 % = €7.776.
-- Stap 3 — besparing door achterstallen-claim = €11.520 − €7.776 = €3.744 voor ontvanger.
-- Stap 4 — symmetrisch voor betaler (art. 105): mag €28.800 × 80 % = volledige aftrek in 2024 OF gespreid claimen.
-- Stap 5 — praktisch: ontvanger duidt in aangifte 2024 het achterstallen-vakje aan, vermeldt jaartal-uitsplitsing (€9.600 voor 2022, €9.600 voor 2023, €9.600 voor 2024).
-
-→ **Resultaat**: Achterstallen-regime is dé belangrijkste 'fiscale truc' bij retroactieve scheidingsvonnissen. Vergeet niet de checkbox in aangifte.
-
-<small>📚 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
+> [!example]- Achterstallen-claim — vonnis met terugwerkende kracht
+> _Echtscheidingsvonnis 2024 met terugwerkende kracht tot 2022. De heer Smedt betaalt in december 2024 €36.000 achterstallen (3 × €12.000 voor 2022-2023-2024) aan ex-echtgenote. Zonder bijzondere claim zou €28.800 (80 %) volledig in 2024 belast worden bij ontvanger._
+>
+> **Berekening:**
+>
+> - Stap 1 — zonder achterstallen-claim (verkeerd): ontvanger geeft €28.800 in vak XV 2024 aan → globaliseert met eigen inkomen → marginaal 40 % → €11.520 PB. Plus progressie-effect door spike komt zij in hogere schijf.
+> - Stap 2 — met achterstallen-claim (art. 100 + 171, 5°): vraag 'gemiddelde tarief van vier voorafgaande jaren'. Bij stabiel inkomen ontvanger 2020-2023 (marginaal 25 %): gemiddeld tarief ≈ 27 % → belasting = €28.800 × 27 % = €7.776.
+> - Stap 3 — besparing door achterstallen-claim = €11.520 − €7.776 = €3.744 voor ontvanger.
+> - Stap 4 — symmetrisch voor betaler (art. 105): mag €28.800 × 80 % = volledige aftrek in 2024 OF gespreid claimen.
+> - Stap 5 — praktisch: ontvanger duidt in aangifte 2024 het achterstallen-vakje aan, vermeldt jaartal-uitsplitsing (€9.600 voor 2022, €9.600 voor 2023, €9.600 voor 2024).
+>
+> → **Resultaat**: Achterstallen-regime is dé belangrijkste 'fiscale truc' bij retroactieve scheidingsvonnissen. Vergeet niet de checkbox in aangifte.
+>
+> <small>📖 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
 
 ## Valkuilen
 
-### ⚠️ 80 %-regel niet kennen of niet toepassen
+> [!warning]- 80 %-regel niet kennen of niet toepassen
+> **Verkeerde assumptie**: Cliënt geeft €12.000 onderhoudsuitkering aan in vak XV en betaler trekt €12.000 af in vak XI.
+>
+> **Kernpunt**: Slechts 80 % van het ontvangen bedrag is belastbaar (art. 99 WIB92) en slechts 80 % van het betaalde bedrag is aftrekbaar (art. 104, 1°). De aangifte vraagt het BRUTO bedrag in te vullen en past de 80 %-regel automatisch toe via de juiste rubriek-codes. Voor zelf-berekening: gebruik bruto × 0,80 om belastingimpact in te schatten.
+>
+> <small>📖 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_</small>
 
-**Verkeerde assumptie**: Cliënt geeft €12.000 onderhoudsuitkering aan in vak XV en betaler trekt €12.000 af in vak XI.
+> [!warning]- Vrijwillige geste als 'onderhoudsuitkering' aanduiden
+> **Verkeerde assumptie**: Betaler stuurt vrijwillig €500/maand aan ouder zonder gerechtelijk vonnis en wil dit als aftrekbare onderhoudsuitkering claimen.
+>
+> **Kernpunt**: Aftrek vereist ONDERLIGGEND wettelijke titel (vonnis/notariële akte). Zonder titel: fiscus weigert aftrek bij controle + boete. Indien gerede aanleiding voor onderhoudsplicht (bv. behoeftige ouder, art. 205 BW): laat een notariële akte opstellen (~€200-€500 kost, terugverdiend in eerste jaar belastingbesparing).
+>
+> <small>📖 WIB92 — art. 104, 1° — _wettekst_ · BW — art. 205 — _wettekst_</small>
 
-**Kernpunt**: Slechts 80 % van het ontvangen bedrag is belastbaar (art. 99 WIB92) en slechts 80 % van het betaalde bedrag is aftrekbaar (art. 104, 1°). De aangifte vraagt het BRUTO bedrag in te vullen en past de 80 %-regel automatisch toe via de juiste rubriek-codes. Voor zelf-berekening: gebruik bruto × 0,80 om belastingimpact in te schatten.
-
-<small>📚 WIB92 — art. 99 — _wettekst_ · WIB92 — art. 104, 1° — _wettekst_</small>
-
-### ⚠️ Vrijwillige geste als 'onderhoudsuitkering' aanduiden
-
-**Verkeerde assumptie**: Betaler stuurt vrijwillig €500/maand aan ouder zonder gerechtelijk vonnis en wil dit als aftrekbare onderhoudsuitkering claimen.
-
-**Kernpunt**: Aftrek vereist ONDERLIGGEND wettelijke titel (vonnis/notariële akte). Zonder titel: fiscus weigert aftrek bij controle + boete. Indien gerede aanleiding voor onderhoudsplicht (bv. behoeftige ouder, art. 205 BW): laat een notariële akte opstellen (~€200-€500 kost, terugverdiend in eerste jaar belastingbesparing).
-
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · BW — art. 205 — _wettekst_</small>
-
-### ⚠️ Achterstallen vergeten te claimen
-
-**Verkeerde assumptie**: Bij retroactief vonnis volledige achterstal-bedrag globaal aangeven in jaar van betaling.
-
-**Kernpunt**: Art. 100 + 171, 5° voorzien expliciet de mogelijkheid van 'gemiddelde tarief vier voorafgaande jaren' voor achterstallen — kan duizenden euro's besparen. Verplichte CHECKBOX in aangifte vak XV (ontvanger) en vak XI (betaler) + jaartal-uitsplitsing.
-
-<small>📚 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
+> [!warning]- Achterstallen vergeten te claimen
+> **Verkeerde assumptie**: Bij retroactief vonnis volledige achterstal-bedrag globaal aangeven in jaar van betaling.
+>
+> **Kernpunt**: Art. 100 + 171, 5° voorzien expliciet de mogelijkheid van 'gemiddelde tarief vier voorafgaande jaren' voor achterstallen — kan duizenden euro's besparen. Verplichte CHECKBOX in aangifte vak XV (ontvanger) en vak XI (betaler) + jaartal-uitsplitsing.
+>
+> <small>📖 WIB92 — art. 100 — _wettekst_ · WIB92 — art. 105 — _wettekst_ · WIB92 — art. 171, 5° — _wettekst_</small>
 
 ## Accountant-perspectieven
 
@@ -210,21 +192,19 @@ _De accountant die de PB-aangifte voor een gescheiden cliënt-betaler verzorgt e
 
 #### 💰 Fiscaal adviseur
 
-##### 👣 Onderhoudsplicht-dossier opbouwen  
-_`stap`_
+##### 👣 Onderhoudsplicht-dossier opbouwen
 
-📖 Bij elke cliënt-betaler: (1) verzamel gerechtelijk vonnis of notariële akte (authentiek afschrift); (2) jaaroverzicht betalingen + bankafschriften met duidelijke vermelding; (3) identificatie ontvanger (RR-nummer, adres); (4) verificatie ≠ adres betaler per 1 januari aanslagjaar; (5) check op achterstallen of retroactieve elementen. Bewaar dossier 5 jaar.
+Bij elke cliënt-betaler: (1) verzamel gerechtelijk vonnis of notariële akte (authentiek afschrift); (2) jaaroverzicht betalingen + bankafschriften met duidelijke vermelding; (3) identificatie ontvanger (RR-nummer, adres); (4) verificatie ≠ adres betaler per 1 januari aanslagjaar; (5) check op achterstallen of retroactieve elementen. Bewaar dossier 5 jaar.
 
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 354 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 WIB92 — art. 104, 1° — _wettekst_ · WIB92 — art. 354 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 #### 🧭 Adviseur
 
-##### 🧭 Fiscale structurering EOT-akkoord  
-_`vuistregel`_
+##### 🧭 Fiscale structurering EOT-akkoord
 
-🔗 Bij scheiding-onderhandeling: adviseer cliënt om in EOT-akkoord (1) onderhoudsuitkering EXPLICIET als periodiek bedrag te formuleren (geen 'kapitaal-uitkoop'); (2) bedrag op minimaal niveau van wettelijke onderhoudsplicht (BW art. 203, 301) zetten; (3) duidelijke verdeling 'voor kind' versus 'voor ex-partner' opnemen; (4) indexatie-clausule (CPI) toevoegen om jaarlijkse aanpassing automatisch te maken. Een wel-geconstrueerd EOT-akkoord met deze elementen wordt door fiscus zelden gecontesteerd.
+Bij scheiding-onderhandeling: adviseer cliënt om in EOT-akkoord (1) onderhoudsuitkering EXPLICIET als periodiek bedrag te formuleren (geen 'kapitaal-uitkoop'); (2) bedrag op minimaal niveau van wettelijke onderhoudsplicht (BW art. 203, 301) zetten; (3) duidelijke verdeling 'voor kind' versus 'voor ex-partner' opnemen; (4) indexatie-clausule (CPI) toevoegen om jaarlijkse aanpassing automatisch te maken. Een wel-geconstrueerd EOT-akkoord met deze elementen wordt door fiscus zelden gecontesteerd.
 
-<small>📚 WIB92 — art. 104, 1° — _wettekst_ · BW — art. 301 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 104, 1° — _wettekst_ · BW — art. 301 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

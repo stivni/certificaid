@@ -18,33 +18,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/antiwitwaspreventie.json"
 ---
 
-# Antiwitwaspreventie
-
-_Regime_
-
-📋 Regeling · Anchors: `4.0.I.D` · `4.0.taak.2` · `4.0.taak.3` · Wave: `skeleton-controle-beroep-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Afk.**: AML — **Synoniemen**: anti-money-laundering · witwasplicht accountant · AWW-discipline · lutte contre le blanchiment — **Vertalingen**: fr: prévention du blanchiment · en: anti-money laundering
+_Regime_ · afk: **AML** · ook: anti-money-laundering · witwasplicht accountant · AWW-discipline · lutte contre le blanchiment
 
 ## Definitie
 
-📖 Antiwitwaspreventie is het wettelijk regime dat de gecertificeerd accountant en belastingadviseur verplicht om witwassen van geld en de financiering van terrorisme actief te voorkomen, op te sporen en — bij vermoeden — te melden aan de Cel voor Financiële Informatieverwerking (CFI). Belangrijkste rechtsgrondslag is de Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten (de antiwitwaswet of AML-wet), die de EU 5e/6e antiwitwasrichtlijn omzet. De gecertificeerd accountant behoort tot de 'onderworpen entiteiten' (art. 5 AML-wet) en moet dus de waakzaamheidsverplichtingen en meldingsplicht respecteren.
+Antiwitwaspreventie is het wettelijk regime dat de gecertificeerd accountant en belastingadviseur verplicht om witwassen van geld en de financiering van terrorisme actief te voorkomen, op te sporen en — bij vermoeden — te melden aan de Cel voor Financiële Informatieverwerking (CFI). Belangrijkste rechtsgrondslag is de Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten (de antiwitwaswet of AML-wet), die de EU 5e/6e antiwitwasrichtlijn omzet. De gecertificeerd accountant behoort tot de 'onderworpen entiteiten' (art. 5 AML-wet) en moet dus de waakzaamheidsverplichtingen en meldingsplicht respecteren.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 5 + 8 — _wettekst_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 5 + 8 — _wettekst_</small>
 
 ## Substantie
 
-🔗 AML is geen aparte controleopdracht — het is een doorlopende verplichting die in elke cliëntrelatie verweven zit. Drie pijlers: (1) Cliëntenonderzoek (KYC, 'Know Your Customer') — identificatie van cliënt, lasthebbers en uiteindelijke begunstigden (UBO), begrip van de aard van de zakenrelatie, doorlopende waakzaamheid; (2) Risicogebaseerde benadering — geen 'one-size-fits-all', maar onderzoeksdiepte afgestemd op risicoprofiel (vereenvoudigd / standaard / verscherpt); (3) Meldingsplicht — bij elk vermoeden van witwassen of terrorismefinanciering: melding aan CFI, mét absolute tipping-off-discipline. Het regime is intern verankerd via een Anti-Money Laundering Compliance Officer (AMLCO), schriftelijke procedures en 10-jarige bewaartermijn van bewijsstukken.
+AML is geen aparte controleopdracht — het is een doorlopende verplichting die in elke cliëntrelatie verweven zit. Drie pijlers: (1) Cliëntenonderzoek (KYC, 'Know Your Customer') — identificatie van cliënt, lasthebbers en uiteindelijke begunstigden (UBO), begrip van de aard van de zakenrelatie, doorlopende waakzaamheid; (2) Risicogebaseerde benadering — geen 'one-size-fits-all', maar onderzoeksdiepte afgestemd op risicoprofiel (vereenvoudigd / standaard / verscherpt); (3) Meldingsplicht — bij elk vermoeden van witwassen of terrorismefinanciering: melding aan CFI, mét absolute tipping-off-discipline. Het regime is intern verankerd via een Anti-Money Laundering Compliance Officer (AMLCO), schriftelijke procedures en 10-jarige bewaartermijn van bewijsstukken.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 19 + 21-32 + 47 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 2 + 4 — _norm_</small>
+<small>🔗 Wet 18 september 2017 (antiwitwaswet) — art. 19 + 21-32 + 47 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 2 + 4 — _norm_</small>
 
 ## Rationale
 
-🔗 De ratio legis is de poortwachters-functie van de accountant in de strijd tegen financiële criminaliteit. Witwasstromen passeren onvermijdelijk door professionele dienstverleners — boekhouders, advocaten, notarissen, banken — omdat criminele opbrengsten 'gewassen' moeten worden via legitieme economische circuits. De EU-richtlijnen verplichten de lidstaten om die professionals te onderwerpen aan waakzaamheids- en meldingsplichten. Voor de accountant betekent dit dat zijn taak niet eindigt bij het netjes opstellen van een jaarrekening — hij moet ook signaleren wanneer cijfers wijzen op een illegale herkomst van middelen. De spanning met het beroepsgeheim is door de wetgever opgelost: CFI-melding is een wettelijke uitzondering op art. 458 SW, met immuniteit voor de melder en strikt tipping-off-verbod.
+De ratio legis is de poortwachters-functie van de accountant in de strijd tegen financiële criminaliteit. Witwasstromen passeren onvermijdelijk door professionele dienstverleners — boekhouders, advocaten, notarissen, banken — omdat criminele opbrengsten 'gewassen' moeten worden via legitieme economische circuits. De EU-richtlijnen verplichten de lidstaten om die professionals te onderwerpen aan waakzaamheids- en meldingsplichten. Voor de accountant betekent dit dat zijn taak niet eindigt bij het netjes opstellen van een jaarrekening — hij moet ook signaleren wanneer cijfers wijzen op een illegale herkomst van middelen. De spanning met het beroepsgeheim is door de wetgever opgelost: CFI-melding is een wettelijke uitzondering op art. 458 SW, met immuniteit voor de melder en strikt tipping-off-verbod.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 47-57 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 Wet 18 september 2017 (antiwitwaswet) — art. 47-57 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -66,179 +58,154 @@ De Wet 18-09-2017 vervangt de oude AML-wet van 11 januari 1993. Sindsdien meerde
 
 ## Sub-concepten
 
-### 📦 Cliëntenonderzoek (KYC)  
-_`procedure` (subconcept)_
+### 📦 Cliëntenonderzoek (KYC)
 
 #### Definitie
 
-📖 Cliëntenonderzoek omvat (1) identificatie en identiteitsverificatie van de cliënt op basis van een betrouwbare bron (eID, paspoort, KBO); (2) identificatie van de lasthebbers (volmachthouders, bestuurders); (3) identificatie van de uiteindelijke begunstigde (UBO) — natuurlijke persoon die uiteindelijk meer dan 25% van de aandelen/stemrechten/winsten controleert; (4) begrip van het doel en de aard van de zakelijke relatie; (5) doorlopende waakzaamheid tijdens de hele relatie. Bij twijfel over identiteit/UBO: geen zakelijke relatie aangaan en eventueel CFI melden (art. 33 §2 AML-wet).
+Cliëntenonderzoek omvat (1) identificatie en identiteitsverificatie van de cliënt op basis van een betrouwbare bron (eID, paspoort, KBO); (2) identificatie van de lasthebbers (volmachthouders, bestuurders); (3) identificatie van de uiteindelijke begunstigde (UBO) — natuurlijke persoon die uiteindelijk meer dan 25% van de aandelen/stemrechten/winsten controleert; (4) begrip van het doel en de aard van de zakelijke relatie; (5) doorlopende waakzaamheid tijdens de hele relatie. Bij twijfel over identiteit/UBO: geen zakelijke relatie aangaan en eventueel CFI melden (art. 33 §2 AML-wet).
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 21-32 + art. 33 §2 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.4-4.8 — _norm_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 21-32 + art. 33 §2 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.4-4.8 — _norm_</small>
 
-### 📦 UBO-register  
-_`instrument` (subconcept)_
+### 📦 UBO-register
 
 #### Definitie
 
-📖 Het UBO-register is een centraal register beheerd door de FOD Financiën waarin elke Belgische vennootschap, vereniging en stichting de natuurlijke personen moet registreren die uiteindelijk de eigendom of controle hebben (uiteindelijke begunstigden — UBO's). Rechtsgrondslag: Wet 26 juni 2020. De accountant gebruikt het UBO-register als bron bij cliëntonderzoek én begeleidt zijn cliënten bij hun registratie- en update-plicht. De cliënt blijft eindverantwoordelijk voor correctheid van zijn UBO-registratie.
+Het UBO-register is een centraal register beheerd door de FOD Financiën waarin elke Belgische vennootschap, vereniging en stichting de natuurlijke personen moet registreren die uiteindelijk de eigendom of controle hebben (uiteindelijke begunstigden — UBO's). Rechtsgrondslag: Wet 26 juni 2020. De accountant gebruikt het UBO-register als bron bij cliëntonderzoek én begeleidt zijn cliënten bij hun registratie- en update-plicht. De cliënt blijft eindverantwoordelijk voor correctheid van zijn UBO-registratie.
 
-<small>📚 Wet 26 juni 2020 — UBO-register, gewijzigde artikelen WER + AML-wet — _wettekst_</small>
+<small>📖 Wet 26 juni 2020 — UBO-register, gewijzigde artikelen WER + AML-wet — _wettekst_</small>
 
 #### Substantie
 
-📖 Een UBO is een natuurlijke persoon die direct of indirect meer dan 25% van de aandelen, stemrechten of winsten van een vennootschap controleert — of, bij ontstentenis, een persoon met andere controle (bv. zaakvoerder als hoogste hiërarchische verantwoordelijke). De accountant raadpleegt het UBO-register bij elke nieuwe cliënt en valideert of de gegevens overeenstemmen met de werkelijkheid die hij in het cliëntonderzoek vaststelt; bij discrepantie meldt hij dit aan de toezichthouder (art. 74 AML-wet).
+Een UBO is een natuurlijke persoon die direct of indirect meer dan 25% van de aandelen, stemrechten of winsten van een vennootschap controleert — of, bij ontstentenis, een persoon met andere controle (bv. zaakvoerder als hoogste hiërarchische verantwoordelijke). De accountant raadpleegt het UBO-register bij elke nieuwe cliënt en valideert of de gegevens overeenstemmen met de werkelijkheid die hij in het cliëntonderzoek vaststelt; bij discrepantie meldt hij dit aan de toezichthouder (art. 74 AML-wet).
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 4, 27° + art. 74 — _wettekst_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 4, 27° + art. 74 — _wettekst_</small>
 
-### 📦 Risicogebaseerde benadering  
-_`principe` (subconcept)_
-
-#### Definitie
-
-📖 De diepgang van het cliëntenonderzoek is evenredig met het ingeschatte witwasrisico. Drie regimes: (1) vereenvoudigd onderzoek voor cliënten met laag risico (bv. genoteerde EU-vennootschap, overheid); (2) standaard onderzoek voor het overgrote deel van de cliënten; (3) verscherpt onderzoek voor cliënten met hoog risico — bv. politiek prominente personen (PEP), klanten gevestigd in hoog-risico-derde-landen of in landen zonder of met lage belasting, gevallen waar voorafgaande identiteitsverificatie onmogelijk was.
-
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 37-41 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.9 (verhoogde waakzaamheid) — _norm_</small>
-
-### 📦 Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI)  
-_`procedure` (subconcept)_
+### 📦 Risicogebaseerde benadering
 
 #### Definitie
 
-📖 Wanneer de accountant tijdens een opdracht een feit of verrichting identificeert die hij weet of vermoedt dat ze verband houdt met witwassen van geld of de financiering van terrorisme: hij is wettelijk verplicht dit te melden aan de Cel voor Financiële Informatieverwerking (CFI) via art. 47-59 AML-wet. De melding wordt in praktijk gemaakt door de AMLCO van het kantoor (e-mail naar info@ctif-cfi.be). De melder geniet immuniteit (burgerrechtelijk, strafrechtelijk en tuchtrechtelijk — art. 57 AML-wet) wanneer de melding te goeder trouw gebeurt.
+De diepgang van het cliëntenonderzoek is evenredig met het ingeschatte witwasrisico. Drie regimes: (1) vereenvoudigd onderzoek voor cliënten met laag risico (bv. genoteerde EU-vennootschap, overheid); (2) standaard onderzoek voor het overgrote deel van de cliënten; (3) verscherpt onderzoek voor cliënten met hoog risico — bv. politiek prominente personen (PEP), klanten gevestigd in hoog-risico-derde-landen of in landen zonder of met lage belasting, gevallen waar voorafgaande identiteitsverificatie onmogelijk was.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 47 + 57 — _wettekst_ · ITAA-Handleiding interne procedures AWW 2019 — punt 14 + 14.6.4 — _norm_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 37-41 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.9 (verhoogde waakzaamheid) — _norm_</small>
+
+### 📦 Meldingsplicht aan de Cel voor Financiële Informatieverwerking (CFI)
+
+#### Definitie
+
+Wanneer de accountant tijdens een opdracht een feit of verrichting identificeert die hij weet of vermoedt dat ze verband houdt met witwassen van geld of de financiering van terrorisme: hij is wettelijk verplicht dit te melden aan de Cel voor Financiële Informatieverwerking (CFI) via art. 47-59 AML-wet. De melding wordt in praktijk gemaakt door de AMLCO van het kantoor (e-mail naar info@ctif-cfi.be). De melder geniet immuniteit (burgerrechtelijk, strafrechtelijk en tuchtrechtelijk — art. 57 AML-wet) wanneer de melding te goeder trouw gebeurt.
+
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 47 + 57 — _wettekst_ · ITAA-Handleiding interne procedures AWW 2019 — punt 14 + 14.6.4 — _norm_</small>
 
 #### Substantie
 
-📖 Na de melding geldt het tipping-off-verbod (art. 55 AML-wet): de accountant en al zijn medewerkers mogen onder geen beding aan de cliënt of derden laten weten dat een melding gebeurd is. Schending = strafbaar (art. 132 AML-wet). Uitzonderingen: poging om de cliënt te ontraden van een illegale activiteit, kennisgeving aan het ITAA, kennisgeving voor repressieve doeleinden, mededeling aan beroepsgenoten in dezelfde entiteit of in dezelfde verrichting (art. 56 §3 AML-wet).
+Na de melding geldt het tipping-off-verbod (art. 55 AML-wet): de accountant en al zijn medewerkers mogen onder geen beding aan de cliënt of derden laten weten dat een melding gebeurd is. Schending = strafbaar (art. 132 AML-wet). Uitzonderingen: poging om de cliënt te ontraden van een illegale activiteit, kennisgeving aan het ITAA, kennisgeving voor repressieve doeleinden, mededeling aan beroepsgenoten in dezelfde entiteit of in dezelfde verrichting (art. 56 §3 AML-wet).
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 55 + 56 §3 + 132 — _wettekst_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 55 + 56 §3 + 132 — _wettekst_</small>
 
 ## Bouwstenen
 
-### 📜 Verplichte aanstelling AMLCO (art. 9 AML-wet)  
-_`regel`_
+### 📜 Verplichte aanstelling AMLCO (art. 9 AML-wet)
 
-📖 Elke beroepsbeoefenaar moet een Anti-Money Laundering Compliance Officer (AMLCO) aanduiden. Voor een eenmanskantoor of klein kantoor (< 10 beroepsbeoefenaars): de verantwoordelijke op het hoogste niveau kan zelf de AMLCO-functie vervullen. Vanaf 10+ beroepsbeoefenaars: AMLCO moet een onderscheiden persoon zijn. Voor netwerken: één AMLCO per kantoor, eventueel aangevuld met een netwerk-AMLCO. Stagiairs kunnen NIET als AMLCO of verantwoordelijke op hoogste niveau aangeduid worden.
+Elke beroepsbeoefenaar moet een Anti-Money Laundering Compliance Officer (AMLCO) aanduiden. Voor een eenmanskantoor of klein kantoor (< 10 beroepsbeoefenaars): de verantwoordelijke op het hoogste niveau kan zelf de AMLCO-functie vervullen. Vanaf 10+ beroepsbeoefenaars: AMLCO moet een onderscheiden persoon zijn. Voor netwerken: één AMLCO per kantoor, eventueel aangevuld met een netwerk-AMLCO. Stagiairs kunnen NIET als AMLCO of verantwoordelijke op hoogste niveau aangeduid worden.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 9 §2 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 2.2-2.3 — _norm_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 9 §2 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 2.2-2.3 — _norm_</small>
 
-### ⚙️ Knipperlichten-lijst — typische verdachte signalen  
-_`mechanisme`_
+### ⚙️ Knipperlichten-lijst — typische verdachte signalen
 
-📖 De ITAA-Handleiding interne procedures AWW geeft een niet-limitatieve knipperlichten-lijst, oa: cliënt lijkt boven zijn stand te leven; aankoopfacturen onmiddellijk gevolgd door verkoopfacturen voor bijna hetzelfde bedrag; doorsluisrekeningen (geld blijft nooit lang staan); inbreng in contanten bij oprichting of kapitaalverhoging; inbreng in natura (materiaal of rekening-courant) klaarblijkelijk overgewaardeerd; verdachte vereffening kort na oprichting; talrijke aankoopfacturen van één onderaannemer; offshorevennootschappen voor consultancykosten; jaarrekening niet of laattijdig neergelegd; vennootschap heeft geen werknemers in een sector waar dat onnormaal is.
+De ITAA-Handleiding interne procedures AWW geeft een niet-limitatieve knipperlichten-lijst, oa: cliënt lijkt boven zijn stand te leven; aankoopfacturen onmiddellijk gevolgd door verkoopfacturen voor bijna hetzelfde bedrag; doorsluisrekeningen (geld blijft nooit lang staan); inbreng in contanten bij oprichting of kapitaalverhoging; inbreng in natura (materiaal of rekening-courant) klaarblijkelijk overgewaardeerd; verdachte vereffening kort na oprichting; talrijke aankoopfacturen van één onderaannemer; offshorevennootschappen voor consultancykosten; jaarrekening niet of laattijdig neergelegd; vennootschap heeft geen werknemers in een sector waar dat onnormaal is.
 
-<small>📚 ITAA-Handleiding interne procedures AWW 2019 — art. 19 — _norm_</small>
+<small>📖 ITAA-Handleiding interne procedures AWW 2019 — art. 19 — _norm_</small>
 
-### 👣 Interne procedure bij knipperlicht (4 stappen)  
-_`stap`_
+### 👣 Interne procedure bij knipperlicht (4 stappen)
 
-📖 Wanneer een medewerker een knipperlicht detecteert: (1) interne schriftelijke melding aan de AMLCO via standaard-formulier 'Interne melding atypische verrichting'; (2) AMLCO stelt een dossier samen en doet aanvullend onderzoek; (3) indien geen verband met witwassen kan worden vastgesteld: schriftelijke samenvatting (intern verslag) — 10 jaar bewaren; (4) indien wel vermoeden van verband: AMLCO maakt intern verslag met onderzoek-resultaten + meldt aan CFI conform punt 14 ITAA-Handleiding.
+Wanneer een medewerker een knipperlicht detecteert: (1) interne schriftelijke melding aan de AMLCO via standaard-formulier 'Interne melding atypische verrichting'; (2) AMLCO stelt een dossier samen en doet aanvullend onderzoek; (3) indien geen verband met witwassen kan worden vastgesteld: schriftelijke samenvatting (intern verslag) — 10 jaar bewaren; (4) indien wel vermoeden van verband: AMLCO maakt intern verslag met onderzoek-resultaten + meldt aan CFI conform punt 14 ITAA-Handleiding.
 
-<small>📚 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4 + 13 — _norm_</small>
+<small>📖 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4 + 13 — _norm_</small>
 
-### 📜 Cliënt-weigering bij onmogelijk onderzoek  
-_`regel`_
+### 📜 Cliënt-weigering bij onmogelijk onderzoek
 
-📖 Wanneer het cliëntenonderzoek niet kan voltooid worden (geen identificatie cliënt/UBO mogelijk, cliënt-informatie ongeloofwaardig, of geen risico-inschatting mogelijk), moet de beroepsbeoefenaar (a) de zakenrelatie weigeren of beëindigen, en (b) onderzoeken of een melding aan de CFI nodig is (art. 33 §2, 34 §4, 35 §3 AML-wet). Uitzondering geldt voor juridisch-advies-context (art. 53).
+Wanneer het cliëntenonderzoek niet kan voltooid worden (geen identificatie cliënt/UBO mogelijk, cliënt-informatie ongeloofwaardig, of geen risico-inschatting mogelijk), moet de beroepsbeoefenaar (a) de zakenrelatie weigeren of beëindigen, en (b) onderzoeken of een melding aan de CFI nodig is (art. 33 §2, 34 §4, 35 §3 AML-wet). Uitzondering geldt voor juridisch-advies-context (art. 53).
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 33 §2, 34 §4, 35 §3 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.3 — _norm_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 33 §2, 34 §4, 35 §3 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4.3 — _norm_</small>
 
-### 📏 10-jarige bewaartermijn  
-_`drempel`_
+### 📏 10-jarige bewaartermijn
 
-📖 Alle interne verslagen en dossiers in het kader van AML moeten 10 jaar bewaard worden na het einde van de verrichting of het einde van de zakenrelatie. Geldt zowel voor positieve (geen vermoeden) als negatieve (vermoeden + CFI-melding) bevindingen.
+Alle interne verslagen en dossiers in het kader van AML moeten 10 jaar bewaard worden na het einde van de verrichting of het einde van de zakenrelatie. Geldt zowel voor positieve (geen vermoeden) als negatieve (vermoeden + CFI-melding) bevindingen.
 
-<small>📚 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4.2.2-3 — _norm_</small>
+<small>📖 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4.2.2-3 — _norm_</small>
 
-### 📜 Beperking gebruik contanten (3 000 EUR-cap)  
-_`regel`_
+### 📜 Beperking gebruik contanten (3 000 EUR-cap)
 
-❓ De Wet van 18 september 2017 — wiens volledige titel uitdrukkelijk verwijst naar 'beperking van het gebruik van contanten' — verbiedt contante betalingen of giften boven 3 000 EUR per transactie tussen ondernemingen onderling en tussen ondernemingen en consumenten (verifieer exact wetsartikel — vermoedelijk art. 67 AML-wet; tot 2017 stond een gelijkaardige regel in art. 21 van de wet van 11 januari 1993). Toepassingsveld: alle handelaars, dienstverleners, beroepsbeoefenaars (incl. accountants als ondernemers) en bijzonder strikt voor handelaars in kunst, edele metalen en oude metalen. Uitzonderingen voor financiële instellingen onderling en bepaalde nutsbedrijven. De drempel is een per-transactie-drempel: opsplitsing van één economische verrichting in meerdere deelbetalingen om onder de cap te blijven kwalificeert als omzeiling en is sanctioneerbaar. Administratieve geldboete: 25 % tot 100 % van het bedrag dat boven de cap werd betaald, opgelegd door de FOD Economie.
+De Wet van 18 september 2017 — wiens volledige titel uitdrukkelijk verwijst naar 'beperking van het gebruik van contanten' — verbiedt contante betalingen of giften boven 3 000 EUR per transactie tussen ondernemingen onderling en tussen ondernemingen en consumenten (verifieer exact wetsartikel — vermoedelijk art. 67 AML-wet; tot 2017 stond een gelijkaardige regel in art. 21 van de wet van 11 januari 1993). Toepassingsveld: alle handelaars, dienstverleners, beroepsbeoefenaars (incl. accountants als ondernemers) en bijzonder strikt voor handelaars in kunst, edele metalen en oude metalen. Uitzonderingen voor financiële instellingen onderling en bepaalde nutsbedrijven. De drempel is een per-transactie-drempel: opsplitsing van één economische verrichting in meerdere deelbetalingen om onder de cap te blijven kwalificeert als omzeiling en is sanctioneerbaar. Administratieve geldboete: 25 % tot 100 % van het bedrag dat boven de cap werd betaald, opgelegd door de FOD Economie.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 67 (te verifiëren) — hoofdstuk beperking gebruik contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+<small>❓ Wet 18 september 2017 (antiwitwaswet) — art. 67 (te verifiëren) — hoofdstuk beperking gebruik contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
 
-**Substantie**: 🔗 Voor de accountant heeft de cap een dubbele relevantie: (1) eigen kantoor — honoraria boven 3 000 EUR mogen niet contant ontvangen worden, zelfs niet bij gespreide betaling als de gehele opdracht boven de drempel uitkomt; (2) cliënt-monitoring — contante stromen die de drempel naderen of opsplitsen zijn een AML-knipperlicht dat cumuleert met andere indicatoren. Bijzondere context: vastgoedtransacties zijn quasi-volledig uit het contante circuit gehaald (notariële akte vereist bancair traject); de tweedehandsauto-handel staat onder verscherpt toezicht omdat ze historisch een witwaskanaal vormde. De cap staat naast — niet in plaats van — de waakzaamheidsverplichting en de meldingsplicht aan de CFI: een transactie van 2 500 EUR cash is niet wettelijk verboden, maar kan wel een verdachte-transactie-melding triggeren indien gecombineerd met andere knipperlichten.
+**Substantie**: Voor de accountant heeft de cap een dubbele relevantie: (1) eigen kantoor — honoraria boven 3 000 EUR mogen niet contant ontvangen worden, zelfs niet bij gespreide betaling als de gehele opdracht boven de drempel uitkomt; (2) cliënt-monitoring — contante stromen die de drempel naderen of opsplitsen zijn een AML-knipperlicht dat cumuleert met andere indicatoren. Bijzondere context: vastgoedtransacties zijn quasi-volledig uit het contante circuit gehaald (notariële akte vereist bancair traject); de tweedehandsauto-handel staat onder verscherpt toezicht omdat ze historisch een witwaskanaal vormde. De cap staat naast — niet in plaats van — de waakzaamheidsverplichting en de meldingsplicht aan de CFI: een transactie van 2 500 EUR cash is niet wettelijk verboden, maar kan wel een verdachte-transactie-melding triggeren indien gecombineerd met andere knipperlichten.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 47 + hoofdstuk contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+<small>🔗 Wet 18 september 2017 (antiwitwaswet) — art. 47 + hoofdstuk contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
 
-**Rationale**: 🔗 De ratio is preventief-systemisch: contant geld is per definitie traceloos en vormt daarmee de zwakke schakel in elke AML-architectuur die voor het overige op bancaire transparantie steunt (rekeningidentificatie, transactie-monitoring, beslag onder derden). Door een wettelijke plafond te leggen op contante stromen wordt het zwarte circuit gedwongen om bancair te transiteren — waar de waakzaamheidsverplichting van financiële instellingen actief wordt. De cap is dus geen sanctiebepaling tegen één specifieke witwasvorm, maar een algemene structuur-maatregel die het instrument zelf (cash) onaantrekkelijk maakt voor grote bedragen. Spiegelregel met meldingsplicht: cash onder de cap kan nog steeds verdacht zijn en moet aan de CFI gemeld worden bij vermoeden.
+**Rationale**: De ratio is preventief-systemisch: contant geld is per definitie traceloos en vormt daarmee de zwakke schakel in elke AML-architectuur die voor het overige op bancaire transparantie steunt (rekeningidentificatie, transactie-monitoring, beslag onder derden). Door een wettelijke plafond te leggen op contante stromen wordt het zwarte circuit gedwongen om bancair te transiteren — waar de waakzaamheidsverplichting van financiële instellingen actief wordt. De cap is dus geen sanctiebepaling tegen één specifieke witwasvorm, maar een algemene structuur-maatregel die het instrument zelf (cash) onaantrekkelijk maakt voor grote bedragen. Spiegelregel met meldingsplicht: cash onder de cap kan nog steeds verdacht zijn en moet aan de CFI gemeld worden bij vermoeden.
 
-<small>📚 didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+<small>🔗 didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
 
 ## Voorbeelden
 
-### 💡 Doorsluisvennootschap met overgewaardeerde inbreng in natura 🔗
+> [!example]- Doorsluisvennootschap met overgewaardeerde inbreng in natura
+> _Een nieuwe cliënt 'Z. Trading BV' wil zich laten begeleiden door kantoor Vermeulen & Partners. De oprichter brengt 750.000 EUR in via een rekening-courant uit voorvennootschap; de UBO is een Cypriotische trust; de cliënt wil onmiddellijk grote bedragen doorsluizen naar Maltees buitenland._
+>
+> 1. Stap 1 — knipperlichten triggeren: (a) UBO via offshore trust (verscherpt onderzoek), (b) inbreng-via-RC onverklaard, (c) onmiddellijke doorsluis naar laag-belast land.
+> 2. Stap 2 — verscherpt cliëntenonderzoek (art. 37 AML-wet): UBO-bewijsstukken vragen, herkomst van de fondsen verifiëren, bedoeling van de cliënt verduidelijken.
+> 3. Stap 3 — bij onmogelijkheid om UBO of fondsen-herkomst te verifiëren: zakenrelatie WEIGEREN (art. 33 §2 AML-wet) — geen opdrachtbrief tekenen.
+> 4. Stap 4 — AMLCO beoordeelt of CFI-melding nodig is: gezien de combinatie van knipperlichten — waarschijnlijk wel. Melding via info@ctif-cfi.be.
+> 5. Stap 5 — Strikt tipping-off respecteren: de cliënt NIET informeren over de CFI-melding.
+>
+> <small>🔗 ITAA-Handleiding interne procedures AWW 2019 — art. 19 knipperlichten — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-_Een nieuwe cliënt 'Z. Trading BV' wil zich laten begeleiden door kantoor Vermeulen & Partners. De oprichter brengt 750.000 EUR in via een rekening-courant uit voorvennootschap; de UBO is een Cypriotische trust; de cliënt wil onmiddellijk grote bedragen doorsluizen naar Maltees buitenland._
-
-**Weergave** `stappenlijst`:
-
-```json
-{
-  "stappen": [
-    "Stap 1 — knipperlichten triggeren: (a) UBO via offshore trust (verscherpt onderzoek), (b) inbreng-via-RC onverklaard, (c) onmiddellijke doorsluis naar laag-belast land.",
-    "Stap 2 — verscherpt cliëntenonderzoek (art. 37 AML-wet): UBO-bewijsstukken vragen, herkomst van de fondsen verifiëren, bedoeling van de cliënt verduidelijken.",
-    "Stap 3 — bij onmogelijkheid om UBO of fondsen-herkomst te verifiëren: zakenrelatie WEIGEREN (art. 33 §2 AML-wet) — geen opdrachtbrief tekenen.",
-    "Stap 4 — AMLCO beoordeelt of CFI-melding nodig is: gezien de combinatie van knipperlichten — waarschijnlijk wel. Melding via info@ctif-cfi.be.",
-    "Stap 5 — Strikt tipping-off respecteren: de cliënt NIET informeren over de CFI-melding."
-  ]
-}
-```
-
-<small>📚 ITAA-Handleiding interne procedures AWW 2019 — art. 19 knipperlichten — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
-
-### 💡 Politiek prominente persoon (PEP) als nieuwe cliënt 🔗
-
-_Aurelia Holding NV (cliënt) krijgt een nieuwe bestuurder: een voormalige minister van Buitenlandse Zaken, die als PEP gekwalificeerd wordt (5 jaar na ambtsbeëindiging blijft de PEP-status gelden)._
-
-**Weergave** `stappenlijst`:
-
-```json
-{
-  "stappen": [
-    "Stap 1 — Risico-klassering Aurelia Holding NV: verhoogd risico wegens PEP-bestuurder.",
-    "Stap 2 — Verscherpt onderzoek: (a) goedkeuring op senior-niveau (kantoor-partner) vóór relatie wordt voortgezet, (b) extra onderzoek herkomst middelen, (c) doorlopende monitoring met aangepaste frequentie (jaarlijks ipv driejaarlijks).",
-    "Stap 3 — Documentatie in dossier: PEP-status, beslissingsproces, frequentie monitoring.",
-    "Stap 4 — Bij elke significante transactie: extra alertheid op herkomst en bestemming, eventueel onderzoek of een knipperlicht actief wordt."
-  ]
-}
-```
-
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 41 — _wettekst_</small>
+> [!example]- Politiek prominente persoon (PEP) als nieuwe cliënt
+> _Aurelia Holding NV (cliënt) krijgt een nieuwe bestuurder: een voormalige minister van Buitenlandse Zaken, die als PEP gekwalificeerd wordt (5 jaar na ambtsbeëindiging blijft de PEP-status gelden)._
+>
+> 1. Stap 1 — Risico-klassering Aurelia Holding NV: verhoogd risico wegens PEP-bestuurder.
+> 2. Stap 2 — Verscherpt onderzoek: (a) goedkeuring op senior-niveau (kantoor-partner) vóór relatie wordt voortgezet, (b) extra onderzoek herkomst middelen, (c) doorlopende monitoring met aangepaste frequentie (jaarlijks ipv driejaarlijks).
+> 3. Stap 3 — Documentatie in dossier: PEP-status, beslissingsproces, frequentie monitoring.
+> 4. Stap 4 — Bij elke significante transactie: extra alertheid op herkomst en bestemming, eventueel onderzoek of een knipperlicht actief wordt.
+>
+> <small>🔗 Wet 18 september 2017 (antiwitwaswet) — art. 41 — _wettekst_</small>
 
 ## Valkuilen
 
-### ⚠️ AML inschatten als 'extra paperwork voor banken'
+> [!warning]- AML inschatten als 'extra paperwork voor banken'
+> **Verkeerde assumptie**: Studenten denken dat AML een banksector-discipline is en geen kernopdracht voor een ITAA-kantoor.
+>
+> **Kernpunt**: De gecertificeerd accountant is uitdrukkelijk 'onderworpen entiteit' (art. 5, §1, 23° AML-wet 18-09-2017). De verplichtingen zijn even bindend als voor een bank: cliëntenonderzoek, risico-classificatie, meldingsplicht, AMLCO. Niet-naleving genereert administratieve boetes tot 1,25 miljoen EUR + tucht + strafrechtelijke vervolging. De wet maakt geen schaal-onderscheid: ook een eenmanskantoor moet alle stappen doorlopen.
+>
+> <small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 5 §1 23° + 132 — _wettekst_</small>
 
-**Verkeerde assumptie**: Studenten denken dat AML een banksector-discipline is en geen kernopdracht voor een ITAA-kantoor.
+> [!warning]- Bij CFI-melding eerst de cliënt informeren
+> **Verkeerde assumptie**: Studenten denken dat fair-play vereist dat de cliënt op de hoogte gebracht wordt vóór een CFI-melding gebeurt.
+>
+> **Kernpunt**: Tipping-off (art. 55 AML-wet) is een strafrechtelijk verbod om de cliënt vóór, tijdens of ná de CFI-melding te informeren over die melding. Wel toegelaten: proberen de cliënt te ontraden van een illegale verrichting (art. 56 §3) — maar zonder verwijzing naar een eventuele CFI-melding.
+>
+> <small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 55 + 56 §3 — _wettekst_</small>
 
-**Kernpunt**: De gecertificeerd accountant is uitdrukkelijk 'onderworpen entiteit' (art. 5, §1, 23° AML-wet 18-09-2017). De verplichtingen zijn even bindend als voor een bank: cliëntenonderzoek, risico-classificatie, meldingsplicht, AMLCO. Niet-naleving genereert administratieve boetes tot 1,25 miljoen EUR + tucht + strafrechtelijke vervolging. De wet maakt geen schaal-onderscheid: ook een eenmanskantoor moet alle stappen doorlopen.
-
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 5 §1 23° + 132 — _wettekst_</small>
-
-### ⚠️ Bij CFI-melding eerst de cliënt informeren
-
-**Verkeerde assumptie**: Studenten denken dat fair-play vereist dat de cliënt op de hoogte gebracht wordt vóór een CFI-melding gebeurt.
-
-**Kernpunt**: Tipping-off (art. 55 AML-wet) is een strafrechtelijk verbod om de cliënt vóór, tijdens of ná de CFI-melding te informeren over die melding. Wel toegelaten: proberen de cliënt te ontraden van een illegale verrichting (art. 56 §3) — maar zonder verwijzing naar een eventuele CFI-melding.
-
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 55 + 56 §3 — _wettekst_</small>
-
-### ⚠️ UBO = bestuurder of zaakvoerder
-
-**Verkeerde assumptie**: Studenten gelijkstellen UBO met de bestuurder van de vennootschap.
-
-**Kernpunt**: Een UBO is de natuurlijke persoon die UITEINDELIJK de eigendom of controle heeft — typisch meer dan 25% van de aandelen, stemrechten of winsten. De bestuurder kan UBO zijn, maar hoeft niet. Bij vennootschappen met versplinterd aandelenbezit zonder dominante aandeelhouder: 'subsidiary mechanism' — hoogste hiërarchische verantwoordelijke wordt als UBO geregistreerd. Bij trusts: de oprichter, trustees en begunstigden zijn allemaal UBO's. Controleren via UBO-register én cross-check met cliëntonderzoek.
-
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 4, 27° — _wettekst_</small>
+> [!warning]- UBO = bestuurder of zaakvoerder
+> **Verkeerde assumptie**: Studenten gelijkstellen UBO met de bestuurder van de vennootschap.
+>
+> **Kernpunt**: Een UBO is de natuurlijke persoon die UITEINDELIJK de eigendom of controle heeft — typisch meer dan 25% van de aandelen, stemrechten of winsten. De bestuurder kan UBO zijn, maar hoeft niet. Bij vennootschappen met versplinterd aandelenbezit zonder dominante aandeelhouder: 'subsidiary mechanism' — hoogste hiërarchische verantwoordelijke wordt als UBO geregistreerd. Bij trusts: de oprichter, trustees en begunstigden zijn allemaal UBO's. Controleren via UBO-register én cross-check met cliëntonderzoek.
+>
+> <small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 4, 27° — _wettekst_</small>
 
 ## Syntheses
 
-### 🧩 Synthese  
-_`matrix`_
+### 🧩 Matrix
 
 AML drie-stappen-discipline per cliënt
+
+| Stap | Inhoud | Bewijsstuk in dossier |
+| --- | --- | --- |
+| 1. Identificatie + UBO | eID/paspoort cliënt + bestuurders + KBO-uittreksel + UBO-register-raadpleging | Kopie identiteitsstukken + UBO-bewijs + KBO-uittreksel |
+| 2. Risico-classering | Laag / standaard / hoog op basis van PEP-status, geografie, sector, transactiepatroon | Risico-fiche cliënt + motivering |
+| 3. Monitoring | Doorlopende waakzaamheid; bij verhoogd risico: jaarlijks updaten | Periodieke review-nota + AML-checks |
+| 4. Bij knipperlicht | Interne melding AMLCO → onderzoek → CFI-melding bij vermoeden | Intern verslag + eventuele CFI-melding (10j bewaring) |
 
 ## Accountant-perspectieven
 
@@ -248,28 +215,25 @@ _De gecertificeerd accountant die AML-naleving moet borgen op kantoorniveau._
 
 #### 🔍 Auditor
 
-##### 👣 Cliëntonderzoek bij elke opdrachtaanvaarding  
-_`stap`_
+##### 👣 Cliëntonderzoek bij elke opdrachtaanvaarding
 
-📖 Bij elke nieuwe cliënt-relatie: (1) identificatiestukken verzamelen — cliënt, bestuurders, UBO; (2) UBO-register raadplegen + valideren tegen werkelijkheid; (3) doel en aard van de zakenrelatie vastleggen in een AML-fiche; (4) risico-klassering bepalen (laag/standaard/hoog) op basis van objectieve criteria (PEP, geografie, sector, transactietypen); (5) bij hoog risico: vóór aanvaarding een tweede-pair-of-eyes (kantoor-partner) consulteren. Geen opdrachtbrief tekenen vóór dit dossier op orde is.
+Bij elke nieuwe cliënt-relatie: (1) identificatiestukken verzamelen — cliënt, bestuurders, UBO; (2) UBO-register raadplegen + valideren tegen werkelijkheid; (3) doel en aard van de zakenrelatie vastleggen in een AML-fiche; (4) risico-klassering bepalen (laag/standaard/hoog) op basis van objectieve criteria (PEP, geografie, sector, transactietypen); (5) bij hoog risico: vóór aanvaarding een tweede-pair-of-eyes (kantoor-partner) consulteren. Geen opdrachtbrief tekenen vóór dit dossier op orde is.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 19 + 21-32 + 37-41 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4 — _norm_</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 19 + 21-32 + 37-41 — _wettekst_ · ITAA-norm AWW-geconsolideerd — punt 4 — _norm_</small>
 
-##### 👣 AMLCO-rol uitvoeren — onderzoek en CFI-meldingen  
-_`stap`_
+##### 👣 AMLCO-rol uitvoeren — onderzoek en CFI-meldingen
 
-📖 Voor de AMLCO van het kantoor: (1) interne meldingen ontvangen via standaardformulier 'Interne melding atypische verrichting'; (2) aanvullend onderzoek voeren (financiële documenten checken, herkomst fondsen onderzoeken, eventueel met cliënt nogmaals praten zonder tipping-off-overtreding); (3) intern verslag opstellen (10j bewaren); (4) bij vermoeden van witwassen of terrorismefinanciering: CFI-melding maken (e-mail info@ctif-cfi.be); (5) jaarlijks activiteitenverslag aan de Raad ITAA-toezichthouder.
+Voor de AMLCO van het kantoor: (1) interne meldingen ontvangen via standaardformulier 'Interne melding atypische verrichting'; (2) aanvullend onderzoek voeren (financiële documenten checken, herkomst fondsen onderzoeken, eventueel met cliënt nogmaals praten zonder tipping-off-overtreding); (3) intern verslag opstellen (10j bewaren); (4) bij vermoeden van witwassen of terrorismefinanciering: CFI-melding maken (e-mail info@ctif-cfi.be); (5) jaarlijks activiteitenverslag aan de Raad ITAA-toezichthouder.
 
-<small>📚 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4-14 — _norm_</small>
+<small>📖 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4-14 — _norm_</small>
 
 #### 👥 Begeleider
 
-##### 🧭 Cliënt-coaching bij UBO-registratie en wijzigingen  
-_`vuistregel`_
+##### 🧭 Cliënt-coaching bij UBO-registratie en wijzigingen
 
-📖 De cliënt blijft eindverantwoordelijk voor zijn UBO-registratie, maar de accountant heeft een actieve begeleidings- en signalering-rol: (a) bij oprichting van een nieuwe vennootschap: cliënt herinneren aan UBO-registratie-deadline; (b) bij elke statutenwijziging of bestuurswissel: UBO-update controleren; (c) bij discrepantie tussen UBO-register en eigen cliëntonderzoek: meldingsplicht aan toezichthouder (art. 74 AML-wet). Geen 'overnemen' van cliënt-verantwoordelijkheid, wel signaleren.
+De cliënt blijft eindverantwoordelijk voor zijn UBO-registratie, maar de accountant heeft een actieve begeleidings- en signalering-rol: (a) bij oprichting van een nieuwe vennootschap: cliënt herinneren aan UBO-registratie-deadline; (b) bij elke statutenwijziging of bestuurswissel: UBO-update controleren; (c) bij discrepantie tussen UBO-register en eigen cliëntonderzoek: meldingsplicht aan toezichthouder (art. 74 AML-wet). Geen 'overnemen' van cliënt-verantwoordelijkheid, wel signaleren.
 
-<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 74 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>📖 Wet 18 september 2017 (antiwitwaswet) — art. 74 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Verder lezen (scope-out)
 

@@ -22,33 +22,25 @@ tags:
 gegenereerd_uit: "data/concepten/records/reorganisatie.json"
 ---
 
-# Reorganisatie
-
-_Kader_
-
-🏛️ Kader · 📅 Gebeurtenis · 📋 Regeling · Anchors: `3.0.taak.2` · `3.0.taak.3` · `2.3.III.B` · Wave: `skeleton-vennootschapsrecht-2026-05-28`
-
-> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
-
-**Synoniemen**: herstructurering · vennootschappelijke reorganisatie · corporate reorganization
+_Kader_ · ook: herstructurering · vennootschappelijke reorganisatie · corporate reorganization
 
 ## Definitie
 
-📖 Een reorganisatie (ook 'herstructurering') is een vennootschapsrechtelijke verrichting die de juridische structuur, het eigenaarschap of de activabundeling van een of meer vennootschappen wijzigt zonder dat de onderliggende economische activiteit in vereffening gaat. Het Wetboek van Vennootschappen en Verenigingen (WVV) regelt in boek 12 vijf grote modaliteiten: fusie (overneming of oprichting van nieuwe vennootschap), splitsing (overneming, oprichting of gemengd), met fusie/splitsing gelijkgestelde verrichtingen (o.a. zusterfusie en partiele splitsing), inbreng van een algemeenheid of bedrijfstak, en omzetting van rechtsvorm. Het fiscale equivalent is geregeld in artikel 211 e.v. van het Wetboek van inkomstenbelastingen 1992 (WIB92), dat aansluit op de Europese fusierichtlijn 2009/133/EG.
+Een reorganisatie (ook 'herstructurering') is een vennootschapsrechtelijke verrichting die de juridische structuur, het eigenaarschap of de activabundeling van een of meer vennootschappen wijzigt zonder dat de onderliggende economische activiteit in vereffening gaat. Het Wetboek van Vennootschappen en Verenigingen (WVV) regelt in boek 12 vijf grote modaliteiten: fusie (overneming of oprichting van nieuwe vennootschap), splitsing (overneming, oprichting of gemengd), met fusie/splitsing gelijkgestelde verrichtingen (o.a. zusterfusie en partiele splitsing), inbreng van een algemeenheid of bedrijfstak, en omzetting van rechtsvorm. Het fiscale equivalent is geregeld in artikel 211 e.v. van het Wetboek van inkomstenbelastingen 1992 (WIB92), dat aansluit op de Europese fusierichtlijn 2009/133/EG.
 
-<small>📚 WVV — boek 12 (art. 12:1 e.v.) — _wettekst_ · WIB92 — art. 2 — 6°/1 — _wettekst_ · WIB92 — art. 211 — _wettekst_ · EU-Richtlijn 2009/133/EG (fusierichtlijn) — art. 2 — _richtlijn_</small>
+<small>📖 WVV — boek 12 (art. 12:1 e.v.) — _wettekst_ · WIB92 — art. 2 — 6°/1 — _wettekst_ · WIB92 — art. 211 — _wettekst_ · EU-Richtlijn 2009/133/EG (fusierichtlijn) — art. 2 — _richtlijn_</small>
 
 ## Substantie
 
-🔗 Economisch dient een reorganisatie steeds een groepsdoel: schaalvoordelen realiseren (fusie), activiteiten splitsen voor verkoop of focus (splitsing), een tak verzelfstandigen (inbreng bedrijfstak), of een holding-structuur opzetten. De wet zorgt voor twee waarborgen die de stagiair moet kennen: (1) continuiteit van rechten en plichten — alle activa, passiva, contracten en personeel gaan van rechtswege over op de verkrijgende vennootschap, zonder dat individuele toestemming van schuldeisers nodig is; (2) bescherming van minderheidsaandeelhouders en schuldeisers — via verplicht voorstel, revisor-verslag over de ruilverhouding, en publicatie. Fiscaal kan de verrichting belastingvrij verlopen op voorwaarde dat het geen verkapte ontbinding of belastingontwijking is — vandaar de strikte voorwaarden van WIB92 art. 211.
+Economisch dient een reorganisatie steeds een groepsdoel: schaalvoordelen realiseren (fusie), activiteiten splitsen voor verkoop of focus (splitsing), een tak verzelfstandigen (inbreng bedrijfstak), of een holding-structuur opzetten. De wet zorgt voor twee waarborgen die de stagiair moet kennen: (1) continuiteit van rechten en plichten — alle activa, passiva, contracten en personeel gaan van rechtswege over op de verkrijgende vennootschap, zonder dat individuele toestemming van schuldeisers nodig is; (2) bescherming van minderheidsaandeelhouders en schuldeisers — via verplicht voorstel, revisor-verslag over de ruilverhouding, en publicatie. Fiscaal kan de verrichting belastingvrij verlopen op voorwaarde dat het geen verkapte ontbinding of belastingontwijking is — vandaar de strikte voorwaarden van WIB92 art. 211.
 
-<small>📚 WVV — art. 12:13 (continuiteit rechten) — _wettekst_ · WIB92 — art. 211 — _wettekst_ · ITAA-norm fusie-splitsing — par. 4 economische waardering — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WVV — art. 12:13 (continuiteit rechten) — _wettekst_ · WIB92 — art. 211 — _wettekst_ · ITAA-norm fusie-splitsing — par. 4 economische waardering — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Rationale
 
-🔗 Waarom bestaat dit overkoepelende kader? Bedrijven groeien, splitsen of herstructureren voortdurend. Zonder een wettelijk geregelde 'overdracht in bloc' zou elke transactie afzonderlijk goedkeuring van elke schuldeiser en elke contractpartij vergen — onhaalbaar voor een onderneming met duizenden contracten. WVV boek 12 voorziet daarom in een universele overgang (van rechtswege), gepaard met procedurele waarborgen (verslagen, publicatie, verzetsrecht). Fiscaal vermijdt het regime van WIB92 art. 211-214 dat normale herstructureringen worden bestraft met realisatiebelasting op latente meerwaarden — zolang de continuiteit van waarderingsregels wordt behouden en de verrichting niet als belastingontwijking kwalificeert.
+Waarom bestaat dit overkoepelende kader? Bedrijven groeien, splitsen of herstructureren voortdurend. Zonder een wettelijk geregelde 'overdracht in bloc' zou elke transactie afzonderlijk goedkeuring van elke schuldeiser en elke contractpartij vergen — onhaalbaar voor een onderneming met duizenden contracten. WVV boek 12 voorziet daarom in een universele overgang (van rechtswege), gepaard met procedurele waarborgen (verslagen, publicatie, verzetsrecht). Fiscaal vermijdt het regime van WIB92 art. 211-214 dat normale herstructureringen worden bestraft met realisatiebelasting op latente meerwaarden — zolang de continuiteit van waarderingsregels wordt behouden en de verrichting niet als belastingontwijking kwalificeert.
 
-<small>📚 WVV — art. 12:13 — _wettekst_ · WIB92 — art. 211 par. 1 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WVV — art. 12:13 — _wettekst_ · WIB92 — art. 211 par. 1 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 ## Gebruikscontext
 
@@ -80,140 +72,84 @@ _Kader_
 
 ## Sub-concepten
 
-### 📦 Keuze tussen modaliteiten  
-_`kader` (subconcept)_
+### 📦 Keuze tussen modaliteiten
 
 #### Substantie
 
-🔗 De vijf hoofdmodaliteiten verschillen in: (1) wat overgaat — gehele vermogen of slechts een tak; (2) wat er met de overdragende vennootschap gebeurt — ontbinding zonder vereffening of voortbestaan; (3) wie de aandelen krijgt — aandeelhouders van de overdrager of de overdrager zelf. De juiste keuze hangt af van het einddoel, de fiscale impact en de operationele kost.
+De vijf hoofdmodaliteiten verschillen in: (1) wat overgaat — gehele vermogen of slechts een tak; (2) wat er met de overdragende vennootschap gebeurt — ontbinding zonder vereffening of voortbestaan; (3) wie de aandelen krijgt — aandeelhouders van de overdrager of de overdrager zelf. De juiste keuze hangt af van het einddoel, de fiscale impact en de operationele kost.
 
-<small>📚 WIB92 — art. 2 — 6°/1 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 WIB92 — art. 2 — 6°/1 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
-**Weergave** `vergelijkingstabel`:
+**📋 Vergelijking modaliteiten WVV boek 12**
 
-```json
-{
-  "titel": "Vergelijking modaliteiten WVV boek 12",
-  "kolommen": [
-    "Modaliteit",
-    "Overdrager",
-    "Wat gaat over?",
-    "Wie krijgt de aandelen?",
-    "Typisch doel"
-  ],
-  "rijen": [
-    [
-      "Fusie door overneming",
-      "Ontbonden zonder vereffening",
-      "Gehele vermogen",
-      "Aandeelhouders overdrager",
-      "Schaalvergroting"
-    ],
-    [
-      "Fusie door oprichting",
-      "Twee of meer ontbonden",
-      "Gehele vermogen",
-      "Aandeelhouders overdragers",
-      "Echte samensmelting"
-    ],
-    [
-      "Zusterfusie (gelijkgesteld)",
-      "Ontbonden zonder vereffening",
-      "Gehele vermogen",
-      "Geen uitgifte — zelfde 100%-eigenaar",
-      "Groep-vereenvoudiging"
-    ],
-    [
-      "Splitsing door overneming",
-      "Ontbonden zonder vereffening",
-      "Gehele vermogen naar meerdere vennootschappen",
-      "Aandeelhouders overdrager",
-      "Bedrijfsactiviteit opsplitsen"
-    ],
-    [
-      "Partiele splitsing",
-      "Blijft bestaan",
-      "Tak van bedrijvigheid",
-      "Aandeelhouders overdrager",
-      "Tak verzelfstandigen"
-    ],
-    [
-      "Inbreng bedrijfstak",
-      "Blijft bestaan",
-      "Tak van bedrijvigheid",
-      "De overdrager zelf (= moeder)",
-      "Holding-structuur opzetten"
-    ]
-  ]
-}
-```
+| Modaliteit | Overdrager | Wat gaat over? | Wie krijgt de aandelen? | Typisch doel |
 
-### 📦 Procedure-overzicht WVV boek 12  
-_`procedure` (subconcept)_
+| --- | --- | --- | --- | --- |
+
+| Fusie door overneming | Ontbonden zonder vereffening | Gehele vermogen | Aandeelhouders overdrager | Schaalvergroting |
+
+| Fusie door oprichting | Twee of meer ontbonden | Gehele vermogen | Aandeelhouders overdragers | Echte samensmelting |
+
+| Zusterfusie (gelijkgesteld) | Ontbonden zonder vereffening | Gehele vermogen | Geen uitgifte — zelfde 100%-eigenaar | Groep-vereenvoudiging |
+
+| Splitsing door overneming | Ontbonden zonder vereffening | Gehele vermogen naar meerdere vennootschappen | Aandeelhouders overdrager | Bedrijfsactiviteit opsplitsen |
+
+| Partiele splitsing | Blijft bestaan | Tak van bedrijvigheid | Aandeelhouders overdrager | Tak verzelfstandigen |
+
+| Inbreng bedrijfstak | Blijft bestaan | Tak van bedrijvigheid | De overdrager zelf (= moeder) | Holding-structuur opzetten |
+
+### 📦 Procedure-overzicht WVV boek 12
 
 #### Substantie
 
-📖 De procedure verloopt in vaste stappen, identiek voor de meeste modaliteiten. De stagiair moet de chronologie kennen, niet de letterlijke artikelnummers.
+De procedure verloopt in vaste stappen, identiek voor de meeste modaliteiten. De stagiair moet de chronologie kennen, niet de letterlijke artikelnummers.
 
-<small>📚 WVV — art. 12:24 t.e.m. 12:35 — _wettekst_</small>
+<small>📖 WVV — art. 12:24 t.e.m. 12:35 — _wettekst_</small>
 
-**Weergave** `tijdslijn`:
-
-```json
-{
-  "stappen": [
-    "T-6 weken: bestuursorgaan stelt voorstel op (art. 12:24) en deponeert bij de griffie",
-    "Tussen T-6w en T-1m: revisor of accountant maakt verslag over ruilverhouding (art. 12:26) + bestuur maakt eigen verslag",
-    "T-1 maand: documenten ter inzage voor aandeelhouders",
-    "T = AV: algemene vergaderingen van alle betrokken vennootschappen besluiten met gekwalificeerde meerderheid (art. 12:31)",
-    "T = AV: notariele akte (vereist op straffe van nietigheid)",
-    "T+15 dagen: publicatie in Belgisch Staatsblad",
-    "T+15 dagen tot T+2 maanden: schuldeisers kunnen verzet aantekenen (art. 12:15)"
-  ]
-}
-```
+- T-6 weken: bestuursorgaan stelt voorstel op (art. 12:24) en deponeert bij de griffie
+- Tussen T-6w en T-1m: revisor of accountant maakt verslag over ruilverhouding (art. 12:26) + bestuur maakt eigen verslag
+- T-1 maand: documenten ter inzage voor aandeelhouders
+- T = AV: algemene vergaderingen van alle betrokken vennootschappen besluiten met gekwalificeerde meerderheid (art. 12:31)
+- T = AV: notariele akte (vereist op straffe van nietigheid)
+- T+15 dagen: publicatie in Belgisch Staatsblad
+- T+15 dagen tot T+2 maanden: schuldeisers kunnen verzet aantekenen (art. 12:15)
 
 ## Bouwstenen
 
-### 📜 Bijzonder mandaat — controle ruilverhouding  
-_`regel`_
+### 📜 Bijzonder mandaat — controle ruilverhouding
 
-📖 Bij fusie en splitsing moet een bedrijfsrevisor of externe accountant verklaren of de ruilverhouding 'relevant en redelijk' is. Hij controleert de waarderingsmethoden, hun toepassing en de afgeleide pariteit. Hij geeft geen waarde-oordeel; hij beoordeelt de pariteit tussen partijen. Het mandaat is verplicht behalve bij eenparige instemming van alle aandeelhouders (vrijstelling-regel).
+Bij fusie en splitsing moet een bedrijfsrevisor of externe accountant verklaren of de ruilverhouding 'relevant en redelijk' is. Hij controleert de waarderingsmethoden, hun toepassing en de afgeleide pariteit. Hij geeft geen waarde-oordeel; hij beoordeelt de pariteit tussen partijen. Het mandaat is verplicht behalve bij eenparige instemming van alle aandeelhouders (vrijstelling-regel).
 
-<small>📚 WVV — art. 12:26 + 12:39 — _wettekst_ · ITAA-norm fusie-splitsing — par. 4 + par. 5 — _norm_</small>
+<small>📖 WVV — art. 12:26 + 12:39 — _wettekst_ · ITAA-norm fusie-splitsing — par. 4 + par. 5 — _norm_</small>
 
-### ✴️ Fiscale neutraliteit als grondprincipe  
-_`principe`_
+### ✴️ Fiscale neutraliteit als grondprincipe
 
-📖 Belgische en Europese fiscale regels behandelen reorganisaties belastingvrij ('rollover'), omdat het economisch dezelfde activiteit blijft. Latente meerwaarden, voorzieningen, fiscaal overgedragen verliezen en aftrekken gaan over op de verkrijgende vennootschap, mits de waarderingsregels worden behouden en de verrichting beantwoordt aan zakelijke overwegingen (art. 183bis WIB92).
+Belgische en Europese fiscale regels behandelen reorganisaties belastingvrij ('rollover'), omdat het economisch dezelfde activiteit blijft. Latente meerwaarden, voorzieningen, fiscaal overgedragen verliezen en aftrekken gaan over op de verkrijgende vennootschap, mits de waarderingsregels worden behouden en de verrichting beantwoordt aan zakelijke overwegingen (art. 183bis WIB92).
 
-<small>📚 WIB92 — art. 211 par. 1 — _wettekst_ · WIB92 — art. 183bis — _wettekst_ · EU-Richtlijn 2009/133/EG (fusierichtlijn) — considerans 2 — _richtlijn_</small>
+<small>📖 WIB92 — art. 211 par. 1 — _wettekst_ · WIB92 — art. 183bis — _wettekst_ · EU-Richtlijn 2009/133/EG (fusierichtlijn) — considerans 2 — _richtlijn_</small>
 
 ## Valkuilen
 
-### ⚠️ Reorganisatie verwarren met gerechtelijke reorganisatie
+> [!warning]- Reorganisatie verwarren met gerechtelijke reorganisatie
+> **Verkeerde assumptie**: De stagiair leest 'reorganisatie' en denkt aan boek XX WER (gerechtelijke reorganisatie bij insolventie).
+>
+> **Kernpunt**: WVV-boek 12-reorganisatie is een gewone vennootschapsrechtelijke verrichting bij gezonde ondernemingen. Boek XX WER gaat over insolvente ondernemingen die schuldeisers tot een akkoord proberen te dwingen. Twee compleet aparte regimes; alleen het woord is hetzelfde.
+>
+> <small>🔗 WVV — boek 12 — _wettekst_ · WER — boek XX — _wettekst_</small>
 
-**Verkeerde assumptie**: De stagiair leest 'reorganisatie' en denkt aan boek XX WER (gerechtelijke reorganisatie bij insolventie).
+> [!warning]- Inbreng bedrijfstak is geen partiele splitsing
+> **Verkeerde assumptie**: Beide laten een tak overgaan zonder ontbinding — dus blijkbaar hetzelfde.
+>
+> **Kernpunt**: Het verschil zit in wie de aandelen krijgt. Bij inbreng bedrijfstak krijgt de inbrengende vennootschap zelf de aandelen (= moeder/dochter-relatie ontstaat). Bij partiele splitsing krijgen de aandeelhouders van de splitsende vennootschap rechtstreeks de aandelen (= zusterstructuur ontstaat). Dit raakt direct de eigendomsstructuur en het fiscaal regime.
+>
+> <small>📖 EU-Richtlijn 2009/133/EG — art. 2(c) + 2(d) — _richtlijn_ · WIB92 — art. 2 — 6°/1 g) — _wettekst_</small>
 
-**Kernpunt**: WVV-boek 12-reorganisatie is een gewone vennootschapsrechtelijke verrichting bij gezonde ondernemingen. Boek XX WER gaat over insolvente ondernemingen die schuldeisers tot een akkoord proberen te dwingen. Twee compleet aparte regimes; alleen het woord is hetzelfde.
-
-<small>📚 WVV — boek 12 — _wettekst_ · WER — boek XX — _wettekst_</small>
-
-### ⚠️ Inbreng bedrijfstak is geen partiele splitsing
-
-**Verkeerde assumptie**: Beide laten een tak overgaan zonder ontbinding — dus blijkbaar hetzelfde.
-
-**Kernpunt**: Het verschil zit in wie de aandelen krijgt. Bij inbreng bedrijfstak krijgt de inbrengende vennootschap zelf de aandelen (= moeder/dochter-relatie ontstaat). Bij partiele splitsing krijgen de aandeelhouders van de splitsende vennootschap rechtstreeks de aandelen (= zusterstructuur ontstaat). Dit raakt direct de eigendomsstructuur en het fiscaal regime.
-
-<small>📚 EU-Richtlijn 2009/133/EG — art. 2(c) + 2(d) — _richtlijn_ · WIB92 — art. 2 — 6°/1 g) — _wettekst_</small>
-
-### ⚠️ Denken dat fiscale neutraliteit automatisch is
-
-**Verkeerde assumptie**: Als de verrichting voldoet aan WVV boek 12, dan is ze ook fiscaal neutraal.
-
-**Kernpunt**: Fiscale neutraliteit (WIB92 art. 211) vergt extra voorwaarden bovenop het vennootschapsrecht: continuiteit van waarderingsregels, niet-belastingontwijkende verrichting (art. 183bis), en specifieke vormvereisten. Een vennootschapsrechtelijk geldige fusie kan dus fiscaal alsnog leiden tot realisatiebelasting als die voorwaarden niet vervuld zijn.
-
-<small>📚 WIB92 — art. 211 par. 1 + art. 183bis — _wettekst_</small>
+> [!warning]- Denken dat fiscale neutraliteit automatisch is
+> **Verkeerde assumptie**: Als de verrichting voldoet aan WVV boek 12, dan is ze ook fiscaal neutraal.
+>
+> **Kernpunt**: Fiscale neutraliteit (WIB92 art. 211) vergt extra voorwaarden bovenop het vennootschapsrecht: continuiteit van waarderingsregels, niet-belastingontwijkende verrichting (art. 183bis), en specifieke vormvereisten. Een vennootschapsrechtelijk geldige fusie kan dus fiscaal alsnog leiden tot realisatiebelasting als die voorwaarden niet vervuld zijn.
+>
+> <small>📖 WIB92 — art. 211 par. 1 + art. 183bis — _wettekst_</small>
 
 ## Speelruimtes
 
@@ -227,21 +163,19 @@ _Bij een herstructurering wordt de gecertificeerd accountant typisch ingeschakel
 
 #### 🧭 Adviseur
 
-##### 👣 Modaliteit-advies  
-_`stap`_
+##### 👣 Modaliteit-advies
 
-**Substantie**: 🔗 Stap 1: identificeer het einddoel (verkoop, schaalvergroting, holding-opzet). Stap 2: vergelijk fusie, splitsing, inbreng en omzetting op fiscaal, juridisch en operationeel vlak. Stap 3: stel een voorstel op samen met de notaris en de juridische adviseur. Stap 4: bereken de ruilverhouding indien een waardering nodig is.
+**Substantie**: Stap 1: identificeer het einddoel (verkoop, schaalvergroting, holding-opzet). Stap 2: vergelijk fusie, splitsing, inbreng en omzetting op fiscaal, juridisch en operationeel vlak. Stap 3: stel een voorstel op samen met de notaris en de juridische adviseur. Stap 4: bereken de ruilverhouding indien een waardering nodig is.
 
-<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+<small>🔗 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
 #### 💰 Fiscaal adviseur
 
-##### 👣 Fiscale check art. 211 WIB92  
-_`stap`_
+##### 👣 Fiscale check art. 211 WIB92
 
-**Substantie**: 📖 Verifieer dat: (1) de verkrijgende vennootschap een binnenlandse of intra-Europese vennootschap is; (2) de waarderingsregels worden gecontinueerd; (3) de verrichting beantwoordt aan zakelijke overwegingen (geen belastingontwijking — art. 183bis); (4) overgedragen verliezen en aftrekken correct worden overgedragen (beperkingen in art. 206 WIB92). Documenteer de zakelijke motivatie in het bestuursverslag voor de algemene vergadering.
+**Substantie**: Verifieer dat: (1) de verkrijgende vennootschap een binnenlandse of intra-Europese vennootschap is; (2) de waarderingsregels worden gecontinueerd; (3) de verrichting beantwoordt aan zakelijke overwegingen (geen belastingontwijking — art. 183bis); (4) overgedragen verliezen en aftrekken correct worden overgedragen (beperkingen in art. 206 WIB92). Documenteer de zakelijke motivatie in het bestuursverslag voor de algemene vergadering.
 
-<small>📚 WIB92 — art. 211 par. 1 — _wettekst_ · WIB92 — art. 183bis — _wettekst_ · WIB92 — art. 206 (verliesoverdracht) — _wettekst_</small>
+<small>📖 WIB92 — art. 211 par. 1 — _wettekst_ · WIB92 — art. 183bis — _wettekst_ · WIB92 — art. 206 (verliesoverdracht) — _wettekst_</small>
 
 ### Bedrijfsrevisor / extern accountant als bijzondere mandataris
 
@@ -249,12 +183,11 @@ _Bij fusie en splitsing wordt aan een bedrijfsrevisor (of in een vennootschap zo
 
 #### 🔍 Auditor
 
-##### 👣 Controle van de ruilverhouding  
-_`stap`_
+##### 👣 Controle van de ruilverhouding
 
-**Substantie**: 📖 De revisor identificeert de gekozen waarderingsmethoden, controleert hun aanvaardbaarheid, hun correcte toepassing en de afgeleide ruilverhouding. Hij verzekert dat geen aandeelhouder benadeeld wordt. Het verslag eindigt met een oordeel: 'de ruilverhouding is relevant en redelijk' (eventueel met voorbehoud of afkeurend). Geen waarde-oordeel: alleen pariteit-oordeel.
+**Substantie**: De revisor identificeert de gekozen waarderingsmethoden, controleert hun aanvaardbaarheid, hun correcte toepassing en de afgeleide ruilverhouding. Hij verzekert dat geen aandeelhouder benadeeld wordt. Het verslag eindigt met een oordeel: 'de ruilverhouding is relevant en redelijk' (eventueel met voorbehoud of afkeurend). Geen waarde-oordeel: alleen pariteit-oordeel.
 
-<small>📚 ITAA-norm fusie-splitsing — par. 4 + par. 5 — _norm_ · WVV — art. 12:26 — _wettekst_</small>
+<small>📖 ITAA-norm fusie-splitsing — par. 4 + par. 5 — _norm_ · WVV — art. 12:26 — _wettekst_</small>
 
 ## Verder lezen (scope-out)
 

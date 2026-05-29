@@ -79,13 +79,6 @@ BOUWSTEEN_ICON = {
     "beperking": "🚧",
 }
 
-CATEGORIE_LABEL = {
-    "kader": "🏛️ Kader",
-    "entiteit": "🏢 Entiteit",
-    "gebeurtenis": "📅 Gebeurtenis",
-    "regeling": "📋 Regeling",
-}
-
 GELDIGHEID_BANNER = {
     "in-voege": None,  # default — geen banner
     "uitdovend": "> [!warning] **Uitdovend regime** — wordt afgebouwd; check sinds-/tot-data.",
@@ -159,7 +152,12 @@ def render_bronnen(grondslag: dict | None) -> str:
 
 
 def render_tekst(blok: dict | None, prefix: str = "") -> str:
-    """Universele {tekst, grondslag, ...}-blok render."""
+    """Universele {tekst, grondslag, ...}-blok render.
+
+    Confidence-icon (🔗/📖/🤖/…) staat NIET meer voor de tekst, maar als prefix
+    van de <small>-bronvermelding. Houdt de lopende tekst leesbaar; vertrouwen
+    blijft zichtbaar bij de bron.
+    """
     if not blok:
         return ""
     text = (blok.get("tekst") or "").strip()
@@ -168,59 +166,236 @@ def render_tekst(blok: dict | None, prefix: str = "") -> str:
     grondslag = blok.get("grondslag") or {}
     icon = confidence_icon(grondslag)
     out = text
-    if icon:
-        out = f"{icon} {out}"
     if prefix:
         out = f"{prefix} {out}"
     bronnen = render_bronnen(grondslag)
     if bronnen:
-        out += f"\n\n<small>📚 {bronnen}</small>"
+        marker = icon or "📚"
+        out += f"\n\n<small>{marker} {bronnen}</small>"
+    elif icon:
+        # geen bron maar wel confidence-label → alleen icon als marker
+        out += f"\n\n<small>{icon}</small>"
     rationale = blok.get("rationale")
     if rationale:
         out += f"\n\n_Waarom: {rationale}_"
-    # weergaven (inline JSON-blokken)
     for w in blok.get("weergaven") or []:
         out += "\n\n" + render_weergave(w)
     return out
 
 
+def _fmt_bedrag(v) -> str:
+    """EUR-bedrag — int/float/None → string ('' voor None)."""
+    if v is None or v == "":
+        return ""
+    if isinstance(v, (int, float)):
+        if float(v).is_integer():
+            return f"{int(v):,}".replace(",", ".")
+        return f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return str(v)
+
+
+def _render_boekingsregels(rijen: list) -> str:
+    """Render lijst boekingsregels als debet|credit-tabel."""
+    if not rijen:
+        return ""
+    heeft_oms = any((r or {}).get("omschrijving") for r in rijen)
+    if heeft_oms:
+        head = ["Rekening", "Debet", "Credit", "Omschrijving"]
+    else:
+        head = ["Rekening", "Debet", "Credit"]
+    lines = ["| " + " | ".join(head) + " |", "| " + " | ".join("---" for _ in head) + " |"]
+    for r in rijen:
+        r = r or {}
+        # zijde-shape (legacy): {zijde: debet/credit, bedrag, rekening, omschrijving}
+        if r.get("zijde") and "bedrag" in r:
+            d = _fmt_bedrag(r["bedrag"]) if r["zijde"] == "debet" else ""
+            c = _fmt_bedrag(r["bedrag"]) if r["zijde"] == "credit" else ""
+        else:
+            d = _fmt_bedrag(r.get("debet"))
+            c = _fmt_bedrag(r.get("credit"))
+        rek = r.get("rekening", "?")
+        cells = [rek, d, c]
+        if heeft_oms:
+            cells.append(r.get("omschrijving", ""))
+        lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines)
+
+
 def render_weergave(w: dict) -> str:
     wtype = w.get("type", "?")
+
     if wtype == "proza":
         return (w.get("tekst") or "").strip()
+
     if wtype == "berekening":
-        lines = ["**Berekening:**"]
-        for s in w.get("stappen", []) or []:
-            lines.append(f"- {s}")
-        if w.get("resultaat"):
-            lines.append(f"\n→ **Resultaat**: {w['resultaat']}")
-        return "\n".join(lines)
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**🧮 {titel}**")
+        else:
+            parts.append("**Berekening:**")
+        if tekst := w.get("tekst"):
+            parts.append(tekst.strip())
+        if stappen := w.get("stappen"):
+            parts.append("\n".join(f"- {s}" for s in stappen))
+        if r := w.get("resultaat"):
+            parts.append(f"→ **Resultaat**: {r}")
+        return "\n\n".join(parts)
+
     if wtype == "boeking":
-        lines = ["**Boeking:**", ""]
-        for line in w.get("regels", []) or []:
-            d = "D" if line.get("zijde") == "debet" else "C"
-            rek = line.get("rekening", "?")
-            bedrag = line.get("bedrag", "")
-            oms = line.get("omschrijving", "")
-            lines.append(f"- {d} `{rek}` {bedrag} — {oms}")
-        if w.get("toelichting"):
-            lines.append(f"\n_{w['toelichting']}_")
-        return "\n".join(lines)
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**📒 {titel}**")
+        if ctx := w.get("context"):
+            parts.append(f"_{ctx}_")
+        if tekst := w.get("tekst"):
+            parts.append(tekst.strip())
+        # variant 1: top-level rijen / regels
+        rijen = w.get("rijen") or w.get("regels")
+        if rijen:
+            tbl = _render_boekingsregels(rijen)
+            if tbl:
+                parts.append(tbl)
+        # variant 2: top-level debet/credit (één regel)
+        elif w.get("debet") is not None or w.get("credit") is not None:
+            tbl = _render_boekingsregels([{
+                "rekening": w.get("rekening", "?"),
+                "debet": w.get("debet"),
+                "credit": w.get("credit"),
+                "omschrijving": w.get("omschrijving", ""),
+            }])
+            parts.append(tbl)
+        # variant 3: geneste boekingen[]
+        if boekingen := w.get("boekingen"):
+            for sub in boekingen:
+                if not isinstance(sub, dict):
+                    continue
+                if t := sub.get("titel"):
+                    parts.append(f"_{t}_")
+                sub_rijen = sub.get("rijen") or sub.get("regels")
+                if sub_rijen:
+                    parts.append(_render_boekingsregels(sub_rijen))
+        # variant 4: lijnen + scenario (meerdere scenario's naast elkaar)
+        if lijnen := w.get("lijnen"):
+            parts.append(_render_boekingsregels(lijnen))
+        if scenario := w.get("scenario"):
+            parts.append(f"_Scenario: {scenario}_")
+        if toel := w.get("toelichting"):
+            parts.append(f"_{toel}_")
+        return "\n\n".join(p for p in parts if p)
+
     if wtype == "tabel":
-        kolommen = w.get("kolommen", [])
-        rijen = w.get("rijen", [])
-        if not kolommen or not rijen:
-            return ""
-        lines = ["| " + " | ".join(kolommen) + " |", "| " + " | ".join("---" for _ in kolommen) + " |"]
-        for row in rijen:
-            cells = [str(c) for c in row]
-            lines.append("| " + " | ".join(cells) + " |")
-        return "\n".join(lines)
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**📋 {titel}**")
+        if tekst := w.get("tekst"):
+            return f"{parts[0]}\n\n{tekst.strip()}" if parts else tekst.strip()
+        kolommen = w.get("kolommen") or w.get("kopjes") or []
+        rijen = w.get("rijen") or []
+        if kolommen and rijen:
+            parts.append("| " + " | ".join(str(k) for k in kolommen) + " |")
+            parts.append("| " + " | ".join("---" for _ in kolommen) + " |")
+            for row in rijen:
+                if isinstance(row, list):
+                    cells = [str(c) for c in row]
+                else:
+                    cells = [str(row.get(k, "")) for k in kolommen]
+                parts.append("| " + " | ".join(cells) + " |")
+        elif rijen:
+            # rijen zonder kolommen — render als bullet-lijst
+            for row in rijen:
+                parts.append(f"- {row}")
+        if interp := w.get("interpretatie"):
+            parts.append(f"_{interp}_")
+        if conc := w.get("conclusie"):
+            parts.append(f"→ **{conc}**")
+        if toel := w.get("toelichting"):
+            parts.append(f"_{toel}_")
+        return "\n\n".join(p for p in parts if p)
+
+    if wtype == "formule" or wtype == "formule_expressie":
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**🧮 {titel}**")
+        formule = w.get("formule") or w.get("uitdrukking") or w.get("expressie") or w.get("tekst")
+        if formule:
+            if "\n" in str(formule):
+                parts.append(f"```\n{formule}\n```")
+            else:
+                parts.append(f"`{formule}`")
+        if toel := w.get("toelichting"):
+            parts.append(toel)
+        return "\n\n".join(p for p in parts if p)
+
+    if wtype == "stappenlijst":
+        parts = []
+        if titel := w.get("titel") or w.get("label"):
+            parts.append(f"**👣 {titel}**")
+        if tekst := w.get("tekst"):
+            parts.append(tekst.strip())
+        if stappen := w.get("stappen"):
+            parts.append("\n".join(f"{i+1}. {s}" for i, s in enumerate(stappen)))
+        if r := w.get("resultaat"):
+            parts.append(f"→ **Resultaat**: {r}")
+        return "\n\n".join(p for p in parts if p)
+
+    if wtype == "vergelijkingstabel":
+        # zelfde shape als tabel — delegeer
+        return render_weergave({**w, "type": "tabel"})
+
+    if wtype == "tijdslijn":
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**⏱ {titel}**")
+        if intro := w.get("intro"):
+            parts.append(intro)
+        if tekst := w.get("tekst"):
+            parts.append(tekst.strip())
+        inhoud = w.get("inhoud") or {}
+        mijlpalen = inhoud.get("mijlpalen") or w.get("stappen") or []
+        for m in mijlpalen:
+            if isinstance(m, dict):
+                moment = m.get("moment", "")
+                actie = m.get("actie") or m.get("tekst") or ""
+                parts.append(f"- **{moment}** — {actie}" if moment else f"- {actie}")
+            else:
+                parts.append(f"- {m}")
+        return "\n".join(parts) if all("\n" not in p for p in parts) else "\n\n".join(parts)
+
+    if wtype == "beslisboom":
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**🌳 {titel}**")
+        if intro := w.get("intro"):
+            parts.append(intro)
+        if tekst := w.get("tekst"):
+            parts.append(tekst.strip())
+        if code := w.get("code"):
+            # waarschijnlijk mermaid
+            parts.append(f"```mermaid\n{code}\n```")
+        inhoud = w.get("inhoud") or {}
+        if vragen := inhoud.get("vragen"):
+            parts.append("**Vragen:**\n" + "\n".join(f"- {v}" for v in vragen))
+        if paden := inhoud.get("antwoord_per_pad") or inhoud.get("paden"):
+            parts.append("**Uitkomsten per pad:**\n" + "\n".join(f"- {p}" for p in paden))
+        if stappen := w.get("stappen"):
+            parts.append("\n".join(f"- {s}" for s in stappen))
+        return "\n\n".join(p for p in parts if p)
+
     if wtype == "balans_snapshot":
-        return f"**Balans-snapshot**: `{w.get('toelichting','')}`\n\n```json\n{json.dumps({k:v for k,v in w.items() if k!='type'}, indent=2, ensure_ascii=False)}\n```"
-    # fallback: JSON-dump
-    payload = {k: v for k, v in w.items() if k not in ("type", "grondslag")}
-    return f"**Weergave** `{wtype}`:\n\n```json\n{json.dumps(payload, indent=2, ensure_ascii=False)}\n```"
+        parts = []
+        if titel := w.get("titel"):
+            parts.append(f"**📊 {titel}**")
+        if toel := w.get("toelichting"):
+            parts.append(f"_{toel}_")
+        # zonder dedicated balans-renderer: payload als JSON tonen
+        payload = {k: v for k, v in w.items() if k not in ("type", "grondslag", "titel", "toelichting")}
+        if payload:
+            parts.append(f"```json\n{json.dumps(payload, indent=2, ensure_ascii=False)}\n```")
+        return "\n\n".join(p for p in parts if p)
+
+    # onbekend type — zichtbare placeholder (niet stilte). Per regel 9: maak fail
+    # zichtbaar zodat we 'm kunnen toevoegen, geen JSON-dump in productie.
+    return f"_⚠️ weergave-type `{wtype}` nog niet ondersteund_"
 
 
 def render_kern(kern: dict | None, depth: int = 2) -> str:
@@ -279,7 +454,9 @@ def render_bouwsteen(b: dict, depth: int = 3) -> str:
     naam = naam_str(b.get("naam"))
     btype = b.get("bouwsteen_type", "")
     icon = BOUWSTEEN_ICON.get(btype, "•")
-    parts = [f"{'#' * depth} {icon} {naam}  \n_`{btype}`_"]
+    # icon draagt de bouwsteen-typering; type-label als losse tag toegevoegd
+    # niets meer voor de leesbaarheid.
+    parts = [f"{'#' * depth} {icon} {naam}"]
     if k := b.get("kern"):
         # bouwsteen.kern is hetzelfde shape als concept.kern (definitie/substantie/rationale)
         if defi := k.get("definitie"):
@@ -293,8 +470,7 @@ def render_bouwsteen(b: dict, depth: int = 3) -> str:
 
 def render_subconcept(sc: dict, depth: int = 3) -> str:
     naam = naam_str(sc.get("naam"))
-    ctype = sc.get("concept_type", "")
-    parts = [f"{'#' * depth} 📦 {naam}  \n_`{ctype}` (subconcept)_"]
+    parts = [f"{'#' * depth} 📦 {naam}"]
     inhoud = sc.get("inhoud") or {}
     if inhoud.get("kern"):
         parts.append(render_kern(inhoud["kern"], depth=depth + 1))
@@ -311,33 +487,49 @@ def render_subconcept(sc: dict, depth: int = 3) -> str:
     return "\n\n".join(p for p in parts if p)
 
 
+def _as_callout(callout_type: str, titel: str, body_parts: list[str], collapsed: bool = True) -> str:
+    """Wrap body-parts in een Obsidian-style callout. `-` na type = collapsed-by-default."""
+    body = "\n\n".join(p for p in body_parts if p)
+    marker = "-" if collapsed else ""
+    lines = [f"> [!{callout_type}]{marker} {titel}"]
+    for line in body.split("\n"):
+        lines.append(f"> {line}" if line else ">")
+    return "\n".join(lines)
+
+
 def render_voorbeeld(v: dict, depth: int = 3) -> str:
+    # depth wordt genegeerd — voorbeeld zit in collapsed callout, niet meer als heading.
     titel = v.get("titel") or naam_str(v.get("naam")) or "Voorbeeld"
-    icon = confidence_icon(v.get("grondslag"))
-    parts = [f"{'#' * depth} 💡 {titel} {icon}".rstrip()]
+    body = []
     if v.get("context"):
-        parts.append(f"_{v['context']}_")
+        body.append(f"_{v['context']}_")
     for w in v.get("weergaven") or []:
-        parts.append(render_weergave(w))
+        body.append(render_weergave(w))
     bronnen = render_bronnen(v.get("grondslag"))
+    icon = confidence_icon(v.get("grondslag"))
     if bronnen:
-        parts.append(f"<small>📚 {bronnen}</small>")
-    return "\n\n".join(parts)
+        marker = icon or "📚"
+        body.append(f"<small>{marker} {bronnen}</small>")
+    # Geen emoji-prefix in titel — Quartz' callout-renderer toont al een icon
+    # op basis van het callout-type.
+    return _as_callout("example", titel, body, collapsed=True)
 
 
 def render_valkuil(vk: dict, depth: int = 3) -> str:
     titel = vk.get("titel") or "Valkuil"
-    parts = [f"{'#' * depth} ⚠️ {titel}"]
+    body = []
     if vk.get("verkeerde_assumptie"):
-        parts.append(f"**Verkeerde assumptie**: {vk['verkeerde_assumptie']}")
+        body.append(f"**Verkeerde assumptie**: {vk['verkeerde_assumptie']}")
     if vk.get("kernpunt"):
-        parts.append(f"**Kernpunt**: {vk['kernpunt']}")
+        body.append(f"**Kernpunt**: {vk['kernpunt']}")
     if vk.get("toelichting"):
-        parts.append(vk["toelichting"])
+        body.append(vk["toelichting"])
     bronnen = render_bronnen(vk.get("grondslag"))
+    icon = confidence_icon(vk.get("grondslag"))
     if bronnen:
-        parts.append(f"<small>📚 {bronnen}</small>")
-    return "\n\n".join(parts)
+        marker = icon or "📚"
+        body.append(f"<small>{marker} {bronnen}</small>")
+    return _as_callout("warning", titel, body, collapsed=True)
 
 
 def render_speelruimte(sr: dict, depth: int = 3) -> str:
@@ -358,24 +550,91 @@ def render_speelruimte(sr: dict, depth: int = 3) -> str:
 
 
 def render_synthese(s: dict, depth: int = 3) -> str:
-    titel = s.get("titel") or "Synthese"
-    stype = s.get("type", "")
-    parts = [f"{'#' * depth} 🧩 {titel}  \n_`{stype}`_"]
-    if s.get("intro"):
-        parts.append(s["intro"])
-    # matrix
-    if s.get("kolommen") and s.get("rijen"):
-        kol = s["kolommen"]
-        parts.append("| " + " | ".join(kol) + " |")
-        parts.append("| " + " | ".join("---" for _ in kol) + " |")
-        for row in s["rijen"]:
-            cells = [str(c) for c in row] if isinstance(row, list) else [str(row.get(k, "")) for k in kol]
-            parts.append("| " + " | ".join(cells) + " |")
-    # beslisboom in mermaid
-    if s.get("mermaid"):
-        parts.append("```mermaid\n" + s["mermaid"] + "\n```")
-    if s.get("toelichting"):
-        parts.append(s["toelichting"])
+    """Schema 2.2 synthese: {type, intro, inhoud:{...}}.
+    inhoud-shapes (gezien in corpus):
+      - kolommen+rijen        — matrix
+      - assen+rijen           — 2-zijdige matrix met as|links|rechts
+      - mermaid               — mermaid-blok
+      - mijlpalen             — tijdslijn ({moment, actie})
+      - stappen / fasen / rangorde — geordende lijst
+      - vragen+antwoord_per_pad   — beslisboom-lijst
+      - diagram               — onbekend, alleen intro tonen
+    """
+    stype = s.get("type", "synthese")
+    type_label = {
+        "matrix": "Matrix", "vergelijkingstabel": "Vergelijking",
+        "beslisboom": "Beslisboom", "tijdslijn": "Tijdslijn",
+        "stappenlijst": "Stappenlijst", "rangorde": "Rangorde",
+    }.get(stype, "Synthese")
+    parts = [f"{'#' * depth} 🧩 {type_label}"]
+    if intro := s.get("intro"):
+        parts.append(intro)
+
+    inhoud = s.get("inhoud") or {}
+
+    # matrix: kolommen+rijen — bouw tabel als één string (markdown-tabel mag
+    # GEEN blanco regels tussen rijen hebben, dus niet als losse parts join'en).
+    if inhoud.get("kolommen") and inhoud.get("rijen"):
+        kol = inhoud["kolommen"]
+        tbl = ["| " + " | ".join(str(k) for k in kol) + " |",
+               "| " + " | ".join("---" for _ in kol) + " |"]
+        for row in inhoud["rijen"]:
+            if isinstance(row, list):
+                cells = [str(c) for c in row]
+            else:
+                cells = [str(row.get(k, "")) for k in kol]
+            tbl.append("| " + " | ".join(cells) + " |")
+        parts.append("\n".join(tbl))
+
+    # assen+rijen: 2-zijdige vergelijking (as | links | rechts)
+    elif inhoud.get("assen") and inhoud.get("rijen"):
+        assen = inhoud["assen"]  # [links_label, rechts_label]
+        l_label = assen[0] if len(assen) > 0 else "Links"
+        r_label = assen[1] if len(assen) > 1 else "Rechts"
+        tbl = [f"| As | {l_label} | {r_label} |", "| --- | --- | --- |"]
+        for row in inhoud["rijen"]:
+            tbl.append(f"| **{row.get('as','')}** | {row.get('links','')} | {row.get('rechts','')} |")
+        parts.append("\n".join(tbl))
+
+    # mermaid
+    if mm := inhoud.get("mermaid"):
+        parts.append(f"```mermaid\n{mm}\n```")
+
+    # mijlpalen — tijdslijn
+    if mijlpalen := inhoud.get("mijlpalen"):
+        for m in mijlpalen:
+            if isinstance(m, dict):
+                moment = m.get("moment", "")
+                actie = m.get("actie") or m.get("tekst") or ""
+                parts.append(f"- **{moment}** — {actie}" if moment else f"- {actie}")
+            else:
+                parts.append(f"- {m}")
+
+    # stappen / fasen / rangorde — geordende lijst
+    for lijst_key in ("stappen", "fasen", "rangorde"):
+        if items := inhoud.get(lijst_key):
+            for i, item in enumerate(items, 1):
+                if isinstance(item, dict):
+                    titel_i = item.get("titel") or item.get("naam") or ""
+                    body_i = item.get("tekst") or item.get("toelichting") or ""
+                    if titel_i and body_i:
+                        parts.append(f"{i}. **{titel_i}** — {body_i}")
+                    else:
+                        parts.append(f"{i}. {titel_i or body_i}")
+                else:
+                    parts.append(f"{i}. {item}")
+
+    # vragen + antwoord_per_pad — beslisboom
+    if vragen := inhoud.get("vragen"):
+        parts.append("**Vragen:**\n" + "\n".join(f"- {v}" for v in vragen))
+    if paden := inhoud.get("antwoord_per_pad"):
+        parts.append("**Uitkomsten per pad:**\n" + "\n".join(f"- {p}" for p in paden))
+
+    if conc := inhoud.get("conclusie"):
+        parts.append(f"→ **{conc}**")
+    if toel := inhoud.get("toelichting"):
+        parts.append(f"_{toel}_")
+
     return "\n\n".join(parts)
 
 
@@ -446,25 +705,10 @@ def render_scope_out(scope_out: list) -> str:
     return "\n".join(lines)
 
 
-def render_metadata_strip(meta: dict) -> str:
-    bits = []
-    if cats := meta.get("categorieen"):
-        bits.append(" · ".join(CATEGORIE_LABEL.get(c, c) for c in cats))
-    if ankers := meta.get("ankers"):
-        bits.append("Anchors: " + " · ".join(f"`{a}`" for a in ankers[:6]))
-    prov = meta.get("provenance") or {}
-    if prov.get("wave_id"):
-        bits.append(f"Wave: `{prov['wave_id']}`")
-    return " · ".join(bits)
-
-
 def render_status_banner(meta: dict, geldigheid: dict | None) -> str:
-    status = meta.get("status", "")
+    # Concept-/skeleton-status komt uit frontmatter-tag (status-concept / status-skeleton);
+    # geen prominente banner meer in body. Wettelijke geldigheid blijft wél als banner.
     banners = []
-    if status == "skeleton":
-        banners.append("> [!warning] 🌱 **Skeleton** — alleen structuur + scope; geen content (nog).")
-    elif status == "concept":
-        banners.append("> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.")
     if geldigheid:
         gbanner = GELDIGHEID_BANNER.get(geldigheid.get("status", ""))
         if gbanner:
@@ -511,23 +755,22 @@ def render_record(rec: dict) -> str:
     gc = inhoud.get("gebruikscontext") or {}
     geldigheid = gc.get("geldigheid")
 
-    parts = [f"# {naam}", f"_{type_label}_", render_metadata_strip(meta)]
+    # H1 wordt door Quartz (ArticleTitle) uit frontmatter.title gerenderd.
+    # Type-indicator + afkorting + synoniemen op één compacte regel,
+    # zodat de definitie meteen boven de fold zichtbaar is.
+    # Vertalingen tijdelijk weggelaten — pas tonen als records een 'common'-flag
+    # per vertaling krijgen (alleen ingeburgerde FR/EN-termen renderen).
+    intro_bits = [f"_{type_label}_"]
+    if naam_dict := rec.get("naam"):
+        if afk := naam_dict.get("afkorting"):
+            intro_bits.append(f"afk: **{afk}**")
+        if syn := naam_dict.get("synoniemen"):
+            intro_bits.append("ook: " + " · ".join(syn))
+    parts = [" · ".join(intro_bits)]
 
     banner = render_status_banner(meta, geldigheid)
     if banner:
         parts.append(banner)
-
-    # synoniemen + afkorting
-    if naam_dict := rec.get("naam"):
-        bits = []
-        if afk := naam_dict.get("afkorting"):
-            bits.append(f"**Afk.**: {afk}")
-        if syn := naam_dict.get("synoniemen"):
-            bits.append("**Synoniemen**: " + " · ".join(syn))
-        if vert := naam_dict.get("vertaling"):
-            bits.append("**Vertalingen**: " + " · ".join(f"{k}: {v}" for k, v in vert.items()))
-        if bits:
-            parts.append(" — ".join(bits))
 
     # kern
     if k := inhoud.get("kern"):
