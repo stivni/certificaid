@@ -383,20 +383,68 @@ def _get_concepten_collectie(chroma_path: str):
         return client.get_or_create_collection(COLLECTIE_NAAM, embedding_function=_ef)
 
 
-def _bouw_embed_tekst(record: dict) -> str:
-    """Bouw de tekst die geëmbed wordt voor dit concept (schema 1.1)."""
+def _tekst_uit_definitie(blok: dict) -> str:
+    """Haal `tekst`-veld uit een schema 2.2 definitie/substantie/rationale-blok.
+
+    Schema 2.2 gebruikt `{tekst: "...", grondslag: {...}}`. Schema 1.x gebruikte
+    `{text: "...", source: ...}`. Beide ondersteunen — text-veld als fallback.
+    """
+    if not isinstance(blok, dict):
+        return ""
+    return (blok.get("tekst") or blok.get("text") or "").strip()
+
+
+def _verzamel_kern_tekst(kern: dict, max_chars: int = 800) -> str:
+    """Verzamel definitie + substantie + rationale uit een schema 2.2 kern-blok."""
+    if not isinstance(kern, dict):
+        return ""
     delen = []
-    naam = record.get("naam", "").strip()
+    for veld in ("definitie", "substantie", "rationale"):
+        tekst = _tekst_uit_definitie(kern.get(veld))
+        if tekst:
+            delen.append(tekst)
+    return " ".join(delen)[:max_chars]
+
+
+def _naam_primair(naam_veld) -> str:
+    """Haal primaire naam: schema 2.2 = dict met `primair`; schema 1.x = string."""
+    if isinstance(naam_veld, dict):
+        return (naam_veld.get("primair") or "").strip()
+    if isinstance(naam_veld, str):
+        return naam_veld.strip()
+    return ""
+
+
+def _bouw_embed_tekst(record: dict) -> str:
+    """Bouw de tekst die geëmbed wordt voor dit concept.
+
+    Schema 2.2-aware: wandelt door de volledige inhoud-tree zodat sub-concepten,
+    bouwstenen, valkuilen en accountant-perspectieven vindbaar worden in de RAG.
+    Bge-m3 ondersteunt ~8k tokens dus we mogen royaal zijn, maar elk element
+    blijft bounded om dominantie door één lange weergave te vermijden.
+
+    Fallback voor schema 1.x: oude `naam`-string + `node_type` + `main_rule`/`definitie`-veld.
+    """
+    # Schema-detectie: 2.x → dict naam; 1.x → string naam
+    naam_veld = record.get("naam")
+    if isinstance(naam_veld, dict):
+        return _bouw_embed_tekst_v2(record)
+    return _bouw_embed_tekst_v1(record)
+
+
+def _bouw_embed_tekst_v1(record: dict) -> str:
+    """Legacy schema 1.x embed-tekst (backwards-compat voor oude records)."""
+    delen = []
+    naam = (record.get("naam") or "").strip()
     if naam:
         delen.append(naam)
-    node_type = record.get("node_type", "").strip()
+    node_type = (record.get("node_type") or "").strip()
     if node_type:
         delen.append(f"({node_type})")
-    # Type-specifiek hoofdveld (ADR-007 §type-specifieke sleutelvelden)
     for veldnaam in ("main_rule", "definitie", "verplichting", "doel"):
         veld = record.get(veldnaam)
         if isinstance(veld, dict):
-            tekst = veld.get("text", "").strip()
+            tekst = (veld.get("text") or "").strip()
             if tekst:
                 delen.append(tekst[:500])
                 break
@@ -406,29 +454,240 @@ def _bouw_embed_tekst(record: dict) -> str:
     return " — ".join(delen) if delen else naam
 
 
+def _bouw_embed_tekst_v2(record: dict) -> str:
+    """Schema 2.2 embed-tekst — wandelt door de volledige inhoud-tree.
+
+    Layout (semantisch gesorteerd, meest discriminerend eerst):
+
+      [naam] (synoniemen: X, Y) — [concept_type] | [categorieën]
+      KERN: definitie + substantie + rationale
+      SUBCONCEPTEN: <naam>: <definitie> | ...
+      BOUWSTENEN: <naam> (<type>): <definitie> | ...
+      VALKUILEN: <titel> — <kernpunt> | ...
+      PERSPECTIEVEN: <perspectief-naam>: <intro> · elementen: <a>, <b> | ...
+    """
+    delen = []
+
+    naam_veld = record.get("naam", {})
+    naam_primair = _naam_primair(naam_veld)
+    if not naam_primair:
+        return ""
+
+    # 1. Naam-blok: primair + afkorting + synoniemen + FR-vertaling
+    naam_parts = [naam_primair]
+    afkorting = (naam_veld.get("afkorting") or "").strip()
+    if afkorting:
+        naam_parts.append(f"({afkorting})")
+    synoniemen = [s.strip() for s in naam_veld.get("synoniemen", []) if isinstance(s, str) and s.strip()]
+    if synoniemen:
+        naam_parts.append("synoniemen: " + ", ".join(synoniemen))
+    vertaling = naam_veld.get("vertaling", {})
+    if isinstance(vertaling, dict):
+        fr = (vertaling.get("fr") or "").strip()
+        if fr and fr.lower() not in {s.lower() for s in synoniemen}:
+            naam_parts.append(f"fr: {fr}")
+    delen.append(" — ".join(naam_parts))
+
+    # 2. Concept_type + categorieën
+    concept_type = (record.get("concept_type") or "").strip()
+    categorieen = record.get("metadata", {}).get("categorieen", [])
+    type_parts = []
+    if concept_type:
+        type_parts.append(concept_type)
+    if isinstance(categorieen, list) and categorieen:
+        type_parts.append("categorieën: " + ", ".join(str(c) for c in categorieen))
+    if type_parts:
+        delen.append(" | ".join(type_parts))
+
+    inhoud = record.get("inhoud", {}) if isinstance(record.get("inhoud"), dict) else {}
+
+    # 3. Kern-blok (definitie + substantie + rationale)
+    kern_tekst = _verzamel_kern_tekst(inhoud.get("kern", {}), max_chars=900)
+    if kern_tekst:
+        delen.append("KERN: " + kern_tekst)
+
+    # 4. Subconcepten — elk kort: naam + korte definitie
+    subconcepten = inhoud.get("subconcepten", []) or []
+    sub_parts = []
+    for sub in subconcepten:
+        if not isinstance(sub, dict):
+            continue
+        sub_naam = _naam_primair(sub.get("naam"))
+        if not sub_naam:
+            continue
+        sub_def = _verzamel_kern_tekst(sub.get("inhoud", {}).get("kern", {}), max_chars=300)
+        if sub_def:
+            sub_parts.append(f"{sub_naam}: {sub_def}")
+        else:
+            sub_parts.append(sub_naam)
+    if sub_parts:
+        delen.append("SUBCONCEPTEN: " + " | ".join(sub_parts))
+
+    # 5. Bouwstenen — naam (+ type) + korte definitie/substantie
+    bouwstenen = inhoud.get("bouwstenen", []) or []
+    bs_parts = []
+    for bs in bouwstenen:
+        if not isinstance(bs, dict):
+            continue
+        bs_naam = _naam_primair(bs.get("naam"))
+        if not bs_naam:
+            continue
+        bs_type = (bs.get("bouwsteen_type") or "").strip()
+        kop = f"{bs_naam} ({bs_type})" if bs_type else bs_naam
+        bs_def = _verzamel_kern_tekst(bs.get("kern", {}), max_chars=350)
+        if bs_def:
+            bs_parts.append(f"{kop}: {bs_def}")
+        else:
+            bs_parts.append(kop)
+    if bs_parts:
+        delen.append("BOUWSTENEN: " + " | ".join(bs_parts))
+
+    # 6. Valkuilen — titel + kernpunt (eventueel verkeerde_assumptie)
+    valkuilen = inhoud.get("valkuilen", []) or []
+    val_parts = []
+    for val in valkuilen:
+        if not isinstance(val, dict):
+            continue
+        titel = (val.get("titel") or "").strip()
+        kernpunt = (val.get("kernpunt") or "").strip()
+        assumptie = (val.get("verkeerde_assumptie") or "").strip()
+        if not titel and not kernpunt:
+            continue
+        # Korte vorm: titel — assumptie? — kernpunt
+        stuk = titel or kernpunt
+        if assumptie:
+            stuk = f"{stuk} — fout: {assumptie[:200]}"
+        if kernpunt and kernpunt != titel:
+            stuk = f"{stuk} — correct: {kernpunt[:300]}"
+        val_parts.append(stuk)
+    if val_parts:
+        delen.append("VALKUILEN: " + " | ".join(val_parts))
+
+    # 7. Syntheses (optioneel, ~44 records) — titel + korte tekst
+    syntheses = inhoud.get("syntheses", []) or []
+    syn_parts = []
+    for syn in syntheses:
+        if not isinstance(syn, dict):
+            continue
+        titel = (syn.get("titel") or _naam_primair(syn.get("naam"))).strip()
+        kern_tekst = _verzamel_kern_tekst(syn.get("kern", {}), max_chars=250)
+        if titel and kern_tekst:
+            syn_parts.append(f"{titel}: {kern_tekst}")
+        elif titel:
+            syn_parts.append(titel)
+    if syn_parts:
+        delen.append("SYNTHESES: " + " | ".join(syn_parts))
+
+    # 8. Accountant-perspectieven — naam + intro + elementen (alleen naam, geen full def)
+    perspectieven = record.get("accountant_perspectieven", []) or []
+    persp_parts = []
+    for persp in perspectieven:
+        if not isinstance(persp, dict):
+            continue
+        persp_naam = _naam_primair(persp.get("naam"))
+        intro = (persp.get("intro") or "").strip()
+        if not persp_naam:
+            continue
+        stuk = persp_naam
+        if intro:
+            stuk = f"{stuk}: {intro[:200]}"
+        # Verzamel elementen-namen uit rollen[*].elementen[*]
+        elem_namen = []
+        for rol in persp.get("rollen", []) or []:
+            if not isinstance(rol, dict):
+                continue
+            for elem in rol.get("elementen", []) or []:
+                if not isinstance(elem, dict):
+                    continue
+                en = _naam_primair(elem.get("naam"))
+                if en:
+                    elem_namen.append(en)
+        if elem_namen:
+            stuk = f"{stuk} · elementen: " + ", ".join(elem_namen)
+        persp_parts.append(stuk)
+    if persp_parts:
+        delen.append("PERSPECTIEVEN: " + " | ".join(persp_parts))
+
+    return "\n".join(delen)
+
+
 def _bouw_metadata(record: dict) -> dict:
-    edge_targets = [
-        e.get("target", "") for e in record.get("edges", [])
-        if e.get("target")
-    ]
+    """Bouw ChromaDB-metadata voor dit concept.
+
+    Schema 2.2: gebruikt `concept_type` (i.p.v. `node_type`), `relaties` (i.p.v.
+    `edges`) en `metadata.schema_version` + `metadata.status`. Schema 1.x-records
+    blijven werken via top-level fallbacks.
+    """
+    naam_veld = record.get("naam")
+    is_v2 = isinstance(naam_veld, dict)
+
+    # Naam
+    if is_v2:
+        naam_uit = _naam_primair(naam_veld)
+    else:
+        naam_uit = (naam_veld or "").strip() if isinstance(naam_veld, str) else ""
+
+    # Concept_type / node_type
+    concept_type = (record.get("concept_type") or record.get("node_type") or "").strip()
+
+    # Status + schema_version: schema 2.2 stopt deze onder metadata
+    md_blok = record.get("metadata", {}) if isinstance(record.get("metadata"), dict) else {}
+    status = (md_blok.get("status") or record.get("status") or "").strip()
+    schema_version = str(md_blok.get("schema_version") or record.get("schema_version") or "")
+
+    # Relaties (v2) → fallback edges (v1)
+    relatie_targets = []
+    for r in record.get("relaties", []) or []:
+        if isinstance(r, dict) and r.get("target"):
+            relatie_targets.append(r["target"])
+    if not relatie_targets:
+        for e in record.get("edges", []) or []:
+            if isinstance(e, dict) and e.get("target"):
+                relatie_targets.append(e["target"])
+
+    # Bron-short: probeer kern.definitie.grondslag.bronnen[0] (v2) of legacy source.short (v1)
     bron_short = ""
-    for veldnaam in ("main_rule", "definitie", "verplichting", "doel"):
-        veld = record.get(veldnaam)
-        if isinstance(veld, dict):
-            source = veld.get("source", {})
-            if isinstance(source, str):
-                bron_short = source
-            else:
-                bron_short = source.get("short", "") if isinstance(source, dict) else ""
-            if bron_short:
-                break
+    if is_v2:
+        kern = record.get("inhoud", {}).get("kern", {}) if isinstance(record.get("inhoud"), dict) else {}
+        for veld in ("definitie", "substantie", "rationale"):
+            blok = kern.get(veld, {})
+            if not isinstance(blok, dict):
+                continue
+            grondslag = blok.get("grondslag", {})
+            if not isinstance(grondslag, dict):
+                continue
+            bronnen = grondslag.get("bronnen", [])
+            if isinstance(bronnen, list) and bronnen and isinstance(bronnen[0], dict):
+                eerste = bronnen[0]
+                bron_short = (eerste.get("naam") or eerste.get("id") or eerste.get("ref") or "").strip()
+                if bron_short:
+                    break
+    else:
+        for veldnaam in ("main_rule", "definitie", "verplichting", "doel"):
+            veld = record.get(veldnaam)
+            if isinstance(veld, dict):
+                source = veld.get("source", {})
+                if isinstance(source, str):
+                    bron_short = source
+                else:
+                    bron_short = source.get("short", "") if isinstance(source, dict) else ""
+                if bron_short:
+                    break
+
+    # Categorieën (schema 2.2) als extra metadata-veld
+    categorieen = md_blok.get("categorieen", [])
+    cat_str = ",".join(str(c) for c in categorieen) if isinstance(categorieen, list) else ""
+
     return {
         "concept_id":     record.get("id", ""),
-        "naam":           record.get("naam", ""),
-        "node_type":      record.get("node_type", ""),
-        "status":         record.get("status", ""),
-        "schema_version": str(record.get("schema_version", "")),
-        "edge_targets":   ",".join(edge_targets),
+        "naam":           naam_uit,
+        "concept_type":   concept_type,
+        # Backwards-compat: behoud node_type-key zodat oude consumers blijven werken
+        "node_type":      concept_type,
+        "status":         status,
+        "schema_version": schema_version,
+        "edge_targets":   ",".join(relatie_targets),
+        "categorieen":    cat_str,
         "bron_short":     bron_short,
     }
 
