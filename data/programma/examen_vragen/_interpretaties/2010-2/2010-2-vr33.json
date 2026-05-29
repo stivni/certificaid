@@ -1,0 +1,66 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr33",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toepassing van de OESO-Modelovereenkomst tot vermijding van dubbele belasting (inwonerschap, interesten, onderling overleg, overheidspensioenen)",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "OESO-modelverdrag",
+    "dubbelbelastingverdragen",
+    "inwonerschap",
+    "tie-breaker",
+    "interesten bronheffing",
+    "onderling overleg",
+    "overheidspensioenen",
+    "internationaal fiscaal recht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Beantwoord de vragen met \"waar\" of \"niet waar\" op basis van de beginselen ingeschreven in de door de OESO ontwikkelde \"Modelovereenkomst naar het Inkomen en naar het Vermogen\"."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een natuurlijke persoon die geen dubbele nationaliteit bezit en die door beide overeenkomstsluitende Staten bij een overeenkomst tot vermijding van dubbele belasting als inwoner wordt beschouwd, zal in de staat waarvan hij de nationaliteit heeft steeds op zijn wereldinkomen worden belast, zonder andere criteria in aanmerking te nemen. Deze persoon bezit de nationaliteit van één van beide hiervoor beoogde overeenkomstsluitende Staten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Interesten kunnen in de bronstaat en in de verblijfstaat worden belast.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Door de regeling voor onderling overleg kunnen onder meer problemen in verband met juridische dubbele belasting worden opgelost.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een pensioen dat door België aan een Belgische natuurlijke persoon wordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een federale overheidsdienst zal in België niet meer belastbaar zijn, indien deze natuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot vermijding van dubbele belasting heeft gesloten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële vraag uit het ITAA-bekwaamheidsexamen accountant 2010 sessie 2 (pagina 21). Vier juist/niet-waar-stellingen onder gemeenschappelijke instructie over de OESO-Modelovereenkomst. Aanhef ('Vraag 2 ... / 2 punten') geeft aan dat de puntenwaarde door OCR onleesbaar is — niet relevant voor interpretatie. Het pdfplumber-artefact 'messages.downloaded_by' (watermerk) verwijderd. De keuze-vakjes 'Waar / Niet waar' bij elke stelling visueel bevestigd op de PNG; geen aparte deelvragen voor motivering (geen 'motiveer'-instructie aanwezig). PO 2.8 (Europees/internationaal fiscaal) gekozen wegens kernonderwerp = OESO-modelverdrag dubbele belasting.",
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

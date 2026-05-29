@@ -1,0 +1,128 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr13",
+  "antwoord_datum": "2026-05-29T19:37:41Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De aandelen aan toonder van TIBERI moeten worden omgezet in aandelen op naam of in gedematerialiseerde aandelen — de wet van 14 december 2005 heeft de toonderaandelen geleidelijk afgeschaft en de NV moet haar statuten aanpassen om de omzetting mogelijk te maken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet van 14 december 2005 schaft de effecten aan toonder af in een gefaseerd traject: sinds 1 januari 2008 is de uitgifte van nieuwe toonderaandelen verboden en bestaande toonderaandelen moesten uiterlijk op 31 december 2013 worden omgezet in aandelen op naam (inschrijving in het aandelenregister) of in gedematerialiseerde aandelen (inschrijving op een effectenrekening), op initiatief van de rechthebbende. 📖 Niet-omgezette aandelen werden op 1 januari 2014 van rechtswege omgezet en ingeschreven op naam van de emittent, met schorsing van de eraan verbonden rechten (stemrecht, dividend) tot de rechthebbende zich kenbaar maakt. 📖 In 2010 moet Pierre dus de algemene vergadering bijeenroepen om de statuten van TIBERI te wijzigen (omzettingsregeling — keuze tussen naam en/of dematerialisering vastleggen) en de praktische omzetting organiseren — een statutenwijziging vereist 3/4-meerderheid, die Pierre met zijn 85 % zelf bereikt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De laatste statutenwijziging van TIBERI dateert van 15 december 2008 — net na de inwerkingtreding van de afschaffingswet. Te controleren of die wijziging de overgang al regelt; zo niet, is een nieuwe statutenwijziging vóór 31/12/2013 nodig. Het systematisch verzet van Jean-Claude (15 %) raakt de beslissing niet, want de 3/4-meerderheid voor statutenwijziging blijft binnen het bereik van Pierre. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 14 december 2005 houdende afschaffing van de effecten aan toonder (B.S. 23 december 2005), art. 7-9 (omzettingsregeling, regime van rechtswege omgezette effecten). Bevestigd door CBN-advies 2014/6 (boekhoudkundige verwerking). 📖",
+          "wetsref": "Wet 14 december 2005 (afschaffing effecten aan toonder), art. 7-9",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2014-06-de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Pierre kan (als 85 %-aandeelhouder, ruim boven de wettelijke 30 %-drempel) bij de voorzitter van de rechtbank van koophandel (vandaag: ondernemingsrechtbank), zetelend zoals in kort geding, een vordering tot **gedwongen uitsluiting** van Jean-Claude instellen om diens aandelen aan zichzelf te laten overdragen, mits hij **gegronde redenen** aantoont. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De geschillenregeling in de NV (in 2010: art. 636-641 W.Venn. — vandaag art. 2:60-2:69 WVV samen met art. 7:218 WVV) geeft aandeelhouders die alleen of samen ten minste 30 % van de stemmen bezitten, het recht om in rechte de uitsluiting te vorderen van een aandeelhouder wiens gedrag de werking van de vennootschap ernstig schaadt of de continuïteit in gevaar brengt (\"gegronde reden\"). 🔗 De **rol van de rechter** is dubbel: (i) hij beoordeelt soeverein de gegronde reden — een systematisch en obstructief verzet van een minderheidsaandeelhouder dat de besluitvorming verlamt en niet door eigen vermogensbelang wordt verklaard, wordt door de rechtspraak doorgaans als gegronde reden aanvaard; (ii) hij beveelt de **overdracht van de aandelen** van de uitgeslotene aan de eiser en bepaalt de **overnameprijs** (zo nodig na deskundigenverslag), waarbij Jean-Claude niet kan weigeren. 🔗 De procedure verloopt zoals in kort geding (snelle behandeling), met dagvaarding van de vennootschap zelf als partij. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De uitsluiting (art. 7:218 WVV) wordt ingesteld tégen een aandeelhouder en is een afdwingbaar middel; de spiegel-vordering is de **uittreding** (art. 7:219 WVV), waarbij een aandeelhouder zélf vraagt om uit te treden door zijn aandelen te laten overnemen wegens gegronde redenen aan zijn persoon eigen. Beide blijven binnen de vennootschap — anders dan een vordering tot **gerechtelijke ontbinding** wegens wettige redenen (diepgaande en blijvende onenigheid — art. 4:17 WVV / art. 1871 oud BW), die de vennootschap doet verdwijnen en die de rechter slechts terughoudend toestaat. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IBA-Minority-Belgium-2022-NL.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "In 2010-context: art. 636-641 W.Venn. (geschillenregeling NV — uitsluiting/uittreding) jo. art. 642-643 W.Venn. (procedure voor voorzitter rechtbank van koophandel, zetelend zoals in kort geding). Vandaag hernomen in art. 2:60-2:69 WVV jo. art. 7:218 WVV (uitsluiting NV), met procedure voor voorzitter ondernemingsrechtbank (art. 2:68 WVV). 🔗",
+          "wetsref": "art. 636-643 W.Venn. (2010) — vandaag art. 2:60-2:69 + 7:218 WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De alarmbelprocedure moet (nog) **niet** worden toegepast in TIBERI: de casus stelt uitdrukkelijk dat het eigen vermogen ondanks twee verlieslatende boekjaren niet onder de helft van het maatschappelijk kapitaal zakt, en dat is de wettelijke trigger. Wel is er een rapporterings- en bestuursplicht voor het bestuur om de continuïteit te bewaken; gerechtelijke ontbinding kan slechts wanneer het nettoactief onder 61 500 EUR (vandaag) of het strengere oude minimum-kapitaal zakt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor een NV is de alarmbelprocedure gekoppeld aan twee drempels (in 2010: art. 633 W.Venn. — vandaag art. 7:228 WVV): zodra het **nettoactief** ten gevolge van geleden verlies daalt tot **minder dan de helft** van het maatschappelijk kapitaal, moet het bestuur binnen twee maanden de algemene vergadering bijeenroepen om te beraadslagen over de ontbinding of over herstelmaatregelen; zakt het nettoactief tot minder dan **een vierde** van het kapitaal, dan kan de ontbinding worden uitgesproken met slechts één vierde van de stemmen. 📖 In TIBERI is geen van beide drempels overschreden (de casus stelt dit expliciet), dus enkel de gewone besluitvorming over de jaarrekening, eventuele kapitaalvermindering of herstelplan komt aan bod. Daarnaast geeft art. 634 W.Venn. (vandaag art. 7:229 WVV) elke belanghebbende of het openbaar ministerie het recht om de **gerechtelijke ontbinding** te vorderen wanneer het nettoactief onder 61 500 EUR (61 500 EUR vandaag; in 2010: 61 500 EUR / oud minimum-kapitaal NV) zakt — de rechter kan in dat geval een **regularisatietermijn** toestaan. 🔗 De systematische betwisting van de jaarrekeningen door Jean-Claude verandert dit niet: voor blokkering van de goedkeuring is in de NV in principe geen vetorecht — een gewone meerderheid van de uitgebrachte stemmen volstaat, en Pierre's 85 % volstaat ruim. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De casus is een **negatieve test**: de stagiair moet niet uitleggen wat er gebeurt als de alarmbel afgaat, maar wel waarom hij hier **niet** moet afgaan en wat dan toch nog blijft gelden (bestuurdersaansprakelijkheid voor continuïteit, art. 96 W.Venn. / art. 3:6 WVV-jaarverslag met continuïteitstoelichting, eventueel art. 7:229 WVV indien nettoactief verder daalt onder 61 500 EUR). Recurrente verliezen zonder drempel-overschrijding triggeren géén formele alarmbel, wél een verhoogde waakzaamheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "In 2010-context: art. 633 W.Venn. (alarmbel NV — drempels helft / vierde kapitaal, bijeenroeping AV binnen 2 maanden) en art. 634 W.Venn. (gerechtelijke ontbinding bij nettoactief < minimum-kapitaal). Vandaag hernomen in art. 7:228 en art. 7:229 WVV; CBN-advies 2021/14 verduidelijkt het begrip 'nettoactief' (totaal activa minus voorzieningen en schulden — somma van de eerste zes passiefposten). 📖",
+          "wetsref": "art. 633-634 W.Venn. (2010) — vandaag art. 7:228 + 7:229 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

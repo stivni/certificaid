@@ -1,0 +1,128 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr17",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De beroepsbeoefenaar voert geen volledige controle van de jaarrekening uit, maar een **beoordelingsopdracht** met **beperkte mate van zekerheid** over de financiële en boekhoudkundige gegevens in het verslag van het bestuursorgaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De opdracht onder art. 7:179 WVV (NV) of art. 5:121 WVV (BV) is een **review engagement** (beperkte zekerheid), niet een **audit** (redelijke zekerheid). 📖 De beroepsbeoefenaar voert beoordelingsprocedures uit (vooral inlichtingen inwinnen en analytische procedures) en formuleert zijn conclusie in negatieve vorm: \"niets is onder onze aandacht gekomen dat ons ertoe aanzet van mening te zijn dat deze gegevens niet getrouw en voldoende zijn\". 📖 Een volledige jaarrekeningcontrole zoals door de commissaris (ISA-controle) is geen vereiste voor deze bijzondere opdracht; dat zou onevenredig zijn met het beperkte voorwerp van het verslag. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Als de vennootschap een commissaris heeft, is hij de aangewezen beroepsbeoefenaar voor het verslag — hij steunt dan op de kennis uit zijn lopende commissarismandaat, maar de opdracht zelf blijft een afzonderlijke beoordelingsopdracht, geen uitbreiding van zijn jaarrekeningcontrole. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:179 WVV (NV) / art. 5:121 WVV (BV) — verslag van commissaris, bedrijfsrevisor of gecertificeerd accountant bij uitgifte van aandelen. ITAA-effectennorm, hoofdstuk \"Doelstellingen en reikwijdte\": de opdracht is een **beoordeling met beperkte mate van zekerheid**, geen volledige controle. 📖",
+          "wetsref": "art. 7:179 WVV; art. 5:121 WVV; ITAA-effectennorm",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De beroepsbeoefenaar **bepaalt de intrinsieke waarde van de aandelen niet** — dat is de verantwoordelijkheid van het bestuursorgaan, dat de uitgifteprijs verantwoordt in zijn bijzonder verslag. De beroepsbeoefenaar **beoordeelt** of die financiële en boekhoudkundige gegevens getrouw en voldoende zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De rolverdeling onder art. 7:179-7:180 WVV is duidelijk: 📖\n\n- **Bestuursorgaan**: stelt het bijzonder verslag op dat de verrichting en de uitgifteprijs **omstandig verantwoordt** in het vennootschapsbelang (gelet op de financiële toestand van de vennootschap, identiteit van de begunstigden, aard en omvang van hun inbreng — art. 7:180 §1, tweede lid WVV).\n- **Beroepsbeoefenaar**: brengt een **beoordelingsverslag** uit waarin hij vaststelt of de financiële en boekhoudkundige gegevens in dat bestuurdersverslag getrouw en voldoende zijn. Bij beperking/opheffing van het voorkeurrecht **ten gunste van bepaalde personen** verstrekt hij bovendien een **omstandig advies over de verantwoording van de uitgifteprijs** (art. 7:180 §1, derde lid WVV) — maar ook dat is een advies/beoordeling, geen eigen waardebepaling.\n\nDat aandeelhouders het niet eens zijn over de intrinsieke waarde is geen wettelijke trigger die de beroepsbeoefenaar tot waardeerder maakt. De geschilbeslechting tussen aandeelhouders behoort niet tot het bijzonder mandaat — dat is een aangelegenheid voor de algemene vergadering en, in laatste instantie, de rechtbank. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar deze opdracht niet met een **inbreng in natura** (art. 7:197 WVV) of een **quasi-inbreng** (art. 7:8 WVV): daar moet de beroepsbeoefenaar wél de **waardering** beoordelen van het ingebrachte goed. Bij een gewone uitgifte van aandelen in geld met beperking/afstand van het voorkeurrecht beoordeelt hij enkel de financiële en boekhoudkundige gegevens in het bestuurdersverslag — de waardebepaling blijft een verantwoordelijkheid van het bestuursorgaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:178, tweede en derde lid WVV (verantwoording door bestuursorgaan + verklaring beroepsbeoefenaar); art. 7:180 §1 WVV (omstandige verantwoording uitgifteprijs door bestuursorgaan + omstandig advies door commissaris/accountant bij beperking ten gunste van bepaalde personen). De beroepsbeoefenaar beoordeelt; hij waardeert niet. 📖",
+          "wetsref": "art. 7:178 WVV; art. 7:180 §1 WVV; art. 5:130-5:131 WVV (BV)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Dit is exact het voorwerp van het beoordelingsverslag: vaststellen of de financiële en boekhoudkundige gegevens in het bijzonder verslag van het bestuursorgaan **getrouw en voldoende** zijn, zodat de algemene vergadering met kennis van zaken kan beslissen over de voorgestelde kapitaalverhoging. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-effectennorm omschrijft de doelstelling van de opdracht uitdrukkelijk als het verschaffen van een basis om te rapporteren \"of er iets onder onze aandacht is gekomen dat ons ertoe aanzet van mening te zijn dat de financiële en boekhoudkundige gegevens opgenomen in het verslag van het bestuursorgaan niet in alle van materieel belang zijnde opzichten **getrouw en voldoende** zijn om de algemene vergadering die over het voorstel moet stemmen, voor te lichten\". 📖 De stelling parafraseert deze doelstelling correct: het gaat erom dat de AV-stemming op betrouwbare informatie steunt — niet om een eigen audit-oordeel over de jaarrekening, noch om een waardebepaling. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:179 WVV (NV) / art. 5:121 WVV (BV); ITAA-effectennorm §\"Doelstellingen en reikwijdte van de opdracht\" en modelverslag (Bijlage 5): beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens in het bestuurdersverslag, met als doel de AV voor te lichten. 📖",
+          "wetsref": "art. 7:179 WVV; art. 5:121 WVV; ITAA-effectennorm",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-effectennorm.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr9",
+  "interpretatie_datum": "2026-05-29T19:30:06Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Interne controle leveranciersadministratie — juist/fout stellingen",
+  "programmaonderdeel_ids": ["1.7"],
+  "themas": [
+    "interne controle",
+    "leveranciersadministratie",
+    "aankoopcyclus",
+    "factuurcontrole",
+    "functiescheiding"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Duid met een kruisje aan of de volgende omschrijvingen juist of fout zijn in het kader van de interne controle voor de leveranciersadministratie."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Alle facturen van goederen moeten bij ontvangst rechtstreeks naar de leveranciersadministratie worden gezonden met het oog op controle.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Alle facturen van diensten moeten bij ontvangst rechtstreeks naar de leveranciersadministratie worden gezonden met het oog op controle.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De facturen worden enkel vergeleken met de bestelbon van de betrokken afdeling.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Enkel handgeschreven facturen worden rekenkundig gecontroleerd.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De gecontroleerde facturen worden bij het inboeken door de boekhoudafdeling van een volgnummer voorzien.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het toegepaste btw-tarief zal worden nagezien.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG-pagina 5 toont onder vakheader INTERNE CONTROLE drie vragen (Vraag 1, 2, 3). Het segment 2010-2-vr9 valt samen met Vraag 3 (6 punten) over interne controle leveranciersadministratie: 6 omschrijvingen die juist of fout aangeduid moeten worden in een tabel. Geen letter-labels in PDF — id's a–f toegekend voor stabiele referentie. Pdfplumber-tabel correct gerenderd, geen typo's. DRAFT-watermerk (Studocu) genegeerd.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

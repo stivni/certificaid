@@ -1,0 +1,125 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr4",
+  "interpretatie_datum": "2026-05-29T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's",
+  "programmaonderdeel_ids": ["1.3"],
+  "themas": [
+    "financiële ratio's",
+    "nettobedrijfskapitaal",
+    "current ratio",
+    "zelffinancieringsgraad",
+    "rentabiliteit eigen vermogen",
+    "operationeel brutoresultaat",
+    "jaarrekeninganalyse"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio's. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord."
+    },
+    {
+      "type": "balans",
+      "actief": {
+        "headers": ["OMSCHRIJVING", "JAAR"],
+        "rows": [
+          ["Materiële vaste activa", "44 896"],
+          ["Voorraden", "23 149"],
+          ["Handelsvorderingen", "88 564"],
+          ["Overige vorderingen", "8 998"],
+          ["Geldbeleggingen", "79 756"],
+          ["Liquide middelen", "125 851"],
+          ["Overlopende rekeningen", "6 658"],
+          ["TOTAAL ACTIVA", "377 872"]
+        ]
+      },
+      "passief": {
+        "headers": ["OMSCHRIJVING", "JAAR"],
+        "rows": [
+          ["Kapitaal", "62 000"],
+          ["Reserves", "99 161"],
+          ["Overgedragen verlies", "-15 361"],
+          ["Uitgestelde belastingen", "0"],
+          ["Schulden op meer dan 1 jaar", "135 000"],
+          ["Leveranciers op minder dan 1 jaar", "23 743"],
+          ["Schulden belastingen en sociale schulden", "36 963"],
+          ["Overige schulden", "29 213"],
+          ["Overlopende rekeningen", "7 153"],
+          ["TOTAAL PASSIVA", "377 872"]
+        ]
+      }
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Resultatenrekening",
+      "rijen": [
+        { "label": "Omzet", "bedrag": 1510610 },
+        { "label": "Andere bedrijfsopbrengsten", "bedrag": 19154 },
+        { "label": "Verbruikte handelsgoederen", "bedrag": 1150081 },
+        { "label": "Diensten en diverse goederen", "bedrag": 186050 },
+        { "label": "Bezoldigingen en sociale lasten", "bedrag": 148283 },
+        { "label": "Afschrijvingen", "bedrag": 29589 },
+        { "label": "Waardeverminderingen", "bedrag": 0 },
+        { "label": "Andere bedrijfskosten", "bedrag": 2996 },
+        { "label": "Financiële opbrengsten", "bedrag": 1421 },
+        { "label": "Financiële kosten", "bedrag": 12429 },
+        { "label": "Uitzonderlijke opbrengsten", "bedrag": 0 },
+        { "label": "Onttrekking aan uitgestelde belastingen", "bedrag": 132 },
+        { "label": "Belastingen op het resultaat", "bedrag": 532 },
+        { "label": "Onttrekking aan belastingvrije reserves", "bedrag": 396 },
+        { "label": "Resultaat boekjaar", "bedrag": 1753 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het nettobedrijfskapitaal. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de liquiditeit in ruime zin (current ratio). Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de zelffinancieringsgraad in %. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de nettorentabiliteit van het eigen vermogen na belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het operationeel brutoresultaat voor belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG-pagina 3 toont de header van het PO-blok 'ANALYSE EN KRITISCHE BEOORDELING VAN DE JAARREKENING — CONSOLIDATIE (25 PUNTEN)' gevolgd door 'Vraag 1 ... / 15 punten' met de casus-inleiding en de balans (actief + passief eindigend op TOTAAL 377 872). De tekst.txt bevat aansluitend de resultatenrekening en de vijf subvragen a-e — deze horen visueel op pagina 4 (niet meegeleverd als PNG, maar inhoudelijk eenduidig deel van dezelfde vraag). Balans gestructureerd als {type: balans, actief/passief} conform §4.5; resultatenrekening als gegevens_tabel met genormaliseerde bedragen (spaties uit duizendtallen verwijderd → integers). Subvragen a-e zijn open berekeningsvragen waarbij de casus expliciet motivatie vraagt ('de gebruikte cijfers uit de jaarrekening als motivatie'), dus motivatie_verwacht=true voor alle vijf. De pdfplumber dubbel-rendering van de subvragen ('=== subvraag a) ===' enz.) is een artefact van de segmenter en wordt genegeerd.",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "pagina_overslaat"
+  ]
+}

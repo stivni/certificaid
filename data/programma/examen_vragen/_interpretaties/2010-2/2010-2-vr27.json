@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr27",
+  "interpretatie_datum": "2026-05-29T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Plaats van de levering/dienst en schuldenaar van de btw in grensoverschrijdende situaties",
+  "programmaonderdeel_ids": ["2.4"],
+  "themas": [
+    "btw",
+    "plaats van de dienst",
+    "plaats van de levering",
+    "schuldenaar van de btw",
+    "intracommunautair",
+    "B2B-dienst",
+    "verlegging van heffing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bepaal met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel:\n1) de plaats van de levering of dienst (of handeling gelijkgesteld met een levering of dienst) EN\n2) desgevallend de schuldenaar van de btw\nin de volgende gevallen waarbij de voorwaarden voor belastbaarheid geacht worden voldaan te zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Een Belgische aannemer vervoert een kraan naar Nederland, waar hij de kraan gebruikt bij de bouw van een woning. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Een Belgische platenfirma stelt in Antwerpen een volledige geluidsopnamestudio met bedieningspersoneel ter beschikking van een Belgische muziekgroep die al jaren in de VS woont. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Een Belgisch accountantskantoor gevestigd in Antwerpen vult de belastingaangifte van niet-inwoners (BNI) in voor een Nederlandse loontrekkende die werkt in een Belgische kmo in de grensstreek. De Nederlander woont net over de grens in Nederland. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PDF toont één hoofdvraag 'Vraag 1' (6 punten, 2 punten per casus) onder de rubriek 'BELASTING OVER DE TOEGEVOEGDE WAARDE'. De pdfplumber-tekst had de drie sub-cases (a, b, c) door elkaar gehusseld met 'Antwoord ... / Plaats / Schuldenaar' invulvelden tussenin; de PNG bevestigt de juiste volgorde a/b/c en de volledige tekst van casus (b) ('Een Belgische platenfirma stelt in Antwerpen een volledige geluidsopnamestudio met bedieningspersoneel ter beschikking van een Belgische muziekgroep die al jaren in de VS woont'), die in tekst.txt verminkt was. De drie sub-cases delen één instructie (plaats bepalen + desgevallend schuldenaar + woordje uitleg/wetsartikel) en zijn dus drie deelvragen onder één paraplu. 'Antwoord / Plaats / Schuldenaar' zijn invulvelden voor het antwoord, geen aparte deelvragen.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

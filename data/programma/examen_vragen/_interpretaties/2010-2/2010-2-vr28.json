@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr28",
+  "interpretatie_datum": "2026-05-29T19:33:24Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-herziening van de oorspronkelijk uitgeoefende aftrek",
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
+  "themas": [
+    "btw-herziening",
+    "recht op aftrek",
+    "gemengd gebruik gebouw",
+    "verjaring btw-aftrek",
+    "bedrijfsmiddelen",
+    "rooster 56"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bepaal met korte motivering of voor volgende gevallen herziening moet gebeuren, en zo ja wanneer."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Mijnheer Bert, btw-belastingplichtige met volledig recht op aftrek, ontvangt een factuur d.d. 3/12/2009 van een aannemer (herstellingswerken voltooid op 15/11/2009) voor € 3 000,00. Het gaat om werken aan een gebouw dat voor 50 % voor beroepsdoeleinden dient. In rooster 56 van de aangifte van november 2009 neemt de heer Bert € 405,00 op (€ 1 500,00 aan 6 % en € 1 500,00 aan 21 %). In deze aangifte trekt hij € 405,00 af. Bepaal met korte motivering of herziening moet gebeuren, en zo ja wanneer.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Mevrouw Bauwens, btw-belastingplichtige met volledig recht op aftrek, heeft een factuur ontvangen van € 100 000,00 + € 6 000,00 btw met betrekking op een levering op: 15/4/2009, 18/8/2007 of 03/3/2005. Op 6/3/2010 stelt zij vast dat zij maar € 600,00 btw heeft afgetrokken. Bepaal met korte motivering of herziening moet gebeuren, en zo ja wanneer (voor elk van de drie leveringsdata).",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina toont 'Vraag 2 ... / 4 punten' met overkoepelende instructie 'Bepaal met korte motivering of voor volgende gevallen herziening moet gebeuren, en zo ja wanneer.' Twee subvragen a) en b). De tekst-extract toonde de casus eerst zonder belastingplichtige-naam en daarna opnieuw met naam (Bert, Bauwens) — typische pdfplumber dubbele rendering; de PNG-versie met namen is gebruikt. De drie leveringsdata in subvraag b) (15/4/2009, 18/8/2007, 03/3/2005) zijn drie sub-cases waarop per case beoordeeld moet worden — geboeid samengehouden onder één vraagstelling omdat de overkoepelende instructie identiek is.",
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
+}

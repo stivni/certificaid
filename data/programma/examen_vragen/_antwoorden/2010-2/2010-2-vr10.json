@@ -1,0 +1,164 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr10",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — een nieuwe fysieke voorraadopname op de aanstellingsdatum is geen verplichting; ISA 501 laat een opname op een **andere datum** dan de balansdatum (hier 30/09/2010) uitdrukkelijk toe op voorwaarde dat aanvullende werkzaamheden de afgrenzing afdekken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ISA-501.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De staat van activa en passiva is opgesteld per 30/09/2010; de cliënt heeft een permanent voorraadsysteem met geschreven instructies en halfjaarlijkse tellingen mét verschillenanalyse — precies de omstandigheden waarin ISA 501 par. 5 en A1 herftellen op een andere datum dan de balansdatum aanvaarden, mits de tussenliggende mutaties controleerbaar zijn. 🔗 Een vol-bedrijfs-hertelling forceren zou disproportioneel zijn t.o.v. het risico.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ISA-501.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 501 par. 4-5 (fysieke voorraadopname; opname op andere datum dan de balansdatum is toegelaten mits aanvullende werkzaamheden de mutaties tussen telling en balansdatum afdekken). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/normen/ISA-501.md"]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — dat is precies de voorgeschreven aanpak: eerst de **interne controle-omgeving** rond de permanente inventaris evalueren en, gegeven voldoende betrouwbaarheid, de bestaans- en juistheidsassertie afdekken via **steekproef-tellingen**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ISA-501.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "ISA 501 par. A1-A2 stelt dat een **permanent voorraadbeheersysteem** in combinatie met periodieke tellingen + verschillenverklaring als basis kan dienen, op voorwaarde dat de instructies, procedures en uitvoering door het management eerst geëvalueerd worden. 📖 Pas na die test of opzet en werking voldoen, schaalt de beroepsbeoefenaar zijn eigen detail-werkzaamheden in (steekproeven, tellingen ter toetsing — ISA 501 par. A7). 🔗 Bij de groothandel zijn de signalen positief (geschreven instructie, barcode-systeem, halfjaarlijkse tellingen met nazicht), wat een steekproefbenadering rechtvaardigt.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ISA-501.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "*Vermeldenswaard* — onder de ITAA-omzettingsnorm (par. 26-27) moet de beoordelaar specifiek nagaan of het bestuursorgaan beschikt over de nodige **procedures inzake het financieel rapporteringsproces** voor een getrouwe afsluiting van de tussentijdse staat; de test op opzet en werking van het permanent voorraadsysteem maakt daar integraal deel van uit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 501 par. 4(a), par. 5 en par. A1-A7 (bestaan en conditie voorraad — permanent voorraadbeheersysteem + tellingen ter toetsing). 📖 ITAA-norm omzetting vennootschap §III.1 par. 26-27 (uit te voeren werkzaamheden betreffende de staat van activa en passiva). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — een **afkeurende verklaring** is enkel aan de orde wanneer de afwijkingen of beperkingen zowel **materieel als diepgaand** zijn; dat is hier niet het geval. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ISA-705.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vier oordeelsvormen (zonder voorbehoud, met voorbehoud, afkeurend, onthouding) zijn een gradueel signaalsysteem (ISA 700/705). 🔗 Bij voldoende geschikte controle-informatie via permanente inventaris + steekproeven kan een **oordeel zonder voorbehoud** worden afgegeven; een afkeurend oordeel veronderstelt een materiële én diepgaande afwijking in de staat van activa en passiva, niet louter het feit dat de beroepsbeoefenaar niet op de aanstellingsdatum zelf heeft geteld.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-700.md",
+            "resources/bronnen/normen/ISA-705.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "*Valkuil* — verwar **beperking van de controle** (kan leiden tot voorbehoud of onthouding) niet met een **afwijking van het referentiestelsel** (kan leiden tot voorbehoud of afkeurend oordeel). Een afkeurend oordeel mag pas wanneer de jaarrekening of staat als geheel misleidend is — voor een betrouwbare permanente inventaris is dat niet aan de orde. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 705 (herzien) — afkeurend oordeel is gereserveerd voor materiële én diepgaande afwijkingen. 📖 ITAA-norm omzetting vennootschap Bijlage 3 (modelverslagen) gaat uit van een standaard **beoordelingsverklaring**; afwijkingen zijn de uitzondering, niet de regel. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-705.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — wanneer de beroepsbeoefenaar zich op de **interne organisatie en administratie** (permanente inventaris + halfjaarlijkse tellingen met verschillenanalyse) baseert in plaats van op een eigen fysieke telling op de aanstellingsdatum, is het correct dit transparant in het verslag te vermelden zonder dat dit een voorbehoud impliceert. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De beroepsbeoefenaar moet in zijn verslag de **uitgevoerde werkzaamheden** beschrijven (ISA 501; ITAA-norm omzetting Bijlage 3). 📖 Het is gangbare praktijk en transparant om aan te geven dat geen eigen fysieke telling op datum is uitgevoerd, maar dat de evaluatie van de interne controle (geschreven instructies, barcode-systeem, halfjaarlijkse tellingen met verschillenverklaring) plus eigen steekproef-toetsing voldoende geschikte controle-informatie heeft opgeleverd over het bestaan en de waardering van de voorraad. 🔗 Deze formulering blijft binnen een **oordeel zonder voorbehoud**: ze beschrijft de methode, niet een beperking.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap Bijlage 3 (modelverslag — sectie verantwoordelijkheden en uitgevoerde werkzaamheden). 📖 ISA 501 par. 4-5 + A1-A2 (steunen op een betrouwbaar permanent voorraadbeheersysteem). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — er is geen enkele reden om de opdracht te weigeren: er is geen onafhankelijkheidsprobleem, geen bekwaamheidsbeletsel en geen onoverkomelijke controlebeperking. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Opdracht-weigering of -teruggave is voorbehouden aan situaties waarin de beroepsbeoefenaar niet onafhankelijk is, onvoldoende deskundigheid heeft, of waarin het management hem belet voldoende geschikte controle-informatie te verkrijgen. 🤖 Geen van die voorwaarden is hier vervuld: de interne organisatie is sterk, de permanente inventaris is auditeerbaar, en de aanstellingsdatum (10/10/2010) ligt slechts 10 dagen na de staat-datum (30/09/2010) — ruim binnen wat met steekproeven afdekbaar is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting vennootschap §III.1 (de norm gaat uit van uitvoering, niet weigering, mits het bestuursorgaan de staat van activa en passiva opstelt en de procedures voor de tussentijdse afsluiting beschikbaar zijn). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"]
+        }
+      ]
+    }
+  ]
+}

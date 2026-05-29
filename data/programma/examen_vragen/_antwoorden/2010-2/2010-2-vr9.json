@@ -1,0 +1,132 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr9",
+  "antwoord_datum": "2026-05-29T19:30:06Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Goederenfacturen moeten niet rechtstreeks naar de leveranciersadministratie, maar eerst naar de aankoop- en/of ontvangstafdeling om matching mogelijk te maken met de bestelbon en de ontvangstbon (three-way matching). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De sleutelcontrole in de aankoopcyclus (procure-to-pay) is de **three-way match**: inkooporder + ontvangstbon + factuur moeten kwantitatief en kwalitatief overeenstemmen vooraleer tot boeking en betaling wordt overgegaan. 📖 De factuur moet dus eerst langs de afdelingen die de bestelling én de fysieke ontvangst gedaan hebben (om kwantiteit, kwaliteit en prijs te bevestigen) en pas daarna naar de leveranciersadministratie voor inboeking en betalingsvoorbereiding. Rechtstreekse routering naar de leveranciersadministratie ontneemt de mogelijkheid tot operationele verificatie en creëert het risico dat niet-bestelde of niet-geleverde goederen worden betaald (fictieve leveranciers, niet-conforme leveringen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Ook dienstenfacturen moeten eerst naar de afdeling die de dienst heeft besteld (of waaraan de dienst is geleverd) voor inhoudelijke goedkeuring — niet rechtstreeks naar de leveranciersadministratie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor diensten ontbreekt er typisch een fysieke ontvangstbon, waardoor de verifieerbaarheid lager is dan bij goederen — net daarom is goedkeuring door de aanvragende afdeling kritiek. De afdeling die de dienst genoot moet bevestigen dat: (1) de dienst effectief geleverd werd, (2) de hoeveelheid (uren, prestaties) klopt, (3) de prijs overeenstemt met het contract of de offerte. Pas na die inhoudelijke validatie kan de leveranciersadministratie de factuur boeken en in betaling voorbereiden. Het risico op fictieve dienstenfacturen (vooral bij intercompany of bevriende leveranciers) is precies waarom deze tussenstap niet mag overgeslagen worden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De factuur wordt vergeleken met de bestelbon **én** met de ontvangstbon (three-way matching), niet enkel met de bestelbon. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De **three-way match** vergelijkt drie documenten: (1) **inkooporder/bestelbon** (bevestigt dat de aankoop geautoriseerd was), (2) **ontvangstbon** (bevestigt dat de goederen effectief en in welke hoeveelheid ontvangen zijn), (3) **factuur** (bevat de prijs en het te betalen bedrag). 📖 Zonder de ontvangstbon-component bestaat het risico dat er betaald wordt voor bestelde maar nooit geleverde goederen — een klassieke fraudegevoeligheid in de aankoopcyclus. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. **Alle** facturen moeten rekenkundig worden gecontroleerd, niet enkel de handgeschreven exemplaren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Rekenkundige controle (totaal = som van de lijnen + correcte BTW-berekening + juiste prijs × hoeveelheid) is een standaard onderdeel van factuurverificatie ongeacht het medium. Ook gedrukte of geautomatiseerd gegenereerde facturen kunnen fouten bevatten (foute prijslijst, verkeerd BTW-tarief, programmeerfout bij de leverancier). 🤖 De redenering achter de stelling — \"computers maken geen rekenfouten\" — is in interne-controle-leer geen vrijgeleide: de controle blijft nodig om consistent te zijn en om fouten in de invoer bij de leverancier op te vangen.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Gecontroleerde facturen worden bij het inboeken voorzien van een (chronologisch) volgnummer door de boekhoudafdeling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het toekennen van een intern volgnummer bij inboeking is een **standaard detectieve controle** die twee doelen dient: (1) **volledigheid** — opeenvolgende nummers tonen dat geen enkele factuur \"verdwenen\" is tussen ontvangst en boeking, en (2) **referentie** — het volgnummer dient als interne audit-trail om elke boeking te herleiden tot het fysieke document. 🤖 Dit is een klassiek voorbeeld van een sleutelcontrole tegen het risico van niet-geboekte schulden (cut-off + volledigheid van de leveranciersrekening).",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Het toegepaste BTW-tarief moet worden nagezien als onderdeel van de factuurcontrole. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "BTW-controle is een verplichte component van de factuurverificatie omwille van twee redenen: (1) **fiscale correctheid** — een verkeerd BTW-tarief leidt tot foutieve BTW-aangifte met risico op naheffing en boetes; (2) **aftrekbaarheid** — alleen een geldige factuur met correcte BTW-vermeldingen geeft recht op BTW-aftrek (art. 3 KB nr. 1 W.BTW: verplichte vermeldingen op de factuur). 🤖 In de praktijk verifieert de boekhoudafdeling of het tarief (6%, 12%, 21%) past bij de aard van de geleverde goederen of diensten, en of een eventueel verlegd BTW-stelsel (medecontractant, intracommunautair) correct is toegepast.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Gedeelde grondslag voor alle stellingen** — De interne-controle-principes voor de aankoopcyclus (procure-to-pay) zijn gestandaardiseerd in ISA 315 Bijlage 3 (interne-beheersingsactiviteiten en functiescheiding) en de cyclus-aanpak van de audit-praktijk. Sleutelcontroles: (1) **three-way matching** (inkooporder + ontvangstbon + factuur), (2) functiescheiding aankoop/ontvangst/boekhouding/betaling, (3) rekenkundige en BTW-controle bij inboeking, (4) chronologische volgnummering bij boeking voor volledigheidscontrole, (5) autorisatie betaling door bevoegd persoon. 📖 Specifiek voor BTW-vermeldingen op facturen: art. 5 KB nr. 1 W.BTW (verplichte vermeldingen).",
+          "wetsref": "ISA 315 (herzien-2019) Bijlage 3 + KB nr. 1 W.BTW art. 5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

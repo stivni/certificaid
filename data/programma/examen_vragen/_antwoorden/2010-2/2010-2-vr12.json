@@ -1,0 +1,169 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr12",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "_poc_notitie": "Vraag betreft S-BVBA (Starter-BVBA) onder W.Venn. (art. 211bis e.v.) — regime ingevoerd in 2010 en afgeschaft door WVV (1 mei 2019). Antwoord blijft historisch-correct op basis van toenmalig W.Venn.; verwijzingen naar W.Venn.-artikelen i.p.v. WVV.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR.** De S-BVBA kon weliswaar met een geplaatst kapitaal van slechts 1 EUR worden opgericht, maar de oprichting vereiste — net als bij elke BVBA — een **authentieke (notariële) akte**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee bestanddelen van de stelling moeten apart worden beoordeeld:\n\n- **\"Met 1 EUR oprichten\"** → juist. Art. 214 § 2 W.Venn. liet voor de S-BVBA een geplaatst kapitaal toe tussen 1 EUR en (minder dan) 18 550 EUR (= het minimumkapitaal van een gewone BVBA). 🔗\n- **\"Zonder notaris\"** → fout. De S-BVBA was een vorm van BVBA en viel onder art. 66 W.Venn.: vennootschappen met rechtspersoonlijkheid worden opgericht bij **authentieke akte**. De notariële tussenkomst was bijgevolg verplicht, ongeacht het bedrag van de inbreng. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 66 W.Venn. (oprichting BVBA bij authentieke akte) juncto art. 211bis en art. 214 § 2 W.Venn. (S-BVBA, kapitaal vanaf 1 EUR). 🔗",
+          "wetsref": "art. 66 + art. 211bis + art. 214 § 2 W.Venn.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR.** Bij elke inbreng in natura in een BVBA — ook in een S-BVBA — moet een **bedrijfsrevisor** een verslag opmaken over de waardering en de waarderingsmethoden van de ingebrachte goederen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 219 W.Venn. legde voor de BVBA bij inbreng in natura twee verslagen op:\n\n- een **bijzonder verslag van de oprichters** met beschrijving van elk ingebracht goed en een gemotiveerde waardering; en\n- een **verslag van een bedrijfsrevisor** (door de oprichters aangewezen) die de gehanteerde waardering en waarderingsmethoden onderzoekt en verklaart of de waardering minstens overeenstemt met de vergoeding (aandelen) die als tegenprestatie wordt verstrekt. 🔗\n\nDe S-BVBA genoot **geen vrijstelling** van deze controle. Pierre moet voor zijn auto, gereedschap en gsm dus wel degelijk een bedrijfsrevisor inschakelen. Voor de zichtrekening en de spaarrekening (inbreng in geld) is dat verslag niet vereist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 219 W.Venn. — inbreng in natura in een BVBA vereist een verslag van de oprichters én een verslag van een bedrijfsrevisor over de waardering. 🔗",
+          "wetsref": "art. 219 W.Venn.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR.** Voor de S-BVBA was **wettelijk bijstand vereist bij de opstelling** van het financieel plan door een erkend boekhouder, externe accountant, bedrijfsrevisor of door de Koning erkende beroepsorganisatie — maar van een afzonderlijke \"geldigverklaring\" van het plan is in de wet geen sprake. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 215 W.Venn. (zoals ingevoegd voor de S-BVBA) bepaalde dat bij elke S-BVBA-oprichting het financieel plan moest worden **opgesteld met bijstand van** een erkend boekhouder, een externe accountant, een bedrijfsrevisor of een door de Koning erkende beroepsorganisatie. Pierre heeft dus inderdaad een professional nodig voor de **opstelling**. 🔗\n\nDe stelling overdrijft echter: de wet kent geen tweede stap waarbij die beroepsbeoefenaar het plan nog formeel zou \"geldig verklaren\". De bijstand bij opstelling is de enige wettelijke tussenkomst; daarna wordt het plan door de oprichters aan de notaris overhandigd, die het bewaart (cf. financieel plan-regime art. 215 W.Venn.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Voor een **gewone BVBA** of NV was bijstand bij het financieel plan niet wettelijk verplicht (wel sterk aanbevolen). De verplichte bijstand was een **specifieke S-BVBA-regel** — bedoeld om de lage kapitaaldrempel te compenseren met een professionele kwaliteitscontrole vooraf. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 215 W.Venn. — voor de S-BVBA wordt het financieel plan opgesteld met bijstand van een erkend boekhouder, externe accountant, bedrijfsrevisor of door de Koning erkende beroepsorganisatie. 🔗",
+          "wetsref": "art. 215 W.Venn.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR.** Net als elke BVBA-vennoot is Pierre in beginsel beperkt aansprakelijk tot zijn inbreng, **maar** bij faillissement binnen drie jaar na oprichting riskeert hij — wegens **kennelijk ontoereikend aanvangsvermogen** — door de rechter persoonlijk en onbeperkt aansprakelijk te worden gesteld voor (een deel van) het passief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 229, 5° W.Venn. voorzag de **oprichtersaansprakelijkheid**: als de vennootschap binnen drie jaar na oprichting failliet wordt verklaard en het bij oprichting maatschappelijk kapitaal bij oprichting **kennelijk ontoereikend** was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste twee jaar, kan de rechter de oprichters hoofdelijk verbinden voor de verbintenissen van de vennootschap, geheel of voor een door hem bepaald deel. 🔗\n\nHet financieel plan (art. 215 W.Venn., door de notaris bewaard) is precies het instrument waarmee de rechter beoordeelt of de oprichting al dan niet roekeloos ondergekapitaliseerd gebeurde. Een S-BVBA opgericht met **slechts 1 EUR** voor een timmermansactiviteit met aanzienlijke investeringsbehoeften draagt een verhoogd risico op zo'n aansprakelijkheidsvordering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De aantrekkelijke \"1 EUR-formule\" mag niet doen vergeten dat de **persoonlijke borgstelling** van Pierres ouders voor het krediet van 30 000 EUR sowieso buiten de vennootschapsaansprakelijkheid valt: bij faillissement van de S-BVBA blijven de ouders als borg gehouden tegenover de bank — onafhankelijk van de oprichtersaansprakelijkheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 229, 5° W.Venn. juncto art. 215 W.Venn. — oprichtersaansprakelijkheid bij faillissement binnen drie jaar wegens kennelijk ontoereikend aanvangsvermogen, beoordeeld aan de hand van het financieel plan. 🔗",
+          "wetsref": "art. 229, 5° + art. 215 W.Venn.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR.** Voor de S-BVBA bedroeg de jaarlijkse voorafname op de nettowinst voor de wettelijke reserve **één vierde (1/4)** — niet één tiende (1/10) — en de reserve wordt aangelegd tot ze het verschil dekt met het minimumkapitaal van een gewone BVBA (18 550 EUR), niet \"het geplaatst kapitaal\". 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee fouten in de stelling:\n\n- **Het breukgetal.** CBN-advies 2018/05 bevestigt: \"De algemene vergadering van een S-BVBA houdt jaarlijks een bedrag in van ten minste **een vierde** van de nettowinst voor de vorming van een reservefonds.\" Voor een gewone bvba, CVBA en NV is dat slechts één **twintigste** (1/20). Eén tiende (1/10) komt in geen van beide regimes voor. 📖\n- **Het doel.** Het reservefonds is geen vorming \"van het geplaatst kapitaal\" maar wel van de **wettelijke reserve** (rekening 130) — bij de S-BVBA verzwaard om het tekort tegenover het minimumkapitaal van een gewone BVBA (18 550 EUR) geleidelijk aan te vullen, zodat omvorming op termijn mogelijk wordt. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De verplichte voorafname van 1/4 was bij de S-BVBA expliciet bedoeld als **kapitaalopbouwmechanisme**: zodra de wettelijke reserve, samen met het geplaatst kapitaal, het bedrag van 18 550 EUR bereikte, kon de S-BVBA verder als gewone BVBA worden voortgezet (via incorporatie van de wettelijke reserve in het kapitaal — uitdrukkelijk toegelaten voor de S-BVBA, art. 319bis W.Venn.). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 319bis W.Venn. — voor de S-BVBA jaarlijkse voorafname van **één vierde** van de nettowinst voor de wettelijke reserve (vgl. art. 319 W.Venn. — één twintigste voor gewone bvba). Bevestigd in CBN-advies 2018/05, *Rekening 130 Wettelijke reserve*. 📖",
+          "wetsref": "art. 319bis W.Venn. (S-BVBA) + art. 319 W.Venn. (gewone bvba)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-05-rekening-130-wettelijke-reserve.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

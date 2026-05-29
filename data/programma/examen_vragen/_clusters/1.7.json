@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.7",
-  "gegenereerd_op": "2026-05-26T10:20:50+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:09+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 14,
+  "threshold_cosine": 0.85,
+  "n_vragen": 21,
   "n_clusters": 1,
-  "n_singletons": 12,
+  "n_singletons": 19,
   "clusters": [
     {
       "cluster_id": "1.7-c1",
@@ -32,14 +32,35 @@
           "naar": "2014-1-vr11",
           "cosine": 0.8804
         }
-      ],
-      "verdict": "echt_duplicaat",
-      "actie": "merge_one_antwoord",
-      "motivering": "Identieke vraag: 'Stel een procedure op voor kasbetalingen/terugbetaling kleine kosten met minimaal twee controletechnische functiescheidingen.' Casus verschilt cosmetisch (BVBA vs onkostennota's), procedure-antwoord is identiek."
+      ]
     }
   ],
-  "borderline_paren": [],
+  "borderline_paren": [
+    {
+      "van": "2010-2-vr7",
+      "naar": "2013-2-vr10",
+      "cosine": 0.7536
+    }
+  ],
   "singletons": [
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr7",
+      "vraag_onderwerp": "Functiescheiding in interne controle — classificatie van taken naar beherende, bewarende, registrerende of controlerende functie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr7.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr8",
+      "vraag_onderwerp": "Interne controlemaatregelen in de verkoopcyclus",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr8.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr9",
+      "vraag_onderwerp": "Interne controle leveranciersadministratie — juist/fout stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr9.json"
+    },
     {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr10",
@@ -111,7 +132,30 @@
       "vraag_id": "2015-1-vr14",
       "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr14.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr3A",
+      "vraag_onderwerp": "Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr3B",
+      "vraag_onderwerp": "Hoofddoelstelling van interne controle in een KMO",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr3C",
+      "vraag_onderwerp": "Risicoclassificatie volgens het COSO-model",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr3D",
+      "vraag_onderwerp": "Doelstellingen van interne controle in de verkoopcyclus",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3D.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

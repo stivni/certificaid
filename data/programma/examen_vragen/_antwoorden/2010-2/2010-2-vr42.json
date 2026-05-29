@@ -1,0 +1,140 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr42",
+  "antwoord_datum": "2026-05-29T19:50:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — de staat van activa en passiva per 30/09/2010 is op 29/12/2010 nagenoeg drie maanden oud, zodat hij niet meer kan dienen als basis voor het accountantsverslag bij omzetting: de algemene vergadering tot omzetting moet plaatsvinden **binnen drie maanden** na de afsluitdatum van de staat (W.Venn. art. 776, ten tijde van het examen; vandaag art. 14:3 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De staat van activa en passiva die ten grondslag ligt aan het verslag van de beroepsbeoefenaar bij een (binnenlandse) omzetting mag op de dag van de buitengewone algemene vergadering die over de omzetting beslist **niet meer dan drie maanden oud** zijn. 📖 Op 29/12/2010 schiet de termijn quasi tekort: zelfs als de notariële akte de dag zelf zou kunnen verleden worden, moet er nog een verslag worden opgemaakt en moet de AV worden bijeengeroepen (oproepingstermijnen). De facto is het tijdsbestek niet meer haalbaar — een nieuwe staat (bv. per 31/10 of 30/11) is nodig vooraleer de opdracht zinvol kan worden aanvaard. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Onder het huidige WVV is de driemaandentermijn behouden voor de **binnenlandse** omzetting (art. 14:3 WVV); voor **grensoverschrijdende** omzetting geldt een ruimere termijn van vier maanden (art. 14:21 / 14:74 WVV). 📖 Voor een gewone bvba→nv-omzetting blijft drie maanden dus het maatstaf. De accountant moet bovendien de aansprakelijkheidsregeling in het oog houden: een overwaardering van het netto-actief leidt tot persoonlijke en hoofdelijke aansprakelijkheid van de beroepsbeoefenaar voor het tekort. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van een vennootschap (par. III.1 + Bijlage 3): de staat van activa en passiva mag niet meer dan drie maanden vóór de algemene vergadering zijn afgesloten. Wettelijke basis ten tijde van het examen: art. 776 W.Venn.; thans art. 14:3 WVV (binnenlandse omzetting) / art. 14:21 (vier maanden voor grensoverschrijdende omzetting). 📖",
+          "wetsref": "Art. 14:3 WVV (vroeger art. 776 W.Venn.); ITAA-norm omzetting van een vennootschap",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — als interne accountant (ingeschreven op de deellijst van interne accountants) is het uitoefenen van een externe opdracht voor derden onverenigbaar met het statuut: de hoedanigheid van intern accountant veronderstelt dat de werkzaamheden **uitsluitend** binnen de arbeidsovereenkomst met de werkgever worden verricht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wettelijke ratio is dubbel:\n\n- **Statuut-onverenigbaarheid**: een intern accountant oefent zijn beroep uit in het kader van een arbeidsovereenkomst (of een door de overheid bezoldigde betrekking) en mag enkel werken voor de werkgever waarmee dat dienstverband bestaat. Voor derden optreden is voorbehouden aan **externe** accountants/belastingconsulenten. 🤖\n- **Onafhankelijkheid**: de individuele onderzoeks- en controlebevoegdheid van een vennoot (art. 3:45-3:47 WVV; in 2010 art. 165-167 W.Venn.) is een opdracht die juist een onafhankelijke positie veronderstelt — de loyaliteitsband met een eigen werkgever is daarmee onverenigbaar. 🔗\n\nWil de betrokkene de opdracht aanvaarden, dan moet hij eerst zijn inschrijving op de deellijst interne accountants laten omzetten naar de deellijst van externe accountants (en aan de daaraan verbonden voorwaarden voldoen). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De individuele onderzoeks- en controlebevoegdheid van een vennoot (art. 3:45-3:47 WVV) is **geen monopolieopdracht** in de strikte zin: de vennoot mag zich laten bijstaan door een accountant of bedrijfsrevisor, maar de wet vereist dat die beroepsbeoefenaar **extern** en onafhankelijk is. De kernfout is denken dat \"interne accountant\" een synoniem zou zijn van \"gewoon accountant\" — de twee deellijsten geven verschillende rechten en plichten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur (Wet-ITAA): onderscheid tussen externe en interne (deel)lijst. KB van 1 maart 1998 plichtenleer accountants, art. 9, derde lid: bij onverenigbaarheid tussen instructies van de werkgever en de deontologische regels moet de intern werkzame accountant de deontologie laten primeren. Voor de bevoegdheid waarop de vraag slaat: art. 3:45-3:47 WVV (individuele onderzoeks- en controlebevoegdheid van vennoten; in 2010: art. 165-167 W.Venn.). 📖",
+          "wetsref": "Wet-ITAA 2019 (in 2010: Wet 22 april 1999); KB 1 maart 1998 art. 9; art. 3:45-3:47 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — een opdracht aanvaarden in de vennootschap van de eigen echtgenote is deontologisch verboden: de echtgenote-relatie tast de onafhankelijkheid en onpartijdigheid van de externe accountant uitdrukkelijk aan. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee regels samen leveren een glashelder verbod op:\n\n- **Art. 10 KB plichtenleer** (1998): de externe accountant mag geen monopolieopdracht aanvaarden in een onderneming waarin **zijn echtgenoot** of een bloed- of aanverwant tot in de tweede graad voornaamste aandeelhouder, bestuurder, zaakvoerder of leidinggevende is. 📖\n- **Art. 9 KB plichtenleer**: de externe accountant moet **elke** opdracht weigeren zodra er feiten of banden zijn die zijn onafhankelijkheid of onpartijdigheid kunnen aantasten — de huwelijksband valt daar zonder discussie onder. 📖\n\nHet accountantsverslag bij vereffening (vroeger art. 181 W.Venn.; thans art. 2:71 / 2:81 WVV) is bovendien een **monopolieopdracht** van de externe accountant of de bedrijfsrevisor — net het type opdracht dat art. 10 expliciet uitsluit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het maakt niet uit dat de echtgenote *zelf* om de opdracht vraagt of dat de huwelijksvermogensituatie scheiding van goederen zou zijn: art. 10 is een **objectieve** onverenigbaarheid (relatie + functie volstaat), zonder belangenafweging in concreto. Doorverwijzen naar een confrater (een externe accountant of bedrijfsrevisor zonder familieband) is de juiste reflex. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants: art. 9 (algemene weigeringsplicht bij aantasting onafhankelijkheid), art. 10 (specifiek verbod monopolieopdracht in onderneming waar echtgenoot of bloed-/aanverwant tot in de tweede graad sleutelpositie bekleedt), art. 11 (belangenconflict). Voor de vereffeningsopdracht zelf: art. 2:71 / 2:81 WVV (vroeger art. 181 W.Venn.) + ITAA-norm ontbinding en vereffening. 📖",
+          "wetsref": "Art. 9-10-11 KB 1 maart 1998 plichtenleer accountants; art. 2:71 en 2:81 WVV (vroeger art. 181 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

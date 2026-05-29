@@ -1,0 +1,212 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr29",
+  "antwoord_datum": "2026-05-29T19:45:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA, aftrek = 10,50 EUR** (50 % van 21 EUR). De aftrek voor brandstof van een personenwagen wordt door art. 45 §2 WBTW altijd geplafonneerd op 50 %, ook al wordt de wagen voor 80 % beroepsmatig gebruikt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- BTW op factuur: 100 EUR × 21 % = **21,00 EUR**\n- Beroepsgebruik: 80 % → potentieel aftrekbaar deel = 21 × 80 % = 16,80 EUR. 🔗\n- Plafond art. 45 §2 WBTW: maximaal **50 %** → 21 × 50 % = **10,50 EUR**. 📖\n- Aangezien het beroepsgebruik (80 %) hoger ligt dan het wettelijk plafond (50 %), wordt de aftrek beperkt tot 10,50 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het 50 %-plafond geldt voor **alle** kosten verbonden aan de personenwagen — aankoop, leasing, brandstof, onderhoud en herstellingen. Het is een bovengrens: bij beroepsgebruik onder 50 % daalt de aftrek mee (bv. 30 % gebruik → 30 % aftrek), bij gebruik boven 50 % blijft de aftrek vast op 50 %. Niet verwarren met de inkomstenbelasting-aftrek (CO2-cascade art. 66 + 198bis WIB 92), die volledig los staat van de BTW-regel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 §2 WBTW — voor de belasting geheven van de levering, invoer en intracommunautaire verwerving van autovoertuigen bestemd voor het vervoer van personen en/of goederen over de weg, en voor de belasting geheven van de goederen en diensten met betrekking tot die voertuigen (waaronder brandstof), mag de aftrek in geen geval hoger zijn dan 50 % van de betaalde belasting. 📖",
+          "wetsref": "art. 45 §2 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN, geen recht op aftrek** van de 25,20 EUR BTW. Een huwelijksgeschenk aan een personeelslid is een **sociaal voordeel** (privé-doel — viering buiten de beroepssfeer) en valt buiten het bestemmingscriterium van art. 45 §1 WBTW: het goed wordt niet gebruikt voor belaste uitgaande handelingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een geschenk dat wordt gegeven naar aanleiding van een **persoonlijke gebeurtenis** in het privéleven van het personeelslid (huwelijk, geboorte, pensionering, ...) wordt door de fiscus aangemerkt als een sociaal voordeel of geschenk om persoonlijke redenen. De link met de economische activiteit ontbreekt — het goed dient om de werknemer privé te begunstigen, niet om belaste uitgaande handelingen te realiseren. Het BTW-aftrekrecht uit art. 45 §1 WBTW veronderstelt nu net dat finaliteitsverband. 🔗\n\nGevolg: de volledige 25,20 EUR BTW is **niet aftrekbaar** en blijft als kost ten laste van de onderneming. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Voor klassieke **collectieve gelegenheidsgeschenken** aan personeel (bv. Sinterklaas-pakket voor de kinderen van álle werknemers, een geschenk ter waarde van max. 35 EUR bij een collectief evenement zoals Nieuwjaar of een jubileum) heeft de administratie historisch tolerantie verleend met behoud van aftrek — zie BTW-Commentaar nr. 369. Een individueel huwelijkscadeau valt daar **niet** onder, want de aanleiding is persoonlijk en niet collectief. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 §1 WBTW — aftrek is enkel toegelaten in de mate dat de goederen worden gebruikt voor belaste uitgaande handelingen. Bevestigd door de administratieve doctrine over sociale voordelen en geschenken naar aanleiding van privé-gebeurtenissen: geen finaliteitsverband met de economische activiteit → geen aftrek. 🔗",
+          "wetsref": "art. 45 §1 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA, volledige aftrek = 15,00 EUR** (250 EUR × 6 %). De algemene uitsluiting van logies-, spijzen- en drankenkosten (art. 45 §3, 3° WBTW) is hier **niet** van toepassing omdat de uitzondering van punt a) speelt: de overnachting betreft personeelsleden die **buiten de onderneming** belast zijn met een dienstverrichting (montage van een machine bij een klant). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- BTW op factuur: 250 EUR × 6 % = **15,00 EUR**. 🔗\n- Algemene regel art. 45 §3, 3° WBTW: BTW op logies / spijzen / dranken **niet** aftrekbaar.\n- Uitzondering art. 45 §3, 3°, a) WBTW: kosten gedaan voor **personeel dat buiten de onderneming belast is met een levering van goederen of een dienstverrichting** → **wél** aftrekbaar. 📖\n- Toepassing: de 4 personeelsleden zijn buiten de zetel ingezet voor montage bij een klant → uitzondering speelt → 100 % aftrek = **15,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De uitzondering vereist dat het personeel **actief een prestatie verricht** buiten de onderneming. Een hotelovernachting voor een seminarie, opleiding of personeelsuitje valt **niet** onder a) en blijft uitgesloten van aftrek. Hier is de montage bij de klant de bepalende factor — zou het om een teambuilding-weekend in Aarlen gaan, dan was de BTW niet aftrekbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 §3, 3°, a) WBTW — uitgesloten van aftrek zijn de kosten van logies, spijzen en dranken in de zin van art. 18 §1, 2e lid, 10° en 11°, **daaronder niet begrepen de kosten die worden gedaan voor het personeel dat buiten de onderneming belast is met een levering van goederen of een dienstverrichting**. 📖",
+          "wetsref": "art. 45 §3, 3°, a) WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA, volledige aftrek = 16,80 EUR** (80 EUR × 21 %). De uitsluiting voor geestrijke dranken (art. 45 §3, 2° WBTW) geldt enkel voor kosten **niet bestemd voor wederverkoop of voor het verrichten van een dienst**. Een restauranthouder verkoopt de dranken aan klanten of verwerkt ze in spijzen — dus wederverkoop in de bedrijfsuitoefening → uitzondering van toepassing → volledige aftrek. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- BTW op factuur: 80 EUR × 21 % = **16,80 EUR**. 🔗\n- Algemene regel art. 45 §3, 2° WBTW: BTW op geestrijke dranken **niet** aftrekbaar.\n- Uitzondering: kosten **wel** aftrekbaar wanneer de dranken bestemd zijn om te worden **wederverkocht of geleverd in het kader van een dienstverrichting**. 📖\n- Toepassing: een restauranthouder dient de dranken op aan klanten of verwerkt ze in gerechten → beide vallen binnen de uitzondering → 100 % aftrek = **16,80 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De uitsluiting van geestrijke dranken treft typisch **representatie- en onthaalsituaties** (whisky-fles als geschenk, sterke drank op een receptie). Zodra de drank een **handelsvoorraad** is van een horeca-uitbater, slijterij of cateraar, wordt ze gewoon ingekocht met aftrek en doorbelast met BTW bij de uitgaande verkoop — net zoals elke andere voorraad. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 §3, 2° WBTW — uitgesloten van aftrek zijn de kosten van **geestrijke dranken**, met uitzondering van die welke bestemd zijn om te worden **wederverkocht of geleverd ter uitvoering van een dienst**. 📖",
+          "wetsref": "art. 45 §3, 2° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA, volledige aftrek = 52,50 EUR**. Eén kogelpen kost 2,50 EUR excl. BTW (250 / 100), ruim onder het plafond van 50 EUR excl. BTW per begunstigde — dus **handelsgeschenk van geringe waarde** (art. 1 KB nr. 59 van 18 mei 2020). De BTW is volledig aftrekbaar en er moet geen onttrekking worden aangegeven bij het uitdelen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- BTW op factuur: 250 EUR × 21 % = **52,50 EUR**. 🔗\n- Eenheidsprijs excl. BTW: 250 / 100 = **2,50 EUR/pen** < 50 EUR. 🔗\n- Voorwaarden art. 1 KB nr. 59: (1) verstrekt in het kader van handelsrelaties ✓ (nieuwjaarsgeschenk aan klanten); (2) niet bestemd voor wederverkoop door de begunstigde ✓; (3) aankoopprijs excl. BTW < 50 EUR per stuk ✓. 📖\n- Gevolg: geen gelijkstelling met levering onder bezwarende titel (geen onttrekking-BTW art. 12 §1, 5°) **én** behoud van het volledige aftrekrecht op de aankoop = **52,50 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drempel van 50 EUR is **excl. BTW per stuk en per begunstigde per jaar** — niet op factuurniveau. Een aankoop van 100 dure pennen aan 60 EUR/stuk zou de BTW niet-aftrekbaar maken voor alle pennen (relatiegeschenk-uitsluiting, art. 45 §3 WBTW + administratieve doctrine), ook al ligt de totale BTW per begunstigde laag. Twee drempels niet verwarren: (a) BTW-aftrek-grens 50 EUR excl. BTW (KB 59); (b) inkomstenbelasting-grens relatiegeschenken 125 EUR voor de 50 %-aftrek-uitzondering en de vermelding op fiches. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1 KB nr. 59 van 18 mei 2020 — onttrekkingen van handelsgeschenken van geringe waarde worden niet gelijkgesteld met leveringen onder bezwarende titel wanneer (1) het goed in het kader van handelsrelaties wordt verstrekt, (2) de begunstigde het niet doorverkoopt in een economische activiteit, en (3) de aankoopprijs excl. BTW lager is dan **50 EUR**. Het aftrekrecht blijft volledig behouden. 📖",
+          "wetsref": "art. 1 KB nr. 59 van 18 mei 2020",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

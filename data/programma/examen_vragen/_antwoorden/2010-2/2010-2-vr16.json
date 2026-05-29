@@ -1,0 +1,129 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr16",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Fractiewaarde = 247,92 EUR per aandeel** (1.080.443,31 EUR / 4.358 aandelen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Fractiewaarde = geplaatst kapitaal / aantal aandelen = 1.080.443,31 / 4.358 = **247,9218 EUR**, afgerond **247,92 EUR**. 🔗\n\nDe fractiewaarde is een louter rekenkundig begrip: het deel van het geplaatste kapitaal dat boekhoudkundig door één aandeel wordt vertegenwoordigd. Het is **niet** de marktwaarde, **niet** de intrinsieke waarde en in WVV-NV's bestaat er geen nominale waarde meer — enkel een fractiewaarde. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Begrip 'fractiewaarde' vloeit voort uit art. 7:1 en 7:178 WVV (NV met kapitaal): de aandelen vertegenwoordigen elk een gelijk deel van het kapitaal. In een NV bestaat er sinds het W.Venn. en onder WVV géén verplicht nominale waarde meer; aandelen worden uitgedrukt als fractie. 📖",
+          "wetsref": "art. 7:1 WVV (NV met kapitaal) — fractiewaarde",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Intrinsieke waarde = 296,22 EUR per aandeel** (totaal eigen vermogen 1.290.909,05 EUR / 4.358 aandelen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Totaal eigen vermogen per 31/12/2009:\n\n| Rubriek | Bedrag (EUR) |\n|---|---:|\n| Geplaatst kapitaal | 1.080.443,31 |\n| Reserves | 169.782,24 |\n| Overgedragen winst | 40.683,50 |\n| **Totaal eigen vermogen** | **1.290.909,05** |\n\nIntrinsieke waarde = 1.290.909,05 / 4.358 = **296,2160 EUR**, afgerond **296,22 EUR**. 🔗\n\nDe intrinsieke (boekhoudkundige) waarde per aandeel = (eigen vermogen volgens balans) / (aantal aandelen). Het is de boekhoudkundige benadering van de werkelijke waarde — geen marktwaarde, geen rendementswaarde. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "In een echte waardering door de accountant (bv. bij bijzondere opdracht — inbreng in natura, geschillen tussen aandeelhouders, art. 5:154 / 7:215 WVV-context) wordt de zuivere balansgebaseerde intrinsieke waarde meestal gecorrigeerd voor latente belastingen op meerwaarden, herwaarderingen van vaste activa en uitkeerbaarheid van reserves. Deze examenvraag toetst echter de **boekhoudkundige** intrinsieke waarde — strikt EV / aantal aandelen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Normaal aantal uit te geven aandelen = 42** (12.500,00 / 296,22 = 42,198 → 42 aandelen, met afronding naar beneden om verwatering te vermijden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Het 'normale' aantal aandelen wordt berekend door uit te geven tegen de **intrinsieke waarde** (en niet tegen de fractiewaarde): elk nieuw aandeel moet dezelfde waarde inbrengen als de waarde die het zelf vertegenwoordigt in het eigen vermogen — anders ontstaat verwatering. 🔗\n\nAantal = bedrag kapitaalverhoging / intrinsieke waarde per aandeel = 12.500,00 / 296,22 = **42,198 aandelen** → afronding naar **42 aandelen** (je kan geen fracties van aandelen uitgeven, en 43 zou een uitgifte tegen iets minder dan de intrinsieke waarde betekenen). 🔗\n\nIn de praktijk vangt de **uitgiftepremie** dit op: men geeft een rond aantal aandelen uit (bv. 42) tegen een uitgifteprijs gelijk aan de intrinsieke waarde, waarbij het verschil tussen uitgifteprijs en fractiewaarde op rekening 11 'Uitgiftepremies' wordt geboekt. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De ratio van een 'normale' uitgifte tegen intrinsieke waarde steunt op het voorkeurrecht (art. 7:188 WVV) en op de bescherming tegen verwatering die het bestuursorgaan moet motiveren in zijn verslag bij beperking of opheffing van het voorkeurrecht (art. 7:179 en 7:191 WVV). Uitgifteprijs onder intrinsieke waarde = waarde-overdracht van oude naar nieuwe aandeelhouders (CBN-advies 2016/1). 📖",
+          "wetsref": "art. 7:188 + art. 7:179 + art. 7:191 WVV; CBN-advies 2016/1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2016-01-verrichtingen-met-betrekking-tot-inschrijvingsrechten.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij uitgifte van **50 aandelen tegen slechts 250 EUR** (onder de intrinsieke waarde van 296,22 EUR) lijden de oude aandeelhouders **verwatering**: hun aandeel daalt in waarde van 296,22 naar **295,69 EUR**, een verlies van **0,53 EUR per oud aandeel** (totaal ≈ 2.309,74 EUR), dat als waarde-overdracht naar de nieuwe aandeelhouders vloeit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Situatie na de kapitaalverhoging:\n\n| Rubriek | Bedrag (EUR) |\n|---|---:|\n| Eigen vermogen vóór | 1.290.909,05 |\n| Inbreng nieuwe aandeelhouders (50 × 250,00) | + 12.500,00 |\n| **Nieuw eigen vermogen** | **1.303.409,05** |\n| Aantal aandelen na (4.358 + 50) | 4.408 |\n| **Intrinsieke waarde per aandeel na** | **295,6917 ≈ 295,69** |\n\nVerwatering per aandeel = 296,22 − 295,69 = **0,53 EUR** per oud aandeel. 🔗\n\nTotale waarde-overdracht van oude naar nieuwe aandeelhouders ≈ 4.358 × 0,53 ≈ **2.309,74 EUR**. Spiegelbeeld: de 50 nieuwe aandeelhouders krijgen elk een aandeel met boekwaarde 295,69 EUR voor slechts 250,00 EUR — een onmiddellijke meerwaarde van 45,69 EUR per nieuw aandeel (totaal 50 × 45,69 = 2.284,55 EUR; restverschil door afronding). 🔗\n\n**Gevolgen voor de oude aandeelhouders**:\n\n1. **Vermogensverwatering**: hun intrinsieke waarde per aandeel zakt met 0,53 EUR. 🔗\n2. **Verwatering van stemrecht en dividendrecht**: hun participatie-percentage daalt van 100 % naar 4.358 / 4.408 = **98,87 %** — de nieuwe aandeelhouders nemen 1,13 % over. 🔗\n3. **Bescherming via voorkeurrecht** (art. 7:188 WVV): de oude aandeelhouders hebben in principe een wettelijk voorkeurrecht om zelf aan de kapitaalverhoging deel te nemen, naar evenredigheid van hun bestaand aandelenbezit. Als zij dat recht uitoefenen (of de verkoopopbrengst ervan ontvangen — CBN-advies 2016/1), wordt de verwatering economisch geneutraliseerd. 🔗\n4. Wordt het voorkeurrecht **beperkt of opgeheven** (zoals impliciet in deze casus, waar de heer X uitsluitend mag inschrijven), dan vereist art. 7:179 + art. 7:191 WVV een **bijzonder verslag van het bestuursorgaan** met motivering van de prijszetting + een **verslag van de commissaris of bedrijfsrevisor** dat de financiële gegevens van het bestuursverslag bevestigt en uitdrukkelijk uitspraak doet over de **billijkheid van de uitgifteprijs** voor de bestaande aandeelhouders. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2016-01-verrichtingen-met-betrekking-tot-inschrijvingsrechten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De verwatering bestaat **niet** uit een verlies op het geplaatst kapitaal (de fractiewaarde stijgt zelfs licht door de uitgiftepremie-loze inbreng boven fractiewaarde van 247,92 EUR), maar uit een verlies op de **niet-gekapitaliseerde reserves + overgedragen winst**: die worden door 50 extra aandelen mee gedeeld zonder dat er een evenredige reserve-inbreng tegenover staat. Een correcte uitgifteprijs zou 296,22 EUR per aandeel zijn, met boeking: 247,92 op rekening 100 'Geplaatst kapitaal' + 48,30 op rekening 11 'Uitgiftepremies' per aandeel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-01-verrichtingen-met-betrekking-tot-inschrijvingsrechten.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Voorkeurrecht oude aandeelhouders: **art. 7:188 WVV** (vroeger art. 592 W.Venn.). Beperking/opheffing met motiveringsplicht over de gevolgen voor vermogens- en lidmaatschapsrechten + verklaring van commissaris/revisor over de billijkheid van de uitgifteprijs: **art. 7:179 + art. 7:191 WVV** (vroeger art. 596-598 W.Venn.). Economische analyse van de waarde-overdracht via het inschrijvingsrecht: **CBN-advies 2016/1** — 'de waarde van het inschrijvingsrecht vertegenwoordigt op marktbasis de waarde die, als gevolg van de afzondering van het inschrijvingsrecht, van de oude aandelen overgaat op de nieuwe aandelen, wanneer de uitgifteprijs hiervan lager ligt dan de vermoedelijke marktwaarde van deze nieuwe aandelen'. 📖",
+          "wetsref": "art. 7:179, 7:188 en 7:191 WVV; CBN-advies 2016/1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2016-01-verrichtingen-met-betrekking-tot-inschrijvingsrechten.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

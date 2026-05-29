@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr30",
+  "antwoord_datum": "2026-05-29T19:39:13Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Begunstigde | Hoedanigheid |\n|---|---|\n| Véronique (echtgenote) | Wettelijk erfgenaam (reservatair — vruchtgebruik) 🔗 |\n| Bernard (zoon) | Wettelijk erfgenaam (reservatair — blote eigendom) 🔗 |\n| Mw. Janssens (buurvrouw) | Legataris onder algemene titel (alle roerende goederen) 📖 |\n| Jean Martin (neef) | Bijzonder legataris (de personenauto) 🔗 |\n| Mw. Philippe | Algemeen legataris (volledige nalatenschap na aftrek van de andere legaten) 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md",
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toepassing van de drie legaat-categorieën uit het BW op de testamentaire beschikkingen:\n\n- **Véronique en Bernard** zijn niet in het testament begunstigd, maar erven op grond van de **wettelijke devolutie** als reservataire erfgenamen (echtgenote: vruchtgebruik op de hele nalatenschap; zoon: blote eigendom + reserve). 🔗\n- **Mw. Janssens** krijgt \"alle roerende goederen\" — dit is exact het schoolvoorbeeld van een **legaat onder algemene titel** (BW art. 4.195: een legaat dat een breukdeel vermaakt \"zoals... al zijn roerende goederen, of al zijn onroerende goederen\"). Het is géén algemeen legaat (geen roeping tot de hele nalatenschap) en géén bijzonder legaat (geen welbepaald goed). 📖\n- **Jean Martin** krijgt één welbepaald goed (de personenauto) → **bijzonder legataris** (\"residuele\" categorie: niet algemeen, niet onder algemene titel). 🔗\n- **Mw. Philippe** krijgt \"de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen\". Zij wordt geroepen tot de **universaliteit** van wat overblijft — dat is een **algemeen legaat**. De bezwaring met andere legaten neemt de algemene roeping niet weg (art. 4.200 BW: ook samen met reservataire erfgenamen blijft de algemene legataris gehouden de andere legaten uit te keren). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**\"Algemeen begiftigde\" en \"begiftigde onder algemene titel\"** in de tabel-kolommen zijn de equivalenten van algemeen legataris / legataris onder algemene titel maar bij **schenking onder de levenden** (typisch via contractuele erfstelling in een huwelijkscontract), niet via testament. In deze casus is er enkel een testament — die twee kolommen blijven dus **leeg** voor alle vijf de begunstigden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**BW art. 4.195** definieert het legaat onder algemene titel als een legaat van een breukdeel \"zoals de helft, een derde, of al zijn onroerende goederen, of al zijn roerende goederen\" — letterlijk de situatie van mw. Janssens. 📖 Het algemeen legaat is het legaat met roeping tot de **universaliteit** van de nalatenschap (mw. Philippe), het bijzonder legaat betreft een **welbepaald goed** (de auto voor Jean). 🔗",
+          "wetsref": "Art. 4.195 BW (Boek 4 — Nalatenschappen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Begunstigde | Aangifteplicht? |\n|---|---|\n| Véronique (wettelijk erfgenaam) | **Ja** 📖 |\n| Bernard (wettelijk erfgenaam) | **Ja** 📖 |\n| Mw. Janssens (legataris onder algemene titel) | **Nee** 📖 |\n| Jean Martin (bijzonder legataris) | **Nee** 📖 |\n| Mw. Philippe (algemeen legataris) | **Ja** 📖 |",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 38 W.Succ. somt **limitatief** op wie aangifteplichtig is bij overlijden van een Rijksinwoner: de **erfgenamen, de algemene legatarissen en (algemene) begiftigden**, \"**met uitsluiting van alle andere legatarissen of begiftigden**\". 📖 Toegepast:\n\n- **Véronique en Bernard** → wettelijke (reservataire) erfgenamen → aangifteplichtig. 🔗\n- **Mw. Philippe** → algemeen legataris → aangifteplichtig. 🔗\n- **Mw. Janssens** (legataris onder algemene titel) en **Jean Martin** (bijzonder legataris) → uitdrukkelijk **uitgesloten** door art. 38 → géén primaire aangifteplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Bij **stilzitten** van de erfgenamen, algemene legatarissen en algemene begiftigden kan de ontvanger bij aangetekende brief óók de legatarissen en begiftigden ten algemene of bijzondere titel verplichten een aangifte in te dienen (art. 38, lid 2 W.Succ.). 📖 Janssens en Jean zijn dus niet permanent vrijgesteld — hun aangifteplicht is **subsidiair en voorwaardelijk**. Praktisch ontvangen zij wél een uitnodiging tot betaling van het successierecht op hun verkrijging — aangifteplicht en belastingplicht vallen niet samen. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 38, 1° W.Succ.** (federaal — van toepassing in 2010 voor het Brussels Hoofdstedelijk Gewest en het Waals Gewest; voor Vlaanderen geldt sinds 2015 art. 3.3.1.0.5 VCF met dezelfde regel): de aangifte van successie wordt ingeleverd \"door de **erfgenamen, de algemene legatarissen en begiftigden, met uitsluiting van alle andere legatarissen of begiftigden**\" op het bevoegde kantoor van de laatste fiscale woonplaats van de overledene. 📖",
+          "wetsref": "Art. 38 W.Succ. (federaal)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

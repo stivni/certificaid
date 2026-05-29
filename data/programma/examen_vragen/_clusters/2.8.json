@@ -1,15 +1,54 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.8",
-  "gegenereerd_op": "2026-05-26T10:21:19+00:00",
+  "gegenereerd_op": "2026-05-29T19:46:09+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 8,
-  "n_clusters": 0,
-  "n_singletons": 8,
-  "clusters": [],
+  "threshold_cosine": 0.85,
+  "n_vragen": 11,
+  "n_clusters": 1,
+  "n_singletons": 9,
+  "clusters": [
+    {
+      "cluster_id": "2.8-c1",
+      "voorlopige_label": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2010-2",
+          "vraag_id": "2010-2-vr33",
+          "vraag_onderwerp": "Toepassing van de OESO-Modelovereenkomst tot vermijding van dubbele belasting (inwonerschap, interesten, onderling overleg, overheidspensioenen)",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr33.json"
+        },
+        {
+          "examen_id": "2015-1",
+          "vraag_id": "2015-1-vr49",
+          "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr49.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2010-2-vr33",
+          "naar": "2015-1-vr49",
+          "cosine": 0.9003
+        }
+      ]
+    }
+  ],
   "borderline_paren": [],
   "singletons": [
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr32",
+      "vraag_onderwerp": "Internationale dubbele belasting — juridische versus economische dubbele belasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr32.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr34",
+      "vraag_onderwerp": "Internationale fiscaliteit — meerwaarde op aandelen van een Canadese vennootschap met enkel onroerend goed in Canada (toepassing OESO-modelverdrag)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr34.json"
+    },
     {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr29",
@@ -48,16 +87,9 @@
     },
     {
       "examen_id": "2015-1",
-      "vraag_id": "2015-1-vr49",
-      "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr49.json"
-    },
-    {
-      "examen_id": "2015-1",
       "vraag_id": "2015-1-vr50",
       "vraag_onderwerp": "EU-fusierichtlijn 2009/133/EG: toepassing op overname door ivzw",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr50.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

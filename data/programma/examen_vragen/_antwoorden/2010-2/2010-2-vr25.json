@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr25",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "_poc_notitie": "Parser-artefact: het segment voor vr25 bevat alleen het staartstuk van de vraagstelling van vraag 2 (pagina 16 PNG); de cijfergegevens van vraag 1 waarnaar de vraag verwijst (octrooi-afschrijving, aandelenportefeuille A/B/C/D, dividenden A en B, meerwaarde aandelen D) staan op de bovenste helft van diezelfde pagina maar zijn niet in dit segment opgenomen. Conform prompt-instructie: antwoord_status='topic_only' met 1-zin scope-aanduiding; geen cijfermatige uitwerking mogelijk zonder de cijfergegevens uit vraag 1.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Topic-scope: de drie aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag VenB die hier relevant zijn, zijn de **octrooi-aftrek** (op de boekwaarde / pro rata-opbrengst van het octrooi uit vraag 1), de **DBI-aftrek** (op de dividenden van aandelen A en B, mits aan deelnemings-, taxatie- en permanentievoorwaarde voldaan) en de **vrijgestelde meerwaarde op aandelen** (op de gerealiseerde meerwaarde bij verkoop van de aandelen D). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Parser-fragment — geen cijfermatige uitwerking",
+          "tekst": "Het segment voor vr25 omvat alleen het staartstuk van de vraagstelling ('vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'). De cijfergegevens van vraag 1 — octrooi lineair afgeschreven over 5 jaar (€ 200.000), aandelen A (Belgische nv, 400 stuks à € 90), aandelen B (Duitse AG, 100 stuks à € 375), dividenden A € 875 en B € 1.875, meerwaarde op verkoop van 10 aandelen D € 2.500 — zijn zichtbaar op de bovenste helft van pagina 16 PNG maar niet als afzonderlijk vraag-segment beschikbaar. Een correct uitgewerkt cijferantwoord (octrooi-aftrek 80% × pro rata-octrooi-inkomen, DBI 100% × € 2.750 onder huidige regels of 95% onder regime 2010, vrijgestelde meerwaarde € 2.500) vereist de volledige casus en de in 2010 geldende tarieven. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag VenB: octrooi-aftrek (art. 205/1 e.v. WIB 1992, intussen vervangen door innovatie-aftrek art. 205/1-205/4 WIB 1992 sinds aj. 2017), DBI-aftrek (art. 202-205 WIB 1992) en vrijgestelde meerwaarde op aandelen (art. 192 WIB 1992). Examenjaar 2010 valt onder de toen geldende formuleringen — voor een examensimulatie hanteert de stagiair best de huidige WIB-tekst zoals beschikbaar via ITAA-LEX. 🤖",
+          "wetsref": "art. 192, art. 202-205, art. 205/1 e.v. WIB 1992",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

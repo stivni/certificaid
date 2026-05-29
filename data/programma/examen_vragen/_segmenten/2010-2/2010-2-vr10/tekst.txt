@@ -1,0 +1,65 @@
+Vraag 1 … / 5 punten
+Een groothandel in medische toestellen beschikt over een IT-systeem voor het bijhouden
+van de voorraad waarbij de “in-” en “uit”-verrichtingen via een barcode worden ingelezen.
+Er bestaat in het bedrijf een duidelijk geschreven instructie over het voorraadbeheer.
+Tweemaal per jaar worden er intern tellingen gedaan en wordt het permanent
+inventarissysteem bijgewerkt en dit telkens met een nazicht en verklaring van de
+verschillen. Uw opdracht kadert in een omzetting waarvoor u een controleverslag dient op
+te stellen. U krijgt op 10 oktober 2010 de staat van activa en passiva per 30 september 2010
+op basis waarvan u uw werkzaamheden dient uit te voeren.
+Geef op volgende vragen uw antwoord met JA of NEEN
+a) Ik moet de voorraad opnieuw laten opmaken op datum van mijn aanstelling.
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+b) Ik zal eerst nagaan of de tussentijdse testen en inventarisaties voldoende zekerheid
+bieden en eventueel overgaan tot steekproeven.
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+c) Ik moet altijd een afkeurende verklaring geven in mijn verslag.
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+d) Ik moet in mijn verslag vermelden dat er geen fysieke controle is geweest van de
+voorraad maar dat de interne organisatie en administratie mij de mogelijkheid heeft
+gegeven mij op voldoende wijze te vergewissen van de juistheid van de voorraad.
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+e) Ik moet deze opdracht weigeren.
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+=== subvraag a) ===
+Ik moet de voorraad opnieuw laten opmaken op datum van mijn aanstelling.
+
+=== subvraag b) ===
+Ik zal eerst nagaan of de tussentijdse testen en inventarisaties voldoende zekerheid
+bieden en eventueel overgaan tot steekproeven.
+
+=== subvraag c) ===
+Ik moet altijd een afkeurende verklaring geven in mijn verslag.
+
+=== subvraag d) ===
+Ik moet in mijn verslag vermelden dat er geen fysieke controle is geweest van de
+voorraad maar dat de interne organisatie en administratie mij de mogelijkheid heeft
+gegeven mij op voldoende wijze te vergewissen van de juistheid van de voorraad.
+
+=== subvraag e) ===
+Ik moet deze opdracht weigeren.

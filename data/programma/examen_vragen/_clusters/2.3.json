@@ -1,60 +1,29 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.3",
-  "gegenereerd_op": "2026-05-26T10:21:02+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:34+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 17,
-  "n_clusters": 1,
-  "n_singletons": 14,
-  "clusters": [
-    {
-      "cluster_id": "2.3-c1",
-      "voorlopige_label": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
-      "n_voorkomens": 3,
-      "voorkomens": [
-        {
-          "examen_id": "2013-2",
-          "vraag_id": "2013-2-vr24",
-          "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr24.json"
-        },
-        {
-          "examen_id": "2013-2",
-          "vraag_id": "2013-2-vr25",
-          "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr25.json"
-        },
-        {
-          "examen_id": "2015-1",
-          "vraag_id": "2015-1-vr33",
-          "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr33.json"
-        }
-      ],
-      "interne_scores": [
-        {
-          "van": "2013-2-vr25",
-          "naar": "2015-1-vr33",
-          "cosine": 0.8216
-        },
-        {
-          "van": "2013-2-vr24",
-          "naar": "2013-2-vr25",
-          "cosine": 0.8158
-        },
-        {
-          "van": "2013-2-vr24",
-          "naar": "2015-1-vr33",
-          "cosine": 0.814
-        }
-      ],
-      "verdict": "varianten",
-      "actie": "behoud_apart_met_label",
-      "motivering": "Alle drie 'bereken belastbaar resultaat VenB', maar verschillende fiscale technieken per casus: vr24 = verworpen uitgaven + notionele intrestaftrek + KMO-tarief + verliesoverdracht; vr25 = DBI-aftrek + meer/minwaarde aandelen; vr33 = DBI + verlaagd tarief + fiscaal overgedragen verlies. Gedeeld berekenings-skelet, verschillende correcties."
-    }
-  ],
+  "threshold_cosine": 0.85,
+  "n_vragen": 21,
+  "n_clusters": 0,
+  "n_singletons": 21,
+  "clusters": [],
   "borderline_paren": [
+    {
+      "van": "2013-2-vr25",
+      "naar": "2015-1-vr33",
+      "cosine": 0.8216
+    },
+    {
+      "van": "2013-2-vr24",
+      "naar": "2013-2-vr25",
+      "cosine": 0.8158
+    },
+    {
+      "van": "2013-2-vr24",
+      "naar": "2015-1-vr33",
+      "cosine": 0.814
+    },
     {
       "van": "2003-bibf-vrG1",
       "naar": "2013-2-vr24",
@@ -80,6 +49,30 @@
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrG1.json"
     },
     {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr23",
+      "vraag_onderwerp": "Vennootschapsbelasting AJ 2010 — invullen Vak I/A van de aangifte voor nv 'XYZ' op basis van casusgegevens",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr23.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr24",
+      "vraag_onderwerp": "Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr24.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr25",
+      "vraag_onderwerp": "Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag vennootschapsbelasting (octrooi-aftrek, DBI, meerwaarden aandelen)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr25.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr26",
+      "vraag_onderwerp": "Verminderd basistarief vennootschapsbelasting — toetsing dividendvoorwaarde nv 'ZER'",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr26.json"
+    },
+    {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr22",
       "vraag_onderwerp": "Fiscale gevolgen van een fout geboekte aankoopfactuur op voorraadwaardering",
@@ -98,6 +91,18 @@
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr24.json"
     },
     {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr24",
+      "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr24.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr25",
+      "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr25.json"
+    },
+    {
       "examen_id": "2014-1",
       "vraag_id": "2014-1-vr28",
       "vraag_onderwerp": "Vennootschapsbelasting — gespreide taxatie meerwaarde op gebouw",
@@ -108,6 +113,12 @@
       "vraag_id": "2014-1-vr29",
       "vraag_onderwerp": "Vennootschapsbelasting — verworpen uitgaven en fiscaal gestort kapitaal",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr29.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr33",
+      "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr33.json"
     },
     {
       "examen_id": "2015-1",
@@ -123,34 +134,33 @@
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr11A",
-      "vraag_onderwerp": "Factuurplicht en BTW-opeisbaarheid bij dienstverlening aan een rentenier",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11A.json"
+      "vraag_id": "2024-1-vr8A",
+      "vraag_onderwerp": "Overdraagbare fiscale verliezen in de vennootschapsbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8A.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr11B",
-      "vraag_onderwerp": "Margeregeling en vermelding in de BTW-aangifte",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11B.json"
+      "vraag_id": "2024-1-vr8B",
+      "vraag_onderwerp": "Fusie moeder-dochter — meer- of minderwaarde op deelneming en fiscale behandeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8B.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr11C",
-      "vraag_onderwerp": "Toepasselijkheid vrijstellingsregeling kleine onderneming voor diverse activiteiten",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11C.json"
+      "vraag_id": "2024-1-vr8C",
+      "vraag_onderwerp": "Voorafbetalingen en vermeerdering wegens onvoldoende voorafbetaling bij verlaagd tarief vennootschapsbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8C.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr11D",
-      "vraag_onderwerp": "VAT Refund — stellingen juist of fout",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11D.json"
+      "vraag_id": "2024-1-vr8D",
+      "vraag_onderwerp": "Belastbare basis vennootschapsbelasting — tantième en dividend",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8D.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr11E",
-      "vraag_onderwerp": "BTW-tarief of -stelsel voor glazenwassen door een Belgische onderneming per situatie",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11E.json"
+      "vraag_id": "2024-1-vr8E",
+      "vraag_onderwerp": "Besmette verworpen uitgaven — DBI-verrekening buiten EER",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr15",
+  "interpretatie_datum": "2026-05-29T19:31:23Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vergelijkende tabel rechtsvormen NV / BVBA / CVBA — 10 fouten identificeren",
+  "programmaonderdeel_ids": ["3.0"],
+  "themas": [
+    "vennootschapsrecht",
+    "rechtsvormen",
+    "NV",
+    "BVBA",
+    "CVBA",
+    "kapitaalvereisten",
+    "inbreng",
+    "aandelenoverdracht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De vraag toont een vergelijkende tabel met negen kenmerken van drie vennootschapsvormen (NV, BVBA en coöperatieve CVBA). In de tabel zijn bewust tien onjuiste antwoorden ('JA' / 'NEEN' / kapitaalbedragen) opgenomen die de kandidaat moet identificeren door ze te omcirkelen."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Vergelijkende tabel NV / BVBA / CVBA (zoals voorgesteld in de vraag — bevat 10 fouten)",
+      "rijen": [
+        { "label": "Kolomhoofden", "bedrag": null },
+        { "label": "NV", "bedrag": null },
+        { "label": "BVBA", "bedrag": null },
+        { "label": "CVBA (coöperatieve)", "bedrag": null },
+        { "label": "Minimum aantal vennoten — NV: 3 | BVBA: 1 | CVBA: 2", "bedrag": null },
+        { "label": "Inbreng in natura mogelijk — NV: JA | BVBA: JA | CVBA: NEEN", "bedrag": null },
+        { "label": "Inbreng in nijverheid — NV: NEEN | BVBA: NEEN | CVBA: JA", "bedrag": null },
+        { "label": "Mogelijkheid om winstbewijzen te creëren — NV: NEEN | BVBA: NEEN | CVBA: NEEN", "bedrag": null },
+        { "label": "Mogelijkheid om de procedure inzake het toegestane kapitaal te voorzien — NV: JA | BVBA: JA | CVBA: NEEN", "bedrag": null },
+        { "label": "De vereniging van alle aandelen in één hand brengt de ontbinding van rechtswege van de vennootschap teweeg — NV: JA | BVBA: NEEN | CVBA: JA", "bedrag": null },
+        { "label": "De aandelen zijn vrij overdraagbaar tussen de vennoten — NV: JA | BVBA: NEEN | CVBA: JA", "bedrag": null },
+        { "label": "Bij overtreding van het Wetboek van Vennootschappen zijn de bestuurders of zaakvoerders slechts gehouden tot vergoeding van de veroorzaakte schade voor hun aandeel in de overtreding — NV: NEEN | BVBA: JA | CVBA: NEEN", "bedrag": null },
+        { "label": "Minimumkapitaal dat moet worden geplaatst — NV: € 61.500,00 | BVBA: € 12.400,00 | CVBA: € 18.550,00", "bedrag": null }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 4",
+      "vraagtype": "open",
+      "vraagstelling": "Lees aandachtig de voorgestelde antwoorden en duid de 10 fouten aan die in de tabel zijn vermeld door ze te omcirkelen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Segment bevat de instructie 'Vraag 4 / 5 punten' uit de sectie VENNOOTSCHAPSRECHT (de sectie-header 'VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN) 30 PUNTEN' onderaan tekst.txt is de header van de VOLGENDE sectie en hoort niet bij deze vraag — deze vraag valt onder gewoon vennootschapsrecht). PNG (pagina 9 in PDF, pagina_10.png-bestand toont begin van Vraag 4 met instructie; de eigenlijke tabel staat op de volgende PDF-pagina maar werd door pdfplumber correct in tekst.txt geëxtraheerd). De tabel is een 'gegevens_tabel' geworden met label-strings per rij omdat een echte balans/passief-structuur niet past; de NV/BVBA/CVBA-waarden zijn inline in het label opgenomen om de structuur leesbaar te houden. Classificatie PO 3.0 (vennootschapsrecht) op basis van de sectie-header en de inhoud (vergelijking rechtsvormen). 'DRAFT'-watermark op PNG genegeerd (Studocu-export).",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

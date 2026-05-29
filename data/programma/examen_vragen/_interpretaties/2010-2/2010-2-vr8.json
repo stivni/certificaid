@@ -1,0 +1,31 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr8",
+  "interpretatie_datum": "2026-05-29T19:30:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Interne controlemaatregelen in de verkoopcyclus",
+  "programmaonderdeel_ids": ["1.7"],
+  "themas": [
+    "interne controle",
+    "verkoopcyclus",
+    "functiescheiding",
+    "controlemaatregelen",
+    "transactiecyclus"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Welke interne controlemaatregelen dienen te worden nagezien in het kader van de verkoopcyclus? Verduidelijk het begrip telkens met een voorbeeld.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële vraag uit het ITAA accountant-bekwaamheidsexamen 2010-2, vak 'INTERNE CONTROLE' (25 punten in totaal; deze vraag (Vraag 2 in dit vak) telt voor 10 punten). De PNG toont één open vraag met expliciete instructie om elk begrip met een voorbeeld te verduidelijken — dit is geen aparte motivatie-instructie (§4.1bis) maar een integraal onderdeel van de gevraagde uitwerking, dus als één deelvraag gerenderd met de voorbeeld-instructie geïntegreerd in de vraagstelling. tekst.txt en PNG zijn consistent (geen OCR-cleanup nodig; het DRAFT-watermerk op de Studocu-export wordt genegeerd). motivatie_verwacht=false omdat de student een opsomming met uitwerking moet geven — geen motivering van een standpunt. Geclassificeerd als PO 1.7 (Interne controle).",
+  "kwaliteits_flags": []
+}

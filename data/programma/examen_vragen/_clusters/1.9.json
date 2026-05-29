@@ -1,9 +1,9 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.9",
-  "gegenereerd_op": "2026-05-26T10:20:50+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:09+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
+  "threshold_cosine": 0.85,
   "n_vragen": 6,
   "n_clusters": 0,
   "n_singletons": 6,
@@ -46,6 +46,5 @@
       "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr6.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

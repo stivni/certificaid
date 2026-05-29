@@ -1,0 +1,102 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr21",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Aftrekbare beroepskosten autokosten — inkomstenjaar 2009 (AJ 2010): ca. 6.983 EUR** 🔗\n\n| Component | Berekening | Bedrag |\n|---|---|---|\n| Woon-werk (art. 66bis WIB92) | 1.100 km × 0,15 EUR | 165 EUR |\n| Beroepsdeel brandstof (100%) | 1.700 × (10.640/15.740) | 1.149 EUR |\n| Beroepsdeel financieringskosten (100%) | 400 × (10.640/15.740) | 270 EUR |\n| Beroepsdeel overige autokosten (75%) | (8.000+1.200+500+950) × (10.640/15.740) × 75% | 5.399 EUR |\n| **Totaal aftrekbaar** | | **6.983 EUR** |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — Kilometers categoriseren** (15.740 km totaal):\n- Privé 4.000 km → **niet aftrekbaar** 🔗\n- Woon-werk (woonplaats → praktijk) 1.100 km → forfait art. 66bis WIB92 📖\n- Beroepsverplaatsingen 10.640 km = 440 (praktijk → dispensarium) + 10.200 (huisbezoeken) → werkelijke kosten\n\n**Stap 2 — Beroepsaandeel autokosten**: 10.640 / 15.740 = **67,60%** (woon-werk valt buiten dit aandeel — wordt forfaitair afgehandeld). 🔗\n\n**Stap 3 — Aftrekbeperking per kost-categorie** (PB-zelfstandige, AJ 2010): 🔗\n- Brandstof (1.700 EUR) en financieringskosten (400 EUR): **100% van het beroepsdeel** aftrekbaar\n- Afschrijving + verzekering + verkeersbelasting + onderhoud (10.650 EUR): aftrekbeperking tot **75% van het beroepsdeel** (oud art. 66 §1 WIB92 — vóór invoering CO2-cascade in PB)\n\n**Stap 4 — Woon-werk-forfait**: 1.100 km × 0,15 EUR = 165 EUR. De woonplaats-praktijk-afstand bedraagt 5 km, ruim onder het plafond van 75 km (art. 66bis WIB92 vanaf AJ 2006). 📖\n\n**Stap 5 — Totaal**: 165 + 1.149 + 270 + 5.399 = **6.983 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het woon-werktraject is fiscaal **niet hetzelfde** als een beroepsverplaatsing: de woonplaats-praktijk-rit (1.100 km) wordt forfaitair vergoed via art. 66bis WIB92 (0,15 EUR/km, max 75 km enkele afstand) en mag **niet** in de werkelijke autokosten-pot worden gestopt. De rit praktijk → dispensarium (440 km) is daarentegen wel een echte beroepsverplaatsing tijdens de werkdag en hoort bij de 10.640 beroepskilometers. Wie alles op één hoop gooit, telt het woon-werk dubbel of past de verkeerde aftrekregel toe. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 66 §1 WIB92** (versie AJ 2010): beroepskosten met betrekking tot personenauto's zijn slechts beperkt aftrekbaar — voor PB-zelfstandigen tot 75%, met uitzondering van brandstofkosten en financieringskosten (100% van het beroepsdeel). **Art. 66bis WIB92**: bij gebrek aan bewijsstukken worden de beroepskosten voor de woon-werkverplaatsing forfaitair bepaald op 0,15 EUR per afgelegde km, met een maximaal in aanmerking te nemen afstand van 75 km (vanaf AJ 2006). 📖",
+          "wetsref": "art. 66 §1 + art. 66bis WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — voor inkomstenjaar 2010 (AJ 2011) is het aftrekbaar bedrag niet hetzelfde, omdat de CO2-gebaseerde aftrekcascade die voorheen enkel voor vennootschappen gold, vanaf dat jaar ook in de personenbelasting wordt toegepast op zelfstandigen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet van 23 december 2009 heeft de CO2-aftrekcascade van art. 198bis WIB92 (vennootschappen) doorgetrokken naar art. 66 §1 WIB92 voor de personenbelasting, met inwerkingtreding vanaf AJ 2011. Het oude forfaitaire 75%-percentage voor autokosten van zelfstandigen wordt vervangen door een CO2-afhankelijk aftrekpercentage. Voor een dieselvoertuig met 175 gr CO2/km valt men in een lagere schijf dan 75%, waardoor het aftrekbare bedrag daalt bij ongewijzigde kilometers en kosten. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 66 §1 WIB92** (versie AJ 2011 e.v., ingevoerd door wet 23.12.2009): de aftrek van autokosten in de PB is voortaan gekoppeld aan een CO2-cascade — voor dieselvoertuigen lopen de schijven van 100% (≤ 60 gr CO2/km) tot 50% (> 195 gr CO2/km). Brandstofkosten blijven 100% aftrekbaar; financieringskosten en mobilofoonkosten vallen buiten de beperking. De forfaitaire woon-werkregeling van **art. 66bis WIB92** blijft ongewijzigd. 🔗",
+          "wetsref": "art. 66 §1 WIB92 (versie AJ 2011)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Aan te brengen wijziging vanaf inkomstenjaar 2010 (AJ 2011):\n\n- Het forfaitaire **75%-aftrekpercentage** op afschrijving, verzekering, verkeersbelasting en onderhoud wordt **vervangen door het CO2-afhankelijke aftrekpercentage** van art. 66 §1 WIB92 (cascade dieselvoertuig 175 gr CO2/km → lagere schijf, niet langer vlak 75%). 🔗\n- **Brandstofkosten** blijven 100% aftrekbaar (op het beroepsdeel). 🔗\n- **Financieringskosten** blijven 100% aftrekbaar (vallen buiten de aftrekbeperking). 🔗\n- De **woon-werkforfait van art. 66bis** (0,15 EUR/km) wordt **niet** gewijzigd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 66 §1 WIB92** (versie AJ 2011): introductie CO2-cascade in PB voor zelfstandigen, met behoud van 100%-aftrek voor brandstof- en financieringskosten. **Art. 66bis WIB92** blijft onverkort van toepassing op de woon-werkverplaatsing. 🔗",
+          "wetsref": "art. 66 §1 + art. 66bis WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

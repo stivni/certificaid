@@ -1,18 +1,38 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.2",
-  "gegenereerd_op": "2026-05-26T10:20:58+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:30+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 30,
+  "threshold_cosine": 0.85,
+  "n_vragen": 32,
   "n_clusters": 0,
-  "n_singletons": 30,
+  "n_singletons": 32,
   "clusters": [],
   "borderline_paren": [
     {
       "van": "2015-1-vr28",
+      "naar": "2015-1-vr32",
+      "cosine": 0.8272
+    },
+    {
+      "van": "2015-1-vr30",
+      "naar": "2015-1-vr32",
+      "cosine": 0.8092
+    },
+    {
+      "van": "2015-1-vr28",
       "naar": "2015-1-vr30",
       "cosine": 0.774
+    },
+    {
+      "van": "2010-2-vr21",
+      "naar": "2013-2-vr22",
+      "cosine": 0.7684
+    },
+    {
+      "van": "2010-2-vr20",
+      "naar": "2015-1-vr32",
+      "cosine": 0.7673
     },
     {
       "van": "2015-1-vr31",
@@ -74,6 +94,24 @@
       "vraag_id": "2008-bibf-vrF7",
       "vraag_onderwerp": "Aftrekbare besteding: welke uitgave vormt een aftrekbare besteding?",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF7.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr20",
+      "vraag_onderwerp": "Aangifte van roerende inkomsten in de personenbelasting (binnen- en buitenlandse interesten, dividenden, auteursrechten)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr20.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr21",
+      "vraag_onderwerp": "Aftrekbare autokosten en verplaatsingskosten van een zelfstandige dierenarts in de personenbelasting (aanslagjaar 2009 vs. 2010)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr21.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr22",
+      "vraag_onderwerp": "Personenbelasting: huwelijksquotiënt, buitenlandse sociale bijdragen, ecocheques, belastingverminderingen vs belastingkrediet",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr22.json"
     },
     {
       "examen_id": "2013-1",
@@ -143,51 +181,15 @@
     },
     {
       "examen_id": "2015-1",
-      "vraag_id": "2015-1-vr29",
-      "vraag_onderwerp": "Aangifte buitenlands onroerend goed personenbelasting: juiste uitspraak",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr29.json"
-    },
-    {
-      "examen_id": "2015-1",
-      "vraag_id": "2015-1-vr31",
-      "vraag_onderwerp": "Vrijstellingen van economische aard personenbelasting: onjuiste uitspraak",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr31.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr8A",
-      "vraag_onderwerp": "Overdraagbare fiscale verliezen in de vennootschapsbelasting",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8A.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr8B",
-      "vraag_onderwerp": "Fusie moeder-dochter — meer- of minderwaarde op deelneming en fiscale behandeling",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8B.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr8C",
-      "vraag_onderwerp": "Voorafbetalingen en vermeerdering wegens onvoldoende voorafbetaling bij verlaagd tarief vennootschapsbelasting",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8C.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr8D",
-      "vraag_onderwerp": "Belastbare basis vennootschapsbelasting — tantième en dividend",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8D.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr8E",
-      "vraag_onderwerp": "Besmette verworpen uitgaven — DBI-verrekening buiten EER",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8E.json"
-    },
-    {
-      "examen_id": "2015-1",
       "vraag_id": "2015-1-vr28",
       "vraag_onderwerp": "Beroepsverliezen personenbelasting: onjuiste uitspraken identificeren",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr28.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr29",
+      "vraag_onderwerp": "Aangifte buitenlands onroerend goed personenbelasting: juiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr29.json"
     },
     {
       "examen_id": "2015-1",
@@ -197,10 +199,39 @@
     },
     {
       "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr31",
+      "vraag_onderwerp": "Vrijstellingen van economische aard personenbelasting: onjuiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr31.json"
+    },
+    {
+      "examen_id": "2015-1",
       "vraag_id": "2015-1-vr32",
       "vraag_onderwerp": "Belasting roerende inkomsten personenbelasting: onjuiste uitspraak",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr32.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5A",
+      "vraag_onderwerp": "Juist of fout: forfaitaire kostenaftrek bij meewerkend echtgenoot met ministatuut",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5B",
+      "vraag_onderwerp": "Onroerende voorheffing bij niet-verhuurde woning wegens overstroming",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5C",
+      "vraag_onderwerp": "Aangifte gemeubeld onroerend goed verhuurd aan natuurlijk persoon: te vermelden bedragen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5D",
+      "vraag_onderwerp": "Beroepsinkomsten niet onderworpen aan het progressief belastingtarief",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5D.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

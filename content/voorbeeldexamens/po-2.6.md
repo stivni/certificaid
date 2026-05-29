@@ -3,12 +3,12 @@ title: PO 2.6 — Registratie- en successierechten
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.6 (Registratie- en successierechten).
 tags: [examen, voorbeeldvragen, po-2-6]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.6 — Registratie- en successierechten
 
-**11 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 11 met modelantwoord
+**13 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1) — 13 met modelantwoord
 
 <a id="2015-1-vr46"></a>
 
@@ -596,6 +596,128 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 68 W.Succ. (federaal — overgenomen in de gewestelijke wetboeken/VCF): "In geval van verwerping van een intestaat-aandeel, van een uiterste wilsbeschikking, of van een contractuele erfstelling, mag het recht, verschuldigd door de personen die daarvan het voordeel genieten, niet lager zijn dan het recht, dat de verwerper had moeten betalen." 📖  
 > > *Bron: Art. 68 W.Succ.*
+
+<a id="2010-2-vr30"></a>
+
+> [!question]- Hoedanigheid van begunstigden bij testament en aangifteplicht voor de aangifte van nalatenschap
+> *🆕 Examen 2010-2 · PO 2.6*
+>
+> De heer Pierre Martin is overleden op 3 september 2010. Hij laat een echtgenote, Véronique, en een zoon, Bernard, na.
+> 
+> Hierna volgt de uiteenzetting van zijn testament:
+> - Alle roerende goederen komen toe aan mw. Janssens, buurvrouw van dhr. Martin.
+> - De personenauto komt toe aan Jean Martin, neef van de erflater.
+> - Mw. Philippe zal de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen, verkrijgen.
+> 
+> **Hoedanigheid van de begunstigde — in te vullen tabel (kolommen)**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Wettelijk erfgenaam |   |
+> | Algemeen legataris |   |
+> | Algemeen begiftigde |   |
+> | Legataris onder algemene titel |   |
+> | Begiftigde onder algemene titel |   |
+> | Bijzonder legataris |   |
+> 
+> **Begunstigden — in te vullen rijen (kruisjes aanbrengen + aangifteplicht aanduiden)**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Véronique |   |
+> | Bernard |   |
+> | Mw. Janssens |   |
+> | Jean |   |
+> | Mw. Philippe |   |
+>
+> Duid in bijgaande tabel de hoedanigheid van elke begunstigde (Véronique, Bernard, mw. Janssens, Jean, mw. Philippe) aan via kruisjes (wettelijk erfgenaam, algemeen legataris, algemeen begiftigde, legataris onder algemene titel, begiftigde onder algemene titel, of bijzonder legataris).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > | Begunstigde | Hoedanigheid |
+> > |---|---|
+> > | Véronique (echtgenote) | Wettelijk erfgenaam (reservatair — vruchtgebruik) 🔗 |
+> > | Bernard (zoon) | Wettelijk erfgenaam (reservatair — blote eigendom) 🔗 |
+> > | Mw. Janssens (buurvrouw) | Legataris onder algemene titel (alle roerende goederen) 📖 |
+> > | Jean Martin (neef) | Bijzonder legataris (de personenauto) 🔗 |
+> > | Mw. Philippe | Algemeen legataris (volledige nalatenschap na aftrek van de andere legaten) 🔗 | 🔗
+> > 
+> > Toepassing van de drie legaat-categorieën uit het BW op de testamentaire beschikkingen:
+> > 
+> > - **Véronique en Bernard** zijn niet in het testament begunstigd, maar erven op grond van de **wettelijke devolutie** als reservataire erfgenamen (echtgenote: vruchtgebruik op de hele nalatenschap; zoon: blote eigendom + reserve). 🔗
+> > - **Mw. Janssens** krijgt "alle roerende goederen" — dit is exact het schoolvoorbeeld van een **legaat onder algemene titel** (BW art. 4.195: een legaat dat een breukdeel vermaakt "zoals... al zijn roerende goederen, of al zijn onroerende goederen"). Het is géén algemeen legaat (geen roeping tot de hele nalatenschap) en géén bijzonder legaat (geen welbepaald goed). 📖
+> > - **Jean Martin** krijgt één welbepaald goed (de personenauto) → **bijzonder legataris** ("residuele" categorie: niet algemeen, niet onder algemene titel). 🔗
+> > - **Mw. Philippe** krijgt "de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen". Zij wordt geroepen tot de **universaliteit** van wat overblijft — dat is een **algemeen legaat**. De bezwaring met andere legaten neemt de algemene roeping niet weg (art. 4.200 BW: ook samen met reservataire erfgenamen blijft de algemene legataris gehouden de andere legaten uit te keren). 🔗
+> > 
+> > **"Algemeen begiftigde" en "begiftigde onder algemene titel"** in de tabel-kolommen zijn de equivalenten van algemeen legataris / legataris onder algemene titel maar bij **schenking onder de levenden** (typisch via contractuele erfstelling in een huwelijkscontract), niet via testament. In deze casus is er enkel een testament — die twee kolommen blijven dus **leeg** voor alle vijf de begunstigden. 🔗
+> > 
+> > **BW art. 4.195** definieert het legaat onder algemene titel als een legaat van een breukdeel "zoals de helft, een derde, of al zijn onroerende goederen, of al zijn roerende goederen" — letterlijk de situatie van mw. Janssens. 📖 Het algemeen legaat is het legaat met roeping tot de **universaliteit** van de nalatenschap (mw. Philippe), het bijzonder legaat betreft een **welbepaald goed** (de auto voor Jean). 🔗  
+> > *Bron: Art. 4.195 BW (Boek 4 — Nalatenschappen)*
+>
+> Vermeld voor elk van de begunstigden (Véronique, Bernard, mw. Janssens, Jean, mw. Philippe) wie de verplichting heeft een aangifte van nalatenschap in te dienen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > | Begunstigde | Aangifteplicht? |
+> > |---|---|
+> > | Véronique (wettelijk erfgenaam) | **Ja** 📖 |
+> > | Bernard (wettelijk erfgenaam) | **Ja** 📖 |
+> > | Mw. Janssens (legataris onder algemene titel) | **Nee** 📖 |
+> > | Jean Martin (bijzonder legataris) | **Nee** 📖 |
+> > | Mw. Philippe (algemeen legataris) | **Ja** 📖 | 📖
+> > 
+> > Art. 38 W.Succ. somt **limitatief** op wie aangifteplichtig is bij overlijden van een Rijksinwoner: de **erfgenamen, de algemene legatarissen en (algemene) begiftigden**, "**met uitsluiting van alle andere legatarissen of begiftigden**". 📖 Toegepast:
+> > 
+> > - **Véronique en Bernard** → wettelijke (reservataire) erfgenamen → aangifteplichtig. 🔗
+> > - **Mw. Philippe** → algemeen legataris → aangifteplichtig. 🔗
+> > - **Mw. Janssens** (legataris onder algemene titel) en **Jean Martin** (bijzonder legataris) → uitdrukkelijk **uitgesloten** door art. 38 → géén primaire aangifteplicht. 🔗
+> > 
+> > Bij **stilzitten** van de erfgenamen, algemene legatarissen en algemene begiftigden kan de ontvanger bij aangetekende brief óók de legatarissen en begiftigden ten algemene of bijzondere titel verplichten een aangifte in te dienen (art. 38, lid 2 W.Succ.). 📖 Janssens en Jean zijn dus niet permanent vrijgesteld — hun aangifteplicht is **subsidiair en voorwaardelijk**. Praktisch ontvangen zij wél een uitnodiging tot betaling van het successierecht op hun verkrijging — aangifteplicht en belastingplicht vallen niet samen. 🔗
+> > 
+> > **Art. 38, 1° W.Succ.** (federaal — van toepassing in 2010 voor het Brussels Hoofdstedelijk Gewest en het Waals Gewest; voor Vlaanderen geldt sinds 2015 art. 3.3.1.0.5 VCF met dezelfde regel): de aangifte van successie wordt ingeleverd "door de **erfgenamen, de algemene legatarissen en begiftigden, met uitsluiting van alle andere legatarissen of begiftigden**" op het bevoegde kantoor van de laatste fiscale woonplaats van de overledene. 📖  
+> > *Bron: Art. 38 W.Succ. (federaal)*
+
+<a id="2010-2-vr31"></a>
+
+> [!question]- Vermindering registratierechten bij aankoop woning in Brussels Hoofdstedelijk Gewest (abattement)
+> *🆕 Examen 2010-2 · PO 2.6*
+>
+> Een natuurlijke persoon wenst een huis te kopen in het Brussels Hoofdstedelijk Gewest (aankoopprijs = € 195 000).
+>
+> **Wat is het basisbedrag van de vermindering van de registratierechten waarop hij aanspraak heeft?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Basisbedrag van de vermindering (abattement) = € 60.000** waarmee de belastbare grondslag wordt verminderd vóór de heffing van het verkooprecht (12,5 % in Brussel). 🤖 Bij een aankoopprijs van € 195.000 wordt het verkooprecht dus geheven op € 135.000, wat neerkomt op een besparing van € 60.000 × 12,5 % = **€ 7.500**. 🔗
+> > 
+> > - Belastbare grondslag vóór abattement: € 195.000 📖
+> > - Min basisabattement art. 46bis W.Reg. Brussel: − € 60.000 🤖
+> > - Belastbare grondslag na abattement: € 135.000 🔗
+> > - Verkooprecht 12,5 %: € 135.000 × 12,5 % = € 16.875 🔗
+> > - Zonder abattement zou het recht € 195.000 × 12,5 % = € 24.375 bedragen → effectief voordeel € 7.500. 🔗
+> > 
+> > In een EDRLR-zone ("ruimte voor versterkte ontwikkeling van de huisvesting en de stadsvernieuwing") werd het abattement in 2010 verhoogd tot **€ 75.000** in plaats van € 60.000. ❓ De casus zegt niets over de ligging van het goed, dus wordt het basisbedrag van € 60.000 toegepast. Het bedrag van het abattement (en het verkoopprijsplafond, in 2010 € 500.000) is later meermaals verhoogd door de Brusselse ordonnantiegever — in de huidige tekst (vanaf 24.07.2025) is het abattement opgetrokken tot € 200.000 met een plafond van € 600.000. 📖
+> > 
+> > Art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest: de belastbare grondslag voor het verkooprecht bij verkrijging in volle eigendom door een natuurlijke persoon van een onroerend goed dat tot hoofdverblijfplaats zal dienen, wordt verminderd met een vast bedrag ("abattement"). 📖 In de versie die in 2010 van toepassing was bedroeg dat basisbedrag € 60.000, verhoogd tot € 75.000 in EDRLR-zones, met een aankoopprijsplafond van € 500.000. 🤖  
+> > *Bron: art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest (versie 2010)*
+>
+> Noem 4 voorwaarden op waaraan deze natuurlijke persoon moet voldoen om voor deze maatregel in aanmerking te komen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Vier cumulatieve voorwaarden voor het abattement (art. 46bis W.Reg. Brussel):
+> > 
+> > 1. **Natuurlijke persoon — geheelheid in volle eigendom.** De koper(s) moeten natuurlijke personen zijn die de geheelheid van het onroerend goed in volle eigendom verkrijgen; rechtspersonen zijn uitgesloten. 📖
+> > 2. **Eigen-woning-bestemming.** Het goed moet (geheel of gedeeltelijk) tot bewoning aangewend of bestemd zijn en zal dienen als hoofdverblijfplaats van de verkrijger. 📖
+> > 3. **Verbintenis tot vestiging van de hoofdverblijfplaats binnen de wettelijke termijn** (in 2010: binnen 2 jaar — sinds latere wijzigingen 3 jaar — vanaf de registratie van de akte) en behoud van die hoofdverblijfplaats in het Brussels Hoofdstedelijk Gewest gedurende een ononderbroken periode van minstens 5 jaar. 🔗
+> > 4. **Geen ander volledig eigen onroerend goed bestemd tot bewoning.** Op de datum van de aankoopakte mag geen van de verkrijgers voor het geheel en in volle eigendom eigenaar zijn van een ander tot bewoning bestemd onroerend goed. 📖
+> > 
+> > Bijkomend (vaak meegeteld als 5e voorwaarde): het verkoopprijsplafond — in 2010 mocht de belastbare grondslag € 500.000 niet overschrijden — en de uitdrukkelijke vermelding van de voorwaarden in de aankoopakte (of in een verklaring onderaan). ❓
+> > 
+> > Verwar het Brusselse **abattement** (vermindering van de belastbare grondslag, art. 46bis W.Reg. Brussel) niet met het Vlaamse **klein beschrijf** of het Vlaamse gunsttarief voor de enige eigen woning — dat zijn tariefverlagingen, geen aftrek op de grondslag. 🔗 In Brussel blijft het tarief 12,5 %; alleen de grondslag wordt verlaagd. Sanctie bij niet-naleving van de bewoningsverbintenis: het bespaarde recht wordt nagevorderd, vermeerderd met een belastingverhoging (boete). 🤖
+> > 
+> > Art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest — voorwaarden a) verklaring geen ander onroerend goed, b) verbintenis vestiging hoofdverblijfplaats binnen de wettelijke termijn, c) verbintenis behoud hoofdverblijfplaats gedurende 5 jaar. 📖 De cumulatieve voorwaarden moeten in de aankoopakte zelf worden opgenomen of bij een verklaring onderaan de akte; bij niet-naleving is het bespaarde recht plus een belastingverhoging verschuldigd. 🔗  
+> > *Bron: art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest*
 
 <a id="2008-bibf-vrH3"></a>
 

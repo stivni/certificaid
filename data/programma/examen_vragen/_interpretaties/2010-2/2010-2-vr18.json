@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr18",
+  "interpretatie_datum": "2026-05-29T19:31:57Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva",
+  "programmaonderdeel_ids": ["3.0", "1.6"],
+  "themas": [
+    "omzetting vennootschap",
+    "controleverslag bijzondere mandaten",
+    "staat van activa en passiva",
+    "drie-maandentermijn",
+    "NV naar BVBA",
+    "extern accountant"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "U wordt aangesteld als extern accountant bij het opstellen van het controleverslag omtrent de omzetting van NV LKM in een BVBA. U wordt aangesteld op 1 oktober 2010 en ontvangt de staat van activa en passiva opgesteld op 30 april 2010. De normale afsluitdatum is 31 december van ieder jaar."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is uw advies als extern accountant naar uw cliënt?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG-pagina 13 toont 'Vraag 3 .../ 6 punten' onder de sectiekop 'VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN)' (zichtbaar op pagina 11 bij vr16). Tekst en PNG zijn consistent. Onder de vraag staat 'Motiveer bondig uw antwoord' (visueel aan voet van pagina), dus motivatie_verwacht=true. Geen OCR-typo's, geen tabellen. DRAFT-watermerk (Studocu) genegeerd conform context-instructie.",
+  "kwaliteits_flags": []
+}

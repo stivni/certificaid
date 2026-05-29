@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr22",
+  "interpretatie_datum": "2026-05-29T19:32:21Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting: huwelijksquotiënt, buitenlandse sociale bijdragen, ecocheques, belastingverminderingen vs belastingkrediet",
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
+  "themas": [
+    "huwelijksquotiënt",
+    "wettelijk samenwonenden",
+    "buitenlandse sociale bijdragen",
+    "ecocheques",
+    "belastingvermindering",
+    "belastingkrediet"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Beoordeel de volgende stellingen als waar of niet waar."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het huwelijksquotiënt wordt toegekend aan de echtgenoot die geen beroepsinkomsten heeft. Dit stelsel wordt enkel op echtgenoten toegepast, en mag niet worden toegepast op wettelijk samenwonenden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In het buitenland betaalde persoonlijke sociale bijdragen zijn aftrekbaar als ze werden betaald in het kader van een buitenlandse sociale verzekering waaraan de belastingplichtige, wegens de in het buitenland verrichte beroepswerkzaamheid, verplicht onderworpen is.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ecocheques zijn belastbaar ten name van de werknemer en als beroepskosten aftrekbaar bij de werkgever.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Sommige uitgaven die recht geven op belastingverminderingen, kunnen worden omgezet in een belastingkrediet.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier juist/fout stellingen onder vraag 3 (in segment-bestand vr22) uit de PERSONENBELASTING-sectie. Tekst.txt bevat zowel de oorspronkelijke pdfplumber-extract als gestructureerde === subvraag X === blokken; inhoud is consistent. PNG (pagina_14.png, toont eigenlijk PDF-pagina 13 met begin van vraag 3) bevestigt subvraag a) met Waar/Niet-waar checkbox-tabel. Subvragen b/c/d staan op vervolgpagina maar zijn volledig leesbaar in tekst.txt. De header 'VENNOOTSCHAPSBELASTING 20 PUNTEN' in de tekst markeert het einde van deze PB-sectie en is geen onderdeel van vr22. Geen motivering gevraagd in de stellingen (Waar/Niet-waar zonder 'motiveer').",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

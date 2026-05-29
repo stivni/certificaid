@@ -3,12 +3,12 @@ title: PO 2.5 — Fiscale procedure
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.5 (Fiscale procedure).
 tags: [examen, voorbeeldvragen, po-2-5]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.5 — Fiscale procedure
 
-**19 unieke vraag-eenheden** (waarvan 2 clusters, totaal 21 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 19 met modelantwoord
+**21 unieke vraag-eenheden** (waarvan 2 clusters, totaal 23 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 21 met modelantwoord
 
 <a id="2024-1-vr9A"></a>
 
@@ -576,6 +576,67 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 333, al. 3 WIB92 (kennisgeving van aanwijzingen als voorwaarde voor onderzoek in de bijkomende termijn) en art. 340 WIB92 (bewijsmiddelen, bewijskracht PV tot bewijs van het tegendeel). De wet vereist enkel "aanwijzingen", niet het bewijs zelf — dat laatste volgt uit het onderzoek zelf. 📖  
 > > *Bron: Art. 333, al. 3 en art. 340 WIB92*
+
+<a id="2010-2-vr35"></a>
+
+> [!question]- Onderzoeksbevoegdheden fiscale administratie t.a.v. bankrekeningen — bankgeheim
+> *🆕 Examen 2010-2 · PO 2.5*
+>
+> Lastens de heer X, Belgisch rijksinwoner, die in België houder is van een bankrekening, wordt een fiscaal onderzoek ingesteld. De administratie tracht de buitenlandse roerende inkomsten vast te stellen die via die rekening werden geïnd. Maar de administratie is niet in het bezit van enige informatie vanwege een buitenlandse fiscale administratie.
+>
+> **Mag de administratie zich tot de bank richten om een kopie te bekomen van de stukken met vermelding van de financiële bewegingen op die rekening?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja, maar enkel onder strikte voorwaarden** — het bankgeheim van art. 318 WIB92 (in 2010 de enige doorbrekingsgrond; sinds de Wet van 14 april 2011 aangevuld door art. 322 §2 WIB92) verzet zich tegen een rechtstreekse bevraging van de bank, tenzij het voorafgaand onderzoek bij de belastingplichtige zelf **concrete elementen** aan het licht heeft gebracht die het bestaan of de voorbereiding van een **mechanisme van belastingontduiking** doen vermoeden. 🔗
+> > 
+> > Stap-voor-stap toegepast op de casus:
+> > 
+> > 1. **Principe — bankgeheim (art. 318, eerste lid WIB92)**: de administratie mag *in beginsel* géén inlichtingen inzamelen bij bank-, wissel-, krediet- en spaarinstellingen met het oog op het belasten van hun cliënten. 📖
+> > 2. **Uitzondering (art. 318, tweede lid WIB92, versie 2010)**: de fiscus mag het bankgeheim doorbreken indien een voorafgaand onderzoek op basis van art. 315, 315bis, 315ter of 316 WIB92 (boekhouding, vraag om inlichtingen aan de belastingplichtige zelf) **concrete elementen** oplevert die het bestaan of de voorbereiding van een **mechanisme van belastingontduiking** doen vermoeden. 📖
+> > 3. **Procedure**: de aanvraag bij de bank moet gemachtigd worden door een door de Minister van Financiën aangewezen ambtenaar, die een ambtenaar met minstens de titel van attaché opdraagt de inlichtingen op te vragen. 📖
+> > 4. **Toepassing op X**: het loutere feit dat de heer X een Belgische bankrekening heeft waarop buitenlandse roerende inkomsten zijn geïnd, volstaat **niet automatisch**. De fiscus moet eerst de belastingplichtige zelf bevragen (art. 316 WIB92) en uit dat onderzoek concrete aanwijzingen van een ontduikingsmechanisme afleiden — bv. niet-aangegeven buitenlandse rekening, niet-aangegeven roerende inkomsten, ontbrekende aangifte van de roerende voorheffing. Pas dan kan de bank worden aangesproken. 🔗
+> > 
+> > **Tijdsdimensie**: de vraag dateert van juli 2010 — *vóór* de Wet van 14 april 2011, die het bankonderzoek grondig herstructureerde en art. 322 §2 WIB92 als bijkomende doorbrekingsgrond invoerde (aanwijzingen van belastingontduiking, art. 341-toepassing, of niet-naleving van de gemeenschappelijke rapporteringsnorm). In de huidige praktijk wordt vrijwel altijd via art. 322 §2 WIB92 gewerkt: eerst een vraag om inlichtingen aan de belastingplichtige (art. 316) met expliciete waarschuwing dat art. 322 §2 zal worden ingeroepen bij weigering of verzwijging, en pas daarna de opvraging bij de bank. Het **Centraal Aanspreekpunt (CAP)** bij de NBB laat de fiscus toe eerst te checken bij welke instellingen de belastingplichtige rekeningen aanhoudt. 🔗
+> > 
+> > **Art. 318 WIB92** — eerste lid: bankgeheim als principe; tweede lid: doorbreking mogelijk wanneer een onderzoek op grond van art. 315, 315bis, 315ter of 316 WIB92 concrete elementen aan het licht brengt die het bestaan of de voorbereiding van een mechanisme van belastingontduiking doen vermoeden. Vereist machtiging door een door de Minister van Financiën aangewezen ambtenaar. **Art. 322 §2 WIB92** (sinds Wet 14 april 2011) — aanvullende doorbrekingsgrond: aanwijzingen van belastingontduiking, na voorafgaande vraag aan de belastingplichtige (art. 316) met waarschuwing. 📖  
+> > *Bron: Art. 318 WIB92 (en sinds 2011 ook art. 322 §2 WIB92)*
+
+<a id="2010-2-vr36"></a>
+
+> [!question]- Fiscaal bankgeheim — informatieverzoek van ontvanger aan bank over vermogenssituatie belastingschuldige
+> *🆕 Examen 2010-2 · PO 2.5*
+>
+> U bent belastingconsulent.
+> 
+> De heer Y, Belgisch rijksinwoner, die in België houder is van een bankrekening, is aan de Staat belasting verschuldigd.
+> 
+> De ontvanger, die zich zorgen maakt over de inning van de vordering van de Staat, informeert bij de bank naar de vermogenssituatie van de heer Y in haar boekhouding. De bank wenst niet in te gaan op die vraag en raadpleegt u dienaangaande.
+>
+> Wat antwoordt u haar? Vermeld de wettelijke grondslag van uw antwoord.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De bank **moet** ingaan op de vraag van de ontvanger en schriftelijk inlichtingen verstrekken over de vermogenssituatie van de heer Y. Het fiscaal bankgeheim van art. 318 WIB92 is **niet** van toepassing op de invordering — het beschermt de cliënt enkel tegen de administratie die de belasting *vestigt*, niet tegen de administratie die ze *int*. 🔗
+> > 
+> > De redenering verloopt in drie stappen:
+> > 
+> > 1. **Art. 318 WIB92** verbiedt de administratie inlichtingen in te zamelen bij bank-, wissel-, krediet- en spaarinstellingen, maar enkel "met het oog op het belasten van hun cliënten" — dus uitsluitend in de **vestigingsfase**. 📖
+> > 2. De **ontvanger** treedt op in de **invorderingsfase**: de belasting is reeds gevestigd en ingekohierd; de vraag is hoe de Staat de openstaande schuld kan innen. Art. 318 WIB92 geldt voor hem dus niet. 🔗
+> > 3. De ontvanger beschikt over een **eigen, ruime onderzoeksbevoegdheid** in het Wetboek van de minnelijke en gedwongen invordering (Wb.Inv., sinds 1 januari 2020). Art. 75 Wb.Inv. verplicht **iedere persoon** — uitdrukkelijk inclusief banken — om op schriftelijk verzoek alle toereikende, ter zake dienende en niet overmatige inlichtingen te verstrekken "teneinde [de] vermogenssituatie [van de schuldenaar] te bepalen met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen". 📖
+> > 
+> > Weigeren stelt de bank dus bloot aan sancties; zij dient binnen de in de aanvraag vermelde termijn schriftelijk te antwoorden. 📖
+> > 
+> > **Historische context** — ten tijde van het examen (2010) stond deze onderzoeksbevoegdheid van de ontvanger in **art. 319bis WIB92**. Bij de codificatie van het invorderingsrecht in het Wb.Inv. (in werking op 1 januari 2020) werd de regel overgeheveld naar **art. 75 Wb.Inv.**, met behoud van de essentie. Een stagiair die deze vraag vandaag krijgt, moet dus de actuele grondslag citeren, maar het inhoudelijke principe — *geen bankgeheim tegenover de ontvanger* — is ongewijzigd. 🔗
+> > 
+> > **Valkuil**: art. 318 WIB92 niet verwarren met de tweede paragraaf van art. 322 WIB92 (doorbreking bankgeheim bij aanwijzingen van belastingontduiking, met kennisgevingsplicht via art. 333/1) — beide regelen het bankgeheim in de **vestigingsfase**. Voor de invordering is de cascade volledig anders: rechtstreekse vordering bij de bank op grond van art. 75 Wb.Inv., zonder voorafgaand vermoeden van fraude en zonder kennisgevingsplicht aan de belastingschuldige. 🔗
+> > 
+> > **Art. 75 Wb.Inv.** (Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen) — actuele grondslag: iedere persoon, ook een bank, is verplicht de met de invordering belaste ambtenaren op schriftelijk verzoek alle toereikende inlichtingen te verstrekken om de vermogenssituatie van de schuldenaar te bepalen. 📖
+> > 
+> > **Art. 318 WIB92** — a contrario: het bankgeheim geldt enkel "met het oog op het belasten" van de cliënt (vestigingsfase) en is dus niet inroepbaar tegen de ontvanger. 📖
+> > 
+> > **Ten tijde van het examen (2010)**: art. 319bis WIB92 — voorganger van art. 75 Wb.Inv., met identieke draagwijdte. 🔗  
+> > *Bron: Art. 75 Wb.Inv.; art. 318 WIB92 (a contrario); historisch art. 319bis WIB92*
 
 <a id="2008-bibf-vrH1"></a>
 

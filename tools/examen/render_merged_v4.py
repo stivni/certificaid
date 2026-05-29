@@ -43,6 +43,11 @@ PROGRAMMA_JSON = REPO_ROOT / "data" / "programma" / "programma.json"
 OUTPUT_DIR = REPO_ROOT / "content" / "voorbeeldexamens"
 TEMPLATES_DIR = Path(__file__).resolve().parent / "templates"
 
+# Examens die als "nieuw toegevoegd" worden gerenderd: badge in herkomst-regel
+# + aparte kolom in de index. Verwijder een examen-id zodra zijn nieuwigheid
+# in de UI is afgekoeld (bv. na een paar weken).
+NEW_EXAMENS: set[str] = {"2010-2"}
+
 # Cluster-cache: laadt _clusters/<po>.json on demand
 _CLUSTER_CACHE: dict[str, dict[str, Any] | None] = {}
 
@@ -632,6 +637,8 @@ def _formatteer_herkomst(
         basis = f"Examen {examen_id} (hybride bron)"
     else:
         basis = f"Examen {examen_id}"
+    if examen_id in NEW_EXAMENS:
+        basis = f"🆕 {basis}"
     if programmaonderdeel_ids:
         po_str = " + ".join(programmaonderdeel_ids)
         return f"{basis} · PO {po_str}"
@@ -807,6 +814,7 @@ def _render_vraag_eenheid(
     # Herkomst-regel: bij cluster combineer alle examens, anders enkel canonical
     if cluster_leden and len(cluster_leden) > 1:
         examen_items: list[str] = []
+        any_new = False
         for lid in cluster_leden:
             li = lid.get("interpretatie", {}) or {}
             e_id = li.get("examen_id", "")
@@ -817,10 +825,13 @@ def _render_vraag_eenheid(
                 suffix = " (herinnering)"
             elif l_herkomst == "hybride":
                 suffix = " (hybride)"
+            if e_id in NEW_EXAMENS:
+                any_new = True
             examen_items.append(f"{e_id} ({l_vid}){suffix}")
         po_str = " + ".join(programmaonderdeel_ids) if programmaonderdeel_ids else ""
+        prefix = "🆕 " if any_new else ""
         herkomst_regel = (
-            f"Examens {' & '.join(examen_items)}"
+            f"{prefix}Examens {' & '.join(examen_items)}"
             + (f" · PO {po_str}" if po_str else "")
         )
     else:
@@ -1039,17 +1050,30 @@ def _render_index_pagina(
 
     po_overzicht = []
     totaal_vragen = 0
+    totaal_nieuw = 0
     for code in sorted(per_po.keys(), key=sorteer_key):
         vragen = per_po[code]
         met_antwoord = sum(1 for v in vragen if v.get("antwoord") is not None)
+        # Een vraag is "nieuw" als canonical of een cluster-lid tot NEW_EXAMENS behoort.
+        nieuw_count = 0
+        for v in vragen:
+            interp = v.get("interpretatie", {}) or {}
+            examens_in_vraag = {interp.get("examen_id", "")}
+            for lid in v.get("cluster_leden", []) or []:
+                li = lid.get("interpretatie", {}) or {}
+                examens_in_vraag.add(li.get("examen_id", ""))
+            if examens_in_vraag & NEW_EXAMENS:
+                nieuw_count += 1
         po_overzicht.append({
             "code": code,
             "titel": po_catalogus.get(code, "?"),
             "slug": _po_slug(code),
             "totaal": len(vragen),
             "met_antwoord": met_antwoord,
+            "nieuw": nieuw_count,
         })
         totaal_vragen += len(vragen)
+        totaal_nieuw += nieuw_count
 
     onbezette_pos = [
         {"code": code, "titel": titel}
@@ -1060,10 +1084,105 @@ def _render_index_pagina(
     inhoud = tmpl.render(
         po_overzicht=po_overzicht,
         totaal_vragen=totaal_vragen,
+        totaal_nieuw=totaal_nieuw,
+        nieuw_examens=sorted(NEW_EXAMENS),
         onbezette_pos=onbezette_pos,
         vandaag=vandaag,
     )
     return inhoud.rstrip() + "\n"
+
+
+def _render_nieuw_pagina(
+    per_po: dict[str, list[dict[str, Any]]],
+    po_catalogus: dict[str, str],
+) -> str:
+    """Render aparte index van vraag-eenheden uit recent toegevoegde examens.
+
+    Geeft lege string terug als er geen vragen uit `NEW_EXAMENS` zijn — caller
+    verwijdert dan de file (auto-cleanup als examen uit NEW_EXAMENS gehaald).
+    """
+    if not NEW_EXAMENS:
+        return ""
+
+    vandaag = date.today().isoformat()
+    nieuw_examens = sorted(NEW_EXAMENS)
+
+    # Verzamel per PO de vragen waarvan canonical of cluster-lid in NEW_EXAMENS zit.
+    items_per_po: dict[str, list[dict[str, Any]]] = {}
+    totaal_nieuw = 0
+    for po_code in sorted(per_po.keys(), key=_natural_sort_key):
+        po_titel = po_catalogus.get(po_code, "?")
+        for v in per_po[po_code]:
+            interp = v.get("interpretatie", {}) or {}
+            examen_id = interp.get("examen_id", "")
+            cluster_leden = v.get("cluster_leden") or []
+            betrokken: set[str] = {examen_id}
+            for lid in cluster_leden:
+                li = lid.get("interpretatie", {}) or {}
+                betrokken.add(li.get("examen_id", ""))
+            nieuw_ids = betrokken & NEW_EXAMENS
+            if not nieuw_ids:
+                continue
+            vraag_id = v.get("vraag_id", "")
+            onderwerp = interp.get("vraag_onderwerp") or "(geen onderwerp)"
+            anker_slug = vraag_id.lower().replace(".", "-")
+            items_per_po.setdefault(po_code, []).append({
+                "vraag_id": vraag_id,
+                "examen_id": examen_id,
+                "onderwerp": onderwerp,
+                "po_code": po_code,
+                "po_titel": po_titel,
+                "anker": anker_slug,
+                "examens_nieuw": sorted(nieuw_ids),
+                "is_cluster": len(cluster_leden) > 1,
+            })
+            totaal_nieuw += 1
+
+    if totaal_nieuw == 0:
+        return ""
+
+    regels: list[str] = []
+    regels.append("---")
+    regels.append("title: 🆕 Recent toegevoegde voorbeeldexamens")
+    regels.append(
+        "description: Aparte index van voorbeeldexamen-vragen uit recent toegevoegde examens, "
+        "gegroepeerd per programmaonderdeel."
+    )
+    regels.append("tags: [examen, voorbeeldvragen, nieuw]")
+    regels.append("gegenereerd_uit: tools/examen/render_merged_v4.py")
+    regels.append(f"gegenereerd_op: {vandaag}")
+    regels.append("---")
+    regels.append("")
+    regels.append("# 🆕 Recent toegevoegde voorbeeldexamens")
+    regels.append("")
+    examens_label = ", ".join(nieuw_examens)
+    eenheid_woord = "vraag-eenheid" if totaal_nieuw == 1 else "vraag-eenheden"
+    regels.append(
+        f"Vragen uit recent toegevoegd{'e examens' if len(nieuw_examens) > 1 else ' examen'} "
+        f"**{examens_label}**, gegroepeerd per programmaonderdeel. "
+        f"Totaal: **{totaal_nieuw}** {eenheid_woord}."
+    )
+    regels.append("")
+    regels.append(
+        "_De vragen zijn ook geïntegreerd in de gewone PO-pagina's (zie [[index|hoofdoverzicht]]). "
+        "Deze pagina is een snelle filter zolang het examen als 'nieuw' is gemarkeerd._"
+    )
+    regels.append("")
+
+    for po_code in sorted(items_per_po.keys(), key=_natural_sort_key):
+        po_items = items_per_po[po_code]
+        po_titel = po_catalogus.get(po_code, "?")
+        regels.append(f"## PO {po_code} — {po_titel}")
+        regels.append("")
+        regels.append(f"_{len(po_items)} {'vraag-eenheid' if len(po_items) == 1 else 'vraag-eenheden'} · [[po-{po_code}|volledig overzicht PO {po_code}]]_")
+        regels.append("")
+        for item in po_items:
+            link = f"[[po-{item['po_code']}#{item['anker']}|{item['vraag_id']}]]"
+            cluster_suffix = " · (geclusterd met eerder examen)" if item["is_cluster"] else ""
+            regels.append(f"- {link} — {item['onderwerp']}{cluster_suffix}")
+        regels.append("")
+
+    return "\n".join(regels).rstrip() + "\n"
 
 
 # ---------------------------------------------------------------------------
@@ -1146,6 +1265,15 @@ def render_alle() -> dict[str, bool]:
     index_inhoud = _render_index_pagina(per_po, po_catalogus)
     index_pad = OUTPUT_DIR / "index.md"
     resultaten["index"] = _schrijf_indien_gewijzigd(index_pad, index_inhoud)
+
+    # Aparte index van recent toegevoegde examens — pas schrijven als er iets te tonen valt.
+    nieuw_inhoud = _render_nieuw_pagina(per_po, po_catalogus)
+    nieuw_pad = OUTPUT_DIR / "nieuw.md"
+    if nieuw_inhoud:
+        resultaten["nieuw"] = _schrijf_indien_gewijzigd(nieuw_pad, nieuw_inhoud)
+    elif nieuw_pad.exists():
+        nieuw_pad.unlink()
+        resultaten["nieuw"] = True
 
     return resultaten
 

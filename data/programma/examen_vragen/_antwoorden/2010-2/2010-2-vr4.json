@@ -1,0 +1,179 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr4",
+  "antwoord_datum": "2026-05-29T12:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nettobedrijfskapitaal (NBK) = 235.904** (vlottende activa − schulden ≤ 1 jaar). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Liquiditeitsbenadering** (van onder de balansstreep):\n\n- Vlottende activa = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗\n- Schulden ≤ 1 jaar = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗\n- **NBK = 332.976 − 97.072 = 235.904** 🔗\n\n**Solvabiliteitsbenadering** (van boven de balansstreep — controle): permanent vermogen − vaste activa = (EV 145.800 + schulden > 1 jaar 135.000) − materiële vaste activa 44.896 = 280.800 − 44.896 = **235.904** ✓ 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een positief NBK van 235.904 op een balanstotaal van 377.872 is zeer ruim — de onderneming financiert een groot deel van haar vlottende activa met permanente middelen (langetermijn-schulden + eigen vermogen). Dat geeft een grote werkkapitaal-buffer, maar wijst ook op mogelijk onderbenut kapitaal (zie ook de hoge cash-positie van 125.851 + geldbeleggingen 79.756). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio) + Belgische MAR-rubrieken (KB 21.10.2018, bijlage 1). NBK is per definitie het verschil tussen vlottende activa (klassen 3, 40-41, 50-58, 490) en schulden ≤ 1 jaar (klassen 42-48, 492). 🔗",
+          "wetsref": "KB 21.10.2018 — MAR, klassen 3-5 + 42-49",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Current ratio = 332.976 / 97.072 ≈ 3,43**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "- **Vlottende activa** (teller) = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗\n- **Kortlopende schulden** (noemer) = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗\n- **Current ratio = 332.976 / 97.072 = 3,43** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een current ratio van 3,43 ligt ver boven de vuistregel (gezond = 1,5-2,0) — wijst eerder op een zeer comfortabele liquiditeitspositie, of zelfs op onderbenut werkkapitaal. Sector-specifiek interpreteren blijft nodig, maar de combinatie met 125.851 liquide middelen + 79.756 geldbeleggingen bevestigt het beeld: deze onderneming heeft cash-overschot. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Current ratio (liquiditeit in ruime zin) = vlottende activa / kortlopende schulden. Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio). Onderscheid met liquiditeit in enge zin (acid test): die haalt voorraden uit de teller. 🔗",
+          "wetsref": "KB 21.10.2018 — MAR, klassen 3-5 + 42-49",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Zelffinancieringsgraad = (99.161 − 15.361) / 377.872 ≈ 22,18 %**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "- **Reserves** = 99.161 🔗\n- **Overgedragen verlies** = −15.361 🔗\n- **Eigen gegenereerd vermogen** (teller) = 99.161 − 15.361 = **83.800** 🔗\n- **Totaal passief** (noemer) = **377.872** 🔗\n- **Zelffinancieringsgraad = 83.800 / 377.872 × 100 % ≈ 22,18 %** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Zelffinancieringsgraad ≠ solvabiliteitsratio. De solvabiliteitsratio (EV / totaal passief = 145.800 / 377.872 ≈ 38,58 %) telt het volledige eigen vermogen, inclusief ingebracht kapitaal (62.000). De zelffinancieringsgraad meet alleen wat de onderneming zélf heeft opgebouwd via niet-uitgekeerde winsten (reserves + overgedragen resultaat) — dus zonder ingebrachte kapitaal-component. Beide ratio's geven elk een ander luik van de financieringsstructuur. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Zelffinancieringsgraad = (reserves + overgedragen resultaat) / totaal passief × 100 %. Standaarddefinitie Belgische jaarrekeninganalyse (Ooghe & Van Wymeersch); meet het aandeel van het balanstotaal dat door eigen winstreservering werd opgebouwd. MAR-rubrieken: 13 (reserves) + 14 (overgedragen resultaat). 🔗",
+          "wetsref": "KB 21.10.2018 — MAR, rubrieken 13 + 14",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nettorentabiliteit EV na belastingen = 1.753 / 145.800 ≈ 1,20 %**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "- **Resultaat van het boekjaar (na belastingen)** = **1.753** 🔗\n- **Eigen vermogen** = kapitaal 62.000 + reserves 99.161 − overgedragen verlies 15.361 + uitgestelde belastingen 0 = **145.800** 🔗\n- **ROE = 1.753 / 145.800 × 100 % ≈ 1,20 %** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een ROE van 1,20 % is zeer zwak — ver onder de risicovrije rente + risicopremie (typisch 8-12 % voor KMO). De onderneming vernietigt economisch waarde voor haar aandeelhouders: kapitaal dat anders belegd zou worden in een spaarrekening levert meer op. De brutomarge is wel gezond (omzet 1.510.610 vs verbruikte goederen 1.150.081 ≈ 24 %), maar de hoge financiële kosten (12.429) drukken het nettoresultaat. Bij ideale ratio-analyse: gemiddeld EV (begin + einde / 2) gebruiken — hier niet beschikbaar, dus eind-EV gebruikt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Nettorentabiliteit eigen vermogen na belastingen (ROE) = nettoresultaat (rubriek 9904) / eigen vermogen (rubrieken 10-15) × 100 %. Concept-record `rentabiliteits-ratios` (subconcept rentabiliteit-eigen-vermogen). 🔗",
+          "wetsref": "KB 21.10.2018 — MAR, rubrieken 10-15 + 9904",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Operationeel brutoresultaat vóór belastingen = 42.354** (≈ EBITDA — bedrijfsresultaat vóór afschrijvingen en waardeverminderingen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Eerst **bedrijfsresultaat** (= operationeel nettoresultaat):\n\n- Omzet 1.510.610 + andere bedrijfsopbrengsten 19.154 = **bedrijfsopbrengsten 1.529.764** 🔗\n- − verbruikte handelsgoederen 1.150.081\n- − diensten en diverse goederen 186.050\n- − bezoldigingen en sociale lasten 148.283\n- − afschrijvingen 29.589\n- − waardeverminderingen 0\n- − andere bedrijfskosten 2.996\n- = **bedrijfskosten 1.516.999**\n- → **Bedrijfsresultaat = 1.529.764 − 1.516.999 = 12.765** 🔗\n\nDan **operationeel brutoresultaat** (= bedrijfsresultaat + niet-kaskosten):\n\n- Bedrijfsresultaat 12.765 + afschrijvingen 29.589 + waardeverminderingen 0 = **42.354** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Operationeel brutoresultaat (≈ EBITDA) ≠ bedrijfsresultaat (≈ EBIT). De \"bruto\"-term verwijst naar de toestand vóór niet-kaskosten (afschrijvingen + waardeverminderingen + voorzieningen). Verwar ook niet met de brutomarge in enge zin (omzet − kostprijs verkopen): die kijkt alleen naar de directe inkoopkost van verkochte goederen. Onder Belgische rubricering: EBITDA = rubriek 9901 (bedrijfsresultaat) + 630 (afschrijvingen) + 631-634 (waardeverminderingen) + 635-637 (voorzieningen). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Operationeel brutoresultaat (EBITDA) = bedrijfsresultaat (rubriek 9901) + afschrijvingen (630) + waardeverminderingen op immateriële/materiële vaste activa + op voorraden/handelsvorderingen (631-634) + voorzieningen voor risico's en kosten (635-637). Concept-record `rentabiliteits-ratios` (subconcept ebitda-marge). 🔗",
+          "wetsref": "KB 21.10.2018 — MAR, rubrieken 70-74 + 60-64 + 9901",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

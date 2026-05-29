@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "1.5",
+  "gegenereerd_op": "2026-05-29T19:44:54+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.85,
+  "n_vragen": 4,
+  "n_clusters": 0,
+  "n_singletons": 4,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7A",
+      "vraag_onderwerp": "Voorraadwaarderingsmethoden toegelaten onder IAS/IFRS",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7B",
+      "vraag_onderwerp": "Voorzichtigheidsprincipe — opname en waardering (Richtlijn 2013/34/EU)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7C",
+      "vraag_onderwerp": "IAS/IFRS — stellingen over afschrijvingen, kosten en uitzonderlijke posten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7D",
+      "vraag_onderwerp": "Operationele en financiële leasing — boekhoudkundige verwerking onder IAS/IFRS",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7D.json"
+    }
+  ]
+}

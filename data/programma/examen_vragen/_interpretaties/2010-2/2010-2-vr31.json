@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr31",
+  "interpretatie_datum": "2026-05-29T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vermindering registratierechten bij aankoop woning in Brussels Hoofdstedelijk Gewest (abattement)",
+  "programmaonderdeel_ids": ["2.6"],
+  "themas": [
+    "registratierechten",
+    "abattement",
+    "Brussels Hoofdstedelijk Gewest",
+    "aankoop woning",
+    "verminderingsvoorwaarden"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een natuurlijke persoon wenst een huis te kopen in het Brussels Hoofdstedelijk Gewest (aankoopprijs = € 195 000)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is het basisbedrag van de vermindering van de registratierechten waarop hij aanspraak heeft?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Noem 4 voorwaarden op waaraan deze natuurlijke persoon moet voldoen om voor deze maatregel in aanmerking te komen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag staat helder in zowel tekst.txt als PNG. Het tekstfragment dat eindigt met de tabel 'BEGINSELEN VAN EUROPEES EN INTERNATIONAAL FISCAAL RECHT — 10 PUNTEN' is de header van het volgende vakgebied (Vraag 1 daaronder, deels zichtbaar op pagina 19) en hoort niet bij vr31; genegeerd. Vraag 2 op de pagina is dus de gehele vraag-eenheid: één casus (aankoop huis Brussel € 195 000) met twee deelvragen (basisbedrag vermindering + vier voorwaarden). De vraag valt onder REGISTRATIERECHTEN → PO 2.6. Vraag-titel 'Vraag 2' uit de PDF wordt niet als label gebruikt — interne deelvraag-ids a/b.",
+  "kwaliteits_flags": ["pagina_overslaat"]
+}

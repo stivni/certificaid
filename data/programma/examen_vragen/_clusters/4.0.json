@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "4.0",
-  "gegenereerd_op": "2026-05-26T10:21:34+00:00",
+  "gegenereerd_op": "2026-05-29T19:47:00+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 31,
+  "threshold_cosine": 0.85,
+  "n_vragen": 36,
   "n_clusters": 1,
-  "n_singletons": 29,
+  "n_singletons": 34,
   "clusters": [
     {
       "cluster_id": "4.0-c1",
@@ -32,17 +32,24 @@
           "naar": "2014-1-vr45",
           "cosine": 0.8703
         }
-      ],
-      "verdict": "varianten",
-      "actie": "behoud_apart_met_label",
-      "motivering": "Beide juist/fout-stellingen over onafhankelijkheid externe accountant (verboden/toegelaten mandaten + activiteiten). Eén stelling overlapt expliciet (bestuursmandaat in commerciële vennootschap met toestemming Raad); overige stellingen verschillen (verzekeringsmakelaar, krediet-makelaar, patrimoniumvennootschap vs echtgenoot-stemrechten, interne accountant). Gedeeld antwoord moet alle stellingen afzonderlijk dekken."
+      ]
     }
   ],
   "borderline_paren": [
     {
+      "van": "2010-2-vr38",
+      "naar": "2013-2-vr37",
+      "cosine": 0.7961
+    },
+    {
       "van": "2013-1-vr36",
       "naar": "2015-1-vr52",
       "cosine": 0.7946
+    },
+    {
+      "van": "2010-2-vr41",
+      "naar": "2013-1-vr36",
+      "cosine": 0.7798
     },
     {
       "van": "2003-bibf-vrK1",
@@ -92,6 +99,36 @@
       "vraag_id": "2008-bibf-vrK5",
       "vraag_onderwerp": "Oprichting boekhoudvennootschap BIBF: doel, zaakvoerders, aandelenverdeling en stagiair",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK5.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr38",
+      "vraag_onderwerp": "Overdracht van documenten aan een collega-accountant bij dossier-overname",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr38.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr39",
+      "vraag_onderwerp": "Voorwaarden en regels voor een accountants- en/of belastingconsulentenvennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr39.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr40",
+      "vraag_onderwerp": "Bevoegde commissies/organen van het IAB per type aangelegenheid",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr40.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr41",
+      "vraag_onderwerp": "Deontologie: publiciteit en cliëntenwerving door accountants en/of belastingconsulenten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr41.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr42",
+      "vraag_onderwerp": "Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr42.json"
     },
     {
       "examen_id": "2013-1",
@@ -225,6 +262,5 @@
       "vraag_onderwerp": "AMLCO-verplichtingen: stellingen juist of fout",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

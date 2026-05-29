@@ -1,0 +1,67 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr26",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja** — op basis van haar dividendpolitiek komt nv 'ZER' in aanmerking voor het verminderd (opklimmend) basistarief: het uitgekeerd dividend van **€ 50.000** blijft onder de grens van **13 % × € 500.000 (gestort kapitaal bij begin van het belastbaar tijdperk) = € 65.000**. De dividend-uitsluitingsgrond van art. 215, derde lid, 3° WIB92 speelt dus niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "| Toets dividendvoorwaarde art. 215, derde lid, 3° WIB92 | Bedrag |\n|---|---:|\n| Gestort kapitaal bij **begin** belastbaar tijdperk (31/12/2008) | € 500.000,00 |\n| Maximum-dividend = 13 % × gestort kapitaal | **€ 65.000,00** |\n| Werkelijk uitgekeerd dividend (AV-beslissing boekjaar 2009) | € 50.000,00 |\n| Verhouding dividend / gestort kapitaal | 10,00 % |\n| Grens 13 % overschreden? | **Neen** |\n",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — Welk gestort kapitaal telt?** Voor de 13 %-toets geldt het gestort kapitaal **bij het begin** van het belastbaar tijdperk, niet het eindbedrag. Voor aanslagjaar 2010 (boekjaar 2009) is dat het gestort kapitaal op 31/12/2008 = **€ 500.000**. De kapitaalverhoging van € 250.000 in 2009 brengt het gestort kapitaal eind 2009 op € 750.000, maar telt voor déze toets nog niet mee. 🔗\n\n**Stap 2 — Bereken de grens.** 13 % × € 500.000 = **€ 65.000**. 🔗\n\n**Stap 3 — Vergelijk.** Dividend € 50.000 < grens € 65.000 → dividendvoorwaarde **vervuld**. Procentueel: € 50.000 / € 500.000 = **10 %**, ruim onder de drempel van 13 %. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vraag toetst expliciet enkel de **dividendpolitiek-voorwaarde**. Voor de effectieve toekenning van het verminderd opklimmend tarief moet de vennootschap ook voldoen aan de andere uitsluitingsgronden van art. 215, derde lid WIB92 — onder meer de **bezoldigingsvoorwaarde** voor minstens één bedrijfsleider (toen € 36.000, of minstens gelijk aan het belastbaar inkomen indien dat lager is), de **50 %-aandelenbezit-test**, en het verbod dat de aandelen voor meer dan 50 % in handen zijn van andere vennootschappen. De casusgegevens over de bedrijfsleidersvorderingen tegen 6 % (mogelijk herkwalificatie tot interesten i.p.v. bezoldiging onder art. 18 WIB92) en de samenstelling van het kapitaal zijn relevant voor die andere voorwaarden, maar vallen buiten het bestek van deze deelvraag. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Niet** het gestort kapitaal op het einde van het belastbaar tijdperk (€ 750.000) gebruiken. Wie dat doet, krijgt een grens van € 97.500 — wat het antwoord hier niet verandert (€ 50.000 blijft onder die grens), maar de redenering is foutief en in randgevallen leidt het tot het verkeerde besluit. De wetstekst zegt uitdrukkelijk \"bij het begin van het belastbaar tijdperk\". 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 215, derde lid, 3° WIB92** — uitsluitingsgrond voor het verminderd (opklimmend) basistarief vennootschapsbelasting: vennootschappen die een dividend uitkeren dat hoger is dan **13 % van het gestort kapitaal bij het begin van het belastbaar tijdperk** zijn uitgesloten van het verminderd tarief. Bevestigd door de verwijzing in art. 537 WIB92 (\"de grens als bedoeld in artikel 215, derde lid, 3°\"). Voor aanslagjaar 2010 gold het toenmalige opklimmend tarief (24,25 % / 31 % / 34,5 % volgens de schijven van art. 215 WIB92 zoals gewijzigd door art. 12 van de wet van 24 december 2002); de hervorming van 25 december 2017 verving dit door het huidige 20 %-tarief op de eerste schijf van € 100.000, maar de 13 %-dividendvoorwaarde van het derde lid bleef behouden. 📖",
+          "wetsref": "Art. 215, derde lid, 3° WIB92 (juncto art. 537 WIB92; historische tariefschijven: art. 12 wet 24 december 2002)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

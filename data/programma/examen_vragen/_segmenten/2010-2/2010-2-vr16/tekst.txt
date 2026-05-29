@@ -1,0 +1,66 @@
+Vraag 1 …/12 punten
+Gegevens
+De NV ABC stelt de heer X in de mogelijkheid om in te schrijven bij een kapitaalverhoging in
+de vennootschap ten belope van 12.500,00 EUR tegen een prijs van 250,00 EUR per aandeel.
+Het totaal aantal bestaande aandelen bedraagt 4.358 aandelen en het geplaatst kapitaal
+bedraagt 1.080.443,31 EUR. Verder bestaat het eigen vermogen per 31 december 2009 uit
+volgende elementen:
+Reserves 169.782,24 EUR
+Overgedragen winst 40.683,50 EUR
+a) Bereken de fractiewaarde per aandeel
+b) Bereken de intrinsieke waarde per aandeel
+c) Bereken het normale aantal uit te geven aandelen
+d) Wat zijn de gevolgen voor de oude aandeelhouders bij genoemde verrichting,
+wanneer op het voorstel van het bestuursorgaan toch 50 aandelen worden
+uitgegeven?
+messages.downloaded_by
+
+11
+
+| Eigen vermogen | Voor kapitaalverhoging |  | Kapitaalverhoging |  | Na kapitaalverhoging |  |
+|---|---|---|---|---|---|---|
+|  | Bedrag | Aantal
+aandelen | Bedrag | Aantal
+aandelen | Bedrag | Aantal
+Aandelen |
+| Geplaatst kapitaal
+Wettelijke reserve
+Belastingvrije
+reserve
+Beschikbare reserve
+Overgedragen winst
+Resultaat voor de
+periode
+Kapitaalverhoging | 1.080.443,31
+1.330,17
+167.887,05
+565,02
+25.272,93
+15.410,57 | 4.358 | 12.500,00 | 50 | 1.092.943,31
+1.330,17
+167.887,05
+565,02
+25.272,93
+15.410,57 | 4.408 |
+| TOTALEN | 1.290.909,05 | 4.358 | 12.500,00 | 50 | 1.303.409,05 | 4.408 |
+| WAARDE PER
+AANDEEL | 296,22
+====== |  | 250,00
+===== |  | 295,69
+===== |  |
+
+=== subvraag a) ===
+Bereken de fractiewaarde per aandeel
+
+=== subvraag b) ===
+Bereken de intrinsieke waarde per aandeel
+
+=== subvraag c) ===
+Bereken het normale aantal uit te geven aandelen
+
+=== subvraag d) ===
+Wat zijn de gevolgen voor de oude aandeelhouders bij genoemde verrichting,
+wanneer op het voorstel van het bestuursorgaan toch 50 aandelen worden
+uitgegeven?
+messages.downloaded_by
+11

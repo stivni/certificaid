@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr1",
+  "interpretatie_datum": "2026-05-29T19:28:53Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Wijziging van afschrijvingspercentages — voorwaarden en formaliteiten",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": [
+    "afschrijvingen",
+    "wijziging afschrijvingsduur",
+    "waarderingsregels",
+    "toelichting jaarrekening",
+    "schatting versus stelselwijziging"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een onderneming heeft diverse machines in gebruik. Zij heeft deze machines steeds afgeschreven over een periode van vier jaar. Zij realiseert zich dat deze afschrijvingsperiode niet overeenstemt met de werkelijke gebruiksduur. De machines worden gebruikt over een periode van minstens acht jaar."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Kan de onderneming de afschrijvingspercentages van deze machines wijzigen?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Welke formaliteiten dienen te worden vervuld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële vraag uit het ITAA accountant-bekwaamheidsexamen 2010-2, vak 'WETGEVING INZAKE DE JAARREKENING' (15 punten in totaal; vraag 1 telt voor 3 punten). De PNG toont twee duidelijk afgebakende open deelvragen zonder letter-labels in de PDF (geen a/b in de bron — toegevoegd als interne id's voor stabiele referentie, label_in_pdf leeg). Geen OCR-correcties nodig — tekst.txt en PNG zijn consistent. De eerste deelvraag vraagt naar mogelijkheid en is impliciet om motivering (waarom mag/mag niet, onderscheid schattingswijziging vs stelselwijziging); motivatie_verwacht=true. De tweede vraagt naar concrete formaliteiten (toelichting, aanpassing waarderingsregels) — geen extra motivering nodig. Geclassificeerd als PO 1.2 (Wetgeving inzake de jaarrekening — afschrijvingsregels, schattingswijzigingen, toelichtingsverplichtingen).",
+  "kwaliteits_flags": []
+}

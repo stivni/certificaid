@@ -1,8 +1,10 @@
 {# Render de index-pagina: frontmatter + tabel met links per programmaonderdeel.
    Variabelen:
-     po_overzicht   — lijst van dicts met {code, titel, slug, totaal, met_antwoord, examens}
+     po_overzicht   — lijst van dicts met {code, titel, slug, totaal, met_antwoord, nieuw}
      totaal_vragen  — int (totaal aantal vraag-eenheden, multi-PO geteld als 1 in zijn pagina maar
                       bij optellen meermaals — dus = som van po_overzicht[*].totaal)
+     totaal_nieuw   — int (totaal aantal 🆕-vraag-eenheden over alle PO's)
+     nieuw_examens  — lijst van examen-ids die als 'nieuw toegevoegd' worden gerenderd
      onbezette_pos  — lijst van dicts met {code, titel} (PO's in programma.json zonder vragen)
      vandaag        — datum-string (ISO formaat)
 #}
@@ -19,14 +21,18 @@ gegenereerd_op: {{ vandaag }}
 Voorbeeldexamenvragen gegroepeerd per programmaonderdeel uit het ITAA-examenprogramma. Elke pagina toont de vraag-eenheden uit alle beschikbare voorbeeldexamens onder dat programmaonderdeel, met context, deelvragen en (waar beschikbaar) uitgewerkte modelantwoorden. Antwoord-callouts zijn standaard ingeklapt — klik om te openen.
 
 Een vraag-eenheid kan onder meerdere programmaonderdelen vallen en verschijnt dan in elke relevante pagina.
+{% if totaal_nieuw and nieuw_examens %}
 
-| PO | Titel | Vraag-eenheden | Met antwoord | Pagina |
-| --- | --- | ---: | ---: | --- |
+> [!tip] 🆕 Recent toegevoegd: examen{% if nieuw_examens|length > 1 %}s{% endif %} **{{ nieuw_examens|join(', ') }}** — {{ totaal_nieuw }} nieuwe {% if totaal_nieuw == 1 %}vraag-eenheid{% else %}vraag-eenheden{% endif %} (zie kolom 🆕 hieronder). Bekijk ook de [[nieuw|aparte index van recente toevoegingen]].
+{% endif %}
+
+| PO | Titel | Vraag-eenheden | Met antwoord | 🆕 | Pagina |
+| --- | --- | ---: | ---: | ---: | --- |
 {% for po in po_overzicht %}
-| {{ po.code }} | {{ po.titel }} | {{ po.totaal }} | {{ po.met_antwoord }} | [[po-{{ po.code }}\|→]] |
+| {{ po.code }} | {{ po.titel }} | {{ po.totaal }} | {{ po.met_antwoord }} | {% if po.nieuw %}**{{ po.nieuw }}**{% else %}—{% endif %} | [[po-{{ po.code }}\|→]] |
 {% endfor %}
 
-_Totaal: {{ totaal_vragen }} vraag-eenheden gegroepeerd over {{ po_overzicht|length }} programmaonderdelen._
+_Totaal: {{ totaal_vragen }} vraag-eenheden gegroepeerd over {{ po_overzicht|length }} programmaonderdelen{% if totaal_nieuw %} · 🆕 {{ totaal_nieuw }} recent toegevoegd{% endif %}._
 
 {% if onbezette_pos %}
 ## Programmaonderdelen zonder voorbeeldexamenvragen

@@ -1,0 +1,26 @@
+Een dierenarts woont in Ukkel en heeft zijn praktijk in Elsene.
+Zijn beroepsmatige verplaatsingen met zijn persoonlijk voertuig zijn dagelijks dezelfde (220
+dagen per jaar in 2009), namelijk:
+Woonplaats –> praktijk (ochtend): 5 km
+Praktijk -> dispensarium van de Stichting Prins Laurent: 2 km
+(namiddag: huisbezoek)
+Het in het jaar 2009 met zijn voertuig afgelegd kilometeraantal wordt dus als volgt
+uitgesplitst:
+- woonplaats –> praktijk: 1 100 km
+- praktijk -> dispensarium: 440 km
+- privéverplaatsingen: 4 000 km
+- op huisbezoek bij patiënten: 10 200 km
+- totaal: 15 740 km
+Uiteenzetting van de autokosten:
+Afschrijving: € 8 000 (NB: dieselvoertuig 175 gr CO2)
+Verzekering: € 1 200
+Verkeersbelasting: € 500
+Onderhoud: € 950
+Financieringskosten: € 400
+Brandstof: € 1 700
+Bereken het bedrag van de aftrekbare beroepskosten en geef het detail van deze
+berekeningen.
+Zal het aftrekbaar bedrag van zijn verplaatsingskosten hetzelfde zijn, als de dierenarts
+dezelfde verplaatsingen aflegt in 2010?
+Welke wijziging zal moeten worden aangebracht, indien dat niet het geval is? (geen
+aanvullende berekeningen, vermeld alleen de wijziging(en))

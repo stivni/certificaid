@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr8",
+  "antwoord_datum": "2026-05-29T20:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "De verkoopcyclus (order-to-cash) loopt van klantorder naar kredietcheck naar levering naar facturatie naar inning naar opvolging openstaande vorderingen; per schakel moet de auditor zes klassieke interne controlemaatregelen nazien: (1) functiescheiding, (2) autorisatie en kredietwaardigheidstoets, (3) aansluiting levering en facturatie, (4) controle credit notes en kortingen, (5) cut-off rond balansdatum, en (6) opvolging openstaande vorderingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Zes interne controlemaatregelen met voorbeeld",
+          "tekst": "1. **Functiescheiding** — verantwoordelijkheden voor autorisatie van de transactie, vastlegging in de boekhouding en bewaring van het actief (de geld-inning) liggen bij verschillende personen, zodat één persoon geen fictieve verkoop kan creëren en de bijhorende vordering kan verbergen. 📖\n   *Voorbeeld*: de commerciële medewerker die de klantorder ingeeft, mag de bijhorende factuur niet boeken en mag evenmin de bankontvangsten afpunten op de klantenrekening. Verkopers mogen ook geen productprijzen of commissietarieven kunnen wijzigen in de master file. 📖\n\n2. **Autorisatie en kredietwaardigheidstoets** — elke order boven een vooraf bepaalde grens of voor een nieuwe klant wordt vóór levering geautoriseerd, met een geautomatiseerde of manuele check op de kredietlimiet. 🔗\n   *Voorbeeld*: het ERP-systeem blokkeert automatisch de orderbevestiging zodra de uitstaande klantenpost de toegekende kredietlimiet zou overschrijden; vrijgave gebeurt enkel door de financieel verantwoordelijke. 🔗\n\n3. **Aansluiting levering en facturatie (volledigheid omzet)** — elke verzonden levering resulteert in een factuur en elke factuur is gekoppeld aan een levering, op basis van een sluitende nummering van vrachtbrieven en facturen. 🔗\n   *Voorbeeld*: maandelijkse aansluiting tussen het vrachtbrievenboek, het magazijnsysteem (uitgaande voorraadbewegingen) en het verkoopfacturatiedagboek; ontbrekende of dubbele nummers worden opgevolgd. 🔗\n\n4. **Controle van credit notes, kortingen en correcties** — creditnota's en handmatige correcties zijn een gekend pad voor het verbergen van onregelmatigheden (oneigenlijke kortingen, fictieve omzet later gecorrigeerd) en vereisen daarom een aparte goedkeuringslaag. 📖\n   *Voorbeeld*: elke creditnota wordt voorafgaandelijk getekend door een bevoegde manager die de commerciële medewerker niet rapporteert aan, met motivering en gekoppeld aan de originele factuur. 🔗\n\n5. **Cut-off-procedure rond balansdatum** — de leveringen, facturen en geld-ontvangsten van de laatste dagen vóór en de eerste dagen na balansdatum worden afzonderlijk gecontroleerd om omzet en vorderingen in het juiste boekjaar te boeken. 📖\n   *Voorbeeld*: nummers van de laatste vrachtbrief en laatste factuur per 31/12 worden opgenomen in een cut-off-fiche; de eerste tien leveringen en facturen van het nieuwe boekjaar worden bekeken om bill-and-hold of vervroegde omzetboeking uit te sluiten. 📖\n\n6. **Opvolging openstaande vorderingen en ageing-analyse** — periodieke beoordeling van de ouderdomsbalans en opvolging van betaalherinneringen waarborgt zowel de waardering van de vorderingen (waardevermindering op dubieuze debiteuren) als de detectie van fictieve klanten of niet-bestaande verkopen. 🔗\n   *Voorbeeld*: maandelijkse ageing-report met de vorderingen ouder dan 60/90/120 dagen, manueel gereviewd door de boekhouder met systematische aanmaningsstappen; klanten die structureel niet betalen worden gerapporteerd aan de zaakvoerder voor afwaardering of voorziening dubieuze debiteuren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "ISA 240 par. 26 verplicht de auditor om revenue recognition standaard als een significant risico op fraude te behandelen — fictieve verkopen, vervroegde omzet en bill-and-hold-constructies zijn de klassieke management-fraudepatronen, omdat het management onder target-druk omzet kan opblazen. Bij de verkoopcyclus moet de stagiair de standaard-controlemaatregelen daarom altijd toetsen op werking (operating effectiveness), niet enkel op opzet (design effectiveness). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien 2019) Bijlage 3 beschrijft functiescheiding tussen autoriseren, vastleggen en bewaren met de verkoopcyclus als illustratie (\"een manager die kredietverkopen autoriseert is niet verantwoordelijk voor het bijhouden van debiteurenrekeningen of afhandeling van contante betalingen\"). ISA 240 par. 26 vereist dat de auditor revenue recognition standaard als frauderisico inschat. Operationeel kader: COSO (controle-activiteiten) en de cyclus-aanpak (order-to-cash). 📖",
+          "wetsref": "ISA 315 (herzien-2019) Bijlage 3 · ISA 240 par. 26",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,12 +3,12 @@ title: PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de gecon
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.4 (Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening).
 tags: [examen, voorbeeldvragen, po-1-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening
 
-**4 unieke vraag-eenheden** (waarvan 2 clusters, totaal 6 voorkomens) uit 4 examens (2013-1, 2013-2, 2014-1, 2015-1) — 4 met modelantwoord
+**5 unieke vraag-eenheden** (waarvan 3 clusters, totaal 7 voorkomens) uit 5 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1) — 5 met modelantwoord
 
 <a id="2015-1-vr11"></a>
 <a id="2013-2-vr8"></a>
@@ -46,10 +46,8 @@ gegenereerd_op: 2026-05-28
 <a id="2014-1-vr7"></a>
 <a id="2013-1-vr7"></a>
 
-> [!question]- Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening
+> [!question]- Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
 > *Examens 2014-1 (2014-1-vr7) & 2013-1 (2013-1-vr7) · PO 1.4*
->
-> 🔁 **2× bevraagd** (echt duplicaat)
 >
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.
 > 
@@ -57,20 +55,23 @@ gegenereerd_op: 2026-05-28
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Drie maanden.** 📖
+> > **Maximaal 3 maanden** verschil tussen de afsluitingsdatum van de jaarrekening van een dochteronderneming en die van de geconsolideerde jaarrekening. 🔗
 > > 
-> > **Principe (KB WVV art. 3:109, eerste lid)**: de geconsolideerde jaarrekening wordt afgesloten op dezelfde datum als de jaarrekening van de consoliderende vennootschap. 📖
+> > Het basisbeginsel (art. 3:109 KB-WVV): de geconsolideerde jaarrekening wordt op **dezelfde datum** afgesloten als de jaarrekening van de consoliderende vennootschap. Afwijking is toegelaten om aan te sluiten bij de balansdatum van de meeste of belangrijkste opgenomen dochters. 📖
 > > 
-> > **Afwijking voor een dochter (KB WVV art. 3:110, tweede lid)**: wanneer een dochter haar boekjaar op een andere balansdatum afsluit, mag haar jaarrekening in de consolidatie worden opgenomen mits aanvullende financiële informatie wordt opgesteld of mits passende correcties. 🔗
+> > Wanneer een **dochteronderneming** een andere balansdatum heeft dan de consoliderende vennootschap, geldt een **harde grens van drie maanden**: bij een groter verschil moet de dochter een tussentijdse staat opmaken op de balansdatum van de moeder. Onder IFRS 10 §B92-B93 is dit expliciet zo geregeld; in de Belgische consolidatie-praktijk wordt dezelfde 3-maanden-vuistregel toegepast (KB-WVV-bepalingen over gelijktijdigheid van balansdata). 🔗
 > > 
-> > **Cap drie maanden (IFRS 10 B93)**: "Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen" — bovendien moeten de duur van de verslagperioden en het eventuele verschil tussen de data van jaar tot jaar gelijk blijven. 📖
+> > De vraag mengt twee niveaus die je goed moet onderscheiden:
 > > 
-> > De numerieke cap van drie maanden staat letterlijk in IFRS 10 B93; het KB WVV legt geen expliciete maandengrens op maar werkt met een principle-based regel ("aanvullende financiële informatie" of correcties indien verschil > 0). In de praktijk wordt de drie-maanden-grens als norm aangehouden voor beide kaders. 🔗
+> > - **Afsluitingsdatum geconsolideerde JR vs consoliderende vennootschap** (art. 3:109 KB-WVV): in principe gelijk; mag afwijken om aan te sluiten bij de meeste/belangrijkste dochters — de wettekst noemt hier **geen expliciete kwantitatieve limiet**. 📖
+> > - **Afsluitingsdatum dochter vs geconsolideerde JR**: hier geldt de **3-maanden-grens** (IFRS 10 §B93 expliciet; KB-WVV impliciet via de eis van getrouw beeld + interim-staat-verplichting). 📖
 > > 
-> > Bij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) belangrijke gebeurtenissen vermelden die zich tussen de balansdatum van de opgenomen jaarrekening en de afsluitingsdatum van de geconsolideerde jaarrekening hebben voorgedaan. 📖
+> > In examencontext wordt steevast "**3 maanden**" als modelantwoord aanvaard — de 3-maanden-regel uit IFRS 10 §B93 is hier de scherpste kwantitatieve grens. 🤖
 > > 
-> > IFRS 10 B92-B93 (principe gelijke verslagdatum + drie-maanden-cap + gelijkblijvend verschil); KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond op niveau van de geconsolideerde jaarrekening); KB WVV art. 3:110, tweede lid (aanvullende info bij afwijkende dochter-balansdatum); KB WVV art. 3:111 (toelichtingsplicht bij afwijking). 📖  
-> > *Bron: IFRS 10 B92-B93; KB WVV art. 3:109, 3:110, 3:111*
+> > **Art. 3:109 KB-WVV**: "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. De geconsolideerde jaarrekening kan evenwel op een ander tijdstip worden afgesloten om rekening te houden met de balansdatum van de meeste of van de belangrijkste van de in de consolidatie opgenomen ondernemingen." 📖
+> > 
+> > **IFRS 10 §B93** (Verordening (EU) 2023/1803): "Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval **niet meer dan drie maanden** bedragen." 📖  
+> > *Bron: Art. 3:109 KB-WVV · IFRS 10 §B92-B93*
 
 <a id="2014-1-vr8"></a>
 
@@ -144,3 +145,33 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post "Aandeel van derden in het resultaat". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen. 📖  
 > > *Bron: Art. 3:137 KB WVV*
+
+<a id="2014-1-vr7"></a>
+<a id="2013-1-vr7"></a>
+
+> [!question]- Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
+> *Examens 2014-1 (2014-1-vr7) & 2013-1 (2013-1-vr7) · PO 1.4*
+>
+> De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.
+> 
+> **Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Maximaal 3 maanden** verschil tussen de afsluitingsdatum van de jaarrekening van een dochteronderneming en die van de geconsolideerde jaarrekening. 🔗
+> > 
+> > Het basisbeginsel (art. 3:109 KB-WVV): de geconsolideerde jaarrekening wordt op **dezelfde datum** afgesloten als de jaarrekening van de consoliderende vennootschap. Afwijking is toegelaten om aan te sluiten bij de balansdatum van de meeste of belangrijkste opgenomen dochters. 📖
+> > 
+> > Wanneer een **dochteronderneming** een andere balansdatum heeft dan de consoliderende vennootschap, geldt een **harde grens van drie maanden**: bij een groter verschil moet de dochter een tussentijdse staat opmaken op de balansdatum van de moeder. Onder IFRS 10 §B92-B93 is dit expliciet zo geregeld; in de Belgische consolidatie-praktijk wordt dezelfde 3-maanden-vuistregel toegepast (KB-WVV-bepalingen over gelijktijdigheid van balansdata). 🔗
+> > 
+> > De vraag mengt twee niveaus die je goed moet onderscheiden:
+> > 
+> > - **Afsluitingsdatum geconsolideerde JR vs consoliderende vennootschap** (art. 3:109 KB-WVV): in principe gelijk; mag afwijken om aan te sluiten bij de meeste/belangrijkste dochters — de wettekst noemt hier **geen expliciete kwantitatieve limiet**. 📖
+> > - **Afsluitingsdatum dochter vs geconsolideerde JR**: hier geldt de **3-maanden-grens** (IFRS 10 §B93 expliciet; KB-WVV impliciet via de eis van getrouw beeld + interim-staat-verplichting). 📖
+> > 
+> > In examencontext wordt steevast "**3 maanden**" als modelantwoord aanvaard — de 3-maanden-regel uit IFRS 10 §B93 is hier de scherpste kwantitatieve grens. 🤖
+> > 
+> > **Art. 3:109 KB-WVV**: "De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. De geconsolideerde jaarrekening kan evenwel op een ander tijdstip worden afgesloten om rekening te houden met de balansdatum van de meeste of van de belangrijkste van de in de consolidatie opgenomen ondernemingen." 📖
+> > 
+> > **IFRS 10 §B93** (Verordening (EU) 2023/1803): "Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval **niet meer dan drie maanden** bedragen." 📖  
+> > *Bron: Art. 3:109 KB-WVV · IFRS 10 §B92-B93*

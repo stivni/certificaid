@@ -1,0 +1,75 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr31",
+  "antwoord_datum": "2026-05-29T12:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Basisbedrag van de vermindering (abattement) = € 60.000** waarmee de belastbare grondslag wordt verminderd vóór de heffing van het verkooprecht (12,5 % in Brussel). 🤖 Bij een aankoopprijs van € 195.000 wordt het verkooprecht dus geheven op € 135.000, wat neerkomt op een besparing van € 60.000 × 12,5 % = **€ 7.500**. 🔗",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "- Belastbare grondslag vóór abattement: € 195.000 📖\n- Min basisabattement art. 46bis W.Reg. Brussel: − € 60.000 🤖\n- Belastbare grondslag na abattement: € 135.000 🔗\n- Verkooprecht 12,5 %: € 135.000 × 12,5 % = € 16.875 🔗\n- Zonder abattement zou het recht € 195.000 × 12,5 % = € 24.375 bedragen → effectief voordeel € 7.500. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "In een EDRLR-zone (\"ruimte voor versterkte ontwikkeling van de huisvesting en de stadsvernieuwing\") werd het abattement in 2010 verhoogd tot **€ 75.000** in plaats van € 60.000. ❓ De casus zegt niets over de ligging van het goed, dus wordt het basisbedrag van € 60.000 toegepast. Het bedrag van het abattement (en het verkoopprijsplafond, in 2010 € 500.000) is later meermaals verhoogd door de Brusselse ordonnantiegever — in de huidige tekst (vanaf 24.07.2025) is het abattement opgetrokken tot € 200.000 met een plafond van € 600.000. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest: de belastbare grondslag voor het verkooprecht bij verkrijging in volle eigendom door een natuurlijke persoon van een onroerend goed dat tot hoofdverblijfplaats zal dienen, wordt verminderd met een vast bedrag (\"abattement\"). 📖 In de versie die in 2010 van toepassing was bedroeg dat basisbedrag € 60.000, verhoogd tot € 75.000 in EDRLR-zones, met een aankoopprijsplafond van € 500.000. 🤖",
+          "wetsref": "art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest (versie 2010)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Vier cumulatieve voorwaarden voor het abattement (art. 46bis W.Reg. Brussel):\n\n1. **Natuurlijke persoon — geheelheid in volle eigendom.** De koper(s) moeten natuurlijke personen zijn die de geheelheid van het onroerend goed in volle eigendom verkrijgen; rechtspersonen zijn uitgesloten. 📖\n2. **Eigen-woning-bestemming.** Het goed moet (geheel of gedeeltelijk) tot bewoning aangewend of bestemd zijn en zal dienen als hoofdverblijfplaats van de verkrijger. 📖\n3. **Verbintenis tot vestiging van de hoofdverblijfplaats binnen de wettelijke termijn** (in 2010: binnen 2 jaar — sinds latere wijzigingen 3 jaar — vanaf de registratie van de akte) en behoud van die hoofdverblijfplaats in het Brussels Hoofdstedelijk Gewest gedurende een ononderbroken periode van minstens 5 jaar. 🔗\n4. **Geen ander volledig eigen onroerend goed bestemd tot bewoning.** Op de datum van de aankoopakte mag geen van de verkrijgers voor het geheel en in volle eigendom eigenaar zijn van een ander tot bewoning bestemd onroerend goed. 📖\n\nBijkomend (vaak meegeteld als 5e voorwaarde): het verkoopprijsplafond — in 2010 mocht de belastbare grondslag € 500.000 niet overschrijden — en de uitdrukkelijke vermelding van de voorwaarden in de aankoopakte (of in een verklaring onderaan). ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar het Brusselse **abattement** (vermindering van de belastbare grondslag, art. 46bis W.Reg. Brussel) niet met het Vlaamse **klein beschrijf** of het Vlaamse gunsttarief voor de enige eigen woning — dat zijn tariefverlagingen, geen aftrek op de grondslag. 🔗 In Brussel blijft het tarief 12,5 %; alleen de grondslag wordt verlaagd. Sanctie bij niet-naleving van de bewoningsverbintenis: het bespaarde recht wordt nagevorderd, vermeerderd met een belastingverhoging (boete). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest — voorwaarden a) verklaring geen ander onroerend goed, b) verbintenis vestiging hoofdverblijfplaats binnen de wettelijke termijn, c) verbintenis behoud hoofdverblijfplaats gedurende 5 jaar. 📖 De cumulatieve voorwaarden moeten in de aankoopakte zelf worden opgenomen of bij een verklaring onderaan de akte; bij niet-naleving is het bespaarde recht plus een belastingverhoging verschuldigd. 🔗",
+          "wetsref": "art. 46bis W.Reg. Brussels Hoofdstedelijk Gewest",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

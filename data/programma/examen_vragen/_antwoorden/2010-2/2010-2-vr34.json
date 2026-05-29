@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr34",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — u kan dat niet bevestigen. Canada **mag** de meerwaarde belasten omdat de aandelen meer dan 50 % van hun waarde ontlenen aan in Canada gelegen onroerend goed (art. 13 §4 OESO-modelverdrag — \"land-rich company\"-clausule). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Redenering in vier stappen:\n\n1. **Kwalificatie van het inkomen** — verkoop van aandelen = meerwaarde op aandelen, valt onder art. 13 OESO-MV (Capital Gains), niet onder art. 6 (inkomsten uit onroerend goed). 🔗\n2. **Hoofdregel art. 13 §5** — meerwaarden op aandelen zijn in beginsel **enkel belastbaar in de woonstaat** van de vervreemder (België). Als alleen deze regel zou gelden, kreeg de Belgische vennootschap gelijk. 📖\n3. **Uitzondering art. 13 §4 — vastgoedvennootschap** — wanneer de aandelen op enig moment in de 365 dagen vóór de vervreemding voor **méér dan 50 %** van hun waarde rechtstreeks of onrechtstreeks ontlenen aan onroerend goed gelegen in de andere verdragsstaat, mag die andere staat (= bronstaat van het vastgoed) heffen. 📖\n4. **Toepassing op de casus** — de Canadese dochter heeft als **enige activiteit** de verhuur van in Canada gelegen onroerend goed. Haar waarde wordt dus voor (quasi-)100 % bepaald door Canadees vastgoed → drempel van 50 % ruim overschreden → **Canada mag belasten** krachtens art. 13 §4. 🔗\n\nDe afwezigheid van een vaste inrichting in Canada doet daar niets aan af: art. 13 §4 vereist géén vaste inrichting (in tegenstelling tot art. 13 §2 voor andere bedrijfsmiddelen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De cliënte denkt allicht: \"geen vaste inrichting in Canada → geen Canadese belasting\". Dat klopt voor **ondernemingswinst** (art. 7 OESO-MV) en voor meerwaarden op bedrijfsmiddelen van een VI (art. 13 §2), maar **niet** voor meerwaarden op aandelen van een vastgoedvennootschap. De \"land-rich company\"-clausule van art. 13 §4 is precies bedoeld om te vermijden dat onroerend goed via een aandelenverpakking aan de bronstaat-heffing zou ontsnappen — economisch verkoopt men immers het onroerend goed zelf. 🔗\n\nBelgische vervolg: de meerwaarde blijft in België in beginsel vrijgesteld in de vennootschapsbelasting op grond van art. 192 §1 WIB92 (mits taxatie-, deelnemings- en permanentievoorwaarde voldaan zijn — 95 %-deelneming + houdperiode > 1 jaar wordt verondersteld), zodat de Canadese heffing finaal de enige belasting is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 13 §4 OESO-modelverdrag** (Capital Gains): *\"Gains derived by a resident of a Contracting State from the alienation of shares (...) may be taxed in the other Contracting State if, at any time during the 365 days preceding the alienation, these shares (...) derived more than 50 per cent of their value directly or indirectly from immovable property (...) situated in that other State.\"* — **Art. 13 §5** stelt de hoofdregel: andere meerwaarden op aandelen zijn enkel belastbaar in de woonstaat van de vervreemder. **Art. 6** OESO-MV bevestigt het algemene principe \"onroerend goed wordt belast in de staat waar het gelegen is\", waarvan art. 13 §4 het sluitstuk vormt voor de indirecte (aandelen-)overdracht. 📖",
+          "wetsref": "Art. 13 §4 en §5 OESO-modelverdrag; vgl. art. 6 OESO-MV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

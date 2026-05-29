@@ -1,0 +1,56 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr39",
+  "interpretatie_datum": "2026-05-29T19:34:37Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Voorwaarden en regels voor een accountants- en/of belastingconsulentenvennootschap",
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
+  "themas": [
+    "accountantsvennootschap",
+    "belastingconsulentenvennootschap",
+    "IAB-erkenning",
+    "bestuurders",
+    "aandeelhouderschap",
+    "onverenigbaarheden",
+    "verzekeringsactiviteiten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Geef, met betrekking tot een accountants- en/of belastingconsulentenvennootschap aan of volgende situaties juist of fout zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Indien er slechts twee bestuurders/zaakvoerders zijn moeten beide lid zijn van het IAB.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De aandelen van een accountants- en/of belastingconsulentenvennootschap moeten voor 75 % in handen zijn van het IAB.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De niet-erkende leden van de accountants- en/of belastingconsulentenvennootschap mogen verzekeringsactiviteiten uitoefenen binnen het kantoor.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie zelfstandige juist/fout-stellingen onder één paraplu over de IAB-vennootschap. PNG bevestigt de pdfplumber-tekst zonder OCR-artefacten; aankruisvakjes (Juist/Fout) zijn niet als content opgenomen. Geen motivering gevraagd in de instructie — enkel kruisje, dus motivatie_verwacht=false. Geclassificeerd als PO 4.0 (juridische en beroepsnormen — IAB-vennootschap-regels uit de wet van 22 april 1999 en het KB inzake erkenningsvoorwaarden).",
+  "kwaliteits_flags": []
+}

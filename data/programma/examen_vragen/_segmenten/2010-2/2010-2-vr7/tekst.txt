@@ -1,0 +1,18 @@
+Vraag 1 … / 9 punten
+In de interne controle spreekt men vaak van vier functies, nl. de beherende, de bewarende,
+de registrerende en de controlerende functie.
+Duid in onderstaand schema door middel van een kruisje aan tot welke functie de bedoelde
+taken behoren.
+
+| Taak | Beherend | Bewarend | Registrerend | Controlerend |
+|---|---|---|---|---|
+| Akkoord aankoop |  |  |  |  |
+| Doorgeven aankooporder |  |  |  |  |
+| Ontvangst van goederen |  |  |  |  |
+| Ontvangst van factuur |  |  |  |  |
+| Verificatie van factuur |  |  |  |  |
+| Aanmaak betalingsvoorstel |  |  |  |  |
+| Controle betalingsvoorstel |  |  |  |  |
+| Uitvoeren betaling |  |  |  |  |
+| Aanmaak en onderhoud
+basisgegevens |  |  |  |  |

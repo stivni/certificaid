@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.2",
-  "gegenereerd_op": "2026-05-26T10:20:43+00:00",
+  "gegenereerd_op": "2026-05-29T19:44:51+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 16,
+  "threshold_cosine": 0.85,
+  "n_vragen": 14,
   "n_clusters": 0,
-  "n_singletons": 16,
+  "n_singletons": 14,
   "clusters": [],
   "borderline_paren": [],
   "singletons": [
@@ -53,6 +53,24 @@
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrB4.json"
     },
     {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr1",
+      "vraag_onderwerp": "Wijziging van afschrijvingspercentages — voorwaarden en formaliteiten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr1.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr2",
+      "vraag_onderwerp": "Tussentijds dividend (interim-dividend) op het lopende resultaat — toelaatbaarheid, voorwaarden en boekhoudkundige verwerking",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr2.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr3",
+      "vraag_onderwerp": "Jaarrekeningrecht — herwaarderingsmeerwaarde, kapitaalvermindering, toegestaan kapitaal, voorraadwaardering",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr3.json"
+    },
+    {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr1",
       "vraag_onderwerp": "Verantwoording van de waarderingsregels in jaarverslag of jaarrekening",
@@ -75,37 +93,6 @@
       "vraag_id": "2014-1-vr19",
       "vraag_onderwerp": "Jaarrekening — volledig of verkort schema bij verbonden vennootschappen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr19.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10A",
-      "vraag_onderwerp": "Stellingen inzake financiële onafhankelijkheid",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10A.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10B",
-      "vraag_onderwerp": "Ratio's berekenen op basis van een verkort schema",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10B.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10C",
-      "vraag_onderwerp": "Rangschikking van rubrieken op het Passief van de Balans",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10C.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10D",
-      "vraag_onderwerp": "Berekening van het eigen vermogen in het kort NBB-model voor kapitaalvennootschappen",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10D.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr10E",
-      "vraag_onderwerp": "Effect van hogere afschrijving op de bruto verkoopmarge bij een verlieslatende onderneming",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

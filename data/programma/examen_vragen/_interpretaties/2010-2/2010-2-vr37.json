@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr37",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-aftrek bij gemengde belastingplicht: algemeen verhoudingsgetal vs werkelijk gebruik bij een vastgoedvennootschap met opslaggebouw (belast verhuurd) en villa's (vrijgesteld verhuurd aan particulieren)",
+  "programmaonderdeel_ids": ["2.4"],
+  "themas": [
+    "btw-aftrek",
+    "gemengde belastingplicht",
+    "algemeen verhoudingsgetal",
+    "werkelijk gebruik",
+    "vastgoedverhuur",
+    "renovatiewerken"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een vastgoedvennootschap bezit een ruim gebouw dat aan derden wordt verhuurd om er goederen in op te slaan. De ontvangen huur is aanzienlijk. Dezelfde vennootschap bezit drie villa's in Waals-Brabant en in Knokke. Die gebouwen worden verhuurd aan particulieren en brengen slechts geringe inkomsten op.\n\nDie villa's vergden aanzienlijke renovatiewerken die in de loop van 2008 werden uitgevoerd. De vennootschap trekt de btw betreffende die werken af volgens een algemeen verhoudingsgetal.\n\nDe administratie neemt het de vennootschap kwalijk dat ze het recht op aftrek niet volgens het werkelijk gebruik heeft toegepast."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is uw reactie?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag is op de PNG gemarkeerd als 'Vraag 3 ... / 5 punten'. Het zwarte hoofding-blok 'JURIDISCHE EN BEROEPSNORMEN... — 20 PUNTEN' onder de vraag is geen onderdeel van deze vraag maar de sectie-titel van het volgende examenonderdeel (begint met een nieuwe 'Vraag 1 ... / 4 punten' over over te dragen documenten). Daarom geen verkeerde PO 4.0-classificatie: vr37 is een BTW-casus (gemengde belastingplicht, verhoudingsgetal vs werkelijk gebruik) → PO 2.4. Eén open deelvraag met motivering verwacht ('Wat is uw reactie?' impliceert een gemotiveerde stellingname tegenover het standpunt van de administratie).",
+  "kwaliteits_flags": []
+}

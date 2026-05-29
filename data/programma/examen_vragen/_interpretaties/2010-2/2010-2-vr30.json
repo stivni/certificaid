@@ -1,0 +1,75 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr30",
+  "interpretatie_datum": "2026-05-29T19:33:35Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Hoedanigheid van begunstigden bij testament en aangifteplicht voor de aangifte van nalatenschap",
+  "programmaonderdeel_ids": [
+    "2.6"
+  ],
+  "themas": [
+    "successierechten",
+    "aangifte van nalatenschap",
+    "hoedanigheid begunstigde",
+    "wettelijk erfgenaam",
+    "algemeen legataris",
+    "legataris onder algemene titel",
+    "bijzonder legataris",
+    "testament"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer Pierre Martin is overleden op 3 september 2010. Hij laat een echtgenote, Véronique, en een zoon, Bernard, na.\n\nHierna volgt de uiteenzetting van zijn testament:\n- Alle roerende goederen komen toe aan mw. Janssens, buurvrouw van dhr. Martin.\n- De personenauto komt toe aan Jean Martin, neef van de erflater.\n- Mw. Philippe zal de volledige nalatenschap, na aftrek van de hiervoor vermelde goederen, verkrijgen."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Hoedanigheid van de begunstigde — in te vullen tabel (kolommen)",
+      "rijen": [
+        { "label": "Wettelijk erfgenaam", "bedrag": null },
+        { "label": "Algemeen legataris", "bedrag": null },
+        { "label": "Algemeen begiftigde", "bedrag": null },
+        { "label": "Legataris onder algemene titel", "bedrag": null },
+        { "label": "Begiftigde onder algemene titel", "bedrag": null },
+        { "label": "Bijzonder legataris", "bedrag": null }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Begunstigden — in te vullen rijen (kruisjes aanbrengen + aangifteplicht aanduiden)",
+      "rijen": [
+        { "label": "Véronique", "bedrag": null },
+        { "label": "Bernard", "bedrag": null },
+        { "label": "Mw. Janssens", "bedrag": null },
+        { "label": "Jean", "bedrag": null },
+        { "label": "Mw. Philippe", "bedrag": null }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": null,
+      "vraagtype": "open",
+      "vraagstelling": "Duid in bijgaande tabel de hoedanigheid van elke begunstigde (Véronique, Bernard, mw. Janssens, Jean, mw. Philippe) aan via kruisjes (wettelijk erfgenaam, algemeen legataris, algemeen begiftigde, legataris onder algemene titel, begiftigde onder algemene titel, of bijzonder legataris).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": null,
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld voor elk van de begunstigden (Véronique, Bernard, mw. Janssens, Jean, mw. Philippe) wie de verplichting heeft een aangifte van nalatenschap in te dienen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG van pagina 19 (label '18' onderaan zichtbaar; bestandsnaam pagina_19.png volgt pdfplumber-indexering) toont de sectie 'BEGINSELEN VAN REGISTRATIE- EN SUCCESSIERECHTEN — 10 PUNTEN' met 'Vraag 1 ... / 5 punten'. De casus + testament-uiteenzetting + twee opdrachten ('Duid in bijgaande tabel de hoedanigheid van elke begunstigde aan via kruisjes' en 'Vermeld wie de verplichting heeft een aangifte van nalatenschap in te dienen') zijn op de zichtbare pagina aanwezig. De tabel-structuur (kolommen: wettelijk erfgenaam / algemeen legataris / algemeen begiftigde / legataris onder algemene titel / begiftigde onder algemene titel / bijzonder legataris; rijen: de vijf begunstigden) en de tweede in-te-vullen lijst (Verplichte indiening van de aangifte van nalatenschap, vijf rijen met '…………….') verschijnen in de tekst.txt-extract en horen evident bij deze ene vraag — opgenomen als twee gegevens_tabel-blokken. Twee deelvragen onderscheiden: (a) hoedanigheid invullen, (b) aangifteplicht vermelden — beide open, geen expliciete motivatie-instructie, dus motivatie_verwacht=false. De labels in PDF zijn niet met letters geletterd; label_in_pdf gezet op null. OCR heeft de tabel-headers verminkt aaneengeplakt ('algemeen legataris begiftigde / erfgenaam legataris begiftigde onder onder bijzonder legataris / algemene algemene / titel titel') — gereconstrueerd als zes onafhankelijke hoedanigheid-categorieën uit het successierecht.",
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

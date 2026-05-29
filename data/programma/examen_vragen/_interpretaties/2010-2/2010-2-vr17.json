@@ -1,0 +1,122 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr17",
+  "interpretatie_datum": "2026-05-29T19:32:18Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)",
+  "programmaonderdeel_ids": [
+    "1.6",
+    "3.0"
+  ],
+  "themas": [
+    "bijzonder mandaat accountant",
+    "kapitaalverhoging",
+    "uitgifte van aandelen",
+    "beperking voorkeurrecht",
+    "afstand voorkeurrecht",
+    "controleverslag",
+    "intrinsieke waarde aandelen",
+    "bijzonder verslag bestuursorgaan"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Geef aan met juist of fout of volgende beweringen bij de opdracht voor de externe accountant bij het opstellen van het controleverslag inzake de uitgifte van aandelen bij beperking of afstand van het voorkeurrecht bij kapitaalverhoging, kloppen. Motiveer bondig uw antwoord."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Eigen vermogen voor, bij en na kapitaalverhoging",
+      "rijen": [
+        {
+          "label": "Geplaatst kapitaal — voor kapitaalverhoging (bedrag / aantal aandelen)",
+          "bedrag": null
+        },
+        {
+          "label": "Geplaatst kapitaal — voor: 1.080.443,31 (4.358 aandelen)",
+          "bedrag": 1080443.31
+        },
+        {
+          "label": "Wettelijke reserve — voor: 1.330,17",
+          "bedrag": 1330.17
+        },
+        {
+          "label": "Belastingvrije reserve — voor: 167.887,05",
+          "bedrag": 167887.05
+        },
+        {
+          "label": "Beschikbare reserve — voor: 565,02",
+          "bedrag": 565.02
+        },
+        {
+          "label": "Overgedragen winst — voor: 25.272,93",
+          "bedrag": 25272.93
+        },
+        {
+          "label": "Resultaat voor de periode — voor: 15.410,17",
+          "bedrag": 15410.17
+        },
+        {
+          "label": "Kapitaalverhoging — bedrag: 12.500,00 (50 aandelen)",
+          "bedrag": 12500.0
+        },
+        {
+          "label": "TOTAAL voor kapitaalverhoging: 1.290.909,05 (4.358 aandelen)",
+          "bedrag": 1290909.05
+        },
+        {
+          "label": "TOTAAL kapitaalverhoging: 12.500,00 (50 aandelen)",
+          "bedrag": 12500.0
+        },
+        {
+          "label": "TOTAAL na kapitaalverhoging: 1.303.409,05 (4.408 aandelen)",
+          "bedrag": 1303409.05
+        },
+        {
+          "label": "Waarde per aandeel — voor kapitaalverhoging",
+          "bedrag": 296.22
+        },
+        {
+          "label": "Waarde per aandeel — kapitaalverhoging",
+          "bedrag": 250.0
+        },
+        {
+          "label": "Waarde per aandeel — na kapitaalverhoging",
+          "bedrag": 295.69
+        }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het uitvoeren van een volledige controle over de jaarrekening van de vennootschap is een vereiste.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In het kader van de uitgifte van aandelen bij kapitaalverhoging met afstand van het voorkeurrecht dient de beroepsbeoefenaar, indien de aandeelhouders het niet eens zijn over de intrinsieke waarde van de bestaande aandelen, deze waarde te bepalen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In het kader van de uitgifte van aandelen bij kapitaalverhoging met afstand van het voorkeurrecht dient de beroepsbeoefenaar vast te stellen of de gegeven financiële en boekhoudkundige informatie juist is om de algemene vergadering voor te lichten omtrent het voorstel van kapitaalverhoging opgenomen in het bijzonder verslag van het bestuursorgaan.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag visueel geverifieerd op pagina_12.png (DRAFT-watermerk en Studocu-footer messages.downloaded_by genegeerd). Drie J/F-stellingen onder één paraplu over de opdracht van de externe accountant bij controleverslag inzake kapitaalverhoging met beperking/afstand van het voorkeurrecht. Elke stelling vraagt expliciet om bondige motivering — motivatie_verwacht=true voor alle drie. Context_blokken bevat (a) de gemeenschappelijke vraagstelling en (b) de tabel bovenaan pagina 12 die de cijferbasis van de casus uitlegt: eigen vermogen voor/bij/na kapitaalverhoging met bedragen en aantal aandelen plus waarde per aandeel (296,22 voor, 250,00 bij uitgifte, 295,69 na). De label_in_pdf is genummerd 1/2/3 conform de PDF; intern krijgen ze a/b/c per ID-conventie §4.8. Het vraag-onderwerp is een bijzonder mandaat van de accountant uit het vennootschapsrecht (uitgifte aandelen met afstand voorkeurrecht, art. WVV) — geclassificeerd onder PO 1.6 (accountantsonderzoek/bijzondere opdrachten) en PO 3.0 (vennootschapsrecht-grondslag van de procedure).",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

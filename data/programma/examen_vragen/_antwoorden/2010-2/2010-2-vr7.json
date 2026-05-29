@@ -1,0 +1,47 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr7",
+  "antwoord_datum": "2026-05-29T19:37:23Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Klassieke vier-functies-leer toegepast op de aankoopcyclus — kruisje per taak:\n\n| # | Taak | Beherend | Bewarend | Registrerend | Controlerend |\n|---|---|:---:|:---:|:---:|:---:|\n| 1 | Akkoord aankoop | X |  |  |  |\n| 2 | Doorgeven aankooporder | X |  |  |  |\n| 3 | Ontvangst van goederen |  | X |  |  |\n| 4 | Ontvangst van factuur |  |  | X |  |\n| 5 | Verificatie van factuur |  |  |  | X |\n| 6 | Aanmaak betalingsvoorstel |  |  | X |  |\n| 7 | Controle betalingsvoorstel |  |  |  | X |\n| 8 | Uitvoeren betaling | X |  |  |  |\n| 9 | Aanmaak en onderhoud basisgegevens | X |  |  |  |\n\n🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toepassing van het functiescheidings-principe (ACR-IH / vier-functies-leer):\n\n- **Beherende functie** = beslissen tot of disposeren over een transactie (autoriseren én uitvoeren van de wilsbeslissing). 📖\n  - **(1) Akkoord aankoop** = de autorisatie-handeling zelf. 🔗\n  - **(2) Doorgeven aankooporder** = uitvoering van de beslissing — de onderneming verbindt zich extern tegenover de leverancier. 🔗\n  - **(8) Uitvoeren betaling** = disposeren over de liquide middelen. 🔗\n  - **(9) Aanmaak/onderhoud basisgegevens** = beslissingsbevoegdheid over master data (leveranciers, rekeningnummers, prijzen) — wie hier toegang heeft, kan de hele cyclus sturen, daarom een beherende (beschikkende) taak. 🔗\n- **Bewarende functie** = fysieke custody van activa.\n  - **(3) Ontvangst van goederen** = de magazijnier neemt de goederen onder zijn fysieke verantwoordelijkheid. 🔗\n- **Registrerende functie** = administratieve vastlegging zonder beslissings- of bewakingsbevoegdheid.\n  - **(4) Ontvangst van factuur** = administratief inboeken van het binnengekomen document. 🔗\n  - **(6) Aanmaak betalingsvoorstel** = administratieve voorbereiding (samenstellen van te betalen facturen op basis van vervaldata) — er wordt nog niet beslist of betaald. 🔗\n- **Controlerende functie** = onafhankelijke verificatie achteraf.\n  - **(5) Verificatie van factuur** = driewegsmatching factuur ↔ bestelbon ↔ ontvangstbon. 🔗\n  - **(7) Controle betalingsvoorstel** = nazicht voor vrijgave (juiste bedragen, juiste begunstigden, vervaldata). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee taken kunnen leerboek-afhankelijk verschillend geclassificeerd worden: **(4) ontvangst factuur** wordt soms bij **bewarend** geplaatst (de boekhouding bewaart het brondocument), en **(6) aanmaak betalingsvoorstel** soms bij **beherend** (het voorstel stuurt de betaaldispositie). De dominante Belgische ITAA-leer — gebruikt in voorbeeldexamens — plaatst beide in de **registrerende** functie omdat geen van beide al een wilsbeslissing of fysieke custody inhoudt. Cruciaal voor de punten: zorg dat (1, 2, 8, 9) **niet** in dezelfde hand liggen als (3) of (5, 7) — autorisatie + uitvoering + controle bij één persoon = volledige doorbreking van functiescheiding. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het functiescheidingsbeginsel is genormeerd in ISA 315 (herzien-2019) Bijlage 3: \"functiescheiding houdt in dat de verantwoordelijkheden voor het autoriseren van transacties, het vastleggen van transacties en het bewaren van activa\" aan verschillende personen worden toegewezen, om te beperken dat één persoon fouten of fraude kan plegen én verhullen. De Belgische beroepspraktijk vertaalt dit naar de vier-functies-leer (beherend = autoriseren + uitvoeren / bewarend = custody / registrerend = vastleggen / controlerend = verifiëren), met als vuistregel dat één persoon niet meer dan twee niet-aangrenzende functies mag cumuleren. 📖",
+          "wetsref": "ISA 315 (herzien-2019), Bijlage 3 — Beheersingsactiviteiten / Functiescheiding",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

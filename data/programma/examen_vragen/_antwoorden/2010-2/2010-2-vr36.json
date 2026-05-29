@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr36",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De bank **moet** ingaan op de vraag van de ontvanger en schriftelijk inlichtingen verstrekken over de vermogenssituatie van de heer Y. Het fiscaal bankgeheim van art. 318 WIB92 is **niet** van toepassing op de invordering — het beschermt de cliënt enkel tegen de administratie die de belasting *vestigt*, niet tegen de administratie die ze *int*. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De redenering verloopt in drie stappen:\n\n1. **Art. 318 WIB92** verbiedt de administratie inlichtingen in te zamelen bij bank-, wissel-, krediet- en spaarinstellingen, maar enkel \"met het oog op het belasten van hun cliënten\" — dus uitsluitend in de **vestigingsfase**. 📖\n2. De **ontvanger** treedt op in de **invorderingsfase**: de belasting is reeds gevestigd en ingekohierd; de vraag is hoe de Staat de openstaande schuld kan innen. Art. 318 WIB92 geldt voor hem dus niet. 🔗\n3. De ontvanger beschikt over een **eigen, ruime onderzoeksbevoegdheid** in het Wetboek van de minnelijke en gedwongen invordering (Wb.Inv., sinds 1 januari 2020). Art. 75 Wb.Inv. verplicht **iedere persoon** — uitdrukkelijk inclusief banken — om op schriftelijk verzoek alle toereikende, ter zake dienende en niet overmatige inlichtingen te verstrekken \"teneinde [de] vermogenssituatie [van de schuldenaar] te bepalen met het oog op het invorderen van de fiscale en niet-fiscale schuldvorderingen\". 📖\n\nWeigeren stelt de bank dus bloot aan sancties; zij dient binnen de in de aanvraag vermelde termijn schriftelijk te antwoorden.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Historische context** — ten tijde van het examen (2010) stond deze onderzoeksbevoegdheid van de ontvanger in **art. 319bis WIB92**. Bij de codificatie van het invorderingsrecht in het Wb.Inv. (in werking op 1 januari 2020) werd de regel overgeheveld naar **art. 75 Wb.Inv.**, met behoud van de essentie. Een stagiair die deze vraag vandaag krijgt, moet dus de actuele grondslag citeren, maar het inhoudelijke principe — *geen bankgeheim tegenover de ontvanger* — is ongewijzigd. 🔗\n\n**Valkuil**: art. 318 WIB92 niet verwarren met de tweede paragraaf van art. 322 WIB92 (doorbreking bankgeheim bij aanwijzingen van belastingontduiking, met kennisgevingsplicht via art. 333/1) — beide regelen het bankgeheim in de **vestigingsfase**. Voor de invordering is de cascade volledig anders: rechtstreekse vordering bij de bank op grond van art. 75 Wb.Inv., zonder voorafgaand vermoeden van fraude en zonder kennisgevingsplicht aan de belastingschuldige. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 75 Wb.Inv.** (Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen) — actuele grondslag: iedere persoon, ook een bank, is verplicht de met de invordering belaste ambtenaren op schriftelijk verzoek alle toereikende inlichtingen te verstrekken om de vermogenssituatie van de schuldenaar te bepalen. 📖\n\n**Art. 318 WIB92** — a contrario: het bankgeheim geldt enkel \"met het oog op het belasten\" van de cliënt (vestigingsfase) en is dus niet inroepbaar tegen de ontvanger. 📖\n\n**Ten tijde van het examen (2010)**: art. 319bis WIB92 — voorganger van art. 75 Wb.Inv., met identieke draagwijdte. 🔗",
+          "wetsref": "Art. 75 Wb.Inv.; art. 318 WIB92 (a contrario); historisch art. 319bis WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

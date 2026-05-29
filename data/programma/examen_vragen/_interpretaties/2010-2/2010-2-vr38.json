@@ -1,0 +1,77 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr38",
+  "interpretatie_datum": "2026-05-29T19:34:14Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Overdracht van documenten aan een collega-accountant bij dossier-overname",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "dossier-overname",
+    "overdracht documenten",
+    "beroepsnormen accountant",
+    "confraterniteit",
+    "retentierecht",
+    "boekhoudstukken"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Welke van volgende documenten dient u over te dragen aan uw collega die een dossier van u overneemt? Beoordeel per document met Ja / Neen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Nota's die u heeft gemaakt ter voorbereiding van een opdracht voor de vertrokken klant — moet u die overdragen aan de overnemende collega?",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Dagboeken die het resultaat zijn van de verwerking van de boekhoudstukken — moet u die overdragen aan de overnemende collega?",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Een financieel advies, met name een uitgewerkte successieplanning, dat nog niet werd vergoed — moet u dat overdragen aan de overnemende collega?",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "De jaarrekening, bijlagen van de jaarrekening, de fiscale aangifte en de bijlagen van de fiscale aangifte — moet u die overdragen aan de overnemende collega?",
+      "opties": [
+        { "id": "a", "tekst": "Ja" },
+        { "id": "b", "tekst": "Neen" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG bevestigt dat dit 'Vraag 1' is onder de sectiekop 'JURIDISCHE EN BEROEPSNORMEN MET BETREKKING TOT DE ACCOUNTANCY, DE BELASTINGCONSULTANCY EN DE ANDERE WETTELIJKE OPDRACHTEN VAN DE ACCOUNTANT EN VAN DE BELASTINGCONSULENT' (20 punten, vraag = 4 punten) — vandaar PO 4.0. Vier deelvragen a-d, elk met een Ja/Neen-vakje in de PDF: dit zijn binaire keuzes per document, dus geïnterpreteerd als mc_keuze met opties Ja/Neen (niet als juist_fout-stelling, omdat de vraagstelling per document een keuze-vraag is, niet een te beoordelen stelling). Tekst.txt-duplicaten (subvraag-renders na de hoofdtekst) genegeerd — visuele waarheid in PNG is leidend.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

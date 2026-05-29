@@ -1,48 +1,33 @@
 {
   "schema_versie": "1.0",
   "po_code": "3.0",
-  "gegenereerd_op": "2026-05-26T10:21:29+00:00",
+  "gegenereerd_op": "2026-05-29T19:46:41+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 39,
-  "n_clusters": 1,
-  "n_singletons": 37,
-  "clusters": [
-    {
-      "cluster_id": "3.0-c1",
-      "voorlopige_label": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
-      "n_voorkomens": 2,
-      "voorkomens": [
-        {
-          "examen_id": "2013-2",
-          "vraag_id": "2013-2-vr17",
-          "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr17.json"
-        },
-        {
-          "examen_id": "2014-1",
-          "vraag_id": "2014-1-vr15",
-          "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr15.json"
-        }
-      ],
-      "interne_scores": [
-        {
-          "van": "2013-2-vr17",
-          "naar": "2014-1-vr15",
-          "cosine": 0.8361
-        }
-      ],
-      "verdict": "varianten",
-      "actie": "behoud_apart_met_label",
-      "motivering": "Beide matrix-invul-vragen 'kenmerk per vennootschapsvorm (NV/BVBA/CVA/CVBA/CVOA/VOF)'. 2013-2 toetst onderhandse akte + winstbewijzen + neerlegging + minimumkapitaal; 2014-1 toetst aansprakelijkheid + winstbewijzen + neerlegging + financieel plan. Twee kenmerken overlappen, twee verschillen — gedeeld antwoord moet alle zes kenmerken dekken."
-    }
-  ],
+  "threshold_cosine": 0.85,
+  "n_vragen": 50,
+  "n_clusters": 0,
+  "n_singletons": 50,
+  "clusters": [],
   "borderline_paren": [
+    {
+      "van": "2013-2-vr17",
+      "naar": "2014-1-vr15",
+      "cosine": 0.8361
+    },
+    {
+      "van": "2010-2-vr18",
+      "naar": "2014-1-vr20",
+      "cosine": 0.781
+    },
     {
       "van": "2014-1-vr20",
       "naar": "2014-1-vr21",
       "cosine": 0.7802
+    },
+    {
+      "van": "2010-2-vr18",
+      "naar": "2015-1-vr27",
+      "cosine": 0.7671
     },
     {
       "van": "2014-1-vr20",
@@ -112,6 +97,72 @@
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrJ1.json"
     },
     {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr11",
+      "vraag_onderwerp": "Controle van de balanspost kapitaal bij ontbindingsverslag van een NV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr11.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr12",
+      "vraag_onderwerp": "Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr12.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr13",
+      "vraag_onderwerp": "NV TIBERI — aandelen aan toonder, recurrente verliezen en conflict tussen aandeelhouders",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr13.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr14",
+      "vraag_onderwerp": "Vennootschapsrecht: nettoactief en dividenduitkering, volstorting bij inbreng in natura, stemrecht NV, omzetting van rechtsvorm",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr14.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr15",
+      "vraag_onderwerp": "Vergelijkende tabel rechtsvormen NV / BVBA / CVBA — 10 fouten identificeren",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr15.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr16",
+      "vraag_onderwerp": "NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr16.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr17",
+      "vraag_onderwerp": "Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr17.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr18",
+      "vraag_onderwerp": "Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr18.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr19",
+      "vraag_onderwerp": "Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr19.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr2",
+      "vraag_onderwerp": "Tussentijds dividend (interim-dividend) op het lopende resultaat — toelaatbaarheid, voorwaarden en boekhoudkundige verwerking",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr2.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr42",
+      "vraag_onderwerp": "Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr42.json"
+    },
+    {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr14",
       "vraag_onderwerp": "Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA",
@@ -137,6 +188,12 @@
     },
     {
       "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr17",
+      "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr17.json"
+    },
+    {
+      "examen_id": "2013-2",
       "vraag_id": "2013-2-vr18",
       "vraag_onderwerp": "BVBA: rechten van minderheidsaandeelhouder bij vermoeden van verduisteringen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr18.json"
@@ -152,6 +209,12 @@
       "vraag_id": "2013-2-vr20",
       "vraag_onderwerp": "Individueel controlerecht BVBA: stellingen juist/fout",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr20.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr15",
+      "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr15.json"
     },
     {
       "examen_id": "2014-1",
@@ -273,6 +336,5 @@
       "vraag_onderwerp": "Stellingen juist of fout over omzettingen van vennootschappen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr4C.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

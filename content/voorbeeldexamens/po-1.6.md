@@ -3,12 +3,12 @@ title: PO 1.6 — Externe controle
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.6 (Externe controle).
 tags: [examen, voorbeeldvragen, po-1-6]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.6 — Externe controle
 
-**22 unieke vraag-eenheden** uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 22 met modelantwoord
+**29 unieke vraag-eenheden** uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
 
 <a id="2024-1-vr2A"></a>
 
@@ -1023,3 +1023,554 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 14:3-14:6 WVV (oud art. 774-778 W.Venn.) — staat max. 3 maanden + controleverslag + mededeling bij oproeping AV. ITAA-norm omzetting-vennootschap (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖  
 > > *Bron: Art. 14:3, 14:6 WVV (vroeger art. 776, 778 W.Venn.)*
+
+<a id="2010-2-vr10"></a>
+
+> [!question]- Voorraadcontrole door accountant bij omzettingsverslag — beoordeling van werkwijze
+> *🆕 Examen 2010-2 · PO 1.6*
+>
+> Een groothandel in medische toestellen beschikt over een IT-systeem voor het bijhouden van de voorraad waarbij de "in-" en "uit"-verrichtingen via een barcode worden ingelezen. Er bestaat in het bedrijf een duidelijk geschreven instructie over het voorraadbeheer. Tweemaal per jaar worden er intern tellingen gedaan en wordt het permanent inventarissysteem bijgewerkt en dit telkens met een nazicht en verklaring van de verschillen. Uw opdracht kadert in een omzetting waarvoor u een controleverslag dient op te stellen. U krijgt op 10 oktober 2010 de staat van activa en passiva per 30 september 2010 op basis waarvan u uw werkzaamheden dient uit te voeren.
+> 
+> Geef op volgende vragen uw antwoord met JA of NEEN.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik moet de voorraad opnieuw laten opmaken op datum van mijn aanstelling.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — een nieuwe fysieke voorraadopname op de aanstellingsdatum is geen verplichting; ISA 501 laat een opname op een **andere datum** dan de balansdatum (hier 30/09/2010) uitdrukkelijk toe op voorwaarde dat aanvullende werkzaamheden de afgrenzing afdekken. 🔗
+> > 
+> > De staat van activa en passiva is opgesteld per 30/09/2010; de cliënt heeft een permanent voorraadsysteem met geschreven instructies en halfjaarlijkse tellingen mét verschillenanalyse — precies de omstandigheden waarin ISA 501 par. 5 en A1 herftellen op een andere datum dan de balansdatum aanvaarden, mits de tussenliggende mutaties controleerbaar zijn. 🔗 Een vol-bedrijfs-hertelling forceren zou disproportioneel zijn t.o.v. het risico. 🔗
+> > 
+> > ISA 501 par. 4-5 (fysieke voorraadopname; opname op andere datum dan de balansdatum is toegelaten mits aanvullende werkzaamheden de mutaties tussen telling en balansdatum afdekken). 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik zal eerst nagaan of de tussentijdse testen en inventarisaties voldoende zekerheid bieden en eventueel overgaan tot steekproeven.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — dat is precies de voorgeschreven aanpak: eerst de **interne controle-omgeving** rond de permanente inventaris evalueren en, gegeven voldoende betrouwbaarheid, de bestaans- en juistheidsassertie afdekken via **steekproef-tellingen**. 🔗
+> > 
+> > ISA 501 par. A1-A2 stelt dat een **permanent voorraadbeheersysteem** in combinatie met periodieke tellingen + verschillenverklaring als basis kan dienen, op voorwaarde dat de instructies, procedures en uitvoering door het management eerst geëvalueerd worden. 📖 Pas na die test of opzet en werking voldoen, schaalt de beroepsbeoefenaar zijn eigen detail-werkzaamheden in (steekproeven, tellingen ter toetsing — ISA 501 par. A7). 🔗 Bij de groothandel zijn de signalen positief (geschreven instructie, barcode-systeem, halfjaarlijkse tellingen met nazicht), wat een steekproefbenadering rechtvaardigt. 🔗
+> > 
+> > *Vermeldenswaard* — onder de ITAA-omzettingsnorm (par. 26-27) moet de beoordelaar specifiek nagaan of het bestuursorgaan beschikt over de nodige **procedures inzake het financieel rapporteringsproces** voor een getrouwe afsluiting van de tussentijdse staat; de test op opzet en werking van het permanent voorraadsysteem maakt daar integraal deel van uit. 📖
+> > 
+> > ISA 501 par. 4(a), par. 5 en par. A1-A7 (bestaan en conditie voorraad — permanent voorraadbeheersysteem + tellingen ter toetsing). 📖 ITAA-norm omzetting vennootschap §III.1 par. 26-27 (uit te voeren werkzaamheden betreffende de staat van activa en passiva). 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik moet altijd een afkeurende verklaring geven in mijn verslag.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — een **afkeurende verklaring** is enkel aan de orde wanneer de afwijkingen of beperkingen zowel **materieel als diepgaand** zijn; dat is hier niet het geval. 🔗
+> > 
+> > De vier oordeelsvormen (zonder voorbehoud, met voorbehoud, afkeurend, onthouding) zijn een gradueel signaalsysteem (ISA 700/705). 🔗 Bij voldoende geschikte controle-informatie via permanente inventaris + steekproeven kan een **oordeel zonder voorbehoud** worden afgegeven; een afkeurend oordeel veronderstelt een materiële én diepgaande afwijking in de staat van activa en passiva, niet louter het feit dat de beroepsbeoefenaar niet op de aanstellingsdatum zelf heeft geteld. 🔗
+> > 
+> > *Valkuil* — verwar **beperking van de controle** (kan leiden tot voorbehoud of onthouding) niet met een **afwijking van het referentiestelsel** (kan leiden tot voorbehoud of afkeurend oordeel). Een afkeurend oordeel mag pas wanneer de jaarrekening of staat als geheel misleidend is — voor een betrouwbare permanente inventaris is dat niet aan de orde. 🤖
+> > 
+> > ISA 705 (herzien) — afkeurend oordeel is gereserveerd voor materiële én diepgaande afwijkingen. 📖 ITAA-norm omzetting vennootschap Bijlage 3 (modelverslagen) gaat uit van een standaard **beoordelingsverklaring**; afwijkingen zijn de uitzondering, niet de regel. 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik moet in mijn verslag vermelden dat er geen fysieke controle is geweest van de voorraad maar dat de interne organisatie en administratie mij de mogelijkheid heeft gegeven mij op voldoende wijze te vergewissen van de juistheid van de voorraad.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — wanneer de beroepsbeoefenaar zich op de **interne organisatie en administratie** (permanente inventaris + halfjaarlijkse tellingen met verschillenanalyse) baseert in plaats van op een eigen fysieke telling op de aanstellingsdatum, is het correct dit transparant in het verslag te vermelden zonder dat dit een voorbehoud impliceert. 🔗
+> > 
+> > De beroepsbeoefenaar moet in zijn verslag de **uitgevoerde werkzaamheden** beschrijven (ISA 501; ITAA-norm omzetting Bijlage 3). 📖 Het is gangbare praktijk en transparant om aan te geven dat geen eigen fysieke telling op datum is uitgevoerd, maar dat de evaluatie van de interne controle (geschreven instructies, barcode-systeem, halfjaarlijkse tellingen met verschillenverklaring) plus eigen steekproef-toetsing voldoende geschikte controle-informatie heeft opgeleverd over het bestaan en de waardering van de voorraad. 🔗 Deze formulering blijft binnen een **oordeel zonder voorbehoud**: ze beschrijft de methode, niet een beperking. 🔗
+> > 
+> > ITAA-norm omzetting vennootschap Bijlage 3 (modelverslag — sectie verantwoordelijkheden en uitgevoerde werkzaamheden). 📖 ISA 501 par. 4-5 + A1-A2 (steunen op een betrouwbaar permanent voorraadbeheersysteem). 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik moet deze opdracht weigeren.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — er is geen enkele reden om de opdracht te weigeren: er is geen onafhankelijkheidsprobleem, geen bekwaamheidsbeletsel en geen onoverkomelijke controlebeperking. 🔗
+> > 
+> > Opdracht-weigering of -teruggave is voorbehouden aan situaties waarin de beroepsbeoefenaar niet onafhankelijk is, onvoldoende deskundigheid heeft, of waarin het management hem belet voldoende geschikte controle-informatie te verkrijgen. 🤖 Geen van die voorwaarden is hier vervuld: de interne organisatie is sterk, de permanente inventaris is auditeerbaar, en de aanstellingsdatum (10/10/2010) ligt slechts 10 dagen na de staat-datum (30/09/2010) — ruim binnen wat met steekproeven afdekbaar is. 🔗
+> > 
+> > ITAA-norm omzetting vennootschap §III.1 (de norm gaat uit van uitvoering, niet weigering, mits het bestuursorgaan de staat van activa en passiva opstelt en de procedures voor de tussentijdse afsluiting beschikbaar zijn). 🔗
+
+<a id="2010-2-vr11"></a>
+
+> [!question]- Controle van de balanspost kapitaal bij ontbindingsverslag van een NV
+> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+>
+> U bent op 01/09/2010 aangesteld als accountant voor het opstellen van een verslag van ontbinding van een naamloze vennootschap opgericht in 1995. Op de laatste jaarvergadering op 25/06/2010 zijn slechts 60 % van de aandeelhouders verschenen, de aandelen van de vennootschap zijn aan toonder. De raad van bestuur geeft u een staat van activa en passiva per 31/08/2010 en deelt mee dat een nieuwe aandeelhouder ondertussen 30 % van de niet verschenen aandelen heeft verworven.
+> 
+> U dient de balanspost “kapitaal” te controleren.
+> 
+> **Welke van de volgende controles dient u zeker uit te voeren?**
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Alle aandeelhouders identificeren</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — de controle viseert de balanspost **kapitaal** (bedrag + samenstelling), niet de identiteit van de aandeelhouders. Bij aandelen aan toonder is volledige identificatie bovendien feitelijk niet mogelijk. 🔗
+> > 
+> > Voor de controle van het kapitaal volstaan de juridische bronnen die het bedrag en de samenstelling vastleggen (statuten, BS-publicaties, AV-notulen). Wie de aandeelhouders zijn, raakt het *bedrag* van het maatschappelijk kapitaal niet. In casu zijn de aandelen bovendien aan toonder — er bestaat geen aandeelhoudersregister om volledig op te identificeren. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §24-25: de beroepsbeoefenaar controleert de staat van activa en passiva (incl. balansposten zoals kapitaal) volgens een gepast controleprogramma. Identificatie van aandeelhouders behoort niet tot dit programma. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24-25*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Raad van bestuur naar “kennisgave” vragen van participaties van meer dan 25 %</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — de transparantieverplichting voor participaties >25 % (kennisgave) geldt voor genoteerde vennootschappen en raakt het *bedrag* van de balanspost kapitaal niet. 🔗
+> > 
+> > De kennisgevingsregeling voor belangrijke deelnemingen (wet 2 mei 2007, oud art. 514 W.Venn.) is een transparantie-instrument voor genoteerde NV's — geen controle-instrument voor de balanspost kapitaal van een niet-genoteerde NV in ontbinding. Niet verwarren met de controle of het kapitaal volstort is. 🤖
+> > 
+> > Geen wettelijke of normatieve grondslag verbindt de kennisgave van belangrijke deelnemingen aan de controle van de balanspost kapitaal in het kader van een ontbindingsverslag. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Toetsing met de gecoördineerde statuten</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — de gecoördineerde statuten vermelden het maatschappelijk kapitaal en zijn het natuurlijke referentiepunt om de balanspost te toetsen. 🔗
+> > 
+> > Het kapitaal van een NV staat verplicht in de statuten en wordt bij elke wijziging (verhoging, vermindering, incorporatie van reserves) statutair aangepast via authentieke akte. De gecoördineerde statuten geven de actuele stand — directe match met het kapitaal-saldo op de balans. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §24-25: gepast controleprogramma voor de staat van activa en passiva. Vergelijking met de statutair vastgelegde rechtssituatie is een evidente substantieve controle voor de balanspost kapitaal. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24-25*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Raadplegen van de bijlagen in het Belgisch Staatsblad</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — kapitaalmutaties (oprichting, verhoging, vermindering) worden verplicht in de bijlagen bij het Belgisch Staatsblad gepubliceerd. 🔗
+> > 
+> > Het BS is de officiële publiciteitsbron voor vennootschapsakten met derden-werking. Voor het kapitaal vindt de accountant er de oprichtingsakte en alle latere kapitaalwijzigingen — onmisbaar om de historische opbouw van de balanspost te reconstrueren tussen 1995 en 2010. 🔗
+> > 
+> > Bekendmaking van vennootschapsakten in de bijlagen bij het BS is verplicht voor oprichting en latere wijzigingen aan de statuten, met inbegrip van kapitaalwijzigingen. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Opvragen van alle aktes zoals ze voorkomen in de bijlagen in het Belgisch Staatsblad</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — "**alle** aktes" is overdreven; alleen de aktes die het kapitaal raken (oprichting + kapitaalwijzigingen) zijn relevant. 🔗
+> > 
+> > Het verschil met d) zit in het woord "alle": d) raadplegen van de relevante BS-bijlagen is correct, e) systematisch alle gepubliceerde aktes opvragen is disproportioneel en niet vereist door het controleprogramma. De accountant werkt risico-gericht (ISA 315), niet exhaustief. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §24: "gepast" controleprogramma — proportionaliteit primeert. Exhaustief opvragen van alle BS-aktes is geen normatief vereiste. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Bevestiging bekomen van kapitaal bij notaris</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — de notaris is geen bron voor *bevestiging* van de balanspost kapitaal; de authentieke akten zelf (oprichting + kapitaalwijzigingen) zijn al publiek raadpleegbaar via de statuten en het BS. 🔗
+> > 
+> > Notarissen verlijden authentieke akten voor kapitaalverrichtingen, maar leveren geen lopende "bevestiging" van de balanspost. De accountant put zijn controle-evidentie uit (i) de gecoördineerde statuten, (ii) de BS-publicaties, en (iii) de notulen van de AV die het besluit namen — niet uit een bevestigingsbrief van de notaris. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §24-25 voorziet geen bevestigingsprocedure bij de notaris voor de balanspost kapitaal. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24-25*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Opvragen van de notulen van de laatste algemene vergaderingen</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — kapitaalwijzigingen verlopen via een AV-besluit; de notulen documenteren de bevoegdheidsbasis en de quorum-/meerderheidsvoorwaarden. 🔗
+> > 
+> > De notulen van de (buitengewone) AV bevatten de besluiten tot kapitaalverhoging/-vermindering, met inbegrip van de modaliteiten (uitgifte premie, voorkeurrecht, inbreng in natura, incorporatie van reserves). Zonder deze notulen kan de accountant de bewegingen op het kapitaal niet onderbouwen. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §24-25: kennisname van de besluiten van het bevoegde orgaan maakt deel uit van een gepast controleprogramma voor de balansposten van eigen vermogen. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24-25*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Opvragen van financieel plan bij notaris</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — het financieel plan dateert van de oprichting (1995) en speelt geen rol bij de controle van de balanspost kapitaal vijftien jaar later in het kader van een ontbinding. 🔗
+> > 
+> > Het financieel plan is een oprichtingsdocument dat de oprichtersaansprakelijkheid voor kennelijk ontoereikend aanvangskapitaal onderbouwt (relevant bij faillissement binnen drie jaar na oprichting). Het zegt niets over de huidige balanspost kapitaal in 2010 — verwarring met de kapitaaltoereikendheidstoets vermijden. 🤖
+> > 
+> > Het financieel plan behoort niet tot de informatiebronnen die de ITAA-norm voor het ontbindingsverslag voorziet voor de controle van de balanspost kapitaal. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Nagaan wat de samenstelling van het kapitaal is (incorporatie van reserves)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — de samenstelling van het kapitaal (cash-inbreng, inbreng in natura, incorporatie van reserves) is essentieel voor de fiscale en juridische kwalificatie van een latere uitkering bij vereffening. 🔗
+> > 
+> > Bij vereffening wordt onderscheid gemaakt tussen "fiscaal gestort kapitaal" en kapitaal dat uit geïncorporeerde reserves voortkomt — dat laatste deel kan bij liquidatie als dividend belastbaar zijn (roerende voorheffing). De samenstelling traceren is dus geen kosmetische maar een materiële controle voor het ontbindingsverslag. 🤖
+> > 
+> > ITAA-norm ontbinding-vereffening §24-25: gepast controleprogramma omvat de balansposten en de daarmee verband houdende toelichtingen — de samenstelling van het kapitaal is een verplicht toelichtingselement. 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §24-25*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Saldo van kapitaal vergelijken met grootboekrekening en toelichting in de jaarrekening</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — basis-aansluitingscontrole: het kapitaalbedrag op de staat van activa en passiva moet sluiten met de grootboekrekening 100 en met de toelichting bij de jaarrekening. 🔗
+> > 
+> > Drie-weg-reconciliatie (balans ↔ grootboek ↔ toelichting) is de elementaire substantieve controle voor elke balanspost. Afwijkingen wijzen op niet-geboekte mutaties of foutieve presentatie. 🔗
+> > 
+> > ITAA-norm ontbinding-vereffening §25: het controleprogramma voor de staat van activa en passiva omvat expliciet "de daarmee verband houdende toelichtingen". 📖  
+> > *Bron: ITAA-norm ontbinding-vereffening §25*
+
+<a id="2010-2-vr12"></a>
+
+> [!question]- Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve
+> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+>
+> Pierre is net geslaagd voor zijn stage als timmerman en wil zich als zelfstandige vestigen. Hij zou een bvba "starter" (S-BVBA) willen oprichten, daartoe aangespoord door een vriend die beweert dat hij zijn vennootschap kan oprichten met een beginkapitaal van 1 euro.
+> 
+> Pierre beschikt over de volgende middelen:
+> - Een zichtrekening van 1 530,00 euro
+> - Een eigen personenauto die hij in het begin van zijn activiteit als vervoermiddel wil gebruiken
+> - Gereedschap dat tijdens zijn beroepsstage werd aangekocht
+> - Een gsm
+> - Een spaarrekening van 3 000,00 euro
+> - Een pc die hij van de school heeft gekregen als eerste prijs creativiteit
+> - Hij heeft zijn bankier opgezocht, hem zijn project voorgelegd en een krediet van 30 000 euro op 3 jaar aangevraagd waarvoor zijn ouders zich borg stellen.
+> 
+> Hij heeft bij vrienden en op sommige websites inlichtingen ingewonnen en legt u de volgende beweringen voor.
+> 
+> Antwoord met WAAR of NIET WAAR en licht uw antwoord toe in maximum 10 regels (en rechtvaardig uw antwoord op grond van een artikel van het Wetboek van Vennootschappen).
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik kan mijn S-BVBA met 1 euro oprichten zonder tussenkomst van een notaris.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NIET WAAR.** De S-BVBA kon weliswaar met een geplaatst kapitaal van slechts 1 EUR worden opgericht, maar de oprichting vereiste — net als bij elke BVBA — een **authentieke (notariële) akte**. 🔗
+> > 
+> > Twee bestanddelen van de stelling moeten apart worden beoordeeld:
+> > 
+> > - **"Met 1 EUR oprichten"** → juist. Art. 214 § 2 W.Venn. liet voor de S-BVBA een geplaatst kapitaal toe tussen 1 EUR en (minder dan) 18 550 EUR (= het minimumkapitaal van een gewone BVBA). 🔗
+> > - **"Zonder notaris"** → fout. De S-BVBA was een vorm van BVBA en viel onder art. 66 W.Venn.: vennootschappen met rechtspersoonlijkheid worden opgericht bij **authentieke akte**. De notariële tussenkomst was bijgevolg verplicht, ongeacht het bedrag van de inbreng. 🔗
+> > 
+> > Art. 66 W.Venn. (oprichting BVBA bij authentieke akte) juncto art. 211bis en art. 214 § 2 W.Venn. (S-BVBA, kapitaal vanaf 1 EUR). 🔗  
+> > *Bron: art. 66 + art. 211bis + art. 214 § 2 W.Venn.*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Voor de waardering en de controle van de in de S-BVBA ingebrachte gereedschappen, gsm en auto heb ik geen bijstand van een beroepsbeoefenaar nodig.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NIET WAAR.** Bij elke inbreng in natura in een BVBA — ook in een S-BVBA — moet een **bedrijfsrevisor** een verslag opmaken over de waardering en de waarderingsmethoden van de ingebrachte goederen. 🔗
+> > 
+> > Art. 219 W.Venn. legde voor de BVBA bij inbreng in natura twee verslagen op:
+> > 
+> > - een **bijzonder verslag van de oprichters** met beschrijving van elk ingebracht goed en een gemotiveerde waardering; en
+> > - een **verslag van een bedrijfsrevisor** (door de oprichters aangewezen) die de gehanteerde waardering en waarderingsmethoden onderzoekt en verklaart of de waardering minstens overeenstemt met de vergoeding (aandelen) die als tegenprestatie wordt verstrekt. 🔗
+> > 
+> > De S-BVBA genoot **geen vrijstelling** van deze controle. Pierre moet voor zijn auto, gereedschap en gsm dus wel degelijk een bedrijfsrevisor inschakelen. Voor de zichtrekening en de spaarrekening (inbreng in geld) is dat verslag niet vereist. 🔗
+> > 
+> > Art. 219 W.Venn. — inbreng in natura in een BVBA vereist een verslag van de oprichters én een verslag van een bedrijfsrevisor over de waardering. 🔗  
+> > *Bron: art. 219 W.Venn.*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ik moet een beroep doen op een boekhouder, een accountant, een bedrijfsrevisor of een erkende beroepsorganisatie om het financieel plan op te stellen EN geldig te verklaren.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NIET WAAR.** Voor de S-BVBA was **wettelijk bijstand vereist bij de opstelling** van het financieel plan door een erkend boekhouder, externe accountant, bedrijfsrevisor of door de Koning erkende beroepsorganisatie — maar van een afzonderlijke "geldigverklaring" van het plan is in de wet geen sprake. 🔗
+> > 
+> > Art. 215 W.Venn. (zoals ingevoegd voor de S-BVBA) bepaalde dat bij elke S-BVBA-oprichting het financieel plan moest worden **opgesteld met bijstand van** een erkend boekhouder, een externe accountant, een bedrijfsrevisor of een door de Koning erkende beroepsorganisatie. Pierre heeft dus inderdaad een professional nodig voor de **opstelling**. 🔗
+> > 
+> > De stelling overdrijft echter: de wet kent geen tweede stap waarbij die beroepsbeoefenaar het plan nog formeel zou "geldig verklaren". De bijstand bij opstelling is de enige wettelijke tussenkomst; daarna wordt het plan door de oprichters aan de notaris overhandigd, die het bewaart (cf. financieel plan-regime art. 215 W.Venn.). 🔗
+> > 
+> > Voor een **gewone BVBA** of NV was bijstand bij het financieel plan niet wettelijk verplicht (wel sterk aanbevolen). De verplichte bijstand was een **specifieke S-BVBA-regel** — bedoeld om de lage kapitaaldrempel te compenseren met een professionele kwaliteitscontrole vooraf. 🔗
+> > 
+> > Art. 215 W.Venn. — voor de S-BVBA wordt het financieel plan opgesteld met bijstand van een erkend boekhouder, externe accountant, bedrijfsrevisor of door de Koning erkende beroepsorganisatie. 🔗  
+> > *Bron: art. 215 W.Venn.*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Als de S-BVBA binnen de 3 jaar failliet gaat, zal ik slechts ten belope van 1 euro gehouden zijn met mijn persoonlijk vermogen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NIET WAAR.** Net als elke BVBA-vennoot is Pierre in beginsel beperkt aansprakelijk tot zijn inbreng, **maar** bij faillissement binnen drie jaar na oprichting riskeert hij — wegens **kennelijk ontoereikend aanvangsvermogen** — door de rechter persoonlijk en onbeperkt aansprakelijk te worden gesteld voor (een deel van) het passief. 🔗
+> > 
+> > Art. 229, 5° W.Venn. voorzag de **oprichtersaansprakelijkheid**: als de vennootschap binnen drie jaar na oprichting failliet wordt verklaard en het bij oprichting maatschappelijk kapitaal bij oprichting **kennelijk ontoereikend** was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste twee jaar, kan de rechter de oprichters hoofdelijk verbinden voor de verbintenissen van de vennootschap, geheel of voor een door hem bepaald deel. 🔗
+> > 
+> > Het financieel plan (art. 215 W.Venn., door de notaris bewaard) is precies het instrument waarmee de rechter beoordeelt of de oprichting al dan niet roekeloos ondergekapitaliseerd gebeurde. Een S-BVBA opgericht met **slechts 1 EUR** voor een timmermansactiviteit met aanzienlijke investeringsbehoeften draagt een verhoogd risico op zo'n aansprakelijkheidsvordering. 🔗
+> > 
+> > De aantrekkelijke "1 EUR-formule" mag niet doen vergeten dat de **persoonlijke borgstelling** van Pierres ouders voor het krediet van 30 000 EUR sowieso buiten de vennootschapsaansprakelijkheid valt: bij faillissement van de S-BVBA blijven de ouders als borg gehouden tegenover de bank — onafhankelijk van de oprichtersaansprakelijkheid. 🔗
+> > 
+> > Art. 229, 5° W.Venn. juncto art. 215 W.Venn. — oprichtersaansprakelijkheid bij faillissement binnen drie jaar wegens kennelijk ontoereikend aanvangsvermogen, beoordeeld aan de hand van het financieel plan. 🔗  
+> > *Bron: art. 229, 5° + art. 215 W.Venn.*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Zodra hij winst zal maken, zal hij jaarlijks 1/10 van de nettowinst moeten aanwenden om het bedrag van het geplaatst kapitaal aan te leggen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NIET WAAR.** Voor de S-BVBA bedroeg de jaarlijkse voorafname op de nettowinst voor de wettelijke reserve **één vierde (1/4)** — niet één tiende (1/10) — en de reserve wordt aangelegd tot ze het verschil dekt met het minimumkapitaal van een gewone BVBA (18 550 EUR), niet "het geplaatst kapitaal". 📖
+> > 
+> > Twee fouten in de stelling:
+> > 
+> > - **Het breukgetal.** CBN-advies 2018/05 bevestigt: "De algemene vergadering van een S-BVBA houdt jaarlijks een bedrag in van ten minste **een vierde** van de nettowinst voor de vorming van een reservefonds." Voor een gewone bvba, CVBA en NV is dat slechts één **twintigste** (1/20). Eén tiende (1/10) komt in geen van beide regimes voor. 📖
+> > - **Het doel.** Het reservefonds is geen vorming "van het geplaatst kapitaal" maar wel van de **wettelijke reserve** (rekening 130) — bij de S-BVBA verzwaard om het tekort tegenover het minimumkapitaal van een gewone BVBA (18 550 EUR) geleidelijk aan te vullen, zodat omvorming op termijn mogelijk wordt. 🔗
+> > 
+> > De verplichte voorafname van 1/4 was bij de S-BVBA expliciet bedoeld als **kapitaalopbouwmechanisme**: zodra de wettelijke reserve, samen met het geplaatst kapitaal, het bedrag van 18 550 EUR bereikte, kon de S-BVBA verder als gewone BVBA worden voortgezet (via incorporatie van de wettelijke reserve in het kapitaal — uitdrukkelijk toegelaten voor de S-BVBA, art. 319bis W.Venn.). 📖
+> > 
+> > Art. 319bis W.Venn. — voor de S-BVBA jaarlijkse voorafname van **één vierde** van de nettowinst voor de wettelijke reserve (vgl. art. 319 W.Venn. — één twintigste voor gewone bvba). Bevestigd in CBN-advies 2018/05, *Rekening 130 Wettelijke reserve*. 📖  
+> > *Bron: art. 319bis W.Venn. (S-BVBA) + art. 319 W.Venn. (gewone bvba)*
+
+<a id="2010-2-vr16"></a>
+
+> [!question]- NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)
+> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+>
+> De NV ABC stelt de heer X in de mogelijkheid om in te schrijven bij een kapitaalverhoging in de vennootschap ten belope van 12.500,00 EUR tegen een prijs van 250,00 EUR per aandeel. Het totaal aantal bestaande aandelen bedraagt 4.358 aandelen en het geplaatst kapitaal bedraagt 1.080.443,31 EUR. Verder bestaat het eigen vermogen per 31 december 2009 uit volgende elementen:
+> 
+> Reserves: 169.782,24 EUR
+> Overgedragen winst: 40.683,50 EUR
+> 
+> **Eigen vermogen NV ABC per 31 december 2009**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Geplaatst kapitaal | 1.080.443,31 |
+> | Reserves | 169.782,24 |
+> | Overgedragen winst | 40.683,50 |
+> | Totaal aantal bestaande aandelen | 4.358 |
+> | Bedrag kapitaalverhoging | 12.500 |
+> | Uitgifteprijs per nieuw aandeel | 250 |
+>
+> Bereken de fractiewaarde per aandeel.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Fractiewaarde = 247,92 EUR per aandeel** (1.080.443,31 EUR / 4.358 aandelen). 🔗
+> > 
+> > Fractiewaarde = geplaatst kapitaal / aantal aandelen = 1.080.443,31 / 4.358 = **247,9218 EUR**, afgerond **247,92 EUR**. 🔗
+> > 
+> > De fractiewaarde is een louter rekenkundig begrip: het deel van het geplaatste kapitaal dat boekhoudkundig door één aandeel wordt vertegenwoordigd. Het is **niet** de marktwaarde, **niet** de intrinsieke waarde en in WVV-NV's bestaat er geen nominale waarde meer — enkel een fractiewaarde. 🤖
+> > 
+> > Begrip 'fractiewaarde' vloeit voort uit art. 7:1 en 7:178 WVV (NV met kapitaal): de aandelen vertegenwoordigen elk een gelijk deel van het kapitaal. In een NV bestaat er sinds het W.Venn. en onder WVV géén verplicht nominale waarde meer; aandelen worden uitgedrukt als fractie. 📖  
+> > *Bron: art. 7:1 WVV (NV met kapitaal) — fractiewaarde*
+>
+> Bereken de intrinsieke waarde per aandeel.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Intrinsieke waarde = 296,22 EUR per aandeel** (totaal eigen vermogen 1.290.909,05 EUR / 4.358 aandelen). 🔗
+> > 
+> > Totaal eigen vermogen per 31/12/2009:
+> > 
+> > | Rubriek | Bedrag (EUR) |
+> > |---|---:|
+> > | Geplaatst kapitaal | 1.080.443,31 |
+> > | Reserves | 169.782,24 |
+> > | Overgedragen winst | 40.683,50 |
+> > | **Totaal eigen vermogen** | **1.290.909,05** |
+> > 
+> > Intrinsieke waarde = 1.290.909,05 / 4.358 = **296,2160 EUR**, afgerond **296,22 EUR**. 🔗
+> > 
+> > De intrinsieke (boekhoudkundige) waarde per aandeel = (eigen vermogen volgens balans) / (aantal aandelen). Het is de boekhoudkundige benadering van de werkelijke waarde — geen marktwaarde, geen rendementswaarde. 🤖
+> > 
+> > In een echte waardering door de accountant (bv. bij bijzondere opdracht — inbreng in natura, geschillen tussen aandeelhouders, art. 5:154 / 7:215 WVV-context) wordt de zuivere balansgebaseerde intrinsieke waarde meestal gecorrigeerd voor latente belastingen op meerwaarden, herwaarderingen van vaste activa en uitkeerbaarheid van reserves. Deze examenvraag toetst echter de **boekhoudkundige** intrinsieke waarde — strikt EV / aantal aandelen. 🤖
+>
+> Bereken het normale aantal uit te geven aandelen (bij de geplande kapitaalverhoging van 12.500,00 EUR).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Normaal aantal uit te geven aandelen = 42** (12.500,00 / 296,22 = 42,198 → 42 aandelen, met afronding naar beneden om verwatering te vermijden). 🔗
+> > 
+> > Het 'normale' aantal aandelen wordt berekend door uit te geven tegen de **intrinsieke waarde** (en niet tegen de fractiewaarde): elk nieuw aandeel moet dezelfde waarde inbrengen als de waarde die het zelf vertegenwoordigt in het eigen vermogen — anders ontstaat verwatering. 🔗
+> > 
+> > Aantal = bedrag kapitaalverhoging / intrinsieke waarde per aandeel = 12.500,00 / 296,22 = **42,198 aandelen** → afronding naar **42 aandelen** (je kan geen fracties van aandelen uitgeven, en 43 zou een uitgifte tegen iets minder dan de intrinsieke waarde betekenen). 🔗
+> > 
+> > In de praktijk vangt de **uitgiftepremie** dit op: men geeft een rond aantal aandelen uit (bv. 42) tegen een uitgifteprijs gelijk aan de intrinsieke waarde, waarbij het verschil tussen uitgifteprijs en fractiewaarde op rekening 11 'Uitgiftepremies' wordt geboekt. 🤖
+> > 
+> > De ratio van een 'normale' uitgifte tegen intrinsieke waarde steunt op het voorkeurrecht (art. 7:188 WVV) en op de bescherming tegen verwatering die het bestuursorgaan moet motiveren in zijn verslag bij beperking of opheffing van het voorkeurrecht (art. 7:179 en 7:191 WVV). Uitgifteprijs onder intrinsieke waarde = waarde-overdracht van oude naar nieuwe aandeelhouders (CBN-advies 2016/1). 📖  
+> > *Bron: art. 7:188 + art. 7:179 + art. 7:191 WVV; CBN-advies 2016/1*
+>
+> **Wat zijn de gevolgen voor de oude aandeelhouders bij genoemde verrichting, wanneer op het voorstel van het bestuursorgaan toch 50 aandelen worden uitgegeven?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Bij uitgifte van **50 aandelen tegen slechts 250 EUR** (onder de intrinsieke waarde van 296,22 EUR) lijden de oude aandeelhouders **verwatering**: hun aandeel daalt in waarde van 296,22 naar **295,69 EUR**, een verlies van **0,53 EUR per oud aandeel** (totaal ≈ 2.309,74 EUR), dat als waarde-overdracht naar de nieuwe aandeelhouders vloeit. 🔗
+> > 
+> > Situatie na de kapitaalverhoging:
+> > 
+> > | Rubriek | Bedrag (EUR) |
+> > |---|---:|
+> > | Eigen vermogen vóór | 1.290.909,05 |
+> > | Inbreng nieuwe aandeelhouders (50 × 250,00) | + 12.500,00 |
+> > | **Nieuw eigen vermogen** | **1.303.409,05** |
+> > | Aantal aandelen na (4.358 + 50) | 4.408 |
+> > | **Intrinsieke waarde per aandeel na** | **295,6917 ≈ 295,69** |
+> > 
+> > Verwatering per aandeel = 296,22 − 295,69 = **0,53 EUR** per oud aandeel. 🔗
+> > 
+> > Totale waarde-overdracht van oude naar nieuwe aandeelhouders ≈ 4.358 × 0,53 ≈ **2.309,74 EUR**. Spiegelbeeld: de 50 nieuwe aandeelhouders krijgen elk een aandeel met boekwaarde 295,69 EUR voor slechts 250,00 EUR — een onmiddellijke meerwaarde van 45,69 EUR per nieuw aandeel (totaal 50 × 45,69 = 2.284,55 EUR; restverschil door afronding). 🔗
+> > 
+> > **Gevolgen voor de oude aandeelhouders**:
+> > 
+> > 1. **Vermogensverwatering**: hun intrinsieke waarde per aandeel zakt met 0,53 EUR. 🔗
+> > 2. **Verwatering van stemrecht en dividendrecht**: hun participatie-percentage daalt van 100 % naar 4.358 / 4.408 = **98,87 %** — de nieuwe aandeelhouders nemen 1,13 % over. 🔗
+> > 3. **Bescherming via voorkeurrecht** (art. 7:188 WVV): de oude aandeelhouders hebben in principe een wettelijk voorkeurrecht om zelf aan de kapitaalverhoging deel te nemen, naar evenredigheid van hun bestaand aandelenbezit. Als zij dat recht uitoefenen (of de verkoopopbrengst ervan ontvangen — CBN-advies 2016/1), wordt de verwatering economisch geneutraliseerd. 🔗
+> > 4. Wordt het voorkeurrecht **beperkt of opgeheven** (zoals impliciet in deze casus, waar de heer X uitsluitend mag inschrijven), dan vereist art. 7:179 + art. 7:191 WVV een **bijzonder verslag van het bestuursorgaan** met motivering van de prijszetting + een **verslag van de commissaris of bedrijfsrevisor** dat de financiële gegevens van het bestuursverslag bevestigt en uitdrukkelijk uitspraak doet over de **billijkheid van de uitgifteprijs** voor de bestaande aandeelhouders. 📖
+> > 
+> > De verwatering bestaat **niet** uit een verlies op het geplaatst kapitaal (de fractiewaarde stijgt zelfs licht door de uitgiftepremie-loze inbreng boven fractiewaarde van 247,92 EUR), maar uit een verlies op de **niet-gekapitaliseerde reserves + overgedragen winst**: die worden door 50 extra aandelen mee gedeeld zonder dat er een evenredige reserve-inbreng tegenover staat. Een correcte uitgifteprijs zou 296,22 EUR per aandeel zijn, met boeking: 247,92 op rekening 100 'Geplaatst kapitaal' + 48,30 op rekening 11 'Uitgiftepremies' per aandeel. 🔗
+> > 
+> > Voorkeurrecht oude aandeelhouders: **art. 7:188 WVV** (vroeger art. 592 W.Venn.). Beperking/opheffing met motiveringsplicht over de gevolgen voor vermogens- en lidmaatschapsrechten + verklaring van commissaris/revisor over de billijkheid van de uitgifteprijs: **art. 7:179 + art. 7:191 WVV** (vroeger art. 596-598 W.Venn.). Economische analyse van de waarde-overdracht via het inschrijvingsrecht: **CBN-advies 2016/1** — 'de waarde van het inschrijvingsrecht vertegenwoordigt op marktbasis de waarde die, als gevolg van de afzondering van het inschrijvingsrecht, van de oude aandelen overgaat op de nieuwe aandelen, wanneer de uitgifteprijs hiervan lager ligt dan de vermoedelijke marktwaarde van deze nieuwe aandelen'. 📖  
+> > *Bron: art. 7:179, 7:188 en 7:191 WVV; CBN-advies 2016/1*
+
+<a id="2010-2-vr17"></a>
+
+> [!question]- Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)
+> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+>
+> Geef aan met juist of fout of volgende beweringen bij de opdracht voor de externe accountant bij het opstellen van het controleverslag inzake de uitgifte van aandelen bij beperking of afstand van het voorkeurrecht bij kapitaalverhoging, kloppen. Motiveer bondig uw antwoord.
+> 
+> **Eigen vermogen voor, bij en na kapitaalverhoging**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Geplaatst kapitaal — voor kapitaalverhoging (bedrag / aantal aandelen) |   |
+> | Geplaatst kapitaal — voor: 1.080.443,31 (4.358 aandelen) | 1.080.443,31 |
+> | Wettelijke reserve — voor: 1.330,17 | 1.330,17 |
+> | Belastingvrije reserve — voor: 167.887,05 | 167.887,05 |
+> | Beschikbare reserve — voor: 565,02 | 565,02 |
+> | Overgedragen winst — voor: 25.272,93 | 25.272,93 |
+> | Resultaat voor de periode — voor: 15.410,17 | 15.410,17 |
+> | Kapitaalverhoging — bedrag: 12.500,00 (50 aandelen) | 12.500 |
+> | TOTAAL voor kapitaalverhoging: 1.290.909,05 (4.358 aandelen) | 1.290.909,05 |
+> | TOTAAL kapitaalverhoging: 12.500,00 (50 aandelen) | 12.500 |
+> | TOTAAL na kapitaalverhoging: 1.303.409,05 (4.408 aandelen) | 1.303.409,05 |
+> | Waarde per aandeel — voor kapitaalverhoging | 296,22 |
+> | Waarde per aandeel — kapitaalverhoging | 250 |
+> | Waarde per aandeel — na kapitaalverhoging | 295,69 |
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het uitvoeren van een volledige controle over de jaarrekening van de vennootschap is een vereiste.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. De beroepsbeoefenaar voert geen volledige controle van de jaarrekening uit, maar een **beoordelingsopdracht** met **beperkte mate van zekerheid** over de financiële en boekhoudkundige gegevens in het verslag van het bestuursorgaan. 🔗
+> > 
+> > De opdracht onder art. 7:179 WVV (NV) of art. 5:121 WVV (BV) is een **review engagement** (beperkte zekerheid), niet een **audit** (redelijke zekerheid). 📖 De beroepsbeoefenaar voert beoordelingsprocedures uit (vooral inlichtingen inwinnen en analytische procedures) en formuleert zijn conclusie in negatieve vorm: "niets is onder onze aandacht gekomen dat ons ertoe aanzet van mening te zijn dat deze gegevens niet getrouw en voldoende zijn". 📖 Een volledige jaarrekeningcontrole zoals door de commissaris (ISA-controle) is geen vereiste voor deze bijzondere opdracht; dat zou onevenredig zijn met het beperkte voorwerp van het verslag. 🔗
+> > 
+> > Als de vennootschap een commissaris heeft, is hij de aangewezen beroepsbeoefenaar voor het verslag — hij steunt dan op de kennis uit zijn lopende commissarismandaat, maar de opdracht zelf blijft een afzonderlijke beoordelingsopdracht, geen uitbreiding van zijn jaarrekeningcontrole. 🔗
+> > 
+> > Art. 7:179 WVV (NV) / art. 5:121 WVV (BV) — verslag van commissaris, bedrijfsrevisor of gecertificeerd accountant bij uitgifte van aandelen. ITAA-effectennorm, hoofdstuk "Doelstellingen en reikwijdte": de opdracht is een **beoordeling met beperkte mate van zekerheid**, geen volledige controle. 📖  
+> > *Bron: art. 7:179 WVV; art. 5:121 WVV; ITAA-effectennorm*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">In het kader van de uitgifte van aandelen bij kapitaalverhoging met afstand van het voorkeurrecht dient de beroepsbeoefenaar, indien de aandeelhouders het niet eens zijn over de intrinsieke waarde van de bestaande aandelen, deze waarde te bepalen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. De beroepsbeoefenaar **bepaalt de intrinsieke waarde van de aandelen niet** — dat is de verantwoordelijkheid van het bestuursorgaan, dat de uitgifteprijs verantwoordt in zijn bijzonder verslag. De beroepsbeoefenaar **beoordeelt** of die financiële en boekhoudkundige gegevens getrouw en voldoende zijn. 🔗
+> > 
+> > De rolverdeling onder art. 7:179-7:180 WVV is duidelijk: 📖
+> > 
+> > - **Bestuursorgaan**: stelt het bijzonder verslag op dat de verrichting en de uitgifteprijs **omstandig verantwoordt** in het vennootschapsbelang (gelet op de financiële toestand van de vennootschap, identiteit van de begunstigden, aard en omvang van hun inbreng — art. 7:180 §1, tweede lid WVV).
+> > - **Beroepsbeoefenaar**: brengt een **beoordelingsverslag** uit waarin hij vaststelt of de financiële en boekhoudkundige gegevens in dat bestuurdersverslag getrouw en voldoende zijn. Bij beperking/opheffing van het voorkeurrecht **ten gunste van bepaalde personen** verstrekt hij bovendien een **omstandig advies over de verantwoording van de uitgifteprijs** (art. 7:180 §1, derde lid WVV) — maar ook dat is een advies/beoordeling, geen eigen waardebepaling.
+> > 
+> > Dat aandeelhouders het niet eens zijn over de intrinsieke waarde is geen wettelijke trigger die de beroepsbeoefenaar tot waardeerder maakt. De geschilbeslechting tussen aandeelhouders behoort niet tot het bijzonder mandaat — dat is een aangelegenheid voor de algemene vergadering en, in laatste instantie, de rechtbank. 🤖
+> > 
+> > Verwar deze opdracht niet met een **inbreng in natura** (art. 7:197 WVV) of een **quasi-inbreng** (art. 7:8 WVV): daar moet de beroepsbeoefenaar wél de **waardering** beoordelen van het ingebrachte goed. Bij een gewone uitgifte van aandelen in geld met beperking/afstand van het voorkeurrecht beoordeelt hij enkel de financiële en boekhoudkundige gegevens in het bestuurdersverslag — de waardebepaling blijft een verantwoordelijkheid van het bestuursorgaan. 🔗
+> > 
+> > Art. 7:178, tweede en derde lid WVV (verantwoording door bestuursorgaan + verklaring beroepsbeoefenaar); art. 7:180 §1 WVV (omstandige verantwoording uitgifteprijs door bestuursorgaan + omstandig advies door commissaris/accountant bij beperking ten gunste van bepaalde personen). De beroepsbeoefenaar beoordeelt; hij waardeert niet. 📖  
+> > *Bron: art. 7:178 WVV; art. 7:180 §1 WVV; art. 5:130-5:131 WVV (BV)*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">In het kader van de uitgifte van aandelen bij kapitaalverhoging met afstand van het voorkeurrecht dient de beroepsbeoefenaar vast te stellen of de gegeven financiële en boekhoudkundige informatie juist is om de algemene vergadering voor te lichten omtrent het voorstel van kapitaalverhoging opgenomen in het bijzonder verslag van het bestuursorgaan.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST**. Dit is exact het voorwerp van het beoordelingsverslag: vaststellen of de financiële en boekhoudkundige gegevens in het bijzonder verslag van het bestuursorgaan **getrouw en voldoende** zijn, zodat de algemene vergadering met kennis van zaken kan beslissen over de voorgestelde kapitaalverhoging. 📖
+> > 
+> > De ITAA-effectennorm omschrijft de doelstelling van de opdracht uitdrukkelijk als het verschaffen van een basis om te rapporteren "of er iets onder onze aandacht is gekomen dat ons ertoe aanzet van mening te zijn dat de financiële en boekhoudkundige gegevens opgenomen in het verslag van het bestuursorgaan niet in alle van materieel belang zijnde opzichten **getrouw en voldoende** zijn om de algemene vergadering die over het voorstel moet stemmen, voor te lichten". 📖 De stelling parafraseert deze doelstelling correct: het gaat erom dat de AV-stemming op betrouwbare informatie steunt — niet om een eigen audit-oordeel over de jaarrekening, noch om een waardebepaling. 🔗
+> > 
+> > Art. 7:179 WVV (NV) / art. 5:121 WVV (BV); ITAA-effectennorm §"Doelstellingen en reikwijdte van de opdracht" en modelverslag (Bijlage 5): beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens in het bestuurdersverslag, met als doel de AV voor te lichten. 📖  
+> > *Bron: art. 7:179 WVV; art. 5:121 WVV; ITAA-effectennorm*
+
+<a id="2010-2-vr18"></a>
+
+> [!question]- Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva
+> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+>
+> U wordt aangesteld als extern accountant bij het opstellen van het controleverslag omtrent de omzetting van NV LKM in een BVBA. U wordt aangesteld op 1 oktober 2010 en ontvangt de staat van activa en passiva opgesteld op 30 april 2010. De normale afsluitdatum is 31 december van ieder jaar.
+>
+> **Wat is uw advies als extern accountant naar uw cliënt?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Advies: weiger de opdracht te aanvaarden op basis van de voorgelegde staat en vraag het bestuursorgaan om een **nieuwe staat van activa en passiva** op te stellen die niet meer dan **drie maanden** vóór de buitengewone algemene vergadering die over de omzetting moet besluiten is afgesloten. De staat per 30 april 2010 is onbruikbaar — op 1 oktober 2010 al meer dan vijf maanden oud, en de AV volgt nog later. 🔗
+> > 
+> > **Termijn-check (actualiteitsvereiste)**:
+> > 
+> > - Staat van activa en passiva opgesteld per **30 april 2010**. 📖
+> > - Accountant aangesteld op **1 oktober 2010** → staat is op dat moment al **5 maanden** oud. 🔗
+> > - De BAV die over de omzetting beslist komt na de aanstelling → staat is op het moment van de AV **> 5 maanden** oud. 🔗
+> > - Wettelijke grens (omzetting NV → BVBA, nationale omzetting): staat mag **maximaal 3 maanden** vóór de AV zijn afgesloten (art. 14:3 WVV; ten tijde van de casus art. 776 W.Venn., zelfde 3-maandentermijn). 📖
+> > - Overschrijding → staat is onbruikbaar als basis voor het controleverslag.
+> > 
+> > **Praktische uitwerking van het advies**:
+> > 
+> > 1. Vraag het bestuursorgaan een **nieuwe (recente) staat van activa en passiva** op te maken die binnen de drie-maandentermijn vóór de geplande BAV-datum valt. 🔗
+> > 2. Stem de afsluitdatum van die nieuwe staat af op de geplande BAV-datum (bv. staat per 30/09/2010 of later, als de BAV in oktober/november 2010 plaatsvindt). 🔗
+> > 3. Pas daarna kan het bijzonder verslag van de extern accountant over die staat worden opgesteld — met name de vermelding van een eventueel verschil tussen het nettoactief en het minimumkapitaal van de BVBA, en het signaleren van een overwaardering van het nettoactief. 📖
+> > 
+> > De drie-maandentermijn telt **vanaf de afsluitdatum van de staat tot de buitengewone algemene vergadering** — niet tot de aanstellingsdatum van de accountant en niet tot de datum van het controleverslag. Verwar deze nationale-omzetting-termijn (3 maanden, art. 14:3 WVV) ook niet met de **4-maandentermijn** die geldt bij grens«overschrijdende omzetting (art. 14:21 WVV). De drie-maanden«regel is bovendien een **wettelijk minimum-actualiteitsvereiste** voor de staat: ze geeft niet aan dat de accountant zelf binnen 3 maanden na zijn aanstelling moet rapporteren, wel dat de staat op de AV-datum nog binnen de termijn moet vallen. 🔗
+> > 
+> > **Art. 14:3 WVV** (nationale omzetting van vennootschappen, ook NV → BVBA): "Alvorens tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva op, die niet meer dan drie maanden vóór de algemene vergadering die over het voorstel tot omzetting moet besluiten is afgesloten." De extern accountant brengt over die staat een bijzonder verslag uit waarin met name overwaardering van het nettoactief wordt gesignaleerd (ITAA-norm Omzetting van een vennootschap, modelverslag bijlage 3.1). Ten tijde van de feiten (2010) gold dezelfde drie-maandentermijn onder art. 776 W.Venn. (oud); het WVV nam de regel ongewijzigd over. 📖  
+> > *Bron: WVV art. 14:3 (oud: W.Venn. art. 776); ITAA-norm Omzetting van een vennootschap, bijlage 3.1*
+
+<a id="2010-2-vr19"></a>
+
+> [!question]- Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit
+> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+>
+> U wordt aangesteld als extern accountant bij het opstellen van het controleverslag bij de ontbinding van een vennootschap. De vennootschap stelt 58 personeelsleden tewerk en heeft nog een aantal opdrachten uit te voeren waarvan de duurtijd ongeveer 18 maanden bedraagt. De staat van activa en passiva werd opgesteld in continuïteit.
+>
+> **Wat is hierop uw reactie?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Mijn reactie: de opmaak van de staat van activa en passiva **in continuïteit** is hier **terecht** — geen bezwaar, geen voorbehoud. De vennootschap stelt 58 personeelsleden tewerk en moet nog opdrachten van ongeveer 18 maanden uitvoeren, wat betekent dat de activiteiten worden verdergezet. De beslissing tot ontbinding leidt niet automatisch tot stopzetting; de going-concern-veronderstelling blijft dus van toepassing en de waarderingsregels in continuïteit zijn correct. 🔗
+> > 
+> > Redenering in drie stappen:
+> > 
+> > 1. **Het wettelijk uitgangspunt** (art. 2:71, § 2 WVV): bij het ontbindingsvoorstel hoort een staat van activa en passiva van niet meer dan drie maanden oud, in beginsel opgesteld volgens de gewone waarderingsregels (continuïteit). 📖
+> > 2. **Uitzondering** (art. 3:6, § 2 KB WVV — voorheen art. 28, § 2 KB W.Venn.): enkel "indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten", moet de staat in discontinuïteit worden opgesteld. 📖
+> > 3. **Toets op de casus**: 58 personeelsleden in dienst + lopende opdrachten van circa 18 maanden = de activiteit wordt feitelijk verdergezet, ruim ná de ontbindingsbeslissing. De CBN bevestigt expliciet dat een ontbindingsbeslissing niet steeds de onmiddellijke stopzetting tot gevolg heeft — going concern blijft het uitgangspunt zolang de verderzetting reëel is. 📖
+> > 
+> > Mijn controleverslag (model bijlage 3 ITAA-norm) bevat dus een **oordeel zonder voorbehoud** met als kerngedachte: "de staat geeft een getrouw beeld, opgesteld in **continuïteit**, in overeenstemming met het Belgisch boekhoudkundig referentiestelsel". Geen toelichtende paragraaf over discontinuïteit nodig. 🔗
+> > 
+> > Niet automatisch "ontbinding = discontinuïteit". Veel kandidaten lezen het sleutelwoord "ontbinding" en concluderen meteen dat de staat in discontinuïteit moet — en zouden hier een voorbehoud of weigering uitspreken. Maar de wet kijkt naar de **feitelijke verderzetting** van de activiteit, niet naar het juridische ontbindingsbesluit. De gewone afschrijvingen, voorzieningen en waarderingen blijven van toepassing zolang de exploitatie loopt; pas bij effectieve stopzetting (geen lopende opdrachten meer, personeel ontslagen) kantelt het naar liquidatiewaarden, herclassificatie van vaste activa naar vlottende activa en boeking van stopzettingskosten als voorzieningen. Bijkomend werkpunt voor de accountant: documenteer in het werkdossier waarom going concern hier verdedigbaar is (klantcontracten, personeelsbestand, kasstromen over 18 maanden). 🔗
+> > 
+> > **Art. 2:71, § 2 WVV** — bij voorstel tot vrijwillige ontbinding voegt het bestuursorgaan een staat van activa en passiva van maximaal drie maanden oud + een verslag dat het ontbindingsvoorstel toelicht; de accountant/commissaris/bedrijfsrevisor brengt over die staat verslag uit (derde lid). **Art. 3:6, § 2 KB WVV** — de staat wordt opgesteld conform de gewone waarderingsregels, *behoudens* indien de vennootschap besluit haar activiteiten te beëindigen of niet langer als going concern kan worden beschouwd: dan gelden de discontinuïteits-waarderingsregels (met redenen omklede afwijking). **CBN-advies 2018/18** (Going concern – Waarderingsregels bij stopzetting): bevestigt dat een ontbindingsbeslissing niet steeds stopzetting impliceert; going concern blijft van toepassing zolang de activiteiten feitelijk worden verdergezet. **ITAA-norm controleverslag bij ontbinding** (bijlage 3 — model verslag art. 2:71/2:80 WVV): voorziet expliciet de variant "opgesteld in continuïteit" met een oordeel zonder voorbehoud. 📖  
+> > *Bron: Art. 2:71, § 2 WVV; art. 3:6, § 2 KB WVV; CBN-advies 2018/18; ITAA-norm ontbinding-vereffening*

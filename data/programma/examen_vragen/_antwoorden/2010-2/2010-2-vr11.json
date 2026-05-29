@@ -1,0 +1,286 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr11",
+  "antwoord_datum": "2026-05-29T19:37:46Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — de controle viseert de balanspost **kapitaal** (bedrag + samenstelling), niet de identiteit van de aandeelhouders. Bij aandelen aan toonder is volledige identificatie bovendien feitelijk niet mogelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor de controle van het kapitaal volstaan de juridische bronnen die het bedrag en de samenstelling vastleggen (statuten, BS-publicaties, AV-notulen). Wie de aandeelhouders zijn, raakt het *bedrag* van het maatschappelijk kapitaal niet. In casu zijn de aandelen bovendien aan toonder — er bestaat geen aandeelhoudersregister om volledig op te identificeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24-25: de beroepsbeoefenaar controleert de staat van activa en passiva (incl. balansposten zoals kapitaal) volgens een gepast controleprogramma. Identificatie van aandeelhouders behoort niet tot dit programma. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24-25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — de transparantieverplichting voor participaties >25 % (kennisgave) geldt voor genoteerde vennootschappen en raakt het *bedrag* van de balanspost kapitaal niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De kennisgevingsregeling voor belangrijke deelnemingen (wet 2 mei 2007, oud art. 514 W.Venn.) is een transparantie-instrument voor genoteerde NV's — geen controle-instrument voor de balanspost kapitaal van een niet-genoteerde NV in ontbinding. Niet verwarren met de controle of het kapitaal volstort is. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Geen wettelijke of normatieve grondslag verbindt de kennisgave van belangrijke deelnemingen aan de controle van de balanspost kapitaal in het kader van een ontbindingsverslag. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — de gecoördineerde statuten vermelden het maatschappelijk kapitaal en zijn het natuurlijke referentiepunt om de balanspost te toetsen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het kapitaal van een NV staat verplicht in de statuten en wordt bij elke wijziging (verhoging, vermindering, incorporatie van reserves) statutair aangepast via authentieke akte. De gecoördineerde statuten geven de actuele stand — directe match met het kapitaal-saldo op de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24-25: gepast controleprogramma voor de staat van activa en passiva. Vergelijking met de statutair vastgelegde rechtssituatie is een evidente substantieve controle voor de balanspost kapitaal. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24-25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — kapitaalmutaties (oprichting, verhoging, vermindering) worden verplicht in de bijlagen bij het Belgisch Staatsblad gepubliceerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het BS is de officiële publiciteitsbron voor vennootschapsakten met derden-werking. Voor het kapitaal vindt de accountant er de oprichtingsakte en alle latere kapitaalwijzigingen — onmisbaar om de historische opbouw van de balanspost te reconstrueren tussen 1995 en 2010. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Bekendmaking van vennootschapsakten in de bijlagen bij het BS is verplicht voor oprichting en latere wijzigingen aan de statuten, met inbegrip van kapitaalwijzigingen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — \"**alle** aktes\" is overdreven; alleen de aktes die het kapitaal raken (oprichting + kapitaalwijzigingen) zijn relevant. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het verschil met d) zit in het woord \"alle\": d) raadplegen van de relevante BS-bijlagen is correct, e) systematisch alle gepubliceerde aktes opvragen is disproportioneel en niet vereist door het controleprogramma. De accountant werkt risico-gericht (ISA 315), niet exhaustief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24: \"gepast\" controleprogramma — proportionaliteit primeert. Exhaustief opvragen van alle BS-aktes is geen normatief vereiste. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — de notaris is geen bron voor *bevestiging* van de balanspost kapitaal; de authentieke akten zelf (oprichting + kapitaalwijzigingen) zijn al publiek raadpleegbaar via de statuten en het BS. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Notarissen verlijden authentieke akten voor kapitaalverrichtingen, maar leveren geen lopende \"bevestiging\" van de balanspost. De accountant put zijn controle-evidentie uit (i) de gecoördineerde statuten, (ii) de BS-publicaties, en (iii) de notulen van de AV die het besluit namen — niet uit een bevestigingsbrief van de notaris. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24-25 voorziet geen bevestigingsprocedure bij de notaris voor de balanspost kapitaal. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24-25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — kapitaalwijzigingen verlopen via een AV-besluit; de notulen documenteren de bevoegdheidsbasis en de quorum-/meerderheidsvoorwaarden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De notulen van de (buitengewone) AV bevatten de besluiten tot kapitaalverhoging/-vermindering, met inbegrip van de modaliteiten (uitgifte premie, voorkeurrecht, inbreng in natura, incorporatie van reserves). Zonder deze notulen kan de accountant de bewegingen op het kapitaal niet onderbouwen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24-25: kennisname van de besluiten van het bevoegde orgaan maakt deel uit van een gepast controleprogramma voor de balansposten van eigen vermogen. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24-25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — het financieel plan dateert van de oprichting (1995) en speelt geen rol bij de controle van de balanspost kapitaal vijftien jaar later in het kader van een ontbinding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het financieel plan is een oprichtingsdocument dat de oprichtersaansprakelijkheid voor kennelijk ontoereikend aanvangskapitaal onderbouwt (relevant bij faillissement binnen drie jaar na oprichting). Het zegt niets over de huidige balanspost kapitaal in 2010 — verwarring met de kapitaaltoereikendheidstoets vermijden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het financieel plan behoort niet tot de informatiebronnen die de ITAA-norm voor het ontbindingsverslag voorziet voor de controle van de balanspost kapitaal. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — de samenstelling van het kapitaal (cash-inbreng, inbreng in natura, incorporatie van reserves) is essentieel voor de fiscale en juridische kwalificatie van een latere uitkering bij vereffening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij vereffening wordt onderscheid gemaakt tussen \"fiscaal gestort kapitaal\" en kapitaal dat uit geïncorporeerde reserves voortkomt — dat laatste deel kan bij liquidatie als dividend belastbaar zijn (roerende voorheffing). De samenstelling traceren is dus geen kosmetische maar een materiële controle voor het ontbindingsverslag. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §24-25: gepast controleprogramma omvat de balansposten en de daarmee verband houdende toelichtingen — de samenstelling van het kapitaal is een verplicht toelichtingselement. 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §24-25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — basis-aansluitingscontrole: het kapitaalbedrag op de staat van activa en passiva moet sluiten met de grootboekrekening 100 en met de toelichting bij de jaarrekening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie-weg-reconciliatie (balans ↔ grootboek ↔ toelichting) is de elementaire substantieve controle voor elke balanspost. Afwijkingen wijzen op niet-geboekte mutaties of foutieve presentatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm ontbinding-vereffening §25: het controleprogramma voor de staat van activa en passiva omvat expliciet \"de daarmee verband houdende toelichtingen\". 📖",
+          "wetsref": "ITAA-norm ontbinding-vereffening §25",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr3",
+  "antwoord_datum": "2026-05-29T19:36:41Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De overboeking van de herwaarderingsmeerwaarde naar de beschikbare reserves ten belope van de op die meerwaarde geboekte afschrijvingen is **toegelaten en aanbevolen**, maar niet verplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij herwaardering van een materieel vast actief met beperkte gebruiksduur wordt op de geherwaardeerde waarde afgeschreven over de residuele gebruiksduur. CBN-advies 2010/15 stelt uitdrukkelijk dat de herwaarderingsmeerwaarde voor het afgeschreven gedeelte **\"mag overgeboekt worden naar de beschikbare reserves\"** — het is een mogelijkheid, geen verplichting. De Commissie beveelt deze overboeking wel **aan** om het beschikbare karakter (uitkeerbaarheid) van het reeds via afschrijvingen door het resultaat gerealiseerde deel van de meerwaarde duidelijk te maken. 📖 Wie het woordje \"verplicht\" in de stelling leest, valt dus in de val.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar deze **facultatieve** overboeking-binnen-eigen-vermogen niet met de **verplichte** afschrijving op de geherwaardeerde waarde (art. 3:42 KB WVV). De afschrijving is verplicht; de reclassificatie meerwaarde → beschikbare reserve is een aanbevolen presentatie-keuze. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2010/15 *Afschrijvingsmethoden* (sectie *Geherwaardeerde activa*): de herwaarderingsmeerwaarde \"mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte\" — aan te bevelen, niet verplicht. Bevestigd in CBN-advies 2011/14 *Herwaarderingsmeerwaarden*. 📖",
+          "wetsref": "CBN-advies 2010/15; CBN-advies 2011/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Een kapitaalvermindering ter aanzuivering van een (overgedragen) verlies is een interne mutatie binnen het eigen vermogen die rechtstreeks van post naar post wordt overgeboekt, dus **niet** via de resultaatverwerkingsrekeningen (69/79). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md",
+            "resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "CBN-advies 121/3 (bevestigd door CBN-advies 2016/25) stelt het algemene principe: interne mutaties binnen het eigen vermogen die het totaalbedrag van dat eigen vermogen **niet beïnvloeden**, worden rechtstreeks van de ene post naar de andere overgeboekt, en dus **niet** via de 69-/79-rekeningen van de resultaatverwerking. 📖 De resultaatverwerking is enkel verplicht in twee gevallen: (i) de verwerking van het resultaat van het boekjaar samen met het overgedragen resultaat, en (ii) de onttrekking aan de eigen-vermogensposten ter aanzuivering van **verlies van het boekjaar** (niet: van een overgedragen verlies). 📖 Een kapitaalvermindering die het overgedragen verlies aanzuivert valt buiten beide uitzonderingen.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md",
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Vennootschapsrechtelijk geldt de gewone procedure voor kapitaalvermindering (art. 7:208 WVV voor de NV) **niet** voor deze hypothese: art. 7:196 WVV maakt een uitzondering voor kapitaalverminderingen ter aanzuivering van een geleden verlies of ter vorming van een reserve voor een voorzienbaar verlies. 🔗 Boekhoudkundig én vennootschapsrechtelijk dus een lichtere behandeling.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 121/3 *Mutaties binnen het eigen vermogen* (basisprincipe rechtstreekse boeking) + CBN-advies 2016/25 *Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies* (bevestiging voor kapitaalvermindering ter aanzuivering van overgedragen verlies). 📖",
+          "wetsref": "CBN-advies 121/3; CBN-advies 2016/25; art. 7:196 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md",
+            "resources/bronnen/adviezen/CBN-2016-25-kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. De vermelding van het toegestaan kapitaal (machtiging aan het bestuursorgaan, bedrag en eventuele resterende marge) hoort verplicht in de **toelichting bij de jaarrekening** van een NV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het toegestaan kapitaal (de statutaire machtiging aan het bestuursorgaan om binnen een bepaalde grens en termijn tot kapitaalverhoging te beslissen — vandaag art. 7:198 e.v. WVV, in 2008 art. 603 e.v. W.Venn.) maakt deel uit van de informatie die de jaarrekeningleer essentieel acht om het kapitaalverloop en de bevoegdheden binnen de vennootschap te begrijpen. Het volledig schema van de toelichting bij de jaarrekening (rubriek *Staat van het kapitaal*, VOL 6.7.1) voorziet uitdrukkelijk een sub-rubriek **\"Toegestaan, niet-geplaatst kapitaal\"**, waarin het bedrag van 100.000 EUR moet worden opgenomen. 🔗 Een NV die over toegestaan kapitaal beschikt moet dit dus opnemen, ongeacht of er reeds gebruik van werd gemaakt. Bij verkort schema (VKT) gelden lichtere vereisten, maar het basisbeginsel — vermelding van het toegestaan kapitaal — blijft.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De vraag dateert van 2010 — destijds gold het KB van 30 januari 2001 tot uitvoering van het W.Venn. (art. 91, A, IV vermeldde *Staat van het kapitaal* met sub-rubriek toegestaan kapitaal). Onder het huidige KB WVV (sinds 2019) is het opgenomen in de modelstaten als sub-rubriek bij de *Staat van het kapitaal* in de toelichting. De inhoudelijke verplichting is door beide regimes heen ongewijzigd. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB WVV — model van de toelichting bij de jaarrekening, rubriek *Staat van het kapitaal* (VOL 6.7.1), sub-rubriek *Toegestaan, niet-geplaatst kapitaal*. WVV-basis voor het toegestaan kapitaal: art. 7:198 e.v. WVV (vroeger art. 603 e.v. W.Venn., van toepassing in 2008). 🤖",
+          "wetsref": "KB WVV, model toelichting jaarrekening; art. 7:198 e.v. WVV",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De voorraad moet worden gewaardeerd tegen aanschaffingswaarde **of de lagere marktwaarde** op balansdatum: 480.000 EUR < 500.000 EUR, dus de onderneming moet een waardevermindering van 20.000 EUR boeken en de voorraad opnemen voor **480.000 EUR**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "| Element | Bedrag |\n|---|---|\n| Aanschaffingswaarde (1.000 × 500) | 500.000 EUR |\n| Marktwaarde op balansdatum (1.000 × 480) | 480.000 EUR |\n| Laagste van de twee → balanswaarde voorraad | **480.000 EUR** |\n| Geboekte waardevermindering (resultatenrekening, rubriek 631/634) | 20.000 EUR |\n\nDe \"laagste-van-aanschaffings-of-marktwaarde\"-regel (LOCOM) is dwingend voor handelsgoederen en gereed product. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het voorzichtigheidsbeginsel werkt asymmetrisch: een **lagere** marktwaarde dwingt tot waardevermindering, maar een **hogere** marktwaarde leidt niet tot opwaardering boven aanschaffingswaarde (geen ongerealiseerde meerwaarde op voorraden in het Belgische schema). Daalt de marktwaarde later weer, dan blijft de eerder geboekte waardevermindering wél behouden — maar zodra de marktwaarde terug **boven** de aanschaffingswaarde stijgt, mag de waardevermindering niet meer worden aangehouden (art. 3:54 KB WVV, voorheen art. 69 §1 KB W.Venn.). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:54 KB WVV (in 2010: art. 69 §1 KB W.Venn.): handelsgoederen worden gewaardeerd tegen **aanschaffingswaarde of de lagere marktwaarde op balansdatum**. CBN-advies 132/7 *Boeking en waardering van voorraden* werkt de regel uit. 📖",
+          "wetsref": "art. 3:54 KB WVV (oud art. 69 §1 KB W.Venn.); CBN-advies 132/7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

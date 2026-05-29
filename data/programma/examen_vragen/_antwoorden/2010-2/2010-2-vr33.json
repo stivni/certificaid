@@ -1,0 +1,162 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr33",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Nationaliteit is slechts het **vierde** criterium in de tie-breaker-cascade van art. 4 §2 OESO-MV, niet het eerste en niet automatische. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij dubbele residentie van een natuurlijke persoon wordt de woonstaat bepaald via een **getrapte cascade** (art. 4 §2 OESO-MV) — pas als een hogere trap géén uitsluitsel geeft, daalt men af naar de volgende: 📖\n\n1. **Duurzaam tehuis** (*permanent home*).\n2. **Middelpunt van levensbelangen** (*centre of vital interests*) — als duurzaam tehuis in beide of geen staat.\n3. **Gewoon verblijf** (*habitual abode*) — als middelpunt niet bepaalbaar.\n4. **Nationaliteit** — pas als gewoon verblijf in beide of geen staat.\n5. **Onderling overleg** tussen de bevoegde autoriteiten — als de persoon nationaal is van beide of geen van beide staten.\n\nDe stelling stelt dat nationaliteit **steeds** doorslaggevend is *zonder andere criteria* — dat is fout. Nationaliteit komt pas in beeld als de drie hogere criteria geen oplossing gaven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4 §2 OESO-Modelverdrag — tie-breaker rule voor natuurlijke personen: cascade a) duurzaam tehuis → b) middelpunt van levensbelangen → c) gewoon verblijf → d) nationaliteit → e) onderling overleg. 📖",
+          "wetsref": "Art. 4 §2 OESO-Modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Waar.** Art. 11 OESO-MV verdeelt heffingsbevoegdheid over interesten: **woonstaat** (= verblijfstaat van de uiteindelijk gerechtigde) mag belasten én **bronstaat** mag belasten, met een verdragsplafond van 10% bronheffing op het brutobedrag. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 11 §1 — interesten mogen worden belast in de **woonstaat** van de gerechtigde (\"*may be taxed in that other State*\"). 📖\n\nArt. 11 §2 — interesten **mogen ook** worden belast in de **bronstaat**, maar met een plafond van **10%** op het bruto-bedrag als de uiteindelijk gerechtigde inwoner is van de andere verdragsstaat. 📖\n\nGevolg: gedeelde heffingsbevoegdheid. De woonstaat neemt vervolgens de potentiële dubbele belasting weg via de methode van art. 23A/23B (typisch: **verrekening** voor interesten — geen vrijstelling). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Veel bilaterale BE-DBV's wijken bilateraal af van het OESO-plafond van 10%: sommige verdragen verlagen het tarief (bv. 0% voor bepaalde categorieën zoals leningen tussen verbonden ondernemingen onder de EU-Interest-Royalty-richtlijn), andere houden het hoger. Cijferzakboekje of het concrete DBV consulteren bij examenvragen die het exacte tarief vragen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 11 §§1-2 OESO-Modelverdrag — interesten belastbaar in de woonstaat van de gerechtigde én in de bronstaat (plafond 10% bruto bij uiteindelijk gerechtigde inwoner van de andere staat). 📖",
+          "wetsref": "Art. 11 §§1-2 OESO-Modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Waar.** De procedure voor onderling overleg (*Mutual Agreement Procedure*, art. 25 OESO-MV) is precies bedoeld om **juridische dubbele belasting** — dezelfde belastingplichtige tweemaal belast over hetzelfde inkomen door twee staten — op te lossen wanneer de toepassing van het DBV door één van beide staten een verdragsstrijdige heffing oplevert. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 25 §1 — de belastingplichtige die meent dat een handeling van één of beide staten leidt of zal leiden tot een belasting *niet in overeenstemming met het verdrag* (typisch een juridische dubbele belasting) kan zijn zaak voorleggen aan de bevoegde autoriteit (binnen 3 jaar). 📖\n\nArt. 25 §2 — de bevoegde autoriteiten van beide staten trachten via **onderling overleg** een DBV-strijdige belasting te vermijden. 🔗\n\nArt. 25 §3 voegt toe dat de autoriteiten ook algemene interpretatie- en toepassingsmoeilijkheden van het verdrag onderling kunnen oplossen — inclusief gevallen van **dubbele belasting die niet in het verdrag zijn voorzien**. Sinds 2008 (BEPS-versterkt 2017) voorziet §5 bovendien een **verplichte arbitrage** als sluitstuk wanneer de autoriteiten binnen 2 jaar geen akkoord vinden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **economische dubbele belasting** (twee verschillende belastingplichtigen, zelfde inkomen — typisch transfer-pricing-correcties tussen verbonden ondernemingen). MAP dekt **beide vormen** — juridische én economische — maar het examen focust meestal op de juridische variant. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 25 OESO-Modelverdrag — Mutual Agreement Procedure: belastingplichtige kan zaak voorleggen aan bevoegde autoriteit binnen 3 jaar; autoriteiten trachten DBV-strijdige (juridische én economische) dubbele belasting via onderling overleg op te lossen. 📖",
+          "wetsref": "Art. 25 OESO-Modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Een overheidspensioen van een vroegere federale ambtenaar blijft op grond van art. 19 §2.a) OESO-MV belastbaar in de **kasstaat** (= België, die het pensioen uitbetaalt). De uitzondering van §2.b) — exclusieve heffing door de woonstaat — geldt enkel als de gerechtigde tegelijk **inwoner én nationaal** is van die andere staat. Een Belg die emigreert behoudt zijn Belgische nationaliteit en valt niet onder die uitzondering. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 19 §2 OESO-MV regelt **overheidspensioenen** (in afwijking van de algemene regel art. 18 die woonstaat-exclusiviteit voorziet voor privé-pensioenen): 🔗\n\n- **§2.a) — hoofdregel (kasstaat-beginsel)**: pensioenen betaald door (of uit fondsen van) een verdragsstaat aan een individu voor vroegere overheidsdienst zijn **uitsluitend belastbaar in die staat** (de betaalstaat). 📖\n- **§2.b) — uitzondering**: pensioenen zijn enkel belastbaar in de andere staat als de persoon **inwoner** is van die staat **én** er ook **nationaal** (onderdaan) van is. **Cumulatieve** voorwaarde. 📖\n\nDe casus: een **Belgische** natuurlijke persoon (= Belgische nationaliteit) verhuist naar een DBV-land. Hij wordt daar inwoner, maar verwerft niet automatisch die nationaliteit. De voorwaarde \"nationaal van de woonstaat\" is dus niet vervuld → §2.b) is niet van toepassing → de hoofdregel §2.a) blijft gelden → **België blijft heffingsbevoegd** als kasstaat. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **art. 18 OESO-MV** (privé-pensioenen): die wijst exclusieve heffingsbevoegdheid toe aan de **woonstaat** van de pensioengerechtigde — dáár zou de emigratie wél de heffingsbevoegdheid naar het buitenland verschuiven. De aard van de vroegere dienstbetrekking (privé vs overheid) is dus beslissend. Art. 18 begint trouwens met \"*Subject to the provisions of paragraph 2 of Article 19*\" — art. 19 §2 is dus de lex specialis. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 19 §2 OESO-Modelverdrag — overheidspensioenen: hoofdregel exclusieve heffing door de kasstaat (a); uitzondering enkel als gerechtigde inwoner én nationaal van de andere staat is (b). Art. 18 (privé-pensioenen) wijkt hiervoor uitdrukkelijk. 📖",
+          "wetsref": "Art. 19 §2 OESO-Modelverdrag (j° art. 18)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

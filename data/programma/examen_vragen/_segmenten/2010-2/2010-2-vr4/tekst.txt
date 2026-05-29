@@ -1,0 +1,74 @@
+Vraag 1 … / 15 punten
+Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio’s.
+U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening
+als motivatie van uw antwoord.
+
+| OMSCHRIJVING | JAAR |
+|---|---|
+|  |  |
+| Materiële vaste activa | 44 896 |
+| Voorraden | 23 149 |
+| Handelsvorderingen | 88 564 |
+| Overige vorderingen | 8 998 |
+| Geldbeleggingen | 79 756 |
+| Liquide middelen | 125 851 |
+| Overlopende rekeningen | 6 658 |
+| TOTAAL ACTIVA | 377 872 |
+|  |  |
+| Kapitaal | 62 000 |
+| Reserves | 99 161 |
+| Overgedragen verlies | -15 361 |
+| Uitgestelde belastingen | 0 |
+| Schulden op meer dan 1 jaar | 135 000 |
+| Leveranciers op minder dan 1 jaar | 23 743 |
+| Schulden belastingen en sociale
+schulden | 36 963 |
+| Overige schulden | 29 213 |
+| Overlopende rekeningen | 7 153 |
+| TOTAAL PASSIVA | 377 872 |
+
+messages.downloaded_by
+
+3
+
+|  |  |
+|---|---|
+|  |  |
+| Omzet | 1 510 610 |
+| Andere bedrijfsopbrengsten | 19 154 |
+| Verbruikte handelsgoederen | 1 150 081 |
+| Diensten en diverse goederen | 186 050 |
+| Bezoldigingen en sociale lasten | 148 283 |
+| Afschrijvingen | 29 589 |
+| Waardeverminderingen | 0 |
+| Andere bedrijfskosten | 2 996 |
+| Financiële opbrengsten | 1 421 |
+| Financiële kosten | 12 429 |
+| Uitzonderlijke opbrengsten | 0 |
+| Onttrekking aan uitgestelde
+belastingen | 132 |
+| Belastingen op het resultaat | 532 |
+| Onttrekking aan belastingvrije
+reserves | 396 |
+| Resultaat boekjaar | 1 753 |
+
+a) Nettobedrijfskapitaal
+b) Liquiditeit in ruime zin (current ratio)
+c) Zelffinancieringsgraad in %
+d) Nettorentabiliteit van het eigen vermogen na belastingen
+e) Operationeel brutoresultaat voor belastingen
+
+=== subvraag a) ===
+Nettobedrijfskapitaal
+
+=== subvraag b) ===
+Liquiditeit in ruime zin (current ratio)
+
+=== subvraag c) ===
+Zelffinancieringsgraad in %
+
+=== subvraag d) ===
+Nettorentabiliteit van het eigen vermogen na belastingen
+
+=== subvraag e) ===
+Operationeel brutoresultaat voor belastingen

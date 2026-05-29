@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr35",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, maar enkel onder strikte voorwaarden** — het bankgeheim van art. 318 WIB92 (in 2010 de enige doorbrekingsgrond; sinds de Wet van 14 april 2011 aangevuld door art. 322 §2 WIB92) verzet zich tegen een rechtstreekse bevraging van de bank, tenzij het voorafgaand onderzoek bij de belastingplichtige zelf **concrete elementen** aan het licht heeft gebracht die het bestaan of de voorbereiding van een **mechanisme van belastingontduiking** doen vermoeden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Stap-voor-stap toegepast op de casus:\n\n1. **Principe — bankgeheim (art. 318, eerste lid WIB92)**: de administratie mag *in beginsel* géén inlichtingen inzamelen bij bank-, wissel-, krediet- en spaarinstellingen met het oog op het belasten van hun cliënten. 📖\n2. **Uitzondering (art. 318, tweede lid WIB92, versie 2010)**: de fiscus mag het bankgeheim doorbreken indien een voorafgaand onderzoek op basis van art. 315, 315bis, 315ter of 316 WIB92 (boekhouding, vraag om inlichtingen aan de belastingplichtige zelf) **concrete elementen** oplevert die het bestaan of de voorbereiding van een **mechanisme van belastingontduiking** doen vermoeden. 📖\n3. **Procedure**: de aanvraag bij de bank moet gemachtigd worden door een door de Minister van Financiën aangewezen ambtenaar, die een ambtenaar met minstens de titel van attaché opdraagt de inlichtingen op te vragen. 📖\n4. **Toepassing op X**: het loutere feit dat de heer X een Belgische bankrekening heeft waarop buitenlandse roerende inkomsten zijn geïnd, volstaat **niet automatisch**. De fiscus moet eerst de belastingplichtige zelf bevragen (art. 316 WIB92) en uit dat onderzoek concrete aanwijzingen van een ontduikingsmechanisme afleiden — bv. niet-aangegeven buitenlandse rekening, niet-aangegeven roerende inkomsten, ontbrekende aangifte van de roerende voorheffing. Pas dan kan de bank worden aangesproken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Tijdsdimensie**: de vraag dateert van juli 2010 — *vóór* de Wet van 14 april 2011, die het bankonderzoek grondig herstructureerde en art. 322 §2 WIB92 als bijkomende doorbrekingsgrond invoerde (aanwijzingen van belastingontduiking, art. 341-toepassing, of niet-naleving van de gemeenschappelijke rapporteringsnorm). In de huidige praktijk wordt vrijwel altijd via art. 322 §2 WIB92 gewerkt: eerst een vraag om inlichtingen aan de belastingplichtige (art. 316) met expliciete waarschuwing dat art. 322 §2 zal worden ingeroepen bij weigering of verzwijging, en pas daarna de opvraging bij de bank. Het **Centraal Aanspreekpunt (CAP)** bij de NBB laat de fiscus toe eerst te checken bij welke instellingen de belastingplichtige rekeningen aanhoudt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 318 WIB92** — eerste lid: bankgeheim als principe; tweede lid: doorbreking mogelijk wanneer een onderzoek op grond van art. 315, 315bis, 315ter of 316 WIB92 concrete elementen aan het licht brengt die het bestaan of de voorbereiding van een mechanisme van belastingontduiking doen vermoeden. Vereist machtiging door een door de Minister van Financiën aangewezen ambtenaar. **Art. 322 §2 WIB92** (sinds Wet 14 april 2011) — aanvullende doorbrekingsgrond: aanwijzingen van belastingontduiking, na voorafgaande vraag aan de belastingplichtige (art. 316) met waarschuwing. 📖",
+          "wetsref": "Art. 318 WIB92 (en sinds 2011 ook art. 322 §2 WIB92)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

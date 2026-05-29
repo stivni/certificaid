@@ -1,0 +1,166 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr41",
+  "antwoord_datum": "2026-05-29T20:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Diensten gratis of tegen sterk verminderde prijzen aanbieden om cliënten aan zich te binden is een vorm van verboden ronseling en dienstaanbod. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 30 KB 1 maart 1998 verbiedt uitdrukkelijk \"ronseling en dienstaanbod\". 📖 Het gratis of beneden de marktprijs aanbieden van prestaties met het oog op cliëntenwerving valt onder dit verbod: het tast de waardigheid van het beroep en de eerlijke concurrentie tussen confraters aan. 🔗 Bijkomend verbiedt art. 31 elke verwijzing naar vergelijkende gegevens inzake tarieven of kwaliteit in publicitaire mededelingen. 📖 Het BIBF-reglement (art. 23 KB 18 juli 2017) bevestigt dezelfde lijn voor erkende boekhouders: \"Hij kan evenmin diensten gratis aanbieden, het vermoeden wekken dat bepaalde diensten gratis aangeboden worden\". 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De ITAA-wet (art. 45 Wet 17 maart 2019) bevestigt dat de beroepsbeoefenaar enkel aanspraak mag maken op ereloon en kosten voor uitgevoerde opdrachten — dit sluit verkapte gratis-aanbiedingen of kruissubsidiëring tussen opdrachten uit. 🔗 Sinds 1 januari 2020 is het KB 9 december 2019 (deontologische code ITAA) van toepassing op de gecertificeerd accountant; het verbod op dienstaanbod en op ereloon-koppelingen blijft inhoudelijk gehandhaafd. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 30 KB 1 maart 1998 reglement plichtenleer accountants (publiciteitsverbod — ronseling en dienstaanbod). 📖 Art. 31 KB 1 maart 1998 (geen vergelijkende tarief- of kwaliteitsgegevens). 📖 Sinds 2019: art. 45 Wet 17 maart 2019 + KB 9 december 2019 deontologische code ITAA.",
+          "wetsref": "Art. 30 KB 1 maart 1998; art. 45 Wet ITAA 2019",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De accountant/belastingconsulent mág zijn mandaten binnen het Instituut of andere beroepsorganisaties wél kenbaar maken — dat valt onder de toegelaten \"objectieve informatie over zijn kantoor\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998 laat uitdrukkelijk toe dat de accountant \"in het openbaar objectieve informatie over zijn kantoor mededelt\", voor zover hij de beroepsdiscretie respecteert. 📖 Mandaten en functies binnen het ITAA of binnen andere beroepsorganisaties (commissies, werkgroepen, bestuursmandaten) zijn objectieve, verifieerbare professionele gegevens — ze mogen vermeld worden in CV, website, briefpapier en publicaties van het kantoor. 🔗 Het verbod uit art. 31 betreft enkel (i) vergelijkende tarief- of kwaliteitsclaims en (ii) reclametechnieken die niet bedoeld zijn om objectieve informatie te verschaffen, en (iii) het vermelden van cliëntennamen. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (publiciteit — objectieve informatie over het kantoor toegelaten). 📖 Inhoudelijk gehandhaafd onder KB 9 december 2019 deontologische code ITAA.",
+          "wetsref": "Art. 31 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Een cliëntenlijst opsommen voor wervingsdoeleinden is uitdrukkelijk verboden — de accountant mag in het openbaar of in brochures geen gewag maken van de naam van een cliënt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998 bepaalt letterlijk: \"Onafgezien van de verslagen die moeten bekendgemaakt worden met toepassing van de wet, mag de accountant in het openbaar of in brochures geen gewag maken van de naam van één van zijn cliënten.\" 📖 De ratio is dubbel: (i) bescherming van het beroepsgeheim — al het bestaan van een cliëntrelatie is vertrouwelijke informatie — en (ii) het waardig en niet-commercieel karakter van het beroep. 🔗 Afwijking is uitzonderlijk mogelijk, maar enkel **mits dubbele toestemming**: van de cliënt én van de voorzitter van het Instituut. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met (d): een opsomming van *taken/diensten* die de accountant uitvoert (audit, fiscaal advies, salarisadministratie, ...) is wél toegelaten — dat is objectieve informatie over het kantoor. Het verbod treft enkel de identificatie van *cliënten* bij naam. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (verbod om cliëntennamen openbaar te maken). 📖 Steunt mede op het beroepsgeheim (art. 458 Sw. — sinds 2019 expliciet via art. 120 Wet ITAA).",
+          "wetsref": "Art. 31 KB 1 maart 1998; art. 458 Sw.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Een opsomming van de taken (diensten/opdrachttypes) die de accountant uitvoert, is toegelaten als objectieve informatie over het kantoor. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998 staat de accountant uitdrukkelijk toe \"in het openbaar objectieve informatie over zijn kantoor mede te delen\". 📖 Een lijst van uitgevoerde taken — controleopdrachten, samenstellingsopdrachten, fiscaal advies, beoordelingen, KMO-controle, ... — is bij uitstek objectieve, controleerbare informatie over de aangeboden diensten en valt buiten de drie verboden categorieën van art. 31 (vergelijkende tarieven/kwaliteit, niet-objectieve reclametechnieken, cliëntennamen). 🔗 Voorwaarde blijft: gepaste discretie respecteren en geen pretentieuze of misleidende formuleringen gebruiken. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De grens met (a) en (c): taken vermelden mag, **tarieven vergelijken** mag niet (art. 31), en **cliënten benoemen** bij wie die taken werden uitgevoerd mag evenmin. De opsomming moet beperkt blijven tot het *wat* (soorten diensten), niet het *bij wie* of het *aan welke prijs*. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (publiciteit — objectieve informatie over het kantoor toegelaten). 📖 Inhoudelijk gehandhaafd onder KB 9 december 2019 deontologische code ITAA.",
+          "wetsref": "Art. 31 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

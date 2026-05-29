@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr39",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Topic_only — de specifieke erkenningsregels voor bestuurders van een IAB-vennootschap (wet 22 april 1999 + KB erkenningsvoorwaarden, zoals van toepassing in 2010) zitten niet in het Certificaid-bronnencorpus, dus geen onderbouwd juist/fout-oordeel mogelijk. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vraag test de toenmalige erkenningsvoorwaarden voor accountants- en/of belastingconsulentenvennootschappen onder het IAB-regime (vóór de ITAA-fusie van 17 maart 2019). RAG-zoekopdrachten op 'accountantsvennootschap erkenningsvoorwaarden bestuurders' leveren enkel het ITAA-concept-record en algemene WVV-bronnen op — geen wet 22 april 1999 en geen KB met de meerderheid-bestuurders-regel. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Topic_only — de aandelenparticipatie-drempel (75 % vs een andere drempel) uit de erkenningsregels voor een IAB-vennootschap zit niet in het Certificaid-bronnencorpus. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De gevraagde regel staat in de erkenningsvoorwaarden van het toenmalige IAB (Koninklijk besluit van 4 mei 1999 betreffende het Instituut van de Accountants en de Belastingconsulenten) — dit KB is niet opgenomen in `resources/bronnen/`. Zonder bron geen geciteerd of afgeleid oordeel. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Topic_only — de onverenigbaarheidsregels rond verzekeringsactiviteiten binnen een IAB-vennootschap (ook voor niet-erkende vennoten) zitten niet als wettekst in het Certificaid-bronnencorpus. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Onverenigbaarheden voor accountants en belastingconsulenten (incl. verzekeringsbemiddeling) zaten historisch in art. 19 van de wet van 22 april 1999 en in het deontologisch KB van 1 maart 1998; deze bronnen staan deels (KB-plichtenleer 1998) in het corpus maar bevatten niet de regel die de niet-erkende leden van de vennootschap viseert. Aanvullende bron-uitbreiding nodig (wet 22 april 1999 + KB IAB-erkenning) vooraleer een verdedigbaar juist/fout-antwoord mogelijk is. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

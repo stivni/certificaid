@@ -1,0 +1,164 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr38",
+  "antwoord_datum": "2026-05-29T20:00:00Z",
+  "antwoord_model": "claude-opus-4-7-1M",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen.** Voorbereidende nota's zijn werkdocumenten van de accountant zelf — eigendom van de beroepsbeoefenaar, geen eigendom van de cliënt. De opvolger mag ze hooguit **inzien**, maar je hoeft (en mag) ze niet uit handen geven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1 maart 1998 verplicht de voorganger om **\"alle documenten, eigendom van de cliënt, alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid\"** ter beschikking te stellen. 📖 Eigen voorbereidende nota's vallen onder géén van beide categorieën: zij zijn eigendom van de accountant (werkdocumenten in de zin van §4 van de algemene controlenorm) en behoren niet tot de \"hulp en hoffelijkheid\"-stukken die routinematig overgedragen worden. 🔗 De ITAA-algemene controlenorm §5 (Opvolging) bevestigt dit expliciet: \"De opvolger mag de werkdocumenten van zijn voorganger inzien, maar deze laatste mag zijn oorspronkelijke stukken niet uit handen geven.\" 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 KB 1 maart 1998 plichtenleer accountants + ITAA-algemene controlenorm §5 Opvolging.",
+          "wetsref": "Art. 23 KB 1 maart 1998 + algemene controlenorm §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja.** Dagboeken maken deel uit van de boekhouding van de cliënt — eigendom van de cliënt, dus verplicht over te dragen. Het feit dat zij door de accountant materieel gegenereerd zijn uit de boekhoudstukken doet niets af aan dat eigendom. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Dagboeken zijn een **wettelijk verplicht onderdeel van de boekhouding** van de onderneming (boekhoudplicht — art. III.85 e.v. WER, voorheen boekhoudwet); de cliënt is bij wet verplicht ze te bewaren. 🔗 De ITAA-deontologische nota over het beroepsgeheim bevestigt dat \"de dagboeken en rekeningen van de klant, evenals de bewijsstukken van boekingen\" tot het patrimonium van de cliënt behoren en zelfs niet onder het beroepsgeheim van de accountant vallen. 📖 Bijgevolg moet de voorganger ze \"onverwijld\" ter beschikking stellen van de cliënt of de opvolgende confrater, met een gedagtekende **inventaris in tweevoud** (art. 23, 2° KB 1998). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23, 2° KB 1 maart 1998 plichtenleer accountants (overdracht documenten eigendom cliënt + inventaris) + boekhoudplicht art. III.85 e.v. WER (dagboeken = onderdeel boekhouding cliënt) + ITAA-deontologie beroepsgeheim §5 (dagboeken vallen niet onder beroepsgeheim).",
+          "wetsref": "Art. 23 KB 1 maart 1998 + art. III.85 WER",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen.** Een uitgewerkt financieel advies (successieplanning) dat **nog niet werd vergoed** is een eigen werkresultaat van de accountant waarvan het eigendom — bij gebrek aan betaling — nog niet contractueel is overgedragen. Geen verplichting tot overdracht aan de opvolger. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1 maart 1998 verplicht overdracht van \"alle documenten, eigendom van de cliënt\". 📖 Een onbetaald advies is een intellectueel werkproduct van de accountant; zolang de honoraria niet zijn voldaan, is dat resultaat geen eigendom van de cliënt. Bovendien legt art. 23, 2° de opvolger expliciet op om **\"bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger\"** — de norm gaat dus uit van het principe dat onbetaalde prestaties niet zonder meer worden meegegeven. 📖 Het retentierecht (afgeleid uit algemeen burgerrechtelijke leer + ITAA-deontologie) staat in dezelfde lijn: werkdocumenten en niet-vergoede resultaten kunnen worden achtergehouden, mits geen schade aan derden of acute wettelijke verplichtingen van de cliënt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Sommige examenoplossingen lezen \"Ja\" hier vanuit een ander perspectief: als het advies materieel reeds aan de cliënt werd overhandigd, behoort het tot diens dossier en moet de opvolger erover beschikken om continuïteit te verzekeren. De **deontologisch verdedigbare lezing** blijft echter dat een niet-vergoed werkproduct geen verplichte overdracht-categorie is onder art. 23 KB 1998 — de juiste reflex is: aandringen op betaling, niet meegeven. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 KB 1 maart 1998 plichtenleer accountants — overdrachtsplicht beperkt tot documenten eigendom van de cliënt + plicht opvolger om aan te dringen op betaling onbetaalde honoraria voorganger.",
+          "wetsref": "Art. 23 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja.** De jaarrekening, haar bijlagen, de fiscale aangifte en haar bijlagen zijn eindresultaten die voor en in naam van de cliënt zijn opgemaakt en die de cliënt **wettelijk nodig heeft** (neerleggingsplicht, fiscale aangifteplicht). Eigendom cliënt → verplicht overdragen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1 maart 1998 verplicht de voorganger om alle documenten die eigendom zijn van de cliënt (en \"deze die kaderen in de wederzijdse hulp en hoffelijkheid\") onverwijld ter beschikking te stellen, met een gedagtekende inventaris in tweevoud. 📖 De jaarrekening is door de bestuurders van de vennootschap te ondertekenen en bij de NBB neer te leggen (art. 3:10 e.v. WVV); de fiscale aangifte is een wettelijke verplichting van de cliënt (art. 305 WIB 92). De accountant maakt die documenten **in naam van de cliënt** op — eigendom ligt bij de cliënt. 🔗 De ITAA-deontologie bevestigt expliciet: \"de belastingaangiftes van de klant\" + \"de dagboeken en rekeningen\" behoren tot het patrimonium van de cliënt en vallen niet onder het beroepsgeheim. 📖 Achterhouden zou bovendien aanleiding geven tot directe schade (neerleggingsboetes, fiscale boetes, derdenbelang) — een retentie-uitoefening is hier deontologisch onverdedigbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar het werkdossier (werkpapieren, eigen analyses, draft-versies) niet met het eindresultaat (de definitieve, ondertekende jaarrekening en aangifte): het eerste blijft bij de accountant (inzage mogelijk voor opvolger), het tweede gaat met de cliënt mee. De scheidslijn is **\"in naam van wie en voor welk gebruik\"**, niet \"wie heeft het materieel getypt\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 KB 1 maart 1998 plichtenleer accountants (overdrachtsplicht documenten eigendom cliënt + inventaris in tweevoud) + ITAA-deontologie beroepsgeheim §5 (belastingaangiftes en rekeningen cliënt = eigendom cliënt, niet onder beroepsgeheim) + neerleggingsplicht jaarrekening (art. 3:10 e.v. WVV) en aangifteplicht (art. 305 WIB 92) als ratio van urgentie.",
+          "wetsref": "Art. 23 KB 1 maart 1998 + art. 3:10 e.v. WVV + art. 305 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

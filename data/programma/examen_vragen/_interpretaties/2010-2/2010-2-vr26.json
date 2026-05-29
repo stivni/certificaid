@@ -1,0 +1,60 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr26",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Verminderd basistarief vennootschapsbelasting — toetsing dividendvoorwaarde nv 'ZER'",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "verminderd basistarief",
+    "vennootschapsbelasting",
+    "dividenduitkering",
+    "gestort kapitaal",
+    "uitsluitingsvoorwaarden verlaagd tarief"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De nv 'ZER' heeft op 31/12/2008 een maatschappelijk kapitaal van € 1 000 000,00.\n\nIn de loop van 2009 wordt een kapitaalverhoging doorgevoerd: bij de aandeelhouders wordt € 250 000,00 vers kapitaal opgehaald.\n\nBedrijfsleiders A en B hebben beiden sinds 2007 een vordering van € 750 000,00, telkens tegen 6 %, wat beneden de marktrente blijft.\n\nBij de algemene vergadering wordt beslist een dividend van € 50 000,00 uit te keren."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Samenstelling van het kapitaal",
+      "rijen": [
+        { "label": "gestort kapitaal — op 31/12/2008", "bedrag": 500000.00 },
+        { "label": "gestort kapitaal — op 31/12/2009", "bedrag": 750000.00 },
+        { "label": "belastbare reserves in kapitaal — op 31/12/2008", "bedrag": 300000.00 },
+        { "label": "belastbare reserves in kapitaal — op 31/12/2009", "bedrag": 300000.00 },
+        { "label": "belastingvrije reserves in kapitaal — op 31/12/2008", "bedrag": 200000.00 },
+        { "label": "belastingvrije reserves in kapitaal — op 31/12/2009", "bedrag": 200000.00 }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Overige belastbare reserves",
+      "rijen": [
+        { "label": "belastbare voorziening — op 31/12/2008", "bedrag": 50000.00 },
+        { "label": "belastbare voorziening — op 31/12/2009", "bedrag": 500000.00 },
+        { "label": "wettelijke reserve — op 31/12/2008", "bedrag": 90000.00 },
+        { "label": "wettelijke reserve — op 31/12/2009", "bedrag": 95000.00 },
+        { "label": "overgedragen verlies — op 31/12/2008", "bedrag": -175000.00 },
+        { "label": "overgedragen verlies — op 31/12/2009", "bedrag": -182000.00 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 3",
+      "vraagtype": "open",
+      "vraagstelling": "Komt de vennootschap nv 'ZER' op basis van haar dividendpolitiek in aanmerking voor het verminderd basistarief? Antwoord niet alleen met ja of neen, maar geef ook bijkomende uitleg met cijfergegevens ter staving.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Segment is gelabeld pagina 16 maar de PNG toont pagina 15 met aanvang van Vraag 3 ('... / 5 punten'); de tekst.txt vult aan met de tweede gegevens-tabel (overige belastbare reserves) en de slotzinnen over de bedrijfsleiders-vorderingen en het dividendbesluit van € 50 000,00 — wat duidelijk de voortzetting op pagina 16 is. Hele eenheid is samengevoegd tot één vraag-artefact. De pdfplumber-extractie levert geen kolom-gescheiden tabel; ik heb beide kapitaal-tabellen omgezet naar gegevens_tabel-rijen met expliciete jaarvermelding per rij. Overgedragen verlies opgenomen als negatief bedrag (verlies). De trailing kop 'BELASTING OVER DE TOEGEVOEGDE WAARDE | 15 PUNTEN' is een nieuwe-sectie-banner en niet beschouwd als onderdeel van deze vraag. De bedrijfsleiders-vorderingen-info en het feit dat de bedrijfsleiders-bezoldigingsvoorwaarde ook getoetst kan worden zijn niet expliciet in de vraagstelling getrokken — de vraag focust uitdrukkelijk op de dividendpolitiek-voorwaarde, dus dat aspect wordt in het antwoord-artefact al dan niet meegenomen. Geen aparte deelvragen: Vraag 3 is één open vraag met motiveringsplicht.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

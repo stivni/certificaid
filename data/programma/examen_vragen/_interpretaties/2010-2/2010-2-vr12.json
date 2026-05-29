@@ -1,0 +1,72 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr12",
+  "interpretatie_datum": "2026-05-29T19:30:28Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve",
+  "programmaonderdeel_ids": ["3.0", "1.6"],
+  "themas": [
+    "S-BVBA",
+    "Starter-BVBA",
+    "oprichting vennootschap",
+    "notariële akte",
+    "inbreng in natura",
+    "financieel plan",
+    "beperkte aansprakelijkheid",
+    "wettelijke reserve",
+    "Wetboek van Vennootschappen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Pierre is net geslaagd voor zijn stage als timmerman en wil zich als zelfstandige vestigen. Hij zou een bvba \"starter\" (S-BVBA) willen oprichten, daartoe aangespoord door een vriend die beweert dat hij zijn vennootschap kan oprichten met een beginkapitaal van 1 euro.\n\nPierre beschikt over de volgende middelen:\n- Een zichtrekening van 1 530,00 euro\n- Een eigen personenauto die hij in het begin van zijn activiteit als vervoermiddel wil gebruiken\n- Gereedschap dat tijdens zijn beroepsstage werd aangekocht\n- Een gsm\n- Een spaarrekening van 3 000,00 euro\n- Een pc die hij van de school heeft gekregen als eerste prijs creativiteit\n- Hij heeft zijn bankier opgezocht, hem zijn project voorgelegd en een krediet van 30 000 euro op 3 jaar aangevraagd waarvoor zijn ouders zich borg stellen.\n\nHij heeft bij vrienden en op sommige websites inlichtingen ingewonnen en legt u de volgende beweringen voor.\n\nAntwoord met WAAR of NIET WAAR en licht uw antwoord toe in maximum 10 regels (en rechtvaardig uw antwoord op grond van een artikel van het Wetboek van Vennootschappen)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik kan mijn S-BVBA met 1 euro oprichten zonder tussenkomst van een notaris.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Voor de waardering en de controle van de in de S-BVBA ingebrachte gereedschappen, gsm en auto heb ik geen bijstand van een beroepsbeoefenaar nodig.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik moet een beroep doen op een boekhouder, een accountant, een bedrijfsrevisor of een erkende beroepsorganisatie om het financieel plan op te stellen EN geldig te verklaren.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Als de S-BVBA binnen de 3 jaar failliet gaat, zal ik slechts ten belope van 1 euro gehouden zijn met mijn persoonlijk vermogen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Zodra hij winst zal maken, zal hij jaarlijks 1/10 van de nettowinst moeten aanwenden om het bedrag van het geplaatst kapitaal aan te leggen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PDF-segment toont één pagina (p.8) met de header 'VENNOOTSCHAPSRECHT — 20 PUNTEN', vervolgens 'Vraag 1 — 5 punten' (de nummering '1' is een sectie-interne nummering binnen het vak Vennootschapsrecht; vraag_id 2010-2-vr12 is de doorlopende indexering over het hele examen). Casus over Pierre die een Starter-BVBA wil oprichten met 5 J/F-stellingen (a–e), elk met expliciete instructie 'Antwoord met WAAR of NIET WAAR en licht uw antwoord toe ... rechtvaardig uw antwoord op grond van een artikel van het Wetboek van Vennootschappen'. Daarom motivatie_verwacht=true voor alle deelvragen. Tekst.txt-bullets waren vervormd (lijst-streepjes verschoven); via PNG verifieerd dat het 7 opsomming-items zijn (zichtrekening, auto, gereedschap, gsm, spaarrekening, pc, krediet). De stellingen-tabellen 'Waar/Niet waar' in tekst.txt zijn antwoord-aanvink-vakjes, geen MC-opties — dit is juist_fout-mechaniek. Geen tabellen of cijfertabellen om als context_blok te modelleren.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

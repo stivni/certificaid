@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr3",
+  "interpretatie_datum": "2026-05-29T19:29:14Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Jaarrekeningrecht — herwaarderingsmeerwaarde, kapitaalvermindering, toegestaan kapitaal, voorraadwaardering",
+  "programmaonderdeel_ids": [
+    "1.2"
+  ],
+  "themas": [
+    "herwaarderingsmeerwaarde",
+    "afschrijvingen",
+    "kapitaalvermindering",
+    "aanzuivering verliezen",
+    "toegestaan kapitaal",
+    "toelichting jaarrekening",
+    "voorraadwaardering",
+    "laagste-van-aanschaffings-of-marktwaarde"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Zijn de volgende beweringen juist of fout? Kruis het juiste antwoord aan."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een herwaarderingsmeerwaarde dient verplicht te worden overgeboekt naar een reserve ten belope van de op de meerwaarde geboekte afschrijvingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een kapitaalvermindering door aanzuivering van verliezen dient niet via de resultaatverwerking te verlopen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In de statuten van een naamloze vennootschap staat een vermelding rond toegestaan kapitaal ten belope van 100 000 euro. De statuten van de oprichting van de vennootschap zijn verleden bij notariële akte van 19 januari 2008. Dient dit in de toelichting van de jaarrekening te worden opgenomen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een onderneming verkoopt goederen. Zij heeft tijdens het jaar een aantal aankopen en verkopen uitgevoerd. Op het einde van het boekjaar heeft zij nog een aantal niet verkochte goederen ten belope van: 1.000 stuks à 500 euro = 500.000 euro. De prijs op de markt voor deze goederen bedraagt nog slechts 480.000 euro. De onderneming kan haar voorraad opnemen in haar jaarrekening ten belope van 500.000 euro.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier juist/fout-stellingen onder één paraplu (6 punten totaal). Verwijderd: pdfplumber-artefacten messages.downloaded_by en paginanummer. PNG bevestigt vraag 3 onder sectie WETGEVING INZAKE DE JAARREKENING (15 punten). Op de PNG (pagina 2) is enkel stelling a) zichtbaar; b/c/d volgen op pagina 3 (niet in PNG-set) — tekst.txt-extract gebruikt voor vraagstelling, geen visuele verificatie van b/c/d mogelijk. Geen expliciete motiveer-instructie in de vraagstelling, dus motivatie_verwacht=false (afwijking van standaard ITAA J/F+motiveer-patroon: het instructiezinnetje vermeldt enkel \"Kruis het juiste antwoord aan\").",
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "pagina_overslaat"
+  ]
+}

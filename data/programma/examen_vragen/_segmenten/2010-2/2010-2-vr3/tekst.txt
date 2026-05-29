@@ -1,0 +1,69 @@
+Vraag 3 … / 6 punten
+Zijn de volgende beweringen juist of fout? Kruis het juiste antwoord aan.
+a) Een herwaarderingsmeerwaarde dient verplicht te worden overgeboekt naar een
+reserve ten belope van de op de meerwaarde geboekte afschrijvingen.
+
+|  |  |
+|---|---|
+|  | Juist |
+|  | Fout |
+
+messages.downloaded_by
+
+2
+b) Een kapitaalvermindering door aanzuivering van verliezen dient niet via de
+resultaatverwerking te verlopen.
+
+|  |  |
+|---|---|
+|  | Juist |
+|  | Fout |
+
+c) In de statuten van een naamloze vennootschap staat een vermelding rond
+toegestaan kapitaal ten belope van 100 000 euro. De statuten van de oprichting van
+de vennootschap zijn verleden bij notariële akte van 19 januari 2008.
+Dient dit in de toelichting van de jaarrekening te worden opgenomen?
+
+|  |  |
+|---|---|
+|  | Juist |
+|  | Fout |
+
+d) Een onderneming verkoopt goederen. Zij heeft tijdens het jaar een aantal aankopen
+en verkopen uitgevoerd. Op het einde van het boekjaar heeft zij nog een aantal niet
+verkochte goederen ten belope van: 1.000 stuks à 500 euro = 500.000 euro. De prijs
+op de markt voor deze goederen bedraagt nog slechts 480.000 euro. De onderneming
+kan haar voorraad opnemen in haar jaarrekening ten belope van 500.000 euro
+
+|  |  |
+|---|---|
+|  | Juist |
+|  | Fout |
+
+| ANALYSE EN KRITISCHE BEOORDELING VAN DE
+JAARREKENING - CONSOLIDATIE |  | 25 PUNTEN |
+|---|---|---|
+|  |  |  |
+
+=== subvraag a) ===
+Een herwaarderingsmeerwaarde dient verplicht te worden overgeboekt naar een
+reserve ten belope van de op de meerwaarde geboekte afschrijvingen.
+messages.downloaded_by
+2
+
+=== subvraag b) ===
+Een kapitaalvermindering door aanzuivering van verliezen dient niet via de
+resultaatverwerking te verlopen.
+
+=== subvraag c) ===
+In de statuten van een naamloze vennootschap staat een vermelding rond
+toegestaan kapitaal ten belope van 100 000 euro. De statuten van de oprichting van
+de vennootschap zijn verleden bij notariële akte van 19 januari 2008.
+Dient dit in de toelichting van de jaarrekening te worden opgenomen?
+
+=== subvraag d) ===
+Een onderneming verkoopt goederen. Zij heeft tijdens het jaar een aantal aankopen
+en verkopen uitgevoerd. Op het einde van het boekjaar heeft zij nog een aantal niet
+verkochte goederen ten belope van: 1.000 stuks à 500 euro = 500.000 euro. De prijs
+op de markt voor deze goederen bedraagt nog slechts 480.000 euro. De onderneming
+kan haar voorraad opnemen in haar jaarrekening ten belope van 500.000 euro

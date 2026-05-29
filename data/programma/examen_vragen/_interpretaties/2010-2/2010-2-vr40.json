@@ -1,0 +1,61 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr40",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Bevoegde commissies/organen van het IAB per type aangelegenheid",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "IAB-organen",
+    "beroepsorganisatie",
+    "tuchtrechtspleging",
+    "geschillenregeling",
+    "dossieroverdracht",
+    "beroep tegen Raad-beslissing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Welke commissie dient men aan te schrijven in de gegeven situaties?"
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Beroep tegen de beslissing van de Raad van het IAB.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Eerste aanleg in tuchtaangelegenheden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Geschillen die ontstaan tussen de accountant en/of belastingconsulent en zijn cliënt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Problemen rond de overdracht van een dossier tussen twee accountants en/of belastingconsulenten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG-pagina 24 toont 'Vraag 3 — /4 punten' met de vraagstam 'Welke commissie dient men aan te schrijven in de gegeven situaties' gevolgd door vier sub-items a-d zonder antwoord-veld of MC-opties (alleen vrije ruimte). Vier open deelvragen die elk vragen welk IAB-orgaan/commissie bevoegd is voor de beschreven aangelegenheid. Geen motivering expliciet gevraagd. Tekst.txt en PNG zijn consistent.",
+  "kwaliteits_flags": []
+}

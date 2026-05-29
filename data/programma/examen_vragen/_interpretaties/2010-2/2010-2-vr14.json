@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr14",
+  "interpretatie_datum": "2026-05-29T19:30:47Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsrecht: nettoactief en dividenduitkering, volstorting bij inbreng in natura, stemrecht NV, omzetting van rechtsvorm",
+  "programmaonderdeel_ids": ["3.0"],
+  "themas": [
+    "nettoactief-test",
+    "dividenduitkering",
+    "kosten van oprichting",
+    "kosten onderzoek en ontwikkeling",
+    "inbreng in natura",
+    "volstortingsplicht",
+    "stemrecht aandelen",
+    "omzetting rechtsvorm",
+    "meerderheidsvereisten algemene vergadering"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Antwoord met WAAR of NIET WAAR op volgende beweringen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Bij de uitkering van dividenden moet worden gelet op het nettoactief, aangezien dit nettoactief het nog niet afgeschreven bedrag van de kosten van oprichting en uitbreiding en van de kosten voor onderzoek en ontwikkeling niet mag omvatten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In een nv moeten de aandelen die een inbreng in natura vertegenwoordigen onmiddellijk worden volgestort ten belope van een vierde.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In een nv is een aandeel steeds gelijk aan een stem.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Bij de omzetting van rechtsvorm van bvba in nv, is voor de beslissing van de AV een dubbele meerderheid vereist: aanwezigheidsquorum van 1/2 en meerderheid van 3/4 van de stemmen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag visueel geverifieerd op pagina_10.png (DRAFT-watermerk genegeerd). Vier J/F-stellingen onder één paraplu (Vraag 3 in PDF, segment-id 2010-2-vr14) — elk als aparte deelvraag opgenomen conform §3 schema-spec. De vraagstelling vraagt enkel 'WAAR of NIET WAAR' zonder motivering, dus motivatie_verwacht=false voor elke deelvraag. Stelling d) heeft bullet-opsomming in PDF (Aanwezigheidsquorum: 1/2 · Meerderheid: 3/4); inline samengevoegd in vraagstelling voor leesbaarheid omdat het één samenhangende stelling betreft. Topics zijn allemaal vennootschapsrechtelijk (W.Venn./WVV): nettoactief-test bij dividenduitkering, volstortingsregels inbreng in natura, één-aandeel-één-stem-principe, en quorum-/meerderheidsvereisten bij omzetting van rechtsvorm — geclassificeerd onder PO 3.0 Vennootschapsrecht.",
+  "kwaliteits_flags": []
+}

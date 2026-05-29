@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr25",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "hybride",
+  "vraag_onderwerp": "Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag vennootschapsbelasting (octrooi-aftrek, DBI, meerwaarden aandelen)",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbare grondslag",
+    "aftrekbare bestanddelen",
+    "octrooi-aftrek",
+    "DBI-aftrek",
+    "meerwaarden aandelen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Parser-artefact: het segment voor vr25 omvat alleen het staartstuk van 'vraag 2' op pagina 15 van de PDF. De voorafgaande context (de cijfergegevens uit 'vraag 1' waarnaar verwezen wordt — octrooi lineair over 5 jaar afgeschreven (€ 200.000); financiële vaste activa: 400 aandelen A (Belgische nv) à € 90 = € 36.000 en 100 aandelen B (Duitse AG) à € 375 = € 37.500 + obligatielening Deense vennootschap C € 12.500; verkoop in 2009 van 10 aandelen D (Belgische NV) met boekwaarde € 7.500 voor € 10.000, en verkoopkost € 48; samenstelling maatschappelijk kapitaal A 3.000 / B 900 / C 5.000 / D 1.000 aandelen; financiële opbrengsten: dividenden A € 875 en B € 1.875; meerwaarde op verkoop aandelen D € 2.500) ontbreekt in dit segment maar is zichtbaar op de bovenste helft van pagina 15. De geïsoleerde tekst betreft de vraagstelling 'Vermeld en verduidelijk met een woordje uitleg en in overeenkomstige cijfers welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'"
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": null,
+      "motivatie_verwacht": true,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Identificeer en verduidelijk met cijfers welke gegevens uit de casus (vraag 1) de belastbare basis vennootschapsbelasting bijkomend zullen verminderen via aftrekbare bestanddelen in de bewerkingen (octrooi-aftrek, DBI-aftrek, vrijgestelde meerwaarden op aandelen); aftrekvoorwaarden mogen vervuld worden verondersteld."
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Parser-artefact: het _segmenten/2010-2/2010-2-vr25/-pakket bevat slechts het staartfragment van 'vraag 2' (pagina 15 in PDF-nummering, hoewel meta.json pagina 16 vermeldt — vermoedelijk PDF-bladzij vs paginakop-mismatch). De volledige vraagstelling van vraag 2 is wel zichtbaar in tekst.txt + PNG, maar de cijfergegevens van vraag 1 waarnaar de vraag verwijst zijn niet in dit segment opgenomen. Conform de prompt-instructie bij parser-artefacten: vraag_herkomst='hybride', volledigheid='topic_only', JSON wel geschreven. Vakclassificatie als PO 2.3 (vennootschapsbelasting) op basis van inhoud: aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag (octrooi-aftrek, DBI-aftrek, vrijgestelde meerwaarden op aandelen).",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud",
+    "pagina_overslaat",
+    "ocr_artefact"
+  ]
+}

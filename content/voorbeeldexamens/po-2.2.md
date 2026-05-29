@@ -3,12 +3,12 @@ title: PO 2.2 — Personenbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.2 (Personenbelasting).
 tags: [examen, voorbeeldvragen, po-2-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.2 — Personenbelasting
 
-**29 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
+**32 unieke vraag-eenheden** uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 32 met modelantwoord
 
 <a id="2024-1-vr5A"></a>
 
@@ -940,6 +940,213 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 32, derde lid, 3° WIB92 — herkwalificatie beperkt tot gebouwde onroerende goederen, drempel 5/3 × geïndexeerd KI × revalorisatiecoëfficiënt (art. 13 WIB92). 📖  
 > > *Bron: Art. 32, derde lid, 3° + Art. 13 WIB92*
+
+<a id="2010-2-vr20"></a>
+
+> [!question]- Aangifte van roerende inkomsten in de personenbelasting (binnen- en buitenlandse interesten, dividenden, auteursrechten)
+> *🆕 Examen 2010-2 · PO 2.2*
+>
+> De heer en mevrouw Henri zijn gehuwd onder het stelsel van de scheiding van goederen. Zij hebben in 2009 volgende roerende inkomsten verkregen:
+> 
+> - een spaarrekening ING op naam van mijnheer die € 1 900 netto interest heeft opgebracht
+> - een spaarrekening BNP Paribas op naam van mevrouw die € 815 interest heeft opgebracht
+> - een spaarrekening Dexia op naam van beide echtgenoten die € 1 280 interest heeft opgebracht
+> - een spaarrekening Société Générale (Frankrijk) op naam van mijnheer die € 290 netto interest heeft opgebracht
+> - een spaarrekening KBLux (Luxemburg) op naam van mijnheer die € 2 750 netto interest heeft opgebracht (NB: inhouding aan bron = € 687,50)
+> - dividenden van Canadese aandelen voor een nettobedrag van € 740 (de aandelen behoren toe aan mevrouw en de dividenden werden gestort op de rekening-courant die zij in Canada bezit) – Door de Canadese bank ingehouden bewaringskosten = € 17
+> - mevrouw heeft van een Italiaanse uitgever een bedrag van € 1 200 auteursrechten ontvangen voor het schrijven van een kookboek (NB: het betreft geen beroepsinkomsten)
+>
+> Bepaal de roerende inkomsten die verplicht moeten worden aangegeven en vermeld de aan te geven bedragen in de bijgaande aangifte.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Aangifteplichtige roerende inkomsten — aanslagjaar 2010 (inkomsten 2009)** 🔗
+> > 
+> > Scheiding van goederen → elke echtgenoot geeft zijn/haar eigen roerend inkomen aan; gemeenschappelijke rekening 50/50.
+> > 
+> > | Inkomen | Bedrag | Echtgenoot | Aangeven? | Code Vak VII |
+> > |---|---:|---|---|---|
+> > | Spaarrekening ING (BE) — netto € 1.900 | — | Mijnheer | **Neen** — Belgisch spaardeposito: vrijgesteld onder drempel (€ 1.730 IJ 2009) of bevrijdende RV op overschrijding ingehouden aan bron 📖 | — |
+> > | Spaarrekening BNP Paribas (BE) — € 815 | — | Mevrouw | **Neen** — idem, onder vrijstellingsdrempel 📖 | — |
+> > | Spaarrekening Dexia (BE) — € 1.280, gezamenlijk | — | 50/50 = € 640 elk | **Neen** — onder vrijstellingsdrempel per echtgenoot 📖 | — |
+> > | Spaarrekening Société Générale (FR) — netto € 290 | **€ 290** | Mijnheer | **Ja** — buitenlandse interest, in buitenland geïnd, geen Belgische RV 🔗 | Code 1444 (buitenl. interest zonder Belg. tussenpersoon) |
+> > | Spaarrekening KBLux (LU) — netto € 2.750 (bronheffing € 687,50) | **€ 2.750** | Mijnheer | **Ja** — buitenlandse interest, in buitenland geïnd, geen Belgische RV. Bronheffing LU is geen RV en niet aftrekbaar 🔗 | Code 1444 |
+> > | Canadese dividenden — netto € 740 (bewaringskosten € 17) | **€ 723** | Mevrouw | **Ja** — dividend in Canada geïnd, geen Belgische RV; bewaringskosten aftrekbaar (art. 22 §1 WIB92) 🔗 | Code 2444 (buitenl. dividend zonder Belg. tussenpersoon) |
+> > | Auteursrechten Italië — € 1.200 | **€ 1.200** | Mevrouw | **Ja** — buitenlandse auteursrechten zonder Belgische tussenpersoon (geen RV ingehouden); art. 17 §1 5° + art. 313, 4° WIB92 🔗 | Code 1117 (auteursrechten roerend) |
+> > 
+> > **Totaal aan te geven**: Mijnheer € 3.040 — Mevrouw € 1.923 (€ 723 dividend + € 1.200 auteursrechten). 🔗
+> > 
+> > **Redenering per inkomen** 🔗
+> > 
+> > 1. **Belgische spaardeposito's (ING, BNP Paribas, Dexia)** — bij een erkende Belgische bank → óf vrijgesteld (eerste schijf, € 1.730 per echtgenoot voor IJ 2009), óf bevrijdende RV (15 %) ingehouden op de overschrijding. In beide gevallen verbiedt art. 313 WIB92 niet de aangifte, maar deze is **niet verplicht**. Per echtgenoot blijven de bedragen ruim onder de drempel (ING € 1.900 zit erboven → de € 170 surplus draagt RV en is bevrijdend; aangifte niet verplicht). 🔗
+> > 2. **Buitenlandse interesten (Société Générale, KBLux)** — door mijnheer **rechtstreeks in het buitenland** geïnd, zonder tussenkomst van een Belgische tussenpersoon. Geen Belgische RV ingehouden → **verplicht aan te geven** (art. 313 WIB92 a contrario). De Luxemburgse bronheffing (€ 687,50, eindheffing 2009) is geen Belgische RV en geen verrekenbare buitenlandse belasting voor interesten; het netto-bedrag wordt aangegeven. 🔗
+> > 3. **Canadese dividenden** — gestort op een Canadese rekening van mevrouw → geen Belgische RV → **verplicht aan te geven**. De door de Canadese bank ingehouden bewaringskosten (€ 17) zijn aftrekbaar van het netto-inkomen (art. 22 §1 WIB92). 🔗
+> > 4. **Auteursrechten Italiaanse uitgever** — sinds wet 16 juli 2008 vormen auteursrechten en naburige rechten een afzonderlijke categorie roerend inkomen (art. 17 §1 5° WIB92), van toepassing op inkomsten 2008 en later. Geen beroepsinkomen (vraag stelt dit expliciet). Geen Belgische RV → **verplicht aan te geven** (art. 313, 4° WIB92 verwijst expliciet naar art. 17 §1 5°). 🔗
+> > 5. **Stelsel scheiding van goederen** — geen gemeenschappelijk vermogen behalve de gezamenlijke Dexia-spaarrekening. Elke echtgenoot geeft zijn/haar eigen roerend inkomen aan in zijn/haar kolom van Vak VII; Dexia 50/50. 🔗
+> > 
+> > Het **netto-bedrag** dat in de casus staat is voor de buitenlandse interesten en dividenden ook het **aan te geven bedrag**: er was geen Belgische tussenpersoon, dus geen Belgische RV om bij op te tellen. Wel **af te trekken** zijn de bewaringskosten op de buitenlandse dividenden (Canada € 17) — dit is de enige post in deze casus waar het aangiftebedrag lager is dan het netto-bedrag in de opgave. Buitenlandse bronheffing op intresten (Luxemburg) wordt **niet** afgetrokken en is **niet** verrekenbaar als FBB op interesten (wél bij dividenden onder DBV, maar dit zijn intresten). 🔗
+> > 
+> > **Art. 17 §1 WIB92** somt de vier (en sinds 2008 vijf) categorieën roerend inkomen op: 1° dividenden, 2° interest, 5° auteursrechten en naburige rechten. **Art. 22 §1 WIB92** definieert netto-roerend-inkomen: bedrag geïnd of verkregen, verminderd met innings- en bewaringskosten. **Art. 313 WIB92** stelt de regel: roerende inkomsten waarvoor daadwerkelijk Belgische RV werd ingehouden of die ervan vrijgesteld zijn moeten **niet** in de aangifte PB worden vermeld — a contrario zijn de buitenlandse inkomsten geïnd zonder Belgische tussenpersoon, en de auteursrechten van art. 17 §1 5°, **wel** aan te geven (art. 313, 4° vermeldt deze expliciet). 📖  
+> > *Bron: Art. 17, 22 §1 en 313 WIB92*
+
+<a id="2010-2-vr21"></a>
+
+> [!question]- Aftrekbare autokosten en verplaatsingskosten van een zelfstandige dierenarts in de personenbelasting (aanslagjaar 2009 vs. 2010)
+> *🆕 Examen 2010-2 · PO 2.2*
+>
+> Een dierenarts woont in Ukkel en heeft zijn praktijk in Elsene. Zijn beroepsmatige verplaatsingen met zijn persoonlijk voertuig zijn dagelijks dezelfde (220 dagen per jaar in 2009), namelijk:
+> - Woonplaats -> praktijk (ochtend): 5 km
+> - Praktijk -> dispensarium van de Stichting Prins Laurent: 2 km
+> - (namiddag: huisbezoek)
+> 
+> **Kilometeraantal afgelegd in 2009**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | woonplaats -> praktijk | 1.100 |
+> | praktijk -> dispensarium | 440 |
+> | privéverplaatsingen | 4.000 |
+> | op huisbezoek bij patiënten | 10.200 |
+> | totaal | 15.740 |
+> 
+> **Uiteenzetting van de autokosten**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Afschrijving (dieselvoertuig 175 gr CO2) | 8.000 |
+> | Verzekering | 1.200 |
+> | Verkeersbelasting | 500 |
+> | Onderhoud | 950 |
+> | Financieringskosten | 400 |
+> | Brandstof | 1.700 |
+>
+> Bereken het bedrag van de aftrekbare beroepskosten en geef het detail van deze berekeningen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Aftrekbare beroepskosten autokosten — inkomstenjaar 2009 (AJ 2010): ca. 6.983 EUR** 🔗
+> > 
+> > | Component | Berekening | Bedrag |
+> > |---|---|---|
+> > | Woon-werk (art. 66bis WIB92) | 1.100 km × 0,15 EUR | 165 EUR |
+> > | Beroepsdeel brandstof (100%) | 1.700 × (10.640/15.740) | 1.149 EUR |
+> > | Beroepsdeel financieringskosten (100%) | 400 × (10.640/15.740) | 270 EUR |
+> > | Beroepsdeel overige autokosten (75%) | (8.000+1.200+500+950) × (10.640/15.740) × 75% | 5.399 EUR |
+> > | **Totaal aftrekbaar** | | **6.983 EUR** | 🔗
+> > 
+> > **Stap 1 — Kilometers categoriseren** (15.740 km totaal):
+> > - Privé 4.000 km → **niet aftrekbaar** 🔗
+> > - Woon-werk (woonplaats → praktijk) 1.100 km → forfait art. 66bis WIB92 📖
+> > - Beroepsverplaatsingen 10.640 km = 440 (praktijk → dispensarium) + 10.200 (huisbezoeken) → werkelijke kosten
+> > 
+> > **Stap 2 — Beroepsaandeel autokosten**: 10.640 / 15.740 = **67,60%** (woon-werk valt buiten dit aandeel — wordt forfaitair afgehandeld). 🔗
+> > 
+> > **Stap 3 — Aftrekbeperking per kost-categorie** (PB-zelfstandige, AJ 2010): 🔗
+> > - Brandstof (1.700 EUR) en financieringskosten (400 EUR): **100% van het beroepsdeel** aftrekbaar
+> > - Afschrijving + verzekering + verkeersbelasting + onderhoud (10.650 EUR): aftrekbeperking tot **75% van het beroepsdeel** (oud art. 66 §1 WIB92 — vóór invoering CO2-cascade in PB)
+> > 
+> > **Stap 4 — Woon-werk-forfait**: 1.100 km × 0,15 EUR = 165 EUR. De woonplaats-praktijk-afstand bedraagt 5 km, ruim onder het plafond van 75 km (art. 66bis WIB92 vanaf AJ 2006). 📖
+> > 
+> > **Stap 5 — Totaal**: 165 + 1.149 + 270 + 5.399 = **6.983 EUR**. 🔗
+> > 
+> > Het woon-werktraject is fiscaal **niet hetzelfde** als een beroepsverplaatsing: de woonplaats-praktijk-rit (1.100 km) wordt forfaitair vergoed via art. 66bis WIB92 (0,15 EUR/km, max 75 km enkele afstand) en mag **niet** in de werkelijke autokosten-pot worden gestopt. De rit praktijk → dispensarium (440 km) is daarentegen wel een echte beroepsverplaatsing tijdens de werkdag en hoort bij de 10.640 beroepskilometers. Wie alles op één hoop gooit, telt het woon-werk dubbel of past de verkeerde aftrekregel toe. 🔗
+> > 
+> > **Art. 66 §1 WIB92** (versie AJ 2010): beroepskosten met betrekking tot personenauto's zijn slechts beperkt aftrekbaar — voor PB-zelfstandigen tot 75%, met uitzondering van brandstofkosten en financieringskosten (100% van het beroepsdeel). **Art. 66bis WIB92**: bij gebrek aan bewijsstukken worden de beroepskosten voor de woon-werkverplaatsing forfaitair bepaald op 0,15 EUR per afgelegde km, met een maximaal in aanmerking te nemen afstand van 75 km (vanaf AJ 2006). 📖  
+> > *Bron: art. 66 §1 + art. 66bis WIB92*
+>
+> **Zal het aftrekbaar bedrag van zijn verplaatsingskosten hetzelfde zijn, als de dierenarts dezelfde verplaatsingen aflegt in 2010?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Neen** — voor inkomstenjaar 2010 (AJ 2011) is het aftrekbaar bedrag niet hetzelfde, omdat de CO2-gebaseerde aftrekcascade die voorheen enkel voor vennootschappen gold, vanaf dat jaar ook in de personenbelasting wordt toegepast op zelfstandigen. 🔗
+> > 
+> > De wet van 23 december 2009 heeft de CO2-aftrekcascade van art. 198bis WIB92 (vennootschappen) doorgetrokken naar art. 66 §1 WIB92 voor de personenbelasting, met inwerkingtreding vanaf AJ 2011. Het oude forfaitaire 75%-percentage voor autokosten van zelfstandigen wordt vervangen door een CO2-afhankelijk aftrekpercentage. Voor een dieselvoertuig met 175 gr CO2/km valt men in een lagere schijf dan 75%, waardoor het aftrekbare bedrag daalt bij ongewijzigde kilometers en kosten. 🤖
+> > 
+> > **Art. 66 §1 WIB92** (versie AJ 2011 e.v., ingevoerd door wet 23.12.2009): de aftrek van autokosten in de PB is voortaan gekoppeld aan een CO2-cascade — voor dieselvoertuigen lopen de schijven van 100% (≤ 60 gr CO2/km) tot 50% (> 195 gr CO2/km). Brandstofkosten blijven 100% aftrekbaar; financieringskosten en mobilofoonkosten vallen buiten de beperking. De forfaitaire woon-werkregeling van **art. 66bis WIB92** blijft ongewijzigd. 🔗  
+> > *Bron: art. 66 §1 WIB92 (versie AJ 2011)*
+>
+> Welke wijziging zal moeten worden aangebracht, indien dat niet het geval is? (geen aanvullende berekeningen, vermeld alleen de wijziging(en))
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Aan te brengen wijziging vanaf inkomstenjaar 2010 (AJ 2011):
+> > 
+> > - Het forfaitaire **75%-aftrekpercentage** op afschrijving, verzekering, verkeersbelasting en onderhoud wordt **vervangen door het CO2-afhankelijke aftrekpercentage** van art. 66 §1 WIB92 (cascade dieselvoertuig 175 gr CO2/km → lagere schijf, niet langer vlak 75%). 🔗
+> > - **Brandstofkosten** blijven 100% aftrekbaar (op het beroepsdeel). 🔗
+> > - **Financieringskosten** blijven 100% aftrekbaar (vallen buiten de aftrekbeperking). 🔗
+> > - De **woon-werkforfait van art. 66bis** (0,15 EUR/km) wordt **niet** gewijzigd. 🔗
+> > 
+> > **Art. 66 §1 WIB92** (versie AJ 2011): introductie CO2-cascade in PB voor zelfstandigen, met behoud van 100%-aftrek voor brandstof- en financieringskosten. **Art. 66bis WIB92** blijft onverkort van toepassing op de woon-werkverplaatsing. 🔗  
+> > *Bron: art. 66 §1 + art. 66bis WIB92*
+
+<a id="2010-2-vr22"></a>
+
+> [!question]- Personenbelasting: huwelijksquotiënt, buitenlandse sociale bijdragen, ecocheques, belastingverminderingen vs belastingkrediet
+> *🆕 Examen 2010-2 · PO 2.2*
+>
+> Beoordeel de volgende stellingen als waar of niet waar.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het huwelijksquotiënt wordt toegekend aan de echtgenoot die geen beroepsinkomsten heeft. Dit stelsel wordt enkel op echtgenoten toegepast, en mag niet worden toegepast op wettelijk samenwonenden.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **Niet waar.** Het huwelijksquotiënt geldt sinds aanslagjaar 2005 ook voor wettelijk samenwonenden (fiscaal gelijkgesteld met gehuwden), en wordt niet enkel toegekend wanneer één partner geen beroepsinkomsten heeft — ook bij sterk uiteenlopende inkomsten kan een deel worden overgeheveld. 🔗
+> > 
+> > Twee fouten in de stelling:
+> > 
+> > - **Toepassingsgebied**: art. 2, §1, 2° WIB92 stelt wettelijk samenwonenden volledig gelijk met gehuwden voor de toepassing van het Wetboek. Het huwelijksquotiënt-stelsel (art. 87 WIB92) geldt dus ook voor hen vanaf het jaar volgend op de verklaring van wettelijke samenwoning. 📖
+> > - **Toekenningsvoorwaarde**: het huwelijksquotiënt wordt toegepast wanneer de beroepsinkomsten van één van beide echtgenoten/wettelijk samenwonenden minder dan 30% bedragen van het totaal van de beroepsinkomsten van beide partners — niet enkel wanneer één partner géén beroepsinkomsten heeft. Er wordt dan een deel toegerekend tot het wettelijk plafond. 🔗
+> > 
+> > De gelijkstelling met gehuwden geldt voor wettelijk samenwonenden (verklaring volgens art. 1475-1476 oud BW), niet voor feitelijke samenwoners — die blijven fiscaal alleenstaanden en hebben geen recht op het huwelijksquotiënt. 🔗
+> > 
+> > Art. 2, §1, 2° WIB92 — gelijkstelling wettelijk samenwonenden met gehuwden. Art. 87-88 WIB92 — toekenning huwelijksquotiënt aan partner met laagste beroepsinkomsten (< 30% van totaal), met overheveling tot een wettelijk plafond (geïndexeerd bedrag in Cijferzakboekje). 📖  
+> > *Bron: Art. 2, §1, 2° + art. 87-88 WIB92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">In het buitenland betaalde persoonlijke sociale bijdragen zijn aftrekbaar als ze werden betaald in het kader van een buitenlandse sociale verzekering waaraan de belastingplichtige, wegens de in het buitenland verrichte beroepswerkzaamheid, verplicht onderworpen is.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **Waar.** In het buitenland verplicht betaalde persoonlijke sociale bijdragen, opgelegd door een buitenlandse sociale wetgeving waaraan de belastingplichtige wegens zijn aldaar uitgeoefende beroepswerkzaamheid is onderworpen, zijn aftrekbaar als beroepskost. 🔗
+> > 
+> > Art. 52, 7° WIB92 stelt persoonlijke bijdragen aftrekbaar die ter uitvoering van de sociale wetgeving zijn verschuldigd. Bij toepassing op buitenlandse sociale bijdragen geldt dezelfde regel zodra de bijdragen verplicht zijn op grond van de sociale wetgeving van de werkstaat — niet vrijwillige aanvullende stelsels. De koppeling met de **verplichte** onderwerping is de scharnier: vrijwillige stortingen vallen niet onder art. 52, 7° WIB92. 🔗
+> > 
+> > Art. 52, 7° WIB92 — persoonlijke bijdragen ter uitvoering van de sociale wetgeving zijn beroepskosten; de rechtspraak en administratieve commentaar (Com.IB 52/156 e.v.) breiden dit uit tot bijdragen aan een verplicht buitenlands sociaal stelsel. 🔗  
+> > *Bron: Art. 52, 7° WIB92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Ecocheques zijn belastbaar ten name van de werknemer en als beroepskosten aftrekbaar bij de werkgever.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **Niet waar.** Ecocheques die voldoen aan de voorwaarden van art. 38/1 WIB92 zijn **vrijgesteld** bij de werknemer (niet belastbaar), en zijn ook **niet aftrekbaar** als beroepskost bij de werkgever. 📖
+> > 
+> > - **Werknemerszijde**: art. 38, §1, eerste lid, 25° WIB92 verleent een vrijstelling voor de werkgeverstussenkomst in ecocheques die beantwoorden aan art. 38/1 WIB92 (sectorale of ondernemings-cao, nominaal bedrag binnen wettelijk plafond, lijst van toegelaten producten, enz.). 📖
+> > - **Werkgeverszijde**: in ruil voor de fiscale en sociale vrijstelling bij de werknemer zijn ecocheques als verworpen uitgave opgenomen — bij vennootschappen via code 1215 (art. 53, 14° + art. 198 WIB92). De stelling klopt dus aan beide kanten niet. 📖
+> > 
+> > Als de ecocheques niet voldoen aan de voorwaarden van art. 38/1 WIB92 (bv. boven het plafond of buiten cao), verliezen ze de vrijstelling en worden ze belastbaar loon bij de werknemer — dan zijn ze wél aftrekbaar bij de werkgever als gewone loonkost. Beide kanten lopen samen: vrijgesteld → niet aftrekbaar; belastbaar loon → aftrekbaar. 🔗
+> > 
+> > Art. 38, §1, eerste lid, 25° + art. 38/1, §4 WIB92 — vrijstelling werknemer. Art. 53, 14° WIB92 — niet-aftrekbaar als beroepskost; bij vennootschappen verworpen uitgave code 1215 (art. 198 WIB92). 📖  
+> > *Bron: Art. 38, §1, 25° + art. 38/1, §4 + art. 53, 14° WIB92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Sommige uitgaven die recht geven op belastingverminderingen, kunnen worden omgezet in een belastingkrediet.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **Waar.** Voor bepaalde uitgaven wordt de niet-benutte belastingvermindering — wanneer de belasting onvoldoende is om ze volledig te genieten — omgezet in een **terugbetaalbaar belastingkrediet**. 🔗
+> > 
+> > Het verschil tussen een **belastingvermindering** (vermindert de berekende belasting, maar nooit onder nul — verloren bij te lage belasting) en een **belastingkrediet** (wordt verrekend en het saldo wordt terugbetaald) is essentieel. Voor sommige uitgaven heeft de wetgever uitdrukkelijk een omzetting voorzien zodat lage-inkomenshuishoudens het voordeel niet verliezen — historisch onder meer voor dienstencheques/PWA-cheques en voor het gewestelijke deel van de woonbonus in bepaalde gewestelijke regelingen. 🔗
+> > 
+> > Sinds de zesde staatshervorming zit een groot deel van de belastingverminderingen (eigen woning, dienstencheques, energiebesparende uitgaven) op gewestelijk niveau — de omzetting in een terugbetaalbaar krediet is per gewest geregeld en niet identiek federaal/regionaal. 🤖
+> > 
+> > Art. 156bis WIB92 (en gewestelijke pendanten) — omzettingsregeling van bepaalde belastingverminderingen in een terugbetaalbaar belastingkrediet wanneer de federale/gewestelijke belasting onvoldoende is om de vermindering volledig aan te rekenen. 🔗  
+> > *Bron: Art. 156bis WIB92 + gewestelijke regelingen*
 
 <a id="2008-bibf-vrF1"></a>
 

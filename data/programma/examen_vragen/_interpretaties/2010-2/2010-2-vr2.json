@@ -1,0 +1,67 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr2",
+  "interpretatie_datum": "2026-05-29T19:29:02Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Tussentijds dividend (interim-dividend) op het lopende resultaat — toelaatbaarheid, voorwaarden en boekhoudkundige verwerking",
+  "programmaonderdeel_ids": [
+    "1.2",
+    "3.0"
+  ],
+  "themas": [
+    "tussentijds dividend",
+    "interim-dividend",
+    "winstuitkering",
+    "naamloze vennootschap",
+    "beschikbare reserves",
+    "boekhoudkundige verwerking dividend",
+    "raad van bestuur"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een naamloze vennootschap heeft een boekjaar dat afsluit per 31 mei. De jaarrekening van het voorbije boekjaar dat afsloot op 31 mei 2010 werd goedgekeurd door de algemene vergadering van 1 september 2010. Deze jaarrekening werd tevens neergelegd. Op basis van de tussentijdse cijfers per 30 september 2010 en ook de verdere verwachte evolutie voor de komende maanden, besluit de raad van bestuur een dividend uit te keren op het lopende resultaat van 200 000 euro."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Is deze verrichting mogelijk?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Welke voorwaarden dienen te worden vervuld?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe wordt deze beslissing verwerkt in de boekhouding? U dient enkel de rubrieken die van toepassing zijn met twee cijfers op te geven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Wat indien er beschikbare reserves worden uitgekeerd?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële vraag uit PDF (Vraag 2, 6 punten, vakgebied 'Wetgeving inzake de jaarrekening'). De tekst.txt bevatte een verdwaald fragment 'die van toepassing zijn met twee cijfers op te geven.' boven de subvraag-markers; PNG toont dat dit fragment de staart is van de instructie binnen deelvraag c). Geherintegreerd in de vraagstelling van c). Verder geen OCR-correcties nodig.",
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
+}

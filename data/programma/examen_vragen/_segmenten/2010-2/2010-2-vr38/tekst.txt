@@ -1,0 +1,54 @@
+Vraag 1 …. / 4 punten
+Welke van volgende documenten dient u over te dragen aan uw collega die een dossier van
+u overneemt:
+a) nota’s die u heeft gemaakt ter voorbereiding van een opdracht voor de vertrokken
+klant
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+b) dagboeken die het resultaat zijn van de verwerking van de boekhoudstukken
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+c) een financieel advies, met name een uitgewerkte successieplanning dat nog niet
+werd vergoed
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+d) de jaarrekening, bijlagen van de jaarrekening, de fiscale aangifte en de bijlagen van
+de fiscale aangifte
+
+|  |  |
+|---|---|
+|  | Ja |
+|  | Neen |
+
+messages.downloaded_by
+
+23
+
+=== subvraag a) ===
+nota’s die u heeft gemaakt ter voorbereiding van een opdracht voor de vertrokken
+klant
+
+=== subvraag b) ===
+dagboeken die het resultaat zijn van de verwerking van de boekhoudstukken
+
+=== subvraag c) ===
+een financieel advies, met name een uitgewerkte successieplanning dat nog niet
+werd vergoed
+
+=== subvraag d) ===
+de jaarrekening, bijlagen van de jaarrekening, de fiscale aangifte en de bijlagen van
+de fiscale aangifte
+messages.downloaded_by
+23

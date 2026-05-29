@@ -1,0 +1,158 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr40",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Commissie van Beroep** van het Instituut. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Tegen tuchtbeslissingen én tegen administratieve beslissingen van de Raad (inschrijving openbaar register, stage/bekwaamheidsexamen, terechtwijzing) staat een georganiseerd beroep open bij één centrale beroepsinstantie binnen het Instituut: de Commissie van Beroep. 🔗 Zij oordeelt in volle rechtsmacht en haar beslissing wordt enkel nog onderworpen aan cassatieberoep bij het Hof van Cassatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 18, 28, 88, 111 en 113 Wet 17 maart 2019 ITAA (rechtsopvolger van het IAB) — beroep tegen Raad-beslissingen ligt bij de Commissie van Beroep; tegen haar uitspraak: cassatieberoep (art. 113). 📖 Ten tijde van het examen (2010) was de regeling identiek onder art. 5 en 53-54 van de Wet van 22 april 1999 (IAB-wet). 🔗",
+          "wetsref": "Art. 18, 28, 88, 111, 113 Wet 17 maart 2019 ITAA",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Tuchtcommissie** van het Instituut (NL- of FR-kamer naargelang de taalrol van de betrokkene). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een klacht wordt ingediend bij de **rechtskundig assessor** van de bevoegde kamer van de tuchtcommissie; hij onderzoekt het dossier en verwijst het — als er voldoende bezwaren zijn — door naar de tuchtcommissie die in eerste aanleg uitspraak doet over de tuchtsanctie. 📖 De rechtskundig assessor is dus het onderzoeksluik, de Tuchtcommissie de eerste-aanlegrechter.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de loutere **terechtwijzing** door de Raad van het Instituut (art. 87-88): dat is een lichte maatregel die de Raad zelf kan opleggen, géén tuchtsanctie in eerste aanleg. Tegen die terechtwijzing staat eveneens beroep open bij de Commissie van Beroep. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 94-95 Wet 17 maart 2019 ITAA — klachtindiening bij rechtskundig assessor en verwijzing naar de tuchtcommissie. 📖 Voor de feiten van 2010: art. 58-59 Wet 22 april 1999 IAB (identieke structuur tuchtcommissie eerste aanleg + commissie van beroep). 🔗",
+          "wetsref": "Art. 94-95 Wet 17 maart 2019 ITAA",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Arbitragecommissie** (verzoenings- en arbitragecommissie) van het Instituut — op voorwaarde dat beide partijen daarmee instemmen, doorgaans via het arbitragebeding in de opdrachtbrief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het Instituut heeft binnen zijn schoot een arbitragecommissie die geschillen tussen een beroepsbeoefenaar en zijn cliënt — typisch betwistingen rond erelonen of de uitvoering van de opdracht — beslecht via arbitrage of bemiddeling. 🤖 De ITAA-norm-opdrachtbrief eist uitdrukkelijk dat de opdrachtbrief een **geschillenregeling** bevat; naast de gewone rechtbank kan ze alternatieve geschillenbeslechting (arbitrage of bemiddeling) voorzien. 📖 Zonder akkoord van beide partijen blijft de gewone burgerlijke rechtbank (ondernemingsrechtbank) bevoegd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet de Tuchtcommissie: tuchtrecht beschermt het beroep, niet de individuele cliënt. Een ontevreden cliënt kan wél een klacht bij de rechtskundig assessor indienen (tuchtspoor), maar de **financiële regeling** van zijn geschil loopt via arbitrage of de gewone rechtbank — niet via de tuchtkamer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm-opdrachtbrief §9 (Geschillenregeling): \"Naast de mogelijkheid tot het inleiden van een procedure voor de bevoegde rechtbank, is het mogelijk om alternatieve vormen van geschillenbeslechting op te nemen, zoals bijvoorbeeld arbitrage of bemiddeling.\" 📖 Onder de IAB-wet 22 april 1999 (toepasselijk in 2010) was de bevoegdheid van de arbitragecommissie expliciet voorzien in art. 5 §2; ze blijft binnen ITAA functioneren als statutair orgaan. 🔗",
+          "wetsref": "ITAA-norm-opdrachtbrief §9; art. 5 §2 Wet 22 april 1999 IAB (oud)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Verzoeningscommissie** (commissie verzoening en arbitrage) van het Instituut, voor geschillen tussen confraters bij dossieroverdracht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij overdracht van een dossier tussen twee accountants/belastingconsulenten moet de opvolger zijn voorganger schriftelijk verwittigen en aandringen op betaling van onbetwiste erelonen; de voorganger geeft binnen 15 dagen alle cliënt-documenten af tegen gedetailleerde inventaris. 📖 Loopt er een betwisting (achterstallige erelonen, niet-afgegeven stukken, retentierecht), dan kan het geschil — met instemming van beide partijen of op verzoek van één — worden voorgelegd aan de verzoeningscommissie binnen het Instituut. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De verzoeningscommissie is een vorm van **collegiale bemiddeling onder confraters**, met als doel de waardigheid van het beroep en de continuïteit voor de cliënt te bewaren. Zij is géén tuchtorgaan: ze legt geen sancties op, maar zoekt een minnelijke regeling. Mislukt verzoening, dan blijft de gewone rechter of arbitrage open. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 24 KB 1 maart 1998 plichtenleer accountants: \"Met instemming van beide partijen kan een geschil tussen externe accountants voorgelegd worden aan een verzoeningscommissie opgericht binnen het Instituut.\" 📖 Parallel art. 17-18 KB 18 juli 2017 plichtenleer BIBF voor de boekhouders-fiscalisten. 📖 Procedurele kader dossieroverdracht: schriftelijke kennisgeving + 15 dagen-termijn voor afgifte stukken. 📖",
+          "wetsref": "Art. 24 KB 1 maart 1998 plichtenleer accountants; art. 17-18 KB 18 juli 2017 plichtenleer BIBF",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

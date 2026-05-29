@@ -3,7 +3,7 @@ title: PO 1.1 — Algemene boekhouding
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.1 (Algemene boekhouding).
 tags: [examen, voorbeeldvragen, po-1-1]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.1 — Algemene boekhouding

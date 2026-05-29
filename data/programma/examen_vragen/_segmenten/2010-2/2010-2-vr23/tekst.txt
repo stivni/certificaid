@@ -1,0 +1,43 @@
+Vul Vak I/A in van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv
+‘XYZ’ aan de hand van de onderstaande geselecteerde gegevens:
+Bijkomende informatie:
+De nv komt in aanmerking voor de toepassing van het verminderd basistarief
+vennootschapsbelasting. Ze voldoet aan de voorwaarden van art. 15, § 1 Wetboek Venn. om
+als kleine vennootschap aangemerkt te worden.
+Gegevens:
+De nv ‘XYZ’ werd opgericht in 1985 met een kapitaal van € 1 250 000,00. In 1989 werd een
+kapitaalverhoging (gestort kapitaal) van € 750 000,00 doorgevoerd. In 1996 werd een belaste
+reserve van € 500 000,00 in het kapitaal opgenomen.
+Aankoop van een bijkomende kantoorruimte in een nieuw opgericht complex op 19/09/2009:
+prijs: € 750 000,00.
+In het kader van een juiste heffing van de indirecte belastingen wordt in de notariële akte de
+waarde van de grond op € 62 500,00 vastgesteld. Op het gebouwde gedeelte wordt
+€ 157 500,00 btw gevorderd en op de grond een evenredig registratierecht van € 6 250,00.
+De notaris rekent een ereloon van € 3 000,00 aan. Met betrekking tot de grond worden de
+registratierechten en de notariskosten eerst geactiveerd en nadien worden ze het voorwerp
+van een geboekte waardevermindering. De notariskosten m.b.t. het gebouw worden
+onmiddellijk in kosten opgenomen.
+Op 15/02/2009 wordt een octrooi (nieuw) bekomen: € 100 000,00. De nv ‘XYZ’ verleent op het
+verworven octrooi een licentie aan de bv ‘ABC’ tegen een jaarlijkse royalty van € 30 000,00.
+messages.downloaded_by
+
+15
+Het octrooi wordt lineair over 5 jaar afgeschreven: de geboekte afschrijving bedraagt
+€ 20 000,00.
+Onder de financiële vaste activa bevinden zich:
+- 400 aandelen A (Belgische nv) x € 90,00 = € 36 000,00;
+- 100 aandelen B (Duitse A.G.) x € 375,00 = € 37 500,00
+en onder de geldbeleggingen bevindt zich een obligatielening, uitgegeven door een Deense
+vennootschap C: € 12 500,00.
+In 2009 werden 10 aandelen D (Belgische NV) met boekwaarde € 7 500,00 verkocht voor
+€ 10 000,00. De financiële instelling rekent een kost van € 48,00 aan.
+Ter informatie: samenstelling maatschappelijk kapitaal
+- A: 3 000 aandelen
+- B: 900 aandelen
+- C: 5 000 aandelen
+- D: 1 000 aandelen
+In de resultatenrekeningen, onder de financiële opbrengsten krijg je volgende bijkomende
+info:
+Dividend aandelen A: € 875,00
+Dividend aandelen B: € 1 875,00
+Meerwaarde gerealiseerd bij de verkoop van de aandelen D: € 2 500,00.

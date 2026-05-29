@@ -3,12 +3,12 @@ title: PO 2.3 — Vennootschapsbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.3 (Vennootschapsbelasting).
 tags: [examen, voorbeeldvragen, po-2-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.3 — Vennootschapsbelasting
 
-**15 unieke vraag-eenheden** (waarvan 1 cluster, totaal 17 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 15 met modelantwoord
+**19 unieke vraag-eenheden** (waarvan 1 cluster, totaal 21 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 18 met modelantwoord
 
 <a id="2024-1-vr8A"></a>
 
@@ -167,164 +167,32 @@ gegenereerd_op: 2026-05-28
 <a id="2013-2-vr24"></a>
 <a id="2013-2-vr25"></a>
 
-> [!question]- Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten
+> [!question]- Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille
 > *Examens 2015-1 (2015-1-vr33) & 2013-2 (2013-2-vr24) & 2013-2 (2013-2-vr25) · PO 2.3*
 >
 > 🔁 **3× bevraagd** (varianten)
 >
-> Een vennootschap ABC heeft de volgende balans- en resultatenrekeningen per 31 december 2012. De personenwagens zijn onderworpen aan de beperking van 30%. Er waren geen overdrachten van fiscale verliezen, notionele intrestaftrek en investeringsaftrek. De vennootschap is een KMO-vennootschap in de zin van artikel 15 van het Wetboek van Vennootschappen en werd opgericht op 13 maart 2011. De aandelen zijn allemaal in handen van natuurlijke personen.
+> Vennootschap ABC heeft een beleggingsportefeuille. Resultaat boekjaar 22.150 EUR: verkoop beleggingen 25.000 EUR, aankoopkosten 1.200 EUR, verkoopkosten 1.650 EUR. Geen andere kosten en opbrengsten. Vennootschap voldoet aan criteria art. 15 W.Venn. Fiscaal overgedragen verlies van 10.000 EUR van aanslagjaar 2013. Geen recht op notionele intrestaftrek. Niet voldaan aan voorwaarden verlaagd tarief. Aanslagjaar 2014.
 > 
-> **Balans**
-> 
-> **Actief**
-> 
-> | Rubriek | Jaar 2012 | Jaar 2011 |
-> | --- | --- | --- |
-> | Materiële vaste activa | 15.000 | 20.000 |
-> | Vorderingen < jaar | 100.000 | 95.000 |
-> | Liquide middelen | 30.000 | 35.000 |
-> | BALANSTOTAAL | 145.000 | 150.000 |
-> 
-> **Passief**
-> 
-> | Rubriek | Jaar 2012 | Jaar 2011 |
-> | --- | --- | --- |
-> | Geplaatst kapitaal | 60.000 | 60.000 |
-> | Wettelijke reserve | 6.000 | 6.000 |
-> | Overgedragen resultaat | -20.000 | -5.000 |
-> | Schulden < jaar | 99.000 | 89.000 |
-> | BALANSTOTAAL | 145.000 | 150.000 |
-> 
-> **Resultatenrekening 2012**
+> **Beleggingsportefeuille per 31 december 2013**
 > 
 > | Label | Bedrag |
 > | --- | --- |
-> | Omzet | 256.000 |
-> | Voordeel in natura personenwagens (opbrengst) | 10.000 |
-> | Financiële opbrengsten | 5.000 |
-> | Huur gebouwen | -25.000 |
-> | Afschrijvingen | -5.000 |
-> | Nutsvoorzieningen | -5.000 |
-> | Erelonen | -5.000 |
-> | Renting personenwagens – kapitaal | -50.000 |
-> | Restaurantkosten | -5.000 |
-> | Bezoldiging bedrijfsleider | -36.000 |
-> | Brutobezoldiging personeel | -100.000 |
-> | Patronale bijdragen | -35.000 |
-> | Voordeel in natura personenwagens (kost) | -10.000 |
-> | Intrest renting personenwagens | -5.000 |
-> | Benzine personenwagens | -5.000 |
-> | VERLIES | -15.000 |
+> | Aandelen ING: aanschaf 15/02/2011, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 13.000, verkoopkosten 250 |   |
+> | Obligaties X: aanschaf 31/01/2013, aanschaffingswaarde 100.000, aankoopkosten 1.000, verkoop 15/05/2013 voor 120.000, verkoopkosten 1.200 |   |
+> | Aandelen BNP Paribas: aanschaf 31/01/2013, aanschaffingswaarde 10.000, aankoopkosten 200, verkoop 30/06/2013 voor 12.000, verkoopkosten 200 |   |
 >
-> Bepaal het belastbare resultaat voor aanslagjaar 2013. Detailleer uw berekeningen.
+> Bepaal het belastbare resultaat voor aanslagjaar 2014. De vennootschap heeft geen recht op notionele intrestaftrek.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Belastbaar resultaat AJ 2013 ≈ 915 EUR** — boekverlies van 15.000 wordt omgebogen door verworpen uitgaven (autokosten + restaurantkosten), waarna de notionele intrestaftrek het saldo verder verlaagt. 🔗
-> > 
-> > | Rubriek | Bedrag |
-> > |---|---:|
-> > | Totaal opbrengsten | 271.000 |
-> > | Totaal kosten | -286.000 |
-> > | **Boekhoudkundig verlies** | **-15.000** |
-> > 
-> > De vennootschap heeft een fiscaal nul-startpunt na resultaatverwerking (overgedragen resultaat 2011: -5.000 → 2012: -20.000, het verlies vloeit door). 🔗
-> > 
-> > **a) Autokosten — 30 %-beperking** (casus stelt dit expliciet — art. 66 + 198bis WIB 92, toepassing AJ 2013):
-> > 
-> > | Autokost (kost-zijde) | Bedrag |
-> > |---|---:|
-> > | Renting personenwagens – kapitaal | 50.000 |
-> > | Benzine personenwagens | 5.000 |
-> > | **Subtotaal aftrekbeperkte kosten** | **55.000** |
-> > | Verworpen uitgave = 30 % × 55.000 | **16.500** 📖 |
-> > 
-> > *Niet onderworpen aan de aftrekbeperking*: de financiële intrest op de renting (5.000) — intresten op autokosten vallen buiten art. 66 WIB 92 voor AJ 2013. 🔗 De VAA-kost (-10.000) en de tegenboeking als opbrengst (+10.000) saldoën op nul; het VAA wordt apart als verworpen uitgave 'autokosten ten belope van het VAA' opgenomen, maar omdat in deze casus de VAA-opbrengst exact gelijk is aan de VAA-kost is er geen nettocorrectie meer nodig. ❓
-> > 
-> > **b) Restaurantkosten — 31 % niet-aftrekbaar** (art. 53, 8°bis WIB 92):
-> > 
-> > | Bedrag | Verworpen |
-> > |---:|---:|
-> > | 5.000 | 5.000 × 31 % = **1.550** 📖 |
-> > 
-> > **Totaal verworpen uitgaven**: 16.500 + 1.550 = **18.050** 🔗
-> > 
-> > **Resultaat na eerste bewerking**: -15.000 + 18.050 = **+ 3.050** 🔗
-> > 
-> > Casus zegt: "geen overdrachten van NIA". Voor AJ 2013 is er nog gewone NIA op het lopend boekjaar (afschaffing van de overdraagbaarheid van NIA-stock is een latere maatregel).
-> > 
-> > **Risicokapitaal** = gecorrigeerd eigen vermogen aan het einde van het vorige belastbare tijdperk (01/01/2012, zijnde balans 2011):
-> > 
-> > | Bestanddeel EV per 31/12/2011 | Bedrag |
-> > |---|---:|
-> > | Geplaatst kapitaal | 60.000 |
-> > | Wettelijke reserve | 6.000 |
-> > | Overgedragen resultaat | -5.000 |
-> > | **Eigen vermogen** | **61.000** |
-> > 
-> > Geen aftrek-correcties vermeld (geen eigen aandelen, geen deelnemingen, geen herwaarderingsmeerwaarden, geen vaste inrichting in het buitenland). 🔗
-> > 
-> > **Tarief AJ 2013** (Cijferzakboekje): basis 3,000 % + KMO-verhoging 0,5 % = **3,500 %** (de vennootschap is een kleine vennootschap art. 15 W.Venn.). 📖
-> > 
-> > **NIA = 61.000 × 3,5 % ≈ 2.135** 🔗
-> > 
-> > **Belastbaar resultaat na NIA**: 3.050 – 2.135 = **≈ 915 EUR** 🔗
-> > 
-> > De "30 %-beperking" in de casus is een **vereenvoudiging voor de oefening** — in werkelijkheid hangt de aftrekbaarheid van autokosten voor AJ 2013 af van de CO2-uitstoot per voertuig (gradenschaal 60 %–100 %, art. 198bis WIB 92). 📖 De examencasus geeft een forfaitair percentage "30 % verworpen" mee zodat de student kan rekenen zonder CO2-gegevens — neem dit op als gegeven, niet als algemene regel. Pas op: **financiële intresten** op autoleningen/renting vallen voor AJ 2013 **niet** onder de aftrekbeperking (sinds AJ 2021 wél). 🔗
-> > 
-> > **Verworpen uitgaven**: art. 198 § 1 WIB 92 (algemeen kader), art. 66 + 198bis WIB 92 (autokosten — aftrekbeperking volgens CO2 voor AJ 2013), art. 53, 8°bis WIB 92 (restaurantkosten 31 % niet-aftrekbaar). **Notionele intrestaftrek**: art. 205bis–205novies WIB 92 (versie AJ 2013 — vóór afschaffing door wet 25/12/2017). **KMO-definitie**: art. 15 W.Venn. (versie AJ 2013, nu art. 1:24 WVV) — voorwaarde voor verhoogd NIA-tarief én voor verlaagd KMO-tarief art. 215 WIB 92. 📖  
-> > *Bron: art. 198, 66, 198bis, 53/8°bis, 205bis–205novies WIB 92; art. 15 W.Venn. (AJ 2013)*
+> > _Antwoord wacht op concept-laag._
 >
-> Bepaal de verschuldigde vennootschapsbelasting.
+> Geef op welke tarieven van toepassing zijn EN op welk bedrag van het belastbare resultaat. Kies voor de meest voordelige verdeling. De vennootschap voldoet niet aan de voorwaarden voor verlaagd tarief.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Verschuldigde vennootschapsbelasting ≈ 222 EUR** — KMO-vennootschap met belastbaar inkomen ≤ 322.500 EUR, dus opklimmende verlaagde tarieven art. 215 WIB 92 (versie AJ 2013). Volledig belastbaar in de eerste schijf 0–25.000 aan 24,25 %. 🔗
-> > 
-> > **Toetsing voorwaarden verlaagd tarief** (art. 215, derde lid WIB 92, versie AJ 2013):
-> > 
-> > | Voorwaarde | Status |
-> > |---|---|
-> > | Belastbaar inkomen ≤ 322.500 EUR | ✓ (915 EUR) |
-> > | Geen financiële vennootschap (aandelenbezit > 50 %) | ✓ (geen aandelen vermeld) |
-> > | Aandelen niet ≥ 50 % in handen van andere vennootschap | ✓ (alle aandelen bij natuurlijke personen) |
-> > | Bezoldiging bedrijfsleider ≥ 36.000 EUR (of ≥ belastbaar inkomen) | ✓ (bezoldiging = 36.000) |
-> > | Dividenduitkering ≤ 13 % gestort kapitaal | ✓ (geen dividenduitkering) |
-> > 
-> > → Voldoet aan alle voorwaarden, dus **verlaagd tarief van toepassing**. 🔗
-> > 
-> > **Tariefberekening** (art. 215, tweede lid WIB 92 versie AJ 2013):
-> > 
-> > | Schijf | Tarief | Belastbaar | Belasting |
-> > |---|---:|---:|---:|
-> > | 0 – 25.000 | 24,25 % | 915 | **221,89** |
-> > | 25.000 – 90.000 | 31 % | 0 | 0 |
-> > | 90.000 – 322.500 | 34,5 % | 0 | 0 |
-> > | **Subtotaal VenB** | | | **≈ 222** 📖 |
-> > 
-> > *(Aanvullende crisisbijdrage 3 % nog van toepassing voor AJ 2013 — art. 463bis WIB 92: 222 × 3 % ≈ 7. Globaal verschuldigd ≈ 229 EUR.)* 🔗
-> > 
-> > De bezoldiging bedrijfsleider van 36.000 EUR voldoet exact aan de drempel die in AJ 2013 gold voor de KMO-uitsluiting van art. 215 ("minstens gelijk aan 36.000 EUR of aan het belastbare resultaat indien dat lager is"). 📖 De drempel werd later opgetrokken (sinds AJ 2019: 45.000 EUR). Voor de examencasus AJ 2013 geldt de oude 36.000 EUR-drempel. 🔗
-> > 
-> > Art. 215 WIB 92, eerste en tweede lid (versie AJ 2013, ingevoegd bij wet 24/12/2002 art. 12): **tarief 33 % als gewone basis**; verlaagde opklimmende tarieven 24,25 % / 31 % / 34,5 % voor belastbaar inkomen ≤ 322.500 EUR. Voorwaarden in art. 215 derde lid (geen financiële vennootschap, aandeelhouderschap, minimumbezoldiging, dividend ≤ 13 % gestort kapitaal). Crisisbijdrage 3 % op de verschuldigde VenB — art. 463bis WIB 92 (afgeschaft sinds AJ 2018). 📖  
-> > *Bron: art. 215 + 463bis WIB 92 (versie AJ 2013); wet 24/12/2002 art. 12*
->
-> Bepaal de eventuele overdrachten van fiscale verliezen en notionele intrestaftrek naar de volgende aanslagjaren.
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **Geen overdracht** — noch fiscaal verlies, noch onbenutte NIA naar AJ 2014. Het belastbare resultaat is positief (≈ 915 EUR) na alle bewerkingen, en de NIA werd volledig benut binnen de restwinst. 🔗
-> > 
-> > **a) Overdracht fiscaal verlies**: art. 206 WIB 92 — fiscale verliezen worden overgedragen indien het belastbaar resultaat van het jaar negatief is na alle bewerkingen. Hier: resultaat na 1e bewerking = +3.050 (positief). De NIA mag op grond van art. 205bis WIB 92 (AJ 2013) ten hoogste de restwinst opslorpen, dus na NIA: 915 EUR (positief). → **Geen verliessaldo aan te leggen**. 🔗
-> > 
-> > **b) Overdracht NIA**: art. 205quinquies WIB 92 (versie AJ 2013) — onbenutte NIA was overdraagbaar gedurende 7 jaar tot in AJ 2012; sinds AJ 2013 (wet 28/12/2011) is **alleen het 'stock'-deel reeds opgebouwd vóór AJ 2013** nog overdraagbaar. Voor AJ 2013 wordt de gewone (lopende) NIA volledig benut of valt weg. Hier is NIA = 2.135 en restwinst na VU = 3.050 → NIA volledig aftrekbaar; **geen NIA-overschot**. 🔗
-> > 
-> > **c) Andere overdrachten**: investeringsaftrek (casus zegt geen overdracht), DBI-aftrek (geen aandelen), risicokapitaal-stock (geen stock). → Niets over te dragen. 🔗
-> > 
-> > Vanaf AJ 2013 is de **overdraagbaarheid van de lopende NIA afgeschaft** (wet 28/12/2011) — alleen reeds opgebouwde NIA-stock van vóór AJ 2013 bleef overdraagbaar (over 7 jaar, met cap vanaf AJ 2013). 📖 Sinds de hervorming-2017 (wet 25/12/2017) is de NIA-stock-aftrek volledig uitdovend en is de NIA zelf vanaf AJ 2021 afgeschaft. Voor AJ 2013-casus: enkel het stock-deel kan overdraagbaar zijn — niet de lopende NIA van het belastbaar tijdperk zelf. ❓
-> > 
-> > Art. 206 WIB 92 (overdracht beroepsverliezen — onbeperkt in tijd). Art. 205bis–205novies WIB 92 (notionele intrestaftrek, AJ 2013-versie). Art. 205quinquies WIB 92 zoals gewijzigd door wet 28/12/2011 (BS 30/12/2011) — afschaffing overdraagbaarheid lopende NIA, behoud stock met 7-jarige cap. 📖  
-> > *Bron: art. 206 + 205bis–205novies WIB 92 (AJ 2013); wet 28/12/2011*
+> > _Antwoord wacht op concept-laag._
 
 <a id="2015-1-vr34"></a>
 
@@ -745,6 +613,151 @@ gegenereerd_op: 2026-05-28
 > > 
 > > **KB/WIB 92, bijlage III** (model aangifte VenB AJ 2013) — codes 1080, 1206, 1320, 1436, 1460. **Art. 198, § 1, 9°bis WIB 92** — VU-statuut 17 % brandstof-VAA. **Art. 206 WIB 92** — code 1436 "aftrek vorige beroepsverliezen". 🔗  
 > > *Bron: KB/WIB 92 bijlage III; art. 198, 206 WIB 92*
+
+<a id="2010-2-vr23"></a>
+
+> [!question]- Vennootschapsbelasting AJ 2010 — invullen Vak I/A van de aangifte voor nv 'XYZ' op basis van casusgegevens
+> *🆕 Examen 2010-2 · PO 2.3*
+>
+> Vul Vak I/A in van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv 'XYZ' aan de hand van de onderstaande geselecteerde gegevens.
+> 
+> Bijkomende informatie: de nv komt in aanmerking voor de toepassing van het verminderd basistarief vennootschapsbelasting. Ze voldoet aan de voorwaarden van art. 15, § 1 Wetboek Venn. om als kleine vennootschap aangemerkt te worden.
+> 
+> Gegevens — kapitaalstructuur: de nv 'XYZ' werd opgericht in 1985 met een kapitaal van € 1 250 000,00. In 1989 werd een kapitaalverhoging (gestort kapitaal) van € 750 000,00 doorgevoerd. In 1996 werd een belaste reserve van € 500 000,00 in het kapitaal opgenomen.
+> 
+> Aankoop van een bijkomende kantoorruimte in een nieuw opgericht complex op 19/09/2009: prijs € 750 000,00. In het kader van een juiste heffing van de indirecte belastingen wordt in de notariële akte de waarde van de grond op € 62 500,00 vastgesteld. Op het gebouwde gedeelte wordt € 157 500,00 btw gevorderd en op de grond een evenredig registratierecht van € 6 250,00. De notaris rekent een ereloon van € 3 000,00 aan. Met betrekking tot de grond worden de registratierechten en de notariskosten eerst geactiveerd en nadien worden ze het voorwerp van een geboekte waardevermindering. De notariskosten m.b.t. het gebouw worden onmiddellijk in kosten opgenomen.
+> 
+> Op 15/02/2009 wordt een octrooi (nieuw) bekomen: € 100 000,00. De nv 'XYZ' verleent op het verworven octrooi een licentie aan de bv 'ABC' tegen een jaarlijkse royalty van € 30 000,00. Het octrooi wordt lineair over 5 jaar afgeschreven: de geboekte afschrijving bedraagt € 20 000,00.
+> 
+> Onder de financiële vaste activa bevinden zich: 400 aandelen A (Belgische nv) x € 90,00 = € 36 000,00; 100 aandelen B (Duitse A.G.) x € 375,00 = € 37 500,00. Onder de geldbeleggingen bevindt zich een obligatielening, uitgegeven door een Deense vennootschap C: € 12 500,00.
+> 
+> In 2009 werden 10 aandelen D (Belgische NV) met boekwaarde € 7 500,00 verkocht voor € 10 000,00. De financiële instelling rekent een kost van € 48,00 aan.
+> 
+> Ter informatie: samenstelling maatschappelijk kapitaal — A: 3 000 aandelen; B: 900 aandelen; C: 5 000 aandelen; D: 1 000 aandelen.
+> 
+> In de resultatenrekeningen, onder de financiële opbrengsten, krijg je volgende bijkomende info: dividend aandelen A € 875,00; dividend aandelen B € 1 875,00; meerwaarde gerealiseerd bij de verkoop van de aandelen D € 2 500,00.
+>
+> Vul Vak I/A van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv 'XYZ' in aan de hand van de gegeven casusinformatie (verminderd basistarief, kleine vennootschap, kapitaalstructuur, aankoop kantoorruimte, octrooi en afschrijving, financiële vaste activa en gerealiseerde meerwaarde aandelen D).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Topic-only herinnering; framework geleverd._
+> > 
+> > Topic-antwoord: Vak I/A van de aangifte VenB AJ 2010 is het vak **Uiteenzetting van de winst — A. Belastbare reserves**, waarin de mutatie tussen begintoestand en eindtoestand van de belaste reserves wordt opgegeven (eindcode 1080 PN, die als bewerking 1 in de winstcascade doorvloeit). 🔗
+> > 
+> > Een volledig ingevuld Vak I/A vereist twee elementen die in de casus ontbreken én bronmateriaal dat in deze kennisbank niet (volledig) aanwezig is voor AJ 2010:
+> > 
+> > 1. **Begintoestand belaste reserves**: de casus geeft alleen kapitaal-mutaties (1985: € 1.250.000; 1989: € 750.000 gestort; 1996: € 500.000 belaste reserve → kapitaal) maar geen openingsbalans-totaal van wettelijke/beschikbare/onbeschikbare reserves en overgedragen resultaat per 01/01/2009. Zonder die begintoestand kan geen volledige tabel begin/eind belaste reserves worden opgesteld. ❓
+> > 2. **Aangifte-template AJ 2010 zelf**: de exacte code-nummering en rubrieken van Vak I/A voor AJ 2010 (formulier 275.1 versie 2010) staan niet als gestructureerde bron in de kennisbank — enkel AJ 2025 (codes 1040–1080 PN). Tussen AJ 2010 en AJ 2025 zijn de codes inhoudelijk vergelijkbaar maar niet identiek. 🤖
+> > 
+> > **Wat wél geleverd kan worden** (topic-niveau, op basis van de casus): een gestructureerde analyse van welke casusgegevens in welk vak terechtkomen — zie volgende blok. 🔗
+> > 
+> > Mapping van de casus op de relevante vakken (Vak I/A én aanpalende vakken die de stagiair moet kennen om de cascade te begrijpen):
+> > 
+> > - **Vak I/A — Belastbare reserves** (uiteenzetting van de winst, bewerking 1):
+> >   - *Gestort kapitaal* (informatief, voor toets verminderd basistarief): € 1.250.000 (1985) + € 750.000 (1989) = **€ 2.000.000 gestort kapitaal**. De € 500.000 belaste reserve die in 1996 in het kapitaal werd opgenomen is **géén bijkomend gestort kapitaal** — incorporatie van reserves in kapitaal verandert de fiscale kwalificatie niet (blijft 'belaste reserve in kapitaal'). 🔗
+> >   - *Belastbare reserve uit verkoop aandelen D*: gerealiseerde meerwaarde € 2.500 op aandelen D (Belgische nv) is in principe belastbaar (geen DBI-vrijstelling-voorwaarden voldaan: 10 aandelen op 1.000 = 1 %-participatie < 10 % én aanschaffingswaarde € 7.500 << drempel art. 192 + art. 202 § 2 WIB92 — permanentievoorwaarde en participatievoorwaarde niet onderzocht in casus). De € 2.500 wordt opgenomen in de belastbare gereserveerde winst. ❓
+> >   - *Geboekte waardevermindering op grond (registratierechten + notariskosten geactiveerd dan afgewaardeerd)*: deze waardevermindering op grond is fiscaal **niet aftrekbaar** (waardeverminderingen op niet-afschrijfbare activa worden in de praktijk verworpen tenzij voorwaarden art. 48 WIB92 voldaan) → verworpen uitgave of belaste reserve. ❓
+> > 
+> > - **Vak II — Verworpen uitgaven** (bewerking 2):
+> >   - *Notariskosten gebouw onmiddellijk in kosten*: aanvaard als beroepskost (geen VU). 🔗
+> >   - *Afschrijving octrooi € 20.000*: lineair over 5 jaar op € 100.000 (volledige jaar 2009 — fiscaal moet pro rata temporis vanaf 15/02/2009: € 100.000 / 5 × 10,5/12 ≈ € 17.500 fiscaal aanvaard → **overdreven afschrijving € 2.500 = VU**). 🔗
+> > 
+> > - **Vak IV/V — Aftrekken niet-belastbare bestanddelen + DBI-aftrek** (bewerkingen 4-5):
+> >   - *Dividend aandelen A* (Belgische nv, 400/3.000 = 13,33 % participatie): € 875 bruto → komt in aanmerking voor **DBI-aftrek** (95 % vrijgesteld onder AJ 2010-regime; 100 % sinds AJ 2019) indien participatie ≥ 10 % of aanschafwaarde ≥ € 1.200.000 én éénjaars-houderschap. Participatie 13,33 % ✓; aanschafwaarde € 36.000 (< drempel maar participatie-voorwaarde primeert). 🔗
+> >   - *Dividend aandelen B* (Duitse A.G., 100/900 = 11,11 % participatie): € 1.875 bruto → DBI mogelijk indien voldaan aan taxatievoorwaarde (Duitse vennootschap onderworpen aan vergelijkbare belasting → ja voor Duitsland). 🔗
+> >   - *Obligatie-rente Deense vennootschap C*: interest, géén DBI; belastbaar als ontvangen, eventueel met aanrekening buitenlandse RV (FBB — forfaitair gedeelte buitenlandse belasting, indien voorwaarden voldaan). 🔗
+> > 
+> > - **Toetsing verminderd basistarief art. 215 WIB92** (vraag-context):
+> >   - *Aandelen-bezit-test (50 %-regel)*: beleggingswaarde aandelen A+B = € 36.000 + € 37.500 = € 73.500. Gestort kapitaal = € 2.000.000. 50 % × € 2.000.000 = € 1.000.000. € 73.500 << € 1.000.000 → **test voldaan, verminderd tarief blijft toepasbaar**. 🔗
+> >   - Casus bevestigt expliciet dat nv 'XYZ' aan voorwaarden art. 15 § 1 W.Venn. (kleine vennootschap) voldoet → kleine-vennootschap-statuut OK. 📖
+> > 
+> > Voor AJ 2010 was het tarief verminderd basistarief (art. 215 lid 2 WIB92) gestructureerd in **drie schijven** (0–25.000: 24,25 %; 25.000–90.000: 31 %; 90.000–322.500: 34,5 %) bovenop een aanvullende crisisbijdrage van 3 % — wezenlijk anders dan het huidige éénschijf-tarief van 20 % op € 0–100.000 (sinds AJ 2021, hervorming VenB 2017). Bij AJ 2010-vragen mag de stagiair niet automatisch de huidige tarieven gebruiken. 📖
+> > 
+> > **Vak I/A aangifte VenB — Belastbare reserves**: bewerking 1 van de 8-bewerkingen-cascade (art. 74-79 KB/WIB92). Mutatie eindtoestand minus begintoestand belaste reserves geeft de belastbare gereserveerde winst (code 1080 PN AJ 2025 — gelijkwaardige rubriek in formulier 275.1 AJ 2010). **Verminderd basistarief** kleine vennootschap: art. 215 lid 2 WIB92 (AJ 2010-versie via Wet 24-12-2002: schijven 24,25 %/31 %/34,5 % tot € 322.500; voorwaarden art. 215 lid 3 — geen 50 %-aandelenbezit, dividendbeperking, bezoldigingsminimum). **Kleine-vennootschap-toets**: art. 15 § 1 W.Venn. (AJ 2010 — vóór WVV-hervorming; nu art. 1:24 §1-§6 WVV). **DBI-aftrek**: art. 202-204 WIB92 (95 %-vrijstelling AJ 2010). 🔗  
+> > *Bron: art. 74-79 KB/WIB92; art. 215, 202-204 WIB92; art. 15 § 1 W.Venn. (AJ 2010)*
+
+<a id="2010-2-vr24"></a>
+
+> [!topic]- Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen
+> *🆕 Examen 2010-2 (hybride bron) · PO 2.3*
+>
+> Dit segment toont op pagina 15 de aanhef van 'Vraag 2' (... / 6 punten) van een vennootschapsbelastingcasus. De casus zelf (vraag 1) bevindt zich op voorgaande pagina's en bevat onder meer: een lineair over 5 jaar afgeschreven octrooi met geboekte afschrijving € 200.000,00; financiële vaste activa (400 aandelen A Belgische NV en 100 aandelen B Duitse AG) en een geldbelegging in een obligatielening uitgegeven door een Deense vennootschap C (€ 12.500,00); in 2009 verkoop van 10 aandelen D (Belgische NV) met boekwaarde € 7.500,00 voor € 10.000,00 (kost van verkoop € 48,00 aan de financiële instelling); een samenstelling van het maatschappelijk kapitaal (aandelen A: 3.000; B: 900; C: 5.000; D: 1.000); financiële opbrengsten met dividend aandelen A € 875,00 en aandelen B € 1.875,00; en een meerwaarde gerealiseerd bij verkoop van aandelen D van € 2.500,00. Het volledige feitenrelaas van vraag 1 is in dit segment niet beschikbaar.
+> 
+> Vraag 2 (6 punten): 'Vermeld en verduidelijk met een woordje uitleg en overeenkomstige cijfers welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'
+>
+> _Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen_
+
+<a id="2010-2-vr25"></a>
+
+> [!topic]- Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag vennootschapsbelasting (octrooi-aftrek, DBI, meerwaarden aandelen)
+> *🆕 Examen 2010-2 (hybride bron) · PO 2.3*
+>
+> Parser-artefact: het segment voor vr25 omvat alleen het staartstuk van 'vraag 2' op pagina 15 van de PDF. De voorafgaande context (de cijfergegevens uit 'vraag 1' waarnaar verwezen wordt — octrooi lineair over 5 jaar afgeschreven (€ 200.000); financiële vaste activa: 400 aandelen A (Belgische nv) à € 90 = € 36.000 en 100 aandelen B (Duitse AG) à € 375 = € 37.500 + obligatielening Deense vennootschap C € 12.500; verkoop in 2009 van 10 aandelen D (Belgische NV) met boekwaarde € 7.500 voor € 10.000, en verkoopkost € 48; samenstelling maatschappelijk kapitaal A 3.000 / B 900 / C 5.000 / D 1.000 aandelen; financiële opbrengsten: dividenden A € 875 en B € 1.875; meerwaarde op verkoop aandelen D € 2.500) ontbreekt in dit segment maar is zichtbaar op de bovenste helft van pagina 15. De geïsoleerde tekst betreft de vraagstelling 'Vermeld en verduidelijk met een woordje uitleg en in overeenkomstige cijfers welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'
+>
+> _Identificeer en verduidelijk met cijfers welke gegevens uit de casus (vraag 1) de belastbare basis vennootschapsbelasting bijkomend zullen verminderen via aftrekbare bestanddelen in de bewerkingen (octrooi-aftrek, DBI-aftrek, vrijgestelde meerwaarden op aandelen); aftrekvoorwaarden mogen vervuld worden verondersteld._
+
+<a id="2010-2-vr26"></a>
+
+> [!question]- Verminderd basistarief vennootschapsbelasting — toetsing dividendvoorwaarde nv 'ZER'
+> *🆕 Examen 2010-2 · PO 2.3*
+>
+> De nv 'ZER' heeft op 31/12/2008 een maatschappelijk kapitaal van € 1 000 000,00.
+> 
+> In de loop van 2009 wordt een kapitaalverhoging doorgevoerd: bij de aandeelhouders wordt € 250 000,00 vers kapitaal opgehaald.
+> 
+> Bedrijfsleiders A en B hebben beiden sinds 2007 een vordering van € 750 000,00, telkens tegen 6 %, wat beneden de marktrente blijft.
+> 
+> Bij de algemene vergadering wordt beslist een dividend van € 50 000,00 uit te keren.
+> 
+> **Samenstelling van het kapitaal**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | gestort kapitaal — op 31/12/2008 | 500.000 |
+> | gestort kapitaal — op 31/12/2009 | 750.000 |
+> | belastbare reserves in kapitaal — op 31/12/2008 | 300.000 |
+> | belastbare reserves in kapitaal — op 31/12/2009 | 300.000 |
+> | belastingvrije reserves in kapitaal — op 31/12/2008 | 200.000 |
+> | belastingvrije reserves in kapitaal — op 31/12/2009 | 200.000 |
+> 
+> **Overige belastbare reserves**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | belastbare voorziening — op 31/12/2008 | 50.000 |
+> | belastbare voorziening — op 31/12/2009 | 500.000 |
+> | wettelijke reserve — op 31/12/2008 | 90.000 |
+> | wettelijke reserve — op 31/12/2009 | 95.000 |
+> | overgedragen verlies — op 31/12/2008 | -175.000 |
+> | overgedragen verlies — op 31/12/2009 | -182.000 |
+>
+> Komt de vennootschap nv 'ZER' op basis van haar dividendpolitiek in aanmerking voor het verminderd basistarief? Antwoord niet alleen met ja of neen, maar geef ook bijkomende uitleg met cijfergegevens ter staving.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja** — op basis van haar dividendpolitiek komt nv 'ZER' in aanmerking voor het verminderd (opklimmend) basistarief: het uitgekeerd dividend van **€ 50.000** blijft onder de grens van **13 % × € 500.000 (gestort kapitaal bij begin van het belastbaar tijdperk) = € 65.000**. De dividend-uitsluitingsgrond van art. 215, derde lid, 3° WIB92 speelt dus niet. 🔗
+> > 
+> > | Toets dividendvoorwaarde art. 215, derde lid, 3° WIB92 | Bedrag |
+> > |---|---:|
+> > | Gestort kapitaal bij **begin** belastbaar tijdperk (31/12/2008) | € 500.000,00 |
+> > | Maximum-dividend = 13 % × gestort kapitaal | **€ 65.000,00** |
+> > | Werkelijk uitgekeerd dividend (AV-beslissing boekjaar 2009) | € 50.000,00 |
+> > | Verhouding dividend / gestort kapitaal | 10,00 % |
+> > | Grens 13 % overschreden? | **Neen** | 🔗
+> > 
+> > **Stap 1 — Welk gestort kapitaal telt?** Voor de 13 %-toets geldt het gestort kapitaal **bij het begin** van het belastbaar tijdperk, niet het eindbedrag. Voor aanslagjaar 2010 (boekjaar 2009) is dat het gestort kapitaal op 31/12/2008 = **€ 500.000**. De kapitaalverhoging van € 250.000 in 2009 brengt het gestort kapitaal eind 2009 op € 750.000, maar telt voor déze toets nog niet mee. 🔗
+> > 
+> > **Stap 2 — Bereken de grens.** 13 % × € 500.000 = **€ 65.000**. 🔗
+> > 
+> > **Stap 3 — Vergelijk.** Dividend € 50.000 < grens € 65.000 → dividendvoorwaarde **vervuld**. Procentueel: € 50.000 / € 500.000 = **10 %**, ruim onder de drempel van 13 %. 🔗
+> > 
+> > De vraag toetst expliciet enkel de **dividendpolitiek-voorwaarde**. Voor de effectieve toekenning van het verminderd opklimmend tarief moet de vennootschap ook voldoen aan de andere uitsluitingsgronden van art. 215, derde lid WIB92 — onder meer de **bezoldigingsvoorwaarde** voor minstens één bedrijfsleider (toen € 36.000, of minstens gelijk aan het belastbaar inkomen indien dat lager is), de **50 %-aandelenbezit-test**, en het verbod dat de aandelen voor meer dan 50 % in handen zijn van andere vennootschappen. De casusgegevens over de bedrijfsleidersvorderingen tegen 6 % (mogelijk herkwalificatie tot interesten i.p.v. bezoldiging onder art. 18 WIB92) en de samenstelling van het kapitaal zijn relevant voor die andere voorwaarden, maar vallen buiten het bestek van deze deelvraag. 🤖
+> > 
+> > **Niet** het gestort kapitaal op het einde van het belastbaar tijdperk (€ 750.000) gebruiken. Wie dat doet, krijgt een grens van € 97.500 — wat het antwoord hier niet verandert (€ 50.000 blijft onder die grens), maar de redenering is foutief en in randgevallen leidt het tot het verkeerde besluit. De wetstekst zegt uitdrukkelijk "bij het begin van het belastbaar tijdperk". 📖
+> > 
+> > **Art. 215, derde lid, 3° WIB92** — uitsluitingsgrond voor het verminderd (opklimmend) basistarief vennootschapsbelasting: vennootschappen die een dividend uitkeren dat hoger is dan **13 % van het gestort kapitaal bij het begin van het belastbaar tijdperk** zijn uitgesloten van het verminderd tarief. Bevestigd door de verwijzing in art. 537 WIB92 ("de grens als bedoeld in artikel 215, derde lid, 3°"). Voor aanslagjaar 2010 gold het toenmalige opklimmend tarief (24,25 % / 31 % / 34,5 % volgens de schijven van art. 215 WIB92 zoals gewijzigd door art. 12 van de wet van 24 december 2002); de hervorming van 25 december 2017 verving dit door het huidige 20 %-tarief op de eerste schijf van € 100.000, maar de 13 %-dividendvoorwaarde van het derde lid bleef behouden. 📖  
+> > *Bron: Art. 215, derde lid, 3° WIB92 (juncto art. 537 WIB92; historische tariefschijven: art. 12 wet 24 december 2002)*
 
 <a id="2008-bibf-vrG1"></a>
 

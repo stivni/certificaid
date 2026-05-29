@@ -70,6 +70,13 @@ TABEL_MIN_KOLOMMEN = 2
 TABEL_MAX_LEGE_FRACTIE = 0.30  # > 30% lege cellen → verwerpen
 
 EXAMEN_CONFIGS_V2: dict[str, dict[str, Any]] = {
+    "2010-2": {
+        "jaar": 2010,
+        "sessie": 2,
+        "pdf_bestand": "2010-2.pdf",
+        "totaal_punten": 250,
+        "parser": "itaa_standaard",
+    },
     "2013-1": {
         "jaar": 2013,
         "sessie": 1,

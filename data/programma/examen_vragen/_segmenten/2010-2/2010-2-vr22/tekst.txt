@@ -1,0 +1,63 @@
+Vraag 3 … / 5 punten
+a) Het huwelijksquotiënt wordt toegekend aan de echtgenoot die geen
+beroepsinkomsten heeft. Dit stelsel wordt enkel op echtgenoten toegepast, en mag
+niet worden toegepast op wettelijk samenwonenden.
+
+|  |  |
+|---|---|
+|  | Waar |
+|  | Niet waar |
+
+messages.downloaded_by
+
+14
+b) In het buitenland betaalde persoonlijke sociale bijdragen zijn aftrekbaar als ze
+werden betaald in het kader van een buitenlandse sociale verzekering waaraan de
+belastingplichtige, wegens de in het buitenland verrichte beroepswerkzaamheid,
+verplicht onderworpen is.
+
+|  |  |
+|---|---|
+|  | Waar |
+|  | Niet waar |
+
+c) Ecocheques zijn belastbaar ten name van de werknemer en als beroepskosten
+aftrekbaar bij de werkgever.
+
+|  |  |
+|---|---|
+|  | Waar |
+|  | Niet waar |
+
+d) Sommige uitgaven die recht geven op belastingverminderingen, kunnen worden
+omgezet in een belastingkrediet.
+
+|  |  |
+|---|---|
+|  | Waar |
+|  | Niet waar |
+
+| VENNOOTSCHAPSBELASTING |  | 20 PUNTEN |
+|---|---|---|
+|  |  |  |
+
+=== subvraag a) ===
+Het huwelijksquotiënt wordt toegekend aan de echtgenoot die geen
+beroepsinkomsten heeft. Dit stelsel wordt enkel op echtgenoten toegepast, en mag
+niet worden toegepast op wettelijk samenwonenden.
+messages.downloaded_by
+14
+
+=== subvraag b) ===
+In het buitenland betaalde persoonlijke sociale bijdragen zijn aftrekbaar als ze
+werden betaald in het kader van een buitenlandse sociale verzekering waaraan de
+belastingplichtige, wegens de in het buitenland verrichte beroepswerkzaamheid,
+verplicht onderworpen is.
+
+=== subvraag c) ===
+Ecocheques zijn belastbaar ten name van de werknemer en als beroepskosten
+aftrekbaar bij de werkgever.
+
+=== subvraag d) ===
+Sommige uitgaven die recht geven op belastingverminderingen, kunnen worden
+omgezet in een belastingkrediet.

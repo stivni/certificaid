@@ -1,0 +1,60 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr23",
+  "antwoord_datum": "2026-05-29T19:45:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Topic-antwoord: Vak I/A van de aangifte VenB AJ 2010 is het vak **Uiteenzetting van de winst — A. Belastbare reserves**, waarin de mutatie tussen begintoestand en eindtoestand van de belaste reserves wordt opgegeven (eindcode 1080 PN, die als bewerking 1 in de winstcascade doorvloeit). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Waarom topic_only",
+          "tekst": "Een volledig ingevuld Vak I/A vereist twee elementen die in de casus ontbreken én bronmateriaal dat in deze kennisbank niet (volledig) aanwezig is voor AJ 2010:\n\n1. **Begintoestand belaste reserves**: de casus geeft alleen kapitaal-mutaties (1985: € 1.250.000; 1989: € 750.000 gestort; 1996: € 500.000 belaste reserve → kapitaal) maar geen openingsbalans-totaal van wettelijke/beschikbare/onbeschikbare reserves en overgedragen resultaat per 01/01/2009. Zonder die begintoestand kan geen volledige tabel begin/eind belaste reserves worden opgesteld. ❓\n2. **Aangifte-template AJ 2010 zelf**: de exacte code-nummering en rubrieken van Vak I/A voor AJ 2010 (formulier 275.1 versie 2010) staan niet als gestructureerde bron in de kennisbank — enkel AJ 2025 (codes 1040–1080 PN). Tussen AJ 2010 en AJ 2025 zijn de codes inhoudelijk vergelijkbaar maar niet identiek. 🤖\n\n**Wat wél geleverd kan worden** (topic-niveau, op basis van de casus): een gestructureerde analyse van welke casusgegevens in welk vak terechtkomen — zie volgende blok. 🔗",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "kop": "Waar gaan de casuselementen heen in de aangifte VenB AJ 2010",
+          "tekst": "Mapping van de casus op de relevante vakken (Vak I/A én aanpalende vakken die de stagiair moet kennen om de cascade te begrijpen):\n\n- **Vak I/A — Belastbare reserves** (uiteenzetting van de winst, bewerking 1):\n  - *Gestort kapitaal* (informatief, voor toets verminderd basistarief): € 1.250.000 (1985) + € 750.000 (1989) = **€ 2.000.000 gestort kapitaal**. De € 500.000 belaste reserve die in 1996 in het kapitaal werd opgenomen is **géén bijkomend gestort kapitaal** — incorporatie van reserves in kapitaal verandert de fiscale kwalificatie niet (blijft 'belaste reserve in kapitaal'). 🔗\n  - *Belastbare reserve uit verkoop aandelen D*: gerealiseerde meerwaarde € 2.500 op aandelen D (Belgische nv) is in principe belastbaar (geen DBI-vrijstelling-voorwaarden voldaan: 10 aandelen op 1.000 = 1 %-participatie < 10 % én aanschaffingswaarde € 7.500 << drempel art. 192 + art. 202 § 2 WIB92 — permanentievoorwaarde en participatievoorwaarde niet onderzocht in casus). De € 2.500 wordt opgenomen in de belastbare gereserveerde winst. ❓\n  - *Geboekte waardevermindering op grond (registratierechten + notariskosten geactiveerd dan afgewaardeerd)*: deze waardevermindering op grond is fiscaal **niet aftrekbaar** (waardeverminderingen op niet-afschrijfbare activa worden in de praktijk verworpen tenzij voorwaarden art. 48 WIB92 voldaan) → verworpen uitgave of belaste reserve. ❓\n\n- **Vak II — Verworpen uitgaven** (bewerking 2):\n  - *Notariskosten gebouw onmiddellijk in kosten*: aanvaard als beroepskost (geen VU). 🔗\n  - *Afschrijving octrooi € 20.000*: lineair over 5 jaar op € 100.000 (volledige jaar 2009 — fiscaal moet pro rata temporis vanaf 15/02/2009: € 100.000 / 5 × 10,5/12 ≈ € 17.500 fiscaal aanvaard → **overdreven afschrijving € 2.500 = VU**). 🔗\n\n- **Vak IV/V — Aftrekken niet-belastbare bestanddelen + DBI-aftrek** (bewerkingen 4-5):\n  - *Dividend aandelen A* (Belgische nv, 400/3.000 = 13,33 % participatie): € 875 bruto → komt in aanmerking voor **DBI-aftrek** (95 % vrijgesteld onder AJ 2010-regime; 100 % sinds AJ 2019) indien participatie ≥ 10 % of aanschafwaarde ≥ € 1.200.000 én éénjaars-houderschap. Participatie 13,33 % ✓; aanschafwaarde € 36.000 (< drempel maar participatie-voorwaarde primeert). 🔗\n  - *Dividend aandelen B* (Duitse A.G., 100/900 = 11,11 % participatie): € 1.875 bruto → DBI mogelijk indien voldaan aan taxatievoorwaarde (Duitse vennootschap onderworpen aan vergelijkbare belasting → ja voor Duitsland). 🔗\n  - *Obligatie-rente Deense vennootschap C*: interest, géén DBI; belastbaar als ontvangen, eventueel met aanrekening buitenlandse RV (FBB — forfaitair gedeelte buitenlandse belasting, indien voorwaarden voldaan). 🔗\n\n- **Toetsing verminderd basistarief art. 215 WIB92** (vraag-context):\n  - *Aandelen-bezit-test (50 %-regel)*: beleggingswaarde aandelen A+B = € 36.000 + € 37.500 = € 73.500. Gestort kapitaal = € 2.000.000. 50 % × € 2.000.000 = € 1.000.000. € 73.500 << € 1.000.000 → **test voldaan, verminderd tarief blijft toepasbaar**. 🔗\n  - Casus bevestigt expliciet dat nv 'XYZ' aan voorwaarden art. 15 § 1 W.Venn. (kleine vennootschap) voldoet → kleine-vennootschap-statuut OK. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-tarief-voorafbetalingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor AJ 2010 was het tarief verminderd basistarief (art. 215 lid 2 WIB92) gestructureerd in **drie schijven** (0–25.000: 24,25 %; 25.000–90.000: 31 %; 90.000–322.500: 34,5 %) bovenop een aanvullende crisisbijdrage van 3 % — wezenlijk anders dan het huidige éénschijf-tarief van 20 % op € 0–100.000 (sinds AJ 2021, hervorming VenB 2017). Bij AJ 2010-vragen mag de stagiair niet automatisch de huidige tarieven gebruiken. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Vak I/A aangifte VenB — Belastbare reserves**: bewerking 1 van de 8-bewerkingen-cascade (art. 74-79 KB/WIB92). Mutatie eindtoestand minus begintoestand belaste reserves geeft de belastbare gereserveerde winst (code 1080 PN AJ 2025 — gelijkwaardige rubriek in formulier 275.1 AJ 2010). **Verminderd basistarief** kleine vennootschap: art. 215 lid 2 WIB92 (AJ 2010-versie via Wet 24-12-2002: schijven 24,25 %/31 %/34,5 % tot € 322.500; voorwaarden art. 215 lid 3 — geen 50 %-aandelenbezit, dividendbeperking, bezoldigingsminimum). **Kleine-vennootschap-toets**: art. 15 § 1 W.Venn. (AJ 2010 — vóór WVV-hervorming; nu art. 1:24 §1-§6 WVV). **DBI-aftrek**: art. 202-204 WIB92 (95 %-vrijstelling AJ 2010). 🔗",
+          "wetsref": "art. 74-79 KB/WIB92; art. 215, 202-204 WIB92; art. 15 § 1 W.Venn. (AJ 2010)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-tarief-voorafbetalingen.md",
+            "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

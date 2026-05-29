@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr42",
+  "interpretatie_datum": "2026-05-29T19:34:46Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen",
+  "programmaonderdeel_ids": ["3.0", "4.0"],
+  "themas": [
+    "aanvaarding van opdracht",
+    "bijzondere mandaten",
+    "omvorming van vennootschap",
+    "vereffening",
+    "interne accountant",
+    "individuele onderzoeksbevoegdheid vennoten",
+    "onafhankelijkheid",
+    "onverenigbaarheden"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Kan u in de gegeven situaties volgende opdrachten aanvaarden? Per situatie: antwoord ja of neen en licht kort toe waarom u deze opdracht wel of niet zal aanvaarden."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Op 29 december 2010 legt men u een staat van activa en passiva per 30/09/2010 voor met de vraag om hierover een accountantsverslag op te maken met het oog op een omvorming van een bvba in een nv. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "U bent werkzaam als bediende in een bedrijf en bent ingeschreven op de lijst van de interne accountants. U wordt gecontacteerd door een aandeelhouder van een andere onderneming om een opdracht te aanvaarden in het kader van de individuele onderzoeks- en controlebevoegdheid van vennoten. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Uw echtgenote wenst haar vennootschap te vereffenen en vraagt u om een accountantsverslag op te stellen in het kader van deze vereffening en de staat van activa en passiva die door haar werd opgemaakt. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Drie deelvragen volgens letter-labels a/b/c in de PDF. Elke deelvraag combineert een ja/neen-beslissing met een vereiste motivering — geïntegreerd in één 'open'-vraagtype met motivatie_verwacht=true (de ja/neen is een onderdeel van het open antwoord, niet een afzonderlijke MC). De parser-artefact 'messages.downloaded_by' aan het einde van tekst.txt en de gedupliceerde '=== subvraag === '-blokken (pdfplumber-artefact) genegeerd. PNG bevestigt drie ja/neen-vakken zonder verdere visuele structuur.",
+  "kwaliteits_flags": ["ocr_artefact", "tabel_in_pdf_zichtbaar"]
+}

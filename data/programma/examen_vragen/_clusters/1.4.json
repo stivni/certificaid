@@ -1,18 +1,24 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.4",
-  "gegenereerd_op": "2026-05-26T10:20:45+00:00",
+  "gegenereerd_op": "2026-05-29T19:44:54+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 6,
+  "threshold_cosine": 0.85,
+  "n_vragen": 7,
   "n_clusters": 2,
   "n_singletons": 2,
   "clusters": [
     {
       "cluster_id": "1.4-c1",
       "voorlopige_label": "Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening",
-      "n_voorkomens": 2,
+      "n_voorkomens": 3,
       "voorkomens": [
+        {
+          "examen_id": "2010-2",
+          "vraag_id": "2010-2-vr6",
+          "vraag_onderwerp": "Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr6.json"
+        },
         {
           "examen_id": "2013-1",
           "vraag_id": "2013-1-vr7",
@@ -28,14 +34,21 @@
       ],
       "interne_scores": [
         {
+          "van": "2010-2-vr6",
+          "naar": "2013-1-vr7",
+          "cosine": 0.9897
+        },
+        {
           "van": "2013-1-vr7",
           "naar": "2014-1-vr7",
           "cosine": 0.9004
+        },
+        {
+          "van": "2010-2-vr6",
+          "naar": "2014-1-vr7",
+          "cosine": 0.8812
         }
-      ],
-      "verdict": "echt_duplicaat",
-      "actie": "merge_one_antwoord",
-      "motivering": "Identieke kennisvraag: 'Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum geconsolideerde jaarrekening?' Eén feitelijk antwoord dekt beide."
+      ]
     },
     {
       "cluster_id": "1.4-c2",
@@ -61,10 +74,7 @@
           "naar": "2015-1-vr11",
           "cosine": 0.9812
         }
-      ],
-      "verdict": "echt_duplicaat",
-      "actie": "merge_one_antwoord",
-      "motivering": "Identieke deelvragen: 'Wat is een positief consolidatieverschil?' + 'Geef de vier voornaamste oorzaken'. Tekstueel woord-voor-woord gelijk."
+      ]
     }
   ],
   "borderline_paren": [],
@@ -81,6 +91,5 @@
       "vraag_onderwerp": "Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr8.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

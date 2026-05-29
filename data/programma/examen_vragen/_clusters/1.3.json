@@ -1,60 +1,66 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.3",
-  "gegenereerd_op": "2026-05-26T10:20:44+00:00",
+  "gegenereerd_op": "2026-05-29T19:44:53+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 17,
+  "threshold_cosine": 0.85,
+  "n_vragen": 15,
   "n_clusters": 1,
-  "n_singletons": 14,
+  "n_singletons": 13,
   "clusters": [
     {
       "cluster_id": "1.3-c1",
-      "voorlopige_label": "Berekening financiële ratio's op basis van jaarrekening",
-      "n_voorkomens": 3,
+      "voorlopige_label": "Berekening van financiële ratio's op basis van de jaarrekening",
+      "n_voorkomens": 2,
       "voorkomens": [
+        {
+          "examen_id": "2010-2",
+          "vraag_id": "2010-2-vr4",
+          "vraag_onderwerp": "Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr4.json"
+        },
         {
           "examen_id": "2013-1",
           "vraag_id": "2013-1-vr4",
           "vraag_onderwerp": "Berekening van financiële ratio's op basis van de jaarrekening",
           "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr4.json"
-        },
-        {
-          "examen_id": "2014-1",
-          "vraag_id": "2014-1-vr5",
-          "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr5.json"
-        },
-        {
-          "examen_id": "2015-1",
-          "vraag_id": "2015-1-vr8",
-          "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
-          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr8.json"
         }
       ],
       "interne_scores": [
         {
-          "van": "2013-1-vr4",
-          "naar": "2015-1-vr8",
-          "cosine": 0.8468
-        },
-        {
-          "van": "2013-1-vr4",
-          "naar": "2014-1-vr5",
-          "cosine": 0.846
-        },
-        {
-          "van": "2014-1-vr5",
-          "naar": "2015-1-vr8",
-          "cosine": 0.8226
+          "van": "2010-2-vr4",
+          "naar": "2013-1-vr4",
+          "cosine": 0.8572
         }
-      ],
-      "verdict": "varianten",
-      "actie": "behoud_apart_met_label",
-      "motivering": "Alle drie vragen 'bereken financiële ratio's op basis van jaarrekening', maar elk examen kiest een andere subset ratio's (nettobedrijfskapitaal, brutoverkoopmarge, toegevoegde waarde, rentabiliteit, liquiditeit, voorraadrotatie). Casus-type is gedeeld, formules per ratio overlappen, maar geen identieke vraag — één gedeeld antwoord moet alle ratio-formules dekken en per examen verwijzen welke gevraagd worden."
+      ]
     }
   ],
   "borderline_paren": [
+    {
+      "van": "2013-1-vr4",
+      "naar": "2015-1-vr8",
+      "cosine": 0.8468
+    },
+    {
+      "van": "2013-1-vr4",
+      "naar": "2014-1-vr5",
+      "cosine": 0.846
+    },
+    {
+      "van": "2010-2-vr4",
+      "naar": "2014-1-vr5",
+      "cosine": 0.8276
+    },
+    {
+      "van": "2014-1-vr5",
+      "naar": "2015-1-vr8",
+      "cosine": 0.8226
+    },
+    {
+      "van": "2010-2-vr4",
+      "naar": "2015-1-vr8",
+      "cosine": 0.8071
+    },
     {
       "van": "2013-1-vr4",
       "naar": "2013-2-vr5",
@@ -66,12 +72,23 @@
       "cosine": 0.7944
     },
     {
+      "van": "2010-2-vr4",
+      "naar": "2013-2-vr5",
+      "cosine": 0.7904
+    },
+    {
       "van": "2013-2-vr5",
       "naar": "2014-1-vr5",
       "cosine": 0.7743
     }
   ],
   "singletons": [
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr5",
+      "vraag_onderwerp": "Trage voorraadrotatie — begripsomschrijving in het kader van financiële analyse van de jaarrekening",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr5.json"
+    },
     {
       "examen_id": "2013-2",
       "vraag_id": "2013-2-vr5",
@@ -83,6 +100,12 @@
       "vraag_id": "2013-2-vr7",
       "vraag_onderwerp": "Liquiditeitsratio's: betekenis en onderscheid ruime vs. enge zin",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr7.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr5",
+      "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr5.json"
     },
     {
       "examen_id": "2014-1",
@@ -98,64 +121,45 @@
     },
     {
       "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr8",
+      "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr8.json"
+    },
+    {
+      "examen_id": "2015-1",
       "vraag_id": "2015-1-vr9",
       "vraag_onderwerp": "Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr9.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr2B",
-      "vraag_onderwerp": "Kennisverwerving over de onderneming na acceptatie van de controleopdracht",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2B.json"
+      "vraag_id": "2024-1-vr10A",
+      "vraag_onderwerp": "Stellingen inzake financiële onafhankelijkheid",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10A.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr2C",
-      "vraag_onderwerp": "Volkomen controle volgens de revisienormen",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2C.json"
+      "vraag_id": "2024-1-vr10B",
+      "vraag_onderwerp": "Ratio's berekenen op basis van een verkort schema",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10B.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr2E",
-      "vraag_onderwerp": "Vaststelling van de materialiteitsdrempel bij een accountantsonderzoek",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2E.json"
+      "vraag_id": "2024-1-vr10C",
+      "vraag_onderwerp": "Rangschikking van rubrieken op het Passief van de Balans",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10C.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr3A",
-      "vraag_onderwerp": "Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3A.json"
+      "vraag_id": "2024-1-vr10D",
+      "vraag_onderwerp": "Berekening van het eigen vermogen in het kort NBB-model voor kapitaalvennootschappen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10D.json"
     },
     {
       "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr3B",
-      "vraag_onderwerp": "Hoofddoelstelling van interne controle in een KMO",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3B.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr3C",
-      "vraag_onderwerp": "Risicoclassificatie volgens het COSO-model",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3C.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr3D",
-      "vraag_onderwerp": "Doelstellingen van interne controle in de verkoopcyclus",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr3D.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr2A",
-      "vraag_onderwerp": "Onafhankelijkheid bij een controleopdracht: stellingen juist of fout",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2A.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr2D",
-      "vraag_onderwerp": "Algemene stellingen externe controle: juist of fout",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2D.json"
+      "vraag_id": "2024-1-vr10E",
+      "vraag_onderwerp": "Effect van hogere afschrijving op de bruto verkoopmarge bij een verlieslatende onderneming",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr10E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

@@ -1,14 +1,20 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.6",
-  "gegenereerd_op": "2026-05-26T10:21:16+00:00",
+  "gegenereerd_op": "2026-05-29T19:46:03+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 11,
+  "threshold_cosine": 0.85,
+  "n_vragen": 13,
   "n_clusters": 0,
-  "n_singletons": 11,
+  "n_singletons": 13,
   "clusters": [],
-  "borderline_paren": [],
+  "borderline_paren": [
+    {
+      "van": "2010-2-vr30",
+      "naar": "2014-1-vr36",
+      "cosine": 0.7923
+    }
+  ],
   "singletons": [
     {
       "examen_id": "2003-bibf",
@@ -21,6 +27,18 @@
       "vraag_id": "2008-bibf-vrH3",
       "vraag_onderwerp": "Schenking van effecten aan dochter: mogelijkheden, schenkingsrechten en risico's",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrH3.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr30",
+      "vraag_onderwerp": "Hoedanigheid van begunstigden bij testament en aangifteplicht voor de aangifte van nalatenschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr30.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr31",
+      "vraag_onderwerp": "Vermindering registratierechten bij aankoop woning in Brussels Hoofdstedelijk Gewest (abattement)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr31.json"
     },
     {
       "examen_id": "2013-1",
@@ -76,6 +94,5 @@
       "vraag_onderwerp": "Registratierechten blote eigendom en vruchtgebruik: belastbare grondslag",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr48.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

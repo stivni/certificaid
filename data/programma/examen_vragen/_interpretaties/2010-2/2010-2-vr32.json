@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr32",
+  "interpretatie_datum": "2026-05-29T19:34:05Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Internationale dubbele belasting — juridische versus economische dubbele belasting",
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
+  "themas": [
+    "internationale dubbele belasting",
+    "juridische dubbele belasting",
+    "economische dubbele belasting",
+    "royalty's",
+    "bronheffing",
+    "verrekenprijzen",
+    "transfer pricing",
+    "dubbelbelastingverdrag"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Onder de hoofding \"BEGINSELEN VAN EUROPEES EN INTERNATIONAAL FISCAAL RECHT\" (10 punten) — Vraag 1 (/ 4 punten). Beschouw de twee onderstaande gevallen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "hoofdvraag",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Geef aan of in elk van de voormelde gevallen sprake is van internationale dubbele belasting en geef, desgevallend, aan of het juridische dan wel economische dubbele belasting betreft en leg uit wat die begrippen betekenen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geval a) Een Belgische vennootschap verkrijgt royalty's die haar worden toegekend en betaald door een vennootschap die gevestigd en bedrijvig is in Mexico. Die royalty's zijn in Mexico onderworpen aan een inhouding aan de bron die door de schuldenaar van de royalty's niet ten laste wordt genomen. Het tarief van die inhouding aan de bron wordt in toepassing van de tussen België en Mexico gesloten overeenkomst tot het vermijden van dubbele belasting verminderd, maar er blijft een inhouding aan de bron bestaan. — Is er sprake van internationale dubbele belasting? Zo ja, juridisch of economisch?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Geval b) Een Belgische vennootschap die deel uitmaakt van een multinationale groep en aldus een dochteronderneming is van een buitenlandse vennootschap, vervaardigt in België producten die zij verkoopt aan buiten België gevestigde vennootschappen van dezelfde groep. De Belgische fiscale administratie vestigt ten name van de Belgische vennootschap een supplement in de vennootschapsbelasting, omdat de verkoopprijzen van haar producten lager zijn dan de marktprijzen. De Belgische vennootschap heeft haar producten dus verkocht tegen een te lage prijs. Men gaat ervan uit dat de vestiging van het supplement in de vennootschapsbelasting in België definitief is. Het supplement inzake de verkoopprijs van de producten kan bij de buitenlandse vennootschappen die geprofiteerd hebben van de door de Belgische vennootschap toegepaste te lage prijzen niet meer als een aftrekbare kost worden beschouwd. — Is er sprake van internationale dubbele belasting? Zo ja, juridisch of economisch?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG (pagina 20) toont de vraag-header 'BEGINSELEN VAN EUROPEES EN INTERNATIONAAL FISCAAL RECHT' met 'Vraag 1 ... / 4 punten' en de overkoepelende vraagstelling. De tekst.txt toont de overkoepelende vraagstelling bovenaan plus twee casussen (a en b) die in het pdfplumber-extract gedupliceerd verschijnen (zowel voor als na de segment-markers). De twee casussen zijn de 'voormelde gevallen' waarnaar de hoofdvraag verwijst. Hoofdvraag en de twee casussen-deelvragen worden als drie entries opgenomen: één algemene hoofdvraag (de overkoepelende vraagstelling die in de PDF visueel boven de cases staat) en één deelvraag per casus met geval-specifieke beoordeling. De tekst.txt knipt de tweede casus af op 'haar pro...' — de PNG bevestigt de volledige tekst niet (PNG eindigt na de vraagstelling-paragraaf), maar de volledige casus-teksten staan duidelijk in het bovenste blok van tekst.txt en zijn van daaruit overgenomen.",
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
+}

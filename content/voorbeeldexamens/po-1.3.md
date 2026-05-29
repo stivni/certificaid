@@ -3,12 +3,12 @@ title: PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.3 (Analyse en kritische beoordeling van de jaarrekening).
 tags: [examen, voorbeeldvragen, po-1-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
 
-**11 unieke vraag-eenheden** (waarvan 1 cluster, totaal 13 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 11 met modelantwoord
+**13 unieke vraag-eenheden** (waarvan 2 clusters, totaal 15 voorkomens) uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 13 met modelantwoord
 
 <a id="2024-1-vr10A"></a>
 
@@ -131,120 +131,153 @@ gegenereerd_op: 2026-05-28
 <a id="2014-1-vr5"></a>
 <a id="2013-1-vr4"></a>
 
-> [!question]- Berekening van financiële ratio's op basis van de jaarrekening
+> [!question]- Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
 > *Examens 2015-1 (2015-1-vr8) & 2014-1 (2014-1-vr5) & 2013-1 (2013-1-vr4) · PO 1.3*
 >
-> 🔁 **3× bevraagd** (varianten)
->
-> In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio's telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.
+> Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio's. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.
 > 
-> **Bijkomende informatie uit toelichting**
+> **Balans**
+> 
+> **Actief**
+> 
+> | OMSCHRIJVING | JAAR |
+> | --- | --- |
+> | Materiële vaste activa | 44 896 |
+> | Voorraden | 23 149 |
+> | Handelsvorderingen | 88 564 |
+> | Overige vorderingen | 8 998 |
+> | Geldbeleggingen | 79 756 |
+> | Liquide middelen | 125 851 |
+> | Overlopende rekeningen | 6 658 |
+> | TOTAAL ACTIVA | 377 872 |
+> 
+> **Passief**
+> 
+> | OMSCHRIJVING | JAAR |
+> | --- | --- |
+> | Kapitaal | 62 000 |
+> | Reserves | 99 161 |
+> | Overgedragen verlies | -15 361 |
+> | Uitgestelde belastingen | 0 |
+> | Schulden op meer dan 1 jaar | 135 000 |
+> | Leveranciers op minder dan 1 jaar | 23 743 |
+> | Schulden belastingen en sociale schulden | 36 963 |
+> | Overige schulden | 29 213 |
+> | Overlopende rekeningen | 7 153 |
+> | TOTAAL PASSIVA | 377 872 |
+> 
+> **Resultatenrekening**
 > 
 > | Label | Bedrag |
 > | --- | --- |
-> | Investeringen in materiële vaste activa tijdens het boekjaar | 451.692,38 |
-> | Kapitaalsubsidies aangerekend op de resultatenrekening | 56.498,19 |
-> | Andere exploitatiesubsidies ontvangen | 0 |
+> | Omzet | 1.510.610 |
+> | Andere bedrijfsopbrengsten | 19.154 |
+> | Verbruikte handelsgoederen | 1.150.081 |
+> | Diensten en diverse goederen | 186.050 |
+> | Bezoldigingen en sociale lasten | 148.283 |
+> | Afschrijvingen | 29.589 |
+> | Waardeverminderingen | 0 |
+> | Andere bedrijfskosten | 2.996 |
+> | Financiële opbrengsten | 1.421 |
+> | Financiële kosten | 12.429 |
+> | Uitzonderlijke opbrengsten | 0 |
+> | Onttrekking aan uitgestelde belastingen | 132 |
+> | Belastingen op het resultaat | 532 |
+> | Onttrekking aan belastingvrije reserves | 396 |
+> | Resultaat boekjaar | 1.753 |
 >
-> Bereken het nettobedrijfskapitaal voor het boekjaar.
+> Bereken het nettobedrijfskapitaal. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Nettobedrijfskapitaal (NBK) = Permanent vermogen − Vaste activa**, of equivalent **Vlottende activa − Schulden op ten hoogste 1 jaar**. 🔗 Het meet de structurele financiering die overblijft voor de exploitatiecyclus na financiering van de vaste activa met lange middelen. 🔗
+> > **Nettobedrijfskapitaal (NBK) = 235.904** (vlottende activa − schulden ≤ 1 jaar). 🔗
 > > 
-> > **Formule (top-down)**: NBK = (Eigen vermogen [10/15] + Voorzieningen en uitgestelde belastingen [16] + Schulden op meer dan één jaar [17]) − Vaste activa [20/28]. 🔗
+> > **Liquiditeitsbenadering** (van onder de balansstreep):
 > > 
-> > **Formule (bottom-up, equivalent)**: NBK = Vlottende activa [29/58] − Schulden op ten hoogste één jaar [42/48] − Overlopende rekeningen passief [492/3]. 🔗
+> > - Vlottende activa = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗
+> > - Schulden ≤ 1 jaar = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗
+> > - **NBK = 332.976 − 97.072 = 235.904** 🔗
 > > 
-> > **Te gebruiken posten uit het volledig schema** (rubriek-codes KB 29/04/2019 — bijlagen bij het uitvoeringsbesluit WVV):
-> > - 10/15 Eigen vermogen (na winstverdeling) 📖
-> > - 16 Voorzieningen + uitgestelde belastingen 📖
-> > - 17 Schulden op meer dan één jaar 📖
-> > - 20/28 Vaste activa (oprichtingskosten + immateriële + materiële + financiële) 📖
+> > **Solvabiliteitsbenadering** (van boven de balansstreep — controle): permanent vermogen − vaste activa = (EV 145.800 + schulden > 1 jaar 135.000) − materiële vaste activa 44.896 = 280.800 − 44.896 = **235.904** ✓ 🔗
 > > 
-> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de balans-bijlage. De stagiair vult per post het bedrag uit de jaarrekening in en past de formule toe — antwoord uitdrukken tot **2 cijfers na de komma** zoals expliciet gevraagd in de instructie. 🤖
+> > Een positief NBK van 235.904 op een balanstotaal van 377.872 is zeer ruim — de onderneming financiert een groot deel van haar vlottende activa met permanente middelen (langetermijn-schulden + eigen vermogen). Dat geeft een grote werkkapitaal-buffer, maar wijst ook op mogelijk onderbenut kapitaal (zie ook de hoge cash-positie van 125.851 + geldbeleggingen 79.756). 🤖
 > > 
-> > **Vermeldenswaard** — Het MC-cluster 2014-1 vr5b toont de typische valkuilen rond NBK: ❓
-> > 
-> > 1. **De 'overlopende rekeningen op meer dan 1 jaar'** (rubriek 285/8 of soortgelijk) tellen mee als vaste activa, **niet** als vlottende activa — wie ze bij vlottend zet, krijgt een te hoog NBK.
-> > 2. **Het deel "vorderingen op meer dan 1 jaar dat binnen het jaar vervalt"** (rubr. 290) hoort bij vlottend, niet bij vaste.
-> > 3. **Te bestemmen winst** moet **integraal in eigen vermogen na winstverdeling** zitten (de vraag specificeert "balans NA winstverdeling"). 🔗
-> > 
-> > Rubriek-indeling balans: KB 29/04/2019 tot uitvoering van het WVV, bijlagen 2-3 (volledig + verkort schema). De ratio NBK staat niet als zodanig in een wettekst gedefinieerd — het is een **analytische ratio uit de financiële analyse** (NBB-jaarrekeningmodel, doctrine Ooghe/Van Wymeersch). 🔗  
-> > *Bron: KB 29/04/2019, bijlage 2 (volledig schema balans)*
+> > Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio) + Belgische MAR-rubrieken (KB 21.10.2018, bijlage 1). NBK is per definitie het verschil tussen vlottende activa (klassen 3, 40-41, 50-58, 490) en schulden ≤ 1 jaar (klassen 42-48, 492). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, klassen 3-5 + 42-49*
 >
-> Bereken de brutoverkoopmarge (in %) voor het boekjaar.
+> Bereken de liquiditeit in ruime zin (current ratio). Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Brutoverkoopmarge (%) = Brutomarge / Omzet × 100**, waarbij **Brutomarge = Omzet + Voorraadwijziging + Geproduceerde vaste activa + Andere bedrijfsopbrengsten − Aankopen handelsgoederen/grond- en hulpstoffen − Diensten en diverse goederen**. 🔗 Ze meet hoeveel % van de omzet overblijft na directe inkoop- en operationele input-kosten — vóór personeel, afschrijvingen en niet-kaskosten. 🔗
+> > **Current ratio = 332.976 / 97.072 ≈ 3,43**. 🔗
 > > 
-> > **Formule NBB**: Brutoverkoopmarge = (70/74 − 60 − 61) / 70 × 100. 🔗 Sommige definities (o.a. NBB-balanscentrale) gebruiken in de noemer **bedrijfsopbrengsten exclusief niet-recurrente** (70/74) i.p.v. enkel omzet (70); de cluster-MC-opties 2015-1 vr8a en 2014-1 illustreren de spanning.
+> > - **Vlottende activa** (teller) = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗
+> > - **Kortlopende schulden** (noemer) = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗
+> > - **Current ratio = 332.976 / 97.072 = 3,43** 🔗
 > > 
-> > **Toe te passen rubrieken** (KB 29/04/2019, bijlage 3 — resultatenrekening):
-> > - 70 Omzet 📖
-> > - 71 Voorraad gereed product/goederen in bewerking — wijziging 📖
-> > - 72 Geproduceerde vaste activa 📖
-> > - 74 Andere bedrijfsopbrengsten (**exclusief exploitatiesubsidies** indien je strikt NBB-definitie volgt) 📖
-> > - 60 Handelsgoederen, grond- en hulpstoffen 📖
-> > - 61 Diensten en diverse goederen 📖
+> > Een current ratio van 3,43 ligt ver boven de vuistregel (gezond = 1,5-2,0) — wijst eerder op een zeer comfortabele liquiditeitspositie, of zelfs op onderbenut werkkapitaal. Sector-specifiek interpreteren blijft nodig, maar de combinatie met 125.851 liquide middelen + 79.756 geldbeleggingen bevestigt het beeld: deze onderneming heeft cash-overschot. 🤖
 > > 
-> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Let op**: de toelichting vermeldt dat er **geen andere exploitatiesubsidies** ontvangen werden — dat sluit een correctie op rubriek 74 uit. **Kapitaalsubsidies aangerekend op het resultaat (56.498,19)** zitten bij rubriek 74 maar zijn **niet** operationeel; in een strikte NBB-lezing horen ze niet thuis in de brutomarge-teller. 🤖
-> > 
-> > Uitdrukken tot **2 cijfers na de komma**. 🔗
-> > 
-> > **Valkuil** — Drie courante definitie-varianten van "brutomarge" geven verschillende cijfers: ❓
-> > 1. **Enge handelsmarge** (handelsondernemingen): (Omzet − Aankopen handelsgoederen ± voorraadwijziging) / Omzet.
-> > 2. **NBB-definitie brutoverkoopmarge** (productie + handel): (Omzet + 71 + 72 + 74 − 60 − 61) / Omzet — sluit personeel en afschrijvingen uit.
-> > 3. **Toegevoegde-waarde-marge**: (Toegevoegde waarde) / Omzet.
-> > 
-> > Lees de **specifieke wording van de vraag** en kies de bijhorende formule. Voor het ITAA-examen is **definitie 2 (NBB-brutoverkoopmarge)** het meest voor de hand liggend. 🔗
-> > 
-> > Rubriek-indeling resultatenrekening: KB 29/04/2019 tot uitvoering WVV, bijlage 3. Formule brutoverkoopmarge: NBB-balanscentrale, ratio-overzicht volledig schema (doctrine financiële analyse — geen wettekst). 🔗  
-> > *Bron: KB 29/04/2019, bijlage 3 (volledig schema resultatenrekening)*
+> > Current ratio (liquiditeit in ruime zin) = vlottende activa / kortlopende schulden. Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio). Onderscheid met liquiditeit in enge zin (acid test): die haalt voorraden uit de teller. 🔗  
+> > *Bron: KB 21.10.2018 — MAR, klassen 3-5 + 42-49*
 >
-> Bereken de personeelskosten ten opzichte van de toegevoegde waarde (in %) voor het boekjaar.
+> Bereken de zelffinancieringsgraad in %. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Personeelskosten / Toegevoegde waarde (%) = 62 / Toegevoegde waarde × 100**, waarbij **Toegevoegde waarde = Bedrijfsopbrengsten (excl. niet-recurrente, excl. exploitatiesubsidies) − Aankopen handelsgoederen/grond- en hulpstoffen (60) − Diensten en diverse goederen (61)**. 🔗 De ratio meet **welk aandeel van de gecreëerde waarde naar de werknemers gaat** — een hoge waarde (> 80%) signaleert weinig marge voor afschrijvingen, financiële kosten en winst. 🔗
+> > **Zelffinancieringsgraad = (99.161 − 15.361) / 377.872 ≈ 22,18 %**. 🔗
 > > 
-> > **Formule**: Personeelskosten/TW = 62 / (70/74 − 60 − 61 − 740) × 100 🔗
+> > - **Reserves** = 99.161 🔗
+> > - **Overgedragen verlies** = −15.361 🔗
+> > - **Eigen gegenereerd vermogen** (teller) = 99.161 − 15.361 = **83.800** 🔗
+> > - **Totaal passief** (noemer) = **377.872** 🔗
+> > - **Zelffinancieringsgraad = 83.800 / 377.872 × 100 % ≈ 22,18 %** 🔗
 > > 
-> > waarbij **740 = exploitatiesubsidies** (uitgesloten omdat ze niet uit eigen waardetoevoeging komen — ze zijn **transferinkomen**).
+> > Zelffinancieringsgraad ≠ solvabiliteitsratio. De solvabiliteitsratio (EV / totaal passief = 145.800 / 377.872 ≈ 38,58 %) telt het volledige eigen vermogen, inclusief ingebracht kapitaal (62.000). De zelffinancieringsgraad meet alleen wat de onderneming zélf heeft opgebouwd via niet-uitgekeerde winsten (reserves + overgedragen resultaat) — dus zonder ingebrachte kapitaal-component. Beide ratio's geven elk een ander luik van de financieringsstructuur. 🤖
 > > 
-> > **Toe te passen rubrieken**:
-> > - 62 Bezoldigingen, sociale lasten en pensioenen 📖
-> > - 70/74 Bedrijfsopbrengsten (excl. niet-recurrente — rubriek 76A) 📖
-> > - 740 Exploitatiesubsidies (in mindering brengen in de noemer) 📖
-> > - 60 + 61 (in mindering brengen) 📖
+> > Zelffinancieringsgraad = (reserves + overgedragen resultaat) / totaal passief × 100 %. Standaarddefinitie Belgische jaarrekeninganalyse (Ooghe & Van Wymeersch); meet het aandeel van het balanstotaal dat door eigen winstreservering werd opgebouwd. MAR-rubrieken: 13 (reserves) + 14 (overgedragen resultaat). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 13 + 14*
+>
+> Bereken de nettorentabiliteit van het eigen vermogen na belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Nettorentabiliteit EV na belastingen = 1.753 / 145.800 ≈ 1,20 %**. 🔗
 > > 
-> > **Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Specifieke aandachtspunten uit de toelichting**:
-> > - Geen andere exploitatiesubsidies → rubriek 740 = 0 → **geen correctie nodig**. 🔗
-> > - Kapitaalsubsidies aangerekend op resultaat (56.498,19) zitten in rubriek **753** (financiële opbrengst) of **74** (andere bedrijfsopbrengst, niet-recurrente kant) afhankelijk van presentatie; in de strikte NBB-formule **niet** in TW-teller. 🤖
+> > - **Resultaat van het boekjaar (na belastingen)** = **1.753** 🔗
+> > - **Eigen vermogen** = kapitaal 62.000 + reserves 99.161 − overgedragen verlies 15.361 + uitgestelde belastingen 0 = **145.800** 🔗
+> > - **ROE = 1.753 / 145.800 × 100 % ≈ 1,20 %** 🔗
 > > 
-> > Uitdrukken tot **2 cijfers na de komma**. 🔗
+> > Een ROE van 1,20 % is zeer zwak — ver onder de risicovrije rente + risicopremie (typisch 8-12 % voor KMO). De onderneming vernietigt economisch waarde voor haar aandeelhouders: kapitaal dat anders belegd zou worden in een spaarrekening levert meer op. De brutomarge is wel gezond (omzet 1.510.610 vs verbruikte goederen 1.150.081 ≈ 24 %), maar de hoge financiële kosten (12.429) drukken het nettoresultaat. Bij ideale ratio-analyse: gemiddeld EV (begin + einde / 2) gebruiken — hier niet beschikbaar, dus eind-EV gebruikt. 🤖
 > > 
-> > **Vermeldenswaard — variant-overzicht binnen het cluster** (1.3-c1):
+> > Nettorentabiliteit eigen vermogen na belastingen (ROE) = nettoresultaat (rubriek 9904) / eigen vermogen (rubrieken 10-15) × 100 %. Concept-record `rentabiliteits-ratios` (subconcept rentabiliteit-eigen-vermogen). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 10-15 + 9904*
+>
+> Bereken het operationeel brutoresultaat voor belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Operationeel brutoresultaat vóór belastingen = 42.354** (≈ EBITDA — bedrijfsresultaat vóór afschrijvingen en waardeverminderingen). 🔗
 > > 
-> > - **2013-1 vr4** vraagt: nettobedrijfskapitaal · brutoverkoopmarge · personeelskosten/TW.
-> > - **2014-1 vr5** vraagt: bruto TW per werknemer · NBK · nettorentabiliteit totaal activa · liquiditeit in enge zin.
-> > - **2015-1 vr8** vraagt: brutoverkoopmarge · personeelskosten/TW · nettorentabiliteit EV na belastingen · voorraadrotatie.
+> > Eerst **bedrijfsresultaat** (= operationeel nettoresultaat):
 > > 
-> > **Aanvullende formules die in de cluster opduiken** (referentie voor stagiair die alle drie de examens voorbereidt): 🔗
+> > - Omzet 1.510.610 + andere bedrijfsopbrengsten 19.154 = **bedrijfsopbrengsten 1.529.764** 🔗
+> > - − verbruikte handelsgoederen 1.150.081
+> > - − diensten en diverse goederen 186.050
+> > - − bezoldigingen en sociale lasten 148.283
+> > - − afschrijvingen 29.589
+> > - − waardeverminderingen 0
+> > - − andere bedrijfskosten 2.996
+> > - = **bedrijfskosten 1.516.999**
+> > - → **Bedrijfsresultaat = 1.529.764 − 1.516.999 = 12.765** 🔗
 > > 
-> > | Ratio | Formule (rubriek-codes) |
-> > |---|---|
-> > | **Bruto TW per werknemer** | (70/74 − 60 − 61 − 740) / gemiddeld aantal VTE [9087] |
-> > | **Nettorentabiliteit totaal activa vóór belasting + financiële kosten** | (Resultaat boekjaar vóór belasting [9903 vóór 67/77] + Kosten van schulden [650 of 65] − Intrestsubsidies) / Totaal activa [20/58] × 100 (zie CBN 2011/14) 📖 |
-> > | **Liquiditeit in enge zin (quick ratio)** | (Vorderingen ≤ 1 jaar [40/41] + Geldbeleggingen [50/53] + Liquide middelen [54/58]) / (Schulden ≤ 1 jaar [42/48] + Overlopende rekeningen passief [492/3]) |
-> > | **Nettorentabiliteit EV na belastingen** | Resultaat boekjaar na belastingen [9904] / Eigen vermogen [10/15] × 100 |
-> > | **Rotatie voorraad handelsgoederen** | Aankopen handelsgoederen (60) / Gemiddelde voorraad handelsgoederen (3) — eenheid: keer per jaar |
+> > Dan **operationeel brutoresultaat** (= bedrijfsresultaat + niet-kaskosten):
 > > 
-> > Voor elke ratio: noemer en teller komen uit het **volledig schema**; gebruik **gemiddelden** waar het over een **stock-grootheid in een flow-ratio** gaat (typisch: voorraadrotatie). 🤖
+> > - Bedrijfsresultaat 12.765 + afschrijvingen 29.589 + waardeverminderingen 0 = **42.354** 🔗
 > > 
-> > Rubriek-codes en presentatie: KB 29/04/2019, bijlagen 2-3 (volledig + verkort schema). Nettorentabiliteit-formule met aanpassing voor financiële kosten en exclusie intrestsubsidies: **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** (sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'). 📖 Overige ratio-definities: NBB-balanscentrale ratio-overzicht en doctrine financiële analyse (Ooghe/Van Wymeersch) — geen formele wettekst. 🔗  
-> > *Bron: KB 29/04/2019, bijl. 2-3 + CBN-advies 2011/14*
+> > Operationeel brutoresultaat (≈ EBITDA) ≠ bedrijfsresultaat (≈ EBIT). De "bruto"-term verwijst naar de toestand vóór niet-kaskosten (afschrijvingen + waardeverminderingen + voorzieningen). Verwar ook niet met de brutomarge in enge zin (omzet − kostprijs verkopen): die kijkt alleen naar de directe inkoopkost van verkochte goederen. Onder Belgische rubricering: EBITDA = rubriek 9901 (bedrijfsresultaat) + 630 (afschrijvingen) + 631-634 (waardeverminderingen) + 635-637 (voorzieningen). 🤖
+> > 
+> > Operationeel brutoresultaat (EBITDA) = bedrijfsresultaat (rubriek 9901) + afschrijvingen (630) + waardeverminderingen op immateriële/materiële vaste activa + op voorraden/handelsvorderingen (631-634) + voorzieningen voor risico's en kosten (635-637). Concept-record `rentabiliteits-ratios` (subconcept ebitda-marge). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 70-74 + 60-64 + 9901*
 
 <a id="2015-1-vr9"></a>
 
@@ -590,3 +623,179 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Concept-record `current-ratio`, element `beperking-voorraden`: "De current ratio houdt voorraden mee als vlottende activa, maar voorraden zijn niet onmiddellijk liquide: ze moeten eerst worden omgezet via verkoop en inning. Dit kan de werkelijke liquiditeitspositie overschatten — voor een scherper beeld vergelijkt men de current ratio met de quick ratio (die voorraden uitsluit)." 📖  
 > > *Bron: n.v.t.*
+
+<a id="2015-1-vr8"></a>
+<a id="2014-1-vr5"></a>
+<a id="2013-1-vr4"></a>
+
+> [!question]- Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
+> *Examens 2015-1 (2015-1-vr8) & 2014-1 (2014-1-vr5) & 2013-1 (2013-1-vr4) · PO 1.3*
+>
+> Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio's. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.
+> 
+> **Balans**
+> 
+> **Actief**
+> 
+> | OMSCHRIJVING | JAAR |
+> | --- | --- |
+> | Materiële vaste activa | 44 896 |
+> | Voorraden | 23 149 |
+> | Handelsvorderingen | 88 564 |
+> | Overige vorderingen | 8 998 |
+> | Geldbeleggingen | 79 756 |
+> | Liquide middelen | 125 851 |
+> | Overlopende rekeningen | 6 658 |
+> | TOTAAL ACTIVA | 377 872 |
+> 
+> **Passief**
+> 
+> | OMSCHRIJVING | JAAR |
+> | --- | --- |
+> | Kapitaal | 62 000 |
+> | Reserves | 99 161 |
+> | Overgedragen verlies | -15 361 |
+> | Uitgestelde belastingen | 0 |
+> | Schulden op meer dan 1 jaar | 135 000 |
+> | Leveranciers op minder dan 1 jaar | 23 743 |
+> | Schulden belastingen en sociale schulden | 36 963 |
+> | Overige schulden | 29 213 |
+> | Overlopende rekeningen | 7 153 |
+> | TOTAAL PASSIVA | 377 872 |
+> 
+> **Resultatenrekening**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Omzet | 1.510.610 |
+> | Andere bedrijfsopbrengsten | 19.154 |
+> | Verbruikte handelsgoederen | 1.150.081 |
+> | Diensten en diverse goederen | 186.050 |
+> | Bezoldigingen en sociale lasten | 148.283 |
+> | Afschrijvingen | 29.589 |
+> | Waardeverminderingen | 0 |
+> | Andere bedrijfskosten | 2.996 |
+> | Financiële opbrengsten | 1.421 |
+> | Financiële kosten | 12.429 |
+> | Uitzonderlijke opbrengsten | 0 |
+> | Onttrekking aan uitgestelde belastingen | 132 |
+> | Belastingen op het resultaat | 532 |
+> | Onttrekking aan belastingvrije reserves | 396 |
+> | Resultaat boekjaar | 1.753 |
+>
+> Bereken het nettobedrijfskapitaal. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Nettobedrijfskapitaal (NBK) = 235.904** (vlottende activa − schulden ≤ 1 jaar). 🔗
+> > 
+> > **Liquiditeitsbenadering** (van onder de balansstreep):
+> > 
+> > - Vlottende activa = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗
+> > - Schulden ≤ 1 jaar = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗
+> > - **NBK = 332.976 − 97.072 = 235.904** 🔗
+> > 
+> > **Solvabiliteitsbenadering** (van boven de balansstreep — controle): permanent vermogen − vaste activa = (EV 145.800 + schulden > 1 jaar 135.000) − materiële vaste activa 44.896 = 280.800 − 44.896 = **235.904** ✓ 🔗
+> > 
+> > Een positief NBK van 235.904 op een balanstotaal van 377.872 is zeer ruim — de onderneming financiert een groot deel van haar vlottende activa met permanente middelen (langetermijn-schulden + eigen vermogen). Dat geeft een grote werkkapitaal-buffer, maar wijst ook op mogelijk onderbenut kapitaal (zie ook de hoge cash-positie van 125.851 + geldbeleggingen 79.756). 🤖
+> > 
+> > Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio) + Belgische MAR-rubrieken (KB 21.10.2018, bijlage 1). NBK is per definitie het verschil tussen vlottende activa (klassen 3, 40-41, 50-58, 490) en schulden ≤ 1 jaar (klassen 42-48, 492). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, klassen 3-5 + 42-49*
+>
+> Bereken de liquiditeit in ruime zin (current ratio). Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Current ratio = 332.976 / 97.072 ≈ 3,43**. 🔗
+> > 
+> > - **Vlottende activa** (teller) = voorraden 23.149 + handelsvorderingen 88.564 + overige vorderingen 8.998 + geldbeleggingen 79.756 + liquide middelen 125.851 + overlopende rekeningen actief 6.658 = **332.976** 🔗
+> > - **Kortlopende schulden** (noemer) = leveranciers 23.743 + schulden belastingen/sociale 36.963 + overige schulden 29.213 + overlopende rekeningen passief 7.153 = **97.072** 🔗
+> > - **Current ratio = 332.976 / 97.072 = 3,43** 🔗
+> > 
+> > Een current ratio van 3,43 ligt ver boven de vuistregel (gezond = 1,5-2,0) — wijst eerder op een zeer comfortabele liquiditeitspositie, of zelfs op onderbenut werkkapitaal. Sector-specifiek interpreteren blijft nodig, maar de combinatie met 125.851 liquide middelen + 79.756 geldbeleggingen bevestigt het beeld: deze onderneming heeft cash-overschot. 🤖
+> > 
+> > Current ratio (liquiditeit in ruime zin) = vlottende activa / kortlopende schulden. Standaardformule jaarrekeninganalyse — concept-record `liquiditeits-ratios` (subconcept current-ratio). Onderscheid met liquiditeit in enge zin (acid test): die haalt voorraden uit de teller. 🔗  
+> > *Bron: KB 21.10.2018 — MAR, klassen 3-5 + 42-49*
+>
+> Bereken de zelffinancieringsgraad in %. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Zelffinancieringsgraad = (99.161 − 15.361) / 377.872 ≈ 22,18 %**. 🔗
+> > 
+> > - **Reserves** = 99.161 🔗
+> > - **Overgedragen verlies** = −15.361 🔗
+> > - **Eigen gegenereerd vermogen** (teller) = 99.161 − 15.361 = **83.800** 🔗
+> > - **Totaal passief** (noemer) = **377.872** 🔗
+> > - **Zelffinancieringsgraad = 83.800 / 377.872 × 100 % ≈ 22,18 %** 🔗
+> > 
+> > Zelffinancieringsgraad ≠ solvabiliteitsratio. De solvabiliteitsratio (EV / totaal passief = 145.800 / 377.872 ≈ 38,58 %) telt het volledige eigen vermogen, inclusief ingebracht kapitaal (62.000). De zelffinancieringsgraad meet alleen wat de onderneming zélf heeft opgebouwd via niet-uitgekeerde winsten (reserves + overgedragen resultaat) — dus zonder ingebrachte kapitaal-component. Beide ratio's geven elk een ander luik van de financieringsstructuur. 🤖
+> > 
+> > Zelffinancieringsgraad = (reserves + overgedragen resultaat) / totaal passief × 100 %. Standaarddefinitie Belgische jaarrekeninganalyse (Ooghe & Van Wymeersch); meet het aandeel van het balanstotaal dat door eigen winstreservering werd opgebouwd. MAR-rubrieken: 13 (reserves) + 14 (overgedragen resultaat). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 13 + 14*
+>
+> Bereken de nettorentabiliteit van het eigen vermogen na belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Nettorentabiliteit EV na belastingen = 1.753 / 145.800 ≈ 1,20 %**. 🔗
+> > 
+> > - **Resultaat van het boekjaar (na belastingen)** = **1.753** 🔗
+> > - **Eigen vermogen** = kapitaal 62.000 + reserves 99.161 − overgedragen verlies 15.361 + uitgestelde belastingen 0 = **145.800** 🔗
+> > - **ROE = 1.753 / 145.800 × 100 % ≈ 1,20 %** 🔗
+> > 
+> > Een ROE van 1,20 % is zeer zwak — ver onder de risicovrije rente + risicopremie (typisch 8-12 % voor KMO). De onderneming vernietigt economisch waarde voor haar aandeelhouders: kapitaal dat anders belegd zou worden in een spaarrekening levert meer op. De brutomarge is wel gezond (omzet 1.510.610 vs verbruikte goederen 1.150.081 ≈ 24 %), maar de hoge financiële kosten (12.429) drukken het nettoresultaat. Bij ideale ratio-analyse: gemiddeld EV (begin + einde / 2) gebruiken — hier niet beschikbaar, dus eind-EV gebruikt. 🤖
+> > 
+> > Nettorentabiliteit eigen vermogen na belastingen (ROE) = nettoresultaat (rubriek 9904) / eigen vermogen (rubrieken 10-15) × 100 %. Concept-record `rentabiliteits-ratios` (subconcept rentabiliteit-eigen-vermogen). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 10-15 + 9904*
+>
+> Bereken het operationeel brutoresultaat voor belastingen. Vermeld de gebruikte cijfers uit de jaarrekening als motivatie (formule hoeft niet uitgeschreven te worden).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Operationeel brutoresultaat vóór belastingen = 42.354** (≈ EBITDA — bedrijfsresultaat vóór afschrijvingen en waardeverminderingen). 🔗
+> > 
+> > Eerst **bedrijfsresultaat** (= operationeel nettoresultaat):
+> > 
+> > - Omzet 1.510.610 + andere bedrijfsopbrengsten 19.154 = **bedrijfsopbrengsten 1.529.764** 🔗
+> > - − verbruikte handelsgoederen 1.150.081
+> > - − diensten en diverse goederen 186.050
+> > - − bezoldigingen en sociale lasten 148.283
+> > - − afschrijvingen 29.589
+> > - − waardeverminderingen 0
+> > - − andere bedrijfskosten 2.996
+> > - = **bedrijfskosten 1.516.999**
+> > - → **Bedrijfsresultaat = 1.529.764 − 1.516.999 = 12.765** 🔗
+> > 
+> > Dan **operationeel brutoresultaat** (= bedrijfsresultaat + niet-kaskosten):
+> > 
+> > - Bedrijfsresultaat 12.765 + afschrijvingen 29.589 + waardeverminderingen 0 = **42.354** 🔗
+> > 
+> > Operationeel brutoresultaat (≈ EBITDA) ≠ bedrijfsresultaat (≈ EBIT). De "bruto"-term verwijst naar de toestand vóór niet-kaskosten (afschrijvingen + waardeverminderingen + voorzieningen). Verwar ook niet met de brutomarge in enge zin (omzet − kostprijs verkopen): die kijkt alleen naar de directe inkoopkost van verkochte goederen. Onder Belgische rubricering: EBITDA = rubriek 9901 (bedrijfsresultaat) + 630 (afschrijvingen) + 631-634 (waardeverminderingen) + 635-637 (voorzieningen). 🤖
+> > 
+> > Operationeel brutoresultaat (EBITDA) = bedrijfsresultaat (rubriek 9901) + afschrijvingen (630) + waardeverminderingen op immateriële/materiële vaste activa + op voorraden/handelsvorderingen (631-634) + voorzieningen voor risico's en kosten (635-637). Concept-record `rentabiliteits-ratios` (subconcept ebitda-marge). 🔗  
+> > *Bron: KB 21.10.2018 — MAR, rubrieken 70-74 + 60-64 + 9901*
+
+<a id="2010-2-vr5"></a>
+
+> [!question]- Trage voorraadrotatie — begripsomschrijving in het kader van financiële analyse van de jaarrekening
+> *🆕 Examen 2010-2 · PO 1.3*
+>
+> Een onderneming heeft een trage voorraadrotatie.
+>
+> Beschrijf dit begrip bondig.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Een **trage voorraadrotatie** betekent dat de voorraad gemiddeld lang in het magazijn blijft liggen vooraleer ze wordt verkocht of verbruikt — uitgedrukt als een hoge DIO (days inventory outstanding, in dagen) of een laag aantal omloopkeren per jaar. 🔗
+> > 
+> > **Berekening (Belgische jaarrekening)**: DIO = (voorraden rubrieken 30-32 × 365) / kostprijs verkopen, of equivalent: omloopsnelheid (× per jaar) = kostprijs verkopen / gemiddelde voorraad. 🔗
+> > 
+> > **Wat 'traag' diagnostisch wijst aan**: (a) vraagdaling of overproductie, (b) voorraadveroudering / incourante stock met latent waardeverminderingsrisico, (c) inefficiënt werkkapitaalbeheer — kapitaal zit onnodig vast in stock i.p.v. in kas. 🔗
+> > 
+> > **Gevolg voor het werkkapitaal en de cash**: een trage rotatie verlengt de cash-conversion-cycle (CCC = DIO + DSO − DPO), vergroot de werkkapitaalbehoefte en dwingt vaak tot bijkomende kortlopende financiering. 🔗
+> > 
+> > 'Traag' is altijd sector-relatief: een juwelier of antiquair draait normaal 200+ dagen, een voedingssupermarkt 15-30 dagen. Beoordeel daarom tegen een sectorbenchmark (NBB-balanscentrale, Graydon) en tegen de eigen trend; een plotse stijging > 30 % t.o.v. het vorig boekjaar is een rood signaal dat dwingt tot controle op waardeverminderingen op voorraad. 🔗
+> > 
+> > Begrip uit de financiële analyse van de jaarrekening (activiteitsratio's / omloopratio's). Componenten putten uit het minimum genormaliseerd rekeningenstelsel: voorraden = rubrieken 30 (grondstoffen + hulpstoffen) + 31 (goederen in bewerking) + 32 (afgewerkt + handelsgoederen); kostprijs verkopen ≈ rubriek 60 (aankopen) gecorrigeerd voor voorraadwijziging (rubriek 609). 🔗  
+> > *Bron: KB WVV — minimum genormaliseerd rekeningenstelsel (rubrieken 30-32 + 60)*

@@ -1,0 +1,70 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr10",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Voorraadcontrole door accountant bij omzettingsverslag — beoordeling van werkwijze",
+  "programmaonderdeel_ids": ["1.6"],
+  "themas": [
+    "accountantsonderzoek",
+    "voorraadcontrole",
+    "omzettingsverslag",
+    "permanente inventaris",
+    "controleverslag",
+    "interne organisatie",
+    "steekproeven"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een groothandel in medische toestellen beschikt over een IT-systeem voor het bijhouden van de voorraad waarbij de \"in-\" en \"uit\"-verrichtingen via een barcode worden ingelezen. Er bestaat in het bedrijf een duidelijk geschreven instructie over het voorraadbeheer. Tweemaal per jaar worden er intern tellingen gedaan en wordt het permanent inventarissysteem bijgewerkt en dit telkens met een nazicht en verklaring van de verschillen. Uw opdracht kadert in een omzetting waarvoor u een controleverslag dient op te stellen. U krijgt op 10 oktober 2010 de staat van activa en passiva per 30 september 2010 op basis waarvan u uw werkzaamheden dient uit te voeren.\n\nGeef op volgende vragen uw antwoord met JA of NEEN."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik moet de voorraad opnieuw laten opmaken op datum van mijn aanstelling.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik zal eerst nagaan of de tussentijdse testen en inventarisaties voldoende zekerheid bieden en eventueel overgaan tot steekproeven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik moet altijd een afkeurende verklaring geven in mijn verslag.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik moet in mijn verslag vermelden dat er geen fysieke controle is geweest van de voorraad maar dat de interne organisatie en administratie mij de mogelijkheid heeft gegeven mij op voldoende wijze te vergewissen van de juistheid van de voorraad.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Ik moet deze opdracht weigeren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG bevestigt 5 J/F-stellingen onder gedeelde casus over groothandel medische toestellen met barcode-voorraadsysteem en omzettingsopdracht (controleverslag op staat van activa/passiva per 30/09/2010). Vraag valt onder vak ACCOUNTANTSONDERZOEK (PO 1.6). De checkbox-tabellen Ja/Neen uit tekst.txt zijn een visuele weergave van het antwoordformaat (J/F) — niet als gegevens_tabel-blok opgenomen. Geen expliciete motivatie-instructie in de PDF, dus motivatie_verwacht=false.",
+  "kwaliteits_flags": []
+}

@@ -3,7 +3,7 @@ title: PO 1.9 — Financiële analyse en fundamentele principes van financieel b
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.9 (Financiële analyse en fundamentele principes van financieel bedrijfsbeheer).
 tags: [examen, voorbeeldvragen, po-1-9]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.9 — Financiële analyse en fundamentele principes van financieel bedrijfsbeheer

@@ -3,12 +3,12 @@ title: PO 4.0 — Deontologische beginselen in verband met het beroep en beginse
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 4.0 (Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving).
 tags: [examen, voorbeeldvragen, po-4-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 4.0 — Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving
 
-**30 unieke vraag-eenheden** (waarvan 1 cluster, totaal 31 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 30 met modelantwoord
+**35 unieke vraag-eenheden** (waarvan 1 cluster, totaal 36 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 35 met modelantwoord
 
 <a id="2024-1-vr6A"></a>
 
@@ -1300,6 +1300,296 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 31 KB 1 maart 1998 (plichtenleer accountants) — objectieve informatie over het kantoor is toegelaten, mits geen vergelijkende tarief-/kwaliteitsgegevens en geen cliëntnamen. 📖  
 > > *Bron: Art. 31 KB 1 maart 1998 (plichtenleer accountants)*
+
+<a id="2010-2-vr38"></a>
+
+> [!question]- Overdracht van documenten aan een collega-accountant bij dossier-overname
+> *🆕 Examen 2010-2 · PO 4.0*
+>
+> Welke van volgende documenten dient u over te dragen aan uw collega die een dossier van u overneemt? Beoordeel per document met Ja / Neen.
+>
+> **Nota's die u heeft gemaakt ter voorbereiding van een opdracht voor de vertrokken klant — moet u die overdragen aan de overnemende collega?**
+> 
+> - **a** Ja
+> - **b** Neen
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: b**
+> > 
+> > **Neen.** Voorbereidende nota's zijn werkdocumenten van de accountant zelf — eigendom van de beroepsbeoefenaar, geen eigendom van de cliënt. De opvolger mag ze hooguit **inzien**, maar je hoeft (en mag) ze niet uit handen geven. 🔗
+> > 
+> > Art. 23 KB 1 maart 1998 verplicht de voorganger om **"alle documenten, eigendom van de cliënt, alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid"** ter beschikking te stellen. 📖 Eigen voorbereidende nota's vallen onder géén van beide categorieën: zij zijn eigendom van de accountant (werkdocumenten in de zin van §4 van de algemene controlenorm) en behoren niet tot de "hulp en hoffelijkheid"-stukken die routinematig overgedragen worden. 🔗 De ITAA-algemene controlenorm §5 (Opvolging) bevestigt dit expliciet: "De opvolger mag de werkdocumenten van zijn voorganger inzien, maar deze laatste mag zijn oorspronkelijke stukken niet uit handen geven." 📖
+> > 
+> > Art. 23 KB 1 maart 1998 plichtenleer accountants + ITAA-algemene controlenorm §5 Opvolging. 📖  
+> > *Bron: Art. 23 KB 1 maart 1998 + algemene controlenorm §5*
+>
+> **Dagboeken die het resultaat zijn van de verwerking van de boekhoudstukken — moet u die overdragen aan de overnemende collega?**
+> 
+> - **a** Ja
+> - **b** Neen
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: a**
+> > 
+> > **Ja.** Dagboeken maken deel uit van de boekhouding van de cliënt — eigendom van de cliënt, dus verplicht over te dragen. Het feit dat zij door de accountant materieel gegenereerd zijn uit de boekhoudstukken doet niets af aan dat eigendom. 🔗
+> > 
+> > Dagboeken zijn een **wettelijk verplicht onderdeel van de boekhouding** van de onderneming (boekhoudplicht — art. III.85 e.v. WER, voorheen boekhoudwet); de cliënt is bij wet verplicht ze te bewaren. 🔗 De ITAA-deontologische nota over het beroepsgeheim bevestigt dat "de dagboeken en rekeningen van de klant, evenals de bewijsstukken van boekingen" tot het patrimonium van de cliënt behoren en zelfs niet onder het beroepsgeheim van de accountant vallen. 📖 Bijgevolg moet de voorganger ze "onverwijld" ter beschikking stellen van de cliënt of de opvolgende confrater, met een gedagtekende **inventaris in tweevoud** (art. 23, 2° KB 1998). 📖
+> > 
+> > Art. 23, 2° KB 1 maart 1998 plichtenleer accountants (overdracht documenten eigendom cliënt + inventaris) + boekhoudplicht art. III.85 e.v. WER (dagboeken = onderdeel boekhouding cliënt) + ITAA-deontologie beroepsgeheim §5 (dagboeken vallen niet onder beroepsgeheim). 📖  
+> > *Bron: Art. 23 KB 1 maart 1998 + art. III.85 WER*
+>
+> **Een financieel advies, met name een uitgewerkte successieplanning, dat nog niet werd vergoed — moet u dat overdragen aan de overnemende collega?**
+> 
+> - **a** Ja
+> - **b** Neen
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: b**
+> > 
+> > **Neen.** Een uitgewerkt financieel advies (successieplanning) dat **nog niet werd vergoed** is een eigen werkresultaat van de accountant waarvan het eigendom — bij gebrek aan betaling — nog niet contractueel is overgedragen. Geen verplichting tot overdracht aan de opvolger. 🔗
+> > 
+> > Art. 23 KB 1 maart 1998 verplicht overdracht van "alle documenten, eigendom van de cliënt". 📖 Een onbetaald advies is een intellectueel werkproduct van de accountant; zolang de honoraria niet zijn voldaan, is dat resultaat geen eigendom van de cliënt. Bovendien legt art. 23, 2° de opvolger expliciet op om **"bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger"** — de norm gaat dus uit van het principe dat onbetaalde prestaties niet zonder meer worden meegegeven. 📖 Het retentierecht (afgeleid uit algemeen burgerrechtelijke leer + ITAA-deontologie) staat in dezelfde lijn: werkdocumenten en niet-vergoede resultaten kunnen worden achtergehouden, mits geen schade aan derden of acute wettelijke verplichtingen van de cliënt. 🔗
+> > 
+> > Sommige examenoplossingen lezen "Ja" hier vanuit een ander perspectief: als het advies materieel reeds aan de cliënt werd overhandigd, behoort het tot diens dossier en moet de opvolger erover beschikken om continuïteit te verzekeren. De **deontologisch verdedigbare lezing** blijft echter dat een niet-vergoed werkproduct geen verplichte overdracht-categorie is onder art. 23 KB 1998 — de juiste reflex is: aandringen op betaling, niet meegeven. ❓
+> > 
+> > Art. 23 KB 1 maart 1998 plichtenleer accountants — overdrachtsplicht beperkt tot documenten eigendom van de cliënt + plicht opvolger om aan te dringen op betaling onbetaalde honoraria voorganger. 📖  
+> > *Bron: Art. 23 KB 1 maart 1998*
+>
+> **De jaarrekening, bijlagen van de jaarrekening, de fiscale aangifte en de bijlagen van de fiscale aangifte — moet u die overdragen aan de overnemende collega?**
+> 
+> - **a** Ja
+> - **b** Neen
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: a**
+> > 
+> > **Ja.** De jaarrekening, haar bijlagen, de fiscale aangifte en haar bijlagen zijn eindresultaten die voor en in naam van de cliënt zijn opgemaakt en die de cliënt **wettelijk nodig heeft** (neerleggingsplicht, fiscale aangifteplicht). Eigendom cliënt → verplicht overdragen. 🔗
+> > 
+> > Art. 23 KB 1 maart 1998 verplicht de voorganger om alle documenten die eigendom zijn van de cliënt (en "deze die kaderen in de wederzijdse hulp en hoffelijkheid") onverwijld ter beschikking te stellen, met een gedagtekende inventaris in tweevoud. 📖 De jaarrekening is door de bestuurders van de vennootschap te ondertekenen en bij de NBB neer te leggen (art. 3:10 e.v. WVV); de fiscale aangifte is een wettelijke verplichting van de cliënt (art. 305 WIB 92). De accountant maakt die documenten **in naam van de cliënt** op — eigendom ligt bij de cliënt. 🔗 De ITAA-deontologie bevestigt expliciet: "de belastingaangiftes van de klant" + "de dagboeken en rekeningen" behoren tot het patrimonium van de cliënt en vallen niet onder het beroepsgeheim. 📖 Achterhouden zou bovendien aanleiding geven tot directe schade (neerleggingsboetes, fiscale boetes, derdenbelang) — een retentie-uitoefening is hier deontologisch onverdedigbaar. 🔗
+> > 
+> > Verwar het werkdossier (werkpapieren, eigen analyses, draft-versies) niet met het eindresultaat (de definitieve, ondertekende jaarrekening en aangifte): het eerste blijft bij de accountant (inzage mogelijk voor opvolger), het tweede gaat met de cliënt mee. De scheidslijn is **"in naam van wie en voor welk gebruik"**, niet "wie heeft het materieel getypt". 🔗
+> > 
+> > Art. 23 KB 1 maart 1998 plichtenleer accountants (overdrachtsplicht documenten eigendom cliënt + inventaris in tweevoud) + ITAA-deontologie beroepsgeheim §5 (belastingaangiftes en rekeningen cliënt = eigendom cliënt, niet onder beroepsgeheim) + neerleggingsplicht jaarrekening (art. 3:10 e.v. WVV) en aangifteplicht (art. 305 WIB 92) als ratio van urgentie. 📖  
+> > *Bron: Art. 23 KB 1 maart 1998 + art. 3:10 e.v. WVV + art. 305 WIB 92*
+
+<a id="2010-2-vr39"></a>
+
+> [!question]- Voorwaarden en regels voor een accountants- en/of belastingconsulentenvennootschap
+> *🆕 Examen 2010-2 · PO 4.0*
+>
+> Geef, met betrekking tot een accountants- en/of belastingconsulentenvennootschap aan of volgende situaties juist of fout zijn.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Indien er slechts twee bestuurders/zaakvoerders zijn moeten beide lid zijn van het IAB.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Topic-only herinnering; framework geleverd._
+> > 
+> > Topic_only — de specifieke erkenningsregels voor bestuurders van een IAB-vennootschap (wet 22 april 1999 + KB erkenningsvoorwaarden, zoals van toepassing in 2010) zitten niet in het Certificaid-bronnencorpus, dus geen onderbouwd juist/fout-oordeel mogelijk. ❓
+> > 
+> > De vraag test de toenmalige erkenningsvoorwaarden voor accountants- en/of belastingconsulentenvennootschappen onder het IAB-regime (vóór de ITAA-fusie van 17 maart 2019). RAG-zoekopdrachten op 'accountantsvennootschap erkenningsvoorwaarden bestuurders' leveren enkel het ITAA-concept-record en algemene WVV-bronnen op — geen wet 22 april 1999 en geen KB met de meerderheid-bestuurders-regel. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De aandelen van een accountants- en/of belastingconsulentenvennootschap moeten voor 75 % in handen zijn van het IAB.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Topic-only herinnering; framework geleverd._
+> > 
+> > Topic_only — de aandelenparticipatie-drempel (75 % vs een andere drempel) uit de erkenningsregels voor een IAB-vennootschap zit niet in het Certificaid-bronnencorpus. ❓
+> > 
+> > De gevraagde regel staat in de erkenningsvoorwaarden van het toenmalige IAB (Koninklijk besluit van 4 mei 1999 betreffende het Instituut van de Accountants en de Belastingconsulenten) — dit KB is niet opgenomen in `resources/bronnen/`. Zonder bron geen geciteerd of afgeleid oordeel. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De niet-erkende leden van de accountants- en/of belastingconsulentenvennootschap mogen verzekeringsactiviteiten uitoefenen binnen het kantoor.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Topic-only herinnering; framework geleverd._
+> > 
+> > Topic_only — de onverenigbaarheidsregels rond verzekeringsactiviteiten binnen een IAB-vennootschap (ook voor niet-erkende vennoten) zitten niet als wettekst in het Certificaid-bronnencorpus. ❓
+> > 
+> > Onverenigbaarheden voor accountants en belastingconsulenten (incl. verzekeringsbemiddeling) zaten historisch in art. 19 van de wet van 22 april 1999 en in het deontologisch KB van 1 maart 1998; deze bronnen staan deels (KB-plichtenleer 1998) in het corpus maar bevatten niet de regel die de niet-erkende leden van de vennootschap viseert. Aanvullende bron-uitbreiding nodig (wet 22 april 1999 + KB IAB-erkenning) vooraleer een verdedigbaar juist/fout-antwoord mogelijk is. 🤖
+
+<a id="2010-2-vr40"></a>
+
+> [!question]- Bevoegde commissies/organen van het IAB per type aangelegenheid
+> *🆕 Examen 2010-2 · PO 4.0*
+>
+> **Welke commissie dient men aan te schrijven in de gegeven situaties?**
+>
+> Beroep tegen de beslissing van de Raad van het IAB.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Commissie van Beroep** van het Instituut. 🔗
+> > 
+> > Tegen tuchtbeslissingen én tegen administratieve beslissingen van de Raad (inschrijving openbaar register, stage/bekwaamheidsexamen, terechtwijzing) staat een georganiseerd beroep open bij één centrale beroepsinstantie binnen het Instituut: de Commissie van Beroep. 🔗 Zij oordeelt in volle rechtsmacht en haar beslissing wordt enkel nog onderworpen aan cassatieberoep bij het Hof van Cassatie. 🔗
+> > 
+> > Art. 18, 28, 88, 111 en 113 Wet 17 maart 2019 ITAA (rechtsopvolger van het IAB) — beroep tegen Raad-beslissingen ligt bij de Commissie van Beroep; tegen haar uitspraak: cassatieberoep (art. 113). 📖 Ten tijde van het examen (2010) was de regeling identiek onder art. 5 en 53-54 van de Wet van 22 april 1999 (IAB-wet). 🔗  
+> > *Bron: Art. 18, 28, 88, 111, 113 Wet 17 maart 2019 ITAA*
+>
+> Eerste aanleg in tuchtaangelegenheden.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Tuchtcommissie** van het Instituut (NL- of FR-kamer naargelang de taalrol van de betrokkene). 🔗
+> > 
+> > Een klacht wordt ingediend bij de **rechtskundig assessor** van de bevoegde kamer van de tuchtcommissie; hij onderzoekt het dossier en verwijst het — als er voldoende bezwaren zijn — door naar de tuchtcommissie die in eerste aanleg uitspraak doet over de tuchtsanctie. 📖 De rechtskundig assessor is dus het onderzoeksluik, de Tuchtcommissie de eerste-aanlegrechter. 📖
+> > 
+> > Niet verwarren met de loutere **terechtwijzing** door de Raad van het Instituut (art. 87-88): dat is een lichte maatregel die de Raad zelf kan opleggen, géén tuchtsanctie in eerste aanleg. Tegen die terechtwijzing staat eveneens beroep open bij de Commissie van Beroep. 🔗
+> > 
+> > Art. 94-95 Wet 17 maart 2019 ITAA — klachtindiening bij rechtskundig assessor en verwijzing naar de tuchtcommissie. 📖 Voor de feiten van 2010: art. 58-59 Wet 22 april 1999 IAB (identieke structuur tuchtcommissie eerste aanleg + commissie van beroep). 🔗  
+> > *Bron: Art. 94-95 Wet 17 maart 2019 ITAA*
+>
+> Geschillen die ontstaan tussen de accountant en/of belastingconsulent en zijn cliënt.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Arbitragecommissie** (verzoenings- en arbitragecommissie) van het Instituut — op voorwaarde dat beide partijen daarmee instemmen, doorgaans via het arbitragebeding in de opdrachtbrief. 🔗
+> > 
+> > Het Instituut heeft binnen zijn schoot een arbitragecommissie die geschillen tussen een beroepsbeoefenaar en zijn cliënt — typisch betwistingen rond erelonen of de uitvoering van de opdracht — beslecht via arbitrage of bemiddeling. 🤖 De ITAA-norm-opdrachtbrief eist uitdrukkelijk dat de opdrachtbrief een **geschillenregeling** bevat; naast de gewone rechtbank kan ze alternatieve geschillenbeslechting (arbitrage of bemiddeling) voorzien. 📖 Zonder akkoord van beide partijen blijft de gewone burgerlijke rechtbank (ondernemingsrechtbank) bevoegd. 🔗
+> > 
+> > Niet de Tuchtcommissie: tuchtrecht beschermt het beroep, niet de individuele cliënt. Een ontevreden cliënt kan wél een klacht bij de rechtskundig assessor indienen (tuchtspoor), maar de **financiële regeling** van zijn geschil loopt via arbitrage of de gewone rechtbank — niet via de tuchtkamer. 🔗
+> > 
+> > ITAA-norm-opdrachtbrief §9 (Geschillenregeling): "Naast de mogelijkheid tot het inleiden van een procedure voor de bevoegde rechtbank, is het mogelijk om alternatieve vormen van geschillenbeslechting op te nemen, zoals bijvoorbeeld arbitrage of bemiddeling." 📖 Onder de IAB-wet 22 april 1999 (toepasselijk in 2010) was de bevoegdheid van de arbitragecommissie expliciet voorzien in art. 5 §2; ze blijft binnen ITAA functioneren als statutair orgaan. 🔗  
+> > *Bron: ITAA-norm-opdrachtbrief §9; art. 5 §2 Wet 22 april 1999 IAB (oud)*
+>
+> Problemen rond de overdracht van een dossier tussen twee accountants en/of belastingconsulenten.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Verzoeningscommissie** (commissie verzoening en arbitrage) van het Instituut, voor geschillen tussen confraters bij dossieroverdracht. 🔗
+> > 
+> > Bij overdracht van een dossier tussen twee accountants/belastingconsulenten moet de opvolger zijn voorganger schriftelijk verwittigen en aandringen op betaling van onbetwiste erelonen; de voorganger geeft binnen 15 dagen alle cliënt-documenten af tegen gedetailleerde inventaris. 📖 Loopt er een betwisting (achterstallige erelonen, niet-afgegeven stukken, retentierecht), dan kan het geschil — met instemming van beide partijen of op verzoek van één — worden voorgelegd aan de verzoeningscommissie binnen het Instituut. 📖
+> > 
+> > De verzoeningscommissie is een vorm van **collegiale bemiddeling onder confraters**, met als doel de waardigheid van het beroep en de continuïteit voor de cliënt te bewaren. Zij is géén tuchtorgaan: ze legt geen sancties op, maar zoekt een minnelijke regeling. Mislukt verzoening, dan blijft de gewone rechter of arbitrage open. 🤖
+> > 
+> > Art. 24 KB 1 maart 1998 plichtenleer accountants: "Met instemming van beide partijen kan een geschil tussen externe accountants voorgelegd worden aan een verzoeningscommissie opgericht binnen het Instituut." 📖 Parallel art. 17-18 KB 18 juli 2017 plichtenleer BIBF voor de boekhouders-fiscalisten. 📖 Procedurele kader dossieroverdracht: schriftelijke kennisgeving + 15 dagen-termijn voor afgifte stukken. 📖  
+> > *Bron: Art. 24 KB 1 maart 1998 plichtenleer accountants; art. 17-18 KB 18 juli 2017 plichtenleer BIBF*
+
+<a id="2010-2-vr41"></a>
+
+> [!question]- Deontologie: publiciteit en cliëntenwerving door accountants en/of belastingconsulenten
+> *🆕 Examen 2010-2 · PO 4.0*
+>
+> Duid aan of volgende beweringen juist zijn.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een accountant en/of belastingconsulent mag zijn diensten gratis of tegen sterk verminderde prijzen aanbieden om zo cliënten aan zich te binden.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Diensten gratis of tegen sterk verminderde prijzen aanbieden om cliënten aan zich te binden is een vorm van verboden ronseling en dienstaanbod. 🔗
+> > 
+> > Art. 30 KB 1 maart 1998 verbiedt uitdrukkelijk "ronseling en dienstaanbod". 📖 Het gratis of beneden de marktprijs aanbieden van prestaties met het oog op cliëntenwerving valt onder dit verbod: het tast de waardigheid van het beroep en de eerlijke concurrentie tussen confraters aan. 🔗 Bijkomend verbiedt art. 31 elke verwijzing naar vergelijkende gegevens inzake tarieven of kwaliteit in publicitaire mededelingen. 📖 Het BIBF-reglement (art. 23 KB 18 juli 2017) bevestigt dezelfde lijn voor erkende boekhouders: "Hij kan evenmin diensten gratis aanbieden, het vermoeden wekken dat bepaalde diensten gratis aangeboden worden". 📖
+> > 
+> > De ITAA-wet (art. 45 Wet 17 maart 2019) bevestigt dat de beroepsbeoefenaar enkel aanspraak mag maken op ereloon en kosten voor uitgevoerde opdrachten — dit sluit verkapte gratis-aanbiedingen of kruissubsidiëring tussen opdrachten uit. 🔗 Sinds 1 januari 2020 is het KB 9 december 2019 (deontologische code ITAA) van toepassing op de gecertificeerd accountant; het verbod op dienstaanbod en op ereloon-koppelingen blijft inhoudelijk gehandhaafd. 🤖
+> > 
+> > Art. 30 KB 1 maart 1998 reglement plichtenleer accountants (publiciteitsverbod — ronseling en dienstaanbod). 📖 Art. 31 KB 1 maart 1998 (geen vergelijkende tarief- of kwaliteitsgegevens). 📖 Sinds 2019: art. 45 Wet 17 maart 2019 + KB 9 december 2019 deontologische code ITAA. 📖  
+> > *Bron: Art. 30 KB 1 maart 1998; art. 45 Wet ITAA 2019*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een accountant en/of belastingconsulent mag zijn mandaten binnen het Instituut of andere beroepsorganisaties niet kenbaar maken om op die manier opdrachten te verwerven.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. De accountant/belastingconsulent mág zijn mandaten binnen het Instituut of andere beroepsorganisaties wél kenbaar maken — dat valt onder de toegelaten "objectieve informatie over zijn kantoor". 🔗
+> > 
+> > Art. 31 KB 1 maart 1998 laat uitdrukkelijk toe dat de accountant "in het openbaar objectieve informatie over zijn kantoor mededelt", voor zover hij de beroepsdiscretie respecteert. 📖 Mandaten en functies binnen het ITAA of binnen andere beroepsorganisaties (commissies, werkgroepen, bestuursmandaten) zijn objectieve, verifieerbare professionele gegevens — ze mogen vermeld worden in CV, website, briefpapier en publicaties van het kantoor. 🔗 Het verbod uit art. 31 betreft enkel (i) vergelijkende tarief- of kwaliteitsclaims en (ii) reclametechnieken die niet bedoeld zijn om objectieve informatie te verschaffen, en (iii) het vermelden van cliëntennamen. 📖
+> > 
+> > Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (publiciteit — objectieve informatie over het kantoor toegelaten). 📖 Inhoudelijk gehandhaafd onder KB 9 december 2019 deontologische code ITAA. 📖  
+> > *Bron: Art. 31 KB 1 maart 1998*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een accountant en/of belastingconsulent mag een opsomming geven van de cliënten die hij heeft in de aanwerving van nieuwe cliënten.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Een cliëntenlijst opsommen voor wervingsdoeleinden is uitdrukkelijk verboden — de accountant mag in het openbaar of in brochures geen gewag maken van de naam van een cliënt. 📖
+> > 
+> > Art. 31 KB 1 maart 1998 bepaalt letterlijk: "Onafgezien van de verslagen die moeten bekendgemaakt worden met toepassing van de wet, mag de accountant in het openbaar of in brochures geen gewag maken van de naam van één van zijn cliënten." 📖 De ratio is dubbel: (i) bescherming van het beroepsgeheim — al het bestaan van een cliëntrelatie is vertrouwelijke informatie — en (ii) het waardig en niet-commercieel karakter van het beroep. 🔗 Afwijking is uitzonderlijk mogelijk, maar enkel **mits dubbele toestemming**: van de cliënt én van de voorzitter van het Instituut. 📖
+> > 
+> > Niet verwarren met (d): een opsomming van *taken/diensten* die de accountant uitvoert (audit, fiscaal advies, salarisadministratie, ...) is wél toegelaten — dat is objectieve informatie over het kantoor. Het verbod treft enkel de identificatie van *cliënten* bij naam. 🔗
+> > 
+> > Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (verbod om cliëntennamen openbaar te maken). 📖 Steunt mede op het beroepsgeheim (art. 458 Sw. — sinds 2019 expliciet via art. 120 Wet ITAA). 📖  
+> > *Bron: Art. 31 KB 1 maart 1998; art. 458 Sw.*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een accountant en/of belastingconsulent mag een opsomming geven van de taken die hij uitvoert.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST**. Een opsomming van de taken (diensten/opdrachttypes) die de accountant uitvoert, is toegelaten als objectieve informatie over het kantoor. 🔗
+> > 
+> > Art. 31 KB 1 maart 1998 staat de accountant uitdrukkelijk toe "in het openbaar objectieve informatie over zijn kantoor mede te delen". 📖 Een lijst van uitgevoerde taken — controleopdrachten, samenstellingsopdrachten, fiscaal advies, beoordelingen, KMO-controle, ... — is bij uitstek objectieve, controleerbare informatie over de aangeboden diensten en valt buiten de drie verboden categorieën van art. 31 (vergelijkende tarieven/kwaliteit, niet-objectieve reclametechnieken, cliëntennamen). 🔗 Voorwaarde blijft: gepaste discretie respecteren en geen pretentieuze of misleidende formuleringen gebruiken. 📖
+> > 
+> > De grens met (a) en (c): taken vermelden mag, **tarieven vergelijken** mag niet (art. 31), en **cliënten benoemen** bij wie die taken werden uitgevoerd mag evenmin. De opsomming moet beperkt blijven tot het *wat* (soorten diensten), niet het *bij wie* of het *aan welke prijs*. 🔗
+> > 
+> > Art. 31 KB 1 maart 1998 reglement plichtenleer accountants (publiciteit — objectieve informatie over het kantoor toegelaten). 📖 Inhoudelijk gehandhaafd onder KB 9 december 2019 deontologische code ITAA. 📖  
+> > *Bron: Art. 31 KB 1 maart 1998*
+
+<a id="2010-2-vr42"></a>
+
+> [!question]- Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen
+> *🆕 Examen 2010-2 · PO 3.0 + 4.0*
+>
+> Kan u in de gegeven situaties volgende opdrachten aanvaarden? Per situatie: antwoord ja of neen en licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.
+>
+> Op 29 december 2010 legt men u een staat van activa en passiva per 30/09/2010 voor met de vraag om hierover een accountantsverslag op te maken met het oog op een omvorming van een bvba in een nv. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Neen** — de staat van activa en passiva per 30/09/2010 is op 29/12/2010 nagenoeg drie maanden oud, zodat hij niet meer kan dienen als basis voor het accountantsverslag bij omzetting: de algemene vergadering tot omzetting moet plaatsvinden **binnen drie maanden** na de afsluitdatum van de staat (W.Venn. art. 776, ten tijde van het examen; vandaag art. 14:3 WVV). 🔗
+> > 
+> > De staat van activa en passiva die ten grondslag ligt aan het verslag van de beroepsbeoefenaar bij een (binnenlandse) omzetting mag op de dag van de buitengewone algemene vergadering die over de omzetting beslist **niet meer dan drie maanden oud** zijn. 📖 Op 29/12/2010 schiet de termijn quasi tekort: zelfs als de notariële akte de dag zelf zou kunnen verleden worden, moet er nog een verslag worden opgemaakt en moet de AV worden bijeengeroepen (oproepingstermijnen). De facto is het tijdsbestek niet meer haalbaar — een nieuwe staat (bv. per 31/10 of 30/11) is nodig vooraleer de opdracht zinvol kan worden aanvaard. 🔗
+> > 
+> > Onder het huidige WVV is de driemaandentermijn behouden voor de **binnenlandse** omzetting (art. 14:3 WVV); voor **grensoverschrijdende** omzetting geldt een ruimere termijn van vier maanden (art. 14:21 / 14:74 WVV). 📖 Voor een gewone bvba→nv-omzetting blijft drie maanden dus het maatstaf. De accountant moet bovendien de aansprakelijkheidsregeling in het oog houden: een overwaardering van het netto-actief leidt tot persoonlijke en hoofdelijke aansprakelijkheid van de beroepsbeoefenaar voor het tekort. 🔗
+> > 
+> > ITAA-norm omzetting van een vennootschap (par. III.1 + Bijlage 3): de staat van activa en passiva mag niet meer dan drie maanden vóór de algemene vergadering zijn afgesloten. Wettelijke basis ten tijde van het examen: art. 776 W.Venn.; thans art. 14:3 WVV (binnenlandse omzetting) / art. 14:21 (vier maanden voor grensoverschrijdende omzetting). 📖  
+> > *Bron: Art. 14:3 WVV (vroeger art. 776 W.Venn.); ITAA-norm omzetting van een vennootschap*
+>
+> U bent werkzaam als bediende in een bedrijf en bent ingeschreven op de lijst van de interne accountants. U wordt gecontacteerd door een aandeelhouder van een andere onderneming om een opdracht te aanvaarden in het kader van de individuele onderzoeks- en controlebevoegdheid van vennoten. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Neen** — als interne accountant (ingeschreven op de deellijst van interne accountants) is het uitoefenen van een externe opdracht voor derden onverenigbaar met het statuut: de hoedanigheid van intern accountant veronderstelt dat de werkzaamheden **uitsluitend** binnen de arbeidsovereenkomst met de werkgever worden verricht. 🔗
+> > 
+> > De wettelijke ratio is dubbel:
+> > 
+> > - **Statuut-onverenigbaarheid**: een intern accountant oefent zijn beroep uit in het kader van een arbeidsovereenkomst (of een door de overheid bezoldigde betrekking) en mag enkel werken voor de werkgever waarmee dat dienstverband bestaat. Voor derden optreden is voorbehouden aan **externe** accountants/belastingconsulenten. 🤖
+> > - **Onafhankelijkheid**: de individuele onderzoeks- en controlebevoegdheid van een vennoot (art. 3:45-3:47 WVV; in 2010 art. 165-167 W.Venn.) is een opdracht die juist een onafhankelijke positie veronderstelt — de loyaliteitsband met een eigen werkgever is daarmee onverenigbaar. 🔗
+> > 
+> > Wil de betrokkene de opdracht aanvaarden, dan moet hij eerst zijn inschrijving op de deellijst interne accountants laten omzetten naar de deellijst van externe accountants (en aan de daaraan verbonden voorwaarden voldoen). 🤖
+> > 
+> > De individuele onderzoeks- en controlebevoegdheid van een vennoot (art. 3:45-3:47 WVV) is **geen monopolieopdracht** in de strikte zin: de vennoot mag zich laten bijstaan door een accountant of bedrijfsrevisor, maar de wet vereist dat die beroepsbeoefenaar **extern** en onafhankelijk is. De kernfout is denken dat "interne accountant" een synoniem zou zijn van "gewoon accountant" — de twee deellijsten geven verschillende rechten en plichten. 🔗
+> > 
+> > Wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur (Wet-ITAA): onderscheid tussen externe en interne (deel)lijst. KB van 1 maart 1998 plichtenleer accountants, art. 9, derde lid: bij onverenigbaarheid tussen instructies van de werkgever en de deontologische regels moet de intern werkzame accountant de deontologie laten primeren. Voor de bevoegdheid waarop de vraag slaat: art. 3:45-3:47 WVV (individuele onderzoeks- en controlebevoegdheid van vennoten; in 2010: art. 165-167 W.Venn.). 📖  
+> > *Bron: Wet-ITAA 2019 (in 2010: Wet 22 april 1999); KB 1 maart 1998 art. 9; art. 3:45-3:47 WVV*
+>
+> Uw echtgenote wenst haar vennootschap te vereffenen en vraagt u om een accountantsverslag op te stellen in het kader van deze vereffening en de staat van activa en passiva die door haar werd opgemaakt. Kan u deze opdracht aanvaarden (ja/neen)? Licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Neen** — een opdracht aanvaarden in de vennootschap van de eigen echtgenote is deontologisch verboden: de echtgenote-relatie tast de onafhankelijkheid en onpartijdigheid van de externe accountant uitdrukkelijk aan. 📖
+> > 
+> > Twee regels samen leveren een glashelder verbod op:
+> > 
+> > - **Art. 10 KB plichtenleer** (1998): de externe accountant mag geen monopolieopdracht aanvaarden in een onderneming waarin **zijn echtgenoot** of een bloed- of aanverwant tot in de tweede graad voornaamste aandeelhouder, bestuurder, zaakvoerder of leidinggevende is. 📖
+> > - **Art. 9 KB plichtenleer**: de externe accountant moet **elke** opdracht weigeren zodra er feiten of banden zijn die zijn onafhankelijkheid of onpartijdigheid kunnen aantasten — de huwelijksband valt daar zonder discussie onder. 📖
+> > 
+> > Het accountantsverslag bij vereffening (vroeger art. 181 W.Venn.; thans art. 2:71 / 2:81 WVV) is bovendien een **monopolieopdracht** van de externe accountant of de bedrijfsrevisor — net het type opdracht dat art. 10 expliciet uitsluit. 🔗
+> > 
+> > Het maakt niet uit dat de echtgenote *zelf* om de opdracht vraagt of dat de huwelijksvermogensituatie scheiding van goederen zou zijn: art. 10 is een **objectieve** onverenigbaarheid (relatie + functie volstaat), zonder belangenafweging in concreto. Doorverwijzen naar een confrater (een externe accountant of bedrijfsrevisor zonder familieband) is de juiste reflex. 🔗
+> > 
+> > KB van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants: art. 9 (algemene weigeringsplicht bij aantasting onafhankelijkheid), art. 10 (specifiek verbod monopolieopdracht in onderneming waar echtgenoot of bloed-/aanverwant tot in de tweede graad sleutelpositie bekleedt), art. 11 (belangenconflict). Voor de vereffeningsopdracht zelf: art. 2:71 / 2:81 WVV (vroeger art. 181 W.Venn.) + ITAA-norm ontbinding en vereffening. 📖  
+> > *Bron: Art. 9-10-11 KB 1 maart 1998 plichtenleer accountants; art. 2:71 en 2:81 WVV (vroeger art. 181 W.Venn.)*
 
 <a id="2008-bibf-vrK1"></a>
 

@@ -1,0 +1,73 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr29",
+  "interpretatie_datum": "2026-05-29T19:33:17Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Recht op aftrek van btw — vijf concrete handelingen bij een normale btw-belastingplichtige",
+  "programmaonderdeel_ids": ["2.4"],
+  "themas": [
+    "btw-aftrek",
+    "personenwagen",
+    "geschenken aan personeel",
+    "hotelkosten",
+    "geestrijke dranken",
+    "relatiegeschenken",
+    "aftrekbeperkingen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Is er recht op aftrek van de btw, geheven van volgende handelingen, in hoofde van een btw-belastingplichtige die onderworpen is aan de normale regeling? Antwoord met JA of NEEN door het aankruisen of omcirkelen van je keuze. Zo ja, bereken ook hoeveel recht op aftrek EN geef een korte toelichting of verwijs naar het overeenkomstig btw-artikel.\n\nDe leveranciers en de dienstverrichters zijn ook aan de normale btw-regeling onderworpen. De formaliteiten voor het uitoefenen van het recht op aftrek worden verondersteld voldaan te zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De aankoop van brandstof voor een personenwagen, € 100,00 + 21 % btw. De wagen wordt voor 80 % gebruikt voor de doeleinden van de economische activiteit. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De aankoop van een geschenk bestemd voor een personeelslid bij diens huwelijk: € 120,00 + € 25,20 btw (21 %). Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een ontvangen factuur ten bedrage van € 250,00 + 6 % btw (kamer met ontbijt) voor de overnachting van 4 personeelsleden in een hotel in Aarlen (België) bij de montage van een machine bij een klant gevestigd in dezelfde stad. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een ontvangen factuur ten bedrage van € 80,00 + 21 % btw voor de aankoop van geestrijke dranken door een restauranthouder. De dranken worden ofwel geserveerd aan klanten, ofwel gebruikt voor het bereiden van spijzen. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De aankoop van 100 kogelpennen, prijs: € 250,00 + € 52,50 btw (21 %); deze kogelpennen worden als nieuwjaarsgeschenk aan klanten aangeboden (1 per klant). Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 van examen 2010-2 (5 punten, BTW). Vijf concrete subvragen (a–e) over recht op btw-aftrek, telkens met JA/NEEN-keuze plus berekening en korte toelichting/verwijzing naar btw-artikel — geklassificeerd als juist_fout met motivatie_verwacht=true (standaard ITAA-patroon voor JA/NEEN-stellingen met motivering). De gedeelde instructie staat in casus_context; per subvraag heb ik de instructie 'Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.' geëxpliciteerd zodat elke deelvraag zelfstandig leesbaar is. OCR/PDF-glitch: in (b) staat '€ 120,00 + 25,20 % btw' en in (e) '€ 250,00 + 52,50 % btw' — 25,20 = 21% van 120 en 52,50 = 21% van 250, dus duidelijk het btw-bedrag in euro dat in de bron als '%' is afgedrukt (PDF-rendering-fout). Genormaliseerd naar '€ X,XX btw (21 %)' en kwaliteits-flag 'typo_genormaliseerd' gezet. Footer-tekst 'messages.downloaded_by' en pagina-nummer '18' (Studocu-watermark/footer) zijn verwijderd uit (c). De volgende-vraag-header 'BEGINSELEN VAN REGISTRATIE- EN SUCCESSIERECHTEN — 10 PUNTEN' onderaan tekst.txt hoort bij de volgende vraag en is genegeerd. PO 2.4 (BTW).",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd",
+    "ocr_artefact"
+  ]
+}

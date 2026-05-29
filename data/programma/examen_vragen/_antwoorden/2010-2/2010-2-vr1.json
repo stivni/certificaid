@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr1",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, de onderneming mag — en moet zelfs — het afschrijvingsplan herzien wanneer de oorspronkelijk geschatte gebruiksduur (4 jaar) niet langer overeenstemt met de werkelijke economische levensduur (minstens 8 jaar). Het gaat om een **herziening van een schatting binnen dezelfde waarderingsregel**, niet om een eigenlijke stelselwijziging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Afschrijvingen spreiden de aanschaffingswaarde van een vast actief over zijn **waarschijnlijke nuttigheids- of gebruiksduur** (de economische levensduur). Die levensduur is per definitie een **schatting** door het bestuursorgaan en wordt beïnvloed door technische en economische slijtage. 📖\n\nWanneer in de loop van het gebruik blijkt dat de initiële schatting (hier: 4 jaar) niet langer overeenkomt met de werkelijke duur (minstens 8 jaar), moet het afschrijvingsplan worden bijgesteld zodat de jaarrekening een **getrouw beeld** blijft geven (art. 3:1 KB WVV). De CBN bevestigt dit uitdrukkelijk: een wijziging van de waarderingsregels (of de invulling ervan) dringt zich op wanneer de economische levensduur wijzigt. 📖\n\nDe herziening werkt **prospectief**: de nog niet afgeschreven boekwaarde wordt vanaf het lopende boekjaar gespreid over de resterende, herziene gebruiksduur. Eventueel **te snel geboekte afschrijvingen uit het verleden mogen worden teruggenomen**, maar dat is geen verplichting en moet met de nodige omzichtigheid gebeuren. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **schattingswijziging** (bijstelling van de gebruiksduur — wat hier speelt) niet met een **stelselwijziging** (bv. overstap van lineair naar degressief afschrijven, of een andere waarderingsmethode kiezen). Beide vereisen vermelding in de toelichting, maar de motivering en de behandeling verschillen: een schattingswijziging werkt enkel prospectief op de resterende boekwaarde; een echte wijziging van de waarderingsregel zelf moet bovendien worden verantwoord met haar geraamde invloed op vermogen, financiële positie en resultaat (art. 3:7 KB WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:6, §1 KB WVV: het bestuursorgaan stelt de waarderingsregels vast, inclusief de regels voor vorming en aanpassing van de afschrijvingen, en vat ze samen in de toelichting. Het beginsel van **bestendigheid** vereist gelijke toepassing van boekjaar tot boekjaar, maar de regels worden aangepast zodra ze niet langer toelaten een getrouw beeld te geven. CBN-advies 2010/15 (Afschrijvingsmethoden) en CBN-advies 2019/04 verduidelijken dat dit ook geldt voor een gewijzigde inschatting van de economische levensduur. 📖",
+          "wetsref": "art. 3:6 §1 KB WVV; art. 3:1 KB WVV; CBN-advies 2010/15; CBN-advies 2019/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "De te vervullen formaliteiten zijn:\n\n- **Beslissing door het bestuursorgaan** dat het afschrijvingsplan moet worden herzien (de waarderingsregels worden door het bestuursorgaan vastgesteld). 🔗\n- **Aanpassing van de waarderingsregels** (of van de invulling ervan): de afschrijvingsperiode voor de betrokken machines wordt gewijzigd van 4 naar (minstens) 8 jaar. 📖\n- **Vermelding én verantwoording in de toelichting** bij de jaarrekening: de gewijzigde waarderingsregel wordt opgenomen in de samenvatting van de waarderingsregels, mét motivering waarom de oorspronkelijke gebruiksduur niet langer aansluit bij de werkelijke economische levensduur. 📖\n- **Vermelding van de geraamde invloed** van de aanpassing op het vermogen, de financiële positie en het resultaat in de toelichting bij het boekjaar waarin de wijziging voor het eerst wordt toegepast. 📖\n- **Prospectieve toepassing**: vanaf het lopende boekjaar wordt de resterende boekwaarde gespreid over de herziene resterende gebruiksduur. Een eventuele terugname van in het verleden te snel geboekte afschrijvingen is mogelijk maar niet verplicht en moet omzichtig gebeuren. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De toelichting bevat krachtens art. 3:61 KB WVV een **samenvatting van de waarderingsregels** krachtens art. 3:6 §1, tweede lid. Een wijziging moet daarin zichtbaar zijn — niet weggemoffeld — en moet voldoende nauwkeurig zijn opdat de lezer van de jaarrekening inzicht krijgt in de toegepaste methoden. Een loutere vermelding zonder verantwoording volstaat niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:6 §1 KB WVV (bestuursorgaan stelt waarderingsregels vast — bestendigheid + aanpassing wanneer de regels geen getrouw beeld meer geven); art. 3:61 KB WVV (samenvatting van de waarderingsregels in de toelichting); art. 3:7 KB WVV (vermelding + verantwoording + geraamde invloed bij afwijking/aanpassing). CBN-advies 2010/15 en CBN-advies 2019/04 illustreren de concrete toepassing op een wijziging van de afschrijvingsduur. 📖",
+          "wetsref": "art. 3:6 §1, art. 3:7, art. 3:61 KB WVV; CBN-advies 2010/15; CBN-advies 2019/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

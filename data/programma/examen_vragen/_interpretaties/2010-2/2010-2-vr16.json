@@ -1,0 +1,86 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr16",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)",
+  "programmaonderdeel_ids": [
+    "1.6",
+    "3.0"
+  ],
+  "themas": [
+    "kapitaalverhoging",
+    "fractiewaarde",
+    "intrinsieke waarde",
+    "aandelenwaardering",
+    "verwatering oude aandeelhouders",
+    "bijzondere opdrachten accountant",
+    "uitgifteprijs",
+    "naamloze vennootschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De NV ABC stelt de heer X in de mogelijkheid om in te schrijven bij een kapitaalverhoging in de vennootschap ten belope van 12.500,00 EUR tegen een prijs van 250,00 EUR per aandeel. Het totaal aantal bestaande aandelen bedraagt 4.358 aandelen en het geplaatst kapitaal bedraagt 1.080.443,31 EUR. Verder bestaat het eigen vermogen per 31 december 2009 uit volgende elementen:\n\nReserves: 169.782,24 EUR\nOvergedragen winst: 40.683,50 EUR"
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Eigen vermogen NV ABC per 31 december 2009",
+      "rijen": [
+        { "label": "Geplaatst kapitaal", "bedrag": 1080443.31 },
+        { "label": "Reserves", "bedrag": 169782.24 },
+        { "label": "Overgedragen winst", "bedrag": 40683.50 },
+        { "label": "Totaal aantal bestaande aandelen", "bedrag": 4358 },
+        { "label": "Bedrag kapitaalverhoging", "bedrag": 12500.00 },
+        { "label": "Uitgifteprijs per nieuw aandeel", "bedrag": 250.00 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de fractiewaarde per aandeel.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken de intrinsieke waarde per aandeel.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het normale aantal uit te geven aandelen (bij de geplande kapitaalverhoging van 12.500,00 EUR).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Wat zijn de gevolgen voor de oude aandeelhouders bij genoemde verrichting, wanneer op het voorstel van het bestuursorgaan toch 50 aandelen worden uitgegeven?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a-d",
+    "tekst": "Tabel met uitgewerkte oplossing: Geplaatst kapitaal 1.080.443,31 + Wettelijke reserve 1.330,17 + Belastingvrije reserve 167.887,05 + Beschikbare reserve 565,02 + Overgedragen winst 25.272,93 + Resultaat voor de periode 15.410,57 = Totaal eigen vermogen 1.290.909,05 EUR / 4.358 aandelen. Waarde per aandeel vóór kapitaalverhoging: 296,22 EUR; uitgifteprijs: 250,00 EUR; waarde per aandeel na kapitaalverhoging (bij 50 nieuwe aandelen): 295,69 EUR. Na: 1.303.409,05 EUR / 4.408 aandelen.",
+    "vermoedelijke_status": "modeloplossing (Studocu-export bevat oplossingstabel op volgpagina die door pdfplumber in tekst.txt van pagina 11 is ingevoegd — niet zichtbaar op de PNG van pagina 11)"
+  },
+  "herinterpretatie_motivering": "PNG van pagina 11 bevestigt: dit is 'Vraag 1 .../12 punten' van het vakonderdeel VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN). Op de PNG zelf staat enkel de gegevens-tekst (NV ABC, kapitaalverhoging 12.500,00 EUR @ 250,00 EUR/aandeel, 4.358 bestaande aandelen, kapitaal 1.080.443,31 EUR, reserves 169.782,24 EUR, overgedragen winst 40.683,50 EUR) plus de vier deelvragen a-d. De grote tabel in tekst.txt (met uitgesplitste eigen-vermogensrubrieken, waarden 296,22 / 250,00 / 295,69 per aandeel) is een parser-artefact — pdfplumber heeft de oplossingstabel van een volgpagina (of een Studocu-overlay met de modeloplossing) ingevoegd, want die rubrieken (wettelijke reserve, belastingvrije reserve, beschikbare reserve, resultaat voor de periode) staan NIET in de PNG van pagina 11 en stemmen niet overeen met de in de vraag gegeven samenstelling (kapitaal + reserves-totaal + overgedragen winst). Die tabel is daarom uit het context_blokken-vraagdeel gehouden en als antwoord-hint geflagd. De vraag zelf is een klassieke accountantsoefening rond kapitaalverhoging: fractiewaarde (geplaatst kapitaal / aantal aandelen), intrinsieke waarde (eigen vermogen / aantal aandelen), normaal aantal nieuwe aandelen (= verhoging / intrinsieke waarde, ter vermijding van verwatering) en gevolgen voor de oude aandeelhouders bij onderwaardering van de uitgifte (verwatering). Deelvraag d) krijgt motivatie_verwacht=true ('wat zijn de gevolgen … wanneer …' vraagt om uitleg/redenering). Studocu-footer 'messages.downloaded_by' en DRAFT-watermark op PNG genegeerd. Classificatie: vakkop 'VENNOOTSCHAPSRECHT (BIJZONDERE MANDATEN)' → PO 3.0 (vennootschapsrecht-kader rond kapitaalverhoging) + PO 1.6 (bijzondere opdrachten accountant — controleverslag bij inbreng / kapitaalverhoging, aandelenwaardering).",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig",
+    "ocr_artefact",
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

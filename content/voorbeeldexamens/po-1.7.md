@@ -3,12 +3,12 @@ title: PO 1.7 — Interne controle
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.7 (Interne controle).
 tags: [examen, voorbeeldvragen, po-1-7]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 1.7 — Interne controle
 
-**17 unieke vraag-eenheden** (waarvan 1 cluster, totaal 18 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 17 met modelantwoord
+**20 unieke vraag-eenheden** (waarvan 1 cluster, totaal 21 voorkomens) uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 20 met modelantwoord
 
 <a id="2024-1-vr3A"></a>
 
@@ -655,3 +655,155 @@ gegenereerd_op: 2026-05-28
 > > 
 > > **CBN-advies 4/4** — Creditnota's volgen het beginsel van het dubbel boekhouden en moeten dezelfde boekingswijze hebben in dagboek én rekeningen; afwijkingen verhullen mutaties en breken de auditspoor — relevant voor vaststelling 3. 📖  
 > > *Bron: ISA 315 Bijlage 3 · ISA 240 · CBN-advies 4/4*
+
+<a id="2010-2-vr7"></a>
+
+> [!question]- Functiescheiding in interne controle — classificatie van taken naar beherende, bewarende, registrerende of controlerende functie
+> *🆕 Examen 2010-2 · PO 1.7*
+>
+> In de interne controle spreekt men vaak van vier functies, nl. de beherende, de bewarende, de registrerende en de controlerende functie.
+>
+> Duid in onderstaand schema door middel van een kruisje aan tot welke functie (beherend, bewarend, registrerend of controlerend) de bedoelde taken behoren. Taken: (1) Akkoord aankoop; (2) Doorgeven aankooporder; (3) Ontvangst van goederen; (4) Ontvangst van factuur; (5) Verificatie van factuur; (6) Aanmaak betalingsvoorstel; (7) Controle betalingsvoorstel; (8) Uitvoeren betaling; (9) Aanmaak en onderhoud basisgegevens.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Klassieke vier-functies-leer toegepast op de aankoopcyclus — kruisje per taak:
+> > 
+> > | # | Taak | Beherend | Bewarend | Registrerend | Controlerend |
+> > |---|---|:---:|:---:|:---:|:---:|
+> > | 1 | Akkoord aankoop | X |  |  |  |
+> > | 2 | Doorgeven aankooporder | X |  |  |  |
+> > | 3 | Ontvangst van goederen |  | X |  |  |
+> > | 4 | Ontvangst van factuur |  |  | X |  |
+> > | 5 | Verificatie van factuur |  |  |  | X |
+> > | 6 | Aanmaak betalingsvoorstel |  |  | X |  |
+> > | 7 | Controle betalingsvoorstel |  |  |  | X |
+> > | 8 | Uitvoeren betaling | X |  |  |  |
+> > | 9 | Aanmaak en onderhoud basisgegevens | X |  |  |  |
+> > 
+> > 🔗
+> > 
+> > Toepassing van het functiescheidings-principe (ACR-IH / vier-functies-leer):
+> > 
+> > - **Beherende functie** = beslissen tot of disposeren over een transactie (autoriseren én uitvoeren van de wilsbeslissing). 📖
+> >   - **(1) Akkoord aankoop** = de autorisatie-handeling zelf. 🔗
+> >   - **(2) Doorgeven aankooporder** = uitvoering van de beslissing — de onderneming verbindt zich extern tegenover de leverancier. 🔗
+> >   - **(8) Uitvoeren betaling** = disposeren over de liquide middelen. 🔗
+> >   - **(9) Aanmaak/onderhoud basisgegevens** = beslissingsbevoegdheid over master data (leveranciers, rekeningnummers, prijzen) — wie hier toegang heeft, kan de hele cyclus sturen, daarom een beherende (beschikkende) taak. 🔗
+> > - **Bewarende functie** = fysieke custody van activa.
+> >   - **(3) Ontvangst van goederen** = de magazijnier neemt de goederen onder zijn fysieke verantwoordelijkheid. 🔗
+> > - **Registrerende functie** = administratieve vastlegging zonder beslissings- of bewakingsbevoegdheid.
+> >   - **(4) Ontvangst van factuur** = administratief inboeken van het binnengekomen document. 🔗
+> >   - **(6) Aanmaak betalingsvoorstel** = administratieve voorbereiding (samenstellen van te betalen facturen op basis van vervaldata) — er wordt nog niet beslist of betaald. 🔗
+> > - **Controlerende functie** = onafhankelijke verificatie achteraf.
+> >   - **(5) Verificatie van factuur** = driewegsmatching factuur ↔ bestelbon ↔ ontvangstbon. 🔗
+> >   - **(7) Controle betalingsvoorstel** = nazicht voor vrijgave (juiste bedragen, juiste begunstigden, vervaldata). 🔗
+> > 
+> > Twee taken kunnen leerboek-afhankelijk verschillend geclassificeerd worden: **(4) ontvangst factuur** wordt soms bij **bewarend** geplaatst (de boekhouding bewaart het brondocument), en **(6) aanmaak betalingsvoorstel** soms bij **beherend** (het voorstel stuurt de betaaldispositie). De dominante Belgische ITAA-leer — gebruikt in voorbeeldexamens — plaatst beide in de **registrerende** functie omdat geen van beide al een wilsbeslissing of fysieke custody inhoudt. Cruciaal voor de punten: zorg dat (1, 2, 8, 9) **niet** in dezelfde hand liggen als (3) of (5, 7) — autorisatie + uitvoering + controle bij één persoon = volledige doorbreking van functiescheiding. ❓
+> > 
+> > Het functiescheidingsbeginsel is genormeerd in ISA 315 (herzien-2019) Bijlage 3: "functiescheiding houdt in dat de verantwoordelijkheden voor het autoriseren van transacties, het vastleggen van transacties en het bewaren van activa" aan verschillende personen worden toegewezen, om te beperken dat één persoon fouten of fraude kan plegen én verhullen. De Belgische beroepspraktijk vertaalt dit naar de vier-functies-leer (beherend = autoriseren + uitvoeren / bewarend = custody / registrerend = vastleggen / controlerend = verifiëren), met als vuistregel dat één persoon niet meer dan twee niet-aangrenzende functies mag cumuleren. 📖  
+> > *Bron: ISA 315 (herzien-2019), Bijlage 3 — Beheersingsactiviteiten / Functiescheiding*
+
+<a id="2010-2-vr8"></a>
+
+> [!question]- Interne controlemaatregelen in de verkoopcyclus
+> *🆕 Examen 2010-2 · PO 1.7*
+>
+> Welke interne controlemaatregelen dienen te worden nagezien in het kader van de verkoopcyclus? Verduidelijk het begrip telkens met een voorbeeld.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De verkoopcyclus (order-to-cash) loopt van klantorder naar kredietcheck naar levering naar facturatie naar inning naar opvolging openstaande vorderingen; per schakel moet de auditor zes klassieke interne controlemaatregelen nazien: (1) functiescheiding, (2) autorisatie en kredietwaardigheidstoets, (3) aansluiting levering en facturatie, (4) controle credit notes en kortingen, (5) cut-off rond balansdatum, en (6) opvolging openstaande vorderingen. 🔗
+> > 
+> > 1. **Functiescheiding** — verantwoordelijkheden voor autorisatie van de transactie, vastlegging in de boekhouding en bewaring van het actief (de geld-inning) liggen bij verschillende personen, zodat één persoon geen fictieve verkoop kan creëren en de bijhorende vordering kan verbergen. 📖
+> >    *Voorbeeld*: de commerciële medewerker die de klantorder ingeeft, mag de bijhorende factuur niet boeken en mag evenmin de bankontvangsten afpunten op de klantenrekening. Verkopers mogen ook geen productprijzen of commissietarieven kunnen wijzigen in de master file. 📖
+> > 
+> > 2. **Autorisatie en kredietwaardigheidstoets** — elke order boven een vooraf bepaalde grens of voor een nieuwe klant wordt vóór levering geautoriseerd, met een geautomatiseerde of manuele check op de kredietlimiet. 🔗
+> >    *Voorbeeld*: het ERP-systeem blokkeert automatisch de orderbevestiging zodra de uitstaande klantenpost de toegekende kredietlimiet zou overschrijden; vrijgave gebeurt enkel door de financieel verantwoordelijke. 🔗
+> > 
+> > 3. **Aansluiting levering en facturatie (volledigheid omzet)** — elke verzonden levering resulteert in een factuur en elke factuur is gekoppeld aan een levering, op basis van een sluitende nummering van vrachtbrieven en facturen. 🔗
+> >    *Voorbeeld*: maandelijkse aansluiting tussen het vrachtbrievenboek, het magazijnsysteem (uitgaande voorraadbewegingen) en het verkoopfacturatiedagboek; ontbrekende of dubbele nummers worden opgevolgd. 🔗
+> > 
+> > 4. **Controle van credit notes, kortingen en correcties** — creditnota's en handmatige correcties zijn een gekend pad voor het verbergen van onregelmatigheden (oneigenlijke kortingen, fictieve omzet later gecorrigeerd) en vereisen daarom een aparte goedkeuringslaag. 📖
+> >    *Voorbeeld*: elke creditnota wordt voorafgaandelijk getekend door een bevoegde manager die de commerciële medewerker niet rapporteert aan, met motivering en gekoppeld aan de originele factuur. 🔗
+> > 
+> > 5. **Cut-off-procedure rond balansdatum** — de leveringen, facturen en geld-ontvangsten van de laatste dagen vóór en de eerste dagen na balansdatum worden afzonderlijk gecontroleerd om omzet en vorderingen in het juiste boekjaar te boeken. 📖
+> >    *Voorbeeld*: nummers van de laatste vrachtbrief en laatste factuur per 31/12 worden opgenomen in een cut-off-fiche; de eerste tien leveringen en facturen van het nieuwe boekjaar worden bekeken om bill-and-hold of vervroegde omzetboeking uit te sluiten. 📖
+> > 
+> > 6. **Opvolging openstaande vorderingen en ageing-analyse** — periodieke beoordeling van de ouderdomsbalans en opvolging van betaalherinneringen waarborgt zowel de waardering van de vorderingen (waardevermindering op dubieuze debiteuren) als de detectie van fictieve klanten of niet-bestaande verkopen. 🔗
+> >    *Voorbeeld*: maandelijkse ageing-report met de vorderingen ouder dan 60/90/120 dagen, manueel gereviewd door de boekhouder met systematische aanmaningsstappen; klanten die structureel niet betalen worden gerapporteerd aan de zaakvoerder voor afwaardering of voorziening dubieuze debiteuren. 🔗
+> > 
+> > ISA 240 par. 26 verplicht de auditor om revenue recognition standaard als een significant risico op fraude te behandelen — fictieve verkopen, vervroegde omzet en bill-and-hold-constructies zijn de klassieke management-fraudepatronen, omdat het management onder target-druk omzet kan opblazen. Bij de verkoopcyclus moet de stagiair de standaard-controlemaatregelen daarom altijd toetsen op werking (operating effectiveness), niet enkel op opzet (design effectiveness). 📖
+> > 
+> > ISA 315 (herzien 2019) Bijlage 3 beschrijft functiescheiding tussen autoriseren, vastleggen en bewaren met de verkoopcyclus als illustratie ("een manager die kredietverkopen autoriseert is niet verantwoordelijk voor het bijhouden van debiteurenrekeningen of afhandeling van contante betalingen"). ISA 240 par. 26 vereist dat de auditor revenue recognition standaard als frauderisico inschat. Operationeel kader: COSO (controle-activiteiten) en de cyclus-aanpak (order-to-cash). 📖  
+> > *Bron: ISA 315 (herzien-2019) Bijlage 3 · ISA 240 par. 26*
+
+<a id="2010-2-vr9"></a>
+
+> [!question]- Interne controle leveranciersadministratie — juist/fout stellingen
+> *🆕 Examen 2010-2 · PO 1.7*
+>
+> Duid met een kruisje aan of de volgende omschrijvingen juist of fout zijn in het kader van de interne controle voor de leveranciersadministratie.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Alle facturen van goederen moeten bij ontvangst rechtstreeks naar de leveranciersadministratie worden gezonden met het oog op controle.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Goederenfacturen moeten niet rechtstreeks naar de leveranciersadministratie, maar eerst naar de aankoop- en/of ontvangstafdeling om matching mogelijk te maken met de bestelbon en de ontvangstbon (three-way matching). 🔗
+> > 
+> > De sleutelcontrole in de aankoopcyclus (procure-to-pay) is de **three-way match**: inkooporder + ontvangstbon + factuur moeten kwantitatief en kwalitatief overeenstemmen vooraleer tot boeking en betaling wordt overgegaan. 📖 De factuur moet dus eerst langs de afdelingen die de bestelling én de fysieke ontvangst gedaan hebben (om kwantiteit, kwaliteit en prijs te bevestigen) en pas daarna naar de leveranciersadministratie voor inboeking en betalingsvoorbereiding. Rechtstreekse routering naar de leveranciersadministratie ontneemt de mogelijkheid tot operationele verificatie en creëert het risico dat niet-bestelde of niet-geleverde goederen worden betaald (fictieve leveranciers, niet-conforme leveringen). 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Alle facturen van diensten moeten bij ontvangst rechtstreeks naar de leveranciersadministratie worden gezonden met het oog op controle.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Ook dienstenfacturen moeten eerst naar de afdeling die de dienst heeft besteld (of waaraan de dienst is geleverd) voor inhoudelijke goedkeuring — niet rechtstreeks naar de leveranciersadministratie. 🔗
+> > 
+> > Voor diensten ontbreekt er typisch een fysieke ontvangstbon, waardoor de verifieerbaarheid lager is dan bij goederen — net daarom is goedkeuring door de aanvragende afdeling kritiek. De afdeling die de dienst genoot moet bevestigen dat: (1) de dienst effectief geleverd werd, (2) de hoeveelheid (uren, prestaties) klopt, (3) de prijs overeenstemt met het contract of de offerte. Pas na die inhoudelijke validatie kan de leveranciersadministratie de factuur boeken en in betaling voorbereiden. Het risico op fictieve dienstenfacturen (vooral bij intercompany of bevriende leveranciers) is precies waarom deze tussenstap niet mag overgeslagen worden. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De facturen worden enkel vergeleken met de bestelbon van de betrokken afdeling.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. De factuur wordt vergeleken met de bestelbon **én** met de ontvangstbon (three-way matching), niet enkel met de bestelbon. 🔗
+> > 
+> > De **three-way match** vergelijkt drie documenten: (1) **inkooporder/bestelbon** (bevestigt dat de aankoop geautoriseerd was), (2) **ontvangstbon** (bevestigt dat de goederen effectief en in welke hoeveelheid ontvangen zijn), (3) **factuur** (bevat de prijs en het te betalen bedrag). 📖 Zonder de ontvangstbon-component bestaat het risico dat er betaald wordt voor bestelde maar nooit geleverde goederen — een klassieke fraudegevoeligheid in de aankoopcyclus. 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Enkel handgeschreven facturen worden rekenkundig gecontroleerd.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. **Alle** facturen moeten rekenkundig worden gecontroleerd, niet enkel de handgeschreven exemplaren. 🔗
+> > 
+> > Rekenkundige controle (totaal = som van de lijnen + correcte BTW-berekening + juiste prijs × hoeveelheid) is een standaard onderdeel van factuurverificatie ongeacht het medium. Ook gedrukte of geautomatiseerd gegenereerde facturen kunnen fouten bevatten (foute prijslijst, verkeerd BTW-tarief, programmeerfout bij de leverancier). 🤖 De redenering achter de stelling — "computers maken geen rekenfouten" — is in interne-controle-leer geen vrijgeleide: de controle blijft nodig om consistent te zijn en om fouten in de invoer bij de leverancier op te vangen. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De gecontroleerde facturen worden bij het inboeken door de boekhoudafdeling van een volgnummer voorzien.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST**. Gecontroleerde facturen worden bij het inboeken voorzien van een (chronologisch) volgnummer door de boekhoudafdeling. 🔗
+> > 
+> > Het toekennen van een intern volgnummer bij inboeking is een **standaard detectieve controle** die twee doelen dient: (1) **volledigheid** — opeenvolgende nummers tonen dat geen enkele factuur "verdwenen" is tussen ontvangst en boeking, en (2) **referentie** — het volgnummer dient als interne audit-trail om elke boeking te herleiden tot het fysieke document. 🤖 Dit is een klassiek voorbeeld van een sleutelcontrole tegen het risico van niet-geboekte schulden (cut-off + volledigheid van de leveranciersrekening). 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het toegepaste btw-tarief zal worden nagezien.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST**. Het toegepaste BTW-tarief moet worden nagezien als onderdeel van de factuurcontrole. 🔗
+> > 
+> > BTW-controle is een verplichte component van de factuurverificatie omwille van twee redenen: (1) **fiscale correctheid** — een verkeerd BTW-tarief leidt tot foutieve BTW-aangifte met risico op naheffing en boetes; (2) **aftrekbaarheid** — alleen een geldige factuur met correcte BTW-vermeldingen geeft recht op BTW-aftrek (art. 3 KB nr. 1 W.BTW: verplichte vermeldingen op de factuur). 🤖 In de praktijk verifieert de boekhoudafdeling of het tarief (6%, 12%, 21%) past bij de aard van de geleverde goederen of diensten, en of een eventueel verlegd BTW-stelsel (medecontractant, intracommunautair) correct is toegepast. 🤖
+> > 
+> > **Gedeelde grondslag voor alle stellingen** — De interne-controle-principes voor de aankoopcyclus (procure-to-pay) zijn gestandaardiseerd in ISA 315 Bijlage 3 (interne-beheersingsactiviteiten en functiescheiding) en de cyclus-aanpak van de audit-praktijk. Sleutelcontroles: (1) **three-way matching** (inkooporder + ontvangstbon + factuur), (2) functiescheiding aankoop/ontvangst/boekhouding/betaling, (3) rekenkundige en BTW-controle bij inboeking, (4) chronologische volgnummering bij boeking voor volledigheidscontrole, (5) autorisatie betaling door bevoegd persoon. 📖 Specifiek voor BTW-vermeldingen op facturen: art. 5 KB nr. 1 W.BTW (verplichte vermeldingen). 📖  
+> > *Bron: ISA 315 (herzien-2019) Bijlage 3 + KB nr. 1 W.BTW art. 5*

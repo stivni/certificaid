@@ -1,0 +1,21 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr24",
+  "antwoord_datum": "2026-05-29T19:38:21Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "motivatie",
+          "tekst": "De vraagstelling is niet volledig reconstrueerbaar uit het beschikbare segment (parser-fragment): pagina 16 van de PDF-extractie bevat enkel het einde van de feitencasus van vraag 1 en de aanhef van vraag 2 ('Vermeld en verduidelijk ... welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN — aftrekbare bestanddelen in één van de bewerkingen'). De voorgaande pagina's met de volledige feitencasus (octrooi-afschrijving, financiële vaste activa A/B/C, dividenden, meerwaarde aandelen D, ...) en de eventuele sub-vragen 3+ ontbreken in dit segment. Inhoudelijk thema: vennootschapsbelasting — aftrekbare bestanddelen in de bewerkingen (PO 2.3). Een volwaardig modelantwoord vereist de volledige casus en is hier dus niet mogelijk — flag voor heropbouw via het oorspronkelijke PDF-bronfragment.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

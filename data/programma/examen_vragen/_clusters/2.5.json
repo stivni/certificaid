@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.5",
-  "gegenereerd_op": "2026-05-26T10:21:13+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:57+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 16,
+  "threshold_cosine": 0.85,
+  "n_vragen": 23,
   "n_clusters": 2,
-  "n_singletons": 12,
+  "n_singletons": 19,
   "clusters": [
     {
       "cluster_id": "2.5-c1",
@@ -32,10 +32,7 @@
           "naar": "2014-1-vr39",
           "cosine": 0.8859
         }
-      ],
-      "verdict": "echt_duplicaat",
-      "actie": "merge_one_antwoord",
-      "motivering": "Identieke 3-delige vraag over vraag om inlichtingen aan derde: regelmatigheid, antwoordtermijn, overmachtsoplossing. Alleen het overmacht-scenario verschilt (staking vs wateroverlast) — juridisch antwoord identiek."
+      ]
     },
     {
       "cluster_id": "2.5-c2",
@@ -61,13 +58,21 @@
           "naar": "2014-1-vr40",
           "cosine": 0.957
         }
-      ],
-      "verdict": "echt_duplicaat",
-      "actie": "merge_one_antwoord",
-      "motivering": "Vier identieke stellingen over bezwaarrecht (roerende voorheffing, erfgenamen, ex-echtgenoot, ambtshalve aanslag). Volgorde verschilt, tekst woord-voor-woord gelijk."
+      ]
     }
   ],
-  "borderline_paren": [],
+  "borderline_paren": [
+    {
+      "van": "2013-2-vr32",
+      "naar": "2024-1-vr9D",
+      "cosine": 0.7751
+    },
+    {
+      "van": "2014-1-vr39",
+      "naar": "2024-1-vr9D",
+      "cosine": 0.7637
+    }
+  ],
   "singletons": [
     {
       "examen_id": "2003-bibf",
@@ -92,6 +97,18 @@
       "vraag_id": "2008-bibf-vrH2",
       "vraag_onderwerp": "Belasting op tekenen en indiciën: voorwaarden",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrH2.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr35",
+      "vraag_onderwerp": "Onderzoeksbevoegdheden fiscale administratie t.a.v. bankrekeningen — bankgeheim",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr35.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr36",
+      "vraag_onderwerp": "Fiscaal bankgeheim — informatieverzoek van ontvanger aan bank over vermogenssituatie belastingschuldige",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr36.json"
     },
     {
       "examen_id": "2013-1",
@@ -140,7 +157,36 @@
       "vraag_id": "2015-1-vr45",
       "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn inzake btw",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr45.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9A",
+      "vraag_onderwerp": "Bericht van wijziging — uiterlijke termijn voor aangetekende verzending",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9B",
+      "vraag_onderwerp": "Fiscale procedure bij vertrek uit België — verplichtingen belastingplichtige",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9C",
+      "vraag_onderwerp": "Bericht van wijziging bij nakende verjaring — te nemen stappen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9D",
+      "vraag_onderwerp": "Vraag om inlichtingen — antwoordtermijn belastingplichtige",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9E",
+      "vraag_onderwerp": "Bewaarplicht — te bewaren stukken en bewaringstermijn",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

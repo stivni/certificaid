@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr13",
+  "interpretatie_datum": "2026-05-29T19:30:52Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "NV TIBERI — aandelen aan toonder, recurrente verliezen en conflict tussen aandeelhouders",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "aandelen aan toonder",
+    "afschaffing toonderaandelen",
+    "recurrente verliezen",
+    "alarmbelprocedure",
+    "uitsluiting van een vennoot",
+    "gerechtelijke ontbinding",
+    "naamloze vennootschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In de naamloze vennootschap TIBERI, die in 1990 werd opgericht door twee broers (maatschappelijk kapitaal in 2010 — 150 000 EUR, vertegenwoordigd door aandelen aan toonder), bezit Pierre 85 % en Jean-Claude 15 % van de aandelen. De laatste statutenwijziging dateert van 15 december 2008.\n\nDoor een erfeniskwestie is de verstandhouding tussen de twee broers zoek geraakt en verzet Jean-Claude zich systematisch tegen alle beslissingen die door zijn broer worden voorgesteld.\n\nHij trekt ook de jaarrekeningen van de vennootschap in twijfel die al 2 jaar (boekjaren 2008 en 2009) met een aanzienlijk verlies worden afgesloten, zonder dat het eigen vermogen daalt beneden de helft van het maatschappelijk kapitaal.\n\nPierre zet u zijn problemen uiteen en vraagt u om advies.\n\nIn de beschreven situatie moeten drie rechtspunten uw aandacht weerhouden, namelijk betreffende de aandelen, de verliezen en het conflict tussen de twee broers en de rol van de rechter in dit conflict."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef een bondige uitleg in maximum 10 regels, met verwijzing naar de rechtsbron, over de problematiek van de effecten aan toonder in de NV TIBERI (aandelen aan toonder uitgegeven vóór de afschaffingswet).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Geef een bondige uitleg in maximum 10 regels, met verwijzing naar de rechtsbron, over de uitsluiting van een vennoot (in het kader van het conflict tussen Pierre en Jean-Claude) en de rol van de rechter daarbij.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Geef een bondige uitleg in maximum 10 regels, met verwijzing naar de rechtsbron, over de gevolgen van recurrente verliezen in de NV TIBERI (twee opeenvolgende verlieslatende boekjaren 2008 en 2009 zonder dat het eigen vermogen onder de helft van het maatschappelijk kapitaal zakt).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG bevestigt: dit is 'Vraag 2 ... / 6 punten' van het vakonderdeel Vennootschapsrecht (NV TIBERI-casus). De overkoepelende instructie 'Geef, voor elk van deze drie punten, een bondige uitleg in maximum 10 regels, met verwijzing naar de rechtsbron' is per deelvraag toegepast — de drie subvragen (a, b, c) zijn in de PDF als topic-labels gepresenteerd (effecten aan toonder / uitsluiting van een vennoot / recurrente verliezen). Volgorde in de tekst.txt (a=toonder, b=uitsluiting, c=verliezen) is aangehouden; de casus-introductie noemt de drie punten in een andere volgorde (aandelen, verliezen, conflict) — geen probleem, beide volgorden zijn valide weergaven. OCR-artefact 'messages.downloaded_by' (Studocu-footer) verwijderd. DRAFT-watermark op PNG genegeerd. Karakter 'auto-isolatie' geverifieerd: vraag is een echte vraag, geen parser-artefact.",
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
+}

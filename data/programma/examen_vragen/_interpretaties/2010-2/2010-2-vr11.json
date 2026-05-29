@@ -1,0 +1,115 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr11",
+  "interpretatie_datum": "2026-05-29T19:31:09Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controle van de balanspost kapitaal bij ontbindingsverslag van een NV",
+  "programmaonderdeel_ids": [
+    "1.6",
+    "3.0"
+  ],
+  "themas": [
+    "ontbindingsverslag",
+    "bijzondere accountantsmandaten",
+    "controle balanspost kapitaal",
+    "naamloze vennootschap",
+    "aandelen aan toonder",
+    "gecoördineerde statuten",
+    "Belgisch Staatsblad"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "U bent op 01/09/2010 aangesteld als accountant voor het opstellen van een verslag van ontbinding van een naamloze vennootschap opgericht in 1995. Op de laatste jaarvergadering op 25/06/2010 zijn slechts 60 % van de aandeelhouders verschenen, de aandelen van de vennootschap zijn aan toonder. De raad van bestuur geeft u een staat van activa en passiva per 31/08/2010 en deelt mee dat een nieuwe aandeelhouder ondertussen 30 % van de niet verschenen aandelen heeft verworven.\n\nU dient de balanspost “kapitaal” te controleren. Welke van de volgende controles dient u zeker uit te voeren?"
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Alle aandeelhouders identificeren",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Raad van bestuur naar “kennisgave” vragen van participaties van meer dan 25 %",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Toetsing met de gecoördineerde statuten",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Raadplegen van de bijlagen in het Belgisch Staatsblad",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Opvragen van alle aktes zoals ze voorkomen in de bijlagen in het Belgisch Staatsblad",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "f",
+      "label_in_pdf": "f",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Bevestiging bekomen van kapitaal bij notaris",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "g",
+      "label_in_pdf": "g",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Opvragen van de notulen van de laatste algemene vergaderingen",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "h",
+      "label_in_pdf": "h",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Opvragen van financieel plan bij notaris",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "i",
+      "label_in_pdf": "i",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Nagaan wat de samenstelling van het kapitaal is (incorporatie van reserves)",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "j",
+      "label_in_pdf": "j",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Saldo van kapitaal vergelijken met grootboekrekening en toelichting in de jaarrekening",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag bestaat uit 10 Ja/Neen-deelvragen (a-j) over welke controles de accountant zeker moet uitvoeren bij controle van de balanspost kapitaal in het kader van een ontbindingsverslag. Tekst van subvraag f-j was in tekst.txt deels samengevouwen door pdfplumber maar reconstrueerbaar via PNG (pagina 6 toont a-i met Ja/Neen-checkboxes; pagina 7 toont j). Subvragen blijven los — elk is een afzonderlijke ja/neen-stelling. Geen motivering gevraagd (kruisvakjes Ja/Neen). Programmaonderdelen: 1.6 (accountantsonderzoek / bijzondere mandaten — ontbindingsverslag is een wettelijke accountantsopdracht) en 3.0 (vennootschapsrecht — ontbinding NV, kapitaalprocedures, aandeelhoudersidentificatie). Pagina-header op p.6 toont nog \"ACCOUNTANTSONDERZOEK 25 PUNTEN\" (rubriek-context van vorige vraag), tabel-marker \"VENNOOTSCHAPSRECHT 20 PUNTEN\" verschijnt op p.7 onderaan na vraag 2 — dit is de transitie naar de volgende rubriek. Inhoudelijk overlapt deze vraag beide domeinen, vandaar de dubbele classificatie.",
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
+}

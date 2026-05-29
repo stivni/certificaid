@@ -1,0 +1,164 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr22",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Het huwelijksquotiënt geldt sinds aanslagjaar 2005 ook voor wettelijk samenwonenden (fiscaal gelijkgesteld met gehuwden), en wordt niet enkel toegekend wanneer één partner geen beroepsinkomsten heeft — ook bij sterk uiteenlopende inkomsten kan een deel worden overgeheveld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee fouten in de stelling:\n\n- **Toepassingsgebied**: art. 2, §1, 2° WIB92 stelt wettelijk samenwonenden volledig gelijk met gehuwden voor de toepassing van het Wetboek. Het huwelijksquotiënt-stelsel (art. 87 WIB92) geldt dus ook voor hen vanaf het jaar volgend op de verklaring van wettelijke samenwoning. 📖\n- **Toekenningsvoorwaarde**: het huwelijksquotiënt wordt toegepast wanneer de beroepsinkomsten van één van beide echtgenoten/wettelijk samenwonenden minder dan 30% bedragen van het totaal van de beroepsinkomsten van beide partners — niet enkel wanneer één partner géén beroepsinkomsten heeft. Er wordt dan een deel toegerekend tot het wettelijk plafond. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De gelijkstelling met gehuwden geldt voor wettelijk samenwonenden (verklaring volgens art. 1475-1476 oud BW), niet voor feitelijke samenwoners — die blijven fiscaal alleenstaanden en hebben geen recht op het huwelijksquotiënt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2, §1, 2° WIB92 — gelijkstelling wettelijk samenwonenden met gehuwden. Art. 87-88 WIB92 — toekenning huwelijksquotiënt aan partner met laagste beroepsinkomsten (< 30% van totaal), met overheveling tot een wettelijk plafond (geïndexeerd bedrag in Cijferzakboekje). 📖",
+          "wetsref": "Art. 2, §1, 2° + art. 87-88 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Waar.** In het buitenland verplicht betaalde persoonlijke sociale bijdragen, opgelegd door een buitenlandse sociale wetgeving waaraan de belastingplichtige wegens zijn aldaar uitgeoefende beroepswerkzaamheid is onderworpen, zijn aftrekbaar als beroepskost. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 52, 7° WIB92 stelt persoonlijke bijdragen aftrekbaar die ter uitvoering van de sociale wetgeving zijn verschuldigd. Bij toepassing op buitenlandse sociale bijdragen geldt dezelfde regel zodra de bijdragen verplicht zijn op grond van de sociale wetgeving van de werkstaat — niet vrijwillige aanvullende stelsels. De koppeling met de **verplichte** onderwerping is de scharnier: vrijwillige stortingen vallen niet onder art. 52, 7° WIB92. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 52, 7° WIB92 — persoonlijke bijdragen ter uitvoering van de sociale wetgeving zijn beroepskosten; de rechtspraak en administratieve commentaar (Com.IB 52/156 e.v.) breiden dit uit tot bijdragen aan een verplicht buitenlands sociaal stelsel. 🔗",
+          "wetsref": "Art. 52, 7° WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Ecocheques die voldoen aan de voorwaarden van art. 38/1 WIB92 zijn **vrijgesteld** bij de werknemer (niet belastbaar), en zijn ook **niet aftrekbaar** als beroepskost bij de werkgever. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "- **Werknemerszijde**: art. 38, §1, eerste lid, 25° WIB92 verleent een vrijstelling voor de werkgeverstussenkomst in ecocheques die beantwoorden aan art. 38/1 WIB92 (sectorale of ondernemings-cao, nominaal bedrag binnen wettelijk plafond, lijst van toegelaten producten, enz.). 📖\n- **Werkgeverszijde**: in ruil voor de fiscale en sociale vrijstelling bij de werknemer zijn ecocheques als verworpen uitgave opgenomen — bij vennootschappen via code 1215 (art. 53, 14° + art. 198 WIB92). De stelling klopt dus aan beide kanten niet. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Als de ecocheques niet voldoen aan de voorwaarden van art. 38/1 WIB92 (bv. boven het plafond of buiten cao), verliezen ze de vrijstelling en worden ze belastbaar loon bij de werknemer — dan zijn ze wél aftrekbaar bij de werkgever als gewone loonkost. Beide kanten lopen samen: vrijgesteld → niet aftrekbaar; belastbaar loon → aftrekbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 38, §1, eerste lid, 25° + art. 38/1, §4 WIB92 — vrijstelling werknemer. Art. 53, 14° WIB92 — niet-aftrekbaar als beroepskost; bij vennootschappen verworpen uitgave code 1215 (art. 198 WIB92). 📖",
+          "wetsref": "Art. 38, §1, 25° + art. 38/1, §4 + art. 53, 14° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Waar.** Voor bepaalde uitgaven wordt de niet-benutte belastingvermindering — wanneer de belasting onvoldoende is om ze volledig te genieten — omgezet in een **terugbetaalbaar belastingkrediet**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het verschil tussen een **belastingvermindering** (vermindert de berekende belasting, maar nooit onder nul — verloren bij te lage belasting) en een **belastingkrediet** (wordt verrekend en het saldo wordt terugbetaald) is essentieel. Voor sommige uitgaven heeft de wetgever uitdrukkelijk een omzetting voorzien zodat lage-inkomenshuishoudens het voordeel niet verliezen — historisch onder meer voor dienstencheques/PWA-cheques en voor het gewestelijke deel van de woonbonus in bepaalde gewestelijke regelingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Sinds de zesde staatshervorming zit een groot deel van de belastingverminderingen (eigen woning, dienstencheques, energiebesparende uitgaven) op gewestelijk niveau — de omzetting in een terugbetaalbaar krediet is per gewest geregeld en niet identiek federaal/regionaal. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 156bis WIB92 (en gewestelijke pendanten) — omzettingsregeling van bepaalde belastingverminderingen in een terugbetaalbaar belastingkrediet wanneer de federale/gewestelijke belasting onvoldoende is om de vermindering volledig aan te rekenen. 🔗",
+          "wetsref": "Art. 156bis WIB92 + gewestelijke regelingen",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

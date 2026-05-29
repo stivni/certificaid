@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr18",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Advies: weiger de opdracht te aanvaarden op basis van de voorgelegde staat en vraag het bestuursorgaan om een **nieuwe staat van activa en passiva** op te stellen die niet meer dan **drie maanden** vóór de buitengewone algemene vergadering die over de omzetting moet besluiten is afgesloten. De staat per 30 april 2010 is onbruikbaar — op 1 oktober 2010 al meer dan vijf maanden oud, en de AV volgt nog later. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Termijn-check (actualiteitsvereiste)**:\n\n- Staat van activa en passiva opgesteld per **30 april 2010**. 📖\n- Accountant aangesteld op **1 oktober 2010** → staat is op dat moment al **5 maanden** oud. 🔗\n- De BAV die over de omzetting beslist komt na de aanstelling → staat is op het moment van de AV **> 5 maanden** oud. 🔗\n- Wettelijke grens (omzetting NV → BVBA, nationale omzetting): staat mag **maximaal 3 maanden** vóór de AV zijn afgesloten (art. 14:3 WVV; ten tijde van de casus art. 776 W.Venn., zelfde 3-maandentermijn). 📖\n- Overschrijding → staat is onbruikbaar als basis voor het controleverslag.\n\n**Praktische uitwerking van het advies**:\n\n1. Vraag het bestuursorgaan een **nieuwe (recente) staat van activa en passiva** op te maken die binnen de drie-maandentermijn vóór de geplande BAV-datum valt. 🔗\n2. Stem de afsluitdatum van die nieuwe staat af op de geplande BAV-datum (bv. staat per 30/09/2010 of later, als de BAV in oktober/november 2010 plaatsvindt). 🔗\n3. Pas daarna kan het bijzonder verslag van de extern accountant over die staat worden opgesteld — met name de vermelding van een eventueel verschil tussen het nettoactief en het minimumkapitaal van de BVBA, en het signaleren van een overwaardering van het nettoactief. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drie-maandentermijn telt **vanaf de afsluitdatum van de staat tot de buitengewone algemene vergadering** — niet tot de aanstellingsdatum van de accountant en niet tot de datum van het controleverslag. Verwar deze nationale-omzetting-termijn (3 maanden, art. 14:3 WVV) ook niet met de **4-maandentermijn** die geldt bij grens«overschrijdende omzetting (art. 14:21 WVV). De drie-maanden«regel is bovendien een **wettelijk minimum-actualiteitsvereiste** voor de staat: ze geeft niet aan dat de accountant zelf binnen 3 maanden na zijn aanstelling moet rapporteren, wel dat de staat op de AV-datum nog binnen de termijn moet vallen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 14:3 WVV** (nationale omzetting van vennootschappen, ook NV → BVBA): \"Alvorens tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva op, die niet meer dan drie maanden vóór de algemene vergadering die over het voorstel tot omzetting moet besluiten is afgesloten.\" De extern accountant brengt over die staat een bijzonder verslag uit waarin met name overwaardering van het nettoactief wordt gesignaleerd (ITAA-norm Omzetting van een vennootschap, modelverslag bijlage 3.1). Ten tijde van de feiten (2010) gold dezelfde drie-maandentermijn onder art. 776 W.Venn. (oud); het WVV nam de regel ongewijzigd over. 📖",
+          "wetsref": "WVV art. 14:3 (oud: W.Venn. art. 776); ITAA-norm Omzetting van een vennootschap, bijlage 3.1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

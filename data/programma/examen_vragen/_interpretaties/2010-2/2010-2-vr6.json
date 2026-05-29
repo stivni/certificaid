@@ -1,0 +1,32 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr6",
+  "interpretatie_datum": "2026-05-29T19:29:51Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking",
+  "programmaonderdeel_ids": [
+    "1.4"
+  ],
+  "themas": [
+    "consolidatie",
+    "geconsolideerde jaarrekening",
+    "afsluitingsdatum",
+    "consoliderende vennootschap"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Segment 2010-2-vr6 bevat in de PNG \"Vraag 3\" (… / 5 punten) onder de rubriek ANALYSE/KRITISCHE BEOORDELING/CONSOLIDATIE. De vr6-nummering komt uit de auto-isolatie pipeline (alle-vragen-modus, sequentieel). Tekst.txt en PNG komen overeen; geen typo-correcties nodig. Onderaan de pagina begint een nieuwe rubriekkop (INTERNE CONTROLE — 25 punten) die niet bij deze vraag hoort en is genegeerd. Classificatie naar PO 1.4 (consolidatie) op basis van inhoud (afsluitingsdatum geconsolideerde jaarrekening, art. consolidatie-KB).",
+  "kwaliteits_flags": []
+}

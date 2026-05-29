@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr34",
+  "interpretatie_datum": "2026-05-29T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Internationale fiscaliteit — meerwaarde op aandelen van een Canadese vennootschap met enkel onroerend goed in Canada (toepassing OESO-modelverdrag)",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "OESO-modelverdrag",
+    "dubbelbelastingverdrag België-Canada",
+    "meerwaarde op aandelen",
+    "vastgoedvennootschap",
+    "heffingsbevoegdheid bronstaat",
+    "internationale fiscaliteit vennootschappen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een Belgische vennootschap bezit 95 % van de aandelen van een Canadese vennootschap met als enige activiteit de verhuur van in Canada gelegen onroerende goederen. De Belgische vennootschap heeft in Canada geen vaste inrichting en oefent er geen activiteit uit.\n\nDe Belgische vennootschap verkoopt haar aandelen van genoemde Canadese vennootschap aan een Franse vennootschap die in Canada evenmin een vaste inrichting heeft of er een activiteit uitoefent.\n\nBelgië heeft met Canada een overeenkomst tot vermijding van dubbelbelasting gesloten en we gaan ervan uit dat die overeenkomst in overeenstemming is met de door de OESO \"Ontwikkelde Modelovereenkomst naar het Inkomen en naar het Vermogen\".\n\nDe Belgische vennootschap verwezenlijkt een aanzienlijke meerwaarde op de verkoop van de aandelen van haar Canadese dochter en vraagt u haar te bevestigen dat zij in Canada geen inkomstenbelasting zal verschuldigd zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Wat antwoordt u haar: Ja of neen? (Zal de Belgische vennootschap in Canada inkomstenbelasting verschuldigd zijn op de gerealiseerde meerwaarde op de aandelen van haar Canadese dochter?)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 3 op pagina 22 met 4 punten. Tekst was schoon — geen OCR-typo's. Deelvraag b) ('Gelieve uw antwoord te verklaren.') is een pure motivatie-instructie zonder eigen inhoud en wordt volgens §4.1bis geïntegreerd via motivatie_verwacht=true op deelvraag a). De parser plakte een 'FISCALE PROCEDURE | 15 PUNTEN'-rubriekkop in de tekst.txt, maar uit de PNG blijkt dat die kop bij de daaropvolgende vragen (Vraag 1 en 2 onder FISCALE PROCEDURE) hoort, niet bij deze vraag. Deze vraag valt inhoudelijk onder Internationaal Fiscaal Recht (OESO-modelverdrag, meerwaarde op aandelen van een vastgoedvennootschap in een verdragsstaat) → PO 2.8.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

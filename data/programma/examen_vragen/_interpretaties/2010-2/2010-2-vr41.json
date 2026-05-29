@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr41",
+  "interpretatie_datum": "2026-05-29T19:34:45Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologie: publiciteit en cliëntenwerving door accountants en/of belastingconsulenten",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "deontologie",
+    "publiciteit",
+    "cliëntenwerving",
+    "ereloon",
+    "beroepsnormen",
+    "accountant",
+    "belastingconsulent"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Duid aan of volgende beweringen juist zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "-",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een accountant en/of belastingconsulent mag zijn diensten gratis of tegen sterk verminderde prijzen aanbieden om zo cliënten aan zich te binden.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "-",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een accountant en/of belastingconsulent mag zijn mandaten binnen het Instituut of andere beroepsorganisaties niet kenbaar maken om op die manier opdrachten te verwerven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "-",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een accountant en/of belastingconsulent mag een opsomming geven van de cliënten die hij heeft in de aanwerving van nieuwe cliënten.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "-",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een accountant en/of belastingconsulent mag een opsomming geven van de taken die hij uitvoert.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier J/F-stellingen onder één paraplu-instructie ('Duid aan of volgende beweringen juist zijn'), elk met een eigen Juist/Fout-aankruisvakje — gemodelleerd als vier aparte juist_fout-deelvragen volgens §3 (vraagtypes). De PDF gebruikt streepjes-bullets (geen letters); label_in_pdf op '-' gezet, intern a–d voor ID-stabiliteit. PNG (pagina 24-bestand toont blad met paginanummer 23 in header: bevat Vraag 2, 3 en het begin van Vraag 4 met stellingen 1 en 2) bevestigt de paraplu-instructie en de eerste twee stellingen visueel; stellingen 3 en 4 zijn enkel uit tekst.txt overgenomen (lopen door op de volgende pagina, geen visuele verificatie beschikbaar). 'messages.downloaded_by' en losse '24' in tekst.txt zijn pagina-footer-/header-artefacten en weggelaten. Interpunctie genormaliseerd (puntkomma's/ontbrekende punten aan zinseinden). Stellingen vragen pure J/F-beoordeling zonder expliciete motiveer-instructie → motivatie_verwacht=false.",
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "pagina_overslaat"
+  ]
+}

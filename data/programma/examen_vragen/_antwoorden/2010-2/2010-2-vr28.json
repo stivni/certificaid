@@ -1,0 +1,87 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr28",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA — herziening in het nadeel van de belastingplichtige.** Bert mocht slechts 50 % van de € 405 aftrekken (€ 202,50), want het gebouw wordt maar voor 50 % beroepsmatig gebruikt. De overaftrek van **€ 202,50** moet hij terugstorten via vak **61** van zijn eerstvolgende periodieke aangifte (de aangifte van december 2009, in te dienen in januari 2010). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "BTW op factuur: € 1 500 × 6 % = € 90 + € 1 500 × 21 % = € 315 → totaal € 405 BTW. 🔗\n\nRecht op aftrek (art. 45 § 1 W.BTW): aftrek is **evenredig met het gebruik voor belaste handelingen**. Het beroepsgebruik bedraagt 50 % → toegelaten aftrek = 50 % × € 405 = **€ 202,50**. 🔗\n\nBert heeft echter de volle € 405 afgetrokken → **overaftrek van € 202,50** die via herziening moet worden gecorrigeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het gaat hier om **herstellingswerken** (een gewone kost), niet om een onroerend bedrijfsmiddel. Daarom **geen** 15-jaars-herziening van art. 9 § 2 KB nr. 3 (en geen pro rata temporis-berekening over een herzieningstijdvak). Het is een eenmalige correctie van de oorspronkelijk verkeerd uitgeoefende aftrek (art. 5 + 10 KB nr. 3): terugstorting in vak 61 in de eerstvolgende aangifte na de vaststelling van de fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 1 W.BTW (aftrek beperkt tot gebruik voor belaste handelingen) + KB nr. 3 art. 5 en 10 (herziening oorspronkelijke aftrek bij onjuiste uitoefening). Praktijk: terugstorting in **vak 61** van de periodieke aangifte. 📖",
+          "wetsref": "Art. 45 § 1 W.BTW; KB nr. 3 art. 5 en 10",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Bauwens heeft **€ 5 400 te weinig** afgetrokken (€ 6 000 verschuldigd – € 600 afgetrokken). Of zij die nog kan recupereren hangt af van de verjaringstermijn van art. 4 KB nr. 3: aftrek mogelijk tot **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de BTW opeisbaar werd**. Vaststelling op 6/3/2010:\n\n| Leveringsdatum | BTW opeisbaar | Uiterste herziening | Herziening op 6/3/2010? |\n|---|---|---|---|\n| 15/04/2009 | 2009 | 31/12/2012 | **JA** — recupereren via vak 62 🔗 |\n| 18/08/2007 | 2007 | 31/12/2010 | **JA** — nog net binnen termijn 🔗 |\n| 03/03/2005 | 2005 | 31/12/2008 | **NEE** — recht op aftrek verjaard 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Regel** (art. 4, tweede lid KB nr. 3): wanneer het recht op aftrek niet tijdig werd uitgeoefend, kan het nog uitgeoefend worden in een aangifte ingediend **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden**. 📖\n\n**Toepassing per leveringsdatum** (BTW wordt opeisbaar bij levering — art. 17 W.BTW):\n- **15/4/2009**: opeisbaar in 2009 → drie kalenderjaren volgend = 2010, 2011, 2012 → uiterlijke herziening = aangifte ingediend vóór **31/12/2012**. Vaststelling 6/3/2010 ligt ruim binnen de termijn → **herziening in het voordeel** van Bauwens via vak **62** van de aangifte van februari/maart 2010. 🔗\n- **18/8/2007**: opeisbaar in 2007 → uiterlijke herziening vóór **31/12/2010**. Op 6/3/2010 nog ca. 10 maanden tijd → **herziening mogelijk** in eerstvolgende aangifte, niet uitstellen. 🔗\n- **3/3/2005**: opeisbaar in 2005 → uiterlijke herziening vóór **31/12/2008**. Op 6/3/2010 al meer dan 14 maanden verstreken → **verjaard**, geen recuperatie van de € 5 400 mogelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de **verjaring van het recht op aftrek** (3 jaar, art. 4 KB nr. 3 — in het voordeel van de belastingplichtige) niet met de **verjaring van de BTW-schuld** (art. 81-83 W.BTW, in principe 3 jaar maar 7 jaar bij fraude). Voor 2007 is het krap maar haalbaar; één gemiste aangifte en de € 6 000 BTW van die factuur is definitief verloren. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, tweede lid KB nr. 3 van 10/12/1969: laattijdige uitoefening van het recht op aftrek kan nog gebeuren in een aangifte ingediend **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden**. Praktijk: opname in **vak 62** (herzieningen in het voordeel) van de periodieke aangifte. 📖",
+          "wetsref": "KB nr. 3 art. 4, tweede lid",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

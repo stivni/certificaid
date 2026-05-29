@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr35",
+  "interpretatie_datum": "2026-05-29T19:33:50Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Onderzoeksbevoegdheden fiscale administratie t.a.v. bankrekeningen — bankgeheim",
+  "programmaonderdeel_ids": ["2.5"],
+  "themas": [
+    "fiscale procedure",
+    "onderzoeksbevoegdheden",
+    "bankgeheim",
+    "buitenlandse roerende inkomsten",
+    "bancair onderzoek"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Lastens de heer X, Belgisch rijksinwoner, die in België houder is van een bankrekening, wordt een fiscaal onderzoek ingesteld. De administratie tracht de buitenlandse roerende inkomsten vast te stellen die via die rekening werden geïnd. Maar de administratie is niet in het bezit van enige informatie vanwege een buitenlandse fiscale administratie."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Mag de administratie zich tot de bank richten om een kopie te bekomen van de stukken met vermelding van de financiële bewegingen op die rekening?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tekst.txt komt overeen met de PNG (pagina 22, 'FISCALE PROCEDURE — Vraag 1, 5 punten'). Geen OCR-correcties nodig. Eén open vraag zonder expliciete deelvragen; motivering is impliciet verwacht bij een ja/nee-vraag over onderzoeksbevoegdheid in fiscale procedure (standaard bij 5-puntenvraag waarbij wettelijke grondslag verwacht wordt).",
+  "kwaliteits_flags": []
+}

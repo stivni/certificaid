@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr23",
+  "interpretatie_datum": "2026-05-29T19:32:18Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vennootschapsbelasting AJ 2010 — invullen Vak I/A van de aangifte voor nv 'XYZ' op basis van casusgegevens",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "vennootschapsbelasting",
+    "aangifte vennootschapsbelasting",
+    "Vak I/A",
+    "verminderd basistarief",
+    "kleine vennootschap art. 15 W.Venn.",
+    "gestort kapitaal",
+    "afschrijvingen octrooi",
+    "financiële vaste activa",
+    "DBI",
+    "meerwaarde aandelen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vul Vak I/A in van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv 'XYZ' aan de hand van de onderstaande geselecteerde gegevens.\n\nBijkomende informatie: de nv komt in aanmerking voor de toepassing van het verminderd basistarief vennootschapsbelasting. Ze voldoet aan de voorwaarden van art. 15, § 1 Wetboek Venn. om als kleine vennootschap aangemerkt te worden.\n\nGegevens — kapitaalstructuur: de nv 'XYZ' werd opgericht in 1985 met een kapitaal van € 1 250 000,00. In 1989 werd een kapitaalverhoging (gestort kapitaal) van € 750 000,00 doorgevoerd. In 1996 werd een belaste reserve van € 500 000,00 in het kapitaal opgenomen.\n\nAankoop van een bijkomende kantoorruimte in een nieuw opgericht complex op 19/09/2009: prijs € 750 000,00. In het kader van een juiste heffing van de indirecte belastingen wordt in de notariële akte de waarde van de grond op € 62 500,00 vastgesteld. Op het gebouwde gedeelte wordt € 157 500,00 btw gevorderd en op de grond een evenredig registratierecht van € 6 250,00. De notaris rekent een ereloon van € 3 000,00 aan. Met betrekking tot de grond worden de registratierechten en de notariskosten eerst geactiveerd en nadien worden ze het voorwerp van een geboekte waardevermindering. De notariskosten m.b.t. het gebouw worden onmiddellijk in kosten opgenomen.\n\nOp 15/02/2009 wordt een octrooi (nieuw) bekomen: € 100 000,00. De nv 'XYZ' verleent op het verworven octrooi een licentie aan de bv 'ABC' tegen een jaarlijkse royalty van € 30 000,00. Het octrooi wordt lineair over 5 jaar afgeschreven: de geboekte afschrijving bedraagt € 20 000,00.\n\nOnder de financiële vaste activa bevinden zich: 400 aandelen A (Belgische nv) x € 90,00 = € 36 000,00; 100 aandelen B (Duitse A.G.) x € 375,00 = € 37 500,00. Onder de geldbeleggingen bevindt zich een obligatielening, uitgegeven door een Deense vennootschap C: € 12 500,00.\n\nIn 2009 werden 10 aandelen D (Belgische NV) met boekwaarde € 7 500,00 verkocht voor € 10 000,00. De financiële instelling rekent een kost van € 48,00 aan.\n\nTer informatie: samenstelling maatschappelijk kapitaal — A: 3 000 aandelen; B: 900 aandelen; C: 5 000 aandelen; D: 1 000 aandelen.\n\nIn de resultatenrekeningen, onder de financiële opbrengsten, krijg je volgende bijkomende info: dividend aandelen A € 875,00; dividend aandelen B € 1 875,00; meerwaarde gerealiseerd bij de verkoop van de aandelen D € 2 500,00."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "open",
+      "vraagstelling": "Vul Vak I/A van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv 'XYZ' in aan de hand van de gegeven casusinformatie (verminderd basistarief, kleine vennootschap, kapitaalstructuur, aankoop kantoorruimte, octrooi en afschrijving, financiële vaste activa en gerealiseerde meerwaarde aandelen D).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Pagina 15 toont de volledige opgave van Vraag 1 (9 punten) onder het kopje 'VENNOOTSCHAPSBELASTING — 20 PUNTEN'. De opgave bestaat uit één open vraag: invullen Vak I/A van de aangifte VenB AJ 2010 op basis van uitgewerkte casusgegevens. De casusdata zijn samengebracht in één casus_context-blok met blanke regels per logische sectie (bijkomende info, kapitaalstructuur, aankoop kantoorruimte, octrooi, financiële vaste activa, verkoop aandelen D, samenstelling kapitaal, financiële opbrengsten) conform §4.4bis. Tekst-artefact 'messages.downloaded_by' (watermerk/footer) is uit de context weggelaten. Er is geen tabel of balans visueel aanwezig op deze pagina; alle gegevens zijn narratief. Eventuele bijgevoegde aangifte-vakken (bijlage) zijn niet aanwezig in dit segment — student wordt geacht het standaard Vak I/A van de aangifte VenB AJ 2010 te kennen. De vraag is officieel ITAA-examenmateriaal (DRAFT-watermerk is enkel op de scan).",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

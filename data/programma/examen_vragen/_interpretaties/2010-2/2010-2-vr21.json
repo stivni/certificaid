@@ -1,0 +1,77 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr21",
+  "interpretatie_datum": "2026-05-29T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aftrekbare autokosten en verplaatsingskosten van een zelfstandige dierenarts in de personenbelasting (aanslagjaar 2009 vs. 2010)",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": [
+    "autokosten",
+    "woon-werkverkeer",
+    "aftrekbare beroepskosten",
+    "personenbelasting",
+    "forfait woon-werk",
+    "CO2-uitstoot aftrekbeperking",
+    "zelfstandige beroepsbeoefenaar"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een dierenarts woont in Ukkel en heeft zijn praktijk in Elsene. Zijn beroepsmatige verplaatsingen met zijn persoonlijk voertuig zijn dagelijks dezelfde (220 dagen per jaar in 2009), namelijk:\n- Woonplaats -> praktijk (ochtend): 5 km\n- Praktijk -> dispensarium van de Stichting Prins Laurent: 2 km\n- (namiddag: huisbezoek)"
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Kilometeraantal afgelegd in 2009",
+      "rijen": [
+        { "label": "woonplaats -> praktijk", "bedrag": 1100 },
+        { "label": "praktijk -> dispensarium", "bedrag": 440 },
+        { "label": "privéverplaatsingen", "bedrag": 4000 },
+        { "label": "op huisbezoek bij patiënten", "bedrag": 10200 },
+        { "label": "totaal", "bedrag": 15740 }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Uiteenzetting van de autokosten",
+      "rijen": [
+        { "label": "Afschrijving (dieselvoertuig 175 gr CO2)", "bedrag": 8000 },
+        { "label": "Verzekering", "bedrag": 1200 },
+        { "label": "Verkeersbelasting", "bedrag": 500 },
+        { "label": "Onderhoud", "bedrag": 950 },
+        { "label": "Financieringskosten", "bedrag": 400 },
+        { "label": "Brandstof", "bedrag": 1700 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Bereken het bedrag van de aftrekbare beroepskosten en geef het detail van deze berekeningen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Zal het aftrekbaar bedrag van zijn verplaatsingskosten hetzelfde zijn, als de dierenarts dezelfde verplaatsingen aflegt in 2010?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Welke wijziging zal moeten worden aangebracht, indien dat niet het geval is? (geen aanvullende berekeningen, vermeld alleen de wijziging(en))",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële vraag (Vraag 2, 8 punten) uit het ITAA-examen 2010 sessie 2. PNG bevestigt drie deelvragen zonder letter-labels in het bronmateriaal: (1) berekening aftrekbare beroepskosten met detail, (2) ja/nee-vraag over identieke aftrekbaarheid in 2010, (3) welke wijziging(en) bij wijziging. De tekstextract was schoon — geen typo-correcties nodig. Tabellen (kilometeraantal en autokosten-uiteenzetting) gestructureerd als gegevens_tabel.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

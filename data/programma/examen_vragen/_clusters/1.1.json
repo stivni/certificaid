@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.1",
-  "gegenereerd_op": "2026-05-26T10:20:42+00:00",
+  "gegenereerd_op": "2026-05-29T19:44:48+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 28,
+  "threshold_cosine": 0.85,
+  "n_vragen": 24,
   "n_clusters": 0,
-  "n_singletons": 28,
+  "n_singletons": 24,
   "clusters": [],
   "borderline_paren": [],
   "singletons": [
@@ -153,31 +153,6 @@
       "vraag_id": "2015-1-vr7",
       "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr7.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr7A",
-      "vraag_onderwerp": "Voorraadwaarderingsmethoden toegelaten onder IAS/IFRS",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7A.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr7B",
-      "vraag_onderwerp": "Voorzichtigheidsprincipe — opname en waardering (Richtlijn 2013/34/EU)",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7B.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr7C",
-      "vraag_onderwerp": "IAS/IFRS — stellingen over afschrijvingen, kosten en uitzonderlijke posten",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7C.json"
-    },
-    {
-      "examen_id": "2024-1",
-      "vraag_id": "2024-1-vr7D",
-      "vraag_onderwerp": "Operationele en financiële leasing — boekhoudkundige verwerking onder IAS/IFRS",
-      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7D.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }

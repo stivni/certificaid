@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr20",
+  "interpretatie_datum": "2026-05-29T19:32:02Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Aangifte van roerende inkomsten in de personenbelasting (binnen- en buitenlandse interesten, dividenden, auteursrechten)",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": [
+    "roerende inkomsten",
+    "personenbelasting",
+    "aangifteplicht roerende inkomsten",
+    "buitenlandse interesten",
+    "dividenden",
+    "auteursrechten",
+    "roerende voorheffing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer en mevrouw Henri zijn gehuwd onder het stelsel van de scheiding van goederen. Zij hebben in 2009 volgende roerende inkomsten verkregen:\n\n- een spaarrekening ING op naam van mijnheer die € 1 900 netto interest heeft opgebracht\n- een spaarrekening BNP Paribas op naam van mevrouw die € 815 interest heeft opgebracht\n- een spaarrekening Dexia op naam van beide echtgenoten die € 1 280 interest heeft opgebracht\n- een spaarrekening Société Générale (Frankrijk) op naam van mijnheer die € 290 netto interest heeft opgebracht\n- een spaarrekening KBLux (Luxemburg) op naam van mijnheer die € 2 750 netto interest heeft opgebracht (NB: inhouding aan bron = € 687,50)\n- dividenden van Canadese aandelen voor een nettobedrag van € 740 (de aandelen behoren toe aan mevrouw en de dividenden werden gestort op de rekening-courant die zij in Canada bezit) – Door de Canadese bank ingehouden bewaringskosten = € 17\n- mevrouw heeft van een Italiaanse uitgever een bedrag van € 1 200 auteursrechten ontvangen voor het schrijven van een kookboek (NB: het betreft geen beroepsinkomsten)"
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "open",
+      "vraagstelling": "Bepaal de roerende inkomsten die verplicht moeten worden aangegeven en vermeld de aan te geven bedragen in de bijgaande aangifte.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PNG (pagina 13) bevestigt sectie PERSONENBELASTING (20 PUNTEN) — Vraag 1 (7 punten). Casus over roerende inkomsten 2009 van gehuwd koppel onder scheiding van goederen. Tekst.txt bevatte één OCR-artefact ('messages.downloaded_by' + paginanummer '13' midden in de casus) — verwijderd uit context_blokken. De zin '€ 17' (slot van de dividend-bullet over bewaringskosten) terug aangesloten op de voorgaande bullet. De vraagstelling slaat op de volledige casus en luidt: bepaal de aangifteplichtige roerende inkomsten en geef de aan te geven bedragen op in de bijgevoegde aangifte. De 'bijgaande aangifte' (Vak VII van de PB-aangifte) is niet bijgevoegd in dit segment maar de vraag is op zich volledig.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

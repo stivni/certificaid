@@ -1,0 +1,113 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr32",
+  "antwoord_datum": "2026-05-29T20:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "hoofdvraag",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Internationale dubbele belasting** = hetzelfde inkomen wordt door twee (of meer) staten in de heffing betrokken. Er zijn twee gedaanten:\n\n- **Juridische** dubbele belasting: **dezelfde belastingplichtige** wordt voor **hetzelfde inkomen** in **twee staten** belast (typisch: bronstaat heft een bronheffing + woonstaat belast hetzelfde inkomen opnieuw). 🔗\n- **Economische** dubbele belasting: **hetzelfde inkomen** wordt belast bij **twee verschillende belastingplichtigen** in **twee staten** (typisch: een winstcorrectie bij de ene groepsvennootschap zonder correlatieve aanpassing bij de andere — transfer-pricing-context). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het onderscheid leeft niet als wetsartikel maar als gangbare leer (OESO-commentaar bij art. 9 en art. 23A/23B OESO-MV). DBV's pakken **juridische** dubbele belasting aan via de methodes 23A (vrijstelling met progressievoorbehoud) en 23B (verrekening / FBB art. 285-289 WIB92). **Economische** dubbele belasting wordt aangepakt via art. 9 §2 OESO-MV (correlatieve aanpassing) en de MAP-procedure (art. 25 OESO-MV) of via het EU-Arbitrageverdrag 90/436/EEG. 🔗",
+          "wetsref": "OESO-MV art. 9 + 23A/23B + 25; WIB92 art. 285-289; EU-Arbitrageverdrag 90/436/EEG",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md",
+            "resources/bronnen/wetteksten/Circ-2020-C-35-verrekenprijzen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja — internationale dubbele belasting van het type JURIDISCHE dubbele belasting.** De Belgische vennootschap (één en dezelfde belastingplichtige) wordt op haar royalty-inkomen tweemaal belast: één keer in Mexico (resterende bronheffing) en één keer in België (vennootschapsbelasting op hetzelfde inkomen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toetsing aan de definitie van juridische dubbele belasting:\n\n- **Zelfde belastingplichtige?** Ja — de Belgische vennootschap die de royalty's ontvangt. 🔗\n- **Zelfde inkomen?** Ja — de royalty-stroom uit Mexico. 🔗\n- **Twee staten heffen?** Ja — Mexico via inhouding aan de bron (verminderd door het BE-MX-DBV maar niet weggenomen), België via vennootschapsbelasting op het wereldwijde inkomen. 🔗\n\nHet DBV neemt de juridische dubbele belasting niet integraal weg: het verlaagt enkel het Mexicaanse bronheffingstarief en België moet de resterende bronheffing verrekenen via het FBB-regime (art. 285-289 WIB92, regime 23B-verrekening). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Dat de bronheffing **niet door de schuldenaar ten laste wordt genomen** is hier het scharnier: de Belgische vennootschap draagt de Mexicaanse heffing zelf (netto-ontvangst is lager), dus is zij ook degene die in Mexico belast wordt. Was de bronheffing **brutering** geweest (debiteur betaalt netto + bronbelasting), dan zou het materiële karakter van de juridische dubbele belasting bij de Belgische vennootschap identiek zijn — alleen het bedrag van het bruto-inkomen verschilt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "DBV België-Mexico (typische OESO-MV-structuur, art. 12 — royalty's): de bronstaat behoudt een beperkt heffingsrecht (vandaar de resterende inhouding) en de woonstaat België vermijdt dubbele belasting via verrekening — concreet via het FBB-regime van art. 285-289 WIB92 (DBV-methode 23B). 🔗",
+          "wetsref": "DBV BE-Mexico art. 12 + 23B; OESO-MV art. 12 + 23B; WIB92 art. 285-289",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja — internationale dubbele belasting van het type ECONOMISCHE dubbele belasting.** Dezelfde winst (het door België bij de Belgische vennootschap bijgevoegde transferpricing-supplement) wordt twee keer belast, maar bij **twee verschillende belastingplichtigen** in **twee staten**: één keer bij de Belgische vennootschap (BE-vennootschapsbelasting-supplement) en één keer bij de buitenlandse groepsvennootschappen (die hun aankoopprijs niet meer als kost in aftrek kunnen brengen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Circ-2020-C-35-verrekenprijzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toetsing aan de definitie van economische dubbele belasting:\n\n- **Zelfde inkomen?** Ja — de marge die België bij de Belgische verkoper hertaxeert is dezelfde marge die in het buitenland al in de winst van de afnemers zat (te lage aankoopprijs → hogere buitenlandse winst). 🔗\n- **Verschillende belastingplichtigen?** Ja — de Belgische dochter enerzijds, de buitenlandse groepsvennootschappen anderzijds. 🔗\n- **Twee staten heffen?** Ja — België via het verrekenprijs-supplement (art. 26 / art. 185 §2 WIB92, arm's length-principe) en de buitenlandse staten doordat de te lage prijs daar als hogere winst is belast en de aftrekweigering de correctie definitief maakt. 🔗\n\nDat het BE-supplement **definitief** is en het buitenland de bijkomende kost **niet aanvaardt** is precies de situatie waarvoor de **correlatieve aanpassing** van art. 9 §2 OESO-MV bedoeld is — die hier dus niet plaatsvindt. Resultaat: niet-weggenomen economische dubbele belasting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Circ-2020-C-35-verrekenprijzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met juridische dubbele belasting: in geval b) wordt **niet** dezelfde belastingplichtige twee keer belast — de Belgische vennootschap betaalt enkel BE-vennootschapsbelasting, de buitenlandse afnemer enkel buitenlandse vennootschapsbelasting. Het is precies omdat het om **twee verschillende belastingplichtigen** gaat dat het etiket 'economisch' is en niet 'juridisch'. Reguliere DBV-methodes (vrijstelling/verrekening, art. 23A/23B) zijn hier ook niet de oplossing — de remedies zijn de **correlatieve aanpassing** (art. 9 §2 OESO-MV), de **MAP-procedure** (art. 25 OESO-MV) of, intra-EU, het **EU-Arbitrageverdrag 90/436/EEG**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Circ-2020-C-35-verrekenprijzen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 26 + art. 185 §2 WIB92 leggen voor België het arm's length-principe vast (winstcorrectie bij niet-marktconforme intragroep-verkopen) — uitgewerkt in Circulaire 2020/C/35, gebaseerd op art. 9 OESO-MV (Associated Enterprises) en de OESO Transfer Pricing Guidelines 2017. Art. 9 §2 OESO-MV verplicht de andere verdragsstaat in beginsel tot een correlatieve neerwaartse aanpassing om de economische dubbele belasting weg te nemen; gebeurt dit niet, dan blijft de dubbele belasting bestaan, zoals in geval b). 🔗",
+          "wetsref": "WIB92 art. 26 + 185 §2; OESO-MV art. 9 §1-2 + art. 25 (MAP); Circulaire 2020/C/35; EU-Arbitrageverdrag 90/436/EEG",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Circ-2020-C-35-verrekenprijzen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

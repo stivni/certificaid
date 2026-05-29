@@ -1,0 +1,166 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr14",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**WAAR**. Voor de netto-actief-test bij dividenduitkering moet het niet-afgeschreven bedrag van oprichtingskosten en O&O-kosten uit het netto-actief gehaald worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De NV mag geen uitkering doen indien het netto-actief zou dalen onder het bedrag van het gestort (of opgevraagd) kapitaal verhoogd met de niet-uitkeerbare reserves. Bij de berekening van dat netto-actief wordt het **nog niet-afgeschreven bedrag van de kosten van oprichting en uitbreiding** én van de **kosten voor onderzoek en ontwikkeling** **uitgesloten** (afgetrokken). Dit voorkomt dat een vennootschap dividenden uitkeert die in feite gefinancierd worden door geactiveerde immateriële posten die nog moeten worden gerealiseerd. 📖 Onder W.Venn. (geldend in 2010) was dit art. 617 W.Venn.; onder huidig WVV is dit art. 7:212 WVV — de regel werd ongewijzigd hernomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor de **BV** geldt sinds WVV (2019) een **dubbele test**: naast de netto-actief-test ook de **liquiditeitstest** (art. 5:142-5:143 WVV). Voor de NV blijft het bij de enkelvoudige netto-actief-test. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:212 WVV (voorheen art. 617 W.Venn.): geen uitkering als het netto-actief, na de uitkering, lager zou worden dan het gestort kapitaal vermeerderd met de niet-uitkeerbare reserves; de niet-afgeschreven oprichtings- en O&O-kosten worden uit het netto-actief afgezonderd. 📖",
+          "wetsref": "Art. 7:212 WVV (oud art. 617 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR**. Aandelen die een inbreng in natura vertegenwoordigen moeten **volledig** worden volgestort (binnen 5 jaar na inbreng), niet slechts 1/4. De 1/4-regel geldt enkel voor inbreng **in geld**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee aparte regimes:\n\n- **Inbreng in geld** (NV): bij oprichting/kapitaalverhoging moet **minstens 1/4** worden volgestort (art. 7:13 §2 WVV; voorheen art. 448 W.Venn.). Het saldo blijft opvraagbaar door het bestuursorgaan.\n- **Inbreng in natura** (NV): moet **volledig** worden volgestort uiterlijk **vijf jaar** na de oprichting of kapitaalverhoging (art. 7:13 §2 WVV). Bij oprichting wordt natura quasi-systematisch onmiddellijk en volledig vrijgegeven, want het ingebrachte goed wordt fysiek overgedragen. 🔗\n\nDe stelling verwart dus de regel voor geldinbreng met die voor inbreng in natura. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "In 2010 (W.Venn.) was de regel materieel identiek: art. 448 W.Venn. vereiste dat aandelen die inbreng in natura vertegenwoordigen **volledig** werden volgestort binnen 5 jaar; de 1/4-volstortingsplicht bij oprichting gold enkel voor aandelen tegenover **geldinbreng**. De stelling was dus zowel onder W.Venn. als onder WVV fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:13 WVV (oud art. 448 W.Venn.): aandelen tegenover inbreng in natura moeten volledig volgestort zijn uiterlijk vijf jaar na de oprichting/kapitaalverhoging; de 1/4-regel betreft enkel aandelen tegenover inbreng in geld. 📖",
+          "wetsref": "Art. 7:13 WVV (oud art. 448 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR**. Het beginsel \"één aandeel = één stem\" geldt als default, maar het is **niet absoluut**: er bestaan aandelen zonder stemrecht, aandelen met meervoudig stemrecht (sinds WVV) en aandelen waarvan het stemrecht is geschorst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Uitzonderingen op één-aandeel-één-stem in de NV:\n\n- **Aandelen zonder stemrecht** (preferente aandelen) zijn toegelaten en stemmen niet, behalve in de gevallen opgesomd in art. 7:49 WVV (o.a. omzetting, vereffening, niet-uitbetaalde preferente dividenden). 📖\n- **Meervoudig stemrecht** is in de NV mogelijk sinds het WVV (2019) — art. 7:53 WVV. In niet-genoteerde NV's kan onbeperkt meervoudig stemrecht statutair worden voorzien; in genoteerde NV's enkel dubbel stemrecht (loyaliteitsstem) na 2 jaar onafgebroken houderschap. 🔗\n- **Schorsing**: het stemrecht is geschorst zolang behoorlijk opgevraagde stortingen niet zijn gedaan (art. 7:51 WVV — analoog aan art. 5:27 voor BV). 🔗\n\nHet woord \"**steeds**\" maakt de stelling fout. In 2010 (W.Venn.) bestond het meervoudig stemrecht niet in de NV, maar aandelen zonder stemrecht waren reeds toegelaten (oud art. 480 W.Venn.) — ook toen was de stelling dus fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:51 WVV (default één aandeel = één stem), art. 7:53 WVV (meervoudig stemrecht in NV mogelijk), art. 7:49 WVV (aandelen zonder stemrecht). Onder W.Venn.: art. 541 (basisbeginsel) + art. 480 (aandelen zonder stemrecht). 📖",
+          "wetsref": "Art. 7:51, 7:53 en 7:49 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NIET WAAR**. Het aanwezigheidsquorum klopt (1/2 van het kapitaal), maar de stemmenmeerderheid voor omzetting van rechtsvorm is **4/5** (vier vijfde), niet 3/4. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij nationale omzetting van rechtsvorm beslist de algemene vergadering met:\n\n- **Aanwezigheidsquorum**: minstens **de helft** van het kapitaal (of, als er geen kapitaal is, de helft van het aantal uitgegeven aandelen) moet aanwezig of vertegenwoordigd zijn. ✅ correct in de stelling. 📖\n- **Stemmeerderheid**: minstens **vier vijfde (4/5)** van de uitgebrachte stemmen. De stelling vermeldt 3/4, wat onvoldoende is — dit is de meerderheid voor een gewone statutenwijziging (art. 7:153 WVV), niet voor een omzetting. 🔗\n\nLet op: bij **grensoverschrijdende** omzetting (art. 14:24 WVV) is het quorum identiek (1/2) en is de meerderheid sinds de wijziging van 2023 verlaagd tot **3/4** — maar de vraag betreft een **nationale** omzetting BVBA → NV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de quorum-/meerderheidsregels niet:\n\n- **Statutenwijziging (algemeen)** in NV/BV: quorum 1/2, meerderheid 3/4 (art. 7:153 / 5:100 WVV).\n- **Omzetting van rechtsvorm**: quorum 1/2, meerderheid **4/5** (art. 14:8 WVV).\n- **Wijziging van het doel**: quorum 1/2, meerderheid 4/5.\n\nDe omzetting wordt — als zware ingreep — bewust strenger behandeld dan een gewone statutenwijziging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:8 §1 WVV: aanwezigheidsquorum = de helft van het kapitaal (of bij kapitaalloze vennootschap de helft van de uitgegeven aandelen); een voorstel tot omzetting is enkel aangenomen indien het **ten minste vier vijfde van de stemmen** verkrijgt (onthoudingen worden niet meegerekend). Onder W.Venn. (geldend in 2010) gold dezelfde 4/5-meerderheid (oud art. 781 W.Venn.). 📖",
+          "wetsref": "Art. 14:8 §1 WVV (oud art. 781 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

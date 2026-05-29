@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr15",
+  "antwoord_datum": "2026-05-29T19:45:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**De 10 fouten in de tabel — per cel (kader: Wetboek van vennootschappen — W.Venn., 2010):**\n\n| # | Rij | Kolom | Foute opgave | Correct | Wetsbasis |\n|---|---|---|---|---|---|\n| 1 | Minimum aantal vennoten | **NV** | 3 | **2** | art. 437 W.Venn. |\n| 2 | Minimum aantal vennoten | **CVBA** | 2 | **3** | art. 351 W.Venn. |\n| 3 | Inbreng in natura mogelijk | **CVBA** | NEEN | **JA** | art. 351-352 W.Venn. |\n| 4 | Winstbewijzen creëren | **NV** | NEEN | **JA** | art. 483 W.Venn. |\n| 5 | Toegestaan kapitaal voorzien | **BVBA** | JA | **NEEN** | art. 603 e.v. W.Venn. (enkel NV) |\n| 6 | Vereniging alle aandelen in één hand → ontbinding van rechtswege | **NV** | JA | **NEEN** | art. 646 W.Venn. (hoofdelijke borgstelling enige aandeelhouder, geen ontbinding van rechtswege) |\n| 7 | Aandelen vrij overdraagbaar tussen vennoten | **BVBA** | NEEN | **JA** | art. 249 W.Venn. (overdracht tussen bestaande vennoten is vrij; aan derden niet) |\n| 8 | Aandelen vrij overdraagbaar tussen vennoten | **CVBA** | JA | **NEEN** | art. 362 e.v. W.Venn. (uittredings-/toetredingsregime — niet vrij verhandelbaar) |\n| 9 | Bestuurders slechts gehouden voor hun aandeel in de overtreding | **BVBA** | JA | **NEEN** | art. 263 W.Venn. (hoofdelijke aansprakelijkheid bij overtreding W.Venn. of statuten) |\n| 10 | Minimumkapitaal te plaatsen | **BVBA** | € 12.400,00 | **€ 18.550,00** | art. 214 W.Venn. (€ 12.400 is het volstortminimum, niet het plaatsingsminimum) |\n\nVerdeling per kolom: **NV** = 3 fouten · **BVBA** = 5 fouten · **CVBA** = 3 fouten — samen 10.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per fout, in één zin waarom:**\n\n- **(1) NV — min. vennoten = 2** 🔗: art. 437 W.Venn. eist minstens twee oprichters voor de NV; \"3\" is de regel voor de CVBA, niet voor de NV.\n- **(2) CVBA — min. vennoten = 3** 🔗: art. 351 W.Venn. vereist minstens drie oprichters voor de coöperatieve vennootschap.\n- **(3) CVBA — inbreng in natura mogelijk** 🔗: ook bij de CVBA mogen oprichters inbrengen in natura (volstortbaar in geld of natura, art. 351-352 W.Venn.); het bedrag van het vast gedeelte (€ 18.550) hoeft niet noodzakelijk in geld te zijn.\n- **(4) NV — winstbewijzen mogelijk** 🔗: art. 483 W.Venn. laat de NV toe winstbewijzen (effecten zonder vermelding van een waarde) uit te geven; voor BVBA en CVBA is dat in principe niet voorzien.\n- **(5) BVBA — geen toegestaan kapitaal** 🔗: de techniek van het toegestaan kapitaal (delegatie aan het bestuur om binnen grenzen kapitaal te verhogen) bestaat enkel in de NV (art. 603 e.v. W.Venn.).\n- **(6) NV — eenhoofdigheid leidt niet tot ontbinding van rechtswege** 📖: art. 646 W.Venn. bepaalt dat bij vereniging van alle aandelen in één hand de enige aandeelhouder na één jaar hoofdelijk borg wordt voor de verbintenissen — geen automatische ontbinding (zie CBN-advies 2018/07).\n- **(7) BVBA — aandelen vrij tussen bestaande vennoten** 🔗: art. 249 W.Venn. maakt de overdracht tussen bestaande vennoten vrij; de beperking (en het 'besloten' karakter) geldt enkel voor overdrachten aan derden.\n- **(8) CVBA — aandelen NIET vrij overdraagbaar** 🔗: de CVBA werkt met een toetredings-/uittredingsregime in plaats van vrije verhandeling; aandelen zijn in principe niet vrij overdraagbaar, ook niet tussen vennoten, behoudens statutaire toelating (art. 362-366 W.Venn.).\n- **(9) BVBA — hoofdelijke bestuurdersaansprakelijkheid** 🔗: bij overtreding van het W.Venn. of de statuten zijn de zaakvoerders van een BVBA hoofdelijk aansprakelijk (art. 263 W.Venn., parallel met art. 528 NV en art. 408 CVBA); zij komen er niet vanaf met enkel hun \"aandeel in de overtreding\".\n- **(10) BVBA — minimum geplaatst = € 18.550** 🔗: art. 214 W.Venn. legt een minimumkapitaal van € 18.550 op (waarvan minstens € 6.200 volgestort, of € 12.400 bij eenhoofdige BVBA); € 12.400 is dus een volstortingsbedrag, niet het minimum geplaatste kapitaal.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — twee 'half-fouten' die de korrektor ook kan tellen** ❓: (a) **BVBA — inbreng in nijverheid**: vóór de Wet van 12 januari 2010 was nijverheidsinbreng in een BVBA niet mogelijk; sinds die wet (BS 11 februari 2010) wél (nieuw art. 218 W.Venn.). Een examen van zomer 2010 kan dit nog volgens de oude regel beoordelen (\"NEEN\" = juist) of volgens de nieuwe regel (\"NEEN\" = fout). (b) **CVBA — eenhoofdigheid → ontbinding van rechtswege**: in de CVBA is, anders dan in NV/BVBA, de eenhoofdigheid nooit wettelijk geregeld — het verlies van het minimum aantal vennoten leidt niet ipso iure tot ontbinding maar wel tot een ontbindingsgrond op verzoek; het schoolse antwoord is meestal \"NEEN\". Wie deze twee cellen ook omcirkelt, komt op 12 — pas zo nodig aan binnen de 10 vereiste door (10) of (8) te laten vallen.",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** 🤖: het is verleidelijk om \"vrij overdraagbaar tussen vennoten\" voor BVBA en CVBA spiegelbeeldig te lezen, maar de logica is omgekeerd: in de BVBA blijft de overdracht *tussen bestaande vennoten* vrij (de beslotenheid slaat op derden), terwijl in de CVBA elke overdracht (ook tussen vennoten) gebonden is aan het coöperatieve toetredings-/uittredingsregime. Examinatoren toetsen vaak precies deze omkering.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag (W.Venn., versie 2010 — pre-WVV)**:\n\n- **NV**: art. 437 (min. 2 oprichters), art. 439 (min. kapitaal € 61.500), art. 443 (geen nijverheidsinbreng), art. 483 (winstbewijzen), art. 528 (hoofdelijke bestuurdersaansprakelijkheid), art. 603 e.v. (toegestaan kapitaal), art. 646 (eenhoofdigheid — borgstelling).\n- **BVBA**: art. 211-214 (min. 1 oprichter, min. kapitaal € 18.550 waarvan € 6.200 of € 12.400 te volstorten), art. 218 (sinds Wet 12.01.2010: nijverheidsinbreng mogelijk), art. 249 (vrije overdracht tussen vennoten, besloten karakter naar derden), art. 263 (hoofdelijke aansprakelijkheid zaakvoerders).\n- **CVBA**: art. 351 (min. 3 oprichters, vast gedeelte € 18.550), art. 362-366 (toetreding/uittreding — geen vrije verhandeling), art. 390 (minimumkapitaal), art. 408 (bestuurdersaansprakelijkheid).\n\nHistorische bevestiging eenhoofdigheid via art. 213 (BVBA) en art. 646 (NV) — zie CBN-advies 2018/07 dat deze artikelen nog onder W.Venn. parafraseert. **Let op**: sinds het WVV (1 mei 2019) zijn al deze artikelnummers vervangen (boek 5 BV, boek 6 CV, boek 7 NV) en zijn minimum-kapitaalvereisten voor BV/CV afgeschaft.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-07-vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

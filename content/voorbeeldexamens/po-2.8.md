@@ -3,12 +3,12 @@ title: PO 2.8 — Europees en internationaal fiscaal recht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.8 (Europees en internationaal fiscaal recht).
 tags: [examen, voorbeeldvragen, po-2-8]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.8 — Europees en internationaal fiscaal recht
 
-**8 unieke vraag-eenheden** uit 4 examens (2013-1, 2013-2, 2014-1, 2015-1) — 8 met modelantwoord
+**11 unieke vraag-eenheden** uit 5 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1) — 11 met modelantwoord
 
 <a id="2015-1-vr49"></a>
 
@@ -439,3 +439,185 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Richtlijn 2011/96/EU (Moeder-dochterrichtlijn), art. 3, lid 1, a), i) (drempel 10 %) + art. 5 (vrijstelling bronbelasting op uitgekeerde winst). Richtlijn 2003/49/EG (Interest-royaltyrichtlijn), art. 1 (afschaffing bronbelasting), art. 2 (definitie interest en royalty's) en art. 3, b) (drempel 25 % verbondenheid tussen ondernemingen). 📖  
 > > *Bron: Richtlijn 2011/96/EU, art. 3 + art. 5; Richtlijn 2003/49/EG, art. 1, art. 2, art. 3*
+
+<a id="2010-2-vr32"></a>
+
+> [!question]- Internationale dubbele belasting — juridische versus economische dubbele belasting
+> *🆕 Examen 2010-2 · PO 2.8*
+>
+> Onder de hoofding "BEGINSELEN VAN EUROPEES EN INTERNATIONAAL FISCAAL RECHT" (10 punten) — Vraag 1 (/ 4 punten). Beschouw de twee onderstaande gevallen.
+>
+> Geef aan of in elk van de voormelde gevallen sprake is van internationale dubbele belasting en geef, desgevallend, aan of het juridische dan wel economische dubbele belasting betreft en leg uit wat die begrippen betekenen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Internationale dubbele belasting** = hetzelfde inkomen wordt door twee (of meer) staten in de heffing betrokken. Er zijn twee gedaanten:
+> > 
+> > - **Juridische** dubbele belasting: **dezelfde belastingplichtige** wordt voor **hetzelfde inkomen** in **twee staten** belast (typisch: bronstaat heft een bronheffing + woonstaat belast hetzelfde inkomen opnieuw). 🔗
+> > - **Economische** dubbele belasting: **hetzelfde inkomen** wordt belast bij **twee verschillende belastingplichtigen** in **twee staten** (typisch: een winstcorrectie bij de ene groepsvennootschap zonder correlatieve aanpassing bij de andere — transfer-pricing-context). 🔗
+> > 
+> > Het onderscheid leeft niet als wetsartikel maar als gangbare leer (OESO-commentaar bij art. 9 en art. 23A/23B OESO-MV). DBV's pakken **juridische** dubbele belasting aan via de methodes 23A (vrijstelling met progressievoorbehoud) en 23B (verrekening / FBB art. 285-289 WIB92). **Economische** dubbele belasting wordt aangepakt via art. 9 §2 OESO-MV (correlatieve aanpassing) en de MAP-procedure (art. 25 OESO-MV) of via het EU-Arbitrageverdrag 90/436/EEG. 🔗  
+> > *Bron: OESO-MV art. 9 + 23A/23B + 25; WIB92 art. 285-289; EU-Arbitrageverdrag 90/436/EEG*
+>
+> Geval a) Een Belgische vennootschap verkrijgt royalty's die haar worden toegekend en betaald door een vennootschap die gevestigd en bedrijvig is in Mexico. Die royalty's zijn in Mexico onderworpen aan een inhouding aan de bron die door de schuldenaar van de royalty's niet ten laste wordt genomen. Het tarief van die inhouding aan de bron wordt in toepassing van de tussen België en Mexico gesloten overeenkomst tot het vermijden van dubbele belasting verminderd, maar er blijft een inhouding aan de bron bestaan. — Is er sprake van internationale dubbele belasting?
+> 
+> **Zo ja, juridisch of economisch?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja — internationale dubbele belasting van het type JURIDISCHE dubbele belasting.** De Belgische vennootschap (één en dezelfde belastingplichtige) wordt op haar royalty-inkomen tweemaal belast: één keer in Mexico (resterende bronheffing) en één keer in België (vennootschapsbelasting op hetzelfde inkomen). 🔗
+> > 
+> > Toetsing aan de definitie van juridische dubbele belasting:
+> > 
+> > - **Zelfde belastingplichtige?** Ja — de Belgische vennootschap die de royalty's ontvangt. 🔗
+> > - **Zelfde inkomen?** Ja — de royalty-stroom uit Mexico. 🔗
+> > - **Twee staten heffen?** Ja — Mexico via inhouding aan de bron (verminderd door het BE-MX-DBV maar niet weggenomen), België via vennootschapsbelasting op het wereldwijde inkomen. 🔗
+> > 
+> > Het DBV neemt de juridische dubbele belasting niet integraal weg: het verlaagt enkel het Mexicaanse bronheffingstarief en België moet de resterende bronheffing verrekenen via het FBB-regime (art. 285-289 WIB92, regime 23B-verrekening). 🔗
+> > 
+> > Dat de bronheffing **niet door de schuldenaar ten laste wordt genomen** is hier het scharnier: de Belgische vennootschap draagt de Mexicaanse heffing zelf (netto-ontvangst is lager), dus is zij ook degene die in Mexico belast wordt. Was de bronheffing **brutering** geweest (debiteur betaalt netto + bronbelasting), dan zou het materiële karakter van de juridische dubbele belasting bij de Belgische vennootschap identiek zijn — alleen het bedrag van het bruto-inkomen verschilt. 🤖
+> > 
+> > DBV België-Mexico (typische OESO-MV-structuur, art. 12 — royalty's): de bronstaat behoudt een beperkt heffingsrecht (vandaar de resterende inhouding) en de woonstaat België vermijdt dubbele belasting via verrekening — concreet via het FBB-regime van art. 285-289 WIB92 (DBV-methode 23B). 🔗  
+> > *Bron: DBV BE-Mexico art. 12 + 23B; OESO-MV art. 12 + 23B; WIB92 art. 285-289*
+>
+> Geval b) Een Belgische vennootschap die deel uitmaakt van een multinationale groep en aldus een dochteronderneming is van een buitenlandse vennootschap, vervaardigt in België producten die zij verkoopt aan buiten België gevestigde vennootschappen van dezelfde groep. De Belgische fiscale administratie vestigt ten name van de Belgische vennootschap een supplement in de vennootschapsbelasting, omdat de verkoopprijzen van haar producten lager zijn dan de marktprijzen. De Belgische vennootschap heeft haar producten dus verkocht tegen een te lage prijs. Men gaat ervan uit dat de vestiging van het supplement in de vennootschapsbelasting in België definitief is. Het supplement inzake de verkoopprijs van de producten kan bij de buitenlandse vennootschappen die geprofiteerd hebben van de door de Belgische vennootschap toegepaste te lage prijzen niet meer als een aftrekbare kost worden beschouwd. — Is er sprake van internationale dubbele belasting?
+> 
+> **Zo ja, juridisch of economisch?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja — internationale dubbele belasting van het type ECONOMISCHE dubbele belasting.** Dezelfde winst (het door België bij de Belgische vennootschap bijgevoegde transferpricing-supplement) wordt twee keer belast, maar bij **twee verschillende belastingplichtigen** in **twee staten**: één keer bij de Belgische vennootschap (BE-vennootschapsbelasting-supplement) en één keer bij de buitenlandse groepsvennootschappen (die hun aankoopprijs niet meer als kost in aftrek kunnen brengen). 🔗
+> > 
+> > Toetsing aan de definitie van economische dubbele belasting:
+> > 
+> > - **Zelfde inkomen?** Ja — de marge die België bij de Belgische verkoper hertaxeert is dezelfde marge die in het buitenland al in de winst van de afnemers zat (te lage aankoopprijs → hogere buitenlandse winst). 🔗
+> > - **Verschillende belastingplichtigen?** Ja — de Belgische dochter enerzijds, de buitenlandse groepsvennootschappen anderzijds. 🔗
+> > - **Twee staten heffen?** Ja — België via het verrekenprijs-supplement (art. 26 / art. 185 §2 WIB92, arm's length-principe) en de buitenlandse staten doordat de te lage prijs daar als hogere winst is belast en de aftrekweigering de correctie definitief maakt. 🔗
+> > 
+> > Dat het BE-supplement **definitief** is en het buitenland de bijkomende kost **niet aanvaardt** is precies de situatie waarvoor de **correlatieve aanpassing** van art. 9 §2 OESO-MV bedoeld is — die hier dus niet plaatsvindt. Resultaat: niet-weggenomen economische dubbele belasting. 🔗
+> > 
+> > Niet verwarren met juridische dubbele belasting: in geval b) wordt **niet** dezelfde belastingplichtige twee keer belast — de Belgische vennootschap betaalt enkel BE-vennootschapsbelasting, de buitenlandse afnemer enkel buitenlandse vennootschapsbelasting. Het is precies omdat het om **twee verschillende belastingplichtigen** gaat dat het etiket 'economisch' is en niet 'juridisch'. Reguliere DBV-methodes (vrijstelling/verrekening, art. 23A/23B) zijn hier ook niet de oplossing — de remedies zijn de **correlatieve aanpassing** (art. 9 §2 OESO-MV), de **MAP-procedure** (art. 25 OESO-MV) of, intra-EU, het **EU-Arbitrageverdrag 90/436/EEG**. 🔗
+> > 
+> > Art. 26 + art. 185 §2 WIB92 leggen voor België het arm's length-principe vast (winstcorrectie bij niet-marktconforme intragroep-verkopen) — uitgewerkt in Circulaire 2020/C/35, gebaseerd op art. 9 OESO-MV (Associated Enterprises) en de OESO Transfer Pricing Guidelines 2017. Art. 9 §2 OESO-MV verplicht de andere verdragsstaat in beginsel tot een correlatieve neerwaartse aanpassing om de economische dubbele belasting weg te nemen; gebeurt dit niet, dan blijft de dubbele belasting bestaan, zoals in geval b). 🔗  
+> > *Bron: WIB92 art. 26 + 185 §2; OESO-MV art. 9 §1-2 + art. 25 (MAP); Circulaire 2020/C/35; EU-Arbitrageverdrag 90/436/EEG*
+
+<a id="2010-2-vr33"></a>
+
+> [!question]- Toepassing van de OESO-Modelovereenkomst tot vermijding van dubbele belasting (inwonerschap, interesten, onderling overleg, overheidspensioenen)
+> *🆕 Examen 2010-2 · PO 2.8*
+>
+> Beantwoord de vragen met "waar" of "niet waar" op basis van de beginselen ingeschreven in de door de OESO ontwikkelde "Modelovereenkomst naar het Inkomen en naar het Vermogen".
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een natuurlijke persoon die geen dubbele nationaliteit bezit en die door beide overeenkomstsluitende Staten bij een overeenkomst tot vermijding van dubbele belasting als inwoner wordt beschouwd, zal in de staat waarvan hij de nationaliteit heeft steeds op zijn wereldinkomen worden belast, zonder andere criteria in aanmerking te nemen. Deze persoon bezit de nationaliteit van één van beide hiervoor beoogde overeenkomstsluitende Staten.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **Niet waar.** Nationaliteit is slechts het **vierde** criterium in de tie-breaker-cascade van art. 4 §2 OESO-MV, niet het eerste en niet automatische. 📖
+> > 
+> > Bij dubbele residentie van een natuurlijke persoon wordt de woonstaat bepaald via een **getrapte cascade** (art. 4 §2 OESO-MV) — pas als een hogere trap géén uitsluitsel geeft, daalt men af naar de volgende: 📖
+> > 
+> > 1. **Duurzaam tehuis** (*permanent home*).
+> > 2. **Middelpunt van levensbelangen** (*centre of vital interests*) — als duurzaam tehuis in beide of geen staat.
+> > 3. **Gewoon verblijf** (*habitual abode*) — als middelpunt niet bepaalbaar.
+> > 4. **Nationaliteit** — pas als gewoon verblijf in beide of geen staat.
+> > 5. **Onderling overleg** tussen de bevoegde autoriteiten — als de persoon nationaal is van beide of geen van beide staten.
+> > 
+> > De stelling stelt dat nationaliteit **steeds** doorslaggevend is *zonder andere criteria* — dat is fout. Nationaliteit komt pas in beeld als de drie hogere criteria geen oplossing gaven. 🔗
+> > 
+> > Art. 4 §2 OESO-Modelverdrag — tie-breaker rule voor natuurlijke personen: cascade a) duurzaam tehuis → b) middelpunt van levensbelangen → c) gewoon verblijf → d) nationaliteit → e) onderling overleg. 📖  
+> > *Bron: Art. 4 §2 OESO-Modelverdrag*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Interesten kunnen in de bronstaat en in de verblijfstaat worden belast.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **Waar.** Art. 11 OESO-MV verdeelt heffingsbevoegdheid over interesten: **woonstaat** (= verblijfstaat van de uiteindelijk gerechtigde) mag belasten én **bronstaat** mag belasten, met een verdragsplafond van 10% bronheffing op het brutobedrag. 📖
+> > 
+> > Art. 11 §1 — interesten mogen worden belast in de **woonstaat** van de gerechtigde ("*may be taxed in that other State*"). 📖
+> > 
+> > Art. 11 §2 — interesten **mogen ook** worden belast in de **bronstaat**, maar met een plafond van **10%** op het bruto-bedrag als de uiteindelijk gerechtigde inwoner is van de andere verdragsstaat. 📖
+> > 
+> > Gevolg: gedeelde heffingsbevoegdheid. De woonstaat neemt vervolgens de potentiële dubbele belasting weg via de methode van art. 23A/23B (typisch: **verrekening** voor interesten — geen vrijstelling). 🔗
+> > 
+> > Veel bilaterale BE-DBV's wijken bilateraal af van het OESO-plafond van 10%: sommige verdragen verlagen het tarief (bv. 0% voor bepaalde categorieën zoals leningen tussen verbonden ondernemingen onder de EU-Interest-Royalty-richtlijn), andere houden het hoger. Cijferzakboekje of het concrete DBV consulteren bij examenvragen die het exacte tarief vragen. 🤖
+> > 
+> > Art. 11 §§1-2 OESO-Modelverdrag — interesten belastbaar in de woonstaat van de gerechtigde én in de bronstaat (plafond 10% bruto bij uiteindelijk gerechtigde inwoner van de andere staat). 📖  
+> > *Bron: Art. 11 §§1-2 OESO-Modelverdrag*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Door de regeling voor onderling overleg kunnen onder meer problemen in verband met juridische dubbele belasting worden opgelost.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **Waar.** De procedure voor onderling overleg (*Mutual Agreement Procedure*, art. 25 OESO-MV) is precies bedoeld om **juridische dubbele belasting** — dezelfde belastingplichtige tweemaal belast over hetzelfde inkomen door twee staten — op te lossen wanneer de toepassing van het DBV door één van beide staten een verdragsstrijdige heffing oplevert. 🔗
+> > 
+> > Art. 25 §1 — de belastingplichtige die meent dat een handeling van één of beide staten leidt of zal leiden tot een belasting *niet in overeenstemming met het verdrag* (typisch een juridische dubbele belasting) kan zijn zaak voorleggen aan de bevoegde autoriteit (binnen 3 jaar). 📖
+> > 
+> > Art. 25 §2 — de bevoegde autoriteiten van beide staten trachten via **onderling overleg** een DBV-strijdige belasting te vermijden. 🔗
+> > 
+> > Art. 25 §3 voegt toe dat de autoriteiten ook algemene interpretatie- en toepassingsmoeilijkheden van het verdrag onderling kunnen oplossen — inclusief gevallen van **dubbele belasting die niet in het verdrag zijn voorzien**. Sinds 2008 (BEPS-versterkt 2017) voorziet §5 bovendien een **verplichte arbitrage** als sluitstuk wanneer de autoriteiten binnen 2 jaar geen akkoord vinden. 🔗
+> > 
+> > Niet verwarren met **economische dubbele belasting** (twee verschillende belastingplichtigen, zelfde inkomen — typisch transfer-pricing-correcties tussen verbonden ondernemingen). MAP dekt **beide vormen** — juridische én economische — maar het examen focust meestal op de juridische variant. 🔗
+> > 
+> > Art. 25 OESO-Modelverdrag — Mutual Agreement Procedure: belastingplichtige kan zaak voorleggen aan bevoegde autoriteit binnen 3 jaar; autoriteiten trachten DBV-strijdige (juridische én economische) dubbele belasting via onderling overleg op te lossen. 📖  
+> > *Bron: Art. 25 OESO-Modelverdrag*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een pensioen dat door België aan een Belgische natuurlijke persoon wordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een federale overheidsdienst zal in België niet meer belastbaar zijn, indien deze natuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot vermijding van dubbele belasting heeft gesloten.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **Niet waar.** Een overheidspensioen van een vroegere federale ambtenaar blijft op grond van art. 19 §2.a) OESO-MV belastbaar in de **kasstaat** (= België, die het pensioen uitbetaalt). De uitzondering van §2.b) — exclusieve heffing door de woonstaat — geldt enkel als de gerechtigde tegelijk **inwoner én nationaal** is van die andere staat. Een Belg die emigreert behoudt zijn Belgische nationaliteit en valt niet onder die uitzondering. 📖
+> > 
+> > Art. 19 §2 OESO-MV regelt **overheidspensioenen** (in afwijking van de algemene regel art. 18 die woonstaat-exclusiviteit voorziet voor privé-pensioenen): 🔗
+> > 
+> > - **§2.a) — hoofdregel (kasstaat-beginsel)**: pensioenen betaald door (of uit fondsen van) een verdragsstaat aan een individu voor vroegere overheidsdienst zijn **uitsluitend belastbaar in die staat** (de betaalstaat). 📖
+> > - **§2.b) — uitzondering**: pensioenen zijn enkel belastbaar in de andere staat als de persoon **inwoner** is van die staat **én** er ook **nationaal** (onderdaan) van is. **Cumulatieve** voorwaarde. 📖
+> > 
+> > De casus: een **Belgische** natuurlijke persoon (= Belgische nationaliteit) verhuist naar een DBV-land. Hij wordt daar inwoner, maar verwerft niet automatisch die nationaliteit. De voorwaarde "nationaal van de woonstaat" is dus niet vervuld → §2.b) is niet van toepassing → de hoofdregel §2.a) blijft gelden → **België blijft heffingsbevoegd** als kasstaat. 🔗
+> > 
+> > Niet verwarren met **art. 18 OESO-MV** (privé-pensioenen): die wijst exclusieve heffingsbevoegdheid toe aan de **woonstaat** van de pensioengerechtigde — dáár zou de emigratie wél de heffingsbevoegdheid naar het buitenland verschuiven. De aard van de vroegere dienstbetrekking (privé vs overheid) is dus beslissend. Art. 18 begint trouwens met "*Subject to the provisions of paragraph 2 of Article 19*" — art. 19 §2 is dus de lex specialis. 📖
+> > 
+> > Art. 19 §2 OESO-Modelverdrag — overheidspensioenen: hoofdregel exclusieve heffing door de kasstaat (a); uitzondering enkel als gerechtigde inwoner én nationaal van de andere staat is (b). Art. 18 (privé-pensioenen) wijkt hiervoor uitdrukkelijk. 📖  
+> > *Bron: Art. 19 §2 OESO-Modelverdrag (j° art. 18)*
+
+<a id="2010-2-vr34"></a>
+
+> [!question]- Internationale fiscaliteit — meerwaarde op aandelen van een Canadese vennootschap met enkel onroerend goed in Canada (toepassing OESO-modelverdrag)
+> *🆕 Examen 2010-2 · PO 2.8*
+>
+> Een Belgische vennootschap bezit 95 % van de aandelen van een Canadese vennootschap met als enige activiteit de verhuur van in Canada gelegen onroerende goederen. De Belgische vennootschap heeft in Canada geen vaste inrichting en oefent er geen activiteit uit.
+> 
+> De Belgische vennootschap verkoopt haar aandelen van genoemde Canadese vennootschap aan een Franse vennootschap die in Canada evenmin een vaste inrichting heeft of er een activiteit uitoefent.
+> 
+> België heeft met Canada een overeenkomst tot vermijding van dubbelbelasting gesloten en we gaan ervan uit dat die overeenkomst in overeenstemming is met de door de OESO "Ontwikkelde Modelovereenkomst naar het Inkomen en naar het Vermogen".
+> 
+> De Belgische vennootschap verwezenlijkt een aanzienlijke meerwaarde op de verkoop van de aandelen van haar Canadese dochter en vraagt u haar te bevestigen dat zij in Canada geen inkomstenbelasting zal verschuldigd zijn.
+>
+> Wat antwoordt u haar: Ja of neen? (Zal de Belgische vennootschap in Canada inkomstenbelasting verschuldigd zijn op de gerealiseerde meerwaarde op de aandelen van haar Canadese dochter?)
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Neen** — u kan dat niet bevestigen. Canada **mag** de meerwaarde belasten omdat de aandelen meer dan 50 % van hun waarde ontlenen aan in Canada gelegen onroerend goed (art. 13 §4 OESO-modelverdrag — "land-rich company"-clausule). 🔗
+> > 
+> > Redenering in vier stappen:
+> > 
+> > 1. **Kwalificatie van het inkomen** — verkoop van aandelen = meerwaarde op aandelen, valt onder art. 13 OESO-MV (Capital Gains), niet onder art. 6 (inkomsten uit onroerend goed). 🔗
+> > 2. **Hoofdregel art. 13 §5** — meerwaarden op aandelen zijn in beginsel **enkel belastbaar in de woonstaat** van de vervreemder (België). Als alleen deze regel zou gelden, kreeg de Belgische vennootschap gelijk. 📖
+> > 3. **Uitzondering art. 13 §4 — vastgoedvennootschap** — wanneer de aandelen op enig moment in de 365 dagen vóór de vervreemding voor **méér dan 50 %** van hun waarde rechtstreeks of onrechtstreeks ontlenen aan onroerend goed gelegen in de andere verdragsstaat, mag die andere staat (= bronstaat van het vastgoed) heffen. 📖
+> > 4. **Toepassing op de casus** — de Canadese dochter heeft als **enige activiteit** de verhuur van in Canada gelegen onroerend goed. Haar waarde wordt dus voor (quasi-)100 % bepaald door Canadees vastgoed → drempel van 50 % ruim overschreden → **Canada mag belasten** krachtens art. 13 §4. 🔗
+> > 
+> > De afwezigheid van een vaste inrichting in Canada doet daar niets aan af: art. 13 §4 vereist géén vaste inrichting (in tegenstelling tot art. 13 §2 voor andere bedrijfsmiddelen). 🔗
+> > 
+> > De cliënte denkt allicht: "geen vaste inrichting in Canada → geen Canadese belasting". Dat klopt voor **ondernemingswinst** (art. 7 OESO-MV) en voor meerwaarden op bedrijfsmiddelen van een VI (art. 13 §2), maar **niet** voor meerwaarden op aandelen van een vastgoedvennootschap. De "land-rich company"-clausule van art. 13 §4 is precies bedoeld om te vermijden dat onroerend goed via een aandelenverpakking aan de bronstaat-heffing zou ontsnappen — economisch verkoopt men immers het onroerend goed zelf. 🔗
+> > 
+> > Belgische vervolg: de meerwaarde blijft in België in beginsel vrijgesteld in de vennootschapsbelasting op grond van art. 192 §1 WIB92 (mits taxatie-, deelnemings- en permanentievoorwaarde voldaan zijn — 95 %-deelneming + houdperiode > 1 jaar wordt verondersteld), zodat de Canadese heffing finaal de enige belasting is. 🔗
+> > 
+> > **Art. 13 §4 OESO-modelverdrag** (Capital Gains): *"Gains derived by a resident of a Contracting State from the alienation of shares (...) may be taxed in the other Contracting State if, at any time during the 365 days preceding the alienation, these shares (...) derived more than 50 per cent of their value directly or indirectly from immovable property (...) situated in that other State."* — **Art. 13 §5** stelt de hoofdregel: andere meerwaarden op aandelen zijn enkel belastbaar in de woonstaat van de vervreemder. **Art. 6** OESO-MV bevestigt het algemene principe "onroerend goed wordt belast in de staat waar het gelegen is", waarvan art. 13 §4 het sluitstuk vormt voor de indirecte (aandelen-)overdracht. 📖  
+> > *Bron: Art. 13 §4 en §5 OESO-modelverdrag; vgl. art. 6 OESO-MV*

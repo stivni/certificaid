@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr20",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Aangifteplichtige roerende inkomsten — aanslagjaar 2010 (inkomsten 2009)** 🔗\n\nScheiding van goederen → elke echtgenoot geeft zijn/haar eigen roerend inkomen aan; gemeenschappelijke rekening 50/50.\n\n| Inkomen | Bedrag | Echtgenoot | Aangeven? | Code Vak VII |\n|---|---:|---|---|---|\n| Spaarrekening ING (BE) — netto € 1.900 | — | Mijnheer | **Neen** — Belgisch spaardeposito: vrijgesteld onder drempel (€ 1.730 IJ 2009) of bevrijdende RV op overschrijding ingehouden aan bron 📖 | — |\n| Spaarrekening BNP Paribas (BE) — € 815 | — | Mevrouw | **Neen** — idem, onder vrijstellingsdrempel 📖 | — |\n| Spaarrekening Dexia (BE) — € 1.280, gezamenlijk | — | 50/50 = € 640 elk | **Neen** — onder vrijstellingsdrempel per echtgenoot 📖 | — |\n| Spaarrekening Société Générale (FR) — netto € 290 | **€ 290** | Mijnheer | **Ja** — buitenlandse interest, in buitenland geïnd, geen Belgische RV 🔗 | Code 1444 (buitenl. interest zonder Belg. tussenpersoon) |\n| Spaarrekening KBLux (LU) — netto € 2.750 (bronheffing € 687,50) | **€ 2.750** | Mijnheer | **Ja** — buitenlandse interest, in buitenland geïnd, geen Belgische RV. Bronheffing LU is geen RV en niet aftrekbaar 🔗 | Code 1444 |\n| Canadese dividenden — netto € 740 (bewaringskosten € 17) | **€ 723** | Mevrouw | **Ja** — dividend in Canada geïnd, geen Belgische RV; bewaringskosten aftrekbaar (art. 22 §1 WIB92) 🔗 | Code 2444 (buitenl. dividend zonder Belg. tussenpersoon) |\n| Auteursrechten Italië — € 1.200 | **€ 1.200** | Mevrouw | **Ja** — buitenlandse auteursrechten zonder Belgische tussenpersoon (geen RV ingehouden); art. 17 §1 5° + art. 313, 4° WIB92 🔗 | Code 1117 (auteursrechten roerend) |\n\n**Totaal aan te geven**: Mijnheer € 3.040 — Mevrouw € 1.923 (€ 723 dividend + € 1.200 auteursrechten).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Redenering per inkomen** 🔗\n\n1. **Belgische spaardeposito's (ING, BNP Paribas, Dexia)** — bij een erkende Belgische bank → óf vrijgesteld (eerste schijf, € 1.730 per echtgenoot voor IJ 2009), óf bevrijdende RV (15 %) ingehouden op de overschrijding. In beide gevallen verbiedt art. 313 WIB92 niet de aangifte, maar deze is **niet verplicht**. Per echtgenoot blijven de bedragen ruim onder de drempel (ING € 1.900 zit erboven → de € 170 surplus draagt RV en is bevrijdend; aangifte niet verplicht). 🔗\n2. **Buitenlandse interesten (Société Générale, KBLux)** — door mijnheer **rechtstreeks in het buitenland** geïnd, zonder tussenkomst van een Belgische tussenpersoon. Geen Belgische RV ingehouden → **verplicht aan te geven** (art. 313 WIB92 a contrario). De Luxemburgse bronheffing (€ 687,50, eindheffing 2009) is geen Belgische RV en geen verrekenbare buitenlandse belasting voor interesten; het netto-bedrag wordt aangegeven. 🔗\n3. **Canadese dividenden** — gestort op een Canadese rekening van mevrouw → geen Belgische RV → **verplicht aan te geven**. De door de Canadese bank ingehouden bewaringskosten (€ 17) zijn aftrekbaar van het netto-inkomen (art. 22 §1 WIB92). 🔗\n4. **Auteursrechten Italiaanse uitgever** — sinds wet 16 juli 2008 vormen auteursrechten en naburige rechten een afzonderlijke categorie roerend inkomen (art. 17 §1 5° WIB92), van toepassing op inkomsten 2008 en later. Geen beroepsinkomen (vraag stelt dit expliciet). Geen Belgische RV → **verplicht aan te geven** (art. 313, 4° WIB92 verwijst expliciet naar art. 17 §1 5°). 🔗\n5. **Stelsel scheiding van goederen** — geen gemeenschappelijk vermogen behalve de gezamenlijke Dexia-spaarrekening. Elke echtgenoot geeft zijn/haar eigen roerend inkomen aan in zijn/haar kolom van Vak VII; Dexia 50/50. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het **netto-bedrag** dat in de casus staat is voor de buitenlandse interesten en dividenden ook het **aan te geven bedrag**: er was geen Belgische tussenpersoon, dus geen Belgische RV om bij op te tellen. Wel **af te trekken** zijn de bewaringskosten op de buitenlandse dividenden (Canada € 17) — dit is de enige post in deze casus waar het aangiftebedrag lager is dan het netto-bedrag in de opgave. Buitenlandse bronheffing op intresten (Luxemburg) wordt **niet** afgetrokken en is **niet** verrekenbaar als FBB op interesten (wél bij dividenden onder DBV, maar dit zijn intresten). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 17 §1 WIB92** somt de vier (en sinds 2008 vijf) categorieën roerend inkomen op: 1° dividenden, 2° interest, 5° auteursrechten en naburige rechten. **Art. 22 §1 WIB92** definieert netto-roerend-inkomen: bedrag geïnd of verkregen, verminderd met innings- en bewaringskosten. **Art. 313 WIB92** stelt de regel: roerende inkomsten waarvoor daadwerkelijk Belgische RV werd ingehouden of die ervan vrijgesteld zijn moeten **niet** in de aangifte PB worden vermeld — a contrario zijn de buitenlandse inkomsten geïnd zonder Belgische tussenpersoon, en de auteursrechten van art. 17 §1 5°, **wel** aan te geven (art. 313, 4° vermeldt deze expliciet). 📖",
+          "wetsref": "Art. 17, 22 §1 en 313 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

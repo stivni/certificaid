@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr24",
+  "interpretatie_datum": "2026-05-29T19:32:28Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "hybride",
+  "vraag_onderwerp": "Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "vennootschapsbelasting",
+    "belastbare basis",
+    "aftrekbare bestanddelen",
+    "bewerkingen vennootschapsbelasting"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Dit segment toont op pagina 15 de aanhef van 'Vraag 2' (... / 6 punten) van een vennootschapsbelastingcasus. De casus zelf (vraag 1) bevindt zich op voorgaande pagina's en bevat onder meer: een lineair over 5 jaar afgeschreven octrooi met geboekte afschrijving € 200.000,00; financiële vaste activa (400 aandelen A Belgische NV en 100 aandelen B Duitse AG) en een geldbelegging in een obligatielening uitgegeven door een Deense vennootschap C (€ 12.500,00); in 2009 verkoop van 10 aandelen D (Belgische NV) met boekwaarde € 7.500,00 voor € 10.000,00 (kost van verkoop € 48,00 aan de financiële instelling); een samenstelling van het maatschappelijk kapitaal (aandelen A: 3.000; B: 900; C: 5.000; D: 1.000); financiële opbrengsten met dividend aandelen A € 875,00 en aandelen B € 1.875,00; en een meerwaarde gerealiseerd bij verkoop van aandelen D van € 2.500,00. Het volledige feitenrelaas van vraag 1 is in dit segment niet beschikbaar."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Vraag 2 (6 punten): 'Vermeld en verduidelijk met een woordje uitleg en overeenkomstige cijfers welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'"
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 2",
+      "vraagtype": "open",
+      "vraagstelling": null,
+      "motivatie_verwacht": true,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Het segment 2010-2-vr24 is een parser-artefact: pagina 16 toont feitelijk pagina 15 van de PDF, met daarop het einde van vraag 1 (de feitencasus over een vennootschap met o.a. octrooi-afschrijving, financiële vaste activa, dividenden van Belgische en Duitse aandelen, een meerwaarde op aandelen D) en de aanhef van vraag 2 ('Vermeld en verduidelijk ... welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN'). Vraag 2 refereert expliciet aan 'vraag 1' die op voorgaande pagina's de casus opbouwt, maar dat segment is in deze isolatie niet als context aanwezig — bovendien lijkt vr24 enkel deze paginas te omvatten en niet de eigenlijke vraagopbouw + sub-onderdelen. Conform de operator-instructie gemarkeerd als hybride/topic_only met vraagtype 'open' (vraag vraagt om vrije tekst-uiteenzetting met cijfers). De zichtbare vraagstelling wordt wel in context_blokken bewaard voor traceerbaarheid, maar de deelvraag is topic_only omdat de volledige feitencasus en de overige bewerkingen-vragen (vraag 3, ...) buiten dit segment vallen. Inhoudelijk: vennootschapsbelasting → PO 2.3.",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud",
+    "pagina_overslaat",
+    "ocr_artefact"
+  ]
+}

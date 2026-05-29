@@ -1,0 +1,124 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr27",
+  "antwoord_datum": "2026-05-29T12:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Plaats van de dienst = Nederland** (waar het onroerend goed — de woning in aanbouw — gelegen is). **Schuldenaar = de Nederlandse afnemer (bouwheer)** via verlegging van heffing wanneer die een btw-belastingplichtige is; anders de Belgische aannemer met Nederlandse btw na NL-registratie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De relevante handeling is niet het overbrengen van de kraan, maar **de bouwprestatie zelf** = werk in onroerende staat (art. 19, §2 W.BTW). 🔗 Voor diensten die verband houden met een uit hun aard onroerend goed geldt zowel B2B (art. 21, §3, 1°) als B2C (art. 21bis, §2, 1°) de plaats waar het onroerend goed gelegen is — hier dus Nederland. 📖 De grensoverschrijdende overbrenging van de kraan voor tijdelijk gebruik bij eigen dienstverrichting in NL is géén gelijkgestelde intracommunautaire levering (uitzondering op art. 12bis W.BTW: tijdelijk gebruik voor eigen dienst met terugkeer). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet redeneren vanuit \"de kraan vertrekt in België → art. 14 §2 W.BTW → BE-btw\". De kraan blijft eigendom van de aannemer; er is geen levering. Het belastbare feit is de bouwdienst, en die volgt het onroerend goed — niet de plaats van vertrek van het materieel. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21, §3, 1° W.BTW (B2B) en art. 21bis, §2, 1° W.BTW (B2C): voor een dienst die verband houdt met een uit zijn aard onroerend goed — uitdrukkelijk inclusief werk in onroerende staat — is de plaats van de dienst de plaats waar het onroerend goed gelegen is. Schuldenaar in NL: art. 194 Richtlijn 2006/112/EG (verlegging naar de in NL gevestigde afnemer-belastingplichtige; cf. art. 12 Wet OB 1968 NL). 📖",
+          "wetsref": "Art. 21, §3, 1° W.BTW; art. 21bis, §2, 1° W.BTW; art. 194 Richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Plaats van de dienst = buiten de Gemeenschap (Verenigde Staten)**, op voorwaarde dat de muziekgroep handelt als belastingplichtige (B2B-hoofdregel: zetel van de afnemer, art. 21, §2 W.BTW). **Geen Belgische btw verschuldigd; geen schuldenaar in België** — de heffing valt onder het Amerikaanse stelsel (sales tax / state-niveau, geen btw-verlegging in EU-zin). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De terbeschikkingstelling van een geluidsopnamestudio met bedieningspersoneel is een gewone dienstverrichting (art. 18 W.BTW). 🔗 Een professionele muziekgroep is een belastingplichtige (art. 4 W.BTW) → B2B-hoofdregel art. 21, §2: plaats = zetel van de afnemer = VS, dus buiten het toepassingsgebied van het Belgische btw-stelsel. 📖 De Belgische platenfirma factureert zonder Belgische btw en vermeldt geen verlegging (afnemer buiten de EU; rapporteert wel in vak 47 van de Belgische btw-aangifte). 🔗 Behoort de muziekgroep daarentegen tot particulieren (B2C), dan geldt art. 21bis, §1 (plaats = zetel van de dienstverrichter = Antwerpen, Belgische btw 21 %), tenzij de dienst kwalificeert als verhuur van een roerend goed of als intellectuele/artistieke prestatie waarvoor art. 21bis, §2, 10° de plaats verlegt naar het werkelijke gebruik in de VS. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De vraagstelling preciseert niet of de muziekgroep een vennootschap/maatschap is (B2B) dan wel als feitelijke vereniging van particulieren handelt (B2C). De Belgische platenfirma moet zich daarover vergewissen — typisch via btw-/EIN-nummer of een schriftelijke verklaring (uitvoeringsverordening 282/2011, art. 18). De examenoplossing volgt doorgaans de B2B-hypothese omdat \"een muziekgroep die jarenlang actief opnames maakt\" professioneel optreedt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "B2B-hoofdregel: art. 21, §2 W.BTW (sinds 01.01.2010, btw-pakket — W. 26.11.2009) — plaats van de dienst is de zetel van de economische activiteit van de afnemer-belastingplichtige. Voor B2C: art. 21bis, §1 W.BTW (plaats = dienstverrichter) en eventueel art. 21bis, §2, 10° (werkelijk gebruik buiten EU). 📖",
+          "wetsref": "Art. 21, §2 W.BTW; art. 21bis, §1 W.BTW; art. 21bis, §2, 10° W.BTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Plaats van de dienst = België** (Antwerpen, zetel van de dienstverrichter — art. 21bis, §1 W.BTW). **Schuldenaar = het Belgisch accountantskantoor** (art. 51, §1, 1° W.BTW), dat 21 % Belgische btw aanrekent op zijn ereloon. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De Nederlandse loontrekkende is een **particulier** (geen belastingplichtige in de zin van art. 4 W.BTW) → de B2B-hoofdregel van art. 21 is niet van toepassing; we vallen terug op art. 21bis. 🔗 De accountantsdienst (raadgevende dienst van art. 21bis, §2, 10°) wordt verricht voor een afnemer die in een andere lidstaat (Nederland) woont — **binnen** de Gemeenschap. De uitzondering van art. 21bis, §2, 10° geldt slechts wanneer de niet-belastingplichtige afnemer **buiten de Gemeenschap** is gevestigd; voor een afnemer binnen de EU geldt dus de algemene B2C-regel van art. 21bis, §1: plaats = zetel van de dienstverrichter = Antwerpen. 📖 De factuur draagt Belgische btw, het kantoor is schuldenaar (art. 51, §1, 1°). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De verleiding bestaat om \"de Nederlander woont in Nederland\" door te trekken naar \"plaats = NL\". Dat geldt enkel bij B2B (art. 21, §2) of bij een B2C-afnemer **buiten de EU** (art. 21bis, §2, 10°). Een EU-particulier valt onder de hoofdregel B2C → plaats = dienstverrichter. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21bis, §1 W.BTW: plaats van een dienst aan een niet-belastingplichtige is de zetel van de economische activiteit van de dienstverrichter. Art. 21bis, §2, 10° W.BTW lijst de \"raadgevende diensten\" (incl. accountants en belastingadviseurs) op met afwijking enkel voor afnemers buiten de Gemeenschap — niet voor een Nederlandse particulier. Schuldenaar: art. 51, §1, 1° W.BTW (dienstverrichter). 📖",
+          "wetsref": "Art. 21bis, §1 W.BTW; art. 21bis, §2, 10° W.BTW; art. 51, §1, 1° W.BTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

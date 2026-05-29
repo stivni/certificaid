@@ -3,12 +3,12 @@ title: PO 2.4 — Belasting over de toegevoegde waarde
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.4 (Belasting over de toegevoegde waarde).
 tags: [examen, voorbeeldvragen, po-2-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-28
+gegenereerd_op: 2026-05-29
 ---
 
 # PO 2.4 — Belasting over de toegevoegde waarde
 
-**31 unieke vraag-eenheden** (waarvan 2 clusters, totaal 33 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 31 met modelantwoord
+**35 unieke vraag-eenheden** (waarvan 2 clusters, totaal 37 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 34 met modelantwoord
 
 <a id="2024-1-vr11A"></a>
 
@@ -975,64 +975,234 @@ gegenereerd_op: 2026-05-28
 > > **WBTW art. 2 + art. 10** (belastbare levering door btw-plichtige); **WBTW art. 45, § 2** (50 %-plafond personenwagens) → halvering maatstaf bij verkoop (vaste administratieve praktijk, bevestigd in Btw-commentaar nr. 45/213); **KB nr. 3 art. 9, § 1** (5-jarige herzieningstermijn roerende bedrijfsmiddelen); **KB nr. 3 art. 10** (geen herziening na verloop van de termijn). 📖  
 > > *Bron: WBTW art. 2 + 10 + 45 §2; KB nr. 3 art. 9 §1 + art. 10*
 
-<a id="2008-bibf-vrD1"></a>
-<a id="2003-bibf-vrD1"></a>
+<a id="2010-2-vr27"></a>
 
-> [!question]- BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater
-> *Examens 2008-bibf (2008-bibf-vrD1) & 2003-bibf (2003-bibf-vrD1) · PO 2.4*
+> [!question]- Plaats van de levering/dienst en schuldenaar van de btw in grensoverschrijdende situaties
+> *🆕 Examen 2010-2 · PO 2.4*
 >
-> 🔁 **2× bevraagd** (echt duplicaat)
+> Bepaal met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel:
+> 1) de plaats van de levering of dienst (of handeling gelijkgesteld met een levering of dienst) EN
+> 2) desgevallend de schuldenaar van de btw
+> in de volgende gevallen waarbij de voorwaarden voor belastbaarheid geacht worden voldaan te zijn.
 >
-> Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW-administratie voor het statuut van normale trimestriële BTW-belastingplichtige. Hij vraagt u om zijn boekhoudkundig dossier te beheren.
->
-> Leg hem uit welke zijn wettelijke verplichtingen zijn waaraan hij zich dient te houden alsook welke stukken/informatie u ieder trimester van hem wenst te ontvangen.
+> Een Belgische aannemer vervoert een kraan naar Nederland, waar hij de kraan gebruikt bij de bouw van een woning. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > Als kwartaal-BTW-belastingplichtige horeca-uitbater moet de cliënt (a) een aan zijn activiteit aangepaste BTW-boekhouding voeren met de wettelijk verplichte boeken, (b) facturen uitreiken en kastickets afleveren via een geregistreerd kassasysteem (GKS) wanneer zijn jaaromzet restaurant-/cateringdiensten > 25.000 EUR, (c) kwartaalaangiften en de jaarlijkse klantenlisting indienen, en (d) zijn boeken en stukken 10 jaar bewaren. Per kwartaal bezorgt hij u: aankoop-/onkostenfacturen, verkoopfacturen, dagontvangstenboek met de Z-rapporten/kastickets, kas- en bankuittreksels en de loonstaten. 🔗
+> > **Plaats van de dienst = Nederland** (waar het onroerend goed — de woning in aanbouw — gelegen is). **Schuldenaar = de Nederlandse afnemer (bouwheer)** via verlegging van heffing wanneer die een btw-belastingplichtige is; anders de Belgische aannemer met Nederlandse btw na NL-registratie. 🔗
 > > 
-> > **BTW-verplichtingen (W.BTW + KB nr. 1):**
+> > De relevante handeling is niet het overbrengen van de kraan, maar **de bouwprestatie zelf** = werk in onroerende staat (art. 19, §2 W.BTW). 🔗 Voor diensten die verband houden met een uit hun aard onroerend goed geldt zowel B2B (art. 21, §3, 1°) als B2C (art. 21bis, §2, 1°) de plaats waar het onroerend goed gelegen is — hier dus Nederland. 📖 De grensoverschrijdende overbrenging van de kraan voor tijdelijk gebruik bij eigen dienstverrichting in NL is géén gelijkgestelde intracommunautaire levering (uitzondering op art. 12bis W.BTW: tijdelijk gebruik voor eigen dienst met terugkeer). 🤖
 > > 
-> > - **Aangifte bij aanvang/wijziging/stopzetting** activiteit bij het bevoegde BTW-controlekantoor (art. 53 W.BTW). 📖
-> > - **BTW-boekhouding aangepast aan de activiteit** (art. 14 §1 KB nr. 1): boek voor inkomende facturen, boek voor uitgaande facturen, **dagboek van ontvangsten** per bedrijfszetel (verplicht voor handelingen waarvoor geen factuur moet worden uitgereikt — typisch horeca-verkopen aan particulieren), en een **centralisatieboek** als er meerdere boeken zijn. 📖
-> > - **Facturen uitreiken** voor handelingen aan BTW-plichtigen/rechtspersonen en bewaren van dubbels (art. 53, §2 W.BTW). 📖
-> > - **Geregistreerd kassasysteem (GKS) met kasticket** wanneer de jaaromzet uit restaurant-/cateringdiensten (exclusief BTW, dranken niet meegeteld) meer bedraagt dan **25.000 EUR** (art. 21bis KB nr. 1 + KB 30.12.2009). 📖
-> > - **Periodieke BTW-aangifte per kwartaal** indienen uiterlijk de **20e** van de maand volgend op het kwartaal en de verschuldigde BTW betalen; bij keuze voor het normale kwartaalregime zijn **voorschotten** verschuldigd (art. 53, §1 W.BTW + KB nr. 1). 🔗
-> > - **Jaarlijkse klantenlisting** (lijst BTW-belastingplichtige afnemers) indienen vóór 31 maart van het volgende jaar (KB nr. 23). 📖
-> > - **Intracommunautaire opgave** indien IC-leveringen of -diensten (KB nr. 50) — voor zuivere horeca meestal niet aan de orde. 🔗
-> > - **Bewaarplicht** van boeken, facturen en stukken gedurende **7 jaar** (sinds 2019; voor het examenjaar 2003 gold nog **10 jaar** — art. 60 W.BTW). ❓
+> > Niet redeneren vanuit "de kraan vertrekt in België → art. 14 §2 W.BTW → BE-btw". De kraan blijft eigendom van de aannemer; er is geen levering. Het belastbare feit is de bouwdienst, en die volgt het onroerend goed — niet de plaats van vertrek van het materieel. 🤖
 > > 
-> > **Boekhoudkundige en sociale verplichtingen:**
+> > Art. 21, §3, 1° W.BTW (B2B) en art. 21bis, §2, 1° W.BTW (B2C): voor een dienst die verband houdt met een uit zijn aard onroerend goed — uitdrukkelijk inclusief werk in onroerende staat — is de plaats van de dienst de plaats waar het onroerend goed gelegen is. Schuldenaar in NL: art. 194 Richtlijn 2006/112/EG (verlegging naar de in NL gevestigde afnemer-belastingplichtige; cf. art. 12 Wet OB 1968 NL). 📖  
+> > *Bron: Art. 21, §3, 1° W.BTW; art. 21bis, §2, 1° W.BTW; art. 194 Richtlijn 2006/112/EG*
+>
+> Een Belgische platenfirma stelt in Antwerpen een volledige geluidsopnamestudio met bedieningspersoneel ter beschikking van een Belgische muziekgroep die al jaren in de VS woont. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Plaats van de dienst = buiten de Gemeenschap (Verenigde Staten)**, op voorwaarde dat de muziekgroep handelt als belastingplichtige (B2B-hoofdregel: zetel van de afnemer, art. 21, §2 W.BTW). **Geen Belgische btw verschuldigd; geen schuldenaar in België** — de heffing valt onder het Amerikaanse stelsel (sales tax / state-niveau, geen btw-verlegging in EU-zin). 🔗
 > > 
-> > - **Boekhoudplicht** als natuurlijke persoon met zelfstandige beroepsactiviteit (vroeger Wet 17.07.1975, sinds WER Boek III art. III.82 e.v.): minstens een **vereenvoudigde boekhouding** (financieel dagboek, aankoopboek, verkoopboek, inventarisboek) zolang de omzet ≤ de drempel (vandaag 500.000 EUR ex BTW); daarboven dubbel boekhouden. 🔗
-> > - **Jaarlijkse inventaris** en opmaak van **jaarrekening** (interne jaarrekening voor de eenmanszaak). 🔗
-> > - **Aansluiting bij een sociaal verzekeringsfonds** voor zelfstandigen + driemaandelijkse sociale bijdragen. 🔗
-> > - **Personenbelasting**: jaarlijkse PB-aangifte met **deel 2** (winst-/baten); kwartaalvoorafbetalingen om belastingvermeerdering te vermijden. 🔗
-> > - **Bedrijfsvoorheffing** en RSZ inhouden en doorstorten indien personeel in dienst. 🔗
+> > De terbeschikkingstelling van een geluidsopnamestudio met bedieningspersoneel is een gewone dienstverrichting (art. 18 W.BTW). 🔗 Een professionele muziekgroep is een belastingplichtige (art. 4 W.BTW) → B2B-hoofdregel art. 21, §2: plaats = zetel van de afnemer = VS, dus buiten het toepassingsgebied van het Belgische btw-stelsel. 📖 De Belgische platenfirma factureert zonder Belgische btw en vermeldt geen verlegging (afnemer buiten de EU; rapporteert wel in vak 47 van de Belgische btw-aangifte). 🔗 Behoort de muziekgroep daarentegen tot particulieren (B2C), dan geldt art. 21bis, §1 (plaats = zetel van de dienstverrichter = Antwerpen, Belgische btw 21 %), tenzij de dienst kwalificeert als verhuur van een roerend goed of als intellectuele/artistieke prestatie waarvoor art. 21bis, §2, 10° de plaats verlegt naar het werkelijke gebruik in de VS. ❓
 > > 
-> > Wat u als boekhouder telkens vóór het einde van de maand na het kwartaal van de cliënt nodig heeft om de BTW-aangifte op te maken:
+> > De vraagstelling preciseert niet of de muziekgroep een vennootschap/maatschap is (B2B) dan wel als feitelijke vereniging van particulieren handelt (B2C). De Belgische platenfirma moet zich daarover vergewissen — typisch via btw-/EIN-nummer of een schriftelijke verklaring (uitvoeringsverordening 282/2011, art. 18). De examenoplossing volgt doorgaans de B2B-hypothese omdat "een muziekgroep die jarenlang actief opnames maakt" professioneel optreedt. 🤖
 > > 
-> > - **Aankoopfacturen en onkostennota's** van het kwartaal (handelsgoederen, dranken, voeding, energie, huur, telefoon, verzekeringen, ...), origineel of elektronisch. 🔗
-> > - **Verkoopfacturen** uitgereikt aan BTW-plichtige klanten / op vraag (seminaries, bedrijfsmaaltijden, ...). 🔗
-> > - **Dagboek van ontvangsten** en/of de **dagelijkse Z-rapporten** van het geregistreerd kassasysteem (of, bij omzet ≤ 25.000 EUR restaurant/catering: het manueel bijgehouden ontvangstenboek met dagtotalen). 🔗
-> > - **Kas- en bankuittreksels** van alle beroepsrekeningen + kasboek. 🔗
-> > - **Creditnota's** (uitgaand en inkomend) en eventuele **invoerdocumenten / IC-stukken**. 🔗
-> > - **Loon- en personeelsstaten** (indien personeel): individuele rekeningen, lonen, bedrijfsvoorheffing, RSZ-aangifte. 🔗
-> > - **Eventuele investeringsdocumenten** (aankoop materieel, auto, inrichting) — relevant voor BTW-aftrek en afschrijving. 🔗
-> > - **Stand van vorderingen/schulden** op kwartaaleinde (klanten- en leverancierssaldi) voor de tussentijdse afsluit. 🔗
+> > B2B-hoofdregel: art. 21, §2 W.BTW (sinds 01.01.2010, btw-pakket — W. 26.11.2009) — plaats van de dienst is de zetel van de economische activiteit van de afnemer-belastingplichtige. Voor B2C: art. 21bis, §1 W.BTW (plaats = dienstverrichter) en eventueel art. 21bis, §2, 10° (werkelijk gebruik buiten EU). 📖  
+> > *Bron: Art. 21, §2 W.BTW; art. 21bis, §1 W.BTW; art. 21bis, §2, 10° W.BTW*
+>
+> Een Belgisch accountantskantoor gevestigd in Antwerpen vult de belastingaangifte van niet-inwoners (BNI) in voor een Nederlandse loontrekkende die werkt in een Belgische kmo in de grensstreek. De Nederlander woont net over de grens in Nederland. Bepaal de plaats van de handeling en desgevallend de schuldenaar van de btw, met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Plaats van de dienst = België** (Antwerpen, zetel van de dienstverrichter — art. 21bis, §1 W.BTW). **Schuldenaar = het Belgisch accountantskantoor** (art. 51, §1, 1° W.BTW), dat 21 % Belgische btw aanrekent op zijn ereloon. 🔗
 > > 
-> > Jaarlijks bijkomend: **inventaris voorraad** (drank, food, klein materieel) en kilometerstand/privégebruik beroepsvoertuig voor het BTW-aftrekverhoudingscijfer. 🔗
+> > De Nederlandse loontrekkende is een **particulier** (geen belastingplichtige in de zin van art. 4 W.BTW) → de B2B-hoofdregel van art. 21 is niet van toepassing; we vallen terug op art. 21bis. 🔗 De accountantsdienst (raadgevende dienst van art. 21bis, §2, 10°) wordt verricht voor een afnemer die in een andere lidstaat (Nederland) woont — **binnen** de Gemeenschap. De uitzondering van art. 21bis, §2, 10° geldt slechts wanneer de niet-belastingplichtige afnemer **buiten de Gemeenschap** is gevestigd; voor een afnemer binnen de EU geldt dus de algemene B2C-regel van art. 21bis, §1: plaats = zetel van de dienstverrichter = Antwerpen. 📖 De factuur draagt Belgische btw, het kantoor is schuldenaar (art. 51, §1, 1°). 🔗
 > > 
-> > Het **geregistreerd kassasysteem (GKS)** voor horeca bestond in 2003 nog niet — het werd ingevoerd vanaf **2014** (KB 30.12.2009 + KB 01.10.2013). In 2003 hield een taverne-uitbater zijn omzet bij in een **gewoon dagontvangstenboek** (per bedrijfszetel, dagelijks ingevuld met afzonderlijke vermelding per BTW-tarief — art. 14 KB nr. 1). De 25.000 EUR-drempel en de GKS-verplichting zijn dus enkel relevant voor de moderne lezing van de vraag. Het juist toepassen van het tijdperk-correcte regime is de typische valkuil bij oudere examenvragen. 🔗
+> > De verleiding bestaat om "de Nederlander woont in Nederland" door te trekken naar "plaats = NL". Dat geldt enkel bij B2B (art. 21, §2) of bij een B2C-afnemer **buiten de EU** (art. 21bis, §2, 10°). Een EU-particulier valt onder de hoofdregel B2C → plaats = dienstverrichter. 🤖
 > > 
-> > **W.BTW**: art. 53 (aanvangsaangifte, periodieke aangifte, facturatie), art. 60 (bewaarplicht boeken en stukken), art. 56bis (kasticket horeca). **KB nr. 1 W.BTW** (29.12.1992): art. 14 (boekhouding aangepast aan de activiteit + verplichte boeken inclusief dagboek van ontvangsten), art. 21bis (kasticket-/GKS-plicht horeca > 25.000 EUR). **KB nr. 23** (09.12.2009): jaarlijkse klantenlisting. **KB nr. 50**: intracommunautaire opgave. **WER Boek III** (art. III.82 e.v.): algemene boekhoudplicht zelfstandigen. 📖  
-> > *Bron: art. 53, 56bis, 60 W.BTW · art. 14, 21bis KB nr. 1 · KB nr. 23 · WER art. III.82*
+> > Art. 21bis, §1 W.BTW: plaats van een dienst aan een niet-belastingplichtige is de zetel van de economische activiteit van de dienstverrichter. Art. 21bis, §2, 10° W.BTW lijst de "raadgevende diensten" (incl. accountants en belastingadviseurs) op met afwijking enkel voor afnemers buiten de Gemeenschap — niet voor een Nederlandse particulier. Schuldenaar: art. 51, §1, 1° W.BTW (dienstverrichter). 📖  
+> > *Bron: Art. 21bis, §1 W.BTW; art. 21bis, §2, 10° W.BTW; art. 51, §1, 1° W.BTW*
 
-<a id="2008-bibf-vrD2"></a>
-<a id="2003-bibf-vrD2"></a>
+<a id="2010-2-vr28"></a>
+
+> [!question]- BTW-herziening van de oorspronkelijk uitgeoefende aftrek
+> *🆕 Examen 2010-2 · PO 2.4*
+>
+> Bepaal met korte motivering of voor volgende gevallen herziening moet gebeuren, en zo ja wanneer.
+>
+> Mijnheer Bert, btw-belastingplichtige met volledig recht op aftrek, ontvangt een factuur d.d. 3/12/2009 van een aannemer (herstellingswerken voltooid op 15/11/2009) voor € 3 000,00. Het gaat om werken aan een gebouw dat voor 50 % voor beroepsdoeleinden dient. In rooster 56 van de aangifte van november 2009 neemt de heer Bert € 405,00 op (€ 1 500,00 aan 6 % en € 1 500,00 aan 21 %). In deze aangifte trekt hij € 405,00 af. Bepaal met korte motivering of herziening moet gebeuren, en zo ja wanneer.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA — herziening in het nadeel van de belastingplichtige.** Bert mocht slechts 50 % van de € 405 aftrekken (€ 202,50), want het gebouw wordt maar voor 50 % beroepsmatig gebruikt. De overaftrek van **€ 202,50** moet hij terugstorten via vak **61** van zijn eerstvolgende periodieke aangifte (de aangifte van december 2009, in te dienen in januari 2010). 🔗
+> > 
+> > BTW op factuur: € 1 500 × 6 % = € 90 + € 1 500 × 21 % = € 315 → totaal € 405 BTW. 🔗
+> > 
+> > Recht op aftrek (art. 45 § 1 W.BTW): aftrek is **evenredig met het gebruik voor belaste handelingen**. Het beroepsgebruik bedraagt 50 % → toegelaten aftrek = 50 % × € 405 = **€ 202,50**. 🔗
+> > 
+> > Bert heeft echter de volle € 405 afgetrokken → **overaftrek van € 202,50** die via herziening moet worden gecorrigeerd. 🔗
+> > 
+> > Het gaat hier om **herstellingswerken** (een gewone kost), niet om een onroerend bedrijfsmiddel. Daarom **geen** 15-jaars-herziening van art. 9 § 2 KB nr. 3 (en geen pro rata temporis-berekening over een herzieningstijdvak). Het is een eenmalige correctie van de oorspronkelijk verkeerd uitgeoefende aftrek (art. 5 + 10 KB nr. 3): terugstorting in vak 61 in de eerstvolgende aangifte na de vaststelling van de fout. 🔗
+> > 
+> > Art. 45 § 1 W.BTW (aftrek beperkt tot gebruik voor belaste handelingen) + KB nr. 3 art. 5 en 10 (herziening oorspronkelijke aftrek bij onjuiste uitoefening). Praktijk: terugstorting in **vak 61** van de periodieke aangifte. 📖  
+> > *Bron: Art. 45 § 1 W.BTW; KB nr. 3 art. 5 en 10*
+>
+> Mevrouw Bauwens, btw-belastingplichtige met volledig recht op aftrek, heeft een factuur ontvangen van € 100 000,00 + € 6 000,00 btw met betrekking op een levering op: 15/4/2009, 18/8/2007 of 03/3/2005. Op 6/3/2010 stelt zij vast dat zij maar € 600,00 btw heeft afgetrokken. Bepaal met korte motivering of herziening moet gebeuren, en zo ja wanneer (voor elk van de drie leveringsdata).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Bauwens heeft **€ 5 400 te weinig** afgetrokken (€ 6 000 verschuldigd – € 600 afgetrokken). Of zij die nog kan recupereren hangt af van de verjaringstermijn van art. 4 KB nr. 3: aftrek mogelijk tot **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de BTW opeisbaar werd**. Vaststelling op 6/3/2010:
+> > 
+> > | Leveringsdatum | BTW opeisbaar | Uiterste herziening | Herziening op 6/3/2010? |
+> > |---|---|---|---|
+> > | 15/04/2009 | 2009 | 31/12/2012 | **JA** — recupereren via vak 62 🔗 |
+> > | 18/08/2007 | 2007 | 31/12/2010 | **JA** — nog net binnen termijn 🔗 |
+> > | 03/03/2005 | 2005 | 31/12/2008 | **NEE** — recht op aftrek verjaard 🔗 | 🔗
+> > 
+> > **Regel** (art. 4, tweede lid KB nr. 3): wanneer het recht op aftrek niet tijdig werd uitgeoefend, kan het nog uitgeoefend worden in een aangifte ingediend **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden**. 📖
+> > 
+> > **Toepassing per leveringsdatum** (BTW wordt opeisbaar bij levering — art. 17 W.BTW):
+> > - **15/4/2009**: opeisbaar in 2009 → drie kalenderjaren volgend = 2010, 2011, 2012 → uiterlijke herziening = aangifte ingediend vóór **31/12/2012**. Vaststelling 6/3/2010 ligt ruim binnen de termijn → **herziening in het voordeel** van Bauwens via vak **62** van de aangifte van februari/maart 2010. 🔗
+> > - **18/8/2007**: opeisbaar in 2007 → uiterlijke herziening vóór **31/12/2010**. Op 6/3/2010 nog ca. 10 maanden tijd → **herziening mogelijk** in eerstvolgende aangifte, niet uitstellen. 🔗
+> > - **3/3/2005**: opeisbaar in 2005 → uiterlijke herziening vóór **31/12/2008**. Op 6/3/2010 al meer dan 14 maanden verstreken → **verjaard**, geen recuperatie van de € 5 400 mogelijk. 🔗
+> > 
+> > Verwar de **verjaring van het recht op aftrek** (3 jaar, art. 4 KB nr. 3 — in het voordeel van de belastingplichtige) niet met de **verjaring van de BTW-schuld** (art. 81-83 W.BTW, in principe 3 jaar maar 7 jaar bij fraude). Voor 2007 is het krap maar haalbaar; één gemiste aangifte en de € 6 000 BTW van die factuur is definitief verloren. 🤖
+> > 
+> > Art. 4, tweede lid KB nr. 3 van 10/12/1969: laattijdige uitoefening van het recht op aftrek kan nog gebeuren in een aangifte ingediend **vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden**. Praktijk: opname in **vak 62** (herzieningen in het voordeel) van de periodieke aangifte. 📖  
+> > *Bron: KB nr. 3 art. 4, tweede lid*
+
+<a id="2010-2-vr29"></a>
+
+> [!question]- Recht op aftrek van btw — vijf concrete handelingen bij een normale btw-belastingplichtige
+> *🆕 Examen 2010-2 · PO 2.4*
+>
+> Is er recht op aftrek van de btw, geheven van volgende handelingen, in hoofde van een btw-belastingplichtige die onderworpen is aan de normale regeling? Antwoord met JA of NEEN door het aankruisen of omcirkelen van je keuze. Zo ja, bereken ook hoeveel recht op aftrek EN geef een korte toelichting of verwijs naar het overeenkomstig btw-artikel.
+> 
+> De leveranciers en de dienstverrichters zijn ook aan de normale btw-regeling onderworpen. De formaliteiten voor het uitoefenen van het recht op aftrek worden verondersteld voldaan te zijn.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De aankoop van brandstof voor een personenwagen, € 100,00 + 21 % btw. De wagen wordt voor 80 % gebruikt voor de doeleinden van de economische activiteit. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA, aftrek = 10,50 EUR** (50 % van 21 EUR). De aftrek voor brandstof van een personenwagen wordt door art. 45 §2 WBTW altijd geplafonneerd op 50 %, ook al wordt de wagen voor 80 % beroepsmatig gebruikt. 🔗
+> > 
+> > - BTW op factuur: 100 EUR × 21 % = **21,00 EUR**
+> > - Beroepsgebruik: 80 % → potentieel aftrekbaar deel = 21 × 80 % = 16,80 EUR. 🔗
+> > - Plafond art. 45 §2 WBTW: maximaal **50 %** → 21 × 50 % = **10,50 EUR**. 📖
+> > - Aangezien het beroepsgebruik (80 %) hoger ligt dan het wettelijk plafond (50 %), wordt de aftrek beperkt tot 10,50 EUR. 🔗
+> > 
+> > Het 50 %-plafond geldt voor **alle** kosten verbonden aan de personenwagen — aankoop, leasing, brandstof, onderhoud en herstellingen. Het is een bovengrens: bij beroepsgebruik onder 50 % daalt de aftrek mee (bv. 30 % gebruik → 30 % aftrek), bij gebruik boven 50 % blijft de aftrek vast op 50 %. Niet verwarren met de inkomstenbelasting-aftrek (CO2-cascade art. 66 + 198bis WIB 92), die volledig los staat van de BTW-regel. 🔗
+> > 
+> > Art. 45 §2 WBTW — voor de belasting geheven van de levering, invoer en intracommunautaire verwerving van autovoertuigen bestemd voor het vervoer van personen en/of goederen over de weg, en voor de belasting geheven van de goederen en diensten met betrekking tot die voertuigen (waaronder brandstof), mag de aftrek in geen geval hoger zijn dan 50 % van de betaalde belasting. 📖  
+> > *Bron: art. 45 §2 WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De aankoop van een geschenk bestemd voor een personeelslid bij diens huwelijk: € 120,00 + € 25,20 btw (21 %). Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN, geen recht op aftrek** van de 25,20 EUR BTW. Een huwelijksgeschenk aan een personeelslid is een **sociaal voordeel** (privé-doel — viering buiten de beroepssfeer) en valt buiten het bestemmingscriterium van art. 45 §1 WBTW: het goed wordt niet gebruikt voor belaste uitgaande handelingen. 🔗
+> > 
+> > Een geschenk dat wordt gegeven naar aanleiding van een **persoonlijke gebeurtenis** in het privéleven van het personeelslid (huwelijk, geboorte, pensionering, ...) wordt door de fiscus aangemerkt als een sociaal voordeel of geschenk om persoonlijke redenen. De link met de economische activiteit ontbreekt — het goed dient om de werknemer privé te begunstigen, niet om belaste uitgaande handelingen te realiseren. Het BTW-aftrekrecht uit art. 45 §1 WBTW veronderstelt nu net dat finaliteitsverband. 🔗
+> > 
+> > Gevolg: de volledige 25,20 EUR BTW is **niet aftrekbaar** en blijft als kost ten laste van de onderneming. 🔗
+> > 
+> > Voor klassieke **collectieve gelegenheidsgeschenken** aan personeel (bv. Sinterklaas-pakket voor de kinderen van álle werknemers, een geschenk ter waarde van max. 35 EUR bij een collectief evenement zoals Nieuwjaar of een jubileum) heeft de administratie historisch tolerantie verleend met behoud van aftrek — zie BTW-Commentaar nr. 369. Een individueel huwelijkscadeau valt daar **niet** onder, want de aanleiding is persoonlijk en niet collectief. 🤖
+> > 
+> > Art. 45 §1 WBTW — aftrek is enkel toegelaten in de mate dat de goederen worden gebruikt voor belaste uitgaande handelingen. Bevestigd door de administratieve doctrine over sociale voordelen en geschenken naar aanleiding van privé-gebeurtenissen: geen finaliteitsverband met de economische activiteit → geen aftrek. 🔗  
+> > *Bron: art. 45 §1 WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een ontvangen factuur ten bedrage van € 250,00 + 6 % btw (kamer met ontbijt) voor de overnachting van 4 personeelsleden in een hotel in Aarlen (België) bij de montage van een machine bij een klant gevestigd in dezelfde stad. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA, volledige aftrek = 15,00 EUR** (250 EUR × 6 %). De algemene uitsluiting van logies-, spijzen- en drankenkosten (art. 45 §3, 3° WBTW) is hier **niet** van toepassing omdat de uitzondering van punt a) speelt: de overnachting betreft personeelsleden die **buiten de onderneming** belast zijn met een dienstverrichting (montage van een machine bij een klant). 📖
+> > 
+> > - BTW op factuur: 250 EUR × 6 % = **15,00 EUR**. 🔗
+> > - Algemene regel art. 45 §3, 3° WBTW: BTW op logies / spijzen / dranken **niet** aftrekbaar.
+> > - Uitzondering art. 45 §3, 3°, a) WBTW: kosten gedaan voor **personeel dat buiten de onderneming belast is met een levering van goederen of een dienstverrichting** → **wél** aftrekbaar. 📖
+> > - Toepassing: de 4 personeelsleden zijn buiten de zetel ingezet voor montage bij een klant → uitzondering speelt → 100 % aftrek = **15,00 EUR**. 🔗
+> > 
+> > De uitzondering vereist dat het personeel **actief een prestatie verricht** buiten de onderneming. Een hotelovernachting voor een seminarie, opleiding of personeelsuitje valt **niet** onder a) en blijft uitgesloten van aftrek. Hier is de montage bij de klant de bepalende factor — zou het om een teambuilding-weekend in Aarlen gaan, dan was de BTW niet aftrekbaar. 🔗
+> > 
+> > Art. 45 §3, 3°, a) WBTW — uitgesloten van aftrek zijn de kosten van logies, spijzen en dranken in de zin van art. 18 §1, 2e lid, 10° en 11°, **daaronder niet begrepen de kosten die worden gedaan voor het personeel dat buiten de onderneming belast is met een levering van goederen of een dienstverrichting**. 📖  
+> > *Bron: art. 45 §3, 3°, a) WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een ontvangen factuur ten bedrage van € 80,00 + 21 % btw voor de aankoop van geestrijke dranken door een restauranthouder. De dranken worden ofwel geserveerd aan klanten, ofwel gebruikt voor het bereiden van spijzen. Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA, volledige aftrek = 16,80 EUR** (80 EUR × 21 %). De uitsluiting voor geestrijke dranken (art. 45 §3, 2° WBTW) geldt enkel voor kosten **niet bestemd voor wederverkoop of voor het verrichten van een dienst**. Een restauranthouder verkoopt de dranken aan klanten of verwerkt ze in spijzen — dus wederverkoop in de bedrijfsuitoefening → uitzondering van toepassing → volledige aftrek. 📖
+> > 
+> > - BTW op factuur: 80 EUR × 21 % = **16,80 EUR**. 🔗
+> > - Algemene regel art. 45 §3, 2° WBTW: BTW op geestrijke dranken **niet** aftrekbaar.
+> > - Uitzondering: kosten **wel** aftrekbaar wanneer de dranken bestemd zijn om te worden **wederverkocht of geleverd in het kader van een dienstverrichting**. 📖
+> > - Toepassing: een restauranthouder dient de dranken op aan klanten of verwerkt ze in gerechten → beide vallen binnen de uitzondering → 100 % aftrek = **16,80 EUR**. 🔗
+> > 
+> > De uitsluiting van geestrijke dranken treft typisch **representatie- en onthaalsituaties** (whisky-fles als geschenk, sterke drank op een receptie). Zodra de drank een **handelsvoorraad** is van een horeca-uitbater, slijterij of cateraar, wordt ze gewoon ingekocht met aftrek en doorbelast met BTW bij de uitgaande verkoop — net zoals elke andere voorraad. 🔗
+> > 
+> > Art. 45 §3, 2° WBTW — uitgesloten van aftrek zijn de kosten van **geestrijke dranken**, met uitzondering van die welke bestemd zijn om te worden **wederverkocht of geleverd ter uitvoering van een dienst**. 📖  
+> > *Bron: art. 45 §3, 2° WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De aankoop van 100 kogelpennen, prijs: € 250,00 + € 52,50 btw (21 %); deze kogelpennen worden als nieuwjaarsgeschenk aan klanten aangeboden (1 per klant). Is er recht op aftrek? Zo ja, hoeveel en met korte toelichting of verwijzing naar het btw-artikel.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA, volledige aftrek = 52,50 EUR**. Eén kogelpen kost 2,50 EUR excl. BTW (250 / 100), ruim onder het plafond van 50 EUR excl. BTW per begunstigde — dus **handelsgeschenk van geringe waarde** (art. 1 KB nr. 59 van 18 mei 2020). De BTW is volledig aftrekbaar en er moet geen onttrekking worden aangegeven bij het uitdelen. 📖
+> > 
+> > - BTW op factuur: 250 EUR × 21 % = **52,50 EUR**. 🔗
+> > - Eenheidsprijs excl. BTW: 250 / 100 = **2,50 EUR/pen** < 50 EUR. 🔗
+> > - Voorwaarden art. 1 KB nr. 59: (1) verstrekt in het kader van handelsrelaties ✓ (nieuwjaarsgeschenk aan klanten); (2) niet bestemd voor wederverkoop door de begunstigde ✓; (3) aankoopprijs excl. BTW < 50 EUR per stuk ✓. 📖
+> > - Gevolg: geen gelijkstelling met levering onder bezwarende titel (geen onttrekking-BTW art. 12 §1, 5°) **én** behoud van het volledige aftrekrecht op de aankoop = **52,50 EUR**. 🔗
+> > 
+> > De drempel van 50 EUR is **excl. BTW per stuk en per begunstigde per jaar** — niet op factuurniveau. Een aankoop van 100 dure pennen aan 60 EUR/stuk zou de BTW niet-aftrekbaar maken voor alle pennen (relatiegeschenk-uitsluiting, art. 45 §3 WBTW + administratieve doctrine), ook al ligt de totale BTW per begunstigde laag. Twee drempels niet verwarren: (a) BTW-aftrek-grens 50 EUR excl. BTW (KB 59); (b) inkomstenbelasting-grens relatiegeschenken 125 EUR voor de 50 %-aftrek-uitzondering en de vermelding op fiches. 🔗
+> > 
+> > Art. 1 KB nr. 59 van 18 mei 2020 — onttrekkingen van handelsgeschenken van geringe waarde worden niet gelijkgesteld met leveringen onder bezwarende titel wanneer (1) het goed in het kader van handelsrelaties wordt verstrekt, (2) de begunstigde het niet doorverkoopt in een economische activiteit, en (3) de aankoopprijs excl. BTW lager is dan **50 EUR**. Het aftrekrecht blijft volledig behouden. 📖  
+> > *Bron: art. 1 KB nr. 59 van 18 mei 2020*
+
+<a id="2010-2-vr37"></a>
+
+> [!question]- BTW-aftrek bij gemengde belastingplicht: algemeen verhoudingsgetal vs werkelijk gebruik bij een vastgoedvennootschap met opslaggebouw (belast verhuurd) en villa's (vrijgesteld verhuurd aan particulieren)
+> *🆕 Examen 2010-2 · PO 2.4*
+>
+> Een vastgoedvennootschap bezit een ruim gebouw dat aan derden wordt verhuurd om er goederen in op te slaan. De ontvangen huur is aanzienlijk. Dezelfde vennootschap bezit drie villa's in Waals-Brabant en in Knokke. Die gebouwen worden verhuurd aan particulieren en brengen slechts geringe inkomsten op.
+> 
+> Die villa's vergden aanzienlijke renovatiewerken die in de loop van 2008 werden uitgevoerd. De vennootschap trekt de btw betreffende die werken af volgens een algemeen verhoudingsgetal.
+> 
+> De administratie neemt het de vennootschap kwalijk dat ze het recht op aftrek niet volgens het werkelijk gebruik heeft toegepast.
+>
+> **Wat is uw reactie?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De administratie heeft gelijk. De vennootschap had de btw op de renovatiewerken aan de villa's **niet** mogen aftrekken via het algemeen verhoudingsgetal — die werken zijn uitsluitend bestemd voor een **vrijgestelde** verhuur (art. 44 § 3, 2° W.BTW), zodat er voor die specifieke btw géén aftrekrecht bestaat. Het algemeen verhoudingsgetal leidt hier tot een kunstmatig opgeblazen aftrek, wat de administratie kan corrigeren door het werkelijk gebruik op te leggen (art. 46 § 2 W.BTW). 🔗
+> > 
+> > **Stap 1 — de vennootschap is een gemengde belastingplichtige.** Ze verricht twee soorten handelingen: (a) verhuur van een opslaggebouw aan een belastingplichtige derde, die **wel** belast is met btw (art. 44 § 3, 2°, a), 2de streepje W.BTW: terbeschikkingstelling van ruimten gebruikt voor opslag), en (b) verhuur van villa's aan particulieren, die **van btw vrijgesteld** is (art. 44 § 3, 2° W.BTW — onroerende verhuur is in beginsel vrijgesteld). 🔗
+> > 
+> > **Stap 2 — het algemeen verhoudingsgetal (art. 46 § 1 W.BTW + art. 12 KB nr. 3) is de regel, maar niet absoluut.** In een verhoudingsgetal vormt de teller het bedrag van de handelingen mét recht op aftrek en de noemer het totaal van de handelingen. Omdat de opslagverhuur "aanzienlijke" inkomsten oplevert en de villa's slechts "geringe" inkomsten, geeft de breuk een hoog aftrekpercentage. Toegepast op de villa-renovatie levert dat een aftrek op die helemaal niet correspondeert met het werkelijk gebruik van die kosten — die zijn 100 % toerekenbaar aan vrijgestelde verhuur. 🔗
+> > 
+> > **Stap 3 — art. 46 § 2 W.BTW machtigt de administratie om het werkelijk gebruik op te leggen** wanneer toepassing van het algemeen verhoudingsgetal leidt tot ongelijkheden in de heffing van de belasting. Dat is hier precies het geval: het verhoudingsgetal vermengt twee duidelijk identificeerbare sectoren (opslag = volledig aftrekrecht, woonverhuur = geen aftrekrecht) en lekt aftrek naar kosten die exclusief aan de vrijgestelde sector toebehoren. De correctie houdt in dat per kostenpost (input) wordt nagegaan voor welke sector hij dient: de btw op de villa-renovatie wordt volledig verworpen, de btw op kosten van het opslaggebouw blijft volledig aftrekbaar, en alleen voor gemengde algemene kosten (boekhouding, beheer, ...) wordt een bijzonder verhoudingsgetal of een verdeelsleutel gehanteerd. 🔗
+> > 
+> > Het algemeen verhoudingsgetal is géén keuzevoordeel dat de belastingplichtige altijd mag inroepen. Wanneer de input rechtstreeks en exclusief toewijsbaar is aan een vrijgestelde activiteit (zoals hier de renovatiewerken aan villa's bestemd voor woonverhuur), bestaat er volgens de bestemmingsregel van art. 45 § 1 W.BTW gewoon **geen** recht op aftrek — ongeacht of de belastingplichtige daarnaast ook belaste handelingen verricht. Het verhoudingsgetal is enkel zinvol voor inputs die *gemengd* worden gebruikt; het mag niet dienen om aftrek af te dwingen op kosten die aanwijsbaar tot één enkele, vrijgestelde sector behoren. 🔗
+> > 
+> > **Art. 44 § 3, 2° W.BTW** — vrijstelling voor onroerende verhuur (villa's aan particulieren = vrijgesteld; opslagverhuur aan een belastingplichtige is een uitzondering en blijft belast). **Art. 45 § 1 W.BTW** — recht op aftrek beperkt tot btw op goederen en diensten gebruikt voor belaste handelingen (bestemmingsbeginsel). **Art. 46 § 1 W.BTW + art. 12 KB nr. 3** — algemeen verhoudingsgetal als standaardmethode bij gemengde belastingplicht. **Art. 46 § 2 W.BTW** — machtigt de administratie om de aftrek volgens het werkelijk gebruik op te leggen wanneer het algemeen verhoudingsgetal leidt tot ongelijkheden in de heffing. 📖  
+> > *Bron: Art. 44 § 3, 2° + art. 45 § 1 + art. 46 § 1-§ 2 W.BTW; art. 12 KB nr. 3*
+
+<a id="2008-bibf-vrD1"></a>
+<a id="2003-bibf-vrD1"></a>
 
 > [!question]- BTW-factureringsverplichtingen bij voorschotfacturen voor schrijnwerkerswerken
-> *Examens 2008-bibf (2008-bibf-vrD2) & 2003-bibf (2003-bibf-vrD2) · PO 2.4*
+> *Examens 2008-bibf (2008-bibf-vrD1) & 2003-bibf (2003-bibf-vrD1) · PO 2.4*
 >
 > 🔁 **2× bevraagd** (echt duplicaat)
 >
@@ -1077,6 +1247,28 @@ gegenereerd_op: 2026-05-28
 > > 
 > > Art. 60 WBTW (bewaarplicht facturen + 10 jaar sinds W 20.11.2022); art. 61 WBTW (voorleggingsplicht aan administratie); art. 14 KB nr. 1 (verplichte btw-boekhouding: boek inkomende/uitgaande facturen + dagboek ontvangsten). 📖  
 > > *Bron: Art. 60, 61 WBTW; Art. 14 KB nr. 1*
+
+<a id="2008-bibf-vrD2"></a>
+<a id="2003-bibf-vrD2"></a>
+
+> [!question]- BTW-factureringsplicht bij voorschotten en bewaarplicht documenten voor een schrijnwerker
+> *Examens 2008-bibf (2008-bibf-vrD2) & 2003-bibf (2003-bibf-vrD2) · PO 2.4*
+>
+> 🔁 **2× bevraagd** (echt duplicaat)
+>
+> Een zelfstandige schrijnwerker stelt offertes op met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot vóór aanvang der werkzaamheden, een tweede voorschot halfweg, en het saldo bij voltooiing. Hij stelt vervolgens één factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.
+>
+> **Is er een reden om hem te adviseren zijn werkwijze aan te passen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Antwoord wacht op concept-laag._
+>
+> **Welke zijn de documenten die hij dient te bewaren?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > _Antwoord wacht op concept-laag._
 
 <a id="2008-bibf-vrE1"></a>
 

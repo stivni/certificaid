@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr5",
+  "antwoord_datum": "2026-05-29T20:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "Een **trage voorraadrotatie** betekent dat de voorraad gemiddeld lang in het magazijn blijft liggen vooraleer ze wordt verkocht of verbruikt — uitgedrukt als een hoge DIO (days inventory outstanding, in dagen) of een laag aantal omloopkeren per jaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Berekening (Belgische jaarrekening)**: DIO = (voorraden rubrieken 30-32 × 365) / kostprijs verkopen, of equivalent: omloopsnelheid (× per jaar) = kostprijs verkopen / gemiddelde voorraad. 🔗\n\n**Wat 'traag' diagnostisch wijst aan**: (a) vraagdaling of overproductie, (b) voorraadveroudering / incourante stock met latent waardeverminderingsrisico, (c) inefficiënt werkkapitaalbeheer — kapitaal zit onnodig vast in stock i.p.v. in kas. 🔗\n\n**Gevolg voor het werkkapitaal en de cash**: een trage rotatie verlengt de cash-conversion-cycle (CCC = DIO + DSO − DPO), vergroot de werkkapitaalbehoefte en dwingt vaak tot bijkomende kortlopende financiering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "'Traag' is altijd sector-relatief: een juwelier of antiquair draait normaal 200+ dagen, een voedingssupermarkt 15-30 dagen. Beoordeel daarom tegen een sectorbenchmark (NBB-balanscentrale, Graydon) en tegen de eigen trend; een plotse stijging > 30 % t.o.v. het vorig boekjaar is een rood signaal dat dwingt tot controle op waardeverminderingen op voorraad. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Begrip uit de financiële analyse van de jaarrekening (activiteitsratio's / omloopratio's). Componenten putten uit het minimum genormaliseerd rekeningenstelsel: voorraden = rubrieken 30 (grondstoffen + hulpstoffen) + 31 (goederen in bewerking) + 32 (afgewerkt + handelsgoederen); kostprijs verkopen ≈ rubriek 60 (aankopen) gecorrigeerd voor voorraadwijziging (rubriek 609). 🔗",
+          "wetsref": "KB WVV — minimum genormaliseerd rekeningenstelsel (rubrieken 30-32 + 60)",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

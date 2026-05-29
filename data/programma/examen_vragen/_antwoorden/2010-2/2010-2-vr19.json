@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr19",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Mijn reactie: de opmaak van de staat van activa en passiva **in continuïteit** is hier **terecht** — geen bezwaar, geen voorbehoud. De vennootschap stelt 58 personeelsleden tewerk en moet nog opdrachten van ongeveer 18 maanden uitvoeren, wat betekent dat de activiteiten worden verdergezet. De beslissing tot ontbinding leidt niet automatisch tot stopzetting; de going-concern-veronderstelling blijft dus van toepassing en de waarderingsregels in continuïteit zijn correct. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het-bedrijf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Redenering in drie stappen:\n\n1. **Het wettelijk uitgangspunt** (art. 2:71, § 2 WVV): bij het ontbindingsvoorstel hoort een staat van activa en passiva van niet meer dan drie maanden oud, in beginsel opgesteld volgens de gewone waarderingsregels (continuïteit). 📖\n2. **Uitzondering** (art. 3:6, § 2 KB WVV — voorheen art. 28, § 2 KB W.Venn.): enkel \"indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten\", moet de staat in discontinuïteit worden opgesteld. 📖\n3. **Toets op de casus**: 58 personeelsleden in dienst + lopende opdrachten van circa 18 maanden = de activiteit wordt feitelijk verdergezet, ruim ná de ontbindingsbeslissing. De CBN bevestigt expliciet dat een ontbindingsbeslissing niet steeds de onmiddellijke stopzetting tot gevolg heeft — going concern blijft het uitgangspunt zolang de verderzetting reëel is. 📖\n\nMijn controleverslag (model bijlage 3 ITAA-norm) bevat dus een **oordeel zonder voorbehoud** met als kerngedachte: \"de staat geeft een getrouw beeld, opgesteld in **continuïteit**, in overeenstemming met het Belgisch boekhoudkundig referentiestelsel\". Geen toelichtende paragraaf over discontinuïteit nodig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het-bedrijf.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet automatisch \"ontbinding = discontinuïteit\". Veel kandidaten lezen het sleutelwoord \"ontbinding\" en concluderen meteen dat de staat in discontinuïteit moet — en zouden hier een voorbehoud of weigering uitspreken. Maar de wet kijkt naar de **feitelijke verderzetting** van de activiteit, niet naar het juridische ontbindingsbesluit. De gewone afschrijvingen, voorzieningen en waarderingen blijven van toepassing zolang de exploitatie loopt; pas bij effectieve stopzetting (geen lopende opdrachten meer, personeel ontslagen) kantelt het naar liquidatiewaarden, herclassificatie van vaste activa naar vlottende activa en boeking van stopzettingskosten als voorzieningen. Bijkomend werkpunt voor de accountant: documenteer in het werkdossier waarom going concern hier verdedigbaar is (klantcontracten, personeelsbestand, kasstromen over 18 maanden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het-bedrijf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 2:71, § 2 WVV** — bij voorstel tot vrijwillige ontbinding voegt het bestuursorgaan een staat van activa en passiva van maximaal drie maanden oud + een verslag dat het ontbindingsvoorstel toelicht; de accountant/commissaris/bedrijfsrevisor brengt over die staat verslag uit (derde lid). **Art. 3:6, § 2 KB WVV** — de staat wordt opgesteld conform de gewone waarderingsregels, *behoudens* indien de vennootschap besluit haar activiteiten te beëindigen of niet langer als going concern kan worden beschouwd: dan gelden de discontinuïteits-waarderingsregels (met redenen omklede afwijking). **CBN-advies 2018/18** (Going concern – Waarderingsregels bij stopzetting): bevestigt dat een ontbindingsbeslissing niet steeds stopzetting impliceert; going concern blijft van toepassing zolang de activiteiten feitelijk worden verdergezet. **ITAA-norm controleverslag bij ontbinding** (bijlage 3 — model verslag art. 2:71/2:80 WVV): voorziet expliciet de variant \"opgesteld in continuïteit\" met een oordeel zonder voorbehoud. 📖",
+          "wetsref": "Art. 2:71, § 2 WVV; art. 3:6, § 2 KB WVV; CBN-advies 2018/18; ITAA-norm ontbinding-vereffening",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het-bedrijf.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

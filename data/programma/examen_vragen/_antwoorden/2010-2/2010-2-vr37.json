@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr37",
+  "antwoord_datum": "2026-05-29T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De administratie heeft gelijk. De vennootschap had de btw op de renovatiewerken aan de villa's **niet** mogen aftrekken via het algemeen verhoudingsgetal — die werken zijn uitsluitend bestemd voor een **vrijgestelde** verhuur (art. 44 § 3, 2° W.BTW), zodat er voor die specifieke btw géén aftrekrecht bestaat. Het algemeen verhoudingsgetal leidt hier tot een kunstmatig opgeblazen aftrek, wat de administratie kan corrigeren door het werkelijk gebruik op te leggen (art. 46 § 2 W.BTW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Stap 1 — de vennootschap is een gemengde belastingplichtige.** Ze verricht twee soorten handelingen: (a) verhuur van een opslaggebouw aan een belastingplichtige derde, die **wel** belast is met btw (art. 44 § 3, 2°, a), 2de streepje W.BTW: terbeschikkingstelling van ruimten gebruikt voor opslag), en (b) verhuur van villa's aan particulieren, die **van btw vrijgesteld** is (art. 44 § 3, 2° W.BTW — onroerende verhuur is in beginsel vrijgesteld). 🔗\n\n**Stap 2 — het algemeen verhoudingsgetal (art. 46 § 1 W.BTW + art. 12 KB nr. 3) is de regel, maar niet absoluut.** In een verhoudingsgetal vormt de teller het bedrag van de handelingen mét recht op aftrek en de noemer het totaal van de handelingen. Omdat de opslagverhuur \"aanzienlijke\" inkomsten oplevert en de villa's slechts \"geringe\" inkomsten, geeft de breuk een hoog aftrekpercentage. Toegepast op de villa-renovatie levert dat een aftrek op die helemaal niet correspondeert met het werkelijk gebruik van die kosten — die zijn 100 % toerekenbaar aan vrijgestelde verhuur. 🔗\n\n**Stap 3 — art. 46 § 2 W.BTW machtigt de administratie om het werkelijk gebruik op te leggen** wanneer toepassing van het algemeen verhoudingsgetal leidt tot ongelijkheden in de heffing van de belasting. Dat is hier precies het geval: het verhoudingsgetal vermengt twee duidelijk identificeerbare sectoren (opslag = volledig aftrekrecht, woonverhuur = geen aftrekrecht) en lekt aftrek naar kosten die exclusief aan de vrijgestelde sector toebehoren. De correctie houdt in dat per kostenpost (input) wordt nagegaan voor welke sector hij dient: de btw op de villa-renovatie wordt volledig verworpen, de btw op kosten van het opslaggebouw blijft volledig aftrekbaar, en alleen voor gemengde algemene kosten (boekhouding, beheer, ...) wordt een bijzonder verhoudingsgetal of een verdeelsleutel gehanteerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het algemeen verhoudingsgetal is géén keuzevoordeel dat de belastingplichtige altijd mag inroepen. Wanneer de input rechtstreeks en exclusief toewijsbaar is aan een vrijgestelde activiteit (zoals hier de renovatiewerken aan villa's bestemd voor woonverhuur), bestaat er volgens de bestemmingsregel van art. 45 § 1 W.BTW gewoon **geen** recht op aftrek — ongeacht of de belastingplichtige daarnaast ook belaste handelingen verricht. Het verhoudingsgetal is enkel zinvol voor inputs die *gemengd* worden gebruikt; het mag niet dienen om aftrek af te dwingen op kosten die aanwijsbaar tot één enkele, vrijgestelde sector behoren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 44 § 3, 2° W.BTW** — vrijstelling voor onroerende verhuur (villa's aan particulieren = vrijgesteld; opslagverhuur aan een belastingplichtige is een uitzondering en blijft belast). **Art. 45 § 1 W.BTW** — recht op aftrek beperkt tot btw op goederen en diensten gebruikt voor belaste handelingen (bestemmingsbeginsel). **Art. 46 § 1 W.BTW + art. 12 KB nr. 3** — algemeen verhoudingsgetal als standaardmethode bij gemengde belastingplicht. **Art. 46 § 2 W.BTW** — machtigt de administratie om de aftrek volgens het werkelijk gebruik op te leggen wanneer het algemeen verhoudingsgetal leidt tot ongelijkheden in de heffing. 📖",
+          "wetsref": "Art. 44 § 3, 2° + art. 45 § 1 + art. 46 § 1-§ 2 W.BTW; art. 12 KB nr. 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

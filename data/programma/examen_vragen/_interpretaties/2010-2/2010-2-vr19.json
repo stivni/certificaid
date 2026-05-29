@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr19",
+  "interpretatie_datum": "2026-05-29T19:31:51Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit",
+  "programmaonderdeel_ids": ["3.0", "1.6"],
+  "themas": [
+    "controleverslag bij ontbinding",
+    "bijzondere opdrachten accountant",
+    "staat van activa en passiva",
+    "discontinuïteit",
+    "going concern",
+    "vereffening vennootschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "U wordt aangesteld als extern accountant bij het opstellen van het controleverslag bij de ontbinding van een vennootschap. De vennootschap stelt 58 personeelsleden tewerk en heeft nog een aantal opdrachten uit te voeren waarvan de duurtijd ongeveer 18 maanden bedraagt. De staat van activa en passiva werd opgesteld in continuïteit."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is hierop uw reactie?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 4 uit examen 2010-2 (zichtbaar op pagina 13 van de PDF, intern label 'Vraag 4 ... / 6 punten'). Casus over controleverslag bij ontbinding waarbij de staat van activa en passiva in continuïteit werd opgesteld, terwijl de vennootschap 58 personeelsleden tewerkstelt en nog opdrachten van ~18 maanden moet uitvoeren — de student moet reageren op deze (in)consistentie. De PNG toont dat de tekst 'PERSONENBELASTING' in tekst.txt géén onderdeel is van vraag 19, maar een sectie-header die direct ná vraag 4 begint voor de volgende vragenreeks (Vraag 1 over roerende inkomsten Henri). Deze regel verwijderd uit de casus-context. De instructie 'Motiveer uw antwoord' is geïntegreerd via motivatie_verwacht=true (§4.1bis). Classificatie: vraag betreft het bijzonder mandaat 'controleverslag bij ontbinding' (vennootschapsrechtelijk: bijzondere opdracht conform WVV-procedure ontbinding) én de accountantsbenadering daarvan (going concern beoordeling, discontinuïteit-waarderingsregels) — daarom PO 3.0 (vennootschapsrecht, bijzondere mandaten) primair én PO 1.6 (accountantsonderzoek, bijzondere opdrachten) secundair, conform de mapping-richtlijn 'VENNOOTSCHAPSRECHT (BIJZ. MANDATEN) → PO 3.0 + soms 1.6'.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

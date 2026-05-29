@@ -1,0 +1,27 @@
+Vraag 3 … / 6 punten
+Duid met een kruisje aan of de volgende omschrijvingen juist of fout zijn in het kader van de
+interne controle voor de leveranciersadministratie.
+
+| OMSCHRIJVING | JUIST | FOUT |
+|---|---|---|
+| Alle facturen van goederen moeten bij ontvangst rechtstreeks
+naar de leveranciersadministratie worden gezonden met het
+oog op controle. |  |  |
+| Alle facturen van diensten moeten bij ontvangst rechtstreeks
+naar de leveranciersadministratie worden gezonden met het
+oog op controle. |  |  |
+| De facturen worden enkel vergeleken met de bestelbon van de
+betrokken afdeling. |  |  |
+| Enkel handgeschreven facturen worden rekenkundig
+gecontroleerd. |  |  |
+| De gecontroleerde facturen worden bij het inboeken door de
+boekhoudafdeling van een volgnummer voorzien. |  |  |
+| Het toegepaste btw-tarief zal worden nagezien. |  |  |
+
+messages.downloaded_by
+
+5
+
+| ACCOUNTANTSONDERZOEK |  | 25 PUNTEN |
+|---|---|---|
+|  |  |  |

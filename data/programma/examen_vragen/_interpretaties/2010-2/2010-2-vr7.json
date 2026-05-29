@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2010-2",
+  "vraag_id": "2010-2-vr7",
+  "interpretatie_datum": "2026-05-29T19:29:56Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Functiescheiding in interne controle — classificatie van taken naar beherende, bewarende, registrerende of controlerende functie",
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
+  "themas": [
+    "interne controle",
+    "functiescheiding",
+    "beherende functie",
+    "bewarende functie",
+    "registrerende functie",
+    "controlerende functie",
+    "aankoopcyclus"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "In de interne controle spreekt men vaak van vier functies, nl. de beherende, de bewarende, de registrerende en de controlerende functie."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "Vraag 1",
+      "vraagtype": "open",
+      "vraagstelling": "Duid in onderstaand schema door middel van een kruisje aan tot welke functie (beherend, bewarend, registrerend of controlerend) de bedoelde taken behoren. Taken: (1) Akkoord aankoop; (2) Doorgeven aankooporder; (3) Ontvangst van goederen; (4) Ontvangst van factuur; (5) Verificatie van factuur; (6) Aanmaak betalingsvoorstel; (7) Controle betalingsvoorstel; (8) Uitvoeren betaling; (9) Aanmaak en onderhoud basisgegevens.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Segment komt uit het vak INTERNE CONTROLE (25 punten) van examen 2010-2, eerste vraag (9 punten). PNG bevestigt de 9 taken in de tabel; tekst.txt-extract had alle taken correct. Classificatie naar PO 1.7 (interne controle). De vraag vraagt om aankruisen in een tabel — geen aparte motivatie gevraagd. Het is een open classificatie-oefening; geen MC of J/F omdat per taak één van vier functies wordt toegewezen (kruisjes in matrix).",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

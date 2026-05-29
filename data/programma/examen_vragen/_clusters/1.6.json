@@ -1,14 +1,19 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.6",
-  "gegenereerd_op": "2026-05-26T10:20:48+00:00",
+  "gegenereerd_op": "2026-05-29T19:45:04+00:00",
   "embedding_model": "BAAI/bge-m3",
-  "threshold_cosine": 0.8,
-  "n_vragen": 17,
+  "threshold_cosine": 0.85,
+  "n_vragen": 29,
   "n_clusters": 0,
-  "n_singletons": 17,
+  "n_singletons": 29,
   "clusters": [],
   "borderline_paren": [
+    {
+      "van": "2024-1-vr2A",
+      "naar": "2024-1-vr2D",
+      "cosine": 0.8065
+    },
     {
       "van": "2013-1-vr16",
       "naar": "2013-1-vr17",
@@ -16,6 +21,48 @@
     }
   ],
   "singletons": [
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr10",
+      "vraag_onderwerp": "Voorraadcontrole door accountant bij omzettingsverslag — beoordeling van werkwijze",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr10.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr11",
+      "vraag_onderwerp": "Controle van de balanspost kapitaal bij ontbindingsverslag van een NV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr11.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr12",
+      "vraag_onderwerp": "Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr12.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr16",
+      "vraag_onderwerp": "NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr16.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr17",
+      "vraag_onderwerp": "Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr17.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr18",
+      "vraag_onderwerp": "Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr18.json"
+    },
+    {
+      "examen_id": "2010-2",
+      "vraag_id": "2010-2-vr19",
+      "vraag_onderwerp": "Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2010-2/2010-2-vr19.json"
+    },
     {
       "examen_id": "2013-1",
       "vraag_id": "2013-1-vr16",
@@ -117,7 +164,36 @@
       "vraag_id": "2015-1-vr56",
       "vraag_onderwerp": "Norm controle fusie- en splitsingsverrichtingen: verplichtingen bij meerdere beroepsbeoefenaars",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr56.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr2A",
+      "vraag_onderwerp": "Onafhankelijkheid bij een controleopdracht: stellingen juist of fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr2B",
+      "vraag_onderwerp": "Kennisverwerving over de onderneming na acceptatie van de controleopdracht",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr2C",
+      "vraag_onderwerp": "Volkomen controle volgens de revisienormen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr2D",
+      "vraag_onderwerp": "Algemene stellingen externe controle: juist of fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr2E",
+      "vraag_onderwerp": "Vaststelling van de materialiteitsdrempel bij een accountantsonderzoek",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr2E.json"
     }
-  ],
-  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+  ]
 }
