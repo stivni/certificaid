@@ -17,11 +17,11 @@ tags:
 
 ## Take-away
 
-- **Break-even** = wanneer dekken opbrengsten alle kosten? → *winstgevoeligheids-meting*
-- **Marginale** = wat verandert bij déze beslissing? → *keep-or-drop · make-or-buy · special-order*
-- Beide bouwen op **contributiemarge** (CM = prijs − variabele kost)
-- **Vermijdbaar = relevant. Sunk = irrelevant.** Vaste overhead = irrelevant voor marginale beslissing
-- Hoge vaste kosten ⇒ hoog BEP ⇒ hoge operationele hefboom ⇒ winst-gevoelig voor volume
+- Beide instrumenten bouwen op **contributiemarge** — nauwe link met [[direct-costing|direct costing]]
+- **Vermijdbaar = relevant · sunk = irrelevant** — eenvoudig principe, vaak fout toegepast (alloceerde overhead lijkt "relevant")
+- Bij **knelpunt-productie**: CM per *knelpunt-uur*, niet per eenheid — vaak het verschil tussen winst en verlies
+- **Hoge vaste kosten ⇒ hoge operationele hefboom** ⇒ kleine omzet-schommeling = grote winst-schommeling (BEP-gevoeligheid)
+- **Multi-product BEP** is examen-klassieker — gewogen-CM verandert mee met mix
 
 ---
 
@@ -109,7 +109,8 @@ $$
 
 **Verwante themafiches**
 - [[themafiches/kostprijsmethoden|Themafiche — Kostprijsmethoden]]
-- `Themafiche — Budget & variantieanalyse` *(nog te maken)*
+- [[themafiches/budget-en-variantieanalyse|Themafiche — Budget & variantieanalyse]]
+- [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]
 
 </div>
 

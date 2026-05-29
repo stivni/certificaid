@@ -17,11 +17,11 @@ tags:
 
 ## Take-away
 
-- **Budget** ≠ forecast — budget is een *afspraak* (commitment), forecast is een *voorspelling* (prediction)
-- **Masterbudget** = integratie van 4 deelbudgetten — pro-forma balans **moet sluiten**
-- **Variantie** = werkelijk − norm — opsplitsen naar **prijs** en **hoeveelheid**
-- Variantie = *diagnostisch signaal*, geen schuldvraag
-- Gunstige varianties even verdacht als ongunstige
+- **Budget ≠ forecast** — budget = afspraak, forecast = voorspelling; verwarring is dagelijkse praktijk
+- **Pro-forma balans MOET sluiten** — niet-sluiten = integratie-fout, vaak dividend dat ergens verdwijnt
+- **Decompositie prijs/hoeveelheid** sluit de cirkel met [[standaardkostenmethode|standaardkosten]] — variantie is de "norm-test"
+- **Materiele varianties → IAS 2 → voorraad én KGV** (pro-rata) — niet zomaar in resultaat
+- Bias om alléén ongunstige varianties te onderzoeken is gevaarlijk — onverwacht gunstig kan kwaliteits-daling verbergen
 
 ---
 
@@ -29,14 +29,14 @@ tags:
 
 ```mermaid
 flowchart TD
-    S[Strategisch plan] --> O[1. Operationeel budget<br/>omzet · COGS · OpEx]
-    S --> I[2. Investerings-budget<br/>CapEx · afschrijvingen]
-    S --> F[3. Financieel budget<br/>schuld · EV · rente]
-    O --> C[4. Cash-budget<br/>liquiditeit week/maand]
+    S[Strategisch plan] --> O["Operationeel budget<br/>omzet · COGS · OpEx"]
+    S --> I["Investerings-budget<br/>CapEx · afschrijvingen"]
+    S --> F["Financieel budget<br/>schuld · EV · rente"]
+    O --> C["Cash-budget<br/>liquiditeit week/maand"]
     I --> C
     F --> C
-    C --> P[Pro-forma jaarrekening<br/>balans + RR + KSO]
-    P -.->|integratie-toets| T[Balans sluit?<br/>Cash positief?]
+    C --> P["Pro-forma jaarrekening<br/>balans + RR + KSO"]
+    P -.->|integratie-toets| T["Balans sluit?<br/>Cash positief?"]
 ```
 
 **Twee struikelblokken**:
@@ -111,6 +111,7 @@ $$
 **Verwante themafiches**
 - [[themafiches/kostprijsmethoden|Themafiche — Kostprijsmethoden]]
 - [[themafiches/break-even-en-marginale-analyse|Themafiche — Break-even & marginale analyse]]
+- [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]
 
 </div>
 

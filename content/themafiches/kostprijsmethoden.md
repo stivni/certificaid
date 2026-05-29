@@ -17,11 +17,11 @@ tags:
 
 ## Take-away
 
-- **Géén methode is intrinsiek "juist"** — keuze volgt het *doel* van de calculatie
-- **Full costing** = jaarrekening + voorraadwaardering (IAS 2 verplicht)
-- **Direct costing** = beslissingen (prijszetting, make-or-buy, productmix)
-- **ABC** = kosteninzicht bij hoge overhead (realistische toerekening)
-- **Standaardkosten** = budget + variantieanalyse (sturing op normen)
+- **Géén methode is intrinsiek "juist"** — keuze volgt het *doel*, niet de "correctheid"
+- **Direct ↔ Full** worden vaak *parallel* gevoerd: direct voor beslissingen, full voor jaarrekening
+- **Standaardkosten ↔ variantieanalyse** is een paar — zonder variantie heeft norm geen sturing-waarde
+- **ABC** is duur in implementatie — alleen waard bij *sterk variërend overhead-verbruik* per product
+- Bij **onderbenutting** overrapporteert full costing → vaste overhead naar normale capaciteit, niet werkelijke productie
 
 ---
 
@@ -104,8 +104,9 @@ $$
 - [[standaardkostenmethode]] — norm-kosten + variantieanalyse
 
 **Verwante themafiches**
-- `Themafiche — Break-even & marginale analyse` *(nog te maken)*
-- `Themafiche — Budget & variantieanalyse` *(nog te maken)*
+- [[themafiches/break-even-en-marginale-analyse|Themafiche — Break-even & marginale analyse]]
+- [[themafiches/budget-en-variantieanalyse|Themafiche — Budget & variantieanalyse]]
+- [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]
 
 </div>
 
