@@ -41,14 +41,12 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 ### 2. Wat is dit vak?
 
 - **Geen** tussentitel als "(het verhaal in vijf paragrafen)" of soortgelijk
-- Vijf H3-sub-secties met doorlopend proza. Suggested H3-templates:
-  - `### Het probleem` — wat is de praktische uitdaging die het vak adresseert?
-  - `### De oplossing` — hoe biedt het vak het antwoord?
-  - `### Het [plichten-spel / werkingsveld / wettelijk kader / etc.]` — wat zijn de juridische randen?
-  - `### Drie [technieken / werkstromen / hoofdvarianten]` — wat zijn de centrale methodes?
-  - `### Wat doet de accountant hier?` — welke rollen kruisen elkaar?
+- **3 tot 6 H3-sub-secties** met doorlopend proza, afhankelijk van wat het PO inhoudelijk vraagt. **Vorm volgt inhoud — niet omgekeerd.**
+- Begin doorgaans met `### Het probleem` + `### De oplossing` (twee H3's die vrijwel altijd werken).
+- De volgende H3's modelleren op de feitelijke structuur van het vak: het juiste aantal hoofdbrokken kiezen, niet forceren in een vast aantal.
+- **Verboden**: een H3 starten met `Drie X`, `Vier X`, `Vijf X` puur omwille van het patroon. Alleen als de stof écht uit precies dat aantal bestaat (bv. consolidatiemethodes zijn er werkelijk 3, audit-zekerheidsniveaus zijn er werkelijk 3) is dat OK. Bij twijfel: kies een functioneel-beschrijvende titel zonder telwoord ("De drijvende mechanismes", "De hoofdvarianten in de praktijk", "Waar de stof samenkomt").
+- Sluit doorgaans af met `### Wat doet de accountant hier?` (welke rollen kruisen elkaar?) — eindigend met: *"In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert."*
 - Elke H3-sectie is 3-5 zinnen. Verbonden lopend proza, geen bullet-lijsten.
-- Sluit de "Wat doet de accountant hier?"-sectie af met: *"In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert."*
 
 ### 3. Wat moet je kunnen?
 
