@@ -7,7 +7,11 @@ tags:
   - cluster-consolidatie
 ---
 
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Eén pagina die het hele consolidatie-cluster samenvat in vaste blokken: essentie, vergelijking van methodes, beslisboom, formules, valkuilen. Bedoeld om in de week vóór het examen nog snel door te lopen — niet om voor het eerst te leren. Voor uitleg: de losse concept-fiches. Voor het verhaal en de leesroute: [[leerpaden/1.4|minicursus PO 1.4]].
+
+</div>
 
 ---
 

@@ -7,7 +7,11 @@ tags:
   - cluster-analytische-boekhouding
 ---
 
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Vier kostprijsmethodes op één pagina: vergelijkingsmatrix, beslisboom, formules, valkuilen. Voor verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]]. Voor diepgang: de losse concept-fiches via §Doorklik.
+
+</div>
 
 ---
 

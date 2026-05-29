@@ -7,7 +7,11 @@ tags:
   - cluster-analytische-boekhouding
 ---
 
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Budget = vooraf, variantie = achteraf — samen het sturings-instrument. Verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]].
+
+</div>
 
 ---
 

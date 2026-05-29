@@ -7,7 +7,11 @@ tags:
   - cluster-analytische-boekhouding
 ---
 
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Twee beslissings-instrumenten naast elkaar: break-even-analyse (winstgevoeligheid) + marginale analyse (incrementele beslissingen). Verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]].
+
+</div>
 
 ---
 

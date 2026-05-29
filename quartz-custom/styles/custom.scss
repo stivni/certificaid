@@ -429,8 +429,9 @@ article table {
 // ============================================================================
 @media print {
   // Verberg alle UI-elementen behalve de eigenlijke content
+  // page-header NIET blanket verbergen — daarin zit de h1.article-title!
+  // Hide specific kinderen verder beneden.
   .sidebar,
-  .page-header,
   .page-footer,
   footer,
   .footer,
@@ -445,8 +446,22 @@ article table {
   .reader-mode,
   .breadcrumb-container,
   .breadcrumbs,
-  .tags {
+  .tags,
+  .content-meta,
+  // Reader-mode + andere page-header-decoraties weg, maar titel blijft
+  .page-header .reader-mode,
+  .page-header .content-meta,
+  .page-header .tags {
     display: none !important;
+  }
+
+  // Article-title stijl strakker voor print
+  .page-header .article-title,
+  h1.article-title {
+    font-size: 14pt !important;
+    margin: 0 0 0.4rem 0 !important;
+    padding: 0 0 0.2rem 0 !important;
+    border-bottom: 1px solid #999;
   }
 
   // Web-only secties weg in print (markeer met <div class="no-print">…</div>)
