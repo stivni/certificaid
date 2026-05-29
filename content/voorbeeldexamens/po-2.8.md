@@ -442,8 +442,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr32"></a>
 
-> [!question]- Internationale dubbele belasting — juridische versus economische dubbele belasting
-> *🆕 Examen 2010-2 · PO 2.8*
+> [!question]- 🆕 Internationale dubbele belasting — juridische versus economische dubbele belasting
+> *Examen 2010-2 · PO 2.8*
 >
 > Onder de hoofding "BEGINSELEN VAN EUROPEES EN INTERNATIONAAL FISCAAL RECHT" (10 punten) — Vraag 1 (/ 4 punten). Beschouw de twee onderstaande gevallen.
 >
@@ -503,8 +503,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr33"></a>
 
-> [!question]- Toepassing van de OESO-Modelovereenkomst tot vermijding van dubbele belasting (inwonerschap, interesten, onderling overleg, overheidspensioenen)
-> *🆕 Examen 2010-2 · PO 2.8*
+> [!question]- 🆕 Toepassing van de OESO-Modelovereenkomst tot vermijding van dubbele belasting (inwonerschap, interesten, onderling overleg, overheidspensioenen)
+> *Examen 2010-2 · PO 2.8*
 >
 > Beantwoord de vragen met "waar" of "niet waar" op basis van de beginselen ingeschreven in de door de OESO ontwikkelde "Modelovereenkomst naar het Inkomen en naar het Vermogen".
 >
@@ -589,8 +589,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr34"></a>
 
-> [!question]- Internationale fiscaliteit — meerwaarde op aandelen van een Canadese vennootschap met enkel onroerend goed in Canada (toepassing OESO-modelverdrag)
-> *🆕 Examen 2010-2 · PO 2.8*
+> [!question]- 🆕 Internationale fiscaliteit — meerwaarde op aandelen van een Canadese vennootschap met enkel onroerend goed in Canada (toepassing OESO-modelverdrag)
+> *Examen 2010-2 · PO 2.8*
 >
 > Een Belgische vennootschap bezit 95 % van de aandelen van een Canadese vennootschap met als enige activiteit de verhuur van in Canada gelegen onroerende goederen. De Belgische vennootschap heeft in Canada geen vaste inrichting en oefent er geen activiteit uit.
 > 

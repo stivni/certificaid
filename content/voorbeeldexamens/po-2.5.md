@@ -579,8 +579,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr35"></a>
 
-> [!question]- Onderzoeksbevoegdheden fiscale administratie t.a.v. bankrekeningen — bankgeheim
-> *🆕 Examen 2010-2 · PO 2.5*
+> [!question]- 🆕 Onderzoeksbevoegdheden fiscale administratie t.a.v. bankrekeningen — bankgeheim
+> *Examen 2010-2 · PO 2.5*
 >
 > Lastens de heer X, Belgisch rijksinwoner, die in België houder is van een bankrekening, wordt een fiscaal onderzoek ingesteld. De administratie tracht de buitenlandse roerende inkomsten vast te stellen die via die rekening werden geïnd. Maar de administratie is niet in het bezit van enige informatie vanwege een buitenlandse fiscale administratie.
 >
@@ -604,8 +604,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr36"></a>
 
-> [!question]- Fiscaal bankgeheim — informatieverzoek van ontvanger aan bank over vermogenssituatie belastingschuldige
-> *🆕 Examen 2010-2 · PO 2.5*
+> [!question]- 🆕 Fiscaal bankgeheim — informatieverzoek van ontvanger aan bank over vermogenssituatie belastingschuldige
+> *Examen 2010-2 · PO 2.5*
 >
 > U bent belastingconsulent.
 > 

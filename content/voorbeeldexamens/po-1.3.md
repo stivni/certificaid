@@ -131,7 +131,7 @@ gegenereerd_op: 2026-05-29
 <a id="2014-1-vr5"></a>
 <a id="2013-1-vr4"></a>
 
-> [!question]- Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
+> [!question]- 🆕 Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
 > *Examens 2015-1 (2015-1-vr8) & 2014-1 (2014-1-vr5) & 2013-1 (2013-1-vr4) · PO 1.3*
 >
 > Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio's. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.
@@ -628,7 +628,7 @@ gegenereerd_op: 2026-05-29
 <a id="2014-1-vr5"></a>
 <a id="2013-1-vr4"></a>
 
-> [!question]- Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
+> [!question]- 🆕 Analyse en kritische beoordeling van de jaarrekening — berekening van financiële ratio's
 > *Examens 2015-1 (2015-1-vr8) & 2014-1 (2014-1-vr5) & 2013-1 (2013-1-vr4) · PO 1.3*
 >
 > Hierna vindt u een samengevatte jaarrekening van een cliënt. Bereken de gevraagde ratio's. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.
@@ -778,8 +778,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr5"></a>
 
-> [!question]- Trage voorraadrotatie — begripsomschrijving in het kader van financiële analyse van de jaarrekening
-> *🆕 Examen 2010-2 · PO 1.3*
+> [!question]- 🆕 Trage voorraadrotatie — begripsomschrijving in het kader van financiële analyse van de jaarrekening
+> *Examen 2010-2 · PO 1.3*
 >
 > Een onderneming heeft een trage voorraadrotatie.
 >

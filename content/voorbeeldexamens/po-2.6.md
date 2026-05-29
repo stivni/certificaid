@@ -599,8 +599,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr30"></a>
 
-> [!question]- Hoedanigheid van begunstigden bij testament en aangifteplicht voor de aangifte van nalatenschap
-> *🆕 Examen 2010-2 · PO 2.6*
+> [!question]- 🆕 Hoedanigheid van begunstigden bij testament en aangifteplicht voor de aangifte van nalatenschap
+> *Examen 2010-2 · PO 2.6*
 >
 > De heer Pierre Martin is overleden op 3 september 2010. Hij laat een echtgenote, Véronique, en een zoon, Bernard, na.
 > 
@@ -679,8 +679,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr31"></a>
 
-> [!question]- Vermindering registratierechten bij aankoop woning in Brussels Hoofdstedelijk Gewest (abattement)
-> *🆕 Examen 2010-2 · PO 2.6*
+> [!question]- 🆕 Vermindering registratierechten bij aankoop woning in Brussels Hoofdstedelijk Gewest (abattement)
+> *Examen 2010-2 · PO 2.6*
 >
 > Een natuurlijke persoon wenst een huis te kopen in het Brussels Hoofdstedelijk Gewest (aankoopprijs = € 195 000).
 >

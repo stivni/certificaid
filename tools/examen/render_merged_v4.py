@@ -637,12 +637,26 @@ def _formatteer_herkomst(
         basis = f"Examen {examen_id} (hybride bron)"
     else:
         basis = f"Examen {examen_id}"
-    if examen_id in NEW_EXAMENS:
-        basis = f"🆕 {basis}"
+    # NB: 🆕-marker zit niet hier — die staat in de callout-titel (zie
+    # _is_nieuwe_vraag()). Hier blijft de italic-herkomst plain.
     if programmaonderdeel_ids:
         po_str = " + ".join(programmaonderdeel_ids)
         return f"{basis} · PO {po_str}"
     return basis
+
+
+def _is_nieuwe_vraag(
+    examen_id: str,
+    cluster_leden: list[dict[str, Any]] | None = None,
+) -> bool:
+    """Bepaal of een vraag (canonical of een cluster-lid) uit een NEW_EXAMENS-examen komt."""
+    if examen_id in NEW_EXAMENS:
+        return True
+    for lid in cluster_leden or []:
+        li = lid.get("interpretatie", {}) or {}
+        if li.get("examen_id", "") in NEW_EXAMENS:
+            return True
+    return False
 
 
 def _groepeer_per_cluster(
@@ -814,7 +828,6 @@ def _render_vraag_eenheid(
     # Herkomst-regel: bij cluster combineer alle examens, anders enkel canonical
     if cluster_leden and len(cluster_leden) > 1:
         examen_items: list[str] = []
-        any_new = False
         for lid in cluster_leden:
             li = lid.get("interpretatie", {}) or {}
             e_id = li.get("examen_id", "")
@@ -825,13 +838,10 @@ def _render_vraag_eenheid(
                 suffix = " (herinnering)"
             elif l_herkomst == "hybride":
                 suffix = " (hybride)"
-            if e_id in NEW_EXAMENS:
-                any_new = True
             examen_items.append(f"{e_id} ({l_vid}){suffix}")
         po_str = " + ".join(programmaonderdeel_ids) if programmaonderdeel_ids else ""
-        prefix = "🆕 " if any_new else ""
         herkomst_regel = (
-            f"{prefix}Examens {' & '.join(examen_items)}"
+            f"Examens {' & '.join(examen_items)}"
             + (f" · PO {po_str}" if po_str else "")
         )
     else:
@@ -859,6 +869,11 @@ def _render_vraag_eenheid(
     # onbetrouwbaar voor een nested-callout-layout die strict '> '-prefixen
     # vereist. Pure-Python is voorspelbaarder.
     titel = onderwerp or "Vraag"
+    # 🆕-marker vóór de titel zodra de vraag (canonical of een cluster-lid)
+    # uit een examen in NEW_EXAMENS komt. Zo valt het op in zowel het ingeklapt
+    # als uitgeklapt callout-overzicht en blijft de herkomst-italic plain.
+    if _is_nieuwe_vraag(examen_id, cluster_leden):
+        titel = f"🆕 {titel}"
     # Outer callout-type wordt `topic` (i.p.v. `question`) wanneer ALLE
     # deelvragen topic_only zijn — visueel grijzer in CSS, signaal aan de
     # student dat er hier geen echt antwoord-werk is (geen vraagstelling).

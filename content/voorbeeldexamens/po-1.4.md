@@ -46,7 +46,7 @@ gegenereerd_op: 2026-05-29
 <a id="2014-1-vr7"></a>
 <a id="2013-1-vr7"></a>
 
-> [!question]- Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
+> [!question]- 🆕 Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
 > *Examens 2014-1 (2014-1-vr7) & 2013-1 (2013-1-vr7) · PO 1.4*
 >
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.
@@ -149,7 +149,7 @@ gegenereerd_op: 2026-05-29
 <a id="2014-1-vr7"></a>
 <a id="2013-1-vr7"></a>
 
-> [!question]- Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
+> [!question]- 🆕 Afsluitingsdatum geconsolideerde jaarrekening — maximale afwijking
 > *Examens 2014-1 (2014-1-vr7) & 2013-1 (2013-1-vr7) · PO 1.4*
 >
 > De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.

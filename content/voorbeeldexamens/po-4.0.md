@@ -1303,8 +1303,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr38"></a>
 
-> [!question]- Overdracht van documenten aan een collega-accountant bij dossier-overname
-> *🆕 Examen 2010-2 · PO 4.0*
+> [!question]- 🆕 Overdracht van documenten aan een collega-accountant bij dossier-overname
+> *Examen 2010-2 · PO 4.0*
 >
 > Welke van volgende documenten dient u over te dragen aan uw collega die een dossier van u overneemt? Beoordeel per document met Ja / Neen.
 >
@@ -1378,8 +1378,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr39"></a>
 
-> [!question]- Voorwaarden en regels voor een accountants- en/of belastingconsulentenvennootschap
-> *🆕 Examen 2010-2 · PO 4.0*
+> [!question]- 🆕 Voorwaarden en regels voor een accountants- en/of belastingconsulentenvennootschap
+> *Examen 2010-2 · PO 4.0*
 >
 > Geef, met betrekking tot een accountants- en/of belastingconsulentenvennootschap aan of volgende situaties juist of fout zijn.
 >
@@ -1415,8 +1415,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr40"></a>
 
-> [!question]- Bevoegde commissies/organen van het IAB per type aangelegenheid
-> *🆕 Examen 2010-2 · PO 4.0*
+> [!question]- 🆕 Bevoegde commissies/organen van het IAB per type aangelegenheid
+> *Examen 2010-2 · PO 4.0*
 >
 > **Welke commissie dient men aan te schrijven in de gegeven situaties?**
 >
@@ -1472,8 +1472,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr41"></a>
 
-> [!question]- Deontologie: publiciteit en cliëntenwerving door accountants en/of belastingconsulenten
-> *🆕 Examen 2010-2 · PO 4.0*
+> [!question]- 🆕 Deontologie: publiciteit en cliëntenwerving door accountants en/of belastingconsulenten
+> *Examen 2010-2 · PO 4.0*
 >
 > Duid aan of volgende beweringen juist zijn.
 >
@@ -1537,8 +1537,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr42"></a>
 
-> [!question]- Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen
-> *🆕 Examen 2010-2 · PO 3.0 + 4.0*
+> [!question]- 🆕 Aanvaarding van accountantsopdrachten — bijzondere mandaten en beroepsdeontologische beperkingen
+> *Examen 2010-2 · PO 3.0 + 4.0*
 >
 > Kan u in de gegeven situaties volgende opdrachten aanvaarden? Per situatie: antwoord ja of neen en licht kort toe waarom u deze opdracht wel of niet zal aanvaarden.
 >

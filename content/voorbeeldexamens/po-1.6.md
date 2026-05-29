@@ -1026,8 +1026,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr10"></a>
 
-> [!question]- Voorraadcontrole door accountant bij omzettingsverslag — beoordeling van werkwijze
-> *🆕 Examen 2010-2 · PO 1.6*
+> [!question]- 🆕 Voorraadcontrole door accountant bij omzettingsverslag — beoordeling van werkwijze
+> *Examen 2010-2 · PO 1.6*
 >
 > Een groothandel in medische toestellen beschikt over een IT-systeem voor het bijhouden van de voorraad waarbij de "in-" en "uit"-verrichtingen via een barcode worden ingelezen. Er bestaat in het bedrijf een duidelijk geschreven instructie over het voorraadbeheer. Tweemaal per jaar worden er intern tellingen gedaan en wordt het permanent inventarissysteem bijgewerkt en dit telkens met een nazicht en verklaring van de verschillen. Uw opdracht kadert in een omzetting waarvoor u een controleverslag dient op te stellen. U krijgt op 10 oktober 2010 de staat van activa en passiva per 30 september 2010 op basis waarvan u uw werkzaamheden dient uit te voeren.
 > 
@@ -1099,8 +1099,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr11"></a>
 
-> [!question]- Controle van de balanspost kapitaal bij ontbindingsverslag van een NV
-> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+> [!question]- 🆕 Controle van de balanspost kapitaal bij ontbindingsverslag van een NV
+> *Examen 2010-2 · PO 1.6 + 3.0*
 >
 > U bent op 01/09/2010 aangesteld als accountant voor het opstellen van een verslag van ontbinding van een naamloze vennootschap opgericht in 1995. Op de laatste jaarvergadering op 25/06/2010 zijn slechts 60 % van de aandeelhouders verschenen, de aandelen van de vennootschap zijn aan toonder. De raad van bestuur geeft u een staat van activa en passiva per 31/08/2010 en deelt mee dat een nieuwe aandeelhouder ondertussen 30 % van de niet verschenen aandelen heeft verworven.
 > 
@@ -1237,8 +1237,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr12"></a>
 
-> [!question]- Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve
-> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+> [!question]- 🆕 Oprichting S-BVBA (Starter-BVBA): kapitaal, notariële akte, inbreng in natura, financieel plan, aansprakelijkheid en wettelijke reserve
+> *Examen 2010-2 · PO 3.0 + 1.6*
 >
 > Pierre is net geslaagd voor zijn stage als timmerman en wil zich als zelfstandige vestigen. Hij zou een bvba "starter" (S-BVBA) willen oprichten, daartoe aangespoord door een vriend die beweert dat hij zijn vennootschap kan oprichten met een beginkapitaal van 1 euro.
 > 
@@ -1343,8 +1343,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr16"></a>
 
-> [!question]- NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)
-> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+> [!question]- 🆕 NV ABC — kapitaalverhoging tegen 250 EUR/aandeel: fractiewaarde, intrinsieke waarde, normaal aantal uit te geven aandelen en gevolgen voor de oude aandeelhouders (verwatering)
+> *Examen 2010-2 · PO 1.6 + 3.0*
 >
 > De NV ABC stelt de heer X in de mogelijkheid om in te schrijven bij een kapitaalverhoging in de vennootschap ten belope van 12.500,00 EUR tegen een prijs van 250,00 EUR per aandeel. Het totaal aantal bestaande aandelen bedraagt 4.358 aandelen en het geplaatst kapitaal bedraagt 1.080.443,31 EUR. Verder bestaat het eigen vermogen per 31 december 2009 uit volgende elementen:
 > 
@@ -1445,8 +1445,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr17"></a>
 
-> [!question]- Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)
-> *🆕 Examen 2010-2 · PO 1.6 + 3.0*
+> [!question]- 🆕 Controleverslag externe accountant bij uitgifte van aandelen met beperking of afstand van het voorkeurrecht (bijzonder mandaat)
+> *Examen 2010-2 · PO 1.6 + 3.0*
 >
 > Geef aan met juist of fout of volgende beweringen bij de opdracht voor de externe accountant bij het opstellen van het controleverslag inzake de uitgifte van aandelen bij beperking of afstand van het voorkeurrecht bij kapitaalverhoging, kloppen. Motiveer bondig uw antwoord.
 > 
@@ -1519,8 +1519,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr18"></a>
 
-> [!question]- Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva
-> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+> [!question]- 🆕 Bijzonder mandaat externe accountant: controleverslag bij omzetting van NV in BVBA — actualiteitsvereiste van de staat van activa en passiva
+> *Examen 2010-2 · PO 3.0 + 1.6*
 >
 > U wordt aangesteld als extern accountant bij het opstellen van het controleverslag omtrent de omzetting van NV LKM in een BVBA. U wordt aangesteld op 1 oktober 2010 en ontvangt de staat van activa en passiva opgesteld op 30 april 2010. De normale afsluitdatum is 31 december van ieder jaar.
 >
@@ -1551,8 +1551,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr19"></a>
 
-> [!question]- Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit
-> *🆕 Examen 2010-2 · PO 3.0 + 1.6*
+> [!question]- 🆕 Controleverslag bij ontbinding van een vennootschap — staat van activa en passiva opgesteld in continuïteit
+> *Examen 2010-2 · PO 3.0 + 1.6*
 >
 > U wordt aangesteld als extern accountant bij het opstellen van het controleverslag bij de ontbinding van een vennootschap. De vennootschap stelt 58 personeelsleden tewerk en heeft nog een aantal opdrachten uit te voeren waarvan de duurtijd ongeveer 18 maanden bedraagt. De staat van activa en passiva werd opgesteld in continuïteit.
 >

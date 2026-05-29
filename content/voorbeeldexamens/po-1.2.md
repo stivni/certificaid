@@ -251,8 +251,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr1"></a>
 
-> [!question]- Wijziging van afschrijvingspercentages — voorwaarden en formaliteiten
-> *🆕 Examen 2010-2 · PO 1.2*
+> [!question]- 🆕 Wijziging van afschrijvingspercentages — voorwaarden en formaliteiten
+> *Examen 2010-2 · PO 1.2*
 >
 > Een onderneming heeft diverse machines in gebruik. Zij heeft deze machines steeds afgeschreven over een periode van vier jaar. Zij realiseert zich dat deze afschrijvingsperiode niet overeenstemt met de werkelijke gebruiksduur. De machines worden gebruikt over een periode van minstens acht jaar.
 >
@@ -292,8 +292,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr2"></a>
 
-> [!question]- Tussentijds dividend (interim-dividend) op het lopende resultaat — toelaatbaarheid, voorwaarden en boekhoudkundige verwerking
-> *🆕 Examen 2010-2 · PO 1.2 + 3.0*
+> [!question]- 🆕 Tussentijds dividend (interim-dividend) op het lopende resultaat — toelaatbaarheid, voorwaarden en boekhoudkundige verwerking
+> *Examen 2010-2 · PO 1.2 + 3.0*
 >
 > Een naamloze vennootschap heeft een boekjaar dat afsluit per 31 mei. De jaarrekening van het voorbije boekjaar dat afsloot op 31 mei 2010 werd goedgekeurd door de algemene vergadering van 1 september 2010. Deze jaarrekening werd tevens neergelegd. Op basis van de tussentijdse cijfers per 30 september 2010 en ook de verdere verwachte evolutie voor de komende maanden, besluit de raad van bestuur een dividend uit te keren op het lopende resultaat van 200 000 euro.
 >
@@ -382,8 +382,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr3"></a>
 
-> [!question]- Jaarrekeningrecht — herwaarderingsmeerwaarde, kapitaalvermindering, toegestaan kapitaal, voorraadwaardering
-> *🆕 Examen 2010-2 · PO 1.2*
+> [!question]- 🆕 Jaarrekeningrecht — herwaarderingsmeerwaarde, kapitaalvermindering, toegestaan kapitaal, voorraadwaardering
+> *Examen 2010-2 · PO 1.2*
 >
 > Zijn de volgende beweringen juist of fout? Kruis het juiste antwoord aan.
 >

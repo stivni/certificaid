@@ -616,8 +616,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr23"></a>
 
-> [!question]- Vennootschapsbelasting AJ 2010 — invullen Vak I/A van de aangifte voor nv 'XYZ' op basis van casusgegevens
-> *🆕 Examen 2010-2 · PO 2.3*
+> [!question]- 🆕 Vennootschapsbelasting AJ 2010 — invullen Vak I/A van de aangifte voor nv 'XYZ' op basis van casusgegevens
+> *Examen 2010-2 · PO 2.3*
 >
 > Vul Vak I/A in van de bijgevoegde aangifte vennootschapsbelasting AJ 2010 voor de nv 'XYZ' aan de hand van de onderstaande geselecteerde gegevens.
 > 
@@ -679,8 +679,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr24"></a>
 
-> [!topic]- Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen
-> *🆕 Examen 2010-2 (hybride bron) · PO 2.3*
+> [!topic]- 🆕 Vennootschapsbelasting — fragment van vraag over aftrekbare bestanddelen die de belastbare basis verminderen
+> *Examen 2010-2 (hybride bron) · PO 2.3*
 >
 > Dit segment toont op pagina 15 de aanhef van 'Vraag 2' (... / 6 punten) van een vennootschapsbelastingcasus. De casus zelf (vraag 1) bevindt zich op voorgaande pagina's en bevat onder meer: een lineair over 5 jaar afgeschreven octrooi met geboekte afschrijving € 200.000,00; financiële vaste activa (400 aandelen A Belgische NV en 100 aandelen B Duitse AG) en een geldbelegging in een obligatielening uitgegeven door een Deense vennootschap C (€ 12.500,00); in 2009 verkoop van 10 aandelen D (Belgische NV) met boekwaarde € 7.500,00 voor € 10.000,00 (kost van verkoop € 48,00 aan de financiële instelling); een samenstelling van het maatschappelijk kapitaal (aandelen A: 3.000; B: 900; C: 5.000; D: 1.000); financiële opbrengsten met dividend aandelen A € 875,00 en aandelen B € 1.875,00; en een meerwaarde gerealiseerd bij verkoop van aandelen D van € 2.500,00. Het volledige feitenrelaas van vraag 1 is in dit segment niet beschikbaar.
 > 
@@ -690,8 +690,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr25"></a>
 
-> [!topic]- Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag vennootschapsbelasting (octrooi-aftrek, DBI, meerwaarden aandelen)
-> *🆕 Examen 2010-2 (hybride bron) · PO 2.3*
+> [!topic]- 🆕 Aftrekbare bestanddelen in de bewerkingen tot belastbare grondslag vennootschapsbelasting (octrooi-aftrek, DBI, meerwaarden aandelen)
+> *Examen 2010-2 (hybride bron) · PO 2.3*
 >
 > Parser-artefact: het segment voor vr25 omvat alleen het staartstuk van 'vraag 2' op pagina 15 van de PDF. De voorafgaande context (de cijfergegevens uit 'vraag 1' waarnaar verwezen wordt — octrooi lineair over 5 jaar afgeschreven (€ 200.000); financiële vaste activa: 400 aandelen A (Belgische nv) à € 90 = € 36.000 en 100 aandelen B (Duitse AG) à € 375 = € 37.500 + obligatielening Deense vennootschap C € 12.500; verkoop in 2009 van 10 aandelen D (Belgische NV) met boekwaarde € 7.500 voor € 10.000, en verkoopkost € 48; samenstelling maatschappelijk kapitaal A 3.000 / B 900 / C 5.000 / D 1.000 aandelen; financiële opbrengsten: dividenden A € 875 en B € 1.875; meerwaarde op verkoop aandelen D € 2.500) ontbreekt in dit segment maar is zichtbaar op de bovenste helft van pagina 15. De geïsoleerde tekst betreft de vraagstelling 'Vermeld en verduidelijk met een woordje uitleg en in overeenkomstige cijfers welke gegevens uit vraag 1 de belastbare basis bijkomend zullen VERMINDEREN (aftrekbare bestanddelen in één van de bewerkingen). Je mag ervan uitgaan dat alle aftrekvoorwaarden zijn voldaan.'
 >
@@ -699,8 +699,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr26"></a>
 
-> [!question]- Verminderd basistarief vennootschapsbelasting — toetsing dividendvoorwaarde nv 'ZER'
-> *🆕 Examen 2010-2 · PO 2.3*
+> [!question]- 🆕 Verminderd basistarief vennootschapsbelasting — toetsing dividendvoorwaarde nv 'ZER'
+> *Examen 2010-2 · PO 2.3*
 >
 > De nv 'ZER' heeft op 31/12/2008 een maatschappelijk kapitaal van € 1 000 000,00.
 > 

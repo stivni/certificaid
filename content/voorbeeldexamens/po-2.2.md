@@ -943,8 +943,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr20"></a>
 
-> [!question]- Aangifte van roerende inkomsten in de personenbelasting (binnen- en buitenlandse interesten, dividenden, auteursrechten)
-> *🆕 Examen 2010-2 · PO 2.2*
+> [!question]- 🆕 Aangifte van roerende inkomsten in de personenbelasting (binnen- en buitenlandse interesten, dividenden, auteursrechten)
+> *Examen 2010-2 · PO 2.2*
 >
 > De heer en mevrouw Henri zijn gehuwd onder het stelsel van de scheiding van goederen. Zij hebben in 2009 volgende roerende inkomsten verkregen:
 > 
@@ -991,8 +991,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr21"></a>
 
-> [!question]- Aftrekbare autokosten en verplaatsingskosten van een zelfstandige dierenarts in de personenbelasting (aanslagjaar 2009 vs. 2010)
-> *🆕 Examen 2010-2 · PO 2.2*
+> [!question]- 🆕 Aftrekbare autokosten en verplaatsingskosten van een zelfstandige dierenarts in de personenbelasting (aanslagjaar 2009 vs. 2010)
+> *Examen 2010-2 · PO 2.2*
 >
 > Een dierenarts woont in Ukkel en heeft zijn praktijk in Elsene. Zijn beroepsmatige verplaatsingen met zijn persoonlijk voertuig zijn dagelijks dezelfde (220 dagen per jaar in 2009), namelijk:
 > - Woonplaats -> praktijk (ochtend): 5 km
@@ -1081,8 +1081,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr22"></a>
 
-> [!question]- Personenbelasting: huwelijksquotiënt, buitenlandse sociale bijdragen, ecocheques, belastingverminderingen vs belastingkrediet
-> *🆕 Examen 2010-2 · PO 2.2*
+> [!question]- 🆕 Personenbelasting: huwelijksquotiënt, buitenlandse sociale bijdragen, ecocheques, belastingverminderingen vs belastingkrediet
+> *Examen 2010-2 · PO 2.2*
 >
 > Beoordeel de volgende stellingen als waar of niet waar.
 >

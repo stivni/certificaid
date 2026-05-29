@@ -658,8 +658,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr7"></a>
 
-> [!question]- Functiescheiding in interne controle — classificatie van taken naar beherende, bewarende, registrerende of controlerende functie
-> *🆕 Examen 2010-2 · PO 1.7*
+> [!question]- 🆕 Functiescheiding in interne controle — classificatie van taken naar beherende, bewarende, registrerende of controlerende functie
+> *Examen 2010-2 · PO 1.7*
 >
 > In de interne controle spreekt men vaak van vier functies, nl. de beherende, de bewarende, de registrerende en de controlerende functie.
 >
@@ -706,8 +706,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr8"></a>
 
-> [!question]- Interne controlemaatregelen in de verkoopcyclus
-> *🆕 Examen 2010-2 · PO 1.7*
+> [!question]- 🆕 Interne controlemaatregelen in de verkoopcyclus
+> *Examen 2010-2 · PO 1.7*
 >
 > Welke interne controlemaatregelen dienen te worden nagezien in het kader van de verkoopcyclus? Verduidelijk het begrip telkens met een voorbeeld.
 > 
@@ -740,8 +740,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr9"></a>
 
-> [!question]- Interne controle leveranciersadministratie — juist/fout stellingen
-> *🆕 Examen 2010-2 · PO 1.7*
+> [!question]- 🆕 Interne controle leveranciersadministratie — juist/fout stellingen
+> *Examen 2010-2 · PO 1.7*
 >
 > Duid met een kruisje aan of de volgende omschrijvingen juist of fout zijn in het kader van de interne controle voor de leveranciersadministratie.
 >

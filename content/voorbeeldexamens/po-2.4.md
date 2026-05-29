@@ -977,8 +977,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr27"></a>
 
-> [!question]- Plaats van de levering/dienst en schuldenaar van de btw in grensoverschrijdende situaties
-> *🆕 Examen 2010-2 · PO 2.4*
+> [!question]- 🆕 Plaats van de levering/dienst en schuldenaar van de btw in grensoverschrijdende situaties
+> *Examen 2010-2 · PO 2.4*
 >
 > Bepaal met een woordje uitleg en/of verwijzing naar het overeenkomstig btw-artikel:
 > 1) de plaats van de levering of dienst (of handeling gelijkgesteld met een levering of dienst) EN
@@ -1026,8 +1026,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr28"></a>
 
-> [!question]- BTW-herziening van de oorspronkelijk uitgeoefende aftrek
-> *🆕 Examen 2010-2 · PO 2.4*
+> [!question]- 🆕 BTW-herziening van de oorspronkelijk uitgeoefende aftrek
+> *Examen 2010-2 · PO 2.4*
 >
 > Bepaal met korte motivering of voor volgende gevallen herziening moet gebeuren, en zo ja wanneer.
 >
@@ -1074,8 +1074,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr29"></a>
 
-> [!question]- Recht op aftrek van btw — vijf concrete handelingen bij een normale btw-belastingplichtige
-> *🆕 Examen 2010-2 · PO 2.4*
+> [!question]- 🆕 Recht op aftrek van btw — vijf concrete handelingen bij een normale btw-belastingplichtige
+> *Examen 2010-2 · PO 2.4*
 >
 > Is er recht op aftrek van de btw, geheven van volgende handelingen, in hoofde van een btw-belastingplichtige die onderworpen is aan de normale regeling? Antwoord met JA of NEEN door het aankruisen of omcirkelen van je keuze. Zo ja, bereken ook hoeveel recht op aftrek EN geef een korte toelichting of verwijs naar het overeenkomstig btw-artikel.
 > 
@@ -1172,8 +1172,8 @@ gegenereerd_op: 2026-05-29
 
 <a id="2010-2-vr37"></a>
 
-> [!question]- BTW-aftrek bij gemengde belastingplicht: algemeen verhoudingsgetal vs werkelijk gebruik bij een vastgoedvennootschap met opslaggebouw (belast verhuurd) en villa's (vrijgesteld verhuurd aan particulieren)
-> *🆕 Examen 2010-2 · PO 2.4*
+> [!question]- 🆕 BTW-aftrek bij gemengde belastingplicht: algemeen verhoudingsgetal vs werkelijk gebruik bij een vastgoedvennootschap met opslaggebouw (belast verhuurd) en villa's (vrijgesteld verhuurd aan particulieren)
+> *Examen 2010-2 · PO 2.4*
 >
 > Een vastgoedvennootschap bezit een ruim gebouw dat aan derden wordt verhuurd om er goederen in op te slaan. De ontvangen huur is aanzienlijk. Dezelfde vennootschap bezit drie villa's in Waals-Brabant en in Knokke. Die gebouwen worden verhuurd aan particulieren en brengen slechts geringe inkomsten op.
 > 
