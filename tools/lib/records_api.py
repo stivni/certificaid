@@ -222,11 +222,14 @@ def _render_concept_fiche(record: dict, content_dir: Optional[Path] = None) -> N
     Render de Quartz-markdown-fiche voor één concept-record.
 
     ADR-019 §"Content-sync": derde stap na RAG + disk.
-    Roept render_concept_fiche.render_naar_bestand() aan.
+
+    Schema-aware routing:
+    - schema_version "2.2" → render_concept_v22 (huidige schema, ADR-035)
+    - andere/ontbrekend → legacy render_concept_fiche (schema 1.x/2.1 fallback)
 
     Render-fout (ImportError, TemplateError, OSError) → logt WARNING maar raiset NIET.
-    Reden: markdown is afgeleid artefact dat altijd herbouwd kan worden via
-    `render_concept_fiche --alle`. Een render-fout mag nooit de record-write blokkeren.
+    Reden: markdown is afgeleid artefact dat altijd herbouwd kan worden.
+    Een render-fout mag nooit de record-write blokkeren.
 
     Args:
         record: volledig concept-record dict
@@ -234,13 +237,48 @@ def _render_concept_fiche(record: dict, content_dir: Optional[Path] = None) -> N
     """
     concept_id = record.get("id", "onbekend")
     doelmap = content_dir or CONTENT_CONCEPTEN_DIR
+    schema_version = (record.get("metadata") or {}).get("schema_version")
+
+    if schema_version == "2.2":
+        try:
+            from tools.leermateriaal import render_concept_v22 as v22
+            # Populate EXISTING_SLUGS zodat safe_link() correct wikilinks vs ⏳ kiest
+            # — alle bestaande 2.2-records inscannen
+            v22.EXISTING_SLUGS.clear()
+            for pad in RECORDS_DIR.glob("*.json"):
+                try:
+                    r = json.loads(pad.read_text(encoding="utf-8"))
+                    if (r.get("metadata") or {}).get("schema_version") == "2.2":
+                        v22.EXISTING_SLUGS.add(r["id"])
+                except (json.JSONDecodeError, OSError):
+                    continue
+            # Zorg dat het zojuist opgeslagen record zelf ook bekend is
+            v22.EXISTING_SLUGS.add(concept_id)
+
+            doelmap.mkdir(parents=True, exist_ok=True)
+            fm = v22.render_frontmatter(record)
+            body = v22.render_record(record)
+            (doelmap / f"{concept_id}.md").write_text(f"{fm}\n\n{body}", encoding="utf-8")
+            logger.debug("_render_concept_fiche: v22-fiche gegenereerd voor %s", concept_id)
+            return
+        except Exception as exc:
+            logger.warning(
+                "_render_concept_fiche: v22-render MISLUKT voor %s: %s. "
+                "Herbouw via: python3 -m tools.leermateriaal.render_concept_v22 --slug %s",
+                concept_id,
+                exc,
+                concept_id,
+            )
+            return
+
+    # Legacy fallback voor pre-2.2 records
     try:
         from tools.leermateriaal.render_concept_fiche import render_naar_bestand
         render_naar_bestand(record, output_dir=doelmap)
-        logger.debug("_render_concept_fiche: fiche gegenereerd voor %s", concept_id)
+        logger.debug("_render_concept_fiche: legacy-fiche gegenereerd voor %s", concept_id)
     except Exception as exc:
         logger.warning(
-            "_render_concept_fiche: render MISLUKT voor %s (geen rollback — markdown is afgeleid): %s. "
+            "_render_concept_fiche: legacy-render MISLUKT voor %s (geen rollback — markdown is afgeleid): %s. "
             "Herbouw via: python3 -m tools.leermateriaal.render_concept_fiche --alle",
             concept_id,
             exc,
