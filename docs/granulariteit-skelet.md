@@ -198,12 +198,13 @@ ifrs-rapportering                        [Σ-mini-cluster, 4 cluster-eigen + 4 c
 ├── materiele-vaste-activa (IAS 16) · immateriele-vaste-activa (IAS 38) · opbrengstverantwoording (IFRS 15)   [geselecteerde standaarden]
 └── (cross: voorraden IAS 2 · leasing IFRS 16 · jaarrekening IAS 1 · geconsolideerde-jaarrekening IFRS 10/3/11/12)
 
-financiele-analyse                       [Σ-cluster, ~14 cluster-eigen + ~7 cross — PO 1.3 + PO 1.9 (excl. consolidatie naar PO 1.4)]
+financiele-analyse                       [Σ-cluster, ~16 cluster-eigen + ~7 cross — PO 1.3 + PO 1.9 (excl. consolidatie naar PO 1.4)]
 ├── jaarrekeninganalyse                  [Σ — hoofdrecord]   #horizontale-analyse · #verticale-analyse · #herstructurering-balans+ROW
+├── functionele-balans                   [K-techniek NIEUW 2026-05-29 — NBK/BBK/NT-drieluik]
 ├── continuiteit (rename `-going-concern`) · toegevoegde-waarde   [context-K]
 ├── liquiditeits-ratios [Σ NIEUW absorbeert 4] · solvabiliteits-ratios [Σ NIEUW absorbeert 2] · rentabiliteits-ratios [Σ NIEUW absorbeert 5] · activiteits-ratios [Σ NIEUW absorbeert 4] · ratio-interpretatie [K-techniek NIEUW — cross-categorie]   [ratio-families]
 ├── kasstroom-analyse [Σ — 8 sub-secties cross cyclus-analyse + schuldfinanciering + kapitaalstructuur] · free-cash-flow   [kasstroom]
-├── financiele-diagnose · faillissementspredictie-modellen   [diagnose + falen]
+├── financiele-diagnose · faillissementspredictie-modellen · window-dressing [verrichting/risico NIEUW 2026-05-29]   [diagnose + falen]
 └── financiele-analyse-software   [IT-tools]
    (7 consolidatie-records uit PO 1.9.taak.1 parkeren voor PO 1.4 consolidatie-cluster)
 
@@ -2757,6 +2758,12 @@ financiele-analyse                       [Σ-cluster, ~13 cluster-eigen + ~5 cro
 │   ▸ #herstructurering-resultatenrekening (PO 1.9.III.B-C): bedrijfsresultaat-isolatie · niet-recurrent-eliminatie
 │   ▸ cross `jaarrekening`-Σ (boekhouding-cluster) voor input-structuur
 │
+├── functionele-balans                    [K-techniek — NIEUW 2026-05-29, herrangschikkings-techniek per economische bestemming]
+│   ▸ NBK (werkkapitaal) · BBK (behoefte aan bedrijfskapitaal) · NT (nettothesaurie) als drieluik
+│   ▸ gulden-regel NBK ≥ BBK ⇒ NT ≥ 0 · tekenleeskaart 8 combinaties · sector-benchmarking
+│   ▸ cross `liquiditeits-ratios` (verhouding vs verschil — wiskundig equivalent, andere lens)
+│   ▸ cross `activiteits-ratios`#werkkapitaalbehoefte (semantisch identiek met andere context)
+│
 ├── --- I. CONTEXT-CONCEPTEN ---
 ├── continuiteit                          [K — rename `continuiteit-going-concern`, going-concern in synoniemen[]]
 │   ▸ going-concern-principe · trigger-indicatoren (negatief EV · negatief werkkapitaal · ...) · CBN-2010-14 · audit-perspectief NBE
@@ -2803,6 +2810,10 @@ financiele-analyse                       [Σ-cluster, ~13 cluster-eigen + ~5 cro
 │   ▸ cross `continuiteit` voor trigger-indicatoren · cross `kamers-voor-ondernemingen-in-moeilijkheden` (insolventie-cluster)
 ├── faillissementspredictie-modellen      [K — uit PO 1.9.VI.B]
 │   ▸ Altman Z-score · Ooghe-Camerlynck · CNH-modellen Belgische context · cut-off-punten · accuracy-discussie
+├── window-dressing                       [verrichting/risico-fenomeen — NIEUW 2026-05-29, PO 1.3 + PO 1.6 audit-risico]
+│   ▸ optisch verfraaien balans vlak vóór balansdatum · cut-off-tests · post-balansdatum-transacties
+│   ▸ schending bestendigheid + getrouw beeld (KB 29-04-2019 art. 3:7+3:10 · CBN 2010/12+157/1)
+│   ▸ ISA 240/315/505/520/560 (auditor-detectie) — cross `ratio-interpretatie`#valkuilen + `continuiteit`
 │
 └── --- V. IT-TOOLS ---
 └── financiele-analyse-software            [procedure — uit PO 1.9.VII]
@@ -3312,6 +3323,8 @@ beroepsbeoefening                             [thema-cluster onder beroep-en-deo
 ├── --- IV. KANTOOR-PRAKTIJK ---
 ├── opdrachtaanvaarding-en-opdrachtbrief      [E + R]
 │       (verhuisd uit controle-opdracht per OP-EC.A) — wettelijk + ITAA-norm-opdrachtbrief; geldt voor élk opdrachttype
+├── retentierecht-accountant                  [R-instrument — NIEUW 2026-05-29, PO 4.0 kantoor-praktijk]
+│       Wet-ITAA art. 37 + deontologische code · grens: geen schade aan derden, geen blokkering wettelijke verplichtingen cliënt · IESBA Section 110/320
 └── kantoor-organisatie                       [K — was `kantoor-organisatie-accountant`]
     ▸ #team-coordinatie-en-supervisie (4.0.taak.4)
     ▸ #communicatie-met-stakeholders (4.0.taak.2 — was `communicatie-met-stakeholders` record, geabsorbeerd)
@@ -3528,6 +3541,9 @@ Thema: `controle-opdracht`. *Eerste laag-2 discipline-cluster (sub-Kader van `au
 
 ```
 controle-opdracht                       [sub-Kader van audit-en-assurance]
+├── isa-overzicht                       [K-meta — NIEUW 2026-05-29, normenkader-spiegel van 4-fase-cyclus]
+│   ▸ 26 ISA's gemapped over 6 fases: aanvaarding (210/220/240/250/260+265/ISQM 1+2) · planning (300/315/320) · response (330/402/450) · uitvoering (500-580 reeks) · groep/intern/specialisten (600/610/620) · rapportering (700-720 reeks)
+│   ▸ + ITAA-overlay (KMO-controlenorm) — relatie met `controleopdracht`-fases
 ├── controleopdracht                    [K-techniek-Σ, ruggengraat]
 │   ▸ 4 fases: aanvaarden ▸ plannen ▸ bewijswerk ▸ afronden+oordeel
 │   ▸ delegatie-en-supervisie ▸ professionele oordeelsvorming + skepticism (basisattitude)

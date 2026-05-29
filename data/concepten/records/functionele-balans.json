@@ -1,0 +1,1189 @@
+{
+  "id": "functionele-balans",
+  "naam": {
+    "primair": "Functionele balans",
+    "synoniemen": [
+      "werkkapitaal-drieluik",
+      "NBK-BBK-nettothesaurie-analyse",
+      "analytische functionele balans"
+    ],
+    "vertaling": {
+      "fr": "bilan fonctionnel"
+    }
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "concept",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.3.II.A",
+      "1.3.II.A.1",
+      "1.3.II.A.2",
+      "1.3.II.C.1",
+      "1.9.III.A",
+      "1.9.III.B",
+      "1.9.V.A",
+      "1.9.V.A.1"
+    ],
+    "scope": {
+      "in": [
+        "Herrangschikking van de boekhoudkundige balans naar economische bestemming (cyclisch vs vast / lang vs kort)",
+        "Drieluik werkkapitaal (NBK) — behoefte aan bedrijfskapitaal (BBK) — nettothesaurie (NT)",
+        "Formules + tekenconventies + structurele interpretatie",
+        "Sector- en seizoenafhankelijke interpretatie (snapshot vs trend)",
+        "Koppeling naar going-concern (NT-evolutie als continuiteitsindicator)",
+        "Valkuilen: window-dressing, statische lezing, te hoge NBK"
+      ],
+      "out": [
+        {
+          "topic": "Liquiditeitsratio's (current ratio, quick ratio — verhoudingsbenadering)",
+          "richting": "moet-verwijzen",
+          "ref": "liquiditeits-ratios"
+        },
+        {
+          "topic": "Activiteitsratio's (DSO, DPO, DIO + werkkapitaalbehoefte als omloop-indicator)",
+          "richting": "moet-verwijzen",
+          "ref": "activiteits-ratios"
+        },
+        {
+          "topic": "Herstructurering balans voor analyse (Σ-context binnen jaarrekeninganalyse)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Going-concern beoordeling (ISA 570 + alarmbel — NT als één indicator)",
+          "richting": "moet-verwijzen",
+          "ref": "continuiteit"
+        },
+        {
+          "topic": "Window-dressing technieken (manipulatie balansdatum)",
+          "richting": "mag-verwijzen",
+          "ref": "window-dressing"
+        },
+        {
+          "topic": "Ratio-interpretatie kader (cross-categorie K-techniek)",
+          "richting": "mag-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Kasstroomoverzicht (dynamische cash-analyse)",
+          "richting": "mag-verwijzen",
+          "ref": "kasstroom-analyse"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "opus-4.7-1M (handcrafted via Claude Code subagent)",
+      "wave_id": "functionele-balans-2026-05-29",
+      "iteratie": "single-record",
+      "primary_bronnen": [
+        "KB 29-04-2019 tot uitvoering WVV — bijlage jaarrekening-schema's",
+        "CBN-advies 2011/14 — Werkkapitaal + rentabiliteit",
+        "NBB-Balanscentrale — definities + sectorratio's",
+        "ISA 315 (herzien 2019) — identificatie risico's via entiteit + omgeving",
+        "ISA 570 (herzien) — Continuiteit"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-29T11:30:00Z",
+        "model": "opus-4.7-1M",
+        "wave_id": "functionele-balans-2026-05-29",
+        "wijziging": "Skeleton + content samen aangemaakt vanuit cluster-context financiele-analyse (sibling van jaarrekeninganalyse + ratio-categorieen). Drieluik NBK/BBK/NT als eigen K-techniek-record."
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De functionele balans is een analytische herrangschikking van de boekhoudkundige balans waarbij activa en passiva gehergroepeerd worden volgens hun economische bestemming — cyclische exploitatie versus vaste investering, lang versus kort — in plaats van de juridische volgorde van het wettelijk schema. Deze reclassificatie levert het drieluik op dat het korte-termijn-financiele evenwicht meet: (1) werkkapitaal of netto bedrijfskapitaal (NBK) = permanent vermogen minus vaste activa; (2) behoefte aan bedrijfskapitaal (BBK) = exploitatie-vlottende activa minus exploitatie-schulden op korte termijn; (3) nettothesaurie (NT) = NBK − BBK. Het sluit-evenwicht (NT ≥ 0) signaleert of de stabiele financieringsmarge volstaat om de operationele cyclus te dragen zonder structurele kortlopende-krediet-afhankelijkheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 tot uitvoering WVV",
+              "ref": "bijlage jaarrekening-schema's",
+              "context": "Wettelijk balansschema vormt vertrekpunt voor herrangschikking"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2011/14",
+              "ref": "Werkkapitaal en rentabiliteit",
+              "context": "CBN-definitie werkkapitaalbenadering"
+            },
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29",
+              "context": "Synthese standaardleer functionele balans (Ooghe & Van Wymeersch, Vernimmen)"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wat de functionele balans toevoegt boven de boekhoudbalans: een leesbaar antwoord op de vraag 'is de financieringsstructuur in overeenstemming met de operationele cyclus?'. De boekhoudbalans schikt activa op afnemende liquiditeit en passiva op afnemende opeisbaarheid — juridisch correct, analytisch zwak. De functionele balans isoleert drie cycli: investerings-cyclus (vaste activa ↔ permanent vermogen), exploitatie-cyclus (voorraden + handelsvorderingen ↔ handelsschulden + sociale + fiscale schulden) en thesaurie-cyclus (liquide middelen ↔ kortlopend bankkrediet). Het drieluik vertaalt deze cycli in drie sluitcijfers die elkaar opvolgen: NBK toont de stabiele financieringsmarge die overblijft na dekking van de vaste investeringen; BBK toont hoeveel permanente financiering de operationele cyclus permanent opslokt; NT toont het saldo — overschot (cash op rekening) of tekort (kasovertrek, voorschotten in lopende rekening).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29",
+              "context": "Standaard didactische framing functionele balans"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom dit kader naast de gewone ratio's? Liquiditeitsratio's (current, quick) meten hetzelfde fenomeen — kortetermijn-betaalkracht — als een verhouding. Het drieluik meet het als een verschil in absolute bedragen. Beide perspectieven vullen elkaar aan: een current ratio van 1,5 kan zowel '500 EUR overschot' als '5 mio EUR overschot' verbergen — de eerste is irrelevant, de tweede is buffer. De functionele balans plaatst werkkapitaal in zijn financierings-context: NBK > 0 betekent dat lange-termijn-bronnen de vaste activa overschrijden — dat overschot is beschikbaar voor de exploitatie-cyclus. Wanneer dat overschot structureel kleiner is dan de exploitatie-behoefte (BBK > NBK), wordt de exploitatie permanent gefinancierd met kortlopend krediet — kwetsbaar bij krediet-intrekking. Het drieluik maakt dat zichtbaar als een eenvoudig sluitcijfer (NT) dat als signaalwaarde dient in audit-planning (ISA 315 — entiteit en haar omgeving) en continuiteitsbeoordeling (ISA 570).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "norm",
+              "naam": "ISA 315 (herzien 2019)",
+              "ref": "paragraaf 19-21",
+              "context": "Risico-identificatie via begrip entiteit + interne controle"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 570 (herzien)",
+              "ref": "alinea A3",
+              "context": "Financiele indicatoren going-concern-twijfel"
+            },
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29"
+            }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "jaarrekening",
+        "boekhoudbeginselen",
+        "jaarrekeninganalyse"
+      ],
+      "kader": "jaarrekeninganalyse",
+      "naast_relevant": [
+        "liquiditeits-ratios",
+        "activiteits-ratios",
+        "kasstroom-analyse"
+      ],
+      "volgkennis": [
+        "continuiteit",
+        "ratio-interpretatie",
+        "window-dressing"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Snelle eerste-blik-diagnose van de financiele gezondheid: bereken NBK, BBK, NT op één balansdatum — drie cijfers vertellen onmiddellijk of de financieringsstructuur in evenwicht is met de operationele cyclus.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29",
+                "context": "Standaardpraktijk financiele diagnose"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Audit-planning bij commissarisopdracht: het drieluik over 3-5 jaren onthult structurele evoluties (bv. NBK kalft jaarlijks af terwijl BBK stijgt → toenemend liquiditeitsrisico) — input voor risico-inschatting (ISA 315) en going-concern-evaluatie (ISA 570).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "norm",
+                "naam": "ISA 315 (herzien 2019)",
+                "ref": "paragraaf 19-21"
+              },
+              {
+                "type": "norm",
+                "naam": "ISA 570 (herzien)",
+                "ref": "alinea A3"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Adviespraktijk bij KMO-cliënt: het drieluik lokaliseert waar het knelt — een negatieve NT bij structureel positieve NBK wijst op een uit de hand gelopen BBK (voorraadopbouw, klanten-betalingsachterstand, leveranciers die termijnen inkorten). Concrete hefbomen: DSO/DIO/DPO verbeteren, kortlopende kredietlijn ombouwen tot LT-financiering.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29",
+                "context": "Adviespraktijk werkkapitaal-beheer"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bankkrediet-dossier: banken kijken naar het drieluik om te bepalen of de gevraagde KT-kredietlijn structurele behoefte dekt (= zou eigenlijk LT-financiering moeten zijn) of seizoensgebonden piek (= KT terecht).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29",
+                "context": "KMO-financieringspraktijk"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Vervangt geen kasstroomoverzicht. Het drieluik is statisch (balansdatum-snapshot); een kasstroomoverzicht is dynamisch (periode-flow). Bij vragen over 'waar komt de cash vandaan / waar gaat ze heen?': kasstroomoverzicht. Bij vragen over 'is de structuur in evenwicht?': functionele balans.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Minimum één volledige balans nodig (rubrieken cf. KB 29-04-2019). Bij verkort of micro-schema (WVV art. 1:24-1:26) kunnen sommige exploitatie-versus-niet-exploitatie-toewijzingen onnauwkeurig zijn — vermeld dat in het diagnose-verslag.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 1:24 - 1:26",
+                "context": "Groottecriteria + schema-keuze"
+              },
+              {
+                "type": "kb",
+                "naam": "KB 29-04-2019",
+                "ref": "bijlage balans-schema"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor structurele diagnose: meerjarige reeks (minstens 3 jaar) + sector-benchmark (NBB-balanscentrale). Eén balansdatum is een snapshot — geen oordeel uit één punt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Sectoraal volstrekt verschillende normaalwaarden — supermarkten draaien structureel met negatieve BBK (kasverkoop + leverancierskrediet) en zelfs negatieve NBK zonder problemen; productie-bedrijven hebben grote positieve BBK nodig. Drieluik nooit lezen zonder sector-context.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29",
+                "context": "NBB-balanscentrale sectorrapporten"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Window-dressing rond balansdatum kan NT cosmetisch optillen — leverancier op 30-12 betalen met opgenomen kortlopend krediet en die op 02-01 terug opnemen. Vergelijk met tussentijdse staten of post-balansdatum-cash-bewegingen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "opus-4.7-1M (handcrafted)",
+                "datum": "2026-05-29"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "netto-bedrijfskapitaal",
+        "naam": {
+          "primair": "Netto bedrijfskapitaal (NBK)",
+          "afkorting": "NBK",
+          "synoniemen": [
+            "werkkapitaal",
+            "fonds de roulement",
+            "FR",
+            "permanent werkkapitaal"
+          ]
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Netto bedrijfskapitaal = permanent vermogen − vaste activa = (eigen vermogen + voorzieningen voor risico's en kosten + schulden op meer dan 1 jaar) − (vaste activa inclusief vorderingen op > 1 jaar). Equivalente formule vanaf onderkant van de balans: NBK = vlottende activa − schulden ≤ 1 jaar. NBK > 0 betekent dat lange-termijn-bronnen de vaste activa overschrijden — dat overschot vormt de stabiele financieringsmarge beschikbaar voor de exploitatie-cyclus. NBK < 0 betekent dat een deel van de vaste activa met kortlopend krediet wordt gefinancierd — structurele looptijd-mismatch.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "cbn",
+                    "naam": "CBN-advies 2011/14",
+                    "ref": "Werkkapitaal en rentabiliteit",
+                    "context": "CBN-definitie werkkapitaal"
+                  },
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019",
+                    "ref": "bijlage jaarrekening-schema's"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "De gulden regel achter NBK: 'lange aanwending → lange financiering'. Vaste activa staan jarenlang vast — ze moeten met lange-termijn-bronnen (eigen vermogen, LT-schulden) gedekt zijn. Wanneer NBK negatief is, draait de logica om: korte schulden financieren langlopende activa — een bank kan elk moment haar lijn opzeggen terwijl de machines blijven staan. Vandaar dat NBK > 0 een minimumvereiste is voor financiele gezondheid, met één belangrijke nuance: sectoren met snelle voorraadrotatie en lage klantkrediet (supermarkten, kappers) kunnen structureel met NBK ≤ 0 functioneren omdat hun BBK ook negatief is.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "nbk-formule-bovenkant",
+              "naam": {
+                "primair": "Formule NBK — bovenkant balans"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "NBK = permanent vermogen − vaste activa = (eigen vermogen + voorzieningen + schulden > 1 jaar) − (vaste activa inclusief vorderingen > 1 jaar). Bovenkant-benadering omdat ze de financierings-logica (lang dekt lang) expliciet maakt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "formule_expressie",
+                  "uitdrukking": "NBK = (EV + Voorz + LT-schuld) − Vaste activa"
+                }
+              ]
+            },
+            {
+              "id": "nbk-formule-onderkant",
+              "naam": {
+                "primair": "Formule NBK — onderkant balans"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "NBK = vlottende activa − schulden op ten hoogste 1 jaar. Equivalente uitkomst, andere blik: het overschot aan KT-aanwendingen boven KT-financiering. Boekhoudkundig: identiek aan bovenkant-formule omdat activa = passiva — verschillende decompositie van hetzelfde verschil.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "formule_expressie",
+                  "uitdrukking": "NBK = Vlottende activa − KT-schulden"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "behoefte-bedrijfskapitaal",
+        "naam": {
+          "primair": "Behoefte aan bedrijfskapitaal (BBK)",
+          "afkorting": "BBK",
+          "synoniemen": [
+            "werkkapitaalbehoefte",
+            "besoin en fonds de roulement",
+            "BFR",
+            "operating working capital requirement"
+          ]
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Behoefte aan bedrijfskapitaal = exploitatie-vlottende activa − exploitatie-schulden op korte termijn = (voorraden + handelsvorderingen ≤ 1 jaar + overlopende rekeningen actief) − (handelsschulden ≤ 1 jaar + ontvangen vooruitbetalingen + schulden m.b.t. belastingen, bezoldigingen en sociale lasten + overlopende rekeningen passief). Geeft het bedrag aan permanent gebonden operationeel kapitaal — de financieringsbehoefte die intrinsiek voortvloeit uit de operationele cyclus.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019",
+                    "ref": "rubrieken 3, 40, 44, 45, 46, 49",
+                    "context": "Rubrieken voor exploitatie-werkkapitaal"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "BBK is de echo van de operationele cyclus op de balans. Hoe langer de cyclus (lange productiedoorlooptijd + lange klantkrediet − leverancierskrediet), hoe groter BBK. Een groeiende onderneming met stabiele cyclus ziet BBK proportioneel met de omzet stijgen — de typische 'profitable growth without cash'-val: winst op papier maar steeds meer geld permanent vastgezet in werkkapitaal. BBK ≈ (DIO + DSO − DPO) × dagomzet — vandaar dat verbetering van activiteitsratio's BBK direct verlaagt. BBK kan negatief zijn (negatief werkkapitaalbedrijf — supermarkt, fast-food): de leveranciers en klanten financieren samen de exploitatie.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "bbk-formule",
+              "naam": {
+                "primair": "Formule BBK"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "BBK = (voorraden 3 + handelsvorderingen ≤ 1 jaar 40 + overlopende rekeningen actief 490/1) − (handelsschulden ≤ 1 jaar 44 + ontvangen vooruitbetalingen 46 + schulden belastingen-bezoldigingen-sociale lasten 45 + overlopende rekeningen passief 492/3). Niet-operationele KT-componenten (financiele schulden 43, liquide middelen 50-58) blijven buiten BBK — die horen in de thesaurie-cyclus.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "kb",
+                        "naam": "KB 29-04-2019",
+                        "ref": "bijlage balans-rubrieken"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "formule_expressie",
+                  "uitdrukking": "BBK = (Voorraden + KT-handelsvord + Overlop_A) − (KT-handelsschuld + Vooruitbet + Belast+Bezold+Soc + Overlop_P)"
+                }
+              ]
+            },
+            {
+              "id": "bbk-relatie-activiteitsratios",
+              "naam": {
+                "primair": "Koppeling BBK ↔ activiteitsratio's"
+              },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "BBK ≈ (DIO + DSO − DPO) × dagomzet incl. btw. Elke dag DSO méér voegt één dag dagomzet aan BBK toe. Concrete hefboom: een KMO met 5 mio EUR omzet en 90 dagen DSO heeft ≈ 1,5 mio EUR vastgezet in klantenkrediet alleen — DSO terugbrengen tot 60 dagen vrijt ≈ 500 KEUR cash vrij. Vandaar dat werkkapitaal-optimalisatie via activiteitsratio's vaak meer cash vrijspeelt dan kostenbesparing.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "nettothesaurie",
+        "naam": {
+          "primair": "Nettothesaurie (NT)",
+          "afkorting": "NT",
+          "synoniemen": [
+            "trésorerie nette",
+            "TN",
+            "netto-kaspositie",
+            "thesaurie-saldo"
+          ]
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Nettothesaurie = NBK − BBK = liquide middelen + geldbeleggingen − financiele schulden op korte termijn (kasovertrek, voorschotten in lopende rekening, korte bankkredieten). Equivalente uitkomst via twee paden: bovenkant (NBK − BBK) of onderkant (kasactiva − kaspassiva). NT > 0 = liquiditeitsoverschot beschikbaar voor LT-investering, schuldafbouw of dividenduitkering. NT < 0 = structurele kortlopende-krediet-afhankelijkheid om de exploitatie-cyclus rond te krijgen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019",
+                    "ref": "rubrieken 43, 50-58",
+                    "context": "Financiele schulden + liquide middelen + geldbeleggingen"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "NT is het sluitcijfer van het drieluik en de eenvoudigste single-cijfer-indicator van het financiele evenwicht. Een gezonde onderneming heeft NT consequent ≥ 0 over de balansdatums heen, met seizoensschommelingen rond een positieve as. Structureel negatieve NT (3+ jaren rond een negatieve as) is een rood signaal: de exploitatie wordt permanent met kortlopend bankkrediet gefinancierd. Bij krediet-intrekking of rente-stijging valt het kaartenhuis om. Vandaar dat NT-evolutie in audit-context een van de financiele indicatoren is voor going-concern-twijfel (ISA 570 alinea A3).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "norm",
+                    "naam": "ISA 570 (herzien)",
+                    "ref": "alinea A3",
+                    "context": "Voorbeelden financiele indicatoren going-concern-twijfel"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "opus-4.7-1M (handcrafted)",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "nt-formule-drieluik",
+              "naam": {
+                "primair": "Formule NT — drieluik-vorm"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "NT = NBK − BBK. Toont de logica: wanneer de stabiele financieringsmarge (NBK) groter is dan de operationele behoefte (BBK), blijft er cash over (NT > 0). Wanneer kleiner: tekort moet door KT-krediet worden opgevuld (NT < 0).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "formule_expressie",
+                  "uitdrukking": "NT = NBK − BBK"
+                }
+              ]
+            },
+            {
+              "id": "nt-formule-kasrekeningen",
+              "naam": {
+                "primair": "Formule NT — directe kasrekeningen"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "NT = (liquide middelen 54-58 + geldbeleggingen 50-53) − (financiele schulden ≤ 1 jaar 43 + kasovertrek). Directe afleiding uit balans-cijfers. Levert hetzelfde getal als drieluik-vorm — verschillende decompositie van identiek verschil (boekhoudkundig identiteit).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "kb",
+                        "naam": "KB 29-04-2019",
+                        "ref": "rubrieken 43, 50-58"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "formule_expressie",
+                  "uitdrukking": "NT = (Liq middelen + Geldbel) − (KT-fin schuld + Kasovertrek)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "drieluik-gouden-regel",
+        "naam": {
+          "primair": "Gulden regel: NBK ≥ BBK (NT ≥ 0)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Een gezonde onderneming heeft NBK groter dan of gelijk aan BBK, met andere woorden NT ≥ 0. Deze regel operationaliseert het beginsel 'lange aanwending = lange financiering': de stabiele financieringsmarge die overblijft na dekking van vaste activa (NBK) moet volstaan om de permanente operationele behoefte (BBK) te dragen. Wanneer dat niet het geval is (NT < 0), wordt de exploitatie structureel gefinancierd met kortlopend bankkrediet — kwetsbaar bij krediet-intrekking, rentestijging of vraaguitval.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2011/14",
+                  "ref": "Werkkapitaal en rentabiliteit"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "opus-4.7-1M (handcrafted)",
+                  "datum": "2026-05-29",
+                  "context": "Standaardleer Belgische financiele analyse"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drieluik-tekenleeskaart",
+        "naam": {
+          "primair": "Tekencombinaties NBK/BBK/NT — leeskaart"
+        },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Acht mogelijke tekencombinaties — vier typische diagnoses: (1) NBK+, BBK+, NT+ = gezond evenwicht (typische industriele KMO); (2) NBK+, BBK+, NT− = NBK volstaat niet voor BBK → structureel KT-krediet (knipperlicht); (3) NBK−, BBK−, NT+ = leveranciers en klanten financieren de exploitatie + de vaste activa (supermarkt, fast-food — sector-typisch gezond); (4) NBK−, BBK+, NT− = ernstige looptijd-mismatch, vaste activa met KT gefinancierd én exploitatie-behoefte niet gedekt → rood signaal, vaak prelude tot faillissement. De diagnose hangt af van sector — combinatie 3 is alarmerend voor een productie-bedrijf maar normaal voor retail.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "opus-4.7-1M (handcrafted)",
+                  "datum": "2026-05-29",
+                  "context": "Standaardleer tekencombinatie-diagnose"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drieluik-relatie-liquiditeitsratios",
+        "naam": {
+          "primair": "Drieluik versus liquiditeitsratio's"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De current ratio (vlottende activa / KT-schulden) en het drieluik meten hetzelfde fenomeen — kortetermijn-betaalkracht — op een andere manier. Current ratio = verhouding (relatief), NBK = verschil (absoluut). Equivalentie: current ratio > 1 ⇔ NBK > 0. Beide samen geven het complete beeld: NBK toont de absolute buffer (in EUR), current ratio toont de proportionele dekking. Voor een micro-onderneming kan een NBK van 50 KEUR voldoende zijn; voor een grootonderneming verwaarloosbaar — daarom is de verhoudingsbenadering nuttig naast de absolute. Voor diagnose van mismatch (lang vs kort) is enkel het drieluik geschikt — een current ratio van 1,5 zegt niets over of vaste activa met KT gefinancierd zijn.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "opus-4.7-1M (handcrafted)",
+                  "datum": "2026-05-29"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drieluik-reclassificatie-stappen",
+        "naam": {
+          "primair": "Herrangschikkings-stappen voor functionele balans"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vertrek vanuit de wettelijke balans (KB 29-04-2019). Stap 1: oprichtingskosten (rubriek 20) elimineren uit zowel activa als eigen vermogen (geen reële waarde). Stap 2: niet-opgevraagd kapitaal aftrekken van eigen vermogen. Stap 3: vorderingen op > 1 jaar met vervaldag binnen het jaar verplaatsen naar vlottende activa; analoog voor schulden. Stap 4: in vlottende activa onderscheid exploitatie (voorraden, handelsvorderingen, overlopende A) vs niet-exploitatie (geldbeleggingen, liquide middelen) — die laatste horen in thesaurie-cyclus. Stap 5: in KT-schulden idem onderscheid exploitatie (handelsschulden, sociale-fiscale, overlopende P) vs financieel (KT-bankkredieten, kasovertrek). Daarna NBK, BBK en NT berekenen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019",
+                  "ref": "bijlage balans-rubrieken"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "opus-4.7-1M (handcrafted)",
+                  "datum": "2026-05-29",
+                  "context": "Standaardpraktijk Belgische analytische balans"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-drieluik-zelena",
+        "titel": "Drieluik Zelena Bio NV (20X4)",
+        "context": "Balans Zelena Bio NV per 31-12-20X4, balanstotaal 8.000 KEUR. Vereenvoudigd schema (1.000 EUR).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29",
+              "context": "Didactisch voorbeeld — cast uit globaal.yaml"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Functionele balans Zelena Bio NV (KEUR)",
+            "kolommen": [
+              "Rubriek",
+              "Bedrag",
+              "Toewijzing"
+            ],
+            "rijen": [
+              [
+                "Permanent vermogen (EV 2.800 + LT-schuld 2.000)",
+                "4.800",
+                "Financiering"
+              ],
+              [
+                "Vaste activa",
+                "3.200",
+                "Vaste aanwending"
+              ],
+              [
+                "NBK = 4.800 − 3.200",
+                "1.600",
+                "Stabiele financieringsmarge"
+              ],
+              [
+                "Voorraden + handelsvorderingen + overlopende A",
+                "3.600",
+                "Exploitatie-VA"
+              ],
+              [
+                "Handelsschulden + sociale/fiscale + overlopende P",
+                "1.800",
+                "Exploitatie-KT-schuld"
+              ],
+              [
+                "BBK = 3.600 − 1.800",
+                "1.800",
+                "Operationele behoefte"
+              ],
+              [
+                "NT = NBK − BBK = 1.600 − 1.800",
+                "−200",
+                "Structureel KT-krediet"
+              ]
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Diagnose: NBK is positief (1.600 KEUR) — vaste activa zijn met LT-bronnen gedekt. Maar BBK (1.800 KEUR) overstijgt NBK met 200 KEUR — er ontstaat een structurele KT-financieringsbehoefte van 200 KEUR (NT = −200). Concreet: Zelena gebruikt een kaslijn of leverancierskrediet boven normale termijn om de werkkapitaal-cyclus rond te krijgen. Hefbomen: (a) DIO verkorten via voorraadrotatie; (b) DSO verkorten via strakker incasso of factoring; (c) LT-financiering ophalen (lening of kapitaalverhoging) om NBK boven BBK te tillen. Bij voortzettende verslechtering: signaal voor going-concern-evaluatie."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-window-dressing-nt",
+        "titel": "Window-dressing: NT cosmetisch optillen",
+        "context": "Vlak vóór balansdatum 31-12 een KT-leverancierskrediet van 500 KEUR aflossen met opgenomen kaslijn die op 02-01 weer wordt opgenomen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29",
+              "context": "Audit-praktijk window-dressing"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Effect op 31-12: handelsschulden −500 → BBK +500; liquide middelen −500 → NT −500 in directe formule (maar wel +500 in drieluik-vorm via lagere BBK). Netto: NT stijgt schijnbaar met 500 KEUR. Audit-aandachtspunt (ISA 315): vergelijk handelsschulden- en cash-bewegingen rond balansdatum met tussentijdse staten — een sterke daling van handelsschulden in december gevolgd door sterke stijging in januari is typisch patroon. Lees ook de toelichting op factoring-overeenkomsten — verkoop van vorderingen zonder regres heeft analoog effect."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "NBK > 0 = altijd gezond",
+        "verkeerde_assumptie": "Studenten concluderen 'NBK positief, dus financieel evenwicht in orde'.",
+        "kernpunt": "Een te hoge NBK ten opzichte van BBK kan duiden op overdreven voorzichtige financiering — kapitaal dat in laagrentende liquide middelen zit en geen rendement oplevert. Het gaat om de verhouding NBK/BBK + de evolutie, niet om het absolute teken. Optimum: NBK iets boven BBK, met seizoensbuffer.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Statische snapshot lezen als trend",
+        "verkeerde_assumptie": "Eén balansdatum geeft een betrouwbaar beeld van NBK/BBK/NT.",
+        "kernpunt": "Het drieluik is een snapshot — eind december reflecteert vaak een atypische situatie (jaareinde-aankopen, btw-voorschotten, eindejaarspremies). Sector-typische seizoenseffecten kunnen NT ± honderden KEUR doen variëren binnen één boekjaar. Standaard: meerjarige reeks (3-5 jaar) + tussentijdse staten waar beschikbaar + sector-benchmark uit NBB-balanscentrale.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Drieluik vs liquiditeitsratio's verwisselen",
+        "verkeerde_assumptie": "Drieluik vervangt de current ratio of omgekeerd.",
+        "kernpunt": "Beide meten kortetermijn-betaalkracht maar met verschillende lens. Current ratio = verhouding (proportioneel), drieluik = verschil (absoluut + decomposeerbaar in lange/korte logica). Voor diagnose van looptijd-mismatch (vast met kort gefinancierd) is enkel het drieluik geschikt. Voor sectorvergelijking tussen ondernemingen van verschillende grootte is de verhoudingsbenadering nuttig. Beide samen rapporteren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Sector-normaalwaarden negeren",
+        "verkeerde_assumptie": "Negatieve BBK of NBK = altijd alarm.",
+        "kernpunt": "Supermarkten, fast-food, e-commerce-platformen draaien structureel met negatieve BBK (kasverkoop + leverancierskrediet) en soms negatieve NBK zonder enig probleem — leveranciers en klanten financieren samen de exploitatie. Het drieluik mag nooit beoordeeld worden zonder sector-context. NBB-balanscentrale publiceert sector-aggregaten als referentie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "opus-4.7-1M (handcrafted)",
+              "datum": "2026-05-29",
+              "context": "NBB-balanscentrale sectoraggregaten"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "kmo-adviseur-werkkapitaal",
+      "naam": {
+        "primair": "Adviseur — werkkapitaal-diagnose KMO"
+      },
+      "intro": "De accountant die een KMO-cliënt begeleidt met cash-flow- of financieringsvragen.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "drieluik-diagnose-jaarlijks",
+              "naam": {
+                "primair": "Jaarlijkse drieluik-diagnose"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke jaarafsluiting NBK, BBK en NT berekenen + vergelijken met vorig jaar en met sector-benchmark (NBB-balanscentrale). Output: one-page rapport voor cliënt-leiding met (a) drie cijfers + tekencombinaties, (b) interpretatie in zinnen, (c) één concrete hefboom als NT verslechtert (voorraad-rotatie, DSO, LT-financiering).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29",
+                        "context": "Best-practice ITAA-kantoor financiele diagnose"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "kredietherstructurering-advies",
+              "naam": {
+                "primair": "Advies kredietherstructurering"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Structureel negatieve NT (3+ jaar) wijst erop dat KT-krediet permanente financieringsbehoefte dekt. Advies: KT-kaslijn ombouwen tot LT-investeringskrediet, zodat de looptijd van financiering bij de aard van de behoefte past. Onderhandelingsargumenten bij bank: stabiele BBK over jaren = bewijs van permanente behoefte = legitieme LT-financiering.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29",
+                        "context": "KMO-financieringspraktijk"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commissaris-risico-inschatting",
+      "naam": {
+        "primair": "Commissaris — risico-inschatting en going-concern"
+      },
+      "intro": "De bedrijfsrevisor die de wettelijke controle uitvoert en planning-risico's inschat.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "drieluik-isa315-planning",
+              "naam": {
+                "primair": "Drieluik in risico-inschatting (ISA 315)"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "ISA 315 (herzien 2019) vereist begrip van entiteit en haar omgeving inclusief interne controle. Het drieluik over 3-5 jaar is een efficiënte planning-tool: structurele verslechtering van NT signaleert verhoogd risico op (a) management-bias bij waardering vlottende activa, (b) druk tot earnings-management, (c) going-concern-issue. Documenteer drieluik-evolutie in planning-memorandum als onderdeel van risico-inschatting.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "norm",
+                        "naam": "ISA 315 (herzien 2019)",
+                        "ref": "paragraaf 19-21"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "drieluik-isa570-going-concern",
+              "naam": {
+                "primair": "Drieluik in going-concern-evaluatie (ISA 570)"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "ISA 570 (herzien) lijst financiele indicatoren op voor going-concern-twijfel. Negatieve NT over 2+ jaren + dalend NBK + stijgend BBK zijn cumulatief alarmerende signalen. Bij minstens twee tegelijk: aanvullende werkzaamheden — verlengde liquiditeitsprognose (minstens 12 maanden post-balansdatum), gesprek met management over financieringsplannen, bevraging banken over kredietvoorwaarden + covenanten.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "norm",
+                        "naam": "ISA 570 (herzien)",
+                        "ref": "alinea A3"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "drieluik-window-dressing-controle",
+              "naam": {
+                "primair": "Window-dressing-detectie via drieluik"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vergelijk drieluik op balansdatum met laatste tussentijdse staat (typisch 30-09 of 30-06). Plotse verbetering van NT in laatste kwartaal zonder operationele rechtvaardiging → cijferanalyse-uitzondering (ISA 520). Onderzoek: bewegingen handelsschulden + kasrekeningen rond 31-12, factoring-overeenkomsten in toelichting, post-balansdatum-cash-bewegingen (eerste 2 weken januari).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "norm",
+                        "naam": "ISA 520",
+                        "ref": "paragraaf 5-7"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boekhouder-cfo-sturing",
+      "naam": {
+        "primair": "Boekhouder / CFO — periodieke sturing"
+      },
+      "intro": "De accountant in interne functie of de boekhouder-fiscalist die periodieke financiele opvolging verzorgt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "drieluik-maandelijks-dashboard",
+              "naam": {
+                "primair": "Drieluik op maandelijks management-dashboard"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "NBK, BBK en NT maandelijks berekenen uit tussentijdse balansen (waar mogelijk) en mee opnemen in management-dashboard naast omzet, EBITDA en cash-positie. Sterk indicatief: NT-evolutie loopt vaak vooruit op cash-crises — een dalende trend over 6 maanden waarschuwt vroeger dan de bankrekening alarm geeft. Koppel aan rolling 13-weken cash-prognose voor pro-actief beheer.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "opus-4.7-1M (handcrafted)",
+                        "datum": "2026-05-29",
+                        "context": "Best-practice cash-management"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse",
+      "toelichting": "Functionele balans is een specifieke herrangschikkings-techniek binnen het Σ-kader jaarrekeninganalyse."
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen",
+      "toelichting": "Vertrekt vanuit een coherent gewaarde wettelijke balans — waarderingsregels (continuiteit, voorzichtigheid, kostprijs) zijn voorondersteld."
+    },
+    {
+      "type": "vereist",
+      "target": "jaarrekening",
+      "toelichting": "Input: balans + toelichting volgens KB 29-04-2019."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "liquiditeits-ratios",
+      "gelijkenissen": [
+        "Meten kortetermijn-betaalkracht",
+        "Wiskundig equivalent: current ratio > 1 ⇔ NBK > 0"
+      ],
+      "verschillen": [
+        "Drieluik = verschil (absoluut, EUR); liquiditeitsratio's = verhouding (proportioneel)",
+        "Drieluik decomposeert in lange-vs-korte logica; ratio's niet"
+      ],
+      "verwarring_risico": "Studenten denken dat drieluik en current ratio elkaar vervangen — ze vullen elkaar aan.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "activiteits-ratios",
+      "gelijkenissen": [
+        "BBK ≈ (DIO + DSO − DPO) × dagomzet — directe wiskundige link",
+        "Werkkapitaalbehoefte (sub van activiteits-ratios) = BBK in andere woorden"
+      ],
+      "verschillen": [
+        "Drieluik plaatst BBK in financierings-context (vs NBK + NT); activiteits-ratios meten cyclus-duur per component (DIO, DSO, DPO)"
+      ],
+      "verwarring_risico": "De term 'werkkapitaalbehoefte' wordt door beide kaders gebruikt — semantisch identiek, lens verschilt."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kasstroom-analyse",
+      "gelijkenissen": [
+        "Beide focussen op cash + werkkapitaal-bewegingen"
+      ],
+      "verschillen": [
+        "Drieluik = statisch (balansdatum-snapshot); kasstroomoverzicht = dynamisch (periode-flow)",
+        "Drieluik meet evenwicht; kasstroomoverzicht meet herkomst en bestemming"
+      ],
+      "verwarring_risico": "Eén verbergt nooit de ander — drieluik beantwoordt 'evenwichts'-vraag, kasstroom de 'flow'-vraag."
+    },
+    {
+      "type": "triggert",
+      "target": "continuiteit",
+      "toelichting": "Structureel negatieve NT + dalend NBK = financiele indicator voor going-concern-twijfel (ISA 570 alinea A3)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "window-dressing",
+      "toelichting": "Window-dressing rond balansdatum kan NT cosmetisch optillen — drieluik moet tegen tussentijdse staten gecontroleerd."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "ratio-interpretatie",
+      "toelichting": "Drieluik-uitkomsten worden geïnterpreteerd via K-techniek met sector-benchmark + trend — generieke interpretatie-spelregels gelden."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "commissaris",
+      "toelichting": "Onderdeel van risico-inschatting (ISA 315) en going-concern-evaluatie (ISA 570)."
+    }
+  ]
+}
