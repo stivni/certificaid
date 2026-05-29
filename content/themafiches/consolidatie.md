@@ -1,13 +1,13 @@
 ---
-title: "Synthese — Geconsolideerde jaarrekening"
-description: "Cluster-synthese voor PO 1.4: van plicht tot opmaak in één overzicht"
+title: "Themafiche — Consolidatie"
+description: "Themafiche voor cluster consolidatie (PO 1.4): van plicht tot opmaak in één overzicht — printbaar als PDF voor snelle herhaling"
 tags:
-  - synthese-mockup
+  - themafiche
   - po-1.4
   - cluster-consolidatie
 ---
 
-> **Cluster-synthese — mockup v1.** Doel: één pagina die het hele consolidatie-cluster (~16 records) samenvat in vergelijkbare blokken. Printbaar als PDF. Niet bedoeld als vervanging van de losse concept-records — die blijven de diepte; deze pagina is de **kaart**.
+> **Themafiche — kapstok voor herhaling.** Eén pagina die het hele consolidatie-cluster samenvat in vaste blokken: essentie, vergelijking van methodes, beslisboom, formules, valkuilen. Bedoeld om in de week vóór het examen nog snel door te lopen — niet om voor het eerst te leren. Voor uitleg: de losse concept-fiches. Voor het verhaal en de leesroute: [[leerpaden/1.4|minicursus PO 1.4]].
 
 ---
 

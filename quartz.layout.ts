@@ -11,7 +11,7 @@ const explorerOpts = {
     return node
   },
   sortFn: (a: any, b: any) => {
-    const order = ["studiemateriaal", "concepten"]
+    const order = ["leerpaden", "themafiches", "concepten"]
     const ai = order.indexOf(a.slugSegment)
     const bi = order.indexOf(b.slugSegment)
     if (ai !== -1 && bi !== -1) return ai - bi
