@@ -2,15 +2,25 @@
   "id": "masterbudget",
   "naam": {
     "primair": "Masterbudget",
-    "synoniemen": ["master budget", "integrale budget", "geïntegreerd budget"],
-    "vertaling": {"fr": "budget global"}
+    "synoniemen": [
+      "master budget",
+      "integrale budget",
+      "geïntegreerd budget"
+    ],
+    "vertaling": {
+      "fr": "budget global"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["kader"],
-    "ankers": ["1.8.VI.D"],
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.VI.D"
+    ],
     "scope": {
       "in": [
         "Integrale budget: operationeel + financieel + investerings + cash",
@@ -20,8 +30,16 @@
         "Iteratie + bijsturing tijdens opmaak"
       ],
       "out": [
-        {"topic": "Budgetbeheer Σ (overkoepelend)", "richting": "moet-verwijzen", "ref": "budgetbeheer"},
-        {"topic": "Kasstroomanalyse (cash-budget-context)", "richting": "mag-verwijzen", "ref": "kasstroom-analyse"}
+        {
+          "topic": "Budgetbeheer Σ (overkoepelend)",
+          "richting": "moet-verwijzen",
+          "ref": "budgetbeheer"
+        },
+        {
+          "topic": "Kasstroomanalyse (cash-budget-context)",
+          "richting": "mag-verwijzen",
+          "ref": "kasstroom-analyse"
+        }
       ]
     },
     "provenance": {
@@ -35,80 +53,191 @@
       "rerank_calls": 0
     },
     "changelog": [
-      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
-      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer."}
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-management-accounting-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer."
+      },
+      {
+        "operatie": "didactisch_verrijken",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-fill-2026-05-29",
+        "wijziging": "Subconcept kasstroomprognose-rolling-forecast + perspectief cash-monitoring (rolling forecast update-cyclus) toegevoegd ivm minicursus-gap-analyse."
+      }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
         "tekst": "Het masterbudget is het integrale, geconsolideerde budget van een onderneming voor een komende periode (typisch één jaar) dat alle deelbudgetten samenbrengt: het operationeel budget (omzet en bedrijfskosten), het investerings-budget (kapitaaluitgaven), het financieel budget (financieringsbeslissingen, dividenden) en het cash-budget (geldverkeer). Output: een pro-forma resultatenrekening, pro-forma balans en pro-forma kasstromenoverzicht voor de budget-periode. Het masterbudget toont hoe de operationele plannen zich vertalen naar de jaarrekening + cashpositie.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard management-accounting-leer"}]}
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard management-accounting-leer"
+            }
+          ]
+        }
       },
       "substantie": {
         "tekst": "Het masterbudget is de cijfermatige stresstest van het strategisch plan. Pas wanneer je alle deelplannen consolideert in één pro-forma jaarrekening, zie je of de strategische ambitie haalbaar is met de beschikbare cashflow. Vaak struikelt het integratie-werk op één van twee zaken: (1) onvoldoende cash om de geplande investeringen te dragen — extra financiering of fasering nodig; (2) onhaalbaar verkoopcijfer gegeven de beschikbare productiecapaciteit — extra investering nodig of verkoopdoel verlagen. Het masterbudget dwingt die spanningen op tafel vóór het jaar begint, niet halverwege.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
       },
       "rationale": {
         "tekst": "Losse deelbudgetten zonder integratie zijn waardevol op afdelingsniveau maar verbergen incoherenties: een ambitieus verkoopbudget zonder dekkende productiecapaciteit, of een investeringsplan zonder financieringsmiddelen. Het masterbudget integreert alle ambities en plannen tot één coherente set van pro-forma cijfers — daardoor wordt elke incoherentie zichtbaar en moet ze opgelost vóór het jaar begint.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["budgetbeheer", "analytische-boekhouding"],
+      "voorvereisten": [
+        "budgetbeheer",
+        "analytische-boekhouding"
+      ],
       "kader": "budgetbeheer",
-      "naast_relevant": ["kasstroom-analyse"]
+      "naast_relevant": [
+        "kasstroom-analyse"
+      ]
     },
     "gebruikscontext": {
       "voor": [
-        {"tekst": "Mid-size en grote ondernemingen met meerdere afdelingen, investeringscycli, financieringsbeslissingen. Banken en RvB-leden vragen het masterbudget als onderbouwing voor kredietverlening en strategie-evaluatie.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        {
+          "tekst": "Mid-size en grote ondernemingen met meerdere afdelingen, investeringscycli, financieringsbeslissingen. Banken en RvB-leden vragen het masterbudget als onderbouwing voor kredietverlening en strategie-evaluatie.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
       ]
     },
     "bouwstenen": [
       {
         "id": "vier-deelbudgetten",
-        "naam": {"primair": "Vier deelbudgetten binnen het masterbudget"},
+        "naam": {
+          "primair": "Vier deelbudgetten binnen het masterbudget"
+        },
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
             "tekst": "(1) Operationeel budget: omzet-budget → productie-budget → grondstof-budget + arbeids-budget + overhead-budget → cost of goods sold → bruto-marge → verkoop- en administratieve kostenbudget → bedrijfsresultaat. (2) Investerings-budget: kapitaaluitgaven voor vaste activa met motivering en NPV-analyse per investering. (3) Financieel budget: financieringsbeslissingen (nieuwe lening, kapitaalsverhoging), aflossingen, dividend-uitkering, financiële opbrengsten en kosten. (4) Cash-budget: maandelijkse of wekelijkse cashflows — inkomsten uit verkoop (vertraagd door betalingstermijnen), uitgaven aan leveranciers en personeel, investeringen, financiering. Geeft de cash-positie maand per maand.",
-            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
           }
         },
         "weergaven": [
-          {"type": "proza", "tekst": "Opbouwstructuur masterbudget:\n\n```mermaid\nflowchart TD\n  A[Strategische kaders<br/>directie] --> B[Verkoopbudget<br/>commercieel]\n  B --> C[Productiebudget]\n  C --> D[Grondstof + arbeid + overhead]\n  D --> E[Cost of goods sold]\n  E --> F[Pro-forma resultatenrekening]\n  G[Investeringsbudget] --> H[Pro-forma balans]\n  F --> H\n  I[Financieel budget<br/>leningen + dividenden] --> H\n  F --> J[Cash-budget]\n  G --> J\n  I --> J\n  J --> K[Pro-forma kasstromenoverzicht<br/>+ cashpositie maand-per-maand]\n```"}
+          {
+            "type": "proza",
+            "tekst": "Opbouwstructuur masterbudget:\n\n```mermaid\nflowchart TD\n  A[Strategische kaders<br/>directie] --> B[Verkoopbudget<br/>commercieel]\n  B --> C[Productiebudget]\n  C --> D[Grondstof + arbeid + overhead]\n  D --> E[Cost of goods sold]\n  E --> F[Pro-forma resultatenrekening]\n  G[Investeringsbudget] --> H[Pro-forma balans]\n  F --> H\n  I[Financieel budget<br/>leningen + dividenden] --> H\n  F --> J[Cash-budget]\n  G --> J\n  I --> J\n  J --> K[Pro-forma kasstromenoverzicht<br/>+ cashpositie maand-per-maand]\n```"
+          }
         ]
       },
       {
         "id": "opbouw-volgorde",
-        "naam": {"primair": "Opbouw-volgorde — start bij verkoop"},
+        "naam": {
+          "primair": "Opbouw-volgorde — start bij verkoop"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
             "tekst": "Begin altijd met het verkoopbudget — dat bepaalt alles. Stap 1: verkoopbudget (volume × prijs per product per periode). Stap 2: productiebudget (verkoop + gewenste eindvoorraad − beginvoorraad = te produceren). Stap 3: directe-materialen-budget (productie × standaardverbruik × standaardprijs). Stap 4: arbeids-budget (productie × standaarduren × standaardloon). Stap 5: variabele- en vaste-overhead-budget. Stap 6: cost of goods sold + bruto-marge. Stap 7: verkoop- en administratieve kostenbudget. Stap 8: investerings- en financieel budget integreren. Stap 9: cash-budget afleiden uit alle voorgaande. Stap 10: pro-forma jaarrekening + ratio-analyse.",
-            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
           }
         }
       },
       {
         "id": "scenario-models",
-        "naam": {"primair": "Scenario-modellen — best / base / worst case"},
+        "naam": {
+          "primair": "Scenario-modellen — best / base / worst case"
+        },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
             "tekst": "Een masterbudget op basis van één set veronderstellingen is een puntschatting — zegt niets over robuustheid bij wijziging. Drie scenario's: base case (meest waarschijnlijke verwachting), best case (gunstige omgeving, +10 à 20% omzet), worst case (recessie, −10 à 20% omzet). Bij elk scenario: pro-forma resultaat + cashpositie. Sleutelvraag: 'overleeft de onderneming worst case zonder extra financiering?'. Indien niet: dwingende noodzaak voor backup-kredietlijn, kostendispositie-plan of voorzichtigere investeringen.",
-            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
           }
         }
       },
       {
         "id": "iteratie",
-        "naam": {"primair": "Iteratie + bijsturing tijdens opmaak"},
+        "naam": {
+          "primair": "Iteratie + bijsturing tijdens opmaak"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
             "tekst": "Het masterbudget is bijna nooit klaar in één doorloop. Eerste consolidatie blijkt typisch: onvoldoende productiecapaciteit, te zware cash-piek in Q1, of resultaat onder strategisch doel. Dan iteratie: aanpassen van productiecapaciteit, fasering investering, herzien verkoopprijs of kostenstructuur. Twee tot drie iteraties is normaal — bij meer dan vijf wijst dit op gebrek aan duidelijke strategische kaders (top-down te zwak). Eindafstemming met directie + RvB voor goedkeuring.",
-            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
           }
         }
       }
@@ -118,7 +247,17 @@
         "id": "voorbeeld-cash-budget-knelpunt",
         "titel": "Aurelia Holding NV — cash-budget legt knelpunt bloot",
         "context": "Aurelia plant 5.000.000 EUR omzet, 500.000 EUR investering in nieuwe productielijn (Q2), gemiddelde klantbetalingstermijn 60 dagen, leveranciers 30 dagen.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld"}]},
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Didactisch voorbeeld"
+            }
+          ]
+        },
         "weergaven": [
           {
             "type": "berekening",
@@ -142,20 +281,163 @@
         "titel": "Masterbudget = operationeel budget",
         "verkeerde_assumptie": "Het masterbudget is gewoon het operationeel budget met wat extra.",
         "kernpunt": "Het masterbudget is de integratie van alle vier deelbudgetten — operationeel, investerings, financieel, cash. Veel ondernemingen stoppen bij het operationeel budget en ontdekken halverwege het jaar dat hun cashplanning niet klopt. Het masterbudget integreert expliciet de cash-impact van investeringen + financieringsbeslissingen.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
       },
       {
         "titel": "Pro-forma balans niet sluiten",
         "verkeerde_assumptie": "De pro-forma balans hoeft niet exact te kloppen — het is toch een voorspelling.",
         "kernpunt": "De pro-forma balans MOET sluiten (activa = passiva). Wanneer hij niet sluit, is er een fout in de integratie. Een typisch fout: dividend uit te keren maar niet weggeschreven uit reserves; of investering geboekt in activa maar niet de financiering ervan in passiva. Sluitende balans = sanity-check op de coherentie van het hele masterbudget.",
-        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    ],
+    "subconcepten": [
+      {
+        "id": "kasstroomprognose-rolling-forecast",
+        "naam": {
+          "primair": "Kasstroomprognose / rolling forecast",
+          "synoniemen": [
+            "13-weken-prognose",
+            "rolling cash forecast",
+            "rolling cash flow forecast"
+          ]
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een kasstroomprognose is een cash-budget op een kortere horizon dan het masterbudget, typisch een **13-weken-prognose** die maandelijks (of zelfs wekelijks) wordt geüpdatet. Doelstelling: een actueel beeld van de liquiditeitspositie + scenario-analyse op korte termijn (baseline / pessimistisch / optimistisch). Waar het cash-budget binnen het masterbudget jaarlijks-statisch is, is de rolling forecast continu bijgewerkt — oudste week valt weg, nieuwste week komt erbij.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "Standaard treasury-praktijk"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Bouwstenen van de rolling forecast: (a) **inkomende kasstromen** op basis van DSO (gemiddelde klanten-betalingstermijn) toegepast op verkoop-pipeline; (b) **uitgaande kasstromen** = vaste kosten (loon, huur, leningaflossingen) + DPO-gestuurde leveranciersbetalingen; (c) seizoeneffecten (BTW-betalingen op kwartaalbasis, voorafbetalingen VenB); (d) geplande kapitaal-investeringen; (e) belastingbetalingen; (f) dividend-uitkeringen. Output: cash-positie per week + de kortste-tijdshorizon waarin een krediet-faciliteit moet worden aangesproken.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "Treasury-praktijk CFO-dashboard"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De rolling forecast vertaalt de structurele [[functionele-balans#NT]]-evolutie (nettothesaurie als verschil tussen permanente financiering en duurzame behoefte) naar een week-by-week-praktijk: wat is de cash-positie op elk moment, met welke marge tegenover de gecommitteerde kredietlijnen?",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29"
+                  }
+                ]
+              }
+            }
+          },
+          "gebruikscontext": {
+            "voor": [
+              {
+                "tekst": "CFO-dashboard, treasury-management, kredietnegotiatie met bank, bewaking van covenant-ratio's, faillissementsdreiging-monitoring.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-opus-4-7",
+                      "datum": "2026-05-29"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "bouwstenen": [
+            {
+              "id": "13-weken-horizon",
+              "naam": {
+                "primair": "Waarom 13 weken?"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "13 weken = één kwartaal = voldoende horizon om de meeste cyclische cash-effecten te zien (BTW-aangifte, kwartaal-eindfacturatie, voorafbetaling VenB) zonder zo ver te gaan dat de prognose onbetrouwbaar wordt. Korter dan 4 weken: te kortzichtig voor liquiditeitsbeheer; langer dan 26 weken: assumpties te speculatief voor wekelijkse beslissingen.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "Treasury-vuistregel"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "scenario-trio",
+              "naam": {
+                "primair": "Drie scenario's per update"
+              },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per update drie scenario's: (1) **baseline** = meest waarschijnlijke verwachting op basis van pipeline + historische DSO/DPO; (2) **pessimistisch** = late klantbetaling (DSO +15 dagen) + uitval grootste klant; (3) **optimistisch** = sneller incasso + extra order. Kortste-tijdshorizon-vraag: 'in welke week komt de cash-positie onder 0 in scenario pessimistisch?'.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ]
   },
   "accountant_perspectieven": [
     {
       "id": "kredietaanvraag",
-      "naam": {"primair": "Kredietaanvraag — masterbudget als onderbouwing"},
+      "naam": {
+        "primair": "Kredietaanvraag — masterbudget als onderbouwing"
+      },
       "intro": "Cliente vraagt extra kredietlijn voor expansie — bank vraagt een onderbouwd masterbudget.",
       "rollen": [
         {
@@ -163,12 +445,60 @@
           "elementen": [
             {
               "id": "masterbudget-voor-bank",
-              "naam": {"primair": "Masterbudget opbouwen voor de bank"},
+              "naam": {
+                "primair": "Masterbudget opbouwen voor de bank"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
                   "tekst": "Banken willen drie scenario's (base, worst, best) met pro-forma jaarrekening + maandelijks cash-budget voor de looptijd van het krediet (typisch 5 jaar). Sleutel-ratio's die de bank zal opvragen: schuldgraad, current ratio, interest coverage, debt service coverage (cashflow / aflossingen + interesten). Een goed masterbudget toont expliciet dat ook in worst case de DSCR > 1,2 blijft. Onderbouw elke aanname met externe bron of historische data — banken vertrouwen niet op 'we denken dat de omzet stijgt'.",
-                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash-monitoring",
+      "naam": {
+        "primair": "Treasury / cash-monitoring"
+      },
+      "intro": "De accountant ondersteunt CFO/zaakvoerder bij wekelijks of maandelijks cash-monitoring via een rolling forecast.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "rolling-forecast-update-cyclus",
+              "naam": {
+                "primair": "Rolling forecast maandelijks updaten"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maandelijkse update-cyclus rolling forecast (4 stappen): (1) **Verzamel actuele realisaties** — werkelijke ontvangsten + uitgaven van afgelopen periode + revisie van prognose-assumpties (heeft DSO zich gewijzigd? heeft een grote klant uitstel gevraagd?). (2) **Update rolling forecast** — oudste week weg, nieuwste week erbij; pas baseline aan op basis van werkelijke realisaties. (3) **Identificeer afwijkingen** tegenover vorige baseline + actie-vereisten (extra incasso-druk? leverancier vragen voor verlenging DPO?). (4) **Communiceer naar management** — dashboard met cash-positie per week + waarschuwing bij dreigend tekort + aanbeveling kredietlijn.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "Treasury-update-cyclus best-practice"
+                      }
+                    ]
+                  }
                 }
               }
             }
@@ -178,7 +508,14 @@
     }
   ],
   "relaties": [
-    {"type": "valt_onder", "target": "budgetbeheer"},
-    {"type": "vereist", "target": "kasstroom-analyse", "toelichting": "Het cash-budget binnen het masterbudget is een prospectief kasstromenoverzicht."}
+    {
+      "type": "valt_onder",
+      "target": "budgetbeheer"
+    },
+    {
+      "type": "vereist",
+      "target": "kasstroom-analyse",
+      "toelichting": "Het cash-budget binnen het masterbudget is een prospectief kasstromenoverzicht."
+    }
   ]
 }

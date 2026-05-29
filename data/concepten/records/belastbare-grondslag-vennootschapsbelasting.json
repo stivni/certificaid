@@ -60,6 +60,13 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "skeleton-pb-venb-2026-05-28",
         "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 206/1 + 207 + KB/WIB92 art. 74-79 + aangifte-VenB-2025-uiteenzetting). 8 bewerkingen + korf + overgedragen verliezen + specifieke winstbestanddelen."
+      },
+      {
+        "operatie": "accountant_perspectief",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-fill-2026-05-29",
+        "wijziging": "Auditor-perspectief 'fiscale aansluiting controleren als audit-stap' toegevoegd (reconciliatie + verworpen uitgaven + vrijgestelde inkomsten + aftrekvolgorde + ISA-link) ivm minicursus-gap-analyse."
       }
     ],
     "scope": {
@@ -123,10 +130,30 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 183", "context": "Boekhoudkundige winst als startpunt" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1", "context": "Categorisering naar bestemming + sequence" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207", "context": "Vaste volgorde aftrekken + korf-beperking" },
-            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 74-79", "context": "Uitvoeringsbepalingen 8 bewerkingen" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 183",
+              "context": "Boekhoudkundige winst als startpunt"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 206/1",
+              "context": "Categorisering naar bestemming + sequence"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207",
+              "context": "Vaste volgorde aftrekken + korf-beperking"
+            },
+            {
+              "type": "kb",
+              "naam": "KB/WIB92",
+              "ref": "art. 74-79",
+              "context": "Uitvoeringsbepalingen 8 bewerkingen"
+            }
           ]
         }
       },
@@ -135,9 +162,22 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5", "context": "Korf 1M + 70 %" },
-            { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "E. Aftrekken vaste volgorde + tabel codes 1432-1445" },
-            { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "B. Bestanddelen waarop aftrekverbod van toepassing" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207 lid 5",
+              "context": "Korf 1M + 70 %"
+            },
+            {
+              "type": "aangifte",
+              "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+              "ref": "E. Aftrekken vaste volgorde + tabel codes 1432-1445"
+            },
+            {
+              "type": "aangifte",
+              "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+              "ref": "B. Bestanddelen waarop aftrekverbod van toepassing"
+            }
           ]
         }
       },
@@ -146,9 +186,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — 8 bewerkingen" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 206/1"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis-synthese — 8 bewerkingen"
+            }
           ]
         }
       }
@@ -180,8 +233,17 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 179" },
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 233", "context": "BNI/ven analoog" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 179"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 233",
+                "context": "BNI/ven analoog"
+              }
             ]
           }
         }
@@ -192,8 +254,17 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 183" },
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-205", "context": "DBI-voorwaarden" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 183"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 202-205",
+                "context": "DBI-voorwaarden"
+              }
             ]
           }
         }
@@ -204,8 +275,16 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 207"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
             ]
           }
         },
@@ -214,8 +293,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-              { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "E. 'Geen van de hierna vermelde aftrekken kan worden verricht op de bij verdrag vrijgestelde resterende winst'" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 207"
+              },
+              {
+                "type": "aangifte",
+                "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+                "ref": "E. 'Geen van de hierna vermelde aftrekken kan worden verricht op de bij verdrag vrijgestelde resterende winst'"
+              }
             ]
           }
         },
@@ -224,7 +311,12 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 §7", "context": "Anti-misbruik verlies-overdracht bij controle-wijziging" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 207 §7",
+                "context": "Anti-misbruik verlies-overdracht bij controle-wijziging"
+              }
             ]
           }
         }
@@ -243,8 +335,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1", "context": "Categorisering naar bestemming" },
-                { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Vak A — Belastbare gereserveerde winst, code 1080 PN" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 206/1",
+                  "context": "Categorisering naar bestemming"
+                },
+                {
+                  "type": "aangifte",
+                  "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+                  "ref": "Vak A — Belastbare gereserveerde winst, code 1080 PN"
+                }
               ]
             }
           }
@@ -262,8 +363,18 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 53", "context": "Limitatieve lijst niet-aftrekbare uitgaven" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "Bijzondere niet-aftrekbare kosten VenB" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 53",
+                  "context": "Limitatieve lijst niet-aftrekbare uitgaven"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 198",
+                  "context": "Bijzondere niet-aftrekbare kosten VenB"
+                }
               ]
             }
           }
@@ -281,8 +392,18 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1", "context": "Opdeling naar oorsprong" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 207", "context": "Geen aftrek op verdrag-vrijgesteld" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 206/1",
+                  "context": "Opdeling naar oorsprong"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 207",
+                  "context": "Geen aftrek op verdrag-vrijgesteld"
+                }
               ]
             }
           }
@@ -300,8 +421,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 192", "context": "Vrijgestelde meerwaarden op aandelen" },
-                { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Code 1432" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 192",
+                  "context": "Vrijgestelde meerwaarden op aandelen"
+                },
+                {
+                  "type": "aangifte",
+                  "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+                  "ref": "Code 1432"
+                }
               ]
             }
           }
@@ -319,10 +449,29 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 202", "context": "DBI-categorieën" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 203", "context": "Onderworpenheids-test dochter" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 205", "context": "100 %-aftrek" },
-                { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Code 1433" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 202",
+                  "context": "DBI-categorieën"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 203",
+                  "context": "Onderworpenheids-test dochter"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 205",
+                  "context": "100 %-aftrek"
+                },
+                {
+                  "type": "aangifte",
+                  "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+                  "ref": "Code 1433"
+                }
               ]
             }
           }
@@ -340,8 +489,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 205/1-205/4", "context": "Aftrek innovatie-inkomsten" },
-                { "type": "aangifte", "naam": "aangifte-VenB-2025-voorheffingen-belastingkredieten", "ref": "Vak — Aftrek innovatie-inkomsten + OESO-informatieplicht" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 205/1-205/4",
+                  "context": "Aftrek innovatie-inkomsten"
+                },
+                {
+                  "type": "aangifte",
+                  "naam": "aangifte-VenB-2025-voorheffingen-belastingkredieten",
+                  "ref": "Vak — Aftrek innovatie-inkomsten + OESO-informatieplicht"
+                }
               ]
             }
           }
@@ -359,8 +517,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 68-77", "context": "Investeringsaftrek-percentages + voorwaarden" },
-                { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Code 1437 — enkel kolom Belgisch resterend" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 68-77",
+                  "context": "Investeringsaftrek-percentages + voorwaarden"
+                },
+                {
+                  "type": "aangifte",
+                  "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+                  "ref": "Code 1437 — enkel kolom Belgisch resterend"
+                }
               ]
             }
           }
@@ -378,9 +545,24 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 206", "context": "Overdracht beroepsverliezen" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5", "context": "Korf 1M + 70 %" },
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 205/5", "context": "Groepsbijdrage" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 206",
+                  "context": "Overdracht beroepsverliezen"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 207 lid 5",
+                  "context": "Korf 1M + 70 %"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 205/5",
+                  "context": "Groepsbijdrage"
+                }
               ]
             }
           }
@@ -401,8 +583,18 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 206", "context": "Onbeperkte overdracht beroepsverliezen" },
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5", "context": "Korf-beperking" }
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 206",
+                    "context": "Onbeperkte overdracht beroepsverliezen"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 207 lid 5",
+                    "context": "Korf-beperking"
+                  }
                 ]
               }
             },
@@ -411,7 +603,12 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Ratio legis-synthese"
+                  }
                 ]
               }
             }
@@ -429,7 +626,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 207 lid 5"
+                      }
                     ]
                   }
                 }
@@ -453,7 +654,12 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 §7", "context": "Anti-misbruik controle-wijziging" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 207 §7",
+                        "context": "Anti-misbruik controle-wijziging"
+                      }
                     ]
                   }
                 }
@@ -475,9 +681,24 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 192", "context": "Vrijgestelde meerwaarden aandelen" },
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 47", "context": "Gespreide meerwaarde" },
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 24", "context": "Belastbare winst" }
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 192",
+                    "context": "Vrijgestelde meerwaarden aandelen"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 47",
+                    "context": "Gespreide meerwaarde"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 24",
+                    "context": "Belastbare winst"
+                  }
                 ]
               }
             }
@@ -495,7 +716,12 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 192", "context": "Voorwaarden + 100 %-vrijstelling" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 192",
+                        "context": "Voorwaarden + 100 %-vrijstelling"
+                      }
                     ]
                   }
                 }
@@ -513,7 +739,12 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 47", "context": "Gespreide meerwaarde + herbeleggingsverplichting 3 jaar" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 47",
+                        "context": "Gespreide meerwaarde + herbeleggingsverplichting 3 jaar"
+                      }
                     ]
                   }
                 }
@@ -531,10 +762,26 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-            { "type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Tabel aftrekken in volgorde codes 1432-1445" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 206/1"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207"
+            },
+            {
+              "type": "aangifte",
+              "naam": "aangifte-VenB-2025-uiteenzetting-winst",
+              "ref": "Tabel aftrekken in volgorde codes 1432-1445"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -563,9 +810,23 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 206", "context": "Verlies-aftrek" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5", "context": "Korf-beperking" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 206",
+              "context": "Verlies-aftrek"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207 lid 5",
+              "context": "Korf-beperking"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -593,9 +854,21 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 206/1" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 206/1"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -614,8 +887,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
-            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 74-79" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207"
+            },
+            {
+              "type": "kb",
+              "naam": "KB/WIB92",
+              "ref": "art. 74-79"
+            }
           ]
         }
       },
@@ -626,7 +907,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207 lid 5"
+            }
           ]
         }
       },
@@ -637,8 +922,18 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 205", "context": "DBI lopend tijdperk onbeperkt" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5", "context": "Korf voor overdracht" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 205",
+              "context": "DBI lopend tijdperk onbeperkt"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 207 lid 5",
+              "context": "Korf voor overdracht"
+            }
           ]
         }
       },
@@ -649,7 +944,12 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 47", "context": "Herbelegging binnen 3 jaar" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 47",
+              "context": "Herbelegging binnen 3 jaar"
+            }
           ]
         }
       }
@@ -678,8 +978,18 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 183", "context": "Boekhoud-conformiteit" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk fiscaal werkpapier" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 183",
+                        "context": "Boekhoud-conformiteit"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaardpraktijk fiscaal werkpapier"
+                      }
                     ]
                   }
                 }
@@ -702,8 +1012,16 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 lid 5" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 207 lid 5"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
                     ]
                   }
                 }
@@ -721,8 +1039,78 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 207 §7" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A due diligence-praktijk" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 207 §7"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "M&A due diligence-praktijk"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auditor-fiscale-aansluiting",
+      "naam": {
+        "primair": "Commissaris/auditor — fiscale aansluiting"
+      },
+      "intro": "De commissaris/auditor controleert als onderdeel van zijn opdracht of de aansluiting boekhoudkundig resultaat ↔ fiscaal resultaat correct is uitgevoerd door de vennootschap.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "fiscale-aansluiting-audit-stap",
+              "naam": {
+                "primair": "Fiscale aansluiting controleren als audit-stap"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Audit-stappen bij controle van de fiscale aansluiting: (1) **Reconciliatie** tussen boekhoudkundig resultaat (jaarrekening — winst na belasting) en fiscaal resultaat (aangifte VenB formulier 275.1) — alle reconciliërende posten in een audit-werkpapier. (2) **Identificatie verworpen uitgaven** (art. 53 WIB92) — sample-test: 50 % restaurantkosten verworpen (49 % toegelaten? — verifieer in Cijferzakboekje), 100 % geldboeten, auto-DNA-correctie variabel naar CO2, abnormale voordelen aan bestuurder. (3) **Toets vrijgestelde inkomsten** — gespreide taxatie meerwaarden (art. 47), DBI-aftrek (art. 202-205 — voorwaarden + DBI-tabel als bijlage), vrijgestelde meerwaarden aandelen (art. 192). (4) **Verificatie aftrekvolgorde** — DWINGEND: bewerkingen 4 → 5 (DBI) → 6 (innovation income) → 7 (investeringsaftrek) → 8 (groepsbijdrage + overgedragen verliezen vanaf taxabele basis). (5) **Toets vooruitbetalingen** + roerende voorheffing-aanrekening (formulier 275.5). (6) **Documenteer afwijkingen** tussen boekhouding-cijfer en aangifte-cijfer in audit-werkpapier — focus op materialiteit. (7) **Communiceer materiële inconsistenties** via management letter — wijs vennootschap op risico van fiscale correctie + belastingverhoging. Aansluiting [[isa-overzicht]]: **ISA 240** (fraude-risico — fiscale agressiviteit) + **ISA 315** (entiteit-inzicht inclusief fiscale aspecten + significante grondslag-keuzes).",
+                  "grondslag": {
+                    "confidence": "betwijfeld",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 53",
+                        "context": "Verworpen uitgaven"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 207",
+                        "context": "Dwingende aftrekvolgorde"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 240",
+                        "ref": "Fraude-risico",
+                        "context": "Audit-relevante risico-overweging fiscale agressiviteit"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 315",
+                        "ref": "Entiteit-inzicht",
+                        "context": "Significante boekhoud-fiscaal keuzes"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "Percentages restaurantkost-aftrek + auto-DNA — exact in Cijferzakboekje te verifiëren"
+                      }
                     ]
                   }
                 }

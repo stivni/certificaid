@@ -75,6 +75,21 @@ _`procedure` (subconcept)_
 
 <small>📚 ISA 330 — par. 8-15 — _norm_</small>
 
+### 📦 Management letter (ISA 265-communicatie)  
+_`instrument` (subconcept)_
+
+#### Definitie
+
+📖 De management letter is het formele schriftelijke kanaal waarlangs de auditor tekortkomingen in interne controle communiceert aan management en TCWG (Those Charged With Governance — auditcomité of bestuursorgaan). ISA 265 verplicht communicatie van significant deficiencies aan TCWG en van other deficiencies aan management. Format per tekortkoming: (a) beschrijving + observatie tijdens controle, (b) potentieel risico voor jaarrekening of bedrijfsvoering, (c) aanbeveling tot remediëring, (d) management-response (wat doet het management, wanneer). Onderscheid drie ernstniveaus: material weakness (redelijke kans op niet-detecteren van materiële fout), significant deficiency (verdient aandacht TCWG zonder material te zijn), other deficiency (operationeel relevant).
+
+<small>📚 ISA 265 — Communicating Deficiencies in Internal Control — par. 7-11 + Appendix A — _norm_</small>
+
+#### Rationale
+
+🤖 Twee parallelle documenten in de praktijk: (1) aanbevelings-brief aan operationeel management — alle observaties inclusief efficiency-tips, geen ISA-verplichting; (2) ISA 265-rapport aan TCWG — alleen significant + material deficiencies, formele verplichting. Timing tweeledig: lopende bevindingen tijdens audit (zodat remediëring nog kan starten) + finale brief na afronding controleverklaring. Bij OOB komt hier het additional report onder Verordening (EU) 537/2014 bovenop.
+
+<small>📚 Claude Opus 4.7 — inferentie 2026-05-29 op basis van ISA 265 + EU 537/2014 — _ai_model_</small>
+
 ## Bouwstenen
 
 ### 👣 Inquiry (verzoek om inlichtingen)  
@@ -188,6 +203,13 @@ _`stap`_
 📖 Significante tekortkomingen worden in een management letter aan het auditcomite (of bestuursorgaan) gerapporteerd. Per tekortkoming: beschrijving, mogelijke gevolgen voor de financiele overzichten, aanbeveling voor remediering, management response (wat gaat het management eraan doen en wanneer). Andere tekortkomingen apart aan operationeel management.
 
 <small>📚 ISA 265 — par. 9-11 — _norm_</small>
+
+##### 👣 Aanbevelingen formuleren na IC-tekortkomingen  
+_`stap`_
+
+📖 Stappen vanaf identificatie tot follow-up: (1) Identificatie — tekortkoming vaststellen tijdens walkthrough, test of substantive procedure; (2) Classificatie — material weakness / significant deficiency / other (ISA 265 par. A5-A11); (3) Wortel-analyse — design-flaw (controle dekt risico niet) of operating-flaw (controle bestaat maar wordt niet of slecht uitgevoerd); (4) Formuleren aanbeveling — concreet, haalbaar, gericht op wortel-oorzaak, niet op symptoom; (5) Bespreken met management — krijg response + commitment + deadline; (6) Documenteren in management letter met response; (7) Follow-up volgend jaar — is remediëring effectief geïmplementeerd? Recurring deficiency = ernstiger signaal.
+
+<small>📚 ISA 265 — par. 7-11 + A5-A11 — _norm_ · ISA 315 (Revised 2019) — design vs implementation testing — _norm_</small>
 
 ### Interne auditor evalueert eigen IC-systeem
 

@@ -143,6 +143,60 @@ _`procedure` (subconcept)_
 
 <small>📚 WVV — art. 3:6 — _wettekst_</small>
 
+### 📦 Sancties bij niet-neerlegging  
+_`regime` (subconcept)_
+
+#### Definitie
+
+📖 Wanneer de jaarrekening **niet of laattijdig** wordt neergelegd bij de Nationale Bank van België (NBB), kent het WVV een vier-laags sanctie-regime: (1) administratief — verhoogde NBB-tariefbijdrage; (2) civielrechtelijk — hoofdelijke bestuurdersaansprakelijkheid; (3) vennootschapsrechtelijk — gerechtelijke ontbinding na drie boekjaren zonder neerlegging (art. 2:74 WVV); (4) strafrechtelijk — bij opzettelijke verzuim (art. 3:97 WVV — artikel-nummer ⚠️ te verifiëren in actuele WVV-tekst).
+
+<small>📚 WVV — art. 2:74 — _wettekst_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### Substantie
+
+📖 Het sanctie-regime stapelt **progressief**: hoe langer de niet-neerlegging duurt, hoe meer sanctie-lagen geactiveerd raken.
+
+- **Verhoogde NBB-tariefbijdrage** — vanaf de **vervaldag** (zeven maanden na boekjaareinde, art. 3:10 WVV) loopt een **oplopende toeslag** op het basistarief. Bedragen worden jaarlijks gepubliceerd door de NBB; de toeslag stijgt over **negen maanden** in trappen.
+- **Bestuurders-aansprakelijkheid** — bestuurders zijn **hoofdelijk en persoonlijk** aansprakelijk voor schade die derden lijden door de niet- of laattijdige neerlegging (klassiek: schuldeisers die door gebrek aan publicatie geen kredietbeoordeling konden maken).
+- **Gerechtelijke ontbinding** — na **drie opeenvolgende boekjaren** zonder neerlegging kan elk belanghebbende of het openbaar ministerie de **ontbinding van de vennootschap** vorderen voor de ondernemingsrechtbank (art. 2:74 WVV).
+- **Strafrechtelijke sancties** — bij **opzettelijke** weigering of bedrog (vals jaarrekening neerleggen) kunnen boetes en gevangenisstraffen worden opgelegd (art. 3:97 WVV ⚠️).
+
+<small>📚 WVV — art. 2:74 + art. 3:10 — _wettekst_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### Rationale
+
+🤖 Het regime stapelt sancties omdat **openbaarmaking de tegenprestatie is voor de beperkte aansprakelijkheid** van een vennootschap: schuldeisers en derden krijgen alleen geen toegang tot het privé-vermogen van aandeelhouders omdat ze in ruil de jaarrekening kunnen consulteren. Wie weigert die transparantie te leveren, verliest dus geleidelijk de voordelen van het statuut — tot uiteindelijk de gerechtelijke ontbinding.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### 📏 Verhoogde NBB-tariefbijdrage  
+_`drempel`_
+
+❓ Vanaf de vervaldag (zeven maanden na boekjaareinde + één maand publicatie-termijn) stijgt de NBB-tariefbijdrage progressief tijdens de eerste negen maanden van vertraging. Exacte bedragen worden jaarlijks door de NBB gepubliceerd en staan ook in het Cijferzakboekje (raadpleegbaar bij examen).
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### 📜 Hoofdelijke bestuurdersaansprakelijkheid  
+_`regel`_
+
+🤖 Bestuurders van een vennootschap zijn **hoofdelijk en persoonlijk aansprakelijk** tegenover derden voor schade die voortvloeit uit het niet of laattijdig neerleggen van de jaarrekening. Klassiek voorbeeld: een schuldeiser die op basis van een ontbrekende jaarrekening krediet heeft verleend kan, wanneer de vennootschap insolvent blijkt, het verlies persoonlijk verhalen op de bestuurders.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### 📜 Gerechtelijke ontbinding na drie boekjaren  
+_`regel`_
+
+📖 Wanneer een vennootschap **drie opeenvolgende boekjaren** haar jaarrekening niet heeft neergelegd, kan **elk belanghebbende** of het **openbaar ministerie** de **gerechtelijke ontbinding** van de vennootschap vorderen voor de **ondernemingsrechtbank**. De rechtbank kan een regularisatie-termijn toekennen vóór ze definitief ontbindt.
+
+<small>📚 WVV — art. 2:74 — _wettekst_</small>
+
+#### ↪️ Strafrechtelijke sancties bij opzet  
+_`uitzondering`_
+
+❓ Bij **opzettelijke** weigering of bij neerlegging van een **valselijk opgestelde** jaarrekening kunnen strafrechtelijke sancties (boete + gevangenisstraf) worden opgelegd (art. 3:97 WVV — ⚠️ artikel-nummer te verifiëren in actuele WVV-tekst; valsheid in geschrifte blijft ook strafbaar via gemeen strafrecht art. 196 SW).
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
 ## Bouwstenen
 
 ### 👣 Openbaarmaking via NBB  

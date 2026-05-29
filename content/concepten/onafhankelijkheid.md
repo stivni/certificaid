@@ -86,6 +86,21 @@ _`principe` (subconcept)_
 
 <small>📚 IESBA Code of Ethics 2024 — Section 400.5 (b) — _norm_</small>
 
+### 📦 Chinese walls als afschermingsmechanisme  
+_`procedure` (subconcept)_
+
+#### Definitie
+
+📖 Chinese walls zijn organisatorische maatregelen die binnen één kantoor functionele en fysieke scheiding creëren tussen teams die werken voor cliënten met potentieel conflicterende belangen. Componenten: (1) functionele scheiding — afzonderlijke teams zonder gedeelde teamleden; (2) fysieke scheiding — afzonderlijke werkzones, geen toevallige kantoor-ontmoetingen rond gevoelige dossiers; (3) informationele afscherming — geen toegang tot elkaars dossiers in het document-management-systeem, geen overdracht van vertrouwelijke informatie; (4) toezicht-laag — onafhankelijke partner bewaakt naleving van de muur. Klassieke toepassingen: dezelfde cliënten staan tegenover elkaar in een geschil, audit-cliënt en advies-cliënt zijn fusie-tegenpartijen, of het kantoor adviseert beide partijen in een onderhandeling.
+
+<small>📚 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.10 + R310.11 — _norm_ · IESBA Code of Ethics — Section 320 Professional Appointments — par. 320.7 A1 — _norm_</small>
+
+#### Rationale
+
+📖 Chinese walls zijn een safeguard, geen wondermiddel. IESBA Section 320 maakt expliciet dat de muur niet altijd voldoende is: bij zelf-toetsings-bedreiging (auditor controleert eigen advies) of fundamentele belangenstrijd (kantoor staat aan beide kanten van een transactie waarin de uitkomst zero-sum is) blijft opdracht-weigering of opdracht-teruggave de enige correcte uitweg. De auditor moet documenteren waarom de safeguard in dit specifieke geval volstaat.
+
+<small>📚 IESBA Code of Ethics — Section 320 — limitations of safeguards — _norm_</small>
+
 ## Bouwstenen
 
 ### ⚙️ Conceptueel kader voor onafhankelijkheid  
@@ -224,6 +239,13 @@ _`stap`_
 🔗 Het kantoor houdt een centraal register bij van: (a) alle audit-cliënten + PIE-status; (b) alle onafhankelijkheids-relevante feiten van elke beroepsbeoefenaar (financiële participaties, familieleden in posities van invloed, externe mandaten); (c) niet-assurance-diensten per cliënt — om self-review-conflicten te detecteren bij scope-uitbreiding; (d) jaarlijkse bevestiging door elke beroepsbeoefenaar dat zijn persoonlijke situatie geen onbekende dreigingen genereert.
 
 <small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+##### 👣 Belangenconflict opvangen via informed consent + functiescheiding  
+_`stap`_
+
+📖 Stappen wanneer een potentieel belangenconflict opduikt: (1) Detectie — drie scenarios: cliënt-versus-cliënt (tegengestelde belangen tussen twee opdrachtgevers), cliënt-versus-eigen-belang (kantoor heeft financieel of persoonlijk belang in uitkomst), cliënt-versus-derde (kantoor adviseerde een tegenpartij in vorige opdracht); (2) Risico-inschatting — weegt het commercieel voordeel op tegen het risico op vertrouwensschade en de reputatie-impact bij ontdekking; (3) Bij doorgang: combinatie van waarborgen — schriftelijke informed consent van álle betrokken cliënten (zij weten van het conflict en aanvaarden de opzet), Chinese walls als organisatorische afscherming, en Engagement Quality Review door een onafhankelijke partner buiten beide teams; (4) Bij weigering — tijdig en duidelijk naar cliënt communiceren waarom, en waar mogelijk een alternatief kantoor suggereren (collegiale relaties + cliënt-belang); (5) Documentatie — beslissing, motivering en safeguards in het cliënt-dossier zodat een latere inspectie kan reconstrueren waarom de opdracht aanvaardbaar was.
+
+<small>📚 IESBA Code of Ethics — Section 310 Conflicts of Interest — par. R310.9-R310.12 — _norm_ · ISQM 1 — Quality Management at firm level — Engagement Quality Review-vereisten — _norm_</small>
 
 #### 👥 Begeleider
 

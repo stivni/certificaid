@@ -131,6 +131,13 @@ _`stap`_
 
 <small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
+##### 🧭 Cliënt waarschuwen voor samenloop tussen niveaus  
+_`vuistregel`_
+
+🔗 Bij elk fenomeen dat door meerdere bestuursniveaus geraakt kan worden, doorloopt de accountant een 5-stappen-samenloop-analyse: (1) Inventariseer welke niveaus het fenomeen raken — vastgoed wordt typisch geraakt door federale roerende voorheffing op huurinkomsten in bepaalde regimes, gewestelijke onroerende voorheffing, gemeentelijke + provinciale opcentiemen op OV, eventueel gemeentelijke sui-generis-belastingen (tweede verblijven, leegstand). (2) Toets per niveau-paar of non-bis-in-idem geldt of dat samenloop wettelijk uitdrukkelijk toegelaten is — WIB92 art. 464 verbiedt opcentiemen op PB/VenB/RPB/BNI, maar art. 465 e.v. laat aanvullende gemeentebelasting PB net wel toe. (3) Bereken de totale effectieve fiscale druk cumulatief over de niveaus heen. (4) Identificeer compensatie-mechanismen: bij dubbele belasting op zelfde grondslag soms aftrek of voorheffing-systeem (bv. OV deels verrekenbaar in PB voor eigen woning historisch). (5) Vermijd verrassingen via vooraf-inschatting + waar mogelijk ruling-aanvraag bij Vlabel/Brussel Fiscaliteit/SPW Fiscalité. Communiceer cumulatieve impact aan cliënt vóór beslissing (vestigingsplaats, aankoop tweede verblijf, herstructurering vastgoedportfolio).
+
+<small>📚 WIB92 — art. 464-470 — _wettekst_ · Grondwet — art. 170 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
 ### Vertegenwoordiging bij gewestelijke en lokale fiscus
 
 _De accountant vertegenwoordigt de cliënt bij controle, bezwaar of bemiddeling op gewestelijk of lokaal niveau._

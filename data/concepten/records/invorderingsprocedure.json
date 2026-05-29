@@ -2,15 +2,24 @@
   "id": "invorderingsprocedure",
   "naam": {
     "primair": "Invorderingsprocedure",
-    "synoniemen": ["fiscale invordering", "gedwongen invordering"],
-    "vertaling": { "fr": "procédure de recouvrement" }
+    "synoniemen": [
+      "fiscale invordering",
+      "gedwongen invordering"
+    ],
+    "vertaling": {
+      "fr": "procédure de recouvrement"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["gebeurtenis"],
-    "ankers": ["2.5.VII"],
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.VII"
+    ],
     "provenance": {
       "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
@@ -39,6 +48,13 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Inhoud-velden gevuld vanuit bundle (Wetboek Invordering + WIB92 art. 409-410)."
+      },
+      {
+        "operatie": "didactisch_verrijken",
+        "timestamp": "2026-05-29T00:00:00Z",
+        "model": "opus-4.7-1M",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Subconcept 'verzet-tegen-dwangbevel' toegevoegd: jurisdictionele tegenactie tegen dwangbevel (WBTW art. 89, W.Reg art. 221, Wb.Inv.). Stuit verjaring, schorst invordering niet."
       }
     ],
     "scope": {
@@ -50,8 +66,16 @@
         "Rename uit: invorderingsprocedure-fiscaal (PO 2.5)"
       ],
       "out": [
-        { "topic": "Aanslag-cyclus als grondslag (inkohiering)", "richting": "moet-verwijzen", "ref": "aanslag-cyclus" },
-        { "topic": "Sancties bij niet-betaling", "richting": "mag-verwijzen", "ref": "fiscale-sancties" }
+        {
+          "topic": "Aanslag-cyclus als grondslag (inkohiering)",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Sancties bij niet-betaling",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-sancties"
+        }
       ]
     }
   },
@@ -62,7 +86,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 15 + Titel 3" }
+            {
+              "type": "wettekst",
+              "naam": "Wetboek minnelijke en gedwongen invordering",
+              "ref": "art. 15 + Titel 3"
+            }
           ]
         }
       },
@@ -71,8 +99,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel betalen onder voorbehoud" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 409-410"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Praktijk-vuistregel betalen onder voorbehoud"
+            }
           ]
         }
       },
@@ -81,15 +118,25 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese invordering vs bezwaar-waarborg" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis-synthese invordering vs bezwaar-waarborg"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["aanslag-cyclus"],
+      "voorvereisten": [
+        "aanslag-cyclus"
+      ],
       "kader": "fiscale-procedure",
-      "naast_relevant": ["bezwaarprocedure", "fiscale-sancties"]
+      "naast_relevant": [
+        "bezwaarprocedure",
+        "fiscale-sancties"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -103,7 +150,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 413" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 413"
+              }
             ]
           }
         }
@@ -112,7 +163,9 @@
     "bouwstenen": [
       {
         "id": "stap-1-herinnering",
-        "naam": { "primair": "Stap 1 — Minnelijke invordering" },
+        "naam": {
+          "primair": "Stap 1 — Minnelijke invordering"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -120,8 +173,17 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "Titel 2 — minnelijke invordering" },
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk afbetalingsplan" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wetboek minnelijke en gedwongen invordering",
+                  "ref": "Titel 2 — minnelijke invordering"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Praktijk afbetalingsplan"
+                }
               ]
             }
           }
@@ -129,7 +191,9 @@
       },
       {
         "id": "stap-2-dwangbevel",
-        "naam": { "primair": "Stap 2 — Dwangbevel" },
+        "naam": {
+          "primair": "Stap 2 — Dwangbevel"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -137,7 +201,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 13 + Titel 3" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wetboek minnelijke en gedwongen invordering",
+                  "ref": "art. 13 + Titel 3"
+                }
               ]
             }
           }
@@ -145,7 +213,9 @@
       },
       {
         "id": "stap-3-beslag",
-        "naam": { "primair": "Stap 3 — Beslag" },
+        "naam": {
+          "primair": "Stap 3 — Beslag"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -153,7 +223,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "Titel 3 — gedwongen invordering" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wetboek minnelijke en gedwongen invordering",
+                  "ref": "Titel 3 — gedwongen invordering"
+                }
               ]
             }
           }
@@ -161,7 +235,9 @@
       },
       {
         "id": "stap-4-uitwinning",
-        "naam": { "primair": "Stap 4 — Uitwinning" },
+        "naam": {
+          "primair": "Stap 4 — Uitwinning"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -169,7 +245,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 57" }
+                {
+                  "type": "wettekst",
+                  "naam": "Brusselse Codex Fiscale Procedure",
+                  "ref": "art. 57"
+                }
               ]
             }
           }
@@ -177,7 +257,9 @@
       },
       {
         "id": "voorrechten-thesaurie",
-        "naam": { "primair": "Voorrechten van de schatkist" },
+        "naam": {
+          "primair": "Voorrechten van de schatkist"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -185,7 +267,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 422-425" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 422-425"
+                }
               ]
             }
           }
@@ -193,7 +279,9 @@
       },
       {
         "id": "hoofdelijkheid-bestuurders",
-        "naam": { "primair": "Hoofdelijkheid bestuurders (art. 442bis)" },
+        "naam": {
+          "primair": "Hoofdelijkheid bestuurders (art. 442bis)"
+        },
         "bouwsteen_type": "uitzondering",
         "kern": {
           "definitie": {
@@ -201,7 +289,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 442bis" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 442bis"
+                }
               ]
             }
           }
@@ -209,7 +301,9 @@
       },
       {
         "id": "schorsing-bij-bezwaar",
-        "naam": { "primair": "Schorsing van invordering bij bezwaar" },
+        "naam": {
+          "primair": "Schorsing van invordering bij bezwaar"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -217,7 +311,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 409-410"
+                }
               ]
             }
           }
@@ -232,7 +330,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 409-410"
+            }
           ]
         }
       },
@@ -243,7 +345,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 442bis" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 442bis"
+            }
           ]
         }
       },
@@ -254,13 +360,189 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 23-24" }
+            {
+              "type": "wettekst",
+              "naam": "Wetboek minnelijke en gedwongen invordering",
+              "ref": "art. 23-24"
+            }
+          ]
+        }
+      }
+    ],
+    "subconcepten": [
+      {
+        "id": "verzet-tegen-dwangbevel",
+        "naam": {
+          "primair": "Verzet tegen dwangbevel",
+          "synoniemen": [
+            "jurisdictioneel verzet",
+            "oppositie tegen dwangbevel"
+          ]
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verzet is de jurisdictionele tegenactie waarmee de belastingplichtige het uitgevaardigde dwangbevel betwist. Het is — in tegenstelling tot een louter administratief bezwaar — een rechterlijke procedure die ingeleid wordt via dagvaarding van de ontvanger bij de fiscale kamer van de rechtbank van eerste aanleg. Verzet stuit de verjaring van de fiscale schuld en is de enige weg om de invorderingstitel zelf aan te vechten. Per heffingsregime gelden eigen termijnen en bevoegdheidsregels: WIB92/Wb.Inv. voor inkomstenbelasting, WBTW art. 89 voor btw, W.Reg art. 221 voor registratierechten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "Wetboek minnelijke en gedwongen invordering",
+                    "ref": "Titel 3"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "W.Reg",
+                    "ref": "art. 221"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WBTW",
+                    "ref": "art. 89"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Procedurele val voor de accountant: louter administratief bezwaar bij de gewestelijke directeur (federale PB) of bij de bevoegde administratie schorst de invordering NIET en stuit de verjaring evenmin. Verzet is jurisdictioneel: dagvaarding bij de rechtbank van eerste aanleg, fiscale kamer, met de ontvanger als verweerder. Het verzet schorst de invordering niet van rechtswege — de rechter kan op verzoek opschorten — maar bewarend beslag blijft mogelijk hangende de procedure. Voor btw geldt een strikte termijn van 1 maand vanaf betekening van het dwangbevel (art. 89 WBTW); voor registratierechten gelden gemeenrechtelijke termijnen (art. 221 W.Reg).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "WBTW",
+                    "ref": "art. 89"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "W.Reg",
+                    "ref": "art. 221"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-29",
+                    "context": "Synthese verzet jurisdictioneel vs administratief bezwaar"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De ratio is procedurele waarborg: het dwangbevel is een eenzijdige administratieve titel met uitvoeringskracht (art. 13 Wb.Inv.) — verzet biedt de belastingplichtige een rechterlijke toetsing van die titel. Omdat een louter administratief bezwaar geen impact heeft op de uitvoerbaarheid van het dwangbevel, is verzet het enige instrument dat zowel de verjaring stuit als de invorderingstitel ten gronde betwist. De compromis-formule: verzet stuit de verjaring (waarborg voor belastingplichtige), maar schorst de invordering niet van rechtswege (waarborg voor de schatkist).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-29",
+                    "context": "Ratio legis verzet als jurisdictionele tegenhanger dwangbevel"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "termijnen-per-regime",
+              "naam": {
+                "primair": "Termijnen verzet per heffingsregime"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "WBTW art. 89: 1 maand vanaf betekening van het dwangbevel — strikt, niet verlengbaar. W.Reg art. 221: dagvaarding voor de rechtbank van eerste aanleg, fiscale kamer, binnen de gemeenrechtelijke termijn — best zo snel mogelijk om bewarend beslag te vermijden. WIB92/Wb.Inv.: verzet via dagvaarding tegen de ontvanger, conform Wb.Inv. + Gerechtelijk Wetboek. Vormvereiste: dagvaarding (geen aangetekende brief volstaat).",
+                  "grondslag": {
+                    "confidence": "betwijfeld",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WBTW",
+                        "ref": "art. 89"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "W.Reg",
+                        "ref": "art. 221"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "Wetboek minnelijke en gedwongen invordering",
+                        "ref": "Titel 3"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-29",
+                        "context": "Termijn-overzicht verzet per heffingsregime — exacte termijnen verifiëren tegen actuele wettekst"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "effect-op-invordering",
+              "naam": {
+                "primair": "Effect op invordering en verjaring"
+              },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Verzet stuit de verjaring van de fiscale schuld — een nieuwe termijn begint te lopen na het in kracht van gewijsde gaan van de eindbeslissing. Verzet schorst echter NIET automatisch de uitvoering van het dwangbevel: bewarend beslag blijft mogelijk (loon, bankrekening, hypothecaire inschrijving). De rechter kan op gemotiveerd verzoek opschorting bevelen, doorgaans op voorwaarde van een waarborg of betaling onder voorbehoud van het onbetwist gedeelte.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "Wetboek minnelijke en gedwongen invordering",
+                        "ref": "art. 23-24"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-29",
+                        "context": "Synthese effect verzet — verjaring stuiten vs invordering schorsen"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "valkuil-bezwaar-versus-verzet",
+              "naam": {
+                "primair": "Valkuil: bezwaar versus verzet"
+              },
+              "bouwsteen_type": "risico",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een louter administratief bezwaar (federale PB: gewestelijke directeur; btw: bezwaarschrift bij administratie; registratie: bezwaar bij Vlabel/SPW/Brussel Fiscaliteit) is GEEN verzet en stuit de verjaring van het dwangbevel niet. Wie enkel bezwaar indient en verder geen verzet aantekent, riskeert dat de invorderingstitel definitief wordt ondanks de lopende administratieve betwisting. Vuistregel voor de accountant: bij ontvangst van een dwangbevel ALTIJD parallel verzet overwegen — niet enkel administratief bezwaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-29",
+                        "context": "Praktijk-vuistregel parallel verzet + bezwaar"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
           ]
         }
       }
     ]
   },
   "relaties": [
-    { "type": "valt_onder", "target": "fiscale-procedure" }
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
   ]
 }

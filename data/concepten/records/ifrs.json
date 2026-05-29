@@ -100,6 +100,13 @@
         "model": "claude-opus-4-7",
         "wave_id": "extract-jaarrekening-rest-2026-05-28",
         "wijziging": "Fase 2 content-extractie — Σ-hoofdrecord IFRS — kader + principe vs rule-based + verschillen B-GAAP"
+      },
+      {
+        "operatie": "partial-gap-aanvulling",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Drie sub-uitbreidingen toegevoegd voor minicursus-PARTIAL: (1) subconcept 'BE-GAAP ↔ IFRS verschillen-matrix' met 5-rij synthese-tabel; (2) subconcept 'Fair-value-beginsel' met IFRS 13 3-niveau-hierarchy; (3) accountant_perspectieven[] ingevoerd met adviseur-element 'IFRS-keuzes adviseren bij beursgang of groepsherstructurering' (4-stappenplan + IFRS 1)."
       }
     ]
   },
@@ -206,6 +213,173 @@
         }
       ]
     },
+    "subconcepten": [
+      {
+        "id": "be-gaap-ifrs-verschillen-matrix",
+        "naam": {
+          "primair": "BE-GAAP ↔ IFRS verschillen-matrix"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Verschillen-matrix** per balanspost: op vijf hoofdposten (materiële vaste activa, leasing, voorraden, bedrijfscombinaties/goodwill, omzeterkenning) toont deze matrix systematisch hoe de **BE-GAAP-behandeling** (KB 29-04-2019 WVV + CBN-adviezen) afwijkt van de **IFRS-behandeling**. Bedoeld als snelle herhaling vóór het examen en als checklist bij IFRS-transitie-advisering.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De vijf gekozen posten zijn de klassieke afwijking-haarden — daar waar principle-based versus rule-based, substantie-over-vorm en fair-value-meting structurele verschillen produceren. Wie deze vijf kent, ziet 80% van de IFRS-aanpassingen tijdens transitie.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            }
+          },
+          "syntheses": [
+            {
+              "id": "verschillen-matrix-tabel",
+              "titel": "BE-GAAP vs IFRS — vijf hoofdposten",
+              "vraag": "Per balanspost: waar wijkt IFRS af van BE-GAAP en waarom?",
+              "antwoord": {
+                "tekst": "Vijf posten met systematische divergentie — telkens BE-GAAP / IFRS / kernverschil.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-opus-4-7",
+                      "datum": "2026-05-29",
+                      "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                    }
+                  ]
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "label": "Verschillen-matrix BE-GAAP ↔ IFRS",
+                  "kolommen": [
+                    "Post",
+                    "BE-GAAP (KB-WVV + CBN)",
+                    "IFRS",
+                    "Kern-verschil"
+                  ],
+                  "rijen": [
+                    [
+                      "Materiële vaste activa",
+                      "Historische kostprijs; facultatieve herwaardering (KB-WVV art. 3:34) bij duurzame meerwaarde, herwaarderingsmeerwaarde op rubriek 12",
+                      "Keuze cost model (IAS 16) of revaluation model; jaarlijkse impairment-test (IAS 36) verplicht bij indicatoren",
+                      "BE-GAAP voorzichtigheid → impairment-test niet systematisch; IFRS jaarlijkse test + actieve fair-value-optie"
+                    ],
+                    [
+                      "Leasing",
+                      "Onderscheid operationele / financiële leasing (KB-WVV) → operationele leasing off-balance, alleen kost",
+                      "IFRS 16: lessee-onderscheid verdwijnt; alle leases ≥ 12 m on-balance via ROU-actief (right-of-use) + leaseverplichting",
+                      "Substantie-over-vorm-doorbraak: economische gebruiks-rechten = activum, ongeacht juridische eigendom"
+                    ],
+                    [
+                      "Voorraden",
+                      "FIFO of gewogen gemiddelde toegelaten (KB-WVV art. 3:9-22); LIFO niet toegelaten",
+                      "IAS 2: FIFO of gewogen gemiddelde; LIFO uitdrukkelijk verboden",
+                      "Materieel **gelijklopend** — een van de zeldzame convergentie-zones"
+                    ],
+                    [
+                      "Bedrijfscombinaties / goodwill",
+                      "Goodwill afschrijven over economische levensduur (typisch 5-10 jaar, max 20)",
+                      "IFRS 3: **geen afschrijving** goodwill; jaarlijkse impairment-test (IAS 36) op cash-generating-unit-niveau",
+                      "IFRS levert hogere resultaat-volatiliteit (geen jaarlijkse afschrijving, maar plotse impairment-klappen)"
+                    ],
+                    [
+                      "Omzeterkenning",
+                      "Traditioneel realisatie-beginsel: omzet bij leveringsgebeurtenis / dienst-prestatie",
+                      "IFRS 15: **5-stappen-model** (contract identificeren · performance obligations splitsen · transactieprijs bepalen · prijs toewijzen · erkennen bij overdracht van controle)",
+                      "IFRS dwingt analytische opsplitsing per performance obligation — relevant bij multi-element-arrangementen en software-as-a-service"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "fair-value-beginsel",
+        "naam": {
+          "primair": "Fair-value-beginsel",
+          "synoniemen": [
+            "reële waarde",
+            "marktwaarde-meting"
+          ],
+          "vertaling": {
+            "en": "fair value measurement",
+            "fr": "juste valeur"
+          }
+        },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Fair value** (reële waarde) is de prijs die zou worden ontvangen om een actief te verkopen — of betaald om een passief over te dragen — in een ordelijke transactie tussen marktdeelnemers op de meetdatum. **IFRS 13** consolideert de fair-value-definitie en meting voor alle IFRS-standaarden die fair value voorschrijven of toelaten (o.a. IAS 16 revaluation, IAS 40, IFRS 9, IFRS 13).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "richtlijn",
+                    "naam": "IFRS 13",
+                    "ref": "IFRS 13 par. 9 + 24",
+                    "context": "Definitie fair value + meetdatum-perspectief"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Fair value is de **hoeksteen** van het IFRS-waarderings-denken — contrast met het **realisatie-/voorzichtigheids-beginsel** van BE-GAAP. Onder BE-GAAP wordt een meerwaarde pas erkend bij realisatie (verkoop); onder IFRS kan een ongeerealiseerde meerwaarde via revaluation of fair-value-optie reeds in resultaat of OCI worden geboekt.\n\n**Drie waarderingsniveaus (IFRS 13 fair-value hierarchy):**\n- **Level 1 — mark-to-market**: noteringen op actieve markten voor identieke activa (bv. beursgenoteerd aandeel). Meest objectief, geen judgment.\n- **Level 2 — vergelijkbare transacties / observable inputs**: prijzen op actieve markten voor vergelijkbare activa, of niet-genoteerde inputs die wel observeerbaar zijn (bv. yield-curves, marktrenten).\n- **Level 3 — modellen / unobservable inputs**: DCF, optie-pricing, eigen schattingen. Hoogste judgment-druk, uitgebreide toelichting verplicht.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "richtlijn",
+                    "naam": "IFRS 13",
+                    "ref": "IFRS 13 par. 72-90",
+                    "context": "Fair-value-hierarchy 3 niveaus"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Fair value bestaat omdat IFRS de balans wil tonen als **huidige waarde-foto** ten dienste van kapitaal-markt-lezers, niet als historisch boekhoudkundig spoor. Het prijs-conflict met BE-GAAP-voorzichtigheid is dus intentioneel: IFRS kiest relevantie boven prudentie. Voor de accountant betekent dit dat IFRS-cijfers meer volatiel zijn én meer judgment-onderbouwing vereisen (level-3-toelichting kan dezen pagina's omvatten).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
     "bouwstenen": [
       {
         "id": "ifrs-1-eerste-toepassing",
@@ -317,6 +491,80 @@
       }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — accountant als IFRS-transitie-adviseur"
+      },
+      "intro": "Bij beursgang of grensoverschrijdende groepsherstructurering begeleidt de gecertificeerd accountant de IFRS-transitie van de geconsolideerde jaarrekening — niet van de statutaire (die blijft BE-GAAP).",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ifrs-keuzes-adviseren",
+              "naam": {
+                "primair": "IFRS-keuzes adviseren bij beursgang of groepsherstructurering"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij een aankondigde **beursgang** of een **grensoverschrijdende groepsherstructurering** moet de cliënt-vennootschap geconso-lideerd in IFRS gaan rapporteren. De adviseur begeleidt de transitie met vier stappen:\n\n1. **Inventariseer optionele IFRS-keuzes** — cost vs revaluation model (IAS 16 + IAS 40), fair-value-optie op financiële instrumenten (IFRS 9), IFRS-1 vrijstellingen (business combinations vóór transitiedatum, deemed cost MVA op transitiedatum, cumulatieve omrekeningsverschillen op nul).\n\n2. **Bereken impact** op eigen vermogen + resultaat per keuze — gevoeligheidsanalyse op de openingsbalans-aanpassing. Revaluation op vastgoed verhoogt EV maar genereert herwaarderings-reserve (niet uitkeerbaar); cost model laat EV stabiel maar mist IFRS-relevantie voor de markt.\n\n3. **Documenteer keuze** in de waarderingsregels (IFRS-accounting policy paragraph) + uitgebreide toelichting per post. Eenmaal gekozen, vereist wijziging IAS 8-rechtvaardiging (prospectief toepassen + retrospectieve toelichting).\n\n4. **Begeleid IFRS-1-transitie** — opstellen IFRS-openingsbalans op transitiedatum (de eerste dag van de vroegste vergelijkende periode), reconciliatie B-GAAP → IFRS van eigen vermogen + resultaat, IFRS-1-toelichting in eerste IFRS-jaarrekening.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "richtlijn",
+                        "naam": "IFRS 1",
+                        "ref": "IFRS 1 par. 6-31",
+                        "context": "Eerste-toepassing-procedure + vrijstellingen"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                      }
+                    ]
+                  },
+                  "rationale": "De IFRS-1-vrijstellingen zijn éénmalig — wie ze niet bij transitie benut, kan ze niet meer gebruiken. Tijdige advisering vóór transitiedatum is dus cruciaal: een fout-gekozen deemed-cost-niveau op MVA volgt de vennootschap permanent."
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "stappenlijst",
+                  "label": "IFRS-transitie-advies — 4 stappen",
+                  "stappen": [
+                    {
+                      "nummer": 1,
+                      "titel": "Inventarisatie optionele keuzes",
+                      "beschrijving": "Cost vs revaluation (IAS 16/40), fair-value-optie financiële instrumenten (IFRS 9), IFRS-1-vrijstellingen."
+                    },
+                    {
+                      "nummer": 2,
+                      "titel": "Impact-berekening op EV + resultaat",
+                      "beschrijving": "Gevoeligheidsanalyse openingsbalans per keuze. Documenteer alternatieven met cijfers."
+                    },
+                    {
+                      "nummer": 3,
+                      "titel": "Documenteer keuze in waarderingsregels + toelichting",
+                      "beschrijving": "IFRS-accounting policy paragraph + IAS 8-procedure voor toekomstige wijzigingen."
+                    },
+                    {
+                      "nummer": 4,
+                      "titel": "Begeleid IFRS-1-transitie",
+                      "beschrijving": "IFRS-openingsbalans + B-GAAP→IFRS-reconciliatie EV + resultaat + IFRS-1-toelichting in eerste IFRS-jaarrekening."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "alternatief_referentiestelsel",

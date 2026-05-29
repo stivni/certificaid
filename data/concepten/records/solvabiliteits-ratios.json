@@ -2,15 +2,26 @@
   "id": "solvabiliteits-ratios",
   "naam": {
     "primair": "Solvabiliteitsratio's",
-    "synoniemen": ["solvabiliteitsindicatoren", "langetermijn-ratio's"],
-    "vertaling": {"en": "solvency ratios", "fr": "ratios de solvabilité"}
+    "synoniemen": [
+      "solvabiliteitsindicatoren",
+      "langetermijn-ratio's"
+    ],
+    "vertaling": {
+      "en": "solvency ratios",
+      "fr": "ratios de solvabilité"
+    }
   },
   "concept_type": "ratio",
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["kader"],
-    "ankers": ["1.3.II.C", "1.9.V.C"],
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.3.II.C",
+      "1.9.V.C"
+    ],
     "scope": {
       "in": [
         "Σ-categorie voor solvabiliteitsratio's: schuldgraad · solvabiliteitsratio (EV/totaal) · interest coverage ratio · debt-to-equity",
@@ -20,9 +31,21 @@
         "Valkuilen + signaalwaarde"
       ],
       "out": [
-        {"topic": "Ratio-interpretatie cross-categorie (DuPont · K-techniek)", "richting": "moet-verwijzen", "ref": "ratio-interpretatie"},
-        {"topic": "Jaarrekeninganalyse Σ (parent)", "richting": "moet-verwijzen", "ref": "jaarrekeninganalyse"},
-        {"topic": "Financiële diagnose (geheel-oordeel)", "richting": "mag-verwijzen", "ref": "financiele-diagnose"}
+        {
+          "topic": "Ratio-interpretatie cross-categorie (DuPont · K-techniek)",
+          "richting": "moet-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Jaarrekeninganalyse Σ (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Financiële diagnose (geheel-oordeel)",
+          "richting": "mag-verwijzen",
+          "ref": "financiele-diagnose"
+        }
       ]
     },
     "provenance": {
@@ -31,13 +54,35 @@
       "iteratie": "extract-v2-bundle",
       "extract_prompt": "prompts/cluster-extract.md",
       "bundle_used": "data/extractie/bundles/solvabiliteits-ratios.json",
-      "primary_bronnen": ["KB W.Venn. — MAR (klasse 10-17)", "WVV art. 5:153 (BV) en art. 7:228 (NV) — alarmbel"],
+      "primary_bronnen": [
+        "KB W.Venn. — MAR (klasse 10-17)",
+        "WVV art. 5:153 (BV) en art. 7:228 (NV) — alarmbel"
+      ],
       "mcp_calls": 0,
       "rerank_calls": 0
     },
     "changelog": [
-      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
-      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Σ-record solvabiliteits-ratios uitgewerkt: 4 ratio's (schuldgraad, solvabiliteitsratio, debt-to-equity, interest coverage) als sub-concepten met formule + voorbeeld + benchmark + valkuilen."}
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+        "wijziging": "Σ-record solvabiliteits-ratios uitgewerkt: 4 ratio's (schuldgraad, solvabiliteitsratio, debt-to-equity, interest coverage) als sub-concepten met formule + voorbeeld + benchmark + valkuilen."
+      },
+      {
+        "operatie": "partial-gap-aanvulling",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Top-level accountant_perspectieven[] ingevoerd met adviseur-element 'Solvabiliteits-positie sturen' (4 hefbomen: dividendpolitiek, investeringsbeslissingen, schuldherstructurering, alarmbel-vermijding) + vergelijkingstabel met trigger-drempels per hefboom."
+      }
     ]
   },
   "inhoud": {
@@ -47,7 +92,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie solvabiliteitsratio's"}
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaarddefinitie solvabiliteitsratio's"
+            }
           ]
         }
       },
@@ -56,7 +106,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       },
@@ -65,106 +119,624 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:153 (BV) / art. 7:228 (NV)", "context": "Alarmbel-procedure bij solvabiliteitscrisis"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:153 (BV) / art. 7:228 (NV)",
+              "context": "Alarmbel-procedure bij solvabiliteitscrisis"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["jaarrekening", "jaarrekeninganalyse"],
+      "voorvereisten": [
+        "jaarrekening",
+        "jaarrekeninganalyse"
+      ],
       "kader": "jaarrekeninganalyse",
-      "naast_relevant": ["liquiditeits-ratios", "rentabiliteits-ratios", "continuiteit"],
-      "volgkennis": ["ratio-interpretatie", "financiele-diagnose"]
+      "naast_relevant": [
+        "liquiditeits-ratios",
+        "rentabiliteits-ratios",
+        "continuiteit"
+      ],
+      "volgkennis": [
+        "ratio-interpretatie",
+        "financiele-diagnose"
+      ]
     },
     "gebruikscontext": {
       "voor": [
-        {"tekst": "Langetermijn-financieringsbeoordeling door banken — investeringskrediet, hypothecaire lening, obligatie-uitgifte.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-        {"tekst": "Wettelijke alarmbel-toetsing (WVV art. 5:153 BV / art. 7:228 NV) — netto-actief vs drempelwaarden.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 5:153, 7:228"}]}},
-        {"tekst": "Continuïteits-beoordeling (ISA 570 + CBN 2018/18) — negatief eigen vermogen is een sterke trigger-indicator.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3"}, {"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding"}]}}
+        {
+          "tekst": "Langetermijn-financieringsbeoordeling door banken — investeringskrediet, hypothecaire lening, obligatie-uitgifte.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Wettelijke alarmbel-toetsing (WVV art. 5:153 BV / art. 7:228 NV) — netto-actief vs drempelwaarden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 5:153, 7:228"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Continuïteits-beoordeling (ISA 570 + CBN 2018/18) — negatief eigen vermogen is een sterke trigger-indicator.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "norm",
+                "naam": "ISA 570 (herzien)",
+                "ref": "paragraaf A3"
+              },
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2018/18",
+                "ref": "Inleiding"
+              }
+            ]
+          }
+        }
       ],
       "risico": [
-        {"tekst": "Eigen vermogen-vertekening door immateriële vaste activa en oprichtingskosten zonder reële waarde: schijnbare solvabiliteit dekt werkelijke insolventie.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        {
+          "tekst": "Eigen vermogen-vertekening door immateriële vaste activa en oprichtingskosten zonder reële waarde: schijnbare solvabiliteit dekt werkelijke insolventie.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
       ]
     },
     "subconcepten": [
       {
         "id": "schuldgraad",
-        "naam": {"primair": "Schuldgraad", "synoniemen": ["debt ratio", "totale schuldgraad"]},
+        "naam": {
+          "primair": "Schuldgraad",
+          "synoniemen": [
+            "debt ratio",
+            "totale schuldgraad"
+          ]
+        },
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {"tekst": "Schuldgraad = vreemd vermogen / totaal vermogen × 100 %. Vreemd vermogen = schulden > 1 jaar (rubriek 17) + schulden ≤ 1 jaar (42-48) + voorzieningen (16) + uitgestelde belastingen (168). Totaal vermogen = balanstotaal.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "KB W.Venn. — MAR", "ref": "klasse 16-17 + 42-48"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-            "substantie": {"tekst": "De meest courante solvabiliteitsmaat: welk aandeel van het totale vermogen wordt door derden gefinancierd? Hoe hoger, hoe groter de afhankelijkheid van schuldeisers en hoe gevoeliger voor renteschommelingen en kredietweigering. Vuistregel ≤ 60-70 % aanvaardbaar; > 80 % verhoogd risico; > 100 % betekent negatief eigen vermogen (insolventie).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+            "definitie": {
+              "tekst": "Schuldgraad = vreemd vermogen / totaal vermogen × 100 %. Vreemd vermogen = schulden > 1 jaar (rubriek 17) + schulden ≤ 1 jaar (42-48) + voorzieningen (16) + uitgestelde belastingen (168). Totaal vermogen = balanstotaal.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "KB W.Venn. — MAR",
+                    "ref": "klasse 16-17 + 42-48"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "De meest courante solvabiliteitsmaat: welk aandeel van het totale vermogen wordt door derden gefinancierd? Hoe hoger, hoe groter de afhankelijkheid van schuldeisers en hoe gevoeliger voor renteschommelingen en kredietweigering. Vuistregel ≤ 60-70 % aanvaardbaar; > 80 % verhoogd risico; > 100 % betekent negatief eigen vermogen (insolventie).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
           },
           "bouwstenen": [
-            {"id": "benchmark-schuldgraad", "naam": {"primair": "Benchmark-bandbreedtes"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Sector-specifiek. Industriële KMO: 50-70 % typisch. Vastgoed: 60-80 % (hoge hefboom op stabiele activa). Bouw: 60-75 %. IT/consultancy: 30-60 % (weinig vaste activa, weinig schuld). Boven 80 %: alarm; boven 100 %: negatief EV — alarmbel WVV.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+            {
+              "id": "benchmark-schuldgraad",
+              "naam": {
+                "primair": "Benchmark-bandbreedtes"
+              },
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Sector-specifiek. Industriële KMO: 50-70 % typisch. Vastgoed: 60-80 % (hoge hefboom op stabiele activa). Bouw: 60-75 %. IT/consultancy: 30-60 % (weinig vaste activa, weinig schuld). Boven 80 %: alarm; boven 100 %: negatief EV — alarmbel WVV.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
           ],
           "voorbeelden": [
-            {"id": "voorbeeld-schuldgraad-zelena", "titel": "Schuldgraad — Zelena Bio NV (20X4)", "context": "Balans Zelena Bio NV per 31-12-20X4, balanstotaal 8.000.000 EUR.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["Vreemd vermogen: schulden > 1 jaar 2.000 + handelsschulden 1.600 + overige schulden ≤ 1 jaar 1.600 = 5.200 (1.000 EUR)", "Totaal vermogen: 8.000", "Schuldgraad = 5.200 / 8.000 × 100 = 65 %"], "resultaat": "65 % — gezond voor industriële KMO (benchmark 50-70 %). Eigen vermogen-aandeel = 35 % — comfortabele buffer."}]}
+            {
+              "id": "voorbeeld-schuldgraad-zelena",
+              "titel": "Schuldgraad — Zelena Bio NV (20X4)",
+              "context": "Balans Zelena Bio NV per 31-12-20X4, balanstotaal 8.000.000 EUR.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "berekening",
+                  "stappen": [
+                    "Vreemd vermogen: schulden > 1 jaar 2.000 + handelsschulden 1.600 + overige schulden ≤ 1 jaar 1.600 = 5.200 (1.000 EUR)",
+                    "Totaal vermogen: 8.000",
+                    "Schuldgraad = 5.200 / 8.000 × 100 = 65 %"
+                  ],
+                  "resultaat": "65 % — gezond voor industriële KMO (benchmark 50-70 %). Eigen vermogen-aandeel = 35 % — comfortabele buffer."
+                }
+              ]
+            }
           ]
         }
       },
       {
         "id": "solvabiliteitsratio-ev",
-        "naam": {"primair": "Solvabiliteitsratio (EV/totaal)", "synoniemen": ["equity ratio", "graad financiële onafhankelijkheid"]},
+        "naam": {
+          "primair": "Solvabiliteitsratio (EV/totaal)",
+          "synoniemen": [
+            "equity ratio",
+            "graad financiële onafhankelijkheid"
+          ]
+        },
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {"tekst": "Solvabiliteitsratio = eigen vermogen / totaal vermogen × 100 %. Spiegelbeeld van schuldgraad: solvabiliteitsratio + schuldgraad = 100 %.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+            "definitie": {
+              "tekst": "Solvabiliteitsratio = eigen vermogen / totaal vermogen × 100 %. Spiegelbeeld van schuldgraad: solvabiliteitsratio + schuldgraad = 100 %.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
           },
           "bouwstenen": [
-            {"id": "benchmark-solvratio", "naam": {"primair": "Benchmark-bandbreedtes"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "Vuistregel ≥ 25 % voor KMO. Belgische sectorgemiddelden: industrie 30-40 %, dienstverlening 40-50 %, vastgoed 20-30 %. Onder 15 %: alarm. Negatief: insolventie.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+            {
+              "id": "benchmark-solvratio",
+              "naam": {
+                "primair": "Benchmark-bandbreedtes"
+              },
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vuistregel ≥ 25 % voor KMO. Belgische sectorgemiddelden: industrie 30-40 %, dienstverlening 40-50 %, vastgoed 20-30 %. Onder 15 %: alarm. Negatief: insolventie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
           ]
         }
       },
       {
         "id": "debt-to-equity",
-        "naam": {"primair": "Debt-to-equity (D/E)", "afkorting": "D/E", "synoniemen": ["financiële hefboom", "leverage ratio"]},
+        "naam": {
+          "primair": "Debt-to-equity (D/E)",
+          "afkorting": "D/E",
+          "synoniemen": [
+            "financiële hefboom",
+            "leverage ratio"
+          ]
+        },
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {"tekst": "D/E = vreemd vermogen / eigen vermogen. Drukt de financiële hefboom expliciet uit: hoeveel euro schuld per euro eigen vermogen? D/E = 2 betekent 2 euro schuld voor elke euro eigen kapitaal.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-            "substantie": {"tekst": "Equivalent aan schuldgraad maar in andere vorm. D/E ratio is standaard in IFRS/internationale literatuur; Belgische analyse gebruikt vaker schuldgraad. Conversie: schuldgraad 65 % ↔ D/E ≈ 1,86. Hoge D/E (> 2-3) verhoogt aandeelhouders-rendement bij goede tijden (hefboom werkt positief) maar versnelt insolventie bij verliezen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+            "definitie": {
+              "tekst": "D/E = vreemd vermogen / eigen vermogen. Drukt de financiële hefboom expliciet uit: hoeveel euro schuld per euro eigen vermogen? D/E = 2 betekent 2 euro schuld voor elke euro eigen kapitaal.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Equivalent aan schuldgraad maar in andere vorm. D/E ratio is standaard in IFRS/internationale literatuur; Belgische analyse gebruikt vaker schuldgraad. Conversie: schuldgraad 65 % ↔ D/E ≈ 1,86. Hoge D/E (> 2-3) verhoogt aandeelhouders-rendement bij goede tijden (hefboom werkt positief) maar versnelt insolventie bij verliezen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
           },
           "voorbeelden": [
-            {"id": "voorbeeld-de-zelena", "titel": "D/E — Zelena Bio NV", "context": "Balans Zelena Bio NV 20X4.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["Vreemd vermogen: 5.200", "Eigen vermogen: 2.800", "D/E = 5.200 / 2.800 = 1,86"], "resultaat": "1,86 — gezond. Hefboom positief in goede tijden; weinig risico in slechte tijden gegeven solide rentabiliteit."}]}
+            {
+              "id": "voorbeeld-de-zelena",
+              "titel": "D/E — Zelena Bio NV",
+              "context": "Balans Zelena Bio NV 20X4.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "berekening",
+                  "stappen": [
+                    "Vreemd vermogen: 5.200",
+                    "Eigen vermogen: 2.800",
+                    "D/E = 5.200 / 2.800 = 1,86"
+                  ],
+                  "resultaat": "1,86 — gezond. Hefboom positief in goede tijden; weinig risico in slechte tijden gegeven solide rentabiliteit."
+                }
+              ]
+            }
           ]
         }
       },
       {
         "id": "interest-coverage-ratio",
-        "naam": {"primair": "Interest coverage ratio (ICR)", "afkorting": "ICR", "synoniemen": ["rente-dekkingsratio", "EBIT-interest-coverage"]},
+        "naam": {
+          "primair": "Interest coverage ratio (ICR)",
+          "afkorting": "ICR",
+          "synoniemen": [
+            "rente-dekkingsratio",
+            "EBIT-interest-coverage"
+          ]
+        },
         "concept_type": "ratio",
         "inhoud": {
           "kern": {
-            "definitie": {"tekst": "ICR = EBIT / financiële kosten (rentebetalingen). Drukt uit hoeveel keer de bedrijfswinst de financiële lasten dekt. ICR = 5 betekent dat de winst 5 keer de rente kan dragen vóór er een tekort ontstaat.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-            "substantie": {"tekst": "Dynamische solvabiliteitsmaat — vult de stock-ratio's (schuldgraad, D/E) aan met flow-perspectief. Een hoog leverbedrijf (lage schuldgraad) met aanhoudende verliezen kan toch in problemen komen wanneer ICR < 1 (EBIT volstaat niet voor rente). Banken hanteren ICR-covenants in kredietovereenkomsten — typisch ICR ≥ 2,0 of ≥ 3,0 (afhankelijk van rating).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk bank-covenants"}]}}
+            "definitie": {
+              "tekst": "ICR = EBIT / financiële kosten (rentebetalingen). Drukt uit hoeveel keer de bedrijfswinst de financiële lasten dekt. ICR = 5 betekent dat de winst 5 keer de rente kan dragen vóór er een tekort ontstaat.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Dynamische solvabiliteitsmaat — vult de stock-ratio's (schuldgraad, D/E) aan met flow-perspectief. Een hoog leverbedrijf (lage schuldgraad) met aanhoudende verliezen kan toch in problemen komen wanneer ICR < 1 (EBIT volstaat niet voor rente). Banken hanteren ICR-covenants in kredietovereenkomsten — typisch ICR ≥ 2,0 of ≥ 3,0 (afhankelijk van rating).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Standaardpraktijk bank-covenants"
+                  }
+                ]
+              }
+            }
           },
           "bouwstenen": [
-            {"id": "benchmark-icr", "naam": {"primair": "Benchmark ICR"}, "bouwsteen_type": "drempel", "kern": {"definitie": {"tekst": "ICR ≥ 3,0: comfortabel; 1,5-3,0: aanvaardbaar voor stabiele cash-flow-sectoren; < 1,5: spanning; < 1,0: alarm (EBIT volstaat niet eens voor rente).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+            {
+              "id": "benchmark-icr",
+              "naam": {
+                "primair": "Benchmark ICR"
+              },
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "ICR ≥ 3,0: comfortabel; 1,5-3,0: aanvaardbaar voor stabiele cash-flow-sectoren; < 1,5: spanning; < 1,0: alarm (EBIT volstaat niet eens voor rente).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
           ],
           "voorbeelden": [
-            {"id": "voorbeeld-icr-zelena", "titel": "ICR — Zelena Bio NV", "context": "Zelena Bio NV: EBIT 720, financiële kosten 90 (1.000 EUR).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "berekening", "stappen": ["EBIT: 720", "Financiële kosten: 90", "ICR = 720 / 90 = 8,0"], "resultaat": "8,0 — zeer comfortabel. EBIT dekt rente 8 keer; ruim boven typische bank-covenant (≥ 3,0)."}]}
+            {
+              "id": "voorbeeld-icr-zelena",
+              "titel": "ICR — Zelena Bio NV",
+              "context": "Zelena Bio NV: EBIT 720, financiële kosten 90 (1.000 EUR).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "berekening",
+                  "stappen": [
+                    "EBIT: 720",
+                    "Financiële kosten: 90",
+                    "ICR = 720 / 90 = 8,0"
+                  ],
+                  "resultaat": "8,0 — zeer comfortabel. EBIT dekt rente 8 keer; ruim boven typische bank-covenant (≥ 3,0)."
+                }
+              ]
+            }
           ]
         }
       }
     ],
     "bouwstenen": [
-      {"id": "alarmbel-link", "naam": {"primair": "Alarmbel-procedure WVV art. 5:153 / 7:228"}, "bouwsteen_type": "regel", "kern": {"definitie": {"tekst": "WVV koppelt expliciet wettelijke gevolgen aan solvabiliteits-crisis. BV: art. 5:153 — bestuursorgaan moet binnen 2 maanden algemene vergadering bijeenroepen wanneer netto-actief negatief dreigt te worden of beneden wettelijke drempels valt. NV: art. 7:228 — wanneer netto-actief < helft van inbreng (eerste drempel) of < kwart (tweede drempel). Daling onder absolute drempel (61.500 EUR voor BV) leidt tot mogelijke ontbinding door rechtbank. Solvabiliteitsratio's zijn dus niet enkel analyse-tool maar wettelijke alarm-indicator.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 5:153 (BV) / art. 7:228 (NV)"}]}}}}
+      {
+        "id": "alarmbel-link",
+        "naam": {
+          "primair": "Alarmbel-procedure WVV art. 5:153 / 7:228"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "WVV koppelt expliciet wettelijke gevolgen aan solvabiliteits-crisis. BV: art. 5:153 — bestuursorgaan moet binnen 2 maanden algemene vergadering bijeenroepen wanneer netto-actief negatief dreigt te worden of beneden wettelijke drempels valt. NV: art. 7:228 — wanneer netto-actief < helft van inbreng (eerste drempel) of < kwart (tweede drempel). Daling onder absolute drempel (61.500 EUR voor BV) leidt tot mogelijke ontbinding door rechtbank. Solvabiliteitsratio's zijn dus niet enkel analyse-tool maar wettelijke alarm-indicator.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 5:153 (BV) / art. 7:228 (NV)"
+                }
+              ]
+            }
+          }
+        }
+      }
     ],
     "valkuilen": [
-      {"titel": "Eigen vermogen ongecorrigeerd nemen", "verkeerde_assumptie": "Eigen vermogen op de balans is reëel beschikbaar.", "kernpunt": "Voor analyse: corrigeer voor (a) oprichtingskosten (rubriek 20 — geen liquidatiewaarde, elimineren uit EV); (b) niet-opgevraagd kapitaal (101 — toekomstige bron, niet huidig EV); (c) eigen aandelen (16 — substractief). Reëel EV (na correcties) kan substantieel lager zijn dan boekwaarde EV. De analytische schuldgraad gebruikt het gecorrigeerde EV.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard herstructurering analytische balans"}]}},
-      {"titel": "Achtergestelde leningen verkeerd classificeren", "verkeerde_assumptie": "Achtergestelde leningen = vreemd vermogen.", "kernpunt": "Achtergestelde leningen van aandeelhouders kunnen voor analyse-doeleinden tot 'pseudo-eigen-vermogen' worden gerekend wanneer ze contractueel achtergesteld zijn aan alle andere schuldeisers en geen vaste terugbetalingsdatum hebben. Banken in kredietdossiers volgen die behandeling vaak — schuldgraad wordt dan beduidend lager. Bekend onder de term 'quasi equity'.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-      {"titel": "Off-balance financiering negeren", "verkeerde_assumptie": "Schuldgraad uit balans is volledig.", "kernpunt": "Vóór IFRS 16 stond operationele leasing niet op de balans. In BE-GAAP staat operationele leasing nog steeds enkel als kost in resultatenrekening + verplichting in toelichting (niet-in-de-balans-verplichtingen). Voor reële schuldgraad: voeg gekapitaliseerde operationele leasing-verplichtingen toe aan vreemd vermogen + activa. Doet er sterk toe voor IFRS-comparabiliteit.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
-      {"titel": "ICR uit netto-resultaat berekenen", "verkeerde_assumptie": "EBIT = nettoresultaat.", "kernpunt": "ICR gebruikt EBIT (bedrijfsresultaat — vóór financieel resultaat en belastingen). Netto-resultaat is al gecorrigeerd voor rente; ICR uit nettoresultaat berekenen geeft een veel te lage ratio. Correcte formule: EBIT / financiële kosten, of equivalent: (nettoresultaat + belastingen + rente) / rente.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      {
+        "titel": "Eigen vermogen ongecorrigeerd nemen",
+        "verkeerde_assumptie": "Eigen vermogen op de balans is reëel beschikbaar.",
+        "kernpunt": "Voor analyse: corrigeer voor (a) oprichtingskosten (rubriek 20 — geen liquidatiewaarde, elimineren uit EV); (b) niet-opgevraagd kapitaal (101 — toekomstige bron, niet huidig EV); (c) eigen aandelen (16 — substractief). Reëel EV (na correcties) kan substantieel lager zijn dan boekwaarde EV. De analytische schuldgraad gebruikt het gecorrigeerde EV.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard herstructurering analytische balans"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Achtergestelde leningen verkeerd classificeren",
+        "verkeerde_assumptie": "Achtergestelde leningen = vreemd vermogen.",
+        "kernpunt": "Achtergestelde leningen van aandeelhouders kunnen voor analyse-doeleinden tot 'pseudo-eigen-vermogen' worden gerekend wanneer ze contractueel achtergesteld zijn aan alle andere schuldeisers en geen vaste terugbetalingsdatum hebben. Banken in kredietdossiers volgen die behandeling vaak — schuldgraad wordt dan beduidend lager. Bekend onder de term 'quasi equity'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Off-balance financiering negeren",
+        "verkeerde_assumptie": "Schuldgraad uit balans is volledig.",
+        "kernpunt": "Vóór IFRS 16 stond operationele leasing niet op de balans. In BE-GAAP staat operationele leasing nog steeds enkel als kost in resultatenrekening + verplichting in toelichting (niet-in-de-balans-verplichtingen). Voor reële schuldgraad: voeg gekapitaliseerde operationele leasing-verplichtingen toe aan vreemd vermogen + activa. Doet er sterk toe voor IFRS-comparabiliteit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "ICR uit netto-resultaat berekenen",
+        "verkeerde_assumptie": "EBIT = nettoresultaat.",
+        "kernpunt": "ICR gebruikt EBIT (bedrijfsresultaat — vóór financieel resultaat en belastingen). Netto-resultaat is al gecorrigeerd voor rente; ICR uit nettoresultaat berekenen geeft een veel te lage ratio. Correcte formule: EBIT / financiële kosten, of equivalent: (nettoresultaat + belastingen + rente) / rente.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — accountant als financieringsadviseur"
+      },
+      "intro": "De gecertificeerd accountant adviseert het bestuursorgaan over stuur-maatregelen die de solvabiliteit beïnvloeden — vóór de wettelijke alarmbel-drempels (WVV art. 5:153 / 7:228) worden geraakt.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "solvabiliteit-sturen",
+              "naam": {
+                "primair": "Solvabiliteits-positie sturen"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "De accountant adviseert het bestuursorgaan over **stuur-maatregelen** die de solvabiliteitsratio's beïnvloeden vóór de wettelijke alarmbel-drempels worden geraakt. Vier hefbomen, gerangschikt van structureel naar incidenteel:\n\n1. **Dividendpolitiek** — de uitkering moet zowel de **netto-actief-test** (BV: art. 5:142 WVV — netto-actief na uitkering ≥ 0 én geen daling onder het niet-uitkeerbare deel) als de **liquiditeitstest** (BV: art. 5:143 WVV — bestuursorgaan moet attesteren dat de vennootschap haar opeisbare schulden tijdens de twaalf maanden na uitkering kan blijven betalen) doorstaan. Bij lage solvabiliteit: **uitkering verlagen of opschorten** om eigen vermogen op te bouwen.\n\n2. **Investeringsbeslissingen** — elk investerings-dossier wegen op het verwachte **return-on-investment** versus de impact op de **schuldgraad**. Vuistregel: financiering door schuld is verdedigbaar zolang de schuldgraad onder de sectorale benchmark blijft (industriële KMO ≤ 70%) **en** de interest coverage ratio comfortabel boven 3,0 blijft. Boven deze drempels: **kapitaalverhoging of leasing** verkiezen boven banklening.\n\n3. **Schuldherstructurering** — bij oplopende schuldgraad: **looptijd verlengen** (kortetermijn-schuld omzetten naar langetermijn-schuld → verbetert liquiditeit én verlaagt rente-druk), **herfinancieren** tegen lagere rente, of achtergestelde-aandeelhouders-leningen onderhandelen (klasseren als quasi-equity in de analytische balans).\n\n4. **Vermijden alarmbel-procedure** — actief monitoren van het netto-actief versus de wettelijke drempels: voor de **BV** geen kapitaal-drempel meer (WVV 2019) maar wel **negatief netto-actief**-trigger (art. 5:153 WVV); voor de **NV** klassieke drempels netto-actief < ½ of < ¼ van het kapitaal (art. 7:228 WVV). Tijdige bijsturing — via één van de drie bovenstaande hefbomen of via een **kapitaalverhoging** — voorkomt dat het bestuursorgaan formeel een algemene vergadering moet bijeenroepen.\n\nCross-link: [[winstuitkering]] (toetsen) en [[kapitaalbescherming]] (regels NV-kapitaal).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 5:142 + art. 5:143 + art. 5:153",
+                        "context": "BV netto-actief-test, liquiditeitstest, alarmbel"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 7:228",
+                        "context": "NV alarmbel-drempels ½ en ¼ kapitaal"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                      }
+                    ]
+                  },
+                  "rationale": "De vier hefbomen zijn complementair en niet alternatief: een vennootschap met dalende solvabiliteit moet typisch **meerdere tegelijk** activeren. De volgorde structureel → incidenteel volgt de tijdshorizon: dividendpolitiek werkt permanent, schuldherstructurering geeft direct lucht, alarmbel-monitoring is de noodrem."
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "label": "Hefbomen voor solvabiliteits-sturing — wanneer welke?",
+                  "kolommen": [
+                    "Hefboom",
+                    "Effect op ratio",
+                    "Trigger om te activeren",
+                    "Wettelijke verankering"
+                  ],
+                  "rijen": [
+                    [
+                      "Dividend verlagen / opschorten",
+                      "Verhoogt EV (geen uitstroom)",
+                      "Schuldgraad > sectorbenchmark; solvabiliteitsratio < 25%",
+                      "WVV art. 5:142 + 5:143 (BV) / 7:212 (NV)"
+                    ],
+                    [
+                      "Investeringsdossier afwegen",
+                      "Vermijdt schuldgraad-stijging",
+                      "Nieuw investeringsdossier > 10% balanstotaal",
+                      "Bestuursorgaan-besluit (zorgvuldigheidsplicht)"
+                    ],
+                    [
+                      "Schuldherstructurering",
+                      "Verbetert ICR + liquiditeit",
+                      "ICR < 2,0; korte-termijn-schuldgraad oplopend",
+                      "Contractueel (kredietovereenkomst)"
+                    ],
+                    [
+                      "Kapitaalverhoging",
+                      "Verhoogt EV substantieel",
+                      "Alarmbel-drempel nadert; solvabiliteitsratio < 15%",
+                      "WVV art. 5:120-5:122 (BV) / 7:177-7:181 (NV)"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
-    {"type": "valt_onder", "target": "jaarrekeninganalyse"},
-    {"type": "vereist", "target": "jaarrekening"},
-    {"type": "vergelijkbaar_met", "target": "liquiditeits-ratios", "gelijkenissen": ["Beide meten schuld-dekkings-capaciteit"], "verschillen": ["Liquiditeit = korte termijn; solvabiliteit = lange termijn + structureel"], "verwarring_risico": "Studenten verwisselen liquiditeit en solvabiliteit — onthoud: liquide = nu betalen; solvabel = uiteindelijk betalen."},
-    {"type": "triggert", "target": "continuiteit", "toelichting": "Negatief EV of schuldgraad > 100 % is sterke trigger voor going-concern-twijfel (ISA 570) en alarmbel-procedure (WVV)."},
-    {"type": "beinvloed_door", "target": "rentabiliteits-ratios", "toelichting": "Aanhoudende verliezen verlagen het eigen vermogen jaar na jaar en verzwakken solvabiliteit."}
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    },
+    {
+      "type": "vereist",
+      "target": "jaarrekening"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "liquiditeits-ratios",
+      "gelijkenissen": [
+        "Beide meten schuld-dekkings-capaciteit"
+      ],
+      "verschillen": [
+        "Liquiditeit = korte termijn; solvabiliteit = lange termijn + structureel"
+      ],
+      "verwarring_risico": "Studenten verwisselen liquiditeit en solvabiliteit — onthoud: liquide = nu betalen; solvabel = uiteindelijk betalen."
+    },
+    {
+      "type": "triggert",
+      "target": "continuiteit",
+      "toelichting": "Negatief EV of schuldgraad > 100 % is sterke trigger voor going-concern-twijfel (ISA 570) en alarmbel-procedure (WVV)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "rentabiliteits-ratios",
+      "toelichting": "Aanhoudende verliezen verlagen het eigen vermogen jaar na jaar en verzwakken solvabiliteit."
+    }
   ]
 }

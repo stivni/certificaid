@@ -87,6 +87,13 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (AML-wet 18-09-2017 + ITAA-Handleiding AWW 2019 + UBO-wetgeving). Bundle-flow extract zonder extra MCP-calls."
+      },
+      {
+        "operatie": "didactisch_verrijken",
+        "timestamp": "2026-05-29T00:00:00Z",
+        "model": "opus-4.7-1M",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Bouwsteen 'beperking-gebruik-contanten' toegevoegd: 3 000 EUR-cap AML-wet 18-09-2017 (titel verwijst expliciet naar 'beperking van het gebruik van contanten'). Cap was nog niet aanwezig in record."
       }
     ]
   },
@@ -97,7 +104,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 5 + 8" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 5 + 8"
+            }
           ]
         }
       },
@@ -106,8 +117,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 19 + 21-32 + 47" },
-            { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 2 + 4" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 19 + 21-32 + 47"
+            },
+            {
+              "type": "norm",
+              "naam": "ITAA-norm AWW-geconsolideerd",
+              "ref": "punt 2 + 4"
+            }
           ]
         }
       },
@@ -116,8 +135,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 47-57" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis poortwachters-functie + EU-richtlijn-context" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 47-57"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis poortwachters-functie + EU-richtlijn-context"
+            }
           ]
         }
       }
@@ -149,7 +177,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 5 §1 23° + art. 10" }
+              {
+                "type": "wettekst",
+                "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                "ref": "art. 5 §1 23° + art. 10"
+              }
             ]
           }
         }
@@ -160,7 +192,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 19-32" }
+              {
+                "type": "wettekst",
+                "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                "ref": "art. 19-32"
+              }
             ]
           }
         }
@@ -171,7 +207,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 53" }
+              {
+                "type": "wettekst",
+                "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                "ref": "art. 53"
+              }
             ]
           }
         }
@@ -182,7 +222,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 132" }
+              {
+                "type": "wettekst",
+                "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                "ref": "art. 132"
+              }
             ]
           }
         }
@@ -193,7 +237,10 @@
         "id": "clientenonderzoek-kyc",
         "naam": {
           "primair": "Cliëntenonderzoek (KYC)",
-          "synoniemen": ["Know Your Customer", "waakzaamheidsverplichtingen"]
+          "synoniemen": [
+            "Know Your Customer",
+            "waakzaamheidsverplichtingen"
+          ]
         },
         "concept_type": "procedure",
         "inhoud": {
@@ -203,8 +250,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 21-32 + art. 33 §2" },
-                  { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 4.4-4.8" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                    "ref": "art. 21-32 + art. 33 §2"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ITAA-norm AWW-geconsolideerd",
+                    "ref": "punt 4.4-4.8"
+                  }
                 ]
               }
             }
@@ -215,7 +270,10 @@
         "id": "ubo-register",
         "naam": {
           "primair": "UBO-register",
-          "synoniemen": ["uiteindelijke begunstigde-register", "register Ultimate Beneficial Owner"]
+          "synoniemen": [
+            "uiteindelijke begunstigde-register",
+            "register Ultimate Beneficial Owner"
+          ]
         },
         "concept_type": "instrument",
         "inhoud": {
@@ -225,7 +283,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 26 juni 2020", "ref": "UBO-register, gewijzigde artikelen WER + AML-wet" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 26 juni 2020",
+                    "ref": "UBO-register, gewijzigde artikelen WER + AML-wet"
+                  }
                 ]
               }
             },
@@ -234,7 +296,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 4, 27° + art. 74" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                    "ref": "art. 4, 27° + art. 74"
+                  }
                 ]
               }
             }
@@ -254,8 +320,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 37-41" },
-                  { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 4.9 (verhoogde waakzaamheid)" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                    "ref": "art. 37-41"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ITAA-norm AWW-geconsolideerd",
+                    "ref": "punt 4.9 (verhoogde waakzaamheid)"
+                  }
                 ]
               }
             }
@@ -275,8 +349,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 47 + 57" },
-                  { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 14 + 14.6.4" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                    "ref": "art. 47 + 57"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "ITAA-Handleiding interne procedures AWW 2019",
+                    "ref": "punt 14 + 14.6.4"
+                  }
                 ]
               }
             },
@@ -285,7 +367,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 55 + 56 §3 + 132" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                    "ref": "art. 55 + 56 §3 + 132"
+                  }
                 ]
               }
             }
@@ -306,8 +392,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 9 §2" },
-                { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 2.2-2.3" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                  "ref": "art. 9 §2"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm AWW-geconsolideerd",
+                  "ref": "punt 2.2-2.3"
+                }
               ]
             }
           }
@@ -325,7 +419,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "art. 19" }
+                {
+                  "type": "norm",
+                  "naam": "ITAA-Handleiding interne procedures AWW 2019",
+                  "ref": "art. 19"
+                }
               ]
             }
           }
@@ -343,7 +441,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 12.4 + 13" }
+                {
+                  "type": "norm",
+                  "naam": "ITAA-Handleiding interne procedures AWW 2019",
+                  "ref": "punt 12.4 + 13"
+                }
               ]
             }
           }
@@ -361,8 +463,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 33 §2, 34 §4, 35 §3" },
-                { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 4.3" }
+                {
+                  "type": "wettekst",
+                  "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                  "ref": "art. 33 §2, 34 §4, 35 §3"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm AWW-geconsolideerd",
+                  "ref": "punt 4.3"
+                }
               ]
             }
           }
@@ -380,7 +490,76 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 12.4.2.2-3" }
+                {
+                  "type": "norm",
+                  "naam": "ITAA-Handleiding interne procedures AWW 2019",
+                  "ref": "punt 12.4.2.2-3"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beperking-gebruik-contanten",
+        "naam": {
+          "primair": "Beperking gebruik contanten (3 000 EUR-cap)",
+          "synoniemen": [
+            "contantenverbod",
+            "cash-cap"
+          ]
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De Wet van 18 september 2017 — wiens volledige titel uitdrukkelijk verwijst naar 'beperking van het gebruik van contanten' — verbiedt contante betalingen of giften boven 3 000 EUR per transactie tussen ondernemingen onderling en tussen ondernemingen en consumenten (verifieer exact wetsartikel — vermoedelijk art. 67 AML-wet; tot 2017 stond een gelijkaardige regel in art. 21 van de wet van 11 januari 1993). Toepassingsveld: alle handelaars, dienstverleners, beroepsbeoefenaars (incl. accountants als ondernemers) en bijzonder strikt voor handelaars in kunst, edele metalen en oude metalen. Uitzonderingen voor financiële instellingen onderling en bepaalde nutsbedrijven. De drempel is een per-transactie-drempel: opsplitsing van één economische verrichting in meerdere deelbetalingen om onder de cap te blijven kwalificeert als omzeiling en is sanctioneerbaar. Administratieve geldboete: 25 % tot 100 % van het bedrag dat boven de cap werd betaald, opgelegd door de FOD Economie.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                  "ref": "art. 67 (te verifiëren) — hoofdstuk beperking gebruik contanten"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "didactisch-verrijken-agent (opus-4.7-1M)",
+                  "datum": "2026-05-29",
+                  "context": "Exact wetsartikel + sanctieschaal verifiëren tegen actuele AML-wet 2017 (vermoedelijk art. 67)"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Voor de accountant heeft de cap een dubbele relevantie: (1) eigen kantoor — honoraria boven 3 000 EUR mogen niet contant ontvangen worden, zelfs niet bij gespreide betaling als de gehele opdracht boven de drempel uitkomt; (2) cliënt-monitoring — contante stromen die de drempel naderen of opsplitsen zijn een AML-knipperlicht dat cumuleert met andere indicatoren. Bijzondere context: vastgoedtransacties zijn quasi-volledig uit het contante circuit gehaald (notariële akte vereist bancair traject); de tweedehandsauto-handel staat onder verscherpt toezicht omdat ze historisch een witwaskanaal vormde. De cap staat naast — niet in plaats van — de waakzaamheidsverplichting en de meldingsplicht aan de CFI: een transactie van 2 500 EUR cash is niet wettelijk verboden, maar kan wel een verdachte-transactie-melding triggeren indien gecombineerd met andere knipperlichten.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                  "ref": "art. 47 + hoofdstuk contanten"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "didactisch-verrijken-agent (opus-4.7-1M)",
+                  "datum": "2026-05-29",
+                  "context": "Praktijk-impact cap voor accountantskantoor + cliënt-monitoring"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De ratio is preventief-systemisch: contant geld is per definitie traceloos en vormt daarmee de zwakke schakel in elke AML-architectuur die voor het overige op bancaire transparantie steunt (rekeningidentificatie, transactie-monitoring, beslag onder derden). Door een wettelijke plafond te leggen op contante stromen wordt het zwarte circuit gedwongen om bancair te transiteren — waar de waakzaamheidsverplichting van financiële instellingen actief wordt. De cap is dus geen sanctiebepaling tegen één specifieke witwasvorm, maar een algemene structuur-maatregel die het instrument zelf (cash) onaantrekkelijk maakt voor grote bedragen. Spiegelregel met meldingsplicht: cash onder de cap kan nog steeds verdacht zijn en moet aan de CFI gemeld worden bij vermoeden.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "didactisch-verrijken-agent (opus-4.7-1M)",
+                  "datum": "2026-05-29",
+                  "context": "Ratio legis structurele preventie via cash-plafond"
+                }
               ]
             }
           }
@@ -395,8 +574,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "art. 19 knipperlichten" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            {
+              "type": "norm",
+              "naam": "ITAA-Handleiding interne procedures AWW 2019",
+              "ref": "art. 19 knipperlichten"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
           ]
         },
         "weergaven": [
@@ -419,7 +606,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 41" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 41"
+            }
           ]
         },
         "weergaven": [
@@ -443,7 +634,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 5 §1 23° + 132" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 5 §1 23° + 132"
+            }
           ]
         }
       },
@@ -454,7 +649,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 55 + 56 §3" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 55 + 56 §3"
+            }
           ]
         }
       },
@@ -465,7 +664,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 4, 27°" }
+            {
+              "type": "wettekst",
+              "naam": "Wet 18 september 2017 (antiwitwaswet)",
+              "ref": "art. 4, 27°"
+            }
           ]
         }
       }
@@ -475,12 +678,32 @@
         "type": "matrix",
         "intro": "AML drie-stappen-discipline per cliënt",
         "inhoud": {
-          "kolommen": ["Stap", "Inhoud", "Bewijsstuk in dossier"],
+          "kolommen": [
+            "Stap",
+            "Inhoud",
+            "Bewijsstuk in dossier"
+          ],
           "rijen": [
-            ["1. Identificatie + UBO", "eID/paspoort cliënt + bestuurders + KBO-uittreksel + UBO-register-raadpleging", "Kopie identiteitsstukken + UBO-bewijs + KBO-uittreksel"],
-            ["2. Risico-classering", "Laag / standaard / hoog op basis van PEP-status, geografie, sector, transactiepatroon", "Risico-fiche cliënt + motivering"],
-            ["3. Monitoring", "Doorlopende waakzaamheid; bij verhoogd risico: jaarlijks updaten", "Periodieke review-nota + AML-checks"],
-            ["4. Bij knipperlicht", "Interne melding AMLCO → onderzoek → CFI-melding bij vermoeden", "Intern verslag + eventuele CFI-melding (10j bewaring)"]
+            [
+              "1. Identificatie + UBO",
+              "eID/paspoort cliënt + bestuurders + KBO-uittreksel + UBO-register-raadpleging",
+              "Kopie identiteitsstukken + UBO-bewijs + KBO-uittreksel"
+            ],
+            [
+              "2. Risico-classering",
+              "Laag / standaard / hoog op basis van PEP-status, geografie, sector, transactiepatroon",
+              "Risico-fiche cliënt + motivering"
+            ],
+            [
+              "3. Monitoring",
+              "Doorlopende waakzaamheid; bij verhoogd risico: jaarlijks updaten",
+              "Periodieke review-nota + AML-checks"
+            ],
+            [
+              "4. Bij knipperlicht",
+              "Interne melding AMLCO → onderzoek → CFI-melding bij vermoeden",
+              "Intern verslag + eventuele CFI-melding (10j bewaring)"
+            ]
           ]
         }
       }
@@ -509,8 +732,16 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 19 + 21-32 + 37-41" },
-                      { "type": "norm", "naam": "ITAA-norm AWW-geconsolideerd", "ref": "punt 4" }
+                      {
+                        "type": "wettekst",
+                        "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                        "ref": "art. 19 + 21-32 + 37-41"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ITAA-norm AWW-geconsolideerd",
+                        "ref": "punt 4"
+                      }
                     ]
                   }
                 }
@@ -528,7 +759,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 12.4-14" }
+                      {
+                        "type": "norm",
+                        "naam": "ITAA-Handleiding interne procedures AWW 2019",
+                        "ref": "punt 12.4-14"
+                      }
                     ]
                   }
                 }
@@ -551,8 +786,17 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 74" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk UBO-begeleiding" }
+                      {
+                        "type": "wettekst",
+                        "naam": "Wet 18 september 2017 (antiwitwaswet)",
+                        "ref": "art. 74"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Kantoorpraktijk UBO-begeleiding"
+                      }
                     ]
                   }
                 }

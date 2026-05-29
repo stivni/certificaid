@@ -100,8 +100,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.4 + 400.5" },
-            { "type": "wettekst", "naam": "Wet 17 maart 2019 (ITAA-wet)", "ref": "art. 37" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 400.4 + 400.5"
+            },
+            {
+              "type": "wettekst",
+              "naam": "Wet 17 maart 2019 (ITAA-wet)",
+              "ref": "art. 37"
+            }
           ]
         }
       },
@@ -110,7 +118,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.10 + 540" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 400.10 + 540"
+            }
           ]
         }
       },
@@ -119,8 +131,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.6-400.8" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis onafhankelijkheid IESBA + EU-richtlijn 2014/56" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 400.6-400.8"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis onafhankelijkheid IESBA + EU-richtlijn 2014/56"
+            }
           ]
         }
       }
@@ -153,7 +174,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.2 + 900-series" }
+              {
+                "type": "norm",
+                "naam": "IESBA Code of Ethics 2024",
+                "ref": "Section 400.2 + 900-series"
+              }
             ]
           }
         }
@@ -164,7 +189,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 120.15 A2 + 600-series (non-assurance services)" }
+              {
+                "type": "norm",
+                "naam": "IESBA Code of Ethics 2024",
+                "ref": "Section 120.15 A2 + 600-series (non-assurance services)"
+              }
             ]
           }
         }
@@ -175,7 +204,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.10 + 510-940" }
+              {
+                "type": "norm",
+                "naam": "IESBA Code of Ethics 2024",
+                "ref": "Section 400.10 + 510-940"
+              }
             ]
           }
         }
@@ -186,8 +219,17 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "wettekst", "naam": "Wet 7 december 2016 (revisorenwet)", "ref": "art. 14 + 56" },
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sanctie-cascade onafhankelijkheids-schending" }
+              {
+                "type": "wettekst",
+                "naam": "Wet 7 december 2016 (revisorenwet)",
+                "ref": "art. 14 + 56"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Sanctie-cascade onafhankelijkheids-schending"
+              }
             ]
           }
         }
@@ -198,7 +240,9 @@
         "id": "independence-of-mind",
         "naam": {
           "primair": "Independence of mind",
-          "synoniemen": ["onafhankelijkheid van geest"]
+          "synoniemen": [
+            "onafhankelijkheid van geest"
+          ]
         },
         "concept_type": "principe",
         "inhoud": {
@@ -208,7 +252,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.5 (a)" }
+                  {
+                    "type": "norm",
+                    "naam": "IESBA Code of Ethics 2024",
+                    "ref": "Section 400.5 (a)"
+                  }
                 ]
               }
             }
@@ -219,7 +267,9 @@
         "id": "independence-in-appearance",
         "naam": {
           "primair": "Independence in appearance",
-          "synoniemen": ["zichtbare onafhankelijkheid"]
+          "synoniemen": [
+            "zichtbare onafhankelijkheid"
+          ]
         },
         "concept_type": "principe",
         "inhoud": {
@@ -229,7 +279,53 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.5 (b)" }
+                  {
+                    "type": "norm",
+                    "naam": "IESBA Code of Ethics 2024",
+                    "ref": "Section 400.5 (b)"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "chinese-walls",
+        "naam": {
+          "primair": "Chinese walls als afschermingsmechanisme"
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Chinese walls zijn organisatorische maatregelen die binnen één kantoor functionele en fysieke scheiding creëren tussen teams die werken voor cliënten met potentieel conflicterende belangen. Componenten: (1) functionele scheiding — afzonderlijke teams zonder gedeelde teamleden; (2) fysieke scheiding — afzonderlijke werkzones, geen toevallige kantoor-ontmoetingen rond gevoelige dossiers; (3) informationele afscherming — geen toegang tot elkaars dossiers in het document-management-systeem, geen overdracht van vertrouwelijke informatie; (4) toezicht-laag — onafhankelijke partner bewaakt naleving van de muur. Klassieke toepassingen: dezelfde cliënten staan tegenover elkaar in een geschil, audit-cliënt en advies-cliënt zijn fusie-tegenpartijen, of het kantoor adviseert beide partijen in een onderhandeling.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "norm",
+                    "naam": "IESBA Code of Ethics — Section 310 Conflicts of Interest",
+                    "ref": "par. R310.10 + R310.11"
+                  },
+                  {
+                    "type": "norm",
+                    "naam": "IESBA Code of Ethics — Section 320 Professional Appointments",
+                    "ref": "par. 320.7 A1"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Chinese walls zijn een safeguard, geen wondermiddel. IESBA Section 320 maakt expliciet dat de muur niet altijd voldoende is: bij zelf-toetsings-bedreiging (auditor controleert eigen advies) of fundamentele belangenstrijd (kantoor staat aan beide kanten van een transactie waarin de uitkomst zero-sum is) blijft opdracht-weigering of opdracht-teruggave de enige correcte uitweg. De auditor moet documenteren waarom de safeguard in dit specifieke geval volstaat.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "norm",
+                    "naam": "IESBA Code of Ethics",
+                    "ref": "Section 320 — limitations of safeguards"
+                  }
                 ]
               }
             }
@@ -250,7 +346,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.10-400.15 + 120.4-120.5" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 400.10-400.15 + 120.4-120.5"
+                }
               ]
             }
           }
@@ -268,7 +368,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 510" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 510"
+                }
               ]
             }
           }
@@ -286,7 +390,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 521" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 521"
+                }
               ]
             }
           }
@@ -304,7 +412,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 600 + 950" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 600 + 950"
+                }
               ]
             }
           }
@@ -322,7 +434,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 540 + 940" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 540 + 940"
+                }
               ]
             }
           }
@@ -340,8 +456,16 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.15" },
-                { "type": "wettekst", "naam": "Wet 7 december 2016 (revisorenwet)", "ref": "art. 14" }
+                {
+                  "type": "norm",
+                  "naam": "IESBA Code of Ethics 2024",
+                  "ref": "Section 400.15"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "Wet 7 december 2016 (revisorenwet)",
+                  "ref": "art. 14"
+                }
               ]
             }
           }
@@ -356,7 +480,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 510" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 510"
+            }
           ]
         },
         "weergaven": [
@@ -378,7 +506,11 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 606 — IT systems services" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 606 — IT systems services"
+            }
           ]
         },
         "weergaven": [
@@ -402,7 +534,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.5" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 400.5"
+            }
           ]
         }
       },
@@ -413,7 +549,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.2 + 900-series" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 400.2 + 900-series"
+            }
           ]
         }
       },
@@ -424,7 +564,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 120.5 + 510.4 (absolute prohibitions)" }
+            {
+              "type": "norm",
+              "naam": "IESBA Code of Ethics 2024",
+              "ref": "Section 120.5 + 510.4 (absolute prohibitions)"
+            }
           ]
         }
       }
@@ -434,13 +578,37 @@
         "type": "matrix",
         "intro": "Onafhankelijkheid versus objectiviteit — sleutelverschillen",
         "inhoud": {
-          "kolommen": ["Aspect", "Objectiviteit", "Onafhankelijkheid"],
+          "kolommen": [
+            "Aspect",
+            "Objectiviteit",
+            "Onafhankelijkheid"
+          ],
           "rijen": [
-            ["Toepassingsgebied", "Alle beroepsactiviteiten", "Audit, review en andere assurance-opdrachten"],
-            ["Aard", "Mentale stand — geen ongepaste invloed", "Mentaal + zichtbaar — schijn telt"],
-            ["IESBA-bron", "Section 110 (fundamental principles)", "Section 400+ (International Independence Standards)"],
-            ["Strafrechtelijke kant", "Tucht via deontologie", "Tucht + voor commissaris: nietigheid + administratieve sancties FSMA bij PIE"],
-            ["Concrete verboden", "Geen voor objectiviteit als algemeen beginsel", "Lijst absolute verboden (financiële belangen, familie, bepaalde diensten)"]
+            [
+              "Toepassingsgebied",
+              "Alle beroepsactiviteiten",
+              "Audit, review en andere assurance-opdrachten"
+            ],
+            [
+              "Aard",
+              "Mentale stand — geen ongepaste invloed",
+              "Mentaal + zichtbaar — schijn telt"
+            ],
+            [
+              "IESBA-bron",
+              "Section 110 (fundamental principles)",
+              "Section 400+ (International Independence Standards)"
+            ],
+            [
+              "Strafrechtelijke kant",
+              "Tucht via deontologie",
+              "Tucht + voor commissaris: nietigheid + administratieve sancties FSMA bij PIE"
+            ],
+            [
+              "Concrete verboden",
+              "Geen voor objectiviteit als algemeen beginsel",
+              "Lijst absolute verboden (financiële belangen, familie, bepaalde diensten)"
+            ]
           ]
         }
       }
@@ -469,8 +637,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "norm", "naam": "IESBA Code of Ethics 2024", "ref": "Section 400.15" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk onafhankelijkheidsbeheer" }
+                      {
+                        "type": "norm",
+                        "naam": "IESBA Code of Ethics 2024",
+                        "ref": "Section 400.15"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Kantoorpraktijk onafhankelijkheidsbeheer"
+                      }
                     ]
                   }
                 }
@@ -488,7 +665,39 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Best-practice kantoor-onafhankelijkheidssysteem" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Best-practice kantoor-onafhankelijkheidssysteem"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "belangenconflict-informed-consent",
+              "naam": {
+                "primair": "Belangenconflict opvangen via informed consent + functiescheiding"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stappen wanneer een potentieel belangenconflict opduikt: (1) Detectie — drie scenarios: cliënt-versus-cliënt (tegengestelde belangen tussen twee opdrachtgevers), cliënt-versus-eigen-belang (kantoor heeft financieel of persoonlijk belang in uitkomst), cliënt-versus-derde (kantoor adviseerde een tegenpartij in vorige opdracht); (2) Risico-inschatting — weegt het commercieel voordeel op tegen het risico op vertrouwensschade en de reputatie-impact bij ontdekking; (3) Bij doorgang: combinatie van waarborgen — schriftelijke informed consent van álle betrokken cliënten (zij weten van het conflict en aanvaarden de opzet), Chinese walls als organisatorische afscherming, en Engagement Quality Review door een onafhankelijke partner buiten beide teams; (4) Bij weigering — tijdig en duidelijk naar cliënt communiceren waarom, en waar mogelijk een alternatief kantoor suggereren (collegiale relaties + cliënt-belang); (5) Documentatie — beslissing, motivering en safeguards in het cliënt-dossier zodat een latere inspectie kan reconstrueren waarom de opdracht aanvaardbaar was.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "norm",
+                        "naam": "IESBA Code of Ethics — Section 310 Conflicts of Interest",
+                        "ref": "par. R310.9-R310.12"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISQM 1 — Quality Management at firm level",
+                        "ref": "Engagement Quality Review-vereisten"
+                      }
                     ]
                   }
                 }
@@ -511,7 +720,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk cliënt-communicatie" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Kantoorpraktijk cliënt-communicatie"
+                      }
                     ]
                   }
                 }

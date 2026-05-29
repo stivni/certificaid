@@ -53,6 +53,50 @@ Het Wb.Inv. vervangt de oude regels uit het WIB92 en de wet van 1994. Centralisa
 **▶️ Trigger start**
 - 📖 Niet-betaling van de aanslag binnen de wettelijke termijn (2 maanden vanaf verzending aanslagbiljet) start de invorderingsprocedure.
 
+## Sub-concepten
+
+### 📦 Verzet tegen dwangbevel  
+_`procedure` (subconcept)_
+
+#### Definitie
+
+📖 Verzet is de jurisdictionele tegenactie waarmee de belastingplichtige het uitgevaardigde dwangbevel betwist. Het is — in tegenstelling tot een louter administratief bezwaar — een rechterlijke procedure die ingeleid wordt via dagvaarding van de ontvanger bij de fiscale kamer van de rechtbank van eerste aanleg. Verzet stuit de verjaring van de fiscale schuld en is de enige weg om de invorderingstitel zelf aan te vechten. Per heffingsregime gelden eigen termijnen en bevoegdheidsregels: WIB92/Wb.Inv. voor inkomstenbelasting, WBTW art. 89 voor btw, W.Reg art. 221 voor registratierechten.
+
+<small>📚 Wetboek minnelijke en gedwongen invordering — Titel 3 — _wettekst_ · W.Reg — art. 221 — _wettekst_ · WBTW — art. 89 — _wettekst_</small>
+
+#### Substantie
+
+🔗 Procedurele val voor de accountant: louter administratief bezwaar bij de gewestelijke directeur (federale PB) of bij de bevoegde administratie schorst de invordering NIET en stuit de verjaring evenmin. Verzet is jurisdictioneel: dagvaarding bij de rechtbank van eerste aanleg, fiscale kamer, met de ontvanger als verweerder. Het verzet schorst de invordering niet van rechtswege — de rechter kan op verzoek opschorten — maar bewarend beslag blijft mogelijk hangende de procedure. Voor btw geldt een strikte termijn van 1 maand vanaf betekening van het dwangbevel (art. 89 WBTW); voor registratierechten gelden gemeenrechtelijke termijnen (art. 221 W.Reg).
+
+<small>📚 WBTW — art. 89 — _wettekst_ · W.Reg — art. 221 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+#### Rationale
+
+🔗 De ratio is procedurele waarborg: het dwangbevel is een eenzijdige administratieve titel met uitvoeringskracht (art. 13 Wb.Inv.) — verzet biedt de belastingplichtige een rechterlijke toetsing van die titel. Omdat een louter administratief bezwaar geen impact heeft op de uitvoerbaarheid van het dwangbevel, is verzet het enige instrument dat zowel de verjaring stuit als de invorderingstitel ten gronde betwist. De compromis-formule: verzet stuit de verjaring (waarborg voor belastingplichtige), maar schorst de invordering niet van rechtswege (waarborg voor de schatkist).
+
+<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+#### 📜 Termijnen verzet per heffingsregime  
+_`regel`_
+
+❓ WBTW art. 89: 1 maand vanaf betekening van het dwangbevel — strikt, niet verlengbaar. W.Reg art. 221: dagvaarding voor de rechtbank van eerste aanleg, fiscale kamer, binnen de gemeenrechtelijke termijn — best zo snel mogelijk om bewarend beslag te vermijden. WIB92/Wb.Inv.: verzet via dagvaarding tegen de ontvanger, conform Wb.Inv. + Gerechtelijk Wetboek. Vormvereiste: dagvaarding (geen aangetekende brief volstaat).
+
+<small>📚 WBTW — art. 89 — _wettekst_ · W.Reg — art. 221 — _wettekst_ · Wetboek minnelijke en gedwongen invordering — Titel 3 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+#### ⚙️ Effect op invordering en verjaring  
+_`mechanisme`_
+
+🔗 Verzet stuit de verjaring van de fiscale schuld — een nieuwe termijn begint te lopen na het in kracht van gewijsde gaan van de eindbeslissing. Verzet schorst echter NIET automatisch de uitvoering van het dwangbevel: bewarend beslag blijft mogelijk (loon, bankrekening, hypothecaire inschrijving). De rechter kan op gemotiveerd verzoek opschorting bevelen, doorgaans op voorwaarde van een waarborg of betaling onder voorbehoud van het onbetwist gedeelte.
+
+<small>📚 Wetboek minnelijke en gedwongen invordering — art. 23-24 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+#### ⚠️ Valkuil: bezwaar versus verzet  
+_`risico`_
+
+🔗 Een louter administratief bezwaar (federale PB: gewestelijke directeur; btw: bezwaarschrift bij administratie; registratie: bezwaar bij Vlabel/SPW/Brussel Fiscaliteit) is GEEN verzet en stuit de verjaring van het dwangbevel niet. Wie enkel bezwaar indient en verder geen verzet aantekent, riskeert dat de invorderingstitel definitief wordt ondanks de lopende administratieve betwisting. Vuistregel voor de accountant: bij ontvangst van een dwangbevel ALTIJD parallel verzet overwegen — niet enkel administratief bezwaar.
+
+<small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
 ## Bouwstenen
 
 ### 👣 Stap 1 — Minnelijke invordering  

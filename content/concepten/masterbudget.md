@@ -50,6 +50,47 @@ _Procedure_
 **✅ Voor**
 - 🔗 Mid-size en grote ondernemingen met meerdere afdelingen, investeringscycli, financieringsbeslissingen. Banken en RvB-leden vragen het masterbudget als onderbouwing voor kredietverlening en strategie-evaluatie.
 
+## Sub-concepten
+
+### 📦 Kasstroomprognose / rolling forecast  
+_`procedure` (subconcept)_
+
+#### Definitie
+
+🤖 Een kasstroomprognose is een cash-budget op een kortere horizon dan het masterbudget, typisch een **13-weken-prognose** die maandelijks (of zelfs wekelijks) wordt geüpdatet. Doelstelling: een actueel beeld van de liquiditeitspositie + scenario-analyse op korte termijn (baseline / pessimistisch / optimistisch). Waar het cash-budget binnen het masterbudget jaarlijks-statisch is, is de rolling forecast continu bijgewerkt — oudste week valt weg, nieuwste week komt erbij.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### Substantie
+
+🤖 Bouwstenen van de rolling forecast: (a) **inkomende kasstromen** op basis van DSO (gemiddelde klanten-betalingstermijn) toegepast op verkoop-pipeline; (b) **uitgaande kasstromen** = vaste kosten (loon, huur, leningaflossingen) + DPO-gestuurde leveranciersbetalingen; (c) seizoeneffecten (BTW-betalingen op kwartaalbasis, voorafbetalingen VenB); (d) geplande kapitaal-investeringen; (e) belastingbetalingen; (f) dividend-uitkeringen. Output: cash-positie per week + de kortste-tijdshorizon waarin een krediet-faciliteit moet worden aangesproken.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### Rationale
+
+🤖 De rolling forecast vertaalt de structurele [[functionele-balans#NT]]-evolutie (nettothesaurie als verschil tussen permanente financiering en duurzame behoefte) naar een week-by-week-praktijk: wat is de cash-positie op elk moment, met welke marge tegenover de gecommitteerde kredietlijnen?
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### 🧭 Waarom 13 weken?  
+_`vuistregel`_
+
+🤖 13 weken = één kwartaal = voldoende horizon om de meeste cyclische cash-effecten te zien (BTW-aangifte, kwartaal-eindfacturatie, voorafbetaling VenB) zonder zo ver te gaan dat de prognose onbetrouwbaar wordt. Korter dan 4 weken: te kortzichtig voor liquiditeitsbeheer; langer dan 26 weken: assumpties te speculatief voor wekelijkse beslissingen.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### ⚙️ Drie scenario's per update  
+_`mechanisme`_
+
+🤖 Per update drie scenario's: (1) **baseline** = meest waarschijnlijke verwachting op basis van pipeline + historische DSO/DPO; (2) **pessimistisch** = late klantbetaling (DSO +15 dagen) + uitval grootste klant; (3) **optimistisch** = sneller incasso + extra order. Kortste-tijdshorizon-vraag: 'in welke week komt de cash-positie onder 0 in scenario pessimistisch?'.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+
+**✅ Voor**
+- 🤖 CFO-dashboard, treasury-management, kredietnegotiatie met bank, bewaking van covenant-ratio's, faillissementsdreiging-monitoring.
+
 ## Bouwstenen
 
 ### 💡 Vier deelbudgetten binnen het masterbudget  
@@ -131,6 +172,19 @@ _`stap`_
 🔗 Banken willen drie scenario's (base, worst, best) met pro-forma jaarrekening + maandelijks cash-budget voor de looptijd van het krediet (typisch 5 jaar). Sleutel-ratio's die de bank zal opvragen: schuldgraad, current ratio, interest coverage, debt service coverage (cashflow / aflossingen + interesten). Een goed masterbudget toont expliciet dat ook in worst case de DSCR > 1,2 blijft. Onderbouw elke aanname met externe bron of historische data — banken vertrouwen niet op 'we denken dat de omzet stijgt'.
 
 <small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### Treasury / cash-monitoring
+
+_De accountant ondersteunt CFO/zaakvoerder bij wekelijks of maandelijks cash-monitoring via een rolling forecast._
+
+#### 🧭 Adviseur
+
+##### 👣 Rolling forecast maandelijks updaten  
+_`stap`_
+
+🤖 Maandelijkse update-cyclus rolling forecast (4 stappen): (1) **Verzamel actuele realisaties** — werkelijke ontvangsten + uitgaven van afgelopen periode + revisie van prognose-assumpties (heeft DSO zich gewijzigd? heeft een grote klant uitstel gevraagd?). (2) **Update rolling forecast** — oudste week weg, nieuwste week erbij; pas baseline aan op basis van werkelijke realisaties. (3) **Identificeer afwijkingen** tegenover vorige baseline + actie-vereisten (extra incasso-druk? leverancier vragen voor verlenging DPO?). (4) **Communiceer naar management** — dashboard met cash-positie per week + waarschuwing bij dreigend tekort + aanbeveling kredietlijn.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
 
 ## Verder lezen (scope-out)
 

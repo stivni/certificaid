@@ -196,6 +196,17 @@ _`stap`_
 
 <small>📚 ISA 260 — Communicatie met de met governance belaste personen — vereisten — _norm_ · WVV — Wetboek van vennootschappen en verenigingen — art. 7:99 — _wettekst_</small>
 
+##### 👣 Toezicht op JR-schema-keuze + verplichte vermeldingen  
+_`stap`_
+
+📖 Tijdens de controle gaat de commissaris na of het door het bestuursorgaan gekozen jaarrekening-schema (volledig / verkort / micro) in overeenstemming is met de grootte-categorie van de vennootschap (WVV art. 1:24-1:27). Stappen: (1) Verifiëren grootte-categorie aan hand van personeel, omzet en balanstotaal — toets aan twee opeenvolgende boekjaren (twee-jaar-overschrijdings-regel WVV art. 1:24 §2); (2) Bij grootte-categorie-overgang: controleren of het bestuursorgaan correct het overgangsregime toepast (overgang pas vanaf derde overschrijdingsjaar); (3) Toetsen of alle wettelijk verplichte vermeldingen in de toelichting aanwezig zijn — waarderingsregels (KB WVV art. 3:6), mutatietabel vaste activa (afschrijvingen, aanwinsten, buitengebruikstellingen), bestuurdersbezoldigingen indien volledig schema, niet-in-balans-opgenomen rechten en verplichtingen, gebeurtenissen na balansdatum; (4) Vermelden in controleverklaring indien afwijkingen materieel zijn — hetzij oordeel-met-voorbehoud (ISA 705) hetzij KAM/toelichtingsparagraaf bij minder ernstige issues.
+
+<small>📚 WVV — Wetboek van vennootschappen en verenigingen — art. 1:24-1:27 (grootte-criteria) + art. 3:6 (waarderingsregels) — _wettekst_ · ISA 705 — Modifications to the Opinion in the Independent Auditor Report — par. 6-11 — _norm_</small>
+
+**Rationale**: 🤖 Misalignment tussen feitelijke grootte en gekozen schema is een klassieke fout — vooral bij vennootschappen in groei die te lang in verkort schema blijven. De commissaris dekt twee risicos af: (a) onvolledige openbaarmaking (gebruikers krijgen minder informatie dan wettelijk vereist) en (b) materiële afwijking in jaarrekening zelf door ontbrekende verplichte vermeldingen.
+
+<small>📚 Claude Opus 4.7 — inferentie 2026-05-29 — _ai_model_</small>
+
 ### Bestuurder van de gecontroleerde vennootschap
 
 _Hoe interageert het bestuur met de commissaris — uit het perspectief van de gecertificeerd accountant die het bestuur adviseert._

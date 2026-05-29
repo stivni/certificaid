@@ -259,6 +259,13 @@ _`stap`_
 
 <small>📚 WVV — art. 5:4 — _wettekst_ · WVV — art. 5:16 — _wettekst_ · WVV — art. 7:3 — _wettekst_</small>
 
+##### 👣 Begeleiden bij oprichting eenmanszaak  
+_`stap`_
+
+❓ Stappenplan voor de accountant bij oprichting eenmanszaak: (1) **Inschrijving in de KBO** — ondernemingsnummer aanvragen via een ondernemingsloket (Acerta, Securex, Liantis, ...). (2) **BTW-keuze** — regulier BTW-regime vs vrijstellingsregeling kleine onderneming (omzet-drempel **25.000 EUR** — orde van grootte AJ 2026, exacte drempel te verifiëren in Cijferzakboekje). (3) **Sociaal statuut** — aansluiting bij een sociale-verzekeringskas voor zelfstandigen, **vóór** aanvang activiteit. (4) **Voorafbetalingen personenbelasting** bepalen — vermijden van verlies van bonifications en van vermeerderingen wegens onvoldoende voorafbetaling. (5) **Boekhoudplicht** vastleggen — vereenvoudigde vs dubbele boekhouding, afhankelijk van WER Boek III-grootte-categorie (omzet > 500.000 EUR excl. BTW = dubbele boekhouding verplicht — verifieer in CBN-advies 2019/11 + WER art. III.85). (6) **Pro-forma-begroting eerste boekjaar** — omzet/kosten/winst-prognose + cash-positie + break-even-analyse. (7) **BTW-aangifte-ritmiek** — maandelijks (omzet > 2,5 M EUR) / kwartaal (default) / jaarlijks (vrijstellingsregeling), afhankelijk van omzet. Bonus: opening klanten-dossier triggert [[antiwitwaspreventie]]-KYC; geschillen met fiscus volgen [[fiscale-procedure]].
+
+<small>📚 WIB92 — art. 23 — _wettekst_ · WER — art. III.85 — _wettekst_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
 #### 💰 Fiscaal adviseur
 
 ##### 📜 Quick-scan PB vs VenB voor cliënt  

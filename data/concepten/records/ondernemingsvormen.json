@@ -17,7 +17,10 @@
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["kader", "entiteit"],
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
     "ankers": [
       "3.0.I",
       "3.0.I.A",
@@ -58,6 +61,13 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "cluster-extract-vennootschapsvormen-2026-05-28",
         "wijziging": "Σ-hoofdrecord gevuld vanuit bundle-chunks + 2 extra MCP-calls (WVV art. 1:5, 1:6, 4:13). Vergelijkingsmatrix-synthese over 7 vormen × 5 dimensies opgesteld."
+      },
+      {
+        "operatie": "didactisch_verrijken",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-fill-2026-05-29",
+        "wijziging": "Perspectief-element begeleiding-oprichting-eenmanszaak (KBO + BTW + sociaal statuut + voorafbetalingen + boekhoudplicht + pro-forma + BTW-ritmiek) toegevoegd ivm minicursus-gap-analyse."
       }
     ],
     "scope": {
@@ -69,16 +79,56 @@
         "Sub-sectie #fiscale-keuze — eenmanszaak/PB vs vennootschap/VenB · KMO-tarief-context"
       ],
       "out": [
-        {"topic": "Specifieke vorm: BV — default WVV-vorm sinds 2019", "richting": "moet-verwijzen", "ref": "besloten-vennootschap"},
-        {"topic": "Specifieke vorm: NV", "richting": "moet-verwijzen", "ref": "naamloze-vennootschap"},
-        {"topic": "Specifieke vorm: CV — coöperatief doel", "richting": "moet-verwijzen", "ref": "cooperatieve-vennootschap"},
-        {"topic": "Specifieke vorm: VOF — volle aansprakelijkheid", "richting": "moet-verwijzen", "ref": "vennootschap-onder-firma"},
-        {"topic": "Specifieke vorm: CommV", "richting": "moet-verwijzen", "ref": "commanditaire-vennootschap"},
-        {"topic": "Specifieke vorm: maatschap — geen rechtspersoonlijkheid · fiscaal-transparant", "richting": "moet-verwijzen", "ref": "maatschap"},
-        {"topic": "Specifieke vorm: VZW", "richting": "moet-verwijzen", "ref": "vereniging-zonder-winstoogmerk"},
-        {"topic": "Grootte-categorieën cascade (jaarrekening-schema · commissaris · consolidatie)", "richting": "moet-verwijzen", "ref": "vennootschap-groottecategorieen"},
-        {"topic": "Oprichting van een vennootschap — keten-vervolg", "richting": "moet-verwijzen", "ref": "oprichting-vennootschap"},
-        {"topic": "Aansprakelijkheid bestuurders + oprichters per vorm", "richting": "moet-verwijzen", "ref": "bestuurdersaansprakelijkheid"}
+        {
+          "topic": "Specifieke vorm: BV — default WVV-vorm sinds 2019",
+          "richting": "moet-verwijzen",
+          "ref": "besloten-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: NV",
+          "richting": "moet-verwijzen",
+          "ref": "naamloze-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: CV — coöperatief doel",
+          "richting": "moet-verwijzen",
+          "ref": "cooperatieve-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: VOF — volle aansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-onder-firma"
+        },
+        {
+          "topic": "Specifieke vorm: CommV",
+          "richting": "moet-verwijzen",
+          "ref": "commanditaire-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: maatschap — geen rechtspersoonlijkheid · fiscaal-transparant",
+          "richting": "moet-verwijzen",
+          "ref": "maatschap"
+        },
+        {
+          "topic": "Specifieke vorm: VZW",
+          "richting": "moet-verwijzen",
+          "ref": "vereniging-zonder-winstoogmerk"
+        },
+        {
+          "topic": "Grootte-categorieën cascade (jaarrekening-schema · commissaris · consolidatie)",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Oprichting van een vennootschap — keten-vervolg",
+          "richting": "moet-verwijzen",
+          "ref": "oprichting-vennootschap"
+        },
+        {
+          "topic": "Aansprakelijkheid bestuurders + oprichters per vorm",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
       ]
     }
   },
@@ -89,8 +139,18 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5", "context": "Limitatieve lijst van rechtsvormen vennootschappen"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:6", "context": "Limitatieve lijst van rechtsvormen verenigingen"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:5",
+              "context": "Limitatieve lijst van rechtsvormen vennootschappen"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:6",
+              "context": "Limitatieve lijst van rechtsvormen verenigingen"
+            }
           ]
         }
       },
@@ -99,10 +159,29 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:13", "context": "Aanvangsvermogen BV vervangt minimumkapitaal"},
-            {"type": "advies", "naam": "CBN 2019/11", "ref": "Beoogde personen - rechtsvorm", "context": "Welke rechtsvormen vereenvoudigde boekhouding mogen voeren"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese WVV-impact"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:5"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 4:13",
+              "context": "Aanvangsvermogen BV vervangt minimumkapitaal"
+            },
+            {
+              "type": "advies",
+              "naam": "CBN 2019/11",
+              "ref": "Beoogde personen - rechtsvorm",
+              "context": "Welke rechtsvormen vereenvoudigde boekhouding mogen voeren"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese WVV-impact"
+            }
           ]
         }
       },
@@ -111,14 +190,27 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV-MvT", "ref": "Inleidende bepalingen", "context": "Modernisering en flexibilisering vennootschapsrecht 2019"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer WVV-doctrine (Geens-hervorming)"}
+            {
+              "type": "wettekst",
+              "naam": "WVV-MvT",
+              "ref": "Inleidende bepalingen",
+              "context": "Modernisering en flexibilisering vennootschapsrecht 2019"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaardleer WVV-doctrine (Geens-hervorming)"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["vennootschapsrecht", "boekhoudplicht"],
+      "voorvereisten": [
+        "vennootschapsrecht",
+        "boekhoudplicht"
+      ],
       "volgkennis": [
         "besloten-vennootschap",
         "naamloze-vennootschap",
@@ -144,8 +236,18 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV", "ref": "art. 2:1", "context": "Oprichtingsformaliteiten"},
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk"}
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 2:1",
+                "context": "Oprichtingsformaliteiten"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Standaard adviespraktijk"
+              }
             ]
           }
         }
@@ -156,7 +258,12 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV", "ref": "art. 14:2", "context": "Omzetting met behoud van rechtspersoonlijkheid"}
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 14:2",
+                "context": "Omzetting met behoud van rechtspersoonlijkheid"
+              }
             ]
           }
         }
@@ -167,9 +274,24 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "wettekst", "naam": "WIB92", "ref": "art. 215", "context": "Verlaagd VenB-tarief kleine vennootschappen"},
-              {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14", "context": "Vermogensafscheiding bij rechtspersoonlijkheid"},
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard keuze-criteria adviespraktijk"}
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 215",
+                "context": "Verlaagd VenB-tarief kleine vennootschappen"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 4:14",
+                "context": "Vermogensafscheiding bij rechtspersoonlijkheid"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Standaard keuze-criteria adviespraktijk"
+              }
             ]
           }
         }
@@ -180,9 +302,24 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14", "context": "Hoofdelijke aansprakelijkheid maatschap-vennoten"},
-              {"type": "wettekst", "naam": "WIB92", "ref": "art. 29", "context": "Fiscale transparantie maatschap"},
-              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviesrisico's"}
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 4:14",
+                "context": "Hoofdelijke aansprakelijkheid maatschap-vennoten"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 29",
+                "context": "Fiscale transparantie maatschap"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Standaard adviesrisico's"
+              }
             ]
           }
         }
@@ -191,7 +328,9 @@
     "subconcepten": [
       {
         "id": "wvv-systematiek",
-        "naam": {"primair": "WVV-systematiek"},
+        "naam": {
+          "primair": "WVV-systematiek"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -200,8 +339,16 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WVV", "ref": "structuur — boeken 1-18"},
-                  {"type": "wettekst", "naam": "WVV-MvT", "ref": "Inleidende bepalingen"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "structuur — boeken 1-18"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV-MvT",
+                    "ref": "Inleidende bepalingen"
+                  }
                 ]
               }
             },
@@ -210,8 +357,18 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WVV-MvT", "ref": "Art. 4:13", "context": "Continuïteit met W.Venn. art. 52 — hoofdelijke aansprakelijkheid"},
-                  {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrinale praktijk"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV-MvT",
+                    "ref": "Art. 4:13",
+                    "context": "Continuïteit met W.Venn. art. 52 — hoofdelijke aansprakelijkheid"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Doctrinale praktijk"
+                  }
                 ]
               }
             }
@@ -220,7 +377,9 @@
       },
       {
         "id": "fiscale-keuze-rechtsvorm",
-        "naam": {"primair": "Fiscale keuze rechtsvorm"},
+        "naam": {
+          "primair": "Fiscale keuze rechtsvorm"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -229,9 +388,24 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WIB92", "ref": "art. 179", "context": "VenB-plichtige rechtsvormen"},
-                  {"type": "wettekst", "naam": "WIB92", "ref": "art. 215", "context": "Standaard- en verlaagd VenB-tarief"},
-                  {"type": "wettekst", "naam": "WIB92", "ref": "art. 23", "context": "Beroepsinkomsten natuurlijke persoon"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 179",
+                    "context": "VenB-plichtige rechtsvormen"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 215",
+                    "context": "Standaard- en verlaagd VenB-tarief"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 23",
+                    "context": "Beroepsinkomsten natuurlijke persoon"
+                  }
                 ]
               }
             },
@@ -240,7 +414,12 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard kantel-thumb-rule fiscale adviespraktijk"}
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Standaard kantel-thumb-rule fiscale adviespraktijk"
+                  }
                 ]
               }
             }
@@ -249,7 +428,9 @@
       },
       {
         "id": "wanneer-welke-vorm",
-        "naam": {"primair": "Wanneer welke vorm"},
+        "naam": {
+          "primair": "Wanneer welke vorm"
+        },
         "concept_type": "kader",
         "inhoud": {
           "kern": {
@@ -258,9 +439,23 @@
               "grondslag": {
                 "confidence": "afgeleid",
                 "bronnen": [
-                  {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
-                  {"type": "wettekst", "naam": "WVV", "ref": "art. 6:1", "context": "Definitie CV — coöperatief doel"},
-                  {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese keuze-criteria"}
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 1:5"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 6:1",
+                    "context": "Definitie CV — coöperatief doel"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-extract-agent (opus-4.7-1M)",
+                    "datum": "2026-05-28",
+                    "context": "Synthese keuze-criteria"
+                  }
                 ]
               }
             }
@@ -271,7 +466,9 @@
     "bouwstenen": [
       {
         "id": "vergelijkingsmatrix-7-vormen",
-        "naam": {"primair": "Vergelijkingsmatrix 7 ondernemingsvormen"},
+        "naam": {
+          "primair": "Vergelijkingsmatrix 7 ondernemingsvormen"
+        },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
@@ -279,10 +476,29 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:13", "context": "Aanvangsvermogen BV"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "Minimumkapitaal NV 61.500 EUR"},
-                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Matrix-synthese"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 1:5"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 4:13",
+                  "context": "Aanvangsvermogen BV"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 7:2",
+                  "context": "Minimumkapitaal NV 61.500 EUR"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "Matrix-synthese"
+                }
               ]
             }
           }
@@ -290,22 +506,88 @@
         "weergaven": [
           {
             "type": "vergelijkingstabel",
-            "kolommen": ["Vorm", "Rechtspersoonlijkheid", "Aansprakelijkheid vennoten", "Minimum-inbreng / kapitaal", "Bestuur", "Winstverdeling", "Fiscale aanknoping"],
+            "kolommen": [
+              "Vorm",
+              "Rechtspersoonlijkheid",
+              "Aansprakelijkheid vennoten",
+              "Minimum-inbreng / kapitaal",
+              "Bestuur",
+              "Winstverdeling",
+              "Fiscale aanknoping"
+            ],
             "rijen": [
-              ["Maatschap", "Nee (art. 1:5 §1)", "Onbeperkt hoofdelijk privévermogen (art. 4:14)", "Geen wettelijk minimum", "Statutair vrij — meestal alle vennoten samen", "Pro rata inbreng tenzij statuten anders", "Transparant — PB op niveau vennoot (art. 29 WIB92)"],
-              ["VOF (vennootschap onder firma)", "Ja (art. 1:5 §2)", "Onbeperkt hoofdelijk privévermogen vennoten", "Geen wettelijk minimum", "Beherende vennoten samen of statutair", "Statutair vrij — pro rata default", "VenB (art. 179 WIB92)"],
-              ["CommV (commanditaire vennootschap)", "Ja (art. 1:5 §2)", "Gecommanditeerden: onbeperkt; commanditaire vennoten: beperkt tot inbreng", "Geen wettelijk minimum", "Enkel gecommanditeerde vennoten — commanditaire mogen niet besturen", "Statutair vrij", "VenB"],
-              ["BV (besloten vennootschap)", "Ja (art. 1:5 §2) — DEFAULT WVV-vorm sinds 2019", "Beperkt tot inbreng (art. 5:1)", "Geen minimumkapitaal — wel 'toereikend aanvangsvermogen' (art. 5:3) met financieel plan", "Eén of meer bestuurders — kan ook collegiaal", "Vrij in statuten — verschillende soorten aandelen mogelijk", "VenB — KMO-tarief 20 % mogelijk"],
-              ["CV (coöperatieve vennootschap)", "Ja (art. 1:5 §2)", "Beperkt tot inbreng", "Geen minimumkapitaal — toereikend aanvangsvermogen", "Bestuursorgaan — coöperatief beginsel '1 vennoot = 1 stem' niet verplicht", "Volgens coöperatief doel (art. 6:1) — moet behoefte van vennoten dienen", "VenB — erkenning als 'erkende CV' geeft fiscale voordelen"],
-              ["NV (naamloze vennootschap)", "Ja (art. 1:5 §2)", "Beperkt tot inbreng", "Minimumkapitaal 61.500 EUR volgestort (art. 7:2)", "Drie modellen: monistisch (1 RvB), duaal (RvT + directieraad), enige bestuurder (art. 7:85 e.v.)", "Pro rata aandelen — verschillende soorten mogelijk (art. 7:60)", "VenB — KMO-tarief mogelijk indien kwalificeert als klein"],
-              ["VZW (vereniging zonder winstoogmerk)", "Ja (art. 1:6 §2)", "Beperkt — leden niet persoonlijk aansprakelijk", "Geen kapitaal — geen winstoogmerk (art. 9:1)", "Bestuursorgaan benoemd door AV — min 3 leden", "Geen winstverdeling toegestaan — surplus naar belangeloos doel (art. 9:23)", "Rechtspersonenbelasting (RPB, art. 220 WIB92) of VenB indien commerciële activiteit"]
+              [
+                "Maatschap",
+                "Nee (art. 1:5 §1)",
+                "Onbeperkt hoofdelijk privévermogen (art. 4:14)",
+                "Geen wettelijk minimum",
+                "Statutair vrij — meestal alle vennoten samen",
+                "Pro rata inbreng tenzij statuten anders",
+                "Transparant — PB op niveau vennoot (art. 29 WIB92)"
+              ],
+              [
+                "VOF (vennootschap onder firma)",
+                "Ja (art. 1:5 §2)",
+                "Onbeperkt hoofdelijk privévermogen vennoten",
+                "Geen wettelijk minimum",
+                "Beherende vennoten samen of statutair",
+                "Statutair vrij — pro rata default",
+                "VenB (art. 179 WIB92)"
+              ],
+              [
+                "CommV (commanditaire vennootschap)",
+                "Ja (art. 1:5 §2)",
+                "Gecommanditeerden: onbeperkt; commanditaire vennoten: beperkt tot inbreng",
+                "Geen wettelijk minimum",
+                "Enkel gecommanditeerde vennoten — commanditaire mogen niet besturen",
+                "Statutair vrij",
+                "VenB"
+              ],
+              [
+                "BV (besloten vennootschap)",
+                "Ja (art. 1:5 §2) — DEFAULT WVV-vorm sinds 2019",
+                "Beperkt tot inbreng (art. 5:1)",
+                "Geen minimumkapitaal — wel 'toereikend aanvangsvermogen' (art. 5:3) met financieel plan",
+                "Eén of meer bestuurders — kan ook collegiaal",
+                "Vrij in statuten — verschillende soorten aandelen mogelijk",
+                "VenB — KMO-tarief 20 % mogelijk"
+              ],
+              [
+                "CV (coöperatieve vennootschap)",
+                "Ja (art. 1:5 §2)",
+                "Beperkt tot inbreng",
+                "Geen minimumkapitaal — toereikend aanvangsvermogen",
+                "Bestuursorgaan — coöperatief beginsel '1 vennoot = 1 stem' niet verplicht",
+                "Volgens coöperatief doel (art. 6:1) — moet behoefte van vennoten dienen",
+                "VenB — erkenning als 'erkende CV' geeft fiscale voordelen"
+              ],
+              [
+                "NV (naamloze vennootschap)",
+                "Ja (art. 1:5 §2)",
+                "Beperkt tot inbreng",
+                "Minimumkapitaal 61.500 EUR volgestort (art. 7:2)",
+                "Drie modellen: monistisch (1 RvB), duaal (RvT + directieraad), enige bestuurder (art. 7:85 e.v.)",
+                "Pro rata aandelen — verschillende soorten mogelijk (art. 7:60)",
+                "VenB — KMO-tarief mogelijk indien kwalificeert als klein"
+              ],
+              [
+                "VZW (vereniging zonder winstoogmerk)",
+                "Ja (art. 1:6 §2)",
+                "Beperkt — leden niet persoonlijk aansprakelijk",
+                "Geen kapitaal — geen winstoogmerk (art. 9:1)",
+                "Bestuursorgaan benoemd door AV — min 3 leden",
+                "Geen winstverdeling toegestaan — surplus naar belangeloos doel (art. 9:23)",
+                "Rechtspersonenbelasting (RPB, art. 220 WIB92) of VenB indien commerciële activiteit"
+              ]
             ]
           }
         ]
       },
       {
         "id": "vergelijkingsmatrix-dimensie-kapitaal",
-        "naam": {"primair": "Dimensie kapitaal/inbreng — cascade na WVV"},
+        "naam": {
+          "primair": "Dimensie kapitaal/inbreng — cascade na WVV"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -313,11 +595,36 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:13", "context": "Aanvangsvermogen vervangt minimumkapitaal"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "Toereikend aanvangsvermogen BV"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Financieel plan oprichting"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:142", "context": "Dubbele uitkeringstoets BV"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "Minimumkapitaal NV 61.500 EUR"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 4:13",
+                  "context": "Aanvangsvermogen vervangt minimumkapitaal"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 5:3",
+                  "context": "Toereikend aanvangsvermogen BV"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 5:4",
+                  "context": "Financieel plan oprichting"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 5:142",
+                  "context": "Dubbele uitkeringstoets BV"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 7:2",
+                  "context": "Minimumkapitaal NV 61.500 EUR"
+                }
               ]
             }
           }
@@ -325,7 +632,9 @@
       },
       {
         "id": "vergelijkingsmatrix-dimensie-aansprakelijkheid",
-        "naam": {"primair": "Dimensie aansprakelijkheid — drie niveaus"},
+        "naam": {
+          "primair": "Dimensie aansprakelijkheid — drie niveaus"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -333,9 +642,24 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14", "context": "Hoofdelijke aansprakelijkheid maatschap → VOF"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 5:1", "context": "Beperkte aansprakelijkheid BV-aandeelhouders"},
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 2:57", "context": "Aansprakelijkheidsplafonds bestuurders"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 4:14",
+                  "context": "Hoofdelijke aansprakelijkheid maatschap → VOF"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 5:1",
+                  "context": "Beperkte aansprakelijkheid BV-aandeelhouders"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 2:57",
+                  "context": "Aansprakelijkheidsplafonds bestuurders"
+                }
               ]
             }
           }
@@ -343,7 +667,9 @@
       },
       {
         "id": "vergelijkingsmatrix-dimensie-fiscaal",
-        "naam": {"primair": "Dimensie fiscale aanknoping"},
+        "naam": {
+          "primair": "Dimensie fiscale aanknoping"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -351,11 +677,34 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WIB92", "ref": "art. 23"},
-                {"type": "wettekst", "naam": "WIB92", "ref": "art. 29", "context": "Transparantie maatschap"},
-                {"type": "wettekst", "naam": "WIB92", "ref": "art. 179", "context": "VenB-onderworpen"},
-                {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
-                {"type": "wettekst", "naam": "WIB92", "ref": "art. 220", "context": "RPB-plichtigen incl. VZW"}
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 23"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 29",
+                  "context": "Transparantie maatschap"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 179",
+                  "context": "VenB-onderworpen"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 215"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 220",
+                  "context": "RPB-plichtigen incl. VZW"
+                }
               ]
             }
           }
@@ -363,7 +712,9 @@
       },
       {
         "id": "vergelijkingsmatrix-dimensie-boekhoudplicht",
-        "naam": {"primair": "Dimensie boekhoudplicht — vereenvoudigd vs dubbel"},
+        "naam": {
+          "primair": "Dimensie boekhoudplicht — vereenvoudigd vs dubbel"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -371,8 +722,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "advies", "naam": "CBN 2019/11", "ref": "Beoogde personen - rechtsvorm", "context": "Letterlijke opsomming rechtsvormen vereenvoudigde boekhouding"},
-                {"type": "wettekst", "naam": "WER", "ref": "art. III.85"}
+                {
+                  "type": "advies",
+                  "naam": "CBN 2019/11",
+                  "ref": "Beoogde personen - rechtsvorm",
+                  "context": "Letterlijke opsomming rechtsvormen vereenvoudigde boekhouding"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WER",
+                  "ref": "art. III.85"
+                }
               ]
             }
           }
@@ -380,7 +740,9 @@
       },
       {
         "id": "behoud-rechtspersoonlijkheid-omzetting",
-        "naam": {"primair": "Behoud van rechtspersoonlijkheid bij omzetting"},
+        "naam": {
+          "primair": "Behoud van rechtspersoonlijkheid bij omzetting"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -388,7 +750,12 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV", "ref": "art. 14:2", "context": "'blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm'"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 14:2",
+                  "context": "'blijft haar rechtspersoonlijkheid onveranderd voortbestaan in de nieuwe vorm'"
+                }
               ]
             }
           }
@@ -403,9 +770,24 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "BV-aanvangsvermogen + financieel plan"},
-            {"type": "wettekst", "naam": "WIB92", "ref": "art. 215", "context": "VenB-tarieven"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitgewerkt keuze-voorbeeld"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:3",
+              "context": "BV-aanvangsvermogen + financieel plan"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 215",
+              "context": "VenB-tarieven"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Uitgewerkt keuze-voorbeeld"
+            }
           ]
         },
         "weergaven": [
@@ -428,9 +810,24 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5 §1", "context": "Maatschap zonder rechtspersoonlijkheid"},
-            {"type": "wettekst", "naam": "WIB92", "ref": "art. 29", "context": "Fiscale transparantie maatschap"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard familiale-maatschap-structuur"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:5 §1",
+              "context": "Maatschap zonder rechtspersoonlijkheid"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 29",
+              "context": "Fiscale transparantie maatschap"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard familiale-maatschap-structuur"
+            }
           ]
         },
         "weergaven": [
@@ -453,8 +850,18 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 14:2", "context": "Behoud rechtspersoonlijkheid bij omzetting"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 41", "context": "Overgangsbepalingen WVV"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 14:2",
+              "context": "Behoud rechtspersoonlijkheid bij omzetting"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 41",
+              "context": "Overgangsbepalingen WVV"
+            }
           ]
         },
         "weergaven": [
@@ -479,9 +886,21 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:13"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 7:2"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:3"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 4:13"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 7:2"
+            }
           ]
         }
       },
@@ -492,7 +911,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 4:14"
+            }
           ]
         }
       },
@@ -503,8 +926,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 4:14"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 1:5"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 4:14"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:5"
+            }
           ]
         }
       },
@@ -515,9 +946,24 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 9:1", "context": "Belangeloos doel VZW"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 9:23", "context": "Verbod winstuitkering"},
-            {"type": "wettekst", "naam": "WIB92", "ref": "art. 181", "context": "VenB-onderwerping VZW commerciële activiteit"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 9:1",
+              "context": "Belangeloos doel VZW"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 9:23",
+              "context": "Verbod winstuitkering"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 181",
+              "context": "VenB-onderwerping VZW commerciële activiteit"
+            }
           ]
         }
       }
@@ -526,31 +972,69 @@
       {
         "titel": "Eenmanszaak vs vennootschap — kantelpunt",
         "opties": [
-          {"keuze": "Eenmanszaak (PB)", "voordeel": "Lage oprichtingskost, eenvoudige boekhouding (vereenvoudigd indien omzet < 500.000 EUR), geen aparte rechtspersoon, directe beschikking over winst.", "nadeel": "PB-progressief tot 50 % + sociale bijdragen, geen aansprakelijkheidsbeperking (privévermogen blootgesteld), beperktere fiscale optimalisatiemogelijkheden."},
-          {"keuze": "Vennootschap (BV — default)", "voordeel": "VenB 25 % (of 20 % KMO), aansprakelijkheidsbeperking, ruimere fiscale optimalisatie (dividend, bezoldiging-mix, kostenaftrek), professionalisering naar derden.", "nadeel": "Oprichtingskost notariële akte (~1.500-2.500 EUR), dubbele boekhouding verplicht, jaarrekening publicatie + neerleggen, financieel plan oprichting."}
+          {
+            "keuze": "Eenmanszaak (PB)",
+            "voordeel": "Lage oprichtingskost, eenvoudige boekhouding (vereenvoudigd indien omzet < 500.000 EUR), geen aparte rechtspersoon, directe beschikking over winst.",
+            "nadeel": "PB-progressief tot 50 % + sociale bijdragen, geen aansprakelijkheidsbeperking (privévermogen blootgesteld), beperktere fiscale optimalisatiemogelijkheden."
+          },
+          {
+            "keuze": "Vennootschap (BV — default)",
+            "voordeel": "VenB 25 % (of 20 % KMO), aansprakelijkheidsbeperking, ruimere fiscale optimalisatie (dividend, bezoldiging-mix, kostenaftrek), professionalisering naar derden.",
+            "nadeel": "Oprichtingskost notariële akte (~1.500-2.500 EUR), dubbele boekhouding verplicht, jaarrekening publicatie + neerleggen, financieel plan oprichting."
+          }
         ],
         "vuistregel": "Kantelpunt eenmanszaak → BV ligt rond 35.000-45.000 EUR netto-winst per jaar (orde van grootte — individueel berekenen).",
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk kantelpunt"}
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 215"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard adviespraktijk kantelpunt"
+            }
           ]
         }
       },
       {
         "titel": "BV vs NV — wanneer NV verkiezen?",
         "opties": [
-          {"keuze": "BV (default)", "voordeel": "Geen minimumkapitaal, soepele uittredingsregeling (statutair regelbaar), eenvoudig bestuur, meeste flexibiliteit voor KMO.", "nadeel": "Niet geschikt voor publieke uitgifte aandelen (niet beursnoteerbaar), beperking grote investeerders."},
-          {"keuze": "NV", "voordeel": "Beursnotering mogelijk, drie bestuursmodellen (monistisch/duaal/enige bestuurder), aantrekkelijker voor grote externe investeerders, signaal van solide vennootschap (61.500 EUR-kapitaal).", "nadeel": "Minimumkapitaal volstort 61.500 EUR, zwaardere procedure-vereisten (AV, bestuursorgaan), geen makkelijke uittreding aandeelhouder."}
+          {
+            "keuze": "BV (default)",
+            "voordeel": "Geen minimumkapitaal, soepele uittredingsregeling (statutair regelbaar), eenvoudig bestuur, meeste flexibiliteit voor KMO.",
+            "nadeel": "Niet geschikt voor publieke uitgifte aandelen (niet beursnoteerbaar), beperking grote investeerders."
+          },
+          {
+            "keuze": "NV",
+            "voordeel": "Beursnotering mogelijk, drie bestuursmodellen (monistisch/duaal/enige bestuurder), aantrekkelijker voor grote externe investeerders, signaal van solide vennootschap (61.500 EUR-kapitaal).",
+            "nadeel": "Minimumkapitaal volstort 61.500 EUR, zwaardere procedure-vereisten (AV, bestuursorgaan), geen makkelijke uittreding aandeelhouder."
+          }
         ],
         "vuistregel": "Kies NV alleen bij: (a) effectieve plannen voor publieke kapitaalophaling/beursnotering, (b) verwacht aantal aandeelhouders > 20 of significante externe investeerders, (c) holding boven werkmaatschappij met specifieke fiscale optimalisatie-redenen. Anders: BV.",
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 5:3"},
-            {"type": "wettekst", "naam": "WVV", "ref": "art. 7:2"},
-            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard advies-rule-of-thumb"}
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:3"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 7:2"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaard advies-rule-of-thumb"
+            }
           ]
         }
       }
@@ -559,7 +1043,9 @@
   "accountant_perspectieven": [
     {
       "id": "adviseur-startende-ondernemer",
-      "naam": {"primair": "Adviseur — startende ondernemer/herstructurering"},
+      "naam": {
+        "primair": "Adviseur — startende ondernemer/herstructurering"
+      },
       "intro": "De accountant adviseert een cliënt over de keuze van een rechtsvorm bij start of bij wijziging van de activiteit.",
       "rollen": [
         {
@@ -567,7 +1053,9 @@
           "elementen": [
             {
               "id": "advies-vorm-keuze",
-              "naam": {"primair": "Vorm-keuze-advies stappenplan"},
+              "naam": {
+                "primair": "Vorm-keuze-advies stappenplan"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -575,9 +1063,22 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"},
-                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 5:4"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 5:16"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard adviespraktijk"
+                      }
                     ]
                   }
                 }
@@ -585,7 +1086,9 @@
             },
             {
               "id": "advies-financieel-plan",
-              "naam": {"primair": "Opstellen financieel plan oprichting"},
+              "naam": {
+                "primair": "Opstellen financieel plan oprichting"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -593,9 +1096,56 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:4"},
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 5:16"},
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 7:3"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 5:4"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 5:16"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 7:3"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "begeleiding-oprichting-eenmanszaak",
+              "naam": {
+                "primair": "Begeleiden bij oprichting eenmanszaak"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stappenplan voor de accountant bij oprichting eenmanszaak: (1) **Inschrijving in de KBO** — ondernemingsnummer aanvragen via een ondernemingsloket (Acerta, Securex, Liantis, ...). (2) **BTW-keuze** — regulier BTW-regime vs vrijstellingsregeling kleine onderneming (omzet-drempel **25.000 EUR** — orde van grootte AJ 2026, exacte drempel te verifiëren in Cijferzakboekje). (3) **Sociaal statuut** — aansluiting bij een sociale-verzekeringskas voor zelfstandigen, **vóór** aanvang activiteit. (4) **Voorafbetalingen personenbelasting** bepalen — vermijden van verlies van bonifications en van vermeerderingen wegens onvoldoende voorafbetaling. (5) **Boekhoudplicht** vastleggen — vereenvoudigde vs dubbele boekhouding, afhankelijk van WER Boek III-grootte-categorie (omzet > 500.000 EUR excl. BTW = dubbele boekhouding verplicht — verifieer in CBN-advies 2019/11 + WER art. III.85). (6) **Pro-forma-begroting eerste boekjaar** — omzet/kosten/winst-prognose + cash-positie + break-even-analyse. (7) **BTW-aangifte-ritmiek** — maandelijks (omzet > 2,5 M EUR) / kwartaal (default) / jaarlijks (vrijstellingsregeling), afhankelijk van omzet. Bonus: opening klanten-dossier triggert [[antiwitwaspreventie]]-KYC; geschillen met fiscus volgen [[fiscale-procedure]].",
+                  "grondslag": {
+                    "confidence": "betwijfeld",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 23",
+                        "context": "Beroepsinkomsten eenmanszaak — PB"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WER",
+                        "ref": "art. III.85",
+                        "context": "Vereenvoudigde boekhouding omzet-drempel"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "Drempel 25.000 EUR BTW-vrijstelling — orde van grootte AJ 2026, exacte bedrag te verifiëren in Cijferzakboekje"
+                      }
                     ]
                   }
                 }
@@ -608,7 +1158,9 @@
           "elementen": [
             {
               "id": "fiscale-quick-scan",
-              "naam": {"primair": "Quick-scan PB vs VenB voor cliënt"},
+              "naam": {
+                "primair": "Quick-scan PB vs VenB voor cliënt"
+              },
               "bouwsteen_type": "regel",
               "kern": {
                 "definitie": {
@@ -616,8 +1168,17 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
-                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard quick-scan tool fiscale praktijk"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 215"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard quick-scan tool fiscale praktijk"
+                      }
                     ]
                   }
                 }
@@ -629,7 +1190,9 @@
     },
     {
       "id": "begeleider-omzetting",
-      "naam": {"primair": "Begeleider bij vorm-omzetting"},
+      "naam": {
+        "primair": "Begeleider bij vorm-omzetting"
+      },
       "intro": "De accountant begeleidt cliënt bij omzetting van bestaande vennootschap (bv. NV → BV).",
       "rollen": [
         {
@@ -637,7 +1200,9 @@
           "elementen": [
             {
               "id": "omzetting-stappen",
-              "naam": {"primair": "Omzettings-procedure stappen"},
+              "naam": {
+                "primair": "Omzettings-procedure stappen"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -645,8 +1210,16 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 14:2"},
-                      {"type": "wettekst", "naam": "WVV", "ref": "art. 14:3"}
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 14:2"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 14:3"
+                      }
                     ]
                   }
                 }
@@ -658,17 +1231,55 @@
     }
   ],
   "relaties": [
-    {"type": "valt_onder", "target": "vennootschapsrecht"},
-    {"type": "bevat", "target": "besloten-vennootschap"},
-    {"type": "bevat", "target": "naamloze-vennootschap"},
-    {"type": "bevat", "target": "cooperatieve-vennootschap"},
-    {"type": "bevat", "target": "vennootschap-onder-firma"},
-    {"type": "bevat", "target": "commanditaire-vennootschap"},
-    {"type": "bevat", "target": "maatschap"},
-    {"type": "bevat", "target": "vereniging-zonder-winstoogmerk"},
-    {"type": "bevat", "target": "vennootschap-groottecategorieen"},
-    {"type": "triggert", "target": "oprichting-vennootschap"},
-    {"type": "beinvloed_door", "target": "boekhoudplicht", "toelichting": "Boekhoudplicht en mogelijkheid van vereenvoudigde boekhouding hangen af van de rechtsvorm (CBN-advies 2019/11)."},
-    {"type": "beinvloed_door", "target": "vennootschapsbelasting", "toelichting": "Aanknoping bij VenB volgt direct uit de rechtsvorm (art. 179 WIB92)."}
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "bevat",
+      "target": "besloten-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "naamloze-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "cooperatieve-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "vennootschap-onder-firma"
+    },
+    {
+      "type": "bevat",
+      "target": "commanditaire-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "maatschap"
+    },
+    {
+      "type": "bevat",
+      "target": "vereniging-zonder-winstoogmerk"
+    },
+    {
+      "type": "bevat",
+      "target": "vennootschap-groottecategorieen"
+    },
+    {
+      "type": "triggert",
+      "target": "oprichting-vennootschap"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "boekhoudplicht",
+      "toelichting": "Boekhoudplicht en mogelijkheid van vereenvoudigde boekhouding hangen af van de rechtsvorm (CBN-advies 2019/11)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschapsbelasting",
+      "toelichting": "Aanknoping bij VenB volgt direct uit de rechtsvorm (art. 179 WIB92)."
+    }
   ]
 }

@@ -102,8 +102,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 8 - toetsing design effectiveness en operating effectiveness" },
-            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 97-98 - toetsingen van interne beheersingsmaatregelen" }
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 8 - toetsing design effectiveness en operating effectiveness"
+            },
+            {
+              "type": "norm",
+              "naam": "ITAA-norm-kmo-controlenorm",
+              "ref": "par. 97-98 - toetsingen van interne beheersingsmaatregelen"
+            }
           ]
         }
       },
@@ -112,8 +120,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 9 - aard en omvang toetsing" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardmethodologie ISA + IIA" }
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 9 - aard en omvang toetsing"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaardmethodologie ISA + IIA"
+            }
           ]
         }
       },
@@ -122,7 +139,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 24 - monitoring-activities-component" }
+            {
+              "type": "norm",
+              "naam": "ISA 315 (herzien-2019)",
+              "ref": "par. 24 - monitoring-activities-component"
+            }
           ]
         }
       }
@@ -152,7 +173,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21-26" }
+              {
+                "type": "norm",
+                "naam": "ISA 315 (herzien-2019)",
+                "ref": "par. 21-26"
+              }
             ]
           }
         }
@@ -161,7 +186,9 @@
     "subconcepten": [
       {
         "id": "design-effectiveness",
-        "naam": { "primair": "Design effectiveness" },
+        "naam": {
+          "primair": "Design effectiveness"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -170,7 +197,11 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 330", "ref": "par. 8 - design effectiveness" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 330",
+                    "ref": "par. 8 - design effectiveness"
+                  }
                 ]
               }
             }
@@ -179,7 +210,9 @@
       },
       {
         "id": "operating-effectiveness",
-        "naam": { "primair": "Operating effectiveness" },
+        "naam": {
+          "primair": "Operating effectiveness"
+        },
         "concept_type": "procedure",
         "inhoud": {
           "kern": {
@@ -188,7 +221,48 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15" }
+                  {
+                    "type": "norm",
+                    "naam": "ISA 330",
+                    "ref": "par. 8-15"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "management-letter",
+        "naam": {
+          "primair": "Management letter (ISA 265-communicatie)"
+        },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De management letter is het formele schriftelijke kanaal waarlangs de auditor tekortkomingen in interne controle communiceert aan management en TCWG (Those Charged With Governance — auditcomité of bestuursorgaan). ISA 265 verplicht communicatie van significant deficiencies aan TCWG en van other deficiencies aan management. Format per tekortkoming: (a) beschrijving + observatie tijdens controle, (b) potentieel risico voor jaarrekening of bedrijfsvoering, (c) aanbeveling tot remediëring, (d) management-response (wat doet het management, wanneer). Onderscheid drie ernstniveaus: material weakness (redelijke kans op niet-detecteren van materiële fout), significant deficiency (verdient aandacht TCWG zonder material te zijn), other deficiency (operationeel relevant).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "norm",
+                    "naam": "ISA 265 — Communicating Deficiencies in Internal Control",
+                    "ref": "par. 7-11 + Appendix A"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Twee parallelle documenten in de praktijk: (1) aanbevelings-brief aan operationeel management — alle observaties inclusief efficiency-tips, geen ISA-verplichting; (2) ISA 265-rapport aan TCWG — alleen significant + material deficiencies, formele verplichting. Timing tweeledig: lopende bevindingen tijdens audit (zodat remediëring nog kan starten) + finale brief na afronding controleverklaring. Bij OOB komt hier het additional report onder Verordening (EU) 537/2014 bovenop.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "Claude Opus 4.7",
+                    "ref": "inferentie 2026-05-29 op basis van ISA 265 + EU 537/2014"
+                  }
                 ]
               }
             }
@@ -199,7 +273,9 @@
     "bouwstenen": [
       {
         "id": "inquiry",
-        "naam": { "primair": "Inquiry (verzoek om inlichtingen)" },
+        "naam": {
+          "primair": "Inquiry (verzoek om inlichtingen)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -207,7 +283,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 500", "ref": "par. A14 - inquiries als type van bewijs" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 500",
+                  "ref": "par. A14 - inquiries als type van bewijs"
+                }
               ]
             }
           }
@@ -215,7 +295,9 @@
       },
       {
         "id": "walkthrough",
-        "naam": { "primair": "Walk-through" },
+        "naam": {
+          "primair": "Walk-through"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -223,7 +305,11 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 330",
+                  "ref": "par. 8"
+                }
               ]
             }
           }
@@ -231,7 +317,9 @@
       },
       {
         "id": "test-of-controls",
-        "naam": { "primair": "Test of controls (toetsing interne beheersingsmaatregel)" },
+        "naam": {
+          "primair": "Test of controls (toetsing interne beheersingsmaatregel)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -239,8 +327,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 330", "ref": "par. 16-17 evalueren effectieve werking" },
-                { "type": "norm", "naam": "ISA 530", "ref": "Gebruik van steekproeven bij een controle" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 330",
+                  "ref": "par. 16-17 evalueren effectieve werking"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ISA 530",
+                  "ref": "Gebruik van steekproeven bij een controle"
+                }
               ]
             }
           }
@@ -248,7 +344,9 @@
       },
       {
         "id": "self-assessment",
-        "naam": { "primair": "Control self-assessment door process owners" },
+        "naam": {
+          "primair": "Control self-assessment door process owners"
+        },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
@@ -256,7 +354,12 @@
             "grondslag": {
               "confidence": "afgeleid",
               "bronnen": [
-                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IIA-COSO-monitoring-praktijk" }
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-extract-agent (opus-4.7-1M)",
+                  "datum": "2026-05-28",
+                  "context": "IIA-COSO-monitoring-praktijk"
+                }
               ]
             }
           }
@@ -264,7 +367,9 @@
       },
       {
         "id": "tekortkomingen-categoriseren",
-        "naam": { "primair": "Tekortkomingen categoriseren (ISA 265)" },
+        "naam": {
+          "primair": "Tekortkomingen categoriseren (ISA 265)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -272,7 +377,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 265", "ref": "par. 6-9 + A6-A7" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 265",
+                  "ref": "par. 6-9 + A6-A7"
+                }
               ]
             }
           }
@@ -280,7 +389,9 @@
       },
       {
         "id": "frequentie-en-rotatie",
-        "naam": { "primair": "Frequentie en rotatie van toetsing" },
+        "naam": {
+          "primair": "Frequentie en rotatie van toetsing"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -288,7 +399,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "norm", "naam": "ISA 330", "ref": "par. 14-15" }
+                {
+                  "type": "norm",
+                  "naam": "ISA 330",
+                  "ref": "par. 14-15"
+                }
               ]
             }
           }
@@ -303,7 +418,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardvoorbeeld test of controls" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Standaardvoorbeeld test of controls"
+            }
           ]
         },
         "weergaven": [
@@ -328,7 +448,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 8"
+            }
           ]
         }
       },
@@ -339,7 +463,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 8"
+            }
           ]
         }
       },
@@ -350,7 +478,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "norm", "naam": "ISA 330", "ref": "par. 17" }
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "par. 17"
+            }
           ]
         }
       }
@@ -369,7 +501,9 @@
           "elementen": [
             {
               "id": "selectie-key-controls",
-              "naam": { "primair": "Sleutelcontroles selecteren voor toetsing" },
+              "naam": {
+                "primair": "Sleutelcontroles selecteren voor toetsing"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -377,7 +511,11 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 330", "ref": "par. 6-7" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 330",
+                        "ref": "par. 6-7"
+                      }
                     ]
                   }
                 }
@@ -385,7 +523,9 @@
             },
             {
               "id": "rapportering-management-letter",
-              "naam": { "primair": "Rapportering via management letter" },
+              "naam": {
+                "primair": "Rapportering via management letter"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -393,7 +533,38 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "norm", "naam": "ISA 265", "ref": "par. 9-11" }
+                      {
+                        "type": "norm",
+                        "naam": "ISA 265",
+                        "ref": "par. 9-11"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "aanbevelingen-na-ic-tekortkomingen",
+              "naam": {
+                "primair": "Aanbevelingen formuleren na IC-tekortkomingen"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stappen vanaf identificatie tot follow-up: (1) Identificatie — tekortkoming vaststellen tijdens walkthrough, test of substantive procedure; (2) Classificatie — material weakness / significant deficiency / other (ISA 265 par. A5-A11); (3) Wortel-analyse — design-flaw (controle dekt risico niet) of operating-flaw (controle bestaat maar wordt niet of slecht uitgevoerd); (4) Formuleren aanbeveling — concreet, haalbaar, gericht op wortel-oorzaak, niet op symptoom; (5) Bespreken met management — krijg response + commitment + deadline; (6) Documenteren in management letter met response; (7) Follow-up volgend jaar — is remediëring effectief geïmplementeerd? Recurring deficiency = ernstiger signaal.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "norm",
+                        "naam": "ISA 265",
+                        "ref": "par. 7-11 + A5-A11"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 315 (Revised 2019)",
+                        "ref": "design vs implementation testing"
+                      }
                     ]
                   }
                 }
@@ -415,7 +586,9 @@
           "elementen": [
             {
               "id": "audit-rapport-met-aanbevelingen",
-              "naam": { "primair": "Audit-rapport met bevindingen en aanbevelingen" },
+              "naam": {
+                "primair": "Audit-rapport met bevindingen en aanbevelingen"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -423,7 +596,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard interne-audit-rapportering IIA" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard interne-audit-rapportering IIA"
+                      }
                     ]
                   }
                 }

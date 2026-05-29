@@ -316,6 +316,19 @@ _`regel`_
 
 <small>📚 WIB92 — art. 207 §7 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
+### Commissaris/auditor — fiscale aansluiting
+
+_De commissaris/auditor controleert als onderdeel van zijn opdracht of de aansluiting boekhoudkundig resultaat ↔ fiscaal resultaat correct is uitgevoerd door de vennootschap._
+
+#### 🔍 Auditor
+
+##### 👣 Fiscale aansluiting controleren als audit-stap  
+_`stap`_
+
+❓ Audit-stappen bij controle van de fiscale aansluiting: (1) **Reconciliatie** tussen boekhoudkundig resultaat (jaarrekening — winst na belasting) en fiscaal resultaat (aangifte VenB formulier 275.1) — alle reconciliërende posten in een audit-werkpapier. (2) **Identificatie verworpen uitgaven** (art. 53 WIB92) — sample-test: 50 % restaurantkosten verworpen (49 % toegelaten? — verifieer in Cijferzakboekje), 100 % geldboeten, auto-DNA-correctie variabel naar CO2, abnormale voordelen aan bestuurder. (3) **Toets vrijgestelde inkomsten** — gespreide taxatie meerwaarden (art. 47), DBI-aftrek (art. 202-205 — voorwaarden + DBI-tabel als bijlage), vrijgestelde meerwaarden aandelen (art. 192). (4) **Verificatie aftrekvolgorde** — DWINGEND: bewerkingen 4 → 5 (DBI) → 6 (innovation income) → 7 (investeringsaftrek) → 8 (groepsbijdrage + overgedragen verliezen vanaf taxabele basis). (5) **Toets vooruitbetalingen** + roerende voorheffing-aanrekening (formulier 275.5). (6) **Documenteer afwijkingen** tussen boekhouding-cijfer en aangifte-cijfer in audit-werkpapier — focus op materialiteit. (7) **Communiceer materiële inconsistenties** via management letter — wijs vennootschap op risico van fiscale correctie + belastingverhoging. Aansluiting [[isa-overzicht]]: **ISA 240** (fraude-risico — fiscale agressiviteit) + **ISA 315** (entiteit-inzicht inclusief fiscale aspecten + significante grondslag-keuzes).
+
+<small>📚 WIB92 — art. 53 — _wettekst_ · WIB92 — art. 207 — _wettekst_ · ISA 240 — Fraude-risico — _norm_ · ISA 315 — Entiteit-inzicht — _norm_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
 ## Verder lezen (scope-out)
 
 - → Verworpen uitgaven (familie-overzicht art. 53) → [[verworpen-uitgaven]] _(moet-verwijzen)_

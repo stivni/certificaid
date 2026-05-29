@@ -49,6 +49,13 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Σ-overzicht ingevuld: driehoek federaal-gewest-gemeente + bevoegdheidsverdeling. Cluster anti-misbruik-lokaal."
+      },
+      {
+        "operatie": "accountant_perspectief",
+        "timestamp": "2026-05-29T00:00:00Z",
+        "model": "opus-4.7-1M",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Perspectief-element 'client-waarschuwen-samenloop' toegevoegd aan adviseur-rol advies-bij-opstart: 5-stappen samenloop-analyse over federaal/gewestelijk/lokaal."
       }
     ],
     "scope": {
@@ -89,10 +96,26 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
-            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 41" },
-            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 162" },
-            { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 3" }
+            {
+              "type": "wettekst",
+              "naam": "Grondwet",
+              "ref": "art. 170"
+            },
+            {
+              "type": "wettekst",
+              "naam": "Grondwet",
+              "ref": "art. 41"
+            },
+            {
+              "type": "wettekst",
+              "naam": "Grondwet",
+              "ref": "art. 162"
+            },
+            {
+              "type": "wettekst",
+              "naam": "BWHI 16-01-1989",
+              "ref": "art. 3"
+            }
           ]
         }
       },
@@ -101,7 +124,12 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese praktijksituatie multi-niveau-fiscaliteit" }
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese praktijksituatie multi-niveau-fiscaliteit"
+            }
           ]
         }
       },
@@ -110,9 +138,23 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464", "context": "Verbod opcentiemen op directe federale belastingen" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis multi-laag fiscale autonomie" }
+            {
+              "type": "wettekst",
+              "naam": "Grondwet",
+              "ref": "art. 170"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 464",
+              "context": "Verbod opcentiemen op directe federale belastingen"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis multi-laag fiscale autonomie"
+            }
           ]
         }
       }
@@ -138,7 +180,12 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel multi-niveau-fiscaliteit" }
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28",
+                "context": "Praktijk-vuistregel multi-niveau-fiscaliteit"
+              }
             ]
           }
         }
@@ -158,9 +205,21 @@
               "grondslag": {
                 "confidence": "geciteerd",
                 "bronnen": [
-                  { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
-                  { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 3" },
-                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" }
+                  {
+                    "type": "wettekst",
+                    "naam": "Grondwet",
+                    "ref": "art. 170"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "BWHI 16-01-1989",
+                    "ref": "art. 3"
+                  },
+                  {
+                    "type": "wettekst",
+                    "naam": "WIB92",
+                    "ref": "art. 464"
+                  }
                 ]
               }
             }
@@ -168,7 +227,9 @@
           "bouwstenen": [
             {
               "id": "tabel-niveaus",
-              "naam": { "primair": "Vergelijkingstabel bevoegdheden" },
+              "naam": {
+                "primair": "Vergelijkingstabel bevoegdheden"
+              },
               "bouwsteen_type": "mechanisme",
               "kern": {
                 "definitie": {
@@ -176,9 +237,22 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
-                      { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 117-124" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard navigatietabel handboek fiscaal recht" }
+                      {
+                        "type": "wettekst",
+                        "naam": "Grondwet",
+                        "ref": "art. 170"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "Brusselse Codex Fiscale Procedure",
+                        "ref": "art. 117-124"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard navigatietabel handboek fiscaal recht"
+                      }
                     ]
                   }
                 }
@@ -186,12 +260,37 @@
               "weergaven": [
                 {
                   "type": "tabel",
-                  "kolommen": ["Niveau", "Heffende overheid", "Reglementair instrument", "Bezwaar"],
+                  "kolommen": [
+                    "Niveau",
+                    "Heffende overheid",
+                    "Reglementair instrument",
+                    "Bezwaar"
+                  ],
                   "rijen": [
-                    ["Federaal", "FOD Financiën", "Wet (WIB92, BtwW, …)", "Gewestelijke directeur → fiscale rechtbank"],
-                    ["Gewest", "VLABEL / Brussel Fiscaliteit / SPW", "Decreet / Ordonnantie", "Gewestelijke fiscale administratie → fiscale rechtbank"],
-                    ["Gemeente", "Gemeentebestuur", "Belastingreglement gemeenteraad", "College B&S → fiscale rechtbank"],
-                    ["Provincie", "Provinciebestuur", "Provinciaal reglement", "Bestendige Deputatie → fiscale rechtbank"]
+                    [
+                      "Federaal",
+                      "FOD Financiën",
+                      "Wet (WIB92, BtwW, …)",
+                      "Gewestelijke directeur → fiscale rechtbank"
+                    ],
+                    [
+                      "Gewest",
+                      "VLABEL / Brussel Fiscaliteit / SPW",
+                      "Decreet / Ordonnantie",
+                      "Gewestelijke fiscale administratie → fiscale rechtbank"
+                    ],
+                    [
+                      "Gemeente",
+                      "Gemeentebestuur",
+                      "Belastingreglement gemeenteraad",
+                      "College B&S → fiscale rechtbank"
+                    ],
+                    [
+                      "Provincie",
+                      "Provinciebestuur",
+                      "Provinciaal reglement",
+                      "Bestendige Deputatie → fiscale rechtbank"
+                    ]
                   ]
                 }
               ]
@@ -213,7 +312,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" }
+                {
+                  "type": "wettekst",
+                  "naam": "Grondwet",
+                  "ref": "art. 170"
+                }
               ]
             }
           }
@@ -231,8 +334,17 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
-                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.3.4.2.2", "context": "Verbod opcentiemen op BIV" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 464"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "VCF",
+                  "ref": "art. 2.3.4.2.2",
+                  "context": "Verbod opcentiemen op BIV"
+                }
               ]
             }
           }
@@ -250,7 +362,12 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 465 t.e.m. 470", "context": "Aanvullende gemeentebelasting op PB" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 465 t.e.m. 470",
+                  "context": "Aanvullende gemeentebelasting op PB"
+                }
               ]
             }
           }
@@ -265,8 +382,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "BWHI 16-01-1989", "ref": "art. 5 §2" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-valkuil multi-gewestelijke cliënt" }
+            {
+              "type": "wettekst",
+              "naam": "BWHI 16-01-1989",
+              "ref": "art. 5 §2"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Praktijk-valkuil multi-gewestelijke cliënt"
+            }
           ]
         }
       },
@@ -277,8 +403,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 117 e.v." },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-valkuil bezwaarprocedure" }
+            {
+              "type": "wettekst",
+              "naam": "Brusselse Codex Fiscale Procedure",
+              "ref": "art. 117 e.v."
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Praktijk-valkuil bezwaarprocedure"
+            }
           ]
         }
       }
@@ -307,7 +442,45 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk vestigingskeuze" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Standaard adviespraktijk vestigingskeuze"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "client-waarschuwen-samenloop",
+              "naam": {
+                "primair": "Cliënt waarschuwen voor samenloop tussen niveaus"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elk fenomeen dat door meerdere bestuursniveaus geraakt kan worden, doorloopt de accountant een 5-stappen-samenloop-analyse: (1) Inventariseer welke niveaus het fenomeen raken — vastgoed wordt typisch geraakt door federale roerende voorheffing op huurinkomsten in bepaalde regimes, gewestelijke onroerende voorheffing, gemeentelijke + provinciale opcentiemen op OV, eventueel gemeentelijke sui-generis-belastingen (tweede verblijven, leegstand). (2) Toets per niveau-paar of non-bis-in-idem geldt of dat samenloop wettelijk uitdrukkelijk toegelaten is — WIB92 art. 464 verbiedt opcentiemen op PB/VenB/RPB/BNI, maar art. 465 e.v. laat aanvullende gemeentebelasting PB net wel toe. (3) Bereken de totale effectieve fiscale druk cumulatief over de niveaus heen. (4) Identificeer compensatie-mechanismen: bij dubbele belasting op zelfde grondslag soms aftrek of voorheffing-systeem (bv. OV deels verrekenbaar in PB voor eigen woning historisch). (5) Vermijd verrassingen via vooraf-inschatting + waar mogelijk ruling-aanvraag bij Vlabel/Brussel Fiscaliteit/SPW Fiscalité. Communiceer cumulatieve impact aan cliënt vóór beslissing (vestigingsplaats, aankoop tweede verblijf, herstructurering vastgoedportfolio).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 464-470"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "Grondwet",
+                        "ref": "art. 170"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-29",
+                        "context": "Praktijk-vuistregel samenloop-analyse multi-niveau"
+                      }
                     ]
                   }
                 }
@@ -339,9 +512,24 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 366-371", "context": "Federale bezwaartermijn" },
-                      { "type": "wettekst", "naam": "VCF", "ref": "art. 3.5.2.0.1 e.v.", "context": "Vlaamse bezwaartermijn" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese termijnen 3 niveaus" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 366-371",
+                        "context": "Federale bezwaartermijn"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "VCF",
+                        "ref": "art. 3.5.2.0.1 e.v.",
+                        "context": "Vlaamse bezwaartermijn"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Synthese termijnen 3 niveaus"
+                      }
                     ]
                   }
                 }

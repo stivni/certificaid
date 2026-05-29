@@ -215,6 +215,33 @@ _`regel`_
 
 <small>📚 cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
+## Accountant-perspectieven
+
+### Eigen kantoor — accountant als financieringsadviseur
+
+_De gecertificeerd accountant adviseert het bestuursorgaan over stuur-maatregelen die de solvabiliteit beïnvloeden — vóór de wettelijke alarmbel-drempels (WVV art. 5:153 / 7:228) worden geraakt._
+
+#### 🧭 Adviseur
+
+##### 🧭 Solvabiliteits-positie sturen  
+_`vuistregel`_
+
+**Substantie**: 📖 De accountant adviseert het bestuursorgaan over **stuur-maatregelen** die de solvabiliteitsratio's beïnvloeden vóór de wettelijke alarmbel-drempels worden geraakt. Vier hefbomen, gerangschikt van structureel naar incidenteel:
+
+1. **Dividendpolitiek** — de uitkering moet zowel de **netto-actief-test** (BV: art. 5:142 WVV — netto-actief na uitkering ≥ 0 én geen daling onder het niet-uitkeerbare deel) als de **liquiditeitstest** (BV: art. 5:143 WVV — bestuursorgaan moet attesteren dat de vennootschap haar opeisbare schulden tijdens de twaalf maanden na uitkering kan blijven betalen) doorstaan. Bij lage solvabiliteit: **uitkering verlagen of opschorten** om eigen vermogen op te bouwen.
+
+2. **Investeringsbeslissingen** — elk investerings-dossier wegen op het verwachte **return-on-investment** versus de impact op de **schuldgraad**. Vuistregel: financiering door schuld is verdedigbaar zolang de schuldgraad onder de sectorale benchmark blijft (industriële KMO ≤ 70%) **en** de interest coverage ratio comfortabel boven 3,0 blijft. Boven deze drempels: **kapitaalverhoging of leasing** verkiezen boven banklening.
+
+3. **Schuldherstructurering** — bij oplopende schuldgraad: **looptijd verlengen** (kortetermijn-schuld omzetten naar langetermijn-schuld → verbetert liquiditeit én verlaagt rente-druk), **herfinancieren** tegen lagere rente, of achtergestelde-aandeelhouders-leningen onderhandelen (klasseren als quasi-equity in de analytische balans).
+
+4. **Vermijden alarmbel-procedure** — actief monitoren van het netto-actief versus de wettelijke drempels: voor de **BV** geen kapitaal-drempel meer (WVV 2019) maar wel **negatief netto-actief**-trigger (art. 5:153 WVV); voor de **NV** klassieke drempels netto-actief < ½ of < ¼ van het kapitaal (art. 7:228 WVV). Tijdige bijsturing — via één van de drie bovenstaande hefbomen of via een **kapitaalverhoging** — voorkomt dat het bestuursorgaan formeel een algemene vergadering moet bijeenroepen.
+
+Cross-link: [[winstuitkering]] (toetsen) en [[kapitaalbescherming]] (regels NV-kapitaal).
+
+<small>📚 WVV — art. 5:142 + art. 5:143 + art. 5:153 — _wettekst_ · WVV — art. 7:228 — _wettekst_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+_Waarom: De vier hefbomen zijn complementair en niet alternatief: een vennootschap met dalende solvabiliteit moet typisch **meerdere tegelijk** activeren. De volgorde structureel → incidenteel volgt de tijdshorizon: dividendpolitiek werkt permanent, schuldherstructurering geeft direct lucht, alarmbel-monitoring is de noodrem._
+
 ## Verder lezen (scope-out)
 
 - → Ratio-interpretatie cross-categorie (DuPont · K-techniek) → [[ratio-interpretatie]] _(moet-verwijzen)_

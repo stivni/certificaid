@@ -12,8 +12,15 @@
   "metadata": {
     "schema_version": "2.2",
     "status": "concept",
-    "categorieen": ["entiteit", "regeling"],
-    "ankers": ["1.6.I.A", "1.6.I.B", "4.0.I.A"],
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.6.I.A",
+      "1.6.I.B",
+      "4.0.I.A"
+    ],
     "scope": {
       "in": [
         "Commissaris = bijzondere hoedanigheid van bedrijfsrevisor (in beperkte gevallen gecertificeerd accountant) — uitgeoefend bij wettelijke controle",
@@ -26,13 +33,41 @@
         "Bijzondere mandaten uitgevoerd door commissaris als die aangesteld is"
       ],
       "out": [
-        {"topic": "Generieke beroepsstatuut (parent-concept)", "richting": "moet-verwijzen", "ref": "gecertificeerd-accountant"},
-        {"topic": "Grootte-trigger voor commissaris-verplichting", "richting": "moet-verwijzen", "ref": "vennootschap-groottecategorieen"},
-        {"topic": "Controle-opdracht-uitvoering (4-fase-cyclus)", "richting": "moet-verwijzen", "ref": "controleopdracht"},
-        {"topic": "Onafhankelijkheid als regime", "richting": "moet-verwijzen", "ref": "onafhankelijkheid"},
-        {"topic": "Bijzondere mandaten als parallelle uitvoeringsroute", "richting": "moet-verwijzen", "ref": "bijzondere-mandaten"},
-        {"topic": "Beroepsaansprakelijkheid", "richting": "moet-verwijzen", "ref": "beroepsaansprakelijkheid"},
-        {"topic": "Communicatie met auditcomité (ISA 260)", "richting": "moet-verwijzen", "ref": "auditcomite"}
+        {
+          "topic": "Generieke beroepsstatuut (parent-concept)",
+          "richting": "moet-verwijzen",
+          "ref": "gecertificeerd-accountant"
+        },
+        {
+          "topic": "Grootte-trigger voor commissaris-verplichting",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Controle-opdracht-uitvoering (4-fase-cyclus)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Onafhankelijkheid als regime",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        },
+        {
+          "topic": "Bijzondere mandaten als parallelle uitvoeringsroute",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Beroepsaansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        },
+        {
+          "topic": "Communicatie met auditcomité (ISA 260)",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        }
       ]
     },
     "provenance": {
@@ -75,8 +110,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:57"},
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:96"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:57"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:96"
+            }
           ]
         }
       },
@@ -85,9 +128,22 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:71"},
-            {"type": "norm", "naam": "ITAA-norm KMO-controlenorm", "ref": "2.1.1"},
-            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese rol commissaris"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:71"
+            },
+            {
+              "type": "norm",
+              "naam": "ITAA-norm KMO-controlenorm",
+              "ref": "2.1.1"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Synthese rol commissaris"
+            }
           ]
         }
       },
@@ -96,16 +152,32 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:72"},
-            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Ratio legis-synthese institutioneel doel commissaris"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:72"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Ratio legis-synthese institutioneel doel commissaris"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["gecertificeerd-accountant", "vennootschap-groottecategorieen"],
+      "voorvereisten": [
+        "gecertificeerd-accountant",
+        "vennootschap-groottecategorieen"
+      ],
       "kader": "controleopdracht",
-      "naast_relevant": ["onafhankelijkheid", "auditcomite", "bijzondere-mandaten"]
+      "naast_relevant": [
+        "onafhankelijkheid",
+        "auditcomite",
+        "bijzondere-mandaten"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -119,8 +191,16 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 1:24"},
-              {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:72"}
+              {
+                "type": "wettekst",
+                "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                "ref": "art. 1:24"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                "ref": "art. 3:72"
+              }
             ]
           }
         }
@@ -131,7 +211,11 @@
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:58"}
+              {
+                "type": "wettekst",
+                "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                "ref": "art. 3:58"
+              }
             ]
           }
         }
@@ -142,8 +226,17 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:66"},
-              {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese onafzetbaarheidsregime"}
+              {
+                "type": "wettekst",
+                "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                "ref": "art. 3:66"
+              },
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28",
+                "context": "Synthese onafzetbaarheidsregime"
+              }
             ]
           }
         }
@@ -154,8 +247,17 @@
           "grondslag": {
             "confidence": "afgeleid",
             "bronnen": [
-              {"type": "wettekst", "naam": "Wet 7 december 2016 (bedrijfsrevisoren)", "ref": "art. 30"},
-              {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Drievoudige aansprakelijkheid commissaris"}
+              {
+                "type": "wettekst",
+                "naam": "Wet 7 december 2016 (bedrijfsrevisoren)",
+                "ref": "art. 30"
+              },
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7-1m",
+                "datum": "2026-05-28",
+                "context": "Drievoudige aansprakelijkheid commissaris"
+              }
             ]
           }
         }
@@ -164,7 +266,9 @@
     "bouwstenen": [
       {
         "id": "benoeming-procedure",
-        "naam": {"primair": "Benoemingsprocedure (met of zonder ondernemingsraad)"},
+        "naam": {
+          "primair": "Benoemingsprocedure (met of zonder ondernemingsraad)"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -172,8 +276,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:85"},
-                {"type": "kb", "naam": "KB 29 april 2019 uitvoering WVV", "ref": "art. 4:1"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 3:85"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB 29 april 2019 uitvoering WVV",
+                  "ref": "art. 4:1"
+                }
               ]
             }
           }
@@ -181,7 +293,9 @@
       },
       {
         "id": "mandaat-duur",
-        "naam": {"primair": "Mandaat-duur en hernieuwingen"},
+        "naam": {
+          "primair": "Mandaat-duur en hernieuwingen"
+        },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
@@ -189,7 +303,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:58"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 3:58"
+                }
               ]
             }
           }
@@ -197,7 +315,9 @@
       },
       {
         "id": "vaste-vertegenwoordiger",
-        "naam": {"primair": "Vaste vertegenwoordiger (bij rechtspersoon-commissaris)"},
+        "naam": {
+          "primair": "Vaste vertegenwoordiger (bij rechtspersoon-commissaris)"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -205,7 +325,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:57"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 3:57"
+                }
               ]
             }
           }
@@ -213,7 +337,9 @@
       },
       {
         "id": "bezoldiging-transparantie",
-        "naam": {"primair": "Bezoldiging — transparantie in toelichting"},
+        "naam": {
+          "primair": "Bezoldiging — transparantie in toelichting"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -221,7 +347,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:65"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 3:65"
+                }
               ]
             }
           }
@@ -229,7 +359,9 @@
       },
       {
         "id": "controlenorm-kmo",
-        "naam": {"primair": "KMO-controlenorm vs algemene controlenorm"},
+        "naam": {
+          "primair": "KMO-controlenorm vs algemene controlenorm"
+        },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
@@ -237,8 +369,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "norm", "naam": "ITAA-norm KMO-controlenorm", "ref": "2.1.1 Evenredigheid"},
-                {"type": "norm", "naam": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten", "ref": "vereisten"}
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm KMO-controlenorm",
+                  "ref": "2.1.1 Evenredigheid"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten",
+                  "ref": "vereisten"
+                }
               ]
             }
           }
@@ -246,7 +386,9 @@
       },
       {
         "id": "individueel-onderzoeksrecht",
-        "naam": {"primair": "Individueel onderzoeksrecht aandeelhouder (alternatief)"},
+        "naam": {
+          "primair": "Individueel onderzoeksrecht aandeelhouder (alternatief)"
+        },
         "bouwsteen_type": "uitzondering",
         "kern": {
           "definitie": {
@@ -254,7 +396,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:96"}
+                {
+                  "type": "wettekst",
+                  "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                  "ref": "art. 3:96"
+                }
               ]
             }
           }
@@ -262,7 +408,9 @@
       },
       {
         "id": "commissaris-en-bijzondere-mandaten",
-        "naam": {"primair": "Commissaris in functie = van rechtswege belast met bijzondere mandaten"},
+        "naam": {
+          "primair": "Commissaris in functie = van rechtswege belast met bijzondere mandaten"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -270,8 +418,16 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                {"type": "norm", "naam": "ITAA-norm omzetting-vennootschap", "ref": "II.1, par 11"},
-                {"type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "I.1, par 10"}
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm omzetting-vennootschap",
+                  "ref": "II.1, par 11"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ITAA-norm ontbinding-vereffening",
+                  "ref": "I.1, par 10"
+                }
               ]
             }
           }
@@ -286,8 +442,16 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:85"},
-            {"type": "kb", "naam": "KB 29 april 2019 uitvoering WVV", "ref": "art. 4:1"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:85"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29 april 2019 uitvoering WVV",
+              "ref": "art. 4:1"
+            }
           ]
         },
         "weergaven": [
@@ -311,7 +475,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:96"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:96"
+            }
           ]
         },
         "weergaven": [
@@ -330,8 +498,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:62"},
-            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese rolafbakening commissaris/accountant"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:62"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Synthese rolafbakening commissaris/accountant"
+            }
           ]
         }
       },
@@ -342,8 +519,16 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:85"},
-            {"type": "kb", "naam": "KB 29 april 2019 uitvoering WVV", "ref": "art. 4:1"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:85"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29 april 2019 uitvoering WVV",
+              "ref": "art. 4:1"
+            }
           ]
         }
       },
@@ -354,8 +539,17 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:66"},
-            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese onafzetbaarheid"}
+            {
+              "type": "wettekst",
+              "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+              "ref": "art. 3:66"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-opus-4-7-1m",
+              "datum": "2026-05-28",
+              "context": "Synthese onafzetbaarheid"
+            }
           ]
         }
       }
@@ -364,7 +558,9 @@
   "accountant_perspectieven": [
     {
       "id": "commissaris-zelf",
-      "naam": {"primair": "Commissaris (de bedrijfsrevisor in functie)"},
+      "naam": {
+        "primair": "Commissaris (de bedrijfsrevisor in functie)"
+      },
       "intro": "Wat doet de commissaris in de praktijk — door de stagiair-bril.",
       "rollen": [
         {
@@ -372,7 +568,9 @@
           "elementen": [
             {
               "id": "aanvaarding-opdracht",
-              "naam": {"primair": "Opdracht aanvaarden + onafhankelijkheidstoets"},
+              "naam": {
+                "primair": "Opdracht aanvaarden + onafhankelijkheidstoets"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -380,8 +578,16 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      {"type": "norm", "naam": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten", "ref": "vereisten"},
-                      {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 3:58"}
+                      {
+                        "type": "norm",
+                        "naam": "ISA 210 — Overeenkomen van de voorwaarden van controleopdrachten",
+                        "ref": "vereisten"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                        "ref": "art. 3:58"
+                      }
                     ]
                   }
                 }
@@ -389,7 +595,9 @@
             },
             {
               "id": "communicatie-auditcomite",
-              "naam": {"primair": "Communicatie met auditcomité (ISA 260)"},
+              "naam": {
+                "primair": "Communicatie met auditcomité (ISA 260)"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -397,8 +605,56 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      {"type": "norm", "naam": "ISA 260 — Communicatie met de met governance belaste personen", "ref": "vereisten"},
-                      {"type": "wettekst", "naam": "WVV — Wetboek van vennootschappen en verenigingen", "ref": "art. 7:99"}
+                      {
+                        "type": "norm",
+                        "naam": "ISA 260 — Communicatie met de met governance belaste personen",
+                        "ref": "vereisten"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                        "ref": "art. 7:99"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "toezicht-jr-schema-keuze",
+              "naam": {
+                "primair": "Toezicht op JR-schema-keuze + verplichte vermeldingen"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Tijdens de controle gaat de commissaris na of het door het bestuursorgaan gekozen jaarrekening-schema (volledig / verkort / micro) in overeenstemming is met de grootte-categorie van de vennootschap (WVV art. 1:24-1:27). Stappen: (1) Verifiëren grootte-categorie aan hand van personeel, omzet en balanstotaal — toets aan twee opeenvolgende boekjaren (twee-jaar-overschrijdings-regel WVV art. 1:24 §2); (2) Bij grootte-categorie-overgang: controleren of het bestuursorgaan correct het overgangsregime toepast (overgang pas vanaf derde overschrijdingsjaar); (3) Toetsen of alle wettelijk verplichte vermeldingen in de toelichting aanwezig zijn — waarderingsregels (KB WVV art. 3:6), mutatietabel vaste activa (afschrijvingen, aanwinsten, buitengebruikstellingen), bestuurdersbezoldigingen indien volledig schema, niet-in-balans-opgenomen rechten en verplichtingen, gebeurtenissen na balansdatum; (4) Vermelden in controleverklaring indien afwijkingen materieel zijn — hetzij oordeel-met-voorbehoud (ISA 705) hetzij KAM/toelichtingsparagraaf bij minder ernstige issues.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV — Wetboek van vennootschappen en verenigingen",
+                        "ref": "art. 1:24-1:27 (grootte-criteria) + art. 3:6 (waarderingsregels)"
+                      },
+                      {
+                        "type": "norm",
+                        "naam": "ISA 705 — Modifications to the Opinion in the Independent Auditor Report",
+                        "ref": "par. 6-11"
+                      }
+                    ]
+                  }
+                },
+                "rationale": {
+                  "tekst": "Misalignment tussen feitelijke grootte en gekozen schema is een klassieke fout — vooral bij vennootschappen in groei die te lang in verkort schema blijven. De commissaris dekt twee risicos af: (a) onvolledige openbaarmaking (gebruikers krijgen minder informatie dan wettelijk vereist) en (b) materiële afwijking in jaarrekening zelf door ontbrekende verplichte vermeldingen.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "Claude Opus 4.7",
+                        "ref": "inferentie 2026-05-29"
+                      }
                     ]
                   }
                 }
@@ -410,7 +666,9 @@
     },
     {
       "id": "bestuurder-cliente",
-      "naam": {"primair": "Bestuurder van de gecontroleerde vennootschap"},
+      "naam": {
+        "primair": "Bestuurder van de gecontroleerde vennootschap"
+      },
       "intro": "Hoe interageert het bestuur met de commissaris — uit het perspectief van de gecertificeerd accountant die het bestuur adviseert.",
       "rollen": [
         {
@@ -418,7 +676,9 @@
           "elementen": [
             {
               "id": "voorbereiding-controle",
-              "naam": {"primair": "Bestuur voorbereiden op commissaris-controle"},
+              "naam": {
+                "primair": "Bestuur voorbereiden op commissaris-controle"
+              },
               "bouwsteen_type": "vuistregel",
               "kern": {
                 "definitie": {
@@ -426,7 +686,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Adviespraktijk voorbereiding audit-cyclus"}
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7-1m",
+                        "datum": "2026-05-28",
+                        "context": "Adviespraktijk voorbereiding audit-cyclus"
+                      }
                     ]
                   }
                 }
@@ -454,10 +719,25 @@
       "verwarring_risico": "Termen 'commissaris' en 'accountant' worden in spreektaal door elkaar gebruikt — examenvragen testen vaak het verschil tussen 'wettelijke controle' (commissaris) en 'samenstelling' of 'expertise' (gecertificeerd accountant).",
       "render_hint": "als_waarschuwing"
     },
-    {"type": "uitgevoerd_door", "target": "controleopdracht"},
-    {"type": "vereist", "target": "onafhankelijkheid"},
-    {"type": "beinvloed_door", "target": "vennootschap-groottecategorieen"},
-    {"type": "uitgevoerd_door", "target": "bijzondere-mandaten"},
-    {"type": "gedocumenteerd_in", "target": "auditcomite"}
+    {
+      "type": "uitgevoerd_door",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschap-groottecategorieen"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "bijzondere-mandaten"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "auditcomite"
+    }
   ]
 }

@@ -83,6 +83,49 @@ EU-IFRS-verplichting voor geconsolideerde jaarrekening van Belgische genoteerde 
 **⛔ Uitsluitingen**
 - 🔗 **Niet** in IFRS: de **statutaire (enkelvoudige) jaarrekening** van een Belgische vennootschap blijft verplicht in B-GAAP. IFRS-rapportering geldt alleen voor de **geconsolideerde** jaarrekening.
 
+## Sub-concepten
+
+### 📦 BE-GAAP ↔ IFRS verschillen-matrix  
+_`kader` (subconcept)_
+
+#### Definitie
+
+🤖 **Verschillen-matrix** per balanspost: op vijf hoofdposten (materiële vaste activa, leasing, voorraden, bedrijfscombinaties/goodwill, omzeterkenning) toont deze matrix systematisch hoe de **BE-GAAP-behandeling** (KB 29-04-2019 WVV + CBN-adviezen) afwijkt van de **IFRS-behandeling**. Bedoeld als snelle herhaling vóór het examen en als checklist bij IFRS-transitie-advisering.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+#### Rationale
+
+🤖 De vijf gekozen posten zijn de klassieke afwijking-haarden — daar waar principle-based versus rule-based, substantie-over-vorm en fair-value-meting structurele verschillen produceren. Wie deze vijf kent, ziet 80% van de IFRS-aanpassingen tijdens transitie.
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+### 📦 Fair-value-beginsel  
+_`principe` (subconcept)_
+
+#### Definitie
+
+📖 **Fair value** (reële waarde) is de prijs die zou worden ontvangen om een actief te verkopen — of betaald om een passief over te dragen — in een ordelijke transactie tussen marktdeelnemers op de meetdatum. **IFRS 13** consolideert de fair-value-definitie en meting voor alle IFRS-standaarden die fair value voorschrijven of toelaten (o.a. IAS 16 revaluation, IAS 40, IFRS 9, IFRS 13).
+
+<small>📚 IFRS 13 — IFRS 13 par. 9 + 24 — _richtlijn_</small>
+
+#### Substantie
+
+📖 Fair value is de **hoeksteen** van het IFRS-waarderings-denken — contrast met het **realisatie-/voorzichtigheids-beginsel** van BE-GAAP. Onder BE-GAAP wordt een meerwaarde pas erkend bij realisatie (verkoop); onder IFRS kan een ongeerealiseerde meerwaarde via revaluation of fair-value-optie reeds in resultaat of OCI worden geboekt.
+
+**Drie waarderingsniveaus (IFRS 13 fair-value hierarchy):**
+- **Level 1 — mark-to-market**: noteringen op actieve markten voor identieke activa (bv. beursgenoteerd aandeel). Meest objectief, geen judgment.
+- **Level 2 — vergelijkbare transacties / observable inputs**: prijzen op actieve markten voor vergelijkbare activa, of niet-genoteerde inputs die wel observeerbaar zijn (bv. yield-curves, marktrenten).
+- **Level 3 — modellen / unobservable inputs**: DCF, optie-pricing, eigen schattingen. Hoogste judgment-druk, uitgebreide toelichting verplicht.
+
+<small>📚 IFRS 13 — IFRS 13 par. 72-90 — _richtlijn_</small>
+
+#### Rationale
+
+🤖 Fair value bestaat omdat IFRS de balans wil tonen als **huidige waarde-foto** ten dienste van kapitaal-markt-lezers, niet als historisch boekhoudkundig spoor. Het prijs-conflict met BE-GAAP-voorzichtigheid is dus intentioneel: IFRS kiest relevantie boven prudentie. Voor de accountant betekent dit dat IFRS-cijfers meer volatiel zijn én meer judgment-onderbouwing vereisen (level-3-toelichting kan dezen pagina's omvatten).
+
+<small>📚 claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
 ## Bouwstenen
 
 ### 👣 IFRS 1 — Eerste toepassing  
@@ -132,6 +175,31 @@ Vergelijkende informatie voor **vorige periode** is verplicht. Posten met **comp
 ## Speelruimtes
 
 ### 🎚️ Reële waarde versus historische kost (waar IFRS keuze biedt)
+
+## Accountant-perspectieven
+
+### Eigen kantoor — accountant als IFRS-transitie-adviseur
+
+_Bij beursgang of grensoverschrijdende groepsherstructurering begeleidt de gecertificeerd accountant de IFRS-transitie van de geconsolideerde jaarrekening — niet van de statutaire (die blijft BE-GAAP)._
+
+#### 🧭 Adviseur
+
+##### 👣 IFRS-keuzes adviseren bij beursgang of groepsherstructurering  
+_`stap`_
+
+**Substantie**: 🤖 Bij een aankondigde **beursgang** of een **grensoverschrijdende groepsherstructurering** moet de cliënt-vennootschap geconso-lideerd in IFRS gaan rapporteren. De adviseur begeleidt de transitie met vier stappen:
+
+1. **Inventariseer optionele IFRS-keuzes** — cost vs revaluation model (IAS 16 + IAS 40), fair-value-optie op financiële instrumenten (IFRS 9), IFRS-1 vrijstellingen (business combinations vóór transitiedatum, deemed cost MVA op transitiedatum, cumulatieve omrekeningsverschillen op nul).
+
+2. **Bereken impact** op eigen vermogen + resultaat per keuze — gevoeligheidsanalyse op de openingsbalans-aanpassing. Revaluation op vastgoed verhoogt EV maar genereert herwaarderings-reserve (niet uitkeerbaar); cost model laat EV stabiel maar mist IFRS-relevantie voor de markt.
+
+3. **Documenteer keuze** in de waarderingsregels (IFRS-accounting policy paragraph) + uitgebreide toelichting per post. Eenmaal gekozen, vereist wijziging IAS 8-rechtvaardiging (prospectief toepassen + retrospectieve toelichting).
+
+4. **Begeleid IFRS-1-transitie** — opstellen IFRS-openingsbalans op transitiedatum (de eerste dag van de vroegste vergelijkende periode), reconciliatie B-GAAP → IFRS van eigen vermogen + resultaat, IFRS-1-toelichting in eerste IFRS-jaarrekening.
+
+<small>📚 IFRS 1 — IFRS 1 par. 6-31 — _richtlijn_ · claude-opus-4-7 — _ai_model_ — (2026-05-29)</small>
+
+_Waarom: De IFRS-1-vrijstellingen zijn éénmalig — wie ze niet bij transitie benut, kan ze niet meer gebruiken. Tijdige advisering vóór transitiedatum is dus cruciaal: een fout-gekozen deemed-cost-niveau op MVA volgt de vennootschap permanent._
 
 ## Verder lezen (scope-out)
 

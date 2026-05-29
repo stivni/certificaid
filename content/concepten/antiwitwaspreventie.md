@@ -151,6 +151,21 @@ _`drempel`_
 
 <small>📚 ITAA-Handleiding interne procedures AWW 2019 — punt 12.4.2.2-3 — _norm_</small>
 
+### 📜 Beperking gebruik contanten (3 000 EUR-cap)  
+_`regel`_
+
+❓ De Wet van 18 september 2017 — wiens volledige titel uitdrukkelijk verwijst naar 'beperking van het gebruik van contanten' — verbiedt contante betalingen of giften boven 3 000 EUR per transactie tussen ondernemingen onderling en tussen ondernemingen en consumenten (verifieer exact wetsartikel — vermoedelijk art. 67 AML-wet; tot 2017 stond een gelijkaardige regel in art. 21 van de wet van 11 januari 1993). Toepassingsveld: alle handelaars, dienstverleners, beroepsbeoefenaars (incl. accountants als ondernemers) en bijzonder strikt voor handelaars in kunst, edele metalen en oude metalen. Uitzonderingen voor financiële instellingen onderling en bepaalde nutsbedrijven. De drempel is een per-transactie-drempel: opsplitsing van één economische verrichting in meerdere deelbetalingen om onder de cap te blijven kwalificeert als omzeiling en is sanctioneerbaar. Administratieve geldboete: 25 % tot 100 % van het bedrag dat boven de cap werd betaald, opgelegd door de FOD Economie.
+
+<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 67 (te verifiëren) — hoofdstuk beperking gebruik contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+**Substantie**: 🔗 Voor de accountant heeft de cap een dubbele relevantie: (1) eigen kantoor — honoraria boven 3 000 EUR mogen niet contant ontvangen worden, zelfs niet bij gespreide betaling als de gehele opdracht boven de drempel uitkomt; (2) cliënt-monitoring — contante stromen die de drempel naderen of opsplitsen zijn een AML-knipperlicht dat cumuleert met andere indicatoren. Bijzondere context: vastgoedtransacties zijn quasi-volledig uit het contante circuit gehaald (notariële akte vereist bancair traject); de tweedehandsauto-handel staat onder verscherpt toezicht omdat ze historisch een witwaskanaal vormde. De cap staat naast — niet in plaats van — de waakzaamheidsverplichting en de meldingsplicht aan de CFI: een transactie van 2 500 EUR cash is niet wettelijk verboden, maar kan wel een verdachte-transactie-melding triggeren indien gecombineerd met andere knipperlichten.
+
+<small>📚 Wet 18 september 2017 (antiwitwaswet) — art. 47 + hoofdstuk contanten — _wettekst_ · didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
+**Rationale**: 🔗 De ratio is preventief-systemisch: contant geld is per definitie traceloos en vormt daarmee de zwakke schakel in elke AML-architectuur die voor het overige op bancaire transparantie steunt (rekeningidentificatie, transactie-monitoring, beslag onder derden). Door een wettelijke plafond te leggen op contante stromen wordt het zwarte circuit gedwongen om bancair te transiteren — waar de waakzaamheidsverplichting van financiële instellingen actief wordt. De cap is dus geen sanctiebepaling tegen één specifieke witwasvorm, maar een algemene structuur-maatregel die het instrument zelf (cash) onaantrekkelijk maakt voor grote bedragen. Spiegelregel met meldingsplicht: cash onder de cap kan nog steeds verdacht zijn en moet aan de CFI gemeld worden bij vermoeden.
+
+<small>📚 didactisch-verrijken-agent (opus-4.7-1M) — _ai_model_ — (2026-05-29)</small>
+
 ## Voorbeelden
 
 ### 💡 Doorsluisvennootschap met overgewaardeerde inbreng in natura 🔗

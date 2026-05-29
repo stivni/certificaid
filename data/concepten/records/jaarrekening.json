@@ -59,6 +59,13 @@
         "model": "claude-opus-4-7",
         "wave_id": "extract-jaarrekening-test-2026-05-28",
         "wijziging": "Fase 2 content-extractie — kern + perspectieven + voorbeelden + valkuilen + claims-check tegen WVV/KB/CBN primaire bronnen"
+      },
+      {
+        "operatie": "partial-gap-aanvulling",
+        "timestamp": "2026-05-29T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "minicursus-gap-aanvulling-2026-05-29",
+        "wijziging": "Subconcept 'Sancties bij niet-neerlegging' toegevoegd (concept_type=regime) met 4 bouwstenen: verhoogde NBB-tariefbijdrage, hoofdelijke bestuurdersaansprakelijkheid, gerechtelijke ontbinding na 3 boekjaren (art. 2:74 WVV), strafrechtelijke sancties bij opzet."
       }
     ],
     "scope": {
@@ -564,6 +571,168 @@
               }
             }
           }
+        }
+      },
+      {
+        "id": "sancties-niet-neerlegging",
+        "naam": {
+          "primair": "Sancties bij niet-neerlegging",
+          "synoniemen": [
+            "sanctie-regime laattijdige neerlegging"
+          ]
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer de jaarrekening **niet of laattijdig** wordt neergelegd bij de Nationale Bank van België (NBB), kent het WVV een vier-laags sanctie-regime: (1) administratief — verhoogde NBB-tariefbijdrage; (2) civielrechtelijk — hoofdelijke bestuurdersaansprakelijkheid; (3) vennootschapsrechtelijk — gerechtelijke ontbinding na drie boekjaren zonder neerlegging (art. 2:74 WVV); (4) strafrechtelijk — bij opzettelijke verzuim (art. 3:97 WVV — artikel-nummer ⚠️ te verifiëren in actuele WVV-tekst).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 2:74",
+                    "context": "Gerechtelijke ontbinding bij driejarige niet-neerlegging"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Het sanctie-regime stapelt **progressief**: hoe langer de niet-neerlegging duurt, hoe meer sanctie-lagen geactiveerd raken.\n\n- **Verhoogde NBB-tariefbijdrage** — vanaf de **vervaldag** (zeven maanden na boekjaareinde, art. 3:10 WVV) loopt een **oplopende toeslag** op het basistarief. Bedragen worden jaarlijks gepubliceerd door de NBB; de toeslag stijgt over **negen maanden** in trappen.\n- **Bestuurders-aansprakelijkheid** — bestuurders zijn **hoofdelijk en persoonlijk** aansprakelijk voor schade die derden lijden door de niet- of laattijdige neerlegging (klassiek: schuldeisers die door gebrek aan publicatie geen kredietbeoordeling konden maken).\n- **Gerechtelijke ontbinding** — na **drie opeenvolgende boekjaren** zonder neerlegging kan elk belanghebbende of het openbaar ministerie de **ontbinding van de vennootschap** vorderen voor de ondernemingsrechtbank (art. 2:74 WVV).\n- **Strafrechtelijke sancties** — bij **opzettelijke** weigering of bedrog (vals jaarrekening neerleggen) kunnen boetes en gevangenisstraffen worden opgelegd (art. 3:97 WVV ⚠️).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 2:74 + art. 3:10",
+                    "context": "Termijn neerlegging + ontbindings-grond"
+                  },
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Het regime stapelt sancties omdat **openbaarmaking de tegenprestatie is voor de beperkte aansprakelijkheid** van een vennootschap: schuldeisers en derden krijgen alleen geen toegang tot het privé-vermogen van aandeelhouders omdat ze in ruil de jaarrekening kunnen consulteren. Wie weigert die transparantie te leveren, verliest dus geleidelijk de voordelen van het statuut — tot uiteindelijk de gerechtelijke ontbinding.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "claude-opus-4-7",
+                    "datum": "2026-05-29",
+                    "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "sanctie-tariefbijdrage",
+              "naam": {
+                "primair": "Verhoogde NBB-tariefbijdrage"
+              },
+              "bouwsteen_type": "drempel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vanaf de vervaldag (zeven maanden na boekjaareinde + één maand publicatie-termijn) stijgt de NBB-tariefbijdrage progressief tijdens de eerste negen maanden van vertraging. Exacte bedragen worden jaarlijks door de NBB gepubliceerd en staan ook in het Cijferzakboekje (raadpleegbaar bij examen).",
+                  "grondslag": {
+                    "confidence": "betwijfeld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "sanctie-bestuurdersaansprakelijkheid",
+              "naam": {
+                "primair": "Hoofdelijke bestuurdersaansprakelijkheid"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bestuurders van een vennootschap zijn **hoofdelijk en persoonlijk aansprakelijk** tegenover derden voor schade die voortvloeit uit het niet of laattijdig neerleggen van de jaarrekening. Klassiek voorbeeld: een schuldeiser die op basis van een ontbrekende jaarrekening krediet heeft verleend kan, wanneer de vennootschap insolvent blijkt, het verlies persoonlijk verhalen op de bestuurders.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "sanctie-gerechtelijke-ontbinding",
+              "naam": {
+                "primair": "Gerechtelijke ontbinding na drie boekjaren"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een vennootschap **drie opeenvolgende boekjaren** haar jaarrekening niet heeft neergelegd, kan **elk belanghebbende** of het **openbaar ministerie** de **gerechtelijke ontbinding** van de vennootschap vorderen voor de **ondernemingsrechtbank**. De rechtbank kan een regularisatie-termijn toekennen vóór ze definitief ontbindt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 2:74",
+                        "context": "Gerechtelijke ontbinding bij niet-neerlegging"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "sanctie-strafrechtelijk",
+              "naam": {
+                "primair": "Strafrechtelijke sancties bij opzet"
+              },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij **opzettelijke** weigering of bij neerlegging van een **valselijk opgestelde** jaarrekening kunnen strafrechtelijke sancties (boete + gevangenisstraf) worden opgelegd (art. 3:97 WVV — ⚠️ artikel-nummer te verifiëren in actuele WVV-tekst; valsheid in geschrifte blijft ook strafbaar via gemeen strafrecht art. 196 SW).",
+                  "grondslag": {
+                    "confidence": "betwijfeld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-29",
+                        "context": "PARTIAL-gap aanvulling minicursus-analyse"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         }
       }
     ],
