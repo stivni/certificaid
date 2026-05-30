@@ -1,0 +1,208 @@
+{
+  "id": "boetes-btw-niet-proportioneel",
+  "schema_version": "1.0",
+  "titel": "Btw: niet-proportionele geldboeten (periodieke aangiften, IC-listings, jaarlijkse klantenlistings)",
+  "categorie": "btw",
+  "wetsbasis": [
+    {
+      "bron": "WBTW",
+      "artikel": "70 § 4"
+    },
+    {
+      "bron": "KB-WBTW-44",
+      "artikel": "1 + Bijlage"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null,
+    "wijziging_door": "Tarieven Cijferzakboekje 2026 (KB nr. 44 van 09.07.2012, herhaaldelijk aangepast)"
+  },
+  "samenvatting": "Niet-proportionele geldboeten voor overtredingen rond btw-aangiften (periodieke btw-aangifte, intracommunautaire opgave, jaarlijkse klantenlisting). Drie tabellen: periodieke aangifte, IC-opgave, klantenlisting. Sinds 01.01.2018 boetebeleid: 1e overtreding van dezelfde aard kan volledig en automatisch kwijtgescholden worden onder cumulatieve voorwaarden (instructie 2018/I/41, 13.05.2018).",
+  "criteria": [
+    {
+      "naam": "Periodieke btw-aangifte — niet indienen (1e overtreding)",
+      "waarde": 500,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte. 1e overtreding = € 500."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet indienen (2e overtreding)",
+      "waarde": 1250,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet indienen (3e overtreding)",
+      "waarde": 2500,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet indienen (volgende overtredingen)",
+      "waarde": 5000,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — laattijdig indienen",
+      "waarde": "€ 100 per aangifte per maand vertraging, max € 500",
+      "toelichting": "Voor late indiening met meer dan vijf maanden vertraging die opgelopen is op het einde van de geldige wijze gemaakte procedure voor vervangende aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet correct ingevuld (louter toevallige onregelmatigheden)",
+      "waarde": 80,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet correct ingevuld (andere onregelmatigheden)",
+      "waarde": 500,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet naleven van de periodiciteit",
+      "waarde": 250,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "Periodieke btw-aangifte — niet naleven van de procedure van indienen",
+      "waarde": 400,
+      "eenheid": "EUR",
+      "toelichting": "Per aangifte."
+    },
+    {
+      "naam": "IC-opgave — niet indienen",
+      "waarde": "€ 3.000 voor deel 1; € 1.500 voor deel 2",
+      "toelichting": "Btw-opgave intracommunautaire handelingen."
+    },
+    {
+      "naam": "IC-opgave — laattijdig indienen (max 3 maanden vertraging)",
+      "waarde": "€ 25 per te vermelden persoon (deel 1) en € 15 per te vermelden persoon (deel 2), min € 75 en max € 1.500",
+      "toelichting": "Per opgave."
+    },
+    {
+      "naam": "IC-opgave — laattijdig indienen (max 6 maanden vertraging)",
+      "waarde": "€ 75 per te vermelden persoon (deel 1) en € 5 per te vermelden persoon (deel 2), min € 225 en max € 2.250"
+    },
+    {
+      "naam": "IC-opgave — laattijdig indienen (meer dan 6 maanden vertraging)",
+      "waarde": "€ 3.000 per document (deel 1) en € 1.500 (deel 2)"
+    },
+    {
+      "naam": "IC-opgave — ontbrekende gegevens",
+      "waarde": "€ 150 per ontbrekend gegeven (deel 1) en € 50 (deel 2), max € 1.350"
+    },
+    {
+      "naam": "IC-opgave — verkeerde gegevens (juiste gegevens binnen 2 maanden meegedeeld)",
+      "waarde": "€ 25 per verkeerd gegeven (deel 1) en € 10 (deel 2), min € 50 en max € 1.500"
+    },
+    {
+      "naam": "IC-opgave — verkeerde gegevens (andere gevallen)",
+      "waarde": "€ 50 per verkeerd gegeven (deel 1) en € 20 (deel 2), max € 1.200"
+    },
+    {
+      "naam": "IC-opgave — niet naleven procedure van indienen",
+      "waarde": "€ 400 per document (deel 1) en € 125 (deel 2)"
+    },
+    {
+      "naam": "IC-opgave — niet naleven periodiciteit van indienen",
+      "waarde": "€ 250 voor deel 1 en € 125 voor deel 2"
+    },
+    {
+      "naam": "Klantenlisting — niet indienen",
+      "waarde": 3000,
+      "eenheid": "EUR",
+      "toelichting": "Per lijst."
+    },
+    {
+      "naam": "Klantenlisting — laattijdig indienen (vertraging max 3 maanden, nihillijst)",
+      "waarde": 50,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Klantenlisting — laattijdig indienen (vertraging max 3 maanden, andere lijst)",
+      "waarde": "€ 25 per te vermelden afnemer, min € 75 en max € 1.500"
+    },
+    {
+      "naam": "Klantenlisting — laattijdig indienen (vertraging max 9 maanden, nihillijst)",
+      "waarde": 150,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Klantenlisting — laattijdig indienen (vertraging max 9 maanden, andere lijst)",
+      "waarde": "€ 75 per te vermelden afnemer, min € 225 en max € 2.250"
+    },
+    {
+      "naam": "Klantenlisting — laattijdig indienen (vertraging meer dan 9 maanden)",
+      "waarde": 3000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Klantenlisting — ontbrekende gegevens",
+      "waarde": "€ 150 per ontbrekend gegeven, max € 1.350"
+    },
+    {
+      "naam": "Klantenlisting — verkeerde gegevens (juiste gegevens binnen 2 maanden meegedeeld)",
+      "waarde": "€ 25 per verkeerd gegeven, min € 50 en max € 750"
+    },
+    {
+      "naam": "Klantenlisting — verkeerde gegevens (andere gevallen)",
+      "waarde": "€ 50 per verkeerd gegeven, max € 1.200"
+    },
+    {
+      "naam": "Klantenlisting — niet naleven procedure van indienen",
+      "waarde": 400,
+      "eenheid": "EUR",
+      "toelichting": "Per lijst."
+    },
+    {
+      "naam": "Beleidsregel — automatische kwijtschelding 1e overtreding",
+      "toelichting": "Sinds 01.01.2018 (instructie 2018/I/41, 13.05.2018) wordt boete volledig en automatisch kwijtgescholden bij eerste overtreding van dezelfde aard, mits cumulatief: (1) eerste overtreding binnen referentieperiode = 4 jaar voorafgaand; (2) te goeder trouw begaan (verondersteld); (3) geen impact op btw-bedrag uiteindelijk verschuldigd; (4) inbreuk rechtgezet en alle periodieke aangiften ingediend; (5) gemotiveerd verzoekschrift ingediend. Niet van toepassing op laattijdigheid/niet-indiening van periodieke btw-aangiften zelf."
+    }
+  ],
+  "context_tabellen": [],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p16-p17 (chapter-pagina), 'Btw: niet-proportionele geldboeten'",
+    "wettekst": "WBTW art. 70 §4 — KB nr. 44 van 09.07.2012, Bijlage. Instructie 2018/I/41 van 13.05.2018 voor boetebeleid.",
+    "cijferzakboekje_pagina": 25,
+    "verified_via": "Vision-extract PNG p025+p026 + RAG-cross-check 'KB 44 niet-proportionele geldboete' (KB 44 art. 6 woordelijk bevestigd, maar oudere bedragen — periodieke aangifte niet indienen € 1.000 vs. Cijferzakboekje 2026 € 500/1.250/2.500/5.000 met escalatie; KB werd nadien gewijzigd voor escalatie-systeem)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "btw",
+    "boete",
+    "geldboete",
+    "aangifte",
+    "ic-opgave",
+    "klantenlisting",
+    "kb-44",
+    "art-70"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "vision-PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md (Sonnet-prompt, draaiende als Opus-subagent)",
+      "extract_session": "2026-05-30 BTW-cluster H I (p014-p027)",
+      "png": [
+        "data/tarieven/pages/p025.png",
+        "data/tarieven/pages/p026.png"
+      ],
+      "rag_queries": [
+        "KB 44 niet-proportionele geldboete btw aangifte laattijdig indienen 500 euro"
+      ],
+      "primary_rag_bronnen": [
+        "KB nr. 44 art. 6 + Bijlage (basisversie 2012)",
+        "WBTW art. 70 §4 (rechtsgrondslag)"
+      ],
+      "opmerking": "RAG-versie van KB nr. 44 Bijlage toont oudere bedragen (€ 1.000 niet-indienen periodieke aangifte). Cijferzakboekje 2026 toont nieuwere bedragen met progressieve escalatie (€ 500/1.250/2.500/5.000). Primaire bron = Cijferzakboekje 2026 (actueel). Verify-pass moet de tussenliggende wijzigings-KB's identificeren.",
+      "review_needed": [
+        "Identificeer wijzigings-KB's tussen 2012 (oorspronkelijke versie) en 2026 (Cijferzakboekje-bedragen) die de escalatie hebben ingevoerd."
+      ]
+    }
+  }
+}

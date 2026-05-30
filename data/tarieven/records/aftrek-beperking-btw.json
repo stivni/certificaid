@@ -1,0 +1,198 @@
+{
+  "id": "aftrek-beperking-btw",
+  "schema_version": "1.0",
+  "titel": "Btw: beperking aftrek (autokosten, restaurant, onthaal, sociale voordelen)",
+  "categorie": "btw",
+  "wetsbasis": [
+    {
+      "bron": "WBTW",
+      "artikel": "45 § 2"
+    },
+    {
+      "bron": "WBTW",
+      "artikel": "45 § 3, 3°"
+    },
+    {
+      "bron": "WBTW",
+      "artikel": "45 § 3, 4°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Overzicht van uitgesloten of beperkt aftrekbare btw: autokosten (max 50%), restaurant- en hotelkosten, onthaal- en receptiekosten, relatiegeschenken en sociale voordelen. Drie regimes: niet aftrekbaar, beperkt tot 50%, 100% aftrekbaar (met uitzonderingen).",
+  "criteria": [
+    {
+      "naam": "Autokosten — algemene regel",
+      "tarief_pct": 50,
+      "toelichting": "Beperkt tot het beroepsgebruik, met een maximum van 50% (art. 45 §2 WBTW). Van toepassing op personenauto's, auto's voor dubbel gebruik en minibussen. Niet van toepassing op lichte vrachtwagens, bestelwagens, moto's en evenmin op minibussen voor het gemeenschappelijk vervoer van personeel van en naar het werk (art. 63 wet 10.08.2001)."
+    },
+    {
+      "naam": "Autokosten — publiciteit op voertuigen",
+      "tarief_pct": 100,
+      "toelichting": "Aanbrengen van publiciteit, reclameteksten (verf, niet-afneembare panelen) — 100% aftrekbaar. Btw-beslissing E.T. 129.852, 15.06.2016."
+    },
+    {
+      "naam": "Autokosten — brandstof",
+      "tarief_pct": 50,
+      "toelichting": "Beperkt tot beroepsgebruik, max 50% (art. 45 §2 WBTW)."
+    },
+    {
+      "naam": "Autokosten — carwash",
+      "tarief_pct": 50,
+      "toelichting": "Beperkt tot beroepsgebruik, max 50% (art. 45 §2 WBTW)."
+    },
+    {
+      "naam": "Autokosten — parkeergelegenheid voor uzelf en klanten",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-beslissing E.T. 108.474, 19.12.2004."
+    },
+    {
+      "naam": "Autokosten — tolgelden",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-beslissing E.T. 103.391, 27.10.2005."
+    },
+    {
+      "naam": "Autokosten — taxikosten",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar."
+    },
+    {
+      "naam": "Autokosten — juridische bijstand/advocaat na verkeersongeval",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar bij een verkeersongeval of zware overtreding. Circ. AAFisc nr. 47/2013, 20.11.2013, nrs. 197-200."
+    },
+    {
+      "naam": "Restaurant- en hotelkosten — algemene regel",
+      "tarief_pct": 0,
+      "toelichting": "Niet aftrekbaar (art. 45 §3, 3° WBTW)."
+    },
+    {
+      "naam": "Restaurantkosten voor personeel (Nieuwjaar, Sinterklaas, enz.)",
+      "tarief_pct": 0,
+      "toelichting": "Niet aftrekbaar — restaurantkosten voor het geheel van het personeel, georganiseerd ter gelegenheid van Nieuwjaar, Sinterklaas, enz. Btw-handleiding nr. 346."
+    },
+    {
+      "naam": "Restaurant-/hotelkosten voor personeel buiten de onderneming",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar, mits voorlegging factuur. Voor personeel tijdens opdrachten buiten de onderneming. Art. 45 §3, 3° a) WBTW."
+    },
+    {
+      "naam": "Restaurant-/hotelkosten kader seminarie/studiedag",
+      "tarief_pct": 0,
+      "toelichting": "Btw op lunch/hotel niet aftrekbaar; btw op seminariekosten (huur zaal, spreker, ...) wel aftrekbaar, indien afzonderlijk vermeld op factuur. Art. 45 §3, 3° WBTW."
+    },
+    {
+      "naam": "Restaurant- en hotelkosten in het buitenland",
+      "tarief_pct": 0,
+      "toelichting": "Niet aftrekbaar in België; eventueel wel in het buitenland zelf (lokale btw-regeling)."
+    },
+    {
+      "naam": "Onthaal- en receptiekosten — algemene regel",
+      "tarief_pct": 0,
+      "toelichting": "Niet aftrekbaar (art. 45 §3, 4° WBTW)."
+    },
+    {
+      "naam": "Onthaal-/receptiekosten publicitair evenement",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar ter gelegenheid van een publicitair evenement. Cass. 08.04.2005; Btw-handleiding nr. 347/1."
+    },
+    {
+      "naam": "Relatiegeschenken — algemene regel",
+      "tarief_pct": 0,
+      "toelichting": "Niet aftrekbaar (art. 45 §3, 4° WBTW)."
+    },
+    {
+      "naam": "Relatiegeschenken — aankoopprijs lager dan € 50 excl. btw",
+      "waarde": 50,
+      "eenheid": "EUR",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar als aankoopprijs < € 50 excl. btw. Per beroepsrelatie komt slechts één relatiegeschenk per jaar in aanmerking. Uitzondering geldt niet voor tabaksproducten en geestrijke dranken (wijn, champagne en porto worden niet aangemerkt als geestrijke dranken). Btw-handleiding nr. 350; circ. 2017/C/32, 29.05.2017."
+    },
+    {
+      "naam": "Monsters en stalen die gratis worden uitgedeeld",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar in de mate waarin deze kosten als bedrijfslasten aanvaard worden voor de heffing van de inkomstenbelastingen. Btw-handleiding nr. 348."
+    },
+    {
+      "naam": "Sociale voordelen — algemene regel",
+      "toelichting": "Btw niet aftrekbaar indien privatief karakter; btw wel aftrekbaar indien collectief karakter (aangeboden aan alle personeelsleden)."
+    },
+    {
+      "naam": "Gratis soep, koffie, water voor personeel",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-handleiding nr. 351, 4°."
+    },
+    {
+      "naam": "Bedrijfsrestaurant (sociale maaltijden personeelsleden)",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-handleiding nr. 351, 1°."
+    },
+    {
+      "naam": "Daguitstappen met het personeel",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar."
+    },
+    {
+      "naam": "Receptie voor het personeel",
+      "toelichting": "100% aftrekbaar indien geheel verzorgd (bereiding en opdienen van spijzen en dranken) door eigen personeel; niet aftrekbaar indien beroep gedaan op restauranthouder die eigen spijzen en dranken opdient."
+    },
+    {
+      "naam": "Occasioneel gebruik van accommodatie voor sport/cultuur/vrije tijd personeel",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-handleiding nr. 351, 4°."
+    },
+    {
+      "naam": "Gelegenheidsgeschenken aan personeel",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar, indien het voor de inkomstenbelastingen als sociaal voordeel beschouwd wordt. Btw-beslissing E.T. 44.335, 04.01.1983; Btw-handleiding nr. 351, 5°."
+    },
+    {
+      "naam": "Gratis woon-werkverkeer voor personeel per autocar",
+      "tarief_pct": 100,
+      "toelichting": "100% aftrekbaar. Btw-handleiding nr. 351, 4°."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-btw-diensten",
+    "tarief-btw-goederen"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p5-p6 (chapter-pagina), 'Btw: beperking aftrek'",
+    "wettekst": "WBTW art. 45 §2 (autokosten 50%) + §3, 3° (logies, spijzen en dranken) + §3, 4° (onthaal) — Wet 3 juli 1969",
+    "cijferzakboekje_pagina": 14,
+    "verified_via": "Vision-extract PNG p014+p015 + RAG-cross-check 'WBTW artikel 45 aftrek beperking' (art. 45 §1, 3° en 4° woordelijk bevestigd voor logies/spijzen/dranken/onthaal). Art. 45 §2 (50% max voor autokosten) staat in WBTW maar niet in retourned chunk."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "btw",
+    "aftrek",
+    "art-45",
+    "autokosten",
+    "restaurant",
+    "onthaal",
+    "sociale-voordelen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "vision-PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md (Sonnet-prompt, draaiende als Opus-subagent)",
+      "extract_session": "2026-05-30 BTW-cluster H I (p014-p027)",
+      "png": [
+        "data/tarieven/pages/p014.png",
+        "data/tarieven/pages/p015.png"
+      ],
+      "rag_queries": [
+        "WBTW artikel 45 aftrek beperking personenwagen 50% restaurant onthaal",
+        "WBTW artikel 45 paragraaf 2 personenwagen 50% aftrek beperking gemengd gebruik"
+      ],
+      "primary_rag_bronnen": [
+        "WBTW art. 45 §3, 3° en 4° (logies, spijzen, dranken, onthaal — niet aftrekbaar)"
+      ],
+      "opmerking": "Schema heeft geen 'meerdere regimes per criterium'-veld — bij criteria zonder vast tarief_pct staat de regel in 'toelichting'."
+    }
+  }
+}

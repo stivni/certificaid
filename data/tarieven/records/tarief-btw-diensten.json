@@ -1,0 +1,148 @@
+{
+  "id": "tarief-btw-diensten",
+  "schema_version": "1.0",
+  "titel": "Btw-tarieven: diensten (KB nr. 20)",
+  "categorie": "btw",
+  "wetsbasis": [
+    {
+      "bron": "KB-WBTW-20",
+      "artikel": "1"
+    },
+    {
+      "bron": "WBTW",
+      "artikel": "37"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Niet-exhaustieve lijst van diensten ingedeeld bij de btw-tarieven 6%, 12% en 21% (normaal tarief). De indeling vloeit voort uit KB nr. 20, Bijlage (Tabel A voor 6%, Tabel B voor 12%, geen tabel voor 21% — restcategorie).",
+  "criteria": [
+    {
+      "naam": "Landbouwdiensten — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Bewerken/oogstwerkzaamheden, kweek/oppas/africhten van landbouwdieren."
+    },
+    {
+      "naam": "Vervoer — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Personenvervoer en niet-vrijgestelde bagage van de gebruikers."
+    },
+    {
+      "naam": "Onderhoud en herstelling — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Onderhouds- en herstellingswerk aan goederen die bij aanschaf aan 6% onderworpen waren of zouden zijn geweest."
+    },
+    {
+      "naam": "Inrichtingen voor cultuur, sport of vermaak — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Toekenning van het recht op toegang tot inrichtingen voor cultuur, sport of vermaak en op het gebruik ervan."
+    },
+    {
+      "naam": "Auteursrechten, uitvoeren van concerten en voorstellingen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Met uitzonderingen (zie KB nr. 20, Tabel A, rubriek XXIX)."
+    },
+    {
+      "naam": "Verhuur van bepaalde goederen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Verhuur van goederen die bij levering onderworpen zouden zijn aan het verlaagd tarief."
+    },
+    {
+      "naam": "Werk in onroerende staat aan privéwoning >10 jaar — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Werk in onroerende staat en ermee gelijkgestelde handelingen, met betrekking tot een woning ouder dan 10 jaar, bestemd voor privégebruik (KB nr. 20, Tabel A, rubriek XXXVIII)."
+    },
+    {
+      "naam": "Werk in onroerende staat aan school-/internaatgebouwen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Werk in onroerende staat aan school- of internaatgebouwen voor school- of universitair onderwijs en leerlingenbegeleiding."
+    },
+    {
+      "naam": "Werk in onroerende staat aan gebouwen voor gehandicapten — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Werk in onroerende staat aan gebouwen bestemd voor het toezicht/zorg/huisvesting van gehandicapten."
+    },
+    {
+      "naam": "Sociale huisvesting — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Werk in onroerende staat voor sociale huisvesting (KB nr. 20, Tabel A, rubriek XXXVI)."
+    },
+    {
+      "naam": "Diversen (KB nr. 20, Tabel A) — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Onder andere lijkbezorging, dansvoorstellingen, opvang van afval, voordrachten en concerten van uitvoerende kunstenaars."
+    },
+    {
+      "naam": "Diensten van begrafenisondernemers — 6%",
+      "tarief_pct": 6,
+      "toelichting": "KB nr. 20, Tabel A, rubriek XXXIIIbis."
+    },
+    {
+      "naam": "Diensten verricht door instellingen met sociaal oogmerk — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Door instellingen met sociaal oogmerk, voor zover niet vrijgesteld."
+    },
+    {
+      "naam": "Afbraak en heropbouw van gebouwen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Onder voorwaarden (sociale woonbestemming, hoofdverblijfplaats, ...)."
+    },
+    {
+      "naam": "Kleine hersteldiensten — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Bv. herstel van fietsen, schoeisel en lederwaren, kleding en huishoudlinnen (KB nr. 20, Tabel A, rubriek XXXIX)."
+    },
+    {
+      "naam": "Restaurant- en cateringdiensten — 12%",
+      "tarief_pct": 12,
+      "toelichting": "Met uitsluiting van het verschaffen van dranken (die blijven aan 21%)."
+    },
+    {
+      "naam": "Hotels, camping — 12%",
+      "tarief_pct": 12,
+      "toelichting": "Het verschaffen van gemeubeld logies en daarmee samenhangende diensten."
+    },
+    {
+      "naam": "Elders niet genoemde diensten — 21%",
+      "tarief_pct": 21,
+      "toelichting": "Normaal tarief — alle diensten die niet onder Tabel A (6%) of Tabel B (12%) van KB nr. 20 vallen."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-btw-goederen",
+    "aftrek-beperking-btw",
+    "drempels-btw"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p7 (chapter-pagina), 'Btw-tarieven: diensten'",
+    "wettekst": "KB nr. 20 van 20 juli 1970 art. 1 (tarieven 21% / 6% Tabel A / 12% Tabel B / 0% Tabel C) — bevestigd in WBTW art. 37",
+    "cijferzakboekje_pagina": 16,
+    "verified_via": "Vision-extract PNG p016 + RAG-cross-check 'WBTW tarief 21 6 12 KB 20 bijlage' (KB 20 art. 1: 21% normaal, 6% Tabel A, 12% Tabel B, 0% Tabel C — woordelijk bevestigd)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "btw",
+    "tarief",
+    "diensten",
+    "kb-20"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "vision-PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md (Sonnet-prompt, draaiende als Opus-subagent)",
+      "extract_session": "2026-05-30 BTW-cluster H I (p014-p027)",
+      "png": "data/tarieven/pages/p016.png",
+      "rag_queries": [
+        "WBTW tarief 21 6 12 KB 20 bijlage"
+      ],
+      "primary_rag_bronnen": [
+        "KB nr. 20 art. 1 (normaal 21%, Tabel A 6%, Tabel B 12%, Tabel C 0%)"
+      ],
+      "opmerking": "Lijst is niet-exhaustief — zo geformuleerd in Cijferzakboekje. Volledige indeling staat in KB nr. 20 Bijlage Tabellen A/B/C."
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "tarief-btw-goederen",
+  "schema_version": "1.0",
+  "titel": "Btw-tarieven: goederen (KB nr. 20)",
+  "categorie": "btw",
+  "wetsbasis": [
+    {
+      "bron": "KB-WBTW-20",
+      "artikel": "1"
+    },
+    {
+      "bron": "WBTW",
+      "artikel": "37"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Niet-exhaustieve lijst van goederen ingedeeld bij de btw-tarieven 0%, 6%, 12% en 21%. KB nr. 20, Bijlage: Tabel A (6%), Tabel B (12%), Tabel C (0% — sinds 01.04.2019). 21% is het normaal tarief (restcategorie).",
+  "criteria": [
+    {
+      "naam": "Dagbladen en periodieke publicaties — 0%",
+      "tarief_pct": 0,
+      "toelichting": "Voor zover bestemd voor algemene informatie. KB nr. 20, Tabel C (circ. AAFisc nr. 22, 12.11.2019)."
+    },
+    {
+      "naam": "Recuperatiestoffen en -producten — 0%",
+      "tarief_pct": 0,
+      "toelichting": "Onder voorwaarden (circ. nr. 82, 15.12.1970)."
+    },
+    {
+      "naam": "Levende dieren — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Runderen, schapen, geiten, varkens, pluimvee en konijnen."
+    },
+    {
+      "naam": "Vlees en slachtafval — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Vis, schaal-, schelp- en weekdieren — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Melk en zuivelproducten, eieren, honing — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Groenten, planten, wortels en knollen, voor voedingsdoeleinden — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Fruit, schillen van citrusvruchten en van meloenen — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Plantaardige producten — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Granen, schorsen, planten en kruiden voor parfumerie, geneeskunde, insectenwerend gebruik, voederbieten, e.d."
+    },
+    {
+      "naam": "Producten van de meelindustrie, mout, zetmeel — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Mout, zetmeel, kleefstof. Maakt geen aanspraak: monturen, brilglazen en contactlenzen."
+    },
+    {
+      "naam": "Vetten en olie — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Andere voedingsmiddelen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Suikers, banketbakkerswaren, cacaopreparaten, deegwaren."
+    },
+    {
+      "naam": "Voedsel voor dieren, meststoffen, dierlijke en plantaardige oorsprong — 6%",
+      "tarief_pct": 6
+    },
+    {
+      "naam": "Water — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Gewoon natuurlijk water dat door middel van waterleiding wordt verdeeld."
+    },
+    {
+      "naam": "Geneesmiddelen en medische hulpmiddelen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Geneesmiddelen (incl. plasma), bloed, bedwelmingsmiddelen, vaccins, ontsmettingsmiddelen, dressings/verbanden, anticonceptiemiddelen, intieme hygiëneproducten, defibrillatoren, etc."
+    },
+    {
+      "naam": "Kranten, tijdschriften en boeken — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Voorwerpen, voortbrengselen en bijproducten van de drukkerij. Catalogussen, prentbriefkaarten, fotoboeken, prentbriefkaarten met afbeeldingen en geboorteberichten. Niet beoogd: monturen, brilglazen en contactlenzen."
+    },
+    {
+      "naam": "Kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Bij invoer (waarvan de leveringen niet vrijgesteld zijn) en bepaalde leveringen door de kunstenaar zelf."
+    },
+    {
+      "naam": "Automobielen voor personenvervoer voor invaliden — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Onderdelen, uitrusting en toebehoren voor deze voertuigen. Voertuigen aangekocht of verworven in België als persoonlijk vervoermiddel, gebruikt gedurende een periode van drie jaar, alsook de onderdelen, uitrustingsstukken en toebehoren van deze automobielen."
+    },
+    {
+      "naam": "Diversen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Doodskisten, begrafenisurnen, orthopedische toestellen en schoenen, looprekken, rolstoelen, hulpmiddelen voor slechtzienden en blinden, hoorapparaten, infuuspompen, glucosemeters, defibrillatoren, haarprotesen, enz. Niet beoogd: monturen, brilglazen en contactlenzen."
+    },
+    {
+      "naam": "Leveringen van goederen door instellingen met sociaal oogmerk — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Goederen verkocht door ondernemingen uit de sociale economie."
+    },
+    {
+      "naam": "Schoolgebouwen — 6%",
+      "tarief_pct": 6,
+      "toelichting": "Gebouwen bestemd voor het school- of universitair onderwijs, bijzonder onderwijs, leerlingenbegeleiding, volwassenenonderwijs, kunstonderwijs, enz."
+    },
+    {
+      "naam": "Margarine — 12%",
+      "tarief_pct": 12,
+      "toelichting": "KB nr. 20, Bijlage Tabel B."
+    },
+    {
+      "naam": "Banden en binnenbanden — 12%",
+      "tarief_pct": 12,
+      "toelichting": "Voor wielen van landbouwmachines en tractors."
+    },
+    {
+      "naam": "Sociale huisvesting (gebouw-levering) — 12%",
+      "tarief_pct": 12,
+      "toelichting": "Levering van gebouwen bestemd voor sociale huisvesting."
+    },
+    {
+      "naam": "Elders niet genoemde goederen — 21%",
+      "tarief_pct": 21,
+      "toelichting": "Normaal tarief — alle goederen die niet onder Tabel A (6%), Tabel B (12%) of Tabel C (0%) van KB nr. 20 vallen."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-btw-diensten",
+    "aftrek-beperking-btw",
+    "drempels-btw"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p8-p9 (chapter-pagina), 'Btw-tarieven: goederen'",
+    "wettekst": "KB nr. 20 van 20 juli 1970 art. 1 (en Bijlage Tabellen A/B/C) — bevestigd in WBTW art. 37",
+    "cijferzakboekje_pagina": 17,
+    "verified_via": "Vision-extract PNG p017+p018 + RAG-cross-check 'WBTW tarief 21 6 12 KB 20 bijlage' (KB 20 art. 1: 21% normaal, 6% Tabel A, 12% Tabel B, 0% Tabel C — woordelijk bevestigd; 0% sinds 01.04.2019)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "btw",
+    "tarief",
+    "goederen",
+    "kb-20"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "vision-PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md (Sonnet-prompt, draaiende als Opus-subagent)",
+      "extract_session": "2026-05-30 BTW-cluster H I (p014-p027)",
+      "png": [
+        "data/tarieven/pages/p017.png",
+        "data/tarieven/pages/p018.png"
+      ],
+      "rag_queries": [
+        "WBTW tarief 21 6 12 KB 20 bijlage"
+      ],
+      "primary_rag_bronnen": [
+        "KB nr. 20 art. 1 (normaal 21%, Tabel A 6%, Tabel B 12%, Tabel C 0%)"
+      ],
+      "opmerking": "Lijst is niet-exhaustief — zo geformuleerd in Cijferzakboekje. Volledige indeling staat in KB nr. 20 Bijlage Tabellen A/B/C."
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "id": "drempels-btw",
+  "schema_version": "1.0",
+  "titel": "Btw: drempelbedragen (EU-lidstaten — intracommunautaire verwerving, verkopen op afstand, vrijstellingsregeling kleine ondernemingen)",
+  "categorie": "btw",
+  "wetsbasis": [
+    {
+      "bron": "WBTW",
+      "artikel": "25ter § 1, 2°"
+    },
+    {
+      "bron": "WBTW",
+      "artikel": "56bis"
+    },
+    {
+      "bron": "Richtlijn 2006/112/EG",
+      "artikel": "284"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Wet 21 maart 2024 (omzetting Richtlijn (EU) 2020/285 — kleine-ondernemingsregeling op EU-niveau); KB 17.12.2023 (uitstel inwerkingtreding tot 01.01.2025)"
+  },
+  "samenvatting": "Drie EU-btw-drempels per lidstaat: (1) intracommunautaire verwerving — jaarlijks plafond waarboven IC-verwerving in lidstaat aankomst wordt belast; (2) verkopen op afstand (One-Stop Shop) — sinds 01.07.2021 geharmoniseerd op € 10.000 totaal voor IC-afstandsverkopen B2C en TBE-diensten; (3) vrijstellingsregeling voor kleine ondernemingen (art. 56bis WBTW — België € 25.000).",
+  "drempel_regel": "Drempels gelden per kalenderjaar. Overschrijding van drempel intracom. verwerving of vrijstellingsregeling → btw verschuldigd in lidstaat aankomst/uitvoer.",
+  "criteria": [
+    {
+      "naam": "België — IC-verwerving",
+      "waarde": 11200,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "België — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR",
+      "toelichting": "Pré-01.07.2021 nationale drempel (€ 35.000) — sinds OSS-hervorming vervangen door uniforme EU-drempel van € 10.000 (totaal IC-afstandsverkopen + TBE-diensten). Cijferzakboekje 2026 vermeldt nog de oude nationale drempel."
+    },
+    {
+      "naam": "België — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 25000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 56bis WBTW — jaaromzet in België niet meer dan € 25.000. Sinds 01.01.2025 ook bij art. 56ter voor in andere lidstaten gevestigde belastingplichtigen."
+    },
+    {
+      "naam": "Bulgarije — IC-verwerving",
+      "waarde": 20000,
+      "eenheid": "BGN"
+    },
+    {
+      "naam": "Bulgarije — verkopen op afstand",
+      "waarde": 70000,
+      "eenheid": "BGN"
+    },
+    {
+      "naam": "Bulgarije — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 50000,
+      "eenheid": "BGN"
+    },
+    {
+      "naam": "Cyprus — IC-verwerving",
+      "waarde": 10251.61,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Cyprus — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Cyprus — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 15600,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Denemarken — IC-verwerving",
+      "waarde": 80000,
+      "eenheid": "DKK"
+    },
+    {
+      "naam": "Denemarken — verkopen op afstand",
+      "waarde": 280000,
+      "eenheid": "DKK"
+    },
+    {
+      "naam": "Denemarken — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 50000,
+      "eenheid": "DKK"
+    },
+    {
+      "naam": "Duitsland — IC-verwerving",
+      "waarde": 12500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Duitsland — verkopen op afstand",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Duitsland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 17500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Estland — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Estland — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Estland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 40000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Finland — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Finland — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Finland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Frankrijk — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Frankrijk — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Frankrijk — vrijstellingsregeling kleine ondernemingen",
+      "waarde": "82.200 of 42.600 of 33.200",
+      "eenheid": "EUR",
+      "toelichting": "Drie drempels naargelang activiteit (verkoop / dienst / vrije beroepen)."
+    },
+    {
+      "naam": "Griekenland — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Griekenland — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Griekenland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Hongarije — IC-verwerving",
+      "waarde": 2500000,
+      "eenheid": "HUF"
+    },
+    {
+      "naam": "Hongarije — verkopen op afstand",
+      "waarde": 8800000,
+      "eenheid": "HUF"
+    },
+    {
+      "naam": "Hongarije — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 8000000,
+      "eenheid": "HUF"
+    },
+    {
+      "naam": "Ierland — IC-verwerving",
+      "waarde": 41000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Ierland — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Ierland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": "75.000 of 37.500",
+      "eenheid": "EUR",
+      "toelichting": "Verschillende drempel goederen vs. diensten."
+    },
+    {
+      "naam": "Italië — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Italië — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Italië — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 65000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Kroatië — IC-verwerving",
+      "waarde": 77000,
+      "eenheid": "HRK"
+    },
+    {
+      "naam": "Kroatië — verkopen op afstand",
+      "waarde": 270000,
+      "eenheid": "HRK"
+    },
+    {
+      "naam": "Kroatië — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 300000,
+      "eenheid": "HRK"
+    },
+    {
+      "naam": "Letland — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Letland — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Letland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 40000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Litouwen — IC-verwerving",
+      "waarde": 14000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Litouwen — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Litouwen — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 45000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Luxemburg — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Luxemburg — verkopen op afstand",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Luxemburg — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 30000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Malta — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Malta — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Malta — vrijstellingsregeling kleine ondernemingen",
+      "waarde": "35.000 of 24.000 of 14.000",
+      "eenheid": "EUR",
+      "toelichting": "Drie drempels naargelang activiteit."
+    },
+    {
+      "naam": "Nederland — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nederland — verkopen op afstand",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nederland — vrijstellingsregeling kleine ondernemingen",
+      "waarde": null,
+      "toelichting": "Geen drempel (Cijferzakboekje 2026)."
+    },
+    {
+      "naam": "Oostenrijk — IC-verwerving",
+      "waarde": 11000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Oostenrijk — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Oostenrijk — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 30000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Polen — IC-verwerving",
+      "waarde": 50000,
+      "eenheid": "PLN"
+    },
+    {
+      "naam": "Polen — verkopen op afstand",
+      "waarde": 160000,
+      "eenheid": "PLN"
+    },
+    {
+      "naam": "Polen — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 200000,
+      "eenheid": "PLN"
+    },
+    {
+      "naam": "Portugal — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Portugal — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Portugal — vrijstellingsregeling kleine ondernemingen",
+      "waarde": "10.000 of 12.500",
+      "eenheid": "EUR",
+      "toelichting": "Twee drempels naargelang activiteit."
+    },
+    {
+      "naam": "Roemenië — IC-verwerving",
+      "waarde": 34000,
+      "eenheid": "RON"
+    },
+    {
+      "naam": "Roemenië — verkopen op afstand",
+      "waarde": 118000,
+      "eenheid": "RON"
+    },
+    {
+      "naam": "Roemenië — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 220000,
+      "eenheid": "RON"
+    },
+    {
+      "naam": "Slovakije — IC-verwerving",
+      "waarde": 13941.45,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Slovakije — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Slovakije — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 49790,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Slovenië — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Slovenië — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Slovenië — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 50000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Spanje — IC-verwerving",
+      "waarde": 10000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Spanje — verkopen op afstand",
+      "waarde": 35000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Spanje — vrijstellingsregeling kleine ondernemingen",
+      "waarde": null,
+      "toelichting": "Geen drempel (Cijferzakboekje 2026)."
+    },
+    {
+      "naam": "Tsjechië — IC-verwerving",
+      "waarde": 326000,
+      "eenheid": "CZK"
+    },
+    {
+      "naam": "Tsjechië — verkopen op afstand",
+      "waarde": 1140000,
+      "eenheid": "CZK"
+    },
+    {
+      "naam": "Tsjechië — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 1000000,
+      "eenheid": "CZK"
+    },
+    {
+      "naam": "Zweden — IC-verwerving",
+      "waarde": 90000,
+      "eenheid": "SEK"
+    },
+    {
+      "naam": "Zweden — verkopen op afstand",
+      "waarde": 320000,
+      "eenheid": "SEK"
+    },
+    {
+      "naam": "Zweden — vrijstellingsregeling kleine ondernemingen",
+      "waarde": 30000,
+      "eenheid": "SEK",
+      "toelichting": "Bedrag in SEK; geen euro-drempel in tabel."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-btw-diensten",
+    "tarief-btw-goederen"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p13 (chapter-pagina), 'Btw: drempelbedragen' (bron: http://ec.europa.eu)",
+    "wettekst": "WBTW art. 25ter §1, 2° (IC-verwerving drempel) + art. 56bis (vrijstelling kleine ondernemingen, België € 25.000) + Richtlijn 2006/112/EG art. 284 e.v.",
+    "cijferzakboekje_pagina": 22,
+    "verified_via": "Vision-extract PNG p022 + RAG-cross-check 'WBTW artikel 56bis kleine onderneming drempel 25000' (België € 25.000 woordelijk bevestigd in WBTW art. 56bis, 2°)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "btw",
+    "drempel",
+    "ic-verwerving",
+    "verkopen-op-afstand",
+    "kleine-onderneming",
+    "art-56bis",
+    "eu"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "vision-PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md (Sonnet-prompt, draaiende als Opus-subagent)",
+      "extract_session": "2026-05-30 BTW-cluster H I (p014-p027)",
+      "png": "data/tarieven/pages/p022.png",
+      "rag_queries": [
+        "WBTW artikel 56bis kleine onderneming vrijstelling drempel 25000 euro"
+      ],
+      "primary_rag_bronnen": [
+        "WBTW art. 56bis 2° (vrijstellingsregeling — jaaromzet België niet meer dan € 25.000)",
+        "WBTW art. 56ter (sinds 01.01.2025 — vrijstellingsregeling ook over de grens, omzetting Richtlijn 2020/285)"
+      ],
+      "opmerking": "Verkopen op afstand: Cijferzakboekje toont nog pré-OSS (€ 35.000 nationaal); sinds 01.07.2021 is dit voor IC-afstandsverkopen B2C+TBE-diensten EU-uniform € 10.000 totaal (OSS-regeling). Voor verify-pass: bevestigen of dit een redactionele lacune is in Cijferzakboekje 2026 of toch nog relevant blijft voor sub-doeleinden.",
+      "review_needed": [
+        "OSS-drempel € 10.000 EU-uniform niet expliciet vermeld in tabel — Cijferzakboekje 2026 toont oude nationale drempels per land."
+      ]
+    }
+  }
+}

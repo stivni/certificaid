@@ -1,0 +1,138 @@
+{
+  "id": "tarief-rechtspersonenbelasting",
+  "schema_version": "1.0",
+  "titel": "Rechtspersonenbelasting: tarieven (art. 225 WIB92)",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "225"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "221"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "222"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "223"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Aanslagjaren 2025-2026 (Cijferzakboekje 2026)"
+  },
+  "samenvatting": "De rechtspersonenbelasting (RPB) wordt — voor in art. 221 WIB92 vermelde inkomsten — geheven gelijk aan de onroerende of roerende voorheffing. Voor specifieke meerwaarden en niet-verantwoorde kosten/voordelen geldt een eigen tarief: 33% of 16,5% op meerwaarden op ongebouwde onroerende goederen, 16,5% op meerwaarden gebouwen en belangrijke deelnemingen, 100% (of 50% indien verkrijger een rechtspersoon is) op niet-verantwoorde kosten en geheime voordelen, en 25% op verworpen VAA-auto en intercommunale dividenden.",
+  "criteria": [
+    {
+      "naam": "Kadastraal inkomen van in België gelegen onroerende goederen",
+      "waarde": "onroerende voorheffing",
+      "toelichting": "Belasting = onroerende voorheffing (geen apart RPB-tarief). Art. 221, 1° + 225, eerste lid WIB92."
+    },
+    {
+      "naam": "In België gelegen verhuurde onroerende goederen",
+      "waarde": 20,
+      "eenheid": "%",
+      "tarief_pct": 20,
+      "toelichting": "Art. 222, 1° + 225, 2de lid, 1° WIB92. Niet van toepassing indien verhuurd aan een natuurlijke persoon die het onroerend goed noch geheel, noch gedeeltelijk gebruikt voor het uitoefenen van zijn beroepswerkzaamheid."
+    },
+    {
+      "naam": "Meerwaarden ongebouwde onroerende goederen — vervreemding binnen 5 jaar",
+      "waarde": 33,
+      "eenheid": "%",
+      "tarief_pct": 33,
+      "toelichting": "Art. 222, 4° + 225, 2de lid, 2° WIB92 (verwijst naar art. 171, 1°, b)."
+    },
+    {
+      "naam": "Meerwaarden ongebouwde onroerende goederen — vervreemding na meer dan 5 jaar en binnen 8 jaar",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 222, 4° + 225, 2de lid, 2° WIB92 (verwijst naar art. 171, 4°, d)."
+    },
+    {
+      "naam": "Meerwaarden gebouwde onroerende goederen (vervreemding binnen 5 jaar)",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 222, 5° + 225, 2de lid, 3° WIB92."
+    },
+    {
+      "naam": "Inkomsten en opbrengsten van roerende goederen en kapitalen",
+      "waarde": "roerende voorheffing",
+      "toelichting": "Belasting = roerende voorheffing (geen apart RPB-tarief). Art. 221, 2° + 225, eerste lid WIB92."
+    },
+    {
+      "naam": "Meerwaarden op belangrijke deelnemingen",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 222, 6° + 225, 2de lid, 3° WIB92."
+    },
+    {
+      "naam": "Niet-verantwoorde kosten en bepaalde financiële voordelen of voordelen alle aard — verkrijger is een natuurlijke persoon",
+      "waarde": 100,
+      "eenheid": "%",
+      "tarief_pct": 100,
+      "toelichting": "Art. 223, eerste lid, 1° en 3° + 225, 2de lid, 4° WIB92."
+    },
+    {
+      "naam": "Niet-verantwoorde kosten en bepaalde financiële voordelen of voordelen alle aard — verkrijger is een rechtspersoon",
+      "waarde": 50,
+      "eenheid": "%",
+      "tarief_pct": 50,
+      "toelichting": "Art. 225, 2de lid, 4° WIB92 in fine: aanslag is 50% indien aangetoond dat verkrijger een rechtspersoon is."
+    },
+    {
+      "naam": "Verworpen uitgave ten belope van 17% of 40% van het VAA auto",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "Verworpen uitgave VAA bedrijfswagen. Bedrag in Cijferzakboekje p124."
+    },
+    {
+      "naam": "Dividenden toegekend door intercommunales",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "Dividenduitkeringen door intercommunales aan RPB-plichtigen."
+    }
+  ],
+  "context_tabellen": [
+    "toepassingsgebied-rechtspersonenbelasting"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p124 (PDF-pagina 133) — Rechtspersonenbelasting: tarieven (Bron: art. 225 WIB 92)",
+    "wettekst": "WIB92 art. 225 (in samenhang met art. 221, 222, 223)",
+    "cijferzakboekje_pagina": 133,
+    "verified_via": "Vision-extract PNG p133 + RAG-cross-check WIB92 art. 225 (bi=0.346, woordelijk match op alle tarieven 20% / 33% / 16,5% / 100% / 50%)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "rechtspersonenbelasting",
+    "rpb",
+    "wib92",
+    "tarieven",
+    "onroerende-voorheffing",
+    "roerende-voorheffing"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision PNG p133 + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "rag_queries": [
+        "rechtspersonenbelasting WIB92 art 225 tarief onroerende voorheffing roerende voorheffing"
+      ],
+      "primary_rag_bronnen": [
+        "WIB92 Art. 225"
+      ],
+      "voetnoot_pagina": "Voetnoot (1) bij rij 'In België gelegen verhuurde onroerende goederen': Niet van toepassing indien verhuurd aan een natuurlijke persoon die het onroerend goed noch geheel, noch gedeeltelijk gebruikt voor het uitoefenen van zijn beroepswerkzaamheid."
+    }
+  }
+}

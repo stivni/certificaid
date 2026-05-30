@@ -1,0 +1,93 @@
+{
+  "id": "tarief-pb-schijven-aj2026",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting algemeen tarief — aanslagjaar 2026 (inkomsten 2025)",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "130"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "178"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": 2025,
+    "wijziging_door": "Jaarlijkse indexering art. 178 WIB92"
+  },
+  "samenvatting": "Progressief tarief personenbelasting voor inkomstenjaar 2025 / aanslagjaar 2026 — vier schijven met tarieven 25%, 40%, 45% en 50%. Schijfgrenzen zijn de geïndexeerde bedragen van art. 130 WIB92 jo. art. 178 WIB92.",
+  "criteria": [
+    {
+      "naam": "Schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 16320,
+      "tarief_pct": 25,
+      "eenheid": "EUR",
+      "toelichting": "Belasting op deze schijf: € 4.080,00 — cumulatief € 4.080,00."
+    },
+    {
+      "naam": "Schijf 2",
+      "ondergrens": 16320,
+      "bovengrens": 28800,
+      "tarief_pct": 40,
+      "eenheid": "EUR",
+      "toelichting": "Belasting op deze schijf: € 4.992,00 — cumulatief € 9.072,00."
+    },
+    {
+      "naam": "Schijf 3",
+      "ondergrens": 28800,
+      "bovengrens": 49840,
+      "tarief_pct": 45,
+      "eenheid": "EUR",
+      "toelichting": "Belasting op deze schijf: € 9.468,00 — cumulatief € 18.540,00."
+    },
+    {
+      "naam": "Schijf 4",
+      "ondergrens": 49840,
+      "bovengrens": null,
+      "tarief_pct": 50,
+      "eenheid": "EUR",
+      "toelichting": "Tarief voor de schijf boven € 49.840,00."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-pb-schijven-aj2027",
+    "tarief-pb-schijven-aj2025",
+    "tarief-pb-schijven-aj2024"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p61 — Personenbelasting: algemeen tarief — Inkomstenjaar 2025 – aanslagjaar 2026",
+    "wettekst": "WIB92 art. 130 (basisbelasting — basistarieven 25/40/45/50%) jo. art. 178 (jaarlijkse indexering schijfgrenzen)",
+    "cijferzakboekje_pagina": 61,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p070.png (Cijferzakboekje 2026 p61) + RAG-cross-check WIB92 art. 130 (tarief-percentages 25/40/45/50 woordelijk bevestigd). Cumulatieve belasting per schijf rekenkundig geverifieerd."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "tariefschijven",
+    "aj2026",
+    "ij2025"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p070.png + RAG-cross-check WIB92 art. 130",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p070.png",
+      "rag_queries": [
+        "personenbelasting tariefschijven WIB92 artikel 130",
+        "art 130 belasting bepaald op basis tarief 25 40 45 50"
+      ],
+      "primary_rag_bronnen": [
+        "WIB92 Art. 130 — basisbelasting tarief 25/40/45/50%"
+      ],
+      "rekenkundige_check": "16320*0.25=4080 OK; (28800-16320)*0.40=4992 cum 9072 OK; (49840-28800)*0.45=9468 cum 18540 OK"
+    },
+    "updated_at": "2026-05-30"
+  }
+}
