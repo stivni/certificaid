@@ -63,7 +63,7 @@ Alvorens te starten, zorg dat je:
 
 **Doel**: voor elke voorgestelde leerstuk een YAML-script schrijven dat de didactische structuur vastlegt.
 
-**Hoe**: één YAML per leerstuk in `data/leerstukken/<slug>.yaml`. Volg [`data/leerstukken/SCHEMA.md`](../data/leerstukken/SCHEMA.md) voor het schema.
+**Hoe**: gebruik [`prompts/leerstuk-scripts-v1.md`](../prompts/leerstuk-scripts-v1.md) — canonical prompt sinds [ADR-037 §"Amendement 2026-05-31"](adr/ADR-037-leerstuk-vierde-leerlaag.md). **Eén Opus-agent** schrijft alle scripts van het PO in één run (verhaal-cohesie + hand-offs). Bron-discipline: programma + concept-records + wettekst (via MCP) primair; skelet is hypothese die ge-revalideerd mag worden; themafiches zijn secundair. Schrijf één YAML per leerstuk in `data/leerstukken/<slug>.yaml` volgens [`data/leerstukken/SCHEMA.md`](../data/leerstukken/SCHEMA.md).
 
 **Inhoud**:
 - `meta` (slug, titel, po, cluster, voorbeeldgroep-ref, beschrijving)
@@ -173,7 +173,7 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 |---|---|---|
 | 1. Skelet | 30-60 min | Opus (sparring met mens) |
 | 2. Voorbeeldgroep-data | 1-2 uur | Mens (creatieve mock met kloppende cijfers) |
-| 3. Scripts per leerstuk | 30-45 min per stuk | Mens of Opus-assist; ~3-5 uur totaal voor 5-7 leerstukken |
+| 3. Scripts per leerstuk | ~5-15 min per stuk (Opus-agent) | Eén Opus-agent voor alle scripts van het PO; ~1-2 uur totaal voor 4-7 leerstukken |
 | 4. Render per leerstuk | ~3-5 min per stuk; parallel 4 tegelijk via subagenten | Sonnet-agenten |
 | 5. Minicursus | 30-60 min | Mens of Sonnet |
 | 6. Themafiche-update | 15-30 min | Mens |

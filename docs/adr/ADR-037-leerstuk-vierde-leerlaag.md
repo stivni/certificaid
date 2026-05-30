@@ -201,6 +201,43 @@ POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `co
 | 6 | Backlink-render: een concept-fiche toont "Genoemd in leerstukken X, Y" (automatisch) | Wanneer leerstukken-corpus stabiel genoeg is |
 | 7 | Multi-PO leerstukken: kan één leerstuk PO-overstijgend zijn (bv. waarderingsregels)? | Empirisch wanneer een leerstuk in twee minicursussen relevant blijkt |
 
+## Amendement 2026-05-31 — bron-discipline + script-generatie
+
+Twee procedurele regels die uit de PO 1.8-werkronde zijn opgekomen. Gelden voor alle Stap-1 (skelet) en Stap-3 (scripts) werkzaamheden.
+
+### A. Bron-prioriteit bij skelet en scripts
+
+Bij het bouwen van een leerpad-skelet of leerstuk-scripts mag een **bestaande themafiche niet als primaire bron** dienen voor de leerstuk-keuze of de pedagogische structuur.
+
+**Why**: themafiches zijn afgeleide werken — kapstokken voor visuele herhaling vlak vóór het examen. De source-of-truth voor pedagogische scope is:
+
+1. **Examenprogramma** (`data/programma/programma.json`) — alle kenniselementen, niet de samenvatting
+2. **Concept-records** (`data/concepten/records/`) — via MCP `zoek_concepten` + `lees_record`
+3. **Primaire bronnen** (wetteksten, CBN-adviezen, ITAA-normen) — via MCP `zoek_bronnen`
+
+Themafiches zijn **secundair** en mogen als sanity-check dienen ("dekt mijn structuur de stof natuurlijk?"), niet als spiegel-as. 1:1 spiegelen op een themafiche-structuur creëert blind-spot-risico: kenniselementen die de themafiche overslaat verdwijnen ongezien uit het leerpad.
+
+**How to apply**:
+- `prompts/leerpad-skelet-v1.md` §"Lees deze inputs" volgt deze prioriteits-volgorde.
+- `prompts/leerstuk-scripts-v1.md` (nieuw) idem.
+- Bij review van een skelet of scripts: vraag of de leerstuk-keuze óók logisch is bij dichte programma-lezing zonder de themafiches.
+
+### B. Script-generatie in één Opus-agent per PO
+
+Leerstuk-scripts (`data/leerstukken/<slug>.yaml`) van **één PO** worden in **één Opus-agent-run** geschreven, niet door parallelle Sonnet-agents per leerstuk.
+
+**Why**: leerpad + leerstukken vormen één doorlopend verhaal. Bouwstenen worden in lstk N geïntroduceerd en in lstk N+1 als referentie opgeroepen (bv. contributiemarge in leerstuk 2 → fundament van leerstuk 3). Aparte agents zien elkaars output niet → overlap, dubbele uitleg, broken hand-offs. Pedagogische cohesie + cross-references vragen één geest met alle programma-, concept- en bron-kennis tegelijk.
+
+**How to apply**:
+- Stap 3 in `docs/leerstuk-procedure.md`: één `Agent` met `model: opus` schrijft alle leerstuk-scripts van het PO sequentieel binnen één run. Geen parallel-fan-out per leerstuk.
+- Stap 4 (YAML → markdown render) mag wél parallel — daar zijn scripts gefixeerd, render-agents werken onafhankelijk binnen vastgelegde scope.
+- Granulariteit (aantal leerstukken) wordt door de scripts-agent ge-revalideerd tegen programma + concepten + bronnen — de skelet-keuze is voorstel, geen vaste lijst.
+
+### C. Geen vaste leerstuk-lijst bij Stap 3-aanvang
+
+Bij de start van Stap 3 mag de scripts-agent het skelet-leerstukvoorstel **herzien** op basis van zijn diepere lezing van programma + concepten + bronnen. Voorstel uit skelet is sparring-hypothese; revalidatie is verplicht. Bij afwijking: rapport aan mens vóór scripts-uitschrijving begint.
+
 ## Veranderlog
 
 - **2026-05-30** — ADR opgesteld na sparring-sessie (Opus). Aanleiding: stagiair vraag op `/concepten/consolidatieverplichting` over drempels groottecriteria → ontdekking dat (a) concepten-laag versnipperd is voor pedagogisch gebruik, (b) `art. 1:24 § 6` ≠ `art. 1:26 § 1` (feitelijke fout in record), (c) themafiche/minicursus-gap = integrerende leerlaag ontbreekt. Naam `leerstuk` vastgelegd. Granulariteits-stelregel "eerder samen dan splitsen". Wettekst-conventie "voetensectie ipv inline". Visualiteits-eis "twee visuele elementen verplicht". POC `wie-moet-consolideren` als test-case voor consolidatie-cluster.
+- **2026-05-31** — Amendement bron-discipline + script-generatie toegevoegd. Aanleiding: PO 1.8-werkronde toonde dat skelet-stap te sterk leunde op themafiches als spiegel, en dat parallelle Sonnet-script-agents broken hand-offs creëerden. Twee nieuwe regels: (a) programma + concepten + bronnen primair, themafiches secundair; (b) één Opus-agent voor alle scripts van een PO. Canonical prompt: `prompts/leerstuk-scripts-v1.md`.

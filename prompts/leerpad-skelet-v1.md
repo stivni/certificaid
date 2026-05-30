@@ -28,16 +28,26 @@ Je werkt aan het skelet voor een PO van het certificaid-project. Doel: voor PO <
 
 Output: één markdown-bestand `docs/leerpad-skelet-<<PO_SLUG>>.md` (waar <<PO_SLUG>> de slug-vorm is — bv. `1-4` voor PO 1.4).
 
-## Lees deze inputs
+## Lees deze inputs — bron-prioriteit (verplicht in deze volgorde)
 
-1. **Het PO-blok in `data/programma/programma.json`** — taken, doelstellingen, kenniselementen per anchor. Filter op je PO.
+**Primaire bronnen** (de leerstuk-keuze moet hieruit volgen, niet uit afgeleide werken):
+
+1. **Het PO-blok in `data/programma/programma.json`** — alle taken, doelstellingen, **alle kenniselementen** (één niveau dieper dan de samenvatting). Dit is de source-of-truth voor pedagogische scope.
 2. **`data/programma/anchors.json`** — anchor-metadata.
-3. **Voorbeeldexamens voor dit PO**: zoek in `content/voorbeeldexamens/po-<<PO_CODE>>.md` (indien bestaand) — welke vraag-eenheden + patronen?
-4. **ADR-037** (`docs/adr/ADR-037-leerstuk-vierde-leerlaag.md`) — vier-lagen-model + granulariteits-stelregel.
-5. **`docs/leerstuk-schrijfregels.md`** — wat een leerstuk wel/niet doet.
-6. **`docs/leerstuk-procedure.md`** — verwijst terug naar dit document; lees voor context.
-7. **Referentie**: `docs/leerpad-skelet-1-4.md` indien al bestaand (gold-standard voor PO 1.4).
-8. **Concept-records die deze PO raken**: via MCP `mcp__certificaid-rag__zoek_concepten` met PO-zoektermen (bv. "consolidatie" voor 1.4, "BTW-vrijstellingen" voor 2.4).
+3. **Concept-records die deze PO raken**: via MCP `mcp__certificaid-rag__zoek_concepten` met PO-zoektermen (bv. "consolidatie" voor 1.4, "BTW-vrijstellingen" voor 2.4). Lees de relevante records via `mcp__certificaid-rag__lees_record`. Dit is de definitorische basis voor wikilinks.
+4. **Primaire bronnen** (wetteksten, CBN-adviezen, ITAA-normen): via MCP `mcp__certificaid-rag__zoek_bronnen` op de PO-thematiek. Verifieer welke wettelijke kaders bestaan.
+5. **Voorbeeldexamens voor dit PO**: zoek in `content/voorbeeldexamens/po-<<PO_CODE>>.md` (indien bestaand) — welke vraag-eenheden + patronen?
+
+**Methodologische context**:
+
+6. **ADR-037** (`docs/adr/ADR-037-leerstuk-vierde-leerlaag.md`) — vier-lagen-model + granulariteits-stelregel + **§"Amendement 2026-05-31 — bron-discipline"**.
+7. **`docs/leerstuk-schrijfregels.md`** — wat een leerstuk wel/niet doet.
+8. **`docs/leerstuk-procedure.md`** — verwijst terug naar dit document; lees voor context.
+9. **Referentie**: `docs/leerpad-skelet-1-4.md` indien al bestaand (gold-standard voor PO 1.4).
+
+**Secundaire bronnen** (interpretatie achteraf — gebruik als sanity-check, NIET als vertrekpunt voor de leerstuk-structuur):
+
+10. **Bestaande themafiches** in `content/themafiches/` die het cluster raken. ⚠️ Spiegel je leerstuk-keuze **niet 1:1** op de themafiche-structuur — themafiches zijn afgeleide kapstokken voor visuele herhaling (ADR-036), geen pedagogische source-of-truth. Een themafiche kan kenniselementen overslaan of pedagogische keuzes maken die voor een leerstuk anders moeten. Gebruik hooguit om te checken of jouw leerstuk-structuur de stof natuurlijk dekt.
 
 ## Werkstroom
 
