@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn opgeleverd: `tarieven_api` + MCP-server `certificaid-tarieven` + 2 prompts + 3 trusted drempel-records voor art. 1:24/1:25/1:26 WVV — leerstuk `wie-moet-consolideren` wikilinkt nu naar de tarief-records; vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht)
+**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn volledig operationeel: `tarieven_api` + MCP-server + chunker + 2 prompts + **82 records** geëxtraheerd uit Cijferzakboekje 2026 via 8 parallel Sonnet-subagents — 3 drempels + 4 PB-schijven + 6 BTW + 2 RPB + 6 erven/schenken + 6 onroerend goed + 13 PB-eerste-helft + 20 PB-tweede-helft + 22 SZ+VenB+Vennrecht-overige. Alle records draft; verify-pass nog te doen. Leerstuk `wie-moet-consolideren` wikilinkt naar drempel-records. Vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht.)
 
 ---
 
@@ -331,23 +331,42 @@ Na de records-bypass: `python3 -m tools.lib.records_api --audit-parity` draaien 
 
 ---
 
-## Tarief-records (ADR-026) — open lijst
+## Tarief-records (ADR-026) — stand 2026-05-30
 
-**Pijplijn-status** (2026-05-30): infrastructuur klaar (schema 1.0 · `tarieven_api` · MCP-server `certificaid-tarieven` · prompts v1) — bewezen via 3 trusted drempel-records uit CBN-advies 2024/07 + MvT-WVV. Chunker uitgesteld tot Cijferzakboekje 2027 als single PDF.
+**Pijplijn-status**: volledig operationeel (schema 1.0 · `tarieven_api` · MCP-server `certificaid-tarieven` · `chunk_pdf` chunker · 2 prompts v1). Cijferzakboekje 2026 (196 pagina's) volledig gechunkt naar `data/tarieven/pages/`.
 
-**Records aanwezig** (3): `drempels-kleine-vennootschap` · `drempels-microvennootschap` · `drempels-groep-beperkte-omvang`.
+**82 records geschreven via 8 parallel Sonnet-subagents** (allemaal draft, geen trust):
 
-**As-needed te produceren wanneer leerstuk-X het aanroept**:
+| Cluster | Aantal | Bron |
+|---|---|---|
+| Drempels (art. 1:24/1:25/1:26 WVV) | 3 | RAG (CBN 2024/07 + MvT-WVV) |
+| PB-tariefschijven (aj 2024-2027) | 4 | PNG p70 + WIB92 art. 130 |
+| BTW-cluster | 6 | PNG p14-p27 + KB nr. 20 + WBTW |
+| Rechtspersonenbelasting | 2 | PNG p133-p134 + WIB92 art. 225/220 |
+| Erven en schenken (3 gewesten × 2) | 6 | PNG p29-p41 + W.Reg + VCF + W.Succ |
+| Onroerend goed (OV + reg. 3 gewesten) | 6 | PNG p43-p55 + VCF + W.Reg |
+| PB eerste helft (kredieten, vrije sommen, beroepskosten, ...) | 13 | PNG p72-p105 |
+| PB tweede helft (VAA, RV, voorafbet., cheques, ...) + CO2-taks + lichte vracht | 20 | PNG p106-p131 + p185-p186 |
+| SZ-werknemers + SZ-zelfstandigen + VenB + Vennootschapsrecht-overige | 22 | PNG p137-p177 |
 
-- Vennootschapsbelasting — basistarief + verlaagd KMO-tarief + voorwaarden (art. 215 WIB92)
-- Vennootschapsbelasting — voorafbetalingen (rentevoeten, vermeerderings-bonificatie)
-- Personenbelasting — schijven 2026 (al beschikbaar in PNG `p070` — eerste vision-extract-target zodra leerstuk PB nodig heeft)
-- Roerende voorheffing — gewone + verlaagde tarieven (VVPR-bis etc.)
-- Btw — drempel kleine onderneming + verschillende tarieven
-- Indexcoëfficiënt – berekeningsbasis 2013/2024
-- Sociale zekerheid — bijdragen werkgever/werknemer/zelfstandige (alleen indien examen-relevant)
+**Confidence-verdeling**: 78× ⚖️ (grounded), 4× 🤖 (complexe samengestelde tabellen).
 
-**Aanpak per nieuwe record**: extract-subagent via [`prompts/tarief-extractie-v1.md`](../prompts/tarief-extractie-v1.md), gevolgd door verify via [`prompts/tarief-verify-v1.md`](../prompts/tarief-verify-v1.md). Voor records waarvan de bedragen volledig RAG-traceerbaar zijn (CBN-advies / wettekst-MvT): PNG-vision overslaan, `cijferzakboekje_pagina = null` documenteren in `bron`.
+**Verify-pass — TE DOEN** (open punt):
+- Verify-subagents per cluster (`prompts/tarief-verify-v1.md`) — cijfers kruisen tegen tweede primaire bron + `mark_trusted` waar volledig match
+- Open review-flags per record gedocumenteerd in `extract_provenance` van elk JSON-record. Bekendmaakte aandachtspunten:
+  - BTW-drempels: OSS-uniforme €10.000 vs. Cijferzakboekje legacy €35.000 nationaal
+  - BTW-boetes: KB nr. 44 toont oude bedragen vs. Cijferzakboekje escalatie €500/1.250/2.500/5.000
+  - PB Belastingvrije sommen: discrepantie aj 2025 vs aj 2026 voor "kind ten laste van alleenstaande"
+  - VenB-basis: bezoldigingsdrempel €45.000→€50.000 per 01.01.2026 (wetsontwerp hangende?)
+  - Indexcoëfficiënt KI 2,3000 aj 2026: bron BS niet RAG-geverifieerd
+  - Records 🤖: `tarief-pb-overige-belastingverminderingen`, `vaa-overige-leningen`, `publicatietarieven-vennootschappen`, `vergelijkende-tabel-vennootschapsvormen`
+
+**Niet-geëxtraheerde TOC-entries** (bewust geskipped — examen-marge):
+- H I BTW-agenda (p11-p13) — dagprogramma, geen records-waardig
+- H IV Personeel (p57-p69) — arbeidsrecht-tekst (opzeggingstermijnen, klein verlet, ...) — concept-record-werk, geen tarief-tabel
+- H XI Verkeer: BIV per gewest (p179-p183) + verkeersbelasting per gewest (p189-p195) + brandstof (p184) + kilometerheffing (p187) — examen-marginaal, kan later
+
+**MCP-server activeren**: nieuwe Claude Code-sessie → `.mcp.json` boot `certificaid-tarieven` server → 82 records bevraagbaar via `mcp__certificaid-tarieven__zoek_tabellen`.
 
 ---
 
