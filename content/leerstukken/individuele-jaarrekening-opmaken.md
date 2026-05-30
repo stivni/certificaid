@@ -6,6 +6,7 @@ tags:
   - leerstuk
   - po-1.4
   - cluster-enkelvoudige-jaarrekening
+  - verborgen
 ---
 
 <div class="no-print">

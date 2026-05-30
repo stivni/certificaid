@@ -4,8 +4,9 @@ import * as Component from "./quartz/components"
 const explorerOpts = {
   mapFn: (node: any) => {
     // Use explorer_title frontmatter field when available (programmaonderdelen)
-    if (node.file?.frontmatter?.explorer_title) {
-      node.displayName = node.file.frontmatter.explorer_title
+    // Exposed via custom ContentIndex emitter as node.data.explorerTitle
+    if (node.data?.explorerTitle) {
+      node.displayName = node.data.explorerTitle
       return node
     }
     return node

@@ -51,87 +51,30 @@ Drie rollen kruisen elkaar: de **boekhouder** stelt de consolidatie op, de **com
 
 ---
 
-## 3. Wat moet je kunnen?
+## 3. Wat moet je kunnen + hoe pak je het aan
 
 Het examenprogramma noemt voor dit vak **één hoofdtaak**:
 
 > *Opstellen van de individuele en geconsolideerde jaarrekening*
 
-Die taak heeft twee delen — een **kern** die specifiek bij dit vak hoort, en een deel dat **rakend** is met andere PO's.
-
-### De kern — de geconsolideerde jaarrekening
-
-Wat je concreet moet kunnen, per rol die je later zal opnemen:
-
-**Als boekhouder die de moeder bijstaat:**
-- De [[consolidatiekring]] bepalen op elke balansdatum
-- De [[consolidatiemethoden|juiste methode kiezen]] per dochter
-- De [[eerste-consolidatie]] correct boeken bij een overname
-- [[eliminatie-intercompany|Intra-groep-transacties elimineren]]
-- [[uniforme-waarderingsregels-consolidatie|Groepsbreed uniforme waarderingsregels]] toepassen
-- De [[opmaak-geconsolideerde-jaarrekening|geconsolideerde jaarrekening opmaken]] (balans, resultatenrekening, toelichting)
-- Het [[geconsolideerd-jaarverslag]] redigeren
-
-**Als commissaris of bedrijfsrevisor:**
-- De [[consolidatiekring|volledigheid van de kring]] toetsen
-- De [[eliminatie-intercompany|eliminaties]] controleren
-- De [[uniforme-waarderingsregels-consolidatie|uniformiteit van waarderingsregels]] auditen
-- Het [[controleverklaring|oordeel]] over de [[geconsolideerde-jaarrekening|geconsolideerde jaarrekening]] vellen
-
-**Als adviseur:**
-- Meedenken over [[consolidatiekring|groepsstructuur en kring-keuzes]]
-- [[consolidatieverschil|Goodwill-toewijzing]] bij overnames begeleiden
-- [[ifrs#ifrs-keuzes-adviseren-bij-beursgang-of-groepsherstructurering|IFRS-keuzes]] adviseren bij beursgang of groepsherstructurering
-
-### Rakend — de individuele jaarrekening
-
-De hoofdtaak omvat ook de individuele jaarrekening. Zes van de zeven officiële doelstellingen — eindejaarsverrichtingen, resultaatbestemming, proefbalans, sociale balans, vorderingen/schulden, en de toepassing van de waarderingsregels op enkelvoudig niveau — gaan over die individuele kant, niet over consolidatie. Voor dat deel:
-
-- **Minicursus PO 1.4 — jaarrekening** *(nog te maken)*
-- **Minicursus PO 1.4 — waarderingsregels** *(nog te maken)*
-
-### Wat je daarvoor moet kennen
-
-Werk de stof door **per leerstuk** — elk leerstuk is één samenhangende vraag die je in één leeszitting echt wil snappen. Voor wie definitorisch detail wil opzoeken: doorklik vanuit elk leerstuk naar de losse concept-fiches.
-
-**De vier leerstukken voor de geconsolideerde jaarrekening**
-
-- [[wat-is-een-geconsolideerde-jaarrekening]] — wat ze is, waarom ze bestaat, hoe ze zich verhoudt tot de individuele jaarrekening
-- [[wie-moet-consolideren]] — de scope-vraag: controle, kring, drempels, vrijstellingen, kring-wijzigingen
-- [[hoe-consolideren]] — de drie methodes met keuzeregel, eerste-consolidatie, uniforme waarderingsregels, eliminaties
-- [[goodwill-bij-consolidatie]] — het consolidatieverschil, afschrijving, impairment
-
-**De rapporteringskant**
-
-- [[rapportering-en-controle-geconsolideerde-jaarrekening]] — opmaak, geconsolideerd jaarverslag, commissaris-controle
-
-**Het enkelvoudige deel van dit PO**
-
-- [[individuele-jaarrekening-opmaken]] — eindejaarsverrichtingen, resultaatbestemming, proefbalans, sociale balans, waarderingsregels op enkelvoudig niveau
-
-**Wettelijke kaders (geen aparte leerstukken — verwijzingen vind je in de "Wettelijk fundament"-sectie onderaan elk leerstuk)**
-- Belgisch recht: WVV Boek 3, art. 3:22 e.v. + KB-WVV
-- IFRS-stelsel: IFRS 10 (control), IFRS 3 (bedrijfscombinaties), IFRS 11 (joint arrangements), IFRS 12 (disclosures)
-- CBN-adviezen over consolidatie
-
----
-
-## 4. Studie-aanpak
+Twee delen: **vier leerstukken** dekken de geconsolideerde kant (de kern van dit vak), **één leerstuk** dekt het enkelvoudige deel (zes van de zeven officiële doelstellingen — gedeeld met PO 1.1/1.2). Werk ze in deze volgorde:
 
 ### Leesroute door de leerstukken (vier stappen)
 
-Werk de stof op in vier stappen — van de basis (wat + scope) naar wat het examen het vaakst toetst.
+1. **Entry + scope** — [[wat-is-een-geconsolideerde-jaarrekening]] + [[wie-moet-consolideren]]. Zonder begrip wat het document is en wanneer het verplicht wordt, is alles theoretisch.
+2. **Techniek — de zware leerstuk** — [[hoe-consolideren]]. Vier stappen samen: uniforme waarderingsregels, methode-keuze per controle-niveau, eerste consolidatie met reële-waarde-herwaardering en goodwill, drie families courante eliminaties. Examen-zwaarte zit hier.
+3. **Goodwill apart** — [[goodwill-bij-consolidatie]]. Berekening kort herhaald, focus op afschrijving B-GAAP versus impairment IFRS — een examen-klassieker.
+4. **Rapportering en controle** — [[rapportering-en-controle-geconsolideerde-jaarrekening]]. Het opmaak-proces, jaarverslag, commissarisverslag en termijnen — de zichtbare output.
 
-1. **Entry + scope**: [[wat-is-een-geconsolideerde-jaarrekening]] + [[wie-moet-consolideren]]. Zonder begrip wat het document is en wanneer het verplicht wordt, is alles theoretisch.
-2. **Techniek — de zware leerstuk**: [[hoe-consolideren]]. Stap 0 (uniforme waarderingsregels) + Stap 1 (methode-keuze) + Stap 2 (eerste consolidatie) + Stap 3 (drie families eliminaties). Examen-zwaarte zit hier.
-3. **Goodwill apart**: [[goodwill-bij-consolidatie]]. Berekening kort herhaald, focus op afschrijving B-GAAP versus impairment IFRS — een examen-klassieker.
-4. **Sluit af met rapportering**: [[rapportering-en-controle-geconsolideerde-jaarrekening]]. Het opmaak-proces, jaarverslag, commissarisverslag en termijnen — de zichtbare output.
+Elke leerstuk bundelt de **rol-uitwerking** (boekhouder die de moeder bijstaat · commissaris die controleert · adviseur die meedenkt bij overnames) en de **wettelijke verwijzingen** (WVV Boek 3, KB-WVV, IFRS 10/3/11, CBN-adviezen) in zijn eigen "Wettelijk fundament"-sectie. Niet meer apart op te zoeken hier.
 
-Voor het enkelvoudige deel van dit vak (zes van de zeven officiële doelstellingen — eindejaarsverrichtingen, resultaatbestemming, proefbalans, sociale balans, waarderingsregels enkelvoudig): zie [[individuele-jaarrekening-opmaken]].
+### Het enkelvoudige deel
+
+Het [[individuele-jaarrekening-opmaken]]-leerstuk dekt eindejaarsverrichtingen, resultaatbestemming, proefbalans, sociale balans en waarderingsregels op enkelvoudig niveau. Dat onderdeel is groter dan deze ene minicursus, want het raakt PO 1.1 (boekhouding) en PO 1.2 (jaarrekeningenrecht) ook.
 
 ### Voor de herhaling — themafiche
 
-Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+Wanneer je de stof grondig gezien hebt en het examen nadert: de **themafiche** is een kapstok op één pagina (printbaar als PDF) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
 
 | Themafiche | Rol voor dit vak |
 |---|---|
@@ -139,7 +82,7 @@ Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **th
 
 ---
 
-## 5. Examen-radar — wat is in de praktijk al bevraagd?
+## 4. Examen-radar — wat is in de praktijk al bevraagd?
 
 Uit de voorbeeldexamens 2013-2015 zijn **4 unieke vraag-eenheden** met dit vak getagd (6 voorkomens, 2 echte duplicaten). Op één na hebben ze allemaal een modelantwoord — kerntoetsing voor je voorbereiding.
 
@@ -156,7 +99,7 @@ Uit de voorbeeldexamens 2013-2015 zijn **4 unieke vraag-eenheden** met dit vak g
 
 ---
 
-## 6. Concepten die ook in andere PO's leven
+## 5. Concepten die ook in andere PO's leven
 
 Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
 

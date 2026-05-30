@@ -1,0 +1,177 @@
+# Leerstuk-script — consolidatieverschil (goodwill + badwill)
+#
+# Vervangt het oude `goodwill-bij-consolidatie.yaml`. Reden: B-GAAP-koepelbegrip
+# is **consolidatieverschil** (KB-WVV art. 3:131 § 1 positief / § 2 negatief).
+# "Goodwill" is informele + IFRS-term voor het positieve geval. We vertrekken
+# vanaf de koepel; goodwill en badwill zijn de twee verschijningsvormen.
+#
+# Status: nieuw (rename + herinsteek). Bouwt door op Aurelia's 1,6 mln
+# consolidatieverschil uit hoe-consolideren — toont volgende stappen
+# (afschrijving, impairment) over de levensduur.
+
+meta:
+  slug: consolidatieverschil
+  titel: "Consolidatieverschil — goodwill en badwill"
+  po: "1.4"
+  cluster: consolidatie
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — het koepelbegrip uit KB-WVV art. 3:131: hoe ontstaat
+    een positief consolidatieverschil (informeel: goodwill), hoe wordt het
+    nadien afgeschreven, wanneer is een impairment nodig, hoe verschilt
+    B-GAAP van IFRS, en wat is een negatief consolidatieverschil (badwill)?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vereiste voorkennis: [[hoe-consolideren]]
+    — vooral het eerste-consolidatie-deel waar het consolidatieverschil
+    voor het eerst op de balans komt. Open met een terminologie-noot:
+    in B-GAAP en in de wettekst (KB-WVV art. 3:131) is de officiële term
+    "consolidatieverschil" (positief of negatief). In IFRS en in informele
+    spreektaal heet het positieve geval "goodwill" en het negatieve
+    "badwill" (of "bargain purchase" in IFRS).
+
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Consolidatieverschil = aanschafprijs van de deelneming MINUS aandeel in de reële netto-actiefwaarde van de dochter (na herwaardering)"
+    - "Positief consolidatieverschil = wat IFRS *goodwill* noemt; negatief consolidatieverschil = *badwill* of *bargain purchase*"
+    - "Onder B-GAAP (KB-WVV art. 3:131 § 1): positief consolidatieverschil lineair afschrijven over de vermoedelijke gebruiksduur (max 10 jaar als die niet betrouwbaar te schatten is) + niet-recurrente afschrijving bij ongunstige economische ontwikkelingen"
+    - "Onder IFRS (IFRS 3 + IAS 36): GEEN afschrijving — wel jaarlijkse impairment-test verplicht per cash-generating unit; terugneming verboden"
+    - "Negatief consolidatieverschil (KB-WVV art. 3:131 § 2): eigen passiva-rubriek; pas in resultaat wanneer de ongunstige ontwikkeling die de basis vormde zich realiseert"
+
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: terminologie
+    titel: "Twee namen voor één begrip"
+    niveau: 2
+    beats:
+      - "Open met de terminologie-spanning: het Belgisch boekhoudrecht (KB-WVV art. 3:131) spreekt over 'positief' en 'negatief' consolidatieverschil. IFRS en de praktijk spreken over 'goodwill' en 'badwill'"
+      - "Compact: het is hetzelfde fenomeen — een prijsverschil bij overname dat na reële-waarde-herwaardering overblijft. Alleen de terminologie verschilt per stelsel"
+      - "Vuistregel voor het examen: in een B-GAAP-context (wettekst, CBN-adviezen, NBB-neerlegging) — *consolidatieverschil*. In een IFRS-context (beurs, internationale rapportering) — *goodwill/badwill*. Beide termen verwijzen naar dezelfde economische realiteit"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stelsel + situatie", "Officiële term", "Informele/IFRS-term"]
+        rijen:
+          - ["B-GAAP — aanschafprijs > aandeel reële NEV", "**Positief consolidatieverschil**", "Goodwill"]
+          - ["B-GAAP — aanschafprijs < aandeel reële NEV", "**Negatief consolidatieverschil**", "Badwill"]
+          - ["IFRS — aanschafprijs > aandeel reële NEV", "Goodwill", "*(zelfde)*"]
+          - ["IFRS — aanschafprijs < aandeel reële NEV", "Gain on bargain purchase", "Badwill"]
+
+  - id: hoe-ontstaat
+    titel: "Hoe ontstaat een consolidatieverschil bij eerste consolidatie?"
+    niveau: 2
+    beats:
+      - "Verwijs kort naar [[hoe-consolideren]] stap 2 voor de eerste-consolidatie-mechaniek"
+      - "Recapituleer Aurelia's case: 6,0 betaald voor 80% van Bellator, aandeel in reële NEV 4,4 → positief consolidatieverschil van 1,6"
+      - "Belangrijke nuance: consolidatieverschil = na reële-waarde-herwaardering, niet vs boekwaarde. Zonder herwaardering zou het verschil 2,8 mln lijken — de extra 1,2 zit eigenlijk in identificeerbare activa (gebouw +1,0 + klantenrelaties +0,5)"
+      - "Wat het verschil conceptueel IS: premie voor merknaam, klantenrelaties, synergie — alles wat WAARDE heeft maar niet apart in de balans van de dochter stond én niet als identificeerbaar actief kon worden herwaardeerd"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Component", "Bedrag (mln)"]
+        rijen:
+          - ["Aanschafprijs deelneming (80% van Bellator)", "**6,0**"]
+          - ["Aandeel in reële NEV van Bellator (80% × 5,5)", "(4,4)"]
+          - ["**Positief consolidatieverschil (= goodwill)**", "**1,6**"]
+
+  - id: afschrijving-bgaap
+    titel: "Afschrijving onder B-GAAP — de hoofdregel"
+    niveau: 2
+    beats:
+      - "Hoofdregel (KB-WVV art. 3:131 § 1): positief consolidatieverschil wordt lineair afgeschreven over de vermoedelijke gebruiksduur, volgens een passend afschrijvingsplan"
+      - "Belangrijk: een afschrijvingstermijn > 5 jaar moet gemotiveerd worden in de toelichting"
+      - "Als de gebruiksduur niet betrouwbaar te ramen is: max 10 jaar (CBN-advies 2016/7, verwijst naar oude art. 61 KB W.Venn., principe behouden in KB-WVV)"
+      - "Toon Aurelia's afschrijvings-schema: 1,6 mln over 10 jaar = 0,16 mln per jaar"
+      - "Toon de boeking via de standaard boeking-template (MAR-rekeningen 9921 Afschrijving / 9920 Cumulatieve afschrijving — indicatief, want geconsolideerde rekeningen zijn vrij)"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Boekjaar", "Beginwaarde", "Afschrijving", "Eindwaarde"]
+        rijen:
+          - ["2026 (jaar 1)", "1,60", "(0,16)", "1,44"]
+          - ["2027 (jaar 2)", "1,44", "(0,16)", "1,28"]
+          - ["...", "...", "...", "..."]
+          - ["2035 (jaar 10)", "0,16", "(0,16)", "0,00"]
+      - type: boeking
+        ref: afschrijving-consolidatieverschil
+        bron: voorbeeldgroep
+
+  - id: niet-recurrente-afschrijving-bgaap
+    titel: "Niet-recurrente afschrijving onder B-GAAP (impairment-equivalent)"
+    niveau: 2
+    beats:
+      - "Naast de lineaire afschrijving: bij ongunstige economische ontwikkelingen moet een aanvullende of niet-recurrente afschrijving worden geboekt (KB-WVV art. 3:131 § 1, tweede alinea)"
+      - "Trigger: wanneer het 'niet langer economisch verantwoord' is om het consolidatieverschil aan de huidige boekwaarde te handhaven"
+      - "Concretiseer met scenario: Aurelia stelt vast dat Bellator's belangrijkste klant wegviel in 2028 → niet-recurrente afschrijving van 0,5 mln bovenop de gewone 0,16 mln van dat jaar"
+      - "Boeking: in afzonderlijke post bedrijfskosten of financiële kosten"
+      - "Belangrijke nuance (blockquote-aside): de niet-recurrente afschrijving is GEEN herwaarderingsstap — terugneming is onder B-GAAP zelden mogelijk eens ze is geboekt"
+
+  - id: ifrs-impairment-only
+    titel: "IFRS — geen afschrijving, alleen impairment"
+    niveau: 2
+    beats:
+      - "Onder IFRS 3 + IAS 36: goodwill wordt NIET afgeschreven"
+      - "In plaats daarvan: jaarlijkse impairment-test verplicht per cash-generating unit (CGU)"
+      - "Toets: recoverable amount = max(reële waarde min verkoopkosten, gebruikswaarde via DCF)"
+      - "Als CGU-boekwaarde > recoverable amount → impairment-verlies onmiddellijk in resultatenrekening"
+      - "Belangrijke nuance: terugneming van een goodwill-impairment is VERBODEN onder IFRS (afwijking van de gewone IAS 36-regel voor andere activa)"
+      - "Praktijk-observatie (blockquote-aside): IFRS-impairment leidt vaak tot grote eenmalige verliezen die het volledige resultaat van een boekjaar kunnen kantelen — bv. de mega-impairments bij ArcelorMittal of grote tech-overnames die niet hebben opgeleverd"
+
+  - id: negatief-consolidatieverschil
+    titel: "Negatief consolidatieverschil (badwill) — de spiegelsituatie"
+    niveau: 2
+    beats:
+      - "Definitie: aanschafprijs < aandeel in reële netto-actiefwaarde van de dochter"
+      - "Waarom zou dat gebeuren? Distress-overname, niet-erkende verplichtingen die nadien tevoorschijn komen, urgente verkoop door verkoper, slecht onderhandelde transactie"
+      - "Behandeling B-GAAP (KB-WVV art. 3:131 § 2): negatief consolidatieverschil wordt geboekt onder een aparte passiva-rubriek. Het wordt naar de resultatenrekening overgeboekt — als opbrengst — pas wanneer de ongunstige ontwikkeling die de basis vormde, zich werkelijk realiseert"
+      - "Behandeling IFRS (IFRS 3 § 34-36): na revalidatie van de fair-value-meting wordt het verschil DIRECT in resultatenrekening geboekt als 'gain on bargain purchase' — geen passiva-rubriek"
+      - "Examenrelevantie (blockquote-aside): vaste val — stagiairs verwarren badwill met een 'gewone' opbrengst. Onder B-GAAP is het géén onmiddellijke winst; onder IFRS wél, op voorwaarde dat de fair-value-meting hertest is"
+
+  - id: presentatie-in-jaarrekening
+    titel: "Waar staat het consolidatieverschil in de geconsolideerde balans?"
+    niveau: 2
+    beats:
+      - "Onder B-GAAP: positief consolidatieverschil onder rubriek I.B. van de geconsolideerde balans, apart vermeld als 'Consolidatieverschillen' onder de immateriële vaste activa"
+      - "Negatief consolidatieverschil: aparte rubriek aan passiva-zijde, niet vermengd met andere voorzieningen of schulden"
+      - "Toelichting vereist (B-GAAP): bedrag van het verschil + gehanteerde afschrijvingstermijn + motivering indien > 5 jaar"
+      - "Onder IFRS: goodwill apart onder non-current assets, met uitgebreide disclosure over CGUs, gehanteerde discontovoeten en uitkomst van de impairment-tests"
+
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: hoe-consolideren
+      hint: "Voor de bredere context — methodes en eliminaties"
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Hoe wordt het consolidatieverschil in het jaarverslag en de toelichting beschreven?"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [consolidatieverschil, eerste-consolidatie]
+
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Positief consolidatieverschil — afschrijving"
+    ref: "KB-WVV art. 3:131 § 1"
+    noot: "Passend plan i.f.v. vermoedelijke gebruiksduur; > 5 jaar te motiveren; niet-recurrente afschrijvingen bij ongunstige ontwikkeling"
+  - onderwerp: "Negatief consolidatieverschil (badwill)"
+    ref: "KB-WVV art. 3:131 § 2"
+    noot: "Aparte passiva-rubriek; resultaat-erkenning pas bij realisatie van de ongunstige verwachting"
+  - onderwerp: "Maximumtermijn 10 jaar bij niet-betrouwbare schatting"
+    ref: "CBN-advies 2016/7"
+    noot: "Verwijst naar oude art. 61 KB W.Venn.; principe behouden onder KB-WVV"
+  - onderwerp: "Realisatie van deelneming na overname — afboeking consolidatieverschil"
+    ref: "KB-WVV art. 3:132"
+  - onderwerp: "IFRS-pad"
+    ref: "IFRS 3 *Business Combinations* (eerste meting + bargain-purchase-regel) · IAS 36 *Impairment of Assets* (jaarlijkse test)"
+    noot: "Geen afschrijving, alleen impairment; terugneming verboden voor goodwill (afwijking van IAS 36 voor andere activa)"
+
+footer: "Leerstuk PO 1.4. Status: nieuw — rename van goodwill-bij-consolidatie naar consolidatieverschil (B-GAAP-koepelterm)."
