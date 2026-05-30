@@ -79,9 +79,7 @@ Hier zit het meest verwarrende stuk van het hele dossier — en de plek waar vee
 
 ### De twee drempel-stelsels
 
-Onderstaande tabel zet de twee stelsels naast elkaar voor het begrip — voor de exact actuele bedragen verwijst elke kolom door naar het bijhorende tarief-record (single source of truth).
-
-| Drempel | [[tarieven/drempels-kleine-vennootschap\|Kleine vennootschap]] *(individueel)* | [[tarieven/drempels-groep-beperkte-omvang\|Groep van beperkte omvang]] *(geconsolideerd)* |
+| Drempel | **Kleine vennootschap** *(individueel)* | **Groep van beperkte omvang** *(geconsolideerd)* |
 |---|---|---|
 | Jaargemiddelde werknemers | 50 | **250** |
 | Jaaromzet (excl. btw) | ~11,25 mln | **~42,5 mln** |
@@ -90,7 +88,7 @@ Onderstaande tabel zet de twee stelsels naast elkaar voor het begrip — voor de
 | Wat als één drempel overschreden wordt? | Vennootschap blijft klein (max één mag) | Groep blijft "beperkt" (max één mag) |
 | Wat als twee of meer overschreden? | Vennootschap wordt groot — pas na twee opeenvolgende boekjaren (consistentiebeginsel) | Groep wordt consolidatieplichtig — eveneens pas na twee opeenvolgende boekjaren |
 
-> De exacte bedragen leven in [[tarieven/drempels-kleine-vennootschap]] en [[tarieven/drempels-groep-beperkte-omvang]] — daar staat ook de wetsverwijzing, de geldigheidsperiode en de wijzigingsbron (Wet 28 maart 2024 / EU-richtlijn 2023/2775). De richtcijfers hierboven zijn er voor het begrip van de verhouding tussen beide stelsels; bij toepassing op examen of dossier raadpleeg je het tarief-record of het Cijferzakboekje.
+> De richtcijfers hierboven weerspiegelen de verhoging door de Wet van 28 maart 2024 (omzetting EU-richtlijn 2023/2775). Voor de exacte cijfers op examen volg je het Cijferzakboekje — dat blijft de gezaghebbende bron want EU-aanpassingen blijven mogelijk.
 
 De groep-drempels liggen drie tot vier keer hoger dan de venn-drempels — logisch, want je verwacht van een groep méér aanwezigheid in de markt voor de wet consolidatie eist. Een kleine vennootschap kan tot een grote groep behoren; een grote vennootschap kan in een kleine groep zitten. Verwar de twee stelsels niet.
 
@@ -117,7 +115,7 @@ Neem groep Aurelia. We zetten de individuele cijfers naast de geconsolideerde be
 
 > Bellator zit volledig in de telling (exclusieve controle → integraal). Concordia zit voor 50 % in de telling (gezamenlijke controle → evenredig). Dynamica (geassocieerd) zit *niet* in de drempel-telling — de vermogensmutatiemethode raakt de groepscijfers via één balanslijn en telt voor de drempel-toets niet mee. Eliminaties verwijderen onderlinge verkopen en vorderingen die anders dubbel zouden tellen.
 
-Toets tegen [[tarieven/drempels-groep-beperkte-omvang]]:
+Toets:
 
 | Drempel | Geconsolideerd | Boven? |
 |---|---:|---|
@@ -184,7 +182,7 @@ Voor wie definitorisch detail wil opzoeken:
 ## Wettelijk fundament
 
 - Consolidatieplicht: WVV art. 3:22 e.v. + KB-WVV.
-- Definitie *groep van beperkte omvang* (= "kleine groep"): WVV art. 1:26 § 1 — drie criteria op geconsolideerde basis (werknemers, omzet, balanstotaal). Exacte bedragen: [[tarieven/drempels-groep-beperkte-omvang]]. Drempels verhoogd door Wet 28 maart 2024 (omzetting EU-richtlijn 2023/2775).
+- Definitie *groep van beperkte omvang* (= "kleine groep"): WVV art. 1:26 § 1 — drie criteria op geconsolideerde basis (werknemers, omzet, balanstotaal). Exacte bedragen: Cijferzakboekje. Drempels verhoogd door Wet 28 maart 2024 (omzetting EU-richtlijn 2023/2775).
 - Meetdatum + tweejaars-regel (consistentiebeginsel): WVV art. 1:26 § 2 — alinea 1 regelt timing en bron van cijfers; alinea 2 regelt de tweejaars-overschrijdingsregel.
 - Vrijstelling kleine groep: WVV art. 3:25 — geldt niet als de groep een organisatie van openbaar belang omvat.
 - Controle-test: WVV art. 1:14 (exclusieve controle) · art. 1:18 (gezamenlijke controle) · art. 1:20 (notabele invloed).

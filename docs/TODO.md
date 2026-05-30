@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn volledig operationeel: `tarieven_api` + MCP-server + chunker + 2 prompts + **82 records** geëxtraheerd uit Cijferzakboekje 2026 via 8 parallel Sonnet-subagents — 3 drempels + 4 PB-schijven + 6 BTW + 2 RPB + 6 erven/schenken + 6 onroerend goed + 13 PB-eerste-helft + 20 PB-tweede-helft + 22 SZ+VenB+Vennrecht-overige. Alle records draft; verify-pass nog te doen. Leerstuk `wie-moet-consolideren` wikilinkt naar drempel-records. Vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht.)
+**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn volledig operationeel: `tarieven_api` + MCP-server + chunker + 2 prompts + **82 records** geëxtraheerd uit Cijferzakboekje 2026 via 8 parallel Sonnet-subagents. Records zijn **pure data-laag** — géén content/-render; toegang via MCP-server voor LLM-tutors en leerstuk-auteurs. Verify-pass open punt. Vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht.)
 
 ---
 
@@ -367,6 +367,8 @@ Na de records-bypass: `python3 -m tools.lib.records_api --audit-parity` draaien 
 - H XI Verkeer: BIV per gewest (p179-p183) + verkeersbelasting per gewest (p189-p195) + brandstof (p184) + kilometerheffing (p187) — examen-marginaal, kan later
 
 **MCP-server activeren**: nieuwe Claude Code-sessie → `.mcp.json` boot `certificaid-tarieven` server → 82 records bevraagbaar via `mcp__certificaid-tarieven__zoek_tabellen`.
+
+**Geen content/-render**: tarief-records leven uitsluitend op disk + via MCP. Leerstuk-auteurs raadplegen ze tijdens schrijven; stagiairs gebruiken het Cijferzakboekje zelf als leeslaag. Leerstuk-wikilinks naar `[[tarieven/...]]` worden teruggedraaid waar ze niet structureel zinvol zijn.
 
 ---
 

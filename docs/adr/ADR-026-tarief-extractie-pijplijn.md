@@ -26,11 +26,11 @@ Voeg een **vierde records-laag** toe: tarief-records. Parallel aan concept-recor
 |---|---|---|
 | Atoom | Eén domein-concept | Eén samenhangende cijfer-tabel |
 | Disk-pad | `data/concepten/records/<id>.json` | `data/tarieven/records/<id>.json` |
-| Render | `content/concepten/<id>.md` | `content/tarieven/<id>.md` |
+| Render | `content/concepten/<id>.md` (leeslaag voor stagiair) | **Geen content/-render** — pure data-laag |
 | MCP-server | `certificaid-rag` (extractie/mcp_server) | `certificaid-tarieven` (tarieven/mcp_server) |
 | RAG-parity | Verplicht (ChromaDB-collection `concepten`) | **Niet** — disk is enige bron-van-waarheid |
 | Daemon-afhankelijkheid | Ja (bge-m3 + ChromaDB) | **Nee** — text-match op title/wetsbasis |
-| Schrijf-API | `tools.lib.records_api` | `tools.lib.tarieven_api` |
+| Schrijf-API | `tools.lib.records_api` | `tools.lib.tarieven_api` (geen render) |
 
 **Waarom geen RAG-parity voor tarieven?** Tarief-records zijn klein (~30-80 records), tabellaire structuur, ze leven van exacte cijfers en wetsverwijzingen — niet van semantische gelijkenis. Text-match op `titel`, `wetsbasis` en `categorie` heeft prima recall voor deze schaal. Embeddings toevoegen zou een tweede ChromaDB-collection + daemon-koppeling vergen zonder duidelijke winst. Bij groeiscenario (~300+ records) kan dit herzien worden.
 
@@ -113,11 +113,16 @@ Vier tools (text-match v1, geen embeddings):
 
 Implementatie: [`tools/tarieven/mcp_server/server.py`](../../tools/tarieven/mcp_server/server.py).
 
-### Render
+### Geen content/-render — tarief-records zijn data-laag
 
-Markdown-fiches in `content/tarieven/<id>.md`. Quartz-render-conventies analoog aan `content/concepten/`. Frontmatter: `title`, `tags` (incl. `tarief-record`), `description` (uit `samenvatting`). Body: tabel met criteria, wetsverwijzing, geldigheidsperiode, bron-blok.
+Tarief-records worden **niet** naar Quartz-`content/` geschreven. Ze zijn pure data voor:
+- LLM-tutors die vraag-beantwoording doen (lopen tegen MCP-server `certificaid-tarieven`)
+- Leerstuk-auteurs die actualiteit van een cijfer willen valideren tijdens schrijven
+- Verify-pass-agents die claims in leerstukken kruisen
 
-Wikilink-conventie: `[[tarieven/drempels-groep-beperkte-omvang]]` of korter `[[drempels-groep-beperkte-omvang]]` als slug uniek is in de hele `content/`-boom. Slug-discipline: prefix `drempels-`, `tarief-`, `voorafbetaling-`, `indexcoeff-` waar dat helpt om uniek te blijven naast concept-records.
+De leerlaag voor stagiairs blijft het Cijferzakboekje zelf (papier of PDF) — daar gaan ze toch heen tijdens het examen. Het wikilinken van leerstukken naar tarief-record-fiches voegt geen leeswaarde toe en zou content-onderhoud opzadelen met data-laag-mutaties.
+
+Slug-discipline blijft: prefix `drempels-`, `tarief-`, `voorafbetaling-`, `indexcoeff-` waar dat helpt om uniek te blijven binnen de records-folder.
 
 ### Geen RAG-collection
 
@@ -146,3 +151,5 @@ In tegenstelling tot concept-records (die naar de `concepten` ChromaDB-collectio
 ## Veranderlog
 
 - **2026-05-30** — ADR opgesteld. Aanleiding: ADR-037-sparring (stagiair verwart hardcoded drempel met actualiteit). Initiële scope: tarief-records-laag bouwen (schema + API + MCP-server + prompts) + 3 drempel-records als POC + leerstuk-koppeling. Vision-pipeline en chunker uitgesteld tot een tweede tarief-cluster (bv. VenB-tarieven van p070+) zinvol PNG-vision aanroept.
+- **2026-05-30 (later)** — PDF beschikbaar gemaakt in `resources/raw/wetteksten/Cijfers-Tarieven-2026.pdf`. Chunker geleverd (`tools/tarieven/chunk_pdf.py`). 79 nieuwe records geëxtraheerd via 8 parallel Sonnet-subagents (totaal 82). Verify-pass blijft open punt.
+- **2026-05-30 (nog later)** — Render naar `content/tarieven/` geschrapt: tarief-records blijven pure data-laag. Leeslaag voor stagiairs is het Cijferzakboekje zelf; LLM-tutors raadplegen via MCP-server. `tarieven_api.save_record` doet geen markdown-render meer; `render_markdown` bewaard als ad-hoc preview-helper. Leerstuk-wikilinks naar `[[tarieven/...]]` teruggedraaid in `wie-moet-consolideren.md`.

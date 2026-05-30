@@ -2,25 +2,26 @@
 Centrale tarieven-API voor Certificaid tarief-records (ADR-026).
 
 Enige toegestane interface voor mutaties aan data/tarieven/records/*.json.
-Schrijft atomair naar disk + rendert content/tarieven/<id>.md.
+Schrijft atomair naar disk. Tarief-records zijn PURE DATA-LAAG voor
+LLM-tutors en leerstuk-auteurs — ze worden NIET gerendered naar Quartz
+content/ (geen leeslaag). Toegang via MCP-server `certificaid-tarieven`.
 
 In tegenstelling tot records_api (concepten) is er GEEN RAG-parity: de
-certificaid-tarieven MCP-server leest direct van disk en gebruikt text-match.
-Geen daemon-afhankelijkheid, geen embedding-stap.
+MCP-server leest direct van disk en gebruikt text-match. Geen
+daemon-afhankelijkheid, geen embedding-stap, geen markdown-render.
 
 Operaties:
   save_record(record_dict, trusted=False)
-    Valideert tegen schema, schrijft JSON, rendert markdown.
+    Valideert tegen schema, schrijft JSON atomair.
   mark_trusted(record_id, trusted_by=None)
     Vlagt record als trusted (verified door verify-pass).
-  audit_parity()
-    Sanity-check: matchen disk-records met rendered content-fiches?
+  audit()
+    Sanity-check: hoeveel records, hoeveel trusted, schema-validatie.
   load_record(record_id)
     Read-helper (zonder mutatie).
 
 CLI:
   python3 -m tools.lib.tarieven_api audit
-  python3 -m tools.lib.tarieven_api render-all
   python3 -m tools.lib.tarieven_api list
   python3 -m tools.lib.tarieven_api show <record_id>
 """
@@ -40,7 +41,6 @@ logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_DIR = ROOT / "data" / "tarieven" / "records"
-CONTENT_DIR = ROOT / "content" / "tarieven"
 SCHEMA_PATH = ROOT / "data" / "tarieven" / "schema.json"
 
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$")
@@ -130,10 +130,6 @@ def _record_pad(record_id: str) -> Path:
     return RECORDS_DIR / f"{record_id}.json"
 
 
-def _content_pad(record_id: str) -> Path:
-    return CONTENT_DIR / f"{record_id}.md"
-
-
 def load_record(record_id: str) -> dict:
     pad = _record_pad(record_id)
     if not pad.exists():
@@ -148,7 +144,7 @@ def lijst_record_ids() -> list[str]:
 
 
 # ---------------------------------------------------------------------------
-# Render — JSON → Quartz-markdown
+# Compact text-rendering (voor CLI `show` en MCP-helper) — GEEN content/-render
 # ---------------------------------------------------------------------------
 
 def _format_bedrag(waarde, eenheid: str | None) -> str:
@@ -169,7 +165,12 @@ def _format_bedrag(waarde, eenheid: str | None) -> str:
 
 
 def render_markdown(record: dict) -> str:
-    """Render record als Quartz-markdown."""
+    """Render record als markdown — niet meer auto-aangeroepen.
+
+    Bewaard als helper voor ad-hoc preview (CLI `show --md` of toekomstige
+    embedded preview in tutor). Tarief-records worden NIET naar content/
+    geschreven; ze leven uitsluitend als data-laag (ADR-026).
+    """
     titel = record["titel"]
     samenvatting = record["samenvatting"]
     tags = ["tarief-record"] + list(record.get("tags", []))
@@ -287,15 +288,14 @@ def render_markdown(record: dict) -> str:
 
 def save_record(record: dict, *, trusted: bool = False, trusted_by: Optional[str] = None) -> Path:
     """
-    Valideer + schrijf record naar disk + render markdown.
+    Valideer + schrijf record atomair naar disk.
 
-    Atomisch contract:
+    Contract:
       1. Validate schema
       2. Set metadata.created_at / updated_at + optioneel trusted-flag
       3. Write JSON (atomic via tmpfile rename)
-      4. Render markdown
 
-    Render-fout logt WARNING maar raiset niet (markdown is afgeleid).
+    GEEN content/-render: tarief-records zijn data-laag, geen leeslaag (ADR-026).
     """
     _valideer(record)
     record_id = record["id"]
@@ -318,20 +318,7 @@ def save_record(record: dict, *, trusted: bool = False, trusted_by: Optional[str
     tmp.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(pad)
     logger.info("Wrote %s", pad)
-
-    try:
-        _render_to_disk(record)
-    except Exception as exc:  # noqa: BLE001
-        logger.warning("Render-fout voor %s: %s — markdown niet bijgewerkt", record_id, exc)
-
     return pad
-
-
-def _render_to_disk(record: dict) -> None:
-    CONTENT_DIR.mkdir(parents=True, exist_ok=True)
-    md = render_markdown(record)
-    pad = _content_pad(record["id"])
-    pad.write_text(md, encoding="utf-8")
 
 
 def mark_trusted(record_id: str, trusted_by: Optional[str] = None) -> Path:
@@ -344,36 +331,41 @@ def mark_trusted(record_id: str, trusted_by: Optional[str] = None) -> Path:
     return save_record(record)
 
 
-def audit_parity() -> dict:
+def audit() -> dict:
     """
-    Disk-vs-content parity check.
+    Sanity-check over de records-folder.
 
     Returns: dict met:
-      records: lijst van record-ids op disk
-      content_present: ids met markdown
-      content_ontbreekt: ids zonder markdown
-      content_overbodig: markdown zonder bijhorend record
+      records_totaal: aantal JSON-bestanden
+      trusted: aantal met metadata.trusted == True
+      categorieen: count per categorie
+      ongeldig: lijst record-ids die niet door _valideer komen
     """
-    disk_ids = set(lijst_record_ids())
-    content_ids = (
-        {p.stem for p in CONTENT_DIR.glob("*.md")} if CONTENT_DIR.exists() else set()
-    )
+    disk_ids = lijst_record_ids()
+    trusted = 0
+    cats: dict[str, int] = {}
+    ongeldig: list[str] = []
+    for rid in disk_ids:
+        try:
+            r = load_record(rid)
+            _valideer(r)
+            if r.get("metadata", {}).get("trusted"):
+                trusted += 1
+            c = r.get("categorie", "?")
+            cats[c] = cats.get(c, 0) + 1
+        except Exception as exc:  # noqa: BLE001
+            ongeldig.append(f"{rid}: {exc}")
     return {
         "records_totaal": len(disk_ids),
-        "content_aanwezig": sorted(disk_ids & content_ids),
-        "content_ontbreekt": sorted(disk_ids - content_ids),
-        "content_overbodig": sorted(content_ids - disk_ids),
+        "trusted": trusted,
+        "draft": len(disk_ids) - trusted,
+        "categorieen": dict(sorted(cats.items())),
+        "ongeldig": ongeldig,
     }
 
 
-def render_all() -> int:
-    """Rendert alle records opnieuw. Voor migraties of render-template-wijzigingen."""
-    n = 0
-    for rid in lijst_record_ids():
-        record = load_record(rid)
-        _render_to_disk(record)
-        n += 1
-    return n
+# Backwards-compat alias (verwijderd: render_all + audit_parity).
+audit_parity = audit  # noqa: E305 — deprecation-shim, te verwijderen na callers ge-update
 
 
 # ---------------------------------------------------------------------------
@@ -384,8 +376,7 @@ def _cli() -> int:
     parser = argparse.ArgumentParser(description="Tarieven-API CLI (ADR-026)")
     sub = parser.add_subparsers(dest="cmd", required=True)
 
-    sub.add_parser("audit", help="Disk-content parity check")
-    sub.add_parser("render-all", help="Render alle records opnieuw")
+    sub.add_parser("audit", help="Sanity-check op records-folder (count, trusted, categorieën)")
     sub.add_parser("list", help="Lijst alle record-ids")
     s_show = sub.add_parser("show", help="Toon één record")
     s_show.add_argument("record_id")
@@ -398,11 +389,7 @@ def _cli() -> int:
 
     args = parser.parse_args()
     if args.cmd == "audit":
-        print(json.dumps(audit_parity(), indent=2, ensure_ascii=False))
-        return 0
-    if args.cmd == "render-all":
-        n = render_all()
-        print(f"Re-rendered {n} records")
+        print(json.dumps(audit(), indent=2, ensure_ascii=False))
         return 0
     if args.cmd == "list":
         for rid in lijst_record_ids():
