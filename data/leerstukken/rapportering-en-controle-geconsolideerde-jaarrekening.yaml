@@ -1,0 +1,174 @@
+# Leerstuk-script — rapportering en controle van de geconsolideerde JR
+#
+# Hoofdvraag: hoe verloopt de opmaak in de praktijk, wat staat er in het
+# geconsolideerd jaarverslag, hoe gebeurt de commissariscontrole, en wat
+# zijn de termijnen + publicatieverplichtingen?
+#
+# Status: nieuw (markdown nog niet geschreven). Beats gebaseerd op
+# WVV art. 3:32 e.v. + art. 3:72-3:77 + KB-WVV art. 3:31.
+
+meta:
+  slug: rapportering-en-controle-geconsolideerde-jaarrekening
+  titel: "Rapportering en controle van de geconsolideerde jaarrekening"
+  po: "1.4"
+  cluster: consolidatie
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — het rapporterings-leerstuk: hoe wordt een
+    geconsolideerde jaarrekening opgemaakt in de praktijk, wat is een
+    geconsolideerd jaarverslag, hoe verloopt de commissariscontrole,
+    en wat zijn termijnen + publicatieplicht?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vereiste voorkennis:
+    [[hoe-consolideren]] (technische uitwerking) en
+    [[wat-is-een-geconsolideerde-jaarrekening]] (begrip).
+
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "De moeder is verantwoordelijk voor opmaak — in praktijk via een centraal consolidatiebureau"
+    - "Drie deliverables: geconsolideerde JR (balans + resrek + toelichting), geconsolideerd jaarverslag, commissarisverslag"
+    - "Termijnen: 6 maanden opmaak, controle vóór AV, 7 maanden neerlegging NBB"
+    - "Drie rollen: boekhouder/consolidator (opmaak), commissaris (controle), bestuursorgaan (jaarverslag + verantwoordelijkheid)"
+
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: opmaak-proces
+    titel: "De opmaak — wie doet wat?"
+    niveau: 2
+    beats:
+      - "Hoofdverantwoordelijkheid: bestuursorgaan van de moeder (art. 3:1 WVV)"
+      - "Praktijk: centraal consolidatiebureau (consolidation department) coördineert"
+      - "Toon de processtroom-tabel: stap 1 (kring bepalen) → 2 (rapporteringspakket dochters) → 3 (verzamelen + uniformeren) → 4 (eliminaties) → 5 (afronding + toelichting)"
+      - "Sleutelpunt: dochters leveren aan op basis van groepsstandaarden (gemeenschappelijk rekeningenstelsel, uniforme waarderingsregels)"
+      - "Termijnen-druk: alles moet binnen 6 maanden na balansdatum klaar — vereist strakke planning"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Wat", "Wie", "Termijn"]
+        rijen:
+          - ["1", "Bepaling consolidatiekring + methode per entiteit", "Centraal consolidatiebureau", "Vooraf"]
+          - ["2", "Versturen rapporteringspakket aan dochters", "Centraal consolidatiebureau", "Binnen 1 maand na balansdatum"]
+          - ["3", "Dochters leveren reporting package aan: balans, resrek, toelichtingsdata, intra-groep cijfers", "Dochters", "Binnen 2-3 maanden"]
+          - ["4", "Uniformeren waarderingsregels + uitvoeren eerste-consolidatie (nieuwe acquisities)", "Centraal consolidatiebureau", "Maanden 3-4"]
+          - ["5", "Eliminaties (drie families) + opmaak geconsolideerde JR + toelichting", "Centraal consolidatiebureau", "Maanden 4-5"]
+          - ["6", "Controle door commissaris", "Commissaris", "Maand 5-6"]
+          - ["7", "Goedkeuring door AV + neerlegging NBB", "AV + bestuursorgaan", "Maand 6-7"]
+
+  - id: jaarverslag
+    titel: "Het geconsolideerd jaarverslag"
+    niveau: 2
+    beats:
+      - "Onderscheid: jaarverslag ≠ jaarrekening. Het JV is een commentaar BIJ de cijfers, geen cijfer zelf"
+      - "Bestuursorgaan van de moeder schrijft het — niet de commissaris"
+      - "Toon de inhoud-tabel: getrouw overzicht ontwikkeling, voornaamste risico's, gebeurtenissen na balansdatum, omstandigheden die invloed kunnen hebben, onderzoek-en-ontwikkeling, eigen aandelen, vooruitzichten, ..."
+      - "Sleutelpunt: voor genoteerde groepen + grote groepen ook duurzaamheidsrapportage (CSRD vanaf 2024)"
+      - "Belangrijk: WVV art. 3:32 lijst van te vermelden punten — leerlingen moeten de hoofdrubrieken kunnen opnoemen"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Rubriek", "Wat moet erin?"]
+        rijen:
+          - ["Overzicht ontwikkeling", "Hoe ging het met de groep? Omzet, marges, balansposities"]
+          - ["Voornaamste risico's en onzekerheden", "Markt, liquiditeit, krediet, valuta, regulering"]
+          - ["Gebeurtenissen na balansdatum", "Acquisities, herstructureringen, materiële incidenten"]
+          - ["Onderzoek en ontwikkeling", "Belangrijkste R&D-activiteiten + uitgaven"]
+          - ["Eigen aandelen", "Aantal, prijs, doel"]
+          - ["Bestuursorgaan + governance", "Samenstelling, vergoedingen, code best practice"]
+          - ["Duurzaamheid (indien CSRD-onderworpen)", "Milieu, sociaal, governance, dubbele materialiteit"]
+
+  - id: commissaris-controle
+    titel: "De wettelijke controle door de commissaris"
+    niveau: 2
+    beats:
+      - "Wie controleert? Commissaris van de moeder OF apart aangewezen revisor/auditkantoor (WVV art. 3:74)"
+      - "Wat controleert hij? Of de geconsolideerde JR een 'getrouw beeld' geeft + naleving wettelijk kader"
+      - "De commissaris is eindverantwoordelijk voor de groepscontrole, ook al voeren auditors in andere landen werk uit op dochters (art. 3:76)"
+      - "Het controleverslag heeft 12 vereiste elementen (art. 3:77 § 1)"
+      - "Toon de samengevatte 12-elementen-lijst — examen-stof"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Wat?"]
+        rijen:
+          - ["1. Inleiding", "Welke JR, welke groep, benoeming, mandaat-duur, referentiestelsel, periode"]
+          - ["2. Reikwijdte controle", "Welke standaarden (ISA), welke werkwijzen"]
+          - ["3. Oordeel", "Goedkeurend / met voorbehoud / afkeurend / onthouding"]
+          - ["4-5. Beperkingen + bijzondere aanduidingen", "Indien van toepassing"]
+          - ["6-8. Andere wettelijke vermeldingen", "Strijdig met WVV, voorzieningen, beperking goedkeuring"]
+          - ["9-10. Onafhankelijkheid", "Verklaring + niet-controle-diensten"]
+          - ["11. Datum + handtekening", "Met identificatie revisor"]
+          - ["12. Adres + KBO-nummer", "Van het revisorenkantoor"]
+
+  - id: termijnen-en-publicatie
+    titel: "Termijnen en publicatie bij de NBB"
+    niveau: 2
+    beats:
+      - "Opmaak door bestuursorgaan moeder (WVV art. 3:31): binnen de termijn die toelaat tijdig aan de AV voor te leggen"
+      - "Controle door commissaris VÓÓR voorlegging aan AV"
+      - "AV-goedkeuring: binnen 6 maanden na balansdatum (WVV art. 3:1 § 1)"
+      - "Neerlegging NBB: binnen 30 dagen na AV en uiterlijk 7 maanden na balansdatum (WVV art. 3:10 + art. 3:35)"
+      - "Sanctie bij niet-tijdige neerlegging: tarief-verhoging bij NBB-publicatie + risico gerechtelijke ontbinding (WVV art. 2:70). Fiscale impact via WIB art. 444 (hoofdsanctie laattijdige aangifte); art. 218 WIB regelt voorafbetalingen, niet neerlegging"
+      - "Publiek beschikbaar via NBB Centrale Balansen (gratis online raadpleegbaar)"
+
+  - id: rollen-driehoek
+    titel: "Drie rollen — boekhouder, commissaris, adviseur"
+    niveau: 2
+    beats:
+      - "Verwijs naar de minicursus 1.4 voor de driehoek-context"
+      - "**Boekhouder/consolidator**: stelt de geconsolideerde JR op; bepaalt kring; voert eliminaties uit; schrijft toelichting"
+      - "**Commissaris**: voert wettelijke controle uit; volledigheidstest kring; audit van eliminaties; oordeel over JR"
+      - "**Adviseur**: structuur-advies (kring-keuzes), eerste-consolidaties bij overnames, goodwill-toewijzing, IFRS-keuzes bij beursgang"
+      - "Examenvraag-type: 'Een dochter werd vergeten in de kring — wie is verantwoordelijk?' (boekhouder primair, commissaris bij niet-detecteren)"
+
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: hoe-consolideren
+      hint: "Voor de technische uitwerking onder de motorkap"
+    - slug: goodwill-bij-consolidatie
+      hint: "Voor goodwill-disclosures in de toelichting"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor herhaling vlak vóór het examen"
+  concepten:
+    - controleverklaring
+    - controle-bij-consolidatie
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [opmaak-geconsolideerde-jaarrekening, geconsolideerd-jaarverslag]
+    - concepten: [controleverklaring, controle-bij-consolidatie]
+
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting opmaak + verantwoordelijkheid bestuursorgaan"
+    ref: "WVV art. 3:1 + art. 3:22 e.v."
+  - onderwerp: "Geconsolideerd jaarverslag — inhoud"
+    ref: "WVV art. 3:32"
+  - onderwerp: "Wettelijke controle geconsolideerde JR"
+    ref: "WVV art. 3:74"
+    noot: "Commissaris van moeder, of apart aangewezen revisor/auditkantoor"
+  - onderwerp: "Verantwoordelijkheid commissaris bij groepscontrole"
+    ref: "WVV art. 3:76"
+    noot: "Eindverantwoordelijk, ook voor werk uitgevoerd door auditors in andere landen op dochters"
+  - onderwerp: "Inhoud van het commissarisverslag — 12 elementen"
+    ref: "WVV art. 3:77 § 1"
+  - onderwerp: "Opmaak geconsolideerde JR door bestuursorgaan moeder"
+    ref: "WVV art. 3:31"
+  - onderwerp: "Termijn opmaak + AV-voorlegging (6 maanden) + NBB-neerlegging (30 dagen + max 7 maanden)"
+    ref: "WVV art. 3:1 § 1 (zes maanden AV) + art. 3:10 (30 dagen na AV) + art. 3:35 (openbaarmaking geconsolideerd)"
+    noot: "Eerder vermeld als 'KB-WVV art. 3:31' — fout. Art. 3:31 regelt wie opmaakt, niet wanneer."
+  - onderwerp: "Sanctie bij niet-tijdige neerlegging"
+    ref: "WIB art. 218 (VenB-vermeerdering)"
+  - onderwerp: "CSRD-duurzaamheidsrapportage"
+    ref: "EU-richtlijn 2022/2464 (omgezet in WVV via Wet 2 augustus 2024)"
+    noot: "Verplicht voor grote groepen en beursgenoteerde — fasering 2024-2028"
+
+footer: "Leerstuk PO 1.4. Status: nieuw — script-eerst, markdown nog te schrijven."

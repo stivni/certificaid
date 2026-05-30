@@ -1,0 +1,433 @@
+# Aurelia — voorbeeldgroep voor PO 1.4 consolidatie-leerstukken
+#
+# Mock Belgische groep. Cijfers zijn fictief maar intern consistent.
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wie-moet-consolideren.yaml
+#   - data/leerstukken/hoe-consolideren.yaml
+#   - data/leerstukken/goodwill-bij-consolidatie.yaml  (nog te schrijven)
+#   - data/leerstukken/rapportering-en-controle-geconsolideerde-jaarrekening.yaml (idem)
+
+naam: aurelia
+beschrijving: >
+  Aurelia NV is een mock Belgische moedervennootschap met één dochter
+  (Bellator BVBA, 80%, exclusieve controle), één joint venture (Concordia SE,
+  50%, gezamenlijke controle), één geassocieerde (Dynamica NV, 30%, notabele
+  invloed) en één gewone belegging (Erion NV, 18%). Gebruikt om alle
+  controle-niveaus + drie consolidatiemethodes te illustreren binnen één
+  coherente case.
+
+balansdatum: "31-12-2026"
+boekjaar: "2026"
+
+# ---------------------------------------------------------------------------
+# Groepsstructuur
+# ---------------------------------------------------------------------------
+
+groepsstructuur:
+  moeder:
+    naam: "Aurelia NV"
+    rechtsvorm: NV
+
+  deelnemingen:
+    - naam: "Bellator BVBA"
+      rechtsvorm: BVBA
+      percentage: 80
+      controle: exclusief
+      methode: integraal
+      rol_in_case: "dochter — wordt diepgaand uitgewerkt voor eerste-consolidatie + alle drie eliminatie-families"
+
+    - naam: "Concordia SE"
+      rechtsvorm: SE
+      percentage: 50
+      controle: gezamenlijk
+      methode: evenredig
+      rol_in_case: "joint venture — illustreert evenredige consolidatie + IFRS 11-verbod"
+
+    - naam: "Dynamica NV"
+      rechtsvorm: NV
+      percentage: 30
+      controle: notabele-invloed
+      methode: vermogensmutatie
+      rol_in_case: "geassocieerde — illustreert vermogensmutatiemethode (one-line consolidation)"
+
+    - naam: "Erion NV"
+      rechtsvorm: NV
+      percentage: 18
+      controle: geen
+      methode: niet-geconsolideerd
+      rol_in_case: "gewone belegging — toont waar de drempel ligt (< 20% = geen invloed van betekenis)"
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen (één per use-case)
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  scope-beslisboom:
+    type: flowchart-td
+    code: |
+      A[Heeft de moeder controle<br/>over één of meer vennootschappen?] -->|Nee| Z[Geen consolidatieplicht]
+      A -->|Ja| B[Bepaal de consolidatiekring<br/>verticaal of consortium]
+      B --> C[Toets de groep aan de drempels<br/>op geconsolideerde basis]
+      C -->|Binnen drempels| D[Vrijgesteld als<br/>'groep van beperkte omvang']
+      C -->|Boven drempels| E[Consolidatie verplicht]
+      D -->|Maar: OOB in groep?| E
+      E --> F{Welk stelsel?}
+      F -->|B-GAAP| G[Geconsolideerde jaarrekening<br/>volgens WVV + KB-WVV]
+      F -->|IFRS| H[Geconsolideerde jaarrekening<br/>volgens IFRS 10]
+
+  consolidatie-techniek-flow:
+    type: flowchart-td
+    code: |
+      S0[Stap 0: Uniforme waarderingsregels<br/>rapporteringspakket aan dochters]
+      S1[Stap 1: Methode-keuze<br/>per controle-niveau]
+      S2[Stap 2: Eerste consolidatie<br/>reële-waarde-herwaardering + goodwill]
+      S3[Stap 3: Courante eliminaties<br/>drie families]
+      OUT[Geconsolideerde jaarrekening]
+      S0 --> S1 --> S2 --> S3 --> OUT
+
+  groepsstructuur:
+    type: flowchart-td
+    code: |
+      M[Aurelia NV<br/>moedervennootschap]
+      M -->|80 % aandelen| D1[Bellator BVBA<br/>dochter — exclusieve controle]
+      M -->|50 % aandelen<br/>+ partner| D2[Concordia SE<br/>joint venture]
+      M -->|30 % aandelen| D3[Dynamica NV<br/>geassocieerde]
+      M -.->|18 % aandelen| D4[Erion NV<br/>gewone belegging]
+
+      style D4 stroke-dasharray: 5 5
+
+# ---------------------------------------------------------------------------
+# Drempel-toets voor "groep van beperkte omvang" (art. 1:26 § 1 WVV)
+# ---------------------------------------------------------------------------
+
+drempel_toets_aurelia:
+  titel: "Drempel-berekening Aurelia-groep (geconsolideerde basis)"
+  entiteiten:
+    - naam: "Aurelia NV"
+      omzet: 32
+      balanstotaal: 16
+      werknemers: 150
+    - naam: "Bellator (100 %)"
+      omzet: 22
+      balanstotaal: 10
+      werknemers: 100
+    - naam: "Concordia (50 %)"
+      omzet: 8
+      balanstotaal: 4
+      werknemers: 30
+  eliminaties:
+    omzet: -12
+    balanstotaal: -4
+    werknemers: 0
+  geconsolideerd:
+    omzet: 50
+    balanstotaal: 26
+    werknemers: 280
+  drempels:
+    omzet_ref: "~42,5 mln (richtcijfer, exact in Cijferzakboekje)"
+    balanstotaal_ref: "~21,25 mln (richtcijfer, exact in Cijferzakboekje)"
+    werknemers_ref: "250"
+  uitkomst: "Drie van drie drempels overschreden → consolidatie verplicht (na tweejaars-regel)"
+  noot_methode_keuze: >
+    Bellator volledig in de telling (exclusieve controle → integraal),
+    Concordia voor 50% (gezamenlijke controle → evenredig). Dynamica zit
+    NIET in de drempel-telling — VMM raakt de groepscijfers via één
+    balanslijn en telt niet mee voor drempels.
+
+# Vergelijkings-groep "Vesta": blijft binnen drempels (illustratie)
+drempel_toets_vesta_vergelijking:
+  omzet: 28
+  balanstotaal: 14
+  werknemers: 180
+  uitkomst: "Geen enkele drempel overschreden → groep van beperkte omvang → vrijgesteld"
+
+# ---------------------------------------------------------------------------
+# Balansen (vereenvoudigd, alleen pedagogisch relevante posten)
+# ---------------------------------------------------------------------------
+
+balansen:
+
+  aurelia-individueel:
+    titel: "Balans A — Aurelia NV op 31-12-2026 (vereenvoudigd schema KB-WVV)"
+    eenheid: "mln EUR"
+    activa:
+      - sub_totaal: "Vaste activa"
+        bedrag: 18.0
+      - omschrijving: "Materiële vaste activa"
+        detail: "Terreinen en gebouwen"
+        bedrag: 12.0
+      - omschrijving: "Financiële vaste activa — ★ **Deelneming Bellator BVBA (80 %)**"
+        bedrag: 6.0
+        marker: intra-groep
+        bold: true
+      - sub_totaal: "Vlottende activa"
+        bedrag: 12.0
+      - omschrijving: "Voorraden en bestellingen in uitvoering"
+        bedrag: 5.0
+      - omschrijving: "Vorderingen op ten hoogste één jaar"
+        bedrag: 4.0
+      - sub_lijn: "waarvan handelsvorderingen extern"
+        bedrag: 3.0
+      - sub_lijn: "waarvan ★ vordering op Bellator"
+        bedrag: 1.0
+        marker: intra-groep
+      - omschrijving: "Liquide middelen en overig"
+        bedrag: 3.0
+      - totaal: "Totaal activa"
+        bedrag: 30.0
+    passiva:
+      - sub_totaal: "Eigen vermogen"
+        bedrag: 18.0
+      - sub_totaal: "Schulden (extern)"
+        bedrag: 12.0
+      - totaal: "Totaal passiva"
+        bedrag: 30.0
+
+  bellator-na-herwaardering:
+    titel: "Balans B — Bellator BVBA op 31-12-2026 (na reële-waarde-herwaardering)"
+    eenheid: "mln EUR"
+    activa:
+      - sub_totaal: "Vaste activa"
+        bedrag: 4.0
+      - omschrijving: "Immateriële vaste activa"
+        detail: "Klantenrelaties (erkend bij herwaardering)"
+        bedrag: 0.5
+      - omschrijving: "Materiële vaste activa"
+        detail: "Gebouwen (boekw. 2,5 → reële waarde 3,5)"
+        bedrag: 3.5
+      - sub_totaal: "Vlottende activa"
+        bedrag: 3.5
+      - omschrijving: "Voorraden"
+        bedrag: 3.0
+      - sub_lijn: "waarvan ★ gekocht van Aurelia"
+        bedrag: 2.5
+        marker: intra-groep
+      - sub_lijn: "waarvan eigen handel"
+        bedrag: 0.5
+      - omschrijving: "Liquide middelen en overig"
+        bedrag: 0.5
+      - totaal: "Totaal activa"
+        bedrag: 7.5
+    passiva:
+      - sub_totaal: "Eigen vermogen"
+        bedrag: 5.5
+      - sub_lijn: "waarvan aandeel moeder (80 %)"
+        bedrag: 4.4
+      - sub_lijn: "waarvan belang van derden (20 %)"
+        bedrag: 1.1
+      - sub_totaal: "Schulden"
+        bedrag: 2.0
+      - omschrijving: "Schulden ≤ 1 jaar — extern (leveranciers)"
+        bedrag: 1.0
+      - omschrijving: "★ Schuld aan Aurelia"
+        bedrag: 1.0
+        marker: intra-groep
+      - totaal: "Totaal passiva"
+        bedrag: 7.5
+
+  # Bellator's boekwaarde-balans pre-herwaardering — voor de "Aurelia koopt Bellator" stap
+  bellator-boekwaarde:
+    titel: "Bellator BVBA op overnamedatum — boekwaarden vs reële waarden"
+    eenheid: "mln EUR"
+    type: vergelijking
+    kolommen: ["Post", "Boekwaarde", "Reële waarde", "Herwaardering"]
+    rijen:
+      - ["Gebouwen", "2,5", "3,5", "+1,0"]
+      - ["Klantenrelaties *(immaterieel, niet eerder geboekt)*", "0,0", "0,5", "+0,5"]
+      - ["Overige activa", "3,5", "3,5", "0"]
+      - ["Schulden", "(2,0)", "(2,0)", "0"]
+      - ["**Netto-eigen vermogen**", "**4,0**", "**5,5**", "**+1,5**"]
+
+# ---------------------------------------------------------------------------
+# Resultatenrekening
+# ---------------------------------------------------------------------------
+
+resultatenrekeningen:
+
+  aurelia-individueel:
+    titel: "Resultatenrekening A — Aurelia NV boekjaar 2026 (vereenvoudigd)"
+    eenheid: "mln EUR"
+    rijen:
+      - sub_totaal: "Bedrijfsopbrengsten — omzet"
+        bedrag: 38.0
+      - sub_lijn: "waarvan ★ aan Bellator (intra-groep)"
+        bedrag: 2.5
+        marker: intra-groep
+      - sub_totaal: "Bedrijfskosten"
+        bedrag: 36.2
+      - omschrijving: "Aankopen handelsgoederen"
+        bedrag: 28.0
+      - sub_lijn: "waarvan ★ kostprijs voor de Bellator-verkoop"
+        bedrag: 2.0
+        marker: intra-groep
+      - omschrijving: "Overige bedrijfskosten"
+        detail: "diensten, lonen, afschrijvingen"
+        bedrag: 8.2
+      - totaal: "Bedrijfsresultaat"
+        bedrag: 1.8
+    intra_groep_marge:
+      omzet: 2.5
+      kostprijs: 2.0
+      winstmarge: 0.5
+      noot: "Niet als aparte regel zichtbaar — verstopt in het saldo van het bedrijfsresultaat. Volledige uitleg in familie (c) van eliminaties."
+
+# ---------------------------------------------------------------------------
+# Boekingen (T-rekening-stijl)
+# ---------------------------------------------------------------------------
+
+boekingen:
+
+  eerste-consolidatie:
+    titel: "Geconsolideerde boeking — eerste consolidatie"
+    eenheid: "mln"
+    debet:
+      - omschrijving: "Activa Bellator (op reële waarde)"
+        bedrag: 9.5
+      - omschrijving: "Goodwill"
+        bedrag: 1.6
+    credit:
+      - omschrijving: "Schulden Bellator"
+        bedrag: 2.0
+      - omschrijving: "Deelneming in Bellator (weg)"
+        bedrag: 6.0
+      - omschrijving: "Belang van derden"
+        bedrag: 1.1
+      - omschrijving: "Geconsolideerde reserves"
+        bedrag: 1.0
+    totaal: 11.1
+
+  eliminatie-deelneming-ev:
+    titel: "Geconsolideerde boeking — eliminatie deelneming ↔ EV dochter"
+    eenheid: "mln"
+    debet:
+      - omschrijving: "Activa Bellator *(gebouwen, klantenrelaties, voorraden …)*"
+        bedrag: 7.5
+      - omschrijving: "Goodwill *(immaterieel vast actief)*"
+        bedrag: 1.6
+    credit:
+      - omschrijving: "Schulden Bellator"
+        bedrag: 2.0
+      - omschrijving: "Deelneming Bellator *(weg)*"
+        bedrag: 6.0
+      - omschrijving: "Belang van derden"
+        bedrag: 1.1
+    totaal: 9.1
+
+  eliminatie-vord-schuld:
+    titel: "Geconsolideerde boeking — eliminatie intra-groep vordering ↔ schuld"
+    eenheid: "mln"
+    debet:
+      - omschrijving: "Schuld aan Aurelia *(wegboeken)*"
+        bedrag: 1.0
+    credit:
+      - omschrijving: "Vordering op Bellator *(wegboeken)*"
+        bedrag: 1.0
+    totaal: 1.0
+
+  eliminatie-intra-omzet-marge:
+    titel: "Geconsolideerde boeking — eliminatie intra-omzet + intra-marge"
+    eenheid: "mln"
+    debet:
+      - omschrijving: "Omzet *(wegboeken)*"
+        bedrag: 2.5
+    credit:
+      - omschrijving: "Kostprijs verkochte handelsgoederen"
+        bedrag: 2.0
+      - omschrijving: "Voorraden bij Bellator *(afwaardering)*"
+        bedrag: 0.5
+    totaal: 2.5
+
+# ---------------------------------------------------------------------------
+# Mock geconsolideerde balans (vergelijking-tabel: indiv1 · indiv2 · mutaties · gecons.)
+# ---------------------------------------------------------------------------
+
+mock_geconsolideerd:
+
+  aurelia-na-eliminaties:
+    titel: "Mock geconsolideerde balans Aurelia (na drie families eliminaties)"
+    eenheid: "mln EUR"
+    kolommen: ["", "Aurelia indiv.", "Bellator indiv.", "Eliminaties + herw.", "**Geconsolideerd**"]
+    rijen_activa:
+      - ["Goodwill", "—", "—", "+1,6", "**1,6**"]
+      - ["Gebouwen", "12,0", "2,5", "+1,0 *(herw.)*", "**15,5**"]
+      - ["Klantenrelaties", "—", "—", "+0,5 *(herw.)*", "**0,5**"]
+      - ["Voorraad", "5,0", "3,0", "−0,5 *(intra-marge)*", "**7,5**"]
+      - ["Vorderingen", "4,0", "—", "−1,0 *(intra-groep)*", "**3,0**"]
+      - ["Deelneming Bellator", "6,0", "—", "−6,0", "**—**"]
+      - ["Overige activa", "3,0", "0,5", "0", "**3,5**"]
+      - ["**Totaal activa**", "**30,0**", "**7,5**", "", "**31,6**"]
+    rijen_passiva:
+      - ["Eigen vermogen moeder", "18,0", "5,5", "mutaties *(zie noot)*", "**17,5**"]
+      - ["Belang van derden", "—", "—", "+1,1", "**1,1**"]
+      - ["Schulden", "12,0", "2,0", "−1,0 *(intra-groep)*", "**13,0**"]
+      - ["**Totaal passiva**", "**30,0**", "**7,5**", "", "**31,6**"]
+    toelichting_ev_mutaties: >
+      Aurelia's individuele EV (18,0) wordt verlaagd met de geëlimineerde
+      intra-groep marge (−0,5). Bellator's EV (5,5) splitst in 4,4 (aandeel
+      moeder, weggewerkt tegen de deelneming-prijs van 6,0 via goodwill van
+      1,6) + 1,1 (belang van derden). Netto geconsolideerd EV moeder
+      = 18,0 − 0,5 = 17,5.
+
+# ---------------------------------------------------------------------------
+# Mini-cases voor evenredig + VMM (illustratie zonder eigen volle balans)
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  concordia-evenredig:
+    titel: "Evenredige consolidatie — Aurelia's joint venture Concordia"
+    deelneming_perc: 50
+    concordia_activa: 8.0
+    concordia_schulden: 3.0
+    concordia_nev: 5.0
+    deelneming_boekwaarde: 2.5
+    tabel:
+      kolommen: ["", "Aurelia indiv.", "+ 50 % Concordia", "**Geconsolideerd (deel JV)**"]
+      rijen:
+        - ["Activa (excl. deelneming)", "30,0", "**+4,0** *(50 % × 8,0)*", "34,0"]
+        - ["Deelneming Concordia", "2,5", "**−2,5**", "0,0"]
+        - ["Schulden", "(12,0)", "**+(1,5)** *(50 % × 3,0)*", "(13,5)"]
+        - ["Netto-effect op EV", "18,0", "0", "18,0"]
+    sleutelpunten:
+      - "Deelneming-lijn verdwijnt, vervangen door 50 % van Concordia's activa en schulden"
+      - "GEEN minderheidsbelang — de 50 % van de partner zit niet in de telling"
+      - "Onder IFRS 11 verboden voor joint ventures (die gaan via VMM)"
+
+  dynamica-vmm:
+    titel: "Vermogensmutatiemethode — Aurelia's associate Dynamica"
+    deelneming_perc: 30
+    dynamica_nev: 10.0
+    dynamica_resultaat_boekjaar: 1.0
+    aandeel_aurelia: 3.3
+    deelneming_boekwaarde: 2.5
+    tabel:
+      kolommen: ["", "Aurelia indiv.", "Mutatie VMM", "**Geconsolideerd (deel associate)**"]
+      rijen:
+        - ["Deelneming Dynamica", "2,5", "**+0,8**", "**3,3**"]
+        - ["Geconsolideerde reserves", "—", "**+0,8**", "+0,8"]
+    resultatenrekening_post: "Aandeel in het resultaat van vennootschappen waarop vermogensmutatie is toegepast = 30 % × 1,0 = 0,3 mln"
+    sleutelpunten:
+      - "One-line consolidation: geen onderliggend balansbestanddeel van Dynamica regel-per-regel"
+      - "Deelneming wordt opnieuw gewaardeerd op aandeel in netto-vermogen (incl. resultaat)"
+      - "Correcte waardering deelneming + correcte resultaat-impact, maar geen integratie van activa"
+
+# ---------------------------------------------------------------------------
+# Vergelijking-tabel methodes (samenvatting)
+# ---------------------------------------------------------------------------
+
+methode_keuze:
+  titel: "Methode-keuze samengevat"
+  kolommen: ["Methode", "Wat verandert op de geconsolideerde balans?", "Belang van derden?"]
+  rijen:
+    - ["Integraal", "100 % activa/schulden van dochter — deelneming-lijn verdwijnt", "**Ja** — aparte rubriek in passief"]
+    - ["Evenredig", "% van élke activa/schulden-lijn van JV — deelneming-lijn verdwijnt", "Nee — al pro-rata uit-geschaald"]
+    - ["Vermogensmutatie", "Eén balanslijn opnieuw gewaardeerd; onderliggende activa blijven onzichtbaar", "Nee — geen integratie"]
+
+controle_niveaus:
+  titel: "Drie controle-niveaus en hun methode"
+  kolommen: ["Niveau", "Hoeveel macht?", "Voorbeeld", "Hoe in de geconsolideerde JR?"]
+  rijen:
+    - ["**Exclusieve controle**", "Meerderheid van de stemrechten, of contractueel beslissende invloed", "Aurelia bezit 80 % van Bellator", "[[integrale-consolidatie\\|Integrale consolidatie]] — alles 100 % opnemen + minderheidsbelang apart"]
+    - ["**Gezamenlijke controle**", "Twee of meer partners die samen beslissen; geen kan alleen", "Aurelia en een partner runnen Concordia 50/50", "[[evenredige-consolidatie\\|Evenredige consolidatie]] (B-GAAP) of [[vermogensmutatiemethode\\|vermogensmutatiemethode]] (IFRS)"]
+    - ["**Notabele invloed**", "Geen controle, wel zichtbare inspraak (typisch 20-50 %)", "Aurelia bezit 30 % van Dynamica", "[[vermogensmutatiemethode\\|Vermogensmutatiemethode]] — één balanslijn, geen integratie"]

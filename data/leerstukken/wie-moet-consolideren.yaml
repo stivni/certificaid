@@ -1,0 +1,220 @@
+# Leerstuk-script — wie moet consolideren?
+#
+# Reverse-engineerd uit content/leerstukken/wie-moet-consolideren.md (POC v0.1).
+# Wordt geconsumeerd door render-tool (toekomst) of mens om opnieuw te schrijven
+# zonder de didactische volgorde te verliezen.
+
+meta:
+  slug: wie-moet-consolideren
+  titel: "Wie moet consolideren?"
+  po: "1.4"
+  cluster: consolidatie
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — de scope-vraag van consolidatie: is er controle,
+    wie zit in de kring, is de groep groot genoeg, en wanneer geldt een
+    vrijstelling?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.4 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches leiden
+    voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Benadruk dat het antwoord in DRIE opeenvolgende vragen zit"
+    - "Maak duidelijk dat als één van de drie 'nee' is, de plicht vervalt"
+    - "Som de drie vragen op: (1) controle? (2) kring? (3) groot genoeg?"
+  visualisaties:
+    - type: mermaid
+      ref: scope-beslisboom
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken de drie stappen één voor één uit op een doorgewerkte voorbeeldgroep.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: stap-1-controle
+    titel: "Stap 1 — Is er controle?"
+    niveau: 2
+    beats:
+      - "Intuïtie eerst: consolidatie heeft maar zin als één vennootschap echt baas is over een andere"
+      - "Contrast: 5% aandelen = geen moeder, meerderheid stemrechten = wel moeder"
+      - "Toon de tabel met drie controle-niveaus en hun consolidatiemethode"
+      - "Voeg toe: onder 20% = geen invloed, gewone belegging op klasse 28"
+      - "Belangrijke nuance: 20% is een vermoeden, niet hard recht"
+      - "Synthese (vetgedrukt): controle-vraag is 'is er beslissende invloed?', niet 'is er aandelenbezit?'"
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: controle_niveaus
+        bron: voorbeeldgroep
+
+  - id: stap-2-kring
+    titel: "Stap 2 — Wie zit in de consolidatiekring?"
+    niveau: 2
+    beats:
+      - "Open met de keuze: er zijn twee mogelijke vormen (verticaal of consortium)"
+      - "Toon de groepsstructuur als mermaid-diagram met Aurelia als voorbeeld"
+      - "Verticale groep uitleggen: moeder + dochters/JV/associates die onder haar invloed staan"
+      - "Erion in het diagram dient als negatief-voorbeeld (18% = geen invloed)"
+      - "Horizontale groep (consortium) uitleggen: geen aandelenbanden, wel centrale leiding"
+      - "Markeer consortium als 'zeldzaam in praktijk, vaste examen-trigger'"
+      - "Afsluiter: kring wordt op elke balansdatum opnieuw bepaald → link naar [[wijziging-consolidatiekring]]"
+    visualisaties:
+      - type: mermaid
+        ref: groepsstructuur
+        bron: voorbeeldgroep
+
+  - id: stap-3-drempels
+    titel: "Stap 3 — Is de groep groot genoeg?"
+    niveau: 2
+    beats:
+      - "Open met een waarschuwing: dit is het meest verwarrende stuk; veel concept-fiches struikelen hier"
+      - "Kern-onderscheid: drempels voor GROEP ≠ drempels voor INDIVIDUELE VENN"
+    kinderen:
+
+      - id: drempel-stelsels-tabel
+        titel: "De twee drempel-stelsels"
+        niveau: 3
+        beats:
+          - "Toon de vergelijkings-tabel: kleine venn (50/~11/~6) vs groep van beperkte omvang (250/~42,5/~21,25)"
+          - "Vermeld de zes dimensies: werknemers, omzet, balanstotaal, meetbasis, één-overschrijding, twee-overschrijding"
+          - "Reflectie: groep-drempels liggen 3-4× hoger dan venn-drempels (logisch — meer aanwezigheid voor consolidatie vereist)"
+          - "Waarschuwing: een kleine venn kan tot een grote groep behoren, en vice versa — verwar de stelsels niet"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Drempel", "**Kleine vennootschap** *(individueel)*", "**Groep van beperkte omvang** *(geconsolideerd)*"]
+            rijen:
+              - ["Jaargemiddelde werknemers", "50", "**250**"]
+              - ["Jaaromzet (excl. btw)", "~11,25 mln", "**~42,5 mln**"]
+              - ["Balanstotaal", "~6 mln", "**~21,25 mln**"]
+              - ["Waar gemeten?", "Op de individuele jaarrekening", "**Op de geconsolideerde basis** (somming alle groepsvennootschappen, na eliminatie van interne stromen)"]
+              - ["Wat als één drempel overschreden wordt?", "Vennootschap blijft klein (max één mag)", "Groep blijft 'beperkt' (max één mag)"]
+              - ["Wat als twee of meer overschreden?", "Vennootschap wordt groot — pas na twee opeenvolgende boekjaren (consistentiebeginsel)", "Groep wordt consolidatieplichtig — eveneens pas na twee opeenvolgende boekjaren"]
+
+      - id: paragraaf-2-twee-alineas
+        titel: "Twee mechanismen binnen één paragraaf (§ 2)"
+        niveau: 3
+        beats:
+          - "Maak expliciet dat art. 1:26 § 2 twee aparte regels combineert"
+          - "Toon de twee-rij tabel: alinea 1 = meetdatum/meetbasis, alinea 2 = tweejaars-regel"
+          - "Synthese: alinea 1 zegt WAAR/WANNEER je meet, alinea 2 zegt WANNEER het gevolg ingaat"
+          - "Beide gelden parallel — bevestigd door CBN-advies 2022/09 + 2022/03"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Alinea", "Wat regelt het", "Waarop letten"]
+            rijen:
+              - ["§ 2 alinea 1", "**Meetdatum + meetbasis** — de cijfers worden getoetst op de afsluitingsdatum van de jaarrekening van de moeder, op basis van de laatst opgemaakte jaarrekeningen van de te consolideren dochters", "Geen tweejaars-vereiste hier; gewoon de juiste timing en bron van de cijfers"]
+              - ["§ 2 alinea 2", "**Tweejaars-regel** (consistentiebeginsel) — een overschrijding (of niet meer overschrijden) heeft pas gevolg wanneer ze zich twee opeenvolgende boekjaren voordoet", "Buffer tegen jojo-effect bij tijdelijke pieken; het gevolg gaat in vanaf het boekjaar volgend op het tweede overschrijdings-boekjaar"]
+
+      - id: drempel-toepassing-aurelia
+        titel: "Hoe pas je de drempels toe? Werk een groep door"
+        niveau: 3
+        beats:
+          - "Stel de Aurelia-case op: voeg de drempel-toets uit de voorbeeldgroep-data in"
+          - "Belangrijk: toon de individuele cijfers per entiteit + eliminaties + geconsolideerde uitkomst"
+          - "Noteer de toets-uitkomst: drie van drie drempels overschreden"
+          - "Conclusie: na tweejaars-regel = consolidatieplichtig"
+          - "Vergelijking: introduceer groep Vesta (180 wn / 28 mln / 14 mln) — alle drie onder drempel → vrijgesteld"
+          - "Sleutelpunt: ondanks duidelijke groepsstructuur blijft Vesta vrijgesteld"
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: drempel_toets_aurelia
+            bron: voorbeeldgroep
+
+      - id: vrijstelling-oob
+        titel: "Vrijstelling kan vervallen"
+        niveau: 3
+        beats:
+          - "Eén harde uitzondering: OOB in de groep (genoteerde venn, kredietinstelling, verzekeraar)"
+          - "Gedachte achter de uitzondering: publiek + toezichthouders verdienen consolidatie-cijfers, drempels of niet"
+
+  - id: kring-wijzigt
+    titel: "Wat als de kring tijdens het boekjaar wijzigt?"
+    niveau: 2
+    beats:
+      - "Open met voorbeelden van kring-mutaties: acquisitie, verkoop, statuut-wijziging"
+      - "Toon tabel met 4 gebeurtenissen + bijhorende boekhoudkundige actie"
+      - "Verwijs naar [[hoe-consolideren]] en [[wijziging-consolidatiekring]] voor details"
+      - "Conclusie: kring is dynamisch, snapshot op balansdatum lijkt simpel maar timing/proportionaliteit moeten kloppen"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Gebeurtenis", "Wat doe je technisch?"]
+        rijen:
+          - ["Acquisitie tijdens BJ", "Eerste-consolidatie op overnamedatum, opname enkel vanaf die datum (pro rata in resultatenrekening)"]
+          - ["Verkoop tijdens BJ", "Opname tot overdrachtsdatum, daarna uit kring; verkoopresultaat in de geconsolideerde resultatenrekening"]
+          - ["Stap-acquisitie (associate → dochter)", "Herwaardering bestaande belang op overnamedatum, dan eerste-consolidatie als dochter"]
+          - ["Verlies van controle (dochter → associate)", "Deconsolideren, restbelang overzetten op vermogensmutatiemethode"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): venn-drempels vs groep-drempels niet verwarren — geef Aurelia als voorbeeld van mismatch"
+      - "Valkuil 2 (⚠️): tweejaars-regel vergeten — eerste keer overschrijden triggert NIETS; geef N → N+1 → N+2 reeks"
+      - "Valkuil 3 (⚠️): IFRS heeft GEEN kleine-groep-vrijstelling — IFRS 10 dwingt consolidatie ongeacht omvang; enige uitzondering = tussenholdings"
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: hoe-consolideren
+      hint: "Hoe pas je een methode toe? Integrale stappen, eliminaties, eerste-consolidatie."
+    - slug: goodwill-bij-consolidatie
+      hint: "Wat gebeurt er met het verschil tussen aanschafprijs en aandeel in het netto-vermogen?"
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Welke documenten levert de groep op en hoe wordt het gecontroleerd?"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [consolidatieverplichting, consolidatiekring, controle-bij-consolidatie, wijziging-consolidatiekring]
+    - concepten: [integrale-consolidatie, evenredige-consolidatie, vermogensmutatiemethode]
+    - concepten: [geconsolideerde-jaarrekening]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Consolidatieplicht"
+    ref: "WVV art. 3:22 e.v. + KB-WVV"
+  - onderwerp: "Definitie *groep van beperkte omvang* (= 'kleine groep')"
+    ref: "WVV art. 1:26 § 1"
+    noot: >
+      Drie criteria op geconsolideerde basis (werknemers, omzet, balanstotaal).
+      Exacte bedragen: Cijferzakboekje. Drempels verhoogd door Wet 28 maart 2024
+      (omzetting EU-richtlijn 2023/2775).
+  - onderwerp: "Meetdatum + tweejaars-regel (consistentiebeginsel)"
+    ref: "WVV art. 1:26 § 2"
+    noot: "Alinea 1 regelt timing en bron van cijfers; alinea 2 regelt de tweejaars-overschrijdingsregel."
+  - onderwerp: "Vrijstelling kleine groep"
+    ref: "WVV art. 3:25"
+    noot: "OOB-uitzondering in art. 3:27: vrijstelling geldt niet als de groep een organisatie van openbaar belang omvat."
+  - onderwerp: "Controle-test"
+    ref: "WVV art. 1:14 (exclusieve controle) · art. 1:18 (gezamenlijke controle) · art. 1:21 (notabele invloed — 20%-vermoeden)"
+    noot: "Verwar art. 1:21 niet met art. 1:20 — die laatste regelt deelnemingsverhoudingen (gewone aandelen 10%+), niet de notabele-invloed-test."
+  - onderwerp: "Vrijstelling tussenholding (Belgische dochter van EU-moeder die zelf consolideert)"
+    ref: "WVV art. 3:26"
+  - onderwerp: "IFRS-pad"
+    ref: "IFRS 10 *Consolidated Financial Statements*"
+    noot: "Controle-test + verplichting. Geen algemene drempel-vrijstelling."
+  - onderwerp: "Toelichting consistentiebeginsel voor groepen"
+    ref: "CBN-advies 2022/09 + CBN-advies 2022/03"
+
+footer: "Leerstuk PO 1.4. Status: voorgesteld — POC voor ADR-037."

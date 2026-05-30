@@ -1,0 +1,131 @@
+# Leerstuk-script — wat is een geconsolideerde jaarrekening?
+#
+# Entry-fiche voor PO 1.4 consolidatie. Dunner script dan eerste versie:
+# overlap met specifiekere leerstukken weggekapt (geconsolideerd-vs-
+# enkelvoudig → laat hoe-consolideren dit doen; termijnen → laat
+# rapportering-en-controle dit doen; B-GAAP vs IFRS detail-vergelijking →
+# kort houden met doorklik naar goodwill-bij en hoe-consolideren).
+
+meta:
+  slug: wat-is-een-geconsolideerde-jaarrekening
+  titel: "Wat is een geconsolideerde jaarrekening?"
+  po: "1.4"
+  cluster: consolidatie
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — entry-fiche: wat is een geconsolideerde
+    jaarrekening, waarom bestaat ze, voor wie, en wat zit erin?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Aankondigen: dit is de entry-fiche voor
+    consolidatie. Wie/hoe/goodwill/rapportering volgen in eigen leerstukken;
+    deze fiche is de begripsbasis.
+
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Definitie: een geconsolideerde jaarrekening presenteert moeder + dochters als één economische eenheid"
+    - "Sleutelverschil met optelling: intra-groep stromen (vorderingen, omzet, deelneming-vs-EV) worden geëlimineerd"
+    - "Korte aankondiging: het waarom achter deze keuze + voor wie volgen in de uitwerking, met Aurelia als illustratie"
+  visualisaties:
+    - type: mermaid
+      ref: groepsstructuur
+      bron: voorbeeldgroep
+  notitie: "Geen 'doelpubliek-opsomming' hier (dat hoort in sectie 'voor-wie') — antwoord-in-een-blik blijft alleen definitie + sleutelmechanisme + aankondiging"
+
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: waarom-aparte-jaarrekening
+    titel: "Waarom een aparte geconsolideerde jaarrekening?"
+    niveau: 2
+    beats:
+      - "Probleem-opbouw: een groep met moeder + 10 dochters produceert elf afzonderlijke jaarrekeningen — onbruikbaar voor wie de groep als geheel wil beoordelen"
+      - "De moederbalans verhult: 'Deelneming X' is één lijn die de onderliggende activa van X (gebouwen, voorraden, klantenrelaties) NIET toont"
+      - "Eerste-instinct (optellen) breekt: bij intra-groep verkoop zou dezelfde economische waarde dubbel staan — Aurelia's 2,5 mln verkoop aan Bellator die nog in voorraad ligt"
+      - "Oplossing: kijk DOOR de moeder heen + elimineer intra-groep stromen — het resultaat toont de groep zoals een buitenstaander haar ziet"
+      - "Sleutelinzicht (geen aparte beat, mag opgenomen in vorige): consolidatie = integratie + eliminatie"
+    notitie: "Concrete Aurelia-cijfers (6,0 deelneming, 2,5 intra-omzet) NIET volledig uitwerken — dat doet hoe-consolideren. Hier alleen even noemen om concreet te maken."
+
+  - id: voor-wie
+    titel: "Voor wie is ze bedoeld?"
+    niveau: 2
+    beats:
+      - "Doelpubliek: externe gebruikers die de GROEP willen beoordelen"
+      - "Toon de tabel met vier stakeholder-types en hun belang"
+      - "Belangrijke nuance: enkelvoudige JR blijft bestaan voor wie één entiteit wil zien (bv. fiscaal per vennootschap, of een rechtspartner die met één dochter contracteert)"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stakeholder", "Wat wil hij/zij weten?"]
+        rijen:
+          - ["Bank / kredietverstrekker", "Kredietwaardigheid van de groep als geheel — niet één entiteit"]
+          - ["Aandeelhouder", "Rendement op zijn investering in de moeder, gedragen door de groepsprestaties"]
+          - ["Fiscus", "Voor groepsbelasting (CFC, Pijler 2, transfer pricing)"]
+          - ["Analist / belegger", "Waardering van de groep, met onderliggende activa zichtbaar"]
+
+  - id: wat-zit-erin
+    titel: "Wat zit erin? Vier onderdelen"
+    niveau: 2
+    beats:
+      - "Toon de tabel met de vier onderdelen: geconsolideerde balans, geconsolideerde resultatenrekening, geconsolideerde toelichting, geconsolideerd jaarverslag"
+      - "Voor elk: één korte beschrijving van wat erin staat. Geen diepe uitwerking — opmaak-proces, commissarisverslag en termijnen leven in [[rapportering-en-controle-geconsolideerde-jaarrekening]]"
+      - "Onder IFRS komen er extra onderdelen bij (overzicht totaalresultaat, EV-mutatieoverzicht, kasstroomoverzicht) — kort vermelden, geen detail"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Onderdeel", "Wat staat erin?"]
+        rijen:
+          - ["Geconsolideerde balans", "Activa + passiva van de hele groep, na eliminaties. Aparte rubrieken voor goodwill en belang van derden"]
+          - ["Geconsolideerde resultatenrekening", "Opbrengsten en kosten van de groep, na eliminaties. Aparte post 'aandeel van derden in het resultaat'"]
+          - ["Geconsolideerde toelichting", "Verklaring + samenstelling kring + methode per dochter + waarderingsregels"]
+          - ["Geconsolideerd jaarverslag", "Beleidsbeschrijving + risico's + duurzaamheid + governance (door het bestuursorgaan van de moeder)"]
+
+  - id: twee-stelsels
+    titel: "Twee stelsels: B-GAAP en IFRS"
+    niveau: 2
+    beats:
+      - "Belgisch stelsel: WVV Boek 3 + KB-WVV, opgesteld in EUR, neergelegd bij NBB"
+      - "IFRS: verplicht voor beursgenoteerde moeders (EU-IAS-Verordening uit 2002), optioneel voor andere"
+      - "Belangrijkste verschillen kort: scope-vrijstelling (alleen B-GAAP heeft kleine-groep-vrijstelling), goodwill (B-GAAP afschrijven + impairment, IFRS impairment-only), evenredige consolidatie (B-GAAP toegestaan, IFRS verboden voor JV's)"
+      - "Doorklik naar [[goodwill-bij-consolidatie]] voor goodwill-detail en [[hoe-consolideren]] voor methode-detail"
+    notitie: "Geen volle vergelijkingstabel hier (dat zou overlappen met goodwill- en hoe-consolideren). Eén compacte paragraaf volstaat."
+
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wie-moet-consolideren
+      hint: "Wanneer is een groep verplicht een geconsolideerde JR op te maken?"
+    - slug: hoe-consolideren
+      hint: "Hoe werkt het technisch — drie methodes, eerste consolidatie, eliminaties?"
+    - slug: goodwill-bij-consolidatie
+      hint: "Wat gebeurt er met goodwill na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS."
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Het opmaakproces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB-publicatie"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [geconsolideerde-jaarrekening, jaarrekening]
+
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting opmaak geconsolideerde JR"
+    ref: "WVV art. 3:22 e.v."
+  - onderwerp: "Onderdelen + inhoud geconsolideerde JR"
+    ref: "KB-WVV (Onderafdeling Geconsolideerde jaarrekening)"
+  - onderwerp: "IFRS-toepassing"
+    ref: "Verordening (EG) 1606/2002 (IAS-Verordening)"
+    noot: "Verplicht voor beursgenoteerde moeders; optioneel voor andere moeders sinds 2017"
+  - onderwerp: "Geconsolideerd jaarverslag"
+    ref: "WVV art. 3:32 e.v."
+    noot: "Inhoud in detail: zie [[rapportering-en-controle-geconsolideerde-jaarrekening]]"
+
+footer: "Leerstuk PO 1.4. Status: voorgesteld — entry-fiche; specifieker detail in andere 1.4-leerstukken."

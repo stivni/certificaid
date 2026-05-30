@@ -1,0 +1,465 @@
+# Leerstuk-script — hoe consolideren?
+#
+# Reverse-engineerd uit content/leerstukken/hoe-consolideren.md (POC v0.1).
+# Substantieel leerstuk dat drie methodes, eerste-consolidatie en drie families
+# eliminaties uitwerkt op één doorgewerkte voorbeeldgroep (Aurelia).
+
+meta:
+  slug: hoe-consolideren
+  titel: "Hoe consolideren?"
+  po: "1.4"
+  cluster: consolidatie
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — de techniek-vraag van consolidatie: welke methode kies
+    je per controle-niveau, hoe verloopt de eerste consolidatie met
+    reële-waarde-herwaardering en goodwill, en hoe elimineer je de drie
+    families intra-groep stromen?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.4. Vermeld
+    expliciet dat de stagiair eerst [[wie-moet-consolideren]] gelezen moet
+    hebben — die geeft de scope-vraag.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Vier stappen samen: Stap 0 zet de waarderingsregels gelijk over de hele groep, Stap 1 kiest de methode per controle-niveau, Stap 2 doet de eerste consolidatie (reële waarde + goodwill), Stap 3 zijn de courante eliminaties"
+    - "Drie methodes in Stap 1, één per controle-niveau: integraal (exclusief), evenredig (gezamenlijk, alleen B-GAAP), VMM (notabele invloed)"
+    - "Stap 2 (eerste consolidatie) is de zwaarste verrichting — daarna keren bij elke jaarafsluiting de drie families eliminaties terug"
+  visualisaties:
+    - type: mermaid
+      ref: consolidatie-techniek-flow
+      bron: voorbeeldgroep
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  # ---------- STAP 0: uniforme waarderingsregels ----------
+
+  - id: stap-0-uniforme-waarderingsregels
+    titel: "Stap 0 — Uniforme waarderingsregels (rapporteringspakket)"
+    niveau: 2
+    beats:
+      - "Open met de praktische werkelijkheid: vóór één balanslijn geconsolideerd wordt, moeten alle dochters dezelfde waarderingsregels hanteren. Anders telt de groep gebouwen volgens IFRS én gebouwen volgens BE-GAAP door elkaar"
+      - "Concretiseer waarom: Bellator kan statutair afschrijven over 30 jaar terwijl Aurelia 20 jaar hanteert — een lineaire optelling zou inconsistent zijn. Geef dit getallen-voorbeeld om de noodzaak tastbaar te maken"
+      - "Mechanisme: de moeder (haar centraal consolidatiebureau) verstuurt een rapporteringspakket aan elke dochter — groeps-rekeningenstelsel + uniforme waarderingsregels + intra-groep-mapping. Dochters leveren cijfers aan volgens dat pakket"
+      - "Wat als een dochter statutair anders waardeert dan groepsbreed? Dan maakt ze twee versies: haar eigen statutaire JR voor lokale neerlegging + een groeps-gecorrigeerde versie voor consolidatie. Reconciliatie expliciteert het verschil"
+      - "Belangrijke nuance (blockquote-aside): Stap 0 is niet alleen techniek — het is governance. De moeder is aansprakelijk voor consistentie groepsbreed; de adviseur/auditor in een dochter kan ermee in conflict komen als lokale en groeps-regels uiteenlopen"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aspect", "Statutair (per entiteit)", "Geconsolideerd (groepsbreed)"]
+        rijen:
+          - ["Afschrijving gebouwen", "Bellator: lineair 30 jaar", "Aurelia-groepsregel: lineair 20 jaar → reconciliatie 10/30 versnellen"]
+          - ["Voorraadwaardering", "Concordia: gemiddelde aanschafprijs", "Aurelia-groepsregel: FIFO → reconciliatie bij afsluiting"]
+          - ["Voorzieningen", "Lokale wetgeving dochter", "Groeps-voorzichtigheidsbeleid voor geconsolideerde JR"]
+
+  # ---------- STAP 1: methode-keuze ----------
+
+  - id: stap-1-methode-keuze
+    titel: "Stap 1 — Welke methode bij welk controle-niveau?"
+    niveau: 2
+    beats:
+      - "De keuze is niet vrij — ze volgt het controle-niveau (gelinkt aan [[wie-moet-consolideren]] stap 1)"
+      - "Verwijs kort naar de drie methodes en hun gevolg op de geconsolideerde balans"
+      - "Maak de IFRS-disclaimer: IFRS 11 verbiedt evenredige consolidatie voor JV's"
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: methode_keuze
+        bron: voorbeeldgroep
+
+  # ---------- STAP 2: eerste-consolidatie ----------
+
+  - id: stap-2-eerste-consolidatie
+    titel: "Stap 2 — Aurelia koopt Bellator (eerste consolidatie)"
+    niveau: 2
+    beats:
+      - "Open met de transactie: Aurelia betaalt 6,0 mln voor 80% van Bellator"
+      - "Toon Bellator's boekwaarde vs reële waarde — gebruik bellator-boekwaarde tabel"
+      - "Reken goodwill expliciet: 6,0 betaald − (80% × 5,5 reële NEV) = 1,6 mln"
+      - "Toon de eerste-consolidatie boeking (T-rekening)"
+      - "Reflectie: dit is dé zwaarste verrichting — daarna volgen alleen courante eliminaties"
+    kinderen:
+
+      - id: aurelia-koopt-bellator-cijfers
+        titel: "Aurelia koopt Bellator — de cijfers"
+        niveau: 3
+        beats:
+          - "Stel de overname-situatie op met cijfers (6,0 prijs, 80% aandelen)"
+          - "Introduceer reële-waarde-herwaardering: gebouwen +1,0, klantenrelaties +0,5 (niet eerder geboekt)"
+          - "Toon de boekwaarde-vs-reële-waarde tabel"
+          - "Reken goodwill na de tabel: 6,0 − 80% × 5,5 = 1,6 mln"
+        visualisaties:
+          - type: mock-mutatie-tabel
+            ref: bellator-boekwaarde
+            bron: voorbeeldgroep
+
+      - id: boekingsschema-eerste-consolidatie
+        titel: "Boekingsschema (vereenvoudigd)"
+        niveau: 3
+        beats:
+          - "Intro: de moeder vervangt op geconsolideerd niveau haar deelneming door de onderliggende activa en passiva"
+          - "Toon de T-rekening boeking 'eerste-consolidatie'"
+          - "Afsluiter: 'Geen wonder dat dit de zwaarste verrichting is. Daarna volgen de courante eliminaties.'"
+        visualisaties:
+          - type: boeking
+            ref: eerste-consolidatie
+            bron: voorbeeldgroep
+
+  # ---------- STAP 3: eliminaties ----------
+
+  - id: stap-3-eliminaties
+    titel: "Stap 3 — Eliminaties"
+    niveau: 2
+    beats:
+      - "Intuïtie: na de eerste consolidatie moeten alle intra-groep stromen nog weg"
+      - "Een interne verkoop is voor de groep géén verkoop — alleen een goederenverschuiving binnen dezelfde economische eenheid"
+      - "Aankondiging: we tonen eerst de twee individuele balansen (en Aurelia's resultatenrekening), dan de drie families van eliminaties"
+    kinderen:
+
+      - id: balans-a-aurelia
+        titel: "Balans A — Aurelia NV op 31-12-2026 (vereenvoudigd schema KB-WVV)"
+        niveau: 3
+        beats:
+          - "Intro-noot (blockquote): hieronder zie je de twee balansen in praktijk-formaat met KB-WVV rubricering; ★ markeert intra-groep posten"
+          - "Toon balans A in side-by-side activa+passiva-format (.balans-twee-koloms)"
+        visualisaties:
+          - type: balans-paar
+            ref: aurelia-individueel
+            bron: voorbeeldgroep
+
+      - id: resultatenrekening-a-aurelia
+        titel: "Resultatenrekening A — Aurelia NV boekjaar 2026 (vereenvoudigd)"
+        niveau: 3
+        beats:
+          - "Toon de staffel-vorm resultatenrekening, gestopt bij Bedrijfsresultaat"
+          - "Korte blockquote-noot: 0,5 mln winstmarge zit verstopt in bedrijfsresultaat — wat dat betekent voor consolidatie zien we in familie (c)"
+        visualisaties:
+          - type: resultatenrekening
+            ref: aurelia-individueel
+            bron: voorbeeldgroep
+
+      - id: balans-b-bellator
+        titel: "Balans B — Bellator BVBA op 31-12-2026 (na reële-waarde-herwaardering bij eerste consolidatie)"
+        niveau: 3
+        beats:
+          - "Toon balans B in side-by-side format; EV-uitsplitsing in aandeel moeder + belang van derden"
+        visualisaties:
+          - type: balans-paar
+            ref: bellator-na-herwaardering
+            bron: voorbeeldgroep
+
+      - id: drie-families-intro
+        titel: "Drie families — waar ze landen + wat schort zonder eliminatie"
+        niveau: 3
+        beats: []  # alleen intro-heading; geen beats; subsecties dragen de inhoud
+        kinderen:
+
+          # ---------- FAMILIE (a) ----------
+
+          - id: familie-a
+            titel: "(a) Deelneming in moeder ↔ eigen vermogen van dochter"
+            niveau: 4
+            kinderen:
+
+              - id: familie-a-situatie
+                titel: "De situatie — wat staat er in beide balansen?"
+                niveau: 5
+                beats:
+                  - "Intuïtie eerst: wat IS een deelneming-lijn op een balans? Een samenvatting van 'we bezitten aandelen in X', zonder ontleding van wat eronder schuilt"
+                  - "Contrast: bij de dochter staat datzelfde vermogen wél ontleed (gebouw per gebouw, voorraad per voorraad)"
+                  - "Toon de tabel 'twee blikken op de Aurelia-Bellator-band' met perspectief van moeder vs dochter"
+                  - "Tabel rijen: 'In Aurelia's balans' (6,0 deelneming) vs 'In Bellator's balans' (5,5 EV totaal, 4,4 aandeel moeder, 1,1 belang van derden)"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["", "Wat staat er?", "Bedrag"]
+                    rijen:
+                      - ["**In Aurelia's balans**", "Eén lijn *'Deelneming Bellator BVBA (80 %)'* onder financiële vaste activa — de prijs die Aurelia op de overnamedatum betaalde voor 80 % van de aandelen", "**6,0 mln**"]
+                      - ["**In Bellator's balans**", "Eigen vermogen (na reële-waarde-herwaardering) — totaal", "**5,5 mln**"]
+                      - ["", "*aandeel moeder = 80 % × 5,5*", "*4,4 mln*"]
+                      - ["", "*belang van derden = 20 % × 5,5*", "*1,1 mln*"]
+
+              - id: familie-a-goodwill-aside
+                type: blockquote-aside
+                niveau: null
+                intro: "**Waarom 6,0 versus 4,4? — goodwill.**"
+                beats:
+                  - "Aurelia betaalde 6,0 mln voor wat boekhoudkundig 4,4 mln waard was"
+                  - "Verschil van 1,6 mln = goodwill (geen fout)"
+                  - "Premie voor merknaam, klantenbestand, synergie — alles wat waarde heeft maar niet apart in Bellator's boeken stond"
+                  - "Afsluitende geruststelling: normaal patroon bij overnames, bijna elke overname kent zo'n premie"
+
+              - id: familie-a-probleem
+                titel: "Het probleem — hetzelfde vermogen telt dubbel"
+                niveau: 5
+                beats:
+                  - "Concretiseer: stel je telt de twee balansen gewoon op zonder eliminatie — wat krijg je?"
+                  - "Reken: Aurelia 30,0 + Bellator 7,5 = 37,5 mln activa"
+                  - "Splits dat 37,5: 6,0 deelneming (samenvatting) + 7,5 onderliggende activa van Bellator (ontleed) — beide voorstellingen van HETZELFDE economische vermogen"
+                  - "Conclusie: extern lezer zou de groep 6 mln 'groter' inschatten — geconsolideerd moet kiezen tussen de twee voorstellingen, niet beide"
+
+              - id: familie-a-oplossing
+                titel: "De oplossing — vier boekingen tegelijk"
+                niveau: 5
+                beats:
+                  - "Intro: bij eerste-consolidatie wordt samenvatting opgegeven ten gunste van ontlede voorstelling"
+                  - "Toon de 4-stappen tabel (schrap deelneming, schrap EV moeder, boek goodwill, boek belang van derden)"
+                  - "Toon de T-rekening boeking 'eliminatie-deelneming-ev'"
+                  - "Reflectie (blockquote): Bellator's activa komen ongewijzigd binnen; deelneming-lijn opgesplitst in goodwill + belang van derden; samenvattingen vervangen door ontlede waarheid"
+                  - "Backloop-cohesie: vermeld expliciet dat dit boekhoudkundig al uitgewerkt is in Stap 2 (Aurelia koopt Bellator). Familie (a) is geen nieuwe verrichting — ze is de courante variant van de eerste-consolidatie-eliminatie"
+                  - "Afsluiter: de diepere les — een deelneming-lijn is een samenvatting van vermogen elders; consolidatie toont het 'in volle uitstal'"
+                  - "Verwijzing naar de mock geconsolideerde balans verderop voor het netto-effect"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["Stap", "Wat", "Mutatie"]
+                    rijen:
+                      - ["1", "Schrap aan Aurelia's kant *'Deelneming Bellator'*", "activa **−6,0**"]
+                      - ["2", "Schrap aan Bellator's kant het EV-deel van de moeder (80 % × 5,5)", "passiva **−4,4**"]
+                      - ["3", "Boek het verschil als **goodwill** (immaterieel vast actief)", "activa **+1,6**"]
+                      - ["4", "Boek het EV-deel van de minderheidsaandeelhouders apart als **belang van derden** (passiva-rubriek)", "passiva **+1,1**"]
+                  - type: boeking
+                    ref: eliminatie-deelneming-ev
+                    bron: voorbeeldgroep
+
+          # ---------- FAMILIE (b) ----------
+
+          - id: familie-b
+            titel: "(b) Vorderingen ↔ schulden tussen Aurelia en Bellator"
+            niveau: 4
+            kinderen:
+
+              - id: familie-b-situatie
+                titel: "De situatie — wat staat er in beide balansen?"
+                niveau: 5
+                beats:
+                  - "Concrete context: Aurelia leverde diensten/goederen aan Bellator die op balansdatum nog niet betaald zijn"
+                  - "Aurelia heeft een vordering, Bellator een spiegelbeeldige schuld"
+                  - "Toon de tabel: 1,0 mln aan beide kanten"
+                  - "Voor elke vennootschap apart kloppen die regels — niets bijzonders"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["", "Wat staat er?", "Bedrag"]
+                    rijen:
+                      - ["**In Aurelia's balans**", "'★ Vordering op Bellator' onder vorderingen op ten hoogste één jaar (activa-zijde)", "**1,0 mln**"]
+                      - ["**In Bellator's balans**", "'★ Schuld aan Aurelia' onder schulden op ten hoogste één jaar (passiva-zijde)", "**1,0 mln**"]
+
+              - id: familie-b-probleem
+                titel: "Het probleem — geen externe vordering"
+                niveau: 5
+                beats:
+                  - "Voor de groep als geheel bestaat die vordering niet — interne overschrijving binnen dezelfde economische eenheid"
+                  - "Concretiseer: 30 + 7,5 = 37,5 totaal — daarin zit aan beide kanten dezelfde 1,0 (vordering links, schuld rechts)"
+                  - "Conclusie: balanstotaal kunstmatig opgeblazen met 1,0 mln; externe lezers zouden groep zwaarder schatten"
+
+              - id: familie-b-oplossing
+                titel: "De oplossing — één-rij eliminatie"
+                niveau: 5
+                beats:
+                  - "Twee mutaties: schrap vordering bij Aurelia, schrap schuld bij Bellator"
+                  - "Toon de 2-stappen tabel + T-rekening boeking 'eliminatie-vord-schuld'"
+                  - "Synthese: balanstotaal terug op niveau; enkel externe vorderingen en schulden blijven"
+                  - "Reflectie (blockquote): mechanisch eenvoudig, kwantitatief niet triviaal. Groepen met centrale treasury kunnen tientallen miljoenen fictief balanstotaal dragen"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["Stap", "Wat", "Mutatie"]
+                    rijen:
+                      - ["1", "Schrap aan Aurelia's kant 'Vordering op Bellator'", "activa **−1,0**"]
+                      - ["2", "Schrap aan Bellator's kant 'Schuld aan Aurelia'", "passiva **−1,0**"]
+                  - type: boeking
+                    ref: eliminatie-vord-schuld
+                    bron: voorbeeldgroep
+
+          # ---------- FAMILIE (c) ----------
+
+          - id: familie-c
+            titel: "(c) Intra-groep verkoop + nog-niet-gerealiseerde marge in voorraad"
+            niveau: 4
+            kinderen:
+
+              - id: familie-c-situatie
+                titel: "De situatie — wat is er gebeurd?"
+                niveau: 5
+                beats:
+                  - "Concrete context: Aurelia verkocht handelsgoederen aan Bellator voor 2,5 mln; kostprijs 2,0 mln; marge 0,5 mln"
+                  - "Op balansdatum: Bellator heeft de goederen nog niet doorverkocht aan een externe klant"
+                  - "Toon de tabel met drie regels: Aurelia's omzet (2,5), Aurelia's kost (2,0), Bellator's voorraad (2,5)"
+                  - "Belangrijke nuance: Aurelia's winstmarge zit in haar bedrijfsresultaat van 1,8 mln (verstopt, niet als aparte regel)"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["", "Wat staat er?", "Bedrag"]
+                    rijen:
+                      - ["**In Aurelia's resultatenrekening**", "'★ Omzet aan Bellator' — verstopt in de totale omzet van 38,0", "**2,5 mln**"]
+                      - ["**In Aurelia's resultatenrekening**", "'★ Kostprijs voor de Bellator-verkoop' — verstopt in de aankopen van 28,0", "**2,0 mln**"]
+                      - ["**In Bellator's balans**", "'★ Voorraad gekocht van Aurelia' — geboekt op de aankoopprijs die Bellator betaalde", "**2,5 mln**"]
+
+              - id: familie-c-probleem
+                titel: "Het probleem — niets is écht gebeurd voor de groep"
+                niveau: 5
+                beats:
+                  - "Voor de groep: interne goederenverschuiving, geen externe transactie"
+                  - "Twee zaken om te corrigeren — som ze als genummerde lijst op"
+                  - "1. Geen externe omzet: 2,5 omzet + 2,5 aankoopkost zijn intern — geen externe klant heeft een euro betaald"
+                  - "2. Geen gerealiseerde winst: de 0,5 marge blijft opgesloten in voorraad zolang Bellator niet doorverkoopt; voor de groep is dat geen winst maar belofte"
+                  - "Voorraad-implicatie: Bellator's voorraad (geboekt aan 2,5) moet voor de groep aan groepskostprijs 2,0 staan"
+
+              - id: familie-c-oplossing
+                titel: "De oplossing — drie mutaties tegelijk"
+                niveau: 5
+                beats:
+                  - "Toon 4-stappen tabel: schrap omzet, schrap kost, waardeer voorraad af, verlaag EV"
+                  - "Toon T-rekening boeking 'eliminatie-intra-omzet-marge'"
+                  - "Effect samenvatten: −0,5 op bedrijfsresultaat; voorraad −0,5; EV −0,5; balans + resultatenrekening blijven sluitend"
+                visualisaties:
+                  - type: tabel-inline
+                    kolommen: ["Stap", "Wat", "Mutatie"]
+                    rijen:
+                      - ["1", "Schrap de intra-groep omzet bij Aurelia", "omzet **−2,5**"]
+                      - ["2", "Schrap de bijhorende kost bij Aurelia", "kost **−2,0**"]
+                      - ["3", "Waardeer Bellator's voorraad af naar groepskostprijs", "voorraad **−0,5**"]
+                      - ["4", "Verlaag het groepsresultaat met de niet-gerealiseerde marge", "EV (geconsolideerd resultaat) **−0,5**"]
+                  - type: boeking
+                    ref: eliminatie-intra-omzet-marge
+                    bron: voorbeeldgroep
+
+              - id: familie-c-valkuil
+                titel: "Examen-favoriete valkuil"
+                niveau: 5
+                beats:
+                  - "Stagiairs schrappen vaak alleen omzet/kost (stap 1+2) en vergeten de marge-afwaardering (stap 3+4)"
+                  - "Saldo-effect op bedrijfsresultaat lijkt netjes nul (−2,5 + 2,0 = −0,5) — maar zonder voorraad-afwaardering klopt balans niet"
+                  - "Resultaat: groepswinst 0,5 te hoog + balanstotaal 0,5 te hoog"
+                  - "Bij grote groepen met veel intra-stromen lopen die fouten snel op — vandaar examen-favoriet"
+
+      # ---------- MOCK GECONSOLIDEERDE BALANS ----------
+
+      - id: mock-geconsolideerde-balans
+        titel: "Mock geconsolideerde balans Aurelia (sterk vereenvoudigd)"
+        niveau: 3
+        beats:
+          - "Synthese-tabel: kolommen indiv Aurelia · indiv Bellator · eliminaties+herw · geconsolideerd"
+          - "Toon zowel activa- als passiva-zijde, met sub-totalen"
+          - "Korte toelichting over EV-mutaties (waar 17,5 vandaan komt)"
+        visualisaties:
+          - type: mock-mutatie-tabel
+            ref: aurelia-na-eliminaties
+            bron: voorbeeldgroep
+
+  # ---------- ANDERE METHODES ----------
+
+  - id: andere-twee-methodes
+    titel: "En de andere twee methodes? Zelfde principe, andere techniek"
+    niveau: 2
+    beats:
+      - "Open met de gemeenschappelijke gedachte: 'door de deelneming heen kijken'"
+      - "Twee compacte cases volgen: evenredig (Concordia, 50%) en VMM (Dynamica, 30%)"
+    kinderen:
+
+      - id: evenredige-concordia
+        titel: "Evenredige consolidatie — Aurelia's joint venture Concordia"
+        niveau: 3
+        beats:
+          - "Stel de Concordia-case op: 50% gezamenlijke controle, deelneming 2,5 mln boekwaarde"
+          - "Cijfers: Concordia 8,0 activa / 3,0 schulden / 5,0 NEV"
+          - "Toon de mutatie-tabel: 50% per balanslijn opnemen, deelneming verdwijnt"
+          - "Sleutelpunten in blockquote: geen minderheidsbelang, en IFRS 11-verbod"
+        visualisaties:
+          - type: mock-mutatie-tabel
+            ref: concordia-evenredig
+            bron: voorbeeldgroep
+
+      - id: vmm-dynamica
+        titel: "Vermogensmutatiemethode — Aurelia's associate Dynamica"
+        niveau: 3
+        beats:
+          - "Stel de Dynamica-case op: 30% notabele invloed, deelneming 2,5 mln boekwaarde, Dynamica NEV 10,0 + resultaat 1,0"
+          - "Reken aandeel Aurelia = 30% × 11,0 = 3,3"
+          - "Toon de mutatie-tabel: deelneming herwaardeerd naar 3,3, +0,8 in geconsolideerde reserves"
+          - "Aparte regel voor aandeel in resultaat in resultatenrekening (0,3 mln)"
+          - "Sleutelpunten in blockquote: one-line consolidation, geen integratie van activa"
+        visualisaties:
+          - type: mock-mutatie-tabel
+            ref: dynamica-vmm
+            bron: voorbeeldgroep
+
+      - id: methode-keuze-samengevat
+        titel: "Methode-keuze samengevat"
+        niveau: 3
+        beats:
+          - "Compact overzicht via tabel: methode · effect op balans · belang van derden"
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: methode_keuze
+            bron: voorbeeldgroep
+
+  # ---------- VALKUILEN ----------
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    type_blokken: warning-bullets
+    beats:
+      - "Valkuil 1 (⚠️): IFRS 11 verbiedt evenredige consolidatie — JV's gaan onder IFRS verplicht via VMM"
+      - "Valkuil 2 (⚠️): herwaarderingsmeerwaarden bij eerste consolidatie vergeten — gebouwen + immateriële klantenrelaties die niet in statutaire JR staan moeten geboekt"
+      - "Valkuil 3 (⚠️): intra-marge in voorraad vergeten (= examenvalkuil van familie c). Verwijzing terug naar die sectie."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: goodwill-bij-consolidatie
+      hint: "Wat gebeurt er met goodwill na de eerste consolidatie? Afschrijving, impairment."
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Welke documenten levert de groep op en hoe wordt het gecontroleerd?"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [consolidatiemethoden, integrale-consolidatie, evenredige-consolidatie, vermogensmutatiemethode]
+    - concepten: [eerste-consolidatie, consolidatieverschil, uniforme-waarderingsregels-consolidatie]
+    - concepten: [eliminatie-intercompany, minderheidsbelangen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+
+  - rubriek: "Drie consolidatiemethodes (B-GAAP) — alle in KB-WVV Hoofdstuk Geconsolideerde jaarrekening, Afdeling Consolidatiemethoden"
+    sub_refs:
+      - "Integrale consolidatie: KB-WVV art. 3:126 e.v. (Onderafdeling 2). Eerste-consolidatie, reële-waarde-herwaardering, consolidatieverschil en weglatingen binnen art. 3:127 t.e.m. 3:132."
+      - "Evenredige consolidatie: KB-WVV art. 3:140 — verwijst grotendeels terug naar de integrale-bepalingen (art. 3:127, a) + 3:128 t.e.m. 3:133, 3:134, 3:136, 3:138, 3:139)."
+      - "Vermogensmutatiemethode: KB-WVV art. 3:142 t.e.m. 3:146."
+
+  - onderwerp: "Uniforme waarderingsregels (consolidatie ↔ enkelvoudige van moeder)"
+    ref: "KB-WVV art. 3:116"
+    noot: "Art. 3:117 regelt iets anders, namelijk consistentie van waarderingsregels van het ene boekjaar op het andere."
+
+  - onderwerp: "Eliminatie intra-groep stromen"
+    ref: "KB-WVV art. 3:127, a) (deelneming + EV-component) · art. 3:134 (onderlinge vorderingen, schulden, opbrengsten, kosten) · art. 3:136 (dividenden)"
+
+  - onderwerp: "Aandeel van derden (minderheidsbelang in resultatenrekening)"
+    ref: "KB-WVV art. 3:137"
+
+  - onderwerp: "VMM eliminaties + aandeel resultaat"
+    ref: "KB-WVV art. 3:145 § 1 (aandeel in resultaat) · art. 3:145 § 2 (verrekeningen tussen consoliderende vennootschap en VMM-vennootschappen)"
+
+  - onderwerp: "IFRS-pad"
+    ref: "IFRS 10 (integrale consolidatie + control-test) · IFRS 3 (bedrijfscombinaties + goodwill-meting) · IFRS 11 (joint arrangements: VMM voor JVs, géén evenredige) · IAS 28 (associates via VMM)"
+
+  - onderwerp: "CBN-context"
+    ref: "CBN-advies 2022/11 (vermogensmutatiemethode — bevat de doorgewerkte JR-voorbeelden)"
+
+footer: "Leerstuk PO 1.4. Status: voorgesteld — POC voor ADR-037."

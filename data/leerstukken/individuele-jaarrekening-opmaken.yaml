@@ -1,0 +1,176 @@
+# Leerstuk-script — individuele (enkelvoudige) jaarrekening opmaken
+#
+# Hoofdvraag: hoe maakt een Belgische vennootschap haar enkelvoudige
+# jaarrekening op? Dekt het ENKELVOUDIGE deel van PO 1.4 — 6 van de 7
+# officiële doelstellingen (eindejaarsverrichtingen, resultaatbestemming,
+# proefbalans, sociale balans, waarderingsregels op enkelvoudig niveau,
+# schema-keuze).
+#
+# Status: nieuw (markdown nog niet geschreven). Gebruikt Aurelia's
+# individuele balans + resultatenrekening (uit aurelia.yaml) als
+# doorgewerkt voorbeeld.
+
+meta:
+  slug: individuele-jaarrekening-opmaken
+  titel: "Individuele jaarrekening opmaken"
+  po: "1.4"
+  cluster: enkelvoudige-jaarrekening
+  voorbeeldgroep: aurelia
+  beschrijving: >
+    Leerstuk PO 1.4 — het enkelvoudige deel: hoe maakt een vennootschap
+    haar individuele jaarrekening op? Eindejaarsverrichtingen, resultaat-
+    bestemming, proefbalans, sociale balans, schema-keuze, termijnen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld expliciet: dit leerstuk dekt het
+    ENKELVOUDIGE deel van PO 1.4 — zes van de zeven officiële
+    doelstellingen. Voor consolidatie zie [[wat-is-een-geconsolideerde-jaarrekening]]
+    e.v.
+
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Een jaarrekening wordt opgemaakt op basis van een proefbalans, gecorrigeerd via eindejaarsverrichtingen"
+    - "Vier hoofdtaken: eindejaarsverrichtingen (waarderingsregels toepassen), proefbalans opmaken, schema-keuze (volledig/verkort/micro), winstbestemming voorbereiden"
+    - "Plus een aantal aanvullende onderdelen: sociale balans (verplicht voor grote venn), toelichting, jaarverslag"
+    - "Termijnen: opmaak 6 maanden, AV-goedkeuring + neerlegging NBB binnen 7 maanden"
+
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: eindejaarsverrichtingen
+    titel: "Eindejaarsverrichtingen — de hartoperatie"
+    niveau: 2
+    beats:
+      - "Definitie: aanpassingen op de boekhouding aan het einde van het boekjaar om het juiste beeld te geven"
+      - "Doel: matching-principe (kosten en opbrengsten in de juiste periode), voorzichtigheidsbeginsel"
+      - "Toon de zes families van eindejaarsverrichtingen — examen-stof"
+      - "Per familie: korte uitleg + Aurelia-voorbeeld waar mogelijk"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Familie", "Wat doe je?", "Voorbeeld bij Aurelia"]
+        rijen:
+          - ["Afschrijvingen", "Verminder boekwaarde vaste activa volgens afschrijvingsplan", "Gebouwen 12 mln, lineair 30 jaar → 0,4 mln afschrijving"]
+          - ["Voorraadwaardering", "Inventaris + waarderen aan kostprijs of marktwaarde (laagste)", "Voorraad 5,0 mln — handelsgoederen aan FIFO"]
+          - ["Overlopende rekeningen", "Verkopen vóór levering, kosten ná boekjaar: schuiven naar juiste periode", "Vooraf betaalde verzekering: 0,1 mln overlopend actief"]
+          - ["Voorzieningen", "Voor toekomstige uitgaven (risico's, geschillen, herstructurering)", "Voorziening voor garantieverplichtingen: 0,3 mln"]
+          - ["Waardeverminderingen", "Op vorderingen die mogelijk niet inbaar zijn", "Dubieuze debiteuren: 0,15 mln waardevermindering"]
+          - ["Wisselkoers-aanpassingen", "Activa/passiva in vreemde valuta op slotkoers", "Niet van toepassing bij Aurelia (alleen EUR)"]
+
+  - id: proefbalans
+    titel: "De proefbalans"
+    niveau: 2
+    beats:
+      - "Definitie: overzicht per rekening (klassen 1-9) met debet- en creditbedragen + saldo, na alle boekingen incl. eindejaarsverrichtingen"
+      - "Doel: controle dat boekhouding intern consistent is (Σ debet = Σ credit)"
+      - "Onderscheid: voorafgaande proefbalans (vóór eindejaarsverrichtingen) en saldibalans (na eindejaarsverrichtingen)"
+      - "Examen-relevant: kunnen aanduiden welke posten naar balans en welke naar resultatenrekening gaan"
+      - "Aurelia-voorbeeld: hoe komt de proefbalans tot de balans + resultatenrekening die we al kennen?"
+
+  - id: schema-keuze
+    titel: "Volledig, verkort of micro?"
+    niveau: 2
+    beats:
+      - "Drie schema's voorzien door WVV + KB-WVV: volledig, verkort, micro"
+      - "Schema-keuze hangt af van groottecategorie (art. 1:24-1:25 WVV)"
+      - "Drempels: zie [[tarieven/drempels-kleine-vennootschap]] en [[tarieven/drempels-microvennootschap]]"
+      - "Toon de schema-vergelijkings-tabel"
+      - "Belangrijke nuance: schema-keuze beïnvloedt publicatieplicht (volledig = meer disclosure) maar NIET de boekhoudplicht zelf"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Schema", "Voor wie?", "Inhoud"]
+        rijen:
+          - ["**Volledig**", "Grote vennootschap (niet klein)", "Volledige balans + resrek + toelichting + jaarverslag + sociale balans + commissarisverslag"]
+          - ["**Verkort**", "Kleine vennootschap (art. 1:24 WVV)", "Verkorte balans + resrek + verkorte toelichting; sociale balans alleen voor NV/BV/CV; geen verplicht jaarverslag"]
+          - ["**Micro**", "Microvennootschap (art. 1:25 WVV)", "Micro-balans + micro-resrek + zeer beperkte toelichting; geen sociale balans; geen jaarverslag"]
+
+  - id: resultaatbestemming
+    titel: "Wat met de winst? Resultaatbestemming"
+    niveau: 2
+    beats:
+      - "Volgorde van bestemming (WVV art. 3:1 KB en VenW-specifiek)"
+      - "1. Onttrekking aan kapitaal (zeldzaam) → 2. Toevoegingen aan wettelijke reserve (5% van resultaat tot 10% van kapitaal) → 3. Toevoegingen aan andere reserves → 4. Dividenden → 5. Tantièmes → 6. Overdracht naar volgend boekjaar"
+      - "Beslissing wordt genomen door Algemene Vergadering — bestuursorgaan stelt voor"
+      - "Aurelia-voorbeeld: 1,3 mln resultaat → 0,1 wettelijke reserve + 0,8 dividend + 0,4 overgedragen winst (illustratief)"
+      - "Belangrijke nuance: kapitaalloze vennootschappen (BV/CV sinds WVV 2019) hebben DUBBELE uitkeringstest (netto-actief + liquiditeit, art. 5:142-5:143)"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Wat?", "Aurelia (illustratie)"]
+        rijen:
+          - ["1. Verlies aanzuiveren (indien)", "Onttrekking aan reserves om verlies te dekken", "Niet van toepassing (winst)"]
+          - ["2. Wettelijke reserve", "5% van resultaat tot 10% van kapitaal (NV) of niet vereist (BV/CV)", "5% × 1,3 = 0,065 ≈ 0,1 mln"]
+          - ["3. Andere reserves", "Statutair of facultatief", "0,0 mln (voorbeeld)"]
+          - ["4. Dividenden", "Voorgesteld door bestuursorgaan, beslist door AV", "0,8 mln"]
+          - ["5. Overdracht naar volgend boekjaar", "Rest naar 'Overgedragen winst'", "0,4 mln"]
+
+  - id: sociale-balans
+    titel: "Sociale balans"
+    niveau: 2
+    beats:
+      - "Wettelijke basis: Wet 22 december 1995 + KB 4 augustus 1996 (oudere refs ook in WVV)"
+      - "Integrerend onderdeel van de jaarrekening voor grote vennootschappen (verplicht NBB-publicatie)"
+      - "Inhoud: staat tewerkgestelde personen + maatregelen + opleiding"
+      - "Personeelsbestand: werknemers ingeschreven in DIMONA + ter beschikking gestelde personen"
+      - "Belangrijke nuance: statutaire werknemers in principe NIET (CBN-advies 2009/12), tenzij ingeschreven in personeelsregister"
+      - "Vrijstelling NBB-bezorging: VOF/GCV/CVOHA in bepaalde gevallen"
+      - "Examen-val: confusie tussen 'sociale balans van de jaarrekening' en 'jaarverslag' — twee aparte documenten"
+
+  - id: termijnen-publicatie
+    titel: "Termijnen en publicatie bij NBB"
+    niveau: 2
+    beats:
+      - "Opmaak door bestuursorgaan + voorlegging AV: binnen 6 maanden na balansdatum (WVV art. 3:1 § 1)"
+      - "Neerlegging bij NBB: binnen 30 dagen na goedkeuring AV en uiterlijk 7 maanden na balansdatum (WVV art. 3:10)"
+      - "Niet-naleving termijnen: risico gerechtelijke ontbinding (WVV art. 2:70) + hoofdsanctie via WIB art. 444 (laattijdige aangifte). WIB art. 218 raakt voorafbetalingen, niet neerlegging zelf"
+      - "Sinds 2022: enkel digitale neerlegging (XBRL via NBB-applicatie)"
+
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-een-geconsolideerde-jaarrekening
+      hint: "Voor het consolidatie-deel van PO 1.4"
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Voor de commissariscontrole — geldt ook voor enkelvoudige JR mits verplichting"
+  themafiches:
+    - slug: boekhouding   # nog te maken; PO 1.1 + 1.2
+      hint: "Voor herhaling van eindejaarsverrichtingen vlak vóór het examen"
+  concepten:
+    - jaarrekening
+    - vennootschap-groottecategorieen
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [jaarrekening, vennootschap-groottecategorieen]
+    - concepten: [bedrijfsopbrengsten, personeelskosten]
+
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting tot opmaak jaarrekening + verantwoordelijkheid bestuursorgaan"
+    ref: "WVV art. 3:1"
+  - onderwerp: "Schema-keuze + drempels groottecategorieën"
+    ref: "WVV art. 1:24 (klein) · art. 1:25 (micro)"
+    noot: "Exacte bedragen: Cijferzakboekje — verhoogd door Wet 28 maart 2024"
+  - onderwerp: "Waarderingsregels enkelvoudig"
+    ref: "KB-WVV art. 3:1 e.v."
+  - onderwerp: "Resultaatbestemming + dubbele uitkeringstest BV/CV"
+    ref: "WVV art. 5:141-5:144 (BV) · art. 6:114-6:117 (CV) · art. 7:212-7:214 (NV)"
+  - onderwerp: "Sociale balans"
+    ref: "Wet 22 december 1995 + KB 4 augustus 1996"
+    noot: "Integrerend deel jaarrekening; CBN-advies S100 + 2009/12 voor scope-vragen"
+  - onderwerp: "Termijn opmaak + AV-voorlegging (6 maanden)"
+    ref: "WVV art. 3:1 § 1"
+  - onderwerp: "Termijn NBB-neerlegging (30 dagen + max 7 maanden)"
+    ref: "WVV art. 3:10"
+    noot: "Eerder vermeld als 'KB-WVV art. 3:31' — fout. Dat artikel betreft de geconsolideerde JR, niet de enkelvoudige."
+  - onderwerp: "Sanctie bij niet-naleving termijnen"
+    ref: "WVV art. 2:70 (gerechtelijke ontbinding) · WIB art. 444 (hoofdsanctie laattijdige aangifte)"
+    noot: "Eerder vermeld als 'WVV art. 2:74' (ambtshalve ontbinding) — fout. WIB art. 218 raakt voorafbetalingen, niet neerlegging zelf."
+
+footer: "Leerstuk PO 1.4. Status: nieuw — script-eerst, markdown nog te schrijven."

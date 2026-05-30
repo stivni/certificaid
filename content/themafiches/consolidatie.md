@@ -144,33 +144,29 @@ PO 1.4 — *Geconsolideerde jaarrekening* — heeft **één taak** met 7 doelste
 
 <div class="no-print">
 
-## 7. Concept-index — verdieping per record
+## 7. Verdieping
 
-> Klik door voor de volledige fiche met bronnen, voorbeelden, valkuilen en *accountant_perspectieven* (waar de concrete acties per rol leven).
+### Leerstukken — voor pedagogische opfris
 
-**Kaders & plicht**
-- [[geconsolideerde-jaarrekening]] — het overkoepelende concept (B-GAAP + IFRS)
-- [[consolidatieverplichting]] — wanneer is consolideren wettelijk verplicht?
-- [[consolidatiekring]] — welke vennootschappen zitten erin?
-- [[controle-bij-consolidatie]] — de juridische controle-test (exclusief / gezamenlijk / invloed)
+Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
 
-**Methodes**
-- [[consolidatiemethoden]] — overzicht van de drie technieken
-- [[integrale-consolidatie]] — 100% opname, voor dochters
-- [[evenredige-consolidatie]] — pro rata, voor joint ventures (B-GAAP)
-- [[vermogensmutatiemethode]] — 1 balanslijn, voor geassocieerde deelnemingen + JV onder IFRS
+- [[wat-is-een-geconsolideerde-jaarrekening]] — wat het document is, voor wie, vier onderdelen, B-GAAP versus IFRS
+- [[wie-moet-consolideren]] — controle (3 niveaus), kring (verticaal/consortium), drempels, vrijstellingen, kring-wijzigingen
+- [[hoe-consolideren]] — vier stappen + drie methodes + eerste consolidatie + drie families eliminaties
+- [[goodwill-bij-consolidatie]] — berekening, afschrijving (B-GAAP) versus impairment (IFRS), badwill
+- [[rapportering-en-controle-geconsolideerde-jaarrekening]] — opmaak-proces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB
 
-**Specifieke begrippen & verrichtingen**
-- [[eerste-consolidatie]] — eerste opname van een dochter
-- [[consolidatieverschil]] — goodwill en badwill
-- [[minderheidsbelangen]] — belangen van derden
-- [[eliminatie-intercompany]] — intra-groep-transacties wegwerken
-- [[uniforme-waarderingsregels-consolidatie]] — alle entiteiten op één leest
-- [[wijziging-consolidatiekring]] — dochter erbij / eruit
+### Concept-fiches — voor definitorisch detail
 
-**Opmaak & rapportering**
-- [[opmaak-geconsolideerde-jaarrekening]] — proces van consolidatie
-- [[geconsolideerd-jaarverslag]] — het narratieve rapport bij de cijfers
+Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
+
+**Kaders & plicht** — [[geconsolideerde-jaarrekening]] · [[consolidatieverplichting]] · [[consolidatiekring]] · [[controle-bij-consolidatie]]
+
+**Methodes** — [[consolidatiemethoden]] · [[integrale-consolidatie]] · [[evenredige-consolidatie]] · [[vermogensmutatiemethode]]
+
+**Specifieke begrippen & verrichtingen** — [[eerste-consolidatie]] · [[consolidatieverschil]] · [[minderheidsbelangen]] · [[eliminatie-intercompany]] · [[uniforme-waarderingsregels-consolidatie]] · [[wijziging-consolidatiekring]]
+
+**Opmaak & rapportering** — [[opmaak-geconsolideerde-jaarrekening]] · [[geconsolideerd-jaarverslag]]
 
 </div>
 
