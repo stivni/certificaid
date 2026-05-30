@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Certificaid tarief-record (ADR-026 v1.0)",
+  "description": "Schema voor één samenhangende cijfer-tabel uit het Cijferzakboekje, een wettekst of een CBN-advies. Eén record per tabel die didactisch samen gelezen wordt.",
+  "type": "object",
+  "required": ["id", "schema_version", "titel", "categorie", "wetsbasis", "samenvatting", "criteria", "bron", "confidence", "metadata"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "Slug — kebab-case, uniek in heel content/. Prefix zoals 'drempels-', 'tarief-', 'voorafbetaling-', 'indexcoeff-' helpt om niet te botsen met concept-slugs."
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "titel": {
+      "type": "string",
+      "minLength": 3
+    },
+    "categorie": {
+      "type": "string",
+      "enum": [
+        "groottecriteria",
+        "personenbelasting",
+        "vennootschapsbelasting",
+        "voorafbetalingen",
+        "btw",
+        "sociale-zekerheid",
+        "indexcoefficient",
+        "roerende-voorheffing",
+        "registratierechten",
+        "successierechten",
+        "overig"
+      ]
+    },
+    "wetsbasis": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["bron", "artikel"],
+        "additionalProperties": false,
+        "properties": {
+          "bron": {
+            "type": "string",
+            "description": "Bv. 'WVV', 'WIB92', 'WBTW', 'KB-WVV'"
+          },
+          "artikel": {
+            "type": "string",
+            "description": "Bv. '1:26 § 1' of '215'"
+          }
+        }
+      }
+    },
+    "geldigheidsperiode": {
+      "type": "object",
+      "required": ["vanaf_boekjaar"],
+      "additionalProperties": false,
+      "properties": {
+        "vanaf_boekjaar": {
+          "type": "integer",
+          "minimum": 1990
+        },
+        "tot_boekjaar": {
+          "type": ["integer", "null"],
+          "description": "null = nog geldig"
+        },
+        "wijziging_door": {
+          "type": "string",
+          "description": "Bv. 'Wet 28 maart 2024 (omzetting EU-richtlijn 2023/2775)'"
+        }
+      }
+    },
+    "samenvatting": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Eén of twee zinnen — voor zoek-context en MCP-text-match."
+    },
+    "drempel_regel": {
+      "type": "string",
+      "description": "Optioneel — bv. 'Niet meer dan één criterium overschreden, twee opeenvolgende boekjaren-regel.' Alleen relevant voor drempel-tabellen."
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 1,
+      "description": "De cijferinhoud van de tabel — kan tarief-schijven, drempels, percentages of indices bevatten.",
+      "items": {
+        "type": "object",
+        "required": ["naam"],
+        "additionalProperties": false,
+        "properties": {
+          "naam": {"type": "string"},
+          "waarde": {
+            "type": ["number", "string", "null"],
+            "description": "Numeriek wanneer mogelijk; string voor formules of 'meer dan X'."
+          },
+          "eenheid": {
+            "type": "string",
+            "description": "Bv. 'EUR', 'personen', '%', 'EUR/maand', 'index 2013=100'"
+          },
+          "ondergrens": {"type": ["number", "null"]},
+          "bovengrens": {"type": ["number", "null"]},
+          "tarief_pct": {"type": ["number", "null"]},
+          "toelichting": {"type": "string"}
+        }
+      }
+    },
+    "context_tabellen": {
+      "type": "array",
+      "description": "Optioneel — gelinkte tarief-records die didactisch dichtbij staan (bv. drempels kleine venn vs. groep van beperkte omvang).",
+      "items": {"type": "string"}
+    },
+    "bron": {
+      "type": "object",
+      "required": ["primair"],
+      "additionalProperties": false,
+      "properties": {
+        "primair": {
+          "type": "string",
+          "description": "Beschrijvende string van primaire bron. Bv. 'CBN-advies 2024/07 §Verhoging drempelwaarden' of 'Cijferzakboekje 2026 p61'."
+        },
+        "wettekst": {
+          "type": "string",
+          "description": "Wetsbasis als string voor leesbaarheid."
+        },
+        "cijferzakboekje_pagina": {
+          "type": ["integer", "null"],
+          "description": "Pagina-nummer in Cijferzakboekje of null als niet uit PNG-vision afgeleid."
+        },
+        "verified_via": {
+          "type": "string",
+          "description": "Hoe bedragen geverifieerd zijn (RAG-zoek_bronnen, vision-cross-check, manueel)."
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["⚖️", "🤖", "⚠️"],
+      "description": "⚖️ = grounded in primaire bron; 🤖 = inferred/afgeleid; ⚠️ = te verifiëren."
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created_at"],
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {"type": "string"},
+        "updated_at": {"type": "string"},
+        "trusted": {"type": "boolean"},
+        "trusted_at": {"type": "string"},
+        "trusted_by": {"type": "string"},
+        "extract_provenance": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Vrij veld voor extract-subagent provenance (PNG-pagina, bundle, etc.)"
+        }
+      }
+    }
+  }
+}

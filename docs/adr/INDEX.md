@@ -33,7 +33,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-023](ADR-023-gestructureerde-antwoorden-en-vraag-v3.1.md) | Gestructureerde antwoorden (`correct_antwoord_blokken[]`) + vraag-cleanup v3.1 | Draft |
 | [ADR-024](ADR-024-visuele-llm-interpretatie-examenvragen.md) | Visuele LLM-interpretatie van examenvragen via per-vraag artefacten | Accepted |
 | [ADR-025](archive/ADR-025-schema-20-didactische-conceptlaag.md) | Schema 2.0 — didactische concept-laag (rol × perspectief · element-vocabulaire · kader/familie kinds) | Superseded — vervangen door ADR-029 |
-| [ADR-026](ADR-026-tarief-records-vision-extractie.md) | Tarief-records via vision-extractie + MCP-lookup | Draft |
+| [ADR-026](ADR-026-tarief-extractie-pijplijn.md) | Tarief-extractie pijplijn (records-laag + Sonnet-subagent extract + MCP-server `certificaid-tarieven`) | Accepted |
 | [ADR-027](ADR-027-bundle-aware-extract-architectuur.md) | Bundle-aware extract (2-pass) + daemon v2.0 (batching, gating, concurrent index) | Accepted — bundle-prompt verplaatst naar `prompts/operaties/` (zie ADR-029) |
 | [ADR-029](ADR-029-schema-21-operaties-model.md) | Schema 2.1 (v1.5) — didactische conceptlaag + operations-model (`beschrijven`, `claims_checken`, `relaties_aanvullen`, `accountant_perspectief`, `didactisch_verrijken`, `kandidaat_review`, `leespad_aanvullen`) | Draft |
 | [ADR-030](ADR-030-granulariteit-typologie.md) | Granulariteit-typologie voor concept-records — 4 super-categorieën + werkingsregels A-J (incl. Regel J geïntegreerde Regeling: één fenomeen × N dimensies = één record) + bundel-concept-patroon + `#anchor`-relaties. Vervangt 10 `concept_type`-waarden uit ADR-029. | Draft |
@@ -80,9 +80,9 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | **Themafiche** schrijven voor een cluster (kapstok-document voor herhaling) | ADR-036 + [`docs/themafiche-schrijfregels.md`](../themafiche-schrijfregels.md) + mockup [`content/experiment/synthese-consolidatie-v1.md`](../../content/experiment/synthese-consolidatie-v1.md) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |
-| Tarief- of drempel-record schrijven / trusten | ADR-026 — `tools/lib/tarieven_api.py` (`save_record`, `mark_trusted`, `audit_parity`) |
-| Tarief-tabel uit tabel-zware PDF extraheren | ADR-026 §3 — chunker `tools/tarieven/chunk_pdf.py` + extract-prompt `prompts/tarief-extractie-v1.md` + verify-prompt `prompts/tarief-verify-v1.md` |
-| Tarief-records raadplegen vanuit een agent | ADR-026 §5 — MCP-server `certificaid-tarieven` (4 tools: lijst/zoek/lees/query) in `.mcp.json` |
+| Tarief- of drempel-record schrijven / trusten | ADR-026 — `tools/lib/tarieven_api.py` (`save_record`, `mark_trusted`, `audit_parity`, `render_all`) + schema `data/tarieven/schema.json` |
+| Tarief-tabel uit PNG-bron extraheren | ADR-026 §Extract-flow — Sonnet-subagent met directe Read op `data/tarieven/_poc/pages/`; prompts `prompts/tarief-extractie-v1.md` + `prompts/tarief-verify-v1.md`. Chunker uitgesteld tot Cijferzakboekje 2027. |
+| Tarief-records raadplegen vanuit een agent | ADR-026 §MCP-server — `certificaid-tarieven` (4 tools: `lijst_tabellen` · `lees_tabel` · `zoek_tabellen` · `query_tabel`) in `.mcp.json`. Text-match, geen embeddings. |
 
 ## Wanneer een nieuw ADR aanmaken?
 
