@@ -90,9 +90,15 @@ Conform regel 3 (geen Claude API in build-pipeline) gebeurt vision-extractie via
 
 Voor records waarvan de bedragen al volledig RAG-traceerbaar zijn (CBN-advies + wettekst-MvT bevatten exact dezelfde cijfers als het Cijferzakboekje), mag de PNG-stap worden overgeslagen — `cijferzakboekje_pagina` blijft dan `null` en `bron.verified_via` documenteert dat. Dit is de **POC-route voor de drempel-records van art. 1:24/1:25/1:26**.
 
-### Chunker — uitgesteld
+### Chunker
 
-`tools/tarieven/chunk_pdf.py` (PDF → per-pagina PNG splitsing) is in v1 **uitgesteld**. PNG's voor Cijferzakboekje 2026 zijn al manueel beschikbaar in `data/tarieven/_poc/pages/`. Een echte chunker is pas nodig bij Cijferzakboekje 2027 (als die als single PDF binnenkomt). Dat is een 2027-werkpakket.
+`tools/tarieven/chunk_pdf.py` — dunne wrapper rond `pdftoppm` (poppler). Eén commando:
+
+```bash
+python3 -m tools.tarieven.chunk_pdf --default
+```
+
+Chunked Cijferzakboekje 2026 (196 pagina's) naar `data/tarieven/pages/p001.png` … `p196.png`. PDF-bron: `resources/raw/wetteksten/Cijfers-Tarieven-2026.pdf`. TOC-extract via `pypdf` outline geeft per-entry pagina-locatie voor scope-bepaling van extract-subagents.
 
 ### MCP-server `certificaid-tarieven`
 
@@ -127,8 +133,8 @@ In tegenstelling tot concept-records (die naar de `concepten` ChromaDB-collectio
 | 4 | `prompts/tarief-extractie-v1.md` + `prompts/tarief-verify-v1.md` | Deze sessie |
 | 5 | POC-records: drempels art. 1:24/1:25/1:26 | Deze sessie (handmatig, RAG-bron) |
 | 6 | Leerstuk `wie-moet-consolideren` wikilinkt naar drempel-record | Deze sessie |
-| 7 | Chunker `tools/tarieven/chunk_pdf.py` | Uitgesteld (Cijferzakboekje 2027) |
-| 8 | Aanvullende records (VenB-tarief, voorafbetalingen, indexcoëff., btw-drempels …) | As-needed per leerstuk |
+| 7 | Chunker `tools/tarieven/chunk_pdf.py` (pdftoppm-wrapper) | Geleverd (2026-05-30, na PDF beschikbaar werd) |
+| 8 | Aanvullende records (VenB-tarief, PB-schijven, voorafbetalingen, btw, OV, VAA, ...) | Batch-extract via parallel Sonnet-subagents (deze sessie / volgende sessie) |
 
 ## Wat dit superseert / amendeert
 

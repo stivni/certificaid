@@ -18,7 +18,7 @@ Check op slug-collision via MCP-tool `lijst_tabellen` of via filesystem (`data/t
 
 ### 2. Lees de primaire bron
 
-- **PNG**: gebruik Read direct op `data/tarieven/_poc/pages/<filename>.png`.
+- **PNG**: gebruik Read direct op `data/tarieven/pages/p<NNN>.png` (drie-cijfer-padded; bv. `p070.png`). Pagina-nummers komen uit de PDF-TOC van Cijferzakboekje 2026.
 - **Wettekst / CBN-advies**: gebruik `mcp__certificaid-rag__zoek_bronnen` (geen rerank nodig voor tarief-lookups; tarief-tabellen zijn meestal goed gevonden door bi-encoder).
 
 ### 3. Kruisverwijs
