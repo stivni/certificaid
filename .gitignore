@@ -83,6 +83,7 @@ data/extractie/candidates.sqlite3*
 
 # Tarief-records vision-extractie staging (ADR-026)
 data/tarieven/_poc/
+data/tarieven/pages/
 data/extractie/bundles/
 
 # Legacy schema 2.1-records — historisch archief; herbruikbaar via git history indien nodig
