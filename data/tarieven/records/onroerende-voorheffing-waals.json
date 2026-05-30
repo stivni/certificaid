@@ -1,0 +1,130 @@
+{
+  "id": "onroerende-voorheffing-waals",
+  "schema_version": "1.0",
+  "titel": "Onroerende voorheffing — Waals Gewest",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "251-260ter"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "255"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "257"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null,
+    "wijziging_door": "Aanslagjaar 2026 (Cijferzakboekje 2026)"
+  },
+  "samenvatting": "De onroerende voorheffing in het Waals Gewest wordt geheven op het geïndexeerd kadastraal inkomen volgens WIB92 (het Waals gewest heeft het federale tarief niet vervangen). Basistarief 1,25% (art. 255, § 1 WIB92), sociale woningen 0,8%, vermeerderd met provinciale en gemeentelijke opcentiemen.",
+  "criteria": [
+    {
+      "naam": "Basistarief",
+      "waarde": 1.25,
+      "eenheid": "%",
+      "tarief_pct": 1.25,
+      "toelichting": "Art. 255, § 1 WIB92. Tarief geldt op het geïndexeerd KI."
+    },
+    {
+      "naam": "Sociale woningen",
+      "waarde": 0.8,
+      "eenheid": "%",
+      "tarief_pct": 0.8,
+      "toelichting": "Art. 255 WIB92, tweede lid. Voor woningen toebehorend aan erkende bouwmaatschappijen, sociale verhuur, OCMW of gemeenten, of aan de Nationale Landmaatschappij of door haar erkende maatschappijen."
+    },
+    {
+      "naam": "Indexcoëfficiënt KI 2026",
+      "waarde": 2.3,
+      "eenheid": "coefficient",
+      "toelichting": "Indexatiecoëfficiënt voor aanslagjaar 2026. KI × 2,3000 (afronden) = geïndexeerd KI."
+    },
+    {
+      "naam": "Gemeentelijke opcentiemen — voorbeeld",
+      "waarde": 1550,
+      "eenheid": "opcentiemen",
+      "toelichting": "Voorbeeld uit Cijferzakboekje. Wisselt per gemeente. 100 opcentiemen = € 1 bijkomende belasting per € 1 gewestelijke OV."
+    },
+    {
+      "naam": "Provinciale opcentiemen — voorbeeld",
+      "waarde": 290,
+      "eenheid": "opcentiemen",
+      "toelichting": "Voorbeeld uit Cijferzakboekje. Wisselt per provincie."
+    },
+    {
+      "naam": "Vermindering bescheiden woning",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "Art. 247 WIB92. Voor de enige woning van de belastingplichtige, die hij persoonlijk bewoont, wanneer het niet-geïndexeerd KI van het geheel van zijn in België gelegen onroerende goederen niet meer dan € 745 bedraagt. Niet voor het deel verhuurd voor uitoefening beroepswerkzaamheid waarvan dat deel meer dan 1/4 KI vertegenwoordigt. Voor 5 jaar verhoogd tot 50% bij nieuwbouw zonder bouw-/aankooppremie."
+    },
+    {
+      "naam": "Vermindering gezinslasten — per persoon ten laste",
+      "waarde": 125,
+      "eenheid": "EUR",
+      "toelichting": "Art. 257, 3° WIB92. Vermindering € 125 per persoon ten laste, € 250 voor de gehandicapte echtgeno(o)t(e) of wettelijk samenwonende. Recht op vermindering ook voor wettelijk samenwonende echtgeno(o)t(e) zelf."
+    },
+    {
+      "naam": "Vermindering persoon met handicap (eigenaar/huurder)",
+      "waarde": 125,
+      "eenheid": "EUR",
+      "toelichting": "€ 125 als alleenstaand; € 250 bij huwelijk/wettelijke of feitelijke samenwoning (één van beiden gehandicapt); € 375 bij huwelijk/wettelijke of feitelijke samenwoning (beiden gehandicapt). Telkens te vermenigvuldigen met de breuk ((100/100 + bovenop de OV verschuldigde opcentiemen bepaald door gemeente, agglomeratie en provincie waar de betrokken woning gelegen is))."
+    },
+    {
+      "naam": "Vermindering grootoorlogsverminkten",
+      "waarde": 20,
+      "eenheid": "%",
+      "tarief_pct": 20,
+      "toelichting": "Art. 257, 2° WIB92. Een grootoorlogsverminkte heeft, voor de woning die hij in gebruik genomen heeft als eigenaar of huurder, recht op een vermindering van 20%, vermenigvuldigd met de breuk ((100/100 + bovenop de OV verschuldigde opcentiemen))."
+    },
+    {
+      "naam": "Kwijtschelding voor improductiviteit",
+      "waarde": "proportioneel",
+      "toelichting": "Art. 257, 4° WIB92. Proportionele vermindering bij niet-ingebruikname van het onroerend goed. Duur ten minste 90 dagen in de loop van het jaar. Kwijtschelding niet meer verleend voor improductiviteit > 12 maanden, tenzij leegstand wegens redenen onafhankelijk van de wil van de belastingplichtige."
+    }
+  ],
+  "drempel_regel": "Niet-geïndexeerd KI ≤ € 745 voor toepassing vermindering bescheiden woning (art. 247 WIB92).",
+  "context_tabellen": [
+    "onroerende-voorheffing-brussels",
+    "onroerende-voorheffing-vlaams"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p40-41 — Onroerende voorheffing Waals gewest (Bron: art. 251-260ter WIB 92)",
+    "wettekst": "WIB92 art. 251-260ter (basistarief art. 255, § 1, verminderingen art. 257)",
+    "cijferzakboekje_pagina": 40,
+    "verified_via": "Vision-extract PNG p049-p050 + RAG-cross-check WIB92 art. 255 (bi=0.443, woordelijk match basistarief 1,25% en sociale woningen 0,8%)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "onroerende-voorheffing",
+    "waals",
+    "wib92",
+    "kadastraal-inkomen",
+    "opcentiemen",
+    "gewestelijke-belasting"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pages": [
+        "p049",
+        "p050"
+      ],
+      "rag_queries": [
+        "art 251 WIB92 onroerende voorheffing basistarief 1,25%"
+      ],
+      "primary_rag_bronnen": [
+        "WIB92 Art. 255"
+      ],
+      "opmerking": "Waals gewest heeft het federale WIB92-tarief behouden (geen eigen codex zoals VCF). Specifieke Waalse vrijstellingen (bv. Natura 2000-gebied, nieuwe wijk) via Waalse decreten."
+    }
+  }
+}

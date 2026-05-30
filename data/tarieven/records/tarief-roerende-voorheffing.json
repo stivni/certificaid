@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "tarief-roerende-voorheffing",
+  "titel": "Roerende voorheffing — tarief per type roerend inkomen",
+  "categorie": "roerende-voorheffing",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "269"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2017,
+    "tot_boekjaar": null,
+    "wijziging_door": "Tarief 30% sinds 01.01.2017"
+  },
+  "samenvatting": "Algemeen tarief roerende voorheffing is 30% sinds 01.01.2017. Belangrijkste uitzonderingen: VVPR-bis (20%/15% bij voldoende reservedoorgangsperiode), liquidatiereserve (10% aanleg + 5%/6,5% bij vervroegde uitkering), VVPR-rekening (15%), gespreide spaardeposito's (15% boven vrijgestelde schijf), interesten van gespreide spaardeposito's (15%), Leterme-Staatsbon (15%), aandelen op naam (15%/30%), auteursrechten en naburige rechten (15%/30%), inkomsten uit onroerende verhuring en plakbrieven (30%).",
+  "criteria": [
+    {
+      "naam": "Algemeen tarief dividenden — Sinds 01.01.2017",
+      "tarief_pct": 30,
+      "eenheid": "%",
+      "toelichting": "Standaardtarief voor dividenden. Voor 01.01.2016: 25%; tijdens inkomstenjaar 2016: 27%."
+    },
+    {
+      "naam": "Dividenden 2013 — VVPR-bis 2e jaar (sinds 01.01.2017)",
+      "tarief_pct": 20,
+      "eenheid": "%",
+      "toelichting": "Van nieuwe aandelen uitgegeven n.a.v. inbrengen in geld vanaf 01.07.2013 — verlaagd tarief bij voldoende doorlooptijd."
+    },
+    {
+      "naam": "Dividenden 2013 — VVPR-bis vanaf 3e jaar (sinds 01.01.2017)",
+      "tarief_pct": 15,
+      "eenheid": "%",
+      "toelichting": "Vanaf 3e jaar volgend op kapitaalinbreng vanaf 01.07.2013."
+    },
+    {
+      "naam": "Dividenden uit liquidatiereserve — algemeen",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Dividenden uit liquidatiereserve — n.a.v. liquidatie",
+      "tarief_pct": 0,
+      "eenheid": "%",
+      "toelichting": "Bij liquidatie van de vennootschap: 0% bovenop de 10% aanlegheffing."
+    },
+    {
+      "naam": "Liquidatiereserve — aanleg (separaat tarief)",
+      "tarief_pct": 10,
+      "eenheid": "%",
+      "toelichting": "10% afzonderlijke aanslag bij aanleg van de reserve (KMO art. 184quater WIB92)."
+    },
+    {
+      "naam": "Liquidatiereserve — vervroegde uitkering binnen 5 jaar (4) (5)",
+      "tarief_pct": 17,
+      "eenheid": "%",
+      "toelichting": "17% bij uitkering binnen vier jaar; 10% bij uitkering in vijfde of zesde jaar; 5% bij uitkering in zevende of achtste jaar; 0% bij uitkering na het achtste jaar of n.a.v. ontbinding van de vennootschap. Voor KMO's worden deze periodes gehalveerd."
+    },
+    {
+      "naam": "Dividenden — minimumdividend en uitgestelde spaardeposito",
+      "tarief_pct": 15,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Interest van spaardeposito's — boven vrijgestelde schijf (5)",
+      "tarief_pct": 15,
+      "eenheid": "%",
+      "toelichting": "Boven de vrijgestelde schijf van € 1.050 (inkomstenjaar 2025). Geïndexeerd jaarbedragen: aj. 2025 € 75.360, aj. 2024 € 73.070, aj. 2023 € 70.220 / € 35.110 overgangsregeling, aj. 2022 € 64.070."
+    },
+    {
+      "naam": "Leterme-Staatsbon (uitgiftedatum 24.11.2011)",
+      "tarief_pct": 15,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Interesten Leterme-Staatsbon — aanhouden tot eindvervaldag",
+      "tarief_pct": 15,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomsten van autersrechten en naburige rechten — onroerend gedeelte",
+      "tarief_pct": 15,
+      "eenheid": "%",
+      "toelichting": "Belast bij overdracht of doorgift (algemeen tarief 15%, hoger tarief 30% vanaf bepaalde schijf)."
+    },
+    {
+      "naam": "Inkomsten van autersrechten en naburige rechten — bovenste schijf",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Lijfrenten en tijdelijke renten",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomsten uit verhuring, verpachting, gebruik of concessie van roerende goederen",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomsten uit de onderverhuring van onroerende goederen",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomsten uit de cessie van een huurkonst en plakbrieven of andere middelen van openbare reclame",
+      "tarief_pct": 30,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Vrijgestelde schijf interesten spaardeposito's — inkomstenjaar 2025",
+      "waarde": 1050,
+      "eenheid": "EUR",
+      "toelichting": "Vrijgestelde schijf van € 1.050 voor inkomstenjaar 2025."
+    },
+    {
+      "naam": "Geïndexeerd grensbedrag — inkomstenjaar 2025",
+      "waarde": 75360,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Geïndexeerd grensbedrag — inkomstenjaar 2024",
+      "waarde": 73070,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Geïndexeerd grensbedrag — inkomstenjaar 2023",
+      "waarde": 70220,
+      "eenheid": "EUR",
+      "toelichting": "Of € 35.110 overgangsregeling."
+    },
+    {
+      "naam": "Geïndexeerd grensbedrag — inkomstenjaar 2022",
+      "waarde": 64070,
+      "eenheid": "EUR"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p105-p106 — Roerende voorheffing: tarief",
+    "wettekst": "WIB92 art. 269",
+    "cijferzakboekje_pagina": 105,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p114.png + p115.png"
+  },
+  "tags": [
+    "roerende-voorheffing",
+    "wib92",
+    "dividenden",
+    "vvpr-bis",
+    "liquidatiereserve"
+  ]
+}

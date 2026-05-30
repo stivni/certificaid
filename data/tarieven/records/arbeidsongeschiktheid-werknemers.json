@@ -1,0 +1,109 @@
+{
+  "id": "arbeidsongeschiktheid-werknemers",
+  "schema_version": "1.0",
+  "titel": "Arbeidsongeschiktheid werknemers: ziekte, ongeval en invaliditeit (privé)",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "ZIV-wet (gecoördineerd 14.07.1994)",
+      "artikel": "87 e.v."
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null,
+    "wijziging_door": "Indexering sinds 01.01.2026"
+  },
+  "samenvatting": "Uitkeringen bij primaire arbeidsongeschiktheid (< 1 jaar) en invaliditeit (> 1 jaar) voor werknemers — 60% van het gederfde loon (geplafonneerd) tijdens primaire arbeidsongeschiktheid + minimumuitkeringen vanaf zes maanden; invaliditeit: 65%/55%/40% naargelang gezinssituatie.",
+  "criteria": [
+    {
+      "naam": "Primaire arbeidsongeschiktheid: vervangingspercentage",
+      "waarde": 60,
+      "eenheid": "%",
+      "toelichting": "60% van het gederfde loon, met een maximum van € 109,88 per dag."
+    },
+    {
+      "naam": "Primaire arbeidsongeschiktheid maximum per dag",
+      "waarde": 109.88,
+      "eenheid": "EUR/dag",
+      "toelichting": "Geplafonneerd maximum (sinds 01.01.2026)."
+    },
+    {
+      "naam": "Minimumuitkering — regelmatig werknemer, met gezinslast",
+      "waarde": 79.51,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid (bedragen per dag, sinds 01.01.2026)."
+    },
+    {
+      "naam": "Minimumuitkering — regelmatig werknemer, zonder gezinslast / alleenstaande",
+      "waarde": 63.01,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid."
+    },
+    {
+      "naam": "Minimumuitkering — regelmatig werknemer, zonder gezinslast / samenwonend",
+      "waarde": 54.02,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid."
+    },
+    {
+      "naam": "Minimumuitkering — niet-regelmatig werknemer, met gezinslast",
+      "waarde": 68.31,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid."
+    },
+    {
+      "naam": "Minimumuitkering — niet-regelmatig werknemer, zonder gezinslast / alleenstaande",
+      "waarde": 50.55,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid."
+    },
+    {
+      "naam": "Minimumuitkering — niet-regelmatig werknemer, zonder gezinslast / samenwonend",
+      "waarde": 50.55,
+      "eenheid": "EUR/dag",
+      "toelichting": "Na zes maanden arbeidsongeschiktheid."
+    },
+    {
+      "naam": "Invaliditeit: uitkering met gezinslast",
+      "waarde": 65,
+      "eenheid": "%",
+      "toelichting": "65% van het geplafonneerde loon. De uitkeringen worden begrensd door maximum- en minimumbedragen — zie RIZIV."
+    },
+    {
+      "naam": "Invaliditeit: uitkering alleenstaand",
+      "waarde": 55,
+      "eenheid": "%",
+      "toelichting": "55% van het geplafonneerde loon."
+    },
+    {
+      "naam": "Invaliditeit: uitkering samenwonend",
+      "waarde": 40,
+      "eenheid": "%",
+      "toelichting": "40% van het geplafonneerde loon."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p128 — Arbeidsongeschiktheid werknemers (sinds 01.01.2026)",
+    "wettekst": "ZIV-wet (gecoördineerd 14.07.1994) art. 87 e.v.",
+    "cijferzakboekje_pagina": 128,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p137.png — bedragen letterlijk overgenomen. Cross-check: bedrag € 79,51 (regelmatig werknemer met gezinslast) en € 63,01 zijn dezelfde basistarieven die ook gelden voor zelfstandigen (p145)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "ziv-wet",
+    "arbeidsongeschiktheid",
+    "invaliditeit",
+    "werknemers",
+    "riziv"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p137.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p137.png"
+    }
+  }
+}

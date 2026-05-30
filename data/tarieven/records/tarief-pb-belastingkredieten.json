@@ -1,0 +1,155 @@
+{
+  "id": "tarief-pb-belastingkredieten",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — overzicht belastingkredieten",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "289bis, §1"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "289ter"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "289ter/1, lid 3"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "134"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "145/33"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Overzicht van de belastingkredieten in de personenbelasting: investeringen (289bis), lage activiteitsinkomsten (289ter), werkbonus (289ter/1, lid 3), kinderen ten laste (134) en gewestelijke kredieten voor Win-win-, coup de pouce-, proxi-leningen en dienstencheques (145/33). Bedragen vergeleken voor aj. 2024 t.e.m. aj. 2027.",
+  "criteria": [
+    {
+      "naam": "Belastingkrediet investeringen (289bis §1) — maximumbedrag aj. 2027",
+      "waarde": 7500,
+      "eenheid": "EUR",
+      "toelichting": "Bevoegdheid: federaal. Basisbedrag € 3.750. Verhoogd naar € 7.500 (max.) vanaf aj. 2026 (i.g.v. winsten of baten). Voor aj. 2024-2025: € 3.750 (10%); voor aj. 2026-2027: € 7.500 (20%)."
+    },
+    {
+      "naam": "Belastingkrediet investeringen (289bis §1) — tarief aj. 2027",
+      "waarde": 20,
+      "eenheid": "%",
+      "toelichting": "Tarief op meerdere van fiscale waarde vaste activa. 10% t.e.m. aj. 2025; 20% vanaf aj. 2026."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — ambtenaren maximumbedrag aj. 2027",
+      "waarde": 1000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 289ter. Basisbedrag € 485. Aj. 2024: € 910; aj. 2025: € 940; aj. 2026: € 970; aj. 2027: € 1.000. Bevoegdheid: federaal."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — meewerkende echtgenoten maximumbedrag aj. 2027",
+      "waarde": 410,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 200. Aj. 2024: € 370; aj. 2025: € 390; aj. 2026: € 400; aj. 2027: € 410."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — andere belastingplichtigen maximumbedrag aj. 2027",
+      "waarde": 910,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 440. Aj. 2024: € 820; aj. 2025: € 860; aj. 2026: € 880; aj. 2027: € 910."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — minimumbedrag netto-inkomen voor volledig krediet (aj. 2027)",
+      "waarde": 6710,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 3.260. Aj. 2024: € 6.100; aj. 2025: € 6.350; aj. 2026: € 6.550; aj. 2027: € 6.710."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — minimumbedrag netto-inkomen voor gedeeltelijk krediet (aj. 2027)",
+      "waarde": 8960,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 4.350. Aj. 2024: € 8.140; aj. 2025: € 8.480; aj. 2026: € 8.740; aj. 2027: € 8.960."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — maximumbedrag netto-inkomen voor volledig krediet (aj. 2027)",
+      "waarde": 22400,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 10.880. Aj. 2024: € 20.370; aj. 2025: € 21.200; aj. 2026: € 21.860; aj. 2027: € 22.400."
+    },
+    {
+      "naam": "Belastingkrediet lage activiteitsinkomsten — maximumbedrag netto-inkomen voor gedeeltelijk krediet (aj. 2027)",
+      "waarde": 29120,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 14.140. Aj. 2024: € 26.480; aj. 2025: € 27.550; aj. 2026: € 28.420; aj. 2027: € 29.120."
+    },
+    {
+      "naam": "Werkbonus (289ter/1, lid 3) — maximumbedrag aj. 2027",
+      "waarde": 1580,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 420. Aj. 2024: € 1.070; aj. 2025: € 1.380; aj. 2026: € 1.540; aj. 2027: € 1.580. Bevoegdheid: federaal."
+    },
+    {
+      "naam": "Belastingkrediet kinderen ten laste (art. 134) — maximumbedrag per kind aj. 2027",
+      "waarde": 550,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 250. Aj. 2024: € 530; aj. 2025-2026-2027: € 550. Bevoegdheid: federaal."
+    },
+    {
+      "naam": "Vlaams belastingkrediet Win-win-lening — maximumbedrag berekeningsgrondslag per kredietgever aj. 2027",
+      "waarde": 75000,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 50.000. Aj. 2024-2027: € 75.000. Art. 8, §3 en art. 9, 12° VL decreet 19.05.2006."
+    },
+    {
+      "naam": "Waals belastingkrediet coup de pouce-leningen — maximumbedrag berekeningsgrondslag aj. 2027",
+      "waarde": 125000,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 50.000. Aj. 2024-2027: € 125.000. Art. 8, §3, lid 2 WA decreet 28.04.2022."
+    },
+    {
+      "naam": "Brussels belastingkrediet proxi-leningen — maximumbedrag berekeningsgrondslag aj. 2027",
+      "waarde": 50000,
+      "eenheid": "EUR",
+      "toelichting": "Basisbedrag € 50.000. Aj. 2024-2027: € 50.000. Art. 8 Brussels bijzonderemachtenbesluit 19.06.2020."
+    },
+    {
+      "naam": "Vlaams belastingkrediet dienstencheques (art. 145/33) — maximaal belastbaar inkomen aj. 2027",
+      "waarde": 28605,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 53.560; aj. 2025: € 55.730; aj. 2026: -; aj. 2027: € 28.605. Bevoegdheid: Vlaams. Brussels en Waals: geen bedrag vermeld."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p64 — Personenbelasting: Belastingkredieten",
+    "wettekst": "WIB92 art. 289bis (krediet investeringen), 289ter (krediet lage activiteitsinkomsten), 289ter/1 lid 3 (werkbonus), 134 (krediet kinderen ten laste), 145/33 (gewestelijke kredieten)",
+    "cijferzakboekje_pagina": 64,
+    "verified_via": "Vision-extract PNG p073.png (Cijferzakboekje p64) + RAG-cross-check WIB92 art. 289bis, 289ter, 134 (artikel-structuur woordelijk bevestigd; bevoegdheidsverdeling federaal/gewestelijk correct)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "belastingkrediet",
+    "investeringen",
+    "werkbonus",
+    "win-win-lening",
+    "coup-de-pouce",
+    "proxi-leningen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNG p073.png + RAG-cross-check WIB92 art. 289bis/289ter/134",
+      "png_pagina": "data/tarieven/pages/p073.png",
+      "rag_queries": [
+        "belastingkrediet lage activiteitsinkomsten WIB92 289ter",
+        "belastingkrediet kinderen ten laste artikel 134 terugbetaalbaar"
+      ]
+    }
+  }
+}

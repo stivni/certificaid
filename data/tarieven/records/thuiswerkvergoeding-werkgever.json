@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "thuiswerkvergoeding-werkgever",
+  "titel": "Forfaitaire thuiswerkvergoeding / kantoorvergoeding",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "31, tweede lid 1°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Indexering volgens Circ. 2024/C/37 (31.05.2024)"
+  },
+  "samenvatting": "Forfaitaire bureauonkostenvergoeding voor werknemers die regelmatig en structureel (minstens equivalent van één werkdag per week) thuiswerken. Dekt huur, afschrijving bureau, kantoorbenodigdheden, nutsvoorzieningen (water, elektriciteit, verwarming), onderhoud, verzekering, onroerende voorheffing. Toelaatbaar onafhankelijk van werkrooster (voltijds/deeltijds). Daarnaast mag werkgever bijkomend € 20/maand vergoeden voor eigen pc/internet en werkelijke kostprijs van kantoormeubilair/informaticamateriaal (limitatieve opsomming nr. 33 circ. 2021/C/20).",
+  "criteria": [
+    {
+      "naam": "Thuiswerkvergoeding sinds 01.03.2025",
+      "waarde": 157.83,
+      "eenheid": "EUR/maand",
+      "toelichting": "Maandelijks forfait, ongeacht werkrooster."
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.06.2024 - 28.02.2025",
+      "waarde": 154.74,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.12.2023 - 31.05.2024",
+      "waarde": 151.7,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.01.2023 - 30.11.2023",
+      "waarde": 148.73,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.12.2022 - 31.12.2022",
+      "waarde": 145.81,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.09.2022 - 30.11.2022",
+      "waarde": 142.95,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.06.2022 - 31.08.2022",
+      "waarde": 140.15,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Thuiswerkvergoeding 01.04.2022 - 31.05.2022",
+      "waarde": 137.4,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Bijkomende vergoeding eigen pc",
+      "waarde": 20,
+      "eenheid": "EUR/maand",
+      "toelichting": "Voor gebruik eigen pc bovenop thuiswerkvergoeding."
+    },
+    {
+      "naam": "Bijkomende vergoeding eigen internet",
+      "waarde": 20,
+      "eenheid": "EUR/maand",
+      "toelichting": "Voor gebruik eigen internet bovenop thuiswerkvergoeding."
+    },
+    {
+      "naam": "Minimumfrequentie thuiswerk",
+      "waarde": "1 werkdag per week (equivalent)",
+      "eenheid": "frequentie",
+      "toelichting": "Vereist regelmatig en structureel thuiswerken — minstens equivalent van één werkdag per week."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p101 — Kosten eigen aan de werkgever: thuiswerkvergoeding / forfaitaire kantoorvergoeding",
+    "wettekst": "WIB92 art. 31 lid 2 1° — Circ. 2024/C/37 (31.05.2024) + Circ. 2021/C/20",
+    "cijferzakboekje_pagina": 101,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p110.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "kosten-eigen-aan-werkgever",
+    "thuiswerk",
+    "telewerk",
+    "loon"
+  ]
+}

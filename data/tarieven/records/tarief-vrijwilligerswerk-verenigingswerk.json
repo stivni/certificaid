@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "tarief-vrijwilligerswerk-verenigingswerk",
+  "titel": "Vrijwilligerswerk en verenigingswerk — vrijgestelde bedragen en urengrenzen",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "37bis §2, lid 1 1°"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "90, 1°ter"
+    },
+    {
+      "bron": "RSZ-KB",
+      "artikel": "17"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Nieuwe definitieve regeling verenigingswerk sinds 01.01.2022 (wet 26.04.2022, BS 06.05.2022)"
+  },
+  "samenvatting": "Twee aparte regimes: (1) Vrijwilligerswerk — vergoedingen niet belastbaar als forfaitaire grenzen niet overschreden worden, of indien werkelijke kosten bewezen worden. Verhoogde jaargrens van € 3.233,91 geldt voor specifieke categorieën (sporttrainer/sportlesgever/scheidsrechter, nachtoppas hulpbehoevenden, niet-dringend ziekenvervoer). (2) Verenigingswerk (bijklussen) — sinds 01.01.2022 nieuwe definitieve regeling: max € 7.890 in aj. 2027, belast als beroepsinkomsten tegen aanslagvoet van 20% (na kostenforfait 50% = effectief 10%). Voorwaarden: arbeidsovereenkomst, sport-/socio-cultureel/onderwijssector, beperkt aantal uren per kwartaal/jaar.",
+  "criteria": [
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per dag — aj. 2027",
+      "waarde": 44.02,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per dag — aj. 2026",
+      "waarde": 42.31,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per dag — aj. 2025",
+      "waarde": 41.48,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per dag — aj. 2024",
+      "waarde": 40.67,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per jaar — aj. 2027",
+      "waarde": 1760.83,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per jaar — aj. 2026",
+      "waarde": 1692.51,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per jaar — aj. 2025",
+      "waarde": 1659.29,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vrijgesteld bedrag per jaar — aj. 2024",
+      "waarde": 1626.77,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vrijwilligerswerk — maximaal vervoerskosten per jaar",
+      "waarde": 2000,
+      "eenheid": "km/jaar",
+      "toelichting": "Bovenop forfaitaire vergoeding mag werkgever vervoerskosten terugbetalen met maximum van 2.000 km."
+    },
+    {
+      "naam": "Vrijwilligerswerk — verhoogde jaargrens (specifieke categorieën)",
+      "waarde": 3233.91,
+      "eenheid": "EUR/jaar",
+      "toelichting": "Voor: sporttrainer/sportlesgever/sportcoach/jeugdsportcoördinator/sportscheidsrechter/jurylid/steward/terreinverzorger-materiaalmeester/seingever bij sportwedstrijden; nachtoppas + dagoppas bij hulpbehoevende personen volgens voorwaarden en kwaliteitscriteria; niet-dringend liggend ziekenvervoer."
+    },
+    {
+      "naam": "Verenigingswerk — aanslagvoet bezoldigingen",
+      "tarief_pct": 20,
+      "eenheid": "%",
+      "toelichting": "Inkomsten belast als diverse inkomsten tegen aanslagvoet van 20% (na aftrek van een kostenforfait van 50%). Effectief belastingtarief: 10%."
+    },
+    {
+      "naam": "Verenigingswerk — kostenforfait",
+      "tarief_pct": 50,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Verenigingswerk — effectief belastingtarief",
+      "tarief_pct": 10,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Verenigingswerk — maximaal verdienbedrag — aj. 2027",
+      "waarde": 7890,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Verenigingswerk — maximaal verdienbedrag — aj. 2026",
+      "waarde": 7700,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Verenigingswerk — maximaal verdienbedrag — aj. 2025",
+      "waarde": 7460,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Verenigingswerk — maximaal verdienbedrag — aj. 2024",
+      "waarde": 7170,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Socio-culturele sector — max uren per kwartaal",
+      "waarde": "190 (3e kwartaal) of 100 (andere kwartalen)",
+      "eenheid": "uren/kwartaal",
+      "toelichting": "Voor sector socio-culturele vorming/amateurkunsten: 190 uren in derde kwartaal en 100 uren in andere kwartalen, bij één of meer werkgevers."
+    },
+    {
+      "naam": "Socio-culturele sector — max uren per jaar",
+      "waarde": 300,
+      "eenheid": "uren/jaar",
+      "toelichting": "300 uren prestaties bij één of meer werkgevers."
+    },
+    {
+      "naam": "Sportsector — max uren per kwartaal",
+      "waarde": "285 (3e kwartaal) of 150 (andere kwartalen)",
+      "eenheid": "uren/kwartaal"
+    },
+    {
+      "naam": "Sportsector — max uren per jaar",
+      "waarde": 450,
+      "eenheid": "uren/jaar"
+    },
+    {
+      "naam": "Cumul beide sectoren — max uren per kwartaal",
+      "waarde": 285,
+      "eenheid": "uren/kwartaal",
+      "toelichting": "Uren mogen gecumuleerd worden, evenwel zonder voor alle sectoren samen het maximum van 285 uren voor het derde kwartaal en 150 uren voor de andere kwartalen te overschrijden."
+    },
+    {
+      "naam": "Cumul beide sectoren — max uren per jaar",
+      "waarde": 450,
+      "eenheid": "uren/jaar"
+    },
+    {
+      "naam": "Studenten — vaste limiet",
+      "waarde": "190 uur/kwartaal",
+      "eenheid": "uren/kwartaal",
+      "toelichting": "Voor studenten bedraagt de limiet 190 uur per kwartaal."
+    },
+    {
+      "naam": "Sanctie — overschrijding jaargrens",
+      "waarde": "Beroepsinkomsten progressief belast",
+      "eenheid": "regime",
+      "toelichting": "In geval van overschrijding van de jaargrens worden alle inkomsten geacht beroepsinkomsten te zijn en worden bijgevolg ook zo belast worden (progressief tegen de gewone tarieven). Bovendien worden ook de inkomsten uit verenigingswerk in dat geval ook het volgende belastbaar tijdperk beschouwd als beroepsinkomsten, ongeacht hun omvang, en aldus belast (art. 37bis, §2, lid 1 WIB)."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p121-p122 — Vrijwilligerswerk en verenigingswerk",
+    "wettekst": "WIB92 art. 37bis §2 lid 1 — Wet van 26.04.2022 (BS 06.05.2022); KB 23.12.2021 (BS 30.12.2021); art. 90, 1°ter en art. 17 KB-RSZ; Circ. 2026/C/20 (20.01.2026)",
+    "cijferzakboekje_pagina": 121,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p130.png + p131.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vrijwilligerswerk",
+    "verenigingswerk",
+    "bijklussen",
+    "diverse-inkomsten",
+    "wib92"
+  ]
+}

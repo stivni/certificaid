@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "vaa-verwarming-elektriciteit",
+  "titel": "Voordeel van alle aard: verwarming en elektriciteit",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "KB/WIB92",
+      "artikel": "18"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Sinds 1 januari 2022: forfaitaire waardering enkel nog van toepassing bij gevallen waarin werkgever/vennootschap die het voordeel verstrekt ook de woning ter beschikking stelt."
+  },
+  "samenvatting": "Forfaitair voordeel van alle aard voor gratis verwarming en/of elektriciteit. Twee categorieën: leidinggevenden/bedrijfsleiders versus anderen. Onderscheid in bedragen voor verwarming en elektriciteit afzonderlijk. Sinds 01.01.2022 is forfaitaire waardering enkel nog van toepassing voor gevallen waarin werkgever/vennootschap óók de woning ter beschikking stelt. In andere gevallen wordt sinds dien belast op het werkelijke factuurbedrag.",
+  "criteria": [
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Verwarming — aj. 2027",
+      "waarde": 2560,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Verwarming — aj. 2026",
+      "waarde": 2500,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Verwarming — aj. 2025",
+      "waarde": 2430,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Verwarming — aj. 2024",
+      "waarde": 2330,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Elektriciteit — aj. 2027",
+      "waarde": 1280,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Elektriciteit — aj. 2026",
+      "waarde": 1250,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Elektriciteit — aj. 2025",
+      "waarde": 1210,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Leidinggevenden/bedrijfsleiders — Elektriciteit — aj. 2024",
+      "waarde": 1160,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Verwarming — aj. 2027",
+      "waarde": 1150,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Verwarming — aj. 2026",
+      "waarde": 1130,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Verwarming — aj. 2025",
+      "waarde": 1090,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Verwarming — aj. 2024",
+      "waarde": 1050,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Elektriciteit — aj. 2027",
+      "waarde": 580,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Elektriciteit — aj. 2026",
+      "waarde": 560,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Elektriciteit — aj. 2025",
+      "waarde": 550,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Anderen — Elektriciteit — aj. 2024",
+      "waarde": 520,
+      "eenheid": "EUR/jaar"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p120 — Voordelen van alle aard: verwarming en elektriciteit",
+    "wettekst": "Art. 18 KB/WIB92",
+    "cijferzakboekje_pagina": 120,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p129.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vaa",
+    "verwarming",
+    "elektriciteit",
+    "energie",
+    "kb-wib92"
+  ]
+}

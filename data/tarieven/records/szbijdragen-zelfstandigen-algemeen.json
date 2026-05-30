@@ -1,0 +1,206 @@
+{
+  "id": "szbijdragen-zelfstandigen-algemeen",
+  "schema_version": "1.0",
+  "titel": "Sociale bijdragen zelfstandigen: tarieven (hoofdberoep, bijberoep, meewerkende echtgenoten, studenten)",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB nr. 38 (27.07.1967)",
+      "artikel": "sociaal statuut zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2024,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Jaarlijkse indexering bijdragedrempels"
+  },
+  "samenvatting": "Sociale bijdragen zelfstandigen worden sinds bijdragejaar 2015 berekend op de beroepsinkomsten van het jaar zelf (definitief), met voorlopige bijdragen op basis van inkomsten drie jaar terug. Tarief: 20,50% op eerste schijf + 14,16% op tweede schijf (hoofdberoep en bijberoep), inclusief 3,05% beheerskosten. Maxima voor bijdragejaren 2024-2026 zijn gepubliceerd.",
+  "criteria": [
+    {
+      "naam": "Hoofdberoep 2026 — minimumbijdragedrempel",
+      "waarde": 17374.08,
+      "eenheid": "EUR",
+      "toelichting": "Schijf 1 boven 0: 20,50% — minimumbijdrage is altijd verschuldigd ook als inkomen lager is."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — schijf 1 tarief",
+      "waarde": 20.5,
+      "eenheid": "%",
+      "toelichting": "Tot € 17.374,08."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — schijf 2 tarief",
+      "waarde": 20.5,
+      "eenheid": "%",
+      "toelichting": "€ 17.374,08 tot € 75.024,54."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — schijf 3 tarief",
+      "waarde": 14.16,
+      "eenheid": "%",
+      "toelichting": "€ 75.024,54 tot € 110.562,42."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — schijf 4 tarief boven plafond",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Op inkomen > € 110.562,42 (maximumbijdragedrempel) zijn geen sociale bijdragen verschuldigd."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — minimumkwartaalbijdrage cumul",
+      "waarde": 917.58,
+      "eenheid": "EUR/kwartaal",
+      "toelichting": "Op € 17.374,08 minimumbijdragedrempel — incl. 3,05% beheerskosten."
+    },
+    {
+      "naam": "Hoofdberoep 2026 — maximumkwartaalbijdrage cumul",
+      "waarde": 5258.69,
+      "eenheid": "EUR/kwartaal",
+      "toelichting": "Op € 110.562,42 maximumbijdragedrempel."
+    },
+    {
+      "naam": "Hoofdberoep 2025 — minimumbijdragedrempel",
+      "waarde": 17008.88,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Hoofdberoep 2025 — maximumbijdragedrempel",
+      "waarde": 108238.4,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Hoofdberoep 2025 — minimumkwartaalbijdrage cumul",
+      "waarde": 898.3,
+      "eenheid": "EUR/kwartaal"
+    },
+    {
+      "naam": "Hoofdberoep 2025 — maximumkwartaalbijdrage cumul",
+      "waarde": 5148.15,
+      "eenheid": "EUR/kwartaal"
+    },
+    {
+      "naam": "Hoofdberoep 2024 — minimumbijdragedrempel",
+      "waarde": 16861.46,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Hoofdberoep 2024 — maximumbijdragedrempel",
+      "waarde": 107300.3,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Hoofdberoep 2024 — minimumkwartaalbijdrage cumul",
+      "waarde": 890.51,
+      "eenheid": "EUR/kwartaal"
+    },
+    {
+      "naam": "Hoofdberoep 2024 — maximumkwartaalbijdrage cumul",
+      "waarde": 5103.53,
+      "eenheid": "EUR/kwartaal"
+    },
+    {
+      "naam": "Bijberoep 2026 — minimuminkomen vrijstelling",
+      "waarde": 1922.15,
+      "eenheid": "EUR",
+      "toelichting": "Onder dit drempelinkomen: geen bijdragen verschuldigd."
+    },
+    {
+      "naam": "Bijberoep 2026 — maximumbijdragedrempel",
+      "waarde": 110562.42,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bijberoep 2026 — tarief schijf 1+2",
+      "waarde": 20.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bijberoep 2026 — tarief schijf 3",
+      "waarde": 14.16,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten maxistatuut 2026 — minimumbijdragedrempel",
+      "waarde": 7632.44,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Meewerkende echtgenoten maxistatuut 2026 — schijf 1 tarief",
+      "waarde": 20.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten maxistatuut 2026 — schijf 2 tarief",
+      "waarde": 20.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten maxistatuut 2026 — schijf 3 tarief",
+      "waarde": 14.16,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten ministatuut 2026 — schijf 1 tarief (tot € 17.374,08)",
+      "waarde": 0.79,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten ministatuut 2026 — schijf 2 tarief (€ 17.374,08-75.024,54)",
+      "waarde": 0.79,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten ministatuut 2026 — schijf 3 tarief (€ 75.024,54-110.562,42)",
+      "waarde": 0.51,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Meewerkende echtgenoten ministatuut 2026 — minimumkwartaalbijdrage cumul",
+      "waarde": 35.36,
+      "eenheid": "EUR/kwartaal"
+    },
+    {
+      "naam": "Student-zelfstandigen 2026 — vrijstelling tot",
+      "waarde": 8687.03,
+      "eenheid": "EUR",
+      "toelichting": "0% tarief tot dit grensinkomen."
+    },
+    {
+      "naam": "Student-zelfstandigen 2026 — schijf 2 tarief (€ 8.687,03-17.374,08)",
+      "waarde": 20.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Student-zelfstandigen 2026 — schijf 3 (> € 17.374,08)",
+      "waarde": "Dezelfde regels als sociale bijdragen in hoofdberoep (zonder vrijstelling van de eerste schijf van € 8.687,03)",
+      "eenheid": "formule"
+    }
+  ],
+  "drempel_regel": "Sinds bijdragejaar 2015: definitieve bijdragen op beroepsinkomsten van het jaar zelf. Voorlopige bijdragen worden eerst berekend op inkomsten drie jaar terug; nadien herrekend wanneer juiste inkomen bekend wordt. Tussentijds bijsturen toegelaten (verhogen of, mits goedkeuring sociale kas, verlagen). Alle tarieven inclusief 3,05% beheerskosten.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p138-p141 — Sociale bijdragen zelfstandigen: algemeen",
+    "wettekst": "KB nr. 38 van 27.07.1967 houdende inrichting van het sociaal statuut der zelfstandigen",
+    "cijferzakboekje_pagina": 138,
+    "verified_via": "Vision-extract PNG p147-p150 — drempels, tarieven (20,50% / 14,16% / 0,79% / 0,51%) en kwartaalbedragen letterlijk overgenomen voor bijdragejaren 2024-2026."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "zelfstandigen",
+    "sociale-bijdragen",
+    "rsvz",
+    "hoofdberoep",
+    "bijberoep",
+    "meewerkend-echtgenoot",
+    "student-zelfstandige"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p147-p150.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p147.png + p148.png + p149.png + p150.png",
+      "scope_keuze": "Bijdragejaren 2024-2026 voor alle vier statuten; cumul-bedragen geverifieerd (incl. 3,05% beheerskosten)."
+    }
+  }
+}

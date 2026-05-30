@@ -1,0 +1,194 @@
+{
+  "id": "publicatiekosten-jaarrekening",
+  "schema_version": "1.0",
+  "titel": "Jaarrekening: publicatiekosten NBB + neerleggingstermijn",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WVV",
+      "artikel": "art. 3:10 (neerlegging jaarrekening)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": 2026
+  },
+  "samenvatting": "Publicatietarieven NBB voor neerlegging jaarrekening (per type schema + via pdf of XBRL) + tarieftoeslag bij laattijdige neerlegging + termijnen (binnen 6 maanden na afsluiten boekjaar voor goedkeuring algemene vergadering, binnen 30 dagen na goedkeuring voor neerlegging).",
+  "criteria": [
+    {
+      "naam": "Tarief 2026 — Volledig schema — via pdf",
+      "waarde": 449.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verkort schema — via pdf",
+      "waarde": 159.5,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Micromodel — via pdf",
+      "waarde": 137.3,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verbetering — via pdf",
+      "waarde": 86.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verbetering micromodel — via pdf",
+      "waarde": 54.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Volledig schema — via XBRL",
+      "waarde": 379.5,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verkort schema — via XBRL",
+      "waarde": 89.4,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Micromodel — via XBRL",
+      "waarde": 67.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verbetering — via XBRL",
+      "waarde": 86.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2026 — Verbetering micromodel — via XBRL",
+      "waarde": 54.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Volledig schema — via pdf",
+      "waarde": 441.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Verkort schema — via pdf",
+      "waarde": 156.5,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Micromodel — via pdf",
+      "waarde": 134.6,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Volledig schema — via XBRL",
+      "waarde": 372.1,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Verkort schema — via XBRL",
+      "waarde": 87.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2025 — Micromodel — via XBRL",
+      "waarde": 65.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Volledig schema — via pdf",
+      "waarde": 427.4,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Verkort schema — via pdf",
+      "waarde": 151.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Micromodel — via pdf",
+      "waarde": 130.6,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Volledig schema — via XBRL",
+      "waarde": 360.7,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Verkort schema — via XBRL",
+      "waarde": 85.1,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tarief 2024 — Micromodel — via XBRL",
+      "waarde": 63.8,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Volledig schema — 9de maand",
+      "waarde": 504.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Volledig schema — 10de tot 12de maand",
+      "waarde": 755.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Volledig schema — 13de maand of later",
+      "waarde": 1510.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Verkort schema — 9de maand",
+      "waarde": 151.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Verkort schema — 10de tot 12de maand",
+      "waarde": 227.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag laattijdig 2026 — Verkort schema — 13de maand of later",
+      "waarde": 453.0,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Neerleggingstermijn — goedkeuring algemene vergadering",
+      "waarde": "Binnen 6 maanden na afsluiten boekjaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "Neerleggingstermijn — neerlegging na goedkeuring",
+      "waarde": "Binnen 30 dagen na goedkeuring",
+      "eenheid": "termijn"
+    }
+  ],
+  "drempel_regel": "Tariefverhoging bij laattijdige neerlegging wordt berekend op aantal maanden na afsluiten boekjaar (9de maand = +25% toeslag, 10de-12de maand = +50% toeslag, 13de maand of later = +100% toeslag). Voorbeeld boekjaar afsluit 31.12.2025: goedkeuring uiterlijk 30.06.2026, neerlegging uiterlijk 31.07.2026. Voorbeeld boekjaar 30.09.2025: goedkeuring uiterlijk 31.03.2026, neerlegging uiterlijk 30.04.2026.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p162 — Jaarrekening: publicatiekosten en neerleggingstermijn",
+    "wettekst": "WVV art. 3:10 (neerleggingstermijn); NBB-tariefbesluit",
+    "cijferzakboekje_pagina": 162,
+    "verified_via": "Vision-extract PNG p171 — tarieven 2024-2026 + tarieftoeslag bij laattijdigheid letterlijk overgenomen. Tarief-bron: http://www.nbb.be."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "jaarrekening",
+    "publicatiekosten",
+    "nbb",
+    "neerleggingstermijn",
+    "xbrl",
+    "pdf"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p171",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p171.png"
+    }
+  }
+}

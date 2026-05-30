@@ -1,0 +1,117 @@
+{
+  "id": "marktrente-rekening-courant-venb",
+  "schema_version": "1.0",
+  "titel": "Rekening-couranttegoed bedrijfsleider: marktrente (MFI-rentevoet + 2,5%) 2020-2026",
+  "categorie": "vennootschapsbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB",
+      "artikel": "art. 18 en 55"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2020,
+    "tot_boekjaar": null,
+    "wijziging_door": "Sinds 01.01.2020: marktrente = MFI-rentevoet november voorgaande jaar + 2,5%"
+  },
+  "samenvatting": "Interesten die bedrijfsleider of aandeelhouder ontvangt op rekening-courranttegoed bij vennootschap worden geherkwalificeerd in niet-aftrekbare dividenden in de mate dat de interestvoet niet marktconform is. Sinds 01.01.2020 wordt voor leningen < € 1.000.000 met variabel tarief en initiële rentebepaling ≤ één jaar aan niet-financiële instellingen de MFI-rentevoet van november van het voorafgaande jaar gehanteerd, verhoogd met 2,5%.",
+  "criteria": [
+    {
+      "naam": "MFI-rentevoet 2026 (november 2025)",
+      "waarde": 3.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2026",
+      "waarde": 6.0,
+      "eenheid": "%",
+      "toelichting": "MFI-rentevoet + 2,5%."
+    },
+    {
+      "naam": "MFI-rentevoet 2025 (november 2024)",
+      "waarde": 4.58,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2025",
+      "waarde": 7.08,
+      "eenheid": "%"
+    },
+    {
+      "naam": "MFI-rentevoet 2024 (november 2023)",
+      "waarde": 5.52,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2024",
+      "waarde": 8.02,
+      "eenheid": "%"
+    },
+    {
+      "naam": "MFI-rentevoet 2023 (november 2022)",
+      "waarde": 3.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2023",
+      "waarde": 5.7,
+      "eenheid": "%"
+    },
+    {
+      "naam": "MFI-rentevoet 2022 (november 2021)",
+      "waarde": 1.57,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2022",
+      "waarde": 4.07,
+      "eenheid": "%"
+    },
+    {
+      "naam": "MFI-rentevoet 2021 (november 2020)",
+      "waarde": 1.57,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2021",
+      "waarde": 4.07,
+      "eenheid": "%"
+    },
+    {
+      "naam": "MFI-rentevoet 2020 (november 2019)",
+      "waarde": 1.56,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Marktrente 2020",
+      "waarde": 4.06,
+      "eenheid": "%"
+    }
+  ],
+  "drempel_regel": "Sinds 01.01.2020 voor leningen < € 1.000.000 met variabel tarief en initiële rentebepaling van max één jaar aan niet-financiële instellingen: marktrente = MFI-rentevoet (Monetary Financial Institutions, NBB) van november voorgaande jaar verhoogd met 2,5%. MFI-rentevoet raadpleegbaar via https://dataexplorer.nbb.be (Leningen in EUR → Sector → niet-financiële instellingen → Aanpassen → Selectie → Periode).",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p151 — Rekening-courranttegoed: marktrente",
+    "wettekst": "WIB art. 18 en 55 (herkwalificatie interesten in dividenden)",
+    "cijferzakboekje_pagina": 151,
+    "verified_via": "Vision-extract PNG p160.png — MFI- en marktrentes 2020-2026 letterlijk overgenomen. Rekenkundige check: 3,50 + 2,5 = 6,00 ✓."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "rekening-courant",
+    "marktrente",
+    "mfi-rentevoet",
+    "wib",
+    "art-18",
+    "art-55",
+    "herkwalificatie"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p160",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p160.png"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "tarief-pb-diverse-inkomsten",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — afzonderlijke tarieven op diverse inkomsten (art. 171 WIB)",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "171 (afzonderlijke aanslagen)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "90 (diverse inkomsten begrip)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2013,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Diverse inkomsten in de personenbelasting worden niet aan progressief tarief belast maar aan een specifiek afzonderlijk tarief naargelang aard. Tarieven uiteenvallen historisch in drie regimes: sinds ij 2017 / aj. 2018, ij 2016 / aj. 2017 en ij 2013-2015. Belangrijkste tarieven: 33% (toevallige winsten/baten, meerwaarden grond < 5 jaar), 16,5% (prijzen, meerwaarden gebouwen, meerwaarden grond 5-8 jaar), 30% (loten leningen, onderverhuring vanaf ij 2017).",
+  "criteria": [
+    {
+      "naam": "Toevallige winsten of baten — sinds ij 2017",
+      "waarde": 33,
+      "eenheid": "%",
+      "tarief_pct": 33,
+      "toelichting": "Art. 90, 1° + 171, 1° a WIB. 33,00%."
+    },
+    {
+      "naam": "Prijzen en subsidies — sinds ij 2017",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 90, 2° + 171, 4° WIB. 16,50%."
+    },
+    {
+      "naam": "Loten van leningen — sinds ij 2017",
+      "waarde": 30,
+      "eenheid": "%",
+      "tarief_pct": 30,
+      "toelichting": "Art. 90, 6° + 171, 2° f WIB. 30,00% (verhoogd van 27% in ij 2016 en 25% in ij 2013-2015)."
+    },
+    {
+      "naam": "Inkomsten uit onderverhuring van gebouwen — sinds ij 2017",
+      "waarde": 30,
+      "eenheid": "%",
+      "tarief_pct": 30,
+      "toelichting": "Art. 90, 5° + 171, 2° e WIB. 30,00%."
+    },
+    {
+      "naam": "Inkomsten uit overdracht van huurovereenkomsten — sinds ij 2017",
+      "waarde": 30,
+      "eenheid": "%",
+      "tarief_pct": 30,
+      "toelichting": "30,00%."
+    },
+    {
+      "naam": "Inkomsten uit het verlenen van het recht om reclameborden te plaatsen — sinds ij 2017",
+      "waarde": 30,
+      "eenheid": "%",
+      "tarief_pct": 30,
+      "toelichting": "30,00%."
+    },
+    {
+      "naam": "Verhuring van jacht-, vis- en vogelvangstrechten — sinds ij 2017",
+      "waarde": 30,
+      "eenheid": "%",
+      "tarief_pct": 30,
+      "toelichting": "30,00%."
+    },
+    {
+      "naam": "Meerwaarde bij verkoop van gebouwen binnen 5 jaar (behalve hoofdverblijfplaats) — sinds ij 2017",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 90, 8° a + 171, 4° e WIB. 16,50%."
+    },
+    {
+      "naam": "Meerwaarde bij verkoop van grond binnen 5 jaar na verwerving",
+      "waarde": 33,
+      "eenheid": "%",
+      "tarief_pct": 33,
+      "toelichting": "Art. 90, 8° b + 171, 1° b WIB. 33,00%."
+    },
+    {
+      "naam": "Meerwaarde bij verkoop van grond na 5 jaar, maar binnen 8 jaar na verwerving",
+      "waarde": 16.5,
+      "eenheid": "%",
+      "tarief_pct": 16.5,
+      "toelichting": "Art. 90, 8° b + 171, 4° e WIB. 16,50%."
+    },
+    {
+      "naam": "Loten van leningen — IJ 2016 / aj. 2017",
+      "waarde": 27,
+      "eenheid": "%",
+      "tarief_pct": 27,
+      "toelichting": "Historisch tarief."
+    },
+    {
+      "naam": "Inkomsten uit onderverhuring + andere 30%-rubrieken — IJ 2016 / aj. 2017",
+      "waarde": 27,
+      "eenheid": "%",
+      "tarief_pct": 27,
+      "toelichting": "Historisch tarief — 27,00% i.p.v. 30%."
+    },
+    {
+      "naam": "Loten van leningen + onderverhuring + andere 30%-rubrieken — IJ 2013-2015",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "Historisch tarief — 25,00% i.p.v. 30%."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p93 — Diverse inkomsten: tarief personenbelasting",
+    "wettekst": "WIB92 art. 90 (diverse inkomsten begrip) jo. art. 171 (afzonderlijke aanslagen)",
+    "cijferzakboekje_pagina": 93,
+    "verified_via": "Vision-extract PNG p102.png + RAG-cross-check WIB92 art. 171 (afzonderlijke aanslagen voor inkomsten art. 90 woordelijk bevestigd) en art. 172 (verwijzing 33%/16,5% tarieven meerwaarden)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "diverse-inkomsten",
+    "afzonderlijke-aanslag",
+    "meerwaarden",
+    "art-90",
+    "art-171"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNG p102.png + RAG-cross-check WIB92 art. 90/171/172",
+      "png_pagina": "data/tarieven/pages/p102.png",
+      "rag_queries": [
+        "diverse inkomsten tarief 33 16,50 30 personenbelasting artikel 171"
+      ]
+    }
+  }
+}

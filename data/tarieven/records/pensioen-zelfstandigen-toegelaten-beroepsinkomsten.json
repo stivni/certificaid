@@ -1,0 +1,93 @@
+{
+  "id": "pensioen-zelfstandigen-toegelaten-beroepsinkomsten",
+  "schema_version": "1.0",
+  "titel": "Wettelijk pensioen zelfstandigen: toegelaten beroepsinkomsten — grensbedragen 2026",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB 22.12.1967",
+      "artikel": "pensioenregeling zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Jaarlijkse aanpassing"
+  },
+  "samenvatting": "Grensbedragen toegelaten beroepsinkomsten voor gepensioneerde zelfstandigen. Onbeperkt bijverdienen mag onder zelfde voorwaarden als werknemers (eigen rustpensioen + start vóór wettelijke pensioenleeftijd, of 45 jaar loopbaan, of overgangsuitkering). Grensbedragen voor zelfstandigen liggen lager dan voor werknemers (omdat ze als netto-inkomen worden berekend).",
+  "criteria": [
+    {
+      "naam": "Jonger dan pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — zonder kinderlast",
+      "waarde": 8346,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — met kinderlast",
+      "waarde": 12519,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — alleen overlevingspensioen — zonder kinderlast",
+      "waarde": 19431,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — alleen overlevingspensioen — met kinderlast",
+      "waarde": 29147,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — flexijob — zonder kinderlast",
+      "waarde": 8121,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — flexijob — met kinderlast",
+      "waarde": 8121,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — zonder kinderlast",
+      "waarde": "Onbeperkt",
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — met kinderlast",
+      "waarde": "Onbeperkt",
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — alleen overlevingspensioen — zonder kinderlast",
+      "waarde": 24105,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — alleen overlevingspensioen — met kinderlast",
+      "waarde": 29321,
+      "eenheid": "EUR/jaar"
+    }
+  ],
+  "drempel_regel": "Identieke voorwaarden als werknemers: onbeperkt bijverdienen indien (a) eigen rustpensioen vanaf jaar waarin wettelijke pensioenleeftijd bereikt; OF (b) loopbaan ≥ 45 jaar; OF (c) overgangsuitkering. Anders: proportionele vermindering pensioenuitkering bij overschrijding.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p144 — Wettelijk pensioen zelfstandigen: toegelaten beroepsinkomsten",
+    "wettekst": "KB 22.12.1967 (pensioenregeling zelfstandigen); RSVZ",
+    "cijferzakboekje_pagina": 144,
+    "verified_via": "Vision-extract PNG p153.png — grensbedragen overgenomen uit beide tabellen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "pensioen",
+    "zelfstandigen",
+    "toegelaten-arbeid",
+    "grensbedragen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p153.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p153.png"
+    }
+  }
+}

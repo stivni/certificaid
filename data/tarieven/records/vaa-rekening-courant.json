@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "vaa-rekening-courant",
+  "titel": "Voordeel van alle aard: rekening-courant — fictieve debetrente",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "KB/WIB92",
+      "artikel": "18, §3, 1 d"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2018,
+    "tot_boekjaar": null,
+    "wijziging_door": "Jaarlijkse aanpassing referentie-interestvoet"
+  },
+  "samenvatting": "Wie kan beschikken over gelden van zijn vennootschap of zijn werkgever zonder daarvoor interesten te moeten betalen, wordt belast op een zgn. voordeel van alle aard van een zgn. voordeel fictieve debetrente. Dit voordeel wordt forfaitair bepaald aan de hand van een referentie-interestvoet die jaarlijks kan verschillen. Berekening: gemiddelde stand × interestvoet. Bij weinig schommelingen mag het op jaarbasis berekend worden, anders maandelijks.",
+  "criteria": [
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2025 / aj. 2026",
+      "tarief_pct": 5.57,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2024 / aj. 2025",
+      "tarief_pct": 6.25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2023 / aj. 2024",
+      "tarief_pct": 5.43,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2022 / aj. 2023",
+      "tarief_pct": 7.14,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2021 / aj. 2022",
+      "tarief_pct": 6.48,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2020 / aj. 2021",
+      "tarief_pct": 10.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2019 / aj. 2020",
+      "tarief_pct": 8.78,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Referentie-interestvoet — inkomstenjaar 2018 / aj. 2019",
+      "tarief_pct": 8.94,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Berekening — gemiddelde stand × interestvoet",
+      "waarde": "Gemiddelde stand R/C × referentie-interestvoet",
+      "eenheid": "formule",
+      "toelichting": "Bij weinig schommelingen: jaarbasis. Anders maandelijks. Voorbeeld: R/C 01.01.2025 € 5.000; R/C 31.12.2025 € 15.000; gemiddelde € 10.000; VAA = € 10.000 × 5,57% = € 557."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p119 — Voordelen van alle aard: rekening-courant",
+    "wettekst": "Art. 18, §3, 1 d KB/WIB92",
+    "cijferzakboekje_pagina": 119,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p128.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vaa",
+    "rekening-courant",
+    "kb-wib92",
+    "debetrente"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "voorwaarden-fiscale-lichte-vracht",
+  "titel": "Fiscale lichte vracht: voorwaarden per type pick-up",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WIGB",
+      "artikel": "Art. 1.1.0.0.2 VCF (Vlaanderen); art. 4, §2 WIGB (Brussel en Wallonië)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Pick-ups: Waals (01.01.2022), Vlaams (01.01.2023), Brussels Hoofdstedelijk (01.01.2025) — voorwaarde dat ze aan een ondernemingsnummer verbonden zijn"
+  },
+  "samenvatting": "Voorwaarden voor fiscale kwalificatie als 'lichte vracht' (i.p.v. gewone personenauto), met de gunstige fiscale gevolgen voor inkomstenbelastingen, btw, verkeersbelasting en BIV. Twee hoofdtypes: (1) pick-up met open laadbak — enkele of dubbele cabine; (2) pick-up met gesloten laadruimte — enkele of dubbele cabine. Sleutelvoorwaarden: MTM ≤ 3.500 kg, beperkt aantal cabinezitplaatsen (2 of 6 excl. bestuurder), laadruimte afgesloten/afgescheiden, geen verankeringspunten in laadvloer voor banken. Voor pick-ups in Vlaanderen (sinds 01.01.2022), Waals Gewest (sinds 01.01.2023), Brussels Hoofdstedelijk (sinds 01.01.2025): bijkomende voorwaarde dat ze aan een ondernemingsnummer verbonden zijn voor verkeersbelasting en BIV.",
+  "criteria": [
+    {
+      "naam": "Open laadbak enkele cabine — MTM max",
+      "waarde": 3500,
+      "eenheid": "kg"
+    },
+    {
+      "naam": "Open laadbak enkele cabine — voorwaarde cabine",
+      "waarde": "Volledig afgescheiden van laadruimte",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Open laadbak enkele cabine — max plaatsen cabine",
+      "waarde": 2,
+      "eenheid": "plaatsen (excl. bestuurder)"
+    },
+    {
+      "naam": "Open laadbak enkele cabine — laadbak",
+      "waarde": "Open (dekzeil of deksel toegelaten)",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Open laadbak dubbele cabine — MTM max",
+      "waarde": 3500,
+      "eenheid": "kg"
+    },
+    {
+      "naam": "Open laadbak dubbele cabine — voorwaarde cabine",
+      "waarde": "Volledig afgescheiden van laadruimte",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Open laadbak dubbele cabine — max plaatsen cabine",
+      "waarde": 6,
+      "eenheid": "plaatsen (excl. bestuurder)"
+    },
+    {
+      "naam": "Open laadbak dubbele cabine — laadbak",
+      "waarde": "Open (dekzeil of deksel toegelaten)",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Gesloten laadruimte enkele cabine — MTM max",
+      "waarde": 3500,
+      "eenheid": "kg"
+    },
+    {
+      "naam": "Gesloten laadruimte enkele cabine — max plaatsen cabine",
+      "waarde": 2,
+      "eenheid": "plaatsen (excl. bestuurder)"
+    },
+    {
+      "naam": "Gesloten laadruimte enkele cabine — afscheiding",
+      "waarde": "Afgesloten scheidingswand evt. door rugleuning zetels",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Gesloten laadruimte enkele cabine — % wielbasis",
+      "waarde": 50,
+      "eenheid": "% (laadvloer ≥ 50% wielbasis)",
+      "toelichting": "Laadvloer moet, gemeten in de langsrichting tussen elk punt van de scheidingswand en de achterzijde van de laadruimte, minstens 50% van de lengte van de wielbasis zijn."
+    },
+    {
+      "naam": "Gesloten laadruimte enkele cabine — voorwaarde laadvloer",
+      "waarde": "Hele oppervlakte vast uit één hard materiaal (chassis of duurzaam bevestigd, geen verankeringspunten)",
+      "eenheid": "voorwaarde",
+      "toelichting": "Laadvloer moet, gemeten in de hele oppervlakte van er één met chassis of erop vaste of duurzame wijze aan bevestigd zijn (bv. op gelast of duurzaam bevestigd met bouten met afbrekende kop). Er mogen in de laadvloer geen verankeringspunten aanwezig zijn voor bijkomende banken, zetels of veiligheidsgordels."
+    },
+    {
+      "naam": "Gesloten laadruimte dubbele cabine — MTM max",
+      "waarde": 3500,
+      "eenheid": "kg"
+    },
+    {
+      "naam": "Gesloten laadruimte dubbele cabine — max plaatsen cabine",
+      "waarde": 6,
+      "eenheid": "plaatsen (excl. bestuurder)"
+    },
+    {
+      "naam": "Gesloten laadruimte dubbele cabine — afscheiding",
+      "waarde": "Volledig afgesloten met niet-wegneembare en ononderbroken scheidingswand",
+      "eenheid": "voorwaarde",
+      "toelichting": "Over de volledige breedte en hoogte van de binnenruimte én uit één hard materiaal (dus één net, een hekwerk of de rugleuning van de zetels zijn hier onvoldoende)."
+    },
+    {
+      "naam": "Gesloten laadruimte dubbele cabine — % wielbasis",
+      "waarde": 50,
+      "eenheid": "% (laadvloer ≥ 50% wielbasis)"
+    },
+    {
+      "naam": "Gesloten laadruimte dubbele cabine — verankeringspunten",
+      "waarde": "Geen in laadvloer",
+      "eenheid": "voorwaarde"
+    },
+    {
+      "naam": "Voorwaarde ondernemingsnummer — Waals Gewest",
+      "waarde": "Sinds 01.01.2022",
+      "eenheid": "datum",
+      "toelichting": "Pick-ups komen enkel in aanmerking als fiscale lichte vracht voor de verkeersbelasting en BIV mits voldaan aan alle andere vereiste voorwaarden."
+    },
+    {
+      "naam": "Voorwaarde ondernemingsnummer — Vlaams Gewest",
+      "waarde": "Sinds 01.01.2023",
+      "eenheid": "datum"
+    },
+    {
+      "naam": "Voorwaarde ondernemingsnummer — Brussels Hoofdstedelijk Gewest",
+      "waarde": "Sinds 01.01.2025",
+      "eenheid": "datum"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p177 — Fiscale lichte vracht: voorwaarden",
+    "wettekst": "Art. 1.1.0.0.2 VCF (Vlaanderen); art. 4, §2 WIGB (Brussel en Wallonië)",
+    "cijferzakboekje_pagina": 177,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p186.png"
+  },
+  "tags": [
+    "fiscale-lichte-vracht",
+    "pick-up",
+    "verkeer",
+    "biv",
+    "verkeersbelasting"
+  ]
+}

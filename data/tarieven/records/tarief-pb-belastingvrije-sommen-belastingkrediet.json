@@ -1,0 +1,68 @@
+{
+  "id": "tarief-pb-belastingvrije-sommen-belastingkrediet",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — terugbetaalbaar belastingkrediet voor onbenutte belastingvrije som kinderen ten laste",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "134, §3"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2021,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Wanneer de belastingvrije som met betrekking tot kinderen ten laste niet volledig kan worden aangerekend op het belastbaar inkomen, wordt het saldo omgezet in een terugbetaalbaar belastingkrediet. Maximum per kind: € 550 voor ij 2024; € 530 voor ij 2023 (€ 265 in co-ouderschap); € 480 voor ij 2022.",
+  "criteria": [
+    {
+      "naam": "Maximumbedrag belastingkrediet per kind ten laste — inkomstenjaar 2024 (aj. 2025)",
+      "waarde": 550,
+      "eenheid": "EUR",
+      "toelichting": "Art. 134 WIB. € 550 voor inkomstenjaar 2024 (in co-ouderschap € 275). Verhoogd door Wet 18.12.2025, BS 30.12.2025."
+    },
+    {
+      "naam": "Maximumbedrag belastingkrediet per kind ten laste — inkomstenjaar 2023 (aj. 2024)",
+      "waarde": 530,
+      "eenheid": "EUR",
+      "toelichting": "€ 530 voor inkomstenjaar 2023 (in co-ouderschap € 265)."
+    },
+    {
+      "naam": "Maximumbedrag belastingkrediet per kind ten laste — inkomstenjaar 2022 (aj. 2023)",
+      "waarde": 480,
+      "eenheid": "EUR",
+      "toelichting": "€ 480 voor inkomstenjaar 2022."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-pb-belastingvrije-sommen-algemeen",
+    "tarief-pb-belastingvrije-sommen-personen-ten-laste"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p78 — Belastingvrije sommen: belastingkrediet",
+    "wettekst": "WIB92 art. 134, §3 (omzetting in terugbetaalbaar belastingkrediet)",
+    "cijferzakboekje_pagina": 78,
+    "verified_via": "Vision-extract PNG p087.png + RAG-cross-check WIB92 art. 134 §3 (omzetting in terugbetaalbaar belastingkrediet voor saldo van toeslagen voor kinderen ten laste woordelijk bevestigd)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "belastingkrediet",
+    "kinderen-ten-laste",
+    "art-134",
+    "terugbetaalbaar"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNG p087.png + RAG-cross-check WIB92 art. 134",
+      "png_pagina": "data/tarieven/pages/p087.png",
+      "rag_queries": [
+        "belastingkrediet kinderen ten laste artikel 134 terugbetaalbaar"
+      ]
+    }
+  }
+}

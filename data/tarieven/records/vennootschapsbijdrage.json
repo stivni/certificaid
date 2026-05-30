@@ -1,0 +1,94 @@
+{
+  "id": "vennootschapsbijdrage",
+  "schema_version": "1.0",
+  "titel": "Vennootschapsbijdrage (jaarlijkse sociale bijdrage vennootschappen)",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "Wet 30.12.1992",
+      "artikel": "jaarlijkse bijdrage vennootschappen — sociaal statuut zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Jaarlijks aangepaste balanstotaal-drempel"
+  },
+  "samenvatting": "Vennootschappen betalen een sociale bijdrage per kalenderjaar (eenmaal per jaar, niet per kwartaal). Bedrag varieert naargelang balanstotaal van het voorlaatste afgesloten boekjaar. Vrijstellingen: (a) jonge vennootschappen onder voorwaarden; (b) slapende vennootschappen met attest Directe Belastingen; (c) ontbinding/vereffening/faillissement/gerechtelijk akkoord (jaar zelf).",
+  "criteria": [
+    {
+      "naam": "Bijdrage 2026 (voorlaatste boekjaar 2024) — balanstotaal ≤ € 879.163,40",
+      "waarde": 409.3,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2026 (voorlaatste boekjaar 2024) — balanstotaal > € 879.163,40",
+      "waarde": 1022.38,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2025 (voorlaatste boekjaar 2023) — balanstotaal ≤ € 858.605,72",
+      "waarde": 399.73,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2025 (voorlaatste boekjaar 2023) — balanstotaal > € 858.605,72",
+      "waarde": 998.47,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2024 (voorlaatste boekjaar 2022) — balanstotaal ≤ € 831.990,83",
+      "waarde": 387.34,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2024 (voorlaatste boekjaar 2022) — balanstotaal > € 831.990,83",
+      "waarde": 967.52,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2023 (voorlaatste boekjaar 2021) — balanstotaal ≤ € 825.750,09",
+      "waarde": 384.44,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2023 (voorlaatste boekjaar 2021) — balanstotaal > € 825.750,09",
+      "waarde": 960.26,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2022 (voorlaatste boekjaar 2020) — balanstotaal ≤ € 746.410,17",
+      "waarde": 347.5,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Bijdrage 2022 (voorlaatste boekjaar 2020) — balanstotaal > € 746.410,17",
+      "waarde": 868.0,
+      "eenheid": "EUR/jaar"
+    }
+  ],
+  "drempel_regel": "Vrijstellingen: (1) Jonge vennootschappen — startende vennootschappen ingeschreven bij KBO, niet in NV-vorm (of soortgelijke buitenlandse rechtsvorm), en zaakvoerders + minstens helft werkende vennoten waren in laatste 10 jaar ten hoogste 3 jaar zelfstandig: vrijstelling eerste 3 jaar. (2) Slapende vennootschappen — attest Directe Belastingen dat gedurende meerdere volledige kalenderjaren geen activiteit uitgeoefend. (3) Vereffening/faillissement/gerechtelijk akkoord — geen bijdrage in het jaar waarin de gebeurtenis zich voordoet.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p143 — Vennootschapsbijdrage",
+    "wettekst": "Wet 30.12.1992 (jaarlijkse bijdrage vennootschappen tot sociaal statuut zelfstandigen)",
+    "cijferzakboekje_pagina": 143,
+    "verified_via": "Vision-extract PNG p152.png — bedragen 2022-2026 letterlijk overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "vennootschap",
+    "sociale-bijdrage",
+    "vennootschapsbijdrage",
+    "rsvz",
+    "balanstotaal"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p152.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p152.png"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "forfait-beroepskosten-bedrijfsleiders",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — wettelijk forfait beroepskosten voor bedrijfsleiders en meewerkende echtgenoten",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "51, lid 2, 2° (bedrijfsleiders)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "51, lid 2, 3° (meewerkende echtgenoten)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Wettelijk forfait beroepskosten voor bedrijfsleiders (3%) en meewerkende echtgenoten (5%) — tweeschijvenstructuur (3%/5% tot grensbedrag, 0% boven). Grensbedragen geïndexeerd per inkomstenjaar 2023-2026.",
+  "criteria": [
+    {
+      "naam": "Bedrijfsleiders — forfait 3% — grens en maximumbedrag IJ 2026 / aj. 2027",
+      "waarde": 3200.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 106666.49,
+      "tarief_pct": 3,
+      "toelichting": "Art. 51, lid 2, 2° WIB. Schijf € 0,00 - € 106.666,49 → 3% → € 3.200,00. Schijf > € 106.666,50 → 0% → € 0,00. Maximumbedrag forfait: € 3.200,00."
+    },
+    {
+      "naam": "Meewerkende echtgenoten — forfait 5% — grens en maximumbedrag IJ 2026 / aj. 2027",
+      "waarde": 5340.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 106799.89,
+      "tarief_pct": 5,
+      "toelichting": "Art. 51, lid 2, 3° WIB. Schijf € 0,00 - € 106.799,89 → 5% → € 5.340,00. Schijf > € 106.799,90 → 0% → € 0,00."
+    },
+    {
+      "naam": "Bedrijfsleiders — forfait 3% — maximumbedrag IJ 2025 / aj. 2026",
+      "waarde": 3130.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 104333.16,
+      "tarief_pct": 3,
+      "toelichting": "Schijf € 0 - € 104.333,16 → 3% → € 3.130,00."
+    },
+    {
+      "naam": "Meewerkende echtgenoten — forfait 5% — maximumbedrag IJ 2025 / aj. 2026",
+      "waarde": 5210.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 104199.89,
+      "tarief_pct": 5,
+      "toelichting": "Schijf € 0 - € 104.199,89 → 5% → € 5.210,00."
+    },
+    {
+      "naam": "Bedrijfsleiders — forfait 3% — maximumbedrag IJ 2024 / aj. 2025",
+      "waarde": 3030.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 100999.83,
+      "tarief_pct": 3,
+      "toelichting": "Schijf € 0 - € 100.999,83 → 3% → € 3.030,00."
+    },
+    {
+      "naam": "Meewerkende echtgenoten — forfait 5% — maximumbedrag IJ 2024 / aj. 2025",
+      "waarde": 5050.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 100999.89,
+      "tarief_pct": 5,
+      "toelichting": "Schijf € 0 - € 100.999,89 → 5% → € 5.050,00."
+    },
+    {
+      "naam": "Bedrijfsleiders — forfait 3% — maximumbedrag IJ 2023 / aj. 2024",
+      "waarde": 2910.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 96999.83,
+      "tarief_pct": 3,
+      "toelichting": "Schijf € 0 - € 96.999,83 → 3% → € 2.910,00."
+    },
+    {
+      "naam": "Meewerkende echtgenoten — forfait 5% — maximumbedrag IJ 2023 / aj. 2024",
+      "waarde": 4850.0,
+      "eenheid": "EUR",
+      "ondergrens": 0,
+      "bovengrens": 96999.89,
+      "tarief_pct": 5,
+      "toelichting": "Schijf € 0 - € 96.999,89 → 5% → € 4.850,00."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-pb-beroepsinkomsten",
+    "forfait-beroepskosten-werknemers-zelfstandigen"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p90 — Beroepskosten: wettelijk forfait voor bedrijfsleiders en meewerkende echtgenoten",
+    "wettekst": "WIB92 art. 51, lid 2, 2° (bedrijfsleiders) en 3° (meewerkende echtgenoten)",
+    "cijferzakboekje_pagina": 90,
+    "verified_via": "Vision-extract PNG p099.png + RAG-cross-check WIB92 art. 51 (percentages 3%/5% voor bedrijfsleiders/meewerkende echtgenoten woordelijk bevestigd)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "bedrijfsleiders",
+    "meewerkende-echtgenoot",
+    "forfait",
+    "beroepskosten",
+    "art-51"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNG p099.png + RAG-cross-check WIB92 art. 51",
+      "png_pagina": "data/tarieven/pages/p099.png",
+      "rag_queries": [
+        "forfaitaire beroepskosten werknemers artikel 51 WIB92"
+      ],
+      "rekenkundige_check": "Aj. 2027 BL: 0.03*106.666,49=3.199,99 ≈ 3.200,00 OK; ME: 0.05*106.799,89=5.339,99 ≈ 5.340,00 OK."
+    }
+  }
+}

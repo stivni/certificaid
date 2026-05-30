@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "reisvergoeding-binnenland-werkgever",
+  "titel": "Forfaitaire reisvergoedingen binnenlandse dienst- of zakenreizen",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "31, tweede lid 1°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2018,
+    "tot_boekjaar": null,
+    "wijziging_door": "Jaarlijkse indexatie"
+  },
+  "samenvatting": "Forfaitaire dagvergoeding voor binnenlandse dienst- of zakenreizen van ten minste 6 uur — vergoeding voor avondmaal, nachtverblijf en ontbijt. Niet belastbaar bij genieter, aftrekbaar voor werkgever. Bij meer dan 40 dagen per jaar op dezelfde plaats: 'vaste plaats van tewerkstelling' — dan geen kost eigen aan de werkgever.",
+  "criteria": [
+    {
+      "naam": "Dagvergoeding sinds 01.03.2026",
+      "waarde": 21.64,
+      "eenheid": "EUR",
+      "toelichting": "Binnenlandse dienstreis van minstens 6 uur. Maandelijkse forfaitaire vergoeding mogelijk: max 16x dagvergoeding = € 346,24."
+    },
+    {
+      "naam": "Toeslag logies sinds 01.03.2026",
+      "waarde": 162.35,
+      "eenheid": "EUR",
+      "toelichting": "Toeslag voor logies op kosten van het personeelslid."
+    },
+    {
+      "naam": "Dagvergoeding 01.03.2025 - 28.02.2026",
+      "waarde": 21.22,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.03.2025 - 28.02.2026",
+      "waarde": 159.17,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.06.2024 - 28.02.2025",
+      "waarde": 20.8,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.06.2024 - 28.02.2025",
+      "waarde": 156.05,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.12.2023 - 31.05.2024",
+      "waarde": 20.39,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.12.2023 - 31.05.2024",
+      "waarde": 152.99,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.01.2023 - 30.11.2023",
+      "waarde": 19.99,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.01.2023 - 30.11.2023",
+      "waarde": 149.99,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.12.2022 - 31.12.2022",
+      "waarde": 19.6,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.12.2022 - 31.12.2022",
+      "waarde": 147.05,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.09.2022 - 30.11.2022",
+      "waarde": 19.22,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.09.2022 - 30.11.2022",
+      "waarde": 144.16,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.06.2022 - 31.08.2022",
+      "waarde": 18.84,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.06.2022 - 31.08.2022",
+      "waarde": 141.33,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.04.2022 - 31.05.2022",
+      "waarde": 18.47,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.04.2022 - 31.05.2022",
+      "waarde": 138.57,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.02.2022 - 31.03.2022",
+      "waarde": 18.11,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.02.2022 - 31.03.2022",
+      "waarde": 135.85,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.10.2021 - 31.01.2022",
+      "waarde": 17.75,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.10.2021 - 31.01.2022",
+      "waarde": 133.18,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.04.2020 - 30.09.2021",
+      "waarde": 17.41,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.04.2020 - 30.09.2021",
+      "waarde": 130.58,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dagvergoeding 01.10.2018 - 31.03.2020",
+      "waarde": 17.06,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Toeslag logies 01.10.2018 - 31.03.2020",
+      "waarde": 128.01,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Drempel 'vaste plaats van tewerkstelling'",
+      "waarde": 40,
+      "eenheid": "dagen/jaar",
+      "toelichting": "Wanneer een werknemer meer dan 40 dagen van het belastbaar tijdperk aanwezig is op dezelfde plaats, wordt deze plaats als een 'vaste plaats van tewerkstelling' beschouwd. Reisvergoedingen voor deze verplaatsingen worden niet beschouwd als een kost eigen aan de werkgever."
+    },
+    {
+      "naam": "Minimumduur dienstreis",
+      "waarde": 6,
+      "eenheid": "uur",
+      "toelichting": "Uitgaven gedaan tijdens binnenlandse dienst- of zakenreizen van ten minste zes uur mogen forfaitair terugbetaald worden."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p98 — Kosten eigen aan de werkgever: reisvergoedingen binnenland",
+    "wettekst": "WIB92 art. 31 lid 2 1° (terugbetaling kosten eigen aan de werkgever)",
+    "cijferzakboekje_pagina": 98,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p107.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "kosten-eigen-aan-werkgever",
+    "reisvergoeding",
+    "binnenland",
+    "loon"
+  ]
+}

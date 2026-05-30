@@ -1,0 +1,377 @@
+{
+  "id": "vergelijkende-tabel-vennootschapsvormen",
+  "schema_version": "1.0",
+  "titel": "Vennootschapsvormen: vergelijkende tabel (BV/NV/VOF/CommV/CV) sinds 01.05.2019",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WVV",
+      "artikel": "art. 5:1, 7:1, 8:1, 9:1 (vennootschapsvormen)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2019,
+    "tot_boekjaar": null,
+    "wijziging_door": "WVV (Wet 23.03.2019)"
+  },
+  "samenvatting": "Vergelijkende tabel voor 5 belangrijkste vennootschapsvormen sinds 01.05.2019 (WVV): BV, NV, VOF, CommV, CV. Vergelijking op 5 dimensies: (a) vennoten/aandeelhouders en aansprakelijkheid; (b) oprichting (oprichtersaansprakelijkheid + oprichtingsakte + financieel plan + openbaarmaking); (c) kapitaal (minimum + minimumvolstorting); (d) formaliteiten inzake (quasi-)inbreng + aandelen + winstuitkering; (e) bestuur (naam + organisatie + minimumaantal + ontslag + tegenstrijdig belang).",
+  "criteria": [
+    {
+      "naam": "BV — minimumaantal vennoten/aandeelhouders",
+      "waarde": 1,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "NV — minimumaantal vennoten/aandeelhouders",
+      "waarde": 1,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "VOF — minimumaantal vennoten/aandeelhouders",
+      "waarde": 2,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "CommV — minimumaantal vennoten/aandeelhouders",
+      "waarde": 2,
+      "eenheid": "personen",
+      "toelichting": "Commanditaire vennoten beperkt; gecommanditeerde vennoten: onbeperkt."
+    },
+    {
+      "naam": "CV — minimumaantal vennoten/aandeelhouders",
+      "waarde": 3,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "BV — aansprakelijkheid vennoten/aandeelhouders",
+      "waarde": "Beperkt",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — aansprakelijkheid vennoten/aandeelhouders",
+      "waarde": "Beperkt",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "VOF — aansprakelijkheid vennoten/aandeelhouders",
+      "waarde": "Onbeperkt",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — aansprakelijkheid vennoten",
+      "waarde": "Commanditaire vennoten: beperkt; gecommanditeerde vennoten: onbeperkt",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — aansprakelijkheid vennoten/aandeelhouders",
+      "waarde": "Beperkt",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — oprichtersaansprakelijkheid",
+      "waarde": "Alle verschijnenden, tenzij akte onderscheid maakt tussen oprichters (samen ten minste 1/3 van kapitaal) en inschrijvers",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — oprichtersaansprakelijkheid",
+      "waarde": "Alle verschijnenden, tenzij akte onderscheid maakt tussen oprichters (samen ten minste 1/3 van kapitaal) en inschrijvers",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "VOF — oprichtersaansprakelijkheid",
+      "waarde": "Geen bijzondere oprichtersaansprakelijkheid",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — oprichtersaansprakelijkheid",
+      "waarde": "Geen bijzondere oprichtersaansprakelijkheid",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — oprichtersaansprakelijkheid",
+      "waarde": "Alle verschijnenden, tenzij akte onderscheid maakt tussen oprichters (samen ten minste 1/3 van kapitaal) en inschrijvers",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — oprichtingsakte",
+      "waarde": "Notarieel",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "NV — oprichtingsakte",
+      "waarde": "Notarieel",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "VOF — oprichtingsakte",
+      "waarde": "Onderhands, tenzij inbreng onroerend goed",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "CommV — oprichtingsakte",
+      "waarde": "Onderhands, tenzij inbreng onroerend goed",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "CV — oprichtingsakte",
+      "waarde": "Notarieel",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "BV — financieel plan verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — financieel plan verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "VOF — financieel plan verplicht?",
+      "waarde": "Neen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — financieel plan verplicht?",
+      "waarde": "Neen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — financieel plan verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — openbaarmaking",
+      "waarde": "Bij uittreksel + expeditie",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "NV — openbaarmaking",
+      "waarde": "Bij uittreksel + expeditie",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "VOF — openbaarmaking",
+      "waarde": "Bij uittreksel",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "CommV — openbaarmaking",
+      "waarde": "Bij uittreksel",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "CV — openbaarmaking",
+      "waarde": "Bij uittreksel + expeditie",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "BV — minimumkapitaal",
+      "waarde": "Geen",
+      "eenheid": "EUR",
+      "toelichting": "Toereikend aanvangsvermogen vereist (WVV)."
+    },
+    {
+      "naam": "NV — minimumkapitaal",
+      "waarde": 61500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "VOF — minimumkapitaal",
+      "waarde": "Geen",
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "CommV — minimumkapitaal",
+      "waarde": "Geen",
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "CV — minimumkapitaal",
+      "waarde": "Geen",
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "BV — minimumvolstorting globaal",
+      "waarde": "n.v.t.",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — minimumvolstorting globaal",
+      "waarde": 61500,
+      "eenheid": "EUR",
+      "toelichting": "Volledig: geld onmiddellijk 1/4, natura volledig binnen vijf jaar."
+    },
+    {
+      "naam": "VOF — minimumvolstorting globaal",
+      "waarde": "n.v.t.",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — minimumvolstorting globaal",
+      "waarde": "n.v.t.",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — minimumvolstorting globaal",
+      "waarde": "n.v.t.",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — dubbele boekhouding verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — dubbele boekhouding verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "VOF — dubbele boekhouding verplicht?",
+      "waarde": "Als jaaromzet > € 500.000",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — dubbele boekhouding verplicht?",
+      "waarde": "Als jaaromzet > € 500.000",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — dubbele boekhouding verplicht?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — jaarrekening neerleggen?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "NV — jaarrekening neerleggen?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "VOF — jaarrekening neerleggen?",
+      "waarde": "Indien groot en 1 vennootschap-rechtspersoon",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CommV — jaarrekening neerleggen?",
+      "waarde": "Indien groot en 1 vennootschap-rechtspersoon",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "CV — jaarrekening neerleggen?",
+      "waarde": "Ja",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "BV — naam bestuurder",
+      "waarde": "Bestuurders",
+      "eenheid": "term"
+    },
+    {
+      "naam": "NV — naam bestuurder",
+      "waarde": "Bestuurders",
+      "eenheid": "term"
+    },
+    {
+      "naam": "VOF — naam bestuurder",
+      "waarde": "Zaakvoerders",
+      "eenheid": "term"
+    },
+    {
+      "naam": "CommV — naam bestuurder",
+      "waarde": "Zaakvoerders",
+      "eenheid": "term"
+    },
+    {
+      "naam": "CV — naam bestuurder",
+      "waarde": "Bestuurders",
+      "eenheid": "term"
+    },
+    {
+      "naam": "BV — minimumaantal bestuurders",
+      "waarde": 1,
+      "eenheid": "personen",
+      "toelichting": "1 of meer bestuurders, al dan niet in college."
+    },
+    {
+      "naam": "NV — minimumaantal bestuurders",
+      "waarde": "Indien college (monistisch of duaal): 3 leden per college; anders 1 bestuurder",
+      "eenheid": "personen"
+    },
+    {
+      "naam": "VOF — minimumaantal bestuurders",
+      "waarde": 1,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "CommV — minimumaantal bestuurders",
+      "waarde": 1,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "CV — minimumaantal bestuurders",
+      "waarde": 1,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "BV — duur mandaat bestuurder",
+      "waarde": "Bepaald of onbepaald",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "NV — duur mandaat bestuurder",
+      "waarde": "Maximaal 6 jaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "VOF — duur mandaat zaakvoerder",
+      "waarde": "Bepaald of onbepaald",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "CommV — duur mandaat zaakvoerder",
+      "waarde": "Bepaald of onbepaald",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "CV — duur mandaat bestuurder",
+      "waarde": "Bepaald of onbepaald",
+      "eenheid": "termijn"
+    }
+  ],
+  "drempel_regel": "Geen drempels — descriptieve vergelijkende tabel sinds 01.05.2019 (WVV). Bedoeld als overzichtsdocument bij vennootschapskeuze. Kapitaal-vereisten WVV: BV/VOF/CommV/CV hebben geen minimumkapitaal (toereikend aanvangsvermogen vereist via financieel plan voor BV/CV); NV € 61.500 minimum kapitaal volledig volstort. Voor BV/NV/CV is dubbele boekhouding altijd verplicht; voor VOF/CommV alleen indien jaaromzet > € 500.000.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p165-p167 — Vennootschapsvormen: vergelijkende tabel sinds 01.05.2019",
+    "wettekst": "WVV (Wet 23.03.2019) — Boek 5 (BV), Boek 6 (CV), Boek 7 (NV), Boek 4 (VOF/CommV)",
+    "cijferzakboekje_pagina": 165,
+    "verified_via": "Vision-extract PNG p174-p176 — vergelijkende tabel voor 5 vormen (BV/NV/VOF/CommV/CV) op 5 dimensies overgenomen. P175 en P176 vervolg."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wvv",
+    "vennootschapsvormen",
+    "bv",
+    "nv",
+    "vof",
+    "commv",
+    "cv",
+    "vergelijking"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p174-p176",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p174.png + p175.png + p176.png",
+      "scope_keuze": "Descriptieve tabel met juridische karakteristieken — bewust opgenomen als tarief-record omdat tabellaire structuur cijfermatige elementen bevat (NV € 61.500 kapitaal, € 500.000 omzetdrempel boekhouding, 3 vennoten CV, 6 jaar mandaat NV) en de tabel een didactische kapstok is voor studie-eindexamen."
+    }
+  }
+}

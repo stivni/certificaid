@@ -1,0 +1,320 @@
+{
+  "id": "successierechten-brussels",
+  "schema_version": "1.0",
+  "titel": "Successierechten — Brussels Hoofdstedelijk gewest (2026)",
+  "categorie": "successierechten",
+  "wetsbasis": [
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "48-53"
+    },
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "55bis"
+    },
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "48, lid 7, c"
+    },
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "60ter"
+    },
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "60bis-60bis/3"
+    },
+    {
+      "bron": "Br. W.Succ.",
+      "artikel": "55, 59 en 60"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2024,
+    "tot_boekjaar": null,
+    "wijziging_door": "Ordonnantie 06.07.2023 (BS 27.09.2023) — gelijkschakeling feitelijke samenwoners; Ordonnantie 17.07.2025 (BS 24.07.2025) — vriendenerfenis (sinds 01.01.2024)."
+  },
+  "samenvatting": "Successierechten in het Brussels Hoofdstedelijk gewest 2026 — progressieve schijven voor rechte lijn/echtgenoten/samenwonenden (3-30%), tussen broers en zusters (20-65%), tussen ooms/tantes/neven/nichten (35-70%) en alle anderen (40-80%). Vrijstelling gezinswoning voor langstlevende echtgenoot/samenwonende, gunsttarief gezinswoning in rechte lijn (2-30%), vriendenerfenis (€ 15.000 aan 3%), vrijstelling familiale onderneming, en verlaagde tarieven (0%/7%/25%) voor overheden en goede doelen.",
+  "criteria": [
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 50000,
+      "tarief_pct": 3,
+      "eenheid": "EUR",
+      "toelichting": "Aparte grondslag per rechtverkrijgende."
+    },
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 2",
+      "ondergrens": 50000,
+      "bovengrens": 100000,
+      "tarief_pct": 8,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 3",
+      "ondergrens": 100000,
+      "bovengrens": 175000,
+      "tarief_pct": 9,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 4",
+      "ondergrens": 175000,
+      "bovengrens": 250000,
+      "tarief_pct": 18,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 5",
+      "ondergrens": 250000,
+      "bovengrens": 500000,
+      "tarief_pct": 24,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechte lijn/echtgenoten/samenwonenden — schijf 6",
+      "ondergrens": 500000,
+      "bovengrens": null,
+      "tarief_pct": 30,
+      "eenheid": "EUR",
+      "toelichting": "Vanaf € 500.000."
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 12500,
+      "tarief_pct": 20,
+      "eenheid": "EUR",
+      "toelichting": "Aparte grondslag per rechtverkrijgende."
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 2",
+      "ondergrens": 12500,
+      "bovengrens": 25000,
+      "tarief_pct": 25,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 3",
+      "ondergrens": 25000,
+      "bovengrens": 50000,
+      "tarief_pct": 30,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 4",
+      "ondergrens": 50000,
+      "bovengrens": 100000,
+      "tarief_pct": 40,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 5",
+      "ondergrens": 100000,
+      "bovengrens": 175000,
+      "tarief_pct": 55,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 6",
+      "ondergrens": 175000,
+      "bovengrens": 250000,
+      "tarief_pct": 60,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen broers en zusters — schijf 7",
+      "ondergrens": 250000,
+      "bovengrens": null,
+      "tarief_pct": 65,
+      "eenheid": "EUR",
+      "toelichting": "Meer dan € 250.000."
+    },
+    {
+      "naam": "Tussen ooms, tantes, neven en nichten — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 50000,
+      "tarief_pct": 35,
+      "eenheid": "EUR",
+      "toelichting": "Berekend op de som van de nettoaandelen verkregen door alle erfgenamen van deze groep; verschuldigde rechten proportioneel verdeeld over deze erfgenamen."
+    },
+    {
+      "naam": "Tussen ooms, tantes, neven en nichten — schijf 2",
+      "ondergrens": 50000,
+      "bovengrens": 75000,
+      "tarief_pct": 50,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen ooms, tantes, neven en nichten — schijf 3",
+      "ondergrens": 75000,
+      "bovengrens": 100000,
+      "tarief_pct": 50,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen ooms, tantes, neven en nichten — schijf 4",
+      "ondergrens": 100000,
+      "bovengrens": 175000,
+      "tarief_pct": 60,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen ooms, tantes, neven en nichten — schijf 5",
+      "ondergrens": 175000,
+      "bovengrens": null,
+      "tarief_pct": 70,
+      "eenheid": "EUR",
+      "toelichting": "Meer dan € 175.000."
+    },
+    {
+      "naam": "Tussen alle anderen — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 50000,
+      "tarief_pct": 40,
+      "eenheid": "EUR",
+      "toelichting": "Berekend op de som van de nettoaandelen verkregen door alle erfgenamen van deze groep."
+    },
+    {
+      "naam": "Tussen alle anderen — schijf 2",
+      "ondergrens": 50000,
+      "bovengrens": 75000,
+      "tarief_pct": 55,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen alle anderen — schijf 3",
+      "ondergrens": 75000,
+      "bovengrens": 100000,
+      "tarief_pct": 65,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen alle anderen — schijf 4",
+      "ondergrens": 100000,
+      "bovengrens": 175000,
+      "tarief_pct": 65,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tussen alle anderen — schijf 5",
+      "ondergrens": 175000,
+      "bovengrens": null,
+      "tarief_pct": 80,
+      "eenheid": "EUR",
+      "toelichting": "Meer dan € 175.000."
+    },
+    {
+      "naam": "Gezinswoning — langstlevende echtgenoot of samenwonende — vrijstelling",
+      "waarde": "vrijstelling",
+      "toelichting": "Vrijstelling van successierechten op de vererving van de gezinswoning voor de langstlevende echtgeno(o)t(e) en wettelijk samenwonende partner, als deze op het ogenblik van het overlijden bestemd was tot hoofdverblijfplaats (art. 55bis Br. W.Succ.). Voor feitelijke samenwoner: minstens drie jaar ononderbroken samengewoond (art. 48 lid 7 c)."
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 50000,
+      "tarief_pct": 2,
+      "eenheid": "EUR",
+      "toelichting": "Gunsttarief gezinswoning in rechte lijn (art. 60ter Br. W.Succ.). Voorwaarde: minstens vijf jaar als hoofdverblijfplaats gediend bij het overlijden."
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 2",
+      "ondergrens": 50000,
+      "bovengrens": 100000,
+      "tarief_pct": 5.3,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 3",
+      "ondergrens": 100000,
+      "bovengrens": 175000,
+      "tarief_pct": 6,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 4",
+      "ondergrens": 175000,
+      "bovengrens": 250000,
+      "tarief_pct": 12,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 5",
+      "ondergrens": 250000,
+      "bovengrens": 500000,
+      "tarief_pct": 24,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Gezinswoning — erfgenamen in rechte lijn — schijf 6",
+      "ondergrens": 500000,
+      "bovengrens": null,
+      "tarief_pct": 30,
+      "eenheid": "EUR",
+      "toelichting": "Meer dan € 500.000."
+    },
+    {
+      "naam": "Vriendenerfenis",
+      "waarde": 3,
+      "eenheid": "%",
+      "toelichting": "Sinds 01.01.2024: vrienden of verre verwanten (broer of zus van verdere familieleden) kunnen in totaal € 15.000 erven aan tarief 3%. Eenmalig per nalatenschap; bij meerdere begunstigden pro-rata verdeeld. Moet in testament vermeld worden (Ordonnantie 06.07.2023, BS 27.09.2023)."
+    },
+    {
+      "naam": "Familiale onderneming — 3% in rechte lijn",
+      "waarde": 3,
+      "eenheid": "%",
+      "toelichting": "Vererving van familiale onderneming (eenmanszaken, vrije beroepers en vennootschappen, art. 60bis-60bis/3 Br. W.Succ.): 3% in rechte lijn/tussen echtgenoten of samenwonenden, onder voorwaarden (familiaal karakter, reële economische activiteit, hoofdactiviteit min. 3 jaar voortgezet)."
+    },
+    {
+      "naam": "Familiale onderneming — 7% tussen andere personen",
+      "waarde": 7,
+      "eenheid": "%",
+      "toelichting": "Vererving van familiale onderneming tussen andere personen dan rechte lijn/echtgenoten/samenwonenden."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 0%",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Begiftigden o.a.: BHG; Brusselse agglomeratie; Franse, Vlaamse en Duitstalige Gemeenschap en Vlaams/Waals gewest; publiekrechtelijke rechtspersonen van gelijkgesteld zijn met die hierboven vermeld; lidstaat van EER; openbare instellingen van de publiekrechtelijke rechtspersonen hierboven vermeld."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 7%",
+      "waarde": 7,
+      "eenheid": "%",
+      "toelichting": "Begiftigden o.a.: gemeenten in BHG en hun openbare instellingen; BGHM erkende maatschappijen; CVBA Woningfonds van BHG; intercommunales van BHG; stichtingen van openbaar nut; verenigingen (en andere rechtspersonen) zonder winstoogmerk die federale erkenning hebben gekregen (art. 145/33 WIB)."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 25%",
+      "waarde": 25,
+      "eenheid": "%",
+      "toelichting": "Begiftigden: (internationale) verenigingen zonder winstoogmerk die nog geen federale erkenning hebben verkregen; ziekenfondsen en landsbonden van ziekenfondsen; beroepsverenigingen; private stichtingen. Bron: art. 55, 59 en 60 Br. W.Succ."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p26-p27 — Successierechten: Brussels Hoofdstedelijk gewest",
+    "wettekst": "art. 48-53 Br. W.Succ. (tarieven); art. 55bis Br. W.Succ. (vrijstelling gezinswoning langstlevende); art. 60ter Br. W.Succ. (gezinswoning rechte lijn); art. 60bis-60bis/3 Br. W.Succ. (familiale onderneming); art. 55, 59, 60 Br. W.Succ. (overheden en goede doelen); Ordonnanties 06.07.2023 en 17.07.2025",
+    "cijferzakboekje_pagina": 26,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p035.png + p036.png — Cijferzakboekje 2026, hoofdstuk Erven en Schenken, p26-27."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "gewest-brussels",
+    "successierechten",
+    "erfbelasting",
+    "erven-en-schenken"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p035.png + p036.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_paginas": [
+        "data/tarieven/pages/p035.png",
+        "data/tarieven/pages/p036.png"
+      ],
+      "opmerkingen": "BHG: aparte grondslag per rechtverkrijgende voor rechte lijn/echtgenoten/samenwonenden en broers/zusters; voor ooms/tantes/neven/nichten en alle anderen: gezamenlijke berekening (som van nettoaandelen, dan proportioneel verdeeld). Bron p035 vermeldt 50% voor 2 opeenvolgende schijven (€50k-€75k en €75k-€100k) bij ooms/tantes/neven/nichten — geen typo, dat staat zo in Cijferzakboekje. Eveneens 65% voor 2 schijven (€75k-€100k en €100k-€175k) bij 'tussen alle anderen'. Vriendenerfenis sinds 01.01.2024. Niet-geregistreerde schenkingen van roerende goederen binnen drie jaar (vijf jaar voor schenkingen vóór 01.01.2026) vóór overlijden van erflater worden in principe geacht deel uit te maken van de nalatenschap."
+    }
+  }
+}

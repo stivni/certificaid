@@ -1,0 +1,84 @@
+{
+  "id": "notionele-interestaftrek",
+  "schema_version": "1.0",
+  "titel": "Notionele-interestaftrek (NIA) — percentages tot afschaffing IJ 2023",
+  "categorie": "vennootschapsbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "art. 205 bis e.v."
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2020,
+    "tot_boekjaar": 2022,
+    "wijziging_door": "Opgeheven vanaf belastbare tijdperken die vanaf 31.12.2023 worden afgesloten — overgedragen aftrek van voorgaande jaren blijft benutbaar."
+  },
+  "samenvatting": "Notionele-interestaftrek werd berekend op het 'aangepast' risicokapitaal (1/5 van positieve verschil GEV op begin huidige boekjaar versus GEV op begin vijfde voorafgaande boekjaar). NIA opgeheven vanaf belastbare tijdperken afgesloten vanaf 31.12.2023. Overgedragen aftrek van voorgaande jaren blijft benutbaar. Laatst gepubliceerde percentages: inkomstenjaar 2022 — 0,000% grote / 0,443% kmo.",
+  "criteria": [
+    {
+      "naam": "Sinds 2023 — grote vennootschappen",
+      "waarde": "Opgeheven",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Sinds 2023 — kmo-vennootschappen",
+      "waarde": "Opgeheven",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Inkomstenjaar 2022 — grote vennootschappen",
+      "waarde": 0.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomstenjaar 2022 — kmo-vennootschappen",
+      "waarde": 0.443,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomstenjaar 2021 — grote vennootschappen",
+      "waarde": 0.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomstenjaar 2021 — kmo-vennootschappen",
+      "waarde": 0.34,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomstenjaar 2020 — grote vennootschappen",
+      "waarde": 0.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Inkomstenjaar 2020 — kmo-vennootschappen",
+      "waarde": 0.408,
+      "eenheid": "%"
+    }
+  ],
+  "drempel_regel": "Aangepast risicokapitaal = 1/5 × (GEV begin huidige boekjaar minus GEV begin vijfde voorafgaande boekjaar), als dit positief is. Concreet: gelijk aan de gemiddelde jaarlijkse groei van het GEV op vijf jaar. Opgeheven vanaf belastbare tijdperken afgesloten vanaf 31.12.2023; overgedragen aftrek blijft benutbaar.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p150 — Notionele-interestaftrek",
+    "wettekst": "WIB92 art. 205 bis e.v.; opgeheven vanaf belastbare tijdperken afgesloten vanaf 31.12.2023",
+    "cijferzakboekje_pagina": 150,
+    "verified_via": "Vision-extract PNG p159.png — percentages 2020-2022 letterlijk + statuut 'opgeheven' sinds 2023."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "nia",
+    "notionele-interestaftrek",
+    "wib92",
+    "art-205-bis",
+    "opgeheven"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p159",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p159.png"
+    }
+  }
+}

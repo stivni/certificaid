@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "sociale-voordelen-gelegenheden",
+  "titel": "Sociale voordelen toegekend bij bepaalde gelegenheden",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "38, 11°"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "53, 14°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2008,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Overzicht van de toepasselijke regels (RSZ, aftrekbaarheid werkgever, belastbaarheid werknemer) wanneer een sociaal voordeel toegekend wordt naar aanleiding van een welbepaalde gelegenheid: verjaardag, huwelijk, geboorte, communie, ziekte, anciënniteit, eervolle onderscheiding, pensionering, eindejaar, jubileum. Sociale voordelen zijn voordelen van relatief geringe waarde waar in principe alle werknemers recht op hebben en die gegeven worden om hun 'loyaliteit' te bevorderen — in principe niet aftrekbaar voor werkgever (art. 53, 14° WIB), maar ook niet belastbaar bij werknemer (art. 38, 11° WIB).",
+  "criteria": [
+    {
+      "naam": "Verjaardag — max bedrag",
+      "waarde": 40,
+      "eenheid": "EUR",
+      "toelichting": "Mag niet gecombineerd worden met een geschenk van € 40 naar aanleiding van eindejaar. RSZ: ja, aftrekbaar werkgever: ja, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Huwelijk — max bedrag",
+      "waarde": 245,
+      "eenheid": "EUR",
+      "toelichting": "RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Geboorte — max bedrag",
+      "waarde": "geringe waarde",
+      "eenheid": "n.v.t.",
+      "toelichting": "RSZ: neen, aftrekbaar werkgever: neen, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Communie — max bedrag",
+      "waarde": "geringe waarde",
+      "eenheid": "n.v.t.",
+      "toelichting": "RSZ: ja, aftrekbaar werkgever: neen, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Ziekte — max bedrag",
+      "waarde": "het remgeld",
+      "eenheid": "EUR",
+      "toelichting": "RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: ja."
+    },
+    {
+      "naam": "Anciënniteit — max bedrag",
+      "waarde": "1 of 2 x het maandloon",
+      "eenheid": "EUR/maandloon",
+      "toelichting": "Bij een anciënniteit van minstens 25 jaar kan er maximaal één keer het brutomaandloon toegekend worden en bij minstens 35 jaar anciënniteit maximaal twee keer het brutomaandloon. RSZ: neen, aftrekbaar werkgever: neen, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Eervolle onderscheiding — max bedrag",
+      "waarde": 120,
+      "eenheid": "EUR",
+      "toelichting": "RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Pensionering — bedrag per jaar dienst",
+      "waarde": 40,
+      "eenheid": "EUR/jaar dienst",
+      "toelichting": "Er is toch RSZ verschuldigd als er een premie of een geschenk toegekend wordt van meer dan € 1.000. RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Eindejaar — basisbedrag + per kind",
+      "waarde": "€ 40 + € 40 per kind",
+      "eenheid": "EUR",
+      "toelichting": "Een verjaardagsgeschenk van € 40 kan niet gecombineerd worden met een geschenk van € 40 naar aanleiding van eindejaar. RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: neen."
+    },
+    {
+      "naam": "Jubileum van het bedrijf — bedrag",
+      "waarde": "niet bepaald",
+      "eenheid": "n.v.t.",
+      "toelichting": "RSZ: neen, aftrekbaar werkgever: ja, belastbaar werknemer: ja."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p108 — Sociale voordelen toegekend bij bepaalde gelegenheden",
+    "wettekst": "WIB92 art. 38, 11° (niet belastbaar bij werknemer) en art. 53, 14° (niet aftrekbaar voor werkgever) — Instructies voor de werkgever (Deel 3 Titel 1 Hoofdstuk 3) + Com. IB 38/23 + Ci.RH.241/567.657 (12.03.2008), Ci.RH.242/554.090 (16.12.2002), Ci.RH.242/588.226 (22.09.2008)",
+    "cijferzakboekje_pagina": 108,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p117.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "sociale-voordelen",
+    "geschenken",
+    "loon",
+    "rsz"
+  ]
+}

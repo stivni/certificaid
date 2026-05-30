@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "voorziening-vakantiegeld-pb",
+  "titel": "Vakantiegeld — fiscaal vrijstelbare voorziening (PB en VenB)",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "48 (fiscaal vrijgestelde voorziening)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2021,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Bij afsluiting van het boekjaar mag een voorziening (provisie) aangelegd worden voor het vakantiegeld dat het jaar daarop uitbetaald zal moeten worden aan het personeel. Voorziening is fiscaal aftrekbaar voor zover een bepaald percentage niet wordt overschreden. Bedienden: 18,20% van vaste en veranderlijke bezoldigingen toegekend in het jaar. Arbeiders: 10,27% van 108% van lonen toegekend in het jaar.",
+  "criteria": [
+    {
+      "naam": "Bedienden — percentage voorziening — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 18.2,
+      "eenheid": "%",
+      "toelichting": "Toegepast op 100% van de vaste en veranderlijke bezoldigingen toegekend in het jaar."
+    },
+    {
+      "naam": "Bedienden — percentage voorziening — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bedienden — percentage voorziening — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bedienden — percentage voorziening — inkomsten 2021 / aj. 2022",
+      "tarief_pct": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — percentage voorziening — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 10.27,
+      "eenheid": "%",
+      "toelichting": "Toegepast op 108% van de lonen van de arbeiders. Geldt niet voor arbeiders in de bouwsector — vakantiegeld via kwartaalbijdragen RSZ."
+    },
+    {
+      "naam": "Arbeiders — percentage voorziening — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 10.27,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — percentage voorziening — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 10.27,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — percentage voorziening — inkomsten 2021 / aj. 2022",
+      "tarief_pct": 10.27,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bedienden — berekeningsbasis",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Voorziening berekend op 100% van vaste en veranderlijke bezoldigingen."
+    },
+    {
+      "naam": "Arbeiders — berekeningsbasis",
+      "waarde": 108,
+      "eenheid": "%",
+      "toelichting": "Voorziening berekend op 108% van lonen van arbeiders."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p109 — Vakantiegeld: fiscaal vrijstelbare voorziening",
+    "wettekst": "WIB92 art. 48 (vrijstelbare voorziening)",
+    "cijferzakboekje_pagina": 109,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p118.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vennootschapsbelasting",
+    "voorziening",
+    "vakantiegeld",
+    "wib92"
+  ]
+}

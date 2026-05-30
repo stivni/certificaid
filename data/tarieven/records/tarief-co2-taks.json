@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "tarief-co2-taks",
+  "titel": "CO2-taks (solidariteitsbijdrage bedrijfsvoertuigen)",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "Programmawet",
+      "artikel": "Art. 38 §3quater Algemene beginselenwet"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Berekeningsformule sinds 01.01.2022; minimum € 31,99 sinds 01.01.2024"
+  },
+  "samenvatting": "Solidariteitsbijdrage op bedrijfsvoertuigen die door werknemers ook privé gebruikt worden. Verschuldigd door werkgever die het voertuig om het even welk voertuig (ook voor andere dan loutere beroepsdoeleinden gebruikt wordt) rechtstreeks of onrechtstreeks ter beschikking stelt van zijn werknemer. Niet verschuldigd voor: voertuigen ter beschikking gesteld van bedrijfsleiders; fiscale lichte vracht die enkel voor woon-werkverkeer gebruikt wordt. Berekeningsformule: (9 × CO2-emissie - a) : 12 × 154,29/114,08, met afhankelijk van brandstof: benzine a=768, diesel a=600, lpg a=990.",
+  "criteria": [
+    {
+      "naam": "Berekeningsformule maandelijkse CO2-taks",
+      "waarde": "(9 × CO2-emissie - a) : 12 × 154,29/114,08",
+      "eenheid": "formule",
+      "toelichting": "Sinds 01.01.2022. Waarbij a afhankelijk is van de brandstof."
+    },
+    {
+      "naam": "Bedrag a — benzine",
+      "waarde": 768,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bedrag a — diesel",
+      "waarde": 600,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bedrag a — lpg",
+      "waarde": 990,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Minimumbijdrage per maand — sinds 01.01.2024",
+      "waarde": 31.99,
+      "eenheid": "EUR/maand",
+      "toelichting": "Bedrag ook van toepassing voor elektrische wagens."
+    },
+    {
+      "naam": "Forfaitaire CO2-uitstoot — benzinemotoren zonder bekende uitstoot",
+      "waarde": 182,
+      "eenheid": "g/km",
+      "toelichting": "Voor wagens waarvan bij de DIV (Dienst Inschrijving van de Voertuigen) geen uitstoot bekend is."
+    },
+    {
+      "naam": "Forfaitaire CO2-uitstoot — dieselmotoren zonder bekende uitstoot",
+      "waarde": 165,
+      "eenheid": "g/km"
+    },
+    {
+      "naam": "Uitsluitingen — voertuigen bedrijfsleiders",
+      "waarde": "Niet verschuldigd",
+      "eenheid": "n.v.t."
+    },
+    {
+      "naam": "Uitsluitingen — fiscale lichte vracht uitsluitend woon-werkverkeer",
+      "waarde": "Niet verschuldigd",
+      "eenheid": "n.v.t."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p176 — CO2-taks",
+    "wettekst": "Art. 38 §3quater Algemene beginselenwet (programmawet) — solidariteitsbijdrage RSZ",
+    "cijferzakboekje_pagina": 176,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p185.png"
+  },
+  "tags": [
+    "co2-taks",
+    "solidariteitsbijdrage",
+    "bedrijfsvoertuig",
+    "rsz",
+    "verkeer"
+  ]
+}

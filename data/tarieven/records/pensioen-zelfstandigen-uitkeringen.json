@@ -1,0 +1,72 @@
+{
+  "id": "pensioen-zelfstandigen-uitkeringen",
+  "schema_version": "1.0",
+  "titel": "Wettelijk pensioen zelfstandigen: uitkeringen",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB 22.12.1967",
+      "artikel": "pensioenregeling zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Gewaarborgd minimumpensioen sinds 01.02.2025"
+  },
+  "samenvatting": "Berekeningsformule wettelijk pensioen zelfstandigen (60% alleenstaande / 75% gezin × aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëfficiënt) + gewaarborgd minimumpensioen sinds 01.02.2025 voor volledige loopbaan.",
+  "criteria": [
+    {
+      "naam": "Pensioen alleenstaande — percentage",
+      "waarde": 60,
+      "eenheid": "%",
+      "toelichting": "Formule: aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëfficiënt × 60%."
+    },
+    {
+      "naam": "Gezinspensioen — percentage",
+      "waarde": 75,
+      "eenheid": "%",
+      "toelichting": "Formule: aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëfficiënt × 75%."
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — gezin — forfaitair maandbedrag",
+      "waarde": 2260.26,
+      "eenheid": "EUR/maand",
+      "toelichting": "Sinds 01.02.2025, bij volledige loopbaan."
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — alleenstaande — forfaitair maandbedrag",
+      "waarde": 1808.77,
+      "eenheid": "EUR/maand",
+      "toelichting": "Sinds 01.02.2025, bij volledige loopbaan."
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — overlevingspensioen — forfaitair maandbedrag",
+      "waarde": 1784.6,
+      "eenheid": "EUR/maand",
+      "toelichting": "Sinds 01.02.2025, bij volledige loopbaan."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p145 — Wettelijk pensioen zelfstandigen: uitkeringen",
+    "wettekst": "KB 22.12.1967 (pensioenregeling zelfstandigen); RSVZ; gewaarborgd minimumpensioen sinds 01.02.2025",
+    "cijferzakboekje_pagina": 145,
+    "verified_via": "Vision-extract PNG p154.png — formule + maandbedragen overgenomen. Maandbedragen identiek aan werknemers (zie tarief-pensioen-werknemers-uitkeringen)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "pensioen",
+    "zelfstandigen",
+    "berekening",
+    "minimumpensioen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p154.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p154.png"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "registratierechten-verkoop-og-waals",
+  "schema_version": "1.0",
+  "titel": "Registratierechten verkoop onroerende goederen — Waals Gewest",
+  "categorie": "registratierechten",
+  "wetsbasis": [
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "44"
+    },
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "44bis"
+    },
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "51"
+    },
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "52"
+    },
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "53"
+    },
+    {
+      "bron": "W.Reg-Waals",
+      "artikel": "62"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Tarieven sinds 1 januari 2025 (Cijferzakboekje 2026). Gezinswoningstarief verlaagd naar 3% door decreet 05.12.2024 (B.S. 13.12.2024) van toepassing op authentieke akten sinds 01.01.2025."
+  },
+  "samenvatting": "Tarieven verkoopregistratierechten in het Waals Gewest, sinds 1 januari 2025. Standaardtarief 12,5% (art. 44 W.Reg.); verlaagd tarief 3% voor de enige eigen gezinswoning (art. 44bis W.Reg.); afzonderlijke tarieven voor sociale woningen, beroepsverkopers, bouwmaatschappijen van algemeen nut en kleine landeigendommen.",
+  "criteria": [
+    {
+      "naam": "Basistarief",
+      "waarde": 12.5,
+      "eenheid": "%",
+      "tarief_pct": 12.5,
+      "toelichting": "Art. 44 W.Reg. Waals Gewest. Recht 12,5% voor verkoop, ruiling en iedere overeenkomst tot overdracht onder bezwarende titel van eigendom of vruchtgebruik van onroerend goed."
+    },
+    {
+      "naam": "Gezinswoning",
+      "waarde": 3,
+      "eenheid": "%",
+      "tarief_pct": 3,
+      "toelichting": "Art. 44bis W.Reg. (van toepassing sinds 01.01.2025). Verlaagd tarief 3% bij verwerving onder bezwarende titel van volle eigendom door één of meer natuurlijke personen van een onroerend goed dat geheel of gedeeltelijk tot woning wordt gebruikt of bestemd om hoofdverblijfplaats te vestigen. Voorwaarden: koper mag geen ander OG bezitten of vervreemdt binnen 3 jaar; hoofdverblijfplaats vestigen in aangekochte woning binnen 3 jaar; 3 jaar behouden. Rechtenvermindering € 2.800 bij gezinswoning ≤ € 220.000 (€ 240.000 in Vlaamse kernsteden rond Brussel)."
+    },
+    {
+      "naam": "Sociale woningen",
+      "waarde": 0,
+      "eenheid": "%",
+      "tarief_pct": 0,
+      "toelichting": "Art. 52 W.Reg. Vrijstelling voor sociale woningen."
+    },
+    {
+      "naam": "Beroepsverkopers",
+      "waarde": 5,
+      "eenheid": "%",
+      "tarief_pct": 5,
+      "toelichting": "Art. 62 W.Reg. Verlaagd tarief voor beroepsverkopers."
+    },
+    {
+      "naam": "Bouwmaatschappijen — Algemeen nut",
+      "waarde": 6,
+      "eenheid": "%",
+      "tarief_pct": 6,
+      "toelichting": "Art. 51 W.Reg. Verlaagd tarief voor bouwmaatschappijen van algemeen nut."
+    },
+    {
+      "naam": "Kleine landeigendommen",
+      "waarde": 5,
+      "eenheid": "%",
+      "tarief_pct": 5,
+      "toelichting": "Art. 53 W.Reg. Verlaagd tarief 5% of 6% (naargelang voorwaarden) voor kleine landeigendommen. Voorwaarden: kadastraal inkomen onroerend goed niet meer dan € 745; koper geen ander OG; hoofdverblijfplaats in aangekochte woning binnen 3 jaar en minimum 3 jaar behouden."
+    },
+    {
+      "naam": "Abattement gezinswoning — rechtenvermindering",
+      "waarde": 2800,
+      "eenheid": "EUR",
+      "toelichting": "Art. 44bis W.Reg. Bij toepassing van het 3%-tarief op een gezinswoning met aankoopprijs ≤ € 220.000 (€ 240.000 in Vlaamse kernsteden of Vlaamse Rand rond Brussel) wordt een rechtenvermindering van € 2.800 toegekend."
+    },
+    {
+      "naam": "Abattement gezinswoning — grensbedrag aankoopprijs",
+      "waarde": 220000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 44bis W.Reg. Maximum aankoopprijs voor de rechtenvermindering van € 2.800. Verhoogd tot € 240.000 voor woningen in kernsteden rond Brussel en de Vlaamse Rand."
+    }
+  ],
+  "context_tabellen": [
+    "registratierechten-verkoop-og-vlaams",
+    "registratierechten-verkoop-og-brussels"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p42-43 — Tarief registratierechten verkoop OG Waals gewest (Bron: W.Reg. Waals)",
+    "wettekst": "Wetboek Registratie-, Hypotheek- en Griffierechten — Waals Gewest (art. 44 basis, art. 44bis gezinswoning, art. 51/52/53/62 verlaagde tarieven)",
+    "cijferzakboekje_pagina": 42,
+    "verified_via": "Vision-extract PNG p051-p052 + RAG-cross-check W.Reg-Waals art. 44 (bi=0.165, woordelijk match 12,5%) en art. 44bis (bi=0.178, woordelijk match 3%-tarief gezinswoning sinds 01.01.2025)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "registratierechten",
+    "waals",
+    "gezinswoning",
+    "abattement",
+    "onroerend-goed"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pages": [
+        "p051",
+        "p052"
+      ],
+      "rag_queries": [
+        "Waals verkooprecht art 44 W.Reg 12,5 gezinswoning 3"
+      ],
+      "primary_rag_bronnen": [
+        "W.Reg-Waals Art. 44",
+        "W.Reg-Waals Art. 44bis"
+      ],
+      "opmerking": "Waals tarief gezinswoning verlaagd van 12,5%/5%-6% naar 3% sinds 01.01.2025 (decreet 05.12.2024). Historische tarieven (t.e.m. 31.12.2024): bescheiden woning 5%/6%, gezinswoning 12,5%. Abattement-systeem (voetvrijstelling) van vóór 01.01.2025 (€ 40.000 op eerste schijf) is afgeschaft.",
+      "voetnoten": "(1) Voorwaarden 3%-tarief: koper geen ander OG bezitten, geen hoofdverblijfplaats in andere woning, hoofdverblijfplaats vestigen in aangekochte woning binnen 3 jaar, minimum 3 jaar behouden. (2) Voor authentieke akten verleden sinds 01.01.2025 geldt het tarief ook voor aankoop van bouwgrond, een woning in aanbouw op plan. (3) Het abattement, de woningcheque en het verlaagd tarief voor bescheiden woningen (5% of 6%) zijn afgeschaft sinds 01.01.2025."
+    }
+  }
+}

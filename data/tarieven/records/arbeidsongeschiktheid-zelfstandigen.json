@@ -1,0 +1,87 @@
+{
+  "id": "arbeidsongeschiktheid-zelfstandigen",
+  "schema_version": "1.0",
+  "titel": "Arbeidsongeschiktheid zelfstandigen: ziekte, ongeval en invaliditeit (privé)",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB 20.07.1971",
+      "artikel": "uitkeringsverzekering zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Forfaitaire daguitkeringen bij primaire arbeidsongeschiktheid (< 1 jaar) en invaliditeit (> 1 jaar) voor zelfstandigen. Periodes < 8 dagen niet vergoed; periodes > 7 dagen vergoed vanaf eerste dag.",
+  "criteria": [
+    {
+      "naam": "Primaire arbeidsongeschiktheid — met gezinslast",
+      "waarde": 79.51,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Primaire arbeidsongeschiktheid — zonder gezinslast — alleenstaande",
+      "waarde": 63.01,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Primaire arbeidsongeschiktheid — zonder gezinslast — samenwonend",
+      "waarde": 48.32,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit zonder gelijkstelling — met gezinslast",
+      "waarde": 79.51,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit zonder gelijkstelling — zonder gezinslast — alleenstaande",
+      "waarde": 63.01,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit zonder gelijkstelling — zonder gezinslast — samenwonend",
+      "waarde": 48.32,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit met gelijkstelling — met gezinslast",
+      "waarde": 79.51,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit met gelijkstelling — zonder gezinslast — alleenstaande",
+      "waarde": 63.01,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Invaliditeit met gelijkstelling — zonder gezinslast — samenwonend",
+      "waarde": 54.02,
+      "eenheid": "EUR/dag"
+    }
+  ],
+  "drempel_regel": "Periodes van arbeidsongeschiktheid van minder dan acht dagen worden niet vergoed. Periodes van langer dan zeven dagen worden vergoed vanaf de eerste dag.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p136 — Arbeidsongeschiktheid zelfstandigen",
+    "wettekst": "KB 20.07.1971 (uitkeringsverzekering zelfstandigen); RSVZ",
+    "cijferzakboekje_pagina": 136,
+    "verified_via": "Vision-extract PNG p145.png — bedragen overgenomen uit twee tabellen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "zelfstandigen",
+    "arbeidsongeschiktheid",
+    "invaliditeit",
+    "rsvz"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p145.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p145.png"
+    }
+  }
+}

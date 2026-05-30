@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "reisvergoeding-buitenland-werkgever",
+  "titel": "Forfaitaire reisvergoedingen buitenlandse dienst- of zakenreizen — landenlijsten",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "31, tweede lid 1°"
+    },
+    {
+      "bron": "Comm. IB",
+      "artikel": "31/40"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": null,
+    "wijziging_door": "MB 14.07.2025 (BS 01.08.2025) en MB 10.01.2023 (BS 15.02.2023)"
+  },
+  "samenvatting": "Forfaitaire dagvergoedingen voor buitenlandse dienst- of zakenreizen (zgn. 'landenlijsten'). Onderscheid: reizen ≤ 30 dagen versus reizen > 30 dagen (max 24 maanden). Alleen voor werknemers/bestuurders met sedentaire functie. Dekt drank, lokaal vervoer, kleine uitgaven — hotel/ontbijt en ander reiskosten (uitgezonderd vervoer ter plaatse) zijn niet inbegrepen. Tabel toont selectie belangrijke landen; volledige lijsten in MB 14.07.2025 (sinds 01.08.2025) en MB 10.01.2023 (15.02.2023 - 31.07.2025).",
+  "criteria": [
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Duitsland",
+      "waarde": 92,
+      "eenheid": "EUR/dag",
+      "toelichting": "Beroepsmatige verblijfskosten in het buitenland — reis van maximaal 30 dagen."
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Frankrijk",
+      "waarde": 95,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Groot-Brittannië",
+      "waarde": 110,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Italië",
+      "waarde": 87,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Japan",
+      "waarde": 86,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Luxemburg",
+      "waarde": 107,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — Nederland",
+      "waarde": 103,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen sinds 01.08.2025 — VS",
+      "waarde": 110,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Duitsland",
+      "waarde": 87,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Frankrijk",
+      "waarde": 100,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Groot-Brittannië",
+      "waarde": 105,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Italië",
+      "waarde": 85,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Japan",
+      "waarde": 105,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Luxemburg",
+      "waarde": 105,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — Nederland",
+      "waarde": 98,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis ≤ 30 dagen 15.02.2023-31.07.2025 — VS",
+      "waarde": 117,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Duitsland",
+      "waarde": 55,
+      "eenheid": "EUR/dag",
+      "toelichting": "Reis van meer dan 30 dagen, maximum 24 maanden."
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Frankrijk",
+      "waarde": 57,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Groot-Brittannië",
+      "waarde": 66,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Italië",
+      "waarde": 52,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Japan",
+      "waarde": 52,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Luxemburg",
+      "waarde": 64,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — Nederland",
+      "waarde": 62,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen sinds 01.08.2025 — VS",
+      "waarde": 66,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Duitsland",
+      "waarde": 52,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Frankrijk",
+      "waarde": 60,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Groot-Brittannië",
+      "waarde": 63,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Italië",
+      "waarde": 51,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Japan",
+      "waarde": 63,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Luxemburg",
+      "waarde": 63,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — Nederland",
+      "waarde": 59,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Reis > 30 dagen 15.02.2023-31.07.2025 — VS",
+      "waarde": 70,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Maximumduur lange reis",
+      "waarde": 24,
+      "eenheid": "maanden",
+      "toelichting": "Lange-reis-tarief geldt maximaal 24 maanden."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p99-p100 — Kosten eigen aan de werkgever: reisvergoedingen buitenland",
+    "wettekst": "WIB92 art. 31 lid 2 1° — Circ. 2025/C/70 (27.10.2025), MB 14.07.2025 (BS 01.08.2025), Circ. 2023/C/61 (19.06.2023), Ci.RH. 241/609.72 (10.10.2013), Ci.RH. 241/534.514 (11.05.2006), Comm. IB 31/40",
+    "cijferzakboekje_pagina": 99,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p108.png + p109.png — vergoedingen sedentaire functie"
+  },
+  "tags": [
+    "personenbelasting",
+    "kosten-eigen-aan-werkgever",
+    "reisvergoeding",
+    "buitenland",
+    "loon",
+    "landenlijst"
+  ]
+}

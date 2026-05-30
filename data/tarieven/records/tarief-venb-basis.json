@@ -1,0 +1,99 @@
+{
+  "id": "tarief-venb-basis",
+  "schema_version": "1.0",
+  "titel": "Vennootschapsbelasting: tarieven (gewoon 25% + verlaagd KMO 20% + specifieke aanslagen)",
+  "categorie": "vennootschapsbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "art. 215"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "art. 463 bis"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "art. 219"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "art. 219quater"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "art. 217, lid 1, 1°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2020,
+    "tot_boekjaar": null,
+    "wijziging_door": "Wetsontwerp federaal begrotingsakkoord 2025-2029: bezoldigingsdrempel voor verlaagd tarief stijgt naar € 50.000 sinds 01.01.2026; forfaitaire VAA-grens 20%"
+  },
+  "samenvatting": "Algemene tarieven: gewoon 25% + verlaagd KMO-tarief 20% op eerste schijf van € 100.000 onder cumulatieve voorwaarden art. 215 WIB92 (kleine venn art. 1:24 WVV, geen financiële venn, aandelen voor > 50% in handen van natuurlijke personen, minimumbezoldiging bedrijfsleider, forfaitair VAA max 20% bedrijfsleidersbezoldigingen). Specifieke tarieven: bijzondere aanslag 100%/50% niet-verantwoorde uitgaven en VAA (art. 219), liquidatiereserve 10% (art. 219quater), fusie/splitsing/exitheffing 15% (art. 217).",
+  "criteria": [
+    {
+      "naam": "Gewoon tarief",
+      "waarde": 25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Verlaagd tarief KMO — eerste schijf",
+      "waarde": 20,
+      "eenheid": "%",
+      "ondergrens": 0,
+      "bovengrens": 100000,
+      "toelichting": "Op eerste schijf van € 100.000 belastbaar inkomen — onder cumulatieve voorwaarden art. 215 WIB92."
+    },
+    {
+      "naam": "Verlaagd tarief KMO — vanaf € 100.000",
+      "waarde": 25,
+      "eenheid": "%",
+      "ondergrens": 100000,
+      "toelichting": "Gewone tarief vanaf € 100.000."
+    },
+    {
+      "naam": "Bijzondere aanslag — niet-verantwoorde uitgaven en VAA (art. 219 WIB)",
+      "waarde": "100% of 50%",
+      "eenheid": "%",
+      "toelichting": "100% standaard; 50% in specifieke gevallen (zie art. 219)."
+    },
+    {
+      "naam": "Liquidatiereserve (art. 219 quater WIB)",
+      "waarde": 10,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Fusie/splitsing/gelijkgestelde verrichting bij erkenning door FSMA — exitheffing (art. 217, lid 1, 1° WIB)",
+      "waarde": 15,
+      "eenheid": "%"
+    }
+  ],
+  "drempel_regel": "Voorwaarden verlaagd tarief (art. 215 WIB92, cumulatief): (1) Vennootschap moet **klein** zijn in zin van art. 1:24 WVV. (2) Vennootschap mag **geen financiële vennootschap** zijn. (3) Aandelen moeten voor **meer dan de helft** in bezit zijn van **natuurlijke (fysieke) personen**. (4) Vennootschap moet aan ten minste één bedrijfsleider (zaakvoerder/bestuurder-natuurlijke persoon) een **minimale bezoldiging** uitkeren — € 45.000 t/m 31.12.2025 en € 50.000 sinds 01.01.2026 (wetsontwerp federaal begrotingsakkoord 2025-2029, jaarlijks te indexeren) en ten laste leggen van het resultaat. Als belastbaar inkomen vennootschap lager is dan minimale bezoldiging, moet bezoldiging minstens gelijk zijn aan dat belastbaar inkomen. Voor startende KMO-vennootschappen geldt deze voorwaarde niet gedurende eerste vier belastbare tijdperken vanaf oprichting. (5) Het **forfaitaire VAA mag niet meer dan 20%** uitmaken van totale bedrijfsleidersbezoldigingen (wetsontwerp hangend).",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p152 — Vennootschapsbelasting: tarieven",
+    "wettekst": "WIB92 art. 215 (verlaagd tarief), art. 463 bis (intussen achterhaald — crisisbijdrage afgeschaft), art. 219 (bijzondere aanslag VAA), art. 219quater (liquidatiereserve), art. 217 (specifieke verrichtingen)",
+    "cijferzakboekje_pagina": 152,
+    "verified_via": "Vision-extract PNG p161.png — tarieven + voorwaarden art. 215 letterlijk overgenomen. RAG cross-check WIB92 art. 215 mogelijk maar tarief-percentages staan vast op 25%/20%."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "venb",
+    "tarief",
+    "art-215",
+    "verlaagd-tarief",
+    "kmo",
+    "art-219",
+    "liquidatiereserve"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p161",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p161.png",
+      "scope_keuze": "Hoofdtarieven + voorwaarden verlaagd tarief + specifieke aanslagen samen in één record (didactische samenhang)."
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "registratierechten-verkoop-og-vlaams",
+  "schema_version": "1.0",
+  "titel": "Registratierechten verkoop onroerende goederen — Vlaams Gewest",
+  "categorie": "registratierechten",
+  "wetsbasis": [
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.1.1"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.2"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.4"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.7"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.11"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.12"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.13"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.9.4.2.15"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Tarieven sinds 1 januari 2025 (Cijferzakboekje 2026)"
+  },
+  "samenvatting": "Tarieven verkooprecht (registratierechten) bij verkoop van onroerende goederen in het Vlaams Gewest, sinds 1 januari 2025. Standaardtarief 12%; verlaagd tarief 2% voor de enige eigen gezinswoning (volle eigendom, hoofdverblijfplaats); 7% voor beschermde monumenten als gezinswoning; afzonderlijke tarieven voor sociale woningen, beroepsverkopers, sociale bouwmaatschappijen en landbouw-/natuurgronden.",
+  "criteria": [
+    {
+      "naam": "Basistarief",
+      "waarde": 12,
+      "eenheid": "%",
+      "tarief_pct": 12,
+      "toelichting": "Art. 2.9.4.1.1 VCF. Verkooprecht op verkoop, ruiling of iedere overeenkomst tot overdracht onder bezwarende titel van eigendom of vruchtgebruik van onroerend goed."
+    },
+    {
+      "naam": "Gezinswoning — algemeen",
+      "waarde": 2,
+      "eenheid": "%",
+      "tarief_pct": 2,
+      "toelichting": "Art. 2.9.4.2.11 VCF. Voor zuivere aankoop van volle eigendom door een of meer natuurlijke personen, samen en gelijktijdig, van geheelheid volle eigendom van een woning om er hun hoofdverblijfplaats te vestigen. Verschillende voorwaarden (geen andere woning, inschrijving binnen termijn)."
+    },
+    {
+      "naam": "Gezinswoning — ingrijpende energetische renovatie of (gedeeltelijke) herbouw",
+      "waarde": "Afgeschaft",
+      "toelichting": "Art. 2.9.4.2.12 VCF. Verlaagd tarief afgeschaft. Voorheen 1% bij ingrijpende energetische renovatie of sloop-/heropbouw."
+    },
+    {
+      "naam": "Gezinswoning — beschermd monument",
+      "waarde": 7,
+      "eenheid": "%",
+      "tarief_pct": 7,
+      "toelichting": "Art. 2.9.4.2.13 VCF. Verlaagd tarief voor enige eigen gezinswoning die beschermd monument is."
+    },
+    {
+      "naam": "Gronden — landbouwgrond en natuurgebied",
+      "waarde": 10,
+      "eenheid": "%",
+      "tarief_pct": 10,
+      "toelichting": "Art. 2.9.4.2.15 VCF. Verkoopovereenkomsten van onbebouwde onroerende goederen die stedenbouwkundig uitsluitend en volledig zijn bestemd voor landbouw of uitsluitend en volledig liggen in een natuurgebied. Verminderd tarief."
+    },
+    {
+      "naam": "Sociale woningen",
+      "waarde": 1.5,
+      "eenheid": "%",
+      "tarief_pct": 1.5,
+      "toelichting": "Art. 2.9.4.2.2 VCF. Verlaagd tarief voor verwerving sociale woning door erkende sociale verhuurders."
+    },
+    {
+      "naam": "Beroepsverkopers",
+      "waarde": 4,
+      "eenheid": "%",
+      "tarief_pct": 4,
+      "toelichting": "Art. 2.9.4.2.4 VCF. Verlaagd tarief voor beroepsverkopers (handelaars in onroerende goederen) die zich verbinden om binnen 10 jaar opnieuw te verkopen."
+    },
+    {
+      "naam": "Sociale bouwmaatschappij (VMSW / Vlaams Woningfonds)",
+      "waarde": 6,
+      "eenheid": "%",
+      "tarief_pct": 6,
+      "toelichting": "Art. 2.9.4.2.7 VCF. Verkooprecht 6% voor koopovereenkomst ter verwezenlijking van haar voorwerp door maatschappij erkend door Vlaamse Maatschappij voor Sociaal Wonen of door het Vlaams Woningfonds."
+    }
+  ],
+  "context_tabellen": [
+    "registratierechten-verkoop-og-brussels",
+    "registratierechten-verkoop-og-waals"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p42 — Tarief registratierechten verkoop OG Vlaams gewest (Bron: VCF)",
+    "wettekst": "VCF art. 2.9.4.1.1 (basis) + art. 2.9.4.2.x (verlaagde tarieven)",
+    "cijferzakboekje_pagina": 42,
+    "verified_via": "Vision-extract PNG p051 + RAG-cross-check VCF art. 2.9.4.2.11 (gezinswoning 2%, bi=0.147 + woordelijk match) en art. 2.9.4.2.15 (landbouw 10%, bi=0.162)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "registratierechten",
+    "verkooprecht",
+    "vlaams",
+    "vcf",
+    "gezinswoning",
+    "onroerend-goed"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pages": [
+        "p051"
+      ],
+      "rag_queries": [
+        "registratierechten verkoop onroerend goed Vlaams 12% gezinswoning 2%"
+      ],
+      "primary_rag_bronnen": [
+        "VCF Art. 2.9.4.1.1",
+        "VCF Art. 2.9.4.2.11",
+        "VCF Art. 2.9.4.2.15",
+        "VCF Art. 2.9.4.2.7"
+      ],
+      "opmerking": "Vlaams gewest gebruikt term 'verkooprecht' (in VCF) ipv 'registratierecht' (federaal). Beide termen verwijzen naar dezelfde belasting bij overdracht onder bezwarende titel."
+    }
+  }
+}

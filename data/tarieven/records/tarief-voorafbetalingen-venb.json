@@ -1,0 +1,207 @@
+{
+  "id": "tarief-voorafbetalingen-venb",
+  "schema_version": "1.0",
+  "titel": "Vennootschapsbelasting: voorafbetalingen (vermeerderingstarieven + bonificatie + termijnen) 2022-2026",
+  "categorie": "voorafbetalingen",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "art. 157-168"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": 2025,
+    "wijziging_door": "Inkomstenjaar 2025 (aj. 2026): basisrentevoet 4,75% + factor 1,42 → globale vermeerdering 6,75% — sinds aanslagjaar 2019 minimum 3%"
+  },
+  "samenvatting": "Vennootschappen moeten belastingen op inkomsten van lopende jaar op voorhand betalen in 4 kwartalen (VA I-IV). Bij ontoereikende voorafbetaling: belastingvermeerdering. Sinds aj. 2019 minimum 3% basisrentevoet. Vrijstelling voor kleine vennootschappen tijdens eerste 3 boekjaren vanaf oprichting (mits niet > 1/3 van de criteria personeelsbestand 50 / omzet excl. btw € 11.250.000 / balanstotaal € 6.000.000 overschreden, sinds 01.01.2024).",
+  "criteria": [
+    {
+      "naam": "Globale vermeerdering — IJ 2025 (aj. 2026)",
+      "waarde": 6.75,
+      "eenheid": "%",
+      "toelichting": "Sinds aj 2019 bedraagt basisrentevoet minimum 3%."
+    },
+    {
+      "naam": "Globale vermeerdering — IJ 2024 (aj. 2025)",
+      "waarde": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Globale vermeerdering — IJ 2023 (aj. 2024)",
+      "waarde": 6.75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Globale vermeerdering — IJ 2022 (aj. 2023)",
+      "waarde": 6.75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I (10 april) — IJ 2025",
+      "waarde": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II (10 juli) — IJ 2025",
+      "waarde": 7.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III (10 oktober) — IJ 2025",
+      "waarde": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV (22 december) — IJ 2025",
+      "waarde": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I — IJ 2024",
+      "waarde": 12.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II — IJ 2024",
+      "waarde": 10.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III — IJ 2024",
+      "waarde": 8.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV — IJ 2024",
+      "waarde": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I — IJ 2023",
+      "waarde": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II — IJ 2023",
+      "waarde": 7.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III — IJ 2023",
+      "waarde": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV — IJ 2023",
+      "waarde": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I — IJ 2022",
+      "waarde": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II — IJ 2022",
+      "waarde": 7.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III — IJ 2022",
+      "waarde": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV — IJ 2022",
+      "waarde": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I termijn — boekhouding per kalenderjaar — aj 2026",
+      "waarde": "10 april 2025",
+      "eenheid": "datum"
+    },
+    {
+      "naam": "VA II termijn — boekhouding per kalenderjaar — aj 2026",
+      "waarde": "10 juli 2025",
+      "eenheid": "datum"
+    },
+    {
+      "naam": "VA III termijn — boekhouding per kalenderjaar — aj 2026",
+      "waarde": "10 oktober 2025",
+      "eenheid": "datum"
+    },
+    {
+      "naam": "VA IV termijn — boekhouding per kalenderjaar — aj 2026",
+      "waarde": "22 december 2025",
+      "eenheid": "datum"
+    },
+    {
+      "naam": "VA I termijn — boekhouding niet kalenderjaar",
+      "waarde": "10de dag van de 4de maand van het boekjaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "VA II termijn — boekhouding niet kalenderjaar",
+      "waarde": "10de dag van de 7de maand van het boekjaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "VA III termijn — boekhouding niet kalenderjaar",
+      "waarde": "10de dag van de 10de maand van het boekjaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "VA IV termijn — boekhouding niet kalenderjaar",
+      "waarde": "20ste dag van de laatste maand van het boekjaar",
+      "eenheid": "termijn"
+    },
+    {
+      "naam": "Vrijstelling kleine vennootschappen — eerste 3 boekjaren vanaf oprichting — drempel personeelsbestand",
+      "waarde": 50,
+      "eenheid": "personen",
+      "toelichting": "Kleine vennootschappen niet verplicht voorafbetalingen te doen voor eerste drie boekjaren vanaf oprichting. Sinds 01.01.2024 mag niet meer dan 1 van de 3 criteria overschreden worden."
+    },
+    {
+      "naam": "Vrijstelling kleine vennootschappen — drempel jaaromzet excl. btw",
+      "waarde": 11250000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vrijstelling kleine vennootschappen — drempel balanstotaal",
+      "waarde": 6000000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bankrekening voorafbetalingen",
+      "waarde": "BE61 6792 0022 9117 (BIC: PCHQ BEBB)",
+      "eenheid": "rekening"
+    }
+  ],
+  "drempel_regel": "Vennootschappen moeten belastingen op inkomsten van lopende jaar op voorhand betalen. Bij ontoereikende voorafbetaling: belastingvermeerdering met bepaald percentage (globale vermeerdering). Geen vermeerdering verschuldigd wanneer som per VA toegepaste verminderingen ≥ globale vermeerdering. Voorbeeld inkomstenjaar 2025: verschuldigde VenB € 18.500 × 6,75% = € 1.248,75 globale vermeerdering, verminderd met (VA I × 9%) + (VA II × 7,5%) + (VA III × 6%) + (VA IV × 4,5%). Vrijstelling kleine vennootschappen voor eerste 3 boekjaren vanaf oprichting (sinds 01.01.2024 maximaal 1/3 criteria overschreden).",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p157-p158 — Vennootschapsbelasting: voorafbetalingen",
+    "wettekst": "WIB92 art. 157-168",
+    "cijferzakboekje_pagina": 157,
+    "verified_via": "Vision-extract PNG p166-p167 — globale vermeerderingen + percentages per VA + termijnen + voorbeeld letterlijk overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "voorafbetalingen",
+    "venb",
+    "wib92",
+    "art-157",
+    "vermeerdering",
+    "kleine-vennootschap"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p166-p167",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p166.png + p167.png"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "overbruggingsrecht-zelfstandigen",
+  "schema_version": "1.0",
+  "titel": "Overbruggingsrecht zelfstandigen",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "Wet 22.12.2016",
+      "artikel": "overbruggingsrecht zelfstandigen"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Uitkering die zelfstandige onder bepaalde voorwaarden kan aanvragen bij zijn sociaal verzekeringsfonds in geval van faillissement/collectieve schuldenregeling, gedwongen stopzetting (natuurramp/brand/vernieling door derde/allergie), of economische moeilijkheden. Tijdelijke bescherming van maximaal 12 maanden.",
+  "criteria": [
+    {
+      "naam": "Maandbedrag — zonder gezinslast",
+      "waarde": 1638.26,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Maandbedrag — met gezinslast",
+      "waarde": 2047.18,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Maximale duur — tijdelijke bescherming",
+      "waarde": 12,
+      "eenheid": "maanden"
+    }
+  ],
+  "drempel_regel": "Voorwaarden: (a) faillissement/collectieve schuldenregeling; (b) gedwongen stopzetting door natuurramp, brand, vernieling door derde, allergie; (c) stopzetting wegens economische moeilijkheden. Bij gedeeltelijke maand: bedrag wordt afhankelijk van duur van de onderbreking (opeenvolgende kalenderdagen).",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p137 — Overbruggingsrecht",
+    "wettekst": "Wet 22.12.2016 betreffende toekenning overbruggingsrecht zelfstandigen; zie https://www.vlaio.be/nl/subsidies-financiering/subsidiedatabank/overbruggingsrecht-voor-zelfstandigen",
+    "cijferzakboekje_pagina": 137,
+    "verified_via": "Vision-extract PNG p146.png — bedragen letterlijk overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "zelfstandigen",
+    "overbruggingsrecht",
+    "rsvz"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p146.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p146.png"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "szbijdragen-zelfstandigen-starters",
+  "schema_version": "1.0",
+  "titel": "Sociale bijdragen zelfstandigen: starters",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB nr. 38 (27.07.1967)",
+      "artikel": "art. 13bis (voorlopige bijdragen)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": null,
+    "wijziging_door": "Voordeelregeling voor primostarters uitgebreid sinds 01.01.2023"
+  },
+  "samenvatting": "Starters betalen voorlopige bijdragen op netto belastbare beroepsinkomsten van drie jaar terug. Voor primostarters geldt voordeel-regeling die gedurende eerste vier kwartalen van toepassing is op zelfstandigen in zelfstandig hoofdberoep en op zelfstandigen die zelfstandig hoofdberoep hernemen tijdens de na een periode van arbeidsongeschiktheid of invaliditeit (uitgebreid sinds 01.01.2023). Twee opties voor voorlopige bijdragen: ofwel absolute minimumbijdrage (altijd verschuldigd, mogelijk teruggave als achterhand blijkt dat jaar te goed geen netto belastbaar inkomen behaald) ofwel voorlopige bijdrage berekend op zelf opgegeven inkomen. De startersregeling dekt de periode vanaf het eerste kwartaal van activiteit tot en met het vierde kwartaal van het derde volledige jaar van onderwerping.",
+  "criteria": [
+    {
+      "naam": "Starters in hoofdberoep — toepasselijke regeling",
+      "waarde": "Voorlopige bijdragen op netto belastbare beroepsinkomsten van drie jaar terug; primostarters: voordeelregeling tijdens eerste 4 kwartalen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Starters in bijberoep — toepasselijke regeling",
+      "waarde": "Idem",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Meewerkende echtgenoten — ministatuut",
+      "waarde": "Voorlopige minimumbijdragen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Meewerkende echtgenoten — maxistatuut",
+      "waarde": "Voorlopige minimumbijdragen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Student-zelfstandigen",
+      "waarde": "Voorlopige minimumbijdragen",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Termijn voordeelregeling primostarters",
+      "waarde": 4,
+      "eenheid": "kwartalen",
+      "toelichting": "Eerste 4 kwartalen van activiteit (uitgebreid 01.01.2023 naar herstarters in hoofdberoep na arbeidsongeschiktheid/invaliditeit)."
+    },
+    {
+      "naam": "Termijn startersregeling globaal",
+      "waarde": "Vanaf eerste kwartaal activiteit t/m vierde kwartaal van derde volledige jaar van onderwerping",
+      "eenheid": "periode"
+    }
+  ],
+  "drempel_regel": "Twee keuzes voor primostarters: (a) absolute minimumbijdrage betalen — minima altijd verschuldigd, terugvorderbaar in mate dat dat jaar geen netto belastbaar inkomen (als zelfstandige) wordt behaald; (b) voorlopige bijdrage betalen berekend op zelf opgegeven inkomen — voordeel: latere regularisaties (als inkomen van dat jaar bekend is) onder controle, men kan op dat moment dus geen al te grote bedragen meer moeten bijbetalen.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p142 — Sociale bijdragen zelfstandigen: starters",
+    "wettekst": "KB nr. 38 (27.07.1967) art. 13bis; voordeelregeling uitgebreid bij Wet sinds 01.01.2023",
+    "cijferzakboekje_pagina": 142,
+    "verified_via": "Vision-extract PNG p151.png — kwalitatief overzicht (geen specifieke tarieven; concrete bedragen per situatie via sociaal verzekeringsfonds)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "zelfstandigen",
+    "starters",
+    "primostarters",
+    "voorlopige-bijdragen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p151.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p151.png"
+    }
+  }
+}

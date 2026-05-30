@@ -1,0 +1,146 @@
+{
+  "id": "schenkingsrechten-brussels",
+  "schema_version": "1.0",
+  "titel": "Schenkingsrechten — Brussels Hoofdstedelijk gewest (2026)",
+  "categorie": "registratierechten",
+  "wetsbasis": [
+    {
+      "bron": "Br. W.Reg.",
+      "artikel": "131"
+    },
+    {
+      "bron": "Br. W.Reg.",
+      "artikel": "140"
+    },
+    {
+      "bron": "Br. W.Reg.",
+      "artikel": "140/1-140/6"
+    },
+    {
+      "bron": "Br. W.Reg.",
+      "artikel": "137"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2024,
+    "tot_boekjaar": null,
+    "wijziging_door": "Ordonnantie 06.07.2023 (BS 27.09.2023) — feitelijke samenwoners gelijkgeschakeld met gehuwden/wettelijke samenwoners sinds 01.01.2024 (mits 1 jaar ononderbroken samenwonen, art. 14, c)"
+  },
+  "samenvatting": "Schenkingsrechten in het Brussels Hoofdstedelijk gewest 2026 — vaste tarieven (3%/7%) voor roerende goederen, progressieve schijven (3-27%/10-40%) voor onroerende goederen, en verlaagde tarieven (6,6%/7%) voor schenkingen aan bepaalde overheden en goede doelen. Vrijstelling voor familiale ondernemingen onder voorwaarden.",
+  "criteria": [
+    {
+      "naam": "Roerende goederen — in rechte lijn, tussen echtgenoten en tussen samenwonenden",
+      "waarde": 3,
+      "eenheid": "%",
+      "toelichting": "Vast tarief op het geschonken bedrag. Feitelijke samenwoners gelijkgeschakeld sinds 01.01.2024 mits 1 jaar ononderbroken samenwonen."
+    },
+    {
+      "naam": "Roerende goederen — voor alle anderen",
+      "waarde": 7,
+      "eenheid": "%",
+      "toelichting": "Vast tarief op het geschonken bedrag."
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 150000,
+      "tarief_pct": 3,
+      "eenheid": "EUR",
+      "toelichting": "Gedeelte van het brutoaandeel."
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 2",
+      "ondergrens": 150000,
+      "bovengrens": 250000,
+      "tarief_pct": 9,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 3",
+      "ondergrens": 250000,
+      "bovengrens": 450000,
+      "tarief_pct": 18,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 4",
+      "ondergrens": 450000,
+      "bovengrens": null,
+      "tarief_pct": 27,
+      "eenheid": "EUR",
+      "toelichting": "€ 450.000 en meer."
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 1",
+      "ondergrens": 0,
+      "bovengrens": 150000,
+      "tarief_pct": 10,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 2",
+      "ondergrens": 150000,
+      "bovengrens": 250000,
+      "tarief_pct": 20,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 3",
+      "ondergrens": 250000,
+      "bovengrens": 450000,
+      "tarief_pct": 30,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 4",
+      "ondergrens": 450000,
+      "bovengrens": null,
+      "tarief_pct": 40,
+      "eenheid": "EUR",
+      "toelichting": "€ 450.000 en meer. Bij onroerende schenking wordt rekening gehouden met onroerende schenkingen tussen dezelfde partijen in de drie jaar voor de nieuwe schenking (art. 137 Br. W.Reg.)."
+    },
+    {
+      "naam": "Familiale onderneming — vrijstelling",
+      "waarde": "vrijstelling",
+      "toelichting": "Vrijstelling voor schenking van familiale ondernemingen (art. 140/1-140/6 Br. W.Reg.) onder voorwaarden: familiaal karakter, reële economische activiteit, onroerende goederen niet hoofdzakelijk voor bewoning, activiteit minstens drie jaar zonder onderbreking voortgezet."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 6,6%",
+      "waarde": 6.6,
+      "eenheid": "%",
+      "toelichting": "Begiftigden o.a.: gemeenten in BHG en hun openbare instellingen; BGHM erkende maatschappijen; coöperatieve vennootschap met beperkte aansprakelijkheid Woningfonds van BHG; intercommunales van BHG; stichtingen van openbaar nut. Ook toepasselijk op gelijkaardige overheden en goede doelen in EER."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 7%",
+      "waarde": 7,
+      "eenheid": "%",
+      "toelichting": "Begiftigden: VZW's; ziekenfondsen en landsbonden van ziekenfondsen; beroepsverenigingen en internationale VZW's; private stichtingen. Bron: art. 140 Br. W.Reg."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p20-p21 — Schenkingsrechten: Brussels Hoofdstedelijk gewest",
+    "wettekst": "art. 131 e.v. Br. W.Reg. (tarieven); art. 137 Br. W.Reg. (drie-jaarregel onroerend); art. 140/1-140/6 Br. W.Reg. (familiale onderneming); art. 140 Br. W.Reg. (overheden en goede doelen); Ordonnantie 06.07.2023 (gelijkschakeling feitelijke samenwoners)",
+    "cijferzakboekje_pagina": 20,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p029.png + p030.png — Cijferzakboekje 2026, hoofdstuk Erven en Schenken, p20-21."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "gewest-brussels",
+    "schenkingsrechten",
+    "registratierechten",
+    "erven-en-schenken"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p029.png + p030.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_paginas": [
+        "data/tarieven/pages/p029.png",
+        "data/tarieven/pages/p030.png"
+      ],
+      "opmerkingen": "Schenkingsrechten zijn registratierechten — categorie 'registratierechten' uit schema enum. Wetboek Br. W.Reg. = Wetboek der Registratie-, Hypotheek- en Griffierechten Brussels Hoofdstedelijk Gewest. Tarieven 0% (voor publieke overheden in BHG, art. 140 lid 1) zijn op p020 niet vermeld — alleen 6,6% en 7%. De vrijstelling familiale onderneming is een aparte regeling (geen tariefschijf)."
+    }
+  }
+}

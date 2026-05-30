@@ -1,0 +1,93 @@
+{
+  "id": "pensioen-werknemers-toegelaten-beroepsinkomsten",
+  "schema_version": "1.0",
+  "titel": "Wettelijk pensioen werknemers: toegelaten beroepsinkomsten — grensbedragen 2026",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB 23.12.1996",
+      "artikel": "art. 64 (toegelaten arbeid)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Jaarlijkse aanpassing grensbedragen"
+  },
+  "samenvatting": "Grensbedragen voor toegelaten beroepsinkomsten van gepensioneerde werknemers die nog actief blijven. Onbeperkt bijverdienen mag onder voorwaarden (eigen rustpensioen + start vóór wettelijke pensioenleeftijd, of 45 jaar loopbaan, of overgangsuitkering); anders moeten beroepsinkomsten onder grensbedrag blijven anders proportionele vermindering pensioenuitkering.",
+  "criteria": [
+    {
+      "naam": "Jonger dan pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — zonder kinderlast",
+      "waarde": 10432,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — met kinderlast",
+      "waarde": 15648,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — alleen overlevingspensioen of partner heeft een gezinspensioen — zonder kinderlast",
+      "waarde": 24289,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — alleen overlevingspensioen of partner heeft een gezinspensioen — met kinderlast",
+      "waarde": 36434,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — flexijob — zonder kinderlast",
+      "waarde": 8121,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Jonger dan pensioenleeftijd — flexijob — met kinderlast",
+      "waarde": 8121,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — zonder kinderlast",
+      "waarde": "Onbeperkt",
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — rustpensioen met of zonder overlevingspensioen — met kinderlast",
+      "waarde": "Onbeperkt",
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — alleen overlevingspensioen of partner heeft een gezinspensioen — zonder kinderlast",
+      "waarde": 30132,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Vanaf pensioenleeftijd — alleen overlevingspensioen of partner heeft een gezinspensioen — met kinderlast",
+      "waarde": 36652,
+      "eenheid": "EUR/jaar"
+    }
+  ],
+  "drempel_regel": "Onbeperkt bijverdienen mag indien gepensioneerde minstens één van volgende voorwaarden vervult: (a) eigen rustpensioen dat startte in jaar waarin wettelijke pensioenleeftijd bereikt werd; OF (b) loopbaan van minstens 45 jaar; OF (c) overgangsuitkering ontvangen. Anders: inkomsten mogen niet hoger zijn dan grensbedrag — overschrijding leidt tot proportionele pensioenvermindering.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p133 — Wettelijk pensioen werknemers: toegelaten beroepsinkomsten (grensbedragen 2026)",
+    "wettekst": "KB 23.12.1996 art. 64 (toegelaten arbeid gepensioneerden); zie ook https://www.rsvz.be/nl/toegelaten-beroepsinkomsten-gepensioneerden",
+    "cijferzakboekje_pagina": 133,
+    "verified_via": "Vision-extract PNG p142.png — bedragen letterlijk overgenomen uit twee tabellen (jonger dan / vanaf wettelijke pensioenleeftijd)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "pensioen",
+    "werknemers",
+    "toegelaten-arbeid",
+    "grensbedragen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p142.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p142.png"
+    }
+  }
+}

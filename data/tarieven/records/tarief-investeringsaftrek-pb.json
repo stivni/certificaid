@@ -1,0 +1,200 @@
+{
+  "id": "tarief-investeringsaftrek-pb",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — tarieven investeringsaftrek (eenmalig en gespreid) voor natuurlijke personen",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "69 (investeringsaftrek — categorieën)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "70 (gespreide investeringsaftrek O&O)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "201 (kmo-criterium art. 1:24 WVV)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2020,
+    "tot_boekjaar": 2024,
+    "wijziging_door": "Hervorming investeringsaftrek (art. 69 WIB) per 01.01.2025 — basisaftrek/themaaftrek/technologie-aftrek (10%/40%/13,5%)"
+  },
+  "samenvatting": "Tarieven van de investeringsaftrek voor natuurlijke personen (PB-eenmanszaken) per investeringscategorie en aanslagjaar — historische tabellen voor ij 2021-2024. Eenmalige en gespreide aftrek. Vanaf ij 2025 (aj. 2026) geldt nieuwe structuur uit art. 69 WIB (basisaftrek 10% — verhoogde thematische aftrek 40% — technologie-aftrek 13,5%).",
+  "criteria": [
+    {
+      "naam": "Octrooien — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 15.5,
+      "eenheid": "%",
+      "tarief_pct": 15.5,
+      "toelichting": "15,50% van investeringswaarde."
+    },
+    {
+      "naam": "Milieuvriendelijke investeringen O&O — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 15.5,
+      "eenheid": "%",
+      "tarief_pct": 15.5,
+      "toelichting": "15,50%."
+    },
+    {
+      "naam": "Energiebesparende investeringen — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 15.5,
+      "eenheid": "%",
+      "tarief_pct": 15.5,
+      "toelichting": "15,50%."
+    },
+    {
+      "naam": "Digitale investeringen (KMO) — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 15.5,
+      "eenheid": "%",
+      "tarief_pct": 15.5,
+      "toelichting": "Enkel voor natuurlijke personen die voldeden aan KMO-definitie art. 1:24 WVV (footnote 1). 15,50%."
+    },
+    {
+      "naam": "Rookafzuig-/verluchtingssystemen horeca — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 15.5,
+      "eenheid": "%",
+      "tarief_pct": 15.5,
+      "toelichting": "15,50%."
+    },
+    {
+      "naam": "Investeringen in beveiliging — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 22.5,
+      "eenheid": "%",
+      "tarief_pct": 22.5,
+      "toelichting": "22,50%."
+    },
+    {
+      "naam": "Koolstofemissievrije vrachtwagens (incl. tank-/laadinfra) — eenmalige aftrek IJ 2024 / aj. 2025",
+      "waarde": 31.5,
+      "eenheid": "%",
+      "tarief_pct": 31.5,
+      "toelichting": "31,50%."
+    },
+    {
+      "naam": "Andere investeringen — eenmalige aftrek IJ 2024 / aj. 2025 (KMO < 20 werknemers)",
+      "waarde": 8,
+      "eenheid": "%",
+      "tarief_pct": 8,
+      "toelichting": "Enkel voor natuurlijke personen die op 1e dag van vorig belastbaar tijdperk < 20 werknemers tewerkstelden (footnote 2). 8,00%."
+    },
+    {
+      "naam": "Milieuvriendelijke investeringen O&O — gespreide aftrek IJ 2024 / aj. 2025",
+      "waarde": 22.5,
+      "eenheid": "%",
+      "tarief_pct": 22.5,
+      "toelichting": "22,50% gespreid."
+    },
+    {
+      "naam": "Andere investeringen — gespreide aftrek IJ 2024 / aj. 2025 (KMO)",
+      "waarde": 12.5,
+      "eenheid": "%",
+      "tarief_pct": 12.5,
+      "toelichting": "12,50% gespreid."
+    },
+    {
+      "naam": "Octrooien — eenmalige aftrek IJ 2023 / aj. 2024",
+      "waarde": 20.5,
+      "eenheid": "%",
+      "tarief_pct": 20.5,
+      "toelichting": "20,50%."
+    },
+    {
+      "naam": "Andere investeringen — eenmalige aftrek IJ 2023 / aj. 2024 (KMO)",
+      "waarde": 8,
+      "eenheid": "%",
+      "tarief_pct": 8,
+      "toelichting": "8,00% (footnote 2)."
+    },
+    {
+      "naam": "Octrooien — eenmalige aftrek IJ 2022 / aj. 2023",
+      "waarde": "13,5% of 25%",
+      "eenheid": "%",
+      "toelichting": "13,50% of 25% (3) — tarief van 25% is van toepassing op vaste activa verkregen tussen 12 maart 2020 en 31 december 2022."
+    },
+    {
+      "naam": "Andere investeringen — eenmalige aftrek IJ 2022 / aj. 2023",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "25%."
+    },
+    {
+      "naam": "Octrooien — eenmalige aftrek IJ 2021 / aj. 2022",
+      "waarde": "13,5% of 25%",
+      "eenheid": "%",
+      "toelichting": "13,50% of 25% (3)."
+    },
+    {
+      "naam": "Andere investeringen — eenmalige aftrek IJ 2021 / aj. 2022",
+      "waarde": 25,
+      "eenheid": "%",
+      "tarief_pct": 25,
+      "toelichting": "25%."
+    },
+    {
+      "naam": "Andere investeringen — gespreide aftrek IJ 2023 / aj. 2024",
+      "waarde": 17.5,
+      "eenheid": "%",
+      "tarief_pct": 17.5,
+      "toelichting": "17,50% (footnote 2)."
+    },
+    {
+      "naam": "Andere investeringen — gespreide aftrek IJ 2022 / aj. 2023",
+      "waarde": 10.5,
+      "eenheid": "%",
+      "tarief_pct": 10.5,
+      "toelichting": "10,50%."
+    },
+    {
+      "naam": "Andere investeringen — gespreide aftrek IJ 2021 / aj. 2022",
+      "waarde": 10.5,
+      "eenheid": "%",
+      "tarief_pct": 10.5,
+      "toelichting": "10,50%."
+    },
+    {
+      "naam": "Milieuvriendelijke O&O — gespreide aftrek IJ 2022 / aj. 2023",
+      "waarde": 20.5,
+      "eenheid": "%",
+      "tarief_pct": 20.5,
+      "toelichting": "20,50%."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p94-95 — Personenbelasting: investeringsaftrek tarieven tot en met inkomstenjaar 2024",
+    "wettekst": "WIB92 art. 69 (categorieën investeringsaftrek), art. 70 (gespreide aftrek), art. 201 (kmo-verwijzing art. 1:24 WVV)",
+    "cijferzakboekje_pagina": 94,
+    "verified_via": "Vision-extract PNGs p103-p104 + RAG-cross-check WIB92 art. 69 (nieuwe structuur basis 10%/thema 40%/technologie 13,5% bevestigd voor aj. 2026+; voorgaande tarieven in cijferzakboekje historisch)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "investeringsaftrek",
+    "eenmalig",
+    "gespreid",
+    "art-69",
+    "art-70",
+    "kmo"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNGs p103-p104 + RAG-cross-check WIB92 art. 69",
+      "png_paginas": [
+        "data/tarieven/pages/p103.png",
+        "data/tarieven/pages/p104.png"
+      ],
+      "rag_queries": [
+        "investeringsaftrek natuurlijke personen tarief 25% verhoogd KMO"
+      ],
+      "scope_keuze": "Apart van VenB-investeringsaftrek-record (toekomstig). Hier alleen tarieven voor PB-eenmanszaken (natuurlijke personen). Beperking sinds 01.01.2025 (Wet Programmawet 2025): aj. 2026+ gehanteerd via nieuwe categorie-aftrek-structuur uit art. 69 WIB.",
+      "openstaand": "Aj. 2026+ (ij 2025+) nieuwe structuur: basisaftrek 10%, thematische verhoogde aftrek 40%, technologie-aftrek 13,5%. Apart record nodig zodra Cijferzakboekje 2027 verschijnt."
+    }
+  }
+}

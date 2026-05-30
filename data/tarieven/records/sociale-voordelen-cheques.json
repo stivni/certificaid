@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "sociale-voordelen-cheques",
+  "titel": "Sociale voordelen: maaltijd-, sport-, cultuur- en ecocheques",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "38 §1, 25°"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "38/1 §2 (maaltijdcheques)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "38/1 §3 (sport-/cultuurcheques)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "38/1 §4 (ecocheques)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "53, 14°"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null,
+    "wijziging_door": "Sinds 1 december 2022 reactivering vervallen cheques mogelijk (KB 22.11.2022)"
+  },
+  "samenvatting": "Maaltijd-, sport-/cultuur- en ecocheques zijn onder bepaalde voorwaarden vrijgestelde sociale voordelen: niet belastbaar bij verkrijger, gedeeltelijk (maaltijdcheques) of niet aftrekbaar (cheque-types) bij toekenner. Gemeenschappelijke voorwaarden: niet ter vervanging van bezoldigingen, voorzien in cao of individueel akkoord, afgeleverd op naam, slechts voor specifieke dienst/goed. Sinds 01.12.2022 kunnen werknemers vervallen cheques binnen drie maanden na de vervaldatum laten reactiveren voor een extra periode van drie maanden.",
+  "criteria": [
+    {
+      "naam": "Maaltijdcheques — max bedrag totaal",
+      "waarde": 10,
+      "eenheid": "EUR",
+      "toelichting": "Tussenkomst werkgever max € 8,91; tussenkomst begunstigde min € 1,09."
+    },
+    {
+      "naam": "Maaltijdcheques — max werkgeverstussenkomst",
+      "waarde": 8.91,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Maaltijdcheques — min begunstigdetussenkomst",
+      "waarde": 1.09,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Maaltijdcheques — max geldigheid",
+      "waarde": 12,
+      "eenheid": "maanden",
+      "toelichting": "Sinds 01.12.2022 met mogelijke reactivering van 3 maanden binnen 3 maanden na vervaldatum."
+    },
+    {
+      "naam": "Maaltijdcheques — vorm",
+      "waarde": "Elektronisch",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "Maaltijdcheques — aftrek toekenner",
+      "waarde": "€ 2/cheque of € 4/cheque (max € 10)",
+      "eenheid": "EUR/cheque",
+      "toelichting": "€ 2/cheque (algemeen) of € 4/cheque bij toekenning maximale bedrag € 10/cheque."
+    },
+    {
+      "naam": "Sport-/cultuurcheques — max bedrag per jaar",
+      "waarde": 100,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Sport-/cultuurcheques — max geldigheid",
+      "waarde": 15,
+      "eenheid": "maanden"
+    },
+    {
+      "naam": "Sport-/cultuurcheques — vorm",
+      "waarde": "Papier",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "Sport-/cultuurcheques — aftrek toekenner",
+      "waarde": "Neen",
+      "eenheid": "boolean"
+    },
+    {
+      "naam": "Ecocheques — max bedrag per jaar",
+      "waarde": 250,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Ecocheques — max geldigheid",
+      "waarde": 24,
+      "eenheid": "maanden",
+      "toelichting": "Sinds 01.12.2022 met mogelijke reactivering."
+    },
+    {
+      "naam": "Ecocheques — vorm",
+      "waarde": "Papier, elektronisch",
+      "eenheid": "vorm"
+    },
+    {
+      "naam": "Ecocheques — aftrek toekenner",
+      "waarde": "Neen",
+      "eenheid": "boolean"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p107 — Sociale voordelen: maaltijd-, sport-/cultuur- en ecocheques",
+    "wettekst": "WIB92 art. 38 §1, 25° + art. 38/1 §2-§4 + art. 53, 14° — Wet 18.12.2025 (BS 30.12.2025), art. 19bis KB 28.11.1969, art. 53, 14° WIB92, KB 22.11.2022 (BS 28.11.2022). Ondersteunend: Ci.RH. 241/575.580 (25.09.2007), Ci.RH. 242/579.489 (02.06.2009), Ci.RH. 242/604.311 (25.06.2010).",
+    "cijferzakboekje_pagina": 107,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p116.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "sociale-voordelen",
+    "maaltijdcheques",
+    "ecocheques",
+    "sportcheques",
+    "loon"
+  ]
+}

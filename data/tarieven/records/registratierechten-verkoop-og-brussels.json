@@ -1,0 +1,136 @@
+{
+  "id": "registratierechten-verkoop-og-brussels",
+  "schema_version": "1.0",
+  "titel": "Registratierechten verkoop onroerende goederen — Brussels Hoofdstedelijk Gewest",
+  "categorie": "registratierechten",
+  "wetsbasis": [
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "44"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "46bis"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "46ter"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "51"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "51bis"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "52"
+    },
+    {
+      "bron": "W.Reg-Brussel",
+      "artikel": "62"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null,
+    "wijziging_door": "Toepassing in 2026 (Cijferzakboekje 2026). Abattement gezinswoning gewijzigd door ordonnantie 17.07.2025 (B.S. 24.07.2025) van toepassing vanaf 24.07.2025."
+  },
+  "samenvatting": "Tarieven verkoopregistratierechten in het Brussels Hoofdstedelijk Gewest. Standaardtarief 12,5% (art. 44 W.Reg.); verlaagde tarieven voor sociale woningen, beroepsverkopers en sociale bouwmaatschappijen. Specifiek abattement gezinswoning (€ 200.000 vrijstelling van belastbare grondslag bij hoofdverblijfplaats, mits aankoopprijs ≤ € 600.000) sinds 24.07.2025.",
+  "criteria": [
+    {
+      "naam": "Basistarief",
+      "waarde": 12.5,
+      "eenheid": "%",
+      "tarief_pct": 12.5,
+      "toelichting": "Art. 44 W.Reg. Brussels Hoofdstedelijk Gewest. Recht van 12,5% op verkopen, ruilingen en alle overeenkomsten onder bezwarende titel waarbij eigendom of vruchtgebruik van onroerende goederen wordt overgedragen."
+    },
+    {
+      "naam": "Sociale woningen",
+      "waarde": 1.5,
+      "eenheid": "%",
+      "tarief_pct": 1.5,
+      "toelichting": "Art. 52 W.Reg. Verlaagd tarief voor sociale woningen."
+    },
+    {
+      "naam": "Beroepsverkopers",
+      "waarde": 8,
+      "eenheid": "%",
+      "tarief_pct": 8,
+      "toelichting": "Art. 62 W.Reg. Verlaagd tarief voor beroepsverkopers (handelaars in onroerende goederen)."
+    },
+    {
+      "naam": "Bouwmaatschappijen — Openbaar nut",
+      "waarde": 6,
+      "eenheid": "%",
+      "tarief_pct": 6,
+      "toelichting": "Art. 51 W.Reg. Verlaagd tarief voor bouwmaatschappijen van openbaar nut."
+    },
+    {
+      "naam": "Erkende openbare vastgoedmaatschappijen",
+      "waarde": 0,
+      "eenheid": "%",
+      "tarief_pct": 0,
+      "toelichting": "Art. 51bis W.Reg. Vrijstelling voor erkende openbare vastgoedmaatschappijen."
+    },
+    {
+      "naam": "Abattement gezinswoning — vrijstelling belastbare grondslag",
+      "waarde": 200000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 46bis W.Reg. (van toepassing sinds 24.07.2025). Belastbare grondslag wordt verminderd met € 200.000 bij verwerving door natuurlijke persoon van volle eigendom van een geheel of gedeeltelijk tot bewoning bestemd onroerend goed dat hoofdverblijfplaats wordt. Abattement enkel als aankoopprijs ≤ € 600.000."
+    },
+    {
+      "naam": "Abattement gezinswoning — maximumdrempel aankoopprijs",
+      "waarde": 600000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 46bis W.Reg. Het abattement van € 200.000 kan slechts worden toegepast indien het bedrag waarop het recht moet worden vereffend € 600.000 niet te boven gaat."
+    },
+    {
+      "naam": "Abattement bouwgrond — vrijstelling belastbare grondslag (aankopen sinds 01.04.2023)",
+      "waarde": 100000,
+      "eenheid": "EUR",
+      "toelichting": "Art. 46ter W.Reg. Abattement van € 100.000 bij aankoop bouwgrond in Brussels Hoofdstedelijk Gewest. Voorwaarden: aankoopprijs ≤ € 300.000, hoofdverblijfplaats binnen 3 jaar, geen volle eigendom van ander OG (behoudens vervreemding binnen 2 jaar)."
+    }
+  ],
+  "context_tabellen": [
+    "registratierechten-verkoop-og-vlaams",
+    "registratierechten-verkoop-og-waals"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p43-45 — Brussels Hoofdstedelijk gewest: tarieven en abattementen (Bron: W.Reg. Brussels)",
+    "wettekst": "Wetboek Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest (art. 44 basis, art. 46bis abattement gezinswoning, art. 46ter abattement bouwgrond, art. 51/51bis/52/62 verlaagde tarieven)",
+    "cijferzakboekje_pagina": 44,
+    "verified_via": "Vision-extract PNG p053-p054 + RAG-cross-check W.Reg-Brussel art. 44 (bi=0.235, woordelijk match 12,5%) en art. 46bis (bi=0.224, woordelijk match € 200.000 / € 600.000)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "registratierechten",
+    "brussels",
+    "gezinswoning",
+    "abattement",
+    "onroerend-goed"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision PNG + RAG-cross-check",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pages": [
+        "p053",
+        "p054"
+      ],
+      "rag_queries": [
+        "Brussels registratierechten verkoop woning art 44 abattement 200000"
+      ],
+      "primary_rag_bronnen": [
+        "W.Reg-Brussel Art. 44",
+        "W.Reg-Brussel Art. 46bis",
+        "W.Reg-Brussel Art. 46ter"
+      ],
+      "opmerking": "Brussels werkt met abattement-systeem (vrijstelling van eerste schijf belastbare grondslag) i.p.v. een verlaagd tarief voor gezinswoning. Sinds 01.04.2023 zijn de abattement-bedragen verhoogd (woning € 200.000, bouwgrond € 100.000); historische bedragen (€ 175.000 / € 87.500) gelden voor akten t.e.m. 31.03.2023."
+    }
+  }
+}

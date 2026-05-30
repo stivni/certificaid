@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "kilometervergoeding-werkgever",
+  "titel": "Forfaitaire kilometervergoeding werkgever — beroepsmatige verplaatsingen privéauto",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "31, tweede lid 1°"
+    },
+    {
+      "bron": "Comm. IB",
+      "artikel": "31/36"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2019,
+    "tot_boekjaar": null,
+    "wijziging_door": "Jaarlijkse indexatie (jaarlijks 01.07) of kwartaalindexatie sinds 01.10.2022"
+  },
+  "samenvatting": "Forfaitair maximumbedrag per beroepsmatig gereden kilometer met privéauto. Twee parallelle systemen: jaarlijkse indexatie (per 1 juli) of kwartaalindexatie (sinds 1 oktober 2022). Werkgevers kiezen één systeem zolang het maximum niet wordt overschreden. Dergelijke forfaitaire uitbetaling is in principe enkel toegelaten indien per jaar niet meer dan 24.000 km wordt terugbetaald.",
+  "criteria": [
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2025 - 30.06.2026",
+      "waarde": 0.4449,
+      "eenheid": "EUR/km",
+      "toelichting": "Maximumbedrag per beroepsmatig gereden kilometer."
+    },
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2024 - 30.06.2025",
+      "waarde": 0.4415,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2023 - 30.06.2024",
+      "waarde": 0.428,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2022 - 30.06.2023",
+      "waarde": 0.417,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2021 - 30.06.2022",
+      "waarde": 0.3707,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Jaarlijkse indexatie 01.07.2020 - 30.06.2021",
+      "waarde": 0.3542,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.01.2026 - 31.03.2026",
+      "waarde": 0.4326,
+      "eenheid": "EUR/km",
+      "toelichting": "Indexatie per kwartaal sinds 01.10.2022 — alternatief voor jaarlijkse indexatie."
+    },
+    {
+      "naam": "Kwartaalindexatie 01.10.2025 - 31.12.2025",
+      "waarde": 0.4312,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.10.2025 - 31.12.2025 (alt)",
+      "waarde": 0.4312,
+      "eenheid": "EUR/km",
+      "toelichting": "Tweede regel in tabel — identieke waarde."
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2025 - 30.09.2025",
+      "waarde": 0.4309,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.04.2025 - 30.06.2025",
+      "waarde": 0.432,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.01.2025 - 31.03.2025",
+      "waarde": 0.429,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.10.2024 - 31.12.2024",
+      "waarde": 0.4293,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2024 - 30.09.2024",
+      "waarde": 0.4297,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.04.2024 - 30.06.2024",
+      "waarde": 0.4265,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.01.2024 - 31.03.2024",
+      "waarde": 0.4269,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.10.2023 - 31.12.2023",
+      "waarde": 0.4259,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2023 - 30.09.2023",
+      "waarde": 0.4237,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.04.2023 - 30.06.2023",
+      "waarde": 0.4246,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.01.2023 - 31.03.2023",
+      "waarde": 0.4259,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.10.2022 - 31.12.2022",
+      "waarde": 0.4201,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2022 - 30.09.2022",
+      "waarde": 0.417,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.03.2022 - 30.06.2022",
+      "waarde": 0.402,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2021 - 28.02.2022",
+      "waarde": 0.3707,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2020 - 30.06.2021",
+      "waarde": 0.3542,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Kwartaalindexatie 01.07.2019 - 30.06.2020",
+      "waarde": 0.3653,
+      "eenheid": "EUR/km"
+    },
+    {
+      "naam": "Maximum aantal kilometers per jaar",
+      "waarde": 24000,
+      "eenheid": "km/jaar",
+      "toelichting": "Forfaitaire uitbetaling is in principe enkel toegelaten indien per jaarbasis niet meer dan 24.000 km wordt terugbetaald (Comm. IB 31/36). Bij meer kilometers: zgn. kosten eigen aan de werkgever — in principe baseren op werkelijke kostprijs per km. Standpunt wordt betwist in rechtspraak."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p97 — Kosten eigen aan de werkgever: kilometervergoeding",
+    "wettekst": "WIB92 art. 31 lid 2 1° (terugbetaling kosten eigen aan de werkgever) — Comm. IB 31/36 + Circ. nr. 654 (10.06.2016) + Circ. nr. 701.698 (01.07.2015)",
+    "cijferzakboekje_pagina": 97,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p106.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "kosten-eigen-aan-werkgever",
+    "kilometervergoeding",
+    "auto",
+    "loon"
+  ]
+}

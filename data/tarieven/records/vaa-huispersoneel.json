@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "vaa-huispersoneel",
+  "titel": "Voordeel van alle aard: huispersoneel",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "KB/WIB92",
+      "artikel": "18"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2015,
+    "tot_boekjaar": null,
+    "wijziging_door": "Bedrag van toepassing sinds aj. 2015"
+  },
+  "samenvatting": "Forfaitair voordeel van alle aard wanneer werkgever (voor werknemers) of vennootschap (voor zaakvoerders/bestuurders) gratis huispersoneel (dienstbode, hovenier, chauffeur) ter beschikking stelt. Belastbaar op jaarbasis voor één voltijds tewerkgestelde dienstbode. Bij deeltijds: prorata. Ook gratis maaltijden door huispersoneel zijn belastbaar VAA.",
+  "criteria": [
+    {
+      "naam": "Gratis beschikking over huispersoneel — forfaitair voordeel per jaar",
+      "waarde": 5950.0,
+      "eenheid": "EUR/jaar",
+      "toelichting": "Voor één voltijds tewerkgestelde dienstbode. Bij deeltijdse tewerkstelling mag het voordeel geproprateerd worden. Hetzelfde geldt indien de dienstbode bv. maar drie maanden ter beschikking gesteld werd."
+    },
+    {
+      "naam": "Eerste maaltijd (ontbijt) — per dag",
+      "waarde": 0.55,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Eerste maaltijd (ontbijt) — per jaar",
+      "waarde": 198.0,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Tweede maaltijd (hoofdmaaltijd) — per dag",
+      "waarde": 1.09,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Tweede maaltijd (hoofdmaaltijd) — per jaar",
+      "waarde": 392.4,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Derde maaltijd (avondmaaltijd) — per dag",
+      "waarde": 0.84,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Derde maaltijd (avondmaaltijd) — per jaar",
+      "waarde": 302.4,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Huisvesting, verwarming, verlichting — per dag",
+      "waarde": 0.74,
+      "eenheid": "EUR/dag",
+      "toelichting": "Dit voordeel geldt alleen als het huispersoneel over slechts één kamer beschikt. Worden er meerdere kamers ter beschikking gesteld, dan moet het voordeel voor huisvesting bepaald worden zoals een voordeel bewoning en het voordeel voor verwarming en verlichting."
+    },
+    {
+      "naam": "Huisvesting, verwarming, verlichting — per jaar",
+      "waarde": 266.4,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Totaal voordelen verkregen door huispersoneel — per dag",
+      "waarde": 3.22,
+      "eenheid": "EUR/dag"
+    },
+    {
+      "naam": "Totaal voordelen verkregen door huispersoneel — per jaar",
+      "waarde": 1159.2,
+      "eenheid": "EUR/jaar"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p114 — Voordelen van alle aard: huispersoneel",
+    "wettekst": "Art. 18 KB/WIB92",
+    "cijferzakboekje_pagina": 114,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p123.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vaa",
+    "huispersoneel",
+    "kb-wib92"
+  ]
+}

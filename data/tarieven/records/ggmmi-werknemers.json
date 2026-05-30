@@ -1,0 +1,74 @@
+{
+  "id": "ggmmi-werknemers",
+  "schema_version": "1.0",
+  "titel": "Gewaarborgd gemiddeld minimummaandinkomen (GGMMI)",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "Cao nr. 43 NAR",
+      "artikel": "art. 3"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": null,
+    "wijziging_door": "Indexering 01.01.2026"
+  },
+  "samenvatting": "GGMMI is het minimumloon op nationaal niveau — sinds 01.01.2026 € 2.154,11 per maand voor 18 jaar, idem voor 19 jaar (≥ 6 maanden anciënniteit) en 20 jaar (≥ 12 maanden anciënniteit).",
+  "criteria": [
+    {
+      "naam": "GGMMI — sinds 01.01.2026 — 18 jaar",
+      "waarde": 2154.11,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "GGMMI — sinds 01.01.2026 — ≥ 19 jaar en 6 maanden anciënniteit",
+      "waarde": 2154.11,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "GGMMI — sinds 01.01.2026 — ≥ 20 jaar en 12 maanden anciënniteit",
+      "waarde": 2154.11,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "GGMMI — 01.03.2025-31.12.2025 — alle leeftijden",
+      "waarde": 2111.89,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "GGMMI — 01.05.2024-28.02.2025 — alle leeftijden",
+      "waarde": 2070.48,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "GGMMI — 01.04.2024-30.04.2024 — alle leeftijden",
+      "waarde": 2029.88,
+      "eenheid": "EUR/maand"
+    }
+  ],
+  "drempel_regel": "Voor deeltijdse werknemers volgt het GGMMI de verhouding van het deeltijds arbeidsregime tot het voltijdse arbeidsregime in de onderneming. Per bedrijfstak kunnen vakbonden en werkgevers overeenkomen om hogere minimumlonen vast te leggen. Niet van toepassing op: jongeren < 18; jongeren 18-20 met overeenkomst studententewerkstelling; alternerend leren en werken.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p129 — GGMMI sinds 01.01.2026",
+    "wettekst": "Cao nr. 43 NAR (Nationale Arbeidsraad)",
+    "cijferzakboekje_pagina": 129,
+    "verified_via": "Vision-extract PNG p138.png — alleen courante (post-2024) bedragen + sinds-01.01.2026 entry letterlijk overgenomen; historische tijdslijn 2016-2024 ook beschikbaar in bron maar niet alle geëxtraheerd (te oud voor courante toetsing)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "minimum-loon",
+    "ggmmi",
+    "cao-43",
+    "nar"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p138.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p138.png",
+      "scope_keuze": "Recente (>=2024) bedragen + sinds-01.01.2026 bewaard; oudere historische bedragen weggelaten (niet examenrelevant)."
+    }
+  }
+}

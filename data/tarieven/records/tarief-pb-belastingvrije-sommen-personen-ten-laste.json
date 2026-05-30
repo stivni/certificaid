@@ -1,0 +1,171 @@
+{
+  "id": "tarief-pb-belastingvrije-sommen-personen-ten-laste",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — belastingvrije som: toeslagen personen ten laste + nettobestaansmiddelen grenzen",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "132 (toeslagen kinderen ten laste)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "133 (toeslagen overige personen ten laste)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "136 (begrip personen ten laste)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "141 (nettobestaansmiddelen kinderen ten laste)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "142 (nettobestaansmiddelen begrip)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "143 (uitsluitingen bestaansmiddelen)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Toeslagen op de belastingvrije som per categorie personen ten laste (kinderen, jonge kinderen, ascendenten/zijverwanten 65+, zorgbehoevende 65+, iedere andere persoon) + maximumbedragen netto-bestaansmiddelen om als ten laste te kwalificeren (art. 136, 141-143 WIB), voor ij 2022-2025.",
+  "criteria": [
+    {
+      "naam": "Toeslag belastingvrije som — één kind ten laste aj. 2026 (ij 2025)",
+      "waarde": 1980,
+      "eenheid": "EUR",
+      "toelichting": "Art. 132 WIB. Aj. 2024: € 1.850; aj. 2025: € 1.920; aj. 2026: € 1.980."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — twee kinderen ten laste aj. 2026",
+      "waarde": 5110,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 4.760; aj. 2025: € 4.950; aj. 2026: € 5.110."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — drie kinderen ten laste aj. 2026",
+      "waarde": 11440,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 10.660; aj. 2025: € 11.090; aj. 2026: € 11.440."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — vier kinderen ten laste aj. 2026",
+      "waarde": 18510,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 17.250; aj. 2025: € 17.940; aj. 2026: € 18.510."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — elk volgend kind boven vier aj. 2026",
+      "waarde": 7070,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 6.580; aj. 2025: € 6.850; aj. 2026: € 7.070."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — kind jonger dan 3 jaar zonder kinderopvasaftrek aj. 2026",
+      "waarde": 740,
+      "eenheid": "EUR",
+      "toelichting": "Bijkomende toeslag. Aj. 2024: € 690; aj. 2025: € 720; aj. 2026: € 740."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — ascendenten/zijverwanten t.e.m. 2e graad die 65 jaar bereikt hebben aj. 2026 (overgangsregeling)",
+      "waarde": 3850,
+      "eenheid": "EUR",
+      "toelichting": "Geen overgangsregeling meer hiervoor sinds aj. 2026 — voor aj. 2026: niet meer van toepassing (1). Aj. 2024: € 3.700; aj. 2025: € 3.850."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — zorgbehoevende ascendenten/zijverwanten t.e.m. 2e graad die 65 jaar bereikt aj. 2026",
+      "waarde": 5950,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 5.540; aj. 2025: € 5.770; aj. 2026: € 5.950."
+    },
+    {
+      "naam": "Toeslag belastingvrije som — iedere andere persoon ten laste aj. 2026",
+      "waarde": 1980,
+      "eenheid": "EUR",
+      "toelichting": "Art. 133 WIB. Aj. 2024: € 1.850; aj. 2025: € 1.920; aj. 2026: € 1.980."
+    },
+    {
+      "naam": "Maximum bestaansmiddelen (art. 143 WIB) — onderhoudsuitkeringen vrijgesteld eerste schijf aj. 2026",
+      "waarde": 1980,
+      "eenheid": "EUR",
+      "toelichting": "Art. 143, 6° WIB. Tijdig betaalde onderhoudsuitkeringen tellen niet mee tenminste niet voor de eerste € 1.800 (basisbedrag); geïndexeerd voor aj. 2026: € 1.980. Aj. 2024: € 1.850; aj. 2025: € 1.920."
+    },
+    {
+      "naam": "Maximum bestaansmiddelen — inkomsten studentenarbeid vrijgesteld eerste schijf aj. 2026",
+      "waarde": 3420,
+      "eenheid": "EUR",
+      "toelichting": "Art. 143, 7° WIB. Vrijgesteld eerste € 1.500 basisbedrag. Aj. 2024: € 3.190; aj. 2025: € 3.310; aj. 2026: € 3.420."
+    },
+    {
+      "naam": "Maximum bestaansmiddelen — pensioenen/renten ouders/grootouders 65+ vrijgesteld aj. 2026",
+      "waarde": 33050,
+      "eenheid": "EUR",
+      "toelichting": "Art. 143, 8° WIB. Basisbedrag € 20.450. Aj. 2024: € 30.800; aj. 2025: € 32.040; aj. 2026: € 33.050."
+    },
+    {
+      "naam": "Nettobestaansmiddelen — forfait 20% bezoldigingen/baten, minimumbedrag aj. 2026",
+      "waarde": 570,
+      "eenheid": "EUR",
+      "toelichting": "Art. 142 WIB. Forfait 20% van brutobestaansmiddelen met minimum. Aj. 2024: € 530; aj. 2025: € 550; aj. 2026: € 570."
+    },
+    {
+      "naam": "Maximumbedrag nettobestaansmiddelen — in principe aj. 2026",
+      "waarde": 4100,
+      "eenheid": "EUR",
+      "toelichting": "Art. 136, 141 WIB. Geïndexeerde bedragen. Aj. 2024: € 3.820; aj. 2025: € 3.980; aj. 2026: € 4.100."
+    },
+    {
+      "naam": "Maximumbedrag nettobestaansmiddelen — kind ten laste van alleenstaande aj. 2026",
+      "waarde": 5930,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 5.040; aj. 2025: € 7.010; aj. 2026: € 5.930. Opmerking: aj. 2025 € 7.290 in tabel (mogelijk verschil tussen tabellen ij 2025 vs ij 2024 — herzien bij verify)."
+    },
+    {
+      "naam": "Maximumbedrag nettobestaansmiddelen — gehandicapt kind ten laste van alleenstaande aj. 2026",
+      "waarde": 7520,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 6.400; aj. 2025: € 7.010; aj. 2026: € 7.520. Cijferzakboekje: hier aj. 2025 = € 7.290."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-pb-belastingvrije-sommen-algemeen",
+    "tarief-pb-belastingvrije-sommen-belastingkrediet"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p75 + p79 — Personenbelasting: belastingvrije sommen personen ten laste + bestaansmiddelen",
+    "wettekst": "WIB92 art. 132 (toeslagen kinderen), 133 (overige), 136 (begrip), 141 (kinderen ten laste), 142 (nettobestaansmiddelen-begrip), 143 (uitsluitingen)",
+    "cijferzakboekje_pagina": 75,
+    "verified_via": "Vision-extract PNGs p084.png + p088.png + RAG-cross-check WIB92 art. 132 (toeslagen 870 € basis voor 1e kind woordelijk bevestigd; 2.240 voor 2; 5.020 voor 3; 8.120 voor 4) en art. 141 (5.265 voor kinderen ten laste basisbedrag)."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "belastingvrije-som",
+    "personen-ten-laste",
+    "nettobestaansmiddelen",
+    "art-132",
+    "art-141"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNGs p084.png + p088.png + RAG-cross-check WIB92 art. 132/141",
+      "png_paginas": [
+        "data/tarieven/pages/p084.png",
+        "data/tarieven/pages/p088.png"
+      ],
+      "rag_queries": [
+        "belastingvrije som basisbedrag WIB92 131 132 personen ten laste"
+      ],
+      "openstaand": "Verschil tussen tabel 'belastingvrije sommen: personen ten laste' (p84, geïndexeerd op ij 2025-ij 2023) en 'maximumbedrag nettobestaansmiddelen' (p88, geïndexeerd op ij 2025-ij 2022). Voor 'kind ten laste van alleenstaande' bedragen aj. 2025 (€ 7.010) vs aj. 2024 (€ 5.040) springen, opvallend lager dan aj. 2026 (€ 5.930). Verify-stap dient deze kolommen tegen elkaar te leggen."
+    }
+  }
+}

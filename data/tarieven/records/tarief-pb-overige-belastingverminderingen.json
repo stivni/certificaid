@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "confidence": "🤖",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "tarief-pb-overige-belastingverminderingen",
+  "titel": "Overige belastingverminderingen PB — maximumbedragen aj. 2024-2027",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "145³ tot 145⁴⁹"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "147 (belastingvermindering vervangingsinkomsten)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "152 (grensbedrag andere werkloosheidsuitkeringen)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "154"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Wet 18.12.2025 (BS 30.12.2025) — opheffing diverse fiscale voordelen vanaf aj. 2026/2027"
+  },
+  "samenvatting": "Overzicht maximumbedragen overige federale en gewestelijke belastingverminderingen PB voor aj. 2024-2027 (art. 145³ tot 145⁴⁹ WIB92 + art. 147, 152, 154). Bevat o.a. pensioentoezegging, werkgeversaandelen, pensioensparen, energiezuinige woning, taxshelter startende ondernemingen / groeibedrijven, private privak, elektrische voertuigen, vervangingsinkomsten, gewestelijke verminderingen (dienstencheques, monumentenzorg, dakisolatie, renovatieovereenkomsten). Wet 18.12.2025 heeft verschillende fiscale voordelen opgeheven vanaf aj. 2026 (federale) en aj. 2027 (gewestelijke).",
+  "criteria": [
+    {
+      "naam": "Individuele voortzetting pensioentoezegging — basisbedrag (art. 145³ lid 3)",
+      "waarde": 1500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Individuele voortzetting pensioentoezegging — aj. 2027",
+      "waarde": 3140,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Individuele voortzetting pensioentoezegging — aj. 2026",
+      "waarde": 3060,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Individuele voortzetting pensioentoezegging — aj. 2025",
+      "waarde": 2970,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Individuele voortzetting pensioentoezegging — aj. 2024",
+      "waarde": 2860,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Verwerving werkgeversaandelen — basisbedrag (art. 145⁷ §1 lid 4)",
+      "waarde": 500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Verwerving werkgeversaandelen — aj. 2027",
+      "waarde": 820,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Verwerving werkgeversaandelen — aj. 2026",
+      "waarde": 820,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Verwerving werkgeversaandelen — aj. 2025",
+      "waarde": 820,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Verwerving werkgeversaandelen — aj. 2024",
+      "waarde": 780,
+      "eenheid": "EUR",
+      "toelichting": "Voetnoot (1) — verschillen door fiscale voordelen-opheffing wet 18.12.2025."
+    },
+    {
+      "naam": "Pensioensparen gewoon (30%) — basisbedrag (art. 145⁸ §1 lid 2)",
+      "waarde": 625,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen gewoon (30%) — aj. 2027",
+      "waarde": 1050,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen gewoon (30%) — aj. 2026",
+      "waarde": 1050,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen gewoon (30%) — aj. 2025",
+      "waarde": 1020,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen gewoon (30%) — aj. 2024",
+      "waarde": 990,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen verhoogd (25%) — basisbedrag (art. 63⁴¹ᵇⁱˢ KB/WIB92)",
+      "waarde": 800,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen verhoogd (25%) — aj. 2027",
+      "waarde": 1350,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen verhoogd (25%) — aj. 2026",
+      "waarde": 1350,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen verhoogd (25%) — aj. 2025",
+      "waarde": 1310,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Pensioensparen verhoogd (25%) — aj. 2024",
+      "waarde": 1270,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Lage-energiewoning — basisbedrag (art. 535)",
+      "waarde": 300,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Lage-energiewoning — aj. 2025",
+      "waarde": 490,
+      "eenheid": "EUR",
+      "toelichting": "Opgeheven aj. 2027 + aj. 2026."
+    },
+    {
+      "naam": "Lage-energiewoning — aj. 2024",
+      "waarde": 470,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Passiefwoning — basisbedrag",
+      "waarde": 600,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Passiefwoning — aj. 2025",
+      "waarde": 980,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Passiefwoning — aj. 2024",
+      "waarde": 940,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nulenergiewoning — basisbedrag",
+      "waarde": 1200,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nulenergiewoning — aj. 2025",
+      "waarde": 1960,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nulenergiewoning — aj. 2024",
+      "waarde": 1880,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Taxshelter startende ondernemingen — basisbedrag (art. 145²⁶ lid 4)",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Taxshelter startende ondernemingen — aj. 2024-2027",
+      "waarde": 100000,
+      "eenheid": "EUR",
+      "toelichting": "Niet geïndexeerd."
+    },
+    {
+      "naam": "Belastingvermindering minderwaarden private privak — basisbedrag",
+      "waarde": 25000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Belastingvermindering minderwaarden private privak — aj. 2025/2024",
+      "waarde": 25000,
+      "eenheid": "EUR",
+      "toelichting": "Opgeheven aj. 2027/2026."
+    },
+    {
+      "naam": "Taxshelter groeibedrijven — basisbedrag (art. 145²⁷)",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Taxshelter groeibedrijven — aj. 2024-2027",
+      "waarde": 100000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nieuwe elektrische vierwielers — basisbedrag (art. 145²⁸ §1 lid 3)",
+      "waarde": 3280,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nieuwe elektrische vierwielers — aj. 2025",
+      "waarde": 5350,
+      "eenheid": "EUR",
+      "toelichting": "Opgeheven aj. 2027/2026."
+    },
+    {
+      "naam": "Nieuwe elektrische vierwielers — aj. 2024",
+      "waarde": 5150,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nieuwe elektrische motorfietsen/driewielers — basisbedrag",
+      "waarde": 2000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nieuwe elektrische motorfietsen/driewielers — aj. 2025",
+      "waarde": 3270,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Nieuwe elektrische motorfietsen/driewielers — aj. 2024",
+      "waarde": 3140,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Huisbedienden — minimaal bezoldigingsbedrag (art. 145⁵ §1 lid 2)",
+      "waarde": 250,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Huisbedienden — minimaal bezoldiging aj. 2024-2027",
+      "waarde": 408.13,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2027: € 419,00 / Aj. 2026: € 408,13 / Aj. 2025: € 408,13 — gerond uit tabel."
+    },
+    {
+      "naam": "Huisbedienden — maximumbedrag voor de bezoldigingsvermindering (art. 145⁵ §1 lid 4)",
+      "waarde": 210,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Huisbedienden — maximumbedrag aj. 2024-2027",
+      "waarde": 340,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2027: € 340 / Aj. 2026: € 340 / Aj. 2025: € 340 — afgerond uit tabel."
+    },
+    {
+      "naam": "Bezoldiging huisbedienden — minimumbedrag (art. 145⁵)",
+      "waarde": 25,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bezoldiging huisbedienden — minimumbedrag aj. 2024-2027",
+      "waarde": 40,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bezoldiging huisbedienden — maximumbedrag",
+      "waarde": 250000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Bezoldiging huisbedienden — maximumbedrag aj. 2027",
+      "waarde": 408138,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2027 € 408.138 / Aj. 2026 € 408.130 / Aj. 2025 € 408.130 / Aj. 2024 € 392.020."
+    },
+    {
+      "naam": "Kinderopvang — minimumbedrag (art. 145¹⁰ lid 4 / 147 §2)",
+      "waarde": "n.v.t.",
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2027: € 17,30 / Aj. 2026: € 16,90 / Aj. 2025: € 16,40 / Aj. 2024: € 15,70."
+    },
+    {
+      "naam": "Vervangingsinkomsten — maximumbedrag (art. 147)",
+      "waarde": 1344.57,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — aj. 2027",
+      "waarde": 2274.08,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — aj. 2026",
+      "waarde": 2219.27,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — aj. 2025",
+      "waarde": 2151.73,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — aj. 2024",
+      "waarde": 2067.84,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — ZIV-uitkeringen basis",
+      "waarde": 1725.98,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — ZIV aj. 2027",
+      "waarde": 3051.47,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — ZIV aj. 2026",
+      "waarde": 2977.93,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — ZIV aj. 2025",
+      "waarde": 2887.28,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten — ZIV aj. 2024",
+      "waarde": 2774.73,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten andere vervangingsinkomsten (art. 154 §2) — aj. 2027",
+      "waarde": 20.11,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten andere vervangingsinkomsten (art. 154 §2) — aj. 2026",
+      "waarde": 19.63,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten andere vervangingsinkomsten (art. 154 §2) — aj. 2025",
+      "waarde": 19.03,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vervangingsinkomsten andere vervangingsinkomsten (art. 154 §2) — aj. 2024",
+      "waarde": 18.29,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "ZIV-uitkering aj. 2027",
+      "waarde": 20.1,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "ZIV-uitkering aj. 2026",
+      "waarde": 19.63,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "ZIV-uitkering aj. 2025",
+      "waarde": 19.03,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "ZIV-uitkering aj. 2024",
+      "waarde": 18.29,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — basisbedrag (art. 151 en 152)",
+      "waarde": 16690,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verlicht aj. 2027",
+      "waarde": 36833,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verlicht aj. 2026",
+      "waarde": 35930,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verlicht aj. 2025",
+      "waarde": 34830,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verlicht aj. 2024",
+      "waarde": 33480,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verschil basisbedrag",
+      "waarde": 3700,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verschil aj. 2027",
+      "waarde": 7470,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verschil aj. 2026",
+      "waarde": 7150,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Grensbedrag andere werkloosheidsuitkeringen — verschil aj. 2025",
+      "waarde": 7060,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques (art. 145²¹ lid 1) — Brussels basisbedrag",
+      "waarde": 920,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Brussels aj. 2027",
+      "waarde": "-",
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2027 niet meer beschikbaar Brussels. Aj. 2026: € 1.850 / aj. 2025: € 1.790 / aj. 2024: € 1.720."
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Vlaams basisbedrag",
+      "waarde": 920,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Vlaams aj. 2026",
+      "waarde": "-",
+      "eenheid": "EUR",
+      "toelichting": "Vlaams aj. 2027/2026 niet meer / aj. 2025: € 1.790 / aj. 2024: € 1.720."
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Waals basisbedrag",
+      "waarde": 920,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Waals aj. 2027",
+      "waarde": 1890,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Waals aj. 2026",
+      "waarde": 1850,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Waals aj. 2025",
+      "waarde": 1790,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "PWA-cheques en dienstencheques — Waals aj. 2024",
+      "waarde": 1720,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vernieuwing via sociaal verhuurkantoor — totale kostprijs (art. 145³⁰ lid 3) basisbedrag",
+      "waarde": 7500,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vernieuwing via sociaal verhuurkantoor — Waals aj. 2027",
+      "waarde": 15440,
+      "eenheid": "EUR",
+      "toelichting": "Waals aj. 2026: € 15.070 / aj. 2025: € 14.610 / aj. 2024: € 14.040. Brussels/Vlaams niet meer."
+    },
+    {
+      "naam": "Vernieuwing via sociaal verhuurkantoor — maximumbedrag per woning (art. 145³⁰ lid 4) basisbedrag",
+      "waarde": 750,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Vernieuwing via sociaal verhuurkantoor — Waals aj. 2027",
+      "waarde": 1540,
+      "eenheid": "EUR",
+      "toelichting": "Waals aj. 2026: € 1.510 / aj. 2025: € 1.460 / aj. 2024: € 1.400."
+    },
+    {
+      "naam": "Beschermde onroerende goederen (art. 145³⁶ lid 3) — Brussels basisbedrag",
+      "waarde": 25000,
+      "eenheid": "EUR",
+      "toelichting": "Restauratie/onderhoud Brussels gewest of behoud Waals onroerend erfgoed."
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Brussels aj. 2027",
+      "waarde": "-",
+      "eenheid": "EUR",
+      "toelichting": "Brussels aj. 2027/2026 niet meer / aj. 2025: € 25.000 / aj. 2024: € 25.000."
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Vlaams basisbedrag",
+      "waarde": 25000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Waals basisbedrag",
+      "waarde": 25000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Waals aj. 2027",
+      "waarde": 51480,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Waals aj. 2026",
+      "waarde": 50240,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Waals aj. 2025",
+      "waarde": 48710,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Beschermde onroerende goederen — Waals aj. 2024",
+      "waarde": 46810,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie (art. 145⁴⁷ lid 4) — Brussels basisbedrag",
+      "waarde": 2000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Vlaams basisbedrag",
+      "waarde": 2000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Waals basisbedrag",
+      "waarde": 2000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Waals aj. 2027",
+      "waarde": 4120,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Waals aj. 2026",
+      "waarde": 4020,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Waals aj. 2025",
+      "waarde": 3900,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Dakisolatie — Waals aj. 2024",
+      "waarde": 3740,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Renovatieovereenkomsten (mama-papalening) — Vlaams basisbedrag",
+      "waarde": 25000,
+      "eenheid": "EUR",
+      "toelichting": "Vlaams decreet 27.03.2009 art. 3.1.8 §2. Aj. 2024-2027: € 25.000 (niet geïndexeerd)."
+    },
+    {
+      "naam": "Adoptiekosten (art. 145⁴⁸) — basisbedrag",
+      "waarde": 4000,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Adoptiekosten — aj. 2025",
+      "waarde": 6530,
+      "eenheid": "EUR",
+      "toelichting": "Opgeheven aj. 2027/2026 — wet 18.12.2025."
+    },
+    {
+      "naam": "Adoptiekosten — aj. 2024",
+      "waarde": 6280,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechtsbijstandsverzekering (art. 145⁴⁹) — basisbedrag",
+      "waarde": 195,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Rechtsbijstandsverzekering — aj. 2025",
+      "waarde": 320,
+      "eenheid": "EUR",
+      "toelichting": "Opgeheven aj. 2027/2026 — wet 18.12.2025."
+    },
+    {
+      "naam": "Rechtsbijstandsverzekering — aj. 2024",
+      "waarde": 310,
+      "eenheid": "EUR"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p102-p104 — Overige belastingverminderingen (federaal + gewestelijk)",
+    "wettekst": "WIB92 art. 145³ tot 145⁴⁹ + art. 147, 151-152, 154; Wet 18.12.2025 (BS 30.12.2025)",
+    "cijferzakboekje_pagina": 102,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p111.png + p112.png + p113.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "belastingvermindering",
+    "wib92",
+    "federaal",
+    "gewesten",
+    "overgangsregeling"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "schenkingsrechten-vlaams",
+  "schema_version": "1.0",
+  "titel": "Schenkingsrechten — Vlaams gewest (2026)",
+  "categorie": "registratierechten",
+  "wetsbasis": [
+    {
+      "bron": "VCF",
+      "artikel": "2.8.4.1.1"
+    },
+    {
+      "bron": "VCF",
+      "artikel": "2.8.4.1.1, §3"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Verminderd tarief voor onroerende schenkingen sinds 01.01.2025 enkel nog van toepassing bij geregistreerde huurovereenkomsten met minstens 9 jaar conformiteitsattest (i.p.v. voorheen ook bij energierenovatie en beschermde monumenten)."
+  },
+  "samenvatting": "Schenkingsrechten in het Vlaams gewest 2026 — vaste tarieven (3%/7%) voor roerende goederen, progressieve schijven (3-27%/10-40%) voor onroerende goederen met verlaagde tarieven bij geregistreerde langetermijnverhuur, en verlaagd tarief 0% / 5,5% voor schenkingen aan bepaalde overheden en goede doelen (sinds 01.07.2021). Vrijstelling voor familiale ondernemingen en vennootschappen.",
+  "criteria": [
+    {
+      "naam": "Roerende goederen — in rechte lijn, tussen echtgenoten en tussen samenwonenden",
+      "waarde": 3,
+      "eenheid": "%",
+      "toelichting": "Vast tarief. Feitelijke samenwoners: minstens één jaar ononderbroken samenwonen vereist op moment van schenking."
+    },
+    {
+      "naam": "Roerende goederen — voor alle anderen",
+      "waarde": 7,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 1 (algemeen)",
+      "ondergrens": 0,
+      "bovengrens": 150000,
+      "tarief_pct": 3,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 3% bij geregistreerde huurovereenkomsten met minstens 9 jaar conformiteitsattest."
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 2 (algemeen)",
+      "ondergrens": 150000,
+      "bovengrens": 250000,
+      "tarief_pct": 9,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 6%."
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 3 (algemeen)",
+      "ondergrens": 250000,
+      "bovengrens": 450000,
+      "tarief_pct": 18,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 12%."
+    },
+    {
+      "naam": "Onroerend — rechte lijn/echtgenoten/samenwonenden — schijf 4 (algemeen)",
+      "ondergrens": 450000,
+      "bovengrens": null,
+      "tarief_pct": 27,
+      "eenheid": "EUR",
+      "toelichting": "€ 450.000 en meer. Verminderd tarief 18%."
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 1 (algemeen)",
+      "ondergrens": 0,
+      "bovengrens": 150000,
+      "tarief_pct": 10,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 9%."
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 2 (algemeen)",
+      "ondergrens": 150000,
+      "bovengrens": 250000,
+      "tarief_pct": 20,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 17%."
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 3 (algemeen)",
+      "ondergrens": 250000,
+      "bovengrens": 450000,
+      "tarief_pct": 30,
+      "eenheid": "EUR",
+      "toelichting": "Verminderd tarief 24%."
+    },
+    {
+      "naam": "Onroerend — tussen alle anderen — schijf 4 (algemeen)",
+      "ondergrens": 450000,
+      "bovengrens": null,
+      "tarief_pct": 40,
+      "eenheid": "EUR",
+      "toelichting": "€ 450.000 en meer. Verminderd tarief 31%. Bij onroerende schenking wordt rekening gehouden met onroerende schenkingen tussen dezelfde partijen in de drie jaar voor de nieuwe schenking."
+    },
+    {
+      "naam": "Familiale onderneming/vennootschap — vrijstelling",
+      "waarde": "vrijstelling",
+      "toelichting": "Vrijstelling voor schenking van familiale ondernemingen en familiale vennootschappen onder voorwaarden. Aparte regelingen voor schenkingsakten verleden t.e.m. 31.12.2025 en vanaf 01.01.2026."
+    },
+    {
+      "naam": "Bepaalde overheden en goede doelen — 0% (sinds 01.07.2021)",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Verlaagd tarief 0% (incl. inbrengen om niet) aan o.a.: gewesten, gemeenschappen en Gemeenschapscommissies; staat in EER; provincies en gemeenten in Vlaams gewest; openbare instellingen van de publiekrechtelijke rechtspersonen; erkende sociale huisvestingsmaatschappijen (art. 4.36 Vlaamse Codex Wonen 2021); Vlaams Woningfonds; dienstverlenende/opdrachthoudende verenigingen (art. 12 §2, 2° en 3° decreet 06.07.2001); verenigingen zonder winstoogmerk, ziekenfondsen en landsbonden van ziekenfondsen, beroepsverenigingen, internationale verenigingen zonder winstoogmerk, private stichtingen, stichtingen van openbaar nut; openbare centra voor maatschappelijk welzijn. Art. 2.8.4.1.1 §3 VCF."
+    },
+    {
+      "naam": "Beroepsverenigingen en private stichtingen — 5,5%",
+      "waarde": 5.5,
+      "eenheid": "%",
+      "toelichting": "In afwijking van de 0%-regel: tarief 5,5% voor schenkingen (incl. inbrengen om niet) aan beroepsverenigingen en private stichtingen."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p22-p23 — Schenkingsrechten: Vlaams gewest",
+    "wettekst": "art. 2.8.4.1.1 e.v. VCF (tarieven); art. 2.8.4.1.1 §3 VCF (overheden en goede doelen)",
+    "cijferzakboekje_pagina": 22,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p031.png + p032.png — Cijferzakboekje 2026, hoofdstuk Erven en Schenken, p22-23."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "gewest-vlaams",
+    "schenkingsrechten",
+    "registratierechten",
+    "vcf",
+    "erven-en-schenken"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p031.png + p032.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_paginas": [
+        "data/tarieven/pages/p031.png",
+        "data/tarieven/pages/p032.png"
+      ],
+      "opmerkingen": "Voor onroerende schenkingen kent het Vlaams gewest naast het 'algemeen' tarief een 'vermindering' (verminderd tarief) bij geregistreerde huurovereenkomsten met conformiteitsattest van min. 9 jaar (sinds 01.01.2025). Beide tarieven zijn in 'toelichting' velden opgenomen. Familiale onderneming/vennootschap: verwijzing naar vlaanderen.be voor volledige regeling — niet als specifiek tarief opgenomen."
+    }
+  }
+}

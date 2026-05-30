@@ -1,0 +1,85 @@
+{
+  "id": "voorziening-vakantiegeld-venb",
+  "schema_version": "1.0",
+  "titel": "Vakantiegeld: fiscaal vrijstelbare voorziening — vennootschappen",
+  "categorie": "vennootschapsbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "art. 24 + Comm. IB"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2021,
+    "tot_boekjaar": 2024,
+    "wijziging_door": "Stabiele percentages 18,20% bedienden / 10,27% arbeiders"
+  },
+  "samenvatting": "Bij afsluiting boekjaar mag voorziening (provisie) aangelegd worden voor vakantiegeld dat jaar daarop uitbetaald wordt aan personeel. Voorziening is fiscaal aftrekbaar in mate waarin gestabiliseerd percentage niet overstegen wordt: 18,20% voor bedienden (op 100% vaste/veranderlijke bezoldigingen) + 10,27% voor arbeiders (op 108% van lonen).",
+  "criteria": [
+    {
+      "naam": "Bedienden — IJ 2024 (aj. 2025)",
+      "waarde": 18.2,
+      "eenheid": "%",
+      "toelichting": "Op 100% vaste en veranderlijke bezoldigingen toegekend in dat jaar aan bedienden."
+    },
+    {
+      "naam": "Bedienden — IJ 2023 (aj. 2024)",
+      "waarde": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bedienden — IJ 2022 (aj. 2023)",
+      "waarde": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bedienden — IJ 2021 (aj. 2022)",
+      "waarde": 18.2,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — IJ 2024 (aj. 2025)",
+      "waarde": 10.27,
+      "eenheid": "%",
+      "toelichting": "Op 108% van lonen arbeiders dat jaar toegekend. Niet voor arbeiders in bouwsector (vakantiegeld via kwartaalbijdrage). "
+    },
+    {
+      "naam": "Arbeiders — IJ 2023 (aj. 2024)",
+      "waarde": 10.27,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — IJ 2022 (aj. 2023)",
+      "waarde": 10.27,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Arbeiders — IJ 2021 (aj. 2022)",
+      "waarde": 10.27,
+      "eenheid": "%"
+    }
+  ],
+  "drempel_regel": "Geldt niet voor arbeiders in de bouwsector — voor hen kan geen voorziening vakantiegeld aangelegd worden omdat vakantiegeld via kwartaalbijdragen van werkgever wordt verrekend.",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p153 — Vakantiegeld: fiscaal vrijstelbare voorziening",
+    "wettekst": "WIB92 + Comm. IB; Adm. instructies",
+    "cijferzakboekje_pagina": 153,
+    "verified_via": "Vision-extract PNG p162.png — percentages 18,20%/10,27% letterlijk overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "vakantiegeld",
+    "voorziening",
+    "venb",
+    "wib92"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p162",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p162.png"
+    }
+  }
+}

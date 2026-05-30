@@ -1,0 +1,94 @@
+{
+  "id": "publicatietarieven-vennootschappen",
+  "schema_version": "1.0",
+  "titel": "Vennootschappen: publicatietarieven Belgisch Staatsblad (oprichting, statutenwijziging, bestaande vennootschap)",
+  "categorie": "overig",
+  "wetsbasis": [
+    {
+      "bron": "WVV",
+      "artikel": "art. 2:8 (publicatie BS)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2026,
+    "tot_boekjaar": 2026,
+    "wijziging_door": "Jaarlijkse indexering KB-WVV"
+  },
+  "samenvatting": "Tarieven van Belgisch Staatsblad voor nieuwe vennootschappen, statutenwijzigingen en bestaande vennootschappen — onderverdeeld in nieuwe of bestaande BV/NV/CV (kosten 28.02.2026 voor identificatie/bekendmaking + rijkswapen-bijlage), incl. tarieftoeslag voor wijziging (eHL Kruispuntbank Ondernemingen) en bekendmaking statutaire wijziging.",
+  "criteria": [
+    {
+      "naam": "Neerlegging oprichtingsakte op papier (e-griffie via pdf) — identificatie/bekendmaking + Rijkswapen-bijlage",
+      "waarde": 347.39,
+      "eenheid": "EUR",
+      "toelichting": "Kosten 28.02.2026 — Formulier I + Luik A."
+    },
+    {
+      "naam": "Neerlegging oprichtingsakte digitaal (e-griffie via XBRL) — identificatie/bekendmaking + Rijkswapen-bijlage",
+      "waarde": 336.26,
+      "eenheid": "EUR",
+      "toelichting": "Kosten 28.02.2026 — Formulier I + Luik A."
+    },
+    {
+      "naam": "Neerlegging oprichtingsakte op papier — Bekendmaking Belgisch Staatsblad + Rijkswapen-bijlage",
+      "waarde": "Formulier I + Luik C",
+      "eenheid": "formulier"
+    },
+    {
+      "naam": "Statutenwijziging — neerlegging op papier — kosten 28.02.2026",
+      "waarde": 203.76,
+      "eenheid": "EUR",
+      "toelichting": "Formulier I + Luik A."
+    },
+    {
+      "naam": "Statutenwijziging — neerlegging digitaal — kosten 28.02.2026",
+      "waarde": 197.47,
+      "eenheid": "EUR",
+      "toelichting": "Formulier I + Luik A."
+    },
+    {
+      "naam": "Statutenwijziging — wijziging Kruispuntbank Ondernemingen — kosten 28.02.2026",
+      "waarde": "Via toepassing",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Statutenwijziging — toebehoorden",
+      "waarde": "Formulier I + Luik C",
+      "eenheid": "formulier"
+    },
+    {
+      "naam": "Bestaande vennootschap — wijziging Kruispuntbank Ondernemingen — kosten 28.02.2026",
+      "waarde": "Via toepassing",
+      "eenheid": "regime"
+    },
+    {
+      "naam": "Bestaande vennootschap — bekendmaking statutaire wijziging via toepassing — kosten 28.02.2026",
+      "waarde": 197.47,
+      "eenheid": "EUR",
+      "toelichting": "Formulier I + Luik B."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p163 — Vennootschappen: publicatietarieven en gebruik formulieren",
+    "wettekst": "WVV art. 2:8; KB-WVV (tarief Belgisch Staatsblad — 28.02.2026)",
+    "cijferzakboekje_pagina": 163,
+    "verified_via": "Vision-extract PNG p172-p173 — tarieven 28.02.2026 op papier en digitaal voor nieuwe vennootschappen + statutenwijzigingen + bestaande vennootschappen letterlijk overgenomen. Een aantal velden bevatten formulier-referenties (Formulier I + Luik A/B/C) i.p.v. EUR-bedrag."
+  },
+  "confidence": "🤖",
+  "tags": [
+    "publicatietarief",
+    "belgisch-staatsblad",
+    "wvv",
+    "oprichting",
+    "statutenwijziging"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p172-p173",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p172.png + p173.png",
+      "twijfel": "P173 was deels onleesbaar (zoom-thumbnail); tarieven 347,39/336,26/203,76/197,47 uit p172 betrouwbaar overgenomen. Confidence 🤖 omdat sommige formulier-cellen niet als getalmatige tarieven konden worden gekarakteriseerd."
+    }
+  }
+}

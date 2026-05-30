@@ -1,0 +1,250 @@
+{
+  "id": "verworpen-uitgaven-venb",
+  "schema_version": "1.0",
+  "titel": "Vennootschapsbelasting: verworpen uitgaven (catalogus + autokosten 2020-2031)",
+  "categorie": "vennootschapsbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "art. 53, 66, 198bis, 199"
+    },
+    {
+      "bron": "Comm. IB",
+      "artikel": "53/27, 53/132, 53/142.1, 53/210, 53/214, 53/216, 66/42"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2020,
+    "tot_boekjaar": null,
+    "wijziging_door": "Wet 18.12.2025 (BS 30.12.2025): nieuwe regels autokosten sinds 01.01.2026"
+  },
+  "samenvatting": "Catalogus van verworpen uitgaven vennootschapsbelasting — vermeldt aftrekbaarheid (%) en wettelijke/administratieve basis per categorie: financierings- en mobilofoonkosten, parkeergelegenheid, taxikosten, restaurantkosten, onthaal- en receptiekosten, relatiegeschenken, liberaliteiten, sociale voordelen + zeer gedetailleerde regeling voor autokosten (CO2-uitstoot, brandstoftype, aanschafdatum, max-aftrek-tabel 2020-2031).",
+  "criteria": [
+    {
+      "naam": "Financierings- en mobilofoonkosten",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "100% aftrekbaar (Comm. IB 66/42)."
+    },
+    {
+      "naam": "Parkeergelegenheid voor klanten of personeelsleden",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "100% aftrekbaar (parl. vr. nr. 736 Dupré 30.09.1993; parl. vr. nr. 5 De Schamphelaere 08.01.2008)."
+    },
+    {
+      "naam": "Taxikosten",
+      "waarde": 75,
+      "eenheid": "%",
+      "toelichting": "75% aftrekbaar (mond. parl. vr. nr. 6101 De Potter 17.06.2008)."
+    },
+    {
+      "naam": "Restaurantkosten — algemene regel",
+      "waarde": 69,
+      "eenheid": "%",
+      "toelichting": "69% aftrekbaar (Comm. IB 53/132)."
+    },
+    {
+      "naam": "Restaurantkosten — voor personeel dat buiten onderneming belast is met bepaalde levering of dienst",
+      "waarde": 100,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Restaurantkosten — personeelsfeest",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/142.1."
+    },
+    {
+      "naam": "Restaurantkosten — sociale maaltijden voor personeel in bedrijfsrestaurant",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/210-211."
+    },
+    {
+      "naam": "Onthaal- en receptiekosten",
+      "waarde": 50,
+      "eenheid": "%",
+      "toelichting": "Art. 53, 8° WIB92."
+    },
+    {
+      "naam": "Demonstratiekosten",
+      "waarde": 100,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Relatiegeschenken — algemene regel",
+      "waarde": 50,
+      "eenheid": "%",
+      "toelichting": "Art. 53, 8° WIB92."
+    },
+    {
+      "naam": "Relatiegeschenken — reclameartikelen",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Art. 53, 8° b WIB92; Comm. IB 53/154."
+    },
+    {
+      "naam": "Relatiegeschenken — om uit te delen tijdens buitenlandse zakenreizen",
+      "waarde": 100,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Relatiegeschenken — handelsmonsters/stalen",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/158."
+    },
+    {
+      "naam": "Liberaliteiten — algemene regel",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Niet aftrekbaar (Comm. IB 53/27 en 199/21)."
+    },
+    {
+      "naam": "Liberaliteiten — giften in geld ≥ € 40 aan erkende instellingen of organisaties",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Art. 199 WIB92."
+    },
+    {
+      "naam": "Sociale voordelen — algemene regel",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Niet aftrekbaar (art. 38, lid 1, 11° en art. 53, 14° WIB92)."
+    },
+    {
+      "naam": "Sociale voordelen — gezelschapsreizen van ten hoogste één dag",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/214, lid 2, 1° WIB92."
+    },
+    {
+      "naam": "Sociale voordelen — gratis bedeling van dranken en fruit aan personeel tijdens werkuren",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/147.1 en 53/216."
+    },
+    {
+      "naam": "Sociale voordelen — occasionele gebruik accommodatie van vennootschap",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/214, lid 2, 2°."
+    },
+    {
+      "naam": "Sociale voordelen — organisatie door werkgever van gemeenschappelijk vervoer voor personeelsleden",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Comm. IB 53/214, lid 2, 6°."
+    },
+    {
+      "naam": "Autokosten — aanschaf 2020 — IJ 2025-2031",
+      "waarde": "100% IJ 2020-2025; daarna -",
+      "eenheid": "%",
+      "toelichting": "Voor wagens aangeschaft in 2020 met CO2-uitstoot < 200 g/km: 100% aftrekbaar 2020-2025."
+    },
+    {
+      "naam": "Autokosten — aanschaf 2023 (juli-dec)",
+      "waarde": "100% 2023-2024; 75% 2025; 50% 2026; 25% 2027; 0% 2028",
+      "eenheid": "%",
+      "toelichting": "Voor wagens aangeschaft tussen 01.07.2023 en 31.12.2025: ondergrens 50% valt weg, maximale aftrek geplafonneerd."
+    },
+    {
+      "naam": "Autokosten — aanschaf 2026 — IJ 2026",
+      "waarde": 0,
+      "eenheid": "%",
+      "toelichting": "Autokosten (inclusief brandstofkosten) voor wagens met CO2-uitstoot verworven sinds 01.01.2026 zijn niet meer aftrekbaar."
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft uiterlijk 31.12.2026",
+      "waarde": 100,
+      "eenheid": "%",
+      "toelichting": "Blijft aftrekbaar percentage 100%."
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft vanaf 01.01.2027",
+      "waarde": 95,
+      "eenheid": "%",
+      "toelichting": "Geleidelijke afbouw incl. elektriciteitskosten."
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft 2028",
+      "waarde": 90,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft 2029",
+      "waarde": 82.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft 2030",
+      "waarde": 75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Elektrische voertuigen — aangeschaft vanaf 2031",
+      "waarde": 67.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Plug-in hybride — aangeschaft 01.07.2023-30.06.2023 — benzine/diesel max",
+      "waarde": 50,
+      "eenheid": "%",
+      "toelichting": "Benzine- en dieselkosten max 50% aftrek."
+    },
+    {
+      "naam": "Plug-in hybride — aangeschaft sinds 01.07.2023 — aj 2026-2027 max",
+      "waarde": 50,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Plug-in hybride — aj 2028 max",
+      "waarde": 25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Plug-in hybride — vanaf aj 2029 max",
+      "waarde": 0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Valse plug-in hybride — definitie aangeschaft tot 31.12.2024",
+      "waarde": "Batterijcapaciteit < 0,5 kWh per 100 kg autogewicht of CO2-uitstoot > 50 g/km",
+      "eenheid": "criterium",
+      "toelichting": "Valse plug-in hybrides: aftrek volgens 'andere' regeling met max 40%."
+    },
+    {
+      "naam": "Valse plug-in hybride — aangeschaft vanaf 2025 — drempel CO2",
+      "waarde": "50 g/km verhoogd naar 75 g/km (strengere norm via Euro 6e-bis norm)",
+      "eenheid": "criterium"
+    }
+  ],
+  "drempel_regel": "Volledige catalogus van aftrekbaarheid bij verworpen uitgaven — controle moet per categorie gebeuren. Voor autokosten geldt complex regime afhankelijk van: (a) aanschafdatum (vóór 01.07.2023 / 01.07.2023-31.12.2025 / vanaf 01.01.2026); (b) brandstoftype (fossiel/plug-in hybride/elektrisch); (c) CO2-uitstoot. Sinds 01.01.2026 zijn fossiele/hybride autokosten incl. brandstof niet meer aftrekbaar (uitgezonderd plug-in hybride en elektrische voertuigen met aangepaste afbouw 2026-2031).",
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p154-p156 — Vennootschapsbelasting: verworpen uitgaven",
+    "wettekst": "WIB92 art. 53, 66, 198bis, 199; Comm. IB div.; Wet 18.12.2025 (BS 30.12.2025) autokosten",
+    "cijferzakboekje_pagina": 154,
+    "verified_via": "Vision-extract PNG p163-p165 — catalogus per categorie + autokosten-matrix letterlijk overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "verworpen-uitgaven",
+    "venb",
+    "art-53",
+    "autokosten",
+    "co2-uitstoot",
+    "restaurantkosten",
+    "sociale-voordelen"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p163-p165",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p163.png + p164.png + p165.png",
+      "scope_keuze": "Catalogus algemeen + autokosten-matrix in één record (didactische samenhang). Diepere uitwerking autokosten-matrix per inkomstenjaar/aanschafjaar zou apart record kunnen worden indien examen-relevant."
+    }
+  }
+}

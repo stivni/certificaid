@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "vaa-pc-tablet-gsm-internet",
+  "titel": "Voordeel van alle aard: pc, tablet, gsm, internet (informaticamiddelen)",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "KB",
+      "artikel": "KB 02.11.2017 (BS 13.11.2017)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2018,
+    "tot_boekjaar": null,
+    "wijziging_door": "Sinds 01.01.2018 nieuwe forfaitaire bedragen (gsm, tablet, smartphone, mobiel internet, pc, …)"
+  },
+  "samenvatting": "Belastbaar VAA voor privé-gebruik van informaticamiddelen ter beschikking gesteld door werkgever/vennootschap. Wordt steeds forfaitair bepaald, zelfs indien werkelijke kosten lager liggen. Sinds 01.01.2018 nieuwe regels voor gsm/tablet/smartphone/mobiel internet/pc (KB 02.11.2017). Bovendien hield RSZ hier afwijkende voorwaarden op na. Forfaitaire bedragen aanvaard door zowel fiscus als RSZ.",
+  "criteria": [
+    {
+      "naam": "Pc en/of laptop — t/m aj. 2018",
+      "waarde": 180,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Pc en/of laptop — sinds aj. 2019",
+      "waarde": 72,
+      "eenheid": "EUR/jaar/toestel"
+    },
+    {
+      "naam": "Internet (abonnement en aansluiting) — t/m aj. 2018",
+      "waarde": 60,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Internet (abonnement en aansluiting) — sinds aj. 2019",
+      "waarde": 60,
+      "eenheid": "EUR/jaar",
+      "toelichting": "Vast of mobiel internet."
+    },
+    {
+      "naam": "Tablet, gsm en smartphone — t/m aj. 2018",
+      "waarde": "werkelijke waarde",
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Tablet, gsm en smartphone — sinds aj. 2019",
+      "waarde": 36,
+      "eenheid": "EUR/jaar/toestel"
+    },
+    {
+      "naam": "Telefoonabonnement — t/m aj. 2018",
+      "waarde": "werkelijke waarde",
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Telefoonabonnement — sinds aj. 2019",
+      "waarde": 48,
+      "eenheid": "EUR/jaar",
+      "toelichting": "Vaste of mobiele telefonie."
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p118 — Voordelen van alle aard: pc, tablet, gsm en internet",
+    "wettekst": "KB van 02.11.2017 (BS 13.11.2017) — Circ. 2017/C/82 (14.12.2017) en Circ. 2018/C/63 (24.05.2018)",
+    "cijferzakboekje_pagina": 118,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p127.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "vaa",
+    "ict",
+    "pc",
+    "smartphone",
+    "internet"
+  ]
+}

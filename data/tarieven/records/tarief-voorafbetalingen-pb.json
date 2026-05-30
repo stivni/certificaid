@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "confidence": "⚖️",
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG Cijferzakboekje 2026",
+      "extract_prompt": "prompts/tarief-extractie-v1.md"
+    }
+  },
+  "id": "tarief-voorafbetalingen-pb",
+  "titel": "Personenbelasting: voorafbetalingen — tarieven vermeerdering en bonificatie",
+  "categorie": "voorafbetalingen",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "157 tot 168"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2022,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Vier kwartaalvoorafbetalingen (VA I tot VA IV) — verschuldigd door vrije beroepers, zelfstandigen en bedrijfsleiders. Eerste drie jaren van zelfstandige activiteit zijn vrijgesteld. Bij ontoereikende voorafbetalingen wordt belasting vermeerderd met een tarief. Bonificatie bij voorafbetaling (loontrekkende of voldoende voorafbetaald).",
+  "criteria": [
+    {
+      "naam": "Vervaldag VA I (boekhouding per kalenderjaar)",
+      "waarde": "10 april",
+      "eenheid": "datum",
+      "toelichting": "Voor aanslagjaar 2026: 10 april 2025. Bij andere boekjaar: 10de dag van de 4de maand van het boekjaar."
+    },
+    {
+      "naam": "Vervaldag VA II",
+      "waarde": "10 juli",
+      "eenheid": "datum",
+      "toelichting": "Aanslagjaar 2026: 10 juli 2025. Andere boekjaar: 10de dag van de 7de maand."
+    },
+    {
+      "naam": "Vervaldag VA III",
+      "waarde": "10 oktober",
+      "eenheid": "datum",
+      "toelichting": "Aanslagjaar 2026: 10 oktober 2025. Andere boekjaar: 10de dag van de 10de maand."
+    },
+    {
+      "naam": "Vervaldag VA IV",
+      "waarde": "22 december",
+      "eenheid": "datum",
+      "toelichting": "Aanslagjaar 2026: 22 december 2025. Andere boekjaar: 20ste dag van de laatste maand."
+    },
+    {
+      "naam": "Globale vermeerdering — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 6.75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Globale vermeerdering — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Globale vermeerdering — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Globale vermeerdering — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 2.25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I-vermindering — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 9.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II-vermindering — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 7.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III-vermindering — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV-vermindering — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I-vermindering — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 12.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II-vermindering — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 10.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III-vermindering — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 8.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV-vermindering — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I-vermindering — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II-vermindering — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 5.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III-vermindering — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 4.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV-vermindering — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 3.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA I-vermindering — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 3.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA II-vermindering — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 2.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA III-vermindering — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 2.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "VA IV-vermindering — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 1.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Gemiddelde bonificatie — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 3.375,
+      "eenheid": "%",
+      "toelichting": "Voor loontrekkenden of wie voldoende voorafbetaald heeft maar toch nog vooraf betaalt."
+    },
+    {
+      "naam": "Gemiddelde bonificatie — inkomsten 2024 / aj. 2025",
+      "tarief_pct": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Gemiddelde bonificatie — inkomsten 2023 / aj. 2024",
+      "tarief_pct": 2.25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Gemiddelde bonificatie — inkomsten 2022 / aj. 2023",
+      "tarief_pct": 1.125,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA I — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 4.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA II — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 3.75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA III — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 3.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA IV — inkomsten 2025 / aj. 2026",
+      "tarief_pct": 2.25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA I — aj. 2025",
+      "tarief_pct": 6.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA II — aj. 2025",
+      "tarief_pct": 5.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA III — aj. 2025",
+      "tarief_pct": 4.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA IV — aj. 2025",
+      "tarief_pct": 3.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA I — aj. 2024",
+      "tarief_pct": 3.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA II — aj. 2024",
+      "tarief_pct": 2.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA III — aj. 2024",
+      "tarief_pct": 2.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA IV — aj. 2024",
+      "tarief_pct": 1.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA I — aj. 2023",
+      "tarief_pct": 1.5,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA II — aj. 2023",
+      "tarief_pct": 1.25,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA III — aj. 2023",
+      "tarief_pct": 1.0,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Bonificatie VA IV — aj. 2023",
+      "tarief_pct": 0.75,
+      "eenheid": "%"
+    },
+    {
+      "naam": "Vrijstellingsperiode eerste activiteit",
+      "waarde": 3,
+      "eenheid": "jaren",
+      "toelichting": "De eerste drie jaren van zijn zelfstandige activiteit is de vrije beroeper, de zelfstandige of de bedrijfsleider vrijgesteld van voorafbetalingen. Leeftijd niet (meer) van belang."
+    },
+    {
+      "naam": "IBAN voorafbetalingen",
+      "waarde": "BE61 6792 0022 9117",
+      "eenheid": "IBAN"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p110-p111 — Personenbelasting: voorafbetalingen — tarieven vermeerdering en bonificatie",
+    "wettekst": "WIB92 art. 157-168",
+    "cijferzakboekje_pagina": 110,
+    "verified_via": "Vision-extract PNG data/tarieven/pages/p119.png + p120.png"
+  },
+  "tags": [
+    "personenbelasting",
+    "voorafbetalingen",
+    "vermeerdering",
+    "bonificatie",
+    "wib92"
+  ]
+}

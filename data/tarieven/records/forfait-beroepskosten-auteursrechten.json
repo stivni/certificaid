@@ -1,0 +1,79 @@
+{
+  "id": "forfait-beroepskosten-auteursrechten",
+  "schema_version": "1.0",
+  "titel": "Personenbelasting — wettelijk forfait beroepskosten voor auteursrechten",
+  "categorie": "personenbelasting",
+  "wetsbasis": [
+    {
+      "bron": "WIB92",
+      "artikel": "51 (forfaitaire beroepskosten)"
+    },
+    {
+      "bron": "WIB92",
+      "artikel": "37 (auteursrechten als roerend inkomen)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2023,
+    "tot_boekjaar": null
+  },
+  "samenvatting": "Wettelijk kostenforfait voor inkomsten uit auteursrechten — twee schijven (50% op eerste schijf, 25% op tweede schijf) met absoluut maximum. Geïndexeerde grenswaarden voor aj. 2024-2027.",
+  "criteria": [
+    {
+      "naam": "Forfait 50% — bovengrens schijf aj. 2027",
+      "waarde": 20590,
+      "eenheid": "EUR",
+      "tarief_pct": 50,
+      "ondergrens": 0,
+      "bovengrens": 20590,
+      "toelichting": "Aj. 2024: € 0 - 18.720; aj. 2025: € 0 - 19.480; aj. 2026: € 0 - 20.100; aj. 2027: € 0 - 20.590."
+    },
+    {
+      "naam": "Forfait 25% — schijf aj. 2027",
+      "waarde": "20.590 - 41.180",
+      "eenheid": "EUR",
+      "tarief_pct": 25,
+      "ondergrens": 20590,
+      "bovengrens": 41180,
+      "toelichting": "Aj. 2024: € 18.720 - 37.450; aj. 2025: € 19.480 - 38.970; aj. 2026: € 20.100 - 40.190; aj. 2027: € 20.590 - 41.180."
+    },
+    {
+      "naam": "Absoluut maximum forfait beroepskosten auteursrechten — aj. 2027",
+      "waarde": 15442.5,
+      "eenheid": "EUR",
+      "toelichting": "Aj. 2024: € 14.042,50; aj. 2025: € 14.612,50; aj. 2026: € 15.072,50; aj. 2027: € 15.442,50."
+    }
+  ],
+  "context_tabellen": [
+    "tarief-pb-beroepsinkomsten"
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p89 — Beroepskosten: wettelijk forfait voor auteursrechten",
+    "wettekst": "WIB92 art. 51 (forfaitaire kosten) jo. art. 37 (auteursrechten regime)",
+    "cijferzakboekje_pagina": 89,
+    "verified_via": "Vision-extract PNG p098.png + RAG-cross-check WIB92 art. 51 (forfait-structuur progressief 50%-25% bevestigd). Rekenkundige check: 50%*20.590 = 10.295 + 25%*(41.180-20.590) = 25%*20.590 = 5.147,50 → totaal € 15.442,50 = absoluut maximum aj. 2027 OK."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wib92",
+    "personenbelasting",
+    "auteursrechten",
+    "forfait",
+    "beroepskosten",
+    "art-51",
+    "art-37"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "extract_route": "Vision-extract PNG p098.png + RAG-cross-check WIB92 art. 51",
+      "png_pagina": "data/tarieven/pages/p098.png",
+      "rag_queries": [
+        "forfaitaire beroepskosten werknemers artikel 51 WIB92"
+      ],
+      "rekenkundige_check": "Aj. 2027: 0.5*20.590=10.295 + 0.25*(41.180-20.590)=5.147,50 → totaal 15.442,50 = absoluut max OK."
+    }
+  }
+}

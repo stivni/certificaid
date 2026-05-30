@@ -1,0 +1,130 @@
+{
+  "id": "pensioen-werknemers-uitkeringen",
+  "schema_version": "1.0",
+  "titel": "Wettelijk pensioen werknemers: uitkeringen + jaarloongrenzen",
+  "categorie": "sociale-zekerheid",
+  "wetsbasis": [
+    {
+      "bron": "KB 21.12.1967",
+      "artikel": "diverse (pensioenberekening werknemers)"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2025,
+    "tot_boekjaar": null,
+    "wijziging_door": "Gewaarborgd minimumpensioen sinds 01.02.2025"
+  },
+  "samenvatting": "Berekeningsformule wettelijk pensioen werknemers (60% alleenstaande / 75% gezin × aantal dienstjaren/45 × geïndexeerde jaarlonen) + gewaarborgde minimumpensioenen sinds 01.02.2025 + jaarloongrenzen voor pensioenberekening 2017-2025.",
+  "criteria": [
+    {
+      "naam": "Pensioen alleenstaande — percentage",
+      "waarde": 60,
+      "eenheid": "%",
+      "toelichting": "Formule: aantal dienstjaren/45 × jaarlonen (geïndexeerd) × 60%."
+    },
+    {
+      "naam": "Gezinspensioen — percentage",
+      "waarde": 75,
+      "eenheid": "%",
+      "toelichting": "Formule: aantal dienstjaren/45 × jaarlonen (geïndexeerd) × 75%."
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — gezin — jaarbedrag",
+      "waarde": 27123.07,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — gezin — forfaitair maandbedrag",
+      "waarde": 2260.26,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — alleenstaande — jaarbedrag",
+      "waarde": 21705.29,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — alleenstaande — forfaitair maandbedrag",
+      "waarde": 1808.77,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — overlevingspensioen — jaarbedrag",
+      "waarde": 21415.22,
+      "eenheid": "EUR/jaar"
+    },
+    {
+      "naam": "Gewaarborgd minimumpensioen — overlevingspensioen — forfaitair maandbedrag",
+      "waarde": 1784.6,
+      "eenheid": "EUR/maand"
+    },
+    {
+      "naam": "Jaarloongrens — 2025",
+      "waarde": 82608.94,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2024",
+      "waarde": 80485.32,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2023",
+      "waarde": 76395.98,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2022",
+      "waarde": 71519.98,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2021",
+      "waarde": 63944.74,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2020",
+      "waarde": 60026.75,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2019",
+      "waarde": 58446.94,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2018",
+      "waarde": 57602.62,
+      "eenheid": "EUR"
+    },
+    {
+      "naam": "Jaarloongrens — 2017",
+      "waarde": 55657.47,
+      "eenheid": "EUR"
+    }
+  ],
+  "bron": {
+    "primair": "Cijferzakboekje 2026 p134 — Wettelijk pensioen werknemers: uitkeringen",
+    "wettekst": "KB 21.12.1967 (rust- en overlevingspensioen werknemers); gewaarborgd minimumpensioen sinds 01.02.2025",
+    "cijferzakboekje_pagina": 134,
+    "verified_via": "Vision-extract PNG p143.png — formule + minimumpensioenen + jaarloongrenzen overgenomen."
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "pensioen",
+    "werknemers",
+    "berekening",
+    "minimumpensioen",
+    "jaarloongrens"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "Vision-extract PNG p143.png",
+      "extract_prompt": "prompts/tarief-extractie-v1.md",
+      "png_pagina": "data/tarieven/pages/p143.png"
+    }
+  }
+}
