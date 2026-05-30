@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.3",
-  "gegenereerd_op": "2026-05-29T19:45:34+00:00",
+  "gegenereerd_op": "2026-05-30T12:56:00+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 21,
+  "n_vragen": 23,
   "n_clusters": 0,
-  "n_singletons": 21,
+  "n_singletons": 23,
   "clusters": [],
   "borderline_paren": [
     {
@@ -131,6 +131,18 @@
       "vraag_id": "2015-1-vr35",
       "vraag_onderwerp": "Vennootschapsbelasting: aanspraak op verlaagd basistarief via bedrijfsleidersbezoldiging",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr35.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrh1",
+      "vraag_onderwerp": "Verworpen uitgaven in de aangifte vennootschapsbelasting — kwalificatie per situatie (JA/NEEN), bedrag van de V.U. en toepasselijke code",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrh1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrh2",
+      "vraag_onderwerp": "Herkwalificatie van niet-beroepsmatige uitgaven als persoonlijke uitgaven van de zaakvoerder — boeking via rekening-courant en fiscale gevolgen (vennootschap + zaakvoerder)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrh2.json"
     },
     {
       "examen_id": "2024-1",

@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr2",
+  "interpretatie_datum": "2026-05-30T12:35:38Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toepassingsgebied OESO-Modelverdrag inzake dubbelbelastingverdragen",
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
+  "themas": [
+    "OESO-Modelverdrag",
+    "dubbelbelastingverdragen",
+    "successierechten",
+    "materieel toepassingsgebied",
+    "internationaal fiscaal recht"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Oefeningen: Europees en internationaal fiscaal recht. Reeks losse stellingen \"waar of niet waar\" over dubbelbelastingverdragen en het OESO-Modelverdrag."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De overeenkomsten tot voorkoming van dubbele belasting die volgens de OESO-Modelovereenkomst afgesloten zijn, gelden voor de successierechten?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 2 uit een reeks van 7+ lineair-genummerde waar/niet-waar-stellingen op pagina 2. Stelling letterlijk overgenomen uit de PDF; \"WAAR OF NIET WAAR\" is het standaard ITAA-antwoordformat voor juist_fout en hoort niet in de vraagstelling zelf. Geen aparte motiveer-instructie zichtbaar, dus motivatie_verwacht=false.",
+  "kwaliteits_flags": []
+}

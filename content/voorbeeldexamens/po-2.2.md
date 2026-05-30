@@ -3,12 +3,12 @@ title: PO 2.2 — Personenbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.2 (Personenbelasting).
 tags: [examen, voorbeeldvragen, po-2-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.2 — Personenbelasting
 
-**32 unieke vraag-eenheden** uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 32 met modelantwoord
+**35 unieke vraag-eenheden** uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 35 met modelantwoord
 
 <a id="2024-1-vr5A"></a>
 
@@ -120,6 +120,154 @@ gegenereerd_op: 2026-05-29
 > > 
 > > **Art. 171 WIB 92** (Bijzondere stelsels van aanslag — Afzonderlijke aanslagen) somt limitatief op welke inkomsten aan afzonderlijke aanslagvoeten worden belast in plaats van aan het progressief tarief (art. 130). Voor beroepsinkomsten zijn dit voornamelijk: stopzettingsmeerwaarden (1° c, 4° b), kapitalen van aanvullende pensioenen (1° d, 2°quater, 4° f-g), opzeggings- en stopzettingsvergoedingen, achterstallen, vervroegd vakantiegeld en vergoedingen voor tijdelijke derving (5°, 6°). Uitzondering: flexi-jobs boven het vrijstellingsplafond (art. 171/1). Slotbepaling van art. 171: globalisatie geldt als ze gunstiger is. 📖  
 > > *Bron: Art. 130, 171 en 171/1 WIB 92*
+
+<a id="2019-bibf-vrg1"></a>
+
+> [!question]- 🆕 Meerwaarde op snelle verkoop van een ongebouwd onroerend goed — kwalificatie als divers inkomen en tarief
+> *Examen 2019-bibf · PO 2.2*
+>
+> De heer PEETERS, gepensioneerd, kocht op 08/03/2015 een perceel grond aan (KI: 80,00 €) voor de prijs van 140.000,00 €. De aankoopkosten bedragen 20.500,00 €. Bij akte van 09/11/2018 verkocht hij het terrein opnieuw, voor de prijs van 230.000,00 €, exclusief 6.050,00 € aan verkoopkosten (incl. 21% btw) die hij betaalde aan de vastgoedmakelaar belast met de verkoop.
+>
+> **Welke inkomsten dient de Heer PEETERS ingevolge de verkoop van het perceel aan te geven?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De heer Peeters moet een **divers inkomen van 22.700,00 €** aangeven: een meerwaarde op een ongebouwd onroerend goed dat hij binnen 8 jaar na verkrijging onder bezwarende titel vervreemdde (art. 90, eerste lid, 8°, a WIB92). 🔗
+> > 
+> > **Netto verkoopprijs** (art. 101, 1° WIB92) — verkoopprijs verminderd met verantwoorde vervreemdingskosten: 📖
+> > 
+> > | Element | Bedrag |
+> > |---|---:|
+> > | Verkoopprijs | 230.000,00 € |
+> > | − Verkoopkosten makelaar (incl. 21% btw) | − 6.050,00 € |
+> > | **Netto verkoopprijs** | **223.950,00 €** |
+> > 
+> > **Totale aankoopwaarde** (art. 101, 2°, a WIB92) — aankoopprijs vermeerderd met forfaitaire aankoopkosten 25% (hoger dan de werkelijke 20.500 €, dus forfait gekozen) en verhoogd met 5% inflatiecorrectie per vol jaar tussen aankoop (08/03/2015) en verkoop (09/11/2018) = **3 volle jaren**: 📖
+> > 
+> > | Element | Bedrag |
+> > |---|---:|
+> > | Aankoopprijs | 140.000,00 € |
+> > | + Forfaitaire aankoopkosten (25% × 140.000) | + 35.000,00 € |
+> > | **Aankoopwaarde vóór indexering** | **175.000,00 €** |
+> > | + Inflatiecorrectie (5% × 3 jaar × 175.000 = 15%) | + 26.250,00 € |
+> > | **Totale aankoopwaarde** | **201.250,00 €** |
+> > 
+> > **Belastbare meerwaarde**: 223.950,00 − 201.250,00 = **22.700,00 €**. 🔗
+> > 
+> > Het forfait van 25% wordt **enkel** gekozen wanneer het hoger is dan de werkelijke en bewezen aankoopkosten — hier 35.000 € forfait vs. 20.500 € werkelijk, dus het forfait is voordeliger. De 5%-indexering telt **enkel volle jaren** tussen de twee data (08/03/2015 → 09/11/2018 = 3 volle jaren, niet 3,67). Vervreemdingskosten (verkoopzijde) worden **afgetrokken** van de verkoopprijs, niet bij de aankoopwaarde geteld. 🔗
+> > 
+> > Art. 90, eerste lid, 8°, a WIB92 maakt de meerwaarde belastbaar als divers inkomen wanneer een ongebouwd onroerend goed onder bezwarende titel verkregen werd en binnen **8 jaar** wordt vervreemd. Art. 101, 1° en 2°, a WIB92 bepaalt de berekeningsregels: vervreemdingsprijs verminderd met vervreemdingskosten, minus aankoopprijs vermeerderd met forfaitaire kosten van 25% (of de hogere werkelijke kosten) en vervolgens verhoogd met 5% per vol jaar tussen verkrijging en vervreemding. 📖  
+> > *Bron: Art. 90, 8°, a + Art. 101, 1°-2°, a WIB92*
+>
+> **Tegen welk tarief wordt dit inkomen belast?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De meerwaarde wordt **afzonderlijk belast aan 33%** (art. 171, 1°, b WIB92), omdat de vervreemding plaatsvond binnen 5 jaar na de verkrijging onder bezwarende titel — behoudens globalisatie indien voordeliger. 🔗
+> > 
+> > Voor meerwaarden op ongebouwde onroerende goederen uit art. 90, 8° WIB92 onderscheidt art. 171 WIB92 twee tarieven naar gelang het tijdsverloop tussen verkrijging en vervreemding: 🔗
+> > 
+> > - **33%** wanneer de vervreemding plaatsvindt **binnen 5 jaar** na de verkrijging (art. 171, 1°, b);
+> > - **16,5%** wanneer de vervreemding plaatsvindt **tussen 5 en 8 jaar** na de verkrijging (art. 171, 4°).
+> > 
+> > Peeters kocht op 08/03/2015 en verkocht op 09/11/2018 = ca. 3 jaar en 8 maanden — ruim binnen de 5-jaar-grens, dus **33%**. De afzonderlijke aanslag wordt enkel toegepast indien zij gunstiger uitvalt dan globalisatie tegen het progressieve tarief (art. 171, inleidende zin). 🔗
+> > 
+> > Art. 171, 1°, b WIB92 onderwerpt de in art. 90, 8° vermelde meerwaarden op ongebouwde onroerende goederen aan een afzonderlijke aanslag van **33%** wanneer de vervreemding binnen 5 jaar na de verkrijging plaatsvindt; art. 171, 4° voorziet **16,5%** bij vervreemding tussen 5 en 8 jaar. De afzonderlijke aanslag wijkt af van het progressieve tarief van art. 130 WIB92, tenzij globalisatie voordeliger is (vergelijkingsregel in de aanhef van art. 171). 📖  
+> > *Bron: Art. 171, 1°, b + Art. 171, 4° WIB92*
+
+<a id="2019-bibf-vrg2"></a>
+
+> [!question]- 🆕 Personenbelasting — aangifteplicht auteursrechten en belastingheffing meerwaarde op gebouwd onroerend goed
+> *Examen 2019-bibf · PO 2.2*
+>
+> Vraag G.2 (sectie G. Personenbelasting). Twee juist/fout-stellingen, 1 punt per juist antwoord (totaal /2).
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De inkomsten van auteursrechten dienen in de personenbelasting altijd te worden aangegeven.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — inkomsten uit auteursrechten (art. 17, § 1, 5° WIB92) moeten altijd in de aangifte personenbelasting worden vermeld, ook als er roerende voorheffing op werd ingehouden. 🔗
+> > 
+> > De algemene regel van art. 313 WIB92 stelt dat PB-belastingplichtigen roerende inkomsten waarop RV is ingehouden niet hoeven aan te geven (bevrijdende RV). Auteursrechten en naburige rechten (art. 17, § 1, 5°) zijn echter expliciet uitgesloten van deze ontheffing en moeten dus steeds worden aangegeven — ondanks de inhouding van 15% RV bij de bron. 📖
+> > 
+> > De afzonderlijke aanslagvoet bedraagt 15% op de eerste schijf (geïndexeerd, ca. 64.070 EUR voor AJ 2024) — boven dit plafond, of als de 30%-verhoudingsgrens overschreden is, worden de inkomsten geherkwalificeerd als beroepsinkomsten en progressief belast (art. 37, tweede lid WIB92). De aangifteplicht laat de fiscus toe deze plafonds te controleren. 🔗
+> > 
+> > Art. 313 WIB92 ontslaat PB-belastingplichtigen van de aangifteplicht voor roerende inkomsten met bevrijdende RV, maar sluit auteursrechten (art. 17, § 1, 5°) expliciet uit. Aangifteplicht blijft dus integraal van toepassing. 📖  
+> > *Bron: Art. 313 jo. art. 17, § 1, 5° WIB92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De winst op de verkoop van een gebouwd onroerend goed kan in geen geval in aanmerking komen voor een belastingheffing aan 33%.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — een meerwaarde op een gebouwd onroerend goed kan wél aan 33% worden belast wanneer ze voortkomt uit een speculatieve verrichting buiten het normale beheer van een privévermogen (art. 90, 1° WIB92). 🔗
+> > 
+> > Meerwaarden op gebouwde onroerende goederen kennen in de PB drie regimes:
+> > 
+> > - **Vrijgesteld** — normaal beheer privévermogen, geen speculatie, vervreemding > 5 jaar na verkrijging onder bezwarende titel. 🔗
+> > - **Belast aan 16,5%** (art. 171, 4°, e) — meerwaarde verwezenlijkt binnen 5 jaar na verkrijging onder bezwarende titel (art. 90, 10°). 📖
+> > - **Belast aan 33%** (art. 171, 1°, a) — speculatieve verrichting buiten privévermogensbeheer als diverse inkomst onder art. 90, 1°. 🔗
+> > 
+> > De stelling "in geen geval 33%" is dus onjuist: speculatie-meerwaarden op gebouwd OG vallen onder art. 90, 1° en worden aan 33% belast. 🔗
+> > 
+> > Niet verwarren met het 16,5%-tarief van art. 90, 10°: dat geldt enkel bij niet-speculatieve, snelle wederverkoop binnen 5 jaar. Zodra de fiscus speculatief oogmerk aantoont (herhaalde verrichtingen, leningen, korte termijn, abnormaal beheer), schuift de meerwaarde door naar art. 90, 1° en wordt het 33%-tarief toegepast. Ook beroepsmatige meerwaarden (handelaar in vastgoed) zijn een aparte categorie — beroepsinkomen aan progressief tarief. 🔗
+> > 
+> > Art. 90, 1° WIB92 (speculatieve diverse inkomsten) + art. 171, 1°, a WIB92 (afzonderlijk tarief 33%). Daarnaast art. 90, 10° + art. 171, 4°, e WIB92 voor de 16,5%-meerwaarde binnen 5 jaar bij niet-speculatieve vervreemding. 📖  
+> > *Bron: Art. 90, 1° en 10° WIB92; art. 171, 1°, a en 4°, e WIB92*
+
+<a id="2019-bibf-vrg3"></a>
+
+> [!question]- 🆕 Fiscale aftrekbaarheid van relatiegeschenken (wijn) als beroepskost in de personenbelasting, drempel handelsgeschenken van geringe waarde, fiche 281.50 en belastbaarheid bij de ontvanger
+> *Examen 2019-bibf · PO 2.2*
+>
+> Sectie G. Personenbelasting — Vraag G.3 (/4 punten). De heer Durant is een onafhankelijk verzekeraar en wenst aan een aantal goede cliënten een geschenk te geven. Hij overweegt een fles wijn met een waarde van 25,00 EUR (BTW inbegrepen) te geven en een kist met zes flessen van dezelfde wijn (waarde: 150,00 EUR BTW inbegrepen) aan zijn beste cliënten. De verzekeraar wenst de aankoopkosten van deze geschenken af te trekken en vraagt om uw advies.
+>
+> Is de fles wijn (waarde 25,00 EUR BTW inbegrepen) fiscaal aftrekbaar als beroepskost voor de verzekeraar? Zo ja, in welke mate? Dient hij, om te genieten van een eventuele aftrek, een document op te maken? Licht toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja, voor 50 % aftrekbaar** als relatiegeschenk (art. 53, 8° WIB 92). Er moet **geen fiche 281.50** worden opgesteld: de prijs (25 EUR incl. btw) blijft onder de administratieve grens van 125 EUR. 🔗
+> > 
+> > Een fles wijn van 25 EUR aan een cliënt is een **relatiegeschenk** (geen reclameartikel met blijvende publicitaire vermelding, geen handelsmonster). De wet beperkt de aftrek tot **50 %** van het bedrag (art. 53, 8° WIB 92). De BTW is overigens niet aftrekbaar (art. 45, § 3, 1° en 4° WBTW — wijn is een geestrijke drank niet bestemd voor wederverkoop), dus de aftrekbare kost = 50 % × 25 EUR incl. btw = **12,50 EUR**. 🔗
+> > 
+> > Voor de **fiche 281.50** geldt een administratieve tolerantie: wanneer de verkrijger geen beroepsmatig voordeel ontvangt en het bedrag per cliënt en per jaar onder **125 EUR** blijft, mag de fiche-verplichting worden weggelaten. 25 EUR blijft daar ruim onder. 🤖
+> > 
+> > **Art. 53, 8° WIB 92**: 50 % van de kosten voor onthaal en voor relatiegeschenken zijn niet als beroepskost aftrekbaar (= 50 % blijft aftrekbaar). **Art. 57 WIB 92 + art. 30 KB/WIB 92**: commissies, erelonen, gratificaties en voordelen van alle aard moeten op individuele fiches 281.50 worden vermeld; administratief wordt geen fiche geëist voor occasionele geschenken < 125 EUR per begunstigde per jaar (Comm. IB 57/62 e.v.). 🔗  
+> > *Bron: art. 53, 8° WIB 92; art. 57 WIB 92; Comm. IB 57/62 (tolerantie 125 EUR)*
+>
+> Is de kist van 6 flessen wijn (waarde 150,00 EUR BTW inbegrepen) fiscaal aftrekbaar als beroepskost voor de verzekeraar? Zo ja, in welke mate? Dient hij, om te genieten van een eventuele aftrek, een document op te maken? Licht toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ja, voor 50 % aftrekbaar** als relatiegeschenk (art. 53, 8° WIB 92). Omdat de kist 150 EUR kost — boven de administratieve drempel van 125 EUR per begunstigde — moet de verzekeraar een **fiche 281.50** opstellen op naam van elke begunstigde cliënt, anders verliest hij de aftrek volledig. 🔗
+> > 
+> > Net als de fles is de kist een **relatiegeschenk** → 50 %-aftrekbeperking van art. 53, 8° WIB 92. Aftrekbare kost = 50 % × 150 EUR = **75 EUR** per kist (BTW eveneens niet aftrekbaar). 🔗
+> > 
+> > Voor de **fiche-verplichting** (art. 57 WIB 92) ligt de administratieve tolerantie op **125 EUR per begunstigde per jaar**. Zodra het geschenk die grens overschrijdt, vervalt de tolerantie en moet er een individuele fiche 281.50 worden opgesteld. Zonder fiche treedt **art. 219 WIB 92** in werking (in de VenB) of wordt de kost in de PB integraal verworpen wegens schending van de identificatieplicht. 🔗
+> > 
+> > De 125 EUR-drempel is een **administratieve tolerantie** (Comm. IB 57/62), géén wettelijke vrijstelling. Bij overschrijding vervalt de tolerantie voor het **volledige** bedrag — niet enkel het excedent. Verwar dit niet met de BTW-drempel van **50 EUR** uit K.B. nr. 59 (handelsgeschenken van geringe waarde, art. 12, § 1 WBTW): die regelt enkel of er BTW-onttrekking moet worden aangegeven, niet de PB-fiche of de 50 %-aftrekbeperking. 📖
+> > 
+> > **Art. 53, 8° WIB 92** (50 %-aftrekbeperking relatiegeschenken) + **art. 57 WIB 92** (fiche-verplichting voor commissies, erelonen, gratificaties en voordelen van alle aard). De administratieve tolerantie voor occasionele geschenken < 125 EUR per begunstigde per jaar is opgenomen in Comm. IB 57/62 e.v.; boven die drempel: fiche 281.50 verplicht, op straffe van verwerping van de kost (PB) of afzonderlijke aanslag art. 219 WIB 92 (VenB). 🔗  
+> > *Bron: art. 53, 8° WIB 92; art. 57 WIB 92; Comm. IB 57/62; art. 219 WIB 92*
+>
+> Worden de cliënten, die één van de cadeaus ontvangen, hierop belast? Zo ja, ten welke titel? Indien neen, waarom niet? Licht toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **De fles wijn (25 EUR)**: **niet belastbaar** bij de cliënt — occasioneel geschenk van geringe waarde onder de 125 EUR-tolerantie, geen fiche → geen belastbaar voordeel. **De kist (150 EUR)**: **belastbaar als divers inkomen** of als beroepsinkomen (al naargelang de begunstigde), maar **alleen indien** de verzekeraar de fiche 281.50 effectief opstelt; dan moet de cliënt het bedrag aangeven (art. 57 j° art. 97 of art. 27 WIB 92). 🔗
+> > 
+> > Een **relatiegeschenk** dat een belastingplichtige in het kader van zijn beroep ontvangt, is in beginsel een **voordeel van alle aard** dat de aftrek-keerzijde vormt van art. 53, 8° WIB 92. De **fiche 281.50** is het mechanisme dat dit voordeel bij de fiscus aangeeft op naam van de begunstigde. 🔗
+> > 
+> > - **Fles 25 EUR** → onder 125 EUR-tolerantie → geen fiche → in de praktijk **niet aangegeven en niet belast** bij de cliënt. 🔗
+> > - **Kist 150 EUR** → boven 125 EUR → fiche 281.50 verplicht → het bedrag wordt belastbaar bij de cliënt: als **beroepsinkomen** (art. 23 / 27 WIB 92) wanneer de cliënt het geschenk in het kader van zijn eigen beroep ontvangt, of als **divers inkomen** (art. 90, 1° WIB 92) wanneer het buiten een beroepsactiviteit gebeurt. Stelt de verzekeraar géén fiche op, dan is er in hoofde van de cliënt feitelijk niets aangegeven, maar verliest de verzekeraar zijn aftrek en/of riskeert hij art. 219 WIB 92 (VenB). 🔗
+> > 
+> > De symmetrie is logisch: de wetgever koppelt **aftrek bij de gever** aan **belastbaarheid bij de ontvanger** via de fiche-verplichting. Zonder fiche treedt art. 219 WIB 92 in werking (afzonderlijke aanslag van 100 % in de VenB) — de fiscus haalt zo de gemiste belasting bij de gever weg. In de PB volstaat een loutere weigering van de kost in hoofde van de gever (art. 57 WIB 92). 🔗
+> > 
+> > **Art. 57 WIB 92** koppelt de aftrek bij de gever aan de fiche-verplichting; **art. 27 WIB 92** (winsten/baten als beroepsinkomen) en **art. 90, 1° WIB 92** (diverse inkomsten — toevallige winsten/baten) bepalen de belastingcategorie bij de begunstigde. De administratieve 125 EUR-tolerantie (Comm. IB 57/62) zet kleine geschenken buiten dit mechanisme: geen fiche → in de praktijk niet belast bij de ontvanger. 🔗  
+> > *Bron: art. 57 WIB 92; art. 27 WIB 92; art. 90, 1° WIB 92; Comm. IB 57/62*
 
 <a id="2015-1-vr28"></a>
 

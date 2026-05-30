@@ -1,0 +1,135 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — bij afsluiting N staat de volledige 1.500,00 € huur op rekening **493 Over te dragen opbrengsten** (de huur slaat integraal op Q1/N+1) en de ontvangen waarborg van 500,00 € op rekening **178 Ontvangen borgtochten in contanten** (passief, geen opbrengst). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md",
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** — credit 7003 voor 500 € + 493 voor 1.000 € + 489 voor 500 € → FOUT. Geen enkel deel van de huur (1.500 €) slaat op boekjaar N — niets mag op een 70-opbrengstrekening blijven; alles moet naar 493. De waarborg is een schuld, niet een 489-overlopende rekening. 🔗\n- **b** — credit 7003 voor 1.500 € + 7463 voor 500 € → FOUT. De huur wordt als opbrengst van N geboekt terwijl ze volledig op N+1 betrekking heeft (geen prorata-toerekening); de waarborg wordt als financiële opbrengst behandeld terwijl het een terug te betalen schuld is. 🔗\n- **c** — credit 493 voor 1.500 € + 178 borgtochten ontvangen in contanten voor 500 € → JUIST. De huur Q1/N+1 wordt integraal overgedragen naar het volgende boekjaar (over te dragen opbrengsten), de waarborg wordt geboekt als ontvangen borgtocht in contanten (passiefrubriek 17). 🔗\n- **d** — credit 491 voor 1.500 € + 489 voor 500 € → FOUT. Rekening 491 (verkregen opbrengsten) is voor opbrengsten die zonder factuur reeds verworven zijn — hier is er net een factuur en de opbrengst is nog niet verworven. 🔗\n- **e** — credit 7003 voor 500 € + 491 voor 1.000 € + 7463 voor 500 € → FOUT. Splitst de huur foutief, gebruikt opnieuw 491 in plaats van 493, en boekt de waarborg als financiële opbrengst i.p.v. schuld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Onderscheid **493 Over te dragen opbrengsten** (reeds gefactureerd / ontvangen, maar nog niet verworven — toekomstige boekjaren) van **491 Verkregen opbrengsten** (verworven, maar nog niet gefactureerd). De richting van het matching-beginsel is omgekeerd. Hier is gefactureerd op 01/12/N voor een prestatie in N+1 → 493, niet 491. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Matching-beginsel art. 3:13 KB WVV (prorata-toerekening kosten en opbrengsten aan het boekjaar waarop ze betrekking hebben); CBN-advies 2015/4 over leasing en huur — overlopende rekening **493 Over te dragen opbrengsten** voor reeds gefactureerde huur die op het volgende boekjaar slaat. Voor de waarborg: rekening **178 Ontvangen borgtochten in contanten** als spiegelrekening van 288 (CBN-advies 2017/04). 📖",
+          "wetsref": "art. 3:13 KB WVV; CBN-advies 2015/4; CBN-advies 2017/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md",
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — een operationele leasing bevat per definitie **geen aankoopoptie** die de wedersamenstelling van het geïnvesteerde kapitaal van de leasinggever organiseert; het goed blijft bij hem op de balans en het contract gedraagt zich als een eenvoudig huurcontract. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md",
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (overeenkomst moet uitdrukkelijk een aankoopoptie voorzien) → FOUT. Een aankoopoptie is een kenmerk van **financiële** leasing (art. 3:89 KB WVV / CBN 2015/4): bij financiële leasing moet de gecumuleerde betaling het geïnvesteerd kapitaal van de leasinggever wedersamenstellen, eventueel aangevuld met een aankoopoptieprijs. Bij operationele leasing is dat juist niet het geval. 🔗\n- **b** (geen enkele clausule voor het lichten van een aankoopoptie) → JUIST. CBN-advies 2021/05 bevestigt: bij operationele leasing blijft het actief op de balans van de leasinggever, de leasingnemer boekt enkel een huurkost — het contract heeft *veel weg van een eenvoudig huurcontract*, zonder eigendomsoverdracht of optie. 📖\n- **c** (geen van voorgaande) → FOUT, want optie b is correct. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md",
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "CBN-advies 2015/4 benadrukt dat de **aanwezigheid van een aankoopoptie** *op zich* niet bepalend is voor de boekhoudkundige kwalificatie financiële vs. operationele leasing — het echte criterium is of de gecumuleerde leasevergoedingen het geïnvesteerd kapitaal wedersamenstellen. Maar in het Belgische normaal rekeningstelsel geldt: operationele leasing = huur, geen optie tot eigendomsverwerving in het standaardcontract. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:89 KB WVV definieert financiële leasing aan de hand van de wedersamenstelling van het geïnvesteerd kapitaal. CBN-advies 2021/05 stelt expliciet: *\"Bij operationele leasing blijft het in leasing gegeven actief op de balans staan van de leasinggever ... Het contract heeft veel weg van een eenvoudig huurcontract.\"* Geen aankoopoptie. 📖",
+          "wetsref": "art. 3:89 KB WVV; CBN-advies 2021/05; CBN-advies 2015/4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-05-boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19.md",
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — **Financiële vaste activa** (rekening 288 *Borgtochten betaald in contanten*): de waarborg dient als doorlopende waarborg bij een rentingovereenkomst van 48 maanden, dus duurzaam aangehouden (> 12 maanden). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (Materiële vaste activa) → FOUT. Het gehuurde informaticamateriaal komt bij renting/operationele leasing niet op de balans van de huurder; *en* een betaalde waarborg is geen materieel actief maar een vordering. 🔗\n- **b** (Financiële vaste activa) → JUIST. Art. 3:89 KB WVV en CBN-advies 2017/04 plaatsen borgtochten in contanten die als **doorlopende** waarborg worden gestort (duurzaam, > 12 maanden) onder de financiële vaste activa — rekening **288**. Looptijd 48 maanden = duurzaam. 📖\n- **c** (Immateriële vaste activa) → FOUT. Borgtochten zijn vorderingen op de begunstigde, geen immateriële rechten. 🔗\n- **d** (Geldbeleggingen) → FOUT. Rubriek 50-53 is voor termijndeposito's en effecten als belegging; pas voor een waarborg met **vervaldatum binnen 12 maanden** zou rekening **418** (vlottende activa) gebruikt worden, niet 50. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De rubricering hangt af van de **resterende looptijd van de waarborg**, niet van die van het contract. Doorlopend (>12 maanden) → **rekening 288** (financiële vaste activa). Vervalt binnen 12 maanden → **rekening 418** (overige vorderingen, vlottende activa). Geldbeleggingen (rubriek IX) zijn voor effecten/termijndeposito's als belegging, niet voor gestorte waarborgen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:89 KB WVV: borgtochten worden opgenomen onder de financiële vaste activa indien gestort als **doorlopende waarborg** (duurzaam aangehouden). CBN-advies 2017/04 bevestigt: rekening **288 Borgtochten betaald in contanten** (financiële vaste activa) voor borgtochten > 12 maanden; rekening **418** (vlottende activa) voor borgtochten ≤ 12 maanden. 📖",
+          "wetsref": "art. 3:89 KB WVV; CBN-advies 2017/04",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-04-gegeven-borgtochten-in-contanten-en-effecten-update.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,12 +3,383 @@ title: PO 1.1 — Algemene boekhouding
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.1 (Algemene boekhouding).
 tags: [examen, voorbeeldvragen, po-1-1]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 1.1 — Algemene boekhouding
 
-**24 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 24 met modelantwoord
+**27 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf) — 27 met modelantwoord
+
+<a id="2019-bibf-vra1"></a>
+
+> [!question]- 🆕 Verkoop van een materieel vast actief: pro rata afschrijving in jaar van vervreemding, boeking overdracht bij regelmatige vs. niet-regelmatige vervanging, bevoegdheid afschrijvingsplan en plaats in de jaarrekening
+> *Examen 2019-bibf · PO 1.1*
+>
+> Op 01/07/2018 verkoopt de BVBA TUTTI (waarvan het boekjaar overeenkomt met het kalenderjaar) een machine voor de prijs van 5.000,00 € (excl. BTW). De machine was verworven op 01.01.2014 voor de prijs van 30.000,00 €.
+> 
+> De afschrijvingen zijn lineair, aan 20% en worden maandelijks toegepast. Deze machines worden regelmatig vervangen.
+> 
+> Algemene instructie deeldomein boekhouding: alle journaalposten moeten een datum en een omschrijving bevatten. De rekeningen moeten, indien mogelijk, minstens uit 3 cijfers bestaan.
+>
+> Geef de boekhoudkundige verwerking van de in 2018 toegepaste afschrijvingen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Pro rata afschrijving 2018 (01/01/2018 — 30/06/2018, 6 maanden)** 🔗
+> > 
+> > | Datum | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | 30/06/2018 | 6302 | Afschrijvingen op materiële vaste activa | 3.000,00 | |
+> > | | @ 2309 | Geboekte afschrijvingen op machines | | 3.000,00 | 🔗
+> > 
+> > Aanschaffingswaarde 30.000,00 × afschrijvingsritme 20% × 6/12 = **3.000,00 €**. 🔗 De machine wordt op 01/07/2018 verkocht; de afschrijvingen worden maandelijks toegepast, dus voor 2018 wordt enkel pro rata afgeschreven over de zes maanden waarin het actief nog in gebruik was. 🔗
+> > 
+> > Art. 3:42 §1 KB WVV (voorheen art. 45 §1 KB W.Venn.): voor materiële vaste activa met een beperkte gebruiksduur wordt afgeschreven volgens een plan opgesteld overeenkomstig art. 3:6 §1 — het afschrijvingsplan moet de aanschaffingswaarde spreiden over de waarschijnlijke nuttigheidsduur. Pro rata temporis in het jaar van vervreemding is daarvan het gangbare gevolg. 📖  
+> > *Bron: art. 3:42 §1 KB WVV (ex art. 45 §1 KB W.Venn.)*
+>
+> Geef de boekhoudkundige verwerking van de overdracht van de oude machine.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Overdracht machine (regelmatig vervangen activum) — twee gelijkwaardige werkwijzen** 🔗
+> > 
+> > **Werkwijze 1: alles in één journaalpost**
+> > 
+> > | Datum | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | 01/07/2018 | 400 | Klanten — verkoop machine | 6.050,00 | |
+> > | | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |
+> > | | 641 | Minderwaarden op courante realisatie van vaste activa | 1.000,00 | |
+> > | | @ 230 | Machines | | 30.000,00 |
+> > | | @ 451 | Te betalen BTW | | 1.050,00 |
+> > 
+> > **Werkwijze 2: factuur + uitboeking apart**
+> > 
+> > Factuur (01/07/2018):
+> > 
+> > | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---:|---:|
+> > | 400 | Klanten | 6.050,00 | |
+> > | @ 748 | Verkoop producten buiten normale bedrijfsactiviteit | | 5.000,00 |
+> > | @ 4510 | Te betalen BTW | | 1.050,00 |
+> > 
+> > Uitboeking actief (01/07/2018):
+> > 
+> > | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---:|---:|
+> > | 748 | Verkoop producten buiten normale bedrijfsactiviteit | 5.000,00 | |
+> > | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |
+> > | 641 | Minderwaarden op courante realisatie van vaste activa | 1.000,00 | |
+> > | @ 230 | Machines | | 30.000,00 | 🔗
+> > 
+> > Boekwaarde op 01/07/2018 = aanschaffingswaarde 30.000,00 − cumul. afschrijvingen 24.000,00 (4 × 6.000 voor 2014–2017) = **6.000,00 €**. 🔗 Verkoopprijs excl. BTW 5.000,00 → **minderwaarde 1.000,00 €**. Omdat de machines **regelmatig vervangen** worden, behoort de minderwaarde tot de **courante bedrijfsuitoefening** en wordt zij geboekt op **rekening 641**, niet op 6630. 🔗 BTW: 5.000,00 × 21% = 1.050,00 €. 🔗
+> > 
+> > De 2018-pro-rata afschrijving (3.000 €, deelvraag 1) zit **niet** in de cumul. afschrijvingen die in de overdrachtsboeking worden uitgeboekt — de BIBF-modeloplossing behandelt beide journaalposten als onafhankelijke verwerkingen (afschrijving aan boekjaareinde, overdracht op transactiedatum). Logisch consistent zou de cumul op 01/07/2018 27.000,00 € zijn (24.000 + 3.000), met als gevolg een **meerwaarde** van 2.000,00 €; het officiële modelantwoord werkt echter met de cumul vóór pro rata en komt zo tot een minderwaarde van 1.000,00 €. ❓
+> > 
+> > MAR (Minimum Algemeen Rekeningstelsel, KB 12/09/1983 + actuele versie KB WVV): rekening **641 *Minderwaarden op courante realisatie van vaste activa*** wordt gebruikt voor minderwaarden bij vervreemding van activa die in het kader van de normale bedrijfsuitoefening **regelmatig worden vervangen**. Rekening **748 *Andere bedrijfsopbrengsten — verkoop producten buiten normale bedrijfsactiviteit*** wordt gebruikt wanneer de verkoopopbrengst niet via een omzetrekening (70-reeks) loopt. 📖  
+> > *Bron: MAR — rekeningen 230 / 2309 / 400 / 451 / 641 / 748*
+>
+> Geef de boekhoudkundige verwerking van de overdracht wanneer deze machines niet regelmatig worden vervangen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Overdracht machine (niet-regelmatig vervangen activum) — minderwaarde via 6630** 🔗
+> > 
+> > **Werkwijze 1: alles in één journaalpost**
+> > 
+> > | Datum | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | 01/07/2018 | 400 | Klanten — verkoop machine | 6.050,00 | |
+> > | | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |
+> > | | 6630 | Minderwaarden op de realisatie van vaste activa | 1.000,00 | |
+> > | | @ 230 | Machines | | 30.000,00 |
+> > | | @ 451 | Te betalen BTW | | 1.050,00 |
+> > 
+> > **Werkwijze 2: factuur + uitboeking apart**
+> > 
+> > Factuur (01/07/2018):
+> > 
+> > | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---:|---:|
+> > | 400 | Klanten | 6.050,00 | |
+> > | @ 748 | Verkoop producten buiten normale bedrijfsactiviteit | | 5.000,00 |
+> > | @ 4510 | Te betalen BTW | | 1.050,00 |
+> > 
+> > Uitboeking actief (01/07/2018):
+> > 
+> > | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---:|---:|
+> > | 748 | Verkoop producten buiten normale bedrijfsactiviteit | 5.000,00 | |
+> > | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |
+> > | 6630 | Minderwaarden op de realisatie van vaste activa | 1.000,00 | |
+> > | @ 230 | Machines | | 30.000,00 | 🔗
+> > 
+> > Het **enige verschil** met deelvraag 2 zit in de **kostenrekening voor de minderwaarde**: omdat deze machines **niet regelmatig worden vervangen**, wordt de minderwaarde als **uitzonderlijke kost** geboekt op rekening **6630 *Minderwaarden op de realisatie van vaste activa*** (rubriek **VIII. Uitzonderlijke kosten** vóór de wetshervorming, vandaag rubriek *niet-recurrente bedrijfskosten*) en niet als courante last op 641. 🔗 De rest van de boeking (klant, BTW, uitboeking aanschaffingswaarde en cumul. afschrijvingen, eventueel via 748) blijft identiek. 🔗
+> > 
+> > Het scharnier tussen **641** en **663(0)** is de zinsnede *"regelmatig vervangen"* in de casus. Wordt het actief in het kader van de normale bedrijfsuitoefening op courante basis vervangen (vlootvoertuigen, productiemachines, IT-materiaal in een groot park) → **641**. Gaat het om een uitzonderlijke vervreemding (verkoop kantoorgebouw, stopzetting activiteit) → **663(0)**. Sinds de hervorming 2015/2018 spreekt men in plaats van *uitzonderlijke kosten* over *niet-recurrente bedrijfskosten*, maar de logica blijft dezelfde. 🔗
+> > 
+> > MAR: rekening **6630 *Minderwaarden op de realisatie van vaste activa*** binnen rubriek 66 *Niet-recurrente kosten* (voorheen *Uitzonderlijke kosten*). Onderscheid 641 ↔ 663 is doctrinair vastgelegd in de presentatieregels van het resultatenrekening-schema in het KB WVV (en eerder KB W.Venn.). 📖  
+> > *Bron: MAR — rekeningen 663 / 6630; resultatenrekening-schema KB WVV*
+>
+> **Wie beslist over het afschrijvingspercentage binnen een vennootschap?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Het **bestuursorgaan** beslist over het afschrijvingspercentage (afschrijvingsplan) van de vennootschap. 📖
+> > 
+> > Het afschrijvingsplan maakt deel uit van de **waarderingsregels** die het bestuursorgaan vastlegt en die door datzelfde orgaan worden gewijzigd of bijgestuurd wanneer de economische omstandigheden dit verantwoorden. De algemene vergadering keurt de jaarrekening (en dus impliciet het toegepaste plan) jaarlijks goed, maar beslist niet zelf over het percentage. 🔗
+> > 
+> > Art. 3:6 §1 KB WVV (voorheen art. 28 §1 KB 30/01/2001 — KB W.Venn.): het **bestuursorgaan** stelt de waarderingsregels vast, waaronder het afschrijvingsplan; deze worden samengevat in de toelichting bij de jaarrekening. 📖  
+> > *Bron: art. 3:6 §1 KB WVV (ex art. 28 §1 KB 30/01/2001)*
+>
+> **Waar vinden we deze inlichtingen in de balans van de NBB en in toepassing van welk artikel?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De waarderingsregels — en dus het afschrijvingsplan — worden samengevat opgenomen in de **toelichting bij de jaarrekening** (de **bijlagen** bij de balans die bij de Nationale Bank wordt neergelegd), in toepassing van **art. 28 §1 KB 30/01/2001** (KB tot uitvoering van het Wetboek van vennootschappen — vandaag hernomen in **art. 3:6 §1 KB WVV** van 29/04/2019). 📖
+> > 
+> > De toelichting is integraal onderdeel van de jaarrekening (samen met balans en resultatenrekening) en wordt mee neergelegd bij de Balanscentrale van de NBB. Voor materiële vaste activa zijn er bovendien specifieke toelichtingsstaten (verloopstaat aanschaffingswaarde, afschrijvingen en waardeverminderingen). 🔗
+> > 
+> > Het officiële modelantwoord verwijst naar **art. 28 §1 KB 30/01/2001** — dat KB was op de examendatum (04/05/2019) nog van kracht en werd één dag eerder, op **30/04/2019**, vervangen door het KB WVV van 29/04/2019 (B.S. 30/04/2019, art. 3:6 §1 herneemt de regel quasi woordelijk). Voor het examen blijft de oude referentie het correcte antwoord. 🔗
+> > 
+> > Art. 28 §1 KB 30/01/2001 (KB tot uitvoering van het Wetboek van vennootschappen): *"Elke vennootschap bepaalt de regels die, met name in geval van afschrijvingen, herwaarderingen en waardeverminderingen, gelden voor de waardering van de inventaris... Deze regels worden bepaald door het bestuursorgaan en samengevat in de toelichting."* Vandaag overgenomen in art. 3:6 §1 KB WVV (29/04/2019). 📖  
+> > *Bron: art. 28 §1 KB 30/01/2001 (= art. 3:6 §1 KB WVV)*
+
+<a id="2019-bibf-vra2"></a>
+
+> [!question]- 🆕 Boekhoudkundige verwerking van een dubieuze handelsvordering: opname, waardevermindering, faling met btw-regularisatie en gedeeltelijke recuperatie
+> *Examen 2019-bibf · PO 1.1*
+>
+> Op datum van 28/03/N-1 heeft de vennootschap "De Dijk" een verkoopfactuur opgesteld voor een bedrag van 6.050,00 € (BTW inbegrepen, btw-tarief is 21%).
+> 
+> Bij het opstellen van de balans per 31/12/N0 blijkt dat deze klant insolvabel is, het verlies wordt op 50% geraamd.
+>
+> Geef de boeking op 28/03/N-1.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **28/03/N-1 — Verkoopfactuur 6.050,00 € incl. 21% btw**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 400000 | Handelsdebiteuren | 6.050,00 | |
+> > | aan | 451000 | Te betalen btw | | 1.050,00 |
+> > | aan | 700300 | Verkopen 21% btw | | 5.000,00 |
+> > 
+> > Maatstaf van heffing = 6.050,00 / 1,21 = 5.000,00 € — btw = 5.000,00 × 21% = 1.050,00 €. 📖
+> > 
+> > Standaard boekingsschema verkoopfactuur — MAR-rekeningen 400 (Handelsdebiteuren) / 451 (Te betalen btw) / 70 (Omzet). Boeking-cf. CBN-advies 2011/15 §*Boeking van de verkoopfactuur*. 📖  
+> > *Bron: MAR (KB 12.09.1983, geconsolideerd onder KB WVV 29.04.2019) — rubrieken 400, 451, 70*
+>
+> Geef de journaalposten op 31/12/N0.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **31/12/N0 — Twee journaalposten: (a) overboeking naar dubieuze + (b) waardevermindering**
+> > 
+> > *(a) Overboeking volledige vordering (incl. btw) naar dubieuze debiteuren:*
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 407000 | Dubieuze debiteuren | 6.050,00 | |
+> > | aan | 400000 | Handelsdebiteuren | | 6.050,00 |
+> > 
+> > *(b) Waardevermindering 50% op de vordering **exclusief btw***:
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 634000 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar | 2.500,00 | |
+> > | aan | 409000 | Geboekte waardeverminderingen | | 2.500,00 |
+> > 
+> > Berekening waardevermindering: 6.050,00 / 1,21 = 5.000,00 € excl. btw × 50% = **2.500,00 €**. 📖
+> > 
+> > De waardevermindering wordt geboekt op de vordering **exclusief btw** — niet op het bruto-factuurbedrag. De btw blijft op dat ogenblik nog volledig opeisbaar bij de Schatkist; pas bij **definitieve oninbaarheid** (faling, attest curator) kan de btw worden gerecupereerd via 411400. Dit is de standaard CBN-leer: de waardevermindering dekt het *commerciële* verlies (excl. btw), niet de btw-component. 🔗
+> > 
+> > Art. 3:46 KB WVV (waarderingsregels — vorderingen op vermoedelijke realisatiewaarde bij dubieus karakter). Boekingsschema cf. CBN-advies 2011/15 §*Overboeking naar dubieuze debiteuren* + §*Boeking van de waardevermindering*. 📖  
+> > *Bron: Art. 3:46 KB WVV; CBN-advies 2011/15*
+>
+> De klant gaat in faling op 01/09/N+1. De publicatie is verschenen in het Belgisch Staatsblad. De vennootschap ontvangt een attest van de curator dat de vordering oninbaar is. Geef de boeking.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **01/09/N+1 — Faling klant (publicatie BS + attest curator) → vordering definitief uitboeken + btw-regularisatie**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 409000 | Geboekte waardeverminderingen | 2.500,00 | |
+> > | | 411400 | Terug te vorderen btw — regularisaties | 1.050,00 | |
+> > | | 642000 of 647000 | Minderwaarde op realisatie handelsvorderingen / Verlies op schuldvorderingen | 2.500,00 | |
+> > | aan | 407000 | Dubieuze debiteuren | | 6.050,00 |
+> > 
+> > De waardevermindering (409) wordt teruggenomen, de **btw (1.050,00 €) wordt gerecupereerd via 411400** dankzij het attest van de curator, en het resterende verlies excl. btw (5.000,00 − 2.500,00 = 2.500,00 €) komt definitief ten laste van het resultaat. 📖
+> > 
+> > Het **attest van de curator** is de bewijsstukvereiste voor btw-recuperatie bij faillissement — zonder dit attest mag 411400 niet worden gedebiteerd. De keuze tussen rekening **642** (minderwaarde op realisatie handelsvorderingen) en **647** (verlies op schuldvorderingen) is in de praktijk inwisselbaar; sommige scholen kiezen 642 omdat het verlies voortvloeit uit een *realisatie* (uitboeking), andere kiezen 647 als generieke verliesrekening. Beide worden in modelantwoorden aanvaard. 🔗
+> > 
+> > **Art. 77, §1, 7° WBTW**: de btw geheven op een levering wordt teruggegeven ten belope van het passende bedrag wanneer de schuldvordering op de prijs geheel of gedeeltelijk verloren is gegaan — in geval van **faillissement** vanaf het vonnis van faillietverklaring (resp. attest curator dat de vordering oninbaar is). Boekingsschema cf. CBN-advies 2011/15. 📖  
+> > *Bron: Art. 77, §1, 7° WBTW; CBN-advies 2011/15*
+>
+> Stel dat de klant niet in faling gaat, en de vennootschap "De Dijk" toch nog 60% (tot slot van alle rekeningen) van haar vordering ontvangt op 12/12/N+1. Geef de boeking.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **12/12/N+1 — Klant betaalt 60% tot slot van alle rekeningen (geen faling)**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 550000 | Bank | 3.630,00 | |
+> > | | 409000 | Geboekte waardeverminderingen | 2.500,00 | |
+> > | | 411400 | Terug te vorderen btw — regularisaties | 420,00 | |
+> > | aan | 407000 | Dubieuze debiteuren | | 6.050,00 |
+> > | aan | 742000 | Meerwaarden op de realisatie van handelsvorderingen | | 500,00 |
+> > 
+> > **Berekeningen** 🔗:
+> > - Ontvangst bank = 6.050,00 × 60% = **3.630,00 €**
+> > - Definitief verlies = 40% × 5.000,00 excl. btw = 2.000,00 € → btw-regularisatie op dit verlies-deel = 2.000,00 × 21% = **420,00 €**
+> > - Terugneming waardevermindering (409) = volledige 2.500,00 € (boekje wordt afgesloten)
+> > - Werkelijk verlies excl. btw (2.000,00 €) < geraamde waardevermindering (2.500,00 €) → het verschil van **500,00 €** is een terugneming-meerwaarde, geboekt op 742 (Meerwaarden op realisatie handelsvorderingen). 📖
+> > 
+> > De btw-regularisatie (411400) bedraagt hier **420,00 €** — niet 1.050,00 € en niet 0 €. Reden: alleen voor het **definitief oninbaar deel (40%)** mag btw teruggevraagd worden; voor het ontvangen deel (60%) blijft de btw verschuldigd aan de Schatkist (al was die bij de initiële verkoopfactuur al doorgestort). De "tot slot van alle rekeningen"-afspraak (= akkoord met de klant dat het saldo niet meer wordt opgevorderd) maakt de resterende 40% **zeker en vaststaand verloren** — bewijsstuk voor zowel btw-recuperatie als fiscale aftrek van het verlies. 🔗
+> > 
+> > **Art. 77, §1, 7° WBTW** voor btw-regularisatie op het oninbaar verklaarde deel ("tot slot van alle rekeningen" = bewijs van zekere verlies). **Art. 3:46 KB WVV**: bij positieve afwikkeling t.o.v. geraamde waardevermindering wordt het verschil als terugneming geboekt — onder MAR-rekening 742 (Meerwaarden op realisatie handelsvorderingen) of via 6341 (Terugneming waardeverminderingen). 📖  
+> > *Bron: Art. 77, §1, 7° WBTW; Art. 3:46 KB WVV*
+
+<a id="2019-bibf-vra3"></a>
+
+> [!question]- 🆕 Regularisatie vennootschapsbelasting, toewijzing van het resultaat en invulling van het tableau van de resultaatverwerking (VOL 4) bij een verlieslatend boekjaar met tussenkomst van de vennoten
+> *Examen 2019-bibf · PO 1.1*
+>
+> BVBA HAUTEKIET (kleine vennootschap) heeft de volgende situatie:
+> 
+> - Maatschappelijk en volgestort kapitaal: 20.000,00 €
+> - Wettelijke reserve: 250,00 €
+> - Overgedragen winst van het voorbije boekjaar: 4.750,00 €
+> 
+> In de loop van het jaar N werd in totaal voor 5.000,00 € aan voorafbetalingen gedaan. Het jaar N was echter rampzalig en het resultaat vóór belastingen bedraagt -12.000,00 €. Er wordt nochtans geschat dat de totale belasting voor het jaar N 520,00 € zal zijn (door een VAA auto).
+> 
+> De toewijzing van het resultaat is als volgt:
+> - Wettelijke minimale verplichtingen;
+> - De vennoten nemen samen 5.000,00 € aan verliezen ten laste;
+> - Overdracht van het saldo.
+> 
+> **Beginsituatie eigen vermogen en fiscale gegevens BVBA HAUTEKIET — jaar N**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Maatschappelijk en volgestort kapitaal | 20.000 |
+> | Wettelijke reserve | 250 |
+> | Overgedragen winst van het voorbije boekjaar | 4.750 |
+> | Voorafbetalingen jaar N | 5.000 |
+> | Resultaat vóór belastingen jaar N | -12.000 |
+> | Geraamde totale belasting jaar N (VAA auto) | 520 |
+>
+> Geef de boekhoudkundige verwerking van de regularisatie van de belastingen op het resultaat van het boekjaar.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | | 412 | Terug te vorderen belastingen en voorheffingen | 4.480,00 | |
+> > | aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen (-) | | 4.480,00 |
+> > 
+> > Het positief verschil tussen de tijdens het boekjaar gestorte voorafbetalingen (5.000,00 € op rekening 6700) en de geraamde verschuldigde belasting (520,00 €) wordt geactiveerd. 🔗
+> > 
+> > **Bepaling van het over te dragen overschot**:
+> > 
+> > - Voorafbetalingen geboekt op 6700 *Verschuldigde of gestorte belastingen en voorheffingen*: **5.000,00 €** 📖
+> > - Geraamde verschuldigde belasting op het resultaat van het boekjaar (VAA auto): **520,00 €** 📖
+> > - Positief verschil → te activeren op 6701 (creditzijde, mindering van de belastinglast) en op 412 (vordering op fiscus): **5.000,00 − 520,00 = 4.480,00 €** 🔗
+> > 
+> > Netto belastinglast in de resultatenrekening na regularisatie = 6700 (5.000) − 6701 (4.480) = **520,00 €** — gelijk aan de geraamde belasting. 🔗
+> > 
+> > Ondanks het boekhoudkundig verlies van −12.000,00 € blijft er belasting verschuldigd: een VAA auto (verworpen uitgave) creëert een minimum belastbare basis. De voorafbetalingen overschrijden die belastingschuld → 412 *Terug te vorderen belastingen en voorheffingen* (vordering op de fiscus). Het matchingbeginsel en het compensatieverbod verbieden dat het overschot als kost van het lopende boekjaar blijft staan. 🔗
+> > 
+> > CBN-advies 2018/14 — *Boekhoudkundige verwerking van belastingen op het resultaat*: op rekening **6701** wordt het positief verschil geboekt tussen de op 6700 geboekte bedragen (incl. voorafbetalingen) en de geraamde verschuldigde winstbelasting; de tegenpost is rekening **412** *Terug te vorderen belastingen en voorheffingen*. Toepassing van het matchingbeginsel (art. 3:50 KB WVV) en het compensatieverbod. 📖  
+> > *Bron: CBN-advies 2018/14; art. 3:50 KB WVV (matching); MAR rekeningen 412, 6700, 6701*
+>
+> Geef de boekhoudkundige verwerking van de toewijzing van het resultaat.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **(a) Overname overgedragen winst vorig boekjaar**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | | 140 | Overgedragen winst | 4.750,00 | |
+> > | aan | 790 | Overgedragen winst van het vorige boekjaar | | 4.750,00 |
+> > 
+> > **(b) Tussenkomst van de vennoten in het verlies (5.000,00 €)**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | | 416 | Rekening-courant vennoten | 5.000,00 | |
+> > | aan | 794 | Tussenkomst van vennoten in het verlies | | 5.000,00 |
+> > 
+> > **(c) Overdracht van het saldo naar het volgende boekjaar**
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---:|---:|
+> > | | 141 | Overgedragen verlies | 2.770,00 | |
+> > | aan | 793 | Over te dragen verlies | | 2.770,00 |
+> > 
+> > Wettelijke reserve (130) blijft ongewijzigd: bij verlies is er geen verplichte dotatie. 🔗
+> > 
+> > **Cascade resultaatverwerking (klasse 79 + 69)**:
+> > 
+> > | Stap | Bedrag (€) | Toelichting |
+> > |---|---:|---|
+> > | Resultaat na belastingen van het boekjaar (9905) | −12.520,00 | −12.000 vóór belastingen − 520 netto belastinglast 🔗 |
+> > | + Overgedragen winst vorig boekjaar (14P → 790) | +4.750,00 | overboeking van 140 naar 790 📖 |
+> > | **Te bestemmen verlies (9906)** | **−7.770,00** | tussentijds resultaat 🔗 |
+> > | + Tussenkomst van vennoten (794 — credit op R/C 416) | +5.000,00 | aanzuivering door vennoten 📖 |
+> > | Onttrekking aan / toevoeging aan eigen vermogen | 0,00 | wettelijke reserve onveranderd bij verlies 🔗 |
+> > | **Over te dragen verlies (793 → 141)** | **−2.770,00** | saldo, geboekt op 141 🔗 |
+> > 
+> > Wettelijke minimale verplichtingen = enkel de toevoeging aan de wettelijke reserve, en die geldt **uitsluitend bij winst** (art. 7:211 WVV / art. 5:165 WVV); bij verlies hoeft niets te worden aangelegd. 🔗
+> > 
+> > De tussenkomst van de vennoten wordt **niet** geboekt als een toevoeging aan het kapitaal of als een opbrengst van het boekjaar, maar via de specifieke resultaatverwerkingsrekening **794** *Tussenkomst van vennoten in het verlies* met als tegenpost een schuld in rekening-courant (**416**) — niet via 700-omzet en niet via 100-kapitaal. CBN-advies 121/2 onderscheidt drie scenario's; hier past scenario 1: tussenkomst beslist samen met de resultaatverwerking, dus rechtstreeks in code 794 van VOL 4. 📖
+> > 
+> > CBN-advies 121/2 *Verlies gedragen door vennoten of derden*: wanneer de aanzuivering deel uitmaakt van de winstbestemming → rechtstreeks boeken op rekening **794** (credit) met tegenpost rekening-courant **416** (debet). MAR (KB 21.10.2018, Bijlage 1): rekeningen 140/141 (overgedragen winst/verlies), 790/793 (overgedragen winst/over te dragen verlies), 794 (tussenkomst vennoten in het verlies), 416 (R/C vennoten). 📖  
+> > *Bron: CBN-advies 121/2; MAR rekeningen 140, 141, 416, 790, 793, 794; art. 3:90 KB WVV (model VOL 4)*
+>
+> Vervolledig het tableau van de resultaatverwerking (VOL 4).
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **VOL 4 — Resultaatverwerking (bedragen in €)**
+> > 
+> > | Rubriek | Code | Boekjaar |
+> > |---|:---:|---:|
+> > | **Te bestemmen winst (verlies)** | **9906** | **−7.770** |
+> > | &nbsp;&nbsp;Te bestemmen winst (verlies) van het boekjaar | (9905) | −12.520 |
+> > | &nbsp;&nbsp;Overgedragen winst (verlies) van het vorige boekjaar | 14P | 4.750 |
+> > | Onttrekking aan het eigen vermogen | 791/2 | — |
+> > | &nbsp;&nbsp;aan het kapitaal en aan de uitgiftepremies | 791 | — |
+> > | &nbsp;&nbsp;aan de reserves | 792 | — |
+> > | Toevoeging aan het eigen vermogen | 691/2 | — |
+> > | &nbsp;&nbsp;aan het kapitaal en aan de uitgiftepremies | 691 | — |
+> > | &nbsp;&nbsp;aan de wettelijke reserve | 6920 | — |
+> > | &nbsp;&nbsp;aan de overige reserves | 6921 | — |
+> > | **Over te dragen winst (verlies)** | **(14)** | **−2.770** |
+> > | **Tussenkomst van de vennoten in het verlies** | **794** | **5.000** |
+> > | Uit te keren winst | 694/6 | — |
+> > | &nbsp;&nbsp;Vergoeding van het kapitaal | 694 | — |
+> > | &nbsp;&nbsp;Bestuurders of zaakvoerders | 695 | — |
+> > | &nbsp;&nbsp;Andere rechthebbenden | 696 | — |
+> > 
+> > 📖 (gold reference uit het examen-segment) 📖
+> > 
+> > **Sluit-controle van het tableau**:
+> > 
+> > 9906 (te bestemmen) = 9905 + 14P → **−12.520 + 4.750 = −7.770** ✓ 🔗
+> > 
+> > over te dragen = te bestemmen ± mutaties EV − tussenkomst vennoten → **−7.770 − 0 + 5.000 = −2.770** ✓ 🔗
+> > 
+> > Alle lege rubrieken (791/2, 691/2, 694/6) zijn nul: er wordt niets aan het eigen vermogen onttrokken of toegevoegd (de wettelijke reserve is al volstort op 250,00 € en bij verlies is geen dotatie verplicht), en er wordt geen winst uitgekeerd. 🔗
+> > 
+> > Het tableau van de resultaatverwerking is een **spiegel van de klasse 79/69-boekingen** uit deelvraag 2: 9905 = saldo klasse 70-67, 14P = rekening 790, (14) = rekening 793 (met minteken want over te dragen verlies), 794 = rekening 794. De wettelijke reserve (250 €) staat in de balans, niet in VOL 4. 🔗
+> > 
+> > Model VOL 4 *Resultaatverwerking* — onderdeel van het schema voor de jaarrekening van grote en kleine vennootschappen (KB 29.04.2019 tot uitvoering van het WVV, Bijlage). Codes en rubrieken zijn dwingend overgenomen uit het wettelijk schema en mappen één-op-één op de MAR-rekeningen 14, 130, 14P, 691/2, 791/2, 793, 794, 694/6. 📖  
+> > *Bron: KB 29.04.2019 tot uitvoering van het WVV (jaarrekening-schema, Bijlage — model VOL 4)*
 
 <a id="2015-1-vr1"></a>
 

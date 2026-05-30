@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb1",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Waarderingsprincipes bij continuïteit vs discontinuïteit, dividenduitkering en toelichtingsverplichting bij kleine vennootschap",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": [
+    "going concern",
+    "waarderingsregels",
+    "discontinuïteit",
+    "maximaal uitkeerbaar dividend",
+    "gecorrigeerd netto-actief",
+    "onbeschikbaar eigen vermogen",
+    "toelichting bij de jaarrekening",
+    "kleine vennootschap"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De BVBA \"Happy Socks\", kleine vennootschap (art. 15 §1), maakt de jaarrekening (boekjaar = kalenderjaar) op om voor te leggen aan de leden van de Algemene Vergadering. Bij het opstellen van haar jaarrekening wijst niets erop dat er een feitelijke toestand ontstaat waaruit kan worden afgeleid dat de onderneming discontinu zal worden."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Volgens welk principe worden de activa en passiva gewaardeerd in de jaarrekening?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Happy Socks wil een dividend uitkeren: hoe wordt het maximaal uitkeerbaar bedrag bepaald? Geef de toepasselijke wettelijke bepaling.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "3",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "In geval van discontinuïteit, hoe worden de waarderingsregels aangepast? Geef tevens de wettelijke bron.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "4",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Wanneer moeten de niet-genoteerde kleine vennootschappen de verantwoording van de toepassing van de waarderingsregels in de veronderstelling van continuïteit vermelden in de toelichting bij de jaarrekening? Geef tevens de wettelijke bepaling.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier deelvragen overgenomen zoals visueel genummerd 1-4 in de PDF (sectie B.1, /6 punten). Alle vier zijn open vragen die telkens een korte beschrijving + wettelijke bepaling vragen (1 pt, 1 pt, 2 pt, 2 pt). Geclassificeerd als 'open' met motivatie_verwacht=false: de vraag vraagt niet om motivering van een standpunt maar om feitelijke kennis van regel + wetsartikel — de antwoord-vorm (regel uitleggen + artikel citeren) is inherent aan de open vraagstelling en wordt in het antwoord-artefact behandeld, niet via motivatie_verwacht. Modelantwoorden ('Antwoord – X punt'-blokken met art. 28 §1 derde lid KB/W.Venn., art. 320 §1 W.Venn., art. 28 §2 derde lid KB/W.Venn. en art. 96 §1 6° W.Venn.) zijn bewust NIET in de interpretatie opgenomen — die dienen als gold reference voor latere scoring. OCR-typo 'dicontinuïteit' (vraag 3) genormaliseerd naar 'discontinuïteit'. Tekst bevatte verder geen significante OCR-artefacten op niveau van de vraagstelling.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

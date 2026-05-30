@@ -1,0 +1,128 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre4",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De bevoegde **Kamer** (uitvoerende kamer) van het BIBF — de instantie belast met de controle op de naleving van de plichtenleer. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 10 § 1 Reglement van Plichtenleer (bijlage bij KB 18 juli 2017): *\"De externe boekhouder BIBF dient de Kamer in te lichten over de professionele samenwerkingsverbanden ...\"* 📖",
+          "wetsref": "Art. 10 § 1 Reglement van Plichtenleer (bijlage KB 18.07.2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Per brief of via e-mail**, gericht aan de zetel van het Instituut. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij de brief/e-mail moet een **kopie van de samenwerkingsovereenkomst** worden gevoegd (of, bij mondeling akkoord, een uitvoerige beschrijving van voorwerp en partijen). Gaat het om een samenwerking via rechtspersoon, dan moeten ook de statuten, benoemingen en aandeelhoudersstructuur worden meegedeeld. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 10 § 3-§ 5 Reglement van Plichtenleer (bijlage KB 18.07.2017): kennisgeving \"per brief of via mail gericht aan de zetel van het Instituut\", met de samenwerkingsovereenkomst (§ 4) en bij rechtspersoon ook statuten en bestuursgegevens (§ 5) als bijlage. 📖",
+          "wetsref": "Art. 10 § 3-§ 5 Reglement van Plichtenleer (bijlage KB 18.07.2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ten laatste één maand** na het sluiten van het samenwerkingsverband. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Dezelfde termijn van één maand geldt ook voor **elke latere wijziging** van het samenwerkingsverband (art. 10 § 3) en voor de actualisering van de lijst van zaakvoerders, bestuurders en vennoten bij elke benoeming of wijziging (art. 10 § 6). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 10 § 3 Reglement van Plichtenleer (bijlage KB 18.07.2017): *\"Ten laatste één maand na het sluiten van een samenwerkingsverband licht de externe boekhouder BIBF de Kamer in over zijn samenwerkingsverband en/of elke wijziging ervan ...\"* 📖",
+          "wetsref": "Art. 10 § 3 Reglement van Plichtenleer (bijlage KB 18.07.2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Artikel 10 van het Reglement van Plichtenleer**, opgenomen als bijlage bij het **KB van 18 juli 2017** tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Sinds de fusie BIBF + IAB → **ITAA** (wet 17.03.2019) blijft het KB van 18.07.2017 als plichtenlerencorpus van toepassing op ex-BIBF-leden binnen het ITAA, in afwachting van een geünificeerd ITAA-deontologisch reglement. De casus speelt zich af in 2019 onder de BIBF-regels — dit KB is dus rechtstreeks toepasselijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten — bijlage, art. 10 (meldingsplicht samenwerkingsverbanden). 📖",
+          "wetsref": "Art. 10 Reglement van Plichtenleer (bijlage KB 18.07.2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

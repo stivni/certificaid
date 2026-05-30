@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd1",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Kruispuntbank van Ondernemingen (KBO) — consultatie, vermeldingen en wijzigingen",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "KBO",
+    "Kruispuntbank van Ondernemingen",
+    "KBO Public Search",
+    "vestigingseenheid",
+    "ondernemingsloket",
+    "economische activiteit",
+    "organisatie boekhoudkundige diensten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sectie D. Organisatie van de boekhouding en de administratieve diensten van de onderneming (……/5). Vraag D.1 (……/1): Duidt aan of volgende stellingen juist of fout zijn. 0,25 punt per goed antwoord."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "s1",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Je kan volledig gratis de vestigingseenheid van je klant consulteren bij KBO Public Search.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s2",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het domicilieadres van een natuurlijk persoon ondernemer staat nooit in de KBO vermeld.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s3",
+      "label_in_pdf": "3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een boekhouder kan zonder probleem voor al zijn klanten het adres van de vestigingseenheid wijzigen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s4",
+      "label_in_pdf": "4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De wijziging en/of toevoeging van een economische activiteit kan enkel via een ondernemingsloket gebeuren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag D.1 van 4 mei 2019 met 4 juist/fout-stellingen over de KBO. De PDF toont zowel de stellingen als de modelantwoorden (X-markeringen in JUIST/FOUT-kolommen) plus een correctie-opmerking voor stelling 2. Conform de prompt worden gold-antwoorden NIET in het interpretatie-artefact opgenomen — die horen thuis in een apart antwoord-artefact. Stellingen zijn als 4 aparte deelvragen met vraagtype juist_fout gemodelleerd (één stelling per deelvraag, conform §3 schema-tabel). De stellingen zijn niet expliciet genummerd in de PDF-tabel maar volgen wel een vaste rij-volgorde; ids s1–s4 toegekend, label_in_pdf reflecteert de positionele nummering (1-4) die de PDF zelf gebruikt in de opmerking ('Opmerking voor 2'). Vraag D.2 is een aparte vraag-eenheid (eigen vraag_id vrd2) en valt buiten dit segment. Geen OCR-typo's; tabel-tekst klopt met PNG.",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar"
+  ]
+}

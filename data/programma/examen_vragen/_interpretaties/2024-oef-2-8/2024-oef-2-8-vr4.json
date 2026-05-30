@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr4",
+  "interpretatie_datum": "2026-05-30T12:35:58Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vaste inrichting — steengroeve en uitbatingsduur (OESO-Modelovereenkomst art. 5)",
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
+  "themas": [
+    "vaste inrichting",
+    "steengroeve",
+    "OESO-Modelovereenkomst",
+    "internationaal fiscaal recht",
+    "uitbatingsduur"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan maanden overschrijdt.",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Stelling 4 uit de oefenset \"Europees en internationaal fiscaal recht\". De stelling moet juist/niet-waar beoordeeld worden. In zowel de PDF (PNG-waarheid) als de pdfplumber-tekst ontbreekt het aantal maanden tussen \"ervan\" en \"maanden overschrijdt\" — dit is geen OCR-artefact maar een feitelijke leemte in het bronmateriaal (mogelijk een typo in de oorspronkelijke ITAA-oefenset). Daarom volledigheid=fragment: de vraagstelling staat er, maar de drempel-getalwaarde die nodig is om de stelling juist/onjuist te beoordelen ontbreekt. De stelling wordt niet aangevuld of verzonnen (§4.2 / §7). Geen motivatie-instructie zichtbaar; ITAA-patroon \"WAAR OF NIET WAAR\" zonder \"motiveer\" → motivatie_verwacht=false.",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
+}

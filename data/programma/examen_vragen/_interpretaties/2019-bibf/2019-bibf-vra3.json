@@ -1,0 +1,67 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra3",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Regularisatie vennootschapsbelasting, toewijzing van het resultaat en invulling van het tableau van de resultaatverwerking (VOL 4) bij een verlieslatend boekjaar met tussenkomst van de vennoten",
+  "programmaonderdeel_ids": ["1.1"],
+  "themas": [
+    "resultaatverwerking",
+    "vennootschapsbelasting",
+    "voorafbetalingen",
+    "geactiveerde overschotten",
+    "toewijzing van het resultaat",
+    "tussenkomst vennoten in verlies",
+    "overgedragen verlies",
+    "jaarrekening VOL 4"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "BVBA HAUTEKIET (kleine vennootschap) heeft de volgende situatie:\n\n- Maatschappelijk en volgestort kapitaal: 20.000,00 €\n- Wettelijke reserve: 250,00 €\n- Overgedragen winst van het voorbije boekjaar: 4.750,00 €\n\nIn de loop van het jaar N werd in totaal voor 5.000,00 € aan voorafbetalingen gedaan. Het jaar N was echter rampzalig en het resultaat vóór belastingen bedraagt -12.000,00 €. Er wordt nochtans geschat dat de totale belasting voor het jaar N 520,00 € zal zijn (door een VAA auto).\n\nDe toewijzing van het resultaat is als volgt:\n- Wettelijke minimale verplichtingen;\n- De vennoten nemen samen 5.000,00 € aan verliezen ten laste;\n- Overdracht van het saldo."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Beginsituatie eigen vermogen en fiscale gegevens BVBA HAUTEKIET — jaar N",
+      "rijen": [
+        { "label": "Maatschappelijk en volgestort kapitaal", "bedrag": 20000 },
+        { "label": "Wettelijke reserve", "bedrag": 250 },
+        { "label": "Overgedragen winst van het voorbije boekjaar", "bedrag": 4750 },
+        { "label": "Voorafbetalingen jaar N", "bedrag": 5000 },
+        { "label": "Resultaat vóór belastingen jaar N", "bedrag": -12000 },
+        { "label": "Geraamde totale belasting jaar N (VAA auto)", "bedrag": 520 }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boekhoudkundige verwerking van de regularisatie van de belastingen op het resultaat van het boekjaar.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boekhoudkundige verwerking van de toewijzing van het resultaat.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "3",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Vervolledig het tableau van de resultaatverwerking (VOL 4).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag van 4 mei 2019, sectie A.3 (5 punten) onder 'A. Algemene boekhouding'. De PDF bevat na elke deelvraag de modelantwoorden (boekingen voor deelvragen 1 en 2, en een ingevulde VOL 4-resultaatverwerking voor deelvraag 3); deze modelantwoorden zijn bewust niet opgenomen in de interpretatie — ze horen in het aparte antwoord-artefact als gold reference. De casus-context (gegevens + toewijzingsregels) is samengevoegd in één casus_context-blok met blanco regels tussen de drie logische blokken (eigen vermogen / fiscale situatie / toewijzingsregels) volgens §4.4bis, zonder labels op te leggen. De numerieke beginsituatie is bovendien als gegevens_tabel gestructureerd om de bedragen machine-leesbaar te maken. Klassificatie naar programmaonderdeel 1.1 (Algemene boekhouding — boekingen vennootschapsbelasting, resultaatverwerking en jaarrekeningstaten), conform de sectie-aanduiding 'A. Algemene boekhouding' in de PDF. Het VOL 4-formulier op p. 11 is niet als gegevens_tabel opgenomen omdat het bij deelvraag 3 hoort als invulopdracht (de leeg in te vullen staat) en niet als gegeven; de inhoud ervan zit in het antwoord-artefact.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

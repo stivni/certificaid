@@ -1,0 +1,161 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrh1",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Verworpen uitgaven in de aangifte vennootschapsbelasting — kwalificatie per situatie (JA/NEEN), bedrag van de V.U. en toepasselijke code",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "verworpen uitgaven",
+    "vennootschapsbelasting",
+    "aangifte VenB",
+    "niet-aftrekbare belastingen",
+    "geldboeten",
+    "receptiekosten en relatiegeschenken",
+    "restaurantkosten",
+    "sociale voordelen"
+  ],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag H.1 (BIBF Praktisch Bekwaamheidsexamen 4 mei 2019, sectie H. Vennootschapsbelasting — /5 punten; 0,5 punt per correct antwoord).\n\nOpdracht in twee stappen voor elke van de 10 hierna beschreven situaties:\n1. Duid aan of er al dan niet verworpen uitgaven (V.U.) zijn, met JA of NEEN.\n2. Indien JA: vermeld het bedrag van de V.U. alsook de toepasselijke code (overeenkomstig de codes 1201–1240 van de aangifte vennootschapsbelasting; zie referentie-tabel)."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Referentie — Verworpen uitgaven (codes en omschrijvingen uit de aangifte VenB, p. 38)",
+      "rijen": [
+        { "label": "1201 — Niet-aftrekbare belastingen", "bedrag": null },
+        { "label": "1202 — Gewestelijke belastingen, heffingen en retributies", "bedrag": null },
+        { "label": "1203 — Geldboeten, verbeurdverklaringen en straffen van alle aard", "bedrag": null },
+        { "label": "1204 — Niet-aftrekbare pensioenen, kapitalen, werkgeversbijdragen en -premies", "bedrag": null },
+        { "label": "1205 — Niet-aftrekbare autokosten en minderwaarden op autovoertuigen", "bedrag": null },
+        { "label": "1206 — Autokosten ten belope van een gedeelte van het voordeel van alle aard", "bedrag": null },
+        { "label": "1207 — Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken", "bedrag": null },
+        { "label": "1208 — Niet-aftrekbare restaurantkosten", "bedrag": null },
+        { "label": "1209 — Kosten voor niet-specifieke beroepskledij", "bedrag": null },
+        { "label": "1210 — Overdreven interesten", "bedrag": null },
+        { "label": "1211 — Interesten met betrekking tot een gedeelte van bepaalde leningen", "bedrag": null },
+        { "label": "1212 — Abnormale of goedgunstige voordelen", "bedrag": null },
+        { "label": "1214 — Sociale voordelen", "bedrag": null },
+        { "label": "1215 — Voordelen uit maaltijd-, sport-, cultuur- of ecocheques", "bedrag": null },
+        { "label": "1216 — Liberaliteiten", "bedrag": null },
+        { "label": "1217 — Waardeverminderingen en minderwaarden op aandelen", "bedrag": null },
+        { "label": "1218 — Terugnemingen van vroegere vrijstellingen", "bedrag": null },
+        { "label": "1219 — Werknemersparticipatie", "bedrag": null },
+        { "label": "1220 — Vergoedingen ontbrekende coupon", "bedrag": null },
+        { "label": "1232 — Kosten tax shelter erkende werken", "bedrag": null },
+        { "label": "1222 — Gewestelijke premies en kapitaal- en interestsubsidies", "bedrag": null },
+        { "label": "1223 — Niet-aftrekbare betalingen naar bepaalde Staten", "bedrag": null },
+        { "label": "1225 — Niet-verantwoorde kosten", "bedrag": null },
+        { "label": "1230 — Terugneming van aftrek voor innovatie-inkomsten in geval van spreiding van de historische kosten", "bedrag": null },
+        { "label": "1231 — Terugneming van aftrek voor innovatie-inkomsten ingevolge niet-herbelegging in kwalificerende uitgaven", "bedrag": null },
+        { "label": "1226 — Positieve correcties Diamant Stelsel: positief verschil forfaitair vs. boekhoudkundig vastgestelde brutowinst", "bedrag": null },
+        { "label": "1227 — Positieve correcties Diamant Stelsel: niet-aftrekbare waardeverminderingen op voorraden en niet-aftrekbare kosten", "bedrag": null },
+        { "label": "1228 — Positieve correcties Diamant Stelsel: positief verschil referentiebezoldiging bedrijfsleider vs. hoogste bedrijfsleidersbezoldiging", "bedrag": null },
+        { "label": "1229 — Positieve correcties Diamant Stelsel: correctie in functie van minimumbedrag netto belastbaar inkomen uit diamanthandel", "bedrag": null },
+        { "label": "1239 — Andere verworpen uitgaven", "bedrag": null },
+        { "label": "1240 — Verworpen uitgaven (totaal)", "bedrag": null }
+      ]
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "s1",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De vennootschap heeft in de loop van het jaar een bedrag van 15.000,00 € aan voorafbetalingen geboekt. De vennootschap heeft de totaal verwachte belasting geschat op 20.000,00 €. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s2",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De BTW-administratie heeft aan de vennootschap een proportionele geldboete van 300,00 € opgelegd wegens laattijdige betaling van de BTW. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s3",
+      "label_in_pdf": "3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De BTW-administratie heeft aan de vennootschap een niet-proportionele geldboete van 500,00 € opgelegd wegens laattijdige aangifte-indiening van de periodieke aangiftes. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s4",
+      "label_in_pdf": "4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Kosten, ten bedrage van 400,00 €, betreffende dranken (water, koffie, …) die tijdens de werkuren gratis verdeeld worden aan het personeel. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s5",
+      "label_in_pdf": "5",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Kosten, ten bedrage van 700,00 €, betreffende dranken (water, koffie, …) die dagelijks aangeboden worden aan de klanten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s6",
+      "label_in_pdf": "6",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De vennootschap heeft 1.050,00 € onroerende voorheffing betaald betreffende een haar toebehorend gebouw (KI niet-geïndexeerd: 1.000,00 € — KI geïndexeerd: 1.750,00 €). — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s7",
+      "label_in_pdf": "7",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De vennootschap heeft 124,90 € betaald als kost voor de neerlegging van de jaarrekening, alsook een bijdrage van 120,00 € wegens laattijdige neerlegging. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s8",
+      "label_in_pdf": "8",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In de resultatenrekening vinden we de kosten betreffende diverse beroepsmatige seminaries. Het totaal van de kosten bedraagt 2.500,00 €, waarvan 500,00 € restaurantkosten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s9",
+      "label_in_pdf": "9",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "In de resultatenrekening van de vennootschap treffen we een bedrag van 400,00 €, zijnde de kosten i.v.m. de aankoop van gepersonaliseerde (vermelding naam vennootschap) stylo's, bestemd om uitgedeeld te worden aan de klanten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s10",
+      "label_in_pdf": "10",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De vennootschap heeft aan een aantal goede klanten een doos pralines gegeven. In de kostenrekening vinden we hiervoor een bedrag van 500,00 € terug (kostprijs van 20 dozen pralines). — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "alle",
+    "tekst": "De PDF bevat de ingevulde modelantwoorden in de kolommen 'JA/NEEN', 'Bedrag V.U.' en 'Code': s1 = JA / 20.000,00 € / 1201; s2 = NEEN; s3 = JA / 500,00 € / 1203; s4 = NEEN; s5 = JA / 350,00 € / 1207; s6 = NEEN; s7 = NEEN; s8 = JA / 155,00 € / 1208; s9 = NEEN; s10 = JA / 250,00 € / 1207.",
+    "vermoedelijke_status": "officiële modeloplossing in PDF (per meta.karakter: 'PDF bevat modelantwoorden — gebruik die in segmenten als gold reference')"
+  },
+
+  "herinterpretatie_motivering": "PDF bevat één tabel met 10 genummerde situaties + 4 antwoord-kolommen (JA / NEEN / Bedrag V.U. / Code) en op p. 38 de referentie-tabel met codes 1201-1240 uit de aangifte VenB. Elke genummerde situatie heromschreven tot zelfstandige juist_fout-stelling (vraagstelling = de feitelijke situatie + de gestandaardiseerde dubbele vraag 'V.U.? + bedrag + code', conform de algemene instructie bovenaan p. 36). Tien deelvragen (s1-s10) zonder verlies van inhoud, met motivatie_verwacht=true (bedrag + code zijn de motivering bij een JA-antwoord). De ingevulde X-markeringen + bedragen + codes in de PDF zijn modelantwoorden (zoals expliciet vermeld in meta.karakter), niet de vraag zelf: ze zijn uit de stellingen geweerd en samengevat in 'antwoord_hint_in_vraag' (één geconsolideerde hint die alle 10 deelvragen dekt). De referentie-tabel verworpen uitgaven (codes 1201-1240 met omschrijvingen) staat als gegevens_tabel in context_blokken, leesbaar herordend uit de OCR. OCR-typo's gecorrigeerd: '400,00,€' → '400,00 €', '700,00,€' → '700,00 €', '2.500,00 ,€' → '2.500,00 €', 'i.vm.' → 'i.v.m.', 'verwachtte' → 'verwachte', '124,90€/120,00€/1.050,00€/400,00€/500,00€' → spatie + euroteken.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd",
+    "tabel_in_pdf_zichtbaar",
+    "antwoord_hint_aanwezig"
+  ]
+}

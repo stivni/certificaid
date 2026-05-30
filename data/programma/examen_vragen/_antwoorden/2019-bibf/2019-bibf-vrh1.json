@@ -1,0 +1,360 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrh1",
+  "antwoord_datum": "2026-05-30T12:51:01Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "s1",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — V.U. **20.000,00 €** — code **1201**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "De geraamde belastingschuld (20.000,00 €) — het bedrag dat boekhoudkundig als belastingkost werd opgenomen — is integraal een niet-aftrekbare belasting. De 15.000,00 € voorafbetalingen zijn slechts een betalingsmodaliteit, geen aparte kost: ze zitten reeds in die 20.000,00 € vervat. De V.U. is dus **20.000,00 €**, niet 15.000,00 € en niet het saldo van 5.000,00 €. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 198, §1, 1° WIB 92: de vennootschapsbelasting en de in mindering daarvan gestorte sommen (voorafbetalingen) zijn niet aftrekbaar. Code **1201** van de aangifte VenB groepeert de VenB, de voorafbetalingen en het op niet-aftrekbare belastingen betrekking hebbende gedeelte van de geraamde belastingschulden. 📖",
+          "wetsref": "Art. 198, §1, 1° WIB 92 — code 1201 aangifte VenB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — geen V.U. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een **proportionele** BTW-geldboete (KB nr. 41) is gekoppeld aan de verschuldigde belasting en wordt fiscaal beschouwd als een **bijkomende belastingverhoging**, niet als een geldboete in de zin van art. 53, 6° WIB 92. Zij volgt het regime van de onderliggende BTW: als die BTW een aftrekbare beroepskost is, is ook de proportionele boete aftrekbaar. Geen verwerping. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De scheidslijn loopt niet \"BTW-boete = altijd VU\" maar **proportioneel vs. niet-proportioneel**. Proportionele boete (KB nr. 41) = aftrekbaar. Niet-proportionele boete (KB nr. 44, vaste bedragen) = niet aftrekbaar onder code 1203 — zie deelvraag 3. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 6° WIB 92 viseert \"geldboeten, met inbegrip van transactionele geldboeten, verbeurdverklaringen en straffen van alle aard\". Administratief en parlementair vastgestelde doctrine: proportionele BTW-boeten (KB nr. 41 van 30 januari 1987) hebben het karakter van een belastingverhoging en delen het lot van de hoofdsom. 🔗",
+          "wetsref": "Art. 53, 6° WIB 92 — KB nr. 41 van 30.01.1987 (proportionele BTW-boeten)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — V.U. **500,00 €** — code **1203**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een **niet-proportionele** BTW-geldboete (KB nr. 44 van 9 juli 2012, vaste bedragen voor formele overtredingen zoals laattijdige aangifte-indiening) is een straf, niet een bijkomende belasting. Zij valt integraal onder de niet-aftrekbare geldboeten van art. 53, 6° WIB 92 en wordt verworpen onder code **1203**. Volledige bedrag = 500,00 €. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 6° WIB 92: geldboeten, verbeurdverklaringen en straffen van alle aard zijn niet als beroepskosten aftrekbaar. KB nr. 44 van 09.07.2012 vermeldt het tarief van de niet-proportionele BTW-geldboeten (art. 70, §4 WBTW). Aangifte VenB code **1203** — \"Geldboeten, verbeurdverklaringen en straffen van alle aard\". 📖",
+          "wetsref": "Art. 53, 6° WIB 92 — KB nr. 44 van 09.07.2012 — code 1203 aangifte VenB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — geen V.U. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Gratis dranken (water, koffie, …) die tijdens de werkuren collectief aan het personeel ter beschikking worden gesteld, zijn **collectieve sociale voordelen**: ze zijn niet individualiseerbaar en niet bedoeld als bezoldiging. In hoofde van het personeel zijn ze vrijgesteld als sociaal voordeel (art. 38, §1, 11° WIB 92); in hoofde van de vennootschap blijven ze toch **volledig aftrekbaar** als beroepskost — een uitdrukkelijke uitzondering op art. 53, 14° WIB 92. Geen verwerping. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 38, §1, 11° WIB 92 vrijgesteld in PB; art. 53, 14° WIB 92 (basisregel: sociale voordelen niet-aftrekbaar) met **uitzondering** voor o.a. dranken die collectief tijdens de werkuren worden verstrekt — uitdrukkelijk vermeld in de tweede lid van art. 53, 14°. Volledige aftrek blijft. 🔗",
+          "wetsref": "Art. 38, §1, 11° + art. 53, 14° WIB 92 (uitzondering collectieve dranken)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — V.U. **350,00 €** — code **1207**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Dranken die aan **klanten** worden aangeboden zijn **receptiekosten** in de zin van art. 53, 8° WIB 92 — niet langer een sociaal voordeel voor het personeel maar onthaal/representatie van derden. Slechts 50 % is aftrekbaar; **50 % is verworpen uitgave**.\n\n| Bedrag | Berekening | V.U. |\n|---|---|---|\n| 700,00 € | 700,00 × 50 % | **350,00 €** | 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 8° WIB 92: receptiekosten en kosten voor relatiegeschenken zijn voor 50 % niet aftrekbaar (sinds aj. 2005). Aangifte VenB code **1207** — \"Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken — 50 % van receptiekosten\". 📖",
+          "wetsref": "Art. 53, 8° WIB 92 — code 1207 aangifte VenB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — geen V.U. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De **onroerende voorheffing** op een beroepsmatig gebruikt gebouw is een gewestelijke belasting die in de vennootschapsbelasting **volledig aftrekbaar** is als beroepskost. Het is geen niet-aftrekbare belasting in de zin van art. 198, §1, 1° WIB 92 (dat enkel de VenB en aanverwante federale heffingen viseert). De gegevens over het KI (geïndexeerd/niet-geïndexeerd) zijn hier irrelevant — die spelen alleen bij de bepaling van het belastbaar onroerend inkomen, niet bij de aftrekbaarheid van de werkelijk betaalde OV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 49 WIB 92 (algemene aftrekbaarheid beroepskosten) — de OV op een onroerend goed dat voor de beroepswerkzaamheid wordt gebruikt is aftrekbaar. Niet getroffen door art. 198, §1, 1° WIB 92 (federale VenB). 🔗",
+          "wetsref": "Art. 49 + art. 198, §1, 1° (a contrario) WIB 92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — geen V.U. (noch de neerleggingskost van 124,90 €, noch de bijdrage van 120,00 € wegens laattijdige neerlegging). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De **publicatiekost** bij de NBB voor neerlegging van de jaarrekening is een gewone beroepskost (art. 49 WIB 92). De **bijdrage wegens laattijdige neerlegging** (art. 3:13 KB WVV) is **geen straf of geldboete in de zin van art. 53, 6° WIB 92** maar een door de Koning opgelegde administratieve **bijdrage in de kosten van de opsporing en controle** door de NBB. Vaste fiscale doctrine: deze bijdrage is aftrekbaar — ze kwalificeert noch als belasting in art. 198, §1, 1°, noch als geldboete in art. 53, 6°. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met een **administratieve geldboete** van de FOD Economie of een **belastingverhoging**: die zouden wél onder code 1203 vallen. De NBB-laattijdigheidsbijdrage heeft een eigen wettelijke grondslag (Wb. Venn./WVV) en draagt expliciet het etiket \"bijdrage\", niet \"boete\". 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 49 WIB 92 (algemene aftrekbaarheid); art. 53, 6° WIB 92 (a contrario — geen boete in de zin van die bepaling); art. 3:13 KB WVV (laattijdigheidsbijdrage NBB). 🔗",
+          "wetsref": "Art. 49 + art. 53, 6° (a contrario) WIB 92 — art. 3:13 KB WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — V.U. **155,00 €** — code **1208**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Enkel de restaurantkosten binnen het seminarie-pakket worden door de 31 %-niet-aftrekbaarheid getroffen; de overige 2.000,00 € seminariekosten zijn integraal aftrekbaar.\n\n| Component | Bedrag | Niet-aftrekbaar | V.U. |\n|---|---|---|---|\n| Restaurantkosten | 500,00 € | 31 % | **155,00 €** |\n| Overige seminariekosten | 2.000,00 € | 0 % | 0,00 € |\n| **Totaal V.U.** |  |  | **155,00 €** | 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 8°bis WIB 92: restaurantkosten zijn voor 31 % niet aftrekbaar (de aftrekbeperking geldt ongeacht of de restaurantkost binnen een ruimer beroepskostenpakket — zoals een seminarie — wordt gemaakt). Aangifte VenB code **1208** — \"Niet-aftrekbare restaurantkosten — 31 %\". 📖",
+          "wetsref": "Art. 53, 8°bis WIB 92 — code 1208 aangifte VenB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — geen V.U. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Gepersonaliseerde stylo's met de naam van de vennootschap**, in grote oplage uitgedeeld aan klanten, kwalificeren niet als **relatiegeschenken** (art. 53, 8° WIB 92) maar als **publiciteits-/reclameartikelen**: ze hebben een opvallend en blijvend reclame-karakter, een geringe eenheidswaarde en worden op grote schaal verspreid. Administratieve tolerantie (Comm.I.B. 53/152) stelt deze kosten gelijk met reclamekosten — **volledig aftrekbaar**, geen 50 %-beperking, geen V.U. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het cruciale onderscheid in deelvraag 9 vs. 10 is **publiciteitsartikel vs. relatiegeschenk**: stylo's met logo (geringe eenheidswaarde + reclamefunctie) ≠ pralines (luxegeschenk zonder reclamefunctie). De pralines uit deelvraag 10 zijn wél 50 % verworpen onder code 1207. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 49 WIB 92 (volledige aftrek reclamekosten); art. 53, 8° WIB 92 (a contrario — geen relatiegeschenk wegens reclame-karakter en geringe waarde). Vaste administratieve doctrine — Comm.I.B. 53/152. 🔗",
+          "wetsref": "Art. 49 + art. 53, 8° (a contrario) WIB 92 — Comm.I.B. 53/152",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — V.U. **250,00 €** — code **1207**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Een doos pralines aan klanten is een typisch **relatiegeschenk**: luxeproduct, beperkte oplage, geen blijvende reclamefunctie. Volledig onder art. 53, 8° WIB 92 → 50 % niet-aftrekbaar.\n\n| Bedrag | Berekening | V.U. |\n|---|---|---|\n| 500,00 € (20 dozen) | 500,00 × 50 % | **250,00 €** | 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 8° WIB 92 — 50 %-aftrekbeperking voor kosten van relatiegeschenken. Aangifte VenB code **1207** — \"Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken — 50 %\". 📖",
+          "wetsref": "Art. 53, 8° WIB 92 — code 1207 aangifte VenB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

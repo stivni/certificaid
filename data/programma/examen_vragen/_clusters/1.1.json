@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.1",
-  "gegenereerd_op": "2026-05-29T19:44:48+00:00",
+  "gegenereerd_op": "2026-05-30T12:54:28+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 24,
+  "n_vragen": 27,
   "n_clusters": 0,
-  "n_singletons": 24,
+  "n_singletons": 27,
   "clusters": [],
   "borderline_paren": [],
   "singletons": [
@@ -153,6 +153,24 @@
       "vraag_id": "2015-1-vr7",
       "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr7.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vra1",
+      "vraag_onderwerp": "Verkoop van een materieel vast actief: pro rata afschrijving in jaar van vervreemding, boeking overdracht bij regelmatige vs. niet-regelmatige vervanging, bevoegdheid afschrijvingsplan en plaats in de jaarrekening",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vra1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vra2",
+      "vraag_onderwerp": "Boekhoudkundige verwerking van een dubieuze handelsvordering: opname, waardevermindering, faling met btw-regularisatie en gedeeltelijke recuperatie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vra2.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vra3",
+      "vraag_onderwerp": "Regularisatie vennootschapsbelasting, toewijzing van het resultaat en invulling van het tableau van de resultaatverwerking (VOL 4) bij een verlieslatend boekjaar met tussenkomst van de vennoten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vra3.json"
     }
   ]
 }

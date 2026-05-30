@@ -1,0 +1,61 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre4",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Meldingsplicht samenwerkingsverband tussen erkende externe boekhouders bij de Kamer (plichtenleer)",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "plichtenleer",
+    "samenwerkingsverband",
+    "meldingsplicht",
+    "Kamer",
+    "Reglement van Plichtenleer",
+    "externe boekhouder BIBF"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer Cyriel OPKOPER, erkend extern boekhouder BIBF, werkt samen met mevrouw Shirley VIVENDI, extern boekhouder-fiscalist BIBF."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke instantie moet geïnformeerd worden over dit samenwerkingsverband?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Op welke wijze moet die instantie geïnformeerd worden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Binnen welke termijn moet die instantie geïnformeerd worden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de wettelijke of reglementaire bron.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "PDF bevat zowel de vier deelvragen als de modelantwoorden (De Kamer; per brief of per e-mail; ten laatste één maand na het sluiten van het samenwerkingsverband; art. 10 Reglement van Plichtenleer KB 18.07.2017). Conform meta.json-karakter zijn de modelantwoorden hier weggelaten — die horen in het gold-reference-antwoordartefact, niet in de vraagstelling. Dubbele vraagteken in deelvraag 1 ('??') genormaliseerd naar enkel vraagteken. Deelvraag 4 in PDF mist eindleesteken ('Geeft de wettelijke of reglementaire bron'); 'Geeft' is hier behouden als 'Geef' (imperatief; OCR/typo) en afgesloten met punt — niet als kwaliteits_flag genoteerd omdat het een minimale stijl-normalisatie betreft van een imperatief.",
+  "kwaliteits_flags": ["typo_genormaliseerd", "antwoord_hint_aanwezig"]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr5",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Onroerende inkomsten met bron in de andere staat zijn **niet uitsluitend** in de bronstaat belastbaar — art. 6 §1 OESO-MV gebruikt \"**may be taxed**\" (mogen worden belast), wat een **gedeelde** heffingsbevoegdheid creëert, niet een exclusieve voor de bronstaat. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 6 §1 OESO-MV: *\"Income derived by a resident of a Contracting State from immovable property (...) situated in the other Contracting State **may be taxed** in that other State.\"* 📖 De formulering \"may be taxed\" (≠ \"shall be taxable only\") betekent dat de bronstaat (liggingsstaat) een heffingsrecht krijgt, **zonder** dat het heffingsrecht van de woonstaat verdwijnt. 🔗 De woonstaat behoudt dus ook heffingsbevoegdheid en moet de dubbele belasting wegnemen via art. 23A/23B (vrijstelling of verrekening). 🔗 Voor België als woonstaat geldt in de meeste DBV's vrijstelling met progressievoorbehoud (art. 155 WIB92): het inkomen wordt vrijgesteld, maar telt mee voor de tariefberekening op de andere inkomsten. 🔗 De stelling is dus fout in **twee** opzichten: (1) het woord \"uitsluitend\" is onjuist — heffingsrecht is gedeeld, niet exclusief; (2) zelfs in praktijk is de woonstaat verre van uitgesloten — hij past minstens het progressievoorbehoud toe. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "\"May be taxed in that other State\" ≠ \"shall be taxable only in that other State\". 📖 In de OESO-MV-systematiek betekent \"may be taxed\" altijd **gedeelde** heffingsbevoegdheid (bronstaat krijgt recht erbij); \"shall be taxable only\" betekent **exclusieve** heffingsbevoegdheid (één staat, andere uitgesloten). Art. 6 valt in de eerste categorie — vandaar dat art. 23A/23B nodig zijn om de dubbele belasting in de woonstaat weg te nemen. Klassieke val: het woord \"uitsluitend\" in een stelling over art. 6/7/15 OESO-MV is bijna altijd het signaal dat de stelling fout is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 6 §1 OESO-Modelverdrag** — onroerende inkomsten van een inwoner van staat A uit een goed gelegen in staat B *\"may be taxed in that other State\"*: bronstaat krijgt heffingsrecht, woonstaat behoudt zijn recht. 📖 **Commentaar OESO-MV ad art. 6, §1**: *\"Paragraph 1 gives the right to tax income from immovable property to the State of source (...). This is due to the fact that there is always a very close economic connection between the source of this income and the State of source.\"* — bevestigt het primair (maar niet exclusief) heffingsrecht van de bronstaat. 📖 **Art. 23A/23B OESO-MV** + **art. 155 WIB92**: de woonstaat (België) past vrijstelling met progressievoorbehoud toe. 🔗",
+          "wetsref": "Art. 6 §1 OESO-Modelverdrag; Commentaar OESO-MV ad art. 6; art. 23A/23B OESO-MV; art. 155 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

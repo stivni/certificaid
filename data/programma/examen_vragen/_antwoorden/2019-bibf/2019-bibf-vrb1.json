@@ -1,0 +1,143 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Volgens het **continuïteitsbeginsel** (*going concern*): de activa en passiva worden gewaardeerd in de veronderstelling dat de vennootschap haar bedrijf zal voortzetten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De waarderingsregels steunen op de idee dat ondernemingen in beginsel een onbeperkte levensduur hebben; de onderneming wordt voorgesteld als een dynamische entiteit die haar doelstellingen op lange termijn kan verwezenlijken — niet als een ogenblikkelijk liquidatievermogen. 📖 Voor Happy Socks is dit van toepassing: in de gegevens staat uitdrukkelijk dat niets erop wijst dat de onderneming discontinu zal worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 §1, derde lid KB/W.Venn.: bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de onderneming haar bedrijf zal voortzetten. 📖",
+          "wetsref": "art. 28 §1, derde lid KB/W.Venn.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Maximaal uitkeerbaar bedrag = gecorrigeerd netto-actief − onbeschikbaar eigen vermogen** (nettoactief-test van art. 320 §1 W.Venn. voor de BVBA). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Concreet:\n\n- **Nettoactief** = totaal activa − voorzieningen − schulden. 📖\n- **Correctie** (vermindering): het nog niet afgeschreven bedrag van oprichtings- en uitbreidingskosten en — behoudens uitzondering te motiveren in de toelichting — het nog niet afgeschreven bedrag van de kosten van onderzoek en ontwikkeling. 📖\n- **Onbeschikbaar eigen vermogen** (af te trekken): gestort (of indien hoger, opgevraagd) kapitaal, niet-afgeschreven herwaarderingsmeerwaarden, wettelijke reserves, statutair en andere onbeschikbare reserves (incl. reserve voor eigen aandelen), en kapitaalsubsidies. 📖\n\nGeen uitkering mag plaatsvinden indien het nettoactief daardoor onder dit onbeschikbaar bedrag zou dalen. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-02-winstverdeling-binnen-de-nv.md",
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 320 §1 W.Venn. (BVBA, regime 2019): de nettoactief-test bepaalt het maximaal uitkeerbaar bedrag — geen uitkering als het nettoactief is gedaald of zou dalen onder het bedrag van het gestort (of, indien hoger, opgevraagd) kapitaal vermeerderd met alle reserves die volgens de wet of de statuten niet mogen worden uitgekeerd. 🔗",
+          "wetsref": "art. 320 §1 W.Venn.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-14-jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij discontinuïteit worden de waarderingsregels **dienovereenkomstig aangepast**: waardering verschuift van going-concern-basis naar **vermoedelijke realisatiewaarde** (liquidatie-perspectief). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet geldt in het bijzonder:\n\n- **Oprichtingskosten** worden volledig afgeschreven. 📖\n- Voor **vaste en vlottende activa** worden zo nodig aanvullende afschrijvingen of waardeverminderingen geboekt om de boekwaarde terug te brengen tot de **vermoedelijke realisatiewaarde**. 📖\n- Een **voorziening** wordt gevormd voor de kosten verbonden aan de beëindiging van de werkzaamheden, in het bijzonder voor aan het personeel uit te keren vergoedingen. 📖\n- Bij **gedeeltelijke stopzetting** (sluiting van een bedrijfsonderdeel of vestiging) geldt hetzelfde voor de activa, passiva en verplichtingen die op dat onderdeel betrekking hebben. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De aanpassing wordt geactiveerd door het loutere feit dat het bestuursorgaan vaststelt dat de continuïteit niet langer kan worden verondersteld — niet pas bij een **formele beslissing tot invereffeningstelling**. Een vennootschap in WCO/gerechtelijke reorganisatie blijft daarentegen in principe in continuïteit waarderen zolang er een realistische herstelkans is. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 §2, derde lid KB/W.Venn.: indien de vennootschap — al dan niet ingevolge een beslissing tot invereffeningstelling — besluit haar bedrijf stop te zetten of indien niet meer kan worden uitgegaan van voortzetting, worden de waarderingsregels dienovereenkomstig aangepast (oprichtingskosten volledig afschrijven, aanvullende afschrijvingen/waardeverminderingen tot vermoedelijke realisatiewaarde, voorziening voor beëindigingskosten). 📖",
+          "wetsref": "art. 28 §2, derde lid KB/W.Venn.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De niet-genoteerde kleine vennootschap moet de verantwoording van de toepassing van de waarderingsregels in continuïteit in de **toelichting** opnemen wanneer **(a)** uit de balans een **overgedragen verlies** blijkt, **óf (b)** uit de resultatenrekening **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** blijkt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor **grote** en **genoteerde** vennootschappen moet die verantwoording in het **jaarverslag** worden opgenomen. Omdat een niet-genoteerde kleine vennootschap (zoals Happy Socks, art. 15 §1 W.Venn.) is **vrijgesteld** van het opstellen van een jaarverslag, verhuist de verplichting naar de toelichting bij de jaarrekening. 🔗 De triggers zijn alternatief: één van beide volstaat om de verantwoording verplicht te maken. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 96 §1, 6° W.Venn.: wanneer uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt, moet een verantwoording van de toepassing van de waarderingsregels in continuïteit worden opgenomen — voor niet-genoteerde kleine vennootschappen in de toelichting bij de jaarrekening (i.p.v. in het jaarverslag). 📖",
+          "wetsref": "art. 96 §1, 6° W.Venn.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

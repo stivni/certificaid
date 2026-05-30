@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.5",
-  "gegenereerd_op": "2026-05-29T19:45:57+00:00",
+  "gegenereerd_op": "2026-05-30T12:56:56+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 23,
+  "n_vragen": 25,
   "n_clusters": 2,
-  "n_singletons": 19,
+  "n_singletons": 21,
   "clusters": [
     {
       "cluster_id": "2.5-c1",
@@ -71,6 +71,11 @@
       "van": "2014-1-vr39",
       "naar": "2024-1-vr9D",
       "cosine": 0.7637
+    },
+    {
+      "van": "2019-bibf-vri1",
+      "naar": "2024-1-vr9D",
+      "cosine": 0.7525
     }
   ],
   "singletons": [
@@ -157,6 +162,18 @@
       "vraag_id": "2015-1-vr45",
       "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn inzake btw",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr45.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vri1",
+      "vraag_onderwerp": "Vraag om inlichtingen na Tax-on-web-aangifte: antwoordtermijn, ondertekenaar en gevolgen bij niet-antwoorden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vri1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vri2",
+      "vraag_onderwerp": "Indieningstermijn en uiterste indieningsdatum aangifte vennootschapsbelasting (art. 310 WIB92)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vri2.json"
     },
     {
       "examen_id": "2024-1",

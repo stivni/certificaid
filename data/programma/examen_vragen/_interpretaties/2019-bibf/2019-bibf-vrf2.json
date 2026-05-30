@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrf2",
+  "interpretatie_datum": "2026-05-30T12:44:35Z",
+  "interpretatie_model": "claude-opus-4-7",
+
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-herzieningen bij overgang van de vrijstellingsregeling (art. 56bis WBTW) naar het normale BTW-regime",
+  "programmaonderdeel_ids": ["2.4"],
+  "themas": [
+    "BTW-herziening",
+    "overgang vrijstellingsregeling naar normaal regime",
+    "artikel 56bis WBTW",
+    "bedrijfsmiddelen herzieningstermijn 5 jaar",
+    "personenwagen aftrekbeperking",
+    "fiscale lichte vrachtwagen",
+    "methode 2 en methode 4 art. 45 §1 quinquies WBTW",
+    "stockregularisatie"
+  ],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een BTW-belastingplichtige, natuurlijk persoon, heeft als economische activiteit de fabricatie van onderdelen voor medische apparatuur. Gezien hij in de beginfase nog niet gekend was in deze \"marktniche\", realiseerde hij slechts een kleine omzet, zodat hij onderworpen was aan de \"vrijstellingsregeling\" waarin artikel 56bis voorziet.\n\nSedert einde 2018 is daar verandering in gekomen, in die zin dat hij zeer belangrijke orders heeft ontvangen voor kalenderjaar 2019, waardoor hij vanaf 2019, volgens raming, een grote omzet (+/- 3 miljoen euro) zal realiseren.\n\nOm die reden zal hij vanaf 1 januari 2019 spontaan overgaan naar de normale BTW-regeling, met indiening van maandaangiften."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Investeringen aangekocht in 2017",
+      "rijen": [
+        { "label": "1. Personenwagen — beroepsgebruik 2019 = 40% (methode 2, art. 45 §1 quinquies WBTW); aankoopprijs excl. BTW", "bedrag": 50000 },
+        { "label": "2. Fiscale lichte vrachtwagen (art. 45 §2 tweede lid WBTW) — methode 4 (art. 45 §1 quinquies WBTW), beroepsgebruik 85%; aankoopprijs excl. BTW", "bedrag": 40000 },
+        { "label": "3a. Materieel — Machine 1, aankoopprijs excl. BTW", "bedrag": 10000 },
+        { "label": "3b. Materieel — Machine 2, aankoopprijs excl. BTW", "bedrag": 15000 }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Ter informatie — stock op 31/12/2018",
+      "rijen": [
+        { "label": "Stock wisselstukken en onderdelen (geboekt op 60-rekening), bestemd voor de fabricatie van medische apparatuur — waarde excl. BTW", "bedrag": 3000 }
+      ]
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Bij de vraag is een blanco BTW-aangifteformulier (model 625-N-2017, vakken A t/m N) als bijlage opgenomen (pagina's 32-33 van het examen). Dit dient als referentiekader voor de aangifte-roosters waarin de herzieningen zouden worden opgenomen."
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de regularisaties die dienen te worden verricht bij de voornoemde overgang. Geef de detailberekening voor elke regularisatie.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officieel BIBF Praktisch Bekwaamheidsexamen 4 mei 2019, sectie F.2 (4 punten) onder F. BTW. Eén open deelvraag (genummerd '1.' in de PDF) die zowel de regularisaties als de detailberekening per categorie vraagt — in het antwoordmodel van de PDF gestructureerd in vier blokken (personenwagen, fiscale lichte vrachtwagen, machines, stock), maar in de vraagstelling als één geïntegreerde opdracht geformuleerd. De casus-context is opgesplitst in drie blokken: (1) een verhalende inleiding over de activiteit en de overgang per 01/01/2019, (2) een gegevens_tabel met de vier investeringen uit 2017, (3) een gegevens_tabel met de stock op 31/12/2018. Een vierde blok signaleert dat de blanco BTW-aangifte (pagina's 32-33) als context bij de vraag hoort. Het modelantwoord op pagina 31 is bewust niet opgenomen — dat is gold reference voor het antwoord-artefact, niet voor de vraag-interpretatie. Geen typo's gecorrigeerd; OCR-artefacten in de tekst.txt (dubbele dubbele punten bij Machine 2, ontbrekende spaties) zijn niet relevant voor het reconstrueren van de vraagstelling.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre1",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_opties": ["a", "c", "e", "g", "h", "i"],
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Toegelaten zijn: **a** (syndicus van gebouwen), **c** (begeleiding bij openbare steunmaatregelen), **e** (erkend bemiddelaar), **g** (begeleiding in sociale materies), **h** (opstellen financieel plan) en **i** (vereffenaar van een vennootschap) — allemaal expliciet vermeld in art. 20 van het Reglement van Plichtenleer BIBF. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a · Syndicus van gebouwen** → JUIST. Art. 20, lid 2 staat dit uitdrukkelijk toe, mits afzonderlijke bankrekening per VME, voorafgaande aanmelding bij het BIBF en een aparte BA-verzekering voor de syndicus-activiteit. 📖\n- **b · Verzekeringsmakelaar** → FOUT. Niet vermeld als toegelaten activiteit; commerciële tussenpersoonsfunctie die de onafhankelijkheid (art. 4) en het verbod op commissielonen die de onafhankelijkheid in het gedrang brengen (art. 13 §2) raakt. 🔗\n- **c · Begeleiding bij verkrijgen van publieke steunmaatregelen** → JUIST. Art. 20, lid 1 vermeldt dit expliciet als verenigbare adviesactiviteit. 📖\n- **d · Vastgoedmakelaar** → FOUT. Niet opgenomen in art. 20; bovendien een afzonderlijk gereglementeerd beroep met een eigen onverenigbaarheidsregime (BIV-wet 11 februari 2013). 🔗\n- **e · Erkend bemiddelaar** → JUIST. Bemiddeling (in burgerlijke en handelszaken) is toegelaten als nevenactiviteit conform art. 20 en de algemene adviesopdracht van de boekhouder-fiscalist. 🔗\n- **f · Bankactiviteiten** → FOUT. Niet vermeld; bankactiviteiten vereisen een vergunning van de NBB en zijn onverenigbaar met de onafhankelijke beroepsuitoefening (art. 4). 🔗\n- **g · Begeleiding in sociale materies** → JUIST. Art. 20, lid 1 vermeldt uitdrukkelijk \"externe adviesverlening en begeleiding van ondernemingen onder meer in fiscale, vennootschapsrechtelijke en sociale materies\". 📖\n- **h · Opstellen van een financieel plan** → JUIST. Art. 20, lid 1 noemt dit expliciet (bv. financieel plan bij oprichting BV/NV). 📖\n- **i · Vereffenaar van een vennootschap** → JUIST. Past binnen de bij art. 20 erkende opdrachten en sluit aan bij art. 2:82 WVV, dat de erkende boekhouder-fiscalist uitdrukkelijk als hulppersoon van de vereffenaar erkent. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verzekerings- en vastgoedmakelaar lijken \"verwante\" advieswerkzaamheden, maar zijn beide afzonderlijk gereglementeerde commerciële tussenpersoonsberoepen met eigen toelatingsvoorwaarden — daarom uitgesloten voor de externe boekhouder-fiscalist BIBF. Het criterium is niet \"raakt aan cijfers\", maar of de activiteit de onafhankelijkheid (art. 4) en het verbod op commissielonen (art. 13 §2) in het gedrang brengt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 20 KB 18 juli 2017 tot goedkeuring van het Reglement van Plichtenleer BIBF: \"Naast boekhoudactiviteiten oefent de boekhouder BIBF (...) eveneens alle werkzaamheden uit die verband houden met de externe adviesverlening en begeleiding van ondernemingen onder meer in fiscale, vennootschapsrechtelijke en sociale materies evenals bij het opstellen van het financieel plan en inzake het verkrijgen van openbare steunmaatregelen.\" Lid 2 voegt syndicus van gebouwen toe (met voorwaarden). Onafhankelijkheid: art. 4. Commissieverbod: art. 13 §2. 📖",
+          "wetsref": "Art. 20 KB 18 juli 2017 (Reglement van Plichtenleer BIBF); art. 4 en art. 13 §2 idem",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

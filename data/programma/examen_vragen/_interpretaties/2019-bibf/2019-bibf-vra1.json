@@ -1,0 +1,78 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra1",
+  "interpretatie_datum": "2026-05-30T12:43:09Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Verkoop van een materieel vast actief: pro rata afschrijving in jaar van vervreemding, boeking overdracht bij regelmatige vs. niet-regelmatige vervanging, bevoegdheid afschrijvingsplan en plaats in de jaarrekening",
+  "programmaonderdeel_ids": [
+    "1.1"
+  ],
+  "themas": [
+    "materiële vaste activa",
+    "afschrijvingen",
+    "verkoop vast actief",
+    "minderwaarde realisatie",
+    "regelmatig vervangen activa",
+    "rekening 748",
+    "rekening 641",
+    "rekening 6630",
+    "toelichting jaarrekening"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op 01/07/2018 verkoopt de BVBA TUTTI (waarvan het boekjaar overeenkomt met het kalenderjaar) een machine voor de prijs van 5.000,00 € (excl. BTW). De machine was verworven op 01.01.2014 voor de prijs van 30.000,00 €.\n\nDe afschrijvingen zijn lineair, aan 20% en worden maandelijks toegepast. Deze machines worden regelmatig vervangen."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Algemene instructie deeldomein boekhouding: alle journaalposten moeten een datum en een omschrijving bevatten. De rekeningen moeten, indien mogelijk, minstens uit 3 cijfers bestaan."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boekhoudkundige verwerking van de in 2018 toegepaste afschrijvingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boekhoudkundige verwerking van de overdracht van de oude machine.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boekhoudkundige verwerking van de overdracht wanneer deze machines niet regelmatig worden vervangen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Wie beslist over het afschrijvingspercentage binnen een vennootschap?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "5",
+      "vraagtype": "open",
+      "vraagstelling": "Waar vinden we deze inlichtingen in de balans van de NBB en in toepassing van welk artikel?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (4 mei 2019, sectie A.1, 5 punten) — modelantwoorden staan in de PDF maar horen niet thuis in dit interpretatie-artefact en zijn weggelaten. Vijf genummerde deelvragen (1–5) overgenomen met letter-ids a–e (label_in_pdf behoudt de PDF-nummering). Geen typo's of OCR-artefacten die ingrijpen vereisten — de tekst.txt-extract klopt voor de vraagstellingen. Casus opgesplitst in twee alinea's voor leesbaarheid (verkooptransactie + afschrijvingsregime/replacement-clausule); de zin 'Deze machines worden regelmatig vervangen' is bewust in de gedeelde casus gelaten omdat ze het scharnier vormt tussen deelvraag 2 (regelmatig vervangen → rekening 641) en deelvraag 3 (niet regelmatig vervangen → rekening 6630). Algemene instructie (datum + omschrijving + 3-cijferige rekeningen) als apart casus_context-blok behouden omdat het de antwoordvorm voor alle boekings-deelvragen beïnvloedt. Alle deelvragen vraagtype=open (boekingsvraag of korte open vraag); geen expliciete motiveringsinstructie in de vraagstellingen, dus motivatie_verwacht=false. PO 1.1 (algemene boekhouding) is de enige relevante programmaonderdeel-classificatie.",
+  "kwaliteits_flags": []
+}

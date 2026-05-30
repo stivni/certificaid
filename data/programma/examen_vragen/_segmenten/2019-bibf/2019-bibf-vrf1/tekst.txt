@@ -1,0 +1,110 @@
+III. DEELDOMEIN FISCALITEIT
+……./35
+(inclusief beginselen van registratie- en successierechten )
+F. BTW ……/10
+Tenzij anders aangegeven zijn de vermelde bedragen steeds exclusief BTW
+Vraag F. 1. ……/6
+Gegevens
+1. Een detailhandelaar in huishoud- en audiovisuele toestellen (D) stopt zijn commerciële
+activiteiten en verkoopt in 2019 zijn handelszaak aan zijn zoon en dit voor 320.000,00 .€
+Hij behoudt voor persoonlijk gebruik een nieuwe televisie die werd aangekocht voor 950,00
+€ en te koop was voor 1.200,00 .€
+Vragen
+a. Geef aan in welke roosters van de laatste BTW-aangifte van (D) en welke bedragen er
+moeten worden opgenomen:
+Antwoord – 1 punt
+Roosters Bedragen
+00 320.000,00
+03 950,00
+54 199,50
+Info :
+00 : Overdracht algemeenheid van goederen
+03 : Basis voor de heffing – aankooprijs televisie
+54 : Verschuldigde BTW : : 950,00 x 21% = 199,50
+b. Geef de op deze verrichtingen toepasselijke bepalingen uit het BTW-wetboek :
+Antwoord – 1 punt
+Overdracht handelsfonds : Art. 11 & 18, § 3
+Behouden van de televisie : Art 12 § 1er 5° en Art 33, 1°
+Opmaak van een bijzonder stuk die de onttrekking vaststelt van de televisie
+Uitreiking van een “Certificaat” – toepassing Art 93 undecies, § 3
+NAAM :
+p. 26
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+2. Een algemene bouwaannemer (B), natuurlijk persoon, koopt in Duitsland drie bestelwagens
+(fiscale lichte vrachtwagens). Deze kosten 22.000,00 € per stuk. De drie voertuigen zijn
+bestemd voor beroepsmatig gebruik en één ervan zal voor 20% ook niet beroepsmatig
+gebruikt worden.
+Vraag
+In de BTW-aangifte van (B) : welke roosters en welke bedragen moeten er worden
+ingeschreven voor deze verrichting:
+Antwoord - 2 punten
+Roosters Bedragen
+83 61.600,00
+86 66.000,00
+55 13.860,00
+59 12.936,00
+Info :
+83 : Totaal investering: 22.000,00 + 22.000,00 + (22.000,00 x 80%) = 61.600,00
+86 : Totaal intracommunautaire verwerving. : 22.000,00 x 3 = 66.000,00
+55 : Verlegging : 66.000,00 x 21% = 13.860,00
+59 : Aftrek : 61.600,00 x 21% = 12.936,00
+Variante
+Voor alle fiscale lichte vrachtwagens, methode 4 toepassen.
+Rekening houdend met de bedoeling van de wetgever en ten einde misbruiken te
+voorkomen, wordt de toepassing van het algemeen forfait van 85 %, beperkt tot de
+fiscale lichte vrachtwagens die door de belastingplichtige overwegend worden
+gebruikt in het kader van zijn economische activiteit.
+Besluit
+Methode 4 (85 %) is in dit concreet geval de meest gunstige wettelijke methode.
+Roosters bedragen
+83 62.700
+86 66.000
+55 13.860
+59 13.167
+Referentie
+Circulaire AAFisc Nr. 36/2015 ( beslissing E.T. 119.650, van 23 november 2015.
+NAAM :
+p. 27
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+3. Een BTW-plichtige, natuurlijk persoon, detailhandel in textiel en lederwaren, onderworpen
+aan het normale regime, wenst over te stappen naar het forfaitaire stelsel. Hij voldoet aan alle
+voorwaarden en de overstap zou plaatsvinden op 01 april 2019. Hij gelast u met alle
+boekhoudkundige en administratieve verrichtingen.
+Vraag
+Beschrijf kort welke stappen u zal zetten ?
+Antwoord – 2 punten
+1. De btw-administratie voor 15 maart 2019, bij aangetekend schrijven, door middel
+van een document 604 B, in kennis stellen van het feit dat de belastingplichtige wenst
+over te gaan naar de forfaitaire regeling vanaf 1 april 2019.
+2. Opmaak van een gedetailleerde inventaris op datum van 31 maart 2019. Die
+inventaris moet de gedetailleerde aanduiding bevatten van de aard, de hoeveelheid en
+de waarde, uitgedrukt in aankoopprijs, van de goederen in voorraad. Die goederen
+moeten bovendien gegroepeerd worden volgens de uitsplitsing van het boek van
+inkomende facturen, die voorgeschreven is door de forfaitaire regeling welke door de
+belastingplichtige zal gevolgd worden.
+De goederen die opgenomen zijn in de inventaris van overgang worden geacht
+geleverd te zijn onder de forfaitaire regeling welke door de belastingplichtige wordt
+gevolgd.
+- De toepassing van die regeling op de bovengenoemde goederen wordt opgeschort
+tot bij het verstrijken van het jaar waarin de overgang plaatsvond; zij vindt plaats
+volgens het onderscheid gemaakt in de hierna volgende leden:
+Indien de belastingplichtige een inventaris van zijn voorraad opmaakt bij het
+verstrijken van het jaar waarin de overgang plaatsvond, wordt een
+regularisatie verricht die blijkt uit de vergelijking van de deze laatste
+inventaris, met de inventaris bij overgang van regeling.
+- Indien de belastingplichtige bij het verstrijken van het jaar waarin de
+overgang plaatsvond geen inventaris opmaakt, wordt de belasting
+verschuldigd voor, de goederen begrepen in de vooraard bij overgang, op de
+waarde (inkoopprijzen bij overgang) volgens de tarieven van de belasting en
+de forfaitaire coëfficiënten die van toepassing waren voor het voormelde
+jaar; de belasting is opeisbaar, en dit ten belope van één vierde van haar
+bedrag, bij het verstrijken van elk kalenderkwartaal van het daaropvolgende
+jaar.
+NAAM :
+p. 28
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019

@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrj2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| # | Actie | Tussenkomende partij |\n|---|---|---|\n| 1 | Voorstel tot 'vrijwillige' ontbinding | **zaakvoerder** (bestuursorgaan) 🔗 |\n| 2 | Opstellen van de staat van activa en passiva | **zaakvoerder** (bestuursorgaan) 📖 |\n| 3 | Opstellen van het controleverslag | **commissaris/revisor/accountant** 📖 |\n| 4 | Uitnodiging buitengewone algemene vergadering | **zaakvoerder** (bestuursorgaan) 🔗 |\n| 5 | Beslissing tot ontbinding | **algemene vergadering** 📖 |\n| 6 | Benoeming vereffenaar | **algemene vergadering** 📖 |\n| 7 | Bevestiging van de benoeming van de vereffenaar | **voorzitter rechtbank van ondernemingen** 📖 |\n| 8 | Opstellen activaverdelingsplan | **vereffenaar** 🔗 |\n| 9 | Uitvoeren van het activaverdelingsplan | **vereffenaar** 📖 |\n| 10 | Afsluiting van de vereffening | **algemene vergadering** 📖 |",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Logica van de bevoegdheidsverdeling** — de procedure splitst zich in drie fasen, elk met een eigen drager:\n\n- **Voorbereiding (1-4) → bestuursorgaan (zaakvoerder).** Het bestuursorgaan neemt het initiatief: het stelt het voorstel tot ontbinding op met een omstandig verslag, voegt daarbij een staat van activa en passiva van maximaal drie maanden oud, en roept de buitengewone algemene vergadering bijeen. 📖\n- **Externe controle (3) → commissaris, of bij gebrek daaraan een bedrijfsrevisor of (gecertificeerd) accountant.** Deze beroepsbeoefenaar controleert de staat van activa en passiva en brengt verslag uit aan de algemene vergadering — verplicht, ook in vennootschappen zonder commissaris. 📖\n- **Beslissing (5-6) → algemene vergadering.** Enkel de AV kan de ontbinding uitspreken (statutenwijziging — versterkt quorum en meerderheid, notariële akte) en benoemt in hetzelfde besluit de vereffenaar(s). 📖\n- **Rechterlijke tussenkomst (7) → voorzitter rechtbank van ondernemingen.** Als uit de staat van activa en passiva een **tekort** blijkt waardoor niet alle schuldeisers integraal kunnen worden betaald (deficitaire vereffening), moet de benoeming van de vereffenaar ter **bevestiging** worden voorgelegd aan de voorzitter van de ondernemingsrechtbank. 📖\n- **Uitvoering (8-9) → vereffenaar.** Hij realiseert de activa, betaalt de schulden en stelt — wanneer er meerdere categorieën schuldeisers zijn — een verdelingsplan van de activa op dat hij vooraf aan de rechtbank ter goedkeuring voorlegt. 🔗\n- **Sluiting (10) → algemene vergadering.** De AV neemt kennis van het cijfermatig verslag van de vereffenaar (gecontroleerd door de commissaris of, bij gebrek daaraan, met individueel onderzoeksrecht van de aandeelhouders bijgestaan door een beroepsbeoefenaar) en spreekt de sluiting van de vereffening uit. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Vier opties uit de keuzelijst zijn **afleiders** en horen bij géén enkele stap: het *boekhoudkantoor (BIBF, IAB)* (geen wettelijke rol in de procedure — enkel de commissaris/revisor/(gecertificeerd) accountant is bevoegd voor het controleverslag van art. 2:71, §2 WVV), de *curator* (komt enkel in beeld bij een **gerechtelijke** ontbinding via faillissement, niet bij een vrijwillige), en de *hoofdaandeelhouder* (heeft als individu geen wettelijke bevoegdheid — beslissingen gebeuren collectief in de algemene vergadering). Let ook op stap 7: de bevestiging gebeurt door de **voorzitter** van de rechtbank van ondernemingen (eenzijdig verzoekschrift), niet door de rechtbank zelf in volle samenstelling, en is enkel verplicht bij een **deficitaire** vereffening — bij een batige vereffening kan de vereffenaar onmiddellijk na de AV-benoeming in functie treden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Onder het ten tijde van het examen toepasselijke W.Venn. (4 mei 2019, vóór de volledige inwerkingtreding van het WVV op 1 januari 2020) gold dezelfde procedure: art. 181 W.Venn. (voorstel + staat van activa en passiva + controleverslag), art. 184 W.Venn. (benoeming vereffenaar door AV + bevestiging door voorzitter rechtbank van koophandel bij tekort), art. 190 W.Venn. (verdelingsplan), art. 194-195 W.Venn. (cijfermatig verslag en sluiting door AV). Onder WVV — materieel ongewijzigd — corresponderen deze stappen met **art. 2:71 WVV** (voorstel bestuursorgaan, staat A&P, controleverslag door commissaris/bedrijfsrevisor/gecertificeerd accountant), **art. 2:76 WVV** (bevestiging benoeming vereffenaar door voorzitter ondernemingsrechtbank bij deficitaire vereffening), **art. 2:87-2:89 WVV** (verdelingsplan en uitvoering door vereffenaar) en **art. 2:90 WVV** (cijfermatig verslag + sluiting door AV). Beroepsnorm: ITAA-norm inzake de opdracht bij ontbinding en vereffening (bijlage 3 — modelverslag commissaris/bedrijfsrevisor/gecertificeerd accountant). 📖",
+          "wetsref": "art. 181, 184, 190, 194-195 W.Venn. (2019) — heden art. 2:71, 2:76, 2:87-2:90 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

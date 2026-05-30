@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vri2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De aangiftetermijn mag **niet korter zijn dan één maand** vanaf de goedkeuring van de jaarrekening (of rekening van ontvangsten en uitgaven), en **niet langer dan zes maanden** vanaf het afsluiten van het boekjaar. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 310 WIB92 — geldt voor binnenlandse vennootschappen, rechtspersonen onderworpen aan de rechtspersonenbelasting en belastingplichtigen onderworpen aan de belasting niet-inwoners/vennootschappen (art. 246-247 WIB92). De aangifte moet gebaseerd zijn op de goedgekeurde jaarrekening. 📖",
+          "wetsref": "art. 310 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De uiterste indieningsdatum is de **laatste dag van de maand volgend op die van de statutaire algemene vergadering**, met als absolute grens **zes maanden na afsluiting van het boekjaar**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Uitzonderingen",
+          "tekst": "Valt die uiterste datum op een **zaterdag, zondag of feestdag**, dan wordt hij krachtens art. 53 Ger.W. verschoven naar de **eerstvolgende werkdag**. 🔗 Valt de uiterste datum op **31 december** (in casu 31/12/2018), dan wordt automatisch een **bijkomende periode tot en met 15 januari** van het daaropvolgende jaar toegekend (administratieve tolerantie). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 310 WIB92 (uiterste indieningsdatum gekoppeld aan AV + plafond zes maanden na boekjaarafsluiting) jo. art. 53 Gerechtelijk Wetboek (verschuiving termijnvervaldag bij zaterdag/zondag/feestdag — beschikbaar in ITAA-LEX). De 31/12 → 15/01-tolerantie volgt uit administratieve onderrichtingen FOD Financiën, niet uit de wettekst zelf. 🔗",
+          "wetsref": "art. 310 WIB92; art. 53 Ger.W.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr1",
+  "interpretatie_datum": "2026-05-30T12:35:32Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Inwonerschap als toepassingsvoorwaarde voor dubbelbelastingverdragen",
+  "programmaonderdeel_ids": [
+    "2.8"
+  ],
+  "themas": [
+    "dubbelbelastingverdragen",
+    "inwonerschap",
+    "toepassingsgebied DBV",
+    "OESO-Modelovereenkomst",
+    "internationaal fiscaal recht"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Om in aanmerking te komen voor de toepassing van de overeenkomsten tot het vermijden van dubbele belasting moet men inwoner zijn van één van de overeenkomstsluitende staten?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 1 uit ITAA-oefenset Europees/internationaal fiscaal recht — juist/fout-stelling over inwonerschap als toepassingsvoorwaarde voor dubbelbelastingverdragen. PDF-tekst overeenkomstig PNG; geen OCR-correcties nodig. Geen motivering gevraagd (enkel \"WAAR OF NIET WAAR\").",
+  "kwaliteits_flags": []
+}

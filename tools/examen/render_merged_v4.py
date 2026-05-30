@@ -46,7 +46,7 @@ TEMPLATES_DIR = Path(__file__).resolve().parent / "templates"
 # Examens die als "nieuw toegevoegd" worden gerenderd: badge in herkomst-regel
 # + aparte kolom in de index. Verwijder een examen-id zodra zijn nieuwigheid
 # in de UI is afgekoeld (bv. na een paar weken).
-NEW_EXAMENS: set[str] = {"2010-2"}
+NEW_EXAMENS: set[str] = {"2010-2", "2019-bibf", "2024-oef-2-8"}
 
 # Cluster-cache: laadt _clusters/<po>.json on demand
 _CLUSTER_CACHE: dict[str, dict[str, Any] | None] = {}

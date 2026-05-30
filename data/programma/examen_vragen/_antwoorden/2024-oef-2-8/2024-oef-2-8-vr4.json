@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr4",
+  "antwoord_datum": "2026-05-30T12:40:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Vraagstelling is een fragment: tussen 'ervan' en 'maanden overschrijdt' ontbreekt het drempel-getal (subvraag_zonder_inhoud-flag op interpretatie). De stelling is echter ONGEACHT het ingevulde getal inhoudelijk fout, omdat een steengroeve op grond van art. 5 §2(f) OESO-MV een klassieke vaste inrichting is zonder tijdsdrempel — de 12-maanden-drempel van §3 geldt enkel voor bouw-, constructie- of installatieprojecten. Antwoord wordt dus gegeven met confidence 'afgeleid'; geen aanname van het ontbrekende getal nodig.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Een steengroeve is altijd een vaste inrichting in de zin van art. 5 §2(f) OESO-MV, ongeacht de uitbatingsduur — er geldt geen tijdsdrempel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 5 §2 OESO-MV somt de klassieke voorbeelden van een vaste inrichting op — onder (f): *\"a mine, an oil or gas well, **a quarry** or any other place of extraction of natural resources\"*. 📖 Voor deze categorie geldt geen minimumduur: de loutere aanwezigheid van de vaste plaats van winning volstaat. 🔗 De 12-maanden-drempel in art. 5 §3 OESO-MV is uitdrukkelijk beperkt tot *\"a building site or construction or installation project\"* (bouwwerf-VI) en is niet van toepassing op winningsplaatsen. 📖 De stelling vermengt dus twee verschillende §-en van art. 5 en is daarom onjuist — welk getal men ook in de leemte invult.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **bouwwerf-VI** (art. 5 §3): een bouw-, constructie- of installatieproject vormt pas een VI als het méér dan 12 maanden duurt. Dat tijdscriterium geldt enkel voor die projectcategorie — niet voor mijnen, olie-/gasbronnen of steengroeven, die als fysieke winningsplaats automatisch als klassieke VI kwalificeren. 🔗 In de Belgische interne wet kent art. 229 §1 WIB92 voor bouw-/installatieprojecten zelfs een veel lagere drempel (> 30 dagen), maar ook daar staat een steengroeve los van enige tijdsvoorwaarde.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5 §2(f) OESO-Modelverdrag: een mijn, olie- of gasbron, **steengroeve** of andere plaats van winning van natuurlijke rijkdommen is een klassieke vaste inrichting — zonder tijdsdrempel. Art. 5 §3 OESO-MV beperkt de 12-maanden-drempel uitdrukkelijk tot bouwwerven en installatieprojecten. 📖",
+          "wetsref": "Art. 5 §2(f) en §3 OESO-Modelverdrag (Condensed Version 2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

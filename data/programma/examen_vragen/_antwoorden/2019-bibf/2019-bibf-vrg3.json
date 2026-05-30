@@ -1,0 +1,120 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg3",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, voor 50 % aftrekbaar** als relatiegeschenk (art. 53, 8° WIB 92). Er moet **geen fiche 281.50** worden opgesteld: de prijs (25 EUR incl. btw) blijft onder de administratieve grens van 125 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een fles wijn van 25 EUR aan een cliënt is een **relatiegeschenk** (geen reclameartikel met blijvende publicitaire vermelding, geen handelsmonster). De wet beperkt de aftrek tot **50 %** van het bedrag (art. 53, 8° WIB 92). De BTW is overigens niet aftrekbaar (art. 45, § 3, 1° en 4° WBTW — wijn is een geestrijke drank niet bestemd voor wederverkoop), dus de aftrekbare kost = 50 % × 25 EUR incl. btw = **12,50 EUR**. 🔗\n\nVoor de **fiche 281.50** geldt een administratieve tolerantie: wanneer de verkrijger geen beroepsmatig voordeel ontvangt en het bedrag per cliënt en per jaar onder **125 EUR** blijft, mag de fiche-verplichting worden weggelaten. 25 EUR blijft daar ruim onder. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 53, 8° WIB 92**: 50 % van de kosten voor onthaal en voor relatiegeschenken zijn niet als beroepskost aftrekbaar (= 50 % blijft aftrekbaar). **Art. 57 WIB 92 + art. 30 KB/WIB 92**: commissies, erelonen, gratificaties en voordelen van alle aard moeten op individuele fiches 281.50 worden vermeld; administratief wordt geen fiche geëist voor occasionele geschenken < 125 EUR per begunstigde per jaar (Comm. IB 57/62 e.v.). 🔗",
+          "wetsref": "art. 53, 8° WIB 92; art. 57 WIB 92; Comm. IB 57/62 (tolerantie 125 EUR)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, voor 50 % aftrekbaar** als relatiegeschenk (art. 53, 8° WIB 92). Omdat de kist 150 EUR kost — boven de administratieve drempel van 125 EUR per begunstigde — moet de verzekeraar een **fiche 281.50** opstellen op naam van elke begunstigde cliënt, anders verliest hij de aftrek volledig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Net als de fles is de kist een **relatiegeschenk** → 50 %-aftrekbeperking van art. 53, 8° WIB 92. Aftrekbare kost = 50 % × 150 EUR = **75 EUR** per kist (BTW eveneens niet aftrekbaar). 🔗\n\nVoor de **fiche-verplichting** (art. 57 WIB 92) ligt de administratieve tolerantie op **125 EUR per begunstigde per jaar**. Zodra het geschenk die grens overschrijdt, vervalt de tolerantie en moet er een individuele fiche 281.50 worden opgesteld. Zonder fiche treedt **art. 219 WIB 92** in werking (in de VenB) of wordt de kost in de PB integraal verworpen wegens schending van de identificatieplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De 125 EUR-drempel is een **administratieve tolerantie** (Comm. IB 57/62), géén wettelijke vrijstelling. Bij overschrijding vervalt de tolerantie voor het **volledige** bedrag — niet enkel het excedent. Verwar dit niet met de BTW-drempel van **50 EUR** uit K.B. nr. 59 (handelsgeschenken van geringe waarde, art. 12, § 1 WBTW): die regelt enkel of er BTW-onttrekking moet worden aangegeven, niet de PB-fiche of de 50 %-aftrekbeperking. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 53, 8° WIB 92** (50 %-aftrekbeperking relatiegeschenken) + **art. 57 WIB 92** (fiche-verplichting voor commissies, erelonen, gratificaties en voordelen van alle aard). De administratieve tolerantie voor occasionele geschenken < 125 EUR per begunstigde per jaar is opgenomen in Comm. IB 57/62 e.v.; boven die drempel: fiche 281.50 verplicht, op straffe van verwerping van de kost (PB) of afzonderlijke aanslag art. 219 WIB 92 (VenB). 🔗",
+          "wetsref": "art. 53, 8° WIB 92; art. 57 WIB 92; Comm. IB 57/62; art. 219 WIB 92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**De fles wijn (25 EUR)**: **niet belastbaar** bij de cliënt — occasioneel geschenk van geringe waarde onder de 125 EUR-tolerantie, geen fiche → geen belastbaar voordeel. **De kist (150 EUR)**: **belastbaar als divers inkomen** of als beroepsinkomen (al naargelang de begunstigde), maar **alleen indien** de verzekeraar de fiche 281.50 effectief opstelt; dan moet de cliënt het bedrag aangeven (art. 57 j° art. 97 of art. 27 WIB 92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een **relatiegeschenk** dat een belastingplichtige in het kader van zijn beroep ontvangt, is in beginsel een **voordeel van alle aard** dat de aftrek-keerzijde vormt van art. 53, 8° WIB 92. De **fiche 281.50** is het mechanisme dat dit voordeel bij de fiscus aangeeft op naam van de begunstigde. 🔗\n\n- **Fles 25 EUR** → onder 125 EUR-tolerantie → geen fiche → in de praktijk **niet aangegeven en niet belast** bij de cliënt. 🔗\n- **Kist 150 EUR** → boven 125 EUR → fiche 281.50 verplicht → het bedrag wordt belastbaar bij de cliënt: als **beroepsinkomen** (art. 23 / 27 WIB 92) wanneer de cliënt het geschenk in het kader van zijn eigen beroep ontvangt, of als **divers inkomen** (art. 90, 1° WIB 92) wanneer het buiten een beroepsactiviteit gebeurt. Stelt de verzekeraar géén fiche op, dan is er in hoofde van de cliënt feitelijk niets aangegeven, maar verliest de verzekeraar zijn aftrek en/of riskeert hij art. 219 WIB 92 (VenB). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De symmetrie is logisch: de wetgever koppelt **aftrek bij de gever** aan **belastbaarheid bij de ontvanger** via de fiche-verplichting. Zonder fiche treedt art. 219 WIB 92 in werking (afzonderlijke aanslag van 100 % in de VenB) — de fiscus haalt zo de gemiste belasting bij de gever weg. In de PB volstaat een loutere weigering van de kost in hoofde van de gever (art. 57 WIB 92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 57 WIB 92** koppelt de aftrek bij de gever aan de fiche-verplichting; **art. 27 WIB 92** (winsten/baten als beroepsinkomen) en **art. 90, 1° WIB 92** (diverse inkomsten — toevallige winsten/baten) bepalen de belastingcategorie bij de begunstigde. De administratieve 125 EUR-tolerantie (Comm. IB 57/62) zet kleine geschenken buiten dit mechanisme: geen fiche → in de praktijk niet belast bij de ontvanger. 🔗",
+          "wetsref": "art. 57 WIB 92; art. 27 WIB 92; art. 90, 1° WIB 92; Comm. IB 57/62",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

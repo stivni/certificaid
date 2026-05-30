@@ -1,0 +1,72 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb2",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekhoudkundige verwerking van vooruitfactureringen, huurwaarborgen, operationele leasing en renting bij afsluiting van het boekjaar",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": [
+    "overlopende rekeningen",
+    "vooruitgefactureerde opbrengsten",
+    "huurwaarborg",
+    "operationele leasing",
+    "renting",
+    "balansrubrieken",
+    "borgtochten in contanten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag B.2 van het BIBF Praktisch Bekwaamheidsexamen van 4 mei 2019 (sectie B. Wetgeving boekhouding, 4 punten in totaal). Drie onafhankelijke meerkeuze-deelvragen rond boekhoudkundige verwerking aan boekjaareinde: (1) vooruitfacturering van huur Q1/N+1 plus huurwaarborg door BVBA BLAASTIEK op 01/12/N, (2) operationele leasing van 36 maanden voor een opblaasbaar springkasteel door BVBA LUCHTOP, en (3) renting van 48 maanden voor informaticamateriaal met een waarborg van zes maanden. Voor deelvraag 1 moet geen rekening worden gehouden met BTW."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "BVBA « BLAASTIEK » factureert op 01 december van het jaar N vooraf de huur voor het eerste kwartaal van het jaar N+1 voor een bedrag van 1.500,00 € en tevens de huurwaarborg van 500,00 € (men moet geen rekening houden met de BTW). Op welke rekeningen zullen de verschillende elementen van deze factuur zich bevinden bij het afsluiten van het boekjaar N? Welke stelling is correct?",
+      "opties": [
+        { "id": "a", "tekst": "credit van de rekening 7003 voor 500,00 € ; credit van de rekening 493 voor 1.000,00 € ; credit van de rekening 489 voor 500,00 €" },
+        { "id": "b", "tekst": "credit van de rekening 7003 voor 1.500,00 € ; credit van de rekening 7463 voor 500,00 €" },
+        { "id": "c", "tekst": "credit van de rekening 493 voor 1.500,00 € ; credit van de rekening 178 borgtochten ontvangen in contanten voor 500,00 €" },
+        { "id": "d", "tekst": "credit van de rekening 491 voor 1.500,00 € ; credit van de rekening 489 voor 500,00 €" },
+        { "id": "e", "tekst": "credit van de rekening 7003 voor 500,00 € ; credit van de rekening 491 voor 1.000,00 € ; credit van de rekening 7463 voor 500,00 €" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "BVBA « LUCHTOP » tekent een operationele leasingovereenkomst van 36 maanden voor een opblaasbaar springkasteel. Welke stelling is correct betreffende het einde van het contract?",
+      "opties": [
+        { "id": "a", "tekst": "De door de BVBA « LUCHTOP » ondertekende overeenkomst moet uitdrukkelijk voorzien in een clausule die het lichten van de aankoopoptie toelaat." },
+        { "id": "b", "tekst": "De door de BVBA « LUCHTOP » ondertekende overeenkomst bevat geen enkele clausule voor het eventueel lichten van de aankoopoptie." },
+        { "id": "c", "tekst": "Geen van voorgaande stellingen is correct." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "De BVBA heeft een rentingovereenkomst, met een looptijd van 48 maanden, voor informaticamateriaal afgesloten. Een clausule in het contract voorziet in een waarborg die overeenstemt met een periode van zes maanden. In welke rubriek van de jaarrekening moet deze waarborg boekhoudkundig verwerkt worden?",
+      "opties": [
+        { "id": "a", "tekst": "Materiële vaste activa" },
+        { "id": "b", "tekst": "Financiële vaste activa" },
+        { "id": "c", "tekst": "Immateriële vaste activa" },
+        { "id": "d", "tekst": "Geldbeleggingen" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag met drie onafhankelijke MC-deelvragen onder één paraplu B.2 (totaal 4 punten: deelvraag 1 = 2 punten, deelvragen 2 en 3 = elk 1 punt). De PDF toont de gold antwoorden in vetdruk (C, B, B); conform de prompt-instructie zijn die niet opgenomen in het JSON-artefact. OCR-typo in optie B van deelvraag 1 ('pour' → 'voor') gecorrigeerd. De drie deelvragen delen geen materiële casus-context buiten de paraplu-structuur, maar zijn samen één PDF-vraag-eenheid (sectie B.2), dus één artefact met drie entries in vragen[]. Letter-labels in de PDF (1, 2, 3) bewaard in label_in_pdf; interne ids als a/b/c voor stabiliteit. Geen motivatie expliciet gevraagd bij enige deelvraag.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

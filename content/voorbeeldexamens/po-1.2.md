@@ -3,12 +3,274 @@ title: PO 1.2 — Boekhoudrecht en jaarrekeningenrecht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.2 (Boekhoudrecht en jaarrekeningenrecht).
 tags: [examen, voorbeeldvragen, po-1-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 1.2 — Boekhoudrecht en jaarrekeningenrecht
 
-**14 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1) — 14 met modelantwoord
+**17 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2019-bibf) — 17 met modelantwoord
+
+<a id="2019-bibf-vrb1"></a>
+
+> [!question]- 🆕 Waarderingsprincipes bij continuïteit vs discontinuïteit, dividenduitkering en toelichtingsverplichting bij kleine vennootschap
+> *Examen 2019-bibf · PO 1.2*
+>
+> De BVBA "Happy Socks", kleine vennootschap (art. 15 §1), maakt de jaarrekening (boekjaar = kalenderjaar) op om voor te leggen aan de leden van de Algemene Vergadering. Bij het opstellen van haar jaarrekening wijst niets erop dat er een feitelijke toestand ontstaat waaruit kan worden afgeleid dat de onderneming discontinu zal worden.
+>
+> **Volgens welk principe worden de activa en passiva gewaardeerd in de jaarrekening?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Volgens het **continuïteitsbeginsel** (*going concern*): de activa en passiva worden gewaardeerd in de veronderstelling dat de vennootschap haar bedrijf zal voortzetten. 📖
+> > 
+> > De waarderingsregels steunen op de idee dat ondernemingen in beginsel een onbeperkte levensduur hebben; de onderneming wordt voorgesteld als een dynamische entiteit die haar doelstellingen op lange termijn kan verwezenlijken — niet als een ogenblikkelijk liquidatievermogen. 📖 Voor Happy Socks is dit van toepassing: in de gegevens staat uitdrukkelijk dat niets erop wijst dat de onderneming discontinu zal worden. 🔗
+> > 
+> > Art. 28 §1, derde lid KB/W.Venn.: bij de vaststelling en toepassing van de waarderingsregels wordt ervan uitgegaan dat de onderneming haar bedrijf zal voortzetten. 📖  
+> > *Bron: art. 28 §1, derde lid KB/W.Venn.*
+>
+> Happy Socks wil een dividend uitkeren: hoe wordt het maximaal uitkeerbaar bedrag bepaald? Geef de toepasselijke wettelijke bepaling.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Maximaal uitkeerbaar bedrag = gecorrigeerd netto-actief − onbeschikbaar eigen vermogen** (nettoactief-test van art. 320 §1 W.Venn. voor de BVBA). 🔗
+> > 
+> > Concreet:
+> > 
+> > - **Nettoactief** = totaal activa − voorzieningen − schulden. 📖
+> > - **Correctie** (vermindering): het nog niet afgeschreven bedrag van oprichtings- en uitbreidingskosten en — behoudens uitzondering te motiveren in de toelichting — het nog niet afgeschreven bedrag van de kosten van onderzoek en ontwikkeling. 📖
+> > - **Onbeschikbaar eigen vermogen** (af te trekken): gestort (of indien hoger, opgevraagd) kapitaal, niet-afgeschreven herwaarderingsmeerwaarden, wettelijke reserves, statutair en andere onbeschikbare reserves (incl. reserve voor eigen aandelen), en kapitaalsubsidies. 📖
+> > 
+> > Geen uitkering mag plaatsvinden indien het nettoactief daardoor onder dit onbeschikbaar bedrag zou dalen. 🔗
+> > 
+> > Art. 320 §1 W.Venn. (BVBA, regime 2019): de nettoactief-test bepaalt het maximaal uitkeerbaar bedrag — geen uitkering als het nettoactief is gedaald of zou dalen onder het bedrag van het gestort (of, indien hoger, opgevraagd) kapitaal vermeerderd met alle reserves die volgens de wet of de statuten niet mogen worden uitgekeerd. 🔗  
+> > *Bron: art. 320 §1 W.Venn.*
+>
+> In geval van discontinuïteit, hoe worden de waarderingsregels aangepast? Geef tevens de wettelijke bron.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Bij discontinuïteit worden de waarderingsregels **dienovereenkomstig aangepast**: waardering verschuift van going-concern-basis naar **vermoedelijke realisatiewaarde** (liquidatie-perspectief). 📖
+> > 
+> > Concreet geldt in het bijzonder:
+> > 
+> > - **Oprichtingskosten** worden volledig afgeschreven. 📖
+> > - Voor **vaste en vlottende activa** worden zo nodig aanvullende afschrijvingen of waardeverminderingen geboekt om de boekwaarde terug te brengen tot de **vermoedelijke realisatiewaarde**. 📖
+> > - Een **voorziening** wordt gevormd voor de kosten verbonden aan de beëindiging van de werkzaamheden, in het bijzonder voor aan het personeel uit te keren vergoedingen. 📖
+> > - Bij **gedeeltelijke stopzetting** (sluiting van een bedrijfsonderdeel of vestiging) geldt hetzelfde voor de activa, passiva en verplichtingen die op dat onderdeel betrekking hebben. 📖
+> > 
+> > De aanpassing wordt geactiveerd door het loutere feit dat het bestuursorgaan vaststelt dat de continuïteit niet langer kan worden verondersteld — niet pas bij een **formele beslissing tot invereffeningstelling**. Een vennootschap in WCO/gerechtelijke reorganisatie blijft daarentegen in principe in continuïteit waarderen zolang er een realistische herstelkans is. 📖
+> > 
+> > Art. 28 §2, derde lid KB/W.Venn.: indien de vennootschap — al dan niet ingevolge een beslissing tot invereffeningstelling — besluit haar bedrijf stop te zetten of indien niet meer kan worden uitgegaan van voortzetting, worden de waarderingsregels dienovereenkomstig aangepast (oprichtingskosten volledig afschrijven, aanvullende afschrijvingen/waardeverminderingen tot vermoedelijke realisatiewaarde, voorziening voor beëindigingskosten). 📖  
+> > *Bron: art. 28 §2, derde lid KB/W.Venn.*
+>
+> Wanneer moeten de niet-genoteerde kleine vennootschappen de verantwoording van de toepassing van de waarderingsregels in de veronderstelling van continuïteit vermelden in de toelichting bij de jaarrekening? Geef tevens de wettelijke bepaling.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De niet-genoteerde kleine vennootschap moet de verantwoording van de toepassing van de waarderingsregels in continuïteit in de **toelichting** opnemen wanneer **(a)** uit de balans een **overgedragen verlies** blijkt, **óf (b)** uit de resultatenrekening **gedurende twee opeenvolgende boekjaren een verlies van het boekjaar** blijkt. 📖
+> > 
+> > Voor **grote** en **genoteerde** vennootschappen moet die verantwoording in het **jaarverslag** worden opgenomen. Omdat een niet-genoteerde kleine vennootschap (zoals Happy Socks, art. 15 §1 W.Venn.) is **vrijgesteld** van het opstellen van een jaarverslag, verhuist de verplichting naar de toelichting bij de jaarrekening. 🔗 De triggers zijn alternatief: één van beide volstaat om de verantwoording verplicht te maken. 📖
+> > 
+> > Art. 96 §1, 6° W.Venn.: wanneer uit de balans een overgedragen verlies blijkt of uit de resultatenrekening gedurende twee opeenvolgende boekjaren een verlies van het boekjaar blijkt, moet een verantwoording van de toepassing van de waarderingsregels in continuïteit worden opgenomen — voor niet-genoteerde kleine vennootschappen in de toelichting bij de jaarrekening (i.p.v. in het jaarverslag). 📖  
+> > *Bron: art. 96 §1, 6° W.Venn.*
+
+<a id="2019-bibf-vrb2"></a>
+
+> [!question]- 🆕 Boekhoudkundige verwerking van vooruitfactureringen, huurwaarborgen, operationele leasing en renting bij afsluiting van het boekjaar
+> *Examen 2019-bibf · PO 1.2*
+>
+> Vraag B.2 van het BIBF Praktisch Bekwaamheidsexamen van 4 mei 2019 (sectie B. Wetgeving boekhouding, 4 punten in totaal). Drie onafhankelijke meerkeuze-deelvragen rond boekhoudkundige verwerking aan boekjaareinde: (1) vooruitfacturering van huur Q1/N+1 plus huurwaarborg door BVBA BLAASTIEK op 01/12/N, (2) operationele leasing van 36 maanden voor een opblaasbaar springkasteel door BVBA LUCHTOP, en (3) renting van 48 maanden voor informaticamateriaal met een waarborg van zes maanden. Voor deelvraag 1 moet geen rekening worden gehouden met BTW.
+>
+> BVBA « BLAASTIEK » factureert op 01 december van het jaar N vooraf de huur voor het eerste kwartaal van het jaar N+1 voor een bedrag van 1.500,00 € en tevens de huurwaarborg van 500,00 € (men moet geen rekening houden met de BTW). Op welke rekeningen zullen de verschillende elementen van deze factuur zich bevinden bij het afsluiten van het boekjaar N?
+> 
+> **Welke stelling is correct?**
+> 
+> - **a** credit van de rekening 7003 voor 500,00 € ; credit van de rekening 493 voor 1.000,00 € ; credit van de rekening 489 voor 500,00 €
+> - **b** credit van de rekening 7003 voor 1.500,00 € ; credit van de rekening 7463 voor 500,00 €
+> - **c** credit van de rekening 493 voor 1.500,00 € ; credit van de rekening 178 borgtochten ontvangen in contanten voor 500,00 €
+> - **d** credit van de rekening 491 voor 1.500,00 € ; credit van de rekening 489 voor 500,00 €
+> - **e** credit van de rekening 7003 voor 500,00 € ; credit van de rekening 491 voor 1.000,00 € ; credit van de rekening 7463 voor 500,00 €
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: c**
+> > 
+> > Optie **c** — bij afsluiting N staat de volledige 1.500,00 € huur op rekening **493 Over te dragen opbrengsten** (de huur slaat integraal op Q1/N+1) en de ontvangen waarborg van 500,00 € op rekening **178 Ontvangen borgtochten in contanten** (passief, geen opbrengst). 🔗
+> > 
+> > **Per optie**:
+> > 
+> > - **a** — credit 7003 voor 500 € + 493 voor 1.000 € + 489 voor 500 € → FOUT. Geen enkel deel van de huur (1.500 €) slaat op boekjaar N — niets mag op een 70-opbrengstrekening blijven; alles moet naar 493. De waarborg is een schuld, niet een 489-overlopende rekening. 🔗
+> > - **b** — credit 7003 voor 1.500 € + 7463 voor 500 € → FOUT. De huur wordt als opbrengst van N geboekt terwijl ze volledig op N+1 betrekking heeft (geen prorata-toerekening); de waarborg wordt als financiële opbrengst behandeld terwijl het een terug te betalen schuld is. 🔗
+> > - **c** — credit 493 voor 1.500 € + 178 borgtochten ontvangen in contanten voor 500 € → JUIST. De huur Q1/N+1 wordt integraal overgedragen naar het volgende boekjaar (over te dragen opbrengsten), de waarborg wordt geboekt als ontvangen borgtocht in contanten (passiefrubriek 17). 🔗
+> > - **d** — credit 491 voor 1.500 € + 489 voor 500 € → FOUT. Rekening 491 (verkregen opbrengsten) is voor opbrengsten die zonder factuur reeds verworven zijn — hier is er net een factuur en de opbrengst is nog niet verworven. 🔗
+> > - **e** — credit 7003 voor 500 € + 491 voor 1.000 € + 7463 voor 500 € → FOUT. Splitst de huur foutief, gebruikt opnieuw 491 in plaats van 493, en boekt de waarborg als financiële opbrengst i.p.v. schuld. 🔗
+> > 
+> > Onderscheid **493 Over te dragen opbrengsten** (reeds gefactureerd / ontvangen, maar nog niet verworven — toekomstige boekjaren) van **491 Verkregen opbrengsten** (verworven, maar nog niet gefactureerd). De richting van het matching-beginsel is omgekeerd. Hier is gefactureerd op 01/12/N voor een prestatie in N+1 → 493, niet 491. 🔗
+> > 
+> > Matching-beginsel art. 3:13 KB WVV (prorata-toerekening kosten en opbrengsten aan het boekjaar waarop ze betrekking hebben); CBN-advies 2015/4 over leasing en huur — overlopende rekening **493 Over te dragen opbrengsten** voor reeds gefactureerde huur die op het volgende boekjaar slaat. Voor de waarborg: rekening **178 Ontvangen borgtochten in contanten** als spiegelrekening van 288 (CBN-advies 2017/04). 📖  
+> > *Bron: art. 3:13 KB WVV; CBN-advies 2015/4; CBN-advies 2017/04*
+>
+> BVBA « LUCHTOP » tekent een operationele leasingovereenkomst van 36 maanden voor een opblaasbaar springkasteel.
+> 
+> **Welke stelling is correct betreffende het einde van het contract?**
+> 
+> - **a** De door de BVBA « LUCHTOP » ondertekende overeenkomst moet uitdrukkelijk voorzien in een clausule die het lichten van de aankoopoptie toelaat.
+> - **b** De door de BVBA « LUCHTOP » ondertekende overeenkomst bevat geen enkele clausule voor het eventueel lichten van de aankoopoptie.
+> - **c** Geen van voorgaande stellingen is correct.
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: b**
+> > 
+> > Optie **b** — een operationele leasing bevat per definitie **geen aankoopoptie** die de wedersamenstelling van het geïnvesteerde kapitaal van de leasinggever organiseert; het goed blijft bij hem op de balans en het contract gedraagt zich als een eenvoudig huurcontract. 🔗
+> > 
+> > **Per optie**:
+> > 
+> > - **a** (overeenkomst moet uitdrukkelijk een aankoopoptie voorzien) → FOUT. Een aankoopoptie is een kenmerk van **financiële** leasing (art. 3:89 KB WVV / CBN 2015/4): bij financiële leasing moet de gecumuleerde betaling het geïnvesteerd kapitaal van de leasinggever wedersamenstellen, eventueel aangevuld met een aankoopoptieprijs. Bij operationele leasing is dat juist niet het geval. 🔗
+> > - **b** (geen enkele clausule voor het lichten van een aankoopoptie) → JUIST. CBN-advies 2021/05 bevestigt: bij operationele leasing blijft het actief op de balans van de leasinggever, de leasingnemer boekt enkel een huurkost — het contract heeft *veel weg van een eenvoudig huurcontract*, zonder eigendomsoverdracht of optie. 📖
+> > - **c** (geen van voorgaande) → FOUT, want optie b is correct. 🔗
+> > 
+> > CBN-advies 2015/4 benadrukt dat de **aanwezigheid van een aankoopoptie** *op zich* niet bepalend is voor de boekhoudkundige kwalificatie financiële vs. operationele leasing — het echte criterium is of de gecumuleerde leasevergoedingen het geïnvesteerd kapitaal wedersamenstellen. Maar in het Belgische normaal rekeningstelsel geldt: operationele leasing = huur, geen optie tot eigendomsverwerving in het standaardcontract. 📖
+> > 
+> > Art. 3:89 KB WVV definieert financiële leasing aan de hand van de wedersamenstelling van het geïnvesteerd kapitaal. CBN-advies 2021/05 stelt expliciet: *"Bij operationele leasing blijft het in leasing gegeven actief op de balans staan van de leasinggever ... Het contract heeft veel weg van een eenvoudig huurcontract."* Geen aankoopoptie. 📖  
+> > *Bron: art. 3:89 KB WVV; CBN-advies 2021/05; CBN-advies 2015/4*
+>
+> De BVBA heeft een rentingovereenkomst, met een looptijd van 48 maanden, voor informaticamateriaal afgesloten. Een clausule in het contract voorziet in een waarborg die overeenstemt met een periode van zes maanden.
+> 
+> **In welke rubriek van de jaarrekening moet deze waarborg boekhoudkundig verwerkt worden?**
+> 
+> - **a** Materiële vaste activa
+> - **b** Financiële vaste activa
+> - **c** Immateriële vaste activa
+> - **d** Geldbeleggingen
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: b**
+> > 
+> > Optie **b** — **Financiële vaste activa** (rekening 288 *Borgtochten betaald in contanten*): de waarborg dient als doorlopende waarborg bij een rentingovereenkomst van 48 maanden, dus duurzaam aangehouden (> 12 maanden). 📖
+> > 
+> > **Per optie**:
+> > 
+> > - **a** (Materiële vaste activa) → FOUT. Het gehuurde informaticamateriaal komt bij renting/operationele leasing niet op de balans van de huurder; *en* een betaalde waarborg is geen materieel actief maar een vordering. 🔗
+> > - **b** (Financiële vaste activa) → JUIST. Art. 3:89 KB WVV en CBN-advies 2017/04 plaatsen borgtochten in contanten die als **doorlopende** waarborg worden gestort (duurzaam, > 12 maanden) onder de financiële vaste activa — rekening **288**. Looptijd 48 maanden = duurzaam. 📖
+> > - **c** (Immateriële vaste activa) → FOUT. Borgtochten zijn vorderingen op de begunstigde, geen immateriële rechten. 🔗
+> > - **d** (Geldbeleggingen) → FOUT. Rubriek 50-53 is voor termijndeposito's en effecten als belegging; pas voor een waarborg met **vervaldatum binnen 12 maanden** zou rekening **418** (vlottende activa) gebruikt worden, niet 50. 🔗
+> > 
+> > De rubricering hangt af van de **resterende looptijd van de waarborg**, niet van die van het contract. Doorlopend (>12 maanden) → **rekening 288** (financiële vaste activa). Vervalt binnen 12 maanden → **rekening 418** (overige vorderingen, vlottende activa). Geldbeleggingen (rubriek IX) zijn voor effecten/termijndeposito's als belegging, niet voor gestorte waarborgen. 📖
+> > 
+> > Art. 3:89 KB WVV: borgtochten worden opgenomen onder de financiële vaste activa indien gestort als **doorlopende waarborg** (duurzaam aangehouden). CBN-advies 2017/04 bevestigt: rekening **288 Borgtochten betaald in contanten** (financiële vaste activa) voor borgtochten > 12 maanden; rekening **418** (vlottende activa) voor borgtochten ≤ 12 maanden. 📖  
+> > *Bron: art. 3:89 KB WVV; CBN-advies 2017/04*
+
+<a id="2019-bibf-vrb3"></a>
+
+> [!question]- 🆕 Herwaarderingsmeerwaarde op materiële vaste activa (art. 57 KB W.Venn.)
+> *Examen 2019-bibf · PO 1.2*
+>
+> Vraag B.3 (/5 — 0,5 punt per juist antwoord). Geef aan welke stelling juist of fout is. De stellingen betreffen de herwaarderingsmeerwaarde op materiële vaste activa volgens artikel 57 KB W.Venn.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De "materiële vaste activa" op de balans geven niet altijd een goede weergave van de echte waarde of marktwaarde van die activa.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — MVA staan op de balans aan aanschaffingswaarde minus afschrijvingen, niet aan marktwaarde. 🔗
+> > 
+> > Het Belgisch boekhoudrecht hanteert het aanschaffingswaarde-principe: MVA worden geboekt aan aanschaffingsprijs verminderd met geaccumuleerde afschrijvingen (boekwaarde). 📖 De echte/markt-waarde kan daar fors van afwijken — typisch oude gebouwen die jarenlang afgeschreven werden maar door de vastgoedmarkt in waarde stegen. 🔗 Net die discrepantie is de bestaansreden van de optionele herwaardering uit art. 3:35 KB WVV (oud art. 57 KB W.Venn.). 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer de waarde van deze vaste activa "op vaststaande en duurzame wijze" boven hun boekwaarde uitstijgt, moet de onderneming deze activa herwaarderen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — herwaardering is een **optie**, geen verplichting. 🔗
+> > 
+> > Art. 3:35 KB WVV (oud art. 57 KB W.Venn.) bepaalt dat de vennootschappen hun MVA en FVA *mogen* herwaarderen wanneer de waarde op vaststaande en duurzame wijze boven de boekwaarde uitstijgt. 📖 CBN-advies 2011/14 bevestigt expliciet: "het boeken van een herwaarderingsmeerwaarde is een optie en geenszins een verplichting" — er is zelfs grote voorzichtigheid geboden. 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Op het actief van de balans verhoogt de vaste activa met de herwaarderingsmeerwaarde en op het passief wordt hetzelfde bedrag geboekt bij de winst.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — de tegenpost staat in het **eigen vermogen** (rubriek III. Herwaarderingsmeerwaarden, klasse 12), niet bij de winst. 🔗
+> > 
+> > De boeking is: activum-rubriek ...8 (geboekte meerwaarden) D / rekening 12 'Herwaarderingsmeerwaarden' C. 🔗 CBN 2011/14: "De geboekte meerwaarden worden rechtstreeks toegerekend aan passiefpost III. Herwaarderingsmeerwaarden. De oorspronkelijke boeking heeft geen invloed op de resultatenrekening." 📖 De herwaardering raakt dus enkel de balans (actief én eigen vermogen stijgen), nooit de resultatenrekening. 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Door een herwaarderingsmeerwaarde te boeken verhoogt automatisch het eigen vermogen van die vennootschap.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — de tegenpost is rubriek III van het eigen vermogen, dus het EV stijgt met het bedrag van de meerwaarde. 🔗
+> > 
+> > De meerwaarde wordt geboekt op rekening 12 'Herwaarderingsmeerwaarden', een sub-rubriek van het eigen vermogen (klasse 1). 📖 Mechanisch verhoogt het eigen vermogen dus automatisch met het geboekte bedrag van de meerwaarde — dat is ook precies waarom de wetgever de optie beperkt en bewijs van duurzaamheid eist (geen kunstmatige opblazing van het EV). 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een herwaarderingsmeerwaarde volgens artikel 57 KB W.Venn. kan ook worden geboekt voor financiële vaste activa alsook voor immateriële vaste activa.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — het toepassingsgebied dekt MVA en FVA (deelnemingen + aandelen), maar **niet** immateriële vaste activa. 🔗
+> > 
+> > Art. 3:35 KB WVV (oud art. 57 KB W.Venn.) laat herwaardering toe voor "materiële vaste activa, de deelnemingen en aandelen die onder de financiële vaste activa voorkomen". 📖 FVA is dus correct, maar IMA (klasse 21 — goodwill, octrooien, software, ontwikkelingskosten) vallen uitdrukkelijk **buiten** het toepassingsgebied. 🔗 Ook oprichtingskosten, voorraden en vorderingen mogen niet worden geherwaardeerd in Be-GAAP. 📖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Gedurende hetzelfde boekjaar en om een bedrijfsverlies weg te werken kan men binnen eenzelfde periode een herwaarderingsmeerwaarde eerst omzetten in kapitaal en nadien het kapitaal verminderen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — een uitgedrukte, niet-gerealiseerde meerwaarde mag niet via een omzetting-in-kapitaal + onmiddellijke kapitaalvermindering worden gebruikt om een bedrijfsverlies weg te werken. 🔗
+> > 
+> > Art. 3:76 KB WVV laat NV/SE/SCE wel toe een herwaarderingsmeerwaarde om te zetten in kapitaal, maar de meerwaarde behoudt na omzetting haar karakter van *niet-gerealiseerde* meerwaarde. 📖 Een directe kapitaalvermindering om een verlies aan te zuiveren komt neer op het *aanwenden* van die niet-gerealiseerde meerwaarde — dat doorbreekt de onaantastbaarheidsvoorwaarde van art. 44 WIB92 (waardoor de meerwaarde belastbaar wordt) en ondergraaft de voorzichtigheidsregel. 🔗 De truc "binnen eenzelfde periode" wordt door CBN/doctrine niet aanvaard als geldige verliesverwerking. 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een herwaarderingsmeerwaarde leidt vaak tot extra afschrijvingen. Dat betekent dus een "extra boekhoudkundige kost en een extra fiscale kost".</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — er is wél een extra boekhoudkundige afschrijvingskost, maar fiscaal is die afschrijving **niet aftrekbaar** (geen fiscale kost). 🔗
+> > 
+> > Op de geherwaardeerde waarde wordt voortaan afgeschreven over de residuele gebruiksduur (CBN 2011/14 + CBN 2010/15), wat boekhoudkundig een hogere kost geeft. 📖 Fiscaal is het deel van de afschrijving dat slaat op de geherwaardeerde waarde echter niet aftrekbaar: de meerwaarde is fiscaal vrijgesteld (art. 44 WIB92) zolang ze in de onaantastbaarheidsrekening staat, en het correlatieve afschrijvingsdeel wordt fiscaal geneutraliseerd. 🔗 Per saldo: enkel boekhoudkundige meerkost, geen extra fiscale kost. 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een herwaarderingsmeerwaarde heeft als voordeel dat je een hogere notionele intrestaftrek krijgt vanaf de aanleg.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — herwaarderingsmeerwaarden worden **uitgesloten** uit het risicokapitaal dat als basis dient voor de notionele intrestaftrek. 🤖
+> > 
+> > De NID (art. 205bis-205quater WIB92) gaat uit van een *gecorrigeerd* eigen vermogen: uitgedrukte maar niet-gerealiseerde meerwaarden (waaronder de herwaarderingsmeerwaarden op MVA/FVA) worden uit de berekeningsbasis verwijderd om louter boekhoudkundige opblazing van het EV te neutraliseren. 🤖 Een herwaardering geeft dus geen hogere NID — de kunstmatige stijging van het EV (zie s4) wordt fiscaal weer afgetrokken voor de NID-berekening. 🤖
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het bedrag van de afschrijving van een herwaarderingsmeerwaarde wordt voor de vennootschapsbelastingen opgenomen in de "verworpen uitgaven".</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — de afschrijving op het geherwaardeerde deel wordt fiscaal geneutraliseerd via een gelijktijdige belastingvrije terugneming van de meerwaarde (rekening 760), niet via opname in de verworpen uitgaven. 🔗
+> > 
+> > Boekhoudkundig wordt het afgeschreven deel van de meerwaarde overgeboekt van rekening 12 naar rekening 760 'Onttrekkingen aan de herwaarderingsmeerwaarden' (of naar de beschikbare reserves). 📖 Fiscaal: de extra afschrijving (kost) en de 760-opbrengst zijn allebei belastingvrij/neutraal — netto-effect 0 op het belastbaar resultaat. 🔗 Er gebeurt dus géén opname als verworpen uitgave; de techniek werkt via de onaantastbaarheidsvoorwaarde van art. 44 WIB92, niet via de DNA-tabel. 🔗
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Bij de realisatie van de geherwaardeerde activa dienen alle rekeningen met betrekking tot de voorheen uitgedrukte, niet-gerealiseerde meerwaarde afgeboekt te worden, zodanig dat het actief aan zijn oorspronkelijke boekwaarde gewaardeerd wordt in de balans.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — bij realisatie worden alle rekeningen met betrekking tot de uitgedrukte, niet-gerealiseerde meerwaarde (de ...8-rekening + het restant van rekening 12) tegengeboekt, zodat het activum opnieuw aan zijn oorspronkelijke boekwaarde staat vóór de verkoopboeking. 🔗
+> > 
+> > Bij verkoop verliest de eerder uitgedrukte meerwaarde haar reden van bestaan: het activum verlaat de balans en de meerwaarde wordt een *gerealiseerde* meerwaarde via de resultatenrekening (763). 📖 Mechanisch wordt eerst de ...8-rubriek (geboekte meerwaarden) en het saldo van rekening 12 afgeboekt — daarna wordt het verschil tussen verkoopprijs en oorspronkelijke netto-boekwaarde geboekt als realisatiemeerwaarde. 🔗 Resultaat: tijdens de afhandeling staat het actief weer aan oorspronkelijke boekwaarde, exact zoals de stelling beschrijft. 🔗
+> > 
+> > Hoofdgrondslag voor alle 10 stellingen: **art. 3:35 KB WVV** (uitvoeringsbesluit 29.04.2019, voorheen art. 57 KB W.Venn.) — herwaardering is optioneel, beperkt tot MVA + FVA (deelnemingen en aandelen), vereist een vaststaande en duurzame waardestijging, met tegenpost in passiefrubriek III. Herwaarderingsmeerwaarden (klasse 12). 📖 Aanvullend: **CBN-advies 2011/14** (boekhoudkundige verwerking, jaarlijkse toets, afschrijving op geherwaardeerde waarde), **CBN-advies 2021/13** (omzetting in kapitaal — art. 3:76 KB WVV — enkel voor kapitaalhoudende vennootschappen), **CBN-advies 2010/15** (afschrijving geherwaardeerde activa) en **art. 44 WIB92** (fiscale vrijstelling zolang de meerwaarde onaantastbaar in het EV blijft — verklaart ook waarom NID-basis en afschrijving fiscaal geneutraliseerd worden). 🔗  
+> > *Bron: art. 3:35 KB WVV (oud art. 57 KB W.Venn.); art. 3:76 KB WVV; art. 44 WIB92; CBN 2011/14, 2021/13, 2010/15*
 
 <a id="2014-1-vr19"></a>
 

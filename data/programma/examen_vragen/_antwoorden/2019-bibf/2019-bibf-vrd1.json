@@ -1,0 +1,112 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd1",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "s1",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — KBO Public Search is een gratis online raadplegingstool van de FOD Economie waarmee iedereen de publieke gegevens van een onderneming en haar vestigingseenheden kan opzoeken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De KBO is een publiek toegankelijk register (art. III.15 e.v. WER); de FOD Economie stelt de raadpleging van de publieke gegevens via KBO Public Search kosteloos ter beschikking. 🔗",
+          "wetsref": "art. III.15 e.v. WER",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — het privé-domicilieadres van een natuurlijk persoon ondernemer wordt niet in de KBO opgenomen; enkel het adres van de zetel en de vestigingseenheden is publiek raadpleegbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het officiële model-antwoord aanvaardt ook **FOUT** wanneer het domicilieadres feitelijk samenvalt met het vestigingsadres (typisch bij thuiswerkende zelfstandigen): in dat geval staat het privé-adres de facto wél in de KBO als vestigingsadres. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. III.18 WER somt op welke gegevens van een natuurlijke persoon in de KBO worden opgenomen — het privé-domicilieadres als zodanig hoort daar niet bij; wel het adres van de zetel en van elke vestigingseenheid (art. III.16 en III.17 WER). 🔗",
+          "wetsref": "art. III.16-III.18 WER",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — een boekhouder kan zo'n adreswijziging niet zonder meer doorvoeren: ofwel doet de onderneming dat zelf via My Enterprise, ofwel handelt de boekhouder met een **schriftelijk mandaat** van de klant via een erkend ondernemingsloket. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wijzigingen aan de KBO-inschrijving van een inschrijvingsplichtige onderneming verlopen via een erkend ondernemingsloket (art. III.49-III.51 WER) of, voor de geregistreerde entiteit zelf, rechtstreeks elektronisch (art. III.21 WER) — telkens met passende identificatie/mandaat. 🔗",
+          "wetsref": "art. III.21 en III.49-III.51 WER",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — voor inschrijvingsplichtige ondernemingen verloopt de wijziging of toevoeging van een economische activiteit in de KBO via een erkend ondernemingsloket. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. III.51 §1 WER verplicht inschrijvingsplichtige ondernemingen om vooraf een wijziging van hun KBO-inschrijving aan te vragen wanneer ze een andere activiteit willen uitoefenen of een nieuwe vestigingseenheid willen oprichten; deze formaliteit wordt vervuld bij een erkend ondernemingsloket (art. III.58 e.v. WER). 🔗",
+          "wetsref": "art. III.51 en III.58 e.v. WER",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

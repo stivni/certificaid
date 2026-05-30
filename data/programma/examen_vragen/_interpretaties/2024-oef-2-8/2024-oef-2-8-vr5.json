@@ -1,0 +1,39 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr5",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Heffingsbevoegdheid over onroerende inkomsten onder OESO-Modelverdrag",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "OESO-Modelverdrag",
+    "onroerende inkomsten",
+    "heffingsbevoegdheid",
+    "bronstaat",
+    "verblijfstaat",
+    "dubbelbelastingverdrag"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Oefeningenset Europees en internationaal fiscaal recht (ITAA). Reeks juist/fout-stellingen en open vragen rond OESO-Modelverdrag en dubbelbelastingverdragen. Deze deelvraag betreft stelling 5: heffingsbevoegdheid over onroerende inkomsten van een natuurlijk persoon-inwoner van een verdragsstaat met bron in de andere verdragsstaat."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "5",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Voor een natuurlijk persoon die inwoner is van één van de overeenkomstsluitende staten, zijn de onroerende inkomsten die hun bron hebben in de andere staat, uitsluitend belastbaar in die andere staat (met name de bronstaat).",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Stelling 5 letterlijk overgenomen uit de PDF (visueel geverifieerd via pagina_02.png). 'overeenkomst sluitende' in de bron samengevoegd tot 'overeenkomstsluitende' (standaardvorm). Ontbrekend slotpunt na '(met name de bronstaat)' toegevoegd voor leesbaarheid. Standaard ITAA-W/NW-stelling: geen expliciete motivering gevraagd, dus motivatie_verwacht=false.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
+}

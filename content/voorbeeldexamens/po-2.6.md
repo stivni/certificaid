@@ -3,7 +3,7 @@ title: PO 2.6 — Registratie- en successierechten
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.6 (Registratie- en successierechten).
 tags: [examen, voorbeeldvragen, po-2-6]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.6 — Registratie- en successierechten

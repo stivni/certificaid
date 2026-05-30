@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre5",
+  "interpretatie_datum": "2026-05-30T14:45:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Deontologische verplichtingen van een erkende boekhouder bij overname van een dossier door een persoon die niet ingeschreven is bij BIBF, IAB of IBR",
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
+  "themas": [
+    "plichtenleer",
+    "dossier-overdracht",
+    "niet-erkende beroepsbeoefenaar",
+    "reglement plichtenleer BIBF",
+    "art. 17 KB 18/07/2017",
+    "informatieplicht beroepsinstituut",
+    "volmacht",
+    "deontologie"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Mevrouw Barbara KNOOPS contacteert, met een volmacht in de hand, het boekhoudkantoor FISCALIX (erkend door het BIBF) voor de overname van een dossier. De zaakvoerder van het boekhoudkantoor stelt vast dat mevrouw KNOOPS niet is ingeschreven bij het BIBF, het IAB of het IBR."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E.5",
+      "vraagtype": "open",
+      "vraagstelling": "Wat kan de zaakvoerder vanuit deontologisch oogpunt doen in het kader van de overdracht van het dossier in kwestie? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (Praktisch Bekwaamheidsexamen 4 mei 2019, sectie E.5, 1 punt) onder rubriek E. Plichtenleer. De PDF bevat het modelantwoord onder de vraag (verwijzing naar art. 17 Reglement van Plichtenleer KB 18/07/2017: schriftelijke informatieplicht aan het beroepsinstituut over de identiteit van de niet-erkende persoon vóór elke overdracht); dit gold-antwoord hoort niet thuis in het interpretatie-artefact en is weggelaten. Eén enkele open vraag zonder deelvragen. De vraag bestaat uit twee componenten in één zin: (1) wat kan de zaakvoerder doen, (2) verwijs naar toepasselijke wettelijke/reglementaire bepalingen — de tweede zin (\"Licht toe en geef ... bepalingen\") is een toelichtings-/motiveringsinstructie bij dezelfde vraag, geen aparte deelvraag, dus geïntegreerd in vraagstelling met motivatie_verwacht=true. Programmaonderdeel 4.0 (Plichtenleer / Deontologie). Geen OCR-artefacten of typo's; geen kwaliteits-flags nodig.",
+  "kwaliteits_flags": []
+}

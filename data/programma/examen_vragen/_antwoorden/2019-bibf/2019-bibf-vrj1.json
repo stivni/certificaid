@@ -1,0 +1,148 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrj1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Mark heeft een **inbreng in natura** gedaan (machine, meubels en grondstoffen — samen 20.000,00 €); David heeft een **inbreng in geld** gedaan (20.000,00 € op de speciale bankrekening). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het Wetboek van vennootschappen (zoals van toepassing in 2019, vóór de WVV op bestaande BVBA's) onderscheidt voor de BVBA twee soorten inbrengen die het kapitaal vormen: inbreng in geld en inbreng in natura (zaken die voor waardering vatbaar zijn — art. 218 W.Venn.). De inbreng in natura vereist daarbij een verslag van een bedrijfsrevisor (art. 219 W.Venn.) — in de casus reeds gebeurd. 🔗",
+          "wetsref": "Art. 218-219 W.Venn. (oud); cf. art. 5:7-5:8 WVV (huidig recht voor de BV)",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "In ruil voor hun respectievelijke inbreng ontvangen zij **aandelen** in de vennootschap. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De inbreng (in geld of in natura) wordt vergoed met aandelen die het maatschappelijk kapitaal vertegenwoordigen — dit is de essentie van het kapitaalbegrip onder het oud W.Venn. voor de BVBA (art. 232 W.Venn.). Het aandelenaantal en de fractiewaarde worden in de oprichtingsakte bepaald. 🔗",
+          "wetsref": "Art. 232 W.Venn. (oud); cf. art. 5:40 WVV (huidig)",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — David had zich kunnen beperken tot een **minimumstorting van 4.000,00 €**, zodat de vennootschap in totaal de wettelijk vereiste **6.200,00 €** volstort had. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Volstortingsregels bij oprichting BVBA (art. 223 W.Venn. oud)** 📖:\n\n- Op elk **aandeel in geld** moet minstens **1/5** gestort zijn (art. 223, 1° W.Venn.).\n- **Inbrengen in natura** moeten **volledig** volstort zijn binnen 5 jaar — bij oprichting praktisch direct (art. 223, 2° W.Venn.).\n\n**Berekening minimum** 🔗:\n\n| Component | Bedrag | Minimum volstorting |\n|---|---|---|\n| Inbreng Mark — natura (machine + meubels + grondstoffen) | 20.000,00 € | 20.000,00 € (volledig — art. 223, 2°) |\n| Inbreng David — geld | 20.000,00 € | 4.000,00 € (1/5 — art. 223, 1°) |\n| **Totaal minimum volstort kapitaal** | 40.000,00 € | **24.000,00 €** |\n\nDe oude wet vereiste daarenboven dat het volstort kapitaal van een BVBA **minstens 6.200,00 €** bedroeg (art. 223 W.Venn. juncto wettelijk minimumkapitaal). Aangezien Mark al 20.000,00 € in natura volledig volstortte, is die drempel ruim overschreden — David moest dus enkel zijn eigen 1/5 = 4.000,00 € storten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De PDF-modelantwoord noemt **6.200,00 €** als globaal minimum volstort kapitaal voor de BVBA (de historische drempel voor de gewone BVBA onder W.Venn., gekoppeld aan een totaal maatschappelijk kapitaal van 18.550,00 €). In de casus is dat plafond ruim gehaald door Mark alleen; de echte beperking voor David is dus art. 223, 1° (1/5 van zijn inbreng in geld = 4.000,00 €), niet de globale 6.200,00-drempel. Onder het huidige WVV (sinds 1 mei 2019) is het kapitaalbegrip én het minimumkapitaal afgeschaft voor de BV; in de plaats kwam de vereiste van een **toereikend aanvangsvermogen** (art. 5:3-5:4 WVV) en het beginsel dat alle inbrengen vanaf de oprichting **volledig gestort** worden tenzij de statuten anders bepalen (art. 5:8 WVV). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 223, 1° W.Venn. (oud)** — op elk aandeel waarop in geld is ingeschreven moet minstens een vijfde gestort zijn. **Art. 223, 2° W.Venn. (oud)** — aandelen waarvoor een inbreng in natura wordt verstrekt, moeten volledig volgestort zijn. Het globale minimum volstort kapitaal van 6.200,00 € voor de gewone BVBA volgt uit de historische BVBA-regeling. 🔗",
+          "wetsref": "Art. 223, 1° en 2° W.Venn. (oud); cf. art. 5:8 WVV (huidig — toereikend aanvangsvermogen i.p.v. minimumkapitaal)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — er is sprake van een **quasi-inbreng**: verkoop binnen 2 jaar na oprichting door een oprichter/zaakvoerder/vennoot van een goed met een waarde van **≥ 10 % van het maatschappelijk kapitaal** (hier 10.000 € op 40.000 € = 25 %). Drie bijzondere vormvereisten gelden cumulatief. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Vormvereisten bij quasi-inbreng** (art. 220-222 W.Venn. oud) 📖:\n\n1. **Verslag van de commissaris** — of bij gebreke daarvan een door het bestuursorgaan aangewezen **bedrijfsrevisor** — over de waardering van het goed en de redelijkheid van de tegenprestatie (art. 220 W.Venn.).\n2. **Bijzonder verslag van het bestuursorgaan** — waarin wordt toegelicht waarom de verwerving van belang is voor de vennootschap, en waarom eventueel wordt afgeweken van de conclusies van het bedrijfsrevisorverslag (art. 222 W.Venn.).\n3. **Akkoord van de algemene vergadering** — de verwerving wordt vooraf ter goedkeuring voorgelegd; beide verslagen worden in de agenda van de AV opgenomen (art. 222 W.Venn.).\n4. **Neerlegging op de griffie** van de ondernemingsrechtbank — beide verslagen worden neergelegd en bekendgemaakt (art. 222 § 1 W.Venn.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De **ratio** van de quasi-inbreng-regeling is anti-omzeiling: zonder die regeling zou een oprichter die zijn goed niet als inbreng in natura wil onderwerpen aan een revisorverslag, gewoon kunnen wachten en het goed kort na oprichting **verkopen** aan de vennootschap, en zo de waarderingscontrole én de revisorverklaring omzeilen. De **2-jaars termijn** en de **10 %-drempel** zijn precies daar afgestemd. Onder de WVV (sinds 1 mei 2019) bleef dit regime grotendeels behouden — voor de BV in art. 5:7-5:9 WVV, voor de NV in art. 7:8 en 7:10 WVV. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 220 W.Venn. (oud)** — definitie quasi-inbreng + revisorverslag. **Art. 221 W.Venn. (oud)** — inhoud van het revisorverslag (beschrijving, waarderingsmethoden, vergoeding). **Art. 222 W.Venn. (oud)** — bijzonder verslag bestuursorgaan + goedkeuring AV + neerlegging griffie. De huidige equivalente regeling voor de NV staat in art. 7:8 en 7:10 WVV; voor de BV in art. 5:8-5:9 WVV. 🔗",
+          "wetsref": "Art. 220-222 W.Venn. (oud); cf. art. 7:8 en 7:10 WVV (NV); art. 5:8-5:9 WVV (BV)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De quasi-inbreng is juridisch een **verkoop** (geen inbreng tegen aandelen): David ontvangt een **som geld** als koopprijs, of — als de vennootschap niet onmiddellijk betaalt — een **rekening-courant credit** (vordering van David op de vennootschap). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het verschil met een echte inbreng in natura is fundamenteel: bij een inbreng wordt het goed vergoed met **aandelen** (verhoging van het kapitaal), bij een quasi-inbreng wordt het goed **gekocht** door de vennootschap en wordt David vergoed in **cash** of via een opname op zijn **rekening-courant** (rekening 416 of 489, afhankelijk van termijn). Het kapitaal van de vennootschap blijft ongewijzigd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De quasi-inbreng-regeling (art. 220-222 W.Venn. oud) regelt de **vormvereisten** maar laat de juridische kwalificatie als verkoop intact: tegenprestatie = koopprijs (geld of schuldvordering op de vennootschap = rekening-courant credit), geen aandelen. 🔗",
+          "wetsref": "Art. 220-222 W.Venn. (oud); cf. art. 7:8 WVV — \"de vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt betaald\"",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

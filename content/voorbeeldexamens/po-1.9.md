@@ -3,12 +3,83 @@ title: PO 1.9 — Financiële analyse en fundamentele principes van financieel b
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.9 (Financiële analyse en fundamentele principes van financieel bedrijfsbeheer).
 tags: [examen, voorbeeldvragen, po-1-9]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 1.9 — Financiële analyse en fundamentele principes van financieel bedrijfsbeheer
 
-**6 unieke vraag-eenheden** uit 4 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2) — 6 met modelantwoord
+**7 unieke vraag-eenheden** uit 5 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2019-bibf) — 7 met modelantwoord
+
+<a id="2019-bibf-vrc1"></a>
+
+> [!question]- 🆕 Algemene beginselen financieel beheer: definitie en formule van de netto kas, begrip nulcouponobligatie met cash-flow op vervaldag, en stellingen over permanent vermogen en werkkapitaalbehoefte
+> *Examen 2019-bibf · PO 1.9*
+>
+> Sectie C. Algemene beginselen van het financieel beheer — Vraag C.1 (5 punten). De vraag bestaat uit drie deelvragen rond cash- en werkkapitaalindicatoren en obligatie-instrumenten.
+>
+> **Wat betekent Netto kas?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Netto kas** (synoniem: nettothesaurie) = geldbeleggingen + liquide middelen − financiële schulden ≤ 1 jaar, of equivalent: netto bedrijfskapitaal (NBK) − behoefte aan bedrijfskapitaal (BBK). 🔗
+> > 
+> > Twee equivalente paden binnen de functionele balans:
+> > 
+> > - **Bottom-up (stand)**: Netto kas = (50/53 geldbeleggingen) + (54/58 liquide middelen) − (43 schulden aan kredietinstellingen ≤ 1 jaar). 🔗
+> > - **Top-down (sluit-evenwicht)**: Netto kas = NBK − BBK, met NBK = permanent vermogen − vaste activa en BBK = exploitatie-vlottende activa − exploitatie-schulden op korte termijn. 🔗
+> > 
+> > Beide paden geven dezelfde uitkomst — dat is het sluitstuk van het werkkapitaal-drieluik. 🔗
+> > 
+> > Netto kas > 0 betekent dat de stabiele financieringsmarge (NBK) volstaat om de operationele behoefte (BBK) te dragen; netto kas < 0 signaleert structurele afhankelijkheid van kortlopend bankkrediet (kasovertrek, voorschotten in rekening-courant). Het is geen winst- maar een financierings-evenwichtsindicator. 🤖
+> > 
+> > Functionele-balans-analyse — niet wettelijk verplicht maar gangbaar in financiële analyse (programmaonderdeel 1.9). Rekeningindeling klasse 5 (geldbeleggingen 50-53 + liquide middelen 54-58) en rubriek 43 (schulden aan kredietinstellingen ≤ 1 jaar) volgen het Minimum Algemeen Rekeningstelsel (KB 21.10.2018, bijlage 1). 📖  
+> > *Bron: MAR — KB 21.10.2018 bijlage 1, klassen 5 en 4*
+>
+> Wat is een nulcouponobligatie? Hoeveel krijgt de obligatiehouder na 5 jaar op een nulcouponobligatie van 10.
+> 
+> **000,00 € indien de inflatie 2 % per jaar bedraagt?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Een **nulcouponobligatie** (zero-coupon bond) is een obligatie zonder tussentijdse intrestbetalingen: de obligatiehouder ontvangt op vervaldag enkel de **nominale waarde**, zijnde **10.000,00 EUR** na 5 jaar. De vermelde inflatie van 2 % per jaar is een afleider — een nulcoupon betaalt geen inflatie-vergoeding bij, het nominale bedrag staat contractueel vast. 🔗
+> > 
+> > Mechanisme:
+> > 
+> > - **Tijdens de looptijd** (jaar 1 t/m 5): geen coupon, geen interestbetaling. 🔗
+> > - **Op vervaldag** (einde jaar 5): één enkele kasstroom = nominale waarde = **10.000,00 EUR**. 🔗
+> > 
+> > Het rendement voor de belegger zit in het verschil tussen de (lagere) uitgifteprijs en de (hogere) terugbetalingsprijs — niet in de vraag, want enkel de nominale waarde op vervaldag wordt gevraagd. Inflatie beïnvloedt de koopkracht van die 10.000 EUR achteraf, maar niet het nominaal uitgekeerd bedrag. 🤖
+> > 
+> > Inflatiepercentage ≠ couponrente. De vraag suggereert via het inflatiegetal van 2 % dat een berekening (kapitalisatie 10.000 × 1,02⁵ ≈ 11.041 EUR) nodig is — die berekening is hier **fout**: een nulcouponobligatie is geen inflatie-geïndexeerd instrument (zoals een OLOi of TIPS). De nominale waarde is contractueel vast in nominale euro's, ongeacht inflatie. 🤖
+> > 
+> > Algemene financiële techniek — programmaonderdeel 1.9 (financieel beheer). Geen specifieke wetsbepaling: nulcouponobligaties zijn een marktinstrument, gedefinieerd door de uitgiftevoorwaarden. Boekhoudkundig: het verschil tussen uitgifte- en terugbetalingsprijs wordt door de emittent prorata temporis opgenomen als rentekost (matching-beginsel). 🤖
+>
+> Welke stelling(en) is/zijn juist? Omcirkel de letter(-s) van uw keuze.
+> 
+> - **a** Wettelijke Reserves (130) behoren tot het permanent vermogen
+> - **b** Voorzieningen vormen geen onderdeel van het permanent vermogen
+> - **c** De behoefte aan werkkapitaal stijgt indien de voorraadrotatie daalt
+> - **d** Stijgt het aantal dagen klantenkrediet dan wordt de behoefte aan nettobedrijfskapitaal kleiner
+> - **e** Geen van bovenstaande stellingen is juist
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: a,c**
+> > 
+> > Juiste stellingen: **a + c**. Wettelijke reserves (130) zijn eigen vermogen en dus permanent vermogen (a), en een dalende voorraadrotatie verlengt de gemiddelde aanwezigheidsduur van voorraden waardoor de werkkapitaalbehoefte stijgt (c). 🔗
+> > 
+> > Per optie:
+> > 
+> > - **a — JUIST**. Wettelijke reserves (MAR-rekening 130) maken deel uit van het eigen vermogen (klasse 1). Permanent vermogen = eigen vermogen + voorzieningen + schulden > 1 jaar; wettelijke reserves zitten dus per definitie in het permanent vermogen. 🔗
+> > - **b — FOUT**. Voorzieningen voor risico's en kosten (rubriek 16) behoren wél tot het permanent vermogen in de functionele balans-benadering: het zijn lange-termijn-financieringsbronnen (al is de juridische aard een schuld). De standaardformule NBK = (eigen vermogen + voorzieningen + schulden > 1 jaar) − vaste activa includeert voorzieningen expliciet. 🔗
+> > - **c — JUIST**. Voorraadrotatie = COGS / gemiddelde voorraad. Een **dalende** rotatie betekent dat voorraden gemiddeld langer aanwezig blijven (DIO ↑). Meer kapitaal blijft vastzitten in voorraden → exploitatie-vlottende activa stijgen → BBK stijgt → werkkapitaalbehoefte stijgt. 🔗
+> > - **d — FOUT**. Stijgt het aantal dagen klantenkrediet (DSO ↑), dan blijven handelsvorderingen langer openstaan → exploitatie-vlottende activa stijgen → BBK stijgt → NBK-behoefte **groter**, niet kleiner. De stelling beweert het tegenovergestelde. 🔗
+> > - **e — FOUT**. Vermits a en c juist zijn, is 'geen van bovenstaande' onjuist. 🔗
+> > 
+> > Optie b is bewust verwarrend: juridisch zijn voorzieningen een schuld (geen eigen vermogen), maar in de **functionele balans** worden ze tot het permanent vermogen gerekend omdat ze structureel-lange-termijn-financiering vormen. Examenvraag toetst dus de functionele lezing, niet de boekhoudkundige rubricering. 🤖
+> > 
+> > Functionele-balans-analyse (programmaonderdeel 1.9): permanent vermogen = eigen vermogen + voorzieningen + schulden > 1 jaar. NBK = permanent vermogen − vaste activa. BBK = exploitatie-vlottende activa − exploitatie-schulden op korte termijn — stijgt bij hogere DIO (lagere voorraadrotatie) of hogere DSO (meer dagen klantenkrediet). Eigen-vermogen-componenten conform MAR klasse 1 (KB 21.10.2018), inclusief 130 Wettelijke reserves. 📖  
+> > *Bron: MAR — KB 21.10.2018 bijlage 1, klasse 1 (eigen vermogen, rekening 130) + klasse 16 (voorzieningen)*
 
 <a id="2013-2-vr6"></a>
 

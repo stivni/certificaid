@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre1",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Verenigbare en onverenigbare activiteiten voor externe boekhouders-fiscalisten BIBF volgens het Reglement van Plichtenleer",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "plichtenleer",
+    "Reglement van Plichtenleer BIBF",
+    "verenigbare activiteiten",
+    "onverenigbare activiteiten",
+    "externe boekhouder-fiscalist",
+    "beroepsuitoefening",
+    "onafhankelijkheid"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sectie II. Plichtenleer (……/10) — onderdeel E. Plichtenleer. Algemene instructie voor deze sectie: 'Geef steeds een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn.' Vraag E.1 is op /3 gequoteerd."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E.1",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van de onderstaande activiteiten kunnen de externe boekhouders-fiscalisten verrichten volgens het Reglement van Plichtenleer? Kruis het/de juiste antwoord(-en) aan.",
+      "opties": [
+        { "id": "a", "tekst": "Syndicus van gebouwen" },
+        { "id": "b", "tekst": "Verzekeringsmakelaar" },
+        { "id": "c", "tekst": "Begeleiding van ondernemingen in verkrijgen van publieke steunmaatregelen" },
+        { "id": "d", "tekst": "Vastgoedmakelaar" },
+        { "id": "e", "tekst": "Erkend bemiddelaar" },
+        { "id": "f", "tekst": "Bankactiviteiten" },
+        { "id": "g", "tekst": "Begeleiding van ondernemingen in sociale materies" },
+        { "id": "h", "tekst": "Opstellen van een financieel plan" },
+        { "id": "i", "tekst": "Vereffenaar van een vennootschap" }
+      ],
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag E.1 van 4 mei 2019 (sectie II. Plichtenleer, onderdeel E, /3 punten). Multi-select MC-vraag waarbij de kandidaat één of meer activiteiten moet aankruisen die externe boekhouders-fiscalisten BIBF mogen verrichten volgens het Reglement van Plichtenleer. Gemodelleerd als één deelvraag met vraagtype mc_keuze en 9 opties (a-i). De PDF toont in vetdruk welke opties de gold-antwoorden zijn (Syndicus van gebouwen, Begeleiding publieke steunmaatregelen, Erkend bemiddelaar, Begeleiding sociale materies, Opstellen financieel plan, Vereffenaar van een vennootschap) — conform de prompt-regel worden gold-antwoorden NIET in het interpretatie-artefact opgenomen, alle 9 opties zijn neutraal als keuze-opties opgenomen. motivatie_verwacht=true omdat de algemene sectie-instructie expliciet een korte toelichting + artikelverwijzing eist bij elk antwoord in sectie E. OCR-typo 'steunmatregelen' in tekst.txt genormaliseerd naar 'steunmaatregelen' in optie c (de PDF-PNG toont eveneens 'steunmatregelen' — dit is een typo in de oorspronkelijke PDF die we normaliseren voor zoekbaarheid). Trailing puntkomma's/spaties uit de bullet-lijst verwijderd in de optie-teksten. Optie-ids a-i toegekend op basis van leesvolgorde in de PDF.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.6",
-  "gegenereerd_op": "2026-05-29T19:46:03+00:00",
+  "gegenereerd_op": "2026-05-30T12:57:01+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
   "n_vragen": 13,

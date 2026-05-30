@@ -1,0 +1,38 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr3",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Oplossing voor dubbele residentie in het internationaal fiscaal recht",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "dubbele belasting",
+    "dubbele residentie",
+    "internationaal fiscaal recht",
+    "personenbelasting",
+    "wereldinkomen",
+    "tie-breaker regels",
+    "OESO-Modelverdrag"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een cliënt, op fiscaal gebied inwoner van België, deelt u mede dat hij op fiscaal gebied ook als inwoner van een ander land wordt beschouwd en dat hij voortaan in de twee landen aan de personenbelasting zal onderworpen zijn op zijn wereldinkomen. Hij vraagt u of er een mogelijke oplossing voor dit probleem bestaat."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Wat antwoordt u hem? Verklaar uw antwoord kort op basis van de algemene beginselen van het internationaal fiscaal recht.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële ITAA-oefenvraag (vraag 3 in lineaire reeks op pagina 2). Casus over dubbele fiscale residentie (België + ander land) met onderwerping aan personenbelasting op wereldinkomen in beide staten. De casus-context is gescheiden van de eigenlijke vraagstelling: het verhaal van de cliënt staat in casus_context, de imperatief 'Wat antwoordt u hem? Verklaar...' (in PDF in kleinkapitaal) vormt de vraagstelling. Vraagtype is open omdat een vrij tekst-antwoord met motivering gevraagd wordt; motivatie_verwacht=true want expliciet 'Verklaar uw antwoord kort op basis van de algemene beginselen van het internationaal fiscaal recht'. Geen OCR-typo's gecorrigeerd.",
+  "kwaliteits_flags": []
+}

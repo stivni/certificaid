@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd2",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Gevolgen van foutief of niet vermelden van een economische activiteit in de KBO",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "Kruispuntbank van Ondernemingen",
+    "KBO",
+    "economische activiteit",
+    "fiscale aftrekbaarheid kosten",
+    "ontvankelijkheid vordering",
+    "administratieve sancties FOD Economie"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sectie D. Organisatie van de boekhouding en de administratieve diensten van de onderneming (totaal …/5). Vraag D.2 wordt op 1,5 punt gequoteerd, met 0,50 punt per goed antwoord."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "D.2",
+      "vraagtype": "open",
+      "vraagstelling": "Geef drie gevolgen op fiscaal, juridisch en/of administratief vlak van het foutief of niet vermelden van een economische activiteit in de KBO.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag D.2 van 4 mei 2019. Vraagstelling letterlijk overgenomen van de PNG (visuele waarheid bevestigt pdfplumber-extract — geen OCR-artefacten). Modelantwoord (fiscus verwerpt kosten, rechtbank niet-ontvankelijk, FOD Economie geldboetes) staat in de PDF onder 'Antwoord' maar is geen onderdeel van de vraagstelling — niet opgenomen in vraagstelling, niet als antwoord_hint geflaggd omdat het expliciet als modelantwoord in de PDF staat en niet als verdachte stagiair-notitie. Eén open deelvraag (drie gevolgen in één antwoord), vraagtype 'open', volledigheid 'volledig'. PO 4.0 (Organisatie boekhouding) per context-instructie.",
+  "kwaliteits_flags": []
+}

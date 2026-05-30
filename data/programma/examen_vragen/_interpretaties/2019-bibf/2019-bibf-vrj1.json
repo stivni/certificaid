@@ -1,0 +1,78 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrj1",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Inbrengen bij oprichting BVBA en quasi-inbreng",
+  "programmaonderdeel_ids": ["3.0"],
+  "themas": [
+    "oprichting BVBA",
+    "inbreng in natura",
+    "inbreng in geld",
+    "volstortingsplicht",
+    "quasi-inbreng",
+    "Wetboek vennootschappen art. 220-223",
+    "bedrijfsrevisorverslag",
+    "rekening-courant"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op 14/06/N richten Mark en David, twee jeugdvrienden, een BVBA op met een kapitaal van 40.000,00 €.\n\nMark brengt een machine met een waarde van 13.000,00 € in, alsook meubels ter waarde van 5.000,00 € en grondstoffen ter waarde van 2.000,00 €. De verschillende waarden werden geattesteerd door een bedrijfsrevisor.\n\nDavid brengt 20.000,00 € die hij voor de oprichting van de vennootschap stort op een speciale bankrekening op naam van de vennootschap in oprichting.\n\nOp 28/08/N+1 heeft de vennootschap een bijkomende auto nodig en David stelt voor één van zijn eigen auto's te verkopen aan de vennootschap. Dit voertuig heeft een waarde van 10.000,00 €."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Instructie bij het deeldomein: \"Geef waar gevraagd een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn.\" Totaal vraag J.1: /5 punten."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Welk soort van inbreng(-en) hebben deze jeugdvrienden gedaan bij de oprichting van de vennootschap?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Wat zullen zij ontvangen in ruil voor hun specifieke inbrengen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Hetzelfde percentage in het kapitaal van de vennootschap behoudend, had David ook minder dan 20.000,00 € kunnen storten op de bankrekening van de vennootschap en toch de vennootschap geldig kunnen laten oprichten? Wat zou het minimum, door hem te storten bedrag, geweest moeten zijn? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Zijn er bijzondere vormvereisten in acht te nemen opdat David zijn auto kan verkopen aan de vennootschap? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "5",
+      "vraagtype": "open",
+      "vraagstelling": "Wat zal David, in ruil, krijgen indien de vennootschap zijn auto koopt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officieel BIBF-examen 4 mei 2019, sectie J.1 (Vennootschapsrecht), /5 punten — de PDF bevat de modelantwoorden onder elke deelvraag; die zijn NIET in de vraagstellingen gekopieerd (ze horen in de antwoord-artefacten als gold reference). Vijf zelfstandige deelvragen (1-5) over één gedeelde casus (oprichting BVBA Mark + David, plus latere verkoop auto). Deelvragen 3 en 4 vragen expliciet 'Licht toe' → motivatie_verwacht=true; deelvraag 3 is ook door deeldomein-instructie aan artikel-vermelding gebonden, maar dat geldt voor alle deelvragen waar relevant en wordt niet als motivatie-flag op elke deelvraag geforceerd. Deelvraag 3 bevat een lichte OCR-onhandigheid ('bankrek ening' met spatie) — gecorrigeerd naar 'bankrekening' en herformuleerd voor leesbaarheid ('Hetzelfde percentage in het kapitaal ... behoudend' i.p.v. de wat krom-Nederlandse PDF-zin 'Hetzelfde percentage te bewaren in het kapitaal van de vennootschap had David ook ...'). De instructie aan het hoofd van het deeldomein over artikel-vermelding is opgenomen als tweede casus_context-blok zodat de student-context bewaard blijft. Geen verzonnen opties, geen MC-elementen — alle vijf zijn vrij-tekst open vragen.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd",
+    "ocr_artefact"
+  ]
+}

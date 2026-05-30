@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre3",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — de heer CARDON mag de opdracht van DRUIVELAAR niet behandelen: tijdens een tuchtrechtelijke schorsing is hij in de onmogelijkheid zijn beroepsactiviteit uit te oefenen, en aangezien de schorsing 40 dagen bedraagt (≥ één maand) is hij verplicht zijn cliënt hiervan in kennis te stellen wanneer die tijdens de schorsing een beroep op hem doet. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee samenhangende verplichtingen volgen uit de schorsing:\n\n- **Beroepsverbod tijdens schorsing**: een schorsing als tuchtsanctie maakt de externe boekhouder-fiscalist BIBF onmogelijk zijn beroepsactiviteit uit te oefenen. De opdracht (tussentijdse situatie t.b.v. een kredietaanvraag) is typische boekhoudkundige dienstverlening en valt onder dat verbod. 🔗\n- **Kennisgevingsplicht aan het cliënteel**: omdat de schorsing minstens één maand bedraagt (hier 40 dagen), moet CARDON DRUIVELAAR ervan in kennis stellen wanneer die tijdens de schorsing een beroep op hem doet. Hij mag de opdracht dus niet stilzwijgend behandelen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De kennisgevingsplicht uit art. 12 wordt enkel geactiveerd vanaf een schorsing van **minstens één maand**. Bij een kortere schorsing geldt het beroepsverbod nog steeds, maar de uitdrukkelijke informatieplicht aan het cliënteel uit art. 12 valt weg. De 40-dagen-duur in deze casus is dus relevant — niet decoratief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 12 Reglement van Plichtenleer BIBF (KB 18 juli 2017): \"In geval een externe boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doet tijdens de schorsing.\" 📖",
+          "wetsref": "Art. 12 KB 18 juli 2017 (Reglement van Plichtenleer BIBF)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

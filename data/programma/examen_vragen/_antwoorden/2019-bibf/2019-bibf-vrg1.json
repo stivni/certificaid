@@ -1,0 +1,80 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg1",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De heer Peeters moet een **divers inkomen van 22.700,00 €** aangeven: een meerwaarde op een ongebouwd onroerend goed dat hij binnen 8 jaar na verkrijging onder bezwarende titel vervreemdde (art. 90, eerste lid, 8°, a WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Netto verkoopprijs** (art. 101, 1° WIB92) — verkoopprijs verminderd met verantwoorde vervreemdingskosten: 📖\n\n| Element | Bedrag |\n|---|---:|\n| Verkoopprijs | 230.000,00 € |\n| − Verkoopkosten makelaar (incl. 21% btw) | − 6.050,00 € |\n| **Netto verkoopprijs** | **223.950,00 €** |\n\n**Totale aankoopwaarde** (art. 101, 2°, a WIB92) — aankoopprijs vermeerderd met forfaitaire aankoopkosten 25% (hoger dan de werkelijke 20.500 €, dus forfait gekozen) en verhoogd met 5% inflatiecorrectie per vol jaar tussen aankoop (08/03/2015) en verkoop (09/11/2018) = **3 volle jaren**: 📖\n\n| Element | Bedrag |\n|---|---:|\n| Aankoopprijs | 140.000,00 € |\n| + Forfaitaire aankoopkosten (25% × 140.000) | + 35.000,00 € |\n| **Aankoopwaarde vóór indexering** | **175.000,00 €** |\n| + Inflatiecorrectie (5% × 3 jaar × 175.000 = 15%) | + 26.250,00 € |\n| **Totale aankoopwaarde** | **201.250,00 €** |\n\n**Belastbare meerwaarde**: 223.950,00 − 201.250,00 = **22.700,00 €**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het forfait van 25% wordt **enkel** gekozen wanneer het hoger is dan de werkelijke en bewezen aankoopkosten — hier 35.000 € forfait vs. 20.500 € werkelijk, dus het forfait is voordeliger. De 5%-indexering telt **enkel volle jaren** tussen de twee data (08/03/2015 → 09/11/2018 = 3 volle jaren, niet 3,67). Vervreemdingskosten (verkoopzijde) worden **afgetrokken** van de verkoopprijs, niet bij de aankoopwaarde geteld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 90, eerste lid, 8°, a WIB92 maakt de meerwaarde belastbaar als divers inkomen wanneer een ongebouwd onroerend goed onder bezwarende titel verkregen werd en binnen **8 jaar** wordt vervreemd. Art. 101, 1° en 2°, a WIB92 bepaalt de berekeningsregels: vervreemdingsprijs verminderd met vervreemdingskosten, minus aankoopprijs vermeerderd met forfaitaire kosten van 25% (of de hogere werkelijke kosten) en vervolgens verhoogd met 5% per vol jaar tussen verkrijging en vervreemding. 📖",
+          "wetsref": "Art. 90, 8°, a + Art. 101, 1°-2°, a WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De meerwaarde wordt **afzonderlijk belast aan 33%** (art. 171, 1°, b WIB92), omdat de vervreemding plaatsvond binnen 5 jaar na de verkrijging onder bezwarende titel — behoudens globalisatie indien voordeliger. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor meerwaarden op ongebouwde onroerende goederen uit art. 90, 8° WIB92 onderscheidt art. 171 WIB92 twee tarieven naar gelang het tijdsverloop tussen verkrijging en vervreemding: 🔗\n\n- **33%** wanneer de vervreemding plaatsvindt **binnen 5 jaar** na de verkrijging (art. 171, 1°, b);\n- **16,5%** wanneer de vervreemding plaatsvindt **tussen 5 en 8 jaar** na de verkrijging (art. 171, 4°).\n\nPeeters kocht op 08/03/2015 en verkocht op 09/11/2018 = ca. 3 jaar en 8 maanden — ruim binnen de 5-jaar-grens, dus **33%**. De afzonderlijke aanslag wordt enkel toegepast indien zij gunstiger uitvalt dan globalisatie tegen het progressieve tarief (art. 171, inleidende zin). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 171, 1°, b WIB92 onderwerpt de in art. 90, 8° vermelde meerwaarden op ongebouwde onroerende goederen aan een afzonderlijke aanslag van **33%** wanneer de vervreemding binnen 5 jaar na de verkrijging plaatsvindt; art. 171, 4° voorziet **16,5%** bij vervreemding tussen 5 en 8 jaar. De afzonderlijke aanslag wijkt af van het progressieve tarief van art. 130 WIB92, tenzij globalisatie voordeliger is (vergelijkingsregel in de aanhef van art. 171). 📖",
+          "wetsref": "Art. 171, 1°, b + Art. 171, 4° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

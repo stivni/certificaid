@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Niet waar. Dubbelbelastingverdragen volgens het OESO-Modelverdrag (inkomen en vermogen) zijn niet van toepassing op successierechten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het materieel toepassingsgebied van het OESO-Modelverdrag is in art. 2 strikt beperkt tot \"taxes on income and on capital\" — belastingen naar het inkomen en naar het vermogen, met inbegrip van vermogenswinst en loonsom-belastingen. 📖 Successierechten (erfbelasting) zijn een afzonderlijke categorie die overdrachten ten gevolge van overlijden treffen en die buiten dit toepassingsgebied vallen. 🔗 De OESO heeft hiervoor een afzonderlijk model uitgewerkt: het \"Model Double Taxation Convention on Estates and Inheritances and on Gifts\" (1982), dat losstaat van het hoofd-Modelverdrag en in de Belgische verdragspraktijk nauwelijks wordt gebruikt. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Valkuil: ook het Multilateraal Verdrag inzake wederzijdse administratieve bijstand (WABB/CMAAT) is breder dan de DBV's en omvat wél successie- en schenkingsrechten (art. 2, §1, b, iii, A) — maar dat is een instrument voor informatie-uitwisseling en bijstand bij invordering, géén verdrag tot voorkoming van dubbele belasting. 📖 Voor successie-DBV's tussen België en andere staten bestaan slechts enkele bilaterale verdragen (o.a. met Frankrijk en Zweden), buiten het OESO-Modelverdrag om. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "wetsref": "Art. 2 OESO-Modelverdrag (Taxes Covered)",
+          "tekst": "Art. 2, §1 OESO-MV: \"This Convention shall apply to taxes on income and on capital\". 📖 Het materieel toepassingsgebied is limitatief tot inkomen en vermogen; successierechten vallen er per definitie buiten en worden in voorkomend geval geregeld door afzonderlijke bilaterale successie-DBV's of door het OESO-Modelverdrag voor successie- en schenkingsbelastingen (1982). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md",
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

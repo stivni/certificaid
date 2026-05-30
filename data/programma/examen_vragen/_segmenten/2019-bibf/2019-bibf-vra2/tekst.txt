@@ -1,0 +1,55 @@
+Vraag A. 2. ……/5
+Gegevens
+Op datum van 28/03/N-1 heeft de vennootschap “De Dijk” een verkoopfactuur opgesteld
+voor een bedrag van 6.050,00 € (BTW inbegrepen, btw -tarief is 21%).
+Bij het opstellen van de balans per 31/12/N0 blijkt dat deze klant insolvabel is, het verlies
+wordt op 50% geraamd.
+Vragen
+1. Geef de boeking op 28/03/N-1
+Antwoord – 0,5 punt
+28/03/N-1
+400000 Handelsdebiteuren 6.050,00
+451000 @ Te betalen btw 1.050,00
+700300 @ Verkopen 21% btw 5.000,00
+2. Geef de journaalposten op 31/12/N0
+Antwoord – 1,5 punt
+31/12/N0
+407000 Dubieuze debiteuren 6.050,00
+400000 @ Handelsdebiteuren 6.050,00
+31/12/N0
+634000 Waardeverminderingen op 2.500,00
+handelsvorderingen op ten hoogste één
+jaar
+409000 @ Geboekte waardeverminderingen 2.500,00
+(cid:2) Berekening: € 6.050,00 / 1,21 = € 5.000,00 exclusie f btw x 50% = € 2.500,00
+NAAM :
+p. 7
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+3. De klant gaat in faling op 01/09/N+1. De publicatie is verschenen in het Belgisch
+Staatsblad. De vennootschap ontvangt een attest van de curator dat de vordering oninbaar
+is.
+Antwoord – 1,5 punt
+Boeking na publicatie in het Belgisch Staatsblad:
+409000 Geboekte waardevermindering 2.500,00
+411400 Terug te vorderen btw - regularisaties 1.050,00
+647 Verlies op schuldvorderingen 2.500,00
+Of 642 Minderwaarde op realisatie
+handelsvorderingen
+407000 @ Dubieuze debiteuren 6.050,00
+4. Stel dat de klant niet in faling gaat, en de vennootschap”DeDijk” toch nog 60% (tot slot
+van alle rekeningen) van haar vordering ontvangt wordt op 12/12/N+1.
+Antwoord – 1,5 punt
+12/12/N+1
+550000 Bank 3.630,00
+409000 Geboekte waardevermindering 2.500,00
+411400 Terug te vorderen btw - regularisaties 420,00
+407000 @ Dubieuze debiteuren 6.050,00
+742000 @ Meerwaarden op de realisatie van
+500,00
+handelsvorderingen
+NAAM :
+p. 8
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019

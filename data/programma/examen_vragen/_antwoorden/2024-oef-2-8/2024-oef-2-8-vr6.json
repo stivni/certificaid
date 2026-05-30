@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr6",
+  "antwoord_datum": "2026-05-30T12:45:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "JUIST. Dividenden mogen onder het OESO-Modelverdrag zowel in de bronstaat (waar de uitkerende vennootschap is gevestigd) als in de verblijfstaat (woonstaat van de ontvanger) worden belast — gedeelde heffingsbevoegdheid. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/X-oeso-model-verdrag.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 10 §1 OESO-MV: dividenden betaald door een vennootschap-inwoner van een verdragsstaat aan een inwoner van de andere staat *may be taxed in that other State* — de woonstaat van de ontvanger heeft heffingsrecht. 📖 Art. 10 §2 voegt toe: *dividends may also be taxed in [the source] State* — de bronstaat behoudt eveneens een heffingsrecht, maar dat is geplafonneerd (5 % bij ≥ 25 %-moeder-dochterdeelneming gehouden over 365 dagen, 15 % in alle andere gevallen). 📖 Dubbele belasting wordt vervolgens weggenomen door de woonstaat via de methode van art. 23A (vrijstelling) of art. 23B (verrekening). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/X-oeso-model-verdrag.md"]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De plafonds in art. 10 §2 (5 % / 15 %) zijn modeltarieven — Belgische DBV's wijken hier vaak van af (bv. 5 % bij ≥ 10 %-deelneming, of 0 % onder de Moeder-dochterrichtlijn 2011/96/EU voor intra-EU-uitkeringen tussen verbonden vennootschappen). 🔗 Voor de juist/fout-vraag is enkel het principe relevant: art. 10 stelt géén exclusieve heffing in één staat — exclusieve bronstaatheffing of exclusieve woonstaatheffing wordt expliciet verworpen in het OESO-commentaar (§§ 5-6 bij art. 10). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 10 §1 en §2 OESO-Modelverdrag (Condensed Version 2017): woonstaat-heffing (§1) + beperkt bronstaat-heffingsrecht (§2). Commentaar art. 10 §§ 4-6: noch exclusieve bron- noch exclusieve woonstaatheffing is aanvaardbaar als algemene regel — vandaar gedeelde bevoegdheid.",
+          "wetsref": "Art. 10 §§1-2 OESO-Modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

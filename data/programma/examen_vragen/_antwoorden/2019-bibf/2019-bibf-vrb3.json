@@ -1,0 +1,253 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb3",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "s1",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — MVA staan op de balans aan aanschaffingswaarde minus afschrijvingen, niet aan marktwaarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het Belgisch boekhoudrecht hanteert het aanschaffingswaarde-principe: MVA worden geboekt aan aanschaffingsprijs verminderd met geaccumuleerde afschrijvingen (boekwaarde). 📖 De echte/markt-waarde kan daar fors van afwijken — typisch oude gebouwen die jarenlang afgeschreven werden maar door de vastgoedmarkt in waarde stegen. 🔗 Net die discrepantie is de bestaansreden van de optionele herwaardering uit art. 3:35 KB WVV (oud art. 57 KB W.Venn.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — herwaardering is een **optie**, geen verplichting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:35 KB WVV (oud art. 57 KB W.Venn.) bepaalt dat de vennootschappen hun MVA en FVA *mogen* herwaarderen wanneer de waarde op vaststaande en duurzame wijze boven de boekwaarde uitstijgt. 📖 CBN-advies 2011/14 bevestigt expliciet: \"het boeken van een herwaarderingsmeerwaarde is een optie en geenszins een verplichting\" — er is zelfs grote voorzichtigheid geboden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — de tegenpost staat in het **eigen vermogen** (rubriek III. Herwaarderingsmeerwaarden, klasse 12), niet bij de winst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De boeking is: activum-rubriek ...8 (geboekte meerwaarden) D / rekening 12 'Herwaarderingsmeerwaarden' C. 🔗 CBN 2011/14: \"De geboekte meerwaarden worden rechtstreeks toegerekend aan passiefpost III. Herwaarderingsmeerwaarden. De oorspronkelijke boeking heeft geen invloed op de resultatenrekening.\" 📖 De herwaardering raakt dus enkel de balans (actief én eigen vermogen stijgen), nooit de resultatenrekening.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — de tegenpost is rubriek III van het eigen vermogen, dus het EV stijgt met het bedrag van de meerwaarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De meerwaarde wordt geboekt op rekening 12 'Herwaarderingsmeerwaarden', een sub-rubriek van het eigen vermogen (klasse 1). 📖 Mechanisch verhoogt het eigen vermogen dus automatisch met het geboekte bedrag van de meerwaarde — dat is ook precies waarom de wetgever de optie beperkt en bewijs van duurzaamheid eist (geen kunstmatige opblazing van het EV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — het toepassingsgebied dekt MVA en FVA (deelnemingen + aandelen), maar **niet** immateriële vaste activa. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:35 KB WVV (oud art. 57 KB W.Venn.) laat herwaardering toe voor \"materiële vaste activa, de deelnemingen en aandelen die onder de financiële vaste activa voorkomen\". 📖 FVA is dus correct, maar IMA (klasse 21 — goodwill, octrooien, software, ontwikkelingskosten) vallen uitdrukkelijk **buiten** het toepassingsgebied. 🔗 Ook oprichtingskosten, voorraden en vorderingen mogen niet worden geherwaardeerd in Be-GAAP.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — een uitgedrukte, niet-gerealiseerde meerwaarde mag niet via een omzetting-in-kapitaal + onmiddellijke kapitaalvermindering worden gebruikt om een bedrijfsverlies weg te werken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:76 KB WVV laat NV/SE/SCE wel toe een herwaarderingsmeerwaarde om te zetten in kapitaal, maar de meerwaarde behoudt na omzetting haar karakter van *niet-gerealiseerde* meerwaarde. 📖 Een directe kapitaalvermindering om een verlies aan te zuiveren komt neer op het *aanwenden* van die niet-gerealiseerde meerwaarde — dat doorbreekt de onaantastbaarheidsvoorwaarde van art. 44 WIB92 (waardoor de meerwaarde belastbaar wordt) en ondergraaft de voorzichtigheidsregel. 🔗 De truc \"binnen eenzelfde periode\" wordt door CBN/doctrine niet aanvaard als geldige verliesverwerking.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — er is wél een extra boekhoudkundige afschrijvingskost, maar fiscaal is die afschrijving **niet aftrekbaar** (geen fiscale kost). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Op de geherwaardeerde waarde wordt voortaan afgeschreven over de residuele gebruiksduur (CBN 2011/14 + CBN 2010/15), wat boekhoudkundig een hogere kost geeft. 📖 Fiscaal is het deel van de afschrijving dat slaat op de geherwaardeerde waarde echter niet aftrekbaar: de meerwaarde is fiscaal vrijgesteld (art. 44 WIB92) zolang ze in de onaantastbaarheidsrekening staat, en het correlatieve afschrijvingsdeel wordt fiscaal geneutraliseerd. 🔗 Per saldo: enkel boekhoudkundige meerkost, geen extra fiscale kost.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — herwaarderingsmeerwaarden worden **uitgesloten** uit het risicokapitaal dat als basis dient voor de notionele intrestaftrek. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De NID (art. 205bis-205quater WIB92) gaat uit van een *gecorrigeerd* eigen vermogen: uitgedrukte maar niet-gerealiseerde meerwaarden (waaronder de herwaarderingsmeerwaarden op MVA/FVA) worden uit de berekeningsbasis verwijderd om louter boekhoudkundige opblazing van het EV te neutraliseren. 🤖 Een herwaardering geeft dus geen hogere NID — de kunstmatige stijging van het EV (zie s4) wordt fiscaal weer afgetrokken voor de NID-berekening.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — de afschrijving op het geherwaardeerde deel wordt fiscaal geneutraliseerd via een gelijktijdige belastingvrije terugneming van de meerwaarde (rekening 760), niet via opname in de verworpen uitgaven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Boekhoudkundig wordt het afgeschreven deel van de meerwaarde overgeboekt van rekening 12 naar rekening 760 'Onttrekkingen aan de herwaarderingsmeerwaarden' (of naar de beschikbare reserves). 📖 Fiscaal: de extra afschrijving (kost) en de 760-opbrengst zijn allebei belastingvrij/neutraal — netto-effect 0 op het belastbaar resultaat. 🔗 Er gebeurt dus géén opname als verworpen uitgave; de techniek werkt via de onaantastbaarheidsvoorwaarde van art. 44 WIB92, niet via de DNA-tabel.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — bij realisatie worden alle rekeningen met betrekking tot de uitgedrukte, niet-gerealiseerde meerwaarde (de ...8-rekening + het restant van rekening 12) tegengeboekt, zodat het activum opnieuw aan zijn oorspronkelijke boekwaarde staat vóór de verkoopboeking. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij verkoop verliest de eerder uitgedrukte meerwaarde haar reden van bestaan: het activum verlaat de balans en de meerwaarde wordt een *gerealiseerde* meerwaarde via de resultatenrekening (763). 📖 Mechanisch wordt eerst de ...8-rubriek (geboekte meerwaarden) en het saldo van rekening 12 afgeboekt — daarna wordt het verschil tussen verkoopprijs en oorspronkelijke netto-boekwaarde geboekt als realisatiemeerwaarde. 🔗 Resultaat: tijdens de afhandeling staat het actief weer aan oorspronkelijke boekwaarde, exact zoals de stelling beschrijft.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Hoofdgrondslag voor alle 10 stellingen: **art. 3:35 KB WVV** (uitvoeringsbesluit 29.04.2019, voorheen art. 57 KB W.Venn.) — herwaardering is optioneel, beperkt tot MVA + FVA (deelnemingen en aandelen), vereist een vaststaande en duurzame waardestijging, met tegenpost in passiefrubriek III. Herwaarderingsmeerwaarden (klasse 12). 📖 Aanvullend: **CBN-advies 2011/14** (boekhoudkundige verwerking, jaarlijkse toets, afschrijving op geherwaardeerde waarde), **CBN-advies 2021/13** (omzetting in kapitaal — art. 3:76 KB WVV — enkel voor kapitaalhoudende vennootschappen), **CBN-advies 2010/15** (afschrijving geherwaardeerde activa) en **art. 44 WIB92** (fiscale vrijstelling zolang de meerwaarde onaantastbaar in het EV blijft — verklaart ook waarom NID-basis en afschrijving fiscaal geneutraliseerd worden). 🔗",
+          "wetsref": "art. 3:35 KB WVV (oud art. 57 KB W.Venn.); art. 3:76 KB WVV; art. 44 WIB92; CBN 2011/14, 2021/13, 2010/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md",
+            "resources/bronnen/adviezen/CBN-2021-13-herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

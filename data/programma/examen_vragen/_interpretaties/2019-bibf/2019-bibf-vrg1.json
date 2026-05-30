@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg1",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Meerwaarde op snelle verkoop van een ongebouwd onroerend goed — kwalificatie als divers inkomen en tarief",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": [
+    "diverse inkomsten",
+    "meerwaarde ongebouwde onroerende goederen",
+    "artikel 90 8° WIB92",
+    "speculatieve meerwaarde",
+    "afzonderlijk tarief",
+    "inflatiecorrectie",
+    "forfaitaire aankoopkosten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer PEETERS, gepensioneerd, kocht op 08/03/2015 een perceel grond aan (KI: 80,00 €) voor de prijs van 140.000,00 €. De aankoopkosten bedragen 20.500,00 €. Bij akte van 09/11/2018 verkocht hij het terrein opnieuw, voor de prijs van 230.000,00 €, exclusief 6.050,00 € aan verkoopkosten (incl. 21% btw) die hij betaalde aan de vastgoedmakelaar belast met de verkoop."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke inkomsten dient de Heer PEETERS ingevolge de verkoop van het perceel aan te geven?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Tegen welk tarief wordt dit inkomen belast?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": null,
+    "tekst": "De PDF bevat onder elke deelvraag het volledige modelantwoord ('Antwoord – 3 punten' en 'Antwoord – 1 punt'). Voor deelvraag 1: meerwaarde aan te geven als divers inkomen (perceel verkocht binnen 8 jaar na verkrijging onder bezwarende titel); berekening 230.000 − 6.050 = 223.950 netto verkoopprijs; aankoopprijs 140.000 + forfaitaire kosten 35.000 (25% > werkelijke 20.500) = 175.000; + inflatiecorrectie 26.250 (5% × 3 volle jaren = 15%) = 201.250 totale aankoopwaarde; meerwaarde = 22.700. Voor deelvraag 2: 33% (behoudens voordeliger globalisatie), vermits verkoop binnen 5 jaar plaatsvond.",
+    "vermoedelijke_status": "officieel modelantwoord ITAA-BIBF — uit vraagstelling weggehouden, te gebruiken als gold reference in latere antwoord-pass"
+  },
+  "herinterpretatie_motivering": "De PDF bevat zowel de vraagstelling als het volledige officiële modelantwoord (puntenverdeling 3 + 1 = 4 pt). De vraagstellingen zelf zijn ongewijzigd overgenomen uit de PDF; het modelantwoord is uit de vraagstelling gehouden en in 'antwoord_hint_in_vraag' geregistreerd als gold reference. Twee deelvragen geïdentificeerd op basis van numerieke labels '1.' en '2.' in de PDF. OCR-artefacten in tekst.txt (spaties in 'aankoopkoste n', '140.000 .€', 'hi j', 'Total aankoopwaarde') zijn niet in de casus-context overgenomen — schone PNG-tekst gebruikt. Beide deelvragen krijgen motivatie_verwacht=true: deelvraag 1 vereist kwalificatie + berekening (impliciet motiverende redenering — 8-jaars-regel), deelvraag 2 vereist tariefkeuze + grondslag (5-jaars-regel binnen art. 171 WIB92). PO 2.2 (Personenbelasting) volgt uit sectie G in BIBF-examen 2019.",
+  "kwaliteits_flags": [
+    "ocr_artefact",
+    "antwoord_hint_aanwezig"
+  ]
+}

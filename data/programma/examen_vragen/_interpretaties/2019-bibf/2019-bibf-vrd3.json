@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd3",
+  "interpretatie_datum": "2026-05-30T12:43:44Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Overname van een handelsfonds: welke documenten/attesten de overnemer moet opvragen om zich tegen schulden van de overlater te beschermen, en de gevolgen (solidaire aansprakelijkheid) wanneer die documenten ontbreken",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "overname handelsfonds",
+    "fiscale attesten",
+    "sociale attesten",
+    "hypotheekbureau",
+    "pand op handelszaak",
+    "solidaire aansprakelijkheid overnemer",
+    "BTW-attest",
+    "RSZ-attest"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een cliënt wil een handelsfonds overnemen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Welke documenten moet hij in zijn bezit hebben om er zich van te verzekeren dat hij geen schulden met betrekking tot dat handelsfonds zal moeten dragen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Wat kunnen de gevolgen zijn van het ontbreken van die documenten?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (Praktisch Bekwaamheidsexamen 4 mei 2019, sectie D.3, 2,5 punten — 1,25 punt per deelvraag). De PDF bevat modelantwoorden onder elke deelvraag (hypotheekbureau-attest + BTW/Belastingen/RSZ/RSVZ-attesten voor deelvraag 1; solidaire aansprakelijkheid van de overnemer beperkt tot de overnameprijs voor de fiscale/sociale schulden van de overlater voor deelvraag 2); deze gold-antwoorden horen niet thuis in het interpretatie-artefact en zijn weggelaten. Twee genummerde deelvragen (1, 2) overgenomen met letter-ids a, b (label_in_pdf behoudt de PDF-nummering). Casus is kort (één zin) en blijft één casus_context-blok. Beide deelvragen zijn open vragen die een opsomming/uitleg vragen zonder expliciete motiveringsinstructie, dus motivatie_verwacht=false. Programmaonderdeel 3.0 (Vennootschapsrecht — handelsfonds-overname valt onder de verplichtingen bij overdracht van een handelszaak: art. 442bis WIB, art. 93undecies B Wbtw, art. 41quinquies KB nr. 38 / art. 16ter en art. 16quater Wet 27/06/1969 RSZ). Geen OCR-artefacten of typo's; geen kwaliteits-flags nodig.",
+  "kwaliteits_flags": []
+}

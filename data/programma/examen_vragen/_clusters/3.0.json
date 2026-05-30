@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "3.0",
-  "gegenereerd_op": "2026-05-29T19:46:41+00:00",
+  "gegenereerd_op": "2026-05-30T12:58:10+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 50,
+  "n_vragen": 54,
   "n_clusters": 0,
-  "n_singletons": 50,
+  "n_singletons": 54,
   "clusters": [],
   "borderline_paren": [
     {
@@ -293,6 +293,30 @@
       "vraag_id": "2015-1-vr27",
       "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr27.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrd3",
+      "vraag_onderwerp": "Overname van een handelsfonds: welke documenten/attesten de overnemer moet opvragen om zich tegen schulden van de overlater te beschermen, en de gevolgen (solidaire aansprakelijkheid) wanneer die documenten ontbreken",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrd3.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrj1",
+      "vraag_onderwerp": "Inbrengen bij oprichting BVBA en quasi-inbreng",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrj1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrj2",
+      "vraag_onderwerp": "Vrijwillige ontbinding BVBA: welke partij komt wettelijk tussen voor elke stap van de ontbindings- en vereffeningsprocedure",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrj2.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrk1",
+      "vraag_onderwerp": "Sociaal statuut van zelfstandige in bijberoep — aansluiting sociale kas, berekening sociale bijdragen en sociale rechten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrk1.json"
     },
     {
       "examen_id": "2024-1",

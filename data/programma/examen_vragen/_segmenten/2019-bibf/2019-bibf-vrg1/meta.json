@@ -1,0 +1,12 @@
+{
+  "bbox_hint": null,
+  "examen_id": "2019-bibf",
+  "karakter": "officieel — BIBF Praktisch Bekwaamheidsexamen 4 mei 2019, sectie G.1; PDF bevat modelantwoorden — gebruik die in segmenten als gold reference.",
+  "pagina_nummers": [
+    34
+  ],
+  "pdf_bestand": "2019-bibf.pdf",
+  "rationale": "manuele isolatie (BIBF letter-vakken A-K)",
+  "sectie_letter": "G.1",
+  "vraag_id": "2019-bibf-vrg1"
+}

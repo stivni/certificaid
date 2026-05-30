@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.2",
-  "gegenereerd_op": "2026-05-29T19:45:30+00:00",
+  "gegenereerd_op": "2026-05-30T12:55:30+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 32,
+  "n_vragen": 35,
   "n_clusters": 0,
-  "n_singletons": 32,
+  "n_singletons": 35,
   "clusters": [],
   "borderline_paren": [
     {
@@ -208,6 +208,24 @@
       "vraag_id": "2015-1-vr32",
       "vraag_onderwerp": "Belasting roerende inkomsten personenbelasting: onjuiste uitspraak",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr32.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrg1",
+      "vraag_onderwerp": "Meerwaarde op snelle verkoop van een ongebouwd onroerend goed — kwalificatie als divers inkomen en tarief",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrg1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrg2",
+      "vraag_onderwerp": "Personenbelasting — aangifteplicht auteursrechten en belastingheffing meerwaarde op gebouwd onroerend goed",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrg2.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrg3",
+      "vraag_onderwerp": "Fiscale aftrekbaarheid van relatiegeschenken (wijn) als beroepskost in de personenbelasting, drempel handelsgeschenken van geringe waarde, fiche 281.50 en belastbaarheid bij de ontvanger",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrg3.json"
     },
     {
       "examen_id": "2024-1",

@@ -1,0 +1,79 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrj2",
+  "interpretatie_datum": "2026-05-30T12:45:47Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Vrijwillige ontbinding BVBA: welke partij komt wettelijk tussen voor elke stap van de ontbindings- en vereffeningsprocedure",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "vrijwillige ontbinding",
+    "vereffening",
+    "BVBA",
+    "vennootschapsrecht",
+    "staat van activa en passiva",
+    "controleverslag ontbinding",
+    "benoeming vereffenaar",
+    "activaverdelingsplan",
+    "bevoegdheidsverdeling organen"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Bij de vrijwillige ontbinding van een BVBA zijn er diverse partijen betrokken, die 'acties' dienen te ondernemen."
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Keuzelijst — partijen die wettelijk kunnen tussenkomen",
+      "rijen": [
+        { "label": "algemene vergadering", "bedrag": null },
+        { "label": "Boekhoudkantoor (BIBF, IAB)", "bedrag": null },
+        { "label": "commissaris/revisor/accountant", "bedrag": null },
+        { "label": "curator", "bedrag": null },
+        { "label": "hoofdaandeelhouder", "bedrag": null },
+        { "label": "vereffenaar", "bedrag": null },
+        { "label": "voorzitter rechtbank van ondernemingen", "bedrag": null },
+        { "label": "zaakvoerder", "bedrag": null }
+      ]
+    },
+    {
+      "type": "gegevens_tabel",
+      "titel": "Acties — voor elk van deze 10 acties moet de tussenkomende partij worden ingevuld",
+      "rijen": [
+        { "label": "1. Voorstel tot 'vrijwillige' ontbinding", "bedrag": null },
+        { "label": "2. Opstellen van de staat van activa en passiva", "bedrag": null },
+        { "label": "3. Opstellen van het controleverslag", "bedrag": null },
+        { "label": "4. Uitnodiging buitengewone algemene vergadering", "bedrag": null },
+        { "label": "5. Beslissing tot ontbinding", "bedrag": null },
+        { "label": "6. Benoeming vereffenaar", "bedrag": null },
+        { "label": "7. Bevestiging van de benoeming van de vereffenaar", "bedrag": null },
+        { "label": "8. Opstellen activaverdelingsplan", "bedrag": null },
+        { "label": "9. Uitvoeren van het activaverdelingsplan", "bedrag": null },
+        { "label": "10. Afsluiting van de vereffening", "bedrag": null }
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "J.2",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld in de tabel hieronder, voor elk van de 10 acties, welke van de opgesomde partijen wettelijk tussenkomt. Kies telkens één partij uit de keuzelijst.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "De tabelcellen in de PDF zijn al ingevuld met modelantwoorden: 1=zaakvoerder, 2=zaakvoerder, 3=commissaris/revisor/accountant, 4=zaakvoerder, 5=algemene vergadering, 6=algemene vergadering, 7=voorzitter rechtbank van ondernemingen, 8=vereffenaar, 9=vereffenaar, 10=algemene vergadering.",
+    "vermoedelijke_status": "officiële BIBF-modeloplossing (gold reference, zie meta.karakter) — niet in vraagstelling laten staan; hoort thuis in het antwoord-artefact"
+  },
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (4 mei 2019, sectie J.2 onder J. Vennootschapsrecht, 5 punten). De PDF toont een tabel met 10 acties waarbij de antwoord-kolom reeds is ingevuld met de officiële modeloplossing (vetgedrukt) — conform meta.karakter is dit de gold reference voor het later op te leveren antwoord-artefact. Volgens §4.3 van de prompt is dit een antwoord-hint: de modeloplossing is uit de vraagstelling gehouden en bewaard in antwoord_hint_in_vraag. Schema 1.2 kent geen 'mapping_tabel'-vraagtype; mapping-tabel valt onder vraagtype=open (vrij in te vullen tabel, één gekozen partij per rij). Eén deelvraag (geen onafhankelijke sub-items met eigen mechaniek). label_in_pdf='J.2' omdat de PDF letter-vakken gebruikt (geen subletters binnen J.2). Keuzelijst (8 partijen) en actie-lijst (10 acties) als twee aparte gegevens_tabel-blokken in context_blokken — bedrag=null voor alle rijen omdat het tekstuele items zijn (§4.5 staat null expliciet toe voor niet-numerieke rijen). De namen van de partijen zijn exact behouden zoals in de PDF (bv. 'Boekhoudkantoor (BIBF, IAB)' met hoofdletter B, 'voorzitter rechtbank van ondernemingen' zonder hoofdletter). Geen OCR-typo's: pdfplumber-extract gaf tabel-cellen op aparte regels (rij-label op één regel, antwoord op de volgende) maar de PNG toont een nette 2-koloms tabel — geen normalisatie nodig in vraagstelling want antwoord-kolom is uitgefilterd. PO 3.0 (vennootschapsrecht — vrijwillige ontbinding en vereffening BVBA, materie van W.Venn. / WVV).",
+  "kwaliteits_flags": [
+    "tabel_in_pdf_zichtbaar",
+    "antwoord_hint_aanwezig"
+  ]
+}

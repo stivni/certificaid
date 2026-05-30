@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre2",
+  "antwoord_datum": "2026-05-30T12:50:02Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Neen — mevrouw De Grondelaar mag dit niet: een stagiair mag na het einde van de stageovereenkomst geen cliënten van zijn (gewezen) stagemeester benaderen of overnemen zonder diens voorafgaande schriftelijke toestemming. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie cumulatieve inbreuken kleuren de feiten:\n\n1. **Aanmaken en meenemen van een cliëntenbestand uit het boekhoudprogramma** vóór haar vertrek schendt het beroepsgeheim en de loyauteitsplicht t.a.v. de stagemeester. 🔗\n2. **Mailing naar de cliënten van FISCOXIX** is een directe benadering van het cliënteel van de stagemeester — net wat het stagereglement viseert. 🔗\n3. **Overname van drie dossiers** zonder voorafgaande schriftelijke toestemming van Christophe VIXIX, en met louter een kennisgeving twee maanden ná de feiten, is een dubbele inbreuk: zowel het stagereglement (verbod stagiair, voorafgaande toestemming vereist) als de algemene overname-regels onder confraters (voorafgaande schriftelijke kennisgeving aan de voorganger vóór aanvaarding, niet erna) zijn geschonden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — het verbod werkt door ná het einde van de stage: het is geen contractueel niet-concurrentiebeding dat partijen vrij overeenkomen, maar een reglementaire verplichting verbonden aan de hoedanigheid van (gewezen) stagiair. De enige uitweg is een **voorafgaande schriftelijke toestemming** van de stagemeester — een latere kennisgeving heelt de inbreuk niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Hoofdgrondslag** — Art. 6 §1, 2° Stagereglement BIBF (KB 10 april 2015): de stagiair mag, ook na afloop van de stageovereenkomst, geen cliënten van zijn stagemeester benaderen of overnemen zonder diens voorafgaande schriftelijke toestemming. 🔗\n\n**Bijkomend** — Art. 17 KB 18 juli 2017 (plichtenleer BIBF): de externe boekhouder BIBF die een opdracht van een confrater overneemt, moet zijn voorganger **vooraleer** de opdracht te aanvaarden schriftelijk in kennis stellen van de overname — niet pas twee maanden later. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

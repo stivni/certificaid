@@ -1,0 +1,100 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vri1",
+  "antwoord_datum": "2026-05-30T13:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**De termijn die in de vraag om inlichtingen zelf vermeld staat.** Bij ontstentenis geldt de wettelijke standaardtermijn van **één maand vanaf de derde werkdag volgend op de verzending** van de aanvraag (art. 316 WIB92), te verlengen om wettige redenen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 316 WIB92: belastingplichtige moet schriftelijk antwoorden \"binnen een maand te rekenen van de derde werkdag volgend op de verzending van de aanvraag, welke termijn wegens wettige redenen kan worden verlengd\". 📖",
+          "wetsref": "Art. 316 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**De heer Brugmans zelf**, tenzij hij een geschreven en ondertekende volmacht geeft aan het boekhoudkantoor om hem te vertegenwoordigen; die volmacht moet samen met het antwoord aan de administratie worden meegedeeld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De fiscale antwoordplicht rust op de belastingplichtige zelf (art. 316 WIB92 — \"eenieder die onderhevig is\"). Een derde — zoals het boekhoudkantoor — kan slechts geldig in zijn naam ondertekenen op basis van een schriftelijke volmacht. Geen volmacht meegedeeld = antwoord onontvankelijk; gevolg is hetzelfde als niet-antwoorden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 316 WIB92 (antwoordplicht rust op de belastingplichtige). Vertegenwoordiging door een mandataris is een algemeen rechtsbeginsel; de administratie eist dat de geschreven volmacht gelijktijdig met het antwoord wordt voorgelegd. 🔗",
+          "wetsref": "Art. 316 WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De administratie kan de aangifte **herzien via een bericht van wijziging** (art. 346 WIB92), een **administratieve boete** opleggen (art. 445 WIB92) en/of de belasting vestigen via **aanslag van ambtswege** met omkering van de bewijslast (art. 351 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Mogelijke gevolgen bij niet-antwoorden op de vraag om inlichtingen:\n\n- **Bericht van wijziging (art. 346 WIB92)** — de fiscus deelt mee waarom hij van de aangifte wil afwijken; Brugmans heeft één maand om te reageren. 🔗\n- **Aanslag van ambtswege (art. 351 WIB92)** — wie niet (tijdig) antwoordt op een vraag om inlichtingen wordt ambtshalve aangeslagen; de bewijslast keert om: Brugmans moet voortaan zélf het juiste belastbare bedrag aantonen. 🔗\n- **Administratieve geldboete (art. 445 WIB92)** — 50 EUR tot 1.250 EUR per overtreding, volgens de schaal vastgelegd door de Koning. 📖\n- Eventueel **belastingverhoging** (art. 444 WIB92) bij vaststelling van een tekortkoming in de aangifte. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een aanslag van ambtswege is geen \"automatische straf\": de fiscus moet vooraf het bericht van wijziging (of de kennisgeving van aanslag van ambtswege) versturen met motivering. Maar zodra de aanslag van ambtswege is gevestigd, draagt de belastingplichtige de bewijslast om aan te tonen dat het belastbare bedrag onjuist is — een veel ongunstigere positie dan bij een gewone aanslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 346 WIB92 (bericht van wijziging) · art. 351 WIB92 (aanslag van ambtswege bij niet-antwoorden op vraag om inlichtingen) · art. 445 WIB92 (administratieve geldboete 50 — 1.250 EUR per inbreuk op WIB92 of uitvoeringsbesluiten). 📖",
+          "wetsref": "Art. 346, 351, 445 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

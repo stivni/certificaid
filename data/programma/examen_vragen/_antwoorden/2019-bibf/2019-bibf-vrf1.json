@@ -1,0 +1,161 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrf1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "In de laatste BTW-aangifte van (D) worden de volgende roosters ingevuld:\n\n| Rooster | Bedrag (EUR) | Inhoud |\n|---|---:|---|\n| **00** | 320.000,00 | Overdracht algemeenheid van goederen (handelszaak aan zoon) |\n| **03** | 950,00 | Maatstaf van heffing onttrekking televisie (aankoopprijs) |\n| **54** | 199,50 | Verschuldigde BTW op de onttrekking (950,00 × 21%) |\n\n📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- **Rooster 00** — de overdracht van de handelszaak voor 320.000,00 € wordt geboekt in rooster 00 (handelingen waarvoor geen BTW verschuldigd is wegens art. 11 WBTW — geen levering). 🔗\n- **Rooster 03** — de tv wordt onttrokken aan het bedrijf voor privégebruik; de maatstaf van heffing is de **aankoopprijs** van een soortgelijk goed op het tijdstip van de onttrekking, niet de verkoopprijs van 1.200,00 € (art. 33, 1° WBTW). De aankoopprijs van 950,00 € komt in rooster 03 (handelingen onderworpen aan 21%). 🔗\n- **Rooster 54** — 21% × 950,00 € = **199,50 €** verschuldigde BTW op de onttrekking. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De maatstaf voor de onttrekking is **niet** de verkoopprijs (1.200,00 €) maar de **aankoopprijs of de kostprijs** van een soortgelijk goed (art. 33, 1° WBTW). Wie hier de etalageprijs neemt, verhoogt de verschuldigde BTW onterecht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 11 WBTW (overdracht algemeenheid — geen levering) + art. 12, § 1, 5° WBTW (gelijkstelling met levering: bij stopzetting blijven goederen met aftrekrecht in het bedrijf) + art. 33, 1° WBTW (maatstaf = aankoopprijs of kostprijs). 📖",
+          "wetsref": "art. 11, 12 § 1 5°, 33 1° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Toepasselijke bepalingen uit het BTW-wetboek:\n\n- **Overdracht handelsfonds**: art. 11 en art. 18, § 3 WBTW — de overdracht van een algemeenheid van goederen (of bedrijfsafdeling) tussen twee BTW-plichtigen wordt niet als levering of dienst aangemerkt. 📖\n- **Behouden van de televisie (onttrekking)**: art. 12, § 1, 5° WBTW (onttrekking bij stopzetting) en art. 33, 1° WBTW (maatstaf van heffing = aankoopprijs of kostprijs). 📖\n- **Bijzonder stuk** dat de onttrekking vaststelt + **\"certificaat\"** uit te reiken voor de overdracht: toepassing van art. 93undecies, § 3 WBTW (bewijs/formaliteiten bij overdracht en stopzetting). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor de overdracht zelf moet bovendien een **stuk** worden opgesteld door de bij de overdracht betrokken partijen, waarvan elke partij een exemplaar ontvangt, met vermelding van datum, partijen + BTW-nummer, voorwerp en prijs (art. 11 KB nr. 1). Voor de onttrekking maakt de belastingplichtige een **bijzonder stuk** op dat de onttrekking vaststelt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "WBTW art. 11 + 18 § 3 (overdracht algemeenheid) • art. 12 § 1 5° + 33 1° (onttrekking + maatstaf) • art. 93undecies § 3 (certificaat) • art. 11 KB nr. 1 (formaliteiten stuk). 📖",
+          "wetsref": "art. 11, 18 § 3, 12 § 1 5°, 33 1°, 93undecies § 3 WBTW + art. 11 KB nr. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Standaard-methode (per voertuig de werkelijke beroepsverhouding):\n\n| Rooster | Bedrag (EUR) | Inhoud |\n|---|---:|---|\n| **83** | 61.600,00 | Investering met recht op aftrek (22.000 + 22.000 + 22.000 × 80%) |\n| **86** | 66.000,00 | Totale intracommunautaire verwerving (3 × 22.000) |\n| **55** | 13.860,00 | Verschuldigde BTW via verlegging (66.000 × 21%) |\n| **59** | 12.936,00 | Aftrekbare BTW (61.600 × 21%) |\n\n📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Het gaat om een **intracommunautaire verwerving** van drie fiscale lichte vrachtwagens uit Duitsland door een Belgische BTW-plichtige (verlegging van heffing in België):\n\n- **Rooster 86** = volledige maatstaf van de ICV = 3 × 22.000 = **66.000,00 €**. 🔗\n- **Rooster 55** = verschuldigde BTW op de ICV via verlegging = 66.000 × 21% = **13.860,00 €**. 🔗\n- **Rooster 83** = maatstaf van de **investering met recht op aftrek**. Twee voertuigen zijn 100% beroepsmatig (2 × 22.000 = 44.000); het derde wordt voor 20% privé gebruikt, dus 80% beroepsmatig (22.000 × 80% = 17.600). Totaal = **61.600,00 €**. 🔗\n- **Rooster 59** = aftrekbare BTW = 61.600 × 21% = **12.936,00 €**. 🔗\n\n**Variant — methode 4 (algemeen forfait 85%)**: voor fiscale lichte vrachtwagens die de belastingplichtige **overwegend** voor zijn economische activiteit gebruikt, mag het forfait van 85% beroepsgebruik worden toegepast (circulaire AAFisc nr. 36/2015, beslissing E.T. 119.650 van 23/11/2015). Voor het derde voertuig (80% beroep) levert 85% een **gunstiger** aftrek:\n\n| Rooster | Bedrag (EUR) |\n|---|---:|\n| 83 | 62.700,00 (22.000 + 22.000 + 22.000 × 85%) |\n| 86 | 66.000,00 |\n| 55 | 13.860,00 |\n| 59 | 13.167,00 (62.700 × 21%) |\n\nMethode 4 is in dit concrete geval de **meest gunstige wettelijke methode**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het forfait van 85% geldt **enkel** voor fiscale lichte vrachtwagens die **overwegend** (> 50%) beroepsmatig worden gebruikt — anders is misbruik mogelijk. De maatstaf in rooster 86 blijft altijd de **volledige** aankoopprijs van de ICV (66.000); enkel rooster 83/59 (aftrekbaar deel) varieert met de gekozen methode. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "WBTW art. 25ter (intracommunautaire verwerving) + art. 51, § 1, 2° (verlegging via rooster 55) + art. 45, § 2 (aftrekbeperking voertuigen, fiscale lichte vrachtwagens uitgesloten van de 50%-cap) + art. 45, § 1 + KB nr. 3 art. 1 (aftrek volgens werkelijk beroepsgebruik). Variant 85%: **circulaire AAFisc nr. 36/2015 (beslissing E.T. 119.650 van 23/11/2015)**. 📖",
+          "wetsref": "WBTW art. 25ter, 45 §§ 1–2, 51 § 1 2° + KB nr. 3 + Circ. AAFisc 36/2015",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Twee verplichte stappen om de overgang van het normale naar het forfaitaire regime per 01/04/2019 te realiseren:\n\n1. **Kennisgeving aan de BTW-administratie vóór 15 maart 2019**, bij aangetekend schrijven, door middel van een **document 604B**, om de keuze voor de forfaitaire regeling vanaf 1 april 2019 te melden. 📖\n2. **Gedetailleerde inventaris opmaken op 31 maart 2019** met aanduiding van aard, hoeveelheid en waarde (uitgedrukt in aankoopprijs) van de voorraad, **gegroepeerd volgens de uitsplitsing van het boek van inkomende facturen** voorgeschreven door de forfaitaire regeling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De goederen in de overgangsinventaris worden geacht **onder de forfaitaire regeling te zijn geleverd**. De heffing van die overgangsvoorraad wordt **opgeschort tot het einde van het jaar van overgang** (31/12/2019):\n\n- Maakt de belastingplichtige op die datum een **nieuwe inventaris**, dan wordt een regularisatie verricht op basis van de **vergelijking** tussen beide inventarissen. 🔗\n- Maakt hij geen inventaris, dan is de BTW verschuldigd op de overgangsvoorraad volgens tarieven en forfaitaire coëfficiënten van dat jaar, **opeisbaar in 4 kwartaalschijven** in het daaropvolgende jaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56, § 1 WBTW (forfaitaire regeling) + KB nr. 2 van 19 december 2018 met betrekking tot de forfaitaire regeling inzake btw (kennisgevingsmodaliteiten via aangifte/604B en overgangsregels voorraad). 📖",
+          "wetsref": "art. 56 § 1 WBTW + KB nr. 2, 19 december 2018",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

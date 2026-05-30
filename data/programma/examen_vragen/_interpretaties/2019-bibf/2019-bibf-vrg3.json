@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg3",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Fiscale aftrekbaarheid van relatiegeschenken (wijn) als beroepskost in de personenbelasting, drempel handelsgeschenken van geringe waarde, fiche 281.50 en belastbaarheid bij de ontvanger",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": [
+    "beroepskosten",
+    "relatiegeschenken",
+    "handelsgeschenken van geringe waarde",
+    "50%-aftrekbeperking",
+    "fiche 281.50",
+    "voordeel van alle aard",
+    "personenbelasting",
+    "drempel 125 EUR"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sectie G. Personenbelasting — Vraag G.3 (/4 punten). De heer Durant is een onafhankelijk verzekeraar en wenst aan een aantal goede cliënten een geschenk te geven. Hij overweegt een fles wijn met een waarde van 25,00 EUR (BTW inbegrepen) te geven en een kist met zes flessen van dezelfde wijn (waarde: 150,00 EUR BTW inbegrepen) aan zijn beste cliënten. De verzekeraar wenst de aankoopkosten van deze geschenken af te trekken en vraagt om uw advies."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1)",
+      "vraagtype": "open",
+      "vraagstelling": "Is de fles wijn (waarde 25,00 EUR BTW inbegrepen) fiscaal aftrekbaar als beroepskost voor de verzekeraar? Zo ja, in welke mate? Dient hij, om te genieten van een eventuele aftrek, een document op te maken? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2)",
+      "vraagtype": "open",
+      "vraagstelling": "Is de kist van 6 flessen wijn (waarde 150,00 EUR BTW inbegrepen) fiscaal aftrekbaar als beroepskost voor de verzekeraar? Zo ja, in welke mate? Dient hij, om te genieten van een eventuele aftrek, een document op te maken? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3)",
+      "vraagtype": "open",
+      "vraagstelling": "Worden de cliënten, die één van de cadeaus ontvangen, hierop belast? Zo ja, ten welke titel? Indien neen, waarom niet? Licht toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag G.3 van 4 mei 2019 (sectie G. Personenbelasting, /4 punten — verdeling 1+1+2 punten). Drie zelfstandige open deelvragen rond eenzelfde casus (verzekeraar Durant en wijngeschenken aan cliënten): (1) aftrekbaarheid fles 25 EUR + documentvereiste, (2) aftrekbaarheid kist 150 EUR + documentvereiste, (3) belastbaarheid bij de ontvanger. Elke deelvraag vraagt expliciet 'Licht toe' → motivatie_verwacht=true voor alle drie. Vraagtype 'open' want vrij tekstantwoord met motivering — geen MC, geen J/F. De PDF bevat onder elke deelvraag een gemarkeerd 'Antwoord - N punt(en)' blok met het modelantwoord (gold reference, conform meta.json karakter); conform de prompt-regel zijn deze modelantwoorden NIET opgenomen in de vraagstelling — zij horen thuis in het modelantwoord-artefact, niet hier. De bedragen (25,00 EUR, 150,00 EUR) zijn expliciet in elke deelvraag-vraagstelling opgenomen om de subvraag stand-alone leesbaar te maken (in de PDF staan ze enkel in het gedeelde 'Gegevens'-blok dat ik in context_blokken heb gezet). Spatie-anomalieën in tekst.txt ('hij ,' en 'b ijzonder') komen voort uit pdfplumber-extract en zijn niet weergegeven in de vraagstellingen. Casus-context is één coherente paragraaf — geen splitsing nodig (<200 woorden, één scène).",
+  "kwaliteits_flags": []
+}

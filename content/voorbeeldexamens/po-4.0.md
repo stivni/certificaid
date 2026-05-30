@@ -3,12 +3,12 @@ title: PO 4.0 — Deontologische beginselen in verband met het beroep en beginse
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 4.0 (Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving).
 tags: [examen, voorbeeldvragen, po-4-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 4.0 — Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving
 
-**35 unieke vraag-eenheden** (waarvan 1 cluster, totaal 36 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 35 met modelantwoord
+**42 unieke vraag-eenheden** (waarvan 1 cluster, totaal 43 voorkomens) uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 42 met modelantwoord
 
 <a id="2024-1-vr6A"></a>
 
@@ -176,6 +176,248 @@ gegenereerd_op: 2026-05-29
 > > 
 > > ITAA-Handleiding interne procedures AWW 2019, §13 in fine ("minstens eenmaal per jaar een activiteitenverslag") + ITAA-norm AWW geconsolideerd punt 3.7 (jaarlijkse verificatie algemene risicobeoordeling door AMLCO). 📖  
 > > *Bron: Handleiding §13 + ITAA-norm AWW §3.7*
+
+<a id="2019-bibf-vrd1"></a>
+
+> [!question]- 🆕 Kruispuntbank van Ondernemingen (KBO) — consultatie, vermeldingen en wijzigingen
+> *Examen 2019-bibf · PO 4.0*
+>
+> Sectie D. Organisatie van de boekhouding en de administratieve diensten van de onderneming (……/5). Vraag D.1 (……/1): Duidt aan of volgende stellingen juist of fout zijn. 0,25 punt per goed antwoord.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Je kan volledig gratis de vestigingseenheid van je klant consulteren bij KBO Public Search.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — KBO Public Search is een gratis online raadplegingstool van de FOD Economie waarmee iedereen de publieke gegevens van een onderneming en haar vestigingseenheden kan opzoeken. 🔗
+> > 
+> > De KBO is een publiek toegankelijk register (art. III.15 e.v. WER); de FOD Economie stelt de raadpleging van de publieke gegevens via KBO Public Search kosteloos ter beschikking. 🔗  
+> > *Bron: art. III.15 e.v. WER*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het domicilieadres van een natuurlijk persoon ondernemer staat nooit in de KBO vermeld.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — het privé-domicilieadres van een natuurlijk persoon ondernemer wordt niet in de KBO opgenomen; enkel het adres van de zetel en de vestigingseenheden is publiek raadpleegbaar. 🔗
+> > 
+> > Het officiële model-antwoord aanvaardt ook **FOUT** wanneer het domicilieadres feitelijk samenvalt met het vestigingsadres (typisch bij thuiswerkende zelfstandigen): in dat geval staat het privé-adres de facto wél in de KBO als vestigingsadres. ❓
+> > 
+> > Art. III.18 WER somt op welke gegevens van een natuurlijke persoon in de KBO worden opgenomen — het privé-domicilieadres als zodanig hoort daar niet bij; wel het adres van de zetel en van elke vestigingseenheid (art. III.16 en III.17 WER). 🔗  
+> > *Bron: art. III.16-III.18 WER*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een boekhouder kan zonder probleem voor al zijn klanten het adres van de vestigingseenheid wijzigen.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — een boekhouder kan zo'n adreswijziging niet zonder meer doorvoeren: ofwel doet de onderneming dat zelf via My Enterprise, ofwel handelt de boekhouder met een **schriftelijk mandaat** van de klant via een erkend ondernemingsloket. 🔗
+> > 
+> > Wijzigingen aan de KBO-inschrijving van een inschrijvingsplichtige onderneming verlopen via een erkend ondernemingsloket (art. III.49-III.51 WER) of, voor de geregistreerde entiteit zelf, rechtstreeks elektronisch (art. III.21 WER) — telkens met passende identificatie/mandaat. 🔗  
+> > *Bron: art. III.21 en III.49-III.51 WER*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De wijziging en/of toevoeging van een economische activiteit kan enkel via een ondernemingsloket gebeuren.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — voor inschrijvingsplichtige ondernemingen verloopt de wijziging of toevoeging van een economische activiteit in de KBO via een erkend ondernemingsloket. 🔗
+> > 
+> > Art. III.51 §1 WER verplicht inschrijvingsplichtige ondernemingen om vooraf een wijziging van hun KBO-inschrijving aan te vragen wanneer ze een andere activiteit willen uitoefenen of een nieuwe vestigingseenheid willen oprichten; deze formaliteit wordt vervuld bij een erkend ondernemingsloket (art. III.58 e.v. WER). 🔗  
+> > *Bron: art. III.51 en III.58 e.v. WER*
+
+<a id="2019-bibf-vrd2"></a>
+
+> [!question]- 🆕 Gevolgen van foutief of niet vermelden van een economische activiteit in de KBO
+> *Examen 2019-bibf · PO 4.0*
+>
+> Sectie D. Organisatie van de boekhouding en de administratieve diensten van de onderneming (totaal …/5). Vraag D.2 wordt op 1,5 punt gequoteerd, met 0,50 punt per goed antwoord.
+>
+> Geef drie gevolgen op fiscaal, juridisch en/of administratief vlak van het foutief of niet vermelden van een economische activiteit in de KBO.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Drie gevolgen van het foutief of niet vermelden van een economische activiteit in de KBO:
+> > 
+> > 1. **Fiscaal** — de fiscus kan de **kosten verwerpen** die betrekking hebben op de niet-aangegeven activiteit (geen aftrek als beroepskost in PB/VenB). 🔗
+> > 2. **Juridisch** — de rechtbank kan een **vordering van de onderneming niet-ontvankelijk** verklaren wanneer die vordering steunt op een activiteit die niet in de KBO is ingeschreven (art. III.26 §2 WER). 🔗
+> > 3. **Administratief** — de **FOD Economie** kan **administratieve geldboetes** opleggen wegens uitoefening van een niet-ingeschreven activiteit (sanctie van niveau 2, art. XV.77 WER). 📖
+> > 
+> > De drie sancties zijn **cumulatief** en treffen verschillende actoren: de fiscus handelt via een aanslag (verwerping kosten = belastbare basis stijgt), de tegenpartij of de rechter werpt de niet-ontvankelijkheid op vóór de behandeling ten gronde (art. III.26 §2 WER — middel dat ambtshalve kan worden opgeworpen), en de FOD Economie volgt een eigen administratieve procedure. Eén foutje in de KBO kan dus drie kosten genereren tegelijk. 🔗
+> > 
+> > Boek III WER (Vrijheid van vestiging — KBO en ondernemingsloketten): inschrijvingsplicht voor elke onderneming met al haar economische activiteiten en vestigingseenheden (art. III.49 en III.51 WER). Sanctionering: **art. III.26 §2 WER** — onontvankelijkheid van de vordering die steunt op een niet-ingeschreven activiteit; **art. XV.77, 2° WER** — sanctie van niveau 2 (strafrechtelijk of administratieve geldboete via FOD Economie) voor het uitoefenen van een activiteit die niet in de KBO is ingeschreven. De fiscale verwerping volgt uit de algemene aftrekvoorwaarden van art. 49 WIB92 (kosten moeten gedaan zijn om belastbare inkomsten te verkrijgen of te behouden) in combinatie met de bewijsproblemen die ontstaan wanneer de activiteit officieel niet bestaat. 📖  
+> > *Bron: Art. III.26 §2, III.49, III.51, XV.77 WER · Art. 49 WIB92*
+
+<a id="2019-bibf-vre1"></a>
+
+> [!question]- 🆕 Verenigbare en onverenigbare activiteiten voor externe boekhouders-fiscalisten BIBF volgens het Reglement van Plichtenleer
+> *Examen 2019-bibf · PO 4.0*
+>
+> Sectie II. Plichtenleer (……/10) — onderdeel E. Plichtenleer. Algemene instructie voor deze sectie: 'Geef steeds een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn.' Vraag E.1 is op /3 gequoteerd.
+>
+> Welke van de onderstaande activiteiten kunnen de externe boekhouders-fiscalisten verrichten volgens het Reglement van Plichtenleer? Kruis het/de juiste antwoord(-en) aan.
+> 
+> - **a** Syndicus van gebouwen
+> - **b** Verzekeringsmakelaar
+> - **c** Begeleiding van ondernemingen in verkrijgen van publieke steunmaatregelen
+> - **d** Vastgoedmakelaar
+> - **e** Erkend bemiddelaar
+> - **f** Bankactiviteiten
+> - **g** Begeleiding van ondernemingen in sociale materies
+> - **h** Opstellen van een financieel plan
+> - **i** Vereffenaar van een vennootschap
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: ?**
+> > 
+> > Toegelaten zijn: **a** (syndicus van gebouwen), **c** (begeleiding bij openbare steunmaatregelen), **e** (erkend bemiddelaar), **g** (begeleiding in sociale materies), **h** (opstellen financieel plan) en **i** (vereffenaar van een vennootschap) — allemaal expliciet vermeld in art. 20 van het Reglement van Plichtenleer BIBF. 📖
+> > 
+> > **Per optie**:
+> > 
+> > - **a · Syndicus van gebouwen** → JUIST. Art. 20, lid 2 staat dit uitdrukkelijk toe, mits afzonderlijke bankrekening per VME, voorafgaande aanmelding bij het BIBF en een aparte BA-verzekering voor de syndicus-activiteit. 📖
+> > - **b · Verzekeringsmakelaar** → FOUT. Niet vermeld als toegelaten activiteit; commerciële tussenpersoonsfunctie die de onafhankelijkheid (art. 4) en het verbod op commissielonen die de onafhankelijkheid in het gedrang brengen (art. 13 §2) raakt. 🔗
+> > - **c · Begeleiding bij verkrijgen van publieke steunmaatregelen** → JUIST. Art. 20, lid 1 vermeldt dit expliciet als verenigbare adviesactiviteit. 📖
+> > - **d · Vastgoedmakelaar** → FOUT. Niet opgenomen in art. 20; bovendien een afzonderlijk gereglementeerd beroep met een eigen onverenigbaarheidsregime (BIV-wet 11 februari 2013). 🔗
+> > - **e · Erkend bemiddelaar** → JUIST. Bemiddeling (in burgerlijke en handelszaken) is toegelaten als nevenactiviteit conform art. 20 en de algemene adviesopdracht van de boekhouder-fiscalist. 🔗
+> > - **f · Bankactiviteiten** → FOUT. Niet vermeld; bankactiviteiten vereisen een vergunning van de NBB en zijn onverenigbaar met de onafhankelijke beroepsuitoefening (art. 4). 🔗
+> > - **g · Begeleiding in sociale materies** → JUIST. Art. 20, lid 1 vermeldt uitdrukkelijk "externe adviesverlening en begeleiding van ondernemingen onder meer in fiscale, vennootschapsrechtelijke en sociale materies". 📖
+> > - **h · Opstellen van een financieel plan** → JUIST. Art. 20, lid 1 noemt dit expliciet (bv. financieel plan bij oprichting BV/NV). 📖
+> > - **i · Vereffenaar van een vennootschap** → JUIST. Past binnen de bij art. 20 erkende opdrachten en sluit aan bij art. 2:82 WVV, dat de erkende boekhouder-fiscalist uitdrukkelijk als hulppersoon van de vereffenaar erkent. 🔗
+> > 
+> > Verzekerings- en vastgoedmakelaar lijken "verwante" advieswerkzaamheden, maar zijn beide afzonderlijk gereglementeerde commerciële tussenpersoonsberoepen met eigen toelatingsvoorwaarden — daarom uitgesloten voor de externe boekhouder-fiscalist BIBF. Het criterium is niet "raakt aan cijfers", maar of de activiteit de onafhankelijkheid (art. 4) en het verbod op commissielonen (art. 13 §2) in het gedrang brengt. 🔗
+> > 
+> > Art. 20 KB 18 juli 2017 tot goedkeuring van het Reglement van Plichtenleer BIBF: "Naast boekhoudactiviteiten oefent de boekhouder BIBF (...) eveneens alle werkzaamheden uit die verband houden met de externe adviesverlening en begeleiding van ondernemingen onder meer in fiscale, vennootschapsrechtelijke en sociale materies evenals bij het opstellen van het financieel plan en inzake het verkrijgen van openbare steunmaatregelen." Lid 2 voegt syndicus van gebouwen toe (met voorwaarden). Onafhankelijkheid: art. 4. Commissieverbod: art. 13 §2. 📖  
+> > *Bron: Art. 20 KB 18 juli 2017 (Reglement van Plichtenleer BIBF); art. 4 en art. 13 §2 idem*
+
+<a id="2019-bibf-vre2"></a>
+
+> [!question]- 🆕 Overname van cliënteel door stagiair na verbreking stageovereenkomst — niet-concurrentie / dossier-overname-verbod uit stagereglement
+> *Examen 2019-bibf · PO 4.0*
+>
+> Mevrouw Annelies DE GRONDELAAR, extern stagiair boekhouder-fiscalist, verbreekt haar stageovereenkomst met Christophe VIXIX, erkend boekhouder-fiscalist bij het door het BIBF erkende boekhoudkantoor FISCOXIX. Mevrouw De Grondelaar werkt er niet meer.
+> 
+> In de weken volgende op het beëindigen van de stageovereenkomst contacteert zij de cliënten van het kantoor van haar vorige stagemeester per mailing en dit op basis van een bestand dat zij, kort voor het verlaten van het kantoor, gemaakt had via het boekhoudprogramma.
+> 
+> Twee maanden na haar vertrek, en op basis van de contacten die zij via de mailing gelegd heeft, schrijft zij een brief naar Christophe VIXIX om hem in kennis te stellen van de overname van het dossier van drie van zijn cliënten.
+> 
+> Instructie bij sectie E (Plichtenleer): geef steeds een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn.
+>
+> Mag mevrouw Annelies DE GRONDELAAR op dergelijke wijze te werk gaan? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Neen — mevrouw De Grondelaar mag dit niet: een stagiair mag na het einde van de stageovereenkomst geen cliënten van zijn (gewezen) stagemeester benaderen of overnemen zonder diens voorafgaande schriftelijke toestemming. 🔗
+> > 
+> > Drie cumulatieve inbreuken kleuren de feiten:
+> > 
+> > 1. **Aanmaken en meenemen van een cliëntenbestand uit het boekhoudprogramma** vóór haar vertrek schendt het beroepsgeheim en de loyauteitsplicht t.a.v. de stagemeester. 🔗
+> > 2. **Mailing naar de cliënten van FISCOXIX** is een directe benadering van het cliënteel van de stagemeester — net wat het stagereglement viseert. 🔗
+> > 3. **Overname van drie dossiers** zonder voorafgaande schriftelijke toestemming van Christophe VIXIX, en met louter een kennisgeving twee maanden ná de feiten, is een dubbele inbreuk: zowel het stagereglement (verbod stagiair, voorafgaande toestemming vereist) als de algemene overname-regels onder confraters (voorafgaande schriftelijke kennisgeving aan de voorganger vóór aanvaarding, niet erna) zijn geschonden. 🔗
+> > 
+> > **Vermeldenswaard** — het verbod werkt door ná het einde van de stage: het is geen contractueel niet-concurrentiebeding dat partijen vrij overeenkomen, maar een reglementaire verplichting verbonden aan de hoedanigheid van (gewezen) stagiair. De enige uitweg is een **voorafgaande schriftelijke toestemming** van de stagemeester — een latere kennisgeving heelt de inbreuk niet. 🔗
+> > 
+> > **Hoofdgrondslag** — Art. 6 §1, 2° Stagereglement BIBF (KB 10 april 2015): de stagiair mag, ook na afloop van de stageovereenkomst, geen cliënten van zijn stagemeester benaderen of overnemen zonder diens voorafgaande schriftelijke toestemming. 🔗
+> > 
+> > **Bijkomend** — Art. 17 KB 18 juli 2017 (plichtenleer BIBF): de externe boekhouder BIBF die een opdracht van een confrater overneemt, moet zijn voorganger **vooraleer** de opdracht te aanvaarden schriftelijk in kennis stellen van de overname — niet pas twee maanden later. 📖
+
+<a id="2019-bibf-vre3"></a>
+
+> [!question]- 🆕 Plichtenleer extern boekhouder-fiscalist BIBF: mag een tuchtrechtelijk geschorste boekhouder tijdens zijn schorsing een opdracht van een cliënt behandelen, en welke verplichting heeft hij tegenover dat cliënteel?
+> *Examen 2019-bibf · PO 4.0*
+>
+> De heer Robert CARDON, erkend extern boekhouder-fiscalist BIBF, werd tuchtrechtelijk gestraft voor het niet volgen van permanente vorming. De uitvoerende kamer heeft hem geschorst voor een periode van 40 dagen. De beslissing is definitief.
+> 
+> In deze periode draagt Norbert DRUIVELAAR, een cliënt, de in te boeken facturen over aan de heer CARDON om een tussentijdse situatie vast te stellen voor het verkrijgen van een krediet betreffende de financiering van rollend materieel.
+>
+> Mag de heer Robert CARDON de vraag van zijn cliënt behandelen? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **NEEN** — de heer CARDON mag de opdracht van DRUIVELAAR niet behandelen: tijdens een tuchtrechtelijke schorsing is hij in de onmogelijkheid zijn beroepsactiviteit uit te oefenen, en aangezien de schorsing 40 dagen bedraagt (≥ één maand) is hij verplicht zijn cliënt hiervan in kennis te stellen wanneer die tijdens de schorsing een beroep op hem doet. 📖
+> > 
+> > Twee samenhangende verplichtingen volgen uit de schorsing:
+> > 
+> > - **Beroepsverbod tijdens schorsing**: een schorsing als tuchtsanctie maakt de externe boekhouder-fiscalist BIBF onmogelijk zijn beroepsactiviteit uit te oefenen. De opdracht (tussentijdse situatie t.b.v. een kredietaanvraag) is typische boekhoudkundige dienstverlening en valt onder dat verbod. 🔗
+> > - **Kennisgevingsplicht aan het cliënteel**: omdat de schorsing minstens één maand bedraagt (hier 40 dagen), moet CARDON DRUIVELAAR ervan in kennis stellen wanneer die tijdens de schorsing een beroep op hem doet. Hij mag de opdracht dus niet stilzwijgend behandelen. 📖
+> > 
+> > De kennisgevingsplicht uit art. 12 wordt enkel geactiveerd vanaf een schorsing van **minstens één maand**. Bij een kortere schorsing geldt het beroepsverbod nog steeds, maar de uitdrukkelijke informatieplicht aan het cliënteel uit art. 12 valt weg. De 40-dagen-duur in deze casus is dus relevant — niet decoratief. 🔗
+> > 
+> > Art. 12 Reglement van Plichtenleer BIBF (KB 18 juli 2017): "In geval een externe boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doet tijdens de schorsing." 📖  
+> > *Bron: Art. 12 KB 18 juli 2017 (Reglement van Plichtenleer BIBF)*
+
+<a id="2019-bibf-vre4"></a>
+
+> [!question]- 🆕 Meldingsplicht samenwerkingsverband tussen erkende externe boekhouders bij de Kamer (plichtenleer)
+> *Examen 2019-bibf · PO 4.0*
+>
+> De heer Cyriel OPKOPER, erkend extern boekhouder BIBF, werkt samen met mevrouw Shirley VIVENDI, extern boekhouder-fiscalist BIBF.
+>
+> **Welke instantie moet geïnformeerd worden over dit samenwerkingsverband?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De bevoegde **Kamer** (uitvoerende kamer) van het BIBF — de instantie belast met de controle op de naleving van de plichtenleer. 📖
+> > 
+> > Art. 10 § 1 Reglement van Plichtenleer (bijlage bij KB 18 juli 2017): *"De externe boekhouder BIBF dient de Kamer in te lichten over de professionele samenwerkingsverbanden ..."* 📖  
+> > *Bron: Art. 10 § 1 Reglement van Plichtenleer (bijlage KB 18.07.2017)*
+>
+> **Op welke wijze moet die instantie geïnformeerd worden?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Per brief of via e-mail**, gericht aan de zetel van het Instituut. 📖
+> > 
+> > Bij de brief/e-mail moet een **kopie van de samenwerkingsovereenkomst** worden gevoegd (of, bij mondeling akkoord, een uitvoerige beschrijving van voorwerp en partijen). Gaat het om een samenwerking via rechtspersoon, dan moeten ook de statuten, benoemingen en aandeelhoudersstructuur worden meegedeeld. 📖
+> > 
+> > Art. 10 § 3-§ 5 Reglement van Plichtenleer (bijlage KB 18.07.2017): kennisgeving "per brief of via mail gericht aan de zetel van het Instituut", met de samenwerkingsovereenkomst (§ 4) en bij rechtspersoon ook statuten en bestuursgegevens (§ 5) als bijlage. 📖  
+> > *Bron: Art. 10 § 3-§ 5 Reglement van Plichtenleer (bijlage KB 18.07.2017)*
+>
+> **Binnen welke termijn moet die instantie geïnformeerd worden?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Ten laatste één maand** na het sluiten van het samenwerkingsverband. 📖
+> > 
+> > Dezelfde termijn van één maand geldt ook voor **elke latere wijziging** van het samenwerkingsverband (art. 10 § 3) en voor de actualisering van de lijst van zaakvoerders, bestuurders en vennoten bij elke benoeming of wijziging (art. 10 § 6). 📖
+> > 
+> > Art. 10 § 3 Reglement van Plichtenleer (bijlage KB 18.07.2017): *"Ten laatste één maand na het sluiten van een samenwerkingsverband licht de externe boekhouder BIBF de Kamer in over zijn samenwerkingsverband en/of elke wijziging ervan ..."* 📖  
+> > *Bron: Art. 10 § 3 Reglement van Plichtenleer (bijlage KB 18.07.2017)*
+>
+> Geef de wettelijke of reglementaire bron.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Artikel 10 van het Reglement van Plichtenleer**, opgenomen als bijlage bij het **KB van 18 juli 2017** tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF). 📖
+> > 
+> > Sinds de fusie BIBF + IAB → **ITAA** (wet 17.03.2019) blijft het KB van 18.07.2017 als plichtenlerencorpus van toepassing op ex-BIBF-leden binnen het ITAA, in afwachting van een geünificeerd ITAA-deontologisch reglement. De casus speelt zich af in 2019 onder de BIBF-regels — dit KB is dus rechtstreeks toepasselijk. 🔗
+> > 
+> > KB van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten — bijlage, art. 10 (meldingsplicht samenwerkingsverbanden). 📖  
+> > *Bron: Art. 10 Reglement van Plichtenleer (bijlage KB 18.07.2017)*
+
+<a id="2019-bibf-vre5"></a>
+
+> [!question]- 🆕 Deontologische verplichtingen van een erkende boekhouder bij overname van een dossier door een persoon die niet ingeschreven is bij BIBF, IAB of IBR
+> *Examen 2019-bibf · PO 4.0*
+>
+> Mevrouw Barbara KNOOPS contacteert, met een volmacht in de hand, het boekhoudkantoor FISCALIX (erkend door het BIBF) voor de overname van een dossier. De zaakvoerder van het boekhoudkantoor stelt vast dat mevrouw KNOOPS niet is ingeschreven bij het BIBF, het IAB of het IBR.
+>
+> Wat kan de zaakvoerder vanuit deontologisch oogpunt doen in het kader van de overdracht van het dossier in kwestie? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De zaakvoerder mag het dossier overdragen, maar moet vóór elke overdracht het BIBF (nu ITAA) **schriftelijk informeren over de identiteit** van mevrouw KNOOPS — omdat zij niet gerechtigd is de gereglementeerde beroepsactiviteiten van een erkend boekhouder uit te oefenen. 📖
+> > 
+> > Art. 17, laatste lid, Reglement van Plichtenleer BIBF (KB 18/07/2017) stelt: *"Een externe erkende boekhouder BIBF aan wie gevraagd wordt om het boekhouddossier van een cliënt over te dragen aan een persoon die niet gerechtigd is de gereglementeerde beroepsactiviteiten van een erkend boekhouder uit te oefenen, moet tevens het beroepsinstituut schriftelijk informeren van de identiteit van deze persoon alvorens elke overdracht van het dossier aan de cliënt."* 📖 De volmacht van de cliënt volstaat dus niet — de deontologische informatieplicht aan het instituut staat los van de wil van de cliënt en moet **vooraf** vervuld worden. 🔗
+> > 
+> > Niet verwarren met de eerste twee leden van art. 17: die regelen de overname **van** een confrater (schriftelijke kennisgeving aan voorganger + aandringen op betaling onbetaalde honoraria). De casus hier is het omgekeerde scenario — overdracht **aan** een niet-erkende — waarvoor het laatste lid een eigen, zelfstandige informatieplicht aan het instituut oplegt. 🔗
+> > 
+> > Art. 17, laatste lid, KB 18 juli 2017 houdende goedkeuring van het Reglement van Plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF). Sinds de fusie BIBF/IAB tot ITAA (wet 17 maart 2019) blijft dit reglement van toepassing op de erkende boekhouders BIBF tot vervanging door een ITAA-reglement. 📖  
+> > *Bron: Art. 17 KB 18/07/2017 (Reglement Plichtenleer BIBF)*
 
 <a id="2015-1-vr15"></a>
 

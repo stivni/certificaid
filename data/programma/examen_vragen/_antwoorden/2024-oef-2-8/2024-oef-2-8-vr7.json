@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr7",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Bij een 'special relationship' tussen schuldenaar en uiteindelijk gerechtigde gelden de verdragsvoordelen voor royalty's (bronstaatvrijstelling of verlaagd bronheffingstarief) **enkel op het arm's-length-bedrag**; het excess valt terug op de gewone nationale belastingregels van elke verdragsstaat. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De stelling is een quasi-letterlijke parafrase van **art. 12 §4 OESO-Modelovereenkomst** (transfer-pricing-clausule voor royalty's): *\"Where, by reason of a special relationship between the payer and the beneficial owner (...), the amount of the royalties (...) exceeds the amount which would have been agreed upon (...) in the absence of such relationship, the provisions of this Article shall apply only to the last-mentioned amount.\"* 📖\n\nMechaniek in twee stappen:\n\n1. **Normaal bedrag** (arm's length) → verdragsregime van art. 12 OESO-MV: in de zuivere OESO-MV-versie uitsluitend belastbaar in de woonstaat (§1); in DBV's die wél een gedeeld heffingsrecht aan de bronstaat geven (zoals veel Belgische DBV's), het verlaagde verdragstarief op de bronheffing. 🔗\n2. **Excess** (= royalty − normaal bedrag) → géén verdragsbescherming: belastbaar volgens het nationaal recht van elke verdragsstaat, *\"due regard being had to the other provisions of this Convention\"* (bv. herkwalificatie als dividend wanneer het verdoken winstuitkering blijkt). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Dezelfde anti-misbruik-clausule bestaat ook voor **interest** (art. 11 §6 OESO-MV) en voor **dividenden** (impliciet via art. 10 + art. 9 — arm's length tussen verbonden ondernemingen). Het is de verdragsrechtelijke tegenhanger van het Belgische arm's-length-beginsel van **art. 185 §2 WIB92** en van de **abnormale-of-goedgunstige-voordelen** (art. 26 WIB92): wat de fiscus 'oppluste' bij de Belgische schuldenaar, krijgt geen verdragsvoordeel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 12 §4 OESO-Modelovereenkomst** (Royalties — special-relationship-clausule): bij banden van wederzijdse afhankelijkheid waardoor het royaltybedrag hoger is dan het arm's-length-bedrag, gelden de bepalingen van art. 12 (bronstaatvrijstelling of -beperking) **enkel op dat normaal bedrag**; het surplus blijft belastbaar volgens het nationaal recht van elke verdragsstaat. 📖",
+          "wetsref": "Art. 12 §4 OESO-Modelovereenkomst (2017)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

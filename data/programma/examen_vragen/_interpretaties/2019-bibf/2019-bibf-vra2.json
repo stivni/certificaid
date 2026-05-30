@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra2",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Boekhoudkundige verwerking van een dubieuze handelsvordering: opname, waardevermindering, faling met btw-regularisatie en gedeeltelijke recuperatie",
+  "programmaonderdeel_ids": ["1.1"],
+  "themas": [
+    "handelsvorderingen",
+    "dubieuze debiteuren",
+    "waardevermindering op vorderingen",
+    "btw-regularisatie bij oninbaarheid",
+    "faling klant",
+    "terugneming waardevermindering",
+    "journaalposten"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Op datum van 28/03/N-1 heeft de vennootschap \"De Dijk\" een verkoopfactuur opgesteld voor een bedrag van 6.050,00 € (BTW inbegrepen, btw-tarief is 21%).\n\nBij het opstellen van de balans per 31/12/N0 blijkt dat deze klant insolvabel is, het verlies wordt op 50% geraamd."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de boeking op 28/03/N-1.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de journaalposten op 31/12/N0.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "3",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "De klant gaat in faling op 01/09/N+1. De publicatie is verschenen in het Belgisch Staatsblad. De vennootschap ontvangt een attest van de curator dat de vordering oninbaar is. Geef de boeking.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "4",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Stel dat de klant niet in faling gaat, en de vennootschap \"De Dijk\" toch nog 60% (tot slot van alle rekeningen) van haar vordering ontvangt op 12/12/N+1. Geef de boeking.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vier deelvragen overgenomen zoals visueel zichtbaar in de PDF (genummerd 1-4). Alle vier vragen vragen om boekingen / journaalposten — geclassificeerd als 'open' (vrije tekst, antwoord-vorm = boeking). Modelantwoorden ('Antwoord – X punt' blokken) zijn niet in de interpretatie opgenomen — die dienen als gold reference voor latere segmentatie/scoring. Bij deelvraag 3 en 4 is de vraagstelling impliciet ('Geef de boeking' werd niet letterlijk geschreven onder de scène-beschrijving, maar volgt uit de context: na de scènebeschrijving staat direct 'Antwoord – X punt' met een boeking) — expliciet aangevuld met 'Geef de boeking' voor zelfstandige leesbaarheid. Bij vraag 4 is de schrijffout 'wordt op 12/12/N+1' in de bron gehandhaafd qua datum, maar de zin licht herformuleerd ('ontvangt op' i.p.v. 'ontvangt wordt op') en 'DeDijk' → 'De Dijk' (consistent met §1). Tekst bevatte verder geen significante OCR-artefacten op niveau van de vraagstelling.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

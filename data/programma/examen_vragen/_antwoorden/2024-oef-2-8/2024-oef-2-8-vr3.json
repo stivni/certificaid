@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr3",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — als België met dat andere land een **dubbelbelastingverdrag (DBV)** heeft gesloten, lossen de **tie-breaker-regels van art. 4 §2 OESO-modelverdrag** het conflict op door de cliënt voor verdragsdoeleinden aan **één** van beide staten toe te wijzen als verdrags-inwoner; de andere staat moet hem dan als niet-inwoner behandelen, zodat dubbele heffing op het wereldinkomen verdwijnt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Het probleem**: elke staat bepaalt autonoom wie hij als rijksinwoner beschouwt (in België via art. 2, 1° WIB92 — woonplaats of zetel van fortuin). Twee staten kunnen dezelfde persoon volgens hun interne recht beide als inwoner kwalificeren; gevolg is **juridische dubbele belasting** op het wereldinkomen. 🔗\n\n**De oplossing — vier-stappen-cascade van art. 4 §2 OESO-MV** (toegepast in deze volgorde, stopt bij eerste beslissende criterium):\n\n1. **Duurzaam tehuis** (*permanent home*) — in welke staat heeft hij een woning duurzaam tot zijn beschikking? Als dat in beide staten zo is → stap 2. 📖\n2. **Middelpunt van levensbelangen** (*centre of vital interests*) — met welke staat zijn zijn persoonlijke en economische banden het nauwst (gezin, beroep, vermogen)? 📖\n3. **Gewoon verblijf** (*habitual abode*) — waar verblijft hij feitelijk het vaakst? 📖\n4. **Nationaliteit** — onderdaan van welke staat? 📖\n5. Bij nationaliteit van beide of geen → **onderling overleg** tussen de bevoegde autoriteiten (MAP, art. 25 OESO-MV). 📖\n\n**Effect**: de cliënt wordt voor verdragsdoeleinden inwoner van één staat (de \"woonstaat\"). Die staat behoudt het recht om hem op zijn wereldinkomen te belasten; de andere staat (\"bronstaat\") mag enkel nog belasten wat het DBV per inkomenscategorie aan hem toewijst (vastgoed art. 6, loon art. 15, enz.). De woonstaat vermijdt resterende dubbele belasting via vrijstelling met progressievoorbehoud (art. 23A) of verrekening (art. 23B). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het DBV **wijzigt niet** het interne residentie-begrip van elke staat — België blijft de cliënt naar Belgisch recht als rijksinwoner zien. Het verdrag legt enkel een **verdragsrechtelijke** allocatie op: de \"verliezende\" staat moet zijn heffing op het wereldinkomen terugschroeven tot wat het DBV hem als bronstaat toelaat. Bestaat er **geen** DBV met dat land, dan biedt het internationaal fiscaal recht geen tie-breaker en blijft de cliënt aangewezen op eenzijdige Belgische maatregelen (art. 156 WIB92 — vermindering tot de helft voor buitenlandse inkomsten — of FBB voor roerende inkomsten). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 4 §2 OESO-modelverdrag** (*Resident — tie-breaker rules for individuals*): cascade (a) permanent home → (b) centre of vital interests → (c) habitual abode → (d) nationality → bij gelijkstand mutual agreement. België's DBV-netwerk (ca. 100 verdragen) is op het OESO-MV gebouwd; concreet werkt de regel via het bilaterale DBV tussen België en het andere land (bv. art. 4 DBV BE-NL 2001). Voor de woonstaat-aanwijzing is art. 4 §1 (interne residentie) de poort; §2 lost het conflict op. 📖",
+          "wetsref": "Art. 4 §2 OESO-modelverdrag (en gelijkluidende bepaling in het bilaterale DBV met het andere land)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

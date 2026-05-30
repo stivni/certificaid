@@ -1,0 +1,76 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrf1",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "BTW-aangifte: roosters bij stopzetting + overdracht handelszaak met onttrekking, intracommunautaire verwerving van lichte vrachtwagens met gemengd gebruik, en overgang van normale regeling naar forfaitaire regeling",
+  "programmaonderdeel_ids": ["2.4"],
+  "themas": [
+    "BTW-aangifte",
+    "roosters periodieke aangifte",
+    "overdracht algemeenheid van goederen",
+    "onttrekking voor privégebruik",
+    "intracommunautaire verwerving",
+    "lichte vrachtwagens gemengd gebruik",
+    "aftrekbeperking beroepsgebruik",
+    "forfaitaire regeling BTW",
+    "overgang BTW-regeling"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "III. Deeldomein Fiscaliteit (……/35, inclusief beginselen van registratie- en successierechten). F. BTW (……/10). Tenzij anders aangegeven zijn de vermelde bedragen steeds exclusief BTW. Vraag F.1 is gequoteerd op /6 punten en bevat drie onafhankelijke gegevens-blokken (1, 2 en 3) telkens met eigen vragen."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Gegeven 1 (vragen a en b — samen /2 punten): Een detailhandelaar in huishoud- en audiovisuele toestellen (D) stopt zijn commerciële activiteiten en verkoopt in 2019 zijn handelszaak aan zijn zoon voor 320.000,00 €. Hij behoudt voor persoonlijk gebruik een nieuwe televisie die werd aangekocht voor 950,00 € en te koop was voor 1.200,00 €."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Gegeven 2 (vraag c — /2 punten): Een algemene bouwaannemer (B), natuurlijk persoon, koopt in Duitsland drie bestelwagens (fiscale lichte vrachtwagens). Deze kosten 22.000,00 € per stuk. De drie voertuigen zijn bestemd voor beroepsmatig gebruik en één ervan zal voor 20% ook niet-beroepsmatig gebruikt worden."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Gegeven 3 (vraag d — /2 punten): Een BTW-plichtige, natuurlijk persoon, detailhandel in textiel en lederwaren, onderworpen aan het normale regime, wenst over te stappen naar het forfaitaire stelsel. Hij voldoet aan alle voorwaarden en de overstap zou plaatsvinden op 1 april 2019. Hij gelast u met alle boekhoudkundige en administratieve verrichtingen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Geef aan in welke roosters van de laatste BTW-aangifte van (D) en welke bedragen er moeten worden opgenomen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Geef de op deze verrichtingen toepasselijke bepalingen uit het BTW-wetboek.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "In de BTW-aangifte van (B): welke roosters en welke bedragen moeten er worden ingeschreven voor deze verrichting?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Beschrijf kort welke stappen u zal zetten om de overstap van het normale regime naar het forfaitaire stelsel per 1 april 2019 boekhoudkundig en administratief te realiseren.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag F.1 van 4 mei 2019 (sectie III. Deeldomein Fiscaliteit, onderdeel F. BTW, /6 punten). De PDF bevat het modelantwoord met roosters, bedragen, info-toelichtingen en wetsartikelen — die zijn NIET overgenomen in de vraagstellingen (gold answer hoort in een apart antwoord-artefact). De vraag bestaat uit drie inhoudelijk onafhankelijke gegevens-blokken (1, 2, 3); gegeven 1 heeft twee deelvragen met PDF-labels a en b, gegevens 2 en 3 hebben elk één hoofdvraag. Gemodelleerd als 4 deelvragen (a, b, c, d). Voor de label-mapping behouden a en b hun PDF-letter; c en d krijgen ID's volgens leesvolgorde maar `label_in_pdf` toont het PDF-nummer (2, 3) van het gegevens-blok waarbij ze horen — de PDF gebruikt geen letter voor deze twee vragen, alleen het volgnummer van het gegeven. Alle vier deelvragen zijn `open` (vrij tekstantwoord: roostertabel, wetsartikelen, of procedurebeschrijving) — de antwoordvorm hoort in het antwoord-artefact, niet hier. `motivatie_verwacht=false` voor alle: de vragen vragen om opsomming/procedure, niet expliciet om motivering. De casus-tekst per gegeven is in een afzonderlijk `casus_context`-blok opgenomen om de structuur expliciet te houden (gegeven → eigen vraag). PO 2.4 (BTW) zoals opgegeven door de gebruiker.",
+  "kwaliteits_flags": []
+}

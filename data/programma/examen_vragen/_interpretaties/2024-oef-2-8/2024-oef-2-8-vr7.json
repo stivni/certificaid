@@ -1,0 +1,36 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr7",
+  "interpretatie_datum": "2026-05-30T12:35:50Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Royalty's tussen verbonden vennootschappen en de toepassing van bronstaatverlagingen op het normaal bedrag (at arm's length, OESO-Modelovereenkomst art. 12)",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "royalty's",
+    "verbonden vennootschappen",
+    "wederzijdse afhankelijkheid",
+    "at arm's length",
+    "bronstaat",
+    "OESO-Modelovereenkomst",
+    "internationaal fiscaal recht"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "7",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Als een vennootschap die inwoner is van een overeenkomstsluitende staat royalty's betaalt aan een vennootschap met een band van wederzijdse afhankelijkheid die inwoner is van de andere overeenkomstsluitende staat en het bedrag van die royalty's hoger is dan het normaal bedrag dat, zonder die banden van wederzijdse afhankelijkheid, tussen de schuldenaar en de uiteindelijke gerechtigde van de royalty's zou zijn toegepast, zijn de belastingverminderingen of -vrijstellingen in de bronstaat slechts van toepassing op dit normaal bedrag.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag 7 strekt zich uit over pagina 1 en pagina 2 van de PDF. Tekst-extract gereconstrueerd uit beide pagina-PNGs. OCR-typo 'bronstraat' (op zowel pagina 1 als pagina 2) gecorrigeerd naar 'bronstaat' in de vraagstelling — semantisch evident in context (bronstaat vs. verblijfstaat is standaard OESO-terminologie en de term 'bronstaat' werd correct gebruikt in vragen 5 en 6 op dezelfde pagina). Spelling 'overeenkomst sluitende' (los geschreven in PDF) genormaliseerd naar 'overeenkomstsluitende' (standaard juridisch Nederlands). Sluitende punt toegevoegd op het einde van de stelling (ontbrak in PDF). Geen aparte context_blokken — de stelling is zelfdragend. Standaard ITAA J/F-patroon zonder expliciete 'motiveer'-instructie → motivatie_verwacht: false.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd",
+    "pagina_overslaat"
+  ]
+}

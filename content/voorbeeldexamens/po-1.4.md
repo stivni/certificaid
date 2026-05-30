@@ -3,7 +3,7 @@ title: PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de gecon
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.4 (Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening).
 tags: [examen, voorbeeldvragen, po-1-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 1.4 — Geconsolideerde jaarrekening en wetgeving betreffende de geconsolideerde jaarrekening

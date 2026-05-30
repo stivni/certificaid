@@ -3,12 +3,201 @@ title: PO 2.8 — Europees en internationaal fiscaal recht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.8 (Europees en internationaal fiscaal recht).
 tags: [examen, voorbeeldvragen, po-2-8]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.8 — Europees en internationaal fiscaal recht
 
-**11 unieke vraag-eenheden** uit 5 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1) — 11 met modelantwoord
+**19 unieke vraag-eenheden** uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-oef-2-8) — 19 met modelantwoord
+
+<a id="2024-oef-2-8-vr1"></a>
+
+> [!question]- 🆕 Inwonerschap als toepassingsvoorwaarde voor dubbelbelastingverdragen
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Om in aanmerking te komen voor de toepassing van de overeenkomsten tot het vermijden van dubbele belasting moet men inwoner zijn van één van de overeenkomstsluitende staten?</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST**. Een dubbelbelastingverdrag (DBV) is enkel van toepassing op personen die inwoner zijn van één van de overeenkomstsluitende staten (of van beide). Inwonerschap is de poort tot het verdrag. 📖
+> > 
+> > Artikel 1 OESO-Modelverdrag bepaalt dat het verdrag van toepassing is op "persons who are residents of one or both of the Contracting States". 📖 Wie geen inwoner is van minstens één van de twee verdragsluitende staten valt buiten het personeel toepassingsgebied en kan geen verdragsvoordelen inroepen (geen verlaagd bronheffingstarief, geen vrijstelling, geen verrekening). 🔗 De concrete invulling van "inwoner" volgt uit artikel 4 OESO-MV (onderworpenheid aan belasting wegens woonplaats, verblijf, plaats van bestuur of soortgelijk criterium), met een tie-breaker bij dubbele residentie. 🔗 Alle Belgische DBV's nemen deze structuur over — zie bv. art. 1 DBV BE-NL 2001: "Dit Verdrag is van toepassing op personen die inwoner zijn van een of van beide verdragsluitende Staten." 📖
+> > 
+> > Inwonerschap van één van beide staten is **noodzakelijk maar niet altijd voldoende**: (i) sinds BEPS / MLI moet ook de **Principal Purpose Test** (PPT) doorstaan worden — een transactie die als hoofddoel verdragsvoordelen heeft, krijgt ze niet. 🔗 (ii) Voor sommige bepalingen (non-discriminatie art. 24, uitwisseling van inlichtingen art. 26) breidt het verdrag zich uit naar onderdanen of personen die géén inwoner zijn. 🔗 (iii) Fiscaal transparante entiteiten worden door art. 1, §2 OESO-MV (2017-versie) door-gekeken naar hun inwoner-deelnemers. 📖
+> > 
+> > Art. 1 OESO-Modelverdrag (Persons Covered): "This Convention shall apply to persons who are residents of one or both of the Contracting States." Begrip "resident" gedefinieerd in art. 4 OESO-MV. Identieke formulering in alle Belgische DBV's (bv. art. 1 DBV BE-NL 2001). 📖  
+> > *Bron: Art. 1 OESO-Modelverdrag; art. 1 DBV BE-NL 2001*
+
+<a id="2024-oef-2-8-vr2"></a>
+
+> [!question]- 🆕 Toepassingsgebied OESO-Modelverdrag inzake dubbelbelastingverdragen
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> Oefeningen: Europees en internationaal fiscaal recht. Reeks losse stellingen "waar of niet waar" over dubbelbelastingverdragen en het OESO-Modelverdrag.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De overeenkomsten tot voorkoming van dubbele belasting die volgens de OESO-Modelovereenkomst afgesloten zijn, gelden voor de successierechten?</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > Niet waar. Dubbelbelastingverdragen volgens het OESO-Modelverdrag (inkomen en vermogen) zijn niet van toepassing op successierechten. 📖
+> > 
+> > Het materieel toepassingsgebied van het OESO-Modelverdrag is in art. 2 strikt beperkt tot "taxes on income and on capital" — belastingen naar het inkomen en naar het vermogen, met inbegrip van vermogenswinst en loonsom-belastingen. 📖 Successierechten (erfbelasting) zijn een afzonderlijke categorie die overdrachten ten gevolge van overlijden treffen en die buiten dit toepassingsgebied vallen. 🔗 De OESO heeft hiervoor een afzonderlijk model uitgewerkt: het "Model Double Taxation Convention on Estates and Inheritances and on Gifts" (1982), dat losstaat van het hoofd-Modelverdrag en in de Belgische verdragspraktijk nauwelijks wordt gebruikt. 🤖
+> > 
+> > Valkuil: ook het Multilateraal Verdrag inzake wederzijdse administratieve bijstand (WABB/CMAAT) is breder dan de DBV's en omvat wél successie- en schenkingsrechten (art. 2, §1, b, iii, A) — maar dat is een instrument voor informatie-uitwisseling en bijstand bij invordering, géén verdrag tot voorkoming van dubbele belasting. 📖 Voor successie-DBV's tussen België en andere staten bestaan slechts enkele bilaterale verdragen (o.a. met Frankrijk en Zweden), buiten het OESO-Modelverdrag om. 🤖
+> > 
+> > Art. 2, §1 OESO-MV: "This Convention shall apply to taxes on income and on capital". 📖 Het materieel toepassingsgebied is limitatief tot inkomen en vermogen; successierechten vallen er per definitie buiten en worden in voorkomend geval geregeld door afzonderlijke bilaterale successie-DBV's of door het OESO-Modelverdrag voor successie- en schenkingsbelastingen (1982). 🔗  
+> > *Bron: Art. 2 OESO-Modelverdrag (Taxes Covered)*
+
+<a id="2024-oef-2-8-vr3"></a>
+
+> [!question]- 🆕 Oplossing voor dubbele residentie in het internationaal fiscaal recht
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> Een cliënt, op fiscaal gebied inwoner van België, deelt u mede dat hij op fiscaal gebied ook als inwoner van een ander land wordt beschouwd en dat hij voortaan in de twee landen aan de personenbelasting zal onderworpen zijn op zijn wereldinkomen. Hij vraagt u of er een mogelijke oplossing voor dit probleem bestaat.
+>
+> Wat antwoordt u hem? Verklaar uw antwoord kort op basis van de algemene beginselen van het internationaal fiscaal recht.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Ja — als België met dat andere land een **dubbelbelastingverdrag (DBV)** heeft gesloten, lossen de **tie-breaker-regels van art. 4 §2 OESO-modelverdrag** het conflict op door de cliënt voor verdragsdoeleinden aan **één** van beide staten toe te wijzen als verdrags-inwoner; de andere staat moet hem dan als niet-inwoner behandelen, zodat dubbele heffing op het wereldinkomen verdwijnt. 🔗
+> > 
+> > **Het probleem**: elke staat bepaalt autonoom wie hij als rijksinwoner beschouwt (in België via art. 2, 1° WIB92 — woonplaats of zetel van fortuin). Twee staten kunnen dezelfde persoon volgens hun interne recht beide als inwoner kwalificeren; gevolg is **juridische dubbele belasting** op het wereldinkomen. 🔗
+> > 
+> > **De oplossing — vier-stappen-cascade van art. 4 §2 OESO-MV** (toegepast in deze volgorde, stopt bij eerste beslissende criterium):
+> > 
+> > 1. **Duurzaam tehuis** (*permanent home*) — in welke staat heeft hij een woning duurzaam tot zijn beschikking? Als dat in beide staten zo is → stap 2. 📖
+> > 2. **Middelpunt van levensbelangen** (*centre of vital interests*) — met welke staat zijn zijn persoonlijke en economische banden het nauwst (gezin, beroep, vermogen)? 📖
+> > 3. **Gewoon verblijf** (*habitual abode*) — waar verblijft hij feitelijk het vaakst? 📖
+> > 4. **Nationaliteit** — onderdaan van welke staat? 📖
+> > 5. Bij nationaliteit van beide of geen → **onderling overleg** tussen de bevoegde autoriteiten (MAP, art. 25 OESO-MV). 📖
+> > 
+> > **Effect**: de cliënt wordt voor verdragsdoeleinden inwoner van één staat (de "woonstaat"). Die staat behoudt het recht om hem op zijn wereldinkomen te belasten; de andere staat ("bronstaat") mag enkel nog belasten wat het DBV per inkomenscategorie aan hem toewijst (vastgoed art. 6, loon art. 15, enz.). De woonstaat vermijdt resterende dubbele belasting via vrijstelling met progressievoorbehoud (art. 23A) of verrekening (art. 23B). 🔗
+> > 
+> > Het DBV **wijzigt niet** het interne residentie-begrip van elke staat — België blijft de cliënt naar Belgisch recht als rijksinwoner zien. Het verdrag legt enkel een **verdragsrechtelijke** allocatie op: de "verliezende" staat moet zijn heffing op het wereldinkomen terugschroeven tot wat het DBV hem als bronstaat toelaat. Bestaat er **geen** DBV met dat land, dan biedt het internationaal fiscaal recht geen tie-breaker en blijft de cliënt aangewezen op eenzijdige Belgische maatregelen (art. 156 WIB92 — vermindering tot de helft voor buitenlandse inkomsten — of FBB voor roerende inkomsten). 🔗
+> > 
+> > **Art. 4 §2 OESO-modelverdrag** (*Resident — tie-breaker rules for individuals*): cascade (a) permanent home → (b) centre of vital interests → (c) habitual abode → (d) nationality → bij gelijkstand mutual agreement. België's DBV-netwerk (ca. 100 verdragen) is op het OESO-MV gebouwd; concreet werkt de regel via het bilaterale DBV tussen België en het andere land (bv. art. 4 DBV BE-NL 2001). Voor de woonstaat-aanwijzing is art. 4 §1 (interne residentie) de poort; §2 lost het conflict op. 📖  
+> > *Bron: Art. 4 §2 OESO-modelverdrag (en gelijkluidende bepaling in het bilaterale DBV met het andere land)*
+
+<a id="2024-oef-2-8-vr4"></a>
+
+> [!question]- 🆕 Vaste inrichting — steengroeve en uitbatingsduur (OESO-Modelovereenkomst art. 5)
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan maanden overschrijdt.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **Niet waar.** Een steengroeve is altijd een vaste inrichting in de zin van art. 5 §2(f) OESO-MV, ongeacht de uitbatingsduur — er geldt geen tijdsdrempel. 🔗
+> > 
+> > Art. 5 §2 OESO-MV somt de klassieke voorbeelden van een vaste inrichting op — onder (f): *"a mine, an oil or gas well, **a quarry** or any other place of extraction of natural resources"*. 📖 Voor deze categorie geldt geen minimumduur: de loutere aanwezigheid van de vaste plaats van winning volstaat. 🔗 De 12-maanden-drempel in art. 5 §3 OESO-MV is uitdrukkelijk beperkt tot *"a building site or construction or installation project"* (bouwwerf-VI) en is niet van toepassing op winningsplaatsen. 📖 De stelling vermengt dus twee verschillende §-en van art. 5 en is daarom onjuist — welk getal men ook in de leemte invult. 🔗
+> > 
+> > Niet verwarren met de **bouwwerf-VI** (art. 5 §3): een bouw-, constructie- of installatieproject vormt pas een VI als het méér dan 12 maanden duurt. Dat tijdscriterium geldt enkel voor die projectcategorie — niet voor mijnen, olie-/gasbronnen of steengroeven, die als fysieke winningsplaats automatisch als klassieke VI kwalificeren. 🔗 In de Belgische interne wet kent art. 229 §1 WIB92 voor bouw-/installatieprojecten zelfs een veel lagere drempel (> 30 dagen), maar ook daar staat een steengroeve los van enige tijdsvoorwaarde. 🔗
+> > 
+> > Art. 5 §2(f) OESO-Modelverdrag: een mijn, olie- of gasbron, **steengroeve** of andere plaats van winning van natuurlijke rijkdommen is een klassieke vaste inrichting — zonder tijdsdrempel. Art. 5 §3 OESO-MV beperkt de 12-maanden-drempel uitdrukkelijk tot bouwwerven en installatieprojecten. 📖  
+> > *Bron: Art. 5 §2(f) en §3 OESO-Modelverdrag (Condensed Version 2017)*
+
+<a id="2024-oef-2-8-vr5"></a>
+
+> [!question]- 🆕 Heffingsbevoegdheid over onroerende inkomsten onder OESO-Modelverdrag
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> Oefeningenset Europees en internationaal fiscaal recht (ITAA). Reeks juist/fout-stellingen en open vragen rond OESO-Modelverdrag en dubbelbelastingverdragen. Deze deelvraag betreft stelling 5: heffingsbevoegdheid over onroerende inkomsten van een natuurlijk persoon-inwoner van een verdragsstaat met bron in de andere verdragsstaat.
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Voor een natuurlijk persoon die inwoner is van één van de overeenkomstsluitende staten, zijn de onroerende inkomsten die hun bron hebben in de andere staat, uitsluitend belastbaar in die andere staat (met name de bronstaat).</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT.** Onroerende inkomsten met bron in de andere staat zijn **niet uitsluitend** in de bronstaat belastbaar — art. 6 §1 OESO-MV gebruikt "**may be taxed**" (mogen worden belast), wat een **gedeelde** heffingsbevoegdheid creëert, niet een exclusieve voor de bronstaat. 📖
+> > 
+> > Art. 6 §1 OESO-MV: *"Income derived by a resident of a Contracting State from immovable property (...) situated in the other Contracting State **may be taxed** in that other State."* 📖 De formulering "may be taxed" (≠ "shall be taxable only") betekent dat de bronstaat (liggingsstaat) een heffingsrecht krijgt, **zonder** dat het heffingsrecht van de woonstaat verdwijnt. 🔗 De woonstaat behoudt dus ook heffingsbevoegdheid en moet de dubbele belasting wegnemen via art. 23A/23B (vrijstelling of verrekening). 🔗 Voor België als woonstaat geldt in de meeste DBV's vrijstelling met progressievoorbehoud (art. 155 WIB92): het inkomen wordt vrijgesteld, maar telt mee voor de tariefberekening op de andere inkomsten. 🔗 De stelling is dus fout in **twee** opzichten: (1) het woord "uitsluitend" is onjuist — heffingsrecht is gedeeld, niet exclusief; (2) zelfs in praktijk is de woonstaat verre van uitgesloten — hij past minstens het progressievoorbehoud toe. 🔗
+> > 
+> > "May be taxed in that other State" ≠ "shall be taxable only in that other State". 📖 In de OESO-MV-systematiek betekent "may be taxed" altijd **gedeelde** heffingsbevoegdheid (bronstaat krijgt recht erbij); "shall be taxable only" betekent **exclusieve** heffingsbevoegdheid (één staat, andere uitgesloten). Art. 6 valt in de eerste categorie — vandaar dat art. 23A/23B nodig zijn om de dubbele belasting in de woonstaat weg te nemen. Klassieke val: het woord "uitsluitend" in een stelling over art. 6/7/15 OESO-MV is bijna altijd het signaal dat de stelling fout is. 🔗
+> > 
+> > **Art. 6 §1 OESO-Modelverdrag** — onroerende inkomsten van een inwoner van staat A uit een goed gelegen in staat B *"may be taxed in that other State"*: bronstaat krijgt heffingsrecht, woonstaat behoudt zijn recht. 📖 **Commentaar OESO-MV ad art. 6, §1**: *"Paragraph 1 gives the right to tax income from immovable property to the State of source (...). This is due to the fact that there is always a very close economic connection between the source of this income and the State of source."* — bevestigt het primair (maar niet exclusief) heffingsrecht van de bronstaat. 📖 **Art. 23A/23B OESO-MV** + **art. 155 WIB92**: de woonstaat (België) past vrijstelling met progressievoorbehoud toe. 🔗  
+> > *Bron: Art. 6 §1 OESO-Modelverdrag; Commentaar OESO-MV ad art. 6; art. 23A/23B OESO-MV; art. 155 WIB92*
+
+<a id="2024-oef-2-8-vr6"></a>
+
+> [!question]- 🆕 Heffingsbevoegdheid over dividenden onder dubbelbelastingverdragen (gedeelde bevoegdheid bronstaat/verblijfstaat)
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Dividenden kunnen in de bronstaat en in de verblijfstaat worden belast.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > JUIST. Dividenden mogen onder het OESO-Modelverdrag zowel in de bronstaat (waar de uitkerende vennootschap is gevestigd) als in de verblijfstaat (woonstaat van de ontvanger) worden belast — gedeelde heffingsbevoegdheid. 📖
+> > 
+> > Art. 10 §1 OESO-MV: dividenden betaald door een vennootschap-inwoner van een verdragsstaat aan een inwoner van de andere staat *may be taxed in that other State* — de woonstaat van de ontvanger heeft heffingsrecht. 📖 Art. 10 §2 voegt toe: *dividends may also be taxed in [the source] State* — de bronstaat behoudt eveneens een heffingsrecht, maar dat is geplafonneerd (5 % bij ≥ 25 %-moeder-dochterdeelneming gehouden over 365 dagen, 15 % in alle andere gevallen). 📖 Dubbele belasting wordt vervolgens weggenomen door de woonstaat via de methode van art. 23A (vrijstelling) of art. 23B (verrekening). 🔗
+> > 
+> > De plafonds in art. 10 §2 (5 % / 15 %) zijn modeltarieven — Belgische DBV's wijken hier vaak van af (bv. 5 % bij ≥ 10 %-deelneming, of 0 % onder de Moeder-dochterrichtlijn 2011/96/EU voor intra-EU-uitkeringen tussen verbonden vennootschappen). 🔗 Voor de juist/fout-vraag is enkel het principe relevant: art. 10 stelt géén exclusieve heffing in één staat — exclusieve bronstaatheffing of exclusieve woonstaatheffing wordt expliciet verworpen in het OESO-commentaar (§§ 5-6 bij art. 10). 📖
+> > 
+> > Art. 10 §1 en §2 OESO-Modelverdrag (Condensed Version 2017): woonstaat-heffing (§1) + beperkt bronstaat-heffingsrecht (§2). Commentaar art. 10 §§ 4-6: noch exclusieve bron- noch exclusieve woonstaatheffing is aanvaardbaar als algemene regel — vandaar gedeelde bevoegdheid. 📖  
+> > *Bron: Art. 10 §§1-2 OESO-Modelverdrag*
+
+<a id="2024-oef-2-8-vr7"></a>
+
+> [!question]- 🆕 Royalty's tussen verbonden vennootschappen en de toepassing van bronstaatverlagingen op het normaal bedrag (at arm's length, OESO-Modelovereenkomst art. 12)
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Als een vennootschap die inwoner is van een overeenkomstsluitende staat royalty's betaalt aan een vennootschap met een band van wederzijdse afhankelijkheid die inwoner is van de andere overeenkomstsluitende staat en het bedrag van die royalty's hoger is dan het normaal bedrag dat, zonder die banden van wederzijdse afhankelijkheid, tussen de schuldenaar en de uiteindelijke gerechtigde van de royalty's zou zijn toegepast, zijn de belastingverminderingen of -vrijstellingen in de bronstaat slechts van toepassing op dit normaal bedrag.</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST.** Bij een 'special relationship' tussen schuldenaar en uiteindelijk gerechtigde gelden de verdragsvoordelen voor royalty's (bronstaatvrijstelling of verlaagd bronheffingstarief) **enkel op het arm's-length-bedrag**; het excess valt terug op de gewone nationale belastingregels van elke verdragsstaat. 📖
+> > 
+> > De stelling is een quasi-letterlijke parafrase van **art. 12 §4 OESO-Modelovereenkomst** (transfer-pricing-clausule voor royalty's): *"Where, by reason of a special relationship between the payer and the beneficial owner (...), the amount of the royalties (...) exceeds the amount which would have been agreed upon (...) in the absence of such relationship, the provisions of this Article shall apply only to the last-mentioned amount."* 📖
+> > 
+> > Mechaniek in twee stappen:
+> > 
+> > 1. **Normaal bedrag** (arm's length) → verdragsregime van art. 12 OESO-MV: in de zuivere OESO-MV-versie uitsluitend belastbaar in de woonstaat (§1); in DBV's die wél een gedeeld heffingsrecht aan de bronstaat geven (zoals veel Belgische DBV's), het verlaagde verdragstarief op de bronheffing. 🔗
+> > 2. **Excess** (= royalty − normaal bedrag) → géén verdragsbescherming: belastbaar volgens het nationaal recht van elke verdragsstaat, *"due regard being had to the other provisions of this Convention"* (bv. herkwalificatie als dividend wanneer het verdoken winstuitkering blijkt). 📖
+> > 
+> > Dezelfde anti-misbruik-clausule bestaat ook voor **interest** (art. 11 §6 OESO-MV) en voor **dividenden** (impliciet via art. 10 + art. 9 — arm's length tussen verbonden ondernemingen). Het is de verdragsrechtelijke tegenhanger van het Belgische arm's-length-beginsel van **art. 185 §2 WIB92** en van de **abnormale-of-goedgunstige-voordelen** (art. 26 WIB92): wat de fiscus 'oppluste' bij de Belgische schuldenaar, krijgt geen verdragsvoordeel. 🔗
+> > 
+> > **Art. 12 §4 OESO-Modelovereenkomst** (Royalties — special-relationship-clausule): bij banden van wederzijdse afhankelijkheid waardoor het royaltybedrag hoger is dan het arm's-length-bedrag, gelden de bepalingen van art. 12 (bronstaatvrijstelling of -beperking) **enkel op dat normaal bedrag**; het surplus blijft belastbaar volgens het nationaal recht van elke verdragsstaat. 📖  
+> > *Bron: Art. 12 §4 OESO-Modelovereenkomst (2017)*
+
+<a id="2024-oef-2-8-vr8"></a>
+
+> [!question]- 🆕 Toepasbaarheid Moeder-dochterrichtlijn en Interest-royaltyrichtlijn op Hongaarse bronheffing bij grensoverschrijdende interesten en dividenden
+> *Examen 2024-oef-2-8 · PO 2.8*
+>
+> Uw cliënt (X) en zijn echtgenote (Y) zijn samen voor 100% aandeelhouder van een Belgische NV. De Belgische NV bezit 3% van een Hongaarse vennootschap; de overige 97% wordt aangehouden door Z, de (schoon-)broer van X. Vanuit de Hongaarse vennootschap vloeien interesten (op een lening) en dividenden naar de Belgische NV. De Hongaarse fiscus eist de inhouding van een bronheffing op zowel de interesten van de lening als op de dividenden. Cliënt X en zijn echtgenote Y dachten dat, gelet op de Europese 'Moeder-dochterrichtlijn' en 'Interest-royaltyrichtlijn', er in Hongarije op die inkomsten geen bronheffing meer kon worden ingehouden.
+>
+> **Klopt de overtuiging van X en Y dat, gelet op de Europese 'Moeder-dochterrichtlijn' en 'Interest-royaltyrichtlijn', er in Hongarije op de interesten van de lening en op de dividenden geen bronheffing meer kon worden ingehouden?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Nee, de overtuiging van X en Y klopt niet.** Geen van beide EU-richtlijnen is van toepassing: de Belgische NV haalt met haar **3 %-participatie** in de Hongaarse vennootschap noch de **10 %-drempel** van de Moeder-dochterrichtlijn (dividenden), noch de **25 %-drempel** voor verbonden ondernemingen van de Interest-royaltyrichtlijn (interesten). Hongarije mag dus zowel op de dividenden als op de interesten bronheffing inhouden — eventuele verdere matiging moet via het Belgisch-Hongaars dubbelbelastingverdrag (art. 10-11) komen, niet via de richtlijnen. 🔗
+> > 
+> > **Toets per richtlijn op de feitelijke structuur (zie schema):**
+> > 
+> > - **Aandeelhoudersstructuur** — X en Y bezitten samen 100 % van de Belgische NV; de Belgische NV bezit slechts **3 %** in de Hongaarse vennootschap; **Z** (de (schoon-)broer van X) bezit de overige **97 %** rechtstreeks als natuurlijke persoon. 🔗
+> > 
+> > - **Dividenden → Moeder-dochterrichtlijn (2011/96/EU)** — Vereist een deelneming van **ten minste 10 %** in het kapitaal van de dochter (art. 3, lid 1, a, i). De 3 %-participatie van de Belgische NV ligt ruim onder deze drempel → de richtlijn kent geen bronheffing-vrijstelling toe → Hongarije mag de bronheffing op de dividenden inhouden. 🔗
+> > 
+> > - **Interesten → Interest-royaltyrichtlijn (2003/49/EG)** — Vereist 'verbonden ondernemingen': een **rechtstreekse deelneming van ≥ 25 %** in kapitaal of stemrechten (uitbetaler in ontvanger, omgekeerd, of beide door een gemeenschappelijke derde vennootschap — art. 3, b). Met 3 % zit de Belgische NV ver onder die drempel. De 97 %-participatie van **Z** helpt niet: Z is een natuurlijke persoon, geen vennootschap, en de richtlijn vereist een 'gemeenschappelijke moedervennootschap' om verbondenheid via een derde te realiseren → de richtlijn is dus niet van toepassing → Hongarije mag bronheffing op de interesten inhouden. 🔗
+> > 
+> > - **Conclusie**: beide richtlijnen vallen weg op de **deelnemingsdrempel** vóór er zelfs maar naar overige voorwaarden (houdperiode, uiteindelijk gerechtigde, rechtsvorm) gekeken moet worden. 🔗
+> > 
+> > Hoewel de richtlijnen niet helpen, is de bronheffing van Hongarije meestal **niet** het tarief van het nationaal recht. Het **Belgisch-Hongaars dubbelbelastingverdrag** (art. 10-11, OESO-modeltype) beperkt de Hongaarse bronheffing typisch tot een verlaagd tarief (vaak 10 % of 15 % op dividenden zonder kwalificerende deelneming en 0-15 % op interesten, afhankelijk van de verdragstekst). De resterende Hongaarse bronheffing kan in België — op de dividenden via de **DBI-aftrek** (mits 10 %-of-2,5 mio-EUR-drempel én 1 jaar houdperiode én taxatievoorwaarde, art. 202-203 WIB92) en op de interesten via het **FBB** (art. 285 WIB92) — verrekend of weggewerkt worden. De richtlijn-route is dus dicht, maar de DBV-route blijft open. 🤖
+> > 
+> > **Moeder-dochterrichtlijn 2011/96/EU**, art. 3, lid 1, a, i: hoedanigheid van moedermaatschappij vereist een **deelneming van ten minste 10 %** in het kapitaal van een vennootschap van een andere lidstaat; art. 5: pas dán wordt de uitgekeerde winst vrijgesteld van bronbelasting in de dochter-lidstaat. 📖
+> > 
+> > **Interest-royaltyrichtlijn 2003/49/EG**, art. 1, lid 1: interest- en royalty-uitkeringen worden vrijgesteld van bronbelasting **op voorwaarde dat** de ontvanger een onderneming van een andere lidstaat en uiteindelijk gerechtigde is; art. 3, b: 'verbonden onderneming' vereist een **rechtstreekse deelneming van ≥ 25 %** in kapitaal of stemrechten (uitbetaler ↔ ontvanger, of beide door eenzelfde derde **vennootschap**). 📖  
+> > *Bron: Art. 3 + 5 Richtlijn 2011/96/EU (MDR); art. 1 + 3 Richtlijn 2003/49/EG (IRR)*
 
 <a id="2015-1-vr49"></a>
 

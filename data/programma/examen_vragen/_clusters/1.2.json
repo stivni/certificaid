@@ -1,14 +1,20 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.2",
-  "gegenereerd_op": "2026-05-29T19:44:51+00:00",
+  "gegenereerd_op": "2026-05-30T12:54:41+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 14,
+  "n_vragen": 17,
   "n_clusters": 0,
-  "n_singletons": 14,
+  "n_singletons": 17,
   "clusters": [],
-  "borderline_paren": [],
+  "borderline_paren": [
+    {
+      "van": "2010-2-vr3",
+      "naar": "2019-bibf-vrb3",
+      "cosine": 0.7522
+    }
+  ],
   "singletons": [
     {
       "examen_id": "2003-bibf",
@@ -93,6 +99,24 @@
       "vraag_id": "2014-1-vr19",
       "vraag_onderwerp": "Jaarrekening — volledig of verkort schema bij verbonden vennootschappen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr19.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrb1",
+      "vraag_onderwerp": "Waarderingsprincipes bij continuïteit vs discontinuïteit, dividenduitkering en toelichtingsverplichting bij kleine vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrb1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrb2",
+      "vraag_onderwerp": "Boekhoudkundige verwerking van vooruitfactureringen, huurwaarborgen, operationele leasing en renting bij afsluiting van het boekjaar",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrb2.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrb3",
+      "vraag_onderwerp": "Herwaarderingsmeerwaarde op materiële vaste activa (art. 57 KB W.Venn.)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrb3.json"
     }
   ]
 }

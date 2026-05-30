@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — inkomsten uit auteursrechten (art. 17, § 1, 5° WIB92) moeten altijd in de aangifte personenbelasting worden vermeld, ook als er roerende voorheffing op werd ingehouden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De algemene regel van art. 313 WIB92 stelt dat PB-belastingplichtigen roerende inkomsten waarop RV is ingehouden niet hoeven aan te geven (bevrijdende RV). Auteursrechten en naburige rechten (art. 17, § 1, 5°) zijn echter expliciet uitgesloten van deze ontheffing en moeten dus steeds worden aangegeven — ondanks de inhouding van 15% RV bij de bron. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De afzonderlijke aanslagvoet bedraagt 15% op de eerste schijf (geïndexeerd, ca. 64.070 EUR voor AJ 2024) — boven dit plafond, of als de 30%-verhoudingsgrens overschreden is, worden de inkomsten geherkwalificeerd als beroepsinkomsten en progressief belast (art. 37, tweede lid WIB92). De aangifteplicht laat de fiscus toe deze plafonds te controleren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 313 WIB92 ontslaat PB-belastingplichtigen van de aangifteplicht voor roerende inkomsten met bevrijdende RV, maar sluit auteursrechten (art. 17, § 1, 5°) expliciet uit. Aangifteplicht blijft dus integraal van toepassing. 📖",
+          "wetsref": "Art. 313 jo. art. 17, § 1, 5° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — een meerwaarde op een gebouwd onroerend goed kan wél aan 33% worden belast wanneer ze voortkomt uit een speculatieve verrichting buiten het normale beheer van een privévermogen (art. 90, 1° WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Meerwaarden op gebouwde onroerende goederen kennen in de PB drie regimes:\n\n- **Vrijgesteld** — normaal beheer privévermogen, geen speculatie, vervreemding > 5 jaar na verkrijging onder bezwarende titel. 🔗\n- **Belast aan 16,5%** (art. 171, 4°, e) — meerwaarde verwezenlijkt binnen 5 jaar na verkrijging onder bezwarende titel (art. 90, 10°). 📖\n- **Belast aan 33%** (art. 171, 1°, a) — speculatieve verrichting buiten privévermogensbeheer als diverse inkomst onder art. 90, 1°. 🔗\n\nDe stelling \"in geen geval 33%\" is dus onjuist: speculatie-meerwaarden op gebouwd OG vallen onder art. 90, 1° en worden aan 33% belast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met het 16,5%-tarief van art. 90, 10°: dat geldt enkel bij niet-speculatieve, snelle wederverkoop binnen 5 jaar. Zodra de fiscus speculatief oogmerk aantoont (herhaalde verrichtingen, leningen, korte termijn, abnormaal beheer), schuift de meerwaarde door naar art. 90, 1° en wordt het 33%-tarief toegepast. Ook beroepsmatige meerwaarden (handelaar in vastgoed) zijn een aparte categorie — beroepsinkomen aan progressief tarief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 90, 1° WIB92 (speculatieve diverse inkomsten) + art. 171, 1°, a WIB92 (afzonderlijk tarief 33%). Daarnaast art. 90, 10° + art. 171, 4°, e WIB92 voor de 16,5%-meerwaarde binnen 5 jaar bij niet-speculatieve vervreemding. 📖",
+          "wetsref": "Art. 90, 1° en 10° WIB92; art. 171, 1°, a en 4°, e WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

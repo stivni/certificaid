@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "2.4",
-  "gegenereerd_op": "2026-05-29T19:45:51+00:00",
+  "gegenereerd_op": "2026-05-30T12:56:41+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 37,
+  "n_vragen": 39,
   "n_clusters": 1,
-  "n_singletons": 35,
+  "n_singletons": 37,
   "clusters": [
     {
       "cluster_id": "2.4-c1",
@@ -237,6 +237,18 @@
       "vraag_id": "2015-1-vr40",
       "vraag_onderwerp": "BTW bij driehoeksverkeer: factuurvermelding, btw-aangifte en intracommunautaire opgave",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr40.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrf1",
+      "vraag_onderwerp": "BTW-aangifte: roosters bij stopzetting + overdracht handelszaak met onttrekking, intracommunautaire verwerving van lichte vrachtwagens met gemengd gebruik, en overgang van normale regeling naar forfaitaire regeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrf1.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrf2",
+      "vraag_onderwerp": "BTW-herzieningen bij overgang van de vrijstellingsregeling (art. 56bis WBTW) naar het normale BTW-regime",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrf2.json"
     },
     {
       "examen_id": "2024-1",

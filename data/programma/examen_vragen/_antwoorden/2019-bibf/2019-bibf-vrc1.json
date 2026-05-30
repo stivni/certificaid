@@ -1,0 +1,118 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrc1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Netto kas** (synoniem: nettothesaurie) = geldbeleggingen + liquide middelen − financiële schulden ≤ 1 jaar, of equivalent: netto bedrijfskapitaal (NBK) − behoefte aan bedrijfskapitaal (BBK). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Twee equivalente paden binnen de functionele balans:\n\n- **Bottom-up (stand)**: Netto kas = (50/53 geldbeleggingen) + (54/58 liquide middelen) − (43 schulden aan kredietinstellingen ≤ 1 jaar). 🔗\n- **Top-down (sluit-evenwicht)**: Netto kas = NBK − BBK, met NBK = permanent vermogen − vaste activa en BBK = exploitatie-vlottende activa − exploitatie-schulden op korte termijn. 🔗\n\nBeide paden geven dezelfde uitkomst — dat is het sluitstuk van het werkkapitaal-drieluik. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Netto kas > 0 betekent dat de stabiele financieringsmarge (NBK) volstaat om de operationele behoefte (BBK) te dragen; netto kas < 0 signaleert structurele afhankelijkheid van kortlopend bankkrediet (kasovertrek, voorschotten in rekening-courant). Het is geen winst- maar een financierings-evenwichtsindicator. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Functionele-balans-analyse — niet wettelijk verplicht maar gangbaar in financiële analyse (programmaonderdeel 1.9). Rekeningindeling klasse 5 (geldbeleggingen 50-53 + liquide middelen 54-58) en rubriek 43 (schulden aan kredietinstellingen ≤ 1 jaar) volgen het Minimum Algemeen Rekeningstelsel (KB 21.10.2018, bijlage 1). 📖",
+          "wetsref": "MAR — KB 21.10.2018 bijlage 1, klassen 5 en 4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "Een **nulcouponobligatie** (zero-coupon bond) is een obligatie zonder tussentijdse intrestbetalingen: de obligatiehouder ontvangt op vervaldag enkel de **nominale waarde**, zijnde **10.000,00 EUR** na 5 jaar. De vermelde inflatie van 2 % per jaar is een afleider — een nulcoupon betaalt geen inflatie-vergoeding bij, het nominale bedrag staat contractueel vast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Mechanisme:\n\n- **Tijdens de looptijd** (jaar 1 t/m 5): geen coupon, geen interestbetaling. 🔗\n- **Op vervaldag** (einde jaar 5): één enkele kasstroom = nominale waarde = **10.000,00 EUR**. 🔗\n\nHet rendement voor de belegger zit in het verschil tussen de (lagere) uitgifteprijs en de (hogere) terugbetalingsprijs — niet in de vraag, want enkel de nominale waarde op vervaldag wordt gevraagd. Inflatie beïnvloedt de koopkracht van die 10.000 EUR achteraf, maar niet het nominaal uitgekeerd bedrag. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Inflatiepercentage ≠ couponrente. De vraag suggereert via het inflatiegetal van 2 % dat een berekening (kapitalisatie 10.000 × 1,02⁵ ≈ 11.041 EUR) nodig is — die berekening is hier **fout**: een nulcouponobligatie is geen inflatie-geïndexeerd instrument (zoals een OLOi of TIPS). De nominale waarde is contractueel vast in nominale euro's, ongeacht inflatie. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Algemene financiële techniek — programmaonderdeel 1.9 (financieel beheer). Geen specifieke wetsbepaling: nulcouponobligaties zijn een marktinstrument, gedefinieerd door de uitgiftevoorwaarden. Boekhoudkundig: het verschil tussen uitgifte- en terugbetalingsprijs wordt door de emittent prorata temporis opgenomen als rentekost (matching-beginsel). 🤖",
+          "wetsref": null,
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a,c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Juiste stellingen: **a + c**. Wettelijke reserves (130) zijn eigen vermogen en dus permanent vermogen (a), en een dalende voorraadrotatie verlengt de gemiddelde aanwezigheidsduur van voorraden waardoor de werkkapitaalbehoefte stijgt (c). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a — JUIST**. Wettelijke reserves (MAR-rekening 130) maken deel uit van het eigen vermogen (klasse 1). Permanent vermogen = eigen vermogen + voorzieningen + schulden > 1 jaar; wettelijke reserves zitten dus per definitie in het permanent vermogen. 🔗\n- **b — FOUT**. Voorzieningen voor risico's en kosten (rubriek 16) behoren wél tot het permanent vermogen in de functionele balans-benadering: het zijn lange-termijn-financieringsbronnen (al is de juridische aard een schuld). De standaardformule NBK = (eigen vermogen + voorzieningen + schulden > 1 jaar) − vaste activa includeert voorzieningen expliciet. 🔗\n- **c — JUIST**. Voorraadrotatie = COGS / gemiddelde voorraad. Een **dalende** rotatie betekent dat voorraden gemiddeld langer aanwezig blijven (DIO ↑). Meer kapitaal blijft vastzitten in voorraden → exploitatie-vlottende activa stijgen → BBK stijgt → werkkapitaalbehoefte stijgt. 🔗\n- **d — FOUT**. Stijgt het aantal dagen klantenkrediet (DSO ↑), dan blijven handelsvorderingen langer openstaan → exploitatie-vlottende activa stijgen → BBK stijgt → NBK-behoefte **groter**, niet kleiner. De stelling beweert het tegenovergestelde. 🔗\n- **e — FOUT**. Vermits a en c juist zijn, is 'geen van bovenstaande' onjuist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie b is bewust verwarrend: juridisch zijn voorzieningen een schuld (geen eigen vermogen), maar in de **functionele balans** worden ze tot het permanent vermogen gerekend omdat ze structureel-lange-termijn-financiering vormen. Examenvraag toetst dus de functionele lezing, niet de boekhoudkundige rubricering. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Functionele-balans-analyse (programmaonderdeel 1.9): permanent vermogen = eigen vermogen + voorzieningen + schulden > 1 jaar. NBK = permanent vermogen − vaste activa. BBK = exploitatie-vlottende activa − exploitatie-schulden op korte termijn — stijgt bij hogere DIO (lagere voorraadrotatie) of hogere DSO (meer dagen klantenkrediet). Eigen-vermogen-componenten conform MAR klasse 1 (KB 21.10.2018), inclusief 130 Wettelijke reserves. 📖",
+          "wetsref": "MAR — KB 21.10.2018 bijlage 1, klasse 1 (eigen vermogen, rekening 130) + klasse 16 (voorzieningen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

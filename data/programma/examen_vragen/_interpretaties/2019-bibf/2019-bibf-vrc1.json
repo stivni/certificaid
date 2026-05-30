@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrc1",
+  "interpretatie_datum": "2026-05-30T13:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Algemene beginselen financieel beheer: definitie en formule van de netto kas, begrip nulcouponobligatie met cash-flow op vervaldag, en stellingen over permanent vermogen en werkkapitaalbehoefte",
+  "programmaonderdeel_ids": [
+    "1.9"
+  ],
+  "themas": [
+    "netto kas",
+    "nettobedrijfskapitaal",
+    "nettobedrijfskapitaalbehoefte",
+    "nulcouponobligatie",
+    "permanent vermogen",
+    "werkkapitaalbehoefte",
+    "voorraadrotatie",
+    "klantenkrediet"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Sectie C. Algemene beginselen van het financieel beheer — Vraag C.1 (5 punten). De vraag bestaat uit drie deelvragen rond cash- en werkkapitaalindicatoren en obligatie-instrumenten."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Wat betekent Netto kas?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Wat is een nulcouponobligatie? Hoeveel krijgt de obligatiehouder na 5 jaar op een nulcouponobligatie van 10.000,00 € indien de inflatie 2 % per jaar bedraagt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke stelling(en) is/zijn juist? Omcirkel de letter(-s) van uw keuze.",
+      "opties": [
+        { "id": "a", "tekst": "Wettelijke Reserves (130) behoren tot het permanent vermogen" },
+        { "id": "b", "tekst": "Voorzieningen vormen geen onderdeel van het permanent vermogen" },
+        { "id": "c", "tekst": "De behoefte aan werkkapitaal stijgt indien de voorraadrotatie daalt" },
+        { "id": "d", "tekst": "Stijgt het aantal dagen klantenkrediet dan wordt de behoefte aan nettobedrijfskapitaal kleiner" },
+        { "id": "e", "tekst": "Geen van bovenstaande stellingen is juist" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (4 mei 2019, sectie C.1, 5 punten) — modelantwoorden (2 + 1 + 2 punten) staan in de PDF maar horen niet in dit interpretatie-artefact en zijn weggelaten. Drie genummerde deelvragen (1–3) overgenomen met letter-ids a–c (label_in_pdf behoudt de PDF-nummering 1/2/3). Deelvraag 1 (Netto kas) en deelvraag 2 (nulcouponobligatie + bedrag na 5 jaar) zijn open definitie/berekeningsvragen → vraagtype=open. Deelvraag 3 is een meerkeuze met 5 stellingen (a–e) waarbij één of meer juist zijn — geclassificeerd als mc_keuze (de instructie 'Omcirkel de letter(-s) van uw keuze' duidt op selectie uit de gegeven opties, niet op individuele juist/fout-beoordeling per stelling). Optie e ('Geen van bovenstaande stellingen is juist') is een standaard 'none-of-the-above' MC-optie en is als zodanig overgenomen. Geen typo's of OCR-artefacten die ingrijpen vereisten. PO 1.9 (financieel beheer) is de relevante programmaonderdeel-classificatie. Sectie-header en casus_context-blok geven enkel het sectiekader weer; er is geen casus met cijfermateriaal.",
+  "kwaliteits_flags": []
+}

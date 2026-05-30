@@ -3,12 +3,12 @@ title: PO 2.3 — Vennootschapsbelasting
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.3 (Vennootschapsbelasting).
 tags: [examen, voorbeeldvragen, po-2-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.3 — Vennootschapsbelasting
 
-**19 unieke vraag-eenheden** (waarvan 1 cluster, totaal 21 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 18 met modelantwoord
+**21 unieke vraag-eenheden** (waarvan 1 cluster, totaal 23 voorkomens) uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 20 met modelantwoord
 
 <a id="2024-1-vr8A"></a>
 
@@ -162,6 +162,273 @@ gegenereerd_op: 2026-05-29
 > > - **Art. 207 WIB 92** — aftrekvolgorde + bevestiging dat geen aftrek noch verliescompensatie mogelijk is op het in art. 206/3 §1 bedoelde gedeelte van het resultaat.
 > > - **Art. 205, §3 WIB 92** — overdraagbaarheid DBI-overschot beperkt tot vennootschappen gevestigd in een EER-lidstaat (relevant voor de framing van de vraag, niet voor de besmette-lijst zelf). 📖  
 > > *Bron: Art. 206/3 §1 WIB 92; art. 198 §1, 9°, 9°bis, 12°, 17° WIB 92; art. 79 WIB 92; art. 207 WIB 92; art. 205 §3 WIB 92*
+
+<a id="2019-bibf-vrh1"></a>
+
+> [!question]- 🆕 Verworpen uitgaven in de aangifte vennootschapsbelasting — kwalificatie per situatie (JA/NEEN), bedrag van de V.U. en toepasselijke code
+> *Examen 2019-bibf · PO 2.3*
+>
+> Vraag H.1 (BIBF Praktisch Bekwaamheidsexamen 4 mei 2019, sectie H. Vennootschapsbelasting — /5 punten; 0,5 punt per correct antwoord).
+> 
+> Opdracht in twee stappen voor elke van de 10 hierna beschreven situaties:
+> 1. Duid aan of er al dan niet verworpen uitgaven (V.U.) zijn, met JA of NEEN.
+> 2. Indien JA: vermeld het bedrag van de V.U. alsook de toepasselijke code (overeenkomstig de codes 1201–1240 van de aangifte vennootschapsbelasting; zie referentie-tabel).
+> 
+> **Referentie — Verworpen uitgaven (codes en omschrijvingen uit de aangifte VenB, p. 38)**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | 1201 — Niet-aftrekbare belastingen |   |
+> | 1202 — Gewestelijke belastingen, heffingen en retributies |   |
+> | 1203 — Geldboeten, verbeurdverklaringen en straffen van alle aard |   |
+> | 1204 — Niet-aftrekbare pensioenen, kapitalen, werkgeversbijdragen en -premies |   |
+> | 1205 — Niet-aftrekbare autokosten en minderwaarden op autovoertuigen |   |
+> | 1206 — Autokosten ten belope van een gedeelte van het voordeel van alle aard |   |
+> | 1207 — Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken |   |
+> | 1208 — Niet-aftrekbare restaurantkosten |   |
+> | 1209 — Kosten voor niet-specifieke beroepskledij |   |
+> | 1210 — Overdreven interesten |   |
+> | 1211 — Interesten met betrekking tot een gedeelte van bepaalde leningen |   |
+> | 1212 — Abnormale of goedgunstige voordelen |   |
+> | 1214 — Sociale voordelen |   |
+> | 1215 — Voordelen uit maaltijd-, sport-, cultuur- of ecocheques |   |
+> | 1216 — Liberaliteiten |   |
+> | 1217 — Waardeverminderingen en minderwaarden op aandelen |   |
+> | 1218 — Terugnemingen van vroegere vrijstellingen |   |
+> | 1219 — Werknemersparticipatie |   |
+> | 1220 — Vergoedingen ontbrekende coupon |   |
+> | 1232 — Kosten tax shelter erkende werken |   |
+> | 1222 — Gewestelijke premies en kapitaal- en interestsubsidies |   |
+> | 1223 — Niet-aftrekbare betalingen naar bepaalde Staten |   |
+> | 1225 — Niet-verantwoorde kosten |   |
+> | 1230 — Terugneming van aftrek voor innovatie-inkomsten in geval van spreiding van de historische kosten |   |
+> | 1231 — Terugneming van aftrek voor innovatie-inkomsten ingevolge niet-herbelegging in kwalificerende uitgaven |   |
+> | 1226 — Positieve correcties Diamant Stelsel: positief verschil forfaitair vs. boekhoudkundig vastgestelde brutowinst |   |
+> | 1227 — Positieve correcties Diamant Stelsel: niet-aftrekbare waardeverminderingen op voorraden en niet-aftrekbare kosten |   |
+> | 1228 — Positieve correcties Diamant Stelsel: positief verschil referentiebezoldiging bedrijfsleider vs. hoogste bedrijfsleidersbezoldiging |   |
+> | 1229 — Positieve correcties Diamant Stelsel: correctie in functie van minimumbedrag netto belastbaar inkomen uit diamanthandel |   |
+> | 1239 — Andere verworpen uitgaven |   |
+> | 1240 — Verworpen uitgaven (totaal) |   |
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De vennootschap heeft in de loop van het jaar een bedrag van 15.000,00 € aan voorafbetalingen geboekt. De vennootschap heeft de totaal verwachte belasting geschat op 20.000,00 €. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — V.U. **20.000,00 €** — code **1201**. 🔗
+> > 
+> > De geraamde belastingschuld (20.000,00 €) — het bedrag dat boekhoudkundig als belastingkost werd opgenomen — is integraal een niet-aftrekbare belasting. De 15.000,00 € voorafbetalingen zijn slechts een betalingsmodaliteit, geen aparte kost: ze zitten reeds in die 20.000,00 € vervat. De V.U. is dus **20.000,00 €**, niet 15.000,00 € en niet het saldo van 5.000,00 €. 🔗
+> > 
+> > Art. 198, §1, 1° WIB 92: de vennootschapsbelasting en de in mindering daarvan gestorte sommen (voorafbetalingen) zijn niet aftrekbaar. Code **1201** van de aangifte VenB groepeert de VenB, de voorafbetalingen en het op niet-aftrekbare belastingen betrekking hebbende gedeelte van de geraamde belastingschulden. 📖  
+> > *Bron: Art. 198, §1, 1° WIB 92 — code 1201 aangifte VenB*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De BTW-administratie heeft aan de vennootschap een proportionele geldboete van 300,00 € opgelegd wegens laattijdige betaling van de BTW. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — geen V.U. 🔗
+> > 
+> > Een **proportionele** BTW-geldboete (KB nr. 41) is gekoppeld aan de verschuldigde belasting en wordt fiscaal beschouwd als een **bijkomende belastingverhoging**, niet als een geldboete in de zin van art. 53, 6° WIB 92. Zij volgt het regime van de onderliggende BTW: als die BTW een aftrekbare beroepskost is, is ook de proportionele boete aftrekbaar. Geen verwerping. 🔗
+> > 
+> > De scheidslijn loopt niet "BTW-boete = altijd VU" maar **proportioneel vs. niet-proportioneel**. Proportionele boete (KB nr. 41) = aftrekbaar. Niet-proportionele boete (KB nr. 44, vaste bedragen) = niet aftrekbaar onder code 1203 — zie deelvraag 3. 🤖
+> > 
+> > Art. 53, 6° WIB 92 viseert "geldboeten, met inbegrip van transactionele geldboeten, verbeurdverklaringen en straffen van alle aard". Administratief en parlementair vastgestelde doctrine: proportionele BTW-boeten (KB nr. 41 van 30 januari 1987) hebben het karakter van een belastingverhoging en delen het lot van de hoofdsom. 🔗  
+> > *Bron: Art. 53, 6° WIB 92 — KB nr. 41 van 30.01.1987 (proportionele BTW-boeten)*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De BTW-administratie heeft aan de vennootschap een niet-proportionele geldboete van 500,00 € opgelegd wegens laattijdige aangifte-indiening van de periodieke aangiftes. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — V.U. **500,00 €** — code **1203**. 📖
+> > 
+> > Een **niet-proportionele** BTW-geldboete (KB nr. 44 van 9 juli 2012, vaste bedragen voor formele overtredingen zoals laattijdige aangifte-indiening) is een straf, niet een bijkomende belasting. Zij valt integraal onder de niet-aftrekbare geldboeten van art. 53, 6° WIB 92 en wordt verworpen onder code **1203**. Volledige bedrag = 500,00 €. 🔗
+> > 
+> > Art. 53, 6° WIB 92: geldboeten, verbeurdverklaringen en straffen van alle aard zijn niet als beroepskosten aftrekbaar. KB nr. 44 van 09.07.2012 vermeldt het tarief van de niet-proportionele BTW-geldboeten (art. 70, §4 WBTW). Aangifte VenB code **1203** — "Geldboeten, verbeurdverklaringen en straffen van alle aard". 📖  
+> > *Bron: Art. 53, 6° WIB 92 — KB nr. 44 van 09.07.2012 — code 1203 aangifte VenB*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Kosten, ten bedrage van 400,00 €, betreffende dranken (water, koffie, …) die tijdens de werkuren gratis verdeeld worden aan het personeel. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — geen V.U. 🔗
+> > 
+> > Gratis dranken (water, koffie, …) die tijdens de werkuren collectief aan het personeel ter beschikking worden gesteld, zijn **collectieve sociale voordelen**: ze zijn niet individualiseerbaar en niet bedoeld als bezoldiging. In hoofde van het personeel zijn ze vrijgesteld als sociaal voordeel (art. 38, §1, 11° WIB 92); in hoofde van de vennootschap blijven ze toch **volledig aftrekbaar** als beroepskost — een uitdrukkelijke uitzondering op art. 53, 14° WIB 92. Geen verwerping. 🔗
+> > 
+> > Art. 38, §1, 11° WIB 92 vrijgesteld in PB; art. 53, 14° WIB 92 (basisregel: sociale voordelen niet-aftrekbaar) met **uitzondering** voor o.a. dranken die collectief tijdens de werkuren worden verstrekt — uitdrukkelijk vermeld in de tweede lid van art. 53, 14°. Volledige aftrek blijft. 🔗  
+> > *Bron: Art. 38, §1, 11° + art. 53, 14° WIB 92 (uitzondering collectieve dranken)*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Kosten, ten bedrage van 700,00 €, betreffende dranken (water, koffie, …) die dagelijks aangeboden worden aan de klanten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — V.U. **350,00 €** — code **1207**. 📖
+> > 
+> > Dranken die aan **klanten** worden aangeboden zijn **receptiekosten** in de zin van art. 53, 8° WIB 92 — niet langer een sociaal voordeel voor het personeel maar onthaal/representatie van derden. Slechts 50 % is aftrekbaar; **50 % is verworpen uitgave**.
+> > 
+> > | Bedrag | Berekening | V.U. |
+> > |---|---|---|
+> > | 700,00 € | 700,00 × 50 % | **350,00 €** | 🔗
+> > 
+> > Art. 53, 8° WIB 92: receptiekosten en kosten voor relatiegeschenken zijn voor 50 % niet aftrekbaar (sinds aj. 2005). Aangifte VenB code **1207** — "Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken — 50 % van receptiekosten". 📖  
+> > *Bron: Art. 53, 8° WIB 92 — code 1207 aangifte VenB*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De vennootschap heeft 1.050,00 € onroerende voorheffing betaald betreffende een haar toebehorend gebouw (KI niet-geïndexeerd: 1.000,00 € — KI geïndexeerd: 1.750,00 €). — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — geen V.U. 🔗
+> > 
+> > De **onroerende voorheffing** op een beroepsmatig gebruikt gebouw is een gewestelijke belasting die in de vennootschapsbelasting **volledig aftrekbaar** is als beroepskost. Het is geen niet-aftrekbare belasting in de zin van art. 198, §1, 1° WIB 92 (dat enkel de VenB en aanverwante federale heffingen viseert). De gegevens over het KI (geïndexeerd/niet-geïndexeerd) zijn hier irrelevant — die spelen alleen bij de bepaling van het belastbaar onroerend inkomen, niet bij de aftrekbaarheid van de werkelijk betaalde OV. 🔗
+> > 
+> > Art. 49 WIB 92 (algemene aftrekbaarheid beroepskosten) — de OV op een onroerend goed dat voor de beroepswerkzaamheid wordt gebruikt is aftrekbaar. Niet getroffen door art. 198, §1, 1° WIB 92 (federale VenB). 🔗  
+> > *Bron: Art. 49 + art. 198, §1, 1° (a contrario) WIB 92*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De vennootschap heeft 124,90 € betaald als kost voor de neerlegging van de jaarrekening, alsook een bijdrage van 120,00 € wegens laattijdige neerlegging. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — geen V.U. (noch de neerleggingskost van 124,90 €, noch de bijdrage van 120,00 € wegens laattijdige neerlegging). 🔗
+> > 
+> > De **publicatiekost** bij de NBB voor neerlegging van de jaarrekening is een gewone beroepskost (art. 49 WIB 92). De **bijdrage wegens laattijdige neerlegging** (art. 3:13 KB WVV) is **geen straf of geldboete in de zin van art. 53, 6° WIB 92** maar een door de Koning opgelegde administratieve **bijdrage in de kosten van de opsporing en controle** door de NBB. Vaste fiscale doctrine: deze bijdrage is aftrekbaar — ze kwalificeert noch als belasting in art. 198, §1, 1°, noch als geldboete in art. 53, 6°. 🔗
+> > 
+> > Niet verwarren met een **administratieve geldboete** van de FOD Economie of een **belastingverhoging**: die zouden wél onder code 1203 vallen. De NBB-laattijdigheidsbijdrage heeft een eigen wettelijke grondslag (Wb. Venn./WVV) en draagt expliciet het etiket "bijdrage", niet "boete". 🤖
+> > 
+> > Art. 49 WIB 92 (algemene aftrekbaarheid); art. 53, 6° WIB 92 (a contrario — geen boete in de zin van die bepaling); art. 3:13 KB WVV (laattijdigheidsbijdrage NBB). 🔗  
+> > *Bron: Art. 49 + art. 53, 6° (a contrario) WIB 92 — art. 3:13 KB WVV*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">In de resultatenrekening vinden we de kosten betreffende diverse beroepsmatige seminaries. Het totaal van de kosten bedraagt 2.500,00 €, waarvan 500,00 € restaurantkosten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — V.U. **155,00 €** — code **1208**. 📖
+> > 
+> > Enkel de restaurantkosten binnen het seminarie-pakket worden door de 31 %-niet-aftrekbaarheid getroffen; de overige 2.000,00 € seminariekosten zijn integraal aftrekbaar.
+> > 
+> > | Component | Bedrag | Niet-aftrekbaar | V.U. |
+> > |---|---|---|---|
+> > | Restaurantkosten | 500,00 € | 31 % | **155,00 €** |
+> > | Overige seminariekosten | 2.000,00 € | 0 % | 0,00 € |
+> > | **Totaal V.U.** |  |  | **155,00 €** | 🔗
+> > 
+> > Art. 53, 8°bis WIB 92: restaurantkosten zijn voor 31 % niet aftrekbaar (de aftrekbeperking geldt ongeacht of de restaurantkost binnen een ruimer beroepskostenpakket — zoals een seminarie — wordt gemaakt). Aangifte VenB code **1208** — "Niet-aftrekbare restaurantkosten — 31 %". 📖  
+> > *Bron: Art. 53, 8°bis WIB 92 — code 1208 aangifte VenB*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">In de resultatenrekening van de vennootschap treffen we een bedrag van 400,00 €, zijnde de kosten i.v.m. de aankoop van gepersonaliseerde (vermelding naam vennootschap) stylo's, bestemd om uitgedeeld te worden aan de klanten. — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **NEEN** — geen V.U. 🔗
+> > 
+> > **Gepersonaliseerde stylo's met de naam van de vennootschap**, in grote oplage uitgedeeld aan klanten, kwalificeren niet als **relatiegeschenken** (art. 53, 8° WIB 92) maar als **publiciteits-/reclameartikelen**: ze hebben een opvallend en blijvend reclame-karakter, een geringe eenheidswaarde en worden op grote schaal verspreid. Administratieve tolerantie (Comm.I.B. 53/152) stelt deze kosten gelijk met reclamekosten — **volledig aftrekbaar**, geen 50 %-beperking, geen V.U. 🔗
+> > 
+> > Het cruciale onderscheid in deelvraag 9 vs. 10 is **publiciteitsartikel vs. relatiegeschenk**: stylo's met logo (geringe eenheidswaarde + reclamefunctie) ≠ pralines (luxegeschenk zonder reclamefunctie). De pralines uit deelvraag 10 zijn wél 50 % verworpen onder code 1207. 🤖
+> > 
+> > Art. 49 WIB 92 (volledige aftrek reclamekosten); art. 53, 8° WIB 92 (a contrario — geen relatiegeschenk wegens reclame-karakter en geringe waarde). Vaste administratieve doctrine — Comm.I.B. 53/152. 🔗  
+> > *Bron: Art. 49 + art. 53, 8° (a contrario) WIB 92 — Comm.I.B. 53/152*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De vennootschap heeft aan een aantal goede klanten een doos pralines gegeven. In de kostenrekening vinden we hiervoor een bedrag van 500,00 € terug (kostprijs van 20 dozen pralines). — Zijn er verworpen uitgaven? (Indien JA: bedrag + code.)</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JA** — V.U. **250,00 €** — code **1207**. 📖
+> > 
+> > Een doos pralines aan klanten is een typisch **relatiegeschenk**: luxeproduct, beperkte oplage, geen blijvende reclamefunctie. Volledig onder art. 53, 8° WIB 92 → 50 % niet-aftrekbaar.
+> > 
+> > | Bedrag | Berekening | V.U. |
+> > |---|---|---|
+> > | 500,00 € (20 dozen) | 500,00 × 50 % | **250,00 €** | 🔗
+> > 
+> > Art. 53, 8° WIB 92 — 50 %-aftrekbeperking voor kosten van relatiegeschenken. Aangifte VenB code **1207** — "Niet-aftrekbare receptiekosten en kosten voor relatiegeschenken — 50 %". 📖  
+> > *Bron: Art. 53, 8° WIB 92 — code 1207 aangifte VenB*
+
+<a id="2019-bibf-vrh2"></a>
+
+> [!question]- 🆕 Herkwalificatie van niet-beroepsmatige uitgaven als persoonlijke uitgaven van de zaakvoerder — boeking via rekening-courant en fiscale gevolgen (vennootschap + zaakvoerder)
+> *Examen 2019-bibf · PO 2.3*
+>
+> De heer Klepkens, zaakvoerder van de BVBA BEDIENUZELF, heeft in 2017 via zijn bedrijf een aantal uitgaven gedaan en betaald waarvan niet werd bewezen dat deze beroepsmatig waren. Bij het afsluiten van de rekeningen over 2017 wijst zijn boekhouder op het feit dat hij deze uitgaven zal herkwalificeren als persoonlijke uitgaven. De heer Klepkens wil zijn vennootschap terugbetalen maar zal dit niet kunnen doen vóór de maand juni 2018.
+>
+> **Kan de heer Klepkens beslissen om de vennootschap in juni 2018 terug te betalen en op welke manier?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA** — de heer Klepkens kan in juni 2018 terugbetalen; tot dan wordt de schuld in de boekhouding van de BVBA opgenomen als een **vordering op de zaakvoerder via een rekening-courant zaakvoerder (R/C) op de actiefzijde** van de balans. 🔗
+> > 
+> > De herkwalificatie betekent dat de uitgaven niet meer als beroepskost van de vennootschap worden aanvaard, maar als privé-uitgaven die de zaakvoerder aan de vennootschap verschuldigd is. Zolang de terugbetaling niet effectief plaatsvindt, registreert de boekhouder die schuld als een vordering van de vennootschap op haar zaakvoerder — concreet via de R/C zaakvoerder op het actief (klasse 41, rekening 416 'Vorderingen op vennoten / bestuurders / zaakvoerders'). 🔗 De effectieve terugbetaling in juni 2018 zal die R/C dan aanzuiveren. 🔗
+> > 
+> > Boekhoudkundig steunt deze verwerking op het MAR-rekeningenstelsel (rekening 416 'Vorderingen op aandeelhouders, bestuurders en zaakvoerders' — actiefzijde). De herkwalificatie zelf is een loutere correctie binnen het boekjaar 2017 in opdracht van de boekhouder; geen wetsartikel verplicht de terugbetaling op een vaste datum. 🤖  
+> > *Bron: MAR rekening 416 — Vorderingen op aandeelhouders, bestuurders en zaakvoerders*
+>
+> **Hoe zal de boekhouder van de BVBA BEDIENUZELF deze situatie boekhoudkundig behandelen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De boekhouder **boekt de uitgaven over naar rekening 416 'Vorderingen op aandeelhouders/zaakvoerders'**, zodat de vordering van de BVBA op haar zaakvoerder Klepkens duidelijk in de balans verschijnt. 🔗
+> > 
+> > Overboeking van de oorspronkelijk geboekte privé-uitgaven (klasse 6 — verschillende kostenrekeningen) naar de vordering op de zaakvoerder:
+> > 
+> > | | Rekening | Omschrijving | Debet | Credit |
+> > |---|---|---|---|---|
+> > | | 416 | Vorderingen op aandeelhouders/zaakvoerders (R/C Klepkens) | X | |
+> > | aan | 60-, 61-, 62- ... | Oorspronkelijke kostenrekeningen waarop de privé-uitgaven werden geboekt | | X |
+> > 
+> > Effect: de kosten verdwijnen uit het resultaat van de BVBA en de schuld van Klepkens wordt zichtbaar op de actiefzijde van de balans. 🔗
+> > 
+> > MAR-rekening 416 ('Vorderingen op aandeelhouders, bestuurders en zaakvoerders') is de standaard-rekening om R/C-vorderingen van de vennootschap op haar bedrijfsleider te boeken. 🔗  
+> > *Bron: MAR rekening 416*
+>
+> Zijn er fiscale gevolgen in hoofde van BVBA BEDIENUZELF?
+> 
+> **Zo ja, welke?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA — twee fiscale gevolgen voor de BVBA**: (1) de **belastbare basis stijgt** doordat de herkwalificatie de kosten elimineert (minder aftrekbare kosten → meer belastbare winst); (2) op het R/C-debetsaldo per 31/12/2017 moet **fictieve intrest** van **8,78 % per jaar** worden aangerekend (tenzij de R/C op credit staat), die ofwel als rente-opbrengst wordt geboekt — meestal geneutraliseerd via rekening 618 (bezoldiging zaakvoerder) — ofwel, als zij niet bij de zaakvoerder wordt belast en op de R/C wordt bijgeboekt, de belastbare basis van de BVBA verder verhoogt. 🔗
+> > 
+> > - **Gevolg 1 — hogere belastbare basis door minder kosten**: na overboeking naar de R/C verdwijnen de oorspronkelijke kostenboekingen (klasse 6). Het belastbaar resultaat 2017 stijgt met datzelfde bedrag → meer vennootschapsbelasting. 🔗
+> > - **Gevolg 2 — fictieve intrest op R/C-debetsaldo per 31/12/2017**: een rekening-courant met debetsaldo (zaakvoerder schuldt aan vennootschap) wordt fiscaal beschouwd als een renteloze of goedkope lening aan de bedrijfsleider. Op die schuld moet de **referentierentevoet uit KB/WIB92 art. 18 §3** worden toegepast — voor AJ 2018 (inkomsten 2017) bedraagt die voor niet-hypothecaire leningen zonder vaste looptijd **8,78 %**. 📖 Twee verwerkingswijzen:
+> >   - **Variant a — intrest aangerekend + bezoldigingscompensatie**: de BVBA boekt de rente als opbrengst (751) tegenover R/C, maar neemt diezelfde rente ten laste op rekening **618 — bezoldiging zaakvoerder** als VAA → netto-effect op de belastbare basis = 0 voor de BVBA, en de zaakvoerder wordt belast op het VAA in zijn PB.
+> >   - **Variant b — intrest bijgeboekt op R/C, niet belast bij zaakvoerder**: indien de intrest niet ten laste wordt genomen als bezoldiging maar gewoon aan de R/C-schuld wordt toegevoegd, **stijgt de belastbare basis van de BVBA ten bedrage van die fictieve intrest** (rente-opbrengst zonder compensatiekost). 🔗
+> > 
+> > De **8,78 %** is geen marktrente maar de **forfaitaire referentievoet** van het KB/WIB92 art. 18 §3 voor niet-hypothecaire leningen zonder vaste looptijd, zoals jaarlijks gepubliceerd (cijfer voor inkomstenjaar 2017 / AJ 2018). De voet is jaar- en categorie-gebonden — voor een ander aanslagjaar of voor een hypothecaire lening geldt een ander percentage. Het Cijferzakboekje is de canonieke vindplaats. 🔗
+> > 
+> > Art. 32 WIB92 (bezoldigingen bedrijfsleider — VAA als bijkomende bezoldiging) en art. 36 WIB92 (forfaitaire raming van voordelen van alle aard) — uitgewerkt in **KB/WIB92 art. 18 §3** dat de jaarlijkse referentierentevoeten vastlegt voor renteloze of goedkope leningen, met aparte categorieën voor hypothecaire vs. niet-hypothecaire en vaste vs. variabele rente. Voor R/C-zaakvoerder geldt de categorie 'niet-hypothecair zonder vaste looptijd' — 8,78 % voor inkomstenjaar 2017. 📖  
+> > *Bron: Art. 32 + 36 WIB92; KB/WIB92 art. 18 §3*
+>
+> Zijn er fiscale gevolgen in hoofde van de heer Klepkens? Geef meer uitleg bij uw antwoord.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA** — voor **AJ 2018 (inkomsten 2017)** ziet de heer Klepkens zijn **belastbare basis in de personenbelasting verhoogd met de fictieve intrest van 8,78 % per jaar** berekend op zijn R/C-schuld bij de BVBA BEDIENUZELF (belastbaar als bijkomende bezoldiging-VAA). **Alternatief**: wil hij die VAA-belasting vermijden, dan kan hij beslissen om de intrest **toe te voegen aan zijn R/C-schuld** — bij terugbetaling van de schuld zal hij die bijgeboekte intrest dan ook moeten meebetalen. 🔗
+> > 
+> > Twee mogelijke verwerkingen — Klepkens kiest:
+> > 
+> > - **Optie 1 — VAA in de PB**: de schuld in R/C is fiscaal een renteloze (goedkope) lening van vennootschap aan bedrijfsleider → het verschil tussen de KB-referentievoet (8,78 % voor inkomstenjaar 2017) en de werkelijk aangerekende rente (hier 0 %) is een **voordeel van alle aard** dat als bezoldiging van bedrijfsleider belast wordt op fiche 281.20. Resultaat: progressieve PB + gemeentelijke opcentiemen op de berekende fictieve rente. 🔗
+> > - **Optie 2 — intrest bijschrijven op R/C**: Klepkens belast zichzelf niet op een VAA maar laat de rente aanrekenen door de vennootschap en boeken op zijn R/C. Zijn schuld wordt zo groter; bij terugbetaling betaalt hij het kapitaal plus de bijgeboekte intresten terug. Geen PB-meerwaarde maar wel een grotere uiteindelijke cashoutflow. 🔗
+> > 
+> > De berekening van de fictieve intrest gebeurt op het **gemiddeld openstaand R/C-saldo** over het inkomstenjaar (typisch som van de maand-einde-saldi / 12), niet op het eindsaldo per 31/12. Een zaakvoerder die zijn R/C kort vóór jaareinde 'aflost' en in januari weer opneemt, ontsnapt dus niet aan de VAA-berekening. 🔗
+> > 
+> > Art. 32 WIB92 (bezoldigingen bedrijfsleider — VAA telt als bezoldiging) + art. 36 WIB92 (forfaitaire raming VAA) + **KB/WIB92 art. 18 §3** (jaarlijkse referentierentevoeten: voor inkomstenjaar 2017 bedraagt de niet-hypothecaire voet zonder vaste looptijd 8,78 %). De keuze tussen 'VAA belasten' en 'rente bijschrijven op R/C' is een feitenkeuze van de zaakvoerder/vennootschap, niet een wettelijke optie. 📖  
+> > *Bron: Art. 32 + 36 WIB92; KB/WIB92 art. 18 §3*
 
 <a id="2015-1-vr33"></a>
 <a id="2013-2-vr24"></a>

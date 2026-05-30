@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd3",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een **niet-bezwaard-verklaring van het hypotheekkantoor** (geen pand op het handelsfonds) plus **vier blanco-attesten** waaruit blijkt dat de overlater geen openstaande schulden heeft bij: **BTW**, **directe belastingen (FOD Financiën)**, **RSZ** (werknemersbijdragen) en **RSVZ** (sociale bijdragen zelfstandigen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet op te vragen vóór de overname-akte wordt verleden:\n\n- **Hypothecair getuigschrift** — bewijst dat geen pand op de handelszaak rust (pand op handelszaak is publiek bij het hypotheekkantoor); zonder die check loopt de overnemer het risico dat het overgenomen fonds met een zakelijke zekerheid bezwaard blijft. 🔗\n- **Fiscaal attest directe belastingen** (art. 442bis WIB92) — verklaart dat geen directe-belastingschulden openstaan; te bekomen bij de bevoegde ontvanger. 📖\n- **BTW-attest** (art. 93undecies B WBTW) — verklaart dat geen BTW-schulden openstaan; afgeleverd door de BTW-ontvanger. 📖\n- **RSZ-attest** (art. 16ter Wet 27.06.1969 op de sociale zekerheid van werknemers) — verklaart dat de overlater geen achterstallige werknemersbijdragen heeft. 🤖\n- **RSVZ-attest** (art. 41quinquies KB nr. 38 van 27.07.1967) — verklaart dat de overlater geen achterstallige sociale bijdragen als zelfstandige heeft. 🤖\n\nDe vier fiscale/sociale attesten mogen op het moment van de overdracht **niet ouder zijn dan 30 dagen** — vraagt de overnemer ze later op, dan is het beschermingseffect verloren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag wordt vaak gereduceerd tot \"de fiscale attesten\" — maar het **hypothecair getuigschrift** (pand op handelszaak) is een aparte, niet-fiscale check en hoort er **wel** bij. Omgekeerd: een notariële overname-akte is hier niet vereist (handelsfondsoverdracht is een gewone contractuele transactie, geen WVV-fusie/splitsing). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 442bis WIB92 (directe belastingen) + art. 93undecies B Wbtw (BTW) + art. 16ter Wet 27.06.1969 (RSZ) + art. 41quinquies KB nr. 38 van 27.07.1967 (RSVZ) — deze bepalingen vereisen alle vier eenzelfde mechanisme: de overdracht is pas tegenstelbaar aan de fiscus/inningsinstelling na het verstrijken van een wachttermijn (de maand volgend op de kennisgeving), tenzij een blanco-attest van minder dan 30 dagen oud bij de akte wordt gevoegd. Voor de pandscheck: art. 1 e.v. Wet 25.10.1919 op de inpandgeving van de handelszaak (publicatie bij het hypotheekkantoor). 📖",
+          "wetsref": "Art. 442bis WIB92 + art. 93undecies B WBTW + art. 16ter Wet 27.06.1969 + art. 41quinquies KB nr. 38 + Wet 25.10.1919 (pand handelszaak)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De overnemer wordt **hoofdelijk (solidair) aansprakelijk** voor de fiscale en sociale schulden van de overlater — **beperkt tot de overnameprijs** (of, bij overdracht om niet, tot de waarde van het handelsfonds). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee samenlopende sancties:\n\n- **Niet-tegenstelbaarheid**: zonder geldig attest is de overdracht pas tegenstelbaar aan de fiscus/RSZ/RSVZ na afloop van de maand die volgt op de kennisgeving van de akte. Tijdens die wachtperiode kan de schuldeiser nog rechtstreeks op het overgedragen handelsfonds verhalen. 🔗\n- **Hoofdelijke aansprakelijkheid van de overnemer** voor alle op het ogenblik van de overdracht openstaande directe belastingen, BTW, RSZ- en RSVZ-bijdragen van de overlater — zelfs schulden die de overnemer niet kende. Het plafond is de **prijs die hij betaald heeft** (of de waarde van het ontvangen handelsfonds); daarboven gaat de overnemer vrijuit. Voor een handelsfonds van bv. 200.000 EUR betekent dit dat de overnemer maximaal 200.000 EUR kan moeten bijbetalen — wat economisch neerkomt op het **dubbel betalen** van het handelsfonds. 🔗\n\nDe sanctie verdwijnt zodra een geldig blanco-attest (< 30 dagen oud) bij de notariële akte of de onderhandse overdracht wordt gevoegd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het plafond \"overnameprijs\" is een **echte cap**: de overnemer riskeert dus niet zijn privévermögen of de rest van zijn vennootschap, alleen het bedrag dat hij voor het handelsfonds heeft betaald. Dat verklaart waarom in de praktijk de attesten zelden ontbreken — het risico is hoog (vaak: gehele koopprijs verloren) maar overzichtelijk te managen via een formaliteit van enkele weken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De aansprakelijkheidsbeperking tot de overnameprijs staat letterlijk in elk van de vier parallelle bepalingen: art. 442bis § 2 WIB92, art. 93undecies B § 2 Wbtw, art. 16ter § 2 Wet 27.06.1969 (RSZ) en art. 41quinquies § 2 KB nr. 38 (RSVZ). Het mechanisme is overal identiek: kennisgeving van de overdracht → wachtperiode tot einde van de volgende maand → in die periode is de overdracht niet tegenstelbaar èn is de overnemer hoofdelijk gehouden, behalve bij voorlegging van een blanco-attest van minder dan 30 dagen. 📖",
+          "wetsref": "Art. 442bis § 2 WIB92 + art. 93undecies B § 2 WBTW + art. 16ter § 2 Wet 27.06.1969 + art. 41quinquies § 2 KB nr. 38",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

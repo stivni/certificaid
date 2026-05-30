@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrd2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Drie gevolgen van het foutief of niet vermelden van een economische activiteit in de KBO:\n\n1. **Fiscaal** — de fiscus kan de **kosten verwerpen** die betrekking hebben op de niet-aangegeven activiteit (geen aftrek als beroepskost in PB/VenB). 🔗\n2. **Juridisch** — de rechtbank kan een **vordering van de onderneming niet-ontvankelijk** verklaren wanneer die vordering steunt op een activiteit die niet in de KBO is ingeschreven (art. III.26 §2 WER). 🔗\n3. **Administratief** — de **FOD Economie** kan **administratieve geldboetes** opleggen wegens uitoefening van een niet-ingeschreven activiteit (sanctie van niveau 2, art. XV.77 WER). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De drie sancties zijn **cumulatief** en treffen verschillende actoren: de fiscus handelt via een aanslag (verwerping kosten = belastbare basis stijgt), de tegenpartij of de rechter werpt de niet-ontvankelijkheid op vóór de behandeling ten gronde (art. III.26 §2 WER — middel dat ambtshalve kan worden opgeworpen), en de FOD Economie volgt een eigen administratieve procedure. Eén foutje in de KBO kan dus drie kosten genereren tegelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Boek III WER (Vrijheid van vestiging — KBO en ondernemingsloketten): inschrijvingsplicht voor elke onderneming met al haar economische activiteiten en vestigingseenheden (art. III.49 en III.51 WER). Sanctionering: **art. III.26 §2 WER** — onontvankelijkheid van de vordering die steunt op een niet-ingeschreven activiteit; **art. XV.77, 2° WER** — sanctie van niveau 2 (strafrechtelijk of administratieve geldboete via FOD Economie) voor het uitoefenen van een activiteit die niet in de KBO is ingeschreven. De fiscale verwerping volgt uit de algemene aftrekvoorwaarden van art. 49 WIB92 (kosten moeten gedaan zijn om belastbare inkomsten te verkrijgen of te behouden) in combinatie met de bewijsproblemen die ontstaan wanneer de activiteit officieel niet bestaat. 📖",
+          "wetsref": "Art. III.26 §2, III.49, III.51, XV.77 WER · Art. 49 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

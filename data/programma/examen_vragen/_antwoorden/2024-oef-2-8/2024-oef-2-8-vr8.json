@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr8",
+  "antwoord_datum": "2026-05-30T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nee, de overtuiging van X en Y klopt niet.** Geen van beide EU-richtlijnen is van toepassing: de Belgische NV haalt met haar **3 %-participatie** in de Hongaarse vennootschap noch de **10 %-drempel** van de Moeder-dochterrichtlijn (dividenden), noch de **25 %-drempel** voor verbonden ondernemingen van de Interest-royaltyrichtlijn (interesten). Hongarije mag dus zowel op de dividenden als op de interesten bronheffing inhouden — eventuele verdere matiging moet via het Belgisch-Hongaars dubbelbelastingverdrag (art. 10-11) komen, niet via de richtlijnen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Toets per richtlijn op de feitelijke structuur (zie schema):**\n\n- **Aandeelhoudersstructuur** — X en Y bezitten samen 100 % van de Belgische NV; de Belgische NV bezit slechts **3 %** in de Hongaarse vennootschap; **Z** (de (schoon-)broer van X) bezit de overige **97 %** rechtstreeks als natuurlijke persoon. 🔗\n\n- **Dividenden → Moeder-dochterrichtlijn (2011/96/EU)** — Vereist een deelneming van **ten minste 10 %** in het kapitaal van de dochter (art. 3, lid 1, a, i). De 3 %-participatie van de Belgische NV ligt ruim onder deze drempel → de richtlijn kent geen bronheffing-vrijstelling toe → Hongarije mag de bronheffing op de dividenden inhouden. 🔗\n\n- **Interesten → Interest-royaltyrichtlijn (2003/49/EG)** — Vereist 'verbonden ondernemingen': een **rechtstreekse deelneming van ≥ 25 %** in kapitaal of stemrechten (uitbetaler in ontvanger, omgekeerd, of beide door een gemeenschappelijke derde vennootschap — art. 3, b). Met 3 % zit de Belgische NV ver onder die drempel. De 97 %-participatie van **Z** helpt niet: Z is een natuurlijke persoon, geen vennootschap, en de richtlijn vereist een 'gemeenschappelijke moedervennootschap' om verbondenheid via een derde te realiseren → de richtlijn is dus niet van toepassing → Hongarije mag bronheffing op de interesten inhouden. 🔗\n\n- **Conclusie**: beide richtlijnen vallen weg op de **deelnemingsdrempel** vóór er zelfs maar naar overige voorwaarden (houdperiode, uiteindelijk gerechtigde, rechtsvorm) gekeken moet worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Hoewel de richtlijnen niet helpen, is de bronheffing van Hongarije meestal **niet** het tarief van het nationaal recht. Het **Belgisch-Hongaars dubbelbelastingverdrag** (art. 10-11, OESO-modeltype) beperkt de Hongaarse bronheffing typisch tot een verlaagd tarief (vaak 10 % of 15 % op dividenden zonder kwalificerende deelneming en 0-15 % op interesten, afhankelijk van de verdragstekst). De resterende Hongaarse bronheffing kan in België — op de dividenden via de **DBI-aftrek** (mits 10 %-of-2,5 mio-EUR-drempel én 1 jaar houdperiode én taxatievoorwaarde, art. 202-203 WIB92) en op de interesten via het **FBB** (art. 285 WIB92) — verrekend of weggewerkt worden. De richtlijn-route is dus dicht, maar de DBV-route blijft open. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Moeder-dochterrichtlijn 2011/96/EU**, art. 3, lid 1, a, i: hoedanigheid van moedermaatschappij vereist een **deelneming van ten minste 10 %** in het kapitaal van een vennootschap van een andere lidstaat; art. 5: pas dán wordt de uitgekeerde winst vrijgesteld van bronbelasting in de dochter-lidstaat. 📖\n\n**Interest-royaltyrichtlijn 2003/49/EG**, art. 1, lid 1: interest- en royalty-uitkeringen worden vrijgesteld van bronbelasting **op voorwaarde dat** de ontvanger een onderneming van een andere lidstaat en uiteindelijk gerechtigde is; art. 3, b: 'verbonden onderneming' vereist een **rechtstreekse deelneming van ≥ 25 %** in kapitaal of stemrechten (uitbetaler ↔ ontvanger, of beide door eenzelfde derde **vennootschap**). 📖",
+          "wetsref": "Art. 3 + 5 Richtlijn 2011/96/EU (MDR); art. 1 + 3 Richtlijn 2003/49/EG (IRR)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

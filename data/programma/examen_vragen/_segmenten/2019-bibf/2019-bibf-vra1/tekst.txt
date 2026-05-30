@@ -1,0 +1,83 @@
+I. DEELDOMEIN BOEKHOUDING ……./40
+Alle journaalposten moeten een datum en een omschrijving bevatten. De
+rekeningen moeten, indien mogelijk, minstens uit 3 cijfers bestaan.
+A. ALGEMENE BOEKHOUDING ……/15
+Vraag A. 1. ……/5
+Gegevens
+Op 01/07/2018 verkoopt de BVBA TUTTI (waarvan het boekjaar overeenkomt met het
+kalenderjaar) een machine voor de prijs van 5.000,00 € (excl. BTW). De machine was
+verworven op 01.01.2014 voor de prijs van 30.000,00 €.
+De afschrijvingen zijn lineair, aan 20% en worden maandelijks toegepast. Deze machines
+worden regelmatig vervangen.
+Vragen
+1. Geef de boekhoudkundige verwerking van de in 2018 toegepaste afschrijvingen.
+Antwoord - 1 punt
+2309 Afschrijvingen op machines 3.000,00
+@ 6302 Afschrijvingen op materiële vaste 3.000,00
+activa
+2. Geef de boekhoudkundige verwerking van de overdracht van de oude machine
+Antwoord - 1,5 punt
+400 Klanten 6.050,00
+2309 Afschrijvingen op machines 24.000,00
+641 Minderwaarden op courante
+realisatie van vaste activa 1.000,00
+@ 230 Machines 30.000,00
+@451 Te betalen BTW 1.050,00
+OF
+Factuur
+400 Klanten 6.050,00
+@ 748 Verkoop producten buiten normale 5.000,00
+bedrjifsactiviteit
+@4510 Te betalen BTW 1.050,00
+en
+Vervolgens
+NAAM :
+p. 4
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+748 Verkoop producten buiten normale 5.000,00
+bedrijfsactiviteit
+2309 Afschrijvingen op machines 24.000,00
+641 Minderwaarden op courante
+realisatie van vaste activa 1.000,00
+@ 230 Machines 30.000,00
+3.Geef de boekhoudkundige verwerking van de overdracht wanneer deze machines niet
+regelmatig worden vervangen.
+Antwoord - 1,5 punten
+400 Klanten 6.050,00
+2309 Afschrijvingen op machines 24.000,00
+6630 Minderwaarden op de realisatie van
+vaste activa 1.000,00
+@ 230 Machines 30.000,00
+@ 451 Te betalen BTW 1.050,00
+OF
+Factuur
+400 Klanten 6.050,00
+@ 748 Verkoop producten buiten normale 5.000,00
+bedrijfsactiviteit
+@4510 Te betalen BTW 1.050,00
+En vervolgens
+@ 748 Verkoop producten buiten normale 5.000,00
+bedrijfsactiviteit
+2309 Afschrijvingen op machines 24.000,00
+6630 Minderwaarden realisatie van
+materiële vaste activa 1.000,00
+@ 230 Machines 30.000,00
+NAAM :
+p. 5
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+4.Wie beslist over het afschrijvingspercentage binnen een vennootschap ?
+Antwoord - 0,5 punt
+Bestuursorgaan.
+5.Waar vinden we deze inlichtingen in de balans van de NBB en in toepassing van welk
+artikel ?
+Antwoord - 0,5 punt
+In de bijlagen aan de balans (toelichting - art. 28 § 1 K.B. 30/01/2001- KB wetboek
+vennootschappen).
+NAAM :
+p. 6
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019

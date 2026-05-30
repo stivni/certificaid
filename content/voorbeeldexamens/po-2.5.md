@@ -3,12 +3,12 @@ title: PO 2.5 — Fiscale procedure
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.5 (Fiscale procedure).
 tags: [examen, voorbeeldvragen, po-2-5]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.5 — Fiscale procedure
 
-**21 unieke vraag-eenheden** (waarvan 2 clusters, totaal 23 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 21 met modelantwoord
+**23 unieke vraag-eenheden** (waarvan 2 clusters, totaal 25 voorkomens) uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 23 met modelantwoord
 
 <a id="2024-1-vr9A"></a>
 
@@ -137,6 +137,76 @@ gegenereerd_op: 2026-05-29
 > > 
 > > **Boekhoudrecht**: WER art. III.86 (boeken bewaren 7 jaar vanaf 1 januari volgend op de afsluiting) + KB 21 oktober 2018 art. 8 (idem; origineel voor dagboeken en inventarisboek). **Fiscaal**: WIB92 art. 315 (verplichting tot voorlegging van boeken en bescheiden) + lid 4 (bewaartermijn 10 jaar sinds aj. 2023; voorheen 7) + art. 315bis (elektronische dossiers). **CBN-adviezen 2010/14 en 2011/21** verduidelijken de modaliteiten (elektronische bewaring, bewaring in het buitenland, vereffeningstermijn 5 jaar). **Btw**: W.Btw art. 60 (10 jaar sinds 2023). 📖  
 > > *Bron: WIB92 art. 315 + 315bis; WER art. III.86; KB 21.10.2018 art. 8; W.Btw art. 60; CBN-advies 2010/14 + 2011/21*
+
+<a id="2019-bibf-vri1"></a>
+
+> [!question]- 🆕 Vraag om inlichtingen na Tax-on-web-aangifte: antwoordtermijn, ondertekenaar en gevolgen bij niet-antwoorden
+> *Examen 2019-bibf · PO 2.5*
+>
+> De heer BRUGMANS neemt contact met uw kantoor want hij heeft een vraag om inlichtingen ontvangen met betrekking tot de fiscale aangifte die hij via Tax on web heeft ingediend.
+>
+> **Binnen welke termijn moet de heer Brugmans antwoorden op de vraag om inlichtingen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **De termijn die in de vraag om inlichtingen zelf vermeld staat.** Bij ontstentenis geldt de wettelijke standaardtermijn van **één maand vanaf de derde werkdag volgend op de verzending** van de aanvraag (art. 316 WIB92), te verlengen om wettige redenen. 📖
+> > 
+> > Art. 316 WIB92: belastingplichtige moet schriftelijk antwoorden "binnen een maand te rekenen van de derde werkdag volgend op de verzending van de aanvraag, welke termijn wegens wettige redenen kan worden verlengd". 📖  
+> > *Bron: Art. 316 WIB92*
+>
+> **Wie kan in dit geval het antwoord op de vraag om inlichtingen ondertekenen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **De heer Brugmans zelf**, tenzij hij een geschreven en ondertekende volmacht geeft aan het boekhoudkantoor om hem te vertegenwoordigen; die volmacht moet samen met het antwoord aan de administratie worden meegedeeld. 🔗
+> > 
+> > De fiscale antwoordplicht rust op de belastingplichtige zelf (art. 316 WIB92 — "eenieder die onderhevig is"). Een derde — zoals het boekhoudkantoor — kan slechts geldig in zijn naam ondertekenen op basis van een schriftelijke volmacht. Geen volmacht meegedeeld = antwoord onontvankelijk; gevolg is hetzelfde als niet-antwoorden. 🔗
+> > 
+> > Art. 316 WIB92 (antwoordplicht rust op de belastingplichtige). Vertegenwoordiging door een mandataris is een algemeen rechtsbeginsel; de administratie eist dat de geschreven volmacht gelijktijdig met het antwoord wordt voorgelegd. 🔗  
+> > *Bron: Art. 316 WIB92*
+>
+> **Wat kan er gebeuren wanneer de heer Brugmans geen gevolg geeft aan de vraag om inlichtingen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De administratie kan de aangifte **herzien via een bericht van wijziging** (art. 346 WIB92), een **administratieve boete** opleggen (art. 445 WIB92) en/of de belasting vestigen via **aanslag van ambtswege** met omkering van de bewijslast (art. 351 WIB92). 🔗
+> > 
+> > Mogelijke gevolgen bij niet-antwoorden op de vraag om inlichtingen:
+> > 
+> > - **Bericht van wijziging (art. 346 WIB92)** — de fiscus deelt mee waarom hij van de aangifte wil afwijken; Brugmans heeft één maand om te reageren. 🔗
+> > - **Aanslag van ambtswege (art. 351 WIB92)** — wie niet (tijdig) antwoordt op een vraag om inlichtingen wordt ambtshalve aangeslagen; de bewijslast keert om: Brugmans moet voortaan zélf het juiste belastbare bedrag aantonen. 🔗
+> > - **Administratieve geldboete (art. 445 WIB92)** — 50 EUR tot 1.250 EUR per overtreding, volgens de schaal vastgelegd door de Koning. 📖
+> > - Eventueel **belastingverhoging** (art. 444 WIB92) bij vaststelling van een tekortkoming in de aangifte. 🤖
+> > 
+> > Een aanslag van ambtswege is geen "automatische straf": de fiscus moet vooraf het bericht van wijziging (of de kennisgeving van aanslag van ambtswege) versturen met motivering. Maar zodra de aanslag van ambtswege is gevestigd, draagt de belastingplichtige de bewijslast om aan te tonen dat het belastbare bedrag onjuist is — een veel ongunstigere positie dan bij een gewone aanslag. 🔗
+> > 
+> > Art. 346 WIB92 (bericht van wijziging) · art. 351 WIB92 (aanslag van ambtswege bij niet-antwoorden op vraag om inlichtingen) · art. 445 WIB92 (administratieve geldboete 50 — 1.250 EUR per inbreuk op WIB92 of uitvoeringsbesluiten). 📖  
+> > *Bron: Art. 346, 351, 445 WIB92*
+
+<a id="2019-bibf-vri2"></a>
+
+> [!question]- 🆕 Indieningstermijn en uiterste indieningsdatum aangifte vennootschapsbelasting (art. 310 WIB92)
+> *Examen 2019-bibf · PO 2.5*
+>
+> **Binnen welke termijnen moet de aangifte in de vennootschapsbelasting worden ingediend?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De aangiftetermijn mag **niet korter zijn dan één maand** vanaf de goedkeuring van de jaarrekening (of rekening van ontvangsten en uitgaven), en **niet langer dan zes maanden** vanaf het afsluiten van het boekjaar. 📖
+> > 
+> > Art. 310 WIB92 — geldt voor binnenlandse vennootschappen, rechtspersonen onderworpen aan de rechtspersonenbelasting en belastingplichtigen onderworpen aan de belasting niet-inwoners/vennootschappen (art. 246-247 WIB92). De aangifte moet gebaseerd zijn op de goedgekeurde jaarrekening. 📖  
+> > *Bron: art. 310 WIB92*
+>
+> Vermeld de uiterste datum van indiening van de aangifte in de vennootschapsbelasting.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De uiterste indieningsdatum is de **laatste dag van de maand volgend op die van de statutaire algemene vergadering**, met als absolute grens **zes maanden na afsluiting van het boekjaar**. 📖
+> > 
+> > Valt die uiterste datum op een **zaterdag, zondag of feestdag**, dan wordt hij krachtens art. 53 Ger.W. verschoven naar de **eerstvolgende werkdag**. 🔗 Valt de uiterste datum op **31 december** (in casu 31/12/2018), dan wordt automatisch een **bijkomende periode tot en met 15 januari** van het daaropvolgende jaar toegekend (administratieve tolerantie). 🤖
+> > 
+> > Art. 310 WIB92 (uiterste indieningsdatum gekoppeld aan AV + plafond zes maanden na boekjaarafsluiting) jo. art. 53 Gerechtelijk Wetboek (verschuiving termijnvervaldag bij zaterdag/zondag/feestdag — beschikbaar in ITAA-LEX). De 31/12 → 15/01-tolerantie volgt uit administratieve onderrichtingen FOD Financiën, niet uit de wettekst zelf. 🔗  
+> > *Bron: art. 310 WIB92; art. 53 Ger.W.*
 
 <a id="2015-1-vr41"></a>
 

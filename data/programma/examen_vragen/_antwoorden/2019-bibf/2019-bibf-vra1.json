@@ -1,0 +1,191 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra1",
+  "antwoord_datum": "2026-05-30T12:49:36Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Pro rata afschrijving 2018 (01/01/2018 — 30/06/2018, 6 maanden)** 🔗\n\n| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| 30/06/2018 | 6302 | Afschrijvingen op materiële vaste activa | 3.000,00 | |\n| | @ 2309 | Geboekte afschrijvingen op machines | | 3.000,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Aanschaffingswaarde 30.000,00 × afschrijvingsritme 20% × 6/12 = **3.000,00 €**. 🔗 De machine wordt op 01/07/2018 verkocht; de afschrijvingen worden maandelijks toegepast, dus voor 2018 wordt enkel pro rata afgeschreven over de zes maanden waarin het actief nog in gebruik was.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:42 §1 KB WVV (voorheen art. 45 §1 KB W.Venn.): voor materiële vaste activa met een beperkte gebruiksduur wordt afgeschreven volgens een plan opgesteld overeenkomstig art. 3:6 §1 — het afschrijvingsplan moet de aanschaffingswaarde spreiden over de waarschijnlijke nuttigheidsduur. Pro rata temporis in het jaar van vervreemding is daarvan het gangbare gevolg. 📖",
+          "wetsref": "art. 3:42 §1 KB WVV (ex art. 45 §1 KB W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Overdracht machine (regelmatig vervangen activum) — twee gelijkwaardige werkwijzen** 🔗\n\n**Werkwijze 1: alles in één journaalpost**\n\n| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| 01/07/2018 | 400 | Klanten — verkoop machine | 6.050,00 | |\n| | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |\n| | 641 | Minderwaarden op courante realisatie van vaste activa | 1.000,00 | |\n| | @ 230 | Machines | | 30.000,00 |\n| | @ 451 | Te betalen BTW | | 1.050,00 |\n\n**Werkwijze 2: factuur + uitboeking apart**\n\nFactuur (01/07/2018):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 400 | Klanten | 6.050,00 | |\n| @ 748 | Verkoop producten buiten normale bedrijfsactiviteit | | 5.000,00 |\n| @ 4510 | Te betalen BTW | | 1.050,00 |\n\nUitboeking actief (01/07/2018):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 748 | Verkoop producten buiten normale bedrijfsactiviteit | 5.000,00 | |\n| 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |\n| 641 | Minderwaarden op courante realisatie van vaste activa | 1.000,00 | |\n| @ 230 | Machines | | 30.000,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Boekwaarde op 01/07/2018 = aanschaffingswaarde 30.000,00 − cumul. afschrijvingen 24.000,00 (4 × 6.000 voor 2014–2017) = **6.000,00 €**. 🔗 Verkoopprijs excl. BTW 5.000,00 → **minderwaarde 1.000,00 €**. Omdat de machines **regelmatig vervangen** worden, behoort de minderwaarde tot de **courante bedrijfsuitoefening** en wordt zij geboekt op **rekening 641**, niet op 6630. 🔗 BTW: 5.000,00 × 21% = 1.050,00 €.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De 2018-pro-rata afschrijving (3.000 €, deelvraag 1) zit **niet** in de cumul. afschrijvingen die in de overdrachtsboeking worden uitgeboekt — de BIBF-modeloplossing behandelt beide journaalposten als onafhankelijke verwerkingen (afschrijving aan boekjaareinde, overdracht op transactiedatum). Logisch consistent zou de cumul op 01/07/2018 27.000,00 € zijn (24.000 + 3.000), met als gevolg een **meerwaarde** van 2.000,00 €; het officiële modelantwoord werkt echter met de cumul vóór pro rata en komt zo tot een minderwaarde van 1.000,00 €. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "MAR (Minimum Algemeen Rekeningstelsel, KB 12/09/1983 + actuele versie KB WVV): rekening **641 *Minderwaarden op courante realisatie van vaste activa*** wordt gebruikt voor minderwaarden bij vervreemding van activa die in het kader van de normale bedrijfsuitoefening **regelmatig worden vervangen**. Rekening **748 *Andere bedrijfsopbrengsten — verkoop producten buiten normale bedrijfsactiviteit*** wordt gebruikt wanneer de verkoopopbrengst niet via een omzetrekening (70-reeks) loopt. 📖",
+          "wetsref": "MAR — rekeningen 230 / 2309 / 400 / 451 / 641 / 748",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Overdracht machine (niet-regelmatig vervangen activum) — minderwaarde via 6630** 🔗\n\n**Werkwijze 1: alles in één journaalpost**\n\n| Datum | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| 01/07/2018 | 400 | Klanten — verkoop machine | 6.050,00 | |\n| | 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |\n| | 6630 | Minderwaarden op de realisatie van vaste activa | 1.000,00 | |\n| | @ 230 | Machines | | 30.000,00 |\n| | @ 451 | Te betalen BTW | | 1.050,00 |\n\n**Werkwijze 2: factuur + uitboeking apart**\n\nFactuur (01/07/2018):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 400 | Klanten | 6.050,00 | |\n| @ 748 | Verkoop producten buiten normale bedrijfsactiviteit | | 5.000,00 |\n| @ 4510 | Te betalen BTW | | 1.050,00 |\n\nUitboeking actief (01/07/2018):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 748 | Verkoop producten buiten normale bedrijfsactiviteit | 5.000,00 | |\n| 2309 | Geboekte afschrijvingen op machines | 24.000,00 | |\n| 6630 | Minderwaarden op de realisatie van vaste activa | 1.000,00 | |\n| @ 230 | Machines | | 30.000,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het **enige verschil** met deelvraag 2 zit in de **kostenrekening voor de minderwaarde**: omdat deze machines **niet regelmatig worden vervangen**, wordt de minderwaarde als **uitzonderlijke kost** geboekt op rekening **6630 *Minderwaarden op de realisatie van vaste activa*** (rubriek **VIII. Uitzonderlijke kosten** vóór de wetshervorming, vandaag rubriek *niet-recurrente bedrijfskosten*) en niet als courante last op 641. 🔗 De rest van de boeking (klant, BTW, uitboeking aanschaffingswaarde en cumul. afschrijvingen, eventueel via 748) blijft identiek.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het scharnier tussen **641** en **663(0)** is de zinsnede *\"regelmatig vervangen\"* in de casus. Wordt het actief in het kader van de normale bedrijfsuitoefening op courante basis vervangen (vlootvoertuigen, productiemachines, IT-materiaal in een groot park) → **641**. Gaat het om een uitzonderlijke vervreemding (verkoop kantoorgebouw, stopzetting activiteit) → **663(0)**. Sinds de hervorming 2015/2018 spreekt men in plaats van *uitzonderlijke kosten* over *niet-recurrente bedrijfskosten*, maar de logica blijft dezelfde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "MAR: rekening **6630 *Minderwaarden op de realisatie van vaste activa*** binnen rubriek 66 *Niet-recurrente kosten* (voorheen *Uitzonderlijke kosten*). Onderscheid 641 ↔ 663 is doctrinair vastgelegd in de presentatieregels van het resultatenrekening-schema in het KB WVV (en eerder KB W.Venn.). 📖",
+          "wetsref": "MAR — rekeningen 663 / 6630; resultatenrekening-schema KB WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het **bestuursorgaan** beslist over het afschrijvingspercentage (afschrijvingsplan) van de vennootschap. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het afschrijvingsplan maakt deel uit van de **waarderingsregels** die het bestuursorgaan vastlegt en die door datzelfde orgaan worden gewijzigd of bijgestuurd wanneer de economische omstandigheden dit verantwoorden. De algemene vergadering keurt de jaarrekening (en dus impliciet het toegepaste plan) jaarlijks goed, maar beslist niet zelf over het percentage. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:6 §1 KB WVV (voorheen art. 28 §1 KB 30/01/2001 — KB W.Venn.): het **bestuursorgaan** stelt de waarderingsregels vast, waaronder het afschrijvingsplan; deze worden samengevat in de toelichting bij de jaarrekening. 📖",
+          "wetsref": "art. 3:6 §1 KB WVV (ex art. 28 §1 KB 30/01/2001)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De waarderingsregels — en dus het afschrijvingsplan — worden samengevat opgenomen in de **toelichting bij de jaarrekening** (de **bijlagen** bij de balans die bij de Nationale Bank wordt neergelegd), in toepassing van **art. 28 §1 KB 30/01/2001** (KB tot uitvoering van het Wetboek van vennootschappen — vandaag hernomen in **art. 3:6 §1 KB WVV** van 29/04/2019). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De toelichting is integraal onderdeel van de jaarrekening (samen met balans en resultatenrekening) en wordt mee neergelegd bij de Balanscentrale van de NBB. Voor materiële vaste activa zijn er bovendien specifieke toelichtingsstaten (verloopstaat aanschaffingswaarde, afschrijvingen en waardeverminderingen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het officiële modelantwoord verwijst naar **art. 28 §1 KB 30/01/2001** — dat KB was op de examendatum (04/05/2019) nog van kracht en werd één dag eerder, op **30/04/2019**, vervangen door het KB WVV van 29/04/2019 (B.S. 30/04/2019, art. 3:6 §1 herneemt de regel quasi woordelijk). Voor het examen blijft de oude referentie het correcte antwoord. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 §1 KB 30/01/2001 (KB tot uitvoering van het Wetboek van vennootschappen): *\"Elke vennootschap bepaalt de regels die, met name in geval van afschrijvingen, herwaarderingen en waardeverminderingen, gelden voor de waardering van de inventaris... Deze regels worden bepaald door het bestuursorgaan en samengevat in de toelichting.\"* Vandaag overgenomen in art. 3:6 §1 KB WVV (29/04/2019). 📖",
+          "wetsref": "art. 28 §1 KB 30/01/2001 (= art. 3:6 §1 KB WVV)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

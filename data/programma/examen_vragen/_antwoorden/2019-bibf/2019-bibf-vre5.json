@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre5",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De zaakvoerder mag het dossier overdragen, maar moet vóór elke overdracht het BIBF (nu ITAA) **schriftelijk informeren over de identiteit** van mevrouw KNOOPS — omdat zij niet gerechtigd is de gereglementeerde beroepsactiviteiten van een erkend boekhouder uit te oefenen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 17, laatste lid, Reglement van Plichtenleer BIBF (KB 18/07/2017) stelt: *\"Een externe erkende boekhouder BIBF aan wie gevraagd wordt om het boekhouddossier van een cliënt over te dragen aan een persoon die niet gerechtigd is de gereglementeerde beroepsactiviteiten van een erkend boekhouder uit te oefenen, moet tevens het beroepsinstituut schriftelijk informeren van de identiteit van deze persoon alvorens elke overdracht van het dossier aan de cliënt.\"* 📖 De volmacht van de cliënt volstaat dus niet — de deontologische informatieplicht aan het instituut staat los van de wil van de cliënt en moet **vooraf** vervuld worden. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de eerste twee leden van art. 17: die regelen de overname **van** een confrater (schriftelijke kennisgeving aan voorganger + aandringen op betaling onbetaalde honoraria). De casus hier is het omgekeerde scenario — overdracht **aan** een niet-erkende — waarvoor het laatste lid een eigen, zelfstandige informatieplicht aan het instituut oplegt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17, laatste lid, KB 18 juli 2017 houdende goedkeuring van het Reglement van Plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF). Sinds de fusie BIBF/IAB tot ITAA (wet 17 maart 2019) blijft dit reglement van toepassing op de erkende boekhouders BIBF tot vervanging door een ITAA-reglement. 📖",
+          "wetsref": "Art. 17 KB 18/07/2017 (Reglement Plichtenleer BIBF)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

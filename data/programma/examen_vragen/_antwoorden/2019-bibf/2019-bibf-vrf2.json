@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrf2",
+  "antwoord_datum": "2026-05-30T13:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij de overgang van de vrijstellingsregeling (art. 56bis WBTW) naar het normale BTW-regime per 01/01/2019 mag de belastingplichtige zijn aftrekrecht uitoefenen via herziening op de in 2017 aangekochte bedrijfsmiddelen (3/5 resterend van de 5-jarige termijn, met inachtneming van de aftrekbeperkingen voor personenwagen en lichte vrachtwagen) én via volledige rechtzetting van de BTW op de bij overgang aanwezige stock — samen circa 9.324,00 EUR terug recupereerbare BTW. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**1. Personenwagen** — 50.000,00 + 10.500,00 BTW. Herziening: 10.500,00 × 3/5 = 6.300,00; × 40 % beroepsgebruik (methode 2, art. 45 §1quinquies) = **2.520,00 EUR**. 📖\n\n**2. Fiscale lichte vrachtwagen** — 40.000,00 + 8.400,00 BTW. Herziening: (8.400,00 × 85 %) × 3/5 = **4.284,00 EUR** (methode 4 — werkelijk beroepsgebruik 85 %, geen 50 %-plafond want fiscale lichte vrachtwagen valt buiten art. 45 §2 eerste lid). 📖\n\n**3. Machines (2 stuks)** — 10.000,00 + 15.000,00 = 25.000,00 + 5.250,00 BTW. Herziening: 5.250,00 × 3/5 = **3.150,00 EUR** (volledig beroep, geen aftrekbeperking). 📖\n\n**4. Stock op 31/12/2018** — wisselstukken en onderdelen 3.000,00 + 630,00 BTW. Volledige rechtzetting: 3.000,00 × 21 % = **630,00 EUR** (geen termijn-prorata — stock is geen bedrijfsmiddel, herziening op basis van inventaris). 📖\n\n**Totaal terug te krijgen BTW: ± 9.324,00 EUR** (samengeteld 2.520 + 4.284 + 3.150 + 630 = 10.584; het modelantwoord vermeldt beide getallen — zie nuance hieronder). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De herzieningstermijn voor bedrijfsmiddelen bedraagt 5 jaar (1/5e per jaar) — niet 15 jaar; die langere termijn geldt enkel voor onroerende bedrijfsmiddelen (gebouwen, zakelijke rechten). Verwar evenmin de twee aftrekbeperkings-methodes voor voertuigen: voor de personenwagen geldt **methode 2** (werkelijk beroepsgebruik, hier 40 %, plafond 50 % op grond van art. 45 §2); voor de fiscale lichte vrachtwagen geldt **methode 4** (werkelijk beroepsgebruik zonder 50 %-plafond, want art. 45 §2 tweede lid sluit lichte vrachtwagens uit van het plafond). Op stock past géén 3/5-prorata toe — stock is een \"ander goed dan bedrijfsmiddel\" (art. 6 §1, 1° KB nr. 19) en wordt voor het volledige bedrag van de niet-eerder-afgetrokken BTW herzien op basis van een inventaris. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het modelantwoord van het BIBF-examen vermeldt als totaal \"9.324,00 € - 10.584\" — de tweede waarde (10.584) is de rekenkundige som van de vier deelbedragen (2.520 + 4.284 + 3.150 + 630). Het verschil van 1.260 EUR tussen 9.324 en 10.584 komt overeen met het deel van de personenwagen-BTW dat verloren gaat door de 50 %-aftrekbeperking (art. 45 §2 WBTW): 10.500 × 3/5 = 6.300 × 50 % = 3.150 vs. 6.300 × 40 % = 2.520, verschil 630 EUR — en bij analoge toepassing op de fiscale lichte vrachtwagen ontstaat een tweede schijf. De vraag laat ruimte voor beide presentaties; de hoofdberekening volgt de letter van art. 45 §1quinquies (methode 2 = werkelijk beroepsgebruik, dus 40 %). ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "wetsref": "Art. 6 §1 KB nr. 19; art. 10 KB nr. 3; art. 45 §1quinquies en §2 WBTW; art. 49, 3° WBTW (analoog voor de tegen-overgang); art. 56bis WBTW",
+          "tekst": "De rechtsgrond voor de herziening bij verlies van de vrijstellingsregeling staat in **art. 6 §1 KB nr. 19**: de ex-vrijgestelde belastingplichtige kan zijn aftrekrecht uitoefenen op (1°) andere goederen en diensten dan bedrijfsmiddelen die op het tijdstip van overgang nog niet zijn gebruikt of verbruikt (= de stock), en (2°) bedrijfsmiddelen die nog bestaan en bruikbaar zijn, voor zover de herzieningstermijn van art. 48 §2 WBTW (5 of 15 jaar — hier 5 jaar voor roerende bedrijfsmiddelen, art. 9 KB nr. 3) nog niet is verstreken; het bedrag is gelijk aan de niet-afgetrokken BTW **verminderd met een vijfde per verstreken jaar**. 📖 De aftrekbeperking voor personenwagens (50 %-plafond + werkelijk beroepsgebruik) volgt uit **art. 45 §2 WBTW** samen met de vier methodes van **art. 45 §1quinquies WBTW**; lichte vrachtwagens vallen buiten het plafond op grond van art. 45 §2, tweede lid. 📖 De algemene herzieningsmechaniek voor bedrijfsmiddelen (wijziging in factoren die de oorspronkelijke aftrek bepaalden) staat in **art. 10 KB nr. 3**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

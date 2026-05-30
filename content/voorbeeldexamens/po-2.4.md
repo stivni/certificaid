@@ -3,12 +3,12 @@ title: PO 2.4 — Belasting over de toegevoegde waarde
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.4 (Belasting over de toegevoegde waarde).
 tags: [examen, voorbeeldvragen, po-2-4]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 2.4 — Belasting over de toegevoegde waarde
 
-**35 unieke vraag-eenheden** (waarvan 2 clusters, totaal 37 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 34 met modelantwoord
+**37 unieke vraag-eenheden** (waarvan 2 clusters, totaal 39 voorkomens) uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 36 met modelantwoord
 
 <a id="2024-1-vr11A"></a>
 
@@ -287,6 +287,163 @@ gegenereerd_op: 2026-05-29
 > > 
 > > Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst, afwijking op B2B-hoofdregel art. 21 § 2). Art. 51, § 2, 5° W.BTW (verlegging naar niet-gevestigde belastingplichtige afnemer). KB nr. 20, art. 1 (tarief 21 %). 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1*
+
+<a id="2019-bibf-vrf1"></a>
+
+> [!question]- 🆕 BTW-aangifte: roosters bij stopzetting + overdracht handelszaak met onttrekking, intracommunautaire verwerving van lichte vrachtwagens met gemengd gebruik, en overgang van normale regeling naar forfaitaire regeling
+> *Examen 2019-bibf · PO 2.4*
+>
+> III. Deeldomein Fiscaliteit (……/35, inclusief beginselen van registratie- en successierechten). F. BTW (……/10). Tenzij anders aangegeven zijn de vermelde bedragen steeds exclusief BTW. Vraag F.1 is gequoteerd op /6 punten en bevat drie onafhankelijke gegevens-blokken (1, 2 en 3) telkens met eigen vragen.
+> 
+> Gegeven 1 (vragen a en b — samen /2 punten): Een detailhandelaar in huishoud- en audiovisuele toestellen (D) stopt zijn commerciële activiteiten en verkoopt in 2019 zijn handelszaak aan zijn zoon voor 320.000,00 €. Hij behoudt voor persoonlijk gebruik een nieuwe televisie die werd aangekocht voor 950,00 € en te koop was voor 1.200,00 €.
+> 
+> Gegeven 2 (vraag c — /2 punten): Een algemene bouwaannemer (B), natuurlijk persoon, koopt in Duitsland drie bestelwagens (fiscale lichte vrachtwagens). Deze kosten 22.000,00 € per stuk. De drie voertuigen zijn bestemd voor beroepsmatig gebruik en één ervan zal voor 20% ook niet-beroepsmatig gebruikt worden.
+> 
+> Gegeven 3 (vraag d — /2 punten): Een BTW-plichtige, natuurlijk persoon, detailhandel in textiel en lederwaren, onderworpen aan het normale regime, wenst over te stappen naar het forfaitaire stelsel. Hij voldoet aan alle voorwaarden en de overstap zou plaatsvinden op 1 april 2019. Hij gelast u met alle boekhoudkundige en administratieve verrichtingen.
+>
+> Geef aan in welke roosters van de laatste BTW-aangifte van (D) en welke bedragen er moeten worden opgenomen.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > In de laatste BTW-aangifte van (D) worden de volgende roosters ingevuld:
+> > 
+> > | Rooster | Bedrag (EUR) | Inhoud |
+> > |---|---:|---|
+> > | **00** | 320.000,00 | Overdracht algemeenheid van goederen (handelszaak aan zoon) |
+> > | **03** | 950,00 | Maatstaf van heffing onttrekking televisie (aankoopprijs) |
+> > | **54** | 199,50 | Verschuldigde BTW op de onttrekking (950,00 × 21%) |
+> > 
+> > 📖
+> > 
+> > - **Rooster 00** — de overdracht van de handelszaak voor 320.000,00 € wordt geboekt in rooster 00 (handelingen waarvoor geen BTW verschuldigd is wegens art. 11 WBTW — geen levering). 🔗
+> > - **Rooster 03** — de tv wordt onttrokken aan het bedrijf voor privégebruik; de maatstaf van heffing is de **aankoopprijs** van een soortgelijk goed op het tijdstip van de onttrekking, niet de verkoopprijs van 1.200,00 € (art. 33, 1° WBTW). De aankoopprijs van 950,00 € komt in rooster 03 (handelingen onderworpen aan 21%). 🔗
+> > - **Rooster 54** — 21% × 950,00 € = **199,50 €** verschuldigde BTW op de onttrekking. 🔗
+> > 
+> > De maatstaf voor de onttrekking is **niet** de verkoopprijs (1.200,00 €) maar de **aankoopprijs of de kostprijs** van een soortgelijk goed (art. 33, 1° WBTW). Wie hier de etalageprijs neemt, verhoogt de verschuldigde BTW onterecht. 🔗
+> > 
+> > Art. 11 WBTW (overdracht algemeenheid — geen levering) + art. 12, § 1, 5° WBTW (gelijkstelling met levering: bij stopzetting blijven goederen met aftrekrecht in het bedrijf) + art. 33, 1° WBTW (maatstaf = aankoopprijs of kostprijs). 📖  
+> > *Bron: art. 11, 12 § 1 5°, 33 1° WBTW*
+>
+> Geef de op deze verrichtingen toepasselijke bepalingen uit het BTW-wetboek.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Toepasselijke bepalingen uit het BTW-wetboek:
+> > 
+> > - **Overdracht handelsfonds**: art. 11 en art. 18, § 3 WBTW — de overdracht van een algemeenheid van goederen (of bedrijfsafdeling) tussen twee BTW-plichtigen wordt niet als levering of dienst aangemerkt. 📖
+> > - **Behouden van de televisie (onttrekking)**: art. 12, § 1, 5° WBTW (onttrekking bij stopzetting) en art. 33, 1° WBTW (maatstaf van heffing = aankoopprijs of kostprijs). 📖
+> > - **Bijzonder stuk** dat de onttrekking vaststelt + **"certificaat"** uit te reiken voor de overdracht: toepassing van art. 93undecies, § 3 WBTW (bewijs/formaliteiten bij overdracht en stopzetting). 📖
+> > 
+> > Voor de overdracht zelf moet bovendien een **stuk** worden opgesteld door de bij de overdracht betrokken partijen, waarvan elke partij een exemplaar ontvangt, met vermelding van datum, partijen + BTW-nummer, voorwerp en prijs (art. 11 KB nr. 1). Voor de onttrekking maakt de belastingplichtige een **bijzonder stuk** op dat de onttrekking vaststelt. 📖
+> > 
+> > WBTW art. 11 + 18 § 3 (overdracht algemeenheid) • art. 12 § 1 5° + 33 1° (onttrekking + maatstaf) • art. 93undecies § 3 (certificaat) • art. 11 KB nr. 1 (formaliteiten stuk). 📖  
+> > *Bron: art. 11, 18 § 3, 12 § 1 5°, 33 1°, 93undecies § 3 WBTW + art. 11 KB nr. 1*
+>
+> **In de BTW-aangifte van (B): welke roosters en welke bedragen moeten er worden ingeschreven voor deze verrichting?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Standaard-methode (per voertuig de werkelijke beroepsverhouding):
+> > 
+> > | Rooster | Bedrag (EUR) | Inhoud |
+> > |---|---:|---|
+> > | **83** | 61.600,00 | Investering met recht op aftrek (22.000 + 22.000 + 22.000 × 80%) |
+> > | **86** | 66.000,00 | Totale intracommunautaire verwerving (3 × 22.000) |
+> > | **55** | 13.860,00 | Verschuldigde BTW via verlegging (66.000 × 21%) |
+> > | **59** | 12.936,00 | Aftrekbare BTW (61.600 × 21%) |
+> > 
+> > 📖
+> > 
+> > Het gaat om een **intracommunautaire verwerving** van drie fiscale lichte vrachtwagens uit Duitsland door een Belgische BTW-plichtige (verlegging van heffing in België):
+> > 
+> > - **Rooster 86** = volledige maatstaf van de ICV = 3 × 22.000 = **66.000,00 €**. 🔗
+> > - **Rooster 55** = verschuldigde BTW op de ICV via verlegging = 66.000 × 21% = **13.860,00 €**. 🔗
+> > - **Rooster 83** = maatstaf van de **investering met recht op aftrek**. Twee voertuigen zijn 100% beroepsmatig (2 × 22.000 = 44.000); het derde wordt voor 20% privé gebruikt, dus 80% beroepsmatig (22.000 × 80% = 17.600). Totaal = **61.600,00 €**. 🔗
+> > - **Rooster 59** = aftrekbare BTW = 61.600 × 21% = **12.936,00 €**. 🔗
+> > 
+> > **Variant — methode 4 (algemeen forfait 85%)**: voor fiscale lichte vrachtwagens die de belastingplichtige **overwegend** voor zijn economische activiteit gebruikt, mag het forfait van 85% beroepsgebruik worden toegepast (circulaire AAFisc nr. 36/2015, beslissing E.T. 119.650 van 23/11/2015). Voor het derde voertuig (80% beroep) levert 85% een **gunstiger** aftrek:
+> > 
+> > | Rooster | Bedrag (EUR) |
+> > |---|---:|
+> > | 83 | 62.700,00 (22.000 + 22.000 + 22.000 × 85%) |
+> > | 86 | 66.000,00 |
+> > | 55 | 13.860,00 |
+> > | 59 | 13.167,00 (62.700 × 21%) |
+> > 
+> > Methode 4 is in dit concrete geval de **meest gunstige wettelijke methode**. 🔗
+> > 
+> > Het forfait van 85% geldt **enkel** voor fiscale lichte vrachtwagens die **overwegend** (> 50%) beroepsmatig worden gebruikt — anders is misbruik mogelijk. De maatstaf in rooster 86 blijft altijd de **volledige** aankoopprijs van de ICV (66.000); enkel rooster 83/59 (aftrekbaar deel) varieert met de gekozen methode. 🔗
+> > 
+> > WBTW art. 25ter (intracommunautaire verwerving) + art. 51, § 1, 2° (verlegging via rooster 55) + art. 45, § 2 (aftrekbeperking voertuigen, fiscale lichte vrachtwagens uitgesloten van de 50%-cap) + art. 45, § 1 + KB nr. 3 art. 1 (aftrek volgens werkelijk beroepsgebruik). Variant 85%: **circulaire AAFisc nr. 36/2015 (beslissing E.T. 119.650 van 23/11/2015)**. 📖  
+> > *Bron: WBTW art. 25ter, 45 §§ 1–2, 51 § 1 2° + KB nr. 3 + Circ. AAFisc 36/2015*
+>
+> Beschrijf kort welke stappen u zal zetten om de overstap van het normale regime naar het forfaitaire stelsel per 1 april 2019 boekhoudkundig en administratief te realiseren.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Twee verplichte stappen om de overgang van het normale naar het forfaitaire regime per 01/04/2019 te realiseren:
+> > 
+> > 1. **Kennisgeving aan de BTW-administratie vóór 15 maart 2019**, bij aangetekend schrijven, door middel van een **document 604B**, om de keuze voor de forfaitaire regeling vanaf 1 april 2019 te melden. 📖
+> > 2. **Gedetailleerde inventaris opmaken op 31 maart 2019** met aanduiding van aard, hoeveelheid en waarde (uitgedrukt in aankoopprijs) van de voorraad, **gegroepeerd volgens de uitsplitsing van het boek van inkomende facturen** voorgeschreven door de forfaitaire regeling. 📖
+> > 
+> > De goederen in de overgangsinventaris worden geacht **onder de forfaitaire regeling te zijn geleverd**. De heffing van die overgangsvoorraad wordt **opgeschort tot het einde van het jaar van overgang** (31/12/2019):
+> > 
+> > - Maakt de belastingplichtige op die datum een **nieuwe inventaris**, dan wordt een regularisatie verricht op basis van de **vergelijking** tussen beide inventarissen. 🔗
+> > - Maakt hij geen inventaris, dan is de BTW verschuldigd op de overgangsvoorraad volgens tarieven en forfaitaire coëfficiënten van dat jaar, **opeisbaar in 4 kwartaalschijven** in het daaropvolgende jaar. 🔗
+> > 
+> > Art. 56, § 1 WBTW (forfaitaire regeling) + KB nr. 2 van 19 december 2018 met betrekking tot de forfaitaire regeling inzake btw (kennisgevingsmodaliteiten via aangifte/604B en overgangsregels voorraad). 📖  
+> > *Bron: art. 56 § 1 WBTW + KB nr. 2, 19 december 2018*
+
+<a id="2019-bibf-vrf2"></a>
+
+> [!question]- 🆕 BTW-herzieningen bij overgang van de vrijstellingsregeling (art. 56bis WBTW) naar het normale BTW-regime
+> *Examen 2019-bibf · PO 2.4*
+>
+> Een BTW-belastingplichtige, natuurlijk persoon, heeft als economische activiteit de fabricatie van onderdelen voor medische apparatuur. Gezien hij in de beginfase nog niet gekend was in deze "marktniche", realiseerde hij slechts een kleine omzet, zodat hij onderworpen was aan de "vrijstellingsregeling" waarin artikel 56bis voorziet.
+> 
+> Sedert einde 2018 is daar verandering in gekomen, in die zin dat hij zeer belangrijke orders heeft ontvangen voor kalenderjaar 2019, waardoor hij vanaf 2019, volgens raming, een grote omzet (+/- 3 miljoen euro) zal realiseren.
+> 
+> Om die reden zal hij vanaf 1 januari 2019 spontaan overgaan naar de normale BTW-regeling, met indiening van maandaangiften.
+> 
+> **Investeringen aangekocht in 2017**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | 1. Personenwagen — beroepsgebruik 2019 = 40% (methode 2, art. 45 §1 quinquies WBTW); aankoopprijs excl. BTW | 50.000 |
+> | 2. Fiscale lichte vrachtwagen (art. 45 §2 tweede lid WBTW) — methode 4 (art. 45 §1 quinquies WBTW), beroepsgebruik 85%; aankoopprijs excl. BTW | 40.000 |
+> | 3a. Materieel — Machine 1, aankoopprijs excl. BTW | 10.000 |
+> | 3b. Materieel — Machine 2, aankoopprijs excl. BTW | 15.000 |
+> 
+> **Ter informatie — stock op 31/12/2018**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | Stock wisselstukken en onderdelen (geboekt op 60-rekening), bestemd voor de fabricatie van medische apparatuur — waarde excl. BTW | 3.000 |
+> 
+> Bij de vraag is een blanco BTW-aangifteformulier (model 625-N-2017, vakken A t/m N) als bijlage opgenomen (pagina's 32-33 van het examen). Dit dient als referentiekader voor de aangifte-roosters waarin de herzieningen zouden worden opgenomen.
+>
+> Geef de regularisaties die dienen te worden verricht bij de voornoemde overgang. Geef de detailberekening voor elke regularisatie.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Bij de overgang van de vrijstellingsregeling (art. 56bis WBTW) naar het normale BTW-regime per 01/01/2019 mag de belastingplichtige zijn aftrekrecht uitoefenen via herziening op de in 2017 aangekochte bedrijfsmiddelen (3/5 resterend van de 5-jarige termijn, met inachtneming van de aftrekbeperkingen voor personenwagen en lichte vrachtwagen) én via volledige rechtzetting van de BTW op de bij overgang aanwezige stock — samen circa 9.324,00 EUR terug recupereerbare BTW. 🔗
+> > 
+> > **1. Personenwagen** — 50.000,00 + 10.500,00 BTW. Herziening: 10.500,00 × 3/5 = 6.300,00; × 40 % beroepsgebruik (methode 2, art. 45 §1quinquies) = **2.520,00 EUR**. 📖
+> > 
+> > **2. Fiscale lichte vrachtwagen** — 40.000,00 + 8.400,00 BTW. Herziening: (8.400,00 × 85 %) × 3/5 = **4.284,00 EUR** (methode 4 — werkelijk beroepsgebruik 85 %, geen 50 %-plafond want fiscale lichte vrachtwagen valt buiten art. 45 §2 eerste lid). 📖
+> > 
+> > **3. Machines (2 stuks)** — 10.000,00 + 15.000,00 = 25.000,00 + 5.250,00 BTW. Herziening: 5.250,00 × 3/5 = **3.150,00 EUR** (volledig beroep, geen aftrekbeperking). 📖
+> > 
+> > **4. Stock op 31/12/2018** — wisselstukken en onderdelen 3.000,00 + 630,00 BTW. Volledige rechtzetting: 3.000,00 × 21 % = **630,00 EUR** (geen termijn-prorata — stock is geen bedrijfsmiddel, herziening op basis van inventaris). 📖
+> > 
+> > **Totaal terug te krijgen BTW: ± 9.324,00 EUR** (samengeteld 2.520 + 4.284 + 3.150 + 630 = 10.584; het modelantwoord vermeldt beide getallen — zie nuance hieronder). 🔗
+> > 
+> > De herzieningstermijn voor bedrijfsmiddelen bedraagt 5 jaar (1/5e per jaar) — niet 15 jaar; die langere termijn geldt enkel voor onroerende bedrijfsmiddelen (gebouwen, zakelijke rechten). Verwar evenmin de twee aftrekbeperkings-methodes voor voertuigen: voor de personenwagen geldt **methode 2** (werkelijk beroepsgebruik, hier 40 %, plafond 50 % op grond van art. 45 §2); voor de fiscale lichte vrachtwagen geldt **methode 4** (werkelijk beroepsgebruik zonder 50 %-plafond, want art. 45 §2 tweede lid sluit lichte vrachtwagens uit van het plafond). Op stock past géén 3/5-prorata toe — stock is een "ander goed dan bedrijfsmiddel" (art. 6 §1, 1° KB nr. 19) en wordt voor het volledige bedrag van de niet-eerder-afgetrokken BTW herzien op basis van een inventaris. 🔗
+> > 
+> > Het modelantwoord van het BIBF-examen vermeldt als totaal "9.324,00 € - 10.584" — de tweede waarde (10.584) is de rekenkundige som van de vier deelbedragen (2.520 + 4.284 + 3.150 + 630). Het verschil van 1.260 EUR tussen 9.324 en 10.584 komt overeen met het deel van de personenwagen-BTW dat verloren gaat door de 50 %-aftrekbeperking (art. 45 §2 WBTW): 10.500 × 3/5 = 6.300 × 50 % = 3.150 vs. 6.300 × 40 % = 2.520, verschil 630 EUR — en bij analoge toepassing op de fiscale lichte vrachtwagen ontstaat een tweede schijf. De vraag laat ruimte voor beide presentaties; de hoofdberekening volgt de letter van art. 45 §1quinquies (methode 2 = werkelijk beroepsgebruik, dus 40 %). ❓
+> > 
+> > De rechtsgrond voor de herziening bij verlies van de vrijstellingsregeling staat in **art. 6 §1 KB nr. 19**: de ex-vrijgestelde belastingplichtige kan zijn aftrekrecht uitoefenen op (1°) andere goederen en diensten dan bedrijfsmiddelen die op het tijdstip van overgang nog niet zijn gebruikt of verbruikt (= de stock), en (2°) bedrijfsmiddelen die nog bestaan en bruikbaar zijn, voor zover de herzieningstermijn van art. 48 §2 WBTW (5 of 15 jaar — hier 5 jaar voor roerende bedrijfsmiddelen, art. 9 KB nr. 3) nog niet is verstreken; het bedrag is gelijk aan de niet-afgetrokken BTW **verminderd met een vijfde per verstreken jaar**. 📖 De aftrekbeperking voor personenwagens (50 %-plafond + werkelijk beroepsgebruik) volgt uit **art. 45 §2 WBTW** samen met de vier methodes van **art. 45 §1quinquies WBTW**; lichte vrachtwagens vallen buiten het plafond op grond van art. 45 §2, tweede lid. 📖 De algemene herzieningsmechaniek voor bedrijfsmiddelen (wijziging in factoren die de oorspronkelijke aftrek bepaalden) staat in **art. 10 KB nr. 3**. 📖  
+> > *Bron: Art. 6 §1 KB nr. 19; art. 10 KB nr. 3; art. 45 §1quinquies en §2 WBTW; art. 49, 3° WBTW (analoog voor de tegen-overgang); art. 56bis WBTW*
 
 <a id="2015-1-vr36"></a>
 

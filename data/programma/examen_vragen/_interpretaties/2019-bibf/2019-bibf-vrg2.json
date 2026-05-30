@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrg2",
+  "interpretatie_datum": "2026-05-30T12:44:49Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Personenbelasting — aangifteplicht auteursrechten en belastingheffing meerwaarde op gebouwd onroerend goed",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": [
+    "auteursrechten",
+    "roerende inkomsten",
+    "meerwaarde onroerend goed",
+    "diverse inkomsten",
+    "personenbelasting",
+    "33% belastingheffing"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag G.2 (sectie G. Personenbelasting). Twee juist/fout-stellingen, 1 punt per juist antwoord (totaal /2)."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De inkomsten van auteursrechten dienen in de personenbelasting altijd te worden aangegeven.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De winst op de verkoop van een gebouwd onroerend goed kan in geen geval in aanmerking komen voor een belastingheffing aan 33%.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Twee stellingen visueel afgelezen uit de tabel op pagina 35 (kolommen JUIST/FOUT bevatten de gold-antwoorden 'X' — niet opgenomen in vraagstelling). pdfplumber-extract is consistent met PNG; geen typo-correcties nodig. Stellingen worden integraal weergegeven; motivatie-veld op false omdat de PDF enkel om aanduiding juist/fout vraagt zonder expliciete motiveringsinstructie.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

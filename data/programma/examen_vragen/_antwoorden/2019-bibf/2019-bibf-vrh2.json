@@ -1,0 +1,136 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrh2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — de heer Klepkens kan in juni 2018 terugbetalen; tot dan wordt de schuld in de boekhouding van de BVBA opgenomen als een **vordering op de zaakvoerder via een rekening-courant zaakvoerder (R/C) op de actiefzijde** van de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De herkwalificatie betekent dat de uitgaven niet meer als beroepskost van de vennootschap worden aanvaard, maar als privé-uitgaven die de zaakvoerder aan de vennootschap verschuldigd is. Zolang de terugbetaling niet effectief plaatsvindt, registreert de boekhouder die schuld als een vordering van de vennootschap op haar zaakvoerder — concreet via de R/C zaakvoerder op het actief (klasse 41, rekening 416 'Vorderingen op vennoten / bestuurders / zaakvoerders'). 🔗 De effectieve terugbetaling in juni 2018 zal die R/C dan aanzuiveren.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Boekhoudkundig steunt deze verwerking op het MAR-rekeningenstelsel (rekening 416 'Vorderingen op aandeelhouders, bestuurders en zaakvoerders' — actiefzijde). De herkwalificatie zelf is een loutere correctie binnen het boekjaar 2017 in opdracht van de boekhouder; geen wetsartikel verplicht de terugbetaling op een vaste datum. 🤖",
+          "wetsref": "MAR rekening 416 — Vorderingen op aandeelhouders, bestuurders en zaakvoerders",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De boekhouder **boekt de uitgaven over naar rekening 416 'Vorderingen op aandeelhouders/zaakvoerders'**, zodat de vordering van de BVBA op haar zaakvoerder Klepkens duidelijk in de balans verschijnt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "boeking",
+          "tekst": "Overboeking van de oorspronkelijk geboekte privé-uitgaven (klasse 6 — verschillende kostenrekeningen) naar de vordering op de zaakvoerder:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 416 | Vorderingen op aandeelhouders/zaakvoerders (R/C Klepkens) | X | |\n| aan | 60-, 61-, 62- ... | Oorspronkelijke kostenrekeningen waarop de privé-uitgaven werden geboekt | | X |\n\nEffect: de kosten verdwijnen uit het resultaat van de BVBA en de schuld van Klepkens wordt zichtbaar op de actiefzijde van de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "MAR-rekening 416 ('Vorderingen op aandeelhouders, bestuurders en zaakvoerders') is de standaard-rekening om R/C-vorderingen van de vennootschap op haar bedrijfsleider te boeken. 🔗",
+          "wetsref": "MAR rekening 416",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA — twee fiscale gevolgen voor de BVBA**: (1) de **belastbare basis stijgt** doordat de herkwalificatie de kosten elimineert (minder aftrekbare kosten → meer belastbare winst); (2) op het R/C-debetsaldo per 31/12/2017 moet **fictieve intrest** van **8,78 % per jaar** worden aangerekend (tenzij de R/C op credit staat), die ofwel als rente-opbrengst wordt geboekt — meestal geneutraliseerd via rekening 618 (bezoldiging zaakvoerder) — ofwel, als zij niet bij de zaakvoerder wordt belast en op de R/C wordt bijgeboekt, de belastbare basis van de BVBA verder verhoogt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "- **Gevolg 1 — hogere belastbare basis door minder kosten**: na overboeking naar de R/C verdwijnen de oorspronkelijke kostenboekingen (klasse 6). Het belastbaar resultaat 2017 stijgt met datzelfde bedrag → meer vennootschapsbelasting. 🔗\n- **Gevolg 2 — fictieve intrest op R/C-debetsaldo per 31/12/2017**: een rekening-courant met debetsaldo (zaakvoerder schuldt aan vennootschap) wordt fiscaal beschouwd als een renteloze of goedkope lening aan de bedrijfsleider. Op die schuld moet de **referentierentevoet uit KB/WIB92 art. 18 §3** worden toegepast — voor AJ 2018 (inkomsten 2017) bedraagt die voor niet-hypothecaire leningen zonder vaste looptijd **8,78 %**. 📖 Twee verwerkingswijzen:\n  - **Variant a — intrest aangerekend + bezoldigingscompensatie**: de BVBA boekt de rente als opbrengst (751) tegenover R/C, maar neemt diezelfde rente ten laste op rekening **618 — bezoldiging zaakvoerder** als VAA → netto-effect op de belastbare basis = 0 voor de BVBA, en de zaakvoerder wordt belast op het VAA in zijn PB.\n  - **Variant b — intrest bijgeboekt op R/C, niet belast bij zaakvoerder**: indien de intrest niet ten laste wordt genomen als bezoldiging maar gewoon aan de R/C-schuld wordt toegevoegd, **stijgt de belastbare basis van de BVBA ten bedrage van die fictieve intrest** (rente-opbrengst zonder compensatiekost). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De **8,78 %** is geen marktrente maar de **forfaitaire referentievoet** van het KB/WIB92 art. 18 §3 voor niet-hypothecaire leningen zonder vaste looptijd, zoals jaarlijks gepubliceerd (cijfer voor inkomstenjaar 2017 / AJ 2018). De voet is jaar- en categorie-gebonden — voor een ander aanslagjaar of voor een hypothecaire lening geldt een ander percentage. Het Cijferzakboekje is de canonieke vindplaats. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 32 WIB92 (bezoldigingen bedrijfsleider — VAA als bijkomende bezoldiging) en art. 36 WIB92 (forfaitaire raming van voordelen van alle aard) — uitgewerkt in **KB/WIB92 art. 18 §3** dat de jaarlijkse referentierentevoeten vastlegt voor renteloze of goedkope leningen, met aparte categorieën voor hypothecaire vs. niet-hypothecaire en vaste vs. variabele rente. Voor R/C-zaakvoerder geldt de categorie 'niet-hypothecair zonder vaste looptijd' — 8,78 % voor inkomstenjaar 2017. 📖",
+          "wetsref": "Art. 32 + 36 WIB92; KB/WIB92 art. 18 §3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — voor **AJ 2018 (inkomsten 2017)** ziet de heer Klepkens zijn **belastbare basis in de personenbelasting verhoogd met de fictieve intrest van 8,78 % per jaar** berekend op zijn R/C-schuld bij de BVBA BEDIENUZELF (belastbaar als bijkomende bezoldiging-VAA). **Alternatief**: wil hij die VAA-belasting vermijden, dan kan hij beslissen om de intrest **toe te voegen aan zijn R/C-schuld** — bij terugbetaling van de schuld zal hij die bijgeboekte intrest dan ook moeten meebetalen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee mogelijke verwerkingen — Klepkens kiest:\n\n- **Optie 1 — VAA in de PB**: de schuld in R/C is fiscaal een renteloze (goedkope) lening van vennootschap aan bedrijfsleider → het verschil tussen de KB-referentievoet (8,78 % voor inkomstenjaar 2017) en de werkelijk aangerekende rente (hier 0 %) is een **voordeel van alle aard** dat als bezoldiging van bedrijfsleider belast wordt op fiche 281.20. Resultaat: progressieve PB + gemeentelijke opcentiemen op de berekende fictieve rente. 🔗\n- **Optie 2 — intrest bijschrijven op R/C**: Klepkens belast zichzelf niet op een VAA maar laat de rente aanrekenen door de vennootschap en boeken op zijn R/C. Zijn schuld wordt zo groter; bij terugbetaling betaalt hij het kapitaal plus de bijgeboekte intresten terug. Geen PB-meerwaarde maar wel een grotere uiteindelijke cashoutflow. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De berekening van de fictieve intrest gebeurt op het **gemiddeld openstaand R/C-saldo** over het inkomstenjaar (typisch som van de maand-einde-saldi / 12), niet op het eindsaldo per 31/12. Een zaakvoerder die zijn R/C kort vóór jaareinde 'aflost' en in januari weer opneemt, ontsnapt dus niet aan de VAA-berekening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 32 WIB92 (bezoldigingen bedrijfsleider — VAA telt als bezoldiging) + art. 36 WIB92 (forfaitaire raming VAA) + **KB/WIB92 art. 18 §3** (jaarlijkse referentierentevoeten: voor inkomstenjaar 2017 bedraagt de niet-hypothecaire voet zonder vaste looptijd 8,78 %). De keuze tussen 'VAA belasten' en 'rente bijschrijven op R/C' is een feitenkeuze van de zaakvoerder/vennootschap, niet een wettelijke optie. 📖",
+          "wetsref": "Art. 32 + 36 WIB92; KB/WIB92 art. 18 §3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

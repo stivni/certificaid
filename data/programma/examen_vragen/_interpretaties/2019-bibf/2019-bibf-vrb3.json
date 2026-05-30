@@ -1,0 +1,111 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrb3",
+  "interpretatie_datum": "2026-05-30T12:43:07Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Herwaarderingsmeerwaarde op materiële vaste activa (art. 57 KB W.Venn.)",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": [
+    "herwaarderingsmeerwaarde",
+    "materiële vaste activa",
+    "artikel 57 KB W.Venn.",
+    "eigen vermogen",
+    "afschrijvingen",
+    "verworpen uitgaven",
+    "notionele intrestaftrek",
+    "realisatie geherwaardeerde activa"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraag B.3 (/5 — 0,5 punt per juist antwoord). Geef aan welke stelling juist of fout is. De stellingen betreffen de herwaarderingsmeerwaarde op materiële vaste activa volgens artikel 57 KB W.Venn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "s1",
+      "label_in_pdf": "1",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De \"materiële vaste activa\" op de balans geven niet altijd een goede weergave van de echte waarde of marktwaarde van die activa.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s2",
+      "label_in_pdf": "2",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Wanneer de waarde van deze vaste activa \"op vaststaande en duurzame wijze\" boven hun boekwaarde uitstijgt, moet de onderneming deze activa herwaarderen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s3",
+      "label_in_pdf": "3",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Op het actief van de balans verhoogt de vaste activa met de herwaarderingsmeerwaarde en op het passief wordt hetzelfde bedrag geboekt bij de winst.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s4",
+      "label_in_pdf": "4",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Door een herwaarderingsmeerwaarde te boeken verhoogt automatisch het eigen vermogen van die vennootschap.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s5",
+      "label_in_pdf": "5",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een herwaarderingsmeerwaarde volgens artikel 57 KB W.Venn. kan ook worden geboekt voor financiële vaste activa alsook voor immateriële vaste activa.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s6",
+      "label_in_pdf": "6",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Gedurende hetzelfde boekjaar en om een bedrijfsverlies weg te werken kan men binnen eenzelfde periode een herwaarderingsmeerwaarde eerst omzetten in kapitaal en nadien het kapitaal verminderen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s7",
+      "label_in_pdf": "7",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een herwaarderingsmeerwaarde leidt vaak tot extra afschrijvingen. Dat betekent dus een \"extra boekhoudkundige kost en een extra fiscale kost\".",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s8",
+      "label_in_pdf": "8",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Een herwaarderingsmeerwaarde heeft als voordeel dat je een hogere notionele intrestaftrek krijgt vanaf de aanleg.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s9",
+      "label_in_pdf": "9",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Het bedrag van de afschrijving van een herwaarderingsmeerwaarde wordt voor de vennootschapsbelastingen opgenomen in de \"verworpen uitgaven\".",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "s10",
+      "label_in_pdf": "10",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Bij de realisatie van de geherwaardeerde activa dienen alle rekeningen met betrekking tot de voorheen uitgedrukte, niet-gerealiseerde meerwaarde afgeboekt te worden, zodanig dat het actief aan zijn oorspronkelijke boekwaarde gewaardeerd wordt in de balans.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Tien stellingen letterlijk overgenomen uit de PDF-tabel (visueel geverifieerd via pagina_16.png). Tekstextract had lay-out-glitches (de juist/fout-X kolommen waren tussen regels geïnterleaveerd) — opgelost door de stellingen aaneengesloten te reconstrueren. De juist/fout-kolomwaarden (gold answers) zijn niet opgenomen in deze interpretatie zoals gespecificeerd; die horen in het antwoord-artefact. Eén casus_context-blok dat de paraplu-instructie (J/F + 0,5 pt per juist antwoord) vasthoudt. Per stelling motivatie_verwacht=false omdat de PDF enkel een aanvinkkolom voorziet, geen motivering vraagt.",
+  "kwaliteits_flags": ["tabel_in_pdf_zichtbaar"]
+}

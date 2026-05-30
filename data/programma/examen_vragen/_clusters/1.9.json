@@ -1,12 +1,12 @@
 {
   "schema_versie": "1.0",
   "po_code": "1.9",
-  "gegenereerd_op": "2026-05-29T19:45:09+00:00",
+  "gegenereerd_op": "2026-05-30T12:55:01+00:00",
   "embedding_model": "BAAI/bge-m3",
   "threshold_cosine": 0.85,
-  "n_vragen": 6,
+  "n_vragen": 7,
   "n_clusters": 0,
-  "n_singletons": 6,
+  "n_singletons": 7,
   "clusters": [],
   "borderline_paren": [],
   "singletons": [
@@ -45,6 +45,12 @@
       "vraag_id": "2013-2-vr6",
       "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
       "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr6.json"
+    },
+    {
+      "examen_id": "2019-bibf",
+      "vraag_id": "2019-bibf-vrc1",
+      "vraag_onderwerp": "Algemene beginselen financieel beheer: definitie en formule van de netto kas, begrip nulcouponobligatie met cash-flow op vervaldag, en stellingen over permanent vermogen en werkkapitaalbehoefte",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2019-bibf/2019-bibf-vrc1.json"
     }
   ]
 }

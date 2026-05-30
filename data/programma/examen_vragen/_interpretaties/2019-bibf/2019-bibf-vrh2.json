@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrh2",
+  "interpretatie_datum": "2026-05-30T12:45:11Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Herkwalificatie van niet-beroepsmatige uitgaven als persoonlijke uitgaven van de zaakvoerder — boeking via rekening-courant en fiscale gevolgen (vennootschap + zaakvoerder)",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": [
+    "rekening-courant zaakvoerder",
+    "persoonlijke uitgaven via vennootschap",
+    "fictieve intrest",
+    "vennootschapsbelasting",
+    "verworpen uitgaven",
+    "voordeel alle aard",
+    "herkwalificatie"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer Klepkens, zaakvoerder van de BVBA BEDIENUZELF, heeft in 2017 via zijn bedrijf een aantal uitgaven gedaan en betaald waarvan niet werd bewezen dat deze beroepsmatig waren. Bij het afsluiten van de rekeningen over 2017 wijst zijn boekhouder op het feit dat hij deze uitgaven zal herkwalificeren als persoonlijke uitgaven. De heer Klepkens wil zijn vennootschap terugbetalen maar zal dit niet kunnen doen vóór de maand juni 2018."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Kan de heer Klepkens beslissen om de vennootschap in juni 2018 terug te betalen en op welke manier?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe zal de boekhouder van de BVBA BEDIENUZELF deze situatie boekhoudkundig behandelen?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Zijn er fiscale gevolgen in hoofde van BVBA BEDIENUZELF? Zo ja, welke?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Zijn er fiscale gevolgen in hoofde van de heer Klepkens? Geef meer uitleg bij uw antwoord.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-vraag H.2 uit het Praktisch Bekwaamheidsexamen van 4 mei 2019 (sectie H — Vennootschapsbelasting). De PDF bevat per deelvraag het modelantwoord (header 'Antwoord - 1 punt' met uitgewerkte oplossing in vetjes) — die antwoordblokken zijn weggelaten uit dit interpretatie-artefact, conform §7 (geen modelantwoord opnemen). Vier deelvragen onder één gedeelde casus-context, alle vier eigenstandig (eigen inhoud, geen pure motivatie-instructie) en dus apart opgenomen. Deelvragen 3 en 4 vragen expliciet om 'Zo ja welke?' / 'Geef meer uitleg' → motivatie_verwacht=true. Deelvragen 1 en 2 vragen om procedure/boeking zonder expliciete motivering → motivatie_verwacht=false. Totaal 5 punten (1+1+1+1 = 4 punten in modelantwoorden zichtbaar, sectiekop vermeldt /5 — discrepantie in PDF, niet opgelost hier). PO 2.3 (Vennootschapsbelasting) overgenomen uit context.",
+  "kwaliteits_flags": []
+}

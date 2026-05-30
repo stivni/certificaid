@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vri2",
+  "interpretatie_datum": "2026-05-30T12:45:34Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Indieningstermijn en uiterste indieningsdatum aangifte vennootschapsbelasting (art. 310 WIB92)",
+  "programmaonderdeel_ids": ["2.5"],
+  "themas": [
+    "vennootschapsbelasting",
+    "aangiftetermijn",
+    "art. 310 WIB92",
+    "uiterste indieningsdatum",
+    "statutaire algemene vergadering",
+    "art. 53 Gerechtelijk Wetboek"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Binnen welke termijnen moet de aangifte in de vennootschapsbelasting worden ingediend?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Vermeld de uiterste datum van indiening van de aangifte in de vennootschapsbelasting.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Sectie I.2 (2 punten) uit BIBF Praktisch Bekwaamheidsexamen 4 mei 2019 onder I. Belastingprocedures (PO 2.5). De PDF-pagina bevat twee genummerde deelvragen (1 en 2), elk gevolgd door een modelantwoord van 1 punt. De modelantwoorden zijn bewust niet opgenomen in deze interpretatie — die horen in het antwoord-artefact. Beide deelvragen zijn `open` vraagtype: vraag 1 vraagt naar termijnen (vrij tekst-antwoord met opsomming van min/max-termijn art. 310 WIB92), vraag 2 vraagt naar de uiterste datum (vrij tekst-antwoord met regel + uitzonderingen art. 53 Ger.W. en bijkomende periode tot 15/01/2019). `motivatie_verwacht` = false: de vraagstellingen vragen niet expliciet om motivering — de antwoordvorm is inherent een procedure-/regel-uitwerking, geen J/F + motivering. Geen casus_context: de vraag staat los, zonder voorafgaand verhaal. Vraag_herkomst = officieel (PDF is het officiële examen met modelantwoorden).",
+  "kwaliteits_flags": []
+}

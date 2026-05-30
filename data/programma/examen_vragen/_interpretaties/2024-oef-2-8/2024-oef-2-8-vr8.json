@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr8",
+  "interpretatie_datum": "2026-05-30T12:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Toepasbaarheid Moeder-dochterrichtlijn en Interest-royaltyrichtlijn op Hongaarse bronheffing bij grensoverschrijdende interesten en dividenden",
+  "programmaonderdeel_ids": ["2.8"],
+  "themas": [
+    "Moeder-dochterrichtlijn",
+    "Interest-royaltyrichtlijn",
+    "bronheffing",
+    "internationaal fiscaal recht",
+    "deelnemingsdrempel",
+    "verbonden ondernemingen",
+    "Europese fiscale richtlijnen",
+    "Hongarije"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Uw cliënt (X) en zijn echtgenote (Y) zijn samen voor 100% aandeelhouder van een Belgische NV. De Belgische NV bezit 3% van een Hongaarse vennootschap; de overige 97% wordt aangehouden door Z, de (schoon-)broer van X. Vanuit de Hongaarse vennootschap vloeien interesten (op een lening) en dividenden naar de Belgische NV. De Hongaarse fiscus eist de inhouding van een bronheffing op zowel de interesten van de lening als op de dividenden. Cliënt X en zijn echtgenote Y dachten dat, gelet op de Europese 'Moeder-dochterrichtlijn' en 'Interest-royaltyrichtlijn', er in Hongarije op die inkomsten geen bronheffing meer kon worden ingehouden."
+    },
+    {
+      "type": "groepsschema",
+      "headers": ["Partij", "Relatie / participatie", "Doel / richting"],
+      "rows": [
+        ["X en Y (echtgenoten)", "samen 100% aandeelhouder", "Belgische NV"],
+        ["Belgische NV", "3% participatie", "Hongaarse vennootschap"],
+        ["Z ((schoon-)broer van X)", "97% participatie", "Hongaarse vennootschap"],
+        ["Hongaarse vennootschap", "betaalt interesten (op lening)", "Belgische NV"],
+        ["Hongaarse vennootschap", "betaalt dividenden", "Belgische NV"]
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "8",
+      "vraagtype": "open",
+      "vraagstelling": "Klopt de overtuiging van X en Y dat, gelet op de Europese 'Moeder-dochterrichtlijn' en 'Interest-royaltyrichtlijn', er in Hongarije op de interesten van de lening en op de dividenden geen bronheffing meer kon worden ingehouden?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële ITAA-oefenvraag 8 op pagina 3. De vraag bestaat uit een casus-tekst (Hongaarse fiscus eist bronheffing; X en Y dachten dat de twee EU-richtlijnen die bronheffing elimineren) gevolgd door de open kwalificatie-vraag 'Klopt dit?'. De casus-tekst is geconsolideerd in één casus_context-blok. Het visuele schema in de PDF is structureel essentieel voor het antwoord (de 3% / 97%-verdeling tussen de Belgische NV en de (schoon-)broer Z bepaalt of de deelnemings- en verbondenheidsdrempels van de Moeder-dochterrichtlijn (≥10% participatie) en Interest-royaltyrichtlijn (verbonden ondernemingen, ≥25% directe participatie) bereikt worden) en is daarom additioneel vastgelegd als groepsschema-blok met de aandeelhouder-relaties en de richting van de inkomstenstromen. OCR-artefact '(cid:431)ing' (twee keer in de tekst) genormaliseerd naar 'fing' ('bronheffing'). De vraagstelling 'KLOPT DIT?' is uitgebreid tot een volledige zin die expliciet naar de cliënt-overtuiging refereert, zodat de vraag stand-alone interpreteerbaar is; motivatie_verwacht=true omdat een 'klopt dit?'-casus-vraag in deze context altijd een motivering vergt. Vraagtype 'open' (casus-kwalificatie met vrij tekst-antwoord, geen J/F-stelling-paraplu).",
+  "kwaliteits_flags": ["typo_genormaliseerd", "schema_in_pdf_zichtbaar"]
+}

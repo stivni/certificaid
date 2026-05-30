@@ -1,0 +1,126 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra3",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| | 412 | Terug te vorderen belastingen en voorheffingen | 4.480,00 | |\n| aan | 6701 | Geactiveerde overschotten van betaalde belastingen en voorheffingen (-) | | 4.480,00 |\n\nHet positief verschil tussen de tijdens het boekjaar gestorte voorafbetalingen (5.000,00 € op rekening 6700) en de geraamde verschuldigde belasting (520,00 €) wordt geactiveerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-14-belastingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Bepaling van het over te dragen overschot**:\n\n- Voorafbetalingen geboekt op 6700 *Verschuldigde of gestorte belastingen en voorheffingen*: **5.000,00 €** 📖\n- Geraamde verschuldigde belasting op het resultaat van het boekjaar (VAA auto): **520,00 €** 📖\n- Positief verschil → te activeren op 6701 (creditzijde, mindering van de belastinglast) en op 412 (vordering op fiscus): **5.000,00 − 520,00 = 4.480,00 €** 🔗\n\nNetto belastinglast in de resultatenrekening na regularisatie = 6700 (5.000) − 6701 (4.480) = **520,00 €** — gelijk aan de geraamde belasting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-14-belastingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Ondanks het boekhoudkundig verlies van −12.000,00 € blijft er belasting verschuldigd: een VAA auto (verworpen uitgave) creëert een minimum belastbare basis. De voorafbetalingen overschrijden die belastingschuld → 412 *Terug te vorderen belastingen en voorheffingen* (vordering op de fiscus). Het matchingbeginsel en het compensatieverbod verbieden dat het overschot als kost van het lopende boekjaar blijft staan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-14-belastingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2018/14 — *Boekhoudkundige verwerking van belastingen op het resultaat*: op rekening **6701** wordt het positief verschil geboekt tussen de op 6700 geboekte bedragen (incl. voorafbetalingen) en de geraamde verschuldigde winstbelasting; de tegenpost is rekening **412** *Terug te vorderen belastingen en voorheffingen*. Toepassing van het matchingbeginsel (art. 3:50 KB WVV) en het compensatieverbod. 📖",
+          "wetsref": "CBN-advies 2018/14; art. 3:50 KB WVV (matching); MAR rekeningen 412, 6700, 6701",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-14-belastingen.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**(a) Overname overgedragen winst vorig boekjaar**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| | 140 | Overgedragen winst | 4.750,00 | |\n| aan | 790 | Overgedragen winst van het vorige boekjaar | | 4.750,00 |\n\n**(b) Tussenkomst van de vennoten in het verlies (5.000,00 €)**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| | 416 | Rekening-courant vennoten | 5.000,00 | |\n| aan | 794 | Tussenkomst van vennoten in het verlies | | 5.000,00 |\n\n**(c) Overdracht van het saldo naar het volgende boekjaar**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---:|---:|\n| | 141 | Overgedragen verlies | 2.770,00 | |\n| aan | 793 | Over te dragen verlies | | 2.770,00 |\n\nWettelijke reserve (130) blijft ongewijzigd: bij verlies is er geen verplichte dotatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-02-verlies-gedragen-door-vennoten-of-derden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Cascade resultaatverwerking (klasse 79 + 69)**:\n\n| Stap | Bedrag (€) | Toelichting |\n|---|---:|---|\n| Resultaat na belastingen van het boekjaar (9905) | −12.520,00 | −12.000 vóór belastingen − 520 netto belastinglast 🔗 |\n| + Overgedragen winst vorig boekjaar (14P → 790) | +4.750,00 | overboeking van 140 naar 790 📖 |\n| **Te bestemmen verlies (9906)** | **−7.770,00** | tussentijds resultaat 🔗 |\n| + Tussenkomst van vennoten (794 — credit op R/C 416) | +5.000,00 | aanzuivering door vennoten 📖 |\n| Onttrekking aan / toevoeging aan eigen vermogen | 0,00 | wettelijke reserve onveranderd bij verlies 🔗 |\n| **Over te dragen verlies (793 → 141)** | **−2.770,00** | saldo, geboekt op 141 🔗 |\n\nWettelijke minimale verplichtingen = enkel de toevoeging aan de wettelijke reserve, en die geldt **uitsluitend bij winst** (art. 7:211 WVV / art. 5:165 WVV); bij verlies hoeft niets te worden aangelegd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-02-verlies-gedragen-door-vennoten-of-derden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De tussenkomst van de vennoten wordt **niet** geboekt als een toevoeging aan het kapitaal of als een opbrengst van het boekjaar, maar via de specifieke resultaatverwerkingsrekening **794** *Tussenkomst van vennoten in het verlies* met als tegenpost een schuld in rekening-courant (**416**) — niet via 700-omzet en niet via 100-kapitaal. CBN-advies 121/2 onderscheidt drie scenario's; hier past scenario 1: tussenkomst beslist samen met de resultaatverwerking, dus rechtstreeks in code 794 van VOL 4. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-02-verlies-gedragen-door-vennoten-of-derden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 121/2 *Verlies gedragen door vennoten of derden*: wanneer de aanzuivering deel uitmaakt van de winstbestemming → rechtstreeks boeken op rekening **794** (credit) met tegenpost rekening-courant **416** (debet). MAR (KB 21.10.2018, Bijlage 1): rekeningen 140/141 (overgedragen winst/verlies), 790/793 (overgedragen winst/over te dragen verlies), 794 (tussenkomst vennoten in het verlies), 416 (R/C vennoten). 📖",
+          "wetsref": "CBN-advies 121/2; MAR rekeningen 140, 141, 416, 790, 793, 794; art. 3:90 KB WVV (model VOL 4)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-02-verlies-gedragen-door-vennoten-of-derden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**VOL 4 — Resultaatverwerking (bedragen in €)**\n\n| Rubriek | Code | Boekjaar |\n|---|:---:|---:|\n| **Te bestemmen winst (verlies)** | **9906** | **−7.770** |\n| &nbsp;&nbsp;Te bestemmen winst (verlies) van het boekjaar | (9905) | −12.520 |\n| &nbsp;&nbsp;Overgedragen winst (verlies) van het vorige boekjaar | 14P | 4.750 |\n| Onttrekking aan het eigen vermogen | 791/2 | — |\n| &nbsp;&nbsp;aan het kapitaal en aan de uitgiftepremies | 791 | — |\n| &nbsp;&nbsp;aan de reserves | 792 | — |\n| Toevoeging aan het eigen vermogen | 691/2 | — |\n| &nbsp;&nbsp;aan het kapitaal en aan de uitgiftepremies | 691 | — |\n| &nbsp;&nbsp;aan de wettelijke reserve | 6920 | — |\n| &nbsp;&nbsp;aan de overige reserves | 6921 | — |\n| **Over te dragen winst (verlies)** | **(14)** | **−2.770** |\n| **Tussenkomst van de vennoten in het verlies** | **794** | **5.000** |\n| Uit te keren winst | 694/6 | — |\n| &nbsp;&nbsp;Vergoeding van het kapitaal | 694 | — |\n| &nbsp;&nbsp;Bestuurders of zaakvoerders | 695 | — |\n| &nbsp;&nbsp;Andere rechthebbenden | 696 | — |\n\n📖 (gold reference uit het examen-segment)",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Sluit-controle van het tableau**:\n\n9906 (te bestemmen) = 9905 + 14P → **−12.520 + 4.750 = −7.770** ✓ 🔗\n\nover te dragen = te bestemmen ± mutaties EV − tussenkomst vennoten → **−7.770 − 0 + 5.000 = −2.770** ✓ 🔗\n\nAlle lege rubrieken (791/2, 691/2, 694/6) zijn nul: er wordt niets aan het eigen vermogen onttrokken of toegevoegd (de wettelijke reserve is al volstort op 250,00 € en bij verlies is geen dotatie verplicht), en er wordt geen winst uitgekeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het tableau van de resultaatverwerking is een **spiegel van de klasse 79/69-boekingen** uit deelvraag 2: 9905 = saldo klasse 70-67, 14P = rekening 790, (14) = rekening 793 (met minteken want over te dragen verlies), 794 = rekening 794. De wettelijke reserve (250 €) staat in de balans, niet in VOL 4. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Model VOL 4 *Resultaatverwerking* — onderdeel van het schema voor de jaarrekening van grote en kleine vennootschappen (KB 29.04.2019 tot uitvoering van het WVV, Bijlage). Codes en rubrieken zijn dwingend overgenomen uit het wettelijk schema en mappen één-op-één op de MAR-rekeningen 14, 130, 14P, 691/2, 791/2, 793, 794, 694/6. 📖",
+          "wetsref": "KB 29.04.2019 tot uitvoering van het WVV (jaarrekening-schema, Bijlage — model VOL 4)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

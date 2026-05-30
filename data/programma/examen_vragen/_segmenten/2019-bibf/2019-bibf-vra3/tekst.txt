@@ -1,0 +1,41 @@
+Vraag A.3. /5
+Gegevens
+BVBA HAUTEKIET (kleine vennootschap) heeft volgende situatie:
+Maatschappelijk en volgestort kapitaal 20.000,00 €
+Wettelijke reserve 250,00 €
+Overgedragen winst van het voorbije boekjaar 4.750,00 €
+In de loop van het jaar N. werd in totaal voor 5.000,00 € aan voorafbetalingen gedaan. Het
+jaar N was echter rampzalig en het resultaat vóór belastingen bedraagt -12.000,00 €. Er wordt
+nochtans geschat dat de totale belasting voor het jaar N 520,00 €zal zijn (door een VAA auto).
+De toewijzing van het resultaat is als volgt :
+- Wettelijke minimale verplichtingen ;
+- De vennoten nemen samen 5.000,00 € aan verliezen t en laste;
+- Overdracht van het saldo.
+Vragen
+1. Geef de boekhoudkundige verwerking van de regularisatie van de belastingen op het
+resultaat van het boekjaar.
+Antwoord - 1 punt
+412 Terug te vorderen belastingen en 4.480 ,00
+voorheffingen
+@ 6701 Geactiveerde overschotten van betaalde
+belastingen en voorheffingen 4.480,00
+2. Geef de boekhoudkundige verwerking van de toewijzing van het resultaat.
+Antwoord - 2 punten
+140 Overgedragen winst 4.750,00
+@ 790 Overgedragen winst van het vorige 4.750,00
+boekjaar
+416… R/C vennoten 5.000,00
+@ 794 Tussenkomst van vennoten in het verlies 5.000,00
+141 Overgedragen verlies 2.770,00
+@ 793 Over te dragen verlies 2.770,00
+NAAM :
+p. 9
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019
+
+3) Vervolledig het tableau van de resultaatverwerking
+Antwoord - 2 punten
+NAAM :
+p. 10
+VOORNAAM :
+BIBF-NUMMER : 04 mei 2019

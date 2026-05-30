@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre3",
+  "interpretatie_datum": "2026-05-30T13:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Plichtenleer extern boekhouder-fiscalist BIBF: mag een tuchtrechtelijk geschorste boekhouder tijdens zijn schorsing een opdracht van een cliënt behandelen, en welke verplichting heeft hij tegenover dat cliënteel?",
+  "programmaonderdeel_ids": [
+    "4.0"
+  ],
+  "themas": [
+    "plichtenleer BIBF",
+    "tuchtsanctie",
+    "schorsing beroepsuitoefening",
+    "permanente vorming",
+    "uitvoerende kamer",
+    "kennisgeving aan cliënteel",
+    "Reglement van Plichtenleer KB 18.07.2017",
+    "artikel 12 Reglement Plichtenleer"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "De heer Robert CARDON, erkend extern boekhouder-fiscalist BIBF, werd tuchtrechtelijk gestraft voor het niet volgen van permanente vorming. De uitvoerende kamer heeft hem geschorst voor een periode van 40 dagen. De beslissing is definitief.\n\nIn deze periode draagt Norbert DRUIVELAAR, een cliënt, de in te boeken facturen over aan de heer CARDON om een tussentijdse situatie vast te stellen voor het verkrijgen van een krediet betreffende de financiering van rollend materieel."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E.3",
+      "vraagtype": "open",
+      "vraagstelling": "Mag de heer Robert CARDON de vraag van zijn cliënt behandelen? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examenvraag (Praktisch Bekwaamheidsexamen 4 mei 2019, sectie E.3, 2 punten). De PDF-pagina toont aan de bovenzijde de afsluiting van het vorige vraag-blok (E.2 — DE GRONDELAAR, stagereglement art. 6 §1 2° KB 10 april 2015) inclusief modelantwoord; dat blok hoort bij vre2 en is hier niet opgenomen. Vanaf 'Vraag E.3. /2' begint de eigenlijke vraag voor dit segment (Cardon-casus, '/2' = puntenwaarde). De PDF toont onder de vraag ook het gold-modelantwoord (Neen, art. 12 Reglement van Plichtenleer KB 18.07.2017 — kennisgevingsplicht aan cliënteel bij schorsing van minstens één maand); deze gold-info hoort niet in het interpretatie-artefact en is weggelaten. Eén enkele open vraag met expliciete motiveringsinstructie ('Licht toe en geef … de toepasselijke wettelijke en/of reglementaire bepalingen') → motivatie_verwacht=true. Casus is in alinea's gestructureerd voor leesbaarheid (één voor de schorsing, één voor de cliënt-vraag). De pdfplumber-extract bevat een grammaticaal verhakkelde zin ('In deze periode wordt hij door Norbert DRUIVELAAR, een cliënt, draagt de in te boeken facturen over') — dit is een PDF-zetfout, niet een OCR-typo; de logische zin is herschreven naar 'In deze periode draagt Norbert DRUIVELAAR, een cliënt, de in te boeken facturen over aan de heer CARDON'. Programmaonderdeel 4.0 (Plichtenleer / tuchtrecht).",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
+}

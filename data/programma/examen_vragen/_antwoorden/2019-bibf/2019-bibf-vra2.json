@@ -1,0 +1,132 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vra2",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**28/03/N-1 — Verkoopfactuur 6.050,00 € incl. 21% btw**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 400000 | Handelsdebiteuren | 6.050,00 | |\n| aan | 451000 | Te betalen btw | | 1.050,00 |\n| aan | 700300 | Verkopen 21% btw | | 5.000,00 |\n\nMaatstaf van heffing = 6.050,00 / 1,21 = 5.000,00 € — btw = 5.000,00 × 21% = 1.050,00 €. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Standaard boekingsschema verkoopfactuur — MAR-rekeningen 400 (Handelsdebiteuren) / 451 (Te betalen btw) / 70 (Omzet). Boeking-cf. CBN-advies 2011/15 §*Boeking van de verkoopfactuur*. 📖",
+          "wetsref": "MAR (KB 12.09.1983, geconsolideerd onder KB WVV 29.04.2019) — rubrieken 400, 451, 70",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**31/12/N0 — Twee journaalposten: (a) overboeking naar dubieuze + (b) waardevermindering**\n\n*(a) Overboeking volledige vordering (incl. btw) naar dubieuze debiteuren:*\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 407000 | Dubieuze debiteuren | 6.050,00 | |\n| aan | 400000 | Handelsdebiteuren | | 6.050,00 |\n\n*(b) Waardevermindering 50% op de vordering **exclusief btw***:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 634000 | Waardeverminderingen op handelsvorderingen op ten hoogste één jaar | 2.500,00 | |\n| aan | 409000 | Geboekte waardeverminderingen | | 2.500,00 |\n\nBerekening waardevermindering: 6.050,00 / 1,21 = 5.000,00 € excl. btw × 50% = **2.500,00 €**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De waardevermindering wordt geboekt op de vordering **exclusief btw** — niet op het bruto-factuurbedrag. De btw blijft op dat ogenblik nog volledig opeisbaar bij de Schatkist; pas bij **definitieve oninbaarheid** (faling, attest curator) kan de btw worden gerecupereerd via 411400. Dit is de standaard CBN-leer: de waardevermindering dekt het *commerciële* verlies (excl. btw), niet de btw-component. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:46 KB WVV (waarderingsregels — vorderingen op vermoedelijke realisatiewaarde bij dubieus karakter). Boekingsschema cf. CBN-advies 2011/15 §*Overboeking naar dubieuze debiteuren* + §*Boeking van de waardevermindering*. 📖",
+          "wetsref": "Art. 3:46 KB WVV; CBN-advies 2011/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**01/09/N+1 — Faling klant (publicatie BS + attest curator) → vordering definitief uitboeken + btw-regularisatie**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 409000 | Geboekte waardeverminderingen | 2.500,00 | |\n| | 411400 | Terug te vorderen btw — regularisaties | 1.050,00 | |\n| | 642000 of 647000 | Minderwaarde op realisatie handelsvorderingen / Verlies op schuldvorderingen | 2.500,00 | |\n| aan | 407000 | Dubieuze debiteuren | | 6.050,00 |\n\nDe waardevermindering (409) wordt teruggenomen, de **btw (1.050,00 €) wordt gerecupereerd via 411400** dankzij het attest van de curator, en het resterende verlies excl. btw (5.000,00 − 2.500,00 = 2.500,00 €) komt definitief ten laste van het resultaat. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het **attest van de curator** is de bewijsstukvereiste voor btw-recuperatie bij faillissement — zonder dit attest mag 411400 niet worden gedebiteerd. De keuze tussen rekening **642** (minderwaarde op realisatie handelsvorderingen) en **647** (verlies op schuldvorderingen) is in de praktijk inwisselbaar; sommige scholen kiezen 642 omdat het verlies voortvloeit uit een *realisatie* (uitboeking), andere kiezen 647 als generieke verliesrekening. Beide worden in modelantwoorden aanvaard. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 77, §1, 7° WBTW**: de btw geheven op een levering wordt teruggegeven ten belope van het passende bedrag wanneer de schuldvordering op de prijs geheel of gedeeltelijk verloren is gegaan — in geval van **faillissement** vanaf het vonnis van faillietverklaring (resp. attest curator dat de vordering oninbaar is). Boekingsschema cf. CBN-advies 2011/15. 📖",
+          "wetsref": "Art. 77, §1, 7° WBTW; CBN-advies 2011/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**12/12/N+1 — Klant betaalt 60% tot slot van alle rekeningen (geen faling)**\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 550000 | Bank | 3.630,00 | |\n| | 409000 | Geboekte waardeverminderingen | 2.500,00 | |\n| | 411400 | Terug te vorderen btw — regularisaties | 420,00 | |\n| aan | 407000 | Dubieuze debiteuren | | 6.050,00 |\n| aan | 742000 | Meerwaarden op de realisatie van handelsvorderingen | | 500,00 |\n\n**Berekeningen** 🔗:\n- Ontvangst bank = 6.050,00 × 60% = **3.630,00 €**\n- Definitief verlies = 40% × 5.000,00 excl. btw = 2.000,00 € → btw-regularisatie op dit verlies-deel = 2.000,00 × 21% = **420,00 €**\n- Terugneming waardevermindering (409) = volledige 2.500,00 € (boekje wordt afgesloten)\n- Werkelijk verlies excl. btw (2.000,00 €) < geraamde waardevermindering (2.500,00 €) → het verschil van **500,00 €** is een terugneming-meerwaarde, geboekt op 742 (Meerwaarden op realisatie handelsvorderingen). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De btw-regularisatie (411400) bedraagt hier **420,00 €** — niet 1.050,00 € en niet 0 €. Reden: alleen voor het **definitief oninbaar deel (40%)** mag btw teruggevraagd worden; voor het ontvangen deel (60%) blijft de btw verschuldigd aan de Schatkist (al was die bij de initiële verkoopfactuur al doorgestort). De \"tot slot van alle rekeningen\"-afspraak (= akkoord met de klant dat het saldo niet meer wordt opgevorderd) maakt de resterende 40% **zeker en vaststaand verloren** — bewijsstuk voor zowel btw-recuperatie als fiscale aftrek van het verlies. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 77, §1, 7° WBTW** voor btw-regularisatie op het oninbaar verklaarde deel (\"tot slot van alle rekeningen\" = bewijs van zekere verlies). **Art. 3:46 KB WVV**: bij positieve afwikkeling t.o.v. geraamde waardevermindering wordt het verschil als terugneming geboekt — onder MAR-rekening 742 (Meerwaarden op realisatie handelsvorderingen) of via 6341 (Terugneming waardeverminderingen). 📖",
+          "wetsref": "Art. 77, §1, 7° WBTW; Art. 3:46 KB WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

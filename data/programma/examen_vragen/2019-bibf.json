@@ -1,0 +1,283 @@
+{
+  "examen_id": "2019-bibf",
+  "schema_versie": "manueel-1",
+  "jaar": 2019,
+  "sessie": 1,
+  "bron_pdf": "2019-bibf.pdf",
+  "totaal_punten": 100,
+  "vragen": [
+    {
+      "vraag_id": "2019-bibf-vra1",
+      "vraag_prefix": "Vraag A.1",
+      "vraag_label": "A.1",
+      "punten": 5.0,
+      "pdf_pagina": 5,
+      "pdf_pagina_eind": 7,
+      "vraagtekst": "I. DEELDOMEIN BOEKHOUDING ……./40\nAlle journaalposten moeten een datum en een omschrijving bevatten. De\nrekeningen moeten, indien mogelijk, minstens uit 3 cijfers bestaan.\nA. ALGEMENE BOEKHOUDING ……/15\nVraag A. 1. ……/5\nGegevens\nOp 01/07/2018 verkoopt de BVBA TUTTI (waarvan het boekjaar overeenkomt met het\nkalenderjaar) een machine voor de prijs van 5.000,00 € (excl. BTW). De machine was\nverworven op 01.01.2014 voor de prijs van 30.000,00 €.\nDe afschrijvingen zijn lineair, aan 20% en worden maandelijks toegepast. Deze machines\nworden regelmatig vervangen.\nVragen\n1. Geef de boekhoudkundige verwerking van de in 2018 toegepaste afschrijvingen.\nAntwoord - 1 punt\n2309 Afschrijvingen op machines 3.000,00\n@ 6302 Afschrijvingen op materiële vaste 3.000,00\nactiva\n2. Geef de boekhoudkundige verwerking van de overdracht van de oude machine\nAntwoord - 1,5 punt\n400 Klanten 6.050,00\n2309 Afschrijvingen op machines 24.000,00\n641 Minderwaarden op courante\nrealisatie van vaste activa 1.000,00\n@ 230 Machi",
+      "vraag_tekst_hint": "BVBA TUTTI — overdracht machine + afschrijvingen + beslissingsbevoegdheid + balans-bijlagen"
+    },
+    {
+      "vraag_id": "2019-bibf-vra2",
+      "vraag_prefix": "Vraag A.2",
+      "vraag_label": "A.2",
+      "punten": 5.0,
+      "pdf_pagina": 8,
+      "pdf_pagina_eind": 9,
+      "vraagtekst": "Vraag A. 2. ……/5\nGegevens\nOp datum van 28/03/N-1 heeft de vennootschap “De Dijk” een verkoopfactuur opgesteld\nvoor een bedrag van 6.050,00 € (BTW inbegrepen, btw -tarief is 21%).\nBij het opstellen van de balans per 31/12/N0 blijkt dat deze klant insolvabel is, het verlies\nwordt op 50% geraamd.\nVragen\n1. Geef de boeking op 28/03/N-1\nAntwoord – 0,5 punt\n28/03/N-1\n400000 Handelsdebiteuren 6.050,00\n451000 @ Te betalen btw 1.050,00\n700300 @ Verkopen 21% btw 5.000,00\n2. Geef de journaalposten op 31/12/N0\nAntwoord – 1,5 punt\n31/12/N0\n407000 Dubieuze debiteuren 6.050,00\n400000 @ Handelsdebiteuren 6.050,00\n31/12/N0\n634000 Waardeverminderingen op 2.500,00\nhandelsvorderingen op ten hoogste één\njaar\n409000 @ Geboekte waardeverminderingen 2.500,00\n(cid:2) Berekening: € 6.050,00 / 1,21 = € 5.000,00 exclusie f btw x 50% = € 2.500,00\nNAAM :\np. 7\nVOORNAAM :\nBIBF-NUMMER : 04 mei 2019\n\n3. De klant gaat in faling op 01/09/N+1. De publicatie is verschenen in het Belgisch\nStaatsblad. De vennootschap ontvang",
+      "vraag_tekst_hint": "De Dijk — dubieuze klant, waardeverminderingen, faling/recuperatie"
+    },
+    {
+      "vraag_id": "2019-bibf-vra3",
+      "vraag_prefix": "Vraag A.3",
+      "vraag_label": "A.3",
+      "punten": 5.0,
+      "pdf_pagina": 10,
+      "pdf_pagina_eind": 11,
+      "vraagtekst": "Vraag A.3. /5\nGegevens\nBVBA HAUTEKIET (kleine vennootschap) heeft volgende situatie:\nMaatschappelijk en volgestort kapitaal 20.000,00 €\nWettelijke reserve 250,00 €\nOvergedragen winst van het voorbije boekjaar 4.750,00 €\nIn de loop van het jaar N. werd in totaal voor 5.000,00 € aan voorafbetalingen gedaan. Het\njaar N was echter rampzalig en het resultaat vóór belastingen bedraagt -12.000,00 €. Er wordt\nnochtans geschat dat de totale belasting voor het jaar N 520,00 €zal zijn (door een VAA auto).\nDe toewijzing van het resultaat is als volgt :\n- Wettelijke minimale verplichtingen ;\n- De vennoten nemen samen 5.000,00 € aan verliezen t en laste;\n- Overdracht van het saldo.\nVragen\n1. Geef de boekhoudkundige verwerking van de regularisatie van de belastingen op het\nresultaat van het boekjaar.\nAntwoord - 1 punt\n412 Terug te vorderen belastingen en 4.480 ,00\nvoorheffingen\n@ 6701 Geactiveerde overschotten van betaalde\nbelastingen en voorheffingen 4.480,00\n2. Geef de boekhoudkundige verwerking va",
+      "vraag_tekst_hint": "BVBA HAUTEKIET — regularisatie belastingen + resultaatverwerking + VOL 4"
+    },
+    {
+      "vraag_id": "2019-bibf-vrb1",
+      "vraag_prefix": "Vraag B.1",
+      "vraag_label": "B.1",
+      "punten": 6.0,
+      "pdf_pagina": 12,
+      "pdf_pagina_eind": 13,
+      "vraagtekst": "B. WETGEVING OP DE BOEKHOUDING EN DE JAARREKENING VAN ……/15\nDE ONDERNEMING + OPSTELLEN, ANALYSE EN KRITISCHE\nBEOORDELING VAN DE JAARREKENING\nVraag B. 1. ……/6\nGegevens\nDe BVBA “Happy Socks”, kleine vennootschap (art. 15 §1), maakt de jaarrekening (boekjaar =\nkalenderjaar) op om voor te leggen aan de leden van de Algemene Vergadering. Bij het opstellen\nvan haar jaarrekening wijst niets erop dat er een feitelijke toestand ontstaat waaruit kan worden\nafgeleid dat de onderneming discontinu zal worden.\nVragen\n1. Volgens welk principe worden de activa en passiva gewaardeerd in de jaarrekening ?\nAntwoord - 1 punt\nArt. 28 § 1, derde lid KB/W.Ven. Opstellen van de jaarrekening in het perspectief\nvan: « going concern » of continuïteit.\n2. Happy Socks wil een dividend uitkeren: hoe wordt het maximaal uitkeerbaar bedrag\nbepaald? Geef de toepasselijke wettelijke bepaling.\nAntwoord - 1 punt\nMaximaal uitkeerbaar bedrag: Verschil tussen het gecorrigeerd netto activa –\nonbeschikbaar eigen vermogen\nArt. ",
+      "vraag_tekst_hint": "BVBA Happy Socks — waarderingsregels, dividend, discontinuïteit, toelichting"
+    },
+    {
+      "vraag_id": "2019-bibf-vrb2",
+      "vraag_prefix": "Vraag B.2",
+      "vraag_label": "B.2",
+      "punten": 4.0,
+      "pdf_pagina": 14,
+      "pdf_pagina_eind": 15,
+      "vraagtekst": "Vraag B.2. /4\nGegevens\n1. Op 01 december van het jaar N factureert de BVBA « BLAASTIEK » vooraf de huur voor het eerste\nkwartaal van het jaar N+1 en dit voor een bedrag van 1.500,00 € en tevens de huurwaarborg van\n500,00 €(men moet geen rekening houden met de BTW) .\nVraag\nOp welke rekeningen zullen de verschillende elementen van deze factuur van BVBA\n« BLAASTIEK » zich bevinden bij het afsluiten van het boekjaar N?\nAntwoord - 2 punten\nWelke stelling is correct ? Omcirkel de letter van uw keuze\nA : credit van de rekening 7003 voor 500,00 €\ncredit van de rekening 493 voor 1.000,00 €\ncredit van de rekening 489 voor 500,00 €\nB : credit van de rekening 7003 voor 1.500,00 €\ncredit van de rekening 7463 pour 500,00 €\nC : credit van de rekening 493 voor 1.500,00 €\ncredit van de rekening 178 borgtochten ontvangen in contanten voor 500,00 €\nD : credit van de rekening 491 voor 1.500,00 €\ncredit van de rekening 489 voor 500,00 €\nE : credit van de rekening 7003 voor 500,00 €\ncredit van de rekening 4",
+      "vraag_tekst_hint": "BVBA BLAASTIEK/LUCHTOP/renting — MC-vragen vooruitgefactureerde huur, leasing, waarborg"
+    },
+    {
+      "vraag_id": "2019-bibf-vrb3",
+      "vraag_prefix": "Vraag B.3",
+      "vraag_label": "B.3",
+      "punten": 5.0,
+      "pdf_pagina": 16,
+      "pdf_pagina_eind": 16,
+      "vraagtekst": "Vraag B.3. /5\nGeef aan welke stelling juist of fout is. – 0,5 punt per juist antwoord\nJUIST FOUT\n1. De “materiële vaste activa” op de balans geven niet altijd een\ngoede weergave van de echte waarde of marktwaarde van die\nactiva x\n2. Wanneer de waarde van deze vaste activa “op vaststaande en\nduurzame wijze” boven hun boekwaarde uitstijgt, moet de\nx\nonderneming deze activa herwaarderen.\n3. Op het actief van de balans verhoogt de vaste activa met de\nherwaarderingsmeerwaarde en op het passief wordt hetzelfde\nx\nbedrag geboekt bij de winst.\n4. Door een herwaarderingsmeerwaarde te boeken verhoogt\nautomatisch het eigen vermogen van die vennootschap.\nx\n5. Een herwaarderingsmeerwaarde volgens artikel 57 KB W.Venn.\nkan ook worden geboekt voor financiële vaste activa alsook voor\nx\nimmateriële vaste activa.\n6. Gedurende hetzelfde boekjaar en om een bedrijfsverlies weg te\nwerken kan men binnen eenzelfde periode een\nherwaarderingsmeerwaarde eerst omzetten in kapitaal en nadien x\nhet kapitaal verminde",
+      "vraag_tekst_hint": "10 juist/fout-stellingen herwaarderingsmeerwaarde"
+    },
+    {
+      "vraag_id": "2019-bibf-vrc1",
+      "vraag_prefix": "Vraag C.1",
+      "vraag_label": "C.1",
+      "punten": 5.0,
+      "pdf_pagina": 17,
+      "pdf_pagina_eind": 17,
+      "vraagtekst": "C. ALGEMENE BEGINSELEN VAN HET FINANCIEEL BEHEER ……/5\nVraag C.1 ……/5\nVragen\n1. Wat betekent Netto kas ?\nAntwoord - 2 punten\n= geldbeleggingen + liquide middelen – financiële schulden < 1 jaar\nOf anders uitgedrukt netto bedrijfskapitaal – netto bedrijfskapitaalbehoefte\nTer info : rekeningen (50/53) + (54/58) – (43)\n2. Wat is een nulcouponobligatie ? Hoeveel krijgt de obligatiehouder na 5 jaar op een\nnulcouponobligatie van 10.000,00 € indien de inflat ie 2 % per jaar bedraagt ?\nAntwoord - 1 punt\nHet betreft een obligatie waarbij de obligatiehouder geen intrestbetalingen krijgt\ngedurende de looptijd van de lening. De enige betaling die hij krijgt is de\nnominale waarde van de obligatie op het einde van de looptijd dus 10.000,00 €.\n3. Welke stelling(en) is/zijn juist ? Omcirkel de letter(-s) van uw keuze.\nAntwoord – 2 punten\na. Wettelijke Reserves (130) behoren tot het permanent vermogen\nb. Voorzieningen vormen geen onderdeel van het permanent vermogen\nc. De behoefte aan werkkapitaal stijgt",
+      "vraag_tekst_hint": "Netto kas, nulcouponobligatie, permanent vermogen / werkkapitaal MC"
+    },
+    {
+      "vraag_id": "2019-bibf-vrd1",
+      "vraag_prefix": "Vraag D.1",
+      "vraag_label": "D.1",
+      "punten": 1.0,
+      "pdf_pagina": 18,
+      "pdf_pagina_eind": 18,
+      "vraagtekst": "D. ORGANISATIE VAN DE BOEKHOUDING EN DE ADMINISTRATIEVE\n……/5\nDIENSTEN VAN DE ONDERNEMING.\nVraag D.1. ……/1\nDuidt aan of volgende stellingen juist of fout zijn :\nAntwoord - 0,25 punt per goed antwoord\nJUIST FOUT\nJe kan volledig gratis de vestigingseenheid van je klant\nX\nconsulteren bij KBO Public Search.\nHet domicilieadres van een natuurlijk persoon ondernemer\nX\nstaat nooit in de KBO vermeld.\nEen boekhouder kan zonder probleem voor al zijn klanten het\nX\nadres van de vestigingseenheid wijzigen.\nDe wijziging en/of toevoeging van een economische activiteit\nX\nkan enkel via een ondernemingsloket gebeuren.\nOpmerking voor 2: natuurlijk persoon = Fout aanvaarden indien domicilieadres\nsamenvalt met vestigingsadres\nVraag D.2. ……/1,5\nGeef drie gevolgen op fiscaal, juridisch en/of administratief vlak van het foutief of niet\nvermelden van een economische activiteit in de KBO\nAntwoord - 0,50 punt per goed antwoord\n- De fiscus kan de kosten verwerpen die betrekking hebben op de activiteit die\nniet is v",
+      "vraag_tekst_hint": "KBO juist/fout (Public Search, domicilie, wijziging, ondernemingsloket)"
+    },
+    {
+      "vraag_id": "2019-bibf-vrd2",
+      "vraag_prefix": "Vraag D.2",
+      "vraag_label": "D.2",
+      "punten": 1.5,
+      "pdf_pagina": 18,
+      "pdf_pagina_eind": 18,
+      "vraagtekst": "D. ORGANISATIE VAN DE BOEKHOUDING EN DE ADMINISTRATIEVE\n……/5\nDIENSTEN VAN DE ONDERNEMING.\nVraag D.1. ……/1\nDuidt aan of volgende stellingen juist of fout zijn :\nAntwoord - 0,25 punt per goed antwoord\nJUIST FOUT\nJe kan volledig gratis de vestigingseenheid van je klant\nX\nconsulteren bij KBO Public Search.\nHet domicilieadres van een natuurlijk persoon ondernemer\nX\nstaat nooit in de KBO vermeld.\nEen boekhouder kan zonder probleem voor al zijn klanten het\nX\nadres van de vestigingseenheid wijzigen.\nDe wijziging en/of toevoeging van een economische activiteit\nX\nkan enkel via een ondernemingsloket gebeuren.\nOpmerking voor 2: natuurlijk persoon = Fout aanvaarden indien domicilieadres\nsamenvalt met vestigingsadres\nVraag D.2. ……/1,5\nGeef drie gevolgen op fiscaal, juridisch en/of administratief vlak van het foutief of niet\nvermelden van een economische activiteit in de KBO\nAntwoord - 0,50 punt per goed antwoord\n- De fiscus kan de kosten verwerpen die betrekking hebben op de activiteit die\nniet is v",
+      "vraag_tekst_hint": "Gevolgen niet-vermelden economische activiteit in KBO"
+    },
+    {
+      "vraag_id": "2019-bibf-vrd3",
+      "vraag_prefix": "Vraag D.3",
+      "vraag_label": "D.3",
+      "punten": 2.5,
+      "pdf_pagina": 19,
+      "pdf_pagina_eind": 19,
+      "vraagtekst": "Vraag D.3. ……/2,5\nGegevens\nEen cliënt wil een handelsfonds overnemen.\nVragen\n1. Welke documenten moet hij in zijn bezit hebben om er zich van te verzekeren dat hij geen\nschulden met betrekking tot dat handelsfonds zal moeten dragen ?\nAntwoord - 1,25 punt\nHij moet zich er bij het hypotheekbureau van verzekeren dat er geen pand rust op dat\nhandelsfonds.\nHij moet van de volgende administraties een attest hebben dat er geen schulden meer\nzijn : BTW, Belastingen, RSZ, RSVZ.\n2. Wat kunnen de gevolgen zijn van het ontbreken van die documenten ?\nAntwoord - 1,25 punt\nDe overnemer is solidair aansprakelijk (zij het beperkt tot de overnameprijs) voor de\nfiscale en/of sociale schulden van de overlater.\nNAAM :\np. 18\nVOORNAAM :\nBIBF-NUMMER : 04 mei 2019\n",
+      "vraag_tekst_hint": "Handelsfonds-overname — vereiste documenten + gevolgen"
+    },
+    {
+      "vraag_id": "2019-bibf-vre1",
+      "vraag_prefix": "Vraag E.1",
+      "vraag_label": "E.1",
+      "punten": 3.0,
+      "pdf_pagina": 20,
+      "pdf_pagina_eind": 20,
+      "vraagtekst": "II. PLICHTENLEER /10\nE. PLICHTENLEER ……/10\nGeef steeds een korte toelichting bij uw antwoord en bevestig dit door de\nvermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen\ndie van toepassing zijn.\nVraag E.1. /3\nVraag\nWelke van de onderstaande activiteiten kunnen de externe boekhouders-fiscalisten verrichten\nvolgens het Reglement van Plichtenleer?\nKruis het/de juiste antwoord(-en) aan.\nAntwoord\n□\nSyndicus van gebouwen;\n□\nVerzekeringsmakelaar ;\n□\nBegeleiding van ondernemingen in verkrijgen van publieke steunmatregelen;\n□\nVastgoedmakelaar ;\n□\nErkend bemiddelaar ;\n□\nBankactiviteiten ;\n□\nBegeleiding van ondernemingen in sociale materies ;\n□\nOpstellen van een financieel plan ;\n□\nVereffenaar van een vennootschap.\nVraag E.2. /2\nGegevens\nMevrouw Annelies DE GRONDELAAR, extern stagiair boekhouder-fiscalist verbreekt haar\nstageovereenkomst met Christophe VIXIX, erkend boekhouder-fiscalist bij het door het BIBF\nerkende boekhoudkantoor FISCOXIX. Mevrouw De Grondelaar wer",
+      "vraag_tekst_hint": "Welke activiteiten mag externe boekhouder-fiscalist BIBF verrichten?"
+    },
+    {
+      "vraag_id": "2019-bibf-vre2",
+      "vraag_prefix": "Vraag E.2",
+      "vraag_label": "E.2",
+      "punten": 2.0,
+      "pdf_pagina": 20,
+      "pdf_pagina_eind": 21,
+      "vraagtekst": "II. PLICHTENLEER /10\nE. PLICHTENLEER ……/10\nGeef steeds een korte toelichting bij uw antwoord en bevestig dit door de\nvermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen\ndie van toepassing zijn.\nVraag E.1. /3\nVraag\nWelke van de onderstaande activiteiten kunnen de externe boekhouders-fiscalisten verrichten\nvolgens het Reglement van Plichtenleer?\nKruis het/de juiste antwoord(-en) aan.\nAntwoord\n□\nSyndicus van gebouwen;\n□\nVerzekeringsmakelaar ;\n□\nBegeleiding van ondernemingen in verkrijgen van publieke steunmatregelen;\n□\nVastgoedmakelaar ;\n□\nErkend bemiddelaar ;\n□\nBankactiviteiten ;\n□\nBegeleiding van ondernemingen in sociale materies ;\n□\nOpstellen van een financieel plan ;\n□\nVereffenaar van een vennootschap.\nVraag E.2. /2\nGegevens\nMevrouw Annelies DE GRONDELAAR, extern stagiair boekhouder-fiscalist verbreekt haar\nstageovereenkomst met Christophe VIXIX, erkend boekhouder-fiscalist bij het door het BIBF\nerkende boekhoudkantoor FISCOXIX. Mevrouw De Grondelaar wer",
+      "vraag_tekst_hint": "Stagiair-overname clientèle na verbreking stage"
+    },
+    {
+      "vraag_id": "2019-bibf-vre3",
+      "vraag_prefix": "Vraag E.3",
+      "vraag_label": "E.3",
+      "punten": 2.0,
+      "pdf_pagina": 21,
+      "pdf_pagina_eind": 21,
+      "vraagtekst": "Twee maanden na haar vertrek, en op basis van de contacten die zij via de mailing gelegd\nheeft, schrijft zij een brief naar Christophe VIXIX om hem in kennis te stellen van de overname\nvan het dossier van drie van zijn cliënten.\nVraag\nMag mevrouw Annelies DE GRONDELAAR, op dergelijke wijze te werk gaan ?\nLicht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.\nAntwoord\nNeen, zij mag dit niet. Artikel 6,§1,2° van het stagereglement (KB 10 april 2015) bepaalt\ndat de stagiair en de stagemeester gaan de verbintenis aan om gedurende de stage en\ntwee jaar na het beëindigen van de stageovereenkomst geen dossiers over te nemen\nvan hun respectief cliënteel zonder voorafgaande schriftelijke toestemming van de\nandere partij die bij de stageovereenkomst betrokken was.\nVraag E.3. /2\nGegevens\nDe heer Robert CARDON, erkend extern boekhouder-fiscalist BIBF werd tuchtrechtelijk\ngestraft voor het niet volgen van permanente vorming. De uitvoerende kamer heeft hem\ngesch",
+      "vraag_tekst_hint": "Geschorste boekhouder — mag hij client toch behandelen?"
+    },
+    {
+      "vraag_id": "2019-bibf-vre4",
+      "vraag_prefix": "Vraag E.4",
+      "vraag_label": "E.4",
+      "punten": 2.0,
+      "pdf_pagina": 22,
+      "pdf_pagina_eind": 22,
+      "vraagtekst": "Vraag E.4. /2\nDe heer Cyriel OPKOPER, erkend extern boekhouder BIBF werkt samen met mevrouw Shirley\nVIVENDI, extern boekhouder-fiscalist BIBF.\nVragen\n1. Welke instantie moet geïnformeerd worden over dit samenwerkingsverband ??\nAntwoord\nDe Kamer\n2. Op welke wijze ?\nAntwoord\nPer brief of per e-mail\n3. Binnen welke termijn ?\nAntwoord\nTen laatste één maand na het sluiten van het samenwerkingsverband\n4. Geeft de wettelijke of reglementaire bron\nAntwoord\nArt 10 Reglement van Plichtenleer (KB 18.07.2017)\nNAAM :\np. 21\nVOORNAAM :\nBIBF-NUMMER : 04 mei 2019\n",
+      "vraag_tekst_hint": "Samenwerkingsverband twee boekhouders — informatieplicht Kamer"
+    },
+    {
+      "vraag_id": "2019-bibf-vre5",
+      "vraag_prefix": "Vraag E.5",
+      "vraag_label": "E.5",
+      "punten": 1.0,
+      "pdf_pagina": 23,
+      "pdf_pagina_eind": 23,
+      "vraagtekst": "Vraag E.5. /1\nGegevens\nMevrouw Barbara KNOOPS met een volmacht in de hand, contacteert het boekhoudkantoor\nFISCALIX, erkend door het BIBF, voor de overname van een dossier. De zaakvoerder van het\nboekhoudkantoor stelt vast dat mevrouw KNOOPS niet is ingeschreven bij het BIBF, IAB of\nIBR.\nVraag\nWat kan de zaakvoerder vanuit deontologisch oogpunt, doen in het kader van de overdracht\nvan het dossier in kwestie ?\nLicht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.\nAntwoord\nArtikel 17 van het Reglement van Plichtenleer (KB 18.07.2017) bepaalt dat een externe\nerkende boekhouder BIBF aan wie gevraagd wordt om het boekhouddossier van een\ncliënt over te dragen aan een persoon die niet gerechtigd is de gereglementeerde\nberoepsactiviteiten van een erkend boekhouder uit te oefenen, moet tevens het\nberoepsinstituut schriftelijk informeren van de identiteit van deze persoon alvorens\nelke overdracht van het dossier aan de cliënt.\nNAAM :\np. 22\nVOORNAAM :\nBIBF-N",
+      "vraag_tekst_hint": "Dossier-overname door niet-erkende — informatieplicht BIBF"
+    },
+    {
+      "vraag_id": "2019-bibf-vrf1",
+      "vraag_prefix": "Vraag F.1",
+      "vraag_label": "F.1",
+      "punten": 6.0,
+      "pdf_pagina": 27,
+      "pdf_pagina_eind": 29,
+      "vraagtekst": "III. DEELDOMEIN FISCALITEIT\n……./35\n(inclusief beginselen van registratie- en successierechten )\nF. BTW ……/10\nTenzij anders aangegeven zijn de vermelde bedragen steeds exclusief BTW\nVraag F. 1. ……/6\nGegevens\n1. Een detailhandelaar in huishoud- en audiovisuele toestellen (D) stopt zijn commerciële\nactiviteiten en verkoopt in 2019 zijn handelszaak aan zijn zoon en dit voor 320.000,00 .€\nHij behoudt voor persoonlijk gebruik een nieuwe televisie die werd aangekocht voor 950,00\n€ en te koop was voor 1.200,00 .€\nVragen\na. Geef aan in welke roosters van de laatste BTW-aangifte van (D) en welke bedragen er\nmoeten worden opgenomen:\nAntwoord – 1 punt\nRoosters Bedragen\n00 320.000,00\n03 950,00\n54 199,50\nInfo :\n00 : Overdracht algemeenheid van goederen\n03 : Basis voor de heffing – aankooprijs televisie\n54 : Verschuldigde BTW : : 950,00 x 21% = 199,50\nb. Geef de op deze verrichtingen toepasselijke bepalingen uit het BTW-wetboek :\nAntwoord – 1 punt\nOverdracht handelsfonds : Art. 11 & 18, § 3\nBehouden ",
+      "vraag_tekst_hint": "Overdracht handelsfonds + intracomm. fiscale lichte vrachtwagens + overstap forfait"
+    },
+    {
+      "vraag_id": "2019-bibf-vrf2",
+      "vraag_prefix": "Vraag F.2",
+      "vraag_label": "F.2",
+      "punten": 4.0,
+      "pdf_pagina": 30,
+      "pdf_pagina_eind": 33,
+      "vraagtekst": "Vraag F.2. ……/4\nGegevens\nEen BTW-belastingplichtige, natuurlijk persoon, heeft als economische activiteit de fabricatie\nvan onderdelen voor medische apparatuur. Gezien hij in de beginfase nog niet gekend was\nin deze “marktniche”, realiseerde hij slechts een kleine omzet, zodat hij onderworpen was\naan de “vrijstellingsregeling” waarin artikel 56bis voorziet.\nSedert einde 2018 is daar verandering in gekomen, in die zin dat hij zeer belangrijke orders\nheeft ontvangen voor kalenderjaar 2019, waardoor hij vanaf 2019, volgens raming, een grote\nomzet (+/- 3 miljoen euro) zal realiseren.\nOm die reden zal hij vanaf 1 januari 2019 spontaan overgaan naar de normale BTW-\nregeling, met indiening van maandaangiften.\nInvesteringen aangekocht in 2017\n1. Aankoop van een personenwagen. Het beroepsgebruik van deze personenwagen zal\nin 2019, 40 % bedragen (berekend volgens methode 2, voorzien in artikel 45, § 1\nquinquies, WBTW).\nAankoopprijs (excl.BTW): 50.000,00 €\n2. Aankoop van “fiscale lichte vrachtwag",
+      "vraag_tekst_hint": "Wijziging vrijstellingsregeling naar normaal regime — BTW-herziening + BTW-aangifte template"
+    },
+    {
+      "vraag_id": "2019-bibf-vrg1",
+      "vraag_prefix": "Vraag G.1",
+      "vraag_label": "G.1",
+      "punten": 4.0,
+      "pdf_pagina": 34,
+      "pdf_pagina_eind": 34,
+      "vraagtekst": "G. PERSONENBELASTING ……/10\nVraag G.1. ……/4\nGegevens\nDe heer PEETERS, gepensioneerd, kocht op 08/03/2015 een perceel grond aan (KI: 80,00\n€) voor de prijs van 140.000,00 .€ De aankoopkoste n bedragen 20.500,00 €. Bij akte van\n09/11/2018 verkocht hij het terrein opnieuw, voor de prijs van 230.000,00 €, exclusief\n6.050,00 € aan verkoopkosten (incl. 21% btw) die hi j betaalde aan de vastgoedmakelaar\nbelast met de verkoop.\nVragen\n1. Welke inkomsten dient de Heer PEETERS ingevolge de verkoop van het perceel aan te\ngeven?\nAntwoord – 3 punten\nDe Heer PEETERS dient een meerwaarde aan te geven als divers inkomen, aangezien\nhet perceel binnen de 8 jaar na de verkrijging onder bezwarende titel werd verkocht.\nDe meerwaarde wordt als volgt berekend :\nVerkoopprijs : 230.000,00\nVerkoopkosten : - 6.050,00\nNetto verkoopprijs : 223.950,00\nAankoopprijs : 140.000,00\nKosten : + 35.000,00 (25%, of 35.000,00 , groter dan werkelijke\nkosten 20.500)\nTotale aankoopprijs : 175.000,00\nVerhogen met inflatiecorrectie",
+      "vraag_tekst_hint": "Peeters — meerwaarde verkoop perceel grond (binnen 5 jaar)"
+    },
+    {
+      "vraag_id": "2019-bibf-vrg2",
+      "vraag_prefix": "Vraag G.2",
+      "vraag_label": "G.2",
+      "punten": 2.0,
+      "pdf_pagina": 35,
+      "pdf_pagina_eind": 35,
+      "vraagtekst": "Vraag G.2. ……/2\nDuidt aan of de volgende stellingen juist of fout zijn :\nJUIST FOUT\nDe inkomsten van auteursrechten dienen in\nde personenbelasting altijd te worden X\naangegeven.\nDe winst op de verkoop van een gebouwd\nonroerend goed kan in geen geval in\nX\naanmerking komen voor een belastingheffing\naan 33%.\n1 punt per juist antwoord\nVraag G.3. ……/4\nGegevens\nDe heer Durant is een onafhankelijk verzekeraar en wenst aan een aantal goede cliënten een\ngeschenk te geven. Hij overweegt een fles wijn met een waarde van 25,00 € (BTW\ninbegrepen) te geven en een kist met zes flessen van dezelfde wijn (waarde :150,00 € BTW\ninbegrepen) aan zijn beste cliënten. De verzekeraar wenst de aankoopkosten van deze\ngeschenken af te trekken en vraagt om uw advies.\nVragen\n1) Is de fles wijn fiscaal aftrekbaar als beroepskost voor de verzekeraar ? Zo ja, in welke\nmate ?\nDient hij, om te genieten van een eventuele aftrek, een document op te maken ?\nLicht toe.\nAntwoord - 1 punt\nDe fles wijn zal aftrekbaar zijn als",
+      "vraag_tekst_hint": "Juist/fout — auteursrechten + meerwaarde gebouw 33%"
+    },
+    {
+      "vraag_id": "2019-bibf-vrg3",
+      "vraag_prefix": "Vraag G.3",
+      "vraag_label": "G.3",
+      "punten": 4.0,
+      "pdf_pagina": 35,
+      "pdf_pagina_eind": 36,
+      "vraagtekst": "Vraag G.2. ……/2\nDuidt aan of de volgende stellingen juist of fout zijn :\nJUIST FOUT\nDe inkomsten van auteursrechten dienen in\nde personenbelasting altijd te worden X\naangegeven.\nDe winst op de verkoop van een gebouwd\nonroerend goed kan in geen geval in\nX\naanmerking komen voor een belastingheffing\naan 33%.\n1 punt per juist antwoord\nVraag G.3. ……/4\nGegevens\nDe heer Durant is een onafhankelijk verzekeraar en wenst aan een aantal goede cliënten een\ngeschenk te geven. Hij overweegt een fles wijn met een waarde van 25,00 € (BTW\ninbegrepen) te geven en een kist met zes flessen van dezelfde wijn (waarde :150,00 € BTW\ninbegrepen) aan zijn beste cliënten. De verzekeraar wenst de aankoopkosten van deze\ngeschenken af te trekken en vraagt om uw advies.\nVragen\n1) Is de fles wijn fiscaal aftrekbaar als beroepskost voor de verzekeraar ? Zo ja, in welke\nmate ?\nDient hij, om te genieten van een eventuele aftrek, een document op te maken ?\nLicht toe.\nAntwoord - 1 punt\nDe fles wijn zal aftrekbaar zijn als",
+      "vraag_tekst_hint": "Durant — fles wijn vs kist 6 flessen — fiscale aftrek + fiche 281.50"
+    },
+    {
+      "vraag_id": "2019-bibf-vrh1",
+      "vraag_prefix": "Vraag H.1",
+      "vraag_label": "H.1",
+      "punten": 5.0,
+      "pdf_pagina": 37,
+      "pdf_pagina_eind": 39,
+      "vraagtekst": "H. VENNOOTSCHAPSBELASTING ……/10\nVraag H.1. ……/5\n1. Duid voor elke situatie aan of er al dan niet verworpen uitgaven (V.U.) zijn met JA of\nNEEN.\n2. Indien JA dan dient u het bedrag van de V.U. alsook de toepasselijke code te vermelden.\n0,5 punt per correct antwoord\nV.U.\nBedrag V.U. Code\nJA NEEN\n1. De vennootschap heeft in de loop\nvan het jaar een bedrag van\n15.000,00 € aan voorafbetalingen\ngeboekt. De vennootschap heeft X 20.000,00 € 1201\nde totaal verwachtte belasting\ngeschat op 20.000,00 €.\n2. De BTW-administratie heeft aan de\nvennootschap een proportionele\ngeldboete van 300,00 € opgelegd\nX\nwegens laattijdige betaling van de\nBTW.\n3. De BTW-administratie heeft aan de\nvennootschap een niet-\nproportionele geldboete van\nX 500,00 € 1203\n500,00 € opgelegd wegens\nlaattijdige aangifte indiening van de\nperiodieke aangiftes.\n4. Kosten, ten bedrage van 400,00,€\nbetreffende dranken (water,\nkoffie,….) die tijdens de werkuren\nX\ngratis verdeeld worden aan het\npersoneel.\n5. Kosten, ten bedrage van 70",
+      "vraag_tekst_hint": "10 stellingen — Verworpen Uitgaven (codes 1201-1240)"
+    },
+    {
+      "vraag_id": "2019-bibf-vrh2",
+      "vraag_prefix": "Vraag H.2",
+      "vraag_label": "H.2",
+      "punten": 5.0,
+      "pdf_pagina": 40,
+      "pdf_pagina_eind": 41,
+      "vraagtekst": "Vraag H.2. ……/5\nGegevens\nDe heer Klepkens, zaakvoerder van de BVBA BEDIENUZELF heeft in 2017 via zijn bedrijf\neen aantal uitgaven gedaan en betaald waarvan niet werd bewezen dat deze beroepsmatig\nwaren. Bij het afsluiten van de rekeningen over 2017 wijst zijn boekhouder op het feit dat hij\ndeze uitgaven zal herkwalificeren als persoonlijke uitgaven. De heer Klepkens, wil zijn\nvennootschap terugbetalen maar zal dit niet kunnen doen voor de maand juni 2018.\n1. Kan de heer Klepkens beslissen om de vennootschap in juni 2018 terug te betalen en op\nwelke manier?\nAntwoord - 1 punt\nJa, de heer Klepkens kan beslissen om zijn persoonlijke uitgaven in 2018 terug te\nbetalen. Om dit te doen moet dan in de rekeningen van de vennootschap melding\ngemaakt worden van een schuld aan de vennootschap en dit via R/C zaakvoerder op de\nactiefzijde van de balans.\n2. Hoe zal de boekhouder van de BVBA BEDIENUZELF deze situatie boekhoudkundig\nbehandelen ?\nAntwoord - 1 punt\nDe boekhouder van de heer Klepkens zal d",
+      "vraag_tekst_hint": "BVBA BEDIENUZELF — herkwalificatie persoonlijke uitgaven naar R/C zaakvoerder + fictieve intrest"
+    },
+    {
+      "vraag_id": "2019-bibf-vri1",
+      "vraag_prefix": "Vraag I.1",
+      "vraag_label": "I.1",
+      "punten": 3.0,
+      "pdf_pagina": 42,
+      "pdf_pagina_eind": 42,
+      "vraagtekst": "I. BELASTINGSPROCEDURES ……/5\nVraag I.1. ……/3\nGegevens\nDe heer BRUGMANS neemt contact met uw kantoor want hij heeft een vraag om inlichtingen\nontvangen met betrekking tot de fiscale aangifte die hij via Tax on web heeft ingediend.\nVragen\n1. Binnen welke termijn moet de heer Brugmans antwoorden op de vraag om inlichtingen ?\nAntwoord - 1 punt\nBinnen de termijn vermeld in de vraag om inlichtingen.\nOpmerking: art 316 WIB binnen de maand vanaf de derde werkdag volgende op de\nverzending van het verzoek\n2. Wie kan in dit geval het antwoord op de vraag om inlichtingen ondertekenen ?\nAntwoord - 1 punt\nDe heer Brugmans, tenzij hij een volmacht geeft aan het boekhoudkantoor om hem\nte vertegenwoordigen. In dat geval moet de geschreven en ondertekende volmacht\nmedegedeeld worden aan de administratie en dit op het zelfde moment als het\nantwoord op de vraag om inlichtingen.\n3. Wat kan er gebeuren wanneer de heer Brugmans geen gevolg geeft aan de vraag om\ninlichtingen ?\nAntwoord - 1 punt\n1. Door het ni",
+      "vraag_tekst_hint": "Brugmans — vraag om inlichtingen (termijn, ondertekening, gevolgen)"
+    },
+    {
+      "vraag_id": "2019-bibf-vri2",
+      "vraag_prefix": "Vraag I.2",
+      "vraag_label": "I.2",
+      "punten": 2.0,
+      "pdf_pagina": 43,
+      "pdf_pagina_eind": 43,
+      "vraagtekst": "Vraag I.2. ……/2\nVragen\n1. Binnen welke termijnen moet de aangifte in de vennootschapsbelasting worden\ningediend?\nAntwoord - 1 punt\nVennootschappen of andere rechtspersonen onderworpen aan de\nvennootschapsbelasting, de rechtspersonenbelasting of de belasting niet-\ninwoners/vennootschappen beschikken volgens art. 310, WIB92 voor het indienen van\nhun aangifte over een termijn die:\n- niet korter mag zijn dan één maand vanaf de datum waarop hetzij de\njaarrekening, hetzij de rekening van ontvangsten en uitgaven is goedgekeurd.\n- noch langer mag zijn dan zes maanden vanaf de datum waarop het boekjaar is\nafgesloten.\n2. Vermeld de uiterste datum van indiening van de aangifte in de vennootschapsbelasting.\nAntwoord - 1 punt\nDe uiterste wettelijke datum van indiening is de laatste dag van de maand na die van\nde statutaire algemene vergadering, zonder méér dan zes maanden vanaf het afsluiten\nvan het boekjaar te vallen.\nIndien de uiterste datum van indiening op een zaterdag, zondag of feestdag valt,",
+      "vraag_tekst_hint": "Indieningstermijn aangifte vennootschapsbelasting"
+    },
+    {
+      "vraag_id": "2019-bibf-vrj1",
+      "vraag_prefix": "Vraag J.1",
+      "vraag_label": "J.1",
+      "punten": 5.0,
+      "pdf_pagina": 44,
+      "pdf_pagina_eind": 45,
+      "vraagtekst": "IV. DEELDOMEIN VENNOOTSCHAPSRECHT EN ANDERE\nRECHTSTAKKEN ……./15\n(inclusief organisatie en beheer van een boekhoudkantoor)\nGeef waar gevraagd een korte toelichting bij uw antwoord en bevestig dit door de\nvermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen\ndie van toepassing zijn\nJ. VENNOOTSCHAPSRECHT EN DE WETGEVING IN VERBAND MET\n……/10\nONDERNEMINGEN IN MOEILIJKHEDEN\nVraag J.1. ……/5\nGegevens\nOp 14/06/N richten Mark en David, twee jeugdvrienden, een BVBA op met een kapitaal van\n40.000,00 €.\nMark brengt een machine met een waarde van 13.000,00 € in, alsook meubels ter waarde van\n5.000,00€ en grondstoffen ter waarde van 2.000,00 € . De verschillende waarden werden\ngeattesteerd door een bedrijfsrevisor.\nDavid brengt 20.000,00 € die hij voor de oprichting van de vennootschap stort op een speciale\nbankrekening op naam van de vennootschap in oprichting.\nOp 28/08/N+1, heeft de vennootschap een bijkomende auto nodig en David stelt voor één\nvan zijn eigen auto’s te ",
+      "vraag_tekst_hint": "Mark + David BVBA — inbreng (natura/geld) + minimumstortingen + quasi-inbreng"
+    },
+    {
+      "vraag_id": "2019-bibf-vrj2",
+      "vraag_prefix": "Vraag J.2",
+      "vraag_label": "J.2",
+      "punten": 5.0,
+      "pdf_pagina": 46,
+      "pdf_pagina_eind": 46,
+      "vraagtekst": "Vraag J.2. ……/5\nBij de vrijwillige ontbinding van een BVBA, zijn er diverse partijen betrokken, die ‘acties’ dienen\nte ondernemen.\nU heeft keuze uit onderstaande partijen :\n- algemene vergadering;\n- Boekhoudkantoor (BIBF, IAB);\n- commissaris/revisor/accountant;\n- curator;\n- hoofdaandeelhouder;\n- vereffenaar;\n- voorzitter rechtbank van ondernemingen;\n- zaakvoerder.\nGelieve in de tabel hieronder te vermelden, welke van deze partijen wettelijk tussenkomt\nvoor elke actie.\n1. Voorstel tot 'vrijwillige' ontbinding\nzaakvoerder\n2. Opstellen van de staat van activa en\nzaakvoerder\npassiva\n3. Opstellen van het controleverslag\ncommissaris/revisor/accountant\n4. Uitnodiging buitengewone algemene\nzaakvoerder\nvergadering\n5. Beslissing tot ontbinding\nalgemene vergadering\n6. Benoeming vereffenaar\nalgemene vergadering\n7. Bevestiging van de benoeming van de voorzitter rechtbank van\nvereffenaar ondernemingen\n8. Opstellen activaverdelingsplan\nvereffenaar\n9. Uitvoeren van het activaverdelingsplan\nvereffenaar",
+      "vraag_tekst_hint": "Vrijwillige ontbinding BVBA — actoren-tabel per stap"
+    },
+    {
+      "vraag_id": "2019-bibf-vrk1",
+      "vraag_prefix": "Vraag K.1",
+      "vraag_label": "K.1",
+      "punten": 5.0,
+      "pdf_pagina": 47,
+      "pdf_pagina_eind": 48,
+      "vraagtekst": "K. BEGINSELEN VAN HET ARBEIDS –EN SOCIAAL\n……/5\nZEKERHEIDSRECHT\nVraag K.1. ……/5\nGegevens\nMevrouw DE BOOT is als kinesiste voltijds werknemer in een revalidatiekliniek. Met het oog\nop de financiering van de studies van haar zoon beslist zij om haar activiteit als kinesiste\nverder uit te bouwen na de gewone werkuren en dit als zelfstandige. Mevrouw DE BOOT\nmaakt een afspraak met een sociale kas voor zelfstandigen.\nVragen\n1. Denkt u dat mevrouw DE BOOT een goede beslissing heeft genomen door een dergelijke\nafspraak te maken ? Licht uw antwoord toe.\nAntwoord - 1 punt\nJa, zij is verplicht om bij een sociale kas voor zelfstandigen aan te sluiten.\n2. Mevrouw DE BOOT is nu aangesloten maar onder welk statuut ? Licht uw antwoord toe.\nAntwoord - 1 punt\nZij is aangesloten als zelfstandige in bijberoep daar haar activiteit als werknemer\nhaar hoofdactiviteit blijft.\n3. Mevrouw DE BOOT zal ook sociale bijdragen moeten betalen. Hoe zullen deze uiteindelijk\nberekend worden ?\nAntwoord - 1 punt\nDe bereke",
+      "vraag_tekst_hint": "Mevrouw De Boot — kinesiste werknemer + bijberoep zelfstandige"
+    }
+  ],
+  "bouwer": "handmatige isolatie (BIBF letter-vakken A-K)",
+  "isolatie_datum": "2026-05-30T12:41:49.767582+00:00",
+  "has_answers": true
+}

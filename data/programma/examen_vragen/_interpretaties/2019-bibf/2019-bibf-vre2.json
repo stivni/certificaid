@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vre2",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Overname van cliënteel door stagiair na verbreking stageovereenkomst — niet-concurrentie / dossier-overname-verbod uit stagereglement",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": [
+    "plichtenleer",
+    "stagereglement",
+    "niet-concurrentiebeding stagiair",
+    "dossier-overname",
+    "voorafgaande schriftelijke toestemming",
+    "BIBF"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Mevrouw Annelies DE GRONDELAAR, extern stagiair boekhouder-fiscalist, verbreekt haar stageovereenkomst met Christophe VIXIX, erkend boekhouder-fiscalist bij het door het BIBF erkende boekhoudkantoor FISCOXIX. Mevrouw De Grondelaar werkt er niet meer.\n\nIn de weken volgende op het beëindigen van de stageovereenkomst contacteert zij de cliënten van het kantoor van haar vorige stagemeester per mailing en dit op basis van een bestand dat zij, kort voor het verlaten van het kantoor, gemaakt had via het boekhoudprogramma.\n\nTwee maanden na haar vertrek, en op basis van de contacten die zij via de mailing gelegd heeft, schrijft zij een brief naar Christophe VIXIX om hem in kennis te stellen van de overname van het dossier van drie van zijn cliënten."
+    },
+    {
+      "type": "casus_context",
+      "tekst": "Instructie bij sectie E (Plichtenleer): geef steeds een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E.2",
+      "vraagtype": "open",
+      "vraagstelling": "Mag mevrouw Annelies DE GRONDELAAR op dergelijke wijze te werk gaan? Licht toe en geef in uw antwoord de toepasselijke wettelijke en/of reglementaire bepalingen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Vraag E.2 is uit de PDF geïsoleerd; vraag E.1 en E.3 staan op dezelfde pagina's maar horen tot eigen vraag-eenheden. Het modelantwoord in de PDF (Neen + art. 6 §1,2° Stagereglement KB 10 april 2015) is bewust niet opgenomen in deze interpretatie — die hoort in het antwoord-artefact. De casus-tekst is gesplitst in alinea's (§4.4bis) voor leesbaarheid: vertrek + mailing op basis van meegenomen bestand + overname 3 dossiers met latere kennisgeving. De instructie-blok 'Geef steeds een korte toelichting ...' is bewaard als afzonderlijk casus_context-blok omdat het sectiebreed geldt en de motivatie-verwachting verklaart. Vraagtype = open (vrij tekst-antwoord met juridische motivering), motivatie_verwacht = true (de vraagstelling vraagt expliciet om toelichting + vermelding van toepasselijke bepalingen).",
+  "kwaliteits_flags": []
+}

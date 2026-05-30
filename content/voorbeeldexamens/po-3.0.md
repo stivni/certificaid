@@ -3,12 +3,12 @@ title: PO 3.0 — Vennootschaps- en verenigingsrecht en insolventiewetgeving
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 3.0 (Vennootschaps- en verenigingsrecht en insolventiewetgeving).
 tags: [examen, voorbeeldvragen, po-3-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-29
+gegenereerd_op: 2026-05-30
 ---
 
 # PO 3.0 — Vennootschaps- en verenigingsrecht en insolventiewetgeving
 
-**49 unieke vraag-eenheden** (waarvan 1 cluster, totaal 50 voorkomens) uit 8 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 48 met modelantwoord
+**53 unieke vraag-eenheden** (waarvan 1 cluster, totaal 54 voorkomens) uit 9 examens (2003-bibf, 2008-bibf, 2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2019-bibf, 2024-1) — 52 met modelantwoord
 
 <a id="2024-1-vr1A"></a>
 
@@ -192,6 +192,286 @@ gegenereerd_op: 2026-05-29
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 3.0*
 >
 > _Verschillende stellingen juist of fout in verband met omzettingen van vennootschappen_
+
+<a id="2019-bibf-vrd3"></a>
+
+> [!question]- 🆕 Overname van een handelsfonds: welke documenten/attesten de overnemer moet opvragen om zich tegen schulden van de overlater te beschermen, en de gevolgen (solidaire aansprakelijkheid) wanneer die documenten ontbreken
+> *Examen 2019-bibf · PO 3.0*
+>
+> Een cliënt wil een handelsfonds overnemen.
+>
+> **Welke documenten moet hij in zijn bezit hebben om er zich van te verzekeren dat hij geen schulden met betrekking tot dat handelsfonds zal moeten dragen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Een **niet-bezwaard-verklaring van het hypotheekkantoor** (geen pand op het handelsfonds) plus **vier blanco-attesten** waaruit blijkt dat de overlater geen openstaande schulden heeft bij: **BTW**, **directe belastingen (FOD Financiën)**, **RSZ** (werknemersbijdragen) en **RSVZ** (sociale bijdragen zelfstandigen). 🔗
+> > 
+> > Concreet op te vragen vóór de overname-akte wordt verleden:
+> > 
+> > - **Hypothecair getuigschrift** — bewijst dat geen pand op de handelszaak rust (pand op handelszaak is publiek bij het hypotheekkantoor); zonder die check loopt de overnemer het risico dat het overgenomen fonds met een zakelijke zekerheid bezwaard blijft. 🔗
+> > - **Fiscaal attest directe belastingen** (art. 442bis WIB92) — verklaart dat geen directe-belastingschulden openstaan; te bekomen bij de bevoegde ontvanger. 📖
+> > - **BTW-attest** (art. 93undecies B WBTW) — verklaart dat geen BTW-schulden openstaan; afgeleverd door de BTW-ontvanger. 📖
+> > - **RSZ-attest** (art. 16ter Wet 27.06.1969 op de sociale zekerheid van werknemers) — verklaart dat de overlater geen achterstallige werknemersbijdragen heeft. 🤖
+> > - **RSVZ-attest** (art. 41quinquies KB nr. 38 van 27.07.1967) — verklaart dat de overlater geen achterstallige sociale bijdragen als zelfstandige heeft. 🤖
+> > 
+> > De vier fiscale/sociale attesten mogen op het moment van de overdracht **niet ouder zijn dan 30 dagen** — vraagt de overnemer ze later op, dan is het beschermingseffect verloren. 🔗
+> > 
+> > De vraag wordt vaak gereduceerd tot "de fiscale attesten" — maar het **hypothecair getuigschrift** (pand op handelszaak) is een aparte, niet-fiscale check en hoort er **wel** bij. Omgekeerd: een notariële overname-akte is hier niet vereist (handelsfondsoverdracht is een gewone contractuele transactie, geen WVV-fusie/splitsing). 🔗
+> > 
+> > Art. 442bis WIB92 (directe belastingen) + art. 93undecies B Wbtw (BTW) + art. 16ter Wet 27.06.1969 (RSZ) + art. 41quinquies KB nr. 38 van 27.07.1967 (RSVZ) — deze bepalingen vereisen alle vier eenzelfde mechanisme: de overdracht is pas tegenstelbaar aan de fiscus/inningsinstelling na het verstrijken van een wachttermijn (de maand volgend op de kennisgeving), tenzij een blanco-attest van minder dan 30 dagen oud bij de akte wordt gevoegd. Voor de pandscheck: art. 1 e.v. Wet 25.10.1919 op de inpandgeving van de handelszaak (publicatie bij het hypotheekkantoor). 📖  
+> > *Bron: Art. 442bis WIB92 + art. 93undecies B WBTW + art. 16ter Wet 27.06.1969 + art. 41quinquies KB nr. 38 + Wet 25.10.1919 (pand handelszaak)*
+>
+> **Wat kunnen de gevolgen zijn van het ontbreken van die documenten?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De overnemer wordt **hoofdelijk (solidair) aansprakelijk** voor de fiscale en sociale schulden van de overlater — **beperkt tot de overnameprijs** (of, bij overdracht om niet, tot de waarde van het handelsfonds). 📖
+> > 
+> > Twee samenlopende sancties:
+> > 
+> > - **Niet-tegenstelbaarheid**: zonder geldig attest is de overdracht pas tegenstelbaar aan de fiscus/RSZ/RSVZ na afloop van de maand die volgt op de kennisgeving van de akte. Tijdens die wachtperiode kan de schuldeiser nog rechtstreeks op het overgedragen handelsfonds verhalen. 🔗
+> > - **Hoofdelijke aansprakelijkheid van de overnemer** voor alle op het ogenblik van de overdracht openstaande directe belastingen, BTW, RSZ- en RSVZ-bijdragen van de overlater — zelfs schulden die de overnemer niet kende. Het plafond is de **prijs die hij betaald heeft** (of de waarde van het ontvangen handelsfonds); daarboven gaat de overnemer vrijuit. Voor een handelsfonds van bv. 200.000 EUR betekent dit dat de overnemer maximaal 200.000 EUR kan moeten bijbetalen — wat economisch neerkomt op het **dubbel betalen** van het handelsfonds. 🔗
+> > 
+> > De sanctie verdwijnt zodra een geldig blanco-attest (< 30 dagen oud) bij de notariële akte of de onderhandse overdracht wordt gevoegd. 🔗
+> > 
+> > Het plafond "overnameprijs" is een **echte cap**: de overnemer riskeert dus niet zijn privévermögen of de rest van zijn vennootschap, alleen het bedrag dat hij voor het handelsfonds heeft betaald. Dat verklaart waarom in de praktijk de attesten zelden ontbreken — het risico is hoog (vaak: gehele koopprijs verloren) maar overzichtelijk te managen via een formaliteit van enkele weken. 🔗
+> > 
+> > De aansprakelijkheidsbeperking tot de overnameprijs staat letterlijk in elk van de vier parallelle bepalingen: art. 442bis § 2 WIB92, art. 93undecies B § 2 Wbtw, art. 16ter § 2 Wet 27.06.1969 (RSZ) en art. 41quinquies § 2 KB nr. 38 (RSVZ). Het mechanisme is overal identiek: kennisgeving van de overdracht → wachtperiode tot einde van de volgende maand → in die periode is de overdracht niet tegenstelbaar èn is de overnemer hoofdelijk gehouden, behalve bij voorlegging van een blanco-attest van minder dan 30 dagen. 📖  
+> > *Bron: Art. 442bis § 2 WIB92 + art. 93undecies B § 2 WBTW + art. 16ter § 2 Wet 27.06.1969 + art. 41quinquies § 2 KB nr. 38*
+
+<a id="2019-bibf-vrj1"></a>
+
+> [!question]- 🆕 Inbrengen bij oprichting BVBA en quasi-inbreng
+> *Examen 2019-bibf · PO 3.0*
+>
+> Op 14/06/N richten Mark en David, twee jeugdvrienden, een BVBA op met een kapitaal van 40.000,00 €.
+> 
+> Mark brengt een machine met een waarde van 13.000,00 € in, alsook meubels ter waarde van 5.000,00 € en grondstoffen ter waarde van 2.000,00 €. De verschillende waarden werden geattesteerd door een bedrijfsrevisor.
+> 
+> David brengt 20.000,00 € die hij voor de oprichting van de vennootschap stort op een speciale bankrekening op naam van de vennootschap in oprichting.
+> 
+> Op 28/08/N+1 heeft de vennootschap een bijkomende auto nodig en David stelt voor één van zijn eigen auto's te verkopen aan de vennootschap. Dit voertuig heeft een waarde van 10.000,00 €.
+> 
+> Instructie bij het deeldomein: "Geef waar gevraagd een korte toelichting bij uw antwoord en bevestig dit door de vermelding van het artikel/de artikelen van wettelijke of reglementaire bepalingen die van toepassing zijn." Totaal vraag J.1: /5 punten.
+>
+> **Welk soort van inbreng(-en) hebben deze jeugdvrienden gedaan bij de oprichting van de vennootschap?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Mark heeft een **inbreng in natura** gedaan (machine, meubels en grondstoffen — samen 20.000,00 €); David heeft een **inbreng in geld** gedaan (20.000,00 € op de speciale bankrekening). 📖
+> > 
+> > Het Wetboek van vennootschappen (zoals van toepassing in 2019, vóór de WVV op bestaande BVBA's) onderscheidt voor de BVBA twee soorten inbrengen die het kapitaal vormen: inbreng in geld en inbreng in natura (zaken die voor waardering vatbaar zijn — art. 218 W.Venn.). De inbreng in natura vereist daarbij een verslag van een bedrijfsrevisor (art. 219 W.Venn.) — in de casus reeds gebeurd. 🔗  
+> > *Bron: Art. 218-219 W.Venn. (oud); cf. art. 5:7-5:8 WVV (huidig recht voor de BV)*
+>
+> **Wat zullen zij ontvangen in ruil voor hun specifieke inbrengen?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > In ruil voor hun respectievelijke inbreng ontvangen zij **aandelen** in de vennootschap. 📖
+> > 
+> > De inbreng (in geld of in natura) wordt vergoed met aandelen die het maatschappelijk kapitaal vertegenwoordigen — dit is de essentie van het kapitaalbegrip onder het oud W.Venn. voor de BVBA (art. 232 W.Venn.). Het aandelenaantal en de fractiewaarde worden in de oprichtingsakte bepaald. 🔗  
+> > *Bron: Art. 232 W.Venn. (oud); cf. art. 5:40 WVV (huidig)*
+>
+> Hetzelfde percentage in het kapitaal van de vennootschap behoudend, had David ook minder dan 20.000,00 € kunnen storten op de bankrekening van de vennootschap en toch de vennootschap geldig kunnen laten oprichten? Wat zou het minimum, door hem te storten bedrag, geweest moeten zijn? Licht toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Ja — David had zich kunnen beperken tot een **minimumstorting van 4.000,00 €**, zodat de vennootschap in totaal de wettelijk vereiste **6.200,00 €** volstort had. 📖
+> > 
+> > **Volstortingsregels bij oprichting BVBA (art. 223 W.Venn. oud)** 📖:
+> > 
+> > - Op elk **aandeel in geld** moet minstens **1/5** gestort zijn (art. 223, 1° W.Venn.).
+> > - **Inbrengen in natura** moeten **volledig** volstort zijn binnen 5 jaar — bij oprichting praktisch direct (art. 223, 2° W.Venn.).
+> > 
+> > **Berekening minimum** 🔗:
+> > 
+> > | Component | Bedrag | Minimum volstorting |
+> > |---|---|---|
+> > | Inbreng Mark — natura (machine + meubels + grondstoffen) | 20.000,00 € | 20.000,00 € (volledig — art. 223, 2°) |
+> > | Inbreng David — geld | 20.000,00 € | 4.000,00 € (1/5 — art. 223, 1°) |
+> > | **Totaal minimum volstort kapitaal** | 40.000,00 € | **24.000,00 €** |
+> > 
+> > De oude wet vereiste daarenboven dat het volstort kapitaal van een BVBA **minstens 6.200,00 €** bedroeg (art. 223 W.Venn. juncto wettelijk minimumkapitaal). Aangezien Mark al 20.000,00 € in natura volledig volstortte, is die drempel ruim overschreden — David moest dus enkel zijn eigen 1/5 = 4.000,00 € storten. 🔗
+> > 
+> > De PDF-modelantwoord noemt **6.200,00 €** als globaal minimum volstort kapitaal voor de BVBA (de historische drempel voor de gewone BVBA onder W.Venn., gekoppeld aan een totaal maatschappelijk kapitaal van 18.550,00 €). In de casus is dat plafond ruim gehaald door Mark alleen; de echte beperking voor David is dus art. 223, 1° (1/5 van zijn inbreng in geld = 4.000,00 €), niet de globale 6.200,00-drempel. Onder het huidige WVV (sinds 1 mei 2019) is het kapitaalbegrip én het minimumkapitaal afgeschaft voor de BV; in de plaats kwam de vereiste van een **toereikend aanvangsvermogen** (art. 5:3-5:4 WVV) en het beginsel dat alle inbrengen vanaf de oprichting **volledig gestort** worden tenzij de statuten anders bepalen (art. 5:8 WVV). 📖
+> > 
+> > **Art. 223, 1° W.Venn. (oud)** — op elk aandeel waarop in geld is ingeschreven moet minstens een vijfde gestort zijn. **Art. 223, 2° W.Venn. (oud)** — aandelen waarvoor een inbreng in natura wordt verstrekt, moeten volledig volgestort zijn. Het globale minimum volstort kapitaal van 6.200,00 € voor de gewone BVBA volgt uit de historische BVBA-regeling. 🔗  
+> > *Bron: Art. 223, 1° en 2° W.Venn. (oud); cf. art. 5:8 WVV (huidig — toereikend aanvangsvermogen i.p.v. minimumkapitaal)*
+>
+> Zijn er bijzondere vormvereisten in acht te nemen opdat David zijn auto kan verkopen aan de vennootschap? Licht toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Ja — er is sprake van een **quasi-inbreng**: verkoop binnen 2 jaar na oprichting door een oprichter/zaakvoerder/vennoot van een goed met een waarde van **≥ 10 % van het maatschappelijk kapitaal** (hier 10.000 € op 40.000 € = 25 %). Drie bijzondere vormvereisten gelden cumulatief. 📖
+> > 
+> > **Vormvereisten bij quasi-inbreng** (art. 220-222 W.Venn. oud) 📖:
+> > 
+> > 1. **Verslag van de commissaris** — of bij gebreke daarvan een door het bestuursorgaan aangewezen **bedrijfsrevisor** — over de waardering van het goed en de redelijkheid van de tegenprestatie (art. 220 W.Venn.).
+> > 2. **Bijzonder verslag van het bestuursorgaan** — waarin wordt toegelicht waarom de verwerving van belang is voor de vennootschap, en waarom eventueel wordt afgeweken van de conclusies van het bedrijfsrevisorverslag (art. 222 W.Venn.).
+> > 3. **Akkoord van de algemene vergadering** — de verwerving wordt vooraf ter goedkeuring voorgelegd; beide verslagen worden in de agenda van de AV opgenomen (art. 222 W.Venn.).
+> > 4. **Neerlegging op de griffie** van de ondernemingsrechtbank — beide verslagen worden neergelegd en bekendgemaakt (art. 222 § 1 W.Venn.). 🔗
+> > 
+> > De **ratio** van de quasi-inbreng-regeling is anti-omzeiling: zonder die regeling zou een oprichter die zijn goed niet als inbreng in natura wil onderwerpen aan een revisorverslag, gewoon kunnen wachten en het goed kort na oprichting **verkopen** aan de vennootschap, en zo de waarderingscontrole én de revisorverklaring omzeilen. De **2-jaars termijn** en de **10 %-drempel** zijn precies daar afgestemd. Onder de WVV (sinds 1 mei 2019) bleef dit regime grotendeels behouden — voor de BV in art. 5:7-5:9 WVV, voor de NV in art. 7:8 en 7:10 WVV. 📖
+> > 
+> > **Art. 220 W.Venn. (oud)** — definitie quasi-inbreng + revisorverslag. **Art. 221 W.Venn. (oud)** — inhoud van het revisorverslag (beschrijving, waarderingsmethoden, vergoeding). **Art. 222 W.Venn. (oud)** — bijzonder verslag bestuursorgaan + goedkeuring AV + neerlegging griffie. De huidige equivalente regeling voor de NV staat in art. 7:8 en 7:10 WVV; voor de BV in art. 5:8-5:9 WVV. 🔗  
+> > *Bron: Art. 220-222 W.Venn. (oud); cf. art. 7:8 en 7:10 WVV (NV); art. 5:8-5:9 WVV (BV)*
+>
+> **Wat zal David, in ruil, krijgen indien de vennootschap zijn auto koopt?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De quasi-inbreng is juridisch een **verkoop** (geen inbreng tegen aandelen): David ontvangt een **som geld** als koopprijs, of — als de vennootschap niet onmiddellijk betaalt — een **rekening-courant credit** (vordering van David op de vennootschap). 📖
+> > 
+> > Het verschil met een echte inbreng in natura is fundamenteel: bij een inbreng wordt het goed vergoed met **aandelen** (verhoging van het kapitaal), bij een quasi-inbreng wordt het goed **gekocht** door de vennootschap en wordt David vergoed in **cash** of via een opname op zijn **rekening-courant** (rekening 416 of 489, afhankelijk van termijn). Het kapitaal van de vennootschap blijft ongewijzigd. 🔗
+> > 
+> > De quasi-inbreng-regeling (art. 220-222 W.Venn. oud) regelt de **vormvereisten** maar laat de juridische kwalificatie als verkoop intact: tegenprestatie = koopprijs (geld of schuldvordering op de vennootschap = rekening-courant credit), geen aandelen. 🔗  
+> > *Bron: Art. 220-222 W.Venn. (oud); cf. art. 7:8 WVV — "de vergoeding die werkelijk als tegenprestatie voor de verkrijging wordt betaald"*
+
+<a id="2019-bibf-vrj2"></a>
+
+> [!question]- 🆕 Vrijwillige ontbinding BVBA: welke partij komt wettelijk tussen voor elke stap van de ontbindings- en vereffeningsprocedure
+> *Examen 2019-bibf · PO 3.0*
+>
+> Bij de vrijwillige ontbinding van een BVBA zijn er diverse partijen betrokken, die 'acties' dienen te ondernemen.
+> 
+> **Keuzelijst — partijen die wettelijk kunnen tussenkomen**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | algemene vergadering |   |
+> | Boekhoudkantoor (BIBF, IAB) |   |
+> | commissaris/revisor/accountant |   |
+> | curator |   |
+> | hoofdaandeelhouder |   |
+> | vereffenaar |   |
+> | voorzitter rechtbank van ondernemingen |   |
+> | zaakvoerder |   |
+> 
+> **Acties — voor elk van deze 10 acties moet de tussenkomende partij worden ingevuld**
+> 
+> | Label | Bedrag |
+> | --- | --- |
+> | 1. Voorstel tot 'vrijwillige' ontbinding |   |
+> | 2. Opstellen van de staat van activa en passiva |   |
+> | 3. Opstellen van het controleverslag |   |
+> | 4. Uitnodiging buitengewone algemene vergadering |   |
+> | 5. Beslissing tot ontbinding |   |
+> | 6. Benoeming vereffenaar |   |
+> | 7. Bevestiging van de benoeming van de vereffenaar |   |
+> | 8. Opstellen activaverdelingsplan |   |
+> | 9. Uitvoeren van het activaverdelingsplan |   |
+> | 10. Afsluiting van de vereffening |   |
+>
+> Vermeld in de tabel hieronder, voor elk van de 10 acties, welke van de opgesomde partijen wettelijk tussenkomt. Kies telkens één partij uit de keuzelijst.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > | # | Actie | Tussenkomende partij |
+> > |---|---|---|
+> > | 1 | Voorstel tot 'vrijwillige' ontbinding | **zaakvoerder** (bestuursorgaan) 🔗 |
+> > | 2 | Opstellen van de staat van activa en passiva | **zaakvoerder** (bestuursorgaan) 📖 |
+> > | 3 | Opstellen van het controleverslag | **commissaris/revisor/accountant** 📖 |
+> > | 4 | Uitnodiging buitengewone algemene vergadering | **zaakvoerder** (bestuursorgaan) 🔗 |
+> > | 5 | Beslissing tot ontbinding | **algemene vergadering** 📖 |
+> > | 6 | Benoeming vereffenaar | **algemene vergadering** 📖 |
+> > | 7 | Bevestiging van de benoeming van de vereffenaar | **voorzitter rechtbank van ondernemingen** 📖 |
+> > | 8 | Opstellen activaverdelingsplan | **vereffenaar** 🔗 |
+> > | 9 | Uitvoeren van het activaverdelingsplan | **vereffenaar** 📖 |
+> > | 10 | Afsluiting van de vereffening | **algemene vergadering** 📖 | 📖
+> > 
+> > **Logica van de bevoegdheidsverdeling** — de procedure splitst zich in drie fasen, elk met een eigen drager:
+> > 
+> > - **Voorbereiding (1-4) → bestuursorgaan (zaakvoerder).** Het bestuursorgaan neemt het initiatief: het stelt het voorstel tot ontbinding op met een omstandig verslag, voegt daarbij een staat van activa en passiva van maximaal drie maanden oud, en roept de buitengewone algemene vergadering bijeen. 📖
+> > - **Externe controle (3) → commissaris, of bij gebrek daaraan een bedrijfsrevisor of (gecertificeerd) accountant.** Deze beroepsbeoefenaar controleert de staat van activa en passiva en brengt verslag uit aan de algemene vergadering — verplicht, ook in vennootschappen zonder commissaris. 📖
+> > - **Beslissing (5-6) → algemene vergadering.** Enkel de AV kan de ontbinding uitspreken (statutenwijziging — versterkt quorum en meerderheid, notariële akte) en benoemt in hetzelfde besluit de vereffenaar(s). 📖
+> > - **Rechterlijke tussenkomst (7) → voorzitter rechtbank van ondernemingen.** Als uit de staat van activa en passiva een **tekort** blijkt waardoor niet alle schuldeisers integraal kunnen worden betaald (deficitaire vereffening), moet de benoeming van de vereffenaar ter **bevestiging** worden voorgelegd aan de voorzitter van de ondernemingsrechtbank. 📖
+> > - **Uitvoering (8-9) → vereffenaar.** Hij realiseert de activa, betaalt de schulden en stelt — wanneer er meerdere categorieën schuldeisers zijn — een verdelingsplan van de activa op dat hij vooraf aan de rechtbank ter goedkeuring voorlegt. 🔗
+> > - **Sluiting (10) → algemene vergadering.** De AV neemt kennis van het cijfermatig verslag van de vereffenaar (gecontroleerd door de commissaris of, bij gebrek daaraan, met individueel onderzoeksrecht van de aandeelhouders bijgestaan door een beroepsbeoefenaar) en spreekt de sluiting van de vereffening uit. 📖
+> > 
+> > Vier opties uit de keuzelijst zijn **afleiders** en horen bij géén enkele stap: het *boekhoudkantoor (BIBF, IAB)* (geen wettelijke rol in de procedure — enkel de commissaris/revisor/(gecertificeerd) accountant is bevoegd voor het controleverslag van art. 2:71, §2 WVV), de *curator* (komt enkel in beeld bij een **gerechtelijke** ontbinding via faillissement, niet bij een vrijwillige), en de *hoofdaandeelhouder* (heeft als individu geen wettelijke bevoegdheid — beslissingen gebeuren collectief in de algemene vergadering). Let ook op stap 7: de bevestiging gebeurt door de **voorzitter** van de rechtbank van ondernemingen (eenzijdig verzoekschrift), niet door de rechtbank zelf in volle samenstelling, en is enkel verplicht bij een **deficitaire** vereffening — bij een batige vereffening kan de vereffenaar onmiddellijk na de AV-benoeming in functie treden. 🔗
+> > 
+> > Onder het ten tijde van het examen toepasselijke W.Venn. (4 mei 2019, vóór de volledige inwerkingtreding van het WVV op 1 januari 2020) gold dezelfde procedure: art. 181 W.Venn. (voorstel + staat van activa en passiva + controleverslag), art. 184 W.Venn. (benoeming vereffenaar door AV + bevestiging door voorzitter rechtbank van koophandel bij tekort), art. 190 W.Venn. (verdelingsplan), art. 194-195 W.Venn. (cijfermatig verslag en sluiting door AV). Onder WVV — materieel ongewijzigd — corresponderen deze stappen met **art. 2:71 WVV** (voorstel bestuursorgaan, staat A&P, controleverslag door commissaris/bedrijfsrevisor/gecertificeerd accountant), **art. 2:76 WVV** (bevestiging benoeming vereffenaar door voorzitter ondernemingsrechtbank bij deficitaire vereffening), **art. 2:87-2:89 WVV** (verdelingsplan en uitvoering door vereffenaar) en **art. 2:90 WVV** (cijfermatig verslag + sluiting door AV). Beroepsnorm: ITAA-norm inzake de opdracht bij ontbinding en vereffening (bijlage 3 — modelverslag commissaris/bedrijfsrevisor/gecertificeerd accountant). 📖  
+> > *Bron: art. 181, 184, 190, 194-195 W.Venn. (2019) — heden art. 2:71, 2:76, 2:87-2:90 WVV*
+
+<a id="2019-bibf-vrk1"></a>
+
+> [!question]- 🆕 Sociaal statuut van zelfstandige in bijberoep — aansluiting sociale kas, berekening sociale bijdragen en sociale rechten
+> *Examen 2019-bibf · PO 3.0*
+>
+> Mevrouw DE BOOT is als kinesiste voltijds werknemer in een revalidatiekliniek. Met het oog op de financiering van de studies van haar zoon beslist zij om haar activiteit als kinesiste verder uit te bouwen na de gewone werkuren en dit als zelfstandige. Mevrouw DE BOOT maakt een afspraak met een sociale kas voor zelfstandigen.
+>
+> Denkt u dat mevrouw DE BOOT een goede beslissing heeft genomen door een dergelijke afspraak te maken? Licht uw antwoord toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA** — mevrouw De Boot heeft een goede beslissing genomen: wie in België een zelfstandige beroepsactiviteit uitoefent (ook in bijberoep) is **wettelijk verplicht** zich aan te sluiten bij een erkend sociaal verzekeringsfonds voor zelfstandigen, en dit uiterlijk op de dag van de aanvang van de activiteit. 🤖
+> > 
+> > De aansluitingsplicht volgt uit het sociaal statuut van de zelfstandigen (KB nr. 38 van 27 juli 1967). Iedere natuurlijke persoon die in België een beroepsactiviteit uitoefent uit hoofde waarvan hij niet door een arbeidsovereenkomst of statuut verbonden is, valt onder dit statuut — ongeacht of het om een hoofdberoep of een bijberoep gaat. De aansluiting moet gebeuren bij een vrij gekozen erkend sociaal verzekeringsfonds (of, bij gebrek aan keuze, automatisch bij de Nationale Hulpkas). Niet aansluiten is een inbreuk die door het RSVZ bestraft wordt. 🤖
+> > 
+> > KB nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen, art. 3 (toepassingsgebied: elke natuurlijke persoon met een beroepsactiviteit als zelfstandige in België) en art. 9 e.v. (verplichte aansluiting bij een sociaal verzekeringsfonds). 🤖  
+> > *Bron: Art. 3 en 9 KB nr. 38 van 27.07.1967*
+>
+> Mevrouw DE BOOT is nu aangesloten maar onder welk statuut? Licht uw antwoord toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Mevrouw De Boot is aangesloten als **zelfstandige in bijberoep**, omdat haar activiteit als loontrekkende werknemer (voltijds in de revalidatiekliniek) haar **hoofdactiviteit** blijft. 🤖
+> > 
+> > Het sociaal statuut onderscheidt drie hoedanigheden: hoofdberoep, bijberoep en gelijkstelling-bijberoep. Iemand is **in bijberoep** wanneer hij naast zijn zelfstandige activiteit gewoonlijk en hoofdzakelijk een andere beroepsactiviteit uitoefent die hem reeds sociale rechten opent in een ander stelsel — typisch een loontrekkende activiteit van minstens een halftijdse tewerkstelling. 🔗 Mevrouw De Boot is voltijds werknemer in de revalidatiekliniek en oefent haar zelfstandige activiteit als kinesiste daarnaast uit (na de gewone werkuren). Haar sociale zekerheidsdekking loopt dus in eerste instantie via haar werknemersstatuut (RSZ-werknemer); de zelfstandige activiteit is louter aanvullend. 🔗
+> > 
+> > Het statuut bijberoep is niet alleen formeel — het heeft praktische gevolgen: lagere minimumbijdragen en de mogelijkheid van **vrijstelling van bijdragen** zolang het netto belastbaar inkomen uit de zelfstandige activiteit onder een wettelijke drempel blijft (de zogenaamde 'artikel 37'-drempel, jaarlijks geïndexeerd). Boven die drempel gelden dezelfde percentages als in hoofdberoep. 🤖
+> > 
+> > Art. 35 en 37 KB van 19.12.1967 (algemeen uitvoeringsbesluit van KB nr. 38): definitie zelfstandige in bijberoep + bijdrage-regime en drempel voor vrijstelling. 🤖  
+> > *Bron: Art. 35-37 KB 19.12.1967 (uitvoering KB nr. 38)*
+>
+> Mevrouw DE BOOT zal ook sociale bijdragen moeten betalen.
+> 
+> **Hoe zullen deze uiteindelijk berekend worden?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De sociale bijdragen worden uiteindelijk berekend op basis van het **netto belastbaar beroepsinkomen** dat mevrouw De Boot met haar **aanvullende (zelfstandige) activiteit** als kinesiste verdient — dus de baten van haar vrije beroep na aftrek van de beroepskosten, vóór toepassing van het barema van de personenbelasting. 🔗
+> > 
+> > Mechanisme in drie stappen:
+> > 
+> > 1. **Voorlopige bijdragen** — bij aanvang van de activiteit worden bijdragen geheven op een geraamde basis (eigen schatting of een wettelijk minimum voor bijberoepers); deze bijdragen worden elk kwartaal aan het sociaal verzekeringsfonds betaald. 🤖
+> > 2. **Definitieve regularisatie** — zodra de fiscale administratie het netto belastbaar beroepsinkomen van het bijdragejaar N meedeelt aan het RSVZ (doorgaans in jaar N+2 of N+3), worden de definitieve bijdragen herberekend op dat werkelijke inkomen en het saldo positief of negatief geregulariseerd. 🤖
+> > 3. **Berekeningsbasis** — het netto belastbaar inkomen = bruto baten (art. 27 WIB92) min beroepskosten (werkelijk of forfait) min beroepsverliezen. Op die basis wordt een percentage toegepast (in hoofdberoep ca. 20,5 % op de eerste schijf; in bijberoep gelden dezelfde percentages, maar enkel boven de drempel — daaronder is mevrouw De Boot vrijgesteld). 🔗
+> > 
+> > Art. 11 KB nr. 38 (berekeningsbasis = inkomsten van het refertejaar zoals fiscaal vastgesteld) + art. 27 WIB92 (definitie baten vrije beroep). 🔗  
+> > *Bron: Art. 11 KB nr. 38 + art. 27 WIB92*
+>
+> Mevrouw DE BOOT is uiteindelijk niet ontevreden over het feit dat zij sociale bijdragen moet betalen want zij kan deze recupereren bij haar pensioen? Heeft mevrouw DE BOOT gelijk? Licht uw antwoord toe.
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **NEEN** — mevrouw De Boot heeft **geen** gelijk: de sociale bijdragen die zij als zelfstandige in bijberoep betaalt, kan zij **niet recupereren** bij haar pensioen. 🤖
+> > 
+> > Het Belgische sociale zekerheidsstelsel berust op het **solidariteitsprincipe**, niet op kapitalisatie. De bijdragen die elke zelfstandige stort, gaan in een gemeenschappelijke pot waaruit de huidige uitkeringen (pensioenen, ziekteverzekering, gezinsbijslag, …) van alle rechthebbenden worden gefinancierd — niet op een persoonlijke spaarrekening van de bijdrager. 🤖 Bovendien openen de bijdragen **in bijberoep** géén bijkomende sociale rechten: mevrouw De Boot bouwt haar pensioenrechten al op via haar werknemersstatuut (haar hoofdactiviteit). De bijdragen die zij als bijberoep stort, zijn dus zuiver solidariteitsbijdragen — niet recupereerbaar, niet pensioenopbouwend. 🤖
+> > 
+> > Niet verwarren met een **zelfstandige in hoofdberoep**: daar openen de bijdragen wél eigen sociale rechten (pensioen, ziekte- en arbeidsongeschiktheidsverzekering, gezinsbijslag, moederschap, …). Het verschil zit dus niet in 'recupereren' maar in 'rechten openen' — en die rechten worden enkel geopend door de hoofdactiviteit, niet door de bijberoep-bijdragen. 🤖
+> > 
+> > KB nr. 38 art. 12, § 2 (bijdragen bijberoep openen geen bijkomende rechten) + algemeen repartitiebeginsel van de Belgische sociale zekerheid (wet 29.06.1981 houdende algemene beginselen sociale zekerheid werknemers; pendant voor zelfstandigen in KB nr. 38). 🤖  
+> > *Bron: Art. 12, § 2 KB nr. 38 (geen bijkomende rechten in bijberoep) + repartitiebeginsel*
+>
+> Mevrouw DE BOOT overweegt om haar activiteit als werknemer te stoppen en voltijds te werken als zelfstandige.
+> 
+> **Verandert dit iets voor mevrouw DE BOOT?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **JA, dit verandert wezenlijk iets**: zodra mevrouw De Boot haar werknemersactiviteit stopzet en voltijds als zelfstandige werkt, wordt zij **zelfstandige in hoofdberoep** en geniet zij vanaf dan een **volwaardige, nieuwe sociale dekking** via het sociaal statuut van de zelfstandigen — onder andere ziekteverzekering, gezinsbijslag en pensioenopbouw als zelfstandige. 🤖
+> > 
+> > Drie wijzigingen tegelijk:
+> > 
+> > - **Statuutwijziging**: hoedanigheid bij het sociaal verzekeringsfonds gaat van bijberoep → hoofdberoep (te melden binnen de 15 dagen). 🤖
+> > - **Bijdrageregime**: de wettelijke minimumbijdrage van een zelfstandige in hoofdberoep wordt verschuldigd, ook als het netto belastbaar inkomen laag is (geen vrijstellingsdrempel zoals in bijberoep). De percentages (ca. 20,5 % op de eerste schijf) blijven dezelfde, maar gelden nu vanaf de eerste euro. 🤖
+> > - **Sociale rechten**: zij bouwt nu zélf rechten op in het stelsel van de zelfstandigen — pensioen (zelfstandigenpensioen), verplichte ziekte- en invaliditeitsverzekering, gezinsbijslag, moederschapsuitkering, overbruggingsrecht bij stopzetting, enzovoort. Tegelijk verliest zij de RSZ-werknemersdekking die zij voorheen genoot via haar werknemerscontract. 🔗
+> > 
+> > De gecombineerde pensioenopbouw werknemer + zelfstandige resulteert in een **gemengde loopbaan**: voor elk jaar als werknemer wordt het pensioen berekend volgens het werknemersstelsel, voor elk jaar als zelfstandige volgens het zelfstandigenstelsel. Beide delen worden opgeteld, met een gemeenschappelijk loopbaanplafond van 45 jaar. Wie van statuut wisselt verliest dus geen pensioenrechten, maar bouwt verder op in het nieuwe stelsel. 🤖
+> > 
+> > KB nr. 38 art. 3 + art. 12 (volledig statuut zelfstandige in hoofdberoep — alle takken sociale zekerheid voor zelfstandigen). Wet 13.07.2005 betreffende de invoering van een jaarlijkse bijdrage ten laste van de zelfstandigen (gezinsbijslag). 🤖  
+> > *Bron: Art. 3 + 12 KB nr. 38 (volledige sociale dekking zelfstandige hoofdberoep)*
 
 <a id="2015-1-vr20"></a>
 

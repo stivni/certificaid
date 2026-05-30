@@ -1,0 +1,72 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrk1",
+  "interpretatie_datum": "2026-05-30T00:00:00Z",
+  "interpretatie_model": "claude-opus-4-7",
+  "vraag_herkomst": "officieel",
+  "vraag_onderwerp": "Sociaal statuut van zelfstandige in bijberoep — aansluiting sociale kas, berekening sociale bijdragen en sociale rechten",
+  "programmaonderdeel_ids": ["3.0"],
+  "themas": [
+    "sociaal statuut zelfstandigen",
+    "zelfstandige in bijberoep",
+    "sociale kas",
+    "sociale bijdragen",
+    "solidariteitsprincipe",
+    "sociale dekking",
+    "pensioenopbouw"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Mevrouw DE BOOT is als kinesiste voltijds werknemer in een revalidatiekliniek. Met het oog op de financiering van de studies van haar zoon beslist zij om haar activiteit als kinesiste verder uit te bouwen na de gewone werkuren en dit als zelfstandige. Mevrouw DE BOOT maakt een afspraak met een sociale kas voor zelfstandigen."
+    }
+  ],
+  "vragen": [
+    {
+      "id": "1",
+      "label_in_pdf": "1",
+      "vraagtype": "open",
+      "vraagstelling": "Denkt u dat mevrouw DE BOOT een goede beslissing heeft genomen door een dergelijke afspraak te maken? Licht uw antwoord toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "2",
+      "label_in_pdf": "2",
+      "vraagtype": "open",
+      "vraagstelling": "Mevrouw DE BOOT is nu aangesloten maar onder welk statuut? Licht uw antwoord toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "3",
+      "label_in_pdf": "3",
+      "vraagtype": "open",
+      "vraagstelling": "Mevrouw DE BOOT zal ook sociale bijdragen moeten betalen. Hoe zullen deze uiteindelijk berekend worden?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "4",
+      "label_in_pdf": "4",
+      "vraagtype": "open",
+      "vraagstelling": "Mevrouw DE BOOT is uiteindelijk niet ontevreden over het feit dat zij sociale bijdragen moet betalen want zij kan deze recupereren bij haar pensioen? Heeft mevrouw DE BOOT gelijk? Licht uw antwoord toe.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "5",
+      "label_in_pdf": "5",
+      "vraagtype": "open",
+      "vraagstelling": "Mevrouw DE BOOT overweegt om haar activiteit als werknemer te stoppen en voltijds te werken als zelfstandige. Verandert dit iets voor mevrouw DE BOOT?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Officiële BIBF-examen-PDF (4 mei 2019), sectie K.1 — 5 deelvragen onder gedeelde casus over kinesiste-werknemer die zelfstandige bijberoep start en zich aansluit bij een sociale kas. De PDF bevat onder elke deelvraag een modelantwoord-blok ('Antwoord - 1 punt' gevolgd door de officiële oplossing in vet); die modelantwoorden zijn niet opgenomen in 'vragen[]' (vraagstelling) omdat ze tot de oplossing horen, niet tot de vraag. Deelvraag 5 loopt over twee pagina's (vraagtekst eindigt op p. 46, vervolg 'Verandert dit iets voor mevrouw DE BOOT?' op p. 47); beide zinnen samengevoegd tot één vraagstelling. Punten-aanduiding '……/5' bovenaan + 5 × 1 punt onder de deelvragen bevestigt de totaalwaardering van 5 punten. Programmaonderdeel: BIBF-sectie K ('Beginselen van het arbeids- en sociaal zekerheidsrecht') heeft geen exact overeenkomende PO in het ITAA-examenprogramma 2024+; geclassificeerd als 3.0 (best fit volgens de gebruiker — vennootschaps-/insolventierecht is de dichtste verwante kapstok-PO voor algemeen recht).",
+  "kwaliteits_flags": [
+    "antwoord_hint_aanwezig"
+  ]
+}

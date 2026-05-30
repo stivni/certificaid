@@ -1,0 +1,168 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2019-bibf",
+  "vraag_id": "2019-bibf-vrk1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "1",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — mevrouw De Boot heeft een goede beslissing genomen: wie in België een zelfstandige beroepsactiviteit uitoefent (ook in bijberoep) is **wettelijk verplicht** zich aan te sluiten bij een erkend sociaal verzekeringsfonds voor zelfstandigen, en dit uiterlijk op de dag van de aanvang van de activiteit. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De aansluitingsplicht volgt uit het sociaal statuut van de zelfstandigen (KB nr. 38 van 27 juli 1967). Iedere natuurlijke persoon die in België een beroepsactiviteit uitoefent uit hoofde waarvan hij niet door een arbeidsovereenkomst of statuut verbonden is, valt onder dit statuut — ongeacht of het om een hoofdberoep of een bijberoep gaat. De aansluiting moet gebeuren bij een vrij gekozen erkend sociaal verzekeringsfonds (of, bij gebrek aan keuze, automatisch bij de Nationale Hulpkas). Niet aansluiten is een inbreuk die door het RSVZ bestraft wordt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen, art. 3 (toepassingsgebied: elke natuurlijke persoon met een beroepsactiviteit als zelfstandige in België) en art. 9 e.v. (verplichte aansluiting bij een sociaal verzekeringsfonds). 🤖",
+          "wetsref": "Art. 3 en 9 KB nr. 38 van 27.07.1967",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Mevrouw De Boot is aangesloten als **zelfstandige in bijberoep**, omdat haar activiteit als loontrekkende werknemer (voltijds in de revalidatiekliniek) haar **hoofdactiviteit** blijft. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het sociaal statuut onderscheidt drie hoedanigheden: hoofdberoep, bijberoep en gelijkstelling-bijberoep. Iemand is **in bijberoep** wanneer hij naast zijn zelfstandige activiteit gewoonlijk en hoofdzakelijk een andere beroepsactiviteit uitoefent die hem reeds sociale rechten opent in een ander stelsel — typisch een loontrekkende activiteit van minstens een halftijdse tewerkstelling. 🔗 Mevrouw De Boot is voltijds werknemer in de revalidatiekliniek en oefent haar zelfstandige activiteit als kinesiste daarnaast uit (na de gewone werkuren). Haar sociale zekerheidsdekking loopt dus in eerste instantie via haar werknemersstatuut (RSZ-werknemer); de zelfstandige activiteit is louter aanvullend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/rsz-werknemer.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het statuut bijberoep is niet alleen formeel — het heeft praktische gevolgen: lagere minimumbijdragen en de mogelijkheid van **vrijstelling van bijdragen** zolang het netto belastbaar inkomen uit de zelfstandige activiteit onder een wettelijke drempel blijft (de zogenaamde 'artikel 37'-drempel, jaarlijks geïndexeerd). Boven die drempel gelden dezelfde percentages als in hoofdberoep. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 35 en 37 KB van 19.12.1967 (algemeen uitvoeringsbesluit van KB nr. 38): definitie zelfstandige in bijberoep + bijdrage-regime en drempel voor vrijstelling. 🤖",
+          "wetsref": "Art. 35-37 KB 19.12.1967 (uitvoering KB nr. 38)",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De sociale bijdragen worden uiteindelijk berekend op basis van het **netto belastbaar beroepsinkomen** dat mevrouw De Boot met haar **aanvullende (zelfstandige) activiteit** als kinesiste verdient — dus de baten van haar vrije beroep na aftrek van de beroepskosten, vóór toepassing van het barema van de personenbelasting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/winst-baten-zelfstandige.json"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Mechanisme in drie stappen:\n\n1. **Voorlopige bijdragen** — bij aanvang van de activiteit worden bijdragen geheven op een geraamde basis (eigen schatting of een wettelijk minimum voor bijberoepers); deze bijdragen worden elk kwartaal aan het sociaal verzekeringsfonds betaald. 🤖\n2. **Definitieve regularisatie** — zodra de fiscale administratie het netto belastbaar beroepsinkomen van het bijdragejaar N meedeelt aan het RSVZ (doorgaans in jaar N+2 of N+3), worden de definitieve bijdragen herberekend op dat werkelijke inkomen en het saldo positief of negatief geregulariseerd. 🤖\n3. **Berekeningsbasis** — het netto belastbaar inkomen = bruto baten (art. 27 WIB92) min beroepskosten (werkelijk of forfait) min beroepsverliezen. Op die basis wordt een percentage toegepast (in hoofdberoep ca. 20,5 % op de eerste schijf; in bijberoep gelden dezelfde percentages, maar enkel boven de drempel — daaronder is mevrouw De Boot vrijgesteld). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/winst-baten-zelfstandige.json",
+            "data/concepten/records/beroepsinkomen-pb.json"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 11 KB nr. 38 (berekeningsbasis = inkomsten van het refertejaar zoals fiscaal vastgesteld) + art. 27 WIB92 (definitie baten vrije beroep). 🔗",
+          "wetsref": "Art. 11 KB nr. 38 + art. 27 WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN** — mevrouw De Boot heeft **geen** gelijk: de sociale bijdragen die zij als zelfstandige in bijberoep betaalt, kan zij **niet recupereren** bij haar pensioen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het Belgische sociale zekerheidsstelsel berust op het **solidariteitsprincipe**, niet op kapitalisatie. De bijdragen die elke zelfstandige stort, gaan in een gemeenschappelijke pot waaruit de huidige uitkeringen (pensioenen, ziekteverzekering, gezinsbijslag, …) van alle rechthebbenden worden gefinancierd — niet op een persoonlijke spaarrekening van de bijdrager. 🤖 Bovendien openen de bijdragen **in bijberoep** géén bijkomende sociale rechten: mevrouw De Boot bouwt haar pensioenrechten al op via haar werknemersstatuut (haar hoofdactiviteit). De bijdragen die zij als bijberoep stort, zijn dus zuiver solidariteitsbijdragen — niet recupereerbaar, niet pensioenopbouwend. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met een **zelfstandige in hoofdberoep**: daar openen de bijdragen wél eigen sociale rechten (pensioen, ziekte- en arbeidsongeschiktheidsverzekering, gezinsbijslag, moederschap, …). Het verschil zit dus niet in 'recupereren' maar in 'rechten openen' — en die rechten worden enkel geopend door de hoofdactiviteit, niet door de bijberoep-bijdragen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB nr. 38 art. 12, § 2 (bijdragen bijberoep openen geen bijkomende rechten) + algemeen repartitiebeginsel van de Belgische sociale zekerheid (wet 29.06.1981 houdende algemene beginselen sociale zekerheid werknemers; pendant voor zelfstandigen in KB nr. 38). 🤖",
+          "wetsref": "Art. 12, § 2 KB nr. 38 (geen bijkomende rechten in bijberoep) + repartitiebeginsel",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA, dit verandert wezenlijk iets**: zodra mevrouw De Boot haar werknemersactiviteit stopzet en voltijds als zelfstandige werkt, wordt zij **zelfstandige in hoofdberoep** en geniet zij vanaf dan een **volwaardige, nieuwe sociale dekking** via het sociaal statuut van de zelfstandigen — onder andere ziekteverzekering, gezinsbijslag en pensioenopbouw als zelfstandige. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie wijzigingen tegelijk:\n\n- **Statuutwijziging**: hoedanigheid bij het sociaal verzekeringsfonds gaat van bijberoep → hoofdberoep (te melden binnen de 15 dagen). 🤖\n- **Bijdrageregime**: de wettelijke minimumbijdrage van een zelfstandige in hoofdberoep wordt verschuldigd, ook als het netto belastbaar inkomen laag is (geen vrijstellingsdrempel zoals in bijberoep). De percentages (ca. 20,5 % op de eerste schijf) blijven dezelfde, maar gelden nu vanaf de eerste euro. 🤖\n- **Sociale rechten**: zij bouwt nu zélf rechten op in het stelsel van de zelfstandigen — pensioen (zelfstandigenpensioen), verplichte ziekte- en invaliditeitsverzekering, gezinsbijslag, moederschapsuitkering, overbruggingsrecht bij stopzetting, enzovoort. Tegelijk verliest zij de RSZ-werknemersdekking die zij voorheen genoot via haar werknemerscontract. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/rsz-werknemer.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De gecombineerde pensioenopbouw werknemer + zelfstandige resulteert in een **gemengde loopbaan**: voor elk jaar als werknemer wordt het pensioen berekend volgens het werknemersstelsel, voor elk jaar als zelfstandige volgens het zelfstandigenstelsel. Beide delen worden opgeteld, met een gemeenschappelijk loopbaanplafond van 45 jaar. Wie van statuut wisselt verliest dus geen pensioenrechten, maar bouwt verder op in het nieuwe stelsel. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB nr. 38 art. 3 + art. 12 (volledig statuut zelfstandige in hoofdberoep — alle takken sociale zekerheid voor zelfstandigen). Wet 13.07.2005 betreffende de invoering van een jaarlijkse bijdrage ten laste van de zelfstandigen (gezinsbijslag). 🤖",
+          "wetsref": "Art. 3 + 12 KB nr. 38 (volledige sociale dekking zelfstandige hoofdberoep)",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

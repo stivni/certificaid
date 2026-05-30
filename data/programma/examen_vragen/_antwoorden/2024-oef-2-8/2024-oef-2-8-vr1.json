@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-oef-2-8",
+  "vraag_id": "2024-oef-2-8-vr1",
+  "antwoord_datum": "2026-05-30T00:00:00Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Een dubbelbelastingverdrag (DBV) is enkel van toepassing op personen die inwoner zijn van één van de overeenkomstsluitende staten (of van beide). Inwonerschap is de poort tot het verdrag. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Artikel 1 OESO-Modelverdrag bepaalt dat het verdrag van toepassing is op \"persons who are residents of one or both of the Contracting States\". 📖 Wie geen inwoner is van minstens één van de twee verdragsluitende staten valt buiten het personeel toepassingsgebied en kan geen verdragsvoordelen inroepen (geen verlaagd bronheffingstarief, geen vrijstelling, geen verrekening). 🔗 De concrete invulling van \"inwoner\" volgt uit artikel 4 OESO-MV (onderworpenheid aan belasting wegens woonplaats, verblijf, plaats van bestuur of soortgelijk criterium), met een tie-breaker bij dubbele residentie. 🔗 Alle Belgische DBV's nemen deze structuur over — zie bv. art. 1 DBV BE-NL 2001: \"Dit Verdrag is van toepassing op personen die inwoner zijn van een of van beide verdragsluitende Staten.\" 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Inwonerschap van één van beide staten is **noodzakelijk maar niet altijd voldoende**: (i) sinds BEPS / MLI moet ook de **Principal Purpose Test** (PPT) doorstaan worden — een transactie die als hoofddoel verdragsvoordelen heeft, krijgt ze niet. 🔗 (ii) Voor sommige bepalingen (non-discriminatie art. 24, uitwisseling van inlichtingen art. 26) breidt het verdrag zich uit naar onderdanen of personen die géén inwoner zijn. 🔗 (iii) Fiscaal transparante entiteiten worden door art. 1, §2 OESO-MV (2017-versie) door-gekeken naar hun inwoner-deelnemers. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1 OESO-Modelverdrag (Persons Covered): \"This Convention shall apply to persons who are residents of one or both of the Contracting States.\" Begrip \"resident\" gedefinieerd in art. 4 OESO-MV. Identieke formulering in alle Belgische DBV's (bv. art. 1 DBV BE-NL 2001). 📖",
+          "wetsref": "Art. 1 OESO-Modelverdrag; art. 1 DBV BE-NL 2001",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/DBV-BE-NL-2001.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
