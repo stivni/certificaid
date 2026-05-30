@@ -1,0 +1,73 @@
+{
+  "id": "drempels-kleine-vennootschap",
+  "schema_version": "1.0",
+  "titel": "Drempels kleine vennootschap (art. 1:24 WVV)",
+  "categorie": "groottecriteria",
+  "wetsbasis": [
+    {
+      "bron": "WVV",
+      "artikel": "1:24 § 1"
+    }
+  ],
+  "geldigheidsperiode": {
+    "vanaf_boekjaar": 2024,
+    "tot_boekjaar": null,
+    "wijziging_door": "Wet 28 maart 2024 (omzetting EU-richtlijn 2023/2775)"
+  },
+  "samenvatting": "Een vennootschap is klein als ze op balansdatum van het laatst afgesloten boekjaar niet meer dan één van de drie criteria overschrijdt. Werknemerscriterium ongewijzigd; omzet- en balanstotaal-criterium verhoogd door Wet 28 maart 2024.",
+  "drempel_regel": "Niet meer dan één criterium overschreden. Wijziging van grootte-status treedt slechts in na twee opeenvolgende boekjaren (art. 1:24 § 2 WVV).",
+  "criteria": [
+    {
+      "naam": "Jaargemiddelde werknemers",
+      "waarde": 50,
+      "eenheid": "personen"
+    },
+    {
+      "naam": "Jaaromzet (excl. btw)",
+      "waarde": 11250000,
+      "eenheid": "EUR",
+      "toelichting": "Verhoogd van 9.000.000 EUR door Wet 28-03-2024"
+    },
+    {
+      "naam": "Balanstotaal",
+      "waarde": 6000000,
+      "eenheid": "EUR",
+      "toelichting": "Verhoogd van 4.500.000 EUR door Wet 28-03-2024"
+    }
+  ],
+  "context_tabellen": [
+    "drempels-microvennootschap",
+    "drempels-groep-beperkte-omvang"
+  ],
+  "bron": {
+    "primair": "CBN-advies 2024/07 §Verhoging drempelwaarden",
+    "wettekst": "WVV art. 1:24 § 1 (Memorie van toelichting Parl. St. Kamer 54-3119/001)",
+    "cijferzakboekje_pagina": null,
+    "verified_via": "RAG-zoek_bronnen — bedragen woordelijk bevestigd in CBN-advies 2024/07 §Verhoging drempelwaarden + Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)"
+  },
+  "confidence": "⚖️",
+  "tags": [
+    "wvv",
+    "groottecriteria",
+    "klein",
+    "vennootschap"
+  ],
+  "metadata": {
+    "created_at": "2026-05-30",
+    "extract_provenance": {
+      "model": "opus-4.7-1M",
+      "extract_route": "RAG-only (geen Cijferzakboekje-PNG vision)",
+      "extract_prompt": "ADR-026 POC — handmatig door Opus",
+      "rag_queries": [
+        "drempels groep van beperkte omvang artikel 1:26 WVV werknemers omzet balanstotaal"
+      ],
+      "primary_rag_bronnen": [
+        "CBN-advies 2024/07 §Verhoging drempelwaarden",
+        "MvT-WVV-2018 art. 1:24-1:26 (Parl. St. Kamer 54-3119/001)"
+      ]
+    },
+    "trusted": true,
+    "trusted_at": "2026-05-30",
+    "trusted_by": "opus-poc-2026-05-30 (RAG-cross-verified CBN 2024/07 + MvT-WVV)"
+  }
+}
