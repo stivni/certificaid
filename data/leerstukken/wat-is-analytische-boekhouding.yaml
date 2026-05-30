@@ -1,0 +1,192 @@
+# Leerstuk-script — wat is analytische boekhouding?
+#
+# PO 1.8, lstk 1 van 4. Entry- en kader-fiche: stelsel + registratie + kostentypologie.
+# Voedt het concept-vocabulair waar lstk 2/3/4 op bouwen.
+# Voorbeeldgroep: data/voorbeeldgroepen/meridia-meubel.yaml
+
+meta:
+  slug: wat-is-analytische-boekhouding
+  titel: "Wat is analytische boekhouding?"
+  po: "1.8"
+  cluster: analytische-boekhouding
+  voorbeeldgroep: meridia-meubel
+  beschrijving: >
+    Leerstuk PO 1.8 — wat doet de analytische boekhouding bovenop de algemene
+    boekhouding, hoe verhoudt ze zich er toe (klassen 8/9, spiegelrekeningen),
+    welk registratiesysteem kies je, en met welk kostentypologie-vocabulaire
+    bouw je de rest van het PO.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.8 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches leiden
+    voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: de analytische boekhouding herleidt dezelfde euro's uit de algemene boekhouding van AARD (loon, huur) naar BESTEMMING (welk product, welke afdeling, welke klant)."
+    - "Tweede zin: ze is intern (niet voor de fiscus), niet wettelijk verplicht, en de vorm is vrij — er bestaat geen 'juiste' methode, alleen geschikte voor het doel."
+    - "Derde zin: dit leerstuk werkt drie dingen uit — (1) waarom de tweede laag, (2) hoe ze technisch koppelt aan klassen 6/7 via klassen 8/9, (3) met welk kostenvocabularium je verder werkt in de volgende leerstukken."
+  visualisaties:
+    - type: mermaid
+      ref: stroom-analytische-sfeer
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Meridia Meubel BV — een meubelmaker met twee productlijnen — loopt als rode draad door dit en de drie volgende leerstukken.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: waarom-tweede-laag
+    titel: "Waarom een tweede boekhouding bovenop de algemene?"
+    niveau: 2
+    beats:
+      - "Intuïtie eerst: de algemene boekhouding antwoordt op 'wat hebben we uitgegeven?' (loon, huur, eik); de analytische antwoordt op 'waaraan hebben we het uitgegeven?' (tafel-eik, kast-op-maat, productiehal)."
+      - "Concretiseer met Meridia: een factuur van 24.000 EUR eikenhout boekt in klasse 60 (kost naar aard). Voor de fiscus en de jaarrekening is dat genoeg. Maar de bedrijfsleider wil weten: hoeveel van die 24.000 zit straks in de prijs van een tafel? Dat antwoord komt nooit uit klasse 60 alleen."
+      - "Som de vier interne vragen op die de analytische boekhouding kan beantwoorden — prijszetting, productlijn-rendabiliteit, afdelings-performantie, budget-opvolging. Refereer naar [[analytische-boekhouding]] voor de definitorische opzoek."
+      - "Belangrijke nuance: GEEN wettelijke verplichting. Het Belgisch boekhoudrecht (WVV + KB-WVV) eist alleen de algemene boekhouding. Een onderneming MAG analytisch werken, MOET het niet. Maar wie het niet doet, vliegt blind op operationele beslissingen."
+      - "Synthese (vetgedrukt): de algemene boekhouding is voor de buitenwereld (fiscus, banken, vennoten); de analytische is voor de directie zelf."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Vraag", "Algemene boekhouding", "Analytische boekhouding"]
+        rijen:
+          - ["Waaraan geven we geld uit?", "Ja — per aard (60, 61, 62, ...)", "Ja — per bestemming (tafel, afdeling, klant)"]
+          - ["Wat kost één tafel-eik?", "Nee — alleen totalen", "Ja — per kostendrager"]
+          - ["Welke productlijn is rendabelst?", "Nee", "Ja — marges per lijn"]
+          - ["Verplicht?", "Ja — WVV + KB-WVV", "Nee — vrije keuze"]
+          - ["Voor wie?", "Externe stakeholders", "Interne directie"]
+          - ["Format-vrijheid?", "Strikt vastgelegd (BNB-schema)", "Volledig vrij"]
+
+  - id: kostentypologie
+    titel: "Het kostenvocabularium — vier hokjes om elke kost in te leggen"
+    niveau: 2
+    beats:
+      - "Open: vooraleer we kunnen praten over kostprijs, BEP of variantie, moeten we elke kost op twee assen kunnen plaatsen. Dat is de gemeenschappelijke woordenschat voor de hele rest van PO 1.8."
+      - "As 1: GEDRAG — hoe reageert de kost op volume? Vast (huur productiehal blijft 120.000 EUR of we 1 of 10.000 tafels maken) versus variabel (eik schaalt 1-op-1 met productie)."
+      - "As 2: TOEREKENBAARHEID — kunnen we de kost zonder verdeelsleutel aan één product hangen? Direct (eik gaat letterlijk in déze tafel) versus indirect (huur productiehal dekt tafels én kasten)."
+      - "Toon de vier-cellen-matrix toegepast op Meridia — laat zien dat elke kost ergens valt."
+      - "Concretiseer: 'energie CNC' is variabel én indirect (deelt zich tussen tafel en kast naargelang machine-uren); 'eik voor tafels' is variabel én direct; 'algemeen beheer' is vast én indirect."
+      - "Vooruit-link: deze matrix bepaalt straks in [[kostprijsmethoden-kiezen]] welke kosten je waar verdeelt — full costing pakt alle vier cellen, direct costing alleen de variabele rij, ABC ontmaskert in de indirect-vast-cel de cross-subsidie."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: kostentypologie_meridia
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: arbeid-en-personeelskosten
+        titel: "Arbeid als bijzondere kostencomponent"
+        niveau: 3
+        beats:
+          - "Arbeid verdient een aparte vermelding: het kan beide kanten op (vast OF variabel, direct OF indirect) afhankelijk van het beloningssysteem en de toewijzing."
+          - "Vast + direct: een afwerker die enkel aan tafel-serie werkt (vast contract, dedicated)."
+          - "Variabel + direct: een uitzendkracht voor één kast-job (uurloon, direct op kast geboekt)."
+          - "Vast + indirect: de productieleider die tafel én kast superviseert (vast loon, gedeeld)."
+          - "Variabel + indirect: een premieregeling bovenop het uurloon voor alle productieuren (volgt activiteit, gedeeld)."
+          - "Tijdregistratie is de boekhoudkundige hefboom: zonder uren-per-product wordt arbeid noodgedwongen indirect — mét tijdregistratie kan ze direct worden."
+          - "Wikilink naar [[personeelskosten]] voor het volledige loonkost-mechanisme (klasse 62, RSZ, voordelen alle aard); hier blijven we bij hoe je arbeid analytisch toewijst."
+        type: blockquote-aside
+
+  - id: klassen-8-en-9
+    titel: "Hoe koppelt de analytische sfeer aan de algemene? — klassen 8/9 en spiegelrekeningen"
+    niveau: 2
+    beats:
+      - "Open: een tweede boekhouding is alleen nuttig als ze ZONDER divergentie aansluit op de eerste. Het Belgisch genormaliseerd rekeningenstelsel reserveert klassen 8 en 9 specifiek voor analytische posten — los van klassen 0-7 die de algemene boekhouding bezet."
+      - "Het mechanisme heet 'spiegelrekening': elke kost in klasse 60-62 krijgt een tegenboeking in klasse 90 (reflet), die meteen wordt doorgeboekt naar een klasse 92 (afdeling) of een kostenobject-rekening."
+      - "Toon de spiegelboeking-Meridia: 24.000 EUR eik wordt geboekt in 600 D / 440 C (algemeen), en in twee analytische stappen — 90 D / 99 C (spiegel), dan 92 D / 90 C (toewijzing aan productiehal). Saldo 90 = 0 na de tweede stap. Saldo 99 = totaal spiegel-volume = controleerbaar tegen klasse 6."
+      - "Belangrijk: klasse 8/9 is een KEUZE van het rekeningenstelsel, geen wettelijke verplichting. Een onderneming mag haar analytische boekhouding ook in een ERP-module of spreadsheet voeren, naast klassen 0-7."
+      - "Synthese: klassen 8/9 zijn een infrastructuur, niet een methode. De methode (full vs direct vs ABC vs standaard) zit in WAT je in klasse 92 boekt — niet in de spiegeling zelf."
+    visualisaties:
+      - type: boeking
+        ref: spiegelboeking-grondstof-aankoop
+        bron: voorbeeldgroep
+
+  - id: registratiesystemen
+    titel: "Drie registratiesystemen — welke kiest een onderneming?"
+    niveau: 2
+    beats:
+      - "De ondernemingskeuze van WAAR je de analytische cijfers houdt heeft praktische gevolgen voor opzet, aansluiting en rapporteringssnelheid."
+      - "Toon de drie systemen naast elkaar — niet-geïntegreerd, gespiegeld (klassen 8/9), geïntegreerd — met voor/tegen per stuk."
+      - "Voor Meridia: gespiegeld systeem gekozen — middelgrote BV, ERP aanwezig, audit-friendly, schaal-bestendig. Motiveer in één paragraaf."
+      - "Belangrijke nuance: kleine ondernemingen kunnen perfect met een spreadsheet-aanpak werken zolang de aansluiting maandelijks gedaan wordt. De zwaarste opzet (geïntegreerd) is alleen rendabel bij hoge volumes of regulatoire druk."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: registratiesystemen_keuze
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: aansluiting-met-algemene
+        titel: "Aansluiting analytisch ↔ algemeen"
+        niveau: 3
+        beats:
+          - "Bij elk systeem — behalve het volledig geïntegreerde — moet je periodiek (typisch maandelijks) reconciliëren: totaal analytische kosten = totaal klasse 6 + kostencorrecties (incorporatieverschillen)."
+          - "Incorporatieverschillen: bepaalde algemene kosten zijn NIET-incorporeerbaar (niet relevant voor de productkost — bv. uitzonderlijke kosten klasse 66, financiële kosten klasse 65). Omgekeerd kunnen analytische BIJKOMENDE kosten worden ingevoerd die niet in klasse 6 staan (bv. een opportunity-kost voor inzet van eigen kapitaal — relevant intern, maar geen factuur)."
+          - "Examen-valkuil: de aansluiting hoeft NIET tot op de euro te kloppen — wel materieel. Een afwijking van 0,5% op een productie-batch hoort tot het normale aanpassingswerk; > 5% is een rood signaal en vraagt onderzoek."
+        type: blockquote-aside
+
+  - id: het-resultaat
+    titel: "Wat zie je als alles draait? — twee verhalen over dezelfde euro"
+    niveau: 2
+    beats:
+      - "Sluit af met de oogst: na een correct opgezet analytisch systeem heeft Meridia op elk moment TWEE verhalen over dezelfde 24.000 EUR eikenhout uit januari."
+      - "Verhaal A (algemene boekhouding): 'we hebben in januari voor 24.000 EUR grondstoffen aangekocht (klasse 600).' Dat verschijnt in de RR onder kosten naar aard."
+      - "Verhaal B (analytische boekhouding): 'die 24.000 EUR is gegaan naar 800 kg eik die in januari verbruikt is in de productiehal voor 200 tafel-eik-eenheden = 120 EUR materiaal per tafel.' Dat verschijnt nergens in de externe jaarrekening — wel in de kostprijscalculatie."
+      - "Beide verhalen zijn waar; beide zijn nodig; geen vervangt de andere."
+      - "Vooruit-link: in [[kostprijsmethoden-kiezen]] ga je leren WELKE techniek je gebruikt om verhaal B te bouwen — vier methodes naast elkaar, elk met een eigen doel."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kostprijsmethoden-kiezen
+      hint: "Welke kostprijsmethode kies je voor welk doel? Vier methodes (full · direct · ABC · standaard) naast elkaar uitgewerkt op Meridia."
+    - slug: break-even-en-marginale-beslissing
+      hint: "Hoe gebruik je de kostenstructuur om concrete beslissingen te onderbouwen (special order, make-or-buy, productmix)?"
+    - slug: budget-en-variantieanalyse
+      hint: "Hoe bouw je een masterbudget en hoe analyseer je achteraf de afwijkingen?"
+  themafiches:
+    - slug: analytische-boekhouding-stelsel
+      hint: "Voor herhaling vlak vóór het examen — kapstok met klassen 8/9 + drie registratiesystemen + kostentypologie."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [analytische-boekhouding]
+    - concepten: [bedrijfskosten, bedrijfsopbrengsten]
+    - concepten: [personeelskosten]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Boekhoudplicht — algemene boekhouding"
+    ref: "WER Boek III art. III.82-III.95 + KB 29-04-2019 (KB-WVV)"
+    noot: >
+      Het Belgisch boekhoudrecht eist een algemene boekhouding voor elke
+      boekhoudplichtige onderneming. Analytische boekhouding wordt NIET
+      verplicht — alleen aanbevolen voor interne sturing.
+  - onderwerp: "Minimum algemeen rekeningenstelsel (MAR) — klassen 8 en 9"
+    ref: "KB 21-10-2018 (MAR)"
+    noot: >
+      Het MAR reserveert klassen 8 (analytische resultaten) en 9 (analytische
+      rekeningen) voor de interne sfeer. Het stelt het GEBRUIK niet verplicht;
+      het stelt enkel ter beschikking voor wie analytisch wil werken binnen
+      één geïntegreerd rekeningenstelsel.
+  - onderwerp: "Voorraadwaardering — invloed van kostprijsmethode"
+    ref: "KB-WVV art. 3:18 (aanschaffingswaarde) + art. 3:21 (waarderingsmethodes) + CBN-advies 132/7"
+    noot: >
+      Voor de WETTELIJKE jaarrekening moeten productiekosten in voorraad
+      gewaardeerd volgens een full-costing-redenering — vaste productie-OH
+      hoort in de voorraadwaarde. Direct costing mag intern, niet voor de
+      neergelegde JR.
+
+footer: "Leerstuk PO 1.8 — lstk 1 van 4. Status: voorgesteld."

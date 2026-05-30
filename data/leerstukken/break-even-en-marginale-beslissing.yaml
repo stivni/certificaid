@@ -1,0 +1,226 @@
+# Leerstuk-script — break-even en marginale beslissing
+#
+# PO 1.8, lstk 3 van 4. Techniek + beslissingsfiche: BEP-formules + marginale
+# analyse + knelpunt-mix + special order + make-or-buy + keep-or-drop.
+# Bouwt op contributiemarge uit [[kostprijsmethoden-kiezen]] (direct-costing-blok).
+# Voedt lstk 4 (mix-keuze als input voor productiebudget).
+
+meta:
+  slug: break-even-en-marginale-beslissing
+  titel: "Hoe gebruik je kostenstructuur om beslissingen te onderbouwen?"
+  po: "1.8"
+  cluster: analytische-boekhouding
+  voorbeeldgroep: meridia-meubel
+  beschrijving: >
+    Leerstuk PO 1.8 — break-even-analyse (BEP-volume, multi-product-BEP,
+    veiligheidsmarge) en marginale analyse (special order, make-or-buy,
+    knelpunt-mix, keep-or-drop) toegepast op Meridia. De rode draad:
+    contributiemarge maakt elke beslissing scherp.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.8 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches leiden
+    voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: zodra je de contributiemarge per eenheid kent, kun je vier verschillende beslissingsvragen scherp maken — vanaf welk volume rendabel (BEP), aanvaarden of weigeren van een order, zelf maken of kopen, welke productmix bij capaciteitsbeperking."
+    - "Tweede zin: de gemeenschappelijke regel — alléén relevante kosten meetellen (kosten die door de beslissing veranderen). Sunk costs negeren, vaste OH negeren als ze toch doorlopen, opportunity-kost meenemen ook al staat ze niet in de boekhouding."
+    - "Derde zin: in dit leerstuk werken we vijf beslissingen op Meridia uit — BEP tafel-alleen, multi-product-BEP, special order van een retailer, make-or-buy van laden, en knelpunt-mix op de CNC-machine."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Beslissingsvraag", "Welke methode?", "Sleutelformule"]
+      rijen:
+        - ["Vanaf welk volume break-even?", "BEP-analyse", "Vaste kosten / CM per eenheid"]
+        - ["Aanvaarden van een lagere prijs voor één batch?", "Special-order-analyse", "Extra opbrengst > Extra variabele kost?"]
+        - ["Zelf produceren of inkopen?", "Make-or-buy", "Vergelijk relevante kosten beide opties"]
+        - ["Welke mix bij capaciteitstekort?", "Knelpunt-analyse", "Maximaliseer CM per knelpunt-uur"]
+        - ["Een productlijn schrappen?", "Keep-or-drop", "Vermijdbare vaste kost vs verloren CM"]
+  afsluiter: "Korte zin: 'Voor elke beslissingsvraag staat de contributiemarge centraal — het is de motor van het hele leerstuk.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: contributiemarge-herhaling
+    titel: "Vertrekpunt — contributiemarge in één zin"
+    niveau: 2
+    beats:
+      - "Korte recap voor wie [[kostprijsmethoden-kiezen]] doorhad: contributiemarge per eenheid = verkoopprijs minus variabele kost per eenheid. Bij Meridia: tafel 500 − 240 = 260 EUR; kast 1800 − 1080 = 720 EUR."
+      - "Op totaal-niveau: contributiemarge = totale omzet minus totale variabele kosten. Wat overblijft 'draagt bij' aan de dekking van vaste kosten + winst."
+      - "Belangrijk inzicht: vaste kosten lopen toch door (huur, afschrijving, directie) — of we 1 of 5.000 tafels maken. Beslissingen die alleen voor het komende kwartaal of project gelden, mogen de vaste kost negeren. Beslissingen over de prijsstrategie op lange termijn niet."
+      - "Voor dit leerstuk: telkens dezelfde vraag — 'wat is de extra contributiemarge van deze beslissing, en wegen die extra vermijdbare kosten ertegen op?'"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "Tafel-eik", "Kast-op-maat"]
+        rijen:
+          - ["Verkoopprijs (EUR)", "500", "1.800"]
+          - ["Variabele kost (EUR)", "240", "1.080"]
+          - ["**Contributiemarge per eenheid**", "**260**", "**720**"]
+          - ["CM-ratio (% omzet)", "52 %", "40 %"]
+
+  - id: break-even-tafel
+    titel: "Break-even-analyse — vanaf welk volume rendabel?"
+    niveau: 2
+    beats:
+      - "Definitie: het break-even-punt (BEP) is het verkoopvolume waarbij totale opbrengsten = totale kosten — onder dat punt verlies, erboven winst."
+      - "Twee formules — leer ze allebei. BEP-volume = vaste kosten / CM per eenheid. BEP-omzet = vaste kosten / CM-ratio."
+      - "Toepassing tafel-eik alleen: toegewezen vaste OH = 462.500 EUR (proportioneel naar CNC-verbruik 4000/6400). BEP-volume = 462.500 / 260 = 1.779 tafels. BEP-omzet = 1.779 × 500 = 889.500 EUR. Werkelijk volume = 4.000 → veiligheidsmarge 55,5 %."
+      - "Wikilink naar [[break-even-analyse]] voor het volledige kader (operationele hefboom, CVP-grafiek, doelwinst-variant)."
+      - "Examen-tip: het examen vraagt typisch ofwel een BEP-volume-berekening ofwel een 'doelwinst-volume'-berekening. Doelwinst-formule: (vaste kosten + doelwinst) / CM per eenheid. Toegepast: voor 300.000 EUR winst zou tafel-alleen (462.500 + 300.000) / 260 = 2.933 tafels moeten verkopen."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: bep-tafel-eik-alleen
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: multi-product-bep
+        titel: "Multi-product-BEP — als de mix verandert, verschuift het BEP"
+        niveau: 3
+        beats:
+          - "Voor een onderneming met meerdere producten kun je niet één BEP berekenen — wel een gewogen BEP onder de aanname dat de productmix constant blijft."
+          - "Mechaniek: bereken de gewogen CM per eenheid op basis van de mix (in eenheden, niet in omzet). Bij Meridia: tafel 87% × 260 + kast 13% × 720 = 319,83 EUR gewogen CM."
+          - "BEP-eenheden totaal = 740.000 / 319,83 = 2.314 eenheden (2.012 tafels + 302 kasten). BEP-omzet = 1.549.600 EUR."
+          - "Valkuil: dit BEP-cijfer geldt ALLEEN bij de constante mix 87/13. Als kast-aandeel stijgt (gewogen CM stijgt), zakt het BEP-aantal; daalt kast-aandeel, stijgt het BEP. Bij mix-shift moet je herberekenen — het BEP is geen vast getal, het is een mix-afhankelijk getal."
+        type: blockquote-aside
+
+  - id: special-order
+    titel: "Beslissing 1 — Aanvaard je een special order onder de gewone prijs?"
+    niveau: 2
+    beats:
+      - "Case: een grote retailer biedt 350 EUR per tafel (i.p.v. de normale 500) voor een eenmalige batch van 500 tafels onder eigen huismerk. Aanvaarden?"
+      - "Naïeve reflex (FOUT): 'onze full-costing-kost is 355,63 EUR — onder die kostprijs verkopen is verliezen.' Daarmee weiger je de order en verlies je 55.000 EUR potentiële winst."
+      - "Juiste analyse: incrementeel. Extra opbrengst 500 × 350 = 175.000 EUR. Extra variabele kost 500 × 240 = 120.000 EUR. Extra vermijdbare vaste kost = 0 (past binnen vrije CNC-capaciteit van 600 uur). Incrementele winst = 55.000 EUR."
+      - "Sleutel: vaste OH (740.000 EUR) loopt toch door — ze is GEEN relevante kost voor déze beslissing. Pas de full-costing-prijs van 355 EUR als ondergrens als de order LANGE-TERMIJN-capaciteit zou bezetten of nieuwe vaste OH veroorzaakt."
+      - "Wikilink naar [[marginale-analyse]] voor de drie criteria van 'relevante kost' (toekomstig, differentieel, cashflow of opportunity)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: special-order-case
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: special-order-risico
+        titel: "Waarom je toch voorzichtig moet zijn"
+        niveau: 3
+        beats:
+          - "Cannibalisatie-risico: als de huismerk-tafels regulier-merk-verkoop verdringen (klanten die anders 500 EUR zouden betalen, kopen nu 350-huismerk), draait de logica om. Per verdrongen tafel: derving 500 − 350 = 150 EUR. Bij volledige cannibalisatie: 500 × 150 = 75.000 EUR derving — winst van +55.000 wordt verlies van -20.000."
+          - "Drie voorwaarden voor 'ja': (1) vrije capaciteit bestaat, (2) huismerk-kanaal raakt eigen merk niet (geografisch of segment-afgesloten), (3) eenmalig (geen prijspunt-precedent voor andere klanten)."
+          - "Aanbeveling aan de directie van Meridia: aanvaarden mét contractuele afbakening — alleen aan deze retailer, eenmalige levering, NDA op kostprijs. Doelstelling 1.8.1.9: management-beslissing onderbouwd."
+        type: blockquote-aside
+
+  - id: make-or-buy
+    titel: "Beslissing 2 — Make-or-buy: laden zelf maken of inkopen?"
+    niveau: 2
+    beats:
+      - "Case: Meridia overweegt elke tafel uit te rusten met een lade. Twee opties — zelf produceren of inkopen bij een externe leverancier."
+      - "Optie zelf: variabele kost 25 EUR/lade × 4000 tafels + vermijdbare vaste kost 30.000 EUR (ladenmal) = 130.000 EUR totale jaarkost."
+      - "Optie inkopen: 30 EUR/lade × 4000 = 120.000 EUR."
+      - "Conclusie bij huidig volume: inkopen 10.000 EUR voordeliger."
+      - "Indifferentievolume: bereken vanaf welk aantal zelf-maken wint. 25Q + 30.000 = 30Q → Q = 6.000 laden. Onder dit volume: kopen; boven dit volume: maken."
+      - "Kwalitatieve factoren niet meegerekend in de cijfers maar wél in het advies: kwaliteitscontrole over zelf-productie, levertijd-risico bij externe leverancier, leverancier-afhankelijkheid, mogelijkheid om productie te 'flexen' bij vraag-schommeling."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: make-or-buy-laden
+        bron: voorbeeldgroep
+
+  - id: knelpunt-mix
+    titel: "Beslissing 3 — Knelpunt-mix: welke productlijn voorrang bij capaciteitstekort?"
+    niveau: 2
+    beats:
+      - "De CNC-machine van Meridia is dé bottleneck (6.400 van 7.000 uren bezet, 91%). Bij vraag-stijging is een keuze nodig: welke productlijn krijgt voorrang?"
+      - "Naïeve reflex (FOUT): kast heeft hogere CM per stuk (720 vs 260) → kast voorrang. Dit klopt alleen als het knelpunt 'eenheden' is. Hier is het knelpunt CNC-uren."
+      - "Juiste maatstaf: CM per knelpunt-uur. Tafel: 260 EUR / 1 CNC-uur = 260 EUR/uur. Kast: 720 EUR / 4 CNC-uren = 180 EUR/uur. TAFEL wint per knelpunt-uur, ondanks lagere CM per stuk."
+      - "Stelregel: bij beperkende factor, deel de CM door het verbruik VAN die factor — niet door de eenheid. Knelpunt kan ook arbeid-uren zijn, materiaal-kg, klant-bezoeken, machine-cycli."
+      - "Concretisering: stel vraag stijgt naar 5000 tafels + 700 kasten = 7800 CNC-uren nodig (800 te veel). Volgens knelpunt-logica: maximaliseer tafels eerst (5000 × 1 = 5000 uren), vul aan met kast tot 7000 uren bereikt (2000 uren = 500 kasten). Totale CM = 5000 × 260 + 500 × 720 = 1.300.000 + 360.000 = 1.660.000 EUR — beter dan elke andere mix die deze capaciteit respecteert."
+      - "Wikilink naar [[marginale-analyse]] voor opportunity-cost-redenering bij knelpunten."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: knelpunt-cnc-mix
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: knelpunt-strategisch
+        titel: "Vanaf wanneer wordt dit een advies aan de directie?"
+        niveau: 3
+        beats:
+          - "De knelpunt-analyse onderbouwt een directe operationele beslissing (welke order eerst afwerken bij capaciteitsdruk). Maar ze opent ook een strategische vraag: moet de knelpunt-resource uitgebreid worden?"
+          - "Bij Meridia 2026 wordt een nieuwe afwerkmachine gekocht (300.000 EUR) die afwerk-uren vrijmaakt — maar de CNC blijft knelpunt. Strategische vervolgvraag: een tweede CNC-machine (CapEx ~500.000 EUR) overwegen? Dat hangt af van duurzame vraagprognose en hurdle-rate (zie ook [[budget-en-variantieanalyse]] voor het investeringsbudget)."
+          - "Adviesvorm: signaleer dat een knelpunt-resource VANDAAG winst beperkt; OF capaciteit uitbreiden OF de minst-CM-per-uur-product uitfaseren. Doelstelling 1.8.1.10 (strategisch advies) leeft hier — niet als apart hoofdstuk maar als natuurlijk vervolg op de knelpunt-cijfers."
+        type: blockquote-aside
+
+  - id: keep-or-drop
+    titel: "Beslissing 4 — Keep-or-drop: een productlijn schrappen?"
+    niveau: 2
+    beats:
+      - "Onder ABC bleek kast-op-maat slechts 107 EUR marge per stuk te leveren — ver onder tafel-eik (167 EUR). Vraag: moet Meridia kast schrappen?"
+      - "Naïeve reflex (FOUT): 'kast verliest onder ABC → drop.' Maar ABC-kost is een TOEREKENING, geen vermijdbare kost."
+      - "Juiste analyse: focus op de VERMIJDBARE vaste kost bij schrappen, niet op de totale ABC-allocatie. Bij kast-schrappen vermijden we 180.000 EUR setup-personeel-kast-specifiek; algemeen beheer, huur, CNC-afschrijving lopen door."
+      - "Berekening: omzet kast 1.080.000 − variabele kost 648.000 = CM 432.000 EUR/jaar. Minus vermijdbare vaste kost 180.000 = netto bijdrage 252.000 EUR/jaar aan de dekking van algemene vaste OH."
+      - "Conclusie: schrappen kost +252.000 EUR/jaar. Dragen, tenzij de vrijgekomen CNC-capaciteit aan een derde, méér winstgevende productlijn kan worden besteed (opportunity cost). Beslissing-relevante kost ≠ ABC-allocatie."
+      - "Onderstreep voor het examen: 'verlieslatend volgens ABC' ≠ 'schrappen winstgevend'. Vermijd de val van directe-translatie."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: keep-or-drop-aanvulling
+        bron: voorbeeldgroep
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): de gemiddelde kostprijs uit full costing gebruiken als beslissingsbasis voor een eenmalige order. Bij vrije capaciteit dekt elke euro boven variabele kost nog vaste OH — niet onder de full-cost-prijs blijven uit reflex."
+      - "Valkuil 2 (⚠️): bij knelpunt-mix de CM per STUK rangschikken in plaats van CM per knelpunt-uur. Tafel-eik (CM 260) wint per CNC-uur (260/uur) van kast (180/uur), ondanks lagere CM per stuk."
+      - "Valkuil 3 (⚠️): vermijdbare vaste kost verwarren met toegerekende ABC-kost bij keep-or-drop. Alleen kosten die VERDWIJNEN bij schrappen tellen — directie-loon en huur blijven gewoonlijk doorlopen."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: budget-en-variantieanalyse
+      hint: "Hoe vertaal je de mix-keuze en kostenstructuur in een masterbudget voor het komende jaar, en hoe analyseer je achteraf de afwijkingen?"
+    - slug: kostprijsmethoden-kiezen
+      hint: "Bouwsteen-leerstuk: waar contributiemarge en de vier kostprijsmethodes uit komen."
+    - slug: wat-is-analytische-boekhouding
+      hint: "Het kader-leerstuk: kostentypologie en klassen 8/9 die alle beslissingsanalyses voeden."
+  themafiches:
+    - slug: break-even-en-marginale-analyse
+      hint: "Voor herhaling vlak vóór het examen — formules + valkuilen + beslissingstabel."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [break-even-analyse, marginale-analyse]
+    - concepten: [direct-costing]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Geen specifieke wetsbron"
+    ref: "BEP- en marginale-analyse zijn bedrijfseconomische technieken — geen wettelijke regeling."
+    noot: >
+      Wel verwant: de BOEKHOUDKUNDIGE behandeling van voorraad bij keuze
+      tussen full en direct costing valt onder KB-WVV art. 3:18-19 + CBN 132/7
+      (zie [[kostprijsmethoden-kiezen]] §Wettelijk fundament). De BESLISSINGS-
+      analyse zelf is regelvrij — wel onderworpen aan trouw beeld bij externe
+      rapportering van de uitkomsten.
+  - onderwerp: "Make-or-buy en transfer pricing (bij intra-groep-make-or-buy)"
+    ref: "WIB92 art. 185 §2 (arm's length-beginsel)"
+    noot: >
+      Als de 'buy'-leverancier een verbonden vennootschap is binnen dezelfde
+      groep, moet de prijs marktconform zijn — anders fiscale correctie.
+      Buiten scope hier; vermelding voor cross-PO-bewustzijn naar PO 2.x
+      (fiscaliteit).
+
+footer: "Leerstuk PO 1.8 — lstk 3 van 4. Status: voorgesteld."

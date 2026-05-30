@@ -1,0 +1,249 @@
+# Leerstuk-script — budget en variantieanalyse
+#
+# PO 1.8, lstk 4 van 4. Proces + techniek-fiche: masterbudget bouwen (zes
+# deelbudgetten + pro-forma JR) + variantieanalyse Q1 2026 + budget-herziening.
+# Bouwt op standaardkost uit [[kostprijsmethoden-kiezen]] en mix-keuze uit
+# [[break-even-en-marginale-beslissing]]. Sluit het PO af met de feedback-lus.
+
+meta:
+  slug: budget-en-variantieanalyse
+  titel: "Hoe bouw je een masterbudget en hoe analyseer je de varianties?"
+  po: "1.8"
+  cluster: analytische-boekhouding
+  voorbeeldgroep: meridia-meubel
+  beschrijving: >
+    Leerstuk PO 1.8 — de planning-evaluatie-cyclus: zes deelbudgetten
+    (verkoop · productie · bevoorrading · investering · administratie · kas)
+    samengeknoopt in een masterbudget met pro-forma RR/balans/KSO. Achteraf
+    decomposeert de variantieanalyse de afwijking tussen norm en realiteit
+    naar prijs- en hoeveelheidsoorzaken. Sluit af met budget-herziening.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.8 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches leiden
+    voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: budget en variantieanalyse vormen één sturings-cyclus — vooraf de norm leggen (masterbudget = zes deelbudgetten samengesnoerd in pro-forma JR), achteraf de afwijking decomposeren (variantie = prijs-effect + hoeveelheids-effect), bij significante afwijking bijsturen (budget-herziening)."
+    - "Tweede zin: de opbouwvolgorde is vast — begin bij het verkoopbudget (alles volgt uit volume × prijs), dan productiebudget (verkoop + voorraadbeleid), dan bevoorrading, investering, administratie, kas. Pro-forma JR is de integratie-toets: balans moet sluiten."
+    - "Derde zin: variantieanalyse maakt verantwoordelijkheid zichtbaar (prijsstijging eik = inkoop; meer eik per tafel = productie). Bij materiële afwijking wordt het budget herzien — rolling forecast of jaarwijziging."
+  visualisaties:
+    - type: mermaid
+      ref: budget-flow
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken het Meridia-masterbudget 2026 op en het Q1-variantierapport om de cyclus volledig te zien.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wat-is-budgetbeheer
+    titel: "Budgetbeheer — vier functies in één cyclus"
+    niveau: 2
+    beats:
+      - "Open: budgetbeheer is meer dan 'cijfers vooraf'. Het vervult tegelijk vier functies — planning, coördinatie, motivatie, controle."
+      - "Planning: cijfermatige vertaling van strategie ('5% volumegroei tafel-eik', 'nieuwe afwerkmachine'). Coördinatie: zorgt dat afdelingen op elkaar afgestemd zijn (verkoop verwacht 4200 tafels → productie moet 4217 maken om voorraad-policy te respecteren). Motivatie: doelen geven aan managers. Controle: afwijkingen detecteren via variantieanalyse."
+      - "De cyclus heeft zes fasen — voorbereiding (kaders), opstelling (afdelingen), goedkeuring (directie + RvB), uitvoering, controle (maandelijkse variantie), bijsturing (budget-herziening). Wikilink naar [[budgetbeheer]] voor de top-down ↔ bottom-up dynamiek."
+      - "Belangrijk: een budget is een AFSPRAAK, geen voorspelling. Het wijst niet aan wat er ZAL gebeuren — het wijst aan wat de organisatie zich VOORNEEMT. Afwijking ervan is daarom interessant management-informatie, niet een fout in de prognose."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Fase", "Wie?", "Wat?"]
+        rijen:
+          - ["1. Voorbereiding", "Directie", "Strategische kaders, aannames (groei, prijs, investering)"]
+          - ["2. Opstelling", "Afdelingen", "Eigen deelbudget binnen de kaders"]
+          - ["3. Goedkeuring", "Directie + RvB", "Consolidatie, betwisting, validatie"]
+          - ["4. Uitvoering", "Afdelingen", "Werken binnen het goedgekeurde budget"]
+          - ["5. Controle", "Controller", "Maandelijkse vergelijking budget vs werkelijk"]
+          - ["6. Bijsturing", "Directie", "Budget-herziening bij materiële afwijking"]
+
+  - id: masterbudget-meridia
+    titel: "Het masterbudget — zes deelbudgetten samengeknoopt"
+    niveau: 2
+    beats:
+      - "Open: het masterbudget is het integrale budget dat ALLE deelbudgetten samenbrengt tot één pro-forma jaarrekening (RR + balans + KSO). Bij Meridia 2026 zijn er zes deelbudgetten — verkoop, productie, bevoorrading, investering, administratie, kas."
+      - "Stelregel voor de opbouwvolgorde: BEGIN BIJ VERKOOP. Het verkoopbudget bepaalt alles. Productiebudget volgt uit verkoop + voorraadbeleid. Bevoorrading volgt uit productie + grondstof-voorraadbeleid. Investering staat enigszins apart (strategische beslissingen). Administratie volgt activiteit. Kas integreert alles."
+      - "Wikilink naar [[masterbudget]] voor de vier deelbudget-typering en de opbouw-volgorde-discipline."
+    visualisaties:
+      - type: mermaid
+        ref: budget-flow
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: verkoopbudget
+        titel: "1. Verkoopbudget — vertrekpunt"
+        niveau: 3
+        beats:
+          - "Bij Meridia 2026: tafel-eik 4.200 stuks × 510 EUR + kast-op-maat 650 × 1.850 = 3.344.500 EUR omzet."
+          - "Per kwartaal opgesplitst — Q2 en Q4 iets sterker (lente-installaties, eindejaars-cadeaus)."
+          - "Aannames die expliciet vastgelegd zijn: volumegroei tafel 5%, kast 8,3%, prijsstijging tafel 2%, kast 2,8%."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: verkoopbudget_2026
+            bron: voorbeeldgroep
+
+      - id: productiebudget
+        titel: "2. Productiebudget — afgeleid van verkoop + voorraad"
+        niveau: 3
+        beats:
+          - "Formule: productie = verkoop + eindvoorraad − beginvoorraad. Voorraad-policy: 1 maand verkoop in afgewerkte producten."
+          - "Bij Meridia: 4.200 + 350 − 333 = 4.217 tafels te produceren; 650 + 54 − 50 = 654 kasten."
+          - "Capaciteits-check: 4.217 × 1 + 654 × 4 = 6.833 CNC-uren. Bezetting 6.833 / 7.000 = 98% — krap, knelpunt actief. Verwijst terug naar [[break-even-en-marginale-beslissing]] (knelpunt-mix-redenering)."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: productiebudget_2026
+            bron: voorbeeldgroep
+
+      - id: bevoorradingsbudget
+        titel: "3. Bevoorradingsbudget — grondstoffen"
+        niveau: 3
+        beats:
+          - "Formule: aankoop = verbruik + eindvoorraad − beginvoorraad. Voorraad-policy: 2 maanden verbruik in grondstoffen."
+          - "Bij Meridia: 17.012 kg eik te kopen voor 510.370 EUR + 663 paneelhout-sets voor 397.800 EUR = totaal 908.170 EUR grondstof-aankoop."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: bevoorradingsbudget_2026
+            bron: voorbeeldgroep
+
+      - id: investeringsbudget
+        titel: "4. Investeringsbudget — strategische input"
+        niveau: 3
+        beats:
+          - "Bij Meridia 2026: nieuwe afwerkmachine 300.000 EUR (semi-automatisch lakken, levensduur 5 jaar lineair = 60.000 EUR afschrijving/jaar)."
+          - "Verwacht voordeel: 1.500 afwerk-uren/jaar vrijgemaakt. Effect: afwerkatelier was geen knelpunt (12.800/15.000 bezet); de investering bouwt capaciteit voor volumegroei 2027+. Wel additionele vaste OH 60.000 EUR/jaar — meegerekend in vaste-OH-budget 2026 dat 740.000 (2025) → 800.000 (2026) wordt."
+
+      - id: administratie-en-kas
+        titel: "5 + 6. Administratie- en kasbudget"
+        niveau: 3
+        beats:
+          - "Administratie: 200.000 EUR (= 180.000 bestaand + 20.000 indexering)."
+          - "Kasbudget integreert alles: operationele cashflow + investerings-cashflow + financierings-cashflow."
+          - "Bij Meridia 2026 (zie pro-forma KSO): operationeel +1.014,5 k EUR; investering −300; financiering −400 (aflossing 100 + dividend 300). Net effect +314,5 k EUR — eindliquiditeit 300 + 314,5 = 614,5 k EUR."
+
+  - id: pro-forma-jr
+    titel: "Pro-forma jaarrekening — de integratie-toets"
+    niveau: 2
+    beats:
+      - "Open: een masterbudget is pas geslaagd als de pro-forma JR (RR + balans + KSO) sluit. Dat is de cijfermatige stresstest van het strategisch plan."
+      - "Pro-forma RR Meridia 2026: omzet 3.344,5 k EUR − variabele kosten 1.710 = contributiemarge 1.634,5; − vaste OH 800 = bedrijfsresultaat +834,5; − financiële kosten 20 = resultaat voor belastingen +814,5 k EUR."
+      - "Pro-forma balans 31/12/2026: vertrek vanuit balans 31/12/2025 + alle mutaties. Sluitvoorwaarde: totaal activa = totaal passiva. Bij Meridia: 2.434,5 k EUR aan beide zijden — sluit."
+      - "Pro-forma KSO: aansluiting beginliquiditeit (300) + netto cashflow (+314,5) = eindliquiditeit (614,5). Sluit aan op balans (liquide middelen 614,5)."
+      - "Examen-tip: een veelvoorkomende controle-vraag is 'kloppen de drie staten met elkaar?' — eindresultaat in RR = eigen-vermogens-mutatie min dividend; eindliquiditeit in KSO = liquide middelen op balans."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: pro_forma_resultatenrekening_2026
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: balans-sluiten
+        titel: "Hoe maak je de balans sluitend?"
+        niveau: 3
+        beats:
+          - "De sluitpost is bijna altijd de LIQUIDE MIDDELEN — die is direct afleidbaar uit de KSO en moet matchen met de balans. Als ze niet matchen, zit er ergens een rekenfout."
+          - "Volgorde van controles bij niet-sluiten: (1) zijn alle mutaties op de balans-posten geboekt? Activa: MVA, voorraden, vorderingen, liquide; passiva: EV, LT-schuld, KT-schuld. (2) Is eigen vermogen correct = beginvermogen + resultaat − dividend? (3) Zijn afschrijvingen overal consistent (RR-kost, KSO-non-cash-toevoeging, balans-MVA-afbouw)? (4) Is de KSO-cash-flow exact = balans-mutatie liquide middelen?"
+          - "Bij Meridia: MVA 800 + CapEx 300 − afschrijving 260 = 840; voorraden 400 + 30 = 430; vorderingen 500 + 50 = 550; liquide 300 + 314,5 = 614,5. Totaal 2.434,5. Passiva: EV 1.200 + 834,5 − 300 (dividend) = 1.734,5; LT-schuld 400 − 100 = 300; KT-schuld 400 (stabiel). Totaal 2.434,5. Sluit."
+        type: blockquote-aside
+
+  - id: variantieanalyse
+    titel: "Variantieanalyse Q1 2026 — afwijking decomposeren"
+    niveau: 2
+    beats:
+      - "Open: na een kwartaal wordt het budget vergeleken met de realiteit. Bij Meridia: 1000 tafels gepland en geproduceerd in Q1 (volume kloppend) — maar standaardkost 355.630 EUR; werkelijke kost 377.800 EUR; afwijking -22.170 EUR ongunstig (-6,2%, net materieel)."
+      - "Niet meteen panikeren — eerst DECOMPOSEREN. Per kostencategorie de afwijking opsplitsen naar prijsvariantie (werkelijke prijs ≠ norm) en hoeveelheidsvariantie (werkelijk verbruik ≠ norm)."
+      - "Twee formules — leer ze allebei. Prijsvariantie (PV) = werkelijke hoeveelheid × (werkelijke prijs − standaardprijs). Hoeveelheidsvariantie (HV) = standaardprijs × (werkelijke hoeveelheid − standaardhoeveelheid). Som = totale variantie."
+      - "Toepassing materiaal (eik): werkelijke prijs 32 i.p.v. norm 30; werkelijk verbruik 4,1 kg i.p.v. norm 4,0. PV = 4,1 × 1000 × (30 − 32) = -8.200; HV = 30 × (4,0 − 4,1) × 1000 = -3.000. Totaal materiaal-variantie -11.200 EUR."
+      - "Verantwoordelijkheid: prijsvariantie eik = inkoop (markt-stijging door bos-tekort, beperkt vermijdbaar); hoeveelheidsvariantie eik = productie (onervaren medewerker, opleidings-investering)."
+      - "Wikilink naar [[variantieanalyse]] voor de volledige typologie (overhead-bestedings- vs volumevariantie, opbrengst-zijde varianties)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Variantie", "Decompositie", "Bedrag (EUR)", "Verantwoordelijk"]
+        rijen:
+          - ["Materiaal (eik)", "Prijs −8.200 + Hoeveelheid −3.000", "−11.200", "Inkoop (prijs) + Productie (hoeveelheid)"]
+          - ["Directe arbeid", "Tarief 0 + Hoeveelheid −7.500", "−7.500", "Productie (onervaren medewerker)"]
+          - ["Variabele OH", "Besteding −1.000", "−1.000", "Productie"]
+          - ["Vaste OH", "Besteding −2.375 + Volume 0", "−2.375", "Productie + management"]
+          - ["**Totaal Q1 2026**", "", "**−22.075** (afronding +95)", ""]
+
+  - id: budget-herziening
+    titel: "Budget-herziening — wanneer bijsturen?"
+    niveau: 2
+    beats:
+      - "Open: niet elke afwijking vraagt om budget-herziening. Stelregel — bijsturen pas bij MATERIËLE en STRUCTURELE afwijking."
+      - "Materieel: relatieve grootte > 5% van standaard (vuistregel, 🤖). Bij Meridia: -6,2% — net materieel."
+      - "Structureel: eenmalig vs duurzaam? De arbeidshoeveelheidsvariantie van -7.500 is verklaarbaar door één nieuwe medewerker in opleiding — verwacht herstel Q3. Dat is eenmalig, geen budget-herziening nodig. De materiaal-prijsvariantie van -8.200 daarentegen is markt-gedreven (bos-tekort) — als ze structureel doorzet, MOET de standaard-prijs eik vanaf H2 2026 herzien worden."
+      - "Drie opties voor herziening: (1) rolling forecast — actualiseer prognose elke maand voor de komende 12 maanden, zonder formele heropening van het jaarbudget; (2) herzien jaarbudget — formele heropening, RvB-goedkeuring; (3) scenario-aanpassing — parallel scenario's bouwen (optimistisch/baseline/pessimistisch)."
+      - "Actie-advies aan Meridia-directie: (1) hedging-contract eik onderzoeken voor restant 2026; (2) opleidingsplan nieuwe medewerker monitoren; (3) setup-frequentie analyseren (is kast-job-mix gestegen?); (4) bij structurele eikprijs-stijging: standaard-prijs aanpassen vanaf H2 2026 + prijszetting-impact communiceren."
+
+  - id: bordtabel-link
+    titel: "Boordtabel — variantierapportering in beeld"
+    niveau: 2
+    beats:
+      - "Sluit het leerstuk af met de praktijk-vorm: het maandelijks budget-actual-comparison-rapport — kort 'boordtabel' (kenniselement 1.8.III.C.3)."
+      - "Een boordtabel is een management-rapport met KPI's, variantie-stoplichten en korte commentaar — typisch op één A4 of dashboard-scherm. Het rapporteert WAT (cijfer) + WAAROM (oorzaak) + ACTIE (wat doen we eraan)."
+      - "Voor de controller en cabinet-management is dit het sturingsinstrument bij uitstek. Cross-PO-noot: dit thema komt uitgebreider terug in PO 4.0 (Cabinet management — KPI's en dashboards)."
+      - "Het verschil tussen een rapport en een boordtabel: een rapport beschrijft cijfers; een boordtabel triggert beslissingen. Stoplichten (groen/oranje/rood per KPI) helpen 'management-by-exception' — alleen oranje/rood vragen actie."
+    type: blockquote-aside
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): budget bouwen zonder kaders. Een masterbudget zonder strategisch plan is enkel een optelling van afdelingsbudgetten — geen sturing. Begin altijd bij directie-kaders (volumegroei, prijsindex, investeringsplafond)."
+      - "Valkuil 2 (⚠️): variantie meten zonder decomposeren. Een totale variantie van -22.170 EUR zegt niets — pas bij decompositie (prijs vs hoeveelheid, per categorie) wordt verantwoordelijkheid en actierichting zichtbaar."
+      - "Valkuil 3 (⚠️): elke afwijking budget-herzien. Eenmalige of stochastische afwijkingen (onervaren medewerker, kortstondige energiekost) horen NIET tot herziening te leiden. Alleen materiële + structurele afwijkingen rechtvaardigen heropening van het budget."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kostprijsmethoden-kiezen
+      hint: "De standaardkost-kaart van Meridia tafel-eik wordt hier ingevoerd. Voor het mechanisme van standaardkost-boeking en de keuze tussen full/direct/ABC."
+    - slug: break-even-en-marginale-beslissing
+      hint: "De mix-keuze (tafel/kast) die in het verkoopbudget zit, volgt uit knelpunt-analyse. Voor de strategische logica achter de mix-aannames."
+    - slug: wat-is-analytische-boekhouding
+      hint: "Het kader-leerstuk: zonder kostentypologie geen budget en geen variantie."
+  themafiches:
+    - slug: budget-en-variantieanalyse
+      hint: "Voor herhaling vlak vóór het examen — masterbudget-flow + variantie-formules + valkuilen."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [budgetbeheer, masterbudget]
+    - concepten: [variantieanalyse, standaardkostenmethode]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Geen specifieke wetsbron voor budget of variantieanalyse"
+    ref: "Bedrijfseconomische technieken — geen wettelijke regeling onder WVV/KB-WVV."
+    noot: >
+      Wel relevant: pro-forma JR onder masterbudget moet conform de
+      KB-WVV-rubricering opgemaakt zijn (consistentie met de wettelijke
+      jaarrekening die later geneerd wordt). Standaardkost-variantie-
+      boekingen (rekening 658/758) volgen het MAR (KB 21-10-2018).
+  - onderwerp: "Materiële variantie — voorraadcorrectie"
+    ref: "IAS 2 §13 + KB-WVV art. 3:18-19 + CBN-advies 132/7"
+    noot: >
+      Bij materiële afwijking (vuistregel > 5% van standaardkost) moet de
+      variantie pro-rata over voorraad én kostprijs verkopen gespreid worden
+      om de voorraadwaardering correct te houden. Niet-materiële variantie
+      mag integraal in resultaat. 5%-drempel = praktijk-vuistregel (🤖),
+      geen wettelijke materialiteitsregel.
+  - onderwerp: "Boekhoudkundige verwerking — variantierekeningen 658/758"
+    ref: "KB 21-10-2018 (MAR) — klassen 65/75 voor niet-recurrente kosten/opbrengsten waaronder productie-varianties bij standaardkost"
+
+footer: "Leerstuk PO 1.8 — lstk 4 van 4 (sluit het PO af). Status: voorgesteld."

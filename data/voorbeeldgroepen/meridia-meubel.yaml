@@ -1,0 +1,873 @@
+# Meridia Meubel — voorbeeldgroep voor PO 1.8 analytische boekhouding-leerstukken
+#
+# Mock Belgische productie-onderneming (meubelmaker). Cijfers fictief maar intern consistent.
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-analytische-boekhouding.yaml       (leerstuk 1 — stelsel + registratie)
+#   - data/leerstukken/kostprijsmethoden-kiezen.yaml             (leerstuk 2 — full · direct · ABC · standaard)
+#   - data/leerstukken/break-even-en-marginale-beslissing.yaml   (leerstuk 3 — BEP + marginaal + knelpunt)
+#   - data/leerstukken/budget-en-variantieanalyse.yaml           (leerstuk 4 — masterbudget + varianties Q1 2026)
+#
+# Consistentie-toetsen (door auteur uitgevoerd, zie rapport in PR-omschrijving):
+#   - Σ verdeelde overhead = 740.000 EUR (totale vaste OH-pool)
+#   - Direct kostprijs ≤ full kostprijs (per definitie, beide methodes)
+#   - ABC + Full → zelfde totaal toegewezen overhead (rounding ≤ 0,1%)
+#   - Pro-forma balans 31/12/2026 sluit (totaal activa = totaal passiva = 2.434,5 k EUR)
+#   - KSO 2026: aansluiting beginliquiditeit + operationele cash + investering + financiering = eindliquiditeit
+#   - Knelpunt-getallen forceren echte mix-keuze (CM/CNC-uur tafel 260 > kast 180)
+#   - ABC-cross-subsidie zichtbaar: marge-rangorde tafel↔kast keert om tussen full en ABC
+
+naam: meridia-meubel
+beschrijving: >
+  Meridia Meubel BV is een mock Belgische middelgrote vennootschap in de
+  meubelproductie. Twee productlijnen: 'tafel-eik' (standaard serie­productie,
+  4000 stuks/jaar) en 'kast-op-maat' (job-order, 600 stuks/jaar). Productie
+  draait op CNC-machines (knelpunt-capaciteit) + handmatige afwerking.
+  Sluit aan op het meubelmaker-voorbeeld uit concept-record
+  'analytische-boekhouding' (Zelena Bio) — dezelfde mentale beeld-omgeving,
+  maar uitgebouwd voor de volledige toolkit van PO 1.8 (kostprijsmethodes,
+  break-even, knelpunt, budget, varianties).
+
+sector: meubelproductie
+rechtsvorm: BV
+omvang: middelgrote vennootschap
+balansdatum: "31-12-2025"
+boekjaar_referentie: "2025"
+boekjaar_budget: "2026"
+
+# ---------------------------------------------------------------------------
+# Basis-volumes en -prijzen 2025 (de fundamenten waar alle berekeningen op steunen)
+# ---------------------------------------------------------------------------
+
+productlijnen:
+
+  tafel-eik:
+    naam: "Tafel-eik (standaard)"
+    type_productie: serieproductie
+    volume_2025: 4000           # eenheden/jaar
+    verkoopprijs_per_eenheid: 500   # EUR
+    omzet_2025: 2000000          # 4000 × 500
+    cnc_uren_per_eenheid: 1.0
+    afwerk_uren_per_eenheid: 2.0
+    setups_per_eenheid: 0.05      # 1 setup per 20 stuks (lange series)
+    materiaalkost_per_eenheid: 120   # 4 kg eik × 30 EUR/kg
+    directe_arbeidskost_per_eenheid: 100   # 2 u × 50 EUR/u
+    variabele_overhead_per_eenheid: 20    # 1 CNC-u × 20 EUR/u (energie + verbruikgoederen)
+    totaal_variabele_kost_per_eenheid: 240
+    contributiemarge_per_eenheid: 260     # 500 - 240
+    rol_in_case: "standaard-product met lange series — illustreert serieproductie + relatief lage overhead-druk per stuk"
+
+  kast-op-maat:
+    naam: "Kast-op-maat (job-order)"
+    type_productie: job-order
+    volume_2025: 600
+    verkoopprijs_per_eenheid: 1800
+    omzet_2025: 1080000          # 600 × 1800
+    cnc_uren_per_eenheid: 4.0
+    afwerk_uren_per_eenheid: 8.0
+    setups_per_eenheid: 1.0       # elk stuk vraagt eigen instelling
+    materiaalkost_per_eenheid: 600
+    directe_arbeidskost_per_eenheid: 400   # 8 u × 50
+    variabele_overhead_per_eenheid: 80     # 4 CNC-u × 20
+    totaal_variabele_kost_per_eenheid: 1080
+    contributiemarge_per_eenheid: 720      # 1800 - 1080
+    rol_in_case: "job-order product met hoge setup-frequentie — illustreert cross-subsidie-probleem (full costing onderschat overhead-impact, ABC ontmaskert)"
+
+totalen_2025:
+  omzet: 3080000                 # 2.000.000 + 1.080.000
+  totaal_variabele_kost: 1608000  # 4000×240 + 600×1080 = 960.000 + 648.000
+  totaal_contributiemarge: 1472000  # 4000×260 + 600×720 = 1.040.000 + 432.000
+  totaal_vaste_overhead: 740000
+  bedrijfsresultaat: 732000        # CM - vaste OH
+
+# ---------------------------------------------------------------------------
+# Kostenmodel — kostenplaatsen + cost-drivers + capaciteiten
+# Voedt leerstuk 1 (stelsel) en leerstuk 2 (allocaties)
+# ---------------------------------------------------------------------------
+
+kostenmodel:
+
+  kostenplaatsen:
+    - id: productiehal
+      naam: "Productiehal (CNC-zone)"
+      primaire_driver: machine-uren-cnc
+      capaciteit_2025: 7000        # uren/jaar — bezetting 6400/7000 = 91%
+      verbruik_2025: 6400          # 4000×1 + 600×4
+      bottleneck: ja
+      noot: "Knelpunt-resource voor leerstuk 3 (productmix-keuze op CM/CNC-uur)"
+
+    - id: afwerkatelier
+      naam: "Afwerkatelier (handmatig schuren/lakken)"
+      primaire_driver: directe-arbeidsuren
+      capaciteit_2025: 15000       # uren/jaar
+      verbruik_2025: 12800         # 4000×2 + 600×8
+      bottleneck: nee
+
+    - id: magazijn
+      naam: "Magazijn (grondstof + afgewerkt)"
+      primaire_driver: m2-oppervlakte
+      noot: "Indirecte kost — verdeeld via vierkante meter"
+
+    - id: verkoop
+      naam: "Verkoop + marketing"
+      primaire_driver: omzet-aandeel
+      noot: "Indirecte kost — verdeeld via omzet"
+
+    - id: algemeen-beheer
+      naam: "Algemeen beheer (directie + admin + IT)"
+      primaire_driver: gemengde-sleutel
+      noot: "Periode-kost — niet eenvoudig toewijsbaar; cost-driver-discussie in leerstuk 2"
+
+  cost_drivers_per_kost:
+    titel: "Welke cost-driver voor welke indirecte kost? (voedt leerstuk 1 + 2 — ABC-discussie)"
+    kolommen: ["Indirecte kost", "Logische cost-driver", "Rationale", "Gebruikt in full costing?", "Gebruikt in ABC?"]
+    rijen:
+      - ["Energie CNC", "machine-uren CNC", "Direct causaal — geen energie zonder uur", "Ja (in variabele OH)", "Ja"]
+      - ["Afschrijving CNC + machines", "machine-uren CNC", "Slijtage proportioneel met gebruik", "Ja", "Ja (machine-pool)"]
+      - ["Huur productiehal + magazijn", "m² of machine-uren", "Vaste kost — driver-keuze is arbitrair", "Ja (via machine-uren-sleutel)", "Ja (machine-pool)"]
+      - ["Setup-kosten (planning + omstellen)", "aantal opstellingen", "Causaal: kast vraagt 1 setup per stuk, tafel 1 per 20 stuks", "Nee — zit in algemene overhead", "**Ja — apart pool (cross-subsidie ontmaskerd hier)**"]
+      - ["Algemeen beheer (directie + IT)", "omzet of arbeidsuren", "Geen direct causaal verband — sleutel-keuze", "Ja (machine-uren-sleutel)", "Ja (afwerk-uren-sleutel)"]
+      - ["Verkoop + marketing", "omzet", "Vooral klant-/markt-gedreven", "Ja", "Ja (afzonderlijke pool)"]
+
+  overhead_pool_2025:
+    titel: "Vaste overhead-pool 2025 — totaal 740.000 EUR (sluit aan op totalen_2025.totaal_vaste_overhead)"
+    eenheid: EUR
+    posten:
+      - omschrijving: "Afschrijving CNC + machines (10 jaar lineair op 2 mln machinepark)"
+        bedrag: 200000
+      - omschrijving: "Huur productiehal + magazijn"
+        bedrag: 120000
+      - omschrijving: "Setup-kosten (planner + omsteldienst + setup-verbruiksgoed)"
+        bedrag: 240000
+      - omschrijving: "Algemeen beheer + verkoop (directie, admin, IT, marketing)"
+        bedrag: 180000
+    totaal: 740000
+
+  variabele_overhead_2025:
+    titel: "Variabele overhead 2025 — totaal 128.000 EUR (20 EUR × 6400 CNC-uren)"
+    eenheid: EUR
+    posten:
+      - omschrijving: "Energie CNC-machines (variabel met machine-uren)"
+        bedrag: 96000
+      - omschrijving: "Verbruiksgoederen (boren, slijpschijven, lijm, lak)"
+        bedrag: 32000
+    totaal: 128000
+    noot: "Verbijzondering: per CNC-uur = 128.000/6400 = 20 EUR/u. Wordt ook in direct-costing meegerekend als variabele kost."
+
+# ---------------------------------------------------------------------------
+# Kostentypologie voor Meridia (voedt leerstuk 1 — gemeenschappelijke woordenschat)
+# ---------------------------------------------------------------------------
+
+kostentypologie_meridia:
+  titel: "Kostentypologie toegepast op Meridia (vier-cellen-matrix)"
+  intro: "Elke kost krijgt een label op twee assen: gedrag (vast/variabel) × toerekenbaarheid (direct/indirect)."
+  matrix:
+    kolommen: ["", "Direct (één productlijn)", "Indirect (gedeeld)"]
+    rijen:
+      - ["**Variabel**", "Eikenhout (tafel) · paneelhout (kast) · directe productie-uren", "Energie CNC · verbruiksgoederen (boren, lak)"]
+      - ["**Vast**", "Afschrijving CNC-mal voor tafel-serie (indien gebruikt) · supervisor specifiek voor kast-atelier", "Huur productiehal · afschrijving CNC · algemeen beheer · directie-loon · marketing"]
+  noot_voor_leerstuk2: >
+    Deze matrix is de basis voor de keuze full vs direct vs ABC:
+    - Full costing verdeelt **alle** vier cellen over de producten;
+    - Direct costing trekt alleen de **variabele rij** in de kostprijs;
+    - ABC ontmaskert binnen de **indirect-vast cel** de cross-subsidie door setup-pool apart te zetten.
+
+# ---------------------------------------------------------------------------
+# DRIE REGISTRATIESYSTEMEN — keuze voor Meridia (voedt leerstuk 1)
+# ---------------------------------------------------------------------------
+
+registratiesystemen_keuze:
+  titel: "Drie registratiesystemen — welke kiest Meridia?"
+  systemen:
+    - naam: "Niet-geïntegreerd (autonoom)"
+      beschrijving: "Analytische bh in aparte ERP-module of spreadsheet, los van klassen 6/7. Maand-aansluiting verplicht."
+      voor:
+        - "Volledige analytische vrijheid"
+        - "Geen impact op de wettelijke jaarrekening"
+        - "Pilootprojecten en kleine entiteiten"
+      tegen:
+        - "Reconciliatie-werk elke maand"
+        - "Risico op divergentie tussen beide systemen"
+
+    - naam: "Gespiegeld (klasse 8/9 met spiegelrekeningen)"
+      beschrijving: "Volwaardige analytische boekhouding in klassen 8/9 — elke kost in klasse 6 krijgt tegenboeking in klasse 9 via spiegelrekening 99 (CBN 132/7)."
+      voor:
+        - "Eén audit-trail: zelfde brontransacties feeden beide sferen"
+        - "Conform CBN 132/7-aanbeveling"
+        - "Schaal-bestendig (groeit mee met onderneming)"
+      tegen:
+        - "Initiële opzet vraagt boekhoudkundige expertise"
+        - "Extra codering bij elke kost-input"
+
+    - naam: "Geïntegreerd"
+      beschrijving: "Eén grootboek waar elke kost-boeking tegelijk algemeen + analytisch wordt verwerkt — vaak via verplichte analytische codering in ERP."
+      voor:
+        - "Geen aansluiting nodig — cijfers per definitie consistent"
+        - "Real-time analytische rapportering"
+      tegen:
+        - "Zware rekeningenstructuur (dubbele code per transactie)"
+        - "Minder flexibel voor ad-hoc analyses"
+
+  keuze_meridia: "**Gespiegeld systeem (klasse 8/9)** — middelgrote BV met groeiplannen, ERP aanwezig (PackHouse Suite), wil audit-friendly opzet die mee kan schalen. Maand-aansluiting bij periodeafsluiting."
+
+# ---------------------------------------------------------------------------
+# BOEKINGEN (voedt leerstuk 1 — spiegelboeking-mechaniek + leerstuk 4 — standaardkosten-variantie)
+# ---------------------------------------------------------------------------
+
+boekingen:
+
+  spiegelboeking-grondstof-aankoop:
+    titel: "Spiegelboeking — aankoop eikenhout 24.000 EUR (CBN 132/7-mechaniek)"
+    context: "Meridia koopt in januari 800 kg eik @ 30 EUR/kg = 24.000 EUR. De algemene bh ziet een aankoop (klasse 60); de analytische bh herleidt naar 'kost van productiehal toegerekend aan tafel-eik'."
+    eenheid: EUR
+    blok_algemene:
+      titel: "Algemene boekhouding — kost naar aard"
+      debet:
+        - rekening: "600 — Aankoop grondstoffen (eik)"
+          bedrag: 24000
+      credit:
+        - rekening: "440 — Leveranciers"
+          bedrag: 24000
+      totaal: 24000
+    blok_analytische:
+      titel: "Analytische boekhouding — spiegel + bestemming"
+      stap1_spiegel:
+        debet:
+          - rekening: "90 — Reflet kosten (tegenboeking spiegel)"
+            bedrag: 24000
+        credit:
+          - rekening: "99 — Spiegelrekening algemene boekhouding"
+            bedrag: 24000
+      stap2_toewijzing:
+        debet:
+          - rekening: "92 — Kosten productiehal (toegerekend aan tafel-eik via materiaal-traceer)"
+            bedrag: 24000
+        credit:
+          - rekening: "90 — Reflet kosten"
+            bedrag: 24000
+      totaal: 24000
+    sleutelpunten:
+      - "Klasse 6 loopt door voor de wettelijke jaarrekening — niet aangetast"
+      - "Klasse 9 voegt de bestemming toe — voor interne sturing"
+      - "Spiegelrekening 99 sluit de loop — saldo na elke spiegeling = 0 (verifieerbaar)"
+
+  standaardkosten-met-variantie:
+    titel: "Standaardkosten-boeking met variantierekening — productie 100 tafels in Q1 2026"
+    context: >
+      Meridia werkt voor tafel-eik met standaardkost 355,63 EUR/eenheid (zie standaardkost-kaart).
+      In één batch produceert ze 100 tafels — werkelijke kost wijkt af van standaard
+      (eikprijs gestegen, nieuwe medewerker iets minder efficiënt).
+    eenheid: EUR
+    standaardkost_batch: 35563     # 100 × 355,63
+    werkelijke_kost_batch: 37770    # zie variantie-rapport
+    totale_variantie: -2207        # ongunstig
+    blok_boeking:
+      titel: "Boeking van 100 afgewerkte tafels in voorraad — aan standaardkost — variantie apart"
+      debet:
+        - rekening: "33 — Voorraad afgewerkte producten (tafel-eik, aan standaardkost)"
+          bedrag: 35563
+        - rekening: "658 — Ongunstige productie-varianties (decompositie elders)"
+          bedrag: 2207
+      credit:
+        - rekening: "60/61/62 — Werkelijke kosten (grondstof + arbeid + OH) via spiegeling"
+          bedrag: 37770
+      totaal: 37770
+    noot_ias2: >
+      Bij materiële varianties (richtwaarde > 5% van standaard) moet de variantie pro-rata
+      worden gespreid over voorraad én KGV (IAS 2 + KB-WVV). Bij niet-materieel mag de
+      variantie integraal in resultaat (rekening 658/758) zoals hierboven.
+
+# ---------------------------------------------------------------------------
+# KOSTPRIJS-BEREKENINGEN — vier methodes naast elkaar (voedt leerstuk 2 — KERN)
+# ---------------------------------------------------------------------------
+
+kostprijs_berekeningen:
+
+  full-costing-tafel-eik:
+    titel: "Full costing — kostprijs tafel-eik per eenheid"
+    methode_uitleg: "Alle productiekosten (variabel + vast) verdeeld via één sleutel: machine-uren CNC."
+    overhead_sleutel:
+      driver: machine-uren-cnc
+      totale_vaste_overhead: 740000
+      totale_cnc_uren: 6400
+      tarief_per_cnc_uur: 115.625    # 740.000 / 6400
+    berekening:
+      kolommen: ["Component", "Hoeveelheid", "Tarief (EUR)", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Materiaal (eik)", "4 kg", "30,00", "120,00"]
+        - ["Directe arbeid", "2 u", "50,00", "100,00"]
+        - ["Variabele OH", "1 CNC-u", "20,00", "20,00"]
+        - ["Vaste OH (via CNC-uur-sleutel)", "1 CNC-u", "115,63", "115,63"]
+        - ["**Totaal full kostprijs**", "", "", "**355,63**"]
+    marge_per_eenheid: 144.37        # 500 - 355,63
+    rangorde_marge: "tafel-eik beter dan kast (zie kast-vergelijking onder ABC)"
+
+  full-costing-kast-op-maat:
+    titel: "Full costing — kostprijs kast-op-maat per eenheid"
+    berekening:
+      kolommen: ["Component", "Hoeveelheid", "Tarief (EUR)", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Materiaal (paneel + ijzerwerk)", "1 set", "600,00", "600,00"]
+        - ["Directe arbeid", "8 u", "50,00", "400,00"]
+        - ["Variabele OH", "4 CNC-u", "20,00", "80,00"]
+        - ["Vaste OH (via CNC-uur-sleutel)", "4 CNC-u", "115,63", "462,50"]
+        - ["**Totaal full kostprijs**", "", "", "**1542,50**"]
+    marge_per_eenheid: 257.50         # 1800 - 1542,50
+    cross_subsidie_signaal: "Kast lijkt méér marge per stuk — maar de full costing-sleutel (machine-uren) negeert de setup-druk. ABC ontmaskert dit (zie volgende blok)."
+
+  direct-costing-tafel-eik:
+    titel: "Direct costing — kostprijs tafel-eik per eenheid"
+    methode_uitleg: "Alleen variabele kosten in product; vaste OH = periodekost (740.000 in resultaat als block)."
+    berekening:
+      kolommen: ["Component", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Materiaal", "120,00"]
+        - ["Directe arbeid (variabel deel)", "100,00"]
+        - ["Variabele OH", "20,00"]
+        - ["**Totaal variabele kost**", "**240,00**"]
+        - ["Verkoopprijs", "500,00"]
+        - ["**Contributiemarge per tafel**", "**260,00**"]
+        - ["**CM-percentage**", "**52 %**"]
+    noot: "260 EUR/tafel × 4000 stuks = 1.040.000 totale CM tafel-as. Vaste OH (740.000) staat los — geen toerekening."
+
+  direct-costing-kast-op-maat:
+    titel: "Direct costing — kostprijs kast-op-maat per eenheid"
+    berekening:
+      kolommen: ["Component", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Materiaal", "600,00"]
+        - ["Directe arbeid", "400,00"]
+        - ["Variabele OH", "80,00"]
+        - ["**Totaal variabele kost**", "**1080,00**"]
+        - ["Verkoopprijs", "1800,00"]
+        - ["**Contributiemarge per kast**", "**720,00**"]
+        - ["**CM-percentage**", "**40 %**"]
+
+  abc-vergelijking:
+    titel: "ABC — kostprijs via cost-driver-pools (cross-subsidie ontmaskerd)"
+    methode_uitleg: >
+      In plaats van één sleutel (machine-uren) worden de 740.000 EUR overhead opgesplitst
+      in drie activity-pools, elk met eigen cost-driver. Setup-pool is de game-changer:
+      kast trekt 600 setups, tafel 200 — terwijl tafel 4000 stuks dekt en kast 600.
+    pools:
+      kolommen: ["Pool", "Bedrag (EUR)", "Cost-driver", "Totaal driver-verbruik", "Tarief per driver-eenheid"]
+      rijen:
+        - ["Setup-pool", "240.000", "aantal opstellingen", "800 setups", "300 EUR/setup"]
+        - ["Machine-pool (afschr + huur)", "320.000", "machine-uren CNC", "6.400 uren", "50 EUR/CNC-u"]
+        - ["Algemeen + verkoop", "180.000", "directe arbeidsuren (afwerking)", "12.800 uren", "14,06 EUR/u"]
+        - ["**Totaal**", "**740.000**", "", "", ""]
+    berekening_tafel:
+      kolommen: ["Component", "Hoeveelheid", "Tarief", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Variabele kost (zie direct costing)", "", "", "240,00"]
+        - ["Setup-pool", "0,05 setup/stuk", "300", "15,00"]
+        - ["Machine-pool", "1 CNC-u", "50,00", "50,00"]
+        - ["Algemeen", "2 afwerk-u", "14,06", "28,12"]
+        - ["**Totaal ABC-kostprijs tafel**", "", "", "**333,12**"]
+      marge: 166.88         # 500 - 333,12
+    berekening_kast:
+      kolommen: ["Component", "Hoeveelheid", "Tarief", "Kost per eenheid (EUR)"]
+      rijen:
+        - ["Variabele kost", "", "", "1080,00"]
+        - ["Setup-pool", "1 setup/stuk", "300", "300,00"]
+        - ["Machine-pool", "4 CNC-u", "50,00", "200,00"]
+        - ["Algemeen", "8 afwerk-u", "14,06", "112,50"]
+        - ["**Totaal ABC-kostprijs kast**", "", "", "**1692,50**"]
+      marge: 107.50          # 1800 - 1692,50
+    cross_subsidie_zichtbaar:
+      titel: "Marge-rangorde keert om — bewijs van cross-subsidie in full costing"
+      tabel:
+        kolommen: ["Productlijn", "Marge per stuk — Full", "Marge per stuk — ABC", "Verschil", "Conclusie"]
+        rijen:
+          - ["tafel-eik", "144,37", "166,88", "+22,51", "Wint onder ABC — kreeg onterecht hoge OH via machine-uren"]
+          - ["kast-op-maat", "257,50", "107,50", "−150,00", "Verliest onder ABC — kreeg onterecht lage OH (setup-druk genegeerd)"]
+      les: >
+        Onder full costing lijkt kast-op-maat de winstgever (257 marge); onder ABC blijkt
+        tafel-eik veel rendabeler per stuk (167 vs 107). Reden: setups (een complexiteits-driver)
+        worden in full costing geabsorbeerd door de algemene OH-pool, waar kast ze
+        disproportioneel veroorzaakt zonder ze toegewezen te krijgen. Strategische
+        implicatie: prijszetting kast moet verhoogd of complexiteit gereduceerd —
+        anders subsidieert tafel-eik feitelijk de kast-lijn.
+
+  standaardkost-kaart-tafel:
+    titel: "Standaardkost-kaart tafel-eik (basis voor variantieanalyse leerstuk 4)"
+    intro: "Norm-hoeveelheden + norm-prijzen vastgelegd vóór het boekjaar; werkelijke afwijking wordt achteraf gedecomposeerd."
+    componenten:
+      kolommen: ["Component", "Norm-hoeveelheid", "Norm-prijs (EUR)", "Standaardkost (EUR)"]
+      rijen:
+        - ["Eik (kg)", "4,0", "30,00", "120,00"]
+        - ["Directe arbeid (uren)", "2,0", "50,00", "100,00"]
+        - ["Variabele OH (CNC-uren)", "1,0", "20,00", "20,00"]
+        - ["Vaste OH allocatie (CNC-uren)", "1,0", "115,63", "115,63"]
+        - ["**Standaardkost per tafel**", "", "", "**355,63**"]
+    bezettingsbasis: "Norm vaste-OH-tarief 115,63 berekend op normale capaciteit = 6.400 CNC-uren (niet op werkelijke productie — voorkomt volume-effect)."
+
+# ---------------------------------------------------------------------------
+# DIENSTEN-MINI-CASE — Vega Consulting (voedt leerstuk 2, kenniselement 1.8.III.A.5)
+# ---------------------------------------------------------------------------
+
+diensten_mini_case:
+  titel: "Vega Consulting BVBA — uurtarief-berekening (dienst-onderneming)"
+  intro: >
+    Om kenniselement 1.8.III.A.5 (kostenberekening voor dienstverlening) te eren.
+    Korte parallel: full-costing-logica toegepast op een IT-consultancy in plaats
+    van productie. De principes blijven dezelfde (variabele + vaste kosten verdelen
+    over kostendragers); de driver wordt 'declarabel uur' i.p.v. 'machine-uur'.
+  onderneming:
+    naam: "Vega Consulting BVBA"
+    consultants: 3
+    werkbare_uren_per_consultant_jaar: 1600
+    bezettingsgraad: 0.75              # 75% declarabel, 25% intern (admin, opleiding, sales)
+  data_2025:
+    declarabele_uren: 3600              # 3 × 1600 × 0,75
+    loonkost_consultants: 270000        # 3 × 90.000
+    vaste_kosten:
+      kantoorhuur: 24000
+      software_licenties: 18000
+      directie_admin: 60000
+      marketing: 18000
+      totaal_vast: 120000
+    totale_kost_te_recupereren: 390000  # 270.000 + 120.000
+  berekening_uurtarief:
+    formule: "Kostprijs per declarabel uur = totale kost / declarabele uren = 390.000 / 3600"
+    kostprijs_per_uur: 108.33
+    target_marge: 0.40                  # 40 % winstmarge
+    verkoopuurtarief: 180.55             # 108,33 / (1 - 0,40) ≈ 180,55
+    afgerond_marktconform: 180
+  les: >
+    Voor diensten is de bezettingsgraad de strategische hefboom (vergelijkbaar met
+    capaciteits-benutting bij productie). Daalt de bezetting van 75% naar 60%,
+    dan stijgt de break-even-uurtarief tot 135 EUR (390.000 / 2.880). Voor de
+    accountant-adviseur: bezetting bewaken is even belangrijk als urenboeking-discipline.
+
+# ---------------------------------------------------------------------------
+# BREAK-EVEN + MARGINALE DATA (voedt leerstuk 3)
+# ---------------------------------------------------------------------------
+
+break_even_data:
+
+  bep-tafel-eik-alleen:
+    titel: "BEP tafel-eik (alleenstaande analyse)"
+    aanname: "Toegewezen vaste OH = 4000/6400 × 740.000 = 462.500 EUR (proportioneel naar CNC-verbruik)."
+    toegewezen_vaste_kost: 462500
+    cm_per_eenheid: 260
+    bep_eenheden: 1779               # 462.500 / 260, afgerond naar boven
+    bep_omzet: 889500                # 1779 × 500
+    werkelijk_volume: 4000
+    veiligheidsmarge_omzet: 1110500   # 2.000.000 - 889.500
+    veiligheidsmarge_percent: 55.5    # (2000-889,5)/2000
+
+  bep-multi-product:
+    titel: "Multi-product BEP voor Meridia (mix tafel 87%, kast 13%)"
+    aanname: "Mix-aandeel in eenheden (niet in omzet) = 4000/(4000+600) = 87% tafel, 13% kast. Constant verondersteld."
+    mix_aandelen:
+      tafel: 0.8696                  # 4000 / 4600
+      kast: 0.1304                   # 600 / 4600
+    gewogen_cm_per_eenheid: 319.83    # 0,8696 × 260 + 0,1304 × 720 = 226,1 + 93,9
+    totale_vaste_kost: 740000
+    bep_eenheden_totaal: 2314         # 740.000 / 319,83
+    bep_decompositie:
+      tafels: 2012                    # 2314 × 0,8696
+      kasten: 302                     # 2314 × 0,1304
+    bep_omzet_totaal: 1549600         # 2012×500 + 302×1800 = 1.006.000 + 543.600
+    valkuil_noot: >
+      BEP geldt **alleen bij constante mix** (87/13). Als kast-aandeel stijgt
+      (gewogen CM stijgt), zakt het BEP-aantal; daalt kast-aandeel
+      (gewogen CM zakt), stijgt het BEP. Mix-shift = her-berekenen.
+
+  special-order-case:
+    titel: "Special order — retailer biedt 350 EUR/tafel voor batch van 500"
+    context: >
+      Een grote retailer biedt 350 EUR/tafel (i.p.v. normale 500) voor een eenmalige
+      batch van 500 tafels onder eigen huismerk. Variabele kost per tafel blijft 240.
+      Geen extra vaste kost — past binnen vrije capaciteit (7000 - 6400 = 600 CNC-uren).
+    incrementele_analyse:
+      extra_opbrengst: 175000         # 500 × 350
+      extra_variabele_kost: 120000    # 500 × 240
+      extra_vermijdbare_vaste_kost: 0
+      incrementele_winst: 55000        # 175.000 - 120.000
+    cannibalisatie_risico:
+      scenario: "Als de huismerk-tafels normale verkoop verdringen (1-op-1)"
+      derving_per_verdrongen_tafel: 150   # 500 - 350 = lager prijspunt, of: CM 260 → 110
+      totale_derving_bij_volledige_verdringing: 75000  # 500 × 150
+      conclusie: >
+        Aanvaarden ALLEEN als: (1) vrije capaciteit bestaat (✓ 600 CNC-uren),
+        (2) huismerk-kanaal raakt eigen merk-kanaal niet (geografisch of segment-afgesloten),
+        (3) eenmalig (geen prijspunt-precedent voor andere klanten).
+        Bij volledige cannibalisatie wordt de winst van +55.000 een verlies van -20.000.
+    advies_accountant: >
+      Aanvaarden mét contractuele afbakening: alleen levering aan deze retailer onder
+      huismerk, geen recht op herhaling onder zelfde voorwaarden, NDA op kostprijs.
+
+  make-or-buy-laden:
+    titel: "Make-or-buy — tafel-laden zelf maken of inkopen?"
+    context: >
+      Meridia overweegt voor elke tafel een opbergvak (lade) toe te voegen. Twee opties:
+      zelf produceren (extra arbeid en materiaal, plus eigen ladenmal 30.000 EUR vermijdbare
+      vaste kost) of inkopen bij externe leverancier @ 30 EUR/stuk × 4000 stuks.
+    optie_zelf:
+      variabele_kost_per_lade: 25
+      vermijdbare_vaste_kost: 30000
+      totale_jaarkost: 130000          # 4000 × 25 + 30.000
+    optie_inkopen:
+      inkoopprijs_per_lade: 30
+      totale_jaarkost: 120000          # 4000 × 30
+    netto_voordeel_inkopen: 10000
+    indifferentie_volume: 6000          # break-even tussen opties: 25Q + 30.000 = 30Q → Q = 6000
+    conclusie_bij_huidig_volume: >
+      Bij 4000 tafels is inkopen 10.000 EUR voordeliger. Pas vanaf 6000 tafels
+      kantelt de balans naar zelf-maken. Kwalitatieve factoren (kwaliteits-controle,
+      levertijd, leverancier-afhankelijkheid) niet meegerekend.
+
+  knelpunt-cnc-mix:
+    titel: "Knelpunt-analyse — CNC-capaciteit (productmix-keuze)"
+    context: >
+      CNC-machine is dé bottleneck (6400/7000 uren = 91% bezetting). Bij vraag-stijging
+      moet Meridia kiezen welke productlijn priority krijgt. NIET op CM per eenheid
+      kijken — maar op CM per knelpunt-uur.
+    analyse:
+      kolommen: ["Productlijn", "CM per eenheid (EUR)", "CNC-uren per eenheid", "**CM per CNC-uur (EUR)**", "Voorkeur?"]
+      rijen:
+        - ["tafel-eik", "260", "1,0", "**260**", "**Eerst — wint per knelpunt-uur**"]
+        - ["kast-op-maat", "720", "4,0", "**180**", "Daarna — lagere CM/uur ondanks hoogste CM/stuk"]
+    paradox: >
+      Op CM per eenheid lijkt kast superieur (720 vs 260). Maar de knelpunt-resource is
+      CNC-uur — en per CNC-uur levert tafel meer marge op. Bij capaciteits-druk: maximaliseer
+      eerst tafel-productie, vul de rest in met kast.
+    rekenvoorbeeld_capaciteit: >
+      Stel de vraag stijgt naar 5000 tafels + 700 kasten = 5000 + 2800 = 7800 CNC-uren
+      (800 te veel). Optie A: alle tafels + 525 kasten (5000 + 2100 = 7100, nog 100 te veel).
+      Optie B: 4900 tafels + 700 kasten (4900 + 2800 = 7700, 700 te veel) → CM = 4900×260 + 700×720 = 1.274.000 + 504.000 = 1.778.000.
+      Beslissing volgens knelpunt-logica: tafels voorrang (CM/uur 260) — vul aan met kast
+      tot 7000 uren = 5000 tafels + 500 kasten = 5000 + 2000 = 7000 ✓ → CM = 1.300.000 + 360.000 = **1.660.000**.
+      Knelpunt-logica zet de mix scherp.
+
+  keep-or-drop-aanvulling:
+    titel: "Keep-or-drop — moet Meridia kast-op-maat schrappen?"
+    context: >
+      Onder ABC blijkt kast slechts 107 EUR marge per stuk (vs 167 voor tafel). De vraag:
+      is de kast-lijn nog rendabel als geheel?
+    analyse:
+      kolommen: ["Post", "Bedrag (EUR/jaar)"]
+      rijen:
+        - ["Omzet kast (600 × 1800)", "+1.080.000"]
+        - ["Variabele kost (600 × 1080)", "−648.000"]
+        - ["**Contributiemarge kast**", "**+432.000**"]
+        - ["Vermijdbare vaste kost bij schrappen (setup-personeel kast-specifiek)", "−180.000"]
+        - ["**Netto bijdrage kast aan vaste-OH dekking**", "**+252.000**"]
+    conclusie: >
+      Schrappen kost +252.000 EUR/jaar aan dekking van algemene vaste OH. Houden,
+      tenzij vrijgekomen CNC-capaciteit door derde, méér winstgevende productlijn
+      kan worden ingevuld (opportunity cost). Beslissing-relevante kost ≠ ABC-allocatie.
+
+# ---------------------------------------------------------------------------
+# BUDGET 2026 + VARIANTIES Q1 (voedt leerstuk 4)
+# ---------------------------------------------------------------------------
+
+masterbudget_2026:
+
+  uitgangspunten:
+    volumegroei_tafel: 0.05            # 4000 → 4200
+    volumegroei_kast: 0.083            # 600 → 650
+    prijsstijging_tafel: 0.02          # 500 → 510 (deels markt, deels positionering)
+    prijsstijging_kast: 0.028          # 1800 → 1850
+    voorraad_policy: "1 maand verkoop in afgewerkte producten (8% van jaarvolume)"
+    grondstof_policy: "2 maanden verbruik in grondstoffenvoorraad"
+    nieuwe_investering: "Afwerkmachine (semi-automatisch lakken) — 300.000 EUR, afschrijving 5 jaar lineair = 60.000/jaar"
+    dividend_2026: 300000              # uitbetaald aan aandeelhouders in juni
+    aflossing_lt_schuld: 100000
+
+  verkoopbudget_2026:
+    titel: "Verkoopbudget 2026 — per kwartaal × productlijn"
+    eenheid: EUR
+    tabel:
+      kolommen: ["Productlijn", "Q1", "Q2", "Q3", "Q4", "**Totaal 2026**"]
+      rijen:
+        - ["tafel-eik volumes (eenheden)", "1.000", "1.100", "1.000", "1.100", "**4.200**"]
+        - ["tafel-eik omzet (× 510)", "510.000", "561.000", "510.000", "561.000", "**2.142.000**"]
+        - ["kast-op-maat volumes", "150", "175", "150", "175", "**650**"]
+        - ["kast-op-maat omzet (× 1850)", "277.500", "323.750", "277.500", "323.750", "**1.202.500**"]
+        - ["**Totaal omzet**", "**787.500**", "**884.750**", "**787.500**", "**884.750**", "**3.344.500**"]
+    seizoenspatroon: "Q2 en Q4 zijn iets sterker (lente-installaties, eindejaars-cadeaus)."
+
+  productiebudget_2026:
+    titel: "Productiebudget 2026 — afgeleid van verkoop + voorraad-policy"
+    formule: "Productie = Verkoop + eindvoorraad − beginvoorraad"
+    tabel:
+      kolommen: ["Productlijn", "Verkoop", "+ Eindvoorraad (1 maand)", "− Beginvoorraad", "**Productie 2026**"]
+      rijen:
+        - ["tafel-eik (eenheden)", "4.200", "+350 (4200/12)", "−333 (4000/12)", "**4.217**"]
+        - ["kast-op-maat (eenheden)", "650", "+54 (650/12)", "−50 (600/12)", "**654**"]
+    cnc_uren_totaal_2026: 6833         # 4217 × 1 + 654 × 4 = 4217 + 2616
+    capaciteits_check: "6833 CNC-uren / 7000 capaciteit = 98% bezetting → krap, knelpunt actief"
+
+  bevoorradingsbudget_2026:
+    titel: "Bevoorradingsbudget 2026 — grondstoffen (eik + paneelhout)"
+    eenheid: EUR
+    tabel:
+      kolommen: ["Grondstof", "Verbruik (norm)", "+ Eindvoorr (2 mnd)", "− Beginvoorr", "**Aankoop 2026**"]
+      rijen:
+        - ["Eik (kg) voor tafels", "4217 × 4 = 16.868", "+2.811", "−2.667", "**17.012 kg**"]
+        - ["Eik kost (× 30 EUR)", "506.040", "84.330", "−80.000", "**510.370 EUR**"]
+        - ["Paneelhout sets voor kasten", "654 sets", "+109", "−100", "**663 sets**"]
+        - ["Paneelhout kost (× 600 EUR)", "392.400", "65.400", "−60.000", "**397.800 EUR**"]
+    totaal_grondstof_aankoop: 908170
+
+  investeringsbudget_2026:
+    titel: "Investeringsbudget 2026"
+    posten:
+      - omschrijving: "Nieuwe afwerkmachine (semi-automatisch lakken)"
+        capex: 300000
+        afschrijving_per_jaar: 60000
+        levensduur_jaar: 5
+        verwacht_voordeel: "Vrijmaakt 1.500 afwerk-uren/jaar; mogelijke capaciteits-vrijval voor volumegroei 2027+"
+    totaal_capex_2026: 300000
+
+  administratiebudget_2026:
+    titel: "Administratie + algemeen beheer budget 2026"
+    eenheid: EUR
+    posten:
+      - omschrijving: "Algemeen beheer + verkoop + marketing (gelijk aan 2025)"
+        bedrag: 180000
+      - omschrijving: "Indexering lonen + lichte uitbreiding"
+        bedrag: 20000
+    totaal: 200000
+
+  vaste_overhead_budget_2026:
+    titel: "Vaste overhead-pool 2026 (na investering)"
+    posten:
+      - ["Afschrijving CNC + bestaande machines", 200000]
+      - ["Afschrijving nieuwe afwerkmachine (5 jaar / 300k)", 60000]
+      - ["Huur productiehal + magazijn", 120000]
+      - ["Setup-kosten (planner + omsteldienst)", 240000]
+      - ["Algemeen beheer + verkoop (incl. indexering)", 180000]
+    totaal: 800000
+
+  pro_forma_resultatenrekening_2026:
+    titel: "Pro-forma resultatenrekening 2026"
+    eenheid: "k EUR"
+    rijen:
+      - ["Omzet", "3.344,5"]
+      - ["Variabele kosten (240×4200 + 1080×650 = 1.008 + 702)", "−1.710,0"]
+      - ["**Contributiemarge totaal**", "**1.634,5**"]
+      - ["Vaste overhead (incl. nieuwe afschr 60)", "−800,0"]
+      - ["**Bedrijfsresultaat**", "**+834,5**"]
+      - ["Financiële kosten (rente LT-schuld)", "−20,0"]
+      - ["**Resultaat voor belastingen**", "**+814,5**"]
+
+  pro_forma_balans_2026:
+    titel: "Pro-forma balans 31/12/2026 (vereenvoudigd — sluit volgens consistentie-toets)"
+    eenheid: "k EUR"
+    intro: >
+      Vertrek vanuit balans 31/12/2025 + alle mutaties uit het masterbudget.
+      Sluitvoorwaarde getest: totaal activa = totaal passiva = **2.434,5**.
+    begin_balans_2025:
+      activa:
+        - ["Materiële vaste activa (machines + gebouw)", 800]
+        - ["Voorraden (grondstof + afgewerkt)", 400]
+        - ["Vorderingen (handel + overig)", 500]
+        - ["Liquide middelen", 300]
+        - ["**Totaal activa**", 2000]
+      passiva:
+        - ["Eigen vermogen", 1200]
+        - ["LT-schuld (banklening)", 400]
+        - ["KT-schuld (leveranciers + sociaal)", 400]
+        - ["**Totaal passiva**", 2000]
+    mutaties_2026:
+      - ["MVA: + CapEx 300 − afschrijving 260", "+40"]
+      - ["Voorraden: stijging (productie > verkoop)", "+30"]
+      - ["Vorderingen: stijging mee met omzet", "+50"]
+      - ["KT-schuld: stabiel (leveranciers volgen verbruik)", "0"]
+      - ["LT-schuld: aflossing", "−100"]
+      - ["Eigen vermogen: + resultaat 834,5 − dividend 300", "+534,5"]
+      - ["Liquide middelen: sluitpost (uit KSO)", "+314,5"]
+    eind_balans_2026:
+      activa:
+        - ["Materiële vaste activa (840)", 840]
+        - ["Voorraden (430)", 430]
+        - ["Vorderingen (550)", 550]
+        - ["Liquide middelen (614,5)", 614.5]
+        - ["**Totaal activa**", 2434.5]
+      passiva:
+        - ["Eigen vermogen (1734,5)", 1734.5]
+        - ["LT-schuld (300)", 300]
+        - ["KT-schuld (400)", 400]
+        - ["**Totaal passiva**", 2434.5]
+    sluit_check: "✅ 2434,5 = 2434,5 — balans sluit"
+
+  pro_forma_kasstroomoverzicht_2026:
+    titel: "Pro-forma kasstroomoverzicht 2026 (KSO)"
+    eenheid: "k EUR"
+    blokken:
+      operationele_cashflow:
+        - ["Bedrijfsresultaat", "+834,5"]
+        - ["+ Afschrijvingen (non-cash)", "+260,0"]
+        - ["− Stijging voorraden", "−30,0"]
+        - ["− Stijging vorderingen", "−50,0"]
+        - ["**Netto operationele cashflow**", "**+1.014,5**"]
+      investerings_cashflow:
+        - ["CapEx nieuwe afwerkmachine", "−300,0"]
+        - ["**Netto investeringscashflow**", "**−300,0**"]
+      financierings_cashflow:
+        - ["Aflossing LT-schuld", "−100,0"]
+        - ["Dividend uitkering", "−300,0"]
+        - ["**Netto financieringscashflow**", "**−400,0**"]
+      saldo:
+        - ["Beginliquiditeit (01/01/2026)", "+300,0"]
+        - ["+ Operationeel + Investering + Financiering", "+314,5"]
+        - ["**Eindliquiditeit (31/12/2026)**", "**+614,5**"]
+    aansluiting_balans: "✅ Eindliquiditeit KSO (614,5) = eind-liq balans (614,5)"
+
+variantierapport_q1_2026:
+  titel: "Variantierapport Q1 2026 — productie 1000 tafels (zie standaardkost-kaart)"
+  intro: >
+    Werkelijke productie Q1 2026: 1000 tafels conform plan. Maar: eikprijs gestegen
+    door bos-tekort (markt-prijs +2 EUR/kg), nieuwe medewerker (in opleiding sinds januari)
+    iets minder efficiënt, OH-besteding licht hoger.
+  standaardkost_totaal: 355630         # 1000 × 355,63
+  werkelijke_kost_totaal: 377800        # som van werkelijke posten hieronder
+  totale_variantie: -22170             # ongunstig, ≈ -6,2% — net materieel volgens 5%-drempel
+
+  materiaal_variantie:
+    titel: "Materiaal-variantie (eik)"
+    norm_prijs: 30                     # EUR/kg
+    werkelijke_prijs: 32                # markt-stijging
+    norm_hoeveelheid_per_tafel: 4.0
+    werkelijke_hoeveelheid_per_tafel: 4.1   # iets meer afval bij nieuwe medewerker
+    decompositie:
+      prijsvariantie: -8200              # (30 - 32) × (4,1 × 1000) = -2 × 4100
+      hoeveelheidsvariantie: -3000        # (4,0 - 4,1) × 30 × 1000 = -0,1 × 30 × 1000
+      totaal: -11200
+    verantwoordelijk:
+      prijs: "Inkoop — markt-druk (bos-tekort), beperkt vermijdbaar"
+      hoeveelheid: "Productie — onervaren medewerker, opleiding-investering"
+
+  arbeid_variantie:
+    titel: "Directe-arbeid-variantie"
+    norm_tarief: 50                    # EUR/u
+    werkelijk_tarief: 50               # cao-conform, geen afwijking
+    norm_uren_per_tafel: 2.0
+    werkelijke_uren_per_tafel: 2.15
+    decompositie:
+      tariefvariantie: 0
+      hoeveelheidsvariantie: -7500       # (2,0 - 2,15) × 50 × 1000
+      totaal: -7500
+    verantwoordelijk: "Productie — nieuwe medewerker in opleiding (verwacht herstel Q3 2026)"
+
+  variabele_overhead_variantie:
+    titel: "Variabele OH-variantie (energie + verbruiksgoederen)"
+    norm: 20000                        # 1000 × 20
+    werkelijk: 21000
+    decompositie:
+      bestedingsvariantie: -1000         # extra verbruik door extra CNC-tijd
+      totaal: -1000
+
+  vaste_overhead_variantie:
+    titel: "Vaste OH-variantie"
+    norm_geabsorbeerd: 115625           # 1000 × 115,63 (gebaseerd op normale CNC-uren-allocatie)
+    werkelijk_bestedings: 118000         # licht hoger door extra setup-werk
+    decompositie:
+      bestedingsvariantie: -2375         # 115.625 - 118.000
+      volumevariantie: 0                 # productievolume = norm, geen onderbenutting
+      totaal: -2375
+
+  som_check:
+    totaal_uit_decomposities: -22075     # -11.200 - 7.500 - 1.000 - 2.375 = -22.075
+    totale_variantie_aangeduid: -22170
+    afrondingsverschil: 95
+    noot: "Verschil < 0,5% van standaardkost — toe te schrijven aan afronding standaardkost-tarief 115,625 → 115,63."
+
+  actie_advies:
+    - "Materiaal-prijs (-8200): hedging-contract eik onderzoeken voor 2026"
+    - "Hoeveelheid eik (-3000) + arbeid (-7500): opleidingsplan nieuwe medewerker monitoren — verwacht herstel Q3"
+    - "Vaste OH (-2375): setup-frequentie analyseren — is kast-job-mix gestegen?"
+    - "Budget-herziening: tariefvariantie eik structureel? Update standaard-prijs vanaf H2 2026 (+ communicatie naar prijszetting)"
+
+# ---------------------------------------------------------------------------
+# MERMAID-DIAGRAMMEN
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  stroom-analytische-sfeer:
+    type: flowchart-lr
+    voor_leerstuk: 1
+    titel: "Cost-flow algemene → analytische boekhouding (CBN 132/7-mechaniek)"
+    code: |
+      A["Brontransactie<br/>(factuur eik, loon)"] --> B["Algemene bh<br/>Klasse 60-62<br/>(kost naar AARD)"]
+      B --> C["Spiegelrekening 99<br/>(verbinding)"]
+      C --> D["Reflet 90<br/>(tegenboeking)"]
+      D --> E["Analytische bh<br/>Klasse 92<br/>(kost naar BESTEMMING)"]
+      E --> F["Kostenobject<br/>(tafel-eik · kast-op-maat · afdeling)"]
+      B -.->|loopt door voor JR| JR["Wettelijke jaarrekening<br/>(externe rapportering)"]
+      F -.->|voedt| INT["Interne sturing<br/>(kostprijs · marge · budget)"]
+
+  beslisboom-kostprijsmethode:
+    type: flowchart-td
+    voor_leerstuk: 2
+    titel: "Welke kostprijsmethode wanneer? (beslisboom voor Meridia)"
+    code: |
+      A[Wat is het doel?] -->|Voorraadwaardering<br/>jaarrekening| F[Full costing<br/>355,63 EUR/tafel]
+      A -->|Eenmalige beslissing<br/>special order · make-or-buy| D[Direct costing<br/>CM 260 EUR/tafel]
+      A -->|Strategisch inzicht<br/>complexe overhead| AB[ABC<br/>333,12 EUR tafel · 1692,50 kast]
+      A -->|Budgetsturing<br/>prestatie-meting| S[Standaardkosten<br/>355,63 + variantieanalyse]
+      F -.->|let op| N1[Volume-correctie<br/>bij onderbenutting]
+      D -.->|niet voor| N2[Langetermijn prijszetting<br/>dekt vaste kost niet]
+      AB -.->|ontmaskert| N3[Cross-subsidie kast ↔ tafel<br/>setup-pool als driver]
+      S -.->|paar met| N4[Variantieanalyse achteraf<br/>prijs · hoeveelheid · OH]
+
+  budget-flow:
+    type: flowchart-td
+    voor_leerstuk: 4
+    titel: "Budget-flow Meridia 2026 (zes deelbudgetten → pro-forma JR)"
+    code: |
+      ST[Strategisch plan 2026<br/>volumegroei 5% · nieuwe afwerkmachine] --> V[Verkoopbudget<br/>4200 tafels + 650 kasten<br/>3.344,5 k EUR]
+      V --> P[Productiebudget<br/>4217 tafels + 654 kasten<br/>6833 CNC-uren]
+      P --> B[Bevoorradingsbudget<br/>17.012 kg eik · 663 paneel-sets<br/>908 k EUR aankoop]
+      P --> I[Investeringsbudget<br/>afwerkmachine 300 k]
+      V --> A[Administratie-budget<br/>200 k]
+      B --> K[Kasbudget<br/>operationele · investerings ·<br/>financierings-flows]
+      I --> K
+      A --> K
+      K --> PF[Pro-forma jaarrekening<br/>RR · Balans · KSO]
+      PF -.->|integratie-toets| T[Balans sluit?<br/>✅ 2.434,5 = 2.434,5]
+
+# ---------------------------------------------------------------------------
+# VERGELIJKINGS- EN TOETS-TABELLEN
+# ---------------------------------------------------------------------------
+
+kostprijsmethoden_vergelijkingsmatrix_meridia:
+  titel: "Kostprijsmethoden voor Meridia — vergelijkingsmatrix met concrete cijfers"
+  kolommen: ["Methode", "Tafel (EUR)", "Kast (EUR)", "Voorraad-effect", "Beslissings-geschiktheid", "Wanneer gebruiken?"]
+  rijen:
+    - ["Full costing", "355,63", "1542,50", "Vaste OH in voorraad → hogere voorraadwaarde", "Slecht (allocatie-bias)", "Jaarrekening · audit"]
+    - ["Direct costing", "240,00", "1080,00", "Vaste OH = periodekost → lagere voorraadwaarde", "Goed (transparant)", "Special order · BEP · CVP"]
+    - ["ABC", "333,12", "1692,50", "Activity-based — realistischer maar zwaar", "Zeer goed (strategisch)", "Pricing-review · portfolio-rationalisatie"]
+    - ["Standaardkosten", "355,63 (norm)", "—", "Aan standaard → variantie apart geboekt", "Goed (sturend)", "Budget-cyclus · prestatie-meting"]
+  les_meridia: >
+    Voor Meridia's praktijk: standaardkosten als operationele basis (voor budget en
+    variantie), ABC één keer per jaar voor portfolio-review (ontmaskerde cross-subsidie),
+    direct costing voor ad-hoc beslissingen (special order, make-or-buy), full costing
+    voor de wettelijke jaarrekening. **Vier methodes naast elkaar — niet één-of-andere.**
+
+cost_driver_keuze_tabel:
+  titel: "Cost-driver-keuze per indirecte kostencategorie (wanneer kies je wat?)"
+  kolommen: ["Indirecte kost", "Volume-gebaseerde driver (full)", "Activity-driver (ABC)", "Wanneer driver-keuze er toe doet?"]
+  rijen:
+    - ["Energie machine", "machine-uren", "machine-uren", "Identiek — direct causaal"]
+    - ["Afschrijving CNC", "machine-uren", "machine-uren", "Identiek"]
+    - ["Huur productiehal", "machine-uren of m²", "machine-pool (proxy)", "Weinig verschil — vast"]
+    - ["**Setup-kosten**", "machine-uren (mengt!)", "**aantal setups (apart pool)**", "**Sterk — kast veroorzaakt 75% setups maar 38% CNC-uren**"]
+    - ["Algemeen beheer", "machine-uren (vaak)", "afwerk-uren of activiteit", "Matig — periodekost karakter"]
+    - ["Verkoop + marketing", "omzet of stuks", "aantal klanten of orders", "Sterk bij divers klantenbestand"]
+
+# ---------------------------------------------------------------------------
+# OPEN PUNTEN / FRAGMENTEN — voor script-auteur
+# ---------------------------------------------------------------------------
+
+open_punten_voor_scripts:
+  - "Standaardkost-kaart voor kast-op-maat ontbreekt — bewust weggelaten (job-order leent zich minder voor strakke standaardisatie). Script-auteur kan deze evt. nog toevoegen of expliciet motiveren waarom niet."
+  - "Variantierapport behandelt alleen tafel-productie Q1. Voor leerstuk 4 kan een korte 'wat als bij kast?' aside ervoor zorgen dat de stagiair de overdraagbaarheid van de techniek voelt."
+  - "Pro-forma balans gebruikt afgeronde k-EUR. Bij hergebruik voor PO 1.9 (financiële analyse) zou exactere precisie kunnen helpen voor ratio-berekeningen — eventueel later updaten."
+  - "Vega Consulting mini-case is opzettelijk dun (~bewuste keuze om dienstverlening te eren zonder leerstuk 2 op te blazen). Script-auteur kan deze 1-op-1 overnemen of korter samenvatten."
+  - "Knelpunt-rekenvoorbeeld toont één scenario (5000+700 vraag); script-auteur kan extra what-ifs aanbrengen als oefen-materiaal."
+  - "Make-or-buy-laden gebruikt eenvoudige cijfers. Voor extra rijkheid: kwaliteits-of-leverancier-risico-aspect kwalitatief toevoegen in script."

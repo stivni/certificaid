@@ -1,0 +1,258 @@
+# Leerstuk-script — kostprijsmethoden kiezen
+#
+# PO 1.8, lstk 2 van 4. Hoe-leerstuk (zwaarste): vier methodes naast elkaar
+# uitgewerkt op Meridia + diensten-mini-case voor kenniselement 1.8.III.A.5.
+# Mag tot ~4000 woorden (hoe-uitzondering uit leerstuk-schrijfregels §"lengte").
+# Voedt lstk 3 (contributiemarge als bouwsteen voor BEP/marginaal) en
+# lstk 4 (standaardkost als norm voor variantieanalyse).
+
+meta:
+  slug: kostprijsmethoden-kiezen
+  titel: "Welke kostprijsmethode kies je wanneer?"
+  po: "1.8"
+  cluster: analytische-boekhouding
+  voorbeeldgroep: meridia-meubel
+  beschrijving: >
+    Leerstuk PO 1.8 — vier kostprijsmethodes (full · direct · ABC · standaard)
+    naast elkaar uitgewerkt op één onderneming, met beslisboom en
+    vergelijkingsmatrix. Vertrekt vanuit de stelregel 'geen methode is
+    intrinsiek juist — de keuze volgt het doel'.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.8 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches leiden
+    voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: er zijn vier kostprijsmethodes — full · direct · ABC · standaard — en geen ervan is intrinsiek juist; de keuze volgt het doel."
+    - "Tweede zin: full voor de wettelijke jaarrekening, direct voor eenmalige beslissingen, ABC voor strategisch inzicht bij complexe overhead, standaard voor sturing en variantie-opvolging."
+    - "Derde zin: dezelfde tafel-eik van Meridia kost 240 EUR (direct), 333 EUR (ABC), 356 EUR (full of standaard) — alle drie correct, elk in zijn eigen context."
+  visualisaties:
+    - type: mermaid
+      ref: beslisboom-kostprijsmethode
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Pak de beslisboom als kompas; werk daarna elk pad één voor één door op de Meridia-cijfers.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: twee-assen
+    titel: "Wat onderscheidt de vier methodes? — twee assen"
+    niveau: 2
+    beats:
+      - "Open: voor wie het overzicht zoekt, val niet in de val van 'vier alternatieven naast elkaar'. De methodes zitten op TWEE assen tegelijk."
+      - "As 1 — WAT reken je mee? Full = alle kosten (vast + variabel); direct = alleen variabele kosten."
+      - "As 2 — HOE bepaal je de cijfers? Vastgesteld = achteraf uit de boekhouding (werkelijke kosten); standaard = vooraf via normen."
+      - "ABC zit op een DERDE as: hoe verdeel je indirecte kosten? Via één globale sleutel (klassiek full of direct) of via meerdere activity-pools met eigen drivers (ABC)? ABC kan op zowel full als direct gestapeld worden — het is een verfijning, niet een vierde alternatief."
+      - "Wikilink naar [[kostprijsmethoden]] voor het kader-overzicht; in dit leerstuk werken we het uit op Meridia."
+      - "Synthese (vetgedrukt): de vraag 'welke methode?' is eigenlijk drie vragen — wat meerekenen, hoe bepalen, hoe verdelen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Methode", "As 1 — wat meerekenen?", "As 2 — hoe bepalen?", "Indirecte kosten verdelen via?"]
+        rijen:
+          - ["**Full costing**", "Alle kosten (vast + variabel)", "Vastgesteld (achteraf)", "Eén globale sleutel (typisch machine- of arbeidsuren)"]
+          - ["**Direct costing**", "Alleen variabele kosten", "Vastgesteld (achteraf)", "N.v.t. — vaste kosten verdelen we niet"]
+          - ["**ABC**", "Meestal full, maar mag op direct gestapeld", "Vastgesteld (achteraf)", "**Meerdere pools met eigen drivers**"]
+          - ["**Standaardkosten**", "Meestal full, kan op direct", "**Voorafbepaald (norm)**", "Volgens gekozen onderliggende methode"]
+
+  - id: full-costing-op-meridia
+    titel: "Methode 1 — Full costing: alle kosten op het product"
+    niveau: 2
+    beats:
+      - "Werk uit waarom full costing 'wat de jaarrekening doet' is: KB-WVV vereist dat voorraden tegen aanschaffingswaarde inclusief productieoverhead worden gewaardeerd."
+      - "Mechaniek in drie stappen: (1) directe variabele kosten rechtstreeks aan het product hangen — eik, directe arbeid; (2) variabele overhead via een driver verdelen — bij Meridia: 20 EUR per CNC-uur; (3) vaste overhead via dezelfde of een andere sleutel uitsmeren — bij Meridia: 740.000 EUR / 6.400 CNC-uren = 115,63 EUR per CNC-uur."
+      - "Toon de full-costing-berekening voor tafel-eik: laat de vier kostenregels zien, eindbedrag 355,63 EUR per tafel. Marge bij prijs 500 EUR = 144,37 EUR per stuk."
+      - "Doe dezelfde oefening voor kast-op-maat: 1542,50 EUR, marge 257,50 EUR."
+      - "Naïeve interpretatie: kast heeft meer marge per stuk → kast voorrang geven. Hou die conclusie even vast — ABC zal hem omverwerpen."
+      - "Wikilink naar [[full-costing]] voor het definitorische detail (onderbenutting van capaciteit, productie- vs periodekost-onderscheid)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: full-costing-tafel-eik
+        bron: voorbeeldgroep
+      - type: tabel-vergelijking
+        ref: full-costing-kast-op-maat
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: full-costing-valkuilen
+        titel: "Twee valkuilen bij full costing"
+        niveau: 3
+        beats:
+          - "Valkuil 1 (sleutelkeuze): met één driver (machine-uren) verdeel je 740.000 EUR overhead naar verhouding van CNC-tijd. Maar de setup-kost (240.000 van die 740) volgt NIET machine-uren — ze volgt het AANTAL omstellingen. Bij Meridia geeft dat een grote vertekening (kast veroorzaakt 600 van de 800 setups maar maar 38% van de CNC-uren) — de cross-subsidie die ABC straks zal ontmaskeren."
+          - "Valkuil 2 (onderbenutting): de 115,63 EUR/uur is berekend op werkelijke productie (6.400 uren). Als de productie zou tegenvallen naar 5.000 uren, en je houdt dezelfde 740.000 vast, dan zou de eenheidskost stijgen naar 148 EUR — door capaciteit-onderbenutting. KB-WVV en IAS 2 vereisen dat je de NIET-toegerekende vaste overhead bij onderbenutting direct in resultaat boekt (idle-capacity-kost), niet uitsmeert over de overgebleven eenheden."
+        type: blockquote-aside
+
+  - id: direct-costing-op-meridia
+    titel: "Methode 2 — Direct costing: alleen variabele kosten, vaste kosten als periodekost"
+    niveau: 2
+    beats:
+      - "Open met de filosofie: direct costing draait de vraag om. Niet 'wat kost een tafel om te produceren?' (gemiddelde), wel 'wat brengt één extra tafel bij?' (incrementeel)."
+      - "Mechaniek: alleen variabele kosten (materiaal + directe arbeid + variabele OH) in de productkost. Vaste overhead (740.000 EUR bij Meridia) loopt als één blok door de RR — niet uitgesmeerd."
+      - "Toon de direct-costing-berekening voor tafel-eik: variabele kost 240 EUR per tafel, contributiemarge 260 EUR per tafel (52% van prijs). 'Contributiemarge' is een kernbegrip — verkoopprijs minus variabele kost — dat in [[break-even-en-marginale-beslissing]] de motor wordt van BEP en knelpunt-analyse."
+      - "Doe dezelfde voor kast-op-maat: variabele kost 1080, contributiemarge 720 (40% van prijs)."
+      - "Belangrijk: direct costing GEEFT MEER MARGE per stuk dan full costing — niet omdat de tafel rendabeler is, maar omdat we de vaste kost niet hebben afgetrokken. Die zit straks elders (in de periode-rekening, niet in de productkost)."
+      - "Wikilink naar [[direct-costing]] voor het contributiemarge-formaat van de resultatenrekening en het verschil in voorraadwaardering."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: direct-costing-tafel-eik
+        bron: voorbeeldgroep
+      - type: tabel-vergelijking
+        ref: direct-costing-kast-op-maat
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: direct-costing-grens
+        titel: "Wanneer direct costing breekt"
+        niveau: 3
+        beats:
+          - "Direct costing is uitstekend voor KORTE-termijn-beslissingen waar vaste kosten toch doorlopen (special order, make-or-buy, knelpunt-mix)."
+          - "Op LANGE termijn breekt het: een productprijs die alleen variabele kosten dekt is niet leefbaar — de onderneming zou nooit de huur, afschrijvingen of directie betalen. Direct costing zegt 'wat je MAXIMAAL kunt afzakken in prijs voor één extra deal'; full costing zegt 'wat je MINIMAAL moet vragen om duurzaam te overleven'."
+          - "Stelregel: voor de wettelijke voorraadwaardering MOET je full costing toepassen (KB-WVV); voor interne beslissingen MAG je direct costing gebruiken als extra cijferbril."
+        type: blockquote-aside
+
+  - id: abc-op-meridia
+    titel: "Methode 3 — ABC: cross-subsidie ontmaskeren"
+    niveau: 2
+    beats:
+      - "Open met het probleem dat ABC oplost: één globale sleutel (zoals machine-uren in full costing) klopt als alle indirecte kosten ÉCHT door machine-uren worden veroorzaakt. Dat is zelden zo."
+      - "Bij Meridia: setup-kosten (240.000 EUR — planner + omstel-dienst) worden veroorzaakt door HET AANTAL omstellingen, niet door machine-uren. Tafel-serie loopt lang door zonder omstellen (1 setup per 20 tafels); kast-op-maat vraagt elke keer een nieuwe instelling (1 setup per stuk). Met één driver smeert je deze druk gelijk uit — en kast krijgt te weinig overhead toegewezen."
+      - "Mechaniek in vier stappen: (1) identificeer activiteiten en pool-kosten; (2) ken kosten toe per pool; (3) kies een driver per pool; (4) reken kosten toe aan producten op basis van werkelijk verbruik."
+      - "Toon de pools-tabel voor Meridia: setup-pool 240.000 EUR / 800 setups = 300 EUR/setup; machine-pool 320.000 / 6.400 uren = 50 EUR/uur; algemeen 180.000 / 12.800 afwerk-uren = 14,06 EUR/uur."
+      - "Toon de ABC-berekening voor tafel-eik (333,12) en kast-op-maat (1.692,50)."
+      - "Het sleutelmoment: vergelijk de marges. Onder full: tafel 144 EUR, kast 257 EUR (kast wint). Onder ABC: tafel 167 EUR, kast 107 EUR (TAFEL wint). De rangorde keert om — bewijs van cross-subsidie."
+      - "Implicatie voor de directie: in full costing subsidieerde de tafel-lijn feitelijk de kast-lijn. Onder ABC zie je dat kast minder marge geeft dan gedacht. Strategische actie: kast-prijs verhogen, complexiteit reduceren, óf bewust kruissubsidie aanvaarden (bv. omdat kast strategische klanten binnenhaalt)."
+      - "Wikilink naar [[activity-based-costing]] voor TDABC-variant en kritieken op klassiek ABC."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: abc-vergelijking
+        bron: voorbeeldgroep
+
+  - id: standaardkosten-op-meridia
+    titel: "Methode 4 — Standaardkosten: vooraf de norm leggen"
+    niveau: 2
+    beats:
+      - "Open: tot nu toe waren alle methodes VASTGESTELD (achteraf uit de boekhouding). Standaardkosten draait het om: leg vóór de productie-periode een NORM vast — hoeveelheid × prijs per kostencomponent — en boek tijdens de periode 'aan norm'. Achteraf: vergelijk werkelijke kost met norm, verklaar het verschil."
+      - "Mechaniek: voor elke kostencomponent een standaard-kaart. Bij Meridia tafel-eik: 4,0 kg × 30 EUR/kg = 120 EUR materiaal-norm; 2,0 uur × 50 EUR/uur = 100 EUR arbeid-norm; 1 CNC-uur × 20 EUR = 20 EUR variabele OH-norm; 1 CNC-uur × 115,63 EUR = 115,63 EUR vaste OH-allocatie. Totaal: 355,63 EUR standaardkost per tafel."
+      - "Let op: de standaardkost van 355,63 EUR is GETALSMATIG identiek aan de full-costing-kost op Meridia — dat is bewust ontworpen (de standaard reflecteert wat een 'normale' productiesessie zou kosten). Het verschil ZIT NIET IN DE WAARDE, wel in WANNEER je rekent: standaardkost vóór, full costing achteraf."
+      - "Wat doe je met de norm? Boek je voorraad aan standaard-kost (35.563 EUR voor 100 tafels). Boek je werkelijke kost apart (37.770 EUR). Het verschil — 2.207 EUR ongunstig — verschijnt op een variantie-rekening (658 ongunstige variantie of 758 gunstige)."
+      - "Wikilink naar [[standaardkostenmethode]] voor de drie standaard-soorten (ideaal, haalbaar, historisch) en de boekingsflow."
+      - "Vooruit-link: de DECOMPOSITIE van die variantie naar prijs- en hoeveelheidsoorzaken is het hoofdthema van [[budget-en-variantieanalyse]] — daar werken we het Q1-2026-rapport van Meridia in detail door."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: standaardkost-kaart-tafel
+        bron: voorbeeldgroep
+      - type: boeking
+        ref: standaardkosten-met-variantie
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: materiaal-of-niet
+        titel: "Wanneer wordt een variantie materieel?"
+        niveau: 3
+        beats:
+          - "Vuistregel (geen wetstekst, dus 🤖): bij een variantie > 5% van de standaardkost moet je de afwijking pro-rata over voorraad én KGV spreiden — niet integraal in resultaat dumpen. Bij een variantie < 5% mag je het verschil als periodekost boeken op rekening 658/758."
+          - "Belang voor de balans: bij materiële afwijking en grote eindvoorraad zou volledige resultaatsverwerking de voorraadwaardering vertekenen. IAS 2 (en analoge logica onder KB-WVV) eist een 'going-back-to-actual'-correctie zodat de voorraad het werkelijke kostenniveau weergeeft."
+          - "Bij Meridia Q1 2026 (zie [[budget-en-variantieanalyse]]): variantie -22.170 EUR op standaardkost 355.630 EUR = -6,2% — net materieel. De correctiebeslissing wordt daar uitgewerkt."
+        type: blockquote-aside
+
+  - id: vergelijking
+    titel: "Vier methodes naast elkaar — vergelijkingsmatrix"
+    niveau: 2
+    beats:
+      - "Bundel alles in één tabel: per methode toon je de cijfers voor tafel en kast, het voorraad-effect, de beslissings-geschiktheid en de typische use-case."
+      - "Onderstreep: Meridia gebruikt ALLE VIER methodes naast elkaar — niet één-of-andere. Standaardkost als operationele basis (voor budget en variantie), ABC één keer per jaar voor portfolio-review, direct costing voor ad-hoc beslissingen, full costing voor de wettelijke jaarrekening."
+      - "Dat is geen luxe — dat is het volwassen analytisch beheer. Elke methode geeft een ander beslissingsperspectief op dezelfde kostenstructuur."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: kostprijsmethoden_vergelijkingsmatrix_meridia
+        bron: voorbeeldgroep
+
+  - id: diensten-mini-case
+    titel: "Werkt dit ook voor diensten? — Vega Consulting"
+    niveau: 2
+    beats:
+      - "Open: alles tot nu toe was productie-context (tafels, eik, CNC-machines). Maar het ITAA-examenprogramma vraagt expliciet (kenniselement 1.8.III.A.5) naar kostenberekening voor DIENSTVERLENENDE ondernemingen — vrije beroepen, IT-bureaus, advocatenkantoren."
+      - "Bijzonderheid van diensten: geen fysieke productie-eenheid om kosten op te hangen. De KOSTENDRAGER wordt typisch het 'declarabel uur' (een consultant-uur dat aan een klant gefactureerd kan worden), het dossier, of de klant."
+      - "Werk Vega Consulting uit: drie consultants, 1.600 werkbare uren/jaar, bezettingsgraad 75% (1.200 declarabele uren per consultant) = 3.600 declarabele uren totaal. Loonkost consultants 270.000, vaste kosten 120.000 → totale kost te recupereren 390.000 EUR / 3.600 uren = 108,33 EUR kostprijs per declarabel uur."
+      - "Met target-marge 40%: verkoopuurtarief 180 EUR (afgerond marktconform)."
+      - "De strategische hefboom bij diensten is de BEZETTINGSGRAAD, niet het volume. Daalt bezetting van 75% naar 60%, dan stijgt de break-even-uurtarief naar 135 EUR (390.000 / 2.880). Voor een consultancy is bezetting bewaken even cruciaal als facturatie."
+      - "De principes zijn identiek aan productie (variabele + vaste kosten verdelen over kostendragers). Alleen het VOCABULAIRE verschuift: machine-uur → consultant-uur, productlijn → dienstcategorie of klantsegment."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Bedrag (EUR)"]
+        rijen:
+          - ["Loonkost 3 consultants (90.000 × 3)", "270.000"]
+          - ["Vaste kosten (huur + software + directie + marketing)", "120.000"]
+          - ["**Totale te recupereren kost**", "**390.000**"]
+          - ["Declarabele uren (3 × 1.600 × 75%)", "3.600"]
+          - ["**Kostprijs per declarabel uur (390.000 / 3.600)**", "**108,33**"]
+          - ["Target-marge 40% → verkoopuurtarief", "**180**"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat één methode 'correct' is en de andere fout. Alle vier zijn coherente boekhoudkundige redeneringen — de keuze hangt af van het DOEL. Vraag bij elke kostprijscijfer: 'voor welke beslissing dient dit?'"
+      - "Valkuil 2 (⚠️): full costing klakkeloos toepassen op een special-order-vraag. Voorbeeld bij Meridia: 'kost van een tafel = 355 EUR, dus minder dan 355 vragen is verliezen' → fout. Bij vrije capaciteit dekt elke euro boven 240 EUR (variabele kost) nog vaste OH. De cijferbril die je nodig hebt is direct costing, niet full (zie [[break-even-en-marginale-beslissing]] voor de uitwerking)."
+      - "Valkuil 3 (⚠️): ABC implementeren als doel-op-zich. ABC is duur — vraagt aparte data-capture per activiteit. Hij is rendabel bij hoge overhead, hoge product-diversiteit, of duidelijke vermoeden van cross-subsidie. Voor een eenproducts-onderneming is een goede full-costing-sleutel even accuraat én veel goedkoper."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: break-even-en-marginale-beslissing
+      hint: "Hoe gebruik je de contributiemarge uit direct costing om concrete beslissingen te onderbouwen — vanaf welk volume rendabel? Special order aanvaarden? Knelpunt-mix?"
+    - slug: budget-en-variantieanalyse
+      hint: "Hoe gebruik je de standaardkost als norm voor een masterbudget en hoe decomposeer je de varianties achteraf?"
+    - slug: wat-is-analytische-boekhouding
+      hint: "Het kader-leerstuk: het kostenvocabularium en de klassen 8/9-mechaniek waarop alle methodes hier voortbouwen."
+  themafiches:
+    - slug: kostprijsmethoden
+      hint: "Voor herhaling vlak vóór het examen — vergelijkingsmatrix + beslisboom + formules."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [kostprijsmethoden]
+    - concepten: [full-costing, direct-costing]
+    - concepten: [activity-based-costing, standaardkostenmethode]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Voorraadwaardering — verplichte full-costing-aanpak voor wettelijke JR"
+    ref: "KB-WVV art. 3:18 (aanschaffingswaarde) + art. 3:19 (vervaardigingsprijs) + CBN-advies 132/7"
+    noot: >
+      De wettelijke jaarrekening eist dat productiekosten in voorraad
+      gewaardeerd zijn tegen vervaardigingsprijs — inclusief redelijk
+      aandeel in productie-overhead. Direct-costing-voorraad is dus
+      enkel voor interne sturing, niet voor neerlegging.
+  - onderwerp: "Voorraadwaarderingsmethodes (FIFO · LIFO · gewogen gemiddelde · individualisatie)"
+    ref: "KB-WVV art. 3:21"
+  - onderwerp: "Onderbenutting van capaciteit — idle-capacity-kost"
+    ref: "IAS 2 §13 (analoge logica onder KB-WVV: niet-toegerekende vaste OH bij abnormale onderbenutting direct in resultaat)"
+    noot: >
+      Voorkomt dat een tegenvallend productiejaar artificieel hogere
+      eenheidskosten produceert door alle vaste OH over een kleinere
+      productie uit te smeren. Toepassing bij Meridia indien bezetting
+      onder normale capaciteit valt.
+  - onderwerp: "Materiële variantie — pro-rata-spreiding over voorraad én KGV"
+    ref: "Vuistregel — geen specifiek wetsartikel. IAS 2 + CBN-praktijk: bij niet-materiële variantie integraal in resultaat (658/758); bij materiële afwijking pro-rata-correctie."
+    noot: "5%-drempel is praktijk-vuistregel (🤖), geen wettelijke materialiteitsdrempel."
+
+footer: "Leerstuk PO 1.8 — lstk 2 van 4 (hoe-leerstuk, hoofdgewicht). Status: voorgesteld."
