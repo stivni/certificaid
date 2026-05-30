@@ -120,7 +120,7 @@ opbouw:
       - "Verwijs naar de minicursus 1.4 voor de driehoek-context"
       - "**Boekhouder/consolidator**: stelt de geconsolideerde JR op; bepaalt kring; voert eliminaties uit; schrijft toelichting"
       - "**Commissaris**: voert wettelijke controle uit; volledigheidstest kring; audit van eliminaties; oordeel over JR"
-      - "**Adviseur**: structuur-advies (kring-keuzes), eerste-consolidaties bij overnames, goodwill-toewijzing, IFRS-keuzes bij beursgang"
+      - "**Adviseur**: structuur-advies (kring-keuzes), eerste-consolidaties bij overnames, toewijzing van het consolidatieverschil, IFRS-keuzes bij beursgang"
       - "Examenvraag-type: 'Een dochter werd vergeten in de kring — wie is verantwoordelijk?' (boekhouder primair, commissaris bij niet-detecteren)"
 
 # ---------------------------------------------------------------------------
@@ -130,8 +130,8 @@ verder_lezen:
   leerstukken:
     - slug: hoe-consolideren
       hint: "Voor de technische uitwerking onder de motorkap"
-    - slug: goodwill-bij-consolidatie
-      hint: "Voor goodwill-disclosures in de toelichting"
+    - slug: consolidatieverschil
+      hint: "Voor consolidatieverschil-disclosures (goodwill / badwill) in de toelichting"
   themafiches:
     - slug: consolidatie
       hint: "Voor herhaling vlak vóór het examen"

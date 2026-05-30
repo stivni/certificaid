@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit is de entry-fiche voor consolidatie: eerst snappen wát het document is. Wie verplicht is staat in [[wie-moet-consolideren]], hoe het technisch werkt in [[hoe-consolideren]], en wat er met goodwill gebeurt in [[goodwill-bij-consolidatie]]. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit is de entry-fiche voor consolidatie: eerst snappen wát het document is. Wie verplicht is staat in [[wie-moet-consolideren]], hoe het technisch werkt in [[hoe-consolideren]], en wat er met het consolidatieverschil gebeurt in [[consolidatieverschil]]. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 
@@ -70,7 +70,7 @@ Een geconsolideerde jaarrekening onder Belgisch recht telt vier onderdelen. Elk 
 
 | Onderdeel | Wat staat erin? |
 |---|---|
-| Geconsolideerde balans | Activa en passiva van de hele groep, na eliminaties. Aparte rubrieken voor goodwill (consolidatieverschil) en belang van derden |
+| Geconsolideerde balans | Activa en passiva van de hele groep, na eliminaties. Aparte rubrieken voor consolidatieverschil (goodwill/badwill) en belang van derden |
 | Geconsolideerde resultatenrekening | Opbrengsten en kosten van de groep, na eliminaties. Aparte post "aandeel van derden in het resultaat" en, voor associates, "aandeel in het resultaat van vennootschappen waarop de vermogensmutatiemethode is toegepast" |
 | Geconsolideerde toelichting | Verklaring van de cijfers, samenstelling van de consolidatiekring, gekozen methode per dochter, waarderingsregels en consolidatieverschillen |
 | Geconsolideerd jaarverslag | Beleidsbeschrijving, voornaamste risico's, duurzaamheid en governance — opgesteld door het bestuursorgaan van de moedervennootschap op groepsniveau |
@@ -87,9 +87,9 @@ Het opmaakproces zelf — wie wat doet, hoe de commissaris controleert, welke te
 
 België kent twee mogelijke kaders. Het **Belgisch stelsel** is de standaard: opgemaakt volgens het Wetboek van Vennootschappen en Verenigingen en het KB-WVV, in euro, neergelegd bij de Nationale Bank. Voor **beursgenoteerde moedervennootschappen** is daarentegen IFRS verplicht, op grond van de Europese IAS-Verordening uit 2002. Andere groepen mogen vrijwillig voor IFRS kiezen — wat ze in de praktijk doen wanneer ze internationaal vergelijkbaar willen rapporteren of een beursgang voorbereiden.
 
-De twee stelsels verschillen op een handvol pedagogisch zware punten. De *scope-vrijstelling* "groep van beperkte omvang" bestaat alleen onder B-GAAP — IFRS kent geen algemene drempel-vrijstelling. Goodwill wordt onder B-GAAP systematisch *afgeschreven* volgens een plan en eventueel bijkomend impaired, terwijl IFRS goodwill niet afschrijft maar enkel jaarlijks op impairment toetst. En *evenredige consolidatie* voor joint ventures is onder B-GAAP toegelaten, maar onder IFRS verboden — joint ventures gaan daar verplicht via de vermogensmutatiemethode.
+De twee stelsels verschillen op een handvol pedagogisch zware punten. De *scope-vrijstelling* "groep van beperkte omvang" bestaat alleen onder B-GAAP — IFRS kent geen algemene drempel-vrijstelling. Het *consolidatieverschil* (positief: goodwill; negatief: badwill) wordt onder B-GAAP systematisch *afgeschreven* volgens een passend plan en eventueel bijkomend niet-recurrent afgeschreven wanneer de economische omstandigheden dat eisen, terwijl IFRS het consolidatieverschil niet afschrijft maar enkel jaarlijks op impairment toetst. En *evenredige consolidatie* voor joint ventures is onder B-GAAP toegelaten, maar onder IFRS verboden — joint ventures gaan daar verplicht via de vermogensmutatiemethode.
 
-De technische uitwerking van die verschillen ligt elders: zie [[goodwill-bij-consolidatie]] voor de goodwill-behandeling onder beide stelsels en [[hoe-consolideren]] voor de methode-keuze en wanneer welke methode toegepast wordt.
+De technische uitwerking van die verschillen ligt elders: zie [[consolidatieverschil]] voor de behandeling van goodwill en badwill onder beide stelsels en [[hoe-consolideren]] voor de methode-keuze en wanneer welke methode toegepast wordt.
 
 ---
 
@@ -99,7 +99,7 @@ De technische uitwerking van die verschillen ligt elders: zie [[goodwill-bij-con
 
 - [[wie-moet-consolideren]] — Wanneer is een groep verplicht een geconsolideerde JR op te maken? Controle, kring, drempels.
 - [[hoe-consolideren]] — Hoe werkt het technisch? Drie methodes, eerste consolidatie, drie families van eliminaties.
-- [[goodwill-bij-consolidatie]] — Wat gebeurt er met goodwill na eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS.
+- [[consolidatieverschil]] — Wat gebeurt er met het verschil (goodwill of badwill) na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS.
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — Opmaakproces, jaarverslag, commissarisverslag, termijnen en NBB-publicatie.
 - [[themafiches/consolidatie|Themafiche Consolidatie]] — voor herhaling vlak vóór het examen.
 

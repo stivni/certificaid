@@ -43,7 +43,7 @@ Niet elke groep moet consolideren. Twee voorwaarden samen: er moet *controle* zi
 
 ### Drie technieken
 
-Per controle-niveau één methode: **integraal** voor dochters, **evenredig** voor joint ventures (alleen B-GAAP), **vermogensmutatie** voor geassocieerde deelnemingen. Plus de eerste-consolidatie en drie families courante eliminaties. → De techniek-fiche, vier stappen samen: [[hoe-consolideren]] (zwaar — neem je tijd). Voor goodwill apart uitgewerkt: [[goodwill-bij-consolidatie]].
+Per controle-niveau één methode: **integraal** voor dochters, **evenredig** voor joint ventures (alleen B-GAAP), **vermogensmutatie** voor geassocieerde deelnemingen. Plus de eerste-consolidatie en drie families courante eliminaties. → De techniek-fiche, vier stappen samen: [[hoe-consolideren]] (zwaar — neem je tijd). Voor het consolidatieverschil (goodwill of badwill) apart uitgewerkt: [[consolidatieverschil]].
 
 ### Wat doet de accountant hier?
 
@@ -63,7 +63,7 @@ Twee delen: **vier leerstukken** dekken de geconsolideerde kant (de kern van dit
 
 1. **Entry + scope** — [[wat-is-een-geconsolideerde-jaarrekening]] + [[wie-moet-consolideren]]. Zonder begrip wat het document is en wanneer het verplicht wordt, is alles theoretisch.
 2. **Techniek — de zware leerstuk** — [[hoe-consolideren]]. Vier stappen samen: uniforme waarderingsregels, methode-keuze per controle-niveau, eerste consolidatie met reële-waarde-herwaardering en goodwill, drie families courante eliminaties. Examen-zwaarte zit hier.
-3. **Goodwill apart** — [[goodwill-bij-consolidatie]]. Berekening kort herhaald, focus op afschrijving B-GAAP versus impairment IFRS — een examen-klassieker.
+3. **Consolidatieverschil apart** — [[consolidatieverschil]]. Berekening kort herhaald, focus op afschrijving onder B-GAAP versus impairment onder IFRS, plus de spiegelsituatie badwill — een examen-klassieker.
 4. **Rapportering en controle** — [[rapportering-en-controle-geconsolideerde-jaarrekening]]. Het opmaak-proces, jaarverslag, commissarisverslag en termijnen — de zichtbare output.
 
 Elke leerstuk bundelt de **rol-uitwerking** (boekhouder die de moeder bijstaat · commissaris die controleert · adviseur die meedenkt bij overnames) en de **wettelijke verwijzingen** (WVV Boek 3, KB-WVV, IFRS 10/3/11, CBN-adviezen) in zijn eigen "Wettelijk fundament"-sectie. Niet meer apart op te zoeken hier.

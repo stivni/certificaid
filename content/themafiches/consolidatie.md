@@ -153,7 +153,7 @@ Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
 - [[wat-is-een-geconsolideerde-jaarrekening]] — wat het document is, voor wie, vier onderdelen, B-GAAP versus IFRS
 - [[wie-moet-consolideren]] — controle (3 niveaus), kring (verticaal/consortium), drempels, vrijstellingen, kring-wijzigingen
 - [[hoe-consolideren]] — vier stappen + drie methodes + eerste consolidatie + drie families eliminaties
-- [[goodwill-bij-consolidatie]] — berekening, afschrijving (B-GAAP) versus impairment (IFRS), badwill
+- [[consolidatieverschil]] — berekening, afschrijving (B-GAAP) versus impairment (IFRS), badwill
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — opmaak-proces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB
 
 ### Concept-fiches — voor definitorisch detail

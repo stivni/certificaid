@@ -148,7 +148,7 @@ Een vaste examenvraag-stijl: *"Bij de neerlegging blijkt dat een dochter werd ve
 ## Wanneer je dit snapt, ga dan naar
 
 - [[hoe-consolideren]] — voor de technische uitwerking onder de motorkap: eerste consolidatie, drie families eliminaties, methode-keuze per controle-niveau.
-- [[goodwill-bij-consolidatie]] — voor goodwill-disclosures in de toelichting en hoe het jaarverslag de afschrijvings- of impairment-keuze motiveert.
+- [[consolidatieverschil]] — voor consolidatieverschil-disclosures (goodwill/badwill) in de toelichting en hoe het jaarverslag de afschrijvings- of impairment-keuze motiveert.
 - [[themafiches/consolidatie|Themafiche Consolidatie]] — voor herhaling vlak vóór het examen.
 
 ## Doorklik naar concepten

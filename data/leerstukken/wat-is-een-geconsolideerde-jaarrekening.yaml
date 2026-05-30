@@ -19,7 +19,7 @@ meta:
 intro:
   callout_beat: >
     Standaard leerstuk-intro. Aankondigen: dit is de entry-fiche voor
-    consolidatie. Wie/hoe/goodwill/rapportering volgen in eigen leerstukken;
+    consolidatie. Wie/hoe/consolidatieverschil/rapportering volgen in eigen leerstukken;
     deze fiche is de begripsbasis.
 
 # ---------------------------------------------------------------------------
@@ -77,7 +77,7 @@ opbouw:
       - type: tabel-inline
         kolommen: ["Onderdeel", "Wat staat erin?"]
         rijen:
-          - ["Geconsolideerde balans", "Activa + passiva van de hele groep, na eliminaties. Aparte rubrieken voor goodwill en belang van derden"]
+          - ["Geconsolideerde balans", "Activa + passiva van de hele groep, na eliminaties. Aparte rubrieken voor consolidatieverschil (goodwill/badwill) en belang van derden"]
           - ["Geconsolideerde resultatenrekening", "Opbrengsten en kosten van de groep, na eliminaties. Aparte post 'aandeel van derden in het resultaat'"]
           - ["Geconsolideerde toelichting", "Verklaring + samenstelling kring + methode per dochter + waarderingsregels"]
           - ["Geconsolideerd jaarverslag", "Beleidsbeschrijving + risico's + duurzaamheid + governance (door het bestuursorgaan van de moeder)"]
@@ -88,9 +88,9 @@ opbouw:
     beats:
       - "Belgisch stelsel: WVV Boek 3 + KB-WVV, opgesteld in EUR, neergelegd bij NBB"
       - "IFRS: verplicht voor beursgenoteerde moeders (EU-IAS-Verordening uit 2002), optioneel voor andere"
-      - "Belangrijkste verschillen kort: scope-vrijstelling (alleen B-GAAP heeft kleine-groep-vrijstelling), goodwill (B-GAAP afschrijven + impairment, IFRS impairment-only), evenredige consolidatie (B-GAAP toegestaan, IFRS verboden voor JV's)"
-      - "Doorklik naar [[goodwill-bij-consolidatie]] voor goodwill-detail en [[hoe-consolideren]] voor methode-detail"
-    notitie: "Geen volle vergelijkingstabel hier (dat zou overlappen met goodwill- en hoe-consolideren). Eén compacte paragraaf volstaat."
+      - "Belangrijkste verschillen kort: scope-vrijstelling (alleen B-GAAP heeft kleine-groep-vrijstelling), consolidatieverschil (B-GAAP afschrijven + niet-recurrente afschrijving, IFRS impairment-only), evenredige consolidatie (B-GAAP toegestaan, IFRS verboden voor JV's)"
+      - "Doorklik naar [[consolidatieverschil]] voor goodwill/badwill-detail en [[hoe-consolideren]] voor methode-detail"
+    notitie: "Geen volle vergelijkingstabel hier (dat zou overlappen met consolidatieverschil- en hoe-consolideren). Eén compacte paragraaf volstaat."
 
 # ---------------------------------------------------------------------------
 
@@ -101,8 +101,8 @@ verder_lezen:
       hint: "Wanneer is een groep verplicht een geconsolideerde JR op te maken?"
     - slug: hoe-consolideren
       hint: "Hoe werkt het technisch — drie methodes, eerste consolidatie, eliminaties?"
-    - slug: goodwill-bij-consolidatie
-      hint: "Wat gebeurt er met goodwill na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS."
+    - slug: consolidatieverschil
+      hint: "Wat gebeurt er met het verschil (goodwill of badwill) na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS."
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Het opmaakproces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB-publicatie"
   themafiches:

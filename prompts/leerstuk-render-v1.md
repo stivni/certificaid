@@ -112,10 +112,10 @@ tags:
 
 | Type | Render |
 |---|---|
-| `mermaid` (ref) | ```mermaid blok met `flowchart TD` prefix + code uit `voorbeeldgroep.mermaid_diagrammen.<ref>` |
+| `mermaid` (ref) | ```mermaid blok — prefix volgt `type`-veld in `voorbeeldgroep.mermaid_diagrammen.<ref>` (`flowchart-td` → `flowchart TD`, `flowchart-lr` → `flowchart LR`). **Default voor stappenplannen = LR (horizontaal).** TD alleen voor hiërarchische bomen (groepsstructuur, beslisboom met ja/nee-takken). |
 | `balans-paar` (ref) | `<div class="balans-twee-koloms">` + 2 markdown-tabellen (activa, passiva). Sub-totalen vetgedrukt op rij met **lege eerste cel**. `★` voor intra-groep. `<br>` voor wrap-controle |
 | `resultatenrekening` (ref) | 2-koloms staffel-tabel uit `voorbeeldgroep.resultatenrekeningen.<ref>` |
-| `boeking` (ref) | 4-koloms T-rekening-tabel `Debet ¦ mln ¦ Credit ¦ mln` uit `voorbeeldgroep.boekingen.<ref>` + Totaal-rij |
+| `boeking` (ref) | 5-koloms CBN-stijl-tabel `  ¦ MAR ¦ Omschrijving ¦ Debet ¦ Credit` uit `voorbeeldgroep.boekingen.<ref>`. Eerste kolom leeg voor debet-regels, "aan" voor credit-regels. MAR-veld toont de rekening-code (optioneel — leeg voor consolidatie-rubrieken zonder vaste MAR-code). Eenheid in titel of voetregel, niet per kolom. Optioneel Totaal-rij onderaan. |
 | `tabel-inline` (inline kolommen + rijen) | Standaard markdown-tabel |
 | `tabel-vergelijking` (ref) | Markdown-tabel uit `voorbeeldgroep.<ref>` |
 | `mock-mutatie-tabel` (ref) | Vergelijkings-tabel uit `voorbeeldgroep.mock_geconsolideerd.<ref>` of `voorbeeldgroep.balansen.<ref>` |

@@ -74,10 +74,40 @@ verder_lezen:
 | `mermaid` | Mermaid code-block | `voorbeeldgroep.mermaid_diagrammen.<ref>` |
 | `balans-paar` | `<div class="balans-twee-koloms">` met activa + passiva tabellen | `voorbeeldgroep.balansen.<ref>` |
 | `resultatenrekening` | Staffel-tabel | `voorbeeldgroep.resultatenrekeningen.<ref>` |
-| `boeking` | T-rekening-tabel (Debet · mln · Credit · mln) | `voorbeeldgroep.boekingen.<ref>` |
+| `boeking` | CBN-stijl tabel (`  · MAR · Omschrijving · Debet · Credit`) — eerste kolom leeg voor debet, `aan` voor credit. MAR-veld optioneel per regel. | `voorbeeldgroep.boekingen.<ref>` |
 | `tabel-vergelijking` | Standaard markdown-tabel | Inline `kolommen` + `rijen` of `ref` |
 | `mock-mutatie-tabel` | Vergelijkings-tabel met kolom per entiteit + mutatie + geconsolideerd | `voorbeeldgroep.mock_geconsolideerd.<ref>` |
 | `tabel-inline` | Standaard markdown-tabel | Inline `kolommen` + `rijen` |
+
+## Boeking-data-structuur (CBN-stijl)
+
+Boekingen onder `voorbeeldgroep.boekingen.<ref>` volgen het CBN-advies-formaat:
+
+```yaml
+boekingen:
+  <ref>:
+    titel: "Boeking — <korte omschrijving>"
+    eenheid: "mln EUR"          # of "EUR" — in titel/voetnoot, niet per kolom
+    regels:
+      - mar: "280"              # MAR-rekening; optioneel (leeg-string voor consolidatie-rubrieken zonder vaste MAR)
+        omschrijving: "Deelneming Bellator"
+        debet: 6.0              # vul ÓFWEL debet ÓFWEL credit, nooit beide
+      - mar: "550"
+        omschrijving: "Kredietinstellingen — rekening-courant"
+        credit: 6.0
+    totaal: 6.0                  # optioneel
+```
+
+Renderer geeft (eerste kolom = `aan` op credit-regels):
+
+```
+|     | MAR | Omschrijving                | Debet | Credit |
+|-----|-----|-----------------------------|------:|-------:|
+|     | 280 | Deelneming Bellator         | 6,0   |        |
+| aan | 550 | Kredietinstellingen — R/C   |       | 6,0    |
+```
+
+Voor consolidatie-boekingen: MAR is vaak leeg of indicatief (geconsolideerde rubriekcodes zoals `9920` voor consolidatieverschil zijn informele praktijk, niet wettelijk opgelegde MAR-nummers).
 
 ## Beats — taal-conventies
 
