@@ -1,6 +1,7 @@
 ---
 title: "Individuele jaarrekening opmaken"
 description: "Leerstuk PO 1.4 — het enkelvoudige deel: hoe maakt een Belgische vennootschap haar individuele jaarrekening op? Eindejaarsverrichtingen, proefbalans, schema-keuze, resultaatbestemming, sociale balans, termijnen."
+explorer_title: "Individuele JR opmaken"
 tags:
   - leerstuk
   - po-1.4

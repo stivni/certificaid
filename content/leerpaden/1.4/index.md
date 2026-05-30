@@ -1,6 +1,7 @@
 ---
 title: "PO 1.4 — Geconsolideerde jaarrekening · minicursus"
 description: "Minicursus voor PO 1.4: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+explorer_title: "1.4 Consolidatie"
 tags:
   - minicursus-mockup
   - po-1.4

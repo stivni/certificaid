@@ -1,6 +1,7 @@
 ---
 title: "Wat is een geconsolideerde jaarrekening?"
 description: "Leerstuk PO 1.4 — entry-fiche: wat is een geconsolideerde jaarrekening, waarom bestaat ze, voor wie, en wat zit erin?"
+explorer_title: "1. Wat?"
 tags:
   - leerstuk
   - po-1.4

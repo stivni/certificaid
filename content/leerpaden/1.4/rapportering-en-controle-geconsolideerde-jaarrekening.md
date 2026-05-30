@@ -1,6 +1,7 @@
 ---
 title: "Rapportering en controle van de geconsolideerde jaarrekening"
 description: "Leerstuk PO 1.4 — het rapporterings-leerstuk: hoe wordt een geconsolideerde jaarrekening opgemaakt in de praktijk, wat is een geconsolideerd jaarverslag, hoe verloopt de commissariscontrole, en wat zijn termijnen + publicatieplicht?"
+explorer_title: "5. Rapportering"
 tags:
   - leerstuk
   - po-1.4

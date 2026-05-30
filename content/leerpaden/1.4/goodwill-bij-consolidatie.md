@@ -1,6 +1,7 @@
 ---
 title: "Goodwill bij consolidatie"
 description: "Leerstuk PO 1.4 — het consolidatieverschil-leerstuk: hoe ontstaat goodwill, hoe wordt ze nadien afgeschreven, wanneer is een impairment nodig, en hoe verschilt B-GAAP van IFRS?"
+explorer_title: "4. Goodwill"
 tags:
   - leerstuk
   - po-1.4
