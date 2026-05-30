@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit leerstuk dekt het **enkelvoudige** deel van PO 1.4: zes van de zeven officiële doelstellingen (eindejaarsverrichtingen, waarderingsregels, proefbalans, schema-keuze, resultaatbestemming, sociale balans). Voor consolidatie zie [[wat-is-een-geconsolideerde-jaarrekening]] en verder. Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit leerstuk dekt het **enkelvoudige** deel van PO 1.4: zes van de zeven officiële doelstellingen (eindejaarsverrichtingen, waarderingsregels, proefbalans, schema-keuze, resultaatbestemming, sociale balans). Voor consolidatie zie [[wat-is-een-geconsolideerde-jaarrekening]] en verder. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 

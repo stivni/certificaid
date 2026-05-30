@@ -17,7 +17,7 @@ Elke minicursus geeft je het *verhaal en de routekaart* van het programmaonderde
 - [[leerpaden/1.1|**PO 1.1** — Algemene boekhouding]]
 - [[leerpaden/1.2|**PO 1.2** — Boekhoudrecht en jaarrekeningenrecht]]
 - [[leerpaden/1.3|**PO 1.3** — Analyse en kritische beoordeling van de jaarrekening]]
-- [[leerpaden/1.4|**PO 1.4** — Geconsolideerde jaarrekening]]
+- [[leerpaden/1-4|**PO 1.4** — Geconsolideerde jaarrekening]]
 - [[leerpaden/1.5|**PO 1.5** — Europese wetgeving en internationale boekhoudkundige normen (IFRS)]]
 - [[leerpaden/1.6|**PO 1.6** — Externe controle]]
 - [[leerpaden/1.7|**PO 1.7** — Interne controle]]

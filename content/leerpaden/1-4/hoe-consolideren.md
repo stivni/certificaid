@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Lees eerst [[wie-moet-consolideren]] — die zet de scope vast (welke vennootschappen, welke drempels). Hier ga je in op de techniek: welke methode kies je, hoe verloopt een eerste consolidatie, en hoe elimineer je de intra-groep stromen. Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Lees eerst [[wie-moet-consolideren]] — die zet de scope vast (welke vennootschappen, welke drempels). Hier ga je in op de techniek: welke methode kies je, hoe verloopt een eerste consolidatie, en hoe elimineer je de intra-groep stromen. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 

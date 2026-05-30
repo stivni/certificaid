@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit is de entry-fiche voor consolidatie: eerst snappen wát het document is. Wie verplicht is staat in [[wie-moet-consolideren]], hoe het technisch werkt in [[hoe-consolideren]], en wat er met goodwill gebeurt in [[goodwill-bij-consolidatie]]. Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Dit is de entry-fiche voor consolidatie: eerst snappen wát het document is. Wie verplicht is staat in [[wie-moet-consolideren]], hoe het technisch werkt in [[hoe-consolideren]], en wat er met goodwill gebeurt in [[goodwill-bij-consolidatie]]. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 

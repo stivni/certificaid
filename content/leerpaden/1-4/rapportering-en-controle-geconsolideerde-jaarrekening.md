@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** De technische uitwerking — kring, methodes, eliminaties — staat in [[hoe-consolideren]]; het *wat is dit document* in [[wat-is-een-geconsolideerde-jaarrekening]]. Dit leerstuk pakt op waar die ophouden: het proces om de cijfers tot bij de Nationale Bank te krijgen, het jaarverslag dat eraan vasthangt, en de commissaris die er zijn oordeel onder zet. Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** De technische uitwerking — kring, methodes, eliminaties — staat in [[hoe-consolideren]]; het *wat is dit document* in [[wat-is-een-geconsolideerde-jaarrekening]]. Dit leerstuk pakt op waar die ophouden: het proces om de cijfers tot bij de Nationale Bank te krijgen, het jaarverslag dat eraan vasthangt, en de commissaris die er zijn oordeel onder zet. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 

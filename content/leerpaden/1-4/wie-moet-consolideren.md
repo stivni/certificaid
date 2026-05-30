@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]]. Voor definitorische opzoek: zie wikilinks doorheen de tekst.
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]]. Voor definitorische opzoek: zie wikilinks doorheen de tekst.
 
 </div>
 

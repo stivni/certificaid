@@ -19,7 +19,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 - [[leerpaden/1.1|1.1 Algemene boekhouding]]
 - [[leerpaden/1.2|1.2 Boekhoudrecht en jaarrekeningenrecht]]
 - [[leerpaden/1.3|1.3 Analyse van de jaarrekening]]
-- [[leerpaden/1.4|1.4 Geconsolideerde jaarrekening]]
+- [[leerpaden/1-4|1.4 Geconsolideerde jaarrekening]]
 - [[leerpaden/1.5|1.5 Europese wetgeving en IFRS]]
 - [[leerpaden/1.6|1.6 Externe controle]]
 - [[leerpaden/1.7|1.7 Interne controle]]

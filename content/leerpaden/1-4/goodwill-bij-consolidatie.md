@@ -10,7 +10,7 @@ tags:
 
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** Goodwill is het verschil tussen wat je voor een dochter betaalt en het reële netto-vermogen dat je in ruil krijgt — en wat je daarna met dat verschil doet. Vereiste voorkennis: [[hoe-consolideren]], vooral het eerste-consolidatie-deel waar goodwill voor het eerst op de balans verschijnt. Voor verhaal en routekaart: [[leerpaden/1.4|minicursus PO 1.4]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** Goodwill is het verschil tussen wat je voor een dochter betaalt en het reële netto-vermogen dat je in ruil krijgt — en wat je daarna met dat verschil doet. Vereiste voorkennis: [[hoe-consolideren]], vooral het eerste-consolidatie-deel waar goodwill voor het eerst op de balans verschijnt. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 
