@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-28 (Fase 2 massa-extractie schema 2.2: alle 359 concept-records van skeleton → concept (waves 1-5, 8-9 parallel agents per wave); render-laag v22 + index-pagina's per PO/type/categorie gegenereerd → site direct bruikbaar voor exam-studie; verify-pass (Pass 2) en verbeter-pass (Pass 3) nog te doen — zie §Fase 8 hieronder)
+**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn opgeleverd: `tarieven_api` + MCP-server `certificaid-tarieven` + 2 prompts + 3 trusted drempel-records voor art. 1:24/1:25/1:26 WVV — leerstuk `wie-moet-consolideren` wikilinkt nu naar de tarief-records; vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht)
 
 ---
 
@@ -328,6 +328,26 @@ De 207 gecommitte records zijn schema-2.1-v1.5-output van rolling sub-agents (`b
 ### Records-API integriteit-check
 
 Na de records-bypass: `python3 -m tools.lib.records_api --audit-parity` draaien om disk ↔ RAG ↔ content drift te kwantificeren, vóór render-laag-revisie (Fase 1.2) start.
+
+---
+
+## Tarief-records (ADR-026) — open lijst
+
+**Pijplijn-status** (2026-05-30): infrastructuur klaar (schema 1.0 · `tarieven_api` · MCP-server `certificaid-tarieven` · prompts v1) — bewezen via 3 trusted drempel-records uit CBN-advies 2024/07 + MvT-WVV. Chunker uitgesteld tot Cijferzakboekje 2027 als single PDF.
+
+**Records aanwezig** (3): `drempels-kleine-vennootschap` · `drempels-microvennootschap` · `drempels-groep-beperkte-omvang`.
+
+**As-needed te produceren wanneer leerstuk-X het aanroept**:
+
+- Vennootschapsbelasting — basistarief + verlaagd KMO-tarief + voorwaarden (art. 215 WIB92)
+- Vennootschapsbelasting — voorafbetalingen (rentevoeten, vermeerderings-bonificatie)
+- Personenbelasting — schijven 2026 (al beschikbaar in PNG `p070` — eerste vision-extract-target zodra leerstuk PB nodig heeft)
+- Roerende voorheffing — gewone + verlaagde tarieven (VVPR-bis etc.)
+- Btw — drempel kleine onderneming + verschillende tarieven
+- Indexcoëfficiënt – berekeningsbasis 2013/2024
+- Sociale zekerheid — bijdragen werkgever/werknemer/zelfstandige (alleen indien examen-relevant)
+
+**Aanpak per nieuwe record**: extract-subagent via [`prompts/tarief-extractie-v1.md`](../prompts/tarief-extractie-v1.md), gevolgd door verify via [`prompts/tarief-verify-v1.md`](../prompts/tarief-verify-v1.md). Voor records waarvan de bedragen volledig RAG-traceerbaar zijn (CBN-advies / wettekst-MvT): PNG-vision overslaan, `cijferzakboekje_pagina = null` documenteren in `bron`.
 
 ---
 
