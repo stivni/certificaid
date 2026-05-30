@@ -2,7 +2,8 @@
 
 **Voor**: een Opus/Sonnet-agent of mens die een leerstuk schrijft.
 **Canoniek**: [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md). Lees ook [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) voor de positie tussen minicursus en concept.
-**Gold-standard mockup**: [`content/leerstukken/wie-moet-consolideren.md`](../content/leerstukken/wie-moet-consolideren.md).
+**Gold-standard mockup**: [`content/leerpaden/1.4/wie-moet-consolideren.md`](../content/leerpaden/1.4/wie-moet-consolideren.md).
+**Canonical pad**: PO-specifieke leerstukken onder `content/leerpaden/<po>/<slug>.md`; cross-PO leerstukken (toekomst) onder `content/leerstukken/<slug>.md`.
 
 ---
 

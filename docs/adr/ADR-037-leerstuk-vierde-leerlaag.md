@@ -24,7 +24,7 @@ Voeg een vierde leerlaag in: het **leerstuk**.
 | Laag | Atoom | Lezer-state | Locatie |
 |---|---|---|---|
 | **Minicursus** | Eén PO (of spoor) | "Ik begin aan dit vak — geef me het verhaal en de routekaart" | `content/leerpaden/<po-code>.md` |
-| **Leerstuk** *(NIEUW)* | Eén didactische vraag of samenhangend leerstuk binnen een cluster | "Ik wil deze vraag nu echt snappen — leid me door" | `content/leerstukken/<slug>.md` |
+| **Leerstuk** *(NIEUW)* | Eén didactische vraag of samenhangend leerstuk binnen een cluster | "Ik wil deze vraag nu echt snappen — leid me door" | `content/leerpaden/<po>/<slug>.md` (PO-specifiek) |
 | **Themafiche** | Eén cluster | "Ik moet dit opfrissen — geef me alles op één pagina" | `content/themafiches/<cluster>.md` |
 | **Concept** | Eén begrip | "Wat is precies X?" | `content/concepten/<concept-id>.md` (gerenderd uit records) |
 
@@ -163,7 +163,7 @@ Themafiche-schrijfregels-update voor andere themafiches (jaarrekening-schema, ei
 | Laag | Owner | Trigger voor update |
 |---|---|---|
 | **Concept-fiche** | `data/concepten/records/<id>.json` → render | Record-edit |
-| **Leerstuk** *(NIEUW)* | Handgeschreven `content/leerstukken/<slug>.md` | Onderliggende concepten materieel gewijzigd OF nieuwe didactische inzicht |
+| **Leerstuk** *(NIEUW)* | Handgeschreven `content/leerpaden/<po>/<slug>.md` (PO-specifiek) of `content/leerstukken/<slug>.md` (cross-PO, toekomst) | Onderliggende concepten materieel gewijzigd OF nieuwe didactische inzicht |
 | **Themafiche** | Handgeschreven `content/themafiches/<cluster>.md` | Records van het cluster materieel gewijzigd |
 | **Minicursus** | Handgeschreven `content/leerpaden/<po>.md` | Examenprogramma-edit OF nieuwe leerstukken/themafiches |
 
@@ -171,11 +171,11 @@ Geen auto-regen tussen lagen. Conform ADR-003 stale-flagging.
 
 ## Generatie-aanpak
 
-POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `content/leerstukken/wie-moet-consolideren.md` (deze ronde). Indien het format zich bevestigt → Sonnet-agent voor de resterende ~80-130 leerstukken op basis van [`docs/leerstuk-schrijfregels.md`](../leerstuk-schrijfregels.md).
+POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `content/leerpaden/1.4/wie-moet-consolideren.md` (deze ronde). Indien het format zich bevestigt → Sonnet-agent voor de resterende ~80-130 leerstukken op basis van [`docs/leerstuk-schrijfregels.md`](../leerstuk-schrijfregels.md).
 
 ## Mockup (POC — handgeschreven door Opus, 2026-05-30)
 
-- **Leerstuk-POC**: [`content/leerstukken/wie-moet-consolideren.md`](../../content/leerstukken/wie-moet-consolideren.md) — PO 1.4, scope-vraag. Visualiteits-eis ingevuld via drempel-tabel + groepsstructuur-mermaid + beslisboom + doorgewerkte voorbeeldgroep.
+- **Leerstuk-POC**: [`content/leerpaden/1.4/wie-moet-consolideren.md`](../../content/leerpaden/1.4/wie-moet-consolideren.md) — PO 1.4, scope-vraag. Visualiteits-eis ingevuld via drempel-tabel + groepsstructuur-mermaid + beslisboom + doorgewerkte voorbeeldgroep.
 - **Minicursus-edit (POC)**: [`content/leerpaden/1.4.md`](../../content/leerpaden/1.4.md) §3 "Wat je daarvoor moet kennen" — herstructureerd rond leerstuk-wikilinks.
 
 ## Wat dit superseert / amendeert
@@ -197,7 +197,7 @@ POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `co
 | 2 | Themafiche-schrijfregels herzien (visueel-dominanter) | Wanneer 3-5 leerstukken bestaan voor één cluster (consolidatie) en we de tekstuele overlap zien |
 | 3 | Volledige 1.4 leerstuk-set schrijven (5 consolidatie + 1 enkelvoudig) — Sonnet-agent | Na approval van mockup `wie-moet-consolideren` |
 | 4 | Render-laag-keuze: wetsverwijzingen-sectie blijven of opschuiven naar superscript-voetnoten? | Wanneer 10+ leerstukken bestaan en het footer-blok kwantitatief in beeld komt |
-| 5 | Quartz-explorer: `content/leerstukken/` in sidebar opnemen | Wanneer ≥5 leerstukken gepubliceerd zijn |
+| 5 | Quartz-explorer-nesting: leerstukken onder hun PO-leerpad (gerealiseerd 2026-05-31 via filesystem-move naar `content/leerpaden/<po>/`) | Voltooid |
 | 6 | Backlink-render: een concept-fiche toont "Genoemd in leerstukken X, Y" (automatisch) | Wanneer leerstukken-corpus stabiel genoeg is |
 | 7 | Multi-PO leerstukken: kan één leerstuk PO-overstijgend zijn (bv. waarderingsregels)? | Empirisch wanneer een leerstuk in twee minicursussen relevant blijkt |
 
