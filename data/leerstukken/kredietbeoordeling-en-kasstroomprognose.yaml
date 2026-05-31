@@ -1,0 +1,175 @@
+# Leerstuk-script — kredietbeoordeling en kasstroomprognose
+#
+# PO 1.9, lstk 2 van 4. Integratie-leerstuk: van techniek (kasstroom-overzicht IAS 7,
+# FCF — beide bij PO 1.3) naar beslissing (DSCR-toets + matching + alternatieven).
+# Kerncase: Belmonte 600 k investeringskrediet aanvraag begin 2026.
+# Examen-anker: 2008-bibf vrC2 (haalbaarheid investeringskrediet).
+
+meta:
+  slug: kredietbeoordeling-en-kasstroomprognose
+  titel: "Hoe beoordeel je of een onderneming een nieuwe lening of investering aankan?"
+  po: "1.9"
+  cluster: financiele-analyse
+  voorbeeldgroep: belmonte
+  beschrijving: >
+    Leerstuk PO 1.9 — cash als beslis-driver. Gegeven dat de techniek van het
+    kasstroomoverzicht (IAS 7, indirecte methode) + vrije-kasstroom-berekening
+    in PO 1.3 zit, draait dit leerstuk om de integratie naar krediet-beslissingen:
+    DSCR (debt service coverage ratio), annuïteit-rekening, matching-principe
+    economische levensduur ↔ looptijd, alternatieve kredietstructuren, en de
+    kasstroomprognose als onderbouwing voor de bank. De Belmonte-case (600 k
+    CNC-investering) is het integrerend moment.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.9 en de noot
+    dat KSO-techniek (operationeel/investeringen/financieringen + indirecte
+    methode + werkkapitaal-correcties) in PO 1.3 staat; hier gebruiken we de
+    output ervan.
+
+antwoord_in_een_blik:
+  beats:
+    - "Open: een krediet-beslissing is geen ratio-vraag maar een kasstroom-vraag. De bank wil weten of de operationele cashflow de volledige schuldenlast (kapitaal + interest, bestaand + nieuw) over de hele looptijd dekt, met marge. De maatstaf: Debt Service Coverage Ratio (DSCR) = beschikbare cashflow / totale schuldenlast. Vuistregel bank: DSCR ≥ 1,20-1,30."
+    - "Twee bouwstenen: (1) de annuïteit-formule a = K × i / (1 − (1+i)^−n) levert de jaarlijkse last van een nieuwe lening; (2) de matching-regel zegt dat looptijd ≤ economische levensduur. Belmonte-case: 600 k investering, 5-jarige lening, 6 % rente → annuïteit 142,4 k EUR. Bestaande aflossingen 310 k. Totale last 452,4 k. Beschikbare bedrijfscashflow 2025: 210 k. DSCR = 0,46 → ruim onvoldoende."
+    - "Alternatieven volgen logisch uit de toets: langere looptijd, eigen inbreng, bullet-krediet, of werkkapitaal eerst herstellen om bedrijfscashflow op te krikken. Wat de stagiair aan de cliënt moet zeggen: 'niet' is geen advies — 'niet zo, en wel zo' is het."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Bouwsteen", "Belmonte 2025"]
+      rijen:
+        - ["Investering", "600 k EUR (CNC-cel, 8 jaar levensduur)"]
+        - ["Voorgestelde lening", "600 k, 5 jaar, 6 %, gelijke annuïteit"]
+        - ["Annuïteit nieuwe lening", "142,4 k EUR/jaar"]
+        - ["Bestaande LT-aflossingen", "310 k EUR/jaar"]
+        - ["Totale debt service", "452,4 k EUR/jaar"]
+        - ["Bedrijfscashflow 2025 (proxy)", "210 k EUR"]
+        - ["**DSCR 2025**", "**0,46** (vuistregel ≥ 1,20)"]
+  afsluiter: "We werken de Belmonte-case stap voor stap door, plus de alternatieven die een gezonde structuur kunnen opleveren."
+
+opbouw:
+
+  - id: cashflow-als-beslis-driver
+    titel: "Waarom cashflow en niet ratio's?"
+    niveau: 2
+    beats:
+      - "Open: een onderneming kan winstgevend zijn én cash-tekort hebben — 'profitable insolvency'. Winst betaalt geen leveranciers; cash wel. De bank, de leverancier en de fiscus willen cash zien."
+      - "Twee cashflow-definities die je niet door elkaar haalt. (1) De boekhoudkundige bedrijfscashflow = nettoresultaat + niet-kaskosten (afschrijvingen, voorzieningen-mutaties, waardeverminderingen). Snel, balansvrij — proxy voor cashgeneratie. (2) De operationele kasstroom uit het kasstroomoverzicht (IAS 7, indirecte methode) — bedrijfscashflow gecorrigeerd voor werkkapitaal-mutaties. Voor krediet-beoordeling is de tweede beter, maar bij gebrek aan KSO-data wordt de eerste gebruikt."
+      - "De vrije kasstroom (FCFF — Free Cash Flow to Firm) = operationele kasstroom − vervangingsinvesteringen. Vrij beschikbaar voor alle financiers (banken + aandeelhouders). FCFF wordt de bovenkant voor DSCR — de cash die de bank kan claimen vóór dividend."
+      - "Wikilinks: [[kasstroom-analyse]] (techniek-fiche PO 1.3), [[free-cash-flow]] (FCFF vs FCFE definities)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Cashflow-definitie", "Formule (vereenvoudigd)", "Wanneer gebruiken"]
+        rijen:
+          - ["Bedrijfscashflow (proxy)", "Nettoresultaat + afschrijvingen + Δ voorzieningen", "Snelle screening, geen KSO beschikbaar"]
+          - ["Operationele kasstroom (IAS 7 indirect)", "Bedrijfscashflow ± Δ werkkapitaal", "Volle krediet-analyse"]
+          - ["Vrije kasstroom (FCFF)", "Operationele kasstroom − vervangingsinvesteringen", "Krediet-capaciteit + waardering"]
+
+  - id: dscr-instrument
+    titel: "DSCR — het instrument"
+    niveau: 2
+    beats:
+      - "Open: DSCR = cashflow / totale jaarlijkse schuldenlast (kapitaal-aflossingen + interest). Drukt uit hoeveel keer de cashflow de aflossingen dekt."
+      - "Vuistregels per kredietverstrekker: bank vraagt typisch ≥ 1,20-1,30. Project-finance (windparken, vastgoed): vaak ≥ 1,30-1,40. Voor speculatieve sectoren (start-ups): waarderingsondersteunend, geen harde drempel."
+      - "Welke cashflow-grootheid in de teller? Conservatief: bedrijfscashflow vóór financiële kosten, of operationele kasstroom uit KSO. Niet de winst — die ligt te dicht bij nul of negatief om beslissing op te baseren."
+      - "Welke schuldenlast in de noemer? KAPITAAL-aflossingen + interest van ALLE LT-schulden (bestaand + nieuw). KT-schulden worden niet meegenomen (zij worden geacht door werkkapitaal te draaien); wel KT-deel van LT-schulden (klasse 42 in MAR)."
+      - "Belmonte 2025: cashflow 210 k / debt service 452,4 k = 0,46. Onder 1 → operationele cashflow dekt zelfs interest niet, laat staan aflossingen. Conclusie: structurele insolventie als alle kredieten doorlopen + nieuwe wordt verstrekt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Component", "Belmonte 2025 (k EUR)"]
+        rijen:
+          - ["Bedrijfscashflow proxy (nettoresultaat + afschrijvingen + Δ voorzieningen)", "−100 + 280 + 30 = 210"]
+          - ["Bestaande LT-aflossingen", 310]
+          - ["Annuïteit nieuwe lening (600k, 5j, 6%)", 142.4]
+          - ["Interest nieuwe lening (jaar 1)", "≈ 36 (in annuïteit verwerkt)"]
+          - ["**Totale debt service**", "**452,4**"]
+          - ["**DSCR**", "**0,46**"]
+
+  - id: annuiteit-en-matching
+    titel: "Annuïteit + matching — twee technische bouwstenen"
+    niveau: 2
+    beats:
+      - "Open: één formule om uit het hoofd te kennen voor het examen. Annuïteit a = K × i / (1 − (1+i)^−n) — geeft de constante jaarlijkse betaling (kapitaal + interest samen) voor een gelijk-annuïteit-krediet."
+      - "Belmonte-berekening: K = 600 k, i = 0,06, n = 5. a = 600 × 0,06 / (1 − 1,06^−5) = 36 / (1 − 0,7473) = 36 / 0,2527 = 142,4 k EUR/jaar. Examen-vuistregel: 1,06^−5 ≈ 0,747; 1,06^−8 ≈ 0,627; 1,06^−10 ≈ 0,558."
+      - "Matching-principe: looptijd lening ≤ economische levensduur actief. Belmonte's CNC-cel = 8 jaar levensduur, voorgestelde lening 5 jaar = mismatch. Tussen jaar 5 (laatste aflossing) en jaar 8 (einde levensduur) moet de machine nog cash genereren maar de lening is dan al weg — geen probleem qua matching. WEL probleem: voor jaar 1-5 is de aflossingsdruk hoger dan de operationele cash uit de machine zelf zou rechtvaardigen (lineaire uitloop)."
+      - "Beter: 8-jarige lening, annuïteit = 600 × 0,06 / (1 − 1,06^−8) = 36 / 0,373 = 96,6 k. DSCR-impact: (310 + 96,6) = 406,6; 210 / 406,6 = 0,52. Nog steeds < 1, maar minder dramatisch."
+      - "Kritieke aandacht: hoe langer de lening, hoe meer totale interest. Bij 5 jaar: totaal interest ≈ 112 k (5 × 142,4 − 600). Bij 8 jaar: totaal interest ≈ 173 k (8 × 96,6 − 600). Tradeoff: cashflow nu (lagere annuïteit) vs absolute kost (meer interest)."
+
+  - id: alternatieve-structuren
+    titel: "Alternatieve kredietstructuren"
+    niveau: 2
+    beats:
+      - "Open: wanneer DSCR niet haalbaar is, zijn er vier structurele alternatieven. Elke heeft eigen tradeoff."
+      - "1. Langere looptijd: zoals boven, 8 jaar i.p.v. 5. Mits matching met levensduur respecteren."
+      - "2. Eigen inbreng: cliënt brengt 200 k cash in (aandeelhouders-inbreng of zelffinanciering), krediet zakt naar 400 k. Annuïteit 5-jarige 400-k-lening @ 6 %: ≈ 95 k. Totale debt service: 310 + 95 = 405. DSCR = 0,52. Voordeel: minder kredietafhankelijkheid, betere bank-relatie. Nadeel: liquiditeit aandeelhouders + opportuniteitskost."
+      - "3. Bullet-krediet of ballonkrediet: tijdens looptijd alleen interest, kapitaal aflossing in één bedrag op vervaldag. Bij Belmonte: 600 × 6 % = 36 k/jaar tijdens looptijd, + 600 k aan einde. Verbetert DSCR op korte termijn (210 / (310+36) = 0,61), verslechtert op vervaldag dramatisch. Banken eisen herfinancierings-mogelijkheid of refinanciering ingebouwd."
+      - "4. Staat-gewaarborgde KMO-lening: Gigarant (Vlaanderen) of regionale waarborgregeling. Bank krijgt staatsgarantie tot bv. 75 % van het krediet — andere risico-allocatie, soms gunstiger rentevoet. Voor industriële KMO's vaak haalbaar."
+      - "Vijfde, niet-krediet-route: werkkapitaal eerst herstellen om bedrijfscashflow op te krikken. Bij Belmonte: factoring + voorraadafbouw kan operationele cashflow met 100-150 k optillen vóór krediet-aanvraag. Het krediet-pad wordt dan 0,46 → 0,80 zonder verandering aan kredietstructuur."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Alternatief", "Annuïteit (k)", "Totale debt service (k)", "DSCR Belmonte 2025", "Tradeoff"]
+        rijen:
+          - ["Voorgesteld (5j)", 142.4, 452.4, 0.46, "Basisscenario — niet haalbaar"]
+          - ["8-jarige looptijd", 96.6, 406.6, 0.52, "Matching OK; meer totale interest"]
+          - ["Eigen inbreng 200 k + 400 k krediet 5j", 95, 405, 0.52, "Aandeelhouders-cash + dilutie-risico"]
+          - ["Bullet 600 k, 5j", "36 (jaar 1-4) / 636 (jaar 5)", "346 / 946", "0,61 / 0,22", "Ballooning risico"]
+          - ["Werkkapitaal eerst herstellen", 142.4, 452.4, "≈ 0,80 (na herstel cashflow)", "Vergt 6-12 maanden vooraf"]
+
+  - id: kasstroomprognose
+    titel: "Kasstroomprognose — onderbouwing aan de bank"
+    niveau: 2
+    beats:
+      - "Open: een kredietaanvraag zonder kasstroomprognose is een conversatie zonder argumenten. Banken verwachten een 3-5-jarige geprojecteerde balans + resultatenrekening + kasstroomoverzicht, met de aannames expliciet."
+      - "Bouwstenen van een goede prognose: (1) omzet-drivers — volume × prijs per segment, met scenario's; (2) kostenstructuur — variabele kost als % omzet, vaste kost als absoluut bedrag; (3) werkkapitaalmutaties — DSO/DPO/DIO uit historische trend, of policy-targets bij verbetering; (4) investerings-plan — vervangingsinvesteringen + uitbreidings-CAPEX; (5) financierings-plan — bestaande aflossingen + nieuwe lening + interest."
+      - "Sanity-checks: geprojecteerde EBIT/omzet niet 'wonderbaar' hoger dan historisch zonder uitleg; werkkapitaal-cyclus binnen sector-realisme; netto-actief evolutie — daalt het onder de WVV-drempels?"
+      - "Scenario-aanpak: minstens optimistisch / baseline / pessimistisch. De pessimist test of DSCR robuust is. Banken focussen op het pessimistische scenario."
+      - "Belmonte-projectie 2026-2030 zou tonen: zonder werkkapitaal-ingreep daalt bedrijfscashflow door naar negatief; mét factoring + voorraadafbouw stabiliseert ze rond 280-350 k; met de nieuwe CNC-cel (operationele besparing 80-120 k EUR/jaar) tegen 2027 op 400+ k. Maar alleen het mét-én-mét-pad maakt het krediet haalbaar."
+
+  - id: examen-case-2008
+    titel: "Examen-case 2008 — analoge redenering"
+    niveau: 2
+    beats:
+      - "Open: het examen 2008-bibf vroeg exact dit type case (cashflow 30.000 EUR, bestaande aflossingen 12.000 EUR, gewenste lening 100.000 EUR @ 5 % over 5 jaar). De redenering is identiek aan Belmonte — alleen schaal verschilt."
+      - "Annuïteit-berekening 2008: 100.000 × 0,05 / (1 − 1,05^−5) = 5.000 / (1 − 0,7835) = 5.000 / 0,2165 = 23.097 EUR/jaar."
+      - "Totale debt service: 12.000 + 23.097 = 35.097. Cashflow 30.000. DSCR = 0,85. Tekort: 5.097 EUR/jaar."
+      - "Advies (2008-modelantwoord): niet haalbaar in voorgestelde structuur. Alternatieven: langere looptijd (8 jaar → annuïteit 15.473), eigen inbreng, bullet-krediet, cashflow-groei aantonen via businessplan post-investering."
+      - "Patroon: cijfers anders — methodologie hetzelfde. Examen test of je het 4-stappen-protocol (annuïteit berekenen → totale schuldenlast → DSCR → advies + alternatieven) beheerst."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): cashflow gelijkstellen aan 'beschikbaar voor aflossingen'. Cashflow moet ook financieren: interesten bestaande schulden, belastingen, vervangingsinvesteringen, werkkapitaal-groei, dividenden. De vuistregel 'schuldenlast ≤ 70-80 % van cashflow' impliceert dat 20-30 % buffer overblijft."
+      - "Valkuil 2 (⚠️): matching negeren. Een 8-jarige machine met 3-jarige lening = aflossingsdruk veel hoger dan operationele cash uit de machine zelf rechtvaardigt. Examen kan vragen of een voorgestelde structuur matching respecteert."
+      - "Valkuil 3 (⚠️): bedrijfscashflow uit het hoofd gelijkstellen aan operationele kasstroom IAS 7. De BIBF-/Belgische analyse-traditie corrigeert NIET voor werkkapitaal-mutaties; IAS 7-indirect wel. Lees de vraag: vraagt ze 'cash flow' (proxy) of 'operationele kasstroom' (IAS 7)? Verschil = werkkapitaal-mutaties."
+    type_blokken: warning-bullets
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: werkkapitaalbeheer-en-financieringskeuzes
+      hint: "De voorvraag: als DSCR niet haalbaar is, werk eerst aan de werkkapitaal-positie."
+    - slug: continuiteit-en-faillissementspredictie
+      hint: "Wat als zelfs alternatieven niet werken? Going-concern + alarmprocedure + Z-score."
+    - slug: financiele-diagnose-stellen
+      hint: "Hoe verpakt je een 'niet-haalbaar'-advies in een rapport met aanbevelingen?"
+  samenvatting:
+    hint: "Voor herhaling — annuïteit-formule + DSCR-formule + matching-principe + 4 alternatieven."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [kasstroom-analyse, free-cash-flow]
+    - concepten: [financiele-diagnose, ratio-interpretatie]
+    - concepten: [solvabiliteits-ratios]
+
+wettelijk_fundament:
+  - onderwerp: "DSCR-vuistregel + bancaire kredietanalyse-doctrine"
+    ref: "Geen wettelijke verankering — internationaal aanvaarde bancaire praktijk. Belgisch: Belfius Companyweb-scoring + NBB Balanscentrale-data. KMO-financiering: Wet 21-12-2013 betreffende diverse bepalingen inzake de financiering van kleine en middelgrote ondernemingen (transparantie-eisen kredietverstrekking)."
+  - onderwerp: "Annuïteit + matching-principe"
+    ref: "Financiële wiskunde — geen wettelijke regeling. Matching-principe is bedrijfseconomische doctrine (Brealey/Myers/Allen)."
+  - onderwerp: "Operationele kasstroom — boekhoudkundige definitie"
+    ref: "Voor KSO-techniek: IAS 7 §10-20 (indirecte methode); voor de Belgische proxy: CBN-advies 2011/14 (cashflow = nettoresultaat + niet-kaskosten)."
+    noot: "BIBF-/ITAA-examen-conventie volgt CBN 2011/14 — geen werkkapitaal-correctie, anders dan IAS 7."
+  - onderwerp: "Staatswaarborg KMO-krediet"
+    ref: "Vlaamse Waarborgregeling — Decreet 6 februari 2004 + uitvoeringsbesluiten. Gigarant NV biedt grote-projects-waarborgen. Brussels en Waals Gewest hebben analoge regelingen (Sowalfin, finance.brussels)."
+
+footer: "Leerstuk PO 1.9 — lstk 2 van 4. Status: voorgesteld."

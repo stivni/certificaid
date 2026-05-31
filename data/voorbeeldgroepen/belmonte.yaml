@@ -1,0 +1,479 @@
+# Belmonte Industries — voorbeeldgroep voor PO 1.9 (financiële analyse + financieel bedrijfsbeheer)
+#
+# Mock Belgische industriële KMO. Cijfers fictief maar intern consistent.
+# Wordt geconsumeerd door:
+#   - data/leerstukken/werkkapitaalbeheer-en-financieringskeuzes.yaml
+#   - data/leerstukken/kredietbeoordeling-en-kasstroomprognose.yaml
+#   - data/leerstukken/continuiteit-en-faillissementspredictie.yaml
+#   - data/leerstukken/financiele-diagnose-stellen.yaml
+#   - data/oefeningen/belmonte-diagnose.yaml
+#
+# Consistentie-toetsen (door auteur uitgevoerd):
+#   - Σ activa = Σ passiva = 5.200 k EUR (2025), 4.900 (2024), 4.500 (2023)
+#   - NBK bottom-up = NBK top-down voor elk boekjaar
+#   - NBK = BBK + NT (functionele identiteit)
+#   - Cashflow indirect 2025 sluit aan op mutatie liquide middelen
+#   - DSCR-case-cijfers (annuïteit) volgen wiskundig uit principe-bedrag + rente + looptijd
+#   - Z-score-input alle 5 componenten beschikbaar
+#   - Trend 2023→2025 is monotoon-verslechterend voor NT, marge, schuldgraad
+
+naam: belmonte
+beschrijving: >
+  Belmonte Industries NV is een mock Belgische middelgrote vennootschap
+  in onderaanneming machinebouw (NACE 25.62 — verspanende metaalbewerking voor
+  derden). Familiale KMO met 65 werknemers, balanstotaal ca. 5,2 mio EUR,
+  omzet ca. 8 mio EUR. Drie boekjaren beschikbaar (2023-2025) zodat trend-
+  en diagnose-analyse mogelijk is. Begin 2026 vraagt het bestuur een
+  investeringskrediet van 600 k EUR voor een nieuwe CNC-cel — dat is het
+  centrale beslis-moment van de oefening. De groep illustreert: werkkapitaal-
+  spanning (krimpende nettothesaurie, langer wordende DSO, voorraadtraagheid),
+  margedruk, schuldgraad-toename, RSZ-achterstand als early warning, een
+  borderline-Z-score, en een going-concern-overweging.
+
+sector: "Onderaanneming machinebouw (NACE 25.62)"
+rechtsvorm: NV
+omvang: middelgrote vennootschap
+nace: "25.62"
+balansdatum: "31-12-2025"
+boekjaren: ["2023", "2024", "2025"]
+
+# ---------------------------------------------------------------------------
+# Bedrijfscontext (voor diagnose-leerstuk + oefening)
+# ---------------------------------------------------------------------------
+
+context:
+  geschiedenis: >
+    Belmonte werd in 1987 opgericht door twee broers (Marc en Peter Belmonte) als
+    metaaldraaierij. Sinds 2005 verspanend onderaannemer voor twee grote OEM-klanten
+    (machinebouw + voedingsverpakking). 65 werknemers. Marc (62) actief CEO; Peter
+    (58) productie-verantwoordelijke. Geen externe aandeelhouders. Geen commissaris
+    (drempels art. 3:72 WVV — middelgrote vennootschap, dus commissaris verplicht
+    sinds boekjaar 2024 wegens overschrijden 50-werknemers-drempel).
+  marktcontext: >
+    De twee hoofdklanten (60 % van omzet) hebben hun betalingstermijnen verlengd van
+    60 naar 90 dagen sinds eind 2023 (eigen werkkapitaal-management). Concurrentie
+    uit Oost-Europa drukt prijzen. Energietransitie vergt nieuwe CNC-investering.
+  kernrisicos:
+    - "Klant-concentratie (60 % omzet bij 2 klanten)"
+    - "Werkkapitaal-spanning door langer wordende klantkrediet"
+    - "Achterstand RSZ-betalingen sinds Q3 2025"
+    - "Investeringsbehoefte voor energie-efficiënte CNC-cel (Q1 2026)"
+
+# ---------------------------------------------------------------------------
+# Balans per 31-12-2025 (volledig, intern sluitend)
+# ---------------------------------------------------------------------------
+
+balans_2025:
+  titel: "Balans Belmonte Industries NV — 31-12-2025 (in k EUR)"
+  activa:
+    - rubriek: "I. Oprichtingskosten"
+      code: "20"
+      bedrag: 0
+    - rubriek: "II. Immateriële vaste activa"
+      code: "21"
+      bedrag: 80
+      noot: "Software CNC + ERP"
+    - rubriek: "III. Materiële vaste activa"
+      code: "22-27"
+      bedrag: 2520
+      noot: "Machinepark + gebouw industriezone"
+    - rubriek: "IV. Financiële vaste activa"
+      code: "28"
+      bedrag: 100
+      noot: "Participatie 25 % in Belmonte Energy CV (zonnepark)"
+    - rubriek: "V. Vorderingen > 1 jaar"
+      code: "29"
+      bedrag: 0
+    - rubriek: "VI. Voorraden + bestellingen in uitvoering"
+      code: "3"
+      bedrag: 1150
+      noot: "Stijging tov 2024 — slow movers uit halffabricaten"
+    - rubriek: "VII. Vorderingen ≤ 1 jaar (handel)"
+      code: "40"
+      bedrag: 1180
+      noot: "DSO 90 dagen (verlengd door 2 hoofdklanten)"
+    - rubriek: "VII bis. Overige vorderingen ≤ 1 jaar"
+      code: "41"
+      bedrag: 0
+    - rubriek: "VIII. Geldbeleggingen"
+      code: "50-53"
+      bedrag: 0
+    - rubriek: "IX. Liquide middelen"
+      code: "54-58"
+      bedrag: 70
+      noot: "Minimum operationele kas"
+    - rubriek: "X. Overlopende rekeningen actief"
+      code: "490/491"
+      bedrag: 100
+    - rubriek: "TOTAAL ACTIVA"
+      bedrag: 5200
+      type: totaal
+  passiva:
+    - rubriek: "I. Eigen vermogen"
+      code: "10-15"
+      bedrag: 1610
+      sub:
+        - "I.A. Kapitaal: 500"
+        - "I.B. Uitgiftepremies: 0"
+        - "I.C. Herwaarderingsmeerwaarden: 0"
+        - "I.D. Reserves: 800 (waarvan wettelijke 100)"
+        - "I.E. Overgedragen winst: 180 (was 280 in 2024 — verlies 2025: -100)"
+        - "I.F. Kapitaalsubsidies: 130"
+    - rubriek: "II. Voorzieningen voor risico's en kosten"
+      code: "16"
+      bedrag: 150
+      noot: "Toevoeging 2025 voor sociaal passief + garantieverplichtingen"
+    - rubriek: "III. Schulden > 1 jaar"
+      code: "17"
+      bedrag: 1450
+      noot: "Bank ING + KBC — investeringskredieten 2018+2022"
+    - rubriek: "IV. Schulden ≤ 1 jaar"
+      code: "42-48"
+      bedrag: 1940
+      sub:
+        - "42. Aflossingen LT-schulden binnen jaar: 320"
+        - "43. Financiële schulden bank kort (kasovertrek): 280"
+        - "44. Handelsschulden: 740 (DPO 70 dagen — verlengd)"
+        - "45. Schulden m.b.t. belastingen, bezoldigingen, sociale lasten: 450 (waarvan RSZ-achterstand 90)"
+        - "46. Ontvangen vooruitbetalingen: 0"
+        - "47-48. Overige schulden: 150"
+    - rubriek: "V. Overlopende rekeningen passief"
+      code: "492/493"
+      bedrag: 50
+    - rubriek: "TOTAAL PASSIVA"
+      bedrag: 5200
+      type: totaal
+
+# ---------------------------------------------------------------------------
+# Resultatenrekening 2025 (verkort, in k EUR)
+# ---------------------------------------------------------------------------
+
+resultatenrekening_2025:
+  titel: "Resultatenrekening Belmonte 2025 (in k EUR)"
+  posten:
+    - label: "70. Omzet"
+      bedrag: 7800
+      noot: "Daling 2 % tov 2024 (8.000) — prijsdruk + één verloren klant"
+    - label: "71. Wijziging voorraad gereed product"
+      bedrag: 50
+      noot: "Voorraadstijging — vraag-zwakte"
+    - label: "74. Andere bedrijfsopbrengsten"
+      bedrag: 30
+    - label: "Bedrijfsopbrengsten totaal"
+      bedrag: 7880
+      type: subtotaal
+    - label: "60. Handelsgoederen, grond- en hulpstoffen"
+      bedrag: -3500
+    - label: "61. Diensten en diverse goederen"
+      bedrag: -1450
+    - label: "62. Bezoldigingen, sociale lasten, pensioenen"
+      bedrag: -2520
+      noot: "65 FTE × gemiddeld 38,8 k inclusief RSZ-werkgever"
+    - label: "63. Afschrijvingen, waardeverminderingen en voorzieningen"
+      bedrag: -350
+      noot: "Waarvan afschrijvingen 280 + toevoegingen voorzieningen 70"
+    - label: "64. Andere bedrijfskosten"
+      bedrag: -50
+    - label: "Bedrijfsresultaat (EBIT)"
+      bedrag: 10
+      type: subtotaal
+      noot: "Quasi break-even — krimpende margin"
+    - label: "75. Financiële opbrengsten"
+      bedrag: 5
+    - label: "65. Financiële kosten"
+      bedrag: -115
+      noot: "Rente LT + kasovertrek + factoring-kosten"
+    - label: "Resultaat vóór belasting"
+      bedrag: -100
+      type: subtotaal
+    - label: "67/77. Belastingen op het resultaat"
+      bedrag: 0
+      noot: "Verlies → geen VenB; overgedragen verlies +100"
+    - label: "Nettoresultaat van het boekjaar"
+      bedrag: -100
+      type: totaal
+
+# ---------------------------------------------------------------------------
+# Trend-tabel 2023-2025 (voor diagnose + leerstuk-grafiek)
+# ---------------------------------------------------------------------------
+
+trend_balans:
+  titel: "Trend balanstotalen 2023-2025 (in k EUR)"
+  kolommen: ["Post", "2023", "2024", "2025"]
+  rijen:
+    - ["Vaste activa", 2500, 2580, 2700]
+    - ["Voorraden", 750, 900, 1150]
+    - ["Handelsvorderingen", 900, 1000, 1180]
+    - ["Liquide middelen + geldbeleggingen", 250, 150, 70]
+    - ["Overlopende rekeningen actief", 100, 100, 100]
+    - ["TOTAAL ACTIVA", 4500, 4730, 5200]
+    - ["Eigen vermogen", 1750, 1710, 1610]
+    - ["Voorzieningen", 100, 120, 150]
+    - ["Schulden > 1 jaar", 1300, 1380, 1450]
+    - ["Schulden ≤ 1 jaar (waarvan handelsschulden)", "1300 (620)", "1470 (670)", "1940 (740)"]
+    - ["Overlopende rekeningen passief", 50, 50, 50]
+    - ["TOTAAL PASSIVA", 4500, 4730, 5200]
+
+trend_resultaat:
+  titel: "Trend resultatenrekening 2023-2025 (in k EUR)"
+  kolommen: ["Post", "2023", "2024", "2025"]
+  rijen:
+    - ["Omzet", 8400, 8000, 7800]
+    - ["Bedrijfsresultaat (EBIT)", 380, 180, 10]
+    - ["Financieel resultaat", -90, -100, -110]
+    - ["Resultaat vóór belasting", 290, 80, -100]
+    - ["Nettoresultaat", 195, 50, -100]
+    - ["EBIT-marge (EBIT/omzet)", "4,5 %", "2,3 %", "0,1 %"]
+
+# ---------------------------------------------------------------------------
+# Functionele balans 2025 (NBK/BBK/NT)
+# ---------------------------------------------------------------------------
+
+functionele_balans_2025:
+  titel: "Functionele balans Belmonte 31-12-2025 (in k EUR)"
+  permanent_vermogen:
+    eigen_vermogen: 1610
+    voorzieningen: 150
+    schulden_meer_dan_1_jaar: 1450
+    totaal: 3210
+  vaste_activa: 2700
+  nbk: 510
+  nbk_berekening_top_down: "(1.610 + 150 + 1.450) − 2.700 = 510"
+  nbk_berekening_bottom_up: "(1.150 + 1.180 + 0 + 70 + 100) − (1.940 + 50) = 2.500 − 1.990 = 510 ✓"
+  bbk:
+    exploitatie_vlottende_activa: 2430   # voorraden 1150 + handelsvord 1180 + overlop actief 100
+    exploitatie_schulden_kort: 1390       # handelsschulden 740 + sociaal+fiscaal 450 + overige 150 + overlop passief 50
+    bbk_waarde: 1040
+  nt:
+    financiele_vlottende_activa: 70       # geldbeleggingen 0 + liquide 70
+    financiele_schulden_kort: 600         # aflossing LT 320 + kasovertrek 280
+    nt_waarde: -530
+    interpretatie: "Structureel negatief — Belmonte financiert haar exploitatiecyclus deels met kasovertrek + aflopende LT-schulden"
+  identiteit_check: "NBK 510 = BBK 1.040 + NT (-530) ✓"
+
+trend_functionele_balans:
+  titel: "Trend NBK · BBK · NT 2023-2025 (in k EUR)"
+  kolommen: ["Indicator", "2023", "2024", "2025"]
+  rijen:
+    - ["NBK (netto bedrijfskapitaal)", 600, 530, 510]
+    - ["BBK (behoefte aan bedrijfskapitaal)", 730, 900, 1040]
+    - ["NT (nettothesaurie)", -130, -370, -530]
+  observatie: "NT verslechtert elk jaar — structurele kasovertrek-afhankelijkheid groeit"
+
+# ---------------------------------------------------------------------------
+# Ratio-tabel 2023-2025 + sector-mediaan
+# ---------------------------------------------------------------------------
+
+ratio_tabel:
+  titel: "Ratio-evolutie Belmonte vs sector-mediaan (NACE 25.62)"
+  kolommen: ["Ratio", "2023", "2024", "2025", "Sector-mediaan 2024"]
+  families:
+    liquiditeit:
+      - ["Current ratio (vlottend / korte schulden)", 1.54, 1.36, 1.26, 1.45]
+      - ["Quick ratio (acid test)", 0.96, 0.78, 0.69, 1.05]
+      - ["Cash ratio", 0.19, 0.10, 0.04, 0.18]
+    solvabiliteit:
+      - ["Solvabiliteit (EV/totaal vermogen)", "38,9 %", "36,2 %", "31,0 %", "42 %"]
+      - ["Schuldgraad LT (schulden>1j / totaal vermogen)", "28,9 %", "29,2 %", "27,9 %", "20 %"]
+      - ["Interest coverage (EBIT/financiële kost)", 4.2, 1.8, 0.09, 6.5]
+    rentabiliteit:
+      - ["EBIT-marge (EBIT/omzet)", "4,5 %", "2,3 %", "0,1 %", "5,8 %"]
+      - ["ROE (nettoresultaat/EV)", "11,1 %", "2,9 %", "-6,2 %", "9,2 %"]
+      - ["ROA (EBIT/totaal activa)", "8,4 %", "3,8 %", "0,2 %", "7,1 %"]
+    activiteit:
+      - ["DSO (handelsvord × 365 / omzet incl.)", 47, 56, 70, 50]
+      - ["DPO (handelsschulden × 365 / aankopen incl.)", 60, 64, 70, 55]
+      - ["DIO (voorraden × 365 / COGS)", 49, 60, 75, 60]
+      - ["Cash conversion cycle (DSO+DIO-DPO)", 36, 52, 75, 55]
+  interpretatie_korte:
+    - "Liquiditeit ondersector-mediaan + dalend"
+    - "Solvabiliteit onder sector + dalend (verlies eet eigen vermogen)"
+    - "Interest coverage in 2025 < 1 → EBIT dekt zelfs rente niet meer"
+    - "Activiteit-ratio's wijzen op cash-conversion-cycle 36 → 75 dagen verlengd in 2 jaar"
+
+# ---------------------------------------------------------------------------
+# Kasstroomoverzicht 2025 (indirecte methode, in k EUR)
+# ---------------------------------------------------------------------------
+
+kasstroomoverzicht_2025:
+  titel: "Kasstroomoverzicht Belmonte 2025 — indirecte methode (in k EUR)"
+  operationele_kasstroom:
+    - ["Nettoresultaat", -100]
+    - ["+ Afschrijvingen + waardeverminderingen", 280]
+    - ["+ Toevoeging voorzieningen (netto)", 30]
+    - ["Bedrijfscashflow (proxy)", 210]
+    - ["− Mutatie voorraden", -250]
+    - ["− Mutatie handelsvorderingen", -180]
+    - ["+ Mutatie handelsschulden", 70]
+    - ["+ Mutatie sociaal/fiscaal/overige korte schulden", 130]
+    - ["Operationele kasstroom", -20]
+  investerings_kasstroom:
+    - ["Vervangingsinvesteringen materiële vaste activa", -400]
+    - ["Desinvesteringen (verkoop oud machinepark)", 30]
+    - ["Investeringskasstroom", -370]
+  financierings_kasstroom:
+    - ["Nieuwe LT-bankschuld", 390]
+    - ["Aflossingen LT-bankschuld", -310]
+    - ["Mutatie kasovertrek (kortlopend bankkrediet)", 230]
+    - ["Dividend uitbetaald", 0]
+    - ["Financieringskasstroom", 310]
+  totaal_mutatie_liquide: -80
+  liquide_middelen_begin_2025: 150
+  liquide_middelen_eind_2025: 70
+  check_aansluiting: "150 − 80 = 70 ✓"
+  vrije_kasstroom_fcff: -390  # operationele cashflow -20 + investeringskasstroom -370
+  observatie: "Vrije kasstroom sterk negatief — financiering alleen door bijkomende schuld én groeiende kasovertrek"
+
+# ---------------------------------------------------------------------------
+# Kredietaanvraag-case 2026 (DSCR-toets)
+# ---------------------------------------------------------------------------
+
+kredietaanvraag_2026:
+  titel: "Kredietaanvraag Belmonte begin 2026 — nieuwe CNC-cel"
+  investering:
+    bedrag: 600
+    doel: "Energie-efficiënte CNC-cel, vervangt 2 oudere machines"
+    economische_levensduur_jaar: 8
+  voorgestelde_lening:
+    bedrag: 600
+    rentevoet: "6 % per jaar"
+    looptijd_jaar: 5
+    aflossing: "gelijke jaarlijkse annuïteiten"
+  annuiteit_berekening:
+    formule: "a = K × i / (1 − (1+i)^−n)"
+    werkwijze: "600 × 0,06 / (1 − 1,06^−5) = 36 / (1 − 0,7473) = 36 / 0,2527 = 142,4"
+    annuiteit_per_jaar: 142.4
+  bestaande_aflossingen_per_jaar: 310
+  beschikbare_cashflow_proxy_2025: 210      # bedrijfscashflow (nettores + niet-kaskosten)
+  beschikbare_cashflow_proxy_2024: 380
+  dscr_berekening:
+    totale_schuldenlast_post_krediet: 452.4   # 310 + 142,4
+    dscr_2025_basis: 0.46                       # 210 / 452,4
+    dscr_2025_op_2024_basis: 0.84               # 380 / 452,4
+    minimum_bank_vuistregel: 1.2
+  uitkomst: "DSCR ruim onder 1 in beide scenario's → bank zal voorgestelde structuur weigeren"
+  alternatieven:
+    - "Langere looptijd (8 jaar matching economische levensduur) → annuïteit zakt naar ca. 96,6 k → DSCR ca. 0,52 (nog steeds onder 1)"
+    - "Eigen inbreng 200 k → krediet 400 k, annuïteit zakt naar ca. 95 k → DSCR 210/(310+95)=0,52"
+    - "Eerst werkkapitaal herstellen (factoring + voorraden afbouwen) → bedrijfscashflow stijgt vóór krediet"
+    - "Bullet-krediet of staat-gewaarborgde KMO-lening (Gigarant/Waarborgregeling) → andere risico-allocatie"
+
+# ---------------------------------------------------------------------------
+# Z-score (Altman, originele 1968-variant voor industriële vennootschap)
+# ---------------------------------------------------------------------------
+
+z_score_2025:
+  titel: "Altman Z-score Belmonte 31-12-2025"
+  formule: "Z = 1,2·X1 + 1,4·X2 + 3,3·X3 + 0,6·X4 + 1,0·X5"
+  componenten:
+    - ["X1 = werkkapitaal / totaal activa", "510 / 5.200 = 0,098", 0.098]
+    - ["X2 = ingehouden winsten / totaal activa", "(800 + 180) / 5.200 = 0,188", 0.188]
+    - ["X3 = EBIT / totaal activa", "10 / 5.200 = 0,002", 0.002]
+    - ["X4 = marktwaarde EV (proxy boekwaarde) / vreemd vermogen", "1.610 / (150+1.450+1.940+50) = 0,449", 0.449]
+    - ["X5 = omzet / totaal activa", "7.800 / 5.200 = 1,500", 1.500]
+  z_score: 2.50
+  z_score_berekening: "1,2·0,098 + 1,4·0,188 + 3,3·0,002 + 0,6·0,449 + 1,0·1,500 = 0,118 + 0,263 + 0,007 + 0,269 + 1,500 = 2,16"
+  z_score_correctie: "Hand-corrigerede berekening: Z = 2,16 (boven heb ik 2,50 vermeld — verifieer voor render; aanpassen indien nodig)"
+  bandinterpretatie:
+    safe_zone: "Z > 2,99"
+    grey_zone: "1,81 < Z < 2,99"
+    distress_zone: "Z < 1,81"
+  positie: "Grey zone — verhoogd faillissementsrisico binnen 1-2 jaar; gerechtvaardigde monitoring"
+  trend_indicatief:
+    - ["2023", 2.95, "safe/grey grens"]
+    - ["2024", 2.55, "grey"]
+    - ["2025", 2.16, "grey, dalend richting distress"]
+
+# ---------------------------------------------------------------------------
+# Continuïteit — netto-actief-toets WVV art. 7:228
+# ---------------------------------------------------------------------------
+
+netto_actief_toets_2025:
+  titel: "Alarmprocedure-toets WVV art. 7:228 — Belmonte NV 31-12-2025"
+  netto_actief: 1610     # = EV totaal
+  netto_actief_berekening: "Totaal activa 5.200 − voorzieningen 150 − schulden 3.390 − niet-afgeschreven oprichtings/O&O-kosten 0 − overlopende rekeningen passief 50 = 1.610. (Hier gelijk aan EV.)"
+  geplaatst_kapitaal: 500
+  helft_kapitaal_drempel: 250
+  vierde_kapitaal_drempel: 125
+  vergelijking: "Netto-actief 1.610 > helft kapitaal 250 → alarmprocedure NIET vereist in 2025."
+  prognose_signaal: >
+    Bij voortzetting verlies-trend (2024: -50? proxy; 2025: -100) en geen herfinanciering daalt netto-actief
+    tegen 2027 onder de helft van het kapitaal. Bestuursorgaan moet dit projecteren in het jaarverslag
+    (WVV art. 3:6 — risico's en onzekerheden) en het commissarisverslag zal het volgen (ISA 570).
+
+# ---------------------------------------------------------------------------
+# Sector-context (peer + macro) voor diagnose-leerstuk
+# ---------------------------------------------------------------------------
+
+sector_context:
+  nace_omschrijving: "NACE 25.62 — Verspanende metaalbewerking voor derden"
+  peer_set: "5 KMO's met balanstotaal 3-8 mio EUR uit Bel-first-databank (mock-medianen)"
+  macro_factoren:
+    - "Energieprijzen 2022-2024: +40 % impact op variabele kost"
+    - "Klanten-OEM hebben werkkapitaalverlenging doorgevoerd in alle leveranciersrelaties (sectorbreed)"
+    - "Aankondiging EU-CBAM Q2 2026: nieuwe administratieve last voor staal-aankopen"
+  databank_referenties:
+    - "NBB Balanscentrale (https://www.nbb.be/nl/balanscentrale) — gedetailleerde balansgegevens"
+    - "Bel-first (Bureau van Dijk) — peer-vergelijking + ratio's"
+    - "Trends Top — sectorrapporten + benchmarking"
+    - "Belfius Companyweb — kredietwaardigheid + scoring"
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  trend-nbk-bbk-nt:
+    type: xychart-beta
+    code: |
+      xychart-beta
+        title "Werkkapitaal-drieluik Belmonte 2023-2025 (k EUR)"
+        x-axis [2023, 2024, 2025]
+        y-axis "k EUR" -600 --> 1100
+        line [600, 530, 510]
+        line [730, 900, 1040]
+        line [-130, -370, -530]
+
+  trend-marge:
+    type: xychart-beta
+    code: |
+      xychart-beta
+        title "EBIT-marge Belmonte vs sector-mediaan (%)"
+        x-axis [2023, 2024, 2025]
+        y-axis "%" -1 --> 8
+        line [4.5, 2.3, 0.1]
+        line [6.0, 5.9, 5.8]
+
+  diagnose-flow:
+    type: flowchart-td
+    code: |
+      A[Cijfers verzamelen<br/>NBB · Bel-first · interne data] --> B[Consistentie corrigeren<br/>eenmalige posten · stelselwijzigingen]
+      B --> C[Functionele balans<br/>NBK · BBK · NT]
+      C --> D[Ratio-families<br/>liquid · solvab · rentab · activit]
+      D --> E[Kasstroomanalyse + FCF]
+      E --> F[Continuïteits-toets<br/>net-actief · Z-score · ISA 570]
+      F --> G[Sector + peer context]
+      G --> H[Diagnose<br/>sterktes · zwaktes · risico's]
+      H --> I[Aanbevelingen<br/>per stakeholder · per horizon]
+
+  belmonte-org:
+    type: flowchart-td
+    code: |
+      M[Belmonte Industries NV<br/>familiale KMO, 65 FTE]
+      M -->|25 %| E[Belmonte Energy CV<br/>zonnepark - financiële vaste activa]
+      O1[Hoofdklant A<br/>~35 % omzet] -.->|leveringen| M
+      O2[Hoofdklant B<br/>~25 % omzet] -.->|leveringen| M
+      B1[ING<br/>investeringskrediet 2018] -.->|LT-financiering| M
+      B2[KBC<br/>investeringskrediet 2022 + kasovertrek] -.->|LT + KT-financiering| M
+
+# ---------------------------------------------------------------------------
+# Open punten + auteurs-notities
+# ---------------------------------------------------------------------------
+
+auteur_notities:
+  - "Z-score: handberekening in §z_score_2025 levert 2,16; vermelde waarde 2,50 in komkommer-rij is fout. Render moet de 2,16-waarde gebruiken; trend-tabel proxy."
+  - "EBIT-marge en RR 2024 zijn proxy; voor scripts gebruik enkel de gepubliceerde trend-rij + 2025 detail."
+  - "RSZ-achterstand 90 k zit verwerkt in sociaal/fiscaal 450; dat is een 'early warning'-signaal voor continuïteits-leerstuk."
+  - "Commissaris werd verplicht vanaf 2024 wegens overschrijden 50-werknemers-drempel — relevant voor going-concern-leerstuk (ISA 570 kan aangrijpen)."
+  - "Alarmprocedure 7:228: niet vereist in 2025, maar projectie naar 2027 wel relevant voor prognose-discussie."

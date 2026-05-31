@@ -1,0 +1,188 @@
+# Leerstuk-script — continuïteit en faillissementspredictie
+#
+# PO 1.9, lstk 3 van 4. Specifiek-fiche: juridisch-financieel snijvlak. Going-concern-
+# veronderstelling als waarderingsregel + WVV-alarmprocedure (3:6, 7:228, 5:153) +
+# CBN 2018/18 + 2021/14 + Z-score + ISA 570 raakvlak. Belmonte als grey-zone-case.
+
+meta:
+  slug: continuiteit-en-faillissementspredictie
+  titel: "Hoe toets je de continuïteit van een onderneming + welke wettelijke kaders raken eraan?"
+  po: "1.9"
+  cluster: financiele-analyse
+  voorbeeldgroep: belmonte
+  beschrijving: >
+    Leerstuk PO 1.9 — de continuïteits-vraag in vier lagen. (1) Going-concern als
+    waarderingsbeginsel (CBN 2018/18) — als de bedrijfsleider niet langer continu-
+    teit veronderstelt, kantelen de waarderingsregels. (2) Wettelijke verklarings-
+    plicht in het jaarverslag (WVV art. 3:6 — risico's en onzekerheden). (3) De
+    alarmprocedure (WVV art. 7:228 NV / 5:153 BV) — kwantitatieve trigger op
+    netto-actief. (4) De analytische voorspellings-laag — Z-score, O-score, ISA 570-
+    indicatoren — die early warning geeft vóór de juridische trigger. Belmonte
+    illustreert de grey-zone: nog geen alarmprocedure (2025), wel Z-score in distress-
+    nadering en ISA 570-indicatoren oplichtend.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.9 en de noot
+    dat dit leerstuk de scharnier is tussen analyse (1.9) en audit-werk (1.6
+    ISA 570) + insolventie-procedure (3.0). Wikilinks zorgen voor doorklik.
+
+antwoord_in_een_blik:
+  beats:
+    - "Open: continuïteit (going concern) is geen op zich staande ratio, maar een veronderstelling onder de hele jaarrekening. Als de continuïteit twijfelachtig wordt, kantelt alles: waarderingsregels switchen van going-concern naar liquidatie-basis (CBN 2018/18), het jaarverslag moet de onzekerheid expliciteren (WVV art. 3:6), de alarmprocedure kan triggeren (WVV art. 7:228 / 5:153), de commissaris moet ISA 570 toepassen."
+    - "Vier toetsings-lagen op elkaar gestapeld. (1) Going-concern-veronderstelling — bestuursorgaan beoordeelt jaarlijks bij jaarafsluiting. (2) Jaarverslag-vermelding — risico's en onzekerheden. (3) Alarmprocedure — wettelijke kwantitatieve trigger op netto-actief. (4) Predictie-modellen (Z-score, O-score) + ISA 570-indicatoren als early warning lang vóór de trigger."
+    - "Belmonte 2025 als case: netto-actief 1.610 vs helft kapitaal 250 → alarmprocedure NIET vereist. MAAR: Z-score 2,16 (grey zone, dalend), trend bedrijfsresultaat dalend, kasovertrek stijgend, RSZ-achterstand — alle ISA 570-indicatoren oplichten. De adviseur moet projecteren: bij voortzettende trend valt netto-actief onder de drempel tegen 2027."
+  visualisaties:
+    - type: mermaid
+      ref: trend-marge
+      bron: voorbeeldgroep
+  afsluiter: "We werken de vier lagen door, plus de Belmonte-projectie + drie rol-perspectieven (bestuurder, commissaris, adviseur)."
+
+opbouw:
+
+  - id: going-concern-als-waarderingsbeginsel
+    titel: "Going concern — de stille veronderstelling onder de hele jaarrekening"
+    niveau: 2
+    beats:
+      - "Open: een Belgische jaarrekening wordt opgesteld in de veronderstelling dat de onderneming haar bedrijfsactiviteit zal voortzetten in de afzienbare toekomst — minstens 12 maanden na balansdatum. Dit is het going-concern-beginsel, één van de acht boekhoudbeginselen (CBN-doctrine + KB-WVV)."
+      - "Waarom is dit een principe, niet een formule? Omdat het bepaalt hoe je activa en passiva waardeert. Going concern: machine = gebruikswaarde (afschrijfbasis). Liquidatie: machine = realisatiewaarde (vaak fractie van boekwaarde). Verschil kan miljoenen zijn."
+      - "Wanneer kantelt het beginsel? CBN 2018/18 noteert: zodra het bestuursorgaan vaststelt dat continuïteits-veronderstelling NIET MEER gerechtvaardigd is — bv. bij beslissing tot stopzetting, faillissement-aanvraag, of vereffenings-besluit. Dan: waarderingsregels switchen naar discontinuïteits-basis. Activa op realisatiewaarde, voorzieningen voor herstructurerings-kosten + ontslagvergoedingen, etc."
+      - "Belangrijk: bij twijfel (= materiële onzekerheid maar nog niet zekerheid) blijven de going-concern-waarderingsregels. Wel: het jaarverslag MOET de onzekerheid expliciet vermelden. De jaarrekening blijft 'getrouw' alleen als de onzekerheid disclosed is."
+      - "Wikilink naar [[continuiteit]] (concept-record met de drie lagen)."
+
+  - id: jaarverslag-art-3-6
+    titel: "Jaarverslag — risico's en onzekerheden (WVV art. 3:6)"
+    niveau: 2
+    beats:
+      - "Open: WVV art. 3:6 verplicht het bestuursorgaan tot een jaarverslag (geannexeerd aan de jaarrekening) dat onder meer 'ten minste een getrouw overzicht van de ontwikkeling en de resultaten van het bedrijf en van de positie van de vennootschap, evenals een beschrijving van de voornaamste risico's en onzekerheden waarmee zij wordt geconfronteerd' bevat."
+      - "Continuïteits-risico is bij uitstek zo'n 'risico of onzekerheid'. Een KMO met dalende margin + groeiende kasovertrek + RSZ-achterstand MOET dit in het jaarverslag noemen, ook al is de going-concern-veronderstelling nog niet ingetrokken. Niet doen = onvolledig jaarverslag, mogelijk bestuurder-aansprakelijkheid bij latere insolventie."
+      - "Belmonte 2025: het jaarverslag zou bij waarheidsgetrouwheid moeten vermelden: 'het bestuursorgaan heeft de continuïteits-veronderstelling beoordeeld bij jaarafsluiting; gegeven de geleden verliezen 2025, de werkkapitaalpositie en de afhankelijkheid van twee hoofdklanten houdt de continuïteit risico's in. Het bestuur heeft een herstel-plan opgesteld dat factoring, kostenbesparingen en herfinanciering van de kortlopende bankschuld omvat. De waarderingsregels worden onveranderd toegepast onder de continuïteits-veronderstelling.'"
+      - "Cross-PO-noot: bij een KMO-vrijstelling (kleine vennootschap art. 3:7) kan vereenvoudigd jaarverslag — maar het continuïteits-element blijft inhoudelijk verplicht voor de commissaris (indien aanwezig) en voor zorgvuldigheidsbeoordeling van de bestuurder."
+
+  - id: alarmprocedure
+    titel: "Alarmprocedure — de wettelijke kwantitatieve trigger"
+    niveau: 2
+    beats:
+      - "Open: de alarmprocedure is een wettelijke verplichting voor het bestuursorgaan om de algemene vergadering bijeen te roepen wanneer de continuïteit objectief in gevaar is. WVV koppelt de trigger aan het 'netto-actief' van de vennootschap, met verschillende regelingen voor NV (kapitaalhoudend) en BV (kapitaalloos)."
+      - "Wikilink naar [[kapitaalbescherming]] (concept-record met de volledige uitkeerings-toetsen) en CBN-advies 2021/14 (de bron voor de berekenings-methodiek netto-actief)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Rechtsvorm", "Trigger-niveau", "Drempels", "Termijn"]
+        rijen:
+          - ["NV", "Netto-actief gedaald tot < 1/2 of < 1/4 geplaatst kapitaal", "WVV art. 7:228", "AV binnen 2 maanden bijeenroepen"]
+          - ["NV", "Netto-actief < 61.500 EUR (minimumkapitaal)", "WVV art. 7:229", "Belanghebbende of OM kan ontbinding vorderen"]
+          - ["BV", "Netto-actief negatief OF dreigt negatief te worden", "WVV art. 5:153", "AV binnen 2 maanden + bestuurs-verantwoording"]
+          - ["BV", "Niet meer kunnen voldoen aan opeisbare schulden 12 maanden", "WVV art. 5:153, 2°", "Idem"]
+    kinderen:
+
+      - id: netto-actief-definitie
+        titel: "Netto-actief — hoe bereken je het?"
+        niveau: 3
+        beats:
+          - "CBN-advies 2021/14: netto-actief = totaalbedrag van de activa − voorzieningen − schulden − niet-afgeschreven oprichtings/O&O-kosten."
+          - "Belmonte 2025: 5.200 (activa) − 150 (voorzieningen) − (1.450 + 1.940 + 50 — schulden LT + KT + overlopende passief) − 0 (geen oprichtingskosten) = 1.610 k EUR. Gelijk aan het eigen vermogen, omdat Belmonte geen oprichtingskosten heeft. CBN geeft expliciet voorbeelden waarbij netto-actief ≠ EV (zie de twee voorbeelden in CBN 2021/14)."
+          - "Vergelijking Belmonte 2025: netto-actief 1.610 vs helft geplaatst kapitaal 250 → ratio 6,4 — RUIM boven de alarmprocedure-drempel. Niet vereist in 2025."
+          - "Maar: trend-projectie. Bij voortzetting verlies 100-150 k/jaar daalt netto-actief naar ca. 1.460 (2026), 1.310 (2027), 1.160 (2028). Pas wanneer < 250 (jaar 2034+) triggert de procedure. Voor de adviseur is dat te ver weg om te alarmeren NU — Z-score en ISA-indicatoren zijn de relevantere early-warnings."
+
+      - id: gevolgen-alarmprocedure
+        titel: "Gevolgen als alarmprocedure triggert"
+        niveau: 3
+        beats:
+          - "Bestuursorgaan moet bijeenroepen + AV beslist over ontbinding óf maatregelen. AV moet wikkelen tussen 3 opties: (1) vereffening / faillietverklaring; (2) continuïteits-plan met concrete maatregelen (kapitaal-verhoging, herstructurering); (3) gerechtelijke reorganisatie aanvragen (Boek XX WER)."
+          - "Bestuurder-aansprakelijkheid: niet-tijdig bijeenroepen is fault grossière. WVV en jurisprudentie hanteren een strikte standaard. Bij latere faillietverklaring kan het verschuldigde bedrag worden vorderbaar op de bestuurders persoonlijk (art. XX.225 WER — bijzondere aansprakelijkheid wegens kennelijk grove fout)."
+
+  - id: predictie-modellen
+    titel: "Faillissementspredictie-modellen — early warning"
+    niveau: 2
+    beats:
+      - "Open: de wettelijke trigger (alarmprocedure) ziet al ver-geviste signalen. Voor de analist is een MODEL dat 1-2 jaar vóór insolventie waarschuwt waardevoller. Twee klassiekers."
+      - "Altman's Z-score (1968): Z = 1,2·X1 + 1,4·X2 + 3,3·X3 + 0,6·X4 + 1,0·X5. Vijf componenten — werkkapitaal/totaal activa, ingehouden winsten/totaal activa, EBIT/totaal activa, EV (marktwaarde of proxy boekwaarde)/totaal schulden, omzet/totaal activa. Drie banden: safe (> 2,99), grey (1,81-2,99), distress (< 1,81)."
+      - "Belmonte Z-score 2025: 2,16 — grey zone, dalend van 2,95 (2023) naar 2,55 (2024) naar 2,16 (2025). Trend wijst richting distress; vlot binnen 12-24 maanden in distress-zone als nu niet ingegrepen wordt. Niet 'het bedrijf gaat failliet' — het is 'het bedrijf heeft een verhoogd risico op faillissement binnen 1-2 jaar'."
+      - "Ohlson's O-score (1980) — logit-model met 9 variabelen, geeft een probabiliteit. Complexer maar empirisch beter voor private vennootschappen dan Altman (die op beursgenoteerde data is gefit). Voor het examen volstaat Z-score-niveau-kennis."
+      - "Wikilinks: [[faillissementspredictie-modellen]] (concept met formules en interpretatie-tabellen), [[financiele-diagnose]] (waar Z-score in landt)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Component", "Wat meet het", "Belmonte 2025", "Gewicht"]
+        rijen:
+          - ["X1 = werkkapitaal/totaal activa", "Liquiditeit", "510/5.200 = 0,098", 1.2]
+          - ["X2 = ingehouden winsten/totaal activa", "Cumulatieve winstgevendheid", "(800+180)/5.200 = 0,188", 1.4]
+          - ["X3 = EBIT/totaal activa", "Operationele rentabiliteit", "10/5.200 = 0,002", 3.3]
+          - ["X4 = EV/vreemd vermogen", "Solvabiliteit", "1.610/3.590 = 0,449", 0.6]
+          - ["X5 = omzet/totaal activa", "Asset-turnover", "7.800/5.200 = 1,500", 1.0]
+          - ["**Z-score**", "Som van gewogen componenten", "**2,16**", "—"]
+
+  - id: isa-570-indicatoren
+    titel: "ISA 570 — de auditor-checklist als analytisch raster"
+    niveau: 2
+    beats:
+      - "Open: ISA 570 (Going Concern) is de auditing-standaard die de commissaris bij elke audit moet toepassen. Maar zijn 6 financiële + 5 niet-financiële indicatoren zijn óók waardevol voor de adviseur: een gestandaardiseerde checklist voor continuïteits-risico's. Concept-record: [[continuiteit]] sectie ISA 570-indicatoren."
+      - "Zes financiële indicatoren: netto-actief negatief, KT-leningen voor LT-financiering, ratio's lopen uit, terugkerende exploitatieverliezen, vergrendelde dividenden, achterstand betaling schuldeisers, ongunstige financiële kerngetallen."
+      - "Vijf niet-financiële: management-vertrek zonder vervanging, verlies van sleutel-klant of -leverancier, vergunnings-problemen, arbeidsconflict, technologische veroudering."
+      - "Belmonte 2025 ISA 570-toets: terugkerend verlies (één jaar +, projecteert door) — JA. Achterstand RSZ — JA. Negatieve nettothesaurie + groeiend — JA. Klant-concentratie 60 % bij 2 spelers — JA (niet-financieel). Vergunnings-probleem — NEE. Vier indicatoren oplichten — commissaris zou material-uncertainty overweging in zijn verslag moeten meenemen."
+      - "Cross-PO-noot: in PO 1.6 (Externe controle) wordt ISA 570 verder uitgewerkt naar de controleverklaring-keuze (unmodified met material-uncertainty-paragraaf vs adverse vs disclaimer). Voor de adviseur in PO 1.9: weet welke indicatoren oplichten — dat is je basis voor de continuïteits-paragraaf in je diagnose-rapport."
+
+  - id: drie-perspectieven
+    titel: "Drie rol-perspectieven op continuïteit"
+    niveau: 2
+    beats:
+      - "Open: dezelfde Belmonte-feiten, drie verschillende beroeps-acties."
+      - "1. Bestuurder Marc Belmonte: WVV art. 2:52 § 1 — zorgvuldigheidsplicht ('normaal voorzichtige en zorgvuldige bestuurders in dezelfde omstandigheden'). Verplicht om de continuïteit te bewaken, een herstel-plan op te stellen, het jaarverslag waarheidsgetrouw te schrijven. Niet-doen → bestuurdersaansprakelijkheid bij latere insolventie. Concrete acties: noteren in notulen RvB dat continuïteits-vraag werd besproken, herstelplan formaliseren, eventueel gerechtelijke reorganisatie aanvragen vóór de boedel inkleurt."
+      - "2. Commissaris (Belmonte heeft er één sinds 2024 wegens groottecategorie-verhoging): ISA 570-procedure verplicht. Materiële onzekerheid documenteren in werkpapieren, going-concern-discussie met bestuur, eventueel material-uncertainty-paragraaf in controleverklaring. PO 1.6 raakvlak."
+      - "3. Adviseur-analist (extern boekhouder, fiscalist): geen wettelijke verplichting maar wel professionele zorgvuldigheid (ITAA-deontologie). Maakt de continuïteits-diagnose deel van zijn jaarrekening-bespreking met cliënt; signaleert proactief de Z-score-trend en de RSZ-achterstand; raadt herstel-acties aan vóór de wettelijke trigger werkt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Rol", "Wettelijke verplichting", "Concrete actie Belmonte 2025"]
+        rijen:
+          - ["Bestuurder", "WVV 2:56 zorgvuldigheid + 3:6 jaarverslag", "Continuïteits-paragraaf in jaarverslag; herstel-plan formaliseren in notulen"]
+          - ["Commissaris", "ISA 570 — material uncertainty?", "Documenteren in werkpapieren; bespreken met bestuur; mogelijk material-uncertainty-paragraaf"]
+          - ["Adviseur-analist", "ITAA-deontologie + zorgvuldigheid", "Diagnose-rapport met Z-score-trend; RSZ-achterstand signaleren; herstel-routekaart adviseren"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): wachten op de wettelijke trigger. Wie pas reageert wanneer netto-actief < helft kapitaal, is te laat — de boedel is dan al ingekleurd. Z-score grey zone + ISA-indicatoren oplichten = signaal voor anticiperende actie, NU."
+      - "Valkuil 2 (⚠️): netto-actief gelijkstellen aan eigen vermogen. Bij vennootschappen met niet-afgeschreven oprichtings/O&O-kosten of bepaalde voorzieningen-classificaties verschilt het. CBN 2021/14 geeft de exacte berekening met twee voorbeelden — verifieer altijd."
+      - "Valkuil 3 (⚠️): Z-score als orakel behandelen. Z-score is een statistisch model gebouwd op US-data 1968 + 2 update-iteraties. Voor Belgische private KMO is hij een richtindicator, geen voorspelling. De Z-score-trend is informatiever dan het absolute getal."
+    type_blokken: warning-bullets
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: financiele-diagnose-stellen
+      hint: "Hoe verwerk je een continuïteits-bevinding in een rapport met aanbevelingen aan bestuur en bank?"
+    - slug: kredietbeoordeling-en-kasstroomprognose
+      hint: "Een continuïteits-twijfel maakt nieuwe kredieten quasi onmogelijk — zonder herstel-pad weigert de bank."
+    - slug: werkkapitaalbeheer-en-financieringskeuzes
+      hint: "De acute hefbomen om de continuïteits-positie te herstellen liggen in werkkapitaal-beheer en financierings-mix."
+  samenvatting:
+    hint: "Voor herhaling — going-concern-beginsel + alarmprocedure-drempels (NV/BV) + Z-score-formule + ISA 570 indicatoren-checklist."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [continuiteit, faillissementspredictie-modellen]
+    - concepten: [faillissement, kapitaalbescherming]
+
+wettelijk_fundament:
+  - onderwerp: "Going-concern als waarderingsbeginsel"
+    ref: "CBN-advies 2018/18 — Going concern – Waarderingsregels bij stopzetting of gedeeltelijke stopzetting."
+    noot: "Definieert wanneer kantelen + wat dan met activa-waardering, voorzieningen, herstructurerings-kosten."
+  - onderwerp: "Verslaggeving over continuïteits-beoordeling"
+    ref: "CBN-advies 2018/18 sectie 'Verslaggeving' + WVV art. 3:6 (jaarverslag risico's)."
+  - onderwerp: "Alarmprocedure NV"
+    ref: "WVV art. 7:228 (netto-actief < helft / < kwart kapitaal — AV binnen 2 maanden) + art. 7:229 (netto-actief < 61.500 EUR — ontbindings-vordering)."
+    noot: "AV beslist binnen 2 maanden over voortzetting, ontbinding of andere maatregelen."
+  - onderwerp: "Alarmprocedure BV (kapitaalloos)"
+    ref: "WVV art. 5:153 — netto-actief negatief OF onmogelijkheid om opeisbare schulden over 12 maanden te voldoen."
+    noot: "Andere trigger dan NV: kapitaal-concept werd afgeschaft bij BV (WVV 2019); netto-actief-positief en liquiditeitstest zijn de twee assen."
+  - onderwerp: "Berekening netto-actief"
+    ref: "CBN-advies 2021/14 — Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV."
+    noot: "Twee voorbeelden met balansen. Methodiek: totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtings/O&O-kosten."
+  - onderwerp: "Bestuurder-zorgvuldigheidsplicht + aansprakelijkheid"
+    ref: "WVV art. 2:52 § 1 (zorgvuldigheidsstandaard — bestuurder is persoonlijk aansprakelijk voor 'beslissingen, daden of gedragingen die zich kennelijk buiten de marge bevinden waarbinnen normaal voorzichtige en zorgvuldige bestuurders, geplaatst in dezelfde omstandigheden, redelijkerwijze van mening kunnen verschillen') + art. XX.225 WER (bijzondere aansprakelijkheid bij faillissement wegens kennelijk grove fout). Art. 2:56 betreft de aansprakelijkheidsplafonds (cap-bedragen), niet de zorgvuldigheidsplicht zelf."
+  - onderwerp: "Auditor going-concern-procedure"
+    ref: "ISA 570 (Going Concern) — IAASB-standaard, in België verbindend via IBR/IRE."
+    noot: "Cross-PO: PO 1.6 werkt ISA 570 verder uit voor controleverklaring-keuze."
+
+footer: "Leerstuk PO 1.9 — lstk 3 van 4. Status: voorgesteld."

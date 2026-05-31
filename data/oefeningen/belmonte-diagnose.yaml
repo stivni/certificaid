@@ -1,0 +1,256 @@
+# Oefening-script — Belmonte-diagnose (PO 1.9)
+#
+# Eerste oefening volgens het ADR-037 oefening-schema voor PO 1.9.
+# De student doorloopt de hele diagnose-flow op de Belmonte-case: lezen + herstructureren,
+# ratio's, kasstroom + DSCR, continuïteits-toets, executive summary.
+# Alle data komt uit data/voorbeeldgroepen/belmonte.yaml — maar wordt hier 'ruw' aangereikt,
+# zonder uitgewerkte ratio-tabellen of functionele balans (die zijn de oplossingen).
+
+meta:
+  slug: belmonte-diagnose
+  titel: "Oefening: Belmonte-diagnose"
+  po: "1.9"
+  cluster: financiele-analyse
+  beschrijving: >
+    Doorgewerkte mini-diagnose op Belmonte Industries NV (industriële KMO,
+    onderaanneming machinebouw). De student loopt zelf het pad: balans
+    herstructureren, ratio's berekenen en interpreteren met sector-benchmark,
+    kasstroom + DSCR voor een 600 k kredietaanvraag, continuïteits-toets
+    (alarmprocedure-projectie + Z-score), executive summary schrijven.
+    Modelantwoord per stap in `<details>`-blokken.
+  studietijd: "90-120 min"
+  niveau: volledig
+
+intro:
+  callout_beat: >
+    Oefening-intro. Aankondigen: dit is een doorlopende mini-diagnose waar je het hele
+    1.9-pad zelf loopt. Expliciete vermelding: "doe eerst zelf, klap de uitwerking
+    pas open als je vastloopt of klaar bent". Motivatie: het examen toetst geen volle
+    diagnose, maar het volledige pad één keer doorlopen bouwt het mentale model dat
+    de fragment-vragen vereisen. Aankondigen dat technische ratio-formules
+    (functionele balans, ratio-berekening, kasstroomoverzicht IAS 7) bij PO 1.3 horen
+    — de oefening verwijst naar concept-records voor het opzoekwerk.
+
+# ---------------------------------------------------------------------------
+# OPGAVE — alle data die de student vooraf krijgt
+# ---------------------------------------------------------------------------
+
+opgave:
+
+  scenario_beats:
+    - "Belmonte Industries NV is een Belgische industriële KMO in onderaanneming machinebouw (verspanende metaalbewerking voor derden, NACE 25.62). Familiale vennootschap opgericht 1987, 65 werknemers, balanstotaal 5,2 mln EUR. Hoofdklanten: 2 OEM's (samen 60 % van omzet)."
+    - "Marc Belmonte (62, CEO) komt eind januari 2026 bij je langs als adviseur. Hij wil een investeringskrediet van 600 k EUR aanvragen bij ING voor een nieuwe energie-efficiënte CNC-cel (economische levensduur 8 jaar, vervangt 2 oudere machines). Bank biedt een 5-jarige lening @ 6 % met gelijke jaarlijkse annuïteiten. Marc vraagt jou: 'kan dat?'"
+    - "Je vraagt eerst de drie laatste jaarrekeningen op. Belmonte heeft een commissaris sinds 2024 (overschrijden 50-FTE-drempel). Algemene context: RSZ-achterstand van 90 k sinds Q3 2025, klanten-OEM verlengden in 2024-2025 hun betalingstermijnen van 60 naar 90 dagen, energieprijzen 2022-2024 raakten de sector breed."
+    - "Werkwijze: lees eerst alle opgave-data hieronder. Werk dan de stappen één voor één uit. Open pas de uitwerking nadat je je eigen antwoord hebt opgeschreven. Plan op 90-120 min — Stap 1 is dichtst bij PO 1.3-techniek (kan sneller als die paraat zit); Stap 5 is integratie en kost het meeste denkwerk."
+
+  groep:
+    moeder:
+      naam: "Belmonte Industries NV"
+      rechtsvorm: NV
+      werknemers: 65
+      sector: "NACE 25.62 — verspanende metaalbewerking voor derden"
+    deelnemingen:
+      - naam: "Belmonte Energy CV"
+        percentage: 25
+        rol_in_case: "Participatie zonnepark — financiële vaste activa 100 k. Niet-geconsolideerd."
+
+  tabellen:
+
+    trend-balans:
+      titel: "Trend balanstotalen Belmonte 2023-2025 (in k EUR)"
+      kolommen: ["Post", "2023", "2024", "2025"]
+      rijen:
+        - ["Vaste activa", 2500, 2580, 2700]
+        - ["Voorraden", 750, 900, 1150]
+        - ["Handelsvorderingen ≤ 1 jaar", 900, 1000, 1180]
+        - ["Liquide middelen + geldbeleggingen", 250, 150, 70]
+        - ["Overlopende rekeningen actief", 100, 100, 100]
+        - ["**TOTAAL ACTIVA**", "**4.500**", "**4.730**", "**5.200**"]
+        - ["Eigen vermogen", 1750, 1710, 1610]
+        - ["Voorzieningen", 100, 120, 150]
+        - ["Schulden > 1 jaar", 1300, 1380, 1450]
+        - ["Schulden ≤ 1 jaar (waarvan handelsschulden)", "1.300 (620)", "1.470 (670)", "1.940 (740)"]
+        - ["Overlopende rekeningen passief", 50, 50, 50]
+        - ["**TOTAAL PASSIVA**", "**4.500**", "**4.730**", "**5.200**"]
+
+    detail-schulden-kort-2025:
+      titel: "Detail schulden ≤ 1 jaar Belmonte 31-12-2025 (in k EUR)"
+      kolommen: ["MAR", "Post", "Bedrag"]
+      rijen:
+        - ["42", "Aflossingen LT-schulden binnen jaar", 320]
+        - ["43", "Financiële schulden bank kort (kasovertrek)", 280]
+        - ["44", "Handelsschulden", 740]
+        - ["45", "Schulden m.b.t. belastingen, bezoldigingen, sociale lasten *(waarvan RSZ-achterstand 90)*", 450]
+        - ["47-48", "Overige schulden", 150]
+        - ["**Subtotaal IV. Schulden ≤ 1 jaar**", "", "**1.940**"]
+        - ["492/493", "Overlopende rekeningen passief", 50]
+
+    trend-resultaat:
+      titel: "Trend resultatenrekening Belmonte 2023-2025 (in k EUR)"
+      kolommen: ["Post", "2023", "2024", "2025"]
+      rijen:
+        - ["Omzet", 8400, 8000, 7800]
+        - ["Bedrijfskosten (waarvan afschrijvingen)", "−8.020 (250)", "−7.820 (265)", "−7.870 (280)"]
+        - ["**Bedrijfsresultaat (EBIT)**", "**380**", "**180**", "**10**"]
+        - ["Financieel resultaat (saldo)", -90, -100, -110]
+        - ["Resultaat vóór belasting", 290, 80, -100]
+        - ["Belasting", -95, -30, 0]
+        - ["**Nettoresultaat**", "**195**", "**50**", "**-100**"]
+        - ["Toevoegingen voorzieningen (netto, in afschr-regel)", 20, 20, 30]
+
+    sector-mediaan:
+      titel: "Sector-mediaan NACE 25.62 (Bel-first, boekjaar 2024)"
+      kolommen: ["Ratio", "Sector-mediaan", "Sector Q1 (zwakste 25 %)"]
+      rijen:
+        - ["Current ratio", 1.45, 1.05]
+        - ["Quick ratio (acid test)", 1.05, 0.70]
+        - ["Cash ratio", 0.18, 0.05]
+        - ["Solvabiliteit (EV/totaal)", "42 %", "28 %"]
+        - ["Schuldgraad LT", "20 %", "30 %"]
+        - ["Interest coverage", 6.5, 2.0]
+        - ["EBIT-marge", "5,8 %", "2,0 %"]
+        - ["ROE", "9,2 %", "1,5 %"]
+        - ["ROA", "7,1 %", "2,8 %"]
+        - ["DSO (dagen)", 50, 65]
+        - ["DPO (dagen)", 55, 70]
+        - ["DIO (dagen)", 60, 75]
+
+# ---------------------------------------------------------------------------
+# STAPPEN
+# ---------------------------------------------------------------------------
+
+stappen:
+
+  - id: stap-1-functionele-balans
+    titel: "Stap 1 — Lees + herstructureer naar functionele balans (2025)"
+    instructie_beats:
+      - "Bereken NBK, BBK en NT voor Belmonte 2025. Gebruik beide NBK-formules (top-down én bottom-up) als controle-toets."
+      - "Wijs zelf welke rubrieken van schulden ≤ 1 jaar exploitatie-schulden zijn (BBK-noemer) en welke financiële schulden (NT-noemer)."
+      - "Interpreteer in 2-3 zinnen: wat zegt de NT-positie + de trend 2023 → 2025?"
+    uitwerking_beats:
+      - "Permanent vermogen 2025 = EV 1.610 + voorzieningen 150 + schulden > 1 jaar 1.450 = 3.210 k. Vaste activa = 2.700 (80 imma + 2.520 mat + 100 fin). NBK top-down = 3.210 − 2.700 = 510 k."
+      - "Vlottende activa = voorraden 1.150 + handelsvord 1.180 + liquide 70 + overlopende actief 100 = 2.500. Schulden ≤ 1 jaar incl. overlopende passief = 1.940 + 50 = 1.990. NBK bottom-up = 2.500 − 1.990 = 510 k ✓ (sluittoets gelukt)."
+      - "Splitsing exploitatie/financieel binnen schulden ≤ 1 jaar: handelsschulden 740 + sociaal/fiscaal/bezoldigingen 450 + overige 150 + overlopende passief 50 = 1.390 (exploitatie). Aflossingen LT 320 + kasovertrek 280 = 600 (financieel). BBK = exploitatie-vlottende activa (1.150 + 1.180 + 100 = 2.430) − 1.390 = 1.040 k."
+      - "NT = NBK − BBK = 510 − 1.040 = −530 k. Of: NT = (geld 70 + geldbel 0) − (aflossing LT 320 + kasovertrek 280) = 70 − 600 = −530 ✓."
+      - "Trend: NBK krimpt van 600 (2023) → 530 (2024) → 510 (2025). BBK explodeert van 730 → 900 → 1.040. NT verslechtert van -130 → -370 → -530. Interpretatie: niet NBK is het probleem (lichte krimp) — BBK groeit veel sneller dan permanent vermogen kan bijbenen. Gevolg: structurele en groeiende kasovertrek-afhankelijkheid."
+    valkuil_beat: "Klassieke fout: voorzieningen (150) bij schulden tellen i.p.v. bij permanent vermogen. Voorzieningen zijn juridisch wel een schuld, maar in de functionele balans zitten ze in het permanent vermogen omdat ze structureel-lange-termijn-financiering zijn (zie examen 2019-bibf stelling b)."
+
+  - id: stap-2-ratios-en-interpretatie
+    titel: "Stap 2 — Bereken de vier ratio-families (2025) + vergelijk met sector"
+    instructie_beats:
+      - "Bereken per familie minstens 2 kernratio's voor 2025. Voor formules: zie concept-records [[liquiditeits-ratios]] · [[solvabiliteits-ratios]] · [[rentabiliteits-ratios]] · [[activiteits-ratios]] of de techniek-leerstukken PO 1.3."
+      - "Vergelijk elke ratio met de sector-mediaan + sector Q1 (zwakste 25 %). Waar staat Belmonte?"
+      - "Schrijf één integrerende paragraaf van 3-4 zinnen: wat zeggen de vier families samen?"
+    uitwerking_beats:
+      - "Liquiditeit: current = 2.500/1.940 = 1,29 (sector 1,45). Quick = (2.500-1.150)/1.940 = 0,70 (sector 1,05). Cash = 70/1.940 = 0,04 (sector 0,18). Belmonte zit onder of op Q1 voor alle drie. Quick onder 1 = zonder voorraad-realisatie kan KT-schuld niet gedekt worden."
+      - "Solvabiliteit: EV/totaal = 1.610/5.200 = 31 % (sector 42 %). Schuldgraad LT = 1.450/5.200 = 28 % (sector 20 %). Interest coverage = EBIT/financiële kost = 10/115 ≈ 0,09 (sector 6,5). Interest coverage < 1 = bedrijfswinst dekt zelfs rente niet."
+      - "Rentabiliteit: EBIT-marge = 10/7.800 = 0,1 % (sector 5,8 %). ROE = -100/1.610 = -6,2 % (sector 9,2 %). ROA = 10/5.200 = 0,2 % (sector 7,1 %). Drie jaar van compressie 2023 (4,5 %) → 2024 (2,3 %) → 2025 (0,1 %)."
+      - "Activiteit: DSO = 1.180·365/(7.800·1,21) ≈ 70 (sector 50). DPO ≈ 70 (sector 55). DIO = 1.150·365/COGS ≈ 75 (sector 60). Cash conversion cycle = 70+75-70 = 75 (sector 55). CCC liep op van 36 (2023) naar 75 (2025): 39 dagen vastpinning méér in 2 jaar."
+      - "Integratie: vier zwakke families samen = systemisch, niet ad-hoc. Belmonte zit op of onder Q1 op alle 4 dimensies. Verslechterend bij elke familie. Dat is geen seizoens-uitschuif maar structureel verzwakkende positie."
+    valkuil_beat: "Interest coverage onder 1 is geen 'krappe' situatie maar een structurele insolventie-aankondiging. Vergelijk met DSCR-discussie in stap 3 — dezelfde grootheid uit andere hoek."
+
+  - id: stap-3-kasstroom-en-dscr
+    titel: "Stap 3 — Kasstroom 2025 + DSCR-toets voor de 600 k investeringsaanvraag"
+    instructie_beats:
+      - "Bereken de bedrijfscashflow-proxy 2025 (Belgische definitie, zonder werkkapitaal-correctie)."
+      - "Bereken de annuïteit voor de voorgestelde lening (600 k, 5 jaar, 6 %)."
+      - "Bereken DSCR 2025. Geef je advies aan Marc: kan het krediet doorgaan in deze structuur?"
+      - "Stel minstens 2 alternatieve kredietstructuren voor + bereken de DSCR-impact voor één daarvan."
+    uitwerking_beats:
+      - "Bedrijfscashflow-proxy 2025 = nettoresultaat + afschrijvingen + Δ voorzieningen netto + Δ waardeverminderingen = -100 + 280 + 30 + 0 = 210 k. (CBN-advies 2011/14 definieert dit als 'nettoresultaat na belastingen verhoogd met de niet-kaskosten'.)"
+      - "Annuïteit: a = K·i / (1 − (1+i)^−n) = 600 × 0,06 / (1 − 1,06^−5) = 36 / (1 − 0,7473) = 36 / 0,2527 = 142,4 k EUR/jaar."
+      - "Totale jaarlijkse schuldenlast post-krediet = bestaande LT-aflossingen 310 + annuïteit nieuw 142,4 = 452,4 k."
+      - "DSCR 2025 = 210 / 452,4 = 0,46. Vuistregel bank ≥ 1,20-1,30 → ruim onder. Onder 1 = operationele cashflow dekt zelfs aflossingen niet, laat staan met veiligheidsmarge. Conclusie: niet-haalbaar in voorgestelde structuur."
+      - "Alternatieven (minstens 2 + één doorrekening): (1) 8-jarige looptijd: annuïteit = 600 × 0,06 / (1-1,06^-8) = 36/0,373 = 96,6 k. Totale debt service = 310 + 96,6 = 406,6. DSCR = 210/406,6 = 0,52. Beter, nog steeds < 1 — past matching-principe (8 jaar = economische levensduur CNC). (2) Eigen inbreng 200 k Marc + 400 k krediet 5j: annuïteit = 400 × 0,06 / 0,2527 = 95 k. DSCR = 210/(310+95) = 0,52. Vergelijkbare verbetering. (3) Staat-gewaarborgde KMO-lening (Vlaamse Waarborgregeling/Gigarant): andere risico-allocatie, mogelijk lagere rente. (4) Bullet-krediet: tijdens looptijd alleen interest (36 k/jaar), DSCR jaar 1-4 = 210/346 = 0,61, maar 600 k aflossing in jaar 5 = ballooning-risico."
+      - "Strategisch advies aan Marc: het echt krachtigere pad is 'werkkapitaal eerst herstellen'. Met factoring + voorraad-afbouw kan bedrijfscashflow stijgen naar 300-350 k binnen 6-12 maanden — dan wordt DSCR (300/452,4 = 0,66 → 350/406,6 = 0,86 met 8-jarige looptijd) zelfs voor de bank verteerbaar. Investeringskrediet uitstellen naar H2 2026."
+    valkuil_beat: "Cashflow 210 k = niet 'vrij beschikbaar voor aflossingen'. Cashflow moet ook financieren: belastingen (nu nul wegens verlies, maar normaal), vervangingsinvesteringen, werkkapitaal-groei (Belmonte's BBK groeit elk jaar 100+ k), eventueel dividenden. Vuistregel: schuldenlast ≤ 70-80 % van cashflow."
+
+  - id: stap-4-continuiteit
+    titel: "Stap 4 — Continuïteits-toets: alarmprocedure + Z-score + ISA 570"
+    instructie_beats:
+      - "Bereken het netto-actief en vergelijk met de NV-alarmprocedure-drempels. Triggert de procedure in 2025?"
+      - "Bereken de Altman Z-score voor 2025. In welke band valt Belmonte? Wat zegt de trend 2023 → 2025?"
+      - "Loop de ISA 570 going-concern-indicatoren door. Welke lichten op voor Belmonte 2025? (Minstens 4 noemen.)"
+      - "Stel: zonder ingreep zet de verlies-trend door (nettoresultaat -100 in 2026, -150 in 2027). In welk jaar zou de alarmprocedure objectief triggeren?"
+    uitwerking_beats:
+      - "Netto-actief 2025 = totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtings/O&O-kosten = 5.200 − 150 − (1.450 + 1.940 + 50) − 0 = 1.610 k. (Hier gelijk aan EV — Belmonte heeft geen oprichtings/O&O-kosten op de balans.)"
+      - "Drempel NV (WVV 7:228): helft kapitaal = 250, kwart = 125. Netto-actief 1.610 ruim boven beide. Alarmprocedure NIET vereist in 2025. (Drempel < 61.500 EUR voor ontbindings-vordering art. 7:229: ook ruim boven.)"
+      - "Z-score 2025: X1 = 510/5.200 = 0,098; X2 = (reserves 800 + overgedragen winst 180) / 5.200 = 0,188; X3 = 10/5.200 = 0,002; X4 = EV/(totaal schulden + voorzieningen) = 1.610/(150+1.450+1.940+50) = 1.610/3.590 = 0,449; X5 = 7.800/5.200 = 1,500."
+      - "Z = 1,2·0,098 + 1,4·0,188 + 3,3·0,002 + 0,6·0,449 + 1,0·1,500 = 0,118 + 0,263 + 0,007 + 0,269 + 1,500 = 2,16."
+      - "Band: grey zone (1,81-2,99). Trend: 2023 ≈ 2,95 (safe/grey grens), 2024 ≈ 2,55 (grey), 2025 = 2,16 (grey, naderend distress). Dalend → verhoogd faillissementsrisico binnen 1-2 jaar zonder ingreep."
+      - "ISA 570-indicatoren die oplichten: (1) Terugkerend exploitatieverlies — EBIT-marge 4,5 → 2,3 → 0,1 % in 3 jaar. (2) Achterstand RSZ-betaling — 90 k. (3) Ongunstige ratio's t.o.v. sector — alle 4 families onder Q1 of mediaan. (4) KT-leningen voor LT-financiering — kasovertrek 280 k financiert deels werkkapitaal-cyclus (mismatch). (5) Niet-financieel: klant-concentratie 60 % bij 2 klanten."
+      - "Projectie alarmprocedure-trigger: bij verlies -100 (2026) → netto-actief 1.510; -150 (2027) → 1.360. Pas wanneer netto-actief < helft kapitaal (250), wat bij doorlopend verlies-tempo niet vóór 2034 gebeurt. Conclusie: alarmprocedure-trigger is voor Belmonte een laat signaal. Z-score grey + ISA-indicatoren zijn de relevantere signalen NU."
+    valkuil_beat: "Verwar Z-score-niveau 2,16 niet met 'het bedrijf gaat failliet'. Z-score is een statistisch model (gebouwd op US-data 1968 + updates) — voor Belgische private KMO een richtindicator, geen voorspelling. De trend (dalend) is informatiever dan het absolute getal."
+
+  - id: stap-5-executive-summary
+    titel: "Stap 5 — Schrijf de executive summary van het diagnose-rapport (max 1 pagina)"
+    instructie_beats:
+      - "Vat het hele diagnose-werk samen in een executive summary van maximaal 1 pagina, in 5 paragrafen volgens de vaste structuur."
+      - "Geadresseerd aan het bestuur van Belmonte (Marc + Peter)."
+      - "Paragraaf 1: kerndiagnose in 2-3 zinnen. Paragraaf 2: sterktes. Paragraaf 3: zwaktes/risico's. Paragraaf 4: Top-3 aanbevelingen met termijn + verantwoordelijke. Paragraaf 5: vervolg-acties."
+      - "Schrijf in mensentaal — geen ratio-tabellen, geen formules in de summary zelf (die staan in het body van het rapport)."
+    uitwerking_beats:
+      - "*Executive summary — Belmonte Industries NV — financiële diagnose 31-12-2025*"
+      - "**Diagnose**: Belmonte vertoont een structureel verzwakkende financiële positie. De werkkapitaal-cyclus groeit sneller dan de permanente financiering kan bijbenen, marges zijn drie jaar op rij gekrompen, en de afhankelijkheid van kortlopend bankkrediet (kasovertrek + LT-aflossingen) neemt toe. De Z-score zit in de grey zone met dalende trend; ISA 570 going-concern-indicatoren lichten op vijf van elf op. De wettelijke alarmprocedure (WVV 7:228) is nog niet getriggerd, maar zonder ingreep verschuift de positie binnen 12-24 maanden richting de distress-zone."
+      - "**Sterktes**: vakkennis-stabiel personeel met lange anciënniteit (gemiddeld > 12 jaar), langetermijn-klantrelaties met OEM-spelers, eigen gebouw zonder hypotheek, modern CNC-park (overwegend < 8 jaar), groene profilering via 25 % participatie in Belmonte Energy CV (zonnepark)."
+      - "**Zwaktes en risico's**: klant-concentratie van 60 % omzet bij 2 spelers (verzwakkende onderhandelingspositie zichtbaar in DSO 70 dagen vs sector 50); werkkapitaal-cyclus 75 dagen vs sector 55; EBIT-marge 0,1 % vs sector 5,8 %; structurele kasovertrek-afhankelijkheid (NT -530 k); RSZ-achterstand 90 k als acute early warning; familiale opvolging niet geregeld (Marc 62, geen externe directie)."
+      - "**Top-3 aanbevelingen** (geprioriteerd op urgentie × impact): (1) **Q1 2026 — werkkapitaal acuut herstellen**: factoring opstarten met OEM-klanten (DSO-impact onmiddellijk), voorraad-audit + slow-mover-uitverkoop binnen 2 maanden, RSZ-betalingsplan onderhandelen vóór 31-3. Verantwoordelijk: CFO. (2) **H1 2026 — herfinanciering kasovertrek naar LT-bank**: kasovertrek 280 k consolideren in LT-bankschuld via staat-gewaarborgde KMO-lening (Vlaamse Waarborgregeling/Gigarant); investeringskrediet uitstellen tot werkkapitaal-herstel meetbaar is. Verantwoordelijk: CFO + bank. (3) **H2 2026 — kapitaal-inbreng aandeelhouders 200-300 k**: bespreken in RvB; verhoogt NBK 1-op-1, verstevigt solvabiliteit, geeft buffer voor de CNC-investering. Verantwoordelijk: bestuur + familiale aandeelhouders."
+      - "**Vervolg**: quarterly monitoring-rapport overeenkomen met de bank (DSO, BBK, bedrijfscashflow, NT als KPI's). Volgende formele diagnose-rapport over 12 maanden. Strategische sessie over klant-diversificatie + opvolging Marc binnen 6 maanden plannen. Continuïteits-status verwerken in jaarverslag 2025 onder 'risico's en onzekerheden' (WVV 3:6) — coördineren met commissaris."
+    valkuil_beat: "Executive summary ≠ samenvatting van alle berekeningen. Het is een beslissings-document voor bestuur en bank — concrete aanbevelingen met verantwoordelijke + horizon, geen ratio-tabellen. Schrijf zo dat een niet-cijfer-bestuurder de actie kan plannen zonder het volledige rapport te lezen."
+
+# ---------------------------------------------------------------------------
+# AFSLUITING
+# ---------------------------------------------------------------------------
+
+afsluiting:
+  reflectie_beats:
+    - "Wat je vooral moet meenemen: het volledige diagnose-pad doorloopt vier lagen (functionele balans → ratio's → kasstroom → continuïteit) en eindigt in een synthese met aanbevelingen. Op examen krijg je zelden de volle case — wel fragmenten (NBK berekenen + interpreteren, DSCR-case, alarmprocedure-vraag) waarbij je het mentale frame nodig hebt om te plaatsen."
+    - "Wat opvalt bij Belmonte: de vier analyse-lagen wijzen ALLE in dezelfde richting (verslechterend). Dat patroon wijst op een systemisch probleem, niet een ad-hoc afwijking. Op examen: één laag-zwakte ≠ alarmsignaal; alle lagen samen zwak = wel."
+    - "Wat je vermoedelijk fout deed in eerste poging: (a) voorzieningen bij schulden geteld bij functionele balans (zit bij permanent vermogen — examen 2019 stelling b); (b) DSCR onder 1,0 niet meteen 'niet-haalbaar' gelabeld; (c) Z-score gerekend als binaire pass/fail i.p.v. trend-monitor; (d) executive summary gebruikt als ratio-samenvatting i.p.v. beslissings-document."
+  doelstellingen_gedekt:
+    - "1.9.taak.1.doel.1 — financiële analyse als stakeholder-informatie"
+    - "1.9.taak.1.doel.2 — relevante jaarrekeningen lezen"
+    - "1.9.taak.1.doel.3 — consistentie waarborgen"
+    - "1.9.taak.1.doel.4 — contextualiseren omgeving (sector NACE 25.62)"
+    - "1.9.taak.1.doel.5 — grondige financiële diagnose"
+    - "1.9.taak.1.doel.6 — problematiek + aanbevelingen"
+    - "1.9.taak.1.doel.7 — passende ratio's voor problematiek"
+    - "1.9.taak.1.doel.8 — databanken (Bel-first peer-mediaan)"
+    - "1.9.taak.1.doel.10 — financiële prognoses (alarmprocedure-projectie + DSCR-prognose)"
+    - "1.9.taak.1.doel.11 — onderneming bijstaan in haar levensfase (herstructurerings-fase)"
+  valkuilen_geoefend:
+    - "Voorzieningen bij schulden ≠ functionele balans (zit bij permanent vermogen)"
+    - "DSCR-vuistregel + DSCR < 1 = structurele insolventie-aankondiging"
+    - "Z-score grey zone + dalende trend = anticiperende actie, niet wachten op alarmprocedure"
+    - "Cashflow-proxy ≠ vrij beschikbaar voor aflossingen"
+    - "Executive summary is beslissings-document, niet ratio-overzicht"
+
+verder_lezen:
+  leerstukken:
+    - slug: werkkapitaalbeheer-en-financieringskeuzes
+      hint: "De interventie-laag voor de werkkapitaal-bevindingen uit stap 1"
+    - slug: kredietbeoordeling-en-kasstroomprognose
+      hint: "Het instrumentarium achter de DSCR-toets en alternatieven uit stap 3"
+    - slug: continuiteit-en-faillissementspredictie
+      hint: "Achtergrond bij de alarmprocedure-redenering en Z-score-toets uit stap 4"
+    - slug: financiele-diagnose-stellen
+      hint: "Het integratie-leerstuk dat de executive-summary-template uit stap 5 uitwerkt"
+  samenvatting:
+    hint: "Formule-arsenaal + stappenplannen + valkuilen op 2-3 A4 — printbaar voor de examen-week"
+  examenvragen_link: "voorbeeldexamens/po-1.9"
+
+wettelijk_fundament:
+  - onderwerp: "Alarmprocedure NV — netto-actief-drempel"
+    ref: "WVV art. 7:228 (helft + kwart kapitaal) + 7:229 (61.500 EUR ontbindings-vordering)"
+  - onderwerp: "Berekenings-methodiek netto-actief"
+    ref: "CBN-advies 2021/14 — Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV (twee uitgewerkte voorbeelden)"
+  - onderwerp: "Going-concern-veronderstelling + waarderingsregels"
+    ref: "CBN-advies 2018/18 — Going concern – Waarderingsregels bij stopzetting of gedeeltelijke stopzetting"
+  - onderwerp: "Jaarverslag-vermelding risico's en onzekerheden"
+    ref: "WVV art. 3:6 — getrouw overzicht + beschrijving voornaamste risico's en onzekerheden"
+  - onderwerp: "Bedrijfscashflow-definitie (Belgische proxy)"
+    ref: "CBN-advies 2011/14 — sectie rentabiliteit; cashflow = nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen)"
+  - onderwerp: "Auditor going-concern-werk"
+    ref: "ISA 570 (Going Concern) — IAASB-standaard, in België verbindend via IBR/IRE — PO 1.6 raakvlak"
+
+footer: "Oefening PO 1.9 — Belmonte-diagnose. Status: voorgesteld. Modelantwoorden gevalideerd op interne cijferconsistentie; sector-medianen zijn mock (Bel-first-stijl)."

@@ -1,0 +1,185 @@
+# Leerstuk-script — werkkapitaalbeheer en financieringskeuzes
+#
+# PO 1.9, lstk 1 van 4. Beheers-laag: gegeven dat de techniek van NBK/BBK/NT
+# (functionele balans) in PO 1.3 wordt behandeld, draait dit leerstuk om de
+# beslissingen die op die metingen worden gebouwd: BBK reduceren, financieringsmix
+# kiezen, dividend-capaciteit, matching-principe activa/passiva. Vertrekt vanuit
+# Belmonte-trend NBK/BBK/NT 2023-2025 (verslechterende NT).
+
+meta:
+  slug: werkkapitaalbeheer-en-financieringskeuzes
+  titel: "Hoe stuur je werkkapitaal en kies je een gezonde financieringsmix?"
+  po: "1.9"
+  cluster: financiele-analyse
+  voorbeeldgroep: belmonte
+  beschrijving: >
+    Leerstuk PO 1.9 — de beheers-laag op het werkkapitaal-drieluik. NBK · BBK · NT
+    rekenen we hier niet uit (dat is techniek PO 1.3); we beslissen ermee.
+    Drie families maatregelen om BBK te reduceren, drie families om NBK te
+    verhogen, plus de financieringsmix-keuzes (eigen vs vreemd, korte vs lange
+    termijn) en de dividend-capaciteits-toets. Belmonte-trend 2023-2025 dient
+    als rode draad: NT verslechtert van -130 naar -530 k EUR.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.9 en de noot
+    dat techniek (NBK/BBK/NT-formules + ratio-berekening) bij PO 1.3 zit;
+    hier draait alles om de beslissingen.
+
+antwoord_in_een_blik:
+  beats:
+    - "Werkkapitaal-beheer = beslissingen op een diagnostische meting. NBK (netto bedrijfskapitaal) zegt of je permanent vermogen je vaste activa én een buffer financiert; BBK (behoefte aan bedrijfskapitaal) zegt hoeveel cash je exploitatiecyclus structureel vastpint; NT = NBK − BBK toont of er ademruimte is (NT > 0) of structurele kasovertrek-afhankelijkheid (NT < 0)."
+    - "Vier handelingsknoppen: (1) BBK verlagen via voorraden, klantenkrediet, leverancierskrediet; (2) NBK verhogen via kapitaalinbreng, LT-lening, winst-reservering, desinvestering; (3) financieringsmix afstemmen volgens matching-principe (LT-actief met LT-passief); (4) dividend-uitkering toetsen tegen kapitaalbeschermings-regels (netto-actief-test + BV-liquiditeitstest)."
+    - "Belmonte 2025 illustreert het noodscenario: NT −530 k EUR, kasovertrek 280 k, DSO 70 dagen, voorraden +400 in twee jaar. Diagnose: structurele werkkapitaal-stress die elk leerstuk in dit PO opnieuw raakt."
+  visualisaties:
+    - type: mermaid
+      ref: trend-nbk-bbk-nt
+      bron: voorbeeldgroep
+  afsluiter: "We werken de Belmonte-case door om de vier knoppen concreet te maken — eerst diagnose lezen, daarna interveniëren."
+
+opbouw:
+
+  - id: drieluik-als-diagnose
+    titel: "Het werkkapitaal-drieluik als diagnostisch beginpunt"
+    niveau: 2
+    beats:
+      - "Open: vóór we beslissen, lezen we. NBK, BBK en NT zijn drie cijfers die samen de structurele kasgezondheid meten. Voor de berekeningstechniek: zie [[functionele-balans]] (concept-record) of het techniek-leerstuk PO 1.3. Hier zijn ze input."
+      - "Belmonte-trend in één blik: NBK krimpt licht (600 → 510), BBK explodeert (730 → 1.040), NT collapsert (−130 → −530). Het is niet NBK dat het probleem is — het is BBK dat sneller groeit dan permanent vermogen meegroeit."
+      - "Leesregel: NT < 0 is op zich niet doodzonde (retail met korte voorraadrotatie en lange leverancierskredieten leeft permanent met NT < 0). Wel altijd vragen: is de NT-trend stabiel of verslechterend? Bij Belmonte is hij monotoon verslechterend → structureel probleem, geen seizoens-uitschuif."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Indicator", "2023", "2024", "2025", "Interpretatie"]
+        rijen:
+          - ["NBK", 600, 530, 510, "Licht dalend — geen acute kapitaal-erosie"]
+          - ["BBK", 730, 900, 1040, "Sterk stijgend — exploitatiecyclus vraagt meer cash"]
+          - ["NT", -130, -370, -530, "Verslechterend — groeiende kasovertrek-afhankelijkheid"]
+
+  - id: bbk-verlagen
+    titel: "BBK verlagen — drie families maatregelen"
+    niveau: 2
+    beats:
+      - "Open: BBK = voorraden + handelsvorderingen − handelsschulden. Dus drie knoppen: voorraden afbouwen, klantenkrediet inkorten, leverancierskrediet rekken. Wikilink naar [[werkkapitaalbehoefte]] of [[activiteits-ratios]] voor formules."
+      - "Voorraden afbouwen: just-in-time-aanvoer, kleinere lots, bottleneck-analyse, slow-movers liquideren, consignatie bij leverancier. Bij Belmonte: voorraden 750 → 1.150 k in 2 jaar — eerst slow-movers identificeren (DIO 75 dagen vs sector 60)."
+      - "Klantenkrediet inkorten: betalingstermijnen contractueel, korting voor contante betaling, debiteurenbeheer, factoring of disconto. Bij Belmonte: DSO 70 dagen, gedreven door 2 OEM-klanten die zelf 90 dagen vragen. Factoring is een serieuze optie (kost typisch 1-3 % van factuurwaarde voor de tijdwinst)."
+      - "Leverancierskrediet rekken: betalingstermijnen onderhandelen, geen contante-betalings-korting accepteren wanneer impliciete jaarrente < financieringskost, domiciliëren op laatste vervaldag. Bij Belmonte: DPO al 70 dagen (boven sector) — verdere verlenging schaadt relatie."
+      - "Tegenkracht — afweging telt altijd. Te agressieve voorraadafbouw → stockbreuken, omzetverlies. Te korte klantkrediet → klanten verliezen. Te lange leverancierskrediet → relatie + verlies van korting-voor-contant. Beheer = balanceren financieringskost vs commerciële kost."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Knop", "Concrete maatregel", "Tegenkracht"]
+        rijen:
+          - ["Voorraden", "JIT-aanvoer · bottleneck-analyse · consignatie · slow-mover-uitverkoop", "Stockbreuken · omzet-verlies bij verkooppieken"]
+          - ["Klantenkrediet (DSO)", "Korte termijnen · korting voor contante betaling · debiteurenbeheer · factoring", "Klantenverlies · factoring-kost · kredietverzekering-kost"]
+          - ["Leverancierskrediet (DPO)", "Termijnen onderhandelen · domiciliëren op vervaldag · kortingen weigeren als impliciete rente < financieringskost", "Relatie-schade · verlies prompt-pay-korting · leveringsrisico"]
+
+  - id: nbk-verhogen
+    titel: "NBK verhogen — vier families maatregelen"
+    niveau: 2
+    beats:
+      - "Open: NBK = permanent vermogen − vaste activa. Verhogen kan via twee assen: permanent vermogen optillen óf vaste activa verlagen. Vier concrete families."
+      - "1. Kapitaalverhoging / aandeelhouders-inbreng — pure permanent-vermogen-stijging. Bij Belmonte: familiale aandeelhouders zouden 200-300 k EUR kunnen inbrengen; verhoogt NBK 1-op-1, maar dilueert voor externe investeerders + brengt fiscale overwegingen mee (inbreng in geld vs natura)."
+      - "2. Aantrekken LT-lening (> 1 jaar) — verschuift schulden van klasse 42-48 naar klasse 17. Vlottende activa blijven gelijk, korte schulden dalen → NBK stijgt. Variant: herfinanciering van bestaande kortlopende kredietlijnen. Belmonte's bestaande LT-bank kan herfinanciering aanbieden."
+      - "3. Winst reserveren i.p.v. dividend uitkeren — interne kapitaalvorming. Voor Belmonte 2025 niet relevant (verlies -100), maar in toekomstige winstgevende jaren één van de gezondste opties."
+      - "4. Desinvestering / sale-and-leaseback — vaste activa dalen, liquide middelen stijgen. Bij Belmonte: 25 % participatie in Belmonte Energy CV (100 k) zou verkocht kunnen worden; of het gebouw via sale-and-leaseback (vast actief → cash + LT-leasingverplichting). Sale-and-leaseback verhoogt NBK alleen als de leasing-verplichting > 1 jaar is."
+      - "Examen-valkuil 2013-2 (LET OP!): de stelling 'LT-lening om vaste activa te kopen verhoogt NBK' is FOUT. NBK stijgt alleen als de extra LT-financiering naar vlottende doeleinden of reserve gaat. Een 100 k LT-lening + 100 k machine-aankoop laat NBK ongewijzigd."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Knop", "Effect", "Voorbeeld Belmonte"]
+        rijen:
+          - ["Kapitaalverhoging / aandeelhouders-inbreng", "Permanent vermogen +X → NBK +X", "Marc + Peter brengen 200 k in"]
+          - ["LT-lening aantrekken (vrij voor exploitatie)", "Korte schulden −X + Lange schulden +X → NBK +X", "Herfinanciering 300 k kasovertrek naar 5-jarige bank-LT"]
+          - ["Winst reserveren", "Eigen vermogen +X → NBK +X", "Geen dividend bij positief resultaat (n.v.t. 2025)"]
+          - ["Desinvestering / SLB", "Vaste activa −X + cash +X → NBK +X", "Verkoop 25 % Belmonte Energy 100 k → cash"]
+
+  - id: financieringsmix
+    titel: "Financieringsmix — eigen ↔ vreemd, kort ↔ lang"
+    niveau: 2
+    beats:
+      - "Open: werkkapitaalbeheer is niet alleen 'meer cash maken'. Het is ook de juiste financieringsstructuur kiezen — twee assen tegelijk: eigen ↔ vreemd vermogen + korte ↔ lange termijn."
+      - "Matching-principe: financiere LT-activa met LT-passiva, KT-activa (vlottend) met een combi van LT-buffer (= NBK) + KT-passiva. Anders gezegd: een 8-jarige machine financier je niet met een 1-jarige kredietlijn."
+      - "EV vs VV-keuze: meer eigen vermogen → lagere financiële hefboom, meer veiligheid, maar hogere kapitaalkost (aandeelhouder verwacht meer rendement dan een bank-rente). Optimaal: schuldgraad waar de marginale fiscale-aftrekbaarheid (interest) de marginale faillissementskost-stijging compenseert. Cross-PO-noot: thin-cap-regel (art. 198/1 WIB92) beperkt interestaftrek tot 30 % EBITDA of 3 mio (zie [[thin-cap-regime]] concept-record)."
+      - "KT vs LT-keuze: kortere termijn = lagere rente meestal, maar herfinancierings-risico bij elke vervaldag. Langere termijn = hogere rente, maar zekerheid. Vuistregel: voor stabiele exploitatie-financiering kies LT; voor seizoens-pieken kies KT."
+      - "Belmonte 2025 leest fout op twee assen: schuldgraad 27,9 % (LT) maar grote KT-druk 1.940 k incl. 280 kasovertrek + 320 LT-aflossingen. Echte mismatch: structurele werkkapitaalbehoefte (BBK 1.040) wordt deels met KT-bankkrediet gefinancierd i.p.v. via NBK/permanent vermogen. Herfinancierings-pad: KT bank → LT bank, BBK afbouwen tegelijk."
+    visualisaties:
+      - type: mermaid
+        ref: diagnose-flow
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: matching-principe
+        titel: "Matching-principe in detail"
+        niveau: 3
+        beats:
+          - "Een 8-jarige CNC-cel financieren met een 5-jarige lening = matching-fout. Tussen jaar 5 en jaar 8 moet de cashflow uit de machine zelf de aflossingsgolf dragen, wat zelden lukt zonder herfinanciering."
+          - "Belmonte's geplande 600 k investering in CNC-cel (8 jaar levensduur) zou ideaal 7-8-jarige bankfinanciering krijgen. Bank biedt 5 jaar → matching-discussie naar boven brengen tijdens kredietaanvraag."
+
+  - id: dividend-capaciteit
+    titel: "Dividend-capaciteit — kan ik uitkeren?"
+    niveau: 2
+    beats:
+      - "Open: dividend-uitkering = permanente kapitaal-onttrekking. Werkkapitaalbeheer toetst of het juridisch én economisch kan. Twee wettelijke tests + één economische."
+      - "1. Netto-actief-test (WVV art. 7:212 NV / art. 5:142 BV — zie [[kapitaalbescherming]]): na uitkering moet netto-actief ≥ onbeschikbaar EV (voor NV: gestort kapitaal + wettelijke + statutair onbeschikbare reserves; voor BV: niet-uitkeerbare inbreng + reserves)."
+      - "2. BV-liquiditeitstest (WVV art. 5:143): bestuursorgaan moet aantonen dat de BV haar opeisbare schulden over 12 maanden na uitkering kan voldoen. Geen wettelijke formule, wel een onderbouwde prognose. Verbonden met de werkkapitaal-prognose."
+      - "3. Economische realiteit: ook al passeert de juridische test, is het cashflow-gezond om uit te keren? Bij Belmonte 2025: netto-actief 1.610 vs helft kapitaal 250 — juridische test OK, maar economisch verlies-jaar + krimpende NT → dividend uitkeren is in 2025 niet verdedigbaar voor de bank en zou continuïteits-risico vergroten."
+      - "Cross-PO-noot: de detail-techniek van kapitaalbeschermings-test + alarmprocedure-link leeft in PO 3.0 ([[kapitaalbescherming]] + [[alarmprocedure]] indien apart concept) en [[continuiteit-en-faillissementspredictie]]."
+
+  - id: belmonte-aanbevelingen
+    titel: "Belmonte 2026 — werkkapitaal-routekaart"
+    niveau: 2
+    beats:
+      - "Open: gegeven Belmonte's positie, welke maatregelen op welke horizon? Drie horizons: nu (Q1 2026), 12 maanden, 24 maanden."
+      - "Nu (Q1 2026, urgent): factoring opstarten met de 2 OEM-klanten (cash binnen 5 dagen i.p.v. 90 → DSO bottleneck oplossen). Voorraad-audit: slow-mover-segment identificeren, uitverkoop 2 maanden. RSZ-betalingsplan onderhandelen (achterstand 90 k — zonder plan = signaal aan bedrijfsrechtbank)."
+      - "12 maanden: financieringsmix herstructureren — kasovertrek 280 k consolideren in LT-bankschuld; gesprek met ING/KBC over herfinanciering met staat-gewaarborgde KMO-lening (Gigarant). Investeringskrediet 600 k pas aanvragen ná werkkapitaal-herstel."
+      - "24 maanden: structureel beleid — DSO-policy contractueel verankeren bij nieuwe klanten, voorraadbeleid herzien (cyclus-tellingen + JIT-overweging), aandeelhouders-inbreng 200-300 k onderzoeken om EV-buffer op te bouwen."
+      - "Risico-baseline: zonder ingreep loopt de Belmonte-trend door — netto-actief daalt onder helft kapitaal tegen 2027 → alarmprocedure WVV 7:228 wordt acuut. Zie [[continuiteit-en-faillissementspredictie]]."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Horizon", "Actie", "Effect op NBK/BBK/NT", "Verantwoordelijk"]
+        rijen:
+          - ["Nu (Q1 2026)", "Factoring opstarten + slow-mover-uitverkoop + RSZ-plan", "BBK ↓ via voorraden + DSO; NT ↑ via cash-vrijmaking", "CFO + commercieel"]
+          - ["6-12 maanden", "Kasovertrek herfinancieren naar LT-bank", "NBK ↑ (schulden KT → LT)", "CFO + bank"]
+          - ["12-24 maanden", "Aandeelhouders-inbreng 200-300 k EUR", "NBK ↑ permanent + financiële autonomie ↑", "Bestuur + aandeelhouders"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): een LT-lening voor een vaste-activa-aankoop boeken als 'NBK-verhoging'. NBK stijgt alleen als de extra financiering NIET in vaste activa landt. De 600 k investering + 600 k lening = NBK-neutraal."
+      - "Valkuil 2 (⚠️): BBK-reductie als één maatregel zien. Het is een drieluik (voorraden + klanten + leveranciers) waar één knop fout gaan kan: te lange DPO verstoort relatie → leveranciers eisen voorafbetaling → DSO-effect wordt gedragen door extra werkkapitaalbehoefte. Beheer in samenhang."
+      - "Valkuil 3 (⚠️): dividend-uitkering puur juridisch toetsen (netto-actief-test passeert) en de cashflow-realiteit negeren. De BV-liquiditeitstest is bewust ingevoerd om dit te verhinderen; voor de NV bestaat ze niet wettelijk maar wel als bestuurder-zorgvuldigheidsplicht."
+    type_blokken: warning-bullets
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kredietbeoordeling-en-kasstroomprognose
+      hint: "Volgende stap: krediet aanvragen en aflossingscapaciteit toetsen — het integratie-moment dat ratio's + kasstroom + werkkapitaal-positie samenbrengt in een ja/nee-advies."
+    - slug: continuiteit-en-faillissementspredictie
+      hint: "Wat als de werkkapitaalstress structureel wordt? Going-concern + alarmprocedure + Z-score."
+    - slug: financiele-diagnose-stellen
+      hint: "De integratie-laag: hoe verpakt je werkkapitaal-bevindingen in een rapport met aanbevelingen per stakeholder?"
+  samenvatting:
+    hint: "Voor herhaling — NBK/BBK/NT-formules + drie reductie-families + matching-principe + dividend-capaciteits-tests."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [functionele-balans, werkkapitaalbehoefte]
+    - concepten: [activiteits-ratios, liquiditeits-ratios]
+    - concepten: [kapitaalbescherming, thin-cap-regime]
+
+wettelijk_fundament:
+  - onderwerp: "Functionele-balans-doctrine (NBK/BBK/NT) zelf"
+    ref: "Geen wettelijke bepaling — bedrijfseconomisch model (Ooghe & Van Wymeersch, *Handboek financiële analyse*). Rekening-indeling klasse 5 (geldbeleggingen 50-53 + liquide 54-58) + rubriek 43 (financiële schulden bank kort) volgt MAR (KB 21-10-2018)."
+  - onderwerp: "Kapitaalbeschermings-test bij dividend-uitkering NV"
+    ref: "WVV art. 7:212 — netto-actief-test voor de NV bij uitkering aan aandeelhouders."
+  - onderwerp: "BV-liquiditeitstest naast netto-actief-test"
+    ref: "WVV art. 5:143 — bestuursorgaan moet 12-maand-prognose maken voor opeisbare schulden na uitkering."
+    noot: "Specifiek BV — vervangt het kapitaal-concept dat in WVV werd afgeschaft. Voor de NV geldt geen wettelijke liquiditeitstest maar wel de bestuurder-zorgvuldigheidsplicht (WVV art. 2:52 § 1)."
+  - onderwerp: "Interestaftrek-beperking (ATAD / thin-cap)"
+    ref: "WIB92 art. 198/1 — financieringskostensurplus aftrekbaar tot max(30 % EBITDA · 3 mio EUR)."
+    noot: "Relevant bij financieringsmix-keuze: te veel vreemd vermogen bij grote ondernemingen botst tegen de aftrekgrens."
+  - onderwerp: "Alarmprocedure NV"
+    ref: "WVV art. 7:228 — bij netto-actief < helft kapitaal: bijeenroeping AV binnen 2 maanden."
+    noot: "Indirecte werkkapitaal-relevantie: dividend-uitkering die netto-actief onder de drempel duwt is de facto verboden."
+
+footer: "Leerstuk PO 1.9 — lstk 1 van 4. Status: voorgesteld."

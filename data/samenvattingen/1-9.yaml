@@ -1,0 +1,245 @@
+# Samenvatting-script — PO 1.9 Financiële analyse en financieel bedrijfsbeheer
+#
+# Cijfer-/diagnose-vak met integratie-niveau. Spickzettel-stijl met:
+# - formule-arsenaal (DSCR, annuïteit, Z-score, NBK/BBK/NT-identiteit, ratio-families)
+# - stappenplannen (DSCR-toets, alarmprocedure-toets, diagnose-template, krediet-beoordeling)
+# - drempel-tabellen (alarmprocedure NV/BV, Z-score-banden, DSCR-vuistregels)
+# - valkuilen
+#
+# Scope-snijlijn met PO 1.3: techniek-formules (ratio-berekening per familie,
+# kasstroomoverzicht-techniek) zijn een gedeelde concept-laag; samenvatting 1.9
+# bundelt de beslissings-formules (DSCR, annuïteit, Z-score) + integratie-flows.
+
+meta:
+  slug: "1-9"
+  titel: "Financiële analyse en financieel bedrijfsbeheer"
+  po: "1.9"
+  beschrijving: "PO-samenvatting (spickzettel voor cijfer-/diagnose-vak): werkkapitaal-drieluik + ratio-arsenaal + DSCR-recept + Z-score + alarmprocedure-drempels + diagnose-template — printbaar op 2-3 A4."
+  explorer_title: "5. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Spickzettel-intro: "samenvatting = spickzettel voor de week vóór het examen,
+    niet om voor het eerst te leren". PO 1.9 is een cijfer- + diagnose-vak op
+    integratie-niveau — deze samenvatting bundelt de formules (annuïteit, DSCR,
+    Z-score, ratio-identiteiten), de drempels (alarmprocedure, Z-banden, DSCR-
+    vuistregels) en de stappenplannen (DSCR-recept, diagnose-template) die je
+    op het examen moet KUNNEN. Voor verhaal: minicursus + 4 leerstukken. Voor
+    doorrekenen: oefening Belmonte.
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie 1: TAKE-AWAY
+# ---------------------------------------------------------------------------
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**NBK = BBK + NT** is de functionele identiteit. NBK krimpt + BBK stijgt → NT collapsert → structurele kasovertrek-afhankelijkheid. Verbeteren via vier knoppen: voorraden ↓ · klantenkrediet ↓ · leverancierskrediet ↑ · permanent vermogen ↑."
+    - "**DSCR = cashflow / totale schuldenlast**. Vuistregel bank ≥ 1,20-1,30. Annuïteit a = K·i/(1−(1+i)^−n). Matching-principe: looptijd ≤ economische levensduur. Bij DSCR < 1: niet-haalbaar → 4 alternatieven (langere looptijd · eigen inbreng · bullet · staat-gewaarborgde KMO-lening)."
+    - "**Z-score = 1,2·X1 + 1,4·X2 + 3,3·X3 + 0,6·X4 + 1,0·X5**. Banden: safe > 2,99 · grey 1,81-2,99 · distress < 1,81. Trend is informatiever dan absoluut getal. Z-score in grey + dalend = signaal voor anticiperende actie, NU."
+    - "**Alarmprocedure-drempel NV (WVV 7:228)**: netto-actief < 1/2 of < 1/4 geplaatst kapitaal. **BV (WVV 5:153)**: netto-actief negatief of niet meer kunnen voldoen aan 12-maands-opeisbare-schulden. CBN 2021/14 voor berekening netto-actief."
+    - "**Diagnose-rapport ≠ ratio-overzicht**. Vijf bouwstenen: data-discipline → consistentie-correctie → 4 analyse-lagen → SWOT financieel → aanbevelingen per stakeholder/horizon. Executive summary op pagina 1 (max 1 pagina, vaste 5-paragrafen-structuur)."
+
+# ---------------------------------------------------------------------------
+# Optionele extra blokken (volgorde = render-volgorde)
+# ---------------------------------------------------------------------------
+
+extra_blokken:
+
+  - id: vier-lagen-in-een-blik
+    type: tabel-inline
+    titel: "Vier analyse-lagen in één blik"
+    intro: "Elke diagnose werkt deze vier lagen in deze volgorde. Eerste drie zijn input; vierde is de risico-toets."
+    kolommen: ["Laag", "Wat meet het", "Hoofd-instrument(en)", "Hoort bij"]
+    rijen:
+      - ["**1. Functionele balans**", "Structureel financierings-evenwicht", "NBK · BBK · NT-drieluik", "PO 1.3 (techniek)"]
+      - ["**2. Ratio-families**", "Vier dimensies tegelijk", "Liquid · Solvab · Rentab · Activit + interpretatie-laag", "PO 1.3 (techniek)"]
+      - ["**3. Kasstromen + FCF**", "Cashgeneratie + investerings-capaciteit", "KSO indirect IAS 7 · FCFF/FCFE", "PO 1.3 (techniek), PO 1.9 (DSCR-beslissing)"]
+      - ["**4. Continuïteit + predictie**", "Risico op insolventie 1-2 jaar", "Going-concern + alarmprocedure + Z-score + ISA 570", "PO 1.9 (kern)"]
+
+  - id: formule-arsenaal
+    type: tabellen-en-formules
+    titel: "Formule-arsenaal"
+    sub_blokken:
+
+      - type: formule
+        sub_titel: "Werkkapitaal-drieluik (functionele balans)"
+        beschrijving: "**NBK** top-down én bottom-up moet hetzelfde getal geven (controle-toets). **BBK** = wat de exploitatiecyclus structureel vastpint. **NT** = NBK − BBK = financiële marge. NT < 0 = structurele kasovertrek-afhankelijkheid."
+        formule: "\\text{NBK}_{\\text{top-down}} = \\text{Permanent vermogen} - \\text{Vaste activa} \\qquad \\text{NBK}_{\\text{bottom-up}} = \\text{Vlottende activa} - \\text{Schulden} \\leq 1\\text{j} \\qquad \\text{NT} = \\text{NBK} - \\text{BBK}"
+
+      - type: formule
+        sub_titel: "Ratio-families (kernformules; vol detail bij PO 1.3)"
+        beschrijving: "Vier families × één kernformule. Voor varianten en interpretatie-banden: concept-records [[liquiditeits-ratios]] · [[solvabiliteits-ratios]] · [[rentabiliteits-ratios]] · [[activiteits-ratios]]."
+        formule: "\\text{Current} = \\tfrac{\\text{Vlottend}}{\\text{KT-schulden}} \\quad \\text{Solvab} = \\tfrac{\\text{EV}}{\\text{Totaal}} \\quad \\text{ROE} = \\tfrac{\\text{Nettores}}{\\text{EV}} \\quad \\text{DSO} = \\tfrac{\\text{Handelsvord} \\times 365}{\\text{Omzet incl. btw}}"
+
+      - type: formule
+        sub_titel: "Kasstroom (Belgische proxy versus IAS 7)"
+        beschrijving: "**Belgische bedrijfscashflow** (CBN 2011/14) = nettoresultaat + niet-kaskosten — proxy, géén werkkapitaal-correctie. **Operationele kasstroom IAS 7 indirect** = proxy ± Δ werkkapitaal. **FCFF** = operationele kasstroom − vervangingsinvesteringen. Voor DSCR-vuistregels: gebruik bedrijfscashflow proxy (snel, conservatief)."
+        formule: "\\text{Bedrijfscashflow}_{\\text{proxy}} = \\text{Nettores} + \\text{Afschr} + \\Delta\\text{Voorz} + \\Delta\\text{WV} \\qquad \\text{FCFF} = \\text{OK}_{\\text{IAS 7}} - \\text{CapEx vervanging}"
+
+      - type: formule
+        sub_titel: "Annuïteit + DSCR (krediet-beoordeling)"
+        beschrijving: "**Annuïteit** = jaarlijkse vaste betaling (kapitaal + interest) bij gelijk-annuïteit-krediet. Examen-vuistregels: 1,05^−5 ≈ 0,78; 1,06^−5 ≈ 0,75; 1,06^−8 ≈ 0,63; 1,06^−10 ≈ 0,56. **DSCR-vuistregel bank** ≥ 1,20-1,30. **Matching-principe**: looptijd ≤ economische levensduur actief."
+        formule: "a = \\frac{K \\cdot i}{1 - (1+i)^{-n}} \\qquad \\text{DSCR} = \\frac{\\text{Cashflow}}{\\text{Bestaande aflossingen} + \\text{Annuïteit nieuw}}"
+
+      - type: formule
+        sub_titel: "Altman Z-score"
+        beschrijving: "Vijf componenten × vaste gewichten. Banden: **safe > 2,99** · **grey 1,81-2,99** (verhoogd risico, monitoren) · **distress < 1,81** (acuut). Trend is informatiever dan absoluut getal. Ohlson O-score is empirisch beter voor private vennootschappen (logit-model met 9 variabelen); kennen op niveau van bestaan en doel."
+        formule: "Z = 1{,}2 \\cdot X_1 + 1{,}4 \\cdot X_2 + 3{,}3 \\cdot X_3 + 0{,}6 \\cdot X_4 + 1{,}0 \\cdot X_5"
+
+  - id: drempels-en-banden
+    type: tabellen-en-formules
+    titel: "Drempels en interpretatie-banden"
+    sub_blokken:
+
+      - type: tabel-inline
+        sub_titel: "Alarmprocedure WVV"
+        kolommen: ["Vennootschapsvorm", "Trigger", "Wet-ref", "Termijn"]
+        rijen:
+          - ["**NV** (kapitaalhoudend)", "Netto-actief < 1/2 of < 1/4 geplaatst kapitaal", "WVV 7:228", "AV binnen 2 maanden"]
+          - ["NV", "Netto-actief < 61.500 EUR", "WVV 7:229", "Belanghebbende of OM kan ontbinding vorderen"]
+          - ["**BV** (kapitaalloos)", "Netto-actief negatief (of dreigt te worden)", "WVV 5:153, 1°", "AV binnen 2 maanden"]
+          - ["BV", "Niet meer kunnen voldoen aan opeisbare schulden 12 maanden", "WVV 5:153, 2°", "Idem"]
+        noot: "**Netto-actief** = totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtings/O&O-kosten. Voor de exacte berekenings-methodiek: CBN-advies 2021/14 (twee uitgewerkte voorbeelden)."
+
+      - type: tabel-inline
+        sub_titel: "Z-score-banden + actie"
+        kolommen: ["Band", "Z-waarde", "Interpretatie", "Actie adviseur"]
+        rijen:
+          - ["Safe zone", "> 2,99", "Stabiel; geen verhoogd risico", "Geen ad-hoc actie; jaarlijkse monitoring"]
+          - ["Grey zone", "1,81 - 2,99", "Verhoogd risico op insolventie 1-2 jaar", "Trend-analyse + ISA 570-indicatoren screenen + bestuur informeren"]
+          - ["Distress zone", "< 1,81", "Acuut risico", "Continuïteits-plan formaliseren + alarmprocedure-projectie + going-concern-waardering herzien"]
+
+      - type: tabel-inline
+        sub_titel: "DSCR-vuistregels"
+        kolommen: ["DSCR-waarde", "Interpretatie", "Actie"]
+        rijen:
+          - ["≥ 1,30", "Comfortabel", "Krediet haalbaar in voorgestelde structuur"]
+          - ["1,00 - 1,30", "Krap; binnen vuistregel maar onderhandelen", "Eventueel alternatieve structuur (langere looptijd, lagere bedrag) voorstellen"]
+          - ["< 1,00", "Cashflow dekt zelfs aflossingen niet", "Niet-haalbaar; aanbod alternatieven (zie §formule-arsenaal)"]
+
+      - type: tabel-inline
+        sub_titel: "ISA 570 — going-concern-indicatoren (auditor + adviseur)"
+        kolommen: ["Type", "Indicator", "Tellen mee?"]
+        rijen:
+          - ["Financieel", "Netto-actief negatief", "Ja — sluit aan bij alarmprocedure"]
+          - ["Financieel", "KT-leningen voor LT-financiering (mismatch)", "Ja"]
+          - ["Financieel", "Ratio's lopen uit (negatieve trend)", "Ja"]
+          - ["Financieel", "Terugkerende exploitatieverliezen", "Ja — sterkste indicator"]
+          - ["Financieel", "Achterstand betaling RSZ, BTW, leveranciers", "Ja — early signal"]
+          - ["Financieel", "Vergrendelde dividenden, ongunstige ratios", "Ja"]
+          - ["Niet-financieel", "Management-vertrek zonder vervanging", "Ja"]
+          - ["Niet-financieel", "Verlies sleutel-klant of -leverancier", "Ja"]
+          - ["Niet-financieel", "Vergunnings-problemen", "Ja"]
+          - ["Niet-financieel", "Arbeidsconflict", "Ja"]
+          - ["Niet-financieel", "Technologische veroudering", "Ja"]
+        noot: "≥ 3 indicatoren oplichten = adviseur moet continuïteits-paragraaf in diagnose opnemen. Commissaris moet ISA 570-procedure formeel doorlopen."
+
+  - id: stappenplannen
+    type: tabellen-en-formules
+    titel: "Stappenplannen — wat je doet op het examen"
+    sub_blokken:
+
+      - type: tabel-inline
+        sub_titel: "DSCR-toets — 4 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Formule / check"]
+        rijen:
+          - ["1", "Annuïteit nieuw krediet berekenen", "a = K·i / (1−(1+i)^−n)"]
+          - ["2", "Totale jaarlijkse schuldenlast", "Bestaande aflossingen + nieuwe annuïteit"]
+          - ["3", "Beschikbare cashflow bepalen", "Bedrijfscashflow proxy = nettores + afschr + Δ voorz + Δ wv (CBN 2011/14)"]
+          - ["4", "DSCR berekenen + advies", "DSCR = cashflow / debt service; ≥ 1,20 → haalbaar; < 1 → alternatieven aanbieden"]
+        noot: "**Alternatieven bij niet-haalbaar**: (1) langere looptijd; (2) eigen inbreng; (3) bullet- of ballonkrediet; (4) staat-gewaarborgde KMO-lening (Gigarant, Sowalfin, finance.brussels); (5) eerst werkkapitaal herstellen om cashflow op te krikken."
+
+      - type: tabel-inline
+        sub_titel: "Alarmprocedure-toets — 3 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Resultaat"]
+        rijen:
+          - ["1", "Netto-actief berekenen (CBN 2021/14)", "Totaal activa − voorzieningen − schulden − niet-afgeschreven oprichtings/O&O-kosten"]
+          - ["2", "Vergelijken met drempel", "NV: helft of kwart kapitaal. BV: nul of liquiditeitstest-fail 12m."]
+          - ["3", "Triggert?", "Ja → AV bijeenroepen binnen 2 maanden; bestuursorgaan stelt maatregelen voor. Nee → projectie toekomst (jaarverslag-vermelding indien risico)"]
+
+      - type: tabel-inline
+        sub_titel: "Diagnose-rapport schrijven — 5 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Output"]
+        rijen:
+          - ["1", "Data verzamelen + bron-discipline", "NBB Balanscentrale + Bel-first + interne data + sector"]
+          - ["2", "Consistentie corrigeren", "Eenmalige posten + stelselwijzigingen + sector-context"]
+          - ["3", "Vier analyse-lagen toepassen", "Functionele balans · ratio's · kasstroom · continuïteit"]
+          - ["4", "Synthese in financiële SWOT", "Sterktes/zwaktes/kansen/bedreigingen in 2×2-matrix"]
+          - ["5", "Aanbevelingen per stakeholder × horizon", "Tabel: bestuur / bank / aandeelhouders × Q1 / 12m / 24m"]
+        noot: "**Executive summary** op pagina 1 (max 1 pagina): diagnose-zin + sterktes + zwaktes/risico's + Top-3 aanbevelingen + vervolg. Vaste structuur — bestuur leest dit + de aanbevelingen-sectie."
+
+      - type: tabel-inline
+        sub_titel: "Werkkapitaal-knoppen — wat verhoogt wat?"
+        kolommen: ["Maatregel", "Effect op NBK", "Effect op BBK", "Effect op NT"]
+        rijen:
+          - ["Voorraden afbouwen", "—", "↓", "↑"]
+          - ["DSO inkorten (factoring, debiteurenbeheer)", "—", "↓", "↑"]
+          - ["DPO verlengen (binnen relatie-grens)", "—", "↓", "↑"]
+          - ["Kapitaal-inbreng aandeelhouders", "↑", "—", "↑"]
+          - ["LT-lening (vrij voor exploitatie)", "↑", "—", "↑"]
+          - ["LT-lening voor vaste-activa-aankoop", "—", "—", "—"]
+          - ["Winst reserveren (geen dividend)", "↑", "—", "↑"]
+          - ["Desinvestering / sale-and-leaseback (LT)", "↑", "—", "↑"]
+
+# ---------------------------------------------------------------------------
+# VALKUILEN
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  titel: "Klassieke valkuilen (examen-radar)"
+  format: tabel
+  rijen:
+    - valkuil: "LT-lening voor vaste-activa boeken als 'NBK-verhoging'"
+      wat_klopt_niet: "Examen-vraag 2013-2 lijkt te suggereren dat elke LT-lening NBK verhoogt"
+      wat_klopt_wel: "NBK stijgt alleen als extra LT-financiering NIET in vaste activa landt. 100 k lening + 100 k machine = NBK-neutraal."
+    - valkuil: "Bedrijfscashflow gelijkstellen aan operationele kasstroom IAS 7"
+      wat_klopt_niet: "BIBF-/Belgische analyse-traditie corrigeert NIET voor werkkapitaal-mutaties"
+      wat_klopt_wel: "**Bedrijfscashflow proxy** (CBN 2011/14) = nettores + niet-kaskosten. **OK IAS 7** = proxy ± Δ werkkapitaal. Verschil kan groot zijn bij groeiend WK."
+    - valkuil: "Cashflow gelijkstellen aan 'beschikbaar voor aflossingen'"
+      wat_klopt_niet: "Cashflow moet ook financieren: interesten bestaande schulden + belastingen + vervangingsinvesteringen + WK-groei + dividenden"
+      wat_klopt_wel: "Vuistregel: schuldenlast ≤ 70-80 % van cashflow. Onder DSCR 1,00 = structurele insolventie-aankondiging."
+    - valkuil: "Netto-actief gelijkstellen aan eigen vermogen"
+      wat_klopt_niet: "Bij vennootschappen met niet-afgeschreven oprichtingskosten of O&O-kosten verschilt het"
+      wat_klopt_wel: "CBN 2021/14 berekening: totaal activa − voorzieningen − schulden − (oprichtings + O&O niet-afgeschreven)"
+    - valkuil: "Wachten op alarmprocedure-trigger om in te grijpen"
+      wat_klopt_niet: "Wettelijke trigger is een laat signaal — boedel is dan al ingekleurd"
+      wat_klopt_wel: "Z-score grey zone + ISA 570-indicatoren oplichten = signaal voor anticiperende actie, NU"
+    - valkuil: "Voorraadafbouw als 'gratis' BBK-reductie"
+      wat_klopt_niet: "Te agressief = stockbreuken + omzet-verlies"
+      wat_klopt_wel: "Beheer in samenhang: financieringskost vs commerciële kost = afweging per knop"
+    - valkuil: "Diagnose-rapport zonder aanbevelingen-per-verantwoordelijke"
+      wat_klopt_niet: "'Verbeter de liquiditeit' is geen aanbeveling — dat is een wens"
+      wat_klopt_wel: "Concrete actie + verantwoordelijke + horizon — anders dwingt het rapport geen actie af"
+
+# ---------------------------------------------------------------------------
+# DOORKLIK
+# ---------------------------------------------------------------------------
+
+doorklik:
+  intro: "Werkt iets niet scherp? Klik door naar het leerstuk dat het uitwerkt of het concept dat het definieert:"
+  leerstukken:
+    - slug: werkkapitaalbeheer-en-financieringskeuzes
+      hint: "drie families BBK-reductie + vier NBK-verhoging + matching-principe + dividend-capaciteit"
+    - slug: kredietbeoordeling-en-kasstroomprognose
+      hint: "DSCR-recept + annuïteit-formule + vier alternatieven + kasstroomprognose-bouwstenen"
+    - slug: continuiteit-en-faillissementspredictie
+      hint: "going-concern-beginsel + alarmprocedure-drempels + Z-score + ISA 570 + drie rol-perspectieven"
+    - slug: financiele-diagnose-stellen
+      hint: "vijf bouwstenen + financiële SWOT + executive-summary-template + drie rol-perspectieven"
+  concept_groepen:
+    - label: "Techniek-laag (gedeeld met PO 1.3)"
+      concepten: [functionele-balans, jaarrekeninganalyse, kasstroom-analyse, free-cash-flow]
+    - label: "Ratio-families"
+      concepten: [liquiditeits-ratios, solvabiliteits-ratios, rentabiliteits-ratios, activiteits-ratios, ratio-interpretatie]
+    - label: "Continuïteit + faillissement"
+      concepten: [continuiteit, faillissementspredictie-modellen, faillissement, kapitaalbescherming]
+    - label: "Diagnose-eindproduct"
+      concepten: [financiele-diagnose, financiele-analyse-software]
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+footer: "Samenvatting PO 1.9. Status: voorgesteld. Scope-snijlijn met PO 1.3 (techniek versus integratie): zie [leerpad-skelet-1-9](../leerpad-skelet-1-9)."

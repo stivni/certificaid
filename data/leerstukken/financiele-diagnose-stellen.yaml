@@ -1,0 +1,220 @@
+# Leerstuk-script — financiële diagnose stellen
+#
+# PO 1.9, lstk 4 van 4. Het integratie-leerstuk: alle voorgaande lagen (functionele
+# balans + ratio's + kasstroom + continuïteit) samenbrengen in één rapport met
+# aanbevelingen per stakeholder. Past PO-niveau "integratie". Belmonte als
+# end-to-end case: data verzamelen → consistentie corrigeren → analyseren →
+# diagnose-tabel → 3 rol-perspectieven.
+
+meta:
+  slug: financiele-diagnose-stellen
+  titel: "Hoe integreer je alle analyses in één diagnose-rapport met aanbevelingen?"
+  po: "1.9"
+  cluster: financiele-analyse
+  voorbeeldgroep: belmonte
+  beschrijving: >
+    Leerstuk PO 1.9 — het integratie-eindproduct. De diagnose-template heeft vijf
+    bouwstenen: (1) data verzamelen + bronnen-discipline (NBB Balanscentrale,
+    Bel-first, Trends Top, Belfius Companyweb, interne data); (2) consistentie
+    corrigeren (eenmalige posten, stelselwijzigingen, sector-context); (3) analyse-
+    laag-per-laag (functionele balans, ratio's, kasstroom, continuïteit);
+    (4) synthese in financiële SWOT + diagnose-tabel; (5) aanbevelingen per
+    stakeholder + per horizon. Drie rol-perspectieven (adviseur, CFO, commissaris)
+    laten zien dat dezelfde feiten andere acties opleveren. Belmonte als end-to-end
+    case waarop de stagiair de template kan toepassen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.9. Noteer expliciet
+    dat dit het integratie-leerstuk is — leest het beste NA de andere drie 1.9-
+    leerstukken (werkkapitaal · krediet · continuïteit). De Belmonte-case loopt
+    door, hier brengen we alle stukjes samen.
+
+antwoord_in_een_blik:
+  beats:
+    - "Open: een financiële diagnose is een gestructureerd oordeel over de financiële gezondheid van een onderneming, met sterktes, zwaktes, risico's en aanbevelingen. Het is het eindproduct van financiële analyse — meer dan een ratio-overzicht, anders dan een audit-rapport."
+    - "Vijf bouwstenen, in vaste volgorde. (1) Data-discipline: bronnen kiezen + consistentie waarborgen. (2) Vier analyse-lagen: functionele balans, ratio's, kasstroom, continuïteit. (3) Sector- + peer-context. (4) Synthese in financiële SWOT. (5) Aanbevelingen per stakeholder (bestuur, bank, aandeelhouder) en per horizon (Q1, 12m, 24m). Het rapport eindigt met een executive summary van max 1 pagina."
+    - "Drie rol-perspectieven op dezelfde feiten. Adviseur-analist: extern oordeel + aanbeveling aan cliënt. CFO-intern: stuur-informatie voor interne beslissingen. Commissaris: input voor controleverklaring + risico-beoordeling. Belmonte 2025: distress-trend, herstel-pad mogelijk maar urgent — alle drie perspectieven zien dat, andere acties volgen."
+  visualisaties:
+    - type: mermaid
+      ref: diagnose-flow
+      bron: voorbeeldgroep
+  afsluiter: "We werken de template stap voor stap door op Belmonte, en sluiten af met een executive-summary-voorbeeld."
+
+opbouw:
+
+  - id: data-discipline
+    titel: "Stap 1 — Data-discipline en bronnen"
+    niveau: 2
+    beats:
+      - "Open: een diagnose is zo goed als haar data. Vier kanalen die je samen gebruikt."
+      - "(1) Officiële neerleggingen — NBB Balanscentrale (https://www.nbb.be/nl/balanscentrale): jaarrekeningen + sociale balansen + balanscentrale-resultaten. Gratis voor één bedrijf per opzoeking. Voor peer-set: betaalde aboniementen (Bel-first, Trends Top) — die geven sectorgemiddelden en peer-medianen."
+      - "(2) Sectorrapporten — Trends Top, Febiac, Comeos: sector-specifieke benchmarks (omzet-mediaan, margin-gemiddelde, werkkapitaal-cyclus). NACE-code is de zoeksleutel."
+      - "(3) Kredietwaardigheid — Belfius Companyweb, Graydon, Creditsafe: scoring + alerts (faillissements-waarschuwing, PV niet-betaling). Snel een 'wie zijn de tegenpartijen?'-check."
+      - "(4) Interne data van cliënt — actuele boekhouding (vaak verder dan laatste gepubliceerde JR), 12-maands-cashflow-prognose, openstaande facturen-overzicht, RSZ/BTW-betaalrekening."
+      - "Wikilink naar [[financiele-analyse-software]] (concept-record met de softwarestack)."
+
+  - id: consistentie-correctie
+    titel: "Stap 2 — Consistentie corrigeren"
+    niveau: 2
+    beats:
+      - "Open: ruwe cijfers zijn zelden vergelijkbaar. De analist corrigeert voor (a) eenmalige posten — een desinvesteringsmeerwaarde of een uitzonderlijke voorzieningstoevoeging vervormt de trend; (b) stelselwijzigingen — bv. nieuwe afschrijvingsmethode; (c) reclassificaties — herpresentatie van rubrieken kan een schijn-trend creëren."
+      - "Voorbeeld correctie eenmalige post: een onderneming verkoopt in 2024 vastgoed met meerwaarde 300 k. Het 2024-bedrijfsresultaat ziet er prachtig uit; trend lijkt sterk. Voor diagnose: 2024-resultaat normaliseren door 300 k uit te sluiten — dan blijkt onderliggende trend dalend."
+      - "Voor Belmonte: geen grote eenmalige posten gedetecteerd. Wel: stijging voorzieningen 2024-2025 van 120 → 150 (30 k) — gedeeltelijk technisch (sociaal passief stijgt mechanisch met loondrift, geen managementsignaal); gedeeltelijk discretionair (garantie-voorzieningen). Voor 'echte' bedrijfsresultaat: niet alle 30 k zonder meer corrigeren — splitsen tussen 'normaal' en 'discretionair'."
+      - "Cross-PO-noot: consistentie-correctie wordt techniek-matig behandeld in PO 1.3 (jaarrekening-analyse) + raakvlak met PO 1.6 (controle van waarderingsregels). Hier draait het om analyse-discipline, niet om audit-vereisten."
+
+  - id: analyse-lagen
+    titel: "Stap 3 — Vier analyse-lagen samenbrengen"
+    niveau: 2
+    beats:
+      - "Open: een diagnose-rapport bevat vier deelanalyses, in vaste volgorde. Elke laag bouwt op de vorige."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Laag", "Wat meet het", "Belmonte 2025 — kerncijfer"]
+        rijen:
+          - ["1. Functionele balans", "Structureel financierings-evenwicht", "NT −530 k → structurele kasovertrek"]
+          - ["2. Ratio-families", "Vier dimensies (liquid/solvab/rentab/activit)", "Alle onder sector-mediaan + verslechterend"]
+          - ["3. Kasstroom + FCF", "Cashgeneratie + investerings-capaciteit", "FCFF −390 → geen vrije cash voor financiering"]
+          - ["4. Continuïteit + predictie", "Risico op faillissement 1-2 jaar", "Z-score 2,16 grey, 4/11 ISA-indicatoren oplichten"]
+    kinderen:
+
+      - id: laag-1-functioneel
+        titel: "Laag 1 — Functionele balans"
+        niveau: 3
+        beats:
+          - "Bij Belmonte: NBK krimpt licht, BBK explodeert, NT collapsert. Diagnose: BBK-druk dwingt onderneming tot toenemende kortlopende bank-afhankelijkheid. Wikilink naar [[werkkapitaalbeheer-en-financieringskeuzes]]."
+
+      - id: laag-2-ratios
+        titel: "Laag 2 — Ratio-families (lees per familie + integreer)"
+        niveau: 3
+        beats:
+          - "Liquiditeit (current 1,26 / quick 0,69 / cash 0,04) — alle onder sector + dalend. Acid test < 1 = zonder voorraad-realisatie kan KT-schuld niet gedekt worden."
+          - "Solvabiliteit (EV/totaal 31 % / interest coverage 0,09) — interest coverage onder 1 = bedrijfswinst dekt zelfs rente niet."
+          - "Rentabiliteit (EBIT-marge 0,1 % / ROE −6,2 % / ROA 0,2 %) — drie jaar van compressie."
+          - "Activiteit (DSO 70 / DPO 70 / DIO 75 / CCC 75) — cash conversion cycle 36 → 75 dagen verlengd in 2 jaar."
+          - "Integratie: vier zwakke families = systemisch probleem, niet ad-hoc. Dit is geen seizoens-uitschieter."
+
+      - id: laag-3-kasstroom
+        titel: "Laag 3 — Kasstroom + FCF"
+        niveau: 3
+        beats:
+          - "Operationele kasstroom 2025: -20 k (negatief — door werkkapitaal-mutaties die de positieve bedrijfscashflow opvreten). Investerings-kasstroom: -370. Vrije kasstroom FCFF: -390."
+          - "Financiering: nieuwe LT-schuld 390 + kasovertrek 230 financiert het tekort. Dus: structurele bank-afhankelijkheid groeit."
+          - "DSCR 2025 (210 / bestaande aflossingen 310): 0,68 — bestaande schuldenlast wordt zelfs zonder nieuw krediet niet meer gedekt."
+
+      - id: laag-4-continuiteit
+        titel: "Laag 4 — Continuïteit + Z-score"
+        niveau: 3
+        beats:
+          - "Z-score 2,16 grey zone, trend dalend. ISA 570 indicatoren: 4 financiële + 1 niet-financiële (klant-concentratie) oplichten. Netto-actief 1.610 — alarmprocedure NIET vereist 2025 maar projecteert naar trigger tegen 2030+."
+
+  - id: sector-peer-context
+    titel: "Stap 4 — Sector- en peer-context"
+    niveau: 2
+    beats:
+      - "Open: een diagnose zonder sectorcontext mist de helft van de betekenis. EBIT-marge 0,1 % is dramatisch — maar wat is het sector-gemiddelde? Bij Belmonte: NACE 25.62 sector-mediaan EBIT-marge 5,8 %. Belmonte ligt dus 5,7 procentpunt onder de mediaan. Dat is sectoraal-veelzeggend."
+      - "Belangrijk: niet alle posten met de mediaan vergelijken — gebruik kwartielen voor de zwakkere onderneming. Eerste kwartiel = de zwakste 25 % van peers. Belmonte 2025 zit op of onder Q1 op alle vier families."
+      - "Macro-context: energieprijzen 2022-2024 raakten de hele sector, niet alleen Belmonte. Klanten-werkkapitaalverlenging is sectorbreed (de OEM's hanteren dezelfde aanpak bij andere leveranciers). Maar: Belmonte's relatieve achteruitgang (van Q2 sector in 2023 naar Q1 in 2025) suggereert dat de relatieve concurrentie-positie verzwakt, niet alleen de sector zwakker."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Indicator", "Belmonte 2025", "Sector-mediaan", "Sector Q1 (zwakste 25 %)", "Positie"]
+        rijen:
+          - ["EBIT-marge", "0,1 %", "5,8 %", "2,0 %", "Onder Q1"]
+          - ["Solvabiliteit", "31 %", "42 %", "28 %", "Net boven Q1"]
+          - ["Current ratio", 1.26, 1.45, 1.05, "Tussen Q1 en mediaan"]
+          - ["DSO (dagen)", 70, 50, 65, "Onder Q1 (slechter)"]
+
+  - id: financiele-swot
+    titel: "Stap 5 — Synthese in financiële SWOT"
+    niveau: 2
+    beats:
+      - "Open: een SWOT zet de bevindingen om in actie-getuigend formaat. Vier kwadranten — sterktes / zwaktes (intern, nu) + kansen / bedreigingen (extern, toekomst)."
+      - "Sterktes Belmonte: vakkennis 65 FTE met lange anciënniteit, klant-relaties van >15 jaar met OEM's, eigen gebouw zonder hypotheek, technische uitrusting niet ouderwetst (CNC park grotendeels < 8 jaar), participatie in Belmonte Energy CV (groene profilering)."
+      - "Zwaktes: extreme klant-concentratie (60 % bij 2), werkkapitaal-spanning, geen externe aandeelhouders (geen externe kapitaal-toegang), familiale opvolging niet geregeld (Marc 62)."
+      - "Kansen: energie-efficiënte CNC-cel zou opex met 80-120 k EUR/jaar reduceren; gesprekken voor 3de klant gestart; mogelijkheid van factoring-partnership met huisbank."
+      - "Bedreigingen: trend OEM-werkkapitaalverlenging zet door (zou DSO naar 110 dagen kunnen brengen); Oost-Europese concurrentie blijft prijsdruk uitoefenen; CBAM-administratieve last vanaf 2026."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "Intern (nu)", "Extern (toekomst)"]
+        rijen:
+          - ["Positief", "**Sterktes**: vakkennis · klant-relaties · technisch park · groene profilering", "**Kansen**: nieuwe CNC efficiëntie · 3e klant · factoring-partnership"]
+          - ["Negatief", "**Zwaktes**: klant-concentratie · werkkapitaal-stress · geen externe EV · opvolging", "**Bedreigingen**: OEM-DSO-verlenging · Oost-Europa-druk · CBAM"]
+
+  - id: aanbevelingen
+    titel: "Stap 6 — Aanbevelingen per stakeholder en per horizon"
+    niveau: 2
+    beats:
+      - "Open: een diagnose zonder aanbevelingen is een diagnose-rapport, geen advies. Differentieer per stakeholder (welke actie kan déze actor doen?) en per horizon (wat moet nu, wat over 6m, wat over 12m, wat over 24m?)."
+      - "Aanbevelingen aan het bestuur (interne actie): factoring opstarten Q1 — DSO-impact onmiddellijk; voorraad-audit en slow-mover-uitverkoop binnen 2 maanden; RSZ-betalingsplan onderhandelen; commissaris involveren in herstel-plan-presentatie."
+      - "Aanbevelingen aan de bank: gefaseerde aanpak — eerst kasovertrek consolideren in LT-bank-krediet (12 maanden) met staat-gewaarborgde KMO-lening; investeringskrediet uitstellen tot herstel-plan operationele cashflow op 350 k+ krijgt; quarterly monitoring-rapport overeenkomen."
+      - "Aanbevelingen aan de aandeelhouders (Marc + Peter): kapitaal-inbreng 200-300 k onderzoeken; opvolgings-vraag bespreken (Marc 62, geen externe directie); strategische optie van familiale verkoop / family office bekijken."
+      - "Belangrijk: aanbevelingen rangschikken naar urgentie + impact. Niet 12 acties op tafel — 3-5 met duidelijke prioriteit."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stakeholder", "Q1 2026", "12 maanden", "24 maanden"]
+        rijen:
+          - ["Bestuur", "Factoring · voorraad-audit · RSZ-plan", "Herstel-plan formaliseren", "Beleid-update klant-diversificatie + opvolging"]
+          - ["Bank", "Quarterly monitoring afspreken", "Kasovertrek → LT-bank (Gigarant)", "Investeringskrediet onder voorwaarden bespreken"]
+          - ["Aandeelhouders", "Bespreking herstel-plan", "Kapitaal-inbreng 200-300 k beslissen", "Opvolgings-vraag adresseren"]
+
+  - id: drie-perspectieven
+    titel: "Drie rol-perspectieven op de Belmonte-diagnose"
+    niveau: 2
+    beats:
+      - "Open: dezelfde diagnose, drie verschillende acties op basis van wie je bent."
+      - "1. Adviseur-analist (extern boekhouder met IBR-of-ITAA-titel): produceert het diagnose-rapport, presenteert aan bestuur, eventueel mee aan bank. Heeft GEEN beslissings-bevoegdheid, wel professionele aansprakelijkheid voor de kwaliteit van zijn advies. Acties: rapport opleveren binnen 4 weken, structuur volgens template hierboven, executive summary van max 1 pagina, eventueel oral debrief aan bestuur + bank-meeting."
+      - "2. CFO / boekhouder-intern (binnen Belmonte): gebruikt diagnose als sturings-document. Voert herstel-plan uit, monitort werkkapitaal-KPI's wekelijks, rapporteert vooruitgang aan bestuur maandelijks. Coördineert met externe partners (bank, factoring-firma, fiscalist voor RSZ-onderhandeling)."
+      - "3. Commissaris (Belmonte heeft er één sinds 2024): integreert continuïteits-bevinding in controleverklaring. ISA 570-procedure formeel doorlopen, material-uncertainty-paragraaf overwegen, jaarverslag-vermelding van bestuursorgaan kritisch lezen. Niet de CFO maar de commissaris geeft het externe 'going-concern-stempel' (binnen de grenzen van auditing-zekerheid)."
+
+  - id: executive-summary
+    titel: "Executive summary — wat staat op pagina 1?"
+    niveau: 2
+    beats:
+      - "Open: het rapport zelf kan 20-50 pagina's zijn met alle berekeningen. Maar het bestuur leest pagina 1 (executive summary) en eventueel de aanbevelingen-sectie. De executive summary is daarom KERNCONTENT: max 1 pagina, zelfstandig leesbaar."
+      - "Vaste 5-paragrafen-structuur voor de executive summary."
+      - "Paragraaf 1 — Diagnose in 2-3 zinnen ('Belmonte vertoont structureel verzwakkende financiële positie: werkkapitaal-stress, krimpende margins en groeiende bank-afhankelijkheid. Z-score zit in grey zone met dalende trend. Geen acute alarmprocedure-trigger, wel verhoogd risico binnen 1-2 jaar zonder ingreep.')."
+      - "Paragraaf 2 — Sterktes ('vakkennis-stabiel personeel, langetermijn-klantrelaties, eigen gebouw, technisch park modern')."
+      - "Paragraaf 3 — Zwaktes/risico's ('klant-concentratie 60% bij 2, werkkapitaal-cyclus 75 dagen vs sector 55, EBIT-marge 0,1% vs sector 5,8%')."
+      - "Paragraaf 4 — Aanbevelingen-Top-3 ('1. factoring + voorraad-afbouw Q1; 2. herfinanciering kasovertrek naar LT-bank H1; 3. aandeelhouders-inbreng 200-300 k H2')."
+      - "Paragraaf 5 — Vervolg ('quarterly monitoring; herstel-plan-presentatie aan bank Q1; ander rapport over 12 maanden')."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): te veel cijfers, te weinig oordeel. Een diagnose-rapport vol ratio-tabellen zonder integrerende uitspraak is een data-dump. Het oordeel ('structureel verzwakkend, herstel-pad mogelijk maar urgent') is de toegevoegde waarde — de cijfers ondersteunen het oordeel, maken het niet."
+      - "Valkuil 2 (⚠️): aanbevelingen zonder verantwoordelijke + horizon. 'Verbeter de liquiditeit' is geen aanbeveling — 'factoring opstarten met klant A en B vóór 31-3-2026, verantwoordelijk CFO' wel. Concreetheid + accountability + termijn — anders dwingt het rapport geen actie af."
+      - "Valkuil 3 (⚠️): de rol-grens negeren. Adviseur ≠ bestuurder ≠ commissaris. Een adviseur die instructies aan de bestuurder geeft overschrijdt zijn rol; een commissaris die operationeel advies geeft schaadt zijn onafhankelijkheid. Diagnose is altijd 'voorstellen', nooit 'beslissingen overnemen'."
+    type_blokken: warning-bullets
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: werkkapitaalbeheer-en-financieringskeuzes
+      hint: "De interventie-laag voor de werkkapitaal-zwaktes die je in de diagnose vastlegt."
+    - slug: kredietbeoordeling-en-kasstroomprognose
+      hint: "Wanneer de diagnose krediet aanraadt (of afraadt), gebruik dit instrumentarium."
+    - slug: continuiteit-en-faillissementspredictie
+      hint: "De continuïteits-laag van de diagnose — wettelijke kader + Z-score."
+  samenvatting:
+    hint: "Voor herhaling — diagnose-template (data → consistentie → 4 lagen → SWOT → aanbevelingen) + 3 rol-perspectieven."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [financiele-diagnose, ratio-interpretatie]
+    - concepten: [financiele-analyse-software]
+
+wettelijk_fundament:
+  - onderwerp: "Diagnose-techniek zelf"
+    ref: "Geen wettelijke regeling — bedrijfseconomische doctrine (Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*; CFA-Institute curriculum; CFA-Europe)."
+  - onderwerp: "ITAA-deontologie bij financieel advies"
+    ref: "ITAA-norm en deontologische code — zorgvuldigheid bij financieel advies; aansprakelijkheid bij gebrekkig advies (art. 14 ITAA-norm)."
+  - onderwerp: "Bestuurder-zorgvuldigheidsplicht bij ontvangst diagnose-rapport"
+    ref: "WVV art. 2:52 § 1 — zorgvuldigheidsstandaard bestuurder ('normaal voorzichtige en zorgvuldige bestuurders in dezelfde omstandigheden'). Een diagnose-rapport dat continuïteits-risico signaleert, vraagt om geactualiseerd herstel-plan; niet-actie kan grove fout opleveren. (Art. 2:56 is de aansprakelijkheidsplafond-bepaling, niet de zorgvuldigheidsplicht zelf.)"
+  - onderwerp: "Sectorale databanken — wettelijke basis"
+    ref: "NBB Balanscentrale: WVV art. 3:10 (neerleggingsplicht). Bel-first, Trends Top, Belfius Companyweb: commerciële databanken die NBB-data verrijken; geen wettelijke bron, wel sector-standaard."
+  - onderwerp: "Cross-PO link continuïteit + audit"
+    ref: "ISA 570 (Going Concern) voor commissaris-werk (PO 1.6); WVV art. 3:6 voor jaarverslag (PO 1.2)."
+
+footer: "Leerstuk PO 1.9 — lstk 4 van 4. Status: voorgesteld."
