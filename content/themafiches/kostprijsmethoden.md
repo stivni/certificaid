@@ -9,6 +9,12 @@ tags:
 
 <div class="no-print">
 
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+
+</div>
+
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Vier kostprijsmethodes op één pagina: vergelijkingsmatrix, beslisboom, formules, valkuilen. Voor verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]]. Voor diepgang: de losse concept-fiches via §Doorklik.
 
 </div>
@@ -91,19 +97,27 @@ $$
 
 <div class="no-print">
 
-## Doorklik — losse concept-fiches
+## Verdieping
 
-**Overkoepelend**
-- [[analytische-boekhouding]] — cluster-hoofdrecord
-- [[kostprijsmethoden]] — keuze-kader
+### Leerstukken — voor pedagogische opfris
 
-**De vier methodes**
-- [[full-costing]] — alle productiekosten, IAS 2-conform
-- [[direct-costing]] — alleen variabele, voor beslissingen
-- [[activity-based-costing]] — cost-drivers, realistische overhead
-- [[standaardkostenmethode]] — norm-kosten + variantieanalyse
+Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
 
-**Verwante themafiches**
+- [[kostprijsmethoden-kiezen]] — vier methodes naast elkaar uitgewerkt op Meridia, met beslisboom, cross-subsidie-omkering in ABC, en diensten-mini-case
+- [[wat-is-analytische-boekhouding]] — kostentypologie + klassen 8/9 als bouwsteen voor methodekeuze
+- [[break-even-en-marginale-beslissing]] — direct costing toegepast op beslissingen
+- [[budget-en-variantieanalyse]] — standaardkost als norm voor variantieanalyse
+
+### Concept-fiches — voor definitorisch detail
+
+Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
+
+**Overkoepelend** — [[analytische-boekhouding]] (cluster-hoofdrecord) · [[kostprijsmethoden]] (keuze-kader)
+
+**De vier methodes** — [[full-costing]] (alle productiekosten, IAS 2-conform) · [[direct-costing]] (alleen variabele, voor beslissingen) · [[activity-based-costing]] (cost-drivers, realistische overhead) · [[standaardkostenmethode]] (norm-kosten + variantieanalyse)
+
+### Andere themafiches in dit cluster
+
 - [[themafiches/break-even-en-marginale-analyse|Themafiche — Break-even & marginale analyse]]
 - [[themafiches/budget-en-variantieanalyse|Themafiche — Budget & variantieanalyse]]
 - [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]

@@ -55,9 +55,12 @@ wettelijk_fundament:
 
 verder_lezen:
   leerstukken: [<slug>, <slug>]
-  themafiches: [<slug>]
+  samenvatting:                          # optioneel; render automatisch als wikilink naar PO-samenvatting
+    hint: "<korte omschrijving>"         # of `hint: null` om over te slaan (bv. cross-PO leerstukken zonder duidelijk PO)
   concepten: [<slug>, <slug>]
 ```
+
+**Belangrijk** (ADR-039): het oude `themafiches: [{slug, hint}]`-veld is **vervangen** door `samenvatting: {hint}`. Eén samenvatting per PO; locatie + slug worden automatisch afgeleid uit `meta.po` (`[[leerpaden/<po-slug>/samenvatting|Samenvatting PO <po>]]`).
 
 ## Sectie-types (`type` veld; default = `sectie`)
 

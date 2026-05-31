@@ -124,32 +124,20 @@ opbouw:
         niveau: 3
         beats:
           - "Administratie: 200.000 EUR (= 180.000 bestaand + 20.000 indexering)."
-          - "Kasbudget integreert alles: operationele cashflow + investerings-cashflow + financierings-cashflow."
-          - "Bij Meridia 2026 (zie pro-forma KSO): operationeel +1.014,5 k EUR; investering −300; financiering −400 (aflossing 100 + dividend 300). Net effect +314,5 k EUR — eindliquiditeit 300 + 314,5 = 614,5 k EUR."
+          - "Kasbudget integreert alle deelbudgetten tot een netto kaseffect. Bij Meridia 2026 stijgen de liquide middelen van 300 k naar 614,5 k EUR (netto effect +314,5 k EUR). De techniek van het kasstroomoverzicht zelf — operationele vs investerings- vs financierings-cashflow opsplitsen — hoort bij PO 1.1/1.2 (jaarrekening-opmaak). Hier volstaat dat het sluitstuk-budget de liquide-positie projecteert."
 
-  - id: pro-forma-jr
-    titel: "Pro-forma jaarrekening — de integratie-toets"
+  - id: pro-forma-rr
+    titel: "Pro-forma resultatenrekening — waar het analytische werk landt"
     niveau: 2
     beats:
-      - "Open: een masterbudget is pas geslaagd als de pro-forma JR (RR + balans + KSO) sluit. Dat is de cijfermatige stresstest van het strategisch plan."
-      - "Pro-forma RR Meridia 2026: omzet 3.344,5 k EUR − variabele kosten 1.710 = contributiemarge 1.634,5; − vaste OH 800 = bedrijfsresultaat +834,5; − financiële kosten 20 = resultaat voor belastingen +814,5 k EUR."
-      - "Pro-forma balans 31/12/2026: vertrek vanuit balans 31/12/2025 + alle mutaties. Sluitvoorwaarde: totaal activa = totaal passiva. Bij Meridia: 2.434,5 k EUR aan beide zijden — sluit."
-      - "Pro-forma KSO: aansluiting beginliquiditeit (300) + netto cashflow (+314,5) = eindliquiditeit (614,5). Sluit aan op balans (liquide middelen 614,5)."
-      - "Examen-tip: een veelvoorkomende controle-vraag is 'kloppen de drie staten met elkaar?' — eindresultaat in RR = eigen-vermogens-mutatie min dividend; eindliquiditeit in KSO = liquide middelen op balans."
+      - "Open: een masterbudget produceert een complete pro-forma jaarrekening (resultatenrekening + balans + kasstroomoverzicht). Voor PO 1.8 is vooral de pro-forma RR het scherpe stuk — daar landen direct de kostprijs- en contributiemarge-cijfers die je in [[kostprijsmethoden-kiezen]] en [[break-even-en-marginale-beslissing]] hebt opgebouwd."
+      - "Pro-forma RR Meridia 2026: omzet 3.344,5 k EUR − variabele kosten 1.710 = contributiemarge 1.634,5; − vaste OH 800 = bedrijfsresultaat +834,5; − financiële kosten 20 = resultaat voor belastingen +814,5 k EUR. Let op de directe lijn van analytisch werk: variabele kost per eenheid × volume + vaste OH-pool = de twee operationele cijfers in de RR."
+      - "Korte scope-noot: pro-forma balans en kasstroomoverzicht zijn óók masterbudget-output (de balans toetst de integratie, de KSO toont de liquide-positie), maar de techniek voor opmaak en sluit-controle is geen analytische-boekhouding-stof. Die hoort bij PO 1.1/1.2 (jaarrekening opmaken) en wordt geanalyseerd in PO 1.3 (analyse van de jaarrekening). Bij Meridia 2026 sluit de balans op 2.434,5 k EUR aan beide zijden — neem dat hier ter info."
+      - "Examen-tip: voor 1.8 verwachten we eerder een vraag op de pro-forma RR (bv. 'bereken de begrote contributiemarge uit deze cijfers') dan op de balans-sluiting. Voor balans-aansluiting: zie de leerstukken van 1.1/1.2."
     visualisaties:
       - type: tabel-vergelijking
         ref: pro_forma_resultatenrekening_2026
         bron: voorbeeldgroep
-    kinderen:
-
-      - id: balans-sluiten
-        titel: "Hoe maak je de balans sluitend?"
-        niveau: 3
-        beats:
-          - "De sluitpost is bijna altijd de LIQUIDE MIDDELEN — die is direct afleidbaar uit de KSO en moet matchen met de balans. Als ze niet matchen, zit er ergens een rekenfout."
-          - "Volgorde van controles bij niet-sluiten: (1) zijn alle mutaties op de balans-posten geboekt? Activa: MVA, voorraden, vorderingen, liquide; passiva: EV, LT-schuld, KT-schuld. (2) Is eigen vermogen correct = beginvermogen + resultaat − dividend? (3) Zijn afschrijvingen overal consistent (RR-kost, KSO-non-cash-toevoeging, balans-MVA-afbouw)? (4) Is de KSO-cash-flow exact = balans-mutatie liquide middelen?"
-          - "Bij Meridia: MVA 800 + CapEx 300 − afschrijving 260 = 840; voorraden 400 + 30 = 430; vorderingen 500 + 50 = 550; liquide 300 + 314,5 = 614,5. Totaal 2.434,5. Passiva: EV 1.200 + 834,5 − 300 (dividend) = 1.734,5; LT-schuld 400 − 100 = 300; KT-schuld 400 (stabiel). Totaal 2.434,5. Sluit."
-        type: blockquote-aside
 
   - id: variantieanalyse
     titel: "Variantieanalyse Q1 2026 — afwijking decomposeren"
@@ -213,9 +201,8 @@ verder_lezen:
       hint: "De mix-keuze (tafel/kast) die in het verkoopbudget zit, volgt uit knelpunt-analyse. Voor de strategische logica achter de mix-aannames."
     - slug: wat-is-analytische-boekhouding
       hint: "Het kader-leerstuk: zonder kostentypologie geen budget en geen variantie."
-  themafiches:
-    - slug: budget-en-variantieanalyse
-      hint: "Voor herhaling vlak vóór het examen — masterbudget-flow + variantie-formules + valkuilen."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — masterbudget-flow + variantie-formules + valkuilen."
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"

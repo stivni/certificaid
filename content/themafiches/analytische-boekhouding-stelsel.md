@@ -9,6 +9,12 @@ tags:
 
 <div class="no-print">
 
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+
+</div>
+
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Hoe de analytische boekhouding zich *boekt* — klassen 8/9, drie registratiesystemen, kostentypologie. Voor verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]].
 
 </div>
@@ -83,12 +89,25 @@ flowchart TD
 
 <div class="no-print">
 
-## Doorklik — losse concept-fiches
+## Verdieping
 
-**Overkoepelend**
-- [[analytische-boekhouding]] — cluster-hoofdrecord (kostentypologie, kostencomponenten, klasse 8/9, registratiesystemen, specifieke problemen)
+### Leerstukken — voor pedagogische opfris
 
-**Verwante themafiches**
+Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
+
+- [[wat-is-analytische-boekhouding]] — wat het stelsel is, klassen 8/9, drie registratiesystemen, kostentypologie
+- [[kostprijsmethoden-kiezen]] — vier methodes naast elkaar (full · direct · ABC · standaard)
+- [[break-even-en-marginale-beslissing]] — BEP + marginale analyse als beslissings-instrumenten
+- [[budget-en-variantieanalyse]] — masterbudget + varianties + herziening
+
+### Concept-fiches — voor definitorisch detail
+
+Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
+
+**Overkoepelend** — [[analytische-boekhouding]] (cluster-hoofdrecord: kostentypologie, kostencomponenten, klasse 8/9, registratiesystemen, specifieke problemen)
+
+### Andere themafiches in dit cluster
+
 - [[themafiches/kostprijsmethoden|Themafiche — Kostprijsmethoden]] — keuze van calculatie-methode
 - [[themafiches/break-even-en-marginale-analyse|Themafiche — Break-even & marginale analyse]] — instrumenten voor beslissingen
 - [[themafiches/budget-en-variantieanalyse|Themafiche — Budget & variantieanalyse]] — vooraf en achteraf

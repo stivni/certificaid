@@ -55,16 +55,19 @@ content/leerpaden/<po-slug>/
 
 4 themafiches mergen tot één `content/leerpaden/1-8/samenvatting.md`. Werk voor de sessie die met PO 1.8 bezig is. Volgt nieuwe schrijfregels.
 
-### Cross-cluster themafiches (open scope-vraag)
+### Themafiche-laag retreert volledig — drie categorieën
 
-Bestaande themafiches die meerdere PO's raken (bv. `boekhoudplicht-en-rechtsbronnen` raakt PO 1.1 + 1.2; `eindejaarsverrichtingen-en-waardering` raakt PO 1.1 + 1.2; `vennootschapsvormen` raakt PO 3.0; `be-gaap-vs-ifrs-vergelijking` raakt PO 1.4 + 1.5; `ifrs-toepassingskader` raakt PO 1.5; `reorganisatie-en-bijzondere-mandaten` raakt meerdere PO's):
+**Principe**: cluster-themafiches stoppen volledig met bestaan. Er zijn alleen nog **concept-fiches** (één per begrip) en **PO-samenvattingen** (één per PO). Niets ertussenin.
 
-**Voorlopige beslissing**: niet aanraken tot de PO's die ze raken een leerpad krijgen. Dan beslissen per geval:
+Praktisch zijn er drie categorieën bestaande themafiches, elk met eigen migratie-pad:
 
-- **Optie A** — content insplitsen naar de PO-samenvattingen (kan duplicatie geven; aanvaardbaar als de inhoud écht PO-specifiek interpretabel is)
-- **Optie B** — behouden als gedeelde cross-PO referentie-fiche in `content/themafiches/` (uitzondering op de regel, expliciet als zodanig gelabeld)
+| Categorie | Beschrijving | Status nu | Migratie-pad |
+|---|---|---|---|
+| **A. cluster ≈ PO, leerpad bestaat** | Themafiche dekt feitelijk al één PO; dat PO heeft inmiddels een leerpad | PO 1.4 ✅ gemigreerd; PO 1.8 in queue | Migreren naar `content/leerpaden/<po-slug>/samenvatting.md` volgens [`docs/samenvatting-procedure.md`](../samenvatting-procedure.md) § Migratie. Oude themafiche-md's verwijderen in dezelfde commit. |
+| **B. cluster ≈ PO, geen leerpad** | Themafiche dekt feitelijk al één PO, maar dat PO heeft nog geen leerpad-bouw gehad | Meeste bestaande themafiches (PO 1.1, 1.2, 1.3, 1.5, 1.6, 1.7, 1.9, 2.x, 3.0) — ~50 stuks | **Voorlopig blijven staan** met deprecation-callout. Bij leerpad-bouw voor die PO: zelfde migratie als categorie A. Geen aparte beslissing nodig. |
+| **C. echte cross-PO themafiche** | Vergelijking tussen verschillende PO's (bv. `be-gaap-vs-ifrs-vergelijking`, `reorganisatie-en-bijzondere-mandaten`) | Klein aantal (~2-3 stuks); blijft staan met deprecation-callout | **Aparte beslissing per fiche** bij relevante leerpad-bouw. Twee opties: (1) inhoud incorporeren in alle relevante PO-samenvattingen (duplicatie aanvaardbaar als compact); (2) upgraden naar concept-fiche (bv. `be-gaap-vs-ifrs` als concept-record met diepe vergelijking). Geen behoud als losse themafiche-laag. |
 
-Voorkeur: **A** waar mogelijk (vermijdt het "themafiche-laag voor uitzonderingen"-probleem). **B** alleen voor compacte, zuiver-referentie-fiches.
+**Operationeel nu**: alle 60+ bestaande themafiches krijgen een deprecation-callout bovenaan ("Voorlopig — themafiche-laag wordt uitgefaseerd") die naar dit ADR verwijst. Werkende sessies kunnen de inhoud blijven gebruiken; nieuwe content wordt niet meer als themafiche maar als PO-samenvatting (categorie A/B) of als concept-fiche (eventueel categorie C) gepubliceerd.
 
 ## Gevolgen
 
@@ -87,9 +90,10 @@ Tutor-app + RAG-indexering volgen automatisch: `content/leerpaden/<po-slug>/same
 
 ## Open punten
 
-- **Hoe omgaan met cross-cluster themafiches** wanneer alle relevante PO's leerpaden krijgen — beslissingen per fiche (zie scope-vraag hierboven). Plan in een vervolg-ADR-040 indien meerdere fiches dezelfde behandeling vragen.
+- **Categorie C-beslissingen** (echte cross-PO themafiches): aparte beslissing per fiche bij relevante leerpad-bouw. Concrete fiches: `be-gaap-vs-ifrs-vergelijking` (PO 1.4 + 1.5), `reorganisatie-en-bijzondere-mandaten` (PO 1.6 + 3.0 + insolventie). Bij meer dan 3 fiches met zelfde patroon → vervolg-ADR-040.
 - **Print-CSS** voor samenvatting (`@media print` styles in Quartz) — buiten scope dit ADR; al deels aanwezig via `.no-print` klassen in leerstukken en minicursus.
 - **Bestandsnaam** in URL: `/leerpaden/1-4/samenvatting/` is duidelijk. Of we sub-naamgeving willen (`samenvatting-1-4.md`) — niet nodig; folder-context geeft het PO al.
+- **Inventaris-tracking**: voor elke nog-bestaande themafiche moet bij leerpad-bouw beslist worden — categorie A/B migratie of categorie C aparte beslissing. Tracking in `docs/leerstuk-status.md` § Themafiche-migratie-inventaris.
 
 ---
 

@@ -76,12 +76,15 @@ Concept-records en het script zijn **baseline**, niet waarheid. Voor elke harde 
 ---
 title: "<meta.titel>"
 description: "<meta.beschrijving als één lijn>"
+explorer_title: "<N. Korte noun-phrase>"   # bv. "1. Wat?", "2. Methodes", "3. Beslissingen"
 tags:
   - leerstuk
   - po-<meta.po>
   - cluster-<meta.cluster>
 ---
 ```
+
+`explorer_title` is **verplicht** voor PO-specifieke leerstukken (zichtbaar in Quartz-sidebar onder hun PO). Volgorde-nummer volgt de leesroute uit de minicursus. Korte noun-phrase of vraag (één à twee woorden) — niet de hele titel kopiëren. Vereist Quartz custom emitter (zie `quartz-custom/plugins/emitters/contentIndex.tsx`).
 
 **Intro-callout** (verplicht), inclusief minicursus-link:
 ```markdown
@@ -126,8 +129,9 @@ tags:
 
 ## Wanneer je dit snapt, ga dan naar
 
-- [[<slug>]] — <hint>
+- [[<leerstuk-slug>]] — <hint>
 - ...
+- [[leerpaden/<po-slug>/samenvatting|Samenvatting PO <po>]] — <hint uit `samenvatting.hint`>  *(alleen indien `samenvatting.hint` is gezet — null = overslaan; vervangt het oude themafiche-wikilink per ADR-039)*
 
 ## Doorklik naar concepten
 

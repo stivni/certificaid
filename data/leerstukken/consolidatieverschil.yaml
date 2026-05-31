@@ -147,9 +147,8 @@ verder_lezen:
       hint: "Voor de bredere context — methodes en eliminaties"
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Hoe wordt het consolidatieverschil in het jaarverslag en de toelichting beschreven?"
-  themafiches:
-    - slug: consolidatie
-      hint: "Voor herhaling vlak vóór het examen"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen"
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"

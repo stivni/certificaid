@@ -132,9 +132,8 @@ verder_lezen:
       hint: "Voor de technische uitwerking onder de motorkap"
     - slug: consolidatieverschil
       hint: "Voor consolidatieverschil-disclosures (goodwill / badwill) in de toelichting"
-  themafiches:
-    - slug: consolidatie
-      hint: "Voor herhaling vlak vóór het examen"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen"
   concepten:
     - controleverklaring
     - controle-bij-consolidatie

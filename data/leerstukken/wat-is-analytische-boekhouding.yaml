@@ -71,7 +71,8 @@ opbouw:
       - "As 1: GEDRAG — hoe reageert de kost op volume? Vast (huur productiehal blijft 120.000 EUR of we 1 of 10.000 tafels maken) versus variabel (eik schaalt 1-op-1 met productie)."
       - "As 2: TOEREKENBAARHEID — kunnen we de kost zonder verdeelsleutel aan één product hangen? Direct (eik gaat letterlijk in déze tafel) versus indirect (huur productiehal dekt tafels én kasten)."
       - "Toon de vier-cellen-matrix toegepast op Meridia — laat zien dat elke kost ergens valt."
-      - "Concretiseer: 'energie CNC' is variabel én indirect (deelt zich tussen tafel en kast naargelang machine-uren); 'eik voor tafels' is variabel én direct; 'algemeen beheer' is vast én indirect."
+      - "Bij eerste vermelding kort gloss: een CNC-machine (Computer Numerical Control) is een computergestuurde freesmachine — bij Meridia het hart van de productiehal, deelt zich tussen tafel en kast naargelang machine-uren."
+      - "Concretiseer met die machine: 'energie CNC' is variabel én indirect (verbruik per machine-uur, gedeeld tussen producten); 'eik voor tafels' is variabel én direct; 'algemeen beheer' is vast én indirect."
       - "Vooruit-link: deze matrix bepaalt straks in [[kostprijsmethoden-kiezen]] welke kosten je waar verdeelt — full costing pakt alle vier cellen, direct costing alleen de variabele rij, ABC ontmaskert in de indirect-vast-cel de cross-subsidie."
     visualisaties:
       - type: tabel-vergelijking
@@ -97,8 +98,10 @@ opbouw:
     niveau: 2
     beats:
       - "Open: een tweede boekhouding is alleen nuttig als ze ZONDER divergentie aansluit op de eerste. Het Belgisch genormaliseerd rekeningenstelsel reserveert klassen 8 en 9 specifiek voor analytische posten — los van klassen 0-7 die de algemene boekhouding bezet."
-      - "Het mechanisme heet 'spiegelrekening': elke kost in klasse 60-62 krijgt een tegenboeking in klasse 90 (reflet), die meteen wordt doorgeboekt naar een klasse 92 (afdeling) of een kostenobject-rekening."
-      - "Toon de spiegelboeking-Meridia: 24.000 EUR eik wordt geboekt in 600 D / 440 C (algemeen), en in twee analytische stappen — 90 D / 99 C (spiegel), dan 92 D / 90 C (toewijzing aan productiehal). Saldo 90 = 0 na de tweede stap. Saldo 99 = totaal spiegel-volume = controleerbaar tegen klasse 6."
+      - "Wat is een spiegelrekening? — definitie eerst: een spiegelrekening is een hulprekening die het bedrag van een 'echte' boeking opvangt aan de tegenovergestelde kant, zodat de analytische boekhouding dezelfde euro een tweede keer kan vastpakken zonder de algemene boekhouding te raken. Analogie: een spiegel maakt geen tweede appel; ze geeft de appel die er al is een tweede beeld. Klasse 99 doet dat hier: ze spiegelt het totaal van wat de algemene boekhouding al heeft genoteerd."
+      - "Mechaniek in twee stappen: stap 1 zet de kost over naar de analytische sfeer (klasse 90 debet, klasse 99 credit — de spiegelrekening); stap 2 hangt diezelfde kost aan een bestemming (klasse 92 debet, klasse 90 credit). Saldo 90 wordt nul; saldo 99 toont het totaal-volume dat overgespiegeld is — perfect controleerbaar tegen het saldo van klasse 6 in de algemene boekhouding."
+      - "Toon de spiegelboeking-Meridia: 24.000 EUR eik geboekt in 600 D / 440 C (algemeen) en in twee analytische stappen — 90 D / 99 C, dan 92 D / 90 C. Beats hierna leggen uit waarom de tweede stap '92 productiehal' heet en geen '600 aankoop'."
+      - "Aard versus bestemming — waarom een ander rekeningnummer? In de algemene boekhouding zegt de rekening WAT de kost is (aard): '600 — Aankoop grondstoffen eik'. In de analytische sfeer zegt de rekening WAAR de kost terechtkomt (bestemming): '92 — Kosten productiehal'. Dezelfde 24.000 EUR, ander label — dat is precies de waarde van de tweede laag. De directie kan zo zien hoeveel een afdeling kost; de fiscale boekhouding blijft naar aard georganiseerd."
       - "Belangrijk: klasse 8/9 is een KEUZE van het rekeningenstelsel, geen wettelijke verplichting. Een onderneming mag haar analytische boekhouding ook in een ERP-module of spreadsheet voeren, naast klassen 0-7."
       - "Synthese: klassen 8/9 zijn een infrastructuur, niet een methode. De methode (full vs direct vs ABC vs standaard) zit in WAT je in klasse 92 boekt — niet in de spiegeling zelf."
     visualisaties:
@@ -152,9 +155,8 @@ verder_lezen:
       hint: "Hoe gebruik je de kostenstructuur om concrete beslissingen te onderbouwen (special order, make-or-buy, productmix)?"
     - slug: budget-en-variantieanalyse
       hint: "Hoe bouw je een masterbudget en hoe analyseer je achteraf de afwijkingen?"
-  themafiches:
-    - slug: analytische-boekhouding-stelsel
-      hint: "Voor herhaling vlak vóór het examen — kapstok met klassen 8/9 + drie registratiesystemen + kostentypologie."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — kapstok met klassen 8/9 + drie registratiesystemen + kostentypologie."
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"
@@ -181,6 +183,16 @@ wettelijk_fundament:
       rekeningen) voor de interne sfeer. Het stelt het GEBRUIK niet verplicht;
       het stelt enkel ter beschikking voor wie analytisch wil werken binnen
       één geïntegreerd rekeningenstelsel.
+  - onderwerp: "Spiegelmechaniek tussen algemene en analytische boekhouding"
+    ref: "CBN-advies 132/7 (sectie 'Uitgaande voorraden')"
+    noot: >
+      CBN 132/7 erkent expliciet de optie van een analytische boekhouding
+      (klassen 8 en 9) die via verbindingsrekeningen — zogenaamde
+      'spiegelrekeningen' — op de structuur van de algemene boekhouding is
+      gebaseerd. Het advies bevestigt dat meerdere varianten van organisatie
+      mogelijk zijn (zie ook drie registratiesystemen). Geen specifieke
+      MAR-nummering wettelijk opgelegd voor de spiegelrekeningen; praktijk
+      gebruikt vaak 90-99-reeks.
   - onderwerp: "Voorraadwaardering — invloed van kostprijsmethode"
     ref: "KB-WVV art. 3:18 (aanschaffingswaarde) + art. 3:21 (waarderingsmethodes) + CBN-advies 132/7"
     noot: >

@@ -176,9 +176,8 @@ verder_lezen:
       hint: "Wat gebeurt er met het verschil tussen aanschafprijs en aandeel in het netto-vermogen?"
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Welke documenten levert de groep op en hoe wordt het gecontroleerd?"
-  themafiches:
-    - slug: consolidatie
-      hint: "Voor herhaling vlak vóór het examen"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen"
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"

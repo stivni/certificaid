@@ -136,9 +136,11 @@ verder_lezen:
       hint: "Voor het consolidatie-deel van PO 1.4"
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Voor de commissariscontrole — geldt ook voor enkelvoudige JR mits verplichting"
-  themafiches:
-    - slug: boekhouding   # nog te maken; PO 1.1 + 1.2
-      hint: "Voor herhaling van eindejaarsverrichtingen vlak vóór het examen"
+  samenvatting:
+    # Cross-PO leerstuk (PO 1.1/1.2/1.4): geen PO-samenvatting hier — de eerstvolgende
+    # PO-samenvatting waarop dit leerstuk landt is degene van PO 1.1 of 1.2 wanneer
+    # die leerpaden er komen. Voorlopig geen wikilink.
+    hint: null
   concepten:
     - jaarrekening
     - vennootschap-groottecategorieen

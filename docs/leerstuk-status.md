@@ -1,6 +1,6 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC + samenvatting-laag POC infra klaar, ADR-039)
+**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC + samenvatting-laag POC + themafiche-deprecation-callouts + ADR-039 scope-verscherping)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
@@ -62,6 +62,39 @@ Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan
 - **Cross-PO leerstuk**: `individuele-jaarrekening-opmaken` zit in `content/leerstukken/` (niet onder `leerpaden/1-4/`). Wanneer PO 1.1/1.2 leerstukken krijgen, beslis: dupliceren of via tag-gestuurde inclusie zichtbaar maken in beide PO's
 - **Tarief-records**: drempels-* records bestaan en zijn trusted. Eventueel uitbreiden met PO-specifieke tarieven
 - **Themafiche-revisie**: ADR-037 amendement zegt dat themafiche-schrijfregels zelf nog herzien moeten — visueel-dominanter en korter. Wacht tot 3+ PO's leerstukken hebben
+
+---
+
+## Themafiche-migratie-inventaris (ADR-039)
+
+Themafiche-laag retreert per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md). Status per fiche bij leerpad-bouw te beoordelen — categorie A/B (cluster≈PO) of categorie C (echte cross-PO).
+
+**Status totaal**: 62 themafiches in `content/themafiches/`, alle met deprecation-callout. Eén gemigreerd (PO 1.4 consolidatie → `leerpaden/1-4/samenvatting.md`).
+
+| PO | Themafiches | Categorie | Te doen |
+|---|---|---|---|
+| **1.4** | ✅ `consolidatie` → gemigreerd | A | — (✅ klaar via PO 1.4-leerpad) |
+| **1.8** | `analytische-boekhouding-stelsel` · `kostprijsmethoden` · `break-even-en-marginale-analyse` · `budget-en-variantieanalyse` (4 stuks) | A | Mergen tot één `leerpaden/1-8/samenvatting.md` — werk voor PO 1.8-sessie |
+| **1.1 + 1.2** | `boekhoudplicht-en-rechtsbronnen` · `eindejaarsverrichtingen-en-waardering` · `jaarrekening-schema-en-publicatie` · `kapitaalbescherming-en-alarmbel` · `bewaarplicht` · `resultaten-en-resultaatverwerking` · `beroepsgeheim-en-aansprakelijkheid` | B (mostly) of C (boekhoudplicht raakt beide) | Bij leerpad-bouw PO 1.1/1.2: cat-A migreren; boekhoudplicht-en-rechtsbronnen apart beslissen |
+| **1.3** | `jaarrekeninganalyse-aanpak` · `ratio-families` · `kasstroom-analyse` · `continuiteit-en-diagnose` | B | Mergen tot één `leerpaden/1-3/samenvatting.md` bij leerpad-bouw |
+| **1.5** | `ifrs-toepassingskader` · `be-gaap-vs-ifrs-vergelijking` | B + C | `ifrs-toepassingskader` mergen naar `leerpaden/1-5/samenvatting.md`; `be-gaap-vs-ifrs-vergelijking` aparte beslissing (kandidaat concept-fiche) |
+| **1.6** | `controleopdracht-aanpak` · `controleverklaring` · `opdrachtaanvaarding-en-tucht` · `opdracht-types` · `fouten-en-fraude-controle` · `bijzondere-mandaten` · `reorganisatie-en-bijzondere-mandaten` | B + C | Mergen bij leerpad-bouw; reorganisatie aparte cross-PO beslissing |
+| **1.7** | `interne-controle-frameworks` · `functiescheiding-en-cyclus` | B | Mergen bij leerpad-bouw |
+| **1.9** | (gedekt door 1.3-themafiches — geen aparte fiches) | — | n.v.t. |
+| **2.1** | `deontologische-beginselen` · `antiwitwas-praktijk` | B | Mergen bij leerpad-bouw |
+| **2.2** | `pb-berekeningsschema` · `inkomstencategorieen` · `voordelen-alle-aard` · `art-171-afzonderlijke-aanslagvoeten` · `aftrekken-en-belastingverminderingen` | B | Mergen bij leerpad-bouw |
+| **2.3** | `venb-bewerkingsschema` · `verlaagd-tarief-20` · `verworpen-uitgaven` · `meerwaarden-venb` · `dbv-toepassing` · `fiscale-fusie-splitsing` · `dvb-ruling` | B | Mergen bij leerpad-bouw |
+| **2.4** | `btw-vier-kernvragen` · `btw-aftrek` · `btw-vastgoed` · `grensoverschrijdende-btw` · `vrijstellingsregeling-kleine-onderneming` | B | Mergen bij leerpad-bouw |
+| **2.5** | `fiscale-procedure-gewest-gemeente` · `taxatieprocedure` · `bezwaar-en-gerechtelijke-fase` · `invordering-en-dwangbevel` · `fiscale-termijnen` · `fiscale-beginselen` | B | Mergen bij leerpad-bouw |
+| **2.6** | `registratierechten` · `successierechten-en-erfrecht` · `successieplanning` | B | Mergen bij leerpad-bouw |
+| **2.7** | `transfer-pricing-en-beps` · `vaste-inrichting` · `eu-fiscale-richtlijnen` · `anti-misbruik` | B | Mergen bij leerpad-bouw |
+| **2.8** | `gewestelijke-fiscaliteit` · `gemeentelijke-belastingen` | B | Mergen bij leerpad-bouw |
+| **3.0** | `vennootschapsvormen` · `insolventie-wer-boek-xx` | B | Mergen bij leerpad-bouw |
+
+**Procedure bij leerpad-bouw**:
+1. Identificeer alle themafiches voor dat PO via deze tabel
+2. Categorie A/B: merge tot één `samenvatting.md` via [`docs/samenvatting-procedure.md`](samenvatting-procedure.md) § Migratie. Oude themafiche-md's verwijderen in dezelfde commit.
+3. Categorie C: aparte beslissing — incorporeren in samenvatting OF upgraden naar concept-fiche
 
 ---
 

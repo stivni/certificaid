@@ -9,6 +9,12 @@ tags:
 
 <div class="no-print">
 
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+
+</div>
+
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Budget = vooraf, variantie = achteraf — samen het sturings-instrument. Verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]].
 
 </div>
@@ -98,17 +104,27 @@ $$
 
 <div class="no-print">
 
-## Doorklik — losse concept-fiches
+## Verdieping
 
-**Overkoepelend kader**
-- [[budgetbeheer]] — cluster-hoofdrecord
-- [[masterbudget]] — integratie + sub-concept kasstroomprognose
+### Leerstukken — voor pedagogische opfris
 
-**Variantie-werkstroom**
-- [[variantieanalyse]] — decompositie + verantwoordelijkheid
-- [[standaardkostenmethode]] — voorafbepaalde normen
+Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
 
-**Verwante themafiches**
+- [[budget-en-variantieanalyse]] — masterbudget (zes deelbudgetten + pro-forma JR) + variantie-decompositie + budget-herziening — sturings-cyclus rond Meridia
+- [[kostprijsmethoden-kiezen]] — standaardkost-kaart als norm voor variantieanalyse
+- [[wat-is-analytische-boekhouding]] — klassen 8/9 + kostentypologie als kader
+- [[break-even-en-marginale-beslissing]] — beslissings-input voor de productiebudget-mix
+
+### Concept-fiches — voor definitorisch detail
+
+Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
+
+**Overkoepelend kader** — [[budgetbeheer]] (cluster-hoofdrecord) · [[masterbudget]] (integratie + sub-concept kasstroomprognose)
+
+**Variantie-werkstroom** — [[variantieanalyse]] (decompositie + verantwoordelijkheid) · [[standaardkostenmethode]] (voorafbepaalde normen)
+
+### Andere themafiches in dit cluster
+
 - [[themafiches/kostprijsmethoden|Themafiche — Kostprijsmethoden]]
 - [[themafiches/break-even-en-marginale-analyse|Themafiche — Break-even & marginale analyse]]
 - [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]

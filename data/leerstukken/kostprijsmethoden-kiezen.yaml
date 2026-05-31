@@ -33,11 +33,8 @@ antwoord_in_een_blik:
     - "Open in één zin: er zijn vier kostprijsmethodes — full · direct · ABC · standaard — en geen ervan is intrinsiek juist; de keuze volgt het doel."
     - "Tweede zin: full voor de wettelijke jaarrekening, direct voor eenmalige beslissingen, ABC voor strategisch inzicht bij complexe overhead, standaard voor sturing en variantie-opvolging."
     - "Derde zin: dezelfde tafel-eik van Meridia kost 240 EUR (direct), 333 EUR (ABC), 356 EUR (full of standaard) — alle drie correct, elk in zijn eigen context."
-  visualisaties:
-    - type: mermaid
-      ref: beslisboom-kostprijsmethode
-      bron: voorbeeldgroep
-  afsluiter: "Korte zin: 'Pak de beslisboom als kompas; werk daarna elk pad één voor één door op de Meridia-cijfers.'"
+    - "Geen visualisatie hier — we werken eerst elke methode één voor één uit op Meridia. Aan het einde verschijnen de vergelijkingsmatrix en een beslisboom om de keuze samen te brengen."
+  afsluiter: "Korte zin: 'Lees de vier methode-secties één voor één; de vergelijkingsmatrix en beslisboom komen daarna.'"
 
 # ---------------------------------------------------------------------------
 # Opbouw
@@ -165,15 +162,20 @@ opbouw:
         type: blockquote-aside
 
   - id: vergelijking
-    titel: "Vier methodes naast elkaar — vergelijkingsmatrix"
+    titel: "Vier methodes naast elkaar — vergelijkingsmatrix + beslisboom"
     niveau: 2
     beats:
-      - "Bundel alles in één tabel: per methode toon je de cijfers voor tafel en kast, het voorraad-effect, de beslissings-geschiktheid en de typische use-case."
+      - "Nu elke methode op zich gewerkt is, brengen we ze samen. Twee complementaire visualisaties: de vergelijkingsmatrix toont WAT elke methode anders doet (cijfers tafel/kast, voorraad-effect, beslissings-geschiktheid); de beslisboom toont HOE je vanuit een vraag bij de juiste methode komt."
+      - "Toon eerst de vergelijkingsmatrix: per methode de cijfers voor tafel en kast, het voorraad-effect, de beslissings-geschiktheid en de typische use-case. Hier zie je naast elkaar wat in de vorige secties één voor één opgebouwd is."
+      - "Daarna de beslisboom: vertrek vanuit een vraag (wat is mijn doel?) en volg de takken naar de geschikte methode. Pas nu zijn alle termen in de boom bekend — eerder zou de boom dood gewicht zijn."
       - "Onderstreep: Meridia gebruikt ALLE VIER methodes naast elkaar — niet één-of-andere. Standaardkost als operationele basis (voor budget en variantie), ABC één keer per jaar voor portfolio-review, direct costing voor ad-hoc beslissingen, full costing voor de wettelijke jaarrekening."
-      - "Dat is geen luxe — dat is het volwassen analytisch beheer. Elke methode geeft een ander beslissingsperspectief op dezelfde kostenstructuur."
+      - "Dat is geen luxe — dat is volwassen analytisch beheer. Elke methode geeft een ander beslissingsperspectief op dezelfde kostenstructuur."
     visualisaties:
       - type: tabel-vergelijking
         ref: kostprijsmethoden_vergelijkingsmatrix_meridia
+        bron: voorbeeldgroep
+      - type: mermaid
+        ref: beslisboom-kostprijsmethode
         bron: voorbeeldgroep
 
   - id: diensten-mini-case
@@ -219,9 +221,8 @@ verder_lezen:
       hint: "Hoe gebruik je de standaardkost als norm voor een masterbudget en hoe decomposeer je de varianties achteraf?"
     - slug: wat-is-analytische-boekhouding
       hint: "Het kader-leerstuk: het kostenvocabularium en de klassen 8/9-mechaniek waarop alle methodes hier voortbouwen."
-  themafiches:
-    - slug: kostprijsmethoden
-      hint: "Voor herhaling vlak vóór het examen — vergelijkingsmatrix + beslisboom + formules."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vergelijkingsmatrix + beslisboom + formules."
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"
@@ -235,13 +236,15 @@ doorklik_concepten:
 # ---------------------------------------------------------------------------
 
 wettelijk_fundament:
-  - onderwerp: "Voorraadwaardering — verplichte full-costing-aanpak voor wettelijke JR"
-    ref: "KB-WVV art. 3:18 (aanschaffingswaarde) + art. 3:19 (vervaardigingsprijs) + CBN-advies 132/7"
+  - onderwerp: "Voorraadwaardering — vervaardigingsprijs voor wettelijke JR"
+    ref: "KB-WVV art. 3:15 + CBN-advies 132/7"
     noot: >
-      De wettelijke jaarrekening eist dat productiekosten in voorraad
-      gewaardeerd zijn tegen vervaardigingsprijs — inclusief redelijk
-      aandeel in productie-overhead. Direct-costing-voorraad is dus
-      enkel voor interne sturing, niet voor neerlegging.
+      Art. 3:15 voorziet als regel de vervaardigingsprijs (aanschaffingswaarde
+      + productiekosten incl. redelijk aandeel indirecte productiekosten).
+      De wet laat **één uitzondering** toe: indirecte productiekosten mogen
+      worden weggelaten, mits dat in de toelichting vermeld wordt.
+      Direct-costing-voorraad valt onder die uitzondering — toegestaan
+      mits transparant; in praktijk vrijwel niet gebruikt voor neerlegging.
   - onderwerp: "Voorraadwaarderingsmethodes (FIFO · LIFO · gewogen gemiddelde · individualisatie)"
     ref: "KB-WVV art. 3:21"
   - onderwerp: "Onderbenutting van capaciteit — idle-capacity-kost"

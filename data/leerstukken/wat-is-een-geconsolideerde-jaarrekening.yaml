@@ -105,9 +105,8 @@ verder_lezen:
       hint: "Wat gebeurt er met het verschil (goodwill of badwill) na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS."
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Het opmaakproces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB-publicatie"
-  themafiches:
-    - slug: consolidatie
-      hint: "Voor herhaling vlak vóór het examen"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen"
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"

@@ -10,6 +10,12 @@ tags:
 
 <div class="no-print">
 
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+
+</div>
+
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Welke WVV-verrichting vereist welk bijzonder verslag van accountant of bedrijfsrevisor, plus share-deal vs asset-deal-architectuur. Voor verhaal en routekaart: [[leerpaden/3.0|minicursus PO 3.0]].
 
 </div>

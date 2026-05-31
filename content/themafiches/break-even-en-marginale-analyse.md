@@ -9,6 +9,12 @@ tags:
 
 <div class="no-print">
 
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+
+</div>
+
+<div class="no-print">
+
 > **Themafiche — kapstok voor herhaling.** Twee beslissings-instrumenten naast elkaar: break-even-analyse (winstgevoeligheid) + marginale analyse (incrementele beslissingen). Verhaal en routekaart: [[leerpaden/1.8|minicursus PO 1.8]].
 
 </div>
@@ -97,17 +103,27 @@ $$
 
 <div class="no-print">
 
-## Doorklik — losse concept-fiches
+## Verdieping
 
-**De twee analyses**
-- [[break-even-analyse]] — CVP-analyse + veiligheidsmarge + multi-product
-- [[marginale-analyse]] — relevant cost + sunk cost + opportunity cost
+### Leerstukken — voor pedagogische opfris
 
-**Voedingsbasis (kostprijs-methodes)**
-- [[direct-costing]] — contributiemarge als bouwsteen
-- [[full-costing]] — wat NIET in marginale analyse hoort
+Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt:
 
-**Verwante themafiches**
+- [[break-even-en-marginale-beslissing]] — BEP solo + multi-product, special order, make-or-buy, knelpunt, keep-or-drop — telkens met Meridia-cijfers
+- [[kostprijsmethoden-kiezen]] — direct costing als bouwsteen voor contributiemarge
+- [[wat-is-analytische-boekhouding]] — kostentypologie (vast/variabel) als vocabularium
+- [[budget-en-variantieanalyse]] — sturings-cyclus na de beslissing
+
+### Concept-fiches — voor definitorisch detail
+
+Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
+
+**De twee analyses** — [[break-even-analyse]] (CVP-analyse + veiligheidsmarge + multi-product) · [[marginale-analyse]] (relevant cost + sunk cost + opportunity cost)
+
+**Voedingsbasis (kostprijs-methodes)** — [[direct-costing]] (contributiemarge als bouwsteen) · [[full-costing]] (wat NIET in marginale analyse hoort)
+
+### Andere themafiches in dit cluster
+
 - [[themafiches/kostprijsmethoden|Themafiche — Kostprijsmethoden]]
 - [[themafiches/budget-en-variantieanalyse|Themafiche — Budget & variantieanalyse]]
 - [[themafiches/analytische-boekhouding-stelsel|Themafiche — Analytische bh: stelsel & registratie]]

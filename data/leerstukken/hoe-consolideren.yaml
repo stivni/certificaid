@@ -452,9 +452,8 @@ verder_lezen:
       hint: "Wat gebeurt er met het positieve of negatieve consolidatieverschil na de eerste consolidatie? Afschrijving, niet-recurrente afschrijving, impairment (IFRS)."
     - slug: rapportering-en-controle-geconsolideerde-jaarrekening
       hint: "Welke documenten levert de groep op en hoe wordt het gecontroleerd?"
-  themafiches:
-    - slug: consolidatie
-      hint: "Voor herhaling vlak vóór het examen"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen"
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"

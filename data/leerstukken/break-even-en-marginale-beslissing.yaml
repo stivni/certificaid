@@ -29,19 +29,20 @@ intro:
 
 antwoord_in_een_blik:
   beats:
-    - "Open in één zin: zodra je de contributiemarge per eenheid kent, kun je vier verschillende beslissingsvragen scherp maken — vanaf welk volume rendabel (BEP), aanvaarden of weigeren van een order, zelf maken of kopen, welke productmix bij capaciteitsbeperking."
-    - "Tweede zin: de gemeenschappelijke regel — alléén relevante kosten meetellen (kosten die door de beslissing veranderen). Sunk costs negeren, vaste OH negeren als ze toch doorlopen, opportunity-kost meenemen ook al staat ze niet in de boekhouding."
-    - "Derde zin: in dit leerstuk werken we vijf beslissingen op Meridia uit — BEP tafel-alleen, multi-product-BEP, special order van een retailer, make-or-buy van laden, en knelpunt-mix op de CNC-machine."
+    - "Twee termen eerst — ze keren in elke beslissing terug. CONTRIBUTIEMARGE (CM) is wat één verkochte eenheid bijdraagt aan vaste kosten + winst: verkoopprijs minus variabele kost. Bij Meridia: tafel-eik 500 − 240 = 260 EUR per stuk. BREAK-EVEN-PUNT (BEP) is het volume waarbij die contributiemarges samen exact de vaste kosten dekken — onder dat punt verlies, erboven winst."
+    - "Met die twee in de hand kun je vijf verschillende beslissingsvragen scherp maken: vanaf welk volume break-even (BEP), aanvaarden of weigeren van een lagere prijs voor één batch, zelf maken of kopen, welke productmix bij capaciteitstekort, en een productlijn schrappen of behouden."
+    - "Gemeenschappelijke regel voor alle vijf: alléén RELEVANTE kosten meetellen — kosten die door de beslissing veranderen. Sunk costs (al uitgegeven) negeren, vaste kosten negeren als ze toch doorlopen, opportunity-kost (gederfde winst van het alternatief) meenemen ook al staat ze niet in de boekhouding."
+    - "Vijf beslissingen op Meridia werken we uit, in deze volgorde: BEP tafel-alleen, multi-product-BEP, special order van een retailer, make-or-buy van laden, knelpunt-mix op de CNC-machine, keep-or-drop voor kast-op-maat. Elke sectie volgt de relevant-cost-regel."
   visualisaties:
     - type: tabel-inline
-      kolommen: ["Beslissingsvraag", "Welke methode?", "Sleutelformule"]
+      kolommen: ["Beslissingsvraag", "Methode", "Sleutelformule"]
       rijen:
-        - ["Vanaf welk volume break-even?", "BEP-analyse", "Vaste kosten / CM per eenheid"]
-        - ["Aanvaarden van een lagere prijs voor één batch?", "Special-order-analyse", "Extra opbrengst > Extra variabele kost?"]
-        - ["Zelf produceren of inkopen?", "Make-or-buy", "Vergelijk relevante kosten beide opties"]
-        - ["Welke mix bij capaciteitstekort?", "Knelpunt-analyse", "Maximaliseer CM per knelpunt-uur"]
-        - ["Een productlijn schrappen?", "Keep-or-drop", "Vermijdbare vaste kost vs verloren CM"]
-  afsluiter: "Korte zin: 'Voor elke beslissingsvraag staat de contributiemarge centraal — het is de motor van het hele leerstuk.'"
+        - ["1. Vanaf welk volume break-even?", "Break-even-analyse (BEP)", "Vaste kosten / CM per eenheid"]
+        - ["2. Aanvaarden van lagere prijs voor één batch?", "Special-order-analyse", "Extra opbrengst > Extra variabele kost?"]
+        - ["3. Zelf produceren of inkopen?", "Make-or-buy", "Vergelijk relevante kosten beide opties"]
+        - ["4. Welke mix bij capaciteitstekort?", "Knelpunt-analyse", "Maximaliseer CM per knelpunt-uur"]
+        - ["5. Een productlijn schrappen?", "Keep-or-drop", "Vermijdbare vaste kost vs verloren CM"]
+  afsluiter: "Korte zin: 'Bij elke beslissing terug naar de contributiemarge — het is de motor van het hele leerstuk.'"
 
 # ---------------------------------------------------------------------------
 # Opbouw
@@ -192,9 +193,8 @@ verder_lezen:
       hint: "Bouwsteen-leerstuk: waar contributiemarge en de vier kostprijsmethodes uit komen."
     - slug: wat-is-analytische-boekhouding
       hint: "Het kader-leerstuk: kostentypologie en klassen 8/9 die alle beslissingsanalyses voeden."
-  themafiches:
-    - slug: break-even-en-marginale-analyse
-      hint: "Voor herhaling vlak vóór het examen — formules + valkuilen + beslissingstabel."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — formules + valkuilen + beslissingstabel."
 
 doorklik_concepten:
   intro: "Voor wie definitorisch detail wil opzoeken:"
