@@ -113,4 +113,12 @@ Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen*
 
 ---
 
+## 6. Oefening — actief testen
+
+Het examen zal nooit de volledige consolidatie laten doen — maar het toetst wel fragmenten die je alleen scherp herkent als je het hele pad één keer hebt afgelegd. Voor wie de leerstukken doorgenomen heeft en wil testen of het écht zit, is er een mini-case waar je zelf integrale consolidatie uitvoert: van methode-keuze tot geconsolideerde balans.
+
+→ [[oefening|Oefening: Nordica Holdings consolideren]] (60-75 min)
+
+---
+
 *Minicursus afgeleid uit het officiële ITAA-examenprogramma (PO 1.4). Status: voorgesteld — nog niet inhoudelijk gecureerd.*

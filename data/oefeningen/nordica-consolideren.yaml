@@ -1,0 +1,384 @@
+# Oefening-script — Nordica Holdings consolideren
+#
+# Eerste oefening volgens schema in data/oefeningen/SCHEMA.md.
+# Doel: student doet zelf het volledige integrale-consolidatie-pad —
+# methode-keuze → herwaardering → consolidatieverschil → eliminaties → samenstel.
+# Bewust kleiner dan Aurelia (één moeder + één dochter) zodat het in één zit lukt.
+
+meta:
+  slug: nordica-consolideren
+  titel: "Oefening: Nordica Holdings consolideren"
+  po: "1.4"
+  cluster: consolidatie
+  beschrijving: >
+    Doorgewerkte mini-consolidatie: één moeder (Nordica) + één dochter (Saga BVBA, 80%).
+    De student loopt zelf het volledige pad — methode-keuze, reële-waarde-herwaardering,
+    consolidatieverschil-berekening, drie families eliminaties, samenstel van de
+    geconsolideerde balans. Modelantwoord per stap in `<details>`-blokken.
+  studietijd: "60-75 min"
+  niveau: volledig
+
+intro:
+  callout_beat: >
+    Oefening-intro. Aankondigen: dit is een doorlopende mini-case waar je het hele
+    consolidatie-pad zelf loopt. Expliciete vermelding: "doe eerst zelf, klap de
+    uitwerking pas open als je vastloopt of klaar bent". Eindigend met motivatie —
+    het examen toetst geen volle consolidatie, maar het volledige pad één keer doorlopen
+    bouwt het mentale model dat de fragment-vragen vereisen.
+
+# ---------------------------------------------------------------------------
+# OPGAVE — alle data die de student vooraf krijgt
+# ---------------------------------------------------------------------------
+
+opgave:
+
+  scenario_beats:
+    - "Nordica NV is een Belgische investeringsvennootschap die op 1 januari 2026 80% van de aandelen Saga BVBA verwerft voor 6,8 mln EUR"
+    - "Saga is een gespecialiseerd handelsbedrijf actief in dezelfde sector als Nordica"
+    - "Tijdens het boekjaar 2026 voert Nordica één intra-groep verkoop aan Saga uit en bouwt een openstaande intra-groep vordering op"
+    - "Beide individuele jaarrekeningen op 31-12-2026 zijn hieronder gegeven. Voor de geconsolideerde JR 2026 moet je het volledige pad uitwerken"
+    - "Werkwijze: lees eerst alle opgave-data hieronder. Werk dan de stappen één voor één uit. Open pas de uitwerking nadat je je eigen antwoord hebt opgeschreven"
+
+  groep:
+    moeder:
+      naam: "Nordica NV"
+      rechtsvorm: NV
+    deelnemingen:
+      - naam: "Saga BVBA"
+        rechtsvorm: BVBA
+        percentage: 80
+        controle: exclusief
+        aanschafprijs: 6.8
+        overnamedatum: "2026-01-01"
+        boekwaarde_nev_overname: 6.0
+        reele_nev_overname: 7.0
+        rol_in_case: "enige geconsolideerde dochter — integrale consolidatie"
+
+  # ----- Saga overnamedatum (1-1-2026): herwaardering -----
+
+  tabellen:
+
+    # Opgave-tabel: ALLEEN boekwaarde + reële waarde. Herwaarderingskolom + reële NEV
+    # zijn de oplossing van stap 2 — staan dus NIET hier. Student moet zelf vergelijken
+    # en optellen.
+    saga-overnamedatum:
+      titel: "Saga BVBA op overnamedatum (1-1-2026) — statutaire boekwaarden + reële waarden vastgesteld bij due diligence"
+      eenheid: "mln EUR"
+      kolommen: ["Post", "Boekwaarde", "Reële waarde"]
+      rijen:
+        - ["Gebouwen", "2,0", "2,5"]
+        - ["Overige materiële vaste activa", "1,5", "1,5"]
+        - ["Voorraden", "3,0", "3,0"]
+        - ["Vorderingen op ten hoogste 1 jaar", "1,0", "1,0"]
+        - ["Liquide middelen", "0,5", "0,5"]
+        - ["Klantenrelaties *(niet eerder geboekt)*", "0,0", "0,5"]
+        - ["**Totaal activa**", "**8,0**", "**9,0**"]
+        - ["Schulden", "(2,0)", "(2,0)"]
+
+  # ----- 31-12-2026 individuele balansen -----
+
+  balansen:
+
+    # Realistisch KB-WVV-schema (volledig): geen ★, geen "waarvan op Saga"-uitsplitsing.
+    # Specifieke dochter-naam staat niet op de balans (zit in toelichting/Staat C).
+    # Wel: aparte rubriek "Deelnemingen in verbonden ondernemingen" — dat IS een KB-WVV
+    # balans-rubriek (IV.A) die signaleert dat er een verbonden onderneming in het spel is.
+    nordica-individueel:
+      titel: "Balans Nordica NV op 31-12-2026 (vereenvoudigd KB-WVV-schema)"
+      eenheid: "mln EUR"
+      activa:
+        - sub_totaal: "Vaste activa"
+          bedrag: 16.8
+        - omschrijving: "Materiële vaste activa"
+          detail: "gebouwen + overig"
+          bedrag: 10.0
+        - omschrijving: "Financiële vaste activa"
+          detail: "deelnemingen in verbonden ondernemingen"
+          bedrag: 6.8
+        - sub_totaal: "Vlottende activa"
+          bedrag: 8.2
+        - omschrijving: "Voorraden"
+          bedrag: 4.0
+        - omschrijving: "Vorderingen op ten hoogste 1 jaar"
+          bedrag: 3.0
+        - omschrijving: "Liquide middelen"
+          bedrag: 1.2
+        - totaal: "Totaal activa"
+          bedrag: 25.0
+      passiva:
+        - sub_totaal: "Eigen vermogen"
+          bedrag: 18.0
+        - sub_totaal: "Schulden"
+          bedrag: 7.0
+        - totaal: "Totaal passiva"
+          bedrag: 25.0
+
+    # Realistisch: Saga's balans toont geen "waarvan gekocht van Nordica" of
+    # "★ Schuld aan Nordica". Die info zit niet op de balans-presentatie — wel in
+    # de boekhouding (specifieke leverancier-grootboeken, MAR 41/44 sub-rekeningen).
+    # Het consolidatiebureau verzamelt de intra-groep posten apart (zie mapping
+    # hieronder).
+    saga-individueel-gereed-voor-consolidatie:
+      titel: "Balans Saga BVBA op 31-12-2026 (vereenvoudigd KB-WVV-schema)"
+      eenheid: "mln EUR"
+      noot: "Saga's individuele balans op balansdatum. Saga is recent overgenomen en maakte geen winst/verlies in 2026."
+      activa:
+        - sub_totaal: "Vaste activa"
+          bedrag: 4.5
+        - omschrijving: "Immateriële vaste activa"
+          detail: "klantenrelaties"
+          bedrag: 0.5
+        - omschrijving: "Gebouwen"
+          bedrag: 2.5
+        - omschrijving: "Overige materiële vaste activa"
+          bedrag: 1.5
+        - sub_totaal: "Vlottende activa"
+          bedrag: 4.5
+        - omschrijving: "Voorraden"
+          bedrag: 3.5
+        - omschrijving: "Vorderingen op ten hoogste 1 jaar"
+          bedrag: 0.3
+        - omschrijving: "Liquide middelen"
+          bedrag: 0.7
+        - totaal: "Totaal activa"
+          bedrag: 9.0
+      passiva:
+        - sub_totaal: "Eigen vermogen"
+          bedrag: 7.0
+        - sub_totaal: "Schulden op ten hoogste 1 jaar"
+          bedrag: 2.0
+        - totaal: "Totaal passiva"
+          bedrag: 9.0
+
+  resultatenrekening:
+
+    nordica-2026:
+      titel: "Resultatenrekening Nordica NV — boekjaar 2026 (vereenvoudigd, tot bedrijfsresultaat)"
+      eenheid: "mln EUR"
+      rijen:
+        - sub_totaal: "Bedrijfsopbrengsten — omzet"
+          bedrag: 18.0
+        - sub_totaal: "Bedrijfskosten"
+          bedrag: 17.0
+        - omschrijving: "Aankopen handelsgoederen"
+          bedrag: 12.0
+        - omschrijving: "Overige bedrijfskosten"
+          detail: "diensten, lonen, afschrijvingen"
+          bedrag: 5.0
+        - totaal: "Bedrijfsresultaat"
+          bedrag: 1.0
+
+  intra_groep_mapping:
+    titel: "Intra-groep mapping (consolidatie-werkpapier)"
+    intro_noot: >
+      Deze tabel staat NIET op de individuele balansen of resultatenrekening — die tonen
+      alleen de totalen per rubriek. Het centraal consolidatiebureau van Nordica
+      verzamelt onderstaande intra-groep posten uit de boekhoudingen van Nordica en
+      Saga (specifieke grootboek-rekeningen voor verbonden vennootschappen, MAR-rubrieken
+      28-, 41-, 44- en 70-/60-detail) plus uit het rapporteringspakket dat Saga elk
+      kwartaal aanlevert.
+    kolommen: ["Item", "Bedrag (mln)", "Waar geboekt in de individuele JR?"]
+    rijen:
+      - ["Deelneming Nordica in Saga (80% van de aandelen)", "6,8", "Nordica — financiële vaste activa, deelnemingen in verbonden ondernemingen (MAR 280)"]
+      - ["Vordering Nordica op Saga", "0,8", "Nordica — vorderingen ≤ 1 jaar, op verbonden ondernemingen (MAR 41)"]
+      - ["Spiegelbeeldige schuld Saga aan Nordica", "0,8", "Saga — schulden ≤ 1 jaar, op verbonden ondernemingen (MAR 41xxx of 44 detail)"]
+      - ["Intra-groep omzet Nordica → Saga (volledig boekjaar 2026)", "2,0", "Nordica — omzet (MAR 70)"]
+      - ["Kostprijs voor Nordica van die intra-groep verkoop", "1,6", "Nordica — aankopen handelsgoederen (MAR 60)"]
+      - ["Voorraad bij Saga die nog van die aankoop afkomstig is (op 31-12-2026)", "1,0", "Saga — voorraden (MAR 32-34)"]
+
+  intra_groep_transactie_extra_context:
+    noot: >
+      Saga heeft tijdens 2026 de helft (in aanschaffingswaarde) van wat ze van Nordica
+      kocht doorverkocht aan externe klanten. De andere helft ligt op balansdatum nog
+      in haar voorraad — geboekt aan de aankoopprijs die Saga betaalde.
+
+# ---------------------------------------------------------------------------
+# STAPPEN — wat de student doet, plus modelantwoord
+# ---------------------------------------------------------------------------
+
+stappen:
+
+  - id: stap-1-methode-keuze
+    titel: "Stap 1 — Welke consolidatiemethode pas je toe op Saga?"
+    instructie_beats:
+      - "Bepaal welke consolidatiemethode Nordica moet toepassen voor Saga BVBA. Onderbouw met het controle-niveau"
+      - "Vermeld ook wat er zou veranderen indien Nordica IFRS in plaats van B-GAAP zou rapporteren"
+    uitwerking_beats:
+      - "Stap 1a — identificeer het controle-niveau: 80% van de aandelen → de meerderheid van de stemrechten → exclusieve controle"
+      - "Stap 1b — koppel controle-niveau aan methode: bij exclusieve controle is integrale consolidatie verplicht (zowel onder B-GAAP als IFRS)"
+      - "Effect: 100% van Saga's activa, schulden, opbrengsten en kosten regel-per-regel opnemen op geconsolideerd niveau; de deelneming-lijn van 6,8 mln verdwijnt; het 20%-aandeel dat niet aan Nordica toebehoort komt apart als 'belang van derden' op de passiefzijde"
+      - "Onder IFRS verandert er niets — IFRS 10 schrijft ook integrale consolidatie voor bij control (zelfde test als B-GAAP, met enkele nuances rond de-facto-control die hier niet spelen)"
+    valkuil_beat: "Bij joint ventures (50/50) zou het wél verschillen: B-GAAP laat evenredig óf VMM toe; IFRS 11 verbiedt evenredig sinds 2013 voor JV's. Niet van toepassing hier, maar onthouden voor andere oefeningen."
+
+  - id: stap-2-reele-waarde-herwaardering
+    titel: "Stap 2 — Voer de reële-waarde-herwaardering door"
+    instructie_beats:
+      - "Op overnamedatum (1-1-2026) wijken Saga's statutaire boekwaarden op enkele posten af van de reële waarden. Bepaal welke posten herwaardering vereisen, hoeveel, en bereken Saga's reële netto-eigen vermogen op overnamedatum"
+    uitwerking_beats:
+      - "Twee elementen vragen herwaardering: (1) gebouwen die statutair voor 2,0 mln staan maar een marktwaarde van 2,5 mln hebben → herwaardering +0,5 mln; (2) klantenrelaties die helemaal niet op Saga's balans staan (intern opgebouwde immateriële activa mogen statutair niet geactiveerd worden) maar als overgenomen actief een onafhankelijke reële waarde van 0,5 mln hebben → opname +0,5 mln"
+      - "Totale herwaardering aan actiefzijde: +1,0 mln. Schulden blijven 2,0 mln (geen herwaardering)"
+      - "Reële NEV = 9,0 mln activa − 2,0 mln schulden = **7,0 mln** (vs boekwaarde NEV 6,0 mln)"
+      - "Belangrijke pedagogische nuance: deze herwaardering gebeurt UITSLUITEND op geconsolideerd niveau bij de eerste consolidatie. Saga blijft statutair haar gebouwen aan 2,0 mln waarderen voor haar eigen jaarrekening; de groeps-correctie leeft enkel in de consolidatie-werkpapieren"
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Saga op overnamedatum — herwaarderings-tabel uitgewerkt"
+        kolommen: ["Post", "Boekwaarde", "Reële waarde", "Herwaardering"]
+        rijen:
+          - ["Gebouwen", "2,0", "2,5", "**+0,5**"]
+          - ["Overige materiële vaste activa", "1,5", "1,5", "0"]
+          - ["Voorraden", "3,0", "3,0", "0"]
+          - ["Vorderingen op ten hoogste 1 jaar", "1,0", "1,0", "0"]
+          - ["Liquide middelen", "0,5", "0,5", "0"]
+          - ["Klantenrelaties *(niet eerder geboekt)*", "0,0", "0,5", "**+0,5**"]
+          - ["**Totaal activa**", "**8,0**", "**9,0**", "**+1,0**"]
+          - ["Schulden", "(2,0)", "(2,0)", "0"]
+          - ["**Netto-eigen vermogen**", "**6,0**", "**7,0**", "**+1,0**"]
+    valkuil_beat: "Veel studenten berekenen consolidatieverschil tegen de **boekwaarde** NEV (zonder herwaardering). Fout. Het verschil moet altijd tegen de **reële NEV** berekend worden, anders verschijnt het herwaarderings-bedrag verkeerdelijk in goodwill in plaats van in de identificeerbare activa."
+
+  - id: stap-3-consolidatieverschil
+    titel: "Stap 3 — Bereken het consolidatieverschil en benoem de behandeling"
+    instructie_beats:
+      - "Bereken het consolidatieverschil dat ontstaat bij de overname van Saga"
+      - "Geef het teken (positief/negatief) en zeg hoe het onder B-GAAP wordt behandeld (vs IFRS)"
+    uitwerking_beats:
+      - "Formule: consolidatieverschil = aanschafprijs deelneming − aandeel in reële NEV van de dochter"
+      - "Invullen: 6,8 mln − (80% × 7,0 mln) = 6,8 − 5,6 = **+1,2 mln**"
+      - "Positief consolidatieverschil — informeel ook 'goodwill' genoemd. Het bedrag verschijnt op de geconsolideerde balans onder de immateriële vaste activa (rubriek I.B.) als afzonderlijke post 'Consolidatieverschillen'"
+      - "Behandeling onder B-GAAP (KB-WVV art. 3:131 § 1): lineair afschrijven over de vermoedelijke gebruiksduur volgens een passend plan. Termijn > 5 jaar moet gemotiveerd worden in de toelichting. Daarnaast: niet-recurrente afschrijving bij ongunstige economische ontwikkeling"
+      - "Behandeling onder IFRS (IFRS 3 + IAS 36): GEEN afschrijving. In plaats daarvan jaarlijkse impairment-test per cash-generating unit; terugneming verboden voor goodwill"
+      - "Tegelijk verschijnt aan de passiefzijde het **belang van derden** = 20% × 7,0 = **1,4 mln** als aparte rubriek"
+    valkuil_beat: "Examen-klassieker: 'maximumtermijn 10 jaar voor consolidatieverschil-afschrijving'. Dat is CBN-doctrine (CBN-advies 2016/7, verwijzend naar oud art. 61 KB W.Venn.), niet expliciet in KB-WVV. KB-WVV vereist enkel motivering > 5 jaar. Bij twijfel: noem het als CBN-praktijknorm, niet als wettelijk plafond."
+
+  - id: stap-4-eliminaties
+    titel: "Stap 4 — Voer de eliminaties door"
+    instructie_beats:
+      - "Bekijk de intra-groep mapping in de opgave. Welke types eliminaties zijn nodig om de groep correct voor te stellen?"
+      - "Voor elke stroom: bepaal welk type eliminatie nodig is en schrijf de geconsolideerde boeking in CBN-stijl (kolom 'aan' + MAR + Omschrijving + Debet + Credit)"
+      - "Wees alert bij de eliminatie van de intra-groep verkoop — niet alles wat Nordica verkocht heeft is voor de groep een echte transactie"
+    uitwerking_beats:
+      - "Familie (a) — eliminatie deelneming ↔ EV dochter. De aandelen-samenvatting van Nordica (6,8 mln deelneming-lijn) wordt vervangen door de ontlede onderliggende activa en passiva van Saga (na herwaardering). De 1,2 mln overschot wordt geboekt als consolidatieverschil; het 20%-deel van Saga's EV dat niet aan Nordica toebehoort komt apart als belang van derden"
+      - "Familie (b) — eliminatie wederzijdse vordering/schuld. Voor de groep bestaat de vordering niet (geld aan zichzelf verschuldigd). Eén-rij eliminatie: vordering −0,8 én schuld −0,8"
+      - "Familie (c) — eliminatie intra-omzet en intra-marge in voorraad. De omzet van 2,0 en de bijbehorende kostprijs van 1,6 worden volledig weggeboekt (interne verschuiving, geen externe transactie). MAAR: de marge van 0,4 zit voor 50% nog opgesloten in voorraad bij Saga (1,0 mln verkoopprijs nog niet doorverkocht aan derden). Te elimineren marge = 0,4 × 50% = **0,2 mln** — Saga's voorraad afwaarderen van 1,0 (interne verkoopprijs) naar 0,8 (groepskostprijs), en het groepsresultaat met dezelfde 0,2 verlagen"
+      - "Voor het deel dat WEL doorverkocht is (1,0 mln aan derden), is de marge 0,2 mln voor de groep gerealiseerd — dat blijft in het bedrijfsresultaat"
+    uitwerking_visualisaties:
+      - type: boeking-inline
+        titel: "Familie (a) — eliminatie deelneming ↔ EV Saga (mln EUR)"
+        regels:
+          - { aan: "", mar: "22-3", omschrijving: "Activa Saga *(gebouwen, klantenrelaties, voorraden, vorderingen, liquide)*", debet: 9.0 }
+          - { aan: "", mar: "9920", omschrijving: "Consolidatieverschil *(positief — informeel goodwill)*", debet: 1.2 }
+          - { aan: "aan", mar: "17/44", omschrijving: "Schulden Saga", credit: 2.0 }
+          - { aan: "aan", mar: "280", omschrijving: "Deelneming Saga BVBA *(weg)*", credit: 6.8 }
+          - { aan: "aan", mar: "IX", omschrijving: "Belang van derden", credit: 1.4 }
+        totaal: 10.2
+      - type: boeking-inline
+        titel: "Familie (b) — eliminatie vordering ↔ schuld (mln EUR)"
+        regels:
+          - { aan: "", mar: "44", omschrijving: "Schuld aan Nordica *(wegboeken)*", debet: 0.8 }
+          - { aan: "aan", mar: "40", omschrijving: "Vordering op Saga *(wegboeken)*", credit: 0.8 }
+        totaal: 0.8
+      - type: boeking-inline
+        titel: "Familie (c) — eliminatie intra-omzet + intra-marge in voorraad (mln EUR)"
+        regels:
+          - { aan: "", mar: "70", omschrijving: "Omzet *(wegboeken intra-groep verkoop)*", debet: 2.0 }
+          - { aan: "aan", mar: "60", omschrijving: "Kostprijs verkochte handelsgoederen", credit: 1.6 }
+          - { aan: "aan", mar: "32", omschrijving: "Voorraden bij Saga *(afwaardering naar groepskostprijs — 50% van 0,4 marge)*", credit: 0.2 }
+          - { aan: "aan", mar: "13", omschrijving: "Geconsolideerd resultaat *(via kost-correctie; sluitend gemaakt)*", credit: 0.2 }
+        totaal: 2.0
+        noot: "Saldo op het geconsolideerd bedrijfsresultaat: −2,0 omzet + 1,6 kost = −0,4. Plus 0,2 voorraad-afwaardering komt voor groep op −0,2 winstreductie."
+    valkuil_beat: "De intra-marge-eliminatie is *de* examen-favoriet. Stagiairs schrappen vaak alleen omzet + kost en vergeten dat de marge in voorraad nog gecorrigeerd moet worden. Saldo lijkt netjes (−2,0 + 1,6 = −0,4) maar zonder voorraad-afwaardering klopt de balans niet meer."
+
+  - id: stap-5-geconsolideerde-balans
+    titel: "Stap 5 — Stel de geconsolideerde balans samen"
+    instructie_beats:
+      - "Vul nu de mutatie-kolom in: voor elke balansregel, wat is het saldo na alle eliminaties + herwaarderingen?"
+      - "Controleer dat totaal activa = totaal passiva op de geconsolideerde balans"
+    uitwerking_beats:
+      - "Naïef optellen: 25,0 + 9,0 = 34,0 mln balanstotaal. Daarvan moet ongeveer 6,6 mln 'weg' om op het geconsolideerde totaal te komen"
+      - "Mutaties: deelneming −6,8 + consolidatieverschil +1,2 + voorraad −0,2 + intra-vordering −0,8 + intra-schuld −0,8 + groepsresultaat −0,2 + belang van derden +1,4"
+      - "Geconsolideerd balanstotaal = **27,4 mln**. Beide kanten kloppen (zie tabel hieronder)"
+      - "EV moeder geconsolideerd = 18,0 (Nordica indiv) − 0,2 (intra-marge in voorraad weggeboekt uit groepsresultaat) = **17,8 mln**. Bellator's 7,0 mln EV is opgesplitst in 5,6 (weggewerkt tegen deelneming + consolidatieverschil) + 1,4 (belang van derden) — verschijnt dus NIET als aparte rij onder EV moeder"
+      - "Reflectie: zonder de drie families eliminaties had je 34 mln gerapporteerd waar er 27,4 hoort; je zou Nordica-groep 24% te groot voorgesteld hebben aan externe lezers"
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "Nordica indiv.", "Saga indiv.", "Eliminaties + herw.", "**Geconsolideerd**"]
+        rijen:
+          - ["Consolidatieverschil", "—", "—", "+1,2", "**1,2**"]
+          - ["Klantenrelaties", "—", "0,5", "0", "**0,5**"]
+          - ["Gebouwen + overig MVA", "10,0", "4,0", "0", "**14,0**"]
+          - ["Voorraden", "4,0", "3,5", "−0,2 *(intra-marge)*", "**7,3**"]
+          - ["Vorderingen", "3,0", "0,3", "−0,8 *(intra-groep)*", "**2,5**"]
+          - ["Deelneming Saga", "6,8", "—", "−6,8", "**—**"]
+          - ["Liquide middelen", "1,2", "0,7", "0", "**1,9**"]
+          - ["**Totaal activa**", "**25,0**", "**9,0**", "", "**27,4**"]
+          - ["Eigen vermogen moeder", "18,0", "5,6", "−0,2 *(intra-marge)* − 5,6 *(weg via consolidatieverschil + BvD)*", "**17,8**"]
+          - ["Belang van derden", "—", "1,4", "(behouden)", "**1,4**"]
+          - ["Schulden", "7,0", "2,0", "−0,8 *(intra-groep)*", "**8,2**"]
+          - ["**Totaal passiva**", "**25,0**", "**9,0**", "", "**27,4**"]
+    valkuil_beat: "Controle: totaal activa = totaal passiva. Als je niet uitkomt, ligt de fout meestal in (1) de marge-eliminatie verkeerd ingeschat (volledige marge i.p.v. enkel het deel in voorraad), (2) belang van derden vergeten, of (3) een teken-fout in de mutatie van Saga's EV."
+
+# ---------------------------------------------------------------------------
+# AFSLUITING
+# ---------------------------------------------------------------------------
+
+afsluiting:
+  reflectie_beats:
+    - "Wat heb je nu één keer zelf doorlopen: methode-koppeling aan controle-niveau, reële-waarde-herwaardering met identificatie van twee elementen, consolidatieverschil-berekening (incl. signaal positief vs negatief), drie families eliminaties incl. de subtiele intra-marge-correctie, en samenstel van de geconsolideerde balans"
+    - "Het examen zal hier niet de volledige oefening reproduceren — wél fragmenten ('definieer consolidatieverschil + 4 oorzaken', 'welke methode bij notabele invloed', 'wat is de boekhoudkundige plaats van het belang van derden'). Maar die fragmenten landen alleen scherp als je het hele pad één keer hebt afgelegd"
+    - "Volgende stap als dit zit: pak [[voorbeeldexamens/po-1.4]] en herken de fragment-vragen, of ga naar [[themafiches/consolidatie|Themafiche]] voor compacte herhaling vlak voor het examen"
+  doelstellingen_gedekt:
+    - "1.4.taak.1.doel.1 — Opmaak geconsolideerde jaarrekening"
+    - "1.4.taak.1.doel.4 — Consolidatiemethodes"
+    - "1.4.taak.1.doel.5 — Eerste consolidatie en consolidatieverschillen"
+    - "1.4.taak.1.doel.6 — Eliminaties intra-groep stromen"
+  valkuilen_geoefend:
+    - "Reële-waarde-herwaardering vergeten bij consolidatieverschil-berekening"
+    - "Intra-marge volledig elimineren i.p.v. alleen het deel-in-voorraad"
+    - "10-jaar-regel verkeerd als wettelijk plafond presenteren (CBN-doctrine)"
+
+# ---------------------------------------------------------------------------
+# VERDER LEZEN
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer dit zit, ga dan naar:"
+  leerstukken:
+    - slug: hoe-consolideren
+      hint: "Voor de techniek nog eens compact gezien — drie methodes, vier stappen, drie families"
+    - slug: consolidatieverschil
+      hint: "Voor verdieping op afschrijvingsregels (B-GAAP vs IFRS) en badwill"
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "Voor wat er met de geconsolideerde jaarrekening gebeurt na samenstel — jaarverslag, commissarisverslag, NBB-neerlegging"
+  themafiches:
+    - slug: consolidatie
+      hint: "Voor compacte herhaling vlak voor het examen"
+  examenvragen_link: "voorbeeldexamens/po-1.4"
+
+# ---------------------------------------------------------------------------
+# WETTELIJK FUNDAMENT — vooral voor de student-controle
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Integrale consolidatie + eerste consolidatie + reële-waarde-herwaardering"
+    ref: "KB-WVV art. 3:126 e.v. (Onderafdeling 2, Hoofdstuk Geconsolideerde jaarrekening)"
+  - onderwerp: "Consolidatieverschil — positief (afschrijving)"
+    ref: "KB-WVV art. 3:131 § 1"
+    noot: "Passend afschrijvingsplan; > 5 jaar motiveren; niet-recurrente afschrijving bij ongunstige ontwikkeling"
+  - onderwerp: "Consolidatieverschil — negatief (badwill)"
+    ref: "KB-WVV art. 3:131 § 2"
+  - onderwerp: "10-jaar maximumtermijn bij niet-betrouwbare schatting gebruiksduur"
+    ref: "CBN-advies 2016/7"
+    noot: "Doctrine, niet wettelijk plafond in KB-WVV"
+  - onderwerp: "Eliminatie intra-groep stromen — deelneming + EV"
+    ref: "KB-WVV art. 3:127, a)"
+  - onderwerp: "Eliminatie intra-groep vorderingen/schulden + winsten in voorraad"
+    ref: "KB-WVV art. 3:134"
+  - onderwerp: "Eliminatie intra-groep opbrengsten/kosten"
+    ref: "KB-WVV art. 3:136"
+  - onderwerp: "Aandeel van derden (belang van derden)"
+    ref: "KB-WVV art. 3:137"
+  - onderwerp: "IFRS-pad — integrale consolidatie + control-test"
+    ref: "IFRS 10"
+  - onderwerp: "IFRS goodwill — eerste meting + impairment-only"
+    ref: "IFRS 3 + IAS 36"
+
+footer: "Oefening PO 1.4. Status: nieuw — eerste oefening volgens schema in data/oefeningen/SCHEMA.md. Doel: actieve oefencase als 5e leerlaag (kandidaat-amendement ADR-036 of nieuw ADR-038)."

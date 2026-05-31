@@ -96,6 +96,16 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 - Tabel met kolommen: `Concept` (wikilink) · `Ook actief in` · `Waarom relevant elders`
 - 5-8 rijen, gericht op niet-triviale cross-PO-verbanden (niet bv. "PO 1.1 boekhouding" — te generiek)
 
+### 7. Oefening — actief testen *(optioneel maar aanbevolen)*
+
+- Sectie-status: **nieuw** — toegevoegd na PO 1.4-feedback (mei 2026). Pattern wordt geconsolideerd in ADR-038 na toepassing op 2-3 PO's.
+- Korte motivering-paragraaf: "examen toetst fragmenten — die landen alleen scherp als je het hele pad één keer hebt doorlopen". Verwijs naar het actieve karakter (zelf doen vs lezen).
+- Eén wikilink met studietijd-indicatie: `→ [[oefening|Oefening: <case-naam> consolideren/uitwerken/...]] (60-75 min)`
+- Geen eigen tabel. Eén korte uitlokking volstaat — de oefening zelf doet het didactische werk.
+- Bronbestand: `data/oefeningen/<slug>.yaml` (zie `data/oefeningen/SCHEMA.md`). Markdown gerenderd op `content/leerpaden/<po-slug>/oefening.md` (PO-specifiek) of `content/oefeningen/<slug>.md` (cross-PO).
+
+> **Plaatsing ná § 6 cross-PO.** De oefening is een "doorgaans-laatste"-actie: eerst de leerstof zien (§ 2-3), examen-context kennen (§ 5), cross-PO snappen (§ 6), pas dán actief testen. Voor PO's waar nog geen oefening bestaat: sectie weglaten (niet als TODO-rij vermelden).
+
 ### Footer
 
 ```markdown
