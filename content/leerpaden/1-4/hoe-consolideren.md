@@ -1,7 +1,7 @@
 ---
 title: "Hoe consolideren?"
 description: "Leerstuk PO 1.4 — de techniek-vraag van consolidatie: welke methode kies je per controle-niveau, hoe verloopt de eerste consolidatie met reële-waarde-herwaardering en consolidatieverschil, en hoe elimineer je de drie families intra-groep stromen?"
-explorer_title: "3. Hoe?"
+explorer_title: "3. Consolideren"
 tags:
   - leerstuk
   - po-1.4

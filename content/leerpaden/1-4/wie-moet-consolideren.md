@@ -1,7 +1,7 @@
 ---
 title: "Wie moet consolideren?"
 description: "Leerstuk PO 1.4 — de scope-vraag van consolidatie: is er controle, wie zit in de kring, is de groep groot genoeg, en wanneer geldt een vrijstelling?"
-explorer_title: "2. Wie?"
+explorer_title: "2. Consolidatieplicht"
 tags:
   - leerstuk
   - po-1.4

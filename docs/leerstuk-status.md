@@ -1,33 +1,33 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31
+**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC op PO 1.4 Nordica)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
 
 ## Stand per programmaonderdeel
 
-| PO | Skelet | Scripts | Markdown gerendered | Minicursus aangepast | Themafiche tweelaags | Status |
-|---|---|---|---|---|---|---|
-| **1.1** Boekhouding | — | — | — | — | — | Openstaand |
-| **1.2** Boekhoud- en jaarrekeningenrecht | — | — | — | — | — | Openstaand |
-| **1.3** Analyse van de jaarrekening | — | — | — | — | — | Openstaand |
-| **1.4** Geconsolideerde jaarrekening | ✅ retro [docs/leerpad-skelet-1-4.md](leerpad-skelet-1-4.md) | ✅ 6/6 ([data/leerstukken/](../data/leerstukken/)) | ✅ 6/6 (5 in `content/leerpaden/1-4/`, 1 cross-PO in `content/leerstukken/`) | ✅ [content/leerpaden/1-4/index.md](../content/leerpaden/1-4/index.md) (3+4 samengevoegd) | ✅ [content/themafiches/consolidatie.md](../content/themafiches/consolidatie.md) | **Voltooid** (POC voor schema-validatie) |
-| **1.5** IFRS | — | — | — | — | — | Openstaand |
-| **1.6** Externe controle | — | — | — | — | — | Openstaand |
-| **1.7** Interne controle | — | — | — | — | — | Openstaand |
-| **1.8** Analytische boekhouding | — | — | — | — | — | Openstaand |
-| **1.9** Financiële analyse | — | — | — | — | — | Openstaand |
-| **2.1** Beroepsethiek | — | — | — | — | — | Openstaand |
-| **2.2** Personenbelasting | — | — | — | — | — | Openstaand |
-| **2.3** Vennootschapsbelasting | — | — | — | — | — | Openstaand |
-| **2.4** BTW | — | — | — | — | — | Openstaand |
-| **2.5** Fiscale procedure | — | — | — | — | — | Openstaand |
-| **2.6** Registratie- en successierechten | — | — | — | — | — | Openstaand |
-| **2.7** Internationale fiscaliteit | — | — | — | — | — | Openstaand |
-| **2.8** Btw-procedures | — | — | — | — | — | Openstaand |
-| **3.0** Vennootschapsrecht | — | — | — | — | — | Openstaand |
-| **4.0** Cabinet management | — | — | — | — | — | Openstaand |
+| PO | Skelet | Scripts | Markdown gerendered | Minicursus aangepast | Themafiche tweelaags | Oefening | Status |
+|---|---|---|---|---|---|---|---|
+| **1.1** Boekhouding | — | — | — | — | — | — | Openstaand |
+| **1.2** Boekhoud- en jaarrekeningenrecht | — | — | — | — | — | — | Openstaand |
+| **1.3** Analyse van de jaarrekening | — | — | — | — | — | — | Openstaand |
+| **1.4** Geconsolideerde jaarrekening | ✅ retro [docs/leerpad-skelet-1-4.md](leerpad-skelet-1-4.md) | ✅ 6/6 ([data/leerstukken/](../data/leerstukken/)) | ✅ 6/6 (5 in `content/leerpaden/1-4/`, 1 cross-PO in `content/leerstukken/`) | ✅ [content/leerpaden/1-4/index.md](../content/leerpaden/1-4/index.md) (3+4 samengevoegd, § 6 Oefening toegevoegd) | ✅ [content/themafiches/consolidatie.md](../content/themafiches/consolidatie.md) | ✅ Nordica ([data/oefeningen/nordica-consolideren.yaml](../data/oefeningen/nordica-consolideren.yaml) + [content/leerpaden/1-4/oefening.md](../content/leerpaden/1-4/oefening.md)) — **POC voor oefening-laag** | **Voltooid** (POC voor schema-validatie + POC voor oefening-laag) |
+| **1.5** IFRS | — | — | — | — | — | — | Openstaand |
+| **1.6** Externe controle | — | — | — | — | — | — | Openstaand |
+| **1.7** Interne controle | — | — | — | — | — | — | Openstaand |
+| **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/leerpaden/1-8/`) | ✅ [content/leerpaden/1-8/index.md](../content/leerpaden/1-8/index.md) | ✅ 4 fiches geüpdatet ([analytische-boekhouding-stelsel](../content/themafiches/analytische-boekhouding-stelsel.md), [kostprijsmethoden](../content/themafiches/kostprijsmethoden.md), [break-even-en-marginale-analyse](../content/themafiches/break-even-en-marginale-analyse.md), [budget-en-variantieanalyse](../content/themafiches/budget-en-variantieanalyse.md)) | — *(kandidaat — zie [docs/oefening-procedure.md](oefening-procedure.md))* | **Voltooid** leerstukken (tweede PO na 1.4); oefening nog te bouwen |
+| **1.9** Financiële analyse | — | — | — | — | — | — | Openstaand |
+| **2.1** Beroepsethiek | — | — | — | — | — | — | Openstaand |
+| **2.2** Personenbelasting | — | — | — | — | — | — | Openstaand |
+| **2.3** Vennootschapsbelasting | — | — | — | — | — | — | Openstaand |
+| **2.4** BTW | — | — | — | — | — | — | Openstaand |
+| **2.5** Fiscale procedure | — | — | — | — | — | — | Openstaand |
+| **2.6** Registratie- en successierechten | — | — | — | — | — | — | Openstaand |
+| **2.7** Internationale fiscaliteit | — | — | — | — | — | — | Openstaand |
+| **2.8** Btw-procedures | — | — | — | — | — | — | Openstaand |
+| **3.0** Vennootschapsrecht | — | — | — | — | — | — | Openstaand |
+| **4.0** Cabinet management | — | — | — | — | — | — | Openstaand |
 
 **Legende**: ✅ = klaar · 🚧 = in uitvoering · — = nog niet gestart · ❌ = blocker / actie nodig
 
@@ -38,12 +38,24 @@
 | Naam | Locatie | Gebruikt door | Beschrijving |
 |---|---|---|---|
 | `aurelia` | [data/voorbeeldgroepen/aurelia.yaml](../data/voorbeeldgroepen/aurelia.yaml) | PO 1.4 (alle leerstukken) | Mock Belgische groep met 4 deelnemingen — alle controle-niveaus en methodes |
+| `meridia-meubel` | [data/voorbeeldgroepen/meridia-meubel.yaml](../data/voorbeeldgroepen/meridia-meubel.yaml) | PO 1.8 (alle leerstukken) | Mock middelgrote meubelproductie-BV (tafel-eik standaard + kast-op-maat job-order) — productie-context met kostendragers/kostenplaatsen, masterbudget 2026, variantierapport Q1 2026 |
 
 Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan worden. Anders maken in `data/voorbeeldgroepen/<naam>.yaml`.
 
 ---
 
 ## Open punten per PO
+
+### PO 1.8 — Analytische boekhouding
+
+- **Wettelijke claims te re-verifiëren in latere ronde** (binnen render-call-budget niet hard verifieerbaar gebleken):
+  - WER Boek III art. III.82-III.95 (boekhoudplicht context) — niet via MCP bevestigd; staat correct in script
+  - KB-WVV art. 3:15 (vervaardigingsprijs) — render-agent vond afwijking ten opzichte van script (oorspronkelijk 3:18+3:19); script gepatcht en uitzondering-formulering aangepast
+  - IAS 2 §13 (idle capacity / normale capaciteit) — geverifieerd voor lstk 2; CBN 132/7 §2.1 is Belgische equivalent
+  - CBN 132/7 spiegelmechaniek — door render-agent lstk 1 bevestigd als bron voor klassen 8/9-spiegelrekeningen (script gepatcht)
+- **Voorbeeldgroep-detail**: `meridia-meubel.yaml` heeft een subtiele 6400 (werkelijke productie) vs 7000 (normale capaciteit) onderscheid dat in lstk 2 standaardkost-kaart vs full-costing-uitleg niet 100% scherp is. Renderer heeft conform script gerendered; voorbeeldgroep-verfijning kandidaat voor latere ronde
+- **Lokale Quartz-verificatie nog te doen**: wikilink-resolutie (4 leerstukken + minicursus + 4 themafiches), explorer-sidebar-hiërarchie, eventuele `explorer_title` frontmatter
+- **Cross-PO leerstukken**: geen — alle 4 leerstukken zijn PO-specifiek onder `content/leerpaden/1-8/`
 
 ### PO 1.4 — Geconsolideerde jaarrekening
 
@@ -57,10 +69,11 @@ Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan
 
 - **Nieuwe PO starten**: [docs/leerstuk-procedure.md](leerstuk-procedure.md) Stap 0-7
 - **Bestaand leerstuk bijwerken**: [docs/leerstuk-procedure.md](leerstuk-procedure.md) §"Feedback op een bestaand leerstuk"
+- **Oefening toevoegen voor een PO** (5e leerlaag): [docs/oefening-procedure.md](oefening-procedure.md) — 4 stappen + 3 pijlers (geen hints in opgave · realistische individuele JR · niet-voorkauwende instructies)
 - **Beleid**: [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md)
-- **Schrijfregels**: [docs/leerstuk-schrijfregels.md](leerstuk-schrijfregels.md)
-- **Script-schema**: [data/leerstukken/SCHEMA.md](../data/leerstukken/SCHEMA.md)
-- **Render-prompt**: [prompts/leerstuk-render-v1.md](../prompts/leerstuk-render-v1.md)
+- **Schrijfregels**: [docs/leerstuk-schrijfregels.md](leerstuk-schrijfregels.md) · [docs/minicursus-schrijfregels.md](minicursus-schrijfregels.md) (§ 7 oefening — POC)
+- **Script-schemas**: [data/leerstukken/SCHEMA.md](../data/leerstukken/SCHEMA.md) · [data/oefeningen/SCHEMA.md](../data/oefeningen/SCHEMA.md)
+- **Render-prompts**: [prompts/leerstuk-render-v1.md](../prompts/leerstuk-render-v1.md) · [prompts/oefening-render-v1.md](../prompts/oefening-render-v1.md)
 - **Skelet-prompt**: [prompts/leerpad-skelet-v1.md](../prompts/leerpad-skelet-v1.md)
 
 ---
