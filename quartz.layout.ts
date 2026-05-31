@@ -70,6 +70,8 @@ const explorerOpts = {
   },
   filterFn: (node: any) => {
     if (node.slugSegment === "tags") return false
+    if (node.slugSegment === "leerstukken") return false
+    if (node.slugSegment === "themafiches") return false
     if (node.data?.tags?.includes("verborgen")) return false
     return true
   },
