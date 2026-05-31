@@ -317,7 +317,7 @@ Het examen zal hier niet de volledige oefening reproduceren. Wél fragmenten —
 - [[hoe-consolideren]] — voor de techniek nog eens compact gezien: drie methodes, vier stappen, drie families
 - [[consolidatieverschil]] — voor verdieping op afschrijvingsregels (B-GAAP vs IFRS) en badwill
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — voor wat er met de geconsolideerde jaarrekening gebeurt na samenstel: jaarverslag, commissarisverslag, NBB-neerlegging
-- [[themafiches/consolidatie|Themafiche Consolidatie]] — voor compacte herhaling vlak voor het examen
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4]] — voor compacte herhaling vlak voor het examen
 
 → De voorbeeldexamen-pagina van dit PO: [examen-radar](../voorbeeldexamens/po-1.4)
 

@@ -1,7 +1,11 @@
-# Themafiche — schrijfregels v2
+# Themafiche — schrijfregels v2 *(GEARCHIVEERD)*
+
+> **⚠️ Superseded door [ADR-039](../adr/ADR-039-samenvatting-vervangt-themafiche.md) (2026-05-31).** Cluster-themafiches zijn vervangen door PO-samenvattingen. Schrijf nieuwe samenvattingen volgens [`docs/samenvatting-schrijfregels.md`](../samenvatting-schrijfregels.md). Bestaande themafiche-md's worden per PO gemigreerd (zie [`docs/leerstuk-status.md`](../leerstuk-status.md) kolom Samenvatting). Cross-cluster themafiches die meerdere PO's raken blijven voorlopig bestaan tot die PO's een leerpad krijgen — zie ADR-039 § "Cross-cluster themafiches".
+
+---
 
 **Voor**: een Opus/Sonnet-agent of mens die een themafiche schrijft voor een sub-cluster.
-**Canoniek**: [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md).
+**Canoniek**: [ADR-036](../adr/ADR-036-drie-lagen-leermateriaal.md).
 **Gold-standard mockups** (allemaal in `content/themafiches/`): `consolidatie` · `kostprijsmethoden` · `jaarrekeninganalyse-aanpak` · `ratio-families` · `kasstroom-analyse` · `continuiteit-en-diagnose` · `registratierechten` · `successierechten-en-erfrecht` · `successieplanning`.
 
 ---

@@ -72,7 +72,7 @@ Vennootschap is **klein** wanneer ze op balansdatum **niet meer dan één** drem
 ⚠️ Concrete bedragen: **Cijferzakboekje bij examen**.
 
 **Cascade van gevolgen** bij "klein":
-- Verkorte jaarrekening + vrijstelling consolidatie (cross [[themafiches/consolidatie|consolidatie]])
+- Verkorte jaarrekening + vrijstelling consolidatie (cross [[leerpaden/1-4/samenvatting|consolidatie]])
 - Geen commissaris verplicht
 - Niet "klein" voor fiscaal KMO-tarief tenzij art. 1:24 WVV én bezoldigingsregel (min. 45.000 EUR bedrijfsleidersbezoldiging of ≥ belastbaar resultaat) voldaan
 - **Twee opeenvolgende boekjaren** voor wijziging — geen eenmalige overschrijding

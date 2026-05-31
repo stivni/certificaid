@@ -443,7 +443,7 @@ Plus in de geconsolideerde resultatenrekening verschijnt een aparte post *"Aande
 
 - [[consolidatieverschil]] — Wat doe je verder met het positieve of negatieve consolidatieverschil na de eerste consolidatie? Afschrijving onder B-GAAP, niet-recurrente afschrijving, impairment-only onder IFRS.
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — Welke documenten levert de groep op aan haar lezers, en hoe wordt de geconsolideerde jaarrekening gecontroleerd?
-- [[themafiches/consolidatie|Themafiche Consolidatie]] — voor herhaling vlak vóór het examen.
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4]] — voor herhaling vlak vóór het examen.
 
 ## Doorklik naar concepten
 

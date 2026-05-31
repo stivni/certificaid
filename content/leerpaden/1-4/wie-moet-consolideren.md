@@ -168,7 +168,7 @@ De cijfermatige uitwerking — eerste-consolidatie, eliminaties, deconsolidatie 
 - [[hoe-consolideren]] — Hoe pas je een methode toe? Integrale stappen, eliminaties, eerste-consolidatie.
 - [[consolidatieverschil]] — Wat gebeurt er met het verschil tussen aanschafprijs en aandeel in het netto-vermogen?
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — Welke documenten levert de groep op en hoe wordt het gecontroleerd?
-- [[themafiches/consolidatie|Themafiche Consolidatie]] — voor herhaling vlak vóór het examen.
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4]] — voor herhaling vlak vóór het examen.
 
 ## Doorklik naar concepten
 

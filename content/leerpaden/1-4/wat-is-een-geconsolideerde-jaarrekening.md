@@ -101,7 +101,7 @@ De technische uitwerking van die verschillen ligt elders: zie [[consolidatievers
 - [[hoe-consolideren]] — Hoe werkt het technisch? Drie methodes, eerste consolidatie, drie families van eliminaties.
 - [[consolidatieverschil]] — Wat gebeurt er met het verschil (goodwill of badwill) na de eerste consolidatie? Afschrijving, impairment, B-GAAP vs IFRS.
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — Opmaakproces, jaarverslag, commissarisverslag, termijnen en NBB-publicatie.
-- [[themafiches/consolidatie|Themafiche Consolidatie]] — voor herhaling vlak vóór het examen.
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4]] — voor herhaling vlak vóór het examen.
 
 ## Doorklik naar concepten
 

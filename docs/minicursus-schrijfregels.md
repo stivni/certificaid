@@ -11,10 +11,10 @@
 Een minicursus is een PO-niveau studiedocument dat de kandidaat-gecertificeerd-accountant:
 - het *verhaal* van het vak geeft (waarom dit vak, hoe past het in het bredere examenprogramma)
 - de *taak* ontrafelt (wat moet de kandidaat kunnen, per rol)
-- een *leesroute* aanbiedt (in welke volgorde naar de concept-fiches en themafiche(s))
+- een *leesroute* aanbiedt (in welke volgorde naar de leerstukken, samenvatting en oefening)
 - een *examen-radar* geeft (wat is in de praktijk bevraagd)
 
-De minicursus *verwijst* naar concept-fiches en themafiches — ze lijfen die niet in.
+De minicursus *verwijst* naar leerstukken, samenvatting, oefening en concept-fiches — ze lijfen die niet in. (Vóór [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md) heette "samenvatting" een "themafiche" op cluster-niveau; nu één samenvatting per PO.)
 
 ## Doelgroep en toon
 
@@ -72,14 +72,16 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 
 ### 4. Studie-aanpak
 
-**Studie-volgorde voor de kandidaat**: (1) deze minicursus eerst — verhaal + routekaart; (2) de concept-fiches in de leesroute hieronder voor de diepgang; (3) themafiche later als opfrissing wanneer de stof gezien is. Themafiches zijn complementair, geen onderdeel van de leesroute zelf.
+**Studie-volgorde voor de kandidaat**: (1) deze minicursus eerst — verhaal + routekaart; (2) de leerstukken in de leesroute hieronder voor de diepgang (concept-fiches voor begripsdetail waar nodig); (3) PO-samenvatting later als opfrissing wanneer de stof gezien is. De samenvatting is complementair, geen onderdeel van de leesroute zelf.
 
-- **Sub-sectie `### Leesroute door de fiches (X stappen)`** — genummerde lijst van 4-5 stappen, **uitsluitend door concept-fiches** (geen themafiche-stap):
+- **Sub-sectie `### Leesroute door de fiches (X stappen)`** — genummerde lijst van 4-5 stappen, **uitsluitend door leerstukken** (geen samenvatting-stap; samenvatting is geen leesroute-stap):
   - Begint met de wikilink naar de fundament-fiches
   - Bevat een korte rationale-zin ("zonder de plicht en de kring is alles theoretisch")
   - Eindigt logischerwijs met de fiches die op examen het vaakst getoetst worden of de outputs van het proces
-- **Sub-sectie `### Voor de herhaling — themafiche`** — start met deze formulering:
-  > Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+- **Sub-sectie `### Voor de herhaling — samenvatting`** — start met deze formulering:
+  > Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+  
+  Eindig met één wikilink + studietijd-indicatie: `→ [[leerpaden/<po-slug>/samenvatting|Samenvatting PO X.Y — <titel>]] (2-4 A4, printbaar)`. Zie [docs/samenvatting-procedure.md](samenvatting-procedure.md) + [docs/samenvatting-schrijfregels.md](samenvatting-schrijfregels.md).
 - Daarna een tabel met kolommen `Themafiche` · `Rol voor dit vak` (Kern / Vereist / Raakvlak). Themafiches die nog niet bestaan: markeer met `` `Themafiche <naam>` *(nog te maken)* ``.
 
 ### 5. Examen-radar — wat is in de praktijk al bevraagd?

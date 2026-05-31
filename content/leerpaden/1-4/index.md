@@ -72,13 +72,11 @@ Elke leerstuk bundelt de **rol-uitwerking** (boekhouder die de moeder bijstaat �
 
 Het [[individuele-jaarrekening-opmaken]]-leerstuk dekt eindejaarsverrichtingen, resultaatbestemming, proefbalans, sociale balans en waarderingsregels op enkelvoudig niveau. Dat onderdeel is groter dan deze ene minicursus, want het raakt PO 1.1 (boekhouding) en PO 1.2 (jaarrekeningenrecht) ook.
 
-### Voor de herhaling — themafiche
+### Voor de herhaling — samenvatting
 
-Wanneer je de stof grondig gezien hebt en het examen nadert: de **themafiche** is een kapstok op één pagina (printbaar als PDF) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
 
-| Themafiche | Rol voor dit vak |
-|---|---|
-| [[themafiches/consolidatie|Consolidatie]] | **Kern** — dekt al het consolidatie-specifieke |
+→ [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4 — Geconsolideerde jaarrekening]] (2-4 A4, printbaar)
 
 ---
 

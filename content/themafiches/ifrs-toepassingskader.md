@@ -123,7 +123,7 @@ flowchart LR
 **Verwante themafiches**
 - [[themafiches/be-gaap-vs-ifrs-vergelijking|Themafiche — B-GAAP vs IFRS: balansposten]]
 - [[themafiches/boekhoudplicht-en-rechtsbronnen|Themafiche — Boekhoudplicht & rechtsbronnen]]
-- [[themafiches/consolidatie|Themafiche — Consolidatie]] *(IFRS 10/3/11/12 contexten)*
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4 — Consolidatie]] *(IFRS 10/3/11/12 contexten)*
 
 </div>
 

@@ -131,17 +131,18 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 
 ---
 
-## Stap 6 — Themafiche-update
+## Stap 6 — Samenvatting (geheugen-kapstok per PO)
 
-**Doel**: de bestaande themafiche(s) voor dit PO uitbreiden met tweelaags-doorklik naar leerstukken (primair) + concepten (secundair).
+**Doel**: één PO-brede samenvatting bouwen — printbaar op 2-4 A4, voor herhaling vlak vóór het examen. Vervangt de oude cluster-themafiches per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md).
 
-**Hoe**: handmatige edit van `content/themafiches/<cluster>.md`. Volg ADR-037 amendement (themafiche-rol):
+**Hoe**: volg [`docs/samenvatting-procedure.md`](samenvatting-procedure.md):
+- YAML-bron in `data/samenvattingen/<po-slug>.yaml` (zie [`data/samenvattingen/SCHEMA.md`](../data/samenvattingen/SCHEMA.md))
+- Markdown op `content/leerpaden/<po-slug>/samenvatting.md` (hand-rendered of via [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md))
+- Schrijfregels: [`docs/samenvatting-schrijfregels.md`](samenvatting-schrijfregels.md) — telegram-stijl, tabellen/diagrammen/formules dominant
 
-- Sectie "Concept-index" hernoemen naar "Verdieping"
-- Twee sub-secties: "Leerstukken — voor pedagogische opfris" + "Concept-fiches — voor definitorisch detail"
-- Inhoud blijft visueel-dominant (tabellen, beslisbomen, formules) — schrijfregels-revisie van themafiche komt in een latere ronde
+**Indien er voor dit PO al cluster-themafiches bestaan**: merge ze tot één samenvatting volgens § "Migratie uit themafiches" in de schrijfregels. Verwijder de oude `content/themafiches/<cluster>.md`-bestanden in dezelfde commit. Cross-cluster themafiches die meerdere PO's raken blijven voorlopig staan (zie ADR-039 § "Cross-cluster themafiches").
 
-**Indien er voor dit PO geen themafiche bestaat**: maak een nieuwe volgens [`docs/themafiche-schrijfregels.md`](themafiche-schrijfregels.md) — POC-mockup in `content/themafiches/<cluster>.md`.
+**Gold-standard**: PO 1.4 ([`content/leerpaden/1-4/samenvatting.md`](../content/leerpaden/1-4/samenvatting.md) + [`data/samenvattingen/1-4.yaml`](../data/samenvattingen/1-4.yaml) — in opbouw).
 
 ---
 

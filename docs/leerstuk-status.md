@@ -1,22 +1,22 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC op PO 1.4 Nordica)
+**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC + samenvatting-laag POC infra klaar, ADR-039)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
 
 ## Stand per programmaonderdeel
 
-| PO | Skelet | Scripts | Markdown gerendered | Minicursus aangepast | Themafiche tweelaags | Oefening | Status |
+| PO | Skelet | Scripts | Markdown gerendered | Minicursus aangepast | Samenvatting *(was themafiche)* | Oefening | Status |
 |---|---|---|---|---|---|---|---|
 | **1.1** Boekhouding | — | — | — | — | — | — | Openstaand |
 | **1.2** Boekhoud- en jaarrekeningenrecht | — | — | — | — | — | — | Openstaand |
 | **1.3** Analyse van de jaarrekening | — | — | — | — | — | — | Openstaand |
-| **1.4** Geconsolideerde jaarrekening | ✅ retro [docs/leerpad-skelet-1-4.md](leerpad-skelet-1-4.md) | ✅ 6/6 ([data/leerstukken/](../data/leerstukken/)) | ✅ 6/6 (5 in `content/leerpaden/1-4/`, 1 cross-PO in `content/leerstukken/`) | ✅ [content/leerpaden/1-4/index.md](../content/leerpaden/1-4/index.md) (3+4 samengevoegd, § 6 Oefening toegevoegd) | ✅ [content/themafiches/consolidatie.md](../content/themafiches/consolidatie.md) | ✅ Nordica ([data/oefeningen/nordica-consolideren.yaml](../data/oefeningen/nordica-consolideren.yaml) + [content/leerpaden/1-4/oefening.md](../content/leerpaden/1-4/oefening.md)) — **POC voor oefening-laag** | **Voltooid** (POC voor schema-validatie + POC voor oefening-laag) |
+| **1.4** Geconsolideerde jaarrekening | ✅ retro [docs/leerpad-skelet-1-4.md](leerpad-skelet-1-4.md) | ✅ 6/6 ([data/leerstukken/](../data/leerstukken/)) | ✅ 6/6 (5 in `content/leerpaden/1-4/`, 1 cross-PO in `content/leerstukken/`) | ✅ [content/leerpaden/1-4/index.md](../content/leerpaden/1-4/index.md) (3+4 samengevoegd, § 6 Oefening + § "Voor herhaling" → samenvatting toegevoegd) | ✅ [content/leerpaden/1-4/samenvatting.md](../content/leerpaden/1-4/samenvatting.md) (markdown gemigreerd uit themafiche per ADR-039; YAML-bron in opbouw) | ✅ Nordica ([data/oefeningen/nordica-consolideren.yaml](../data/oefeningen/nordica-consolideren.yaml) + [content/leerpaden/1-4/oefening.md](../content/leerpaden/1-4/oefening.md)) — **POC voor oefening-laag** | **Voltooid** (POC voor schema-validatie + POC voor oefening-laag + POC voor samenvatting-laag — YAML-bron in opbouw) |
 | **1.5** IFRS | — | — | — | — | — | — | Openstaand |
 | **1.6** Externe controle | — | — | — | — | — | — | Openstaand |
 | **1.7** Interne controle | — | — | — | — | — | — | Openstaand |
-| **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/leerpaden/1-8/`) | ✅ [content/leerpaden/1-8/index.md](../content/leerpaden/1-8/index.md) | ✅ 4 fiches geüpdatet ([analytische-boekhouding-stelsel](../content/themafiches/analytische-boekhouding-stelsel.md), [kostprijsmethoden](../content/themafiches/kostprijsmethoden.md), [break-even-en-marginale-analyse](../content/themafiches/break-even-en-marginale-analyse.md), [budget-en-variantieanalyse](../content/themafiches/budget-en-variantieanalyse.md)) | — *(kandidaat — zie [docs/oefening-procedure.md](oefening-procedure.md))* | **Voltooid** leerstukken (tweede PO na 1.4); oefening nog te bouwen |
+| **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/leerpaden/1-8/`) | ✅ [content/leerpaden/1-8/index.md](../content/leerpaden/1-8/index.md) | — *(4 themafiches te mergen naar 1 samenvatting per ADR-039 — zie [docs/samenvatting-procedure.md](samenvatting-procedure.md))* | — *(kandidaat — zie [docs/oefening-procedure.md](oefening-procedure.md))* | **Voltooid** leerstukken (tweede PO na 1.4); samenvatting-merge + oefening nog te bouwen |
 | **1.9** Financiële analyse | — | — | — | — | — | — | Openstaand |
 | **2.1** Beroepsethiek | — | — | — | — | — | — | Openstaand |
 | **2.2** Personenbelasting | — | — | — | — | — | — | Openstaand |
@@ -70,10 +70,11 @@ Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan
 - **Nieuwe PO starten**: [docs/leerstuk-procedure.md](leerstuk-procedure.md) Stap 0-7
 - **Bestaand leerstuk bijwerken**: [docs/leerstuk-procedure.md](leerstuk-procedure.md) §"Feedback op een bestaand leerstuk"
 - **Oefening toevoegen voor een PO** (5e leerlaag): [docs/oefening-procedure.md](oefening-procedure.md) — 4 stappen + 3 pijlers (geen hints in opgave · realistische individuele JR · niet-voorkauwende instructies)
-- **Beleid**: [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md)
-- **Schrijfregels**: [docs/leerstuk-schrijfregels.md](leerstuk-schrijfregels.md) · [docs/minicursus-schrijfregels.md](minicursus-schrijfregels.md) (§ 7 oefening — POC)
-- **Script-schemas**: [data/leerstukken/SCHEMA.md](../data/leerstukken/SCHEMA.md) · [data/oefeningen/SCHEMA.md](../data/oefeningen/SCHEMA.md)
-- **Render-prompts**: [prompts/leerstuk-render-v1.md](../prompts/leerstuk-render-v1.md) · [prompts/oefening-render-v1.md](../prompts/oefening-render-v1.md)
+- **Samenvatting toevoegen voor een PO** (vervangt cluster-themafiches per ADR-039): [docs/samenvatting-procedure.md](samenvatting-procedure.md) — 4 stappen + 3 pijlers (visueel-dominant · 2-4 A4 printbaar · geen cross-PO refs)
+- **Beleid**: [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md) (leerstukken) · [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md) (samenvatting vervangt themafiche)
+- **Schrijfregels**: [docs/leerstuk-schrijfregels.md](leerstuk-schrijfregels.md) · [docs/samenvatting-schrijfregels.md](samenvatting-schrijfregels.md) · [docs/minicursus-schrijfregels.md](minicursus-schrijfregels.md) · ~~themafiche-schrijfregels~~ (gearchiveerd, zie `docs/archive/`)
+- **Script-schemas**: [data/leerstukken/SCHEMA.md](../data/leerstukken/SCHEMA.md) · [data/oefeningen/SCHEMA.md](../data/oefeningen/SCHEMA.md) · [data/samenvattingen/SCHEMA.md](../data/samenvattingen/SCHEMA.md)
+- **Render-prompts**: [prompts/leerstuk-render-v1.md](../prompts/leerstuk-render-v1.md) · [prompts/oefening-render-v1.md](../prompts/oefening-render-v1.md) · [prompts/samenvatting-render-v1.md](../prompts/samenvatting-render-v1.md)
 - **Skelet-prompt**: [prompts/leerpad-skelet-v1.md](../prompts/leerpad-skelet-v1.md)
 
 ---

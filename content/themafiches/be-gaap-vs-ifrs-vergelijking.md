@@ -99,7 +99,7 @@ flowchart TD
 **Verwante themafiches**
 - [[themafiches/ifrs-toepassingskader|Themafiche — IFRS-toepassingskader & EU-richtlijn]]
 - [[themafiches/eindejaarsverrichtingen-en-waardering|Themafiche — Eindejaarsverrichtingen & waardering]] *(B-GAAP-mechaniek)*
-- [[themafiches/consolidatie|Themafiche — Consolidatie]] *(IFRS 10/3/11/12)*
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4 — Consolidatie]] *(IFRS 10/3/11/12)*
 
 </div>
 

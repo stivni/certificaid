@@ -1,15 +1,15 @@
 ---
-title: "Themafiche — Consolidatie"
-description: "Themafiche voor cluster consolidatie (PO 1.4): van plicht tot opmaak in één overzicht — printbaar als PDF voor snelle herhaling"
+title: "Samenvatting PO 1.4 — Geconsolideerde jaarrekening"
+description: "PO-samenvatting (geheugen-kapstok): essentie, methode-vergelijking, beslisboom, formules en valkuilen op enkele A4 — printbaar voor de week vóór het examen"
+explorer_title: "7. Samenvatting"
 tags:
-  - themafiche
+  - samenvatting
   - po-1.4
-  - cluster-consolidatie
 ---
 
 <div class="no-print">
 
-> **Themafiche — kapstok voor herhaling.** Eén pagina die het hele consolidatie-cluster samenvat in vaste blokken: essentie, vergelijking van methodes, beslisboom, formules, valkuilen. Bedoeld om in de week vóór het examen nog snel door te lopen — niet om voor het eerst te leren. Voor uitleg: de losse concept-fiches. Voor het verhaal en de leesroute: [[leerpaden/1-4|minicursus PO 1.4]].
+> **Samenvatting — kapstok voor herhaling.** Enkele A4 die het hele PO samenvatten in vaste blokken: essentie, vergelijking van methodes, beslisboom, formules, valkuilen. Bedoeld om in de week vóór het examen nog snel door te lopen — niet om voor het eerst te leren. Voor uitleg en doorwerking: de leerstukken van dit leerpad. Voor verhaal en routekaart: [[leerpaden/1-4|minicursus PO 1.4]].
 
 </div>
 

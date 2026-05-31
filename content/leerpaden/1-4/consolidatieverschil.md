@@ -119,7 +119,7 @@ Eén nabrander voor het verkoop-scenario: realiseert de moeder later (een deel v
 
 - [[hoe-consolideren]] — Voor de bredere context: methodes en de drie families eliminaties waarin het consolidatieverschil voor het eerst ontstaat.
 - [[rapportering-en-controle-geconsolideerde-jaarrekening]] — Hoe komen consolidatieverschillen aan bod in het jaarverslag, de toelichting en het commissarisverslag?
-- [[themafiches/consolidatie|Themafiche Consolidatie]] — Voor herhaling vlak vóór het examen.
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4]] — Voor herhaling vlak vóór het examen.
 
 ## Doorklik naar concepten
 

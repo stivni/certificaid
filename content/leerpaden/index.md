@@ -8,7 +8,7 @@ explorer_title: "Leerpaden"
 
 Elke minicursus geeft je het *verhaal en de routekaart* van het programmaonderdeel: waarom dit vak, hoe het past in het bredere programma, wat je moet kunnen, en in welke volgorde je de [[concepten/index|concept-fiches]] best aanpakt.
 
-> **Studie-volgorde**: (1) Begin met de minicursus voor verhaal en routekaart. (2) Werk vervolgens de concept-fiches door in de aangegeven leesvolgorde. (3) Gebruik tot slot de [[themafiches/consolidatie|themafiches]] *(in opbouw)* als opfrissingsdocument in de week vóór het examen — printbaar als PDF.
+> **Studie-volgorde**: (1) Begin met de minicursus voor verhaal en routekaart. (2) Werk vervolgens de concept-fiches door in de aangegeven leesvolgorde. (3) Gebruik tot slot de [[leerpaden/1-4/samenvatting|PO-samenvatting]] *(in opbouw — eerste op PO 1.4)* als opfrissingsdocument in de week vóór het examen — printbaar als PDF.
 
 ## Boekhouding (laag 1)
 
@@ -68,6 +68,6 @@ Elke minicursus volgt zes vaste secties:
 ## Andere studiehulp
 
 - [[concepten/index|Concept-fiches]] — diepgang per begrip
-- [[themafiches/consolidatie|Themafiches]] *(in opbouw)* — kapstok-documenten voor snelle herhaling
+- [[leerpaden/1-4/samenvatting|Samenvattingen per PO]] *(in opbouw — eerste op PO 1.4)* — kapstok-documenten voor snelle herhaling
 - [[voorbeeldexamens/index|Voorbeeldexamens]] — vragen + modelantwoorden uit 2013-2024
 - [[bronnen/normen/index|Bronnen]] — primaire bronteksten (ITAA-normen, wetteksten)

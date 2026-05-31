@@ -1,0 +1,173 @@
+# Samenvatting-script — PO 1.4 Geconsolideerde jaarrekening
+#
+# POC voor schema in data/samenvattingen/SCHEMA.md.
+# Reverse-engineerd uit content/leerpaden/1-4/samenvatting.md (zelf gemigreerd
+# uit het oude content/themafiches/consolidatie.md per ADR-039).
+#
+# Status: nieuw — dient als sjabloon voor andere PO-samenvattingen.
+
+meta:
+  slug: "1-4"
+  titel: "Geconsolideerde jaarrekening"
+  po: "1.4"
+  beschrijving: "PO-samenvatting (geheugen-kapstok): essentie, methode-vergelijking, beslisboom, formules en valkuilen op enkele A4 — printbaar voor de week vóór het examen"
+  explorer_title: "7. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Standaard samenvatting-intro met expliciete "kapstok voor herhaling, niet om voor het eerst
+    te leren". Verwijs door naar de leerstukken van het leerpad (voor uitleg en doorwerking) en
+    naar de minicursus (voor verhaal en routekaart).
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie 1: TAKE-AWAY
+# ---------------------------------------------------------------------------
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Wat?** Moeder + dochters als **één economische eenheid** — niet door optelling, maar door **eliminatie** van intra-groep-relaties (deelnemingen, vorderingen, omzet, niet-gerealiseerde winsten) + **uniforme waarderingsregels** voor alle entiteiten."
+    - "**Wanneer plichtig?** Twee voorwaarden samen: (1) **controle** over één of meer dochters (verticaal of via consortium); (2) **groep 'groot'** op geconsolideerde basis (drempels — zie blok Drempels)."
+    - "**Welke methode?** Volgt het type controle: exclusief (>50%) → integrale consolidatie · gezamenlijk → evenredige of VMM · invloed van betekenis (≥20%) → vermogensmutatie."
+    - "**Eerste consolidatie**: aankoopprijs deelneming vs aandeel in EV dochter (na herwaardering tegen reële waarde). Verschil = **goodwill** (positief) of **badwill** (negatief)."
+
+# ---------------------------------------------------------------------------
+# Optionele extra blokken — volgorde = render-volgorde
+# ---------------------------------------------------------------------------
+
+extra_blokken:
+
+  - id: vergelijkingstabel-methodes
+    type: tabel-vergelijking
+    titel: "Vergelijkingstabel — de drie consolidatiemethodes"
+    kolommen: ["Aspect", "Integrale consolidatie", "Evenredige consolidatie", "Vermogensmutatie (VMM)"]
+    rijen:
+      - ["**Wanneer?**", "Exclusieve controle", "Gezamenlijke controle (joint venture)", "Invloed van betekenis (≥20%, geen controle)"]
+      - ["**Hoeveel opnemen?**", "100% van alle posten", "% deelneming, lijn per lijn", "1 lijn: aandeel in eigen vermogen"]
+      - ["**Activa/passiva dochter zichtbaar?**", "Ja, volledig", "Ja, pro rata", "Nee, samengevoegd op 1 balanslijn"]
+      - ["**Omzet & kosten dochter zichtbaar?**", "Ja, volledig", "Ja, pro rata", "Nee, alleen aandeel in resultaat"]
+      - ["**Minderheidsbelangen?**", "Ja, aparte rubriek 'belangen van derden'", "Nee", "Nee"]
+      - ["**Intercompany-eliminatie?**", "Volledig", "Pro rata", "Beperkt (alleen niet-gerealiseerde winsten op eigen aandeel)"]
+      - ["**B-GAAP rechtsgrond**", "art. 3:131 KB-WVV", "art. 3:134 KB-WVV", "art. 3:139 KB-WVV"]
+      - ["**IFRS pendant**", "IFRS 10", "⚠️ Afgeschaft — vervangen door VMM (IFRS 11)", "IAS 28"]
+    noot: "💡 B-GAAP ↔ IFRS: onder IFRS 11 is evenredige consolidatie voor joint ventures **niet meer toegestaan** — sinds 2014 verplicht VMM. B-GAAP blijft het wel toelaten."
+
+  - id: visueel-balans-effect
+    type: tabel-vergelijking
+    titel: "Visueel — wat zie je op de geconsolideerde balans?"
+    intro: "**Voorbeeld**: moeder M heeft **80%** van dochter D. D op enkelvoudige balans: activa 100, schulden 60, eigen vermogen 40."
+    kolommen: ["Post (van dochter D)", "Integrale consolidatie", "Evenredige consolidatie", "Vermogensmutatie (VMM)"]
+    rijen:
+      - ["Activa dochter (100)", "**+ 100**", "+ 80 *(= 80% × 100)*", "—"]
+      - ["Schulden dochter (60)", "+ 60", "+ 48 *(= 80% × 60)*", "—"]
+      - ["Eigen vermogen groep", "+ 32 *(= 80% × 40)*", "+ 32", "+ 32"]
+      - ["Belangen van derden", "**+ 8** *(= 20% × 40)*", "—", "—"]
+      - ["1 balanslijn 'Deelneming VMM'", "—", "—", "**+ 32**"]
+      - ["**Resultaat (P&L)**", "100% omzet & kosten", "80% omzet & kosten", "1 lijn: aandeel in resultaat"]
+      - ["**Visueel effect**", "alle posten dochter zichtbaar, minderheid apart", "fractioneel gemengd", "alles samengebald op 1 lijn"]
+
+  - id: beslisboom
+    type: mermaid
+    titel: "Beslisboom — 'moet ik consolideren, en hoe?'"
+    mermaid_type: flowchart-td
+    code: |
+      A[Is er een moeder-dochter-relatie?] -->|Nee| Z1[Geen consolidatie]
+      A -->|Ja, controle bewezen| B{Is de groep<br/>'groot' op<br/>geconsolideerde basis?}
+      B -->|Nee — kleine groep| Z2[Vrijgesteld<br/>consolidatieplicht]
+      B -->|Ja| C[Consolidatieplicht]
+      C --> D{Welk type controle<br/>per deelneming?}
+      D -->|Exclusief >50%| M1[Integrale consolidatie<br/>+ minderheidsbelangen]
+      D -->|Gezamenlijk<br/>joint venture| M2{Stelsel?}
+      M2 -->|B-GAAP| M2a[Evenredige<br/>OF vermogensmutatie]
+      M2 -->|IFRS| M2b[Vermogensmutatie<br/>verplicht]
+      D -->|Invloed van<br/>betekenis ≥20%| M3[Vermogensmutatie]
+      D -->|<20%, geen<br/>controle| M4[Geen consolidatie —<br/>blijft op klasse 28<br/>aan reële waarde]
+
+  - id: drempels-en-formules
+    type: tabellen-en-formules
+    titel: "Drempels & formules"
+    sub_blokken:
+      - type: tabel-inline
+        sub_titel: "Drempels consolidatieplicht (groep 'groot' — art. 1:26 WVV)"
+        intro: "Een groep is **klein** (vrijgesteld van consolidatieplicht) als zij op geconsolideerde basis **niet meer dan één** van de drempels overschrijdt, gedurende twee opeenvolgende boekjaren:"
+        kolommen: ["Criterium", "Drempel (geconsolideerd)"]
+        rijen:
+          - ["Jaargemiddelde personeel", "250"]
+          - ["Jaaromzet (excl. btw)", "Cijferzakboekje — verhoogd door Wet 28 maart 2024"]
+          - ["Balanstotaal", "Cijferzakboekje — verhoogd door Wet 28 maart 2024"]
+        noot: "⚠️ Beursgenoteerde moeders zijn **altijd** consolidatieplichtig, ongeacht omvang."
+      - type: formule
+        sub_titel: "Goodwill — eerste consolidatie"
+        formule: "\\text{Goodwill} = \\text{Aankoopprijs deelneming} - (\\text{\\% deelneming} \\times \\text{Netto eigen vermogen dochter}_{\\text{reële waarde}})"
+        beschrijving_na: |
+          - **Positief** → goodwill → actief, afschrijven volgens economische levensduur (B-GAAP: max periode te verantwoorden; IFRS: geen afschrijving, jaarlijkse impairment-test)
+          - **Negatief** → badwill → passief, geleidelijk terugnemen in resultaat (B-GAAP) of onmiddellijk in resultaat (IFRS, na review)
+      - type: formule
+        sub_titel: "Minderheidsbelangen (integrale consolidatie)"
+        formule: "\\text{Belangen van derden} = (1 - \\text{\\% moeder}) \\times \\text{Eigen vermogen dochter}_{\\text{geconsolideerd}}"
+        beschrijving_na: "Verschijnt apart op de balans (tussen eigen vermogen en schulden onder B-GAAP; ín het eigen vermogen onder IFRS)."
+
+  - id: verbinding-examen
+    type: prose-blok
+    titel: "Verbinding met examen (PO 1.4)"
+    beats:
+      - "PO 1.4 — *Geconsolideerde jaarrekening* — heeft één taak met 7 doelstellingen, gedeeld door individuele én geconsolideerde JR. Operationele vaardigheden specifiek voor consolidatie (kring bepalen, methode kiezen, eerste consolidatie boeken, intercompany elimineren) leven in de concept-records via accountant_perspectieven (rol boekhouder/auditor/adviseur). Volg de Verdieping-sectie voor doorklik."
+      - "Een mapping van de officiële doelstellingen op de leerstukken/concept-clusters volgt in een tabel in dit blok. Doelstellingen 1, 2, 3, 5, 7 leiden naar cluster jaarrekening. Doelstelling 4 (opstellen jaarrekening) wordt op groepsniveau gedekt door de leerstukken in dit leerpad + [[opmaak-geconsolideerde-jaarrekening]] concept-fiche. Doelstelling 6 (waarderingsregels) raakt het uniforme-waarderingsregels-aspect van consolidatie (groepsbreed uniform) plus de individuele waarderingsregels (cluster waarderingsregels)."
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VALKUILEN (3-koloms tabel)
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  titel: "Klassieke valkuilen (examen-radar)"
+  format: tabel
+  rijen:
+    - valkuil: "'Geconsolideerde JR = som van enkelvoudige JR's'"
+      wat_klopt_niet: "Pure optelling overdrijft de groep ~2×"
+      wat_klopt_wel: "Optelling + **eliminaties** + uniforme waardering"
+    - valkuil: "'Bij integrale consolidatie zie je geen minderheid'"
+      wat_klopt_niet: "Minderheidsbelang is wél zichtbaar — als aparte rubriek 'belangen van derden'"
+      wat_klopt_wel: "Methode neemt 100% op, minderheid wordt apart getoond"
+    - valkuil: "'Joint venture → altijd evenredig'"
+      wat_klopt_niet: "Onder IFRS 11 sinds 2014 **verboden** voor joint ventures"
+      wat_klopt_wel: "B-GAAP: keuze tussen evenredig en VMM; IFRS: VMM verplicht"
+    - valkuil: "'Goodwill = alle synergie + merknaam'"
+      wat_klopt_niet: "Identificeerbare immateriële activa (merken, klantenrelaties) moeten **apart** worden geherwaardeerd vóór de goodwill-berekening"
+      wat_klopt_wel: "Goodwill = restpost ná herwaardering tegen reële waarde"
+    - valkuil: "'Klein-groep vrijstelling geldt altijd'"
+      wat_klopt_niet: "Beursgenoteerde groepen **nooit** vrijgesteld"
+      wat_klopt_wel: "Vrijstelling alleen voor niet-beursgenoteerde groepen onder drempels"
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VERDIEPING (doorklik)
+# ---------------------------------------------------------------------------
+
+doorklik:
+  intro: "Werkt iets niet meer scherp? Klik door naar het leerstuk of de concept-fiche die het uitwerkt:"
+  leerstukken:
+    - slug: wat-is-een-geconsolideerde-jaarrekening
+      hint: "wat het document is, voor wie, vier onderdelen, B-GAAP versus IFRS"
+    - slug: wie-moet-consolideren
+      hint: "controle (3 niveaus), kring (verticaal/consortium), drempels, vrijstellingen, kring-wijzigingen"
+    - slug: hoe-consolideren
+      hint: "vier stappen + drie methodes + eerste consolidatie + drie families eliminaties"
+    - slug: consolidatieverschil
+      hint: "berekening, afschrijving (B-GAAP) versus impairment (IFRS), badwill"
+    - slug: rapportering-en-controle-geconsolideerde-jaarrekening
+      hint: "opmaak-proces, geconsolideerd jaarverslag, commissarisverslag, termijnen + NBB"
+  concept_groepen:
+    - label: "Kaders & plicht"
+      concepten: [geconsolideerde-jaarrekening, consolidatieverplichting, consolidatiekring, controle-bij-consolidatie]
+    - label: "Methodes"
+      concepten: [consolidatiemethoden, integrale-consolidatie, evenredige-consolidatie, vermogensmutatiemethode]
+    - label: "Specifieke begrippen & verrichtingen"
+      concepten: [eerste-consolidatie, consolidatieverschil, minderheidsbelangen, eliminatie-intercompany, uniforme-waarderingsregels-consolidatie, wijziging-consolidatiekring]
+    - label: "Opmaak & rapportering"
+      concepten: [opmaak-geconsolideerde-jaarrekening, geconsolideerd-jaarverslag]
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+footer: "Samenvatting PO 1.4. Status: voorgesteld — reverse-engineerd uit oude themafiche-consolidatie per ADR-039 als POC voor samenvatting-laag."

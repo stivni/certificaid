@@ -133,7 +133,7 @@ flowchart TD
 **Verwante themafiches**
 - [[themafiches/vennootschapsvormen|Themafiche — Vennootschapsvormen]]
 - [[themafiches/kapitaalbescherming-en-alarmbel|Themafiche — Kapitaalbescherming & alarmbel]]
-- [[themafiches/consolidatie|Themafiche — Consolidatie]]
+- [[leerpaden/1-4/samenvatting|Samenvatting PO 1.4 — Consolidatie]]
 
 </div>
 

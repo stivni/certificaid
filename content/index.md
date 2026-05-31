@@ -6,7 +6,7 @@ title: "Certificaid"
 
 Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 
-> **Studie-volgorde**: begin met de [[leerpaden/index|minicursus]] van een programmaonderdeel voor het verhaal en de routekaart, werk dan door de [[concepten/index|concept-fiches]] voor de diepgang, gebruik tot slot de [[themafiches/consolidatie|themafiches]] *(in opbouw)* als opfrissing in de week vóór het examen.
+> **Studie-volgorde**: begin met de [[leerpaden/index|minicursus]] van een programmaonderdeel voor het verhaal en de routekaart, werk dan door de [[concepten/index|concept-fiches]] voor de diepgang, gebruik tot slot de [[leerpaden/1-4/samenvatting|PO-samenvatting]] *(in opbouw — eerste op PO 1.4)* als opfrissing in de week vóór het examen.
 
 ## Leerpaden — minicursus per programmaonderdeel
 
@@ -55,7 +55,7 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 ## Catalogi
 
 - [[concepten/index|Alle concept-fiches]] — diepgang per begrip
-- [[themafiches/consolidatie|Themafiches]] *(in opbouw)* — kapstok-documenten voor herhaling
+- [[leerpaden/1-4/samenvatting|Samenvattingen per PO]] *(in opbouw — eerste op PO 1.4)* — kapstok-documenten voor herhaling
 - [[voorbeeldexamens/index|Voorbeeldexamens]] — vragen + modelantwoorden
 
 ## Bronnen

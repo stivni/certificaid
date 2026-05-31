@@ -200,7 +200,7 @@ Voor andere PO's: overweeg eerst hergebruik (vooral als context vergelijkbaar is
 
 ## 7. Themafiche-mapping
 
-**Bestaande themafiche**: [content/themafiches/consolidatie.md](../content/themafiches/consolidatie.md) — al aanwezig, gold-standard volgens ADR-036.
+**Bestaande themafiche**: [content/leerpaden/1-4/samenvatting.md](../content/leerpaden/1-4/samenvatting.md) — gemigreerd uit themafiche per ADR-039.
 
 Geüpdatet in deze ronde:
 - Sectie "Concept-index" → "Verdieping" met tweelaags-doorklik
