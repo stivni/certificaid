@@ -1,0 +1,210 @@
+# Leerstuk-script — kritische beoordeling en diagnose
+#
+# Synthese-leerstuk voor PO 1.3. Integratie-niveau: alle techniek samenbrengen
+# in een onderbouwd oordeel + voorstellen aan het bestuur. Bevat ook
+# continuïteits-signalen, Altman Z-score, window-dressing-risico's.
+
+meta:
+  slug: kritische-beoordeling-en-diagnose
+  titel: "Kritische beoordeling en diagnose — van getallen naar oordeel en voorstellen"
+  po: "1.3"
+  cluster: jaarrekeninganalyse
+  voorbeeldgroep: belova
+  beschrijving: >
+    Leerstuk PO 1.3 — het synthese-leerstuk. Alle voorgaande techniek
+    (herwerken + ratio's + kasstroom) wordt geïntegreerd tot een onderbouwd
+    oordeel + concrete aanbevelingen. Bevat continuïteits-evaluatie,
+    Altman Z-score en window-dressing-detectie. Doelstelling 1.3.1.2.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Volgt op alle voorgaande techniek-leerstukken.
+    Vermeld: dit is het integratie-niveau van PO 1.3 — programma-doelstelling 1.3.1.2
+    (voorstellen formuleren). De student moet hier laten zien dat hij niet alleen
+    rekent maar ook oordeelt en adviseert.
+
+antwoord_in_een_blik:
+  beats:
+    - "Diagnose ≠ ratio-tabel. Het is een verhaal: vier ratio-families + kasstroom + DuPont + hefboomanalyse + sector-benchmark + kwalitatieve context, geïntegreerd tot één oordeel"
+    - "Vijf-stappen-werkwijze: (1) context vaststellen, (2) ratio-analyse vier families, (3) cross-categorie verbanden, (4) kwalitatieve verdieping, (5) eindoordeel + aanbevelingen"
+    - "Continuïteits-evaluatie: ratio-signalen + Altman Z-score + kasstroomtrend. Bij ernstige twijfel raakt dit PO 1.6 (audit going-concern) en PO 1.9 (alarmbel WVV)"
+    - "Belova-eindoordeel: niet acuut bedreigd maar fundamenteel ondervraging waardig. Margedruk + werkkapitaal-stress + covenant-spanning. Aanbevelingen rond marge, voorraad, debiteuren, covenant-gesprek"
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Stap", "Wat doe je?"]
+      rijen:
+        - ["1. Context", "Strategie · sector · levensfase · stakeholders"]
+        - ["2. Ratio's", "Vier families + 3-jaar evolutie + sector-benchmark"]
+        - ["3. Cross-categorie", "DuPont · CCC · hefboom-toets"]
+        - ["4. Kwalitatief", "Bestuursverslag · toelichting · sector-context"]
+        - ["5. Synthese", "Oordeel + 3-5 aanbevelingen aan bestuur"]
+
+opbouw:
+
+  - id: vijf-stappen-werkwijze
+    titel: "De vijf-stappen-werkwijze voor financiële diagnose"
+    niveau: 2
+    beats:
+      - "Open met principe: een diagnose schrijven is een ambachtswerk. Niet één tabel maar een doorgewerkt proces"
+      - "Stap 1 (context): begin niet met cijfers. Begin met strategische + sectorale context. Welke generic strategy voert het bedrijf? In welke sector zit het? Wat is de levensfase? Wie zijn de stakeholders?"
+      - "Stap 2 (ratio's): bouw de vier-families-tabel met 3-jaar evolutie + sector-benchmark. Markeer top-3 alarmsignalen"
+      - "Stap 3 (cross-categorie): pas DuPont toe op ROE; bereken CCC; toets hefboomeffect. De échte mechanismen tonen zich pas in verbanden"
+      - "Stap 4 (kwalitatief): lees bestuursverslag + toelichting + sector-rapporten. Verklaart eenmalig of structureel? Window-dressing-risico?"
+      - "Stap 5 (synthese + advies): formuleer 3-5 sterktes + 3-5 zwaktes + 3-5 aanbevelingen. Stuur naar bestuur, bank, commissaris of cliënt"
+
+  - id: belova-stap-1-context
+    titel: "Belova — Stap 1: context"
+    niveau: 2
+    beats:
+      - "Belova NV: groothandel meubilair (NACE 46.470), 62 vte, opgericht 2002, gevestigd Antwerpen. Grote vennootschap → volledig schema"
+      - "Sector-context: meubelsector zit onder margedruk door e-commerce-shift + Aziatische import-concurrentie. Premium-segment houdt stand; mid-market krimpt"
+      - "Strategie: Belova ligt in mid-market — distributeur naar interieurzaken en winkelketens. Kwetsbaar voor de sector-evolutie"
+      - "Levensfase: mature. Geen start-up-groei, geen herstructurering, wel langzaam-groeiende omzet met krimpende marges"
+      - "Stakeholders: één bank (BNP Fortis) met covenanten — significant; één commissaris (mandaat 2024-2026); twee bestuurders met persoonlijke borg op kaskrediet — governance-signaal"
+
+  - id: belova-stap-2-ratios-synthese
+    titel: "Belova — Stap 2: ratio-synthese vier families"
+    niveau: 2
+    beats:
+      - "Synthese-tabel met conclusie per familie. Detail-berekeningen zitten in [[ratios-en-kengetallen]]"
+      - "Liquiditeit: ✅ comfortabel maar dalend (current 1,92 boven sector). Cash-buffer 1.730 K EUR"
+      - "Solvabiliteit: 🟡 stabiel maar onder sector. Interest coverage 🔴 onder covenant-grens"
+      - "Rentabiliteit: 🔴 over de hele lijn rood — alle margekentallen onder sector + sterke daling -54 % EBIT in 2 jaar"
+      - "Activiteit: 🔴 werkkapitaal-cyclus vertraagt (CCC 76 vs sector 49). DSO + DIO stijgen, DPO daalt — drievoudige negatieve evolutie"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Familie", "Kernratio Belova N", "Sector", "Oordeel"]
+        rijen:
+          - ["Liquiditeit", "Current 1,92 · Cash ratio 0,57", "1,75 · 0,30", "✅ Comfortabel"]
+          - ["Solvabiliteit", "Schuldgraad 66,8 % · IC 3,3×", "65,0 % · 5,5×", "🔴 IC onder covenant"]
+          - ["Rentabiliteit", "EBITDA-marge 4,2 % · ROE 5,9 %", "6,5 % · 10,5 %", "🔴 Margedruk"]
+          - ["Activiteit", "CCC 76 d · DIO 74 d", "49 d · 62 d", "🔴 Werkkapitaal-stress"]
+
+  - id: belova-stap-3-cross-categorie
+    titel: "Belova — Stap 3: cross-categorie verbanden"
+    niveau: 2
+    beats:
+      - "DuPont-analyse (al uitgewerkt in [[ratios-en-kengetallen]]): ROE-daling 18,4 % → 5,9 % is volledig marge-gedreven. Asset turnover en hefboom stabiel"
+      - "Cash conversion cycle: 76 dagen vs sector 49 — werkkapitaal-druk hangt direct samen met BBK-stijging (+625 K over 2 jaar). Beide zelfde fenomeen, andere uitdrukking"
+      - "Hefboomeffect-toets: ROA na bel. 2,74 % < kostprijs VV 3,23 % → NEGATIEF hefboomeffect. Schuld duwt ROE naar beneden — schuldreductie zou ROE direct verbeteren"
+      - "Cash-vs-winst-verband: winst 164 K, operationele cashflow -236 K → werkkapitaal vreet alle winst en méér op. BBK-stijging is letterlijk de cash-uitstroom"
+      - "Drie mechanismen samen: prijsdruk in sector (margine) + Aziatische lev. met langere lead-time (voorraad) + klanten betalen later (DSO). Niet drie losse problemen — één strategisch patroon"
+      - "Blockquote-aside: deze cross-verbanden zijn het verschil tussen ratio-lezing en analyse. Wie alleen 'ROE is gedaald' rapporteert, mist het mechanisme. Wie DuPont + CCC + hefboom-toets combineert, ziet structureel patroon"
+
+  - id: belova-stap-4-kwalitatief
+    titel: "Belova — Stap 4: kwalitatieve verdieping"
+    niveau: 2
+    beats:
+      - "Bestuursverslag (Belova erkent expliciet): omzet groeit maar prijsdruk drukt brutomarge. Werkkapitaal stijgt door Aziatische leveranciers + langere klant-betalingstermijnen. Bank-waiver gevraagd"
+      - "Plannen N+1 volgens bestuur: prijsverhoging 3 %, voorraadafbouw, hardere debiteurenopvolging — projectie EBITDA-marge terug naar 5 %. Plausibel — geen wishful thinking"
+      - "Toelichting (off-balance): persoonlijke borg bestuurders 350 K op kaskrediet → governance-signaal. Hypotheek 2,5 mln op gebouw. Operationele leasings 285 K resterende verbintenis"
+      - "Toelichting (fiscaal): geen achterstallige RSZ/btw/VenB. Lopende fiscale controle zonder verwachte materiële correctie. Positief signaal"
+      - "Geen aanwijzingen window-dressing (zie volgende sectie) — cijfer-patroon coherent met operationele realiteit"
+      - "Sector-rapport (fictief NBB-balanscentrale): mediaan groothandel meubilair onder druk; top-quartile-bedrijven hebben hogere brutomarge (~32 %) door eigen-merk + premium-segment. Belova zit dichter bij sector-mediaan"
+
+  - id: window-dressing
+    titel: "Window-dressing — herken je de balanscosmetica?"
+    niveau: 2
+    beats:
+      - "Open met principe: een goede analist controleert of balansdatum-cijfers representatief zijn voor het hele jaar. Window-dressing zijn ingrepen kort vóór 31/12 die het balansbeeld optisch verbeteren zonder structurele wijziging"
+      - "Toon de tabel met mechanismen + detectie-signalen"
+      - "Belova-toets: geen klassieke window-dressing-signalen. Vorderingen + voorraden zijn juist gestegen (omgekeerd patroon), kaskrediet is licht gestegen (geen aflossingsmotief), liquide middelen dalen. Het is een onderneming onder organische druk — niet een onderneming met balanscosmetica"
+      - "Blockquote-aside: window-dressing zit op een grijze schaal — legitieme jaarafsluitings-optimalisatie aan de ene kant, frauduleuze financiële verslaggeving aan de andere. Een commissaris (PO 1.6) moet hier alert zijn; een analist herkent het patroon door balansdatum-cijfers te vergelijken met mid-jaar of januari-cijfers waar beschikbaar"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Mechanisme", "Effect op balans", "Detectie-signaal"]
+        rijen:
+          - ["Vervroegde inning vorderingen (factoring + korting)", "Klasse 5 ↑, klasse 4 ↓", "DSO daalt abrupt op 31/12, normaliseert in Q1"]
+          - ["Vervroegde aflossing KT-schulden", "Klasse 42-44 ↓", "Schuldgraad daalt 31/12, opnieuw opgenomen in januari"]
+          - ["Spoedverkoop voorraad / stop-purchasing", "Klasse 3 ↓", "DIO daalt 31/12, abnormaal lage marge op spoedverkoop"]
+          - ["Aanhouden facturatie tot januari", "Klasse 40 ↑ in N+1", "Omzet-piek week 1 januari; jaarafsluitings-revenue-cliff"]
+
+  - id: continuiteit-altman
+    titel: "Continuïteits-evaluatie + Altman Z-score"
+    niveau: 2
+    beats:
+      - "Open: bij ernstige financiële stress raakt de analyse het continuïteits-vraagstuk. Vier instrumenten samen: ratio-signalen + cash-trend + Altman Z-score + WVV-alarmbel"
+      - "Going-concern-indicatoren (lijst): negatief EV, structurele verliezen, liquiditeits-spanning, covenant-schendingen, KT-financiering voor LT-verliezen, bestuursverslag met onzekerheids-clausule"
+      - "Belova-toets going concern: geen negatief EV, geen structurele verliezen (winst nog positief), liquiditeit comfortabel — maar covenant-schending én cash-uitstroom 350 K. Niet acuut maar verhoogde aandacht"
+      - "Altman Z-score (private firm versie): Z' = 0,717 X1 + 0,847 X2 + 3,107 X3 + 0,420 X4 + 0,998 X5. Voor Belova ≈ 2,24 → grijze zone (1,23 < Z' < 2,90) = verhoogd risico maar geen distress-zone"
+      - "WVV-alarmbel (rakend met PO 1.9). Twee regimes — afhankelijk van rechtsvorm. NV (kapitaalhoudend, art. 7:228): trigger = nettoactief gedaald tot minder dan helft (of vierde) van het kapitaal door geleden verlies → AV samenroepen binnen 2 maanden + bijzonder bestuursverslag. BV (kapitaal-loos, art. 5:153): twee tests — solvabiliteit (nettoactief dreigt negatief te worden of is negatief) OF liquiditeit (vennootschap kan haar schulden komende 12 maanden niet langer betalen)"
+      - "Belova-toets alarmbel: Belova is een NV. Kapitaal 800 K; helft = 400 K. Nettoactief 2.790 K ruim boven 400 → niet getriggerd. Maar trend is om in de gaten te houden — bij continuering van EBIT-daling kan dat over enkele jaren veranderen"
+      - "Blockquote-aside: Altman Z-score is een 'klinisch instrument' — het geeft een snelle screening maar vervangt nooit de inhoudelijke diagnose. Bedrijven met Z' in grijze zone kunnen sterk herstellen of falen — de context maakt het verschil. Hetzelfde geldt voor de alarmbel: een wettelijke trigger is niet hetzelfde als financieel doodgaan"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["X-variabele", "Definitie", "Belova N"]
+        rijen:
+          - ["X1", "NBK / Totaal activa", "0,333"]
+          - ["X2", "(Reserves + overgedragen winst) / Totaal activa", "0,225"]
+          - ["X3", "EBIT / Totaal activa", "0,037"]
+          - ["X4", "EV (boekwaarde) / VV-totaal", "0,497"]
+          - ["X5", "Omzet / Totaal activa", "1,690"]
+          - ["**Z'**", "Som gewogen", "**2,24** → grijze zone"]
+
+  - id: belova-stap-5-synthese
+    titel: "Belova — Stap 5: synthese-rapport en aanbevelingen"
+    niveau: 2
+    beats:
+      - "Eindoordeel formuleren in drie blokken: sterktes + zwaktes + aanbevelingen. Dit is de output die de cliënt-bestuur, bank, commissaris of investeerder leest"
+      - "Sterktes voor Belova: comfortabele liquiditeit · stabiele solvabiliteit · positief resultaat · goede fiscale standing · plausibele plannen N+1 · geen window-dressing-signalen"
+      - "Zwaktes voor Belova: dalende rentabiliteit (structurele margedruk) · stijgende werkkapitaal-behoefte · negatieve operationele cashflow · covenant-schending · negatief hefboomeffect"
+      - "Aanbevelingen — toon de tabel met 5 thema's"
+      - "Programma-link (doelstelling 1.3.1.2): 'voorstellen kunnen doen om de situatie te verbeteren'. Aanbevelingen moeten concreet zijn — niet 'beter werkkapitaal-beheer' maar 'DSO-doel 35 dagen via strakkere incassoprocedures'. Toon dat detail-niveau"
+      - "Blockquote-aside: een diagnose-rapport voor een cliënt eindigt typisch met een executive summary van max 1 pagina. Aanbevelingen formuleer je in heldere taal met concrete getal-doelen, gekoppeld aan een ratio of mechanisme uit de diagnose ('DSO van 39 naar 35 dagen → cash +200 K in N+1'). Een goede aanbeveling herken je doordat het bestuur er morgen mee aan de slag kan"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Thema", "Voorstel", "Verwacht effect"]
+        rijen:
+          - ["Margebeheer", "Prijsverhoging 3 % vanaf Q2 + mix-shift naar premium-segment", "Brutomarge +1,5 pp · EBIT +200 K"]
+          - ["Voorraadbeheer", "Aziatische lev. consolideren bij 2 partners + lokale buffer; DIO-target 65 dagen", "Voorraad -300 · cash +300"]
+          - ["Debiteurenbeleid", "Payment terms 60 → 45 d voor klein-mid · incasso-team uitbreiden", "DSO -5 dagen · cash +200"]
+          - ["Covenant-compliance", "Waiver-gesprek BNP Fortis + commitment EBITDA-marge ≥ 5 % H1 N+1", "Vermijd vervroegde opeisbaarheid"]
+          - ["Hefboom-omdraaiing", "Geen nieuwe schuld + dividend-pauze tot ROA > kostprijs VV", "EV-versterking · positief hefboomeffect"]
+
+  - id: rol-van-accountant
+    titel: "Wat doet de accountant met deze diagnose?"
+    niveau: 2
+    beats:
+      - "Open: het programma noemt drie rollen voor de accountant in dit PO. Elk gebruikt dezelfde analyse anders"
+      - "Rol 1 — adviseur/analist (cliënt): schrijft het diagnose-rapport voor het bestuur. Onderbouwt aanbevelingen, presenteert in raad van bestuur. Belova-voorbeeld: adviseur stelt covenant-gesprek + werkkapitaal-actieplan voor"
+      - "Rol 2 — commissaris (PO 1.6): gebruikt dezelfde ratio's voor going-concern-beoordeling (ISA 570). Negatief eigen vermogen, aanhoudende verliezen, liquiditeits-spanning zijn signalen die in commissarisverslag moeten worden vermeld. Belova-voorbeeld: commissaris zou waiver-situatie + EBIT-daling als 'material uncertainty going concern' kwalificeren, mogelijks 'emphasis of matter' in verslag"
+      - "Rol 3 — adviseur/insolventie-actor (PO 1.9): bij ernstige stress reageert op alarmbel-triggers (art. 5:153 / 7:228) + adviseert tijdige reorganisatie. Belova-voorbeeld: nog geen alarmbel-trigger maar wel signalen die binnen 12-24 maanden tot KOM-uitnodiging kunnen leiden"
+      - "Blockquote-aside: dezelfde set ratio's, drie professionele rollen. Wat de accountant doet met de cijfers verschilt per opdrachttype. Een inzicht dat in de praktijk vaak het verschil maakt"
+
+verder_lezen:
+  intro: "Synthese is rond. Verdere lectuur:"
+  leerstukken:
+    - slug: wat-is-jaarrekeninganalyse
+      hint: "Terug naar het kader-leerstuk voor wie het overzicht wil herwerken"
+  samenvatting:
+    hint: "Vooral voor de Altman-formule + alarmsignalen-checklist + valkuilen"
+
+doorklik_concepten:
+  intro: "Voor verdere concepten:"
+  groepen:
+    - titel: "Diagnose + interpretatie"
+      concepten: [financiele-diagnose, ratio-interpretatie]
+    - titel: "Risico's bij analyse"
+      concepten: [window-dressing, kasstroom-analyse]
+
+wettelijk_fundament:
+  - onderwerp: "WVV-alarmbel kapitaalhoudende vennootschappen (NV, Comm.VA, SE)"
+    ref: "WVV art. 7:228"
+    noot: "Trigger: nettoactief < helft (of vierde) kapitaal door geleden verlies; AV binnen 2 maanden samenroepen + bijzonder bestuursverslag"
+  - onderwerp: "WVV-alarmbel kapitaalloze vennootschappen (BV, CV)"
+    ref: "WVV art. 5:153"
+    noot: "Twee tests: solvabiliteit (nettoactief negatief dreigt/is) + liquiditeit (schulden komende 12 maanden niet kunnen betalen); CBN-advies 2021/14 voor jaarrekeningrechtelijke invulling"
+  - onderwerp: "Going-concern-evaluatie commissaris"
+    ref: "ISA 570 (herzien) — Going Concern"
+    noot: "Diep behandeld in [[leerpaden/1-6|PO 1.6]] — commissaris signaleert material uncertainty going concern"
+  - onderwerp: "Voorstellen formuleren — programma-doelstelling 1.3.1.2"
+    ref: "ITAA-examenprogramma PO 1.3 doelstelling 2"
+    noot: "Integratie-niveau: niet alleen analyseren maar adviseren"
+  - onderwerp: "Kamers voor ondernemingen in moeilijkheden (KOM)"
+    ref: "WER Boek XX"
+    noot: "Detectie-signalen + vrijwillig gesprek — behandeld in [[leerpaden/1-9|PO 1.9]]"
+  - onderwerp: "Altman Z-score (private firm)"
+    ref: "Doctrine financiële analyse (Altman 1968 + herzieningen)"
+    noot: "Geen wettelijke status; klinisch screening-instrument"
+
+footer: "Leerstuk PO 1.3 — synthese + integratie-niveau. Status: voorgesteld. Volgende stap voor de student: oefening Tessera BV + samenvatting voor herhaling."

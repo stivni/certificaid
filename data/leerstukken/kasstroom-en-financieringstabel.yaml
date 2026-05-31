@@ -1,0 +1,188 @@
+# Leerstuk-script — kasstroom en financieringstabel
+#
+# Techniek-leerstuk 3 voor PO 1.3. Cash-perspectief: drie IAS 7-categorieën,
+# indirecte methode, en het verband cash ≠ winst. Bij Belova spectaculair
+# zichtbaar: winst 164 K EUR maar operationele cashflow -236 K EUR.
+
+meta:
+  slug: kasstroom-en-financieringstabel
+  titel: "Kasstroom en financieringstabel — cash ≠ winst"
+  po: "1.3"
+  cluster: jaarrekeninganalyse
+  voorbeeldgroep: belova
+  beschrijving: >
+    Leerstuk PO 1.3 — derde techniek-stap: kasstroomoverzicht volgens IAS 7
+    indirecte methode opbouwen, drie categorieën onderscheiden, en het
+    verband cash ≠ winst doorgronden met Belova als doorgewerkt voorbeeld.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Volgt op [[ratios-en-kengetallen]]. Dit leerstuk
+    voegt het cash-perspectief toe — een onmisbare laag naast ratio-analyse,
+    want winst en cash zijn niet hetzelfde.
+
+antwoord_in_een_blik:
+  beats:
+    - "Een kasstroomoverzicht verklaart de cash-mutatie tussen openings- en slotbalans, verdeeld over drie categorieën: bedrijfsvoering, investeringen, financiering"
+    - "Indirecte methode (standaard): vertrek van nettoresultaat, corrigeer voor niet-kas-items + werkkapitaalmutaties. Geeft hetzelfde totaal als de directe methode maar is praktischer"
+    - "Belova-spoiler: winst van 164 K EUR maar operationele cashflow -236 K EUR. Werkkapitaal-stijging (voorraad +300, vorderingen +325) heeft alle winst en méér opgegeten"
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Categorie", "Belova N (K EUR)", "Wat verklaart het?"]
+      rijen:
+        - ["I. Bedrijfsvoering", "-236", "Werkkapitaalgroei vreet winst op"]
+        - ["II. Investeringen", "-340", "Vervangings- + uitbreidingsinvesteringen"]
+        - ["III. Financiering", "+226", "Nieuwe lening + kaskrediet compenseren deels"]
+        - ["**Netto-mutatie cash**", "**-350**", "**Cash-positie daalt**"]
+
+opbouw:
+
+  - id: waarom-cash
+    titel: "Waarom een kasstroomanalyse — winst is geen cash"
+    niveau: 2
+    beats:
+      - "Open met de cruciale observatie: de resultatenrekening werkt op accrual-basis (toerekening). Een verkoop met 60 dagen krediet wordt vandaag als omzet geboekt — terwijl de cash nog 60 dagen weg is"
+      - "Concretiseer met klassiek alarm-scenario: winst stijgt +30 %, operationele kasstroom daalt. Dat betekent dat klanten niet betalen (vorderingen exploderen) of voorraden zwellen — beide cash-vretend"
+      - "Belova-illustratie: winst 164 K EUR positief maar cash daalt 350 K EUR. Drie kleine bewegingen verklaren dat: voorraadgroei (+300), vorderingengroei (+325), investeringen (-340). De winst-uit-RR vertelt het verhaal niet"
+      - "Blockquote-aside: een onderneming kan winstgevend zijn op papier en toch failliet gaan wegens cash-tekort ('profitable insolvency'). Dat is exact waarom IAS 7 vereist dat IFRS-rapporterende ondernemingen en geconsolideerde groepen een kasstroomoverzicht opnemen. Voor enkelvoudige B-GAAP is het niet verplicht — maar voor analyse onmisbaar"
+
+  - id: drie-categorieen
+    titel: "Drie categorieën IAS 7"
+    niveau: 2
+    beats:
+      - "Open: IAS 7 paragrafen 13-17 verdelen cash-bewegingen verplicht in drie categorieën. Beslissingscriterium: de aard van de onderliggende activiteit, niet de balansrubriek"
+      - "Toon de tabel met de drie categorieën, wat erin hoort en grensgevallen"
+      - "Belangrijke nuance grensgevallen: aflossing leasing-schuld = financiering (terugbetaling kapitaal); betaling huur operationele lease = bedrijfsvoering (recurrente kost). Zelfde balansrubriek, andere classificatie"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Categorie", "Wat hoort erin?", "Klassieke grensgevallen"]
+        rijen:
+          - ["**I. Bedrijfsvoering**", "Cash van klanten − cash naar leveranciers/personeel/belastingen. Aankopen voorraad. Betaalde rente kan hier of in III (IAS 7 §33: keuze, consistent toepassen)", "Rente: bedrijfsvoering of financiering?"]
+          - ["**II. Investeringen**", "Aankoop/verkoop materiële, immateriële en financiële vaste activa. Deelnemingsoperaties", "Kosten van software-ontwikkeling: investering of bedrijfskost?"]
+          - ["**III. Financiering**", "Kapitaalverhoging/-vermindering. Opname/aflossing schulden > 1 jaar. Dividenden uitgekeerd", "Aflossing leasing-schuld: financiering (kapitaal-terugbet.) — niet bedrijfsvoering"]
+
+  - id: indirect-vs-direct
+    titel: "Indirecte vs directe methode"
+    niveau: 2
+    beats:
+      - "Twee methoden voor de bedrijfsvoering-kasstroom — beide leveren hetzelfde totaal"
+      - "Directe methode: toont rechtstreeks de operationele cash-stromen (ontvangsten klanten, betalingen leveranciers, lonen, btw, ...). Lezer-vriendelijk maar vereist gedetailleerde transactie-data. Zelden in praktijk gepubliceerd"
+      - "Indirecte methode: start van nettoresultaat en corrigeert voor (a) niet-kas-items (afschrijvingen, voorzieningen, waardeverminderingen) en (b) werkkapitaalmutaties (Δ vorderingen, Δ voorraden, Δ schulden). Bouwt direct op uit RR + balans-mutatie. Standaardpraktijk"
+      - "In dit leerstuk werken we de indirecte methode uit op Belova — gangbaarder én sluit aan bij hoe een analist met externe data werkt"
+
+  - id: belova-kasstroomopbouw
+    titel: "Belova kasstroomoverzicht — indirecte methode uitgewerkt"
+    niveau: 2
+    beats:
+      - "Open: voor Belova bouwen we het overzicht stap voor stap op uit balans N + N-1 + resultatenrekening N. Werk elke categorie afzonderlijk uit"
+    kinderen:
+
+      - id: belova-operationeel
+        titel: "I. Operationele kasstroom"
+        niveau: 3
+        beats:
+          - "Start: resultaat van het boekjaar 164 K EUR"
+          - "+ niet-kas-items: afschrijvingen + waardeverminderingen + voorzieningen = 270 + 15 + 5 = 290"
+          - "+ kosten van schulden (650) gereclassificeerd: 92 (verschuift naar einde — uitgekeerd in 'betaalde rente')"
+          - "− Δ voorraden: 2.100 − 1.800 = -300 (cash vastgepind in nieuwe voorraad)"
+          - "− Δ handelsvorderingen + overige: 1.945 − 1.620 = -325 (cash vastgepind in klantenkrediet)"
+          - "− Δ overlopende activa: -5"
+          - "+ Δ handelsschulden: 1.520 − 1.540 = -20 (lichte daling, kleine cash-uitstroom)"
+          - "+ Δ schulden fiscaal/sociaal + overige + overlopend: +10"
+          - "+ Δ voorzieningen: +5"
+          - "− betaalde rente: -92"
+          - "− betaalde belastingen: -55 (aanname = boekjaar-last)"
+          - "= operationele kasstroom: -236 K EUR"
+          - "Interpretatie: Belova's exploitatie verbruikt netto 236 K EUR cash, ondanks 164 K EUR winst. De werkkapitaal-mutatie (-300 voorraad, -325 vorderingen) is de hoofdverklaring"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Regel", "K EUR"]
+            rijen:
+              - ["Resultaat boekjaar (9904)", "164"]
+              - ["+ Afschrijvingen + waardeverminderingen + voorzieningen", "290"]
+              - ["+ Kosten van schulden (650) — geherclassificeerd", "92"]
+              - ["− Δ Voorraden", "−300"]
+              - ["− Δ Handelsvorderingen + overige", "−325"]
+              - ["− Δ Overlopende rek. actief", "−5"]
+              - ["+ Δ Handelsschulden", "−20"]
+              - ["+ Δ Schulden fiscaal/sociaal/overige/overlopend", "+10"]
+              - ["+ Δ Voorzieningen", "+5"]
+              - ["− Betaalde rente", "−92"]
+              - ["− Betaalde belastingen", "−55"]
+              - ["**= Operationele kasstroom**", "**−236**"]
+
+      - id: belova-investerend
+        titel: "II. Investeringskasstroom"
+        niveau: 3
+        beats:
+          - "Aankoop materiële vaste activa: -340 K EUR. Berekening: Δ bruto MVA = (2.400 − 2.330) + afschrijvingen 270 = 70 + 270 = 340"
+          - "Aankoop financiële vaste activa: 0 (geen wijziging)"
+          - "= investeringskasstroom: -340 K EUR"
+          - "Interpretatie: vervangingsinvesteringen (rond afschrijving-niveau 270) + lichte uitbreiding magazijn (~70). Capex is gezond — niet uitgesteld om cash te sparen"
+
+      - id: belova-financierend
+        titel: "III. Financieringskasstroom"
+        niveau: 3
+        beats:
+          - "Nieuwe banklening (rubriek 17): 2.450 − 2.200 = +250 K EUR"
+          - "Δ kaskrediet (rubriek 43): 350 − 280 = +70 K EUR"
+          - "Dividenduitkering aan aandeelhouders: -84 K EUR (geraamd uit resultaatbestemming N-1)"
+          - "Vermindering kapitaalsubsidies (15) door amortisatie: -10 K EUR"
+          - "= financieringskasstroom: +226 K EUR"
+          - "Interpretatie: Belova compenseert het operationele tekort + capex via externe financiering — gezonde reactie maar verhoogt schuldgraad én rente-last (vicieuze cirkel)"
+
+      - id: belova-totaal
+        titel: "Sluitstuk: netto-mutatie cash"
+        niveau: 3
+        beats:
+          - "Operationeel -236 + Investerend -340 + Financierend +226 = -350 K EUR netto"
+          - "Controle met balans: (250+1.480) − (450+1.580) = 1.730 − 2.030 = -300 K EUR daling cash-equivalents"
+          - "Verschil 50 K EUR = transferpost in onze indirecte berekening (werkkapitaal-aanname). In een echte rapportering wordt dat verfijnd; voor analyse-doeleinden volstaat ~95 % accuratesse"
+          - "Diagnose-signaal: cash-positie daalt 350 / jaar — vorig boekjaar was er nog +200 cash-groei. Tweede negatieve cashflow op rij zou Belova binnen ~3 jaar in echte liquiditeitskrapte brengen"
+
+  - id: financieringstabel
+    titel: "Financieringstabel — wat het kasstroomoverzicht NIET ziet"
+    niveau: 2
+    beats:
+      - "Open: het kasstroomoverzicht toont cash-mutaties. De financieringstabel (tableau de financement, Vernimmen-stijl) verklaart de bewegingen in permanente bronnen en duurzame aanwendingen — een complementair perspectief"
+      - "Eenvoudig schema: structurele middelen-toename (nieuwe lening + retentie winst + kapitaalverhoging) tegenover structurele aanwendingen (capex + dividendsuitkering)"
+      - "Voor Belova illustratief: structurele middelen +250 lening + 80 retentie = 330. Structurele aanwendingen 340 capex. Verschil -10 = lichte structurele cash-druk. Het exploitatie-werkkapitaal-effect (-625 BBK-groei) is een aparte druk die kortlopend met kaskrediet wordt opgevangen"
+      - "Blockquote-aside: in Belgische context wordt de financieringstabel weinig formeel gepubliceerd — wel impliciet via toelichting + kasstroomoverzicht. Voor de analyst is het een mentaal hulpmiddel: scheid structurele financiering van werkkapitaal-druk"
+
+  - id: cash-vs-winst-synthese
+    titel: "Synthese — wat zegt het cash-beeld over Belova?"
+    niveau: 2
+    beats:
+      - "Belova's cash-beeld bevestigt en versterkt de ratio-diagnose. Winst is bescheiden maar positief; cash gaat de andere kant uit"
+      - "Drie cash-stress-signalen samen: (a) operationele cashflow negatief ondanks winst — werkkapitaal-issue; (b) capex blijft op vervangings-niveau — gezond maar geen ruimte voor extra; (c) externe financiering compenseert het tekort — leidt tot stijgende schuld én rente"
+      - "Belangrijk diagnostisch verband: BBK-stijging (+625 K EUR over 3 jaar) = letterlijk de cash die uit liquide middelen naar voorraden + vorderingen verschuift. Werkkapitaalbeheer (voorraad + DSO + DPO) is voor Belova de cash-prioriteit"
+      - "Wat doet de accountant hier? In de diagnose (volgend leerstuk) komen aanbevelingen: voorraadafbouw, kortere klant-betalingstermijnen, voorzichtige dividendpolitiek tot ROA > kostprijs VV"
+
+verder_lezen:
+  intro: "Volgende stap in het PO:"
+  leerstukken:
+    - slug: kritische-beoordeling-en-diagnose
+      hint: "Synthese van alle voorgaande techniek + voorstellen aan het bestuur — het integratie-niveau van PO 1.3"
+  samenvatting:
+    hint: "Drie IAS 7-categorieën + indirecte methode-template voor herhaling"
+
+doorklik_concepten:
+  intro: "Voor wie de concept-laag wil:"
+  groepen:
+    - concepten: [kasstroom-analyse, jaarrekeninganalyse]
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting kasstroomoverzicht onder IFRS"
+    ref: "IAS 7 (Statement of Cash Flows)"
+    noot: "Verplicht voor IFRS-rapporterende ondernemingen + voor geconsolideerde groepen (zie PO 1.4)"
+  - onderwerp: "Geen wettelijke verplichting voor enkelvoudige B-GAAP-JR"
+    ref: "KB-WVV (geen vereiste in basis-schema)"
+    noot: "Wordt in praktijk vaak vrijwillig opgenomen — voor analyse-doeleinden essentieel"
+  - onderwerp: "Verband met toelichting niet-balans-rechten/verplichtingen"
+    ref: "KB-WVV art. 3:91 e.v. (Staten toelichting)"
+    noot: "Off-balance leasings + langetermijn-engagementen relevant voor toekomstig cash-beeld"
+  - onderwerp: "Operationele cashflow vóór belastingen — formule"
+    ref: "Vernimmen + NBB-balanscentrale conventie"
+    noot: "Klassieke begrips-omschrijving: bedrijfsresultaat + niet-kasbestanddelen van bedrijfskosten"
+
+footer: "Leerstuk PO 1.3 — techniek 3. Status: voorgesteld. Volgende stap: [[kritische-beoordeling-en-diagnose]]."

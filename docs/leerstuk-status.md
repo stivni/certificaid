@@ -1,6 +1,6 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31 (PO 1.8 alle 5 leerlagen voltooid — samenvatting + oefening Beauclair geleverd)
+**Laatste update**: 2026-05-31 (PO 1.3 alle 5 leerlagen voltooid — Belova-voorbeeldgroep + 5 leerstukken + Tessera-oefening + samenvatting geleverd)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
@@ -11,7 +11,7 @@
 |---|---|---|---|---|---|---|---|
 | **1.1** Boekhouding | — | — | — | — | — | — | Openstaand |
 | **1.2** Boekhoud- en jaarrekeningenrecht | — | — | — | — | — | — | Openstaand |
-| **1.3** Analyse van de jaarrekening | — | — | — | — | — | — | Openstaand |
+| **1.3** Analyse van de jaarrekening | ✅ [docs/leerpad-skelet-1-3.md](leerpad-skelet-1-3.md) | ✅ 5/5 ([data/leerstukken/](../data/leerstukken/)) | ✅ 5/5 (`content/leerpaden/1-3/`) | ✅ [content/leerpaden/1-3/index.md](../content/leerpaden/1-3/index.md) (5-secties-structuur ADR-036; § 6 Oefening + § Samenvatting) | ✅ [content/leerpaden/1-3/samenvatting.md](../content/leerpaden/1-3/samenvatting.md) (2.045 woorden, 3-4 A4; YAML-bron [data/samenvattingen/1-3.yaml](../data/samenvattingen/1-3.yaml); 4 oude themafiches uit te faseren) | ✅ Tessera BV ([data/oefeningen/tessera-financiele-diagnose.yaml](../data/oefeningen/tessera-financiele-diagnose.yaml) + [content/leerpaden/1-3/oefening.md](../content/leerpaden/1-3/oefening.md)) — verkort schema (schema-bewustzijn-valkuil) · 5 stappen · 60-75 min | **Voltooid** alle vijf leerlagen (derde PO na 1.4 en 1.8) |
 | **1.4** Geconsolideerde jaarrekening | ✅ retro [docs/leerpad-skelet-1-4.md](leerpad-skelet-1-4.md) | ✅ 6/6 ([data/leerstukken/](../data/leerstukken/)) | ✅ 6/6 (5 in `content/leerpaden/1-4/`, 1 cross-PO in `content/leerstukken/`) | ✅ [content/leerpaden/1-4/index.md](../content/leerpaden/1-4/index.md) (3+4 samengevoegd, § 6 Oefening + § "Voor herhaling" → samenvatting toegevoegd) | ✅ [content/leerpaden/1-4/samenvatting.md](../content/leerpaden/1-4/samenvatting.md) (markdown gemigreerd uit themafiche per ADR-039; YAML-bron in opbouw) | ✅ Nordica ([data/oefeningen/nordica-consolideren.yaml](../data/oefeningen/nordica-consolideren.yaml) + [content/leerpaden/1-4/oefening.md](../content/leerpaden/1-4/oefening.md)) — **POC voor oefening-laag** | **Voltooid** (POC voor schema-validatie + POC voor oefening-laag + POC voor samenvatting-laag — YAML-bron in opbouw) |
 | **1.5** IFRS | — | — | — | — | — | — | Openstaand |
 | **1.6** Externe controle | — | — | — | — | — | — | Openstaand |
@@ -39,6 +39,7 @@
 |---|---|---|---|
 | `aurelia` | [data/voorbeeldgroepen/aurelia.yaml](../data/voorbeeldgroepen/aurelia.yaml) | PO 1.4 (alle leerstukken) | Mock Belgische groep met 4 deelnemingen — alle controle-niveaus en methodes |
 | `meridia-meubel` | [data/voorbeeldgroepen/meridia-meubel.yaml](../data/voorbeeldgroepen/meridia-meubel.yaml) | PO 1.8 (alle leerstukken) | Mock middelgrote meubelproductie-BV (tafel-eik standaard + kast-op-maat job-order) — productie-context met kostendragers/kostenplaatsen, masterbudget 2026, variantierapport Q1 2026 |
+| `belova` | [data/voorbeeldgroepen/belova.yaml](../data/voorbeeldgroepen/belova.yaml) | PO 1.3 (alle 5 leerstukken) | Mock Belgische NV groothandel meubilair (62 vte, balanstotaal 8,4 mln), volledig schema, 3-jaar evolutie, comfortabele liquiditeit + dalende rentabiliteit + werkkapitaal-stress + covenant-spanning — geschikt voor alle vier ratio-families + kasstroom + diagnose-pad |
 
 Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan worden. Anders maken in `data/voorbeeldgroepen/<naam>.yaml`.
 
@@ -76,7 +77,7 @@ Themafiche-laag retreert per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafi
 | **1.4** | ✅ `consolidatie` → gemigreerd | A | — (✅ klaar via PO 1.4-leerpad) |
 | **1.8** | `analytische-boekhouding-stelsel` · `kostprijsmethoden` · `break-even-en-marginale-analyse` · `budget-en-variantieanalyse` (4 stuks) | A | Mergen tot één `leerpaden/1-8/samenvatting.md` — werk voor PO 1.8-sessie |
 | **1.1 + 1.2** | `boekhoudplicht-en-rechtsbronnen` · `eindejaarsverrichtingen-en-waardering` · `jaarrekening-schema-en-publicatie` · `kapitaalbescherming-en-alarmbel` · `bewaarplicht` · `resultaten-en-resultaatverwerking` · `beroepsgeheim-en-aansprakelijkheid` | B (mostly) of C (boekhoudplicht raakt beide) | Bij leerpad-bouw PO 1.1/1.2: cat-A migreren; boekhoudplicht-en-rechtsbronnen apart beslissen |
-| **1.3** | `jaarrekeninganalyse-aanpak` · `ratio-families` · `kasstroom-analyse` · `continuiteit-en-diagnose` | B | Mergen tot één `leerpaden/1-3/samenvatting.md` bij leerpad-bouw |
+| **1.3** | ✅ 4 themafiches gemigreerd → [`leerpaden/1-3/samenvatting.md`](../content/leerpaden/1-3/samenvatting.md) | A/B | — (✅ klaar via PO 1.3-leerpad; oude `content/themafiches/{jaarrekeninganalyse-aanpak,ratio-families,kasstroom-analyse,continuiteit-en-diagnose}.md` deprecation-callout houden tot opkuis-ronde) |
 | **1.5** | `ifrs-toepassingskader` · `be-gaap-vs-ifrs-vergelijking` | B + C | `ifrs-toepassingskader` mergen naar `leerpaden/1-5/samenvatting.md`; `be-gaap-vs-ifrs-vergelijking` aparte beslissing (kandidaat concept-fiche) |
 | **1.6** | `controleopdracht-aanpak` · `controleverklaring` · `opdrachtaanvaarding-en-tucht` · `opdracht-types` · `fouten-en-fraude-controle` · `bijzondere-mandaten` · `reorganisatie-en-bijzondere-mandaten` | B + C | Mergen bij leerpad-bouw; reorganisatie aparte cross-PO beslissing |
 | **1.7** | `interne-controle-frameworks` · `functiescheiding-en-cyclus` | B | Mergen bij leerpad-bouw |

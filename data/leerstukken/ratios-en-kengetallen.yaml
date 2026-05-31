@@ -1,0 +1,281 @@
+# Leerstuk-script — ratio's en kengetallen
+#
+# Zwaartepunt-leerstuk voor PO 1.3 (analoog aan hoe-consolideren in PO 1.4).
+# Vier ratio-families samen behandelen + DuPont + hefboomanalyse + sector-benchmark.
+# Lengte-budget: ~4500-5500 woorden — schrijfregels cap voor "hoe"-leerstukken.
+
+meta:
+  slug: ratios-en-kengetallen
+  titel: "Ratio's en kengetallen — vier families, DuPont en hefboom"
+  po: "1.3"
+  cluster: jaarrekeninganalyse
+  voorbeeldgroep: belova
+  beschrijving: >
+    Leerstuk PO 1.3 — de technische kern: vier ratio-families (liquiditeit,
+    solvabiliteit, rentabiliteit, activiteit) berekenen en interpreteren,
+    DuPont-decompositie van ROE, en operationele + financiële hefboomanalyse.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld dat [[jaarrekening-herwerken-en-functionele-balans]]
+    eerst gelezen moet zijn — die geeft de rubrieken-basis. Dit is het zwaartepunt-
+    leerstuk: lang, doorgewerkt, met Belova als rode draad door alle vier families.
+
+antwoord_in_een_blik:
+  beats:
+    - "Vier ratio-families als één toolset. Liquiditeit (kan ik betalen?), solvabiliteit (kan ik schulden dragen?), rentabiliteit (verdien ik genoeg?), activiteit (draait de motor efficiënt?). Elke familie heeft 3-4 kernratio's"
+    - "DuPont-decompositie verbindt rentabiliteit met activiteit en hefboom: ROE = nettomarge × asset turnover × equity multiplier. Toont waar ROE-mutaties vandaan komen"
+    - "Hefboomanalyse meet hoe vreemd vermogen werkt — operationeel (kostenstructuur-elasticiteit) en financieel (rente-verhoogde gevoeligheid). Positief hefboomeffect vereist ROA na bel. > kostprijs VV"
+    - "Belova-spoiler: drie families zijn comfortabel of stabiel; rentabiliteit is over de hele lijn rood — daling -54 % EBIT in 2 jaar, alle margekentallen onder sector"
+  visualisaties:
+    - type: mermaid
+      ref: dupont-decompositie
+      bron: voorbeeldgroep
+
+opbouw:
+
+  - id: methodologie-vooraf
+    titel: "Vooraf — drie regels voor elke ratio"
+    niveau: 2
+    beats:
+      - "Open met principe: een ratio op zich is geen oordeel. Drie regels gelden altijd"
+      - "Regel 1: noem altijd de formule + de gebruikte rubrieken. Een ratio zonder vermelding van teller, noemer en bron is een conclusie zonder bewijs"
+      - "Regel 2: lees in drie dimensies — trend (3-5 jaar), sector-benchmark (NACE-peers), cross-categorie (DuPont, cash-conversion-cycle)"
+      - "Regel 3: ratio's verklaren nooit op zich — combineer met kwalitatieve context (bestuursverslag, sector-evolutie, eenmalige verrichtingen)"
+      - "Blockquote-aside: een ratio zonder motivering met rubrieken is voor een cliënt of toezichthouder niet reproduceerbaar. Maak er een reflex van: ratio = formule + getallen + bron"
+
+  - id: liquiditeit-familie
+    titel: "Familie 1 — Liquiditeit: kan ik morgen betalen?"
+    niveau: 2
+    beats:
+      - "Open met de fundamentele vraag van liquiditeit: heb je voldoende kortetermijn-middelen om kortetermijn-verplichtingen te dekken?"
+      - "Vier ratio's, gelaagd van breed naar streng: current → quick → cash → CCC (dynamisch)"
+    kinderen:
+
+      - id: current-ratio
+        titel: "Current ratio (liquiditeit in ruime zin)"
+        niveau: 3
+        beats:
+          - "Formule: vlottende activa / kortlopende schulden. Voor Belova: 5.850 / 3.050 = 1,92"
+          - "Vlottende activa = voorraden + vorderingen ≤1j + geldbeleggingen + liquide middelen + overlopende activa. Kortlopende schulden = rubrieken 42-48 + overlopende passief (492/3)"
+          - "Belova-interpretatie: 1,92 ligt iets boven sector (1,75) — comfortabel. Vuistregel 1,5-2,0 is gezond; > 2,5 kan onderbenutting suggereren"
+          - "Een terugkerende klassieke vraag is om de liquiditeit in ruime zin te berekenen met motivering. Antwoord altijd met de bouwstenen: vlottende activa = som X+Y+Z = ... / kortlopende schulden = som A+B+C = ..."
+
+      - id: quick-ratio
+        titel: "Quick ratio (acid test, liquiditeit in enge zin)"
+        niveau: 3
+        beats:
+          - "Formule: (vlottende activa − voorraden) / kortlopende schulden. Voor Belova: (5.850 − 2.100) / 3.050 = 1,23"
+          - "Logica: voorraden zijn de minst liquide vlottende activa — verkooptijd kan maanden zijn, bij liquidatie vaak 30-50 % van boekwaarde. Strengere test"
+          - "Belova-interpretatie: 1,23 boven sector 1,10. Voorraad-stijging drukt de quick ratio meer dan de current ratio — signaal dat liquiditeitsbeoordeling voorraad-gevoelig is"
+          - "Klassieke begripsvraag: 'wat is het verschil tussen liquiditeit in ruime en enge zin?' Antwoord: enge zin haalt voorraden uit teller — strengere test voor sectoren waar voorraad langzaam draait"
+
+      - id: cash-ratio
+        titel: "Cash ratio (acute liquiditeit)"
+        niveau: 3
+        beats:
+          - "Formule: (liquide middelen + geldbeleggingen) / kortlopende schulden. Voor Belova: 1.730 / 3.050 = 0,57"
+          - "Strengste stand-test: alleen pure cash + tijdelijke beleggingen in teller. Vorderingen worden weggelaten omdat hun werkelijke inning onzeker is"
+          - "Belova-interpretatie: 0,57 ruim boven sector 0,30. Hoge cash-buffer — Belova kan meer dan helft van haar kortlopende schulden direct cash voldoen"
+
+      - id: ccc-ratio
+        titel: "Cash conversion cycle (CCC) — dynamische liquiditeit"
+        niveau: 3
+        beats:
+          - "Formule: CCC = DSO + DIO − DPO. Voor Belova: 39,3 + 74,4 − 37,4 = 76,3 dagen"
+          - "Interpretatie: aantal dagen tussen betaling aan leverancier en inning van klant. Hoe lager, hoe minder werkkapitaal vastgepind"
+          - "Belova: 76 dagen vs sector 49 dagen — significant boven sector. Werkkapitaal-druk = liquiditeits-signaal mét solvabiliteits-impact (banken kijken hiernaar)"
+          - "Cross-categorie verband (blockquote-aside): CCC is de brug tussen liquiditeit (toolset 1) en activiteit (toolset 4). Het is per definitie samengesteld uit drie activiteits-ratios maar functioneel een liquiditeits-indicator"
+
+  - id: solvabiliteit-familie
+    titel: "Familie 2 — Solvabiliteit: kan ik mijn schulden uiteindelijk dragen?"
+    niveau: 2
+    beats:
+      - "Open: solvabiliteit is de langetermijn-vraag. Niet 'kan ik morgen betalen' maar 'kan ik over 5 jaar alle schuld terugbetalen'"
+      - "Vier ratio's: schuldgraad (algemeen), solvabiliteitsratio (spiegelbeeld), debt-to-equity (financiële hefboom), interest coverage (dynamische schuld-bedienings-test)"
+    kinderen:
+
+      - id: schuldgraad-en-solvabiliteit
+        titel: "Schuldgraad + solvabiliteitsratio (spiegelbeeld)"
+        niveau: 3
+        beats:
+          - "Formule schuldgraad: vreemd vermogen / totaal vermogen. Belova: (110+2.450+2.820+230) / 8.400 = 5.610 / 8.400 = 66,8 %"
+          - "Solvabiliteitsratio = spiegelbeeld: EV / totaal = 33,2 %. Optellen geeft 100 % per definitie"
+          - "Belova-interpretatie: 66,8 % schuldgraad net boven sector (65,0 %). Niet alarmerend; ruim binnen NBB-richtwaarde 70 % voor gezonde KMO. Stabiel over 3 jaar"
+          - "Klassieke begripsvraag: 'omschrijf algemene schuldgraad'. Antwoord: VV / totaal passief, omvat ALLE vreemd vermogen (schulden >1j + schulden ≤1j + overlopende passief)"
+          - "Klassieke valkuil (blockquote-aside): zelffinancieringsgraad ≠ solvabiliteitsratio. Zelffinanciering = (reserves + overgedragen winst) / totaal — telt enkel wat onderneming zélf opbouwde, zonder ingebracht kapitaal. Belova: (1.350 + 540) / 8.400 = 22,5 %"
+
+      - id: debt-equity
+        titel: "Debt-to-equity (D/E)"
+        niveau: 3
+        beats:
+          - "Formule: vreemd vermogen / eigen vermogen. Belova: 5.610 / 2.790 = 2,01"
+          - "Functioneel equivalent aan schuldgraad maar in andere vorm. D/E = 2,01 betekent 2,01 EUR schuld voor elke EUR eigen kapitaal"
+          - "Standaard in IFRS/internationale literatuur. In Belgische context wordt schuldgraad gebruikelijker"
+
+      - id: interest-coverage
+        titel: "Interest coverage ratio (ICR) — de dynamische schuld-bedienings-test"
+        niveau: 3
+        beats:
+          - "Formule: EBIT / kosten van schulden (650). Belova: 307 / 92 = 3,34"
+          - "Interpretatie: hoeveel keer dekt het bedrijfsresultaat de rentelasten? Vuistregel: > 5 sterk · 3-5 voldoende · < 3 zwak · < 1,5 alarmerend"
+          - "Belova: 3,34 in N — net onder vuistregel, in sterke daling (9,4 → 6,6 → 3,3 over 3 jaar). Bovendien: 3,34 ligt onder de covenant-grens 4× die de bank contractueel heeft vastgelegd"
+          - "Covenant-impact (blockquote-aside): banken gebruiken ratio's als 'triggers'. Belova's daling onder 4× betekent contractuele schending — de bank kan vervroegde opeisbaarheid invoeren, of een waiver vragen aan duurdere voorwaarden. Reëel risico in jaar N"
+
+  - id: rentabiliteit-familie
+    titel: "Familie 3 — Rentabiliteit: verdient het kapitaal genoeg?"
+    niveau: 2
+    beats:
+      - "Open: rentabiliteit meet of de onderneming voldoende winst genereert per geïnvesteerde euro. De 'eindscore' van het ondernemen"
+      - "Zes ratio's gelaagd: brutoverkoopmarge → commerciële brutomarge → EBITDA-marge → nettomarge → ROE → ROA"
+      - "Centrale valkuil vooraf: het woord 'bruto' wordt in twee betekenissen gebruikt — (a) bruto van niet-kaskosten (EBITDA = bruto van afschrijvingen) en (b) bruto in commerciële zin (omzet − kostprijs verkopen). De Belgische conventie voor 'brutoverkoopmarge' is meestal (a): bedrijfsresultaat / omzet. Welke betekenis bedoeld wordt, hangt af van de context — let altijd op de formule"
+    kinderen:
+
+      - id: marges
+        titel: "Marges — brutoverkoopmarge, commerciële brutomarge, EBITDA-marge, nettomarge"
+        niveau: 3
+        beats:
+          - "Brutoverkoopmarge (NBB-conventie): bedrijfsresultaat (9901) / omzet (70). Belova: 307 / 14.200 = 2,16 %. Vergelijken met sector 4,2 % — duidelijk onder"
+          - "Commerciële brutomarge: (omzet − rubriek 60) / omzet. Belova: (14.200 − 10.300) / 14.200 = 27,46 %. Sector 30,0 %. Hier zit de prijsdruk visibel — daling 30,1 % → 28,8 % → 27,5 % over 3 jaar"
+          - "EBITDA-marge: EBITDA / omzet. EBITDA = bedrijfsresultaat + niet-kaskosten (afschrijvingen + waardeverminderingen + voorzieningen). Belova: 597 / 14.200 = 4,20 %. Sector 6,5 %"
+          - "Nettomarge: nettoresultaat (9904) / omzet. Belova: 164 / 14.200 = 1,16 %. Onder sector 2,8 %"
+          - "Klassieke valkuil — schema-positie maakt verschil. Afschrijvingen op gebouwen vallen onder rubriek 630, NIET onder rubriek 60. Voor de commerciële brutomarge ((70−60)/70) heeft een afschrijvings-verhoging geen direct effect. Voor de NBB-brutoverkoopmarge (9901/70) wél, omdat 630 binnen het bedrijfsresultaat valt"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Marge", "Formule", "Belova N", "Trend", "Sector"]
+            rijen:
+              - ["Brutoverkoopmarge (NBB)", "9901 / 70", "2,16 %", "5,27 → 3,81 → 2,16", "4,20 %"]
+              - ["Commerciële brutomarge", "(70 − 60) / 70", "27,46 %", "30,08 → 28,81 → 27,46", "30,00 %"]
+              - ["EBITDA-marge", "(9901 + 630 + 631 + 635) / 70", "4,20 %", "7,17 → 5,72 → 4,20", "6,50 %"]
+              - ["Nettomarge", "9904 / 70", "1,16 %", "3,60 → 2,47 → 1,16", "2,80 %"]
+
+      - id: roe-en-roa
+        titel: "ROE en ROA — kapitaal-rendement"
+        niveau: 3
+        beats:
+          - "ROE (return on equity): nettoresultaat / eigen vermogen. Belova: 164 / 2.790 = 5,88 %"
+          - "ROA (return on assets): bedrijfsresultaat / totaal activa. Belova: 307 / 8.400 = 3,65 %"
+          - "Belova-interpretatie ROE: 5,88 % in N is zwak — onder risicovrije rente + risicopremie (typisch 8-12 % voor KMO). Vernietigt economisch waarde voor aandeelhouder: kapitaal dat anders belegd zou worden levert meer op"
+          - "Trend ROE: 18,4 % → 12,3 % → 5,9 % — gehalveerd over 2 jaar. Brengt diagnose-vraag naar voorgrond"
+          - "Detail: bij ideale berekening gemiddeld EV (begin + einde / 2) gebruiken om mutaties tijdens jaar uit te vlakken. In de praktijk wordt vaak eind-EV gebruikt — beide acceptabel mits gemotiveerd"
+          - "Begripsdetails (blockquote-aside) — klassieke vraag: 'omschrijf nettorendabiliteit van bedrijfsactiva'. Volgens CBN-advies 2011/14: (resultaat vóór belasting + kosten van schulden) / totaal activa. Het advies positioneert deze ratio expliciet als economische rentabiliteit zonder beïnvloeding door financieringswijze of belastingtarief. Verwar niet met ROA: bij ROA werken we met EBIT (vóór financieringslasten) als teller, zonder belastingcorrectie. Wanneer de naam van een ratio gevraagd wordt, controleer altijd de bijbehorende formule"
+
+  - id: activiteit-familie
+    titel: "Familie 4 — Activiteit: draait de motor efficiënt?"
+    niveau: 2
+    beats:
+      - "Open: activiteits-ratios meten hoe snel werkkapitaal-componenten roteren. Twee bedrijven met identieke omzet en winst kunnen totaal verschillende cash-cycli hebben"
+      - "Vier ratio's: DSO (klanten), DPO (leveranciers), DIO (voorraad), werkkapitaalbehoefte"
+    kinderen:
+
+      - id: dso-dpo-dio
+        titel: "DSO · DPO · DIO — de drie omloopsnelheden"
+        niveau: 3
+        beats:
+          - "DSO (days sales outstanding): (handelsvorderingen × 365) / (omzet × 1,21). Belova: (1.850 × 365) / (14.200 × 1,21) = 39,3 d. Gemiddeld 39 dagen tussen factuur en inning"
+          - "DPO (days payables outstanding): (handelsschulden × 365) / ((rubr.60+61) × 1,21). Belova: (1.520 × 365) / ((10.300+1.950) × 1,21) = 37,4 d. Gemiddeld 37 dagen tussen ontvangst factuur leverancier en betaling"
+          - "DIO (days inventory outstanding): (voorraden × 365) / rubriek 60. Belova: (2.100 × 365) / 10.300 = 74,4 d. Gemiddeld 74 dagen voorraad in magazijn"
+          - "Btw-aandachtspunt: vorderingen + schulden bevatten btw, omzet + aankopen typisch zonder btw — daarom × 1,21 in de noemer om de eenheden te aligneren"
+          - "Belova-interpretatie: DSO stijgt 31 → 35 → 39 dagen (klanten betalen later) · DIO stijgt 66 → 68 → 74 dagen (langere voorraadrotatie door Aziatische leverancier) · DPO daalt 41 → 39 → 37 dagen. Drie negatieve evoluties verzwaren cash-positie"
+
+      - id: werkkapitaalbehoefte
+        titel: "Werkkapitaalbehoefte — al gezien in functionele balans"
+        niveau: 3
+        beats:
+          - "Werkkapitaalbehoefte = BBK (al berekend in vorige leerstuk): 1.820 K EUR voor Belova"
+          - "Verband met activiteits-ratios: stijgende DSO + stijgende DIO + dalende DPO = stijgende BBK. Voor Belova zien we precies dit verband — BBK 1.180 → 1.395 → 1.820 = stijging 54 % over 2 jaar"
+          - "Klassieke vraag — 'welke balansposten horen in BBK?' is al volledig behandeld in [[jaarrekening-herwerken-en-functionele-balans]]. Sleutel: exploitatie ja, financieel/thesaurie/permanent nee"
+
+  - id: dupont
+    titel: "DuPont-decompositie — wat verklaart de ROE-mutatie?"
+    niveau: 2
+    beats:
+      - "Open met de centrale vraag van DuPont: als ROE daalt, komt dat door dalende marges, dalende efficiëntie, of dalende hefboom?"
+      - "Formule: ROE = Nettomarge × Asset turnover × Equity multiplier"
+      - "Belova-toepassing: bereken de drie componenten voor N en N-2. Toon dat ROE-daling 18,4 % → 5,9 % volledig marge-gedreven is — asset turnover en hefboom blijven stabiel"
+      - "Toon de tabel met DuPont-decompositie + delta-kolom"
+      - "Diagnose-implicatie: aanbeveling moet zich richten op MARGE (prijsbeleid + kostenmix), niet op asset-reductie of kapitaal-herstructurering. Voor Belova klopt dat ook met de kwalitatieve context: bestuur erkent prijsdruk in meubelsector"
+      - "Blockquote-aside: DuPont is een cross-categorie verband — het verbindt rentabiliteit (marge), activiteit (asset turnover) en solvabiliteit (hefboom). Het is daarmee dé brug naar [[kritische-beoordeling-en-diagnose]]"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Component", "Formule", "N (2026)", "N-2 (2024)", "Δ"]
+        rijen:
+          - ["Nettomarge", "Res. / Omzet", "1,16 %", "3,60 %", "↓ 2,44 pp"]
+          - ["Asset turnover", "Omzet / Totaal activa", "1,69×", "1,72×", "≈ stabiel"]
+          - ["Equity multiplier", "Totaal activa / EV", "3,01", "2,97", "≈ stabiel"]
+          - ["**ROE**", "= product", "**5,88 %**", "**18,37 %**", "**↓ 12,49 pp**"]
+
+  - id: hefboomanalyse
+    titel: "Hefboomanalyse — operationeel en financieel"
+    niveau: 2
+    beats:
+      - "Open met principe: hefboom = elasticiteit. Operationele hefboom meet hoe gevoelig EBIT is voor omzet-mutaties (vaste kosten effect). Financiële hefboom meet hoe gevoelig ROE is voor EBIT-mutaties (rente-last effect)"
+    kinderen:
+
+      - id: dol
+        titel: "Operationele hefboom (DOL)"
+        niveau: 3
+        beats:
+          - "Formule: Δ % EBIT / Δ % omzet. Belova benadering: (307 − 515) / 515 = -40,4 % EBIT vs (14.200 − 13.500) / 13.500 = +5,2 % omzet. DOL ≈ -7,8"
+          - "Asymmetrische interpretatie: omzet stijgt licht (+5 %) maar EBIT halveert. Wijst op zware vaste-kostenstructuur (gebouwen, vast personeel, leasings)"
+          - "Belova-context: groothandel heeft typisch hoge vaste kosten (magazijn, logistiek, personeel) — operationele hefboom werkt sterk twee kanten op"
+
+      - id: dfl
+        titel: "Financiële hefboom (DFL)"
+        niveau: 3
+        beats:
+          - "Formule: EBIT / (EBIT − kosten van schulden). Belova: 307 / (307 − 92) = 307 / 215 = 1,43"
+          - "Interpretatie: elke 1 % EBIT-mutatie geeft ~1,43 % ROE-mutatie. Gestegen kaskrediet + lening duwen DFL omhoog (was 1,18 in N-2)"
+
+      - id: hefboomeffect-evaluatie
+        titel: "Hefboomeffect-toets: ROA na bel. vs Kostprijs VV"
+        niveau: 3
+        beats:
+          - "Centrale toets: als ROA na belasting > gemiddelde kostprijs vreemd vermogen → hefboom werkt POSITIEF (schuld duwt ROE omhoog). Als omgekeerd → hefboom werkt NEGATIEF"
+          - "Belova: ROA na bel. = 3,65 % × (1 − 0,25) = 2,74 %. Gem. kostprijs VV ≈ 92 / 2.850 (gem. fin. schulden) = 3,23 %"
+          - "Conclusie: ROA na bel. (2,74 %) < kostprijs VV (3,23 %) → hefboom werkt NEGATIEF. Schuld trekt ROE naar beneden. Dit is een belangrijk diagnose-signaal: schuldreductie zou ROE direct verbeteren"
+
+  - id: ratio-interpretatie
+    titel: "Ratio-interpretatie — vier assen om uit cijfers oordeel te halen"
+    niveau: 2
+    beats:
+      - "Open: tot hier zijn ratio's berekend. Nu komt de échte vaardigheid — interpretatie volgens de vier-assen-methode uit [[concepten/ratio-interpretatie]]"
+      - "As 1: trend over 3-5 jaar. Stabiel? Op-of-neer-trend? Volatiel? Voor Belova: rentabiliteit consequent dalend (3 jaar) = structureel, geen eenmalig"
+      - "As 2: sector-benchmark. Belova zit consequent ONDER NACE 46.470 mediaan voor rentabiliteit, BOVEN voor liquiditeit. Niet één bedrijfsprofiel maar twee perspectieven"
+      - "As 3: cross-categorie verband. DuPont toont dat marge het probleem is — niet kapitaal-inzet of hefboom. CCC + werkkapitaalbehoefte tonen dat werkkapitaal-management verslechtert"
+      - "As 4: kwalitatieve duiding. Bestuursverslag verklaart prijsdruk + Aziatische leveranciers (DIO-stijging). Zonder dit kwalitatieve verband zou de analist 'magere management'-conclusie trekken — verkeerd"
+      - "Blockquote-aside: het zwakke punt van losse ratio-lezing is dat één cijfer veel kan verbergen. Een ROE van 5,9 % zonder de drie andere assen is een snapshot zonder context. De analyse-discipline ligt in het verbinden, niet in het rekenen"
+
+verder_lezen:
+  intro: "Volgende stappen in het PO:"
+  leerstukken:
+    - slug: kasstroom-en-financieringstabel
+      hint: "Cash bewegingen — waarom Belova winstgevend is en toch negatieve operationele cashflow heeft"
+    - slug: kritische-beoordeling-en-diagnose
+      hint: "Van getallen naar oordeel — diagnose-rapport en aanbevelingen aan het bestuur"
+  samenvatting:
+    hint: "Vier-families-tabel + formules + rubriek-codes — onmisbare herhalings-kapstok"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - titel: "Vier ratio-families"
+      concepten: [liquiditeits-ratios, solvabiliteits-ratios, rentabiliteits-ratios, activiteits-ratios]
+    - titel: "Methodologie + verwante"
+      concepten: [ratio-interpretatie, financiele-verrichtingen]
+
+wettelijk_fundament:
+  - onderwerp: "Resultatenrekening-schema (bijlage 3 KB-WVV) + MAR-rubrieken (70 omzet, 60-64 kosten, 9901 BR, 650 fin.kosten, 9904 res.)"
+    ref: "KB-WVV art. 3:80; MAR KB 21.10.2018 Bijlage 1"
+  - onderwerp: "Balansschema volledig model (10-15 EV, 17 LT-schulden, 42-48 KT-schulden)"
+    ref: "KB-WVV art. 3:80; MAR Bijlage 1"
+  - onderwerp: "Rentabiliteit totaal activa — formule-voorbeeld"
+    ref: "CBN-advies 2011/14"
+    noot: "Bevat zowel bruto- als netto-variant van de rentabiliteit van het totaal der activa"
+  - onderwerp: "Schema-verschillen (volledig vs verkort) voor ratio-berekening"
+    ref: "CBN-advies 2017/08; KB-WVV art. 3:83"
+  - onderwerp: "Ratio-doctrine (geen wetsbepaling)"
+    ref: "Ooghe & Van Wymeersch; NBB-balanscentrale ratio-bundel"
+    noot: "Standaard-formules niet in wet — wel in doctrine en NBB-toelichting bij JR-model"
+
+footer: "Leerstuk PO 1.3 — zwaartepunt-techniek. Status: voorgesteld. Volgende stap: [[kasstroom-en-financieringstabel]]."

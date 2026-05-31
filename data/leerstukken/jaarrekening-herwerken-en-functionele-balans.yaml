@@ -1,0 +1,214 @@
+# Leerstuk-script — jaarrekening herwerken en functionele balans
+#
+# Techniek-leerstuk 1 voor PO 1.3. Twee samenhangende bewegingen:
+# (1) de ruwe JR omzetten naar een analyseklare vorm (rubrieken kennen + herrangschikken),
+# (2) het functionele balans-drieluik NBK · BBK · NT berekenen.
+# Bevat ook schema-bewustzijn (volledig vs verkort) als klassieke valkuil.
+
+meta:
+  slug: jaarrekening-herwerken-en-functionele-balans
+  titel: "Jaarrekening herwerken en functionele balans"
+  po: "1.3"
+  cluster: jaarrekeninganalyse
+  voorbeeldgroep: belova
+  beschrijving: >
+    Leerstuk PO 1.3 — eerste techniek-stap: hoe maak je een ruwe Belgische
+    jaarrekening analyse-klaar. Rubrieken kennen, herrangschikken naar liquiditeit
+    en eisbaarheid, en het functionele balans-drieluik NBK · BBK · NT berekenen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 1.3. Vermeld
+    expliciet dat [[wat-is-jaarrekeninganalyse]] eerst gelezen moet zijn —
+    die geeft het kader. Dit is de eerste pure techniek-stap.
+
+antwoord_in_een_blik:
+  beats:
+    - "Vóór je één ratio berekent, herwerk je de JR. Drie bewegingen: (1) ken de rubrieken en hun volgorde-logica (activa toenemend liquide, passief toenemend eisbaar), (2) herrangschik naar een analytische balans, (3) bereken het functionele balans-drieluik"
+    - "Drieluik NBK · BBK · NT: NBK = permanent vermogen − vaste activa (structurele buffer); BBK = exploitatie-vlot. activa − exploitatie-schulden ≤ 1j (cyclische behoefte); NT = NBK − BBK (cash-overschot of -tekort)"
+    - "Belova-resultaat: NBK 2.800 K · BBK 1.820 K · NT 980 K — comfortabel cash-overschot maar de trend in 3 jaar laat NT zakken (1.155 → 1.140 → 980) door stijgende BBK"
+  visualisaties:
+    - type: mermaid
+      ref: functionele-balans
+      bron: voorbeeldgroep
+
+opbouw:
+
+  - id: rubrieken-kennen
+    titel: "Stap 1 — Rubrieken kennen: twee volgorde-logica's"
+    niveau: 2
+    beats:
+      - "Open met de fundamentele observatie: KB-WVV ordent de rubrieken niet alfabetisch maar volgens twee duidelijke logica's"
+      - "Activa = toenemende realiseerbaarheid (van zeer traag naar liquide). Passief = toenemende eisbaarheid (van permanent naar onmiddellijk opeisbaar)"
+      - "Belangrijk: dit is geen toeval — het is gedaan om liquiditeitstoetsing meteen visueel mogelijk te maken. Met activa boven, passief onder kun je gewoon kijken: hoeveel cash zit boven, hoeveel schulden onder?"
+      - "Concretiseer met Belova-balans: toon zowel actief- als passiefkant met volledige rubrieken"
+      - "Klassieke valkuil (blockquote-aside): een lening op lange termijn waarbij de schuldeiser binnen het jaar kan opeisen, hoort onder VIII (schulden ≤ 1 jaar), niet onder VII — anders ontstaat een vals beeld van liquiditeit (CBN 2012/16). Een terugkerende toepassing waarop je alert moet zijn"
+    visualisaties:
+      - type: balans-paar
+        ref: belova-3-jaar
+        bron: voorbeeldgroep
+        notitie: "Toon volledige 3-jaars balans — student moet de structuur zien én de evolutie"
+
+  - id: schema-bewustzijn
+    titel: "Schema-bewustzijn — volledig vs verkort"
+    niveau: 2
+    beats:
+      - "Open met de praktische reden waarom dit ertoe doet: de wet laat kleine vennootschappen toe een verkort schema te gebruiken, en micro-vennootschappen een microschema. Wat erin staat en wat samengevoegd is, bepaalt welke ratio's berekenbaar zijn"
+      - "Toon de tabel met de drie schema's, hun groottecriteria en hun verschillen"
+      - "Centrale valkuil: in het verkort schema worden rubrieken 70 (omzet) + 71 (voorraadwijziging) + 72 (geproduceerde vaste activa) + 74 (andere bedrijfsopbrengsten) samengevoegd tot rubriek 9900 'Brutomarge'. Gevolg: zonder afzonderlijke omzet kun je DSO niet meer berekenen (handelsvorderingen × 365 / omzet vereist een omzet-getal)"
+      - "Belangrijk schema-detail: ook commerciële brutomarge wordt onmogelijk in verkort (geen aparte rubriek 60). Maar liquiditeits- en solvabiliteitsratio's blijven berekenbaar — alle nodige balansposten staan in beide schema's"
+      - "Belova-toepassing: Belova is een grote vennootschap (>50 vte + omzet > 9 mln) → verplicht volledig schema. Dus alle ratio's berekenbaar"
+      - "Blockquote-aside: klassieke valkuil — 'welke ratio kan je niet berekenen op basis van een verkort schema?' Het antwoord is altijd de rotatie van het klantenkrediet (DSO). Zelfde logica voor DPO (aankopen onbekend) en commerciële brutomarge"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Schema", "Wie?", "Wat ontbreekt vs volledig?", "Welke ratio's onmogelijk?"]
+        rijen:
+          - ["Volledig", "Grote vennootschappen (alle drie: balanstotaal · omzet · vte boven drempel)", "—", "Geen"]
+          - ["Verkort", "Kleine vennootschappen (twee van drie criteria binnen drempel)", "Omzet (70) opgegaan in 9900 Brutomarge; rubriek 60 niet apart; reserves niet uitgesplitst", "DSO · DPO · commerciële brutomarge"]
+          - ["Micro", "Microvennootschappen (zeer beperkt: < 350K EUR + < 10 vte + < 700K omzet)", "Nog meer samenvoegingen; geen sociale balans; vereenvoudigde toelichting", "Idem verkort + nog meer activiteits-ratios"]
+
+  - id: analytische-herrangschikking
+    titel: "Stap 2 — Analytische herrangschikking"
+    niveau: 2
+    beats:
+      - "Open: een ruwe JR is goed voor publicatie, niet altijd ideaal voor analyse. Een analist groepeert rubrieken meestal naar vier blokken in plaats van de 9 KB-rubrieken — sneller leesbaar voor verticale analyse"
+      - "Toon de Belova analytische balans met de vier blokken aan beide kanten + aandeel-percentages"
+      - "Sleutelinzicht uit Belova: aan de actiefkant zit 49,0 % in cyclische posten (voorraden + handelsvorderingen). Aan de passiefkant zit 63,7 % in permanent vermogen. Dat verschil financiert dat de exploitatiecyclus draait zonder kortlopende noodfinanciering"
+      - "Verschillende analist-tradities (blockquote-aside): de Belgische doctrine (Ooghe & Van Wymeersch) hanteert deze functionele indeling. Internationale tradities (Vernimmen) hergroeperen iets anders maar het idee is hetzelfde — abstraheer naar grotere blokken om snel een verhouding te zien"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Actiefzijde", "Bedrag (K EUR)", "Aandeel"]
+        rijen:
+          - ["Vaste activa (lang gebonden)", "2.550", "30,4 %"]
+          - ["Voorraden (cyclisch, traag liquide)", "2.100", "25,0 %"]
+          - ["Handelsvorderingen + overige + overlopende", "2.020", "24,0 %"]
+          - ["Geldbeleggingen + liquide middelen (thesaurie)", "1.730", "20,6 %"]
+          - ["**TOTAAL ACTIVA**", "**8.400**", "**100 %**"]
+      - type: tabel-inline
+        kolommen: ["Passiefzijde", "Bedrag (K EUR)", "Aandeel"]
+        rijen:
+          - ["Eigen vermogen", "2.790", "33,2 %"]
+          - ["Voorzieningen (semi-permanent)", "110", "1,3 %"]
+          - ["Schulden > 1 jaar", "2.450", "29,2 %"]
+          - ["= **Permanent vermogen subtotaal**", "**5.350**", "**63,7 %**"]
+          - ["Schulden ≤ 1 jaar exploitatie", "2.300", "27,4 %"]
+          - ["Financiële schulden ≤ 1 jaar (42+43)", "750", "8,9 %"]
+          - ["**TOTAAL PASSIVA**", "**8.400**", "**100 %**"]
+
+  - id: functionele-balans-nbk
+    titel: "Stap 3 — Functionele balans: NBK · BBK · NT uitgewerkt"
+    niveau: 2
+    beats:
+      - "Centrale inzicht voor heel het leerstuk: het drieluik beantwoordt drie verschillende vragen. NBK = is er structurele buffer voor cyclus? BBK = hoeveel cash legt de exploitatiecyclus vast? NT = blijft er na exploitatie nog cash over?"
+      - "Werk de drie componenten één voor één uit voor Belova met expliciete formule + bron-rubrieken"
+    kinderen:
+
+      - id: nbk-uitgewerkt
+        titel: "Netto-bedrijfskapitaal (NBK)"
+        niveau: 3
+        beats:
+          - "Formule lang: NBK = permanent vermogen − vaste activa. Formule kort: vlottende activa − schulden ≤ 1 jaar (geeft hetzelfde resultaat)"
+          - "Belova-berekening: (2.790 EV + 110 voorz. + 2.450 schulden >1j) − (2.400 mat. + 150 fin. vaste activa) = 5.350 − 2.550 = 2.800 K EUR"
+          - "Controle: vlottende activa 5.850 − schulden ≤1j 3.050 = 2.800 ✓"
+          - "Interpretatie: 2.800 K EUR aan permanente middelen overschiet voor financiering van vlottende activa. Een buffer van ~33 % van het balanstotaal — Belova kan rustig schommelingen opvangen"
+          - "Blockquote-aside: NBK is een structureel begrip. Een momentopname op 31/12 is een snapshot — de échte structuur kun je pas zien over meerdere jaren (zie evolutie-tabel onderaan deze sectie)"
+
+      - id: bbk-uitgewerkt
+        titel: "Behoefte aan bedrijfskapitaal (BBK)"
+        niveau: 3
+        beats:
+          - "Formule: BBK = exploitatie-vlottende activa − exploitatie-schulden ≤ 1 jaar"
+          - "Drie filters om elke rubriek te beoordelen — geef ze expliciet als didactische check-list voor de student. (1) Vast vs vlottend → vaste activa + lange financiering = NIET in BBK. (2) Exploitatie vs financieel/thesaurie → geldbeleggingen, liquide middelen, financiële schulden = NIET in BBK. (3) Wat overblijft is exploitatief kortlopend = JA in BBK"
+          - "Belova-berekening: (Voorraden 2.100 + Handelsvord. 1.850 + Overige vord. 95 + Overl. act. 75) − (Handelsschulden 1.520 + Fisc/soc. 380 + Vooruitbet. 25 + Overige sch. 145 + Overl. pass. 230) = 4.120 − 2.300 = 1.820 K EUR"
+          - "Klassieke valkuil (toon expliciet): rubriek 42 'schulden >1j vervallend binnen 1j' lijkt kortlopend maar is een FINANCIËLE schuld die kortlopend wordt — niet exploitatief, dus NIET in BBK. Rubriek 43 'kaskredieten' is ook financieel, NIET in BBK. Ja/nee-keuze per rubriek is een terugkerende toepassing"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Rubriek (code)", "In BBK?", "Reden"]
+            rijen:
+              - ["Voorraden (30/36)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Bestellingen in uitvoering (37)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Handelsvorderingen (40)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Overige vorderingen (41)", "✅ Ja", "Meestal cyclisch (BTW-vord., te ontvangen subs.)"]
+              - ["Overlopende rek. actief (490/1)", "✅ Ja", "Pro rata kosten/opbrengsten"]
+              - ["Geldbeleggingen (50/53)", "❌ Nee", "Thesaurie, niet exploitatief"]
+              - ["Liquide middelen (54/58)", "❌ Nee", "Thesaurie"]
+              - ["Vaste activa (20-29)", "❌ Nee", "Permanent"]
+              - ["Handelsschulden (44)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Ontvangen vooruitbet. (46)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Fisc/soc/loonsch. (45)", "✅ Ja", "Cyclisch exploitatief"]
+              - ["Overige schulden (47/48)", "✅ Ja", "Meestal cyclisch (BTW-sch., te betalen subs.)"]
+              - ["Overlopende rek. passief (492/3)", "✅ Ja", "Pro rata kosten/opbrengsten"]
+              - ["42 Schulden >1j vervallend binnen 1j", "❌ Nee", "Financieel, niet exploitatief"]
+              - ["43 Kaskredieten + financiële schulden", "❌ Nee", "Financieel"]
+              - ["Voorzieningen (16) · EV · LT-schulden", "❌ Nee", "Permanent/lang"]
+
+      - id: nt-uitgewerkt
+        titel: "Nettothesaurie (NT)"
+        niveau: 3
+        beats:
+          - "Formule: NT = NBK − BBK. Of equivalent: NT = cash-equivalents − financiële schulden ≤ 1 jaar"
+          - "Belova-berekening 1: 2.800 NBK − 1.820 BBK = 980 K EUR. Belova-berekening 2 (controle): (250 geldbel. + 1.480 liq. middelen) − (400 sch. 42 + 350 kaskrediet) = 1.730 − 750 = 980 ✓"
+          - "Interpretatie positieve NT: structurele financiering volstaat voor exploitatiecyclus + er blijft cash over. Belova haalt 980 K EUR cash-overschot — geen kortetermijnnoodfinanciering nodig"
+          - "Een positieve NT moet je in drie luiken kunnen omschrijven: drie zaken — geen behoefte aan KT-bankfinanciering, langetermijn-evenwicht in orde, comfortabele KT-liquiditeit. Een rijtje dat je woordelijk moet kunnen geven"
+          - "Nuance (blockquote-aside): structureel hoge NT kan ook duiden op suboptimaal cash-beheer (onderbenutting). Belova's 980 K cash-overschot mét dalende rentabiliteit roept de vraag op: had dit kapitaal niet beter elders gerendeerd?"
+
+  - id: trend-belangrijk
+    titel: "Stap 4 — De trend telt: drieluik over 3 jaar"
+    niveau: 2
+    beats:
+      - "Open met principe: één snapshot op 31/12 zegt weinig. De échte verhalen zitten in de evolutie. Bouw daarom altijd 3-jaar-tabel"
+      - "Toon de Belova trend-tabel voor NBK · BBK · NT"
+      - "Lees-aanwijzing: NBK stijgt 2.335 → 2.800 (gezond, EV groeit). BBK stijgt 1.180 → 1.820 (sterk — de exploitatiecyclus eet steeds meer cash op door langere voorraadrotatie en stijgende DSO). NT zakt 1.155 → 980 (cash-overschot daalt, want BBK groeit sneller dan NBK)"
+      - "Diagnostisch verband: de stijgende BBK is letterlijk de cash die uit cash-positie naar voorraad + vorderingen verschuift. Werkkapitaal-management is voor Belova een prioritair thema (voorraad + debiteuren)"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Component", "N (2026)", "N-1 (2025)", "N-2 (2024)", "Trend"]
+        rijen:
+          - ["NBK", "2.800", "2.535", "2.335", "↑ gestaag stijgend"]
+          - ["BBK", "1.820", "1.395", "1.180", "↑↑ sterk stijgend (signaal)"]
+          - ["NT (= NBK − BBK)", "980", "1.140", "1.155", "↓ dalend (signaal)"]
+
+  - id: toelichting-leest-mee
+    titel: "Wat staat in de toelichting? Lezen mag niet vergeten worden"
+    niveau: 2
+    beats:
+      - "Open: een ratio is een puntmeting. Wat hem context geeft, staat vaak in de toelichting — waarderingsregels, niet-balans-rechten/verplichtingen, vervallen schulden, verstrekte waarborgen"
+      - "Geef Belova-voorbeelden: voorraadwaardering FIFO + waardevermindering 15 K → relevant voor brutomarge. Hypotheek 2,5 mln op gebouw → toont onderpand-druk bij analyse. Persoonlijke borg bestuurders 350 K voor kaskrediet → governance-signaal"
+      - "Bijzondere informatie niet-balans-rechten/verplichtingen (1.3.II.D): off-balance leases, langetermijn-engagementen, garantieverplichtingen kunnen het cash-beeld substantieel veranderen. Belova heeft 285 K resterende leasing-verbintenis — als langetermijn-schuld te lezen voor solvabiliteit"
+      - "Blockquote-aside: één klassieke valkuil voor analisten is uitsluitend op de balans-cijfers focussen. De échte risico's zitten vaak in wat NIET in de balans staat — het programma erkent deze laag expliciet onder de noemer 'bijzondere informatie inzake niet in de balans opgenomen rechten en verplichtingen'"
+
+verder_lezen:
+  intro: "Nu de cijfers analyse-klaar zijn, ga verder met:"
+  leerstukken:
+    - slug: ratios-en-kengetallen
+      hint: "De vier ratio-families uitgewerkt — DSO, current, schuldgraad, ROE, en hun cross-categorie verbanden"
+    - slug: kasstroom-en-financieringstabel
+      hint: "Cash bewegingen verklaard via indirecte methode — waarom Belova winstgevend is maar negatieve operationele cashflow heeft"
+    - slug: kritische-beoordeling-en-diagnose
+      hint: "Hoe vertaal je het geheel naar een oordeel + aanbevelingen aan het bestuur?"
+  samenvatting:
+    hint: "Tabel met BBK ja/nee-rubrieken én de NBK/BBK/NT-formules voor herhaling"
+
+doorklik_concepten:
+  intro: "Voor wie de concepten apart wil opzoeken:"
+  groepen:
+    - concepten: [jaarrekeninganalyse, jaarrekening, activiteits-ratios]
+
+wettelijk_fundament:
+  - onderwerp: "Balansschema volledig model (bijlage 3 KB-WVV)"
+    ref: "KB-WVV art. 3:80"
+  - onderwerp: "Verkort schema voor kleine vennootschappen (bijlage 4 KB-WVV)"
+    ref: "WVV art. 1:24 (groottecriteria); KB-WVV art. 3:83"
+    noot: "CBN-advies 2017/08 — onderscheid volledig vs verkort"
+  - onderwerp: "Microschema voor microvennootschappen"
+    ref: "WVV art. 1:25; KB-WVV art. 3:86"
+  - onderwerp: "Volgorde-logica passief — toenemende eisbaarheid"
+    ref: "CBN-advies 2012/16"
+    noot: "Herclassificatie van het binnen het jaar vervallend deel van schulden op meer dan één jaar naar rubriek 42"
+  - onderwerp: "Inhoud toelichting (off-balance, waarborgen, vervallen schulden)"
+    ref: "KB-WVV art. 3:6 e.v. + art. 3:91 e.v. (Staten van de toelichting)"
+  - onderwerp: "Functionele balansanalyse — geen wetsbepaling"
+    ref: "Ooghe & Van Wymeersch, Handboek financiële analyse"
+    noot: "NBK · BBK · NT zijn analytische begrippen, niet wettelijk gedefinieerd"
+
+footer: "Leerstuk PO 1.3 — techniek 1. Status: voorgesteld. Volgende stap voor de student: [[ratios-en-kengetallen]]."

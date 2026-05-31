@@ -1,9 +1,10 @@
 ---
-title: PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
+title: PO 1.3 — Analyse en kritische beoordeling van de jaarrekening · voorbeeldexamenvragen
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.3 (Analyse en kritische beoordeling van de jaarrekening).
+explorer_title: "Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-1-3]
 gegenereerd_uit: tools/examen/render_merged_v4.py
-gegenereerd_op: 2026-05-30
+gegenereerd_op: 2026-05-31
 ---
 
 # PO 1.3 — Analyse en kritische beoordeling van de jaarrekening

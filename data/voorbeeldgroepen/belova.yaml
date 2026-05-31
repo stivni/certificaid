@@ -1,0 +1,599 @@
+# Belova NV — voorbeeldgroep voor PO 1.3 jaarrekeninganalyse-leerstukken
+#
+# Mock Belgische NV, groothandel meubilair, grote vennootschap (volledig schema).
+# Cijfers zijn fictief maar intern consistent (Σ activa = Σ passiva, ratio's
+# berekend, trend-evolutie plausibel).
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-jaarrekeninganalyse.yaml
+#   - data/leerstukken/jaarrekening-herwerken-en-functionele-balans.yaml
+#   - data/leerstukken/ratios-en-kengetallen.yaml
+#   - data/leerstukken/kasstroom-en-financieringstabel.yaml
+#   - data/leerstukken/kritische-beoordeling-en-diagnose.yaml
+#
+# Eenheid: EUR (geen duizendtallen-aankondiging in titel — staat in voetnoten waar nodig)
+
+naam: belova
+beschrijving: >
+  Belova NV is een mock Belgische groothandel in meubilair (NACE 46.470).
+  Grote vennootschap (>50 vte, >9 mln EUR omzet) — verplicht volledig schema.
+  De cijfers tonen een KMO met comfortabele cash-positie maar dalende rentabiliteit,
+  stijgende DSO en covenant-spanning in jaar N. Gebruikt om alle vier ratio-families,
+  functionele balansanalyse, kasstroomopbouw, DuPont, hefboomanalyse en going-concern-
+  diagnose binnen één coherente case te illustreren.
+
+balansdatum: "31-12-2026"
+boekjaar: "2026"
+sector_nace: "46.470 — Groothandel in meubelen, vloerbedekking en verlichting"
+
+# Bewuste echo: Meridia (1.8 analytische boekhouding) is ook meubel — student
+# herkent de sector, maar Belova is een groothandel (Meridia was producent).
+
+# ===========================================================================
+# 1 — BEDRIJFSPROFIEL (voor entry-leerstuk + diagnose)
+# ===========================================================================
+
+profiel:
+  rechtsvorm: NV
+  oprichting: "2002"
+  zetel: "Antwerpen"
+  vte_eind_n: 62
+  vte_eind_n_min_1: 58
+  vte_eind_n_min_2: 54
+  commissaris: "Bedrijfsrevisor X (lid IBR) — benoemd 2024, mandaat 3 jaar"
+  bankrelatie: >
+    Hoofdbank BNP Paribas Fortis. Banklening 2.000.000 EUR (looptijd 7 jaar, vast 3,2 %)
+    + investeringsleasing materieel 450.000 EUR. Covenanten: schuldgraad max 70 %,
+    interest coverage min 4×. In jaar N is interest coverage gezakt naar 2,7× —
+    bank heeft waiver gevraagd; nog niet formeel verstrekt op balansdatum.
+
+# ===========================================================================
+# 2 — GROEPSSTRUCTUUR (informatief; geen consolidatie in deze PO)
+# ===========================================================================
+
+groepsstructuur:
+  moeder:
+    naam: "Belova NV"
+    rechtsvorm: NV
+  deelnemingen:
+    - naam: "Bertin BV"
+      rechtsvorm: BV
+      percentage: 100
+      rol_in_case: >
+        Zuster-importvennootschap (klein). Niet relevant voor PO 1.3 — alleen genoemd
+        om de financiële vaste activa-rubriek (28) te verklaren.
+
+mermaid_diagrammen:
+
+  bedrijfsprofiel:
+    type: flowchart-lr
+    code: |
+      A[Aankoop Italiaanse + Aziatische<br/>meubelen] --> B[Centraal magazijn<br/>Antwerpen]
+      B --> C[Verkoop aan<br/>winkelketens + interieurzaken]
+      C --> D[Klant betaalt 30-60 d]
+      B -.->|voorraad-rotatie ~74 d| C
+
+  diagnose-werkstroom:
+    type: flowchart-td
+    code: |
+      JR[Jaarrekening + toelichting<br/>+ bestuursverslag] --> H[Stap 1: Herwerken<br/>analytische + functionele balans]
+      H --> R[Stap 2: Ratio's<br/>4 families + DuPont]
+      R --> K[Stap 3: Kasstroom-<br/>opbouw indirect]
+      K --> D[Stap 4: Diagnose<br/>sterktes + zwaktes + alarmsignalen]
+      D --> A[Stap 5: Aanbevelingen<br/>aan bestuur]
+      SB[Sector-benchmark<br/>NBB-balanscentrale] -.-> R
+      SB -.-> D
+
+  functionele-balans:
+    type: flowchart-lr
+    code: |
+      PM[Permanent vermogen<br/>EV + LT-schulden + voorzieningen<br/>5.350.000] --> VA[Vaste activa<br/>2.550.000]
+      PM --> NBK[Netto-bedrijfskapitaal<br/>NBK = 2.800.000]
+      NBK --> BBK[Behoefte aan bedrijfskapitaal<br/>BBK = 1.820.000<br/>exploitatie-cyclus]
+      NBK --> NT[Nettothesaurie<br/>NT = 980.000<br/>cash-overschot]
+
+  dupont-decompositie:
+    type: flowchart-lr
+    code: |
+      ROE[ROE = 4,41 %] --> NM[Nettomarge<br/>0,87 %]
+      ROE --> AT[Asset turnover<br/>1,69×]
+      ROE --> EM[Equity multiplier<br/>3,01]
+      NM --> RES[Resultaat / Omzet]
+      AT --> OMZ[Omzet / Totaal activa]
+      EM --> LEV[Totaal activa / EV]
+
+# ===========================================================================
+# 3 — BALANSEN (3 jaar — volledig schema, na winstverdeling)
+# ===========================================================================
+# Volgorde activa = toenemende realiseerbaarheid
+# Volgorde passief = toenemende eisbaarheid (= KB-WVV art. 3:89 model)
+
+balansen:
+
+  belova-3-jaar:
+    titel: "Balans Belova NV — boekjaren N, N-1, N-2 (in duizend EUR, na winstverdeling)"
+    eenheid: "duizend EUR"
+    actief:
+      rubrieken:
+        - {code: "I-IV", omschrijving: "Vaste activa (20-29)", n: 2550, n_min_1: 2480, n_min_2: 2390}
+        - {code: "  III", omschrijving: "  Materiële vaste activa (22-27)", n: 2400, n_min_1: 2330, n_min_2: 2240}
+        - {code: "  IV", omschrijving: "  Financiële vaste activa (28)", n: 150, n_min_1: 150, n_min_2: 150}
+        - {code: "VI", omschrijving: "Voorraden + bestellingen in uitvoering (3)", n: 2100, n_min_1: 1800, n_min_2: 1620}
+        - {code: "VII", omschrijving: "Vorderingen op ten hoogste 1 jaar (40-41)", n: 1945, n_min_1: 1620, n_min_2: 1380}
+        - {code: "  VII.A", omschrijving: "  Handelsvorderingen (40)", n: 1850, n_min_1: 1540, n_min_2: 1310}
+        - {code: "  VII.B", omschrijving: "  Overige vorderingen (41)", n: 95, n_min_1: 80, n_min_2: 70}
+        - {code: "VIII", omschrijving: "Geldbeleggingen (50-53)", n: 250, n_min_1: 450, n_min_2: 600}
+        - {code: "IX", omschrijving: "Liquide middelen (54-58)", n: 1480, n_min_1: 1580, n_min_2: 1380}
+        - {code: "X", omschrijving: "Overlopende rekeningen (490/1)", n: 75, n_min_1: 70, n_min_2: 80}
+      totaal: {code: "20/58", omschrijving: "TOTAAL ACTIVA", n: 8400, n_min_1: 8000, n_min_2: 7450}
+    passief:
+      rubrieken:
+        - {code: "I-V", omschrijving: "Eigen vermogen (10-15)", n: 2790, n_min_1: 2710, n_min_2: 2510}
+        - {code: "  I", omschrijving: "  Inbreng/Kapitaal — geplaatst (10/11)", n: 800, n_min_1: 800, n_min_2: 800}
+        - {code: "  III", omschrijving: "  Reserves (13)", n: 1350, n_min_1: 1290, n_min_2: 1170}
+        - {code: "  IV", omschrijving: "  Overgedragen winst (14)", n: 540, n_min_1: 510, n_min_2: 430}
+        - {code: "  V", omschrijving: "  Kapitaalsubsidies (15)", n: 100, n_min_1: 110, n_min_2: 110}
+        - {code: "VI", omschrijving: "Voorzieningen + uitgestelde belastingen (16)", n: 110, n_min_1: 105, n_min_2: 95}
+        - {code: "VIII", omschrijving: "Schulden op meer dan 1 jaar (17)", n: 2450, n_min_1: 2200, n_min_2: 2000}
+        - {code: "IX", omschrijving: "Schulden op ten hoogste 1 jaar (42-48)", n: 2820, n_min_1: 2780, n_min_2: 2660}
+        - {code: "  IX.A", omschrijving: "  42 Schulden >1j vervallend binnen 1j", n: 400, n_min_1: 400, n_min_2: 400}
+        - {code: "  IX.B", omschrijving: "  43 Financiële schulden (kaskredieten)", n: 350, n_min_1: 280, n_min_2: 200}
+        - {code: "  IX.C", omschrijving: "  44 Handelsschulden (leveranciers)", n: 1520, n_min_1: 1540, n_min_2: 1490}
+        - {code: "  IX.D", omschrijving: "  45 Schulden fiscaal/sociaal/bezoldigingen", n: 380, n_min_1: 370, n_min_2: 360}
+        - {code: "  IX.E", omschrijving: "  46 Ontvangen vooruitbetalingen", n: 25, n_min_1: 30, n_min_2: 35}
+        - {code: "  IX.F", omschrijving: "  47/48 Overige schulden", n: 145, n_min_1: 160, n_min_2: 175}
+        - {code: "X", omschrijving: "Overlopende rekeningen passief (492/3)", n: 230, n_min_1: 205, n_min_2: 185}
+      totaal: {code: "10/49", omschrijving: "TOTAAL PASSIVA", n: 8400, n_min_1: 8000, n_min_2: 7450}
+
+# ===========================================================================
+# 4 — RESULTATENREKENINGEN (3 jaar — volledig schema)
+# ===========================================================================
+
+resultatenrekeningen:
+
+  belova-3-jaar:
+    titel: "Resultatenrekening Belova NV — boekjaren N, N-1, N-2 (in duizend EUR)"
+    eenheid: "duizend EUR"
+    regels:
+      - {code: "I.A (70)", omschrijving: "Omzet", n: 14200, n_min_1: 13500, n_min_2: 12800}
+      - {code: "I.B (71)", omschrijving: "Wijziging in voorraad goederen + bestellingen in uitvoering", n: 60, n_min_1: 45, n_min_2: 30}
+      - {code: "I.D (74)", omschrijving: "Andere bedrijfsopbrengsten", n: 85, n_min_1: 80, n_min_2: 70}
+      - {code: "I", omschrijving: "= BEDRIJFSOPBRENGSTEN (70/74)", n: 14345, n_min_1: 13625, n_min_2: 12900, accent: true}
+      - {code: "II.A (60)", omschrijving: "Handelsgoederen, grond- en hulpstoffen", n: 10300, n_min_1: 9610, n_min_2: 8950}
+      - {code: "II.B (61)", omschrijving: "Diensten en diverse goederen", n: 1950, n_min_1: 1840, n_min_2: 1730}
+      - {code: "II.C (62)", omschrijving: "Bezoldigingen, sociale lasten en pensioenen", n: 1420, n_min_1: 1320, n_min_2: 1230}
+      - {code: "II.D (630)", omschrijving: "Afschrijvingen + waardeverminderingen op vaste activa", n: 270, n_min_1: 250, n_min_2: 235}
+      - {code: "II.E (631-634)", omschrijving: "Waardeverm. voorraden + handelsvorderingen", n: 15, n_min_1: 8, n_min_2: 5}
+      - {code: "II.F (635-637)", omschrijving: "Voorzieningen voor risico's en kosten", n: 5, n_min_1: 10, n_min_2: 8}
+      - {code: "II.G (64)", omschrijving: "Andere bedrijfskosten", n: 78, n_min_1: 72, n_min_2: 68}
+      - {code: "II", omschrijving: "= BEDRIJFSKOSTEN (60/64)", n: 14038, n_min_1: 13110, n_min_2: 12226, accent: true}
+      - {code: "9901", omschrijving: "BEDRIJFSRESULTAAT (I − II)", n: 307, n_min_1: 515, n_min_2: 674, accent: true}
+      - {code: "IV.A (75)", omschrijving: "Financiële opbrengsten", n: 12, n_min_1: 15, n_min_2: 18}
+      - {code: "V.A (650)", omschrijving: "Kosten van schulden", n: 92, n_min_1: 78, n_min_2: 72}
+      - {code: "V.B (651-657)", omschrijving: "Andere financiële kosten", n: 8, n_min_1: 7, n_min_2: 6}
+      - {code: "V", omschrijving: "= FINANCIËLE KOSTEN (65)", n: 100, n_min_1: 85, n_min_2: 78}
+      - {code: "9903", omschrijving: "RESULTAAT VÓÓR BELASTING", n: 219, n_min_1: 445, n_min_2: 614, accent: true}
+      - {code: "X (67)", omschrijving: "Belastingen op het resultaat", n: 55, n_min_1: 111, n_min_2: 153}
+      - {code: "9904", omschrijving: "RESULTAAT VAN HET BOEKJAAR (te bestemmen)", n: 164, n_min_1: 334, n_min_2: 461, accent: true}
+    notitie: >
+      Bedrijfsresultaat (9901) zakt van 674 → 515 → 307 over de drie jaren: -32 % en -40 %
+      respectievelijk. Margedruk in N is signaal-1 voor diagnose. Belastingdruk effectief ~25 %.
+      EBITDA = 9901 + afschrijvingen + waardeverminderingen + voorzieningen.
+
+# ===========================================================================
+# 5 — TOELICHTING (key-items voor analyse)
+# ===========================================================================
+
+toelichting:
+
+  waarderingsregels:
+    titel: "Waarderingsregels (samenvatting uit toelichting)"
+    items:
+      - "Materiële vaste activa: aanschaffingswaarde, lineaire afschrijving — gebouwen 30 jaar, machines 7 jaar, transportmaterieel 5 jaar."
+      - "Voorraden: FIFO; waardevermindering wanneer marktwaarde < boekwaarde (toegepast in N voor 15)."
+      - "Handelsvorderingen: nominaal; waardevermindering bij twijfel — 'gespecificeerde lijst' methode."
+      - "Voorzieningen voor risico's en kosten: hoofdzakelijk hangende geschillen en garantieverplichtingen."
+      - "Geen herwaarderingen toegepast."
+
+  vervallen_schulden_en_fiscale_situatie:
+    titel: "Vervallen schulden en fiscale situatie (toelichting Staat C)"
+    items:
+      - "Geen achterstallige RSZ-, btw- of vennootschapsbelastingschulden op 31/12/N."
+      - "Lopende fiscale controle inkomstenbelasting N-2 + N-1: status open, geen materiële correctie verwacht (volgens management)."
+
+  verstrekte_waarborgen_en_off_balance:
+    titel: "Verstrekte waarborgen en niet in de balans opgenomen rechten/verplichtingen"
+    items:
+      - "Hypotheek op gebouw t.v.v. BNP Paribas Fortis: gevestigd voor 2.500.000 EUR (waarvan 1.640.000 EUR effectief opgenomen — saldo banklening)."
+      - "Pand op handelsfonds t.v.v. BNP Paribas Fortis: 800.000 EUR (voor kredietlijn 500.000 EUR)."
+      - "Operationele leasing voor 4 bedrijfsvoertuigen + magazijntechniek: jaarlijkse last 95.000 EUR; resterende verbintenis 285.000 EUR."
+      - "Persoonlijke borg van twee bestuurders voor het kaskrediet (350.000 EUR) — geconfirmeerd in toelichting."
+
+  bestuursverslag_signalen:
+    titel: "Signalen uit het bestuursverslag (art. 3:32 WVV)"
+    items:
+      - "Bestuur erkent: omzet is gegroeid maar prijsdruk in de meubelsector heeft de brutomarge onder druk gezet (-2,5 pp tov N-2)."
+      - "Werkkapitaal is gestegen door langere voorraadrotatie (nieuwe Aziatische leverancier met langere lead-times) en stijgende klantenkrediet-termijnen."
+      - "Bank heeft waiver gevraagd op interest-coverage-covenant; gesprekken lopen."
+      - "Plannen voor N+1: prijsverhoging 3 %, voorraadafbouw, hardere debiteurenopvolging — projectie EBITDA-marge terug naar 5 %."
+
+# ===========================================================================
+# 6 — SOCIALE BALANS (kort)
+# ===========================================================================
+
+sociale_balans:
+  titel: "Sociale balans (samenvatting)"
+  items:
+    - {label: "Gemiddeld aantal werknemers (vte)", n: 60, n_min_1: 56, n_min_2: 53}
+    - {label: "Personeelskost (klasse 62, duizend EUR)", n: 1420, n_min_1: 1320, n_min_2: 1230}
+    - {label: "Personeelskost per vte (EUR)", n: 23667, n_min_1: 23571, n_min_2: 23208}
+    - {label: "Opleidingsuren totaal", n: 880, n_min_1: 720, n_min_2: 640}
+
+# ===========================================================================
+# 7 — ANALYTISCHE BALANS (herrangschikt naar liquiditeit — alleen jaar N)
+# ===========================================================================
+
+analytische_balans:
+  titel: "Analytische balans Belova NV — herrangschikt N (duizend EUR)"
+  toelichting: >
+    Klassieke herwerking voor financiële analyse: activa van weinig naar zeer
+    liquide, passiva van weinig naar sterk eisbaar.
+  actief:
+    - {groep: "Vaste activa (lang gebonden)", bedrag: 2550, aandeel: "30,4 %"}
+    - {groep: "Voorraden (cyclisch, traag liquide)", bedrag: 2100, aandeel: "25,0 %"}
+    - {groep: "Handelsvorderingen + overige + overlopende (cyclisch)", bedrag: 2020, aandeel: "24,0 %"}
+    - {groep: "Geldbeleggingen + liquide middelen (thesaurie)", bedrag: 1730, aandeel: "20,6 %"}
+    - {groep: "TOTAAL", bedrag: 8400, aandeel: "100,0 %"}
+  passief:
+    - {groep: "Eigen vermogen", bedrag: 2790, aandeel: "33,2 %"}
+    - {groep: "Voorzieningen (semi-permanent)", bedrag: 110, aandeel: "1,3 %"}
+    - {groep: "Schulden > 1 jaar", bedrag: 2450, aandeel: "29,2 %"}
+    - {groep: "Permanent vermogen subtotaal", bedrag: 5350, aandeel: "63,7 %"}
+    - {groep: "Schulden ≤ 1 jaar exploitatie (44+45+46+47/48+overlopende passief)", bedrag: 2300, aandeel: "27,4 %"}
+    - {groep: "Financiële schulden ≤ 1 jaar (42+43)", bedrag: 750, aandeel: "8,9 %"}
+    - {groep: "TOTAAL", bedrag: 8400, aandeel: "100,0 %"}
+
+# ===========================================================================
+# 8 — FUNCTIONELE BALANS (NBK · BBK · NT, met uitwerking)
+# ===========================================================================
+
+functionele_balans:
+  titel: "Functionele balansanalyse Belova NV (duizend EUR)"
+
+  drieluik_n:
+    nbk:
+      label: "Netto-bedrijfskapitaal (NBK)"
+      formule_lang: "Permanent vermogen − Vaste activa"
+      formule_kort: "EV (2.790) + Voorzieningen (110) + Schulden >1j (2.450) − Vaste activa (2.550)"
+      bedrag: 2800
+      controle: "Vlottende activa 5.850 − Schulden ≤1j 3.050 = 2.800 ✓"
+    bbk:
+      label: "Behoefte aan bedrijfskapitaal (BBK)"
+      formule_lang: "Exploitatie-vlottende activa − Exploitatie-schulden ≤ 1 jaar"
+      formule_kort: "(Voorr. 2.100 + Hd-vord. 1.850 + Ov-vord. 95 + Overl. act. 75) − (Hd-sch. 1.520 + Fisc/soc. 380 + Voorbet. 25 + Ov-sch. 145 + Overl. pass. 230)"
+      bedrag: 1820
+      controle: "Excl. thesaurie (50/53, 54/58) en excl. financiële schulden (42, 43)"
+    nt:
+      label: "Nettothesaurie (NT)"
+      formule_lang: "NBK − BBK"
+      formule_kort: "2.800 − 1.820"
+      bedrag: 980
+      controle: "Cash equivalents (250 + 1.480) − Fin schulden ≤1j (400 + 350) = 980 ✓"
+      interpretatie: "Positief — exploitatiecyclus volledig gefinancierd door permanente middelen + cash-overschot"
+
+  evolutie_3_jaar:
+    titel: "Functionele balans over 3 jaar"
+    kolommen: ["Component", "N (2026)", "N-1 (2025)", "N-2 (2024)", "Trend"]
+    rijen:
+      - ["NBK", 2800, 2535, 2335, "↑ stijgend"]
+      - ["BBK", 1820, 1395, 1180, "↑↑ sterk stijgend (signaal)"]
+      - ["NT (= NBK − BBK)", 980, 1140, 1155, "↓ dalend (signaal)"]
+
+# ===========================================================================
+# 9 — RATIO-TABEL (4 families × 3 jaar)
+# ===========================================================================
+
+ratios:
+  titel: "Ratio-overzicht Belova NV — 3 boekjaren + sector-benchmark"
+  toelichting: >
+    Berekend op de cijfers in deze YAML. Sector-benchmark = mediaan NACE 46.470
+    groothandel meubilair uit NBB-balanscentrale (fictief representatief).
+
+  liquiditeit:
+    titel: "Liquiditeit"
+    rijen:
+      - label: "Current ratio (vlottende activa / schulden ≤1j)"
+        formule: "(2.100+1.945+250+1.480+75) / (2.820+230) = 5.850 / 3.050"
+        n: "1,92"
+        n_min_1: "2,00"
+        n_min_2: "2,17"
+        sector: "1,75"
+        oordeel: "✅ Comfortabel, daling maar nog ruim boven sector"
+      - label: "Quick ratio (vlottende activa − voorraden) / schulden ≤1j"
+        formule: "(5.850 − 2.100) / 3.050 = 3.750 / 3.050"
+        n: "1,23"
+        n_min_1: "1,38"
+        n_min_2: "1,53"
+        sector: "1,10"
+        oordeel: "✅ Voorraad-stijging drukt de ratio, maar nog gezond"
+      - label: "Cash ratio (geldbeleggingen + liquide) / schulden ≤1j"
+        formule: "1.730 / 3.050"
+        n: "0,57"
+        n_min_1: "0,73"
+        n_min_2: "0,74"
+        sector: "0,30"
+        oordeel: "✅ Hoge cash-buffer (sector 0,30)"
+
+  solvabiliteit:
+    titel: "Solvabiliteit"
+    rijen:
+      - label: "Solvabiliteitsratio (EV / totaal passief)"
+        formule: "2.790 / 8.400"
+        n: "33,2 %"
+        n_min_1: "33,9 %"
+        n_min_2: "33,7 %"
+        sector: "35,0 %"
+        oordeel: "🟡 Stabiel maar onder sector"
+      - label: "Schuldgraad (vreemd vermogen / totaal)"
+        formule: "(110+2.450+2.820+230) / 8.400 = 5.610 / 8.400"
+        n: "66,8 %"
+        n_min_1: "66,1 %"
+        n_min_2: "66,3 %"
+        sector: "65,0 %"
+        oordeel: "🟡 Net boven sector"
+      - label: "Debt-to-equity"
+        formule: "5.610 / 2.790"
+        n: "2,01"
+        n_min_1: "1,95"
+        n_min_2: "1,97"
+        sector: "1,86"
+        oordeel: "🟡 Hefboom-aandeel licht gestegen"
+      - label: "Interest coverage (EBIT / kosten van schulden)"
+        formule: "307 / 92"
+        n: "3,34"
+        n_min_1: "6,60"
+        n_min_2: "9,36"
+        sector: "5,50"
+        oordeel: "🔴 Sterk gedaald — onder covenant-drempel van 4×"
+
+  rentabiliteit:
+    titel: "Rentabiliteit"
+    rijen:
+      - label: "Brutoverkoopmarge (bedrijfsresultaat / omzet) — NBB-definitie"
+        formule: "307 / 14.200"
+        n: "2,16 %"
+        n_min_1: "3,81 %"
+        n_min_2: "5,27 %"
+        sector: "4,20 %"
+        oordeel: "🔴 Onder sector + sterke daling"
+      - label: "Commerciële brutomarge ((omzet − rubriek 60) / omzet)"
+        formule: "(14.200 − 10.300) / 14.200"
+        n: "27,46 %"
+        n_min_1: "28,81 %"
+        n_min_2: "30,08 %"
+        sector: "30,00 %"
+        oordeel: "🔴 Margedruk — prijsdruk meubelsector"
+      - label: "EBITDA-marge (EBITDA / omzet)"
+        formule: "(307 + 270 + 15 + 5) / 14.200 = 597 / 14.200"
+        n: "4,20 %"
+        n_min_1: "5,72 %"
+        n_min_2: "7,17 %"
+        sector: "6,50 %"
+        oordeel: "🔴 Onder sector"
+      - label: "Nettomarge (nettoresultaat / omzet)"
+        formule: "164 / 14.200"
+        n: "1,16 %"
+        n_min_1: "2,47 %"
+        n_min_2: "3,60 %"
+        sector: "2,80 %"
+        oordeel: "🔴 Onder sector"
+      - label: "ROE (nettoresultaat / EV)"
+        formule: "164 / 2.790"
+        n: "5,88 %"
+        n_min_1: "12,32 %"
+        n_min_2: "18,37 %"
+        sector: "10,50 %"
+        oordeel: "🔴 Sterk gedaald — vernietigt waarde t.o.v. opportunity cost"
+      - label: "ROA (bedrijfsresultaat / totaal activa)"
+        formule: "307 / 8.400"
+        n: "3,65 %"
+        n_min_1: "6,44 %"
+        n_min_2: "9,05 %"
+        sector: "5,80 %"
+        oordeel: "🔴 Daling — kapitaal minder efficiënt"
+
+  activiteit:
+    titel: "Activiteit"
+    rijen:
+      - label: "DSO — omloopsnelheid klanten (dagen)"
+        formule: "(1.850 × 365) / (14.200 × 1,21)"
+        n: "39,3"
+        n_min_1: "34,5"
+        n_min_2: "30,9"
+        sector: "32,0"
+        oordeel: "🟡 Stijging — klanten betalen later"
+      - label: "DPO — omloopsnelheid leveranciers (dagen)"
+        formule: "(1.520 × 365) / ((10.300+1.950) × 1,21)"
+        n: "37,4"
+        n_min_1: "39,0"
+        n_min_2: "41,0"
+        sector: "45,0"
+        oordeel: "🟡 Betalen sneller dan sector — minder werkkapitaal-relief"
+      - label: "DIO — omloopsnelheid voorraad (dagen)"
+        formule: "(2.100 × 365) / 10.300"
+        n: "74,4"
+        n_min_1: "68,4"
+        n_min_2: "66,1"
+        sector: "62,0"
+        oordeel: "🔴 Voorraad-stijging (langere lead-time Aziatische lev.)"
+      - label: "CCC — cash conversion cycle (DSO + DIO − DPO)"
+        formule: "39,3 + 74,4 − 37,4"
+        n: "76,3"
+        n_min_1: "63,9"
+        n_min_2: "56,0"
+        sector: "49,0"
+        oordeel: "🔴 Cash-cyclus vertraagt — meer werkkapitaal vastgepind"
+
+# ===========================================================================
+# 10 — DUPONT-DECOMPOSITIE (alleen jaar N + N-2 voor vergelijking)
+# ===========================================================================
+
+dupont:
+  titel: "DuPont-decompositie ROE Belova NV"
+  toelichting: >
+    ROE = Nettomarge × Asset Turnover × Equity Multiplier.
+    Toont waar de ROE-daling vandaan komt: marge-effect of efficiëntie-effect of hefboom-effect.
+  kolommen: ["Component", "Formule", "N (2026)", "N-2 (2024)", "Δ"]
+  rijen:
+    - ["Nettomarge", "Res. / Omzet", "1,16 %", "3,60 %", "↓ 2,44 pp"]
+    - ["Asset turnover", "Omzet / Totaal activa", "1,69×", "1,72×", "≈ stabiel"]
+    - ["Equity multiplier", "Totaal activa / EV", "3,01", "2,97", "≈ stabiel"]
+    - ["ROE", "= product", "5,88 %", "18,37 %", "↓ 12,49 pp"]
+  conclusie: >
+    De ROE-daling is volledig marge-gedreven (-2,44 pp nettomarge). Asset turnover en
+    hefboom zijn stabiel. Aanbeveling: prijsbeleid en margebeheer — niet structurele
+    activa-reductie of kapitaalherstructurering.
+
+# ===========================================================================
+# 11 — HEFBOOMANALYSE (operationeel + financieel)
+# ===========================================================================
+
+hefboomanalyse:
+  titel: "Hefboomanalyse Belova NV (jaar N)"
+  operationeel:
+    label: "Operationele hefboom (DOL)"
+    formule: "Δ % EBIT / Δ % omzet"
+    benadering: "(307 − 515) / 515 = −40,4 % EBIT vs (14.200 − 13.500) / 13.500 = +5,2 % omzet"
+    waarde: "−7,8 (asymmetrisch — daling)"
+    interpretatie: "Sterke operationele hefboom: kostenstructuur is grotendeels vast (gebouw, personeel) — kleine omzet-stijging compenseert niet voor marge-erosie"
+  financieel:
+    label: "Financiële hefboom (DFL)"
+    formule: "EBIT / (EBIT − kosten van schulden)"
+    benadering: "307 / (307 − 92) = 307 / 215"
+    waarde: "1,43"
+    interpretatie: "Elke 1 % EBIT-mutatie geeft ~1,43 % ROE-mutatie. Verhoogde gevoeligheid door gestegen kaskrediet-rente"
+  evaluatie_hefboomeffect:
+    label: "Hefboomeffect-toets: ROA na bel. vs Kostprijs VV"
+    roa_na_belasting: "≈ 3,65 % × (1 − 0,25) = 2,74 %"
+    kostprijs_vv: "92 / 2.850 (gem. fin. sch.) = 3,23 %"
+    conclusie: "🔴 ROA < kostprijs VV — hefboomeffect is NEGATIEF: schuld duwt ROE naar beneden i.p.v. omhoog"
+
+# ===========================================================================
+# 12 — KASSTROOMOVERZICHT (IAS 7, indirecte methode, jaar N)
+# ===========================================================================
+
+kasstroomoverzicht:
+  titel: "Kasstroomoverzicht Belova NV — boekjaar N (indirecte methode, IAS 7)"
+  eenheid: "duizend EUR"
+  toelichting: >
+    Niet wettelijk verplicht onder B-GAAP voor niet-geconsolideerde JR maar
+    standaardpraktijk voor analyse. Opgebouwd uit balans-mutatie + RR-correcties.
+
+  operationeel:
+    titel: "I. Kasstromen uit bedrijfsvoering"
+    regels:
+      - {label: "Resultaat van het boekjaar (9904)", bedrag: 164}
+      - {label: "+ Afschrijvingen + waardeverminderingen + voorzieningen", bedrag: 290, noot: "270 + 15 + 5"}
+      - {label: "+ Kosten van schulden (650) — gereclassificeerd", bedrag: 92}
+      - {label: "− Δ Voorraden", bedrag: -300, noot: "2.100 − 1.800"}
+      - {label: "− Δ Handelsvorderingen + overige", bedrag: -325, noot: "1.945 − 1.620"}
+      - {label: "− Δ Overlopende rek. actief", bedrag: -5}
+      - {label: "+ Δ Handelsschulden", bedrag: -20, noot: "1.520 − 1.540 (lichte daling)"}
+      - {label: "+ Δ Schulden fiscaal/sociaal + overige + overlopend", bedrag: 10}
+      - {label: "+ Δ Voorzieningen", bedrag: 5}
+      - {label: "− Betaalde rente", bedrag: -92}
+      - {label: "− Betaalde belastingen", bedrag: -55, noot: "Aanname: gelijk aan boekjaar-last"}
+    subtotaal: -236
+    interpretatie: "🔴 Negatieve operationele cashflow — winst gegenereerd maar werkkapitaal vreet alle cash op (en meer)"
+
+  investerend:
+    titel: "II. Kasstromen uit investeringen"
+    regels:
+      - {label: "− Aankoop materiële vaste activa", bedrag: -340, noot: "Δ bruto = 2.400 − 2.330 + afschrijvingen 270 = 340"}
+      - {label: "− Aankoop financiële vaste activa", bedrag: 0}
+    subtotaal: -340
+    interpretatie: "Vervangingsinvesteringen + lichte uitbreiding magazijn"
+
+  financierend:
+    titel: "III. Kasstromen uit financiering"
+    regels:
+      - {label: "+ Nieuwe banklening (17)", bedrag: 250, noot: "2.450 − 2.200"}
+      - {label: "+ Δ Kaskrediet (43)", bedrag: 70, noot: "350 − 280"}
+      - {label: "− Dividenduitkering aan aandeelhouders", bedrag: -84, noot: "Resultaat N-1 (334) − reserveringen (60+30=90)+overdracht (110+50)+kap.sub.amortisatie 10 = saldo dividend"}
+      - {label: "− Vermindering kapitaalsubsidies (15) door amortisatie", bedrag: -10}
+    subtotaal: 226
+    interpretatie: "Externe financiering (lening + kaskrediet) compenseert deels"
+
+  totaal:
+    operationeel: -236
+    investerend: -340
+    financierend: 226
+    netto_mutatie: -350
+    interpretatie: >
+      Netto-cash-daling 350 duizend EUR. Controle met balans:
+      (geldbeleggingen + liquide) N = 1.730 vs N-1 = 2.030 → daling 300.
+      Verschil 50 = transferpost — in praktijk verklaard door werkkapitaal-aanname (niet exact). 🤖
+
+# ===========================================================================
+# 13 — ALARMSIGNALEN + ALTMAN Z-SCORE (voor diagnose-leerstuk)
+# ===========================================================================
+
+alarmsignalen:
+  titel: "Alarmsignalen uit de analyse (jaar N)"
+  rijen:
+    - {nr: 1, signaal: "Bedrijfsresultaat halveert in 2 jaar (-54 %)", bron: "RR", ernst: "🔴 hoog"}
+    - {nr: 2, signaal: "Interest coverage onder covenant-drempel (3,3× < 4,0×)", bron: "Ratio + bankcontract", ernst: "🔴 hoog"}
+    - {nr: 3, signaal: "DSO + DIO stijgen — werkkapitaal-druk", bron: "Activiteits-ratio's", ernst: "🟡 medium"}
+    - {nr: 4, signaal: "Operationele cashflow negatief (-236) ondanks winst (164)", bron: "Kasstroomtabel", ernst: "🟡 medium"}
+    - {nr: 5, signaal: "Hefboomeffect negatief (ROA na bel. 2,74 % < kostprijs VV 3,23 %)", bron: "Hefboomanalyse", ernst: "🟡 medium"}
+    - {nr: 6, signaal: "Cash-positie daalt 350 / jaar — vorig jaar nog +200", bron: "Kasstroomtabel", ernst: "🟡 medium"}
+
+altman_z:
+  titel: "Altman Z-score (private firm versie, jaar N)"
+  formule: "Z' = 0,717 X1 + 0,847 X2 + 3,107 X3 + 0,420 X4 + 0,998 X5"
+  variabelen:
+    - {label: "X1 = NBK / Totaal activa", waarde: "2.800/8.400 = 0,333"}
+    - {label: "X2 = Overgedragen winst+reserves / Totaal activa", waarde: "1.890/8.400 = 0,225"}
+    - {label: "X3 = EBIT / Totaal activa", waarde: "307/8.400 = 0,037"}
+    - {label: "X4 = EV (boekwaarde) / VV-totaal", waarde: "2.790/5.610 = 0,497"}
+    - {label: "X5 = Omzet / Totaal activa", waarde: "14.200/8.400 = 1,690"}
+  berekening: "Z' = 0,717×0,333 + 0,847×0,225 + 3,107×0,037 + 0,420×0,497 + 0,998×1,690"
+  waarde: "Z' ≈ 2,24"
+  interpretatie: "Grijze zone (1,23 < Z' < 2,90) — verhoogd risico maar nog geen distress-zone. Bevestigt het diagnostisch beeld van een onderneming onder druk."
+
+# ===========================================================================
+# 14 — AANBEVELINGEN (voor diagnose-leerstuk, model-output)
+# ===========================================================================
+
+aanbevelingen:
+  titel: "Voorstellen aan het bestuur (model-uitwerking)"
+  rijen:
+    - thema: "Margebeheer"
+      voorstel: "Prijsverhoging 3 % vanaf Q2 + mix-shift naar hogere segment (importmerken). EBITDA-marge-target 5 %."
+      effect: "Brutomarge +1,5 pp, EBIT +200 duizend EUR"
+    - thema: "Voorraadbeheer"
+      voorstel: "Aziatische lev. consolideren bij 2 partners + lokale buffer-stock; DIO-target 65 dagen."
+      effect: "Voorraad −300 → cash +300; DIO −10 dagen"
+    - thema: "Debiteurenbeleid"
+      voorstel: "Strakker incasso-proces: payment terms herzien (60 → 45 d voor klein-mid), incasso-team uitbreiden."
+      effect: "DSO −5 dagen → +200 cash"
+    - thema: "Covenant-compliance"
+      voorstel: "Bespreking met BNP Fortis: tijdelijke waiver + commitment EBITDA-marge ≥ 5 % bij H1 N+1. Vermijd cross-default."
+      effect: "Risico van vervroegde opeisbaarheid wegnemen"
+    - thema: "Hefboom-omdraaiing"
+      voorstel: "Geen nieuwe schuld + dividendpolitiek pauzeren tot ROA > kostprijs VV."
+      effect: "EV-versterking; hefboomeffect weer positief"
+
+# ===========================================================================
+# 15 — SECTOR-BENCHMARK (samengevat)
+# ===========================================================================
+
+sector_benchmark:
+  titel: "Sector-benchmark NACE 46.470 (mediaan, NBB-balanscentrale, fictief)"
+  toelichting: >
+    Bij elke ratio in §9 staat al een sector-kolom. Hieronder de drie meest
+    sprekende referentiepunten voor de leerstukken.
+  rijen:
+    - {ratio: "EBITDA-marge", belova_n: "4,20 %", sector: "6,50 %", verschil: "−2,3 pp"}
+    - {ratio: "ROE", belova_n: "5,88 %", sector: "10,50 %", verschil: "−4,6 pp"}
+    - {ratio: "CCC (dagen)", belova_n: "76", sector: "49", verschil: "+27 d"}

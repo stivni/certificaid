@@ -1,0 +1,173 @@
+# Leerstuk-script — wat is jaarrekeninganalyse?
+#
+# Entry-leerstuk voor PO 1.3. Geeft de stagiair kort de drie kernvragen
+# (waarom · voor wie · met welke instrumenten) + de vier ratio-families als
+# overzicht, en wijst door naar de techniek-leerstukken.
+
+meta:
+  slug: wat-is-jaarrekeninganalyse
+  titel: "Wat is jaarrekeninganalyse?"
+  po: "1.3"
+  cluster: jaarrekeninganalyse
+  voorbeeldgroep: belova
+  beschrijving: >
+    Leerstuk PO 1.3 — entry-fiche: waarom doet de accountant jaarrekeninganalyse,
+    voor wie is ze bedoeld, met welke instrumenten werkt ze, en wie controleert
+    achter de schermen op de cijfers?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Aankondigen: dit is de entry-fiche voor PO 1.3.
+    De techniek (herwerken, ratio's, kasstroom, diagnose) komt in eigen leerstukken;
+    deze fiche geeft het kader + Belova NV als voorbeeld waar de hele PO mee werkt.
+
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Definitie: jaarrekeninganalyse vertaalt de ruwe cijfers van balans + resultatenrekening naar een onderbouwd oordeel over de vier dimensies van financiële gezondheid — liquiditeit, solvabiliteit, rentabiliteit, activiteit — én een kasstroombeeld"
+    - "Vier ratio-families + kasstroomopbouw + diagnose vormen de werktoolset. Geen ratio op zich is voldoende — pas in samenhang (trend + sector + cross-categorie) ontstaat betekenis"
+    - "Eindproduct: een diagnose-rapport voor cliënt-bestuur, bank, commissaris of investeerder, vaak met aanbevelingen tot verbetering (de tweede doelstelling van het PO)"
+  visualisaties:
+    - type: mermaid
+      ref: diagnose-werkstroom
+      bron: voorbeeldgroep
+
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: waarom-analyseren
+    titel: "Waarom analyseren — niet meer dan optellen?"
+    niveau: 2
+    beats:
+      - "Open met het probleem: een Belgische jaarrekening telt 50-100 pagina's tussen balans, resultatenrekening, toelichting en sociale balans. Lezen alleen geeft geen oordeel"
+      - "Concretiseer met Belova: omzet 14,2 mln (groei +5,2 %) klinkt goed; nettowinst 164 K EUR ziet er bescheiden uit maar nog steeds positief. Wie alleen die twee lijnen leest, ziet niet dat het bedrijfsresultaat in twee jaar gehalveerd is en dat de operationele cashflow negatief staat (-236 K EUR)"
+      - "Mechanisme: analyse zet absolute bedragen om in verhoudingen + trends + benchmarks. Pas dan kun je antwoord geven op de échte vragen — kan dit bedrijf morgen zijn leverancier betalen? Verdient de aandeelhouder nog iets? Is een bankkrediet veilig?"
+      - "Blockquote-aside: het examenprogramma noemt twee doelstellingen — eerst kritisch lezen, dan voorstellen formuleren. Een goede analyse stopt niet bij vaststellen; ze gaat door naar adviseren. Vandaar het integratie-niveau in het programma"
+
+  - id: voor-wie
+    titel: "Voor wie — vijf stakeholder-perspectieven"
+    niveau: 2
+    beats:
+      - "Toon de tabel met de vijf stakeholder-perspectieven. Elk leest dezelfde cijfers met een andere bril — bepaalt welke ratio's prioriteit krijgen"
+      - "Sleutel-inzicht: dezelfde ratio kan voor twee partijen een tegengesteld oordeel opleveren. Een lage solvabiliteit is voor een bank een waarschuwing, maar voor een aandeelhouder die hoge dividenden wil net een goed teken (hoge hefboom = hoge ROE als het werkt)"
+      - "Belova-toepassing: BNP Paribas Fortis kijkt naar interest coverage 3,3× (onder covenant-grens 4×). De aandeelhouder kijkt naar ROE 5,9 % (gehalveerd in twee jaar). De fiscus kijkt naar belastbare basis (positief). Drie verschillende interpretaties van dezelfde cijfers"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stakeholder", "Wat wil hij/zij weten?", "Belova-relevant"]
+        rijen:
+          - ["Aandeelhouder / vennoot", "Rendement op zijn inleg + dividend-capaciteit", "ROE 5,9 % (gehalveerd) + dividenduitkering 84 K EUR"]
+          - ["Bank / kredietverstrekker", "Solvabiliteit + interest coverage + covenanten", "Interest coverage 3,3× onder grens 4×"]
+          - ["Leverancier / klant", "Liquiditeit + betalingsbetrouwbaarheid", "Current ratio 1,92 ✓ + DPO 37 d (vlot)"]
+          - ["Commissaris (PO 1.6)", "Going-concern + materialiteit", "EBIT-daling -54 % + covenant-spanning → ISA 570-aandacht"]
+          - ["Fiscus / RSZ", "Belastbare basis + sociale schulden", "Belastingen 55 K EUR + geen achterstallige RSZ"]
+
+  - id: instrumenten
+    titel: "Met welke instrumenten — vier ratio-families + kasstroom + diagnose"
+    niveau: 2
+    beats:
+      - "Geef de vier ratio-families als één geheel. Elke familie beantwoordt één hoofdvraag — samen vormen ze de standaardtoolset"
+      - "Belangrijk: ratio's zijn slechts één instrument. Voor échte diagnose komen er twee bij — kasstroomanalyse (cash ≠ winst) en kritische beoordeling met sector-benchmark + trend"
+      - "Doorklik-aankondiging: elke familie wordt diep uitgewerkt in [[ratios-en-kengetallen]]; kasstroom in [[kasstroom-en-financieringstabel]]; eindoordeel in [[kritische-beoordeling-en-diagnose]]. Hier geven we alleen de kapstok"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Familie", "Hoofdvraag", "Kernratio's", "Voor wie centraal?"]
+        rijen:
+          - ["**Liquiditeit**", "Kan het bedrijf morgen betalen?", "current · quick · cash · cash-conversion-cycle", "leverancier · bank"]
+          - ["**Solvabiliteit**", "Kan het bedrijf alle schulden uiteindelijk dragen?", "schuldgraad · EV/totaal · debt-to-equity · interest coverage", "bank · investeerder"]
+          - ["**Rentabiliteit**", "Verdient het bedrijf voldoende op zijn kapitaal?", "brutomarge · EBITDA-marge · ROE · ROA", "aandeelhouder · investeerder"]
+          - ["**Activiteit**", "Hoe efficiënt draait het werkkapitaal?", "DSO · DPO · DIO · CCC", "bestuur · adviseur"]
+
+  - id: documenten-en-bronnen
+    titel: "Welke documenten leest de analist?"
+    niveau: 2
+    beats:
+      - "Open met onderscheid: wettelijke documenten (verplicht, gestandaardiseerd, neergelegd bij NBB) versus aanvullende documenten (intern of betaald)"
+      - "Toon de tabel met de twee kolommen. Het bestuursverslag (art. 3:32 WVV) is verplicht maar wordt vaak onderschat — bevat MNT-discussie en strategische context die geen ratio kan geven"
+      - "Belova-voorbeeld: het bestuursverslag van Belova erkent margedruk + waiver-aanvraag op covenant. Een analist die alleen naar ratio's kijkt, mist deze kwalitatieve context"
+      - "Blockquote-aside: voor groothandel zoals Belova zijn ook commerciële platformen (Belfius Companyweb, Trends Top, Graydon) nuttig — sector-benchmark + kredietrating + alarmsignalen (RSZ-/btw-achterstanden). Zie [[concepten/financiele-analyse-software]] voor het overzicht"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Type", "Documenten", "Wat lever het op?"]
+        rijen:
+          - ["**Wettelijk**", "Jaarrekening (balans · resultatenrekening · toelichting · sociale balans)", "Gestandaardiseerde cijferbasis"]
+          - ["**Wettelijk**", "Bestuursverslag (grote vennootschappen, art. 3:32 WVV)", "Strategische context · risico's · vooruitzichten"]
+          - ["**Wettelijk**", "Commissarisverslag (vennootschappen met commissaris, art. 3:74 WVV)", "Onafhankelijke goedkeuring + going-concern-evaluatie"]
+          - ["**Wettelijk**", "Geconsolideerde jaarrekening (groep)", "Groepsperspectief — zie [[leerpaden/1-4|PO 1.4]]"]
+          - ["**Aanvullend**", "Ratio-tabel + financieringstabel + boordtabel", "Analytische verdichting"]
+          - ["**Aanvullend**", "Sector-benchmark + peer-vergelijking", "Externe referentiekader"]
+
+  - id: wie-controleert
+    titel: "Wie controleert de cijfers? Vijf toezichthouders"
+    niveau: 2
+    beats:
+      - "Korte sectie — diepe uitwerking ligt elders. Vijf organen houden vanuit verschillende hoeken toezicht op de cijfers die de analist leest"
+      - "Toon de compacte tabel. Elke regel verwijst door naar het PO waar het orgaan grondig behandeld wordt"
+      - "Inzicht: het toezicht is gelaagd — eigenaars (AV) → onafhankelijke prof (commissaris) → werknemersvertegenwoordiging (OR) → preventieve rechter (KOM) → kredietverlener (bank). Wat de analist leest, is door deze filters gegaan"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Orgaan", "Rol bij jaarrekening", "Verdieping"]
+        rijen:
+          - ["Algemene vergadering (vennoten/aandeelhouders)", "Goedkeuring + kwijting; vraagrecht; bijzonder onderzoek", "PO 3.0 vennootschapsrecht"]
+          - ["Commissaris (IBR)", "Wettelijke controle + going-concern-evaluatie + alarmbel-vermeldingen", "[[leerpaden/1-6|PO 1.6 externe controle]]"]
+          - ["Ondernemingsraad", "Krijgt basis-/jaar-/occasionele financiële info; kan commissaris om toelichting vragen", "PO 3.0 sociale wetgeving"]
+          - ["Ondernemingsrechtbank — KOM", "Detecteert financiële moeilijkheden + uitnodiging voor gesprek bij signalen", "[[leerpaden/1-9|PO 1.9 insolventie]]"]
+          - ["Financiële instanties (banken)", "Volgen covenanten + rating; reageren bij schending", "Belova: BNP Fortis covenant 4× interest coverage"]
+
+  - id: belova-aankondiging
+    titel: "Belova NV — voorbeeld door heel het PO"
+    niveau: 2
+    beats:
+      - "Korte sectie om Belova als voorbeeld in te leiden. De stagiair zal Belova herkennen door alle leerstukken — één coherent verhaal van herwerken tot diagnose"
+      - "Geef bedrijfsprofiel kort: NV, groothandel meubilair, grote vennootschap (volledig schema), 62 vte, balanstotaal 8,4 mln, omzet 14,2 mln, één commissaris, één bankrelatie met covenanten"
+      - "Vermeld de centrale diagnostische tension: comfortabele liquiditeit + dalende rentabiliteit + stijgend werkkapitaal + covenant-spanning. Niet acuut bedreigd, wel ondervraging waardig"
+    visualisaties:
+      - type: mermaid
+        ref: bedrijfsprofiel
+        bron: voorbeeldgroep
+
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer dit kader zit, ga verder met:"
+  leerstukken:
+    - slug: jaarrekening-herwerken-en-functionele-balans
+      hint: "Hoe maak je de cijfers analyse-klaar? Analytische balans + NBK/BBK/NT — de eerste pure techniek-stap"
+    - slug: ratios-en-kengetallen
+      hint: "De vier ratio-families uitgewerkt + DuPont-decompositie + hefboomanalyse — de zwaartepunt-fiche"
+    - slug: kasstroom-en-financieringstabel
+      hint: "Drie IAS 7-categorieën + indirecte methode — waarom winst ≠ cash"
+    - slug: kritische-beoordeling-en-diagnose
+      hint: "Van getallen naar oordeel + voorstellen aan het bestuur — het integratie-niveau van het PO"
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — tabellen, beslisboom, formules op 2-4 A4"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [jaarrekeninganalyse, financiele-diagnose, financiele-analyse-software, jaarrekening]
+
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting tot opmaak jaarrekening + onderdelen (balans · RR · toelichting)"
+    ref: "WVV art. 3:1"
+  - onderwerp: "Jaarverslag (bestuursverslag) — toepassingsgebied + inhoud"
+    ref: "WVV art. 3:4 (toepassingsgebied) · art. 3:5 + 3:6 (inhoud)"
+    noot: "Niet voor niet-genoteerde kleine vennootschappen"
+  - onderwerp: "Benoeming commissaris door algemene vergadering"
+    ref: "WVV art. 3:55"
+  - onderwerp: "Toepassingsgebied wettelijke controle (commissaris)"
+    ref: "WVV art. 3:69"
+    noot: "Niet voor niet-genoteerde kleine vennootschappen; diepe behandeling in [[leerpaden/1-6|PO 1.6]]"
+  - onderwerp: "Inhoud commissarisverslag enkelvoudige jaarrekening"
+    ref: "WVV art. 3:74"
+  - onderwerp: "Financiële informatie aan ondernemingsraad"
+    ref: "KB 27 november 1973 (Economische en Financiële Informatie)"
+    noot: "Behandeld in PO 3.0 sociale wetgeving"
+  - onderwerp: "Kamers voor ondernemingen in moeilijkheden"
+    ref: "WER Boek XX (insolventie)"
+    noot: "Diepe behandeling in [[leerpaden/1-9|PO 1.9]]"
+
+footer: "Leerstuk PO 1.3 — entry-fiche. Status: voorgesteld. Volgende stap voor de student: [[jaarrekening-herwerken-en-functionele-balans]]."
