@@ -232,7 +232,7 @@ boekingen:
       titel: "Analytische boekhouding — spiegel + bestemming"
       stap1_spiegel:
         debet:
-          - rekening: "90 — Reflet kosten (tegenboeking spiegel)"
+          - rekening: "90 — Spiegelpost kosten (tegenboeking analytische sfeer)"
             bedrag: 24000
         credit:
           - rekening: "99 — Spiegelrekening algemene boekhouding"
@@ -242,7 +242,7 @@ boekingen:
           - rekening: "92 — Kosten productiehal (toegerekend aan tafel-eik via materiaal-traceer)"
             bedrag: 24000
         credit:
-          - rekening: "90 — Reflet kosten"
+          - rekening: "90 — Spiegelpost kosten"
             bedrag: 24000
       totaal: 24000
     sleutelpunten:

@@ -1,6 +1,6 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31 (PO 1.8 voltooid + oefening-laag POC + samenvatting-laag POC + themafiche-deprecation-callouts + ADR-039 scope-verscherping)
+**Laatste update**: 2026-05-31 (PO 1.8 alle 5 leerlagen voltooid — samenvatting + oefening Beauclair geleverd)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
@@ -16,7 +16,7 @@
 | **1.5** IFRS | — | — | — | — | — | — | Openstaand |
 | **1.6** Externe controle | — | — | — | — | — | — | Openstaand |
 | **1.7** Interne controle | — | — | — | — | — | — | Openstaand |
-| **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/leerpaden/1-8/`) | ✅ [content/leerpaden/1-8/index.md](../content/leerpaden/1-8/index.md) | — *(4 themafiches te mergen naar 1 samenvatting per ADR-039 — zie [docs/samenvatting-procedure.md](samenvatting-procedure.md))* | — *(kandidaat — zie [docs/oefening-procedure.md](oefening-procedure.md))* | **Voltooid** leerstukken (tweede PO na 1.4); samenvatting-merge + oefening nog te bouwen |
+| **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/leerpaden/1-8/`) | ✅ [content/leerpaden/1-8/index.md](../content/leerpaden/1-8/index.md) (§ Voor de herhaling + § Oefening toegevoegd) | ✅ [content/leerpaden/1-8/samenvatting.md](../content/leerpaden/1-8/samenvatting.md) (1388 woorden, 3-4 A4; YAML-bron [data/samenvattingen/1-8.yaml](../data/samenvattingen/1-8.yaml); 4 oude themafiches uitgefaseerd per ADR-039) | ✅ Patisserie Beauclair ([data/oefeningen/beauclair-kostprijs-en-variantie.yaml](../data/oefeningen/beauclair-kostprijs-en-variantie.yaml) + [content/leerpaden/1-8/oefening.md](../content/leerpaden/1-8/oefening.md)) — kostprijs full vs ABC · knelpunt-mix · keep-or-drop · standaardkost + Q1-variantie · 75-90 min | **Voltooid** alle vijf leerlagen (tweede PO na 1.4) |
 | **1.9** Financiële analyse | — | — | — | — | — | — | Openstaand |
 | **2.1** Beroepsethiek | — | — | — | — | — | — | Openstaand |
 | **2.2** Personenbelasting | — | — | — | — | — | — | Openstaand |

@@ -1,0 +1,172 @@
+# Samenvatting-script — PO 1.8 Analytische boekhouding
+#
+# Spickzettel-stijl voor cijfervak: formule-arsenaal + uit-te-voeren
+# stappenplannen. Bewust strakker dan 1-4 (cluster-themafiche-merge);
+# 1.8 vraagt wat de student op het examen moet KUNNEN (formules + recepten),
+# niet uitleg-tabellen die in de leerstukken thuishoren.
+#
+# Status: rewrite per gebruiker-sparring 2026-05-31 — vorm volgt vak (cijferwerk).
+# Vervangt de eerdere themafiche-merge die te uitgebreid was (181 regels markdown,
+# o.a. kostentypologie-vocabulair-tabel en heuristisch verbinding-examen-blok).
+
+meta:
+  slug: "1-8"
+  titel: "Analytische boekhouding"
+  po: "1.8"
+  beschrijving: "PO-samenvatting (geheugen-spickzettel voor cijfervak): vier methodes in één blik, formule-arsenaal per gebruikscontext, stappenplannen voor BEP/variantie/keep-or-drop/methode-keuze, klassieke valkuilen — printbaar op 2-3 A4."
+  explorer_title: "6. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Spickzettel-intro: "samenvatting = spickzettel voor de week vóór het examen,
+    niet om voor het eerst te leren". 1.8 is een cijfervak — deze samenvatting
+    bundelt de formules en stappenplannen die je op het examen moet KUNNEN. Voor
+    verhaal: minicursus + leerstukken. Voor doorrekenen: oefening Beauclair.
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie 1: TAKE-AWAY (4 scherpe bullets)
+# ---------------------------------------------------------------------------
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Geen methode is intrinsiek juist** — keuze volgt het *doel*. Full = jaarrekening · Direct = beslissing · ABC = strategisch overhead-inzicht · Standaard = sturing + variantie."
+    - "**Contributiemarge = motor** van break-even én marginale analyse. Bij capaciteit-knelpunt: CM **per knelpunt-eenheid**, niet per product-eenheid."
+    - "**Alleen vermijdbare kosten tellen** in een beslissing. Sunk costs negeren · vaste OH die toch doorloopt negeren · opportunity cost meenemen ook al staat ze niet in de boekhouding."
+    - "**Variantie = prijs-effect + hoeveelheids-effect** per kostencategorie. Som van sub-varianties = totale variantie (sluittoets — anders rekenfout)."
+
+# ---------------------------------------------------------------------------
+# Optionele extra blokken — volgorde = render-volgorde
+# ---------------------------------------------------------------------------
+
+extra_blokken:
+
+  - id: vier-methodes-in-een-blik
+    type: tabel-inline
+    titel: "Vier methodes in één blik"
+    intro: "Eén rij per methode — doel, kostprijs-essentie, wanneer kiezen. Voor diepte: zie [[kostprijsmethoden-kiezen]]."
+    kolommen: ["Methode", "Doel", "Kostprijs (essentie)", "Wanneer kiezen?"]
+    rijen:
+      - ["**Full costing**", "Voorraadwaardering · JR", "Variabel + (vast / **normale** capaciteit)", "Jaarrekening · IAS 2-compliance"]
+      - ["**Direct costing**", "Beslissingsanalyse", "Enkel variabele kost", "Special order · make-or-buy · BEP"]
+      - ["**ABC**", "Strategisch overhead-inzicht", "Variabel + Σ (activity-pool × driver-verbruik)", "Complexe overhead-mix · cross-subsidie ontmaskeren"]
+      - ["**Standaardkosten**", "Sturing + prestatie-meting", "Norm-prijs × norm-hoeveelheid (alle componenten)", "Budget-cyclus · variantie-opvolging"]
+
+  - id: formule-arsenaal
+    type: tabellen-en-formules
+    titel: "Formule-arsenaal"
+    sub_blokken:
+
+      - type: formule
+        sub_titel: "Kostprijs"
+        beschrijving: "**Full**: vaste OH delen door *normale* capaciteit (niet werkelijke productie), anders absorbeert voorraad onbenutte capaciteit. **Direct**: alleen variabele kost in product; vaste OH = periodekost. **ABC**: som over activity-pools, elk met eigen cost-driver. Onderbenutting bij full → *idle capacity* direct in resultaat (IAS 2 § 13)."
+        formule: "\\text{Full} = \\frac{\\text{Variabel}}{\\text{Werkelijke prod.}} + \\frac{\\text{Vast OH}}{\\text{Normale capaciteit}} \\qquad \\text{ABC} = \\sum_i (\\text{Pool}_i \\times \\text{Driver-verbruik}_i)"
+
+      - type: formule
+        sub_titel: "Beslissing — contributiemarge en break-even"
+        beschrijving: "**CM** per eenheid is de bouwsteen. **BEP** in eenheden én in omzet — let op het verschil. **Veiligheidsmarge** = (Werkelijke omzet − BEP-omzet) / Werkelijke omzet. Lineariteit geldt alleen binnen *relevant range*; bij capaciteitsuitbreiding → nieuw BEP."
+        formule: "\\text{CM} = P - C_{\\text{var}} \\qquad \\text{CM\\%} = \\tfrac{\\text{CM}}{P} \\qquad \\text{BEP}_{\\text{Q}} = \\frac{\\text{Vast}}{\\text{CM}} \\qquad \\text{BEP}_{\\text{omzet}} = \\frac{\\text{Vast}}{\\text{CM\\%}}"
+
+      - type: formule
+        sub_titel: "Beslissing — special order, knelpunt, keep-or-drop"
+        beschrijving: "**Special order**: alleen *vermijdbare* kosten tellen — bij volle capaciteit ook opportunity cost van verdrongen productie. **Knelpunt**: rangschik op CM ÷ schaarse-resource-eenheid (niet CM per product). **Keep-or-drop**: CM-verlies bij stop vergeleken met vermijdbare vaste kosten."
+        formule: "\\Delta_{\\text{order}} = (P_{\\text{order}} - C_{\\text{var}})\\,Q - C_{\\text{vermijd. vast}} \\qquad \\text{Voorkeur} = \\max\\!\\left(\\frac{\\text{CM}}{\\text{Knelpunt-verbruik}}\\right) \\qquad \\Delta_{\\text{drop}} = -\\text{CM}_{\\text{lijn}} + C_{\\text{vermijd. vast}}"
+
+      - type: formule
+        sub_titel: "Variantieanalyse"
+        beschrijving: "Per kostencategorie (materiaal, arbeid, OH) splits totaal-variantie in **prijs-effect** (P-verschil × Q-werk) en **hoeveelheids-effect** (Q-verschil × P-norm). Σ alle sub-varianties = totaal. Klopt het niet → reken-fout. Materieel (≥ 5 %) → pro-rata over voorraad én KGV (IAS 2)."
+        formule: "\\text{Prijsvariantie} = (P_{\\text{werk}} - P_{\\text{norm}})\\,Q_{\\text{werk}} \\qquad \\text{Hoeveelheidsvariantie} = (Q_{\\text{werk}} - Q_{\\text{norm}})\\,P_{\\text{norm}}"
+
+  - id: stappenplannen
+    type: tabellen-en-formules
+    titel: "Stappenplannen — wat je doet op het examen"
+    sub_blokken:
+
+      - type: tabel-inline
+        sub_titel: "BEP berekenen — 3 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Formule / check"]
+        rijen:
+          - ["1", "Vaste kosten optellen", "F = Σ alle vaste posten"]
+          - ["2", "CM per eenheid berekenen", "CM = P − C-variabel"]
+          - ["3", "BEP-volume + BEP-omzet", "BEP_Q = F / CM   ·   BEP_omzet = F / CM%"]
+        noot: "Multi-product: **gewogen CM** op basis van mix in eenheden (niet in omzet). Mix-shift → herberekenen — BEP is mix-afhankelijk."
+
+      - type: tabel-inline
+        sub_titel: "Variantie decomposeren — 4 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Resultaat"]
+        rijen:
+          - ["1", "Totale variantie = Werkelijke kost − Standaardkost", "Eén bedrag (gunstig = werk < norm; ongunstig = werk > norm)"]
+          - ["2", "Per categorie: prijsvariantie + hoeveelheidsvariantie", "2 sub-bedragen per kostencategorie"]
+          - ["3", "Sluittoets: Σ alle sub-varianties = totaal?", "✓ of reken-fout in stap 2"]
+          - ["4", "Materialiteit ≥ 5 %?", "Ja → pro-rata voorraad + KGV (IAS 2). Nee → integraal in resultaat."]
+        noot: "Voor variabele én vaste overhead is decompositie iets complexer (efficiëntie- vs bestedings-variantie); kern blijft: prijs × hoeveelheid."
+
+      - type: tabel-inline
+        sub_titel: "Keep-or-drop beoordelen — 3 stappen"
+        kolommen: ["Stap", "Wat doe je?", "Check"]
+        rijen:
+          - ["1", "Te verliezen CM bij stop optellen", "Σ CM per eenheid × volume van de lijn"]
+          - ["2", "Vermijdbare vaste kosten identificeren", "**Niet** alle vaste kosten zijn vermijdbaar (vast contract chef-patissier blijft)"]
+          - ["3", "Beslis: −CM + vermijdbare vaste = netto-effect", "Positief → stoppen verbetert resultaat. Negatief → behouden."]
+        noot: "Full-costing-verlies ≠ daadwerkelijk verlies bij stop. Het product 'erft' de niet-vermijdbare overhead niet — die wordt herverdeeld over de rest. Verkeerde keuze van methode → verkeerde beslissing."
+
+      - type: tabel-inline
+        sub_titel: "Methode kiezen — 2 vragen"
+        kolommen: ["Vraag", "Antwoord → methode"]
+        rijen:
+          - ["1. Heb ik de cijfers nodig voor de jaarrekening?", "Ja → **Full** (verplicht onder IAS 2). Nee → ga naar vraag 2."]
+          - ["2. Heb ik vooraf-vastgelegde normen nodig voor sturing?", "Ja → **Standaardkosten**. Nee → **Direct** voor beslissing, of **ABC** als overhead complex en gevarieerd is."]
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VALKUILEN (5 — strakker dan de eerdere 7)
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  titel: "Klassieke valkuilen"
+  format: tabel
+  rijen:
+    - valkuil: "Vaste OH delen door **werkelijke** productie (full costing)"
+      wat_klopt_niet: "Bij onderbenutting absorbeert voorraad onbenutte capaciteit"
+      wat_klopt_wel: "Normale capaciteit als deler. Idle capacity → periodekost (IAS 2 § 13)."
+    - valkuil: "CM per **eenheid** vergelijken bij capaciteitsknelpunt"
+      wat_klopt_niet: "Hoge CM/eenheid kan een lage CM/knelpunt-uur verbergen"
+      wat_klopt_wel: "Rangschik op CM ÷ knelpunt-verbruik per eenheid"
+    - valkuil: "Stoppen met 'verlieslatend' product op basis van full-costing"
+      wat_klopt_niet: "Niet-vermijdbare overhead loopt door — wordt herverdeeld over de rest"
+      wat_klopt_wel: "CM-verlies vs vermijdbare vaste kosten — alleen vermijdbare telt"
+    - valkuil: "Variantie direct in resultaat bij materiële afwijking"
+      wat_klopt_niet: "Verstoort resultaat én voorraadwaardering"
+      wat_klopt_wel: "≥ 5 %: pro-rata over voorraad + KGV. < 5 %: mag in resultaat."
+    - valkuil: "Sunk cost als argument om door te gaan"
+      wat_klopt_niet: "Reeds gemaakte uitgaven beïnvloeden toekomstige cash niet"
+      wat_klopt_wel: "Alleen toekomstige, vermijdbare kosten + opbrengsten"
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VERDIEPING (doorklik)
+# ---------------------------------------------------------------------------
+
+doorklik:
+  intro: "Werkt iets niet scherp? Klik door naar het leerstuk dat het uitwerkt of het concept dat het definieert:"
+  leerstukken:
+    - slug: wat-is-analytische-boekhouding
+      hint: "stelsel, klassen 8/9, drie registratiesystemen, kostentypologie"
+    - slug: kostprijsmethoden-kiezen
+      hint: "vier methodes uitgewerkt op Meridia, met cross-subsidie-omkering in ABC"
+    - slug: break-even-en-marginale-beslissing
+      hint: "BEP solo + multi-product, special order, make-or-buy, knelpunt, keep-or-drop"
+    - slug: budget-en-variantieanalyse
+      hint: "masterbudget, variantie-decompositie, herzieningstriggers"
+  concept_groepen:
+    - label: "Overkoepelend"
+      concepten: [analytische-boekhouding, kostprijsmethoden, budgetbeheer]
+    - label: "De vier kostprijsmethodes"
+      concepten: [full-costing, direct-costing, activity-based-costing, standaardkostenmethode]
+    - label: "Beslissings- en sturings-instrumenten"
+      concepten: [break-even-analyse, marginale-analyse, variantieanalyse, masterbudget]
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+footer: "Samenvatting PO 1.8. Status: voorgesteld — rewrite naar spickzettel-vorm (formule-arsenaal + recepten) per gebruiker-sparring 2026-05-31. Vorige merge-versie (181 r., themafiche-overgenomen) vervangen."

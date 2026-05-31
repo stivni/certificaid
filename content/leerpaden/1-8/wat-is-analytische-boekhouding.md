@@ -1,6 +1,7 @@
 ---
 title: "Wat is analytische boekhouding?"
 description: "Leerstuk PO 1.8 — wat doet de analytische boekhouding bovenop de algemene boekhouding, hoe verhoudt ze zich er toe (klassen 8/9, spiegelrekeningen), welk registratiesysteem kies je, en met welk kostentypologie-vocabulaire bouw je de rest van het PO."
+explorer_title: "1. Wat?"
 tags:
   - leerstuk
   - po-1.8
@@ -21,7 +22,7 @@ De analytische boekhouding herleidt dezelfde euro's uit de algemene boekhouding 
 flowchart LR
     A["Brontransactie<br/>(factuur eik, loon)"] --> B["Algemene bh<br/>Klasse 60-62<br/>(kost naar AARD)"]
     B --> C["Spiegelrekening 99<br/>(verbinding)"]
-    C --> D["Reflet 90<br/>(tegenboeking)"]
+    C --> D["Spiegelpost 90<br/>(tegenboeking)"]
     D --> E["Analytische bh<br/>Klasse 92<br/>(kost naar BESTEMMING)"]
     E --> F["Kostenobject<br/>(tafel-eik · kast-op-maat · afdeling)"]
     B -.->|loopt door voor JR| JR["Wettelijke jaarrekening<br/>(externe rapportering)"]
@@ -59,6 +60,8 @@ Belangrijk om vast te leggen: er bestaat **geen wettelijke verplichting** tot an
 
 Vooraleer je kunt praten over kostprijs, break-even of variantie, moet je elke kost op twee assen kunnen plaatsen. Dat vocabulaire is de gemeenschappelijke woordenschat voor de rest van PO 1.8 — de volgende leerstukken bouwen er op verder.
 
+Eén tussenwoord vooraf, want je gaat hem zo overal tegenkomen: een **CNC-machine** (Computer Numerical Control) is een computergestuurde freesmachine die op basis van een digitaal patroon hout uitsnijdt en bewerkt. Bij Meridia is het de hartmachine van de productiehal: tafels en kasten lopen er allebei doorheen, maar in andere verhoudingen (één CNC-uur per tafel, vier per kast). Omdat de machine zich deelt tussen producten naargelang de geplande machine-uren, zullen de bijhorende kosten — energie, slijtage, afschrijving — straks automatisch in de *indirecte* kolom landen.
+
 De eerste as is **gedrag**: hoe reageert de kost op volume? Een kost is *vast* als hij onveranderd blijft of je nu 1 of 10.000 tafels produceert — de huur van Meridia's productiehal (120.000 EUR/jaar) is daarvan het schoolvoorbeeld. Een kost is *variabel* als hij schaalt met de productie — voor elke extra tafel verbruik je 4 kg eik aan 30 EUR/kg, dus 120 EUR extra. Eén tafel meer, 120 EUR meer eikenhout.
 
 De tweede as is **toerekenbaarheid**: kun je de kost zonder verdeelsleutel aan één product hangen? *Direct* betekent dat het verband eenduidig is — die 4 kg eik gaat letterlijk in déze tafel, zonder discussie. *Indirect* betekent dat de kost gedeeld is en je een sleutel moet hanteren om hem te verdelen — de huur van de productiehal dekt tafels én kasten, en er bestaat geen "natuurlijke" verdeelregel.
@@ -70,7 +73,7 @@ Wanneer je beide assen combineert, krijg je vier hokjes waarin elke kost zich la
 | **Variabel** | Eikenhout (tafel) · paneelhout (kast) · directe productie-uren | Energie CNC · verbruiksgoederen (boren, lak) |
 | **Vast** | Afschrijving CNC-mal voor tafel-serie (indien gebruikt) · supervisor specifiek voor kast-atelier | Huur productiehal · afschrijving CNC · algemeen beheer · directie-loon · marketing |
 
-Concreet voor Meridia: *energie CNC* is variabel én indirect — schaalt met machine-uren, maar wordt verbruikt door tafels én kasten naargelang welke job draait. *Eik voor tafels* is variabel én direct — schaalt met productie en gaat onmiskenbaar in één tafel. *Algemeen beheer* (directie, IT, marketing) is vast én indirect — onveranderd ongeacht volume en niet logisch aan één productlijn te hangen.
+Concreet voor Meridia: *energie CNC* is variabel én indirect — het verbruik schaalt met machine-uren, maar wordt opgesoupeerd door tafels én kasten naargelang welke job draait. *Eik voor tafels* is variabel én direct — schaalt met productie en gaat onmiskenbaar in één tafel. *Algemeen beheer* (directie, IT, marketing) is vast én indirect — onveranderd ongeacht volume en niet logisch aan één productlijn te hangen.
 
 Onthoud deze matrix: hij bepaalt straks in [[kostprijsmethoden-kiezen]] welke kosten je waar verdeelt. *Full costing* pakt alle vier de cellen en verdeelt ze over de producten. *Direct costing* trekt alleen de variabele rij in de kostprijs. *ABC* ontmaskert binnen de indirect-vaste cel een cross-subsidie door bijvoorbeeld de setup-kosten apart te poolen.
 
@@ -82,7 +85,15 @@ Onthoud deze matrix: hij bepaalt straks in [[kostprijsmethoden-kiezen]] welke ko
 
 Een tweede boekhouding is alleen nuttig als ze *zonder divergentie* aansluit op de eerste. Anders krijg je twee waarheden die uit elkaar drijven en niemand nog vertrouwt. Het Belgisch genormaliseerd rekeningenstelsel lost dit elegant op door **klassen 8 en 9** specifiek te reserveren voor de analytische sfeer — los van klassen 0 tot 7 die de algemene boekhouding bezetten. Wie de tweede laag binnen hetzelfde rekeningenstelsel wil voeren, krijgt zo een aparte ruimte zonder de algemene boekhouding te storen.
 
-Het mechanisme heet **spiegelrekening**. De CBN-aanbeveling schrijft het zo voor: elke kost in klasse 60-62 krijgt een tegenboeking in klasse 90 (de zogenaamde *reflet*), die meteen wordt doorgeboekt naar een klasse 92 (afdeling) of een kostenobject-rekening. Een spiegelrekening 99 sluit de loop en maakt de aansluiting met klasse 6 verifieerbaar. Bekijk wat er gebeurt met die 24.000 EUR eik van Meridia:
+### Wat is een spiegelrekening?
+
+Voor we naar de boeking kijken, één begrip vooraf — anders blijft het mechanisme abracadabra. Een **spiegelrekening** is een hulprekening die het bedrag van een "echte" boeking opvangt aan de *tegenovergestelde* kant, zodat de analytische boekhouding diezelfde euro een tweede keer kan vastpakken zonder de algemene boekhouding te raken. De beste analogie is letterlijk een spiegel: een spiegel maakt geen tweede appel; ze geeft de appel die er al is een tweede beeld. Klasse 99 doet hier exact dat — ze "spiegelt" het totaal van wat de algemene boekhouding al heeft genoteerd, zodat je in klasse 9 met datzelfde totaal verder kunt werken zonder er ergens een echte tweede kost bij te creëren. Klasse 90 vervult de rol van *tussenpost* of spiegelpost: ze vangt de spiegeling op en wordt onmiddellijk daarna leeggemaakt door door te boeken naar een bestemmingsrekening (klasse 92 bijvoorbeeld).
+
+### Mechaniek in twee stappen
+
+Met dat begrip op zak verloopt het mechanisme in twee nette stappen. **Stap 1** zet de kost over naar de analytische sfeer met een debet op klasse 90 (de spiegelpost) en een credit op klasse 99 (de spiegelrekening). **Stap 2** hangt die kost aan een bestemming via een debet op klasse 92 (de bestemming, hier: kosten productiehal) en een credit op klasse 90 (waardoor de spiegelpost weer leegloopt). Na de twee stappen is het saldo van rekening 90 nul; het saldo van rekening 99 toont het totale gespiegelde volume — perfect controleerbaar tegen het saldo van klasse 6 in de algemene boekhouding.
+
+Bekijk wat er gebeurt met die 24.000 EUR eik van Meridia:
 
 **Boeking — aankoop eikenhout 24.000 EUR**
 
@@ -97,12 +108,18 @@ Het mechanisme heet **spiegelrekening**. De CBN-aanbeveling schrijft het zo voor
 
 |  | MAR | Omschrijving | Debet | Credit |
 |---|---|---|---:|---:|
-|  | 90 | Reflet kosten (tegenboeking spiegel) | 24.000 |  |
+|  | 90 | Spiegelpost kosten (tegenboeking analytische sfeer) | 24.000 |  |
 | aan | 99 | Spiegelrekening algemene boekhouding |  | 24.000 |
-|  | 92 | Kosten productiehal (toegerekend aan tafel-eik) | 24.000 |  |
-| aan | 90 | Reflet kosten |  | 24.000 |
+|  | 92 | Kosten productiehal (toegerekend aan tafel-eik via materiaal-traceer) | 24.000 |  |
+| aan | 90 | Spiegelpost kosten |  | 24.000 |
 
 *Eenheid: EUR.*
+
+### Aard versus bestemming — waarom een ander rekeningnummer?
+
+Eén punt dat bij de eerste lezing vaak vreemd lijkt: in stap 2 staat de tweede boekingslijn op "92 — Kosten productiehal" en niet op "600 — Aankoop grondstoffen eik". Dat is geen fout, maar precies de kern van wat de analytische boekhouding doet.
+
+In de algemene boekhouding zegt het rekeningnummer **wat** de kost is — de *aard*: "600 — Aankoop grondstoffen eik" vertelt dat er voor 24.000 EUR grondstof is aangekocht. In de analytische sfeer zegt het rekeningnummer **waar** de kost terechtkomt — de *bestemming*: "92 — Kosten productiehal" vertelt dat die 24.000 EUR de productiehal heeft belast (en straks via een verdere toewijzing een tafel-eik-job). Dezelfde 24.000 EUR krijgt dus *twee labels* op twee verschillende plekken. Dát onderscheid — aard versus bestemming — is precies de meerwaarde van de tweede laag. De directie kan zo zien hoeveel een afdeling kost; de fiscale boekhouding blijft netjes per aard georganiseerd voor de neergelegde jaarrekening.
 
 Drie sleutelpunten om vast te leggen. Eén: klasse 6 loopt onveranderd door voor de wettelijke jaarrekening — de eerste boeking volstaat voor fiscus en BNB. Twee: klasse 9 voegt de bestemming toe — die 24.000 EUR landt nu expliciet "in de productiehal, op de tafel-eik-job". Drie: het saldo van rekening 90 wordt na de tweede stap nul (24.000 debet, 24.000 credit), terwijl het saldo van rekening 99 het totale spiegel-volume bijhoudt — controleerbaar tegen het totaal van klasse 6.
 
@@ -149,7 +166,8 @@ In [[kostprijsmethoden-kiezen]] leer je *welke techniek* je gebruikt om dat twee
 - [[kostprijsmethoden-kiezen]] — Welke kostprijsmethode kies je voor welk doel? Vier methodes (full · direct · ABC · standaard) naast elkaar uitgewerkt op Meridia.
 - [[break-even-en-marginale-beslissing]] — Hoe gebruik je de kostenstructuur om concrete beslissingen te onderbouwen (special order, make-or-buy, productmix)?
 - [[budget-en-variantieanalyse]] — Hoe bouw je een masterbudget en hoe analyseer je achteraf de afwijkingen?
-- [[themafiches/analytische-boekhouding-stelsel|Themafiche Analytische boekhouding — stelsel]] — voor herhaling vlak vóór het examen: kapstok met klassen 8/9 + drie registratiesystemen + kostentypologie.
+- [[leerpaden/1-8/samenvatting|Samenvatting PO 1.8]] — voor herhaling vlak vóór het examen: PO-brede kapstok (2-4 A4 printbaar) met vergelijkingsmatrix, beslisboom, formules en valkuilen voor het hele vak.
+- [[leerpaden/1-8/oefening|Oefening — Patisserie Beauclair]] — actieve mini-case (75-90 min): kostprijs full vs ABC, knelpunt-mix, keep-or-drop, standaardkost + variantie. Voor wie alles getest wil hebben in één doorloop.
 
 ## Doorklik naar concepten
 

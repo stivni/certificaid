@@ -32,7 +32,7 @@ antwoord_in_een_blik:
     - "Twee termen eerst — ze keren in elke beslissing terug. CONTRIBUTIEMARGE (CM) is wat één verkochte eenheid bijdraagt aan vaste kosten + winst: verkoopprijs minus variabele kost. Bij Meridia: tafel-eik 500 − 240 = 260 EUR per stuk. BREAK-EVEN-PUNT (BEP) is het volume waarbij die contributiemarges samen exact de vaste kosten dekken — onder dat punt verlies, erboven winst."
     - "Met die twee in de hand kun je vijf verschillende beslissingsvragen scherp maken: vanaf welk volume break-even (BEP), aanvaarden of weigeren van een lagere prijs voor één batch, zelf maken of kopen, welke productmix bij capaciteitstekort, en een productlijn schrappen of behouden."
     - "Gemeenschappelijke regel voor alle vijf: alléén RELEVANTE kosten meetellen — kosten die door de beslissing veranderen. Sunk costs (al uitgegeven) negeren, vaste kosten negeren als ze toch doorlopen, opportunity-kost (gederfde winst van het alternatief) meenemen ook al staat ze niet in de boekhouding."
-    - "Vijf beslissingen op Meridia werken we uit, in deze volgorde: BEP tafel-alleen, multi-product-BEP, special order van een retailer, make-or-buy van laden, knelpunt-mix op de CNC-machine, keep-or-drop voor kast-op-maat. Elke sectie volgt de relevant-cost-regel."
+    - "Vijf beslissingen op Meridia werken we uit, in deze volgorde: (1) break-even tafel-eik alleen (met multi-product-BEP als variant), (2) special order van een retailer, (3) make-or-buy van laden, (4) knelpunt-mix op de CNC-machine, (5) keep-or-drop voor kast-op-maat. Elke sectie volgt dezelfde relevant-cost-regel."
   visualisaties:
     - type: tabel-inline
       kolommen: ["Beslissingsvraag", "Methode", "Sleutelformule"]
@@ -68,7 +68,7 @@ opbouw:
           - ["CM-ratio (% omzet)", "52 %", "40 %"]
 
   - id: break-even-tafel
-    titel: "Break-even-analyse — vanaf welk volume rendabel?"
+    titel: "Beslissing 1 — Break-even-analyse: vanaf welk volume rendabel?"
     niveau: 2
     beats:
       - "Definitie: het break-even-punt (BEP) is het verkoopvolume waarbij totale opbrengsten = totale kosten — onder dat punt verlies, erboven winst."
@@ -93,7 +93,7 @@ opbouw:
         type: blockquote-aside
 
   - id: special-order
-    titel: "Beslissing 1 — Aanvaard je een special order onder de gewone prijs?"
+    titel: "Beslissing 2 — Aanvaard je een special order onder de gewone prijs?"
     niveau: 2
     beats:
       - "Case: een grote retailer biedt 350 EUR per tafel (i.p.v. de normale 500) voor een eenmalige batch van 500 tafels onder eigen huismerk. Aanvaarden?"
@@ -117,7 +117,7 @@ opbouw:
         type: blockquote-aside
 
   - id: make-or-buy
-    titel: "Beslissing 2 — Make-or-buy: laden zelf maken of inkopen?"
+    titel: "Beslissing 3 — Make-or-buy: laden zelf maken of inkopen?"
     niveau: 2
     beats:
       - "Case: Meridia overweegt elke tafel uit te rusten met een lade. Twee opties — zelf produceren of inkopen bij een externe leverancier."
@@ -132,7 +132,7 @@ opbouw:
         bron: voorbeeldgroep
 
   - id: knelpunt-mix
-    titel: "Beslissing 3 — Knelpunt-mix: welke productlijn voorrang bij capaciteitstekort?"
+    titel: "Beslissing 4 — Knelpunt-mix: welke productlijn voorrang bij capaciteitstekort?"
     niveau: 2
     beats:
       - "De CNC-machine van Meridia is dé bottleneck (6.400 van 7.000 uren bezet, 91%). Bij vraag-stijging is een keuze nodig: welke productlijn krijgt voorrang?"
@@ -157,7 +157,7 @@ opbouw:
         type: blockquote-aside
 
   - id: keep-or-drop
-    titel: "Beslissing 4 — Keep-or-drop: een productlijn schrappen?"
+    titel: "Beslissing 5 — Keep-or-drop: een productlijn schrappen?"
     niveau: 2
     beats:
       - "Onder ABC bleek kast-op-maat slechts 107 EUR marge per stuk te leveren — ver onder tafel-eik (167 EUR). Vraag: moet Meridia kast schrappen?"
