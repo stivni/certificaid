@@ -107,10 +107,10 @@ tags:
 - [[geactiveerde-rente]] — art. 38 KB 29-04-2019
 - [[herwaardering-vast-actief]] — art. 57 KB · klasse 12
 
-**Verwante themafiches**
-- [[themafiches/jaarrekening-schema-en-publicatie|Themafiche — Jaarrekening: schema & publicatie]]
+**Verwante samenvattingen + themafiches**
+- [[studiemateriaal/1-2/samenvatting|Samenvatting PO 1.2 — Boekhoudrecht en jaarrekeningenrecht]] *(jaarrekening-schema + publicatie + sancties)*
 - [[themafiches/resultaten-en-resultaatverwerking|Themafiche — Resultaten & resultaatverwerking]]
-- [[themafiches/be-gaap-vs-ifrs-vergelijking|Themafiche — B-GAAP vs IFRS]] *(PO 1.5)*
+- [[studiemateriaal/1-5/samenvatting|Samenvatting PO 1.5 — IFRS en EU-kader]] *(BE-GAAP↔IFRS-vergelijking per balanspost)*
 
 </div>
 

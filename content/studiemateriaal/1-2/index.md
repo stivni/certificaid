@@ -1,167 +1,121 @@
 ---
 title: "PO 1.2 — Boekhoudrecht en jaarrekeningenrecht · overzicht"
-description: "Overzicht voor PO 1.2: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+description: "Overzicht voor PO 1.2: waarom dit vak, wat je moet kunnen, leerstuk-leesroute, cross-PO concepten"
 explorer_title: "1.2 Boekhoudrecht"
 tags:
   - overzicht
-  - po-1-2
+  - po-1.2
 ---
 
-> **Overzicht.** Drie-lagen-aanpak voor wie zich op het ITAA-examen voorbereidt: dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De **themafiche** *(zie §4)* geeft alles van een onderwerp op één pagina, als kapstok om snel te bekijken. De **concept-fiches** geven de details per begrip.
+> **Overzicht.** Vier-lagen-aanpak voor wie zich op het ITAA-examen voorbereidt. Dit **overzicht** geeft het *verhaal en de routekaart* van het vak. De **leerstukken** werken elk één samenhangende vraag helemaal door. De **samenvatting** *(zie §5)* dient als geheugen-kapstok vlak vóór het examen. De **concept-fiches** geven definitorisch detail per begrip.
 
 ---
 
 ## 1. Waarom dit vak?
 
-Waar PO 1.1 je leert *hoe* je boekt, leert dit vak je *binnen welke wettelijke spelregels*. Boekhoudrecht en jaarrekeningenrecht regelen wie boekhoudplichtig is, in welk schema (volledig, verkort, micro) de jaarrekening wordt opgesteld, welke beginselen gelden (bestendigheid, voorzichtigheid, matching), wat in de toelichting hoort, en welke neerleggings- en openbaarmakingstermijnen gelden. Het kent zijn eigen jurisprudentie via **CBN-adviezen** die de wet uitleggen. Als boekhouder die fout zit, ben je civiel- en strafrechtelijk aansprakelijk — dit vak vertelt je waar de grenzen liggen.
+Waar PO 1.1 je leert *hoe* je boekt, leert dit vak je *binnen welke wettelijke spelregels*. Boekhoudrecht en jaarrekeningenrecht regelen wie boekhoudplichtig is, welke beginselen gelden (bestendigheid, voorzichtigheid, matching, ...), welk schema gebruikt moet worden (volledig, verkort, micro), wat in toelichting en jaarverslag hoort, en welke neerleggings- en openbaarmakingstermijnen gelden. Het kent zijn eigen jurisprudentie via **CBN-adviezen**, gezaghebbend maar niet bindend. Als boekhouder of bestuurder die fout zit, ben je civiel- en strafrechtelijk aansprakelijk — dit vak vertelt je waar de grenzen liggen.
+
+Het examenprogramma vraagt op **niveau integratie** (het hoogste): *zelfstandig wettelijke bepalingen opzoeken én toepassen* + *de conformiteit van boekhouding en documenten waarborgen*. Niet alleen feiten reproduceren, maar de bronnen-cascade beheersen en weten welke regel waar geldt.
 
 ### Hoe past dit in het bredere programma?
 
 | Andere PO | Relatie tot dit vak |
 |---|---|
-| **PO 1.1 — Algemene boekhouding** | De *toepassing* van wat hier het *kader* is. Zeer sterke overlap: dezelfde verrichtingen, andere invalshoek (techniek vs. recht). |
-| **PO 1.3 — Analyse jaarrekening** | Werkt met de jaarrekening die volgens dit kader is opgesteld. Schema-keuze (volledig/verkort) bepaalt welke ratio's berekenbaar zijn. |
-| **PO 1.4 — Geconsolideerde jaarrekening** | Eigen wettelijk kader (WVV art. 3:22 e.v.) bovenop het individuele kader van dit vak. |
-| **PO 1.5 — IFRS** | Belgisch jaarrekeningenrecht is op Richtlijn 2013/34/EU gebaseerd; voor genoteerde groepen geldt verplicht IFRS. Dit vak geeft het Belgische pad, 1.5 het internationale. |
-| **PO 3.0 — Vennootschapsrecht** | WVV is gemeenschappelijke bron (Boek 1 grootte-criteria, Boek 3 jaarrekening, Boek 2:74 ontbinding bij niet-neerlegging). |
+| **PO 1.1 — Algemene boekhouding** | De *toepassing* van wat hier het *kader* is. Dezelfde verrichtingen, andere invalshoek (techniek vs recht). |
+| **PO 1.3 — Analyse jaarrekening** | Werkt met de jaarrekening die volgens dit kader is opgesteld. Verkort schema betekent dat sommige ratio's niet berekenbaar zijn — schema-keuze hier bepaalt analyse-mogelijkheid daar. |
+| **PO 1.4 — Geconsolideerde jaarrekening** | Eigen wettelijk kader (WVV art. 3:22 e.v.) bovenop het individuele kader van dit vak. De technische opmaak — eindejaarsverrichtingen, resultaatbestemming, sociale balans — leeft in het cross-PO leerstuk [[individuele-jaarrekening-opmaken]]. |
+| **PO 1.5 — IFRS** | Belgisch jaarrekeningenrecht is op Richtlijn 2013/34/EU gebaseerd; voor genoteerde groepen geldt verplicht IFRS via Verordening 1606/2002. Dit vak geeft het Belgische pad, 1.5 het internationale. |
+| **PO 1.6 — Externe controle** | De commissaris toetst conformiteit met het kader uit dit vak. Groottecriteria bepalen wie commissaris-plichtig is. |
+| **PO 3.0 — Vennootschapsrecht** | WVV is de gemeenschappelijke bron (Boek 1 grootte-criteria, Boek 3 jaarrekening, Boek 2 ontbinding bij niet-neerlegging). |
 
 ---
 
 ## 2. Wat is dit vak?
 
-### Het probleem
+### Het probleem — wie schrijft de spelregels?
 
-Een jaarrekening is geen vrije compositie. Ze moet geadresseerd kunnen worden door talloze externe lezers — fiscus, bank, leverancier, mede-aandeelhouder, openbaar ministerie — die niet binnen de onderneming kijken. Zonder gemeenschappelijke regels (wat moet erin, welk schema, welke termijn, welke toelichting) kan geen enkele lezer twee jaarrekeningen vergelijken of een wettelijk verwachte kwaliteit afdwingen.
+Een jaarrekening is geen vrije compositie. Ze moet leesbaar zijn voor talloze externe lezers — fiscus, bank, leverancier, mede-aandeelhouder, openbaar ministerie. Zonder gemeenschappelijke regels (welke schema's bestaan, welke termijnen gelden, welke toelichting verplicht is) kan geen enkele lezer twee jaarrekeningen vergelijken of wettelijk verwachte kwaliteit afdwingen. Het Belgische boekhoud- en jaarrekeningenrecht legt uniforme schema's, beginselen en termijnen op — én bouwt een hiërarchie van bronnen die elkaar aanvullen en interpreteren. → De bronnen-piramide + de zes autoriteiten + de bindend/gezaghebbend-rangorde uitgewerkt: [[wat-is-belgisch-boekhoudrecht]].
 
-### De oplossing
+### Wie moet boekhouden, hoe en volgens welke beginselen?
 
-Het Belgische jaarrekeningenrecht legt **uniforme schema's, beginselen en termijnen** op. Drie schema's (volledig, verkort, micro) afhankelijk van de groottecategorie van de vennootschap; een vaste set beginselen (art. 3:1 e.v. KB-WVV); een neerleggingsplicht bij de Balanscentrale binnen 7 maanden na boekjaarafsluiting; en een fijnmazig stelsel van toelichting (sociale balans, jaarverslag, vermelding waarderingsregels) afhankelijk van de grootte.
+Wie boekhoudplichtig is hangt af van het ondernemingsbegrip (alle ondernemingen sinds Wet 15-04-2018, incl. vrije beroepen en VZW's) en van rechtsvorm + omzet. Wie *vereenvoudigde boekhouding* mag voeren is beperkt: natuurlijke personen onder een omzet-drempel (art. III.85 WER); kapitaalvennootschappen moeten altijd dubbel. Daarnaast geldt de techniek van de dubbele boekhouding zelf (dagboeken, grootboek, MAR, centralisatie minstens maandelijks) en het stelsel van acht beginselen (entiteit, continuïteit, bestendigheid, voorzichtigheid, matching, individualisering, waarheid, niet-compensatie) plus bewaarplicht. → Plicht + techniek + beginselen + bewaarplicht uitgewerkt: [[wie-moet-boekhouden-en-hoe]].
 
-### Het plichten-spel
+### Grootte stuurt het regime
 
-Wie boekhoudplichtig is, hangt af van rechtsvorm (alle ondernemingen sinds WER) en grootte (drie categorieën — micro, klein, groot, met geconsolideerde toetsing voor moedervennootschappen). Wie *vereenvoudigde boekhouding* mag voeren is beperkt: natuurlijke personen, maatschappen, VOF, Comm.V onder een omzetdrempel (€ 500.000, of € 620.000 voor brandstofverkoop). Kapitaalvennootschappen (BV, NV, CV) **moeten altijd** een dubbele boekhouding voeren. Een dochter kan nooit micro zijn; een moeder wordt op geconsolideerde basis getoetst.
+Eén drempel-test stuurt schema, toelichting, jaarverslag, commissaris-plicht en sociale-balans-vorm in één cascade. *Twee opeenvolgende boekjaren meer dan één van drie drempels overschrijden* — dán kantelt het regime. Speciale scharnieren: een moedervennootschap wordt **geconsolideerd** getoetst, een dochter kan nooit micro zijn, een beursgenoteerde is altijd groot, en een vereniging valt onder WVV-VZW met eigen drempels. → De drempel-test + cascade + vijf uitzonderingen + Bourdon-doorgewerkt: [[vennootschap-grootte-en-schema-keuze]].
 
-### De wettelijke bronnen die je moet onderscheiden
+### De jaarrekening naar buiten — publicatie en sancties
 
-Het kader steunt op verschillende wetteksten die elkaar aanvullen. **WER Boek III** (art. III.82-95, uitgevoerd door KB van 21 oktober 2018) regelt de *boekhoudplicht zelf*: verplichte dagboeken, centralisatie, bewaringstermijn, vereenvoudigde regeling. **WVV** (Boek 1 grootte-criteria, Boek 3 jaarrekening, Boek 2:74 gerechtelijke ontbinding) regelt het *jaarrekeningrecht voor vennootschappen*. **KB-WVV van 29 april 2019** geeft de *technische uitwerking*: schema's (bijlagen 1-3), waarderingsregels, toelichting, MAR. Boven dat alles staat de **Richtlijn 2013/34/EU** als Europese basis. **CBN-adviezen** interpreteren — niet bindend, wel autoritair voor het examen.
+Inhoud van de jaarrekening (balans + resultatenrekening + toelichting + jaarverslag + sociale balans + bestuurdersvermelding eerste blad), de vier-stap-procedure van opmaak tot NBB-publicatie, en de sanctie-keten bij niet-naleving: tariefbijdrage (KB 27-09-2009) → vermoeden schade derden (art. 3:10 lid 3 WVV) → gerechtelijke ontbinding (art. 2:70 WVV) → bestuurdersaansprakelijkheid. → Volledige procedure + sancties + Bourdon-te-laat-neergelegd doorgewerkt: [[jaarrekening-publiceren-en-sancties]].
 
-### Wat doet de accountant hier?
+### En de techniek van het opmaken zelf?
 
-Drie rollen kruisen elkaar in dit vak: de **boekhouder/accountant** waakt over de regelmatigheid (juist schema, juiste termijnen, juiste toelichting, waarderingsregels in de toelichting); de **commissaris** verklaart dat de jaarrekening conform de wet is opgesteld en een getrouw beeld geeft; de **adviseur** beoordeelt welke groottecategorie de vennootschap heeft, of een vereenvoudigde boekhouding mag, en wat de gevolgen zijn bij niet-neerlegging. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
-
----
-
-## 3. Wat moet je kunnen?
-
-Het examenprogramma noemt voor dit vak **één hoofdtaak**:
-
-> *Opstellen van de individuele jaarrekening*
-
-De twee officiële doelstellingen vragen je een wettelijke bepaling op te zoeken en toe te passen, en de conformiteit van boekhouding en documenten met de wettelijke vereisten te waarborgen. Concreet betekent dat: het juridische kader van de jaarrekening kennen — wettelijke bronnen, schema-keuze, toelichtingsplicht, neerlegging, sancties.
-
-### De kern — het wettelijke kader van de jaarrekening
-
-Wat je concreet moet kunnen, per rol die je later zal opnemen:
-
-**Als boekhouder of accountant:**
-- De [[boekhoudplicht]] correct toepassen — wie moet wat (WER Boek III, KB 21/10/2018)
-- De juiste [[vennootschap-groottecategorieen|groottecategorie]] bepalen (micro/klein/groot, geconsolideerde toetsing voor moeders)
-- Het juiste [[vennootschap-groottecategorieen|schema]] kiezen (volledig, verkort, micro) en de [[jaarrekening|toelichting]] correct invullen
-- De [[boekhoudbeginselen|wettelijke boekhoudbeginselen]] toepassen op de waardering (bestendigheid, voorzichtigheid, matching, ...)
-- Een [[jaarrekening|jaarrekening opmaken en neerleggen]] bij de Balanscentrale binnen de termijnen
-- De [[boekhoudbeginselen|waarderingsregels]] in de [[jaarrekening|toelichting]] **vastleggen en motiveren** bij wijziging
-- Een [[dubbele-boekhouding|dubbele boekhouding voeren]] of, waar toegelaten, een vereenvoudigde boekhouding
-
-**Als commissaris of bedrijfsrevisor:**
-- Toetsen of de [[jaarrekening|jaarrekening conform de wet]] is opgesteld
-- Het [[belgisch-boekhoudrecht|wettelijke kader]] correct gerespecteerd zien (WVV, KB-WVV, CBN-adviezen)
-- Erop toezien dat het juiste [[vennootschap-groottecategorieen|schema]] gehanteerd is en alle [[commissaris|verplichte vermeldingen]] aanwezig zijn
-
-**Als adviseur:**
-- De juiste [[autoriteiten-boekhoudrecht|autoriteit]] aanspreken bij interpretatievraag (CBN, NBB, FSMA, ITAA, IBR)
-- De cliënt waarschuwen voor [[jaarrekening#sancties-bij-niet-neerlegging|sancties bij niet-neerlegging]] (tariefbijdrage, bestuurdersaansprakelijkheid, gerechtelijke ontbinding art. 2:74 WVV)
-- De boekhoudplicht van een **vereniging** toepassen ([[groottecategorie-vereniging]] — eigen drempels in WVV-VZW)
-
-### Rakend — boekhoudtechniek en consolidatie
-
-De individuele jaarrekening is het product dat onder dit recht valt; hoe je elke balanspost waardeert en boekt is het onderwerp van PO 1.1. De geconsolideerde jaarrekening valt onder PO 1.4 met eigen wettelijk kader (WVV art. 3:22 e.v.). IFRS valt onder PO 1.5. Voor dat raakvlak:
-
-- **Overzicht PO 1.1 — Algemene boekhouding** *(zie naast deze)* — de techniek waarop dit kader rust
-- **Overzicht PO 1.4 — Geconsolideerde jaarrekening** *(nog te maken)* — eigen kader voor groepen
-- **Overzicht PO 1.5 — IFRS** *(zie naast deze)* — internationaal alternatief
-
-### Wat je daarvoor moet kennen
-
-Naast de operationele acties hierboven moet je deze begrippen en kaders beheersen — ze zijn de inhoudelijke ondergrond:
-
-**De wettelijke bronnen**
-- [[belgisch-boekhoudrecht]] — overzicht: WER Boek III · KB-WVV · CBN-adviezen · NBB
-- [[autoriteiten-boekhoudrecht]] — FSMA · NBB · CBN · ITAA · IBR · CRB · griffies (rol en mandaat)
-- [[boekhoudplicht]] — toepassingsgebied, vereenvoudigde regeling, uitzonderingen
-
-**De technische ruggengraat**
-- [[dubbele-boekhouding]] — dagboeken, grootboek, MAR, proefbalans, centralisatie
-- [[boekhoudbeginselen]] — acht beginselen (entiteit, continuïteit, bestendigheid, voorzichtigheid, matching, individualisering, waarheid, niet-compensatie)
-
-**Grootte en regime**
-- [[vennootschap-groottecategorieen]] — drempels micro/klein/groot, geconsolideerde toetsing voor moeders
-- [[groottecategorie-vereniging]] — apart regime voor VZW's en stichtingen
-- [[jaarrekening]] — schema-keuze, toelichting, jaarverslag, sociale balans, openbaarmaking
-- [[boekhouding]] — overzicht van het stelsel als geheel
-- [[eindejaarsverrichtingen]] — wettelijk verplichte inventaris en afsluiting
-
-**Wettelijke kaders (geen aparte fiches — ze zitten verweven in de records)**
-- WER Boek III, art. III.82-95 + KB 21 oktober 2018 (boekhoudplicht, dagboeken)
-- WVV Boek 1 (grootte-criteria art. 1:24-25) + Boek 3 (jaarrekening) + art. 2:74 (gerechtelijke ontbinding)
-- KB-WVV van 29 april 2019 (schema's, waarderingsregels, toelichting, MAR — bijlagen 1-3)
-- Richtlijn 2013/34/EU (Europese basis)
-- CBN-adviezen (CBN 2017/10 grootte verbonden vennootschappen; CBN 2019/04 schattings­wijziging; CBN 2020/09 bestuurdersvermelding; CBN 2022/03 +20%-methode; CBN 2019/10 vereenvoudigde boekhouding)
+De *technische* zijde — eindejaarsverrichtingen, resultaatbestemming, proefbalans, waarderingsregels op detail-niveau — leeft in het cross-PO leerstuk [[individuele-jaarrekening-opmaken]] (gehost onder PO 1.4 omdat het ook daar in de doelstellingen staat). Lees het na wanneer je de praktische opmaak-volgorde wil zien. Voor wie *interpreteert* wat opgemaakt is (ratio's, kasstromen, herstructureren): dat is PO 1.3 — start bij [[wat-is-jaarrekeninganalyse]].
 
 ---
 
-## 4. Studie-aanpak
+## 3. Wat moet je kunnen + hoe pak je het aan
 
-### Leesroute door de fiches (vier stappen)
+Het examenprogramma noemt voor dit vak **één hoofdtaak** met **twee doelstellingen**:
 
-Werk de stof op in vier stappen — van de bronnen en autoriteiten naar de boekhoudplicht naar grootte en jaarrekening.
+> *Opstellen van de individuele jaarrekening* — (1) een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron **opzoeken**, grondig analyseren en **toepassen**, in voorkomend geval met inachtneming van internationale normen; (2) **verifiëren en waarborgen** van de conformiteit van de boekhouding en documenten met de wettelijke vereisten.
 
-1. **Begin met de bronnen en autoriteiten**: [[belgisch-boekhoudrecht]] + [[autoriteiten-boekhoudrecht]]. Zonder bronnenkennis verlies je je in details — examen-cluesvraag: welke autoriteit geeft welke uitspraak?
-2. **Daarna de plicht en de techniek**: [[boekhoudplicht]] + [[dubbele-boekhouding]] + [[boekhoudbeginselen]]. Wie moet boekhouden, hoe, volgens welke beginselen.
-3. **Dan grootte en schema-keuze**: [[vennootschap-groottecategorieen]] + [[groottecategorie-vereniging]]. Drempels, geconsolideerde toetsing voor moeders, micro-uitsluiting voor dochters — exam-favoriet.
-4. **Sluit af met de jaarrekening zelf**: [[jaarrekening]] + [[eindejaarsverrichtingen]] + [[boekhouding]]. Schema, toelichting, jaarverslag, sociale balans, neerlegging, sancties bij niet-neerlegging.
+Vereist niveau: **integratie**. Het examen toetst of je bronnen kan lokaliseren én op een concreet dossier kan toepassen — niet alleen feiten reproduceren.
 
-### Voor de herhaling — themafiche
+### Leesroute door de leerstukken (vier stappen)
 
-Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+1. **Begin met de bronnen** — [[wat-is-belgisch-boekhoudrecht]]. Wettelijke piramide (EU → Grondwet → wet → KB → norm → CBN-advies → doctrine) + zes autoriteiten (NBB · CBN · ITAA · IBR · FSMA · griffies). Examen-cluesvraag: "welke autoriteit geeft welke uitspraak?" + "is CBN-advies bindend?".
+2. **Daarna plicht en techniek** — [[wie-moet-boekhouden-en-hoe]]. WER Boek III boekhoudplicht + dubbele vs vereenvoudigde boekhouding + dagboeken/centralisatie + acht beginselen + bewaarplicht. Werkpaard van het PO.
+3. **Dan grootte en schema-keuze** — [[vennootschap-grootte-en-schema-keuze]]. Drempels + cascade (schema → jaarverslag → commissaris → sociale balans) + uitzonderingen (moeder geconsolideerd · dochter geen-micro · beursgenoteerd · vereniging). Meest geëxamineerde stuk.
+4. **Sluit af met publicatie en sancties** — [[jaarrekening-publiceren-en-sancties]]. Inhoud van de jaarrekening + 4-stap-procedure + sanctie-keten + drie examen-traffic-stoppers rond verwarde wetsartikelen (3:12 vs 3:5 · 3:10 vs 3:43 · 2:70 vs 2:74).
 
-| Themafiche | Rol voor dit vak |
-|---|---|
-| [[themafiches/boekhoudplicht-en-rechtsbronnen|Boekhoudplicht & rechtsbronnen]] | **Kern** — WER · WVV · KB-WVV · CBN-adviezen — wie zegt wat |
-| [[themafiches/jaarrekening-schema-en-publicatie|Jaarrekening: schema & publicatie]] | **Kern** — schema's + toelichting + neerleggingstermijnen + sancties |
+Elk leerstuk bundelt de **rol-uitwerking per beroep** (boekhouder · commissaris · adviseur) en de **wettelijke verwijzingen** (WER · WVV · KB-WVV · CBN-adviezen) in zijn eigen "Wettelijk fundament"-sectie. Niet meer apart op te zoeken hier.
+
+### Voor de techniek van het opmaken zelf
+
+De *technische* opmaak van de jaarrekening — eindejaarsverrichtingen, resultaatbestemming, proefbalans, detail-waarderingsregels — woont in het cross-PO leerstuk [[individuele-jaarrekening-opmaken]] (PO 1.4-folder). Lees na de leesroute hierboven wanneer je het praktische werkproces wil zien.
 
 ---
 
-## 5. Examen-radar — wat is in de praktijk al bevraagd?
+## 4. Examen-radar — wat is in de praktijk al bevraagd?
 
-Uit de voorbeeldexamens 2003-2014 zijn **11 unieke vraag-eenheden** met dit vak getagd. Allemaal met modelantwoord beschikbaar.
+Uit de voorbeeldexamens 2003-2014 zijn **11 vraag-eenheden** met dit vak getagd. Allemaal met modelantwoord beschikbaar.
 
-| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
-|---|---|---|---|
-| **Schema-keuze (volledig/verkort) bij verbonden vennootschappen** | 1× (2014-1) | Toepassings-case met aggregatie | [[vennootschap-groottecategorieen]] |
-| **Schema-keuze moeder vs. dochter** | 1× (2008-bibf) | Toetsing op geconsolideerde basis voor moeder; enkelvoudig voor dochter | [[vennootschap-groottecategorieen]] |
-| **Vermelding bestuurders in de jaarrekening** | 1× (2013-2) | Wie op de eerste bladzijde? | [[jaarrekening]] |
-| **Wijziging afschrijvingspercentage — prospectief** | 1× (2013-2) | Boekhoudkundige + juridische verwerking | [[boekhoudbeginselen]] · [[eindejaarsverrichtingen]] |
-| **Niet-neerlegging — sancties (tariefbijdrage, aansprakelijkheid, ontbinding 2:74)** | 1× (2013-2) | Adviezen aan een cliënt | [[jaarrekening]] · [[boekhoudplicht]] |
-| **Verantwoording waarderingsregels in jaarverslag of jaarrekening** | 1× (2013-1) | Onderscheid grote vs. kleine vennootschap | [[jaarrekening]] · [[boekhoudbeginselen]] |
-| **Honoraria commissaris — boeking + toelichting** | 1× (2008-bibf) | Rekeningkeuze + vermelding in toelichting | [[jaarrekening]] |
-| **Sociale balans — opleidingskost** | 1× (2008-bibf) | Berekeningsbestanddelen | [[jaarrekening]] · [[boekhouding]] |
-| **Vereenvoudigde boekhouding — toepassingsgebied + inhoud** | 1× (2003-bibf) | Wie + wat | [[boekhoudplicht]] · [[dubbele-boekhouding]] |
-| **Centralisatieboek — inhoud + frequentie** | 1× (2003-bibf) | Wetstekst-toepassing | [[dubbele-boekhouding]] |
-| **Herwaardering activa — welke + voorwaarden** | 1× (2003-bibf) | Toepassingsgebied + cumulatieve voorwaarden | (verweven in 1.1-records: [[herwaardering-vast-actief]]) |
+| Onderwerp | Hoe vaak | Centraal voor leerstuk |
+|---|---|---|
+| Schema-keuze bij verbonden vennootschappen (geconsolideerde toetsing) | 1× (2014-1) | [[vennootschap-grootte-en-schema-keuze]] |
+| Schema-keuze moeder vs dochter | 1× (2008-bibf) | [[vennootschap-grootte-en-schema-keuze]] |
+| Vermelding bestuurders eerste blad jaarrekening | 1× (2013-2) | [[jaarrekening-publiceren-en-sancties]] (art. 3:12 1° WVV) |
+| Wijziging afschrijvingspercentage (prospectief) | 1× (2013-2) | [[wie-moet-boekhouden-en-hoe]] (bestendigheidsbeginsel + schatting-wijziging) |
+| Niet-neerlegging — sancties | 1× (2013-2) | [[jaarrekening-publiceren-en-sancties]] (sanctie-keten 3:10 → 2:70) |
+| Verantwoording waarderingsregels (groot vs klein) | 1× (2013-1) | [[jaarrekening-publiceren-en-sancties]] + [[wie-moet-boekhouden-en-hoe]] |
+| Honoraria commissaris — boeking + toelichting | 1× (2008-bibf) | [[jaarrekening-publiceren-en-sancties]] (toelichting) |
+| Sociale balans — opleidingskost | 1× (2008-bibf) | [[jaarrekening-publiceren-en-sancties]] (sociale balans) |
+| Vereenvoudigde boekhouding — toepassing + inhoud | 1× (2003-bibf) | [[wie-moet-boekhouden-en-hoe]] |
+| Centralisatieboek — inhoud + frequentie | 1× (2003-bibf) | [[wie-moet-boekhouden-en-hoe]] (art. 5 KB 21-10-2018) |
+| Herwaardering activa — voorwaarden | 1× (2003-bibf) | Cross-PO 1.1 ([[herwaardering-vast-actief]]) |
 
-**Patroon dat opvalt**: het examen focust op de **scharnierregels** — wanneer wissel je van regime (micro → klein → groot), wat verandert er bij verbondenheid (geconsolideerde toetsing voor moeders, dochter-uitsluiting voor micro), wat zijn de gevolgen bij niet-naleving (sancties art. 2:74 WVV, bestuurdersaansprakelijkheid). Klassieke valkuilen: aggregatie verwarren met consolidatie; ervan uitgaan dat de dochter de grootte van de moeder erft; oude WVV-drempels (art. 15 versie 2013) door elkaar halen met de actuele (art. 1:24 §6 WVV). CBN-adviesnummers worden niet gevraagd, maar het is wel goed om te weten dat de antwoorden uit CBN-adviezen komen — 154/1, 2011/14, 2017/10, 2019/04, 2020/09, 2022/03.
+**Patroon**: het examen toetst de **scharnierregels** — wanneer wissel je van regime?
+- **Grootte-kanteling**: micro → klein → groot, met geconsolideerde toetsing voor moeders en micro-uitsluiting voor dochters (zwaartepunt examen).
+- **Plicht-kanteling**: vereenvoudigde naar dubbele boekhouding (omzet-drempel art. III.85 WER).
+- **Sanctie-kanteling**: niet-neerlegging trekt tariefbijdrage + bestuurdersaansprakelijkheid + gerechtelijke ontbinding na lang verzuim.
+- **Vermelding-verschillen**: wat moet wel of niet in toelichting/jaarverslag afhankelijk van groottecategorie.
+
+**Klassieke valkuilen**: aggregatie verwarren met consolidatie · dochter erft grootte van moeder (onjuist) · CBN-advies = wet (onjuist) · art. 3:5 i.p.v. 3:12 voor bestuurdersvermelding · art. 3:43 §3 i.p.v. 3:10 lid 3 voor vermoeden schade derden · art. 2:74 i.p.v. 2:70 voor gerechtelijke ontbinding wegens niet-neerlegging.
 
 → **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 1.2](voorbeeldexamenvragen).
+
+---
+
+## 5. Voor de herhaling — samenvatting
+
+Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met bronnen-piramide, boekhoudplicht-beslisboom, grootte-cascade, publicatie-tijdslijn, sancties-keten, acht beginselen + valkuilen. Niet bedoeld om voor het eerst te leren.
+
+→ [[studiemateriaal/1-2/samenvatting|Samenvatting PO 1.2 — Boekhoudrecht en jaarrekeningenrecht]] (2-4 A4, printbaar)
+
+### Voorbeeldexamen-vragen
+
+Voor de regressietest of dezelfde stof in een ander format te oefenen: de [voorbeeldexamen-pagina PO 1.2](voorbeeldexamenvragen) bundelt eerder bevraagde vraag-eenheden met modelantwoorden — niet als leermateriaal, maar als zelfcontrole.
 
 ---
 
@@ -171,13 +125,13 @@ Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen*
 
 | Concept | Ook actief in | Waarom relevant elders |
 |---|---|---|
-| [[jaarrekening]] | PO 1.1, PO 1.3, PO 1.4 | Eindproduct van 1.1, vertrekpunt van 1.3, bouwsteen van 1.4 |
-| [[boekhoudbeginselen]] | PO 1.1, PO 1.5 | Mechaniek (1.1), Europese / IFRS-pendant (1.5) |
-| [[vennootschap-groottecategorieen]] | PO 3.0 (vennootschapsrecht), PO 1.6 (externe controle) | Vrijstellingen jaarverslag en commissarisplicht hangen aan deze drempels |
-| [[autoriteiten-boekhoudrecht]] | PO 1.6 (externe controle), PO 5.1 (deontologie) | IBR voor revisoren · ITAA voor accountants · CBN voor doctrine |
-| [[boekhoudplicht]] | PO 3.0 (vennootschapsrecht) | Naleven van art. III.82-95 WER is bestuursverplichting |
-| [[dubbele-boekhouding]] | PO 1.1 | Techniek (1.1) — wettelijke verankering (1.2) |
+| [[jaarrekening]] | PO 1.1 · 1.3 · 1.4 | Eindproduct van 1.1, vertrekpunt van 1.3, bouwsteen van 1.4 |
+| [[boekhoudbeginselen]] | PO 1.1 · 1.5 | Mechaniek (1.1); IFRS-pendant via IAS 1/8 (1.5) |
+| [[vennootschap-groottecategorieen]] | PO 1.6 · PO 3.0 | Commissaris-plicht (1.6); WVV-Boek 1 als gemeenschappelijke bron (3.0) |
+| [[autoriteiten-boekhoudrecht]] | PO 1.6 · PO 5.x | IBR voor revisoren · ITAA voor accountants · CBN voor doctrine — deontologie raakvlak |
+| [[boekhoudplicht]] | PO 3.0 | Naleven van WER Boek III als bestuursverplichting |
+| [[dubbele-boekhouding]] | PO 1.1 | Techniek (1.1) ↔ wettelijke verankering (1.2) |
 
 ---
 
-*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 1.2). Status: voorgesteld — nog niet inhoudelijk gecureerd.*
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 1.2). Status: voorgesteld — leerstuk-pakket in opbouw.*

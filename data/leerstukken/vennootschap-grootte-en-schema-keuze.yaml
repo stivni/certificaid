@@ -1,0 +1,266 @@
+# Leerstuk-script — Vennootschap-grootte en schema-keuze
+#
+# PO 1.2 leerstuk 3 (scharnier). Het meest geëxamineerde stuk van PO 1.2 —
+# vraag 2014-1 + 2008-bibf draaien er rond. Brengt vier scharnier-regels samen:
+#   - Drempel-test art. 1:24 §1 + 1:25 §1 WVV (geïndexeerde drempels via Wet
+#     28-3-2024 + KB 21-3-2024 — 50 FTE / 11.25M omzet / 6M balans voor klein)
+#   - Cascade: schema (volledig/verkort/micro) + jaarverslag verplicht art. 3:5
+#     (kleine vrijgesteld via art. 3:4) + commissarisplicht art. 3:72 +
+#     sociale balans (verkort/volledig)
+#   - Moeder-uitzondering: GECONSOLIDEERDE toetsing art. 1:24 §6 (verbondenheid
+#     1:20) — niet enkelvoudig
+#   - Micro-uitsluiting voor dochter + moeder: art. 1:25 §1 vereist dat
+#     microvennootschap GEEN dochter of moeder mag zijn
+#   - Beursgenoteerd altijd groot: art. 1:11 + 7:31 WVV
+#   - WVV-VZW art. 3:47-48 voor verenigingen (parallel cascade, eigen drempels)
+#
+# Hand-off:
+#   - L1 (bronnen): WVV als bron al neergelegd → niet herhalen
+#   - L2 (boekhouden + beginselen): boekhoudplicht-keten al neergelegd → niet
+#     herhalen, wel oproepen dat grootte het VERSLAGGEVINGS-regime stuurt
+#     (niet het boekhoud-regime — een KLEINE vennootschap voert nog altijd
+#     dubbele boekhouding, alleen de jaarrekening is verkort)
+#   - L4 (publicatie + sancties): leunt zwaar op deze cascade. "Volgens de
+#     grootte uit L3 bepaalt zich het schema, of een jaarverslag verplicht
+#     is, of commissaris verplicht is, of de toelichting volledig moet."
+
+meta:
+  slug: vennootschap-grootte-en-schema-keuze
+  titel: "Vennootschap-grootte en schema-keuze"
+  po: "1.2"
+  cluster: boekhoudrecht
+  voorbeeldgroep: bourdon-vermeer
+  beschrijving: >
+    Leerstuk PO 1.2 — scharnier: groottecategorieën van vennootschappen
+    (micro/klein/groot — art. 1:24-25 WVV) + cascade naar schema +
+    jaarverslag + commissaris + sociale balans + geconsolideerde toetsing
+    voor moeders + micro-uitsluiting voor dochters + beursgenoteerd
+    altijd groot + WVV-VZW art. 3:47 voor verenigingen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 1.2 en aankondiging dat wikilinks naar concept-fiches en broer-
+    leerstukken doorheen de tekst verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: drie drempels (jaargemiddelde werknemers · jaaromzet excl. btw · balanstotaal) bepalen of een vennootschap micro, klein of groot is — de cijfers vind je in het Cijferzakboekje, de regels in art. 1:24 (klein) + 1:25 (micro) WVV."
+    - "Drempel-mechanisme: NIET MEER DAN ÉÉN drempel overschreden? → blijft micro of klein. Meer dan één overschreden GEDURENDE TWEE OPEENVOLGENDE BOEKJAREN? → kantelt naar de hogere categorie vanaf het BOEKJAAR VOLGEND op de tweede overschrijding."
+    - "Vijf scharnier-uitzonderingen die het examen graag toetst: (a) **moeder** wordt op GECONSOLIDEERDE basis getoetst (art. 1:24 §6) — niet enkelvoudig · (b) **dochter** kan NOOIT micro zijn — moet ten minste klein (art. 1:25 §1 definitie) · (c) **beursgenoteerde** vennootschap is altijd groot (art. 1:11 WVV) · (d) **vereniging** volgt een eigen drempel-cascade (art. 3:47-48 WVV-VZW) · (e) cascade-gevolgen — schema · jaarverslag · commissaris · sociale balans — schakelen mee."
+  visualisaties:
+    - type: mermaid
+      ref: groottecascade
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken de drempels uit, dan de cascade-gevolgen, dan de drie scharnier-uitzonderingen, telkens met Bourdon, Vermeer en Buurthuis Linde als ankerpunten.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drempel-test
+    titel: "De drempel-test — micro, klein, groot"
+    niveau: 2
+    beats:
+      - "Open met de regelstructuur: WVV definieert TWEE categorieën POSITIEF (micro art. 1:25 + klein art. 1:24) en de derde categorie NEGATIEF (groot = wie niet klein is)"
+      - "De drie drempel-criteria gelden universeel: jaargemiddelde werknemers (in voltijdsequivalenten) · jaaromzet excl. btw · balanstotaal — getoetst op balansdatum van het laatst afgesloten boekjaar"
+      - "Drempel-werkingsregel: NIET MEER DAN ÉÉN drempel overschreden = blijft in categorie. Meer dan één overschreden = kandidaat-kanteling — maar nog niet geactiveerd."
+      - "Twee-jaars-buffer (consistentiebeginsel): de kanteling wordt PAS GEACTIVEERD wanneer méér-dan-één-overschrijding zich GEDURENDE TWEE OPEENVOLGENDE boekjaren voordoet. Gevolgen treden in vanaf het BOEKJAAR VOLGEND op het tweede overschrijdings-boekjaar (art. 1:24 §2)"
+      - "Bron-discipline: de cijfers van de drempels staan in art. 1:24-25 WVV — recent verhoogd (Wet 28 maart 2024 + KB 21 maart 2024 ter omzetting van EU-richtlijn 2023/2775). Voor de examen-actuele cijfers: Cijferzakboekje raadplegen — niet uit het hoofd citeren."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: schema_drieluik
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: drempels-toepassing-bourdon
+        titel: "Bourdon in cijfers — een doorgewerkte test"
+        niveau: 3
+        beats:
+          - "Concreet voorbeeld: Bourdon BV met cijfers uit de voorbeeldgroep over drie boekjaren — telkens de drie criteria nakijken"
+          - "Toon de tabel met drie boekjaren + drie criteria + uitkomst per jaar"
+          - "Trek conclusie: pas vanaf boekjaar N+1 KANTELT Bourdon naar groot — omdat boekjaar N en boekjaar N+1 beide méér-dan-één-overschrijding tonen. Vanaf boekjaar N+1 dus: volledig schema, jaarverslag verplicht, commissaris verplicht, sociale balans volledig"
+          - "Voor het examen-typische scenario (vraag 2014-1): leg expliciet uit dat eerste overschrijdings-boekjaar NOG GEEN gevolgen heeft — buffer-regel is bewuste rust-zone tegen jojo-effect"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Boekjaar", "FTE", "Omzet", "Balans", "Aantal overschreden (drempels Cijferzakboekje)", "Status"]
+            rijen:
+              - ["N-1", "46", "€ 8.400.000", "€ 4.200.000", "geen", "Klein"]
+              - ["N", "52", "€ 9.600.000", "€ 4.800.000", "drie (1e overschrijding)", "Klein (kanteling nog niet)"]
+              - ["N+1 (prognose)", "55", "€ 10.200.000", "€ 5.100.000", "drie (2e opeenvolgend)", "**Kantelt naar GROOT vanaf N+2**"]
+
+  - id: cascade-gevolgen
+    titel: "De cascade — wat verandert er met de groottecategorie?"
+    niveau: 2
+    beats:
+      - "Open met de centrale gedachte: de groottecategorie is geen label-met-prestige — ze is een VAARTRIGGER die vier wettelijke gevolgen activeert"
+      - "De vier cascade-velden: (1) jaarrekening-schema — micro / verkort / volledig · (2) jaarverslag — vrijgesteld of verplicht · (3) commissarisplicht — vrijgesteld of verplicht · (4) sociale balans — verkort of volledig schema"
+      - "Toon de cascade-tabel die elk cascade-veld koppelt aan elke groottecategorie + relevant WVV-artikel"
+      - "Drie-luik pedagogische sleutel: micro = lichtste regime (schema micro + geen jaarverslag + geen commissaris) · klein = tussenregime (schema verkort + geen jaarverslag + geen commissaris solo) · groot = volledig regime (schema volledig + jaarverslag verplicht + commissaris verplicht)"
+      - "Belangrijke nuance: 'schema' bepaalt welke RUBRIEKEN in de jaarrekening verschijnen, niet of er een jaarrekening is. Elke vennootschap maakt een jaarrekening op — alleen de DETAILGRAAD verandert"
+      - "Cross-link: de TECHNIEK van het opmaken (eindejaarsverrichtingen, waardering) zit in [[wie-moet-boekhouden-en-hoe]] en [[individuele-jaarrekening-opmaken]]. Dit leerstuk regelt alleen welk schema je toepast"
+
+  - id: scharnier-uitzonderingen
+    titel: "De vijf scharnier-uitzonderingen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische rede: vier patronen die het examen ALTIJD toetst — wie ze door elkaar haalt, faalt. We werken ze één voor één uit, telkens met de juiste WVV-bron"
+      - "Toon de overzichts-tabel met de vijf paden (uit voorbeeldgroep) — solo · moeder · dochter · beursgenoteerd · vereniging"
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: groottetoetsing_drie_paden
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: moeder-geconsolideerd
+        titel: "Moedervennootschap — geconsolideerde toetsing"
+        niveau: 3
+        beats:
+          - "Hoofdregel: een moedervennootschap wordt op GECONSOLIDEERDE BASIS getoetst — niet enkelvoudig. Bron: art. 1:24 §6 WVV (verbondenheid via art. 1:20 WVV)"
+          - "Praktisch betekent dit: de moeder telt voor de drempel-test haar EIGEN cijfers SAMEN MET die van haar dochtervennootschappen + verbonden vennootschappen, na eliminatie van intra-groep verrichtingen"
+          - "Onderscheid AGGREGATIE vs CONSOLIDATIE: aggregatie = simpele somming met optionele 20%-correctie voor intra-groep (CBN-advies 2017/10 + 2022/03); volledige consolidatie = boekhoudkundige consolidatie zoals voor de geconsolideerde jaarrekening. Beide methodes zijn toegelaten voor de grootte-toets — keuze in functie van praktische haalbaarheid"
+          - "Examen-vraag 2008-bibf: een moeder met klein-enkelvoudige-cijfers maar GROOT-geconsolideerd is GROOT — verplicht volledig schema, jaarverslag, commissaris. De moeder mag NIET via de klein-enkelvoudige cijfers ontsnappen aan groot-regime"
+          - "Concreet voor de voorbeeldgroep: Vermeer NV enkelvoudig = klein (in deze hypothese), geconsolideerd met Bourdon + Vermeer Services = ver boven drempels → Vermeer NV is GROOT. Volledig schema, jaarverslag verplicht, commissaris verplicht."
+          - "Cross-link: voor de TECHNIEK van consolidatie zie PO 1.4 — [[wie-moet-consolideren]] + [[hoe-consolideren]]. Hier alleen het effect op de grootte-toets."
+
+      - id: dochter-micro-uitsluiting
+        titel: "Dochter — kan nooit micro zijn"
+        niveau: 3
+        beats:
+          - "Hoofdregel: de definitie van microvennootschap in art. 1:25 §1 WVV vereist UITDRUKKELIJK dat ze GEEN dochter- of moedervennootschap is. Een dochter kan dus per definitie geen micro zijn — minimaal klein"
+          - "Praktisch betekent dit: een dochter MET ENKELVOUDIGE CIJFERS UNDER MICRO-DREMPELS is toch klein-vennootschap, omdat de dochter-status haar de micro-categorie ontneemt"
+          - "Belangrijke nuance — wat de regel NIET zegt: de dochter wordt NIET geconsolideerd-getoetst tegen klein/groot-drempels. Voor de klein/groot-grens past de dochter haar eigen ENKELVOUDIGE cijfers toe (anders dan de moeder)"
+          - "Voor de voorbeeldgroep: Bourdon (dochter van Vermeer 60%) zit met enkelvoudige cijfers boven micro-drempels — irrelevant, maar wel een principiële regel die op andere casus telt. Bourdon-status: klein in N op enkelvoudige cijfers — kantelt naar groot vanaf N+2 op enkelvoudige cijfers"
+          - "Synthese (vetgedrukt): moeder wordt geconsolideerd getoetst; dochter wordt enkelvoudig getoetst MAAR krijgt nooit micro-status. Twee verschillende regels — wie ze omdraait, faalt"
+
+      - id: beursgenoteerd-altijd-groot
+        titel: "Beursgenoteerde vennootschap — altijd groot"
+        niveau: 3
+        beats:
+          - "Hoofdregel: een genoteerde vennootschap (art. 1:11 WVV — effecten toegelaten tot verhandeling op een gereglementeerde markt) is ALTIJD groot, ongeacht haar enkelvoudige cijfers"
+          - "Rationale: publiek + toezichthouders verdienen volledige verslaggeving (volledig schema + jaarverslag + commissaris). De grootte-categorisering dient hier het beleggers-belang, niet de administratieve last-vermindering"
+          - "Praktische gevolgen: volledig schema · jaarverslag verplicht · commissaris verplicht · sociale balans volledig + bovendien IFRS-verplichting voor de geconsolideerde jaarrekening (Verordening 1606/2002 — zie [[wat-is-belgisch-boekhoudrecht]])"
+          - "Voor de voorbeeldgroep: Bourdon noch Vermeer noteren — niet van toepassing. Wel paraat voor examen-vragen waarin een onverwacht 'genoteerd' opduikt"
+
+      - id: vereniging-eigen-cascade
+        titel: "Vereniging (vzw/ivzw/stichting) — eigen drempels"
+        niveau: 3
+        beats:
+          - "Hoofdregel: verenigingen vallen onder WVV-VZW art. 3:47-48 met EIGEN drempels — niet dezelfde als vennootschappen. De drempels zijn doorgaans LAGER (een vereniging met dezelfde cijfers als een vennootschap kan al GROOT zijn waar de vennootschap nog klein was)"
+          - "Drie regimes voor verenigingen: (1) vereenvoudigde boekhouding voor heel kleine vzw (drempel via KB 21-10-2018 art. 1; ook concept-record [[boekhoudplicht]]) · (2) dubbele boekhouding + verkort schema voor kleine vzw · (3) dubbele boekhouding + volledig schema voor grote vzw"
+          - "Cascade-gevolgen parallel aan vennootschap: schema (verkort/volledig vzw-versie) + commissaris (verplicht boven bepaalde drempel) + neerlegging-locatie (NBB voor grote vzw — anders griffie ondernemingsrechtbank)"
+          - "Voor de voorbeeldgroep: Buurthuis Linde VZW met 480.000 EUR ontvangsten in N — eerste boekjaar boven drempel, dus nog niet gekanteld. Na tweede opeenvolgend overschrijdings-boekjaar: kantelt naar grote vzw — dubbel verplicht + neerlegging NBB"
+          - "Belangrijke nuance: voor de typische 'lange' lijst van groot-vzw cascade-gevolgen → details in concept-record [[groottecategorie-vereniging]] (drempels exact + welk schema bijlage 6 of 7 KB-WVV)"
+          - "Cijfer-discipline: drempelbedragen WVV-VZW zijn geïndexeerd — Cijferzakboekje raadplegen; niet uit het hoofd citeren"
+
+      - id: starten-met-bedrijf-uitzondering
+        titel: "Speciale regel — starters"
+        niveau: 3
+        beats:
+          - "Korte sectie: voor vennootschappen die met hun bedrijf STARTEN, worden de drempelcijfers bij begin van het boekjaar TE GOEDER TROUW GESCHAT (art. 1:24 §3 + 1:25 §3 WVV)"
+          - "Praktisch: een eerste-jaars-vennootschap heeft nog geen vorige boekjaar — drempels worden gebaseerd op redelijke prognose van het lopende"
+          - "Belang: bepaalt of een nieuwe vennootschap meteen klein/groot is voor schema-keuze + commissarisplicht — relevant in startup-context"
+          - "Cijfer-prognose niet behaald? Geen automatische sanctie — wel correctie vanaf volgend boekjaar op basis van werkelijke cijfers"
+
+  - id: bourdon-vermeer-doorgewerkt
+    titel: "Casus Bourdon-Vermeer — volledig doorgewerkt"
+    niveau: 2
+    beats:
+      - "Stel de groep voor: Vermeer NV (moeder) heeft Bourdon BV (dochter 60%) + Vermeer Services SRL (dochter 100%)"
+      - "Toets Vermeer NV (moeder) op GECONSOLIDEERDE basis: omzet 14,8M · balanstotaal 8,2M · 78 FTE — alle drie boven klein-drempels. Conclusie: Vermeer = GROOT op geconsolideerde basis (art. 1:24 §6 + 1:20 verbondenheid). Volledig schema, jaarverslag verplicht, commissaris verplicht."
+      - "Toets Bourdon BV (dochter) op ENKELVOUDIGE basis (art. 1:24 §1 + 1:25 §1 — dochter, dus niet micro-eligible): in boekjaar N drie drempels overschreden, eerste keer. Status N = klein. Vanaf N+2 = groot (na tweede opeenvolgende overschrijding)"
+      - "Toets Vermeer Services SRL — verondersteld klein op enkelvoudige basis (kleine dochter onder klein-drempels). Status: klein, geen micro (dochter-uitsluiting)."
+      - "Synthese-tabel: drie entiteiten, drie verschillende statussen, telkens andere bron-regel"
+      - "Pedagogisch eindpunt: één concern, drie verschillende groot/klein-statussen — geen samenvallende cascade. Aan de auditor + de accountant om voor ELKE entiteit afzonderlijk het juiste schema, jaarverslag en commissaris-regime te bepalen"
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): aggregatie verwarren met consolidatie. Bij grootte-toets voor moeder mag aggregatie + 20%-correctie (CBN 2017/10/2022/03) of volledige consolidatie. Wie ze gelijkstelt met 'simpele optelling' onderschat de moeder-drempel (intra-groep stromen zouden de cijfers kunstmatig opblazen). Het is GEEN simpele somming."
+      - "Valkuil 2 (⚠️): dochter erft grootte van moeder. ONJUIST. Dochter wordt enkelvoudig getoetst voor haar OWN schema-keuze (klein vs groot). De moeder-status van Vermeer maakt Bourdon niet automatisch groot. Wel: de dochter kan nooit micro zijn (art. 1:25 §1). Twee aparte regels."
+      - "Valkuil 3 (⚠️): CBN-advies als wet behandelen voor de drempels. De geconsolideerde-grootte-methodologie voor moeders is uitgewerkt in CBN 2017/10 + 2022/03 — gezaghebbend, niet bindend. Het WVV-artikel (1:24 §6) is bindend. Wie CBN-advies citeert als rechtsgrond, plaatst de gezagsbron verkeerd. Citeer de WET, met CBN-advies als interpretatie."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-belgisch-boekhoudrecht
+      hint: "Het bronnen-veld — WVV als wettelijke basis + de plaats van CBN-adviezen in de hiërarchie."
+    - slug: wie-moet-boekhouden-en-hoe
+      hint: "Boekhoudregime (dubbel vs vereenvoudigd) — onafhankelijk van groottecategorie. Beide samen geven het volledige plichtenpakket."
+    - slug: jaarrekening-publiceren-en-sancties
+      hint: "Volgend leerstuk — wat je rapporteert volgens je schema-keuze, hoe je het neerlegt, en wat als het niet gebeurt."
+    - slug: individuele-jaarrekening-opmaken
+      hint: "Cross-PO — de TECHNIEK van jaarrekening-opmaken (PO 1.4). Hoe je de waardering doet binnen het gekozen schema."
+    - slug: wie-moet-consolideren
+      hint: "Cross-PO — consolidatieplicht en kring-afbakening (PO 1.4). Voor moeders die boven de groep-van-beperkte-omvang-drempels uitkomen (art. 1:26)."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — drempel-cascade + scharnier-uitzonderingen + cascade-tabel."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [vennootschap-groottecategorieen, groottecategorie-vereniging]
+    - concepten: [ondernemingsvormen, commissaris]
+    - concepten: [jaarrekening, boekhoudplicht]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Kleine vennootschap — drie drempels enkelvoudig"
+    ref: "WVV art. 1:24 §1"
+    noot: "Drie criteria — jaargemiddelde werknemers · jaaromzet excl. btw · balanstotaal. Cijfers via Cijferzakboekje. Verhoogd door Wet 28-3-2024 + KB 21-3-2024 ter omzetting EU-richtlijn 2023/2775."
+  - onderwerp: "Drempel-werking + twee-jaars-buffer"
+    ref: "WVV art. 1:24 §2 + art. 1:25 §2"
+    noot: "Meer dan één drempel overschreden moet ZICH GEDURENDE TWEE OPEENVOLGENDE BOEKJAREN voordoen vóór de status verandert. Gevolgen vanaf het BOEKJAAR VOLGEND op de tweede overschrijding."
+  - onderwerp: "Microvennootschap — eigen drempels + dochter/moeder-uitsluiting"
+    ref: "WVV art. 1:25 §1"
+    noot: "Microvennootschap = kleine vennootschap die GEEN dochter- of moedervennootschap is en lager drempel-niveau respecteert. Dochter/moeder-uitsluiting zit in DEFINITIE — niet apart in §2."
+  - onderwerp: "Moedervennootschap — geconsolideerde grootte-toetsing"
+    ref: "WVV art. 1:24 §6 (verbondenheid art. 1:20)"
+    noot: "Een moeder wordt op geconsolideerde basis getoetst — niet enkelvoudig. Toepassing via aggregatie + 20%-correctie of volledige consolidatie. Examen-favoriet."
+  - onderwerp: "Genoteerde vennootschap — altijd groot"
+    ref: "WVV art. 1:11"
+    noot: "Effecten toegelaten tot verhandeling op gereglementeerde markt → altijd groot. Volledig schema + jaarverslag + commissaris + IFRS voor geconsolideerd."
+  - onderwerp: "Starters — drempels te goeder trouw geschat"
+    ref: "WVV art. 1:24 §3 + 1:25 §3"
+    noot: "Eerstejaars-vennootschap: drempels geschat bij begin boekjaar. Geen automatische correctie voor afwijkingen."
+  - onderwerp: "Groep van beperkte omvang (consolidatieplicht-drempel)"
+    ref: "WVV art. 1:26 §1"
+    noot: "Groep-niveau drempel — andere cijfers dan klein-vennootschap (250 FTE / 34M / 17M — geïndexeerd). Niet hetzelfde als art. 1:24. Trigger voor consolidatieplicht, niet voor schema-keuze."
+  - onderwerp: "Jaarverslag — verplicht voor groot"
+    ref: "WVV art. 3:5 (jaarverslag opmaken) + 3:4 (vrijstelling klein)"
+    noot: "Kleine vennootschappen vrijgesteld; grote moeten jaarverslag opmaken. Inhoud van het jaarverslag uitgewerkt in art. 3:6 e.v."
+  - onderwerp: "Commissarisplicht"
+    ref: "WVV art. 3:72"
+    noot: "Verplicht voor grote vennootschappen en voor vennootschappen in groep met >50 werknemers. Kleine vennootschap solo: vrijgesteld."
+  - onderwerp: "Sociale balans — verkort vs volledig"
+    ref: "KB-WVV art. 3:24"
+    noot: "Verkort schema voor klein, volledig voor groot. Onderscheid relevant voor opleidingskost-bestanddelen (vraag 2008-bibf — alleen direct of ook indirect)."
+  - onderwerp: "Vereniging — groottecategorieën"
+    ref: "WVV-VZW art. 3:47 + KB 21-10-2018 (vereenvoudigd vzw)"
+    noot: "Aparte drempels voor vzw/ivzw/stichting (geïndexeerd via Cijferzakboekje). Cascade naar boekhoud-regime (vereenvoudigd → dubbel) + schema (vereenvoudigd → verkort → volledig) + neerlegging (griffie vs NBB)."
+  - onderwerp: "Vereniging — neerlegging grote vzw bij NBB"
+    ref: "WVV-VZW art. 3:48"
+    noot: "Grote vereniging neerlegt jaarrekening bij NBB; kleine vereniging neerlegt bij griffie ondernemingsrechtbank."
+  - onderwerp: "Geconsolideerde grootte-toetsing — methodologie"
+    ref: "CBN-advies 2017/10 + 2022/03"
+    noot: "Aggregatie + 20%-correctie voor intra-groep of volledige consolidatie. Gezaghebbend, niet bindend — interpretatie van art. 1:24 §6 WVV."
+  - onderwerp: "Definitie netto-omzet (drempel-criterium)"
+    ref: "WVV art. 1:26/1"
+    noot: "Geldt voor zowel de drempel-test van klein/groot als de groep-van-beperkte-omvang-test. Voor opbrengsten waarvoor meer dan helft niet beantwoordt aan netto-omzet: totaal van bedrijfs- + financiële opbrengsten excl. niet-recurrente opbrengsten."
+
+footer: "Leerstuk PO 1.2 — scharnier. Status: voorgesteld volgens ADR-037."

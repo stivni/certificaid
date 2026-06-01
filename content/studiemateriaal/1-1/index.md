@@ -151,9 +151,8 @@ Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **th
 
 | Themafiche | Rol voor dit vak |
 |---|---|
-| [[themafiches/boekhoudplicht-en-rechtsbronnen|Boekhoudplicht & rechtsbronnen]] | **Kern** — WER · WVV · KB-WVV · CBN-adviezen — hiërarchie en toepassingsgebied |
+| [[studiemateriaal/1-2/samenvatting|Samenvatting PO 1.2]] | **Kern (raakvlak)** — boekhoudplicht · bronnen · grootte-cascade · jaarrekening-schema · publicatie + sancties |
 | [[themafiches/eindejaarsverrichtingen-en-waardering|Eindejaarsverrichtingen & waardering]] | **Kern** — afschrijvingen, waardeverminderingen, voorzieningen, overlopende rekeningen |
-| [[themafiches/jaarrekening-schema-en-publicatie|Jaarrekening: schema & publicatie]] | **Kern** — balans- en resultatenrekening-schema + neerleggingstermijnen |
 | [[themafiches/resultaten-en-resultaatverwerking|Resultaten & resultaatverwerking]] | **Kern** — winstbestemming, dividenden, kapitaalsubsidies |
 
 ---

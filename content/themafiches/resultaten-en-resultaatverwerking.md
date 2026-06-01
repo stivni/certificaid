@@ -101,8 +101,8 @@ flowchart TD
 **Winstbestemming**
 - [[resultaatverwerking]] — klasse 79 + EV-mutaties
 
-**Verwante themafiches**
-- [[themafiches/jaarrekening-schema-en-publicatie|Themafiche — Jaarrekening: schema & publicatie]]
+**Verwante samenvattingen + themafiches**
+- [[studiemateriaal/1-2/samenvatting|Samenvatting PO 1.2 — Boekhoudrecht en jaarrekeningenrecht]] *(jaarrekening-schema + publicatie + sancties)*
 - [[themafiches/eindejaarsverrichtingen-en-waardering|Themafiche — Eindejaarsverrichtingen & waardering]]
 
 </div>

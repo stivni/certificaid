@@ -1,0 +1,270 @@
+# Samenvatting-script — PO 1.2 Boekhoudrecht en jaarrekeningenrecht
+#
+# Migratie uit twee themafiches (verwijderd in dezelfde commit per ADR-039):
+#   - content/themafiches/boekhoudplicht-en-rechtsbronnen.md
+#   - content/themafiches/jaarrekening-schema-en-publicatie.md
+#
+# Bron-correcties uit de scripts-RAG-ronde (t.o.v. oude themafiches):
+#   - Bestuurdersvermelding = art. 3:12 1° WVV (NIET art. 3:5)
+#   - Vermoeden schade derden bij niet-neerlegging = art. 3:10 lid 3 WVV (NIET art. 3:43 §3)
+#   - Gerechtelijke ontbinding wegens niet-neerlegging = art. 2:70 WVV (NIET art. 2:74)
+#   - Dochter-uitsluiting micro = art. 1:25 §1 WVV (NIET §2)
+# Deze correcties zijn als valkuilen-rij opgenomen — examen-traffic-stoppers.
+
+meta:
+  slug: "1-2"
+  titel: "Boekhoudrecht en jaarrekeningenrecht"
+  po: "1.2"
+  beschrijving: "PO-samenvatting (geheugen-kapstok): bronnen-piramide, boekhoudplicht-beslisboom, grootte-cascade, publicatie-tijdslijn, sancties + acht beginselen + valkuilen op 3-4 A4 — printbaar voor herhaling"
+  explorer_title: "5. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Standaard samenvatting-intro: "kapstok voor herhaling, niet om voor het eerst te leren".
+    Verwijs naar de leerstukken voor uitleg + naar de minicursus voor verhaal. Vermeld
+    expliciet dat alle drempelcijfers (grootte, vereenvoudigd, tariefbijdrage) via het
+    Cijferzakboekje bij examen worden bevestigd — hier alleen referentie-orden van grootte.
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Bronnenhiërarchie als kompas.** EU-verordening werkt rechtstreeks, richtlijn via Belgische omzetting; WER + WVV zijn federale wet; KB 21-10-2018 + KB 29-04-2019 zijn uitvoeringsregels; **CBN-advies is gezaghebbend maar niet bindend** — rechter kan motiveren-en-afwijken."
+    - "**Boekhoudplicht is onderneming-test, geen handel-test.** Sinds Wet 15-04-2018 valt elke 'onderneming' (art. I.1 WER) eronder — inclusief vrije beroepen en VZW's. Kapitaalvennootschappen altijd dubbele boekhouding; natuurlijke personen onder omzet-drempel mogen vereenvoudigd."
+    - "**Drempel-test = 'meer dan één van drie'** over twee opeenvolgende boekjaren. Twee criteria overschrijden volstaat al om uit klein te vallen. Acht beginselen + bestendigheid sturen waardering."
+    - "**Groottecategorie is de motor.** Eén cascade: schema → toelichting-omvang → jaarverslag-plicht → commissaris-plicht → sociale-balans-vorm. Beursgenoteerde vennootschappen ALTIJD groot, ongeacht drempels (art. 1:11)."
+    - "**Vier kritische scharnier-uitzonderingen** waar het examen op mikt: (a) moeder geconsolideerd getoetst (art. 1:24 §6); (b) dochter NOOIT micro (art. 1:25 §1); (c) beursgenoteerd altijd groot (art. 1:11); (d) vereniging eigen drempels (WVV-VZW art. 3:47)."
+    - "**Publicatie-keten: 30 dagen na AV, max 7 maanden na afsluit** — neerleggen bij NBB. Te laat ⇒ tariefbijdrage + **vermoeden schade derden (art. 3:10 lid 3 WVV)** + na drie boekjaren verzuim **gerechtelijke ontbinding (art. 2:70 WVV)** mogelijk."
+
+extra_blokken:
+
+  - id: bronnenhierarchie-piramide
+    type: mermaid
+    titel: "Bronnen-piramide — wie zegt wat"
+    intro: "Zes lagen, één hiërarchie. Onthou de twee scharnieren: verordening werkt rechtstreeks (richtlijn moet omgezet), CBN-advies bindt niet (rechter kan motiveren-en-afwijken)."
+    mermaid_type: flowchart-td
+    code: |
+      EU[EU-recht<br/>Verord. 1606/2002 IAS · Richtlijn 2013/34/EU<br/>Richtlijn 2018/1673 witwas]
+      GW[Grondwet<br/>art. 170 §1 · bevoegdheidsverdeling]
+      WET[Federale wet<br/>WER Boek III · WVV]
+      KB[Koninklijk besluit<br/>KB 21-10-2018 dubbele boekh.<br/>KB 29-04-2019 WVV-uitvoering]
+      NORM[Beroepsnormen<br/>ITAA · IBR · NBB-circulaires]
+      ADV[CBN-adviezen<br/>gezaghebbend · niet bindend]
+      DOC[Doctrine + rechtspraak]
+      EU --> GW
+      GW --> WET
+      WET --> KB
+      KB --> NORM
+      NORM --> ADV
+      ADV --> DOC
+
+  - id: autoriteiten-tabel
+    type: tabel-vergelijking
+    titel: "Zes autoriteiten — wie doet wat"
+    kolommen: ["Instituut", "Rol", "Wat doe je hier?"]
+    rijen:
+      - ["**NBB** (Nationale Bank)", "Balanscentrale · neerlegging jaarrekeningen · statistieken", "Neerleggen + opzoeken"]
+      - ["**CBN** (Comm. Boekhoudk. Normen)", "Interpretatie boekhoudrecht · adviezen (ambtshalve of op vraag)", "Doctrineraadpleging"]
+      - ["**ITAA**", "Beroepsorganisatie GA + GBA · normen · tucht · toezicht", "Beroepsnormen + tucht"]
+      - ["**IBR** (Inst. Bedrijfsrev.)", "Bedrijfsrevisoren · auditnormen ISA", "Commissaris-norm"]
+      - ["**FSMA**", "Toezicht beursgenoteerde + financieel toezicht", "Beurs + financiële markt"]
+      - ["**Griffies ondernemingsrechtbank**", "KBO-inschrijving · vennootschapsakten + kleine-VZW-neerlegging", "Vennootschapsformaliteiten"]
+
+  - id: boekhoudplicht-beslisboom
+    type: mermaid
+    titel: "Wie moet boekhouden?"
+    intro: "Onderneming-test (art. I.1 WER) eerst, dan rechtsvorm. Natuurlijke persoon onder omzet-drempel mag vereenvoudigd; vennootschappen altijd dubbel."
+    mermaid_type: flowchart-td
+    code: |
+      A[Subject] --> B{Onderneming<br/>art. I.1 WER?}
+      B -->|Nee| Z[Geen boekhoudplicht]
+      B -->|Ja| C{Natuurlijke persoon<br/>of vennootschap?}
+      C -->|Vennootschap| D[Dubbele boekhouding<br/>+ jaarrekening NBB]
+      C -->|Natuurlijke persoon| E{Omzet<br/>≤ drempel art. III.85 WER?}
+      E -->|Ja| F[Vereenvoudigde boekhouding<br/>art. III.85 WER]
+      E -->|Nee| D
+      A -.->|VZW/stichting| G[WVV-VZW art. 3:47<br/>vereenvoudigd of dubbel<br/>volgens grootte-categorie]
+
+  - id: vereenvoudigd-vs-dubbel
+    type: tabel-vergelijking
+    titel: "Vereenvoudigd vs dubbel — wat verandert?"
+    kolommen: ["Aspect", "Vereenvoudigde boekhouding", "Dubbele boekhouding"]
+    rijen:
+      - ["**Wettelijke basis**", "art. III.85 WER + KB 12-09-1983", "art. III.82-95 WER + KB 21-10-2018"]
+      - ["**Verplichte boeken**", "Financieel dagboek + inkopen + verkopen + inventarisboek", "Algemeen dagboek + hulpdagboeken + grootboek + inventaris + **centralisatieboek**"]
+      - ["**MAR-rekeningen**", "Nee", "Ja (KB 29-04-2019)"]
+      - ["**Centralisatie**", "n.v.t.", "Minstens **maandelijks** (art. 5 KB 21-10-2018)"]
+      - ["**Jaarrekening NBB**", "Geen verplichting", "Ja, volgens grootte-schema"]
+      - ["**Wie?**", "Natuurlijke persoon onder omzet-drempel", "Alle vennootschappen + grote zelfstandigen"]
+    noot: "Drempel vereenvoudigd ≈ € 500 000 (€ 620 000 brandstof) — Cijferzakboekje bij examen voor exact bedrag."
+
+  - id: acht-beginselen
+    type: tabel-vergelijking
+    titel: "Acht boekhoudbeginselen — KB-WVV"
+    kolommen: ["Beginsel", "Wat zegt het?", "Klassieke toepassing"]
+    rijen:
+      - ["**1. Entiteit**", "Onderneming = boekhouding-subject, los van eigenaar", "Privé-vermogen scheiden van vennootschap"]
+      - ["**2. Continuïteit**", "Going concern — onderneming voortgezet, tenzij contra-bewijs", "Waardering aan continuïteitswaarde tenzij liquidatie zichtbaar"]
+      - ["**3. Bestendigheid**", "Eenmaal gekozen waarderingsregel = volhouden, motivering vereist bij wijziging", "Afschrijvingstermijn niet zomaar veranderen"]
+      - ["**4. Voorzichtigheid**", "Voorzienbare risico's boeken, voorzienbare winsten pas bij realisatie", "Voorraadwaardering LIFO/FIFO/gewogen + voorzieningen"]
+      - ["**5. Matching**", "Opbrengsten + bijhorende kosten in zelfde periode", "Overlopende rekeningen + afschrijvingen + voorzieningen"]
+      - ["**6. Individualisering**", "Elke transactie afzonderlijk boeken — geen samenvoegingen", "Geen netto-boeking van debit + credit zonder grondslag"]
+      - ["**7. Waarheid (getrouw beeld)**", "Boekhouding moet realiteit weergeven — art. 3:1 WVV", "Substance over form bij grensgevallen"]
+      - ["**8. Niet-compensatie**", "Activa en passiva, opbrengsten en kosten niet onderling verrekenen", "Bruto presenteren, niet netto"]
+    noot: "Wijziging waarderingsregel ≠ schatting-wijziging. CBN-advies 2019/04: schatting-wijziging (bv. afschrijvingspercentage 10 → 12,5 %) is PROSPECTIEF, geen retroactieve correctie. Bestendigheid geldt voor de REGEL, niet voor de schatting."
+
+  - id: groottecascade
+    type: mermaid
+    titel: "Groottecategorie-cascade (art. 1:24-25 WVV)"
+    intro: "Drempel-test = meer dan één van drie criteria over twee opeenvolgende boekjaren. Eén cascade stuurt schema + jaarverslag + commissaris + sociale balans."
+    mermaid_type: flowchart-td
+    code: |
+      START["Drempel-test<br/>2 opeenvolgende boekjaren"]
+      START --> CHK{Meer dan 1 van 3<br/>drempels overschreden?}
+      CHK -->|"≤ micro-drempels"| MICRO[**Micro** art. 1:25]
+      CHK -->|"≤ klein-drempels"| KLEIN[**Klein** art. 1:24 §1]
+      CHK -->|Boven klein-drempels| GROOT[**Groot**]
+      MICRO --> MS["Schema micro<br/>Minimale toelichting<br/>Geen jaarverslag<br/>Geen commissaris"]
+      KLEIN --> KS["Schema verkort<br/>Geen jaarverslag (3:4)<br/>Geen commissaris solo (3:72)<br/>Beperkte toelichting"]
+      GROOT --> GS["Schema volledig<br/>Jaarverslag verplicht (3:6)<br/>Commissaris verplicht (3:72)<br/>Volledige toelichting + KAM"]
+      GROOT -.->|Beursgenoteerd art. 1:11| BG[Altijd groot]
+      MICRO -.->|Dochter art. 1:25 §1| KLEIN
+
+  - id: schema-drieluik
+    type: tabel-vergelijking
+    titel: "Drie schema's — wat verandert?"
+    kolommen: ["Aspect", "Volledig", "Verkort", "Micro"]
+    rijen:
+      - ["**Wie?**", "Grote vennootschappen", "Kleine vennootschappen", "Microvennootschappen"]
+      - ["**Balans**", "Volledige rubrieken", "Samengevoegde posten", "Sterk vereenvoudigd"]
+      - ["**Resultatenrekening**", "Volledig (RR1+RR2)", "Verkort", "Sterk verkort"]
+      - ["**Toelichting**", "Volledig", "Beperkt", "Minimaal"]
+      - ["**Sociale balans**", "Volledig schema", "Verkort schema", "Verkort schema"]
+      - ["**Jaarverslag**", "Verplicht (art. 3:6 WVV)", "Vrijgesteld (art. 3:4 WVV)", "Vrijgesteld"]
+      - ["**Commissaris-controle**", "Verplicht (art. 3:72 WVV)", "Vrijgesteld behalve groep", "Vrijgesteld"]
+    noot: "Drempels zelf — Cijferzakboekje (geïndexeerd). Twee opeenvolgende boekjaren + meer dan één van drie overschrijden = kanteling."
+
+  - id: vier-scharnier-uitzonderingen
+    type: tabel-vergelijking
+    titel: "Vier scharnier-uitzonderingen op de drempel-test"
+    kolommen: ["Scharnier", "Wat verandert?", "Bron"]
+    rijen:
+      - ["**Moeder van groep**", "Geconsolideerd getoetst — aggregatie + 20 %-correctie (CBN 2017/10 / 2022/03) of volledige consolidatie", "art. 1:24 §6 WVV"]
+      - ["**Dochter**", "Kan NOOIT micro zijn — minimum klein", "art. 1:25 §1 WVV"]
+      - ["**Beursgenoteerd**", "Altijd groot, ongeacht drempels", "art. 1:11 WVV"]
+      - ["**Vereniging (VZW/stichting)**", "Eigen drempels (lager) — onder = vereenvoudigd-vereniging (KB 26-06-2003); boven = dubbele + jaarrekening volgens VZW-schema", "art. 3:47 WVV-VZW"]
+    noot: "Op de 'groep van beperkte omvang' bij consolidatie (art. 1:26 WVV) niet verwarren met art. 1:24 §6 (moeder-grootte-toetsing)."
+
+  - id: publicatie-tijdslijn
+    type: mermaid
+    titel: "Publicatie-tijdslijn"
+    intro: "Vier stappen, twee deadlines: 6 maanden na afsluit voor AV + 30 dagen na AV (max 7 mnd na afsluit) voor NBB-neerlegging."
+    mermaid_type: flowchart-lr
+    code: |
+      A[Boekjaar afgesloten<br/>31-12-N] --> B[Opmaak JR<br/>bestuursorgaan<br/>binnen 6 mnd]
+      B --> C[AV goedkeurt<br/>uiterlijk 30-06-N+1]
+      C --> D[Neerlegging NBB<br/>30 dagen na AV<br/>max 7 mnd na afsluit]
+      D --> E[Openbaarmaking<br/>NBB-portaal]
+      D -.->|Na deadline| S[Sanctie-keten<br/>3:13 KB-WVV → 3:10 lid 3 → 2:70]
+
+  - id: sancties-keten
+    type: tabel-vergelijking
+    titel: "Sancties-keten bij niet-neerlegging"
+    kolommen: ["Sanctie", "Grondslag", "Timing / drempel"]
+    rijen:
+      - ["**Tariefbijdrage**", "art. 3:13 KB-WVV + KB 27-09-2009", "Bij neerlegging > 30 dagen na AV; progressief verhoogd voor grote vennootschap"]
+      - ["**Vermoeden schade derden**", "art. 3:10 lid 3 WVV", "Bij verzuim — omkering bewijslast; derde hoeft schade-link niet te bewijzen"]
+      - ["**Bestuurdersaansprakelijkheid**", "art. 2:56 WVV + art. 3:10 WVV", "Civielrechtelijk + tucht via beroepsorde"]
+      - ["**Gerechtelijke ontbinding**", "art. 2:70 WVV", "Na 3 boekjaren niet-neerlegging — vordering OM of belanghebbende"]
+    noot: "Tariefbijdrage-bedragen — Cijferzakboekje. Bedragen zijn periodiek geïndexeerd."
+
+  - id: bestuurdersvermelding-en-vermeldingen
+    type: tabellen-en-formules
+    titel: "Verplichte vermeldingen in/op de jaarrekening"
+    sub_blokken:
+      - type: tabel-inline
+        sub_titel: "Bestuurdersvermelding (art. 3:12 1° WVV)"
+        kolommen: ["Veld", "Voor groot ook"]
+        rijen:
+          - ["Naam + voornaam + adres elke bestuurder/zaakvoerder", "✓"]
+          - ["Datum begin + einde mandaat", "✓"]
+          - ["Datum AV die JR heeft goedgekeurd", "✓"]
+          - ["Commissaris + IBR-lidmaatschap", "✓ (alleen groot)"]
+      - type: tabel-inline
+        sub_titel: "Waarderingsregels-verantwoording"
+        kolommen: ["Schema", "Waar verantwoorden?"]
+        rijen:
+          - ["Klein", "In toelichting (verkort) + motivering bij wijziging"]
+          - ["Groot", "In toelichting (volledig) + jaarverslag-narratief (art. 3:6 WVV) + KAM"]
+      - type: prose-blok
+        sub_titel: "Sociale balans — opleidingskost"
+        beats:
+          - "Verplichte bijlage zodra personeel — verkort schema voor klein, volledig voor groot"
+          - "Verkort: alleen DIRECT-kost (facturen + inschrijvingsgelden + reis-/verblijfskost)"
+          - "Volledig: ook INDIRECT-kost (personeelskost werknemers in opleiding tijdens werkuren)"
+
+valkuilen:
+  titel: "Klassieke valkuilen"
+  format: tabel
+  rijen:
+    - valkuil: "**Bestuurdersvermelding = art. 3:5 WVV**"
+      wat_klopt_niet: "Art. 3:5 WVV regelt hoofdelijkheid bestuurders bij onregelmatige jaarrekening — niet de eerste-blad-vermelding"
+      wat_klopt_wel: "Bestuurdersvermelding = art. 3:12 1° WVV (neer-te-leggen stuk)"
+    - valkuil: "**Vermoeden schade derden = art. 3:43 §3 WVV**"
+      wat_klopt_niet: "Art. 3:43 §3 bestaat niet in deze betekenis — verwarring met oude bron"
+      wat_klopt_wel: "Vermoeden schade derden bij niet-neerlegging = art. 3:10 lid 3 WVV (omkering bewijslast)"
+    - valkuil: "**Gerechtelijke ontbinding = art. 2:74 WVV**"
+      wat_klopt_niet: "Art. 2:74 regelt iets anders (alarmbel-procedure-aspect)"
+      wat_klopt_wel: "Gerechtelijke ontbinding wegens 3 boekjaren niet-neerlegging = art. 2:70 WVV"
+    - valkuil: "**Dochter erft grootte van moeder**"
+      wat_klopt_niet: "Een dochter wordt enkelvoudig getoetst (drempels op haar eigen cijfers)"
+      wat_klopt_wel: "Wel: een dochter kan NOOIT micro zijn (art. 1:25 §1) — minimum klein"
+    - valkuil: "**Aggregatie = consolidatie**"
+      wat_klopt_niet: "Aggregatie is simpele optelling (dubbele tellingen + intra-groep blijven)"
+      wat_klopt_wel: "Moeder-grootte-toets: aggregatie + 20 %-correctie (CBN 2017/10/2022/03) OF volledige consolidatie"
+    - valkuil: "**CBN-advies = wet**"
+      wat_klopt_niet: "CBN-advies is gezaghebbend maar niet bindend — rechter kan motiveren-en-afwijken"
+      wat_klopt_wel: "Standaardpraktijk volgt CBN tenzij andere wet voorrang"
+    - valkuil: "**Vrije beroepen vrijgesteld**"
+      wat_klopt_niet: "Sinds Wet 15-04-2018 (effectief 01-11-2018) is elke 'onderneming' (art. I.1 WER) boekhoudplichtig — incl. dokter/advocaat/architect"
+      wat_klopt_wel: "Dubbele boekhouding, tenzij omzet onder drempel art. III.85 WER"
+    - valkuil: "**Beursgenoteerd kan klein zijn**"
+      wat_klopt_niet: "Drempels gelden niet voor beursgenoteerde vennootschap"
+      wat_klopt_wel: "Beursgenoteerd = altijd groot (art. 1:11 WVV) — volledig schema + commissaris + jaarverslag verplicht"
+    - valkuil: "**Drempel-test = alle drie overschrijden**"
+      wat_klopt_niet: "Test is 'meer dan één' — twee criteria volstaat om uit klein te vallen"
+      wat_klopt_wel: "Twee opeenvolgende boekjaren + meer dan één drempel = niet-klein"
+    - valkuil: "**Wijziging afschrijvingspercentage = wijziging waarderingsregel** (retroactief)"
+      wat_klopt_niet: "Afschrijvingspercentage = SCHATTING — bestendigheidsbeginsel geldt voor de regel, niet voor de schatting"
+      wat_klopt_wel: "CBN-advies 2019/04: schatting-wijziging verwerken PROSPECTIEF — geen retroactieve correctie. Toelichting motiveert"
+    - valkuil: "**EU-richtlijn rechtstreeks toepasbaar**"
+      wat_klopt_niet: "Richtlijn bindt staten in resultaat, niet rechtstreeks burgers/vennootschappen"
+      wat_klopt_wel: "Verordening (bv. 1606/2002 IAS) wél rechtstreeks"
+    - valkuil: "**VZW = geen boekhouding**"
+      wat_klopt_niet: "WVV-VZW art. 1:28-29 + art. 3:47 — vereenvoudigd OF dubbel afhankelijk grootte"
+      wat_klopt_wel: "Grote VZW = volledig schema + neerlegging NBB. Kleine VZW = griffie ondernemingsrechtbank"
+
+doorklik:
+  intro: "Werkt iets niet meer scherp? Klik door naar het leerstuk of de concept-fiche die het uitwerkt:"
+  leerstukken:
+    - slug: wat-is-belgisch-boekhoudrecht
+      hint: "Bronnen + autoriteiten + bindend-vs-gezaghebbend"
+    - slug: wie-moet-boekhouden-en-hoe
+      hint: "Boekhoudplicht + dubbel/vereenvoudigd + 8 beginselen + bewaarplicht"
+    - slug: vennootschap-grootte-en-schema-keuze
+      hint: "Drempels + cascade + vier scharnier-uitzonderingen"
+    - slug: jaarrekening-publiceren-en-sancties
+      hint: "Jaarrekening-inhoud + 4-stap-procedure + sanctie-keten"
+    - slug: individuele-jaarrekening-opmaken
+      hint: "Cross-PO (PO 1.4) — techniek: eindejaarsverrichtingen + resultaatbestemming + proefbalans"
+  concept_groepen:
+    - label: "Kader + bronnen"
+      concepten: [belgisch-boekhoudrecht, autoriteiten-boekhoudrecht]
+    - label: "Plicht + techniek"
+      concepten: [boekhoudplicht, boekhouding, dubbele-boekhouding, boekhoudbeginselen]
+    - label: "Grootte + schema"
+      concepten: [vennootschap-groottecategorieen, groottecategorie-vereniging]
+    - label: "Documenten + publicatie"
+      concepten: [jaarrekening, eindejaarsverrichtingen]
+
+footer: "Samenvatting PO 1.2. Status: voorgesteld (2026-06-01). Migratie uit themafiches boekhoudplicht-en-rechtsbronnen + jaarrekening-schema-en-publicatie per ADR-039."

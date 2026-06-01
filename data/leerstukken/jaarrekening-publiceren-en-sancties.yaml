@@ -1,0 +1,317 @@
+# Leerstuk-script — Jaarrekening publiceren — en sancties bij niet-naleving
+#
+# PO 1.2 leerstuk 4 (proces + sanctie). Brengt drie zware blokken samen:
+#   - INHOUD jaarrekening: balans + resultatenrekening + toelichting +
+#     (groot) jaarverslag + (met personeel) sociale balans + verantwoording
+#     waarderingsregels
+#   - NEERLEGGINGSPROCES: AV-goedkeuring binnen 6 mnd (art. 3:1 WVV) +
+#     bestuurdersvermelding bij neergelegde stukken (art. 3:12 1° WVV) +
+#     neerlegging NBB binnen 30 d na AV + max 7 mnd na afsluit (art. 3:10
+#     WVV) + acceptatie binnen 8 werkdagen (art. 3:14)
+#   - SANCTIES bij niet-neerlegging: tariefbijdrage (art. 3:13 KB-WVV +
+#     KB 27-09-2009) + vermoeden schade derden (art. 3:10 lid 3 WVV —
+#     niet 3:43 §3 zoals voorbeeldgroep verkeerd zegt) + gerechtelijke
+#     ontbinding na 3 boekjaren niet-neerleggen (art. 2:70 WVV — niet 2:74)
+#
+# BELANGRIJKE CORRECTIES T.O.V. VOORBEELDGROEP-DATA:
+#   - Vermoeden schade derden = art. 3:10 lid 3 WVV (niet 3:43 §3)
+#   - Gerechtelijke ontbinding = art. 2:70 WVV (niet 2:74)
+#   - Bestuurdersvermelding = art. 3:12 1° WVV (stuk bij neerlegging) +
+#     bevat ook commissaris/externe accountant/bedrijfsrevisor. Het is
+#     EEN NEER TE LEGGEN STUK — geen "eerste blad" van de jaarrekening zelf
+#
+# Hand-off:
+#   - Leunt op L3 (grootte) voor schema/jaarverslag/commissaris-cascade
+#   - Leunt op L2 (beginselen) voor waarderingsregels-verantwoording
+#   - Leunt op L1 (bronnen) voor CBN-adviezen + getrouw-beeld-uitzondering
+#   - Cross-PO naar [[individuele-jaarrekening-opmaken]] voor techniek
+
+meta:
+  slug: jaarrekening-publiceren-en-sancties
+  titel: "Jaarrekening publiceren — en sancties bij niet-naleving"
+  po: "1.2"
+  cluster: boekhoudrecht
+  voorbeeldgroep: bourdon-vermeer
+  beschrijving: >
+    Leerstuk PO 1.2 — proces + sanctie: inhoud jaarrekening
+    (balans/resultaten/toelichting/jaarverslag/sociale balans/
+    waarderingsregels) + neerleggingsprocedure NBB (AV + 30 dagen +
+    7 maanden) + sancties bij niet-neerlegging (tariefbijdrage +
+    vermoeden schade derden + gerechtelijke ontbinding).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 1.2 en aankondiging dat wikilinks naar concept-fiches en broer-
+    leerstukken doorheen de tekst verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: nadat de jaarrekening is opgemaakt en door de AV goedgekeurd (binnen 6 maanden na afsluit), moet ze worden neergelegd bij de NBB binnen 30 dagen na goedkeuring én ten laatste 7 maanden na de afsluitdatum — gebeurt dat niet, dan loopt een sanctie-keten van drie trappen."
+    - "Inhoud — wat wordt neergelegd: (1) balans + resultatenrekening + toelichting (de drie verplichte delen — art. 3:1 + KB-WVV bijlages) · (2) jaarverslag (alleen groot — art. 3:5 + 3:6) · (3) sociale balans (zodra personeel aanwezig — verkort of volledig) · (4) een verklaring met identificatie bestuurders + commissaris + externe accountant/bedrijfsrevisor (art. 3:12 1° WVV) · (5) waarderingsregels-samenvatting in toelichting (art. 3:6 KB-WVV)."
+    - "Sanctie-keten bij niet-neerlegging: (a) **tariefbijdrage** verschuldigd zodra neerlegging > 30 dagen na AV of > 7 maanden na afsluit (art. 3:13 KB-WVV + KB 27-09-2009 — progressief verhoogd) · (b) **vermoeden schade derden** — schade door derden geleden wordt vermoed te zijn veroorzaakt door het verzuim, behoudens tegenbewijs (art. 3:10 lid 3 WVV) · (c) **gerechtelijke ontbinding** door ondernemingsrechtbank op vordering van iedere belanghebbende, openbaar ministerie of kamer voor ondernemingen in moeilijkheden, indien jaarrekening niet werd neergelegd (art. 2:70 WVV)."
+  visualisaties:
+    - type: mermaid
+      ref: publicatie_tijdslijn
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst INHOUD uit (wat moet er in en bij?), dan PROCES (AV → neerlegging → publicatie), dan SANCTIES (drie trappen) — telkens met Bourdon BV als concreet ankerpunt.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: inhoud-jaarrekening
+    titel: "Inhoud — wat zit er in (en bij) de jaarrekening?"
+    niveau: 2
+    beats:
+      - "Open met de structuur-regel: de JAARREKENING bestaat uit DRIE onverbreekbare delen — balans + resultatenrekening + toelichting (art. 3:1 + KB-WVV). Een 'jaarrekening' met enkel balans is geen jaarrekening."
+      - "Bijkomende stukken (BIJ de jaarrekening, niet IN): jaarverslag (groot) · sociale balans (bij personeel) · bestuurdersvermelding (art. 3:12 1°) · commissaris-verklaring (groot)"
+      - "Onderscheid INHOUD (in de jaarrekening) vs BIJLAGEN (mee neergelegd) is examen-relevant — niet alle stukken hebben dezelfde rechtsbron"
+    kinderen:
+
+      - id: balans-en-resultaten
+        titel: "Balans en resultatenrekening — schema-afhankelijk"
+        niveau: 3
+        beats:
+          - "Bron: KB-WVV bijlage 3 (volledig schema vennootschap) + bijlage 4 (verkort + micro-schema vennootschap) + bijlagen 6-7 voor verenigingen"
+          - "Onderscheid op detail-niveau: volledig schema heeft veel meer rubrieken + verplichte sub-rubrieken + RR1 en RR2 versus verkort dat enkele aggregaten samenvoegt"
+          - "Voor Bourdon (klein in N): verkort schema. Voor Vermeer (groot geconsolideerd): volledig"
+          - "Praktische tip: het schema kiest zichzelf via groottecategorie uit [[vennootschap-grootte-en-schema-keuze]] — geen aparte keuze-handeling"
+
+      - id: toelichting
+        titel: "Toelichting — kwantitatief én kwalitatief"
+        niveau: 3
+        beats:
+          - "Toelichting bevat materieel belang-informatie die niet in balans/resultaten past (art. 3:61 KB-WVV)"
+          - "Vier kernblokken: (1) samenvatting van waarderingsregels (art. 3:6 §1) · (2) aanvullende vermeldingen voor specifieke rubrieken (vaste activa-staat, voorzieningen-evolutie, kapitaal-staat) · (3) verbintenissen buiten balans · (4) niet-courante posten"
+          - "Examen-vraag 2013-1: hoe groot is de toelichting voor klein vs groot? Antwoord: klein heeft een beperkte toelichting (KB-WVV verkort schema-vereisten); groot heeft volledige toelichting (KB-WVV volledig schema-vereisten + alle bijzondere vermeldingen)"
+          - "Waarderingsregels-verantwoording: KERN van de toelichting. Hier komt de verantwoording van: afschrijvingsmethoden + termijnen · waardevermindering-toetsen · voorraad-methode (FIFO/GMP) · valuta-omrekening · wijzigingen t.o.v. vorig boekjaar. Bestendigheidsbeginsel uit [[wie-moet-boekhouden-en-hoe]] werkt HIER door — elke wijziging verantwoord"
+          - "Mini-case (uit Bourdon-data): wijziging afschrijvingspercentage 10→12,5% is een SCHATTING-wijziging — moet in de toelichting onder de waarderingsregels worden vermeld, met motivering (technologische veroudering). Effect op het boekjaar wordt becijferd. Cross-link [[wie-moet-boekhouden-en-hoe]] voor de rechts-kwalificatie"
+
+      - id: jaarverslag
+        titel: "Jaarverslag — alleen voor groot"
+        niveau: 3
+        beats:
+          - "Bron: WVV art. 3:5 (opmaken) + art. 3:6 (inhoud) + art. 3:4 (vrijstelling klein)"
+          - "Wat is een jaarverslag NIET: het is geen onderdeel van de jaarrekening zelf — het is een aparte verslagvorm waarin het bestuursorgaan zijn beleid verantwoordt"
+          - "Inhoud art. 3:6 — minstens: getrouw overzicht van ontwikkeling + resultaten + positie · beschrijving voornaamste risico's en onzekerheden · evenwichtige analyse afgestemd op omvang/complexiteit · prestatie-indicatoren (financieel en niet-financieel, incl. milieu/personeel waar nodig)"
+          - "Voor Bourdon (klein in N): jaarverslag VRIJGESTELD (art. 3:4). Vanaf kanteling N+2 naar groot: jaarverslag VERPLICHT. Voor Vermeer (groot geconsolideerd): geconsolideerd jaarverslag verplicht (art. 3:32 — cross-PO 1.4)"
+          - "Praktisch: het jaarverslag wordt SAMEN MET de jaarrekening neergelegd bij NBB"
+
+      - id: sociale-balans
+        titel: "Sociale balans — bij personeel"
+        niveau: 3
+        beats:
+          - "Bron: art. 3:24 KB-WVV — verkort schema voor klein, volledig voor groot"
+          - "Inhoud: gegevens over personeelsbestand, mutaties, opleidingen, ontslagen — vier hoofd-blokken"
+          - "Voor Bourdon: verkort schema sociale balans in N (klein). Opleidingskost in voorbeeldgroep: € 18.500 — verkort schema vermeldt alleen DIRECTE kost. Vanaf kanteling N+2 naar groot: volledig schema — opleidingskost wordt UITGEBREID met INDIRECTE kost (personeelskost werknemers tijdens opleiding-uren)"
+          - "Examen-vraag 2008-bibf: welke bestanddelen voor opleidingskost? Antwoord: direct (verkort + volledig) + indirect (alleen volledig) + reis- en verblijfskosten verbonden aan opleiding"
+          - "Sociale balans wordt SAMEN MET de jaarrekening neergelegd"
+
+      - id: bestuurdersvermelding-bij-neerlegging
+        titel: "Bestuurdersvermelding — een stuk BIJ de neerlegging"
+        niveau: 3
+        beats:
+          - "BELANGRIJKE CORRECTIE op verkeerde populaire perceptie: 'eerste blad' van de jaarrekening met bestuurders is GEEN art. 3:5 — dat artikel regelt het JAARVERSLAG"
+          - "De bestuurdersvermelding is een AFZONDERLIJK NEERTELEGGEN STUK volgens art. 3:12 1° WVV — opgesomd onder de stukken die samen met de jaarrekening moeten worden ingediend"
+          - "Verplichte gegevens (art. 3:12 1°): naam, voornamen, beroep en woonplaats van elke zaakvoerder/bestuurder + van de commissaris in functie + (indien geverifieerd/gecorrigeerd door externe accountant of bedrijfsrevisor) ook naam/voornamen/beroep/professioneel adres + lidmaatschapsnummer bij hun instituut. Indien geen externe controle: dat ook vermelden"
+          - "Voor Bourdon: vermelding van Karel Bourdon (zaakvoerder/CEO), Sophie Aerts (bestuurder), Marc Vermeer (bestuurder namens Vermeer NV). Geen commissaris in N (klein) — vanaf N+2 wordt commissaris toegevoegd. Externe accountant van Bourdon BV met ITAA-lidmaatschapsnummer"
+          - "Examen-vraag 2013-2: 'wie moet vermeld worden in welk stuk?' — antwoord: bestuurders + commissaris + externe controleur op het neer te leggen STUK uit art. 3:12 1°. Niet 'eerste blad jaarrekening' (een populaire fout-formulering die het examen aangrijpt)"
+
+  - id: neerleggingsproces
+    titel: "Neerleggingsproces — vier stappen + timing"
+    niveau: 2
+    beats:
+      - "Open met de chronologie: vier stappen van boekjaar-einde tot publicatie"
+      - "Toon de tijdslijn-mermaid (uit voorbeeldgroep) — boekjaar afgesloten → opmaak JR (bestuur, max 6 mnd) → AV-goedkeuring (uiterlijk 6 mnd na afsluit, art. 3:1) → neerlegging NBB (binnen 30 dagen na AV én max 7 maanden na afsluit, art. 3:10) → openbaarmaking via NBB-portaal"
+      - "Concrete deadlines voor Bourdon boekjaar N (afsluit 31-12-N): AV uiterlijk 30-06-N+1; neerlegging uiterlijk 30 dagen na AV of 31-07-N+1 (afhankelijk wat eerst valt)"
+    kinderen:
+
+      - id: stap-1-opmaak-bestuur
+        titel: "Stap 1 — Opmaak door bestuursorgaan"
+        niveau: 3
+        beats:
+          - "Bestuursorgaan stelt jaarrekening op binnen 6 maanden na afsluit (art. 3:1 WVV)"
+          - "Verantwoordelijkheid ligt bij het BESTUURSORGAAN — niet bij de boekhouder, niet bij de externe accountant. De accountant kan opmaken of helpen, maar het bestuur draagt de aansprakelijkheid"
+          - "Bij grote vennootschappen: jaarverslag wordt parallel opgemaakt. Bij personeel: sociale balans"
+
+      - id: stap-2-controle-en-av
+        titel: "Stap 2 — Eventuele controle + AV-goedkeuring"
+        niveau: 3
+        beats:
+          - "Bij grote: commissaris controleert (art. 3:72 WVV — controleverklaring volgens ISA-conform schema). Bij klein: geen commissaris solo verplicht"
+          - "AV-bijeenroeping volgens statuten (typisch jaarlijks binnen 6 mnd na afsluit). AV keurt de jaarrekening goed of weigert. Goedgekeurde jaarrekening = afgesloten boekhoudkundig"
+          - "Geen AV-goedkeuring binnen 6 mnd na afsluit? Bestuursorgaan blijft aansprakelijk + risico van regularisatie + bestuurdersaansprakelijkheid"
+
+      - id: stap-3-neerlegging
+        titel: "Stap 3 — Neerlegging bij NBB"
+        niveau: 3
+        beats:
+          - "Bron: art. 3:10 WVV — neerlegging binnen 30 dagen na AV-goedkeuring én ten laatste 7 maanden na afsluitdatum"
+          - "Welke stukken neergelegd (art. 3:12): jaarrekening + bestuurdersvermelding + bestemmingsoverzicht resultaat + (groot) jaarverslag + commissaris-verklaring + sociale balans + andere wettelijk voorgeschreven stukken"
+          - "Vorm: elektronisch via NBB-portaal in XBRL-formaat (sinds enkele jaren standaard). PDF voor specifieke uitzonderingen (buitenlandse jaarrekening, vereenvoudigde vzw met ander format)"
+          - "Acceptatie: NBB controleert binnen 8 werkdagen na ontvangst (art. 3:14 WVV). Geen bericht binnen 8 dagen = neerlegging geacht aanvaard. NBB kan rekenkundige en logische fouten signaleren — bij wezenlijke fouten verplichte correctie binnen 2 maanden"
+
+      - id: stap-4-openbaarmaking
+        titel: "Stap 4 — Openbaarmaking via NBB-portaal"
+        niveau: 3
+        beats:
+          - "Eenmaal aanvaard: jaarrekening publiek toegankelijk via Centraal Balanscentrum (NBB). Iedereen kan ze raadplegen (free of charge voor lezing, prijs voor download)"
+          - "Praktisch belang: krediet-beoordelaars + leveranciers + concurrenten lezen mee. De jaarrekening is een PUBLIEK document — niet alleen voor de fiscus"
+          - "Tijdslijn-effect: tot publicatie blijven boekjaar-cijfers van een vennootschap commercieel onzichtbaar voor derden — vandaar de praktijk om de neerlegging zo laat mogelijk te doen binnen termijn (commercieel motief, niet juridisch)"
+
+  - id: sanctie-keten
+    titel: "Sanctie-keten — drie trappen bij niet-neerlegging"
+    niveau: 2
+    beats:
+      - "Open met de waarschuwing: het examen toetst dit DRIE-TRAPS-systeem omdat veel adviseurs één trap missen. Wie advies geeft over neerleggings-verzuim moet de drie samen kunnen overzien"
+      - "Toon de sanctie-tabel met de drie trappen + bron + werking"
+      - "Belangrijke nuance over de TWEEDE trap (vermoeden schade derden): die zit RECHTSTREEKS in art. 3:10 lid 3 WVV — niet in art. 3:43. De wettekst van 3:10 zegt letterlijk: 'Indien de jaarrekening niet werd neergelegd zoals bepaald in het tweede lid, wordt de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.'"
+      - "Belangrijke nuance over de DERDE trap (gerechtelijke ontbinding): bron is art. 2:70 WVV (NIET art. 2:74 — een veel-voorkomende verschrijving). Vereist: jaarrekening niet neergelegd overeenkomstig art. 3:10 + 3:12 — bij verzoek belanghebbende of OM kan de rechtbank een regularisatietermijn toekennen vóór ontbinding (typisch 3 maanden)"
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: sancties_keten_niet_neerlegging
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: trap-1-tariefbijdrage
+        titel: "Trap 1 — Tariefbijdrage"
+        niveau: 3
+        beats:
+          - "Bron: art. 3:13 KB-WVV juncto KB 27-09-2009 — vast bedrag dat oploopt naargelang de vertraging + de grootte van de vennootschap"
+          - "Werking: zodra neerlegging > 30 dagen na AV-goedkeuring (of > 7 maanden na afsluit) → bijdrage verschuldigd. Progressief verhoogd bij langere vertraging"
+          - "Voor de bedragen: Cijferzakboekje bij examen — niet uit het hoofd citeren. Orde van grootte: enkele tientallen tot enkele honderden euro per maand vertraging voor kleine vennootschap; voor grote substantieel hoger"
+          - "Concretisering Bourdon: jaarrekening N-1 neergelegd op 02-09-N (37 dagen over uiterste 31-07-N). Tariefbijdrage berekend op basis van het Cijferzakboekje voor kleine vennootschap + de vertragings-trap. Bedrag verschuldigd bij neerlegging — geen aparte aanslagprocedure"
+
+      - id: trap-2-vermoeden-schade
+        titel: "Trap 2 — Vermoeden schade derden (omkering bewijslast)"
+        niveau: 3
+        beats:
+          - "Bron: art. 3:10 lid 3 WVV — direct ingeschreven in het neerleggingsartikel zelf"
+          - "Werking: alle schade die DERDEN lijden door de niet-neerlegging wordt vermoed te zijn veroorzaakt door dit verzuim. Behoudens tegenbewijs."
+          - "Civielrechtelijk effect: de schadelijder hoeft enkel de schade + het verzuim te bewijzen — het causaal verband wordt VERMOED. De bestuursorgaan kan tegenbewijs leveren, maar de bewijslast keert om"
+          - "Klassieke toepassing: een leverancier kan de vennootschap (in financiële moeilijkheden) geen krediet beoordelen omdat geen recente jaarrekening beschikbaar is; later blijkt insolventie. De leverancier kan tegen het bestuursorgaan vorderen: 'had de jaarrekening neergelegd geweest, had ik geen levering op krediet gedaan'"
+          - "Praktisch advies aan de cliënt: NIET-NEERLEGGING is niet alleen tariefbijdrage. Het opent de bestuursorgaan voor civielrechtelijke vorderingen door elke derde — leveranciers, klanten, banken — die voldoende geleden schade kan aantonen. Aansprakelijkheid art. 2:56 WVV werkt parallel"
+
+      - id: trap-3-gerechtelijke-ontbinding
+        titel: "Trap 3 — Gerechtelijke ontbinding"
+        niveau: 3
+        beats:
+          - "Bron: art. 2:70 WVV — ondernemingsrechtbank kan op vraag van iedere belanghebbende, openbaar ministerie of kamer voor ondernemingen in moeilijkheden, de ontbinding uitspreken van een vennootschap die haar verplichting om jaarrekening neer te leggen (art. 3:10 + 3:12) niet is nagekomen"
+          - "Triggert NIET na één verzuim — wel na herhaaldelijk (in de praktijk: drie opeenvolgende niet-neerleggingen, conform de jarenlange traditie van de zware sanctie)"
+          - "Bij verzoek belanghebbende of OM: rechtbank kent eerst een REGULARISATIETERMIJN toe (typisch 3 maanden) vooraleer ontbinding uit te spreken. Bij mededeling door kamer voor ondernemingen in moeilijkheden: rechtbank kan ofwel regularisatietermijn ofwel ontbinding uitspreken"
+          - "Geen automatische ontbinding — vereist initiatief van derde + rechterlijke beslissing. In praktijk: KBO-data wordt door de kamer voor ondernemingen in moeilijkheden gemonitord, gevolgd door eerder zachte interventie vóór ontbinding"
+          - "Concretisering Bourdon: één laattijdige neerlegging activeert geen art. 2:70 (te licht). Drie opeenvolgende verzuim creëert reële kanteling-risico — accountant moet cliënt waarschuwen vóór tweede verzuim, niet pas bij derde"
+
+      - id: bestuursaansprakelijkheid-parallel
+        titel: "Parallel — bestuursaansprakelijkheid (cross-cluster)"
+        niveau: 3
+        beats:
+          - "Naast de drie WVV-trappen werkt civielrechtelijke bestuursaansprakelijkheid (art. 2:56 WVV — marginale toetsing + 2:57 cap) parallel"
+          - "Het verzuim van jaarrekening-neerlegging is een wets-overtreding (art. 3:10) — geen marginale beslissing onder business-judgement-rule, maar een DUIDELIJKE PLICHT-OVERTREDING"
+          - "Tucht: voor de externe accountant van Bourdon die nalaat zijn cliënt te waarschuwen voor neerleggingstermijn — risico van ITAA-tuchtmaatregel. Voor de commissaris (zodra Bourdon kantelt) — eigen melding-plicht bij niet-naleving (art. 3:80 WVV)"
+          - "Pedagogische sleutel: WVV-sancties (drie trappen) zijn de RECHTSTREEKSE sancties; bestuursaansprakelijkheid + tucht zijn de AFGELEIDE sancties — beide trajecten kunnen tegelijk lopen"
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): vermoeden schade derden plaatsen onder art. 3:43 WVV. De juiste bron is art. 3:10 lid 3 — direct in het neerleggingsartikel zelf. Art. 3:43 §3 (een ander artikel uit Boek 3 over een ander onderwerp) wordt vaak verkeerd geciteerd in handboeken. Citeer art. 3:10 lid 3 — daar staat de letterlijke tekst die de omkering van bewijslast vestigt."
+      - "Valkuil 2 (⚠️): gerechtelijke ontbinding plaatsen onder art. 2:74 WVV. De juiste bron is art. 2:70 WVV — verwijst expliciet naar art. 3:10 + 3:12 als gronds-overtreding. Art. 2:74 regelt een andere ontbindings-categorie (eigen vermogen onder wettelijk minimum — voor BV/NV). Beide art. 2:70 en 2:74 leiden tot ontbinding maar via verschillende rechtsfeiten."
+      - "Valkuil 3 (⚠️): bestuurdersvermelding gelijkstellen met 'eerste blad jaarrekening' onder art. 3:5. Art. 3:5 WVV regelt het JAARVERSLAG (verplichting tot opmaak), niet de bestuurdersvermelding. De bestuurdersvermelding is een afzonderlijk stuk uit art. 3:12 1° — meegestuurd bij de neerlegging. Dezelfde lijst geldt voor commissaris + externe accountant + bedrijfsrevisor. Wie 'eerste blad' formuleert haalt de twee artikelen door elkaar."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-belgisch-boekhoudrecht
+      hint: "Het bronnen-veld — WVV als wettelijke basis + plaats van CBN-adviezen bij interpretatie van waarderingsregels."
+    - slug: wie-moet-boekhouden-en-hoe
+      hint: "De boekhoudbeginselen (bestendigheid, voorzichtigheid) waarop waarderingsregels-verantwoording in toelichting steunt."
+    - slug: vennootschap-grootte-en-schema-keuze
+      hint: "De cascade-keten waaruit jouw schema-keuze + jaarverslag-verplichting + commissaris-verplichting + sociale-balans-versie voortvloeit."
+    - slug: individuele-jaarrekening-opmaken
+      hint: "Cross-PO — de TECHNIEK van jaarrekening-opmaken (eindejaarsverrichtingen, resultaatbestemming). PO 1.4 leerstuk dat het opmaken-handwerk dekt."
+    - slug: wat-is-jaarrekeninganalyse
+      hint: "Cross-PO — wat er met de jaarrekening na publicatie gebeurt (analyse, kengetallen). PO 1.3 leerstuk."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — neerleggings-tijdslijn + sanctie-tabel + welke stukken horen bij welk schema."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [jaarrekening, eindejaarsverrichtingen]
+    - concepten: [boekhoudbeginselen, commissaris]
+    - concepten: [algemene-vergadering, bestuurdersaansprakelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Opmaak jaarrekening — verplichting + AV-goedkeuring binnen 6 mnd"
+    ref: "WVV art. 3:1"
+    noot: "Het bestuursorgaan stelt jaarrekening op en legt ze ter goedkeuring voor aan de AV binnen 6 maanden na afsluitdatum."
+  - onderwerp: "Inhoud jaarrekening — balans + resultatenrekening + toelichting"
+    ref: "KB-WVV art. 3:1 + bijlage 3 (volledig) + bijlage 4 (verkort + micro)"
+    noot: "Drie onverbreekbare delen. Voor vereniging: bijlagen 6-7 KB-WVV."
+  - onderwerp: "Toelichting — inhoud + waarderingsregels-samenvatting"
+    ref: "KB-WVV art. 3:6 §1 (waarderingsregels + afwijking) + art. 3:61 (toelichting-inhoud)"
+    noot: "Samenvatting waarderingsregels + bijzondere vermeldingen + verbintenissen buiten balans + niet-courante posten. Wijziging waarderingsregel of schatting motiveren (CBN-advies 2019/04 als interpretatie)."
+  - onderwerp: "Jaarverslag — opmaken-plicht voor groot"
+    ref: "WVV art. 3:5"
+    noot: "Bestuursorgaan stelt verslag op waarin het rekenschap geeft van zijn beleid. Inhoud uitgewerkt in art. 3:6."
+  - onderwerp: "Vrijstelling jaarverslag voor klein"
+    ref: "WVV art. 3:4"
+    noot: "Kleine vennootschap vrijgesteld van jaarverslag-opmaak."
+  - onderwerp: "Inhoud jaarverslag"
+    ref: "WVV art. 3:6"
+    noot: "Getrouw overzicht ontwikkeling/resultaten/positie + risico's + niet-financiële prestatie-indicatoren waar relevant + bestuursverantwoording."
+  - onderwerp: "Sociale balans — verkort vs volledig"
+    ref: "KB-WVV art. 3:24"
+    noot: "Verkort schema voor klein, volledig voor groot. Opleidingskost-bestanddelen: direct (verkort) of direct + indirect + reis/verblijf (volledig)."
+  - onderwerp: "Bestuurdersvermelding — neer te leggen stuk"
+    ref: "WVV art. 3:12 1°"
+    noot: "Naam + voornamen + beroep + woonplaats van bestuurders + commissaris + (waar relevant) externe accountant of bedrijfsrevisor met lidmaatschapsnummer. NIET 'eerste blad jaarrekening' onder art. 3:5."
+  - onderwerp: "Neerlegging bij NBB — termijn"
+    ref: "WVV art. 3:10 lid 2"
+    noot: "Binnen 30 dagen na AV-goedkeuring én ten laatste 7 maanden na afsluit. Twee deadlines parallel — de eerstvallende telt."
+  - onderwerp: "Vermoeden schade derden bij niet-neerlegging"
+    ref: "WVV art. 3:10 lid 3"
+    noot: "Schade door derden geleden wordt geacht voort te vloeien uit het verzuim, BEHOUDENS TEGENBEWIJS. Bron is art. 3:10 zelf — niet art. 3:43 (een veelvoorkomende verkeerde verwijzing)."
+  - onderwerp: "Acceptatie door NBB"
+    ref: "WVV art. 3:14"
+    noot: "Binnen 8 werkdagen na ontvangst — bij wezenlijke fouten correctie binnen 2 maanden door vennootschap."
+  - onderwerp: "Welke stukken worden neergelegd"
+    ref: "WVV art. 3:12 2°-10°"
+    noot: "Bestemmingsoverzicht resultaat (indien niet uit jaarrekening blijkt) + jaarverslag (groot) + commissaris-verklaring + sociale balans + andere wettelijk voorgeschreven stukken."
+  - onderwerp: "Tariefbijdrage bij laattijdige neerlegging"
+    ref: "Art. 3:13 KB-WVV + KB 27-09-2009"
+    noot: "Vast bedrag — progressief verhoogd bij langere vertraging + bij grote vennootschap. Cijfers via Cijferzakboekje."
+  - onderwerp: "Gerechtelijke ontbinding bij niet-neerlegging"
+    ref: "WVV art. 2:70"
+    noot: "Ondernemingsrechtbank kan ontbinding uitspreken op vraag belanghebbende, openbaar ministerie of kamer voor ondernemingen in moeilijkheden. Regularisatietermijn mogelijk. NIET art. 2:74 (die regelt eigen-vermogen-ontbinding — andere grond)."
+  - onderwerp: "Correctie van neergelegde jaarrekening"
+    ref: "WVV art. 3:19"
+    noot: "Materiële fouten of dwaling in rechte/feite — correctie ter goedkeuring AV (behalve loutere materiële fouten door bestuursorgaan zelf)."
+  - onderwerp: "Wettelijke controle door commissaris"
+    ref: "WVV art. 3:72"
+    noot: "Verplicht bij grote en bij groep > 50 werknemers. Controleverklaring volgens vast schema (inleiding + reikwijdte + oordeel + onzekerheden + aanvullende vermeldingen)."
+  - onderwerp: "Aansprakelijkheid bestuursorgaan"
+    ref: "WVV art. 2:56 + art. 2:57 (cap)"
+    noot: "Voor wettelijke verplichtingen-overtreding zoals niet-neerlegging: niet onder business-judgement-rule. Cap volgens grootte-categorie (vier schijven)."
+  - onderwerp: "Schatting-wijziging bij waarderingsregel-aanpassing"
+    ref: "CBN-advies 2019/04 + KB-WVV art. 3:6"
+    noot: "Schatting-wijziging = prospectief; vermelding aard + bedrag in toelichting (waarderingsregels). Examen-vraag 2013-2."
+
+footer: "Leerstuk PO 1.2 — proces + sanctie. Status: voorgesteld volgens ADR-037."

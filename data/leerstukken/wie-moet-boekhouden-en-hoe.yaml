@@ -1,0 +1,266 @@
+# Leerstuk-script — Wie moet boekhouden, en hoe?
+#
+# PO 1.2 leerstuk 2 (werkpaard — WER + 8 beginselen + bewaarplicht). Het
+# scharnier-leerstuk dat WER Boek III + KB 21-10-2018 + de boekhoud-
+# beginselen samenbrengt in één pedagogische beweging:
+#   - WIE moet boekhouden (art. III.82 WER — boekhoudplichtige onderneming)
+#   - HOE (dubbele art. III.84 of vereenvoudigde art. III.85 — drempel)
+#   - VOLGENS WELKE BEGINSELEN (8 klassieke + getrouw-beeld als meta-norm)
+#   - HOE LANG BEWAREN (art. III.88 WER — 7 jaar boeken; bewijsstukken
+#     ook 7 jaar; bijzondere termijnen elders — fiscaal 10 jaar onroerend,
+#     btw 10 jaar)
+#
+# Hand-off:
+#   - L3 (grootte-en-schema): herhaalt drempels NIET, leunt op de boekhoud-
+#     basis hier neergelegd. Wanneer L3 het schema bespreekt, wijst dat
+#     terug naar 'het stelsel uit L2 wordt nu gerapporteerd volgens grootte'
+#   - L4 (publiceren-en-sancties): refereert naar de beginselen wanneer
+#     de waarderingsregels-bestendigheid in toelichting wordt opgeroepen
+#     ("zoals in L2 uitgewerkt — bestendigheid betekent ...")
+#   - Het examen-typische bestendigheid-vs-schatting-wijziging (vraag 2013-2)
+#     wordt HIER neergelegd, niet in L4. L4 verwijst terug.
+
+meta:
+  slug: wie-moet-boekhouden-en-hoe
+  titel: "Wie moet boekhouden, en hoe?"
+  po: "1.2"
+  cluster: boekhoudrecht
+  voorbeeldgroep: bourdon-vermeer
+  beschrijving: >
+    Leerstuk PO 1.2 — werkpaard: boekhoudplicht (WER art. III.82) +
+    dubbele vs vereenvoudigde boekhouding (art. III.84-85 + KB
+    21-10-2018) + de 8 boekhoudbeginselen + bewaarplicht (7 jaar
+    boeken + bewijsstukken).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 1.2 en aankondiging dat wikilinks naar concept-fiches en broer-
+    leerstukken doorheen de tekst verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: élke 'onderneming' in de zin van art. I.1 WER moet boekhouden — dubbele boekhouding als hoofdregel, vereenvoudigd alleen voor natuurlijke personen + maatschap + VOF + CommV onder de omzet-drempel uit het KB 21-10-2018."
+    - "Drie technische dimensies: (1) WAT in de boeken — alle verrichtingen, bezittingen, rechten, vorderingen, schulden, verplichtingen (art. III.83 WER) · (2) IN WELKE BOEKEN — algemeen + hulpdagboeken + grootboek + inventaris + centralisatieboek voor dubbele; financieel + inkoop + verkoop + inventaris voor vereenvoudigd · (3) HOELANG BEWAREN — 7 jaar voor boeken én bewijsstukken (art. III.88 WER + art. 8 KB 21-10-2018)."
+    - "Acht beginselen sturen elke waarderings- en boekingskeuze: trouw beeld (meta) · voorzichtigheid · continuïteit · bestendigheid · matching · realisatie · materialiteit · niet-compensatie. Ze zijn niet 'mooi om weten' — ze beslechten elke concrete vraag (mag deze waardevermindering geboekt? mag deze opbrengst nu erkend?)."
+  visualisaties:
+    - type: mermaid
+      ref: boekhoudplicht_beslisboom
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst WIE + HOE uit (regelkader), dan de beginselen (de waardenkant), dan de bewaarplicht (na-traject) — telkens geconcretiseerd op Bourdon en Jan De Smet.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wie-is-boekhoudplichtig
+    titel: "Wie is boekhoudplichtig?"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke aanknopingsregel: WER art. III.82 verwijst naar het ondernemingsbegrip van art. I.1 WER. Het is een RUIM begrip — sinds 1 november 2018 valt élke zelfstandige onder, ook vrije beroepen, en alle rechtspersonen (vennootschappen, vzw's, stichtingen)"
+      - "Drie groepen waarvoor de plicht geldt: (a) natuurlijke personen met zelfstandige beroepsactiviteit (handelaar, vrije beroep, zelfstandige in bijberoep) · (b) alle rechtspersonen — vennootschappen, vzw's, ivzw's, stichtingen · (c) organisaties zonder rechtspersoonlijkheid die een economische activiteit uitoefenen (bv. maatschap)"
+      - "Lijst uitzonderingen (art. III.82 §1 WER + KB 21-10-2018): bestuurders-natuurlijke-personen (qua hun mandaat — wel als zelfstandige), zuivere land- en tuinbouw, politieke partijen, sport/hobby-inkomsten zonder beroepskarakter"
+      - "Concretiseer met de voorbeeldgroep: Bourdon BV = vennootschap → boekhoudplichtig, dubbel verplicht. Vermeer NV = vennootschap → idem. Jan De Smet = natuurlijke persoon, zelfstandig architect → boekhoudplichtig, keuze tussen vereenvoudigd en dubbel afhankelijk van omzet. Buurthuis Linde VZW = rechtspersoon → boekhoudplichtig, regime afhankelijk van grootte (verder uitgewerkt in [[vennootschap-grootte-en-schema-keuze]])"
+      - "Synthese (vetgedrukt): de boekhoudplicht is de eerste fiscale en commerciële BEWAKINGSREGEL — wie niet boekhoudt, kan niet bewijzen wat hij gedaan heeft. Sanctie is niet alleen wettelijk (fiscale belastingverhoging, gerechtelijke ontbinding) maar ook praktisch — geen krediet, geen bewijs bij geschil, geen aangifte mogelijk"
+
+  - id: dubbel-of-vereenvoudigd
+    titel: "Dubbel of vereenvoudigd? — twee regimes, één keuze-as"
+    niveau: 2
+    beats:
+      - "Open met de dichotomie: WER kent slechts twee toegestane regimes — dubbele boekhouding (de standaard, art. III.84) of vereenvoudigde (uitzondering voor klein, art. III.85 §1)"
+      - "Wie MOET dubbel: alle vennootschappen (BV, NV, CV, CommV, VOF, SE) — zonder uitzondering. Bourdon, Vermeer en hun dochters dus altijd. Ook GROTE natuurlijke personen + grote vzw's."
+      - "Wie MAG vereenvoudigd: natuurlijke persoon + maatschap + VOF + CommV onder de omzet-drempel van 500.000 EUR (KB 21-10-2018 art. 1) — verhoogd tot 620.000 EUR voor bepaalde brandstof-detailhandel. Voor vzw's: aparte drempels (KB 21-10-2018 + cross-link naar [[vennootschap-grootte-en-schema-keuze]] voor VZW-cascade)"
+      - "Kantelpunt-mechaniek: drempel-overschrijding in één boekjaar volstaat om vanaf VOLGEND boekjaar dubbel verplicht te maken. WER hanteert hier GEEN tweejaars-buffer zoals het WVV doet voor groottecategorieën — pas op voor verwarring (uitgewerkt in [[vennootschap-grootte-en-schema-keuze]])"
+      - "Concretiseer met Jan De Smet uit de voorbeeldgroep: boekjaar N-1 = 380.000 EUR omzet (vereenvoudigd OK); boekjaar N = 540.000 EUR (boven drempel — kantelt). Vanaf 1-1-N+1 moet hij dubbel beginnen: MAR opstellen, openingsbalans uit inventaris N afleiden, hulpdagboeken inrichten."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: vereenvoudigd_vs_dubbel
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: dubbele-boekhouding-techniek
+        titel: "Dubbele boekhouding — vereiste boeken"
+        niveau: 3
+        beats:
+          - "Toon de keten: brondocument → dagboek → grootboek → proefbalans → jaarrekening. Elk station is wettelijk benoemd."
+          - "Vereiste boeken in het dubbele regime (art. III.84 WER + KB 21-10-2018): algemeen dagboek (of ongesplitst dagboek dat alles bevat) · hulpdagboeken (inkoop, verkoop, financieel, diversen) · grootboek (MAR-rekeningen) · inventarisboek (art. III.89 — jaarlijkse inventaris)"
+          - "Centralisatieboek (art. 4 §1 KB 21-10-2018): wanneer hulpdagboeken bestaan, moeten ze MINSTENS MAANDELIJKS worden gecentraliseerd in het algemeen dagboek + grootboek. Examen-favoriet (vraag 2003-bibf): wat is de minimumfrequentie? Antwoord: maandelijks."
+          - "Synthese: de boeken zijn het bewijs-fundament. Een MAR-rekening kan altijd worden afgelopen tot de oorspronkelijke factuur — dat is wat 'getrouwheid van de boekhouding' (art. III.88 WER) materieel betekent"
+          - "Lees-verder-link: voor de TECHNIEK van eindejaarsverrichtingen + resultaatbestemming (afschrijvingen, voorzieningen, waardeverminderingen, overlopende rekeningen) — zie cross-PO leerstuk [[individuele-jaarrekening-opmaken]]"
+
+      - id: vereenvoudigde-boekhouding-techniek
+        titel: "Vereenvoudigde boekhouding — wat valt weg, wat blijft?"
+        niveau: 3
+        beats:
+          - "Drie verplichte dagboeken (art. III.85 §1 WER): financieel dagboek (kas + bank), inkoopdagboek, verkoopdagboek. Plus inventarisboek met jaarlijkse inventaris (vermogensstaat)."
+          - "Wat valt weg: geen MAR, geen grootboek, geen proefbalans, geen dubbele-partij-mechaniek, GEEN BALANS-EN-RESULTATENREKENING in de WVV-vorm — wel jaarlijkse inventaris met overzicht activa/passiva + ontvangsten/uitgaven"
+          - "Wat blijft: chronologie + getrouwheid + bewaarplicht. Het regime is technisch lichter, niet juridisch lichter."
+          - "Voor Jan De Smet praktisch: een spreadsheet of kassa-boek volstaat (mits chronologisch geboekt + bewijsstukken bewaard); wanneer hij kantelt naar dubbel moet hij een boekhoud-pakket nemen of zijn boekhouder een MAR-rekeningplan laten opzetten"
+          - "Geen NBB-neerlegging: vereenvoudigde-boekhouding-houders leggen GEEN jaarrekening neer bij de NBB. Hun jaarlijkse vermogensstaat dient intern + voor de fiscus (PB-aangifte), niet publiek."
+
+  - id: acht-beginselen
+    titel: "De acht boekhoudbeginselen — de waardenkant"
+    niveau: 2
+    beats:
+      - "Open met de scharnier: WER + KB zeggen WAT je moet boeken; de beginselen zeggen HOE je waardeert + WANNEER je erkent. Zonder beginselen is de techniek leeg — twee verschillende boekhouders zouden tegenstrijdige cijfers produceren"
+      - "Bron: KB 29-04-2019 art. 3:6 (getrouw beeld) + 3:16-3:32 (waarderingsprincipes). Acht klassieke beginselen — alle gecodificeerd, sommige expliciet, andere uit de structuur"
+      - "Pedagogische ordening: één meta-beginsel (getrouw beeld) + zeven operationele beginselen. Het meta-beginsel mag de operationele OVERRULEN wanneer strikte toepassing zou afwijken van het getrouw beeld"
+      - "Loop ze één voor één met een mini-voorbeeld per beginsel — niet alleen definiëren maar TOEPASSEN"
+    kinderen:
+
+      - id: getrouw-beeld-meta
+        titel: "Het meta-beginsel — getrouw beeld"
+        niveau: 3
+        beats:
+          - "Definitie + bron: art. 3:1 WVV — de jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat"
+          - "Praktische werking: indien een strikte regel-toepassing UITZONDERLIJK geen getrouw beeld geeft, moet ervan worden afgeweken EN moet de afwijking gemotiveerd in toelichting (art. 3:6 §1 KB-WVV)"
+          - "Voorbeeld: een schema-rubriek voorziet geen aparte lijn voor een materieel belang-post. Strikte toepassing zou de cijfers verbergen. Getrouw beeld → aparte lijn invoegen (override-clausule)"
+          - "Synthese (vetgedrukt): getrouw beeld = uitvoering van de andere zeven beginselen, maar mag ze OVERRULEN wanneer de uitzonderlijke situatie de norm in strijd brengt met zijn doel. Zelden gebruikt — wel cruciaal."
+
+      - id: zeven-operationele-beginselen
+        titel: "De zeven operationele beginselen"
+        niveau: 3
+        beats:
+          - "Loop de zeven af met een tabel: naam · kern-regel · concreet voorbeeld in Bourdon-context"
+          - "Voor elk beginsel: geen academische definitie, wel een BOEKING-OF-WAARDERING-KEUZE die het beslecht"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Beginsel", "Kern-regel", "Voorbeeld bij Bourdon"]
+            rijen:
+              - ["**Voorzichtigheid**", "Asymmetrische waardering: latente verliezen + risico's onmiddellijk boeken; latente winsten NIET vóór realisatie", "Bourdon's vordering op een laat-betalende klant: zodra inning twijfelachtig → waardevermindering boeken. Toekomstige rentewinst op overschot-liquiditeit: NIET vooraf boeken."]
+              - ["**Continuïteit** (going concern)", "Waardering veronderstelt voortzetting van het bedrijf. Indien discontinuïteit → waardering op vermoedelijke realisatiewaarde", "Bourdon's machines worden afgeschreven over economische gebruiksduur (10 jaar) — DOOR DE VERONDERSTELLING dat het bedrijf voortbestaat. Bij stopzettings-beslissing: switchen naar liquidatiewaarde."]
+              - ["**Bestendigheid** (consistentie)", "Waarderingsregels van jaar tot jaar gelijk houden. Wijziging mag, maar enkel met gegronde reden + verantwoording in toelichting", "Bourdon mag NIET willekeurig afschrijvingspercentage wijzigen om winst te sturen. Zie afschrijving-mini-case verderop — onderscheid wijziging-regel vs schatting-wijziging"]
+              - ["**Matching** (kosten ↔ opbrengsten)", "Kosten worden toegerekend aan het boekjaar waarin de overeenkomstige opbrengsten worden erkend", "Bourdon levert een project dat 18 maanden duurt: opbrengsten + kosten worden over twee boekjaren gespreid (overlopende rekeningen of percentage-of-completion)"]
+              - ["**Realisatie**", "Opbrengsten worden erkend WANNEER ze gerealiseerd zijn (gefactureerd + levering of risico-overdracht), niet op contract-datum", "Bourdon's verkoopcontract van december-N met levering februari-N+1: omzet in N+1, niet N"]
+              - ["**Materialiteit**", "Niet alle posten verdienen dezelfde precisie. Onbelangrijke bedragen mogen vereenvoudigd; belangrijke MOETEN apart", "Bourdon's kleine kantoor-bonbon-uitgaven: cumulatief op één lijn 'andere bedrijfskosten'. Sleutel-machine-aankoop: aparte staat van vaste activa."]
+              - ["**Niet-compensatie**", "Activa en passiva NIET tegen elkaar wegstrepen. Schulden en vorderingen op dezelfde tegenpartij blijven bruto in de balans", "Bourdon mag zijn schuld aan leverancier X NIET wegstrepen tegen zijn vordering op X — beide blijven zichtbaar (tenzij netting-overeenkomst bestaat en cumulatief voldoet aan art. 3:33 KB-WVV)"]
+
+  - id: afschrijving-mini-case
+    titel: "Mini-case — bestendigheid bij afschrijving-wijziging"
+    niveau: 2
+    beats:
+      - "Open met de examen-vraag (2013-2): Bourdon wijzigt het afschrijvingspercentage van 10% naar 12,5% wegens snellere technologische veroudering. Is dit een waarderingsregel-wijziging of een schatting-wijziging?"
+      - "Toon de juridische kwalificatie: SCHATTING-WIJZIGING — geen wijziging van de waarderingsregel (lineaire afschrijving over economische gebruiksduur), wel een herinschatting van die gebruiksduur (10 → 8 jaar)"
+      - "Verwerking: PROSPECTIEF — restwaarde wordt vanaf 1-1-N over de nieuwe resterende gebruiksduur afgeschreven. GEEN retroactieve correctie van vorige boekjaren"
+      - "Toelichting verplicht: aard + bedrag-effect van de schatting-wijziging vermelden onder de waarderingsregels (art. 3:6 KB-WVV — verantwoording wijziging). Pedagogische sleutel: de wijziging zelf mag, mits gemotiveerd + getoond"
+      - "Pedagogische scharnier: bestendigheid geldt voor de REGEL (we blijven lineair afschrijven), niet voor de SCHATTING (gebruiksduur mag worden bijgesteld op basis van nieuwe informatie). Wie de twee verwart, redeneert fout."
+      - "Bron: CBN-advies 2019/04 (schatting-wijzigingen + retroactiviteits-vraag) + art. 3:6 KB-WVV"
+      - "Synthese (vetgedrukt): drie types wijziging — REGEL (= waarderingsregel, retroactief — zeldzaam, vereist gegronde reden), SCHATTING (prospectief, gangbaar), CORRECTIE FOUT (retroactief — verplicht via foutcorrectie art. 3:19 WVV). Het juridisch label bepaalt de verwerking."
+
+  - id: bewaarplicht
+    titel: "Bewaarplicht — wat, hoe lang, hoe?"
+    niveau: 2
+    beats:
+      - "Open met de regel: WER art. III.88 + art. 8 KB 21-10-2018 — alle boeken én bewijsstukken bewaren GEDURENDE 7 JAAR, te rekenen van 1 januari van het jaar VOLGENDE op de afsluiting"
+      - "Concretiseer: boekjaar afgesloten 31-12-2025 → boeken bewaren tot 31-12-2032 (7 jaar vanaf 1-1-2026)"
+      - "Wat wordt bewaard: (a) de boeken zelf — algemeen dagboek + hulpdagboeken + grootboek + inventarisboek + (voor vereenvoudigd) financieel/inkoop/verkoop/inventaris · (b) alle BEWIJSSTUKKEN die de boekingen verantwoorden (facturen, bankafschriften, contracten, leveringsbonnen) · (c) elektronische registraties + alle metadata die de boeking traceerbaar maken"
+      - "Vorm: originelen voor de boeken (centralisatieboek, dagboeken, inventarisboek — art. 8 KB 21-10-2018). Voor BTW + fiscale stukken: aparte fiscale bewaartermijnen die KUNNEN AFWIJKEN"
+    kinderen:
+
+      - id: bewaartermijnen-tabel
+        titel: "Bewaartermijnen — overzicht"
+        niveau: 3
+        beats:
+          - "Toon de tabel met de hoofd-bewaartermijnen die accountants tegenkomen"
+          - "Belangrijke nuance: BTW-bewaartermijn is verlengd voor onroerende investeringen (15 jaar voor herziening art. 48 WBTW); fiscale stukken bedrijfsleider-bezoldigingen ook bijzondere termijnen"
+          - "Algemene regel: in twijfel houden tot LANGSTE termijn verstrijkt. Vernietigen kost niets na termijn; eerder vernietigen kost bewijsverlies"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Wat", "Termijn", "Bron"]
+            rijen:
+              - ["Boeken (algemeen + hulpdagboeken + grootboek + inventaris)", "7 jaar vanaf 1-1 jaar volgend op afsluit", "Art. III.88 WER · art. 8 KB 21-10-2018"]
+              - ["Bewijsstukken bij boekingen (facturen, bankafschriften, contracten)", "7 jaar boekhoudkundig + idem fiscaal", "WER + WIB92 art. 315"]
+              - ["BTW-stukken algemeen", "10 jaar", "Art. 60 §1 WBTW"]
+              - ["BTW herzieningstermijn onroerend goed", "15 jaar (sommige cases 5)", "Art. 48 §2 WBTW"]
+              - ["Sociale documenten (loonbrieven, RSZ-aangiften, individuele rekeningen)", "Doorgaans 5 jaar (sociale wetgeving); werkgever-aangiften RSZ 7 jaar", "Sociale wetgeving (afwijkend per type)"]
+              - ["Statuten + AV-notulen + bestuurs-besluiten", "Levensduur vennootschap + 5 jaar na vereffening", "WVV — geen vaste termijn, praktisch onbeperkt"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): bestendigheid + schatting-wijziging door elkaar gooien. Een schatting-wijziging is GEEN inbreuk op bestendigheid — bestendigheid betreft de waarderingsregel zelf, niet de gebruiksduur-inschatting. Wie de twee verwart, herrekent ten onrechte retroactief én verstoort vorige boekjaren. Concretisering: Bourdon's 10→12,5% wijziging is een schatting-wijziging — prospectieve verwerking, niet retroactieve correctie."
+      - "Valkuil 2 (⚠️): centralisatie-frequentie te laks. KB 21-10-2018 art. 4 §1 eist MINSTENS MAANDELIJKSE centralisatie van hulpdagboeken naar algemeen dagboek + grootboek. Een onderneming die enkel eindejaars-aanpassingen doet zonder maandelijkse boeking, schendt de boekhoudplicht — riskeert verwerping van de boekhouding als bewijs (fiscaal én civielrechtelijk)."
+      - "Valkuil 3 (⚠️): bewaartermijn dubbel-interpreteren. De 7-jaars-termijn begint op 1 januari van het jaar VOLGEND op de afsluit, niet op de afsluit zelf. Voor boekjaar 2025 (afgesloten 31-12-2025): bewaring tot 31-12-2032 (7 jaar vanaf 1-1-2026). Wie vroeger vernietigt, vernietigt nog binnen-termijn-stukken. Bij twijfel: aanvangsdatum is altijd 1 januari volgend jaar."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-belgisch-boekhoudrecht
+      hint: "Eerder leerstuk — het bronnen-veld waaruit alle regels hierboven afkomstig zijn."
+    - slug: vennootschap-grootte-en-schema-keuze
+      hint: "Volgend leerstuk — wat verandert er als jouw boekhoudpijler in een groot-regime kantelt (jaarverslag, commissaris, volledig schema)."
+    - slug: jaarrekening-publiceren-en-sancties
+      hint: "Hoe de beginselen-werking doorwerkt in de toelichting + sancties bij niet-naleving van de bewaarplicht of foutieve neerlegging."
+    - slug: individuele-jaarrekening-opmaken
+      hint: "Cross-PO — de TECHNIEK van eindejaarsverrichtingen + resultaatbestemming (afschrijvingen, voorzieningen, overlopende rekeningen). PO 1.4 leerstuk."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — boekhoudplicht-beslisboom + drie regimes vereenvoudigd/dubbel/groot + 8 beginselen + bewaartermijn-tabel."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [boekhoudplicht, boekhouding, dubbele-boekhouding]
+    - concepten: [boekhoudbeginselen, continuiteit, eindejaarsverrichtingen]
+    - concepten: [voorzieningen, voorraden]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Boekhoudplichtige onderneming — definitie"
+    ref: "WER art. III.82 + art. I.1"
+    noot: "Sinds Wet 15-04-2018 (in werking 1-11-2018): vrije beroepen vallen er ook onder. Uitzonderingen: bestuurders-natuurlijke-personen voor mandaat, zuivere land- en tuinbouw, politieke partijen, sport-/hobby-inkomsten zonder beroepskarakter."
+  - onderwerp: "Inhoud boekhouding — wat moet erin?"
+    ref: "WER art. III.83"
+    noot: "Alle verrichtingen, bezittingen, rechten van welke aard ook, vorderingen, schulden en verplichtingen. Voor natuurlijke persoon: enkel beroeps-deel; private vermogen apart."
+  - onderwerp: "Dubbele boekhouding — hoofdregel"
+    ref: "WER art. III.84"
+    noot: "Stelsel van boeken en rekeningen + gebruikelijke regels dubbel boekhouden. Verrichtingen zonder uitstel, getrouw, volledig en naar tijdsorde ingeschreven."
+  - onderwerp: "Vereenvoudigde boekhouding — uitzondering"
+    ref: "WER art. III.85 §1 — drempel via KB 21-10-2018"
+    noot: "Drempel art. 1 KB 21-10-2018: 500.000 EUR omzet excl. btw (verhoogd tot 620.000 EUR voor bepaalde brandstofverkoop). Toepasbaar op natuurlijke persoon, maatschap, VOF, CommV onder de drempel. Vereenvoudigd vzw: aparte cascade — zie [[vennootschap-grootte-en-schema-keuze]]."
+  - onderwerp: "Vereiste dagboeken bij vereenvoudigd"
+    ref: "WER art. III.85 §1 lid 1"
+    noot: "Drie dagboeken: financieel + inkoop + verkoop. Plus inventarisboek (art. III.89). Geen MAR, geen grootboek."
+  - onderwerp: "Centralisatieboek — minstens maandelijks"
+    ref: "Art. 4 §1 KB 21-10-2018"
+    noot: "Hulpdagboeken worden minstens maandelijks gecentraliseerd in het algemeen dagboek + grootboek. Examen-vraag 2003-bibf."
+  - onderwerp: "Tijdsorde + onveranderlijkheid"
+    ref: "WER art. III.86 + art. III.88"
+    noot: "Boeken naar tijdsorde, zonder wit vak of weglating. Correctie zichtbaar (oorspronkelijke tekst leesbaar). Onveranderlijkheid garandeert bewijs-waarde."
+  - onderwerp: "Jaarlijkse inventaris"
+    ref: "WER art. III.89"
+    noot: "Eens per jaar inventaris van bezittingen + vorderingen + schulden — basis voor de jaarrekening (dubbel) of de vermogensstaat (vereenvoudigd)."
+  - onderwerp: "Bewaarplicht boeken + bewijsstukken — 7 jaar"
+    ref: "WER art. III.88 + art. 8 KB 21-10-2018"
+    noot: "7 jaar vanaf 1 januari van het jaar VOLGEND op de afsluiting. Originelen voor dagboeken + centralisatieboek + inventarisboek. Voor andere boeken: origineel of afschrift toegelaten."
+  - onderwerp: "Bijzondere BTW-bewaartermijn"
+    ref: "Art. 60 §1 WBTW (algemeen 10 jaar) + art. 48 §2 WBTW (15 jaar herziening onroerend)"
+    noot: "BTW-stukken kunnen langer moeten bewaard worden dan boekhoudkundig — toegelaten regel: langste termijn aanhouden."
+  - onderwerp: "Trouw beeld + getrouwheids-vereiste"
+    ref: "WVV art. 3:1 + KB-WVV art. 3:6 §1"
+    noot: "Getrouw beeld als meta-norm. Override van strikte regel mogelijk, MET motivering in toelichting."
+  - onderwerp: "Acht boekhoudbeginselen"
+    ref: "KB-WVV art. 3:6 — 3:32 (waardering) + KB-WVV art. 3:23 (voorzieningen — voorzichtigheid)"
+    noot: "Trouw beeld · voorzichtigheid · continuïteit · bestendigheid · matching · realisatie · materialiteit · niet-compensatie."
+  - onderwerp: "Schatting-wijziging vs waarderingsregel-wijziging"
+    ref: "CBN-advies 2019/04 + KB-WVV art. 3:6"
+    noot: "Schatting-wijziging = prospectief; waarderingsregel-wijziging = retroactief (zeldzaam). Onderscheid is examen-favoriet (vraag 2013-2)."
+  - onderwerp: "Correctie van fout in neergelegde jaarrekening"
+    ref: "WVV art. 3:19"
+    noot: "Materiële fouten + dwaling in rechte of feite. Correctie ter goedkeuring AV (behalve loutere materiële fouten van bestuursorgaan)."
+
+footer: "Leerstuk PO 1.2 — werkpaard. Status: voorgesteld volgens ADR-037."

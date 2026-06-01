@@ -1,0 +1,423 @@
+# Bourdon BV — Vermeer NV — voorbeeldgroep voor PO 1.2 (boekhoudrecht + jaarrekeningenrecht)
+#
+# Dunne bindcase, geen Aurelia-achtige doorlopende mock-financials. PO 1.2 is
+# een juridisch kader-vak; de leerstof bestaat uit regels en scharniers, niet
+# uit één doorgewerkte balans. De bindcase is een GALERIJ van mini-personages
+# die elk een scharnier illustreren.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-belgisch-boekhoudrecht.yaml (incidenteel — bronnen tonen via Bourdon-context)
+#   - data/leerstukken/wie-moet-boekhouden-en-hoe.yaml (Jan De Smet = vereenvoudigd/dubbel scharnier; Bourdon = dubbele standaard)
+#   - data/leerstukken/vennootschap-grootte-en-schema-keuze.yaml (Bourdon + Vermeer = kantelpunt; Buurthuis Linde = VZW-regime)
+#   - data/leerstukken/jaarrekening-publiceren-en-sancties.yaml (Bourdon = niet-neerlegging-case + bestuurdersvermelding + sociale balans + afschrijving-wijziging)
+#   - data/oefeningen/bourdon-grootte-en-publicatie.yaml (oefening — kern)
+#
+# Consistentie-toets:
+#   - Drempel-cijfers (€ 9 000 000 omzet, € 4 500 000 balans, 50 FTE voor klein;
+#     € 700 000 omzet, € 350 000 balans, 10 FTE voor micro) komen uit art. 1:24-25
+#     WVV — in scripts-fase via MCP `certificaid-tarieven` of MCP `zoek_bronnen`
+#     bevestigen. Mock-cijfers Bourdon zijn boven of onder die drempels gekozen.
+#   - VZW-drempels (art. 3:47 WVV-VZW) zijn lager — apart te bevestigen.
+#   - Tariefbijdrage-bedragen voor laattijdige neerlegging KB 27-09-2009 — bevestigen.
+
+naam: bourdon-vermeer
+beschrijving: >
+  Dunne bindcase voor PO 1.2 — Boekhoudrecht en jaarrekeningenrecht. Vier
+  personages die elk een scharnier van het wettelijke kader illustreren:
+  Bourdon BV (kantelpunt klein → groot, met dochter-status van Vermeer),
+  Vermeer NV (moedervennootschap die geconsolideerd getoetst wordt), Jan De
+  Smet (zelfstandig architect — vereenvoudigde vs dubbele boekhouding), en
+  Buurthuis Linde VZW (groottecategorieën onder WVV-VZW). De personages
+  worden NIET door één doorlopende balans verbonden — wel door de
+  scharnierregels die elk apart bevragen.
+
+context_jaartal: "2026"
+fiscaal_boekjaar_referentie: "kalenderjaar 2025 (afgesloten 31-12-2025)"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Bourdon BV (kantelpunt klein → groot, dochter van Vermeer)
+# ---------------------------------------------------------------------------
+
+bourdon_bv:
+
+  basisgegevens:
+    naam: "Bourdon BV"
+    rechtsvorm: "BV (besloten vennootschap)"
+    zetel: "Mechelen"
+    activiteit: "engineering-bureau industriële automatisering"
+    boekjaar: "kalenderjaar (1-1 t/m 31-12)"
+    opgericht: 2014
+    zaakvoerder: "Karel Bourdon (60 % aandelen indirect via Vermeer NV)"
+    bestuursorgaan: "raad van bestuur — Karel Bourdon + Sophie Aerts + Marc Vermeer"
+    aandeelhouder_groep: "Vermeer NV bezit 60 % stemrechten → exclusieve controle"
+
+  groottecijfers_twee_boekjaren:
+    # Cijfers gekozen om kantelpunt klein → groot over twee opeenvolgende
+    # jaren te illustreren. Drempels gelden cumulatief (twee jaar in rij +
+    # meer dan één drempel overschreden) — bron: art. 1:24-25 WVV.
+    boekjaar_n_min_1:
+      omzet_excl_btw: "€ 8.400.000"
+      balanstotaal: "€ 4.200.000"
+      gemiddeld_personeelsbestand_fte: 46
+      observatie: "Geen enkele drempel overschreden — klein in N-1."
+    boekjaar_n:
+      omzet_excl_btw: "€ 9.600.000"
+      balanstotaal: "€ 4.800.000"
+      gemiddeld_personeelsbestand_fte: 52
+      observatie: "Drie drempels overschreden. Eerste jaar — geen kanteling nog."
+    boekjaar_n_plus_1_prognose:
+      omzet_excl_btw: "€ 10.200.000"
+      balanstotaal: "€ 5.100.000"
+      gemiddeld_personeelsbestand_fte: 55
+      observatie: "Tweede jaar in rij meer dan één drempel — kantelt naar GROOT vanaf het boekjaar N+1."
+    drempel_referentie:
+      klein_max: "balans ≤ € 4.500.000 · omzet ≤ € 9.000.000 · FTE ≤ 50 — art. 1:24 §1 WVV (mogelijk inmiddels geïndexeerd — Cijferzakboekje raadplegen)"
+      micro_max: "balans ≤ € 350.000 · omzet ≤ € 700.000 · FTE ≤ 10 — art. 1:25 §1 WVV"
+    aandachtspunt:
+      dochter_uitsluiting: "Bourdon is dochter van Vermeer (60 %). Per art. 1:25 §1 WVV kan een dochter NOOIT micro zijn — irrelevant hier (zit boven micro-drempels), wel cumulatieve test."
+      moeder_toets: "Vermeer (moeder) wordt op GECONSOLIDEERDE basis getoetst — niet enkelvoudig (art. 1:24 §6 WVV)."
+
+  scenario_jaarrekening_publicatie:
+    boekjaar_n:
+      afsluitdatum: "31-12-N"
+      algemene_vergadering: "vrijdag 23-05-N+1 (binnen 6 mnd na afsluit — art. 3:1 WVV)"
+      neerlegging_nbb_uiterlijk: "30 dagen na AV én max 7 mnd na afsluit = 31-07-N+1"
+      historiek_n_min_2: "neergelegd 14-07-N-1 — tijdig"
+      historiek_n_min_1: "neergelegd 02-09-N — LAAT (37 dagen over deadline) — sanctie-keten al gestart"
+
+  sanctie_keten_bij_laattijdig:
+    tariefbijdrage:
+      omschrijving: "vast bedrag bij neerlegging na 30 dagen na AV (of 7 maanden na afsluit) — progressief verhoogd voor grote vennootschappen"
+      bron: "art. 3:13 KB-WVV juncto KB 27-09-2009 — bedragen ⚠️ te bevestigen via Cijferzakboekje"
+    bestuurdersaansprakelijkheid:
+      omschrijving: "art. 3:43 §3 WVV: schade door derden geleden door niet-neerlegging wordt vermoed te zijn veroorzaakt door dit verzuim — omkering bewijslast"
+    gerechtelijke_ontbinding:
+      omschrijving: "art. 2:74 WVV: indien jaarrekening 3 boekjaren niet neergelegd, kan ondernemingsrechtbank op vordering belanghebbende of OM de ontbinding uitspreken"
+
+  bestuurdersvermelding_eerste_bladzijde:
+    # Per art. 3:5 WVV staat op eerste blad jaarrekening + tussenkomsten
+    # bestuurders/zaakvoerders + (bij groot) commissaris.
+    verplichte_velden:
+      - "Naam en voornaam van elke bestuurder / zaakvoerder + adres"
+      - "(Voor groot) Commissaris + lidmaatschap IBR"
+      - "Datum van het mandaat (begin + einde)"
+      - "Datum AV die jaarrekening heeft goedgekeurd"
+    bourdon_concrete_invulling:
+      bestuurders:
+        - "Karel Bourdon (zaakvoerder/CEO), mandaat 2020 → 2026"
+        - "Sophie Aerts (bestuurder), mandaat 2022 → 2027"
+        - "Marc Vermeer (bestuurder, namens Vermeer NV), mandaat 2024 → 2029"
+      commissaris_status_n: "Geen commissaris (klein in N) — wordt verplicht vanaf kanteling N+1 → art. 3:72 WVV"
+
+  afschrijving_wijziging_mini_case:
+    # Klassieker — vraag 2013-2 examenpatroon
+    feiten: >
+      Bourdon BV heeft sinds oprichting machines afgeschreven aan 10 % lineair
+      (10 jaar levensduur). Per 1-1-N besluit het bestuursorgaan voor nieuwe
+      machines over te stappen op 12,5 % (8 jaar) wegens snellere technologische
+      veroudering.
+    juridische_kwalificatie:
+      type: "schattings-wijziging (geen schatting-fout, geen wijziging waarderingsregel)"
+      basis: "CBN-advies 2019/04 + art. 3:6 KB-WVV (bestendigheidsbeginsel) + IAS 8 voor IFRS-pendant"
+      verwerking: "prospectief — afschrijvingsplan vanaf 1-1-N aangepast, geen retroactieve correctie"
+    toelichting_verplicht:
+      omvang_aanpassing: "vermeld in toelichting bij waarderingsregels + ZONODIG bij staat van vaste activa"
+      motivering: "technologische veroudering documenteren"
+    valkuil:
+      onjuist: "Wijziging waarderingsregel ⇒ retroactief herrekenen vanaf oprichting"
+      correct: "Schatting-wijziging ⇒ prospectief — bestendigheid geldt voor de regel, niet voor de schatting"
+
+  sociale_balans_fragment:
+    # Sociale balans is verplichte bijlage zodra personeel aanwezig.
+    # Verkort schema voor klein, volledig voor groot. Bourdon = klein in N.
+    schema_n: "verkort sociale balans — art. 3:24 KB-WVV"
+    opleidingskost_n: "€ 18.500 (formele opleidingen — interne + externe)"
+    opleidingskost_bestanddelen:
+      - "Direct kost: factuur opleidingsverstrekkers + inschrijvingsgelden"
+      - "Indirect kost (alleen volledig schema): personeelskost werknemers in opleiding tijdens werkuren — niet verplicht in verkort"
+      - "Reis- en verblijfskosten verbonden aan opleiding"
+    gemiddeld_personeelsbestand_fte: 52
+    opmerkingen_examen: "Vraag 2008-bibf — welke bestanddelen tellen mee voor opleidingskost? Antwoord hangt af van verkort (alleen direct) vs volledig (direct + indirect)."
+
+# ---------------------------------------------------------------------------
+# DEEL B — Vermeer NV (moedervennootschap)
+# ---------------------------------------------------------------------------
+
+vermeer_nv:
+
+  basisgegevens:
+    naam: "Vermeer NV"
+    rechtsvorm: "NV"
+    zetel: "Antwerpen"
+    activiteit: "holding + dienstverlening engineering"
+    aandeelhouder_structuur: "Familie Vermeer (4 leden) — 100 %"
+    dochters:
+      - "Bourdon BV (60 %) — exclusieve controle → integrale consolidatie"
+      - "Vermeer Services SRL (Luik, 100 %) — kleine dochter"
+
+  groottetoetsing_geconsolideerd:
+    # Art. 1:24 §6 WVV: een moedervennootschap wordt op geconsolideerde
+    # basis getoetst (niet enkelvoudig).
+    aggregatie_vs_consolidatie:
+      onjuist: "Aggregatie = simpele optelling van enkelvoudige cijfers (kan dubbele tellingen + intra-groep cijfers bevatten)"
+      correct: "Voor moeder-grootte-toets mag aggregatie + 20 %-methode (CBN 2017/10) of volledige consolidatie"
+      cbn_advies: "CBN 2017/10 + 2022/03 — geaggregeerde grootte voor groep + 20 %-correctie"
+    cijfers_geconsolideerd_n:
+      omzet_excl_btw_geconsolideerd: "€ 14.800.000 (gecombineerd Vermeer + Bourdon + Vermeer Services, na eliminatie intra-groep)"
+      balanstotaal_geconsolideerd: "€ 8.200.000"
+      gemiddeld_personeelsbestand_fte: 78
+      conclusie: "Vermeer = GROOT op geconsolideerde basis. Verplicht volledig schema + jaarverslag + commissaris."
+    waar_dochter_bourdon_zit:
+      omschrijving: "Bourdon wordt enkelvoudig getoetst voor zijn eigen schema-keuze (klein in N, kantelt naar groot vanaf N+1) — moeder-status van Vermeer verandert dat niet."
+      art_uitsluiting: "Dochter kan nooit MICRO zijn (art. 1:25 §1 WVV) — niet relevant hier, Bourdon zit ver boven micro."
+
+# ---------------------------------------------------------------------------
+# DEEL C — Jan De Smet (zelfstandig architect — natuurlijke persoon)
+# ---------------------------------------------------------------------------
+
+jan_de_smet:
+
+  basisgegevens:
+    naam: "Jan De Smet"
+    activiteit: "zelfstandig architect, eenmanszaak (geen vennootschap)"
+    leeftijd: 48
+    woonplaats: "Gent"
+    inschrijving_kbo: "ja, ondernemingsnummer aanwezig"
+    btw_plichtig: "ja"
+    werknemers: "geen — alleen werkend"
+
+  scenario_omzet:
+    # Scharnier voor vereenvoudigd vs dubbel — drempel art. III.85 WER
+    # € 500 000 (€ 620 000 voor brandstofverkoop — n.v.t. voor architect).
+    boekjaar_n_min_1: "omzet € 380.000 — onder drempel → mag VEREENVOUDIGDE boekhouding"
+    boekjaar_n: "omzet € 540.000 — boven drempel → kantelt naar DUBBELE boekhouding"
+    cumulatieve_test: "WER stelt geen 'twee opeenvolgende boekjaren'-vereiste zoals WVV voor grootte — overschrijding in één boekjaar volstaat om vanaf volgend boekjaar dubbele boekhouding verplicht te zijn (art. III.85 §1 WER)"
+    bron: "art. III.85 WER + KB 12-09-1983 (vereenvoudigde boekhouding) — ⚠️ bedrag actueel bevestigen"
+
+  vereenvoudigde_boekhouding_inhoud:
+    # Vraag 2003-bibf — wat moet een vereenvoudigde boekhouding bevatten?
+    verplichte_dagboeken:
+      - "Financieel dagboek (kas + bank — chronologisch + uniek nummer per inschrijving)"
+      - "Inkoopdagboek (alle aankoop-stukken)"
+      - "Verkoopdagboek (alle verkoop-stukken)"
+      - "Inventarisboek (jaarlijkse inventaris activa + passiva — vermogensstaat)"
+    geen_dubbele_partij: "Geen grootboek-rekening, geen proefbalans, geen MAR — daarom 'vereenvoudigd'"
+    jaarrekening_nbb: "Geen verplichting tot neerlegging bij NBB (alleen vennootschappen)"
+
+  vergelijking_dubbele_boekhouding:
+    verplichte_boeken:
+      - "Algemeen dagboek (geconcentreerd of via hulpdagboeken)"
+      - "Hulpdagboeken (inkoop, verkoop, financieel, diversen)"
+      - "Grootboek (MAR-rekeningen)"
+      - "Inventarisboek"
+      - "Centralisatieboek — minstens MAANDELIJKS (vraag 2003-bibf) art. III.85 §1 vierde lid WER + art. 5 KB 21-10-2018"
+    centralisatieboek_detail:
+      inhoud: "samenvatting van hulpdagboeken in MAR-rekeningen"
+      frequentie: "minstens maandelijks — periodieke overdracht naar algemeen dagboek + grootboek"
+      bron: "art. 5 KB 21-10-2018"
+
+# ---------------------------------------------------------------------------
+# DEEL D — Buurthuis Linde VZW (vereniging — eigen regime)
+# ---------------------------------------------------------------------------
+
+buurthuis_linde_vzw:
+
+  basisgegevens:
+    naam: "Buurthuis Linde VZW"
+    activiteit: "buurtwerk, sociale activiteiten + jeugdkampen"
+    zetel: "Hasselt"
+    opgericht: 2008
+    statuten_in_kbo: ja
+    bestuursorgaan: "raad van bestuur (7 leden)"
+    werknemers_fte: 4
+    vrijwilligers: "ca. 30 actief, niet in FTE"
+
+  groottecijfers:
+    # WVV-VZW art. 3:47 — andere drempels dan vennootschappen
+    boekjaar_n:
+      ontvangsten: "€ 480.000"
+      balanstotaal: "€ 220.000"
+      gemiddeld_personeelsbestand_fte: 4
+    drempel_referentie:
+      kleine_vzw_max: "ontvangsten ≤ € 334.500 · balans ≤ € 1.337.000 · gem. FTE ≤ 50 — art. 3:47 §2 WVV-VZW (⚠️ bedragen actueel bevestigen, geïndexeerd)"
+      micro_vzw: "geen aparte micro-categorie in WVV-VZW (anders dan vennootschap)"
+    conclusie: "Buurthuis Linde overschrijdt de ontvangsten-drempel → GROTE VZW vanaf boekjaar N+1 indien tweede jaar in rij. Dat betekent: dubbele boekhouding + volledig schema + commissaris vanaf bepaalde drempels."
+
+  schema_keuze:
+    huidig: "Vereenvoudigde boekhouding-vereniging (KB 26-06-2003) — toegelaten voor kleine VZW"
+    vanaf_kanteling: "Dubbele boekhouding + jaarrekening volgens VZW-schema (volledig of verkort) — neerlegging bij griffie ondernemingsrechtbank (niet NBB voor sommige VZW's tenzij art. 3:48 §1 WVV-VZW van toepassing)"
+    neerlegging_locatie: "Voor grote VZW: NBB (art. 3:48 WVV-VZW). Voor kleine: griffie ondernemingsrechtbank."
+
+# ---------------------------------------------------------------------------
+# Vergelijkings-tabellen — herbruikbaar voor leerstukken en samenvatting
+# ---------------------------------------------------------------------------
+
+vergelijkings_tabellen:
+
+  vereenvoudigd_vs_dubbel:
+    aspect:
+      - "Wettelijke basis | art. III.85 WER + KB 12-09-1983 | art. III.82-95 WER + KB 21-10-2018"
+      - "Toepassing | natuurlijke persoon onder omzet-drempel | alle vennootschappen + grote zelfstandigen"
+      - "Boeken | financieel + inkopen + verkopen + inventaris | algemeen dagboek + hulpdagboeken + grootboek + inventaris + centralisatieboek"
+      - "MAR | nee | ja"
+      - "Jaarrekening NBB | nee | ja (volgens grootte-schema)"
+      - "Centralisatie | n.v.t. | minstens maandelijks"
+
+  schema_drieluik:
+    aspect:
+      # Drempels worden bevestigd via Cijferzakboekje
+      - "Wie | grote vennootschap | kleine vennootschap | microvennootschap"
+      - "Balans | volledige rubrieken | samengevoegde posten | sterk vereenvoudigd"
+      - "Resultatenrekening | volledig (RR1+RR2) | verkort | sterk verkort"
+      - "Toelichting | volledig | beperkt | minimaal"
+      - "Sociale balans | volledig schema | verkort schema | verkort schema"
+      - "Jaarverslag | verplicht (art. 3:6) | vrijgesteld (art. 3:4) | vrijgesteld"
+      - "Commissaris | verplicht (art. 3:72) | vrijgesteld behalve groep | vrijgesteld"
+
+  bronnenhierarchie:
+    laag_bron_karakter:
+      - "1. EU-recht | Richtlijn 2013/34/EU (jaarrekening) · Verordening 1606/2002 (IAS/IFRS) · Richtlijn 2018/1673 (witwas) | bindend kader; verordening rechtstreeks, richtlijn via omzetting"
+      - "2. Grondwet | art. 170 §1 + bevoegdheidsverdeling | constitutionele basis"
+      - "3. Wet | WER Boek III (boekhouding) + WVV (vennootschaps- en jaarrekening) | federaal · bindend"
+      - "4. KB | KB 21-10-2018 (dubbele boekh.) + KB 29-04-2019 (WVV-uitvoering — schema's, waardering, MAR) | bindend"
+      - "5. Norm | ITAA-normen + NBB-circulaires + IBR-normen | bindend voor het beroep"
+      - "6. Advies | CBN-adviezen (CBN 2017/10, 2019/04, 2020/09, 2022/03, ...) | gezaghebbend, niet bindend"
+      - "7. Doctrine | rechtspraak + commentaren | interpretatief"
+
+  groottetoetsing_drie_paden:
+    pad_aspect:
+      - "Solo-vennootschap | art. 1:24 §1 WVV | drempels enkelvoudig over 2 jaar"
+      - "Moedervennootschap | art. 1:24 §6 WVV | drempels GECONSOLIDEERD (aggregatie + 20 % CBN 2017/10/2022/03 of volledige consolidatie)"
+      - "Dochter | art. 1:25 §2 WVV | enkelvoudig — maar NOOIT micro"
+      - "Beursgenoteerd | art. 1:11 WVV | altijd groot, ongeacht drempels"
+      - "Vereniging | art. 3:47 WVV-VZW | andere drempels (lager)"
+
+  sancties_keten_niet_neerlegging:
+    sanctie_grondslag_timing:
+      - "Tariefbijdrage | art. 3:13 KB-WVV + KB 27-09-2009 | bij neerlegging > 30 dagen na AV / > 7 mnd na afsluit; progressief verhoogd"
+      - "Vermoeden schade derden | art. 3:43 §3 WVV | omkering bewijslast — schade vermoed te zijn veroorzaakt door verzuim"
+      - "Bestuurdersaansprakelijkheid | art. 2:56 WVV + art. 3:43 §3 WVV | civielrechtelijk + tucht via beroepsorde"
+      - "Gerechtelijke ontbinding | art. 2:74 WVV | na 3 boekjaren niet-neerlegging — vordering OM of belanghebbende"
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen — herbruikbaar voor leerstukken en samenvatting
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  bronnenhierarchie_piramide:
+    type: flowchart-td
+    code: |
+      EU[EU-recht<br/>Richtlijn 2013/34/EU · Verord. 1606/2002 · Richtlijn 2018/1673]
+      GW[Grondwet<br/>art. 170 §1 · bevoegdheidsverdeling]
+      WET[Federale wet<br/>WER Boek III · WVV]
+      KB[Koninklijk besluit<br/>KB 21-10-2018 · KB 29-04-2019]
+      NORM[Beroepsnormen<br/>ITAA · IBR · NBB-circulaires]
+      ADV[CBN-adviezen<br/>gezaghebbend · niet bindend]
+      DOC[Doctrine + rechtspraak]
+      EU --> GW
+      GW --> WET
+      WET --> KB
+      KB --> NORM
+      NORM --> ADV
+      ADV --> DOC
+
+  boekhoudplicht_beslisboom:
+    type: flowchart-td
+    code: |
+      A[Subject] --> B{Onderneming<br/>art. I.1 WER?}
+      B -->|Nee| Z[Geen boekhoudplicht]
+      B -->|Ja| C{Natuurlijke persoon<br/>of vennootschap?}
+      C -->|Vennootschap| D[Dubbele boekhouding<br/>+ jaarrekening NBB]
+      C -->|Natuurlijke persoon| E{Omzet<br/>≤ ~500k EUR?}
+      E -->|Ja| F[Vereenvoudigd<br/>art. III.85 WER]
+      E -->|Nee| D
+      A -.->|VZW/stichting| G[WVV-VZW art. 1:28<br/>vereenvoudigd of dubbel<br/>volgens grootte-categorie]
+
+  groottecascade:
+    type: flowchart-td
+    code: |
+      START["Drempel-test<br/>2 opeenvolgende boekjaren"]
+      START --> CHK{Meer dan 1 van 3<br/>drempels overschreden?}
+      CHK -->|"≤ micro-drempels<br/>10 FTE · 700k omzet · 350k balans"| MICRO[Micro]
+      CHK -->|"≤ klein-drempels<br/>50 FTE · 9M omzet · 4.5M balans"| KLEIN[Klein]
+      CHK -->|Boven klein-drempels| GROOT[Groot]
+      MICRO --> MS["Schema micro<br/>Minimale toelichting<br/>Geen jaarverslag<br/>Geen commissaris"]
+      KLEIN --> KS["Schema verkort<br/>Geen jaarverslag (3:4)<br/>Geen commissaris solo (3:72)<br/>Beperkte toelichting"]
+      GROOT --> GS["Schema volledig<br/>Jaarverslag verplicht (3:6)<br/>Commissaris verplicht (3:72)<br/>Volledige toelichting + KAM"]
+      GROOT -.->|Beursgenoteerd 1:11| BG[Altijd groot]
+      MICRO -.->|Dochter 1:25 §2| KLEIN
+
+  publicatie_tijdslijn:
+    type: flowchart-lr
+    code: |
+      A[Boekjaar afgesloten<br/>31-12-N] --> B[Opmaak JR<br/>bestuursorgaan<br/>binnen 6 mnd]
+      B --> C[AV goedkeurt<br/>uiterlijk 30-06-N+1]
+      C --> D[Neerlegging NBB<br/>30 dagen na AV<br/>max 7 mnd na afsluit<br/>= 31-07-N+1]
+      D --> E[Openbaarmaking via NBB-portaal<br/>art. 3:10 WVV]
+      D -.->|Na deadline| S[Sanctie-keten<br/>tariefbijdrage → 3:43 → 2:74]
+
+# ---------------------------------------------------------------------------
+# Mini-cases — sub-onderwerpen
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  bourdon_te_laat_neergelegd:
+    feiten: >
+      Bourdon BV heeft jaarrekening N-1 pas op 02-09-N neergelegd (37 dagen
+      over de uiterste datum 31-07-N). Boekjaar N-2 was tijdig. Boekjaar N
+      moet nog opgemaakt worden.
+    vragen:
+      - "Welke tariefbijdrage geldt voor een KLEINE vennootschap?"
+      - "Welke andere sanctie-risico's lopen er bij volgende verzuim(en)?"
+      - "Wanneer wordt de drempel voor art. 2:74 WVV ontbinding overschreden?"
+    modelantwoord_indicatie: >
+      Tariefbijdrage volgens KB 27-09-2009 — voor kleine vennootschap progressief
+      van enkele tientallen tot honderden euro per maand vertraging
+      (⚠️ Cijferzakboekje bij examen). Vermoeden schade derden art. 3:43 §3
+      → omkering bewijslast. Art. 2:74 WVV — 3 OPEENVOLGENDE boekjaren niet
+      neergelegd vereist; één laattijdige niet voldoende. Bestuursaansprakelijkheid
+      onder art. 2:56 + tuchtmaatregelen via ITAA mogelijk.
+
+  jan_de_smet_kantelt_naar_dubbel:
+    feiten: >
+      Jan haalt in boekjaar N voor het eerst een omzet boven € 500.000.
+      Hij vraagt zijn boekhouder of hij vanaf 1-1-N+1 moet overschakelen
+      naar dubbele boekhouding.
+    vragen:
+      - "Mag Jan in boekjaar N nog vereenvoudigd boekhouden?"
+      - "Wanneer kantelt hij?"
+      - "Wat moet hij praktisch doen voor 1-1-N+1?"
+    modelantwoord_indicatie: >
+      Boekjaar N afmaken volgens vereenvoudigd is OK — drempel-overschrijding
+      geldt vanaf VOLGEND boekjaar. Vanaf 1-1-N+1 dubbele boekhouding starten:
+      MAR-rekeningplan opstellen, openingsbalans uit inventaris N afleiden,
+      hulpdagboeken inrichten, centralisatieboek voorzien. Geen retroactieve
+      omzetting van vorige boekjaren vereist.
+
+  buurthuis_linde_groottewissel:
+    feiten: >
+      Buurthuis Linde VZW haalt in N voor het eerst € 480.000 ontvangsten.
+      Drempel grote VZW = € 334.500 ontvangsten + andere criteria.
+    vragen:
+      - "Is Buurthuis Linde nu een grote VZW?"
+      - "Welk regime wordt verplicht?"
+      - "Waar wordt de jaarrekening neergelegd?"
+    modelantwoord_indicatie: >
+      Eén-jaar-overschrijding niet voldoende voor kanteling — twee
+      opeenvolgende boekjaren vereist (art. 3:47 WVV-VZW, ⚠️ bevestigen
+      Cijferzakboekje). Bij effectieve kanteling: dubbele boekhouding +
+      jaarrekening volgens VZW-schema + neerlegging NBB (voor grote VZW,
+      art. 3:48 §1 WVV-VZW) i.p.v. griffie.
+
+# ---------------------------------------------------------------------------
+# Confidence + bron-status
+# ---------------------------------------------------------------------------
+
+confidence_notes:
+  - "Drempels art. 1:24-25 WVV: bevestiging via MCP `certificaid-tarieven` of Cijferzakboekje vereist tijdens scripts/render — geïndexeerde bedragen wisselen."
+  - "WVV-VZW art. 3:47 grootte-drempels: id."
+  - "Tariefbijdrage-bedragen KB 27-09-2009: id."
+  - "CBN-advies-nummers (2017/10, 2019/04, 2020/09, 2022/03): bevestigen via MCP `zoek_bronnen` op CBN-bronnen tijdens render-fase."
+  - "Geen training-only cijfers in renderoutput — markeer ⚠️ bij twijfel."

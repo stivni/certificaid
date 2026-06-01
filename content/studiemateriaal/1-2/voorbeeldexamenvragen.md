@@ -1,7 +1,7 @@
 ---
 title: 1.2 Voorbeeldexamenvragen Boekhoudrecht en jaarrekeningenrecht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.2 (Boekhoudrecht en jaarrekeningenrecht).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "6. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-1-2]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

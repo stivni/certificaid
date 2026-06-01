@@ -1,0 +1,257 @@
+# Leerstuk-script — Wat is Belgisch boekhoudrecht?
+#
+# PO 1.2 leerstuk 1 (entry-fiche). Bouwt het bronnen-veld op: EU-recht +
+# Grondwet + WER Boek III + WVV + uitvoerings-KB's + CBN-adviezen + ITAA-
+# normen + rechtspraak. Zet ook de actoren-galerij neer (CBN, NBB, FSMA,
+# ITAA, IBR, CRB) en hun bindende vs gezaghebbende karakter.
+#
+# Hand-off: dit leerstuk introduceert de bouwstenen die L2-L3-L4 zonder
+# herhaling oproepen. Specifiek:
+#   - WER Boek III + KB 21-10-2018 wordt in L2 verder uitgewerkt (boekhoud-
+#     plicht + dubbele/vereenvoudigde + beginselen + bewaarplicht)
+#   - WVV (1:11, 1:24-25, 1:26, 3:1-3:13) wordt in L3 (grootte) en L4
+#     (jaarrekening + neerlegging) uitgewerkt
+#   - CBN-adviezen worden in L4 opgeroepen wanneer waarderingsregels in
+#     toelichting worden besproken
+#   - Bindend vs gezaghebbend onderscheid is CENTRAAL — examen-vraag
+#     "is CBN-advies bindend?" wordt hier beantwoord, nergens anders
+
+meta:
+  slug: wat-is-belgisch-boekhoudrecht
+  titel: "Wat is Belgisch boekhoudrecht?"
+  po: "1.2"
+  cluster: boekhoudrecht
+  voorbeeldgroep: bourdon-vermeer
+  beschrijving: >
+    Leerstuk PO 1.2 — entry-fiche: het bronnen-veld van het Belgische
+    boekhoud- en jaarrekeningenrecht (EU, Grondwet, WER, WVV, KB's, CBN,
+    ITAA-normen) plus de zes administratieve autoriteiten (CBN, NBB, FSMA,
+    ITAA, IBR, CRB) — wie zegt wat, wie bindt en wie adviseert.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 1.2 en aankondiging dat wikilinks naar concept-fiches en broer-
+    leerstukken doorheen de tekst verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: Belgisch boekhoudrecht = het geheel van regels dat bepaalt WIE moet boekhouden (WER Boek III), HOE (KB 21-10-2018 — dubbele of vereenvoudigde boekhouding) en HOE ZE GERAPPORTEERD WORDT (WVV Boek 3 + KB 29-04-2019 — jaarrekening + neerlegging)."
+    - "De bronnen zitten in een vaste hiërarchie van zes lagen: (1) EU-recht — IAS/IFRS-verordening 1606/2002 + jaarrekeningenrichtlijn 2013/34/EU + antiwitwasrichtlijn 2018/1673 · (2) Grondwet — bevoegdheidsverdeling federaal · (3) federale wet — WER Boek III + WVV · (4) KB — KB 21-10-2018 (boekhoudverplichtingen) + KB 29-04-2019 (uitvoering WVV: schema's, MAR, waardering) · (5) normen — ITAA-deontologie + IBR-controlenormen + NBB-circulaires · (6) advies + doctrine — CBN-adviezen (gezaghebbend, niet bindend) + rechtspraak."
+    - "Zes autoriteiten zorgen voor uitvoering: de **CBN** adviseert · de **NBB** publiceert · de **FSMA** controleert beursgenoteerd · het **ITAA** normeert accountants · het **IBR** normeert bedrijfsrevisoren · de **CRB** speelt mee in de sociale balans. Geen enkele dekt alles — het Belgische systeem is bewust polycentrisch."
+  visualisaties:
+    - type: mermaid
+      ref: bronnenhierarchie_piramide
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Eens je deze bronnen + actoren paraat hebt, is elke volgende vraag in PO 1.2 een toepassing — je weet altijd waar de regel staat en wie hem afdwingt.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: waarom-een-eigen-rechtstak
+    titel: "Waarom een eigen rechtstak boekhoudrecht?"
+    niveau: 2
+    beats:
+      - "Open met de waarom-vraag: boekhouden is een vaktechniek, dus waarom is er apart RECHT nodig? Antwoord: omdat jaarrekening drie functies tegelijk vervult die elk een derde-belang dienen — informatieverstrekking (aandeelhouders, schuldeisers, werknemers), bewijsfunctie (tegen fiscus + bij geschillen), en grondslag-functie voor de vennootschapsbelasting (primauteit boekhouding, WIB92 art. 24)"
+      - "Toon: zonder uniforme regels zou elke onderneming haar cijfers anders presenteren — vergelijken zou onmogelijk zijn, krediet-beoordeling zou speculatief worden, fiscus zou geen aangrijpingspunt hebben"
+      - "Verwijs naar Bourdon-context: wanneer Karel Bourdon krediet aanvraagt bij zijn bank, moeten zijn cijfers op DEZELFDE manier opgesteld zijn als die van zijn concurrent — anders is het cijfer van de bank geen vergelijkingsmateriaal"
+      - "Synthese (vetgedrukt): boekhoudrecht = de SPELREGELS die garanderen dat 'jaarrekening' overal hetzelfde betekent. Een Belgische BV-balans is leesbaar voor wie de WVV-rubricering kent, ongeacht in welke sector ze opereert."
+
+  - id: zes-bronnenlagen
+    titel: "De zes bronnenlagen — hiërarchisch en cumulatief"
+    niveau: 2
+    beats:
+      - "Open met de hiërarchie-stelling: lagere bronnen mogen nooit ingaan tegen hogere — een KB kan geen wet wijzigen, een CBN-advies kan geen KB-regel afschaffen"
+      - "Toon de piramide-mermaid (uit voorbeeldgroep) als visuele kapstok"
+      - "Loop de zes lagen één voor één, telkens met (a) wat de laag regelt, (b) bindend karakter, (c) één concreet voorbeeld"
+      - "Lessons-to-go aan einde sectie: elke claim die je in een advies aan een cliënt maakt, moet je kunnen traceren tot één van deze zes lagen — niet tot 'wat mijn boekhouderscollega zei'"
+    kinderen:
+
+      - id: laag-1-eu
+        titel: "Laag 1 — Europees recht (verordening + richtlijn)"
+        niveau: 3
+        beats:
+          - "Onderscheid eerst verordening (rechtstreeks toepasselijk) vs richtlijn (vereist Belgische omzetting)"
+          - "Verordening 1606/2002 IAS/IFRS: legt aan beursgenoteerde Belgische groepen IFRS op voor hun GECONSOLIDEERDE jaarrekening. Geen omzetting nodig — werkt rechtstreeks. Voor de individuele Belgische jaarrekening blijft B-GAAP de regel (België heeft de optionele uitbreiding niet doorgevoerd)."
+          - "Richtlijn 2013/34/EU: harmoniseert grootte-categorieën (micro/klein/middelgroot/groot) en schema-vereisten. Omgezet in WVV art. 1:24-25 + KB 29-04-2019. De EU bepaalt de drempel-FILOSOFIE; België vult de cijfers in (en mag indexeren)."
+          - "Richtlijn 2018/1673 (antiwitwas): raakt het beroep van accountant indirect — meldplicht ongebruikelijke verrichtingen. Cross-link naar [[planning-en-misbruik]] (PO 2.5) voor de tucht-kant"
+          - "Mini-voorbeeld: een Belgische BV genoteerd op Euronext stelt haar geconsolideerde jaarrekening op volgens IFRS, haar enkelvoudige volgens B-GAAP. Twee parallelle stelsels — beide wettig."
+
+      - id: laag-2-grondwet
+        titel: "Laag 2 — Grondwet (bevoegdheidsverdeling)"
+        niveau: 3
+        beats:
+          - "Korte sectie: de Grondwet bepaalt dat boekhouden + jaarrekening federaal is (Boek-economie-bevoegdheid). Geen gewest- of gemeenschapsregels op dit terrein."
+          - "Praktisch belang: ÉÉN regime voor heel België — geen Vlaamse vs Waalse vs Brusselse boekhoudregels. Dit verschilt fundamenteel van fiscaliteit (waar gewesten wél eigen bevoegdheden hebben — zie [[wat-zijn-regionale-en-lokale-belastingen]] in PO 2.7)"
+          - "Synthese: één vennootschap, één boekhoudregime, één jaarrekeningschema — ongeacht waar de zetel ligt"
+
+      - id: laag-3-federale-wet
+        titel: "Laag 3 — Federale wet (WER Boek III + WVV)"
+        niveau: 3
+        beats:
+          - "Twee wetboeken delen het terrein: WER Boek III regelt het VOEREN van de boekhouding (wie, hoe, dagboeken, bewaarplicht); WVV regelt de JAARREKENING (opmaak, schema, controle, neerlegging) — wordt in [[wie-moet-boekhouden-en-hoe]] en [[jaarrekening-publiceren-en-sancties]] uitgewerkt"
+          - "Toon de werkverdeling als één-zin-grens: 'Tot de saldibalans → WER. Vanaf de saldibalans naar jaarrekening → WVV.'"
+          - "WER Boek III art. III.82-95 + KB 21-10-2018 = boekhoudplicht + dubbele/vereenvoudigde + dagboeken + bewaarplicht"
+          - "WVV Boek 3 + KB 29-04-2019 = jaarrekening-schema's, MAR, waarderingsregels, neerlegging, controle"
+          - "Belangrijke kruisverwijzing: WER art. III.90 verwijst voor de vorm van de jaarrekening uitdrukkelijk naar het WVV — de twee boeken zijn niet concurrenten maar opeenvolgende fasen van hetzelfde proces"
+
+      - id: laag-4-kb
+        titel: "Laag 4 — Koninklijk besluit (uitvoering)"
+        niveau: 3
+        beats:
+          - "KB's geven uitvoering aan een wet — zonder KB kunnen veel wettelijke regels niet werken (bv. WER zegt 'voer dubbele boekhouding' maar het KB 21-10-2018 zegt wélke dagboeken, hoe nummeren, hoe centraliseren)"
+          - "Toon de twee KB's die PO 1.2 stuurt: KB 21-10-2018 (boekhoudverplichtingen — uitvoering art. III.82-95 WER) + KB 29-04-2019 (uitvoering WVV — bijlages met schema's, MAR, waarderingsregels in detail)"
+          - "Beide zijn BINDEND — geen advies-status. Een afwijking van KB-rubricering is een inbreuk op het boekhoudrecht, niet 'een keuze'."
+          - "Praktisch: het MAR-rekeningenstelsel staat in KB 21-10-2018 bijlage 1 (ondernemingen) + bijlage 3 (verenigingen). Wat je in MAR-klasse 28 boekt, is rechtstreeks gelinkt aan KB-tekst — niet aan een 'gewoonte' van de boekhouder"
+
+      - id: laag-5-normen
+        titel: "Laag 5 — Beroepsnormen (ITAA, IBR, NBB)"
+        niveau: 3
+        beats:
+          - "Beroepsnormen binden de BEROEPSBEOEFENAAR, niet rechtstreeks de onderneming"
+          - "ITAA-normen (KB 9-12-2019 deontologische code): bindend voor de gecertificeerd accountant — onafhankelijkheid, vertrouwelijkheid, opleiding"
+          - "IBR-normen (controlenormen ISA-conform): bindend voor de bedrijfsrevisor — bv. ISA 700 (controleverklaring), ISA 240 (fraude)"
+          - "NBB-circulaires: technische uitvoeringsregels voor de NBB-neerlegging (XBRL-formaat, geldige rubrieken, validatie-controles). Bindend voor wie wil neerleggen — een niet-NBB-conforme jaarrekening wordt geweigerd."
+          - "Pedagogisch onderscheid: de onderneming zelf moet WER + WVV naleven; de accountant + commissaris moeten BOVENDIEN de beroepsnormen volgen. Twee aansprakelijkheids-niveaus die kunnen oplopen — civielrechtelijk (jegens de cliënt) én tuchtrechtelijk (jegens het Instituut)"
+
+      - id: laag-6-advies-en-doctrine
+        titel: "Laag 6 — Advies + doctrine (gezaghebbend, niet bindend)"
+        niveau: 3
+        beats:
+          - "Het scharnier-onderscheid van het hele Belgische boekhoudrecht: GEZAGHEBBEND ≠ BINDEND"
+          - "CBN-advies = aanbeveling over hoe een specifieke verrichting boekhoudkundig te verwerken (bv. CBN 2019/04 over schatting-wijzigingen, CBN 2017/10 over geconsolideerde grootte-toetsing)"
+          - "Rechtskracht: NIET bindend in de strikte zin — een onderneming mag afwijken, maar moet dan in de toelichting MOTIVEREN waarom. In de praktijk fungeren CBN-adviezen als de DE FACTO standaard die zowel commissaris als rechter volgen, tenzij de afwijking sluitend is verantwoord"
+          - "Doctrine + rechtspraak: vullen lacunes op, sturen interpretatie. Vaste rechtspraak over bv. continuïteitsbeoordeling wordt meegenomen in de waardering."
+          - "Concretiseer: een accountant die in 2026 een vraag krijgt over waarderingsregels-wijziging zoekt eerst in de WET (WVV) → dan in het KB (KB 29-04-2019) → dan in het CBN-advies. Pas als die drie niveau's stil zijn, opent hij de doctrine."
+          - "Examen-typische vraag (zie examen-radar): 'kan een onderneming een CBN-advies negeren?' — antwoord = JA, mits gemotiveerde afwijking in de toelichting (art. 3:6 §1 KB-WVV — getrouw-beeld-uitzondering)"
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: bronnenhierarchie
+        bron: voorbeeldgroep
+
+  - id: zes-autoriteiten
+    titel: "De zes autoriteiten — wie doet wat?"
+    niveau: 2
+    beats:
+      - "Open met de polycentriciteit-gedachte: geen enkele instelling beheert het hele boekhoudrecht — de verantwoordelijkheid is BEWUST verdeeld over zes spelers met elk een eigen functie. Dat verklaart waarom een accountant in zijn werk met meerdere kanalen tegelijk te maken heeft."
+      - "Toon de zes actoren als een functionele kaart — niet als hiërarchie maar als ARBEIDSVERDELING: normering · publicatie · markttoezicht · beroepsnormering (twee voor accountancy + audit) · sociaal overleg"
+      - "Loop ze in deze volgorde af: CBN → NBB → FSMA → ITAA → IBR → CRB. Per autoriteit: één-zin-rol + één concreet voorbeeld + bindend karakter"
+    kinderen:
+
+      - id: actoren-tabel
+        titel: "Wie doet wat — overzicht"
+        niveau: 3
+        beats:
+          - "Toon de tabel met de zes autoriteiten + hun functie + bindend karakter + concreet voorbeeld in Bourdon-context"
+          - "Belangrijke nuance: CBN geeft ADVIES (niet-bindend); NBB neemt jaarrekening AAN (bindend qua formaat); FSMA SANCTIES (bindend); ITAA + IBR leggen TUCHTSTRAFFEN op (bindend voor beroepsbeoefenaar); CRB adviseert sociaal (niet-bindend, wel input voor onderhandelingen)"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Autoriteit", "Rol", "Bindend?", "Concreet voor Bourdon"]
+            rijen:
+              - ["**CBN** (Commissie voor Boekhoudkundige Normen)", "Adviezen over boekhoudvragen + interpretatie KB-WVV", "Gezaghebbend, niet bindend", "Adviseert hoe de afschrijving-wijziging te verwerken (CBN 2019/04)"]
+              - ["**NBB** (Nationale Bank van België)", "Ontvangt + publiceert neergelegde jaarrekeningen via NBB-portaal", "Bindend qua formaat (XBRL)", "Aanvaardt Bourdon's neerlegging; wijst geweigerde stukken af binnen 8 werkdagen"]
+              - ["**FSMA** (Financial Services and Markets Authority)", "Toezicht op financiële markten + verslaggeving genoteerde vennootschappen", "Bindend (boetes, schorsing)", "Niet van toepassing op Bourdon (niet beursgenoteerd) — wel op Vermeer indien moeder Euronext-noteert"]
+              - ["**ITAA** (Instituut van Belastingadviseurs en Accountants)", "Normering + tucht voor gecertificeerd accountants + belastingadviseurs", "Bindend voor de beroepsbeoefenaar", "Toezicht op de externe accountant van Bourdon; tuchtmaatregel bij ernstig deontologisch verzuim"]
+              - ["**IBR** (Instituut van de Bedrijfsrevisoren)", "Normering + tucht voor wettelijke controle (commissarissen + auditors)", "Bindend voor de beroepsbeoefenaar", "Relevant zodra Bourdon kantelt naar groot — commissaris-mandaat moet aan IBR-normen voldoen"]
+              - ["**CRB** (Centrale Raad voor het Bedrijfsleven)", "Adviesorgaan voor sociaal overleg; rol in sociale-balans-vereisten", "Gezaghebbend in advies", "Sociale balans van Bourdon volgt structuur waarover CRB heeft geadviseerd"]
+
+      - id: cbn-bindend-karakter-uitgewerkt
+        titel: "Een CBN-advies — bindend of niet? Het concrete antwoord"
+        niveau: 3
+        beats:
+          - "Examen-favoriet: 'mag een onderneming een CBN-advies naast zich neerleggen?' — antwoord vereist nuance"
+          - "De wet (WVV art. 3:1 + KB-WVV art. 3:6 §1) zegt: de jaarrekening moet een GETROUW BEELD geven. Strikte toepassing van een regel die uitzonderlijk geen getrouw beeld geeft → moet WORDEN AFGEWEKEN, met motivering in toelichting"
+          - "Concreet: een CBN-advies geeft de norm-toepassing voor de typische situatie. Wijkt jouw situatie af? Dan mag je afwijken — maar JE MOET DE AFWIJKING DOCUMENTEREN. In de praktijk: commissarissen, rechters en fiscus volgen het CBN-advies tenzij sluitend is uitgelegd waarom hier anders."
+          - "Mini-voorbeeld: een onderneming wil een actiefpost waarderen op een manier die niet in de CBN-praktijk past. Mag — mits in toelichting gemotiveerd dat de standaard-CBN-aanpak hier het getrouw beeld zou verstoren. Risico: commissaris weigert handtekening als motivatie niet sluit"
+          - "Synthese (vetgedrukt): CBN-advies = niet-bindende norm met DE FACTO bindende werking via getrouw-beeld-vereiste. Negeren mag wettelijk, kost commercieel veel"
+
+  - id: hierarchie-conflict-oplossen
+    titel: "Hiërarchie-conflict — wat als bronnen tegenstrijdig zijn?"
+    niveau: 2
+    beats:
+      - "Praktische vraag: wat als WER en WVV elkaar tegenspreken? Of een KB tegen het CBN-advies ingaat?"
+      - "Hoofdregel: hogere bron wint. WER + WVV staan op dezelfde wettelijke laag — daar geldt lex specialis (specifiek wint van algemeen) en lex posterior (latere wint van oudere). KB onder wet, advies onder KB."
+      - "Concreet voorbeeld: WER art. III.90 verwijst voor de jaarrekening-vorm naar de regels van het WVV. Dat is geen conflict maar een TRAPLOZE OVERDRACHT — WER eindigt waar WVV begint. Wetgever heeft de grenzen netjes gelegd."
+      - "Concreet conflict-voorbeeld (theoretisch): als de CBN aanbeveelt om een eindejaarsverrichting prospectief te verwerken, maar het KB-WVV expliciet retroactieve verwerking voorschrijft, dan WINT het KB. Het CBN-advies werkt enkel in de marge die de wet + KB openlaten."
+      - "Bij echte twijfel: open primaire bron via [[Wettelijk fundament]] van dit leerstuk. Vertrouw nooit blind op een secundaire samenvatting (handboek, blog, training-set) — verifieer altijd in de wettekst"
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): CBN-advies verwarren met wet. CBN-adviezen zijn niet-bindend, hoe gezaghebbend ook. Wie een advies citeert als 'dat is verplicht' maakt een rechtskwalificatie-fout. Concretisering: een commissaris die schriftelijk verklaart dat een CBN-advies 'wet' is, opent zich voor aansprakelijkheid wanneer een rechter die kwalificatie naast zich neerlegt."
+      - "Valkuil 2 (⚠️): IFRS toepassen op de Belgische individuele jaarrekening. IFRS verplicht in België enkel voor de GECONSOLIDEERDE jaarrekening van beursgenoteerde groepen (Verordening 1606/2002). Voor de individuele jaarrekening (statutair) blijft B-GAAP de regel — zelfs voor de Belgische moedervennootschap van een beursgenoteerde groep. Twee parallel-stelsels. Wie ze door elkaar gooit, levert een onneerlegbare jaarrekening."
+      - "Valkuil 3 (⚠️): de bronnenhiërarchie negeren bij advies. Een claim als 'in mijn ervaring doen we het zo' is geen rechtsbron. Geldig advies aan een cliënt volgt altijd de keten WET → KB → CBN-ADVIES → DOCTRINE — in die volgorde. Wanneer een handboek of training-set een regel claimt, bevestig in de primaire bron vóór je hem doorgeeft."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wie-moet-boekhouden-en-hoe
+      hint: "Wie is boekhoudplichtig + dubbele vs vereenvoudigde boekhouding + de 8 beginselen + bewaarplicht — de WER-kant uitgewerkt."
+    - slug: vennootschap-grootte-en-schema-keuze
+      hint: "Hoe bepaal je grootte (micro/klein/groot) en wat verandert er — moeder, dochter, beursgenoteerd, vereniging. De WVV-kant uitgewerkt."
+    - slug: jaarrekening-publiceren-en-sancties
+      hint: "Wat er in de jaarrekening + bijlagen moet, hoe ze wordt neergelegd en wat de sancties zijn bij niet-naleving."
+    - slug: individuele-jaarrekening-opmaken
+      hint: "Cross-PO — de TECHNIEK van jaarrekening-opmaken (eindejaarsverrichtingen, resultaatbestemming). PO 1.4 leerstuk."
+    - slug: wat-is-jaarrekeninganalyse
+      hint: "Cross-PO — wat er met de jaarrekening gebeurt nadat ze is opgesteld. PO 1.3 leerstuk."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — bronnenhiërarchie + autoriteiten-tabel + bindend/niet-bindend onderscheid bij elkaar."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [belgisch-boekhoudrecht, autoriteiten-boekhoudrecht]
+    - concepten: [boekhouding, boekhoudplicht]
+    - concepten: [jaarrekening, boekhoudbeginselen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "EU IAS/IFRS-verordening (rechtstreeks toepasselijk)"
+    ref: "Verordening (EG) nr. 1606/2002 van 19 juli 2002"
+    noot: "Verplicht IFRS voor geconsolideerde jaarrekening beursgenoteerde Belgische groepen. België heeft de optionele uitbreiding naar enkelvoudige jaarrekening NIET doorgevoerd — daar blijft B-GAAP."
+  - onderwerp: "EU jaarrekeningenrichtlijn (vereist Belgische omzetting)"
+    ref: "Richtlijn 2013/34/EU van 26 juni 2013"
+    noot: "Bron van de grootte-categorieën (micro/klein/middelgroot/groot) — omgezet in WVV art. 1:24-25 en KB 29-04-2019."
+  - onderwerp: "EU antiwitwasrichtlijn — strafrechtelijke kant"
+    ref: "Richtlijn (EU) 2018/1673 van 23 oktober 2018"
+    noot: "Raakt accountancy via meldingsplicht — verdere uitwerking in PO 2.5 (planning + misbruik) + de ITAA-deontologie."
+  - onderwerp: "Federale bevoegdheidsverdeling boekhoudrecht"
+    ref: "Grondwet (federale wetgevende bevoegdheid voor economisch recht)"
+    noot: "Boekhouden + jaarrekening = federaal. Geen gewest- of gemeenschapsregels."
+  - onderwerp: "Boekhoudplicht + dubbele/vereenvoudigde boekhouding"
+    ref: "WER Boek III art. III.82 — III.95"
+    noot: "Art. III.82 (boekhoudplichtige onderneming) · III.83 (omvang boekhouding) · III.84 (dubbele boekhouding) · III.85 (vereenvoudigd of dubbel — keuze + drempels) · III.86-89 (boeken + nummering + tijdsorde) · III.88 (bewaarplicht 7 jaar) · III.89 (inventaris) · III.90 (jaarrekening — verwijst naar WVV)."
+  - onderwerp: "Boekhoudregels — Belgische vennootschappen + verenigingen"
+    ref: "WVV Boek 3 (Wet 23 maart 2019)"
+    noot: "Art. 3:1 (jaarrekening opmaken + AV-goedkeuring binnen 6 mnd) · 3:5 (jaarverslag — groot) · 3:6 (inhoud jaarverslag) · 3:10 (neerlegging NBB) · 3:12 (welke stukken neerleggen) · 3:13 (uitvoeringsregels) · 3:22 (consolidatie — cross-link PO 1.4) · 3:72 (controle door commissaris)."
+  - onderwerp: "Uitvoering WER — boekhoudverplichtingen"
+    ref: "KB van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van ondernemers"
+    noot: "Concretiseert dagboeken, centralisatieboek (art. 4 §1), bewaartermijn boeken (art. 8 — 7 jaar). Bijlage 1 = MAR ondernemingen · bijlage 3 = MAR verenigingen."
+  - onderwerp: "Uitvoering WVV — schema's + waardering"
+    ref: "KB van 29 april 2019 tot uitvoering van het WVV"
+    noot: "Bevat de jaarrekening-schema's (bijlagen 3-4 vennootschappen, 6-7 verenigingen), waarderingsregels (art. 3:6 §1 — getrouw-beeld + afwijking met motivering), toelichtingsinhoud (art. 3:61), MAR uitvoeringsregels."
+  - onderwerp: "ITAA-deontologische code"
+    ref: "KB 9 december 2019 — code van de gecertificeerd accountants en gecertificeerd belastingadviseurs"
+    noot: "Bindt de gecertificeerd accountant — onafhankelijkheid, vertrouwelijkheid, opdrachtenbrief, retentierecht. Tucht via ITAA-instanties."
+  - onderwerp: "CBN-adviezen — gezaghebbend"
+    ref: "Commissie voor Boekhoudkundige Normen (FOD Economie)"
+    noot: "Niet bindend in strikte zin — wel de facto via getrouw-beeld-eis. Klassiekers voor PO 1.2: CBN 2017/10 (consolidatie-grootte) · CBN 2019/04 (schatting-wijziging) · CBN 2019/12 (vereenvoudigde boekhouding vzw) · CBN 2022/03 + 2022/09 (consistentie + grootte-toetsing)."
+
+footer: "Leerstuk PO 1.2 — entry. Status: voorgesteld volgens ADR-037."
