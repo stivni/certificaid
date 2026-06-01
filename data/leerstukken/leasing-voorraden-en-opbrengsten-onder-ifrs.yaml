@@ -1,0 +1,209 @@
+# Leerstuk-script — Leasing, voorraden en opbrengsten onder IFRS (IFRS 16 + IAS 2 + IFRS 15)
+#
+# PO 1.5 leerstuk 4 (vergelijkings-fiche). Bundelt drie IFRS-standaarden
+# waar BE-GAAP en IFRS scherp divergeren omdat ze elk dezelfde rode draad
+# illustreren: substance over form (IFRS 16 lessee on-balance) · realisatie
+# ≠ factuur (IFRS 15 5-stappen) · valuation-conservatisme (IAS 2 LIFO-verbod).
+#
+# Examen 2024-1 vraag 7A (voorraad) en 7D (leasing) toetsen dit leerstuk
+# direct. IFRS 15 nog niet bevraagd; meegenomen wegens kennisselement V.
+#
+# Hand-off: dit leerstuk veronderstelt EU-kader (leerstuk 1) +
+# voorzichtigheidsbeginsel (leerstuk 2) + IAS 16/38 (leerstuk 3) gekend.
+
+meta:
+  slug: leasing-voorraden-en-opbrengsten-onder-ifrs
+  titel: "Leasing, voorraden en opbrengsten onder IFRS — IFRS 16, IAS 2 en IFRS 15"
+  po: "1.5"
+  cluster: ifrs-en-internationale-rapportering
+  voorbeeldgroep: belgavia-bavaria
+  beschrijving: >
+    Leerstuk PO 1.5 — drie IFRS-standaarden waar BE-GAAP en IFRS scherp
+    uiteenlopen: lessee on-balance lease (IFRS 16) · LIFO-verbod (IAS 2) ·
+    5-stappen-revenue (IFRS 15). Behandelt elk met de Belgavia-mini-cases
+    en de drie systeem-keuzes die alle verschillen sturen (doel, basis,
+    vorm vs substantie).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht van PO 1.5.
+    Aankondiging dat dit leerstuk twee directe examen-vragen raakt
+    (voorraadwaarderingsmethoden 7A en leasing 7D op examen 2024-1) en
+    IFRS 15 als nog-niet-bevraagd-maar-wel-in-kennisselement-V meeneemt.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: drie IFRS-standaarden waar BE-GAAP en IFRS scherp uiteenlopen — IFRS 16 dwingt elke lease (boven vrijstellingen) on-balance bij de lessee via een ROU-actief + leaseverplichting (vs BE-GAAP-onderscheid operationeel/financieel) · IAS 2 verbiedt LIFO terwijl BE-GAAP het toelaat · IFRS 15 erkent opbrengsten via 5-stappen-model op overdracht controle (vs BE-GAAP-realisatie bij prestatie/factuurmoment)."
+    - "Eén rode draad onder de drie standaarden: SUBSTANCE OVER FORM. IFRS volgt de economische realiteit waar BE-GAAP nog de juridische vorm of de voorzichtigheid volgt. Lease = financieringsverrichting onder IFRS 16, ook al juridisch huurcontract. Revenue = overdracht controle onder IFRS 15, ook al factuur niet uitgereikt. Voorraad = recente prijs onder IAS 2 (FIFO/GMP), oude prijs onder LIFO economisch onlogisch."
+    - "Drie kernbedragen examen-relevant — niet uit het hoofd, wel kunnen plaatsen: IFRS 16 vrijstellingen: short-term leases ≤ 12 maanden + low-value assets ~5.000 USD nieuwwaarde. IAS 2: drie toegelaten kostprijsformules (specifieke identificatie · FIFO · gewogen gemiddelde). IFRS 15: vijf stappen (contract → prestatieverplichtingen → transactieprijs → toewijzing → erkenning)."
+  visualisaties:
+    - type: tabel-vergelijking
+      ref: vergelijking_per_balanspost
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'In dit leerstuk werk ik elk van de drie standaarden uit met de Belgavia-mini-case + boekingen onder beide stelsels.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-systeemkeuzes
+    titel: "De drie systeem-keuzes die alle verschillen sturen"
+    niveau: 2
+    beats:
+      - "Open met de architectuur: voordat we per standaard gaan kijken, leg vast dat alle BE-GAAP↔IFRS-verschillen variaties zijn op drie systeem-keuzes. Wie deze drie keuzes ziet, voorspelt de verschillen."
+      - "Keuze 1 — doel van de rapportering. BE-GAAP staat in dienst van schuldeisers-bescherming + fiscaliteit (basis voor VenB-aangifte). IFRS staat in dienst van investeerder-informatie (vergelijkbaarheid tussen genoteerde groepen wereldwijd). Gevolg: BE-GAAP demp via voorzichtigheid; IFRS toont volatiliteit."
+      - "Keuze 2 — waarderingsbasis. BE-GAAP gebruikt historische kostprijs als default (zie [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]). IFRS gebruikt fair value waar relevant (financial instruments IFRS 9, investment property IAS 40, share-based payment IFRS 2). Gevolg: IFRS-balans schommelt meer."
+      - "Keuze 3 — vorm vs substantie. BE-GAAP volgt typisch de juridische vorm (huurcontract = off-balance). IFRS volgt de economische substantie (huurcontract dat een actief-financiering is = on-balance, IFRS 16). Gevolg: dezelfde verrichting kan onder BE-GAAP en IFRS fundamenteel anders in de boeken landen."
+      - "Synthese-zin (vetgedrukt): in de drie standaarden die nu volgen herken je alle drie keuzes. IFRS 16 = substance over form. IAS 2 LIFO-verbod = waarderingsbasis (recente kost). IFRS 15 = doel van rapportering (investeerder-relevante prestatie-momenten)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: drie_systeemkeuzes
+        bron: voorbeeldgroep
+
+  - id: ifrs-16-lessee-single-model
+    titel: "IFRS 16 — lessee single model (on-balance verplicht)"
+    niveau: 2
+    beats:
+      - "Open met de pre-2019-situatie: tot eind 2018 onderscheidde IAS 17 financiële vs operationele leases aan lessee-zijde, identiek aan BE-GAAP. Probleem: economisch identieke contracten werden via minieme structuurverschillen buiten de balans gehouden. Beruchte case-studies: luchtvaartmaatschappijen met massale 'operationele' vliegtuigleases off-balance."
+      - "IFRS 16 (van kracht 1.1.2019) reageert: aan lessee-zijde VERDWIJNT het onderscheid operationeel/financieel. Single model. Elke lease (boven vrijstellingsdrempels) wordt on-balance verwerkt."
+      - "Lessee-boeking bij aanvang (IFRS 16.22): ROU-actief (right-of-use) + leaseverplichting (lease liability). Initiële waardering (IFRS 16.23-24): leaseverplichting = contante waarde toekomstige leasebetalingen tegen impliciete rente of, indien niet bepaalbaar, marginale rentevoet van de lessee (incremental borrowing rate). ROU = leaseverplichting + reeds betaalde canons (− incentives) + initiële directe kosten + initiële schatting ontmantelingskosten."
+      - "Lessee-resultatenrekening (IFRS 16.26-38): twee componenten — (1) afschrijving ROU (typisch lineair over kortere van leaseperiode en economische levensduur) als bedrijfskost; (2) rente op leaseverplichting (effectieve-rente-methode) als financiële kost. EBITDA stijgt t.o.v. IAS 17-operationele lease (huurkost verschuift naar afschrijving + rente)."
+      - "Concretiseer met Belgavia's gebouw-lease: 10 jaar @ € 50.000/jaar, marginale rentevoet 4 %. Contante waarde = € 50k × annuïteitsfactor 8,1109 = € 405.545. Onder BE-GAAP: operationele lease (CBN 2015/4 wedersamenstelling kapitaal niet voldaan), off-balance, huurkost € 50k/jaar in rekening 610. Onder IFRS 16: ROU € 405.545 + leaseverplichting € 405.545 op balans. Jaar 1 resultaat: afschrijving ROU € 40.555 + rente € 16.222 = € 56.777 totale lease-kost (vs BE-GAAP € 50.000)."
+      - "Vrijstellingen lessee (IFRS 16.5-8) optioneel: (a) short-term leases ≤ 12 maanden zonder koopoptie; (b) low-value asset leases (richtbedrag ~5.000 USD nieuwwaarde — niet exact gespecificeerd in standaard maar in Basis for Conclusions). Lineair als kost boeken, geen ROU/verplichting."
+      - "Lessor-zijde — IFRS 16 BEHOUDT het onderscheid financieel/operationeel (in tegenstelling tot lessee-zijde). Geen wijziging t.o.v. IAS 17. Pedagogische functie hier: stagiair moet weten dat het single model alleen aan lessee-zijde geldt, niet aan lessor-zijde. Op examen 2024-1 vraag 7D moest dat onderscheid expliciet gemaakt worden in de open vraag."
+      - "BE-GAAP-pendant: CBN-advies 2015/4 + KB-WVV art. 3:35 + 3:51. Onderscheid financieel/operationeel via wedersamenstelling-van-kapitaal-test (canons + uitoefenprijs koopoptie ≤ 15 % geïnvesteerd kapitaal van lessor). Belgavia's gebouw-lease haalt deze drempel niet → operationeel."
+    visualisaties:
+      - type: boeking
+        ref: ifrs_16_gebouw_lease.ifrs_16_boekingen_jaar_1.bij_aanvang
+        bron: voorbeeldgroep
+        titel: "Boeking — IFRS 16 lessee bij aanvang (Belgavia gebouw-lease)"
+
+  - id: ifrs-16-impact-op-ratios
+    titel: "IFRS 16 — impact op KPI's en ratio's"
+    niveau: 2
+    beats:
+      - "Open met de praktische vraag: waarom maakt het uit dat dezelfde lease onder BE-GAAP off-balance en onder IFRS 16 on-balance staat?"
+      - "Drie ratio's verschuiven systematisch onder IFRS 16: (1) EBITDA stijgt — huurkost vervangen door afschrijving + rente; rente zit onder de EBITDA-streep; afschrijving ook. (2) Schuldgraad stijgt — leaseverplichting verhoogt totale schuld; geen overeenkomstige eigen-vermogensstijging. (3) Return on Assets (ROA) daalt — totaal-actief stijgt door ROU; nettoresultaat-impact kan beperkt zijn."
+      - "Concretiseer met Belgavia: schuldgraad onder BE-GAAP = LT-schulden (€ 1,8 M) ÷ totaal balans (€ 8,6 M) = 21 %. Onder IFRS 16 + leaseverplichting € 405k: € 2,2 M ÷ € 9,0 M = 24 %. Drie procentpunten verschil door één gebouw-lease."
+      - "Pedagogische functie: bij analyse van een genoteerde groep ([[studiemateriaal/1-3]]) moet je weten dat IFRS-rapportering meer leverage toont dan BE-GAAP-rapportering bij identieke contracten. Bij vergelijking tussen ondernemingen verschillende stelsels: corrigeer voor lease-impact."
+
+  - id: ias-2-voorraden
+    titel: "IAS 2 — voorraadwaardering en het LIFO-verbod"
+    niveau: 2
+    beats:
+      - "Open met de pre-2003-situatie: tot 2003 stond IAS 2 zowel FIFO als LIFO toe (toen heette ze nog IAS 2 'Inventories — revised'). Bij de IAS 2-herziening 2003 werd LIFO geschrapt."
+      - "Reden: LIFO matcht recente kostprijzen (last in) met recente opbrengsten in resultaat, maar laat de voorraad-eindwaarde op de balans achter op verouderde kostprijzen (first in — soms decennia oud). Dat is economisch ondoorzichtig en strijdig met getrouw beeld."
+      - "Sinds 2003 — drie toegelaten kostprijsformules onder IAS 2 (geen meer, geen minder): (a) Specifieke identificatie — voor items die niet onderling uitwisselbaar zijn (uniek vastgoed, kunst, kostbare individuele machines). (b) FIFO (first-in-first-out) — voor onderling uitwisselbare items. (c) Gewogen gemiddelde kostprijs (GMP) — alternatief voor FIFO bij uitwisselbare items."
+      - "Examen 2024-1 vraag 7A testte dit: 'welke combinatie is juist?' Antwoord: b — FIFO + gewogen gemiddelde + individueel (specifieke identificatie). Optie a (FIFO + LIFO + gewogen + individueel) bevatte LIFO — fout. Optie c (LIFO + ...) bevatte LIFO én miste FIFO — dubbel fout. Optie d (FIFO + GMP) miste specifieke identificatie."
+      - "Belangrijke nuance: BE-GAAP staat VIER methodes toe (art. 3:21 KB-WVV): individualisering + gewogen gemiddelde + FIFO + LIFO. CBN-advies 132/7 bevestigt expliciet dat LIFO in BE-GAAP is toegelaten en dat dit een verschil met IAS 2 vormt. Examen-vraag goed lezen: 'onder IAS/IFRS' versus 'in de Belgische enkelvoudige jaarrekening' geeft een ander antwoord."
+      - "Concretiseer met Belgavia's grondstoffen (zie mini-case in voorbeeldgroep): vier loten met stijgende prijzen. FIFO: KVV € 89.000, eindvoorraad € 47.500. GMP: KVV € 91.000, eindvoorraad € 45.500. LIFO (alleen BE-GAAP): KVV € 96.000, eindvoorraad € 40.500. Bij stijgende prijzen: LIFO geeft laagste winst → laagste belasting, maar onlogische lage voorraad-boekwaarde."
+      - "Aansluitend: IAS 2 vereist ook de netto-realisatiewaarde-test (lower of cost and net realisable value). Bij Belgavia: stel dat de marktprijs van afgewerkte producten daalt, zodat de kostprijs van eindvoorraad hoger is dan de verwachte verkoopprijs minus kosten van afwerking en verkoop → afwaarderen tot NRV. BE-GAAP volgt vergelijkbaar laagste-van-kostprijs-of-marktwaarde-principe (LCN)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Methode", "BE-GAAP", "IAS 2"]
+        rijen:
+          - ["Specifieke identificatie", "Toegelaten (art. 3:21)", "Toegelaten — verplicht voor niet-uitwisselbare items"]
+          - ["FIFO", "Toegelaten", "Toegelaten"]
+          - ["Gewogen gemiddelde prijs (GMP)", "Toegelaten", "Toegelaten"]
+          - ["**LIFO**", "**Toegelaten** (art. 3:21)", "**VERBODEN** sinds IAS 2-herziening 2003"]
+
+  - id: ifrs-15-vijf-stappen-model
+    titel: "IFRS 15 — opbrengsten via het 5-stappen-model"
+    niveau: 2
+    beats:
+      - "Open met de pre-2018-situatie: IAS 18 (Revenue) en IAS 11 (Construction Contracts) regelden opbrengsten sinds 1982. Probleem: verschillende standaarden voor verschillende sectoren + onvolledige dekking moderne contractvormen (multi-element bundels, software licenties, telecom-bundels)."
+      - "IFRS 15 (van kracht 1.1.2018) reageert: één UNIVERSEEL erkenningsprincipe voor alle sectoren via een 5-stappen-model. Kern: erkennen om de overdracht van beloofde goederen of diensten aan klanten weer te geven, voor een bedrag dat de vergoeding reflecteert waarop de entiteit verwacht recht te hebben."
+      - "Stap 1 — Contract identificeren: afdwingbare rechten + plichten · commerciële substantie · geld in te vorderen waarschijnlijk · betalingsvoorwaarden identificeerbaar · contract is goedgekeurd."
+      - "Stap 2 — Prestatieverplichtingen identificeren: een prestatieverplichting is een DISTINCT beloofde goed of dienst (of bundel). 'Distinct' = klant kan voordeel apart of in combinatie met andere middelen ontvangen + belofte apart identificeerbaar van andere beloften in contract. Een garantie is geen aparte prestatieverplichting (slechts verzekering van conformiteit) tenzij het een extra-service is."
+      - "Stap 3 — Transactieprijs bepalen: vergoeding waarop entiteit verwacht recht te hebben. Houdt rekening met variabele bedragen (kortingen, bonussen), significante financieringscomponent, betalingen aan klant in natura."
+      - "Stap 4 — Transactieprijs toewijzen aan prestatieverplichtingen: relatieve stand-alone selling price-methode. Voor elke prestatieverplichting de stand-alone-prijs schatten + ratio nemen + transactieprijs verdelen."
+      - "Stap 5 — Opbrengst erkennen wanneer prestatieverplichting voldaan: bij OVERDRACHT van controle. Dat kan over time (klant ontvangt + verbruikt voordelen tegelijk · entiteit creëert/verbetert actief dat klant controleert · entiteit creëert actief zonder alternatief gebruik + recht op betaling tot dan toe) of point-in-time (overdracht eigendom + fysiek bezit + risico's en voordelen)."
+      - "Concretiseer met Belgavia's machine-onderhoudscontract: TechCool BVBA betaalt € 300.000 voor machine (geleverd 1.12.2025) + € 25.000/jaar 5 jaar onderhoud (start 1.1.2026). Stap 1: contract OK. Stap 2: machine + onderhoud zijn distinct (machine op zich bruikbaar; onderhoud apart leverbaar door derden). Stap 3: transactieprijs € 425.000. Stap 4: machine stand-alone € 300k + onderhoud stand-alone € 125k → contractprijzen kloppen. Stap 5: machine point-in-time bij installatie 1.12.2025 → € 300k opbrengst 2025; onderhoud over time lineair → € 25k/jaar boekjaar 2026-2030."
+      - "BE-GAAP-pendant: klasse 70 'Bedrijfsopbrengsten' + realisatie bij prestatie / factuurmoment. Bij Belgavia: factuurmoment van machine valt samen met installatie → geen impact 2025. Voor onderhoud: BE-GAAP zou ook lineair erkennen. Beide stelsels komen op zelfde uitkomst bij Belgavia, maar IFRS 15 dwingt expliciete documentatie van elke stap — discipline-verschil, niet uitkomst-verschil. In complexere contracten (software-as-a-service, telecom-bundels) leveren beide stelsels wel andere uitkomsten."
+
+  - id: ias-1-presentatie-en-extraordinary-items
+    titel: "IAS 1 — presentatie + verbod 'extraordinary items'"
+    niveau: 2
+    beats:
+      - "Open met de aanhaakpunt: IAS 1 regelt de PRESENTATIE van de jaarrekening — niet specifieke waarderingen, maar wel wat MAG en wat NIET mag in de winst-en-verliesrekening."
+      - "Belangrijke regel — IAS 1.87: 'an entity shall not present any items of income or expense as extraordinary items, in the statement(s) presenting profit or loss and other comprehensive income or in the notes'. Vertaling: GEEN 'uitzonderlijke baten en lasten' als afzonderlijke rubriek. Verbod sinds IAS 1-revisie 2003."
+      - "Examen 2024-1 vraag 7C(c) testte dit: 'uitzonderlijke opbrengsten boeken is toegestaan onder IAS/IFRS' = FOUT. Reden: IAS 1.87 expliciet verbod."
+      - "Wat IAS 1.97 wél vereist: 'when items of income or expense are material, an entity shall disclose their nature and amount separately'. Vertaling: materiële baten en lasten apart vermelden, maar BINNEN de gewone exploitatie- of financiële resultaten — niet als 'uitzonderlijk'."
+      - "Voorbeelden van materiële posten apart te vermelden: afwaarderingen van voorraden, herstructureringskosten, vervreemdingen MVA, beëindigde activiteiten (IFRS 5).  De rationale voor de afschaffing van 'extraordinary': het onderscheid tussen gewone en buitengewone baten was te subjectief en werd gebruikt om resultaten 'op te kuisen'."
+      - "BE-GAAP-vergelijking: in België is de rubriek 'uitzonderlijke resultaten' afgeschaft sinds KB van 18 december 2015 (omzetting Richtlijn 2013/34/EU). De Belgische jaarrekening kent dus NIET meer (sinds 2016) een aparte rubriek voor uitzonderlijke baten en lasten. Stelling 'uitzonderlijke posten' is in beide stelsels historisch — examen-relevant want ze testen het EU-recht meermaals."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 'IFRS 16 = alle leases on-balance, ook lessor'. Te kort. IFRS 16 schaft het onderscheid alleen aan LESSEE-zijde af. Aan lessor-zijde blijft het oude onderscheid financiële vs operationele lease (IFRS 16.61-65) — financiële lease: onderliggend actief derecognised, vordering opgenomen; operationele lease: actief blijft op balans, lineair opbrengst. Examen 2024-1 vraag 7D toetste dit expliciet in de open vraag."
+      - "Valkuil 2 (⚠️): 'IAS 2 verbiedt LIFO sinds 2005'. Verkeerd jaartal. De LIFO-verbod-herziening van IAS 2 dateert van 2003 (van kracht voor boekjaren startend op of na 1.1.2005). In wetenschap-examens met datum-gevoelige stellingen: kennen dat herziening 2003 is + toepassing vanaf 2005. CBN-advies 132/7 bevestigt dit expliciet."
+      - "Valkuil 3 (⚠️): 'IFRS 15 opbrengst = factuurmoment'. Fout. IFRS 15 erkent opbrengst bij OVERDRACHT VAN CONTROLE — kan over time of point-in-time, los van factuurmoment. Bij Belgavia samenval (factuur ≈ installatie) → identieke uitkomst BE-GAAP. Bij abonnementen of pre-paid services: BE-GAAP boekt bij factuur, IFRS 15 boekt over de service-periode. De stelregel: substance over form — wanneer is de prestatie GELEVERD (controle overgedragen), niet wanneer was de factuur uitgereikt."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je deze drie standaarden snapt, ga dan naar:"
+  leerstukken:
+    - slug: vaste-activa-onder-ifrs
+      hint: "IAS 16 + IAS 38 — de andere zware IFRS-standaarden, met componentbenadering en R&D-criteria."
+    - slug: voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34
+      hint: "Terug naar het Europees rechtskader — voorzichtigheidsbeginsel + herwaardering die de drie standaarden hier inbedden."
+    - slug: wat-is-ifrs-en-het-eu-kader
+      hint: "EU-architectuur + IFRS 1 eerste toepassing — relevant bij overgang van BE-GAAP naar IFRS voor lease- en revenue-portefeuilles."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vergelijkingstabel BE-GAAP/IFRS per balanspost + Belgavia-cijfers."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [leasing, financiele-leasing, operationele-leasing]
+    - concepten: [voorraden]
+    - concepten: [opbrengstverantwoording]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Leasing — lessee single model + lessor financieel/operationeel"
+    ref: "IFRS 16 — Leases (Verordening (EU) 2023/1803)"
+    noot: "Sleutel-alinea's: 5-8 (vrijstellingen short-term + low-value), 9-22 (lease-identificatie), 22-38 (lessee-opname + waardering), 26 (afschrijving ROU), 36-38 (vervolgwaardering leaseverplichting), 61-65 (lessor-onderscheid + waardering)."
+  - onderwerp: "Voorraden — kostprijsformules + NRV"
+    ref: "IAS 2 — Inventories (Verordening (EU) 2023/1803)"
+    noot: "Sleutel-alinea's: 23-26 (kostprijsformules — specifieke identificatie + FIFO + GMP), 25 (LIFO-verbod), 9 (lower of cost and net realisable value), 28-33 (NRV-test)."
+  - onderwerp: "Opbrengsten — 5-stappen-model + over-time vs point-in-time"
+    ref: "IFRS 15 — Revenue from Contracts with Customers (Verordening (EU) 2023/1803)"
+    noot: "Sleutel-alinea's: 9-21 (stap 1 contract-identificatie), 22-30 (stap 2 prestatieverplichtingen), 47-72 (stap 3 transactieprijs), 73-86 (stap 4 toewijzing), 31-46 (stap 5 erkenning), 35 (over time-criteria), 38 (point-in-time)."
+  - onderwerp: "Presentatie + verbod 'extraordinary items'"
+    ref: "IAS 1 — Presentation of Financial Statements (Verordening (EU) 2023/1803)"
+    noot: "IAS 1.87 verbiedt 'extraordinary items'. IAS 1.97 vereist afzonderlijke vermelding materiële posten binnen gewone resultaten."
+  - onderwerp: "BE-GAAP — leasing kwalificatie + verwerking"
+    ref: "KB-WVV 29.04.2019 art. 3:51 + CBN-advies 2015/4 (Boekhoudkundige verwerking leasing)"
+    noot: "Wedersamenstelling-van-kapitaal-test + 15 %-koopoptieregel voor onderscheid financiële vs operationele lease aan beide zijden."
+  - onderwerp: "BE-GAAP — voorraadwaarderingsmethoden"
+    ref: "KB-WVV 29.04.2019 art. 3:21"
+    noot: "Vier toegelaten methodes: individualisering · gewogen gemiddelde · FIFO · LIFO. CBN-advies 132/7 bevestigt LIFO-verbod onder IAS 2."
+  - onderwerp: "BE-GAAP — opbrengstverantwoording"
+    ref: "KB-WVV 29.04.2019 art. 3:11 + art. 3:23 (realisatie + matching) + klasse 70 MAR"
+    noot: "Realisatie bij prestatie of factuurmoment. CBN-advies 2018/13 (opbrengstverantwoording lange-termijn-contracten)."
+  - onderwerp: "BE-GAAP — afschaffing 'uitzonderlijke resultaten'"
+    ref: "KB van 18 december 2015 (omzetting Richtlijn 2013/34/EU)"
+    noot: "Rubriek 'uitzonderlijke baten en lasten' afgeschaft sinds boekjaren 2016 in Belgische jaarrekening."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak: []
+
+footer: "Leerstuk PO 1.5. Status: voorgesteld."

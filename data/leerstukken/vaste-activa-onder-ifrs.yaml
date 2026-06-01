@@ -1,0 +1,224 @@
+# Leerstuk-script — Vaste activa onder IFRS (IAS 16 + IAS 38)
+#
+# PO 1.5 leerstuk 3 (techniek-fiche). Combineert materiële (IAS 16) en
+# immateriële (IAS 38) vaste activa omdat beide standaarden dezelfde drie
+# waarderingskeuzes behandelen (kostmodel, revaluation, afschrijving) en
+# samen één pedagogische beweging vormen. Examen 2024-1 vraag 7C toetste
+# IAS 16-detail (4 J/F-stellingen). IAS 38 nog niet bevraagd maar zit in
+# kennisselement V.
+#
+# Hand-off: dit leerstuk veronderstelt dat het EU-kader (leerstuk 1) en
+# de waarderings­filosofie (leerstuk 2) gekend zijn. Verwijst voorwaarts
+# naar leerstuk 4 voor andere IFRS-standaarden (IFRS 16, IAS 2, IFRS 15).
+
+meta:
+  slug: vaste-activa-onder-ifrs
+  titel: "Vaste activa onder IFRS — IAS 16 en IAS 38"
+  po: "1.5"
+  cluster: ifrs-en-internationale-rapportering
+  voorbeeldgroep: belgavia-bavaria
+  beschrijving: >
+    Leerstuk PO 1.5 — hoe waardeert IFRS materiële (IAS 16) en immateriële
+    (IAS 38) vaste activa, en waar wijkt dat af van BE-GAAP? Behandelt
+    kostmodel vs revaluation model, componentbenadering, niet-stoppen-met-
+    afschrijven (IAS 16.55), R&D-criteria en finite vs indefinite life IMA
+    aan de hand van Belgavia-mini-cases.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht van PO 1.5.
+    Aankondiging dat dit leerstuk zwaartepunt is voor examen 2024-1 vraag 7C
+    (vier J/F-stellingen over IAS 16: degressief, locatievoorbereiding,
+    uitzonderlijke posten = IAS 1, afschrijving stopzetten = IAS 16.55).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: IAS 16 (materiële vaste activa) en IAS 38 (immateriële vaste activa) waarderen vaste activa initieel tegen kostprijs + directly attributable costs, en kiezen daarna per klasse tussen cost model en (voor IAS 16) revaluation model. Belangrijkste BE-GAAP-divergenties: componentbenadering verplicht (IAS 16.43) · afschrijving wordt niet stopgezet bij FV > BW (IAS 16.55) · ontwikkelingskosten activeren mits 6 cumulatieve criteria (IAS 38.57) · onderzoek altijd in resultaat (IAS 38.54)."
+    - "Drie waarderingskeuzes die beide standaarden delen: (1) initiële waardering — kostprijs + alle directly attributable costs incl. installatie + ontmanteling; (2) latere waardering — cost model (default) of revaluation (IAS 16 ja, IAS 38 zelden); (3) afschrijving — systematisch over gebruiksduur, geen ingreep op basis van marktwaarde."
+    - "Examen-vraag 7C (2024-1) testte vier IAS-16-specifieke valkuilen: degressief NIET vrij toegelaten (IAS 16.60 patroon-eis) · locatievoorbereiding wél activeerbaar (IAS 16.17 b) · 'uitzonderlijke opbrengsten' NIET toegelaten (IAS 1.87) · afschrijving NIET stopzetten bij FV > BW (IAS 16.55). Vier exam-favorieten in één vraag."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["", "IAS 16 — materiële VA", "IAS 38 — immateriële VA"]
+      rijen:
+        - ["**Scope**", "PP&E voor productie / verhuur / administratie, > 1 jaar gebruikt", "Identificeerbaar niet-monetair actief zonder fysieke vorm"]
+        - ["**Initiële waardering**", "Kostprijs + directly attributable (installatie · transport · ontmanteling)", "Kostprijs als verworven; ontwikkelingskosten als 6 criteria voldaan"]
+        - ["**Latere waardering**", "Cost model OF revaluation model (keuze per klasse)", "Cost model standaard; revaluation enkel bij actieve markt (zelden voor IMA)"]
+        - ["**Componentbenadering**", "Verplicht (IAS 16.43-44) voor materiële delen met andere gebruiksduur", "n.v.t. (immaterieel, één unit)"]
+        - ["**Afschrijving — afsluiten?**", "Niet stopzetten zolang niet volledig afgeschreven (IAS 16.55); enkel bij IFRS 5 of derecognition", "Idem voor finite-life IMA; indefinite-life NIET afschrijven maar jaarlijks impairment-test (IAS 38.108)"]
+        - ["**BE-GAAP-pendant**", "KB-WVV art. 3:35-3:43 (afschrijving + waardevermindering) + art. 3:35 (facultatieve herwaardering)", "KB-WVV art. 3:42 + CBN 2012/13 (identifiability + control + future economic benefits)"]
+  afsluiter: "Korte zin: 'In dit leerstuk werk ik beide standaarden parallel uit — eerst IAS 16 met de componentbenadering bij Belgavia's persluchtmachine, dan IAS 38 met het 'AirCool 2026'-ontwikkelingsproject.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: ias-16-scope-en-initiele-waardering
+    titel: "IAS 16 — scope + initiële waardering van materiële vaste activa"
+    niveau: 2
+    beats:
+      - "Open met de scope-vraag: wat valt onder IAS 16? Materiële activa die (a) door de entiteit aangehouden voor productie / levering goederen of diensten / verhuur aan derden / administratieve doeleinden, EN (b) naar verwachting langer dan één boekjaar gebruikt."
+      - "Belangrijke afgrenzing: voorraden (IAS 2) zijn materiële activa voor verkoop of verbruik in productie — niet 'aangehouden voor gebruik'. Investment property (vastgoed voor huurinkomsten of waardestijging, niet voor eigen exploitatie) valt onder IAS 40. Beide afgrenzingen vermelden, niet uitwerken."
+      - "Initiële waardering — IAS 16.15: tegen kostprijs. Wat omvat 'kostprijs'? Drie elementen: (a) aankoopprijs + invoerrechten + niet-restituurbare aankoopbelastingen, na aftrek handelskortingen; (b) directly attributable costs om actief op locatie en in functionele staat te brengen; (c) initiële schatting van ontmantelings- of herstellingskosten."
+      - "Concretiseer 'directly attributable costs' (IAS 16.17): site preparation (locatievoorbereiding — examen-vraag 7C tweede stelling), transport, installatie, montage, testkosten, professionele honoraria voor inrichting. NIET: opstartverliezen, verkoopskosten, opleidingskost personeel."
+      - "Concretiseer met Belgavia's persluchtmachine: € 200.000 aanschaf + € 8.000 transport + € 12.000 installatie + € 3.000 testkosten = € 223.000 totale kostprijs. NIET geactiveerd: € 5.000 personeel-opleiding (wel een directly attributable cost lijken, maar IAS 16.19 sluit het uit) — in resultaat."
+      - "Belangrijke nuance examen-vraag 7C(b): de stelling 'kosten voor voorbereiding van een terrein …' = JUIST, want IAS 16.17(b) noemt locatievoorbereiding expliciet als directly attributable cost. Belgavia kan dus terrein-voorbereiding voor de installatie van een nieuwe productielijn meeactiveren."
+
+  - id: ias-16-componentbenadering
+    titel: "Componentbenadering — IAS 16.43-44 als verplichte keuze"
+    niveau: 2
+    beats:
+      - "Open met het pedagogische verschil: BE-GAAP behandelt een machine typisch als één unit met één gemiddelde gebruiksduur. IAS 16.43 verplicht componentbenadering wanneer materiële delen verschillende gebruiksduren hebben."
+      - "De regel: 'each part of an item of property, plant and equipment with a cost that is significant in relation to the total cost shall be depreciated separately'. Vertaling: elk materieel onderdeel apart afschrijven over zijn eigen gebruiksduur."
+      - "Concretiseer met Belgavia's persluchtmachine: totaal € 200.000. Componenten: compressor € 50.000 (5 jaar levensduur — moet om 5 jaar vervangen worden) + frame + behuizing € 150.000 (15 jaar levensduur). Onder IAS 16: twee componenten apart afschrijven. Compressor € 10.000/jaar over 5 jaar · frame € 10.000/jaar over 15 jaar. Toevallig zelfde bedrag in jaren 1-5 — verschil komt in jaar 6 wanneer compressor vervangen wordt."
+      - "Onder BE-GAAP: machine als geheel afschrijven over 10 jaar gemiddelde gebruiksduur → € 20.000/jaar. Vervanging compressor in jaar 6: complexer (oude component buitenboeken, nieuwe activeren). BE-GAAP staat componentbenadering toe maar verplicht niet."
+      - "Doorgewerkte vergelijking: jaar 1-5 totaal afschrijving bij IAS 16 € 100.000 vs BE-GAAP € 100.000 (identiek). Jaar 6-10 bij IAS 16: frame € 10.000/jaar + nieuwe compressor afgeschreven over nieuwe 5j = ander afschrijfpatroon. Bij BE-GAAP: € 20.000/jaar tot jaar 10. Bij vervanging in jaar 6: BE-GAAP boekt complexe correctie."
+      - "Pedagogische functie: componentbenadering is GEEN keuze-vraag onder IAS 16 — het is VERPLICHT wanneer onderdelen materieel zijn én eigen gebruiksduur hebben. Synthese-zin: één machine kan in IFRS twee MVA-records leven."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "BE-GAAP", "IAS 16"]
+        rijen:
+          - ["Activering totaal", "€ 200.000", "€ 200.000 (verdeeld: compressor € 50k + frame € 150k)"]
+          - ["Afschrijving methode", "Lineair 10 jaar gemiddeld", "Per component: 5 jaar compressor + 15 jaar frame"]
+          - ["Jaar 1-5 afschrijving/jaar", "€ 20.000", "€ 20.000 (€ 10k + € 10k)"]
+          - ["Jaar 6", "€ 20.000 + buitenboeking oude compressor + activering nieuwe", "Nieuwe compressor (5j) + frame voortzetting (10j resterend)"]
+          - ["Documentatie-discipline", "Eén MVA-record", "Per component apart MVA-record + gebruiksduur-onderbouwing"]
+
+  - id: ias-16-afschrijving-en-niet-stopzetten
+    titel: "Afschrijvingsmethode + niet-stopzetten — IAS 16.60-62 + 16.55"
+    niveau: 2
+    beats:
+      - "Open met de keuze-vraag: welke afschrijvingsmethode mag onder IAS 16? IAS 16.60-62 zegt: 'de gekozen methode moet het patroon van verbruik van toekomstige economische voordelen weergeven'. Drie methodes worden expliciet als voorbeelden genoemd: lineair (straight-line), degressief (diminishing balance), units-of-production."
+      - "Belangrijke nuance: GEEN methode is op zich verboden — én GEEN methode is automatisch toegelaten. De keuze moet aansluiten bij het verbruikspatroon. Lineair is courant; degressief is alleen toegelaten als het verbruik effectief degressief is."
+      - "Examen 2024-1 vraag 7C(a) testte dit: stelling 'degressieve afschrijvingen zijn toegestaan onder IAS/IFRS' = FOUT. Reden: degressief is niet 'algemeen toegelaten' — alleen wanneer verbruikspatroon degressief. Onder BE-GAAP (CBN 2010/15) en fiscaal Belgisch recht is degressief wél als zelfstandige methode aanvaardbaar — daar zit het verschil."
+      - "Niet-stopzetten — IAS 16.55: 'depreciation of an asset begins when it is available for use and ceases at the earlier of the date that the asset is classified as held for sale (IFRS 5) and the date the asset is derecognised. Therefore, depreciation does not cease when the asset becomes idle or is retired from active use unless the asset is fully depreciated.'"
+      - "Vertaling: afschrijving begint bij beschikbaarheid voor gebruik. Afschrijving stopt PAS bij (i) classificatie 'held for sale' (IFRS 5) of (ii) derecognition. Een actief dat tijdelijk inactief is, of waarvan de marktwaarde gestegen is boven de boekwaarde, blijft afschrijven."
+      - "Examen 2024-1 vraag 7C(d) testte dit: stelling 'afschrijving op MVA mag stopgezet worden wanneer reële waarde > boekwaarde' = FOUT. Reden: IAS 16.55. Marktwaarde-evolutie raakt afschrijving niet — afschrijving weerspiegelt verbruik, niet marktwaarde."
+      - "Concretiseer met Belgavia: stel dat de persluchtmachine na 3 jaar tijdelijk uit dienst is (renovatie productielijn). Onder IAS 16: machine blijft afschrijven (€ 10k + € 10k = € 20k/jaar) want NIET held for sale, NIET derecognised. Onder BE-GAAP: afschrijving op tijdelijk inactief actief kan in principe ook doorlopen — geen wezenlijk verschil hier, wel formulering."
+
+  - id: ias-16-revaluation-model
+    titel: "Revaluation model — IAS 16.31 als alternatief voor cost"
+    niveau: 2
+    beats:
+      - "Open met de waarderings-keuze (IAS 16.29): per MVA-klasse kiest de entiteit tussen cost model (alinea 30) en revaluation model (alinea 31). 'Per klasse' = niet per actief — een entiteit kan gebouwen volgens revaluation waarderen en machines volgens cost, maar niet sommige gebouwen ja en andere nee."
+      - "Cost model (alinea 30): boekwaarde = kostprijs − geaccumuleerde afschrijvingen − geaccumuleerde impairment-verliezen. Standaard-aanpak — wat BE-GAAP ook doet."
+      - "Revaluation model (alinea 31): boekwaarde = reële waarde op herwaarderingsdatum − latere afschrijvingen − latere impairment. Herwaardering met voldoende regelmaat om boekwaarde niet materieel te laten afwijken van fair value. Voor gebouwen: typisch elke 3-5 jaar; voor machines waar markt minder transparant is: zelden gebruikt."
+      - "Boeking bij revaluation-stijging: meerwaarde naar OCI (other comprehensive income) en geaccumuleerd in een herwaarderingsreserve (klasse 12-equivalent). NIET in resultaat. Bij latere daling: eerst tegen herwaarderingsreserve (in OCI), pas bij uitputting in resultaat."
+      - "BE-GAAP-pendant — KB-WVV art. 3:35 (zie [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]): facultatief, voorwaarden duurzame meerwaarde + zekere rendabiliteit, tegenboeking klasse 12 eigen vermogen. Beide stelsels: niet in resultaat, wel in eigen vermogen."
+      - "Concretiseer met Belgavia's grond: aanschaf € 400k, taxatie € 600k. Onder IAS 16 revaluation: + € 200k actief, + € 200k OCI-reserve. Onder cost model (Belgavia's keuze): boekwaarde blijft € 400k. Onder BE-GAAP: facultatief — Belgavia kiest niet. Drie keuzes, drie uitkomsten."
+
+  - id: ias-38-immateriele-vaste-activa
+    titel: "IAS 38 — immateriële vaste activa, identifiability + control + voordelen"
+    niveau: 2
+    beats:
+      - "Open met de definitie: IAS 38 definieert IMA als 'identifiable non-monetary asset without physical substance'. Drie cumulatieve criteria voor opname (IAS 38.21): (1) identifiability — afscheidbaar of contractueel/wettelijk; (2) control — entiteit beheerst de voordelen en kan anderen uitsluiten; (3) future economic benefits waarschijnlijk + kostprijs betrouwbaar meetbaar."
+      - "Identifiability nuance: een aangekochte software-licentie is identificeerbaar (apart verkocht/overgedragen kan worden). Een merkenwaarde gecreëerd door marketing-uitgaven is NIET identificeerbaar — IAS 38.63 verbiedt internally generated brands."
+      - "Control nuance: een klantenbestand is zelden gecontroleerd — klanten kunnen vrijuit naar concurrenten. Een goed opgeleid team is zelden gecontroleerd — werknemers kunnen vertrekken. Internally generated goodwill is uitgesloten (IAS 38.48)."
+      - "Concretiseer met Belgavia: drie soorten IMA aanwezig of overwogen. (a) Aangekochte SAP-licentie € 30k → IMA conform IAS 38, afschrijven over contract-looptijd. (b) Interne kosten voor branding 'Belgavia Premium' → NIET activeerbaar (intern gegenereerd merk, IAS 38.63). (c) Ontwikkelingsproject 'AirCool 2026' € 80k → activeerbaar mits 6 criteria voldaan (zie volgende sectie)."
+
+  - id: ias-38-rd-onderscheid
+    titel: "Onderzoek vs ontwikkeling — IAS 38.54-67 (de zes criteria)"
+    niveau: 2
+    beats:
+      - "Open met het cruciale onderscheid: IAS 38 splitst interne R&D-uitgaven in twee fases met radicaal verschillende behandeling."
+      - "Research phase (IAS 38.54-56) — verkenning van nieuwe kennis. Voorbeelden: literatuurstudie, marktonderzoek, formulering van ideeën, evaluatie van alternatieven, concept-tests. ALLE onderzoekskosten gaan in resultaat. NOOIT activeerbaar — ongeacht hoe zeker de toekomstige voordelen zijn."
+      - "Development phase (IAS 38.57-67) — toepassing van onderzoek voor specifiek productontwerp of proces. Activering VERPLICHT mits alle ZES criteria cumulatief voldaan (IAS 38.57): (1) technische haalbaarheid bewezen om af te ronden zodat het beschikbaar is voor gebruik of verkoop; (2) intentie om af te ronden + gebruiken of verkopen; (3) vermogen om te gebruiken of verkopen; (4) hoe het toekomstige economische voordelen zal genereren — markt of intern gebruik aantoonbaar; (5) toereikende technische, financiële en andere middelen beschikbaar om af te ronden; (6) kostprijs betrouwbaar meetbaar."
+      - "Concretiseer met Belgavia's 'AirCool 2026'-project: onderzoeksfase jan-juni 2025, kost € 30.000. Activiteiten: marktstudie + technologie-scouting + concept-tests. Onder IAS 38.54-56: VERBODEN te activeren, in resultaat 2025."
+      - "Ontwikkelingsfase juli-dec 2025, kost € 80.000. Belgavia documenteert per criterium: (1) technische haalbaarheid via prototype-tests; (2) intentie via business case van CEO; (3) vermogen via interne ingenieurs; (4) toekomstige voordelen via marge-vergelijking; (5) middelen via cash + kredietlijn; (6) meetbaarheid via uurtarieven engineers. Alle zes voldaan → € 80.000 activeren als IMA."
+      - "BE-GAAP-vergelijking: CBN 2012/13 staat ook activering van ontwikkelingskosten toe, mits algemene IMA-criteria (identificeerbaar + gecontroleerd + toekomstig voordeel + meetbaar). Belgavia activeert dus € 80k onder BEIDE stelsels. Verschil zit in documentatie-discipline: IAS 38 vereist expliciete onderbouwing van elk van de 6 criteria; BE-GAAP is rule-based en minder formalistisch."
+      - "Pedagogische functie: onderscheid onderzoek/ontwikkeling is GEEN keuze maar een feitelijke vaststelling op basis van project-fase. Stagiair moet kunnen redeneren: 'we zijn nog niet aan technische haalbaarheid → onderzoek → in resultaat' of 'we hebben prototype + business case → ontwikkeling → mogelijk activeren'."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Criterium", "Wat het vereist", "Belgavia 'AirCool 2026' onderbouwing"]
+        rijen:
+          - ["**1. Technische haalbaarheid**", "Bewezen dat afgewerkt product mogelijk is", "Prototype-tests geslaagd okt 2025"]
+          - ["**2. Intentie tot voltooiing**", "Vastgelegd in management-beslissing", "Business case CEO + Raad sept 2025"]
+          - ["**3. Vermogen tot voltooiing**", "Technische + organisatorische capaciteit aanwezig", "Engineering-team 5 FTE met ervaring vergelijkbare projecten"]
+          - ["**4. Toekomstige economische voordelen**", "Markt of intern gebruik aantoonbaar", "Marktonderzoek toont € 2 M omzet/jaar potentieel + 35 % brutomarge"]
+          - ["**5. Voldoende middelen**", "Financieel + technisch + materieel", "Cash-positie € 350k + kredietlijn € 1 M ongebruikt"]
+          - ["**6. Betrouwbare meting kostprijs**", "Tijdregistratie + materiaal-allocatie", "Project-boekhouding + uurtarieven per FTE bijgehouden"]
+
+  - id: ias-38-finite-vs-indefinite
+    titel: "Finite vs indefinite life — IAS 38.88-110"
+    niveau: 2
+    beats:
+      - "Open met de tweede keuze die IAS 38 vraagt na opname: heeft de IMA een eindige gebruiksduur (finite) of onbepaalde (indefinite)?"
+      - "Finite-life (IAS 38.97-106): bekende of geschatte einddatum (licentie met einddatum, octrooi, geactiveerde ontwikkelingskosten met economisch-relevante levensduur). Systematische afschrijving over gebruiksduur, lineair tenzij ander patroon kan worden onderbouwd. Restwaarde meestal 0 — IMA hebben zelden restwaarde."
+      - "Indefinite-life (IAS 38.107-110): geen voorzienbaar einde van toekomstige economische voordelen. Voorbeeld: een merk met onbepaalde looptijd dat zonder vervaltermijn vernieuwbaar is. NIET afschrijven — wel jaarlijks impairment-test (IAS 36)."
+      - "Belangrijke nuance: 'indefinite' ≠ 'infinite'. Indefinite betekent 'geen voorzienbaar einde'. Dat moet jaarlijks geheronderzocht worden — als een einde voorzienbaar wordt, switch naar finite-life en start afschrijving."
+      - "Concretiseer met Belgavia: het 'AirCool 2026'-product heeft een economische levensduur ingeschat op 8 jaar (productiecyclus + introductie verbeterde versie). Belgavia classificeert de geactiveerde ontwikkelingskosten als finite-life, afschrijving over 8 jaar lineair → € 10.000/jaar. SAP-licentie loopt 5 jaar, verlengbaar — finite-life, 5 jaar."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 'IAS 16 verbiedt degressieve afschrijving'. Te kort. IAS 16.62 noemt degressief expliciet als voorbeeld-methode. Wat IAS 16 vereist is dat de methode het *verbruikspatroon* weergeeft — degressief is dus mogelijk indien verbruik degressief. De stelregel: methode-keuze is geen vrije keuze, wel een patroon-gedreven keuze. (Examen 2024-1 vraag 7C(a).)"
+      - "Valkuil 2 (⚠️): 'ontwikkelingskosten activeren = altijd OK'. Fout. IAS 38.57 vereist ZES cumulatieve criteria. Bij ontbreken van één criterium → in resultaat. Stagiairs activeren te snel; commissaris vraagt documentatie per criterium. Belgavia werkt elk criterium uit in business case — die discipline is examen-relevant want het examen kan vragen 'welke criteria gelden onder IAS 38?'."
+      - "Valkuil 3 (⚠️): 'als de reële waarde stijgt, mag ik afschrijving stopzetten'. Fout — examen-favoriet. IAS 16.55 zegt: afschrijving stopt enkel bij IFRS 5-classificatie (held for sale) of derecognition. Marktwaarde-evolutie heeft GEEN invloed op afschrijving. Onder revaluation model wordt het actief geherwaardeerd, maar afschrijving loopt door op de nieuwe (geherwaardeerde) basis. (Examen 2024-1 vraag 7C(d).)"
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: leasing-voorraden-en-opbrengsten-onder-ifrs
+      hint: "De drie BE-GAAP↔IFRS-grote divergenties die nog niet behandeld zijn: lease on-balance (IFRS 16) · LIFO-verbod (IAS 2) · 5-stappen-revenue (IFRS 15)."
+    - slug: voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34
+      hint: "Terug naar Richtlijn 2013/34/EU art. 6 + 7 — de waarderingsfilosofie waarin IAS 16 + 38 hun BE-GAAP-pendant vinden."
+    - slug: wat-is-ifrs-en-het-eu-kader
+      hint: "EU-architectuur + IFRS 1 eerste-toepassing — relevant bij overgang van BE-GAAP naar IFRS voor MVA-componenten of IMA."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — IAS 16 + IAS 38 in compacte vergelijkingstabel met BE-GAAP."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [materiele-vaste-activa, vaste-activa]
+    - concepten: [immateriele-vaste-activa]
+    - concepten: [herwaardering-vast-actief]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Materiële vaste activa — scope + initiële + latere waardering"
+    ref: "IAS 16 — Property, Plant and Equipment (Verordening (EU) 2023/1803)"
+    noot: "Sleutel-alinea's: 6 (definities), 15-17 (initiële kostprijs incl. directly attributable), 29-42 (cost vs revaluation model), 43-44 (componentbenadering), 55 (niet stopzetten afschrijving), 60-62 (afschrijvingsmethode patroon-eis)."
+  - onderwerp: "Immateriële vaste activa — definitie + opname + R&D-onderscheid"
+    ref: "IAS 38 — Intangible Assets (Verordening (EU) 2023/1803)"
+    noot: "Sleutel-alinea's: 8-17 (definitie + identifiability + control), 21-23 (opname-criteria), 54-67 (research vs development + 6 criteria), 88-110 (finite vs indefinite life), 48 (internally generated goodwill verboden)."
+  - onderwerp: "Presentatie + verbod 'extraordinary items'"
+    ref: "IAS 1 — Presentation of Financial Statements (Verordening (EU) 2023/1803)"
+    noot: "IAS 1.87 verbiedt 'extraordinary items' in resultaat of toelichting. IAS 1.97 vereist afzonderlijke vermelding van materiële posten binnen gewone exploitatie- of financiële resultaten."
+  - onderwerp: "Impairment-test voor vaste activa (cross-cutting)"
+    ref: "IAS 36 — Impairment of Assets (Verordening (EU) 2023/1803)"
+    noot: "Bij indicaties: vergelijk boekwaarde met realiseerbare waarde (= hoogste van fair value − sales cost en value-in-use). Jaarlijks verplicht voor goodwill + indefinite-life IMA + niet-in-gebruik-genomen IMA."
+  - onderwerp: "BE-GAAP — afschrijving + waardevermindering vaste activa"
+    ref: "KB-WVV 29.04.2019 art. 3:35 t/m art. 3:43"
+    noot: "Art. 3:35 lineair als standaard, andere methodes toegelaten. Art. 3:43 waardevermindering verplicht bij duurzame minderwaarde."
+  - onderwerp: "BE-GAAP — facultatieve herwaardering"
+    ref: "KB-WVV 29.04.2019 art. 3:35"
+    noot: "Beperkt tot MVA + FVA. Duurzame meerwaarde + zekere/vaststaande rendabiliteit. Tegenboeking klasse 12 eigen vermogen."
+  - onderwerp: "BE-GAAP — IMA herkenning + activering"
+    ref: "CBN-advies 2012/13 (immateriële vaste activa)"
+    noot: "Drie criteria: identificeerbaar + gecontroleerd + toekomstig economisch voordeel. Activering ontwikkelingskosten toegelaten mits criteria voldaan."
+  - onderwerp: "BE-GAAP — keuze afschrijvingsmethode"
+    ref: "CBN-advies 2010/15 (afschrijvingsmethoden)"
+    noot: "Onder BE-GAAP is degressief als ZELFSTANDIGE methode aanvaardbaar (mits levensduur-respecterend), in tegenstelling tot IAS 16 dat patroon-eis stelt."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak: []
+
+footer: "Leerstuk PO 1.5. Status: voorgesteld."

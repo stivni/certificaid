@@ -1,0 +1,216 @@
+# Leerstuk-script — Voorzichtigheid en herwaardering onder Richtlijn 2013/34/EU
+#
+# PO 1.5 leerstuk 2 (tekst-discipline + examen-favoriet). Diepe duik in
+# art. 6 (algemene beginselen, vooral art. 6, lid 1, c) — drie sub-bepalingen)
+# en art. 7 (herwaardering-optie). Drie van de vier J/F-stellingen op
+# examen 2024-1 vraag 7B citeerden deze artikelen letterlijk.
+#
+# Hand-off: het EU-architectuur-kader staat in leerstuk 1; hier vooronderstellen
+# we kennis van wat Richtlijn 2013/34 IS en wie ze raakt. Belgisch IF (BE-GAAP)
+# omzetting via KB-WVV art. 3:10 + art. 3:35. Aansluiting met IFRS-pendant
+# fair value (IFRS 13) genoemd, niet uitgewerkt.
+
+meta:
+  slug: voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34
+  titel: "Voorzichtigheid en herwaardering onder Richtlijn 2013/34/EU"
+  po: "1.5"
+  cluster: ifrs-en-internationale-rapportering
+  voorbeeldgroep: belgavia-bavaria
+  beschrijving: >
+    Leerstuk PO 1.5 — diepe duik in Richtlijn 2013/34/EU art. 6
+    (algemene beginselen voor financiële verslaglegging, vooral de drie
+    sub-bepalingen van het voorzichtigheidsbeginsel) en art. 7 (lidstaat-optie
+    om herwaardering toe te staan of voor te schrijven). Inclusief Belgische
+    omzetting via KB-WVV art. 3:10 + art. 3:35, en de IFRS-pendant fair value.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht van PO 1.5
+    en aankondiging dat dit het examen-zwaartepunt is — drie van de vier
+    J/F-stellingen op examen 2024-1 vraag 7B citeren art. 6 + 7 letterlijk.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: Richtlijn 2013/34/EU art. 6 legt de algemene beginselen op voor de Belgische statutaire jaarrekening (going concern · bestendigheid · voorzichtigheid · matching · materialiteit · ...) — het voorzichtigheidsbeginsel kent drie sub-bepalingen die elk afzonderlijk bevraagd worden. Art. 7 biedt de lidstaat de optie om herwaardering 'toe te staan of voor te schrijven' (België koos 'toestaan')."
+    - "Drie sub-bepalingen van voorzichtigheid (art. 6, lid 1, c) die examen-letterlijk terugkomen: (i) winsten enkel als gerealiseerd op balansdatum · (ii) alle verplichtingen met oorsprong in boekjaar opnemen, ook bij latere kennis · (iii) alle negatieve waardecorrecties onvoorwaardelijk opnemen, ongeacht winst/verlies."
+    - "Art. 7-nuance examen-relevant: de Richtlijn laat een lidstaat toe een herwaardering te 'voorschrijven' aan bepaalde categorieën (niet alleen 'toestaan'). Belgische omzetting koos voor facultatief (KB-WVV art. 3:35) — maar de stelling 'voor bepaalde categorieën verplicht voorgeschreven' op examen 2024-1 vraag 7B(d) testte expliciet de Richtlijn-tekst, niet de Belgische omzetting."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Beginsel", "Richtlijn 2013/34/EU", "BE-GAAP omzetting", "IFRS-pendant"]
+      rijen:
+        - ["Voorzichtigheid + asymmetrie", "art. 6 lid 1 c", "KB-WVV art. 3:10", "IAS 1 'fair presentation' + IAS 37 voorziening-erkenning"]
+        - ["Realisatiebeginsel (winsten enkel gerealiseerd)", "art. 6 lid 1 c, i", "KB-WVV art. 3:10", "IFRS 15 erkenningsmoment (overdracht controle)"]
+        - ["Asymmetrie verplichtingen (verlies altijd, ook bij latere kennis)", "art. 6 lid 1 c, ii", "KB-WVV art. 3:11 + art. 3:23", "IAS 37 + IAS 10 adjusting events"]
+        - ["Negatieve waardecorrecties onvoorwaardelijk", "art. 6 lid 1 c, iii", "KB-WVV art. 3:35 e.v.", "IAS 36 impairment"]
+        - ["Herwaardering-optie", "art. 7 lid 1 (toestaan/voorschrijven)", "KB-WVV art. 3:35 (facultatief)", "IAS 16.31 revaluation model"]
+  afsluiter: "Korte zin: 'In dit leerstuk werk ik elk van die drie sub-bepalingen + de herwaardering-optie uit met de Richtlijn-tekst zelf en een concretisering bij Belgavia.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: art-6-acht-beginselen
+    titel: "Art. 6 — acht algemene beginselen voor de jaarrekening"
+    niveau: 2
+    beats:
+      - "Open met de architectuur: Richtlijn 2013/34/EU art. 6 lid 1 lijst NEGEN bepalingen op (a t/m i) die elke lidstaat moet vastleggen voor de waardering van posten in de jaarrekening. Punten (a) tot (i) zijn elk een fundamenteel boekhoudbeginsel."
+      - "Belangrijke nuance: lidstaten mogen STRENGER zijn — niet milder. België kan de Richtlijn-minima verzwaren (bv. extra voorzichtigheids-eisen via CBN-adviezen), niet versoepelen."
+      - "Toon de overzichtstabel met de acht klassieke beginselen die in elke handboek-uitgave terugkeren. Wijs aan dat punt (c) — voorzichtigheid — verder uitgesplitst is in drie sub-bepalingen (i + ii + iii) die het onmiddellijke examen-zwaartepunt vormen. Punt (i) introduceert de aanschaffingsprijs/kostprijs als waardering-basis (waarvan art. 7 een afwijking toestaat)."
+      - "Synthese: in elke specifieke waarderings- of erkenningsregel die je in BE-GAAP tegenkomt (van afschrijving tot voorziening tot opbrengstverantwoording) zit één of meerdere van deze beginselen verwerkt — het is geen losse lijst maar een raamwerk."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Punt", "Beginsel", "Wat het zegt"]
+        rijen:
+          - ["a", "Going concern", "Onderneming wordt geacht haar werkzaamheden voort te zetten"]
+          - ["b", "Bestendigheid", "Waarderingsregels niet wijzigen van jaar op jaar"]
+          - ["c", "Voorzichtigheid", "Asymmetrische waardering — uitgewerkt in 3 sub-bepalingen (i + ii + iii)"]
+          - ["d", "Toerekeningsbeginsel (matching)", "Baten + lasten opnemen voor het boekjaar waarop zij betrekking hebben"]
+          - ["e", "Componenten apart waarderen", "Bestanddelen van een actief- of passiefpost afzonderlijk waarderen"]
+          - ["f", "Vergelijkbaarheid openingsbalans", "Openingsbalans cijfers vorig boekjaar overnemen"]
+          - ["g", "Materialiteit", "Lidstaat-optie: bepaalde regels niet toepassen bij niet-materieel belang"]
+          - ["h", "Substance over form", "Lidstaat-optie: opname + waardering volgens economische substantie"]
+          - ["i", "Aanschaffingsprijs / kostprijs", "Standaard-waarderingsbasis (waarvan art. 7 een lidstaat-afwijking toestaat)"]
+
+  - id: voorzichtigheid-drie-sub-bepalingen
+    titel: "Voorzichtigheid uitgesplitst — de drie sub-bepalingen van art. 6 lid 1 c"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: voorzichtigheid in art. 6 lid 1 c is GEEN vaag beginsel maar valt in DRIE expliciete sub-bepalingen — elk genummerd (i, ii, iii) en elk apart bevraagd op examen 2024-1 vraag 7B."
+      - "Sub-bepaling (i) — Realisatiebeginsel: 'winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn'. Latente winsten blijven buiten resultaat. Belangrijk: 'gerealiseerd' wordt eng geïnterpreteerd — een externe transactie of een geconcretiseerde toezegging is nodig, een marktwaarde-stijging zonder verkoop is geen realisatie."
+      - "Concretiseer (i) met Belgavia: de grond die in waarde is gestegen van € 400k naar € 600k. De € 200k latente meerwaarde mag NIET in resultaat. Optie: herwaardering via art. 7 (= eigen vermogen, niet resultaat). Belgavia kiest niet te herwaarderen → grond blijft op € 400k."
+      - "Sub-bepaling (ii) — Asymmetrische verplichtingen: 'alle verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar, worden opgenomen, ook als die verplichtingen pas bekend worden tussen de balansdatum en de datum waarop de balans wordt opgesteld'."
+      - "Concretiseer (ii) met een Belgavia-scenario: stel dat in januari 2026 een ex-werknemer Belgavia dagvaardt voor schadevergoeding wegens omstandigheden uit boekjaar 2025. De rechtsfeiten dateren van 2025 — de juridische plicht-erkenning is post-balansdatum 31-12-2025. Conform art. 6 lid 1 c (ii): voorziening boeken op balans 2025, want oorsprong in het betrokken boekjaar. Aansluiting met IAS 10 'adjusting events after the reporting period'."
+      - "Sub-bepaling (iii) — Negatieve waardecorrecties onvoorwaardelijk: 'alle negatieve waardecorrecties worden opgenomen, ongeacht of het boekjaar met winst of verlies wordt afgesloten'."
+      - "Concretiseer (iii): een onderneming mag in een verliesjaar NIET de afschrijvingen weglaten om het resultaat 'op te smukken', en in een winstjaar mag ze niet extra waardeverminderingen boeken om winst af te romen. De symmetrie is volledig: VERLIEZEN altijd, WINSTEN enkel gerealiseerd."
+      - "Synthese (vetgedrukt): het voorzichtigheidsbeginsel is GEEN keuze of weging — het is een asymmetrische regel die in drie sub-bepalingen voluit uitgeschreven staat. Elke afwijking in jaarrekening-opmaak is een breuk met de Richtlijn-tekst."
+
+  - id: art-7-herwaardering-optie
+    titel: "Art. 7 — herwaarderings-optie als lidstaat-keuze"
+    niveau: 2
+    beats:
+      - "Open met de structurerende vraag: art. 6 lid 1 punt (i) legt de aanschaffingsprijs/kostprijs op als waardering-basis. Maar wat als die basis economisch achterhaald is — wat als een grond die je in 1990 voor € 100k kocht in 2025 € 800k waard is?"
+      - "Antwoord van de Richtlijn: art. 7 biedt een uitdrukkelijke afwijking. De tekst luidt: 'In afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde categorieën ondernemingen, vaste activa tegen geherwaardeerde bedragen waarderen.'"
+      - "Cruciale nuance examen-relevant: 'toestaan OF voorschrijven'. Dit zijn twee verschillende lidstaat-keuzes: (a) de lidstaat kan herwaardering OPTIONEEL maken voor (alle of bepaalde) ondernemingen (= 'toestaan'); (b) de lidstaat kan herwaardering VERPLICHT maken voor (alle of bepaalde) categorieën (= 'voorschrijven')."
+      - "Examen 2024-1 vraag 7B(d) testte dit precies: de stelling luidde 'voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde vaste activa aan geherwaardeerde waarde op te nemen'. Antwoord: JUIST. Reden: art. 7 lid 1 opent expliciet de mogelijkheid tot lidstaat-VERPLICHTING ('voorschrijven') voor 'bepaalde categorieën ondernemingen'. De stelling toetst de RICHTLIJN-tekst, niet de Belgische omzetting."
+      - "Belgische omzetting: KB-WVV art. 3:35 koos voor 'toestaan' — herwaardering is in België FACULTATIEF, niet verplicht. Voorwaarden: duurzame meerwaarde + zekere/vaststaande rendabiliteit. Beperkt tot materiële vaste activa + financiële vaste activa. Tegenboeking in klasse 12 (eigen vermogen), niet in resultaat — consistent met art. 6 lid 1 c (i) realisatiebeginsel."
+      - "Concretiseer met Belgavia: de grond € 400k → € 600k. België laat herwaardering toe (KB-WVV art. 3:35), maar verplicht ze niet. Belgavia kiest niet te herwaarderen — boekwaarde blijft € 400k. Stelregel: art. 7 = lidstaat-bevoegdheid · KB-WVV art. 3:35 = Belgische keuze om facultatief te houden · Belgavia-keuze = niet herwaarderen. Drie beslissingslagen, drie keuzes."
+    visualisaties:
+      - type: mermaid
+        ref: null  # geen pre-gedefinieerd diagram nodig
+        inline: |
+          flowchart TD
+            A[Richtlijn 2013/34/EU art. 7] --> B{Lidstaat kiest}
+            B -->|Toestaan| C[Optioneel — onderneming mag herwaarderen]
+            B -->|Voorschrijven| D[Verplicht — onderneming moet herwaarderen<br/>bv. bepaalde categorieën]
+            B -->|Geen actie| E[Aanschaffingsprijs blijft enige basis]
+            C --> F[Belgische keuze KB-WVV art. 3:35]
+            F --> G[Belgische onderneming kiest]
+            G -->|Wel| H[Herwaardering geboekt in eigen vermogen klasse 12]
+            G -->|Niet| I[Aanschaffingsprijs blijft boekwaarde]
+
+  - id: be-gaap-pendant-en-ifrs-fair-value
+    titel: "BE-GAAP-pendant + IFRS-fair-value — drie waarderingsbenaderingen"
+    niveau: 2
+    beats:
+      - "Open met de zoom-uit: art. 6 + 7 leveren één samenhangend waarderingsmodel — historische kostprijs als regel + uitzonderlijke herwaardering als lidstaat-optie. IFRS volgt een ander uitgangspunt: fair value waar relevant."
+      - "Drie waarderingsbenaderingen naast elkaar zetten — niet als detail-uitwerking maar om de stagiair de architectuur te tonen."
+      - "BE-GAAP (omzetting Richtlijn 2013/34): aanschaffingsprijs of vervaardigingskostprijs = regel. Herwaardering = uitzondering (facultatief, art. 3:35). Voorzichtigheidsbeginsel dwingt asymmetrie."
+      - "IFRS — IAS 16 voor MVA: keuze tussen cost model (= aanschaffingsprijs − afschrijvingen) en revaluation model (= reële waarde op herwaardering-datum). Keuze per MVA-klasse, niet per actief."
+      - "IFRS 13 — fair value (reële waarde): definitie + hiërarchie (level 1 marktprijs, level 2 vergelijkbare inputs, level 3 modellen) — overspant alle IFRS-standaarden die fair value gebruiken (financial instruments IFRS 9, investment property IAS 40, ...). Niet uit het hoofd, wel weten dat IFRS 13 dit definieert."
+      - "Synthese: BE-GAAP staat voorzichtig + statisch (aanschaffingsprijs); IFRS staat investeerder-georiënteerd + dynamisch (fair value waar relevant). Dit is de rode draad onder alle BE-GAAP↔IFRS-verschillen — leerstukken 3 + 4 werken het uit per balanspost."
+      - "Belangrijke nuance (in blockquote-aside, niet als sub-sectie): IFRS is principle-based — de waarderingsregel staat per standaard. BE-GAAP is rule-based — meer concrete waarderingsregels in het KB-WVV. Dat betekent niet dat IFRS 'vrijer' is: de principes zijn streng, alleen anders geformuleerd."
+
+  - id: belgisch-omzetting-discipline
+    titel: "Hoe checkt de accountant of een Belgische jaarrekening conform Richtlijn 2013/34 is?"
+    niveau: 2
+    beats:
+      - "Open met de tweede doelstelling van PO 1.5: 'de conformiteit van boekhouding en documenten met de wettelijke en reglementaire vereisten verifiëren en waarborgen'. Hoe doet de accountant dat concreet voor Richtlijn-conformiteit?"
+      - "Indirect: bij conformiteit aan KB-WVV (Belgische omzetting) is conformiteit aan Richtlijn 2013/34 normaliter ook gegarandeerd — de Richtlijn werd integraal omgezet."
+      - "Vier praktische checks die de commissaris uitvoert: (1) waarderingsregels in toelichting consistent over de jaren (bestendigheid art. 6 lid 1 b)? (2) Latente meerwaarden NIET in resultaat geboekt (realisatiebeginsel art. 6 lid 1 c i)? (3) Voorzieningen opgenomen voor verplichtingen met oorsprong in boekjaar (art. 6 lid 1 c ii)? (4) Afschrijvingen + waardeverminderingen onvoorwaardelijk geboekt (art. 6 lid 1 c iii)?"
+      - "Concretiseer voor Belgavia: de commissaris controleert dat Belgavia (a) de grond NIET heeft geherwaardeerd in resultaat, (b) een voorziening heeft voor een lopend geschil met oorsprong 2025, (c) afschrijvingen op de machine consistent heeft geboekt ook in jaren met EBIT-druk. Drie concrete reflexen — alle drie Richtlijn-art-6-conform."
+      - "Pedagogische functie: stagiair moet weten dat Richtlijn-conformiteit een AUDIT-thema is. Niet 'wettekst kennen om te kennen', maar 'de regels gebruiken in conformiteitstoetsing'. Aansluiting met tweede doelstelling van PO 1.5."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 'realisatiebeginsel betekent geen winst tot factuur'. Fout. 'Gerealiseerd op balansdatum' is een ruimer criterium — een externe transactie of geconcretiseerde toezegging volstaat. Een verkocht-en-geleverd-product met facturatie in januari hoort wel op de resultaten 2025 (matching art. 6 lid 1 d). De stelregel: realisatie ≠ facturatie. IFRS 15 5-stappen-model is daar een verfijning op (zie [[leasing-voorraden-en-opbrengsten-onder-ifrs]])."
+      - "Valkuil 2 (⚠️): art. 7 = 'herwaardering is toegelaten in elke lidstaat'. Te kort door de bocht. Art. 7 is een LIDSTAAT-OPTIE — elke lidstaat kiest of hij herwaardering toelaat, verplicht maakt, of geen afwijking biedt. België koos 'toestaan' (facultatief). Andere lidstaten kunnen kiezen voor 'voorschrijven' (verplicht) of voor 'geen optie'. De stelregel: examen-stellingen over art. 7 toetsen de Richtlijn-tekst, niet automatisch de Belgische praktijk."
+      - "Valkuil 3 (⚠️): 'art. 6 lid 1 c (ii) verplicht ELKE post-balansdatum-gebeurtenis op te nemen'. Fout. Alleen gebeurtenissen die een verplichting BEVESTIGEN die op balansdatum reeds bestond (oorsprong in boekjaar of vroeger). Een NIEUW feit na balansdatum (bv. brand januari 2026) is een non-adjusting event — geen aanpassing balans 2025, wel toelichting indien materieel. Aansluiting met IAS 10 / CBN-advies 2019/04."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit kader snapt, ga dan naar:"
+  leerstukken:
+    - slug: vaste-activa-onder-ifrs
+      hint: "IAS 16 + IAS 38 — hoe waardeert IFRS materiële + immateriële vaste activa, en waar wijkt dat af van BE-GAAP?"
+    - slug: leasing-voorraden-en-opbrengsten-onder-ifrs
+      hint: "IFRS 16 + IAS 2 + IFRS 15 — de drie standaarden waar BE-GAAP en IFRS scherp uiteenlopen."
+    - slug: wat-is-ifrs-en-het-eu-kader
+      hint: "Terug naar het EU-kader — endorsement-traject + IFRS 1 eerste toepassing."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — Richtlijn-art-6/7-tekst + de vergelijking BE-GAAP/IFRS in één tabel."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [boekhoudbeginselen, belgisch-boekhoudrecht]
+    - concepten: [herwaardering-vast-actief, vaste-activa]
+    - concepten: [ifrs]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Algemene beginselen voor financiële verslaglegging — going concern, bestendigheid, voorzichtigheid, matching, materialiteit"
+    ref: "Richtlijn 2013/34/EU art. 6"
+    noot: "Acht beginselen (a t/m i in lid 1). Voorzichtigheid (c) verder uitgesplitst in drie sub-bepalingen (i, ii, iii)."
+  - onderwerp: "Realisatiebeginsel — winsten enkel gerealiseerd opnemen"
+    ref: "Richtlijn 2013/34/EU art. 6, lid 1, c), i)"
+    noot: "Letterlijke tekst getoetst op examen 2024-1 vraag 7B (eerste stelling)."
+  - onderwerp: "Asymmetrische verplichtingen — alle verplichtingen met oorsprong in boekjaar opnemen, ook bij latere kennis"
+    ref: "Richtlijn 2013/34/EU art. 6, lid 1, c), ii)"
+    noot: "Letterlijke tekst getoetst op examen 2024-1 vraag 7B (tweede stelling). Aansluiting met IAS 10 / CBN-advies 2019/04."
+  - onderwerp: "Negatieve waardecorrecties onvoorwaardelijk — afschrijvingen + waardeverminderingen ongeacht winst/verlies"
+    ref: "Richtlijn 2013/34/EU art. 6, lid 1, c), iii)"
+    noot: "Letterlijke tekst getoetst op examen 2024-1 vraag 7B (derde stelling)."
+  - onderwerp: "Herwaarderings-optie — lidstaat kan toestaan of voorschrijven"
+    ref: "Richtlijn 2013/34/EU art. 7, lid 1"
+    noot: "Lidstaat-keuze: optioneel ('toestaan') of verplicht voor categorieën ('voorschrijven'). Examen-stellingen toetsen de Richtlijn-tekst, niet automatisch de Belgische omzetting. Getest op examen 2024-1 vraag 7B (vierde stelling)."
+  - onderwerp: "Tegenboeking herwaardering in eigen vermogen (herwaarderingsreserve)"
+    ref: "Richtlijn 2013/34/EU art. 7, lid 2"
+    noot: "Verschil tussen aanschaffingsprijs en geherwaardeerd bedrag op creditzijde eigen vermogen — consistent met realisatiebeginsel art. 6 lid 1 c (i)."
+  - onderwerp: "Belgische omzetting voorzichtigheids-beginselen"
+    ref: "KB-WVV 29.04.2019 art. 3:10 (waarderingen voorzichtigheid + oprechtheid + goede trouw) + art. 3:11 e.v."
+    noot: "Integrale omzetting Richtlijn 2013/34/EU art. 6 — geen strengere of mildere afwijking."
+  - onderwerp: "Belgische omzetting herwaarderings-optie — facultatief"
+    ref: "KB-WVV 29.04.2019 art. 3:35 (facultatieve herwaardering MVA + FVA)"
+    noot: "Voorwaarden: duurzame meerwaarde + zekere/vaststaande rendabiliteit. Tegenboeking klasse 12 eigen vermogen. Niet uitkeerbaar als dividend zolang niet gerealiseerd."
+  - onderwerp: "IFRS-pendant herwaardering — revaluation model"
+    ref: "IAS 16.31 (Verordening (EU) 2023/1803)"
+    noot: "Keuze per MVA-klasse: cost model (alinea 30) of revaluation model (alinea 31). Reële waarde minus latere afschrijvingen."
+  - onderwerp: "IFRS-pendant fair value definitie + hiërarchie"
+    ref: "IFRS 13 — Fair Value Measurement (Verordening (EU) 2023/1803)"
+    noot: "Overkoepelende definitie + hiërarchie level 1/2/3 voor alle IFRS-standaarden die fair value gebruiken."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "EU-Hof van Justitie — strikte interpretatie voorzichtigheidsbeginsel"
+    inhoud: "Het Hof van Justitie heeft in vaste rechtspraak bevestigd dat het voorzichtigheidsbeginsel uit Richtlijn 2013/34/EU (en de voorganger 78/660/EEG) een asymmetrische verplichting oplegt: latente winsten mogen NIET in resultaat tot ze gerealiseerd zijn, terwijl verplichtingen met oorsprong in het boekjaar wél onmiddellijk moeten worden opgenomen. Een Belgische onderneming die afwijkt riskeert herclassificatie door commissaris of fiscus."
+    confidence: "⚠️ te verifiëren — algemene leer; specifieke arrest-referenties niet aangetroffen in RAG-corpus, kunnen voor leerstuk weggelaten worden indien niet examen-relevant"
+
+footer: "Leerstuk PO 1.5. Status: voorgesteld."

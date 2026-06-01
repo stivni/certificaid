@@ -1,175 +1,114 @@
 ---
 title: "PO 1.5 — Beginselen van de Europese wetgeving en internationale boekhoudkundige normen · overzicht"
-description: "Overzicht voor PO 1.5: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+description: "Overzicht PO 1.5: het Europees rechtskader (Verordening 1606/2002 + Richtlijn 2013/34/EU), de geselecteerde IFRS-standaarden (IAS 16/38/IFRS 16/15/IAS 2) en de scherpe BE-GAAP↔IFRS-verschillen die het examen toetst."
 explorer_title: "1.5 IFRS & EU"
 tags:
   - overzicht
   - po-1-5
+  - cluster-ifrs-en-internationale-rapportering
 ---
 
-> **Overzicht.** Drie-lagen-aanpak voor wie zich op het ITAA-examen voorbereidt: dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De **themafiche** *(zie §4)* geeft alles van een onderwerp op één pagina, als kapstok om snel te bekijken. De **concept-fiches** geven de details per begrip.
+> **Overzicht.** Dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De vier **leerstukken** *(zie §3)* werken elk één samenhangende vraag helemaal door op één gedeelde dual-reporting-case (Belgavia Manufacturing NV als Belgische dochter van een Frankfurt-genoteerde Duitse moeder). De **samenvatting** is een printbare kapstok voor herhaling vlak vóór het examen.
 
 ---
 
 ## 1. Waarom dit vak?
 
-België is geen eiland. De jaarrekeningregels die je in PO 1.1/1.2 leert zijn een **Belgische omzetting** van een **Europese richtlijn** (2013/34/EU), en wie aan een **beursgenoteerde** moedervennootschap rapporteert moet bovendien rechtstreeks de **IFRS-standaarden** van de IASB toepassen (Verordening 1606/2002). Dit vak leert je twee dingen tegelijk: (1) waar het Belgische boekhoudrecht vandaan komt (Europees kader, Belgische speelruimte als lidstaat), en (2) hoe de internationale standaarden (IAS/IFRS) dezelfde economische verrichtingen anders behandelen — soms gelijklopend, soms diametraal tegengesteld (LIFO verboden onder IFRS, lessee-onderscheid operationeel/financieel verdwijnt onder IFRS 16, enz.). Dat verschil — **BE-GAAP ↔ IFRS** — is een terugkerende exam-favoriet.
+België is geen eiland. De jaarrekeningregels die je in PO 1.1 en PO 1.2 leert zijn een **Belgische omzetting** van een **Europese richtlijn** (Richtlijn 2013/34/EU), en wie aan een **beursgenoteerde** moedervennootschap rapporteert moet bovendien rechtstreeks de **IFRS-standaarden** van de IASB toepassen op consolidatie-niveau (Verordening (EG) 1606/2002).
+
+Een Belgische dochter van een Duitse beursgenoteerde groep rapporteert in BE-GAAP voor haar eigen statutaire jaarrekening, maar moet voor consolidatie aan de moeder een IFRS-pakket aanleveren. Een Belgische analist die een genoteerde EU-groep bestudeert leest een IFRS-jaarrekening met andere EBITDA-marges, andere schuldgraad en andere lease-impact dan een BE-GAAP-jaarrekening van een Belgische niet-genoteerde KMO. Zonder kennis van de **gemeenschappelijke Europese basis** en de **scherpe verschillen tussen BE-GAAP en IFRS** kan een gecertificeerd accountant niet vlot tussen die werelden bewegen.
+
+Wat dit vak je leert: (1) waar het Belgische boekhoudrecht vandaan komt — de Europese rechtsbasis (Richtlijn 2013/34) + de Belgische omzetting (KB-WVV); (2) wanneer IFRS verplicht is in België (genoteerde groepen op consolidatie); (3) hoe de internationale standaarden (IAS/IFRS) dezelfde economische verrichtingen anders behandelen dan BE-GAAP — soms gelijklopend, soms diametraal tegengesteld (LIFO verboden onder IFRS, lessee-onderscheid operationeel/financieel verdwijnt onder IFRS 16, componentbenadering verplicht onder IAS 16). Dat verschil — **BE-GAAP ↔ IFRS** — is een terugkerende exam-favoriet.
 
 ### Hoe past dit in het bredere programma?
 
 | Andere PO | Relatie tot dit vak |
 |---|---|
 | **PO 1.1 — Algemene boekhouding** | Toetst dezelfde verrichtingen onder BE-GAAP. Dit vak voegt de IFRS-pendant toe — en de Europese rechtsbasis. |
-| **PO 1.2 — Boekhoudrecht en jaarrekeningenrecht** | Richtlijn 2013/34/EU is de bovenliggende laag boven het Belgische jaarrekeningenrecht. Sterke overlap voor de Europese beginselen. |
+| **PO 1.2 — Boekhoudrecht en jaarrekeningenrecht** | Richtlijn 2013/34/EU is de bovenliggende laag boven het Belgische jaarrekeningenrecht — sterke overlap voor de Europese beginselen + Belgische omzetting. |
 | **PO 1.3 — Analyse jaarrekening** | IFRS-jaarrekeningen lezen vraagt eigen ratio-discipline — EBITDA-marge, EBIT, IFRS 16-impact op schuldgraad. |
 | **PO 1.4 — Geconsolideerde jaarrekening** | IFRS 10/3/11/12 zijn de IFRS-pendant voor het Belgische consolidatie-stelsel — sterke inhoudelijke overlap. |
-| **PO 2.3 — Vennootschapsbelasting** | Uitgestelde belastingen (IAS 12) als pendant van klasse 168; fiscale gevolgen van IFRS-keuzes via primauteit boekhouding. |
+| **PO 2.3 — Vennootschapsbelasting** | Primauteit van de boekhouding: VenB-aangifte vertrekt van de statutaire BE-GAAP-JR, niet van de IFRS-consolidatie. IFRS-keuzes (IFRS 16, IAS 38) hebben daardoor zelden directe VenB-impact. |
 
 ---
 
 ## 2. Wat is dit vak?
 
-### Het probleem
+### Twee parallelle EU-kaders
 
-Een Belgische dochter van een Duitse beursgenoteerde groep rapporteert in BE-GAAP voor haar eigen jaarrekening, maar moet voor consolidatie aan de moeder leveren in IFRS. Een onderneming met een Vlaamse boekhouder en een Amerikaanse investeerder krijgt vragen over EBITDA en lease-impact die niet uit de Belgische cijfers leesbaar zijn. Zonder kennis van de **gemeenschappelijke Europese basis** en de **internationale standaarden** kan een gecertificeerd accountant niet vlot tussen die werelden bewegen.
+Het Europese boekhoudrecht werkt met **twee parallelle kaders**, niet één. **Verordening (EG) 1606/2002** maakt IFRS verplicht voor de geconsolideerde jaarrekening van alle EU-beursgenoteerde vennootschappen — direct bindend, geen omzetting nodig. **Richtlijn 2013/34/EU** harmoniseert het nationale BE-GAAP-jaarrekeningenrecht in alle lidstaten — minimumregels (art. 6 algemene beginselen) + lidstaat-opties (art. 7 herwaardering). Beide leven naast elkaar: 1606/2002 voor genoteerde consolidaties, 2013/34 voor het statutaire BE-GAAP-domein van élke onderneming. Wie deze tweedeling niet ziet, verwart endorsement-traject met richtlijn-omzetting. → [[wat-is-ifrs-en-het-eu-kader]]
 
-### De oplossing
+### De vier voorzichtigheidsbeginselen + de herwaardering-optie
 
-Dit vak legt twee lagen bloot. **Laag 1 — de Europese rechtsbasis** (Richtlijn 2013/34/EU + Verordening 1606/2002) bepaalt de minimumregels voor alle lidstaten en stelt IFRS verplicht voor genoteerde groepen. **Laag 2 — een selectie internationale standaarden** (IAS 1 presentatie · IAS 2 voorraden · IAS 16 materiële vaste activa · IAS 38 immateriële vaste activa · IFRS 15 opbrengsten · IFRS 16 leasing · IAS 36 impairment) gaat in op de praktische verschillen met BE-GAAP per balanspost.
+Het examen toetst de Richtlijn-tekst soms **letterlijk**. De drie sub-bepalingen van het voorzichtigheidsbeginsel (art. 6 lid 1 c) — winsten enkel gerealiseerd, verplichtingen met oorsprong in boekjaar, negatieve waardecorrecties onvoorwaardelijk — komen terug in J/F-stellingen. Art. 7 (herwaardering-optie) heeft een nuance examen-favoriet: een lidstaat kan herwaardering 'toestaan of voorschrijven' — twee verschillende keuzes. België koos 'toestaan' (facultatief), maar de Richtlijn-tekst opent uitdrukkelijk de mogelijkheid tot lidstaat-VERPLICHTING. → [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]
 
-### Het werkingsveld
+### Waarderen onder IFRS — vaste activa
 
-In België is IFRS **verplicht** voor de geconsolideerde jaarrekening van beursgenoteerde groepen (Verordening 1606/2002). Voor de enkelvoudige jaarrekening blijft BE-GAAP de regel — IFRS is daar niet eens optioneel. Voor niet-genoteerde groepen is IFRS-consolidatie wél optioneel (KB-WVV). Dit betekent in de praktijk: de meeste Belgische ondernemingen rapporteren BE-GAAP; een minderheid (genoteerd of dochter van een genoteerde groep) heeft een IFRS-perspectief. Voor het examen moet je vooral het *verschil* kennen — niet IFRS uit het hoofd, wel de **klassieke valkuilen** waar BE-GAAP en IFRS uiteenlopen.
+IAS 16 (materiële vaste activa) en IAS 38 (immateriële vaste activa) waarderen vaste activa initieel tegen kostprijs + directly attributable costs, en kiezen daarna per klasse tussen cost model en revaluation model. Belangrijkste BE-GAAP-divergenties: componentbenadering verplicht (IAS 16.43), afschrijving wordt niet stopgezet bij FV > BW (IAS 16.55), ontwikkelingskosten activeren mits 6 cumulatieve criteria (IAS 38.57), onderzoek altijd in resultaat (IAS 38.54). Examen-vraag 7C (2024-1) testte dit terrein in vier J/F-stellingen tegelijk. → [[vaste-activa-onder-ifrs]]
 
-### Waar de stof samenkomt
+### De grote BE-GAAP↔IFRS-divergenties — leasing, voorraden, opbrengsten
 
-Verschillende kennislagen lopen door elkaar. Het **Europees rechtskader** — Richtlijn 2013/34/EU (algemene beginselen: voorzichtigheid, realisatie, asymmetrie winst/verlies, herwaardering-optie art. 7) + Verordening 1606/2002 (IFRS-verplichting genoteerde groepen) — geeft het wettelijke fundament. Het **conceptueel IFRS-kader** — opname, waardering, getrouwe weergave, going concern, accruals — vormt de denkmethode. De **geselecteerde IAS/IFRS-standaarden** — voor het examen vooral IAS 2 (LIFO verbod), IAS 16 (cost vs. revaluation model + afschrijfregels), IAS 38 (immateriële vaste activa), IFRS 15 (5-stappen-model opbrengsten), IFRS 16 (lessee single model — verdwijning operationeel/financieel onderscheid) — leveren de concrete praktijkverschillen met BE-GAAP.
-
-### Wat doet de accountant hier?
-
-Drie rollen kruisen elkaar in dit vak: de **boekhouder/accountant** kent het Europese kader voldoende om de Belgische bronnen correct te plaatsen en kan een IFRS-vereiste rapporteringspakket aanleveren voor een groepsmoeder; de **commissaris** beoordeelt of IFRS correct is toegepast bij genoteerde cliënten en signaleert BE-GAAP↔IFRS-correcties; de **adviseur** begeleidt klanten bij een **eerste IFRS-toepassing** (IFRS 1), bij een conversie van BE-GAAP naar IFRS, of bij een beursgang die IFRS-verplichting activeert. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+Drie standaarden waar BE-GAAP en IFRS scherp uiteenlopen: **IFRS 16** dwingt elke lease (boven vrijstellingsdrempels) on-balance bij de lessee via een ROU-actief + leaseverplichting — terwijl BE-GAAP nog steeds operationeel/financieel onderscheidt. **IAS 2** verbiedt LIFO terwijl BE-GAAP het toelaat (art. 3:21 KB-WVV). **IFRS 15** erkent opbrengsten via een 5-stappen-model op overdracht van controle, niet op factuurmoment. Allemaal variaties op één rode draad: substance over form. → [[leasing-voorraden-en-opbrengsten-onder-ifrs]]
 
 ---
 
-## 3. Wat moet je kunnen?
+## 3. Wat moet je kunnen + hoe pak je het aan
 
-Het examenprogramma noemt voor dit vak **één hoofdtaak**:
+Het examenprogramma noemt voor dit vak **één hoofdtaak** op het hoogste cognitieve niveau (*integratie*):
 
-> *Opstellen van de individuele en geconsolideerde jaarrekening*
+> *Opstellen van de individuele en geconsolideerde jaarrekening — met inachtneming van de internationale normen + conformiteit verifiëren en waarborgen*
 
-De twee officiële doelstellingen vragen je een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron op te zoeken, grondig te analyseren en toe te passen *met inachtneming van internationale normen*, én de conformiteit van boekhouding en documenten met de wettelijke en reglementaire vereisten te verifiëren en waarborgen.
+Twee doelstellingen lopen door dit vak: (1) een beginsel van boekhoudrecht of een wettelijke bepaling uit Belgische of Europese bron opzoeken, grondig analyseren en toepassen; (2) de conformiteit van boekhouding en documenten met de wettelijke en reglementaire vereisten verifiëren. Drie rollen — boekhouder, commissaris, adviseur — komen in elk leerstuk terug via accountant-perspectief-blokken.
 
-### De kern — Europees kader en geselecteerde IFRS
+### Leesroute door de leerstukken (vier stappen)
 
-Wat je concreet moet kunnen, per rol die je later zal opnemen:
+1. **EU-kader + endorsement** — [[wat-is-ifrs-en-het-eu-kader]]. Zonder begrip van de IASB-architectuur, het endorsement-traject (EFRAG/ARC/EC), Verordening 1606/2002 als rechtsbasis voor genoteerden, en de Belgische opties (KB-WVV art. 3:104 §2) hangt elke specifieke IAS/IFRS-regel in de lucht. Bevat ook IFRS 1 eerste-toepasser-mechanisme + conceptueel kader + IAS 8 hiërarchie.
+2. **Richtlijn 2013/34/EU art. 6 + 7** — [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]. Diepe duik in de drie sub-bepalingen van het voorzichtigheidsbeginsel (i, ii, iii) + de lidstaat-optie voor herwaardering. Examen-zwaartepunt: drie van de vier J/F-stellingen op examen 2024-1 vraag 7B citeerden deze artikelen letterlijk.
+3. **IAS 16 + IAS 38** — [[vaste-activa-onder-ifrs]]. Materiële vaste activa met de componentbenadering en niet-stoppen-met-afschrijven, immateriële vaste activa met de 6 R&D-criteria. Examen-favoriet voor IAS 16 (vraag 7C op 2024-1).
+4. **IFRS 16 + IAS 2 + IFRS 15** — [[leasing-voorraden-en-opbrengsten-onder-ifrs]]. De drie standaarden waar BE-GAAP en IFRS het scherpst uiteenlopen. Lease on-balance, LIFO-verbod, 5-stappen-revenue — twee van de vier examen-vragen op 2024-1 raken dit leerstuk.
 
-**Als boekhouder of accountant:**
-- De rechtsbasis van [[ifrs|IFRS]] in de EU correct situeren (Verordening 1606/2002 + IAS-Verordening 2023/1803 als geconsolideerde versie)
-- De **beginselen** van Richtlijn 2013/34/EU toepassen (voorzichtigheid, realisatiebeginsel, asymmetrische behandeling winsten/verliezen, herwaardering-optie art. 7)
-- [[voorraden|Voorraden waarderen]] onder IAS 2 — drie methodes (specifieke identificatie, FIFO, gewogen gemiddelde) — LIFO verboden
-- [[materiele-vaste-activa|Materiële vaste activa]] waarderen onder IAS 16 (cost model vs. revaluation model · componentenbenadering · afschrijfregel niet-stoppen)
-- [[immateriele-vaste-activa|Immateriële vaste activa]] herkennen onder IAS 38 (identifiability, control, future economic benefits · onderzoek-vs-ontwikkeling)
-- [[opbrengstverantwoording|Opbrengsten]] verantwoorden onder IFRS 15 (5-stappen-model)
-- Het verschil [[financiele-leasing|financiële leasing]] vs. [[operationele-leasing|operationele leasing]] toepassen onder **BE-GAAP**, en zien hoe dat onderscheid **aan de lessee-zijde verdwijnt onder IFRS 16** (single model: ROU-actief + leaseverplichting)
+### Voor de herhaling — samenvatting
 
-**Als commissaris of bedrijfsrevisor:**
-- Toetsen of een genoteerde cliënt [[ifrs|IFRS]] correct toepast bij [[geconsolideerde-jaarrekening|consolidatie]]
-- BE-GAAP ↔ [[ifrs#be-gaap-ifrs-verschillen-matrix|IFRS]]-verschillen (impairment IAS 36, lease IFRS 16, voorraadwaardering IAS 2) als auditrisico's identificeren
-- De [[ifrs|conceptueel kader]] gebruiken om interpretatieve vragen op te lossen
+Wanneer je de stof grondig gezien hebt en het examen nadert, is de **samenvatting** een PO-brede kapstok op 2-4 A4 (printbaar) met de vergelijkingsmatrix per balanspost, de Richtlijn-citaten art. 6 + 7, de IFRS-architectuur-tabel en de klassieke valkuilen. Niet bedoeld om voor het eerst te leren — wel om snel te overlopen vlak vóór het examen.
 
-**Als adviseur:**
-- Een cliënt begeleiden bij **eerste [[ifrs|IFRS-toepassing]]** (IFRS 1) — beursgang, overname door genoteerde groep
-- Adviseren over IFRS-keuzes (cost vs. revaluation model voor [[materiele-vaste-activa|materiële vaste activa]], optie herwaardering art. 7 Richtlijn)
-- Het verschil **[[boekhoudbeginselen|realisatiebeginsel]] ↔ [[ifrs#fair-value-beginsel|fair value]]** uitleggen bij IFRS-waarderingen
-
-### Rakend — Belgische jaarrekening en consolidatie
-
-De Belgische jaarrekening en haar wettelijk kader staan in PO 1.1 en PO 1.2. De consolidatie (B-GAAP én IFRS 10/3/11/12) staat in PO 1.4. Hier focussen we op het Europese / internationale **stelselverschil**. Voor dat raakvlak:
-
-- **Overzicht PO 1.1 — Algemene boekhouding** *(zie naast deze)* — BE-GAAP-techniek
-- **Overzicht PO 1.2 — Boekhoudrecht en jaarrekeningenrecht** *(zie naast deze)* — Belgisch wettelijk kader (zelf op Richtlijn 2013/34/EU gebaseerd)
-- **Overzicht PO 1.4 — Geconsolideerde jaarrekening** *(nog te maken)* — IFRS 10/3/11/12 in consolidatie-context
-
-### Wat je daarvoor moet kennen
-
-Naast de operationele acties hierboven moet je deze begrippen en kaders beheersen — ze zijn de inhoudelijke ondergrond:
-
-**Het hoofdbegrip**
-- [[ifrs]] — Σ-hoofdrecord IFRS-rapportering · IASB-rol · IAS-Verordening EU 1606/2002 · directe toepassing op genoteerde groepen · optie voor niet-genoteerde · conceptueel kader
-
-**Geselecteerde IAS/IFRS-standaarden (eigen fiches)**
-- [[materiele-vaste-activa]] — IAS 16: kostprijs + initiële waardering + cost vs. revaluation model + afschrijfregel
-- [[immateriele-vaste-activa]] — IAS 38: identifiability · control · future economic benefits · onderzoek-vs-ontwikkeling
-- [[opbrengstverantwoording]] — IFRS 15: 5-stappen-model · over-time vs. point-in-time
-
-**Geselecteerde IAS/IFRS-standaarden (verweven in andere fiches)**
-- IAS 2 — Voorraden (zie [[voorraden]] — IFRS-perspectief; LIFO verboden)
-- IFRS 16 — Leases (zie [[leasing]] · [[financiele-leasing]] · [[operationele-leasing]] — IFRS-perspectief: lessee single model)
-- IAS 1 — Presentation of Financial Statements (geen aparte fiche — opgenomen via [[ifrs]] en [[jaarrekening]])
-- IAS 36 — Impairment of Assets (verweven via [[materiele-vaste-activa]] en [[immateriele-vaste-activa]])
-- IAS 12 — Income Taxes (verweven via [[uitgestelde-belastingen]] in PO 1.1)
-
-**Wettelijke kaders (geen aparte fiches — ze zitten verweven in de records)**
-- **Richtlijn 2013/34/EU** van 26 juni 2013 — algemene beginselen jaarrekening + geconsolideerde rekeningen (art. 6 voorzichtigheid · art. 7 herwaardering-optie)
-- **Verordening (EG) nr. 1606/2002** — verplichte IFRS-toepassing voor genoteerde groepen
-- **Verordening (EU) 2023/1803** — geconsolideerde versie van de in EU goedgekeurde IAS/IFRS
-- **KB-WVV van 29 april 2019** — Belgische omzetting (art. 3:10 voorzichtigheid · art. 3:34 facultatieve herwaardering)
-- **CBN-adviezen** — interpretatie BE-GAAP, regelmatig met IFRS-vergelijking (CBN 132/7 voorraden · CBN 2015/4 leasing · CBN 2019/04 schatting-wijziging)
+→ [[studiemateriaal/1-5/samenvatting|Samenvatting PO 1.5 — IFRS en EU-kader]] (2-4 A4, printbaar)
 
 ---
 
-## 4. Studie-aanpak
+## 4. Examen-radar — wat is in de praktijk al bevraagd?
 
-### Leesroute door de fiches (vier stappen)
+Uit de voorbeeldexamens (alleen 2024-1 op moment van schrijven) zijn **4 unieke vraag-eenheden** met dit vak getagd — een relatief klein corpus (PO 1.5 is een recente focus), maar elk met meerdere deelvragen en allemaal met modelantwoord beschikbaar.
 
-Werk de stof op in vier stappen — van het kader naar de drie pijler-standaarden naar de BE-GAAP ↔ IFRS-vergelijkingen.
-
-1. **Begin met de koepel**: [[ifrs]]. Zonder helder kader (IASB-rol, Verordening 1606/2002, conceptueel kader, toepassingsgebied in België) versplintert de stof. Dit is het belangrijkste record voor dit vak.
-2. **Daarna de drie eigen IFRS-fiches**: [[materiele-vaste-activa]] (IAS 16) + [[immateriele-vaste-activa]] (IAS 38) + [[opbrengstverantwoording]] (IFRS 15). Per fiche: scope, herkenningscriteria, waarderingsmodellen, klassieke valkuilen.
-3. **Dan de records met IFRS-perspectief uit PO 1.1**: [[voorraden]] (IAS 2 — LIFO verboden), [[leasing]] + [[financiele-leasing]] + [[operationele-leasing]] (IFRS 16 — lessee single model). Lees deze met focus op het IFRS-perspectief, niet op de BE-GAAP-mechaniek.
-4. **Sluit af met de raakvlakken**: scroll terug naar je notities van PO 1.1 voor de records waar BE-GAAP en IFRS uiteenlopen — herwaardering ([[herwaardering-vast-actief]] vs. IAS 16 revaluation), uitgestelde belastingen ([[uitgestelde-belastingen]] vs. IAS 12), eindejaarsverrichtingen vs. impairment IAS 36. De exam-favoriet zit hier.
-
-### Voor de herhaling — themafiche
-
-Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
-
-| Themafiche | Rol voor dit vak |
-|---|---|
-| [[themafiches/be-gaap-vs-ifrs-vergelijking|B-GAAP vs IFRS: balansposten vergelijking]] | **Kern** — vergelijkingstabel per balanspost (voorraden, vaste activa, leasing, herwaardering, impairment) |
-| [[themafiches/ifrs-toepassingskader|IFRS-toepassingskader & EU-richtlijn]] | **Kern** — Richtlijn 2013/34/EU + Verordening 1606/2002 — beginselen en toepassingsgebied |
-
----
-
-## 5. Examen-radar — wat is in de praktijk al bevraagd?
-
-Uit de voorbeeldexamens 2024 zijn **4 unieke vraag-eenheden** met dit vak getagd — een relatief klein corpus (PO 1.5 is een recente focus), maar elk met meerdere deelvragen en allemaal met modelantwoord beschikbaar.
-
-| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+| Onderwerp | Hoe vaak? | Type vraag | Welk leerstuk |
 |---|---|---|---|
-| **Voorraadwaarderingsmethoden toegelaten onder IAS/IFRS** | 1× (2024-1) | MC — welke combinatie? | [[voorraden]] (IAS 2-perspectief) |
-| **Voorzichtigheidsprincipe — Richtlijn 2013/34/EU art. 6 + art. 7** | 1× (2024-1) | J/F-stellingen | [[ifrs]] · [[boekhoudbeginselen]] (Europees kader) |
-| **IAS/IFRS-stellingen: degressieve afschrijving, locatievoorbereiding, uitzonderlijke posten, afschrijving stopzetten** | 1× (2024-1) | J/F-stellingen | [[materiele-vaste-activa]] (IAS 16) |
-| **Leasing — operationele en financiële behandeling onder IFRS 16** | 1× (2024-1) | Open vraag (overzicht boekhoudkundige verwerking) | [[leasing]] · [[financiele-leasing]] · [[operationele-leasing]] |
+| **Voorraadwaarderingsmethoden onder IAS/IFRS** (FIFO/GMP/individueel toegelaten, LIFO verboden) | 1× (2024-1) | MC | [[leasing-voorraden-en-opbrengsten-onder-ifrs]] |
+| **Voorzichtigheidsprincipe — Richtlijn 2013/34/EU art. 6 + art. 7** | 1× (2024-1) | J/F (4 stellingen) | [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]] |
+| **IAS/IFRS-stellingen: degressief, locatievoorbereiding, uitzonderlijke posten, afschrijving stopzetten** | 1× (2024-1) | J/F (4 stellingen) | [[vaste-activa-onder-ifrs]] |
+| **Leasing — operationele en financiële behandeling onder IFRS 16** | 1× (2024-1) | Open vraag | [[leasing-voorraden-en-opbrengsten-onder-ifrs]] |
 
-**Patroon dat opvalt**: het examen toetst geen IFRS-standaard uit het hoofd, maar wel de **scherpe verschillen met BE-GAAP**: LIFO is in BE-GAAP toegelaten en in IAS 2 verboden; de lessee-classificatie operationeel/financieel verdwijnt onder IFRS 16; uitzonderlijke posten bestaan niet meer in IAS 1; afschrijvingen worden niet stopgezet wanneer reële waarde > boekwaarde (IAS 16.55); herwaardering is in België facultatief, in art. 7 van de Richtlijn kan een lidstaat haar voorschrijven. De **tekstuele bron** (Richtlijn 2013/34/EU art. 6 en art. 7) komt soms verbatim terug in J/F-stellingen — vier basis-beginselen kennen (realisatie, oorsprong-in-boekjaar, alle negatieve waardecorrecties, herwaardering-optie) is direct exam-punten waard. Cijferzakboekje-bedragen worden niet bevraagd; IAS-paragraafnummers (IAS 16.55, IAS 1.87) wél in modelantwoorden — niet om uit het hoofd te kennen, wel om te begrijpen wanneer je waar mag landen.
+**Patroon dat opvalt**: het examen toetst geen IFRS-standaard uit het hoofd, maar wel de **scherpe verschillen met BE-GAAP**: LIFO is in BE-GAAP toegelaten en in IAS 2 verboden; de lessee-classificatie operationeel/financieel verdwijnt onder IFRS 16; uitzonderlijke posten bestaan niet meer in IAS 1 (en sinds 2016 ook niet meer in het Belgische schema); afschrijvingen worden niet stopgezet wanneer reële waarde > boekwaarde (IAS 16.55); herwaardering is in België facultatief, in art. 7 van de Richtlijn kan een lidstaat haar voorschrijven. De **tekstuele bron** (Richtlijn 2013/34/EU art. 6 en art. 7) komt soms letterlijk terug in J/F-stellingen — vier basis-beginselen kennen (realisatie, oorsprong-in-boekjaar, alle negatieve waardecorrecties, herwaardering-optie) is direct exam-punten waard. Cijferzakboekje-bedragen worden niet bevraagd in dit vak; IAS-paragraafnummers (IAS 16.55, IAS 1.87) wél in modelantwoorden — niet om uit het hoofd te kennen, wel om te begrijpen wanneer je waar mag landen.
+
+> **Wat dit betekent voor voorbereiding.** Vier voorbeeldexamen-vragen dekken **drie** van de vier kennisselementen (I-V): voorraadwaardering raakt V (selectie standaarden), Richtlijn-art-6/7 raakt I (Richtlijn-beginselen), IAS 16-stellingen + leasing raken V. **IAS 38 (immateriële VA — R&D-criteria) en IFRS 15 (opbrengsten — 5-stappen-model) zijn nog niet expliciet bevraagd** in de tot dusver vrijgegeven voorbeeldexamens — staan wel uitdrukkelijk in kennisselement V en kunnen elk moment opduiken. Bereid je voor zonder false sense of security uit het schaarse examenmateriaal.
 
 → **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 1.5](voorbeeldexamenvragen).
 
 ---
 
-## 6. Concepten die ook in andere PO's leven
+## 5. Concepten die ook in andere PO's leven
 
 Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
 
 | Concept | Ook actief in | Waarom relevant elders |
 |---|---|---|
-| [[voorraden]] | PO 1.1 (boekhouding) | BE-GAAP toelaat LIFO (art. 3:58 KB WVV); IAS 2 verbiedt — vergelijking is exam-favoriet |
-| [[materiele-vaste-activa]] | PO 1.1, PO 1.4 (consolidatie) | Cost vs. revaluation model — IFRS-perspectief versus art. 3:35 KB WVV |
-| [[leasing]] | PO 1.1, PO 1.3 (analyse) | IFRS 16 wijzigt schuldgraad en EBITDA — analyse-impact |
-| [[ifrs]] | PO 1.4 (consolidatie) | IFRS 10/3/11/12 voor consolidatie — Europese rechtsbasis is hier al gelegd |
-| [[opbrengstverantwoording]] | PO 1.1 | IFRS 15 5-stappen-model versus klasse 70 BE-GAAP |
+| [[voorraden]] | PO 1.1 (boekhouding) | BE-GAAP laat LIFO toe (art. 3:21 KB-WVV); IAS 2 verbiedt — vergelijking is exam-favoriet |
+| [[materiele-vaste-activa]] | PO 1.1, PO 1.4 (consolidatie) | Cost vs. revaluation model — IFRS-perspectief versus art. 3:35 KB-WVV facultatieve herwaardering |
 | [[immateriele-vaste-activa]] | PO 1.1, PO 4.x (waardering) | IAS 38 onderzoek-vs-ontwikkeling — waarderingsimpact bij overname |
+| [[leasing]] | PO 1.1, PO 1.3 (analyse) | IFRS 16 wijzigt EBITDA en schuldgraad — analyse-impact bij vergelijking tussen stelsels |
+| [[opbrengstverantwoording]] | PO 1.1 | IFRS 15 5-stappen-model versus klasse 70 BE-GAAP — substance over form |
+| [[ifrs]] | PO 1.4 (consolidatie) | IFRS 10/3/11/12 voor consolidatie — Europese rechtsbasis is hier al gelegd |
+| [[boekhoudbeginselen]] | PO 1.1, PO 1.2 | Voorzichtigheid + realisatie + matching liggen onder zowel BE-GAAP als de Richtlijn — basis voor 1.5 art. 6 |
+| [[herwaardering-vast-actief]] | PO 1.1 | Art. 3:34 KB-WVV vs IAS 16.31 revaluation model — pendant-vergelijking |
 
 ---
 
-*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 1.5). Status: voorgesteld — nog niet inhoudelijk gecureerd.*
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 1.5). Status: voorgesteld — gecureerd op basis van voorbeeldexamen 2024-1 + concept-records + Richtlijn 2013/34/EU + IFRS-standaarden in geconsolideerde versie Verordening (EU) 2023/1803.*

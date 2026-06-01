@@ -1,0 +1,227 @@
+# Leerstuk-script — Wat is IFRS en het EU-kader?
+#
+# PO 1.5 leerstuk 1 (entry + kader). Zet het wettelijk + institutioneel
+# kader neer waarbinnen IFRS in de EU werkt: IASB-architectuur, EU-endorsement
+# (EFRAG/ARC/EC), Verordening 1606/2002 als rechtsbasis, Richtlijn 2013/34/EU
+# als parallel BE-GAAP-kader, IFRS 1 als eerste-toepasser-mechanisme,
+# conceptueel kader + IAS 8 hiërarchie. Bedoeld als oriëntatie vóór de
+# stagiair in detail-IAS/IFRS-standaarden duikt.
+#
+# Hand-off: dit leerstuk introduceert "Richtlijn 2013/34/EU" en "voorzichtigheid"
+# alleen kort — diepe duik (art. 6 + 7) staat in leerstuk 2. De specifieke
+# IFRS-standaarden (IAS 16/38/IFRS 16/15/IAS 2) worden hier alleen genoemd
+# als deel van het V-kennisselement; uitwerking in leerstukken 3 + 4.
+
+meta:
+  slug: wat-is-ifrs-en-het-eu-kader
+  titel: "Wat is IFRS en het EU-kader?"
+  po: "1.5"
+  cluster: ifrs-en-internationale-rapportering
+  voorbeeldgroep: belgavia-bavaria
+  beschrijving: >
+    Leerstuk PO 1.5 — entry + kader: wat is IFRS, waar komt het vandaan
+    (IASB + endorsement-traject), wanneer is het in België verplicht
+    (Verordening 1606/2002 + Belgische opties), en hoe past Richtlijn
+    2013/34/EU als parallel BE-GAAP-kader. Bevat ook IFRS 1 eerste
+    toepassing en het conceptueel kader.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht van PO 1.5
+    en aankondiging dat wikilinks naar concept-fiches en broer-leerstukken
+    doorheen de tekst zullen verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: IFRS is een coherent stelsel van internationale verslaggevingsstandaarden van de IASB, in de EU verplicht voor de geconsolideerde jaarrekening van beursgenoteerde groepen via Verordening (EG) 1606/2002 — terwijl de Belgische statutaire jaarrekening BE-GAAP blijft."
+    - "Twee parallelle kaders: (a) Verordening 1606/2002 verplicht IFRS voor genoteerde groepen op consolidatie-niveau · (b) Richtlijn 2013/34/EU harmoniseert het BE-GAAP-jaarrekeningenrecht over alle lidstaten — beide leven naast elkaar, niet boven elkaar."
+    - "Drie kernregels voor je stagiair-praktijk: statutair = altijd BE-GAAP · genoteerde groep → IFRS verplicht voor consolidatie · niet-genoteerde groep → IFRS optioneel voor consolidatie + nooit voor statutaire JR."
+  visualisaties:
+    - type: mermaid
+      ref: wanneer_ifrs
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'In dit leerstuk leg ik de EU-architectuur + toepassingsregels vast — leerstuk 2 duikt diep in de Richtlijn-art-6/7, leerstukken 3 + 4 in de geselecteerde IFRS-standaarden.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wat-is-ifrs
+    titel: "Wat is IFRS — een normensetter, geen wet"
+    niveau: 2
+    beats:
+      - "Open met de naamgeving: IFRS = International Financial Reporting Standards. Sinds 2001 uitgegeven door de IASB (International Accounting Standards Board) in Londen — een private, niet-gouvernementele normensetter. Oudere standaarden (vóór 2001) heten 'IAS' (International Accounting Standards) en blijven geldig — vandaar dat je in de praktijk over 'IAS/IFRS' hoort spreken."
+      - "Belangrijk: de IASB legt zelf NIETS op. Geen overheid, geen rechtsmacht. Een IASB-standaard wordt pas bindend voor Belgische ondernemingen via een EU-endorsement-traject (zie volgende sectie)."
+      - "Concretiseer met Bavaria Industries AG (moeder van Belgavia): Bavaria moet IFRS toepassen op haar geconsolideerde jaarrekening omdat zij genoteerd is op de Frankfurt-beurs — niet omdat de IASB dat zegt, wel omdat Verordening (EG) 1606/2002 dat aan álle EU-genoteerden oplegt."
+      - "Synthese: IASB stelt op · EU endorseert · onderneming past toe. Drie schakels — verwarrende gangbare frase 'IFRS legt op' is technisch fout."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Term", "Wie", "Wat"]
+        rijen:
+          - ["**IASB**", "International Accounting Standards Board", "Private standaard-setter sinds 2001, gevestigd in Londen — stelt IFRS-standaarden op"]
+          - ["**IFRS**", "Standaarden van IASB sinds 2001", "International Financial Reporting Standards — nieuwe reeks vanaf 2001"]
+          - ["**IAS**", "Standaarden van voorganger IASC (1973-2001)", "International Accounting Standards — oude reeks, nog geldig (IAS 1, IAS 2, IAS 16, ...)"]
+          - ["**IFRIC / SIC**", "Interpretatie-comités", "IFRIC + Standing Interpretations Committee — bindende interpretaties"]
+
+  - id: eu-architectuur-endorsement
+    titel: "De EU-architectuur — endorsement via vier lagen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: een IASB-standaard moet vier lagen passeren vóór hij Belgisch toepasbaar is. Dit is het 'endorsement'-traject — een waarheid die stagiairs vaak overslaan en die op het examen tot foute antwoorden leidt ('IASB legt op')."
+      - "Laag 1 — IASB stelt een technische standaard op (bv. IFRS 18 'Presentation in Financial Statements', publicatie 2024)"
+      - "Laag 2 — EFRAG (European Financial Reporting Advisory Group) geeft een technisch advies aan de Europese Commissie: is de standaard verenigbaar met EU-recht, is hij begrijpelijk + relevant + betrouwbaar + vergelijkbaar?"
+      - "Laag 3 — ARC (Accounting Regulatory Committee) brengt een politiek-administratief advies uit waarbij EU-lidstaten stemmen"
+      - "Laag 4 — Europese Commissie keurt goed en publiceert via EU-Verordening. Vanaf publicatie: Belgisch toepasbaar (gepubliceerd in geconsolideerde versie Verordening (EU) 2023/1803)."
+      - "Belangrijke nuance: endorsement is GEEN automatisme. EFRAG kan negatief adviseren of de ARC kan blokkeren. Voorbeeld: IFRS 9 macro-hedge-bepalingen werden door de EU jarenlang niet geëndorseerd."
+      - "Concretiseer: Verordening (EU) 2023/1803 is de huidige geconsolideerde versie van alle geëndorseerde IAS/IFRS — examen-antwoordbladen citeren letterlijk 'IAS X.Y (Verordening (EU) 2023/1803)'. Onthoud dat verordening-nummer."
+    visualisaties:
+      - type: mermaid
+        ref: eu_architectuur
+        bron: voorbeeldgroep
+
+  - id: twee-parallelle-kaders
+    titel: "Twee parallelle EU-kaders — Verordening 1606/2002 vs Richtlijn 2013/34/EU"
+    niveau: 2
+    beats:
+      - "Open met de kern-onderscheiding die elke stagiair scheef houdt: de EU werkt met TWEE parallelle boekhoudkundige rechtskaders, niet één. Beide zijn EU-recht. Beide zijn bindend. Maar ze regelen verschillende dingen voor verschillende ondernemingen."
+      - "Kader A — Verordening (EG) 1606/2002 — IAS-Verordening: maakt IFRS verplicht voor de geconsolideerde jaarrekening van álle beursgenoteerde EU-vennootschappen. Direct bindend in alle lidstaten (verordening, niet richtlijn). Beperkte scope: enkel geconsolideerde JR, enkel genoteerden."
+      - "Kader B — Richtlijn 2013/34/EU — boekhoudrichtlijn: harmoniseert het nationale boekhoudrecht (BE-GAAP, NL-GAAP, DE-HGB...) voor alle niet-genoteerden + voor de statutaire JR van genoteerden. Bevat de algemene beginselen (voorzichtigheid · realisatie · asymmetrie · materialiteit · ...) — leerstuk 2 werkt dit uit. Wordt door elke lidstaat in nationaal recht omgezet (KB-WVV 29.04.2019 in België)."
+      - "Synthese-zin: 1606/2002 = IFRS voor genoteerde consolidaties · 2013/34 = harmonisering nationaal BE-GAAP. Beide leven naast elkaar — geen 'de Richtlijn implementeert IFRS' of 'IFRS overschrijft de Richtlijn'."
+      - "Belangrijke nuance: Belgische lidstaat-vrijheid binnen 2013/34. De Richtlijn legt minimumregels op (art. 6 algemene beginselen) en BIEDT opties (art. 7 herwaardering = lidstaat-keuze) — uitgewerkt in [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "Verordening 1606/2002", "Richtlijn 2013/34/EU"]
+        rijen:
+          - ["**Soort EU-instrument**", "Verordening — direct bindend", "Richtlijn — lidstaten moeten omzetten"]
+          - ["**Doel**", "IFRS verplicht stellen voor geconsolideerde JR genoteerden", "Harmoniseren nationaal jaarrekeningenrecht (BE-GAAP) — beginselen, schema, jaarverslag"]
+          - ["**Toepassing op statutaire JR**", "Niet van toepassing", "Volledig van toepassing (basis BE-GAAP)"]
+          - ["**Toepassing op geconsolideerde JR**", "Verplicht voor genoteerden", "Verplicht voor niet-genoteerden (B-GAAP-consolidatie); optie genoteerden voor consolidatie waar 1606/2002 niet dwingt"]
+          - ["**Belgische omzetting**", "Direct toepasbaar — geen omzetting nodig", "KB-WVV 29.04.2019 (Belgische enkelvoudige + geconsolideerde JR)"]
+          - ["**Bevoegd EU-orgaan voor wijzigingen**", "EU Commissie + EFRAG-advies (endorsement IAS/IFRS)", "EU Parlement + Raad (richtlijn-wijziging)"]
+
+  - id: ifrs-in-belgie
+    titel: "Wanneer is IFRS verplicht in België?"
+    niveau: 2
+    beats:
+      - "Open met de praktijkvraag: 'mijn cliënt is een Belgische vennootschap — moet ze IFRS toepassen?' Drie scharniervragen sturen het antwoord."
+      - "Scharniervraag 1 — beursgenoteerd? Een Belgische BV of NV die NIET genoteerd is op een gereglementeerde EU-markt valt niet onder Verordening 1606/2002. Geen IFRS-verplichting, ongeacht groottecategorie of activiteit."
+      - "Scharniervraag 2 — statutair of geconsolideerd? Zelfs voor genoteerden geldt: STATUTAIR (enkelvoudig) blijft BE-GAAP. IFRS is uitsluitend van toepassing op de GECONSOLIDEERDE jaarrekening. Reden: de statutaire JR is de basis voor VenB-aangifte (primauteit boekhouding) + dividend-test + NBB-neerlegging — die rechtsfeiten leven onder Belgisch recht, niet onder IFRS."
+      - "Scharniervraag 3 — niet-genoteerde groep, geconsolideerd? OPTIE volgens Belgisch recht. KB van 30.01.2001 (uitvoering boekhoudrecht) staat IFRS toe voor de geconsolideerde JR van niet-genoteerde Belgische groepen. Eenmaal gekozen: niet vrijblijvend terug — IAS 8-discipline."
+      - "Belgavia-toepassing: Belgavia (Belgische dochter van Bavaria) is zelf NIET genoteerd. Haar statutaire JR is dus BE-GAAP (KB-WVV). MAAR ze moet voor de groep een IFRS-pakket aanleveren, want Bavaria (moeder) is genoteerd op Frankfurt en moet IFRS-consolideren. Belgavia werkt dus parallel met twee waarderingsstelsels — de natuurlijke dual-reporting-context."
+      - "Synthese: voor 95 %+ van Belgische ondernemingen blijft BE-GAAP de enige relevante norm. IFRS-praktijk leeft bij dochters van genoteerde groepen + bij genoteerde Belgische groepen zelf (Solvay, KBC, Proximus, ...)."
+    visualisaties:
+      - type: mermaid
+        ref: wanneer_ifrs
+        bron: voorbeeldgroep
+      - type: mermaid
+        ref: dual_reporting_flow
+        bron: voorbeeldgroep
+
+  - id: conceptueel-kader-en-ias-8
+    titel: "Het conceptueel kader + IAS 8 — wat als geen standaard antwoord geeft?"
+    niveau: 2
+    beats:
+      - "Open met de realiteit: de IFRS-standaarden dekken niet elke verrichting. Voor een nieuwe verrichting (crypto-activa, sustainability-credits, ...) is er soms geen specifieke standaard. Wat dan?"
+      - "Het 'Conceptual Framework' (laatst herzien 2018) is GEEN standaard maar een interpretatieve gids. Het bevat: definities van basis-bouwstenen (actief, verplichting, eigen vermogen, baten, lasten), erkenningscriteria, waarderingsbenaderingen, presentatiebeginselen."
+      - "Belangrijke distinctie: het kader is GEEN bindende regel. Een onderneming die afwijkt van een specifieke IFRS-standaard kan zich NIET beroepen op het kader om dat te rechtvaardigen. Het kader vult enkel hiaten."
+      - "IAS 8 geeft de hiërarchie voor het kiezen van een grondslag bij ontbrekende standaard: (1) specifieke IFRS-standaard · (2) bij ontbreken: andere IFRS-standaard die analoog van toepassing is · (3) bij ontbreken: conceptueel kader · (4) bij ontbreken: andere standaard-setters die een vergelijkbaar kader hanteren (US GAAP, andere)."
+      - "Concretiseer (in blockquote-aside, niet als sub-sectie): bij de introductie van bitcoin op de balans van een aantal Europese vennootschappen rond 2017 was er geen IFRS-standaard. IFRIC heeft uiteindelijk in 2019 een interpretatie uitgevaardigd: crypto kan immateriële vaste activa zijn (IAS 38) of voorraad (IAS 2) afhankelijk van het houden-doel — analoog redeneren via IAS 8 hiërarchie."
+      - "Pedagogische functie hier: stagiair moet weten dat (a) het kader bestaat, (b) het geen bindende regel is, (c) IAS 8 de hiërarchie geeft. Geen verdere uitwerking — dit is examen-zijdelings."
+
+  - id: ifrs-1-eerste-toepassing
+    titel: "IFRS 1 — eerste-toepasser-mechanisme"
+    niveau: 2
+    beats:
+      - "Open met het scenario: een Belgische niet-genoteerde groep gaat naar de beurs of wordt overgenomen door een genoteerde moeder. Vanaf dat moment moet de geconsolideerde JR in IFRS — maar de balans gisteren stond in BE-GAAP. Hoe overbruggen?"
+      - "IFRS 1 'First-time Adoption' regelt deze overgang. Het kernidee: retrospectieve openingsbalans. Geen prospectieve toepassing (vanaf nu nieuwe regels), wel retrospectief (alsof IFRS altijd al gold)."
+      - "Vier stappen van IFRS 1: (1) Identificeer overgangsdatum — de eerste dag van de vroegste vergelijkende periode in de eerste IFRS-jaarrekening. (2) Stel een openingsbalans op die datum op — alle posten herwaardeerd volgens huidige IFRS. (3) Verschillen tussen BE-GAAP-balans en IFRS-openingsbalans gaan rechtstreeks naar het eigen vermogen (geen resultaatpost — 'transition-equity'). (4) Disclose extensief in toelichting wat de overgangsimpact was."
+      - "Belangrijke nuance: vier VERPLICHTE uitzonderingen op retrospectiviteit (waar het te duur of onmogelijk zou zijn — derecognition, hedge accounting, schattingen, niet-controlerende belangen) + zestien OPTIONELE vrijstellingen (om praktische redenen — combinaties van entiteiten, fair value als deemed cost, ...)."
+      - "Concretiseer met Belgavia hypothetisch scenario: 'Stel dat Belgavia haar moeder verliest aan een Aziatische groep die geen IFRS gebruikt, en daarna zelf op Euronext Brussel zou noteren — dan zou Belgavia op haar overgangsdatum elke balanspost retrospectief moeten herwaarderen volgens IFRS, met de cumulatieve impact als correctie op het openings-eigen-vermogen.'"
+      - "Pedagogische functie: stagiair moet kennen dat IFRS 1 BESTAAT + het retrospectieve principe + de openingsbalans-methode. Detail-vrijstellingen niet uit het hoofd — wel weten dat ze er zijn voor praktijk-context."
+    type_blokken: korte-sectie
+
+  - id: rol-accountant-bij-ifrs
+    titel: "Wat doet de accountant in dit kader?"
+    niveau: 2
+    beats:
+      - "Drie rollen lopen door dit vak — komt in elk PO 1.5-leerstuk terug via accountant-perspectief-blokken hier korter opgevoerd:"
+      - "Boekhouder / accountant: kent het EU-kader voldoende om de Belgische bronnen correct te plaatsen — Richtlijn 2013/34 boven KB-WVV. Kan voor een dochter van een genoteerde moeder een IFRS-rapporteringspakket aanleveren (zoals Belgavia voor Bavaria) met de relevante BE-GAAP→IFRS-correcties (lease, R&D, voorraad-method, presentatie)."
+      - "Commissaris / bedrijfsrevisor: toetst bij genoteerde Belgische cliënten of IFRS correct is toegepast in consolidatie. Signaleert BE-GAAP↔IFRS-correcties bij conversie. Bij dochters: toetst of het IFRS-pakket-rapport aan de groepsstandaard voldoet (al is de statutaire JR onder BE-GAAP)."
+      - "Adviseur: begeleidt cliënten bij overgangstrajecten — eerste IFRS-toepassing (IFRS 1) bij beursgang of overname door genoteerde groep · advies over IFRS-keuzes (cost vs revaluation IAS 16, lease-aanpak IFRS 16) · uitleg van impact op KPI's (EBITDA, schuldgraad) na IFRS-conversie."
+      - "Synthese: in elke rol ligt de échte kennis-uitdaging niet in IFRS-detail-mechaniek maar in het *verschil* met BE-GAAP. Dat is wat de examen-vragen ook testen — leerstukken 3 + 4 werken dat per balanspost uit."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 'IFRS overschrijft BE-GAAP'. Fout. IFRS verplicht alleen op consolidatie-niveau bij genoteerden. Statutaire BE-GAAP-JR blijft altijd nodig (VenB-grondslag, dividend-test, NBB-neerlegging). Twee parallelle systemen, niet één boven het ander."
+      - "Valkuil 2 (⚠️): 'IASB legt IFRS rechtstreeks op'. Fout. IASB stelt standaarden op, EU endorseert via Verordening, pas dan toepasbaar in België. Endorsement is geen automatisme: IFRS 9 macro-hedge bleef jarenlang niet-geëndorseerd."
+      - "Valkuil 3 (⚠️): 'Verordening 1606/2002 = Richtlijn 2013/34/EU = hetzelfde'. Fout. Verordening 1606/2002 verplicht IFRS voor genoteerde consolidaties. Richtlijn 2013/34/EU harmoniseert nationaal BE-GAAP (parallel kader, andere scope). Beide zijn EU-recht, beide actief — maar ze regelen verschillende dingen voor verschillende ondernemingen."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit kader snapt, ga dan naar:"
+  leerstukken:
+    - slug: voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34
+      hint: "Diepe duik in Richtlijn 2013/34/EU art. 6 (vier voorzichtigheidsbeginselen) + art. 7 (herwaardering-optie) — examen-favoriet."
+    - slug: vaste-activa-onder-ifrs
+      hint: "Hoe waardeert IFRS materiële + immateriële vaste activa (IAS 16 + IAS 38) — en waar wijkt dat af van BE-GAAP?"
+    - slug: leasing-voorraden-en-opbrengsten-onder-ifrs
+      hint: "De drie grote BE-GAAP↔IFRS-divergenties: lease on-balance (IFRS 16) · LIFO-verbod (IAS 2) · 5-stappen-revenue (IFRS 15)."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — EU-kader-overzicht + vergelijkingsmatrix per balanspost + Richtlijn-citaten."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [ifrs]
+    - concepten: [belgisch-boekhoudrecht, boekhoudbeginselen]
+    - concepten: [eu-fiscale-richtlijnen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "IFRS-verplichting voor geconsolideerde JR beursgenoteerde EU-vennootschappen"
+    ref: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002"
+    noot: "Sleutel-bepaling art. 4: alle EU-vennootschappen waarvan effecten zijn toegelaten tot een gereglementeerde markt moeten geconsolideerde JR opstellen volgens geëndorseerde IFRS."
+  - onderwerp: "Geconsolideerde versie geëndorseerde IAS/IFRS-standaarden"
+    ref: "Verordening (EU) 2023/1803 van de Commissie van 13 augustus 2023"
+    noot: "Vervangt eerdere geconsolideerde versies. Bevat de geconsolideerde tekst van alle in EU goedgekeurde IAS/IFRS — citeer altijd '… (Verordening (EU) 2023/1803)' bij IFRS-claims."
+  - onderwerp: "EU-boekhoudrichtlijn — algemene beginselen + harmonisering nationaal BE-GAAP"
+    ref: "Richtlijn 2013/34/EU van het Europees Parlement en van de Raad van 26 juni 2013"
+    noot: "Vervangt 4e Richtlijn (78/660/EEG) + 7e Richtlijn (83/349/EEG). Wordt diep behandeld in [[voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34]]."
+  - onderwerp: "Belgische omzetting Richtlijn 2013/34/EU voor enkelvoudige JR"
+    ref: "Wetboek van Vennootschappen en Verenigingen + KB van 29 april 2019 (KB-WVV)"
+    noot: "Basis BE-GAAP statutaire jaarrekening. Vervangt deels de Boekhoudwet 17.07.1975."
+  - onderwerp: "IFRS-optie voor niet-genoteerde Belgische groepen op consolidatie-niveau"
+    ref: "Koninklijk Besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen"
+    noot: "Belgische rechtsbasis voor optionele IFRS-toepassing op geconsolideerde JR van niet-genoteerde groepen. Eenmaal gekozen: IAS 8-consistentie."
+  - onderwerp: "Eerste-toepasser-mechanisme — IFRS 1"
+    ref: "IFRS 1 — First-time Adoption of International Financial Reporting Standards (Verordening (EU) 2023/1803)"
+    noot: "Retrospectieve openingsbalans op overgangsdatum + verschillen naar eigen vermogen + 4 verplichte uitzonderingen + 16 optionele vrijstellingen."
+  - onderwerp: "Hiërarchie bij ontbreken specifieke IFRS-standaard"
+    ref: "IAS 8 — Accounting Policies, Changes in Accounting Estimates and Errors (Verordening (EU) 2023/1803)"
+    noot: "Stapsgewijze hiërarchie: specifieke standaard → analoge standaard → conceptueel kader → andere standaard-setters."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "EU-Hof van Justitie — endorsement-discretie"
+    inhoud: "Het Hof van Justitie heeft in vaste rechtspraak bevestigd dat de Europese Commissie discretionaire bevoegdheid heeft bij het endorsement van IASB-standaarden. Een IFRS-standaard die door de IASB is uitgegeven wordt pas Belgisch toepasbaar na publicatie van het endorsement in een EU-Verordening. Daartussen ligt soms jaren — voorbeeld IFRS 9 macro-hedge."
+    confidence: "⚠️ te verifiëren — algemene leer; specifieke arrest-referenties niet aangetroffen in RAG-corpus, kunnen voor leerstuk weggelaten worden indien niet examen-relevant"
+
+footer: "Leerstuk PO 1.5. Status: voorgesteld."

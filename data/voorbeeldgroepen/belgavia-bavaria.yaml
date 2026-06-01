@@ -1,0 +1,390 @@
+# Belgavia Manufacturing — bindcase voor PO 1.5 (IFRS + Europees kader)
+#
+# Eén centrale fictieve dual-reporting case: een Belgische industriële
+# dochter (statutair BE-GAAP) van een Duitse beursgenoteerde moeder
+# (IFRS-consolidatie). De case toont per geselecteerde IAS/IFRS-standaard
+# de BE-GAAP-behandeling naast de IFRS-correctie die in het rapportering-
+# pakket aan de groep moet gebeuren.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-ifrs-en-het-eu-kader.yaml (groepsstructuur + endorsement-flow)
+#   - data/leerstukken/voorzichtigheid-en-herwaardering-onder-richtlijn-2013-34.yaml (art. 6 + 7 + grond-herwaardering)
+#   - data/leerstukken/vaste-activa-onder-ifrs.yaml (machine componentbenadering + R&D-project)
+#   - data/leerstukken/leasing-voorraden-en-opbrengsten-onder-ifrs.yaml (gebouw-lease + voorraad-FIFO + onderhoudscontract)
+#   - data/samenvattingen/1-5.yaml (vergelijkingsmatrix per balanspost)
+#
+# Cijferconsistentie:
+#   - Alle cijfers fictief en intern coherent (lease-PV klopt, balanstotalen sluiten,
+#     voorraadwaarderingen verschillen aantoonbaar tussen FIFO/GMP).
+#   - Geen training-only-cijfers. Cijferzakboekje-tarieven worden niet getest in
+#     PO 1.5 (Cijferzakboekje raakt PO 1.5 nauwelijks).
+
+naam: belgavia-bavaria
+beschrijving: >
+  Bindcase voor PO 1.5 — Belgavia Manufacturing NV is een Belgische
+  industriële dochter (100 %) van Bavaria Industries AG (Frankfurt-genoteerd).
+  Belgavia voert statutair BE-GAAP (KB-WVV 29.04.2019) en levert
+  daarbovenop een IFRS-rapporteringspakket aan de moeder voor consolidatie.
+  Eén onderneming · twee parallelle waarderingsstelsels = de natuurlijke
+  bindcase voor BE-GAAP↔IFRS-vergelijking per balanspost.
+
+context_jaartal: "2025"
+
+# ---------------------------------------------------------------------------
+# Groepsstructuur
+# ---------------------------------------------------------------------------
+
+groep:
+  moeder:
+    naam: "Bavaria Industries AG"
+    zetel: "München, Duitsland"
+    notering: "Frankfurt — Prime Standard (genoteerd op gereglementeerde EU-markt)"
+    rapportering: "IFRS — verplicht onder Verordening (EG) 1606/2002 voor geconsolideerde jaarrekening"
+    rol_in_cases: "context — niet inhoudelijk uitgewerkt; ontvanger van het IFRS-pakket van Belgavia"
+  dochter:
+    naam: "Belgavia Manufacturing NV"
+    zetel: "Mechelen, België"
+    rechtsvorm: "NV"
+    activiteit: "ontwerp + productie industriële koel- en luchtbehandelingssystemen"
+    deelneming_moeder: "100 % (volledig in handen van Bavaria Industries AG)"
+    boekjaar: "kalenderjaar — afsluitend 31-12-2025"
+    rapportering_statutair: "BE-GAAP — KB-WVV 29.04.2019 (Belgische enkelvoudige jaarrekening, basis voor VenB + NBB-neerlegging)"
+    rapportering_groep: "IFRS-pakket — aanlevering aan Bavaria Industries voor consolidatie (Verordening 1606/2002)"
+    omzet_2025: 12500000  # EUR
+    balanstotaal_2025: 8600000
+    werknemers: 42
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  groepsstructuur:
+    code: |
+      flowchart TD
+        A[Bavaria Industries AG<br/>München · Frankfurt-genoteerd<br/><b>IFRS-consolidatie</b>]
+        B[Belgavia Manufacturing NV<br/>Mechelen · 100% dochter<br/><b>BE-GAAP statutair</b>]
+        A -- 100% --> B
+        B -. IFRS-pakket .-> A
+
+  dual_reporting_flow:
+    code: |
+      flowchart LR
+        A[Belgische verrichtingen<br/>boekjaar 2025] --> B[Statutaire BE-GAAP-jaarrekening<br/>KB-WVV art. 3:1 e.v.]
+        B --> C[VenB-aangifte<br/>+ NBB-neerlegging<br/>+ dividend-test]
+        A --> D[IFRS-conversie-pakket<br/>= statutair + correcties]
+        D --> E[Bavaria-groep<br/>geconsolideerde IFRS-JR<br/>Verordening 1606/2002]
+
+  eu_architectuur:
+    code: |
+      flowchart TD
+        A[IASB<br/>London<br/>technische standaarden] --> B[EFRAG<br/>technisch advies]
+        B --> C[ARC<br/>Accounting Regulatory Committee]
+        C --> D[Europese Commissie]
+        D --> E[EU-Verordening<br/>endorsement<br/>Verordening 2023/1803 geconsolideerd]
+        E --> F[Toepasbaar in EU<br/>verplicht geconsolideerde JR genoteerde groepen]
+        G[Richtlijn 2013/34/EU<br/>boekhoudrichtlijn] --> H[KB-WVV 29.04.2019<br/>Belgische omzetting<br/>BE-GAAP enkelvoudig]
+        F -.- H
+
+  wanneer_ifrs:
+    code: |
+      flowchart TD
+        A[Belgische vennootschap] --> B{Beursgenoteerd<br/>op EU-markt?}
+        B -->|Ja| C{Welke<br/>jaarrekening?}
+        C -->|Geconsolideerd| D[IFRS VERPLICHT<br/>Verordening 1606/2002 art. 4]
+        C -->|Statutair / enkelvoudig| E[BE-GAAP VERPLICHT<br/>KB-WVV 29.04.2019]
+        B -->|Nee| F{Geconsolideerd?}
+        F -->|Ja| G[BE-GAAP standaard<br/>IFRS-optie KB 30.01.2001]
+        F -->|Nee statutair| E
+
+# ---------------------------------------------------------------------------
+# Belgavia — balansposten met BE-GAAP / IFRS-impact (overzicht voor leerstuk 4)
+# ---------------------------------------------------------------------------
+
+balanssamenvatting:
+
+  be_gaap_2025:
+    titel: "Belgavia — verkorte BE-GAAP-balans 31-12-2025 (in EUR)"
+    activa:
+      - {rubriek: "21 — Immateriële vaste activa", bedrag: 50000, noot: "ontwikkelingskosten productontwerp 'AirCool 2026' — geactiveerd"}
+      - {rubriek: "22-27 — Materiële vaste activa (excl. lease)", bedrag: 2100000, noot: "machines + uitrusting + meubilair"}
+      - {rubriek: "25 — Leasing en soortgelijke rechten", bedrag: 0, noot: "10-jr huur bedrijfsgebouw is OPERATIONEEL onder BE-GAAP → off-balance"}
+      - {rubriek: "30-37 — Voorraden", bedrag: 1200000, noot: "grondstoffen + onderhanden + afgewerkt; gewaardeerd in FIFO"}
+      - {rubriek: "40 — Handelsvorderingen", bedrag: 1900000, noot: ""}
+      - {rubriek: "55 — Bank en kas", bedrag: 350000, noot: ""}
+      - {rubriek: "Overige activa", bedrag: 3000000, noot: "samengevat (oprichtingskosten, FVA, overlopende)"}
+    totaal_activa: 8600000
+    passiva:
+      - {rubriek: "10-15 — Eigen vermogen", bedrag: 3200000, noot: "kapitaal + reserves; geen herwaarderingsmeerwaarde geboekt"}
+      - {rubriek: "16 — Voorzieningen + uitgestelde belastingen", bedrag: 200000, noot: "BE-GAAP optioneel klasse 168 uitgestelde belastingen"}
+      - {rubriek: "17 — LT-schulden (excl. leaseverplichting)", bedrag: 1800000, noot: "bankleningen — géén leaseverplichting want operationele huur"}
+      - {rubriek: "40-49 — KT-schulden + overlopende", bedrag: 3400000, noot: ""}
+    totaal_passiva: 8600000
+    eenheid: "EUR"
+
+  ifrs_correcties_overzicht:
+    titel: "IFRS-correcties bij conversie van BE-GAAP-balans naar IFRS-pakket"
+    correcties:
+      - balanspost: "Materiële vaste activa (IAS 16)"
+        be_gaap_behandeling: "Machine € 200k afgeschreven lineair 10 jaar op één geheel"
+        ifrs_correctie: "Componentbenadering verplicht (IAS 16.43-44): compressor € 50k over 5 jaar, frame € 150k over 15 jaar. Hogere jaarafschrijving in eerste 5 jaar."
+        impact: "Boekwaarde MVA initieel gelijk; afschrijvingspatroon verschilt → andere boekwaarde over tijd"
+      - balanspost: "Immateriële vaste activa (IAS 38)"
+        be_gaap_behandeling: "Ontwikkelingskosten € 80k geactiveerd o.b.v. CBN 2012/13 — algemene activeringscriteria"
+        ifrs_correctie: "IAS 38 vraagt 6 cumulatieve criteria (alinea 57): technische haalbaarheid · intentie · vermogen · toekomstige voordelen · middelen · betrouwbare meting. Bij Belgavia voldoet 'AirCool 2026' → activeerbaar. Onderzoekskosten € 30k blijven in resultaat onder beide stelsels."
+        impact: "Hetzelfde bedrag geactiveerd; documentatie-discipline strenger onder IFRS"
+      - balanspost: "Lease bedrijfsgebouw (IFRS 16)"
+        be_gaap_behandeling: "Operationele huur 10 jaar @ € 50k/j → huurkost rekening 610 + off-balance (CBN 2015/4: niet-wedersamenstelling kapitaal)"
+        ifrs_correctie: "IFRS 16 vereist on-balance bij lessee: ROU-actief + leaseverplichting tegen contante waarde leasebetalingen. PV @ marginale rentevoet 4 % = ca. € 405k."
+        impact: "Activa + € 405k (ROU) · Schulden + € 405k (leaseverplichting). EBITDA stijgt (huurkost vervangen door afschrijving + rente); schuldgraad stijgt."
+      - balanspost: "Voorraden (IAS 2)"
+        be_gaap_behandeling: "Grondstoffen gewaardeerd in FIFO — toegelaten onder art. 3:21 KB-WVV. LIFO zou ook toegelaten zijn."
+        ifrs_correctie: "IAS 2 laat enkel toe: specifieke identificatie · FIFO · gewogen gemiddelde. LIFO VERBODEN (IAS 2.25, sinds herziening 2003)."
+        impact: "Geen impact bij Belgavia (FIFO al gekozen). Hypothetische LIFO-keuze zou IFRS-conversie vereisen."
+      - balanspost: "Opbrengsten (IFRS 15)"
+        be_gaap_behandeling: "Klasse 70 — opbrengst geboekt bij prestatie / factuurmoment per gebruik"
+        ifrs_correctie: "IFRS 15 5-stappen-model: contract met klant TechCool BVBA bevat 2 prestatieverplichtingen — machine € 300k (point-in-time bij overdracht controle) + 5j onderhoud € 25k/jaar (over time, lineair)."
+        impact: "Mogelijk timing-verschil indien factuurmoment ≠ overdracht controle. Bij Belgavia samenval → geen impact 2025; documentatie-discipline strenger."
+      - balanspost: "Grond — herwaardering"
+        be_gaap_behandeling: "Grond € 400k aanschaffingsprijs; reële waarde € 600k. Belgavia heeft NIET geherwaardeerd (art. 3:35 KB-WVV is FACULTATIEF)."
+        ifrs_correctie: "IAS 16.31 biedt revaluation model als KEUZE per MVA-klasse. Belgavia kiest cost model onder IFRS → ook geen herwaardering. Indien gekozen: + € 200k actief, + € 200k OCI-reserve in eigen vermogen."
+        impact: "Geen impact — beide stelsels behouden cost. Bevat de art. 7 Richtlijn-link: lidstaten zouden herwaardering kunnen voorschrijven (België koos niet)."
+
+# ---------------------------------------------------------------------------
+# Mini-cases per IFRS-standaard
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  ias_16_componentbenadering:
+    titel: "Mini-case IAS 16 — componentbenadering bij persluchtmachine"
+    feiten: |
+      Belgavia koopt op 1.1.2025 een persluchtmachine voor € 200.000.
+      De machine bestaat uit twee fysiek + economisch te onderscheiden delen:
+        - compressor (vervangbaar na 5 jaar): kostprijs € 50.000
+        - frame + behuizing (levensduur 15 jaar): kostprijs € 150.000
+    be_gaap_verwerking:
+      - "Activering rekening 23 'Installaties, machines en uitrusting' voor € 200.000 totaal"
+      - "Afschrijving lineair over 10 jaar (gemiddelde gebruiksduur) → € 20.000/jaar"
+      - "Componentbenadering niet verplicht (KB-WVV art. 3:35 — algemene regel)"
+    ifrs_verwerking:
+      - "Activering uitgesplitst per component (IAS 16.43-44 — verplicht voor materiële delen met andere gebruiksduur)"
+      - "Compressor € 50.000 / 5 jaar = € 10.000/jaar"
+      - "Frame € 150.000 / 15 jaar = € 10.000/jaar"
+      - "Totaal jaar 1-5: € 20.000/jaar (toevallig gelijk); jaar 6: compressor vervangen → nieuwe afschrijving start"
+    pedagogisch: "Initiële activering identiek; afschrijvingspatroon op lange termijn verschilt door vervangcyclus compressor"
+
+  ias_38_rd_criteria:
+    titel: "Mini-case IAS 38 — onderzoek vs ontwikkeling 'AirCool 2026'"
+    feiten: |
+      Belgavia ontwikkelt in 2025 een nieuwe productlijn 'AirCool 2026'.
+      Twee fasen lopen parallel:
+        - onderzoeksfase (jan-juni 2025): markt-studie + technologie-scouting + concept-tests → kost € 30.000
+        - ontwikkelingsfase (juli-dec 2025): productontwerp + prototype + commerciële validatie → kost € 80.000
+      Belgavia documenteert per IAS 38.57: technische haalbaarheid bewezen
+      via prototype-tests, intentie tot voltooiing in business case van CEO,
+      vermogen tot voltooiing via interne ingenieurs, toekomstige economische
+      voordelen via vergelijking met huidige productmarges, voldoende
+      middelen via cash-positie en kredietlijn, betrouwbare meting via
+      uurtarieven engineers.
+    ias_38_toets: "Onderzoek (€ 30.000) → IAS 38.54-56: VERBODEN te activeren — in resultaat. Ontwikkeling (€ 80.000) → 6 criteria voldaan → VERPLICHT te activeren."
+    be_gaap_verwerking:
+      - "Onderzoekskosten € 30.000 → klasse 6, in resultaat"
+      - "Ontwikkelingskosten € 80.000 → klasse 210 'kosten van onderzoek en ontwikkeling' — activeerbaar mits CBN 2012/13-criteria (identificeerbaar · gecontroleerd · toekomstig voordeel)"
+    ifrs_verwerking:
+      - "Onderzoekskosten € 30.000 → resultaat (zelfde uitkomst)"
+      - "Ontwikkelingskosten € 80.000 → IAS 38 immaterieel actief, mits 6 criteria gedocumenteerd (zelfde uitkomst, strengere documentatie)"
+    pedagogisch: "Uitkomst identiek; verschil zit in documentatie-discipline en bewijs-vereiste per criterium onder IAS 38."
+
+  ifrs_16_gebouw_lease:
+    titel: "Mini-case IFRS 16 — lease bedrijfsgebouw Belgavia"
+    feiten: |
+      Belgavia huurt het bedrijfsgebouw in Mechelen onder een
+      10-jarige huurovereenkomst, vergoeding € 50.000/jaar, betaalbaar
+      einde jaar. Marginale rentevoet van Belgavia (incremental borrowing
+      rate) = 4 %. Geen koopoptie. Geen verlengingsoptie.
+    be_gaap_kwalificatie: "Operationele leasing — wedersamenstelling van kapitaal niet voldaan (CBN 2015/4) → huurkost rekening 610, off-balance"
+    ifrs_16_kwalificatie: "Lessee single model (IFRS 16.22) — geen onderscheid operationeel/financieel meer aan lessee-zijde. ROU-actief + leaseverplichting verplicht."
+    berekening_pv:
+      formule: "PV = € 50.000 × [(1 − (1+0,04)⁻¹⁰) / 0,04]"
+      pv_factor: "8,1109"
+      contante_waarde_initieel: 405545  # EUR, afgerond
+      rou_actief_jaar_1: 405545
+      leaseverplichting_jaar_1: 405545
+    be_gaap_boeking_jaar_1:
+      - {mar: "610", omschrijving: "Huurkost", debet: 50000}
+      - {mar: "550", omschrijving: "Kredietinstellingen — R/C", credit: 50000}
+    ifrs_16_boekingen_jaar_1:
+      bij_aanvang:
+        - {omschrijving: "ROU-actief (right-of-use)", debet: 405545}
+        - {omschrijving: "Leaseverplichting", credit: 405545}
+      jaarlijks:
+        - {omschrijving: "Afschrijving ROU (€ 405.545 / 10)", debet: 40555}
+        - {omschrijving: "Geaccumuleerde afschrijving ROU", credit: 40555}
+        - {omschrijving: "Rente leaseverplichting (4% × € 405.545)", debet: 16222}
+        - {omschrijving: "Leaseverplichting (kapitaalaflossing = € 50k − € 16,2k)", debet: 33778}
+        - {omschrijving: "Bank", credit: 50000}
+    ratio_impact:
+      ebitda: "+ € 50.000 (huurkost vervalt — wordt afschrijving + rente i.p.v. operationele kost)"
+      schuldgraad: "+ leaseverplichting ÷ totaal balans = + € 405k op start → significante stijging"
+    pedagogisch: "Zelfde economische verrichting — twee fundamenteel verschillende balans- en resultaatfoto's. Examen-favoriet IFRS 16-presentatie aan lessee-zijde."
+
+  ias_2_voorraad:
+    titel: "Mini-case IAS 2 — voorraadwaardering grondstoffen"
+    feiten: |
+      Belgavia heeft in 2025 grondstoffen aangekocht in vier loten met
+      stijgende prijzen wegens inflatie:
+        - lot 1 (jan): 300 eenheden à € 100 = € 30.000
+        - lot 2 (apr): 300 eenheden à € 110 = € 33.000
+        - lot 3 (jul): 300 eenheden à € 120 = € 36.000
+        - lot 4 (okt): 300 eenheden à € 125 = € 37.500
+      Totaal beschikbaar: 1.200 eenheden voor € 136.500
+      Verbruik gedurende het jaar: 800 eenheden
+      Voorraad op 31-12-2025: 400 eenheden
+    fifo_be_gaap_en_ifrs:
+      kostprijs_verkochte_voorraad: 89000  # eerste 800 uit lot 1+2+ deel 3
+      eindvoorraad: 47500  # laatste 400 = 100 uit lot 3 + 300 lot 4
+      toelichting: "FIFO veronderstelt oudste eerst verbruikt — eindvoorraad bestaat uit recentste aankopen"
+    gewogen_gemiddelde_be_gaap_en_ifrs:
+      gemiddelde_prijs_per_eenheid: 113.75  # 136.500 / 1.200
+      kostprijs_verkochte_voorraad: 91000  # 800 × 113,75
+      eindvoorraad: 45500  # 400 × 113,75
+    lifo_alleen_be_gaap:
+      kostprijs_verkochte_voorraad: 96000  # laatste 800: lot 4 + lot 3 + deel 2
+      eindvoorraad: 40500  # eerste 400 = 300 lot 1 + 100 lot 2
+      toelichting: "LIFO toegelaten in BE-GAAP (art. 3:21 KB-WVV) — VERBODEN onder IAS 2 (sinds herziening 2003)"
+    pedagogisch: "Bij stijgende prijzen: LIFO geeft hoogste KVV → laagste winst → laagste voorraad-boekwaarde. FIFO geeft tegenovergesteld. GMP zit ertussen. Examen-vraag 2024-1 vraag 7A testte expliciet welke combinatie onder IAS 2 toegelaten is."
+
+  ifrs_15_machineverkoop_met_onderhoud:
+    titel: "Mini-case IFRS 15 — contract met twee prestatieverplichtingen"
+    feiten: |
+      Belgavia sluit op 1.10.2025 een contract met klant TechCool BVBA:
+        - levering industriële koelmachine: prijs € 300.000, geleverd + geïnstalleerd 1.12.2025
+        - 5-jarig onderhoudscontract: € 25.000/jaar, start 1.1.2026
+      Totale contractwaarde: € 425.000 over 5 jaar
+    stap_1_contract: "Identificeerbaar contract met afdwingbare rechten + plichten + commerciële substantie → IFRS 15 van toepassing"
+    stap_2_prestatieverplichtingen:
+      - "Machine-levering: distinct goed (op zichzelf bruikbaar zonder onderhoud) → 1 prestatieverplichting"
+      - "Onderhoud 5 jaar: distinct service-bundel (apart te leveren door derden) → 1 prestatieverplichting"
+    stap_3_transactieprijs: "Totaal € 425.000 (geen variabel deel, geen significante financieringscomponent — onderhoud-fees periodiek)"
+    stap_4_toewijzing:
+      - "Machine standalone-prijs € 300.000 / Totaal € 425.000 = 70,6 % → € 300.000"
+      - "Onderhoud standalone-prijs € 125.000 / Totaal € 425.000 = 29,4 % → € 125.000"
+      - "(In dit geval = de contractprijzen want standalone gelijk)"
+    stap_5_erkenning:
+      - "Machine: point-in-time op 1.12.2025 (overdracht controle bij installatie) → € 300.000 opbrengst boekjaar 2025"
+      - "Onderhoud: over time lineair (5 jaar) → € 25.000 opbrengst/jaar boekjaar 2026 tot 2030"
+    be_gaap_vergelijking: "Klasse 70 — opbrengst op prestatie- of factuurmoment. Bij Belgavia samenval factuur ≈ overdracht controle → geen impact 2025. IFRS 15 dwingt expliciete documentatie van prestatieverplichtingen + transactieprijs-toewijzing — formele discipline strenger."
+    pedagogisch: "Substance over form: één contract, twee verschillende erkenningspatronen (point-in-time + over time) op basis van *aard van de prestatie*, niet op basis van het factuurmoment."
+
+  art_7_grond_herwaardering:
+    titel: "Mini-case Richtlijn 2013/34/EU art. 7 — grond herwaarderen?"
+    feiten: |
+      Belgavia bezit een industriegrond aangekocht in 2010 voor € 400.000.
+      Een externe vastgoedexpert taxeert de grond op 31-12-2025 op € 600.000.
+      Duurzame waardestijging, materieel verschil met boekwaarde.
+    richtlijn_2013_34:
+      - "Art. 6, lid 1, c), i): waardering volgens voorzichtigheidsbeginsel — winsten enkel opgenomen voor zover gerealiseerd op balansdatum. Latente meerwaarde op grond = niet-gerealiseerde winst → blijft buiten resultaat."
+      - "Art. 7, lid 1: 'in afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde categorieën ondernemingen, vaste activa tegen geherwaardeerde bedragen waarderen.' Lidstaat-optie."
+    be_gaap_omzetting: "België kiest 'toestaan' (KB-WVV art. 3:35 = facultatief). Belgavia mag herwaarderen via klasse 12 'herwaarderingsmeerwaarden' in eigen vermogen — NIET in resultaat. Niet uitkeerbaar als dividend zolang niet gerealiseerd."
+    ias_16_keuze: "IAS 16.29 biedt keuze per MVA-klasse: cost model (alinea 30) OF revaluation model (alinea 31). Belgavia kiest cost onder IFRS → geen herwaardering ook in IFRS-pakket. Indien revaluation gekozen: meerwaarde naar OCI (other comprehensive income) i.p.v. resultaat."
+    pedagogisch: "Drie lagen samengevat: Richtlijn 2013/34/EU laat lidstaten kiezen tussen toestaan en voorschrijven. België kiest toestaan. Belgavia kiest niet te herwaarderen. Onder IFRS bestaat de optie ook. Vraag examen 2024-1 7B(d) toetste dit precies — de stelling vroeg of de Richtlijn een lidstaat toelaat om herwaardering 'voor te schrijven' aan bepaalde categorieën. Antwoord: JUIST, want art. 7 expliciet 'toestaan of voorschrijven'."
+
+# ---------------------------------------------------------------------------
+# Richtlijn 2013/34/EU — art. 6 + 7 letterlijke citaten (voor leerstuk 2)
+# ---------------------------------------------------------------------------
+
+richtlijn_2013_34_citaten:
+
+  art_6_alle_beginselen:
+    titel: "Richtlijn 2013/34/EU art. 6 lid 1 — Algemene principes voor financiële verslaglegging"
+    inhoud:
+      - "a) een onderneming wordt geacht haar werkzaamheden voort te zetten (going concern)"
+      - "b) de in een vorig boekjaar gehanteerde grondslagen voor waardering worden niet gewijzigd (bestendigheid)"
+      - "c) waardering volgens het voorzichtigheidsbeginsel, met inbegrip van:"
+      - "    i) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn"
+      - "    ii) alle verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar, worden opgenomen, ook als die verplichtingen pas bekend worden tussen de balansdatum en de datum waarop de balans wordt opgesteld"
+      - "    iii) alle negatieve waardecorrecties worden opgenomen, ongeacht of het boekjaar met winst of verlies wordt afgesloten"
+      - "d) baten en lasten worden opgenomen voor het boekjaar waarop zij betrekking hebben (toerekeningsbeginsel / matching)"
+      - "e) de componenten van een bestanddeel worden afzonderlijk gewaardeerd"
+      - "f) op de openingsbalans worden de cijfers van de balans van het vorige boekjaar overgenomen (vergelijkbaarheid)"
+      - "g) materialiteit"
+      - "h) opname + waardering volgens substance over form (lid 1, h — door lidstaat te kiezen optie)"
+      - "i) bestanddelen die in de balans + winst-en-verliesrekening zijn opgenomen, worden gewaardeerd overeenkomstig het aanschaffingsprijs- of vervaardigingskostenbeginsel"
+
+  art_7_herwaardering_optie:
+    titel: "Richtlijn 2013/34/EU art. 7 — Alternatieve waarderingsgrondslag voor vaste activa tegen geherwaardeerde bedragen"
+    inhoud:
+      - "Lid 1: 'In afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde categorieën ondernemingen, vaste activa tegen geherwaardeerde bedragen waarderen.'"
+      - "Lid 2: 'Indien overeenkomstig lid 1 een vast actief tegen geherwaardeerd bedrag wordt gewaardeerd, wordt het verschil tussen waardering tegen aanschaffingsprijs en waardering tegen geherwaardeerd bedrag op de creditzijde van het eigen vermogen geboekt in de herwaarderingsreserve.'"
+      - "Belgische omzetting: KB-WVV art. 3:35 — facultatief; herwaardering enkel bij duurzame meerwaarde en zekere/vaststaande rendabiliteit."
+
+# ---------------------------------------------------------------------------
+# Vergelijkingstabel BE-GAAP / IFRS per balanspost
+# ---------------------------------------------------------------------------
+
+vergelijking_per_balanspost:
+  titel: "BE-GAAP vs IFRS — vergelijking per balanspost (voor leerstuk 4 + samenvatting)"
+  kolommen: ["Balanspost", "BE-GAAP", "IFRS", "Standaard"]
+  rijen:
+    - ["Materiële vaste activa", "Cost − afschrijving; herwaardering art. 3:35 KB-WVV (facultatief)", "Cost model OF revaluation model (keuze per klasse); componentbenadering verplicht; afschrijving niet stopzetten bij FV > BW", "IAS 16"]
+    - ["Immateriële vaste activa", "Activering R&D streng beperkt (CBN 2012/13)", "Onderzoek: kost; ontwikkeling: activering bij 6 criteria; finite vs indefinite life", "IAS 38"]
+    - ["Goodwill (consolidatie)", "Afschrijving over economische levensduur", "Geen afschrijving — jaarlijkse impairment-test op CGU-niveau", "IFRS 3 + IAS 36"]
+    - ["Voorraden", "FIFO / GMP / individualisering / LIFO toegelaten (art. 3:21 KB-WVV)", "FIFO / GMP / individualisering — LIFO VERBODEN; netto-realisatiewaarde-test", "IAS 2"]
+    - ["Leasing (lessee)", "Financieel (on-balance) vs operationeel (off-balance) — CBN 2015/4 wedersamenstelling kapitaal", "ALLE leases on-balance: ROU-actief + leaseverplichting (single model). Vrijstelling short-term ≤ 12 m + low-value", "IFRS 16"]
+    - ["Opbrengsten", "Realisatie bij prestatie + factuurmoment (klasse 70)", "5-stappen-model · prestatieverplichtingen · over time vs point-in-time", "IFRS 15"]
+    - ["Voorzieningen", "Voorzichtigheid + waarschijnlijk + meetbaar (klasse 16)", "Idem; disconteren bij lange termijn", "IAS 37"]
+    - ["Uitgestelde belastingen", "Optioneel boeken (klasse 168) — beperkt", "VERPLICHT boeken op alle timing-verschillen", "IAS 12"]
+    - ["Presentatie + uitzonderlijke posten", "Schema KB-WVV; rubriek 'uitzonderlijke' afgeschaft sinds 2015", "IAS 1 — geen 'extraordinary items' (IAS 1.87); materiële posten apart vermelden", "IAS 1"]
+
+# ---------------------------------------------------------------------------
+# Drie systeemkeuzes die alles bepalen
+# ---------------------------------------------------------------------------
+
+drie_systeemkeuzes:
+  titel: "Drie systeem-keuzes die BE-GAAP↔IFRS-verschillen sturen"
+  kolommen: ["Keuze", "BE-GAAP", "IFRS", "Praktische impact"]
+  rijen:
+    - ["Doel rapportering", "Schuldeisers-bescherming + fiscaal", "Investeerder-informatie", "IFRS toont volatiliteit; BE-GAAP demp via voorzichtigheid"]
+    - ["Waarderings-basis", "Historische kostprijs (default)", "Fair value waar relevant (IFRS 13)", "IFRS-balans schommelt meer"]
+    - ["Vorm vs substantie", "Juridische vorm primair", "Economische substantie primair", "Leasing IFRS 16 = klassiek voorbeeld"]
+
+# ---------------------------------------------------------------------------
+# Klassieke valkuilen
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  - valkuil: "'Statutaire JR in IFRS bij IFRS-groep'"
+    fout: "Statutaire vennootschap blijft BE-GAAP-verplicht"
+    correct: "IFRS alleen op geconsolideerd niveau; statutair = BE-GAAP voor VenB + dividend + NBB"
+  - valkuil: "Operationele lease blijft off-balance onder IFRS"
+    fout: "IFRS 16 (van kracht 2019) zet ALLE leases on-balance lessee-zijde (single model)"
+    correct: "Uitzonderingen: short-term ≤ 12 m + low-value-asset (~5.000 USD nieuwwaarde)"
+  - valkuil: "Goodwill afschrijven onder IFRS"
+    fout: "IFRS 3 + IAS 36: GEEN afschrijving; jaarlijkse impairment-test verplicht"
+    correct: "BE-GAAP: afschrijven; IFRS: testen (impairment-cliff mogelijk)"
+  - valkuil: "Revenue bij factuurmoment onder IFRS"
+    fout: "IFRS 15: opbrengst volgt prestatieverplichting, niet factuur"
+    correct: "Over time of point-in-time afhankelijk van overdracht-controle"
+  - valkuil: "Ontwikkelingskosten activeren = altijd"
+    fout: "IAS 38 vereist 6 cumulatieve criteria (alinea 57)"
+    correct: "Technische haalbaarheid + intentie + middelen + voordelen + meetbaarheid — alle 6 nodig"
+  - valkuil: "Belasting-latenties optioneel onder IFRS"
+    fout: "IAS 12 verplicht uitgestelde belastingen op ALLE timing-verschillen"
+    correct: "BE-GAAP: facultatief (klasse 168); IFRS: imperatief"
+  - valkuil: "LIFO toegelaten onder IFRS"
+    fout: "IAS 2.25 (sinds herziening 2003): LIFO VERBODEN"
+    correct: "Alleen FIFO + GMP + specifieke identificatie onder IFRS — examen-favoriet 2024-1 vraag 7A"
+  - valkuil: "Afschrijving stopzetten als FV > BW"
+    fout: "IAS 16.55: afschrijving wordt niet stopgezet zolang actief niet volledig is afgeschreven"
+    correct: "Afschrijving eindigt enkel bij IFRS 5-classificatie (held for sale) of derecognition"
+  - valkuil: "Uitzonderlijke posten apart presenteren onder IFRS"
+    fout: "IAS 1.87 verbiedt 'extraordinary items' in resultaat of toelichting"
+    correct: "Materiële posten apart vermelden (IAS 1.97), maar binnen gewone exploitatie- of financiële resultaten"
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+versie: "1.0 — 2026-06-01 (initiële voor PO 1.5)"
