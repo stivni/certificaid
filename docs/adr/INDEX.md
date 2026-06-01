@@ -46,6 +46,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-037](ADR-037-leerstuk-vierde-leerlaag.md) | Leerstuk-laag tussen minicursus en concept-fiche — vraag-gerichte doorwerking (`content/studiemateriaal/<po-slug>/<leerstuk>.md`). Vervangt directe minicursus→concept-link uit ADR-036 §3. | Draft |
 | [ADR-039](ADR-039-samenvatting-vervangt-themafiche.md) | Themafiche-laag uit ADR-036 vervangen door PO-niveau **samenvatting** (`content/studiemateriaal/<po-slug>/samenvatting.md`). Eén kapstok per PO i.p.v. één per cluster. | Draft |
 | [ADR-040](ADR-040-voorbeeldexamenvragen-in-leerpadstructuur.md) | Voorbeeldexamenvragen-pagina's verhuizen naar `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md` + stub-pagina's voor PO's zonder vragen + auto-genummerd `explorer_title`. Standaardiseert leerpad-folder voor alle PO's. Supersedet ADR-032 (output-locatie). | Accepted |
+| [ADR-041](ADR-041-rename-studiemateriaal-overzicht.md) | Rename `content/leerpaden/` → `content/studiemateriaal/` (folder + alle path-refs) + UI-rename "minicursus" → "overzicht" (alleen content/, niet ADRs/prompts/Python-symbolen) + korte `explorer_title` voor alle 19 PO's. | Accepted |
 
 ## Roadmap
 

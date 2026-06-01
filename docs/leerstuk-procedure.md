@@ -1,7 +1,17 @@
-# Leerstuk-procedure — hoe pak je een nieuw PO aan?
+# PO-uitbouw-procedure — hoe pak je een nieuw PO aan?
 
-**Voor**: Opus (design + delegatie) of een mens die een nieuwe PO wil uitbouwen tot een volledig leerpad-en-leerstukken-pakket.
-**Canoniek**: [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md). Lees ook [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) voor de positie van leerstukken binnen het vier-lagen-model.
+**Voor**: Opus (design + delegatie) of een mens die een nieuwe PO wil uitbouwen tot een volledig studiemateriaal-pakket — overzicht + leerstukken + samenvatting + oefening + voorbeeldexamenvragen.
+
+**Canoniek**: [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) (drie-lagen model — overzicht/themafiche/concept) · [ADR-037](adr/ADR-037-leerstuk-vierde-leerlaag.md) (leerstuk-laag tussen overzicht en concept) · [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md) (samenvatting vervangt themafiche) · [ADR-040](adr/ADR-040-voorbeeldexamenvragen-in-leerpadstructuur.md) (voorbeeldexamenvragen in leerpad-folder).
+
+**Resulterende folder** (canoniek, per ADR-040): `content/studiemateriaal/<po-slug>/` met als kinderen:
+1. `index.md` — overzicht (was: minicursus, naam in UI sinds rename)
+2. `<leerstuk-slug>.md` × N — één per didactische vraag
+3. `samenvatting.md` — geheugen-kapstok printbaar
+4. `oefening.md` — actieve doorwerk-case
+5. `voorbeeldexamenvragen.md` — auto-gegenereerd uit examen-pijplijn
+
+**Terminologie**: in de UI heet `index.md` "overzicht" (per rename 2026-06-01). In docs/prompts/ADRs blijft de interne term **minicursus**. Bij verwijzing in deze procedure gebruik ik de interne term — page-bodies en headers schrijf je met "Overzicht".
 
 ---
 
@@ -146,7 +156,35 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 
 ---
 
-## Stap 7 — Integratie + verifieer
+## Stap 7 — Oefening (5e leerlaag)
+
+**Doel**: één PO-brede oefening waarin de student zelf het volledige pad loopt dat de leerstukken passief uitleggen. POC-status (kandidaat ADR-038).
+
+**Hoe**: volg [`docs/oefening-procedure.md`](oefening-procedure.md):
+- YAML-bron in `data/oefeningen/<slug>.yaml` (zie [`data/oefeningen/SCHEMA.md`](../data/oefeningen/SCHEMA.md))
+- Markdown op `content/studiemateriaal/<po-slug>/oefening.md` via [`prompts/oefening-render-v1.md`](../prompts/oefening-render-v1.md)
+- Schrijfregels: 3 pijlers — geen hints in opgave · realistische individuele JR met aparte intra-groep mapping · niet-voorkauwende instructies
+
+**Gold-standard**: PO 1.4 Nordica Holdings ([`data/oefeningen/nordica-consolideren.yaml`](../data/oefeningen/nordica-consolideren.yaml) + [`content/studiemateriaal/1-4/oefening.md`](../content/studiemateriaal/1-4/oefening.md)).
+
+**Optioneel**: oefening kan worden overgeslagen voor PO's waar een 60-75 min doorgewerkte case minder waarde toevoegt dan tijd kost (sommige fiscale PO's). Beslissing per PO; samenvatting is wel verplicht.
+
+---
+
+## Stap 8 — Voorbeeldexamenvragen (auto)
+
+**Doel**: laatste sibling in de leerpad-folder met de geclassificeerde examen-vragen voor dit PO.
+
+**Hoe**: **geen handmatige actie**. Per [ADR-040](adr/ADR-040-voorbeeldexamenvragen-in-leerpadstructuur.md) genereert `python3 -m tools.examen.render_merged_v4` automatisch `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md`:
+- Gevulde pagina wanneer er vragen geclassificeerd zijn in `data/programma/examen_vragen/_interpretaties/` onder dit PO
+- Stub-pagina met `[!info]`-callout "geen vragen geclassificeerd" wanneer leeg (bv. PO 1.8)
+- `explorer_title` krijgt automatisch het juiste vervolgnummer (N+1 op basis van bestaande siblings)
+
+**Waar het hand-werk wél zit**: het classificeren van voorbeeldexamen-vragen onder de juiste PO-codes — zie `data/programma/examen_vragen/_interpretaties/` + de prompts in `prompts/examen-*`. Dat is een aparte werklijn (ADR-022/023/024), niet gekoppeld aan PO-uitbouw.
+
+---
+
+## Stap 9 — Integratie + verifieer
 
 **Checks na afloop**:
 
@@ -176,11 +214,13 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 | 2. Voorbeeldgroep-data | 1-2 uur | Mens (creatieve mock met kloppende cijfers) |
 | 3. Scripts per leerstuk | ~5-15 min per stuk (Opus-agent) | Eén Opus-agent voor alle scripts van het PO; ~1-2 uur totaal voor 4-7 leerstukken |
 | 4. Render per leerstuk | ~3-5 min per stuk; parallel 4 tegelijk via subagenten | Sonnet-agenten |
-| 5. Minicursus | 30-60 min | Mens of Sonnet |
-| 6. Themafiche-update | 15-30 min | Mens |
-| 7. Integratie + verifieer | 30 min | Mens |
+| 5. Overzicht (`index.md`, intern: minicursus) | 30-60 min | Mens of Sonnet |
+| 6. Samenvatting | 1-2 uur (YAML) + ~15 min (render-prompt) | Mens (YAML) + Sonnet-agent (render) |
+| 7. Oefening *(optioneel)* | 2-4 uur (YAML met kloppende cijfers) + ~15 min (render) | Mens + Sonnet-agent |
+| 8. Voorbeeldexamenvragen | 0 min (auto-render) | Geen — `render_merged_v4.py` produceert de pagina |
+| 9. Integratie + verifieer | 30 min | Mens |
 
-**Totaal per PO**: ongeveer een halve werkdag tot één werkdag, afhankelijk van complexiteit + nieuwe vs hergebruikte voorbeeldgroep.
+**Totaal per PO**: ongeveer 1-2 werkdagen voor een volledig 5-lagen-pakket, afhankelijk van complexiteit + nieuwe vs hergebruikte voorbeeldgroep + of oefening wordt gemaakt.
 
 ---
 

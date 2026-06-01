@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-06-01 (ADR-040 voorbeeldexamenvragen-pagina's verhuisd naar `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md` + alle studiemateriaal uniform folder-structuur + stub-pagina's voor PO's zonder vragen + auto-genummerd `explorer_title`. ADR-037/039/040 toegevoegd aan INDEX. Vorige update 2026-05-30 over ADR-026 tarief-pijplijn blijft van kracht.)
+**Laatste update**: 2026-06-01 (ADR-040 voorbeeldexamenvragen in leerpad-folder + ADR-041 rename `content/leerpaden/` → `content/studiemateriaal/` + UI-term "minicursus" → "overzicht" + korte `explorer_title` op alle 19 PO's + uitbreiding `docs/leerstuk-procedure.md` naar 9 stappen voor volledig 5-lagen-pakket. CLAUDE.md wegwijzer + ADR-INDEX bijgewerkt. Vorige update 2026-05-30 over ADR-026 tarief-pijplijn blijft van kracht.)
 
 ---
 
