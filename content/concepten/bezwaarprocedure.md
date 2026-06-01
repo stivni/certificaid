@@ -20,7 +20,7 @@ _Procedure_ · ook: administratief beroep · bezwaar tegen aanslag
 
 ## Definitie
 
-De bezwaarprocedure is het verplicht administratief beroep tegen een gevestigde inkomstenbelastingaanslag (WIB92 art. 366). De belastingplichtige dient binnen 6 maanden — vanaf de 1e dag van de derde maand na verzending van het aanslagbiljet — een gemotiveerd bezwaarschrift in bij de adviseur-generaal van de bevoegde gewestelijke directie. De directeur beslist (zonder dwingende beslistermijn) en die beslissing is voorwaarde om naar de rechtbank te kunnen.
+De bezwaarprocedure is het verplicht administratief beroep tegen een gevestigde inkomstenbelastingaanslag (WIB92 art. 366). De belastingplichtige dient binnen een termijn van een jaar — te rekenen van de derde werkdag volgend op de datum van verzending van het aanslagbiljet — een gemotiveerd bezwaarschrift in bij de adviseur-generaal van de bevoegde gewestelijke directie (art. 371 WIB92). De directeur beslist (zonder dwingende beslistermijn) en die beslissing is voorwaarde om naar de rechtbank te kunnen.
 
 <small>📖 WIB92 — art. 366-376 — _wettekst_</small>
 
@@ -32,7 +32,7 @@ Praktisch is bezwaar dé hefboom van de accountant: het is gratis, schriftelijk,
 
 ## Rationale
 
-Het bezwaar is een verplichte zeef vóór de rechter: het ontlast de rechtbanken en geeft de fiscus de kans haar eigen fout te corrigeren. Het is ook een waarborg voor de belastingplichtige (geen extra kosten, geen advocatenplicht). De 6-maand-termijn is van openbare orde — wie te laat is, verliest definitief het recht op betwisting (behoudens ambtshalve ontheffing art. 376 voor materiële vergissingen).
+Het bezwaar is een verplichte zeef vóór de rechter: het ontlast de rechtbanken en geeft de fiscus de kans haar eigen fout te corrigeren. Het is ook een waarborg voor de belastingplichtige (geen extra kosten, geen advocatenplicht). De 1-jaars-termijn is van openbare orde — wie te laat is, verliest definitief het recht op betwisting (behoudens ambtshalve ontheffing art. 376 voor materiële vergissingen).
 
 <small>🔗 WIB92 — art. 371 + art. 376 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 
@@ -41,19 +41,19 @@ Het bezwaar is een verplichte zeef vóór de rechter: het ontlast de rechtbanken
 **Status**: `in-voege` · basis: WIB92 art. 366-376
 
 **📋 Voorwaarden**
-- 📖 (1) Er moet een gevestigde aanslag bestaan; (2) bezwaar wordt schriftelijk ingediend, gemotiveerd, en ondertekend door de belastingplichtige of zijn lasthebber; (3) bij de bevoegde adviseur-generaal (gewestelijke directie); (4) binnen de wettelijke termijn van 6 maanden.
+- 📖 (1) Er moet een gevestigde aanslag bestaan; (2) bezwaar wordt schriftelijk ingediend, gemotiveerd, en ondertekend door de belastingplichtige of zijn lasthebber; (3) bij de bevoegde adviseur-generaal (gewestelijke directie); (4) binnen de wettelijke termijn van één jaar (vanaf de derde werkdag na verzending van het aanslagbiljet).
 
 **▶️ Trigger start**
-- 📖 Verzending van het aanslagbiljet (datum vermeld op het biljet zelf) start de bezwaartermijn-klok — de termijn loopt vanaf de 1e dag van de derde maand erop.
+- 📖 De bezwaartermijn-klok start op de derde werkdag volgend op de datum van verzending van het aanslagbiljet (datum vermeld op het biljet zelf). Voorbeeld: aanslagbiljet verzonden op woensdag 15-04-2026 → derde werkdag = zaterdag 18-04-2026 → vanaf die dag loopt de termijn van één jaar.
 
 **⏹ Trigger einde**
-- 📖 Kennisgeving van de directeursbeslissing (of het verstrijken van 6 maanden zonder beslissing — fictieve afwijzing waarbij de belastingplichtige direct naar de rechter kan).
+- 📖 Kennisgeving van de directeursbeslissing (of het verstrijken van 6 maanden zonder beslissing na indiening van het bezwaar — fictieve afwijzing waarbij de belastingplichtige direct naar de rechter kan stappen, art. 1385undecies Ger.W.).
 
 ## Bouwstenen
 
-### 📏 Termijn van 6 maanden
+### 📏 Termijn van één jaar
 
-Het bezwaar moet zijn ingediend binnen 6 maanden vanaf de 1e dag van de derde maand die volgt op de verzending van het aanslagbiljet (art. 371 WIB92). Voorbeeld: aanslagbiljet verzonden 15 april 2026 → termijn loopt vanaf 1 juli 2026 → einddatum = 31 december 2026. Termijn is van openbare orde: niet-verlengbaar, niet-vatbaar voor herstel (behoudens overmacht).
+Het bezwaar moet zijn ingediend binnen een termijn van een jaar te rekenen van de derde werkdag volgend op de datum van verzending van het aanslagbiljet (art. 371 WIB92). Voorbeeld: aanslagbiljet verzonden op 15 april 2026 → de termijn start op de derde werkdag erna (18 april 2026) → einddatum = 18 april 2027. De termijn is van openbare orde: niet-verlengbaar, niet-vatbaar voor herstel (behoudens overmacht).
 
 <small>📖 WIB92 — art. 371 — _wettekst_</small>
 
@@ -71,16 +71,16 @@ De adviseur-generaal (of zijn gemachtigde ambtenaar) onderzoekt het bezwaar. Hij
 
 ### ↪️ Ambtshalve ontheffing (art. 376)
 
-Verlengde betwistingsmogelijkheid voor materiële vergissingen, dubbele belasting, of nieuwe bewijsmiddelen die de belastingplichtige niet kende: 5 jaar vanaf 1 januari van het aanslagjaar (art. 376 WIB92). Dit is geen bezwaar maar een verzoek tot ambtshalve ontheffing aan de adviseur-generaal. Beperkter dan bezwaar: alleen voor materiële vergissingen, niet voor juridische geschillen.
+Verlengde betwistingsmogelijkheid voor materiële vergissingen, dubbele belasting, of nieuwe bescheiden/feiten waarvan het laattijdig overleggen verantwoord is door gewettigde redenen: 5 jaar vanaf 1 januari van het jaar waarin de belasting is gevestigd (art. 376 WIB92). Dit is geen bezwaar maar een verzoek tot ambtshalve ontheffing aan de adviseur-generaal. Beperkter dan bezwaar: alleen voor materiële vergissingen, niet voor juridische geschillen of een wijziging van rechtspraak.
 
 <small>📖 WIB92 — art. 376 — _wettekst_</small>
 
 ## Valkuilen
 
-> [!warning]- Termijn begint NIET bij datum aanslagbiljet
-> **Verkeerde assumptie**: De 6 maanden lopen vanaf de datum op het aanslagbiljet of vanaf ontvangst.
+> [!warning]- Termijn start NIET op de datum van het aanslagbiljet
+> **Verkeerde assumptie**: De bezwaartermijn loopt vanaf de datum vermeld op het aanslagbiljet, of vanaf ontvangst, of vanaf de eerste dag van de derde maand (oude regel).
 >
-> **Kernpunt**: Termijn begint op de 1e dag van de derde maand die volgt op de verzendingsdatum. Vergrendel deze datum altijd dubbel in de agenda.
+> **Kernpunt**: De termijn start op de derde werkdag volgend op de verzendingsdatum en bedraagt één jaar (art. 371 WIB92). Reken de derde werkdag uit op basis van de verzendingsdatum op het biljet en vergrendel zowel start- als einddatum in de agenda — bij voorkeur met enkele weken veiligheidsmarge.
 >
 > <small>📖 WIB92 — art. 371 — _wettekst_</small>
 
@@ -102,14 +102,14 @@ Verlengde betwistingsmogelijkheid voor materiële vergissingen, dubbele belastin
 
 ### 🧩 Tijdslijn
 
-Berekening bezwaartermijn aan de hand van een aanslagbiljet.
+Berekening bezwaartermijn aan de hand van een aanslagbiljet (art. 371 WIB92): 1 jaar vanaf de derde werkdag na verzending.
 
 ```mermaid
 flowchart LR
-  A[Aanslagbiljet verzonden<br/>15-04-2026] --> B[Wachten tot<br/>1e dag 3e maand]
-  B --> C[Termijn start<br/>01-07-2026]
-  C --> D[Termijn loopt<br/>6 maanden]
-  D --> E[Termijn eindigt<br/>31-12-2026]
+  A[Aanslagbiljet verzonden<br/>15-04-2026] --> B[Tel 3 werkdagen<br/>na verzending]
+  B --> C[Termijn start<br/>18-04-2026]
+  C --> D[Termijn loopt<br/>1 jaar]
+  D --> E[Termijn eindigt<br/>18-04-2027]
   E --> F{Bezwaar ingediend?}
   F -->|ja| G[Behandeling directeur]
   F -->|nee| H[Aanslag definitief<br/>tenzij art. 376]
@@ -123,7 +123,7 @@ flowchart LR
 
 ##### 👣 Termijn-screening
 
-Eerste actie bij ontvangst aanslagbiljet: bereken de bezwaartermijn (1e dag 3e maand + 6 maanden) en zet deze in de agenda — bij voorkeur met 1 maand veiligheidsmarge.
+Eerste actie bij ontvangst aanslagbiljet: noteer de verzendingsdatum op het biljet, tel drie werkdagen door om de startdatum te bepalen en zet einddatum (verzending + 3 werkdagen + 1 jaar, art. 371 WIB92) in de agenda — bij voorkeur met enkele weken veiligheidsmarge zodat een laattijdige ontvangst van het biljet niet fataal is.
 
 <small>🔗 WIB92 — art. 371 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
 

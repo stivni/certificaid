@@ -49,30 +49,49 @@
         "model": "cluster-extract-agent (opus-4.7-1M)",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 366-376)."
+      },
+      {
+        "operatie": "claims_checken",
+        "timestamp": "2026-06-01T00:00:00Z",
+        "model": "opus-4.7-1M",
+        "wave_id": "bezwaartermijn-fix-2026-06-01",
+        "wijziging": "Art. 371 WIB92 — bezwaartermijn is 1 jaar vanaf 3e werkdag na verzending, niet 6 maanden vanaf 1e dag 3e maand. Definitie, rationale, bouwsteen 'termijn', voorwaarden, trigger_start, valkuil, tijdslijn-synthese en accountant-stap 'Termijn-screening' herschreven. Ook art. 376-bouwsteen verfijnd: '5 jaar vanaf 1 januari van het jaar waarin de belasting is gevestigd' (wettekst) i.p.v. '5 jaar vanaf 1 januari van het aanslagjaar' (onnauwkeurig). Bron geverifieerd via MCP zoek_bronnen met rerank (art. 366, 371, 376 WIB92)."
       }
     ],
     "scope": {
       "in": [
-        "Bezwaarschrift indienen: termijn (6 maanden) · vorm · inhoud",
+        "Bezwaarschrift indienen: termijn (1 jaar) · vorm · inhoud",
         "Behandeling door directeur (gewestelijke directie)",
         "Beslissing op bezwaar + rechtsmiddelen",
         "Accountant-perspectief: opstellen bezwaarschrift + advisering",
         "Rename uit: bezwaarprocedure-fiscaal (PO 2.5)"
       ],
       "out": [
-        { "topic": "Gerechtelijke fase na afwijzing bezwaar", "richting": "moet-verwijzen", "ref": "gerechtelijke-fase-belasting" },
-        { "topic": "Bemiddeling als parallelle weg", "richting": "moet-verwijzen", "ref": "fiscale-bemiddelingsprocedure" }
+        {
+          "topic": "Gerechtelijke fase na afwijzing bezwaar",
+          "richting": "moet-verwijzen",
+          "ref": "gerechtelijke-fase-belasting"
+        },
+        {
+          "topic": "Bemiddeling als parallelle weg",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-bemiddelingsprocedure"
+        }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "De bezwaarprocedure is het verplicht administratief beroep tegen een gevestigde inkomstenbelastingaanslag (WIB92 art. 366). De belastingplichtige dient binnen 6 maanden — vanaf de 1e dag van de derde maand na verzending van het aanslagbiljet — een gemotiveerd bezwaarschrift in bij de adviseur-generaal van de bevoegde gewestelijke directie. De directeur beslist (zonder dwingende beslistermijn) en die beslissing is voorwaarde om naar de rechtbank te kunnen.",
+        "tekst": "De bezwaarprocedure is het verplicht administratief beroep tegen een gevestigde inkomstenbelastingaanslag (WIB92 art. 366). De belastingplichtige dient binnen een termijn van een jaar — te rekenen van de derde werkdag volgend op de datum van verzending van het aanslagbiljet — een gemotiveerd bezwaarschrift in bij de adviseur-generaal van de bevoegde gewestelijke directie (art. 371 WIB92). De directeur beslist (zonder dwingende beslistermijn) en die beslissing is voorwaarde om naar de rechtbank te kunnen.",
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 366-376" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 366-376"
+            }
           ]
         }
       },
@@ -81,27 +100,52 @@
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 375" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel + verbod reformatio in pejus" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 375"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Praktijk-vuistregel + verbod reformatio in pejus"
+            }
           ]
         }
       },
       "rationale": {
-        "tekst": "Het bezwaar is een verplichte zeef vóór de rechter: het ontlast de rechtbanken en geeft de fiscus de kans haar eigen fout te corrigeren. Het is ook een waarborg voor de belastingplichtige (geen extra kosten, geen advocatenplicht). De 6-maand-termijn is van openbare orde — wie te laat is, verliest definitief het recht op betwisting (behoudens ambtshalve ontheffing art. 376 voor materiële vergissingen).",
+        "tekst": "Het bezwaar is een verplichte zeef vóór de rechter: het ontlast de rechtbanken en geeft de fiscus de kans haar eigen fout te corrigeren. Het is ook een waarborg voor de belastingplichtige (geen extra kosten, geen advocatenplicht). De 1-jaars-termijn is van openbare orde — wie te laat is, verliest definitief het recht op betwisting (behoudens ambtshalve ontheffing art. 376 voor materiële vergissingen).",
         "grondslag": {
           "confidence": "afgeleid",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 371 + art. 376" },
-            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 371 + art. 376"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Ratio legis-synthese"
+            }
           ]
         }
       }
     },
     "voorkennis_leespad": {
-      "voorvereisten": ["taxatieprocedure", "aanslag-cyclus"],
+      "voorvereisten": [
+        "taxatieprocedure",
+        "aanslag-cyclus"
+      ],
       "kader": "fiscale-procedure",
-      "naast_relevant": ["fiscale-bemiddelingsprocedure"],
-      "volgkennis": ["gerechtelijke-fase-belasting"]
+      "naast_relevant": [
+        "fiscale-bemiddelingsprocedure"
+      ],
+      "volgkennis": [
+        "gerechtelijke-fase-belasting"
+      ]
     },
     "gebruikscontext": {
       "geldigheid": {
@@ -110,33 +154,45 @@
       },
       "voorwaarden": [
         {
-          "tekst": "(1) Er moet een gevestigde aanslag bestaan; (2) bezwaar wordt schriftelijk ingediend, gemotiveerd, en ondertekend door de belastingplichtige of zijn lasthebber; (3) bij de bevoegde adviseur-generaal (gewestelijke directie); (4) binnen de wettelijke termijn van 6 maanden.",
+          "tekst": "(1) Er moet een gevestigde aanslag bestaan; (2) bezwaar wordt schriftelijk ingediend, gemotiveerd, en ondertekend door de belastingplichtige of zijn lasthebber; (3) bij de bevoegde adviseur-generaal (gewestelijke directie); (4) binnen de wettelijke termijn van één jaar (vanaf de derde werkdag na verzending van het aanslagbiljet).",
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 366 + art. 371" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 366 + art. 371"
+              }
             ]
           }
         }
       ],
       "trigger_start": [
         {
-          "tekst": "Verzending van het aanslagbiljet (datum vermeld op het biljet zelf) start de bezwaartermijn-klok — de termijn loopt vanaf de 1e dag van de derde maand erop.",
+          "tekst": "De bezwaartermijn-klok start op de derde werkdag volgend op de datum van verzending van het aanslagbiljet (datum vermeld op het biljet zelf). Voorbeeld: aanslagbiljet verzonden op woensdag 15-04-2026 → derde werkdag = zaterdag 18-04-2026 → vanaf die dag loopt de termijn van één jaar.",
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+              {
+                "type": "wettekst",
+                "naam": "WIB92",
+                "ref": "art. 371"
+              }
             ]
           }
         }
       ],
       "trigger_einde": [
         {
-          "tekst": "Kennisgeving van de directeursbeslissing (of het verstrijken van 6 maanden zonder beslissing — fictieve afwijzing waarbij de belastingplichtige direct naar de rechter kan).",
+          "tekst": "Kennisgeving van de directeursbeslissing (of het verstrijken van 6 maanden zonder beslissing na indiening van het bezwaar — fictieve afwijzing waarbij de belastingplichtige direct naar de rechter kan stappen, art. 1385undecies Ger.W.).",
           "grondslag": {
             "confidence": "geciteerd",
             "bronnen": [
-              { "type": "wettekst", "naam": "Ger.W.", "ref": "art. 1385undecies" }
+              {
+                "type": "wettekst",
+                "naam": "Ger.W.",
+                "ref": "art. 1385undecies"
+              }
             ]
           }
         }
@@ -145,15 +201,21 @@
     "bouwstenen": [
       {
         "id": "termijn",
-        "naam": { "primair": "Termijn van 6 maanden" },
+        "naam": {
+          "primair": "Termijn van één jaar"
+        },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "Het bezwaar moet zijn ingediend binnen 6 maanden vanaf de 1e dag van de derde maand die volgt op de verzending van het aanslagbiljet (art. 371 WIB92). Voorbeeld: aanslagbiljet verzonden 15 april 2026 → termijn loopt vanaf 1 juli 2026 → einddatum = 31 december 2026. Termijn is van openbare orde: niet-verlengbaar, niet-vatbaar voor herstel (behoudens overmacht).",
+            "tekst": "Het bezwaar moet zijn ingediend binnen een termijn van een jaar te rekenen van de derde werkdag volgend op de datum van verzending van het aanslagbiljet (art. 371 WIB92). Voorbeeld: aanslagbiljet verzonden op 15 april 2026 → de termijn start op de derde werkdag erna (18 april 2026) → einddatum = 18 april 2027. De termijn is van openbare orde: niet-verlengbaar, niet-vatbaar voor herstel (behoudens overmacht).",
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 371"
+                }
               ]
             }
           }
@@ -161,7 +223,9 @@
       },
       {
         "id": "vorm-en-inhoud",
-        "naam": { "primair": "Vorm en inhoud van het bezwaarschrift" },
+        "naam": {
+          "primair": "Vorm en inhoud van het bezwaarschrift"
+        },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
@@ -169,7 +233,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 366 + art. 372" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 366 + art. 372"
+                }
               ]
             }
           }
@@ -177,7 +245,9 @@
       },
       {
         "id": "directeursbeslissing",
-        "naam": { "primair": "Beslissing door de directeur" },
+        "naam": {
+          "primair": "Beslissing door de directeur"
+        },
         "bouwsteen_type": "stap",
         "kern": {
           "definitie": {
@@ -185,7 +255,11 @@
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 374-375" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 374-375"
+                }
               ]
             }
           }
@@ -193,15 +267,21 @@
       },
       {
         "id": "ambtshalve-ontheffing",
-        "naam": { "primair": "Ambtshalve ontheffing (art. 376)" },
+        "naam": {
+          "primair": "Ambtshalve ontheffing (art. 376)"
+        },
         "bouwsteen_type": "uitzondering",
         "kern": {
           "definitie": {
-            "tekst": "Verlengde betwistingsmogelijkheid voor materiële vergissingen, dubbele belasting, of nieuwe bewijsmiddelen die de belastingplichtige niet kende: 5 jaar vanaf 1 januari van het aanslagjaar (art. 376 WIB92). Dit is geen bezwaar maar een verzoek tot ambtshalve ontheffing aan de adviseur-generaal. Beperkter dan bezwaar: alleen voor materiële vergissingen, niet voor juridische geschillen.",
+            "tekst": "Verlengde betwistingsmogelijkheid voor materiële vergissingen, dubbele belasting, of nieuwe bescheiden/feiten waarvan het laattijdig overleggen verantwoord is door gewettigde redenen: 5 jaar vanaf 1 januari van het jaar waarin de belasting is gevestigd (art. 376 WIB92). Dit is geen bezwaar maar een verzoek tot ambtshalve ontheffing aan de adviseur-generaal. Beperkter dan bezwaar: alleen voor materiële vergissingen, niet voor juridische geschillen of een wijziging van rechtspraak.",
             "grondslag": {
               "confidence": "geciteerd",
               "bronnen": [
-                { "type": "wettekst", "naam": "WIB92", "ref": "art. 376" }
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art. 376"
+                }
               ]
             }
           }
@@ -211,21 +291,25 @@
     "syntheses": [
       {
         "type": "tijdslijn",
-        "intro": "Berekening bezwaartermijn aan de hand van een aanslagbiljet.",
+        "intro": "Berekening bezwaartermijn aan de hand van een aanslagbiljet (art. 371 WIB92): 1 jaar vanaf de derde werkdag na verzending.",
         "inhoud": {
-          "mermaid": "flowchart LR\n  A[Aanslagbiljet verzonden<br/>15-04-2026] --> B[Wachten tot<br/>1e dag 3e maand]\n  B --> C[Termijn start<br/>01-07-2026]\n  C --> D[Termijn loopt<br/>6 maanden]\n  D --> E[Termijn eindigt<br/>31-12-2026]\n  E --> F{Bezwaar ingediend?}\n  F -->|ja| G[Behandeling directeur]\n  F -->|nee| H[Aanslag definitief<br/>tenzij art. 376]"
+          "mermaid": "flowchart LR\n  A[Aanslagbiljet verzonden<br/>15-04-2026] --> B[Tel 3 werkdagen<br/>na verzending]\n  B --> C[Termijn start<br/>18-04-2026]\n  C --> D[Termijn loopt<br/>1 jaar]\n  D --> E[Termijn eindigt<br/>18-04-2027]\n  E --> F{Bezwaar ingediend?}\n  F -->|ja| G[Behandeling directeur]\n  F -->|nee| H[Aanslag definitief<br/>tenzij art. 376]"
         }
       }
     ],
     "valkuilen": [
       {
-        "titel": "Termijn begint NIET bij datum aanslagbiljet",
-        "verkeerde_assumptie": "De 6 maanden lopen vanaf de datum op het aanslagbiljet of vanaf ontvangst.",
-        "kernpunt": "Termijn begint op de 1e dag van de derde maand die volgt op de verzendingsdatum. Vergrendel deze datum altijd dubbel in de agenda.",
+        "titel": "Termijn start NIET op de datum van het aanslagbiljet",
+        "verkeerde_assumptie": "De bezwaartermijn loopt vanaf de datum vermeld op het aanslagbiljet, of vanaf ontvangst, of vanaf de eerste dag van de derde maand (oude regel).",
+        "kernpunt": "De termijn start op de derde werkdag volgend op de verzendingsdatum en bedraagt één jaar (art. 371 WIB92). Reken de derde werkdag uit op basis van de verzendingsdatum op het biljet en vergrendel zowel start- als einddatum in de agenda — bij voorkeur met enkele weken veiligheidsmarge.",
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 371"
+            }
           ]
         }
       },
@@ -236,7 +320,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 409-410"
+            }
           ]
         }
       },
@@ -247,7 +335,11 @@
         "grondslag": {
           "confidence": "geciteerd",
           "bronnen": [
-            { "type": "wettekst", "naam": "WIB92", "ref": "art. 375" }
+            {
+              "type": "wettekst",
+              "naam": "WIB92",
+              "ref": "art. 375"
+            }
           ]
         }
       }
@@ -256,23 +348,36 @@
   "accountant_perspectieven": [
     {
       "id": "bezwaar-opstellen",
-      "naam": { "primair": "Bezwaarschrift opstellen voor de cliënt" },
+      "naam": {
+        "primair": "Bezwaarschrift opstellen voor de cliënt"
+      },
       "rollen": [
         {
           "rol": "fiscaal",
           "elementen": [
             {
               "id": "b-stap-1",
-              "naam": { "primair": "Termijn-screening" },
+              "naam": {
+                "primair": "Termijn-screening"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
-                  "tekst": "Eerste actie bij ontvangst aanslagbiljet: bereken de bezwaartermijn (1e dag 3e maand + 6 maanden) en zet deze in de agenda — bij voorkeur met 1 maand veiligheidsmarge.",
+                  "tekst": "Eerste actie bij ontvangst aanslagbiljet: noteer de verzendingsdatum op het biljet, tel drie werkdagen door om de startdatum te bepalen en zet einddatum (verzending + 3 werkdagen + 1 jaar, art. 371 WIB92) in de agenda — bij voorkeur met enkele weken veiligheidsmarge zodat een laattijdige ontvangst van het biljet niet fataal is.",
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" },
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 371"
+                      },
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Kantoorpraktijk"
+                      }
                     ]
                   }
                 }
@@ -280,7 +385,9 @@
             },
             {
               "id": "b-stap-2",
-              "naam": { "primair": "Grieven structureren" },
+              "naam": {
+                "primair": "Grieven structureren"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -288,7 +395,12 @@
                   "grondslag": {
                     "confidence": "afgeleid",
                     "bronnen": [
-                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvuistregel" }
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-extract-agent (opus-4.7-1M)",
+                        "datum": "2026-05-28",
+                        "context": "Praktijkvuistregel"
+                      }
                     ]
                   }
                 }
@@ -296,7 +408,9 @@
             },
             {
               "id": "b-stap-3",
-              "naam": { "primair": "Indienen + opvolging" },
+              "naam": {
+                "primair": "Indienen + opvolging"
+              },
               "bouwsteen_type": "stap",
               "kern": {
                 "definitie": {
@@ -304,8 +418,16 @@
                   "grondslag": {
                     "confidence": "geciteerd",
                     "bronnen": [
-                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 366" },
-                      { "type": "wettekst", "naam": "Ger.W.", "ref": "art. 1385undecies" }
+                      {
+                        "type": "wettekst",
+                        "naam": "WIB92",
+                        "ref": "art. 366"
+                      },
+                      {
+                        "type": "wettekst",
+                        "naam": "Ger.W.",
+                        "ref": "art. 1385undecies"
+                      }
                     ]
                   }
                 }
@@ -317,8 +439,17 @@
     }
   ],
   "relaties": [
-    { "type": "valt_onder", "target": "fiscale-procedure" },
-    { "type": "triggert", "target": "gerechtelijke-fase-belasting" },
-    { "type": "vergelijkbaar_met", "target": "fiscale-bemiddelingsprocedure" }
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "triggert",
+      "target": "gerechtelijke-fase-belasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-bemiddelingsprocedure"
+    }
   ]
 }
