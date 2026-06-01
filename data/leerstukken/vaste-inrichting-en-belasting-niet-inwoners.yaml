@@ -1,0 +1,222 @@
+# Leerstuk-script — Vaste inrichting + Belasting niet-inwoners
+#
+# PO 2.8 leerstuk 3 (techniek 2 — Belgische inbound + outbound). Drempel-fiche:
+# wanneer is er VI, welke BNI-categorieën bestaan, hoe behandelt België
+# buitenlandse winsten en verliezen van outbound VI's. Examen-favoriet
+# 2014-1 vr37 (recapture-regel art. 206/4 WIB92).
+
+meta:
+  slug: vaste-inrichting-en-belasting-niet-inwoners
+  titel: "Vaste inrichting + belasting niet-inwoners"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    De Belgische techniek voor INBOUND (buitenlandse onderneming actief
+    in BE) en OUTBOUND (Belgische onderneming actief in buitenland)
+    situaties. Centraal: VI-drempel (art. 5 OESO-MV + art. 229 WIB92) +
+    BNI-categorieën (art. 227-248 WIB92) + recapture-regel buitenlandse
+    VI-verliezen (art. 206/4 WIB92).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld dat dit het tweede techniek-leerstuk
+    is — over de drempel-vraag "wanneer is België bevoegd te belasten?".
+    Speelt zowel inbound (Belgische BNI-Ven.B op buitenlandse vennootschap)
+    als outbound (BE-vennootschap met VI in buitenland). Doorklik naar
+    `vaste-inrichting` en `belasting-niet-inwoners` voor definities.
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: vaste inrichting is de DREMPEL — heeft de buitenlandse onderneming voldoende substantie op het Belgische (of andere staat) grondgebied om daar belast te worden? Vier categorieën van VI (art. 5 OESO-MV): vaste bedrijfsruimte · voorbeeld-lijst (mijn, steengroeve, …) · bouwwerf > 12 mnd · afhankelijke vertegenwoordiger."
+    - "Bij INBOUND VI in België: buitenlandse vennootschap wordt onderworpen aan Belgische BNI-Ven.B (art. 227-248 WIB92) op de winst toerekenbaar aan de BE-VI."
+    - "Bij OUTBOUND VI vanuit België: Belgische vennootschap blijft volledig Ven.B-plichtig op wereldwijde winst, maar past DBV-vrijstelling toe op buitenlandse VI-winst. Belangrijke uitzondering: art. 206/4 WIB92 RECAPTURE-regel — eerder afgetrokken VI-verliezen worden later opnieuw bij de BE-grondslag gevoegd."
+    - "Voor natuurlijke personen niet-inwoners: BNI-PB met eigen categorieën (vakken aangifte 276.1) — beperkter dan gewone PB, gericht op Belgische bron."
+  visualisaties:
+    - type: mermaid
+      ref: vi_drempel_oeso_mv
+  afsluiter: "We werken eerst de VI-drempels door (art. 5 §1-§7 OESO-MV), daarna BNI voor vennootschappen en natuurlijke personen, daarna de outbound-recapture-regel voor BE-vennootschappen met buitenlandse VI."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: vi-vier-soorten
+    titel: "Vier soorten vaste inrichting (art. 5 OESO-MV)"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: VI is de KERN-DREMPEL van het internationaal fiscaal recht. Zonder VI: bronstaat mag NIET heffen op ondernemingswinst (art. 7 §1). Met VI: bronstaat mag heffen op de winst die TOEREKENBAAR is aan de VI. Dus: wie de VI-drempel correct kan inschatten, kent de helft van het inbound/outbound-werk."
+      - "Vier categorieën in art. 5 — opgesomd in dalende intuïtiviteit:"
+
+    kinderen:
+
+      - id: vi-cat-1-vaste-bedrijfsruimte
+        titel: "Categorie 1 — Vaste bedrijfsruimte (art. 5 §1)"
+        niveau: 3
+        beats:
+          - "Definitiezet: 'a fixed place of business through which the business of an enterprise is wholly or partly carried on'. Drie cumulatieve elementen: (a) een ruimte; (b) vast (zekere stabiliteit in tijd); (c) door middel waarvan de onderneming actief is."
+          - "Voorbeelden uit art. 5 §2 (NIET-LIMITATIEVE lijst — illustratie van §1): zetel van leiding, filiaal, kantoor, fabriek, werkplaats, mijn, olie/gasbron, steengroeve, andere plaats van winning natuurlijke rijkdommen."
+          - "Speciaal voor mijn/steengroeve: GEEN tijdsdrempel — een mijn of steengroeve is per definitie VI vanaf dag 1, ongeacht uitbatingsduur. Klassieke val: verwarring met bouwwerf-12-mnd-drempel (art. 5 §3). Examen 2015-1 vr49 + 2024-oef vr4."
+          - "Berkelaar-illustratie post-bouwwerf: na oplevering juni 2026 is Lille-atelier + toonzaal een KLASSIEKE VI categorie 1 — vaste bedrijfsruimte met operationele uitbating. Geen tijdsdrempel meer relevant na de bouwwerf-fase."
+
+      - id: vi-cat-2-bouwwerf
+        titel: "Categorie 2 — Bouwwerf/installatieproject (art. 5 §3)"
+        niveau: 3
+        beats:
+          - "Definitiezet: bouw-, constructie- of installatieproject vormt VI als duur > 12 maanden in de BRONstaat (OESO-modelplafond)."
+          - "BE-DBV's wijken soms af: lagere drempels (6 maanden) komen voor in BE-DBV's met ontwikkelingslanden of in oudere verdragen. ALTIJD het concrete verdrag raadplegen."
+          - "Belgische intern recht (art. 229 §1 WIB92) heeft ZELFS EEN LAGERE DREMPEL voor BNI-Ven.B: bouwwerf > 30 dagen kan al BNI-plicht triggeren. Dat is een EENZIJDIGE Belgische heffingsclaim — een DBV kan die echter beperken tot 12 mnd."
+          - "Drempel-toepassing: 12-mnd is ABSOLUTE drempel, niet pro rata. Bij 11 mnd 29 dagen: GEEN VI. Bij 12 mnd 1 dag: VI met TERUGWERKENDE KRACHT vanaf dag 1 (klassieke OESO-doctrine)."
+          - "Berkelaar-illustratie: Lille verbouwingsbouwwerf 14 mnd (start 2025-04-01 → einde 2026-06-15). 14 mnd > 12 mnd → VI vanaf dag 1. Berkelaar Distributie wordt vanaf 2025-04 in Frankrijk belastingplichtig op de winst toerekenbaar aan de Lille-uitbating (zelfs voor de fase waarin er nog geen retail-omzet is — verbouwingsfase zelf draagt geen winst maar wel kosten)."
+          - "Anti-fragmentatie post-MLI: vroeger konden ondernemingen drie sub-werken van elk 6 mnd uitvoeren via gerelateerde vennootschappen om elk apart onder de drempel te blijven. MLI art. 14 + nieuwe art. 5 §3 OESO-MV-Commentaar: gerelateerde projecten tellen samen voor de drempel."
+
+      - id: vi-cat-3-afhankelijke-vertegenwoordiger
+        titel: "Categorie 3 — Afhankelijke vertegenwoordiger (art. 5 §5-§6)"
+        niveau: 3
+        beats:
+          - "Definitiezet: persoon die in een staat handelt VOOR de onderneming en daar habitueel contracten sluit in NAAM van de onderneming → VI van die onderneming in de staat, ZELFS zonder vaste bedrijfsruimte."
+          - "Voorwaarden cumulatief: (a) persoon (natuurlijk of rechtspersoon) handelt; (b) habitueel — niet eenmalig; (c) sluit contracten in naam; (d) de onderneming heeft geen vaste bedrijfsruimte ter plaatse."
+          - "Post-MLI verruiming (BEPS-actiepunt 7): ook 'habitueel onderhandelen' zonder formeel mandaat tot sluiten — als de hoofdrol wordt ingenomen door deze persoon, telt het als VI."
+          - "ONAFHANKELIJKE agent (art. 5 §6) creëert GEEN VI. Onafhankelijk = (a) economisch + juridisch onafhankelijk van opdrachtgever; (b) handelt in de GEWONE bedrijfsuitoefening van zijn eigen onderneming. Klassiek voorbeeld: commissionair die voor verschillende ondernemingen werkt."
+          - "Berkelaar-illustratie: stel Berkelaar Holding gebruikt een Franse commercial agent om e-bike-verkoop in Frankrijk te promoten. Als die agent ENKEL Berkelaar vertegenwoordigt + habitueel verkoopcontracten ondertekent → AFHANKELIJK → VI in FR (zelfs ZONDER Lille-atelier). Als die agent meerdere merken doet + alleen prospects aanlevert → ONAFHANKELIJK → geen VI."
+
+      - id: vi-cat-4-voorbereidend
+        titel: "Categorie 4 — Wat GEEN VI is: voorbereidende activiteiten (art. 5 §4)"
+        niveau: 3
+        beats:
+          - "Definitiezet: een vaste bedrijfsruimte met UITSLUITEND voorbereidende of hulpactiviteiten vormt GEEN VI. Voorbeelden: gebruik van faciliteiten louter voor opslag/uitstalling/aflevering; aanhouden van een voorraad uitsluitend voor opslag/uitstalling/aflevering; kantoor uitsluitend voor info-inwinning of reclame."
+          - "Post-MLI strenger: het 'uitsluitend' wordt strikt geïnterpreteerd. Anti-fragmentatieregel (art. 5 §4.1): als activiteiten worden VERDEELD over meerdere vaste plaatsen, en samen vormen ze een COHERENT geheel dat voorbij voorbereidend gaat → ALLE plaatsen samen vormen één VI."
+          - "Praktisch voor stagiair: een Belgisch 'verbindingskantoor' van een buitenlands bedrijf dat alleen marketing doet → kandidaat-vrijstelling. MAAR: als datzelfde kantoor ook offertes voorbereidt of klanten ontvangt voor verkoopgesprek → niet meer uitsluitend voorbereidend → VI."
+
+      - id: dienst-vi
+        titel: "Dienst-vaste-inrichting (BEPS-novum)"
+        niveau: 3
+        beats:
+          - "Definitiezet: bij sommige BE-DBV's (vooral met ontwikkelingslanden + sommige UN-modelverdragen) bestaat een SERVICE-PE — dienstverlening in bronstaat vormt VI bij voldoende projectduur (typisch 183 dagen in 12 mnd) zelfs zonder fysieke vaste plaats."
+          - "Niet in zuiver OESO-MV — wel in UN-modelverdrag art. 5 §3(b). Sommige BE-DBV's nemen het over (bv. met ontwikkelingslanden voor consultancy-werk)."
+          - "Praktisch zelden in EU-context. Wel relevant bij Berkelaar-uitbreiding buiten EU."
+
+  - id: belasting-niet-inwoners-vennootschap
+    titel: "Belasting niet-inwoners — vennootschap (BNI-Ven.B)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: BNI-Ven.B is de Belgische techniek om INBOUND VI's te belasten. Buitenlandse vennootschap (geen Belgische zetel/werkelijke leiding) met activiteit in BE → BNI-Ven.B plichtig op de Belgische winst."
+      - "Toepassingsgebied — art. 227, 2° WIB92: buitenlandse vennootschappen die in België een onderneming exploiteren of inkomsten uit Belgische bron behalen."
+      - "Belastbare basis — art. 228 + art. 229 WIB92: (a) winst toerekenbaar aan Belgische VI; (b) inkomsten van Belgische OG (art. 228 §2, 1°); (c) bepaalde Belgische roerende inkomsten met aanknopingspunt; (d) bepaalde Belgische beroepsinkomsten."
+      - "Tarief: zelfde Ven.B-tarief als binnenlandse vennootschap (25% standaard, 20% KMO-eerste schijf indien voldoet aan KMO-toets — let op: niet alle binnenlandse KMO-voordelen gelden voor BNI-Ven.B)."
+      - "Praktische gevolgen voor inbound: aangifte 273 ipv 275 — eigen formulier voor BNI-Ven.B. DBI-aftrek niet automatisch toepasselijk (vereist bijzondere voorwaarden voor BNI). Overdracht verliezen: alleen verliezen toerekenbaar aan BE-VI overdraagbaar; geen aftrek tegen toekomstige niet-VI-winst."
+      - "Procedure: bezwaar binnen 1 jaar (WIB92 art. 371) — gelijk als binnenlands. Maar internationale geschillen vaak via MAP-procedure ipv enkel bezwaar."
+
+  - id: belasting-niet-inwoners-personen
+    titel: "Belasting niet-inwoners — natuurlijke personen (BNI-PB)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: niet-inwoners (natuurlijke personen die geen Belgisch rijksinwoner zijn) met Belgische inkomsten zijn onderworpen aan BNI-PB. Beperkter dan gewone PB — gericht op Belgische bron-inkomen."
+      - "Categorieën niet-inwoners (art. 227, 1° + art. 232-243 WIB92) — drie hoofdgroepen:"
+      - "(1) NIET-INWONERS ZONDER VAST VERBLIJF — buitenlandse expats met losse Belgische inkomsten (bv. consultant die occasioneel in BE werkt). Aangifte 276.1 SUB-versie. Beperkte aftrekken (bv. geen federaal of gewest-belastingvermindering)."
+      - "(2) NIET-INWONERS MET BELGISCH TEHUIS — die wel in BE een woning hebben maar wettelijk niet rijksinwoner zijn. Iets ruimere aftrekken."
+      - "(3) NIET-INWONERS MET VOLLEDIGE BE-VERWERVING — als ≥ 75% van het wereldinkomen uit Belgische bron komt, gelijkstelling met inwoner voor aftrekken (Schumacker-arrest C-279/93 — EU-verplichting tegen discriminatie)."
+      - "Belastbare basis — alleen INKOMSTEN UIT BELGISCHE BRON:"
+      - "(a) BELGISCHE BEROEPSINKOMSTEN (art. 228 §2, 6° en 7°): loon voor werk verricht in BE, vennootschapsmandaten BE, zelfstandige in BE — onderworpen aan bedrijfsvoorheffing."
+      - "(b) BELGISCHE ONROERENDE INKOMSTEN (art. 228 §2, 1°): KI/huurwaarde van vastgoed gelegen in BE."
+      - "(c) BELGISCHE ROERENDE INKOMSTEN met bron in BE — meestal via roerende voorheffing afgehandeld; alleen aangifteplicht bij sommige niet-bevrijdende RV."
+      - "Tarief: gewone PB-schalen + 7% federale opcentiemen (geen gemeente-opcentiemen — niet-inwoner heeft geen Belgische gemeente)."
+      - "Sophie-illustratie (omkeerde richting): Sophie is BE-rijksinwoner met NL-bron-inkomen (salary split). NL belast haar als BNI in NL (Nederlandse loonbelasting + IB). BE belast haar PB-plichtig op wereldwijde inkomsten, past art. 23A DBV BE-NL toe → vrijstelling met progressievoorbehoud op het NL-deel."
+
+  - id: buitenlandse-winst-en-verlies-vi
+    titel: "Outbound: buitenlandse VI — winst en verlies"
+    niveau: 2
+    beats:
+      - "Open met de positionering: omgekeerde stroom — Belgische vennootschap met VI in buitenland. BE blijft Ven.B-plichtig op wereldwijde winst (inclusief de buitenlandse VI), maar het DBV beperkt BE's heffingsrecht via vrijstellings- of credit-methode."
+      - "Stelregel: bij DBV's met vrijstellingsmethode (= de meeste BE-DBV's) wordt de WINST van de buitenlandse VI vrijgesteld in BE. De BE-Ven.B grondslag wordt vastgesteld als (wereldwinst – vrijgestelde VI-winst)."
+      - "VOOR HET VERLIES: gevolg LEGITIEM aangerekend op BE-grondslag — art. 206/4 WIB92 staat dit toe ZELFS bij vrijstellingsmethode. Reden: anders zou een aanloopverlies in een buitenlandse VI op niemands grondslag mogen → economisch onlogisch."
+
+    kinderen:
+
+      - id: recapture-regel-art-206-4
+        titel: "Recapture-regel art. 206/4 WIB92 — examen-favoriet"
+        niveau: 3
+        beats:
+          - "Definitiezet: wanneer de Belgische vennootschap eerder een VI-verlies heeft AFGETROKKEN van haar BE-grondslag, en de VI in een later jaar winstgevend wordt, moet die latere VI-winst — die normaal onder DBV vrijgesteld is — bij de BE-grondslag GEVOEGD worden ten belope van het eerder afgetrokken verlies. Dit is de RECAPTURE-regel."
+          - "Pedagogische uitleg: de recapture corrigeert een tijdelijk fiscaal voordeel — eerst aftrekken in BE (gunstig), daarna optellen wanneer de VI 'terugbetaalt' (ongunstig). Per saldo: economisch neutraal als de cumulatieve verliezen + winsten gelijk uitkomen."
+          - "Examen 2014-1 vr37 — werkvoorbeeld:"
+          - "JAAR 1: BE-winst 2.000 + VI-Italië-verlies 1.000 = wereldwinst 1.000. Aftrek VI-verlies op BE-grondslag → BE-belastbaar 1.000."
+          - "JAAR 2: BE-winst 2.000 + VI-Italië-winst 1.000 = wereldwinst 3.000. Vrijstelling onder DBV BE-IT: VI-winst 1.000 vrijgesteld, in beginsel BE-belastbaar = 2.000. MAAR recapture art. 206/4 WIB92: aangezien jaar 1 een VI-verlies 1.000 op BE-grondslag werd afgetrokken → jaar 2 VI-winst 1.000 wordt OPNIEUW bij BE gegooid. BE-belastbaar jaar 2 = 2.000 + 1.000 + 1.000 = 4.000 (boekhoudkundige winst is 3.000, fiscaal 4.000)."
+          - "Vermeld de cumul: tot het bedrag aan eerder afgetrokken VI-verlies wordt recapture gedaan. Daarna stopt recapture en volgt de normale vrijstellingsmethode."
+          - "Berkelaar-illustratie: Berkelaar Distributie's Franse VI Lille gaat in 2026 (aanloopjaar) verlies maken — bv. -120k. BE trekt dit verlies af op BE-grondslag jaar 2026. In 2027 maakt de VI winst — bv. +180k. Recapture jaar 2027: +120k bij BE-grondslag (tot beloop van afgetrokken verlies); de resterende 60k blijft vrijgesteld onder DBV BE-FR."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Jaar", "Wereldwinst (boekhoudkundig)", "VI-resultaat", "Aftrek/recapture", "BE-belastbaar"]
+            rijen:
+              - ["1", "1.000", "-1.000", "-1.000 verlies afgetrokken op BE", "1.000"]
+              - ["2", "3.000", "+1.000", "+1.000 recapture van eerder afgetrokken verlies + 1.000 vrijstelling onder DBV", "4.000"]
+              - ["3 (hypothetisch)", "3.000", "+1.000", "geen recapture meer (eerder verlies uitgeput), normale vrijstelling", "2.000"]
+
+      - id: winst-naar-herkomst-art-230
+        titel: "Winst naar herkomst (art. 230 WIB92)"
+        niveau: 3
+        beats:
+          - "Definitiezet: voor BE-vennootschappen met meerdere buitenlandse VI's bestaat de regel 'winst naar herkomst' — toewijzing van de wereldwinst per land op basis van werkelijke functies, activa, risico's per VI."
+          - "Praktisch: zoals het DBV vraagt 'winst toerekenbaar aan VI' (art. 7 OESO-MV) — BE-vennootschap met VI's in NL, FR en LU moet voor elk land de winst-toedeling kunnen onderbouwen. Methodes: directe methode (afzonderlijke boekhouding VI), indirecte methode (omzet- of activa-verdeelsleutel)."
+          - "Voor Berkelaar Distributie: na Lille-uitbating wordt een AFZONDERLIJKE boekhouding voor de Franse VI vereist. De winst-toerekening (functies + activa + risico's) moet documenteerbaar zijn voor zowel de FR-fiscus als de BE-fiscus."
+
+  - id: examen-aandacht-vi-bni
+    titel: "Examen-aandacht — drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): STEENGROEVE vs BOUWWERF tijdsdrempel. Steengroeve = art. 5 §2(f) → KLASSIEKE VI ZONDER tijdsdrempel. Bouwwerf = art. 5 §3 → VI bij DUUR > 12 MND. Examen 2015-1 vr49 + 2024-oef vr4."
+      - "Valkuil 2 (⚠️): RECAPTURE-regel art. 206/4 WIB92. Boekhoudkundige wereldwinst ≠ BE-belastbare grondslag. Bij eerder afgetrokken VI-verlies → latere VI-winst opnieuw bij BE-grondslag. Examen 2014-1 vr37."
+      - "Valkuil 3 (⚠️): BNI-Ven.B ≠ binnenlandse Ven.B. Niet alle KMO-voordelen (verlaagd tarief, gespreide vrijstelling investeringen) gelden voor BNI-Ven.B. Klassieke onderscheid om bij examen scherp te houden."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: europese-richtlijnen-en-bronheffing
+      hint: "EU-richtlijnen op dividenden + intresten + royalty's; FBB/DBI als Belgische correctiemechanismen."
+    - slug: transfer-pricing-beps-en-anti-misbruik
+      hint: "Bij VI: corresponderende correctie + armslengte tussen VI en hoofdzetel."
+    - slug: geintegreerd-internationaal-advies
+      hint: "Case B — exit + zetelverplaatsing toetst VI-techniek + recapture aan praktijk."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — VI-drempels + recapture + BNI-categorieën."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek:"
+  groepen:
+    - concepten: [vaste-inrichting, belasting-niet-inwoners]
+    - concepten: [buitenlandse-winst-en-verlies, winst-naar-herkomst]
+    - concepten: [toepassingsgebied-vennootschapsbelasting]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "VI-definitie internationaal"
+    ref: "Art. 5 OESO-MV §1 t/m §7"
+  - onderwerp: "VI-definitie Belgisch intern recht"
+    ref: "WIB92 art. 229"
+    noot: "Lagere drempel dan OESO-MV: bouwwerf > 30 dagen voor BNI-Ven.B-claim. DBV's beperken vaak."
+  - onderwerp: "BNI-plichtigheid"
+    ref: "WIB92 art. 227"
+  - onderwerp: "Belastbare basis BNI-Ven.B (winst toerekenbaar aan BE-VI)"
+    ref: "WIB92 art. 228 §1 + 2, 1° + 6° + 7°"
+  - onderwerp: "Categorieën niet-inwoners PB"
+    ref: "WIB92 art. 232-243"
+  - onderwerp: "Schumacker-regel (75%-Belgische inkomsten = gelijkstelling)"
+    ref: "WIB92 art. 243/1 + HJEU C-279/93 Schumacker"
+  - onderwerp: "Recapture-regel buitenlandse VI-verliezen"
+    ref: "WIB92 art. 206/4"
+  - onderwerp: "Winst naar herkomst (multi-VI)"
+    ref: "WIB92 art. 230"
+  - onderwerp: "VI-uitbreiding post-MLI"
+    ref: "MLI art. 12-15 (gewijzigde art. 5 OESO-MV §4-§6)"
+    noot: "Anti-fragmentatieregel + commissionair-PE + dienst-VI in sommige BE-DBV's."
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "Schumacker — niet-inwoners met 75%-Belgisch inkomen"
+    inhoud: "HJEU 14 februari 1995, C-279/93 (Schumacker): niet-inwoner van een EU-lidstaat die ≥ 75% van zijn wereldinkomen uit een andere lidstaat haalt, moet voor persoonlijke aftrekken gelijkgesteld worden met inwoner van die staat. Belgische omzetting via WIB92 art. 243/1."
+  - onderwerp: "Berlioz / Brisal (HJEU) — bronheffing bij niet-inwoners en EU-vrijheid"
+    inhoud: "Klassieke HJEU-arresten over discriminatie van niet-inwoners bij bronheffing. Vaste leer: bronheffing zonder mogelijkheid van aftrek werkelijke kosten kan strijdig zijn met EU-dienstenverkeer-vrijheid."
+    confidence: "⚠️ te verifiëren in primaire bron"
+
+footer: "Leerstuk PO 2.8. Status: voorgesteld."

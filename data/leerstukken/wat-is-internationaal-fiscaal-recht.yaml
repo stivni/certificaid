@@ -1,0 +1,197 @@
+# Leerstuk-script — Wat is internationaal fiscaal recht?
+#
+# PO 2.8 leerstuk 1 (entry + kader). Zonder begrip van waarom dubbele belasting
+# ontstaat en welke 3 lagen het oplossen blijft elke richtlijn techniek zonder
+# structuur. Vestigt woonstaat↔bronstaat-onderscheid + juridisch↔economisch
+# dubbele belasting als denkkader voor de andere 5 leerstukken.
+
+meta:
+  slug: wat-is-internationaal-fiscaal-recht
+  titel: "Wat is internationaal fiscaal recht?"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    Het kader van PO 2.8 — waarom ontstaat dubbele belasting, in welke
+    vormen, en welke drie lagen (eenzijdig · bilateraal · multilateraal+EU)
+    voorkomen ze. Stelt het denkschema "feiten → kwalificatie → verdrag →
+    richtlijn → intern recht" dat door alle latere leerstukken doorloopt.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina PO 2.8.
+    Maak duidelijk dat dit het kader-leerstuk is: korte uitleg waarom
+    dubbele belasting ontstaat + drie lagen om het op te lossen. Doorklik
+    voor definities naar `internationaal-fiscaal` (koepelconcept).
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: internationaal fiscaal recht is het samenspel van regels die voorkomen dat dezelfde inkomsten of vermogen door meerdere staten dubbel worden belast — drie lagen lossen dat samen op (eenzijdig · bilateraal · multilateraal+EU)."
+    - "Drie oorzaken van dubbele belasting: (1) één staat belast wereldinkomen via woonplaats, (2) een andere staat belast bronstaat-inkomen via territorialiteit, (3) twee staten kwalificeren dezelfde persoon als inwoner."
+    - "Twee VORMEN: juridische dubbele belasting (zelfde persoon, zelfde inkomen, twee staten) ≠ economische dubbele belasting (zelfde inkomen, twee verschillende personen — typisch vennootschap+aandeelhouder, of moeder+dochter)."
+    - "Drie LAGEN aan voorkomingsmechanismen: (1) eenzijdig — Belgische intern-rechts-correcties zoals FBB, DBI, art. 156 WIB92; (2) bilateraal — dubbelbelastingverdragen op basis van OESO-modelverdrag; (3) multilateraal + EU — MLI, moeder-dochter-, interest-royalty- en fusierichtlijn."
+  visualisaties:
+    - type: mermaid
+      ref: drie_lagen_internationaal_fiscaal
+  afsluiter: "We werken eerst de oorzaken + vormen door, daarna de drie lagen achter elkaar — telkens geïllustreerd met een stroom in de Berkelaar-groep."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: oorzaken-dubbele-belasting
+    titel: "Waarom ontstaat dubbele belasting?"
+    niveau: 2
+    beats:
+      - "Open met de Berkelaar-illustratie: Henri De Cock ontvangt €650k dividend van Berkelaar Luxemburg SARL. Luxemburg heft als bronstaat (waar dochter is gevestigd) — België heft als woonstaat (waar aandeelhouder rijksinwoner is). Beide staten claimen heffingsrecht → dubbele belasting tenzij iets dat oplost."
+      - "Drie klassieke oorzaken — leg ze één voor één uit: (1) WOONPLAATSBEGINSEL — een staat belast zijn rijksinwoners op hun WERELDINKOMEN (België: WIB92 art. 5 — Belgisch rijksinwoner belast op wereldwijde inkomsten); (2) BRONBEGINSEL — een staat belast inkomsten waarvan de BRON op zijn grondgebied ligt (Spanje belast IRNR op Spaans onroerend goed van niet-inwoners); (3) DUBBELE RESIDENTIE — twee staten zien dezelfde persoon als inwoner (Henri verhuist halverwege jaar 2027 naar NL — overgangsjaar: beide staten claimen)."
+      - "Synthese: de oorzaken zijn legitiem — elke staat heeft historisch reden om woonplaats én bron te belasten. Het PROBLEEM is dat ze niet samen werken. Dat is waarom internationaal fiscaal recht bestaat."
+      - "Aside (blockquote): de overgrote meerderheid van dubbele-belasting-gevallen komt uit oorzaak 1+2 samen (woonplaats woonstaat × bron bronstaat). Dubbele residentie (oorzaak 3) is zeldzamer en wordt afzonderlijk opgelost via de tie-breaker-cascade in art. 4 §2 OESO-MV — uitwerking volgt in leerstuk 2."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Oorzaak", "Mechaniek", "Voorbeeld Berkelaar"]
+        rijen:
+          - ["Woonplaatsbeginsel", "Staat belast rijksinwoner op wereldinkomen", "BE belast Henri op LU-dividend (Henri is BE-rijksinwoner)"]
+          - ["Bronbeginsel", "Staat belast inkomen waarvan bron op zijn grondgebied ligt", "LU belast LU-dividend bij uitkering (bron = LU SARL)"]
+          - ["Dubbele residentie", "Beide staten kwalificeren persoon als inwoner", "Maarten in 2024: laatste BE-jaar = ook eerste LU-jaar"]
+
+  - id: vormen-dubbele-belasting
+    titel: "Twee vormen: juridisch versus economisch"
+    niveau: 2
+    beats:
+      - "Definitiezet: JURIDISCH dubbele belasting = ZELFDE belastingplichtige + ZELFDE inkomen + TWEE staten. ECONOMISCH dubbele belasting = ZELFDE inkomen + TWEE verschillende belastingplichtigen (typisch vennootschap + aandeelhouder, of moeder + dochter)."
+      - "Concretiseer juridisch: Sophie (Belgisch inwoner) heeft loon-inkomen van Berkelaar Nederland. BE wil belasten als woonstaat op haar wereldinkomen; NL wil belasten als werkstaat op het deel uitgevoerd op NL-grondgebied. ZELFDE Sophie, ZELFDE inkomen — twee staten. Klassiek juridisch dubbele belasting."
+      - "Concretiseer economisch: Berkelaar Luxemburg betaalt €650k dividend. LU heft Ven.B op de winst die het dividend draagt (winst van LU SARL voor uitkering). BE heft Ven.B bij Berkelaar Holding op het ontvangen dividend (vóór DBI). ZELFDE €650k-pakket maar BIJ TWEE verschillende vennootschappen — economisch dubbel."
+      - "Belang van het onderscheid: de INSTRUMENTEN verschillen. JURIDISCHE dubbele belasting wordt opgelost door DBV's (toewijzingsregel + voorkomingsmethode in woonstaat) + EU-richtlijnen. ECONOMISCHE dubbele belasting wordt opgelost door INTERNE wetten zoals DBI (Belgische deelnemingsvrijstelling op dividenden) of door corresponderende correctie (art. 7 §3 + art. 9 OESO-MV bij transfer pricing)."
+      - "Examen-aandacht (⚠️): bij verrekenprijs-correctie tussen VI en hoofdzetel = ZELFDE rechtspersoon → géén klassiek juridisch geval want zelfde belastingplichtige. Voorbeeldexamen 2015-1 vr49: stagiair die de twee vormen niet beheerst, antwoordt fout."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Juridische dubbele belasting", "Economische dubbele belasting"]
+        rijen:
+          - ["Belastingplichtige", "ZELFDE persoon", "TWEE verschillende personen"]
+          - ["Inkomen", "ZELFDE inkomen", "ZELFDE inkomen-pakket"]
+          - ["Staten", "Twee staten claimen", "Eén of twee staten"]
+          - ["Berkelaar-voorbeeld", "Sophie loon: BE woonstaat + NL werkstaat", "LU SARL winst → BE Holding dividend"]
+          - ["Hoofd-instrument", "DBV-toewijzing + voorkomingsmethode", "DBI-aftrek + corresponderende correctie"]
+
+  - id: drie-lagen-overzicht
+    titel: "Drie lagen van voorkoming"
+    niveau: 2
+    beats:
+      - "Open met de structuur-zet: dubbele belasting wordt op DRIE niveaus tegelijk aangepakt — eenzijdig in nationale wet, bilateraal in een DBV, multilateraal/EU via MLI + richtlijnen. De drie lagen werken cumulatief en hiërarchisch."
+      - "Stelregel hiërarchie (cruciaal): bij dezelfde inkomstenstroom past de adviseur de GUNSTIGSTE laag toe. Praktisch betekent dat: kijk eerst of er een EU-richtlijn van toepassing is (gunstig en dwingend); zo niet, ga naar het bilaterale DBV (typisch beperking bronheffing); zo niet, val terug op intern-rechts-correcties."
+      - "Voor Belgisch dossiers met intra-EU-component: EU-richtlijnen primeren altijd in hun toepassingsgebied — vrijstelling bronheffing bij MDR/IRR is sterker dan elk DBV-tarief."
+      - "Aside: deze hiërarchie is niet absoluut — sommige DBV-bepalingen kunnen gunstiger zijn dan een richtlijn (bv. een verdragstarief van 0% op royalty's terwijl IRR-drempel niet gehaald wordt). Vuistregel: altijd alle drie lagen toetsen, kies de gunstigste."
+    kinderen:
+
+      - id: laag-1-eenzijdig
+        titel: "Laag 1 — Eenzijdig: nationaal-rechtelijke correcties"
+        niveau: 3
+        beats:
+          - "Definitiezet: elke staat heeft zelf, ZONDER tegenpartij, regels in zijn interne wet om dubbele belasting te beperken. Geen verdrag nodig."
+          - "Belgische voorbeelden: (1) FBB — forfaitair gedeelte buitenlandse belasting (art. 285-289 WIB92) verrekent buitenlandse bronheffing op intresten/royalty's tegen de Belgische belasting; (2) DBI-aftrek (art. 202-205quater WIB92) trekt 100% van ontvangen dividend uit de Ven.B-grondslag mits voorwaarden; (3) art. 156 WIB92 — halving voor buitenlandse beroepsinkomsten zonder DBV; (4) art. 23A/B van DBV's omgezet in art. 155 WIB92 — vrijstelling met progressievoorbehoud."
+          - "Sterkte + zwakte: eenzijdig werkt OOK met landen waarmee België geen DBV heeft (bv. een vroege correctie voor inkomsten uit Afghanistan zonder verdrag). Zwakte: forfaitair karakter — bv. FBB 15/85 is GROVER dan een werkelijke buitenlandse-belasting-verrekening; overgeschoten buitenlandse heffing wordt verloren."
+          - "Vermeld dat alle Belgische intern-rechts-correcties leerstuk-specifiek terugkomen: FBB + DBI in leerstuk 4, art. 155 + art. 156 WIB92 in leerstuk 2."
+
+      - id: laag-2-bilateraal
+        titel: "Laag 2 — Bilateraal: dubbelbelastingverdragen (DBV)"
+        niveau: 3
+        beats:
+          - "Definitiezet: tussen TWEE staten gesloten verdrag dat dubbele belasting voorkomt door (a) toewijzing van heffingsbevoegdheid per inkomenscategorie + (b) verplichting voor de woonstaat om resterende dubbele belasting weg te nemen via vrijstelling of credit-methode."
+          - "België heeft ca. 100 DBV's in werking — bijna allemaal gemodelleerd op het OESO-modelverdrag (art. 1-32). Sommige met UNO-modelverdrag-elementen (bredere bron-staat-bevoegdheid — vooral met ontwikkelingslanden)."
+          - "Voor Berkelaar-stromen relevant: DBV BE-NL 2001 (Sophie's loon, NL→BE royalty), DBV BE-LU 1970 (LU→BE dividend, Maarten's loon), DBV BE-FR 1964 (Franse VI Lille), DBV BE-ES 1995 (Henri's villa)."
+          - "Belangrijk: een DBV verhoogt NOOIT de belasting — het kan alleen beperken. Als intern recht al gunstiger is, blijft intern recht van toepassing ('gunstigste-bepaling'-principe — niet wettelijk vastgelegd maar als adviespraktijk solide)."
+          - "Volledige werking + toewijzingsregels per categorie + voorkomingsmethode → uitgewerkt in [[dbv-werking-en-toewijzingsregels]]."
+
+      - id: laag-3-multilateraal-eu
+        titel: "Laag 3 — Multilateraal en Europees"
+        niveau: 3
+        beats:
+          - "Definitiezet: instrumenten die meerdere staten tegelijk binden — MLI (BEPS-actiepunt 15) + EU-richtlijnen op fiscaal vlak."
+          - "MLI (Multilateral Instrument) is een verdragsraamwerk dat in één klap ca. 100 bestaande DBV's wijzigt: anti-misbruik-clausules (Principal Purpose Test), uitbreiding van VI-begrip (afhankelijke vertegenwoordiger), arbitrage-procedure bij MAP-stilzitten. België heeft MLI in 2018 ondertekend → impact op de meeste BE-DBV's vanaf 2020 (afhankelijk van tegenpartij)."
+          - "EU-richtlijnen vormen de specifiek-Europese laag: (a) Moeder-dochterrichtlijn 2011/96 (vrijstelling bronheffing op intra-EU-dividend ≥10%); (b) Interest-royalty-richtlijn 2003/49 (vrijstelling bronheffing op intra-EU-intrest/royalty ≥25%); (c) Fusierichtlijn 2009/133 (fiscale neutraliteit grensoverschrijdende fusies); (d) ATAD I+II 2016/1164 + 2017/952 (anti-tax-avoidance — CFC, interest limitation, exit tax, hybrides, GAAR)."
+          - "Praktische opmerking: voor Berkelaar-stromen LU→BE dividend en NL→LU royalty: deze richtlijnen primeren over het DBV-tarief — als drempel + voorwaarden gehaald, 0% bronheffing. Uitwerking in leerstuk 4."
+
+  - id: woonstaat-bronstaat-aanknopingspunten
+    titel: "Drie aanknopingspunten: residentie, vaste inrichting, bron van inkomen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: na de drie lagen komen de drie aanknopingspunten — concrete vragen die elke internationale casus opent."
+      - "Aanknopingspunt 1 — FISCALE RESIDENTIE: wie WOONT waar? Voor natuurlijke personen: WIB92 art. 2 (woonplaats of zetel van fortuin in BE); voor vennootschappen: WIB92 art. 2 §1, 5° + art. 179 (zetel + werkelijke leiding). Bij conflict tussen twee staten: art. 4 §2 OESO-MV tie-breaker-cascade (duurzaam tehuis → middelpunt levensbelangen → gewoon verblijf → nationaliteit)."
+      - "Aanknopingspunt 2 — VASTE INRICHTING: heeft de buitenlandse onderneming voldoende substantie in België om hier belast te worden? Art. 5 OESO-MV definieert vier soorten: (a) vaste bedrijfsruimte; (b) bouwwerf > 12 mnd; (c) afhankelijke vertegenwoordiger; (d) dienst-VI (BEPS-novum). Berkelaar Distributie's Franse atelier (14 mnd bouwwerf) → VI in FR."
+      - "Aanknopingspunt 3 — BRON VAN INKOMEN: waar is het inkomen 'verdiend'? Voor onroerend goed: ligging-staat. Voor arbeid: werkstaat. Voor dividend: vestigingsstaat van uitkerende vennootschap. Voor royalty: vaak schuldenaars-staat."
+      - "Synthese: elke internationale casus begint met deze drie vragen. Henri's villa in Spanje → residentie BE (Henri) × bron ES (ligging villa) → DBV BE-ES art. 6 OG. Sophie's loon → residentie BE × bron NL (werkdagen) → DBV BE-NL art. 15."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aanknopingspunt", "Vraag", "WIB-grondslag", "DBV-art."]
+        rijen:
+          - ["Fiscale residentie", "Wie woont waar?", "art. 2 + art. 179 WIB92", "art. 4 OESO-MV (tie-breaker)"]
+          - ["Vaste inrichting", "Voldoende substantie in andere staat?", "art. 229 WIB92", "art. 5 OESO-MV"]
+          - ["Bron van inkomen", "Waar verdiend?", "art. 228 WIB92 (BNI-bronnen)", "art. 6-21 OESO-MV per categorie"]
+
+  - id: drie-rollen-accountant
+    titel: "De accountant in het internationale dossier"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het PO-programma (taken 1-5) verdeelt het werk over drie hoofdrollen + één synthese-rol. Voor de stagiair: weet welke rol je speelt voor je antwoord."
+      - "ADVISEUR (taak 1 + 3): structureer-vragen vooraf — vestigingskeuze (rechtsvorm, jurisdictie, holding-positie), grensoverschrijdende investering, expat-onthaal, ruling-aanvraag. Dominante rol in dit PO."
+      - "BOEKHOUDER/COMPLIANCE (taak 4): aangifte BNI niet-inwoner, formulieren verminderde bronheffing onder DBV (276 DIV/276 INT/276 ROY), CbCR-rapport, aangifte juridische constructies (Kaaiman). Doorlopend werk."
+      - "VERTEGENWOORDIGER (taak 5): voor BE-fiscus (bezwaar, rechtbank), buitenlandse fiscus (analoge procedure), DVB (ruling), MAP-procedure (geschillenbeslechting tussen staten — art. 25 OESO-MV)."
+      - "Synthese-rol bij EXIT (taak 2): adviseur + boekhouder + vertegenwoordiger samen bij overdracht/zetelverplaatsing — combinatie van structurering, aangifte exit-heffing en eventueel geschil-begeleiding."
+      - "Pedagogische opmerking: elk volgend leerstuk werkt deze rollen uit via accountant-perspectief-blokken — niet meer in de minicursus zelf, maar verspreid waar relevant."
+
+  - id: leesroute-na-dit-leerstuk
+    titel: "Wat volgt na dit leerstuk"
+    niveau: 2
+    beats:
+      - "Bondige routekaart: leerstuk 2 werkt de DBV-techniek uit (toewijzingsregels + voorkomingsmethode); leerstuk 3 zoomt in op de Belgische inbound + outbound (VI + BNI + buitenlandse winst); leerstuk 4 behandelt de EU-richtlijnen + FBB/DBI; leerstuk 5 doet anti-ontwijking (TP + BEPS + ATAD); leerstuk 6 synthetiseert op cases."
+      - "Praktische tip: de aanknopingspunten residentie/VI/bron herhalen zich constant. Wie ze NU stevig vastlegt, ervaart de rest van het pakket als applicatie eerder dan nieuw materiaal."
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Wanneer je dit kader hebt, ga dan naar:"
+  leerstukken:
+    - slug: dbv-werking-en-toewijzingsregels
+      hint: "De DBV als matrijs — toewijzingsregels per inkomenscategorie en de voorkomingsmethode in de woonstaat."
+    - slug: vaste-inrichting-en-belasting-niet-inwoners
+      hint: "Wanneer is België bevoegd op de buitenlandse activiteit — VI-drempel + BNI-techniek."
+    - slug: europese-richtlijnen-en-bronheffing
+      hint: "De Europese laag — moeder-dochter, interest-royalty, fusie + FBB/DBI Belgisch."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — denkschema feiten→DBV→richtlijn → drie lagen."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek:"
+  groepen:
+    - concepten: [internationaal-fiscaal, dubbelbelastingverdrag, fiscale-residentie]
+    - concepten: [oeso-modelverdrag, mli-instrument]
+    - concepten: [eu-fiscale-richtlijnen]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "Belgische rijksinwoner — woonplaats + zetel van fortuin"
+    ref: "WIB92 art. 2 §1, 1° + art. 3"
+  - onderwerp: "Fiscale woonplaats vennootschap — werkelijke leiding"
+    ref: "WIB92 art. 2 §1, 5° + art. 179"
+  - onderwerp: "Tie-breaker dubbele residentie natuurlijke persoon"
+    ref: "Art. 4 §2 OESO-modelverdrag (Resident — individuals)"
+    noot: "Cascade: duurzaam tehuis → middelpunt levensbelangen → gewoon verblijf → nationaliteit → onderling overleg."
+  - onderwerp: "Halving buitenlandse beroepsinkomsten zonder DBV"
+    ref: "WIB92 art. 156"
+  - onderwerp: "Vrijstelling met progressievoorbehoud (omzetting art. 23A DBV)"
+    ref: "WIB92 art. 155"
+  - onderwerp: "FBB op buitenlandse roerende inkomsten"
+    ref: "WIB92 art. 285-289"
+  - onderwerp: "DBI-aftrek dividenden"
+    ref: "WIB92 art. 202-205quater"
+  - onderwerp: "Bronnen Belgische BNI (territoriaal aanknopingspunt)"
+    ref: "WIB92 art. 228"
+  - onderwerp: "MLI — Multilateral Instrument (BEPS-actiepunt 15)"
+    ref: "Goedgekeurd in BE met wet 2018; in werking vanaf 2020 voor BE-DBV's per tegenpartij"
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "Tie-breaker residentie + arrest 'middelpunt van levensbelangen'"
+    inhoud: "Cassatie en feitenrechters toetsen het 'middelpunt van levensbelangen' aan een gemengde set criteria: gezin, eigendom, werkadres, sociaal netwerk. Geen één criterium absoluut; rechter weegt feiten. Klassieke arrest-referenties: nader te bevestigen via primaire bron — algemene leer wel bestendigd."
+    confidence: "⚠️ te verifiëren"
+
+footer: "Leerstuk PO 2.8. Status: voorgesteld."

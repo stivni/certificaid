@@ -1,0 +1,200 @@
+# Leerstuk-script — Europese richtlijnen en bronheffing
+#
+# PO 2.8 leerstuk 4 (techniek 3 — EU-laag). Hoe overrulen Europese richtlijnen
+# het DBV, hoe werken FBB en DBI als Belgische correctiemechanismen, hoe
+# behandelt België roerende inkomsten internationaal. Drempel-favoriet:
+# moeder-dochter 10% vs interest-royalty 25% (examen 2024-oef vr8 Hongarije).
+
+meta:
+  slug: europese-richtlijnen-en-bronheffing
+  titel: "Europese richtlijnen en bronheffing"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    Hoe stijgen Europese fiscale richtlijnen boven het DBV uit op het vlak
+    van bronheffing? Moeder-dochterrichtlijn (dividenden ≥10%), Interest-
+    royaltyrichtlijn (intresten + royalty's ≥25% verbonden onderneming),
+    Fusierichtlijn 2009/133 (fiscale neutraliteit). Plus de Belgische
+    correctiemechanismen FBB en DBI op buitenlandse roerende inkomsten +
+    de exit-heffing op zetelverplaatsing.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld dat dit het derde techniek-leerstuk
+    is — over de EU-laag die over het DBV heen ligt + de Belgische
+    intern-rechts-correcties die parallel werken. Doorklik naar
+    `moeder-dochterrichtlijn` en `interest-royalty-richtlijn` voor details.
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: drie EU-fiscale richtlijnen schakelen bronheffing UIT in intra-EU intra-groep-stromen, mits drempels gehaald — moeder-dochter ≥10% deelneming (dividenden), interest-royalty ≥25% verbonden onderneming (intresten + royalty's), fusierichtlijn 2009/133 (fiscale neutraliteit grensoverschrijdende reorganisatie)."
+    - "Drempels MOETEN UIT JE HOOFD — examen 2024-oef vr8: 3% deelneming + natuurlijke persoon als verbinding → BEIDE faal (MDR < 10% én IRR < 25% én geen gemeenschappelijke moeder-VENNOOTSCHAP)."
+    - "België als woonstaat past de Belgische technieken toe op het ontvangen inkomen: DBI-AFTREK voor dividenden (art. 202-205quater WIB92 — 100% aftrek mits drempel + houd + taxatie); FBB voor intresten/royalty's (art. 285-289 WIB92 — forfaitaire verrekening 15/85 op netto-inkomen)."
+    - "Exit-heffing (art. 210 §1, 4° WIB92) treedt op bij zetelverplaatsing van BE-vennootschap naar buitenland; ATAD art. 5 staat geleidelijke betaling 5 jaar toe binnen EU. Fusierichtlijn 2009/133 zorgt voor fiscale neutraliteit bij grensoverschrijdende fusie — maar enkel bij vennootschapsvormen uit bijlage I deel A."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Richtlijn", "Object", "Drempel", "Effect"]
+      rijen:
+        - ["MDR 2011/96", "Intra-EU dividend moeder-dochter", "≥10% kapitaal + 1 jr", "0% bronheffing"]
+        - ["IRR 2003/49", "Intra-EU intrest + royalty verbonden", "≥25% kapitaal of stemrechten + 1 jr", "0% bronheffing"]
+        - ["Fusie 2009/133", "Grensoverschrijdende fusie/splitsing/inbreng", "rechtsvorm bijlage I A + Ven.B bijlage I B", "Fiscale neutraliteit (uitstel meerwaarde)"]
+        - ["ATAD 2016/1164", "Anti-tax-avoidance (CFC, interest limitation, exit, hybride)", "varieert per regel", "Anti-misbruik-corridor"]
+  afsluiter: "We werken eerst de drie hoofdrichtlijnen door, daarna FBB en DBI als Belgische correctiemechanismen, en tot slot exit-heffing + fusierichtlijn."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: moeder-dochterrichtlijn
+    titel: "Moeder-dochterrichtlijn (Richtlijn 2011/96/EU)"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: MDR is de oudste en bekendste EU-fiscale richtlijn (oorspronkelijk 90/435/EEG, gewijzigd 2011/96/EU). Doel: elimineren van fiscale belemmeringen voor grensoverschrijdende holdings binnen de EU. Concreet: vrijstelling bronheffing op dividenden + vrijstelling/aftrek in woonstaat moeder."
+      - "Drie cumulatieve voorwaarden — alle drie nodig:"
+      - "(1) DEELNEMINGSDREMPEL ≥ 10% van het kapitaal van de dochter — art. 3 lid 1 a) i) richtlijn. Sommige lidstaten kunnen lager toestaan."
+      - "(2) HOUDPERIODE ≥ 1 jaar ONONDERBROKEN — moet door moeder gehouden ZIJN of WORDEN. BE-praktijk: 1 jaar moet bevestigd zijn. Houden kan retroactief worden gehaald (de richtlijn staat toe dat houdperiode na uitkering wordt voltooid)."
+      - "(3) RECHTSVORM + BELASTINGPLICHT — moeder en dochter moeten EU-vennootschapsvormen uit bijlage I + onderworpen aan vennootschapsbelasting uit lijst (Belgische Ven.B; Luxemburgse CIT; etc.)."
+      - "Anti-misbruik — art. 1 §2-3 (toegevoegd door wijziging 2015 + ATAD): vrijstelling moet geweigerd worden bij 'kunstmatige constructie zonder economische realiteit'. Soort van GAAR-light specifiek voor MDR. Belgische omzetting via art. 203 WIB92 + art. 344 §1 WIB92."
+      - "Effect bij toepassing:"
+      - "BRONSTAAT (dochter-staat) → 0% bronheffing op de uitkering."
+      - "WOONSTAAT (moeder-staat) → keuze: (a) vrijstelling dividend uit grondslag of (b) credit-methode op buitenlandse Ven.B die op dividend werd geheven. België koos (a) → DBI-aftrek art. 202-205quater WIB92."
+      - "Berkelaar-illustratie: Berkelaar Holding BV 100% van Berkelaar Luxemburg SARL. Dividend €650k voorzien 2026."
+      - "(a) Deelneming 100% > 10% ✓; (b) Houdperiode ≥ 1 jaar bevestigd ✓; (c) Rechtsvormen BV + SARL beide in bijlage I + beide Ven.B-plichtig (BE Ven.B, LU CIT 17%) ✓. → MDR van toepassing → LU heft 0% bronheffing op dividend."
+      - "In BE: ook DBI-aftrek (omzetting MDR + intern recht). 100% aftrek van €650k uit Ven.B-grondslag Berkelaar Holding mits taxatievoorwaarde (LU CIT 17% → OK, geen 'taxhaven'-regime)."
+      - "Anti-misbruik-check: is Berkelaar Luxemburg een echte substance-vennootschap of een lege brievenbus? Aanwezig: kantoor, 3 medewerkers (Maarten + 2 admin), eigenaar merk 'Berkelaar' (€800k boekwaarde, €4,5M vermoedelijke marktwaarde), concernfinanciering-activiteit. → PPT/GAAR-doorstaan."
+      - "Tegenvoorbeeld — Berkelaar France SAS (3% deelneming): MDR-drempel niet gehaald. Bij eventuele dividenduitkering valt onder DBV BE-FR art. 10 met bronheffing-plafond (typisch 15% portfolio of 5% bij ≥25%-deelneming → hier portfolio 15%). Voor Berkelaar Holding op het ontvangen kleine deel: GEEN volledige DBI omdat €5,4k bedrag onder €2,5M aanschaffingswaarde-drempel ligt → mogelijk wel via 10% deelnemingsdrempel... maar 3% < 10% → DBI faalt OOK. Dus: gewone Ven.B-grondslag voor Berkelaar Holding op die kleine dividendstroom."
+
+  - id: interest-royaltyrichtlijn
+    titel: "Interest-royaltyrichtlijn (Richtlijn 2003/49/EG)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: IRR is jonger (2003) en strenger qua drempel. Doel: vrijstelling bronheffing op INTRESTEN en ROYALTY's tussen verbonden EU-vennootschappen — zoals MDR voor dividenden."
+      - "Drie cumulatieve voorwaarden:"
+      - "(1) VERBONDEN ONDERNEMING ≥ 25% deelneming. Drie configuraties: (a) UITBETALER bezit ≥ 25% in ONTVANGER, of (b) ONTVANGER bezit ≥ 25% in UITBETALER, of (c) GEMEENSCHAPPELIJKE MOEDER-VENNOOTSCHAP bezit ≥ 25% in beide. KRITIEK: 'moeder-VENNOOTSCHAP' — NIET natuurlijke persoon."
+      - "(2) HOUDPERIODE ≥ 1 jaar ononderbroken."
+      - "(3) UITEINDELIJK GERECHTIGDE — ontvanger moet werkelijk de beneficial owner zijn (geen tussengeschoven brievenbus-vennootschap)."
+      - "Anti-misbruik — art. 5: lidstaten kunnen vrijstelling weigeren als hoofddoel belastingontwijking is."
+      - "Effect: 0% bronheffing in bronstaat op de intrest- of royalty-uitkering."
+      - "Berkelaar-illustratie #1 — royalty NL→LU €420k. Berkelaar Nederland BV betaalt royalty aan Berkelaar Luxemburg SARL. NL en LU hebben geen rechtstreekse deelneming in elkaar — MAAR beide zijn 100% dochter van Berkelaar Holding BV (gemeenschappelijke moeder-vennootschap). 100% > 25% → IRR van toepassing → 0% bronheffing NL op royalty."
+      - "Berkelaar-illustratie #2 — concernlening BE-Holding → LU SARL €3,2M @ 3,5% rente. Intra-groep rente vrijgesteld onder IRR ✓. Maar BE-Holding had ook in intern recht al 0% bronheffing op deze stroom (intra-EU intra-groep) → overlap onschadelijk."
+      - "Tegenvoorbeeld — examen 2024-oef vr8 Hongaarse case: Belgische NV bezit 3% van Hongaarse vennootschap; 97% rechtstreeks bij natuurlijke persoon Z (broer X). IRR-toets: 3% < 25%-deelnemingsdrempel direct ✓ MAAR gemeenschappelijke 'aandeelhouder' is een NATUURLIJKE PERSOON → geen 'gemeenschappelijke moeder-VENNOOTSCHAP' → IRR FAALT. Hongaarse bronheffing op de intrest- en royaltybetalingen blijft verschuldigd. Niets minder dan: enkel via DBV BE-HU art. 10/11 te beperken."
+
+  - id: fusierichtlijn
+    titel: "Fusierichtlijn (Richtlijn 2009/133/EG)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: fusierichtlijn regelt grensoverschrijdende REORGANISATIES — fusies, splitsingen, inbreng van bedrijfstakken, aandelenruil. Doel: fiscale NEUTRALITEIT — geen onmiddellijke afrekening van latente meerwaarden bij grensoverschrijdende fusie."
+      - "Drie CUMULATIEVE voorwaarden art. 3 — zonder elk faalt richtlijn:"
+      - "(a) RECHTSVORM in bijlage I deel A — limitatieve lijst per lidstaat: NV/SA, BV/SRL, CV/SC, SE, SCE, enz. GEEN verenigingen (vzw/ivzw), geen stichtingen."
+      - "(b) FISCALE WOONPLAATS in een EU-lidstaat (en niet 'afgeleid naar derde land' via DBV met 3e land)."
+      - "(c) ONDERWORPEN AAN VEN.B uit bijlage I deel B — voor BE: vennootschapsbelasting (NIET rechtspersonenbelasting). Voor LU: impôt sur les sociétés. Geen keuzemogelijkheid, geen vrijstelling."
+      - "Examen 2015-1 vr50 — ivzw verkrijgt Spaanse caritatieve vzw met onroerend goed. Toetst voorwaarde (a) + (c): ivzw is GEEN vennootschap (boek 10 WVV) → rechtsvorm niet in bijlage I A → richtlijn faalt. Bovendien is ivzw onderworpen aan rechtspersonenbelasting (art. 220 WIB92), niet aan Ven.B → voorwaarde (c) faalt ook. Spaanse caritatieve vzw idem. Fiscale neutraliteit niet mogelijk → Spaanse interne belasting op onroerend-goed-meerwaarde blijft verschuldigd."
+      - "Effect bij geslaagde toepassing: latente meerwaarden op overgedragen activa worden NIET onmiddellijk belast in de staat van de overdragende vennootschap, MAAR worden uitgesteld tot daadwerkelijke realisatie. Voorwaarde: de overgenomen activa blijven verbonden met een VI van de overnemende vennootschap in de staat van de overdragende."
+      - "Belgische omzetting: art. 211 WIB92 (fusieneutraliteit) + art. 213 WIB92 (splitsingen) + art. 230bis WIB92 (grensoverschrijdende ondernemingsmobiliteit)."
+
+  - id: dbi-aftrek-belgisch
+    titel: "DBI-aftrek — Belgische deelnemingsvrijstelling op dividenden"
+    niveau: 2
+    beats:
+      - "Open met de positionering: DBI = 'Definitief Belaste Inkomsten' (Revenus Définitivement Taxés in het Frans). Belgische intern-rechts-techniek: 100% aftrek van ontvangen dividend uit de Ven.B-grondslag van de moeder, mits voorwaarden."
+      - "DBI is een AFTREK (verlaagt belastbare grondslag), NIET een CREDIT (verlaagt belasting). Belangrijk verschil: bij verlies van de moeder kan DBI niet 'verloren gaan' want grondslag was al onbelast — maar kan ook geen credit-saldo opleveren."
+      - "Drie cumulatieve voorwaarden art. 202-205quater WIB92:"
+      - "(1) DEELNEMINGSDREMPEL: ≥ 10% van het kapitaal van de uitkerende vennootschap OF aanschaffingswaarde ≥ €2.500.000."
+      - "(2) HOUDPERIODE: ≥ 1 jaar ononderbroken (vóór of na uitkering). Verzaakbaar in beperkte gevallen voor vennootschappen onder de KMO-grens."
+      - "(3) TAXATIEVOORWAARDE — kern: de uitkerende vennootschap moet onderworpen zijn aan een belasting GELIJKAARDIG aan BE-Ven.B. Negatieve definitie: niet in een 'tax haven'-regime + niet vrijgesteld + niet onder 'kunstmatige'-aftrekken."
+      - "Lijst uitgesloten dividenden (de 'taxhaven-clausule', art. 203 §1 WIB92): dividenden van vennootschappen onder gunstigregime, in landen met 'aanmerkelijk gunstiger' belastingregime dan BE, etc. Limitatieve lijst aangelegd door KB."
+      - "Berkelaar-illustratie: LU SARL CIT 17% → ruim binnen taxatievoorwaarde (LU is geen taxhaven; CIT 17% is comparable to BE 25%). DBI-aftrek geldig. €650k volledig uit Ven.B-grondslag Berkelaar Holding."
+      - "Belangrijk verschil met MDR: MDR voorzien 10%-drempel; DBI heeft ANDERE drempel (10%-OF-€2,5M EN taxatievoorwaarde). Een vennootschap kan voldoen aan MDR (0% bronheffing dochterland) maar uitsluiten op DBI (taxatievoorwaarde-faal). Andersom kan ook."
+
+  - id: fbb-belgisch
+    titel: "FBB — Forfaitair gedeelte buitenlandse belasting"
+    niveau: 2
+    beats:
+      - "Open met de positionering: FBB = forfaitaire verrekening van buitenlandse bronheffing op buitenlandse INTRESTEN en ROYALTY's. Belgische intern-rechts-techniek, parallel aan DBI maar voor de andere roerende inkomsten."
+      - "Mechaniek: ipv 100% aftrek van de inkomst, geeft FBB een FORFAITAIRE CREDIT op de Belgische belasting. Forfait = 15/85 op het NETTO-inkomen (= bedrag na buitenlandse bronheffing). Niet de WERKELIJKE buitenlandse heffing — een vereenvoudigd forfait."
+      - "Voorbeeld: BE-vennootschap ontvangt royalty €100 bruto met 10% buitenlandse bronheffing → netto €90. Forfait FBB = 15/85 × €90 = €15,88. De Belgische Ven.B op deze royalty wordt verlaagd met €15,88."
+      - "Beperking: FBB-credit mag niet hoger zijn dan de Belgische Ven.B op het specifieke inkomen. Overgeschoten FBB gaat verloren."
+      - "Toepassingsvoorwaarden art. 285-289 WIB92:"
+      - "(1) Roerende inkomsten uit buitenlandse bron"
+      - "(2) Buitenlandse bronheffing daadwerkelijk geheven (eigen aan bronstaat — niet enkel theoretisch verschuldigd)"
+      - "(3) Aanmerkelijke band met de Belgische beroepsactiviteit"
+      - "Beperking: FBB geldt niet voor dividenden (die vallen onder DBI) en niet voor inkomsten waarop al een EU-richtlijn 0% bronheffing toepast (zonder bronheffing = geen FBB nodig)."
+      - "Berkelaar-illustratie: GEEN FBB relevant want intra-groep stromen vallen onder MDR/IRR met 0% bronheffing. FBB zou relevant zijn voor buitenlandse niet-EU intresten met bronheffing (bv. een BE-Holding-deposit in een niet-EU bank met bronheffing in dat land)."
+
+  - id: exit-heffing-zetelverplaatsing
+    titel: "Exit-heffing en zetelverplaatsing"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: wat gebeurt als een BE-vennootschap haar werkelijke zetel naar het buitenland verplaatst? Latente meerwaarden op activa die niet meer onder BE-bevoegdheid blijven, worden GEACHT gerealiseerd te zijn — fiscale 'exit'."
+      - "Mechaniek: art. 210 §1, 4° WIB92 gelijkstelling zetelverplaatsing met liquidatie. Gevolg: alle latente meerwaarden (stille reserves, niet-uitgekeerde winst, goodwill) worden belast in de BE-Ven.B als 'liquidatie-meerwaarde'."
+      - "ATAD art. 5 (exit tax) — omgezet in BE: bij zetelverplaatsing naar EU/EER mag de belastingplichtige kiezen voor GELIJKMATIGE BETALING in 5 jaar. Binnen EU mag België de belasting niet onmiddellijk innen (HJEU C-371/10 National Grid Indus → fiscale neutraliteit binnen EU)."
+      - "Voor zetelverplaatsing naar NIET-EU/EER: onmiddellijke heffing OK. Naar EU/EER: spreiding 5 jaar verplicht aangeboden."
+      - "Praktische overweging: zetelverplaatsing is bijna nooit een geïsoleerde fiscale beslissing. Vergt parallel WVV-procedure (boek 14 grensoverschrijdende omzetting) + civielrechtelijke aspecten + impact op werknemers + ondernemings-administratie. Fiscaal stuk is één van vele factoren."
+      - "Berkelaar-illustratie (vooruitwijzing leerstuk 6): in case B overweegt Henri om Berkelaar Holding naar Nederland te verhuizen. Exit-heffing op latente meerwaarden — bij overdracht 60% aandelen aan PE voor €18M zou de Belgische fiscus een 'exit'-grondslag kunnen claimen op de waarde van de overgedragen activa (goodwill, niet-uitgedeelde reserves)."
+
+  - id: roerende-inkomsten-internationaal
+    titel: "Roerende inkomsten internationaal — keten van bronheffing"
+    niveau: 2
+    beats:
+      - "Open met de positionering: roerende inkomsten = dividenden, intresten, royalty's. Internationaal ondergaan ze een KETEN van behandeling: (a) bronheffing in bronstaat (mits geen richtlijn-vrijstelling) → (b) ontvangst door BE-belastingplichtige → (c) BE-behandeling (Ven.B vs PB) + correctiemechanisme (DBI/FBB)."
+      - "Voor VENNOOTSCHAP: bronheffing → DBI of FBB → 100% aftrek (DBI) of forfaitaire verrekening (FBB). Effectief netto-tarief sterk afhankelijk van bron-staat × deelneming × richtlijn-toepasselijkheid."
+      - "Voor NATUURLIJKE PERSOON: bronheffing → BE-roerende voorheffing → eventuele aanvullende belasting in PB. Geen DBI/FBB voor natuurlijke personen (die zijn vennootschaps-mechanismen)."
+      - "Klassieke kwalificatie-vraag: wat is 'dividend' vs 'intrest' vs 'royalty'? Art. 10-12 OESO-MV definiëren autonoom. Verdoken-winstuitkeringen worden vaak HERKWALIFICEERD van 'intrest' of 'royalty' naar 'dividend' onder anti-misbruik."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): MDR-drempel 10% verwarren met IRR-drempel 25%. Examen 2024-oef vr8 — 3% deelneming = beide falen. Schrijf de drempel altijd op voor je een antwoord geeft."
+      - "Valkuil 2 (⚠️): 'Gemeenschappelijke moeder-vennootschap' bij IRR — moet VENNOOTSCHAP zijn, geen natuurlijke persoon. Klassieke val bij familieholdings waar twee broers/zussen elk een eigen vennootschap hebben — geen common parent COMPANY."
+      - "Valkuil 3 (⚠️): MDR ≠ DBI automatisch. MDR vereist 10%-deelneming + houd + rechtsvorm. DBI vereist 10%-of-€2,5M + houd + TAXATIEVOORWAARDE. Vennootschap kan MDR halen (0% bronheffing) maar DBI verliezen (taxatievoorwaarde-faal op een Cypriotische taxhaven-regime bv.)."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: transfer-pricing-beps-en-anti-misbruik
+      hint: "Anti-misbruik in MDR/IRR (PPT) + armslengte-correctie + ATAD-vijfluik."
+    - slug: geintegreerd-internationaal-advies
+      hint: "Case A — sub-holding in Cyprus = MDR + fusierichtlijn + PPT samen toepassen."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — drempels + DBI + FBB + exit."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek:"
+  groepen:
+    - concepten: [eu-fiscale-richtlijnen, moeder-dochterrichtlijn, interest-royalty-richtlijn]
+    - concepten: [forfaitair-gedeelte-buitenlandse-belasting, dbi-aftrek]
+    - concepten: [roerend-inkomen-internationaal, exit-planning-vennootschap, fiscale-fusie-splitsing]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "Moeder-dochterrichtlijn — drempel + vrijstelling"
+    ref: "Richtlijn 2011/96/EU art. 3 lid 1 a) i) (drempel 10%) + art. 5 (vrijstelling bronheffing)"
+  - onderwerp: "Moeder-dochterrichtlijn — anti-misbruik"
+    ref: "Richtlijn 2011/96/EU art. 1 §2-3 (ingevoegd 2015) — GAAR-clausule"
+  - onderwerp: "Interest-royaltyrichtlijn — drempel verbonden onderneming"
+    ref: "Richtlijn 2003/49/EG art. 3 b) — ≥ 25% deelneming"
+  - onderwerp: "Fusierichtlijn — toepassingsgebied"
+    ref: "Richtlijn 2009/133/EG art. 3 (drie cumulatieve voorwaarden) + bijlage I deel A + deel B"
+  - onderwerp: "ATAD — exit tax"
+    ref: "Richtlijn 2016/1164 art. 5 (omgezet in BE art. 210 §1, 4° + art. 211 WIB92)"
+  - onderwerp: "Belgische DBI-aftrek"
+    ref: "WIB92 art. 202-205quater (deelnemingsvrijstelling)"
+  - onderwerp: "Belgische FBB"
+    ref: "WIB92 art. 285-289 (forfaitair gedeelte buitenlandse belasting)"
+  - onderwerp: "Belgische fusieneutraliteit"
+    ref: "WIB92 art. 211 (fusie) + art. 213 (splitsing) + art. 230bis (grensoverschrijdende mobiliteit)"
+  - onderwerp: "Belgische exit-heffing"
+    ref: "WIB92 art. 210 §1, 4° (zetelverplaatsing) + art. 412bis (gespreide betaling)"
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "National Grid Indus — exit tax binnen EU"
+    inhoud: "HJEU 29 november 2011, C-371/10: lidstaat mag exit-heffing claimen op latente meerwaarden bij zetelverplaatsing binnen EU, maar moet GELIJKMATIGE BETALING in tijd toestaan (geen onmiddellijke heffing). Basis voor ATAD art. 5 + Belgische gespreide betaling 5 jaar."
+  - onderwerp: "Cadbury Schweppes — substance-test op buitenlandse vennootschap"
+    inhoud: "HJEU 12 september 2006, C-196/04: lidstaat mag fiscale faciliteit weigeren aan buitenlandse vennootschap die 'zuiver kunstmatige constructie' is (zonder economische substantie). Basis voor PPT in MLI + GAAR in MDR-amendering 2015 + ATAD GAAR."
+    confidence: "verifieerd in jurisprudentie-context"
+
+footer: "Leerstuk PO 2.8. Status: voorgesteld."

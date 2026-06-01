@@ -1,7 +1,7 @@
 ---
 title: 2.8 Voorbeeldexamenvragen Europees en internationaal fiscaal recht
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.8 (Europees en internationaal fiscaal recht).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "9. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-2-8]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

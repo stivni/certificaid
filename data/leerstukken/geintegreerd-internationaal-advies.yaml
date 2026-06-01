@@ -1,0 +1,243 @@
+# Leerstuk-script — Geïntegreerd internationaal advies
+#
+# PO 2.8 leerstuk 6 (synthese). Brengt de techniek van leerstukken 1-5
+# samen in drie case-types: oprichting met internationale dimensie (taak
+# 2.8.1), exit + zetelverplaatsing (taak 2.8.2), grensoverschrijdend
+# vermogensbeheer (taak 2.8.3). Dekt kenniselementen 2.8.X (internationale
+# tewerkstelling + expat) en 2.8.XI (internationaal vastgoed) in case-modus
+# + MAP-procedure als procedure-route (taak 2.8.5).
+
+meta:
+  slug: geintegreerd-internationaal-advies
+  titel: "Geïntegreerd internationaal advies"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    Drie case-types tonen geïntegreerd internationaal advies in actie:
+    (A) oprichting van een Cypriotische sub-holding voor IP + dividenden,
+    (B) verkoop holding + zetelverplaatsing met PE-investeerder,
+    (C) grensoverschrijdend vermogensbeheer met expat-zoon, grensarbeider-
+    dochter, en buitenlandse villa. Plus MAP-procedure als rechtsmiddel
+    bij dubbele heffing. Sluit de PO af in synthese-modus — niet meer
+    kennis maar oordeels­vorming.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld dat dit het synthese-leerstuk is —
+    een ANDERE DENKMODUS dan de techniek-leerstukken. Hier wordt kennis
+    toegepast op cases met meerdere lagen tegelijk: feiten → kwalificatie →
+    DBV → richtlijn → anti-misbruik → advies. Doorklik naar
+    `internationale-tewerkstelling`, `internationaal-onroerend-goed`, `map`.
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: geïntegreerd internationaal advies werkt in vijf stappen — (1) FEITEN scherp krijgen (residentie + bron + structuur), (2) per stroom KWALIFICEREN (welk inkomen, welk verdrag, welke richtlijn), (3) DBV-toewijzing toepassen, (4) RICHTLIJN-overlay testen, (5) ANTI-MISBRUIK-check + procedure-route kiezen."
+    - "Drie cases tonen dit in actie: case A oprichting Cypriotische sub-holding (MDR + PPT + substance), case B exit met zetelverplaatsing (exit-heffing + ATAD spreiding + meerwaarde op aandelen), case C grensoverschrijdend vermogen (salary split + expat-regime + buitenlandse villa)."
+    - "Aanvullend instrument: MAP (art. 25 OESO-MV) — onderling overleg bevoegde autoriteiten bij dubbele heffing. Termijn 3 jaar; sinds MLI verplichte arbitrage bij stilzitten ≥ 2 jaar voor verdragspartners die voor arbitrage kozen."
+  visualisaties:
+    - type: mermaid
+      ref: groepsstructuur_berkelaar
+  afsluiter: "We werken eerst de methodiek door (vijf-stappen-advies), daarna drie cases (A oprichting, B exit, C grensoverschrijdend vermogen), daarna MAP als rechtsmiddel."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: methodiek-geintegreerd-advies
+    titel: "Methodiek — vijf stappen voor elk internationaal dossier"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: een geïntegreerd advies is niet 'al de techniek herhalen' — het is een GESTRUCTUREERDE DENKBEWEGING die rauwe feiten omzet in een afgewogen advies. Vijf stappen, in vaste volgorde."
+      - "Stap 1 — FEITEN-INVENTARISATIE. Wie is de belastingplichtige? Residentie (BE-rijksinwoner of niet)? Welke staten zijn betrokken? Welke inkomensstromen + structuur? Documenten: jaarrekening, contracten, akten, attesten."
+      - "Stap 2 — KWALIFICATIE per inkomensstroom. Per stroom: aard inkomen (OG / ondernemingswinst / dividend / intrest / royalty / arbeid)? Bron-staat? Woonstaat? Welke aanknopingspunten? VI ja/nee? Beneficial owner?"
+      - "Stap 3 — DBV-TOETSING per stroom. Welk DBV (BE-X)? Welke toewijzingsregel? Plafond? Voorkomingsmethode in woonstaat? MLI-impact (PPT, VI-uitbreiding)?"
+      - "Stap 4 — RICHTLIJN-OVERLAY. Intra-EU? Drempels MDR/IRR gehaald? Fusierichtlijn van toepassing (bij reorganisatie)?"
+      - "Stap 5 — ANTI-MISBRUIK + PROCEDURE. Substance-test? PPT-doorstaan? ATAD-vijfluik (interest limitation, CFC, exit, hybrides, GAAR)? DAC6-melding? Bij dispuut: bezwaar BE, MAP, ruling-aanvraag DVB?"
+      - "Synthese: vijf stappen → advies-uitspraak met onderliggende redenering. Schriftelijk gemotiveerd advies is per programma-doelstelling (2.8.taak.1.doel.1) verplicht."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Vraag", "Tools/leerstukken"]
+        rijen:
+          - ["1. Feiten", "Wie, waar, welke stromen?", "Voorbeeldgroep + intakegesprek"]
+          - ["2. Kwalificatie", "Welk type inkomen, welke bron-staat, VI?", "Leerstuk 1 + 3"]
+          - ["3. DBV", "Welke toewijzing? Voorkoming?", "Leerstuk 2"]
+          - ["4. Richtlijn", "MDR/IRR/Fusie van toepassing?", "Leerstuk 4"]
+          - ["5. Anti-misbruik + procedure", "Substance? PPT? MAP? Ruling?", "Leerstuk 5"]
+
+  - id: case-a-oprichting-cyprus-holding
+    titel: "Case A — Oprichting Cypriotische sub-holding voor IP + dividenden"
+    niveau: 2
+    beats:
+      - "Open met de feiten: Henri overweegt om Berkelaar Luxemburg + Berkelaar Nederland onder een NIEUWE Cypriotische sub-holding 'Berkelaar Cyprus Ltd' te plaatsen, met Berkelaar Holding BV als enige aandeelhouder van Cyprus Ltd. Motivering Henri: Cypriotische participation-exemption op dividenden + IP-box-regime ca. 2,5% op kwalificerend royalty-inkomen + lage CIT 12,5%."
+      - "Stap 1 — FEITEN: Berkelaar Cyprus Ltd opgericht naar Cypriotisch recht, statutaire zetel + werkelijke leiding Nicosia. Inbreng: LU-aandelen + NL-aandelen tegen nieuwe Cypriotische aandelen. Verwachte stromen: NL → Cyprus royalty €420k; LU → Cyprus dividend €650k; Cyprus → BE-Holding dividend €1M+ jaarlijks."
+      - "Stap 2 — KWALIFICATIE:"
+      - "(a) De INBRENG zelf — overdracht LU + NL-aandelen vanaf Berkelaar Holding naar Cyprus Ltd, in ruil voor nieuwe Cypriotische aandelen → AANDELENRUIL onder Fusierichtlijn 2009/133 art. 8."
+      - "(b) Nieuwe dividend-stroom Cyprus → BE-Holding: dividend tussen verbonden EU-vennootschappen."
+      - "(c) Nieuwe royalty-stroom NL → Cyprus: royalty binnen EU tussen verbonden."
+      - "Stap 3 — DBV-TOETSING:"
+      - "(a) DBV BE-CY: bestaat ✓ (sinds 1996). Art. 10 dividend Cyprus → BE: gedeeld, plafond bronstaat 10-15%."
+      - "(b) DBV NL-CY: bestaat ✓ (sinds 2019). Art. 12 royalty NL → Cyprus: meestal 0% bronheffing in modern verdrag."
+      - "Stap 4 — RICHTLIJN-OVERLAY:"
+      - "(a) AANDELENRUIL: Fusierichtlijn art. 8 → bij ruil van aandelen onder voorwaarden geen onmiddellijke belasting van meerwaarde bij Berkelaar Holding. Voorwaarden: rechtsvormen bijlage I deel A (BV+Cypriotische Ltd ✓), Ven.B-onderworpenheid (✓), overgenomen aandelen blijven aan Berkelaar Holding 'verbonden' (geen verwatering)."
+      - "(b) DIVIDEND Cyprus → BE-Holding: MDR-drempel 10% (Berkelaar Holding 100% in Cyprus → ✓), houdperiode ≥1 jr ✓, rechtsvormen ✓, Cypriotische CIT 12,5% — eigenlijk Ven.B-equivalent → ✓. → 0% bronheffing in Cyprus + DBI-aftrek in BE."
+      - "(c) ROYALTY NL → Cyprus: IRR-drempel 25% verbonden onderneming via gemeenschappelijke moeder Berkelaar Holding (NL 100% + CY 100%) → ✓. → 0% bronheffing in NL."
+      - "Stap 5 — ANTI-MISBRUIK + ATAD:"
+      - "(a) PPT in MDR + IRR: HOOFDDOEL-toets. Is hoofddoel van de oprichting belastingbesparing of zijn er andere redenen? Substance-vereisten: heeft Berkelaar Cyprus Ltd een echt kantoor, personeel (geen brievenbus), directiebeslissingen? Bij gebrek aan substance → PPT-faal → MDR/IRR niet van toepassing → bronheffing zoals onder DBV."
+      - "(b) ATAD CFC: Cyprus CIT 12,5% is < 50% van BE 25% → CFC-vraag actief. Heeft Berkelaar Cyprus Ltd ALLEEN PASSIEVE inkomsten (royalty's, dividenden, intresten)? Indien ja én geen substance → CFC-toerekening: Cyprus-winst zou aan Berkelaar Holding toegerekend worden alsof in BE belastbaar. Substance-uitzondering: voor 'genuine economic activity' geen CFC-toerekening."
+      - "(c) GAAR (BE art. 344 §1 + ATAD): is de hele structuur 'niet-authentiek'? Toets: andere redenen dan fiscale optimalisatie?"
+      - "(d) DAC6-melding (Richtlijn 2018/822 + BE wet 20 dec 2019): cross-border arrangement met fiscale optimalisatie hallmarks → meldingsplicht binnen 30 dagen."
+      - "VOORLOPIG ADVIES: case A is theoretisch mogelijk maar vereist DREIE substance-investeringen: (1) echte Cypriotische directie + lokale beslisvorming; (2) operationele activiteit (geen lege brievenbus); (3) DAC6-melding bij implementatie + ruling-aanvraag DVB BE voor zekerheid GAAR-toets."
+      - "RISICOPROFIEL: kosten oprichting + jaarlijkse compliance ca. €50-80k. Verwacht jaarlijks fiscaal voordeel ca. €80-150k (Cypriotische CIT 12,5% vs BE 25% + IP-box vs LU 17%). Netto-rendement bij geslaagde opzet: €30-100k/jaar. RISICO: substance-test + PPT-faal → terug naar oorspronkelijke heffing + boete + reputatieschade. Bij twijfel → ruling aanvragen vóór implementatie."
+
+  - id: case-b-exit-zetelverplaatsing
+    titel: "Case B — Verkoop holding + zetelverplaatsing naar Nederland"
+    niveau: 2
+    beats:
+      - "Open met de feiten: Engelse private-equity-investeerder biedt €18M voor 60% van Berkelaar Holding. Henri (61) wil daarna zelf naar Nederland verhuizen + Berkelaar Holding meeverhuizen (Nederlandse holding-vorm) voor pensioen-vermogensplanning."
+      - "Stap 1 — FEITEN: meerwaarde op aandelen Berkelaar Holding (Henri + Léa). Verkoop 60% aan UK-investeerder = €18M (impliceert waarde 100% = €30M). Boekwaarde aandelen Henri + Léa: nominaal kapitaal ca. €100k → meerwaarde ca. €17,9M."
+      - "Stap 2 — KWALIFICATIE: drie sub-vragen:"
+      - "(a) Meerwaarde op aandelen Henri + Léa (natuurlijke personen). Art. 90 WIB92 — drie regimes mogelijk: (i) 1° normaal beheer privé-vermogen → VRIJSTELLING; (ii) 9° eerste lid SPECULATIE → BELASTING 33%; (iii) 9° tweede lid SIGNIFICANTE DEELNEMING + verkoop aan niet-EU-koper → BELASTING 16,5%."
+      - "(b) Zetelverplaatsing Berkelaar Holding BE → NL: gelijkgesteld met liquidatie? Art. 210 §1, 4° WIB92."
+      - "(c) Henri's emigratie: einde Belgisch rijksinwoner — laatste BE-belastingjaar = jaar van vertrek."
+      - "Stap 3 — DBV-TOETSING:"
+      - "(a) Meerwaarde aandelen: art. 13 OESO-MV (Capital Gains). Aandelen in vennootschap: §5 → meerwaarde belastbaar in woonstaat overdrager (=BE als Henri nog BE-resident is op moment verkoop)."
+      - "(b) DBV BE-NL voor de Henri-emigratie: bij effectieve verhuis, art. 4 §2 tie-breaker → eens duurzaam tehuis NL → NL-resident. Heel jaar van vertrek: kan dubbele residentie zijn — DBV BE-NL splitst belastingplichten ('breakpoint' bij feitelijke verhuis)."
+      - "Stap 4 — RICHTLIJN-OVERLAY:"
+      - "(a) Zetelverplaatsing BE → NL onder Fusierichtlijn: art. 12 fusie-richtlijn — verplaatsing statutaire zetel SE/SCE specifiek geregeld. Voor BV-naar-NL-BV: geen automatische fusierichtlijn-toepassing, MAAR ATAD art. 5 (exit tax binnen EU) → gespreide betaling 5 jaar verplicht aangeboden."
+      - "(b) Meerwaarde aandelen Henri: GEEN richtlijn-impact (richtlijnen gaan over vennootschaps-niveau, niet PB)."
+      - "Stap 5 — ANTI-MISBRUIK + ATAD + PROCEDURE:"
+      - "(a) Meerwaarde art. 90, 1° (normaal beheer): toets is OBJECTIEF — typische beheers­daad of ongebruikelijk? Verkoop van familiale holding aan investeerder = HOOGSTRELEVANT — administratie kijkt naar voorbereiding (planning verkoop > 2 jaar?), motieven, eventueel meerdere transacties. In Berkelaar-context lijkt verkoop NORMAAL beheer (geen speculatie). → vermoedelijk art. 90, 1° vrijstelling."
+      - "(b) Maar art. 90, 9° tweede lid: SIGNIFICANT (= ≥ 25%) deelneming + niet-EU-koper. UK is NIET-EU sinds Brexit → bij Henri + Léa samen 100% > 25% én UK-koper → art. 90, 9° tweede lid mogelijk van toepassing → 16,5% PB op meerwaarde."
+      - "(c) ATAD exit tax: zetelverplaatsing → art. 210 §1, 4° WIB92 liquidatie-gelijkstelling. Latente meerwaarden + reserves + niet-uitgedeelde winst geacht uitgedeeld. ATAD spreiding 5 jaar voor verhuis naar EU/EER (NL = EU ✓)."
+      - "(d) DAC6-melding hallmark E.3: overdracht moeilijk te waarderen immateriële activa cross-border → meldingsplicht."
+      - "(e) Procedure: ruling-aanvraag DVB sterk aanbevolen vóór implementatie — zekerheid over (i) art. 90 PB-behandeling Henri's meerwaarde; (ii) berekeningsbasis exit-heffing Berkelaar Holding; (iii) gespreide betaling 5 jaar."
+      - "VOORLOPIG ADVIES: case B is uitvoerbaar maar fiscaal duur. Verwachte fiscale kosten:"
+      - "(1) Henri + Léa meerwaarde aandelen: bij art. 90, 9° tweede lid 16,5% op ca. €17,9M × 60% = €10,8M → BE-PB ca. €1,8M. (Eventueel kan dit ontweken door verkoop aan EU-investeerder, alsnog 16,5% niet van toepassing → vrijstelling onder art. 90, 1°.)"
+      - "(2) Exit-heffing Berkelaar Holding: BE-Ven.B 25% op latente meerwaarden + niet-uitgedeelde reserves. Indicatie: balanstotaal ca. €15M, niet-uitgedeelde reserves ca. €8M → potentieel €2M Ven.B (gespreid 5 jaar = €400k/jaar)."
+      - "(3) Henri emigratie: van rijksinwoner naar niet-inwoner. Spaans vastgoed blijft in BE-PB van Henri tot verhuisdatum; daarna onder NL-belasting voor inkomen daaruit (NL als nieuwe woonstaat) — DBV NL-ES regelt dubbele heffing."
+      - "ALTERNATIEF (te overwegen): in plaats van zetel verplaatsen → 60% verkopen aan EU-investeerder in plaats van UK; Berkelaar Holding behouden als BE-vehikel; Henri privé naar NL verhuizen zonder vennootschaps-verplaatsing. Vermijdt exit-heffing volledig. Risico: minder synergie met PE-investeerder die UK-hub wenst."
+
+  - id: case-c-grensoverschrijdend-vermogen
+    titel: "Case C — Grensoverschrijdend vermogen: Sophie + Maarten + Spaanse villa"
+    niveau: 2
+    beats:
+      - "Open met de feiten: Henri vraagt advies over de drie internationale dossiers in zijn gezin: (1) Sophie's BE-NL salary split (60%/40%, totaal €120k bruto); (2) Maarten's LU-expat-regime art. 32/7 WIB92 (CFO Berkelaar Luxemburg, woont met gezin Antwerpen); (3) zijn eigen Spaanse villa Cadaqués (verworven 2018 voor €620k, geen verhuur, gebruikt zomer + Pasen)."
+
+    kinderen:
+
+      - id: sophie-salary-split
+        titel: "Sophie — salary split BE-NL"
+        niveau: 3
+        beats:
+          - "Stap 1 — FEITEN: Sophie BE-resident (Lanaken), werkt voor Berkelaar Nederland BV met arbeidsovereenkomst die expliciet bezoldiging splitst: €72k NL-deel (NL-werkdagen) + €48k BE-deel (thuiswerk BE). Feitelijk ca. 60% NL / 40% BE jaarlijks."
+          - "Stap 2 — KWALIFICATIE: arbeid (DBV BE-NL art. 15). Werkgever = Berkelaar Nederland BV = NL-inwoner. Werkplaats: NL voor NL-deel, BE voor BE-deel."
+          - "Stap 3 — DBV-TOETSING: art. 15 §1 DBV BE-NL — bezoldiging mag belast worden in werkstaat. §2-uitzondering (UITSLUITEND woonstaat) faalt bij Sophie: (a) > 183 dgn in NL ✓ uitzondering niet van toepassing. (b) Werkgever = NL-inwoner → uitzondering faalt sowieso op voorwaarde (b). Hoofdregel §1 herstelt → NL = werkstaat heft op NL-deel."
+          - "Stap 4 — RICHTLIJN-OVERLAY: geen richtlijn relevant voor arbeidsbezoldiging."
+          - "Stap 5 — VOORKOMING in BE als woonstaat: art. 23A DBV BE-NL → VRIJSTELLING MET PROGRESSIEVOORBEHOUD. BE belast Sophie's wereldwijde inkomsten maar stelt NL-deel vrij. NL-deel telt mee voor tariefberekening op haar BE-deel (verhoogt gemiddeld BE-tarief)."
+          - "Aangifte-praktijk: BE-aangifte 276.1 vermeldt NL-deel onder vak X.B 'beroepsinkomsten van Belgische oorsprong onder vrijstellingsverdrag'. NL-aangifte (eigen Belastingdienst-format) declareert NL-deel als arbeidsinkomen."
+          - "Stap 5+ — ANTI-MISBRUIK: salary split is fiscaal interessant maar moet FEITELIJK CORRECT zijn — Sophie moet werkelijk de afgesproken dagen in NL werken. Bij audit kan de fiscus de werkelijke verdeling toetsen (badge-logs, vergaderverslagen, ticket-stubs). Pure papieren split wordt door beide fiscussen ontkend."
+          - "ADVIES Sophie: structuur is correct + fiscaal voordelig (vermindert effectief tarief op haar inkomen door progressievoorbehoud-effect). Aandacht: feiten documenteren + jaarlijkse aangifte coherent in beide landen."
+
+      - id: maarten-expat-regime
+        titel: "Maarten — expat-regime art. 32/7 WIB92"
+        niveau: 3
+        beats:
+          - "Stap 1 — FEITEN: Maarten BE-rijksinwoner (gezin Antwerpen), CFO Berkelaar Luxemburg SARL sinds 2024. Toegelaten tot bijzonder regime inkomende belastingplichtigen voor het BE-deel van zijn bezoldiging."
+          - "Stap 2 — KWALIFICATIE: arbeid (DBV BE-LU art. 15). Werkstaat = LU; woonstaat = BE."
+          - "Stap 3 — DBV-TOETSING: art. 15 §1 DBV BE-LU — werkstaat (LU) heft. §2-uitzondering: > 183 dgn in LU + werkgever LU-inwoner → uitzondering faalt → LU heft op LU-uitgevoerde arbeid."
+          - "Stap 4 — RICHTLIJN-OVERLAY: geen richtlijn relevant voor arbeid."
+          - "Stap 5 — VOORKOMING in BE als woonstaat: art. 23A DBV BE-LU → vrijstelling met progressievoorbehoud. Maarten's LU-loon vrijgesteld in BE."
+          - "Stap 5+ — EXPAT-REGIME LAAGOPGELEGD: Maarten valt onder bijzonder regime 'inkomende belastingplichtige' art. 32/7 WIB92 ⚠️ verifieer code. Voorwaarden: rekruterend werkgever, bezoldiging boven minimumdrempel, gemiddelde 5-jaarsregel niet-Belgische voorafgaande activiteit, internationale tewerkstelling. Voordeel: 30% van bezoldiging is fiscaal vrijgesteld als 'kosten eigen aan de werkgever' tot plafond €100.000/jaar."
+          - "MAAR — onmogelijkheid van cumulatie met DBV-vrijstelling: het expat-regime werkt op het BE-FISCAAL-BELASTBARE deel van de bezoldiging. Maarten's volledige LU-bezoldiging is al vrijgesteld onder DBV (vrijstelling met progressievoorbehoud) — geen ruimte voor het 30%-expat-voordeel TENZIJ er een BE-deel zou zijn (bijvoorbeeld als hij voor BE-Holding-vergadering enkele dagen in BE komt)."
+          - "Praktisch: het expat-regime is voor Maarten relevant als hij een deel van zijn bezoldiging in BE WORDT BELAST (bv. salary split LU-BE met BE-deel)."
+          - "ADVIES Maarten: huidige structuur (100% LU-werkstaat → 100% LU-belast, BE vrijstelt) is fiscaal eenvoudig + correct. Expat-regime art. 32/7 is OPGELEGD MAAR werkt alleen op BE-deel — niet op vrijgestelde LU-deel. Verfijning: indien Maarten ook BE-vergaderingen heeft (bv. 20 dagen/jaar voor BE-Holding-board) → splitsen + expat-regime op BE-deel."
+
+      - id: henri-spaanse-villa
+        titel: "Henri — Spaanse villa Cadaqués"
+        niveau: 3
+        beats:
+          - "Stap 1 — FEITEN: Henri BE-rijksinwoner, eigenaar villa Cadaqués (Spanje) sinds 2018, geen verhuur, gebruikt familie zomer + Pasen. Spaanse IRNR-aanslag (Spaanse niet-inwoners-belasting) jaarlijks ca. 1,1% × kadastrale waarde forfaitair."
+          - "Stap 2 — KWALIFICATIE: onroerend inkomen (DBV BE-ES art. 6)."
+          - "Stap 3 — DBV-TOETSING: art. 6 §1 DBV BE-ES — onroerende inkomsten van een inwoner van staat A (=Henri BE) uit een goed gelegen in staat B (=ES) 'mogen' (may be taxed) in staat B worden belast. Gedeelde heffing, niet exclusief Spanje."
+          - "Stap 4 — RICHTLIJN-OVERLAY: geen richtlijn relevant voor onroerend goed."
+          - "Stap 5 — VOORKOMING in BE als woonstaat: art. 23A DBV BE-ES → vrijstelling met progressievoorbehoud. Spaans onroerend inkomen vrijgesteld in BE-PB; telt mee voor tariefberekening op rest."
+          - "BE-AANGIFTE: sinds wet 17 februari 2021 moet Henri ANGEKLIKT in BE-PB-aangifte vak III een 'buitenlands kadastraal inkomen-equivalent' van de Spaanse villa. Berekening: voor een Spaanse villa met kadastrale waarde €300k wordt typisch een Belgisch-equivalent-KI berekend (de wet voorziet een proportionele methode tussen lokaal kadaster + Belgisch KI-indexering)."
+          - "Stap 5+ — SUCCESSIEPLANNING: bij overlijden Henri zou de villa in zijn nalatenschap zitten. Spaanse erfbelasting op het Spaanse goed (Spanje als ligging-staat). Belgische erfbelasting in Vlaanderen op de villa (Henri Belgisch resident → wereldwijde nalatenschap). Dubbele heffing wordt verminderd door FBB op buitenlandse erfbelasting in Vlaanderen (art. 2.7.5.0.4 VCF — verrekening Spaanse erfbelasting met Vlaamse erfbelasting op buitenlands goed)."
+          - "ADVIES Henri: structuur is correct. AANDACHT: jaarlijkse BE-aangifte vak III (zone buitenlands OG) + Spaanse IRNR-aangifte. SUCCESSIE-PLANNING: doe een Spaanse notariële schenking aan Léa als naturalisatie-versterking? Of schenking aan kinderen met behoud vruchtgebruik? Cross-PO 2.6 — uitwerking buiten dit leerstuk."
+
+  - id: map-procedure
+    titel: "MAP — Mutual Agreement Procedure als rechtsmiddel"
+    niveau: 2
+    beats:
+      - "Open met de positionering: bij dubbele heffing waarbij EEN DBV niet correct werd toegepast OF betwist wordt, biedt art. 25 OESO-MV de MAP-procedure: ONDERLING OVERLEG tussen bevoegde autoriteiten van beide staten."
+      - "Termijn (art. 25 §1): klacht binnen 3 jaar vanaf eerste kennisgeving van de maatregel die in strijd is met het DBV. Indienen bij bevoegde autoriteit van WOONSTAAT (in BE: FOD Financiën, Dienst Internationale Betrekkingen)."
+      - "Mechaniek: BE-autoriteit neemt contact op met andere staat. Vier mogelijke uitkomsten: (a) akkoord → BE past oplossing toe; (b) BE-eenzijdige correctie → BE-fiscus past aan zonder andere staat te betrekken; (c) geen akkoord → MAP eindigt zonder resultaat; (d) sinds MLI: verplichte ARBITRAGE bij stilzitten ≥ 2 jaar — voor verdragspartners die MLI-arbitrage-optie kozen (BE deed dit voor o.a. NL, FR, LU)."
+      - "Praktische gevolgen: MAP duurt typisch 1-3 jaar. Tijdens MAP wordt de BE-bezwaarprocedure GESCHORST (anti-litigation-clausule in MLI). Belastingplichtige is geen partij in MAP — alleen de autoriteiten onderhandelen — maar wordt op de hoogte gehouden."
+      - "Verschil met EU-arbitrage Richtlijn 2017/1852: EU-versie heeft STRAKKERE TIMING (6 mnd ontvankelijkheid + 2 jaar overleg + arbitrage bij stilzitten) + RECHT van belastingplichtige op informatie + APPEAL. Geldt voor EU-DBV-conflicten en verrekenprijs-geschillen."
+      - "Berkelaar-illustratie: stel NL-fiscus corrigeert royalty NL→LU naar 2,5% (= €300k ipv €420k). LU-fiscus weigert corresponderende correctie. Resultaat: economisch dubbele heffing op €120k bovenmatige royalty. Procedure-keuze:"
+      - "(a) BE-NL/LU-driehoek niet relevant — geen BE-belastingplichtige in deze stroom."
+      - "(b) MAP NL-LU activeren (art. 25 DBV NL-LU) of EU-arbitrage Richtlijn 2017/1852 (sneller, met arbitrage-stok)."
+      - "(c) Lokaal bezwaar in NL parallel — maar geschorst tijdens MAP."
+
+  - id: vier-valkuilen
+    titel: "Vier valkuilen voor synthese-niveau"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): vergeten DAC6-MELDING bij cross-border arrangements met fiscale hallmarks. Termijn 30 dagen, BE-meldingen via MyMinfin. Niet-melden = boete + reputatie-risico."
+      - "Valkuil 2 (⚠️): aanname dat MDR + DBI automatisch parallel werken. Een dochter kan MDR-vrijstelling halen (0% bronheffing) maar DBI verliezen (taxatievoorwaarde-faal). Beide CHECK afzonderlijk."
+      - "Valkuil 3 (⚠️): bij salary split de FEITELIJKE verdeling niet documenteren. Beide fiscussen kunnen pure papieren split aanvechten. Badge-logs + vergader-locaties + reiskosten-staten = bewijslast."
+      - "Valkuil 4 (⚠️): MAP-procedure SCHORST bezwaartermijn bij BE-fiscus tijdens onderhandeling — maar bij UITKOMST MAP heeft cliënt nog 3 mnd om beroep tegen MAP-uitkomst aan te tekenen bij fiscale rechtbank. Termijn niet missen."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Dit was het synthese-leerstuk. Voor herhaling en toepassing:"
+  leerstukken:
+    - slug: wat-is-internationaal-fiscaal-recht
+      hint: "Het kader-leerstuk — voor wie even wil terugkeren naar de drie lagen."
+    - slug: dbv-werking-en-toewijzingsregels
+      hint: "DBV-techniek opnieuw doorlezen wanneer een specifieke toewijzingsregel onduidelijk is."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vijf-stappen-methodiek + drie case-types als ankerpunten."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek bij dit leerstuk:"
+  groepen:
+    - concepten: [internationale-tewerkstelling, bijzonder-regime-buitenlandse-kaderleden]
+    - concepten: [internationaal-onroerend-goed, internationale-structurering-vennootschap]
+    - concepten: [exit-planning-vennootschap, map]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "Meerwaarde op aandelen natuurlijke persoon — normale beheer"
+    ref: "WIB92 art. 90, 1° (vrijstelling normaal beheer privé-vermogen)"
+  - onderwerp: "Meerwaarde op aandelen natuurlijke persoon — speculatie / significant deelneming"
+    ref: "WIB92 art. 90, 9° eerste lid (speculatie 33%) + tweede lid (significante deelneming + niet-EU-koper 16,5%)"
+  - onderwerp: "Zetelverplaatsing vennootschap — gelijkstelling liquidatie"
+    ref: "WIB92 art. 210 §1, 4° + art. 412bis (gespreide betaling)"
+  - onderwerp: "Aandelenruil onder fusierichtlijn"
+    ref: "Richtlijn 2009/133/EG art. 8 + WIB92 art. 45 §1 (fiscale neutraliteit aandelenruil)"
+  - onderwerp: "Internationale tewerkstelling — DBV BE-NL art. 15"
+    ref: "DBV BE-NL 2001 art. 15 §1 + §2"
+  - onderwerp: "Bijzonder regime inkomende belastingplichtige (expat-regime)"
+    ref: "WIB92 art. 32/7 ⚠️ exacte codering verifieer — regime vervangt sinds 2022 het oude circulaire 8/8/1983 over buitenlandse kaderleden"
+  - onderwerp: "Buitenlands onroerend goed — aangifte BE-PB"
+    ref: "Wet 17 februari 2021 (buitenlands KI-equivalent voor BE-aangifte vak III)"
+  - onderwerp: "MAP-procedure"
+    ref: "Art. 25 OESO-MV (gelijkluidend in BE-DBV's) + MLI art. 16-26"
+  - onderwerp: "EU-arbitrage geschillenbeslechtingsrichtlijn"
+    ref: "Wet 2 mei 2019 (omzetting Richtlijn 2017/1852)"
+  - onderwerp: "DAC6 — meldingsplicht cross-border arrangements"
+    ref: "Wet 20 december 2019 (omzetting Richtlijn 2018/822)"
+  - onderwerp: "Buitenlandse erfbelasting — Vlaamse verrekening"
+    ref: "VCF art. 2.7.5.0.4 (verrekening buitenlandse erfbelasting met Vlaamse erfbelasting)"
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "Beoordeling 'normaal beheer privé-vermogen' bij meerwaarde aandelen"
+    inhoud: "Belgische rechtbanken hanteren multi-factor-toets: voorbereiding (planning verkoop, due diligence, search vendor), aard transactie (eenmalig of seriematig), motief (cash-out vs reinvest), tijdspanne van aandelenbezit. Familiale-holding-verkoop is doorgaans 'normaal beheer' tenzij speculatieve elementen. Klassieke arresten: nader te bevestigen."
+    confidence: "⚠️ te verifiëren"
+  - onderwerp: "National Grid Indus — exit tax binnen EU"
+    inhoud: "HJEU 29 november 2011, C-371/10: exit-heffing binnen EU verenigbaar met vestigingsvrijheid mits gespreide betaling mogelijk. Basis voor ATAD art. 5 + Belgische 5-jaar-spreiding."
+
+footer: "Leerstuk PO 2.8 — synthese. Status: voorgesteld."

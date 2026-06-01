@@ -1,0 +1,282 @@
+# Leerstuk-script — DBV-werking en toewijzingsregels
+#
+# PO 2.8 leerstuk 2 (techniek 1 — DBV). Zwaarste leerstuk in het pakket —
+# vergelijkbaar met `hoe-consolideren` voor PO 1.4 of
+# `gewestelijke-heffingen-overgedragen-en-autonoom` voor PO 2.7. De
+# DBV-architectuur (toepassingsgebied → residentie → toewijzing per
+# categorie → voorkomingsmethode) is de centrale denkbeweging — andere
+# leerstukken bouwen erop.
+
+meta:
+  slug: dbv-werking-en-toewijzingsregels
+  titel: "De DBV als matrijs — toewijzingsregels en voorkomingsmethode"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    Hoe lees je een dubbelbelastingverdrag en pas je het toe op een
+    concrete inkomstenstroom? Vier-stappen-denkbeweging (toepassingsgebied →
+    residentie → toewijzing per categorie → voorkomingsmethode in de
+    woonstaat) toegepast op zes inkomenscategorieën (OG, ondernemingswinst,
+    dividend, intrest, royalty, arbeid). Klassieke val: "uitsluitend" in
+    "may be taxed"-bepalingen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina PO 2.8.
+    Vermeld dat dit het kern-techniek-leerstuk is: de denkbeweging die
+    elke internationale casus opent. Doorklik naar `dubbelbelastingverdrag`
+    en `oeso-modelverdrag` voor definitorische opzoek.
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: een DBV werkt in vier stappen — (1) toetst of de persoon onder het verdrag valt (art. 1+2), (2) bepaalt de residentie (art. 4), (3) wijst per inkomenscategorie heffingsbevoegdheid toe (art. 6-21), (4) verplicht de woonstaat resterende dubbele belasting weg te nemen via vrijstelling met progressievoorbehoud (art. 23A) of credit (art. 23B)."
+    - "De klassieke val zit in stap 3: 'may be taxed in that other State' = GEDEELDE bevoegdheid; 'shall be taxable only in' = EXCLUSIEVE bevoegdheid. Het woord 'uitsluitend' in een examenstelling is bijna altijd verkeerd voor art. 6/7/10/11/15."
+    - "België als woonstaat past in de meeste DBV's de VRIJSTELLINGS-METHODE toe met progressievoorbehoud (art. 23A) — niet de credit-methode (art. 23B). Concrete omzetting in BE-PB: art. 155 WIB92."
+    - "MLI overlay: bestaande BE-DBV's worden gewijzigd door MLI op vier hoofdpunten — anti-misbruik (PPT), VI-uitbreiding (anti-fragmentatie), MAP-arbitrage, dubbele residentie vennootschappen (werkelijke leiding-toets)."
+  visualisaties:
+    - type: mermaid
+      ref: dbv_toewijzing_per_categorie
+  afsluiter: "We werken eerst de vier-stappen-denkbeweging door (toepassingsgebied + residentie), daarna zes inkomenscategorieën, daarna de voorkomingsmethoden en tot slot het MLI-overlay."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: vier-stappen-denkbeweging
+    titel: "De vier-stappen-denkbeweging bij elke DBV-toepassing"
+    niveau: 2
+    beats:
+      - "Open met de stelregel: elke internationale casus volgt deze vier stappen — zonder versnelde toegangswegen. De stagiair die deze cascade volgt, antwoordt nooit verkeerd op het verdragsmechanisme."
+      - "Stap 1 — TOEPASSINGSGEBIED. Toets art. 1 + art. 2 OESO-MV: (a) is de belastingplichtige inwoner van een of beide verdragsstaten? (art. 1); (b) is de belasting in kwestie een belasting naar inkomen of vermogen? (art. 2). Klassiek voorbeeld waar het FAALT: successierechten vallen NIET onder OESO-MV (apart model 1982) — examen 2015-1 vr49 + 2024-oef vr2."
+      - "Stap 2 — RESIDENTIE. Toets art. 4: (a) is de persoon inwoner van staat A volgens intern recht? (b) inwoner van staat B volgens intern recht? (c) bij dubbele residentie → tie-breaker-cascade art. 4 §2 (natuurlijke personen) of art. 4 §3 (vennootschappen — werkelijke leiding-toets sinds MLI)."
+      - "Stap 3 — TOEWIJZING PER CATEGORIE. Identificeer de inkomenscategorie (art. 6 OG / art. 7 winst / art. 10 dividend / etc.). Lees de toewijzingsregel: 'may be taxed' = gedeeld; 'shall be taxable only' = exclusief; soms met PLAFOND bij gedeeld (art. 10 dividend max 5%/15%; art. 11 intrest max 10%)."
+      - "Stap 4 — VOORKOMINGSMETHODE in woonstaat. Als de bronstaat heft (gedeeld of exclusief bronstaat), is de woonstaat verplicht resterende dubbele belasting weg te nemen — art. 23A vrijstelling met progressievoorbehoud of art. 23B credit-methode. België kiest in de meeste DBV's vrijstellings-methode."
+      - "Cliffhanger: nu zoomen we in op stap 2 (residentie), stap 3 (toewijzingsregels per categorie) en stap 4 (voorkomingsmethode) — telkens met Berkelaar-illustratie."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Vraag", "OESO-MV-artikel", "Berkelaar-voorbeeld"]
+        rijen:
+          - ["1. Toepassingsgebied", "Valt de persoon + belasting onder verdrag?", "art. 1 + 2", "Henri (inwoner BE) + Belgische PB → ja"]
+          - ["2. Residentie", "Welke staat is woonstaat?", "art. 4", "Henri = BE (gezin + werkelijke leiding)"]
+          - ["3. Toewijzing categorie", "Wie mag heffen op welk inkomen?", "art. 6-21", "Henri's LU-dividend = art. 10"]
+          - ["4. Voorkoming woonstaat", "Hoe vermijdt woonstaat dubbel?", "art. 23A of B", "BE vrijstelling met progressievoorbehoud"]
+
+  - id: residentie-en-tie-breaker
+    titel: "Residentie en de tie-breaker bij dubbele woonplaats"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-realiteit: residentie is GEEN feit dat één staat oplegt — elke staat bepaalt autonoom volgens zijn interne recht. Dat is OK zolang slechts één staat de persoon als inwoner ziet. Wordt problematisch bij DUBBELE residentie."
+      - "Tie-breaker NATUURLIJKE PERSOON art. 4 §2 OESO-MV — cascade in vier stappen + onderling overleg:"
+      - "(a) DUURZAAM TEHUIS — in welke staat heeft hij een woning duurzaam tot zijn beschikking (eigen huis, gehuurd appartement, ouderlijk huis)? Als slechts in één staat → die staat. Als in beide → stap (b)."
+      - "(b) MIDDELPUNT VAN LEVENSBELANGEN — met welke staat zijn zijn persoonlijke en economische banden het nauwst? Criteria: gezin, beroep, vermogen, sociale leven, plaatsen waar hij administreert. Multi-factor-toets — geen één criterium absoluut."
+      - "(c) GEWOON VERBLIJF — in welke staat verblijft hij feitelijk het vaakst (in dagen geteld)?"
+      - "(d) NATIONALITEIT — van welke staat is hij onderdaan?"
+      - "(e) ONDERLING OVERLEG MAP — bij nationaliteit van beide of geen → bevoegde autoriteiten regelen onderling. Zeldzaam maar mogelijk."
+      - "Klassieke val (⚠️): nationaliteit is het DERDE-LAATSTE criterium, niet het EERSTE — examen 2015-1 vr49 + 2024-oef vr3 toetsen dit expliciet."
+      - "Voor VENNOOTSCHAPPEN: art. 4 §3 OESO-MV — werkelijke leiding-toets. Sinds MLI: bij dubbele residentie vennootschap → onderling overleg tussen bevoegde autoriteiten, geen automatische werkelijke-leiding-cascade meer."
+      - "Berkelaar-illustratie: alle vennootschappen in de groep zijn ondubbelzinnig inwoner van één staat (Berkelaar Holding = BE werkelijke leiding Antwerpen; LU SARL = LU werkelijke leiding Luxemburg-stad — geen conflict). Maarten in 2024-overgangsjaar potentieel dubbel — woont met gezin in BE, werkt voltijds in LU. Cascade toepassen: (a) duurzaam tehuis BE (gezin + eigen huis); valt op stap (b) niet nodig. → Maarten = BE-verdrags-inwoner; LU = bronstaat voor zijn arbeidsinkomen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Criterium", "Effect bij gelijkstand"]
+        rijen:
+          - ["(a)", "Duurzaam tehuis", "→ stap (b)"]
+          - ["(b)", "Middelpunt levensbelangen", "→ stap (c)"]
+          - ["(c)", "Gewoon verblijf", "→ stap (d)"]
+          - ["(d)", "Nationaliteit", "→ stap (e) onderling overleg"]
+          - ["(e)", "Onderling overleg (MAP)", "—"]
+
+  - id: toewijzing-per-inkomenscategorie
+    titel: "Toewijzingsregels per inkomenscategorie"
+    niveau: 2
+    beats:
+      - "Open met de centrale uitleg: het hart van een DBV zijn de toewijzingsregels art. 6-21. Elke inkomenscategorie krijgt zijn eigen regel — soms gedeeld (woonstaat + bronstaat), soms exclusief (één staat)."
+      - "Stelregel om de val 'uitsluitend' te vermijden: lees ALTIJD letterlijk. 'May be taxed in that other State' = GEDEELD heffingsrecht (bronstaat krijgt erbij, woonstaat behoudt). 'Shall be taxable only in' = EXCLUSIEF (één staat, andere uitgesloten). Bij 'may be taxed' is art. 23A/B nodig om dubbele belasting weg te nemen."
+
+    kinderen:
+
+      - id: art-6-onroerend-goed
+        titel: "Art. 6 — Onroerend goed (ligging-staat)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel: 'Income derived by a resident of a Contracting State from immovable property situated in the other Contracting State **may be taxed** in that other State.'"
+          - "Vertaling: bronstaat (= ligging-staat) krijgt heffingsrecht, woonstaat behoudt OOK heffingsrecht. GEDEELD."
+          - "Concretiseer met Henri's Spaanse villa: Spanje (ligging) mag heffen — typisch Spaanse IRNR voor niet-inwoners (1,1% × kadastrale waarde forfaitair). België als woonstaat behoudt heffingsrecht. Dubbele belasting wordt weggenomen via art. 23A DBV BE-ES → vrijstelling met progressievoorbehoud (art. 155 WIB92): het Spaanse inkomen wordt vrijgesteld in BE maar telt mee om de PB-tariefschalen te bepalen op zijn overige inkomsten."
+          - "⚠️ Klassieke val: stelling 'onroerende inkomsten zijn UITSLUITEND in de bronstaat belastbaar' = FOUT. Heffingsrecht is gedeeld; bovendien past de woonstaat altijd minstens progressievoorbehoud toe."
+
+      - id: art-7-ondernemingswinst-en-vi
+        titel: "Art. 7 — Ondernemingswinst (woonstaat tenzij VI)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel: winst van een onderneming uit staat A is in beginsel UITSLUITEND in staat A belastbaar, TENZIJ de onderneming in staat B een vaste inrichting heeft — in dat geval mag staat B de winst belasten die TOEREKENBAAR is aan die VI."
+          - "Twee niveaus: (a) GEEN VI → enkel woonstaat heft; (b) WEL VI → bronstaat heft op VI-winst, woonstaat behoudt heffingsrecht op rest + past voorkomingsmethode toe op VI-deel."
+          - "Belangrijke nuance: 'toerekenbaar aan VI' is een ZELFSTANDIGE entiteit-fictie (separate entity approach). De VI wordt fiscaal behandeld alsof het een onafhankelijke onderneming was — eigen kapitaal, eigen marge, arm's length intra-onderneming-transacties. Werken-met-werkelijke-tijd-en-kosten + eigen kapitaalsallocatie."
+          - "Berkelaar-illustratie: Berkelaar Distributie NV (BE) opent Franse VI in Lille. Frankrijk mag heffen op de winst toerekenbaar aan Lille-uitbating (omzet €280k 2026-H2). BE als woonstaat ziet ook die winst (Berkelaar Distributie blijft BE-inwoner met wereldinkomen) en past art. 23 DBV BE-FR toe — vrijstellingsmethode. Verlies-aanloop 2026 wordt wel afgetrokken in BE; recapture als FR-VI later winstgevend (art. 206/4 WIB92) — uitwerking in [[vaste-inrichting-en-belasting-niet-inwoners]]."
+          - "Cross-verwijzing: art. 7 §3 OESO-MV regelt de CORRESPONDERENDE CORRECTIE bij verrekenprijs-conflict tussen VI en hoofdzetel. Examen 2015-1 vr49: dubbele belasting tussen VI en hoofdzetel is NIET juridisch (zelfde rechtspersoon) maar economisch + procedureel oplosbaar via art. 7 §3 + art. 25 (MAP)."
+
+      - id: art-10-dividend
+        titel: "Art. 10 — Dividend (gedeeld, met plafond)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel: dividend van een vennootschap-inwoner van staat A betaald aan een inwoner van staat B → §1 'may be taxed' in staat B (woonstaat aandeelhouder) + §2 'may also be taxed' in staat A (bronstaat — vestigingsstaat uitkerende vennootschap) MAAR met PLAFOND."
+          - "OESO-modelplafond §2: 5% bij ≥25%-moeder-dochter-deelneming met houdperiode 365 dgn; 15% in alle andere gevallen. Belgische DBV's wijken vaak af (typisch 5% bij ≥10%, of zelfs 0% in moderne verdragen)."
+          - "EU-overlay: Moeder-dochterrichtlijn 2011/96 verlaagt het bronheffing-plafond naar 0% bij ≥10%-EU-deelneming + 1 jr houdperiode + taxatievoorwaarde + anti-misbruik (PPT). Berkelaar Holding 100% in LU SARL → moeder-dochter-richtlijn van toepassing → 0% bronheffing LU op €650k dividend. Uitwerking in [[europese-richtlijnen-en-bronheffing]]."
+          - "BE als woonstaat: DBI-aftrek art. 202-205quater WIB92 → 100% aftrek dividend uit Ven.B-grondslag mits drempel + houd + taxatie. Voor Berkelaar Holding op LU-dividend: drempel 10%+€2,5M (×3 voor 'aanschaffingswaarde' op intra-groep) + houdperiode 1 jr + LU CIT 17% (taxatie OK)."
+          - "Belangrijk onderscheid: MDR ≠ DBI-vereisten. Een vennootschap kan onder MDR vallen (0% bronheffing in bronstaat) maar nog uitsluiting op DBI ondervinden (taxatievoorwaarde-faal). Andersom kan ook. Niet automatisch parallel."
+
+      - id: art-11-intrest
+        titel: "Art. 11 — Intrest (gedeeld, met plafond)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel: intrest betaald door schuldenaar in staat A aan crediteur in staat B → §1 'may be taxed' in B (woonstaat); §2 'may also be taxed' in A (bronstaat) met PLAFOND typisch 10%."
+          - "EU-overlay: Interest-royalty-richtlijn 2003/49 → 0% bronheffing bij ≥25%-deelneming verbonden ondernemingen + 1 jr + uiteindelijk gerechtigde. Berkelaar concernlening BE-Holding → LU SARL: 100%-deelneming → IRR van toepassing (echter beide staten heffen al 0% bronheffing op intra-groep intra-EU intrest in intern recht — overlap onschadelijk)."
+          - "Ad arm's length-toets: bij intra-groep lening moet de RENTE marktconform zijn — anders correctie via art. 11 §6 OESO-MV + art. 9 (corresponderende correctie). Belgische pendant: art. 26 WIB92 (abnormale voordelen) + art. 185 §2 WIB92 (transfer pricing-correctie). Bij EXCESS-rente: alleen op het 'normale bedrag' geldt verdragsvoordeel; excess valt onder nationaal recht."
+
+      - id: art-12-royalty
+        titel: "Art. 12 — Royalty (woonstaat in zuiver OESO, gedeeld in BE-DBV's)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel ZUIVER OESO-MV: royalty's UITSLUITEND in woonstaat van uiteindelijk gerechtigde belastbaar (art. 12 §1: 'shall be taxable only')."
+          - "MAAR — Belgische DBV's wijken hier vaak af: het BE-DBV-netwerk geeft de bronstaat doorgaans EEN GEDEELD heffingsrecht met plafond (5-10%), tenzij IRR-vrijstelling. Lees altijd het CONCRETE verdrag."
+          - "EU-overlay: IRR 2003/49 → 0% bronheffing bij ≥25%-deelneming verbonden ondernemingen. Berkelaar NL → LU royalty €420k: 100%-deelneming via gemeenschappelijke moeder Berkelaar Holding → IRR van toepassing → 0% bronheffing NL."
+          - "Art. 12 §4 — TRANSFER-PRICING-clausule voor royalty's. Bij 'special relationship' (= verbonden ondernemingen) waardoor royalty hoger is dan armslengte-bedrag → verdragsvoordelen gelden ENKEL op het armslengte-bedrag; excess valt onder nationaal recht (vaak herkwalificatie als dividend). Examen 2024-oef vr7 toetst deze regel."
+          - "Berkelaar-illustratie + waarschuwing: €420k royalty NL→LU op €12M NL-omzet = 3,5% van omzet. Marktbenchmark vergelijkbare merklicenties: 2,0-2,5%. NL-fiscus kan dus correctie aanbrengen op €120-180k bovenmatig → die schijf valt buiten IRR-vrijstelling en wordt onderworpen aan NL-intern recht (eventueel herkwalificatie als verdoken winstuitkering)."
+
+      - id: art-15-arbeid
+        titel: "Art. 15 — Arbeid (werkstaat hoofdregel, 183-dagen-uitzondering)"
+        niveau: 3
+        beats:
+          - "Toewijzingsregel: §1 — bezoldigingen ter zake van dienstbetrekking 'may be taxed' in de staat WAAR de arbeid wordt UITGEOEFEND (werkstaat). §2 — UITZONDERING: bezoldigingen blijven UITSLUITEND in woonstaat belastbaar mits drie cumulatieve voorwaarden: (a) werknemer ≤ 183 dagen in werkstaat in 12 mnd; (b) bezoldiging betaald door werkgever NIET inwoner werkstaat; (c) bezoldiging NIET ten laste van VI in werkstaat."
+          - "Praktische val: één van de drie voorwaarden niet halen → §1 hoofdregel terug (werkstaat heft). Vooral voorwaarde (b) is val: salary split waarbij lokale dochter de bezoldiging betaalt → werkgever IS inwoner werkstaat → voorwaarde (b) faalt → werkstaat heft vanaf dag 1."
+          - "Sophie-illustratie: Belgisch inwoner, salary split 60% NL / 40% BE. NL-deel: betaald door Berkelaar Nederland BV (= inwoner NL = werkstaat) → voorwaarde (b) faalt → NL heft op NL-deel onafhankelijk van 183-dagen-toets. BE als woonstaat past art. 23A DBV BE-NL → vrijstelling met progressievoorbehoud."
+          - "Praktisch effect: Sophie wordt op haar NL-deel (€72k) NL-PB betaald + dat deel telt mee voor BE-tariefschijf-toets op haar BE-deel (€48k). Stille subtiliteit: progressievoorbehoud verhoogt het GEMIDDELDE BE-tarief op het BE-deel — niet gunstiger dan zonder split, maar wel wettelijk voorgeschreven."
+          - "Maarten-variant: BE-rijksinwoner (gezin Antwerpen) met arbeid 100% in LU. DBV BE-LU art. 15: LU = werkstaat = heffingsbevoegd op zijn LU-loon. BE past vrijstelling met progressievoorbehoud. Plus: Maarten valt onder expat-regime art. 32/7 WIB92 → een DEEL van zijn bezoldiging fiscaal vrijgesteld in BE (30% tot plafond €100k); uitwerking in [[geintegreerd-internationaal-advies]]."
+
+      - id: art-18-19-pensioen
+        titel: "Art. 18 + 19 — Pensioen (woonstaat tenzij overheid)"
+        niveau: 3
+        beats:
+          - "Twee bepalingen — kort: art. 18 = privé-pensioen → UITSLUITEND woonstaat (klassieke 'shall be taxable only'-toewijzing). Art. 19 §2 = overheidspensioen → UITSLUITEND bronstaat (uitbetalende staat), TENZIJ de gepensioneerde inwoner+onderdaan is van de andere staat."
+          - "Examen 2015-1 vr49 toetst: Belgisch overheidspensioen aan persoon van Belgische nationaliteit die verhuist naar verdragsland → blijft in BE belastbaar (art. 19 §2 a) hoofdregel + voorwaarde 'inwoner+onderdaan andere staat' niet gehaald)."
+          - "Praktisch relevant voor Maarten in toekomst als hij naar LU verhuist en daar wettelijk pensioen opbouwt — privé-pensioen LU → BE-inwoner: art. 18 → BE heft (woonstaat); LU mag niet meer."
+
+      - id: art-23-voorkomingsmethode
+        titel: "Art. 23A en 23B — Voorkomingsmethode in woonstaat"
+        niveau: 3
+        beats:
+          - "Twee technieken om resterende dubbele belasting weg te nemen — woonstaat KIEST in DBV welke. BE kiest in de meeste verdragen art. 23A (vrijstelling met progressievoorbehoud). Sommige BE-DBV's gebruiken art. 23B (credit) voor specifieke categorieën, met name dividenden/intresten/royalty's."
+          - "ART. 23A — VRIJSTELLING MET PROGRESSIEVOORBEHOUD. Het buitenlands inkomen wordt vrijgesteld in de woonstaat — komt NIET in de belastbare grondslag. Maar telt mee voor de bepaling van het tarief op de OVERIGE inkomsten. Belgische omzetting: art. 155 WIB92."
+          - "ART. 23B — CREDIT/VERREKENING. Het buitenlands inkomen wordt VOLLEDIG belast in de woonstaat (komt in de grondslag), maar de buitenlandse belasting wordt afgetrokken van de woonstaatbelasting. Beperking: niet hoger dan het deel van de woonstaatbelasting dat op het buitenlands inkomen valt (anders crediteert de woonstaat de buitenlandse fiscus indirect)."
+          - "Verschil voor cliënt: bij vrijstellingsmethode is het verschil voor de belastingplichtige TUSSEN BE-tarief en bronstaat-tarief. Bij credit-methode betaalt hij ALTIJD het hoogste tarief van beide staten. Vrijstelling is gunstiger als buitenland lager belast; credit is gunstiger voor de fiscus (zekerheid wereldwijde belasting tot BE-niveau)."
+          - "Belgische techniek voor dividend: art. 23A geldt vaak NIET → DBV BE-LU gebruikt voor dividend de Belgische DBI-aftrek (art. 202-205quater WIB92) als omzetting van credit-methode → uitwerking in [[europese-richtlijnen-en-bronheffing]]."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Methode", "Hoe werkt het", "Belgisch artikel", "Voorbeeld Berkelaar"]
+            rijen:
+              - ["Art. 23A — Vrijstelling met progressievoorbehoud", "Inkomen vrijgesteld + telt mee voor tarief op rest", "WIB92 art. 155", "Henri Spaanse villa-OG; Sophie's NL-loon; Maarten's LU-loon"]
+              - ["Art. 23B — Credit/verrekening", "Inkomen belast + buitenlandse belasting afgetrokken", "WIB92 art. 285-289 (FBB) + art. 202 (DBI)", "Henri's intrest uit buitenlands obligatie zonder MDR/IRR-vrijstelling"]
+
+  - id: mli-overlay
+    titel: "MLI — overlay over bestaande BE-DBV's"
+    niveau: 2
+    beats:
+      - "Definitiezet: MLI = Multilateral Instrument (BEPS-actiepunt 15). Goedgekeurd door ca. 100 staten in 2017; BE-ratificatie 2018; in werking voor BE-DBV's vanaf 2020 (afhankelijk van tegenpartij ratificatie + MLI-keuzes)."
+      - "Wat MLI doet: wijzigt bestaande bilaterale DBV's IN ÉÉN KEER, op punten waar BEPS-actieplan gaten heeft geïdentificeerd. Belangrijkste wijzigingen:"
+      - "(1) PPT — Principal Purpose Test (anti-misbruik). Verdragsvoordelen worden geweigerd als ÉÉN VAN DE HOOFDDOELEN van de transactie het verkrijgen van die verdragsvoordelen is. Soepelere en bredere test dan klassieke 'main purpose'. Beïnvloedt Berkelaar Holding's LU SARL als substance-test faalt."
+      - "(2) VI-uitbreiding — art. 5 §5 nieuw (commissionair-PE) + anti-fragmentatieregel + dienst-VI. Voorkomt dat ondernemingen kunstmatig onder VI-drempel blijven via versplinterde rollen."
+      - "(3) MAP-arbitrage — verplichte arbitrage bij stilzitten MAP ≥ 2 jaar. BE heeft deze keuze gemaakt voor specifieke verdragspartners (zoals NL, FR, LU)."
+      - "(4) Tie-breaker vennootschappen — geen automatische 'werkelijke leiding'-toets meer; bij dubbele residentie vennootschap: onderling overleg tussen bevoegde autoriteiten."
+      - "Praktische gevolg: stagiair moet bij elke DBV-toepassing CHECKEN of MLI relevant is. Voor Berkelaar-stromen: PPT-test is steeds toepasselijk → substance-test op LU SARL essentieel voor het behouden van moeder-dochter-richtlijn-vrijstelling."
+
+  - id: gedeeld-vs-exclusief-recap
+    titel: "Gedeeld versus exclusief — recap"
+    niveau: 2
+    beats:
+      - "Tabel-recap als ankerpunt voor herhaling. Voor elke inkomenscategorie: gedeeld of exclusief, plafond ja/nee, voorkomingsmethode in BE."
+      - "Klassieke val (⚠️) blijven herhalen: in een examenstelling met 'uitsluitend' bij art. 6, 7, 10, 11, 12 (in BE-DBV's), 15 = bijna altijd FOUT. Bij 'uitsluitend' bij art. 8 (lucht/scheepvaart), 18 (privé-pensioen), 19 §1 (overheidsfunctie) = correct."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Art.", "Categorie", "Toewijzing", "Plafond bronstaat", "BE-woonstaat-methode"]
+        rijen:
+          - ["6", "Onroerend goed", "GEDEELD ('may be taxed')", "geen", "vrijstelling met progressievoorbehoud"]
+          - ["7", "Ondernemingswinst", "woonstaat tenzij VI", "n.v.t.", "vrijstelling op VI-winst"]
+          - ["8", "Scheepvaart/luchtvaart", "EXCLUSIEF werkelijke leiding-staat", "n.v.t.", "n.v.t."]
+          - ["10", "Dividend", "GEDEELD", "5/15% (OESO); 0% MDR", "DBI-aftrek"]
+          - ["11", "Intrest", "GEDEELD", "10% (OESO); 0% IRR", "FBB"]
+          - ["12", "Royalty", "ZUIVER OESO: exclusief woonstaat; BE-DBV's vaak gedeeld", "varieert", "FBB"]
+          - ["15", "Arbeid", "werkstaat tenzij 183-dgn-uitzondering", "n.v.t.", "vrijstelling met progressievoorbehoud"]
+          - ["18", "Privé-pensioen", "EXCLUSIEF woonstaat", "n.v.t.", "n.v.t."]
+          - ["19", "Overheidspensioen", "EXCLUSIEF bronstaat tenzij inwoner+onderdaan andere", "n.v.t.", "n.v.t."]
+
+  - id: vier-valkuilen
+    titel: "Vier valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 'UITSLUITEND' in stelling over gedeelde categorieën (art. 6/7/10/11/15). Bijna altijd fout."
+      - "Valkuil 2 (⚠️): nationaliteit als EERSTE tie-breaker-criterium voor natuurlijke personen. Nationaliteit is DERDE-LAATSTE (na duurzaam tehuis + middelpunt levensbelangen + gewoon verblijf)."
+      - "Valkuil 3 (⚠️): OESO-MV toepassen op SUCCESSIERECHTEN. Art. 2 — OESO-MV dekt 'taxes on income and on capital' — niet successie. Aparte model 1982 bestaat."
+      - "Valkuil 4 (⚠️): vergeten dat MLI bestaande verdragen WIJZIGT. Zonder MLI-check kan stagiair de oude verdragstekst lezen + PPT/arbitrage/VI-uitbreiding missen."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: vaste-inrichting-en-belasting-niet-inwoners
+      hint: "De VI-drempel uitgewerkt (art. 5 OESO-MV) + Belgische BNI-techniek voor inbound/outbound."
+    - slug: europese-richtlijnen-en-bronheffing
+      hint: "EU-richtlijnen die boven het DBV uitstijgen: MDR + IRR + FBB/DBI in actie."
+    - slug: transfer-pricing-beps-en-anti-misbruik
+      hint: "Wat als verrekenprijzen niet kloppen — armslengte + PPT + ATAD."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — toewijzingstabel + tie-breaker-cascade + voorkomingsmethoden."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek:"
+  groepen:
+    - concepten: [dubbelbelastingverdrag, oeso-modelverdrag, mli-instrument]
+    - concepten: [fiscale-residentie, vrijstelling-met-progressievoorbehoud]
+    - concepten: [internationale-tewerkstelling, internationaal-onroerend-goed]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "OESO-modelverdrag — personeel toepassingsgebied"
+    ref: "Art. 1 OESO-MV (Persons covered)"
+  - onderwerp: "OESO-modelverdrag — materieel toepassingsgebied"
+    ref: "Art. 2 OESO-MV (Taxes covered — income and capital)"
+    noot: "Successierechten NIET inbegrepen — apart model 1982."
+  - onderwerp: "Tie-breaker dubbele residentie natuurlijke persoon"
+    ref: "Art. 4 §2 OESO-MV"
+  - onderwerp: "Tie-breaker dubbele residentie vennootschap (post-MLI)"
+    ref: "Art. 4 §3 OESO-MV (gewijzigd door MLI art. 4)"
+  - onderwerp: "Onroerend goed — toewijzing"
+    ref: "Art. 6 OESO-MV (Income from immovable property)"
+  - onderwerp: "Ondernemingswinst — toewijzing + VI-fictie"
+    ref: "Art. 7 OESO-MV (Business profits) + §3 corresponderende correctie"
+  - onderwerp: "Dividenden — toewijzing + plafond bronstaat"
+    ref: "Art. 10 OESO-MV"
+  - onderwerp: "Intresten — toewijzing + plafond"
+    ref: "Art. 11 OESO-MV"
+  - onderwerp: "Royalty's — toewijzing + arm's length-clausule"
+    ref: "Art. 12 OESO-MV §1 + §4"
+  - onderwerp: "Arbeid — werkstaat hoofdregel + 183-dgn-uitzondering"
+    ref: "Art. 15 OESO-MV §1 + §2"
+  - onderwerp: "Pensioenen"
+    ref: "Art. 18 (privé) + art. 19 (overheid)"
+  - onderwerp: "Voorkomingsmethode woonstaat — vrijstelling vs credit"
+    ref: "Art. 23A + 23B OESO-MV"
+  - onderwerp: "Belgische omzetting vrijstelling met progressievoorbehoud"
+    ref: "WIB92 art. 155"
+  - onderwerp: "MAP — onderling overleg + arbitrage (post-MLI)"
+    ref: "Art. 25 OESO-MV + MLI art. 16-26"
+  - onderwerp: "MLI — Multilateraal Instrument BEPS actiepunt 15"
+    ref: "Verdrag van 24 nov 2016; BE-ratificatie 2018"
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "Tie-breaker arrest 'middelpunt van levensbelangen' Cassatie"
+    inhoud: "Belgische Cassatie en hoger gerechtshoven gebruiken een multi-factor-toets voor het middelpunt van levensbelangen: gezin als eerste indicator, daarna economische banden (werkadres, vermogen), sociaal netwerk. Klassieke arrest-referenties: nader te bevestigen."
+    confidence: "⚠️ te verifiëren"
+  - onderwerp: "Royalty's special-relationship-clausule"
+    inhoud: "Examen 2024-oef vr7 illustreert de toepassing — verdragsvoordeel alleen op armslengte-bedrag, excess valt onder nationaal recht (eventueel herkwalificatie als verdoken winstuitkering)."
+
+footer: "Leerstuk PO 2.8. Status: voorgesteld."

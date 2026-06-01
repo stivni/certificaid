@@ -1,0 +1,464 @@
+# De Cock & Berkelaar — gedeelde bindcase voor PO 2.8 leerstukken
+#
+# Internationale familie + Belgische holding-groep met dochters in NL, LU
+# (en verbinding met FR + ES). Wordt door alle 6 leerstukken hergebruikt
+# om herkenning + cohesie te creëren — anders dan PO 2.7 (waar fiscale
+# leerstof geen doorgaande draad bood), heeft PO 2.8 wel een natuurlijke
+# bindcase: één holding-structuur raakt elk hoofdthema (DBV-toewijzing, VI,
+# EU-richtlijnen, transfer pricing, geïntegreerd advies).
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-internationaal-fiscaal-recht.yaml (Henri ontvangt LU-dividend — entry)
+#   - data/leerstukken/dbv-werking-en-toewijzingsregels.yaml (toewijzing per Berkelaar-stroom)
+#   - data/leerstukken/vaste-inrichting-en-belasting-niet-inwoners.yaml (Franse VI Berkelaar Distributie)
+#   - data/leerstukken/europese-richtlijnen-en-bronheffing.yaml (LU→BE dividend, NL→LU royalty)
+#   - data/leerstukken/transfer-pricing-beps-en-anti-misbruik.yaml (royalty NL→LU, ATAD interest limitation)
+#   - data/leerstukken/geintegreerd-internationaal-advies.yaml (3 cases — synthese)
+#   - data/oefeningen/de-cock-internationaal-advies.yaml (oefening — kern)
+#
+# Consistentie-toets:
+#   - Bronheffing-tarieven en richtlijn-drempels worden in scripts-fase
+#     bevestigd via MCP `certificaid-rag` of wetteksten — geen training-only.
+#   - Cijfers (omzetten, dividenden, royalty's) zijn fictief maar intern
+#     consistent (NL-dochter omzet €12M → royalty 3,5% van omzet ≈ €420k).
+#   - Personages fictief; rijksregisternummers/btw-nummers/adressen onvolledig.
+
+naam: de-cock-berkelaar
+beschrijving: >
+  Gedeelde bindcase voor PO 2.8 — Europees en internationaal fiscaal recht.
+  Familie De Cock (Belgische vader Henri, dochter Sophie grensarbeider NL,
+  zoon Maarten expat-kaderlid LU, echtgenote Léa) + Berkelaar Holding BV
+  (Belgische holding met Belgische, Nederlandse en Luxemburgse dochters +
+  Franse vaste inrichting in oprichting + Spaans privévastgoed van Henri).
+  De structuur raakt elke laag van het internationale belastingrecht:
+  DBV-toewijzingsregels per inkomenscategorie, VI-drempel in Frankrijk,
+  EU-richtlijnen (MDR + IRR) op intra-groep dividend en royalty, transfer
+  pricing op NL→LU royalty, en synthese-advies bij oprichting, exit en
+  vermogensplanning.
+
+context_jaartal: "2026"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Familie De Cock (natuurlijke personen)
+# ---------------------------------------------------------------------------
+
+familie_de_cock:
+
+  personen:
+    - naam: "Henri De Cock"
+      leeftijd: 61
+      woonplaats_fiscaal: "Antwerpen (België) — Belgisch rijksinwoner"
+      beroep: "zaakvoerder Berkelaar Holding BV"
+      gezinssituatie: "gehuwd met Léa Dupont (wettelijk samenwonend), twee meerderjarige kinderen Sophie en Maarten"
+      vermogen: "100% aandeelhouder (samen met Léa) van Berkelaar Holding BV; eigenaar Spaanse villa in Cadaqués (Costa Brava)"
+      rol_in_cases: "hoofdpersonage — eigenaar holding + Spaans vastgoed; in synthese-leerstuk plant oprichting nieuwe Cypriotische sub-holding én verkoop met zetelverplaatsing"
+
+    - naam: "Léa Dupont"
+      leeftijd: 58
+      woonplaats_fiscaal: "Antwerpen (België)"
+      beroep: "huisvrouw — geen beroepsinkomsten"
+      vermogen: "50% aandelen Berkelaar Holding BV (huwelijksstelsel scheiding van goederen + gemeenschappelijk vermogen voor verworven goederen)"
+      rol_in_cases: "co-aandeelhouder; relevant voor anti-misbruik-test op moeder-dochterrichtlijn (aandelenstructuur) en voor exit-planning"
+
+    - naam: "Sophie De Cock"
+      leeftijd: 35
+      woonplaats_fiscaal: "Lanaken (België) — Belgisch rijksinwoner"
+      beroep: "marketing manager bij Berkelaar Nederland BV — werkplek Maastricht (NL) + thuiswerken Lanaken (BE)"
+      werkpatroon: "verdeelt jaar feitelijk 60% NL / 40% BE — salary split bevestigd in arbeidsovereenkomst met allocatie €72.000 / €48.000 (totaal €120.000 bruto)"
+      rol_in_cases: "leerstuk 2 — DBV BE-NL art. 15 arbeid + 183-dagen-regel + vrijstelling met progressievoorbehoud op NL-deel; leerstuk 6 case C — grensoverschrijdende tewerkstelling"
+
+    - naam: "Maarten De Cock"
+      leeftijd: 32
+      woonplaats_fiscaal: "Antwerpen (België) — sinds 2024 inwoner; eerder Luxemburg-resident 2020-2023"
+      beroep: "Chief Financial Officer bij Berkelaar Luxemburg SARL — werkplek Luxemburg-stad"
+      werkpatroon: "gedetacheerd vanuit BE naar LU sinds 2024; in 2024 toegelaten tot bijzonder regime inkomende belastingplichtigen (art. 32/7 WIB92 ⚠️ verifieer code)"
+      rol_in_cases: "leerstuk 6 case C — internationale tewerkstelling + expat-regime"
+
+  vastgoed:
+    - omschrijving: "Spaanse villa Cadaqués (Costa Brava — Spanje)"
+      eigenaar: "Henri (100%) — verworven 2018 voor €620.000"
+      situatie: "tweede verblijf, gebruikt door familie zomer + Pasen; geen verhuur"
+      spaanse_belasting: "Spaanse onroerende voorheffing (IBI) jaarlijks ca. €1.850; in Spaanse niet-inwoners-belasting (IRNR) wordt 1,1% × kadastrale waarde forfaitair belast"
+      belgische_belasting: "in PB aan te geven onder rubriek buitenlands onroerend inkomen — geïndexeerd KI volgens art. 7 §1, 2° WIB92 (nu via 'kadastraal inkomen-achtige' grondslag voor buitenlands vastgoed sinds wet 2021)"
+      rol_in_cases: "leerstuk 2 — DBV BE-ES art. 6 OG (gedeeld heffingsrecht, 'may be taxed') + voorkomingsmethode België vrijstelling met progressievoorbehoud (art. 23A); leerstuk 3 niet — buitenlands vastgoed van Belgisch inwoner is geen BNI-thema"
+
+  internationale_tewerkstelling:
+    - persoon: "Sophie"
+      structuur: "salary split BE-NL (60% NL / 40% BE)"
+      detail: "Bezoldiging Nederlandse vennootschap voor werkdagen op NL-grondgebied (kantoor Maastricht); Belgische vennootschap (Berkelaar Distributie, dwz indirecte uitlening) voor BE-werkdagen. Geen 183-dagen-conflict — meer dan 183 dagen in NL?"
+      vraagstuk: "DBV BE-NL art. 15 §1 hoofdregel: arbeid belastbaar in werkstaat; §2 uitzondering 'in dienst van werkgever' beperkt tot 183-dagen + werkgever niet inwoner werkstaat + niet ten laste van VI in werkstaat. Bij salary split → moet per werkdag toegewezen worden."
+
+    - persoon: "Maarten"
+      structuur: "expat-regime art. 32/7 WIB92 — inkomende belastingplichtige"
+      detail: "Maarten is gedetacheerd in 2024 naar Berkelaar Luxemburg SARL als CFO. Toegelaten tot bijzonder regime inkomende belastingplichtigen: 30%-vrijstelling bezoldiging + plafond €100.000/jaar voor kosten eigen aan werkgever ⚠️ tarieven verifieer in MCP `certificaid-tarieven`."
+      vraagstuk: "compatibel met DBV BE-LU? — werknemer blijft Belgisch rijksinwoner (gezin in BE) maar werkstaat is LU → art. 15 OESO-MV: LU heft op arbeid uitgevoerd in LU. België vrijstelt met progressievoorbehoud."
+
+# ---------------------------------------------------------------------------
+# DEEL B — Berkelaar-groep (vennootschappen)
+# ---------------------------------------------------------------------------
+
+berkelaar_groep:
+
+  holding:
+    naam: "Berkelaar Holding BV"
+    rechtsvorm: "BV (Belgisch recht — WVV)"
+    zetel_statutair: "Antwerpen (België)"
+    werkelijke_leiding: "Antwerpen — fiscaal Belgisch inwoner voor Ven.B"
+    boekjaar: "kalenderjaar (01-01 t/m 31-12)"
+    omzet: "geen operationele omzet — zuivere holding"
+    activa_balansdatum_2025_12_31:
+      - "deelneming Berkelaar Distributie NV: €4.500.000 boekwaarde"
+      - "deelneming Berkelaar Nederland BV: €2.800.000 boekwaarde"
+      - "deelneming Berkelaar Luxemburg SARL: €1.200.000 boekwaarde"
+      - "3% deelneming Berkelaar France SAS: €180.000 boekwaarde"
+      - "intra-groep vorderingen op LU SARL: €3.200.000 (rentegevende lening 3,5%)"
+      - "liquide middelen: €450.000"
+    aandeelhouders: "Henri 50% + Léa 50% — 100% privé"
+    rol_in_cases: "leerstuk 4 ontvangt €650k dividend van LU SARL; leerstuk 5 anti-misbruik-toets op intra-groep lening; leerstuk 6 hoofdstructuur waar advies aan gegeven wordt"
+
+  dochters:
+
+    - naam: "Berkelaar Distributie NV"
+      rechtsvorm: "NV (Belgisch recht)"
+      zetel: "Antwerpen (België)"
+      belastingplichtigheid: "Belgische Ven.B"
+      activiteit: "groothandel + retail elektrische tweewielers (e-bikes, e-scooters)"
+      participatie: "100% door Berkelaar Holding"
+      omzet_2025: "€18.000.000"
+      werknemers: 42
+      bijzonderheid: "opent Franse vaste inrichting in 2025 — atelier+toonzaal in Lille; bouwwerf-verbouwing 14 maanden vanaf 2025-04-01"
+      rol_in_cases: "leerstuk 3 — Franse VI (art. 5 §3 OESO-MV — 14 mnd > 12 mnd drempel bouwwerf) + outbound winst/verlies-behandeling; cross-PO 2.3"
+
+    - naam: "Berkelaar Nederland BV"
+      rechtsvorm: "BV (Nederlands recht)"
+      zetel: "Rotterdam (Nederland)"
+      belastingplichtigheid: "Nederlandse Vennootschapsbelasting; geen Belgische bandenSet"
+      activiteit: "groothandel elektrische tweewielers — Nederlandse markt"
+      participatie: "100% door Berkelaar Holding"
+      omzet_2025: "€12.000.000"
+      werknemers: 18 (waaronder Sophie De Cock — salary split BE-NL)
+      intra_groep: "betaalt royalty €420.000/jaar aan Berkelaar Luxemburg voor gebruik merk 'Berkelaar' (= 3,5% × omzet)"
+      rol_in_cases: "leerstuk 2 — art. 12 royalty NL→LU; leerstuk 4 — interest-royalty-richtlijn 25%-drempel; leerstuk 5 — TP-toets armslengte op royalty (vergelijkbare licenties op markt: 2,0-2,5%)"
+
+    - naam: "Berkelaar Luxemburg SARL"
+      rechtsvorm: "SARL (Luxemburgs recht)"
+      zetel: "Luxemburg-stad"
+      werkelijke_leiding: "Luxemburg — fiscaal Luxemburgs inwoner"
+      belastingplichtigheid: "Luxemburgse vennootschapsbelasting (CIT 17%) + commune business tax"
+      activiteit: "IP-holding (eigenaar merk 'Berkelaar' + technische licenties) + concernfinanciering"
+      participatie: "100% door Berkelaar Holding"
+      activa: "merk 'Berkelaar' (geboekt €800.000, vermoedelijke marktwaarde €4.500.000); intra-groep lening uit aan distributie-vennootschappen"
+      omzet_2025: "€420.000 royalty van NL + concernfinanciering-rente €112.000"
+      werknemers: "1 directeur (Maarten De Cock) + 2 administratief; kantoorruimte gehuurd Luxemburg-stad"
+      uitkering_2026: "€650.000 dividend voorzien aan Berkelaar Holding"
+      rol_in_cases: "leerstuk 4 — moeder-dochterrichtlijn vrijstelling bronheffing op LU→BE dividend (participatie 100% > 10%); leerstuk 5 — substance-test (genoeg substance om PPT te doorstaan?); leerstuk 6 case A — vervangen door Cypriotische sub-holding?"
+
+    - naam: "Berkelaar France SAS"
+      rechtsvorm: "SAS (Frans recht)"
+      zetel: "Lyon (Frankrijk)"
+      belastingplichtigheid: "Franse vennootschapsbelasting"
+      activiteit: "distributie elektrische tweewielers Frankrijk"
+      participatie: "3% door Berkelaar Holding — 97% door Franse co-investeerder ABC SAS (geen familieband)"
+      rol_in_cases: "leerstuk 4 — illustreert FAAL van moeder-dochterrichtlijn (3% < 10%) → eventuele dividenduitkering valt onder DBV BE-FR art. 10 met bronheffing-plafond; cross-illustratie naar 2024-oef vr8 (Hongarije-parallel)"
+
+  intra_groep_stromen:
+    - stroom: "Dividend Berkelaar Luxemburg SARL → Berkelaar Holding BV"
+      bedrag_2026: "€650.000"
+      analyse_lagen:
+        intern_recht: "Belgische DBI-aftrek art. 202-205quater WIB92 (vereist 10%-of-€2,5M-drempel + 1 jr houdperiode + taxatievoorwaarde — LU CIT 17% halen taxatie? — meestal ja)"
+        moeder_dochter: "Vrijstelling bronheffing in LU (Richtlijn 2011/96/EU art. 5) — 100% > 10%-drempel; 1-jaar houdperiode bevestigd"
+        dbv: "DBV BE-LU 1970 art. 10 — verlaagd bronheffing-plafond (typisch 5% bij deelneming ≥25%, 15% anders) — maar overruled door MDR-vrijstelling"
+        anti_misbruik: "PPT in MLI + GAAR art. 1 §2-3 MDR — Luxemburg SARL heeft substance (kantoor + 3 medewerkers + merk-economische realiteit) → PPT doorstaat"
+
+    - stroom: "Royalty Berkelaar Nederland BV → Berkelaar Luxemburg SARL"
+      bedrag_2026: "€420.000/jaar"
+      analyse_lagen:
+        intern_recht: "Nederlandse Ven.B trekt royalty af; Luxemburgse Ven.B belast als omzet (CIT 17%)"
+        interest_royalty: "Richtlijn 2003/49/EG art. 1 — vrijstelling bronheffing NL op royalty IF 25%-deelneming-drempel; hier 100% (LU bezit niet NL, maar gemeenschappelijke moeder Berkelaar Holding bezit beide voor 100% → 25%-drempel voor 'verbonden onderneming via derde vennootschap' gehaald)"
+        dbv: "DBV BE-NL art. 12 royalty — typisch 0% bronheffing in modern verdrag; overruled door IRR"
+        anti_misbruik: "Armslengte-toets: €420k op €12M omzet = 3,5%; marktbenchmark 2,0-2,5% → mogelijke TP-correctie van €120-180k door NL-fiscus (art. 8b Wet Vpb / OESO-arm's length)"
+
+    - stroom: "Intra-groep lening Berkelaar Holding → Berkelaar Luxemburg SARL"
+      bedrag: "€3.200.000 hoofdsom · 3,5% rente jaarlijks · 8-jarige looptijd"
+      analyse_lagen:
+        intern_recht: "Belgische Ven.B Berkelaar Holding ontvangt rente €112.000/jaar (volledig belast); LU SARL trekt af onder Luxemburgse regels"
+        interest_royalty: "Richtlijn 2003/49/EG art. 1 — vrijstelling bronheffing IF 25%-deelneming en verbonden onderneming. Geen bronheffing tussen LU en BE op intresten (intern recht beide staten al 0% voor intra-groep tussen vennootschappen)"
+        atad: "Interest limitation Rule (ATAD art. 4 → omgezet in BE art. 198/1 WIB92) — netto-interestkosten van LU SARL beperkt tot 30% EBITDA OF €3.000.000; LU SARL kleiner → veilig"
+        anti_misbruik: "Geen thin-cap-issue (intra-EU); PPT-test OK (lening dient operationele financiering distributie)"
+
+# ---------------------------------------------------------------------------
+# DEEL C — Vaste inrichting Frankrijk (kern voor leerstuk 3)
+# ---------------------------------------------------------------------------
+
+franse_vaste_inrichting:
+
+  beschrijving: >
+    Berkelaar Distributie NV (Belgische dochter) opent in 2025 een atelier +
+    toonzaal in Lille, Frankrijk. Verbouwingswerken duren 14 maanden (start
+    2025-04-01, oplevering 2026-06-15). Na oplevering operationele uitbating
+    door 4 lokale Franse werknemers + 1 gedetacheerde Belgische teamleader.
+
+  feitenset:
+    locatie: "Lille (Hauts-de-France)"
+    type_activiteit: "atelier-verhuur fietsen + retail e-bikes + after-sales"
+    huurovereenkomst: "10-jarig handelshuurcontract met Franse vastgoedeigenaar"
+    werknemers: "5 (4 lokaal Frans + 1 BE-gedetacheerde)"
+    bouwwerf_duur: "14 maanden — verbouwing pand naar atelier-functie"
+    omzet_eerste_jaar_2026_h2: "€280.000 (deeljaar)"
+    verwachte_omzet_volledig_jaar_2027: "€850.000"
+
+  fiscale_analyse:
+    bouwwerf_vi: "art. 5 §3 OESO-MV (en gelijkluidend art. 5 §3 DBV BE-FR 1964) — bouwwerf vormt VI indien duur > 12 maanden. Hier: 14 maanden → VI vanaf dag 1 retro (klassieke OESO-doctrine — drempel = absolute drempel, niet pro rata)."
+    vaste_bedrijfsruimte_vi: "art. 5 §1 OESO-MV — vaste bedrijfsruimte (atelier + toonzaal) door middel waarvan onderneming geheel of gedeeltelijk activiteit uitoefent. Na oplevering 2026-06: klassieke VI los van bouwwerf-toets."
+    franse_belasting: "VI belast in Frankrijk als Belgische niet-inwoner-vennootschap (Frans BNI Ven.B-equivalent — impôt sur les sociétés op winst toerekenbaar aan VI volgens art. 7 OESO-MV)"
+    belgische_belasting: "Berkelaar Distributie NV blijft Belgisch inwoner — wereldwijde winst belast in BE. DBV BE-FR art. 23 voorkomingsmethode: vrijstelling van VI-winst (België = vrijstellingsmethode voor de meeste DBV's). Verlies-aanloopjaar 2026 H2: aanrekenen op BE-winst, recapture als VI nadien winst genereert (art. 206/4 WIB92)."
+
+# ---------------------------------------------------------------------------
+# Synthese-cases (kern voor leerstuk 6)
+# ---------------------------------------------------------------------------
+
+synthese_cases:
+
+  case_a_oprichting:
+    titel: "Cypriotische sub-holding voor LU + NL"
+    feiten: >
+      Henri overweegt om Berkelaar Luxemburg + Berkelaar Nederland onder een
+      nieuwe Cypriotische sub-holding ("Berkelaar Cyprus Ltd") onder te
+      brengen, met Berkelaar Holding BV als enige aandeelhouder van Cyprus
+      Ltd. Motief: Cypriotische participation-exemption op dividenden +
+      gunstige IP-regeling.
+    analyse_lagen:
+      structurering: "wat vraagt dit fiscaal in BE? Inbreng van LU-aandelen tegen Cypriotische aandelen — meerwaarde latent, fiscale neutraliteit alleen onder fusierichtlijn-conditie (art. 211 WIB92 + EU-richtlijn 2009/133)"
+      voordelen: "Cypriotische CIT 12,5%, IP-box ca. 2,5% op kwalificerend; participation exemption 100%"
+      anti_misbruik: "PPT in MLI BE-CY DBV; ATAD GAAR omgezet in BE art. 344 WIB92 — 'kunstmatige constructie zonder economische realiteit'? Vereist substance in Cyprus"
+      conclusie: "voordelen € 80-150k/jaar denkbaar; risico's substance-test + reputatie + DAC6-melding (cross-border arrangement)"
+
+  case_b_exit:
+    titel: "Verkoop holding aan PE-investeerder + zetelverplaatsing naar Nederland"
+    feiten: >
+      Engelse private equity-investeerder biedt €18M voor 60% van Berkelaar
+      Holding. Henri wil zelf naar Nederland verhuizen voor pensioen
+      (Curaçao-residentie geweigerd door hem) en wil dat Berkelaar Holding
+      meeverhuist (Nederlandse holding-vorm). Vragen: meerwaarde op aandelen
+      in BE, exit-heffing op zetelverplaatsing, gevolg voor Henri's PB.
+    analyse_lagen:
+      meerwaarde_op_aandelen: "Henri-Léa zijn natuurlijke personen — meerwaarde op aandelen normaal vrijgesteld (art. 90, 1° WIB92 — beheer privé-vermogen) tenzij speculatief of art. 90, 9° tweede lid (significante deelneming + verkoop aan niet-EU-koper); UK = niet-EU sinds Brexit → art. 90, 9° tweede lid kan triggeren bij significante deelneming + UK-koper"
+      exit_heffing_vennootschap: "Indien zetel Berkelaar Holding van BE naar NL verhuist: art. 210 §1, 4° WIB92 (gelijkstelling met liquidatie) — Belgische Ven.B op latente meerwaarden van activa die niet meer onder BE-bevoegdheid vallen. ATAD art. 5 (exit tax) staat geleidelijke betaling toe (5 jaar) als de zetel naar EU/EER verhuist"
+      henri_emigratie: "Henri verliest Belgische rijksinwoner-status — laatste BE-belastingjaar = jaar van vertrek; daarna NL-inwoner. Stille reserves in vennootschap zijn dan irrelevant voor zijn PB"
+      dac6: "verkoop aan PE-investeerder + zetelverplaatsing: mogelijke melding onder DAC6 (hallmark E.3 — overdracht van moeilijk te waarderen immateriële activa)"
+
+  case_c_grensoverschrijdend_vermogen:
+    titel: "Sophie's salary split + Maarten's expat-regime + Henri's Spaanse villa"
+    feiten: >
+      Henri wil weten of de fiscale optimalisatie voor zijn drie families
+      goed loopt: (1) Sophie's BE-NL salary split, (2) Maarten's LU-expat-
+      regime, (3) zijn eigen aangifte Spaanse villa.
+    analyse_lagen:
+      sophie: "DBV BE-NL art. 15 §2 (183-dagen) — Sophie meer dan 183 dgn in NL: NL = werkstaat; BE = woonstaat, vrijstelling met progressievoorbehoud (art. 155 WIB92) op NL-deel. Praktijk: aangifte 276.1 BE met buitenlands beroepsinkomen vak X.B"
+      maarten: "Expat-regime art. 32/7 WIB92 (inkomende belastingplichtige) voor het BE-deel van zijn bezoldiging (dwz: deel niet door LU belast); DBV BE-LU art. 15 voor LU-deel — vrijstelling met progressievoorbehoud in BE. Combinatie: 30%-vrijstelling op zijn BE-deel + LU-deel sowieso vrijgesteld → effectief tarief laag"
+      villa_spanje: "DBV BE-ES art. 6 — Spanje heft (1,1% kadaster ipv tax of 24% IRNR op forfait); BE vrijstelt met progressievoorbehoud (art. 23A DBV + art. 155 WIB92). Sinds wet 2021: aangifte buitenlands KI-equivalent in BE-aangifte"
+      map_optie: "indien dubbele heffing optreedt (bv. Sophie's salary split betwist door NL-fiscus): MAP-procedure art. 25 OESO-MV — onderling overleg BE-NL"
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen — herbruikbaar voor leerstukken en samenvatting
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  drie_lagen_internationaal_fiscaal:
+    type: flowchart-td
+    code: |
+      A[Internationaal fiscaal dossier]
+      A --> B[Laag 1 — Eenzijdig<br/>nationale wet<br/>WIB92 art. 5/156/202/285/229]
+      A --> C[Laag 2 — Bilateraal<br/>DBV<br/>OESO-modelverdrag<br/>tussen 2 staten]
+      A --> D[Laag 3 — Multilateraal + EU<br/>MLI · EU-richtlijnen<br/>MDR · IRR · fusie · ATAD]
+      B --> E[Toepassen]
+      C --> E
+      D --> E
+      E --> F[Geïntegreerd advies]
+
+  groepsstructuur_berkelaar:
+    type: flowchart-td
+    code: |
+      A1[Henri De Cock<br/>50%]
+      A2[Léa Dupont<br/>50%]
+      H[Berkelaar Holding BV<br/>Antwerpen · BE]
+      D1[Berkelaar Distributie NV<br/>Antwerpen · BE<br/>100%]
+      D2[Berkelaar Nederland BV<br/>Rotterdam · NL<br/>100%]
+      D3[Berkelaar Luxemburg SARL<br/>Luxemburg · LU<br/>100% · IP + financiering]
+      D4[Berkelaar France SAS<br/>Lyon · FR<br/>3%]
+      VI[Franse VI<br/>Lille · vanaf 2025-04<br/>via Distributie]
+      A1 --> H
+      A2 --> H
+      H --> D1
+      H --> D2
+      H --> D3
+      H --> D4
+      D1 --> VI
+      D2 -.royalty €420k.-> D3
+      D3 -.dividend €650k 2026.-> H
+      H -.lening €3,2M.-> D3
+
+  dbv_toewijzing_per_categorie:
+    type: flowchart-td
+    code: |
+      A[Welke inkomenscategorie?]
+      A -->|Onroerend goed art. 6| B1[Bronstaat 'may be taxed'<br/>woonstaat behoudt recht<br/>= GEDEELD<br/>NIET 'uitsluitend']
+      A -->|Onderneming art. 7| B2[Bron belast alleen winst<br/>toerekenbaar aan VI<br/>geen VI → woonstaat exclusief]
+      A -->|Dividend art. 10| B3[GEDEELD<br/>bronstaat plafond 5%/15%<br/>woonstaat hoofdheffing]
+      A -->|Intrest art. 11| B4[GEDEELD<br/>bronstaat plafond typisch 10%]
+      A -->|Royalty art. 12| B5[Woonstaat EXCLUSIEF<br/>in zuiver OESO-MV<br/>BE-DBV's vaak gedeeld]
+      A -->|Arbeid art. 15| B6[Werkstaat hoofdregel<br/>tenzij <183 dgn<br/>+ werkgever niet werkstaat-inwoner<br/>+ niet via werkstaat-VI]
+      A -->|Pensioen art. 18-19| B7[Privé art. 18 woonstaat<br/>overheid art. 19 bronstaat<br/>tenzij inwoner+onderdaan andere]
+
+  vi_drempel_oeso_mv:
+    type: flowchart-td
+    code: |
+      A[Buitenlandse onderneming actief in NL/BE]
+      A --> B{art. 5 §1<br/>Vaste bedrijfsruimte<br/>door middel waarvan?}
+      B -->|ja| Y[Vaste inrichting]
+      B -->|nee| C{art. 5 §2<br/>Voorbeeld-lijst<br/>kantoor · fabriek · mijn · steengroeve}
+      C -->|ja| Y
+      C -->|steengroeve| Y2[VI per definitie<br/>GEEN tijdsdrempel]
+      C -->|nee| D{art. 5 §3<br/>Bouwwerf/installatie<br/>> 12 maanden?}
+      D -->|ja| Y
+      D -->|nee| E{art. 5 §5<br/>Afhankelijke vertegenwoordiger<br/>habitueel contracten sluiten?}
+      E -->|ja| Y
+      E -->|nee| F{art. 5 §6<br/>Onafhankelijke agent<br/>in gewone bedrijfsuitoefening?}
+      F -->|ja| N[GEEN VI]
+      F -->|nee| Y
+      C -->|art. 5 §4 uitzondering<br/>opslag · uitstalling · aankoop<br/>uitsluitend voorbereidend| N
+
+# ---------------------------------------------------------------------------
+# Drempel-tabellen — herbruikbaar voor leerstukken en samenvatting
+# ---------------------------------------------------------------------------
+
+drempel_tabellen:
+
+  eu_richtlijnen_drempels:
+    - richtlijn: "Moeder-dochterrichtlijn 2011/96/EU"
+      object: "dividenden tussen moeder-dochter EU-vennootschappen"
+      deelnemingsdrempel: "≥ 10% van het kapitaal van de dochter"
+      houdperiode: "≥ 1 jaar (in BE: WIB92 art. 202 §2)"
+      effect: "vrijstelling bronheffing in dochter-lidstaat + DBI-aftrek/-vrijstelling in moeder-lidstaat"
+      anti_misbruik: "GAAR art. 1 §2-3 — kunstmatige constructie zonder economische realiteit"
+      val_in_berkelaar_case: "Berkelaar Holding 100% in LU SARL → 10%-drempel ruim gehaald; houdperiode bevestigd. Maar Berkelaar Holding 3% in France SAS → ONDER drempel, MDR niet toepasselijk."
+
+    - richtlijn: "Interest-royaltyrichtlijn 2003/49/EG"
+      object: "intresten en royalty's tussen verbonden EU-vennootschappen"
+      deelnemingsdrempel: "≥ 25% kapitaal of stemrechten (rechtstreeks of via gemeenschappelijke moeder-VENNOOTSCHAP)"
+      houdperiode: "≥ 1 jaar (idem)"
+      effect: "vrijstelling bronheffing op intrest en royalty in bronstaat"
+      anti_misbruik: "art. 5 — geen vrijstelling bij hoofddoel belastingontwijking"
+      val_in_berkelaar_case: "NL→LU royalty €420k: 25%-drempel via gemeenschappelijke moeder Berkelaar Holding (100% in elk) → IRR van toepassing → 0% bronheffing NL. MAAR: bij 2024-oef vr8 (Hongarije-case) bezit moeder slechts 3% en gemeenschappelijke aandeelhouder is natuurlijke persoon → IRR FAALT (vereist gemeenschappelijke moeder-VENNOOTSCHAP, niet natuurlijke persoon)."
+
+    - richtlijn: "Fusierichtlijn 2009/133/EG"
+      object: "grensoverschrijdende fusies, splitsingen, inbreng van bedrijfstakken, aandelenruil"
+      deelnemingsdrempel: "n.v.t. — drempel zit in rechtsvormen + belastingplichtigheid"
+      voorwaarde: "drie cumulatieve voorwaarden art. 3 — (a) rechtsvorm bijlage I deel A · (b) fiscale woonplaats EU · (c) onderworpen aan Ven.B uit bijlage I deel B"
+      effect: "fiscale neutraliteit — uitstel belastingheffing op meerwaarden tot daadwerkelijke realisatie"
+      val_in_berkelaar_case: "Cypriotische sub-holding (case A): rechtsvorm Cy Ltd in bijlage I deel A? — ja (Ltd staat erin). Ivzw (examen 2015-1 vr50): rechtsvorm NIET in bijlage I deel A → richtlijn FAALT."
+
+  vi_drempels_art_5_oeso:
+    - type: "Vaste bedrijfsruimte (art. 5 §1)"
+      drempel: "duur: enige stabiliteit; ruimte: 'door middel waarvan'"
+      voorbeeld: "kantoor, fabriek, atelier, magazijn"
+      tijdsdrempel: "geen — bestaat zodra ruimte ter beschikking is + activiteit erin"
+
+    - type: "Voorbeeld-lijst (art. 5 §2)"
+      drempel: "automatische VI: plaats van leiding, filiaal, kantoor, fabriek, werkplaats, mijn, olie/gasbron, steengroeve"
+      tijdsdrempel: "geen voor mijn/steengroeve"
+
+    - type: "Bouwwerf / installatieproject (art. 5 §3)"
+      drempel: "duur > 12 maanden (modeltekst) — Belgische DBV's vaak 6-12 mnd; art. 229 WIB92 zelfs > 30 dagen voor BE-bronheffing-context"
+      voorbeeld: "Lille-verbouwing Berkelaar: 14 mnd → VI"
+
+    - type: "Afhankelijke vertegenwoordiger (art. 5 §5)"
+      drempel: "habitueel contracten sluiten in naam van onderneming"
+      voorbeeld: "agent met volmacht — niet enkel marketing"
+
+    - type: "Voorbereidend of hulpkarakter (art. 5 §4)"
+      drempel: "GEEN VI: opslag, uitstalling, aankoop, info-inwinning — mits uitsluitend voorbereidend"
+      val: "post-BEPS art. 5 §4 strenger gelezen — anti-fragmentatieregel"
+
+  bronheffing_dbi_drempels:
+    - regime: "DBI-aftrek (art. 202-205quater WIB92)"
+      drempel_deelneming: "minstens 10% OF €2.500.000 aanschaffingswaarde"
+      houdperiode: "≥ 1 jaar (ononderbroken)"
+      taxatievoorwaarde: "uitkerende vennootschap onderworpen aan equivalent van BE-Ven.B; geen 'taxhaven'-regime; geen aftrek bij intra-groep arbitrage"
+      effect: "100% aftrek dividend uit belastbare grondslag moeder"
+
+    - regime: "FBB (art. 285-289 WIB92)"
+      object: "buitenlandse roerende inkomsten (intresten, royalty's) met buitenlandse bronheffing"
+      mechanisme: "forfaitaire verrekening 15/85 op netto-inkomen × belastingsom — niet de werkelijke bronheffing"
+      beperking: "max BE-belasting op die specifieke inkomsten — overgeschoten FBB gaat verloren"
+      verschil_met_dbi: "DBI is een AFTREK (grondslag-verlaging); FBB is een VERREKENING (belasting-verlaging)"
+
+# ---------------------------------------------------------------------------
+# Termijntabel internationale rechtsmiddelen — herbruikbaar leerstuk 6 + samenvatting
+# ---------------------------------------------------------------------------
+
+termijntabel_internationaal_recht:
+
+  - rechtsmiddel: "Belgisch bezwaar tegen aanslag met internationale component"
+    bron: "WIB92 art. 366-371"
+    bezwaarinstantie: "Adviseur-generaal bevoegde fiscale administratie"
+    termijn: "1 jaar vanaf 3de werkdag na verzending aanslagbiljet"
+
+  - rechtsmiddel: "MAP — Mutual Agreement Procedure (DBV-conflict)"
+    bron: "Art. 25 OESO-MV (gelijkluidend in Belgische DBV's)"
+    bezwaarinstantie: "Belgische bevoegde autoriteit (FOD Financiën Dienst Internationale Betrekkingen) — die contacteert tegenpartij-bevoegde autoriteit"
+    termijn: "3 jaar vanaf eerste kennisgeving maatregel die DBV-strijdig is (art. 25 §1 OESO-MV)"
+    bijzonderheid: "geen verplichting tot resultaat — wel verplichting tot 'endeavour to resolve'. Sinds MLI: arbitrage mogelijk bij stilzitten ≥ 2 jaar"
+
+  - rechtsmiddel: "EU-arbitrageovereenkomst (Geschillenbeslechtingsrichtlijn EU 2017/1852)"
+    bron: "Wet 2 mei 2019 omzetting Richtlijn 2017/1852 + Verdrag 90/436/EEG"
+    object: "verrekenprijs-geschillen + DBV-interpretatie binnen EU"
+    termijn: "3 jaar voor klacht + 6 maanden voor ontvankelijkheidsbeslissing + 2 jaar voor onderling overleg + arbitrage bij stilzitten"
+
+  - rechtsmiddel: "Ruling Dienst Voorafgaande Beslissingen (DVB)"
+    bron: "Wet 24 dec 2002 art. 20-21"
+    object: "voorafgaande zekerheid over fiscale gevolgen vóór een transactie"
+    termijn: "3 maanden na ontvankelijke aanvraag (richttermijn DVB) — bindend voor BE-fiscus tijdens 5 jaar (verlengbaar)"
+
+  - rechtsmiddel: "Beroep tegen MAP-resultaat"
+    bron: "WIB92 + Ger.W."
+    bezwaarinstantie: "Fiscale rechtbank van eerste aanleg"
+    termijn: "3 maanden na kennisgeving MAP-uitkomst"
+
+# ---------------------------------------------------------------------------
+# Klassieke valkuilen — checklist herbruikbaar voor samenvatting
+# ---------------------------------------------------------------------------
+
+valkuilen:
+
+  - val: "'Uitsluitend' in stelling over art. 6/7/10/11/15 OESO-MV"
+    rationale: "art. 6 (OG), art. 10 (dividend), art. 11 (intrest), art. 15 (arbeid) zijn allemaal GEDEELDE heffingsbevoegdheid ('may be taxed'). Uitsluitend (= 'shall be taxable only') komt enkel voor in art. 8 (lucht/scheepvaart), art. 18 (privé-pensioen — woonstaat), art. 19 §1 (overheidsfunctie). Bij het woord 'uitsluitend' → bijna altijd FOUT."
+    voorbeeld_examen: "2015-1 vr49 + 2024-oef vr5 (OG); 2024-oef vr1 (inwonerschap als poort, niet als exclusieve toewijzing)"
+
+  - val: "Steengroeve verwart met bouwwerf — tijdsdrempel"
+    rationale: "art. 5 §2(f) noemt steengroeve, mijn, olie/gasbron als KLASSIEKE VI zonder tijdsdrempel. art. 5 §3 stelt 12 maanden voor BOUWWERF/installatieproject. Beide § door elkaar halen = klassieke val."
+    voorbeeld_examen: "2015-1 vr49 sub-stelling (6 mnd steengroeve = FOUT); 2024-oef vr4 (idem)"
+
+  - val: "Moeder-dochterrichtlijn drempel 10% vs Interest-royalty 25%"
+    rationale: "MDR vereist ≥ 10% deelneming; IRR vereist ≥ 25% deelneming OF gemeenschappelijke moeder-VENNOOTSCHAP. Drempels verwisselen → fout antwoord."
+    voorbeeld_examen: "2024-oef vr8 — 3% in HU-vennootschap + natuurlijke persoon als gemeenschappelijke aandeelhouder → BEIDE faal."
+
+  - val: "Tie-breaker dubbele residentie — nationaliteit als EERSTE criterium"
+    rationale: "art. 4 §2 OESO-MV is een CASCADE in 4 stappen: (a) duurzaam tehuis → (b) middelpunt levensbelangen → (c) gewoon verblijf → (d) nationaliteit. Nationaliteit is DERDE-LAATSTE, niet eerste."
+    voorbeeld_examen: "2015-1 vr49 sub-stelling (nationaliteit als 'steeds eerste' = FOUT); 2024-oef vr3"
+
+  - val: "Successierechten onder OESO-MV — fout — afzonderlijk model 1982"
+    rationale: "OESO-MV art. 2 dekt 'taxes on income and on capital' — successierechten vallen erbuiten. Afzonderlijk model voor successie + schenking (1982) bestaat maar wordt in BE-praktijk nauwelijks gebruikt (alleen BE-FR + BE-SE bilateraal)."
+    voorbeeld_examen: "2015-1 vr49 + 2024-oef vr2"
+
+  - val: "Fusierichtlijn 2009/133 op ivzw/vzw — faal op rechtsvorm"
+    rationale: "Art. 3 vereist (a) rechtsvorm in bijlage I deel A — limitatieve lijst VENNOOTSCHAPSVORMEN. (i)vzw is GEEN vennootschap → richtlijn niet toepasselijk."
+    voorbeeld_examen: "2015-1 vr50 (Spaanse ivzw)"
+
+  - val: "DBI 10%-drempel ≠ 10%-MDR-drempel automatisch"
+    rationale: "DBI (art. 202 WIB92) vereist 10% OF €2,5M aanschaffing + 1 jr + TAXATIEVOORWAARDE. MDR (Richtlijn 2011/96) vereist alleen 10%. Vennootschap die wel onder MDR valt kan toch falen op DBI-taxatievoorwaarde."
+
+  - val: "VI-winst recapture-regel — onverwacht hogere belastbare grondslag"
+    rationale: "Art. 206/4 WIB92: VI-verlies in DBV-land mag in BE afgetrokken worden (zelfs als DBV vrijstellingsmethode is). Maar als de VI later winstgevend wordt, moet het eerder afgetrokken verlies opnieuw bij de BE-grondslag → 'recapture'. Gevolg: belastbare grondslag > boekhoudkundige winst."
+    voorbeeld_examen: "2014-1 vr37 — Italiaanse VI 1.000-verlies jaar 1 + 1.000-winst jaar 2 → BE belastbaar grondslag jaar 2 = 4.000 (NIET 3.000)"

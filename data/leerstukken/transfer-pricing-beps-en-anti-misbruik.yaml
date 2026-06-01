@@ -1,0 +1,245 @@
+# Leerstuk-script — Transfer pricing, BEPS en anti-misbruik
+#
+# PO 2.8 leerstuk 5 (anti-ontwijking). BEPS-actieplan + ATAD + MLI samen
+# vormen de anti-ontwijkings-laag die over de techniek heen ligt.
+# Armslengte-toets + TP-documentatie + CbCR + ATAD-vijfluik + Kaaiman.
+
+meta:
+  slug: transfer-pricing-beps-en-anti-misbruik
+  titel: "Transfer pricing, BEPS en anti-misbruik"
+  po: "2.8"
+  cluster: europees-en-internationaal-fiscaal
+  voorbeeldgroep: de-cock-berkelaar
+  beschrijving: >
+    De anti-ontwijkings-laag: hoe staten kunstmatige winstverschuivingen
+    detecteren en corrigeren. Armslengte-beginsel (OESO arm's length), TP-
+    documentatie (master file + local file + CbCR), BEPS-actieplan,
+    ATAD I+II vijfluik (CFC, interest limitation, exit tax, hybrides, GAAR),
+    MLI Principal Purpose Test, en Belgische specifieke regels (Kaaimantaks,
+    abnormale voordelen, regularisatie).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro. Vermeld dat dit het anti-misbruik-leerstuk is —
+    het LAATSTE techniek-leerstuk. Niet "wat mag je doen?" maar "wat
+    detecteert de fiscus en hoe corrigeert hij?". Doorklik naar
+    `transfer-pricing`, `beps-actieplan` en `atad-richtlijn`.
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: anti-ontwijking werkt op DRIE niveaus parallel — (1) armslengte-toets op intra-groep transacties (TP), (2) ATAD-vijfluik tegen kunstmatige winstverschuiving (CFC + interest limitation + exit + hybride mismatches + GAAR), (3) PPT in MLI en MDR/IRR die verdragsvoordelen weigert bij hoofddoel belastingontwijking."
+    - "Armslengte-beginsel (OESO art. 9 + art. 185 §2 WIB92): verbonden ondernemingen moeten onderling marktconforme prijzen hanteren. Bij afwijking → correctie + corresponderende correctie in andere staat (art. 7 §3 + art. 9 + art. 25 OESO-MV)."
+    - "TP-documentatie: master file (groep-overview), local file (entiteit-niveau), CbCR (per-land-rapport voor groepen > €750M consolidaire omzet)."
+    - "Voor Berkelaar-groep (omzet ca. €30M): GEEN CbCR-verplichting (< €750M). WEL master + local file want intra-groep transacties > €1M."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Instrument", "Object", "Bron", "Effect"]
+      rijen:
+        - ["Armslengte", "Intra-groep transactie", "Art. 9 OESO-MV + art. 185 §2 WIB92", "Correctie bij niet-marktconform"]
+        - ["TP-documentatie", "Master + local + CbCR", "BEPS actiepunt 13 → BE art. 321/4-7 WIB92", "Bewijsmateriaal armslengte"]
+        - ["ATAD interest limitation", "Netto-interestkosten", "Richtlijn 2016/1164 art. 4 + BE art. 198/1", "Aftrek beperkt tot 30% EBITDA"]
+        - ["ATAD CFC", "Buitenlandse dochter met passieve inkomsten", "Richtlijn art. 7-8 + BE art. 185/2-3", "Winst CFC toegerekend aan BE-moeder"]
+        - ["ATAD GAAR", "Algemene anti-misbruik", "Richtlijn art. 6 + BE art. 344 §1", "Niet-doorgevoerde fiscaliteit bij kunstmatige constructie"]
+        - ["MLI PPT", "Verdragsvoordelen", "MLI art. 7 + art. 1 §2 MDR", "Weigering bij hoofddoel ontwijking"]
+        - ["Kaaimantaks", "Juridische constructies (trusts e.d.)", "WIB92 art. 5/1 + 220/1", "Doorkijk-belasting"]
+  afsluiter: "We werken eerst de armslengte-toets door, daarna TP-documentatie, dan BEPS-overzicht, dan ATAD-vijfluik, dan PPT/MLI, dan Kaaimantaks + regularisatie."
+
+# ---------------------------------------------------------------------------
+opbouw:
+
+  - id: armslengte-beginsel
+    titel: "Armslengte-beginsel — hart van transfer pricing"
+    niveau: 2
+    beats:
+      - "Open met de definitiezet: het armslengte-beginsel verlangt dat VERBONDEN ondernemingen onderling dezelfde prijzen hanteren als ze ONAFHANKELIJKE marktpartijen zouden zijn. Internationaal vastgelegd in art. 9 §1 OESO-MV + OESO TP Guidelines. Belgische omzetting via art. 185 §2 WIB92 (sinds 2004)."
+      - "Doel: voorkomen dat multinationale groepen via interne prijzen winst verschuiven naar lager belaste jurisdicties. Voorbeeld-klassieker: BE-moeder verkoopt voor €100 aan LU-dochter (marktconform €150) → €50 winst wordt onder LU-tarief belast ipv BE → fiscaal voordeel."
+      - "Vijf OECD-METHODEN om armslengte vast te stellen (TP Guidelines 2022):"
+      - "(1) CUP — Comparable Uncontrolled Price. Vergelijking met identieke transactie tussen onafhankelijken. Meest betrouwbaar maar zelden beschikbaar (eigen producten/IP)."
+      - "(2) RESALE PRICE METHOD. Verkoopmarge t.o.v. uiteindelijke wederverkoper. Geschikt voor distributie zonder waardetoevoeging."
+      - "(3) COST PLUS. Kostenbasis + winstmarge. Geschikt voor productie-vennootschappen die op contract werken."
+      - "(4) TRANSACTIONAL NET MARGIN METHOD (TNMM). Vergelijking netto-winstmarge op functioneel vergelijkbare onafhankelijke partijen. Meest gebruikte in praktijk."
+      - "(5) PROFIT SPLIT. Winstverdeling tussen verbonden partijen op basis van waardecreatie. Geschikt voor sterk geïntegreerde activiteiten."
+      - "Correctie-mechaniek (art. 9 §1): bronstaat van de gunstige stroom corrigeert WAARDE OMHOOG om winst toch te bereiken. Dan art. 9 §2 (in moderne DBV's): andere staat past CORRESPONDERENDE CORRECTIE toe — bedrag waarmee staat A naar boven heeft gecorrigeerd, mag staat B navenant naar beneden corrigeren. Vermijdt economische dubbele belasting. MAAR §2 is GEEN automatische verplichting — slechts 'shall make' bij eenduidige bewijsvoering. Bij gebrek: MAP-procedure (art. 25 OESO-MV)."
+      - "Berkelaar-illustratie #1: royalty NL→LU €420k (3,5% × NL-omzet €12M). Marktvergelijking met onafhankelijke merklicenties van e-bike-merken: 2,0-2,5% van omzet. NL-fiscus kan bij audit corrigeren naar 2,5% → toelaatbare royalty €300k. Excess €120k:"
+      - "(a) In NL: niet meer aftrekbaar als royalty (verdoken winstuitkering — eventueel herkwalificatie). NL-Vpb belast €120k extra."
+      - "(b) In LU: corresponderende correctie zou €120k aftrekken — maar dat vraagt MAP-procedure. Tot dan: economisch dubbele belasting van €120k."
+      - "(c) Belgisch standpunt: geen rechtstreeks belang (geen BE-stroom in deze case) — wel indirect via DBI op LU-dividend (lagere LU-winst → lagere uitkeerbare reserves → lagere dividend → lager BE DBI-effect)."
+      - "Berkelaar-illustratie #2: concernlening BE-Holding → LU SARL @ 3,5%. Marktrente vergelijkbare zekerheidsfactor: 3,0-4,5%. → Binnen marktbreedte. Geen correctie verwacht."
+
+  - id: tp-documentatie
+    titel: "TP-documentatie — master file, local file, CbCR"
+    niveau: 2
+    beats:
+      - "Open met de positionering: BEPS-actiepunt 13 (2015) zette wereldwijde TP-documentatie-standaard. België omgezet via wet 1 juli 2016 → art. 321/4-7 WIB92 (gewijzigd 2017)."
+      - "Drie-laagse documentatie:"
+      - "(1) MASTER FILE — groep-overzicht. Wereldwijde organisatie, immateriële activa, financieringsstructuur, fiscale positie. Verplicht voor groepen MET EEN VAN DRIE DREMPELS: omzet > €50M, balans > €1B, > 100 VTE. Indieningstermijn: 12 mnd na boekjaareinde van de Belgische rapporterende entiteit."
+      - "(2) LOCAL FILE — entiteit-niveau. Beschrijving Belgische entiteit, intra-groep transacties, prijsmethode per transactie. Verplicht voor Belgische entiteiten die master-file-drempel halen ÉN bepaalde intra-groep transactie > €1M voor immaterieel/diensten of > €25M voor goederen."
+      - "(3) CbCR — Country-by-Country Reporting. Per-land overzicht: omzet, winst vóór belasting, betaalde + verschuldigde belasting, kapitaal, werknemers. Verplicht voor groepen met CONSOLIDAIRE OMZET ≥ €750M. Indieningstermijn: 12 mnd na boekjaareinde."
+      - "Berkelaar-illustratie:"
+      - "(a) Master file? Berkelaar-groep omzet ca. €30M, balans ca. €15M, ca. 65 VTE → DREMPELS NIET GEHAALD. Master file NIET verplicht. WEL aanbevolen als best practice voor audit-bescherming."
+      - "(b) Local file? Niet verplicht omdat master file niet verplicht. Maar voor royalty NL→LU € 420k zou local file-achtige documentatie sterk aangewezen zijn (functionele analyse + benchmark + methode-keuze)."
+      - "(c) CbCR? €30M omzet → ver onder €750M-drempel → NIET verplicht."
+
+  - id: beps-actieplan
+    titel: "BEPS-actieplan in vogelvlucht"
+    niveau: 2
+    beats:
+      - "Open met de positionering: BEPS = Base Erosion and Profit Shifting. OESO-initiatief 2013-2015 dat 15 actiepunten uitwerkte tegen multinationale belastingontwijking. Resultaat: MLI (actiepunt 15), aangescherpte TP-richtlijnen (actiepunten 8-10), CbCR (actiepunt 13), VI-uitbreiding (actiepunt 7), anti-misbruik in DBV's (actiepunt 6 → PPT)."
+      - "Voor stagiair belangrijkste actiepunten:"
+      - "Actiepunt 6: PPT in verdragen — verdragsvoordelen weigeren bij hoofddoel-belastingontwijking. Omgezet via MLI art. 7."
+      - "Actiepunt 7: VI-uitbreiding — anti-fragmentatieregel + commissionair-PE + striktere voorbereidende-activiteit-toets. Omgezet via MLI art. 12-15."
+      - "Actiepunt 8-10: TP voor immateriële activa + risico + multilateraal cash pool. Omgezet via OESO TP Guidelines 2017+ + Belgische administratieve commentaren."
+      - "Actiepunt 13: TP-documentatie (master + local + CbCR). Omgezet via art. 321/4-7 WIB92."
+      - "Actiepunt 14: MAP-versterking — bindende arbitrage bij stilzitten. Omgezet via MLI art. 16-26."
+      - "Actiepunt 15: MLI als instrument om bilaterale DBV's in één klap te wijzigen."
+      - "ATAD I (2016/1164) + ATAD II (2017/952) zijn de EU-omzetting van BEPS in bindend EU-recht."
+
+  - id: atad-vijfluik
+    titel: "ATAD-vijfluik — anti-tax-avoidance directive"
+    niveau: 2
+    beats:
+      - "Open met de positionering: ATAD = Anti-Tax-Avoidance Directive (Richtlijn 2016/1164 + amendement 2017/952). Bindend voor alle EU-lidstaten — omzetting in nationale wet verplicht. België omzettingen 2017-2019 in WIB92."
+      - "ATAD-vijfluik — vijf parallel maatregelen:"
+
+    kinderen:
+
+      - id: atad-interest-limitation
+        titel: "1. Interest limitation rule (art. 4 ATAD)"
+        niveau: 3
+        beats:
+          - "Mechaniek: netto-interestkosten (= rente-uitgaven – rente-inkomsten) van een vennootschap zijn AFTREKBAAR tot maximum 30% van EBITDA OF €3M (Belgische 'safe harbour'-drempel), whichever is higher."
+          - "Doel: tegengaan van overmatige groeps-financiering met intresten als winst-verschuivings-techniek (BE-moeder leent aan LU-dochter tegen hoge rente → BE betaalt rente weg, dochter trekt rente af → winst verlaagd in beide)."
+          - "Belgische omzetting: art. 198/1 WIB92."
+          - "Berkelaar-illustratie: LU SARL ontvangt €112k rente van BE-Holding op €3,2M lening. LU SARL's totale netto-rente-uitgaven: andere intra-groep stromen meegerekend, vermoedelijk < €3M en < 30% EBITDA → veilig binnen Belgische drempels. Geen beperking."
+
+      - id: atad-cfc
+        titel: "2. Controlled Foreign Company (CFC) — art. 7-8 ATAD"
+        niveau: 3
+        beats:
+          - "Mechaniek: als een Belgische vennootschap controle heeft (typisch >50% deelneming) over een BUITENLANDSE DOCHTER in een LAAGBELASTE jurisdictie (effectieve belasting < 50% van wat BE zou heffen), en die dochter heeft PASSIEVE inkomsten (royalty, intrest, dividend, financiële winst) — dan worden die passieve winsten TOEGEREKEND aan de Belgische moeder (alsof het BE-winst was)."
+          - "Doel: vermijden dat winstgevende activiteiten verplaatst worden naar laagbelaste 'brievenbus'-dochters."
+          - "Belgische omzetting: art. 185/2 + 185/3 WIB92 (vanaf aanslagjaar 2020)."
+          - "Berkelaar-illustratie: LU SARL is geen 'low-tax' jurisdictie (LU CIT 17% — > 50% van BE 25%). + LU SARL heeft echte substance (kantoor, personeel, merk). CFC-regime NIET van toepassing."
+          - "Maar in case A (Cypriotische sub-holding) — Cyprus CIT 12,5%. Vergelijking met BE 25%: Cyprus < 50% van BE. → CFC-vraag wordt relevant. Substance-test cruciaal: heeft de Cypriotische entiteit echte economische activiteit?"
+
+      - id: atad-exit-tax
+        titel: "3. Exit tax — art. 5 ATAD"
+        niveau: 3
+        beats:
+          - "Mechaniek: bij zetelverplaatsing van een vennootschap naar een andere staat, mag de oorspronkelijke staat heffen op latente meerwaarden van activa die het niet meer kan belasten. Maar binnen EU/EER: gelijkmatige betaling 5 jaar verplicht aangeboden (HJEU C-371/10 National Grid Indus)."
+          - "Belgische omzetting: art. 210 §1, 4° WIB92 (zetelverplaatsing = liquidatie-gelijkstelling) + art. 412bis WIB92 (gespreide betaling)."
+          - "Cross-verwijzing: uitgewerkt in [[europese-richtlijnen-en-bronheffing]]. Case B (verkoop Berkelaar + zetel naar NL) toetst dit aan praktijk."
+
+      - id: atad-hybride-mismatches
+        titel: "4. Hybride mismatches — art. 9-9bis ATAD"
+        niveau: 3
+        beats:
+          - "Mechaniek: voorkomen dat het verschillende kwalificeren van een betaling/entiteit door twee staten leidt tot dubbele aftrek of geen-belasting. Voorbeeld klassiek: 'reverse hybrid' — entiteit fiscaal transparant in staat A maar opaque in staat B → inkomsten worden in geen staat belast."
+          - "Belgische omzetting: art. 198 §1, 10°/2-3 WIB92 + art. 185/4 WIB92 (vanaf aanslagjaar 2020-2021)."
+          - "Praktisch zelden in EU intra-groep met heldere CIT-rechtsvormen. Wel relevant bij creatieve structures met partnerships, LLC's, hybrid loans."
+          - "Berkelaar-illustratie: niet relevant — alle vennootschappen zijn klassieke kapitaalvennootschappen, geen hybride entiteiten."
+
+      - id: atad-gaar
+        titel: "5. GAAR — General Anti-Abuse Rule (art. 6 ATAD)"
+        niveau: 3
+        beats:
+          - "Mechaniek: bij een 'niet-authentieke' regeling waarvan het hoofddoel of een van de hoofddoelen is het verkrijgen van een fiscaal voordeel dat ingaat tegen de geest van de toepasselijke wetgeving → fiscus mag de regeling NEGEREN voor fiscale doeleinden. Niet-authentiek = niet om geldige commerciële redenen die de economische realiteit weergeven."
+          - "Belgische omzetting: art. 344 §1 WIB92 (algemene anti-misbruik). Bestond al sinds 2012, verfijnd door ATAD-omzetting 2017."
+          - "Belangrijke nuance: GAAR ≠ specifieke anti-misbruik-regels (zoals PPT in DBV's of art. 203 WIB92 voor DBI-taxhaven-uitsluiting). GAAR is RESIDUEEL — slaat in als geen specifieke regel pakt."
+          - "Toepassing op Berkelaar case A (Cypriotische sub-holding): is dat 'niet-authentiek'? Toets: heeft de Cypriotische entiteit echte business reden? Substance? Eventueel een Cypriotische operationele activiteit? Zo niet → GAAR + PPT (MDR §2-3) zouden de structuur kunnen aanvallen."
+
+  - id: ppt-mli
+    titel: "Principal Purpose Test (PPT) via MLI"
+    niveau: 2
+    beats:
+      - "Definitiezet: PPT = Principal Purpose Test. Algemene anti-misbruik-regel in DBV's, ingevoerd via MLI art. 7. Test: 'verdragsvoordelen worden niet toegekend als redelijkerwijs kan worden geconcludeerd dat het verkrijgen van die voordelen ÉÉN van de hoofddoelen was van een regeling of transactie die rechtstreeks of onrechtstreeks dat voordeel oplevert, TENZIJ de toekenning verenigbaar is met het doel en de strekking van het verdrag.'"
+      - "Drie elementen: (a) hoofddoel-test (niet 'enig doel' — één van de hoofddoelen volstaat); (b) 'redelijkerwijs concluderen' = bewijslast op de belastingplichtige; (c) safety-valve: als het voordeel verenigbaar is met geest verdrag, geen weigering."
+      - "Praktisch effect voor adviseur: bij elke structuur die DBV-voordelen oplevert → SUBSTANCE-test. Heeft de tussengeschoven vennootschap reden van bestaan? Echte activiteit? Onafhankelijke beslisvorming? Kantoorruimte? Personeel?"
+      - "Berkelaar-illustratie: Berkelaar Luxemburg SARL bezit het merk + 3 medewerkers + kantoor → substance OK → PPT doorstaan voor MDR-toepassing op LU→BE dividend."
+      - "Tegenbeeld: een 'brievenbus'-LU-entiteit zonder operationele activiteit, opgezet uitsluitend om DBV BE-LU + MDR-vrijstelling te benutten → PPT-faal → MDR weigeren → DBV BE-LU plafond 5%/15% bronheffing van toepassing."
+
+  - id: kaaimantaks
+    titel: "Kaaimantaks — Belgische doorkijk-regel voor juridische constructies"
+    niveau: 2
+    beats:
+      - "Definitiezet: Belgische anti-misbruik-regel (WIB92 art. 5/1 + 220/1, ingevoerd 2015, herhaaldelijk gewijzigd) die de inkomsten van bepaalde JURIDISCHE CONSTRUCTIES (trusts, foundations, zorgvuldig opgezette buitenlandse rechtspersonen in laagbelaste jurisdicties) DIRECT toerekent aan de Belgische 'oprichter' of 'derde-begunstigde'."
+      - "Mechaniek: BE doet alsof de juridische constructie fiscaal NIET BESTAAT — inkomsten worden DOOR-GEKEKEN naar de uiteindelijke Belgische belastingplichtige. Effectief: BE belast Belgisch resident op trust-inkomsten alsof hij ze rechtstreeks ontving."
+      - "Twee categorieën constructies — KB-lijst:"
+      - "Categorie I — entiteiten ZONDER eigen rechtspersoonlijkheid (typisch trusts naar common law). Voorbeeld: Caymantrust."
+      - "Categorie II — entiteiten MET rechtspersoonlijkheid maar in een 'laagbelaste' jurisdictie (limitatieve KB-lijst). Onder 1% effectieve belasting of expliciet vermeld."
+      - "Voor Berkelaar-groep: NIET relevant — geen trusts, geen taxhaven-vennootschappen. Wel relevant in case A indien Cyprus → toets of Cyprus op de KB-lijst staat (sommige jaren wel, sommige niet)."
+      - "Praktische implicatie voor adviseur: bij elke offshore-structuur eerst KB-lijst checken voor Kaaiman-toepasselijkheid. Bij toepasselijkheid: aangifte-verplichting voor de Belgische oprichter + jaarlijkse doorkijk-belasting."
+
+  - id: regularisatie-en-repatriering
+    titel: "Regularisatie en repatriëring van buitenlands vermogen"
+    niveau: 2
+    beats:
+      - "Open met de positionering: dit is geen kern-PO 2.8-thema maar wordt door programma genoemd (2.8.XVII). Korte sectie volstaat."
+      - "Regularisatie = procedure om eerder niet-aangegeven buitenlandse goederen alsnog in orde te brengen met de fiscus, tegen betaling van verschuldigde belasting + boete + nalatigheidsintresten."
+      - "Belgische regularisatie-rondes: eerste in 2004 (EBA), tweede 2013 (EBA-quater), permanente sinds 2016 (DLU + EBA-quinquies). Tarieven varieerden — anno 2024-2026: 25% basis-tarief op verzwegen kapitaal + 25% boete = 50% effectief op 'niet-verjaarde' kapitalen."
+      - "Repatriëring = praktisch het terugbrengen van buitenlands kapitaal naar BE-rekening. Fiscaal: als kapitaal eerder al regulier was, geen impact. Als verzwegen → eerst regulariseren."
+      - "Voor Berkelaar — niet relevant (geen verzwegen activa)."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): ARMSLENGTE-CORRECTIE + CORRESPONDERENDE CORRECTIE niet automatisch parallel. Staat A corrigeert opwaarts → staat B moet NIET automatisch neerwaarts corrigeren. Bij gebrek: economisch dubbele belasting, oplossen via MAP."
+      - "Valkuil 2 (⚠️): ATAD interest limitation: 30% EBITDA OF €3M safe harbour. NIET cumulatief. Belgische vennootschap met netto-rente €500k → onder safe harbour van €3M → ALTIJD aftrekbaar, ongeacht EBITDA-toets."
+      - "Valkuil 3 (⚠️): PPT bewijslast op BELASTINGPLICHTIGE. Bij PPT-discussie moet de stagiair (qua adviseur) bewijzen dat de structuur OOK ANDERE hoofddoelen had dan belastingbesparing. Substance-documentatie is hier kritisch."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: geintegreerd-internationaal-advies
+      hint: "Drie cases — TP + ATAD + PPT samen in praktische advies-situaties."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — TP-methoden + ATAD-vijfluik + PPT-criterium."
+
+doorklik_concepten:
+  intro: "Voor definitorische opzoek:"
+  groepen:
+    - concepten: [transfer-pricing, beps-actieplan, country-by-country-reporting]
+    - concepten: [atad-richtlijn, anti-misbruik, algemene-anti-misbruik-bepaling]
+    - concepten: [thin-cap-regime, juridische-constructie-cayman, fiscale-regularisatie-en-buitenlandse-goederen]
+
+# ---------------------------------------------------------------------------
+wettelijk_fundament:
+  - onderwerp: "Armslengte-beginsel internationaal"
+    ref: "Art. 9 OESO-MV (Associated Enterprises) + OESO TP Guidelines (2022 update)"
+  - onderwerp: "Armslengte-beginsel Belgisch"
+    ref: "WIB92 art. 185 §2 (transfer pricing-correctie) + art. 26 (abnormale of goedgunstige voordelen)"
+  - onderwerp: "TP-documentatie (master + local + CbCR)"
+    ref: "WIB92 art. 321/4-7 (omgezet uit BEPS actiepunt 13)"
+  - onderwerp: "ATAD I — algemeen kader"
+    ref: "Richtlijn 2016/1164 (lidstaten omzetting tegen 2018-2020)"
+  - onderwerp: "ATAD interest limitation"
+    ref: "Richtlijn 2016/1164 art. 4 → WIB92 art. 198/1"
+  - onderwerp: "ATAD CFC"
+    ref: "Richtlijn 2016/1164 art. 7-8 → WIB92 art. 185/2-3"
+  - onderwerp: "ATAD exit tax"
+    ref: "Richtlijn 2016/1164 art. 5 → WIB92 art. 210 §1, 4° + art. 412bis"
+  - onderwerp: "ATAD hybride mismatches"
+    ref: "Richtlijn 2016/1164 + 2017/952 → WIB92 art. 198 §1, 10°/2-3 + art. 185/4"
+  - onderwerp: "ATAD GAAR (algemene anti-misbruik)"
+    ref: "Richtlijn 2016/1164 art. 6 → WIB92 art. 344 §1"
+  - onderwerp: "PPT in DBV's via MLI"
+    ref: "MLI art. 7 → impact op alle BE-DBV's die MLI ratificeerden"
+  - onderwerp: "Kaaimantaks"
+    ref: "WIB92 art. 5/1 (PB) + art. 220/1 (Ven.B) + KB-lijst gespecifieerde constructies"
+  - onderwerp: "Regularisatie (DLU/EBA-quinquies)"
+    ref: "Wet 21 juli 2016 (permanente regularisatie) + opeenvolgende verfijningen"
+  - onderwerp: "DAC6 — meldingsplicht grensoverschrijdende regelingen"
+    ref: "Wet 20 december 2019 (omzetting Richtlijn 2018/822/EU); BE-meldingen via MyMinfin"
+
+# ---------------------------------------------------------------------------
+rechtspraak:
+  - onderwerp: "Cadbury Schweppes — substance-test"
+    inhoud: "HJEU 12 september 2006, C-196/04: lidstaat mag fiscale faciliteit weigeren bij 'zuiver kunstmatige constructie' zonder economische substantie. Hoeksteen van PPT + GAAR-toepassing."
+  - onderwerp: "Berlioz / Société Générale (HJEU) — TP-correctie + EU-recht"
+    inhoud: "HJEU-rechtspraak bevestigt dat TP-correctie binnen EU verenigbaar is met vrij verkeer van kapitaal, mits correctie op armslengte gestoeld + corresponderende correctie mogelijk in andere lidstaat."
+    confidence: "⚠️ te verifiëren"
+
+footer: "Leerstuk PO 2.8. Status: voorgesteld."
