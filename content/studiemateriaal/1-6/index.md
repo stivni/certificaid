@@ -1,186 +1,134 @@
 ---
 title: "PO 1.6 — Externe controle · overzicht"
-description: "Overzicht voor PO 1.6: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+description: "Overzicht PO 1.6: de audit-cyclus van aanvaarding tot controleverklaring, parallel met de bijzondere wettelijke verslagen bij vennootschapsverrichtingen, en de deontologie die alles draagt."
 explorer_title: "1.6 Externe controle"
 tags:
   - overzicht
   - po-1-6
+  - cluster-externe-controle
+---
+
+> **Overzicht.** Dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De vijf **leerstukken** *(zie §3)* werken elk één samenhangende vraag helemaal door op één gedeelde casus (NV REVIA Vlaanderen — een controleplichtige industrievennootschap met een audit in uitvoering en een inbreng-mandaat parallel). De **samenvatting** is een printbare kapstok voor herhaling vlak vóór het examen.
+
 ---
 
 ## 1. Waarom dit vak?
 
-Dit vak leert je hoe je als gecertificeerd accountant of bedrijfsrevisor een externe controle-opdracht uitvoert op de jaarrekening van een cliënt — van de aanvaarding tot het verslag. Niet *zelf* een boekhouding voeren, maar het werk van anderen *toetsen* en daarover een onafhankelijk oordeel formuleren waar derden — aandeelhouders, banken, fiscus, ondernemingsrechtbank — op steunen.
+Externe controle is het vak van **vertrouwen door derden**. Een jaarrekening die het bestuur zelf opmaakt, is de basis waarop banken kredieten toekennen, aandeelhouders winst verdelen, de fiscus belast en werknemers continuïteit afleiden — maar datzelfde bestuur heeft tegelijk de macht én vaak een belang om die cijfers te kleuren. Zonder onafhankelijke toetsing is de informatie niet betrouwbaar. De **commissaris of bedrijfsrevisor** plaatst zich tussen opsteller en gebruiker, verzamelt volgens een internationaal raamwerk (de ISA's) voldoende en geschikt audit-bewijs, en formuleert publiek een oordeel met **redelijke mate van zekerheid**. Dat oordeel — de controleverklaring — is het zwaarste product van het vak. Niet alle vennootschappen zijn controleplichtig: artikel 3:72 WVV beperkt de verplichting tot grote vennootschappen en organisaties van openbaar belang.
+
+Naast de jaarrekeningcontrole leeft een tweede spoor: **bijzondere wettelijke verslagen** bij vennootschapsverrichtingen — inbreng in natura, omzetting, fusie, splitsing, ontbinding. Die opdrachten hebben een eigen logica (beperkte zekerheid, een staat van activa en passiva opgemaakt door het bestuursorgaan, een verslag dat mikt op het niet-overwaarderen van het nettoactief) en hun grondslag in Boek 14 en Boek 5 WVV. De gecertificeerd accountant deelt dit terrein met de bedrijfsrevisor.
 
 ### Hoe past dit in het bredere programma?
 
 | Andere PO | Relatie tot dit vak |
 |---|---|
-| **PO 1.1 — Algemene boekhouding** | De boekhouding is het object van de controle. Zonder boekhoudkundig inzicht kan je geen audit-bewijs interpreteren. |
-| **PO 1.2 — Boekhoud- en jaarrekeningenrecht** | Het wettelijk kader van de jaarrekening (WVV Boek 3 + KB-WVV) dat je toetst tijdens de audit. |
-| **PO 1.7 — Interne controle** | Sterk koppelvlak: ISA 315 verplicht de externe auditor om de interne controle van de cliënt te begrijpen vooraleer hij beslist op welke controles hij kan steunen. |
-| **PO 1.4 — Geconsolideerde jaarrekening** | Het commissarisverslag bij een groep dekt ook de geconsolideerde jaarrekening. Volledigheid van de consolidatiekring is een commissaris-test. |
-| **PO 3.0 — Vennootschapsrecht** | Bijzondere mandaten (inbreng in natura, omzetting, fusie, ontbinding) hebben hun wettelijke grondslag in het WVV — boek 5 tot 14. |
+| **PO 1.1 — Algemene boekhouding** | De boekhouding is het *object* van de audit. Zonder boekhoudkundig inzicht kan je geen audit-bewijs interpreteren. |
+| **PO 1.2 — Boekhoud- en jaarrekeningenrecht** | Het wettelijk kader van de jaarrekening (WVV Boek 3 + KB-WVV) dat je toetst. |
+| **PO 1.4 — Geconsolideerde jaarrekening** | Het commissarisverslag bij een groep dekt ook de consolidatie. Volledigheid van de consolidatiekring is een commissaris-test. |
+| **PO 1.7 — Interne controle** | Sterke koppeling: ISA 315 verplicht de externe auditor om de interne beheersing van de cliënt te begrijpen vóór hij beslist op welke controles hij steunt. |
+| **PO 1.9 — Financiële analyse** | Continuïteits-oordeel (ISA 570) — de ratio's en signalen leven in 1.9; de audit-implicatie in dit vak. |
+| **PO 3.0 — Vennootschapsrecht** | Bijzondere mandaten (Boek 14 + Boek 5 WVV) zitten op het kruisvlak — hier de accountantsrol, in 3.0 de vennootschapsrechtelijke procedure. |
+| **PO 4.0 — Cabinet management** | Kantoor-brede deontologie (AML + tucht + ISQM 1). Hier in 1.6 de opdracht-brede onafhankelijkheid (IESBA + KB 1 maart 1998 + ISA 220). |
 
 ---
 
 ## 2. Wat is dit vak?
 
-### Het probleem
+### Vier opdracht-types langs hun zekerheidsniveau
 
-Een jaarrekening die door het bestuur is opgemaakt, dient als basis voor beslissingen van derden die geen toegang hebben tot de boekhouding zelf. Een bank kent op basis ervan een krediet toe; een aandeelhouder beslist over de winstverdeling; de fiscus berekent er belastingen op; de werknemers leiden er hun continuïteit uit af. Maar het bestuur dat de jaarrekening opmaakt heeft tegelijk de macht én een potentieel belang om ze te kleuren. Zonder onafhankelijke toetsing is de informatie niet betrouwbaar.
+Niet elk verslag dat een accountant aflevert dekt dezelfde lading. Het IAASB-kader onderscheidt vier categorieën. De **audit** (ISA's) levert *redelijke* zekerheid op een hele jaarrekening — het zwaarste werk, het sterkste oordeel. De **review** (ISRE 2400/2410) levert *beperkte* zekerheid op basis van inquiries en analytische werkzaamheden — lichter, vaak ingezet voor tussentijdse cijfers. Een **ISAE-opdracht** levert assurance op niet-financiële informatie (duurzaamheidsrapportering, controle-informatie). Een **overeengekomen procedures-opdracht** (ISRS 4400) levert helemaal geen oordeel — alleen feitelijke bevindingen op vooraf afgesproken werkzaamheden. Wie deze vier niet uit elkaar houdt, kiest het verkeerde verslagmodel. → [[wat-is-externe-controle-en-welke-opdrachten-bestaan]]
 
-### De oplossing
+### De audit-cyclus — eerste helft
 
-Een **controleopdracht** plaatst een onafhankelijke beroepsbeoefenaar tussen de opsteller en de gebruiker van de jaarrekening. Volgens een gestandaardiseerd internationaal raamwerk (de ISA's) verzamelt hij **voldoende en geschikt audit-bewijs** om met **redelijke mate van zekerheid** te oordelen of de financiële overzichten in alle van materieel belang zijnde opzichten getrouw zijn. Het eindproduct is de **controleverklaring**, die zijn oordeel publiek maakt.
+Een audit verloopt niet lineair. Aanvaarding (ISA 210 + KB 1 maart 1998 + IESBA-bedreigingen-kader), planning (ISA 300 + 315 + 320 — kennisverwerving, materialiteit, risico-inschatting) en uitvoering (ISA 330 + 500 + 501 + 505 + 520 + 530 — de zeven controlewerkzaamheden + assertions) staan in een iteratieve dialoog. Een nieuwe bevinding op het werkveld kan de oorspronkelijke risico-inschatting herzien, wat de strategie en het werkprogramma raakt. Hier leef je in een wereld van **professionele oordeelsvorming**: de auditor bepaalt zelf de materialiteit op basis van benchmarks (0,5–1 % omzet · 1–2 % balanstotaal · 5–10 % resultaat) en het risico-profiel van de cliënt. → [[aanvaarden-plannen-en-uitvoeren-van-een-audit]]
 
-### Het plichten-spel
+### De audit-cyclus — tweede helft en het oordeel
 
-Niet elke vennootschap moet een commissaris benoemen. De wettelijke controleplicht (WVV art. 3:72) geldt voor grote vennootschappen — boven de drempels qua personeel, omzet of balanstotaal — en voor beursgenoteerde of "openbaar belang"-entiteiten (OOB). Onder die drempels is controle vrijwillig. Daarnaast bestaan **bijzondere mandaten** die de wet voorbehoudt aan een gecertificeerd accountant of bedrijfsrevisor bij specifieke vennootschapsverrichtingen: inbreng in natura, quasi-inbreng, omzetting van rechtsvorm, fusie, splitsing, ontbinding. Die zijn niet wederkerend maar eenmalig per verrichting.
+De controle eindigt in de **controleverklaring** — het publieke eindproduct waarop derden steunen. Vooraf gaan afrondingsstappen: cumulatieve foutenevaluatie (ISA 450), schattingen (ISA 540), gebeurtenissen na balansdatum (ISA 560), continuïteit (ISA 570), written representations (ISA 580) en de jaarverslag-consistentie (ISA 720). Daarna de keuze: **goedkeurend**, **met voorbehoud**, **afkeurend** of **oordeelonthouding**. De beslismatrix loopt langs twee assen — is de afwijking of scope-beperking **materieel**, en is ze **diepgaand** voor de jaarrekening als geheel? Het revisiedossier (werkdocumenten + permanent dossier + dossier boekjaar — tien jaar bewaring) ondersteunt elk antwoord. → [[afronden-en-rapporteren-van-een-audit]]
 
-### De opdracht-types langs hun zekerheidsniveau
+### Bijzondere wettelijke verslagen — een parallel spoor
 
-Het IAASB-kader onderscheidt vier opdracht-types langs drie mogelijke zekerheidsniveaus die de beroepsbeoefenaar kan communiceren. De **audit** (ISA's) geeft *redelijke* zekerheid op de hele jaarrekening — het zwaarste werk, het sterkste oordeel. De **review** (ISRE 2400/2410) geeft *beperkte* zekerheid op basis van inquiries en analytische werkzaamheden — lichter maar nuttig voor tussentijdse cijfers. Een **ISAE-opdracht** geeft redelijke of beperkte zekerheid op niet-financiële informatie (duurzaamheidsrapportering, controle-informatie). Een **overeengekomen procedures-opdracht** (ISRS 4400) geeft helemaal geen oordeel — alleen feitelijke bevindingen op gevraagde procedures.
+Bij vennootschapsverrichtingen heeft de wetgever vier opdracht-types voorbehouden aan een gecertificeerd accountant of bedrijfsrevisor: **inbreng in natura** (WVV art. 5:7 + 7:7), **omzetting van rechtsvorm** (WVV art. 14:3 + 14:5), **fusie en splitsing** (gemeenschappelijke IBR-ITAA-norm), **ontbinding en vereffening** (WVV art. 2:71 + 2:80). Vier types delen één procedureel patroon: opdrachtbrief → staat van activa en passiva opgemaakt door het bestuursorgaan (niet door een interne boekhouder) → onderzoek met beperkte zekerheid → modelverslag met expliciete vermelding over niet-overwaardering van het nettoactief. Wat verschilt, zijn de termijnen, de risico-clausules en het soort verrichting. → [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen]]
 
-### Wat doet de accountant hier?
+### Onafhankelijkheid en deontologie — de ondergrond
 
-Drie rollen kruisen elkaar in dit vak. De **commissaris of bedrijfsrevisor** voert de wettelijke controle uit en tekent de controleverklaring — de zwaarste rol qua zekerheid en verantwoordelijkheid. De **gecertificeerd accountant** voert review-, ISAE- en overeengekomen-procedures-opdrachten uit en is exclusief bevoegd voor de meeste bijzondere mandaten van het WVV. Beide rollen worden ondersteund door **deontologische beginselen** (onafhankelijkheid, integriteit, vakbekwaamheid) die los van de opdracht gelden. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
-
----
-
-## 3. Wat moet je kunnen?
-
-Het examenprogramma noemt voor dit vak één hoofdtaak:
-
-> *Opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, met inbegrip van juridische en contractuele opdrachten*
-
-Die taak omvat zowel **de wettelijke controle van de jaarrekening** als **bijzondere wettelijke verslagen** rond vennootschapsverrichtingen. Hieronder per rol.
-
-### De kern — controle uitvoeren en rapporteren
-
-**Als commissaris of bedrijfsrevisor (wettelijke controle):**
-- De [[controleopdracht|opdracht aanvaarden of weigeren]] op basis van onafhankelijkheid en randvoorwaarden
-- De [[audit-planning|audit-planning opzetten]] met materialiteit en risico-inschatting
-- De [[audit-bewijs|controle-informatie verzamelen]] via inspectie, observatie, confirmatie, analytische werkzaamheden
-- Steunen op de [[interne-controle|interne-controle-systeem]] van de cliënt waar relevant (ISA 315)
-- De [[audit-afronding|controle afronden]] met afloop- en gebeurtenissen-na-balansdatum
-- De [[controleverklaring|controleverklaring uitschrijven]] met het juiste oordeel-type
-- Het [[revisiedossier|controledossier samenstellen en bewaren]] (10 jaar)
-
-**Als gecertificeerd accountant (overige opdrachten):**
-- De juiste [[opdracht-types|opdracht-vorm kiezen]] in functie van het gevraagde zekerheidsniveau
-- [[bijzondere-mandaten|Bijzondere wettelijke verslagen]] opstellen bij inbreng in natura, omzetting, fusie, ontbinding
-- Een [[beoordeling-cyclus|beoordelingsopdracht (review)]] uitvoeren met beperkte zekerheid
-- [[isae-opdracht|ISAE-attesteringen]] verlenen op niet-financiële informatie
-- [[overeengekomen-procedures-opdracht|Overeengekomen procedures]] uitvoeren met feitelijke bevindingen-rapport
-
-**Als deontologisch verantwoordelijke (beide rollen):**
-- De [[onafhankelijkheid]] vóór en tijdens elke opdracht waarborgen — bedreigingen identificeren en safeguards toepassen
-- Het [[kwaliteitsmanagement-opdracht|kwaliteitsmanagement van de opdracht]] organiseren conform ISQM 1/2 en ISA 220
-
-### Rakend — verbinding met andere vakken
-
-De externe controle leunt op kennis uit andere PO's. De volledigheidstest op de [[consolidatiekring]] verwijst naar PO 1.4. De analyse van [[interne-controle]] en de evaluatie van het controleomgeving sluiten aan bij PO 1.7. Boekhoudkundige expertise (privé of gerechtelijk) — een aparte sub-taak in dit PO — werkt met dossiers waar boekhouding, vennootschapsrecht én procesrecht door elkaar lopen. Voor die gedeelde stof:
-
-- **Overzicht PO 1.4 — geconsolideerde jaarrekening** — [[1.4|zie 1.4]] (commissaris-aspect)
-- **Overzicht PO 1.7 — interne controle** *(zie overzicht 1.7)*
-- **Overzicht PO 1.6 — gerechtelijke en privé-expertise** *(nog te maken)*
-
-### Wat je daarvoor moet kennen
-
-**Het kader van opdracht-types**
-- [[opdracht-types]] — de vier IAASB-categorieën en hun zekerheidsniveau
-- [[controleopdracht]] — de wettelijke audit als ankertype
-- [[beoordeling-cyclus]] — review als lichter alternatief
-- [[isae-opdracht]] — assurance op niet-financiële informatie
-- [[overeengekomen-procedures-opdracht]] — geen oordeel, wel feitelijke bevindingen
-
-**Het audit-proces in fases**
-- [[audit-planning]] — strategie, materialiteit, risico-inschatting
-- [[audit-bewijs]] — wat is "voldoende en geschikt"?
-- [[audit-afronding]] — analytische review, gebeurtenissen na balansdatum, written representations
-- [[controleverklaring]] — vier oordeel-types (goedkeurend, met voorbehoud, afkeurend, onthouding)
-
-**Bijzondere opdrachten en mandaten**
-- [[bijzondere-mandaten]] — inbreng in natura, omzetting, fusie, ontbinding
-- [[commissaris]] — wettelijk statuut, onafhankelijkheid, benoeming, aansprakelijkheid
-
-**Deontologie en kwaliteit**
-- [[onafhankelijkheid]] — bedreigingen-kader (IESBA), Belgische regels
-- [[auditcomite|auditcomité]] — relatie commissaris ↔ met governance belaste personen
-- [[kwaliteitsmanagement-opdracht]] — ISQM 1/2, ISA 220 (herzien)
-- [[revisiedossier]] — bewaring en samenstelling van werkpapieren
-
-**Wettelijke kaders (geen aparte fiches — ze zitten verweven in de records)**
-- WVV Boek 3 (jaarrekening) + Boek 14 (omzetting) + procedures fusie/splitsing/ontbinding
-- [[isa-overzicht|ISA's]] (International Standards on Auditing) — IAASB
-- IESBA-Code en KB 1 maart 1998 — deontologie
-- ICCI-normen en ITAA-KMO-controlenorm — Belgische toepassing
+Geen enkele opdracht houdt stand zonder **onafhankelijkheid**. Het IESBA-bedreigingen-kader (eigenbelang · zelf-toetsing · belangenbehartiging · vertrouwdheid · intimidatie) is een conceptueel raamwerk dat in elke aanvaardings-, planning- en uitvoeringsfase opnieuw moet worden toegepast. KB 1 maart 1998 (artikelen 3 + 9 + 11 + 14) maakt het Belgisch verbindend voor gecertificeerd accountants. Op kantoor-niveau dekt **ISQM 1** het kwaliteitsmanagementsysteem; op opdracht-niveau **ISA 220 (herzien)** de verantwoordelijkheid van de partner. Voor entiteiten van openbaar belang voegt EU-Verordening 537/2014 rotatie- en niet-audit-diensten-regels toe. Op het examen wordt deze stof het vaakst getoetst in combinatie met opdracht-aanvaarding ("kan je dit mandaat aanvaarden?"). → [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]
 
 ---
 
-## 4. Studie-aanpak
+## 3. Wat moet je kunnen + hoe pak je het aan
 
-### Leesroute door de fiches (vijf stappen)
+Het examenprogramma noemt voor dit vak **één hoofdtaak op het hoogste cognitieve niveau** (*integratie*): het opstellen van specifieke verslagen en analyses voor de externe en interne verslaglegging, inclusief juridische en contractuele opdrachten. Drie subtaken structureren de scope (privé-expertise · gerechtelijke expertise · attestering aan derden) — de zwaarte ligt bij die derde subtaak, in twee deel-domeinen: de **wettelijke jaarrekeningcontrole** en de **bijzondere wettelijke verslagen** rond vennootschapsverrichtingen.
 
-Werk de stof op in vijf stappen — van het kader naar het oordeel.
+### Leesroute door de leerstukken (vijf stappen)
 
-1. **Begin met het kader**: [[opdracht-types]] + [[controleopdracht]]. Zonder het onderscheid tussen audit, review, ISAE en overeengekomen procedures verlies je je richting in elke vraag.
-2. **Daarna deontologie als ondergrond**: [[onafhankelijkheid]] + [[commissaris]]. Het examen toetst zeer vaak weigeringsgronden, bedreigingen en het statuut van de commissaris.
-3. **Dan het audit-proces in volgorde**: [[audit-planning]] → [[audit-bewijs]] → [[audit-afronding]]. Hier zitten materialiteit, ISA 315 risico-inschatting, ISA 505 externe bevestigingen en ISA 501 voorraadcontrole — examen-klassiekers.
-4. **Het oordeel**: [[controleverklaring]]. Welk type verklaring volgt uit welke combinatie van materialiteit en diepgang? Dit valt vaak als open vraag of als juist/fout-stelling.
-5. **Sluit af met de bijzondere mandaten**: [[bijzondere-mandaten]] + [[beoordeling-cyclus]]. Inbreng in natura, omzetting CVBA→BVBA, ontbinding — recurrent examen-onderwerp.
+1. **Het kader** — [[wat-is-externe-controle-en-welke-opdrachten-bestaan]]. Vier IAASB-categorieën, het onderscheid wettelijke versus contractuele opdracht, het statuut van commissaris en gecertificeerd accountant, en de normen-hiërarchie (ISA's · ITAA-normen · IESBA Code · KB 1 maart 1998). Geen technische diepte — alleen de kaart waarop je je tijdens elke vraag oriënteert.
+2. **De deontologische ondergrond** — [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]. Lees dit *vóór* je dieper in de audit-cyclus duikt: het IESBA-bedreigingen-kader en de safeguard-logica gelden in elke fase. Het kwaliteitsmanagement (ISQM 1/2 + ISA 220) leef je hier op opdracht-niveau.
+3. **De audit-cyclus eerste helft** — [[aanvaarden-plannen-en-uitvoeren-van-een-audit]] (zwaarste leerstuk). Aanvaarding, planning (materialiteit + risico-inschatting + ISA 315) en uitvoering (de zeven controlewerkzaamheden + assertions). Hier zitten de examen-klassiekers: externe bevestigingen (ISA 505), voorraadtelling (ISA 501), kennisverwerving (ISA 315).
+4. **De audit-cyclus tweede helft en het oordeel** — [[afronden-en-rapporteren-van-een-audit]]. Afronding (gebeurtenissen na balansdatum, going-concern, schattingen, LOR), de beslismatrix oordeel-types (materieel × diepgaand), de opbouw van de controleverklaring, en het revisiedossier (10 jaar bewaring).
+5. **Bijzondere wettelijke verslagen** — [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen]]. Het gemeenschappelijk patroon (staat A&P + limited assurance + nettoactief-clausule) en de vier verrichtingstypes (inbreng natura · omzetting · fusie/splitsing · ontbinding). Examen-zwaarste cluster van het hele PO — 5+ meervraags-vraag-eenheden.
 
-### Voor de herhaling — themafiche
+### Voor de herhaling — samenvatting
 
-Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+Wanneer je de stof grondig gezien hebt en het examen nadert, is de **samenvatting** een PO-brede kapstok op 2-4 A4 (printbaar) met de audit-cyclus-mermaid als hart, de tabel opdracht-types, de beslismatrix oordeel-types, de tabel zeven controlewerkzaamheden, de tabel bijzondere mandaten en de klassieke valkuilen. Niet bedoeld om voor het eerst te leren — wel om snel te overlopen vlak vóór het examen.
 
-| Themafiche | Rol voor dit vak |
-|---|---|
-| [[themafiches/bijzondere-mandaten|Bijzondere mandaten]] | **Kern** — overzicht van alle WVV-verslagen + per-verrichting checklist |
-| [[themafiches/controleopdracht-aanpak|Controleopdracht-aanpak]] | **Kern** — de zes fases van een audit + ISA-mapping per fase |
-| [[themafiches/controleverklaring|Controleverklaring & oordeel]] | **Kern** — vier oordeel-types als beslisboom (materieel × diepgaand) |
-| [[themafiches/fouten-en-fraude-controle|Fouten & fraude]] | **Kern** — fraude-driehoek + red flags + management-letter |
-| [[themafiches/opdracht-types|Opdracht-types & zekerheidsniveaus]] | **Kern** — assurance vs. verwante diensten, ISA vs. ISRS vs. ISAE |
+→ [[studiemateriaal/1-6/samenvatting|Samenvatting PO 1.6 — Externe controle]] (2-4 A4, printbaar)
+
+### Oefening — actief testen
+
+Wie de leerstukken doorgenomen heeft en wil testen of het écht zit, doorloopt zelf een audit-opdracht op één cliënt — NV REVIA Vlaanderen, een fictieve controleplichtige industrievennootschap met drie open audit-issues en een parallel bijzonder mandaat. Vijf documenten activeren elk leerstuk: een aanvaardings-vraag met onafhankelijkheids-evaluatie, een planning-vraag met materialiteit en risico-inschatting, een uitvoerings-vraag rond drie issues (rechtszaak · voorraad-veroudering · lage confirmatie-respons), een afrondings-vraag met oordeel-keuze, en een opdrachtbrief voor het parallel inbreng-mandaat.
+
+→ [[studiemateriaal/1-6/oefening|Oefening: NV REVIA Vlaanderen — één audit, vijf scharniermomenten]] (~75 min)
 
 ---
 
-## 5. Examen-radar — wat is in de praktijk al bevraagd?
+## 4. Examen-radar — wat is in de praktijk al bevraagd?
 
-Uit de voorbeeldexamens 2013-2015 + 2024 zijn **22 unieke vraag-eenheden** met dit vak getagd, allemaal met modelantwoord. Dit is veruit het zwaarst bevraagde PO van blok 1 — de hele audit-keten plus bijzondere mandaten komt aan bod.
+Uit de voorbeeldexamens 2010-2024 zijn voor dit PO **29 unieke vraag-eenheden** geclassificeerd uit 6 examens, alle met modelantwoord. Dit is het **zwaarst bevraagde PO van blok 1** — de hele audit-keten plus de bijzondere wettelijke verslagen komen aan bod.
 
-| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+| Onderwerp | Hoe vaak? | Type vraag | Centraal leerstuk |
 |---|---|---|---|
-| **Externe confirmaties** — procedure, ondertekening, non-respons, alternatieve werkzaamheden | 2× (2014-1, 2015-1) | Procedure-uitleg | [[audit-bewijs]] |
-| **Aanvaarding en weigeringsgronden** — onafhankelijkheid + randvoorwaarden ISA 210 | 2× (2015-1, 2013-1) | Voorbeelden + motivatie | [[onafhankelijkheid]] · [[controleopdracht]] |
-| **Materialiteit** — vaststelling en herziening | 2× (2024-1, 2013-1) | MC + open | [[audit-planning]] |
-| **Voorraadtelling en cut-off** — twee doelstellingen + technieken | 1× (2015-1) | Toepassingscase | [[audit-bewijs]] |
-| **Debet R/C op overledene** — controledoelstellingen + technieken | 1× (2015-1) | Toepassingscase bij omzetting | [[audit-bewijs]] · [[bijzondere-mandaten]] |
-| **Voorbehoud bij niet-gecorrigeerde fout** — correctieboeking of voorbehoud? | 1× (2015-1) | Beslis-case | [[controleverklaring]] |
-| **Onthoudende verklaring** — toepassingsvoorwaarden | 1× (2013-2) | Theorie | [[controleverklaring]] |
-| **Soorten auditmethodes** | 1× (2013-2) | Opsomming | [[audit-planning]] |
-| **Bijzondere mandaten** — omzetting, ontbinding, vereffening, opdrachtbrief, termijn ITAA | 5× (2013-1, 2013-2) | Procedure + verslag | [[bijzondere-mandaten]] |
-| **Norm fusie- en splitsingsverrichtingen** — samenwerking tussen beroepsbeoefenaars | 1× (2015-1) | Opsomming verplichtingen | [[bijzondere-mandaten]] |
-| **Kennisverwerving onderneming** — ISA 315 risico-inschattingswerkzaamheden | 1× (2024-1) | Open | [[audit-planning]] |
-| **Volkomen controle** — definitie revisienormen | 1× (2024-1) | Begrip | [[controleopdracht]] |
+| **Bijzondere mandaten** — omzetting (CVBA→BVBA), ontbinding (HOLDING RICH, GOFORT), opdrachtbrief, termijn ITAA, vereffening | 5× — meervraags-cases met 4-6 deelvragen | Procedure + verslag | [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen\|5]] |
+| **Externe confirmaties** — opstelling, ondertekening, verzending, ontvangst, non-respons, alternatieve werkzaamheden | 2× deep-dive | Procedure-uitleg | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Aanvaarding + weigeringsgronden** — onafhankelijkheid + randvoorwaarden | 2× | Voorbeelden + motivatie | [[onafhankelijkheid-en-deontologie-bij-controleopdrachten\|2]] · [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Materialiteit** — vaststelling, MCQ + open | 2× | MCQ + open | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Voorraadtelling + cut-off** — bestaan vs waardering | 2× | Toepassings-case | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Kennisverwerving onderneming (ISA 315)** — drie risico-inschattingswerkzaamheden | 1× | Open | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Voorbehoud bij niet-gecorrigeerde fout** — correctieboeking vs voorbehoud | 1× | Beslis-case | [[afronden-en-rapporteren-van-een-audit\|4]] |
+| **Oordeelonthouding** — toepassingsvoorwaarden | 1× | Theorie | [[afronden-en-rapporteren-van-een-audit\|4]] |
+| **Soorten auditmethodes** | 1× | Opsomming (4 van 7) | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Norm fusie- en splitsingsverrichtingen** — samenwerking beroepsbeoefenaars | 1× | Opsomming verplichtingen | [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen\|5]] |
+| **Volkomen controle** — definitie revisienormen | 1× | Begrip | [[wat-is-externe-controle-en-welke-opdrachten-bestaan\|1]] |
+| **Werkdossier — verplichte stukken wettelijke opdracht** | 1× | Open | [[afronden-en-rapporteren-van-een-audit\|4]] |
+| **Rechtszaken + claims** — lawyer's letter | 1× | Toepassings-case | [[aanvaarden-plannen-en-uitvoeren-van-een-audit\|3]] |
+| **Boekhoudkundige staat door interne boekhouder — kan dat?** | 2× | Beslis-case | [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen\|5]] |
 
-**Patroon dat opvalt**: het examen toetst zelden de hele audit-cyclus in één vraag, maar peilt zeer concreet naar **ISA-procedures** (ISA 505 confirmaties, ISA 315 kennisverwerving, ISA 320 materialiteit, ISA 705 oordeel-types) én naar **bijzondere mandaten** (omzetting, ontbinding, fusie). Wie de ISA-nummers per fase kent én weet hoe een omzettings- of ontbindingsverslag eruit ziet, dekt de meerderheid van de vragen.
+**Patroon dat opvalt**: het examen toetst zelden de hele audit-cyclus in één vraag, maar peilt zeer concreet naar **ISA-procedures** (ISA 315 kennisverwerving · ISA 320 materialiteit · ISA 501 voorraad · ISA 505 confirmaties · ISA 705 oordeel-types) en naar **bijzondere mandaten** (omzetting, ontbinding, fusie). Wie de ISA-nummers per fase kent én weet hoe een omzettings- of ontbindingsverslag eruitziet, dekt de meerderheid.
 
-→ De volledige vragen met uitgewerkte modelantwoorden vind je op de [voorbeeldexamen-pagina PO 1.6](voorbeeldexamenvragen).
+> **Examen-strikvragen die graag terugkeren**:
+> - Lage respons confirmaties ≠ automatisch voorbehoud — eerst alternatieve werkzaamheden.
+> - Staat van activa en passiva voor bijzonder mandaat door interne boekhouder = niet aanvaardbaar — het bestuursorgaan staat ervoor.
+> - Materialiteit door wie vastgelegd? — door de **auditor** zelf, niet bij KB, niet door de algemene vergadering.
+> - Oordeelonthouding (= geen informatie om te oordelen) ≠ afkeurend oordeel (= verkeerde informatie).
+> - Bezwaartermijn bijzondere mandaten = 15 dagen ter beschikking van vennoten vóór algemene vergadering.
+
+→ **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 1.6](voorbeeldexamenvragen).
 
 ---
 
-## 6. Concepten die ook in andere PO's leven
+## 5. Concepten die ook in andere PO's leven
 
-Als je meerdere PO's tegelijk voorbereidt, herken hier de dubbele rendementen:
+Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
 
 | Concept | Ook actief in | Waarom relevant elders |
 |---|---|---|
-| [[interne-controle]] | PO 1.7 (interne controle) | Object van de externe-controle-evaluatie volgens ISA 315 |
-| [[auditcomite]] | PO 1.7, PO 3.0 | Governance-orgaan dat de commissaris benoemt en met hem communiceert |
-| [[continuiteit]] | PO 1.9 (financiële analyse), PO 1.2 | Going-concern-oordeel is verplicht in de controleverklaring |
-| [[commissaris]] | PO 3.0 (vennootschapsrecht) | Wettelijk orgaan met WVV-statuut — benoeming, aansprakelijkheid |
-| [[bijzondere-mandaten]] | PO 3.0 (vennootschapsrecht) | Inbreng, omzetting, fusie, ontbinding hebben hun grondslag in WVV |
-| [[onafhankelijkheid]] | PO 1.7, beroepsdeontologie algemeen | Deontologisch beginsel dat alle attesterings-opdrachten draagt |
+| [[interne-controle]] | PO 1.7 | Object van de externe-controle-evaluatie via ISA 315 |
+| [[auditcomite]] | PO 1.7 · PO 3.0 | Governance-orgaan dat de commissaris benoemt en met hem communiceert (ISA 260) |
+| [[continuiteit]] | PO 1.9 · PO 1.2 | Going-concern-oordeel verplicht in de controleverklaring (ISA 570) |
+| [[commissaris]] | PO 3.0 | Wettelijk orgaan met WVV-statuut — benoeming, aansprakelijkheid (art. 3:55–3:69) |
+| [[bijzondere-mandaten]] | PO 3.0 | Inbreng, omzetting, fusie, ontbinding hebben hun grondslag in Boek 5 + Boek 14 WVV |
+| [[onafhankelijkheid]] | PO 1.7 · PO 4.0 | Deontologisch beginsel dat alle attesterings-opdrachten draagt; kantoor-breed in 4.0 |
+| [[kwaliteitsmanagement-opdracht]] | PO 4.0 | Kantoor-niveau ISQM 1; hier opdracht-niveau ISA 220 (herzien) |
 
 ---
 

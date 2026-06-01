@@ -1,0 +1,277 @@
+# Leerstuk-script — Afronden en rapporteren van een audit
+#
+# PO 1.6 leerstuk 3 (proces 2 — tweede audit-helft + verslag).
+# Drie samenhangende blokken:
+#   - AFRONDING (ISA 450 + 540 + 560 + 570 + 580 + 720 + ISA 520 slot-review)
+#   - OORDEEL-TYPES (ISA 700 + 705 + 706 + ITAA-KMO §119 + §121) met beslismatrix
+#   - REVISIEDOSSIER (ISA 230 + Wet 7 dec 2016 art. 16 — 10 jaar bewaring)
+# De drie REVIA-issues uit leerstuk 2 (rechtszaak ROCHE-Gent · voorraad
+# cleanroom · lage confirmaties-respons) krijgen hier hun oordeel-uitkomst.
+# Beslismatrix materieel × diepgaand × type-probleem is het pedagogisch hart.
+
+meta:
+  slug: afronden-en-rapporteren-van-een-audit
+  titel: "Afronden en rapporteren van een audit"
+  po: "1.6"
+  cluster: externe-controle
+  voorbeeldgroep: revia-vlaanderen
+  beschrijving: >
+    Leerstuk PO 1.6 — proces 2 (eindproduct). Hoe rondt de commissaris
+    zijn audit af, welk oordeel formuleert hij in de controleverklaring,
+    en hoe maakt hij de keuze tussen goedkeurend, met voorbehoud,
+    afkeurend of onthoudend? Drie blokken — AFRONDING (ISA 450 evaluatie
+    afwijkingen + ISA 540 schattingen + ISA 560 gebeurtenissen na
+    balansdatum + ISA 570 continuïteit + ISA 580 LOR + ISA 720 jaarverslag)
+    · OORDEEL-TYPES (ISA 700 + 705 + 706 + ITAA-KMO §119 + §121) met
+    beslismatrix materieel × diepgaand · REVISIEDOSSIER (10 jaar
+    bewaring, Wet 7 december 2016 art. 16). De drie REVIA-issues krijgen
+    hun oordeel-uitkomst doorheen het hele leerstuk.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 1.6-overzicht.
+    Wijs erop dat dit leerstuk de audit-cyclus afsluit met de keuze die
+    derden ZIEN — de controleverklaring. Het pedagogisch hart is de
+    beslismatrix oordeel-types (materieel × diepgaand). Lees [[aanvaarden-
+    plannen-en-uitvoeren-van-een-audit]] eerst — de drie REVIA-issues
+    daar krijgen hier hun uitkomst. Belangrijk onderscheid voor het
+    examen: ONTHOUDING (geen informatie) ≠ AFKEUREND oordeel (verkeerde
+    informatie). Examen 2013-2 toetst dit rechtstreeks.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: de audit-afronding doorloopt zes ISA's (450 evaluatie afwijkingen · 540 schattingen · 560 gebeurtenissen na balansdatum · 570 continuïteit · 580 LOR + 720 jaarverslag), eindigt in een KEUZE tussen vier oordeel-types (goedkeurend · voorbehoud · afkeurend · onthouding — ISA 700 + 705 + 706 + ITAA-KMO §119/121) en sluit af met archivering van het revisiedossier voor 10 JAAR (Wet 7 december 2016 art. 16)."
+    - "De BESLISMATRIX oordeel-types staat op twee assen: AARD VAN HET PROBLEEM (afwijking = verkeerde informatie · scope-beperking = geen informatie) × DIEPGANG (niet-diepgaand = materieel maar geïsoleerd · diepgaand = materieel én pervasief). Vier cellen: afwijking-niet-diepgaand → voorbehoud · afwijking-diepgaand → afkeurend · scope-niet-diepgaand → voorbehoud · scope-diepgaand → onthouding."
+    - "Wat onderscheidt een goedkeurend van een gemodificeerd oordeel? DRIE filters: (1) zijn ALLE materiële afwijkingen gecorrigeerd door management? (2) hebben we VOLDOENDE en GESCHIKT audit-bewijs verzameld? (3) is er een ZEKERHEID OVER CONTINUÏTEIT? Alle drie ja → goedkeurend; één of meer nee → gemodificeerd (voorbehoud · afkeurend · onthouding); plus eventueel paragraaf BENADRUKKING (ISA 706) zonder modificatie wanneer een belangrijke onzekerheid bestaat maar de jaarrekening wel een getrouw beeld geeft."
+  visualisaties:
+    - type: mermaid
+      ref: beslismatrix_oordeel
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We doorlopen de zes afrondings-stappen → bouwen de beslismatrix → vergelijken met de drie REVIA-issues → eindigen met het revisiedossier dat 10 jaar bewaard moet worden. Op het einde kun je voor elke fout-scenario de juiste oordeel-keuze maken.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  # =========================================================================
+  # BLOK 1 — AFRONDING
+  # =========================================================================
+
+  - id: afronding
+    titel: "Afronding — zes stappen vóór het oordeel"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de afrondings-fase is GEEN administratieve afsluiting maar de FINALE controle dat het verzamelde audit-bewijs uit de uitvoeringsfase voldoende is om een oordeel te onderbouwen. Zes ISA's moeten aangepakt zijn — elk ondervangen een specifieke risico-categorie."
+    kinderen:
+
+      - id: evaluatie-afwijkingen
+        titel: "Stap 1 — Evaluatie van afwijkingen (ISA 450)"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: tijdens uitvoering werden afwijkingen gedetecteerd; tijdens afronding worden ze GEACCUMULEERD per bewering + geëvalueerd tegen materialiteit."
+          - "Drie categorieën afwijkingen (ISA 450 §4-8): (a) FEITELIJKE afwijkingen — onmiskenbaar misrekening of misinterpretatie (bv. een berekenfout in afschrijvingen); (b) AFGELEIDE afwijkingen — uit steekproef geprojecteerd naar populatie (bv. fout in 3/20 voorraad-items → extrapoleer); (c) BEOORDELINGS-afwijkingen — verschillen tussen audit-schatting en management-schatting (bv. voorraad-waardering 220k vs 600k)."
+          - "Voor REVIA — accumulatie op slot van uitvoering: (1) rechtszaak ROCHE-Gent met advocaat-respons 'waarschijnlijk, raming 800k' → BEOORDELINGS-afwijking 800k (voorziening niet geboekt); (2) voorraad cleanroom → BEOORDELINGS-afwijking 380k (waardevermindering niet geboekt); (3) confirmaties: alternatieve werkzaamheden hebben 90 % gedekt, residueel 600k = SCOPE-BEPERKING (geen afwijking, maar gebrek aan bewijs). Geacumuleerde bekende afwijking: 800k + 380k = 1.180k versus overall materialiteit 210k → MATERIEEL."
+          - "Wat doet de auditor met geaccumuleerde afwijkingen? ISA 450 §8-9: meedelen aan management + vragen om correctie. Wanneer management WEIGERT correctie: de auditor moet vaststellen of de niet-gecorrigeerde afwijkingen, AFZONDERLIJK OF GEZAMENLIJK, materieel zijn. Voor REVIA: 1,18 mln >> 210k materialiteit → ongetwijfeld materieel → modificatie van het oordeel nodig."
+
+      - id: schattingen
+        titel: "Stap 2 — Schattingen (ISA 540 herzien)"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: een schatting is een POST waarvan de waarde inherent onzeker is — voorzieningen voor risico's en kosten, waardeverminderingen op voorraad, afschrijvingstijd machines, terugnemings-koop voor klantvorderingen. Voor REVIA: de twee significante issues (rechtszaak + voorraad-veroudering) zijn schattingen."
+          - "ISA 540 herzien vraagt de auditor: (a) WAARDERINGSMETHODE evalueren (consistent met vorige jaren?); (b) de SCHATTINGSHYPOTHESEN beoordelen op redelijkheid; (c) eventueel een ONAFHANKELIJKE SCHATTING uitvoeren ter vergelijking; (d) de PRESENTATIE + TOELICHTING in de jaarrekening evalueren."
+          - "Voor REVIA — schattingsevaluatie voor de voorraad cleanroom: management-schatting boekwaarde 600k zonder waardevermindering. Audit-schatting NRW = 220k op basis van pipeline + marktinfo. Verschil 380k = beoordelings-afwijking. Indien management WEL onderbouwende bewijzen had aangereikt voor een hogere NRW (langlopende contracten · nieuwe orders), kon de auditor de schatting bijstellen."
+
+      - id: gebeurtenissen-na-balansdatum
+        titel: "Stap 3 — Gebeurtenissen na balansdatum (ISA 560)"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: de auditor stopt zijn werk op de DATUM VAN HET CONTROLEVERSLAG (vaak maart of april na het boekjaar) — niet op 31 december. Twee soorten gebeurtenissen tussen balansdatum en verslagdatum: (a) AANPASSENDE gebeurtenissen die nieuwe informatie geven over een feit dat al op 31/12 bestond → cijfers AANPASSEN; (b) NIET-AANPASSENDE gebeurtenissen die op een nieuwe situatie wijzen → TOELICHTING wanneer materieel."
+          - "Voor REVIA — gebeurtenissen na 31/12/2024 tot verslagdatum maart 2025: (a) lawyer's letter ontvangen in februari 2025 met evaluatie 'waarschijnlijk veroordeling 800k' → AANPASSENDE gebeurtenis (de rechtszaak liep al op 31/12); cijfers moeten aangepast (voorziening 800k geboekt). (b) een grote brand bij REVIA Polska in april 2025 met productiestop → NIET-AANPASSENDE gebeurtenis (nieuwe situatie); voldoende materieel → toelichting verplicht."
+
+      - id: continuiteit
+        titel: "Stap 4 — Continuïteit (ISA 570)"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: de jaarrekening wordt opgesteld in de veronderstelling van GOING CONCERN (voortzetting van de activiteit, KB WVV art. 3:6 §1). ISA 570 vraagt de auditor: (a) management's beoordeling van going-concern evalueren over minstens 12 maanden vanaf balansdatum; (b) onafhankelijk RISICOFACTOREN identificeren; (c) afhankelijk van de uitkomst → goedkeurend OF aparte SECTIE 'onzekerheid van materieel belang m.b.t. continuïteit' in het verslag."
+          - "Voor REVIA — going-concern beoordeling 2024: winstgevend (4,2 mln resultaat voor belastingen) · positieve operationele cash-flow · BNP-lening 12 mln met covenanten netto-financiële-schuld / EBITDA < 3,5 (REVIA staat op 2,1) · geen aanhoudende verliezen · geen schulden in achterstand. Toets aansprakelijkheids-bel WVV art. 7:228-7:229 (NV-equivalenten van de oude alarmbel-procedure): netto-actief 22 mln versus kapitaal + onbeschikbare reserves ~7 mln → geen alarm. → going-concern volstaat."
+          - "Doorklik: continuïteits-signalen + ratio's + financiële diagnose leven in PO 1.9 [[continuiteit-en-faillissementspredictie]]. Hier in PO 1.6: alleen de AUDIT-IMPLICATIE — wanneer hoort een onzekerheid in de controleverklaring (aparte sectie ISA 570 §22)?"
+
+      - id: lor-jaarverslag
+        titel: "Stap 5 — Letter of Representation (ISA 580) + jaarverslag (ISA 720)"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: bij afsluiting vraagt de auditor management om in een formele brief (Letter of Representation, ISA 580 §10) te BEVESTIGEN dat: (a) management de verantwoordelijkheid voor de jaarrekening accepteert; (b) alle bekende rechtszaken en claims zijn meegedeeld; (c) alle verbonden-partijen-transacties zijn meegedeeld; (d) alle gebeurtenissen na balansdatum zijn meegedeeld."
+          - "JAARVERSLAG (bestuursverslag) — ISA 720 vraagt de auditor om OVEREENSTEMMING met de jaarrekening te beoordelen. Niet een audit van het jaarverslag (geen oordeel ERROVER), maar wel een CONSISTENTIE-CHECK. Wanneer materiële INCONSISTENTIES → mededeling aan management; wanneer niet gecorrigeerd → aparte vermelding in controleverklaring."
+          - "Voor REVIA — bestuursverslag mentioneert: (a) hangende rechtszaak ROCHE-Gent (consistent met toelichting jaarrekening); (b) overname-plannen 2025 vermelden (vooruitkijkende informatie — auditor checkt consistentie met budget). LOR ondertekend door CEO Wouter Verbeke + CFO Eva Vermeulen — bevestigt o.a. hangende rechtszaak + verbonden-partijen-transactie (inbreng-in-natura Hubert Verbeke is gepland voor 2025)."
+
+      - id: slot-review
+        titel: "Stap 6 — Slot-cijferanalyses + opdracht-review"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: vóór ondertekening voert de opdrachtpartner een SLOT-REVIEW op de hele audit uit (ISA 220 §31 + §36). Twee componenten: (a) cijferanalyses op de jaarrekening als geheel (ISA 520 §6) — kloppen de relaties tussen cijfers? — laatste check op onontdekte materiële afwijkingen; (b) review of de geaccumuleerde bevindingen samen met de uitgevoerde procedures een coherente basis vormen voor het oordeel."
+          - "Voor OOB-entiteiten (organisaties van openbaar belang) + voor complexe niet-OOB op vraag van het kantoor: een ENGAGEMENT QUALITY REVIEW door een onafhankelijke partner (ISQM 2). Voor REVIA niet-OOB: niet verplicht; BV Audit & Controle voert toch een EQR uit wegens de drie significante issues (best practice). Doorklik: ISQM 1/2 + ISA 220 op kantoor-niveau leven uitgewerkt in [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]."
+
+  # =========================================================================
+  # BLOK 2 — OORDEEL-TYPES + CONTROLEVERKLARING
+  # =========================================================================
+
+  - id: oordeel-types
+    titel: "Oordeel-types — de beslismatrix"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: na afronding kiest de auditor zijn OORDEEL — vier mogelijkheden (ISA 700 + ISA 705). De keuze wordt GESTUURD door twee assen: (a) AARD van het probleem (afwijking vs scope-beperking); (b) DIEPGANG van het probleem (niet-diepgaand vs diepgaand). De beslismatrix vermenigvuldigt: 2 × 2 = 4 cellen + één 'alles goed'-uitkomst."
+    kinderen:
+
+      - id: vier-oordeel-types
+        titel: "Vier oordeel-types"
+        niveau: 3
+        beats:
+          - "Open met de definities — strikt onderscheid van naam + voorwaarden."
+          - "GOEDKEUREND OORDEEL (unmodified opinion — ISA 700) — alles in orde: voldoende en geschikt bewijs verkregen + geen materiële afwijkingen. Formulering: 'de jaarrekening geeft een getrouw beeld van het vermogen, de financiële toestand en het resultaat'. Positief gesteld."
+          - "OORDEEL MET VOORBEHOUD (qualified opinion — ISA 705 §7) — er is iets, maar het is NIET DIEPGAAND. Twee subgroepen: (a) afwijking-met-voorbehoud: 'except for the effects of ...' (specifieke fout geïsoleerd vermeld); (b) scope-met-voorbehoud: 'except for the possible effects of ...' (specifieke onzekerheid geïsoleerd vermeld). De jaarrekening is in zijn geheel nog WEL getrouw."
+          - "AFKEUREND OORDEEL (adverse opinion — ISA 705 §8) — diepgaand-materiële AFWIJKING. De jaarrekening geeft GEEN getrouw beeld. Pervasief = het effect doordringt zoveel rekeningen of toelichtingen dat een 'except for' niet meer werkt. Zeldzaam in praktijk maar examen-relevant."
+          - "ONTHOUDENDE VERKLARING / OORDEELONTHOUDING (disclaimer of opinion — ISA 705 §9-10 + ITAA-KMO §121) — diepgaand-materiële SCOPE-BEPERKING. De auditor kon GEEN voldoende en geschikt bewijs verkrijgen — hij weigert een oordeel uit te brengen. Examen-strikvraag: 'wat antwoordt de auditor wanneer hij geen lawyer's letter krijgt?' — onthouding (geen informatie), niet afkeurend (verkeerde informatie)."
+          - "Belangrijke nuance (blockquote-aside): de ITAA-KMO-controlenorm gebruikt voor §119 (voorbehoud) en §121 (oordeelonthouding) Belgische bewoordingen die nauw aansluiten op ISA 705 — voor het examen volstaat doorgaans de ISA-terminologie, maar bij vragen die expliciet ITAA-KMO citeren: gebruik de paragraaf-nummering uit die norm."
+
+      - id: matrix-uitgewerkt
+        titel: "De beslismatrix — twee assen × vier cellen"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: de beslismatrix is HET kernhulpmiddel van leerstuk 3. Twee filters: AARD probleem + DIEPGANG."
+          - "Filter 1 — AARD probleem: (a) AFWIJKING = de jaarrekening BEVAT verkeerde informatie (fout, te lage voorziening, foute waardering). Auditor heeft bewijs van de fout en kent het bedrag; management corrigeert niet. (b) SCOPE-BEPERKING = de jaarrekening BEVAT POTENTIEEL fout zonder dat auditor kan vaststellen (geen bewijs verkrijgbaar). Auditor weet niet of er een fout is."
+          - "Filter 2 — DIEPGANG (ISA 705 §A1-A2): (a) NIET-DIEPGAAND (geïsoleerd) = effect blijft beperkt tot specifieke transacties, rekeningen of toelichtingen. Het zit niet over heel de jaarrekening verspreid; de rest geeft nog een getrouw beeld. (b) DIEPGAAND (pervasief) = effect dringt door alle of bijna alle elementen van de jaarrekening, OF tegen de fundamentele waarden van de gebruiker."
+          - "Matrix-uitkomst: AFWIJKING × NIET-DIEPGAAND → voorbehoud · AFWIJKING × DIEPGAAND → afkeurend · SCOPE × NIET-DIEPGAAND → voorbehoud · SCOPE × DIEPGAAND → onthouding."
+          - "Concretiseer met REVIA — toepassing op de drie issues: (1) RECHTSZAAK ROCHE-Gent — afwijking 800k > materialiteit 210k, NIET diepgaand (geïsoleerd tot één voorziening) → VOORBEHOUD (afwijking-niet-diepgaand) indien management weigert correctie. INDIEN management bovendien weigerde lawyer's letter te laten sturen: scope-beperking, eventueel DIEPGAAND (auditor kan eigenheid en omvang van mogelijke claim niet beoordelen) → ONTHOUDING. (2) VOORRAAD cleanroom — afwijking 380k > materialiteit, NIET diepgaand → VOORBEHOUD indien management weigert correctie. (3) CONFIRMATIES — alternatieve werkzaamheden falen voor 1 klant 600k > materialiteit → scope-beperking NIET diepgaand → VOORBEHOUD."
+          - "Belangrijke nuance — STAPELING van issues. Wanneer ÉÉN issue niet-diepgaand is maar drie issues samen toch een diepgaand effect bereiken, kan het oordeel kantelen van voorbehoud naar afkeurend. Voor REVIA met geaccumuleerde afwijkingen 1,18 mln versus materialiteit 210k: GEEN diepgaand effect want elke afwijking is geïsoleerd tot één specifieke rekening (voorziening + voorraad). Slot-oordeel zou meervoudig VOORBEHOUD zijn — niet afkeurend."
+        visualisaties:
+          - type: mermaid
+            ref: beslismatrix_oordeel
+            bron: voorbeeldgroep
+
+      - id: paragraaf-benadrukking
+        titel: "Paragraaf 'benadrukking van aangelegenheden' (ISA 706)"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: NIET ELKE AANDACHTSWAARDIGE GEBEURTENIS leidt tot modificatie van het oordeel. ISA 706 maakt een aparte paragraaf 'benadrukking van een aangelegenheid' (emphasis of matter) mogelijk — ZONDER het oordeel zelf te veranderen — wanneer een zaak fundamenteel is voor het begrip van gebruikers."
+          - "Voorbeelden waar 706-paragraaf past zonder modificatie: (a) onzekerheid van materieel belang m.b.t. continuïteit (ISA 570 §22) — gepast meegedeeld in toelichting, maar belangrijk genoeg om in verslag te benadrukken; (b) brand bij REVIA Polska na balansdatum met productiestop — TOELICHTING staat correct in jaarrekening, maar voor de gebruiker fundamenteel; (c) onzekerheid rond een hangende rechtszaak waarvan toelichting voldoende is."
+          - "Twee TYPES paragrafen: (a) 'Emphasis of Matter' (EOM) voor zaken WEL toegelicht in jaarrekening die benadrukt moeten worden; (b) 'Other Matter' voor zaken NIET in jaarrekening die toch belangrijk zijn (bv. opvolgings-mandaat van vorige commissaris)."
+
+      - id: opbouw-controleverklaring
+        titel: "Opbouw van de controleverklaring"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: de controleverklaring volgt een VASTE STRUCTUUR — ISA 700 §20-49 + ITAA-KMO-controlenorm modelverslagen. Bedoeld voor derden — duidelijk leesbaar, niet voor specialisten."
+          - "Vaste secties: (a) TITEL ('Controleverklaring van de onafhankelijke commissaris'); (b) ONTVANGER ('Aan de algemene vergadering van NV REVIA Vlaanderen'); (c) OORDEEL — kop met conclusie eerst; (d) BASIS VOOR OORDEEL — kort overzicht audit-aanpak + onafhankelijkheids-bevestiging; (e) KERN-AUDIT-AANGELEGENHEDEN (Key Audit Matters — KAM) — VERPLICHT voor beursgenoteerd, OPTIONEEL voor niet-OOB. Voor REVIA: niet verplicht maar kantoor kan ze opnemen; (f) ANDERE INFORMATIE (jaarverslag — ISA 720); (g) VERANTWOORDELIJKHEDEN management + governance; (h) VERANTWOORDELIJKHEDEN auditor; (i) ANDERE WETTELIJKE EN REGELGEVENDE VEREISTEN — voor België: bevestigen dat het jaarverslag overeenstemt met jaarrekening + dat boekhouding overeenstemt met BBA + dat bestuursorgaan geen overtredingen WVV begaat (WVV art. 3:75 vermeldingen-plicht); (j) HANDTEKENING van COMMISSARIS (natuurlijke persoon) + zetel; (k) DATUM van het verslag (na datum jaarrekening en LOR)."
+          - "Belangrijke nuance — HANDTEKENING is PERSOONLIJK door de bedrijfsrevisor-natuurlijke persoon (vertegenwoordiger van het revisorenkantoor) — NIET delegeerbaar (art. 16 KB plichtenleer accountants voor accountants-mandaten heeft analoge regel; voor commissarisverslag geldt analoge wettelijke regel)."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Sectie verslag", "Inhoud", "Verplicht?"]
+            rijen:
+              - ["**Titel**", "'Controleverklaring van de onafhankelijke commissaris'", "Ja"]
+              - ["**Ontvanger**", "Algemene Vergadering of bestuursorgaan", "Ja"]
+              - ["**Oordeel**", "Conclusie eerst — goedkeurend / voorbehoud / afkeurend / onthouding", "Ja"]
+              - ["**Basis voor oordeel**", "Korte uitleg audit-aanpak + onafhankelijkheids-bevestiging", "Ja"]
+              - ["**Kern-audit-aangelegenheden (KAM)**", "Belangrijkste audit-thema's + hoe behandeld", "Ja voor OOB; optioneel voor niet-OOB"]
+              - ["**Onzekerheid m.b.t. continuïteit**", "Aparte sectie ISA 570 §22 bij going-concern-issue", "Wanneer relevant"]
+              - ["**Andere informatie (jaarverslag)**", "Consistentie-check met jaarrekening (ISA 720)", "Ja"]
+              - ["**Verantwoordelijkheden management + governance**", "Standaardtekst — accountancy + IC + voorbereiding jaarrekening", "Ja"]
+              - ["**Verantwoordelijkheden auditor**", "Standaardtekst — ISA-naleving + voldoende en geschikt bewijs", "Ja"]
+              - ["**Andere wettelijke vereisten (België)**", "WVV art. 3:75 — vermeldingen-plicht (bestuursverslag-consistentie · boekhouding · overtredingen WVV)", "Ja"]
+              - ["**Handtekening commissaris**", "Persoonlijke handtekening bedrijfsrevisor-natuurlijke persoon", "Ja"]
+              - ["**Datum**", "Na datum jaarrekening + LOR", "Ja"]
+
+  # =========================================================================
+  # BLOK 3 — REVISIEDOSSIER
+  # =========================================================================
+
+  - id: revisiedossier
+    titel: "Revisiedossier — 10 jaar bewaring"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: ALLES wat de auditor heeft gedaan moet bewaard worden — niet alleen voor toekomstige cliënt-vragen, maar voor TUCHTSPOOR + AANSPRAKELIJKHEID + PEER REVIEW (kwaliteitstoetsing IBR). ISA 230 vraagt VOLDOENDE documentatie zodat een ervaren auditor die niet bij de opdracht betrokken was, de uitgevoerde werkzaamheden + de bereikte conclusies kan begrijpen."
+      - "Drie soorten documenten: (a) PERMANENT DOSSIER — dossier dat van jaar tot jaar bestaat: statuten + bestuurssamenstelling + overzicht verbonden partijen + IC-beschrijving + kantoor-overeenkomsten. (b) DOSSIER BOEKJAAR — werkdocumenten van het specifieke audit-jaar: jaarrekening + LOR + lawyer's letters + werkprogramma + bevindingen + materialiteit-blad + audit-strategie + correspondentie. (c) WERKDOCUMENTEN — concrete testen + checklists + steekproef-resultaten + cijferanalyses."
+      - "BEWARINGSTERMIJN: 10 JAAR (Wet 7 december 2016 art. 16 — bedrijfsrevisoren; analoog voor gecertificeerd accountants Wet ITAA + KB). Vertrekt vanaf de DATUM VAN HET CONTROLEVERSLAG. Voor REVIA 2024-verslag in maart 2025: revisiedossier bewaard tot minstens maart 2035."
+      - "Wat moet ZEKER in het revisiedossier? (ITAA-norm omzetting II.3 + AWW-norm bevatten lijsten verplichte stukken voor bijzondere wettelijke opdrachten). Voor een audit: opdrachtbrief + onafhankelijkheids-toets + materialiteits-blad + risico-inschatting + werkprogramma per cyclus + steekproef-resultaten + analytische werkzaamheden + LOR + lawyer's letters + bank confirmations + voorraadtelling-protocol + jaarrekening + jaarverslag + controleverklaring + slot-review-aantekeningen + EQR-resultaat (indien)."
+      - "Examen-strikvraag (2013-1): TERMIJN voor toezending van het controleverslag van een bijzonder mandaat naar de ITAA = 1 maand (ITAA-richtlijn). Het revisiedossier zelf wordt niet doorgestuurd; alleen ter beschikking voor kwaliteitstoetsing + tucht."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (warning): ONTHOUDING en AFKEUREND oordeel door elkaar halen. FOUT — ze hebben verschillende oorzaken en verschillende formuleringen. Onthouding = GEEN INFORMATIE (scope-beperking diepgaand — auditor weigert oordeel); afkeurend = VERKEERDE INFORMATIE (afwijking diepgaand — jaarrekening geeft GEEN getrouw beeld). Examen-klassieker 2013-2: 'wanneer onthouding?' → toets de ITAA-KMO §121-tekst over 'niet in staat zijn voldoende en geschikte assurance-informatie te verkrijgen'."
+      - "Valkuil 2 (warning): denken dat materieel = diepgaand. FOUT — twee verschillende drempels. MATERIEEL betekent: groter dan de overall materialiteit (210k voor REVIA) — auditor moet erop reageren. DIEPGAAND (pervasive) betekent: het effect strekt zich uit over alle of bijna alle rekeningen of toelichtingen, of beïnvloedt fundamentele waarden — auditor kan geen 'except for' meer plakken. Een afwijking van 800k op één voorziening is materieel maar niet-diepgaand → voorbehoud, niet afkeurend."
+      - "Valkuil 3 (warning): denken dat een paragraaf 'benadrukking' (ISA 706) gelijkstaat met een modificatie van het oordeel. FOUT — een benadrukkings-paragraaf laat het OORDEEL ONGEMOEID. Het oordeel blijft goedkeurend (of wat het ook is). De paragraaf vestigt enkel de aandacht van de lezer op een zaak die de auditor fundamenteel acht voor het begrip. Bv. continuïteits-onzekerheid die toegelicht is — oordeel goedkeurend + emphasis-paragraaf."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+      hint: "Vergelijking met het bijzonder-mandaat-spoor — daar geen controleverklaring met getrouw beeld, maar modelverslag met conclusie 'nettoactief niet overgewaardeerd'. Beperkte zekerheid in plaats van redelijke. Examenzwaartepunt nummer één in PO 1.6."
+    - slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+      hint: "Voor ISQM 1/2 + EQR bij slot-review en voor onafhankelijkheidstoets bij ondertekening. Kantoor-niveau en opdracht-niveau apart."
+    - slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+      hint: "Lees terug indien onzeker over hoe materialiteit + risico-inschatting + procedures de bevindingen produceren die hier in oordeel-keuze komen."
+    - slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+      hint: "Voor het kader — opdracht-types + commissaris-statuut. Lees terug voor de plaats van de controleverklaring in de hele attesterings-architectuur."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — beslismatrix oordeel-types + controleverklaring-opbouw + revisiedossier 10 jaar op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [controleverklaring, audit-afronding, revisiedossier]
+    - concepten: [continuiteit, auditcomite, kwaliteitsmanagement-opdracht]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Evaluatie van afwijkingen"
+    ref: "ISA 450 §4-9"
+    noot: "Drie categorieën (feitelijke + afgeleide + beoordelings); accumulatie + evaluatie tegen materialiteit."
+  - onderwerp: "Schattingen"
+    ref: "ISA 540 (herzien)"
+    noot: "Schatting-evaluatie + onafhankelijke schatting + presentatie + toelichting. Verifieerd via MCP."
+  - onderwerp: "Gebeurtenissen na balansdatum"
+    ref: "ISA 560"
+    noot: "Aanpassende vs niet-aanpassende gebeurtenissen tussen balansdatum en verslagdatum."
+  - onderwerp: "Continuïteit"
+    ref: "ISA 570 §22 + KB WVV art. 3:6 §1"
+    noot: "Going concern als waarderingsbasis; aparte sectie 'onzekerheid van materieel belang m.b.t. continuïteit' wanneer relevant."
+  - onderwerp: "Letter of Representation"
+    ref: "ISA 580 §10"
+    noot: "Schriftelijke bevestiging management — verantwoordelijkheid + volledigheid mededelingen."
+  - onderwerp: "Andere informatie (jaarverslag)"
+    ref: "ISA 720"
+    noot: "Consistentie-check met jaarrekening; aparte vermelding in verslag bij niet-gecorrigeerde inconsistentie."
+  - onderwerp: "Oordeel goedkeurend"
+    ref: "ISA 700 (herzien) §20-49"
+    noot: "Modelverslag + verplichte secties + ITAA-KMO-controlenorm voor Belgische toepassing. Verifieerd via MCP."
+  - onderwerp: "Modificaties van het oordeel"
+    ref: "ISA 705 (herzien) §7-10"
+    noot: "Voorbehoud §7 · afkeurend §8 · onthouding §9-10. ITAA-KMO §119 (voorbehoud) + §121 (oordeelonthouding) als Belgische bewoordingen. Verifieerd via MCP."
+  - onderwerp: "Paragraaf benadrukking + andere aangelegenheden"
+    ref: "ISA 706 (herzien)"
+    noot: "Emphasis of Matter + Other Matter — zonder modificatie van oordeel."
+  - onderwerp: "Documentatie"
+    ref: "ISA 230 + ISA 220 (herzien) §31 + §36"
+    noot: "Voldoende documentatie zodat ervaren niet-betrokken auditor werkzaamheden + conclusies kan begrijpen; slot-review + EQR."
+  - onderwerp: "Bewaring revisiedossier — 10 jaar"
+    ref: "Wet 7 december 2016 (bedrijfsrevisoren) art. 16 · Wet 17 maart 2019 (ITAA) + KB"
+    noot: "Vertrekt vanaf datum controleverslag."
+  - onderwerp: "Vermeldingen-plicht commissaris België"
+    ref: "WVV art. 3:75"
+    noot: "Bestuursverslag-consistentie + boekhouding overeenstemt met BBA + overtredingen WVV."
+
+footer: "Leerstuk PO 1.6 — proces 2 (afronding + verslag). Status: voorgesteld — ADR-037."

@@ -1,0 +1,360 @@
+# Oefening-script — NV REVIA Vlaanderen: integrale audit-doorloop
+#
+# Oefening voor PO 1.6 (externe controle). Scoped multi-vraag-dossier op één
+# doorlopende cliënt-case (NV REVIA Vlaanderen — controleplichtige farma-
+# precisieproducent, boekjaar 2024). Vijf onafhankelijke deelvragen die de
+# audit-cyclus integraal doorlopen — aanvaarding → planning → uitvoering →
+# afronding/oordeel → parallel bijzonder mandaat — en samen de vijf
+# leerstukken van het PO activeren:
+#   - Document 1 → L1 (opdracht-types + onafhankelijkheid bij aanvaarding) + L5 (bedreigingen-kader)
+#   - Document 2 → L2 (planning + materialiteit + risico-inschatting ISA 315)
+#   - Document 3 → L2 (uitvoering — 7 procedures: lawyer's letter / schattingen / alternatieve werkzaamheden)
+#   - Document 4 → L3 (afronding + beslismatrix oordeel-types + controleverklaring)
+#   - Document 5 → L4 (bijzondere wettelijke verslagen — inbreng in natura) + L5 (self-review-bedreiging)
+#
+# Bewuste keuze voor scoped (analoog aan PO 2.5 De Vlieg & Partners): het
+# examen toetst audit-cyclus en bijzondere mandaten als case-stukjes — een
+# echte commissaris-junior schrijft een notitie aan de partner per fase, niet
+# één doorlopend rapport. Vijf scoped vragen op één dossier-context laat de
+# stagiair de cyclus-keten zien én oefent het examen-format.
+#
+# Stagiair-rol: junior auditor in het commissaris-team van BV Audit & Controle
+# Bedrijfsrevisoren, schrijft per document een **notitie aan partner Dewulf**.
+#
+# Drie pijlers (oefening-procedure):
+#   1. Geen hints in opgave-tekst — cijfers van de uitkomsten (800k veroordeling,
+#      380k waardevermindering, 90 % confirmatie-dekking) verschijnen pas in
+#      document 4; de issue-feiten in document 3 tonen enkel het probleem.
+#   2. Realistische documenten — brief van zaakvoerder in briefvorm; interne
+#      notitie kantoor met datum + kop; bevindingenblad junior met kolommen;
+#      opdrachtbrief mandaat met partijen + procedure.
+#   3. Niet-voorkauwende instructie-beats — student moet zelf de IESBA-bedreiging
+#      ("self-review") herkennen, zelf de materialiteit-benchmark kiezen, zelf
+#      het oordeel-type afleiden uit de beslismatrix. Geen "voer ISA 505 §12
+#      uit"-instructies.
+
+meta:
+  slug: revia-audit-doorloop
+  titel: "Oefening: NV REVIA Vlaanderen — integrale audit-doorloop"
+  po: "1.6"
+  cluster: externe-controle
+  beschrijving: >
+    Scoped multi-document-dossier op één cliëntcontext: NV REVIA Vlaanderen,
+    controleplichtige farma-precisieproducent (Mechelen, omzet 62 mln,
+    280 medewerkers, balans 51 mln). Vijf onafhankelijke documenten volgen
+    de audit-cyclus — aanvaarding + onafhankelijkheid, planning +
+    materialiteit, uitvoering van drie audit-issues, afronding + oordeel,
+    parallel bijzonder mandaat (inbreng in natura) — en activeren samen de
+    vijf leerstukken van PO 1.6. Stagiair-rol: junior in commissaris-team
+    BV Audit & Controle, schrijft per document een notitie aan partner
+    Dewulf.
+  studietijd: "75 min"
+  niveau: scoped
+  explorer_title: "7. Oefening"
+
+intro:
+  callout_beat: >
+    Oefening-intro voor scoped multi-document-dossier. Aankondigen: dit zijn
+    vijf onafhankelijke documenten — examen-stijl — op één doorlopende
+    cliëntcase (NV REVIA Vlaanderen, boekjaar 2024). De documenten volgen
+    chronologisch de audit-cyclus maar zijn los oplosbaar — je kan ze in
+    elke volgorde maken. Stagiair-rol expliciet: je bent junior in het
+    commissaris-team van BV Audit & Controle Bedrijfsrevisoren en schrijft
+    voor elk document een korte notitie aan partner Dewulf. Expliciete
+    vermelding: "doe eerst zelf, klap pas open na je eigen antwoord — schrijf
+    de bedreigingen, de benchmark-keuze en het oordeel-type letterlijk uit,
+    niet uit het hoofd". Eindigend met motivatie: het examen toetst de
+    audit-cyclus als case-stukjes met praktische scenario's — deze oefening
+    laat zien dat de vijf leerstukken één keten vormen waarin elke fase
+    eigen ISA-procedures, eigen valkuilen en eigen partnerrapportage heeft.
+
+# ---------------------------------------------------------------------------
+# OPGAVE — gemeenschappelijke cliëntcontext + vijf documenten
+# ---------------------------------------------------------------------------
+
+opgave:
+
+  scenario_beats:
+    - "NV REVIA Vlaanderen is een familiale industrievennootschap in Mechelen (Industriezone Mechelen-Noord), opgericht 1987. Ze ontwerpt en produceert precisie-onderdelen voor de farmaceutische verpakkingsindustrie — vul- en sluitmachine-componenten, cleanroom-uitrusting, rvs-leidingstelsels. Aandelenstructuur: 70 % familie Verbeke (via Verbeke Holding NV — patriarch Hubert + twee zonen), 30 % institutionele participatie INVESTRA NV sinds 2018. Eén buitenlandse productie-dochter (REVIA Polska sp. z o.o. in Wrocław, 100 %) + één Duitse joint venture (REVIA-PHARMA GmbH, 50/50)."
+    - "Cijfers boekjaar 2024 (per 31/12/2024): omzet 62 mln EUR, balanstotaal 51 mln EUR, gemiddeld 280 medewerkers, resultaat vóór belastingen 4,2 mln EUR. Alle drie WVV-drempels overschreden → **controleplichtig**. Commissaris benoemd door AV juni 2023 voor mandaat boekjaren 2023-2025: BV Audit & Controle Bedrijfsrevisoren (vertegenwoordigd door bedrijfsrevisor M. Dewulf — partner). Niet beursgenoteerd, geen OOB. Geen auditcomité (niet wettelijk verplicht voor niet-OOB)."
+    - "Jij bent **junior auditor** in het commissaris-team van BV Audit & Controle. Partner Dewulf vraagt je voor vijf opeenvolgende dossierstukken telkens een korte interne notitie te schrijven — een notitie aan partner, niet aan de cliënt. Elke notitie beantwoordt drie scherpe vragen waarop de partner een ga/geen-ga-beslissing kan baseren."
+    - "Werkwijze: lees de gemeenschappelijke context en de vijf documenten hieronder. Elk document staat in zijn realistische vorm (brief, interne notitie, bevindingenblad, opdrachtbrief) met concrete data en bedragen. Werk elke notitie eerst zelf uit voor je de uitwerking opent. Reken op ca. 15 minuten per document — 75 minuten in totaal."
+
+  tabellen:
+
+    # Kerngegevens REVIA — voor materialiteit + risicobeoordeling. Geen advies-
+    # inkleuring; student kiest zelf benchmark in document 2.
+    kerngegevens-revia:
+      titel: "Kerngegevens NV REVIA Vlaanderen — boekjaar 2024"
+      kolommen: ["Element", "Bedrag / waarde"]
+      rijen:
+        - ["Omzet 2024 (excl. BTW)", "62.000.000 EUR"]
+        - ["Balanstotaal 31/12/2024", "51.000.000 EUR"]
+        - ["Resultaat vóór belastingen 2024", "4.200.000 EUR"]
+        - ["EBIT 2024", "5.800.000 EUR"]
+        - ["Gemiddeld personeelsbestand 2024", "280 voltijdsequivalenten"]
+        - ["Eigen vermogen 31/12/2024", "22.000.000 EUR (waarvan herwaarderingsmeerwaarde 2 mln)"]
+        - ["LT-schulden 31/12/2024", "18.000.000 EUR (BNP-lening 12 mln + obligaties 6 mln)"]
+        - ["Handelsvorderingen 31/12/2024", "11.000.000 EUR (vs 9,8 mln eind 2023 — +12 %)"]
+        - ["Voorraden 31/12/2024", "8.000.000 EUR (vs 7,2 mln eind 2023 — +11 %)"]
+        - ["Resultaat vóór belastingen 2023 (vergelijking)", "3.500.000 EUR (+20 % in 2024)"]
+        - ["Commissaris-mandaat", "BV Audit & Controle — boekjaren 2023-2024-2025 (3-jaars mandaat)"]
+        - ["Honorarium commissaris", "48.000 EUR / jaar"]
+        - ["Auditcomité?", "Nee — niet wettelijk verplicht (niet-OOB); RvB neemt taken collectief op"]
+
+  intro_noot_opgave: >
+    De vijf documenten hieronder zijn **onafhankelijk** — je hoeft de
+    antwoorden van eerdere documenten niet als vertrekpunt te nemen. Filter
+    per document zelf welke kerngegevens relevant zijn. **Tip**: noteer
+    voor elk document expliciet (i) welke ISA of welke ITAA-norm de
+    leidraad is, (ii) welke beslissing de partner moet nemen op basis
+    van jouw notitie. Vermijd vrije prose — een partner-notitie is kort,
+    gestructureerd en eindigt met een aanbeveling.
+
+# ---------------------------------------------------------------------------
+# STAPPEN — vijf scoped vragen, telkens instructie + oplossing in <details>
+# ---------------------------------------------------------------------------
+
+stappen:
+
+  - id: document-1-aanvaarding-onafhankelijkheid
+    titel: "Document 1 — Aanvaarding + onafhankelijkheid (15 min)"
+    instructie_beats:
+      - "Je opent het eerste dossierstuk: een **brief van zaakvoerder Wouter Verbeke** (CEO, gedelegeerd bestuurder REVIA) aan partner Dewulf, gedateerd 15 januari 2025 — bevestiging van het ingaan van het derde boekjaar onder het lopende commissaris-mandaat (2023-2025). De brief vraagt ook of het kantoor BV Audit & Controle een **opdracht tot fiscale optimalisatie van de transfer pricing-structuur** met REVIA Polska kan aanvaarden, "gezien jullie de groep grondig kennen". Hubert Verbeke (patriarch, voorzitter RvB) heeft daarover een gesprek met de partner gevraagd."
+      - "Daarnaast vind je een **interne notitie van Tom Janssens** (compliance officer kantoor) gedateerd 18 januari 2025 die meldt: het kantoor heeft sinds 2022 een **doorlopende fiscale adviesopdracht** met de Duitse joint venture REVIA-PHARMA GmbH (jaarlijks honorarium 22.000 EUR — VAT-advies + payroll-compliance), via een collega in de Brusselse vestiging. Deze opdracht loopt los van het commissaris-mandaat van REVIA Vlaanderen."
+      - "Beantwoord drie vragen voor partner Dewulf. **(a)** Welke bedreigingen voor de onafhankelijkheid identificeer je in dit dossier — zowel het nieuw gevraagde fiscale advies als de bestaande adviesrelatie met REVIA-PHARMA? Categoriseer ze en stel per bedreiging een safeguard voor (of motiveer dat geen safeguard volstaat). **(b)** Mag het kantoor voor het lopende boekjaar 2025 als commissaris aanblijven, en mag het de bijkomende transfer pricing-opdracht aanvaarden? Eén ja/nee/gedeeltelijk-antwoord met motivering. **(c)** Welke documenten moet de partner intern bewaren als bewijs van de aanvaardings- en voortzettingsbeoordeling — drie verplichte stukken minstens."
+      - "Werk in een gestructureerd antwoord met drie blokken (a / b / c). Eindig je notitie met één concrete aanbeveling waar de partner ja of nee op kan zeggen."
+    uitwerking_beats:
+      - "**(a) Bedreigingen identificeren.** Twee gescheiden situaties, drie bedreigingen in totaal. **Eerst de doorlopende fiscale adviesopdracht REVIA-PHARMA GmbH** (Duitse JV, 50 % van REVIA Vlaanderen). REVIA Vlaanderen consolideert REVIA-PHARMA volgens vermogensmutatie — de cijfers van de JV vloeien dus in de geconsolideerde jaarrekening die de commissaris controleert. Bedreiging type **zelf-toetsing (self-review)**: de fiscale adviezen die het kantoor aan REVIA-PHARMA verstrekt (VAT, payroll) zouden later kunnen leiden tot boekingen in REVIA-PHARMA die in de geconsolideerde controle door dezelfde groep moeten worden gevalideerd. Bedreiging type **eigenbelang (self-interest)**: het honorarium 22.000 EUR per jaar is bescheiden vergeleken met het commissaris-honorarium 48.000 EUR, maar het samenspel verhoogt de totale financiële afhankelijkheid van de cliëntgroep. **Vervolgens de nieuw gevraagde transfer pricing-opdracht** voor REVIA Vlaanderen ↔ REVIA Polska. Bedreiging type **zelf-toetsing** maar veel scherper: het kantoor zou eerst de transfer pricing-structuur **ontwerpen** (advies aan management) en die structuur later in de jaarrekeningcontrole **zelf moeten controleren** op marktconformiteit en correcte boekhoudkundige verwerking — een typisch verboden self-review-scenario op de directe controle-perimeter. Bedreiging type **belangenbehartiging (advocacy)** is hier minder duidelijk maar speelt latent: bij een latere fiscale betwisting door de Belgische of Poolse fiscus zou het kantoor zijn eigen advies moeten verdedigen."
+      - "**Safeguards.** Voor de bestaande REVIA-PHARMA-relatie: geen volledige beëindiging nodig, wél strikte scheiding tussen het PHARMA-fiscale team (Brusselse vestiging) en het commissaris-team. Specifieke safeguard: bij groep-audit-werkzaamheden over de JV-component een **andere reviewer** dan de partner van de fiscale opdracht; expliciete vermelding in het werkdossier van de doorlopende relatie. Voor de nieuw gevraagde transfer pricing-opdracht: **geen safeguard volstaat**. Een controleur die zijn eigen advies later moet beoordelen creëert een self-review-bedreiging die niet door interne organisatie verzacht wordt — de logica is dezelfde als bij andere verboden niet-controle-diensten voor controlecliënten (boekhouden van de cliënt, waardering van activa die in de jaarrekening verschijnen). Conclusie: **opdracht weigeren**."
+      - "**(b) Aanblijven als commissaris + bijkomende opdracht.** Commissaris-mandaat 2025 (laatste van drie boekjaren): **ja, voortzetten** — onafhankelijkheid is niet onomkeerbaar gecompromitteerd zolang de PHARMA-adviesopdracht onder bovenstaande safeguards loopt en duidelijk afgescheiden blijft. Bijkomende transfer pricing-opdracht: **nee — weigeren**. De self-review-bedreiging is hier substantieel en op de directe controle-perimeter; geen safeguard heft die op. Praktische formulering naar Hubert Verbeke: \"als jullie kantoor verkiezen we voor onafhankelijkheidsredenen het transfer pricing-werk niet zelf te doen; we verwijzen graag door naar een niet-conflicterend fiscaal kantoor — en blijven beschikbaar als sparring-partner binnen onze controle-rol\"."
+      - "**(c) Documentatie aanvaardings- en voortzettingsbeoordeling.** Drie stukken die in het permanent dossier of in het kantoor-systeem moeten zitten: (i) **Onafhankelijkheidsverklaring** van alle teamleden voor boekjaar 2025 (door partner én juniors ondertekend; bevestigt afwezigheid van directe of indirecte belangen in REVIA + verbonden entiteiten). (ii) **Cliënt-aanvaardings- en voortzettingsformulier** ingevuld voor REVIA-mandaat 2025 — inclusief bedreigingen-analyse en safeguards-beslissing zoals hierboven. (iii) **Schriftelijk antwoord** aan REVIA op het verzoek om transfer pricing-opdracht (weigering, gemotiveerd) — bewaard zodat een latere kwaliteitsbeoordeling of toezichtsbezoek kan reconstrueren waarom de opdracht niet aanvaard werd. Daarnaast: bevestiging van de doorlopende voorwaarden van het commissaris-mandaat (geen herziene opdrachtbrief vereist binnen lopend mandaat, wél jaarlijkse bevestiging van scope + condities) — geldt voor alle drie boekjaren."
+      - "**Aanbeveling notitie.** \"Commissaris-mandaat 2025 voortzetten onder verscherpte interne afspraken rond PHARMA-fiscaal werk; transfer pricing-opdracht weigeren wegens onaanvaardbare self-review-bedreiging; weigering schriftelijk meedelen aan Wouter Verbeke met aanbod alternatieve doorverwijzing.\""
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Bedreigingen + safeguards — REVIA-aanvaardingsdossier 2025"
+        kolommen: ["Situatie", "Bedreiging (IESBA-categorie)", "Safeguard / beslissing"]
+        rijen:
+          - ["Doorlopende fiscale advies REVIA-PHARMA GmbH (JV, 22k/jaar)", "Zelf-toetsing (op JV-component in geconsolideerd) + eigenbelang (cumulatief honorarium)", "Strikte scheiding fiscaal team ↔ commissaris-team + werkdossier-vermelding → voortzetten OK"]
+          - ["Gevraagde transfer pricing-opdracht REVIA Vlaanderen ↔ Polska", "Zelf-toetsing op directe controle-perimeter + latent advocacy", "Geen safeguard volstaat → **opdracht weigeren**"]
+          - ["Commissaris-mandaat boekjaar 2025 (laatste van drie)", "—", "Voortzetten onder bovenstaande afspraken"]
+          - ["Verplichte voor-aanvaardings-documenten", "—", "(i) Onafhankelijkheidsverklaring team · (ii) Cliënt-aanvaardings/voortzettings-formulier met bedreigingen-analyse · (iii) Schriftelijke weigering transfer pricing met motivatie"]
+    valkuil_beat: "Drie klassieke fouten op deze vraag. **Eén**: alle bedreigingen op één hoop gooien (\"er is een conflict\") zonder te categoriseren — de IESBA-categorieën (eigenbelang / zelf-toetsing / belangenbehartiging / vertrouwdheid / intimidatie) zijn geen academische opsmuk maar het kader dat bepaalt of een safeguard kan volstaan. **Twee**: aannemen dat alle niet-controle-diensten met de juiste \"Chinese muur\" oplosbaar zijn. Zodra een opdracht het kantoor in een positie brengt waar het zijn eigen werk later moet controleren op de directe controle-perimeter, is geen organisatorische safeguard voldoende — weigeren is dan het enige juiste antwoord. **Drie**: vergeten dat aanvaardings-documentatie verplicht is **vóór** het opdracht-werk start. Een partner die achteraf de onafhankelijkheidsverklaring laat ondertekenen heeft bij een ITAA- of IBR-kwaliteitstoezicht geen verdedigingslijn meer."
+
+  - id: document-2-planning-materialiteit
+    titel: "Document 2 — Planning + materialiteit (15 min)"
+    instructie_beats:
+      - "Tweede dossierstuk: partner Dewulf stuurt je de **samenvattende ontwerp-jaarrekening 2024** van REVIA (zie kerngegevens in de opgave-tabel) plus **bestuursinformatie** verzameld in de eerste planningsvergadering — verslag van een kennismaking met CEO Wouter Verbeke en financieel directeur Marleen Vandenberghe (onafhankelijk bestuurder met financieel profiel). Kernboodschappen uit die vergadering: (a) management beklemtoont \"degelijk jaar\", omzet +11 % en resultaat +20 % vs 2023; (b) één ex-klant (Roche-Gent) heeft sinds 2023 een rechtszaak lopen waarbij ze 1,2 mln EUR claimt voor een vermeende ontwerpfout aan een vul-installatie — bestuur classificeert dit als \"voorwaardelijke verplichting\" in toelichting, geen voorziening; (c) één cleanroom-productlijn (boekwaarde voorraad 600k EUR) verkoopt sinds 2023 sterk minder omdat de klant migreert naar nieuwere machinegeneraties; (d) REVIA Polska levert intra-groep aan moeder tegen \"cost plus 8 %\"-transfer pricing; (e) management heeft geen aanwijzingen van fraude vermeld."
+      - "Beantwoord drie vragen. **(a)** Bereken een gemotiveerde materialiteit + uitvoeringsmaterialiteit voor de audit 2024 — toon expliciet welke benchmark je kiest en welk percentage, met motivering vanuit de entiteit-omgeving. **(b)** Identificeer **drie significante risico's** op niveau beweringen (transacties / saldi / presentatie), zonder de vier ISA 315-werkzaamheden te beschrijven — focus op de **risico-stelling** en de **bewering** die het raakt. **(c)** REVIA heeft geen auditcomité. Welke gevolgen heeft dat voor (i) de governance-communicatie tijdens en na de audit, en (ii) de structuur van het werkdossier?"
+      - "Werk in drie blokken. Schrijf in (a) je benchmark-keuze expliciet uit met cijfers — niet \"materialiteit ongeveer 200k\"."
+    uitwerking_beats:
+      - "**(a) Materialiteit-berekening.** Vier mogelijke benchmarks tegen elkaar afwegen aan de hand van entiteit-profiel: REVIA is winstgevend, stabiele marge (~7 % EBIT), primaire gebruikers van de jaarrekening zijn banken (BNP-lening 12 mln + obligaties 6 mln) en de institutionele minderheidsaandeelhouder (INVESTRA — 30 %). Die gebruikers sturen op resultaatcijfers. Geen incidentele eenmalige items 2024. **Benchmark-keuze: resultaat vóór belastingen** — past natuurlijk bij een winstgevende industrievennootschap met stabiele resultaten en bankfinanciering. Alternatieven: omzet 0,5-1 % = 310k-620k (te hoog voor entiteit zonder bijzondere omzetvolatiliteit); totale activa 1-2 % = 510k-1.020k (alleen relevant als balans-omvang doorslaggevend is — niet hier); eigen vermogen 1-5 % = 220k-1.100k (alleen bij opstart of veranderende activiteit). **Overall materiality**: 5 % × resultaat vóór belastingen 4.200.000 EUR = **210.000 EUR**. Motivering 5 % (i.p.v. 10 %): drie audit-issues lopen die de risico-omgeving verhogen (rechtszaak + voorraad-veroudering + analytisch signaal handelsvorderingen + verbonden partijen). **Uitvoeringsmaterialiteit** (de werkdrempel voor steekproef-omvang + controle-procedures op individuele posten): typisch 50-75 % van overall, hier **75 % × 210.000 = 158.000 EUR** — net binnen de bovenkant van de gangbare bandbreedte want de afwijking-historiek bij REVIA is beperkt (drie boekjaren ervaring sinds 2023). **Drempel duidelijk kleine afwijkingen** (waaronder afwijkingen niet geaccumuleerd worden): ca. 5 % × overall = **10.000 EUR**. Schrijf deze drie cijfers letterlijk in het werkdossier — het examen toetst de **berekening** + **motivering benchmark-keuze**, niet alleen het eindbedrag."
+      - "**(b) Drie significante risico's op niveau beweringen.** Risico's articuleren **als concrete risico-stellingen** gekoppeld aan de juiste bewering-categorie. **Risico 1 — Volledigheid voorzieningen (saldi-bewering volledigheid).** Hangende rechtszaak Roche-Gent (claim 1,2 mln) zonder voorziening op balans. Risico-stelling: \"voorzieningen zijn onvolledig geboekt — een uitkeringsverplichting met materieel verlies wordt mogelijk verkeerd als toelichting-only behandeld terwijl een voorziening vereist zou zijn\". Materieel: een eventuele voorziening van enkele honderden duizenden EUR ligt boven de overall materiality 210k. **Risico 2 — Waardering voorraad cleanroom-productlijn (saldi-bewering waardering).** Boekwaarde 600k EUR voor een productlijn met aantoonbaar dalende afzet (klantmigratie naar nieuwere generatie). Risico-stelling: \"voorraad cleanroom-componenten is mogelijk overgewaardeerd door achterwege gebleven waardevermindering tot lower of cost or NRV\". Materieel: een waardevermindering van enkele honderden duizenden EUR boven overall. **Risico 3 — Toereikende presentatie verbonden partijen (presentatie-bewering volledigheid + juistheid).** REVIA Polska factureert intra-groep tegen \"cost plus 8 %\". Risico-stelling: \"transfer pricing-marge tussen REVIA Vlaanderen en REVIA Polska is mogelijk niet marktconform en/of de transactie wordt niet correct toegelicht als verbonden-partijen-transactie in de toelichting\". Materieel via mogelijke fiscale correctie + toelichting-conformiteit. **Geen significant risico**: het analytisch signaal handelsvorderingen +12 % (vs omzet +11 %) is in lijn met de groei, geen DSO-anomalie. Wél een aandachtspunt voor de uitvoeringsfase (confirmaties + alternatieve werkzaamheden) — maar niet significant in de ISA 315-zin."
+      - "**(c) Geen auditcomité — gevolgen.** Twee dimensies. **(i) Governance-communicatie.** De wet verplicht voor niet-OOB geen apart auditcomité; de Raad van Bestuur kan de auditcomité-taken collectief opnemen. Concreet gevolg: de planning-vergadering, de voortgangs-communicatie, het rapport over significante audit-vaststellingen + tekortkomingen interne beheersing + onafhankelijkheidsbevestiging gaan naar de **Raad van Bestuur als geheel** — niet naar een apart comité. Vereist iets meer agenda-coördinatie (RvB-vergaderingen zijn breder) maar verandert de inhoud van de communicatie niet. Schriftelijke verslagen (governance-letter) blijven verplicht. **(ii) Werkdossier-structuur.** Het werkdossier moet expliciet documenteren dat de auditor de **afwezigheid van een apart auditcomité** heeft vastgesteld en dat de governance-communicatie via de RvB verloopt — anders zou een latere kwaliteitscontrole vermoeden dat de communicatieplicht verzaakt werd. Concrete documenten: notulen planning-vergadering met RvB, schriftelijke bevestigingen van significante observaties, kopie van de governance-letter aan de RvB-secretaris. **Strategische opmerking voor partner**: ook al is er geen apart comité, het zou nuttig zijn om Marleen Vandenberghe (onafhankelijk bestuurder, financieel profiel) als **informeel aanspreekpunt** te identificeren voor de audit — niet om de RvB-communicatie te omzeilen, maar om een gespecialiseerd contact te hebben voor inhoudelijke vragen tussen formele RvB-vergaderingen door."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Materialiteit-berekening REVIA boekjaar 2024"
+        kolommen: ["Element", "Cijfer / motivering"]
+        rijen:
+          - ["Benchmark gekozen", "Resultaat vóór belastingen — passend bij winstgevende, stabiele entiteit met bank- en minderheidsaandeelhouder als hoofdgebruikers"]
+          - ["Resultaat vóór belastingen 2024", "4.200.000 EUR"]
+          - ["Percentage overall", "5 % (laagste in 5-10 %-bandbreedte wegens drie lopende audit-issues + verbonden-partijen-risico)"]
+          - ["Overall materiality", "**210.000 EUR**"]
+          - ["Uitvoeringsmaterialiteit (75 %)", "**158.000 EUR**"]
+          - ["Drempel duidelijk kleine afwijkingen (5 %)", "**10.000 EUR**"]
+          - ["Alternatief omzet 1 %", "620.000 EUR — afgewezen (te hoog, geen omzetvolatiliteit)"]
+          - ["Alternatief activa 1 %", "510.000 EUR — afgewezen (geen balans-gedreven entiteit)"]
+      - type: tabel-inline
+        titel: "Drie significante risico's op niveau beweringen"
+        kolommen: ["Risico-stelling", "Bewering-categorie + bewering", "Pedagogische context"]
+        rijen:
+          - ["Voorzieningen onvolledig geboekt — hangende rechtszaak Roche-Gent zonder voorziening", "Rekeningsaldi — volledigheid passiva", "Materieel-niveau ruim boven overall 210k mogelijk"]
+          - ["Voorraad cleanroom-productlijn mogelijk overgewaardeerd — geen waardevermindering tot lower of cost or NRV", "Rekeningsaldi — waardering activa", "Boekwaarde 600k; potentiële afwijking boven overall"]
+          - ["Verbonden-partijen-transacties Polska niet marktconform geprijsd en/of onvolledig toegelicht", "Presentatie + toelichtingen — volledigheid + juistheid", "Transfer pricing cost plus 8 % vereist marktconformiteits-onderbouwing"]
+    valkuil_beat: "Drie klassieke fouten. **Eén**: materialiteit \"bepalen door management\" of \"door AV\" — fout. Materialiteit is een **professional judgment van de auditor** zelf (niet door KB, niet door AV, niet door management vastgelegd). Een examen-MCQ test dit consequent. **Twee**: alleen één eindbedrag noemen zonder benchmark-keuze + percentage motivering. De rangorde van benchmark-kandidaten (omzet / activa / resultaat / eigen vermogen) en het waarom van het percentage zijn precies wat het examen toetst. **Drie**: een ISA 315-risico formuleren als algemene zorg (\"voorraad is risicovol\") in plaats van als specifieke risico-stelling gekoppeld aan een bewering (\"voorraad cleanroom is mogelijk overgewaardeerd — saldi-bewering waardering\"). Vier ISA 315-risico-inschattingswerkzaamheden (kennisverwerving + analytische cijfers + observatie + vragen aan management) hoorden niet in dit antwoord — het examen vraagt expliciet de risico's, niet de procedure die ze identificeert."
+
+  - id: document-3-uitvoering-drie-issues
+    titel: "Document 3 — Uitvoering: drie audit-issues (20 min)"
+    instructie_beats:
+      - "Derde dossierstuk: een **bevindingenblad van een junior collega** Lukas Maes, gedateerd 28 februari 2025, met de stand van drie audit-issues na de eerste uitvoeringsronde — vóór de aanvullende werkzaamheden. Geen conclusies, alleen feiten. Issue 1: hangende rechtszaak Roche-Gent over claim 1,2 mln EUR; management heeft geen voorziening geboekt en classificeert als voorwaardelijke verplichting in toelichting. Issue 2: cleanroom-productlijn klant X — voorraad-boekwaarde 600k EUR; afzet 2023-2024 daalt met 45 %; management argumenteert \"rotatie blijft binnen 18 maanden, geen waardevermindering nodig\". Issue 3: externe confirmaties handelsvorderingen — top-20 aangeschreven (dekking 78 % van saldo 11 mln); respons op vervaldatum slechts 65 % (8,6 mln aangeschreven, 5,6 mln bevestigd; 7 non-respondenten samen 3,0 mln). Voor elk issue is een korte feitelijke samenvatting opgenomen — geen oordeel of voorgenomen oplossing."
+      - "Beantwoord drie vragen — één per issue. Voor elk: **welke aanvullende werkzaamheden** voer je uit om voldoende en geschikt audit-bewijs te verzamelen? Maximum 4-5 concrete stappen per issue, in volgorde. Vermeld de **bewijswaarde-rangorde** waar relevant (externe bron > interne; auditor-gegenereerd > cliënt-gegenereerd). Vermijd het noemen van ISA-paragraafnummers in je antwoord-prose — partner Dewulf kent de normen, hij wil weten **wat** je doet en **waarom**."
+      - "Sluit elk issue af met één zin: welk **bewijs-aspect** wil je uiteindelijk hard hebben (bestaan / volledigheid / waardering / rechten en verplichtingen / presentatie)?"
+    uitwerking_beats:
+      - "**Issue 1 — Rechtszaak Roche-Gent (1,2 mln claim).** Aanpak: (1) **Lawyer's letter** (rechtstreekse externe confirmatie aan de raadsman van REVIA) — vraagt evaluatie waarschijnlijkheid uitkomst (waarschijnlijk / mogelijk / onwaarschijnlijk), raming financieel impact, tijdshorizon, en eventuele tussentijdse procedurele beslissingen. Brief opgesteld door management, ondertekend door bestuursorgaan, verzonden rechtstreeks door auditor naar advocaat met antwoord rechtstreeks aan auditor. Bewijswaarde: hoogste — externe bron, schriftelijk, onafhankelijk. (2) **Schriftelijke bevestiging management (LOR)** specifiek over deze rechtszaak — bevestigt dat alle hangende rechtsgedingen meegedeeld werden en dat de classificatie als voorwaardelijke verplichting volledig is. (3) **Inspectie dossiergeschiedenis**: contractuele documenten met Roche-Gent, technische rapporten over de gestelde ontwerpfout, eventuele expertise-bevindingen. (4) **Doorlezing van advocatenkosten 2024** in de grootboek (een onderschatte indirecte signaal: stijgende advocatenkosten in 2024 zijn een eigen rode vlag — vergelijken met 2023). (5) **Going-concern-implicatie**: claim 1,2 mln × waarschijnlijkheid is op zich geen continuïteitsbedreiging gezien EV 22 mln, maar wel waardevol om expliciet te documenteren. **Strategisch**: wat als management weigert de lawyer's letter te laten ondertekenen door bestuursorgaan? Dat is een **scope-beperking** met directe oordeel-implicaties (voorbehoud of onthouding afhankelijk van diepgang). **Bewijs-aspect**: volledigheid passiva (worden uitkeringsverplichtingen voor materieel-mogelijke verliezen correct als voorziening geboekt of correct als toelichting toegelicht?)."
+      - "**Issue 2 — Voorraad cleanroom (boekwaarde 600k).** Aanpak: (1) **Inspectie voorraadtelling** rond balansdatum — fysieke aanwezigheid bij telling 31/12/2024, observeer de procedures (functiescheiding telling vs administratie), eventueel tellen van een steekproef zelf opnieuw. (2) **Ouderdomslijst analyse**: hoeveel van de 600k zit langer dan 12 maanden in voorraad? langer dan 24 maanden? Welk percentage is geen turn-over meer? (3) **Externe benchmarking + interviews verkoop**: gesprekken met verkoophoofd over pipeline klant X, marktinfo over machinegeneratie-migratie, eventueel contacten met andere klanten in dezelfde sector om herbestemming van de componenten te toetsen. (4) **Schatting net realisable value** (NRV): wat brengt de voorraad realistisch op bij verkoop op secundaire markt of als gescrapt materiaal? Indien NRV bv. 220k EUR vs boekwaarde 600k → afwijking 380k > materialiteit 210k → materieel. (5) **Recalculatie kost** voor steekproef met FIFO-toepassing — controleert juistheid administratieve waardering los van de NRV-toets. Bewijswaarde: combinatie auditor-gegenereerd (inspectie + recalculatie) + externe corroboratie (markt-benchmarking) > louter management-argumentatie. **Strategisch**: als management weigert te corrigeren en geen onderbouwing levert van \"rotatie binnen 18 maanden\" → afwijking materieel-niet-diepgaand → kandidaat voor voorbehoud. **Bewijs-aspect**: waardering activa (zijn voorraden geboekt tegen lower of cost or NRV?)."
+      - "**Issue 3 — Confirmaties handelsvorderingen (65 % respons).** Eerst de strikvraag-trap vermijden: **lage respons is NIET automatisch een scope-beperking**. Pas wanneer de **alternatieve werkzaamheden** ook tekortschieten, ontstaat er een scope-beperking. Aanpak: (1) **Subsequent receipts-test** voor de 7 non-respondenten — controleer betalingen op de klantrekeningen ontvangen in januari-februari-maart 2025 die het balanssaldo dekken. Bewijswaarde hoog: bank-bewegingen zijn objectief geverifieerd. (2) **Inspectie verzendingsdocumenten + facturen + leveringsbonnen** voor non-respondenten zonder betaling na balansdatum. Voor elke openstaande vordering: factuur + verzendbewijs + ondertekende leveringsbon → bewijst bestaan van de transactie en de schuldoverdracht. (3) **Tweede confirmatie-ronde** voor de meest materiele non-respondenten — herzending met verkort responsdeadline; eventueel rechtstreeks telefonisch contact met de financieel verantwoordelijke van de klant. (4) **Analytische review** op DSO-evolutie + ouderdomslijst handelsvorderingen — vergelijking met 2023 + sectoriële benchmark farma-betaaltermijnen. (5) **Slot-evaluatie**: voor welk percentage van het saldo handelsvorderingen heb je nu hetzij confirmatie hetzij valide alternatief bewijs? Indien de combinatie 90 %+ van het saldo dekt en geen klant boven materialiteit 210k zonder onafhankelijke bevestiging blijft → bewering bestaan voldoende ondersteund, geen oordeel-impact. **Bewijs-aspect**: bestaan + rechten en verplichtingen (zijn de handelsvorderingen geboekt op de balans daadwerkelijk reële vorderingen op derden?)."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Drie audit-issues — aanvullende werkzaamheden samengevat"
+        kolommen: ["Issue", "Kern-procedure (hoogste bewijswaarde)", "Aanvullend", "Bewijs-aspect"]
+        rijen:
+          - ["1 — Rechtszaak Roche-Gent", "Lawyer's letter (externe bevestiging advocaat)", "LOR specifiek + dossier-inspectie + advocatenkosten-evolutie", "Volledigheid passiva (voorziening vs toelichting)"]
+          - ["2 — Voorraad cleanroom-lijn", "Voorraadtelling + recalculatie + NRV-schatting (auditor-gegenereerd)", "Ouderdomslijst + benchmarking + interview verkoophoofd", "Waardering activa (lower of cost or NRV)"]
+          - ["3 — Confirmaties handelsvorderingen", "Subsequent receipts-test (bank-bewegingen 2025)", "Verzendingsdocumenten + tweede confirmatie + DSO-analyse", "Bestaan + rechten en verplichtingen"]
+    valkuil_beat: "Drie veelgemaakte fouten. **Eén**: bij issue 3 conclusie \"lage respons confirmaties = scope-beperking → voorbehoud\" trekken. Klassieke strikvraag: pas wanneer alternatieve werkzaamheden ook falen, is er een scope-beperking. Auditor moet eerst zijn werk doen. **Twee**: bij issue 1 alleen de lawyer's letter noemen zonder de fallback-overweging \"wat als management weigert?\" Het examen toetst graag deze tweede laag — een geweigerde lawyer's letter is een scope-beperking die diepgaand kan zijn (onthouding-niveau). **Drie**: bij issue 2 management-argumentatie (\"rotatie binnen 18 maanden\") als bewijs aanvaarden zonder onafhankelijke onderbouwing. Mondelinge inquiries zijn de **laagste** bewijscategorie en moeten altijd gecorroboreerd worden door inspectie, recalculatie of externe bevestiging."
+
+  - id: document-4-afronding-oordeel
+    titel: "Document 4 — Afronding + oordeel (15 min)"
+    instructie_beats:
+      - "Vierde dossierstuk: de **uitkomsten van de aanvullende werkzaamheden** uit document 3, samengevat in een interne notitie van partner Dewulf op 30 april 2025. Issue 1 — rechtszaak Roche-Gent: lawyer's letter ontvangen op 22 april 2025; advocaat noemt veroordeling \"waarschijnlijk\" en raamt het bedrag op **800.000 EUR**. Management weigert vervolgens een voorziening van 800k op te nemen, deelt mee dat \"dit een eenmalig geval is dat we via verzekering hopen op te vangen\" maar levert geen verzekeringspolis-bevestiging. Issue 2 — voorraad cleanroom: NRV geschat op 220k EUR; **waardevermindering van 380k EUR** vereist volgens auditor; management corrigeert na bespreking en boekt de waardevermindering. Issue 3 — confirmaties: alternatieve werkzaamheden succesvol; **dekking 90 % van saldo handelsvorderingen** door confirmatie + subsequent receipts; geen restpost boven materialiteit. Geen verdere afwijkingen vastgesteld; going-concern-overweging: omzet en orderportefeuille bevestigen continuïteit; gebeurtenissen na balansdatum (geen nieuwe rechtszaken, geen substantiële gebeurtenissen)."
+      - "Beantwoord drie vragen. **(a)** Welk oordeel-type kies je voor de controleverklaring (goedkeurend / met voorbehoud / afkeurend / onthoudend) — voor de hoofdvraag (resterende afwijking issue 1) én voor elk subkanaal (issues 2 en 3)? Motiveer expliciet met de beslismatrix (afwijking vs scope-beperking × materieel-niet-diepgaand vs materieel-diepgaand). **(b)** Stel: management blijft weigeren de 800k-voorziening op te nemen ondanks jouw vraag. Welke secties van de standaard controleverklaring worden aangepast — en hoe (titel / oordeel / onderbouwing / kernpunten)? **(c)** REVIA Vlaanderen heeft een Poolse productie-dochter REVIA Polska. Hoe weegt deze component-auditie mee in de afrondingsfase, en welke documentatie wil partner Dewulf zien voor de eindbeoordeling?"
+      - "Werk in drie blokken. In (a) — wees expliciet over het verschil materieel/diepgaand en pas de matrix toe op deze specifieke feiten."
+    uitwerking_beats:
+      - "**(a) Oordeel-type per issue + globaal.** **Issue 3 (confirmaties)**: alternatieve werkzaamheden succesvol → geen afwijking, geen scope-beperking → **geen impact op oordeel**. **Issue 2 (voorraad)**: management corrigeerde de 380k waardevermindering → afwijking gecorrigeerd → **geen impact op oordeel**. **Issue 1 (rechtszaak)**: dit is de beslissende post. Afwijking-type: **afwijking** (geen scope-beperking — auditor heeft voldoende bewijs gekregen via de lawyer's letter en weet wat de juiste verwerking moet zijn). Materieel: 800k vs overall materiality 210k → ruim materieel (factor ~4). Diepgang: **niet-diepgaand** — de afwijking is **geïsoleerd** tot één post (voorzieningen), de overige posten van de jaarrekening zijn niet aangetast, het getrouw beeld is niet **als geheel** in vraag gesteld. De jaarrekening blijft bruikbaar als geheel mits de gebruiker weet dat één specifieke post (voorzieningen) ondergewaardeerd is. **Beslismatrix-toepassing**: afwijking × materieel × niet-diepgaand → **oordeel met voorbehoud** (\"oordeel met uitzondering van\"). Niet afkeurend (zou diepgang vereisen — de jaarrekening als geheel misleidend), niet onthouding (zou scope-beperking + diepgang vereisen). **Globaal oordeel**: oordeel met voorbehoud."
+      - "**(b) Aanpassingen aan de standaard controleverklaring.** **Titel**: gewijzigd van \"Verklaring zonder voorbehoud\" naar \"**Verklaring met voorbehoud**\". **Oordeel-sectie**: gewijzigd in \"met uitzondering van het in de paragraaf 'Onderbouwing van het oordeel met voorbehoud' beschreven punt geven de geconsolideerde + enkelvoudige jaarrekening een getrouw beeld...\". **Nieuwe sectie \"Onderbouwing van het oordeel met voorbehoud\"**: ingevoegd onmiddellijk na het oordeel — beschrijft (i) de hangende rechtszaak Roche-Gent met claim 1,2 mln EUR; (ii) de bevinding via lawyer's letter dat veroordeling waarschijnlijk is met raming 800k EUR; (iii) de afwezigheid van een voorziening van 800k op de balans, terwijl deze in toepassing van de boekhoudkundige regels vereist zou zijn; (iv) het kwantitatief effect op de balans (voorzieningen onderschat met 800k) en op het resultaat (resultaat overschat met 800k vóór belastingeffect). **Kernpunten van de controle (KAM)**: voor REVIA niet wettelijk verplicht (niet-OOB) — wordt dus niet ingevoegd. **Sectie verantwoordelijkheden management/auditor**: standaardtekst, geen aanpassing. **Andere wettelijke + bestuurlijke vereisten** (jaarverslag + bestuurszaken): aparte opinie blijft van toepassing — eventueel toelichten of het jaarverslag overeenstemt met de gecorrigeerde voorstelling (of met de niet-gecorrigeerde voorstelling, in welk geval ook deze sectie een opmerking krijgt). **Going-concern-sectie**: geen materiële onzekerheid → standaard formulering. **Schriftelijke bevestiging management (LOR)**: vermeldt expliciet dat management de aanbeveling tot opname van de 800k-voorziening kent en weigert."
+      - "**(c) REVIA Polska — component-auditie.** Twee dimensies. **Conceptueel**: REVIA Polska is een 100 %-dochter die geconsolideerd wordt — significante component qua omvang (12 mln omzet, ~20 % van groep). Voor de geconsolideerde jaarrekeningcontrole geldt het kader van groep-audits: de groep-auditor is verantwoordelijk voor het oordeel over de geconsolideerde jaarrekening; component-werkzaamheden mogen door een lokale component-auditor (mock: KPMG Polska) uitgevoerd worden, maar de groep-auditor blijft eindverantwoordelijk. **Documentatie die partner Dewulf wil zien voor eindbeoordeling**: (i) **Groep-audit-instructiebrief** verstuurd aan KPMG Polska met scope + materialiteit voor de component (typisch lager dan groep-materialiteit — component-materialiteit wordt afgeleid van groep-materialiteit). (ii) **Component-rapportagepakket** met de bevindingen + uitgevoerde procedures + geïdentificeerde risico's. (iii) **Schriftelijke bevestiging** van KPMG Polska dat de werkzaamheden uitgevoerd zijn conform de instructies + dat zij voldoende en geschikt audit-bewijs hebben verzameld. (iv) **Eigen review** van de groep-auditor: bezoek aan KPMG Polska minstens één keer in het mandaat, opname in werkdossier van de evaluatie van de component-auditor (deskundigheid + onafhankelijkheid). (v) **Specifieke aandachtspunten** voor REVIA Polska in dit boekjaar: de transfer pricing-marge cost plus 8 % (risico 3 uit document 2) → vraag aan KPMG Polska om de transfer pricing-documentatie + benchmarkingsanalyse mee te bekijken. **Impact op het oordeel**: indien KPMG Polska geen issues meldt, weegt de component niet in het globale oordeel mee. Indien wel — bv. een lokale fiscale aanpassing met materiële effect op groepsniveau — moet partner Dewulf overwegen of die in zijn eigen voorbehoud-onderbouwing terugkomt of als afzonderlijk punt opgenomen wordt."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Beslismatrix oordeel-type — toegepast op REVIA"
+        kolommen: ["Issue", "Type probleem", "Materieel?", "Diepgaand?", "Oordeel-implicatie"]
+        rijen:
+          - ["Issue 1 — Rechtszaak (geen voorziening 800k)", "Afwijking", "Ja — 800k vs materiality 210k", "Nee — geïsoleerd tot één post; getrouw beeld als geheel niet aangetast", "**Oordeel met voorbehoud** (\"met uitzondering van\")"]
+          - ["Issue 2 — Voorraad cleanroom", "Afwijking gecorrigeerd door management", "—", "—", "Geen impact"]
+          - ["Issue 3 — Confirmaties (alternatieve werkzaamheden succesvol)", "Geen probleem na alternatieve werkzaamheden", "—", "—", "Geen impact"]
+          - ["**Globaal oordeel**", "—", "—", "—", "**Oordeel met voorbehoud**"]
+      - type: tabel-inline
+        titel: "Aanpassingen controleverklaring REVIA bij oordeel met voorbehoud"
+        kolommen: ["Sectie", "Aanpassing"]
+        rijen:
+          - ["Titel", "\"Verklaring met voorbehoud\" (i.p.v. zonder voorbehoud)"]
+          - ["Oordeel-sectie", "Inleiding \"Met uitzondering van het in de volgende paragraaf beschreven punt geven de jaarrekeningen een getrouw beeld...\""]
+          - ["Onderbouwing van het oordeel met voorbehoud (nieuwe sectie)", "Beschrijving rechtszaak + raming 800k + afwezigheid voorziening + kwantitatief effect op balans en resultaat"]
+          - ["Kernpunten van de controle (KAM)", "Niet verplicht voor REVIA (niet-OOB) → niet ingevoegd"]
+          - ["Verantwoordelijkheden management + auditor", "Standaardtekst"]
+          - ["Going-concern", "Standaard — geen materiële onzekerheid"]
+          - ["Andere wettelijke vereisten (jaarverslag)", "Beoordeling consistentie tussen jaarverslag en gecorrigeerde/niet-gecorrigeerde voorstelling"]
+          - ["Datum + ondertekening", "Standaard — datum afronding werkzaamheden = datum oordeel; handtekening commissaris"]
+    valkuil_beat: "Drie examen-klassiekers. **Eén**: de beslismatrix mechanisch toepassen zonder onderscheid tussen \"afwijking\" en \"scope-beperking\". Hier is sprake van een **afwijking** (auditor weet wat juist is, management boekt het niet) — niet van een scope-beperking (auditor kreeg geen toegang tot bewijs). De matrix is een 2×2: afwijking × niet-diepgaand → voorbehoud; afwijking × diepgaand → afkeurend; scope-beperking × niet-diepgaand → voorbehoud; scope-beperking × diepgaand → onthouding. Hou de twee assen scherp gescheiden. **Twee**: \"materieel = automatisch afkeurend\" — fout. Materieel × niet-diepgaand → voorbehoud (de meest voorkomende uitkomst). Afkeurend vereist dat het getrouw beeld als geheel aangetast is, niet alleen één post. Onthouding vereist niet alleen materieel maar ook scope-beperking + diepgang. **Drie**: vergeten dat een oordeel met voorbehoud een **nieuwe sectie** \"Onderbouwing van het oordeel met voorbehoud\" toevoegt — niet alleen een titel-wijziging. Examen-vragen toetsen graag welke secties precies aangepast worden + waarheen ze in de verklaring komen."
+
+  - id: document-5-bijzonder-mandaat
+    titel: "Document 5 — Bijzonder mandaat: inbreng in natura (10 min)"
+    instructie_beats:
+      - "Vijfde dossierstuk: een **ontwerp-opdrachtbrief** voor een bijzonder mandaat, gedateerd 12 maart 2025 en gericht aan een ander accountantskantoor (BVBA Vastgoed-Revisie, geen relatie met REVIA noch met INVESTRA). Voorwerp: opmaak van het wettelijke verslag bij een **inbreng in natura** door patriarch Hubert Verbeke van zijn industriegebouw aan de Schaliënhoevedreef 22 (2.400 m² + 800 m² kantoor — pal naast de bestaande REVIA-zetel) in NV REVIA Vlaanderen, geschatte marktwaarde 2.800.000 EUR, in ruil voor nieuwe aandelen via kapitaalverhoging. AV gepland 25 april 2025. De RvB heeft bewust een andere beroepsbeoefenaar gevraagd dan de commissaris BV Audit & Controle."
+      - "Partner Dewulf vraagt jouw nota voorafgaand — niet voor de uitvoerende collega bij Vastgoed-Revisie, maar voor zijn eigen interne controle dat het kantoor BV Audit & Controle deze opdracht correct heeft afgehouden en dat het commissaris-mandaat door dit bijzondere mandaat niet wordt geraakt."
+      - "Beantwoord drie vragen. **(a)** Had BV Audit & Controle deze opdracht zelf kunnen aanvaarden naast het lopende commissaris-mandaat? Welke onafhankelijkheidsoverweging dwong de afhouding? **(b)** Welke vereisten gelden voor de **staat van activa en passiva** (staat A&P) die het bestuursorgaan moet opmaken, en welke conclusie-clausules verwacht de wetgever in het verslag van de beroepsbeoefenaar? **(c)** Welke risico-vermelding moet de beroepsbeoefenaar in zijn verslag opnemen, en wanneer + aan wie zijn de stukken ter beschikking voor de AV?"
+      - "Werk in drie blokken. Eindig je notitie met één zin: bevestiging dat het commissaris-mandaat parallel ongewijzigd doorloopt."
+    uitwerking_beats:
+      - "**(a) Aanvaarding door BV Audit & Controle?** In principe: ja, een commissaris mag bijzondere mandaten op zijn eigen cliënt aanvaarden — de wetgever heeft die rolverdeling niet uitgesloten. **Maar onafhankelijkheidsoverweging** speelt direct. **Bedreiging: zelf-toetsing (self-review).** De waardering van het ingebrachte gebouw 2,8 mln EUR en de overeenstemming met de uit te geven aandelen zijn de **centrale bevindingen** van het verslag bijzonder mandaat. Diezelfde waardering wordt in het volgende boekjaar als nieuwe materiële vaste activa-post in de geconsolideerde + enkelvoudige jaarrekening verschijnen — en moet door de commissaris in zijn jaarrekeningcontrole 2025 worden gevalideerd (vooral als de waardering later wordt geherwaardeerd of afgeschreven). De commissaris zou zijn eigen waarderings-conclusie moeten controleren. **Safeguards** zoals andere teamleden volstaan hier niet — de bedreiging zit in de **identiteit van het kantoor** dat zowel waardeerder als controleur is, niet in een persoonlijke kennis-overlap. **Conclusie**: BV Audit & Controle heeft de opdracht terecht afgehouden. RvB wijst BVBA Vastgoed-Revisie aan — kantoor zonder bestaande relatie met REVIA noch INVESTRA — die het bijzonder mandaat uitvoert. **De waarschijnlijke aanvaardings-redenering bij Vastgoed-Revisie** (apart, niet in jouw verantwoordelijkheid): geen self-review-bedreiging want geen lopend ander mandaat; vertrouwdheids-bedreiging laag want eerste contact; intimidatie laag; eigenbelang neutraal (eenmalige opdracht-honorarium); belangenbehartiging neutraal."
+      - "**(b) Staat A&P + conclusie-clausules.** **Staat van activa en passiva**: voor inbreng in natura geldt een specifieke voor-aanvaardings-vereiste — de inbreng-staat (omschrijving + waardering van het ingebrachte goed) wordt opgesteld door het **bestuursorgaan** (niet door een interne boekhouder, niet door de beroepsbeoefenaar zelf). Inhoud: omschrijving van het gebouw (kadasterperceel, m², bouwjaar), waarderings-methode (taxatie vastgoedexpert + recente comparables), referentiedatum van de waardering (typisch max 3 maanden vóór de AV-datum — strenge regel die vaak in MCQ's getoetst wordt; oude staat = ongeldig). Voor de inbreng-context geldt **niet** een nettoactief-staat (zoals bij omzetting of ontbinding), maar een gerichte staat op het specifieke ingebrachte goed. **Conclusie-clausules verwacht in het verslag van de beroepsbeoefenaar**: (i) de identiteit van de inbrenger en het bestuursorgaan dat de staat opmaakte; (ii) de toegepaste waarderingsmethoden + hun verantwoording; (iii) de overeenstemming tussen de waardering en het aantal + de nominale waarde van de uit te geven aandelen — kern-conclusie. Standaardformulering: \"de waardering komt overeen met ten minste het aantal en de nominale waarde van de uit te geven aandelen tegen de inbreng\". Bij een twijfel- of verschilbevinding: voorbehoud of weigering — niet aanvaarden in dat geval."
+      - "**(c) Risico-vermelding + termijn ter-beschikking-stelling.** **Risico-vermelding in het verslag**: voor inbreng in natura is geen specifieke wettelijke risico-clausule (zoals de hoofdelijke aansprakelijkheid-clausule bij omzetting NV→BV) vereist — maar de beroepsbeoefenaar vermeldt in zijn verslag de **beperkte zekerheid (limited assurance)** waaronder hij werkt: hij heeft de waardering onderzocht, geen volledige audit uitgevoerd op de aandeelhoudersbelangen of op de bredere financiële situatie van REVIA, en de opdracht is beperkt tot de overeenstemming waardering ↔ uitgegeven aandelen. **Belangrijke nuance**: zekerheidsniveau ≠ redelijke zekerheid (zoals bij audit) maar limited assurance — onderscheid examen-relevant. **Aandachtspunt verbonden partijen**: omdat Hubert Verbeke patriarch-meerderheidsaandeelhouder is, wordt de transactie een verbonden-partijen-transactie die ook in de jaarrekening 2025 als zodanig moet toegelicht worden (separate verantwoordelijkheid commissaris). **Termijn ter-beschikking-stelling**: het verslag bestuursorgaan + het verslag beroepsbeoefenaar moeten **minstens 15 dagen vóór de AV** ter beschikking gesteld worden aan de aandeelhouders — een vaste examen-test. AV-datum 25 april 2025 → uiterste deadline ter-beschikking-stelling: **10 april 2025**. Stukken worden gedeponeerd ter zetel of langs digitale weg aangeboden conform de WVV-bepalingen rond bijroeping. Notariële akte volgt de AV-beslissing. **Slot**: commissaris-mandaat BV Audit & Controle loopt parallel onverkort door — het bijzonder mandaat aan Vastgoed-Revisie raakt het commissaris-mandaat niet en vereist geen aanpassing van de opdrachtbrief 2023-2025."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        titel: "Bijzonder mandaat inbreng in natura — kernpunten"
+        kolommen: ["Element", "Antwoord / vereiste"]
+        rijen:
+          - ["Type opdracht + zekerheidsniveau", "Wettelijk bijzonder mandaat — **beperkte zekerheid (limited assurance)** — niet redelijke zekerheid"]
+          - ["Wie wijst de beroepsbeoefenaar aan?", "Bestuursorgaan (RvB)"]
+          - ["Kan de commissaris zelf dit mandaat aanvaarden?", "Principieel ja, maar hier **nee — self-review-bedreiging** (waardering komt later in jaarrekeningcontrole terug)"]
+          - ["Wie maakt de staat A&P op?", "Bestuursorgaan — niet de interne boekhouder, niet de beroepsbeoefenaar"]
+          - ["Maximale ouderdom staat A&P", "Typisch 3 maanden vóór AV-datum — examen-strikvraag"]
+          - ["Kern-conclusie verslag", "\"De waardering komt overeen met ten minste het aantal en de nominale waarde van de uit te geven aandelen\""]
+          - ["Risico-clausule wettelijk verplicht?", "Niet specifiek (anders dan bij omzetting NV→BV); wél vermelding limited assurance + scope-beperking"]
+          - ["Ter beschikking aandeelhouders", "Minimum **15 dagen vóór AV** — voor AV 25 april 2025 → uiterste deadline 10 april 2025"]
+          - ["Verbonden-partijen-impact 2025", "Toelichting in jaarrekening 2025 — verantwoordelijkheid commissaris BV Audit & Controle"]
+    valkuil_beat: "Drie veelgemaakte fouten. **Eén**: aannemen dat een commissaris **nooit** een bijzonder mandaat op zijn eigen cliënt mag aanvaarden — fout. Het mag in principe; het is de **specifieke self-review-test** die hier doorslaggevend is. Examenvragen toetsen het nuanceverschil. **Twee**: de staat A&P laten opmaken door de interne boekhouder of door de beroepsbeoefenaar zelf — klassieke examen-strikvraag. Het is het **bestuursorgaan** dat de staat opmaakt en ondertekent; een proef- en saldibalans van de interne boekhouder is geen geldige staat A&P. **Drie**: de 15-dagen-termijn ter-beschikking-stelling vergeten of verwarren met de aanvaardings-termijn. Voor de aandeelhouders moeten de verslagen 15 dagen vóór AV beschikbaar zijn — een datum-toets die het examen graag uitwerkt."
+
+# ---------------------------------------------------------------------------
+# AFSLUITING
+# ---------------------------------------------------------------------------
+
+afsluiting:
+  reflectie_beats:
+    - "Wat heb je nu één keer zelf doorlopen: vijf scoped documenten die samen de audit-cyclus + één parallel bijzonder mandaat dragen — aanvaarding + onafhankelijkheid → planning + materialiteit → uitvoering van drie issues → afronding + oordeel-keuze → bijzonder mandaat. Elke fase heeft eigen ISA-procedures (of ITAA-normen), eigen documenten in het werkdossier, eigen beslissings-momenten voor de partner. Niet vijf losse trucs maar één cyclus waarin elke vroege beslissing (benchmark materialiteit, risico-stelling, audit-procedure) de eindbeoordeling stuurt."
+    - "Het examen zal nooit het volledige REVIA-dossier in één vraag uitvragen — wel fragmenten (\"welke bedreiging?\", \"welk oordeel?\", \"wie maakt de staat A&P?\", \"hoeveel dagen vóór AV?\"). Die fragmenten landen scherper als je het hele dossier één keer hebt afgewerkt. De vijf documenten tonen ook dat de vijf leerstukken **één geïntegreerde controle-architectuur** vormen — kader + planning + uitvoering + verslag + parallel mandaat — die elke commissaris-junior in praktijk doorloopt."
+    - "Drie sleutel-onderscheidingen om mee te nemen. **Eén**: bedreiging-categorieën zijn geen academische opsmuk maar bepalen of een safeguard kan volstaan — self-review op de directe controle-perimeter laat geen safeguards toe; weigeren is dan de enige juiste keuze. **Twee**: materialiteit kiest **de auditor** met benchmark + percentage; niet door management, niet door AV. Het examen toetst de **berekening** + **motivering**, niet alleen het eindcijfer. **Drie**: de beslismatrix oordeel-type is een 2×2 met twee onafhankelijke assen — type probleem (afwijking vs scope-beperking) × diepgang (materieel-niet-diepgaand vs materieel-diepgaand). Materieel ≠ automatisch afkeurend; afkeurend vereist diepgang."
+    - "Volgende stap als dit zit: pak [[studiemateriaal/1-6/voorbeeldexamenvragen|voorbeeldexamenvragen PO 1.6]] en herken de fragment-vragen (29 unieke vraag-eenheden — vooral op bijzondere mandaten + ISA 315/320/505/705), of ga naar [[studiemateriaal/1-6/samenvatting|samenvatting PO 1.6]] voor compacte herhaling vlak voor het examen."
+  doelstellingen_gedekt:
+    - "1.6.taak.1 — Opstellen van specifieke verslagen en analyses voor externe en interne verslaglegging (alle vijf documenten)"
+    - "1.6.taak.1.c — Opstellen verslagen met attestering / expertiseverslag voor derden (document 4 controleverklaring + document 5 verslag bijzonder mandaat)"
+    - "1.6.taak.1.doel.1 — Specifieke verslagen + uitvoering wettelijke en contractuele opdrachten"
+    - "1.6.I.A — Reikwijdte opdrachten: wettelijke monopolie (audit + bijzondere mandaten) versus contractuele opdracht (geweigerde transfer pricing) — document 1 + 5"
+    - "1.6.I.B — Rechtstatuut en aansprakelijkheid GA — document 1 (bedreigingen-evaluatie)"
+    - "1.6.I.C — Toepasselijke normen — alle documenten (ISA-cyclus + ITAA-norm bijzondere mandaten + IESBA Code)"
+    - "1.6.II.A — Kennisverwerving entiteit en omgeving — document 2 (planningsvergadering)"
+    - "1.6.II.B — Risicoanalyse + significante risico's op niveau beweringen — document 2"
+    - "1.6.II.C — Controle-instrumenten (lawyer's letter, voorraadtelling, confirmaties, subsequent receipts, analytische review) — document 3"
+    - "1.6.III.A — Planning + materialiteit (benchmark + percentage + uitvoeringsmaterialiteit) — document 2"
+    - "1.6.III.B — Werkprogramma — document 3 (aanvullende werkzaamheden per issue)"
+    - "1.6.III.C — Revisiedossier + documentatie aanvaardings- en voortzettingsbeoordeling — document 1"
+    - "1.6.III.E — Relaties met actoren (governance-communicatie zonder auditcomité naar RvB) — document 2"
+    - "1.6.IV.A — Algemene beoordeling regelmatigheid + waarachtigheid + getrouw beeld — document 4"
+    - "1.6.IV.B — Certificering bedrijfsrevisor + onderscheid wettelijke verklaring GA — document 4 + 5"
+    - "1.6.IV.C — Revisieverslagen (controleverklaring + verslag bijzonder mandaat) — document 4 + 5"
+  valkuilen_geoefend:
+    - "Alle bedreigingen op één hoop gooien zonder IESBA-categorisering (eigenbelang / zelf-toetsing / belangenbehartiging / vertrouwdheid / intimidatie)"
+    - "Aannemen dat \"Chinese muur\"-safeguards self-review op de directe controle-perimeter kunnen oplossen — soms is weigeren het enige antwoord"
+    - "Materialiteit \"laten bepalen door management\" of \"door AV\" i.p.v. door de auditor zelf"
+    - "Eindbedrag materialiteit noemen zonder benchmark-keuze + percentage-motivering"
+    - "ISA 315-risico's formuleren als algemene zorg i.p.v. specifieke risico-stelling gekoppeld aan bewering-categorie"
+    - "Lage respons confirmaties (65 %) direct als scope-beperking interpreteren i.p.v. eerst alternatieve werkzaamheden uit te voeren"
+    - "Bij geweigerde lawyer's letter de scope-beperking + onthouding-mogelijkheid vergeten"
+    - "Management-mondelinge argumentatie (\"rotatie binnen 18 maanden\") als bewijs aanvaarden zonder onafhankelijke corroboratie"
+    - "Beslismatrix oordeel-type mechanisch toepassen zonder onderscheid afwijking vs scope-beperking"
+    - "\"Materieel = automatisch afkeurend\" — materieel × niet-diepgaand → voorbehoud is de regel"
+    - "Aannemen dat een commissaris nooit een bijzonder mandaat op eigen cliënt mag aanvaarden — het is de specifieke self-review-test die telt"
+    - "Staat A&P laten opmaken door interne boekhouder of beroepsbeoefenaar zelf i.p.v. door bestuursorgaan"
+    - "De 15-dagen-termijn ter-beschikking-stelling vergeten of verwarren met aanvaardings-termijn"
+
+# ---------------------------------------------------------------------------
+# VERDER LEZEN
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer dit zit, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+      hint: "Voor de kapstok — opdracht-types (audit / review / ISAE / AUP) en het onderscheid wettelijke monopolie / contractuele opdracht achter document 1 + 5"
+    - slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+      hint: "Voor de planning + materialiteit + risico-inschatting + 7 audit-procedures achter documenten 2 en 3"
+    - slug: afronden-en-rapporteren-van-een-audit
+      hint: "Voor de beslismatrix oordeel-types + opbouw controleverklaring + revisiedossier achter document 4"
+    - slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+      hint: "Voor het procedurele patroon staat A&P → limited assurance → modelverslag → conclusie achter document 5"
+    - slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+      hint: "Voor het IESBA-bedreigingen-kader + safeguards-laag + kwaliteitsmanagement achter documenten 1 en 5"
+  themafiches: []
+  examenvragen_link: "studiemateriaal/1-6/voorbeeldexamenvragen"
+
+# ---------------------------------------------------------------------------
+# WETTELIJK FUNDAMENT — claims geverifieerd in de leerstukken / RAG
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Onafhankelijkheidsbeginselen accountant — IESBA bedreigingen-kader (eigenbelang / zelf-toetsing / belangenbehartiging / vertrouwdheid / intimidatie) + safeguards"
+    ref: "IESBA Code of Ethics (internationaal kader) + Belgisch addendum + KB 1 maart 1998 art. 9 (plichtenleer accountants — onafhankelijkheid)"
+  - onderwerp: "Verboden niet-controle-diensten + cliënt-aanvaardings- en voortzettingsbeoordeling"
+    ref: "ISA 220 (herzien — kwaliteitsmanagement op opdracht-niveau) + ISA 210 (overeenkomen van de voorwaarden van de controleopdracht) + ISQM 1 (kantoor-breed kwaliteitsmanagement)"
+  - onderwerp: "Wettelijke controle door commissaris — benoeming + mandaat + scope"
+    ref: "WVV art. 3:55 (benoeming door AV op voorstel bestuursorgaan) + art. 3:58 (mandaat 3 jaar hernieuwbaar) + art. 3:70 (wettelijke controle) + art. 3:72 (controleplicht op basis van grootte-criteria) + art. 1:24-1:26 (grootte-criteria)"
+  - onderwerp: "Auditcomité — niet wettelijk verplicht voor niet-OOB; RvB neemt taken op"
+    ref: "WVV art. 7:99 (auditcomité verplicht alleen voor beursgenoteerde + grote kredietinstellingen + verzekeringsondernemingen; voor andere mag de RvB taken collectief opnemen)"
+  - onderwerp: "Materialiteit — auditor-judgment, benchmark + percentage + uitvoeringsmaterialiteit + drempel duidelijk kleine afwijkingen"
+    ref: "ISA 320 (materialiteit bij planning en uitvoering van de controle) + ISA 200 §A26 (concept materialiteit) + ISA 450 (evaluatie van tijdens de controle geïdentificeerde afwijkingen)"
+  - onderwerp: "Risico-inschatting — kennisverwerving entiteit + omgeving + interne beheersing + significante risico's"
+    ref: "ISA 315 (herzien-2019 — identificatie en inschatting van risico's van een afwijking van materieel belang) §13-37 + §A190 (assertions-categorieën)"
+  - onderwerp: "Audit-bewijs + 7 controlewerkzaamheden + bewijswaarde-rangorde"
+    ref: "ISA 500 (audit-bewijs) §A14-A25 + ISA 330 (inspelen op risico)"
+  - onderwerp: "Rechtszaken en claims — lawyer's letter als externe bevestiging"
+    ref: "ISA 501 (specifieke overwegingen — rechtszaken en claims) §9-12 + ISA 580 (schriftelijke bevestigingen)"
+  - onderwerp: "Schattingen — voorraad-waardering (waardevermindering tot lower of cost or NRV)"
+    ref: "ISA 540 (herzien — schattingen) + CBN-advies 132/7 (waardering voorraden)"
+  - onderwerp: "Externe bevestigingen — confirmaties + alternatieve werkzaamheden bij non-respons"
+    ref: "ISA 505 (externe bevestigingen) §6 + §7 + §12-13"
+  - onderwerp: "Controleverklaring — vier oordeel-types + beslismatrix materieel × diepgaand"
+    ref: "ISA 700 (vorming van een oordeel + verklaring) + ISA 705 (aanpassingen van het oordeel — voorbehoud, afkeurend, onthouding) §7-§10 + ISA 706 (aandachtspunt-paragrafen en overige-aangelegenheden-paragrafen) + ITAA-KMO-controlenorm §119-§121"
+  - onderwerp: "Verbonden partijen — transactie-verantwoording + toelichting"
+    ref: "ISA 550 (verbonden partijen) + KB WVV (toelichting bij jaarrekening — verbonden-partijen-transacties)"
+  - onderwerp: "Group audit — component-auditor + component-materialiteit + groep-instructie + eindverantwoordelijkheid groep-auditor"
+    ref: "ISA 600 (overwegingen bij de controle van groepen — herzien)"
+  - onderwerp: "Gebeurtenissen na balansdatum + going-concern"
+    ref: "ISA 560 (gebeurtenissen na balansdatum) + ISA 570 (continuïteit)"
+  - onderwerp: "Revisiedossier + documentatie + bewaartermijn"
+    ref: "ISA 230 (documentatie) + Wet 7 december 2016 betreffende organisatie revisoraat art. 16 (10 jaar bewaartermijn)"
+  - onderwerp: "Bijzondere mandaten — inbreng in natura + verslag accountant of revisor + staat A&P bestuursorgaan + limited assurance"
+    ref: "WVV art. 7:7 (NV — inbreng in natura: verslag bestuursorgaan + verslag accountant of bedrijfsrevisor) + art. 5:7 (BV — analoog) + ITAA-norm inzake inbreng in natura en quasi-inbreng (gemeenschappelijke ITAA-IBR-norm)"
+  - onderwerp: "Bijzondere mandaten — terbeschikkingstelling stukken aandeelhouders 15 dagen vóór AV"
+    ref: "WVV art. 7:128 (kapitaalverhoging — terbeschikkingstelling stukken)"
+  - onderwerp: "Communicatie governance (RvB / auditcomité)"
+    ref: "ISA 260 (communicatie met de met governance belaste personen)"
+
+footer: "Oefening PO 1.6. Status: nieuw — scoped multi-document-dossier op één doorlopende cliëntcontext (NV REVIA Vlaanderen, boekjaar 2024) met vijf chronologische deelvragen vanuit junior-perspectief in het commissaris-team. Conform schema in data/oefeningen/SCHEMA.md (POC v0.1) en oefening-procedure (drie pijlers: geen hints in opgave, realistische individuele documenten, niet-voorkauwende instructies)."

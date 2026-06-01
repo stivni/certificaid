@@ -133,9 +133,8 @@ flowchart TD
 - [[audit-bewijs]] — externe auditor steekproef (cross PO 1.6)
 - [[audit-afronding]] — misstatement-evaluatie ISA 450
 
-**Verwante themafiches**
-- [[themafiches/interne-controle-frameworks|Themafiche — Interne-controle-frameworks]]
-- [[themafiches/functiescheiding-en-cyclus|Themafiche — Functiescheiding & cyclus-controle]]
+**Verwante materialen**
+- [[studiemateriaal/1-7/samenvatting|Samenvatting PO 1.7 — Interne controle]] (vervangt themafiches `interne-controle-frameworks` + `functiescheiding-en-cyclus`, per ADR-039)
 - [[themafiches/controleopdracht-aanpak|Themafiche — Controleopdracht-aanpak]] (cross PO 1.6)
 - [[themafiches/controleverklaring|Themafiche — Controleverklaring]] (cross PO 1.6)
 

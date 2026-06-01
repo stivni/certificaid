@@ -1,0 +1,234 @@
+# Leerstuk-script — Bijzondere wettelijke verslagen bij vennootschapsverrichtingen
+#
+# PO 1.6 leerstuk 4 (parallel spoor — Boek 14 + Boek 5 + Boek 7 WVV).
+# Examenzwaartepunt nummer één van PO 1.6 (5+ vraag-eenheden meervraags).
+# Hoe-uitzondering ingeroepen (~4500 woorden) — één gemeenschappelijk
+# patroon + vergelijkingstabel als kapstok + vier verdiepingsblokken
+# per verrichting (inbreng / omzetting / fusie+splitsing / ontbinding).
+# Korte sub-sectie privé + gerechtelijke expertise als rand-vermelding
+# (1.6.taak.1.a en 1.6.taak.1.b — bewust dun).
+#
+# Hand-off: dit leerstuk leent zwaar op de onafhankelijkheid-discussie
+# (leerstuk 5) bij de keuze 'commissaris-zelf of andere beroepsbeoefenaar?'.
+# Verschilt fundamenteel van leerstuk 2-3 (audit): hier BEPERKTE zekerheid,
+# staat A&P door bestuursorgaan, modelverslag met conclusie 'nettoactief
+# niet overgewaardeerd' (NIET 'getrouw beeld').
+
+meta:
+  slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+  titel: "Bijzondere wettelijke verslagen bij vennootschapsverrichtingen"
+  po: "1.6"
+  cluster: externe-controle
+  voorbeeldgroep: revia-vlaanderen
+  beschrijving: >
+    Leerstuk PO 1.6 — parallel spoor naast de audit-cyclus (hoe-uitzondering
+    ingeroepen). Welke bijzondere wettelijke verslagen moet een gecertificeerd
+    accountant of bedrijfsrevisor opmaken bij vennootschapsverrichtingen —
+    inbreng in natura (WVV art. 5:7 / 7:7 / 5:112 / 7:183) · omzetting
+    (WVV art. 14:3-14:5) · fusie en splitsing (Boek 12-13 + gemeenschappelijke
+    IBR-ITAA-norm) · ontbinding en vereffening (WVV art. 2:67 + 2:71 +
+    2:91). Eén gemeenschappelijk patroon (staat A&P door bestuursorgaan +
+    beperkte zekerheid + conclusie nettoactief niet overgewaardeerd) +
+    vier verdiepingsblokken. Korte rand-vermelding privé- en gerechtelijke
+    expertise. NV REVIA Vlaanderen — parallel mandaat inbreng-in-natura
+    gebouw Hubert Verbeke 2,8 mln EUR — als doorlopende case.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 1.6-overzicht.
+    Wijs erop dat dit leerstuk het EXAMENZWAARTEPUNT nummer één van
+    PO 1.6 is — vijf+ vraag-eenheden meervraags in 2013-1, 2013-2, 2015-1.
+    Hier WERKT alles ANDERS dan bij een gewone audit: beperkte zekerheid
+    (geen redelijke), staat van activa en passiva door bestuursorgaan
+    (geen ontwerp-jaarrekening), conclusie 'nettoactief niet overgewaardeerd'
+    (geen 'getrouw beeld'). Vier verrichtings-types delen één procedureel
+    patroon — vergelijkingstabel is de kapstok.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: vier verrichtingen vragen elk een verslag van accountant of revisor — INBRENG IN NATURA (WVV art. 5:7 + 7:7 oprichting; art. 5:112 + 7:183 kapitaalverhoging) · OMZETTING van rechtsvorm (WVV art. 14:3 + 14:5) · FUSIE en SPLITSING (Boek 12-13 + gemeenschappelijke IBR-ITAA-norm) · ONTBINDING en VEREFFENING (WVV art. 2:67 + 2:91 ontbinding-in-één-akte). Alle vier delen één procedureel patroon: opdrachtbrief → STAAT VAN ACTIVA EN PASSIVA door BESTUURSORGAAN (max 3 mnd oud, nationaal — 4 mnd grensoverschrijdend) → onderzoek BEPERKTE zekerheid → MODELVERSLAG met conclusie 'nettoactief niet overgewaardeerd'."
+    - "Drie verschillen met een gewone audit (vetgedrukt — examen-strikvraag): (a) ZEKERHEIDSNIVEAU = beperkt (limited assurance), niet redelijk. (b) STAAT door BESTUURSORGAAN ondertekend, niet een ontwerp-jaarrekening; PROEF- EN SALDIBALANS van interne boekhouder volstaat NIET (Fortunito-examenvraag 2013-1). (c) CONCLUSIE betreft NETTOACTIEF-OVERWAARDERING, niet 'getrouw beeld' — bij inbreng komt daar bij: of de waardering ten minste overeenkomt met aandelen-tegenwaarde."
+    - "Wie mag dit verslag uitbrengen? COMMISSARIS van de vennootschap (indien aangesteld) — OF een door bestuursorgaan aangewezen ANDERE bedrijfsrevisor of gecertificeerd accountant (WVV art. 14:5 + 14:21 + 5:112 + 7:183 — sinds wet 25-5-2023 ook accountant). Onafhankelijkheidstoets per opdracht: bij REVIA wijst de RvB EEN ANDERE beroepsbeoefenaar aan dan commissaris BV Audit & Controle voor de inbreng-in-natura — wegens zelf-toetsings-bedreiging (de waardering zou later in audit 2025 moeten worden gevalideerd)."
+  visualisaties:
+    - type: tabel-vergelijking
+      ref: bijzondere_mandaten_vergelijking
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst het gemeenschappelijke patroon uit, dan de vergelijkingstabel als kapstok, daarna per verrichting een verdiepingsblok. Aan het einde een korte vermelding van privé- en gerechtelijke expertise — wettelijk genoemd in PO 1.6, examen-onbevraagd, kort behandeld.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: gemeenschappelijk-patroon
+    titel: "Eén gemeenschappelijk patroon voor de vier verrichtingen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: stagiairs verdwalen vaak in de details van elke verrichting. Sleutel om dit hoofdstuk te beheersen: ÉÉN patroon herkennen dat door alle vier types loopt — en de verschillen identificeren als variaties op die kern."
+      - "STAP 1 — OPDRACHTBRIEF. De accountant of revisor sluit met het bestuursorgaan een opdrachtbrief af (ISA 210 + ITAA-norm bijzondere opdrachten). Vermeldt scope (welke verrichting + welke vennootschap) + zekerheidsniveau (BEPERKT) + verwijzing naar toepasselijke ITAA-norm + honorarium + verantwoordelijkheden. Onafhankelijkheidstoets vooraf (KB 1 maart 1998 art. 9)."
+      - "STAP 2 — STAAT VAN ACTIVA EN PASSIVA (staat A&P) door BESTUURSORGAAN. DIT is het kernverschil met een gewone audit. Het bestuursorgaan stelt een staat A&P op, max 3 maanden oud bij nationale verrichtingen (ITAA-norm) of max 4 maanden bij grensoverschrijdende (WVV art. 14:21 + 14:74), ondertekend, gericht op de specifieke verrichting (inbreng / omzetting / ontbinding / fusie)."
+      - "Belangrijke nuance (vetgedrukt — examen-klassieker 2013-1 Fortunito + 2013-2): een PROEF- EN SALDIBALANS van de interne boekhouder is GEEN staat van activa en passiva. Onderscheid: (a) PROEF- EN SALDIBALANS = tussentijds boekhoudkundig document zonder bestuursvalidatie en zonder waarderings-beslissingen; (b) STAAT A&P = formeel financieel overzicht met waarderingen + ondertekening bestuursorgaan. Wie op een proef- en saldibalans werkt, kan zijn verslag NIET uitbrengen — vraag aan bestuursorgaan om een correct opgemaakte staat A&P."
+      - "STAP 3 — ONDERZOEK door beroepsbeoefenaar — BEPERKTE ZEKERHEID. Limited assurance = cijferanalyses + interviews + steekproef-controles. NIET dezelfde diepte als bij een audit. Verschillende ITAA-normen specificeren per verrichting welke procedures verplicht: voor INBRENG → waarderingsmethoden onderzoeken; voor OMZETTING → nettoactief-vergelijking met kapitaal; voor ONTBINDING → bevestiging dat alle schulden betaald zijn (bij ontbinding-in-één-akte)."
+      - "STAP 4 — MODELVERSLAG met CONCLUSIE — verschilt per verrichting (zie blokken hieronder) maar centrale formule: 'de staat geeft geen overwaardering van het nettoactief weer' OF (bij inbreng) 'de waardering komt overeen met ten minste het aantal en de nominale waarde van de uit te geven aandelen'. Voor omzetting ook een risico-clausule (hoofdelijke aansprakelijkheid bij omzetting NV→BV)."
+      - "STAP 5 — TER BESCHIKKING STELLEN aan aandeelhouders. Vrijwel altijd 15 DAGEN vóór de algemene vergadering die over de verrichting beslist (WVV art. 7:128 + analoge bepalingen). Belangrijk te respecteren — anders ongeldigheid van het AV-besluit mogelijk."
+      - "STAP 6 — AV-BESLUIT + AKTE NOTARIS. De algemene vergadering beslist met versterkte meerderheid (typisch 3/4 voor statutenwijziging). Notariële akte volgt voor de meeste verrichtingen (inbreng / omzetting / fusie / ontbinding). Buiten scope van dit leerstuk."
+      - "STAP 7 — TOEZENDING aan ITAA / IBR. Voor opdrachten van een ITAA-lid: termijn 1 MAAND (ITAA-richtlijn) na ondertekening voor het verslag naar de ITAA — examen-klassieker 2013-1. Voor revisor-opdrachten: analoog naar IBR."
+
+  - id: vergelijkingstabel
+    titel: "Vergelijkingstabel — kapstok voor de vier verrichtingen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: één tabel synthetiseert het hele leerstuk — wetsartikel · staat A&P-opsteller · zekerheidsniveau · modelverslag-conclusie · risico-clausule. Memoriseer de tabel; de verdiepingsblokken vullen alleen de details in."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: bijzondere_mandaten_vergelijking
+        bron: voorbeeldgroep
+
+  - id: inbreng-in-natura
+    titel: "Verdieping 1 — Inbreng in natura"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'een aandeelhouder wenst iets ANDERS dan geld in te brengen — een gebouw, een octrooi, een handelszaak, aandelen van een andere vennootschap. Hoe vermijden we dat de andere aandeelhouders nadeel ondervinden van een te HOGE waardering?'."
+      - "WETTELIJKE BASIS: bij OPRICHTING — WVV art. 5:7 (BV) + 7:7 (NV); bij KAPITAALVERHOGING — WVV art. 5:112 (BV) + 7:183 (NV). Verifieerd via MCP — wettekst noemt 'bedrijfsrevisor aangewezen door oprichters/bestuursorgaan', sinds wet 25-5-2023 ook 'gecertificeerd accountant'."
+      - "WIE doet wat? OPRICHTERS (bij oprichting) of BESTUURSORGAAN (bij kapitaalverhoging) stellen een BIJZONDER VERSLAG op waarin ze uitleggen WAAROM de inbreng van belang is voor de vennootschap + beschrijving + GEMOTIVEERDE WAARDERING + vergoeding (= aantal en nominale waarde / fractiewaarde uit te geven aandelen). Dit ontwerp-verslag wordt MEEGEDEELD aan de aangewezen bedrijfsrevisor (of, indien er een commissaris is bij kapitaalverhoging: aan de commissaris). De beroepsbeoefenaar onderzoekt waardering + waarderingsmethoden en maakt zijn EIGEN verslag."
+      - "MODELVERSLAG bedrijfsrevisor — drie verplichte VERKLARINGEN: (1) of de TOEGEPASTE WAARDERING en de aangewende WAARDERINGSMETHODEN, naar zijn mening, AL DAN NIET REDELIJK zijn; (2) of de waardering ten MINSTE overeenkomt met het AANTAL EN DE NOMINALE WAARDE / fractiewaarde van de tegen de inbreng uit te geven aandelen; (3) ook bij oprichting: of de werkelijke vergoeding al dan niet redelijk is. Dit zit letterlijk in WVV art. 5:7 + 7:7 (verifieerd via MCP)."
+      - "Voor REVIA — case van Hubert Verbeke's gebouw (parallel mandaat). Patriarch wenst zijn industriegebouw aanpalend aan de zetel (Schaliënhoevedreef 22, 2.400 m²) in te brengen. Geschatte marktwaarde: 2,8 mln EUR (taxatie vastgoedexpert + recente comparables); boekwaarde in privévermogen: 1,8 mln EUR (gekocht 2010). Verbeke krijgt nieuwe NV-aandelen in ruil — kapitaalverhoging 2,8 mln EUR."
+      - "Voor REVIA — onafhankelijkheids-discussie: COMMISSARIS BV Audit & Controle (M. Dewulf) zou ZELF deze inbreng-opdracht kunnen aanvaarden. MAAR: zelf-toetsings-bedreiging IESBA — bij de audit 2025 zou hij zijn eigen inbreng-waardering moeten beoordelen. Veiligheidsmaatregelen (interne functiescheiding binnen kantoor) ontoereikend → BVBA Vastgoed-Revisie wordt aangewezen door de RvB. Doorklik [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]."
+      - "Voor REVIA — procedure stap voor stap: (1) opdrachtbrief 15.1.2025 tussen RvB REVIA + BVBA Vastgoed-Revisie; (2) RvB stelt verslag op met motivatie + beschrijving gebouw + waardering 2,8 mln + vergoeding (kapitaalverhoging 2,8 mln, ruilverhouding nieuwe aandelen volgens bestaande aandelen-waarde) — meedelen in ontwerp; (3) bedrijfsrevisor onderzoekt vastgoedtaxatie + comparables-methode + ev. eigen taxatie; (4) modelverslag bedrijfsrevisor 15.3.2025 met conclusie 'waardering en methoden redelijk + waarde ten minste gelijk aan kapitaalverhoging 2,8 mln'; (5) beide verslagen ter beschikking aandeelhouders 15 dagen vóór AV; (6) AV 15.4.2025 besluit met versterkte meerderheid; (7) akte notaris + kapitaalverhoging in handelsregister."
+      - "Belangrijke nuance (blockquote-aside): de QUASI-INBRENG (WVV art. 5:8 + 7:8) is een verwante figuur — wanneer een aandeelhouder BINNEN TWEE JAAR na oprichting iets aan de vennootschap verkoopt waarvoor de vennootschap meer dan 10 % van het kapitaal betaalt. Dezelfde procedure als bij inbreng (verslag bestuursorgaan + verslag bedrijfsrevisor). Voor REVIA: niet van toepassing (vennootschap bestaat sinds 1987, geen quasi-inbreng-context); maar examen kan dit toetsen."
+
+  - id: omzetting-van-rechtsvorm
+    titel: "Verdieping 2 — Omzetting van rechtsvorm"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'een vennootschap wil van rechtsvorm veranderen — meestal NV → BV (sinds WVV-flexibilisering) of CVBA → BV (sinds WVV-codificatie). Welk verslag moet de beroepsbeoefenaar aanleveren?'."
+      - "WETTELIJKE BASIS: WVV art. 14:3 (omzettingsvoorstel bestuursorgaan) + art. 14:5 (verslag accountant of revisor over staat A&P bij nationale omzetting). Verifieerd via MCP. Grensoverschrijdende omzetting: art. 14:20-14:21 (emigratie) of 14:73-14:74 (immigratie) — analoog patroon, maar de staat A&P mag tot 4 maanden oud zijn (in plaats van 3 maanden gangbaar nationaal)."
+      - "STAAT A&P — door BESTUURSORGAAN. Stelt nettoactief vast: actief minus alle schulden (incl. voorzieningen). Indien nettoactief LAGER blijkt dan kapitaal + onbeschikbare reserves: KAPITAALVERMINDERING vereist vóór de omzetting kan doorgaan (anders 'gesimuleerde' kapitaalverhoging via overwaardering)."
+      - "MODELVERSLAG — conclusie: 'de staat geeft geen overwaardering van het nettoactief weer'. Belangrijke risico-clausule bij omzetting NV → BV: de zaakvoerders/bestuurders blijven HOOFDELIJK AANSPRAKELIJK voor het VERSCHIL tussen het nettoactief volgens de staat A&P en het minimum-eigen-vermogen na omzetting — gedurende 5 JAAR (cassatie-rechtspraak gestoeld op WVV art. 14:5 + analoge bepalingen). De beroepsbeoefenaar moet deze risico-clausule UITDRUKKELIJK in zijn verslag VERMELDEN."
+      - "Examen-strikvraag 2013-1 (case Fortunito CVBA → BVBA): 'een zaakvoerder biedt de accountant aan: ik heb hier de proef- en saldibalans van mijn boekhouder; werk daar maar mee, dat scheelt je tijd. Wat antwoordt de accountant?'. → de wet vraagt een STAAT A&P opgesteld én ondertekend door het bestuursorgaan (WVV art. 14:5) — niet door de interne boekhouder. Proef- en saldibalans is een TUSSENTIJDS boekhoudkundig document zonder bestuursvalidatie en zonder waarderingsbeslissingen. De accountant kan op die basis geen verslag uitbrengen; hij vraagt om een correct opgemaakte en door bestuursorgaan ondertekende staat A&P."
+      - "Examen-strikvraag 2013-2: 'binnen welke termijn dient een gecertificeerd accountant zijn controleverslag bij een omzetting toe te zenden aan de ITAA?' → 1 MAAND na ondertekening (ITAA-richtlijn). Examen-strikvraag opdrachtbrief omzetting: verplicht element is de specifieke omzettings-OPDRACHT (welke rechtsvorm-wijziging) + zekerheidsniveau + ITAA-norm-verwijzing."
+      - "Voor REVIA — hypothetisch scenario: bij de generatie-overdracht (Hubert → zonen Wouter en Tom in 4e generatie 2030) zou een omzetting NV → BV overwogen kunnen worden (flexibeler statuten, lagere overdrachts-formaliteiten). In dat scenario: BV Audit & Controle voert het omzettings-verslag uit (commissaris-uitbreiding, geen self-review-bedreiging want andere verrichting); staat A&P 30/9/2030; verslag met conclusie 'geen overwaardering nettoactief' + risico-clausule hoofdelijke aansprakelijkheid voor verschil — 5 jaar."
+
+  - id: fusie-en-splitsing
+    titel: "Verdieping 3 — Fusie en splitsing"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'twee (of meer) vennootschappen willen samengaan (FUSIE) of één vennootschap wil opsplitsen (SPLITSING) — welke verslagen zijn vereist en hoe verschillen ze van inbreng + omzetting?'."
+      - "WETTELIJKE BASIS: WVV Boek 12 (fusie) + Boek 13 (splitsing) — gemeenschappelijk fusievoorstel of splitsingsvoorstel + verslag bestuursorgaan + verslag accountant of revisor over de RUILVERHOUDING. De gemeenschappelijke IBR-ITAA-norm 'Fusies en splitsingen' regelt de samenwerking tussen beroepsbeoefenaars."
+      - "WAT is anders dan bij inbreng + omzetting? Bij fusie en splitsing is het PEDAGOGISCH HART de RUILVERHOUDING — het aantal aandelen dat de aandeelhouders van vennootschap A krijgen in vennootschap B (de overnemer of de gecombineerde entiteit). Dit vraagt WAARDERINGSMETHODEN (DCF · multiples · netto-actief-waarde · gemiddelde) toegepast op BEIDE vennootschappen + redelijkheids-conclusie van de beroepsbeoefenaar."
+      - "MODELVERSLAG — conclusie: 'de ruilverhouding is redelijk + de gehanteerde waarderingsmethoden zijn adequaat'. Beperkte zekerheid. Belangrijk: de accountant of revisor voert GEEN audit uit op de waarderings-cijfers van de andere partij — hij toetst de METHODOLOGIE + de toepassing op de hem ter beschikking gestelde stukken."
+      - "GEMEENSCHAPPELIJKE IBR-ITAA-NORM (examen-strikvraag 2015-1): wanneer fuserende vennootschappen ELK HUN EIGEN beroepsbeoefenaar hebben (vaak hun commissaris), regelt de norm hoe ze SAMENWERKEN — uitwisseling van werkdocumenten + onderling overleg over waarderings-aannames + gezamenlijke conclusie OF aparte conclusies in respectievelijk verslagen. De norm is in 2016 herzien met de fusie-vereisten van het Wetboek van vennootschappen."
+      - "Voor REVIA — hypothetisch scenario: eventuele fusie REVIA Vlaanderen ↔ REVIA Polska zou een GRENSOVERSCHRIJDENDE fusie zijn (WVV art. 12:107 e.v.); zou de gemeenschappelijke IBR-ITAA-norm + de aanvullende Europese richtlijn (Richtlijn 2017/1132) toepassen. BV Audit & Controle (commissaris Vlaanderen) zou samenwerken met de Poolse auditor (mock KPMG Polska — uit voorbeeldgroep DEEL D component-auditor) — twee beroepsbeoefenaars, gezamenlijke ruilverhoudings-evaluatie."
+
+  - id: ontbinding-en-vereffening
+    titel: "Verdieping 4 — Ontbinding en vereffening"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'de vennootschap wordt ontbonden — vrijwillig door AV-besluit of door verlies van het netto-actief. Welk verslag is vereist en wanneer kan dit in ÉÉN AKTE?'."
+      - "WETTELIJKE BASIS: WVV art. 2:67 (vrijwillige ontbinding — algemeen) + art. 2:71 (verzwaarde vermeldingen ontbindings-akte) + art. 2:91 (ontbinding-in-één-akte — cumulatieve voorwaarden). ITAA-norm 'Ontbinding en vereffening' regelt de werkwijze. Vereffening volgt op ontbinding (Boek 2, hfst. 4)."
+      - "ONTBINDING-IN-ÉÉN-AKTE (versnelde procedure) — populair voor SLAPENDE of LEGE vennootschappen. WVV art. 2:91 vraagt CUMULATIEVE voorwaarden: (1) geen vereffenaar aangeduid; (2) ALLE schulden ten aanzien van vennoten / aandeelhouders / derden (zoals vermeld in de staat A&P) zijn TERUGBETAALD OF GECONSIGNEERD; (3) commissaris, bedrijfsrevisor of externe accountant maakt een verslag op (verslag op staat A&P met bevestiging betaling of consignatie); (4) akkoord alle schuldeisers (impliciet via consignatie). Verifieerd via MCP."
+      - "STAAT A&P bij ontbinding: door bestuursorgaan opgesteld op basis van DISCONTINUÏTEITS-WAARDERING (KB WVV art. 3:6 §2 — going concern verlaten, waarderen tegen realisatiewaarde · niet historische kost). Schulden worden volledig opgenomen; activa op afwikkelingswaarde. Het modelverslag bevestigt of de staat het nettoactief niet overwaardeert."
+      - "BIJZONDERE PROCEDURE COMMISSARIS-PLICHT (ITAA-norm ontbinding-vereffening §11 — verifieerd via MCP): vóór het AANVAARDEN van een ontbinding-in-één-akte-mandaat moet de gecertificeerd accountant of bedrijfsrevisor NAGAAN of de vennootschap controleplichtig is (en dus een commissaris HEEFT die het mandaat kan opnemen). Indien WEL controleplichtig en commissaris bestaat → de COMMISSARIS moet aangesproken; een externe beroepsbeoefenaar zou interfereren met de commissaris-rol."
+      - "MODELVERSLAG bij ontbinding-in-één-akte — vier verplichte vermeldingen: (1) staat A&P niet overgewaardeerd; (2) alle schulden BETAALD OF GECONSIGNEERD (cf. art. 2:91 lid 2); (3) bevestiging van akkoord schuldeisers waar relevant; (4) discontinuïteits-waarderingsbasis toegelicht."
+      - "Examen-strikvragen rond ontbinding (zwaar bevraagd — case HOLDING RICH 2013-1 + GOFORT 2013-2 + 2013-2): (a) ONTBINDING NV onder controleplicht — wanneer een commissaris is aangesteld, neemt de commissaris het mandaat op (anders externe beroepsbeoefenaar). (b) staat A&P op DISCONTINUÏTEITS-basis — going-concern verlaten. (c) AFLOOPCONTROLE BEZOLDIGINGEN 454/9 + andere subsequent payments — bevestiging dat alle schulden voor consignatie correct geraamd. (d) MACHINES op ONTBINDINGS-waarde — uitgevoerd door materiële inspectie + externe taxatie, niet boekwaarde. (e) afkeer van procedure-fouten (ontbreken consignatie · ontbreken akkoord schuldeisers) wat oordeel-onthouding of weigering opdracht oplevert."
+      - "Voor REVIA — NIET van toepassing (REVIA is actieve groeionderneming). Maar pedagogisch belangrijk: ontbinding is examen-zwaartepunt. Stagiair moet de cumulatieve voorwaarden van art. 2:91 PARAAT hebben."
+
+  - id: prive-en-gerechtelijke-expertise
+    titel: "Rand-vermelding — Privé- en gerechtelijke expertise"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'het PO 1.6-programma noemt nog TWEE subtaken die hier kort moeten — privé-expertise en gerechtelijke expertise. Wat zijn ze, en waarom worden ze niet uitgediept?'."
+      - "Twee taken uit het programma: (1) PRIVÉ-EXPERTISE inzake bedrijfsboekhouding — een gecertificeerd accountant of bedrijfsrevisor wordt door een PARTIJ aangesteld (bv. bij een echtscheidings-conflict over een familie-vennootschap, of bij een aandeelhouders-geschil) om een advies of een expertise-verslag te geven over boekhoudkundige aangelegenheden. (2) GERECHTELIJKE EXPERTISE — een rechter benoemt een gecertificeerd accountant of bedrijfsrevisor als GERECHTSDESKUNDIGE in een handelszaak of fiscale procedure (Ger.W. art. 962-991ter)."
+      - "Wat verschilt van de bijzondere wettelijke verslagen? (a) GEEN VERSLAG VOOR ALGEMENE VERGADERING — het verslag richt zich tot een rechter of een partij. (b) NIET-WETTELIJKE MONOPOLIE — een ECONOMIST, advocaat of andere expert mag ook (maar boekhoudkundige expertise vraagt domein-kennis). (c) WERKWIJZE = OP TEGENSPRAAK — bij gerechtelijke expertise wordt het verslag ter discussie voorgelegd aan partijen; bij privé-expertise hangt het af van de opdracht. (d) GEEN beperkte-zekerheid-kader; geen modelverslag; werkwijze volgens deontologie + Ger.W."
+      - "Waarom kort behandeld? (a) PROGRAMMA noemt ze 'anchor_role: context' (randzone, niet kern). (b) VOORBEELDEXAMENS toetsen ze NUL keer expliciet. (c) examen-zwaarte zit bij de wettelijke monopolie-verslagen van vennootschapsverrichtingen. Voor verdieping bij interesse: zie ITAA-bibliotheek-fiches over gerechtelijke expertise."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (warning): een PROEF- EN SALDIBALANS van de interne boekhouder aanvaarden als staat A&P. FOUT — de wet vraagt een staat van activa en passiva opgesteld + ondertekend door het BESTUURSORGAAN (WVV art. 14:5 + analoge bepalingen). Een proef- en saldibalans is een tussentijds boekhoudkundig document zonder bestuursvalidatie en zonder waarderingsbeslissingen. De accountant moet de opdracht WEIGEREN of opschorten tot een correcte staat A&P. Examen-klassieker 2013-1 Fortunito + 2013-2."
+      - "Valkuil 2 (warning): bij een bijzonder mandaat dezelfde diepte verwachten als bij een audit (redelijke zekerheid). FOUT — bijzondere mandaten leveren BEPERKTE zekerheid (limited assurance). De procedures zijn beperkter dan ISA-audit: cijferanalyses + interviews + steekproef-controles. Het modelverslag heeft NEGATIEF geformuleerde conclusie ('niets geeft aan dat het nettoactief overgewaardeerd is') of conclusie op specifieke onderwerpen ('waardering komt overeen met aandelen-tegenwaarde'). Wie het audit-stelsel volledig toepast, doet teveel + raakt eigen onafhankelijkheid bij latere audit."
+      - "Valkuil 3 (warning): aanvaarden van een ONTBINDING-IN-ÉÉN-AKTE-mandaat zonder verificatie van de cumulatieve voorwaarden van WVV art. 2:91. FOUT — bij niet-vervulling van de voorwaarden (alle schulden niet betaald of geconsigneerd) is de ontbinding-in-één-akte nietig. De beroepsbeoefenaar moet weigeren of het mandaat opschorten. Voor controleplichtige vennootschappen: COMMISSARIS heeft voorrang (ITAA-norm ontbinding-vereffening §11). Voor niet-controleplichtige: externe accountant of revisor wijs het bestuursorgaan op de cumulatieve voorwaarden vóór aanvaarding. Examen-strikvraag GOFORT 2013-2."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+      hint: "Onafhankelijkheid is bij ELK bijzonder mandaat een aanvaardings-toets — vooral de zelf-toetsings-bedreiging speelt sterk wanneer de commissaris zou worden gevraagd. REVIA-case van Hubert Verbeke's gebouw illustreert dat."
+    - slug: afronden-en-rapporteren-van-een-audit
+      hint: "Vergelijking met de audit-controleverklaring. Beslismatrix oordeel-types (materieel × diepgaand) gebruikt analoge logica bij bijzondere verslagen — wanneer waardering onvoldoende ondersteund, voorbehoud of weigering modelverslag."
+    - slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+      hint: "Voor het kader — bijzondere wettelijke verslagen vormen de VIJFDE categorie naast audit / review / ISAE / AUP. Wettelijke monopolie van accountant of revisor; statuut hangt van type af."
+    - slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+      hint: "Vergelijking met audit-aanvaarding — opdrachtbrief + onafhankelijkheidstoets gelden analoog. Risico-inschatting per bewering werkt anders (beperkte zekerheid)."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vergelijkingstabel vier verrichtingen + gemeenschappelijk patroon op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [bijzondere-mandaten, commissaris, controleopdracht]
+    - concepten: [quasi-inbreng, fusie, ontbinding-en-vereffening]
+    - concepten: [reorganisatie, inbreng-onroerend-in-vennootschap, onafhankelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Inbreng in natura — oprichting (BV)"
+    ref: "WVV art. 5:7"
+    noot: "Bijzonder verslag oprichters + verslag bedrijfsrevisor over waardering + werkelijke vergoeding. Verifieerd via MCP."
+  - onderwerp: "Inbreng in natura — oprichting (NV)"
+    ref: "WVV art. 7:7"
+    noot: "Verslag oprichters + bedrijfsrevisor; conclusie waardering komt overeen met aandelen-tegenwaarde. Verifieerd via MCP."
+  - onderwerp: "Inbreng in natura — kapitaalverhoging (BV / NV)"
+    ref: "WVV art. 5:112 (BV) + 7:183 (NV)"
+    noot: "Commissaris (indien aangesteld) of door bestuursorgaan aangewezen bedrijfsrevisor of (sinds wet 25-5-2023) gecertificeerd accountant. Verifieerd via MCP."
+  - onderwerp: "Quasi-inbreng"
+    ref: "WVV art. 5:8 (BV) + 7:8 (NV)"
+    noot: "Verkrijging binnen 2 jaar na oprichting van vermogensbestanddelen door aandeelhouders voor > 10 % kapitaal."
+  - onderwerp: "Omzetting van rechtsvorm — nationaal"
+    ref: "WVV art. 14:3 (omzettingsvoorstel) + 14:5 (staat A&P + verslag)"
+    noot: "Bestuursorgaan stelt staat A&P op (nationaal: geen wettelijke termijn — ITAA-norm hanteert max 3 maanden); accountant of revisor verslag over staat. Verifieerd via MCP."
+  - onderwerp: "Omzetting — grensoverschrijdend"
+    ref: "WVV art. 14:20-14:21 (emigratie) + 14:73-14:74 (immigratie)"
+    noot: "Staat A&P max 4 maanden oud; commissaris of bedrijfsrevisor of gecertificeerd accountant verslag. Verifieerd via MCP."
+  - onderwerp: "Fusie en splitsing"
+    ref: "WVV Boek 12 (fusie) + Boek 13 (splitsing)"
+    noot: "Gemeenschappelijk fusievoorstel + verslag bestuursorgaan + verslag accountant of revisor over ruilverhouding."
+  - onderwerp: "Ontbinding — algemeen"
+    ref: "WVV art. 2:67 + 2:71"
+    noot: "Verzwaarde vermeldingen ontbindings-akte + verslag accountant of revisor."
+  - onderwerp: "Ontbinding-in-één-akte"
+    ref: "WVV art. 2:91"
+    noot: "Cumulatieve voorwaarden: geen vereffenaar + alle schulden betaald of geconsigneerd + commissaris/bedrijfsrevisor/externe accountant verslag. Verifieerd via MCP."
+  - onderwerp: "Discontinuïteits-waardering bij ontbinding"
+    ref: "KB WVV art. 3:6 §2"
+    noot: "Going concern verlaten → waardering tegen afwikkelingswaarde."
+  - onderwerp: "ITAA-norm bijzondere opdrachten"
+    ref: "ITAA-norm inbreng in natura + quasi-inbreng (gemeenschappelijk met IBR) · ITAA-norm omzetting · ITAA-norm ontbinding-vereffening (§11 verificatie commissarisplicht) · gemeenschappelijke IBR-ITAA-norm fusie/splitsing"
+    noot: "Per verrichting verplichte procedures + modelverslagen. §11 ontbinding-vereffening verifieerd via MCP."
+  - onderwerp: "Toezending verslag aan ITAA"
+    ref: "ITAA-richtlijn — 1 maand"
+    noot: "Termijn voor toezending van bijzondere-verslagen aan de ITAA na ondertekening. Examen-klassieker 2013-1."
+  - onderwerp: "Ter beschikking aandeelhouders 15 dagen"
+    ref: "WVV art. 7:128 (kapitaalverhoging) + analoge bepalingen"
+    noot: "Bestuurs-verslagen + bijzondere verslagen ter beschikking gesteld 15 dagen vóór AV."
+  - onderwerp: "Onafhankelijkheid bij bijzonder mandaat"
+    ref: "KB 1 maart 1998 art. 9 + IESBA Code"
+    noot: "Per opdracht toets bedreigingen — vooral zelf-toetsing bij commissaris-overlap."
+  - onderwerp: "Gerechtelijke expertise"
+    ref: "Ger.W. art. 962-991ter"
+    noot: "Benoeming gerechtsdeskundige + werkwijze op tegenspraak. Buiten kern PO 1.6."
+
+footer: "Leerstuk PO 1.6 — parallel spoor (zwaarste — hoe-uitzondering ~4500 woorden). Status: voorgesteld — ADR-037."

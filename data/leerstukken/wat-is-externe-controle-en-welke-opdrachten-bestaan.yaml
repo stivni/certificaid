@@ -1,0 +1,202 @@
+# Leerstuk-script — Wat is externe controle en welke opdrachten bestaan?
+#
+# PO 1.6 leerstuk 1 (entry + kader). Zet neer: welke vier opdracht-types een
+# beroepsbeoefenaar kan uitvoeren langs het zekerheidsniveau, welk
+# onderscheid bestaat tussen wettelijke (monopolie) en contractuele
+# opdrachten, welk statuut commissaris en gecertificeerd accountant
+# scheidt, en welke vier normbronnen-lagen op elke opdracht rusten
+# (ISA · ITAA-normen · IESBA Code · KB 1 maart 1998). Geen technische
+# diepte — alleen de kaart.
+#
+# Hand-off: dit leerstuk introduceert het vocabulaire — "audit",
+# "review", "ISAE", "AUP", "redelijke vs beperkte zekerheid",
+# "commissaris", "controleplichtig", "ITAA-normen", "ISA-stelsel" — dat
+# de vier volgende leerstukken nodig hebben. Leerstuk 5 (onafhankelijkheid)
+# kan onmiddellijk hierna gelezen worden als deontologische ondergrond;
+# leerstuk 2 start de feitelijke audit-cyclus.
+
+meta:
+  slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+  titel: "Wat is externe controle en welke opdrachten kan de accountant of revisor uitvoeren?"
+  po: "1.6"
+  cluster: externe-controle
+  voorbeeldgroep: revia-vlaanderen
+  beschrijving: >
+    Leerstuk PO 1.6 — entry + kader. Welke vier opdracht-types kunnen
+    een gecertificeerd accountant of bedrijfsrevisor uitvoeren (audit ·
+    review · assurance-opdracht ISAE · overeengekomen procedures AUP),
+    welk zekerheidsniveau hoort bij elk, wat onderscheidt een wettelijke
+    monopolie-opdracht van een contractuele opdracht, en welke vier
+    normbronnen-lagen rusten op elke opdracht. NV REVIA Vlaanderen — boven
+    de drie WVV-drempels en dus controleplichtig — illustreert het
+    klassieke audit-spoor; de inbreng-in-natura-mandaat dat parallel loopt
+    illustreert het monopolie-spoor.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 1.6-overzicht.
+    Wijs erop dat dit leerstuk de kaart neerzet — vier opdracht-types
+    langs zekerheidsniveau, statuut commissaris versus gecertificeerd
+    accountant, normbronnen-hiërarchie — die de volgende vier leerstukken
+    nodig hebben. Wie deze kapstok kent, herkent in elke vervolg-vraag
+    welk type opdracht en welke regel-laag actief is.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: externe controle = de attesterings-rol van een onafhankelijke beroepsbeoefenaar — gecertificeerd accountant of bedrijfsrevisor — die in vier mogelijke opdracht-types een verslag aflevert voor derden (aandeelhouders · banken · fiscus · ondernemingsrechtbank): audit (redelijke zekerheid) · review (beperkte zekerheid) · assurance-opdracht ISAE (redelijke OF beperkte) · overeengekomen procedures AUP (geen zekerheid)."
+    - "Vier opdracht-types op één rij — zekerheidsladder van hoog naar laag. De wettelijke jaarrekeningcontrole door de commissaris is een **audit met redelijke zekerheid** en valt onder de monopolie van de bedrijfsrevisor (Wet 7 december 2016). De andere drie types kan ook een gecertificeerd accountant uitvoeren. Bijzondere wettelijke verslagen (inbreng in natura · omzetting · fusie · ontbinding) zijn een **vijfde categorie** apart — wettelijke monopolie van accountant of revisor — uitgewerkt in [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen]]."
+    - "Op elke opdracht rusten vier normbronnen-lagen — wie weet welke laag de regel levert, vindt het antwoord binnen vijf minuten. Laag 1 = wet (WVV Boek 3 controleplicht · Wet 7 december 2016 revisoraat). Laag 2 = KB's (KB 1 maart 1998 plichtenleer accountants). Laag 3 = ITAA-normen + IBR-normen (specifieke opdracht-types). Laag 4 = internationale standaarden (ISA · ISRE · ISRS · ISAE) + IESBA Code voor ethiek."
+  visualisaties:
+    - type: tabel-vergelijking
+      ref: opdracht_types_vergelijking
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken de kaart in vier stappen uit — opdracht-types · wettelijk vs contractueel · statuut commissaris/accountant · normbronnen-hiërarchie — met REVIA Vlaanderen als anker. Daarna ben je klaar om de audit-cyclus in te duiken.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vier-opdracht-types
+    titel: "Vier opdracht-types langs het zekerheidsniveau"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag van elke jonge accountant: 'welke mate van zekerheid lever ik in dit dossier?'. Het antwoord ligt vast in vier IAASB-categorieën — Internationale standaarden voor controle (ISA), review (ISRE), assurance (ISAE) en aanverwante diensten (ISRS). Elke categorie heeft zijn eigen zekerheidsniveau, zijn eigen verslag-vorm en zijn eigen bewoording in het oordeel."
+      - "Audit (redelijke zekerheid) — het zwaarste type. De auditor verzamelt voldoende en geschikt audit-bewijs om met redelijke mate van zekerheid te oordelen dat de jaarrekening een getrouw beeld geeft. Verslag = controleverklaring met POSITIEF oordeel ('de jaarrekening geeft een getrouw beeld'). ISA-stelsel (ISA 200-720). Klassieke voorbeeld: wettelijke jaarrekeningcontrole door commissaris — REVIA Vlaanderen valt onder de drie WVV-drempels en moet een commissaris hebben."
+      - "Review (beperkte zekerheid) — een lichter alternatief. De beroepsbeoefenaar voert vooral cijferanalyses en interviews uit; minder werk dan audit. Verslag = beoordelingsverslag met NEGATIEVE bewoording ('niets bleek dat doet vermoeden dat de jaarrekening NIET een getrouw beeld geeft'). ISRE 2400 (volledige review) of ISRE 2410 (interim-review beursgenoteerd). In België: zelden gevraagd buiten interim-rapportering — controleplichtige entiteiten moeten een volle audit; niet-controleplichtige kleine vennootschappen kiezen meestal voor enkel een samenstelling."
+      - "Assurance-opdracht ISAE — voor NIET-financiële onderwerpen. Zekerheidsniveau hangt van de opdracht af: ISAE 3000 dekt zowel redelijke als beperkte zekerheid; ISAE 3410 is specifiek voor broeikasgassen-rapporten. Komt sterk op met de CSRD-duurzaamheidsverslaggeving — vanaf 2026 verplicht voor grote ondernemingen, met assurance-verslag van auditor of accountant. Hypothetisch voor REVIA: een ISAE 3000-opdracht op het duurzaamheidsverslag dat de banken (BNP-financiering) zouden kunnen opvragen."
+      - "Overeengekomen procedures (AUP) — GEEN zekerheid. De accountant voert vooraf afgesproken procedures uit en rapporteert feitelijke bevindingen — geen oordeel, geen conclusie. ISRS 4400 (herzien). Voorbeeld: een institutionele aandeelhouder (INVESTRA bij REVIA) vraagt een due diligence-check op specifieke groepscijfers vóór een uitkering."
+      - "Belangrijke nuance (blockquote-aside): de SAMENSTELLINGS-opdracht (ISRS 4410) wordt soms in deze rij genoemd, maar valt strikt onder 'aanverwante diensten' (related services) zonder zekerheid. Een accountant die boekhouding + jaarrekening voor een kleine vennootschap opmaakt, voert een samenstelling uit — geen audit. Dit is in België de MEEST COURANTE opdracht-type maar valt buiten de attesteringsrol — in dit leerstuk laten we hem links liggen (zie [[wat-is-het-accountantsberoep]] in PO 4.0)."
+      - "Concretiseer met REVIA Vlaanderen: het kantoor BV Audit & Controle voert een wettelijke jaarrekeningcontrole uit (audit, ISA-stelsel). Parallel wordt — voor de inbreng-in-natura van het gebouw door Hubert Verbeke — een aparte beroepsbeoefenaar aangewezen die een bijzonder wettelijk verslag opmaakt (vijfde categorie, monopolie van accountant of revisor, beperkte zekerheid). Twee verschillende opdracht-types op dezelfde cliënt — dat illustreert de kaart."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: opdracht_types_vergelijking
+        bron: voorbeeldgroep
+
+  - id: wettelijk-vs-contractueel
+    titel: "Wettelijk versus contractueel — twee opdracht-sporen"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'wie heeft de opdracht in gang gezet — de wet of de cliënt?'. Het antwoord bepaalt welke normen gelden, wie mag uitvoeren, en welke aansprakelijkheidsregels van toepassing zijn."
+      - "Wettelijke opdracht — opgelegd door de wet, EXCLUSIEF voorbehouden aan een specifieke beroepsbeoefenaar (monopolie). Drie hoofdgroepen: (a) wettelijke jaarrekeningcontrole door de commissaris (WVV Boek 3) — monopolie van de bedrijfsrevisor; (b) bijzondere wettelijke verslagen bij vennootschapsverrichtingen (WVV Boek 5 + 7 + 14) — monopolie van accountant OF revisor, naargelang de verrichting; (c) verslag aan ondernemingsraad, sociaal balanscontrole en andere — buiten scope dit leerstuk."
+      - "Contractuele opdracht — gevraagd door de cliënt op vrijwillige basis. Geen wettelijke monopolie — elke voldoende geschoolde beroepsbeoefenaar mag. Voorbeelden: vrijwillige review op een tussenjaarrekening (de bank vraagt dit voor een kredietdossier) · ISAE-assurance op een duurzaamheidsverslag · AUP op groepscijfers vóór een aandelenverkoop."
+      - "Belangrijke nuance (vetgedrukt): de vrijwillige controle — 'volkomen controle' in oudere terminologie — die door de cliënt wordt gevraagd zonder wettelijke verplichting, vereist nog steeds een bedrijfsrevisor wanneer dezelfde audit-werkwijze (ISA-stelsel) gevolgd wordt. Wie 'de bank vraagt me een audit te laten doen' krijgt als advies: aanvaarden door een revisor, NIET door een accountant zonder revisor-titel. De examenvraag 2024-1 toetst dit rechtstreeks."
+      - "Concretiseer met REVIA: de wettelijke controle is opgelegd (drie WVV-drempels overschreden — alle drie boven 250 medewerkers · 42,5 mln omzet · 21,25 mln balanstotaal). De inbreng in natura is OOK een wettelijke opdracht (WVV art. 7:7 voor de NV) — een monopolie-opdracht maar van accountant OF revisor, naar keuze van het bestuursorgaan. De BNP-Paribas-bank zou nog een aparte AUP kunnen vragen op cash-flow-projecties — dat zou een puur contractuele opdracht zijn."
+      - "Mini-case (uit voorbeeldgroep — boekhoudkundige staat door interne boekhouder): bij REVIA zou de junior auditor de interne maandafsluiting per 30/11/2024 kunnen aanvaarden als bewijs voor cut-off omzet. De partner stopt dat: een document opgemaakt DOOR DE CLIËNT heeft lagere bewijswaarde dan extern bevestigde stukken (verzendingsdocumenten klant). Dezelfde redenering geldt voor bijzondere mandaten: de wet vraagt een staat van activa en passiva opgesteld + ondertekend door het BESTUURSORGAAN — niet een proef- en saldibalans door de interne boekhouder. Onderscheid wie het document genereert; dat bepaalt de bewijswaarde."
+
+  - id: statuut-commissaris-vs-accountant
+    titel: "Statuut: commissaris versus gecertificeerd accountant"
+    niveau: 2
+    beats:
+      - "Open met de praktische vraag: 'welk mandaat mag IK aanvaarden als gecertificeerd accountant?'. Dat hangt af van de hoedanigheid van het beroep en van de aard van de opdracht."
+      - "Twee instituten — twee registers — twee tuchtsporen. ITAA = Instituut van de Belastingadviseurs en de Accountants (Wet 17 maart 2019). Daar zijn de GECERTIFICEERD ACCOUNTANTS en GECERTIFICEERD BELASTINGADVISEURS in ingeschreven. IBR = Instituut van de Bedrijfsrevisoren (Wet 7 december 2016). Daar zijn de BEDRIJFSREVISOREN in ingeschreven. Cumul tussen beide hoedanigheden is wettelijk uitgesloten. Voor de samenwerking bestaan confraterneliteits-gedragslijnen — vooral nodig bij gedeelde opdrachten (fusie, splitsing, inbreng)."
+      - "Wat doet de COMMISSARIS? Hij is een wettelijk orgaan van de vennootschap, benoemd door de algemene vergadering op voorstel van het bestuursorgaan (WVV art. 3:55). Drie-jaars mandaat, hernieuwbaar (WVV art. 3:58). Zijn hoofdtaak: de wettelijke jaarrekeningcontrole — audit volgens ISA-stelsel — eindigend in een controleverklaring. De wet vraagt UITDRUKKELIJK een BEDRIJFSREVISOR (of geregistreerd auditkantoor) voor het mandaat van commissaris (WVV art. 3:55 §1)."
+      - "Wat doet de GECERTIFICEERD ACCOUNTANT? Hij voert de andere drie opdracht-types uit (review · ISAE · AUP) plus de monopolie-opdrachten van het ITAA: boekhoudkundige expertise, bijzondere wettelijke verslagen bij vennootschapsverrichtingen wanneer hij door bestuursorgaan wordt aangewezen, gerechtelijke + privé-expertise. Wettelijke jaarrekeningcontrole valt buiten zijn bereik — daarvoor heb je de revisor-titel nodig."
+      - "Belangrijk overlapgebied: bij BIJZONDERE WETTELIJKE VERSLAGEN bij vennootschapsverrichtingen kiest het bestuursorgaan zelf — accountant of revisor, beide mogen (WVV art. 7:7 · 5:7 · 14:5 · 14:21 · 2:91). Wanneer de vennootschap een commissaris heeft, is het vaak de commissaris zelf die de opdracht aanvaardt — TENZIJ er een onafhankelijkheids-bedreiging speelt (zelf-toetsing — zie [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]). In dat geval wijst het bestuursorgaan een externe revisor of gecertificeerd accountant aan."
+      - "Concretiseer met REVIA: BV Audit & Controle (bedrijfsrevisorenkantoor, vertegenwoordigd door M. Dewulf) is de commissaris voor boekjaren 2023-2025. Voor de inbreng-in-natura van Hubert Verbeke wijst de Raad van Bestuur een ANDERE beroepsbeoefenaar aan — BVBA Vastgoed-Revisie — omdat M. Dewulf moet vermijden dat hij later, bij de jaarrekeningcontrole 2025, zijn eigen inbreng-waardering moet beoordelen (zelf-toetsings-bedreiging IESBA). Pedagogisch: hetzelfde dossier illustreert beide statuten — commissaris-rol én bijzonder mandaat — door dezelfde of een andere beroepsbeoefenaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Statuut", "Wet", "Register", "Wat MAG hij doen?", "Wat NIET?"]
+        rijen:
+          - ["**Bedrijfsrevisor (IBR)**", "Wet 7 december 2016", "Openbaar register IBR", "Wettelijke jaarrekeningcontrole (commissaris) · review · ISAE · AUP · bijzondere wettelijke verslagen", "Cumul met gecertificeerd belastingadviseur ITAA"]
+          - ["**Gecertificeerd accountant (ITAA)**", "Wet 17 maart 2019", "Openbaar register ITAA", "Review · ISAE · AUP · bijzondere wettelijke verslagen · expertise · samenstellingsopdrachten · boekhouding + fiscaal advies", "Wettelijke jaarrekeningcontrole als commissaris (alleen revisor)"]
+          - ["**Gecertificeerd belastingadviseur (ITAA)**", "Wet 17 maart 2019", "Openbaar register ITAA", "Fiscaal advies + aangiftes + procedure", "Wettelijke attesteringsopdrachten (geen titel ervoor)"]
+          - ["**Stagiair onder stagemeester**", "Wet ITAA art. 13 + 16", "Stagecommissie-register", "Praktische uitvoering onder verantwoordelijkheid stagemeester", "Eigen handtekening op monopolie-opdracht"]
+
+  - id: normbronnen-hiërarchie
+    titel: "Vier normbronnen-lagen rusten op elke opdracht"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-vraag: 'in welke tekst staat de regel die ik nu moet toepassen?'. Het antwoord ligt zelden in één bundel. Bij elke externe controle-opdracht staan vier lagen open — en wie weet welke laag actief is voor zijn vraag, vindt de tekst binnen vijf minuten."
+      - "Laag 1 — WET (bovenste laag). Kerntexten: WVV Boek 3 (wettelijke controle jaarrekening + benoeming commissaris) · WVV Boek 5 + 7 + 14 (bijzondere wettelijke verslagen — inbreng · omzetting · fusie · ontbinding) · Wet 7 december 2016 (organisatie revisoraat + IBR) · Wet 17 maart 2019 (ITAA + accountants). De wet bepaalt wie controleplichtig is, welke titel mag wat, welke verslagen wettelijk verplicht zijn."
+      - "Laag 2 — KONINKLIJKE BESLUITEN. Twee kerntexten voor PO 1.6: (a) KB 1 maart 1998 — reglement van plichtenleer accountants, oudere tekst die nog actief geldt; art. 9 over onafhankelijkheid is examen-klassieker (zie [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]); (b) KB 9 december 2019 — deontologische code ITAA (jongere tekst, naast KB 1998). Voor de bedrijfsrevisor geldt analoog het KB-uitvoeringsbesluit bij de Wet 7 december 2016 + ISQM 1 op kantoor-niveau."
+      - "Laag 3 — ITAA-NORMEN + IBR-NORMEN. Technische normen voor specifieke opdracht-types, goedgekeurd door de Raad van het ITAA respectievelijk IBR. Voor PO 1.6: (a) ITAA-KMO-controlenorm — Belgische lichtgewicht-norm voor wettelijke controles bij niet-OOB-entiteiten, leunt op ISA's; (b) ITAA-norm omzetting · ITAA-norm ontbinding-vereffening · gemeenschappelijke IBR-ITAA-norm fusie/splitsing · ITAA-norm inbreng in natura — voor de bijzondere wettelijke verslagen; (c) ITAA-norm intern kwaliteitsmanagement (op kantoor-niveau)."
+      - "Laag 4 — INTERNATIONALE STANDAARDEN + IESBA Code. De IAASB (International Auditing and Assurance Standards Board) ontwikkelt: ISA (audit) · ISRE (review) · ISAE (assurance) · ISRS (related services) · ISQM 1/2 (kantoor-kwaliteit). Voor België bindend zodra een ITAA-norm of IBR-norm of KB ernaar verwijst. De IESBA Code (International Code of Ethics for Professional Accountants) is de internationale ethiek-norm — bevat het bedreigingen-kader voor onafhankelijkheid (zelf-toetsing · eigenbelang · belangenbehartiging · vertrouwdheid · intimidatie) — uitgewerkt in [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]."
+      - "Synthese (vetgedrukt): bij elk dossier vraag je 'welke laag levert de regel?' — bovenliggende laag wijkt nooit voor onderliggende. Een ITAA-norm kan de wet niet wegmaken, wel concretiseren of strenger maken. Een ISA wordt pas bindend in België via de verwijzing in een ITAA-norm of IBR-norm. Voorbeeld voor REVIA: dat een commissaris moet benoemd worden = LAAG 1 (WVV art. 3:72); dat hij ISA-procedures toepast = LAAG 4 (via ITAA-KMO-controlenorm in LAAG 3); dat hij onafhankelijk moet zijn = LAAG 2 (KB 1 maart 1998 art. 9) gecombineerd met LAAG 4 (IESBA Code)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Laag", "Bron-type", "Voorbeelden voor PO 1.6", "Voorbeeld voor REVIA"]
+        rijen:
+          - ["**1**", "Wet", "WVV Boek 3 (controleplicht) · Wet 7-12-2016 (revisoraat) · Wet 17-3-2019 (ITAA)", "Drie WVV-drempels overschreden → commissaris verplicht"]
+          - ["**2**", "Koninklijk besluit", "KB 1 maart 1998 (plichtenleer accountants) · KB 9 december 2019 (deontologische code ITAA)", "Art. 9 KB 1998 over onafhankelijkheid: niet aanvaarden bij belangenconflict"]
+          - ["**3**", "ITAA + IBR-normen", "ITAA-KMO-controlenorm · ITAA-norm omzetting · gemeenschappelijke IBR-ITAA-norm fusie", "Modelverslag commissaris en bijzondere wettelijke verslagen volgens ITAA-norm"]
+          - ["**4**", "Internationale standaarden + IESBA Code", "ISA 200-720 · ISRE 2400/2410 · ISAE 3000/3410 · ISRS 4400/4410 · ISQM 1/2 · IESBA Code", "Audit-cyclus REVIA volgens ISA-stelsel; IESBA-bedreigingen-kader bij aanvaarding"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (warning): 'volkomen controle' verwarren met 'controle door een accountant'. FOUT — wie 'volkomen controle' zegt, bedoelt de wettelijke jaarrekeningcontrole volgens ISA-stelsel; die is voorbehouden aan de BEDRIJFSREVISOR (Wet 7 december 2016). Een gecertificeerd accountant kan een review uitvoeren (beperkte zekerheid, ISRE-stelsel) maar geen 'volkomen controle' in de zin van een audit met redelijke zekerheid. Examen 2024-1 toetst dit rechtstreeks."
+      - "Valkuil 2 (warning): denken dat 'zekerheid' iets is dat de cliënt of de bank kiest. FOUT — het zekerheidsniveau zit VASTGEBAKKEN aan het opdracht-type. Audit = redelijke zekerheid (positieve verklaring). Review = beperkte zekerheid (negatieve verklaring 'niets gebleken'). AUP = geen zekerheid (alleen feitelijke bevindingen). Wie 'audit-light' belooft of 'iets-meer-dan-review' levert, geeft een onmogelijke combinatie. Klassieke valkuil in opdrachtbrieven: meng nooit twee opdracht-types in één engagement."
+      - "Valkuil 3 (warning): denken dat de cumul gecertificeerd accountant + bedrijfsrevisor wel toegelaten is. FOUT — wettelijk uitgesloten (Wet 17 maart 2019 art. 10 §5). Wie revisor IS, kan geen gecertificeerd belastingadviseur ITAA worden. Op kantoor-niveau bestaan wel gemengde formules (een revisorenkantoor met accountants in dienst), maar de individuele cumul van TITELS is verboden. Bij gedeelde opdrachten (fusie · splitsing · inbreng): de confraterneliteits-gedragslijnen IBR-ITAA bepalen hoe twee beroepsbeoefenaars samenwerken."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+      hint: "De onderbouwende deontologie-laag — bedreigingen-kader IESBA (5 categorieën), KB 1 maart 1998 art. 9, kwaliteitsmanagement ISQM 1/ISA 220. Lees dit vóór je in de audit-cyclus duikt; aanvaarding is de eerste fase waar onafhankelijkheid getoetst wordt."
+    - slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+      hint: "De audit-cyclus eerste helft — aanvaarding · planning (materialiteit + risico-inschatting ISA 315/320) · uitvoering (7 procedures + assertions ISA 500-530). Dit is het zwaarste leerstuk."
+    - slug: afronden-en-rapporteren-van-een-audit
+      hint: "De audit-cyclus tweede helft — afronding (ISA 450/540/560/570/580/720) + oordeel-types (ISA 700/705/706) + revisiedossier (10 jaar bewaring). De beslismatrix oordeel-types is hier het pedagogisch hart."
+    - slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+      hint: "Het parallel spoor — Boek 14 + Boek 5 + Boek 7 WVV. Inbreng in natura · omzetting · fusie · ontbinding. Beperkte zekerheid, staat A&P door bestuursorgaan, ITAA-normen. Examen-zwaartepunt nummer één in PO 1.6."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vier opdracht-types langs zekerheidsniveau, statuut commissaris versus accountant, normbronnen-hiërarchie op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [opdracht-types, controleopdracht, commissaris]
+    - concepten: [beoordeling-cyclus, isae-opdracht, overeengekomen-procedures-opdracht]
+    - concepten: [bijzondere-mandaten, gecertificeerd-accountant, isa-overzicht]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Wettelijke controle jaarrekening + benoeming commissaris"
+    ref: "WVV art. 3:55 · 3:58 · 3:70 · 3:72"
+    noot: "Art. 3:55 = benoeming door AV op voorstel bestuursorgaan; art. 3:58 = 3-jaars mandaat; art. 3:70 = wettelijke controle door commissaris; art. 3:72 = controleplicht-drempels (verwijst naar art. 1:24-1:26). Verifieerd via MCP."
+  - onderwerp: "Statuut bedrijfsrevisor + tucht + ISQM"
+    ref: "Wet 7 december 2016 betreffende organisatie van het beroep van bedrijfsrevisor"
+    noot: "Inschrijving in openbaar register IBR; bewaarplicht revisiedossier 10 jaar (art. 16); kwaliteitstoetsing."
+  - onderwerp: "Statuut gecertificeerd accountant + ITAA"
+    ref: "Wet 17 maart 2019 betreffende beroep van gecertificeerd accountant en belastingadviseur"
+    noot: "Inschrijving in openbaar register ITAA; art. 10 §5 = cumul-verbod met IBR-titel."
+  - onderwerp: "Plichtenleer accountants — onafhankelijkheid"
+    ref: "KB 1 maart 1998 art. 3 · 9 · 11 · 14"
+    noot: "Nog actief geldig; art. 9 = weigeren bij onafhankelijkheids-bedreiging. Verifieerd via MCP."
+  - onderwerp: "Deontologische code ITAA"
+    ref: "KB 9 december 2019 — deontologische code ITAA"
+    noot: "Gebaseerd op art. 49 Wet ITAA; naast (niet vervangend) KB 1 maart 1998."
+  - onderwerp: "Bijzondere wettelijke verslagen — inbreng in natura"
+    ref: "WVV art. 5:7 (BV oprichting) · 5:112 (BV kapitaalverhoging) · 7:7 (NV oprichting) · 7:183 (NV kapitaalverhoging)"
+    noot: "Door bestuursorgaan aangewezen bedrijfsrevisor — of commissaris als die bestaat. Verifieerd via MCP."
+  - onderwerp: "Bijzondere wettelijke verslagen — omzetting"
+    ref: "WVV art. 14:5 (nationale omzetting) · 14:21 (grensoverschrijdende emigratie)"
+    noot: "Staat A&P door bestuursorgaan; nationale omzetting in art. 14:5 (geen termijn in artikel zelf — ITAA-norm: max 3 maanden); grensoverschrijdend art. 14:21 expliciet 4 maanden. Verifieerd via MCP."
+  - onderwerp: "Ontbinding-in-één-akte"
+    ref: "WVV art. 2:91"
+    noot: "Cumulatieve voorwaarden: geen vereffenaar aangeduid + alle schulden betaald of geconsigneerd; commissaris, bedrijfsrevisor of externe accountant maakt verslag. Verifieerd via MCP."
+  - onderwerp: "ITAA-KMO-controlenorm + ITAA-normen bijzondere opdrachten"
+    ref: "ITAA-KMO-controlenorm · ITAA-norm omzetting · ITAA-norm ontbinding-vereffening · gemeenschappelijke IBR-ITAA-norm fusie/splitsing · ITAA-norm inbreng in natura"
+    noot: "LAAG 3 in normbronnen-hiërarchie; concretiseren ISA's en bijzondere opdracht-types."
+  - onderwerp: "Internationale standaarden — ISA en aanverwante"
+    ref: "ISA 200-720 (audit) · ISRE 2400/2410 (review) · ISAE 3000/3410 (assurance) · ISRS 4400/4410 (related services) · ISQM 1/2 (kantoor)"
+    noot: "Internationale IAASB-stelsels; bindend in België via verwijzing in ITAA/IBR-normen."
+  - onderwerp: "IESBA Code (Belgisch addendum)"
+    ref: "IESBA International Code of Ethics for Professional Accountants"
+    noot: "Bedreigingen-kader onafhankelijkheid (5 categorieën) + safeguards. Uitgewerkt in [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]."
+
+footer: "Leerstuk PO 1.6 — entry + kader. Status: voorgesteld — ADR-037."

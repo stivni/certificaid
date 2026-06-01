@@ -1,0 +1,858 @@
+# NV REVIA Vlaanderen — centrale audit-cliënt voor PO 1.6
+#
+# Eén controleplichtige Belgische industrievennootschap (precisie-onderdelen
+# voor de farmaceutische verpakkingsindustrie) met:
+#   - lopende wettelijke jaarrekeningcontrole door commissaris (audit-cyclus
+#     leerstukken 1-3)
+#   - drie audit-issues die alle vier oordeel-types op tafel leggen
+#     (rechtszaak / voorraad-veroudering / lage confirmaties-respons)
+#   - parallel bijzonder mandaat: inbreng in natura van een gebouw door de
+#     patriarch in eigen vennootschap — opdracht door een andere accountant
+#     dan de commissaris (leerstuk 4 + onafhankelijkheids-dilemma leerstuk 5)
+#   - Poolse productie-dochter + Duitse joint venture (cross-link PO 1.4
+#     consolidatie — niet in deze YAML uitgewerkt)
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-externe-controle-en-welke-opdrachten-bestaan.yaml
+#   - data/leerstukken/aanvaarden-plannen-en-uitvoeren-van-een-audit.yaml
+#   - data/leerstukken/afronden-en-rapporteren-van-een-audit.yaml
+#   - data/leerstukken/bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen.yaml
+#   - data/leerstukken/onafhankelijkheid-en-deontologie-bij-controleopdrachten.yaml
+#   - data/oefeningen/revia-audit-doorloop.yaml (oefening — 5 documenten, 75 min)
+#
+# Stijl-keuze: cijfer-rijk waar pedagogisch nodig (balans + resrek voor
+# materialiteits-berekening en analytisch onderzoek; mock-issue-bedragen voor
+# de oordeel-type-beslismatrix). Geen Cijferzakboekje-afhankelijke fiscale
+# tarieven — die leven in andere PO's. Wel verwijzingen naar WVV-drempels
+# (art. 1:24 + 1:26, verhoogd sinds CBN-advies 2024/07: 11,25 mln / 6 mln
+# / 42,5 mln / 21,25 mln).
+#
+# Wettelijke claims hier opgenomen zijn ⚖️ via MCP `certificaid-rag`
+# `zoek_bronnen` (rerank) op 2026-06-01 bevestigd vanuit:
+#   - WVV art. 1:24 + 1:25 + 1:26 (grootte-criteria; verhoogde drempels CBN
+#     2024/07)
+#   - WVV art. 3:55 + 3:58 + 3:70 + 3:72 (benoeming + mandaat + controleplicht
+#     commissaris)
+#   - ITAA-norm ontbinding-vereffening §11 (verificatie commissarisplicht bij
+#     aanvaarding bijzonder mandaat)
+#   - ISA 315 (herzien-2019) §13-37 + §A11-A47 (risico-inschattingswerkzaamheden)
+# Andere ISA's en wetsartikelen worden in de leerstuk-scripts geverifieerd
+# (volgens skelet §4 en §8.6); hier alleen als verwijzing.
+
+naam: revia-vlaanderen
+beschrijving: >
+  Doorlopende audit-cliënt voor PO 2.6 — externe controle. NV REVIA Vlaanderen
+  is een fictieve controleplichtige Belgische industrievennootschap (Mechelen,
+  precisie-onderdelen voor farmaceutische verpakkingsindustrie). Familiaal
+  meerderheidsaandeelhouderschap (70 % Verbeke-familie via Verbeke Holding;
+  30 % institutionele participatie INVESTRA NV sinds 2018). Boven alle drie
+  WVV-drempels (art. 1:26 verhoogd: 250 werknemers / 42,5 mln omzet /
+  21,25 mln balanstotaal) → commissaris benoemd voor 3-jaars mandaat conform
+  art. 3:58 WVV. Niet beursgenoteerd, geen OOB. Eén buitenlandse dochter
+  (REVIA Polska sp. z o.o., 100 %, productie-onderdelen) + één joint venture
+  (REVIA-PHARMA GmbH, 50/50 met Duitse partner, verkooporganisatie). De case
+  draagt de hele audit-cyclus (aanvaarden → plannen → uitvoeren → afronden →
+  verslag) en parallel één bijzonder mandaat (inbreng in natura gebouw
+  Hubert Verbeke 2,8 mln EUR — opdracht door een andere accountant dan de
+  commissaris). Drie audit-issues lopen parallel en zorgen voor het materiaal
+  voor de oordeel-type-beslismatrix in leerstuk 3: hangende rechtszaak ex-klant
+  (claim 1,2 mln EUR — niet voorzien op balans), voorraad-waardering cleanroom-
+  productlijn (boekwaarde 600k EUR vermoedelijk technisch verouderd), lage
+  respons handelsvorderingen-confirmaties (65 %).
+
+referentiejaar: "2024"
+balansdatum: "31-12-2024"
+context_jaartal: "2026"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Vennootschap-identiteit
+# ---------------------------------------------------------------------------
+
+vennootschap:
+  naam: "NV REVIA Vlaanderen"
+  ondernemingsnummer: "BE 0440.123.456"
+  rechtsvorm: "Naamloze vennootschap"
+  zetel: "Industriezone Mechelen-Noord, Schaliënhoevedreef 20, 2800 Mechelen"
+  vestiging_bijkomend: "Commerciële vestiging Brussel (Tour & Taxis-zone) — sales + customer service"
+  opgericht: 1987
+  sector_nace: "28.99 — vervaardiging van overige machines voor specifieke industrieën"
+  sector_omschrijving: >
+    Ontwerp + productie van precisie-onderdelen voor de farmaceutische
+    verpakkingsindustrie (vul- en sluitmachine-componenten, cleanroom-uitrusting,
+    rvs-leidingstelsels). Klanten zijn voornamelijk multinationale pharma-OEM's
+    en hun toeleveranciers in de EU.
+  beursgenoteerd: false
+  oob_status: "geen organisatie van openbaar belang (OOB) in de zin van Verordening (EU) 537/2014"
+  ifrs_verplicht: false  # geen IFRS-plicht: niet beursgenoteerd + geen OOB
+  consolidatie_verplicht: true  # zie groepsstructuur; cross-link PO 1.4
+
+# ---------------------------------------------------------------------------
+# DEEL B — Omvang en controleplicht-toets
+# ---------------------------------------------------------------------------
+
+omvang_2024:
+  medewerkers_gemiddeld: 280
+  jaaromzet_excl_btw_eur: 62_000_000
+  balanstotaal_eur: 51_000_000
+
+# Toets van de drie WVV-drempels (art. 1:26 — groepen van beperkte omvang,
+# door art. 3:72 WVV als criterium voor controleplicht moeder + groep).
+# Drempels verhoogd door CBN-advies 2024/07 (in voege voor boekjaren
+# aangevat na 31.12.2023). ⚖️ verifieerd via MCP rerank 2026-06-01.
+controleplicht_toets:
+  artikel_wettelijk: "WVV art. 3:72 (controleplicht door commissaris) → verwijst naar grootte-criteria art. 1:26 (groep) of art. 1:24 (enkelvoudig, kleine vennootschap)"
+  bron_drempels: "WVV art. 1:26 §1 — verhoogd door wet 27 maart 2024 op aanbeveling EU-Richtlijn 2023/2775; CBN-advies 2024/07"
+  drempels_verhoogd_2024:
+    medewerkers: 250
+    omzet_eur: 42_500_000      # was 34 mln vóór verhoging
+    balanstotaal_eur: 21_250_000  # was 17 mln vóór verhoging
+  toets_revia:
+    medewerkers: "280 > 250 — overschreden"
+    omzet: "62 mln > 42,5 mln — overschreden"
+    balanstotaal: "51 mln > 21,25 mln — overschreden"
+  conclusie: "alle drie drempels overschreden → controleplichtig — commissaris verplicht aan te stellen (art. 3:72 WVV)"
+  confidence: "⚖️ — WVV-artikelen + verhoogde drempels verifieerd via MCP"
+
+# ---------------------------------------------------------------------------
+# DEEL C — Aandeelhouders, bestuur, commissaris
+# ---------------------------------------------------------------------------
+
+aandeelhouders:
+  - naam: "Verbeke Holding NV"
+    percentage: 70
+    rol: "patriarchale familie-controle; Hubert Verbeke (patriarch) + 2 zonen via holding"
+    aard: "familievermogen — overdracht 3e generatie aan de gang"
+  - naam: "INVESTRA NV"
+    percentage: 30
+    rol: "strategische participatie sinds 2018 — passieve langetermijn-investeerder; 1 bestuurder afgevaardigd"
+    aard: "institutionele participatie"
+
+bestuur:
+  bestuursorgaan: "Raad van Bestuur (5 bestuurders)"
+  voorzitter_rvb: "Hubert Verbeke (75 j., patriarch, niet operationeel — voorzitterschap)"
+  ceo_gedelegeerd_bestuurder: "Wouter Verbeke (zoon, 48 j., dagelijks bestuur — gedelegeerd bestuurder)"
+  andere_bestuurders:
+    - "Tom Verbeke (zoon, 45 j., commercieel directeur — bestuurder)"
+    - "Pieter Janssens (afgevaardigd door INVESTRA NV — niet-uitvoerend bestuurder)"
+    - "Marleen Vandenberghe (onafhankelijk bestuurder sinds 2020 — financieel profiel)"
+  auditcomite:
+    bestaat: false
+    motivering: >
+      Niet wettelijk verplicht (REVIA Vlaanderen is geen organisatie van openbaar
+      belang). WVV art. 7:99 verplicht auditcomité alleen bij beursgenoteerde
+      vennootschappen + grote kredietinstellingen + verzekeringsondernemingen.
+      Voor niet-OOB grote vennootschappen mag de Raad van Bestuur de taken van
+      het auditcomité collectief uitoefenen (art. 7:99 §1 laatste lid).
+      ⚠️ te verifiëren in scripts-fase
+    gevolg_voor_auditor: "Communicatie ISA 260 verloopt naar de Raad van Bestuur als geheel (i.p.v. naar apart auditcomité)"
+
+commissaris:
+  titel: "BV Audit & Controle Bedrijfsrevisoren"
+  vertegenwoordiger: "Mevr. M. Dewulf (bedrijfsrevisor, IBR-nummer-mock A-12345)"
+  benoemd_door: "Algemene Vergadering van 28 juni 2023, op voorstel van het bestuursorgaan (art. 3:55 §1 WVV)"
+  mandaat: "Boekjaren 2023-2024-2025 (drie boekjaren, hernieuwbaar — art. 3:58 §1 WVV)"
+  vergoeding_eur_jaar: 48_000
+  honorarium_basis: "Vastgelegd bij benoeming door AV; jaarrekening vermeldt commissaris-vergoeding in toelichting"
+  voorganger: "Geen voorganger — REVIA werd controleplichtig in boekjaar 2022 door overschrijden van drempels; eerste commissaris benoemd voor boekjaren 2023-2025"
+
+# ---------------------------------------------------------------------------
+# DEEL D — Groepsstructuur (cross-link PO 1.4 — consolidatie)
+# ---------------------------------------------------------------------------
+
+groepsstructuur:
+  moeder: "NV REVIA Vlaanderen (Mechelen, BE)"
+  dochters:
+    - naam: "REVIA Polska sp. z o.o."
+      land: "Polen (Wrocław)"
+      participatie_pct: 100
+      verwerving: "2014 — greenfield-investering"
+      activiteit: "productie-eenheid voor labour-intensieve onderdelen (kostenbasis)"
+      omzet_2024_eur: 12_000_000
+      medewerkers: 95
+      consolidatiemethode: "integraal (controle-criterium gehaald)"
+  joint_ventures:
+    - naam: "REVIA-PHARMA GmbH"
+      land: "Duitsland (Düsseldorf)"
+      participatie_pct: 50
+      partner: "PHARMA Vertrieb GmbH (privé, Duits familiaal verdelers-bedrijf)"
+      activiteit: "gemeenschappelijke verkooporganisatie DE-AT-CH (markttoegang via partner-netwerk)"
+      omzet_2024_eur: 8_500_000
+      medewerkers: 18
+      consolidatiemethode: "vermogensmutatie (gezamenlijke controle — IFRS 11 / KB WVV)"
+  consolidatieplicht:
+    verplicht: true
+    bron: "WVV art. 3:23 e.v. — moedervennootschap > kleine groep verplicht geconsolideerde jaarrekening op te stellen"
+    impact_audit: "Wettelijke controle dekt zowel enkelvoudige als geconsolideerde jaarrekening (art. 3:70 + 3:72 WVV)"
+  audit_perimeter:
+    enkelvoudig: "NV REVIA Vlaanderen — volledige audit door commissaris"
+    geconsolideerd: "REVIA-groep (moeder + Polska + 50 % PHARMA) — group audit volgens ISA 600"
+    componenten_auditor_polska: "Auditor lokaal in Polen (mock — KPMG Polska); commissaris-team voert reviews uit + bezoekt component (ISA 600 §29-31)"
+
+# ---------------------------------------------------------------------------
+# DEEL E — Balans (samenvattend) — voor materialiteit + analytisch onderzoek
+# ---------------------------------------------------------------------------
+#
+# Σ activa = Σ passiva = 51.000.000 EUR per 31/12/2024 — intern consistent.
+# Vergelijkende cijfers 31/12/2023 voor analytische werkzaamheden (ISA 520).
+
+balans_31_12_2024:
+  activa:
+    vaste_activa:
+      immateriele_activa_eur: 800_000      # software + ontwikkelingskosten
+      materiele_activa_eur: 22_000_000     # machines hoofdpost (cleanroom + CNC)
+      financiele_vaste_activa_eur: 1_200_000  # deelneming REVIA Polska
+      totaal_vaste_activa_eur: 24_000_000
+    vlottende_activa:
+      voorraden_eur: 8_000_000             # grondstoffen 3 mln + onderhanden werk 2 mln + gereed product 3 mln
+      handelsvorderingen_eur: 11_000_000   # lange betalingstermijnen pharma-klanten
+      overige_vorderingen_eur: 5_000_000   # BTW-tegoed + voorschotten + groepsvorderingen Polska
+      liquide_middelen_eur: 3_000_000
+      totaal_vlottende_activa_eur: 27_000_000
+    totaal_activa_eur: 51_000_000
+  passiva:
+    eigen_vermogen:
+      kapitaal_eur: 5_000_000
+      uitgiftepremies_eur: 2_000_000
+      herwaarderingsmeerwaarden_eur: 2_000_000  # gebouwen-herwaardering 2015
+      reserves_eur: 11_000_000
+      overgedragen_winst_eur: 2_000_000
+      totaal_eigen_vermogen_eur: 22_000_000
+    voorzieningen_eur: 0  # GEEN voorziening voor hangende rechtszaak — audit-issue 1
+    lt_schulden:
+      bank_lening_bnp_eur: 12_000_000      # 10-jarige investeringskrediet 2018
+      obligaties_eur: 6_000_000            # private placement institutionele beleggers 2021
+      totaal_lt_schulden_eur: 18_000_000
+    kt_schulden:
+      handelsschulden_eur: 6_500_000
+      belastingen_rsz_bv_eur: 2_500_000
+      overige_kt_schulden_eur: 2_000_000   # overlopende kosten + groepsschulden
+      totaal_kt_schulden_eur: 11_000_000
+    totaal_passiva_eur: 51_000_000
+
+balans_31_12_2023:  # vergelijkende cijfers — voor analytische werkzaamheden ISA 520
+  activa:
+    totaal_vaste_activa_eur: 23_500_000
+    voorraden_eur: 7_200_000             # +11 % vs 2023 → analytische vraag
+    handelsvorderingen_eur: 9_800_000    # +12 % vs 2023 → DSO-stijging
+    overige_vorderingen_eur: 4_500_000
+    liquide_middelen_eur: 4_000_000
+    totaal_activa_eur: 49_000_000
+  passiva:
+    totaal_eigen_vermogen_eur: 20_500_000  # +1,5 mln retentie 2024
+    voorzieningen_eur: 0
+    totaal_lt_schulden_eur: 19_000_000
+    totaal_kt_schulden_eur: 9_500_000
+    totaal_passiva_eur: 49_000_000
+
+# ---------------------------------------------------------------------------
+# DEEL F — Resultatenrekening — voor materialiteits-basis + analytisch onderzoek
+# ---------------------------------------------------------------------------
+
+resultatenrekening_2024:
+  omzet_eur: 62_000_000
+  andere_bedrijfsopbrengsten_eur: 800_000
+  totaal_bedrijfsopbrengsten_eur: 62_800_000
+  kosten:
+    handelsgoederen_grondstoffen_eur: -28_000_000
+    diensten_diverse_goederen_eur: -10_500_000
+    personeelskosten_eur: -14_000_000     # 280 medewerkers gemiddelde kost 50k
+    afschrijvingen_eur: -3_200_000
+    waardeverminderingen_eur: -300_000    # gewone waardeverminderingen 2024
+    voorzieningen_eur: 0                  # GEEN — issue 1
+    andere_bedrijfskosten_eur: -1_000_000
+  bedrijfsresultaat_ebit_eur: 5_800_000
+  financieel_resultaat_eur: -1_600_000   # rentelasten BNP + obligaties
+  resultaat_voor_belastingen_eur: 4_200_000
+  belastingen_op_resultaat_eur: -1_050_000  # ca. 25 % effectief
+  netto_resultaat_eur: 3_150_000
+
+resultatenrekening_2023:
+  omzet_eur: 56_000_000
+  bedrijfsresultaat_ebit_eur: 4_900_000
+  resultaat_voor_belastingen_eur: 3_500_000
+  netto_resultaat_eur: 2_625_000
+
+# ---------------------------------------------------------------------------
+# DEEL G — Materialiteit-berekening (voor leerstuk 2 — planning)
+# ---------------------------------------------------------------------------
+#
+# Auditor kiest benchmark op basis van entiteit-omgeving (ISA 320 §10-13 + §A4-A14).
+# REVIA Vlaanderen: winstgevende industrievennootschap, gebruikers van jaarrekening
+# zijn primair banken (BNP-financiering) + institutionele participatie (INVESTRA) +
+# leveranciers/klanten. → benchmark "resultaat voor belastingen" past natuurlijk
+# (genormaliseerd resultaat — relatief stabiel jaar-op-jaar).
+
+materialiteit_2024:
+  benchmark_gekozen: "resultaat voor belastingen (genormaliseerd)"
+  benchmark_motivering: >
+    Resultaat voor belastingen is voor REVIA passend: (a) winstgevend met stabiele
+    marge (~7 % EBIT-marge), (b) primaire gebruikers (bank + minderheidsparticipatie)
+    sturen op resultaatcijfers, (c) geen incidentele eenmalige items 2024 die
+    normalisatie vragen. Alternatief omzet (1 % = 620k) zou te hoog uitkomen voor
+    een entiteit zonder bijzondere omzetvolatiliteit.
+  overall_materiality_pct: "5 % van resultaat voor belastingen"
+  overall_materiality_eur: 210_000          # 5 % × 4.200.000
+  uitvoeringsmaterialiteit_pct: "75 % van overall (significante risico-omgeving — drie audit-issues lopen)"
+  uitvoeringsmaterialiteit_eur: 158_000     # 75 % × 210.000
+  duidelijk_kleine_afwijkingen_eur: 10_000  # ca. 5 % van overall (ISA 450 §A2)
+  benchmarks_overzicht:
+    omzet_0_5_pct: 310_000     # 0,5 % × 62 mln
+    omzet_1_pct: 620_000       # 1 % × 62 mln
+    activa_1_pct: 510_000      # 1 % × 51 mln
+    activa_2_pct: 1_020_000    # 2 % × 51 mln
+    resultaat_voor_belastingen_5_pct: 210_000   # gekozen — pedagogisch ankerpunt
+    resultaat_voor_belastingen_10_pct: 420_000
+
+# ---------------------------------------------------------------------------
+# DEEL H — Risico-inschatting (ISA 315 — voor leerstuk 2)
+# ---------------------------------------------------------------------------
+#
+# Vier significante risico's geïdentificeerd op niveau beweringen (ISA 315 §28-37).
+# Categorisering per beweringen-cluster (transacties / saldi / presentatie —
+# ISA 315 §A190). ⚖️ ISA 315 (herzien-2019) §13-37 + §A190 verifieerd via MCP.
+
+risico_inschatting:
+
+  - id: risico-1
+    aard: "Continuïteit van waardering hangende rechtszaak"
+    bewering_categorie: "saldi — volledigheid + waardering passiva"
+    isa_referenties: "ISA 315 §28-37 + ISA 540 herzien + ISA 501 §9-12 (rechtszaken)"
+    omschrijving: >
+      Ex-klant ROCHE-Gent dient sinds 2023 een claim van 1,2 mln EUR voor een
+      vermeende ontwerpfout aan een vul-installatie. Management classificeert
+      als "voorwaardelijke verplichting" (toelichting) zonder voorziening op
+      balans. Significant risico voor volledigheid passiva (mogelijk
+      onderwaardering voorzieningen — KB WVV art. 3:11 §1).
+    significant: true
+    audit_aanpak: "Lawyer's letter (ISA 501 §9-12 + ISA 580) — confirmatie advocaat over uitkomst-waarschijnlijkheid + raming"
+
+  - id: risico-2
+    aard: "Voorraad-waardering technologische veroudering cleanroom-onderdelen"
+    bewering_categorie: "saldi — waardering activa"
+    isa_referenties: "ISA 540 (herzien) + ISA 501 §4 (voorraadtelling) + CBN-advies 132/7"
+    omschrijving: >
+      Productlijn voor één specifieke vul-machinegeneratie van klant X
+      vertoont sinds 2023 sterk dalende afzet (klant X migreert naar nieuwere
+      machinegeneratie). Boekwaarde voorraad 600k EUR; vermoeden van
+      waardevermindering (FIFO + lower of cost or NRV).
+    significant: true
+    audit_aanpak: "Inspectie + interviews productiehoofd + analyse rotatiesnelheid + opvolging verkooppipeline + ouderdomslijst"
+
+  - id: risico-3
+    aard: "Bestaan + waardering handelsvorderingen (lage confirmatie-respons)"
+    bewering_categorie: "saldi — bestaan + waardering activa"
+    isa_referenties: "ISA 505 §6 + §7 + §12-13 + ISA 330"
+    omschrijving: >
+      11 mln EUR handelsvorderingen; positieve confirmaties verzonden naar
+      top-20 (dekking 78 % van saldo). Respons na vervaldatum slechts 65 %
+      (ISA 505 §12 — alternatieve werkzaamheden vereist voor non-respondenten).
+    significant: false  # courant audit-thema, niet significant volgens ISA 315
+    audit_aanpak: "Alternatieve werkzaamheden ISA 505 §12: subsequent receipts-test + verzendingsdocumenten + saldobevestiging op basis van betalingen na balansdatum"
+
+  - id: risico-4
+    aard: "Verbonden partijen — transactieprijs REVIA Polska intra-groep"
+    bewering_categorie: "transacties — juistheid + presentatie"
+    isa_referenties: "ISA 550 (verbonden partijen) + ISA 315"
+    omschrijving: >
+      REVIA Polska factureert productie-onderdelen aan moeder tegen transfer
+      pricing-prijzen (cost-plus 8 %). Onderbouwing transfer pricing-rapport
+      door externe adviseur 2022; risico van afwijking marktconforme
+      prijszetting + presentatie verbonden partijen (KB WVV toelichting).
+    significant: false
+    audit_aanpak: "Inspectie TP-documentatie + analytische review brutomarge per productlijn + vergelijking met externe benchmarks"
+
+# ---------------------------------------------------------------------------
+# DEEL I — Audit-issues (mock-bevindingen voor leerstuk 3 — oordeel-keuze)
+# ---------------------------------------------------------------------------
+#
+# Drie issues, één per audit-procedure-categorie. Het materiaal voor de
+# beslismatrix oordeel-types (materieel × diepgaand — leerstuk 3 §kern).
+
+audit_issues:
+
+  - id: "issue-1-rechtszaak"
+    aard: "Hangende rechtszaak ex-klant ROCHE-Gent — claim 1.200.000 EUR voor vermeende ontwerpfout"
+    boekhoudkundige_verwerking_door_management: >
+      Geen voorziening op balans. Vermelding als voorwaardelijke verplichting in
+      toelichting bij jaarrekening: "een rechtsgeding loopt waarvan de uitkomst
+      onzeker is; raming van het mogelijk bedrag: 1,2 mln EUR".
+    auditor_dilemma:
+      norm_referentie: "ISA 501 §9-12 + ISA 580 + KB WVV art. 3:11 (voorzieningen)"
+      stappen:
+        - "Stap 1 — Lawyer's letter (positieve confirmatie advocaat): vraagt evaluatie waarschijnlijkheid + raming + tijdshorizon (ISA 501 §9)"
+        - "Stap 2 — Eventuele weigering management om lawyer's letter te ondertekenen = scope-beperking → mogelijk voorbehoud of onthouding (ISA 705)"
+        - "Stap 3 — Indien advocaat antwoordt 'waarschijnlijk veroordeling, te ramen op 800k': voorziening van 800k vereist volgens KB WVV; afwijking management 800k > materialiteit 210k → materieel"
+        - "Stap 4 — Auditor verzoekt aanpassing; bij weigering management → voorbehoud of afkeurend afhankelijk van diepgang"
+    mogelijke_uitkomsten:
+      scenario_a: "Advocaat zegt 'onwaarschijnlijk' — toelichting voldoende, geen voorziening, oordeel goedkeurend"
+      scenario_b: "Advocaat zegt 'waarschijnlijk, raming 800k' — voorziening nodig; management corrigeert → goedkeurend"
+      scenario_c: "Advocaat zegt 'waarschijnlijk, raming 800k' — management weigert correctie → afwijking 800k > materialiteit, niet-diepgaand → **voorbehoud** (ISA 705 §7)"
+      scenario_d: "Management weigert lawyer's letter te ondertekenen → scope-beperking, diepgaand → **onthoudende verklaring** (ISA 705 §9-10)"
+
+  - id: "issue-2-voorraad"
+    aard: "Voorraad cleanroom-onderdelen productlijn klant X — technische veroudering"
+    boekhoudkundige_verwerking_door_management: >
+      Boekwaarde 600.000 EUR (FIFO). Geen waardevermindering geboekt 2024 ondanks
+      dalende afzet 2023-2024 (-45 % volume). Management beargumenteert "rotatie
+      blijft binnen 18 maanden, geen waardevermindering nodig".
+    auditor_dilemma:
+      norm_referentie: "ISA 540 (herzien) + CBN-advies 132/7 (waardering voorraad lower of cost or net realisable value)"
+      stappen:
+        - "Stap 1 — Inspectie ouderdomslijst + interview verkoophoofd over pipeline klant X"
+        - "Stap 2 — Externe benchmarking: marktinfo over migratie van klant X naar nieuwere machinegeneratie"
+        - "Stap 3 — Schatting netto-realiseerbare waarde: indien 220k vs boekwaarde 600k → waardevermindering 380k nodig"
+        - "Stap 4 — Afwijking 380k > materialiteit 210k → materieel; vraag aan management om correctie"
+    mogelijke_uitkomsten:
+      scenario_a: "Management corrigeert (380k waardevermindering geboekt) → goedkeurend"
+      scenario_b: "Management weigert correctie, deelt argumentatie maar levert geen ondersteunend bewijs → voorbehoud (afwijking materieel-niet-diepgaand)"
+
+  - id: "issue-3-confirmaties"
+    aard: "Externe confirmaties handelsvorderingen — lage respons"
+    boekhoudkundige_verwerking_door_management: >
+      Handelsvorderingen 11.000.000 EUR. Positieve confirmaties verzonden naar
+      top-20 (dekking 78 % saldo, 8,6 mln EUR aangeschreven). Respons op
+      vervaldatum: 65 % van aangeschrevenen (5,6 mln EUR bevestigd).
+      Non-respondenten: 7 klanten, totaal 3,0 mln EUR.
+    auditor_dilemma:
+      norm_referentie: "ISA 505 §6 + §7 + §12-13 (externe confirmaties — alternatieve werkzaamheden bij non-respons)"
+      valkuil: "Lage respons confirmaties = NIET automatisch voorbehoud (klassieke examen-strikvraag). Auditor moet eerst alternatieve werkzaamheden uitvoeren (ISA 505 §12) — subsequent receipts of verzendingsdocumenten + facturen + aanvaardingsbewijzen."
+      stappen:
+        - "Stap 1 — Per non-respondent (7 klanten): subsequent receipts-test (betalingen ontvangen in januari-februari 2025)"
+        - "Stap 2 — Voor klanten zonder betaling: verzendings-bewijzen + getekende leveringsbonnen + facturen"
+        - "Stap 3 — Slot-evaluatie: indien 90 % van saldo dekkend (door confirmatie + alternatieve werkzaamheden) → bewering bestaan voldoende ondersteund"
+    mogelijke_uitkomsten:
+      scenario_a: "Alternatieve werkzaamheden succesvol — geen impact oordeel (goedkeurend)"
+      scenario_b: "Alternatieve werkzaamheden falen voor 1 klant (saldo 600k > materialiteit) → scope-beperking materieel-niet-diepgaand → voorbehoud"
+
+# ---------------------------------------------------------------------------
+# DEEL J — Bijzonder mandaat parallel — inbreng in natura (voor leerstuk 4)
+# ---------------------------------------------------------------------------
+
+bijzonder_mandaat_parallel:
+  type: "Inbreng in natura"
+  wettelijke_basis: "WVV art. 7:7 (NV — verslag bestuursorgaan + verslag accountant of revisor over inbreng in natura) + art. 5:7 (BV — analoog)"
+  context: >
+    De patriarch Hubert Verbeke (persoonlijk eigenaar) wenst zijn industriegebouw
+    aan de Schaliënhoevedreef 22 — pal naast de bestaande zetel — in te brengen
+    in NV REVIA Vlaanderen in ruil voor nieuwe aandelen (kapitaalverhoging).
+    Geschatte waarde gebouw: 2.800.000 EUR.
+  inbrenger:
+    naam: "Hubert Verbeke (privépersoon, 75 j.)"
+    band_met_vennootschap: "Onrechtstreeks meerderheidsaandeelhouder via Verbeke Holding NV (70 %); voorzitter Raad van Bestuur — verbonden partij (ISA 550)"
+  inbreng:
+    aard: "Onroerend goed — industriegebouw 2.400 m² + 800 m² kantoorgedeelte"
+    locatie: "Schaliënhoevedreef 22, 2800 Mechelen — aanpalend perceel"
+    boekwaarde_inbrenger_eur: 1_800_000   # waarde in privévermogen Verbeke
+    geschatte_marktwaarde_eur: 2_800_000  # taxatie vastgoedexpert + recente comparables
+  tegenwaarde:
+    aandelen_uitgegeven: "Nieuwe NV-aandelen — kapitaalverhoging 2.800.000 EUR (waarde × ruilverhouding bestaande aandelen)"
+    impact_aandeelhouderschap: "Familie Verbeke-belang stijgt van 70 % naar ca. 73,5 % (verwatering INVESTRA)"
+  beroepsbeoefenaar_voor_mandaat:
+    rol: "Bedrijfsrevisor (of GA) — opdracht door bestuursorgaan; ook commissaris mag deze opdracht aanvaarden indien onafhankelijkheid gewaarborgd"
+    aanwijzing_revia: "RvB wijst een **andere** beroepsbeoefenaar aan dan de commissaris — bewust gekozen om onafhankelijkheids-discussie scherp te stellen"
+    motivering_keuze: >
+      Commissaris BV Audit & Controle weigert opdracht zelf te aanvaarden wegens
+      bedreiging "self-review" (IESBA): de inbreng-waardering zou later moeten
+      worden gevalideerd in zijn eigen jaarrekeningcontrole 2025. Bestuursorgaan
+      wijst BVBA Vastgoed-Revisie aan (geen relatie met REVIA noch met INVESTRA).
+  itaa_norm: "ITAA-norm inzake inbreng in natura en quasi-inbreng (gemeenschappelijke ITAA-IBR-norm)"
+  proces_overzicht:
+    stap_1: "Bestuursorgaan stelt verslag op (verantwoording opportuniteit) + maakt 'staat van activa en passiva' van het ingebrachte goed klaar (max 3 maanden oud)"
+    stap_2: "Aanwijzing accountant of bedrijfsrevisor door bestuursorgaan (i.c. niet de commissaris zelf)"
+    stap_3: "Beroepsbeoefenaar onderzoekt waardering (limited assurance, NIET redelijke zekerheid) + steltverslag op met conclusie 'de waardering komt overeen met ten minste het aantal en de nominale waarde van de uit te geven aandelen' OF voorbehoud"
+    stap_4: "Beide verslagen ter beschikking aandeelhouders 15 dagen vóór AV (art. 7:128 WVV — kapitaalverhoging)"
+    stap_5: "AV besluit met versterkte meerderheid kapitaalverhoging; akte notaris"
+
+# ---------------------------------------------------------------------------
+# DEEL K — Mermaid-diagrammen (herbruikbaar leerstukken + samenvatting)
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  audit_cyclus:
+    type: flowchart-lr
+    beschrijving: "Zes-fasen audit-cyclus met ISA-nummers per fase — kern leerstuk 2 en 3 + samenvatting blok 3"
+    code: |
+      A[1. Aanvaarding<br/>ISA 210 + IESBA + KB 1 mrt 1998<br/>opdrachtbrief]
+      A --> B[2. Planning<br/>ISA 300 + 315 + 320<br/>materialiteit + risico-inschatting]
+      B --> C[3. Uitvoering<br/>ISA 330 + 500 + 501 + 505 + 520 + 530<br/>7 procedures + assertions]
+      C --> D[4. Afronding<br/>ISA 450 + 540 + 560 + 570 + 580 + 720<br/>analytische slot-review + LOR]
+      D --> E[5. Verslag<br/>ISA 700 + 705 + 706 + ITAA-KMO §119-121<br/>beslismatrix oordeel]
+      E --> F[6. Archivering<br/>ISA 230 + Wet 7 dec 2016 art. 16<br/>revisiedossier 10 jaar]
+      C -.->|herziening risico| B
+
+  groepsstructuur:
+    type: flowchart-td
+    beschrijving: "Groepsfiguur REVIA — moeder + dochter Polska + JV PHARMA; voor leerstuk 1 (perimeter audit) + leerstuk 2 (component-auditor ISA 600)"
+    code: |
+      A[Verbeke Holding NV<br/>privé-familie<br/>70 %]
+      B[INVESTRA NV<br/>institutioneel<br/>30 %]
+      A --> M[NV REVIA Vlaanderen<br/>Mechelen — moeder<br/>62 mln omzet]
+      B --> M
+      M -->|100 %| P[REVIA Polska sp. z o.o.<br/>Wrocław — productie<br/>12 mln omzet]
+      M -->|50 %| J[REVIA-PHARMA GmbH<br/>Düsseldorf — verkoop DE-AT-CH<br/>8,5 mln omzet]
+      K[PHARMA Vertrieb GmbH<br/>Duitse partner] -->|50 %| J
+      M -.->|consolidatieperimeter<br/>WVV art. 3:23| P
+      M -.->|vermogensmutatie<br/>JV| J
+
+  bedreigingen_kader:
+    type: flowchart-td
+    beschrijving: "IESBA-bedreigingen-kader (5 categorieën) + safeguards-laag — kern leerstuk 5 + samenvatting blok 9"
+    code: |
+      A[Opdracht-aanvaarding of -voortzetting]
+      A --> B{Bedreigingen<br/>identificeren}
+      B --> C1[Eigenbelang<br/>self-interest<br/>bv. commissie / honorarium-afhankelijkheid]
+      B --> C2[Zelf-toetsing<br/>self-review<br/>bv. eigen waardering nadien controleren]
+      B --> C3[Belangenbehartiging<br/>advocacy<br/>bv. cliënt verdedigen bij derden]
+      B --> C4[Vertrouwdheid<br/>familiarity<br/>bv. langdurige relatie cliënt-team]
+      B --> C5[Intimidatie<br/>intimidation<br/>bv. dreigement vervanging]
+      C1 --> D{Aanvaardbaar<br/>niveau?}
+      C2 --> D
+      C3 --> D
+      C4 --> D
+      C5 --> D
+      D -->|nee — geen safeguards| E[Weigering / beëindiging]
+      D -->|ja — safeguards toepassen| F[Safeguards<br/>roulatie partner + EQR + functiescheiding + opvolging onafhankelijkheid]
+      F --> G[Opdracht aanvaarden + documenteren]
+
+  beslismatrix_oordeel:
+    type: flowchart-td
+    beschrijving: "Beslismatrix vier oordeel-types — kern leerstuk 3 + samenvatting blok 5"
+    code: |
+      A[Bevindingen<br/>auditor]
+      A --> B{Type probleem?}
+      B -->|Afwijking — verkeerde info| C{Diepgang?}
+      B -->|Scope-beperking — geen info| D{Diepgang?}
+      C -->|Niet-diepgaand<br/>materieel maar geïsoleerd| E[Voorbehoud<br/>'except for'<br/>ISA 705 §7]
+      C -->|Diepgaand<br/>materieel en pervasief| F[Afkeurend oordeel<br/>'adverse'<br/>ISA 705 §8]
+      D -->|Niet-diepgaand| G[Voorbehoud<br/>'except for' scope<br/>ISA 705 §7]
+      D -->|Diepgaand| H[Onthoudende verklaring<br/>'disclaimer'<br/>ISA 705 §9-10]
+      B -->|Geen materiële afwijking + voldoende info| I[Goedkeurend oordeel<br/>'unmodified'<br/>ISA 700]
+
+# ---------------------------------------------------------------------------
+# DEEL L — Tabellen (kern-overzichten leerstukken + samenvatting)
+# ---------------------------------------------------------------------------
+
+tabellen:
+
+  opdracht_types_vergelijking:
+    titel: "Vier opdracht-types — kapstok leerstuk 1 + samenvatting blok 4"
+    bron: "IAASB-kaderwerk (audit / review / assurance / related services)"
+    kolommen: [type, zekerheidsniveau, isa_norm, eindproduct, voorbeeld_revia]
+    rijen:
+      - type: "Audit (wettelijke controle)"
+        zekerheidsniveau: "Redelijke zekerheid (reasonable assurance) — positieve formulering"
+        isa_norm: "ISA 200-720 (volledig auditspoor)"
+        eindproduct: "Controleverklaring met oordeel goedkeurend / met voorbehoud / afkeurend / onthoudend"
+        voorbeeld_revia: "Wettelijke controle jaarrekening 2024 door commissaris BV Audit & Controle"
+      - type: "Review (beoordelingsopdracht)"
+        zekerheidsniveau: "Beperkte zekerheid (limited assurance) — negatieve formulering"
+        isa_norm: "ISRE 2400 / ISRE 2410 (review interim)"
+        eindproduct: "Beoordelingsverslag — 'niets bleek dat doet vermoeden dat...'"
+        voorbeeld_revia: "Niet van toepassing voor REVIA (controleplichtig — verplichte audit)"
+      - type: "Assurance-opdracht op niet-financiële informatie"
+        zekerheidsniveau: "Redelijke OF beperkte zekerheid (per opdracht)"
+        isa_norm: "ISAE 3000 / ISAE 3410 (broeikasgassen)"
+        eindproduct: "Assurance-verslag op specifiek onderwerp"
+        voorbeeld_revia: "Hypothetisch — CSRD-duurzaamheidsverslag REVIA vanaf 2026 (assurance ISAE)"
+      - type: "Overeengekomen procedures (AUP)"
+        zekerheidsniveau: "Geen zekerheid — alleen feitelijke bevindingen"
+        isa_norm: "ISRS 4400 (herzien)"
+        eindproduct: "Verslag van feitelijke bevindingen — geen oordeel"
+        voorbeeld_revia: "Hypothetisch — opdracht door INVESTRA-bestuurder voor due diligence-procedures op groepscijfers"
+
+  assertions_isa_315:
+    titel: "Beweringen-overzicht ISA 315 §A190 — kern leerstuk 2 + samenvatting blok 7"
+    bron: "ISA 315 (herzien-2019) §A190 — ⚖️ via MCP"
+    kolommen: [categorie, bewering, omschrijving, voorbeeld_revia]
+    rijen:
+      - categorie: "Klassen van transacties + gebeurtenissen"
+        bewering: "Plaatsgevonden (occurrence)"
+        omschrijving: "Geboekte transacties hebben echt plaatsgevonden en behoren tot de entiteit"
+        voorbeeld_revia: "Geboekte omzet 62 mln — gefactureerd én geleverd in 2024"
+      - categorie: "Klassen van transacties + gebeurtenissen"
+        bewering: "Volledigheid (completeness)"
+        omschrijving: "Alle plaatsgevonden transacties zijn geboekt"
+        voorbeeld_revia: "Volledigheid aankopen Polska intercompany — match factuur ↔ ontvangst"
+      - categorie: "Klassen van transacties + gebeurtenissen"
+        bewering: "Juistheid (accuracy)"
+        omschrijving: "Bedragen + andere gegevens correct geboekt"
+        voorbeeld_revia: "Juistheid transfer pricing Polska — cost + 8 %"
+      - categorie: "Klassen van transacties + gebeurtenissen"
+        bewering: "Afgrenzing (cut-off)"
+        omschrijving: "Transacties in juiste boekjaar geboekt"
+        voorbeeld_revia: "Cut-off omzet rond 31/12/2024 — leveringsdocumenten match"
+      - categorie: "Klassen van transacties + gebeurtenissen"
+        bewering: "Classificatie (classification)"
+        omschrijving: "Transacties op juiste rekening geboekt"
+        voorbeeld_revia: "Onderhoudskosten vs investeringen — capex/opex-grens"
+      - categorie: "Rekeningsaldi op einde periode"
+        bewering: "Bestaan (existence)"
+        omschrijving: "Activa, passiva, eigen vermogen bestaan werkelijk"
+        voorbeeld_revia: "Bestaan handelsvorderingen 11 mln — externe confirmaties + alternatieve werkzaamheden"
+      - categorie: "Rekeningsaldi op einde periode"
+        bewering: "Rechten + verplichtingen (rights and obligations)"
+        omschrijving: "Entiteit heeft eigendomsrechten op activa; passiva zijn verplichtingen van entiteit"
+        voorbeeld_revia: "Eigendomstitels gebouwen + machines"
+      - categorie: "Rekeningsaldi op einde periode"
+        bewering: "Volledigheid (completeness)"
+        omschrijving: "Alle activa, passiva, eigen vermogen zijn geboekt"
+        voorbeeld_revia: "Volledigheid voorzieningen — hangende rechtszaak ROCHE-Gent (issue 1)"
+      - categorie: "Rekeningsaldi op einde periode"
+        bewering: "Juistheid van waardering (accuracy, valuation, allocation)"
+        omschrijving: "Activa, passiva, eigen vermogen tegen juiste waarde geboekt"
+        voorbeeld_revia: "Waardering voorraad cleanroom 600k — issue 2"
+      - categorie: "Rekeningsaldi op einde periode"
+        bewering: "Classificatie (classification)"
+        omschrijving: "Activa + passiva correct gepresenteerd"
+        voorbeeld_revia: "Classificatie obligaties — LT vs KT-deel"
+      - categorie: "Presentatie + toelichtingen"
+        bewering: "Plaatsgevonden + rechten en verplichtingen"
+        omschrijving: "Toelichtingen vermeldde transacties hebben plaatsgevonden"
+        voorbeeld_revia: "Toelichting verbonden partijen — transactie Verbeke-gebouw"
+      - categorie: "Presentatie + toelichtingen"
+        bewering: "Volledigheid"
+        omschrijving: "Alle vereiste toelichtingen opgenomen"
+        voorbeeld_revia: "Volledigheid toelichting hangende rechtszaak (KB WVV)"
+      - categorie: "Presentatie + toelichtingen"
+        bewering: "Classificatie + begrijpelijkheid"
+        omschrijving: "Informatie correct gerubriceerd en duidelijk gepresenteerd"
+        voorbeeld_revia: "Heldere uiteenzetting transfer pricing-beleid"
+      - categorie: "Presentatie + toelichtingen"
+        bewering: "Juistheid + waardering"
+        omschrijving: "Financiële en andere informatie correct toegelicht"
+        voorbeeld_revia: "Correct bedrag herwaarderingsmeerwaarde 2 mln"
+
+  bewijsmiddelen_rangorde:
+    titel: "Zeven controlewerkzaamheden met betrouwbaarheids-rangorde — kern leerstuk 2 + samenvatting blok 7"
+    bron: "ISA 500 §A14-A25 — ⚖️ via MCP te verifiëren in scripts-fase"
+    kolommen: [rangorde, procedure, omschrijving, betrouwbaarheid_aspect, voorbeeld_revia]
+    rijen:
+      - rangorde: 1
+        procedure: "Externe bevestiging (external confirmation)"
+        omschrijving: "Schriftelijke reactie van derde rechtstreeks aan auditor"
+        betrouwbaarheid_aspect: "Hoogste — externe + onafhankelijke + schriftelijke bron"
+        voorbeeld_revia: "Bank confirmation BNP Paribas Fortis voor saldo's + zekerheden + Lawyer's letter ROCHE-Gent dossier"
+      - rangorde: 2
+        procedure: "Inspectie van materiële activa"
+        omschrijving: "Fysieke waarneming van activa"
+        betrouwbaarheid_aspect: "Sterk voor bestaan; zwakker voor waardering"
+        voorbeeld_revia: "Voorraadtelling cleanroom-onderdelen 31/12/2024"
+      - rangorde: 3
+        procedure: "Inspectie van documentatie"
+        omschrijving: "Onderzoek van interne of externe schriftelijke stukken"
+        betrouwbaarheid_aspect: "Externe stukken > interne stukken"
+        voorbeeld_revia: "Inspectie verzendingsdocumenten + leveringsbonnen handelsvorderingen"
+      - rangorde: 4
+        procedure: "Opnieuw uitvoeren (reperformance)"
+        omschrijving: "Auditor voert procedure of controle van management opnieuw uit"
+        betrouwbaarheid_aspect: "Hoog — direct gegenereerd door auditor"
+        voorbeeld_revia: "Opnieuw uitvoeren voorraad-waardering steekproef (FIFO-recalculatie)"
+      - rangorde: 5
+        procedure: "Herberekening (recalculation)"
+        omschrijving: "Wiskundige juistheid controleren"
+        betrouwbaarheid_aspect: "Hoog — direct gegenereerd door auditor"
+        voorbeeld_revia: "Herberekening afschrijvingen machines + rentelasten BNP-lening"
+      - rangorde: 6
+        procedure: "Cijferanalyses (analytical procedures)"
+        omschrijving: "Evaluatie via relaties tussen financiële en niet-financiële gegevens"
+        betrouwbaarheid_aspect: "Effectief voor planning + slot-review; zwakker als enige bron"
+        voorbeeld_revia: "Brutomarge-analyse per productlijn + DSO-evolutie (handelsvorderingen 9,8 → 11,0 mln)"
+      - rangorde: 7
+        procedure: "Verzoek om inlichtingen (inquiry)"
+        omschrijving: "Mondelinge of schriftelijke vragen aan management of derden"
+        betrouwbaarheid_aspect: "Laagste op zich — moet altijd gecombineerd met andere procedures"
+        voorbeeld_revia: "Interview productiehoofd over technologische veroudering cleanroom-lijn"
+      - rangorde: "Observatie (apart)"
+        procedure: "Observatie (observation)"
+        omschrijving: "Waarneming van proces of procedure uitgevoerd door anderen"
+        betrouwbaarheid_aspect: "Punt-in-tijd — niet representatief voor heel jaar"
+        voorbeeld_revia: "Observatie voorraadtelling-procedure 31/12/2024 (auditor woont bij)"
+
+  materialiteit_benchmarks:
+    titel: "Materialiteit-benchmarks (professional judgment) — leerstuk 2 + samenvatting"
+    bron: "ISA 320 §A4-A14 (geen wettelijke percentages — gangbare praktijk)"
+    kolommen: [benchmark, gangbaar_percentage, omschrijving, toepassing_revia]
+    rijen:
+      - benchmark: "Resultaat voor belastingen (genormaliseerd)"
+        gangbaar_percentage: "5 % - 10 %"
+        omschrijving: "Geschikt voor winstgevende entiteiten met stabiel resultaat"
+        toepassing_revia: "5 % × 4.200.000 = 210.000 EUR — **gekozen benchmark**"
+      - benchmark: "Omzet"
+        gangbaar_percentage: "0,5 % - 1 %"
+        omschrijving: "Geschikt bij verlieslatende entiteiten of sterk volatiele resultaten"
+        toepassing_revia: "1 % × 62.000.000 = 620.000 EUR — niet gekozen (te hoog)"
+      - benchmark: "Totale activa"
+        gangbaar_percentage: "1 % - 2 %"
+        omschrijving: "Geschikt voor entiteiten waar balans-omvang doorslaggevend is (vastgoed, holdings)"
+        toepassing_revia: "1 % × 51.000.000 = 510.000 EUR — niet gekozen"
+      - benchmark: "Eigen vermogen"
+        gangbaar_percentage: "1 % - 5 %"
+        omschrijving: "Geschikt voor entiteiten in opstart of bij sterk veranderende activiteit"
+        toepassing_revia: "5 % × 22.000.000 = 1.100.000 EUR — niet gekozen"
+    valkuilen_examen:
+      - "Materialiteit wordt door **auditor** vastgelegd in zijn professional judgment — niet door KB, niet door AV, niet door management."
+      - "Uitvoeringsmateriality is een fractie (typisch 50-75 %) van overall materiality — niet hetzelfde."
+      - "Duidelijk kleine afwijkingen-grens (clearly trivial threshold) is typisch 5 % van overall — afwijkingen onder die grens worden niet geaccumuleerd."
+
+  bijzondere_mandaten_vergelijking:
+    titel: "Vier verrichtings-types bijzondere wettelijke verslagen — kern leerstuk 4 + samenvatting blok 8"
+    bron: "WVV Boek 5 + Boek 7 + Boek 14 + ITAA/IBR-normen — ⚖️ verifiëren in scripts-fase"
+    kolommen: [verrichting, wetsartikel, wie_staat_a_p, zekerheidsniveau, modelverslag_clausule, voorbeeld_revia]
+    rijen:
+      - verrichting: "Inbreng in natura"
+        wetsartikel: "WVV art. 7:7 (NV) + art. 5:7 (BV) — verslag bestuursorgaan + verslag accountant of revisor"
+        wie_staat_a_p: "Bestuursorgaan stelt staat A&P op (max 3 maanden oud) en omschrijving van het ingebrachte goed + waardering"
+        zekerheidsniveau: "Beperkte zekerheid (limited assurance)"
+        modelverslag_clausule: "Conclusie 'de waardering komt overeen met ten minste het aantal en de nominale waarde van de uit te geven aandelen'"
+        voorbeeld_revia: "Inbreng gebouw Hubert Verbeke 2,8 mln (zie bijzonder_mandaat_parallel)"
+      - verrichting: "Omzetting van rechtsvorm"
+        wetsartikel: "WVV art. 14:3 (omzettingsverslag bestuursorgaan) + art. 14:5 (verslag accountant of revisor)"
+        wie_staat_a_p: "Bestuursorgaan stelt staat A&P op (max 3 maanden oud); leidende cijfer = nettoactief"
+        zekerheidsniveau: "Beperkte zekerheid"
+        modelverslag_clausule: "Conclusie 'de staat geeft geen overwaardering van het nettoactief weer'; verplichte risico-clausule hoofdelijke aansprakelijkheid bij omzetting NV→BV (zaakvoerders nog 5 jaar aansprakelijk voor verschil)"
+        voorbeeld_revia: "Hypothetisch — REVIA bij eventuele omzetting NV→BV bij 4e generatie-overdracht"
+      - verrichting: "Fusie of splitsing"
+        wetsartikel: "WVV Boek 12 + 13 — gemeenschappelijk fusievoorstel + verslag bestuursorgaan + verslag accountant of revisor over ruilverhouding"
+        wie_staat_a_p: "Bestuursorgaan stelt fusievoorstel + verslag; beroepsbeoefenaar onderzoekt ruilverhouding op basis van waarderingsmethoden"
+        zekerheidsniveau: "Beperkte zekerheid"
+        modelverslag_clausule: "Conclusie 'ruilverhouding redelijk + waarderingsmethoden adequaat'; gemeenschappelijke IBR-ITAA-norm vereist samenwerking tussen beroepsbeoefenaars van fuserende vennootschappen"
+        voorbeeld_revia: "Hypothetisch — eventuele fusie REVIA Vlaanderen ↔ Polska bij Europese reorganisatie"
+      - verrichting: "Ontbinding + vereffening"
+        wetsartikel: "WVV art. 2:71 (ontbinding-in-één-akte) + art. 2:80 (vereffeningsverslag) + ITAA-norm ontbinding-vereffening"
+        wie_staat_a_p: "Bestuursorgaan stelt staat A&P op (max 3 maanden oud) op basis van **discontinuïteits-waardering** (KB WVV art. 3:6 §2 — going-concern verlaten)"
+        zekerheidsniveau: "Beperkte zekerheid"
+        modelverslag_clausule: "Conclusie 'de staat geeft geen overwaardering van het nettoactief weer'; voor ontbinding-in-één-akte: cumulatieve voorwaarden (alle schulden betaald of geconsigneerd + akkoord alle schuldeisers); voorafgaande verificatie commissaris-plicht (ITAA-norm §11 — ⚖️)"
+        voorbeeld_revia: "Niet van toepassing — REVIA is actieve onderneming, geen ontbindings-scenario"
+
+# ---------------------------------------------------------------------------
+# DEEL M — Mini-cases (voor edge-cases die hoofdtimeline niet dekt)
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  - naam: "Mini-case 1 — Volkomen controle vs beperkt nazicht"
+    leerstuk_primair: "wat-is-externe-controle-en-welke-opdrachten-bestaan (L1)"
+    feiten: >
+      Een KMO-zaakvoerder vraagt zijn accountant: "kun je voor mijn vennootschap
+      een 'volkomen controle' uitvoeren, want de bank vraagt dat?" Vennootschap
+      is klein (niet controleplichtig). Wat antwoordt de accountant?
+    juridisch_punt: >
+      'Volkomen controle' = synoniem voor wettelijke jaarrekeningcontrole conform
+      ISA + revisienormen + ITAA-KMO-controlenorm — vereist bedrijfsrevisor (of
+      bedrijfsrevisorenkantoor of geregistreerd auditkantoor), niet "een accountant
+      met opdracht". Wanneer cliënt niet controleplichtig is, kan dezelfde
+      werkwijze contractueel afgesproken worden (vrijwillige controle), maar dan
+      verloopt het via een **contractuele** opdracht — niet via een wettelijke
+      monopolie-opdracht.
+    examen_relevantie: "2024-1 toetst de definitie van 'volkomen controle' rechtstreeks. Studiematriaal moet duidelijk onderscheid wettelijk/contractueel maken."
+
+  - naam: "Mini-case 2 — Werken op proef- en saldibalans van interne boekhouder voor bijzonder mandaat"
+    leerstuk_primair: "bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen (L4)"
+    feiten: >
+      Bij een omzetting BV→NV biedt de zaakvoerder van een KMO aan de
+      aangewezen accountant aan: "ik heb hier de proef- en saldibalans van
+      mijn boekhouder; werk daar maar mee, dat scheelt jou tijd". Wat zegt
+      de accountant?
+    juridisch_punt: >
+      De wet vraagt een 'staat van activa en passiva' opgesteld + ondertekend
+      door het bestuursorgaan (WVV art. 14:3) — niet door de interne boekhouder.
+      Een proef- en saldibalans is een tussentijds boekhoudkundig document
+      zonder bestuursvalidatie en zonder waarderings-beslissingen. De accountant
+      kan op die basis geen verslag uitbrengen — hij vraagt om een correct
+      opgemaakte en door het bestuursorgaan ondertekende staat A&P.
+    examen_relevantie: "2013-1 (Fortunito) + 2013-2 toetsen dit expliciet. Klassieke examen-strikvraag."
+
+  - naam: "Mini-case 3 — Boekhoudkundige staat door interne boekhouder als audit-bewijs"
+    leerstuk_primair: "aanvaarden-plannen-en-uitvoeren-van-een-audit (L2)"
+    feiten: >
+      Bij de jaarrekeningcontrole REVIA Vlaanderen 2024 levert de interne
+      boekhouder een interne maandafsluiting per 30/11/2024 als bewijs voor
+      cut-off omzet. De junior auditor accepteert dat. De partner stelt vraag.
+    juridisch_punt: >
+      Interne documenten (gegenereerd door cliënt) hebben lagere bewijswaarde
+      dan externe bevestigingen of auditor-gegenereerde herberekeningen (ISA 500
+      §A31). Voor cut-off omzet moet de auditor zelf naar **externe** bewijzen
+      (vrachtbrieven, verzendingsbonnen klant, ondertekende leverbevestigingen)
+      — niet enkel naar interne maandafsluiting.
+    examen_relevantie: "2014-1 en 2013-2 toetsen 'kan een interne staat door interne boekhouder dienen?' — neen, behoeft externe corroboratie."
+
+# ---------------------------------------------------------------------------
+# DEEL N — Wettelijke kaders (overzicht — geen wets-uitleg, alleen verwijzing)
+# ---------------------------------------------------------------------------
+
+wettelijke_kaders:
+
+  - kader: "Wetboek van vennootschappen en verenigingen (WVV)"
+    relevant_voor_revia:
+      - "Art. 1:24 + 1:25 + 1:26 — grootte-criteria (verhoogd door CBN-advies 2024/07: 50 / 11,25 mln / 6 mln voor kleine vennootschap; 250 / 42,5 mln / 21,25 mln voor groep beperkte omvang)"
+      - "Art. 3:23 e.v. — consolidatieplicht (REVIA-groep)"
+      - "Art. 3:55 — benoeming commissaris door AV op voorstel bestuursorgaan"
+      - "Art. 3:58 — mandaat commissaris 3 jaar, hernieuwbaar (geen rotatieplicht voor niet-OOB)"
+      - "Art. 3:70 — wettelijke controle door commissaris"
+      - "Art. 3:72 — inhoud controleverslag (12 punten — uitgebreid sinds WVV)"
+      - "Art. 7:7 — inbreng in natura NV (verslag accountant of revisor)"
+      - "Art. 7:99 — auditcomité (niet verplicht voor niet-OOB)"
+      - "Art. 14:3 + 14:5 — omzettingsverslag (niet van toepassing 2024)"
+      - "Boek 12-13 — fusie + splitsing (niet van toepassing 2024)"
+    confidence: "⚖️ — art. 1:24/1:26 + 3:55/3:58/3:70/3:72 verifieerd via MCP rerank 2026-06-01"
+
+  - kader: "Wet 7 december 2016 betreffende organisatie revisoraat + IBR"
+    relevant_voor_revia:
+      - "Statuut bedrijfsrevisor + tucht + kwaliteitstoezicht"
+      - "Bewaartermijn revisiedossier 10 jaar (art. 16)"
+    confidence: "⚖️ algemeen bekend; specifieke artikel-nummers ⚠️ te verifiëren in scripts-fase"
+
+  - kader: "KB 1 maart 1998 (plichtenleer accountants)"
+    relevant_voor_revia:
+      - "Art. 9 — onafhankelijkheid accountants"
+      - "Art. 11 — beroepsgeheim"
+    confidence: "⚠️ te verifiëren — KB 1 maart 1998 mogelijk inmiddels vervangen door ITAA-deontologische bepalingen"
+
+  - kader: "International Standards on Auditing (ISA, herzien)"
+    relevant_voor_revia:
+      - "ISA 200-720 — volledige audit-cyclus"
+      - "ISA 220 (herzien) — kwaliteitsmanagement op opdracht-niveau"
+      - "ISA 230 — documentatie"
+      - "ISA 260 — communicatie governance"
+      - "ISA 300 — planning"
+      - "ISA 315 (herzien-2019) — risico-inschatting"
+      - "ISA 320 — materialiteit"
+      - "ISA 330 — inspelen op risico"
+      - "ISA 500 + 501 + 505 + 520 + 530 — audit-bewijs + voorraad + confirmaties + analytisch + steekproeven"
+      - "ISA 540 (herzien) — schattingen"
+      - "ISA 550 — verbonden partijen (REVIA Polska)"
+      - "ISA 560 — gebeurtenissen na balansdatum"
+      - "ISA 570 — continuïteit"
+      - "ISA 580 — schriftelijke bevestigingen management"
+      - "ISA 600 — group audit (REVIA Polska als component)"
+      - "ISA 700 + 705 + 706 — controleverklaring + modificatie + paragrafen"
+    confidence: "⚖️ ISA 315 + ISA 540 + ISA 550 verifieerd via MCP; overige ISA-paragraafnummers ⚠️ te verifiëren per leerstuk in scripts-fase"
+
+  - kader: "IESBA Code (Belgisch addendum) + ITAA-deontologie"
+    relevant_voor_revia:
+      - "5 categorieën bedreigingen — eigenbelang / zelf-toetsing / belangenbehartiging / vertrouwdheid / intimidatie"
+      - "Safeguards-laag op kantoor + opdracht-niveau"
+      - "Roulatie key audit partner (niet wettelijk voor niet-OOB, wel best practice)"
+    confidence: "⚖️ algemeen kader; specifieke clausules ⚠️ te verifiëren in scripts-fase L5"
+
+  - kader: "ITAA-normen voor bijzondere opdrachten"
+    relevant_voor_revia:
+      - "ITAA-norm inbreng in natura + quasi-inbreng (gemeenschappelijk met IBR)"
+      - "ITAA-norm omzetting"
+      - "ITAA-norm ontbinding + vereffening — §11 (verificatie commissaris-plicht vóór aanvaarding) ⚖️"
+      - "Gemeenschappelijke IBR-ITAA-norm fusie + splitsing"
+    confidence: "⚖️ ITAA-norm ontbinding §11 verifieerd via MCP; overige normen ⚠️ te verifiëren in scripts-fase L4"
+
+  - kader: "ITAA-KMO-controlenorm"
+    relevant_voor_revia:
+      - "§119 — voorbehoud bij niet-gecorrigeerde fout"
+      - "§121 — oordeelonthouding"
+    relevantie_revia: "Toepasbaar als REVIA in komende jaren onder controleplicht zou wegvallen (hypothetisch). Voor de huidige situatie: volle ISA-toepassing."
+    confidence: "⚠️ paragraafnummers te verifiëren in scripts-fase L3"
+
+  - kader: "ISQM 1 + ISQM 2 — kwaliteitsmanagement"
+    relevant_voor_revia:
+      - "ISQM 1 — kantoor-breed systeem (BV Audit & Controle)"
+      - "ISQM 2 — engagement quality reviews (geen verplichte EQR voor REVIA niet-OOB; wel optioneel bij bedreiging)"
+    confidence: "⚖️ algemeen kader; specifieke toepassing in leerstuk 5"

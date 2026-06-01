@@ -129,7 +129,7 @@ flowchart TD
 - [[themafiches/controleverklaring|Themafiche — Controleverklaring & oordeel]]
 - [[themafiches/opdracht-types|Themafiche — Opdracht-types & zekerheidsniveaus]]
 - [[themafiches/bijzondere-mandaten|Themafiche — Bijzondere mandaten]]
-- [[themafiches/interne-controle-frameworks|Themafiche — Interne-controle-frameworks]] (cross PO 1.7)
+- [[studiemateriaal/1-7/samenvatting|Samenvatting PO 1.7 — Interne controle]] (cross PO 1.7, vervangt themafiche `interne-controle-frameworks` per ADR-039)
 
 </div>
 

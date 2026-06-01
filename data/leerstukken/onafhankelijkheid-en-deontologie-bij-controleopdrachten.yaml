@@ -1,0 +1,254 @@
+# Leerstuk-script — Onafhankelijkheid en deontologie bij controleopdrachten
+#
+# PO 1.6 leerstuk 5 (onderbouwing — transversaal). Schept de regels die in
+# elk vorig leerstuk (1-4) gelden. Centraal:
+#   - IESBA BEDREIGINGEN-KADER (5 categorieën — eigenbelang · zelf-toetsing
+#     · belangenbehartiging · vertrouwdheid · intimidatie)
+#   - SAFEGUARDS-logica (threats-and-safeguards-cyclus)
+#   - KB 1 maart 1998 art. 9 (weigerings-plicht bij onafhankelijkheids-bedreiging)
+#   - KWALITEITSMANAGEMENT (ISQM 1 kantoor-niveau · ISA 220 herzien
+#     opdracht-niveau · ISQM 2 + EQR voor OOB en complex)
+# Cross-PO doorklik naar PO 4.0 (kantoor-brede deontologie + AML + tucht).
+# REVIA-context: BV Audit & Controle weigert inbreng-mandaat Hubert
+# Verbeke's gebouw wegens zelf-toetsing — illustreert het kader.
+
+meta:
+  slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+  titel: "Onafhankelijkheid en deontologie bij controleopdrachten"
+  po: "1.6"
+  cluster: externe-controle
+  voorbeeldgroep: revia-vlaanderen
+  beschrijving: >
+    Leerstuk PO 1.6 — onderbouwing (transversaal). Wat is onafhankelijkheid
+    in het auditspoor — welke bedreigingen kan een opdracht ondergraven,
+    welke veiligheidsmaatregelen bestaan, en wanneer moet de accountant
+    of bedrijfsrevisor een opdracht weigeren of beëindigen? Drie blokken:
+    IESBA-bedreigingen-kader (5 categorieën) + threats-and-safeguards-cyclus ·
+    KB 1 maart 1998 art. 9 (weigerings-plicht) + KB 9 december 2019 +
+    Wet 7 december 2016 voor revisor · KWALITEITSMANAGEMENT (ISQM 1
+    kantoor + ISA 220 herzien opdracht + ISQM 2/EQR). REVIA-case: BV Audit
+    & Controle weigert inbreng-mandaat Hubert Verbeke wegens zelf-toetsing
+    — kader in actie. Cross-PO doorklik naar PO 4.0 voor kantoor-brede
+    deontologie.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 1.6-overzicht.
+    Wijs erop dat dit leerstuk de DEONTOLOGISCHE ONDERGROND levert voor
+    alle vorige leerstukken — bij elke aanvaarding, elk significant audit-
+    risico, elk bijzonder mandaat, elke ondertekening van een verslag
+    speelt onafhankelijkheid. Het IESBA-bedreigingen-kader is geen
+    afvinklijst maar een DENK-METHODE: bedreigingen identificeren →
+    aanvaardbaar niveau toetsen → safeguards toepassen → documenteren.
+    Cross-PO doorklik naar PO 4.0 voor de KANTOOR-BREDE deontologie
+    (tuchtprocedure, kwaliteitstoetsing, AML); hier ALLEEN het opdracht-
+    perspectief.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: onafhankelijkheid bij controleopdrachten = de TOEPASSING van het IESBA-bedreigingen-kader (5 categorieën: eigenbelang · zelf-toetsing · belangenbehartiging · vertrouwdheid · intimidatie) op elke aanvaarding + elke gebeurtenis tijdens uitvoering — met een DENK-CYCLUS: identificeer bedreiging → evalueer of aanvaardbaar niveau bereikt is → pas safeguards toe → weiger of beëindig als safeguards onvoldoende zijn (KB 1 maart 1998 art. 9 + IESBA Code)."
+    - "Drie niveaus van regelgeving op deze materie: (a) KANTOOR-NIVEAU — ISQM 1 vraagt elk kantoor om een KWALITEITSMANAGEMENT-SYSTEEM met onafhankelijkheids-procedures, monitoring, en remediation (jaarlijkse evaluation); (b) OPDRACHT-NIVEAU — ISA 220 herzien legt verantwoordelijkheid van de OPDRACHTPARTNER vast voor de toepassing op een specifieke audit; (c) UITZONDERLIJK — ISQM 2 voor ENGAGEMENT QUALITY REVIEWS (EQR) bij OOB en complexe opdrachten — onafhankelijke partner reviewt vóór ondertekening."
+    - "Voor wie speelt onafhankelijkheid? Voor ALLE attesterings-opdrachten — audit · review · assurance ISAE · bijzondere wettelijke verslagen. NIET voor zuivere advies- of samenstellings-opdrachten waar geen attestering gegeven wordt (deontologie geldt wel, maar onafhankelijkheid is een AANVULLENDE, strengere standaard alleen voor assurance — IESBA Code Part 4)."
+  visualisaties:
+    - type: mermaid
+      ref: bedreigingen_kader
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst het bedreigingen-kader uit (5 categorieën + safeguards) → dan de wettelijke verankering (KB 1 maart 1998 art. 9 + KB 9 december 2019 + Wet 7 december 2016 revisor) → dan het kwaliteitsmanagement (ISQM 1 + ISA 220 + ISQM 2). Met REVIA — case Hubert Verbeke's gebouw — als doorlopende illustratie.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: bedreigingen-kader
+    titel: "Het IESBA-bedreigingen-kader — vijf categorieën"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: het bedreigingen-kader is NIET een lijstje verboden situaties maar een DENK-METHODE. Bij elke nieuwe opdracht en elke gebeurtenis tijdens uitvoering: 'welke type bedreiging kan dit zijn?'. De vijf categorieën zijn de KAPSTOK om alle situaties te organiseren — examen-klassieker: kunnen identificeren WELKE categorie speelt."
+    kinderen:
+
+      - id: eigenbelang
+        titel: "1. Eigenbelang (self-interest)"
+        niveau: 3
+        beats:
+          - "Open met de definitie: eigenbelang-bedreiging = een FINANCIEEL OF ANDER BELANG dat de auditor zou kunnen aanzetten zijn objectief oordeel BIJSTELLEN ten gunste van de cliënt."
+          - "Typische voorbeelden: (a) ACCURATELESCHE FINANCIËLE PARTICIPATIE in de cliënt-vennootschap (auditor of partner of familielid bezit aandelen); (b) HOGE HONORARIUM-AFHANKELIJKHEID — wanneer honoraria van één cliënt meer dan 15 % van het kantoor-omzet bedragen (IESBA Code §410.3); (c) CONTINGENT-FEE-REGELINGEN waar honorarium afhangt van uitkomst van audit; (d) LENING van auditor aan cliënt of omgekeerd."
+          - "Voor REVIA — eigenbelang-toets BV Audit & Controle: honorarium 48k EUR per jaar versus kantoor-omzet 3,5 mln EUR = 1,4 % — ruim onder 15 %-drempel. Geen aandelen. Geen contingent-fee. → eigenbelang-bedreiging op aanvaardbaar niveau. Hertoetsen indien REVIA in komende jaren een groter aandeel van kantoor-omzet wordt (groei van REVIA én vermindering andere cliënten kan dat triggeren)."
+
+      - id: zelf-toetsing
+        titel: "2. Zelf-toetsing (self-review)"
+        niveau: 3
+        beats:
+          - "Open met de definitie: zelf-toetsing-bedreiging = de auditor MOET LATER zijn EIGEN ADVIESWERK OF EIGEN BEOORDELING BEOORDELEN bij de audit-werkzaamheden. Hij kijkt dan naar het werk van een collega-team-lid of een eerdere versie van zichzelf — moeilijk om kritisch te blijven."
+          - "Typische voorbeelden: (a) AUDITOR voert eerst BOEKHOUDING uit bij cliënt en moet later de jaarrekening AUDITEN — courant in kleinere kantoren bij niet-controleplichtige cliënten (KB 1 maart 1998 + KB 9 december 2019 verbieden dit voor controleplichtige cliënten; voor niet-controleplichtige geldt verbod uit oogpunt van DEONTOLOGIE niet zo absoluut, maar onafhankelijkheid is onmogelijk te garanderen voor wettelijke controle); (b) AUDITOR voert WAARDERING uit bij cliënt (bv. voor inbreng in natura) en moet later die waardering AUDITEN in de jaarrekeningcontrole — DIT IS DE REVIA-CASE; (c) AUDITOR ontwerpt of beoordeelt INTERNE BEHEERSING bij cliënt en moet later beoordelen of die IC functioneert."
+          - "Voor REVIA — KERN-CASE leerstuk 5. M. Dewulf is COMMISSARIS voor 2023-2025. Patriarch Hubert Verbeke vraagt of het kantoor BV Audit & Controle de INBRENG-IN-NATURA-opdracht voor zijn gebouw (2,8 mln EUR, kapitaalverhoging) kan opnemen. Bedreiging-identificatie: zelf-toetsing — bij de jaarrekeningcontrole 2025 zou Dewulf zijn eigen inbreng-waardering moeten beoordelen (het gebouw staat dan op de balans als materieel vast actief). Aanvaardbaar niveau? Twijfelachtig: de waardering 2,8 mln is een POSITIE die de hele balans-presentatie van vastgoed in 2025 stuurt."
+          - "Veiligheidsmaatregelen (safeguards): (a) Chinese muren binnen kantoor — andere partner doet inbreng-mandaat, Dewulf doet audit (interne functiescheiding); (b) externe EQR door derde-partij-revisor (review zelf-toetsing). Voor REVIA: kantoor BV Audit & Controle besluit dat interne functiescheiding ONVOLDOENDE is wegens omvang gebouw (groot deel materieel vast actief) en verwijst het mandaat naar een ANDERE beroepsbeoefenaar (BVBA Vastgoed-Revisie). De RvB aanvaardt en wijst BVBA Vastgoed-Revisie aan."
+          - "Belangrijke nuance (blockquote-aside): de zelf-toetsing-bedreiging is INHERENT aan COMMISSARIS-overlap met bijzondere mandaten. Voor SOMMIGE mandaten (bv. omzetting van rechtsvorm) is de zelf-toetsing-impact beperkt — andere boekjaar; voor ANDERE (bv. inbreng in natura die de waardering 2025+ raakt) is ze sterk. Per opdracht beslissen."
+
+      - id: belangenbehartiging
+        titel: "3. Belangenbehartiging (advocacy)"
+        niveau: 3
+        beats:
+          - "Open met de definitie: belangenbehartiging-bedreiging = de auditor moet de cliënt VERDEDIGEN tegenover derden, waardoor hij objectief moet kunnen oordelen over zijn eigen verdediging."
+          - "Typische voorbeelden: (a) AUDITOR vertegenwoordigt cliënt bij FISCALE PROCEDURE (bezwaarschrift of voor de rechtbank) — verdedigt een fiscale positie; later moet hij oordelen of dezelfde positie in jaarrekening correct is gevoerd. (b) AUDITOR ZIT in COMMERCIËLE ONDERHANDELING met klant van de cliënt over cijfers die later in audit moeten beoordeeld worden. (c) AUDITOR werkt mee aan EMISSIES (prospectus voor publieke aanbieding) — verdedigt cijfers tegenover toekomstige beleggers."
+          - "Voor REVIA — niet typisch case. INVESTRA als minderheidsaandeelhouder zou hypothetisch een verkoop-pakket kunnen organiseren — als BV Audit & Controle daar VOLLE due diligence + verkoper-rapportering doet (advocacy), zou bedreiging spelen voor latere jaarrekeningcontroles. Voor jaarrekeningcontrole 2024 → niet relevant."
+
+      - id: vertrouwdheid
+        titel: "4. Vertrouwdheid (familiarity)"
+        niveau: 3
+        beats:
+          - "Open met de definitie: vertrouwdheid-bedreiging = LANGE OF NABIJE RELATIE met cliënt-team maakt auditor TE SYMPATHIEK; hij accepteert verklaringen van management zonder voldoende professional skepticism."
+          - "Typische voorbeelden: (a) DEZELFDE OPDRACHTPARTNER al > 7 jaar op dezelfde cliënt (IESBA Code §540.5 — partner-rotatie 7 jaar voor OOB); (b) FAMILIE-RELATIE tussen audit-team-lid en cliënt-bestuur (echtgenoot, ouder, kind in finance-functie cliënt); (c) RECENTE WERKERVARING van audit-team-lid bij cliënt (cooling-off-periode 1-2 jaar gewenst); (d) PERSOONLIJKE VRIENDSCHAP tussen partner en CEO/CFO."
+          - "Voor REVIA — toets vertrouwdheid 2024: M. Dewulf is sinds 2023 commissaris — eerste mandaat (3 jaar). Geen familiebanden Verbeke. Geen recente werkervaring in REVIA-team. → vertrouwdheid op aanvaardbaar niveau. Bij hernieuwing 2026 (voor periode 2026-2028) zou kantoor partner-rotatie kunnen overwegen, maar voor niet-OOB geen wettelijke plicht."
+
+      - id: intimidatie
+        titel: "5. Intimidatie (intimidation)"
+        niveau: 3
+        beats:
+          - "Open met de definitie: intimidatie-bedreiging = cliënt-management oefent DRUK uit op auditor om bevindingen ZACHTER te formuleren of niet-toelichten te aanvaarden. Bedreiging via DREIGING met vervanging, met juridische actie, met verlies van aansluitende advies-opdrachten."
+          - "Typische voorbeelden: (a) cliënt DREIGT met vervanging van auditor wanneer voorbehoud overwogen wordt; (b) cliënt DREIGT met juridische actie wegens vermeende fouten in vorige audits; (c) cliënt SUGGEREERT dat advies-mandaten van het kantoor afhankelijk zijn van soepele audit-conclusies; (d) PERSOONLIJKE BEDREIGINGEN — uitzonderlijk maar bekend."
+          - "Voor REVIA — toets intimidatie 2024: geen incidenten gemeld; CEO Wouter Verbeke werkt constructief mee. Maar de drie audit-issues (rechtszaak + voorraad-veroudering + confirmaties) kunnen druk creëren — pak deze proactief aan in OKTOBER-overleg met RvB (ISA 260) zodat er geen 'verrassing' is op slot-vergadering. Onafhankelijkheid blijft gewaarborgd door duidelijke documentatie van bevindingen en consultatie met EQR-partner."
+
+  - id: threats-and-safeguards-cyclus
+    titel: "De threats-and-safeguards-cyclus"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: vijf categorieën IDENTIFICEREN is het beginpunt; daarna komt de CYCLUS — vier stappen die elke onafhankelijkheids-vraag doorloopt."
+      - "STAP 1 — IDENTIFICEREN. Welke categorieën spelen in dit dossier? Bij REVIA-inbreng-mandaat: vooral zelf-toetsing. Bij langlopende commissaris-relatie: vooral vertrouwdheid. Per opdracht expliciet uitschrijven."
+      - "STAP 2 — EVALUEREN op aanvaardbaar niveau. Twee toetsen: KWANTITATIEF (15 %-drempel honoraria, 7-jaar-rotatie voor OOB, materiële financiële participatie) en KWALITATIEF (zou een geïnformeerde derde-partij — een 'reasonable and informed third party' — concluderen dat de auditor objectief kan blijven?)."
+      - "STAP 3 — SAFEGUARDS toepassen wanneer bedreiging niet automatisch aanvaardbaar is. Drie types: (a) safeguards op BEROEPS-niveau (wettelijke + deontologische regels — KB + IESBA Code); (b) safeguards op KANTOOR-niveau (ISQM 1 — interne procedures, onafhankelijkheids-monitoring, partner-rotatie); (c) safeguards op OPDRACHT-niveau (interne functiescheiding tussen advies + audit-team, EQR, consultation procedures, externe peer review)."
+      - "STAP 4 — Indien safeguards ONTOEREIKEND zijn → WEIGER opdracht of BEËINDIG bestaande opdracht. KB 1 maart 1998 art. 9 vraagt dit EXPLICIET: de externe accountant MOET een opdracht weigeren, of ervan afzien voort te zetten, ZODRA HIJ HET BESTAAN VASTSTELT van invloeden, feiten of banden die zijn onafhankelijkheid, zijn wils- of beoordelingsvrijheid of zijn onpartijdigheid kunnen aantasten."
+      - "Voor REVIA — concrete toepassing op de inbreng-discussie: STAP 1 zelf-toetsing geïdentificeerd; STAP 2 'kan een geïnformeerde derde-partij concluderen dat M. Dewulf objectief de inbreng-waardering 2,8 mln EUR in audit 2025 kan beoordelen?' — twijfelachtig wegens omvang post; STAP 3 safeguards-opties: Chinese-muren intern of EQR externe partner — kantoor beoordeelt interne functiescheiding als ontoereikend (te grote post); STAP 4 → WEIGERT mandaat; verwijst RvB naar BVBA Vastgoed-Revisie. Documentatie in onafhankelijkheids-dossier."
+    visualisaties:
+      - type: mermaid
+        ref: bedreigingen_kader
+        bron: voorbeeldgroep
+
+  - id: wettelijke-verankering
+    titel: "Wettelijke verankering — KB's en wetten"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: het IESBA-bedreigingen-kader is internationaal; in België is het VERANKERD in drie regel-bronnen die je moet kennen + onderscheiden."
+      - "KB 1 maart 1998 (plichtenleer accountants) — nog ACTIEF GELDIG (verifieerd via MCP). Vier kern-artikelen voor PO 1.6: art. 3 (algemene waardigheid + onafhankelijkheid als kenmerk vrij beroep) · art. 9 (WEIGERINGS-PLICHT bij onafhankelijkheids-bedreiging) · art. 11 (verbod opdracht-aanvaarding bij belangenconflict) · art. 14 (verbod beperking activiteit tot één belangengroep of één gezag — anti-concentratie)."
+      - "KB 9 december 2019 (deontologische code ITAA) — jongere tekst, NAAST (niet vervangend) KB 1998. Operationaliseert de huidige Wet 17 maart 2019 op het ITAA-beroep. Voor PO 1.6: bedreigingen-kader expliciet overgenomen + safeguards-cyclus gedefinieerd. Beide KB's gelden naast elkaar; bij conflict heeft de jongere voorrang op de oudere (algemeen rechtsbeginsel)."
+      - "Wet 7 december 2016 (organisatie revisoraat) — voor BEDRIJFSREVISOREN. Algemene onafhankelijkheids-bepalingen + cumul-verboden (advies-diensten niet vóór audit-mandaat). EU-Verordening 537/2014 voor OOB-controles geeft een verboden-lijst van niet-controle-diensten + 10-jarige rotatie-plicht audit-kantoor + 7-jarige partner-rotatie voor OOB. Voor REVIA (niet-OOB) niet wettelijk verplicht; sommige kantoren passen het toch toe als best practice."
+      - "IESBA Code (Belgisch addendum) — internationaal, NIET RECHTSTREEKS bindend in België maar door verwijzing in ITAA-norm intern kwaliteitsmanagement + door verwijzing in IBR-normen. De Code is de meest gedetailleerde regel-bron — bedreigingen-categorieën + safeguards-lijst + specifieke voorbeelden + percentage-drempels. Wie het Belgisch addendum kent, kent de praktische toepassing."
+
+  - id: kwaliteitsmanagement
+    titel: "Kwaliteitsmanagement — drie lagen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: onafhankelijkheid is OPDRACHT-niveau; KWALITEITSMANAGEMENT is de RUIMERE laag die de hele werking van kantoor + audit-team waarborgt. Drie ISA-stelsels werken samen."
+    kinderen:
+
+      - id: isqm-1-kantoor
+        titel: "ISQM 1 — kwaliteitsmanagement op kantoor-niveau"
+        niveau: 3
+        beats:
+          - "Open met de positionering: ISQM 1 (in voege sinds 15 december 2022) vraagt elk audit-kantoor om een kwaliteitsmanagement-systeem op te zetten dat een REDELIJKE MATE VAN ZEKERHEID geeft dat (a) het kantoor en zijn personeel hun verantwoordelijkheden vervullen volgens professionele standaarden + wet- en regelgeving; en (b) controleverklaringen worden afgegeven die in de gegeven omstandigheden GEPAST zijn."
+          - "Acht componenten van het kwaliteitsmanagement-systeem: (1) risico-inschatting kantoor-niveau; (2) governance + leiderschap; (3) relevante ethische voorschriften (incl. onafhankelijkheid); (4) aanvaarding + continuering cliëntrelaties; (5) uitvoering van opdrachten; (6) middelen (personeel + technologie); (7) informatie + communicatie; (8) monitoring + remediation. Jaarlijkse evaluatie van het systeem door kantoor-leiding."
+          - "Voor BV Audit & Controle (commissaris REVIA) — ISQM 1-toepassing: jaarlijkse evaluatie 2024 → systeem effectief; geïdentificeerde verbeterpunten: cyber-veiligheid documentatie + continue training bedreigingen-kader voor nieuwe medewerkers. Voor REVIA-mandaat: kantoor-procedure voor onafhankelijkheids-monitoring (jaarlijkse bevestiging per partner + medewerker dat geen belangen-conflicten ontstaan)."
+          - "Doorklik: KANTOOR-BREDE deontologie (tucht + permanente vorming + AML-procedures + kwaliteitstoetsing IBR/ITAA) leeft uitgewerkt in PO 4.0 [[kwaliteitstoezicht-en-tucht]] en [[antiwitwasplichten-in-de-praktijk]]. Hier ALLEEN het ISQM-1-deel relevant voor controleopdrachten."
+
+      - id: isa-220-opdracht
+        titel: "ISA 220 herzien — opdracht-niveau"
+        niveau: 3
+        beats:
+          - "Open met de positionering: ISA 220 (herzien — in voege 15 december 2022) regelt het kwaliteitsmanagement OP OPDRACHT-NIVEAU. De OPDRACHTPARTNER is verantwoordelijk voor (a) het managen + bereiken van kwaliteit op de audit; (b) toepassen relevante ethische voorschriften (incl. onafhankelijkheid); (c) aanvaarding + continuering cliëntrelatie; (d) middelen voor opdracht (juiste team-samenstelling); (e) uitvoering opdracht (supervisie + review); (f) documentatie."
+          - "Voor REVIA — toepassing ISA 220 door M. Dewulf: (a) team-samenstelling: junior auditor + manager + partner — geen team-lid met vroegere werkervaring REVIA + geen familiebanden; (b) onafhankelijkheids-bevestiging per team-lid bij start mandaat; (c) supervisie tijdens uitvoering: dagelijkse manager-supervisie, wekelijkse partner-overleg, slot-review vóór ondertekening; (d) documentatie alle materialen + bevindingen in revisiedossier; (e) consultaties wanneer interpretatie-vragen ontstaan (intern advies-comité kantoor)."
+
+      - id: isqm-2-eqr
+        titel: "ISQM 2 — Engagement Quality Reviews (EQR)"
+        niveau: 3
+        beats:
+          - "Open met de positionering: ISQM 2 regelt de figuur van de ENGAGEMENT QUALITY REVIEW — een onafhankelijke partner (binnen kantoor of extern) reviewt vóór ondertekening of de OORDEEL-KEUZE redelijk is. Verplicht voor: OOB-controles + audits met aanmerkelijk-publieke-belang + opdrachten waar het kantoor zelf risico ziet."
+          - "Voor REVIA — niet wettelijk verplicht (niet-OOB). Toch kantoor-besluit BV Audit & Controle om EQR toe te passen wegens de drie significante audit-issues — extern partner van een ander revisorenkantoor reviewt de bevindingen + voorgestelde oordeel-keuze. Best practice voor risico-gevoelige opdrachten."
+          - "EQR-WERKWIJZE: review NA afronding maar VOOR ondertekening. Reviewer onafhankelijk van opdracht-team + voldoende ervaring + tijdig (niet 'last-minute'). Reviewt: significant judgments + significant findings + voorgestelde oordeel-keuze + naleving onafhankelijkheids-vereisten. Zijn oordeel is geen 'beslissing' maar 'kritische uitdaging' van het opdracht-team."
+
+  - id: cross-po-doorklik
+    titel: "Cross-PO doorklik — kantoor-breed in PO 4.0"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'hoe verhoudt dit leerstuk zich tot PO 4.0 (Deontologie + AWW)?'."
+      - "Hier in PO 1.6: ONAFHANKELIJKHEID bij OPDRACHT-perspectief. Hoe een specifieke audit-opdracht of een specifiek bijzonder mandaat onafhankelijkheid waarborgt. Bedreigingen-kader op een individueel dossier."
+      - "In PO 4.0: KANTOOR-BREDE deontologie. Bevat (a) BEROEPSSTRUCTUUR + organen ITAA (Raad, stagecommissie, Cel Permanente Vorming, kwaliteitstoetsing); (b) TUCHTPROCEDURE bij overtredingen; (c) ANTIWITWAS-procedures op kantoor; (d) PERMANENTE VORMING (120 uren / 3 jaar verplichtsformule); (e) KWALITEITSTOETSING van het hele kantoor (peer review elk 5 jaar)."
+      - "Twee leerstukken die rechtstreeks aansluiten: (a) [[deontologische-beginselen-en-onafhankelijkheid]] (PO 4.0) — vijf algemene beginselen (integriteit · objectiviteit · vakbekwaamheid · vertrouwelijkheid · professioneel gedrag) + onafhankelijkheid als strengere standaard voor assurance; (b) [[kwaliteitstoezicht-en-tucht]] (PO 4.0) — peer review + tuchtcommissie + permanente vorming. PO 1.6 staat OP DE OPDRACHT; PO 4.0 staat OP HET KANTOOR — twee perspectieven, één deontologische orde."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (warning): denken dat onafhankelijkheid een AFVINKLIJST is met YES/NO-antwoord. FOUT — IESBA Code §120 vraagt expliciet een PROFESSIONAL-JUDGMENT-cyclus per opdracht: bedreigingen identificeren → aanvaardbaar niveau evalueren → safeguards toepassen → documenteren. Wie zonder bedreigings-analyse zegt 'onafhankelijk' verliest zijn rechtvaardiging bij tucht-procedure of bij kwaliteitstoetsing IBR/ITAA. Examen 2024-1 toetst de bedreigingen-categorieën rechtstreeks."
+      - "Valkuil 2 (warning): zelf-toetsing en vertrouwdheid verwarren. FOUT — twee verschillende bedreigingen met andere safeguards. ZELF-TOETSING = je moet je EIGEN eerder werk later beoordelen (technische onmogelijkheid om objectief te blijven; safeguards: Chinese muren tussen advies + audit · EQR · weigering opdracht). VERTROUWDHEID = je hebt te NABIJE relatie met cliënt-team (skepticism-uitdaging; safeguards: partner-rotatie · team-rotatie · monitoring). Voor REVIA: inbreng-mandaat is zelf-toetsing (niet vertrouwdheid). Examen-strikvraag onderscheid."
+      - "Valkuil 3 (warning): denken dat KB 1 maart 1998 niet meer geldt sinds KB 9 december 2019. FOUT — verifieerd via MCP: KB 1998 is NIET vervangen, de twee KB's gelden NAAST elkaar. Art. 9 KB 1998 (weigerings-plicht) blijft actief; KB 2019 voegt operationalisering toe. Bij conflict heeft de jongere voorrang op de oudere (algemeen rechtsbeginsel) maar op het gebied van onafhankelijkheid versterken beide KB's elkaar. Examen-klassieker 2015-1."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+      hint: "Voor het kader — opdracht-types + statuut commissaris/accountant + normbronnen-hiërarchie. Dit leerstuk 5 is de deontologische ondergrond; leerstuk 1 is de architecture."
+    - slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+      hint: "Aanvaardings-fase is de eerste plek waar de threats-and-safeguards-cyclus wordt toegepast. Bij elke nieuwe-cliënt-situatie + bij elke continuering van bestaand mandaat."
+    - slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+      hint: "Bijzondere mandaten triggeren vaak zelf-toetsings-bedreiging (commissaris-overlap met bijzonder verslag) en vragen per-opdracht-toets. REVIA-inbreng is het schoolvoorbeeld."
+    - slug: afronden-en-rapporteren-van-een-audit
+      hint: "Voor slot-review + EQR bij significant-risico-cases. ISA 220 + ISQM 2."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vijf IESBA-bedreigingen + safeguards-cyclus + KB 1 maart 1998 art. 9 + ISQM 1/2 + ISA 220 op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [onafhankelijkheid, kwaliteitsmanagement-opdracht, deontologie]
+    - concepten: [commissaris, controleopdracht, opdrachtaanvaarding-en-opdrachtbrief]
+    - concepten: [kantoor-organisatie, beroepsaansprakelijkheid, kwaliteitstoetsing-itaa]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Onafhankelijkheid accountants — weigeringsplicht"
+    ref: "KB 1 maart 1998 art. 9"
+    noot: "Accountant moet opdracht weigeren of beëindigen bij elke invloed, feit of band die zijn onafhankelijkheid, beoordelingsvrijheid of onpartijdigheid kan aantasten. Verifieerd via MCP. Nog actief geldig."
+  - onderwerp: "Belangenconflict accountants"
+    ref: "KB 1 maart 1998 art. 11"
+    noot: "Verbod aanvaarden of voortzetten opdracht bij belangenconflict; verplichting cliënt te informeren. Verifieerd via MCP."
+  - onderwerp: "Anti-concentratie accountants"
+    ref: "KB 1 maart 1998 art. 14"
+    noot: "Verbod beperking activiteit tot één belangengroep of één gezag. Verifieerd via MCP."
+  - onderwerp: "Deontologische code ITAA"
+    ref: "KB 9 december 2019"
+    noot: "Operationalisering bedreigingen-kader + safeguards. Naast (niet vervangend) KB 1998."
+  - onderwerp: "Statuut bedrijfsrevisor + onafhankelijkheid"
+    ref: "Wet 7 december 2016 betreffende organisatie revisoraat"
+    noot: "Algemene onafhankelijkheids-bepalingen + cumul-verboden voor revisoren."
+  - onderwerp: "OOB-controles — Verordening 537/2014"
+    ref: "EU-Verordening 537/2014"
+    noot: "Verboden niet-controle-diensten + 10-jarige kantoor-rotatie + 7-jarige partner-rotatie voor OOB. Niet van toepassing voor REVIA niet-OOB."
+  - onderwerp: "IESBA Code — bedreigingen-kader"
+    ref: "IESBA International Code of Ethics for Professional Accountants — Part 1 (algemeen) + Part 4 (onafhankelijkheid)"
+    noot: "5 bedreigingen-categorieën + safeguards-cyclus + percentage-drempels (15 % honoraria · 7-jarige partner-rotatie OOB)."
+  - onderwerp: "Kwaliteitsmanagement kantoor"
+    ref: "ISQM 1"
+    noot: "8 componenten van kwaliteitsmanagement-systeem; jaarlijkse evaluatie. In voege sinds 15-12-2022."
+  - onderwerp: "Kwaliteitsmanagement opdracht"
+    ref: "ISA 220 (herzien)"
+    noot: "Opdrachtpartner-verantwoordelijkheid; team-samenstelling + supervisie + slot-review + documentatie. Verifieerd via MCP."
+  - onderwerp: "Engagement Quality Reviews"
+    ref: "ISQM 2"
+    noot: "EQR-vereisten voor OOB + complex; onafhankelijke partner-review vóór ondertekening."
+  - onderwerp: "Cross-PO — kantoor-brede deontologie"
+    ref: "PO 4.0 — Wet 17 maart 2019 (ITAA) art. 29 + 32 + 49 + 65 e.v."
+    noot: "Tucht + kwaliteitstoetsing + permanente vorming + AWW. Uitgewerkt in [[deontologische-beginselen-en-onafhankelijkheid]] en [[kwaliteitstoezicht-en-tucht]]."
+
+footer: "Leerstuk PO 1.6 — onderbouwing (transversaal). Status: voorgesteld — ADR-037."

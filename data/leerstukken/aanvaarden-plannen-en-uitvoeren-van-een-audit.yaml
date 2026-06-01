@@ -1,0 +1,318 @@
+# Leerstuk-script — Aanvaarden, plannen en uitvoeren van een audit
+#
+# PO 1.6 leerstuk 2 (proces 1 — eerste audit-helft, zwaarste leerstuk).
+# Drie iteratieve fases samen in één pedagogische stroom:
+#   - AANVAARDING (ISA 210 + KB 1 maart 1998 art. 9 + IESBA bedreigingen-kader)
+#   - PLANNING (ISA 300 + 315 herzien-2019 + 320 — kennisverwerving + materialiteit + risico-inschatting)
+#   - UITVOERING (ISA 330 + 500 + 501 + 505 + 520 + 530 — 7 procedures + assertions)
+# Hoe-uitzondering ingeroepen (~4500 woorden). Drie audit-issues uit REVIA
+# (rechtszaak ROCHE-Gent · voorraad cleanroom · lage confirmaties-respons)
+# zijn de doorlopende cases die door alle drie fases gaan.
+#
+# Hand-off: leerstuk 3 (afronding + verslag) bouwt rechtstreeks op de
+# bevindingen + materialiteit + risico-inschatting hier — beslismatrix
+# oordeel-types vereist dat de stagiair de bewerings-categorieën en
+# de materialiteit-cijfers paraat heeft. Onafhankelijkheid wordt
+# IN-VOORBIJGAAN gehanteerd in de aanvaardings-sectie; het kader leeft
+# in leerstuk 5.
+
+meta:
+  slug: aanvaarden-plannen-en-uitvoeren-van-een-audit
+  titel: "Aanvaarden, plannen en uitvoeren van een audit"
+  po: "1.6"
+  cluster: externe-controle
+  voorbeeldgroep: revia-vlaanderen
+  beschrijving: >
+    Leerstuk PO 1.6 — proces 1 (zwaarste, hoe-uitzondering ingeroepen).
+    Hoe aanvaardt en plant een commissaris een audit-opdracht, en hoe
+    voert hij de controlewerkzaamheden uit om voldoende en geschikt
+    audit-bewijs te verzamelen? Drie iteratieve fases — aanvaarding
+    (ISA 210 + KB 1 maart 1998 art. 9 + IESBA) · planning (ISA 300/315/320
+    — materialiteit + risico-inschatting + kennisverwerving) · uitvoering
+    (ISA 330/500-530 — 7 procedures + 13 beweringen). De drie audit-issues
+    van NV REVIA Vlaanderen (rechtszaak · voorraad-veroudering · lage
+    confirmaties-respons) lopen als doorlopende cases doorheen alle fases.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 1.6-overzicht.
+    Wijs erop dat dit leerstuk het zwaarste van PO 1.6 is — drie iteratieve
+    fases (aanvaarding · planning · uitvoering) waarin de stagiair leert
+    hoe risico-inschatting de strategie stuurt en hoe procedures bewijs
+    leveren voor beweringen. Audit is GEEN lineaire afvinklijst — het is
+    een dialoog tussen risico-hypothese en bevindingen die doorlopend
+    bijgewerkt wordt. Leerstuk 5 (onafhankelijkheid) is een nuttige
+    voor-lezing voor de aanvaardings-sectie; leerstuk 3 (afronding +
+    verslag) loopt direct verder waar dit eindigt.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: een audit-opdracht doorloopt drie iteratieve fases — (1) AANVAARDING met onafhankelijkheids-toets (KB 1 maart 1998 art. 9 + IESBA) en opdrachtbrief (ISA 210) · (2) PLANNING met kennisverwerving entiteit + materialiteit (ISA 320) + risico-inschatting (ISA 315 herzien-2019) · (3) UITVOERING met 7 controlewerkzaamheden (ISA 500 · 501 · 505 · 520 · 530) die voldoende en geschikt audit-bewijs leveren voor de 13 BEWERINGEN op klassen van transacties / rekeningsaldi / presentatie."
+    - "Het hart van planning = materialiteit + risico-inschatting. Materialiteit (ISA 320) wordt door de AUDITOR zelf vastgelegd — niet door management, niet bij KB, niet door AV. Voor REVIA: 5 % × 4,2 mln resultaat voor belastingen = 210k EUR overall · 75 % × 210k = 158k EUR uitvoeringsmaterialiteit. Risico-inschatting (ISA 315 herzien-2019) identificeert per bewering welke risico's significant zijn — voor REVIA: 4 risico's, 2 significant (rechtszaak ROCHE-Gent + voorraad-waardering cleanroom)."
+    - "Het hart van uitvoering = bewijskracht-rangorde + alternatieve werkzaamheden. Externe bevestiging > inspectie materiële activa > inspectie documentatie > opnieuw uitvoeren > herberekening > cijferanalyses > verzoek om inlichtingen. Examen-klassieker: lage respons confirmaties (ISA 505 §12) → NIET automatisch voorbehoud, maar eerst ALTERNATIEVE WERKZAAMHEDEN (subsequent receipts + verzendingsdocumenten). Pas wanneer die ook falen voor materieel bedrag, dan pas richting voorbehoud."
+  visualisaties:
+    - type: mermaid
+      ref: audit_cyclus
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We volgen de zes fases stap voor stap met REVIA als doorloop. Op het einde van de uitvoeringsfase staat de stagiair klaar met geverifieerde bevindingen + materialiteit als kompas — die input voedt leerstuk 3 over afronding en oordeel-keuze.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  # =========================================================================
+  # FASE 1 — AANVAARDING
+  # =========================================================================
+
+  - id: aanvaarding
+    titel: "Fase 1 — Aanvaarding van de opdracht"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag van elke nieuwe-cliënt-situatie: 'mag IK deze opdracht aanvaarden — en zo ja, op welke voorwaarden?'. Het antwoord vereist drie toetsen achter elkaar: onafhankelijkheid (kunnen we onbevooroordeeld werken?) · randvoorwaarden (heeft de cliënt een aanvaardbaar boekhoudkundig kader?) · capaciteit (hebben we de competentie + middelen?). Daarna pas: opdrachtbrief."
+    kinderen:
+
+      - id: onafhankelijkheids-toets
+        titel: "Onafhankelijkheids-toets bij aanvaarding"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: de WET vraagt dat de externe accountant of revisor een opdracht WEIGERT bij elk feit, elke band, elke invloed die zijn onafhankelijkheid, zijn beoordelingsvrijheid of zijn onpartijdigheid kan aantasten (KB 1 maart 1998 art. 9). Niet 'voorzichtig zijn' — WEIGEREN."
+          - "Concretiseer met de IESBA-bedreigingen-kader-bril (5 categorieën): EIGENBELANG (commissie-afhankelijkheid · honoraria > 15 % van kantoor) · ZELF-TOETSING (eigen werk later moeten controleren) · BELANGENBEHARTIGING (cliënt verdedigen tegenover derden) · VERTROUWDHEID (langdurige relatie zelfde team) · INTIMIDATIE (dreigement vervanging als auditor 'lastig' wordt). Voor elke bedreiging twee vragen: aanvaardbaar niveau? Veiligheidsmaatregelen (safeguards) mogelijk?"
+          - "Voor REVIA bij start mandaat 2023 — toets: BV Audit & Controle (commissaris) had VOOR het mandaat geen bestaande adviesrelatie met REVIA Vlaanderen NOCH met REVIA Polska NOCH met INVESTRA. Honorarium 48k EUR per jaar — niet > 15 % van kantoor-honorarium (kantoor heeft ~3,5 mln EUR jaaromzet). M. Dewulf (vennoot) heeft geen familieband met Verbeke-familie. → aanvaardbaar."
+          - "Belangrijke nuance — beoordelings-cyclus blijft DOORLOPEND. Onafhankelijkheid wordt niet alleen bij start getoetst maar bij elk nieuw jaar én bij elke gebeurtenis die het beeld kan kantelen. Voorbeeld voor REVIA 2024: de patriarch Hubert Verbeke vraagt of het commissarissen-kantoor de inbreng-in-natura-opdracht voor het gebouw kan opnemen. → ZELF-TOETSING-bedreiging (commissaris zou later de waardering in zijn eigen jaarrekeningcontrole 2025 moeten beoordelen). → safeguards onvoldoende → WEIGER het bijzonder mandaat (zonder de jaarrekeningcontrole te raken). Bestuursorgaan wijst een andere beroepsbeoefenaar aan."
+          - "Doorklik: het volle kader leeft in [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]] — daar wordt de threats-and-safeguards-cyclus volledig uitgeschreven met decision-tree."
+        visualisaties:
+          - type: mermaid
+            ref: bedreigingen_kader
+            bron: voorbeeldgroep
+
+      - id: randvoorwaarden
+        titel: "Randvoorwaarden — kan deze cliënt überhaupt audit-baar zijn?"
+        niveau: 3
+        beats:
+          - "Open met de praktische vraag: 'is er voldoende grondslag om audit-bewijs op te bouwen?'. ISA 210 §6 vraagt dat de auditor vóór aanvaarding nagaat of: (a) het BOEKHOUDKUNDIG STELSEL aanvaardbaar is (Belgisch jaarrekeningrecht, of IFRS voor beursgenoteerde, of geconsolideerde IFRS); (b) het MANAGEMENT de verantwoordelijkheid voor de jaarrekening + voor de interne beheersing + voor toegang tot stukken en personeel uitdrukkelijk erkent."
+          - "Voor REVIA — Belgisch jaarrekeningrecht (KB WVV) + geconsolideerde jaarrekening REVIA-groep met IFRS-equivalent gerekend (geen verplichte IFRS want niet beursgenoteerd). Management erkent verantwoordelijkheid → randvoorwaarden OK. Indien management WEIGERT toegang tot bepaalde stukken (bv. minutes RvB), is de pre-conditie geschonden → opdracht NIET aanvaarden, of strikt beperken."
+          - "Belangrijke nuance (blockquote-aside): de scope-beperking bij aanvaarding zelf is een andere figuur dan de scope-beperking tijdens de uitvoering. Bij aanvaarding leidt een verwacht stuk dat niet beschikbaar zal zijn tot WEIGERING (of opdrachtbrief met expliciete uitzondering). Tijdens uitvoering leidt een ontbrekend stuk tot een scope-beperking-vraag op verslag-niveau (zie [[afronden-en-rapporteren-van-een-audit]] — beslismatrix oordeel)."
+
+      - id: opdrachtbrief
+        titel: "De opdrachtbrief — ISA 210"
+        niveau: 3
+        beats:
+          - "Open met de positionering: na succesvolle onafhankelijkheids-toets + randvoorwaarden-toets wordt de opdracht vastgelegd in een SCHRIFTELIJKE opdrachtbrief (engagement letter) — ISA 210 §10. De opdrachtbrief is geen formaliteit maar een wederzijdse afbakening van verwachtingen — voorkomt geschillen achteraf."
+          - "Verplichte elementen van de opdrachtbrief: (a) doelstelling en scope (wettelijke jaarrekeningcontrole 2024 — enkelvoudig + geconsolideerd) · (b) verantwoordelijkheden van auditor en management · (c) verwijzing naar toepasselijke standaarden (ISA-stelsel + ITAA-KMO-controlenorm) · (d) verwachte vorm en inhoud van rapporten · (e) niet-detectie-risico-clausule (audit biedt geen absolute zekerheid wegens steekproef-aard) · (f) honorarium en facturering · (g) toegang tot stukken en personeel."
+          - "Voor REVIA — opdrachtbrief 2024 ondertekend door M. Dewulf voor BV Audit & Controle en door Wouter Verbeke (CEO, gedelegeerd bestuurder) voor REVIA Vlaanderen. Tekst sluit aan op de modelopdrachtbrief in de bijlage van ISA 210."
+
+  # =========================================================================
+  # FASE 2 — PLANNING
+  # =========================================================================
+
+  - id: planning
+    titel: "Fase 2 — Planning van de audit"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: planning is geen administratief voorwerk — het is het MOMENT waarop de auditor zijn STRATEGIE bepaalt. Drie samenhangende vragen: (a) Wie is de cliënt en in welke omgeving werkt hij (kennisverwerving — ISA 315 herzien-2019)? (b) Hoeveel mag erin glippen voordat het oordeel breekt (materialiteit — ISA 320)? (c) Waar zit het risico op materiële afwijking — per bewering (risico-inschatting — ISA 315 §28-37)? De drie vragen voeden elkaar — iteratie is de norm."
+    kinderen:
+
+      - id: kennisverwerving
+        titel: "Kennisverwerving — entiteit + omgeving + IT + interne beheersing"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: zonder kennis van de entiteit en haar omgeving GEEN behoorlijke risico-inschatting mogelijk. ISA 315 (herzien-2019) §13-37 vraagt de auditor inzicht te verwerven in: (a) entiteit en haar OMGEVING (sector + regelgeving + economische context) · (b) het toepasselijke STELSEL inzake financiële verslaggeving (KB WVV + CBN-adviezen) · (c) het SYSTEEM VAN INTERNE BEHEERSING van de entiteit (vijf COSO-componenten + IT-componenten)."
+          - "Voor REVIA — sector-kennis: precisie-onderdelen voor farma-verpakkingsindustrie. Klanten zijn grote pharma-OEM's met lange contracten + lange betalingstermijnen (DSO). Concurrenten: enkele Duitse en Zwitserse spelers. Trend: migratie naar nieuwere machinegeneraties (relevant voor voorraad-veroudering-risico). Regelgeving: ISO 14644 (cleanroom) + EU-richtlijn medische hulpmiddelen voor farma-klant-omgeving."
+          - "Voor REVIA — interne beheersing: bestaande controle-omgeving (geen auditcomité want niet-OOB; RvB collectief, marleen Vandenberghe als onafhankelijk bestuurder met financieel profiel speelt audit-rol; CFO Eva Vermeulen sinds 2020 met ervaring in industrie). IT-systeem: SAP-implementatie sinds 2022 (relevant voor cut-off-risico's). Functiescheiding: 280 medewerkers — voldoende voor functiescheiding aankoop/voorraad/boekhouding. Geen interne audit-functie. → COSO-componenten 1 (controle-omgeving) en 2 (risico-inschatting management) sterk; 3 (controlewerkzaamheden) matig; 4 (informatie + communicatie) sterk via SAP; 5 (monitoring) zwak (geen interne audit)."
+          - "Doorklik: COSO-framework + drie verdedigingslijnen als zelfstandig onderwerp leven in PO 1.7 [[wat-is-interne-controle-en-coso]]. Hier in PO 1.6: alleen de AUDIT-IMPLICATIE van interne beheersing — bepaalt op welke controles de auditor kan steunen (steun op IC = minder substantieve werkzaamheden) of niet (volledige substantieve aanpak)."
+          - "Belangrijke nuance (blockquote-aside): ISA 315 herzien-2019 (in voege voor controles van financiële overzichten met periode-einde vanaf 15 december 2021) vraagt EXPLICIET het inzicht in IT-systemen + de algemene IT-controles + de geautomatiseerde toepassingscontroles. IT is geen apart hoofdstuk meer maar verweven door alle risico-inschattingswerkzaamheden. Voor REVIA met SAP sinds 2022: IT-controles op autorisaties + masterdata + interface met salaris-systeem zijn audit-relevant."
+
+      - id: materialiteit
+        titel: "Materialiteit — door de auditor vastgelegd"
+        niveau: 3
+        beats:
+          - "Open met de examen-klassieker: 'wie legt de materialiteit vast?' Antwoord: de AUDITOR in zijn professional judgment (ISA 320 §10). Niet management, niet bij KB, niet door AV. De auditor kiest een BENCHMARK (omzet · totale activa · resultaat voor belastingen · eigen vermogen) en past een PERCENTAGE toe — uitdrukkelijk afhankelijk van entiteit-omgeving + gebruikers."
+          - "Vier vuistregels voor benchmark-keuze: (a) winstgevende stabiele entiteit met aandeelhouders + banken als primaire gebruikers → resultaat voor belastingen, typisch 5-10 %; (b) verlieslatende of sterk volatiele entiteit → omzet, typisch 0,5-1 % (genormaliseerde basis); (c) vastgoed- of holding-entiteit waar balans-omvang doorslaggevend is → totale activa, typisch 1-2 %; (d) opstartfase of sterk veranderende activiteit → eigen vermogen, typisch 1-5 %."
+          - "Voor REVIA — keuze RESULTAAT VOOR BELASTINGEN: (a) winstgevend met stabiele marge (7 % EBIT-marge) · (b) primaire gebruikers zijn bank (BNP Paribas Fortis 12 mln EUR lening) + minderheidsparticipatie (INVESTRA) die op resultaat sturen · (c) geen incidentele eenmalige items 2024 die normalisatie vragen. Berekening: 5 % × 4.200.000 = **210.000 EUR overall materiality**."
+          - "Daarna de UITVOERINGSMATERIALITEIT — een fractie van overall, typisch 50-75 %. Hoe risico-vol de audit-omgeving, hoe LAGER de fractie (meer marge nodig voor accumulatie). Voor REVIA met DRIE lopende audit-issues: 75 % × 210.000 = **158.000 EUR uitvoeringsmaterialiteit**. Plus een drempel voor DUIDELIJK KLEINE AFWIJKINGEN (clearly trivial — ISA 450 §A2), typisch 5 % van overall: 10.000 EUR — afwijkingen onder die drempel worden niet geaccumuleerd."
+          - "Belangrijke nuance: voor SPECIFIEKE rekeningen of toelichtingen waar de gebruiker bijzonder gevoelig is, mag de auditor een LAGERE materialiteit toepassen (specific materiality). Voor REVIA: commissaris-vergoeding + bezoldigingen bestuurders + transacties met verbonden partijen (REVIA Polska) — daar wordt vaak een aparte lagere materialiteit gehanteerd."
+          - "Concretiseer met examen-strikvraag: wie zou TWEE MAANDEN na publicatie van de jaarrekening zeggen 'die fout van 50k EUR maakt niet uit, want ze valt onder materialiteit'? FOUT — materialiteit zegt WAT DE AUDITOR onder welke drempel niet hoeft te corrigeren, niet wat de gebruiker fout vindt. Een fout van 50k is onder de drempel 158k uitvoeringsmaterialiteit; geaccumuleerd met andere kleine afwijkingen kan ze wel materieel worden."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: materialiteit_benchmarks
+            bron: voorbeeldgroep
+
+      - id: risico-inschatting
+        titel: "Risico-inschatting — per bewering"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische scharniervraag: 'WAAR in deze jaarrekening kan het misgaan?'. Risico-inschatting (ISA 315 herzien-2019 §28-37) loopt langs de 13 BEWERINGEN — beweringen zijn de TYPES van uitspraken die in een jaarrekening verstopt zitten. Wie de beweringen niet ziet, ziet het audit-bewijs niet."
+          - "DRIE bewerings-categorieën — uit ISA 315 §A190. (a) KLASSEN VAN TRANSACTIES + gebeurtenissen tijdens periode: plaatsgevonden · volledigheid · juistheid · afgrenzing (cut-off) · classificatie. (b) REKENINGSALDI op einde periode: bestaan · rechten/verplichtingen · volledigheid · juistheid van waardering · classificatie. (c) PRESENTATIE + toelichtingen: plaatsgevonden + rechten · volledigheid · classificatie/begrijpelijkheid · juistheid/waardering. Per cluster van transacties + per saldopost krijgt de auditor te bepalen welke beweringen RISICO lopen."
+          - "Concretiseer met REVIA — vier risico's geïdentificeerd, twee SIGNIFICANT (= verhoogd inherent risico vereist verhoogde audit-aandacht): (1) HANGENDE RECHTSZAAK ROCHE-Gent — bewering volledigheid passiva: misschien onderwaardering voorzieningen. Significant. (2) VOORRAAD-WAARDERING cleanroom-onderdelen — bewering juistheid van waardering activa: vermoeden technische veroudering. Significant. (3) BESTAAN + waardering HANDELSVORDERINGEN met lage confirmaties-respons — niet significant, courant audit-thema. (4) VERBONDEN PARTIJEN — transferprijs REVIA Polska — niet significant maar wel verhoogde aandacht (ISA 550)."
+          - "Belangrijke nuance over SIGNIFICANT — significant risico vereist drie dingen: (a) AANDACHT van senior audit team (geen junior alleen); (b) uitsluitend SUBSTANTIEVE PROCEDURES (geen volledige steun op interne beheersing); (c) bewijs van een test van de operationele effectiviteit van controles (als de auditor ervan UITGAAT dat IC werkt) — anders volledig substantief. Voor REVIA: rechtszaak en voorraad krijgen senior aandacht; lawyer's letter voor rechtszaak (direct extern bewijs); inspectie + interviews + benchmarking voor voorraad."
+          - "Synthese (vetgedrukt): risico-inschatting is geen eenmalige stap maar een DOORLOPEND PROCES — bevindingen tijdens uitvoering kunnen risico-inschatting herzien. De pijl in de audit-cyclus-mermaid van uitvoering terug naar planning is geen ornament — dat is hoe het werkt."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: assertions_isa_315
+            bron: voorbeeldgroep
+
+      - id: strategie-en-werkprogramma
+        titel: "Strategie en werkprogramma — ISA 300"
+        niveau: 3
+        beats:
+          - "Open met de positionering: nadat materialiteit + risico-inschatting vastliggen, kiest de auditor zijn AUDIT-STRATEGIE (ISA 300 §7-9). Twee uitersten: (a) STEUN op interne beheersing — minder substantieve werkzaamheden mogelijk wanneer IC sterk + getest; (b) VOLLEDIG SUBSTANTIEVE benadering — geen steun op IC, alle bewijs uit eigen procedures. In de praktijk: mix per bewering."
+          - "Voor REVIA — strategie 2024: gemixt per bewering. Aankoop-cyclus + verkoop-cyclus → steun op SAP-controles (sterke IC); voor de twee significante risico's (rechtszaak + voorraad-waardering) → volledig substantief, geen steun op IC; voor lonen → analytische procedures + steekproef per kwartaal (gemixt). Werkprogramma per bewering uitgewerkt."
+          - "Delegatie + supervisie (ISA 220 herzien): de OPDRACHTPARTNER (M. Dewulf) blijft eindverantwoordelijk voor het AUDIT-TEAM. Briefing vooraf + tussentijdse reviews tijdens uitvoering + slot-review vóór ondertekening verslag. Junior krijgt controleerbare opdrachten met tijds-budget; manager super-viseert dagelijks. Risico bij gebrek aan supervisie: junior aanvaardt verkeerd bewijs (zie mini-case 3 voorbeeldgroep: interne maandafsluiting als cut-off-bewijs)."
+          - "Communicatie met GOVERNANCE (ISA 260): de commissaris moet de Raad van Bestuur (of auditcomité waar dat bestaat — niet voor REVIA niet-OOB) informeren over zijn AUDIT-STRATEGIE, materialiteit en geïdentificeerde significante risico's vóór de uitvoering. Voor REVIA: M. Dewulf presenteert in oktober 2024 aan de RvB de aanpak — overall materialiteit 210k · drie significante issues."
+
+  # =========================================================================
+  # FASE 3 — UITVOERING
+  # =========================================================================
+
+  - id: uitvoering
+    titel: "Fase 3 — Uitvoering van controlewerkzaamheden"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: uitvoering = audit-bewijs verzamelen om de RISICO'S uit fase 2 af te dekken. ISA 500 §6 vraagt dat de auditor VOLDOENDE EN GESCHIKT audit-bewijs verkrijgt. Voldoende = HOEVEELHEID (steekproefomvang). Geschikt = KWALITEIT (relevantie + betrouwbaarheid). De zeven controlewerkzaamheden + observatie hebben elk hun eigen plek in de bewijskracht-rangorde."
+    kinderen:
+
+      - id: zeven-procedures
+        titel: "De zeven controlewerkzaamheden + betrouwbaarheids-rangorde"
+        niveau: 3
+        beats:
+          - "Open met de bewijskracht-vraag: 'welk bewijs telt het zwaarste?'. ISA 500 §A14-A25 geeft de RANGORDE — extern is sterker dan intern, schriftelijk sterker dan mondeling, door auditor gegenereerd sterker dan door cliënt gegenereerd."
+          - "TOP — EXTERNE BEVESTIGINGEN (ISA 505). Schriftelijke reactie van een derde RECHTSTREEKS aan de auditor. Hoogste betrouwbaarheid. Toepassing REVIA: BANK CONFIRMATION BNP Paribas Fortis voor saldo's + leningen + zekerheden; HANDELSVORDERINGEN-confirmaties voor top-20 klanten; LAWYER'S LETTER voor de rechtszaak ROCHE-Gent (ISA 501 §9-12)."
+          - "Tweede — INSPECTIE VAN MATERIËLE ACTIVA. Fysieke waarneming. Sterk voor BESTAAN; zwakker voor waardering. Voor REVIA: voorraadtelling cleanroom-onderdelen 31/12/2024 — auditor woont fysiek bij + telt eigen steekproef (= ook OBSERVATIE)."
+          - "Derde — INSPECTIE VAN DOCUMENTATIE. Externe documenten sterker dan interne. Voor REVIA: verzendingsdocumenten + getekende leveringsbonnen (= sterk extern); inkoopfacturen leveranciers (sterk extern); maandelijkse interne staat door interne boekhouder (= zwak intern, kan nooit ALLEEN volstaan — zie examen-strikvraag mini-case 3)."
+          - "Vierde — OPNIEUW UITVOEREN (reperformance). Auditor voert procedure of controle van management opnieuw uit. Direct gegenereerd door auditor — hoog. Voor REVIA: voorraad-waardering FIFO recalculatie op steekproef."
+          - "Vijfde — HERBEREKENING. Wiskundige juistheid. Direct gegenereerd door auditor — hoog. Voor REVIA: afschrijvingen machines + rentelasten BNP-lening + belastingen op resultaat."
+          - "Zesde — CIJFERANALYSES (analytical procedures — ISA 520). Evaluatie via relaties tussen financiële en niet-financiële gegevens. Effectief voor planning + slot-review; ZWAKKER als enige bron voor een bewering. Voor REVIA: brutomarge per productlijn (vergelijking met 2023) · DSO-evolutie (9,8 → 11,0 mln handelsvorderingen) · personeelskost per medewerker (280 medewerkers × 50k)."
+          - "Zevende — VERZOEK OM INLICHTINGEN (inquiry). Mondelinge of schriftelijke vragen aan management of derden. LAAGSTE betrouwbaarheid op zich; moet ALTIJD gecombineerd worden met andere procedures (corroborate). Voor REVIA: interview productiehoofd over technologische veroudering cleanroom-lijn — informatieve waarde, maar moet bevestigd worden met externe benchmarking + objectieve marktinfo."
+          - "Apart geclassificeerd — OBSERVATIE. Waarneming van proces of procedure uitgevoerd door anderen. PUNT-IN-TIJD — niet representatief voor heel jaar. Voor REVIA: observatie van voorraadtelling-procedure 31/12/2024 (procedure van management, auditor kijkt mee)."
+        visualisaties:
+          - type: tabel-vergelijking
+            ref: bewijsmiddelen_rangorde
+            bron: voorbeeldgroep
+
+      - id: drie-issues-uitgewerkt
+        titel: "De drie audit-issues REVIA — procedures stap voor stap"
+        niveau: 3
+        beats:
+          - "Open met de scharniervraag: 'hoe pak je elk significant risico aan met de juiste procedures?'. We werken de drie REVIA-issues uit, één voor één — telkens met het schema 'risico → bewering → procedures → bewijs'."
+
+          - "ISSUE 1 — HANGENDE RECHTSZAAK ROCHE-Gent (claim 1,2 mln). Risico: bewering VOLLEDIGHEID PASSIVA — mogelijke onderwaardering voorzieningen. Procedures volgens ISA 501 §9-12 + ISA 580: (a) lawyer's letter aan advocaat van REVIA met verzoek om EVALUATIE van waarschijnlijkheid uitkomst + raming bedrag + tijdshorizon — positieve confirmatie; (b) inspectie van correspondentie ROCHE-Gent + REVIA en intern dossier (= externe + interne documentatie); (c) verzoek aan management om LOR (Letter of Representation — ISA 580) waarin management bevestigt dat alle bekende rechtszaken zijn meegedeeld; (d) interview met juridisch verantwoordelijke binnen REVIA."
+          - "Issue 1 — mogelijke uitkomsten (kruisverwijzing naar L3 beslismatrix): (a) advocaat zegt 'onwaarschijnlijk' → toelichting voldoende, geen voorziening, oordeel goedkeurend. (b) advocaat zegt 'waarschijnlijk, raming 800k' → voorziening 800k vereist (KB WVV art. 3:11); management corrigeert → goedkeurend. (c) advocaat zegt 'waarschijnlijk, raming 800k' maar management WEIGERT correctie → afwijking 800k > materialiteit 210k → materieel; niet-diepgaand → voorbehoud (ISA 705 §7). (d) management WEIGERT lawyer's letter te laten sturen → scope-beperking; mogelijk diepgaand → onthouding (ISA 705 §9-10) — examen-klassieker."
+
+          - "ISSUE 2 — VOORRAAD-WAARDERING cleanroom-onderdelen (boekwaarde 600k, vermoeden veroudering). Risico: bewering JUISTHEID VAN WAARDERING ACTIVA. Procedures volgens ISA 540 herzien + ISA 501 §4: (a) inspectie ouderdomslijst voorraad — opzoeken hoe lang elke productlijn op stock is + rotatiesnelheid; (b) interview met productiehoofd over pipeline klant X + technologie-migratie (= verzoek om inlichtingen — zwakke bron); (c) EXTERNE BENCHMARKING — marktinformatie over migratie van klant X naar nieuwere machinegeneratie (sterker dan inquiry); (d) schatting NETTO-REALISEERBARE WAARDE (NRW): inspectie van recente verkooppipeline + kortingen + uiteindelijke verwachte opbrengst. (e) eigen herberekening waardevermindering."
+          - "Issue 2 — mogelijke uitkomsten: indien NRW = 220k vs boekwaarde 600k → waardevermindering 380k nodig (CBN-advies 132/7 — lower of cost or NRV). Afwijking 380k > materialiteit 210k → materieel. (a) management corrigeert → goedkeurend. (b) management weigert correctie en levert geen ondersteunend bewijs → voorbehoud (afwijking materieel-niet-diepgaand)."
+
+          - "ISSUE 3 — EXTERNE CONFIRMATIES handelsvorderingen — lage respons (65 %). Risico: bewering BESTAAN + WAARDERING ACTIVA. Procedures volgens ISA 505 §6-7 + §12-13: (a) positieve confirmaties uitgestuurd naar top-20 klanten (dekking 78 % van 11 mln saldo, 8,6 mln aangeschreven); (b) respons 65 % → 5,6 mln bevestigd; (c) non-respondenten 7 klanten × 3,0 mln = ALTERNATIEVE WERKZAAMHEDEN nodig — ISA 505 §12: (c1) SUBSEQUENT RECEIPTS-test — betalingen na balansdatum (januari-februari 2025); (c2) voor klanten zonder betaling → verzendingsdocumenten + getekende leveringsbonnen + facturen + aanvaardingsbewijzen."
+          - "Issue 3 — VALKUIL examen-klassieker (vetgedrukt): lage respons confirmaties = NIET AUTOMATISCH voorbehoud. Eerst alternatieve werkzaamheden. Pas WANNEER die ook falen voor een materieel bedrag (> 210k), pas dan richting scope-beperking → voorbehoud. Mogelijke uitkomsten: (a) alternatieve werkzaamheden dekken alle non-respondenten → geen impact oordeel; (b) alternatieve werkzaamheden falen voor 1 klant van 600k > materialiteit → scope-beperking materieel-niet-diepgaand → voorbehoud."
+
+      - id: cijferanalyses-cut-off-verbonden
+        titel: "Drie extra accenten — cijferanalyses, cut-off en verbonden partijen"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: drie thema's die geen aparte issues zijn maar wel klassieke audit-aandachtspunten — en samen het verschil maken tussen een ongelukkige en een degelijke audit."
+          - "CIJFERANALYSES (ISA 520) — gebruikt in drie fases: bij planning (ontdekken van onverwachte schommelingen die het risico-inschattings-werk sturen), tijdens uitvoering (substantieve cijferanalyses op specifieke beweringen), en in afronding (slot-review op heel jaar — zie [[afronden-en-rapporteren-van-een-audit]]). Voor REVIA in planning: brutomarge per productlijn vergeleken met 2023 → afwijking productlijn klant X (-45 % volume) → identificeert voorraad-veroudering-risico. DSO-evolutie 9,8 → 11,0 mln → identificeert kredietrisico handelsvorderingen."
+          - "CUT-OFF — afgrenzing transacties rond 31/12 — bewering AFGRENZING. Risico: omzet boeken in fout boekjaar (te vroeg = winst opblazen, te laat = winst onderdrukken). Procedures: inspectie verzendingsdocumenten + getekende leveringsbonnen voor leveringen rond balansdatum. EXAMEN-STRIKVRAAG (mini-case 3 REVIA): junior accepteert interne maandafsluiting 30/11/2024 als bewijs voor cut-off omzet → partner stopt → INTERN document heeft lage bewijswaarde; externe verzendingsdocumenten zijn nodig."
+          - "VERBONDEN PARTIJEN (ISA 550) — transacties tussen REVIA Vlaanderen en REVIA Polska (transfer pricing) + tussen REVIA en Verbeke Holding + (vooral interessant) tussen REVIA en Hubert Verbeke privé (de inbreng-in-natura van het gebouw). Procedures: inspectie TP-documentatie + analytische review brutomarge per productlijn + vergelijking met externe benchmarks + bevestiging volledigheid van toelichting verbonden partijen in jaarrekening (KB WVV)."
+
+      - id: bevindingen-en-accumulatie
+        titel: "Bevindingen accumuleren — overgang naar afronding"
+        niveau: 3
+        beats:
+          - "Open met de overgangs-pedagogische lijn: tijdens uitvoering verzamelt de auditor BEVINDINGEN — afwijkingen ten opzichte van de jaarrekening + onzekerheden. Die bevindingen worden GEACCUMULEERD per bewering, vergeleken met de uitvoeringsmaterialiteit (158k voor REVIA) en met de overall materialiteit (210k). ISA 450 stuurt de evaluatie."
+          - "Voor REVIA — accumulatie op slot van uitvoering: (a) issue 1 rechtszaak: hangt af van advocaat-respons — open; (b) issue 2 voorraad: indien NRW-schatting = 220k, voorgestelde correctie 380k > materialiteit; (c) issue 3 confirmaties: alternatieve werkzaamheden hebben 90 % gedekt, residueel 600k overschrijdt indien niet afgedekt. Geacumuleerd risico: 380k + eventueel rechtszaak + eventueel residuele confirmaties."
+          - "Communicatie aan management + governance: ISA 260 + ISA 265 vraagt mededeling van significante bevindingen + significante tekortkomingen in interne beheersing aan governance. Management-letter voor niet-significante punten; mondelinge mededeling aan voorzitter RvB voor significante. Voor REVIA: M. Dewulf bespreekt issues met CFO Eva Vermeulen en CEO Wouter Verbeke vóór hij naar het volle RvB-bord gaat."
+          - "Hand-off naar leerstuk 3: de cijfers en bevindingen die hier zijn opgebouwd voeden direct de OORDEEL-KEUZE in [[afronden-en-rapporteren-van-een-audit]] — beslismatrix materieel × diepgaand. De drie issues blijven als doorloop-cases meegaan."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (warning): materialiteit door management of door cliënt laten vastleggen. FOUT — ISA 320 §10 vraagt expliciet professional judgment van de AUDITOR. Materialiteit is een audit-instrument; cliënt heeft geen rol in de vaststelling. Wie het management laat 'sturen' op materialiteit, levert zijn auditor-rol in. Examen-klassieker 2024-1 + 2013-1."
+      - "Valkuil 2 (warning): denken dat lage respons confirmaties automatisch voorbehoud oplevert. FOUT — ISA 505 §12 vraagt eerst ALTERNATIEVE WERKZAAMHEDEN (subsequent receipts + verzendingsdocumenten + andere). Pas wanneer die FALEN voor een materieel bedrag, pas dan komt scope-beperking + voorbehoud in beeld. Examen-klassieker 2014-1 + 2015-1."
+      - "Valkuil 3 (warning): interne stukken (proef- en saldibalans van interne boekhouder, intern memo, interne maandafsluiting) aanvaarden als zelfstandig audit-bewijs. FOUT — interne documenten hebben lagere bewijswaarde dan externe (ISA 500 §A31). Voor cut-off omzet: externe verzendingsdocumenten + getekende leveringsbonnen nodig. Voor bijzondere mandaten (zie [[bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen]]): de proef- en saldibalans is GEEN staat van activa en passiva — die laatste moet door het BESTUURSORGAAN ondertekend worden. Examen-klassieker 2013-2 + 2014-1."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: afronden-en-rapporteren-van-een-audit
+      hint: "De directe vervolg-stap — afronding (ISA 450 evaluatie afwijkingen + ISA 540 schattingen + ISA 560 gebeurtenissen na balansdatum + ISA 570 continuïteit + ISA 580 LOR + ISA 720 jaarverslag) + oordeel-types met beslismatrix + revisiedossier (10 jaar bewaring). De drie REVIA-issues krijgen daar hun oordeel-uitkomst."
+    - slug: onafhankelijkheid-en-deontologie-bij-controleopdrachten
+      hint: "De onderbouwende laag — bedreigingen-kader IESBA met threats-and-safeguards-cyclus. Komt prominent terug bij elke aanvaarding én bij elke gebeurtenis tijdens uitvoering die het beeld kan kantelen."
+    - slug: wat-is-externe-controle-en-welke-opdrachten-bestaan
+      hint: "Voor het kader — opdracht-types + statuut commissaris + normbronnen-hiërarchie. Lees terug indien onzeker over hoe de wettelijke controle zich verhoudt tot andere opdracht-types."
+    - slug: bijzondere-wettelijke-verslagen-bij-vennootschapsverrichtingen
+      hint: "Het parallel spoor — niet een audit, maar een bijzonder mandaat met beperkte zekerheid. Belangrijk verschil in werkwijze: staat A&P door bestuursorgaan i.p.v. ontwerp-jaarrekening; modelverslag i.p.v. controleverklaring."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — audit-cyclus zes fases op één pagina + materialiteits-formule + 7 procedures + 13 beweringen."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [audit-planning, audit-bewijs, controleopdracht]
+    - concepten: [opdrachtaanvaarding-en-opdrachtbrief, onafhankelijkheid, isa-overzicht]
+    - concepten: [interne-controle, fouten-en-fraude, evaluatie-interne-controle]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Aanvaarding opdracht + opdrachtbrief"
+    ref: "ISA 210 §6 + §10"
+    noot: "Randvoorwaarden (boekhoudkundig stelsel + verantwoordelijkheid management); schriftelijke opdrachtbrief verplicht."
+  - onderwerp: "Onafhankelijkheid bij aanvaarding"
+    ref: "KB 1 maart 1998 art. 9 + 11 + 14 · IESBA Code"
+    noot: "Weigeren bij elke bedreiging die onafhankelijkheid, beoordelingsvrijheid of onpartijdigheid kan aantasten. Verifieerd via MCP. Uitgewerkt in [[onafhankelijkheid-en-deontologie-bij-controleopdrachten]]."
+  - onderwerp: "Planning"
+    ref: "ISA 300"
+    noot: "Algehele audit-strategie + werkprogramma per bewering."
+  - onderwerp: "Kennisverwerving entiteit + omgeving + interne beheersing"
+    ref: "ISA 315 (herzien-2019) §13-37"
+    noot: "Inzicht in entiteit + omgeving + financieel verslaggevingsstelsel + systeem interne beheersing (incl. IT). Verifieerd via MCP."
+  - onderwerp: "Materialiteit"
+    ref: "ISA 320 §10-13 · ISA 200"
+    noot: "Door de auditor vastgelegd; benchmark + percentage + uitvoeringsmaterialiteit + clearly trivial threshold. Verifieerd via MCP."
+  - onderwerp: "Inspelen op risico's"
+    ref: "ISA 330"
+    noot: "Substantieve werkzaamheden + tests op operationele effectiviteit van controles."
+  - onderwerp: "Audit-bewijs + 7 procedures"
+    ref: "ISA 500 §6 + §A14-A25"
+    noot: "Voldoende en geschikt; betrouwbaarheids-rangorde extern > intern, door auditor gegenereerd > door cliënt gegenereerd."
+  - onderwerp: "Voorraadtelling + rechtszaken"
+    ref: "ISA 501 §4 (voorraad) + §9-12 (rechtszaken + lawyer's letter)"
+    noot: "Auditor woont fysieke voorraadtelling bij wanneer voorraad materieel; lawyer's letter voor hangende rechtszaken."
+  - onderwerp: "Externe bevestigingen"
+    ref: "ISA 505 §6 + §7 + §12-13"
+    noot: "Positieve vs negatieve confirmaties; alternatieve werkzaamheden bij non-respons. Verifieerd via MCP."
+  - onderwerp: "Cijferanalyses"
+    ref: "ISA 520"
+    noot: "Analytische werkzaamheden in planning + uitvoering + slot-review."
+  - onderwerp: "Steekproeven"
+    ref: "ISA 530"
+    noot: "Statistische en niet-statistische steekproef-aanpakken."
+  - onderwerp: "Schattingen"
+    ref: "ISA 540 (herzien)"
+    noot: "Schattingen waardering (voorraad-veroudering + voorzieningen). Verifieerd via MCP."
+  - onderwerp: "Verbonden partijen"
+    ref: "ISA 550"
+    noot: "Identificatie + bewijs voor transacties verbonden partijen; voor REVIA: Polska + Verbeke Holding + persoonlijke transacties Hubert Verbeke."
+  - onderwerp: "Communicatie governance + interne beheersing"
+    ref: "ISA 260 + ISA 265"
+    noot: "Significante bevindingen + significante tekortkomingen IC."
+  - onderwerp: "Kwaliteitsmanagement op opdracht-niveau"
+    ref: "ISA 220 (herzien)"
+    noot: "Delegatie + supervisie + slot-review; opdrachtpartner eindverantwoordelijk. Verifieerd via MCP."
+  - onderwerp: "ITAA-KMO-controlenorm — Belgische toepassing"
+    ref: "ITAA-KMO-controlenorm"
+    noot: "Voor niet-OOB-entiteiten zoals REVIA; verwijst naar ISA's voor methodologie."
+
+footer: "Leerstuk PO 1.6 — proces 1 (zwaarste). Status: voorgesteld — ADR-037."
