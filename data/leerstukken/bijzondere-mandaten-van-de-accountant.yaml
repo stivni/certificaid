@@ -1,0 +1,364 @@
+# Leerstuk-script — Bijzondere mandaten van de accountant
+#
+# PO 3.0 leerstuk 6 (synthese — RODE DRAAD). Bijzondere mandaten zijn
+# dé examen-favoriet van PO 3.0 (~10 directe vragen + ~6 omzettings-
+# vragen). Dit leerstuk integreert alle wettelijke verslagen die in
+# L1-L5 vermeld werden — niet als nieuwe stof, maar als ANDERE
+# DENKMODUS: vanuit de positie van de accountant-derde i.p.v. vanuit
+# het bestuur.
+#
+# Pedagogische sleutel: UNIFORM WERKPROGRAMMA-RAAMWERK over alle mandaten.
+# Vier vaste fasen herhalen we per mandaat-type: (1) aanvaarding +
+# opdrachtbrief + onafhankelijkheid; (2) werkzaamheden + werkprogramma;
+# (3) verslag (inhoud + structuur); (4) bewaring + opvolging. Dit
+# voorkomt dat we per mandaat opnieuw moeten uitleggen wat
+# 'onafhankelijkheid' is.
+#
+# Concept-vocabulair INTRODUCEREN (mandaat-specifiek):
+#   wettelijk mandaat · accountant vs bedrijfsrevisor · ITAA-norm ·
+#   opdrachtbrief · onafhankelijkheidsverklaring · werkprogramma ·
+#   actualiteitsvereiste · staat van activa en passiva · modelverslag ·
+#   bijzondere mandaten-catalogus
+#
+# Concept-vocabulair UIT L1-L5 (oproepen, niet herhalen):
+#   inbreng natura (L1+L3) · quasi-inbreng (L3 — NV alleen) · interim-
+#   dividend (L3) · alarmbel (L3 — advies-rol, geen wettelijk verslag) ·
+#   kapitaalverhoging in natura (L3) · omzetting Boek 14 (L1 - WVV-overgang
+#   onderscheid) · fusie/splitsing ruilverhouding (L4) · ontbindings-AV +
+#   ontbinding-en-vereffening in één akte (L5) · vereffenaarsmandaat (L5) ·
+#   herstructureringsdeskundige in GR (L5).
+#
+# Hand-off naar PO 4.0 (deontologie) — opdrachtbrief, onafhankelijkheids-
+# bedreigingen, aanvaardingsproces, kwaliteitscontrole, beroepsgeheim.
+
+meta:
+  slug: bijzondere-mandaten-van-de-accountant
+  titel: "Bijzondere mandaten van de accountant — rode draad door de hele levensloop"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — synthese-fiche over de wettelijke opdrachten van
+    de accountant in vennootschappen ZONDER COMMISSARIS. Integreert
+    alle bijzondere verslagen die in L1-L5 vermeld werden — inbreng in
+    natura, kapitaalverhoging in natura, quasi-inbreng, interim-
+    dividend, inkoop eigen aandelen, omzetting van rechtsvorm,
+    fusie/splitsing-ruilverhouding, ontbinding-en-vereffening in één
+    akte, vereffenaarsmandaat, herstructureringsdeskundige — onder één
+    pedagogisch raamwerk (aanvaarding · onafhankelijkheid · werk-
+    programma · verslagstructuur). Cross-PO doorklik naar PO 4.0 voor
+    deontologie + opdrachtbrief + ITAA-norm-mechaniek. Ook drie context-
+    doelstellingen van taak 3.0.taak.3 (privé expertise, gerechts-
+    expertise, attest aan derden) komen kort aan bod.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Maak duidelijk dat dit het LAATSTE leerstuk is — synthese-laag —
+    en dat het GEEN nieuwe stof brengt, maar de verslagen uit L1-L5
+    samenbrengt onder één werkprogramma-raamwerk. Pedagogische lijn:
+    de accountant is hier DERDE-DESKUNDIGE, niet adviseur — de werkmodus
+    en verantwoording verschillen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: de accountant ZONDER COMMISSARIS heeft een TWAALFTAL wettelijke verslag-mandaten in een vennootschap (zonder commissaris) — inbreng in natura (BV + NV), kapitaalverhoging in natura, quasi-inbreng (NV alleen — commissaris of bedrijfsrevisor; gecertificeerd accountant uitgesloten), beperking voorkeurrecht, interim-dividend, inkoop eigen aandelen, omzetting van rechtsvorm (Boek 14), fusie/splitsing-ruilverhouding (sinds Wet 25-05-2023 ook gecertificeerd accountant bevoegd), inbreng bedrijfstak/algemeenheid, ontbindings-AV + ontbinding-en-vereffening in één akte, vereffenaarsmandaat. Daarnaast: kwalificatie-rollen (privé expertise + gerechtsexpertise + attest aan derden) en mogelijke aanstelling als herstructureringsdeskundige in GR."
+    - "Vier mandaten zijn EXCLUSIEF voor BEDRIJFSREVISOR (commissaris of, in vennootschappen zonder commissaris, een aangewezen bedrijfsrevisor — gecertificeerd accountant UITGESLOTEN): inbreng in natura, kapitaalverhoging in natura, quasi-inbreng (NV), beperking voorkeurrecht. Reden: ze betreffen WAARDERING van een goed en de wet eist hier de zwaarste expertise-graad. De overige mandaten (omzetting Boek 14, ontbinding-en-vereffening in één akte, ontbindings-AV-verslag, en SINDS WET 25-05-2023 ook fusie/splitsing-ruilverhouding) mogen door commissaris, bedrijfsrevisor OF GECERTIFICEERD ACCOUNTANT."
+    - "Werkprogramma-raamwerk is UNIFORM over alle mandaten — vier fasen: (1) AANVAARDING + ONAFHANKELIJKHEID + OPDRACHTBRIEF (cross-PO 4.0); (2) WERKZAAMHEDEN (specifiek per mandaat-type, met als constante: actualiteitsvereiste op cijfers + zorgvuldige documentering); (3) VERSLAG met vaste structuur (kader · werkzaamheden · bevindingen · conclusie · onafhankelijkheidsverklaring); (4) BEWARING + OPVOLGING (dossier-archief 7-10 jaar; opvolging eventuele wijzigingen tot uitvoering)."
+  visualisaties:
+    - type: mermaid
+      ref: bijzondere_mandaten_overzicht
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen het op in vijf blokken — eerst het algemeen kader (wettelijk mandaat + accountant vs revisor + ITAA-norm), dan het UNIFORME werkprogramma-raamwerk, dan de modelverslag-structuur, daarna mandaat-specifieke werkpaarden (de zes belangrijkste verslagen uitgewerkt), tenslotte de drie context-rollen (expertise + attest).'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: algemeen-kader
+    titel: "Algemeen kader — wat is een bijzonder mandaat?"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een 'bijzonder mandaat' is een WETTELIJKE OPDRACHT die de wetgever aan een externe deskundige (accountant of bedrijfsrevisor) toevertrouwt in vennootschappen die GEEN COMMISSARIS hebben. Doel: bij specifieke verrichtingen (waardering, uitkering, herstructurering, ontbinding) een ONAFHANKELIJK derde-oordeel inbrengen om belanghebbenden (aandeelhouders, schuldeisers, derden) te beschermen."
+      - "VENNOOTSCHAPPEN MET COMMISSARIS — de commissaris voert deze mandaten typisch uit (binnen zijn lopend controlecontract). Voor PO 3.0 is het belangrijkst om te begrijpen wat er gebeurt in KMO's ZONDER commissaris — waar de externe accountant of een aangewezen bedrijfsrevisor wordt aangesproken."
+      - "ACCOUNTANT VERSUS BEDRIJFSREVISOR — beide zijn beroepsbeoefenaars met ITAA-erkenning, maar HUN MANDAAT-CAPACITEIT VERSCHILT (zie tabel)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: bijzondere_mandaten_tabel
+        bron: voorbeeldgroep
+
+  - id: accountant-versus-revisor
+    titel: "Accountant of bedrijfsrevisor — wie mag wat?"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: kan een gewone externe accountant ELK bijzonder mandaat uitvoeren, of zijn er mandaten waar ENKEL een bedrijfsrevisor bevoegd is?"
+      - "BEDRIJFSREVISOR-EXCLUSIEF — vier mandaten betreffen WAARDERING van een goed of een uitgifteprijs en zijn voorbehouden aan commissaris of (in afwezigheid) aangewezen bedrijfsrevisor; gecertificeerd accountant uitgesloten: (a) inbreng in natura BV + NV (art. 5:7 + 7:7); (b) kapitaalverhoging in natura BV + NV (art. 5:133 + 7:183/7:197); (c) quasi-inbreng NV (art. 7:8); (d) beperking voorkeurrecht NV (art. 7:191). Logica: de waardering-toets vraagt expertise + onafhankelijkheidsgraad die in de revisor-opleiding centraal staan."
+      - "GEDEELD (commissaris, bedrijfsrevisor of GECERTIFICEERD ACCOUNTANT) — de overige mandaten: omzetting van rechtsvorm (Boek 14 art. 14:4); ontbinding-en-vereffening in één akte (art. 2:91); ontbindings-AV-verslag (art. 2:67 §1); fusie/splitsing-ruilverhouding (art. 12:26 fusie door overneming / 12:39 fusie door oprichting / 12:78 splitsing — gecertificeerd accountant bevoegd sinds Wet 25-05-2023); inbreng bedrijfstak/algemeenheid (art. 12:92 e.v. — voor verslag-mechaniek: commissaris of bedrijfsrevisor); vereffenaarsmandaat (kan ook gewone persoon zijn). Logica: deze betreffen meer een GETROUWHEIDS-toets op een staat A&P + procedure, eerder dan een zuiver waarderings-oordeel."
+      - "EXAMEN-INSTINKER (klassieker): 'mag een externe accountant het verslag van inbreng-in-natura maken?' Antwoord: NEEN. 'Mag hij het omzettingsverslag maken?' Antwoord: JA. 'Mag hij het fusie- of splitsingsverslag over de ruilverhouding maken?' Antwoord: JA sinds Wet 25-05-2023. 'Mag hij het verslag van interim-dividend maken?' Antwoord: in vennootschappen ZONDER commissaris is er voor BV-interim-dividend geen wettelijk verplicht extern verslag. In NV-interim-dividend (art. 7:199): commissaris of bedrijfsrevisor — accountant niet bevoegd. 'Mag hij een quasi-inbrengverslag maken (NV)?' Antwoord: NEEN — commissaris of bedrijfsrevisor uitsluitend."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Bevoegdheid", "Accountant?", "Bedrijfsrevisor?", "Wettelijke basis"]
+        rijen:
+          - ["Inbreng in natura (BV + NV)", "❌", "✅", "art. 5:7 + 7:7"]
+          - ["Kapitaalverhoging in natura", "❌", "✅", "art. 5:133 + 7:183/7:197"]
+          - ["Quasi-inbreng (NV)", "❌", "✅ (of commissaris)", "art. 7:8"]
+          - ["Beperking voorkeurrecht (NV)", "❌", "✅", "art. 7:191"]
+          - ["Interim-dividend NV", "❌", "✅ (of commissaris)", "art. 7:199"]
+          - ["Omzetting Boek 14", "**✅**", "✅", "art. 14:4 + 14:8"]
+          - ["Ontbindings-AV — staat A&P", "**✅**", "✅", "art. 2:67 §1"]
+          - ["Ontbinding-en-vereffening in één akte", "**✅**", "✅", "art. 2:91"]
+          - ["Fusie/splitsing — ruilverhouding (sinds Wet 25-05-2023)", "**✅**", "✅", "art. 12:26 + 12:39 + 12:78"]
+          - ["Inbreng bedrijfstak/algemeenheid", "❌", "✅", "art. 12:92 e.v."]
+          - ["Vereffenaarsmandaat", "**✅**", "✅", "art. 2:79 (mandaat-opdracht)"]
+          - ["Herstructureringsdeskundige GR", "**✅**", "✅", "WER art. XX.49/2 (openbaar) + XX.83/22 (besloten)"]
+
+  - id: uniforme-werkprogramma
+    titel: "Uniform werkprogramma — vier fasen per mandaat"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische kern: elk bijzonder mandaat volgt dezelfde vier-fasen-structuur. Door dit raamwerk eenmaal te leren, kan de stagiair elk mandaat-verslag construeren — alleen de werkzaamheden-inhoud van fase 2 verandert per mandaat-type."
+    kinderen:
+
+      - id: fase-1
+        titel: "Fase 1 — Aanvaarding, onafhankelijkheid, opdrachtbrief"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: vóór de accountant werk verricht, gaat hij door een vaste aanvaardings-fase. Dit hoort tot PO 4.0 (deontologie) maar wordt hier samengevat omdat het bij elk mandaat terugkomt."
+          - "AANVAARDINGSPROCEDURE — de accountant beoordeelt: (a) DESKUNDIGHEID (heeft hij de competentie voor dit specifiek mandaat?), (b) ONAFHANKELIJKHEID (geen vroegere of huidige binding met de cliënt of betrokken partijen die zijn oordeel zou kunnen kleuren), (c) MIDDELEN (tijd + team beschikbaar), (d) INTEGRITEIT VAN DE CLIËNT (geen aanwijzing van fraude of manipulatie)."
+          - "ONAFHANKELIJKHEIDSBEDREIGINGEN — vier klassieke types: zelftoetsing (eigen werk beoordelen), eigenbelang (financieel belang), familie (verwantschap), belangenverdediging (cliënt-loyaliteit). Wegingen + waarborgen volgens ITAA-norm. Cross-PO doorklik [[4.0]] voor het hele kwaliteitsmanagement-systeem."
+          - "OPDRACHTBRIEF — verplicht schriftelijk document waarin omschreven: (a) AARD VAN HET MANDAAT (welk wettelijk artikel — bv. art. 5:7 inbreng natura BV); (b) FEITEN waarop het mandaat betrekking heeft (welke verrichting); (c) VERWACHTE WERKZAAMHEDEN; (d) HONORARIUM-AFSPRAKEN; (e) TERMIJN. Ondertekend door cliënt + accountant vóór aanvang."
+          - "ONAFHANKELIJKHEIDSVERKLARING IN HET VERSLAG — elk wettelijk verslag bevat een uitdrukkelijke verklaring dat de accountant onafhankelijk staat van de cliënt en de betrokken partijen."
+
+      - id: fase-2
+        titel: "Fase 2 — Werkzaamheden + werkprogramma"
+        niveau: 3
+        beats:
+          - "Open met de positionering: het werkprogramma is per mandaat-type SPECIFIEK, maar bevat ALTIJD drie constante elementen."
+          - "CONSTANTE 1 — ACTUALITEITSVEREISTE: alle cijfers moeten ACTUEEL zijn. Voor staat van activa en passiva (Boek 14-omzetting binnenlands art. 14:3, ontbindings-AV art. 2:67, ontbinding-en-vereffening in één akte art. 2:91): MAX 3 MAANDEN OUD ten opzichte van het AV-besluit. Bij grensoverschrijdende omzetting (art. 14:20-14:25): max 4 maanden. Voor inbreng natura: waardering OP DE DATUM van inbreng. Examen-favoriet 'wat is de termijn van de staat?' — antwoord = 3 mnd (binnenlands) / 4 mnd (grensoverschrijdend)."
+          - "CONSTANTE 2 — VERIFICATIE VAN WAARDERINGSMETHODES: bij waardering-mandaten (inbreng natura, quasi-inbreng, kapitaalverhoging natura, ruilverhouding fusie/splitsing) onderzoekt de accountant of de gekozen methodes ECONOMISCH VERANTWOORD zijn en of de bekomen waarde REDELIJK is. Geen WAARDE-EVALUATIE als zodanig (de accountant zegt niet '€X is de juiste prijs'), wel een methodologische REASONABLENESS-toets."
+          - "CONSTANTE 3 — ZORGVULDIGE DOCUMENTATIE: alle werkzaamheden worden in een DOSSIER bewaard (werkbladen, correspondentie, cijferanalyses, externe bevestigingen). Dossier-bewaring 7-10 jaar (ITAA-norm)."
+
+      - id: fase-3
+        titel: "Fase 3 — Het verslag — vaste structuur"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: elk wettelijk verslag heeft een VASTE STRUCTUUR met zes blokken — terugkomend in ITAA-norm + WVV-praktijk."
+          - "BLOK 1 — IDENTIFICATIE: titel verslag + wettelijk mandaat-artikel + cliënt + datum + accountant/revisor + ITAA-erkenning."
+          - "BLOK 2 — OPDRACHT EN KADER: beschrijving van de voorgenomen verrichting + verwijzing naar de relevante WVV-artikelen + het bijzonder verslag van het bestuursorgaan dat als basis dient."
+          - "BLOK 3 — WERKZAAMHEDEN: opsomming van wat de accountant heeft onderzocht (boekhoudkundige stukken, marktinfo, juridische context, gevoerde gesprekken)."
+          - "BLOK 4 — BEVINDINGEN: feitelijke vaststellingen van de accountant — bv. 'de waardering steunt op marktvergelijking + DCF-methode'; 'de balansstaat A&P is niet ouder dan 3 maanden'; 'het nettoactief vóór en na bedraagt €X en €Y'."
+          - "BLOK 5 — CONCLUSIE (kernpunt): de accountant verklaart of de waardering redelijk is + ten minste gelijk is aan de tegenprestatie (inbreng natura), of dat de staat A&P getrouw is + geen overwaardering netto-actief vertoont (omzetting), of dat alle schulden zijn betaald/geconsigneerd (ontbinding-en-vereffening in één akte). Per mandaat-type is de kern-uitspraak ANDERS — examen-instinker."
+          - "BLOK 6 — ONAFHANKELIJKHEIDSVERKLARING + ONDERTEKENING: 'ik verklaar onafhankelijk te zijn' + ondertekening + datum + ITAA-erkenningsnummer."
+
+      - id: fase-4
+        titel: "Fase 4 — Bewaring + opvolging"
+        niveau: 3
+        beats:
+          - "DOSSIER-BEWARING — ITAA-norm vereist bewaring van werkdossiers minstens 10 JAAR voor wettelijke mandaten (latere aansprakelijkheidsvorderingen + curator-onderzoek bij eventuele faillietverklaring vennootschap binnen die termijn)."
+          - "OPVOLGING WIJZIGINGEN — tussen verslag-datum en daadwerkelijke uitvoering van de verrichting kunnen feiten veranderen (bv. waardevermindering inbreng-goed door externe gebeurtenis). In bedrijfsrevisor-praktijk (art. 7:8 §2): herwaardering vereist bij 'aanzienlijke wijziging' op effectieve datum verrichting. De accountant moet zijn werk dus niet alleen op het verslag-moment kloppen, maar alert blijven op TUSSENTIJDSE wijzigingen."
+          - "POST-MANDAAT — geen lopende verantwoordelijkheid eens het verslag is gepubliceerd en de verrichting voltrokken (geen continue audit-rol — dat is voor commissarissen). Wel: openbaarheid van het verslag (typisch bij KBO/Staatsblad) maakt dat derden er beroep op kunnen doen. Aansprakelijkheid: dezelfde algemene regels (art. 1382 BW + ITAA-norm + beroepsaansprakelijkheidsverzekering verplicht)."
+
+  - id: mandaat-werkpaarden
+    titel: "De zes belangrijkste mandaten uitgewerkt"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: zes mandaten zijn examen-statistisch dominant. Voor elk geven we de kern-uitspraak van het verslag + de mandaat-specifieke werkzaamheden + de Verhaeren-case als concretisering."
+    kinderen:
+
+      - id: inbreng-natura-werkpaard
+        titel: "Inbreng in natura — kapitaalverhoging Verhaeren Bouw 2026"
+        niveau: 3
+        beats:
+          - "Open met de positionering: dit is de PROTOTYPE van een waarderings-mandaat — bedrijfsrevisor-exclusief, examen-favoriet (~5 vragen)."
+          - "WETTELIJKE BASIS — art. 5:7 BV (oprichting) of 5:133 BV (kapitaalverhoging) — verslag bedrijfsrevisor over door oprichters/bestuur toegepaste WAARDERING + waarderingsmethoden."
+          - "Werkzaamheden — (a) onderzoek waarderingsmethodes (marktvergelijking, DCF, intrinsieke waarde voor goederen, voor aandelen: meerdere methoden + relatief belang), (b) verificatie onderliggende cijfers, (c) externe bevestigingen (kadastrale info, marktdata), (d) onderzoek mogelijke lasten op het in te brengen goed (hypotheek, voorrechten)."
+          - "Kern-uitspraak verslag: 'De waardering en de toegepaste methoden zijn redelijk en de waarde van de inbreng komt ten minste overeen met de tegenprestatie (het aantal nieuwe aandelen × fractiewaarde).'"
+          - "Concretiseer met Verhaeren-case (maart 2026): Marc brengt terrein 300.000 EUR in Verhaeren Bouw. Bedrijfsrevisor aangewezen — werkprogramma: marktwaardering op basis van twee onafhankelijke schattingen + kadastrale toets + onderzoek bestemming + lopende hypotheek (geen) + onderzoek bestemming (woongebied). Concludeert: waardering 300.000 EUR is redelijk, ≥ tegenprestatie (300.000 EUR aan nieuwe aandelen tegen fractiewaarde). Verslag toegevoegd aan bijzonder bestuursverslag → AV-besluit → notariële akte."
+
+      - id: omzetting-werkpaard
+        titel: "Omzetting Boek 14 — Verhaeren Vastgoed → maatschap 2026"
+        niveau: 3
+        beats:
+          - "Open met de positionering: omzetting is hét voorbeeldexamen-favoriet (~6 vragen) en het MAG door externe accountant — onderscheid t.o.v. inbreng natura."
+          - "WETTELIJKE BASIS — art. 14:3 (staat A&P max 3 maanden) + art. 14:4 (commissaris, bedrijfsrevisor of GECERTIFICEERD ACCOUNTANT brengt verslag uit; vermeldt enige overwaardering van het nettoactief) + art. 14:5 (bestuursverslag) + art. 14:8 (AV-besluit met 3/4 meerderheid). Mag accountant OF revisor."
+          - "Werkzaamheden — (a) VERIFIEREN ACTUALITEIT van de staat A&P (max 3 maanden oud bij AV-besluit); (b) CONTROLEREN GETROUWHEID (alle activa + passiva juist gewaardeerd, geen verzwijgingen, niet-uitvoerbare leasecontracten erkend); (c) ONDERZOEK OVERWAARDERING NETTO-ACTIEF (cruciaal — overwaardering moet expliciet vermeld worden in verslag); (d) onafhankelijkheidsverklaring."
+          - "Kern-uitspraak verslag: 'De staat van activa en passiva geeft een getrouw beeld van het vermogen op datum X, en er werd geen overwaardering van het nettoactief vastgesteld' (of, indien aanwezig: '... een overwaardering van € Y werd vastgesteld voor onderdeel Z')."
+          - "Belangrijke nuance — onderscheid WVV-overgang BVBA→BV (zie L1): geen Boek-14-mandaat, accountant niet betrokken. Examen-instinker uit 2024-1 vr1A: 'is er een accountantsverslag nodig bij overgang BVBA→BV?' Antwoord = NEEN. 'Bij vrijwillige omzetting BV → maatschap?' Antwoord = JA, art. 14:4."
+          - "Concretiseer met Verhaeren-case (najaar 2026): accountant aangewezen voor Boek 14-omzetting Verhaeren Vastgoed BV naar maatschap. Werkprogramma: staat A&P per 30-9-2026 (max 3 mnd vóór AV 1-12-2026); verificatie waardering van twee percelen + bedrijfsgebouw + bouwgrond (geen overwaardering vastgesteld); RC-schuld met Verhaeren Holding gevalideerd; hypothecaire kredieten gechecked. Verslag uitgebracht 15-11-2026 (art. 14:4), AV-besluit 1-12-2026 (3/4 meerderheid art. 14:8)."
+
+      - id: interim-dividend-werkpaard
+        titel: "Interim-dividend NV — Verhaeren Holding 2026"
+        niveau: 3
+        beats:
+          - "Open met de positionering: interim-dividend in een NV is een GEMENGD mandaat — bedrijfsrevisor (in vennootschappen zonder commissaris) maakt verslag over de tussentijdse staat. Voor BV: geen wettelijk verplichte externe verslagopdracht — bestuursorgaan-eigen verantwoordelijkheid."
+          - "WETTELIJKE BASIS — art. 7:199 NV: bestuursorgaan beslist over interim-dividend mits (a) statutaire machtiging, (b) winst van lopend boekjaar of overgedragen winst van vorig boekjaar, (c) dubbele uitkeringstest gehaald. Tussentijdse staat door BESTUUR opgemaakt, gecontroleerd door commissaris of (in afwezigheid) door bedrijfsrevisor."
+          - "Werkzaamheden — (a) VERIFICATIE TUSSENTIJDSE STAAT A&P op datum interim-uitkeringsbeslissing; (b) CHECK UITKERINGSRUIMTE: voldoende winst + nettoactief boven kapitaal + niet-uitkeerbare reserves; (c) LIQUIDITEITSTEST-DOCUMENTATIE — kasstroom 12 maanden, bestuur moet zelf toetsen maar accountant valideert de onderliggende cijfers."
+          - "Kern-uitspraak verslag: 'Op basis van de tussentijdse staat A&P op datum X bestaat er voldoende uitkeerbare winst voor de voorgenomen interim-uitkering van € Y, met inachtneming van de wettelijke uitkeringsrestricties.'"
+          - "Concretiseer met mogelijke Verhaeren-case: Verhaeren Holding NV besluit in oktober 2026 een interim-dividend van 80.000 EUR uit te keren aan de aandeelhouders (Marc + Sofie + Jeroen). Bedrijfsrevisor aangewezen (geen commissaris) — werkprogramma: tussentijdse staat per 30-9-2026, controle uitkeringsruimte (nettoactief 850k − kapitaal 100k − onbeschikbare reserves 0 = ruimte 750k) + bestuursliquiditeitstest. Verslag bevestigt. Interim-dividend uitkeerbaar."
+
+      - id: ontbindings-werkpaard
+        titel: "Ontbinding-en-vereffening in één akte — dormante dochter"
+        niveau: 3
+        beats:
+          - "Open met de positionering: ontbinding-en-vereffening in één akte is voor de accountant een VEEL VOORKOMENDE praktijkopdracht — KMO-groepen sluiten regelmatig dormante dochters af."
+          - "WETTELIJKE BASIS — art. 2:91 WVV: voorwaarden cumulatief — (a) geen vereffenaar aangeduid, (b) alle schulden voldaan of geconsigneerd, (c) ACCOUNTANT- OF REVISORENVERSLAG BEVESTIGT dit."
+          - "Werkzaamheden — (a) STAAT A&P controleren (max 3 mnd); (b) VOLLEDIGHEID SCHULDEN — alle openstaande facturen, leningen, fiscale schulden, sociale schulden geïdentificeerd; (c) BEWIJS VAN BETALING of CONSIGNATIE (op derdenrekening van notaris of consignatiekas) voor elke openstaande schuld; (d) onafhankelijkheidsverklaring."
+          - "Kern-uitspraak verslag: 'De staat A&P op datum X geeft een getrouw beeld, en alle in de staat opgenomen schulden zijn ofwel betaald ofwel zijn er voldoende gelden geconsigneerd voor hun voldoening' — zodat ontbinding-en-vereffening in één akte mogelijk is."
+          - "VALKUIL — een schuld waarvan accountant niet weet (= niet in de staat) en die later opduikt, kan de vereffening ONGELDIG maken. Schuldeiser kan herstart vereffening vragen + persoonlijke aansprakelijkheid claimen tegen bestuur EN tegen de accountant (beroepsfout)."
+          - "Concretiseer met Verhaeren-case (toekomstig scenario 2028): na share deal Verhaeren Bouw heeft Holding nog een dormante dochter zonder activiteit. Accountant onderzoekt: enige activa = liquide middelen 25.000 EUR + RC-vordering Holding 5.000; enige schulden = openstaande sociale bijdragen 1.200 (consignatie) + lopende huur tot uitschrijving 600 (betaald). Verslag bevestigt → ontbinding-en-vereffening in één akte → liquide saldo terug naar Holding."
+
+      - id: fusie-splitsing-werkpaard
+        titel: "Fusie/splitsing-ruilverhouding — methodologische reasonableness"
+        niveau: 3
+        beats:
+          - "Open met de positionering: een fusie- of splitsings-verslag is COMPLEX want het vraagt een vergelijkende WAARDERING van twee of meer vennootschappen + een uitspraak over de RUILVERHOUDING. Bedrijfsrevisor-mandaat (of commissaris)."
+          - "WETTELIJKE BASIS — art. 12:26 fusie door overneming / art. 12:39 fusie door oprichting / art. 12:78 splitsing — verslag van commissaris, bedrijfsrevisor of (sinds Wet 25-05-2023) GECERTIFICEERD ACCOUNTANT over (a) de gebruikte WAARDERINGSMETHODEN per vennootschap, (b) de REDELIJKHEID van die methoden, (c) het RELATIEVE BELANG dat elk werd toegekend, (d) de moeilijkheden ondervonden, (e) of de finale RUILVERHOUDING aanvaardbaar is."
+          - "Werkzaamheden — uitgebreid: per vennootschap meerdere waarderingsmethoden (DCF, peer-multiples, nettoactief, EBITDA-multipliers) toepassen + onderzoek naar de wegingsregel + analyse van de impact van synergie-effecten + vergelijking met markt-comparables."
+          - "Kern-uitspraak verslag: 'De methoden zijn redelijk; de ruilverhouding van X aandelen van vennootschap A voor Y aandelen van vennootschap B is aanvaardbaar op basis van de gebruikte methoden.'"
+          - "Niet relevant voor Verhaeren-case (geen fusie/splitsing voorzien). Voor concretisering: zie [[overdracht-overname-en-herstructurering]] sectie reorganisatie."
+
+      - id: vereffenaarsmandaat-werkpaard
+        titel: "Vereffenaarsmandaat — wanneer wordt de accountant vereffenaar?"
+        niveau: 3
+        beats:
+          - "Open met de positionering: bij ontbinding stelt de AV een VEREFFENAAR aan. Vaak een bestuurder, maar EVENZEER kan een externe deskundige (accountant of revisor) worden aangesteld — typisch bij complexere vereffeningen of bij conflicten."
+          - "WETTELIJKE BASIS — art. 2:79-2:80 WVV. Vereffenaar oefent volle bevoegdheid uit (verzilvering activa, betaling schulden, eindverdeling). Aansprakelijk bij grove fout."
+          - "Aandacht — vereffenaarsmandaat is een OPDRACHT-mandaat, GEEN verslag-mandaat. De accountant treedt op als ORGAAN van de vennootschap (vergelijkbaar met bestuurder), niet als externe deskundige."
+          - "PRAKTISCH — opdrachtbrief duidt de vergoeding (typisch uurloon of forfait), de termijn, de mate van assistentie van het kantoor. Geen onafhankelijkheidsverklaring zoals bij verslag-mandaten — wel de algemene ITAA-deontologie (cross-PO 4.0)."
+          - "Beroepsaansprakelijkheid — vereffenaarsfunctie is voor de accountant een HOGER risico-mandaat. Beroepsaansprakelijkheidsverzekering moet expliciet vereffenaarsmandaten dekken. ITAA-norm beveelt aan om voor complexe vereffeningen team-aanpak (twee accountants) en zware dossier-discipline."
+
+  - id: bijzondere-mandaten-in-insolventie
+    titel: "Bijzondere mandaten in insolventie-context"
+    niveau: 2
+    beats:
+      - "Open met de positionering: tijdens een gerechtelijke reorganisatie of faillissement kan de accountant nog een aantal specifieke rollen opnemen — buiten de klassieke verslag-mandaten."
+      - "ROL 1 — HERSTRUCTURERINGSDESKUNDIGE (art. XX.49/2 WER openbare procedure + art. XX.83/22 en XX.83/24 voor besloten GR): de rechtbank kan een deskundige aanstellen om het bestuur tijdens een gerechtelijke reorganisatie BIJ TE STAAN met de opstelling van het reorganisatieplan + cijferonderbouwing + bemiddeling met schuldeisers. Wettelijk mandaat, gehonoreerd op last van de boedel."
+      - "ROL 2 — BOEKHOUDKUNDIG DESKUNDIGE BIJ FAILLISSEMENT: curator (typisch advocaat) kan een accountant aanstellen voor specifieke onderzoeken — bv. analyse van financiële stromen vóór staking van betaling, identificatie van niet-tegenwerpbare betalingen, opmaak van een geconsolideerd schuldeisers-overzicht. Geen wettelijk mandaat als zodanig — opdracht van curator."
+      - "ROL 3 — ADVISEUR-CONTINUÏTEIT vóór GR: in de vroege detectie-fase (knipperlichten + kamer voor ondernemingen in moeilijkheden) is de accountant DE EERSTE LIJN tussen vennootschap en insolventie-traject. Zijn advies kan dwingen tot herstelmaatregelen vóór de zaak escaleert. Geen wettelijke functie — vakkundige verantwoordelijkheid + ITAA-deontologie."
+      - "Concretiseer met Verhaeren-case: in juni 2026 begeleidt de accountant van Bouwprojecten Zuid het bestuur bij de GR-aanvraag. Mogelijk wordt hij door de rechtbank aangesteld als herstructureringsdeskundige om het collectief akkoord te formuleren — wettelijk mandaat, opdracht-brief van de rechtbank."
+
+  - id: drie-context-rollen
+    titel: "Drie context-rollen — privé expertise, gerechtsexpertise, attest aan derden"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het programma PO 3.0 taak 3.0.3 noemt naast de wettelijke mandaten DRIE bijkomende context-rollen voor de accountant — KWALIFICATIE-rollen waarin zijn boekhoudkundige expertise extern wordt aangewend."
+      - "ROL 1 — PRIVÉ EXPERTISE (privé arbitrage, mediation, second opinion): partijen in een geschil (zonder rechtbank-context) zoeken een onafhankelijke expert om hun positie te valideren. Bv. twee aandeelhouders die het oneens zijn over de waardering van een aandeel — schakelen accountant in als bindende derdenwaarderaar (zie SHA-exit-mechanisme in L2). Geen wettelijk mandaat — contractueel."
+      - "ROL 2 — GERECHTSEXPERTISE: rechtbank stelt accountant aan als GERECHTSDESKUNDIGE (Ger.W. art. 962 e.v.) bij geschillen waarin boekhoudkundige feiten doorslaggevend zijn — bv. waardering aandeel bij gedwongen uittreding, kwantificatie schade bij bestuurdersaansprakelijkheid, onderzoek mogelijke gehele of gedeeltelijke fraude. Wettelijke functie, eed afgelegd, verslag onder rechterlijke supervisie."
+      - "ROL 3 — ATTEST AAN DERDEN: derde-partij (kredietverlener, partner, koper in M&A) vraagt een ACCOUNTANTSVERKLARING over een specifiek feit van de cliënt — bv. werkkapitaalverklaring bij share deal, normalised EBITDA-rapport, due-diligence-attest, continuïteitsverklaring. Contractueel mandaat (geen wettelijk) maar wel onder ITAA-norm. Voor PO 3.0 examen-relevant in M&A-context (zie L4)."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): een gecertificeerd accountant het inbreng-natura-, quasi-inbreng- of beperking-voorkeurrecht-verslag laten maken. FOUT — art. 5:7 + 7:7 + 7:8 + 7:191 voorzien BEDRIJFSREVISOR (of commissaris) exclusief voor waarderings-mandaten. Accountant kan cliënt wel begeleiden maar het wettelijk verslag MOET door revisor. Voor omzetting (Boek 14) en fusie/splitsing-ruilverhouding mag de gecertificeerd accountant wél (sinds Wet 25-05-2023 voor fusie/splitsing) — let op het verschil. Klassieker examen-instinker."
+      - "Valkuil 2 (⚠️): de actualiteitsvereiste van 3 maanden (staat A&P bij omzetting / ontbinding-AV / ontbinding-en-vereffening in één akte) op andere mandaten toepassen. FOUT — voor inbreng natura geldt 'waardering op datum verrichting' (niet 3 mnd); voor interim-dividend NV geldt een tussentijdse staat die actueel moet zijn maar zonder vaste 3-mnd-regel. Per mandaat-type apart toetsen."
+      - "Valkuil 3 (⚠️): denken dat het verslag van de accountant een WAARDE-VERKLARING is. FOUT — de accountant verklaart of de gehanteerde METHODE redelijk is + of de uitkomst niet KENNELIJK ONREDELIJK is. Hij zegt NIET '€X is de juiste prijs'. Methodologische reasonableness is de standaard, niet absolute waardering."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kapitaalbescherming-uitkeringen-en-alarmbel
+      hint: "Voor de bestuurs-context — inbreng natura + interim-dividend leven hier vanuit het BESTUURS-perspectief."
+    - slug: ontbinding-vereffening-en-insolventie
+      hint: "Voor de procedure-context — wanneer ontbindings-AV-verslag + ontbinding-en-vereffening in één akte verplicht is."
+    - slug: vennootschapsvorm-kiezen-en-oprichten
+      hint: "Voor het BVBA→BV-onderscheid t.o.v. vrijwillige omzetting Boek 14 — examen-instinker."
+  samenvatting:
+    hint: "Voor herhaling — bijzondere mandaten-tabel + uniform werkprogramma-raamwerk."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken (zie ook PO 4.0 voor deontologie + opdrachtbrief + onafhankelijkheid):"
+  groepen:
+    - concepten: [bijzondere-mandaten]
+    - concepten: [kapitaalverhoging-in-natura, quasi-inbreng, winstuitkering, inkoop-eigen-aandelen]
+    - concepten: [kapitaalbescherming, reorganisatie, fusie, splitsing, inbreng-bedrijfstak-of-algemeenheid]
+    - concepten: [ontbinding-en-vereffening, gerechtelijke-reorganisatie]
+    - concepten: [opdrachtaanvaarding-en-opdrachtbrief, kwaliteitsmanagement-opdracht, isae-opdracht]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Inbreng in natura BV"
+    ref: "WVV art. 5:7"
+    noot: "Commissaris of bedrijfsrevisor exclusief — verslag over waardering + tegenprestatie + redelijkheid. Gecertificeerd accountant uitgesloten."
+  - onderwerp: "Inbreng in natura NV"
+    ref: "WVV art. 7:7"
+    noot: "Analoog aan BV; met fractiewaarde-toetsing."
+  - onderwerp: "Kapitaalverhoging in natura BV/NV"
+    ref: "WVV art. 5:133 BV / 7:183 NV (verwijzend naar 7:7)"
+    noot: "Verwijzen naar inbreng-natura-mechaniek."
+  - onderwerp: "Quasi-inbreng (NV alleen)"
+    ref: "WVV art. 7:8 + 7:10"
+    noot: "Commissaris of bedrijfsrevisor; gecertificeerd accountant uitgesloten. Drempel ≥ 10% geplaatst kapitaal, binnen 2 jaar na oprichting, insider-verkrijging."
+  - onderwerp: "Beperking voorkeurrecht NV"
+    ref: "WVV art. 7:191"
+    noot: "Commissaris of bedrijfsrevisor — verslag over uitgifteprijs + motivering beperking."
+  - onderwerp: "Interim-dividend NV"
+    ref: "WVV art. 7:199"
+    noot: "Statutaire machtiging + winst lopend boekjaar + dubbele test + tussentijdse staat. Commissaris of (in afwezigheid) bedrijfsrevisor."
+  - onderwerp: "Inkoop eigen aandelen BV/NV"
+    ref: "WVV art. 5:147 BV / 7:215 NV"
+    noot: "AV-besluit + dubbele test (geen specifiek extern verslag in afwezigheid commissaris)."
+  - onderwerp: "Omzetting van rechtsvorm — binnenlands (Boek 14)"
+    ref: "WVV art. 14:3 (staat max 3 mnd) + 14:4 (verslag commissaris/bedrijfsrevisor/gecertificeerd accountant) + 14:5 (bestuursverslag) + 14:8 (AV 3/4 meerderheid)"
+    noot: "Vermeldt enige overwaardering nettoactief."
+  - onderwerp: "Omzetting van rechtsvorm — grensoverschrijdend"
+    ref: "WVV art. 14:20-14:25"
+    noot: "Staat max 4 maanden; gelijkaardige verslag-vereiste; 3/4-meerderheid."
+  - onderwerp: "Fusie — fusievoorstel + verslag ruilverhouding"
+    ref: "WVV art. 12:25 (fusievoorstel) + 12:26 (verslag bij fusie door overneming) + 12:39 (verslag bij fusie door oprichting)"
+    noot: "Commissaris, bedrijfsrevisor of gecertificeerd accountant — sinds Wet 25-05-2023. Methoden + redelijkheid + relatief belang."
+  - onderwerp: "Splitsing — verslag ruilverhouding"
+    ref: "WVV art. 12:78"
+    noot: "Analoog aan fusie — commissaris/bedrijfsrevisor/gecertificeerd accountant."
+  - onderwerp: "Inbreng bedrijfstak of algemeenheid"
+    ref: "WVV art. 12:92 e.v."
+    noot: "Verslag-mechaniek analoog aan inbreng-in-natura (commissaris of bedrijfsrevisor)."
+  - onderwerp: "Ontbindings-AV — staat A&P + verslag"
+    ref: "WVV art. 2:67"
+    noot: "Commissaris, externe accountant of bedrijfsrevisor mogen — staat max 3 mnd."
+  - onderwerp: "Ontbinding-en-vereffening in één akte"
+    ref: "WVV art. 2:91"
+    noot: "Accountant of revisor bevestigt staat A&P (art. 2:67) + alle schulden voldaan/geconsigneerd."
+  - onderwerp: "Vereffenaarsmandaat"
+    ref: "WVV art. 2:79 e.v. (aansprakelijkheid art. 2:80)"
+    noot: "Opdracht-mandaat. Accountant kan vereffenaar zijn."
+  - onderwerp: "Herstructureringsdeskundige GR"
+    ref: "WER art. XX.49/2 (openbare procedure) + XX.83/22 e.v. (besloten variant)"
+    noot: "Rechterlijke aanstelling tijdens GR."
+  - onderwerp: "Gerechtsdeskundige"
+    ref: "Ger.W. art. 962 e.v."
+    noot: "Aanstelling door rechter bij geschillen — boekhoudkundige expertise."
+  - onderwerp: "Cross-PO doorklik — opdrachtbrief + onafhankelijkheid + kwaliteitsmanagement"
+    ref: "PO 4.0 deontologie (zie [[opdrachtaanvaarding-en-opdrachtbrief]] en [[kwaliteitsmanagement-opdracht]])"
+    noot: "Algemene deontologie-spelregels (ITAA-norm + ISQM 1). Niet uitgewerkt in PO 3.0 — cross-PO doorklik."
+  - onderwerp: "Cross-PO doorklik — ISAE-attestopdrachten aan derden"
+    ref: "ISAE 3000 / 3402 (cross-PO 4.0)"
+    noot: "Attest aan derden in M&A-context — bv. werkkapitaalverklaring, normalised EBITDA-rapport."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Beroepsaansprakelijkheid accountant bij inadequaat verslag"
+    inhoud: "Lagere rechtspraak: een accountant die een verslag uitbrengt over inbreng in natura zonder voldoende eigen verificatie van de waardering (louter overname van oprichters-waardering) is aansprakelijk tegenover derden die later schade lijden. ITAA-norm + art. 1382 BW. Vandaar belang van DOSSIER-discipline."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+  - onderwerp: "Methode-toets bij ruilverhouding fusie/splitsing"
+    inhoud: "Cassatie heeft bevestigd dat de revisor in een fusie-verslag GEEN absolute waarde-uitspraak hoeft te doen, maar wel de gebruikte methoden + hun relatieve belang moet motiveren. Een verslag dat slechts één methode hanteert zonder rationale = vatbaar voor nietigheid van de fusie-besluit op vordering van een aandeelhouder."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037. Synthese-leerstuk — integreert L1-L5."

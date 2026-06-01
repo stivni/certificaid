@@ -1,0 +1,321 @@
+# Leerstuk-script — Ontbinding, vereffening en insolventie
+#
+# PO 3.0 leerstuk 5 (procedure + vergelijkende fiche). Vrijwillig
+# einde (Boek 2 — ontbinding + vereffening) + onvrijwillig einde (Boek
+# XX WER — gerechtelijke reorganisatie + faillissement). Pedagogische
+# sleutel: de stagiair moet de GRADATIE VAN INTERVENTIES zien (knipper-
+# licht → kamer voor ondernemingen in moeilijkheden → ondernemingsbemiddelaar
+# → gerechtelijke reorganisatie → faillissement) — niet 6 losse procedures.
+#
+# Concept-vocabulair INTRODUCEREN:
+#   ontbindings-AV vs sluitings-AV · notariële akte ontbinding · vereffenaar ·
+#   vereffening in één akte · Regsol-register · ondernemingsbemiddelaar ·
+#   gerechtelijke reorganisatie (drie modaliteiten) · opschorting van
+#   betalingen · faillissement · staking van betaling · curator ·
+#   rehabilitatie · beroepsverbod
+#
+# Concept-vocabulair UIT L3 (oproepen):
+#   alarmbel als entry-poort naar Boek XX · bestuurdersaansprakelijkheid +
+#   wrongful trading · netto-actief-test bij vrijwillige ontbinding-en-
+#   vereffening in één akte
+#
+# Concept-vocabulair UIT L6 (kort vermelden — mechaniek staat daar):
+#   verslag accountant bij ontbinding-en-vereffening in één akte · vereffenaarsmandaat ·
+#   bijzondere mandaten in insolventie (herstructureringsdeskundige)
+
+meta:
+  slug: ontbinding-vereffening-en-insolventie
+  titel: "Ontbinding, vereffening en insolventie — vrijwillig en onvrijwillig einde"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — procedure- en vergelijkende fiche over het EINDE
+    van een vennootschap. Twee polen op één levensloop-eindfase:
+    VRIJWILLIGE ONTBINDING + VEREFFENING (Boek 2 WVV — ontbindings-AV
+    + vereffenaar + sluitings-AV, met de variant 'ontbinding-en-
+    vereffening in één akte' art. 2:80 + 2:91) en ONVRIJWILLIGE
+    INSOLVENTIE (Boek XX WER — knipperlichten → ondernemingsbemiddelaar
+    → gerechtelijke reorganisatie (3 modaliteiten) → faillissement →
+    rehabilitatie/beroepsverbod). Centraal scharnier: WANNEER schakelt
+    vrijwillige ontbinding over naar insolventieprocedure?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Wijs erop dat dit leerstuk twee verhalen samenbrengt — vrijwillig
+    einde en gedwongen insolventie — omdat ze pedagogisch een continuüm
+    vormen (tussenliggende escalatie-momenten). Geef de pedagogische
+    lijn: het examen test typisch de PROCEDURE-DETAILS (notariële akte
+    wanneer wel/niet) + de GRADATIE binnen Boek XX (welke modaliteit
+    bij welk feitenpatroon).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: een vennootschap eindigt VRIJWILLIG via een ONTBINDINGS-AV (versterkte meerderheid, notariële akte, vereffenaar aangesteld) gevolgd door VEREFFENING (vereffenaar verzilvert activa, betaalt schulden, verdeelt restant) en een SLUITINGS-AV. Bij eenvoudige vennootschappen zonder schulden of met voldoende dekking: ONTBINDING-EN-VEREFFENING IN ÉÉN AKTE (art. 2:80 + 2:91) bespaart een AV. ONVRIJWILLIG einde komt via Boek XX WER — gradatie KNIPPERLICHT → KAMER VOOR ONDERNEMINGEN IN MOEILIJKHEDEN → ONDERNEMINGSBEMIDDELAAR → GERECHTELIJKE REORGANISATIE (drie modaliteiten) → FAILLISSEMENT."
+    - "Drie technische valkuilen: (a) ontbindings-AV vereist NOTARIËLE AKTE (3/4 of 4/5 meerderheid + 1/2 quorum) terwijl sluitings-AV ONDERHANDS mag (gewone meerderheid); (b) ontbinding-en-vereffening in één akte is ALLEEN mogelijk als geen vereffenaar aangeduid is + alle schulden voldaan of geconsigneerd + accountant- of revisorenverslag bevestigt dit (art. 2:91); (c) faillissement-aangifteplicht is ÉÉN MAAND vanaf ophouden te betalen (art. XX.102 WER) — niet eerder en niet later zonder strafrechtelijk risico voor bestuur."
+    - "BIJZONDERE MANDATEN voor de accountant in dit leerstuk: (a) verslag accountant/revisor over de STAAT VAN ACTIVA EN PASSIVA bij ontbindings-AV (art. 2:67 WVV) + bij ontbinding-en-vereffening in één akte (art. 2:91); (b) eventueel VEREFFENAARSMANDAAT (de accountant kan tot vereffenaar worden benoemd door de AV of de rechtbank); (c) tijdens gerechtelijke reorganisatie: mogelijke aanstelling als HERSTRUCTURERINGSDESKUNDIGE door de rechtbank (art. XX.49/2 WER openbare procedure / art. XX.83/22 besloten variant). Mechaniek van deze verslagen = [[bijzondere-mandaten-van-de-accountant]]."
+  visualisaties:
+    - type: mermaid
+      ref: insolventie_gradatie
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen in drie blokken — eerst de vrijwillige ontbinding + vereffening (Boek 2), dan de Boek-XX-gradatie van vroege detectie tot faillissement, dan de bijzondere mandaten + bestuurdersaansprakelijkheid die door deze procedures heen leven.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vrijwillige-ontbinding
+    titel: "Vrijwillige ontbinding en vereffening — Boek 2"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: een vennootschap eindigt vrijwillig in drie tijden — ONTBINDING (besluit + statutaire afsluiting), VEREFFENING (verzilvering + betaling) en SLUITING (eindverdeling + uitschrijving)."
+    kinderen:
+
+      - id: ontbindings-av
+        titel: "De ontbindings-AV — notariële akte + accountantsverslag"
+        niveau: 3
+        beats:
+          - "Open met de hoofdvraag: hoe besluit een vennootschap tot ontbinding?"
+          - "BESLUIT — de AV besluit met VERSTERKTE MEERDERHEID (typisch 3/4 of 4/5, afhankelijk van rechtsvorm) en 1/2 quorum. Notariële akte verplicht — anders nietig."
+          - "AGENDA VOORAFGAAND — bestuursorgaan stelt een BIJZONDER VERSLAG op waarin het de reden voor ontbinding motiveert, vergezeld van een STAAT VAN ACTIVA EN PASSIVA niet ouder dan 3 maanden (art. 2:67 WVV)."
+          - "ACCOUNTANT- OF REVISORENVERSLAG (art. 2:67 WVV) — over die staat van activa en passiva. Verklaart of de staat getrouw + volledig + actueel is + of er geen materiële onzekerheden over de waardering bestaan. Mag door commissaris, externe accountant of bedrijfsrevisor. Mechaniek = [[bijzondere-mandaten-van-de-accountant]]."
+          - "VEREFFENAAR — AV stelt vereffenaar aan, hetzij persoon (typisch bestuurder of accountant), hetzij meervoudig college. Vereffenaar treedt in plaats van bestuur — bestuursorgaan houdt op te functioneren vanaf ontbinding."
+          - "INSCHRIJVING — ontbindingsbesluit + identiteit vereffenaar worden neergelegd bij griffie + bekendgemaakt. Vanaf dan: vennootschap is 'in vereffening' — naam met '(in vereffening)' aangevuld op alle stukken."
+
+      - id: vereffening
+        titel: "Vereffening — vereffenaar aan zet"
+        niveau: 3
+        beats:
+          - "Open met de rol-verandering: de VEREFFENAAR neemt over wat het bestuur was. Drie hoofdtaken: (1) verzilvering van activa (verkoop), (2) betaling van schulden in volgorde van voorrang, (3) eindverdeling van restant aan aandeelhouders."
+          - "VOORRANGS-ORDE BIJ BETALING — eerst BEVOORRECHTE schulden (fiscaal, sociaal, hypothecair), dan CHIROGRAFAIRE (gewone schuldeisers), dan AANDEELHOUDERS voor hun inbreng en winstaandeel. Bij ontoereikend vermogen: bevoorrechte schulden krijgen meer, aandeelhouders krijgen niets."
+          - "JAARLIJKSE REKENING — vereffenaar legt jaarlijks rekening over zijn beheer ter inzage van aandeelhouders + griffie."
+          - "DUUR VEREFFENING — geen wettelijke maximumduur; in praktijk 6 maanden (eenvoudige situatie) tot meerdere jaren (complexe verkoop activa, lopende geschillen)."
+          - "VEREFFENAAR-AANSPRAKELIJKHEID — vereffenaar is persoonlijk aansprakelijk bij grove fout of overtreding van zijn plichten (art. 2:79 + 2:80 WVV). Vergelijkbaar met bestuurder."
+
+      - id: sluitings-av
+        titel: "De sluitings-AV — onderhands"
+        niveau: 3
+        beats:
+          - "Open met de afsluiting: nadat vereffenaar zijn werk heeft beëindigd (alle schulden betaald, restantsaldo verdeeld), wordt een SLUITINGS-AV gehouden."
+          - "BESLUIT — gewone meerderheid (geen versterkte!), GEEN NOTARIËLE AKTE vereist (onderhands). Klassieker examen-instinker uit 2024-1 vr9."
+          - "AGENDA — eindrekening vereffenaar + verdeling van het netto-actief + kwijting aan vereffenaar + sluiting van de vereffening."
+          - "INSCHRIJVING — sluitingsbesluit (art. 2:92 WVV — bekendmaking + plaats bewaring boeken + consignatie) neergelegd bij griffie → vennootschap WORDT UITGESCHREVEN uit de KBO. Vanaf dan: rechtspersoon BESTAAT NIET MEER."
+          - "Verschil met ontbindings-AV illustreren — visualiseer in tabel."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Aspect", "Ontbindings-AV", "Sluitings-AV"]
+            rijen:
+              - ["Meerderheid", "**Versterkte (3/4 of 4/5)**", "Gewone (>50%)"]
+              - ["Quorum", "1/2 aanwezig", "Geen"]
+              - ["Vorm", "**Notariële akte**", "Onderhands"]
+              - ["Bijzonder verslag bestuur + staat A&P", "Ja (art. 2:67)", "Niet voor sluiting zelf — eindrekening vereffenaar"]
+              - ["Accountantsverslag", "**Ja** (art. 2:67)", "Niet vereist — kwijting vereffenaar"]
+              - ["Gevolg", "Vennootschap in vereffening", "Vennootschap **bestaat niet meer**"]
+
+      - id: een-akte
+        titel: "Ontbinding-en-vereffening in één akte — wanneer?"
+        niveau: 3
+        beats:
+          - "Open met de positionering: voor vennootschappen ZONDER lopende schulden (of waar alle schulden door één deal gedekt zijn) kan de ontbinding + vereffening + sluiting in ÉÉN NOTARIËLE AKTE verlopen — bespaart een AV-cyclus en is sneller (art. 2:80 + 2:91 WVV)."
+          - "Voorwaarden cumulatief (art. 2:91): (a) GEEN VEREFFENAAR AANGESTELD (een 'lege' aanstelling overslaan); (b) ALLE SCHULDEN aan vennoten/aandeelhouders en derden zijn TERUGBETAALD of de nodige gelden zijn GECONSIGNEERD; (c) accountant/revisor BEVESTIGT in zijn verslag deze betaling of consignatie + bevestigt de staat van activa en passiva; (d) AV-besluit met versterkte meerderheid."
+          - "GEBRUIK in praktijk: typisch voor DORMANTE dochtervennootschappen (geen activiteit, geen schulden) waar de moeder de procedure wil afronden zonder vereffenaar-aanstellings-formaliteiten."
+          - "Concretiseer met Verhaeren-case (toekomstig scenario): stel dat in 2028, na de share deal Verhaeren Bouw, de Verhaeren Holding NV nog 1 inactieve dochter heeft (geen schulden, alleen liquide middelen). Ontbinding-en-vereffening in één akte: accountant verklaart staat A&P + bevestigt geen schulden → AV-akte → liquide saldo terug naar Holding → dochter weg uit KBO."
+
+  - id: insolventie-gradatie
+    titel: "Boek XX WER — gradatie van vroege detectie tot faillissement"
+    niveau: 2
+    beats:
+      - "Open met de positionering: Boek XX WER (sinds 2018 in voege; grondig aangepast door Wet 7-6-2023, in voege vanaf 1 september 2023 — moderniseringspakket dat besloten procedure heeft toegevoegd) verzamelt het hele insolventierecht. Pedagogische sleutel: zie het niet als 6 losse procedures, maar als een GRADATIE waarin elk niveau intensere overheidsinterventie betekent."
+      - "GRADATIE — vijf niveaus."
+      - "Niveau 1 — KNIPPERLICHT: financiële knipperlichten in de jaarrekening of voortgang (verlies > 50% kapitaal, opeenvolgende verliesjaren, ongunstige liquiditeitsratio's). Geen wettelijke procedure — maar trigger voor zelfevaluatie (cross-PO 1.3 going concern + voor accountant: vroege detectie + advies). Soms gepaard met ALARMBEL-procedure (zie L3)."
+      - "Niveau 2 — KAMER VOOR ONDERNEMINGEN IN MOEILIJKHEDEN (art. XX.21 WER): bij de ondernemingsrechtbank. Bij signalen (niet-neerlegging jaarrekening, RSZ-achterstand, fiscale schulden) wordt de onderneming AMBTSHALVE opgeroepen voor een GESPREK met een rechter. Geen openbare procedure — vertrouwelijk. Het bestuur kan worden bevraagd over plannen. Geen sanctie als zodanig — wel signaal."
+      - "Niveau 3 — ONDERNEMINGSBEMIDDELAAR (art. XX.36 e.v. WER): op vraag van de onderneming aanstelt de rechtbank een neutrale bemiddelaar om akkoorden met schuldeisers te onderhandelen. Vertrouwelijk, vrijwillig. Bemiddelaar heeft geen dwingende bevoegdheid maar kan onderhandelings-doorbraken faciliteren."
+      - "Niveau 4 — GERECHTELIJKE REORGANISATIE (XX.39 e.v.): formele procedure waarbij rechtbank opschorting van betalingen toekent (typisch 4 maanden, verlengbaar tot max 18 maanden). Drie modaliteiten — uitgewerkt in volgend blok."
+      - "Niveau 5 — FAILLISSEMENT (XX.99 e.v.): definitieve insolventie-vaststelling. Curator beheert boedel, verkoopt activa, verdeelt onder schuldeisers."
+    kinderen:
+
+      - id: gerechtelijke-reorganisatie
+        titel: "Gerechtelijke reorganisatie — drie modaliteiten"
+        niveau: 3
+        beats:
+          - "Open met de basisstructuur: GR is een procedure waarmee een onderneming in moeilijkheden TIJDELIJKE OPSCHORTING van betalingen krijgt om met haar schuldeisers tot een akkoord te komen. Voorwaarde: continuïteit van de onderneming is BEDREIGD maar HERSTELBAAR."
+          - "Modaliteit 1 — MINNELIJK AKKOORD (art. XX.65 of in besloten vorm art. XX.83/29 — sinds Wet 7-6-2023): onderneming probeert akkoord met EEN OF ENKELE schuldeisers (bv. bank + grote leverancier). Vertrouwelijk (besloten variant). Eenvoudig + snel — past bij beperkte schuldenkring."
+          - "Modaliteit 2 — COLLECTIEF AKKOORD (art. XX.67 e.v.): REORGANISATIEPLAN voorgelegd aan alle schuldeisers. Stemming volgens drempel: minstens MEERDERHEID IN AANTAL EN IN WAARDE van aanwezige + vertegenwoordigde schuldeisers per klasse (art. XX.78). Rechtbank homologeert. Plan kan voorzien: kwijtschelding deel van schulden (bv. 60%), afbetalingsplan 24-60 maanden, conversies. Geschikt voor brede schuldenkring."
+          - "Modaliteit 3 — OVERDRACHT ONDER GERECHTELIJK GEZAG (art. XX.84 e.v.): rechtbank stelt een GERECHTSMANDATARIS aan die activa + werknemers OVERDRAAGT aan een koper (going-concern-verkoop). Onderneming kan haar rechtspersoonlijkheid verliezen (alleen geleegde schil overblijven). Geschikt wanneer reorganisatie als entiteit niet meer haalbaar maar de activiteit zelf bewaarbaar is via overdracht."
+          - "AANVRAAG — verzoekschrift door bestuur bij ondernemingsrechtbank (art. XX.41 WER). Bijgevoegd: opgave activa/passiva, lijst schuldeisers, kasstroom-prognose, voorstel modaliteit. Rechtbank beoordeelt ontvankelijkheid en kan opschorting verlenen voor max 4 maanden (verlengbaar tot 12 of 18 mnd in zware dossiers)."
+          - "BESLOTEN GR — sinds Wet 7-6-2023 (in voege 1-9-2023): hele procedure kan in BESLOTEN vorm (niet openbaar bekendgemaakt) om reputatie-schade te beperken. Geschikt voor bv. KMO-context waar publieke aankondiging klanten zou afschrikken. Wel zwaardere documenteringseisen."
+          - "HERSTRUCTURERINGSDESKUNDIGE (art. XX.49/2 WER openbare procedure; art. XX.83/22 + XX.83/24 besloten variant): rechtbank kan een deskundige aanstellen om het bestuur bij te staan tijdens GR — accountant kan deze rol opnemen. Wettelijk mandaat — zie [[bijzondere-mandaten-van-de-accountant]]."
+          - "Concretiseer met Verhaeren-case: na alarmbel-herstelplan dat niet houdt, dient Marc op 15 juni 2026 een GR-verzoek in voor Bouwprojecten Zuid (modaliteit 2 — collectief akkoord, ca. 10 schuldeisers). Rechtbank verklaart procedure open op 30 juni 2026, opschorting 4 maanden. Reorganisatieplan voorgelegd op 31 oktober 2026: 60% kwijting handelsschulden + afbetalingsplan 24 mnd. Stemming 15 november: meerderheid gehaald. Rechtbank homologeert."
+        visualisaties:
+          - type: mermaid
+            ref: gr_drie_modaliteiten
+            bron: voorbeeldgroep
+
+      - id: faillissement
+        titel: "Faillissement — staking van betaling + curator"
+        niveau: 3
+        beats:
+          - "Open met de positionering: faillissement is de FORMELE vaststelling dat de vennootschap heeft OPGEHOUDEN TE BETALEN en haar krediet geschokt is."
+          - "TWEE TRIGGERS — (a) onderneming zelf doet AANGIFTE (art. XX.102 WER — verplichting binnen ÉÉN MAAND na 'ophouden te betalen'; klassieker examen-vraag-stoffer); (b) een schuldeiser of het openbaar ministerie DAGVAARDT tot faillietverklaring (art. XX.103-XX.104)."
+          - "VOORWAARDEN — onderneming heeft duurzaam OPGEHOUDEN TE BETALEN en haar KREDIET IS GESCHOKT. 'Duurzaam' = niet kortstondige liquiditeitsdip — een werkelijk onvermogen om aan opeisbare schulden te voldoen."
+          - "VONNIS VAN FAILLIETVERKLARING — door ondernemingsrechtbank. Stelt CURATOR aan (typisch advocaat, soms accountant als boekhoudkundig deskundige). Vermeldt 'datum staking van betaling' — terug in tijd (typisch 6 mnd vóór vonnis, art. XX.108) — relevant voor NIET-TEGENWERPELIJKE handelingen (bv. preferentiele betaling aan één schuldeiser net vóór staking)."
+          - "CURATOR — beheert boedel, verkoopt activa, ontvangt schuldvorderingen, verifieert ze, betaalt naar rangorde, sluit faillissement af."
+          - "VERPLICHTING BESTUUR — meewerken met curator, jaarrekening en bescheiden overdragen, geen handelingen meer stellen in naam van vennootschap."
+          - "Examen-aandachtspunt — niet-neerlegging jaarrekening kan een ZELFSTANDIGE TRIGGER zijn voor onderzoek door de kamer voor ondernemingen in moeilijkheden (XX.21) of voor de RAAD TOT TOEZICHT om ambtshalve faillietverklaring te vorderen."
+
+      - id: rehabilitatie-en-beroepsverbod
+        titel: "Rehabilitatie en beroepsverbod"
+        niveau: 3
+        beats:
+          - "Open met de positionering: na faillietverklaring volgen er twee mogelijke STIGMA-mechanismen — REHABILITATIE (voor de gefailleerde natuurlijke persoon — kwijtschelding) en BEROEPSVERBOD (voor bestuurders die fouten begaan)."
+          - "KWIJTSCHELDING RESTSCHULDEN (art. XX.173 WER) — moderner instrument: een gefailleerde natuurlijke persoon kan kwijtschelding van restschulden vragen — schulden worden definitief uitgewist. REHABILITATIE in strikte zin (art. XX.237-XX.239 WER) — voor de gefailleerde die geen kwijtschelding heeft verkregen + alle schulden voldoet — geldt enkel voor NATUURLIJKE PERSONEN. Een vennootschap die faillissement doorloopt verdwijnt sowieso (sluiting faillissement = uitschrijving)."
+          - "BEROEPSVERBOD (art. XX.229 WER): wanneer een bestuurder kennelijk grove fouten heeft begaan die hebben bijgedragen tot het faillissement, kan de rechtbank hem voor een termijn (typisch 3-10 jaar) VERBIEDEN om bestuurder, zaakvoerder of dagelijks bestuurder te zijn in een onderneming. Aparte vordering door curator of openbaar ministerie."
+          - "Concretiseer: indien curator van Bouwprojecten Zuid (hypothetisch scenario) kan aantonen dat Marc als zaakvoerder ondanks negatief netto-actief in januari 2026 niet onmiddellijk alarmbel heeft geluid en in maart 2026 nog een contract heeft gesloten dat het verlies vergrootte → kennelijke grove fout → curator vordert beroepsverbod 5 jaar. Marc zou in die periode geen bestuursfunctie kunnen uitoefenen in Holding noch in Verhaeren Bouw."
+
+  - id: bestuurdersaansprakelijkheid-in-insolventie
+    titel: "Bestuurdersaansprakelijkheid in insolventie-context"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: insolventie is hét moment waarop bestuurdersaansprakelijkheid (al uitgewerkt in [[kapitaalbescherming-uitkeringen-en-alarmbel]]) operationeel wordt — de curator gaat ER ACTIEF NAAR ZOEKEN."
+      - "VIER VORDERINGEN die de curator kan instellen tegen ex-bestuurders:"
+      - "Vordering 1 — KENNELIJK GROVE FOUT (art. 2:56 + 2:57 WVV): algemene bestuurdersaansprakelijkheid, cap valt weg bij grove fout. Klassieker: te-late alarmbel, onverantwoorde investeringen tijdens crisis, inadequaat herstelplan."
+      - "Vordering 2 — WRONGFUL TRADING (art. XX.225 WER): bij faillissement + kennelijk grove fout die heeft bijgedragen tot het faillissement → bestuurder persoonlijk aansprakelijk voor het NETTO PASSIEF van de boedel (= het tekort dat schuldeisers niet recupereren). Ingrijpend — kan tot honderdduizenden EUR oplopen."
+      - "Vordering 3 — BIJZONDERE BESTUURSFOUTEN — schending alarmbel-procedure (art. 5:153 + L3), onrechtmatige uitkering (art. 5:144), schending boekhoudverplichting (KB-WVV)."
+      - "Vordering 4 — PERSOONLIJKE EN HOOFDELIJKE AANSPRAKELIJKHEID voor SOCIALE EN FISCALE SCHULDEN — bestuurder van vennootschap met achterstallige RSZ-bijdragen of bedrijfsvoorheffing kan PERSOONLIJK aansprakelijk gesteld worden mits ernstige fout (RSZ-wet + WIB92)."
+      - "Concretiseer met Verhaeren-case (hypothetisch): indien Bouwprojecten Zuid uiteindelijk failliet zou gaan, kunnen curator-vorderingen tegen Marc lopen op (a) art. 2:56 grove fout te-late alarmbel; (b) XX.225 wrongful trading; (c) eventueel RSZ-bijdragen achterstallig. Marc draagt zelfs bij gunstige outcome procedure-risico — vandaar belang van TIJDIGE alarmbel + dossier-opbouw door accountant."
+
+  - id: scharnier-vrijwillig-versus-gedwongen
+    titel: "Scharnier — wanneer schakelt vrijwillig over naar gedwongen?"
+    niveau: 2
+    beats:
+      - "Open met de scherpe pedagogische kern: een bestuur dat overweegt vrijwillige ontbinding moet eerst zichzelf de vraag stellen — IS DE VENNOOTSCHAP IN STAAT VAN STAKING VAN BETALING?"
+      - "Indien JA — staking van betaling reeds opgetreden → AANGIFTEPLICHT FAILLISSEMENT binnen 1 maand (art. XX.102). Vrijwillige ontbinding KAN NIET als alternatief — bestuur dat dit toch doet, riskeert strafrechtelijke en burgerlijke aansprakelijkheid."
+      - "Indien NEE — vennootschap heeft geen acute liquiditeits-crisis maar de aandeelhouders willen afsluiten (bv. einde activiteit, fusie met andere groep, geen opvolging) → vrijwillige ontbinding mogelijk + vereffening + sluiting."
+      - "INDIEN ONZEKER — bestuur kan een GR-verzoek indienen om opschorting te krijgen en tijd te kopen voor reorganisatie of geordende ontbinding. Of onderneming kan gerechtelijk ontbonden worden door rechtbank (art. 2:74 WVV — bv. wegens kennelijk gebrek aan activiteit)."
+      - "RECHTERLIJK ONDERZOEK BIJ VRIJWILLIGE ONTBINDING — als bestuur ontbinding voorstelt en er zijn aanwijzingen van staking van betaling, kan de notaris OF de griffie OF de schuldeiser opmerken dat het pad niet vrijwillig kan zijn. Rechtbank kan dan AMBTSHALVE FAILLIETVERKLARING uitspreken in plaats van vrijwillige ontbinding."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): ontbinding-en-vereffening in één akte toepassen op een vennootschap met openstaande schulden. FOUT — art. 2:91 vereist dat ALLE schulden zijn terugbetaald of geconsigneerd, EN bevestigd door accountant- of revisorenverslag. Wie de procedure toch toepast met openstaande schuld: latere herstart van vereffening door schuldeiser + persoonlijke aansprakelijkheid bestuur."
+      - "Valkuil 2 (⚠️): denken dat 'sluitings-AV' identiek aan 'ontbindings-AV' is. FOUT — ontbinding vereist NOTARIËLE AKTE + versterkte meerderheid; sluiting mag ONDERHANDS met gewone meerderheid. Klassieker examen-instinker uit 2024-1 vr9."
+      - "Valkuil 3 (⚠️): denken dat alarmbel altijd voldoende is en GR/faillissement de aandacht niet verdienen. FOUT — wie bij negatief netto-actief alleen aan alarmbel denkt (L3) en niet tijdig overgaat naar GR-verzoek of faillissement-aangifte, riskeert wrongful trading. De gradatie L3 → L5 moet als CONTINUÜM gedacht worden, niet als losse procedures."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kapitaalbescherming-uitkeringen-en-alarmbel
+      hint: "Voor de entry-poort — alarmbel als trigger voor de insolventie-gradatie."
+    - slug: bijzondere-mandaten-van-de-accountant
+      hint: "Voor de verslag-mechaniek — accountant bij ontbindings-AV + bij ontbinding-en-vereffening in één akte + vereffenaarsmandaat + herstructureringsdeskundige."
+    - slug: vennootschapsvorm-kiezen-en-oprichten
+      hint: "Voor de levensloop-context — vrijwillige beëindiging als spiegelbeeld van vrijwillige oprichting."
+  samenvatting:
+    hint: "Voor herhaling — ontbinding-vs-sluiting tabel + insolventie-gradatie-mermaid + bestuurdersaansprakelijkheid-trigger."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [ontbinding-en-vereffening]
+    - concepten: [insolventierecht-wer-boek-xx, gerechtelijke-reorganisatie, faillissement]
+    - concepten: [kamers-voor-ondernemingen-in-moeilijkheden, ondernemingsbemiddelaar, rehabilitatie-en-beroepsverbod]
+    - concepten: [bestuurdersaansprakelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Ontbindings-AV — bijzonder verslag bestuur + staat A&P + accountant-/revisorenverslag"
+    ref: "WVV art. 2:67"
+    noot: "Staat van activa en passiva max 3 maanden oud. Verslag mag door commissaris, externe accountant of bedrijfsrevisor."
+  - onderwerp: "Vereffenaar — aanstelling + plichten + voorrangs-orde"
+    ref: "WVV art. 2:79 e.v.; voorrangs-orde art. 2:87"
+    noot: "Aangesteld door AV; aansprakelijk bij grove fout of plichtsverzaking."
+  - onderwerp: "Ontbinding-en-vereffening in één akte"
+    ref: "WVV art. 2:91"
+    noot: "Voorwaarden cumulatief: geen vereffenaar, alle schulden voldaan/geconsigneerd (of schriftelijke instemming schuldeiser), accountant-/revisorenverslag bevestigt."
+  - onderwerp: "Sluiting van vereffening"
+    ref: "WVV art. 2:92"
+    noot: "Sluitings-AV onderhands; bekendmaking + plaats bewaring boeken + consignatie. Vennootschap verdwijnt uit KBO."
+  - onderwerp: "Heropening vereffening bij vergeten activum"
+    ref: "WVV art. 2:95"
+    noot: "Procedure indien achteraf actief blijkt."
+  - onderwerp: "Boek XX WER — toepassingsgebied"
+    ref: "WER art. XX.1 e.v."
+    noot: "Insolventie van ondernemingen — alle rechtsvormen + zelfstandigen."
+  - onderwerp: "Kamer voor ondernemingen in moeilijkheden"
+    ref: "WER art. XX.21 e.v. + art. XX.25-XX.29 (onderzoek) + art. XX.29/1 (actieve oproeping op verzoek schuldenaar)"
+    noot: "Bij ondernemingsrechtbank — ambtshalve oproeping bij signalen + actief verzoek schuldenaar."
+  - onderwerp: "Ondernemingsbemiddelaar"
+    ref: "WER art. XX.36-XX.38"
+    noot: "Aanstelling op vraag van onderneming; vrijwillig + vertrouwelijk."
+  - onderwerp: "Gerechtelijke reorganisatie — verzoekschrift + bijlagen"
+    ref: "WER art. XX.41"
+    noot: "Verzoekschrift bestuur aan rechtbank; opschorting van betalingen 4 mnd (verlengbaar)."
+  - onderwerp: "Gerechtelijke reorganisatie — opschorting"
+    ref: "WER art. XX.50 e.v."
+    noot: "Werking + duur van de opschorting."
+  - onderwerp: "GR — collectief akkoord (homologatie + bindendheid)"
+    ref: "WER art. XX.83/15 (homologatie) + art. XX.83/20 (bindendheid)"
+    noot: "Reorganisatieplan voorgelegd aan alle schuldeisers; stemming meerderheid + waarde per klasse; rechterlijke homologatie."
+  - onderwerp: "Besloten gerechtelijke reorganisatie — opschorting"
+    ref: "WER art. XX.83/24"
+    noot: "Opschorting op verzoek van de herstructureringsdeskundige."
+  - onderwerp: "Herstructureringsdeskundige"
+    ref: "WER art. XX.49/2 (openbare procedure) + art. XX.83/22 e.v. (besloten variant)"
+    noot: "Rechterlijke aanstelling. Accountant kan deze rol opnemen."
+  - onderwerp: "Faillissement — aangifteplicht 1 maand"
+    ref: "WER art. XX.102"
+    noot: "Bestuur moet aangifte doen binnen 1 mnd na 'ophouden te betalen'. Plicht opgeschort vanaf neerlegging GR-verzoekschrift. Niet-aangifte = strafrechtelijk + burgerlijk aansprakelijk."
+  - onderwerp: "Faillissement — vonnis van faillietverklaring + curator"
+    ref: "WER art. XX.100"
+    noot: "Door ondernemingsrechtbank; curator aangesteld."
+  - onderwerp: "Faillissement — vonnis bij voorraad uitvoerbaar + verzet"
+    ref: "WER art. XX.108"
+    noot: "Vonnis bij voorraad uitvoerbaar; verzet door verstekdoende partij."
+  - onderwerp: "Niet-tegenwerpbaarheid handelingen tussen staking van betaling en vonnis"
+    ref: "WER art. XX.112"
+    noot: "Handelingen na staking van betaling tegenstelbaar of niet."
+  - onderwerp: "Wrongful trading"
+    ref: "WER art. XX.225"
+    noot: "Bestuurder aansprakelijk voor netto-passief van boedel bij kennelijk grove fout die heeft bijgedragen tot faillissement."
+  - onderwerp: "Persoonlijke aansprakelijkheid bestuurders sociale-zekerheidsbijdragen"
+    ref: "WER art. XX.226"
+    noot: "Bij minstens twee faillissementen in vijf jaar."
+  - onderwerp: "Beroepsverbod"
+    ref: "WER art. XX.229"
+    noot: "Verbod bestuursfunctie 3-10 jaar bij grove fouten bestuurder."
+  - onderwerp: "Kwijtschelding restschulden gefailleerde natuurlijke persoon"
+    ref: "WER art. XX.173"
+    noot: "Moderner instrument — schulden definitief uitgewist."
+  - onderwerp: "Rehabilitatie"
+    ref: "WER art. XX.237-XX.239"
+    noot: "Voor gefailleerde die geen kwijtschelding heeft verkregen + alle schulden voldoet."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Te-late faillissementsaangifte als grove fout"
+    inhoud: "Vaste rechtspraak: bestuurder die kennelijk wist of had moeten weten dat de onderneming was opgehouden te betalen, maar geen aangifte deed of opzettelijk vertraagde om handelingen te blijven stellen, begaat een kennelijk grove fout — aansprakelijkheid art. 2:57 + XX.225."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+  - onderwerp: "Vrijwillige ontbinding bij staking van betaling als omzeiling"
+    inhoud: "Cassatie heeft bevestigd dat een bestuur dat vrijwillige ontbinding voorstelt terwijl staking van betaling reeds was opgetreden, geen geldig alternatief stelt voor de faillissementsaangifteplicht. Een rechtbank kan in dat geval ambtshalve faillietverklaring uitspreken."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037."

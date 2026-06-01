@@ -1,0 +1,248 @@
+# Leerstuk-script — Vennootschapsvorm kiezen en oprichten
+#
+# PO 3.0 leerstuk 1 (entry-fiche). Levensloop-as start: welke vorm
+# past bij welke cliënt + wat houdt een correcte oprichting in
+# (financieel plan + oprichtersaansprakelijkheid). Fundament-leerstuk —
+# de andere 5 leerstukken bouwen hierop voort.
+#
+# Concept-vocabulair INTRODUCEREN:
+#   rechtspersoonlijkheid · kapitaalbegrip (kapitaalvennootschap NV vs
+#   kapitaalloze BV) · oprichtersaansprakelijkheid · financieel plan ·
+#   groottecategorieën · aandeel · statuten · BVBA→BV-overgang
+#
+# Concept-vocabulair DAT ELDERS LEEFT (kort vermelden, niet uitwerken):
+#   alarmbel + uitkeringstest → L3 · SHA → L2 · omzetting Boek 14 → L6
+#
+# Hand-off naar L2: de oprichting eindigt met statuten ondertekend +
+# eerste bestuur aangewezen. L2 pakt op vanaf hoe dat bestuur beslist
+# en hoe aandeelhouders intern reguleren.
+
+meta:
+  slug: vennootschapsvorm-kiezen-en-oprichten
+  titel: "Vennootschapsvorm kiezen en oprichten — vorm, financieel plan en oprichtersaansprakelijkheid"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — entry-fiche over de vorm-keuze en de oprichting.
+    Welke vennootschapsvorm past bij welke cliënt (BV vs NV vs CV vs
+    maatschap vs VOF vs CommV vs VZW), wat is het verschil tussen een
+    kapitaalvennootschap en een kapitaalloze vennootschap, en wat is
+    een correcte oprichting (notariële akte + financieel plan + plaatsing
+    en volstorting + oprichtersaansprakelijkheid). Eindigt met de
+    WVV-overgangsproblematiek BVBA→BV per 2020 (van rechtswege, geen
+    accountantsverslag) versus de vrijwillige omzetting Boek 14 (waar
+    een verslag wél verplicht is — uitgewerkt in [[bijzondere-mandaten-
+    van-de-accountant]]).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Maak duidelijk dat dit het FUNDAMENT-leerstuk is — de andere
+    leerstukken bouwen hierop voort. Wijs erop dat de keuze van
+    vennootschapsvorm vooral een aansprakelijkheids- en kapitaalbescher-
+    mingsbeslissing is, en dat het financieel plan in de BV de
+    schuldeiserbescherming uit het kapitaalbegrip heeft overgenomen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: de WVV onderscheidt KAPITAALVENNOOTSCHAPPEN (NV — minimumkapitaal 61.500 EUR, vrij overdraagbare aandelen) en KAPITAALLOZE VENNOOTSCHAPPEN (BV en CV — geen minimumkapitaal, schuldeisersbescherming via FINANCIEEL PLAN + UITKERINGSTESTEN). Voor wie geen rechtspersoonlijkheid wil of nodig heeft: MAATSCHAP (geen rechtspersoon, hoofdelijke aansprakelijkheid) of VOF/CommV (rechtspersoon maar onbeperkte aansprakelijkheid voor de beherende vennoten)."
+    - "Vier ankerregels voor de vorm-keuze: (a) Wil de cliënt BEPERKTE AANSPRAKELIJKHEID? → BV of NV (of CV); zo niet → maatschap of VOF kan goedkoper. (b) Heeft hij meer dan 1-2 aandeelhouders met VLOTTE OVERDRACHT in zicht (later verkoop, beursgang)? → NV. (c) BV blijft de ZONDER-COMMISSARIS-werkpaard voor de meeste KMO's. (d) Maatschap leeft voor familiaal vermogensbeheer (zie ook [[ontbinding-vereffening-en-insolventie]] cross-link)."
+    - "Een correcte oprichting bevat altijd: notariële akte met statuten (behalve maatschap die contractueel kan), FINANCIEEL PLAN dat het aanvangsvermogen verantwoordt voor minstens 2 jaar, plaatsing van het kapitaal of de inbrengen, en volstorting volgens de vereisten. Wie hierin tekortschiet, riskeert OPRICHTERSAANSPRAKELIJKHEID (3 jaar na oprichting bij faillissement — kennelijk ontoereikend aanvangsvermogen)."
+  visualisaties:
+    - type: tabel-vergelijking
+      ref: vergelijkingsmatrix_rechtsvormen
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen het verhaal in vier stappen — eerst het keuze-kader, dan de oprichtingsprocedure, dan de oprichtersaansprakelijkheid, ten slotte de BVBA→BV-overgangs-instinker.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vorm-keuze-kader
+    titel: "Het keuze-kader — drie scharnier-vragen"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een vennootschapsvorm is een KEUZE, geen automatisme. Drie scharnier-vragen leiden de stagiair naar de juiste vorm voor zijn cliënt."
+      - "Scharnier 1 — RECHTSPERSOONLIJKHEID? Een vennootschap met rechtspersoon (BV, NV, CV, VOF, CommV, VZW) staat als juridische entiteit los van haar oprichters: ze sluit zelf contracten, heeft eigen vermogen, gaat zelf failliet. Een MAATSCHAP heeft GEEN rechtspersoonlijkheid — de maten handelen samen in eigen naam. Maatschap is dus geschikt voor private vermogensplanning (familievermogen, gezamenlijke investering) maar niet voor een operationele activiteit met derden."
+      - "Scharnier 2 — BEPERKTE AANSPRAKELIJKHEID? Bij BV, NV, CV, VZW: aandeelhouders/leden verliezen hoogstens hun inbreng. Bij MAATSCHAP en VOF: maten/vennoten zijn ONBEPERKT EN HOOFDELIJK aansprakelijk met hun privévermogen. Bij CommV: gemengd — beherende vennoten onbeperkt, stille beperkt. Voor een operationele activiteit met financieel risico (bv. bouwsector zoals Verhaeren Bouw) kiest men in praktijk vrijwel altijd voor BV of NV."
+      - "Scharnier 3 — OVERDRAAGBAARHEID AANDELEN? De BV is BESLOTEN — aandelen kunnen alleen overgedragen worden mits naleving van statutaire of wettelijke beperkingen (art. 5:63 WVV — instemming van de meerderheid van de mede-aandeelhouders, tenzij statuten anders bepalen). De NV is OPEN — aandelen vrij overdraagbaar tenzij beperkt door statuten of SHA. Concretisering: een cliënt die over enkele jaren wil verkopen aan een externe groep (zoals Verhaeren Holding plant met Verhaeren Bouw) heeft baat bij meer flexibiliteit dan de BV biedt — maar in praktijk wordt dat opgelost via een holding-structuur, niet via NV-vorm op werkmaatschappij."
+      - "Concretiseer met de Verhaeren-groep: Marc kiest BV voor de werkmaatschappij (Verhaeren Bouw) — beperkt aansprakelijk, geen verplicht minimumkapitaal, geschikt voor 1-paar aandeelhouders. Holding-niveau wordt NV — omdat een NV-Holding boven KMO-werkmaatschappijen in praktijk een gangbaar opzet is met meer flexibiliteit voor latere intrede van investeerders of beursgang. Vastgoed-luik in BV (zelfde overwegingen). Bouwprojecten Zuid ook BV — verlieslatend lopend nu (zie [[kapitaalbescherming-uitkeringen-en-alarmbel]])."
+      - "Blockquote-aside: waarom is de S-BVBA (starter-BV) weg? De BVBA-Starter was een 2010-uitvinding bedoeld om beginnende ondernemers in staat te stellen met 1 EUR kapitaal te starten. Sinds WVV (2019) is er geen apart starter-statuut meer — de BV is gewoon kapitaalloos. Wie nog 'S-BVBA' tegenkomt in een voorbeeldexamen: weet dat het historisch is."
+
+  - id: alle-vormen-overzicht
+    titel: "Zeven rechtsvormen op een rij — wat verschilt waar?"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: alle zeven vormen die de WVV erkent in één tabel zetten, met de vier zware criteria (rechtspersoon, aansprakelijkheid, kapitaal, overdracht). Sluiten met een korte typische cliënt-profielen-paragraaf — niet om elke vorm volledig uit te diepen (dat doen concept-records) maar om het keuze-instinct te trainen."
+      - "Toon de vergelijkingstabel (visualisatie hieronder)."
+      - "Typische profielen, per vorm — laat de stagiair de tabel 'lezen' via cliënt-cases: BV = standaard-KMO (Verhaeren Bouw, Verhaeren Vastgoed). NV = grotere ondernemingen, holdings, beursnoteringen (Verhaeren Holding). CV = coöperatief opzet — landbouwersgroepering, energiecoöperatie, professionele orden. Maatschap = familiaal vermogensbeheer (Verhaeren maatschap na omzetting Vastgoed — zie scenario). VOF = vakkundige familievennootschap, oude vormen onder kleinere zelfstandigen. CommV = klassieke fiscaal-getuige-vorm voor stille investeerders. VZW = niet-commerciële verenigingen."
+      - "Blockquote-aside — de CommV als gegeneraliseerd alternatief: vroeger werd de CommV vaak gebruikt als constructie waarbij een ouder als beherende vennoot optrad (met onbeperkte aansprakelijkheid op kleine schaal) en de kinderen als stille vennoten — opvolgingsplanning. Sinds WVV blijft dit mogelijk, maar voor de meeste familievermogens-cases biedt de MAATSCHAP nu een eenvoudiger en flexibeler alternatief (zonder rechtspersoonlijkheid, dus minder formaliteiten + meer fiscaal-transparant)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: vergelijkingsmatrix_rechtsvormen
+        bron: voorbeeldgroep
+
+  - id: oprichting-stap-voor-stap
+    titel: "De oprichting — stappen + financieel plan + plaatsing en volstorting"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de eigenlijke oprichting van een BV, NV of CV verloopt in een vaste sequentie. We werken het uit voor de BV (referentievorm voor de cursus) en geven NV-en CV-eigenheden in een nuance-blok."
+    kinderen:
+
+      - id: bv-oprichting
+        titel: "BV-oprichting in vijf stappen"
+        niveau: 3
+        beats:
+          - "Stap 1 — VOORBEREIDING + STATUTEN-ONTWERP: de oprichters (een of meer natuurlijke personen of rechtspersonen) bepalen samen de naam, het maatschappelijk doel, de zetel, het aanvangsvermogen, het bestuursorgaan, de aandeelhouders en de overdrachtsbeperkingen. Notaris werkt het ontwerp van statuten uit."
+          - "Stap 2 — FINANCIEEL PLAN. De oprichters maken een financieel plan dat het AANVANGSVERMOGEN VERANTWOORDT in het licht van de voorgenomen bedrijvigheid OVER MINSTENS TWEE JAAR (art. 5:4 WVV). Dit plan wordt aan de notaris overhandigd vóór de oprichting, maar NIET met de akte neergelegd — de notaris bewaart het (het wordt pas openbaar bij faillissement, ter ondersteuning van een eventuele oprichtersaansprakelijkheid-vordering)."
+          - "Stap 3 — PLAATSING + VOLSTORTING. De aandelen worden onderschreven (geplaatst) door de oprichters. Inbrengen kunnen in geld zijn (storting op een geblokkeerde bankrekening — vrijgegeven na notariële akte) of IN NATURA (zaken of rechten — vereist BEDRIJFSREVISORENVERSLAG art. 5:7 WVV, zie verder)."
+          - "Stap 4 — NOTARIËLE AKTE + STATUTEN. Notaris stelt de oprichtingsakte op met de definitieve statuten. Oprichters tekenen voor de notaris. Vennootschap heeft op dat moment RECHTSPERSOONLIJKHEID."
+          - "Stap 5 — NEERLEGGING + KBO-REGISTRATIE. Notaris legt akte en statuten neer bij griffie van de ondernemingsrechtbank. Bekendmaking in de Bijlagen bij het Belgisch Staatsblad. Inschrijving in de Kruispuntbank van Ondernemingen (KBO). Op dat moment is de vennootschap operationeel — kan ze haar BTW-nummer aanvragen, sociale zekerheid registreren, etc."
+          - "Concretiseer met Verhaeren Bouw — terugblik 2015: BVBA-oprichting met financieel plan + 18.550 EUR volstort. Vóór WVV-overgang was 18.550 EUR het wettelijk minimum (deels gestort). De BV-omvorming per 2020 heeft die 18.550 EUR omgevormd naar STATUTAIR ONBESCHIKBARE INBRENG — daarover hieronder meer."
+
+      - id: financieel-plan-detail
+        titel: "Het financieel plan — wat moet er in staan?"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: het financieel plan is GEEN formaliteit — het is de vervanger van het oude minimumkapitaal-systeem voor de BV. De oprichters MOETEN aantonen dat het aanvangsvermogen toereikend is voor de geplande activiteit gedurende minstens twee jaar."
+          - "Wettelijk verplichte inhoud (art. 5:4 §2 WVV) — vijf onderdelen die NIET ontbreken mogen: (1) nauwkeurige beschrijving van de voorgenomen bedrijvigheid; (2) overzicht van alle FINANCIERINGSBRONNEN bij oprichting (met opgave van eventueel verstrekte zekerheden); (3) OPENINGSBALANS + geprojecteerde balansen na 12 en 24 maanden; (4) geprojecteerde RESULTATENREKENING na 12 en 24 maanden; (5) beschrijving van de gebruikte hypothesen voor de prognoses."
+          - "Concretiseer met een mock-Verhaeren-case — wat zou Marc als oprichter van Bouwprojecten Zuid in 2022 hebben opgenomen in zijn financieel plan? Voor de openingsbalans: kasinbreng 50.000 EUR + voorgenomen aanschaf rollend materieel 15.000 EUR + werkkapitaal 35.000 EUR. Geprojecteerde resultatenrekening jaar 1: omzet 150.000 EUR, BTW + kosten 130.000 EUR, brutoresultaat +20.000 EUR (winst). Hypothesen: aanname van 3 grote projecten / kwartaal, marge 15%, geen herfinancieringsbehoefte. **Probleem in retrospect**: de hypothese werd niet gehaald. In 2025 staat het eigen vermogen op −12k. Daarover later — zie [[kapitaalbescherming-uitkeringen-en-alarmbel]]."
+          - "Blockquote-aside — wie kijkt het plan na? De notaris bewaart het maar TOETST DE INHOUD NIET inhoudelijk. Een externe accountant of bedrijfsrevisor is NIET wettelijk vereist voor het plan zelf. In de praktijk laten ondernemingen het opmaken (of toetsen) door hun externe accountant — verstandige praktijk, want het is hun bewijs van zorgvuldige oprichting bij latere oprichtersaansprakelijkheids-vordering."
+          - "Examen-aandachtspunt: ITAA-stage-examens hebben de vraag 'WAARVOOR DIENT het financieel plan?' meermaals direct gesteld (2003, 2024-1). Kernantwoord: het verantwoordt het aanvangsvermogen + dient als BEWIJS bij eventuele aansprakelijkheidsvordering tegen oprichters bij vroeg faillissement (≤3 jaar). Vandaar de bewaarplicht bij de notaris."
+
+      - id: nv-en-cv-eigenheden
+        titel: "Wat verschilt voor NV en CV?"
+        niveau: 3
+        beats:
+          - "Open met het verschil-overzicht — drie eigenheden."
+          - "Eigenheid 1 — NV-MINIMUMKAPITAAL: 61.500 EUR volledig geplaatst, volstort bij oprichting (art. 7:2 WVV). Dit blijft een hard cijfer in de NV — anders dan de kapitaalloze BV. Het kapitaal kan nadien verhoogd worden via klassieke kapitaalverhogings-procedures."
+          - "Eigenheid 2 — KAPITAAL-VOLSTORTING NV: art. 7:11 WVV vereist dat het volledige geplaatste kapitaal bij oprichting MINSTENS 1/4 VOLGESTORT is, en dat inbrengen in natura volledig zijn volgestort. Voor BV bestaat de volstortingsverplichting in WVV als concept, maar zonder vast minimum (verbonden met aanvangsvermogen-verantwoording)."
+          - "Eigenheid 3 — CV-EIGENHEDEN: de coöperatieve vennootschap heeft een COÖPERATIEF OPZET als wettelijk doel (samenwerking ten bate van vennoten — bv. landbouwerscollectieven, energiecoöperaties). Vrije in- en uittreding van vennoten is mogelijk volgens statuten. Geen minimumkapitaal. Financieel plan ook verplicht."
+          - "Examen-instinker: het oude BVBA-statuut (vóór WVV) kende een minimumkapitaal van 18.550 EUR. Examenvragen uit 2003-2014 die naar 18.550 EUR verwijzen zijn HISTORISCH — onder WVV bestaat de BVBA niet meer en is de BV kapitaalloos. Wel: oud BVBA-kapitaal werd bij overgang 2020 omgevormd naar statutair onbeschikbare inbreng (zie verder)."
+
+  - id: inbreng-in-natura-oprichting
+    titel: "Inbreng in natura bij oprichting — verslag bedrijfsrevisor verplicht"
+    niveau: 2
+    beats:
+      - "Open met de positionering: als oprichters niet in geld maar in natura inbrengen (een terrein, een wagenpark, intellectuele rechten, een handelsfonds), moet de WAARDERING worden geverifieerd door een onafhankelijk derde."
+      - "Wettelijk schema (art. 5:7 BV / art. 7:7 NV) — TWEE VERSLAGEN, samen: (a) BIJZONDER VERSLAG VAN DE OPRICHTERS — motivatie van het belang van de inbreng + beschrijving + gemotiveerde waardering + vergoeding (= aantal toegewezen aandelen); (b) VERSLAG VAN EEN AANGEWEZEN BEDRIJFSREVISOR over de waarderingsmethoden + verklaring of waardering ≥ tegenprestatie + redelijkheid."
+      - "Praktische gevolgtrekking: een gewone accountant mag dit verslag NIET maken — alleen een BEDRIJFSREVISOR. De accountant kan wel de cliënt begeleiden, de waardering helpen voorbereiden en als adviseur in het oprichtings-dossier optreden. Dit is een vaak getest examenpunt."
+      - "Concretiseer met Verhaeren-case — niet bij oorspronkelijke oprichting, maar later: in 2026 brengt Marc een terrein van 300.000 EUR in Verhaeren Bouw in als kapitaalverhoging. Toepasselijk artikel = art. 5:133 WVV (kapitaalverhoging in natura, verwijst naar 5:7). Wettelijk schema identiek. Volledig uitgewerkt in [[bijzondere-mandaten-van-de-accountant]] — daar staat het werkprogramma + modelverslag-structuur."
+      - "Blockquote-aside — geen QUASI-INBRENG in de BV: het quasi-inbreng-regime (een insider verkoopt een goed aan de vennootschap binnen 2 jaar na oprichting tegen ≥ 10% kapitaal — vereist bedrijfsrevisorenverslag) bestaat ALLEEN in de NV (art. 7:8 WVV). In de BV (kapitaalloos) is er geen apart quasi-inbreng-mechanisme; dit was ooit BVBA-bepaling, maar verdween mét het kapitaalbegrip."
+
+  - id: oprichtersaansprakelijkheid
+    titel: "Oprichtersaansprakelijkheid — drie jaar onder de financieel-plan-toets"
+    niveau: 2
+    beats:
+      - "Open met de scherpe stelling: een vennootschap oprichten is geen risicoloze handeling. Wanneer een BV (of NV) failliet gaat binnen DRIE JAAR na oprichting, kan de RECHTBANK de oprichters PERSOONLIJK aansprakelijk stellen voor het verschil tussen het ingebrachte aanvangsvermogen en wat KENNELIJK NODIG WAS voor de geplande activiteit."
+      - "Wettelijke basis: art. 5:15 WVV (BV) / art. 7:17 WVV (NV) — 'kennelijk ontoereikend aanvangsvermogen'. De rechtbank baseert zich op het FINANCIEEL PLAN dat de notaris bewaart. Daarom dat plan zorgvuldig moet worden opgemaakt."
+      - "Termijn: 3 JAAR vanaf oprichting (datum notariële akte). Faillissement na 3 jaar = standaard bestuurdersaansprakelijkheid (zie [[kapitaalbescherming-uitkeringen-en-alarmbel]] — niet meer oprichtersaansprakelijkheid)."
+      - "Concretiseer met een mock-fail-scenario: stel dat Bouwprojecten Zuid (opgericht 2022 met 50.000 EUR inbreng) in 2024 failliet was gegaan in plaats van 2026 traject. Curator zou financieel plan opvragen bij de notaris en toetsen of 50.000 EUR realistisch was voor 'kleine bouwprojecten in Henegouwen'. Indien blijkt dat de hypothese 'omzet 150.000 EUR jaar 1' niet realistisch was (te optimistisch, geen realistische orderboek-onderbouwing), kan curator de oprichter Marc Verhaeren (via Holding NV als rechtspersoon-oprichter) persoonlijk aansprakelijk stellen voor het tekort. Hier: in 2026 ligt het verschil tussen inbreng (50k) en cumulatief verlies (62k) bij Marc — maar buiten de 3-jaars-termijn (faillietverklaring 2026 = > 3 jaar na 2022 oprichting), dus oprichtersaansprakelijkheid n.v.t. — wél bestuurdersaansprakelijkheid voor te-late alarmbel (L3 + L5)."
+      - "Examen-zwaar: oprichtersaansprakelijkheid is een klassieke 'JUIST/FOUT'-vraag uit voorbeeldexamens 2003, 2008-bibf, 2014-1. Kernvragen: wat is de termijn? (3 jaar) Wat is de toets? (kennelijk ontoereikend aanvangsvermogen) Wie kan vorderen? (curator). Wie kan aansprakelijk zijn? (alle oprichters, hoofdelijk)."
+      - "Blockquote-aside — verschil oprichters vs bestuurders: in BVBA tijden vielen beide rollen vaak samen (één persoon was oprichter + zaakvoerder). In de praktijk vandaag idem voor KMO's. Maar JURIDISCH zijn het twee aparte aansprakelijkheidsregimes: oprichtersaansprakelijkheid kijkt naar de oprichtings-handeling (was het plan realistisch?), bestuurdersaansprakelijkheid kijkt naar de bestuursbeslissingen tijdens het leven van de vennootschap. Een externe bestuurder die geen oprichter is, kan dus geen oprichtersaansprakelijkheid oplopen — wel bestuurdersaansprakelijkheid."
+
+  - id: wvv-overgang-instinker
+    titel: "WVV-overgangsproblematiek BVBA → BV — een examen-instinker"
+    niveau: 2
+    beats:
+      - "Open met de waarschuwing: dit is een ZWARE examenvraag-stoffer. Het onderscheid tussen de WVV-overgang van rechtswege (alle BVBA's werden automatisch BV op 1 januari 2020) en een vrijwillige OMZETTING via Boek 14 is een terugkerende voorbeeldexamen-instinker (2024-1 vr1A)."
+      - "WAT GEBEURDE OP 1 JANUARI 2020? Alle bestaande BVBA's werden VAN RECHTSWEGE omgevormd naar BV. Geen besluit van de algemene vergadering, geen notariële akte, geen accountantsverslag, geen liquiditeitstest. Het oude BVBA-kapitaal (in geval van Verhaeren Bouw: 18.550 EUR — destijds wettelijk minimum) werd omgevormd tot STATUTAIR ONBESCHIKBARE INBRENG conform CBN-advies 2019/14 — dat wil zeggen dat deze 18.550 EUR niet meer mag worden uitgekeerd zonder eerst de statuten te wijzigen die die onbeschikbaarheid opheffen."
+      - "Praktisch gevolg: in de balans van Verhaeren Bouw vandaag staat er onder eigen vermogen een rubriek 'statutair onbeschikbare inbreng — 18.550 EUR'. Wie dit als gewoon kapitaal beschouwt en het zou willen uitkeren, schendt art. 5:142-5:143 WVV (uitkeringstest)."
+      - "VERSCHIL MET VRIJWILLIGE OMZETTING BOEK 14: een vrijwillige omzetting van de vennootschapsvorm (bv. een BV die zich omzet naar maatschap, of een NV naar BV) is een ANDER traject — Boek 14 WVV — met de volle procedure: bestuursverslag + staat van activa en passiva max 3 maanden oud + ACCOUNTANT- OF BEDRIJFSREVISORENVERSLAG over die staat + AV-besluit via notariële akte met versterkte meerderheid. Wettelijke verslag-mechaniek = uitgewerkt in [[bijzondere-mandaten-van-de-accountant]]."
+      - "Concretiseer met Verhaeren-cases: BVBA→BV overgang Verhaeren Bouw 2020 = van rechtswege, geen verslag, geen accountant-werk. Voorgenomen omzetting Verhaeren Vastgoed → maatschap 2026 = Boek 14, vol verslag-pakket vereist."
+      - "Examen-strikvraag: 'is er een accountantsverslag nodig bij de BVBA→BV-overgang?' Antwoord = NEEN. Strikvraag-variant: 'is er een liquiditeitstest nodig?' Antwoord = NEEN, ook al wordt de BV anders aan liquiditeitstest onderworpen bij uitkering."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aspect", "WVV-overgang BVBA→BV (2020)", "Vrijwillige omzetting Boek 14"]
+        rijen:
+          - ["Rechtsgrond", "WVV-overgangsbepalingen", "Boek 14 WVV (art. 14:3-14:8)"]
+          - ["AV-besluit?", "Neen — van rechtswege", "Ja — versterkte meerderheid"]
+          - ["Notariële akte?", "Neen", "Ja"]
+          - ["Bestuursverslag?", "Neen", "Ja (art. 14:5)"]
+          - ["Staat A&P max 3 mnd oud?", "Neen", "Ja"]
+          - ["Accountant- of revisorenverslag?", "**Neen**", "**Ja** (art. 14:8) — accountant OF revisor"]
+          - ["Oud kapitaal?", "Wordt statutair onbeschikbare inbreng (CBN 2019/14)", "Verdwijnt of gaat over in nieuwe vorm volgens omzettingsakte"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): de S-BVBA hanteren als bestaande vorm. FOUT — sinds WVV (2019) bestaat geen aparte starter-statuut meer. Een BV is gewoon kapitaalloos zonder leeftijdsdrempel. Wie nog 'S-BVBA' tegenkomt in oude oefeningen of voorbeeldexamens: weet dat het historisch is."
+      - "Valkuil 2 (⚠️): financieel plan beschouwen als formaliteit. FOUT — het plan is het ENIGE BEWIJS dat de oprichters het aanvangsvermogen zorgvuldig hebben afgewogen. Bij faillissement binnen 3 jaar wordt het plan opgevraagd door de curator. Een dun plan = bewijs van kennelijk ontoereikend aanvangsvermogen = oprichtersaansprakelijkheid."
+      - "Valkuil 3 (⚠️): de WVV-overgang BVBA → BV verwarren met een Boek 14-omzetting. FOUT — de eerste was van rechtswege zonder verslag, de tweede is vrijwillig MET verslag-pakket (accountant of revisor). Examen-instinker uit 2024-1 — meermaals gestelde JUIST/FOUT-vraag."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: bestuur-algemene-vergadering-en-aandeelhouders
+      hint: "Hoe de zojuist opgerichte vennootschap intern beslissingen neemt — bestuur, AV, SHA."
+    - slug: kapitaalbescherming-uitkeringen-en-alarmbel
+      hint: "Het kapitaalconcept verder uitgewerkt — wat mag uitgekeerd, wanneer luidt de alarmbel."
+    - slug: bijzondere-mandaten-van-de-accountant
+      hint: "De mechaniek van het Boek-14-omzettingsverslag — wanneer wel/niet accountant bevoegd, modelverslag."
+  samenvatting:
+    hint: "Voor herhaling — vergelijkingstabel rechtsvormen, financieel plan, oprichtersaansprakelijkheid."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [ondernemingsvormen, besloten-vennootschap, naamloze-vennootschap, cooperatieve-vennootschap]
+    - concepten: [maatschap, vennootschap-onder-firma, commanditaire-vennootschap, vereniging-zonder-winstoogmerk]
+    - concepten: [oprichting-vennootschap, financieel-plan, oprichtersaansprakelijkheid, vennootschap-groottecategorieen]
+    - concepten: [aandeel, volstortingsplicht, kapitaalverhoging-in-natura, quasi-inbreng]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "BV — geen minimumkapitaal, financieel plan + toereikend aanvangsvermogen"
+    ref: "WVV art. 5:3 + 5:4"
+    noot: "Het kapitaalconcept verdwijnt in de BV; schuldeisersbescherming via financieel plan + uitkeringstesten."
+  - onderwerp: "BV — inbreng in natura (bedrijfsrevisorenverslag)"
+    ref: "WVV art. 5:7"
+    noot: "Bedrijfsrevisor — niet accountant. Bijzonder verslag oprichters + verslag revisor over waardering."
+  - onderwerp: "NV — minimumkapitaal 61.500 EUR + volstorting bij oprichting"
+    ref: "WVV art. 7:2 + 7:11"
+    noot: "Volledige plaatsing; minstens 1/4 volgestort; inbrengen in natura volledig volstort."
+  - onderwerp: "NV — inbreng in natura (bedrijfsrevisorenverslag)"
+    ref: "WVV art. 7:7"
+    noot: "Analoog aan BV 5:7."
+  - onderwerp: "Oprichtersaansprakelijkheid BV — drie jaar"
+    ref: "WVV art. 5:15"
+    noot: "Bij faillissement binnen 3 jaar na oprichting: oprichters hoofdelijk aansprakelijk voor verbintenissen indien aanvangsvermogen kennelijk ontoereikend."
+  - onderwerp: "Oprichtersaansprakelijkheid NV — drie jaar"
+    ref: "WVV art. 7:17"
+    noot: "Analoog aan BV 5:15."
+  - onderwerp: "WVV-overgang BVBA → BV (van rechtswege per 2020)"
+    ref: "WVV — overgangsbepalingen Wet 23.3.2019"
+    noot: "Geen besluit AV, geen accountantsverslag, geen liquiditeitstest. Oud BVBA-kapitaal wordt 'statutair onbeschikbare inbreng' (CBN-advies 2019/14)."
+  - onderwerp: "Vrijwillige omzetting van rechtsvorm — Boek 14"
+    ref: "WVV art. 14:3 + 14:5 + 14:8"
+    noot: "Bestuursverslag + staat activa/passiva max 3 mnd oud + accountant- of revisorenverslag + AV-besluit notariële akte. Volledig uitgewerkt in [[bijzondere-mandaten-van-de-accountant]]."
+  - onderwerp: "Groottecategorieën (klein/microvennootschap) — cross-PO doorklik"
+    ref: "WVV art. 1:24-1:26 (cross-PO [[1.2]])"
+    noot: "Bepalend voor jaarrekening-schema + audit-vereiste. Geen leerstof in PO 3.0."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Oprichtersaansprakelijkheid — toepassing financieel plan"
+    inhoud: "Vaste rechtspraak in het kader van art. 456 W.Venn. (oud) en art. 5:15/7:17 WVV (nieuw): de rechtbank moet beoordelen of het aanvangsvermogen 'kennelijk ontoereikend' was, niet of het achteraf bekeken ontoereikend bleek. Hypothese-kwaliteit en onderbouwing zijn doorslaggevend."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd; specifieke arrest-nummers verschillend per hof."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037."

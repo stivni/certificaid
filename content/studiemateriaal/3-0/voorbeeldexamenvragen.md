@@ -1,7 +1,7 @@
 ---
 title: 3.0 Voorbeeldexamenvragen Vennootschaps- en verenigingsrecht en insolventiewetgeving
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 3.0 (Vennootschaps- en verenigingsrecht en insolventiewetgeving).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "9. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-3-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

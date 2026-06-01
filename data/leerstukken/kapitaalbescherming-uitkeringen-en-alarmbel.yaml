@@ -1,0 +1,295 @@
+# Leerstuk-script — Kapitaalbescherming, uitkeringen en alarmbel
+#
+# PO 3.0 leerstuk 3 (techniek + procedure-fiche — ZWAARTEPUNT).
+# Drie pedagogische assen in één leerstuk:
+#   (a) de DUBBELE UITKERINGSTEST (netto-actief-test + liquiditeitstest)
+#       als kapstok onder álle uitkeringen — gewoon dividend, interim-
+#       dividend, kapitaalvermindering, inkoop eigen aandelen, tantième;
+#   (b) QUASI-INBRENG (alleen NV) als verwante anti-uitholling-regel +
+#       KAPITAALVERHOGING IN NATURA als verslag-trigger;
+#   (c) de ALARMBEL als crisis-mechanisme + de TRIGGER voor verhoogde
+#       bestuurdersaansprakelijkheid.
+#
+# Concept-vocabulair INTRODUCEREN:
+#   netto-actief-test · liquiditeitstest · uitkeringsruimte · interim-
+#   dividend · quasi-inbreng · alarmbelprocedure · uitkeringssanctie ·
+#   bestuurdersaansprakelijkheid-cap · grove fout · statutair onbeschikbare
+#   inbreng
+#
+# Concept-vocabulair UIT L1 + L2 (kort oproepen):
+#   BV/NV · bestuursorgaan · AV · BVBA→BV-overgang (statutair onbeschikbare
+#   inbreng — relevant voor uitkering)
+#
+# Concept-vocabulair DAT IN L6 LEEFT — kort vermelden, niet uitwerken:
+#   verslag inbreng natura · verslag kapitaalverhoging in natura · verslag
+#   interim-dividend · verslag inkoop eigen aandelen (mechaniek = L6).
+#
+# Hand-off naar L4: als de cijfers het toelaten, kan een uitkering of
+# herkapitalisatie de aandeelhouder doen overwegen om te verkopen — L4
+# pakt M&A op. Hand-off naar L5: als alarmbel niet houdt, gaat het pad
+# verder via gerechtelijke reorganisatie en faillissement.
+
+meta:
+  slug: kapitaalbescherming-uitkeringen-en-alarmbel
+  titel: "Kapitaalbescherming, uitkeringen en alarmbel — de dubbele test en de crisis-trigger"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — zwaartepunt-leerstuk over de vermogensbescherming
+    van schuldeisers en de crisis-trigger voor het bestuur. Centraal:
+    de DUBBELE UITKERINGSTEST (netto-actief + liquiditeit, art. 5:142-
+    5:143 BV / art. 7:212-7:213 NV) als gemeenschappelijke kapstok voor
+    ALLE uitkeringen — dividend, interim-dividend, kapitaalvermindering,
+    inkoop eigen aandelen, tantième, quasi-inbreng. En de ALARMBEL-
+    procedure (art. 5:153 BV / 7:228 NV) als trigger voor bijeenroeping
+    AV én voor verhoogde bestuurdersaansprakelijkheid (art. 2:56). Vier
+    examen-favorieten leven hier: omzetting (kruisverwijzing naar L6),
+    interim-dividend, quasi-inbreng en alarmbel zelf.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Maak duidelijk dat dit het ZWAARSTE leerstuk is voor het examen
+    (~9 directe vraag-eenheden uit de voorbeeldexamens). Geef de
+    pedagogische lijn: de hele kapitaalbescherming draait om de dubbele
+    test; alle uitkeringen zijn er toepassingen van; de alarmbel is de
+    crisis-vorm van dezelfde test.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: élke uitkering uit een BV (dividend, interim-dividend, kapitaalvermindering, inkoop eigen aandelen, tantième) is onderworpen aan een DUBBELE TEST — (1) NETTO-ACTIEF-TEST (na uitkering mag het netto-actief niet negatief worden of dalen onder statutair onbeschikbare reserves, art. 5:142) + (2) LIQUIDITEITSTEST (bestuur moet vaststellen dat de vennootschap haar opeisbare schulden gedurende minstens 12 maanden na de uitkering kan blijven betalen, art. 5:143). In een NV is de logica analoog (art. 7:212-7:213), maar getoetst aan het GESTORTE KAPITAAL + statutair onbeschikbare reserves — niet aan netto-actief alleen."
+    - "De ALARMBEL is de crisis-versie van dezelfde test: zodra het BESTUURSORGAAN vaststelt (of had moeten vaststellen) dat het netto-actief NEGATIEF is of DREIGT te worden (BV art. 5:153 §1), OF dat de liquiditeitstest 12 maanden niet meer haalbaar is (§2), MOET het bestuur de AV bijeenroepen BINNEN MAXIMUM 2 MAANDEN. Voor de NV: drempel = netto-actief < 1/2 of < 1/4 van het kapitaal (art. 7:228) — drempel-systeem in plaats van negatief-systeem."
+    - "QUASI-INBRENG (alleen NV — art. 7:8): wanneer een INSIDER (oprichter, bestuurder, aandeelhouder) BINNEN 2 JAAR na oprichting een goed VERKOOPT aan de vennootschap voor ≥ 10% van het kapitaal, moet de transactie worden gestaafd door een BEDRIJFSREVISORENVERSLAG over de waardering. Doel: verkapte inbreng-zonder-verslag voorkomen. In BV: geen apart quasi-inbreng-regime (kapitaalloos), maar gewone inbreng-in-natura-regels gelden wel bij verkrijgingen van insiders."
+  visualisaties:
+    - type: mermaid
+      ref: alarmbel_bv_flowchart
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen het op in vier blokken — eerst de dubbele test, dan de toepassingen per uitkeringstype, dan quasi-inbreng en kapitaalverhoging in natura, dan de alarmbel met haar bestuurdersaansprakelijkheid-uitloper.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: dubbele-test
+    titel: "De dubbele uitkeringstest — kapstok voor alles"
+    niveau: 2
+    beats:
+      - "Open met de positionering: sinds WVV 2019 is de schuldeisersbescherming in een BV NIET MEER gestoeld op het kapitaalconcept (dat is verdwenen), maar op een DUBBELE TEST die elke uitkering uit het vermogen filtert. Dit is de centrale logica om te begrijpen — alle andere regels in dit leerstuk zijn toepassingen ervan."
+      - "DE NETTO-ACTIEF-TEST (art. 5:142 §1 BV): geen uitkering mag gebeuren indien het netto-actief van de vennootschap negatief is of door de uitkering negatief zou worden. Indien de vennootschap beschikt over INGEBRACHT EIGEN VERMOGEN dat STATUTAIR ONBESCHIKBAAR werd gesteld (bv. de oude BVBA-kapitaalrubriek na overgang 2020) of reserves die volgens wet of statuten niet uitkeerbaar zijn, mag het netto-actief niet zakken tot beneden dit bedrag."
+      - "Berekening: nettoactief = totaal activa MIN voorzieningen MIN schulden. Voor de UITKERINGSTEST: ook MIN nog niet afgeschreven kosten van oprichting en uitbreiding + MIN nog niet afgeschreven kosten van onderzoek en ontwikkeling (in beide vennootschapsvormen)."
+      - "Uitkeringsruimte BV = nettoactief verminderd met (statutair onbeschikbare inbreng + niet-uitkeerbare reserves). Concreet voor Verhaeren Bouw eind 2025: nettoactief 1.100.000 EUR – statutair onbeschikbare inbreng 18.550 EUR (ex-BVBA-kapitaal uit overgang 2020) – andere niet-uitkeerbare reserves 0 EUR = uitkeringsruimte 1.081.450 EUR. (Cijfer ter illustratie — verifieer voor élke uitkering tegen actuele cijfers.)"
+      - "DE LIQUIDITEITSTEST (art. 5:143 BV): bestuursorgaan moet vóór elke uitkering vaststellen dat de vennootschap haar OPEISBARE SCHULDEN gedurende minstens 12 MAANDEN na de uitkering kan blijven voldoen, GELET OP de redelijkerwijze te voorziene ontwikkelingen. Beslissing van het bestuur, niet van de AV — bestuursorgaan motiveert zijn vaststelling in NOTULEN. NV: zelfde test (art. 7:212 §2)."
+      - "Examen-instinker (klassieker uit voorbeeldexamens 2024-1): beide tests zijn CUMULATIEF. AV beslist over de uitkering, bestuursorgaan toetst liquiditeit, beide tests moeten slagen. Bestuursorgaan dat besluit uit te keren terwijl liquiditeitstest faalt = HOOFDELIJKE aansprakelijkheid voor de schade + terugvorderingsrecht tegen aandeelhouders, ongeacht hun goede trouw (art. 5:144 BV)."
+      - "Blockquote-aside — verschil met de NV-test: in de NV is er een KAPITAALBEGRIP. De netto-actief-test toetst niet aan 'nul' maar aan het GESTORTE OF OPGEVRAAGDE KAPITAAL + onbeschikbare reserves (art. 7:212 §1). Concreet: een NV met kapitaal 61.500 EUR mag nooit uitkeren als nettoactief beneden 61.500 + niet-uitkeerbare reserves zou dalen. Voor Verhaeren Holding NV (kapitaal 100.000): nettoactief mag niet < 100k + onbeschikbare reserves vallen na uitkering."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Test", "BV (art. 5:142-5:143)", "NV (art. 7:212-7:213)"]
+        rijen:
+          - ["Netto-actief test", "Mag niet < 0 of < statutair onbeschikbare inbreng/reserves vallen", "Mag niet < gestort/opgevraagd kapitaal + onbeschikbare reserves vallen"]
+          - ["Liquiditeitstest", "12 mnd opeisbare schulden voldoen (art. 5:143)", "12 mnd opeisbare schulden voldoen (art. 7:212 §2)"]
+          - ["Wie test?", "AV beslist + bestuur toetst liquiditeit", "AV beslist + bestuur toetst liquiditeit"]
+          - ["Sanctie", "Hoofdelijke aansprakelijkheid bestuurder + terugvordering tegen aandeelhouders ongeacht goede trouw (art. 5:144)", "Hoofdelijke aansprakelijkheid bestuurder + terugvordering tegen aandeelhouders ongeacht goede trouw (art. 7:214)"]
+
+  - id: uitkeringen-types
+    titel: "Toepassingen — gewoon dividend, interim-dividend, kapitaalvermindering, inkoop eigen aandelen"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: vier uitkeringstypes leven onder dezelfde dubbele test, met telkens een eigen procedure of moment."
+    kinderen:
+
+      - id: gewoon-dividend
+        titel: "Gewoon dividend — AV-besluit op jaarvergadering"
+        niveau: 3
+        beats:
+          - "Een gewoon dividend wordt beslist door de AV op basis van de jaarrekening. AV stemt over winstbestemming (uitkering of reservering)."
+          - "Procedure: jaarrekening goedgekeurd → bestuur voert dubbele test uit → AV beslist over dividend → bestuur betaalt uit zodra liquiditeitstest geslaagd."
+          - "Cijfer-rand: ROERENDE VOORHEFFING wordt afgehouden bij uitkering aan natuurlijke persoon (standaardtarief volgens Cijferzakboekje; verlaagd VVPRbis-tarief voor kleine vennootschappen na 3 jaar wachttijd). Cross-PO doorklik [[2.3]] voor de vennootschapsbelasting-zijde en RV-tarieven precies."
+          - "Concretiseer met Verhaeren-case: Verhaeren Bouw keert sinds 2018 gemiddeld 100.000 EUR/jaar uit aan Verhaeren Holding (DBI-vrijstelling voor Holding — cross-PO 2.3). In 2026 wordt overwogen om dit op te schorten gezien herkapitalisatie-behoefte Bouwprojecten Zuid."
+
+      - id: interim-dividend
+        titel: "Interim-dividend — bestuur beslist tussen jaarvergaderingen"
+        niveau: 3
+        beats:
+          - "Open met de positionering: het INTERIM-DIVIDEND is een uitkering uit het LOPENDE boekjaar (of uit voorgaande niet-uitgekeerde winst), beslist door het BESTUURSORGAAN — niet de AV — tussen twee jaarvergaderingen door."
+          - "Wettelijk schema (art. 7:213 NV): drie voorwaarden cumulatief. (a) STATUTAIRE MACHTIGING vereist — statuten moeten bestuur uitdrukkelijk toestaan interim-dividenden uit te keren. (b) Mag enkel uit WINST VAN HET LOPENDE BOEKJAAR + de overgedragen winst van vorig boekjaar — niet uit reserves. (c) Bestuur toetst de DUBBELE UITKERINGSTEST. Aanvullend: in vennootschappen met commissaris moet die de tussentijdse staat van activa en passiva controleren."
+          - "ACCOUNTANT-/REVISOR-VERSLAG bij interim-dividend (in vennootschappen ZONDER commissaris) — geen wettelijke verplichting (de tussentijdse staat hoeft niet door externe accountant gecontroleerd te worden), MAAR in praktijk vraagt het bestuur dikwijls aan zijn vaste accountant om de cijfers te bevestigen voor dossier-vorming. Modelverslag-mechaniek = [[bijzondere-mandaten-van-de-accountant]]."
+          - "In de BV — interim-dividend is technisch mogelijk via gewone uitkeringsmechanismen (art. 5:142-5:143), zonder aparte regelgeving. Veel KMO's gebruiken dit pad voor kwartaaluitkeringen aan de aandeelhouder."
+          - "Examen-favoriet uit 2013-2 en 2024-1: wanneer is een interim-dividend ONMOGELIJK? Antwoord: indien geen statutaire machtiging in NV, indien er geen winst is, indien dubbele test faalt, indien er nog verlies te dragen is uit voorgaande boekjaren."
+
+      - id: kapitaalvermindering
+        titel: "Kapitaalvermindering — uitkering via vermindering van kapitaal"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: een vennootschap kan haar KAPITAAL (NV) of STATUTAIR ONBESCHIKBARE INBRENG (BV) VERMINDEREN — bv. om geld terug te geven aan aandeelhouders, of om verliezen te compenseren."
+          - "DRIE VORMEN — (a) WERKELIJKE kapitaalvermindering = uitkering aan aandeelhouders → ONDERWORPEN aan dubbele test + 2 maanden wachttijd voor schuldeisers om zekerheid te vragen (art. 7:208 NV); (b) FORMELE kapitaalvermindering = boekhoudkundige inrekening van verliezen, geen uitkering → geen dubbele test, geen 2-maand-wachttijd; (c) KAPITAALVERMINDERING DOOR INKOOP EIGEN AANDELEN — zie volgend blok."
+          - "Procedure: AV-besluit met versterkte meerderheid (statutenwijziging) → notariële akte → kennisgeving aan schuldeisers (publicatie) → schuldeisers kunnen binnen 2 maanden zekerheid vragen → na 2 maanden: uitvoering."
+          - "Examen-instinker uit 2024-1 vr2: ASOCIËREN met inlijving reserves — een uitkering die niet uit reserves komt maar via vermindering van het kapitaal. Procedureel zwaarder dan dividend (notariële akte vereist)."
+
+      - id: inkoop-eigen-aandelen
+        titel: "Inkoop eigen aandelen — geforceerde uitkering"
+        niveau: 3
+        beats:
+          - "Open met de positionering: een vennootschap KOOPT haar eigen aandelen terug — economisch een uitkering aan de verkopende aandeelhouder (hij krijgt cash, geeft aandelen op)."
+          - "Wettelijk schema (art. 5:147 BV / 7:215 NV): AV beslist met versterkte meerderheid → maximumbedrag uit te keren = uitkeringsruimte (dubbele test) → na inkoop: ingehouden of vernietigd."
+          - "FUNCTIE — typisch gebruik: gedeeltelijke exit van een aandeelhouder zonder verkoop aan derde, herstructurering van aandeelhouderskring, of regularisatie van aandelen die vrij komen (bv. bij sterfgeval zonder erfgenamen met SHA-toetreding)."
+          - "Cap-regel — een vennootschap mag niet meer dan een bepaald percentage van haar aandelen in eigen bezit hebben (NV: 20% van het kapitaal vóór WVV; sinds WVV: geen cap-percentage in BV, wel inhoudelijke beperking via uitkeringstest). Houder van eigen aandelen heeft geen stemrecht."
+          - "Concretiseer: stel dat Sofie in 2030 wil uitstappen uit Verhaeren Holding NV. Drie opties: (a) verkopen aan Jeroen of Marc (gewone overdracht); (b) verkopen aan een externe partij (mits voorkooprecht + drag/tag-along uit SHA); (c) HOLDING KOOPT HAAR AANDELEN IN — uitkering aan Sofie uit Holding-vermogen, onderworpen aan dubbele test + AV-besluit + bestuurstest liquiditeit."
+
+  - id: kapitaalverhoging-in-natura
+    titel: "Kapitaalverhoging in natura — het verslag-perspectief"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een vennootschap kan haar kapitaal/inbreng VERHOGEN — in geld (gewone storting) of IN NATURA (een goed, terrein, vordering, intellectueel recht)."
+      - "BIJ INBRENG IN NATURA — onverkort dezelfde regel als bij oprichting (zie L1): bijzonder verslag bestuur + verslag van een aangewezen BEDRIJFSREVISOR over waardering + redelijkheid + tegenprestatie (art. 5:133 BV verwijst naar 5:7 / art. 7:197 NV verwijst naar 7:7). Mechaniek van het verslag = [[bijzondere-mandaten-van-de-accountant]]."
+      - "PROCEDURE — bestuur stelt voorstel op (waardering + aantal nieuwe aandelen + uitgifteprijs) → revisor wijst aan + maakt verslag → AV-besluit versterkte meerderheid → notariële akte → kapitaalverhoging in KBO/Staatsblad."
+      - "VOORKEURRECHT — bestaande aandeelhouders hebben PRIORITAIR recht op nieuwe aandelen, evenredig met hun bestaand aandeel (NV art. 7:188-7:189). Voorkeurrecht kan beperkt of opgeheven worden via AV-besluit, MAAR dat vraagt een aanvullend VERSLAG (commissaris of bedrijfsrevisor) over de uitgifteprijs + motivering beperking (art. 7:191). Examen-vraag uit 2024-1 vr6: 'controleverslag bij beperking voorkeurrecht'."
+      - "Concretiseer met Verhaeren-case: in maart 2026 brengt Marc een terrein van 300.000 EUR in Verhaeren Bouw als kapitaalverhoging-in-natura. Wettelijk schema: (a) bestuur Verhaeren Bouw stelt bijzonder verslag op (waarom is dit terrein van belang? → uitbreidingsproject); (b) bedrijfsrevisor aangewezen door bestuur — werkprogramma: waardering check via marktvergelijking + kadastrale info; verslag verklaart 300k ≥ tegenprestatie + waardering redelijk; (c) AV-besluit (Holding = enige aandeelhouder); (d) notariële akte; (e) eigen-vermogensrubriek 'Inbrengen' van Verhaeren Bouw stijgt met 300.000 EUR. Het modelverslag van de bedrijfsrevisor wordt uitgewerkt in [[bijzondere-mandaten-van-de-accountant]]."
+
+  - id: quasi-inbreng
+    titel: "Quasi-inbreng — alleen in de NV, binnen 2 jaar"
+    niveau: 2
+    beats:
+      - "Open met de positionering: quasi-inbreng is een ANTI-OMZEILING-mechanisme dat enkel in de NV bestaat (art. 7:8 WVV) — niet in de BV (kapitaalloos)."
+      - "Doel — voorkomen dat een oprichter een waardering omzeilt door het goed eerst niet IN te brengen, maar pas NA oprichting aan de vennootschap te verkopen tegen hoge prijs. Zonder regeling zou de bedrijfsrevisor (vereist bij inbreng-in-natura) gewoon kunnen worden vermeden."
+      - "Drie cumulatieve voorwaarden om quasi-inbreng te triggeren: (a) VERKRIJGING van een vermogensbestanddeel door de vennootschap; (b) VAN EEN INSIDER — een oprichter, bestuurder of aandeelhouder; (c) BINNEN 2 JAAR na oprichting, tegen een tegenprestatie van MINSTENS 10% van het GEPLAATSTE KAPITAAL."
+      - "Wettelijk schema (art. 7:8 + 7:10): de COMMISSARIS of, in vennootschappen zonder commissaris, een AANGEWEZEN BEDRIJFSREVISOR maakt een verslag op over de waardering. Verkrijging wordt VOORAF voorgelegd aan de AV ter goedkeuring."
+      - "Concretiseer met een mock-NV-case: stel dat Verhaeren Holding NV opgericht was eind 2024 (en niet 2018). In 2026 verkoopt Marc een privé-perceel grond van 80.000 EUR aan de Holding. Kapitaal Holding = 100.000 EUR → drempel 10% = 10.000. Tegenprestatie 80.000 > 10.000 → quasi-inbreng-triggers actief → bedrijfsrevisorenverslag verplicht + AV-besluit. Werkprogramma: identiek aan inbreng natura — zie L6."
+      - "Examen-favoriet 'WIE + WANNEER' (voorbeeldexamen 2015-1): kernantwoord = oprichter/bestuurder/aandeelhouder, binnen 2 jaar, ≥ 10% kapitaal, NV alleen."
+      - "Blockquote-aside — historische BV-quasi-inbreng: in het oude W.Venn. bestond ook in de BVBA een quasi-inbreng-regeling. Sinds WVV is die GESCHRAPT (BV is kapitaalloos — geen referentie-percentage mogelijk). In voorbeeldexamens van vóór 2019 kan men nog 'quasi-inbreng in BVBA' aantreffen — historisch."
+
+  - id: alarmbel
+    titel: "De alarmbelprocedure — crisis-vorm van de dubbele test"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de alarmbelprocedure is de SPIEGELBEELD van de uitkeringstest. Waar de uitkeringstest een vermogensafvloeiing filtert, dwingt de alarmbel het bestuur om in te grijpen wanneer het vermogen al ZAKT (of dreigt te zakken) onder een gevarendrempel."
+      - "DREMPELS in BV (art. 5:153) — TWEE TRIGGERS, elk volstaat: (1) §1 — NETTO-ACTIEF is NEGATIEF of dreigt te worden; (2) §2 — bestuursorgaan stelt vast dat de vennootschap, gelet op redelijkerwijze te voorziene ontwikkelingen, haar opeisbare schulden in de volgende 12 maanden NIET MEER ZAL KUNNEN BETALEN."
+      - "DREMPELS in NV (art. 7:228) — kapitaalsgebaseerd: alarmbel actief zodra het netto-actief is gedaald tot MINDER DAN DE HELFT van het kapitaal (eerste drempel) of MINDER DAN EEN VIERDE (tweede drempel). Beide drempels triggeren een aparte AV-cyclus."
+      - "Blockquote-aside — examen-instinker: in oude examens (2003-2014) is sprake van 'kapitaalverlies-drempels 50% / 25%' op BVBA-niveau. Sinds WVV 2019 zijn die BVBA-drempels VERVANGEN door het BV-systeem (negatief netto-actief of liquiditeitstest). Wie de oude BVBA-drempels op een huidige BV toepast: fout."
+    kinderen:
+
+      - id: alarmbel-procedure
+        titel: "Procedure — bijeenroeping binnen 2 maand"
+        niveau: 3
+        beats:
+          - "Open met de stap-voor-stap-volgorde."
+          - "Stap 1 — VASTSTELLING door bestuursorgaan (uit jaarrekening, tussentijdse staat of liquiditeitsprognose). De klok van 2 maanden start vanaf de vaststelling — of vanaf de datum waarop de toestand HAD MOETEN worden vastgesteld (bv. bij jaarrekeningopmaak). Te-late vaststelling = bestuurdersaansprakelijkheid."
+          - "Stap 2 — BIJZONDER VERSLAG van het bestuur (art. 5:153 alinea 2). Verslag bevat: oorzakenanalyse + voorgestelde MAATREGELEN om continuïteit te vrijwaren OF voorstel tot ontbinding (art. 5:135). Verslag wordt op AGENDA van AV vermeld. Kopie van het verslag aan de aandeelhouders bezorgd conform art. 5:63."
+          - "Stap 3 — BIJEENROEPING AV binnen 2 MAANDEN na vaststelling. AV beraadslaagt over de maatregelen en stemt. Stelt het bestuur ontbinding voor, dan wordt de ontbinding gevolgd volgens Boek 2 (zie L5)."
+          - "Stap 4 — UITVOERING. Bestuur voert de gestemde maatregelen uit (herkapitalisatie, herstructurering, kostenbesparing) of leidt de ontbindingsprocedure in."
+          - "TWEEDE alarmbel-AV NIET nodig in BV — anders dan oude BVBA-regeling waar voorzien werd in tweede AV bij 25%-drempel. Onder WVV BV: zodra netto-actief weer positief is en liquiditeit hersteld, alarmbel geneutraliseerd."
+          - "Concretiseer met Verhaeren-case Bouwprojecten Zuid: accountant stelt vast op 15 januari 2026 dat netto-actief 31-12-2025 = − 12.000 EUR. Klok start 15-1-2026. Uiterste datum AV = 15 maart 2026. Bestuur stelt bijzonder verslag op met herstelmaatregelen: kapitaalinjectie 80.000 EUR door Holding + heronderhandeling kredietlijn + reorganisatie personeel. AV op 10 maart 2026 stemt in. Uitvoering: nieuwe kapitaalinbreng + nieuwe businessplan."
+
+      - id: alarmbel-bestuurdersaansprakelijkheid
+        titel: "Bestuurdersaansprakelijkheid bij niet-naleving"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: wie de alarmbel NIET (of te laat) luidt, riskeert PERSOONLIJKE AANSPRAKELIJKHEID."
+          - "Wettelijke verzwakking aansprakelijkheidscap art. 2:56 WVV: de algemene aansprakelijkheidsbeperking voor bestuurders wordt OPGEHEVEN bij GROVE FOUT (art. 2:57 §3). Niet-naleving van alarmbel kwalificeert in vaste rechtspraak als grove fout — derhalve ONBEPERKTE aansprakelijkheid voor schade die schuldeisers lijden door de niet-bijeenroeping."
+          - "VERMOEDEN — een aanvullende regel uit IBA-rechtsleer en cassatie: indien de AV niet (of te laat) is bijeengeroepen, wordt VERMOED dat enige schade door derden geleden is veroorzaakt door deze niet-bijeenroeping. Vermoeden is weerlegbaar maar plaatst BEWIJSLAST op de bestuurder."
+          - "WRONGFUL TRADING (art. XX.227 WER — gewezen art. 530 §1 W.Venn.): indien faillissement volgt + bestuur heeft 'kennelijk grove fout' begaan die heeft bijgedragen tot het faillissement → curator kan persoonlijke aansprakelijkheid vorderen voor het netto-passief van de faillissementsboedel. Te-late of niet-uitgevoerde alarmbel is een paradigmatisch voorbeeld."
+          - "Concretiseer met Verhaeren-case: stel dat Marc de alarmbel in januari 2026 niet had geluid en doorgang had laten geven aan een nieuwe contractbeslissing in maart 2026 die het verlies verergerde. Bij latere faillietverklaring kan curator (a) art. 5:153-schending invoeren → vermoeden van causaliteit, (b) art. 2:56/2:57 grove fout → cap valt weg, (c) XX.227 WER wrongful trading → vordering tegen Marc persoonlijk voor de schade aan schuldeisers."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): alleen de netto-actief-test toepassen en de LIQUIDITEITSTEST vergeten. FOUT — beide tests zijn cumulatief. Een vennootschap met sterke balans-netto-actief maar zwakke kasstroom-prognose kan de liquiditeitstest falen en mag dan NIET uitkeren, zelfs als netto-actief het toelaat. Examen-strikvraag uit 2024-1."
+      - "Valkuil 2 (⚠️): de oude BVBA-alarmbel-drempels (50% / 25% kapitaalverlies) op een huidige BV toepassen. FOUT — onder WVV BV: trigger = NEGATIEF netto-actief OF liquiditeitstest faalt, GEEN drempel-percentage. Voor NV: de 1/2 + 1/4-drempels uit art. 7:228 blijven gelden."
+      - "Valkuil 3 (⚠️): quasi-inbreng in BV testen. FOUT — quasi-inbreng (art. 7:8) bestaat ALLEEN in de NV. In BV: gewone inbreng-in-natura-regels (art. 5:7) gelden ook bij verkrijgingen van insiders, maar geen aparte quasi-inbreng-drempel of -procedure."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: ontbinding-vereffening-en-insolventie
+      hint: "Wat gebeurt als de alarmbel het niet houdt — gerechtelijke reorganisatie + faillissement."
+    - slug: bijzondere-mandaten-van-de-accountant
+      hint: "Voor de mechaniek van de wettelijke verslagen — inbreng natura, quasi-inbreng, interim-dividend, inkoop eigen aandelen, alarmbel-advies."
+    - slug: overdracht-overname-en-herstructurering
+      hint: "Wanneer een uitkering niet kan en aandeelhouder overweegt te verkopen — share deal en R&W."
+  samenvatting:
+    hint: "Voor herhaling — dubbele test + alarmbel-flowchart + bestuurdersaansprakelijkheid-trigger."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [kapitaalbescherming, winstuitkering, eigen-vermogen]
+    - concepten: [kapitaalverhoging, kapitaalverhoging-in-natura, kapitaalvermindering, voorkeurrecht]
+    - concepten: [quasi-inbreng, inkoop-eigen-aandelen, volstortingsplicht]
+    - concepten: [bestuurdersaansprakelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "BV — netto-actief-test bij uitkering"
+    ref: "WVV art. 5:142"
+    noot: "Geen uitkering indien netto-actief negatief zou worden of zou dalen onder statutair onbeschikbare inbreng/reserves."
+  - onderwerp: "BV — liquiditeitstest"
+    ref: "WVV art. 5:143"
+    noot: "Bestuursorgaan vaststellen dat vennootschap haar opeisbare schulden ≥12 mnd na uitkering kan blijven betalen."
+  - onderwerp: "BV — sanctie bij onrechtmatige uitkering"
+    ref: "WVV art. 5:144"
+    noot: "Hoofdelijke aansprakelijkheid bestuurders voor schade + terugvorderingsrecht tegen aandeelhouders, ongeacht hun goede trouw."
+  - onderwerp: "NV — netto-actief- en liquiditeitstest"
+    ref: "WVV art. 7:212-7:213"
+    noot: "Analoog aan BV maar getoetst aan gestort/opgevraagd kapitaal + onbeschikbare reserves."
+  - onderwerp: "NV — quasi-inbreng"
+    ref: "WVV art. 7:8 + 7:10"
+    noot: "Insider-verkrijging ≥ 10% kapitaal binnen 2 jaar na oprichting — bedrijfsrevisorenverslag + AV-goedkeuring."
+  - onderwerp: "Inbreng in natura BV (oprichting + kapitaalverhoging)"
+    ref: "WVV art. 5:7 + 5:133"
+    noot: "Bijzonder verslag bestuur + bedrijfsrevisorenverslag."
+  - onderwerp: "Inbreng in natura NV (oprichting + kapitaalverhoging)"
+    ref: "WVV art. 7:7 + 7:197"
+    noot: "Analoog."
+  - onderwerp: "Beperking voorkeurrecht NV"
+    ref: "WVV art. 7:191"
+    noot: "Aanvullend verslag commissaris/revisor over uitgifteprijs + motivering beperking."
+  - onderwerp: "Interim-dividend NV"
+    ref: "WVV art. 7:213"
+    noot: "Statutaire machtiging + dubbele test + winst van lopend boekjaar."
+  - onderwerp: "Kapitaalvermindering NV — 2-maand-schuldeiserstermijn"
+    ref: "WVV art. 7:208"
+    noot: "Schuldeisers kunnen zekerheid vragen binnen 2 maanden na bekendmaking."
+  - onderwerp: "Inkoop eigen aandelen BV / NV"
+    ref: "WVV art. 5:147 BV / 7:215 NV"
+    noot: "AV-besluit versterkte meerderheid + uitkeringsruimte volgens dubbele test."
+  - onderwerp: "**Alarmbel BV — negatief netto-actief of liquiditeitstest**"
+    ref: "WVV art. 5:153"
+    noot: "Trigger: §1 nettoactief negatief of dreigt negatief — §2 liquiditeitstest 12 mnd faalt. AV bijeenroepen binnen 2 mnd."
+  - onderwerp: "**Alarmbel NV — drempels 1/2 en 1/4 kapitaal**"
+    ref: "WVV art. 7:228"
+    noot: "Twee drempels — elk een aparte AV-cyclus."
+  - onderwerp: "Bestuurdersaansprakelijkheid — algemeen + cap"
+    ref: "WVV art. 2:56 + 2:57"
+    noot: "Cap volgens omzet/balanstotaal; cap valt bij grove fout (alarmbel-schending kwalificeert)."
+  - onderwerp: "Wrongful trading — bijdrage tot faillissement"
+    ref: "WER art. XX.227"
+    noot: "Curator kan vordering instellen voor netto-passief bij kennelijk grove fout — typisch bij te-late alarmbel."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Vermoeden causaliteit niet-naleving alarmbel"
+    inhoud: "IBA-rechtsleer (Strelia 2022) bevestigt vaste rechtspraak: bij niet-bijeenroeping AV in alarmbel-context wordt schade door derden vermoed veroorzaakt te zijn door de niet-bijeenroeping. Vermoeden weerlegbaar, maar bewijslast verschuift naar bestuurder."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+  - onderwerp: "Alarmbel-schending als grove fout art. 2:57"
+    inhoud: "Cassatie heeft het laten alarmbel-luiden bij ernstige financiële moeilijkheden als grove fout gekwalificeerd, met als gevolg dat de cap van art. 2:56 wegvalt en de bestuurder onbeperkt aansprakelijk is voor de schade die schuldeisers daardoor lijden."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd; specifieke arrest-nummers per kamer."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037."

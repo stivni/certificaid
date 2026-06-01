@@ -1,0 +1,305 @@
+# Leerstuk-script — Overdracht, overname en herstructurering
+#
+# PO 3.0 leerstuk 4 (techniek + contractueel-overzicht-fiche). Combineert
+# twee inhoudelijke kapstokken die hetzelfde fenomeen beschrijven —
+# "eigenaars/vermogenswijziging via overdracht": de M&A-zijde (share
+# deal of asset deal via SPA) + de herstructurering-zijde (fusie,
+# splitsing, inbreng bedrijfstak/algemeenheid via Boek 12 WVV).
+#
+# Concept-vocabulair INTRODUCEREN:
+#   share deal vs asset deal · intentieverklaring (LOI · NDA) · due
+#   diligence · R&W (Representations & Warranties) · vrijwaring ·
+#   escrow · cap & basket · earn-out · MAC-clausule · niet-concurrentie-
+#   beding · ruilverhouding · continuïteit van rechten · fiscale
+#   neutraliteit fusie/splitsing
+#
+# Concept-vocabulair UIT L1+L2+L3 (kort oproepen):
+#   SHA (drag/tag-along bij share deal) · belangenconflict bij interne
+#   reorganisatie · uitkeringstest bij herstructurering die uitkering
+#   wordt
+#
+# Hand-off naar L5: de M&A-zijde eindigt bij closing; de herstructurering-
+# zijde kan ook de vorm aannemen van een afslanking richting ontbinding
+# of activa-overdracht onder gerechtelijk gezag (= L5 / Boek XX).
+
+meta:
+  slug: overdracht-overname-en-herstructurering
+  titel: "Overdracht, overname en herstructurering — share deal, asset deal en Boek 12"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — techniek + contractueel-overzicht-fiche over
+    eigenaars- en vermogenswijzigingen. Eerst de KEUZE share deal vs
+    asset deal (verschillende juridische en fiscale gevolgen). Daarna de
+    KLASSIEKE SPA-CLAUSULES (intentieverklaring, due diligence,
+    representaties en waarborgen, vrijwaring, cap & basket, escrow,
+    earn-out, niet-concurrentie). Vervolgens de REORGANISATIE-VORMEN
+    onder Boek 12 WVV (fusie, splitsing, inbreng bedrijfstak of algemeen-
+    heid) met cross-PO doorklik naar fiscale neutraliteit ([[2.3]]) en
+    schenkingsregime familiale onderneming ([[2.6]]).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Maak duidelijk dat dit leerstuk een BREED programma-blok dekt (3.0.V
+    SPA + Boek 12 reorganisatie) maar examen-statistisch ONDERBEVRAAGD
+    is. Pedagogische lijn: alle vormen beschrijven hetzelfde fenomeen
+    (eigenaars/vermogen wijzigt) maar via verschillende juridische
+    mechanismen — share deal koopt aandelen, asset deal koopt activa,
+    fusie smelt twee vennootschappen samen, splitsing verdeelt één
+    vennootschap in meerdere.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: een onderneming kan op vier manieren overgedragen of geherstructureerd worden — (1) SHARE DEAL (aandelen verkopen — koper neemt vennootschap inclusief historische schulden over, R&W zwaar), (2) ASSET DEAL (specifieke activa/passiva verkopen — meer flexibel maar fiscaal-administratief zwaarder, hoofdelijke aansprakelijkheid voor fiscale schulden via Wetboek minnelijke en gedwongen invordering + VCF art. 3.12.1.0.14 voor Vlaamse gewestbelastingen), (3) FUSIE (twee vennootschappen smelten samen onder continuïteit van rechten, Boek 12), (4) SPLITSING (één vennootschap verdeelt zich in meerdere)."
+    - "Een SHARE DEAL wordt gestructureerd via een SHARE PURCHASE AGREEMENT (SPA) met vier hoofdblokken: (a) PRIJSMECHANIEK (cash + earn-out + escrow + locked-box), (b) REPRESENTATIES EN WAARBORGEN (R&W) — verklaringen van de verkoper over de vennootschap (jaarrekening, schulden, fiscaal, sociaal, lopende geschillen), (c) VRIJWARING + CAP & BASKET (begrenzing schadevergoeding), (d) NIET-CONCURRENTIEBEDING + CLOSING-CONDITIES. Due diligence vóór SPA is essentieel — gebreken die niet geïdentificeerd zijn vóór closing leven later via R&W-claims."
+    - "FUSIE en SPLITSING (Boek 12 WVV) verlopen via een fusievoorstel (bestuursverslag) + verslag van COMMISSARIS, BEDRIJFSREVISOR OF GECERTIFICEERD ACCOUNTANT over de RUILVERHOUDING (art. 12:26 fusie door overneming / 12:39 fusie door oprichting / 12:78 splitsing — sinds Wet 25-05-2023 is ook de gecertificeerd accountant bevoegd) + AV-besluit met versterkte meerderheid + notariële akte. Continuïteit van rechten — de overnemende vennootschap krijgt alle rechten en verbintenissen van de overgenomen vennootschap (geen aparte overdrachten nodig). Fiscaal kan dit onder NEUTRALITEITSREGIME (cross-PO 2.3) — art. 211 WIB92 — indien de Boek-12-procedure correct is gevolgd."
+  visualisaties:
+    - type: mermaid
+      ref: spa_structuur
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen in drie blokken — eerst share vs asset deal, dan de SPA-clausules in detail, dan de Boek-12-vormen (fusie + splitsing + inbreng bedrijfstak).'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: share-vs-asset-deal
+    titel: "Share deal versus asset deal — wat verschilt waar?"
+    niveau: 2
+    beats:
+      - "Open met de positionering: bij overdracht van een onderneming staan twee structureel verschillende routes open."
+      - "SHARE DEAL — de AANDEELHOUDER verkoopt zijn aandelen aan de koper. De vennootschap zelf wijzigt niet — alleen haar eigenaar wijzigt. De koper neemt over WAT IN DE VENNOOTSCHAP ZIT — activa, passiva, contracten, lopende geschillen, fiscale historie, milieurisico's. Vandaar: due diligence kritisch, R&W zwaar, escrow + indemnity standard."
+      - "ASSET DEAL — de VENNOOTSCHAP verkoopt geselecteerde activa en passiva aan een koper. De verkopende vennootschap blijft bestaan (vaak met restwaarde of liquidatie nadien). De koper kiest WAT hij overneemt — typisch handelsfonds (klanten, naam, lopende contracten) zonder oude schulden."
+      - "VERSCHILLEN op vijf assen — visualiseer in tabel."
+      - "Concretiseer met Verhaeren-case: Bouwer X NV biedt 4,2 M EUR voor Verhaeren Bouw — SHARE DEAL is voorgesteld omdat Bouwer X de hele activiteit + werknemers wil overnemen + omdat fiscaal-historisch eenvoudig (geen meerwaardeproblematiek voor verkoper-vennootschap; meerwaarde op aandelen Holding doorgaans vrijgesteld onder art. 192 WIB92). Bij een asset deal had Verhaeren Bouw de activa moeten verkopen — meerwaarde belastbaar in Verhaeren Bouw, ingewikkelder fiscaal traject."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aspect", "Share deal", "Asset deal"]
+        rijen:
+          - ["Voorwerp", "Aandelen vennootschap", "Geselecteerde activa + passiva"]
+          - ["Verkoper", "Aandeelhouder", "Vennootschap zelf"]
+          - ["Wat neemt koper over?", "ALLES wat in vennootschap zit (incl. historie)", "Alleen wat is geselecteerd"]
+          - ["Risico-zwaarte voor koper", "**Hoog** — R&W + DD kritisch", "Lager — koper kiest"]
+          - ["Hoofdelijke aansprakelijkheid fiscaal", "Geen (geen overdracht)", "**Ja** — Wetboek minnelijke en gedwongen invordering (federaal; ex-art. 442bis WIB92) + VCF art. 3.12.1.0.14 (Vlaams gewest) + art. 30bis RSZ-wet (sociale schulden)"]
+          - ["BTW", "BTW-vrij (overdracht aandelen)", "Doorgaans BTW-vrijgesteld als overdracht algemeenheid (art. 11 BTW) — strenge voorwaarden"]
+          - ["Registratierechten op onroerend goed", "Geen (aandelen)", "**Ja** — schaling van het onroerend goed afzonderlijk geregistreerd"]
+          - ["Behoud werknemers", "Automatisch (vennootschap blijft werkgever)", "CAO 32bis — overdracht onderneming = automatische overgang werknemers"]
+          - ["Fiscaal voor verkoper (meerwaarde)", "Holding-vrijstelling mogelijk (art. 192 WIB92)", "Meerwaarde belastbaar in vennootschap (gespreide taxatie art. 47 WIB92 mogelijk)"]
+
+  - id: spa-clausules
+    titel: "De SPA — Share Purchase Agreement in zeven blokken"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het verkoopcontract — de SPA — is een ZWAAR document (50-100 pagina's) waarin koper en verkoper hun overeenkomst dichtspijkeren. Zeven blokken structureel terug."
+    kinderen:
+
+      - id: pre-spa
+        titel: "Pre-SPA — intentieverklaring + NDA + exclusiviteit"
+        niveau: 3
+        beats:
+          - "Voor elke serieuze deal komt een INTENTIEVERKLARING (Letter of Intent — LOI) — beschrijft de hoofdlijnen van de overwogen deal (prijs-orde van grootte, structuur share/asset, due diligence-modaliteit, exclusiviteits-termijn). Niet-bindend op de prijs en deal-zelf, maar WEL bindend op procedurele clausules (vertrouwelijkheid, exclusiviteit, opzeg-modaliteit)."
+          - "GELIJKTIJDIG met de LOI: een NON-DISCLOSURE AGREEMENT (NDA) — koper krijgt toegang tot vertrouwelijke informatie, verbindt zich tot geheimhouding + niet-gebruik buiten DD-context."
+          - "EXCLUSIVITEITSCLAUSULE — verkoper verbindt zich gedurende een periode (typisch 60-120 dagen) GEEN parallelle onderhandeling te voeren met andere koper. Schending = schadevergoeding (vaak 1-3% van de voorgestelde prijs)."
+          - "Concretiseer met Verhaeren-case: in januari 2027 ondertekenen Verhaeren Holding (verkoper) en Bouwer X NV (koper) een LOI met hoofdpunten — prijs-vork 4,0-4,5 M EUR, share deal, DD-periode 8 weken, exclusiviteit 90 dagen. NDA tegelijkertijd ondertekend. DD-data-room geopend."
+
+      - id: due-diligence
+        titel: "Due diligence — wat onderzoekt de koper?"
+        niveau: 3
+        beats:
+          - "Open met de stelling: due diligence (DD) is geen formaliteit maar de basis voor de prijszetting, de R&W en de specifieke vrijwaringen in de SPA. Wat NIET in DD wordt ontdekt, leeft later via R&W."
+          - "VIJF DD-LAGEN — financieel (jaarrekeningen 3-5 jaar terug, normaliseerde EBITDA, werkkapitaal-analyse), fiscaal (VenB-aangiften, BTW-aangiften, lopende controles, RV-correcties), juridisch (statuten, lopende contracten, geschillen, IP-rechten), sociaal (CAO-naleving, lopende SZ-controles, ontslagvergoedingen), operationeel/ESG (milieuvergunningen, hangende boetes, klimaatrisico)."
+          - "RED FLAGS — DD identificeert risico's; koper en verkoper onderhandelen vervolgens hoe ermee om te gaan: (a) prijsverlaging, (b) specifieke vrijwaring (apart van R&W), (c) closing-conditie (probleem moet opgelost zijn vóór closing), (d) deal-breaker (deal stopt)."
+          - "Concretiseer met Verhaeren-case: DD Verhaeren Bouw — vier red flags geïdentificeerd: (a) statutaire onbeschikbare inbreng 18.550 EUR uit BVBA-overgang 2020 — toch boekhoudkundig zuiver? → closing-conditie: statutenwijziging die de onbeschikbaarheid opheft VÓÓR closing; (b) twee lopende disputen met onderaannemers, samen ca. 35.000 EUR risico — specifieke vrijwaring buiten R&W-cap; (c) BTW-controle 2024 lopend, geen aanslag nog — open punt → specifieke vrijwaring; (d) hoofdelijke aansprakelijkheid art. 30bis RSZ-wet voor onderaannemers — ⚠️ te verifiëren bij due diligence, geen schadelijk gevolg gevonden, R&W standaard volstaat."
+
+      - id: prijs-mechaniek
+        titel: "Prijs-mechaniek — locked box, completion accounts, earn-out, escrow"
+        niveau: 3
+        beats:
+          - "Open met de positionering: hoe wordt de prijs concreet vastgesteld en betaald?"
+          - "LOCKED BOX — referentiedatum (bv. 31-12 van het jaar vóór closing) — koper en verkoper komen overeen dat de balans op die datum reeds vastligt en de prijs van toepassing is. Tussen referentiedatum en closing mag de vennootschap GEEN 'leak' van waarde uitvoeren (geen uitkering, geen extra-ordinaire transactie). Eenvoudig en certain."
+          - "COMPLETION ACCOUNTS (of closing accounts) — prijs wordt aangepast aan een tussentijdse balans opgemaakt OP closing-datum, gebaseerd op overeengekomen target-werkkapitaal en target-nettoschuld. Complexer en vaak basis voor post-closing-disputen."
+          - "EARN-OUT — een deel van de prijs (typisch 10-25%) wordt UITGESTELD en gekoppeld aan toekomstige prestatie (EBITDA-bandbreedte 12-24 maanden na closing). Functie: prijsverschil overbruggen tussen optimistische verkoper en voorzichtige koper. Risico voor verkoper: koper-management kan EBITDA-prestatie negatief beïnvloeden."
+          - "ESCROW — gedeelte van de prijs (typisch 10%) wordt op DERDENREKENING (advocatenkantoor of bank) geplaatst gedurende een periode (12-24 maanden) als BUFFER voor R&W-claims. Na escrow-periode: vrijgave aan verkoper of compensatie aan koper indien claims."
+          - "Concretiseer met Verhaeren-case: 4.200.000 EUR koopprijs — 3.500.000 cash bij closing + 700.000 earn-out gekoppeld aan EBITDA 2027-2028 (locked-box-referentiedatum 31-12-2026) + 420.000 (10%) in escrow gedurende 18 maanden voor R&W-claims."
+
+      - id: r-en-w
+        titel: "Representaties en Waarborgen — de R&W"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: R&W (Representations & Warranties) zijn verklaringen van de verkoper waarvan de juistheid GEGARANDEERD wordt door koopprijs-onverklaarbare schade-vergoeding. Het zijn DE SCHADE-VERZEKERINGS-clausules van de SPA."
+          - "STANDAARD R&W-CATALOGUS — typische omvang in een KMO-SPA: (a) titel + bevoegdheid (vennootschap geldig opgericht, geen ontbinding hangend), (b) jaarrekeningen GETROUW (geen verzwijgingen), (c) GEEN VERBORGEN SCHULDEN, (d) FISCAAL in orde (geen lopende geschillen of verborgen aanslagen), (e) SOCIAAL in orde (CAO + SZ-aangiften), (f) lopende geschillen > 50.000 EUR vermeld, (g) lopende contracten geldig + niet-opzegbaar, (h) intellectuele eigendom in orde, (i) milieu-compliance, (j) verzekeringen lopend, (k) statutaire onbeschikbare inbreng correct geboekt, (l) geen materieel adverse change tussen referentiedatum en closing."
+          - "DUUR R&W — typisch 18-24 maanden voor algemene representaties; 5-7 jaar voor fiscale en sociale (gelijklopend met verjaringstermijn); onbeperkt voor titel en bevoegdheid."
+          - "MET KENNIS van de koper — een R&W dekt geen feiten waarvan koper kennis had via DD. 'Disclosure schedule' vermeldt expliciet wat is geopenbaard — wat daar staat, kan niet meer gevorderd worden."
+          - "Examen-relevantie: voorbeeldexamen 2013-2 vr8 — 'overname handelsfonds: attesten en solidaire aansprakelijkheid'. Hoofdpunt: bij asset deal (handelsfonds-overdracht) bestaat HOOFDELIJKE AANSPRAKELIJKHEID voor de koper voor de fiscale schulden van de overdrager (Wetboek minnelijke en gedwongen invordering — federaal; VCF art. 3.12.1.0.14 — Vlaams gewest) en voor de sociale schulden (art. 30bis RSZ-wet), TENZIJ ATTESTEN worden overgelegd dat de overdrager fiscaal/sociaal in orde is + de wachttermijn na kennisgeving wordt nageleefd. Bij share deal: deze aansprakelijkheidsregel niet van toepassing (geen overdracht), maar via R&W kan koper zich indekken."
+
+      - id: vrijwaring-cap-basket
+        titel: "Vrijwaring + cap + basket — begrenzing schadevergoeding"
+        niveau: 3
+        beats:
+          - "Open met de positionering: de R&W-schending leidt tot VRIJWARING (indemnity) — koper vordert vergoeding van verkoper. Maar het is GEMEEN-VERKOPERS-belang om die vergoeding TE BEGRENZEN."
+          - "CAP — maximumvergoeding. Typisch 20-40% van de koopprijs (in Verhaeren-case: 30% × 4,2 M = 1,26 M EUR). Voor specifieke 'fundamental representations' (titel, bevoegdheid) typisch ONBEPERKT."
+          - "BASKET — 'de minimis' + 'threshold' om kleine claims uit te schakelen. (a) De-minimis-claim — individuele claim onder een drempel (bv. 10.000 EUR) wordt niet meegerekend. (b) Threshold (basket) — totaalsom aan claims moet een drempel bereiken (bv. 50.000 EUR) voordat enige claim recupereerbaar is. Variant: TIPPING basket (eenmaal threshold overschreden, vrijgave van alles), DEDUCTIBLE basket (alleen bedrag boven threshold)."
+          - "ESCROW + INSURANCE — escrow geeft koper directe verhaalbron (op derdenrekening); R&W-INSURANCE (in praktijk steeds gangbaarder) verzekert het R&W-risico bij een externe verzekeraar tegen premie."
+          - "Concretiseer met Verhaeren-case: cap = 30% × 4,2 M = 1,26 M EUR. De-minimis-ticket 10.000 EUR. Threshold 50.000 EUR (tipping). Escrow 10% = 420.000 EUR gedurende 18 maanden. Voorbeeld-claim: ontdekte verborgen schuld 80.000 EUR — boven de-minimis (8k → check), basket vol indien aggregaat > 50k → recupereerbaar. Koper trekt eerst uit escrow."
+
+      - id: niet-concurrentie-en-closing
+        titel: "Niet-concurrentiebeding + closing-condities"
+        niveau: 3
+        beats:
+          - "Open met de scharniervraag: hoe voorkomt de koper dat de verkoper na verkoop een concurrerende activiteit start of klanten meeneemt?"
+          - "NIET-CONCURRENTIEBEDING — verkoper (en typisch ook key-management) verbindt zich gedurende een periode (typisch 3-5 jaar) GEEN concurrerende activiteit op te zetten in een bepaalde geografische zone en in dezelfde sector. Tegen vergoeding (typisch 10-25% van de koopprijs als 'goodwill-allocatie')."
+          - "REASONABLENESS-TOETS — Belgische cassatie aanvaardt niet-concurrentiebedingen mits beperkt in (a) duur, (b) geografische zone, (c) sector. Onbeperkte niet-concurrentie = nietig wegens schending vrijheid van handel. Voor M&A in KMO-sector: 3-5 jaar + heel België + dezelfde activiteit = standaard aanvaardbaar."
+          - "CLOSING-CONDITIES — voorwaarden die moeten vervuld zijn vóór closing. Typische: (a) due diligence-afronding zonder material adverse change (MAC-clausule), (b) closing-attest van accountant (bevestiging continuïteit, geen verborgen feiten), (c) eventuele closing-toelatingen (concurrentie-autoriteit indien drempels overschreden — meestal niet in KMO-deal), (d) specifieke red-flag-opvolging (in Verhaeren-case: statutenwijziging die statutaire onbeschikbare inbreng opheft)."
+          - "Concretiseer met Verhaeren-case: niet-concurrentie Marc = 5 jaar, heel België, woningbouw + renovatie middensegment, vergoed met 200.000 EUR uit koopprijs. Closing-condities: (a) statutenwijziging uitgevoerd, (b) accountantsverklaring continuïteit verstrekt, (c) DD afgerond zonder MAC."
+
+  - id: reorganisatie-boek-12
+    titel: "Reorganisatie via Boek 12 WVV — fusie, splitsing, inbreng"
+    niveau: 2
+    beats:
+      - "Open met de positionering: Boek 12 WVV regelt drie INTERNE herstructureringsvormen waar twee of meer vennootschappen onderling activa/passiva verschuiven met CONTINUÏTEIT VAN RECHTEN — anders dan een M&A waar er een derde-koper is."
+    kinderen:
+
+      - id: fusie
+        titel: "Fusie — twee vennootschappen smelten samen"
+        niveau: 3
+        beats:
+          - "Open met de basisregel: één vennootschap (de OVERNEMENDE) neemt het hele vermogen van een andere vennootschap (de OVERGENOMEN) over onder ALGEMENE RECHTSOPVOLGING. De overgenomen vennootschap houdt op te bestaan. Aandeelhouders van de overgenomen vennootschap krijgen aandelen in de overnemende vennootschap volgens een RUILVERHOUDING."
+          - "VARIANTEN — (a) FUSIE DOOR OVERNEMING (een bestaande vennootschap neemt een andere over); (b) FUSIE DOOR OPRICHTING van een nieuwe vennootschap (beide oude vennootschappen verdwijnen); (c) MOEDER-DOCHTER-FUSIE — vereenvoudigde procedure, geen ruilverhoudingsverslag indien moeder 100% van dochter bezit."
+          - "Procedure (art. 12:24 e.v.): (1) bestuursorganen stellen FUSIEVOORSTEL op + bestuursverslag + financiële cijfers; (2) VERSLAG over de RUILVERHOUDING (art. 12:26 fusie door overneming / art. 12:39 fusie door oprichting) — commissaris of, bij ontstentenis, aangewezen bedrijfsrevisor of GECERTIFICEERD ACCOUNTANT (sinds Wet 25-05-2023) — verklaart of de methoden gebruikt om de ruilverhouding te bepalen relevant en redelijk zijn en wat het relatieve belang van elke methode is. **Niet vereist** bij moeder-dochter-fusie 100%; (3) AV's van beide vennootschappen besluiten met versterkte meerderheid (art. 12:30); (4) notariële akte; (5) rechtsopvolging vanaf datum besluit."
+          - "VOORDELEN — eenvoudige overdracht (geen aparte overeenkomsten per actief), continuïteit contracten + werknemers, FISCALE NEUTRALITEIT mogelijk onder art. 211 WIB92 (cross-PO 2.3)."
+
+      - id: splitsing
+        titel: "Splitsing — één vennootschap verdeelt zich in meerdere"
+        niveau: 3
+        beats:
+          - "Spiegelbeeld van fusie: één vennootschap verdeelt haar vermogen over twee of meer (nieuwe of bestaande) vennootschappen."
+          - "VARIANTEN — (a) SPLITSING DOOR OVERNEMING (vermogen verdeeld over bestaande vennootschappen); (b) SPLITSING DOOR OPRICHTING van nieuwe vennootschappen; (c) GEDEELTELIJKE SPLITSING — de gesplitste vennootschap BLIJFT bestaan, slechts een deel verschuift naar een nieuwe."
+          - "Procedure analoog aan fusie (art. 12:62 e.v.): splitsingsvoorstel + bestuursverslag + verslag commissaris/bedrijfsrevisor/gecertificeerd accountant over ruilverhouding (art. 12:78 voor splitsing door oprichting; analoge bepaling voor splitsing door overneming) + AV-besluit + notariële akte."
+          - "FISCALE NEUTRALITEIT mogelijk onder art. 211 WIB92 — typisch gebruikt voor scheiding van activiteiten (operationele tak vs vastgoed-tak in aparte vennootschappen)."
+          - "Concretiseer met Verhaeren-case (alternatief scenario — niet in geplande timeline): in 2027 zou Verhaeren Holding NV een PARTIËLE SPLITSING kunnen overwegen — vastgoed-tak (Vastgoed BV) splitst af van de Holding-tak — om de twee activiteiten apart te beheren. Mogelijk fiscaal-neutraal mits Boek 12 + WIB-procedure correct gevolgd."
+
+      - id: inbreng-bedrijfstak-of-algemeenheid
+        titel: "Inbreng bedrijfstak of algemeenheid — derde variant"
+        niveau: 3
+        beats:
+          - "Open met de positionering: een DERDE Boek-12-vorm — een vennootschap brengt een afgebakend deel van haar onderneming (een BEDRIJFSTAK — bv. enkel de bouwafdeling) of haar HELE algemeenheid (alle activa + passiva) in bij een andere vennootschap, in ruil voor aandelen."
+          - "VERSCHIL met fusie/splitsing: de inbrenger blijft typisch bestaan (verkrijgt enkel aandelen in plaats van haar oude bedrijfstak). Procedure: art. 12:92 e.v. WVV (procedure) + art. 12:96 (rechtsgevolgen) + art. 12:101 (inbreng door natuurlijke persoon) — inbreng-voorstel + verslag bestuur + commissaris-/revisorenverslag (analoog inbreng-in-natura)."
+          - "Gebruik typisch in herstructureringen waar men een sectie van een vennootschap wil verzelfstandigen zonder volledige splitsing."
+
+      - id: ruilverhouding-verslag
+        titel: "De ruilverhouding — kern van het revisorenverslag"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: in elke fusie/splitsing/inbreng is de RUILVERHOUDING de centrale vraag — hoeveel nieuwe aandelen krijgt elke oude aandeelhouder in ruil voor zijn oude aandelen? Antwoord = relatieve WAARDERING van de betrokken vennootschappen."
+          - "Methoden — DCF (Discounted Cash Flow), peer-multiples (EBITDA-multipliers van vergelijkbare deals), nettoactief, herwaarderings-balans. De commissaris, bedrijfsrevisor of gecertificeerd accountant verklaart in zijn verslag (a) welke methoden gebruikt zijn, (b) of zij RELEVANT EN REDELIJK waren, (c) wat het RELATIEVE BELANG van elke methode was, (d) of de finale ruilverhouding aanvaardbaar is."
+          - "VERSLAGTYPE — geen waardering-verklaring (revisor zegt niet '€X is de juiste waarde'). Wel methodologisch + redelijkheid. Modelmechaniek = [[bijzondere-mandaten-van-de-accountant]]."
+
+  - id: familiale-opvolging
+    titel: "Familiale opvolging — gunstregime + share deal"
+    niveau: 2
+    beats:
+      - "Open met de cross-PO doorklik: familiale opvolging via schenking of erfenis van aandelen valt buiten de M&A-context (geen derde-koper) maar gebruikt dezelfde share-deal-mechaniek. Belangrijkste fiscale tool: het GUNSTREGIME familiale onderneming (cross-PO [[2.6]] — schenkbelasting + erfbelasting met verlaagde of nul-tarief mits voorwaarden)."
+      - "Voorwaarden gunstregime (samenvattend; details in PO 2.6): (a) familiale onderneming met werkmaatschappij-karakter, (b) participatie ≥ 50% door schenker + familie, (c) drie jaar voortzettingsverplichting, (d) tewerkstelling behouden, (e) geen vastgoed-overheersing in patrimonium tenzij gekoppeld aan operationele activiteit."
+      - "Concretiseer met Verhaeren-case (toekomstig scenario na 2030): Marc schenkt zijn 60% Holding-aandelen aan Sofie + Jeroen via gunstregime → 0% schenkbelasting (Vlaams Gewest, voor familiale onderneming, mits 3-jaars-voortzetting). Het gunstregime is GEEN onderwerp van PO 3.0 (zit in PO 2.6), maar Marc moet de SHA structureren in lijn met de voortzettingsverplichting."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): de hoofdelijke aansprakelijkheid bij asset deal negeren. FOUT — bij overdracht handelsfonds (asset deal) is de koper HOOFDELIJK AANSPRAKELIJK voor de fiscale schulden van de verkoper-vennootschap (Wetboek minnelijke en gedwongen invordering — federaal; VCF art. 3.12.1.0.14 — Vlaams gewest), TENZIJ attesten van fiscale rechtgeldigheid worden voorgelegd en de wachttermijn nageleefd. Voor sociale schulden: art. 30bis RSZ-wet idem. Bij share deal: geen overdracht → deze aansprakelijkheidsregel niet van toepassing."
+      - "Valkuil 2 (⚠️): de Boek-12-procedure als 'optioneel' beschouwen. FOUT — fusie/splitsing zonder Boek-12-procedure (geen verslag commissaris/bedrijfsrevisor/gecertificeerd accountant over ruilverhouding, geen AV-besluit met versterkte meerderheid) = NIETIG. Bovendien valt de fiscale neutraliteit weg (art. 211 WIB92 vereist correcte Boek-12-procedure)."
+      - "Valkuil 3 (⚠️): de R&W-cap onderschatten + escrow vergeten. FOUT — wie als koper een SPA tekent zonder escrow of zonder duidelijke vrijwaringsstructuur, riskeert dat een R&W-claim na closing niet meer recupereerbaar is (verkoper insolvabel, verdwenen offshore, of net zijn cash gebruikt). Standard advies aan koper-cliënt: escrow + R&W-insurance."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: bestuur-algemene-vergadering-en-aandeelhouders
+      hint: "Voor de SHA-context — drag/tag-along + voorkooprecht zijn de instrumenten die share deal mogelijk maken."
+    - slug: ontbinding-vereffening-en-insolventie
+      hint: "Voor de alternatieve afsluit-route — bij gefaalde overdracht: ontbinding of overdracht onder gerechtelijk gezag."
+    - slug: bijzondere-mandaten-van-de-accountant
+      hint: "Voor de verslag-mechaniek — ruilverhouding-verslag bij fusie/splitsing + closing-attest + werkkapitaalverklaring."
+  samenvatting:
+    hint: "Voor herhaling — share/asset matrix + SPA-clausules + Boek-12-vormen + gunstregime cross-PO."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [overdracht-onderneming, overnameovereenkomst-spa, bedrijfswaardering]
+    - concepten: [reorganisatie, fusie, splitsing, inbreng-bedrijfstak-of-algemeenheid]
+    - concepten: [fiscale-fusie-splitsing, gunstregime-familiale-onderneming]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Hoofdelijke aansprakelijkheid koper handelsfonds — fiscale schulden (federaal)"
+    ref: "Wetboek van de minnelijke en gedwongen invordering (ex-WIB92 art. 442bis is hierin geïntegreerd)"
+    noot: "Hoofdelijk voor fiscale schulden van overdrager — tenzij attesten van fiscale regelmaat overgelegd en wachttermijn nageleefd."
+  - onderwerp: "Hoofdelijke aansprakelijkheid koper handelsfonds — Vlaamse gewestbelastingen"
+    ref: "VCF art. 3.12.1.0.14"
+    noot: "Analoog regime voor Vlaamse gewestbelastingen."
+  - onderwerp: "Hoofdelijke aansprakelijkheid koper — sociale schulden"
+    ref: "RSZ-wet art. 30bis"
+    noot: "Bij overdracht onderneming: hoofdelijke aansprakelijkheid sociale bijdragen."
+  - onderwerp: "BTW — overdracht algemeenheid of bedrijfsafdeling"
+    ref: "BTW-Wb art. 11 + K.B. nr. 1 art. 11"
+    noot: "Geen levering mits overnemer belastingplichtige met aftrekrecht."
+  - onderwerp: "Fusie — fusievoorstel"
+    ref: "WVV art. 12:24"
+    noot: "Bestuursorganen stellen voorstel op."
+  - onderwerp: "Fusie — verslag ruilverhouding (fusie door overneming)"
+    ref: "WVV art. 12:26"
+    noot: "Commissaris, bedrijfsrevisor óf gecertificeerd accountant (sinds Wet 25-05-2023)."
+  - onderwerp: "Fusie — verslag ruilverhouding (fusie door oprichting)"
+    ref: "WVV art. 12:39"
+    noot: "Idem — commissaris/bedrijfsrevisor/gecertificeerd accountant."
+  - onderwerp: "Fusie — AV-meerderheid"
+    ref: "WVV art. 12:30"
+    noot: "Versterkte meerderheid; notariële akte."
+  - onderwerp: "Splitsing — verslag ruilverhouding"
+    ref: "WVV art. 12:78 (splitsing door oprichting) + analoge bepaling bij splitsing door overneming"
+    noot: "Analoog aan fusie — commissaris/bedrijfsrevisor/gecertificeerd accountant."
+  - onderwerp: "Inbreng bedrijfstak of algemeenheid"
+    ref: "WVV art. 12:92 e.v. (procedure) + art. 12:96 (rechtsgevolgen) + art. 12:101 (inbreng door natuurlijke persoon)"
+    noot: "Derde Boek-12-vorm; commissaris-/revisor-/gecertificeerd-accountantsverslag (inbreng-in-natura-mechaniek)."
+  - onderwerp: "Fiscale neutraliteit fusie/splitsing"
+    ref: "WIB92 art. 211 (cross-PO [[2.3]])"
+    noot: "Geen meerwaardebelasting op niveau vennootschap bij correcte Boek-12-procedure. Detail in PO 2.3."
+  - onderwerp: "Gunstregime familiale onderneming"
+    ref: "Vlaams: VCF art. 2.7.4.2.2 e.v. — Waals: CDR — Brussels (cross-PO [[2.6]])"
+    noot: "Schenk- en erfbelasting verlaagd of nul-tarief mits voorzetting + tewerkstelling."
+  - onderwerp: "Vrijheid van handel — niet-concurrentiebeding"
+    ref: "Art. II.1 WER — vrijheid van ondernemen + jurisprudentie"
+    noot: "Niet-concurrentiebeding moet beperkt in duur, geografie en sector — anders nietig."
+  - onderwerp: "CAO 32bis — overdracht onderneming"
+    ref: "CAO 32bis (NAR)"
+    noot: "Automatische overgang werknemers bij overdracht onderneming (asset deal)."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Reasonableness-toets niet-concurrentiebeding"
+    inhoud: "Vaste cassatierechtspraak: niet-concurrentiebeding bij M&A is rechtsgeldig mits beperkt in duur (typisch ≤ 5 jaar), geografisch (gebied waar verkoper actief was), sector (activiteit van overgedragen vennootschap). Onbeperkt = nietig wegens schending art. II.1 WER."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+  - onderwerp: "R&W-cap en grove fout"
+    inhoud: "Lagere rechtspraak: een R&W-cap geldt niet bij FRAUDE of opzettelijke misleiding van verkoper. Standaardclausule 'cap geldt niet bij fraud' is meestal expliciet opgenomen."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037."

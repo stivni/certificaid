@@ -1,0 +1,766 @@
+# Verhaeren Bouwgroep — centrale levensloop-case voor PO 3.0
+#
+# Eén familiale groep van 4 vennootschappen die door alle 6 leerstukken
+# van PO 3.0 meeloopt. De levensloop-as is intrinsiek chronologisch
+# (oprichting → bestuur → kapitaal → overdracht → einde → mandaten dwars
+# door alles heen) → één doorlopend dossier werkt didactisch beter dan
+# losse cases per leerstuk.
+#
+# Familienaam VERHAEREN (niet Vermeulen) om botsing met de
+# bestaande PO 2.7-case `vermeulen-stranddorp.yaml` te vermijden.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/vennootschapsvorm-kiezen-en-oprichten.yaml (L1)
+#   - data/leerstukken/bestuur-algemene-vergadering-en-aandeelhouders.yaml (L2)
+#   - data/leerstukken/kapitaalbescherming-uitkeringen-en-alarmbel.yaml (L3 — KERN, alarmbel + inbreng natura)
+#   - data/leerstukken/overdracht-overname-en-herstructurering.yaml (L4)
+#   - data/leerstukken/ontbinding-vereffening-en-insolventie.yaml (L5)
+#   - data/leerstukken/bijzondere-mandaten-van-de-accountant.yaml (L6 — synthese, alle mandaat-triggers)
+#   - data/oefeningen/verhaeren-dossier-2026.yaml (oefening, multi-vraag case)
+#
+# Verifieerde wettelijke artikelen (MCP `zoek_bronnen` rerank — 2026-06-01):
+#   - WVV art. 5:3 + 5:4 (BV oprichting + financieel plan)
+#   - WVV art. 5:7 (inbreng natura BV — bedrijfsrevisor)
+#   - WVV art. 5:142 + 5:143 (BV uitkering — nettoactief- + liquiditeitstest)
+#   - WVV art. 5:153 (BV alarmbel — nettoactief negatief of dreigend negatief)
+#   - WVV art. 7:7 (inbreng natura NV — bedrijfsrevisor)
+#   - WVV art. 7:8 (quasi-inbreng NV — ≥10% kapitaal binnen 2 jaar)
+#   - WVV art. 7:212 + 7:213 (NV uitkering + interimdividend)
+#   - WVV art. 7:228 (NV alarmbel — drempels 1/2 en 1/4 kapitaal)
+#   - WVV art. 2:56 + 2:57 (bestuurdersaansprakelijkheid + cap)
+#   - WVV art. 2:71 + 2:80 + 2:91 + 2:100 (ontbinding/vereffening)
+#   - WVV Boek 14 art. 14:3-5 + 14:8 (omzetting + staat activa/passiva)
+#   - WER art. XX.39 (GR aanvraag) + XX.67 (collectief akkoord) + XX.83/29 (besloten GR)
+#   - WER art. XX.102 (faillissement-aangifteplicht 1 maand)
+#
+# Cijfer-discipline: geen verzonnen RV-tarieven, geen verzonnen
+# drempelbedragen. Voor RV/VVPRbis/liquidatiereserve → MCP
+# `certificaid-tarieven`. Voor familiale-onderneming-gunstregime → kort
+# vermelden + doorklik naar PO 2.6.
+
+naam: verhaeren-bouwgroep
+beschrijving: >
+  Doorlopende levensloop-case voor PO 3.0 — Vennootschapsrecht en
+  insolventie. De familie Verhaeren rond Marc Verhaeren (62, oprichter)
+  + kinderen Sofie (35, jurist) en Jeroen (32, ingenieur). Vier
+  vennootschappen onder Verhaeren Holding NV: Verhaeren Bouw BV
+  (operationeel, ex-BVBA automatisch omgevormd 2020), Verhaeren Vastgoed
+  BV (kapitaalloos, beheert bedrijfspatrimonium), en Bouwprojecten Zuid
+  BV (verlieslatend — alarmbel + insolventie-case). Zes ankerverrichtingen
+  spannen de hele levensloop: alarmbel · inbreng natura · SHA met
+  drag-along · share-deal-overname · gerechtelijke reorganisatie ·
+  omzetting BV → maatschap. Elk leerstuk vist één of meer scenarios uit
+  deze groep.
+
+context_jaartal: "2026"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Familie
+# ---------------------------------------------------------------------------
+
+familie:
+
+  personen:
+    - naam: "Marc Verhaeren"
+      leeftijd: 62
+      woonplaats_fiscaal: "Sint-Niklaas (Vlaams Gewest)"
+      beroep: "oprichter + zaakvoerder Verhaeren Bouw + bestuurder Verhaeren Holding NV"
+      rol_in_cases: "hoofdpersonage — wil tegen 2030 overdragen aan de kinderen of verkopen aan derden; activeert de meeste mandaten en bestuursbeslissingen"
+
+    - naam: "Linda Devos"
+      leeftijd: 60
+      woonplaats_fiscaal: "Sint-Niklaas (Vlaams Gewest)"
+      beroep: "loontrekkende (administratie scholengroep)"
+      rol_in_cases: "echtgenote — niet actief in vennootschappen, wel medeplanner familiale opvolging"
+
+    - naam: "Sofie Verhaeren"
+      leeftijd: 35
+      woonplaats_fiscaal: "Antwerpen (Vlaams Gewest)"
+      beroep: "jurist (advocatenkantoor M&A)"
+      rol_in_cases: "aandeelhouder Holding (20%); juridische ruggesteun voor de SHA-onderhandeling (L2) en SPA-onderhandeling (L4); ook voorgesteld als toekomstig bestuurder na Marcs uittreden"
+
+    - naam: "Jeroen Verhaeren"
+      leeftijd: 32
+      woonplaats_fiscaal: "Gent (Vlaams Gewest)"
+      beroep: "ingenieur burgerlijke bouwkunde (extern projectleider)"
+      rol_in_cases: "aandeelhouder Holding (20%); operationele opvolger Verhaeren Bouw; minder mandaat-ruggesteun dan Sofie — vraagt meer toelichting"
+
+# ---------------------------------------------------------------------------
+# DEEL B — Groepsstructuur
+# ---------------------------------------------------------------------------
+
+groepsstructuur:
+
+  bovenste_niveau:
+    naam: "Verhaeren Holding NV"
+    rechtsvorm: NV
+    oprichting: "2018"
+    kapitaal_geplaatst: "100.000 EUR (volledig volstort bij oprichting)"
+    aandeelhouders:
+      - naam: "Marc Verhaeren"
+        percentage: 60
+      - naam: "Sofie Verhaeren"
+        percentage: 20
+      - naam: "Jeroen Verhaeren"
+        percentage: 20
+    bestuur: "enige bestuurder Marc Verhaeren tot 2026; daarna voorzien collegiaal bestuur met Sofie + Jeroen na SHA-onderhandeling"
+    eigen_vermogen_einde_2025: "850.000 EUR (kapitaal 100k + beschikbare reserves 650k + overgedragen winst 100k)"
+    rol: "houdt 100% van de drie dochterondernemingen; ontvangt jaarlijks dividend uit Verhaeren Bouw"
+    dividendhistoriek: "tot 2024 ca. 100.000 EUR/jaar uitkering vanuit Verhaeren Bouw → opgenomen in Holding-reserves of dooruitgekeerd aan aandeelhouders"
+
+  dochters:
+
+    - naam: "Verhaeren Bouw BV"
+      rechtsvorm: BV
+      oprichting_oorspronkelijk: "2015 als BVBA met 18.550 EUR oorspronkelijk volstort kapitaal"
+      wvv_overgang: "Automatisch omgevormd van BVBA naar BV per 1 januari 2020 (overgangsbepalingen WVV — van rechtswege, geen besluit AV, geen accountantsverslag). Het oude BVBA-kapitaal 18.550 EUR is omgevormd naar STATUTAIR ONBESCHIKBARE INBRENG (CBN-advies 2019/14) — niet uitkeerbaar zonder statutenwijziging die de onbeschikbaarheid opheft."
+      aandeelhouder: "Verhaeren Holding NV — 100%"
+      bestuur: "enige zaakvoerder Marc Verhaeren tot 2026"
+      activiteit: "algemene bouwaanneming — woningbouw + renovatie middensegment"
+      omzet_2025: "3.200.000 EUR"
+      resultaat_2025_voor_belasting: "+ 245.000 EUR"
+      eigen_vermogen_einde_2025: "1.100.000 EUR (statutair onbeschikbare inbreng 18.550 + reserves 750.000 + overgedragen winst 331.450)"
+      werknemers: 14
+      rol_in_cases: "kern operationele werkvennootschap — case voor L3 (inbreng natura terrein) + L4 (share deal aan Bouwer X NV) + L1+L6 (BVBA→BV overgang vs Boek 14-omzetting onderscheid)"
+
+    - naam: "Verhaeren Vastgoed BV"
+      rechtsvorm: BV
+      oprichting: "2018, gelijktijdig met Holding"
+      kapitaal_oorspronkelijk: "10.000 EUR symbolische inbreng (BV — geen minimumkapitaal) + inbreng in natura bedrijfsgebouw door Marc tegen waardering 800.000 EUR (revisorenverslag conform art. 5:7 WVV)"
+      aandeelhouder: "Verhaeren Holding NV — 100%"
+      bestuur: "enige zaakvoerder Marc Verhaeren"
+      activiteit: "beheer bedrijfspatrimonium — verhuurt panden aan Verhaeren Bouw + één extern bedrijf"
+      patrimonium: "twee percelen industriegrond Sint-Niklaas + bedrijfsgebouw Sint-Niklaas (totale waarde ca. 2.200.000 EUR) + bouwgrond Beveren (te ontwikkelen, ca. 600.000 EUR)"
+      schulden: "lopende hypothecaire kredieten ca. 400.000 EUR + RC-schuld Verhaeren Holding ca. 200.000 EUR"
+      eigen_vermogen_einde_2025: "1.800.000 EUR"
+      omzet_2025: "180.000 EUR (huurinkomsten)"
+      rol_in_cases: "case voor L1+L6 (omzetting Boek 14 naar maatschap met kinderen, opvolgings-/familievermogensbeheer)"
+
+    - naam: "Bouwprojecten Zuid BV"
+      rechtsvorm: BV
+      oprichting: "2022 (Marc als groei-zet, lokale markt Henegouwen)"
+      kapitaal_oorspronkelijk: "50.000 EUR volgestorte inbreng — bewust hoger gehouden om wal kredietwaardigheid te ondersteunen bij oprichting in een nieuwe regio"
+      aandeelhouder: "Verhaeren Holding NV — 100%"
+      bestuur: "enige zaakvoerder Marc Verhaeren (operationeel daggebeur door Sigrid Vermeire, projectleider — geen bestuurder)"
+      activiteit: "kleine bouwprojecten Henegouwen — markt bleek minder ontvankelijk dan verwacht"
+      omzet_evolutie:
+        - jaar: 2022
+          omzet: "120.000 EUR"
+          resultaat: "− 10.000 EUR"
+        - jaar: 2023
+          omzet: "150.000 EUR"
+          resultaat: "− 8.000 EUR"
+        - jaar: 2024
+          omzet: "200.000 EUR"
+          resultaat: "− 12.000 EUR"
+        - jaar: 2025
+          omzet: "180.000 EUR (afnemend)"
+          resultaat: "− 32.000 EUR"
+      eigen_vermogen_evolutie:
+        - datum: "31-12-2021 (na oprichting)"
+          eigen_vermogen: "50.000 EUR"
+        - datum: "31-12-2022"
+          eigen_vermogen: "40.000 EUR"
+        - datum: "31-12-2023"
+          eigen_vermogen: "32.000 EUR"
+        - datum: "31-12-2024"
+          eigen_vermogen: "20.000 EUR"
+        - datum: "31-12-2025"
+          eigen_vermogen: "− 12.000 EUR (NEGATIEF — alarmbel-trigger)"
+      cumulatief_verlies_2022_2025: "62.000 EUR (10 + 8 + 12 + 32) op inbreng 50.000 EUR"
+      liquiditeit_prognose_2026: "kasstroom-prognose toont een 12-maand-tekort van 45.000 EUR zonder herfinanciering; vermoedelijk niet in staat aan opeisbare schulden te voldoen → ook liquiditeitstest 5:153 §2 in het gedrang"
+      rol_in_cases: "case voor L3 (alarmbel art. 5:153 — netto-actief negatief 2025-12-31, bijeenroeping AV binnen 2 maand) + L5 (escalatie naar gerechtelijke reorganisatie + eventueel faillissement) + L6 (bestuurdersaansprakelijkheid art. 2:56 indien alarmbel niet tijdig)"
+
+# ---------------------------------------------------------------------------
+# DEEL C — Anker-verrichtingen (zes ankers door de zes leerstukken)
+# ---------------------------------------------------------------------------
+
+case_scenarios:
+
+  - id: alarmbel-bouwprojecten-zuid-2026-01
+    naam: "Alarmbel Bouwprojecten Zuid — januari 2026"
+    leerstuk_primair: "kapitaalbescherming-uitkeringen-en-alarmbel (L3) — KERN"
+    leerstuk_secundair: "bijzondere-mandaten-van-de-accountant (L6 — advies-rol accountant)"
+    feiten: >
+      Bij voorbereiding van de jaarrekening 2025 van Bouwprojecten Zuid
+      BV stelt de accountant op 15 januari 2026 vast dat het eigen
+      vermogen op 31-12-2025 NEGATIEF is (− 12.000 EUR) — gevolg van
+      het verlies 2025 (−32.000) op een einde-2024-saldo van 20.000.
+      Daarnaast toont een eerste kasstroom-projectie 2026 een
+      12-maand-tekort van 45.000 EUR zonder herfinanciering.
+    juridische_kwalificatie: >
+      Toepassing alarmbelprocedure BV art. 5:153 WVV:
+      (a) § 1 — netto-actief is geworden (niet alleen "dreigt") negatief;
+      (b) § 2 — ook de liquiditeitstest (kunnen we 12 maanden onze
+      opeisbare schulden voldoen?) lijkt niet meer voldaan.
+      Beide triggers verplichten het bestuursorgaan om de algemene
+      vergadering bijeen te roepen BINNEN MAXIMUM TWEE MAANDEN nadat
+      de toestand werd vastgesteld (of had moeten worden vastgesteld) —
+      uiterste datum bijeenroeping AV: 15 maart 2026.
+    verplichte_stappen:
+      - "Bestuursorgaan stelt vast (notuleert) — 15 januari 2026"
+      - "Bestuursorgaan stelt bijzonder verslag op met de maatregelen om continuïteit te vrijwaren — of stelt ontbinding voor"
+      - "AV bijeenroepen uiterlijk 15 maart 2026 (2 maand)"
+      - "AV beraadslaagt + beslist over maatregelen of ontbinding"
+    valkuilen:
+      - "Alarmbel ≠ kapitaalverlies. Onder oude BVBA-regeling: kapitaalverlies-drempel 50% en 25%. Onder WVV BV: GEEN drempel meer — gewoon 'negatief of dreigend negatief' netto-actief OF liquiditeitstest faalt. Examen-instinker uit oude examens 2014-2015."
+      - "Sanctie bij niet-bijeenroeping (art. 2:56 + IBA Strelia-rechtspraak): vermoeden dat schade door derden geleden is veroorzaakt door de niet-bijeenroeping — weerlegbaar maar bestuurder draagt bewijslast."
+    accountant_rol: "Geen wettelijk verslag in BV-alarmbel (geen commissaris — alleen vereist als die er is). Wel adviseur-rol: redactie bijzonder verslag bestuur ondersteunen, herstelmaatregelen helpen kwantificeren, eventueel proefbalansen herwerken om netto-actief actueel in te schatten."
+
+  - id: inbreng-natura-terrein-verhaeren-bouw-2026-03
+    naam: "Inbreng in natura van een terrein in Verhaeren Bouw — maart 2026"
+    leerstuk_primair: "kapitaalbescherming-uitkeringen-en-alarmbel (L3 — sectie inbreng in natura)"
+    leerstuk_secundair: "bijzondere-mandaten-van-de-accountant (L6 — KERN, modelverslag inbreng natura)"
+    feiten: >
+      Marc Verhaeren bezit privé een bouwgrond in Lokeren (verworven via
+      erfenis 2010) met geschatte verkoopwaarde 300.000 EUR. Hij wil
+      deze grond inbrengen in Verhaeren Bouw BV als kapitaalverhoging
+      (i.p.v. verkopen aan de vennootschap — dat zou andere fiscale
+      gevolgen hebben). In ruil ontvangt Verhaeren Holding NV (de
+      enige aandeelhouder) bijkomende aandelen van Verhaeren Bouw voor
+      300.000 EUR fractiewaarde.
+    juridische_kwalificatie: >
+      Toepassing inbreng in natura BV art. 5:7 WVV (verwijzend naar
+      kapitaalverhoging 5:133 e.v.):
+      (a) oprichters/bestuur stellen BIJZONDER VERSLAG op met motivatie
+      van het belang voor de vennootschap + beschrijving + gemotiveerde
+      waardering + verstrekte vergoeding (= aantal nieuwe aandelen);
+      (b) een door het bestuur aangewezen BEDRIJFSREVISOR maakt een
+      verslag op over de waardering en de waarderingsmethodes; verklaart
+      of waardering ten minste gelijk is aan de tegenprestatie en of
+      waardering + vergoeding REDELIJK zijn.
+    verplichte_stappen:
+      - "Marc + Verhaeren Holding (eigenaar van de aandelen) onderhandelen waardering — onafhankelijke schatting laten opmaken"
+      - "Bestuursorgaan Verhaeren Bouw stelt bijzonder verslag op"
+      - "Bedrijfsrevisor aangewezen — opdracht + onafhankelijkheidsverklaring"
+      - "Bedrijfsrevisor doet werkzaamheden (waarderingsmethodes valideren, kadastrale info checken, eventuele lasten op grond)"
+      - "Bedrijfsrevisorenverslag uitgebracht"
+      - "AV beslist over kapitaalverhoging op basis van beide verslagen + statutenwijziging via notaris"
+    valkuilen:
+      - "BV ≠ NV op quasi-inbreng: quasi-inbreng (art. 7:8 — verkrijging tegen min. 10% kapitaal door insider binnen 2 jaar na oprichting) bestaat ALLEEN in de NV — niet in BV (kapitaalloos). In BV: gewone inbreng-in-natura-regels gelden ook bij verkrijging insider, geen aparte quasi-inbreng-procedure."
+      - "Accountant ≠ bedrijfsrevisor: in BV/NV mag de externe accountant het verslag NIET maken; ALLEEN een (aangewezen) bedrijfsrevisor (art. 5:7 / 7:7 §1). De accountant kan wel de cliënt begeleiden en de waardering helpen voorbereiden."
+    accountant_rol: "Buiten het verslag-perspectief: client-advies over waardering, fiscale gevolgen (registratierechten op inbreng onroerend goed art. 115bis W.Reg. cross-PO 2.6), boekhoudkundige verwerking."
+
+  - id: aandeelhoudersovereenkomst-holding-2026
+    naam: "Aandeelhoudersovereenkomst Verhaeren Holding — 2026"
+    leerstuk_primair: "bestuur-algemene-vergadering-en-aandeelhouders (L2) — KERN, SHA-clausules"
+    leerstuk_secundair: "overdracht-overname-en-herstructurering (L4 — drag-along als overdracht-instrument)"
+    feiten: >
+      Marc + Sofie + Jeroen onderhandelen een aandeelhoudersovereenkomst
+      voor Verhaeren Holding NV. Trigger: Sofie wil zekerheid dat
+      Jeroens aandelen niet aan een externe partij worden verkocht
+      zonder haar voorkooprecht; Jeroen wil zekerheid dat als Marc
+      verkoopt aan een derde, hij meeverkoopt; Marc wil zekerheid dat
+      hij als grootaandeelhouder kan trekken aan een latere verkoop
+      (drag-along) zonder dat een kind dwarsligt.
+    clausules_in_onderhandeling:
+      - "Voorkooprecht (right of first refusal) — onderling tussen aandeelhouders bij overdracht aan een externe partij"
+      - "Drag-along — Marc kan bij voorgenomen verkoop aan derde (≥80% van het aandelenkapitaal) de kinderen verplichten mee te verkopen tegen dezelfde prijs en condities"
+      - "Tag-along — kinderen kunnen meeverkopen indien Marc verkoopt aan derde, tegen dezelfde prijs en condities"
+      - "Lock-up — Sofie en Jeroen mogen 5 jaar lang geen aandelen vervreemden (familiale opvolgings-stabiliteit)"
+      - "Board-vertegenwoordiging (na 2027): RvB van 4 zetels — Marc 2 zetels (zolang ≥50% aandeelhouder), Sofie 1 zetel, Jeroen 1 zetel"
+      - "Belangenconflict (Marc als zaakvoerder Vastgoed BV bij verhuur aan Bouw BV) — voortaan vooraf melden + onthouden bij stemming + jaarverslag-vermelding"
+      - "Exit-mechanisme: bij blokkerend conflict tussen aandeelhouders die ≥6 maanden duurt → bindende derdenwaardering + verplichte aankoop door overgebleven aandeelhouders, ter vermijding gerechtelijke uittreding/uitsluiting"
+    valkuilen:
+      - "SHA ≠ statuten: een drag-along in SHA bindt alleen partijen (contractueel); voor effect tegenover derden of nieuwe aandeelhouders zou je het in de statuten moeten inschrijven (overdrachtsbeperkingen art. 5:63 BV / 7:46 NV — strikte vormvereisten)."
+      - "Belangenconflict-protocol Marc: art. 7:96 WVV (enige bestuurder NV) — bij belangenconflict moet de beslissing voorgelegd aan de AV (geen RvB om naar uit te wijken). In BV: art. 5:76 → analoog."
+    accountant_rol: "Geen wettelijk mandaat — wel adviseur bij modelclausules, bij waardering van belang voor drag-along/exit (third-party-valuation)."
+
+  - id: overname-verhaeren-bouw-2027
+    naam: "Overname Verhaeren Bouw aan Bouwer X NV — 2027 (share deal)"
+    leerstuk_primair: "overdracht-overname-en-herstructurering (L4) — KERN, SPA + DD"
+    leerstuk_secundair: "bestuur-algemene-vergadering-en-aandeelhouders (L2 — drag-along-clausule wordt actief)"
+    feiten: >
+      Externe groep Bouwer X NV biedt 4.200.000 EUR voor 100% van de
+      aandelen Verhaeren Bouw BV — share deal, te realiseren in
+      voorjaar 2027. Marc + Holding aanvaarden onderhandeling onder
+      voorwaarde van due diligence (DD). Verhaeren Holding NV is de
+      verkoper; opbrengst gaat naar de Holding-aandeelhouders via
+      latere dividend of liquidatie.
+    spa_clausules_centraal:
+      - "Koopprijs: 4.200.000 EUR, waarvan 3.500.000 EUR cash bij closing + 700.000 EUR earn-out gekoppeld aan EBITDA-prestaties 2027-2028 (locked-box-mechanisme — referentiedatum 31-12-2026)"
+      - "R&W (Representations & Warranties) — verklaringen en waarborgen: juiste jaarrekeningen 2023-2025, geen verborgen schulden, fiscaal in orde, geen lopende geschillen >50k, milieu-compliance bouwactiviteit, ex-BVBA-overgang correct uitgevoerd (geen statutaire onbeschikbare-inbreng-issue), geen werknemersgeschillen"
+      - "Vrijwaring (indemnity) — koper kan vergoeding eisen voor inbreuken op R&W of voor specifieke geïdentificeerde risico's (bv. lopend dispuut met onderaannemer)"
+      - "Cap = 30% koopprijs (1.260.000 EUR) — maximumvergoeding tegen R&W"
+      - "Basket (de minimis + threshold) — claims < 10.000 EUR per ticket niet meegeteld; aggregate threshold 50.000 EUR alvorens cap-claim mogelijk"
+      - "Escrow — 10% koopprijs (420.000 EUR) op derdenrekening gedurende 18 maanden voor R&W-claims"
+      - "Niet-concurrentiebeding Marc — 5 jaar, geografisch heel België, gericht op woningbouw + renovatie middensegment, vergoed met 200.000 EUR"
+      - "Closing-condities: opheffing statutaire onbeschikbare inbreng (statutenwijziging), accountantsverklaring continuïteit, due diligence-afronding zonder material adverse change"
+    due_diligence_kritisch:
+      - "Fiscaal: VenB-aangiften AJ 2023-2025 + eventuele lopende controles + RV-correcties dividend Holding"
+      - "Juridisch: BVBA→BV-overgang correct? Statutaire onbeschikbare inbreng 18.550 EUR juist opgenomen in eigen-vermogensrubriek?"
+      - "Sociaal: 14 werknemers — CAO-naleving, sectorbarema bouwsector, hoofdelijke aansprakelijkheid art. 30bis WIB92 ⚠️ te verifiëren (onderaannemers)"
+      - "Operationeel: lopende werven + werkkapitaal + reserveringen voor garantie-werken"
+    valkuilen:
+      - "Share deal ≠ asset deal: bij share deal verkoopt de aandeelhouder zijn aandelen (Holding verkoopt). De koper neemt de hele vennootschap over INCL. historische schulden + risico's → DD belangrijker, R&W zwaarder. Bij asset deal koopt de koper geselecteerde activa/passiva; lagere R&W-zwaarte maar meer registratie- en BTW-implicaties + (mogelijk) hoofdelijke aansprakelijkheid art. 442bis WIB92 voor fiscale schulden van overdrager."
+      - "Familiale-opvolgings-gunstregime (cross-PO 2.6 + 2.3): bij share deal aan derde NIET van toepassing (geen schenking/erfenis). Wel relevant bij latere overdracht aan kinderen."
+    accountant_rol: "Geen wettelijk mandaat in share deal as such — wel attest aan derden (PO 3.0 taak 3.0.3 doel 3) zoals werkkapitaalverklaring, normalised EBITDA-rapport, vendor-due-diligence-rapport."
+
+  - id: gerechtelijke-reorganisatie-bouwprojecten-zuid-2026-06
+    naam: "Gerechtelijke reorganisatie Bouwprojecten Zuid — juni 2026"
+    leerstuk_primair: "ontbinding-vereffening-en-insolventie (L5) — KERN"
+    leerstuk_secundair: "bijzondere-mandaten-van-de-accountant (L6 — vroege-detectie + advies-rol)"
+    feiten: >
+      Na de alarmbel-AV van 15 maart 2026 stemt de AV (Holding = enige
+      aandeelhouder) in met een herstelplan: kapitaalinjectie 80.000 EUR
+      door Holding + heronderhandeling kredietlijn + reorganisatie
+      personeel. Tegen juni 2026 blijkt het herstelplan onuitvoerbaar:
+      twee grote klanten hebben hun project gestopt, de kredietlijn
+      werd niet verlengd. Het bestuur — geadviseerd door de accountant
+      — beoordeelt de duurzaamheid van de continuïteit als ernstig
+      bedreigd. Beslissing 15 juni 2026: indiening verzoekschrift
+      gerechtelijke reorganisatie (GR) bij de ondernemingsrechtbank.
+    procedure_keuze:
+      - "Modaliteit 1 — Minnelijk akkoord (XX.65 e.v. of besloten XX.83/29): proberen akkoord met top-2 schuldeisers (bank + grote leverancier). Geschikt indien beperkt aantal schuldeisers."
+      - "Modaliteit 2 — Collectief akkoord (XX.67 e.v.): reorganisatieplan voorleggen aan alle schuldeisers, stemmingsdrempel (meerderheid in waarde + aantal). Geschikt voor brede crediteurensituatie."
+      - "Modaliteit 3 — Overdracht onder gerechtelijk gezag (XX.84 e.v.): verkoop van (delen van) onderneming als going-concern; verlies van rechtspersoon mogelijk."
+    gekozen_route: "Bouwprojecten Zuid kiest voor MODALITEIT 2 — collectief akkoord — gezien een tiental schuldeisers. Reorganisatieplan voorziet 60% kwijting van handelsschulden + nieuwe afbetalingsplanning over 24 maanden + behoud personeel."
+    bestuurdersaansprakelijkheid_aspect: >
+      Indien latere faillissement: art. 2:56 cap geldt; maar bij
+      kennelijk grove fout die bijgedragen heeft tot faillissement
+      (bv. te laat alarmbel of misleidende cijfers in GR-verzoek) →
+      uitbreiding van aansprakelijkheid (art. XX.227 WER — gewezen
+      art. 530 §1 W.Venn. → wrongful trading). Marc als enig
+      bestuurder draagt verhoogd risico — accountant moet alarmbel-
+      compliance schriftelijk documenteren ter ondersteuning van zijn
+      verdediging.
+    escalatie_naar_faillissement: >
+      Indien collectief akkoord niet gestemd of niet uitgevoerd:
+      ambtshalve faillietverklaring door de rechtbank mogelijk. Marc
+      als bestuurder is dan verplicht aangifte te doen binnen 1 maand
+      na vaststelling 'ophouden te betalen' (art. XX.102 WER). Geen
+      aangifte = strafrechtelijk + civielrechtelijk aansprakelijk.
+    accountant_rol_in_GR:
+      - "Vóór GR: vroege detectie + advies aan bestuur over knipperlichten (cross-PO 1.3 going concern). Mogelijk OPDRACHT van de ondernemingsrechtbank (kamer voor ondernemingen in moeilijkheden) tot bijzondere verslagopmaak."
+      - "Bij GR-aanvraag: accountant kan het bestuur bijstaan bij opstelling van het reorganisatieplan + cijfermatige onderbouwing + kasstroom-prognose. Geen wettelijk mandaat — adviseur-rol."
+      - "Tijdens GR: mogelijk aangewezen als HERSTRUCTURERINGSDESKUNDIGE door de rechtbank (XX.39 WER) — wettelijke functie sinds Boek-XX-hervorming 2023."
+      - "Bij faillissement: niet als curator (dat is voor advocaten); wel mogelijk als boekhoudkundig deskundige om curator bij te staan."
+
+  - id: omzetting-vastgoed-naar-maatschap-2026
+    naam: "Omzetting Verhaeren Vastgoed BV → maatschap met kinderen — 2026 H2"
+    leerstuk_primair: "vennootschapsvorm-kiezen-en-oprichten (L1) — sectie alternatieve rechtsvormen"
+    leerstuk_secundair: "bijzondere-mandaten-van-de-accountant (L6 — KERN, modelverslag omzetting Boek 14)"
+    feiten: >
+      Marc overweegt het vastgoed-luik van de groep buiten de
+      vennootschapsstructuur te halen voor opvolgings-/familievermogens-
+      beheer. Voorstel: omzetting Verhaeren Vastgoed BV (kapitaalloos
+      BV) naar MAATSCHAP. Maten worden Marc + Linda + Sofie + Jeroen.
+      Doel: vastgoed door schenking met voorbehoud van vruchtgebruik
+      naar kinderen, familiaal beheer, eventueel gunstregime familiale
+      onderneming (cross-PO 2.6).
+    juridische_kwalificatie: >
+      Toepassing Boek 14 WVV omzetting van rechtsvorm:
+      (a) art. 14:3 — vennootschap mag omgezet worden mits behoud
+      rechtspersoonlijkheid (NB: maatschap heeft GEEN rechtspersoonlijkheid
+      → bij omzetting BV → maatschap verdwijnt de rechtspersoonlijkheid;
+      Boek 14 bevat hier de procedure);
+      (b) art. 14:5 — bestuursorgaan stelt omzettingsverslag op, met
+      staat van activa en passiva gevoegd (niet ouder dan 3 maanden);
+      (c) BEDRIJFSREVISOR of accountant aangewezen door het bestuur
+      brengt verslag uit over de staat van activa en passiva — vermeldt
+      in het bijzonder enige overwaardering van het netto-actief;
+      (d) AV beslist via notariële akte met versterkte meerderheid.
+    verschil_met_wvv_overgang: >
+      Examen-instinker: dit Boek-14-traject is heel ANDERS dan de
+      automatische BVBA→BV-overgang per 2020. Die overgang gebeurde
+      VAN RECHTSWEGE — geen verslag, geen accountant, geen AV-besluit,
+      enkel het oude BVBA-kapitaal werd omgevormd tot statutair
+      onbeschikbare inbreng. Boek 14 is een vrijwillige omzetting met
+      vol procedure-pakket.
+    accountant_rol: "Wettelijk mandaat ART. 14:5 / 14:8 — opmaak verslag over staat van activa en passiva. Werkprogramma: actualiteit staat (max 3 mnd oud), waardering activa/passiva geverifieerd, overwaardering netto-actief expliciet uitgesproken, onafhankelijkheidsverklaring. Modelverslag — zie L6 sectie 'omzetting van rechtsvorm'. Kan worden uitgevoerd door externe ACCOUNTANT of bedrijfsrevisor (Boek 14 = beide bevoegd, anders dan inbreng natura waar enkel revisor)."
+
+# ---------------------------------------------------------------------------
+# DEEL D — Mermaid-diagrammen
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  groepsstructuur:
+    type: flowchart-td
+    code: |
+      A[Verhaeren Holding NV<br/>kapitaal 100k · EV 850k<br/>Marc 60% · Sofie 20% · Jeroen 20%]
+      B[Verhaeren Bouw BV<br/>ex-BVBA 2015 - WVV-overgang 2020<br/>statutair onbeschikbare inbreng 18.550<br/>EV 1,1M · omzet 3,2M]
+      C[Verhaeren Vastgoed BV<br/>2018 · kapitaalloos<br/>EV 1,8M · bedrijfspatrimonium 2,2M]
+      D[Bouwprojecten Zuid BV<br/>2022 · inbreng 50k<br/>EV einde 2025 = -12k<br/>ALARMBEL]
+      A -->|100%| B
+      A -->|100%| C
+      A -->|100%| D
+
+  levensloop_anchors:
+    type: timeline
+    code: |
+      title Levensloop Verhaeren-groep — anchors over de 6 leerstukken
+      2015 : Oprichting BVBA Verhaeren Bouw (kapitaal 18.550)
+      2018 : Oprichting Verhaeren Holding NV + Verhaeren Vastgoed BV
+      2020 : Automatische omvorming BVBA → BV (WVV-overgangsbepalingen)
+      2022 : Oprichting Bouwprojecten Zuid BV (inbreng 50k)
+      2025 : Bouwprojecten Zuid eigen vermogen negatief (-12k)
+      2026-01 : Alarmbel-vaststelling Bouwprojecten Zuid (L3)
+      2026-03 : Inbreng natura terrein Marc in Verhaeren Bouw (L3 + L6)
+      2026-Q2 : SHA-onderhandeling Holding (L2)
+      2026-06 : Gerechtelijke reorganisatie Bouwprojecten Zuid (L5)
+      2026-H2 : Omzetting Vastgoed BV naar maatschap (L1 + L6)
+      2027 : Share deal Verhaeren Bouw aan Bouwer X NV (L4)
+
+  alarmbel_bv_flowchart:
+    type: flowchart-td
+    code: |
+      A[Bestuursorgaan stelt vast OF<br/>had moeten vaststellen:<br/>· netto-actief negatief of dreigt negatief<br/>· OF liquiditeitstest 12 mnd faalt]
+      A --> B[Vaststellingsdatum notuleren<br/>Klok start: 2 maanden]
+      B --> C{Bestuur stelt voor:}
+      C -->|continuïteit vrijwaren| D[Bijzonder verslag met<br/>herstel-maatregelen]
+      C -->|ontbinding| E[Voorstel ontbinding<br/>art. 5:135 WVV]
+      D --> F[AV bijeenroepen<br/>binnen 2 mnd<br/>art. 5:153 WVV]
+      E --> F
+      F --> G{AV beslist}
+      G -->|herstelmaatregelen| H[Uitvoeren + opvolgen]
+      G -->|ontbinding| I[Naar Boek 2 ontbindings-<br/>en vereffeningstraject]
+      H --> J{Verbetering?}
+      J -->|ja| K[Continuïteit OK]
+      J -->|nee — escalatie| L[Gerechtelijke reorganisatie<br/>WER Boek XX]
+      L --> M{GR-uitkomst?}
+      M -->|akkoord uitgevoerd| K
+      M -->|mislukt| N[Faillissement<br/>art. XX.102 aangifteplicht 1 mnd]
+
+  insolventie_gradatie:
+    type: flowchart-lr
+    code: |
+      A[Knipperlicht<br/>continuïteits-signaal]
+      B[Kamer voor ondernemingen<br/>in moeilijkheden<br/>art. XX.21 WER · ambtshalve]
+      C[Ondernemingsbemiddelaar<br/>art. XX.36 WER · vertrouwelijk]
+      D[Gerechtelijke reorganisatie<br/>art. XX.39 WER]
+      E[Faillissement<br/>art. XX.99 e.v. WER<br/>aangifte binnen 1 mnd]
+      A --> B
+      B --> C
+      C --> D
+      D --> E
+      A -.-> D
+      D -.-> A
+
+  gr_drie_modaliteiten:
+    type: flowchart-td
+    code: |
+      A[GR-verzoek<br/>art. XX.39 WER]
+      A --> B{Modaliteit?}
+      B -->|enkele schuldeisers<br/>vertrouwelijk| C[Minnelijk akkoord<br/>art. XX.65 of XX.83/29<br/>besloten of openbaar]
+      B -->|brede crediteurenbasis| D[Collectief akkoord<br/>art. XX.67-XX.83<br/>stemming meerderheid + waarde]
+      B -->|onderneming als going concern<br/>verkoop noodzakelijk| E[Overdracht onder<br/>gerechtelijk gezag<br/>art. XX.84-XX.99]
+      C --> F[Homologatie rechtbank]
+      D --> G[Homologatie reorganisatieplan]
+      E --> H[Overdracht door<br/>gerechtsmandataris]
+      F --> I[Continuïteit hersteld]
+      G --> I
+      H --> J[Rechtspersoonsverlies<br/>mogelijk]
+
+  spa_structuur:
+    type: flowchart-td
+    code: |
+      A[Intentieverklaring<br/>LOI · NDA · exclusiviteit]
+      A --> B[Due diligence<br/>fiscaal · juridisch · sociaal · ESG]
+      B --> C{Resultaat DD?}
+      C -->|kleine issues| D[Aanpassing prijs<br/>of specifieke vrijwaring]
+      C -->|deal-breaker| E[Onderhandeling stopt]
+      D --> F[SPA-onderhandeling]
+      F --> G[Closing-condities<br/>· statutenwijziging<br/>· accountantsverklaringen<br/>· geen MAC]
+      G --> H[Closing<br/>betaling + aandelenoverdracht]
+      H --> I[Post-closing<br/>· R&W-periode 18-24 mnd<br/>· escrow · earn-out]
+
+  bijzondere_mandaten_overzicht:
+    type: flowchart-td
+    code: |
+      A[Verrichting in vennootschap zonder commissaris]
+      A --> B{Welke verrichting?}
+      B -->|inbreng in natura BV/NV| C[Bedrijfsrevisor<br/>art. 5:7 / 7:7]
+      B -->|kapitaalverhoging in natura| D[Bedrijfsrevisor<br/>art. 5:133 / 7:197]
+      B -->|quasi-inbreng NV alleen| E[Bedrijfsrevisor<br/>art. 7:8]
+      B -->|interimdividend NV| F[Commissaris OF<br/>bedrijfsrevisor<br/>art. 7:213]
+      B -->|inkoop eigen aandelen| G[Commissaris OF<br/>bedrijfsrevisor]
+      B -->|omzetting rechtsvorm| H[Accountant OF<br/>bedrijfsrevisor<br/>art. 14:5/14:8]
+      B -->|fusie/splitsing — ruilverhouding| I[Commissaris OF<br/>bedrijfsrevisor]
+      B -->|ontbinding/vereffening — staat A&P| J[Accountant OF<br/>bedrijfsrevisor<br/>art. 2:71]
+
+# ---------------------------------------------------------------------------
+# DEEL E — Vergelijkingsmatrix rechtsvormen (kern voor L1)
+# ---------------------------------------------------------------------------
+
+vergelijkingsmatrix_rechtsvormen:
+
+  toelichting: "Visueel-dominant in L1. Slechts bedragen die WETTEKST zijn (geen indexering): NV-minimumkapitaal 61.500 EUR (WVV art. 7:2)."
+
+  kolommen: ["Vorm", "Rechtspersoon?", "Aansprakelijkheid aandeelhouder/vennoot", "Minimumkapitaal", "Bestuur", "Overdracht aandelen", "Jaarrekening-publicatie"]
+
+  rijen:
+    - vorm: "**BV** (Besloten Vennootschap)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "Beperkt tot inbreng"
+      minimumkapitaal: "Geen — vereiste 'toereikend aanvangsvermogen' + financieel plan (art. 5:4)"
+      bestuur: "Een of meer zaakvoerders (= bestuurders)"
+      overdracht: "BESLOTEN karakter — overdracht beperkt door statuten (art. 5:63)"
+      publicatie: "Ja — bij KBO"
+
+    - vorm: "**NV** (Naamloze Vennootschap)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "Beperkt tot inbreng"
+      minimumkapitaal: "61.500 EUR (volledig geplaatst + volstort) — art. 7:2 WVV"
+      bestuur: "Enige bestuurder OF collegiale RvB (≥3) OF duaal bestuur"
+      overdracht: "VRIJ — tenzij beperkingen in statuten of SHA"
+      publicatie: "Ja"
+
+    - vorm: "**CV** (Coöperatieve Vennootschap)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "Beperkt"
+      minimumkapitaal: "Geen + financieel plan"
+      bestuur: "Bestuursorgaan"
+      overdracht: "Vrije in- en uittreding eigen aan CV-karakter (coöperatief opzet)"
+      publicatie: "Ja"
+
+    - vorm: "**Maatschap**"
+      rechtspersoon: "**Nee** — geen rechtspersoonlijkheid"
+      aansprakelijkheid: "ONBEPERKT + HOOFDELIJK voor alle maten"
+      minimumkapitaal: "Geen"
+      bestuur: "Door de maten gezamenlijk of door aangewezen zaakvoerder"
+      overdracht: "Bij overeenkomst — maatschap is intuitu personae"
+      publicatie: "Geen jaarrekening-publicatie verplicht (private contractuele constructie)"
+
+    - vorm: "**VOF** (Vennootschap onder firma)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "ONBEPERKT + HOOFDELIJK voor alle vennoten"
+      minimumkapitaal: "Geen"
+      bestuur: "Door de vennoten of aangewezen zaakvoerder"
+      overdracht: "Beperkt — intuitu personae"
+      publicatie: "Ja"
+
+    - vorm: "**CommV** (Commanditaire Vennootschap)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "Beherende vennoot ONBEPERKT + HOOFDELIJK; stille vennoten BEPERKT tot inbreng"
+      minimumkapitaal: "Geen"
+      bestuur: "Door beherende vennoot/vennoten — stille vennoten zonder bestuursbevoegdheid"
+      overdracht: "Beperkt"
+      publicatie: "Ja"
+
+    - vorm: "**VZW** (Vereniging zonder winstoogmerk)"
+      rechtspersoon: "Ja"
+      aansprakelijkheid: "Leden NIET aansprakelijk; bestuurders mogelijk bij fout"
+      minimumkapitaal: "Geen"
+      bestuur: "Raad van bestuur (≥3 personen, tenzij 2 leden, dan ≥2)"
+      overdracht: "n.v.t. — geen aandelen"
+      publicatie: "Ja"
+
+# ---------------------------------------------------------------------------
+# DEEL F — Tabel bijzondere mandaten (kern voor L6)
+# ---------------------------------------------------------------------------
+
+bijzondere_mandaten_tabel:
+
+  toelichting: "Welke verrichting triggert welk wettelijk verslag? Wie is bevoegd? Centrale visualisatie in L6."
+
+  kolommen: ["Verrichting", "WVV-artikel", "Wie is bevoegd?", "Type verslag", "Kernuitspraak in verslag"]
+
+  rijen:
+    - verrichting: "Inbreng in natura — BV oprichting"
+      wvv: "art. 5:7"
+      bevoegd: "Bedrijfsrevisor aangewezen door oprichters"
+      type: "Verslag over waardering inbreng"
+      kern: "Waardering ≥ tegenprestatie; waardering + vergoeding redelijk?"
+
+    - verrichting: "Inbreng in natura — NV oprichting"
+      wvv: "art. 7:7"
+      bevoegd: "Bedrijfsrevisor aangewezen door oprichters"
+      type: "Verslag over waardering inbreng"
+      kern: "Idem — met nominale of fractiewaarde-toetsing aandelen"
+
+    - verrichting: "Kapitaalverhoging in natura — BV"
+      wvv: "art. 5:133 (verwijst naar 5:7)"
+      bevoegd: "Bedrijfsrevisor aangewezen door bestuursorgaan"
+      type: "Verslag over waardering"
+      kern: "Idem als bij oprichting"
+
+    - verrichting: "Kapitaalverhoging in natura — NV"
+      wvv: "art. 7:197 (verwijst naar 7:7)"
+      bevoegd: "Bedrijfsrevisor"
+      type: "Verslag over waardering"
+      kern: "Idem"
+
+    - verrichting: "Quasi-inbreng (alleen NV)"
+      wvv: "art. 7:8"
+      bevoegd: "Commissaris OF bedrijfsrevisor"
+      type: "Verslag over voorgenomen verkrijging tegen ≥ 10% kapitaal binnen 2 jaar"
+      kern: "Waarderings-toetsing + redelijkheid"
+
+    - verrichting: "Interimdividend NV"
+      wvv: "art. 7:213"
+      bevoegd: "Commissaris (indien aanwezig) OF bedrijfsrevisor"
+      type: "Verslag over tussentijdse staat A&P en winstdistributie"
+      kern: "Voldoende uitkeerbare winst + nettoactief-test gerespecteerd"
+
+    - verrichting: "Beperking voorkeurrecht — NV"
+      wvv: "art. 7:191"
+      bevoegd: "Commissaris OF bedrijfsrevisor"
+      type: "Verslag over uitgifteprijs + beperking"
+      kern: "Uitgifteprijs gemotiveerd, beperking voorkeurrecht verantwoord"
+
+    - verrichting: "Inkoop eigen aandelen"
+      wvv: "art. 5:147 BV / 7:215 NV"
+      bevoegd: "Commissaris (indien aanwezig); anders geen bijzonder externe verslag verplicht — wel AV-besluit"
+      type: "Toetsing uitkeringstest"
+      kern: "Behoort tot de uitkeringen — onderworpen aan 5:142/5:143 BV of 7:212 NV"
+
+    - verrichting: "Omzetting van rechtsvorm — Boek 14"
+      wvv: "art. 14:5 + 14:8"
+      bevoegd: "Bedrijfsrevisor OF externe accountant aangewezen door bestuursorgaan"
+      type: "Verslag over staat van activa en passiva (max 3 mnd oud)"
+      kern: "Overwaardering netto-actief expliciet melden indien aanwezig"
+
+    - verrichting: "Fusie · splitsing — ruilverhouding"
+      wvv: "art. 12:25 fusie · 12:64 splitsing"
+      bevoegd: "Commissaris OF bedrijfsrevisor"
+      type: "Verslag over ruilverhouding (per fuserende vennootschap)"
+      kern: "Methoden van bepaling ruilverhouding + redelijkheid + relatieve belang van elke methode"
+
+    - verrichting: "Inbreng bedrijfstak of algemeenheid"
+      wvv: "art. 12:103 e.v."
+      bevoegd: "Commissaris OF bedrijfsrevisor"
+      type: "Verslag over inbreng + waardering"
+      kern: "Continuïteits-overdracht boekhoudkundig + waardering activa/passiva"
+
+    - verrichting: "Ontbinding-en-vereffening in één akte"
+      wvv: "art. 2:80 + 2:91"
+      bevoegd: "Commissaris (indien aanwezig) OF bedrijfsrevisor OF externe accountant"
+      type: "Verslag over staat van activa en passiva (max 3 mnd) + betaling/consignatie schulden"
+      kern: "Alle schulden voldaan of geconsigneerd; netto-actief klopt"
+
+    - verrichting: "Vereffenaarsmandaat"
+      wvv: "art. 2:79 e.v."
+      bevoegd: "Accountant of revisor kan worden aangesteld als vereffenaar"
+      type: "Bevestiging vereffenaar — niet als verslag-mandaat maar als opdracht-mandaat"
+      kern: "Voert vereffening uit volgens Boek 2"
+
+# ---------------------------------------------------------------------------
+# DEEL G — RV-tarieven dividend (verwijzing — geen hardcoding)
+# ---------------------------------------------------------------------------
+
+rv_tarieven_dividend_verwijzing:
+
+  toelichting: >
+    Roerende voorheffing dividend is een belangrijke fiscale rand bij
+    elke uitkering (interimdividend, liquidatie, kapitaalvermindering).
+    GEEN hardcoded tarieven — verwijs naar Cijferzakboekje (MCP
+    `certificaid-tarieven`) of cross-PO 2.3.
+
+  regimes_genoemd_maar_niet_uitgewerkt:
+    - "Standaard-tarief dividend: zie Cijferzakboekje rubriek roerende voorheffing"
+    - "VVPRbis-regime (verlaagd RV-tarief voor KMO's na driejaarstermijn): zie Cijferzakboekje + WIB92 art. 269 §2"
+    - "Liquidatiereserve (uitkering na 5 jaar wachttijd aan verlaagd tarief): zie WIB92 art. 184quater + Cijferzakboekje"
+    - "DBI-vrijstelling (Holding ontvangt dividend van dochter — geen RV): cross-PO 2.3 VenB"
+
+# ---------------------------------------------------------------------------
+# DEEL H — Tijdlijn alarmbel/insolventie-eskalatie (chronologische case voor L5)
+# ---------------------------------------------------------------------------
+
+tijdlijn_bouwprojecten_zuid:
+
+  - datum: "15-01-2026"
+    gebeurtenis: "Accountant stelt vast: eigen vermogen 31-12-2025 = − 12.000 EUR. Tegelijk: kasstroom-prognose 2026 toont 12-mnd-tekort van 45.000 EUR."
+    juridisch: "Alarmbel-trigger BV art. 5:153 §1 + §2. Klok start 2 maanden."
+
+  - datum: "15-02-2026"
+    gebeurtenis: "Bestuur stelt bijzonder verslag op (herstelmaatregelen + kapitaalinjectie 80.000 EUR door Holding voorgesteld)."
+    juridisch: "art. 5:153 alinea 2 — bijzonder verslag bij agenda AV gevoegd."
+
+  - datum: "10-03-2026"
+    gebeurtenis: "AV (Holding als enige aandeelhouder) bijeen — stemt in met herstelplan, herkapitalisatie van 80k via inbreng-in-cash."
+    juridisch: "Binnen 2-maanden-termijn (uiterlijk 15-03-2026)."
+
+  - datum: "30-04-2026"
+    gebeurtenis: "Twee grote klanten annuleren projecten — orderboek 2026 daalt met 35%."
+
+  - datum: "31-05-2026"
+    gebeurtenis: "Bank weigert verlenging kredietlijn. Liquiditeit ernstig bedreigd."
+
+  - datum: "15-06-2026"
+    gebeurtenis: "Bestuur — geadviseerd door accountant — neemt beslissing tot indiening verzoekschrift GR (collectief akkoord). Aanvraag bij ondernemingsrechtbank Henegouwen."
+    juridisch: "art. XX.39 WER. Opschorting van betalingen geldt vanaf datum vonnis dat opschorting opent (max 6 mnd, verlengbaar tot max 18 mnd)."
+
+  - datum: "30-06-2026"
+    gebeurtenis: "Rechtbank verklaart de procedure open. Gedelegeerd rechter aangesteld. Opschortingsperiode 4 maanden."
+    juridisch: "art. XX.45-XX.46 WER."
+
+  - datum: "31-10-2026"
+    gebeurtenis: "Reorganisatieplan voorgelegd aan schuldeisers — 60% kwijting handelsschulden + afbetalingsplan 24 mnd voor restant."
+    juridisch: "art. XX.71 WER (inhoud reorganisatieplan)."
+
+  - datum: "15-11-2026"
+    gebeurtenis: "Stemming schuldeisers — meerderheid in waarde + aantal bereikt. Rechtbank homologeert."
+    juridisch: "art. XX.78-XX.83 WER (stemming + homologatie)."
+
+  - datum: "01-12-2026"
+    gebeurtenis: "Uitvoering reorganisatieplan start. Boekhoudkundige verwerking van schuldkwijting (uitzonderlijk resultaat)."
+
+  - datum_open: "2027-..."
+    gebeurtenis: "Open einde: succesvolle uitvoering = continuïteit hersteld. Niet-uitvoering = ambtshalve faillietverklaring mogelijk."
+
+# ---------------------------------------------------------------------------
+# DEEL I — Boek-14-omzettingstraject (chronologische case voor L1 + L6)
+# ---------------------------------------------------------------------------
+
+tijdlijn_omzetting_vastgoed:
+
+  - datum: "01-09-2026"
+    gebeurtenis: "Marc + Sofie + Jeroen beslissen omzetting Vastgoed BV → maatschap te onderzoeken."
+
+  - datum: "15-10-2026"
+    gebeurtenis: "Bestuursorgaan stelt OMZETTINGSVERSLAG op (art. 14:5) — motivering + staat van activa en passiva max 3 maanden oud."
+
+  - datum: "20-10-2026"
+    gebeurtenis: "Accountant aangewezen (bevoegd voor Boek 14 — anders dan inbreng natura waar enkel revisor mag). Werkprogramma: actualiteit staat A&P, verificatie waarderingen, onderzoek mogelijke overwaardering netto-actief, onafhankelijkheidsverklaring."
+
+  - datum: "15-11-2026"
+    gebeurtenis: "Accountantsverslag uitgebracht — verklaart staat A&P getrouw + geen overwaardering netto-actief vastgesteld."
+
+  - datum: "01-12-2026"
+    gebeurtenis: "AV beslist via notariële akte over omzetting, met versterkte meerderheid (4/5e — analoog statutenwijziging)."
+
+  - datum: "15-12-2026"
+    gebeurtenis: "Maatschapscontract ondertekend door 4 maten (Marc, Linda, Sofie, Jeroen). Vastgoed-patrimonium overgedragen aan de maatschap onder algemene rechtsopvolging."
+
+# ---------------------------------------------------------------------------
+# DEEL J — Examenpatronen-fingerprint (welke voorbeeldexamen-vragen worden bediend door welke case-scenario)
+# ---------------------------------------------------------------------------
+
+examenpatronen_dekking:
+
+  - patroon: "Alarmbel-procedure + BVBA/BV-drempels"
+    dekt_door: "alarmbel-bouwprojecten-zuid-2026-01"
+    voorbeeldvragen: "2003-bibf vr14 · 2008-bibf vr3 · 2014-1 vr4 · 2024-1 vr1B"
+
+  - patroon: "Inbreng in natura — bedrijfsrevisor + waardering"
+    dekt_door: "inbreng-natura-terrein-verhaeren-bouw-2026-03"
+    voorbeeldvragen: "2010-2 vr2 · 2013-1 vr5 · 2015-1 vr12 · 2024-1 vr5"
+
+  - patroon: "Omzetting van rechtsvorm — accountantsverslag + actualiteit"
+    dekt_door: "omzetting-vastgoed-naar-maatschap-2026"
+    voorbeeldvragen: "2003-bibf vr12 · 2008-bibf vr9 · 2013-2 vr4 · 2015-1 vr8 · 2019-bibf vr3 · 2024-1 vr1A"
+
+  - patroon: "Vergelijking vennootschapsvormen (BV/NV/CV/maatschap/VOF/CommV/VZW)"
+    dekt_door: "verhaeren-bouwgroep-structuur + omzetting-vastgoed-naar-maatschap-2026"
+    voorbeeldvragen: "2003-bibf · 2008-bibf · 2014-1 · 2024-1"
+
+  - patroon: "Bestuurdersaansprakelijkheid in continuïteitscontext"
+    dekt_door: "alarmbel-bouwprojecten-zuid-2026-01 + gerechtelijke-reorganisatie-bouwprojecten-zuid-2026-06"
+    voorbeeldvragen: "2014-1 vr11 · 2024-1 vr8"
+
+  - patroon: "Gerechtelijk akkoord / Boek XX gerechtelijke reorganisatie"
+    dekt_door: "gerechtelijke-reorganisatie-bouwprojecten-zuid-2026-06"
+    voorbeeldvragen: "2010-2 (gerechtelijk akkoord) · 2024-1 vr10"
+
+  - patroon: "SPA-clausules + due diligence + share vs asset deal"
+    dekt_door: "overname-verhaeren-bouw-2027"
+    voorbeeldvragen: "2013-2 vr8 · 2024-1 vr7"
+
+  - patroon: "Aandeelhoudersovereenkomst — clausules + minderheidsrechten"
+    dekt_door: "aandeelhoudersovereenkomst-holding-2026"
+    voorbeeldvragen: "2014-1 vr9 · 2019-bibf vr5"
+
+  - patroon: "Ontbinding/vereffening — notariële akte vs onderhands + accountantsverslag"
+    dekt_door: "gerechtelijke-reorganisatie-bouwprojecten-zuid-2026-06 (escalatie)"
+    voorbeeldvragen: "2010-2 · 2013-1 · 2015-1 · 2024-1 vr9"

@@ -1,0 +1,328 @@
+# Leerstuk-script — Bestuur, algemene vergadering en aandeelhouders
+#
+# PO 3.0 leerstuk 2 (governance + besluitvorming). Twee assen in één
+# leerstuk: de BESTUURS-zijde (wie beslist binnen het bestuur — individueel
+# vs collegiaal · ultra vires · belangenconflict · kwijting) en de
+# AANDEELHOUDERS-zijde (AV-procedure · volmachten · aandeelhoudersovereen-
+# komst · nietigheid besluiten · minnelijke schikking · geschilanticipatie).
+# Bouwt op L1 (de zojuist opgerichte vennootschap heeft nu organen) en
+# zet de toon voor L3 (alarmbel betreft bestuur dat moet handelen).
+#
+# Concept-vocabulair INTRODUCEREN:
+#   bestuursorgaan · enige bestuurder vs RvB · ultra vires · doelhandelingen ·
+#   belangenconflict-protocol · vertegenwoordigingsmacht · AV-bijeenroeping ·
+#   gewone vs versterkte meerderheid · volmacht · SHA (lock-up, voorkoop,
+#   drag-along, tag-along) · kwijting · nietigheid besluit · ADR-clausules
+#
+# Concept-vocabulair UIT L1 (kort oproepen):
+#   rechtspersoonlijkheid · BV vs NV · statuten · aandelen
+#
+# Hand-off naar L3: dit leerstuk eindigt waar het bestuur GEWONE
+# beslissingen neemt; L3 toont wat er gebeurt als de cijfers de
+# uitkeringstest of alarmbel-drempel raken.
+
+meta:
+  slug: bestuur-algemene-vergadering-en-aandeelhouders
+  titel: "Bestuur, algemene vergadering en aandeelhouders — interne besluitvorming"
+  po: "3.0"
+  cluster: vennootschapsrecht
+  voorbeeldgroep: verhaeren-bouwgroep
+  beschrijving: >
+    Leerstuk PO 3.0 — governance-fiche. Wie beslist wat in een vennoot-
+    schap? Drie organen: BESTUUR (individueel of collegiaal · ultra vires
+    · belangenconflict) · ALGEMENE VERGADERING (bijeenroeping · wie mag
+    bijwonen · meerderheden · volmachten · nietigheid besluiten) ·
+    AANDEELHOUDERS via aandeelhoudersovereenkomst (lock-up · voorkoop ·
+    drag-along · tag-along · board-vertegenwoordiging · exit-mechanisme).
+    Sluit met kwijting + geschilanticipatie + minnelijke schikking en
+    de brug naar L3.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 3.0-overzicht.
+    Maak duidelijk dat dit leerstuk gaat over GEWONE besluitvorming —
+    crisis-situaties (alarmbel, uitkering te zwaar) komen in L3. Geef
+    de pedagogische lijn: drie organen werken samen, en de aandeelhouders-
+    overeenkomst is een vierde KANAAL dat buiten de statuten leeft.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: in een BV beslist het BESTUURSORGAAN (enige zaakvoerder of college) over alle daden van beheer EN beschikking voor zover ze binnen het doel passen (DOELHANDELINGEN — anders ultra vires); de ALGEMENE VERGADERING beslist over statutenwijzigingen, jaarrekening, winstuitkering, ontslag bestuur en kwijting; AANDEELHOUDERS regelen hun onderlinge verhouding aanvullend via SHA (lock-up · voorkoop · drag/tag-along · exit)."
+    - "Drie scharnier-regels: (a) een BESLUIT van het bestuur of de AV dat in strijd is met de wet, de statuten of wegens BELANGENCONFLICT genomen, kan NIETIG worden verklaard op vordering van een belanghebbende (art. 2:42 e.v. WVV); (b) een AANDEELHOUDER met ≥10% (in BV) of ≥10% kapitaal (in NV) kan zelf de bijeenroeping van een AV afdwingen; (c) een aandeelhoudersovereenkomst (SHA) is een CONTRACT — bindt enkel de partijen, niet derden of nieuwe aandeelhouders — voor erga-omnes-effect moet de clausule in de statuten staan."
+    - "Het belangenconflict-protocol bij een GECONFLICTEERDE bestuurder is de meest gestelde examenvraag (art. 5:55 BV en art. 7:90 NV voor enige bestuurder / art. 7:84 voor RvB): mededelingsplicht vóór de beslissing · vermelding in notulen · vermelding in jaarverslag · in BV: onthoudingsplicht · in NV-RvB: niet meestemmen + bij enige bestuurder NV: voorleggen aan AV."
+  visualisaties:
+    - type: mermaid
+      ref: groepsstructuur
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We bouwen vier blokken op — bestuur · AV · aandeelhoudersovereenkomst · kwijting en geschilanticipatie. Aan het einde: hoe sluit dit aan op de alarmbel in leerstuk 3.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: bestuur-mechaniek
+    titel: "Het bestuursorgaan — vorm, bevoegdheid, vertegenwoordiging"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: wie is het BESTUURSORGAAN, hoe beslist het, en hoe verbindt het de vennootschap tegenover derden?"
+    kinderen:
+
+      - id: vormen-bestuur
+        titel: "Bestuursvormen — individueel of collegiaal"
+        niveau: 3
+        beats:
+          - "Open met de uitleg dat de BV maximale flexibiliteit biedt: een of meer zaakvoerders, individueel of collegiaal. Geen wettelijke RvB-vereiste."
+          - "In NV: drie modellen (art. 7:73 e.v. WVV — collegiale RvB; art. 7:85 e.v. — enige bestuurder; art. 7:104 e.v. — duaal bestuur). (a) ENIGE BESTUURDER — één persoon doet alles (vaak in KMO-NV's met dominante oprichter, zoals Verhaeren Holding tot 2026 met Marc als enige bestuurder). (b) COLLEGIALE RAAD VAN BESTUUR — minstens drie bestuurders (kan 2 zijn als <3 aandeelhouders), beslist bij meerderheid. (c) DUAAL BESTUUR — directieraad + raad van toezicht (zelden in KMO's; meer voor grote vennootschappen)."
+          - "VERTEGENWOORDIGING NAAR DERDEN: de WVV maakt het verschil tussen INTERNE bevoegdheid (wat het orgaan binnen de vennootschap mag) en EXTERNE vertegenwoordigingsmacht (wat het orgaan tegenover derden verbindt). Externe vertegenwoordiging is ruim: de vennootschap is gebonden zelfs als de bestuurder zijn interne bevoegdheid overschrijdt, zolang de handeling binnen het maatschappelijk DOEL valt (art. 5:52-5:53 BV / 7:93 NV)."
+          - "Doelhandeling-test: een bestuurder die bouwgrond verkoopt voor een bouwbedrijf = binnen doel = vennootschap gebonden. Diezelfde bestuurder die een race-paard koopt voor de vennootschap = buiten doel = ULTRA VIRES = vennootschap niet gebonden, behalve indien derde te goeder trouw was en de handeling in het uitwendige opzicht binnen het doel leek."
+          - "Concretiseer met Verhaeren-case: Marc Verhaeren als zaakvoerder Verhaeren Bouw tekent een overeenkomst voor de aankoop van een betonmolen — binnen doel (algemene aanneming), vennootschap gebonden. Tekent hij dezelfde betonmolen voor Verhaeren Vastgoed (doel = beheer bedrijfspatrimonium) — buiten doel, vennootschap mogelijk niet gebonden, of slechts gebonden als derde te goeder trouw was."
+
+      - id: belangenconflict
+        titel: "Belangenconflict — protocol per bestuursvorm"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische kern: een BELANGENCONFLICT (een bestuurder heeft een rechtstreeks of onrechtstreeks vermogensrechtelijk belang dat strijdig is met dat van de vennootschap) is geen reden om de bestuurder af te zetten — wel om een specifiek PROTOCOL te volgen vóór de beslissing valt."
+          - "Het protocol verschilt naargelang het bestuursorgaan."
+          - "In BV (art. 5:55-5:56 WVV): vóór de beslissing van het bestuursorgaan moet de geconflicteerde bestuurder dit MEEDELEN aan de andere bestuurders + ONTHOUDEN van deelname aan de beraadslaging en stemming. Vermelding in notulen + jaarverslag (aard en vermogensrechtelijke gevolgen). Indien ENIGE bestuurder geconflicteerd: voorleggen aan AV."
+          - "In NV (art. 7:90 voor enige bestuurder / art. 7:84 voor RvB): mededelingsplicht + onthouding (niet meestemmen); RvB mag de beslissing niet delegeren. Bij enige bestuurder NV: voorleggen aan AV, of als geen AV beraadslaagt: melden + uitvoeren onder eigen verantwoordelijkheid."
+          - "GEEN onthouding ≠ besluit nietig: een geschonden belangenconflict-procedure leidt tot mogelijke nietigheid op vordering van een belanghebbende (art. 2:42-2:43 WVV)."
+          - "Concretiseer met Verhaeren-case: Marc Verhaeren is enige zaakvoerder Verhaeren Bouw EN Verhaeren Vastgoed. Wanneer Verhaeren Bouw een huurovereenkomst sluit met Verhaeren Vastgoed (Marc tekent beide kanten) = BELANGENCONFLICT — niet automatisch verboden, maar protocol verplicht. In de Verhaeren Holding NV (Marc enige bestuurder): bij elke transactie tussen Holding en een dochtervennootschap waar Marc ook een persoonlijk belang heeft, moet hij dit meedelen en de beslissing voorleggen aan de AV (zelfde AV waarin Sofie en Jeroen ook stemmen, dus controlecirkel werkt)."
+          - "Examen-favoriet (voorbeeldexamen 2015-1): 'procedure tegenstrijdig belang bij zaakvoerder-enige vennoot BVBA' — onder oude BVBA was er een 'lasthebber ad hoc'-figuur; onder WVV is dat afgeschaft en wordt de beslissing voorgelegd aan de AV (ook al is dat dezelfde persoon)."
+
+      - id: onrechtmatig-voordeel
+        titel: "Onrechtmatig financieel voordeel — uitzonderingsregel"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: indien een beslissing — ook al is het protocol gevolgd — aan een bestuurder een ONRECHTMATIG financieel voordeel oplevert TEN NADELE van de vennootschap, is hij PERSOONLIJK EN HOOFDELIJK aansprakelijk voor de schade (art. 5:57 BV / 7:97 NV)."
+          - "Dit is een aparte aansprakelijkheidsgrond — buiten de algemene art. 2:56 bestuurdersaansprakelijkheid (cap-regel). Onrechtmatig financieel voordeel valt onder de UITZONDERING op de cap (art. 2:57 §3): geen aansprakelijkheidsbeperking, ook geen verzekerings-vrijwaring."
+          - "Concretiseer: stel dat Marc als zaakvoerder Verhaeren Bouw een betonmolen koopt van een vennootschap waar hijzelf indirect deelt — voor 50.000 EUR terwijl de marktwaarde 35.000 is. Marktconforme prijs niet bewezen → onrechtmatig voordeel → Marc persoonlijk aansprakelijk voor de 15.000 verschil, ook al heeft hij het belangenconflict-protocol gevolgd."
+
+  - id: algemene-vergadering
+    titel: "De algemene vergadering — bijeenroeping, deelname, beslissing"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de AV is het SUPREEM orgaan voor strategische beslissingen — statutenwijziging, jaarrekening, winstbestemming, ontslag bestuur, kwijting."
+    kinderen:
+
+      - id: bijeenroeping
+        titel: "Bijeenroeping — wie en hoe?"
+        niveau: 3
+        beats:
+          - "Open met de regel: de AV wordt bijeengeroepen door het BESTUURSORGAAN, op datum, plaats en met agenda. De jaarlijkse AV (jaarvergadering) is wettelijk verplicht binnen 6 maanden na boekjaareinde (typisch juni)."
+          - "BUITENGEWONE AV — kan op elk moment bijeengeroepen worden door het bestuur of op verzoek van AANDEELHOUDERS die ≥10% van het kapitaal vertegenwoordigen (in BV: ≥10% van het aantal uitgegeven aandelen). Bestuur moet binnen 3 weken na het verzoek de AV bijeenroepen — anders kunnen aandeelhouders het bijeenroepen via voorzitter ondernemingsrechtbank."
+          - "OPROEPINGSFORMALITEITEN — uiterlijk 15 dagen vóór de AV (art. 5:62 BV / 7:113 NV; voor genoteerde NV 30 dagen via art. 7:115). Voor NIET-GENOTEERDE vennootschappen: schriftelijk (per gewone post of e-mail indien aandeelhouder akkoord). Voor genoteerde: via Staatsblad + financiële pers + website. Agenda + plaats + datum + tijd verplicht vermeld."
+          - "Concretiseer met Verhaeren-case: jaarvergadering Verhaeren Holding NV gebeurt traditioneel in mei (boekjaareinde 31-12). In 2026: aankondiging 1 mei voor AV 15 mei, agenda = jaarrekening 2025 + winstbestemming + kwijting + benoeming nieuw bestuur (Sofie + Jeroen treden toe). In maart 2026: SPECIALE AV ingeval Bouwprojecten Zuid alarmbel — bijeengeroepen door bestuur op verzoek van bestuur, binnen 2 maand na alarmbel-vaststelling (zie L3)."
+          - "Examen-favoriet: 'laattijdige bijeenroeping' (voorbeeldexamen 2013-2). Gevolg = het besluit kan worden vernietigd op vordering van een belanghebbende, tenzij ALLE aandeelhouders aanwezig waren en geen bezwaar maakten."
+
+      - id: wie-mag-bijwonen
+        titel: "Wie mag de AV bijwonen?"
+        niveau: 3
+        beats:
+          - "Open met de basisregel: AANDEELHOUDERS hebben recht om de AV bij te wonen en te stemmen. In BV: alle aandeelhouders, behalve wie statuten anders bepalen (bv. bepaalde aandeelsoorten zonder stemrecht). In NV: alle aandeelhouders, behalve houders van aandelen zonder stemrecht voor de gewone besluiten."
+          - "BESTUURDERS — zijn niet verplicht aanwezig, maar moeten zich op vraag van aandeelhouders verantwoorden over hun bestuur. In praktijk: bestuurders zijn standaard aanwezig op de jaarvergadering."
+          - "COMMISSARIS (indien aanwezig) — moet de jaarvergadering bijwonen voor de bespreking van zijn jaarverslag."
+          - "ACCOUNTANT — geen wettelijk recht om bij te wonen. In KMO's wordt de externe accountant vaak uitgenodigd door bestuur als deskundige ondersteuner — niet als deelnemer aan de stemming."
+          - "DERDEN — geen recht, behalve specifieke wettelijke uitzonderingen (bv. obligatiehouders bij beslissingen over de obligatielening)."
+          - "Examen-aandachtspunt (voorbeeldexamen 2024-1): 'individueel controlerecht in de BV' (art. 5:88-90 WVV) — bij ontstentenis van een commissaris hebben de aandeelhouders het recht om individueel inzage te nemen in alle boeken, verslagen, briefwisseling, notulen. Dit is een MINDERHEIDSRECHT (geen stemming nodig), uitoefenbaar door elke aandeelhouder. In NV bestaat dit recht ook in vennootschappen zonder commissaris."
+
+      - id: meerderheden
+        titel: "Meerderheden — gewoon vs versterkt"
+        niveau: 3
+        beats:
+          - "Open met de basisregel: GEWONE BESLUITEN (jaarrekening, winstuitkering, ontslag/benoeming bestuur, kwijting) vereisen GEWONE MEERDERHEID — meer dan 50% van de uitgebrachte stemmen, zonder aanwezigheidsquorum."
+          - "STATUTENWIJZIGINGEN vereisen VERSTERKTE MEERDERHEID — minstens 3/4 van de uitgebrachte stemmen, met aanwezigheidsquorum van minstens de helft van het kapitaal/aantal aandelen (art. 5:100 BV / 7:153 NV). Bij gebrek aan quorum: tweede AV met dezelfde agenda, geen quorum-vereiste meer."
+          - "BIJZONDERE BESLUITEN — 3/4 voor omzetting van rechtsvorm via Boek 14 (art. 14:8 — binnenlands) en grensoverschrijdende omzetting (art. 14:24); soms unanimiteit (bv. wijziging maatschappelijk doel)."
+          - "Concretiseer met Verhaeren-case: AV Verhaeren Holding NV bezit Marc 60% — hij heeft een gewone meerderheid alleen. Voor statutenwijziging (>75%) heeft hij minstens één kind nodig. Voor wijziging maatschappelijk doel (unaniem): beide kinderen nodig. Dit is een verklarende factor voor de SHA-onderhandeling: Sofie en Jeroen willen contractuele waarborgen die hun blokkeringsmacht concretiseren."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Beslissing", "Meerderheid", "Quorum", "Vorm"]
+            rijen:
+              - ["Jaarrekening + winstbestemming + kwijting", "Gewone (>50%)", "Geen", "Onderhands"]
+              - ["Benoeming/ontslag bestuur", "Gewone", "Geen", "Onderhands"]
+              - ["Statutenwijziging (algemeen)", "**3/4** versterkt", "**1/2** aanwezig", "Notarieel"]
+              - ["Wijziging maatschappelijk doel", "**4/5** of unaniem", "1/2", "Notarieel"]
+              - ["Omzetting Boek 14 — binnenlands", "**3/4** (art. 14:8)", "1/2", "Notarieel"]
+              - ["Vrijwillige ontbinding", "**3/4** (art. 2:67 e.v.)", "1/2", "Notarieel"]
+
+      - id: volmachten
+        titel: "Volmachten — vorm en grenzen"
+        niveau: 3
+        beats:
+          - "Open met de praktische vraag: kan een aandeelhouder zich laten vertegenwoordigen op de AV?"
+          - "Antwoord: JA — door een schriftelijke VOLMACHT aan een andere aandeelhouder of een derde (tenzij statuten anders bepalen). Volmacht moet zijn naar de plaats van de AV gestuurd binnen de termijn vermeld in de oproep."
+          - "RESTRICTIES — statuten kunnen de kring van volmachthouders beperken (bv. enkel aan mede-aandeelhouders), maar niet onmogelijk maken. Bij genoteerde NV: volmachten via standaard-formulier."
+          - "INSTRUCTIES — een volmachtgever kan stemnotices toevoegen ('stem voor', 'stem tegen', 'onthoud' per agendapunt). De volmachthouder mag niet afwijken zonder mandaat (riskeert civiele aansprakelijkheid tegenover lastgever)."
+          - "Concretiseer: Sofie woont in Antwerpen en kan AV in Sint-Niklaas niet bijwonen. Ze geeft volmacht aan Jeroen, met instructies. Geldig — Jeroen stemt namens haar 20% en zichzelf 20%, samen 40%."
+
+      - id: nietigheid-besluiten
+        titel: "Nietigheid van AV- of RvB-besluiten"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: een besluit van de AV (of het bestuur) kan WORDEN VERNIETIGD op vordering van een belanghebbende — door de rechtbank (art. 2:42-2:47 WVV)."
+          - "Vier nietigheidsgronden: (a) STRIJDIG MET DE WET — bv. uitkering boven uitkeringsruimte (zie L3); (b) STRIJDIG MET DE STATUTEN — bv. besluit dat een statutair quorum niet respecteert; (c) BEVOEGDHEIDSGEBREK — orgaan was niet bevoegd; (d) PROCEDUREGEBREK — bv. laattijdige bijeenroeping zonder dat alle aandeelhouders aanwezig en akkoord waren."
+          - "VORDERINGSGERECHTIGDE — elke belanghebbende (aandeelhouder, schuldeiser, bestuurder, derde die rechtstreeks belang heeft). Vordering bij ondernemingsrechtbank."
+          - "TERMIJN — 6 maanden na de bekendmaking of, indien geen bekendmaking, na kennisname van het besluit. Art. 2:143 WVV."
+          - "Examen-zwaarte: nietigheid AV-besluit is voorbeeldexamen-favoriet via 'bezwaar tegen besluit', 'minderheidsaandeelhouders die zich verzetten tegen uitkering die hun rechten schaadt', 'wat kan de minderheidsaandeelhouder doen?' Antwoord: vordering nietigheid + individueel controlerecht + eventuele bestuurdersaansprakelijkheidsvordering."
+
+  - id: aandeelhoudersovereenkomst
+    titel: "De aandeelhoudersovereenkomst (SHA) — een vierde kanaal naast statuten"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een aandeelhoudersovereenkomst (SHA — Shareholders' Agreement) is een PRIVAAT CONTRACT tussen (een deel van de) aandeelhouders dat hun onderlinge verhouding regelt aanvullend op of buiten de statuten."
+      - "PRINCIPIEEL VERSCHIL met statuten: een SHA bindt enkel de PARTIJEN (geen erga-omnes-effect), is niet openbaar, en kan flexibel veel gedetailleerder zijn dan statuten. Schending = wanprestatie tussen partijen, geen automatische nietigheid van het besluit. Voor erga-omnes-effect (bv. tegen nieuwe aandeelhouders) moet de clausule in de statuten worden ingeschreven."
+    kinderen:
+
+      - id: sha-essentiele-clausules
+        titel: "Essentiële SHA-clausules"
+        niveau: 3
+        beats:
+          - "Open met de vier kern-clausules waar elke SHA om draait."
+          - "LOCK-UP — aandeelhouders verbinden zich GEEN aandelen te vervreemden gedurende een bepaalde periode (typisch 3-7 jaar). Voor familiale opvolgings-stabiliteit of pre-IPO-bescherming."
+          - "VOORKOOPRECHT (Right of First Refusal) — bij voorgenomen overdracht aan derde moet aandeelhouder de aandelen EERST aanbieden aan medeaandeelhouders tegen dezelfde voorwaarden. Indien medeaandeelhouders niet binnen termijn (bv. 30 dagen) accepteren: aandeelhouder mag aan derde verkopen."
+          - "DRAG-ALONG (Tag-Along of right-of-first-offer) — als een meerderheidsaandeelhouder verkoopt aan derde, kunnen de minderheidsaandeelhouders MEE-VERKOPEN tegen DEZELFDE PRIJS en voorwaarden (= tag-along: bescherming minderheid) OF de meerderheidsaandeelhouder kan de minderheid VERPLICHTEN mee te verkopen om de exit-deal mogelijk te maken (= drag-along: bescherming meerderheid). Standaardpaar in SPA-context."
+          - "BOARD-VERTEGENWOORDIGING — afspraken over wie hoeveel zetels in de RvB krijgt. Werkt via stemmingsafspraken op de AV. NB: een statutaire benoeming blijft nodig — SHA dwingt enkel de aandeelhouder om VOOR een welbepaalde kandidaat te stemmen."
+          - "Concretiseer met Verhaeren-case: Marc + Sofie + Jeroen onderhandelen in 2026 hun SHA. Lock-up: 5 jaar voor kinderen (Marc als oprichter niet onderworpen). Voorkooprecht: onderling, prioritair tussen kinderen onderling, dan tegenover Marc. Drag-along: indien Marc een externe verkoopt voor ≥80% van de aandelen, kan hij de kinderen meeverplichten. Tag-along: omgekeerd — als Marc verkoopt aan derde voor ≥50%, kunnen kinderen meeverkopen. Board-vertegenwoordiging vanaf 2027: Marc 2 zetels (zolang ≥50% aandeelhouder), Sofie 1, Jeroen 1."
+
+      - id: exit-zonder-rechtszaak
+        titel: "Exit-mechanisme — uit een blokkering zonder rechter"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische context: aandeelhoudersconflicten kunnen langdurig blokkeren — moeders en zonen die niet meer praten, partners die elkaar vermijden, AV's die niet meer gehouden worden. De WVV biedt GERECHTELIJKE remedies: gedwongen UITTREDING (art. 2:69) of UITSLUITING (art. 2:60) — maar deze procedures duren maanden tot jaren."
+          - "ALTERNATIEF VIA SHA: een vooraf overeengekomen exit-mechanisme — bv. 'bij blokkering ≥6 maand → bindende derdenwaardering door wederzijds aangewezen deskundige + verplichte aankoop door overgebleven aandeelhouders tegen die waardering'. Dit voorkomt rechtszaak en geeft snelle uitweg."
+          - "VARIANT — Russian roulette: één aandeelhouder zet een prijs vast en de andere kiest 'koop' of 'verkoop' tegen die prijs. Effectief om patstellingen te breken."
+          - "Examen-relevantie: aandeelhoudersgeschil-vragen (zoals voorbeeldexamen 2014-1 'rechten minderheidsaandeelhouder bij verduistering' en 2019-bibf 'aandeelhoudersconflict NV met toonderaandelen + verliezen') vragen om een ENERGIE-toets: hoe lossen aandeelhouders het EENVOUDIGST op? SHA-exit-mechanisme is meestal het meest pragmatische antwoord, vóór gerechtelijke uittreding/uitsluiting."
+
+      - id: sha-vs-statuten
+        titel: "SHA versus statuten — wanneer wel/wanneer niet?"
+        niveau: 3
+        beats:
+          - "Open met de regel: schrijf in de STATUTEN wat tegen derden of nieuwe aandeelhouders moet werken (overdrachtsbeperkingen, soorten aandelen, stemrechten). Schrijf in de SHA wat tussen huidige partijen vertrouwelijk wil blijven (lock-up, board-deals, exit)."
+          - "Concretiseer: een drag-along in de SHA bindt Sofie en Jeroen — maar als Sofie haar aandelen verkoopt aan een externe Z, is Z NIET gebonden door die drag-along (geen partij bij SHA). Daarom wordt vaak een AANBIEDINGSPLICHT in de statuten ingeschreven: 'aandelen mogen niet overgedragen aan derden tenzij die derde toetreedt tot de SHA'. Statutaire constructie maakt SHA quasi-erga-omnes."
+          - "Blockquote-aside — vertrouwelijkheid: SHA is een privaat contract, niet openbaar. Statuten zijn neergelegd bij griffie en publiek. Wie zaken-gevoelige clausules (bv. exit-prijsformule, board-fees) niet wil openbaren, kiest SHA."
+
+  - id: kwijting-en-aansprakelijkheid
+    titel: "Kwijting en bestuurdersaansprakelijkheid kort"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: aan het einde van elk boekjaar geeft de AV KWIJTING aan het bestuur — een formele vrijwaring voor de gedrag in dat boekjaar."
+      - "Wat dekt kwijting? (art. 5:77 BV / 7:149 NV): de AV verklaart dat zij geen bestuursfouten meer kan aanwrijven voor het afgelopen boekjaar. Vereist twee voorwaarden: (a) de jaarrekening MOET WAARHEIDSGETROUW zijn (geen verzwijgingen, geen materiële fouten); (b) AV moet correct geïnformeerd zijn over de gedragingen."
+          # noot — geen technische nuance over "ENKEL voor zaken vermeld in jaarverslag" — die nuance zit historisch in W.Venn. (oude leer); WVV vereenvoudigt
+      - "GEVOLG — kwijting verhindert verdere AV-vordering tegen bestuurder voor dat boekjaar. MAAR: kwijting bindt NIET derde-belanghebbenden (curator bij faillissement, individuele schuldeiser). En kwijting dekt NIET feiten die niet bekend waren op het ogenblik van kwijting (bv. verzwijging)."
+      - "ONTSLAGEN BESTUURDER (voorbeeldexamen 2003 vr16): een bestuurder die wordt afgezet kan voor zijn ontslag-boekjaar nog steeds aansprakelijkheid riskeren — het ontslag op zich verleent geen kwijting. Pas bij volgende jaarvergadering wordt kwijting verleend voor het boekjaar waarin de afzetting viel."
+      - "BESTUURDERSAANSPRAKELIJKHEID-CAP — art. 2:56 WVV beperkt de aansprakelijkheid van bestuurders tot een cijfermatige cap op basis van omzet + balanstotaal van de vennootschap. Diepere uitwerking in [[kapitaalbescherming-uitkeringen-en-alarmbel]] (waar de cap zwicht bij grove fout)."
+
+  - id: geschilanticipatie-en-bewijs
+    titel: "Geschilanticipatie, digitaal bewijs en minnelijke schikking"
+    niveau: 2
+    beats:
+      - "Open met de positionering: geschillen tussen aandeelhouders of tussen aandeelhouders en bestuur zijn statistisch frequent in KMO's met meerdere stam. De wet biedt RECHTSMIDDELEN (gerechtelijke uittreding/uitsluiting, vordering nietigheid), maar het is in praktijk verstandiger ANTICIPEREND te werken."
+      - "Geschilanticipatie via SHA — exit-mechanisme bij blokkering · ADR-clausule (mediation- of arbitrage-clausule vóór rechter) · drag/tag-along bij overdracht · waarderingsformule voor uittreding."
+      - "DIGITAAL BEWIJS — sinds Wet 13.4.2019 (boekenrecht): elektronische bestanden, e-mails, screenshots hebben dezelfde bewijswaarde als geschreven stukken indien de IDENTITEIT van de auteur kan worden bevestigd. Notulen van een AV via videoconferentie zijn rechtsgeldig mits de identiteit van de aanwezigen kan worden vastgesteld en de notulen worden ondertekend (digitaal of fysiek)."
+      - "VIDEOVERGADERING — sinds COVID-aanpassingen: AV op afstand mogelijk indien statuten dit toelaten of indien de oproep dit voorziet. Stemming via online portaal toegestaan."
+      - "MINNELIJKE SCHIKKING — buitenrechtelijk akkoord tussen partijen, vaak gefaciliteerd door een MEDIATOR. Kan gehomologeerd worden door de rechtbank waardoor het uitvoerbare titel wordt. Veel gebruikt bij familieconflicten in KMO's."
+      - "Concretiseer met Verhaeren-case: Sofie en Jeroen hebben in 2027 een conflict over de strategie van Verhaeren Bouw na Marcs uittreden. SHA-exit-mechanisme treedt in werking: bindende derdenwaardering door externe expert; Sofie kiest verkoop, Jeroen koopt haar uit tegen die waardering. Geen rechtbank, geen jarenlange procedure."
+
+  - id: brug-naar-l3
+    titel: "Brug naar leerstuk 3 — als de cijfers krachten worden"
+    niveau: 2
+    beats:
+      - "Open met de afsluiter: dit leerstuk behandelde GEWONE besluitvorming. Maar in een vennootschap kunnen de CIJFERS plotseling regie nemen — wanneer het netto-actief daalt onder een drempel, of wanneer een uitkering de uitkeringstest faalt."
+      - "Op dat moment verandert de rol van het bestuur: van DISCRETIONAIR bestuurder naar BIJEENROEPER (alarmbel) of TWEE-TESTEN-EXAMINATOR (uitkering). En de bestuurdersaansprakelijkheid stuwt op."
+      - "Voor dat verhaal: zie [[kapitaalbescherming-uitkeringen-en-alarmbel]]."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): de oude BVBA-figuur 'lasthebber ad hoc' bij belangenconflict van zaakvoerder-enige vennoot hanteren. FOUT — sinds WVV is die figuur afgeschaft. In BV wordt de beslissing voorgelegd aan de AV, ook al is dat dezelfde persoon (vergt vermelding, notulering, transparantie)."
+      - "Valkuil 2 (⚠️): SHA-clausules en statutaire clausules dooreenmengen. FOUT — SHA bindt alleen partijen (intuitu personae), statuten binden erga-omnes. Een drag-along in SHA bindt geen nieuwe aandeelhouders tenzij statutaire aanbiedingsplicht is opgenomen."
+      - "Valkuil 3 (⚠️): denken dat kwijting onbeperkt vrijwaart. FOUT — kwijting bindt geen derde-belanghebbenden (curator, individuele schuldeisers). Bovendien dekt kwijting niet feiten die op moment van kwijting niet bekend waren (verzwijging)."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kapitaalbescherming-uitkeringen-en-alarmbel
+      hint: "Wat gebeurt er als de cijfers de uitkeringstest of alarmbel-drempel raken — bestuur in crisis-modus."
+    - slug: overdracht-overname-en-herstructurering
+      hint: "Hoe een SHA praktisch werkt bij een share-deal — drag-along + R&W + due diligence."
+    - slug: vennootschapsvorm-kiezen-en-oprichten
+      hint: "Voor de fundamenten — waarom een BV het bestuursvorm-mengsel anders ziet dan een NV."
+  samenvatting:
+    hint: "Voor herhaling — drie organen + meerderheden-tabel + SHA-vs-statuten + belangenconflict-protocol."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [bestuur-vennootschap, algemene-vergadering, belangenconflict-bestuur]
+    - concepten: [aandeelhoudersovereenkomsten, aandeel, tantieme, auditcomite]
+    - concepten: [vennootschapsgeschillen, bestuurdersaansprakelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Bestuursorgaan en vertegenwoordiging — BV"
+    ref: "WVV art. 5:52-5:53"
+    noot: "Interne bevoegdheid (ultra vires) + externe vertegenwoordigingsmacht (vennootschap gebonden ook buiten voorwerp, behoudens kwade trouw derde)."
+  - onderwerp: "Bestuursvormen NV — enige bestuurder, RvB, duaal"
+    ref: "WVV art. 7:73 e.v. (RvB) + 7:85 e.v. (enige bestuurder) + 7:104 e.v. (duaal)"
+    noot: "Drie modellen. Collegiale RvB minstens 3 leden, of 2 indien <3 aandeelhouders."
+  - onderwerp: "Belangenconflict BV"
+    ref: "WVV art. 5:55-5:56"
+    noot: "Mededelingsplicht + onthouding + notulen + jaarverslag. Bij enige of alle bestuurders geconflicteerd: voorleggen aan AV."
+  - onderwerp: "Belangenconflict NV — enige bestuurder"
+    ref: "WVV art. 7:90"
+    noot: "Voorleggen aan AV of melden + uitvoeren onder eigen verantwoordelijkheid."
+  - onderwerp: "Belangenconflict NV — RvB"
+    ref: "WVV art. 7:84"
+    noot: "Mededeling + onthouding van stemming; raad mag de beslissing niet delegeren."
+  - onderwerp: "Onrechtmatig financieel voordeel"
+    ref: "WVV art. 5:57 BV / 7:97 NV"
+    noot: "Persoonlijke + hoofdelijke aansprakelijkheid bestuurder, ook bij protocol-naleving."
+  - onderwerp: "AV — bijeenroeping BV"
+    ref: "WVV art. 5:62"
+    noot: "Door bestuur of op verzoek aandeelhouders ≥10%; oproepingsformaliteiten 15 dagen."
+  - onderwerp: "AV — bijeenroeping NV"
+    ref: "WVV art. 7:113 (+ 7:115 voor genoteerde NV — 30 dagen)"
+    noot: "Analoog; ≥10% van het kapitaal."
+  - onderwerp: "AV — versterkte meerderheden statutenwijziging"
+    ref: "WVV art. 5:100 BV / 7:153 NV"
+    noot: "3/4 meerderheid + 1/2 quorum; tweede AV geen quorum-vereiste."
+  - onderwerp: "Individueel controlerecht aandeelhouders zonder commissaris"
+    ref: "WVV art. 3:101 (algemeen) + boekspecifieke regelingen"
+    noot: "Inzage in boeken, briefwisseling, notulen. Klassiek minderheidsrecht."
+  - onderwerp: "Nietigheid besluiten organen"
+    ref: "WVV art. 2:42-2:47"
+    noot: "Strijdig met wet, statuten, bevoegdheidsgebrek, proceduregebrek. Vordering binnen 6 maanden."
+  - onderwerp: "Kwijting bestuur"
+    ref: "WVV art. 5:77 BV / 7:149 NV"
+    noot: "Bindt enkel de AV; geen derden, geen verzwijgingen."
+  - onderwerp: "Gerechtelijke uittreding/uitsluiting aandeelhouder"
+    ref: "WVV art. 2:60 + 2:69"
+    noot: "Klassieke remedie bij blokkering — duur en zwaar; SHA-exit-mechanisme is meestal eenvoudiger."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Ultra vires en derden te goeder trouw"
+    inhoud: "Vaste rechtspraak: een bestuurder die buiten het maatschappelijk doel handelt, bindt de vennootschap tegenover een derde die te goeder trouw kon menen dat de handeling binnen het doel viel (objectieve doel-toets). Beschermt rechtsverkeer."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd."
+  - onderwerp: "Schending belangenconflict-protocol als nietigheidsgrond"
+    inhoud: "Cassatie heeft bevestigd dat schending van de mededelings- en onthoudingsplicht een belanghebbende toelaat nietigheid van het bestuursbesluit te vorderen, zelfs indien de beslissing op zichzelf niet onredelijk is."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd; specifieke arrest-nummers open."
+
+footer: "Leerstuk PO 3.0. Status: voorgesteld — POC volgens ADR-037."
