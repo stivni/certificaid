@@ -50,7 +50,7 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | **Examenvragen indexeren / zoeken** | `python3 -m tools.rag.rag_index --add-vragen` · MCP-tool `zoek_vragen` (args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`) |
 | **Render leermateriaal** (fiches + minicursus) | `tools/leermateriaal/` — ADR-007, ADR-010 *(schema 2.0; render-laag voor schema 2.1 v1.5 in [`docs/render-laag.md`](docs/render-laag.md))* |
-| **Minicursus schrijven** (PO-niveau: verhaal + routekaart per programmaonderdeel) | [ADR-036](docs/adr/ADR-036-drie-lagen-leermateriaal.md) + [`docs/minicursus-schrijfregels.md`](docs/minicursus-schrijfregels.md) + gold-standard `content/leerpaden/1-4/index.md` |
+| **Minicursus schrijven** (PO-niveau: verhaal + routekaart per programmaonderdeel) | [ADR-036](docs/adr/ADR-036-drie-lagen-leermateriaal.md) + [`docs/minicursus-schrijfregels.md`](docs/minicursus-schrijfregels.md) + gold-standard `content/studiemateriaal/1-4/index.md` |
 | **Samenvatting schrijven voor een PO** (geheugen-kapstok, printbaar 2-4 A4 — vervangt cluster-themafiches) | [`docs/samenvatting-procedure.md`](docs/samenvatting-procedure.md) (4 stappen + 3 pijlers: visueel-dominant · 2-4 A4 printbaar · geen cross-PO refs). Schema: [`data/samenvattingen/SCHEMA.md`](data/samenvattingen/SCHEMA.md). Render-prompt: [`prompts/samenvatting-render-v1.md`](prompts/samenvatting-render-v1.md). Schrijfregels: [`docs/samenvatting-schrijfregels.md`](docs/samenvatting-schrijfregels.md). Beleid: [ADR-039](docs/adr/ADR-039-samenvatting-vervangt-themafiche.md). Gold-standard: PO 1.4 ([`data/samenvattingen/1-4.yaml`](data/samenvattingen/1-4.yaml) — in opbouw). **POC-status** — themafiche-schrijfregels gearchiveerd (`docs/archive/themafiche-schrijfregels.md`). |
 | **Leerstuk-pakket voor nieuwe PO uitbouwen** (skelet → scripts → render → integratie) | [`docs/leerstuk-procedure.md`](docs/leerstuk-procedure.md) (7 stappen) + [ADR-037](docs/adr/ADR-037-leerstuk-vierde-leerlaag.md) + [`docs/leerstuk-schrijfregels.md`](docs/leerstuk-schrijfregels.md) + skelet-prompt [`prompts/leerpad-skelet-v1.md`](prompts/leerpad-skelet-v1.md) + scripts-prompt [`prompts/leerstuk-scripts-v1.md`](prompts/leerstuk-scripts-v1.md) + render-prompt [`prompts/leerstuk-render-v1.md`](prompts/leerstuk-render-v1.md). Gold-standard: PO 1.4 (referentie-skelet: [`docs/leerpad-skelet-1-4.md`](docs/leerpad-skelet-1-4.md)). Stand-van-zaken: [`docs/leerstuk-status.md`](docs/leerstuk-status.md) |
 | **Leerstuk-feedback geven** (bestaand leerstuk verbeteren) | [`docs/leerstuk-procedure.md`](docs/leerstuk-procedure.md) §"Feedback op een bestaand leerstuk". Gouden regel: **bewerk nooit rechtstreeks de gegenereerde markdown** — script-YAML editen + re-render via prompt. Multi-leerstuk feedback: parallel subagenten |
@@ -119,7 +119,7 @@ certificaid/
 │   └── tarief-{extractie,verify}-v1.md
 ├── content/
 │   ├── concepten/               # Concept-fiches (rendered uit schema 2.2-records)
-│   ├── leerpaden/               # Minicursussen per PO (ADR-036, handgeschreven)
+│   ├── studiemateriaal/               # Minicursussen per PO (ADR-036, handgeschreven)
 │   ├── themafiches/             # Themafiches per cluster (ADR-036, handgeschreven; POC nog in experiment/)
 │   ├── experiment/              # Schema-mockups + POC-themafiches (referentie)
 │   ├── voorbeeldexamens/        # Voorbeeldexamen-fiches (per PO, ADR-032)

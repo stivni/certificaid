@@ -22,7 +22,7 @@ Per examenvraag:
    - Per deelvraag `vraag_antwoorden[].blokken[]` met typed-blok-types.
    - Per blok `confidence` + `bron_refs`.
 
-3. **Merge + render** (schema 4.0, bestaand) — `_merged/<examen>.json` → `content/voorbeeldexamens/po-<code>.md`
+3. **Merge + render** (schema 4.0, bestaand) — `_merged/<examen>.json` → `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md`
    - Tooling: `tools/examen/merge_examen_artefacten.py --alle` + `tools/examen/render_merged_v4.py --po <code>`.
 
 ---

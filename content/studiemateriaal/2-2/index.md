@@ -1,0 +1,196 @@
+---
+title: "PO 2.2 — Personenbelasting · overzicht"
+description: "Overzicht voor PO 2.2: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+explorer_title: "2.2 Personenbelasting"
+tags:
+  - overzicht
+  - po-2-2
+---
+
+> **Overzicht.** Drie-lagen-aanpak voor wie zich op het ITAA-examen voorbereidt: dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De **themafiche** *(zie §4)* geeft alles van het onderwerp op één pagina, als kapstok om snel te bekijken. De **concept-fiches** geven de details per begrip.
+
+---
+
+## 1. Waarom dit vak?
+
+Personenbelasting is **veruit het zwaarstgewogen fiscale vak** op het ITAA-examen, en met reden: elke loonbrief, elke huurinkomst, elke pensioenuitkering die je later voor een cliënt moet behandelen, kruist op een bepaald moment dit wetboek. De stof is uitgebreid (zeventien kenniselementen — van inkomstencategorieën over aftrekken tot belastingberekening) en de wetgever stapelt er voortdurend nieuwe regimes bovenop: gewestelijke belastingverminderingen, het mobiliteitsbudget, hervormingen aan de huurfiscaliteit. Wat het examen toetst is niet of je het hele WIB uit het hoofd kent — dat heb je dankzij ITAA-LEX en het Cijferzakboekje toch niet nodig — maar of je een casus *systematisch* aanpakt: kwalificeren, juiste tarief vinden, valkuilen herkennen.
+
+### Hoe past dit in het bredere programma?
+
+| Andere PO | Relatie tot dit vak |
+|---|---|
+| **PO 2.1 — Algemene beginselen van fiscaal recht** | Levert het denkkader: wettelijkheid, gelijkheid, interpretatie. Dit vak is de toepassing op natuurlijke personen. |
+| **PO 2.3 — Vennootschapsbelasting** | Spiegelvak voor rechtspersonen. Veel concepten reizen mee: bedrijfsleidersbezoldiging, voorafbetalingen, beroepskosten. |
+| **PO 2.4 — Btw** | Aparte belasting met eigen wetboek, maar voor zelfstandigen overlapt het werkterrein (winst-baten, btw-aangifte). |
+| **PO 2.5 — Fiscale procedure** | De *procedurele* kant: aangifte, controle, bezwaar — vooral relevant wanneer een PB-aanslag betwist wordt. |
+| **PO 5 — Sociale wetgeving** | Sociale bijdragen en RSZ bepalen het brutoloon, dat het startpunt is voor de PB-berekening. |
+
+---
+
+## 2. Wat is dit vak?
+
+### Het probleem
+
+Een rijksinwoner ontvangt in een jaar onroerende inkomsten (huur, eigen woning), roerende inkomsten (dividenden, interest), beroepsinkomsten (loon, winst, baten, pensioen) en mogelijk diverse inkomsten (occasionele winst, alimentatie). Elk van die inkomstenstromen heeft een eigen kwalificatieregel, een eigen kostenforfait, een eigen tarief, en een eigen aangiftevak. Tegelijk wil de wetgever met aftrekken en belastingverminderingen sturen — kinderoppas, pensioensparen, energiezuinige renovatie — en houdt hij rekening met gezinslast en woonplaats (federaal vs. gewestelijk). Het resultaat: een complexe machinerie waar één verkeerd vakje de eindberekening kan kantelen.
+
+### De oplossing
+
+De **personenbelasting** vertaalt al die inkomsten naar één belastbaar resultaat via vier inkomstencategorieën, paste daarop een progressief tarief toe, en corrigeert vervolgens met aftrekbare bestedingen (vóór tarief) en belastingverminderingen (ná tarief). Elke stap is gestructureerd: brutobedrag → kostenforfait of werkelijke kosten → netto → samenvoeging → aftrekbare bestedingen → progressief tarief → belastingvermindering → voorheffingen en voorafbetalingen verrekenen → te betalen/terug.
+
+### Het plichten-spel
+
+Elke rijksinwoner moet jaarlijks een aangifte indienen (tenzij voorstel van vereenvoudigde aangifte). De aangifte is een *eigen verklaring* — de fiscus mag binnen de aanslagtermijn corrigeren. Wie niet aangeeft riskeert een aanslag van ambtswege (zie PO 2.5). Naast de eindbelasting werken voorheffingen (bedrijfsvoorheffing op loon, roerende voorheffing op dividenden) en voorafbetalingen als bevoorradingsmechanisme — wie te weinig stort krijgt een vermeerdering.
+
+### De inkomstenfamilies en hun kwalificatieregels
+
+Vier inkomstencategorieën — **onroerend**, **roerend**, **beroeps-**, **diverse** — vormen de ruggengraat. Elke familie heeft een eigen kwalificatieregel: een huurprijs aan een natuurlijke persoon-voor-privé wordt forfaitair belast (KI × 1,40), aan een vennootschap of beroepsmatig op werkelijke huur min forfait. Bij gemeubelde verhuur wordt 60/40 gesplitst tussen onroerend en roerend. Beroepsinkomsten kennen drie sub-categorieën (loon, winst/baten, bedrijfsleiderbezoldiging) met elk eigen kostenforfaits. De **diverse inkomsten** vangen op wat nergens anders past — speculatieve meerwaarden, occasionele winst, ontvangen onderhoudsuitkeringen.
+
+### Wat doet de accountant hier?
+
+In de personenbelasting kruisen vooral twee rollen: de **boekhouder** of administratieve begeleider die de aangifte invult voor een zelfstandige of particulier (kwalificeren, juist vak, voorheffingen verrekenen), en de **adviseur** die voor de oprichting van een eenmanszaak, de uitkering van pensioenkapitaal, of de verkoop van een privé-verhuurd onroerend goed met de cliënt zijn opties doorrekent. De rol van **commissaris** ligt vrijwel buiten dit vak — commissarissen werken op vennootschappen, niet op de aangifte van een natuurlijke persoon. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+
+---
+
+## 3. Wat moet je kunnen?
+
+Het examenprogramma noemt voor dit vak **vijf taken**:
+
+> *Begeleiding bij de oprichting van een onderneming*
+>
+> *Verlenen van advies en diensten met betrekking tot de overdracht of ontbinding van de onderneming*
+>
+> *De belastingplichtige in alle fiscale aangelegenheden advies verlenen*
+>
+> *Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen*
+>
+> *Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden*
+
+Die taken bestrijken het hele leven van een dossier: van oprichting eenmanszaak en keuze tussen vennootschapsvorm en zelfstandige, over jaarlijkse aangifte en optimalisatie, tot stopzetting en eventuele betwisting.
+
+### De kern — de personenbelasting van A tot Z
+
+Wat je concreet moet kunnen, per rol die je later zal opnemen:
+
+**Als boekhouder of administratief begeleider:**
+- De [[aangifte-pb|aangifte personenbelasting]] correct invullen (alle vakken III-XIII van deel 1 en deel 2)
+- [[onroerend-inkomen-pb|Onroerend inkomen]] kwalificeren en aangeven — verhuur aan particulier vs. beroepsmatig, [[kadastraal-inkomen|KI]] vs. werkelijke huur, gemeubelde 60/40-splitsing
+- [[roerend-inkomen-pb|Roerende inkomsten]] verwerken: dividenden, interest, royaltys, auteursrechten — en de [[roerende-voorheffing|roerende voorheffing]] verrekenen
+- [[beroepsinkomen-pb|Beroepsinkomen]] opnemen: [[werknemersbezoldiging|loon]], [[winst-baten-zelfstandige|winst of baten]], [[bedrijfsleidersbezoldiging|bedrijfsleidersbezoldiging]], pensioenen
+- [[beroepskosten|Beroepskosten]] inschatten — werkelijk of forfaitair (30%/3%/5% naargelang categorie)
+- [[voordelen-alle-aard|Voordelen alle aard]] verwerken — [[vaa-woning|woning]], [[autokosten|wagen]], [[vaa-pc-en-communicatie|pc/communicatie]], [[vaa-renteloze-lening|lening]], [[vaa-verwarming-en-elektriciteit|energie]]
+- [[diverse-inkomsten-pb|Diverse inkomsten]] kwalificeren (occasionele winst, speculatieve meerwaarden, onderhoudsuitkeringen)
+- [[aftrekbare-bestedingen-pb|Aftrekbare bestedingen]], [[federale-belastingverminderingen-pb|federale]] en [[gewestelijke-belastingverminderingen-pb|gewestelijke belastingverminderingen]] toepassen
+- [[bedrijfsvoorheffing|Bedrijfsvoorheffing]] en [[voorafbetalingen|voorafbetalingen]] verrekenen
+- De [[belastingberekening-pb|eindberekening]] uitvoeren: bruto → netto → tarief → vermindering → te betalen/terug
+
+**Als adviseur:**
+- [[ondernemingsvormen#begeleiden-bij-oprichting-eenmanszaak|Een ondernemer begeleiden bij oprichting van een eenmanszaak]] (winst/baten-regime, btw-keuze, voorafbetalingen)
+- Een stopzetting voorbereiden — [[stopzettingsmeerwaarde|stopzettingsmeerwaarden]] (tarief van art. 171 WIB), [[onderhoudsuitkering|alimentatie-regelingen]] na scheiding
+- Optimalisatie van de [[gezinssituatie|gezinssituatie]]: [[huwelijksquotient|huwelijksquotiënt]], [[kinderen-ten-laste|kinderen ten laste]], [[belastingvrije-som|belastingvrije som]]
+- Werknemers-vergoedingen structureren: [[maaltijdcheques|maaltijd-]], [[ecocheques|eco-]] en [[sport-cultuur-cheques|sport-cultuurcheques]], [[geschenken-aan-werknemers|geschenken]], [[mobiliteitsbudget|mobiliteitsbudget]] of [[cash-for-car|cash-for-car]]
+- Loonpakket-componenten optimaliseren: [[warrants-en-aandelenopties|warrants en aandelenopties]], [[niet-recurrente-resultaatsgebonden-bonus|niet-recurrente bonus]], [[groepsverzekering-ipt|groepsverzekering/IPT]]
+- [[opzegvergoeding|Opzeg-]] en [[outplacementkost|outplacement-]]vergoedingen fiscaal kwalificeren (afzonderlijke aanslagvoet art. 171 WIB)
+
+### Rakend — gedeelde concepten met andere PO's
+
+Veel PB-bouwstenen overlappen met de **vennootschapsbelasting** (bedrijfsleidersbezoldiging, autokosten, voordelen alle aard, voorafbetalingen). Voor wie zowel PB als VenB voorbereidt is dit dubbel rendement — zie de tabel in §6.
+
+- **Overzicht PO 2.3 — Vennootschapsbelasting** *(zie [[2.3|PO 2.3]])* — voor de spiegel-behandeling bij vennootschappen
+- **Overzicht PO 2.5 — Fiscale procedure** *(zie [[2.5|PO 2.5]])* — voor [[aanslagbiljet-pb|aanslagbiljet]] en bezwaarprocedure
+
+### Wat je daarvoor moet kennen
+
+Naast de operationele acties hierboven moet je deze begrippen en kaders beheersen:
+
+**Het centrale concept**
+- [[personenbelasting]] — het stelsel zelf, met zijn vier inkomstencategorieën
+
+**Loon en payroll als startpunt**
+- [[loon-en-payroll]] — totaalbeeld van de loonbrief
+- [[bruto-loon]] — startbedrag
+- [[rsz-werknemer]] / [[rsz-werkgever]] — sociale bijdragen die aftrekbaar zijn vóór belasting
+- [[werknemersbezoldiging]] — de kwalificatie binnen art. 30 WIB
+- [[werkbonus]] — fiscale vermindering voor lage lonen
+- [[dertiende-maand]] / [[eindejaarspremie]] / [[enkel-en-dubbel-vakantiegeld]] — aparte loonelementen
+- [[forfaitaire-onkostenvergoeding]] — wanneer aftrekbaar als ernstige norm
+
+**Eigen woning en gezinscontext**
+- [[eigen-woning-fiscaal]] — de gewestelijke woonfiscaliteit (geen federale aftrek meer sinds 2014)
+
+**Tarieven en bedragen — Cijferzakboekje**
+- Progressief tarief art. 130 WIB en afzonderlijke aanslagvoeten art. 171 WIB zijn in het Cijferzakboekje (bij examen beschikbaar) — focus op *welk tarief wanneer* gebruiken, niet op de cijfers zelf
+- Kostenforfaits art. 51 WIB: 30% werknemers, 3% bedrijfsleiders, 5% meewerkende echtgenoot
+
+**Wettelijke kaders (geen aparte fiches — ze zitten verweven in de records)**
+- WIB92 art. 3-178 (belastbaar inkomen + categorieën)
+- WIB92 art. 130-178bis (berekening)
+- KB/WIB92 (uitvoeringsmaatregelen, codes aangifte)
+- Vlaamse Codex Fiscaliteit (gewestelijke onroerende voorheffing) en parallele Waalse/Brusselse regels
+
+---
+
+## 4. Studie-aanpak
+
+### Leesroute door de fiches (vijf stappen)
+
+PB is groot — werk niet rij voor rij door de fiches, maar bouw in vijf lagen op:
+
+1. **Begin met het stelsel-overzicht**: [[personenbelasting]] + [[aangifte-pb]] + [[belastingberekening-pb]]. Geeft de ruggengraat — wie is belastingplichtig, hoe loopt de berekening van bruto naar te betalen.
+2. **Daarna de vier inkomstenfamilies**: [[onroerend-inkomen-pb]] + [[roerend-inkomen-pb]] + [[beroepsinkomen-pb]] + [[diverse-inkomsten-pb]]. Kwalificatie is in PB het hoofdfeit — als je weet onder welke categorie iets valt, vind je de juiste regel snel.
+3. **Dan loon en VAA als zwaartepunt**: [[loon-en-payroll]] + [[werknemersbezoldiging]] + [[bedrijfsleidersbezoldiging]] + [[voordelen-alle-aard]] + [[autokosten]] + [[vaa-woning]]. De examenvragen rond loonpakket en VAA komen het vaakst terug.
+4. **Vervolgens de gezinscontext en aftrekken**: [[gezinssituatie]] + [[belastingvrije-som]] + [[kinderen-ten-laste]] + [[huwelijksquotient]] + [[aftrekbare-bestedingen-pb]] + [[federale-belastingverminderingen-pb]] + [[gewestelijke-belastingverminderingen-pb]]. Hier worden frequent valkuilen ingebouwd (kinderoppas niet-terugbetaalbaar, gewestelijke vs. federale vermindering).
+5. **Sluit af met voorheffingen en stopzetting**: [[bedrijfsvoorheffing]] + [[roerende-voorheffing]] + [[voorafbetalingen]] + [[stopzettingsmeerwaarde]]. Stopzettingsmeerwaarden zijn een examen-klassieker (welk art. 171-tarief in welk geval?).
+
+### Voor de herhaling — themafiche
+
+Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+
+| Themafiche | Rol voor dit vak |
+|---|---|
+| [[themafiches/aftrekken-en-belastingverminderingen|Aftrekken & belastingverminderingen PB]] | **Kern** — aftrekbare bestedingen vs. vermindering vs. krediet, federaal vs. gewest |
+| [[themafiches/art-171-afzonderlijke-aanslagvoeten|Art. 171 afzonderlijke aanslagvoeten]] | **Kern** — stopzettingsmeerwaarden, opzegvergoedingen, kapitalen aanvullend pensioen |
+| [[themafiches/inkomstencategorieen|Inkomstencategorieën PB]] | **Kern** — onroerend inkomen: KI × 1,40, gemeubeld 60/40, verhuur particulier vs. beroep |
+| [[themafiches/pb-berekeningsschema|PB-berekeningsschema]] | **Kern** — bruto naar te betalen, met alle bewerkingen en valkuilen |
+| [[themafiches/voordelen-alle-aard|Voordelen alle aard]] | **Kern** — auto, woning, pc, lening, energie — formules + cijferzakboekje-verwijzingen |
+
+---
+
+## 5. Examen-radar — wat is in de praktijk al bevraagd?
+
+Uit de voorbeeldexamens 2003-2024 zijn voor dit PO **29 unieke vraag-eenheden** getagd uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1), alle met modelantwoord. Hieronder de meest terugkerende onderwerpen.
+
+| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+|---|---|---|---|
+| **Onroerend inkomen — verhuur natuurlijk persoon (KI × 1,40 + 60/40)** | 3× (2024-1, 2015-1, 2013-1) | Casus + vakken/codes | [[onroerend-inkomen-pb]] |
+| **Forfaitaire kostenaftrek — werknemer/bedrijfsleider/meewerkende echtgenoot** | 2× (2024-1, 2015-1) | Juist/fout — percentages art. 51 WIB | [[beroepskosten]] |
+| **Beroepsinkomsten aan afzonderlijke aanslagvoet (art. 171 WIB)** | 2× (2024-1, 2015-1) | Opsomming + tarieven | [[stopzettingsmeerwaarde]] · [[opzegvergoeding]] |
+| **Beroepsverliezen — volgorde van compensatie, inter-echtgenootlijk** | 1× (2015-1) | Juist/fout — art. 23/129 WIB | [[beroepsinkomen-pb]] |
+| **Buitenlands onroerend goed — huurwaarde, vermindering art. 156 WIB** | 1× (2015-1) | Juist/fout — formule huurwaarde | [[onroerend-inkomen-pb]] |
+| **Aftrekbare bestedingen vs. belastingverminderingen (kinderoppas)** | 1× (2015-1) | Juist/fout — terugbetaalbaarheid | [[aftrekbare-bestedingen-pb]] · [[federale-belastingverminderingen-pb]] |
+| **Vrijstellingen van economische aard / investeringsaftrek** | 1× (2015-1) | Juist/fout — voorwaarden art. 75 WIB | [[winst-baten-zelfstandige]] |
+| **Roerende inkomsten — tarieven RV, aangifteplicht** | 1× (2015-1) | Juist/fout — art. 17 WIB | [[roerend-inkomen-pb]] · [[roerende-voorheffing]] |
+
+**Patroon dat opvalt**: PB-vragen zijn **casus-gedreven met juist/fout-stellingen of vakken/codes**. Het examen toetst zelden of je een tarief uit het hoofd kent (daarvoor heb je het Cijferzakboekje), maar wél of je een inkomststroom *kwalificeert in de juiste categorie* en het *juiste regime* eraan koppelt. De gemeubelde-verhuur-casus (60/40) komt drie keer voor — leer die mechaniek tot je hem in slaap kunt opzeggen. Idem voor art. 171 WIB: weten *welke* inkomsten afzonderlijk belast zijn (en welke niet — zoals flexi-jobs boven het plafond) levert punten op.
+
+→ **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 2.2](voorbeeldexamenvragen).
+
+---
+
+## 6. Concepten die ook in andere PO's leven
+
+Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
+
+| Concept | Ook actief in | Waarom relevant elders |
+|---|---|---|
+| [[bedrijfsleidersbezoldiging]] | PO 2.3 (venB) | Aftrekbaar bij de vennootschap; minimum-bezoldigingstest voor verlaagd tarief |
+| [[autokosten]] | PO 2.3, PO 2.4 (btw) | Aftrekbeperking voor wagens werkt in alle drie de belastingen |
+| [[voordelen-alle-aard]] | PO 2.3 | Spiegelbehandeling: VAA bij begunstigde = bezoldiging in vennootschap |
+| [[voorafbetalingen]] | PO 2.3 | Identiek principe — wel andere drempel/tarief in VenB |
+| [[mobiliteitsbudget]] | PO 2.3 | Aftrekbaar bij werkgever; speciale btw-uitsluiting |
+| [[beroepskosten]] | PO 2.3 | Algemene aftrekbaarheidsvoorwaarden (art. 49 WIB) reizen mee |
+| [[stopzettingsmeerwaarde]] | PO 2.3 | Spiegelbehandeling bij vennootschapsstopzetting |
+| [[aangifte-pb]] | PO 2.5 | Aangifteplicht en aanslagbiljet — procedurele kant |
+
+---
+
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.2). Status: voorgesteld — nog niet inhoudelijk gecureerd.*

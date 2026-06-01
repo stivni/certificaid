@@ -9,13 +9,13 @@ tags:
 
 <div class="no-print">
 
-> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
 
 </div>
 
 <div class="no-print">
 
-> **Themafiche — kapstok voor herhaling.** Zeven vormen in één matrix, plus keuze-beslisboom en grootte-drempels. WVV-systematiek sinds 2019. Voor verhaal en routekaart: [[leerpaden/3.0|minicursus PO 3.0]].
+> **Themafiche — kapstok voor herhaling.** Zeven vormen in één matrix, plus keuze-beslisboom en grootte-drempels. WVV-systematiek sinds 2019. Voor verhaal en routekaart: [[studiemateriaal/3-0|overzicht PO 3.0]].
 
 </div>
 
@@ -78,7 +78,7 @@ Vennootschap is **klein** wanneer ze op balansdatum **niet meer dan één** drem
 ⚠️ Concrete bedragen: **Cijferzakboekje bij examen**.
 
 **Cascade van gevolgen** bij "klein":
-- Verkorte jaarrekening + vrijstelling consolidatie (cross [[leerpaden/1-4/samenvatting|consolidatie]])
+- Verkorte jaarrekening + vrijstelling consolidatie (cross [[studiemateriaal/1-4/samenvatting|consolidatie]])
 - Geen commissaris verplicht
 - Niet "klein" voor fiscaal KMO-tarief tenzij art. 1:24 WVV én bezoldigingsregel (min. 45.000 EUR bedrijfsleidersbezoldiging of ≥ belastbaar resultaat) voldaan
 - **Twee opeenvolgende boekjaren** voor wijziging — geen eenmalige overschrijding

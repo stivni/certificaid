@@ -189,6 +189,6 @@ Begin nu.
 | Skelet-document | `docs/leerpad-skelet-<po-slug>.md` | Nog niet retroactief voor 1.4 geschreven — kan post-hoc als template gebruikt worden |
 | Scripts | `data/leerstukken/<slug>.yaml` | 6 stuks voor 1.4 |
 | Voorbeeldgroep | `data/voorbeeldgroepen/<naam>.yaml` | `aurelia.yaml` voor 1.4 |
-| Markdown-output | `content/leerpaden/<po-slug>/<slug>.md` | 5 leerstukken voor 1-4/ + 1 cross-PO in `content/leerstukken/` |
-| Minicursus | `content/leerpaden/<po-slug>/index.md` | `1-4/index.md` |
+| Markdown-output | `content/studiemateriaal/<po-slug>/<slug>.md` | 5 leerstukken voor 1-4/ + 1 cross-PO in `content/leerstukken/` |
+| Minicursus | `content/studiemateriaal/<po-slug>/index.md` | `1-4/index.md` |
 | Themafiche | `content/themafiches/<cluster>.md` | `consolidatie.md` updated met tweelaags-doorklik |

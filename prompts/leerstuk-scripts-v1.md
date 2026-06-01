@@ -122,4 +122,4 @@ Begin met Stap A.
 | Skelet | `docs/leerpad-skelet-<po-slug>.md` | 1 (input voor deze prompt) |
 | Voorbeeldgroep | `data/voorbeeldgroepen/<naam>.yaml` | 2 (input voor deze prompt) |
 | Scripts | `data/leerstukken/<slug>.yaml` | 3 (output van deze prompt) |
-| Markdown | `content/leerpaden/<po-slug>/<slug>.md` | 4 (na render) |
+| Markdown | `content/studiemateriaal/<po-slug>/<slug>.md` | 4 (na render) |

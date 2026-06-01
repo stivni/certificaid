@@ -1,0 +1,183 @@
+---
+title: "PO 2.7 — Regionale en lokale belastingen · overzicht"
+description: "Overzicht voor PO 2.7: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+explorer_title: "2.7 Gewest & gemeente"
+tags:
+  - overzicht
+  - po-2-7
+---
+
+## 1. Waarom dit vak?
+
+Niet alle belastingen zijn federaal. Sinds de regionalisering heffen gewesten een groot deel van de **belastingen op vermogen en vastgoed** (registratie, erfbelasting, onroerende voorheffing), terwijl gemeenten en provincies eigen aanvullende belastingen en specifieke heffingen opleggen (opcentiemen op de personenbelasting, leegstandstaks, belasting op tweede verblijven). Wie alleen federale fiscaliteit kent, mist een laag van het fiscale plaatje die voor cliënten vaak even zwaar weegt — soms zwaarder.
+
+### Hoe past dit in het bredere programma?
+
+| Andere PO | Relatie tot dit vak |
+|---|---|
+| **PO 2.6 — Registratie- en successierechten** | Beide heffingen zijn overgedragen gewestbelastingen. Tarieven, vrijstellingen en aangifteprocedures zijn de materie van PO 2.6; PO 2.7 plaatst ze in het ruimere kader van de gewestbevoegdheid. |
+| **PO 2.1 — Personenbelasting** | Op de personenbelasting zitten gemeentelijke opcentiemen die mee bepalen hoeveel een belastingplichtige effectief betaalt. PO 2.1 levert de federale grondslag, PO 2.7 de lokale verhoging. |
+| **PO 2.4 — Procedure en fiscale geschillen** | Bezwaar en rechtsmiddelen tegen een gewestelijke of gemeentelijke aanslag volgen een eigen procedure-route (Vlabel, Bruxelles Fiscalité, het college). Algemene procedureregels komen uit PO 2.4. |
+| **PO 3.0 — Vennootschapsrecht** | Bij keuze van vestigingsplaats van een vennootschap of inplanting van vastgoed spelen lokale heffingen mee in de fiscale optimalisatie. |
+| **PO 5.0 — Recht** | De fiscale bevoegdheid van gewesten, gemeenschappen en lokale overheden steunt op grondwettelijke en bijzondere financieringswet — pure publiekrechtelijke materie. |
+
+---
+
+## 2. Wat is dit vak?
+
+### Het probleem
+
+Een cliënt verhuist van Antwerpen naar Wallonië, koopt een tweede verblijf aan de kust, of laat een handelsfonds leegstaan in afwachting van verkoop. Elke verandering raakt aan een ander niveau: Vlabel int de erfbelasting volgens Vlaamse tarieven, het Brussels Hoofdstedelijk Gewest heeft een eigen leegstandsheffing, de kustgemeente legt een tweede-verblijven-taks op, en bovenop alles komt de federale personenbelasting met provinciale en gemeentelijke opcentiemen. Wie niet weet welke overheid welke heffing oplegt, kan de cliënt niet correct adviseren — laat staan een bezwaar bij de juiste instantie indienen.
+
+### De oplossing
+
+Dit vak bouwt een **kapstok per belastingniveau**: gewest, gemeenschap, provincie, gemeente. Voor elk niveau leer je vier vragen beantwoorden: wie heft, op welke grondslag, hoe wordt de aanslag gevestigd en geïnd, en welke beroepsweg staat open. Door die gemeenschappelijke bouwstenen op elk heffingstype toe te passen kan je dossiers met meerdere overheden snel ontwarren.
+
+### Het werkingsveld
+
+Twee grote categorieën samen: **overgedragen belastingen** waarvan de federale wetgever oorspronkelijk het regime opzette maar de gewesten de opbrengst en de bevoegdheid hebben overgenomen (registratie, erfbelasting, onroerende voorheffing, [[verkeersbelasting]], [[belasting-inverkeerstelling]]), en **autonome belastingen** die gewesten of lokale overheden zelf invoeren op grond van hun eigen fiscale autonomie ([[leegstandsheffing-bedrijfsruimten|leegstandsheffingen]], milieuheffingen, [[gemeentebelastingen-sui-generis|gemeentebelastingen op tweede verblijven, terrassen, reclame]]). Op dat laatste rusten grenzen: territorialiteit, gelijkheidsbeginsel en het non-bis-in-idem-beginsel — zonder die toets sneuvelt een reglement bij de fiscale rechtbank.
+
+### Hoe het gemeentelijke niveau heft
+
+Op gemeentelijk niveau loopt de heffing langs verschillende sporen. De [[aanvullende-gemeentebelasting-pb|aanvullende belasting op de personenbelasting]] is een percentage bovenop de federale aanslag — de grootste financieringsbron voor de meeste gemeenten. De [[gemeentelijke-opcentiemen-onroerende-voorheffing|opcentiemen op de onroerende voorheffing]] verhogen de gewestelijke heffing op vastgoed. De [[gemeentebelastingen-sui-generis|eigen gemeentebelastingen]] treffen specifieke fenomenen (reclame, leegstand, tweede verblijven, terrassen) en moeten elk steunen op een correct geldgemaakt belastingreglement.
+
+### Wat doet de accountant hier?
+
+De **adviseur** is de dominante rol: hij rekent fiscale gevolgen door bij keuze van vestiging, vergelijkt regimes tussen gewesten, en wijst op samenloop met federale belastingen. De **boekhouder** verzorgt de praktische compliance: aangiften onroerende voorheffing, verkeersbelasting, gemeentelijke leegstandsmeldingen. De **vertegenwoordiger** treedt op bij bezwaar — bij Vlabel of Bruxelles Fiscalité voor gewestelijke heffingen, bij het college van burgemeester en schepenen voor gemeentelijke. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+
+---
+
+## 3. Wat moet je kunnen?
+
+Het examenprogramma noemt drie taken voor dit vak. De meest typerende:
+
+> *Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen*
+
+Daarnaast vraagt het programma begeleiding bij de oprichting van een onderneming (vanuit lokaal-fiscaal perspectief) en vertegenwoordiging bij gewestelijke en lokale administraties. Het werk splitst zich op in een **Kern** en delen die **Rakend** zijn met andere vakken.
+
+### De kern — regionale en lokale heffingen toepassen
+
+Wat je concreet moet kunnen:
+
+**Als adviseur — de dominante rol:**
+- De [[gewestelijke-fiscale-autonomie|gewestelijke fiscale autonomie]] correct afbakenen — welke heffingen zijn overgedragen, welke zijn autonoom, waar liggen de grenzen
+- De [[lokale-fiscale-autonomie|gemeentelijke fiscale autonomie]] toetsen aan grondwet, territorialiteit en non-bis-in-idem
+- Een [[lokale-belasting-reglement|gemeentelijk belastingreglement]] beoordelen op wettigheid (goedkeuring, bekendmaking, gelijkheid)
+- De cliënt waarschuwen voor samenloop tussen federale, gewestelijke en [[lokale-en-regionale-belastingen|lokale heffingen]] op één fenomeen
+- Bij vestigingskeuze of vastgoedaankoop de [[onroerende-voorheffing|onroerende voorheffing]] inclusief [[gemeentelijke-opcentiemen-onroerende-voorheffing|opcentiemen]] doorrekenen
+
+**Als boekhouder die de cliënt bijstaat met compliance:**
+- Aangiften voor [[verkeersbelasting]] en [[belasting-inverkeerstelling]] verzorgen (auto, bedrijfswagens)
+- [[kadastraal-inkomen|Kadastraal inkomen]] correct hanteren in aangiften
+- Aangifteverplichtingen voor [[leegstandsheffing-bedrijfsruimten|leegstandsheffingen]] of [[planbatenheffing|planbatenheffing]] tijdig vervullen
+- [[aanvullende-gemeentebelasting-pb|Gemeentelijke opcentiemen op de PB]] correct doorberekenen in aangifte-simulaties
+
+**Als vertegenwoordiger tegenover gewest of gemeente:**
+- [[gewestelijke-fiscale-procedure|Bezwaar indienen]] bij Vlabel, Bruxelles Fiscalité of de gewestelijke administratie binnen de geldende termijn
+- [[lokale-belasting-reglement|Bezwaar indienen bij het college]] tegen een [[gemeentebelastingen-sui-generis|gemeentelijke aanslag]] — gevolgd door beroep bij de fiscale rechtbank
+- Het [[gewestelijke-fiscale-procedure|verloop van een gewestelijke fiscale procedure]] toelichten aan de cliënt (bezwaar, hoorrecht, rechtbank)
+- Een [[provinciale-belastingen|provinciaal belastingreglement]] aanvechten waar het te ruim of discriminerend werkt
+
+### Rakend — wat dit vak deelt met andere domeinen
+
+Voor de specifieke **gewestelijke registratie- en erfbelasting** (tarieven, vrijstellingen, gunstregimes) verwijst dit vak naar PO 2.6. De **algemene fiscale procedure** (bezwaar, beroep, bewijslast) wordt systematisch behandeld in PO 2.4 — hier focussen we op de gewestelijke en lokale eigenheden. Voor die delen:
+
+- **Overzicht PO 2.6 — Registratie- en successierechten** *(zie [PO 2.6](2.6))*
+- **Overzicht PO 2.4 — Procedure en fiscale geschillen** *(nog te maken — algemene procedureregels)*
+- **Overzicht PO 2.1 — Personenbelasting** *(nog te maken — federale grondslag waarop gemeentelijke opcentiemen rusten)*
+
+### Wat je daarvoor moet kennen
+
+**Het overkoepelend kader**
+- [[lokale-en-regionale-belastingen]] — koepel: wat is regionaal, wat is lokaal, hoe verhouden ze zich
+- [[gewestelijke-fiscale-autonomie]] — bevoegdheidsgrenzen van de gewesten
+- [[lokale-fiscale-autonomie]] — bevoegdheidsgrenzen van gemeenten en provincies
+
+**Gewestelijke heffingen (overgedragen)**
+- [[onroerende-voorheffing]] — kerngewestelijke heffing op vastgoed
+- [[verkeersbelasting]] — jaarlijkse heffing op motorvoertuigen
+- [[belasting-inverkeerstelling]] — eenmalig bij inschrijving
+- [[kadastraal-inkomen]] — grondslag voor onroerende voorheffing
+
+**Gewestelijke heffingen (autonoom)**
+- [[leegstandsheffing-bedrijfsruimten]] — typisch Vlaamse autonome heffing
+- [[planbatenheffing]] — heffing op meerwaarde door bestemmingswijziging
+
+**Gemeentelijke heffingen**
+- [[aanvullende-gemeentebelasting-pb]] — percentage op federale PB
+- [[gemeentelijke-opcentiemen-onroerende-voorheffing]] — verhoging op gewestheffing
+- [[gemeentebelastingen-sui-generis]] — leegstand, tweede verblijven, terrassen, reclame
+- [[lokale-belasting-reglement]] — vormvereisten en wettigheidstoets
+
+**Provinciale heffingen**
+- [[provinciale-belastingen]] — afnemend maar nog actief
+
+**Procedure-laag**
+- [[gewestelijke-fiscale-procedure]] — bezwaar bij gewest, beroep bij rechtbank
+
+**Wettelijke kaders (geen aparte fiches — verweven in de records)**
+- Bijzondere Financieringswet — kader voor gewestelijke fiscale autonomie
+- Decreet houdende de Vlaamse Codex Fiscaliteit (VCF) — voor Vlaanderen
+- Brussels Wetboek van fiscale procedure
+- Wet van 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen
+- Gemeentewet (art. 170 Grondwet) — grondslag fiscale bevoegdheid
+
+---
+
+## 4. Studie-aanpak
+
+### Leesroute door de fiches (vijf stappen)
+
+Werk de stof op in vijf stappen — van de bevoegdheidskaders naar de concrete heffingen.
+
+1. **Begin met de bevoegdheidskaders**: [[gewestelijke-fiscale-autonomie]] + [[lokale-fiscale-autonomie]] + [[lokale-en-regionale-belastingen]]. Zonder begrip van wie wat mag heffen blijft elke heffing een losse anekdote.
+2. **Daarna de gewestelijke kern-heffingen**: [[onroerende-voorheffing]] + [[kadastraal-inkomen]] + [[verkeersbelasting]] + [[belasting-inverkeerstelling]]. Hier zit de breedste impact voor doorsnee-cliënten.
+3. **Dan de autonome gewestelijke heffingen**: [[leegstandsheffing-bedrijfsruimten]] + [[planbatenheffing]]. Bestudeer ze als toepassingen van het non-bis-in-idem-principe.
+4. **Vervolgens het gemeentelijk en provinciaal niveau**: [[aanvullende-gemeentebelasting-pb]] + [[gemeentelijke-opcentiemen-onroerende-voorheffing]] + [[gemeentebelastingen-sui-generis]] + [[provinciale-belastingen]] + [[lokale-belasting-reglement]]. Reglementstoets is hier het examen-gevoelige punt.
+5. **Sluit af met de procedure-laag**: [[gewestelijke-fiscale-procedure]] — bezwaar, beroep, termijnen.
+
+### Voor de herhaling — themafiche
+
+Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+
+| Themafiche | Rol voor dit vak |
+|---|---|
+| [[themafiches/fiscale-procedure-gewest-gemeente|Fiscale procedure gewest & gemeente]] | **Kern** — bezwaar-route per niveau + termijnen |
+| [[themafiches/gemeentelijke-belastingen|Gemeentelijke belastingen]] | **Kern** — reglement-toets + opcentiemen + sui generis |
+| [[themafiches/gewestelijke-fiscaliteit|Gewestelijke fiscaliteit]] | **Kern** — overgedragen vs autonoom + bevoegdheidstabel |
+
+---
+
+## 5. Examen-radar — wat is in de praktijk al bevraagd?
+
+Op de voorbeeldexamen-pagina staan **5 unieke vraag-eenheden** met dit vak getagd, allemaal uit examen 2024-1, allemaal met modelantwoord.
+
+| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+|---|---|---|---|
+| **Bericht van wijziging — uiterlijke termijn** | 1× (2024-1) | Termijn + bron | [[gewestelijke-fiscale-procedure]] |
+| **Fiscale procedure bij vertrek uit België** | 1× (2024-1) | Verplichtingen + termijnen | [[gewestelijke-fiscale-procedure]] |
+| **Bericht van wijziging bij nakende verjaring** | 1× (2024-1) | Procedure-stap | [[gewestelijke-fiscale-procedure]] |
+| **Vraag om inlichtingen — antwoordtermijn** | 1× (2024-1) | Termijn | [[gewestelijke-fiscale-procedure]] |
+| **Bewaarplicht — te bewaren stukken** | 1× (2024-1) | Inhoud + termijn | (algemene procedureregel) |
+
+**Patroon dat opvalt**: deze concrete examen-vragen raken **eerder de algemene fiscale procedure** (WIB92 art. 346, 354) dan de specifieke materiële regionale en lokale heffingen die het kennisdomein van PO 2.7 vormen. De vragen testen termijnen, formaliteiten en procedure-mechanica — niet de bevoegdheidsverdeling of het reglementenrecht. Dit betekent niet dat de typische PO 2.7-stof (gewestelijke vs gemeentelijke heffingen, reglementstoets) niet examen-relevant is, alleen dat de bewaarde voorbeeldvragen ze niet vertegenwoordigen. Reken bij voorbereiding dus op beide pieken: de procedure-techniek én het bevoegdheidskader.
+
+→ **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 2.7](voorbeeldexamenvragen).
+
+---
+
+## 6. Concepten die ook in andere PO's leven
+
+Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
+
+| Concept | Ook actief in | Waarom relevant elders |
+|---|---|---|
+| [[onroerende-voorheffing]] | PO 2.6 (bij vastgoed-overdracht), PO 2.1 (eigen woning) | Belangrijkste vastgoedheffing — speelt overal mee |
+| [[kadastraal-inkomen]] | PO 2.1 (onroerend inkomen in PB) | Grondslag voor zowel gewestelijke als federale heffing |
+| [[gewestelijke-fiscale-autonomie]] | PO 2.6 (registratie- en erfbelasting) | Verklaart waarom tarieven per gewest verschillen |
+| [[aanvullende-gemeentebelasting-pb]] | PO 2.1 (personenbelasting) | Verhoogt de federale aanslag — netto-impact |
+| [[gewestelijke-fiscale-procedure]] | PO 2.4 (procedure), PO 2.6 (bezwaar Vlabel) | Procedure-route bij gewestelijke heffingen |
+
+---
+
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.7). Status: voorgesteld — nog niet inhoudelijk gecureerd.*

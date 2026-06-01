@@ -406,13 +406,13 @@ Voorafgaande fasen (A → C, plus monotone enrichment-loop) produceren concept-r
 
 ### 15. Fase E — Leerpad-opstelling (schema 1.3, 2026-05-15)
 
-> ⚠️ **Superseded door [ADR-036](ADR-036-drie-lagen-leermateriaal.md) (2026-05-28).** Vervangen door drie-lagen leermateriaal-aanpak: **minicursus** (PO-niveau, verhaal + routekaart) + **themafiche** (cluster-niveau, kapstok voor herhaling) + **concept-fiche** (per record, bestaand). Het oude YAML-schema met `oriëntatie`/`competentie`/`thematisch`-hoofdstuk-types is vervangen door doorlopende markdown-documenten met kandidaat-gerichte toon. `tools/leermateriaal/propose_leerpad.py` + `prompts/leerpad-propose-v1.md` zijn verwijderd; `data/concepten/leerpaden/*.yaml` is gearchiveerd in `_archive/`. Onderstaande beschrijving blijft staan als historische referentie.
+> ⚠️ **Superseded door [ADR-036](ADR-036-drie-lagen-leermateriaal.md) (2026-05-28).** Vervangen door drie-lagen leermateriaal-aanpak: **minicursus** (PO-niveau, verhaal + routekaart) + **themafiche** (cluster-niveau, kapstok voor herhaling) + **concept-fiche** (per record, bestaand). Het oude YAML-schema met `oriëntatie`/`competentie`/`thematisch`-hoofdstuk-types is vervangen door doorlopende markdown-documenten met kandidaat-gerichte toon. `tools/leermateriaal/propose_leerpad.py` + `prompts/leerpad-propose-v1.md` zijn verwijderd; `data/concepten/studiemateriaal/*.yaml` is gearchiveerd in `_archive/`. Onderstaande beschrijving blijft staan als historische referentie.
 
 Leerpad ordent competenties + concepten + oriëntatie-blokken in een didactische volgorde per PO. Vervangt het ad-hoc "anchor-volgorde wordt minicursus-volgorde"-patroon dat empirisch te versnipperd bleek (PO 1.4 stress-test).
 
 **Input**: alle competenties van een PO + concept-records voor `thematisch`-hoofdstukken + `programma.intro_tekst`.
 
-**Output**: `data/concepten/leerpaden/<X.Y>.yaml` met drie hoofdstuk-types:
+**Output**: `data/concepten/studiemateriaal/<X.Y>.yaml` met drie hoofdstuk-types:
 - `oriëntatie` (LLM-only, beginselen)
 - `competentie` (refereert competentie-yaml)
 - `thematisch` (concept-cluster zonder competentie-omhulling)

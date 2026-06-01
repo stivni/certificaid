@@ -1,0 +1,208 @@
+---
+title: "PO 2.8 — Europees en internationaal fiscaal recht · overzicht"
+description: "Overzicht voor PO 2.8: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+explorer_title: "2.8 Internationaal fiscaal"
+tags:
+  - overzicht
+  - po-2-8
+---
+
+## 1. Waarom dit vak?
+
+Dit vak speelt zich af op de grens tussen twee of meer belastingstelsels. Wanneer een Belgische ondernemer een buitenlandse vestiging opzet, een Nederlandse werknemer in België tewerkstelt, of een dividend van een Luxemburgse dochter uitkeert, ontstaan vragen die geen enkel nationaal recht alleen kan beantwoorden: welk land mag heffen, hoe wordt dubbele belasting vermeden, en welke Europese richtlijn neutraliseert bronheffingen? Wie deze laag mist, adviseert defectief — een cliënt zit dan plots met een dubbele aanslag of een geweigerde vrijstelling.
+
+### Hoe past dit in het bredere programma?
+
+| Andere PO | Relatie tot dit vak |
+|---|---|
+| **PO 2.1 — Personenbelasting** | De [[belasting-niet-inwoners|belasting niet-inwoners]] is een variant op de PB voor wie niet in België woont maar hier inkomsten heeft. Dezelfde basistechniek, andere territoriale logica. |
+| **PO 2.3 — Vennootschapsbelasting** | [[forfaitair-gedeelte-buitenlandse-belasting|FBB]], [[moeder-dochterrichtlijn|DBI]], [[transfer-pricing|verrekenprijzen]] en exit-heffing zijn ven.B-instrumenten met een internationale dimensie. PO 2.3 levert de Belgische ven.B; PO 2.8 maakt ze grensoverschrijdend. |
+| **PO 2.6 — Registratie- en successierechten** | Bij vermogensplanning met buitenlandse goederen of buitenlandse ontvangers komen internationale aspecten samen met successierechten. |
+| **PO 2.4 — Procedure en fiscale geschillen** | De [[map|MAP-procedure]] (mutual agreement procedure) is het internationale rechtsmiddel — een geschilbeslechting tussen staten in plaats van bij de Belgische rechter. |
+| **PO 3.0 — Vennootschapsrecht** | Zetelverplaatsing, grensoverschrijdende fusies en Europese herstructureringen zijn vennootschapsrechtelijk *én* fiscaal. |
+
+---
+
+## 2. Wat is dit vak?
+
+### Het probleem
+
+Een Belgische vennootschap betaalt licentievergoedingen aan haar Duitse zusterfirma, een grensarbeider werkt half in Nederland en half thuis, een holding ontvangt dividenden uit Hongarije. Elk geval activeert minstens twee belastingstelsels: het Belgische en dat van de andere staat. Zonder coördinatie heft elk land zijn deel, en de belastingplichtige betaalt twee keer. Dat is **juridische dubbele belasting** — dezelfde persoon, hetzelfde inkomen — en het bedrijfsleven loopt erop vast.
+
+### De oplossing
+
+De oplossing zit in drie lagen. **Eenzijdig** kennen nationale wetten correcties zoals [[forfaitair-gedeelte-buitenlandse-belasting|het FBB]] op buitenlandse roerende inkomsten of de DBI-aftrek op deelnemingsdividenden. **Bilateraal** sluiten landen [[dubbelbelastingverdrag|dubbelbelastingverdragen]] (DBV's), bijna allemaal gemodelleerd op het [[oeso-modelverdrag|OESO-modelverdrag]]: ze wijzen heffingsbevoegdheid toe per inkomenscategorie en regelen hoe de woonstaat dubbele belasting moet vermijden ([[vrijstelling-met-progressievoorbehoud|vrijstelling met progressievoorbehoud]] of credit-methode). **Multilateraal en Europees** voegen instrumenten zoals het [[mli-instrument|MLI]] en richtlijnen ([[moeder-dochterrichtlijn|moeder-dochter]], [[interest-royalty-richtlijn|interest-royalty]], [[atad-richtlijn|ATAD]]) extra waarborgen of beperkingen toe.
+
+### Het werkingsveld
+
+Het vak werkt rond drie aanknopingspunten: **fiscale residentie** (wie woont waar?), **vaste inrichting** (heeft de buitenlandse onderneming voldoende substantie in België?), en **bron van het inkomen** (waar is het verdiend?). Eens die drie helder zijn, leveren verdrag en richtlijn de rest. De grote complexiteit zit in grijze zones: een [[fiscale-residentie|residentie-conflict]], een [[vaste-inrichting|vaste inrichting]] die net wel of net niet bestaat, een uitkering die zowel dividend als intrest kan zijn.
+
+### De cases die je in de praktijk tegenkomt
+
+In dossiers keren een aantal typische soorten cases terug. **Inkomstentoewijzing** onder een DBV — voor lonen, dividenden, intresten, royalty's, ondernemingswinst — waarbij je per categorie de toewijzingsregel toepast en de voorkomingsmethode afrekent. **Anti-misbruik-toetsing** waarbij interne anti-ontwijking ([[anti-misbruik|algemene anti-misbruikbepaling]], [[atad-richtlijn|ATAD]], CFC-regels) en internationale ([[beps-actieplan|BEPS]], MLI principal purpose test) op één dossier samenkomen. **Transfer pricing** waarin verbonden ondernemingen onderling marktconforme prijzen moeten hanteren, met documentatieverplichting en [[country-by-country-reporting|country-by-country reporting]] voor de grotere groepen.
+
+### Wat doet de accountant hier?
+
+De **adviseur** is dominant: hij analyseert grensoverschrijdende structuren, vraagt rulings aan over verrekenprijzen of vaste inrichting, en voorkomt dubbele belasting door tijdig de juiste verdragsvermindering aan te vragen. De **boekhouder** verzorgt de aangifte van [[belasting-niet-inwoners|niet-inwoners]] en de informatieverplichtingen (formulieren voor verminderde bronheffing onder DBV, [[country-by-country-reporting|CbCR]], aangifte van [[juridische-constructie-cayman|juridische constructies]]). De **vertegenwoordiger** voert geschillen via [[map|MAP]] of bezwaar bij de Belgische administratie. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+
+---
+
+## 3. Wat moet je kunnen?
+
+Het programma stelt vijf taken voorop, alle in een internationaal kader. De meest typerende:
+
+> *De belastingplichtige in alle fiscale aangelegenheden advies verlenen*
+
+In internationale dossiers betekent dit dat je zelfstandig prioriteiten stelt: feitenkader → kwalificatie → verdrag → richtlijn → interne wet. Het werk splitst zich in een **Kern** en delen **Rakend** met andere vakken.
+
+### De kern — internationaal fiscaal advies geven
+
+Wat je concreet moet kunnen:
+
+**Als adviseur — de dominante rol:**
+- De [[fiscale-residentie]] van een persoon of vennootschap bepalen — inclusief tiebreaker-regels in een DBV bij dubbele residentie
+- De aanwezigheid van een [[vaste-inrichting]] toetsen — vast bedrijfsruimte, afhankelijke vertegenwoordiger, dienst-vaste-inrichting
+- Per inkomenscategorie de [[dubbelbelastingverdrag|toewijzingsregels van een DBV]] toepassen (arbeid, ondernemingswinst, dividenden, intresten, royalty's, onroerend goed)
+- De juiste **voorkomingsmethode** kiezen: [[vrijstelling-met-progressievoorbehoud|vrijstelling met progressievoorbehoud]] of credit-methode
+- De impact van het [[oeso-modelverdrag|OESO-modelverdrag]] en het [[mli-instrument|MLI]] op een specifiek verdrag inschatten
+- [[transfer-pricing|Transfer pricing]] documenteren en armslengte-prijzen verdedigen
+- [[anti-misbruik|Anti-misbruik]] en [[atad-richtlijn|ATAD-regels]] (CFC, interest limitation, hybride mismatches) toepassen
+- Bij grensoverschrijdende [[internationale-structurering-vennootschap|structurering]] de [[moeder-dochterrichtlijn]] en [[interest-royalty-richtlijn|interest-royaltyrichtlijn]] inroepen voor bronheffing-vrijstelling
+- [[exit-planning-vennootschap|Exit-planning]] bij zetelverplaatsing inschatten — afrekening op latente meerwaarden
+
+**Als boekhouder die de cliënt bijstaat:**
+- Aangifte [[belasting-niet-inwoners]] correct invullen
+- [[forfaitair-gedeelte-buitenlandse-belasting|FBB]] correct verrekenen op buitenlandse roerende inkomsten
+- [[dbi-aftrek|DBI-aftrek]] toepassen op deelnemingsdividenden
+- [[bijzonder-regime-buitenlandse-kaderleden|Bijzonder regime voor buitenlandse kaderleden]] toepassen waar van toepassing
+- [[country-by-country-reporting|CbCR-rapportering]] verzorgen voor multinationale groepen
+- [[fiscale-regularisatie-en-buitenlandse-goederen|Fiscale regularisatie]] van buitenlandse goederen voorbereiden
+
+**Als vertegenwoordiger:**
+- Een [[map|MAP-procedure]] aanvragen bij economische of juridische dubbele belasting
+- Een [[voorafgaande-beslissing-dvb|ruling aanvragen]] bij de Belgische administratie (Dienst Voorafgaande Beslissingen)
+- Bezwaar voeren tegen een bericht van wijziging met internationale dimensie — zie [[map]]
+
+### Rakend — wat dit vak deelt met andere domeinen
+
+De **Belgische vennootschapsbelasting** als zodanig leeft in PO 2.3 — hier wordt ze internationaal gemaakt. De **registratie- en successierechten op internationale vermogens** raken PO 2.6. Voor die delen:
+
+- **Overzicht PO 2.3 — Vennootschapsbelasting** *(nog te maken — basis ven.B + DBI/FBB)*
+- **Overzicht PO 2.1 — Personenbelasting** *(nog te maken — basis PB + BNI)*
+- **Overzicht PO 2.6 — Registratie- en successierechten** *(zie [PO 2.6](2.6) — internationale successiedimensies)*
+
+### Wat je daarvoor moet kennen
+
+**Het overkoepelend kader**
+- [[internationaal-fiscaal]] — koepel: drie lagen (eenzijdig, bilateraal, multilateraal)
+- [[dubbelbelastingverdrag]] — werking, structuur, toewijzingsregels
+- [[oeso-modelverdrag]] — gemeenschappelijke matrijs van bijna alle Belgische DBV's
+- [[mli-instrument]] — multilaterale aanpassing van bestaande DBV's
+
+**Belgische techniek**
+- [[belasting-niet-inwoners]] — voor niet-residenten met Belgische inkomsten
+- [[toepassingsgebied-vennootschapsbelasting]] — territoriale afbakening
+- [[fiscale-residentie]] — wanneer ben je Belgisch fiscaal inwoner?
+- [[vaste-inrichting]] — wanneer heeft een buitenlandse onderneming voldoende Belgische substantie?
+- [[forfaitair-gedeelte-buitenlandse-belasting]] — FBB op buitenlandse roerende inkomsten
+- [[vrijstelling-met-progressievoorbehoud]] — voor verdragsvrijgesteld buitenlands inkomen
+- [[buitenlandse-winst-en-verlies]] — behandeling van buitenlandse VI-resultaten
+- [[winst-naar-herkomst]] — toewijzing per land
+
+**Europese richtlijnen**
+- [[eu-fiscale-richtlijnen]] — koepel
+- [[moeder-dochterrichtlijn]] — vrijstelling bronheffing op dividenden binnen EU
+- [[interest-royalty-richtlijn]] — vrijstelling bronheffing op intresten en royalty's binnen EU
+- [[atad-richtlijn]] — anti-tax-avoidance directive (CFC, interest limitation, exit tax, hybride mismatches, GAAR)
+
+**Anti-ontwijking en BEPS**
+- [[beps-actieplan]] — OESO-actieplan tegen winstverschuiving
+- [[anti-misbruik]] — algemene anti-misbruikbepaling
+- [[transfer-pricing]] — verrekenprijzen + armslengte-beginsel
+- [[country-by-country-reporting]] — CbCR voor grote groepen
+- [[thin-cap-regime]] — interestaftrekbeperking
+- [[juridische-constructie-cayman]] — Kaaimantaks
+
+**Specifieke regimes en situaties**
+- [[internationale-tewerkstelling]] — salary split, expats
+- [[bijzonder-regime-buitenlandse-kaderleden]] — fiscaal expat-regime
+- [[internationaal-onroerend-goed]] — buitenlands vastgoed in PB en Ven.B
+- [[roerend-inkomen-internationaal]] — dividenden, intresten, royalty's grensoverschrijdend
+- [[internationale-structurering-vennootschap]] — holding-, IP-, financieringsstructuren
+- [[exit-planning-vennootschap]] — zetelverplaatsing + exit-heffing
+- [[fiscale-regularisatie-en-buitenlandse-goederen]] — eenmalige regularisatie
+
+**Geschilbeslechting tussen staten**
+- [[map]] — mutual agreement procedure
+
+**Wettelijke kaders (geen aparte fiches — verweven in de records)**
+- WIB92 art. 5 (BNI) — art. 227 e.v. (territorialiteit Ven.B) — art. 285-289 (FBB) — art. 202-205quater (DBI)
+- OESO-modelverdrag en commentaar — gezaghebbend voor interpretatie van Belgische DBV's
+- EU-richtlijnen (moeder-dochter 2011/96, interest-royalty 2003/49, fusie 2009/133, ATAD I + II)
+- MLI (BEPS-actiepunt 15) — overkoepelend instrument voor verdragswijzigingen
+
+---
+
+## 4. Studie-aanpak
+
+### Leesroute door de fiches (vijf stappen)
+
+Werk de stof op in vijf stappen — van het kader, naar de aanknopingspunten, naar de richtlijnen.
+
+1. **Begin met het overkoepelend kader**: [[internationaal-fiscaal]] + [[dubbelbelastingverdrag]] + [[oeso-modelverdrag]]. Zonder de logica van een DBV is alles techniek zonder structuur.
+2. **Daarna de drie aanknopingspunten**: [[fiscale-residentie]] + [[vaste-inrichting]] + [[belasting-niet-inwoners]]. Deze drie bepalen welke staat wat mag heffen.
+3. **Dan de Belgische correctiemechanismen**: [[forfaitair-gedeelte-buitenlandse-belasting]] + [[vrijstelling-met-progressievoorbehoud]] + [[buitenlandse-winst-en-verlies]]. Zo vermijdt België dubbele heffing op zijn residenten.
+4. **Vervolgens de Europese laag**: [[moeder-dochterrichtlijn]] + [[interest-royalty-richtlijn]] + [[atad-richtlijn]] + [[eu-fiscale-richtlijnen]]. De richtlijnen overrulen verdragen waar ze gunstiger zijn.
+5. **Sluit af met anti-misbruik en BEPS**: [[beps-actieplan]] + [[transfer-pricing]] + [[anti-misbruik]] + [[mli-instrument]] + [[map]]. Dit zijn de hete onderwerpen waarop examens en praktijk samenkomen.
+
+### Voor de herhaling — themafiche
+
+Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+
+| Themafiche | Rol voor dit vak |
+|---|---|
+| [[themafiches/dbv-toepassing|DBV-toepassing]] | **Kern** — beslisboom per inkomenscategorie + voorkomingsmethode |
+| [[themafiches/eu-fiscale-richtlijnen|EU fiscale richtlijnen]] | **Kern** — moeder-dochter + interest-royalty + ATAD |
+| [[themafiches/transfer-pricing-en-beps|Transfer pricing & BEPS]] | **Kern** — armslengte + documentatie + CbCR |
+| [[themafiches/vaste-inrichting|Vaste inrichting]] | **Kern** — drempelvragen bij inbound/outbound |
+
+---
+
+## 5. Examen-radar — wat is in de praktijk al bevraagd?
+
+Uit de voorbeeldexamens 2013-1 tot 2015-1 zijn **8 unieke vraag-eenheden** met dit vak getagd, allemaal met modelantwoord.
+
+| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+|---|---|---|---|
+| **OESO-modelverdrag — juist/niet waar over internationale regels** | 1× (2015-1) | Begrip + stellingen | [[oeso-modelverdrag]] · [[dubbelbelastingverdrag]] |
+| **EU-fusierichtlijn 2009/133/EG bij overname door ivzw** | 1× (2015-1) | Toepassingsgebied richtlijn | [[eu-fiscale-richtlijnen]] |
+| **Vaste inrichting onder OESO-modelovereenkomst — verliesaftrek en globale winst** | 1× (2014-1) | Toepassing | [[vaste-inrichting]] · [[buitenlandse-winst-en-verlies]] |
+| **Fusie-richtlijn — aftrekbaarheid fiscale verliezen bij Duitse overnemer** | 1× (2014-1) | Grensoverschrijdende fusie | [[eu-fiscale-richtlijnen]] |
+| **Italiaans bijkantoor: verlies/winst in Belgische Ven.B + DBV** | 1× (2013-1) | Toepassing DBV op VI | [[vaste-inrichting]] · [[dubbelbelastingverdrag]] |
+| **Woonstaatheffing Luxemburg: aangifte België + terugbetaling** | 1× (2013-1) | Toepassing spaarrichtlijn-mechaniek | [[roerend-inkomen-internationaal]] |
+| **Grensoverschrijdende tewerkstelling onder OESO** | 1× (2013-2) | Toewijzingsregel arbeid | [[internationale-tewerkstelling]] |
+| **Moeder-dochter + interest-royaltyrichtlijn Belgisch-Hongaarse situatie** | 1× (2013-2) | Toepassing richtlijn | [[moeder-dochterrichtlijn]] · [[interest-royalty-richtlijn]] |
+
+**Patroon dat opvalt**: het examen test bijna uitsluitend **verdragstoepassing en richtlijntoepassing** op concrete casussen — niet de geschiedenis of theorie. De vragen vertrekken steevast van een feitelijke situatie ("een Belgische vennootschap met dochter in X") en vragen welke regel primeert en wat het netto-fiscaal resultaat is. **Vaste inrichting** en de **EU-fusierichtlijn** komen vaker dan je zou verwachten terug. Wat *niet* in deze examens zit maar wel programma-stof is: BEPS, ATAD, transfer pricing-documentatie — verwacht die in nieuwe examens, gezien hun prominentie in de actuele praktijk.
+
+→ **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 2.8](voorbeeldexamenvragen).
+
+---
+
+## 6. Concepten die ook in andere PO's leven
+
+Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
+
+| Concept | Ook actief in | Waarom relevant elders |
+|---|---|---|
+| [[fiscale-residentie]] | PO 2.1 (PB), PO 2.3 (Ven.B) | Bepaalt of iemand in PB of BNI / Ven.B of BNI-Ven valt |
+| [[vaste-inrichting]] | PO 2.3 (Ven.B), PO 3.0 (vennootschapsrecht) | Belgisch resultaat van buitenlandse vennootschap |
+| [[moeder-dochterrichtlijn]] | PO 2.3 (DBI-aftrek) | DBI is de Belgische omzetting |
+| [[transfer-pricing]] | PO 2.3 (Ven.B-correctie) | Armslengte-correcties in de Belgische ven.B |
+| [[exit-planning-vennootschap]] | PO 3.0 (zetelverplaatsing), PO 2.3 | Vennootschapsrechtelijk + fiscaal |
+| [[internationale-tewerkstelling]] | PO 2.1 (PB), PO 2.5 (sociale zekerheid) | Salary split + Rijnvarende-statuut |
+| [[map]] | PO 2.4 (geschillen) | Alternatief voor Belgische gerechtelijke procedure |
+
+---
+
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.8). Status: voorgesteld — nog niet inhoudelijk gecureerd.*

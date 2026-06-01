@@ -2,7 +2,7 @@
 
 **Voor**: Opus (design + delegatie) of een mens die voor een PO de 5e leerlaag wil toevoegen — een actieve oefencase waarin de student zelf het volledige pad loopt dat de leerstukken passief uitleggen.
 
-**Canoniek**: POC-status (kandidaat voor amendement op [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) of nieuw ADR-038 na 2-3 PO's). Gold-standard: **PO 1.4 Nordica Holdings** ([`data/oefeningen/nordica-consolideren.yaml`](../data/oefeningen/nordica-consolideren.yaml) + [`content/leerpaden/1-4/oefening.md`](../content/leerpaden/1-4/oefening.md)).
+**Canoniek**: POC-status (kandidaat voor amendement op [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) of nieuw ADR-038 na 2-3 PO's). Gold-standard: **PO 1.4 Nordica Holdings** ([`data/oefeningen/nordica-consolideren.yaml`](../data/oefeningen/nordica-consolideren.yaml) + [`content/studiemateriaal/1-4/oefening.md`](../content/studiemateriaal/1-4/oefening.md)).
 
 **Wanneer relevant**: nadat de leerstukken voor een PO klaar zijn (skelet → scripts → render → integratie afgerond). De oefening is een aanvullende laag, geen vervanging.
 
@@ -12,7 +12,7 @@
 
 De leerstukken **tonen** de techniek (passieve lezing). Het examen toetst fragmenten — kleine, scoped vragen. Maar die fragmenten landen alleen scherp als de student één keer het hele pad heeft afgelegd. De oefening is die actieve doorloop: opgave + werkpapier-data → student doet → modelantwoord in `<details>`-blok openen ter controle.
 
-Verwacht **niet** dat de oefening lijkt op een echte examen-vraag — examen-vragen leven in `content/voorbeeldexamens/po-<code>.md`. De oefening is groter (60-75 min) en didactisch breder.
+Verwacht **niet** dat de oefening lijkt op een echte examen-vraag — examen-vragen leven in `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md`. De oefening is groter (60-75 min) en didactisch breder.
 
 ---
 
@@ -57,7 +57,7 @@ Verwacht **niet** dat de oefening lijkt op een echte examen-vraag — examen-vra
 
 **Twee opties**:
 
-- **Hand-rendered** (aanbevolen bij kleine wijzigingen): open de YAML, render manueel naar `content/leerpaden/<po-slug>/oefening.md`. Geen agent-overhead. Volg de regels in [`prompts/oefening-render-v1.md`](../prompts/oefening-render-v1.md) — opgave H2 + uitwerking H2 met `<details>`-blokken per stap.
+- **Hand-rendered** (aanbevolen bij kleine wijzigingen): open de YAML, render manueel naar `content/studiemateriaal/<po-slug>/oefening.md`. Geen agent-overhead. Volg de regels in [`prompts/oefening-render-v1.md`](../prompts/oefening-render-v1.md) — opgave H2 + uitwerking H2 met `<details>`-blokken per stap.
 
 - **Via Sonnet-agent**: gebruik [`prompts/oefening-render-v1.md`](../prompts/oefening-render-v1.md) als prompt-template. **Call-budget verplicht < 5 RAG-calls** (lessons learned uit leerstuk-render-batches — agenten kunnen ontsporen). Voor kleine fixes (titel-tweak, beat-herformulering): doe het via Edit, niet via agent.
 
@@ -65,11 +65,11 @@ Verwacht **niet** dat de oefening lijkt op een echte examen-vraag — examen-vra
 - Blank line vóór én na `<details>` en `</details>` (Quartz-quirk anders gaan tabellen erin stuk)
 - `<details><summary><strong>Oplossing — klik om te tonen</strong></summary>` exact format
 - Boekingen in 5-koloms CBN-stijl (kolom "aan" + MAR + Omschrijving + Debet + Credit) — zelfde template als leerstuk-render
-- Wikilinks: `[[leerpaden/<po-slug>|minicursus PO <po>]]`, `[[<leerstuk-slug>]]`, `[[themafiches/<cluster>|Themafiche]]`
+- Wikilinks: `[[studiemateriaal/<po-slug>|minicursus PO <po>]]`, `[[<leerstuk-slug>]]`, `[[themafiches/<cluster>|Themafiche]]`
 
 ### Stap 4 — Integratie
 
-1. **Minicursus § 6** in `content/leerpaden/<po-slug>/index.md` — korte motivering-paragraaf + wikilink met studietijd-indicatie:
+1. **Minicursus § 6** in `content/studiemateriaal/<po-slug>/index.md` — korte motivering-paragraaf + wikilink met studietijd-indicatie:
    ```markdown
    ## 6. Oefening — actief testen
 
@@ -90,7 +90,7 @@ Verwacht **niet** dat de oefening lijkt op een echte examen-vraag — examen-vra
 
 - **Niet automatisch een oefening voor elke PO maken.** Sommige PO's lenen zich er minder voor (vooral pure begripsvakken zoals deontologie). Beoordeel per PO of een doorgewerkte case didactische meerwaarde heeft.
 - **Niet meerdere oefeningen per PO stapelen.** Eén goede oefening per PO. Als de stof te breed is, knip de PO desnoods op (cross-PO leerstuk-strategie) — niet de oefeningen vermeerderen.
-- **Niet de oefening verwarren met examen-format.** De oefening is groter en didactischer. Examen-vragen leven in `content/voorbeeldexamens/po-<code>.md`.
+- **Niet de oefening verwarren met examen-format.** De oefening is groter en didactischer. Examen-vragen leven in `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md`.
 - **Niet hand-renderen vergeten te updaten als YAML wijzigt.** Markdown = output, YAML = source. Zelfde gouden regel als bij leerstukken.
 
 ---

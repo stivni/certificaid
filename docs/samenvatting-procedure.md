@@ -6,7 +6,7 @@
 
 **Wanneer relevant**: nadat de leerstukken voor een PO klaar zijn. Eventueel parallel met of na de oefening (volgorde maakt niet uit; de twee zijn onafhankelijk).
 
-**Gold-standard**: PO 1.4 ([`data/samenvattingen/1-4.yaml`](../data/samenvattingen/1-4.yaml) + [`content/leerpaden/1-4/samenvatting.md`](../content/leerpaden/1-4/samenvatting.md)).
+**Gold-standard**: PO 1.4 ([`data/samenvattingen/1-4.yaml`](../data/samenvattingen/1-4.yaml) + [`content/studiemateriaal/1-4/samenvatting.md`](../content/studiemateriaal/1-4/samenvatting.md)).
 
 ---
 
@@ -16,7 +16,7 @@ Tot ADR-039 leefden themafiches op **cluster-niveau** (één per concept-cluster
 
 De samenvatting bouwt voort op de themafiche-stijl (visueel-dominant, tabellen + beslisboom + formules + valkuilen) maar:
 - Scope = PO, niet cluster (één samenvatting per PO)
-- Locatie = `content/leerpaden/<po-slug>/samenvatting.md` (binnen het leerpad — self-contained PO-folder)
+- Locatie = `content/studiemateriaal/<po-slug>/samenvatting.md` (binnen het leerpad — self-contained PO-folder)
 - Cap = **2-4 A4 printbaar** (was 1-2)
 - Bron = YAML-script (was: handgeschreven markdown)
 
@@ -68,7 +68,7 @@ Werk in pen-en-papier eerst de structuur uit: welke optionele blokken levert de 
 
 **Twee opties**:
 
-- **Hand-rendered** (aanbevolen voor kleine wijzigingen + reverse-engineering uit bestaande themafiche): open de YAML, render manueel naar `content/leerpaden/<po-slug>/samenvatting.md`. Geen agent-overhead. Volg de regels in [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md).
+- **Hand-rendered** (aanbevolen voor kleine wijzigingen + reverse-engineering uit bestaande themafiche): open de YAML, render manueel naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Geen agent-overhead. Volg de regels in [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md).
 
 - **Via Sonnet-agent**: gebruik [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md) als prompt-template. **Call-budget verplicht < 3 RAG-calls** (claims zijn al door leerstukken bevestigd). Voor kleine fixes (rij toevoegen, beat herformuleren): doe het via Edit op zowel YAML als markdown.
 
@@ -76,17 +76,17 @@ Werk in pen-en-papier eerst de structuur uit: welke optionele blokken levert de 
 - Automatische H2-nummering (1 Take-away, 2..N extra_blokken, N+1 Valkuilen, N+2 Verdieping)
 - Mermaid horizontaal (LR) voor stappenplannen; TD voor beslisbomen
 - `<div class="no-print">` voor intro-callout en Verdieping-sectie
-- Wikilinks binnen PO: `[[<leerstuk-slug>]]`; minicursus: `[[leerpaden/<po-slug>|minicursus PO <po>]]`
+- Wikilinks binnen PO: `[[<leerstuk-slug>]]`; minicursus: `[[studiemateriaal/<po-slug>|minicursus PO <po>]]`
 
 ### Stap 4 — Integratie
 
-1. **Minicursus § "Voor de herhaling — samenvatting"** in `content/leerpaden/<po-slug>/index.md` — korte motivering + wikilink:
+1. **Minicursus § "Voor de herhaling — samenvatting"** in `content/studiemateriaal/<po-slug>/index.md` — korte motivering + wikilink:
    ```markdown
    ### Voor de herhaling — samenvatting
 
    Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
 
-   → [[leerpaden/<po-slug>/samenvatting|Samenvatting PO X.Y — <titel>]] (2-4 A4, printbaar)
+   → [[studiemateriaal/<po-slug>/samenvatting|Samenvatting PO X.Y — <titel>]] (2-4 A4, printbaar)
    ```
 
 2. **Frontmatter van `samenvatting.md`**:
@@ -95,7 +95,7 @@ Werk in pen-en-papier eerst de structuur uit: welke optionele blokken levert de 
 
 3. **Update [`docs/leerstuk-status.md`](leerstuk-status.md)**: kolom "Samenvatting" voor de PO naar ✅ + pointers.
 
-4. **Wikilinks van leerstukken**: in elk leerstuk-YAML/markdown `verder_lezen` → wikilink naar `[[leerpaden/<po-slug>/samenvatting|Samenvatting PO X.Y]]` i.p.v. `[[themafiches/<oude-slug>]]`.
+4. **Wikilinks van leerstukken**: in elk leerstuk-YAML/markdown `verder_lezen` → wikilink naar `[[studiemateriaal/<po-slug>/samenvatting|Samenvatting PO X.Y]]` i.p.v. `[[themafiches/<oude-slug>]]`.
 
 5. **Bestaande cluster-themafiches voor dit PO**: verwijderen of redirect-noot toevoegen (afhankelijk van of ze cross-PO refs hebben). Per ADR-039.
 

@@ -1,8 +1,10 @@
 """Render _merged/<examen>.json (schema 4.0) naar Quartz-markdown, gegroepeerd per programmaonderdeel.
 
 Output:
-    content/voorbeeldexamens/po-<code>.md  — één pagina per programmaonderdeel (bv. po-1.1.md)
+    content/studiemateriaal/<po_slug>/voorbeeldexamenvragen.md — één pagina per programmaonderdeel
+                                                          (bv. studiemateriaal/1-1/voorbeeldexamenvragen.md)
     content/voorbeeldexamens/index.md      — overzicht met links + telling per PO
+    content/voorbeeldexamens/nieuw.md      — aparte index van recent toegevoegde examens
 
 Vragen worden gegroepeerd op `interpretatie.programmaonderdeel_ids[]`. Een
 vraag met twee PO-codes verschijnt in beide PO-pagina's. PO-codes en titels
@@ -40,8 +42,16 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 MERGED_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_merged"
 CLUSTERS_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_clusters"
 PROGRAMMA_JSON = REPO_ROOT / "data" / "programma" / "programma.json"
-OUTPUT_DIR = REPO_ROOT / "content" / "voorbeeldexamens"
+# Per-PO pages live inside the studiemateriaal folder; index/nieuw zijn cross-PO overviews
+# en blijven onder content/voorbeeldexamens/.
+STUDIEMATERIAAL_DIR = REPO_ROOT / "content" / "studiemateriaal"
+OVERVIEW_DIR = REPO_ROOT / "content" / "voorbeeldexamens"
 TEMPLATES_DIR = Path(__file__).resolve().parent / "templates"
+
+
+def _po_pagina_pad(po_code: str) -> Path:
+    """Pad waar de PO-pagina geschreven wordt: studiemateriaal/<slug>/voorbeeldexamenvragen.md."""
+    return STUDIEMATERIAAL_DIR / _po_slug(po_code) / "voorbeeldexamenvragen.md"
 
 # Examens die als "nieuw toegevoegd" worden gerenderd: badge in herkomst-regel
 # + aparte kolom in de index. Verwijder een examen-id zodra zijn nieuwigheid
@@ -1004,6 +1014,40 @@ def _po_slug(po_code: str) -> str:
     return po_code.replace(".", "-")
 
 
+_EXPLORER_TITLE_PATROON = re.compile(
+    r"^explorer_title:\s*\"?(\d+)\.\s", re.MULTILINE
+)
+
+
+def _explorer_label_voor_voorbeeldexamenvragen(po_code: str) -> str:
+    """Bepaal de explorer_title voor de voorbeeldexamenvragen-pagina van dit PO.
+
+    Scant de studiemateriaal-folder voor sibling .md-files met `explorer_title: "N. ..."`
+    en kiest het volgende nummer in de reeks. Als er geen genummerde siblings zijn
+    (bv. een PO waar enkel index.md staat), valt terug op de kale label zonder nr.
+    """
+    studiemateriaal_dir = STUDIEMATERIAAL_DIR / _po_slug(po_code)
+    if not studiemateriaal_dir.exists():
+        return "Voorbeeldexamenvragen"
+    max_nr = 0
+    for f in studiemateriaal_dir.glob("*.md"):
+        if f.name in {"index.md", "voorbeeldexamenvragen.md"}:
+            continue
+        try:
+            head = f.read_text(encoding="utf-8")[:1024]
+        except OSError:
+            continue
+        m = _EXPLORER_TITLE_PATROON.search(head)
+        if m:
+            try:
+                max_nr = max(max_nr, int(m.group(1)))
+            except ValueError:
+                pass
+    if max_nr == 0:
+        return "Voorbeeldexamenvragen"
+    return f"{max_nr + 1}. Voorbeeldexamenvragen"
+
+
 def _render_po_pagina(
     po_code: str,
     po_titel: str,
@@ -1035,6 +1079,7 @@ def _render_po_pagina(
         po_code=po_code,
         po_titel=po_titel,
         po_slug=_po_slug(po_code),
+        explorer_label=_explorer_label_voor_voorbeeldexamenvragen(po_code),
         vragen=vragen,
         vraag_eenheden_md=vraag_eenheden_md,
         examens=examens,
@@ -1189,10 +1234,10 @@ def _render_nieuw_pagina(
         po_titel = po_catalogus.get(po_code, "?")
         regels.append(f"## PO {po_code} — {po_titel}")
         regels.append("")
-        regels.append(f"_{len(po_items)} {'vraag-eenheid' if len(po_items) == 1 else 'vraag-eenheden'} · [[po-{po_code}|volledig overzicht PO {po_code}]]_")
+        regels.append(f"_{len(po_items)} {'vraag-eenheid' if len(po_items) == 1 else 'vraag-eenheden'} · [[studiemateriaal/{_po_slug(po_code)}/voorbeeldexamenvragen|volledig overzicht PO {po_code}]]_")
         regels.append("")
         for item in po_items:
-            link = f"[[po-{item['po_code']}#{item['anker']}|{item['vraag_id']}]]"
+            link = f"[[studiemateriaal/{_po_slug(item['po_code'])}/voorbeeldexamenvragen#{item['anker']}|{item['vraag_id']}]]"
             cluster_suffix = " · (geclusterd met eerder examen)" if item["is_cluster"] else ""
             regels.append(f"- {link} — {item['onderwerp']}{cluster_suffix}")
         regels.append("")
@@ -1249,8 +1294,44 @@ def render_po(po_code: str) -> bool:
         )
         return False
     inhoud = _render_po_pagina(po_code, po_catalogus[po_code], vragen)
-    uitvoer = OUTPUT_DIR / f"po-{po_code}.md"
+    uitvoer = _po_pagina_pad(po_code)
     return _schrijf_indien_gewijzigd(uitvoer, inhoud)
+
+
+def _render_lege_po_pagina(po_code: str, po_titel: str) -> str:
+    """Render een stub-pagina voor een PO zonder voorbeeldexamenvragen.
+
+    Houdt de explorer-positie consistent zodat elk studiemateriaal-folder een
+    `voorbeeldexamenvragen`-kind heeft, ook al is er nog niets te tonen.
+    """
+    vandaag = date.today().isoformat()
+    explorer_label = _explorer_label_voor_voorbeeldexamenvragen(po_code)
+    regels = [
+        "---",
+        f"title: {po_code} Voorbeeldexamenvragen {po_titel}",
+        (
+            f"description: Voor programmaonderdeel {po_code} ({po_titel}) zijn "
+            "(nog) geen voorbeeldexamenvragen geclassificeerd."
+        ),
+        f'explorer_title: "{explorer_label}"',
+        f"tags: [examen, voorbeeldvragen, po-{_po_slug(po_code)}, leeg]",
+        "gegenereerd_uit: tools/examen/render_merged_v4.py",
+        f"gegenereerd_op: {vandaag}",
+        "---",
+        "",
+        f"# {po_code} Voorbeeldexamenvragen {po_titel}",
+        "",
+        (
+            "> [!info] Geen voorbeeldexamenvragen geclassificeerd voor dit "
+            "programmaonderdeel."
+            "\n>\n> Er zijn nog geen ITAA-voorbeeldexamenvragen vrijgegeven of "
+            f"geclassificeerd onder PO {po_code}. Zodra er vragen worden "
+            "toegevoegd in `data/programma/examen_vragen/_interpretaties/`, "
+            "verschijnen ze hier automatisch bij de volgende render."
+        ),
+        "",
+    ]
+    return "\n".join(regels).rstrip() + "\n"
 
 
 def render_alle() -> dict[str, bool]:
@@ -1265,8 +1346,18 @@ def render_alle() -> dict[str, bool]:
 
     for po_code in sorted(per_po.keys(), key=_natural_sort_key):
         inhoud = _render_po_pagina(po_code, po_catalogus.get(po_code, "?"), per_po[po_code])
-        uitvoer = OUTPUT_DIR / f"po-{po_code}.md"
+        uitvoer = _po_pagina_pad(po_code)
         resultaten[f"po-{po_code}"] = _schrijf_indien_gewijzigd(uitvoer, inhoud)
+
+    # Stub-pagina's voor PO's zonder voorbeeldexamenvragen — enkel als de
+    # studiemateriaal-folder bestaat (we creëren geen orphan-folders).
+    for po_code in sorted(set(po_catalogus.keys()) - set(per_po.keys()), key=_natural_sort_key):
+        studiemateriaal_dir = STUDIEMATERIAAL_DIR / _po_slug(po_code)
+        if not studiemateriaal_dir.exists():
+            continue
+        inhoud = _render_lege_po_pagina(po_code, po_catalogus[po_code])
+        uitvoer = _po_pagina_pad(po_code)
+        resultaten[f"po-{po_code}-leeg"] = _schrijf_indien_gewijzigd(uitvoer, inhoud)
 
     # Onbekende PO's in interpretaties (niet in programma.json) zouden hier
     # opvallen — fail-loud zou kunnen maar voor nu: warning.
@@ -1278,12 +1369,12 @@ def render_alle() -> dict[str, bool]:
         )
 
     index_inhoud = _render_index_pagina(per_po, po_catalogus)
-    index_pad = OUTPUT_DIR / "index.md"
+    index_pad = OVERVIEW_DIR / "index.md"
     resultaten["index"] = _schrijf_indien_gewijzigd(index_pad, index_inhoud)
 
     # Aparte index van recent toegevoegde examens — pas schrijven als er iets te tonen valt.
     nieuw_inhoud = _render_nieuw_pagina(per_po, po_catalogus)
-    nieuw_pad = OUTPUT_DIR / "nieuw.md"
+    nieuw_pad = OVERVIEW_DIR / "nieuw.md"
     if nieuw_inhoud:
         resultaten["nieuw"] = _schrijf_indien_gewijzigd(nieuw_pad, nieuw_inhoud)
     elif nieuw_pad.exists():

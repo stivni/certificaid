@@ -2,7 +2,7 @@
 
 **Voor**: een Opus/Sonnet-agent of mens die een PO-samenvatting schrijft.
 **Canoniek**: [ADR-039](adr/ADR-039-samenvatting-vervangt-themafiche.md). Vervangt `docs/themafiche-schrijfregels.md` (gearchiveerd onder `docs/archive/`).
-**Gold-standard**: PO 1.4 — `content/leerpaden/1-4/samenvatting.md`.
+**Gold-standard**: PO 1.4 — `content/studiemateriaal/1-4/samenvatting.md`.
 
 ---
 
@@ -48,7 +48,7 @@ Wrap in `<div class="no-print">...</div>` met blank lines errond:
 ```markdown
 <div class="no-print">
 
-> **Samenvatting — kapstok voor herhaling.** [Eén zin context]. Voor verhaal en routekaart: [[leerpaden/X-Y|minicursus PO X.Y]].
+> **Samenvatting — kapstok voor herhaling.** [Eén zin context]. Voor verhaal en routekaart: [[studiemateriaal/X-Y|minicursus PO X.Y]].
 
 </div>
 ```
@@ -84,7 +84,7 @@ Voor PO's met procedure / "welke X bij Y"-vraag. **Mermaid horizontaal (`flowcha
 Voor PO's met wiskundig kerngeld (kostprijs, ratios, drempels). Inline `$...$` of display `$$...$$`. Beperk tot kern-formules; afgeleide varianten kunnen weg. Combineer met tabel-inline voor drempels indien relevant.
 
 #### H. Verbinding met examen
-Voor PO's waar het examen-patroon een specifieke observatie verdient (bv. "examen toetst zelden volle berekening, wél fragmenten"). 2-3 paragrafen telegram-stijl + pointer naar `voorbeeldexamens/po-X-Y`.
+Voor PO's waar het examen-patroon een specifieke observatie verdient (bv. "examen toetst zelden volle berekening, wél fragmenten"). 2-3 paragrafen telegram-stijl + pointer naar `studiemateriaal/X-Y/voorbeeldexamenvragen`.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Status**: retroactief skelet (geschreven 2026-05-31, ná de implementatie). Dient als **gold-standard voorbeeld** voor andere PO's en als context voor toekomstige feedback.
 
-**Gebruik**: zie [docs/leerstuk-procedure.md](leerstuk-procedure.md) Stap 1. Voor PO 1.4 zelf is dit een naslagdocument; de scripts + markdown leven in [`data/leerstukken/`](../data/leerstukken/) resp. [`content/leerpaden/1-4/`](../content/leerpaden/1-4/).
+**Gebruik**: zie [docs/leerstuk-procedure.md](leerstuk-procedure.md) Stap 1. Voor PO 1.4 zelf is dit een naslagdocument; de scripts + markdown leven in [`data/leerstukken/`](../data/leerstukken/) resp. [`content/studiemateriaal/1-4/`](../content/studiemateriaal/1-4/).
 
 ---
 
@@ -45,7 +45,7 @@ Het leerstuk-pakket moet **beide kanten dekken** — anders mist het examen-rele
 
 ## 2. Voorbeeldexamen-patronen
 
-Uit [voorbeeldexamens 2013-2015](../content/voorbeeldexamens/po-1.4.md): 4 unieke vraag-eenheden voor dit PO (6 voorkomens, 2 echte duplicaten).
+Uit [voorbeeldexamens 2013-2015](../content/studiemateriaal/1-4/voorbeeldexamenvragen.md): 4 unieke vraag-eenheden voor dit PO (6 voorkomens, 2 echte duplicaten).
 
 | Onderwerp | Hoe vaak | Type vraag | Centraal concept |
 |---|---|---|---|
@@ -200,7 +200,7 @@ Voor andere PO's: overweeg eerst hergebruik (vooral als context vergelijkbaar is
 
 ## 7. Themafiche-mapping
 
-**Bestaande themafiche**: [content/leerpaden/1-4/samenvatting.md](../content/leerpaden/1-4/samenvatting.md) — gemigreerd uit themafiche per ADR-039.
+**Bestaande themafiche**: [content/studiemateriaal/1-4/samenvatting.md](../content/studiemateriaal/1-4/samenvatting.md) — gemigreerd uit themafiche per ADR-039.
 
 Geüpdatet in deze ronde:
 - Sectie "Concept-index" → "Verdieping" met tweelaags-doorklik
@@ -216,7 +216,7 @@ Tijdens de implementatie waren er enkele sparring-momenten waar de mens beslist 
 
 1. **Granulariteit** — 5 of 6 of 7 leerstukken? Beslist: 5 + 1 cross-PO = 6 totaal. Geen verdere splitsing van `hoe-consolideren` (zwaarste leerstuk) want pedagogische cohesie wint. Gestut door schrijfregels-cap optrek voor "hoe"-leerstukken naar 4500-5000 woorden.
 
-2. **`individuele-jaarrekening-opmaken` location** — Eerst onder `content/leerpaden/1-4/`, daarna verplaatst naar `content/leerstukken/` (cross-PO holder). De wikilink-resolutie via Quartz basename blijft werken. Tag `verborgen` toegevoegd om hem uit de sidebar te filteren.
+2. **`individuele-jaarrekening-opmaken` location** — Eerst onder `content/studiemateriaal/1-4/`, daarna verplaatst naar `content/leerstukken/` (cross-PO holder). De wikilink-resolutie via Quartz basename blijft werken. Tag `verborgen` toegevoegd om hem uit de sidebar te filteren.
 
 3. **PO 1.4 folder-naam** — Eerst `1.4/`, daarna gehernoemd naar `1-4/` wegens Quartz dev-server bug met punt-in-folder-naam. Live (GitHub Pages) werkt beide; lokaal vereist de dash.
 

@@ -12,12 +12,16 @@ const explorerOpts = {
     return node
   },
   sortFn: (a: any, b: any) => {
-    const order = ["leerpaden", "concepten", "themafiches", "voorbeeldexamens", "bronnen"]
+    const order = ["studiemateriaal", "concepten", "themafiches", "voorbeeldexamens", "bronnen"]
     const ai = order.indexOf(a.slugSegment)
     const bi = order.indexOf(b.slugSegment)
     if (ai !== -1 && bi !== -1) return ai - bi
     if (ai !== -1) return -1
     if (bi !== -1) return 1
+
+    // Binnen een leerpad-folder: voorbeeldexamenvragen altijd onderaan.
+    if (a.slugSegment === "voorbeeldexamenvragen") return 1
+    if (b.slugSegment === "voorbeeldexamenvragen") return -1
 
     // ITAA-LEX volgorde voor bronnen/wetteksten
     const aSlug: string = a.slug ?? ""

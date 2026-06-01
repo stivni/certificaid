@@ -1,0 +1,184 @@
+---
+title: "PO 2.1 — Algemene beginselen van fiscaal recht · overzicht"
+description: "Overzicht voor PO 2.1: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+explorer_title: "2.1 Fiscaal recht"
+tags:
+  - overzicht
+  - po-2-1
+---
+
+> **Overzicht.** Drie-lagen-aanpak voor wie zich op het ITAA-examen voorbereidt: dit **overzicht** geeft je het *verhaal en de routekaart* van het vak. De **themafiche** *(zie §4)* geeft alles van het onderwerp op één pagina, als kapstok om snel te bekijken. De **concept-fiches** geven de details per begrip.
+
+---
+
+## 1. Waarom dit vak?
+
+Dit vak is het **fundament onder elk ander fiscaal vak** dat je tijdens je stage tegenkomt. Personenbelasting, vennootschapsbelasting, btw en fiscale procedure stoelen allemaal op dezelfde basisprincipes: hoe komt een belasting tot stand, wie zijn de actoren, welke grondwettelijke garanties heeft de belastingplichtige, en waar ligt de grens tussen toelaatbare planning en verboden ontwijking?
+
+Zonder dit kader red je het niet — je herkent niet wanneer een fiscaal voordeel inroepbaar is, je weet niet welke uitlegregel een rechtbank zal hanteren, en je mist de instrumenten (zoals de voorafgaande beslissing) waarmee een accountant zijn cliënt rechtszekerheid kan bezorgen.
+
+### Hoe past dit in het bredere programma?
+
+| Andere PO | Relatie tot dit vak |
+|---|---|
+| **PO 2.2 — Personenbelasting** | Past de basisbeginselen toe op natuurlijke personen. Wettelijkheidsbeginsel en interpretatieregels zijn hier *werkmateriaal*. |
+| **PO 2.3 — Vennootschapsbelasting** | Idem voor vennootschappen — plus extra anti-misbruikbepalingen waar de algemene anti-misbruikregel (art. 344 WIB) de ruggengraat van blijft. |
+| **PO 2.4 — Btw** | Eigen wettelijk kader (WBTW) maar dezelfde grondwettelijke principes (legaliteit, gelijkheid, niet-retroactiviteit). |
+| **PO 2.5 — Fiscale procedure** | De *processuele* kant van wat hier conceptueel wordt aangebracht — taxatie, bezwaar, gerechtelijke fase. |
+| **PO 3.0 — Vennootschapsrecht** | Levert de juridische infrastructuur (rechtspersoonlijkheid, simulatie) waarop fiscale herkwalificatie zich enthent. |
+
+---
+
+## 2. Wat is dit vak?
+
+### Het probleem
+
+Een belasting is geen vrijblijvende heffing: ze grijpt diep in op het eigendomsrecht van de burger en moet daarom aan strikte grondwettelijke waarborgen voldoen. Tegelijk willen belastingplichtigen *binnen* de wet hun belastingdruk minimaliseren — en zoekt de fiscus instrumenten om constructies aan te pakken die de wet enkel naar de letter respecteren. Hoe trek je de grens tussen aanvaardbare keuze van de minst belaste weg en verboden ontwijking?
+
+### De oplossing
+
+Het algemene fiscaal recht levert het **denkkader**: het definieert wat een belasting is, welke beginselen haar invoering en uitvoering beheersen (legaliteit, gelijkheid, annaliteit, niet-retroactiviteit), wie de actoren zijn (federale staat, gewesten, lokale overheden, Europese Unie), en welke interpretatietechnieken een rechter gebruikt om de wet op een concreet geval toe te passen. De kandidaat leert dat fiscaal recht **gemeenrechtelijk** vertrekt — de civielrechtelijke kwalificatie van een verrichting is het uitgangspunt, tenzij de wet uitdrukkelijk anders bepaalt of er sprake is van simulatie of misbruik.
+
+### Het plichten-spel
+
+De belasting kan enkel worden gevestigd op grond van een **wet** (art. 170 GW). Dat wettelijkheidsbeginsel ligt boven elke fiscale discussie: de administratie heeft geen ruimte om buiten de wet te gaan, de belastingplichtige geen ruimte om binnen de wet ongelijk behandeld te worden. Daarnaast staan het **annaliteitsbeginsel** (jaarlijkse stemming bij begroting), het **niet-retroactiviteitsbeginsel** en het **gelijkheidsbeginsel** als grondwettelijke pijlers van het stelsel.
+
+### De spanningsvelden in de praktijk
+
+Een aantal klassieke spanningen domineert de praktijk. De **interpretatie van de wet**: de fiscus wil ruim lezen, de belastingplichtige restrictief — de rechtspraak hanteert "in dubio contra fiscum" maar enkel als de wet écht onduidelijk is. De **keuze van de minst belaste weg versus simulatie**: kiezen voor een legale constructie mag, maar wanneer partijen alle gevolgen aanvaarden van een verrichting *anders dan ze die voorstellen*, slaat de fiscus toe op grond van simulatie. De **anti-misbruikbepalingen**: art. 344 §1 WIB en art. 1 §10 WBTW geven de fiscus een breekijzer tegen constructies die enkel fiscaal voordeel beogen — een geleidelijk uitgebreid arsenaal sinds 1993.
+
+### Wat doet de accountant hier?
+
+De accountant is in dit vak vooral **adviseur**: hij beoordeelt fiscale risico's vóór een verrichting plaatsvindt, structureert dossiers proactief en weet wanneer een **voorafgaande beslissing (ruling)** bij de DVB rechtszekerheid kan bieden. Daarnaast staat hij de cliënt bij in alle fiscale aangelegenheden — een rol die zowel proactief (advies) als reactief (vertegenwoordiging bij geschillen) is. De rollen "boekhouder" en "commissaris" treden in dit vak op de achtergrond: dit is geen vak over verwerken of controleren van cijfers, maar over het juridisch-fiscale raamwerk dat alle andere fiscale vakken voedt. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+
+---
+
+## 3. Wat moet je kunnen?
+
+Het examenprogramma noemt voor dit vak **drie taken**:
+
+> *De belastingplichtige in alle fiscale aangelegenheden advies verlenen*
+>
+> *Bijstaan van de belastingplichtigen bij het vervullen van hun fiscale verplichtingen*
+>
+> *Vertegenwoordigen van de belastingplichtige bij de verschillende fiscale administraties en de overheden*
+
+Die taken vragen om beheersing van de basisbeginselen, om feeling voor de grens tussen planning en misbruik, en om kennis van de instrumenten waarmee een accountant rechtszekerheid bouwt.
+
+### De kern — het algemene fiscale denkkader
+
+Wat je concreet moet kunnen, per rol die je later zal opnemen:
+
+**Als adviseur:**
+- De [[fiscale-beginselen|grondwettelijke beginselen]] toepassen om te beoordelen of een belastingmaatregel rechtsgeldig is (legaliteit, gelijkheid, niet-retroactiviteit, annaliteit)
+- De [[normbronnen|bronnen van fiscaal recht]] in hun rangorde plaatsen (Grondwet, internationale verdragen, EU-recht, wet, KB/MB, circulaires) en herkennen welke bron bindend is voor de fiscus en welke niet
+- Een [[voorafgaande-beslissing-dvb|voorafgaande beslissing bij de DVB]] aanvragen wanneer een geplande verrichting fiscale onduidelijkheid bevat
+- De grens trekken tussen **keuze van de minst belaste weg**, **[[simulatie-leer|simulatie]]** en **[[algemene-anti-misbruik-bepaling|fiscaal misbruik]]** in een concreet dossier
+- [[verboden-constructies|Verboden constructies]] herkennen (kunstmatige tussenschakels, eindstaten zonder economische substantie)
+- De [[interpretatie-fiscale-wet|uitlegregels]] hanteren (letterlijke lezing, restrictief, ratio legis, in dubio contra fiscum)
+
+**Als vertegenwoordiger bij de administratie:**
+- De cliënt verdedigen tegen toepassing van [[anti-misbruik|anti-misbruikbepalingen]] (bewijslast op de fiscus voor het objectief én subjectief element)
+- Beroep doen op de [[fiscale-actoren|bevoegdheidsverdeling]] om bevoegdheid van een aanslagdienst aan te vechten (federaal vs. gewestelijk)
+- De cliënt voorbereiden op de verschillende fasen van de [[fiscale-procedure|belastingprocedure]] (zie PO 2.5 voor de procedurele uitwerking)
+
+### Rakend — toepassing in andere fiscale vakken
+
+Dit vak is *grotendeels conceptueel*. De **toepassing** ervan zit in PO 2.2-2.5:
+
+- **Overzicht PO 2.2 — Personenbelasting** *(zie [[2.2|PO 2.2]])*
+- **Overzicht PO 2.3 — Vennootschapsbelasting** *(zie [[2.3|PO 2.3]])*
+- **Overzicht PO 2.4 — Btw** *(zie [[2.4|PO 2.4]])*
+- **Overzicht PO 2.5 — Fiscale procedure** *(zie [[2.5|PO 2.5]])*
+
+### Wat je daarvoor moet kennen
+
+Naast de operationele acties hierboven moet je deze begrippen en kaders beheersen — ze zijn de inhoudelijke ondergrond:
+
+**De basisbegrippen**
+- [[belasting-definitie-en-functies]] — wat is een belasting (verplichte bijdrage zonder individuele tegenprestatie) en welke functies vervult ze (financieel, herverdelend, sturend)
+- [[fiscaal-recht]] — het normenstelsel en zijn plaats binnen het publiek recht
+- [[indeling-belastingen]] — directe vs. indirecte, personele vs. zakelijke, federaal vs. gewestelijk
+
+**Actoren en bevoegdheden**
+- [[fiscale-actoren]] — federale fiscus, gewestelijke administraties (Vlabel), lokale overheden, Europese Unie
+
+**Toepassingsgebied en interpretatie**
+- [[toepassingsgebied-belasting]] — materieel, personeel, ruimtelijk, in de tijd
+- [[interpretatie-fiscale-wet]] — letterlijke regel, in dubio contra fiscum, ratio legis
+- [[fiscale-beginselen]] — wettelijkheid (art. 170 GW), gelijkheid (art. 172 GW), annaliteit, niet-retroactiviteit, jaarlijkse begrotingsstemming
+
+**Planning, simulatie en misbruik — het hoofdstuk waar het hardst getoetst wordt**
+- [[simulatie-leer]] — wat partijen *naar buiten* tonen verschilt van wat ze *werkelijk* willen
+- [[anti-misbruik]] — algemene categorie
+- [[algemene-anti-misbruik-bepaling]] — art. 344 §1 WIB (directe belastingen) en art. 1 §10 WBTW
+- [[verboden-constructies]] — kunstmatige tussenschakels, juridische omwegen
+- [[voorafgaande-beslissing-dvb]] — DVB-ruling als rechtszekerheids­instrument
+
+**Wettelijke kaders (geen aparte fiches — ze zitten verweven in de records)**
+- Grondwet art. 170 (legaliteitsbeginsel), art. 172 (gelijkheidsbeginsel), art. 173 (annaliteit)
+- WIB92 (Wetboek van de Inkomstenbelastingen) — vooral als bron voor [[algemene-anti-misbruik-bepaling|art. 344 §1]]
+- WBTW — art. 1 §10 (anti-misbruik btw)
+- Wet 24.12.2002 — voorafgaande beslissingen in fiscale zaken ([[voorafgaande-beslissing-dvb|DVB]])
+- Bijzondere wet van 16.01.1989 op de financiering van de gemeenschappen en gewesten
+
+---
+
+## 4. Studie-aanpak
+
+### Leesroute door de fiches (vijf stappen)
+
+Werk de stof op in vijf stappen — van het concept "belasting" naar de scherprandige discussies over misbruik en ruling.
+
+1. **Begin met de bouwstenen**: [[belasting-definitie-en-functies]] + [[fiscaal-recht]] + [[indeling-belastingen]]. Zonder helder zicht op wat een belasting *is*, kun je geen rangorde van beginselen toepassen.
+2. **Daarna de actoren en het toepassingsgebied**: [[fiscale-actoren]] + [[toepassingsgebied-belasting]]. Wie heft, op wie, waar en wanneer — vier vragen die elke fiscale casus structureren.
+3. **Dan de grondwettelijke pijlers**: [[fiscale-beginselen]]. Legaliteit, gelijkheid, annaliteit, niet-retroactiviteit — herkennen wanneer ze geschonden zouden zijn is examen-stof.
+4. **Vervolgens de interpretatie en de spanning tussen partijwil en fiscus**: [[interpretatie-fiscale-wet]] + [[simulatie-leer]]. Bouwt op naar het hoofdstuk hieronder.
+5. **Sluit af met de anti-misbruik-driehoek**: [[anti-misbruik]] + [[algemene-anti-misbruik-bepaling]] + [[verboden-constructies]] + [[voorafgaande-beslissing-dvb]]. Hier komen examenvragen het scherpst — keuze minst belaste weg vs. misbruik, en hoe je met een ruling fiscale risico's vóór de verrichting afdekt.
+
+### Voor de herhaling — themafiche
+
+Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
+
+| Themafiche | Rol voor dit vak |
+|---|---|
+| [[themafiches/anti-misbruik|Anti-misbruik & simulatie]] | **Kern** — keuze minst belaste weg, simulatie, art. 344 §1 WIB en art. 1 §10 WBTW vergeleken |
+| [[themafiches/dvb-ruling|DVB & ruling]] | **Kern** — procedure, ontvankelijkheid, draagwijdte van een voorafgaande beslissing |
+| [[themafiches/fiscale-beginselen|Fiscale beginselen]] | **Kern** — overzicht van de grondwettelijke pijlers met casussen |
+
+---
+
+## 5. Examen-radar — wat is in de praktijk al bevraagd?
+
+Uit de voorbeeldexamens is dit PO formeel met **4 unieke vraag-eenheden** getagd uit examen 2024-1 — alle met modelantwoord. De tagging is hier echter misleidend: de getoonde vragen gaan inhoudelijk over personenbelasting-toepassingen (forfaitaire kostenaftrek meewerkend echtgenoot, onroerende voorheffing bij overstroming, aangifte gemeubeld verhuurd onroerend goed, afzonderlijk belaste beroepsinkomsten) en zijn vrijwel identiek aan vragen die ook onder PO 2.2 zijn ingedeeld.
+
+| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+|---|---|---|---|
+| **Forfaitaire kostenaftrek meewerkend echtgenoot ministatuut (5%)** | 1× (2024-1) | Juist/fout — kwalificatie + tarief | Toepassing toepassingsgebied PB |
+| **Onroerende voorheffing bij improductiviteit (overstroming)** | 1× (2024-1) | Open — procedure + drempels | Toepassing bevoegdheidsverdeling federaal/gewestelijk |
+| **Aangifte gemeubeld verhuurd onroerend goed (60/40)** | 1× (2024-1) | Open — vakken + bedragen | Toepassing kwalificatieregel onroerend/roerend |
+| **Beroepsinkomsten niet aan progressief tarief** | 1× (2024-1) | Open — opsomming art. 171 WIB | Toepassing afzonderlijke aanslagvoeten |
+
+**Patroon dat opvalt**: PO 2.1 wordt op examen niet zelfstandig bevraagd op de *theorie* (legaliteit, gelijkheid, anti-misbruik) — die thema's komen wel terug als *redeneeronderbouwing* in casussen van de andere fiscale PO's. De getoonde 2024-vragen op deze pagina zijn in essentie PO 2.2-vragen die het algemene fiscaalrechtelijke kader veronderstellen. Concentreer je studie van PO 2.1 dus op het *denkkader* — niet op aparte oefeningen.
+
+→ **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 2.1](voorbeeldexamenvragen).
+
+---
+
+## 6. Concepten die ook in andere PO's leven
+
+Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
+
+| Concept | Ook actief in | Waarom relevant elders |
+|---|---|---|
+| [[algemene-anti-misbruik-bepaling]] | PO 2.3 (venB), PO 2.4 (btw) | Art. 344 §1 WIB en art. 1 §10 WBTW — kerninstrument in dossier-discussies |
+| [[anti-misbruik]] | PO 2.3, PO 2.4 | Specifieke anti-misbruikbepalingen per belasting (CFC, ATAD-richtlijn) |
+| [[voorafgaande-beslissing-dvb]] | PO 2.3, PO 2.5 | Rechtszekerheidsinstrument vooral gebruikt bij venB-herstructureringen |
+| [[simulatie-leer]] | PO 2.3, PO 2.5 | Herkwalificatie in venB-context; bewijslast in geschiloven |
+| [[interpretatie-fiscale-wet]] | PO 2.5 | Argumenteren in bezwaar- en gerechtelijke fase |
+| [[fiscale-actoren]] | PO 2.5 | Bevoegdheidsverdeling federaal/gewestelijk bepaalt welke procedure geldt |
+| [[fiscale-beginselen]] | PO 2.5 | Schending van legaliteits- of gelijkheidsbeginsel als bezwaargrond |
+
+---
+
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.1). Status: voorgesteld — nog niet inhoudelijk gecureerd.*

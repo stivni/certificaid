@@ -9,7 +9,7 @@
 
 Alvorens te starten, zorg dat je:
 - ADR-037 + leerstuk-schrijfregels gelezen hebt
-- De gold-standard van PO 1.4 hebt bekeken (`content/leerpaden/1-4/index.md` + de 5 leerstukken)
+- De gold-standard van PO 1.4 hebt bekeken (`content/studiemateriaal/1-4/index.md` + de 5 leerstukken)
 - Toegang hebt tot de drie MCP-servers (`certificaid-rag`, `certificaid-tarieven`) — anders mis je bron-verificatie
 
 ---
@@ -89,7 +89,7 @@ Alvorens te starten, zorg dat je:
 **Doel**: van YAML-script naar markdown-leerstuk via een Sonnet-uitvoeringsagent met verplichte RAG-bron-verificatie.
 
 **Hoe**: gebruik [`prompts/leerstuk-render-v1.md`](../prompts/leerstuk-render-v1.md). Vul placeholders in:
-- `<<OUTPUT_PATH>>` — `content/leerpaden/<po-slug>/<slug>.md` (PO-specifiek) of `content/leerstukken/<slug>.md` (cross-PO)
+- `<<OUTPUT_PATH>>` — `content/studiemateriaal/<po-slug>/<slug>.md` (PO-specifiek) of `content/leerstukken/<slug>.md` (cross-PO)
 - `<<SLUG>>`, `<<VOORBEELDGROEP>>`, `<<SPECIFIEKE_CLAIMS_OM_TE_VERIFIËREN>>`
 
 Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van meerdere leerstukken kan: meerdere `Agent`-calls in één bericht (run_in_background voor latere collection).
@@ -127,7 +127,7 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 - Directe concept-wikilinks in §3 — alleen leerstuk-wikilinks
 - Wettelijke kaders apart — die zitten in "Wettelijk fundament" van elk leerstuk
 
-**Locatie**: `content/leerpaden/<po-slug>/index.md`. Quartz rendert dat als `/leerpaden/<po-slug>/` (folder-index).
+**Locatie**: `content/studiemateriaal/<po-slug>/index.md`. Quartz rendert dat als `/studiemateriaal/<po-slug>/` (folder-index).
 
 ---
 
@@ -137,12 +137,12 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 
 **Hoe**: volg [`docs/samenvatting-procedure.md`](samenvatting-procedure.md):
 - YAML-bron in `data/samenvattingen/<po-slug>.yaml` (zie [`data/samenvattingen/SCHEMA.md`](../data/samenvattingen/SCHEMA.md))
-- Markdown op `content/leerpaden/<po-slug>/samenvatting.md` (hand-rendered of via [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md))
+- Markdown op `content/studiemateriaal/<po-slug>/samenvatting.md` (hand-rendered of via [`prompts/samenvatting-render-v1.md`](../prompts/samenvatting-render-v1.md))
 - Schrijfregels: [`docs/samenvatting-schrijfregels.md`](samenvatting-schrijfregels.md) — telegram-stijl, tabellen/diagrammen/formules dominant
 
 **Indien er voor dit PO al cluster-themafiches bestaan**: merge ze tot één samenvatting volgens § "Migratie uit themafiches" in de schrijfregels. Verwijder de oude `content/themafiches/<cluster>.md`-bestanden in dezelfde commit. Cross-cluster themafiches die meerdere PO's raken blijven voorlopig staan (zie ADR-039 § "Cross-cluster themafiches").
 
-**Gold-standard**: PO 1.4 ([`content/leerpaden/1-4/samenvatting.md`](../content/leerpaden/1-4/samenvatting.md) + [`data/samenvattingen/1-4.yaml`](../data/samenvattingen/1-4.yaml) — in opbouw).
+**Gold-standard**: PO 1.4 ([`content/studiemateriaal/1-4/samenvatting.md`](../content/studiemateriaal/1-4/samenvatting.md) + [`data/samenvattingen/1-4.yaml`](../data/samenvattingen/1-4.yaml) — in opbouw).
 
 ---
 
@@ -152,7 +152,7 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 
 | Check | Hoe |
 |---|---|
-| Wikilink-resolution | Open `/leerpaden/<po-slug>/` in browser, klik door naar elk leerstuk, klik door naar themafiche en concepten |
+| Wikilink-resolution | Open `/studiemateriaal/<po-slug>/` in browser, klik door naar elk leerstuk, klik door naar themafiche en concepten |
 | Quartz explorer-sidebar | Toont de hiërarchie minicursus → leerstukken? Korte titels via `explorer_title` frontmatter (vereist Quartz custom plugin — zie `quartz-custom/plugins/emitters/contentIndex.tsx`) |
 | RAG-validatie | Alle wetsverwijzingen geverifieerd door render-agent (zie rapport-bullets) |
 | Voorbeeldgroep-consistentie | Cijfers kloppen over alle leerstukken heen (geconsolideerd activa = geconsolideerd passiva, etc.) |
@@ -164,7 +164,7 @@ Lance met `Agent` (`subagent_type: general-purpose`). Parallel-rendering van mee
 
 - **Themafiche-creatie of -herziening** wanneer de PO geen bestaande themafiche heeft: aparte werkronde
 - **Concept-laag-opkuis** (records dedupliceren, feitelijke correcties): aparte ronde, behandel weerleggingen uit render-rapporten in batch
-- **Cross-PO leerstukken** (zoals `individuele-jaarrekening-opmaken` voor 1.1/1.2/1.4): bespreek expliciet in skelet-stap of het cross-PO is. Locatie wordt dan `content/leerstukken/<slug>.md` i.p.v. `content/leerpaden/<po>/<slug>.md`
+- **Cross-PO leerstukken** (zoals `individuele-jaarrekening-opmaken` voor 1.1/1.2/1.4): bespreek expliciet in skelet-stap of het cross-PO is. Locatie wordt dan `content/leerstukken/<slug>.md` i.p.v. `content/studiemateriaal/<po>/<slug>.md`
 
 ---
 
@@ -213,7 +213,7 @@ Enige uitzondering: typografische micro-fixes (komma, paragraaf-breek, evidente 
 1. **Identificeer**: welk leerstuk + welk veld? Open `data/leerstukken/<slug>.yaml` en `data/voorbeeldgroepen/<naam>.yaml`
 2. **Edit het script**: maak je wijziging in de YAML
 3. **Re-render** via [`prompts/leerstuk-render-v1.md`](../prompts/leerstuk-render-v1.md) — Sonnet-agent verwerkt het script + voorbeeldgroep + schrijfregels naar markdown
-4. **Verifieer**: bekijk de gerendere markdown op het canonical pad (`content/leerpaden/<po-slug>/<slug>.md`). Plus rapport van de agent voor RAG-bevestiging.
+4. **Verifieer**: bekijk de gerendere markdown op het canonical pad (`content/studiemateriaal/<po-slug>/<slug>.md`). Plus rapport van de agent voor RAG-bevestiging.
 5. **Commit beide**: script-YAML + gerendere markdown in één commit. Zo blijft de source-output-sync zichtbaar in git-history.
 
 ### Multi-leerstuk feedback

@@ -63,7 +63,7 @@ Twee hoofdblokken (1.3.I + 1.3.II) met 21 sub-items in totaal:
 
 ## 2. Voorbeeldexamen-patronen
 
-Uit `content/leerpaden/1-3/voorbeeldexamenvragen.md`: **13 unieke vraag-eenheden** uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1).
+Uit `content/studiemateriaal/1-3/voorbeeldexamenvragen.md`: **13 unieke vraag-eenheden** uit 6 examens (2010-2, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1).
 
 | Onderwerp | Hoe vaak | Vraag-type | Centraal concept |
 |---|---|---|---|
@@ -261,7 +261,7 @@ De examens 2013-1, 2014-1 en 2015-1 hebben dezelfde tabel (377.872 totaal-activa
 
 ## 7. Samenvatting + oefening
 
-### Samenvatting (`data/samenvattingen/1-3.yaml` + `content/leerpaden/1-3/samenvatting.md`)
+### Samenvatting (`data/samenvattingen/1-3.yaml` + `content/studiemateriaal/1-3/samenvatting.md`)
 
 Volgens ADR-039 / samenvatting-procedure: 2-4 A4 printbaar, visueel-dominant.
 
@@ -276,7 +276,7 @@ Volgens ADR-039 / samenvatting-procedure: 2-4 A4 printbaar, visueel-dominant.
 8. Valkuilen (3-koloms: Valkuil · Wat klopt niet · Wat klopt wel) — bv. window-dressing, "netto = na belasting", BBK rubriek-42-meetellen, verlies-impact-op-brutomarge
 9. Verdieping (no-print): doorklik naar leerstukken + concept-fiches
 
-### Oefening (`data/oefeningen/<slug>.yaml` + `content/leerpaden/1-3/oefening.md`)
+### Oefening (`data/oefeningen/<slug>.yaml` + `content/studiemateriaal/1-3/oefening.md`)
 
 Volgens oefening-procedure: 60-75 min, één pad volledig doorgewerkt, geen hints in opgave.
 
@@ -308,7 +308,7 @@ Volgens oefening-procedure: 60-75 min, één pad volledig doorgewerkt, geen hint
 
 3. **Cross-PO-status voor leerstuk 4 (`kasstroom-en-financieringstabel`)?**
    - Mogelijk cross-PO want IFRS-relevant (PO 1.5) en insolventie-relevant (PO 1.9). Maar voor 1.3 ligt het in 1-3/-folder; bij 1.5/1.9-bouw beslis dan over verplaatsing.
-   - Aanbevolen: nu in `content/leerpaden/1-3/`, later eventueel verhuizen.
+   - Aanbevolen: nu in `content/studiemateriaal/1-3/`, later eventueel verhuizen.
 
 4. **Falingspredictie (Altman) — in leerstuk 5 of doorklik naar PO 1.9?**
    - Voorgesteld: in leerstuk 5 als **trigger-instrument** voor de accountant + doorklik naar PO 1.9 voor de insolventie-procedure-zijde.
@@ -319,7 +319,7 @@ Volgens oefening-procedure: 60-75 min, één pad volledig doorgewerkt, geen hint
 6. **DuPont + hefboomanalyse — in leerstuk 3 ratio's of leerstuk 5 diagnose?**
    - Voorgesteld: techniek in leerstuk 3 (cross-categorie verband), toepassing in leerstuk 5 (gebruiken voor oordeel).
 
-7. **Bestaande `content/leerpaden/1-3.md`** (huidige minicursus): verplaatsen naar `1-3/index.md` + bijwerken, of opnieuw schrijven?
+7. **Bestaande `content/studiemateriaal/1-3/index.md`** (huidige minicursus): verplaatsen naar `1-3/index.md` + bijwerken, of opnieuw schrijven?
    - Voorgesteld: gebruiken als bron voor verhaal-secties (de §1+§2-inhoud is hergebruikbaar), maar §3 herstructureren naar nieuw leerstuk-leesroute. Oude `1.3.md` wordt verwijderd in stap 8 (cleanup).
 
 ---

@@ -9,7 +9,7 @@
 
 Sparring-sessie 2026-05-30 bracht twee samenhangende observaties aan het licht:
 
-1. **De minicursus-laag (ADR-036) springt te ver naar de conceptlaag.** Een leerpad als [PO 1.4](../../content/leerpaden/1.4.md) verwijst in §3 "Wat je daarvoor moet kennen" direct naar 10+ losse concepten (`consolidatieverplichting`, `consolidatiekring`, `controle-bij-consolidatie`, `wijziging-consolidatiekring`, drie methode-records, …). De stagiair die "moet ik consolideren?" probeert te begrijpen, moet vier fiches naast elkaar leggen om één samenhangend antwoord te krijgen. Er is geen integrerende vraag-gerichte tussenstap.
+1. **De minicursus-laag (ADR-036) springt te ver naar de conceptlaag.** Een leerpad als [PO 1.4](../../content/studiemateriaal/1-4/index.md) verwijst in §3 "Wat je daarvoor moet kennen" direct naar 10+ losse concepten (`consolidatieverplichting`, `consolidatiekring`, `controle-bij-consolidatie`, `wijziging-consolidatiekring`, drie methode-records, …). De stagiair die "moet ik consolideren?" probeert te begrijpen, moet vier fiches naast elkaar leggen om één samenhangend antwoord te krijgen. Er is geen integrerende vraag-gerichte tussenstap.
 
 2. **De conceptlaag zelf is té definitorisch en te versnipperd.** RAG-zoek `consolidatie` geeft 18+ records boven similarity 0.55 — elk met zware juridische definities, dubbele uitleg van overlappende begrippen (controle staat in `consolidatiekring`, `controle-bij-consolidatie`, `consolidatieverplichting` alle drie), en in sommige gevallen feitelijke verschuivingen (`consolidatieverplichting` verwees voor de "kleine groep"-drempels naar art. 1:24 § 6 i.p.v. art. 1:26 § 1). Dit is een aparte opkuis-actie op de conceptlaag; ADR-037 raakt die niet.
 
@@ -23,8 +23,8 @@ Voeg een vierde leerlaag in: het **leerstuk**.
 
 | Laag | Atoom | Lezer-state | Locatie |
 |---|---|---|---|
-| **Minicursus** | Eén PO (of spoor) | "Ik begin aan dit vak — geef me het verhaal en de routekaart" | `content/leerpaden/<po-code>.md` |
-| **Leerstuk** *(NIEUW)* | Eén didactische vraag of samenhangend leerstuk binnen een cluster | "Ik wil deze vraag nu echt snappen — leid me door" | `content/leerpaden/<po-slug>/<slug>.md` (PO-specifiek) |
+| **Minicursus** | Eén PO (of spoor) | "Ik begin aan dit vak — geef me het verhaal en de routekaart" | `content/studiemateriaal/<po-slug>/index.md` |
+| **Leerstuk** *(NIEUW)* | Eén didactische vraag of samenhangend leerstuk binnen een cluster | "Ik wil deze vraag nu echt snappen — leid me door" | `content/studiemateriaal/<po-slug>/<slug>.md` (PO-specifiek) |
 | **Themafiche** | Eén cluster | "Ik moet dit opfrissen — geef me alles op één pagina" | `content/themafiches/<cluster>.md` |
 | **Concept** | Eén begrip | "Wat is precies X?" | `content/concepten/<concept-id>.md` (gerenderd uit records) |
 
@@ -163,20 +163,20 @@ Themafiche-schrijfregels-update voor andere themafiches (jaarrekening-schema, ei
 | Laag | Owner | Trigger voor update |
 |---|---|---|
 | **Concept-fiche** | `data/concepten/records/<id>.json` → render | Record-edit |
-| **Leerstuk** *(NIEUW)* | Handgeschreven `content/leerpaden/<po-slug>/<slug>.md` (PO-specifiek) of `content/leerstukken/<slug>.md` (cross-PO, toekomst) | Onderliggende concepten materieel gewijzigd OF nieuwe didactische inzicht |
+| **Leerstuk** *(NIEUW)* | Handgeschreven `content/studiemateriaal/<po-slug>/<slug>.md` (PO-specifiek) of `content/leerstukken/<slug>.md` (cross-PO, toekomst) | Onderliggende concepten materieel gewijzigd OF nieuwe didactische inzicht |
 | **Themafiche** | Handgeschreven `content/themafiches/<cluster>.md` | Records van het cluster materieel gewijzigd |
-| **Minicursus** | Handgeschreven `content/leerpaden/<po-slug>.md` | Examenprogramma-edit OF nieuwe leerstukken/themafiches |
+| **Minicursus** | Handgeschreven `content/studiemateriaal/<po-slug>/index.md` | Examenprogramma-edit OF nieuwe leerstukken/themafiches |
 
 Geen auto-regen tussen lagen. Conform ADR-003 stale-flagging.
 
 ## Generatie-aanpak
 
-POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `content/leerpaden/1-4/wie-moet-consolideren.md` (deze ronde). Indien het format zich bevestigt → Sonnet-agent voor de resterende ~80-130 leerstukken op basis van [`docs/leerstuk-schrijfregels.md`](../leerstuk-schrijfregels.md).
+POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `content/studiemateriaal/1-4/wie-moet-consolideren.md` (deze ronde). Indien het format zich bevestigt → Sonnet-agent voor de resterende ~80-130 leerstukken op basis van [`docs/leerstuk-schrijfregels.md`](../leerstuk-schrijfregels.md).
 
 ## Mockup (POC — handgeschreven door Opus, 2026-05-30)
 
-- **Leerstuk-POC**: [`content/leerpaden/1-4/wie-moet-consolideren.md`](../../content/leerpaden/1-4/wie-moet-consolideren.md) — PO 1.4, scope-vraag. Visualiteits-eis ingevuld via drempel-tabel + groepsstructuur-mermaid + beslisboom + doorgewerkte voorbeeldgroep.
-- **Minicursus-edit (POC)**: [`content/leerpaden/1.4.md`](../../content/leerpaden/1.4.md) §3 "Wat je daarvoor moet kennen" — herstructureerd rond leerstuk-wikilinks.
+- **Leerstuk-POC**: [`content/studiemateriaal/1-4/wie-moet-consolideren.md`](../../content/studiemateriaal/1-4/wie-moet-consolideren.md) — PO 1.4, scope-vraag. Visualiteits-eis ingevuld via drempel-tabel + groepsstructuur-mermaid + beslisboom + doorgewerkte voorbeeldgroep.
+- **Minicursus-edit (POC)**: [`content/studiemateriaal/1-4/index.md`](../../content/studiemateriaal/1-4/index.md) §3 "Wat je daarvoor moet kennen" — herstructureerd rond leerstuk-wikilinks.
 
 ## Wat dit superseert / amendeert
 
@@ -187,7 +187,7 @@ POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `co
 | ADR-036 §"Themafiche — zeven vaste blokken" | **Marge-amendement**: themafiche schuift visueler | Pedagogische tekstuele rol verhuist naar leerstuk |
 | `docs/themafiche-schrijfregels.md` | **Revisie nodig** (latere ronde) | Tekstuele bullets mogen krimpen ten gunste van visuele dichtheid |
 | `docs/minicursus-schrijfregels.md` | **Update §3-richtlijn**: primair naar leerstukken wijzen | Geen aparte ADR-revisie nodig |
-| `content/leerpaden/1.4.md` | **POC-edit deze ronde** | §3 wijst nu naar leerstukken |
+| `content/studiemateriaal/1-4/index.md` | **POC-edit deze ronde** | §3 wijst nu naar leerstukken |
 
 ## Open punten — voor latere ronde
 
@@ -197,7 +197,7 @@ POC-fase: **handgeschreven** door Opus tijdens sparring. Eerste mockup wordt `co
 | 2 | Themafiche-schrijfregels herzien (visueel-dominanter) | Wanneer 3-5 leerstukken bestaan voor één cluster (consolidatie) en we de tekstuele overlap zien |
 | 3 | Volledige 1.4 leerstuk-set schrijven (5 consolidatie + 1 enkelvoudig) — Sonnet-agent | Na approval van mockup `wie-moet-consolideren` |
 | 4 | Render-laag-keuze: wetsverwijzingen-sectie blijven of opschuiven naar superscript-voetnoten? | Wanneer 10+ leerstukken bestaan en het footer-blok kwantitatief in beeld komt |
-| 5 | Quartz-explorer-nesting: leerstukken onder hun PO-leerpad (gerealiseerd 2026-05-31 via filesystem-move naar `content/leerpaden/<po-slug>/`) | Voltooid |
+| 5 | Quartz-explorer-nesting: leerstukken onder hun PO-leerpad (gerealiseerd 2026-05-31 via filesystem-move naar `content/studiemateriaal/<po-slug>/`) | Voltooid |
 | 6 | Backlink-render: een concept-fiche toont "Genoemd in leerstukken X, Y" (automatisch) | Wanneer leerstukken-corpus stabiel genoeg is |
 | 7 | Multi-PO leerstukken: kan één leerstuk PO-overstijgend zijn (bv. waarderingsregels)? | Empirisch wanneer een leerstuk in twee minicursussen relevant blijkt |
 

@@ -4,7 +4,7 @@
 
 **Voor**: Sonnet-uitvoeringsagent OF mens die deterministisch hand-rendert.
 
-**Output**: één markdown-bestand op `content/leerpaden/<po-slug>/samenvatting.md`.
+**Output**: één markdown-bestand op `content/studiemateriaal/<po-slug>/samenvatting.md`.
 
 **Verschil met leerstuk-render** + **oefening-render**:
 - Geen `<details>`-blokken (anders dan oefening)
@@ -28,7 +28,7 @@ Output: één bestand `<<OUTPUT_PATH>>`.
 1. **`data/samenvattingen/SCHEMA.md`** — schema-uitleg + sectie-types
 2. **`data/samenvattingen/<<SLUG>>.yaml`** — het samenvatting-script
 3. **`docs/samenvatting-schrijfregels.md`** — stijl-regels (telegram-stijl, tabellen-dominant, 2-4 A4 cap)
-4. Eventueel: bestaande PO 1.4 samenvatting `content/leerpaden/1-4/samenvatting.md` als stijl-referentie
+4. Eventueel: bestaande PO 1.4 samenvatting `content/studiemateriaal/1-4/samenvatting.md` als stijl-referentie
 
 ## Call-budget — MAX 3 RAG-calls
 
@@ -55,7 +55,7 @@ tags:
 ```markdown
 <div class="no-print">
 
-> **Samenvatting — kapstok voor herhaling.** <inhoud uit intro.callout_beat>. Voor verhaal en routekaart: [[leerpaden/<po-slug>|minicursus PO <po>]].
+> **Samenvatting — kapstok voor herhaling.** <inhoud uit intro.callout_beat>. Voor verhaal en routekaart: [[studiemateriaal/<po-slug>|minicursus PO <po>]].
 
 </div>
 ```
@@ -173,7 +173,7 @@ Voor wie een wettekst-pointer of nauwkeurige definitie zoekt:
 - **Geen wetsartikel-nummers** in lopende tekst — pointers OK ("WVV art. X:YY")
 - **Geen drempelbedragen hardcoded** — Cijferzakboekje-pointer of tarief-record-wikilink
 - **B-GAAP vs IFRS** expliciet waar relevant
-- **Wikilinks**: `[[leerpaden/<po-slug>|minicursus PO <po>]]` voor minicursus; `[[<leerstuk-slug>]]` voor leerstukken in hetzelfde PO; `[[<concept-id>]]` voor concept-fiches
+- **Wikilinks**: `[[studiemateriaal/<po-slug>|minicursus PO <po>]]` voor minicursus; `[[<leerstuk-slug>]]` voor leerstukken in hetzelfde PO; `[[<concept-id>]]` voor concept-fiches
 - **Mermaid horizontaal (LR)** voor stappenplannen; TD alleen voor hiërarchische bomen / beslisbomen met ja/nee-takken
 - **Print-cap**: 2-4 A4. Bij overschrijding: rapporteer in `<<RAPPORT>>` en flag overschot
 
@@ -205,7 +205,7 @@ Begin nu.
 ## Hoe in te zetten
 
 1. Vul placeholders:
-   - `<<OUTPUT_PATH>>` — bv. `content/leerpaden/1-8/samenvatting.md`
+   - `<<OUTPUT_PATH>>` — bv. `content/studiemateriaal/1-8/samenvatting.md`
    - `<<SLUG>>` — bv. `1-8`
    - `<<RAPPORT>>` — vrije tekst-tag voor het terug-rapport
 

@@ -67,7 +67,7 @@ Conclusie: het pakket dekt **analyse + financieel beheer**. Opstellen van de ind
 
 ## 2. Voorbeeldexamen-patronen
 
-Uit [voorbeeldexamens 2003-2019](../content/leerpaden/1-9/voorbeeldexamenvragen.md): **7 unieke vraag-eenheden** in 5 examens. Lichter bevraagd dan PO 1.6, maar de vragen die er zijn zijn **cijfer-intensief en case-georiënteerd** — niet enkel definities.
+Uit [voorbeeldexamens 2003-2019](../content/studiemateriaal/1-9/voorbeeldexamenvragen.md): **7 unieke vraag-eenheden** in 5 examens. Lichter bevraagd dan PO 1.6, maar de vragen die er zijn zijn **cijfer-intensief en case-georiënteerd** — niet enkel definities.
 
 | Onderwerp | Voorkomens | Type vraag | Centraal in leerstuk |
 |---|---|---|---|
@@ -249,7 +249,7 @@ Tabel met concepten die ook in 1.3, 1.4, 1.5, 1.6, 1.8, 3.0 leven (continuiteit,
 
 ### Samenvatting
 
-Per [`docs/samenvatting-procedure.md`](samenvatting-procedure.md): YAML in `data/samenvattingen/1-9.yaml`, gerendere markdown in `content/leerpaden/1-9/samenvatting.md`. Pijlers:
+Per [`docs/samenvatting-procedure.md`](samenvatting-procedure.md): YAML in `data/samenvattingen/1-9.yaml`, gerendere markdown in `content/studiemateriaal/1-9/samenvatting.md`. Pijlers:
 - Werkkapitaal-drieluik-formules + visuele balans-herrangschikking
 - Vier ratio-families formule-tabel
 - Kasstroom-categorieën IAS 7 + DSCR-formule
@@ -277,7 +277,7 @@ Beslismomenten waar de gebruiker moet kiezen voordat we naar Stap 2 (voorbeeldgr
 
 2. **`financiele-diagnose-stellen` als apart leerstuk vs rol-blokken in elk leerstuk** — Bij PO 1.4 zijn rol-perspectieven in elk leerstuk geïntegreerd (geen apart rol-leerstuk). Voor PO 1.9 stel ik wel een apart integratie-leerstuk voor omdat het PO-niveau letterlijk "integratie" is en de diagnose-template (data → herstructurering → ratio's → CF → continuïteit → advies) zelfstandig pedagogisch werk is. **Aanbevolen: apart leerstuk** maar bevestig.
 
-3. **Cross-PO leerstukken** — Geen. Alle 5 leerstukken leven in `content/leerpaden/1-9/`. `continuiteit-en-faillissementspredictie` raakt sterk PO 1.6/3.0 maar de financieel-analyse-invalshoek is hier kern; voor PO 1.6 schrijven we later een eigen leerstuk vanuit auditor-perspectief met wikilink naar dit leerstuk.
+3. **Cross-PO leerstukken** — Geen. Alle 5 leerstukken leven in `content/studiemateriaal/1-9/`. `continuiteit-en-faillissementspredictie` raakt sterk PO 1.6/3.0 maar de financieel-analyse-invalshoek is hier kern; voor PO 1.6 schrijven we later een eigen leerstuk vanuit auditor-perspectief met wikilink naar dit leerstuk.
 
 4. **Voorbeeldgroep** — Nieuwe groep `belmonte` (industriële KMO met werkkapitaal-spanning + kredietaanvraag-case) vs uitbreiden Aurelia. **Aanbevolen: nieuw**.
 
@@ -285,7 +285,7 @@ Beslismomenten waar de gebruiker moet kiezen voordat we naar Stap 2 (voorbeeldgr
 
 6. **Prognose-leerstuk** — In voorstel niet apart; verdeeld over L3 (kasstroomprognose) en L5 (scenario's). Bij toename examen-frequentie 6e leerstuk toevoegen. **Aanbevolen: niet apart nu**.
 
-7. **Themafiche-mapping** — Per ADR-039 vervangen we oude cluster-themafiches door één PO-samenvatting (2-4 A4). Welke bestaande themafiches in `content/themafiches/` raken 1.9? Te checken in stap 6 — naar verwachting (uit oude 1.9.md): `continuiteit-en-diagnose`, `jaarrekeninganalyse-aanpak`, `kasstroom-analyse`, `ratio-families`. Worden alle vier gemigreerd naar `content/leerpaden/1-9/samenvatting.md` en daarna verwijderd, behalve als ze écht cross-PO zijn (te beoordelen).
+7. **Themafiche-mapping** — Per ADR-039 vervangen we oude cluster-themafiches door één PO-samenvatting (2-4 A4). Welke bestaande themafiches in `content/themafiches/` raken 1.9? Te checken in stap 6 — naar verwachting (uit oude 1.9.md): `continuiteit-en-diagnose`, `jaarrekeninganalyse-aanpak`, `kasstroom-analyse`, `ratio-families`. Worden alle vier gemigreerd naar `content/studiemateriaal/1-9/samenvatting.md` en daarna verwijderd, behalve als ze écht cross-PO zijn (te beoordelen).
 
 ---
 
@@ -300,4 +300,4 @@ Beslismomenten waar de gebruiker moet kiezen voordat we naar Stap 2 (voorbeeldgr
 
 ---
 
-*Skelet geschreven door Opus, 2026-05-31. Bron-discipline: programma.json (primair) + 12 bestaande concept-records (gecontroleerd via RAG) + 7 voorbeeldexamen-eenheden + CBN 2018/18 + CBN 2021/14 + WVV 3:6/3:32/7:228 (bevestigd via RAG). Oude `content/leerpaden/1-9.md` als achtergrond-context gebruikt, niet als source-of-truth.*
+*Skelet geschreven door Opus, 2026-05-31. Bron-discipline: programma.json (primair) + 12 bestaande concept-records (gecontroleerd via RAG) + 7 voorbeeldexamen-eenheden + CBN 2018/18 + CBN 2021/14 + WVV 3:6/3:32/7:228 (bevestigd via RAG). Oude `content/studiemateriaal/1-9/index.md` als achtergrond-context gebruikt, niet als source-of-truth.*

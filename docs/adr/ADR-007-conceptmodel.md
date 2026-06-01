@@ -7,7 +7,7 @@
 
 ## Changelog
 
-- **2026-05-18** — Leerpad-schema 1.1: nieuw hoofdstuk-type `voorbereiding` (naast bestaande `oriëntatie` / `competentie` / `thematisch`). Voor concept-clusters die fundament zijn voor meerdere taken zonder zelf één-op-één op één taak te mappen. Render-laag (ADR-010 §implicatie-5) plaatst geen taak-marker en omleidt deze hoofdstukken om het eind-dashboard "Heb je deze taken in de vingers?" — student wordt niet getoetst op fundament. Schema-shape: `{type: voorbereiding, titel, concepten[], rationale_hint?}`. Validatie: een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan. Geen migratie — bestaande leerpaden (schema 1.0) blijven geldig; curator promoveert hoofdstukken naar `voorbereiding` waar zinvol bij volgende leerpad-touch.
+- **2026-05-18** — Leerpad-schema 1.1: nieuw hoofdstuk-type `voorbereiding` (naast bestaande `oriëntatie` / `competentie` / `thematisch`). Voor concept-clusters die fundament zijn voor meerdere taken zonder zelf één-op-één op één taak te mappen. Render-laag (ADR-010 §implicatie-5) plaatst geen taak-marker en omleidt deze hoofdstukken om het eind-dashboard "Heb je deze taken in de vingers?" — student wordt niet getoetst op fundament. Schema-shape: `{type: voorbereiding, titel, concepten[], rationale_hint?}`. Validatie: een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan. Geen migratie — bestaande studiemateriaal (schema 1.0) blijven geldig; curator promoveert hoofdstukken naar `voorbereiding` waar zinvol bij volgende leerpad-touch.
 - **2026-05-18 (later)** — Schema 1.6 herzien op empirische grond: `situering` op **alle 6 node-types** in plaats van alleen begrip/cluster. Aanleiding: 53/89 cluster-records gebruiken `doel`-veld dat semantisch overlapt met situering ("Het auditrisicomodel structureert de risico-aanpak van de auditor…" = functie + plaatsing in één). Eén uniform veld is schoner dan `doel` op cluster / `situering` op begrip. **`doel`-veld geschrapt** uit type-specifieke sleutelvelden. **Mechanische migratie**: 55 records (53 cluster + 1 begrip + 1 regel) hernoemen `doel` → `situering` via records-API. Competenties hebben empirisch geen `doel`-veld (essentie zit in `titel` + `stappen[]`) — krijgen `situering` als nieuwe veld bij natuurlijke EXTRACT-pass (geen migratie). Render-plek (ADR-010 §implicatie-1): bovenaan élke concept-fiche, boven TL;DR.
 - **2026-05-18** — Schema 1.6 (oorspronkelijk voorstel, gesuperseded door bovenstaande): `situering` alleen op begrip/cluster met `doel` behouden. Verworpen wegens duplicatie cluster-`doel`/`situering`.
 - **2026-05-18** — Schema 1.5 (deel 2): concretiserings-inhoud uitgewerkt. Drie velden vervangen `voorbeeld_inline`: `in_praktijk[]` (lijstje of rich), `voorbeelden[]` (eenvoudig of scenario), `illustraties[]` (boeking / balans-fragment / verslag-fragment / mermaid-diagram). Multi-niveau-placement: record-top, bouwsteen, berekeningsmethode + inline per competentie-stap. Illustraties **inline** binnen voorbeeld-scenarios. Migratie `voorbeeld_inline` → `voorbeelden[{vorm: eenvoudig}]` bij elke natuurlijke EXTRACT-pass.
@@ -169,7 +169,7 @@
     pedagogische "hoe doe je X" laag. Zie §"Competentie-schema".
     Hard anti-fabricatie via verplichte `gebaseerd_op_concepten` (≥2 concept-refs),
     `procedure_grondslag` met ⚖️ X% · 🤖 Y% transparantie, en grondslag-per-stap.
-  - **Leerpad-schema 1.0** in `data/concepten/leerpaden/<X.Y>.yaml` —
+  - **Leerpad-schema 1.0** in `data/concepten/studiemateriaal/<X.Y>.yaml` —
     ordening van competenties + oriëntatie-blokken per programmaonderdeel.
     Zie §"Leerpad-schema".
 
@@ -587,7 +587,7 @@ _provenance:
 
 ### Leerpad-schema (schema 1.0)
 
-Leerpaden leven in `data/concepten/leerpaden/<programmaonderdeel>.yaml`. Schema (1.1 sinds 2026-05-18 — `voorbereiding`-type toegevoegd):
+Leerpaden leven in `data/concepten/studiemateriaal/<programmaonderdeel>.yaml`. Schema (1.1 sinds 2026-05-18 — `voorbereiding`-type toegevoegd):
 
 ```yaml
 programmaonderdeel: "1.4"
@@ -632,7 +632,7 @@ Vier hoofdstuk-types:
 **Validatie schema 1.1**:
 - Een PO mag niet voor 100% uit `voorbereiding`-hoofdstukken bestaan (curator-warning, geen build-fail).
 - Een hoofdstuk met `type != voorbereiding` en 0 resolveerbare taken via concepten/competentie → curator-warning (slechte binding of ontbrekend `voorbereiding`-label).
-- Bestaande leerpaden met `schema_version: 1.0` blijven geldig — schema 1.1 is additief, geen migratie vereist.
+- Bestaande studiemateriaal met `schema_version: 1.0` blijven geldig — schema 1.1 is additief, geen migratie vereist.
 
 ### Edge-types (schema 1.5 — 7 canonieke types)
 

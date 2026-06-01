@@ -9,13 +9,13 @@ tags:
 
 <div class="no-print">
 
-> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
 
 </div>
 
 <div class="no-print">
 
-> **Themafiche — kapstok voor herhaling.** Twee fundamenteel verschillende regimes: aandelen-meerwaarde (potentieel vrijstelling) vs materiële vaste activa (gespreide taxatie via herbelegging). Voor verhaal en routekaart: [[leerpaden/2.3|minicursus PO 2.3]].
+> **Themafiche — kapstok voor herhaling.** Twee fundamenteel verschillende regimes: aandelen-meerwaarde (potentieel vrijstelling) vs materiële vaste activa (gespreide taxatie via herbelegging). Voor verhaal en routekaart: [[studiemateriaal/2-3|overzicht PO 2.3]].
 
 </div>
 

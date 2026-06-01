@@ -21,7 +21,7 @@ Daarnaast: cluster-themafiches lopen het risico te dupliceren of over-overlappen
 
 | Was (ADR-036) | Wordt (ADR-039) |
 |---|---|
-| `content/themafiches/<cluster>.md` | `content/leerpaden/<po-slug>/samenvatting.md` |
+| `content/themafiches/<cluster>.md` | `content/studiemateriaal/<po-slug>/samenvatting.md` |
 | Eén per cluster | Eén per PO |
 | Cap: ~5 A4 | Cap: **2-4 A4 printbaar** |
 | Schrijfregels: `docs/themafiche-schrijfregels.md` | Schrijfregels: `docs/samenvatting-schrijfregels.md` (geen aparte naamgeving meer; PO-scope) |
@@ -29,7 +29,7 @@ Daarnaast: cluster-themafiches lopen het risico te dupliceren of over-overlappen
 **Locatie binnen leerpad-folder** maakt het PO-leerpad self-contained:
 
 ```
-content/leerpaden/<po-slug>/
+content/studiemateriaal/<po-slug>/
 ├── index.md          # minicursus (verhaal + routekaart)
 ├── <leerstuk-1>.md
 ├── ...
@@ -47,13 +47,13 @@ content/leerpaden/<po-slug>/
 
 ### PO 1.4 — POC (deze ronde)
 
-1. `content/themafiches/consolidatie.md` → `content/leerpaden/1-4/samenvatting.md` (rename + minimale content-aanpassing — was al PO-equivalent want PO 1.4 ≈ cluster consolidatie)
+1. `content/themafiches/consolidatie.md` → `content/studiemateriaal/1-4/samenvatting.md` (rename + minimale content-aanpassing — was al PO-equivalent want PO 1.4 ≈ cluster consolidatie)
 2. Wikilink-updates in 5 leerstuk-YAMLs + minicursus + leerpad-skelet-doc
 3. Themafiche-mapping in `content/themafiches/index.md`-achtige indexen bijwerken
 
 ### PO 1.8 — Follow-up
 
-4 themafiches mergen tot één `content/leerpaden/1-8/samenvatting.md`. Werk voor de sessie die met PO 1.8 bezig is. Volgt nieuwe schrijfregels.
+4 themafiches mergen tot één `content/studiemateriaal/1-8/samenvatting.md`. Werk voor de sessie die met PO 1.8 bezig is. Volgt nieuwe schrijfregels.
 
 ### Themafiche-laag retreert volledig — drie categorieën
 
@@ -63,7 +63,7 @@ Praktisch zijn er drie categorieën bestaande themafiches, elk met eigen migrati
 
 | Categorie | Beschrijving | Status nu | Migratie-pad |
 |---|---|---|---|
-| **A. cluster ≈ PO, leerpad bestaat** | Themafiche dekt feitelijk al één PO; dat PO heeft inmiddels een leerpad | PO 1.4 ✅ gemigreerd; PO 1.8 in queue | Migreren naar `content/leerpaden/<po-slug>/samenvatting.md` volgens [`docs/samenvatting-procedure.md`](../samenvatting-procedure.md) § Migratie. Oude themafiche-md's verwijderen in dezelfde commit. |
+| **A. cluster ≈ PO, leerpad bestaat** | Themafiche dekt feitelijk al één PO; dat PO heeft inmiddels een leerpad | PO 1.4 ✅ gemigreerd; PO 1.8 in queue | Migreren naar `content/studiemateriaal/<po-slug>/samenvatting.md` volgens [`docs/samenvatting-procedure.md`](../samenvatting-procedure.md) § Migratie. Oude themafiche-md's verwijderen in dezelfde commit. |
 | **B. cluster ≈ PO, geen leerpad** | Themafiche dekt feitelijk al één PO, maar dat PO heeft nog geen leerpad-bouw gehad | Meeste bestaande themafiches (PO 1.1, 1.2, 1.3, 1.5, 1.6, 1.7, 1.9, 2.x, 3.0) — ~50 stuks | **Voorlopig blijven staan** met deprecation-callout. Bij leerpad-bouw voor die PO: zelfde migratie als categorie A. Geen aparte beslissing nodig. |
 | **C. echte cross-PO themafiche** | Vergelijking tussen verschillende PO's (bv. `be-gaap-vs-ifrs-vergelijking`, `reorganisatie-en-bijzondere-mandaten`) | Klein aantal (~2-3 stuks); blijft staan met deprecation-callout | **Aparte beslissing per fiche** bij relevante leerpad-bouw. Twee opties: (1) inhoud incorporeren in alle relevante PO-samenvattingen (duplicatie aanvaardbaar als compact); (2) upgraden naar concept-fiche (bv. `be-gaap-vs-ifrs` als concept-record met diepe vergelijking). Geen behoud als losse themafiche-laag. |
 
@@ -86,13 +86,13 @@ Werkende sessies die nog naar het themafiche-concept verwijzen, blijven werken (
 
 ### Voor de tutor en zoek
 
-Tutor-app + RAG-indexering volgen automatisch: `content/leerpaden/<po-slug>/samenvatting.md` wordt geïndexeerd zoals elk ander markdown-bestand. Geen tooling-wijziging nodig.
+Tutor-app + RAG-indexering volgen automatisch: `content/studiemateriaal/<po-slug>/samenvatting.md` wordt geïndexeerd zoals elk ander markdown-bestand. Geen tooling-wijziging nodig.
 
 ## Open punten
 
 - **Categorie C-beslissingen** (echte cross-PO themafiches): aparte beslissing per fiche bij relevante leerpad-bouw. Concrete fiches: `be-gaap-vs-ifrs-vergelijking` (PO 1.4 + 1.5), `reorganisatie-en-bijzondere-mandaten` (PO 1.6 + 3.0 + insolventie). Bij meer dan 3 fiches met zelfde patroon → vervolg-ADR-040.
 - **Print-CSS** voor samenvatting (`@media print` styles in Quartz) — buiten scope dit ADR; al deels aanwezig via `.no-print` klassen in leerstukken en minicursus.
-- **Bestandsnaam** in URL: `/leerpaden/1-4/samenvatting/` is duidelijk. Of we sub-naamgeving willen (`samenvatting-1-4.md`) — niet nodig; folder-context geeft het PO al.
+- **Bestandsnaam** in URL: `/studiemateriaal/1-4/samenvatting/` is duidelijk. Of we sub-naamgeving willen (`samenvatting-1-4.md`) — niet nodig; folder-context geeft het PO al.
 - **Inventaris-tracking**: voor elke nog-bestaande themafiche moet bij leerpad-bouw beslist worden — categorie A/B migratie of categorie C aparte beslissing. Tracking in `docs/leerstuk-status.md` § Themafiche-migratie-inventaris.
 
 ---

@@ -52,7 +52,7 @@ Wrap in `<div class="no-print">...</div>` met blank lines errond:
 ```markdown
 <div class="no-print">
 
-> **Themafiche — kapstok voor herhaling.** [Eén zin context]. Voor verhaal en routekaart: [[leerpaden/X.Y|minicursus PO X.Y]].
+> **Themafiche — kapstok voor herhaling.** [Eén zin context]. Voor verhaal en routekaart: [[studiemateriaal/X.Y|minicursus PO X.Y]].
 
 </div>
 ```

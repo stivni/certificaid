@@ -116,7 +116,7 @@ def minicursus_frontmatter(
     return {
         "title": f"{programmaonderdeel_code} {programmaonderdeel_titel}",
         "tags": [
-            "minicursus",
+            "overzicht",
             f"po-{programmaonderdeel_code.replace('.', '-')}",
         ],
         "programmaonderdeel": programmaonderdeel_code,

@@ -359,7 +359,7 @@ Hook is **blokkerend** bij elke drift (geen lenient-modus, geen override-vlag op
 - **Niet geraakt**:
   - `bronnen`-collection (eigen exclusive writer in `rag_index.py`)
   - `competenties/*.yaml` (eigen schema, eigen collection wanneer first-class, andere ADR)
-  - `leerpaden/*.yaml` (idem)
+  - `studiemateriaal/*.yaml` (idem)
   - Daemon's bestaande endpoints
 - **Initialisatie**:
   - Eenmalige `records_api audit --fix` na rollout om eventuele resterende drift op te ruimen
@@ -389,7 +389,7 @@ Fixture-strategie: aparte test-ChromaDB onder `tmp_path`, daemon gemockt via `mo
 
 ## Out-of-scope
 
-- **Competenties + leerpaden**: schrijfdiscipline voor `data/concepten/competenties/*.yaml` en `data/concepten/leerpaden/*.yaml` komt mee wanneer competenties first-class burgers worden (toekomstig ADR, vermoedelijk ADR-020 of -021). Tot dan blijven die met hun huidige writers (`propose_competenties.py`, `propose_leerpad.py`).
+- **Competenties + studiemateriaal**: schrijfdiscipline voor `data/concepten/competenties/*.yaml` en `data/concepten/studiemateriaal/*.yaml` komt mee wanneer competenties first-class burgers worden (toekomstig ADR, vermoedelijk ADR-020 of -021). Tot dan blijven die met hun huidige writers (`propose_competenties.py`, `propose_leerpad.py`).
 - **Bronnen-collection**: heeft al exclusieve writer in `rag_index.py`. Geen drift-probleem gemeten.
 - **Concurrency tussen meerdere terminals/worktrees**: daemon serialiseert al via `_operatie_lock` (ADR-018). API erft die garantie.
 - **Schema-validatie van records**: out-of-scope — records-API checkt id-consistentie, niet schema-conformiteit. Dat is werk van VERIFY (ADR-008 §13.2).

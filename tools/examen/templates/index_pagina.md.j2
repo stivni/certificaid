@@ -29,7 +29,7 @@ Een vraag-eenheid kan onder meerdere programmaonderdelen vallen en verschijnt da
 | PO | Titel | Vraag-eenheden | Met antwoord | 🆕 | Pagina |
 | --- | --- | ---: | ---: | ---: | --- |
 {% for po in po_overzicht %}
-| {{ po.code }} | {{ po.titel }} | {{ po.totaal }} | {{ po.met_antwoord }} | {% if po.nieuw %}**{{ po.nieuw }}**{% else %}—{% endif %} | [[po-{{ po.code }}\|→]] |
+| {{ po.code }} | {{ po.titel }} | {{ po.totaal }} | {{ po.met_antwoord }} | {% if po.nieuw %}**{{ po.nieuw }}**{% else %}—{% endif %} | [[studiemateriaal/{{ po.slug }}/voorbeeldexamenvragen\|→]] |
 {% endfor %}
 
 _Totaal: {{ totaal_vragen }} vraag-eenheden gegroepeerd over {{ po_overzicht|length }} programmaonderdelen{% if totaal_nieuw %} · 🆕 {{ totaal_nieuw }} recent toegevoegd{% endif %}._

@@ -4,7 +4,7 @@
 
 **Voor**: Sonnet-uitvoeringsagent (of mens die het deterministisch hand-rendert).
 
-**Output**: één markdown-bestand op `content/leerpaden/<po-slug>/oefening.md` (PO-specifiek) of `content/oefeningen/<slug>.md` (cross-PO).
+**Output**: één markdown-bestand op `content/studiemateriaal/<po-slug>/oefening.md` (PO-specifiek) of `content/oefeningen/<slug>.md` (cross-PO).
 
 **Verschil met leerstuk-render**:
 - Oefening = opgave bovenaan + uitwerking per stap in `<details>`-blok. Markdown krijgt interactieve `<details><summary>`-structuur (toonbaar in Quartz).
@@ -29,7 +29,7 @@ Output: één bestand `<<OUTPUT_PATH>>`.
 3. **`docs/leerstuk-schrijfregels.md`** — algemene stijl (tweede persoon, geen wetsartikels in lopende tekst, etc.)
 4. **`data/leerstukken/<<RELEVANT_LEERSTUK>>.yaml`** — voor consistentie met onderliggende uitleg (alleen waar oefening op bouwt)
 5. Eventueel referentie-oefening voor STIJL (als bestaand):
-   - `content/leerpaden/1-4/oefening.md` (Nordica — eerste POC)
+   - `content/studiemateriaal/1-4/oefening.md` (Nordica — eerste POC)
 
 ## Call-budget — MAX 5 RAG-calls
 
@@ -58,7 +58,7 @@ tags:
 ```markdown
 <div class="no-print">
 
-> **Oefening — doe eerst zelf, controleer dan.** <inhoud op basis van intro.callout_beat>. Voor verhaal en routekaart: [[leerpaden/<po-slug>|minicursus PO <po>]].
+> **Oefening — doe eerst zelf, controleer dan.** <inhoud op basis van intro.callout_beat>. Voor verhaal en routekaart: [[studiemateriaal/<po-slug>|minicursus PO <po>]].
 
 </div>
 ```
@@ -158,7 +158,7 @@ Begin nu.
 ## Hoe in te zetten
 
 1. Vul placeholders:
-   - `<<OUTPUT_PATH>>` — bv. `content/leerpaden/1-4/oefening.md`
+   - `<<OUTPUT_PATH>>` — bv. `content/studiemateriaal/1-4/oefening.md`
    - `<<SLUG>>` — bv. `nordica-consolideren`
    - `<<RELEVANT_LEERSTUK>>` — bv. `hoe-consolideren` (waar de oefening op bouwt)
 

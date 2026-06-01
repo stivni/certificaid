@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-30 (ADR-026 tarief-pijplijn volledig operationeel: `tarieven_api` + MCP-server + chunker + 2 prompts + **82 records** geëxtraheerd uit Cijferzakboekje 2026 via 8 parallel Sonnet-subagents. Records zijn **pure data-laag** — géén content/-render; toegang via MCP-server voor LLM-tutors en leerstuk-auteurs. Verify-pass open punt. Vorige update 2026-05-28 over Fase 2 massa-extractie blijft van kracht.)
+**Laatste update**: 2026-06-01 (ADR-040 voorbeeldexamenvragen-pagina's verhuisd naar `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md` + alle studiemateriaal uniform folder-structuur + stub-pagina's voor PO's zonder vragen + auto-genummerd `explorer_title`. ADR-037/039/040 toegevoegd aan INDEX. Vorige update 2026-05-30 over ADR-026 tarief-pijplijn blijft van kracht.)
 
 ---
 
@@ -115,12 +115,12 @@ Niet prioritair voor wave-2 (per ADR-029): `cijfer_validatie`, `examenvragen_aan
 
 **POC voltooid (2026-05-28)**:
 - Themafiche-mockup `content/experiment/synthese-consolidatie-v1.md` (cluster consolidatie, PO 1.4)
-- Minicursus-mockup `content/leerpaden/1.4.md` (PO 1.4)
+- Minicursus-mockup `content/studiemateriaal/1-4/index.md` (PO 1.4)
 - Print-CSS + full-width-tabellen + `.no-print`-class in `quartz-custom/styles/custom.scss`
 
 **Open werkpakket**:
 - **Themafiches** voor alle uitgewerkte clusters uit granulariteit-skelet (~15-60 stuks, starten met de zwaarste/meest bevraagde — voorstel: consolidatie · jaarrekening · controle-opdracht · interne-controle · kapitaalstructuur · ondernemingsvormen · personenbelasting · vennootschapsbelasting · btw · mobiliteit · waarderingsregels · financiële-analyse · ifrs-rapportering · reorganisatie · winstuitkering). Mockup verhuizen van `experiment/` naar `content/themafiches/`.
-- **Minicursussen** voor alle 19 PO's. Mockup `leerpaden/1.4` als referentie.
+- **Minicursussen** voor alle 19 PO's. Mockup `studiemateriaal/1-4` als referentie.
 - **Generatie-prompts** voor Sonnet-agent (analoog aan operatie-prompts in `prompts/operaties/`) — pas zinvol na ≥3 voorbeelden van elk type (patroon bevroren).
 - **Render-tooling-overweging**: blijven minicursus + themafiche handgeschreven (markdown) of komt er render-flow uit JSON-bron? Beslissen wanneer 50+ documenten bestaan.
 

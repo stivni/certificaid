@@ -9,13 +9,13 @@ tags:
 
 <div class="no-print">
 
-> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/leerpaden/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
 
 </div>
 
 <div class="no-print">
 
-> **Themafiche — kapstok voor herhaling.** 20% i.p.v. 25% op de eerste schijf van 100 k EUR — maar alleen onder drie strenge cumulatieve voorwaarden. Bezoldigingstest is de notoir struikelblok. Voor verhaal en routekaart: [[leerpaden/2.3|minicursus PO 2.3]].
+> **Themafiche — kapstok voor herhaling.** 20% i.p.v. 25% op de eerste schijf van 100 k EUR — maar alleen onder drie strenge cumulatieve voorwaarden. Bezoldigingstest is de notoir struikelblok. Voor verhaal en routekaart: [[studiemateriaal/2-3|overzicht PO 2.3]].
 
 </div>
 

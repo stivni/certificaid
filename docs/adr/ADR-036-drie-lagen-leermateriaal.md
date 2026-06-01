@@ -29,7 +29,7 @@ Drie-lagen leermateriaal-architectuur, naast elkaar:
 |---|---|---|---|---|
 | **Concept-fiche** | `<concept-id>` | Eén concept | "Ik wil concept X begrijpen tot in detail" | `content/concepten/<concept-id>.md` (gerenderd uit `data/concepten/records/`) |
 | **Themafiche** | `<cluster-naam>` | Eén cluster uit granulariteit-skelet | "Ik wil alles van dit thema op één pagina, om snel te herhalen" | `content/themafiches/<cluster-naam>.md` (handgeschreven of via prompt) |
-| **Minicursus** | `<po-code>[-<sub>]` | Eén programmaonderdeel (of een spoor binnen een PO) | "Ik wil dit vak begrijpen — verhaal, opbouw, leesroute" | `content/leerpaden/<po-code>.md` |
+| **Minicursus** | `<po-code>[-<sub>]` | Eén programmaonderdeel (of een spoor binnen een PO) | "Ik wil dit vak begrijpen — verhaal, opbouw, leesroute" | `content/studiemateriaal/<po-slug>/index.md` |
 
 De drie lagen zijn complementair en bedienen verschillende leesmodi van dezelfde kandidaat. Een minicursus *verwijst naar* themafiches en concept-fiches; ze lijfen die niet in.
 
@@ -70,7 +70,7 @@ Themafiches zijn dus **complementair** aan de leerpad-laag, niet er onderdeel va
    - **Rakend** — verwijst naar andere minicursussen voor gedeelde stof
    - **Wat je daarvoor moet kennen** — verzamelt records die niet via een rol-actie genoemd waren + wettelijke kaders als context
 4. **Studie-aanpak** — leesroute in 4-5 stappen + verwijzing naar relevante themafiches
-5. **Examen-radar** — tabel van bevraagde onderwerpen uit `content/voorbeeldexamens/po-<code>.md` (frequentie · type vraag · centraal concept) + patroon-observatie + doorklik naar de volledige vragen
+5. **Examen-radar** — tabel van bevraagde onderwerpen uit `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md` (frequentie · type vraag · centraal concept) + patroon-observatie + doorklik naar de volledige vragen
 6. **Concepten die ook in andere PO's leven** — cross-PO-tabel voor kandidaten die meerdere PO's tegelijk voorbereiden ("dubbele rendementen")
 
 Volledige schrijfregels: [`docs/minicursus-schrijfregels.md`](../minicursus-schrijfregels.md).
@@ -93,7 +93,7 @@ Volledige schrijfregels: [`docs/themafiche-schrijfregels.md`](../themafiche-schr
 |---|---|---|
 | **Concept-fiche** | `data/concepten/records/<id>.json` → `render_concept_v22.py` → `content/concepten/` | Record-edit (operatie-pipeline of mens) |
 | **Themafiche** | Handgeschreven `content/themafiches/<cluster>.md` (mockup voorlopig in `content/experiment/`) | Records van het cluster materieel gewijzigd OF nieuwe valkuil/formule ontdekt |
-| **Minicursus** | Handgeschreven `content/leerpaden/<po>.md` | Examenprogramma-edit OF nieuwe themafiches OF nieuwe voorbeeldexamens-data |
+| **Minicursus** | Handgeschreven `content/studiemateriaal/<po-slug>/index.md` | Examenprogramma-edit OF nieuwe themafiches OF nieuwe voorbeeldexamens-data |
 
 **Geen automatische auto-regen tussen lagen.** Conform ADR-003: een record-wijziging stale-flagged eventueel de themafiche of minicursus, mens beslist of/wanneer regen.
 
@@ -102,7 +102,7 @@ Volledige schrijfregels: [`docs/themafiche-schrijfregels.md`](../themafiche-schr
 POC-fase: **handgeschreven** door Opus tijdens sparring, daarna door Sonnet-agent op basis van de schrijfregels-docs.
 
 Per regel 7 (Opus ↔ Sonnet werkverdeling):
-- **Opus** ontwerpt de eerste mockup van een nieuw document-type (zoals gebeurd voor `synthese-consolidatie-v1` en `leerpaden/1.4`)
+- **Opus** ontwerpt de eerste mockup van een nieuw document-type (zoals gebeurd voor `synthese-consolidatie-v1` en `studiemateriaal/1-4`)
 - **Sonnet** repliceert het format voor andere clusters/PO's binnen de schrijfregels — Opus reviewt het eerste batch-resultaat
 
 Een formele generatie-prompt (analoog aan operatie-prompts in `prompts/operaties/`) komt in een later werkpakket, zodra we genoeg variatie hebben gezien om het patroon te bevriezen.
@@ -110,7 +110,7 @@ Een formele generatie-prompt (analoog aan operatie-prompts in `prompts/operaties
 ## Mockups (POC — handgeschreven door Opus, mei 2026)
 
 - **Themafiche-POC**: [`content/experiment/synthese-consolidatie-v1.md`](../../content/experiment/synthese-consolidatie-v1.md) — cluster `consolidatie` (PO 1.4). Status: voorgesteld, niet inhoudelijk gecureerd. Verplaatsen naar `content/themafiches/consolidatie.md` zodra structuur bevroren.
-- **Minicursus-POC**: [`content/leerpaden/1.4.md`](../../content/leerpaden/1.4.md) — PO 1.4 (Geconsolideerde jaarrekening). Status: voorgesteld.
+- **Minicursus-POC**: [`content/studiemateriaal/1-4/index.md`](../../content/studiemateriaal/1-4/index.md) — PO 1.4 (Geconsolideerde jaarrekening). Status: voorgesteld.
 
 ## CSS-conventies (Quartz publication layer)
 
@@ -134,7 +134,7 @@ Conventies blijven projectbreed; mocht een ander documenttype andere print-keuze
 | `tools/leermateriaal/render_competentie_fiche.py` | Verwijderd | Geen competentie-records meer |
 | `prompts/leerpad-propose-v1.md` | Verwijderd | Vervangen door minicursus-schrijfregels |
 | `prompts/competentie-destillatie-v1.md` + `-v2.md` | Verwijderd | Competenties niet meer apart |
-| `data/concepten/leerpaden/*.yaml` (10 stuks) | Gearchiveerd in `_archive/` | Oude format; inhoud bewaard als sparring-historiek |
+| `data/concepten/studiemateriaal/*.yaml` (10 stuks) | Gearchiveerd in `_archive/` | Oude format; inhoud bewaard als sparring-historiek |
 
 ## Open punten — voor latere ronde
 
@@ -149,4 +149,4 @@ Conventies blijven projectbreed; mocht een ander documenttype andere print-keuze
 
 ## Veranderlog
 
-- **2026-05-28** — ADR opgesteld na sparring-sessie (Opus). Twee POC-mockups gemaakt (`synthese-consolidatie-v1.md` + `leerpaden/1.4.md`). Naamkeuzes `minicursus` / `themafiche` / `Kern`/`Rakend` vastgelegd. Opkuis van Fase D + Fase E artefacten (zie tabel boven).
+- **2026-05-28** — ADR opgesteld na sparring-sessie (Opus). Twee POC-mockups gemaakt (`synthese-consolidatie-v1.md` + `studiemateriaal/1-4/index.md`). Naamkeuzes `minicursus` / `themafiche` / `Kern`/`Rakend` vastgelegd. Opkuis van Fase D + Fase E artefacten (zie tabel boven).

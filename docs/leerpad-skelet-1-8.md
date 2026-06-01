@@ -58,7 +58,7 @@ Check van `data/programma/examen_vragen/_programmaonderdeel_classificatie.json` 
 - `2013-1-vr10` — analytische test door interne controleafdeling → 1.7
 - `2013-1-vr11` — belang van een budget voor interne controle → 1.7
 
-Er bestaat **geen `content/voorbeeldexamens/po-1.8.md`**. De directory bevat alle PO's behalve 1.8 en 1.10+ (`po-1.1.md` t/m `po-1.7.md`, `po-1.9.md`, dan 2.x).
+Er bestaat **geen `content/studiemateriaal/1-8/voorbeeldexamenvragen.md`**. De directory bevat alle PO's behalve 1.8 en 1.10+ (`po-1.1.md` t/m `po-1.7.md`, `po-1.9.md`, dan 2.x).
 
 **Conclusie**: voorbeeldexamen-bron ontbreekt voor dit PO. Het skelet steunt op:
 

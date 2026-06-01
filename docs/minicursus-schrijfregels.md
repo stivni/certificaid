@@ -2,7 +2,7 @@
 
 **Voor**: een Sonnet-agent of mens die een minicursus schrijft voor een programmaonderdeel (PO).
 **Canonieke beslissing**: [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md).
-**Mockup-referentie**: [`content/leerpaden/1.4.md`](../content/leerpaden/1.4.md) (PO 1.4 — Geconsolideerde jaarrekening).
+**Mockup-referentie**: [`content/studiemateriaal/1-4/index.md`](../content/studiemateriaal/1-4/index.md) (PO 1.4 — Geconsolideerde jaarrekening).
 
 ---
 
@@ -81,7 +81,7 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 - **Sub-sectie `### Voor de herhaling — samenvatting`** — start met deze formulering:
   > Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met vergelijkingstabel, beslisboom, formules en klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
   
-  Eindig met één wikilink + studietijd-indicatie: `→ [[leerpaden/<po-slug>/samenvatting|Samenvatting PO X.Y — <titel>]] (2-4 A4, printbaar)`. Zie [docs/samenvatting-procedure.md](samenvatting-procedure.md) + [docs/samenvatting-schrijfregels.md](samenvatting-schrijfregels.md).
+  Eindig met één wikilink + studietijd-indicatie: `→ [[studiemateriaal/<po-slug>/samenvatting|Samenvatting PO X.Y — <titel>]] (2-4 A4, printbaar)`. Zie [docs/samenvatting-procedure.md](samenvatting-procedure.md) + [docs/samenvatting-schrijfregels.md](samenvatting-schrijfregels.md).
 - Daarna een tabel met kolommen `Themafiche` · `Rol voor dit vak` (Kern / Vereist / Raakvlak). Themafiches die nog niet bestaan: markeer met `` `Themafiche <naam>` *(nog te maken)* ``.
 
 ### 5. Examen-radar — wat is in de praktijk al bevraagd?
@@ -89,8 +89,8 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 - Intro-paragraaf met N (aantal unieke vraag-eenheden) en bron-examens.
 - Tabel met kolommen: `Onderwerp` · `Hoe vaak?` · `Type vraag` · `Centraal concept` (wikilink).
 - Onder de tabel: één paragraaf met patroon-observatie ("examen toetst niet X maar Y").
-- Eindigen met doorklik: `→ De volledige vragen met uitgewerkte modelantwoorden vind je op de [voorbeeldexamen-pagina PO X.Y](../voorbeeldexamens/po-X.Y).`
-- Bron-data: `content/voorbeeldexamens/po-<code>.md` — gebruik de `> [!question]-` callouts om de onderwerpen + frequenties te identificeren.
+- Eindigen met doorklik: `→ De volledige vragen met uitgewerkte modelantwoorden vind je op de [voorbeeldexamen-pagina PO X.Y](../studiemateriaal/X-Y/voorbeeldexamenvragen).`
+- Bron-data: `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md` — gebruik de `> [!question]-` callouts om de onderwerpen + frequenties te identificeren.
 
 ### 6. Concepten die ook in andere PO's leven
 
@@ -104,7 +104,7 @@ Een minicursus heeft **deze zes secties in deze volgorde**:
 - Korte motivering-paragraaf: "examen toetst fragmenten — die landen alleen scherp als je het hele pad één keer hebt doorlopen". Verwijs naar het actieve karakter (zelf doen vs lezen).
 - Eén wikilink met studietijd-indicatie: `→ [[oefening|Oefening: <case-naam> consolideren/uitwerken/...]] (60-75 min)`
 - Geen eigen tabel. Eén korte uitlokking volstaat — de oefening zelf doet het didactische werk.
-- Bronbestand: `data/oefeningen/<slug>.yaml` (zie `data/oefeningen/SCHEMA.md`). Markdown gerenderd op `content/leerpaden/<po-slug>/oefening.md` (PO-specifiek) of `content/oefeningen/<slug>.md` (cross-PO).
+- Bronbestand: `data/oefeningen/<slug>.yaml` (zie `data/oefeningen/SCHEMA.md`). Markdown gerenderd op `content/studiemateriaal/<po-slug>/oefening.md` (PO-specifiek) of `content/oefeningen/<slug>.md` (cross-PO).
 
 > **Plaatsing ná § 6 cross-PO.** De oefening is een "doorgaans-laatste"-actie: eerst de leerstof zien (§ 2-3), examen-context kennen (§ 5), cross-PO snappen (§ 6), pas dán actief testen. Voor PO's waar nog geen oefening bestaat: sectie weglaten (niet als TODO-rij vermelden).
 
@@ -145,5 +145,5 @@ tags:
 - [ ] Doelstellingen-tekst verbatim overgenomen uit `programma.json`
 - [ ] Geen interne field-namen of project-jargon in de tekst
 - [ ] Tone: kandidaat-gericht ("jij" / "de kandidaat") consistent doorheen het document
-- [ ] Examen-radar gebaseerd op werkelijke `content/voorbeeldexamens/po-<code>.md`-inhoud
+- [ ] Examen-radar gebaseerd op werkelijke `content/studiemateriaal/<po-slug>/voorbeeldexamenvragen.md`-inhoud
 - [ ] Footer met status-disclaimer

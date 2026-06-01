@@ -451,5 +451,5 @@ Tutor-interactie: een retrieval-hit uit de `concepten`-collectie kan optioneel d
 - `content/competenties/` — deterministisch gegenereerde competentie-fiches
 - `content/studiemateriaal/<X.Y>/minicursus.md` — skeleton + Opus-glue
 - `data/concepten/competenties/` — competentie-YAML's (schema 1.0)
-- `data/concepten/leerpaden/` — leerpad-YAML's per programmaonderdeel
+- `data/concepten/studiemateriaal/` — leerpad-YAML's per programmaonderdeel
 - Tutor en renderer delen template-logica voor confidence-labeling en wikilink-resolutie

@@ -4,7 +4,7 @@
 
 **Voor**: Sonnet-uitvoeringsagent. Gevalideerd op 5 succesvolle runs voor PO 1.4 leerstukken (mei 2026).
 
-**Output**: één markdown-bestand op de canonical leerstuk-locatie (`content/leerpaden/<po-slug>/<slug>.md` voor PO-specifiek, of `content/leerstukken/<slug>.md` voor cross-PO).
+**Output**: één markdown-bestand op de canonical leerstuk-locatie (`content/studiemateriaal/<po-slug>/<slug>.md` voor PO-specifiek, of `content/leerstukken/<slug>.md` voor cross-PO).
 
 ---
 
@@ -26,9 +26,9 @@ Output: één bestand `<<OUTPUT_PATH>>`.
 3. **`data/leerstukken/<<SLUG>>.yaml`** — het script dat je rendert.
 4. **`data/voorbeeldgroepen/<<VOORBEELDGROEP>>.yaml`** — gedeelde data (groepsstructuur, balansen, boekingen, mock_geconsolideerd, mini_cases).
 5. **Referentie-leerstukken voor STIJL** (lees alleen wat nodig):
-   - `content/leerpaden/1-4/wat-is-een-geconsolideerde-jaarrekening.md` (entry-fiche stijl, korte + RAG-verificatie)
-   - `content/leerpaden/1-4/hoe-consolideren.md` (complex "hoe"-leerstuk: diep geneste sub-secties, balans-paar, boekingen, blockquote-asides)
-   - `content/leerpaden/1-4/goodwill-bij-consolidatie.md` (specifiek-fiche met afschrijvings-tabel + impairment-uitleg)
+   - `content/studiemateriaal/1-4/wat-is-een-geconsolideerde-jaarrekening.md` (entry-fiche stijl, korte + RAG-verificatie)
+   - `content/studiemateriaal/1-4/hoe-consolideren.md` (complex "hoe"-leerstuk: diep geneste sub-secties, balans-paar, boekingen, blockquote-asides)
+   - `content/studiemateriaal/1-4/goodwill-bij-consolidatie.md` (specifiek-fiche met afschrijvings-tabel + impairment-uitleg)
 
 ## Lengte volgt scope
 
@@ -90,7 +90,7 @@ tags:
 ```markdown
 <div class="no-print">
 
-> **Leerstuk — één vraag, helemaal doorgewerkt.** <inhoud op basis van intro.callout_beat>. Voor verhaal en routekaart: [[leerpaden/<po-slug>|minicursus PO <po>]].
+> **Leerstuk — één vraag, helemaal doorgewerkt.** <inhoud op basis van intro.callout_beat>. Voor verhaal en routekaart: [[studiemateriaal/<po-slug>|minicursus PO <po>]].
 
 </div>
 ```
@@ -131,7 +131,7 @@ tags:
 
 - [[<leerstuk-slug>]] — <hint>
 - ...
-- [[leerpaden/<po-slug>/samenvatting|Samenvatting PO <po>]] — <hint uit `samenvatting.hint`>  *(alleen indien `samenvatting.hint` is gezet — null = overslaan; vervangt het oude themafiche-wikilink per ADR-039)*
+- [[studiemateriaal/<po-slug>/samenvatting|Samenvatting PO <po>]] — <hint uit `samenvatting.hint`>  *(alleen indien `samenvatting.hint` is gezet — null = overslaan; vervangt het oude themafiche-wikilink per ADR-039)*
 
 ## Doorklik naar concepten
 
@@ -167,7 +167,7 @@ Voor wie definitorisch detail wil opzoeken:
 - Geen drempelbedragen hardcoded — Cijferzakboekje-pointer of tarief-record wikilinks
 - Geen confidence-iconen (📖/🔗/🤖)
 - **Geen onnodige Engelse termen** — `margin` → `marge`, `goodwill` is OK (vaste term), `one-line consolidation` → "consolidatie op één lijn"
-- Wikilinks: `[[<slug>]]` voor leerstukken en concepten; `[[leerpaden/<po-slug>|minicursus PO <po>]]` voor minicursus
+- Wikilinks: `[[<slug>]]` voor leerstukken en concepten; `[[studiemateriaal/<po-slug>|minicursus PO <po>]]` voor minicursus
 - **Abstracte stellingen krijgen een mini-voorbeeld** (regel 10 van schrijfregels) — beat "20 % is vermoeden" zonder tegen-voorbeeld levert vage prose
 
 ## Werkstroom
@@ -202,7 +202,7 @@ Begin nu.
 ## Hoe in te zetten
 
 1. Vul de drie placeholders in:
-   - `<<OUTPUT_PATH>>` — bv. `content/leerpaden/1-4/wie-moet-consolideren.md`
+   - `<<OUTPUT_PATH>>` — bv. `content/studiemateriaal/1-4/wie-moet-consolideren.md`
    - `<<SLUG>>` — bv. `wie-moet-consolideren`
    - `<<VOORBEELDGROEP>>` — bv. `aurelia`
    - `<<SPECIFIEKE_CLAIMS_OM_TE_VERIFIËREN>>` — lijstje wetsclaims die het script bevat (script.wettelijk_fundament als startpunt)
