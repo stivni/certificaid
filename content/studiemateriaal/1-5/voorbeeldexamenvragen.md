@@ -1,7 +1,7 @@
 ---
 title: 1.5 Voorbeeldexamenvragen Beginselen van de Europese wetgeving en internationale boekhoudkundige normen
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.5 (Beginselen van de Europese wetgeving en internationale boekhoudkundige normen).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "6. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-1-5]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

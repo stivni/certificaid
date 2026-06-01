@@ -1,0 +1,237 @@
+# Leerstuk-script — Invordering en verzet tegen dwangbevel
+#
+# PO 2.5 leerstuk 5 (collectie-fase-fiche). De fiscus vordert; de cliënt
+# verdedigt zich. Drie beslagtypes · dwangbevel als uitvoerbare titel ·
+# verzet bij beslagrechter als enige stuiting · hoofdelijkheid bestuurder
+# art. 442quater + geheime commissielonen kort.
+#
+# Hand-off: dit is het laatste leerstuk van het PO. Sluit de cyclus —
+# verwijst terug naar bezwaar (≠ verzet) en naar de timeline van
+# leerstuk 1. Cross-PO doorklikken naar [[2.3]] (geheime commissielonen)
+# en [[3.0]] (bestuurdersaansprakelijkheid bij faillissement).
+
+meta:
+  slug: invordering-en-verzet-tegen-dwangbevel
+  titel: "Invordering en verzet tegen dwangbevel — als de aanslag definitief is"
+  po: "2.5"
+  cluster: fiscaliteit
+  voorbeeldgroep: de-vlieg-partners
+  beschrijving: >
+    Leerstuk PO 2.5 — collectie-fase-fiche. De aanslag is definitief en
+    onbetaald: hoe vordert de ontvanger in (aanmaning → bewarend beslag →
+    dwangbevel → uitvoerend beslag → verkoop), welke drie beslagtypes
+    bestaan, en hoe verdedigt de cliënt zich tegen tenuitvoerlegging via
+    VERZET bij de beslagrechter — niet via bezwaar. Hoofdelijkheid
+    bestuurder art. 442quater WIB voor bedrijfsvoorheffing en btw +
+    geheime commissielonen-aanslag kort, met cross-PO doorklikken.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 2.5-overzicht.
+    Wijs erop dat dit leerstuk een ANDERE logica volgt dan de vorige —
+    de aanslag is hier al definitief, het kohier is een UITVOERBARE TITEL,
+    en de enige stuiting van tenuitvoerlegging is een vordering in rechte
+    (verzet) bij de beslagrechter. Het examen-onderscheid bezwaar ≠ verzet
+    is hier de kern.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: invordering start bij AANMANING door de ontvanger en eindigt bij verkoop of inning. Tussenstappen: BEWAREND BESLAG (vrijwaring, terwijl aanslag nog betwist) · DWANGBEVEL (art. 13 Wetboek Invordering 2020 — uitvoerbare titel) · UITVOEREND BESLAG (roerend · onroerend · onder derden) · verkoop of inning. De ENIGE stuiting van tenuitvoerlegging is een VORDERING IN RECHTE — verzet bij beslagrechter, niet bezwaar bij adviseur-generaal."
+    - "Bezwaar ≠ verzet — examen-klassieker (2015-1 vr44). Bezwaar = administratief, TEGEN DE AANSLAG, bij adviseur-generaal, termijn 1 jaar. Verzet = gerechtelijk, TEGEN DE TENUITVOERLEGGING, bij BESLAGRECHTER (rechtbank van eerste aanleg, sectie beslagrechter), termijn typisch 1 maand vanaf betekening dwangbevel."
+    - "Twee speciale punten: (a) HOOFDELIJKHEID BESTUURDER art. 442quater WIB — bij vennootschapsfalen kan de fiscus de bestuurder/zaakvoerder hoofdelijk aanspreken voor BEDRIJFSVOORHEFFING + BTW, mits aantonen van fout/tekortkoming; (b) GEHEIME COMMISSIELONEN-AANSLAG art. 219 — bijzondere sanctie-aanslag die snel opeisbaar is (cross-PO [[2.3]])."
+  visualisaties:
+    - type: mermaid
+      ref: invordering_cyclus
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Eerst de invorderingscyclus + drie beslagtypes, dan dwangbevel + verzet, dan hoofdelijkheid bestuurder + geheime commissielonen kort.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: invorderingscyclus
+    titel: "De invorderingscyclus — van aanmaning tot verkoop"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-situatie: aanslagbiljet is verzonden, betaaltermijn (typisch 2 maanden) is verstreken zonder volledige betaling. De ONTVANGER (lokaal kantoor FOD Financiën) start nu de invordering — administratief eerst, dwingend vervolgens."
+      - "Stap 1: AANMANING. Schriftelijke betalingsherinnering. Niet beslagvatbaar — administratief signaal. Geeft cliënt laatste kans op vrijwillige betaling of afbetalingsplan."
+      - "Stap 2 (parallel mogelijk): BEWAREND BESLAG. Wanneer ontvanger vreest voor RISICO OP NIET-BETALING (vermogensaftakeling, vluchtgevaar) kan hij — vóór een uitvoerbare titel — bewarend beslag laten leggen op vermogensbestanddelen. Doel: vrijwaring, niet verkoop. Gerechtelijke machtiging vereist (Ger.W. art. 1413 e.v.)."
+      - "Stap 3: DWANGBEVEL. Vaardiging door de ontvanger op grond van het KOHIER — geen rechterlijke titel, maar wel een UITVOERBARE TITEL (art. 13 Wetboek minnelijke en gedwongen invordering 2020). Wordt door deurwaarder BETEKEND aan de schuldenaar. Vanaf betekening loopt een korte termijn (typisch 1 maand) waarbinnen cliënt VERZET kan aantekenen."
+      - "Stap 4: UITVOEREND BESLAG. Op basis van het dwangbevel — drie types (zie volgende sectie). Beslag wordt uitgevoerd door deurwaarder; goederen worden in beslag genomen, op derde-bewaring geplaatst, of beslag onder derden wordt aangezegd."
+      - "Stap 5: VERKOOP of INNING. Roerend beslag → openbare verkoop. Onroerend beslag → openbare verkoop via notaris. Beslag onder derden → directe inning bij de derde (werkgever houdt loon in; bank stort saldo aan ontvanger)."
+      - "Concretiseer met De Vlieg E9 + E12 (uit voorbeeldgroep): in E9 (10.10.2025) legt de ontvanger BEWAREND beslag op de zichtrekening BV — niet voor verkoop maar als vrijwaring tijdens lopend bezwaar. In E12 — na hypothetische definitieve afwijzing en niet-betaling — vaardigt ontvanger een DWANGBEVEL uit dat door deurwaarder betekend wordt; vanaf dan loopt de verzettermijn voor cliënt."
+    visualisaties:
+      - type: mermaid
+        ref: invordering_cyclus
+        bron: voorbeeldgroep
+
+  - id: drie-beslagtypes
+    titel: "De drie types beslag — roerend, onroerend, onder derden"
+    niveau: 2
+    beats:
+      - "Open met de drie-keer-vraag van elke ondernemer: 'wat kan de fiscus eigenlijk doen?'. Antwoord: drie beslagtypes met elk eigen doel en eigen procedure."
+      - "Toon de drie-rij tabel — type, doel, procedure, beperking."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Type beslag", "Doel", "Wat wordt belast?", "Beperkingen"]
+        rijen:
+          - ["**Beslag op ROERENDE goederen**", "Verkoop ter aanzuivering belasting", "Inboedel, machines, voertuigen, voorraad, geldsommen", "Onontvreemdbare goederen (kledij, gewoon huisraad, werktuig nodig voor beroep) — Ger.W. art. 1408"]
+          - ["**Beslag op ONROERENDE goederen**", "Openbare verkoop via notaris", "Woning, gebouwen, gronden", "Bescheiden eigen woning blijft typisch buiten schot bij eerste aanslag; bij grotere schulden mogelijk"]
+          - ["**Beslag ONDER DERDEN**", "Directe inning via derde-schuldenaar", "Loon (werkgever) · banksaldo · klant-vorderingen · huur (huurder)", "Loon: gedeeltelijke bescherming via beslagdrempels Ger.W. art. 1409 (minimum-inkomen)"]
+    kinderen:
+
+      - id: beslag-onder-derden-bijzonder
+        titel: "Beslag onder derden — de meest voorkomende vorm"
+        niveau: 3
+        beats:
+          - "Open met de praktijkrealiteit: bij KMO's en zelfstandigen is BESLAG ONDER DERDEN de meest gebruikte techniek — discreet, snel, en raakt zelden de werking van het bedrijf."
+          - "Bij bank: ontvanger betekent VEREENVOUDIGD DERDENBESLAG aan de bank; bank moet binnen 15 dagen aangeven welke saldi de cliënt heeft en welke worden vastgehouden. De cliënt verliest in praktijk OP HETZELFDE MOMENT toegang tot zijn rekening — vandaar dat ondernemers vaak ENKEL bij bewarend beslag al financieel verlamd zijn."
+          - "Bij werkgever (voor PB-schulden zaakvoerder): werkgever moet beslagdrempels Ger.W. art. 1409 respecteren — een minimum bedrag blijft beschermd. Voor hogere lonen kan een aanzienlijk deel worden ingehouden."
+          - "Bij klanten: ontvanger betekent derdenbeslag aan grote klanten van een bedrijf — die mogen dan niet meer aan het bedrijf betalen, maar moeten de bedragen aan de ontvanger storten. Effect: cashflow afgeknepen, vaak einde activiteit."
+          - "Belangrijke nuance (blockquote-aside): beslag onder derden is een sterker instrument dan beslag op zaken — het werkt onmiddellijk, vereist geen verkoop, en heeft een belangrijke ontradende werking. Voor de accountant: bij dreigend dwangbevel altijd CASH-positie checken en eventueel onderhandelen over afbetalingsplan VOORDAT het dwangbevel betekend wordt."
+
+  - id: dwangbevel-uitvoerbare-titel
+    titel: "Het dwangbevel — uitvoerbare titel zonder rechter"
+    niveau: 2
+    beats:
+      - "Open met de eigenaardigheid: het kohier (art. 297-298 WIB) is OP ZICHZELF een uitvoerbare titel — geen rechterlijke uitspraak nodig. Het DWANGBEVEL (art. 13 Wetboek Invordering 2020) is het VEHIKEL waarmee die titel wordt geactiveerd voor tenuitvoerlegging."
+      - "Wie vaardigt uit? De ONTVANGER van de FOD Financiën (lokaal kantoor). Bevoegdheid ontleent hij aan het kohier — geen rechterlijke tussenkomst nodig. Dit is uitzonderlijk in het Belgisch recht; bij private schuldvorderingen heeft de schuldeiser bijna altijd een vonnis nodig."
+      - "Hoe wordt het betekend? Door een GERECHTSDEURWAARDER aan de schuldenaar persoonlijk of aan zijn woonplaats. Vanaf moment betekening — niet vanaf vaardiging — loopt de verzettermijn."
+      - "Inhoud dwangbevel: identificatie schuldenaar + aanslagjaar + verschuldigd bedrag (hoofdsom + nalatigheidsintresten + kosten) + bevel tot betaling + vermelding verzetmogelijkheid + termijn."
+      - "Praktijktip: een dwangbevel komt zelden onverwacht — er gaat een AANMANING aan vooraf, en vaak meerdere herinneringen. Wanneer cliënt belt met een aanmaning: drie sporen overwegen — (a) tijdig betalen of afbetalingsplan; (b) indien aanslag onjuist: bezwaar lopend houden + verzoek tot opschorting invordering; (c) bij dreigend dwangbevel: cash-positie evalueren + onderhandeling met ontvanger."
+
+  - id: verzet-bij-beslagrechter
+    titel: "Verzet bij de beslagrechter — de enige stuiting"
+    niveau: 2
+    beats:
+      - "Open met de scherpe stelling: een dwangbevel kan NIET ongedaan worden gemaakt door bezwaar (dat gaat over de aanslag) — alleen door VORDERING IN RECHTE bij de beslagrechter. Dit is de enige stuiting van tenuitvoerlegging."
+      - "Wat is de BESLAGRECHTER? Een specifieke functie binnen de rechtbank van eerste aanleg (Ger.W. art. 1395 e.v.). Bevoegd voor alle geschillen over uitvoerend en bewarend beslag, dwangbevelen, en andere tenuitvoerleggingsmaatregelen."
+      - "Termijn: typisch 1 MAAND vanaf BETEKENING dwangbevel. Korter dan bezwaartermijn (1 jaar) — invordering staat onder tijdsdruk."
+      - "Welke gronden? VORMGEBREKEN dwangbevel (geen ondertekening bevoegd ontvanger, foute identificatie schuldenaar, verkeerde bedragen) · onregelmatige BETEKENING door deurwaarder · TIJDIGHEID-discussies (verjaring invordering — 5 jaar art. 23 Wetboek Invordering 2020) · DUBBELE INVORDERING. Inhoudelijke betwisting van de aanslag hoort hier NIET — daarvoor is bezwaar bedoeld."
+      - "Verzet schorst de tenuitvoerlegging? NIET AUTOMATISCH. De beslagrechter kan op verzoek opschorting verlenen, maar verzet op zichzelf belet de ontvanger niet om beslag te leggen tijdens de procedure. Praktijktip: vraag expliciet om opschorting bij de inleidende dagvaarding."
+      - "Belangrijke nuance (blockquote-aside): in praktijk wordt verzet vaak gecombineerd met PROCEDUREEL bezwaar (aanslag betwisten) — twee parallelle sporen. Dat is niet ongewoon: een aanslag kan inhoudelijk fout zijn (bezwaar) ÉN het dwangbevel ervoor kan procedureel onregelmatig zijn (verzet). Strategisch: kies wat het sterkst staat per spoor."
+
+  - id: hoofdelijkheid-bestuurder
+    titel: "Hoofdelijkheid van de bestuurder — art. 442quater WIB"
+    niveau: 2
+    beats:
+      - "Open met de cliënt-vraag die elke zaakvoerder beklemt: 'als mijn BV de belasting niet kan betalen, kan de fiscus dan bij MIJ?'. Antwoord: in principe nee (rechtspersoonlijkheid scheidt vennootschap van bestuurder) — maar er zijn UITZONDERINGEN."
+      - "Art. 442quater WIB regelt de HOOFDELIJKE aansprakelijkheid van de bestuurder of zaakvoerder voor de BEDRIJFSVOORHEFFING en btw die de vennootschap onbetaald liet — mits aantonen van FOUT of TEKORTKOMING bij de bestuurder."
+      - "Wanneer mag de ontvanger zich tot de bestuurder wenden? Onder voorwaarden: (a) vennootschap is in gebreke met BV/btw-betalingen; (b) er is een TEKORTKOMING aantoonbaar (bv. herhaalde niet-betaling, geen aangifte, gebrek aan inning bij klanten); (c) de bestuurder is in functie tijdens de relevante periode."
+      - "Strategische implicatie voor de bestuurder: bij FINANCIËLE PROBLEMEN van de vennootschap heeft de bedrijfsvoorheffing + btw VOORRANG — zorgen voor tijdige betaling beschermt persoonlijk vermogen. Bij failliet: art. 442quater kan worden ingeroepen door de fiscus en geeft directe vordering op bestuurder."
+      - "Cross-PO doorklik: BESTUURDERSAANSPRAKELIJKHEID in faillissementscontext wordt uitgewerkt in [[3.0]]; hier alleen de fiscale variant. Praktisch verschil: art. 442quater werkt onafhankelijk van faillissement — fiscus kan al vorderen vóór de boedel betrokken is."
+
+  - id: geheime-commissielonen-kort
+    titel: "Geheime commissielonen-aanslag — een snel-eisbare sanctie-aanslag"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een 'klassieker' in de invorderingscontext omdat de aanslag SNEL eisbaar is — geen lange BvW-cyclus, korte verjaring."
+      - "Art. 219 WIB: bijzondere aanslag op NIET-AANGEGEVEN commissielonen, presentiegelden, lonen of voordelen van alle aard die de vennootschap aan derden zou hebben uitbetaald. Tarief 100% (in beginsel) of 50% (indien begunstigde identificeerbaar binnen de termijn van art. 354 WIB, doorgaans 2 jaar en 6 maanden vanaf het verlenen van het voordeel)."
+      - "Procedure: GEEN regulier BvW-traject — de aanslag wordt VESTGISTERD op de niet-aangegeven bedragen + sanctie-tarief. Bewijslast bij fiscus om de uitbetaling aan te tonen."
+      - "Cross-PO doorklik: materiële inhoud (wanneer is iets 'geheim commissieloon'? Welke vrijstellingen?) zit in [[2.3]]. Hier alleen de PROCEDURELE positie — een aanslag die snel in invordering kan eindigen wanneer ze niet snel betwist wordt."
+
+  - id: bezwaar-vs-verzet-syntheseopnieuw
+    titel: "Bezwaar ≠ verzet — vergelijking in één blik"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische synthese: dit onderscheid was al brug tussen leerstuk 4 en leerstuk 5; hier de definitieve tabel."
+      - "Examen-klassieker: cliënt wil dwangbevel aanvechten — wat is het juiste rechtsmiddel? Antwoord = VERZET, niet bezwaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aspect", "Bezwaar", "Verzet"]
+        rijen:
+          - ["Karakter", "Administratief beroep", "Gerechtelijke vordering"]
+          - ["Tegen wat?", "De AANSLAG (kohier/biljet)", "De TENUITVOERLEGGING (dwangbevel, beslag)"]
+          - ["Bij wie?", "Adviseur-generaal AAFisc", "Beslagrechter (rb. eerste aanleg)"]
+          - ["Termijn (federaal)", "1 jaar vanaf 3e werkdag na verzending aanslagbiljet", "1 maand vanaf betekening dwangbevel"]
+          - ["Wettelijke basis", "WIB92 art. 366 + 371", "Ger.W. art. 1395 e.v. + Wetboek Invordering 2020"]
+          - ["Werking op invordering", "Geen schorsing (art. 410 WIB)", "Geen automatische schorsing — beslagrechter kan opschorting toestaan"]
+          - ["Welke gronden?", "Inhoudelijke betwisting van de belasting", "Vormgebreken dwangbevel · verjaring invordering · onregelmatige betekening"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): bij dwangbevel 'bezwaar' indienen. FOUT — het verkeerde rechtsmiddel. Bezwaar is administratief en gaat over de aanslag; tegen een dwangbevel is VERZET bij de BESLAGRECHTER het correcte middel. Examen-klassieker uit 2015-1 vr44."
+      - "Valkuil 2 (⚠️): denken dat een bestuurder/zaakvoerder onaantastbaar is achter de rechtspersoonlijkheid van de vennootschap. FOUT — art. 442quater WIB voorziet HOOFDELIJKE aansprakelijkheid voor BEDRIJFSVOORHEFFING + BTW bij fout/tekortkoming. Bij financiële moeilijkheden van de vennootschap: BV + btw eerst betalen om persoonlijk vermogen te beschermen."
+      - "Valkuil 3 (⚠️): denken dat een aanmaning of dwangbevel ALLEEN tegen de hoofdsom werkt. FOUT — invordering omvat HOOFDSOM + NALATIGHEIDSINTRESTEN + (eventueel) BELASTINGVERHOGING + BOETE + KOSTEN van deurwaarder. Bedragen kunnen oplopen — een schuld van 20.000 EUR aan VenB met 50% belastingverhoging + 2 jaar intresten kan in invordering oplopen naar 35.000+. Cliënt moet de TOTALE schuld zien, niet alleen de aanslag."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: bezwaar-bemiddeling-en-gerechtelijke-fase
+      hint: "Voor het onderscheid bezwaar ≠ verzet — bezwaar is daar uitgewerkt; verzet hier."
+    - slug: wat-is-fiscale-procedure-en-aanslagcyclus
+      hint: "Voor de gehele timeline — invordering als derde fase."
+    - slug: taxatie-bericht-van-wijziging-en-ambtshalve-aanslag
+      hint: "Voor de oorsprong — belastingverhoging + boete die in invordering meeloopt."
+    - slug: controle-onderzoek-en-bewijs
+      hint: "Voor de aanloop — onderzoek + bewijs als ver oorsprong van de uiteindelijk gevorderde schuld."
+  samenvatting:
+    hint: "Voor herhaling — invorderingscyclus + drie beslagtypes + onderscheid bezwaar/verzet."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [invorderingsprocedure, bestuurdersaansprakelijkheid]
+    - concepten: [geheime-commissielonen, fiscale-sancties]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Dwangbevel als uitvoerbare titel"
+    ref: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen (in werking 1.1.2020) art. 13"
+    noot: "Federaal wetboek dat verspreide invorderingsregels uit WIB en WBTW bundelt."
+  - onderwerp: "Verjaring invordering"
+    ref: "Wetboek Invordering 2020 art. 23"
+    noot: "5 jaar verjaring invordering — start bij definitief worden aanslag; stuiting door dwangbevel of betalingsherinnering volgens regels Ger.W."
+  - onderwerp: "Kohier als uitvoerbare titel"
+    ref: "WIB92 art. 297-298"
+  - onderwerp: "Invordering — bezwaar schorst niet"
+    ref: "WIB92 art. 410"
+    noot: "Onbetwist deel opeisbaar; bewarend beslag mogelijk."
+  - onderwerp: "Hoofdelijkheid bestuurder bedrijfsvoorheffing + btw"
+    ref: "WIB92 art. 442quater"
+    noot: "Mits fout/tekortkoming aangetoond. Cross-PO doorklik [[3.0]] voor bestuurdersaansprakelijkheid algemeen."
+  - onderwerp: "Geheime commissielonen-aanslag"
+    ref: "WIB92 art. 219"
+    noot: "100% (of 50% indien begunstigde identificeerbaar). Cross-PO [[2.3]] voor materiële inhoud."
+  - onderwerp: "Beslagrechter — bevoegdheid + verzet"
+    ref: "Ger.W. art. 1395-1495"
+    noot: "Bevoegd voor alle geschillen tenuitvoerlegging; verzet typisch 1 mnd vanaf betekening dwangbevel."
+  - onderwerp: "Onontvreemdbare goederen"
+    ref: "Ger.W. art. 1408"
+    noot: "Kledij, gewoon huisraad, werktuig nodig voor beroep."
+  - onderwerp: "Loonbescherming bij derdenbeslag"
+    ref: "Ger.W. art. 1409"
+    noot: "Beslagdrempels — minimum-inkomen beschermd."
+  - onderwerp: "Bewarend beslag — algemene regels"
+    ref: "Ger.W. art. 1413 e.v."
+    noot: "Vereist gerechtelijke machtiging in beginsel; vrijwaring vóór uitvoerbare titel."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — vordering in rechte als enige stuiting tenuitvoerlegging"
+    inhoud: "Vaste rechtspraak: de tenuitvoerlegging van een dwangbevel kan enkel worden gestuit door een vordering in rechte (verzet) — niet door administratief bezwaar tegen de onderliggende aanslag. Bezwaar en verzet zijn verschillende rechtsmiddelen met verschillende functies."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; specifieke arrest-nummers worden in samenvatting aangevuld."
+  - onderwerp: "Cassatie — hoofdelijkheid bestuurder art. 442quater"
+    inhoud: "De ontvanger moet effectief de FOUT of TEKORTKOMING van de bestuurder aantonen — louter niet-betaling door de vennootschap volstaat niet. Cassatie heeft de bewijslast van de administratie meermaals onderstreept."
+    confidence: "⚠️ te verifiëren — concrete arrest-nummers nog open."
+
+footer: "Leerstuk PO 2.5. Status: voorgesteld — POC volgens ADR-037."

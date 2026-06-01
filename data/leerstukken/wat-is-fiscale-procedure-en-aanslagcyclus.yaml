@@ -1,0 +1,221 @@
+# Leerstuk-script — Wat is fiscale procedure en wat is de aanslagcyclus?
+#
+# PO 2.5 leerstuk 1 (entry + timeline). Zet de drie fases neer (taxatie ·
+# betwisting · invordering) met de twee scharniermomenten waar de cliënt
+# advies nodig heeft (ontvangst BvW + ontvangst aanslagbiljet). Noemt de
+# wetboeken zodat de stagiair weet WAAR opzoeken — geen technische diepte.
+#
+# Hand-off: dit leerstuk introduceert de begrippen "controle/onderzoek",
+# "bericht van wijziging", "bezwaar", "invordering" — alle vier worden in
+# de volgende leerstukken uitgewerkt. Hier alleen vermelden + plaatsen op
+# de timeline.
+
+meta:
+  slug: wat-is-fiscale-procedure-en-aanslagcyclus
+  titel: "Wat is fiscale procedure en wat is de aanslagcyclus?"
+  po: "2.5"
+  cluster: fiscaliteit
+  voorbeeldgroep: de-vlieg-partners
+  beschrijving: >
+    Leerstuk PO 2.5 — entry + timeline: de fiscale procedure als drie fases
+    (taxatie · betwisting · invordering) met twee scharniermomenten waarop
+    de cliënt dringend advies nodig heeft. Plaatsing van de wetboeken
+    (WIB92 · WBTW · Wetboek Invordering · VCF) op de tijdsas zodat de
+    stagiair weet waar opzoeken — geen technische diepte.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 2.5-overzicht.
+    Wijs erop dat dit leerstuk de mentale kaart geeft voor alle volgende
+    leerstukken — de stagiair die hier de timeline ziet, herkent later in
+    welke fase een dossier zit.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: fiscale procedure = drie fases die elke aanslag doorloopt — TAXATIE (van aangifte tot inkohiering) · BETWISTING (van bezwaar tot eventueel cassatie) · INVORDERING (van betaaltermijn tot dwangbevel + beslag). De twee scharniermomenten waarop de cliënt advies nodig heeft zijn ontvangst BERICHT VAN WIJZIGING (1 maand antwoorden) en ontvangst AANSLAGBILJET (binnen 1 jaar bezwaar of betalen)."
+    - "Drie wetboeken voor drie domeinen — onthouden waar je zoekt scheelt uren: WIB92 art. 305-393 voor directe belastingen (PB + VenB + RPB + BNI); WBTW art. 81bis + 60-63 voor btw-eigen verjaring en controle; Wetboek minnelijke en gedwongen Invordering (sinds 2020) voor dwangbevel en beslag. Gewest-eigenheden leven in [[2.7]] (Vlabel · Brusselse Codex · Décret Wallon); btw-eigenheden in [[2.4]]."
+    - "Drie termijnen die elke accountant uit het hoofd kent: 1 MAAND om te antwoorden op een vraag om inlichtingen of een BvW (vanaf 3e werkdag na verzending) · 1 JAAR voor bezwaar federaal (NIET 6 maanden) · 5 jaar verjaring invordering. De rest staat in de termijntabel — vooral leerstuk 2 en samenvatting."
+  visualisaties:
+    - type: mermaid
+      ref: timeline_fiscale_procedure
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'In dit leerstuk teken ik de kaart — drie fases en twee scharniermomenten. De volgende vier leerstukken bouwen elke fase uit.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-fases
+    titel: "De drie fases van elke aanslag"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-observatie: elke fiscale aanslag — of het nu een PB-aanslag van een gepensioneerde is of een VenB-rechtzetting bij een KMO — doorloopt dezelfde drie fases. Wie de fases kent, weet bij elke brief van de fiscus in welke fase zijn cliënt zit."
+      - "Introduceer fase 1: TAXATIE. Start bij de aangifte, eindigt bij de inkohiering van de aanslag. Hier bepaalt de fiscus WAT verschuldigd is. Onderdelen: aangifte (art. 305-310 WIB) · controle/onderzoek (art. 315-326 WIB) · eventueel bericht van wijziging (art. 346 WIB) · eventueel ambtshalve aanslag (art. 351 WIB) · vestiging via kohier (art. 297-298 + 359 WIB)."
+      - "Introduceer fase 2: BETWISTING. Optioneel — start enkel als de cliënt het oneens is. Onderdelen: bezwaar bij adviseur-generaal (art. 366 + 371 WIB) · eventueel fiscale bemiddeling (FBD) · directeursbeslissing · vordering bij rechtbank van eerste aanleg (Ger.W. art. 1385undecies) · hoger beroep · cassatie. Uitgewerkt in [[bezwaar-bemiddeling-en-gerechtelijke-fase]]."
+      - "Introduceer fase 3: INVORDERING. Loopt parallel met fase 2 (bezwaar schorst invordering NIET) en eindigt met betaling of dwangmaatregelen. Onderdelen: aanmaning · eventueel bewarend beslag · dwangbevel (art. 13 Wetboek Invordering) · uitvoerend beslag · verkoop. Uitgewerkt in [[invordering-en-verzet-tegen-dwangbevel]]."
+      - "Synthese (vetgedrukt): de drie fases zijn niet drie alternatieven — het zijn drie opeenvolgende lagen die voor één aanslag tegelijk kunnen lopen. Examen-klassieker: 'cliënt heeft bezwaar ingediend en denkt veilig te zijn' — fout, ontvanger kan ondertussen al beslag laten leggen."
+    visualisaties:
+      - type: mermaid
+        ref: timeline_fiscale_procedure
+        bron: voorbeeldgroep
+
+  - id: twee-scharniermomenten
+    titel: "De twee scharniermomenten — wanneer de cliënt belt"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de fiscale procedure heeft veel termijnen, maar twee momenten zijn beslissend voor de cliënt-relatie. Op die twee momenten BELT de cliënt zijn accountant — andere brieven kunnen aan het einde van de week wachten."
+      - "Scharniermoment 1 — BERICHT VAN WIJZIGING ontvangen. Vanaf het moment dat de cliënt deze brief opent loopt een termijn van 1 maand (vanaf 3e werkdag na verzending) om gemotiveerd te antwoorden. Niet antwoorden = ambtshalve aanslag + omkering bewijslast in bezwaar. Antwoord-strategie wordt uitgewerkt in [[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]."
+      - "Scharniermoment 2 — AANSLAGBILJET ontvangen. Vanaf het moment dat het biljet verstuurd is loopt een termijn van 1 jaar (vanaf 3e werkdag na verzending) om bezwaar in te dienen. Wachten = aanslag definitief + invordering opeisbaar. Geen tussenstap: ofwel betalen, ofwel bezwaar. Strategie wordt uitgewerkt in [[bezwaar-bemiddeling-en-gerechtelijke-fase]]."
+      - "Concretiseer met de De Vlieg-case (episodes E4 en E6 uit de voorbeeldgroep): inspecteur stuurt op 14 april 2025 een BvW met voorgenomen rechtzetting van 80.000 EUR onderaannemingskosten. De accountant heeft tot uiterlijk 17 mei 2025 om gemotiveerd te antwoorden. Drie maanden later op 8 juli 2025 ontvangt cliënt het aanslagbiljet — bezwaartermijn loopt dan tot 11 juli 2026."
+      - "Belangrijke nuance (blockquote-aside): de '3e werkdag na verzending' is een verraderlijke regel. De termijn start NIET op de datum die op het biljet staat, NIET bij ontvangst, maar 3 werkdagen na verzending. Voor een biljet verstuurd op vrijdag start de klok dus op woensdag. Examen-favoriet — staat als foute optie in MCQ's."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Wanneer cliënt belt", "Termijn", "Start", "Gevolg bij niets doen"]
+        rijen:
+          - ["**Bericht van wijziging** ontvangen", "1 maand (verlengbaar op gemotiveerd verzoek)", "3e werkdag na verzending BvW", "Ambtshalve aanslag art. 351 + omkering bewijslast in latere bezwaar"]
+          - ["**Aanslagbiljet** ontvangen", "1 jaar", "3e werkdag na verzending biljet", "Aanslag definitief — alleen verzet tegen dwangbevel kan invordering nog stuiten"]
+          - ["**Vraag om inlichtingen** ontvangen (vóór BvW)", "1 maand (verlengbaar)", "3e werkdag na verzending", "Ambtshalve aanslag + boete art. 445"]
+          - ["**Dwangbevel** betekend", "1 maand (verzet)", "Datum betekening", "Tenuitvoerlegging gaat door — beslag op rekening, loon, goederen"]
+
+  - id: drie-wetboeken
+    titel: "Drie wetboeken voor drie domeinen"
+    niveau: 2
+    beats:
+      - "Open met de praktische vraag waarmee elke jonge accountant zit: 'in welk wetboek staat dit?'. De fiscale procedure leeft niet in één bundel — drie wetboeken delen het werk."
+      - "WIB92 (Wetboek Inkomstenbelastingen 1992) art. 305-393 voor de DIRECTE BELASTINGEN — personenbelasting, vennootschapsbelasting, rechtspersonenbelasting, belasting niet-inwoners. Dit is de hoofdtekst voor PO 2.5. Onderverdeling: art. 305-310 aangifte · art. 315-326 onderzoek · art. 339-344 bewijsmiddelen · art. 346-358 taxatie · art. 366-377 bezwaar · art. 410-425 invordering."
+      - "WBTW (Wetboek Btw) art. 60-63 onderzoek + art. 81bis verjaring voor de BTW. Eigen regime — verjaringstermijnen verschillen van WIB (zie [[aanslagtermijnen]] en cross-PO [[2.4]]). Eigen onderzoeksbevoegdheden — parallel maar niet identiek aan WIB."
+      - "Wetboek van de minnelijke en gedwongen invordering (in werking sinds 1.1.2020) voor alle DWANGINVORDERING — federaal, ongeacht of het PB, VenB of btw betreft. Vervangt de oude invorderingsregels die verspreid zaten over WIB en WBTW. Centraal: art. 13 (dwangbevel als uitvoerbare titel)."
+      - "Naast de federale wetboeken: VCF (Vlaamse Codex Fiscaliteit) voor Vlaamse gewestbelastingen + Brusselse Codex Fiscale Procedure + Waals Décret 6.5.1999 voor de gewestelijke heffingen — uitgewerkt in [[2.7]]. Gemeente + provincie: Wet 24.12.1996. Aanvullende beginselen: Wet 29.7.1991 (motiveringsplicht bestuurshandelingen) + Wet 25.4.2007 (fiscale bemiddeling FBD)."
+      - "Pedagogische winst (vetgedrukt): wie weet welk wetboek bij welke fase + welk niveau hoort, vindt elke regel binnen 5 minuten. Dat is geen detail — dat is hoe een accountant onder tijdsdruk werkt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Wetboek", "Wanneer", "Belangrijkste artikels"]
+        rijen:
+          - ["**WIB92** art. 305-393", "Federale directe belastingen — PB · VenB · RPB · BNI", "305-310 aangifte · 315-326 onderzoek · 339-344 bewijs · 346 BvW · 351 ambtshalve · 354 termijnen · 366+371 bezwaar"]
+          - ["**WBTW** art. 60-63 + 81bis", "Btw — eigen onderzoek + verjaring", "60-63 onderzoek · 81bis verjaring 3/4/7 jaar"]
+          - ["**Wetboek Invordering 2020**", "Federale dwanginvordering (PB · VenB · btw)", "art. 13 dwangbevel"]
+          - ["**VCF + Brusselse Codex + Waals Décret 6.5.1999**", "Gewestbelastingen — OV · verkeer · BIV · erf · registratie", "Zie [[2.7]] voor gewest-eigenheden"]
+          - ["**Wet 24.12.1996**", "Provincie- en gemeentebelastingen", "Lokale bezwaarprocedure"]
+          - ["**Wet 29.7.1991**", "Motiveringsplicht bestuurshandelingen", "Geldt voor ELKE fiscale beslissing — BvW, aanslag, directeursbeslissing"]
+          - ["**Wet 25.4.2007**", "Fiscale bemiddelingsdienst (FBD)", "Schorst beroepstermijn naar rechter"]
+
+  - id: cliënt-belt-wat-doe-jij
+    titel: "Cliënt belt — wat doe jij?"
+    niveau: 2
+    beats:
+      - "Open met de praktijkscène: telefoon rinkelt, cliënt zegt 'ik heb een brief van de fiscus'. Wat zijn jouw eerste drie vragen?"
+      - "Vraag 1 — welk soort brief? Vraag om inlichtingen (art. 316) · bericht van wijziging (art. 346) · aanslagbiljet · aanmaning · dwangbevel. Elk soort heeft een eigen termijn + eigen vervolg. Vraag cliënt om het document te SCANNEN en mailen — niet 'ik denk dat het'."
+      - "Vraag 2 — wat is de verzenddatum? De verzenddatum (NIET de ontvangstdatum, NIET de datum bovenaan het document) start de termijnklok. Bij twijfel: kijk naar de poststempel of het automatisch gegenereerde verzenddatum-veld."
+      - "Vraag 3 — welke aanslag betreft het? PB · VenB · btw · gewestelijk · gemeente — bepaalt het wetboek + de bezwaarinstantie. Een gemeentelijk aanslagbiljet bezwaar maken bij Vlabel = onontvankelijk. Cross-PO checken in [[2.7]] voor gewestelijke + lokale routes."
+      - "Pas DAARNA inhoudelijk advies. De drie vragen zijn 'plumbing' — zonder die antwoorden kan je niet adviseren. Een halfuur diagnose redt soms 1 jaar bezwaar."
+      - "Concretiseer met de De Vlieg-case (mini-case 4 uit voorbeeldgroep): Jan Verstraete belt — 'ik verhuis 1 maart 2026 naar Portugal, wat moet ik fiscaal regelen?'. Antwoord = bijzondere aangifte PB voor periode 1.1.2026 tot 28.2.2026, in te dienen binnen 3 maanden na vertrek (art. 309 WIB). Vooraf — niet wachten op een vraag om inlichtingen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Cliënt heeft ontvangen", "Eerste 3 vragen", "Onder welk leerstuk uitgewerkt"]
+        rijen:
+          - ["Vraag om inlichtingen", "Wanneer verzonden? · welk wetboek? · welke aanslag betreft?", "[[controle-onderzoek-en-bewijs]]"]
+          - ["Bericht van wijziging", "Wanneer verzonden? · welke kostenpost wordt verworpen? · is motivering toereikend?", "[[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]"]
+          - ["Aanslagbiljet", "Wanneer verzonden? · is rechtzetting cf. BvW? · welke termijn voor bezwaar?", "[[bezwaar-bemiddeling-en-gerechtelijke-fase]]"]
+          - ["Dwangbevel", "Wanneer betekend? · is bezwaar lopend? · welke beslagen reeds gelegd?", "[[invordering-en-verzet-tegen-dwangbevel]]"]
+
+  - id: aangifte-startpunt
+    titel: "De aangifte — startpunt van de hele cyclus"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de aangifte is geen administratieve formaliteit maar de OPENING van de procedure. Wat de cliënt aangeeft, draagt een vermoeden van juistheid (art. 339 WIB) — dat is een sterk verweer bij latere controle."
+      - "Drie aangifte-types die de accountant kent — niet als technische inhoud (dat is PO 2.2/2.3/2.4) maar als procedure-startpunt: PERSONENBELASTING via Tax-on-web of papier · VENNOOTSCHAPSBELASTING via Biztax · BTW periodiek via Intervat. Elk type heeft eigen termijn en eigen vorm."
+      - "Aangifte VenB-termijn (klassieker — 2019-bibf examen): binnen 1 maand na goedkeuring jaarrekening door algemene vergadering, en UITERLIJK 6 maanden na boekjaareinde indien geen tijdige AV (art. 310 WIB + KB tot uitvoering). Praktisch: voor boekjaar dat sluit op 31.12, AV vóór 30.6, aangifte vóór eind juli."
+      - "Bijzondere aangifte bij vertrek uit België (klassieker — 2024-1 examen): art. 309 WIB — bij definitieve verhuis naar buitenland moet de natuurlijke persoon binnen 3 MAANDEN na vertrek een aangifte indienen voor de periode van 1 januari tot vertrekdatum. Aanslag wordt vervroegd gevestigd zodat de fiscus niet wacht tot het reguliere aanslagjaar."
+      - "Belangrijke nuance (blockquote-aside): een TIJDIGE en CORRECTE aangifte verkort de aanslagtermijn van 4 jaar (laat of niet) naar 3 jaar (regelmatig) — art. 354 WIB. Bovendien voorkomt ze ambtshalve aanslag art. 351 met omkering bewijslast. Een tijdige aangifte is dus de eerste verdediging — vóór er een controle plaatsvindt."
+      - "Doorklik: voor inhoudelijke aangifte-mantel (vakken, codes) zie [[2.2]] (PB) · [[2.3]] (VenB) · [[2.4]] (btw)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aangifte", "Wetbron", "Termijn"]
+        rijen:
+          - ["Personenbelasting", "WIB92 art. 305-309", "Verschilt per jaar — vermeld op aangifteformulier (typisch eind juni-juli)"]
+          - ["Bijzondere PB bij vertrek uit België", "WIB92 art. 309", "3 maanden na vertrek"]
+          - ["Vennootschapsbelasting", "WIB92 art. 310 + KB", "1 maand na goedkeuring JR door AV, uiterlijk 7 maanden na boekjaareinde (oorspronkelijk 6, sinds wijziging 7)"]
+          - ["Btw periodiek", "WBTW art. 53 + KB", "20e dag van de maand volgend op aangifteperiode (maand of kwartaal)"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat bezwaar de invordering schorst. FOUT — art. 410 WIB bepaalt dat het ONBETWIST verschuldigd deel wel opeisbaar blijft, en zelfs voor het betwiste deel kan de ontvanger bewarend beslag laten leggen. Bezwaar en invordering zijn twee PARALLELE sporen. Wie alleen bezwaar indient en niet aan de invorderingskant denkt, ziet zijn cliënt verrast worden door een dwangbevel."
+      - "Valkuil 2 (⚠️): denken dat de termijnklok start op de datum bovenaan het aanslagbiljet of bij ontvangst. FOUT — alle WIB-termijnen die 'verzending' als startpunt nemen, beginnen de 3e WERKDAG na de verzendingsdatum. Voor een biljet verzonden op donderdag 7 augustus: klok start op dinsdag 12 augustus (3 werkdagen later, weekend overgeslagen)."
+      - "Valkuil 3 (⚠️): denken dat één wetboek volstaat. FOUT — voor btw-onderzoek geldt WBTW art. 60-63 (parallel maar verschillend van WIB) · voor invordering geldt het Wetboek Invordering 2020 (federaal, vervangt verspreide regels) · voor gewestelijk geldt VCF/Brusselse Codex/Waals Décret. Een 'WIB-92-only'-blik mist 40% van de procedure. Toets bij elke vraag: federaal of gewestelijk? directe of indirecte? taxatie of invordering?"
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: controle-onderzoek-en-bewijs
+      hint: "Wat mag de fiscus controleren — onderzoeksbevoegdheden + termijnen + bewijsmiddelen + grenzen van de cliënt."
+    - slug: taxatie-bericht-van-wijziging-en-ambtshalve-aanslag
+      hint: "Het BvW als scharniermoment — antwoord-strategie + ambtshalve aanslag + belastingverhoging."
+    - slug: bezwaar-bemiddeling-en-gerechtelijke-fase
+      hint: "Hoe een gevestigde aanslag betwisten — bezwaar bij directeur · FBD · rechtbank · cassatie."
+    - slug: invordering-en-verzet-tegen-dwangbevel
+      hint: "Aanslag onbetaald — dwangbevel, beslagen en verzet bij beslagrechter."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — termijntabel + drie fases timeline + onderzoeksgrenzen samen."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [fiscale-procedure, aanslag-cyclus]
+    - concepten: [aangifteplicht, aanslagbiljet-pb]
+    - concepten: [fiscale-actoren]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Aangifte directe belastingen — algemene basis"
+    ref: "WIB92 art. 305-310"
+    noot: "art. 305 algemene aangifteplicht · art. 309 bijzondere aangifte bij vertrek (3 maanden) · art. 310 aangifte VenB (1 maand na AV, max 7 mnd na boekjaareinde)."
+  - onderwerp: "Vestiging van de aanslag — inkohiering"
+    ref: "WIB92 art. 297-298 + art. 359"
+    noot: "Het kohier is een uitvoerbare titel; aanslagbiljet wordt verzonden op basis van het kohier."
+  - onderwerp: "Aanslagtermijnen — overzicht"
+    ref: "WIB92 art. 354 (3/4/6/10 jaar sinds Wet 20.11.2022)"
+    noot: "Uitgewerkt in [[controle-onderzoek-en-bewijs]] en samenvatting."
+  - onderwerp: "Bezwaartermijn"
+    ref: "WIB92 art. 366 (bezwaar) + art. 371 (1 jaar vanaf 3e werkdag na verzending aanslagbiljet)"
+    noot: "Uitgewerkt in [[bezwaar-bemiddeling-en-gerechtelijke-fase]]. NIET 6 maanden."
+  - onderwerp: "Invordering — bezwaar schorst niet"
+    ref: "WIB92 art. 410"
+    noot: "Onbetwist deel blijft opeisbaar; bewarend beslag mogelijk."
+  - onderwerp: "Btw — eigen verjaring + onderzoek"
+    ref: "WBTW art. 81bis (verjaring 3/4/7) + art. 60-63 (onderzoek)"
+    noot: "Cross-PO doorklik [[2.4]]."
+  - onderwerp: "Federale dwanginvordering"
+    ref: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen (in werking 1.1.2020) art. 13 (dwangbevel)"
+  - onderwerp: "Motiveringsplicht bestuurshandelingen"
+    ref: "Wet 29.7.1991 betreffende de uitdrukkelijke motivering van de bestuurshandelingen"
+    noot: "Geldt voor BvW, aanslag en directeursbeslissing — uitgewerkt in [[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]."
+  - onderwerp: "Fiscale bemiddelingsdienst"
+    ref: "Wet 25.4.2007 betreffende de fiscale bemiddelingsdienst"
+    noot: "Uitgewerkt in [[bezwaar-bemiddeling-en-gerechtelijke-fase]]."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — gevolgen vormgebreken aanslagbiljet"
+    inhoud: "Vaste cassatierechtspraak: een aanslagbiljet zonder vermelding van bezwaarinstantie + bezwaartermijn (of met onjuiste vermelding) doet de termijn NIET ingaan — beschermingsregel ten gunste van de belastingplichtige. Concrete arrest-referenties worden in samenvatting verder aangevuld."
+    confidence: "⚠️ te verifiëren — algemene leer bestendigd, specifieke arrest-nummers nog open."
+
+footer: "Leerstuk PO 2.5. Status: voorgesteld — POC volgens ADR-037."

@@ -1,0 +1,318 @@
+# Leerstuk-script — Controle, onderzoek en bewijs
+#
+# PO 2.5 leerstuk 2 (zwaarste leerstuk — analoog aan hoe-consolideren voor
+# PO 1.4). Integreert vier draden: (a) wat MAG de fiscus controleren —
+# onderzoeksbevoegdheden art. 315-326 WIB + 60-63 WBTW; (b) BINNEN WELKE
+# termijnen — aanslag-/onderzoekstermijnen art. 354 WIB + 81bis WBTW;
+# (c) MET WELKE bewijsmiddelen — art. 339-344 WIB; (d) WELKE rechten +
+# grenzen heeft de cliënt — privacy + zorgvuldigheid + kennisgeving fraude.
+#
+# Hand-off: dit leerstuk levert de termijntabel + onderzoeksbevoegdheden-
+# tabel + bewijsmiddelen-tabel die in de samenvatting centraal staan.
+# Bouwt op de timeline-instap van leerstuk 1; bedient het scharniermoment
+# in leerstuk 3 (ambtshalve aanslag + omkering bewijslast als sanctie op
+# weigerend onderzoek).
+
+meta:
+  slug: controle-onderzoek-en-bewijs
+  titel: "Controle, onderzoek en bewijs — wat mag de fiscus, wat moet de cliënt?"
+  po: "2.5"
+  cluster: fiscaliteit
+  voorbeeldgroep: de-vlieg-partners
+  beschrijving: >
+    Leerstuk PO 2.5 — kerntechniek-leerstuk: de dialoog tussen
+    onderzoeksbevoegdheden (art. 315-326 WIB · art. 60-63 WBTW) +
+    aanslagtermijnen (art. 354 WIB · art. 81bis WBTW) + bewijsmiddelen
+    (art. 339-344 WIB) en de rechten + grenzen van de cliënt
+    (zorgvuldigheid · privacy · voorafgaande kennisgeving fraude).
+    Zwaarste leerstuk van PO 2.5 — examen-favoriet.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 2.5-overzicht.
+    Wijs erop dat dit leerstuk de termijntabel + onderzoeksbevoegdheden +
+    bewijsmiddelen INTEGREERT — de drie tabellen werken samen, niet apart.
+    Stagiair die hier de dialoog snapt, snapt ook leerstuk 3 (BvW als
+    gevolg) en leerstuk 4 (bezwaar als verweer).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: de fiscus heeft een GEREEDSCHAPSKIST van zes onderzoeksbevoegdheden (art. 315/316/319/322/322bis/333 WIB) waarmee hij — BINNEN de aanslagtermijn (3/4/6/10 jaar art. 354) en MET de bewijsmiddelen van art. 339-344 WIB — kan controleren of de aangifte juist is. Tegen elk gereedschap staat een GRENS uit de wet of de beginselen behoorlijk bestuur, en bij EEN OVERTREDING van die grens is het verkregen bewijs aanvechtbaar."
+    - "Drie aspecten die altijd samen lopen — examen toetst de DIALOOG, niet één los aspect: WAT mag (bevoegdheid) · BINNEN welke termijn (aanslagtermijn) · MET welk bewijsmiddel. Voorbeeld: een tekenen-en-indiciën-aanslag (art. 341 — bewijsmiddel) op basis van een rekeningonderzoek (art. 322bis — bevoegdheid) blijft alleen geldig als de aanslag binnen de 3/4/6/10-jaar-termijn art. 354 gevestigd wordt."
+    - "Btw heeft een EIGEN regime — niet WIB. WBTW art. 81bis kent 3 (basis) / 4 (laat of niet) / 7 (fraude) jaar verjaring; WBTW art. 60-63 kent eigen onderzoeksbevoegdheden parallel aan WIB. 'Altijd 7 jaar btw' is een courant misverstand — staat in examens als foute MCQ-optie."
+  visualisaties:
+    - type: mermaid
+      ref: taxatie_flow_bvw
+      bron: voorbeeldgroep
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  # ---------- VERTREKPUNT: drie draden, één dialoog ----------
+
+  - id: vertrekpunt-drie-draden
+    titel: "Vertrekpunt — drie draden van één gesprek"
+    niveau: 2
+    beats:
+      - "Open met de centrale metafoor: een fiscale controle is een GESPREK met regels. De fiscus stelt vragen (bevoegdheden), de cliënt antwoordt (binnen termijnen), beide kanten leveren stukken (bewijsmiddelen). Wie één van de drie draden mist, mist het gesprek."
+      - "Toon de drie draden in een tabel als preview — elk wordt in zijn eigen sectie uitgewerkt: bevoegdheden (1) · termijnen (2) · bewijsmiddelen (3). Aan het einde komen ze samen in een 'dialoog'-scenario met de De Vlieg-case (E2-E3-E4)."
+      - "Aankondiging: onderaan dit leerstuk volgt een blok 'Beginselen-haakjes' waarin de stagiair leert herkennen wanneer een onderzoekshandeling de grenzen van zorgvuldigheid of motivering raakt — die beginselen leven niet apart maar IN de onderzoeksgrenzen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Draad", "Hoofdvraag", "Wetbron", "Uitgewerkt in sectie"]
+        rijen:
+          - ["**Bevoegdheden**", "Wat MAG de fiscus opvragen of doen?", "WIB92 art. 315-326 + 333 · WBTW art. 60-63", "Sectie 1"]
+          - ["**Termijnen**", "BINNEN welke periode mag dat?", "WIB92 art. 354 + 358 · WBTW art. 81bis", "Sectie 2"]
+          - ["**Bewijsmiddelen**", "MET welke argumenten kan een rechtzetting overeind blijven?", "WIB92 art. 339-344", "Sectie 3"]
+
+  # ---------- SECTIE 1: ONDERZOEKSBEVOEGDHEDEN ----------
+
+  - id: bevoegdheden-zes-instrumenten
+    titel: "1. De zes onderzoeksinstrumenten — wat mag de fiscus?"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de WIB-wetgever heeft de fiscus zes vaste instrumenten gegeven, elk met eigen grenzen. Tegenover bewust ongeordend onderzoek staat dus een gesloten lijst — alles wat NIET in die zes past, is verboden of vergt rechterlijke machtiging."
+      - "Toon de zes-rij tabel uit de voorbeeldgroep — elk instrument met artikel, termijn, grens, gevolg bij weigering. Geen volgordeprobleem: ze worden meestal achtereenvolgens gebruikt (van licht naar zwaar)."
+      - "Aankondiging: hieronder zoom ik in op de DRIE instrumenten die in voorbeeldexamens het meest terugkeren — art. 316 (vraag aan cliënt), art. 322 (vraag aan derden) en art. 333 (onderzoek in fraude-termijn). De andere drie komen in de tabel + in de samenvatting."
+    visualisaties:
+      - type: tabel-inline
+        ref: onderzoeksbevoegdheden_tabel
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: vraag-om-inlichtingen-art-316
+        titel: "Vraag om inlichtingen art. 316 — 1 maand antwoord"
+        niveau: 3
+        beats:
+          - "Open met de praktijk: de meest voorkomende controle-stap. De inspecteur stuurt een schriftelijke vraag naar de cliënt over één of meer specifieke posten — een kostenpost die te hoog lijkt, een aftrek waarvan de staving ontbreekt, een buitenlandse betaling."
+          - "Termijn: 1 maand vanaf 3e werkdag na verzending. Verlengbaar op gemotiveerd verzoek vóór vervaldag — niet automatisch, vraag tijdig."
+          - "Vorm: schriftelijk, op briefpapier FOD Financiën, met vermelding van termijn + mogelijke gevolgen bij niet-antwoord (ambtshalve aanslag art. 351 + omkering bewijslast art. 352 + boete art. 445)."
+          - "Grens: een vraag moet betrekking hebben op een aanslag in voorbereiding — geen ALGEMEEN onderzoek 'voor alle zekerheid'. Wie alle facturen van 5 jaar opvraagt zonder gerichte aanleiding, overschrijdt zijn bevoegdheid."
+          - "Wie kan ondertekenen? De belastingplichtige zelf · zijn lasthebber (accountant met volmacht) · in vennootschap: zaakvoerder/bestuurder of mandataris. Examen-klassieker (2019-bibf + 2024-1) — bij twijfel ondertekent de accountant met expliciete volmacht erbij."
+          - "Concretiseer met De Vlieg E2-E3 (uit voorbeeldgroep): 22 februari 2025 ontvangt de cliënt een vraag om inlichtingen over de 80.000 EUR onderaannemingskosten. Termijn start op 25 februari (3e werkdag na 22.2), uiterlijke antwoord 25 maart. Accountant antwoordt op 20 maart met contracten + facturen + foto's bouwplaats + prijsvergelijking 3 alternatieven."
+
+      - id: vraag-aan-derden-art-322
+        titel: "Vraag aan derden art. 322 — geen wettelijke minimum-termijn"
+        niveau: 3
+        beats:
+          - "Open met het verschil ten opzichte van art. 316: hier richt de fiscus zich niet tot de cliënt zelf maar tot een DERDE — een klant, leverancier, opdrachtgever, of via art. 322bis een bank."
+          - "Termijn: GEEN wettelijk minimum — door de administratie bepaald 'mits redelijk'. Praktijk: vaak 10 dagen. Korte termijn kan onregelmatig zijn bij overmacht — examen-klassieker 2013-2 + 2014-1: vraag aan derde met termijn 10 dagen, midden in een staking, wordt door rechter aanvaard als onregelmatig (zorgvuldigheidsbeginsel)."
+          - "Grens 1 — beroepsgeheim: advocaten, artsen, notarissen kunnen zich op beroepsgeheim beroepen voor cliënt-gevoelige informatie. Bankgeheim (art. 322bis) is sinds Wet 1.7.2011 sterk versoepeld — de fiscus mag via CAP (Centraal Aanspreekpunt) rekeningnummers opvragen mits aanwijzingen van belastingontduiking."
+          - "Grens 2 — derde mag antwoorden, maar mag niet GEDWONGEN worden bewijslast tegen de belastingplichtige op te bouwen. De fiscus kan slechts vragen wat de derde uit hoofde van zijn eigen activiteit normaal weet."
+          - "Belangrijke nuance (blockquote-aside): art. 322 is een KRACHTIG instrument — het breekt de symmetrie van de cliënt-fiscus-dialoog. Een leverancier kan factuurbedragen aan de fiscus communiceren die de cliënt nooit boekhoudkundig heeft verwerkt. Voor de accountant: in fiscale risico-analyses meenemen dat ook derde-stukken in het dossier kunnen verschijnen."
+
+      - id: onderzoek-fraude-termijn-art-333
+        titel: "Onderzoek in fraude-termijn (5+ jaar terug) — kennisgeving art. 333"
+        niveau: 3
+        beats:
+          - "Open met de hoofdregel: het onderzoek loopt parallel met de aanslagtermijn — wat NIET binnen de 3/4/6-jaarstermijn art. 354 kan, mag in beginsel niet onderzocht worden."
+          - "Uitzondering: bij AANWIJZINGEN VAN FRAUDE strekt de termijn naar 10 jaar art. 354 §1 lid 4. Maar wie wil onderzoeken in de verlengde termijn (concreet: meer dan 4 jaar terug) MOET vóór elk onderzoeksdaad een VOORAFGAANDE SCHRIFTELIJKE KENNISGEVING aan de cliënt sturen met de aanwijzingen van fraude (art. 333 lid 3 WIB)."
+          - "Wat is een 'aanwijzing van fraude'? Geen bewezen fraude — maar concrete indicaties: anonieme tip, discordantie tussen aangifte en derden-info, ongebruikelijke bewegingen op bankrekeningen. De kennisgeving moet de aanwijzingen vermelden, niet alleen 'fraude vermoed'."
+          - "Sanctie bij ontbreken kennisgeving: nietigheid van het onderzoek + nietigheid van de aanslag die er op gebaseerd is. Klassieker uit examen 2015-1: 'in 2016 (5 jaar terug onderzoek op 2011) — kan de administratie?' Antwoord = JA, maar enkel met voorafgaande kennisgeving."
+          - "Concretiseer met mini-case 2 uit voorbeeldgroep: in 2027 krijgt fiscus anonieme tip over zwarte ontvangsten 2020. Onderzoek 2020 = 7 jaar terug → in fraude-termijn → kennisgeving vereist. Zonder die kennisgeving is een latere aanslag aanvechtbaar in bezwaar."
+
+  # ---------- SECTIE 2: AANSLAGTERMIJNEN ----------
+
+  - id: termijnen-de-klok
+    titel: "2. De klok — aanslagtermijnen + onderzoekstermijnen"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-realiteit: onderzoekstermijn loopt PARALLEL met aanslagtermijn. Wat NIET binnen de aanslagtermijn gevestigd kan worden, mag in principe niet meer onderzocht worden — anders bouwt de fiscus bewijs voor een aanslag die hij toch niet kan vestigen."
+      - "Sinds Wet 20 NOVEMBER 2022 geldt voor aanslagjaren ≥ 2023 een nieuw stelsel: 3 jaar basis (regelmatige aangifte) · 4 jaar (laat of geen aangifte) · 6 jaar (complexe aangiften — lokaal dossier, landenrapport, dubbele-belasting-vermijding) · 10 jaar (fraude). De vroegere 3+7-jaarsregel geldt nog voor oudere aanslagjaren — examens van vóór 2024 hanteren die nog."
+      - "Toon de termijntabel uit de voorbeeldgroep — alle federale termijnen samen. Dit is de tabel die de stagiair UIT HET HOOFD moet kennen voor het examen."
+      - "Belangrijke verlenging (klassieker — 2024-1): art. 354 §1 lid 4 IN FINE. Wanneer een BvW verzonden wordt op een moment dat de gewone aanslagtermijn binnen 6 maanden zou verstrijken, wordt de termijn AUTOMATISCH met 6 maanden verlengd. Dit redt de aanslag bij nakende verjaring. Examen-favoriet."
+      - "Btw — eigen regime art. 81bis WBTW: 3 jaar (basis) · 4 jaar (laat of geen aangifte) · 7 jaar (fraude — voorafgaande kennisgeving vereist). GEEN 10-jaars-regel zoals WIB. 'Altijd 7 jaar btw' = courant misverstand — staat in examens als foute MCQ-optie. Klassieker uit 2015-1."
+      - "Bijzondere termijn — buitenlandse inlichtingen via DBV (Dubbel-Belasting-Verdrag): art. 358 §1 2° + §2 WIB. 24 MAANDEN vanaf kennisname Belgische administratie. Examen-strikvraag (2015-1): foute optie '12 maanden' verschijnt in MCQ — antwoord is 24 maanden."
+    visualisaties:
+      - type: tabel-inline
+        ref: termijntabel_federaal
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: bewaarplicht-7-vs-10
+        titel: "Bewaarplicht — boekhoudkundig 7 jaar vs fiscaal 10 jaar"
+        niveau: 3
+        beats:
+          - "Open met de praktische verwarring die elk accountantsadvies kruist: hoe lang moeten stukken bewaard worden?"
+          - "Twee parallelle regimes met VERSCHILLENDE doelen: WER art. III.86 (boekhoudrecht) verplicht 7 jaar bewaarplicht boekhoudkundige stukken — dat is de MINIMUM-floor en koppelt aan de individuele jaarrekening. WIB92 art. 315 verplicht 10 jaar voor 'boeken en bescheiden die voor de toepassing van het Wetboek van groot belang zijn' — dat is de fiscale termijn, sinds aanslagjaar 2023."
+          - "Welke stukken vallen onder de fiscale 10-jaarstermijn? Niet alleen 'boekhouding' — ook alle stukken die de fiscale kwalificatie ondersteunen: bestelbonnen, contracten met onderaannemers, e-mailcorrespondentie over voorwaarden, prijsoffertes, foto's van bouwplaats. Examen-klassieker (2015-1 en 2024-1): bestelbonnen-vraag — 'moeten die voorgelegd worden?' Antwoord = JA, ze vallen onder art. 315 WIB als boekhoudkundige verantwoording. Een zaakvoerder die 7 jaar na boekjaar bestelbonnen weggooit, riskeert in jaar 8-10 verzwaard bewijsstuk."
+          - "Concretiseer met mini-case 1 (uit voorbeeldgroep — bestelbonnen): tijdens controle 2025 vraagt fiscus bestelbonnen 2018 op (7 jaar terug). Boekhouder: 'we hebben die weggegooid, ze tellen niet als boekhoudkundige stukken'. Fout — fiscaal 10 jaar, vallen onder art. 315, voorleggingsplicht. Bij weigering: ambtshalve aanslag art. 351 + omkering bewijslast."
+          - "Btw heeft eigen regel: WBTW art. 60 = 10 jaar — gelijk aan WIB. Geen 7-jaars-uitzondering."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Stukken", "Wetbron", "Termijn", "Doel"]
+            rijen:
+              - ["Boekhoudkundige stukken (JR, dagboeken, inventaris)", "WER art. III.86", "**7 jaar**", "Minimum-floor — boekhoudrechtelijk"]
+              - ["Stukken voor toepassing WIB (incl. bestelbonnen, contracten, e-mails staving)", "WIB92 art. 315", "**10 jaar** (sinds AJ 2023)", "Fiscaal — voorleggingsplicht bij controle"]
+              - ["Stukken voor btw (facturen + onderliggende stukken)", "WBTW art. 60", "**10 jaar**", "Btw-controle + voorleggingsplicht"]
+
+  # ---------- SECTIE 3: BEWIJSMIDDELEN ----------
+
+  - id: bewijsmiddelen-vier-instrumenten
+    titel: "3. De bewijsmiddelen — vier wegen om een rechtzetting te onderbouwen"
+    niveau: 2
+    beats:
+      - "Open met de centrale stelling van het Belgisch fiscaal bewijsrecht: de ADMINISTRATIE DRAAGT in beginsel de bewijslast (art. 339 WIB) — zij moet aantonen dat de aangegeven gegevens onjuist zijn. Daartegenover staat het VERMOEDEN VAN JUISTHEID van een tijdig en regelmatig ingediende aangifte."
+      - "Vier bewijsmiddelen die de fiscus kan gebruiken om dat vermoeden te weerleggen — onderling cumuleerbaar: GEMEEN RECHT (art. 339-340) · TEKENEN EN INDICIËN (art. 341) · VERGELIJKING met soortgelijke belastingplichtigen (art. 342) · ANTIMISBRUIK-herkwalificatie (art. 344 §1)."
+      - "Toon de bewijsmiddelen-tabel uit de voorbeeldgroep — elk middel met artikel, rol, voorbeeld."
+      - "Belangrijke uitzondering — OMKERING BEWIJSLAST: bij ambtshalve aanslag (art. 351 + 352 WIB) draait de bewijslast om. De cliënt moet dan in bezwaar bewijzen dat de ambtshalve cijfers ONJUIST zijn — niet meer de administratie. Dit is de zwaarste sanctie op niet-medewerken in onderzoek. Uitgewerkt in [[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]."
+    visualisaties:
+      - type: tabel-inline
+        ref: bewijsmiddelen_tabel
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: tekenen-en-indicien
+        titel: "Tekenen en indiciën (art. 341) — de levensstandaardtoets"
+        niveau: 3
+        beats:
+          - "Open met de logica: wanneer een aangegeven inkomen niet rijmt met de waargenomen uitgaven of vermogensaanwas, mag de fiscus het inkomen RECONSTRUEREN op basis van die indiciën."
+          - "Voorbeeld-typologie: cliënt geeft 25.000 EUR jaarinkomen aan maar koopt een huis van 600.000 EUR zonder geërfd kapitaal of geleende middelen — die discrepantie is een 'teken'. De fiscus mag dan bijschatten op basis van wat de levensstandaard impliceert."
+          - "Tegenbewijs voor de cliënt: aantonen waar de gelden vandaan komen — schenking + bewijsstuk · erfenis + aangifte nalatenschap · lening + leningsovereenkomst · buitenlandse rekening + bewijs van eerdere fiscale aangifte. Geen aanvaardbare verklaring = de bijschatting overeind."
+          - "Belangrijke nuance (blockquote-aside): tekenen-en-indiciën is een KRACHTIG bewijsmiddel — geen vermoeden in burgerlijk recht-zin maar een wettelijke bewijstechniek. Cliënten denken soms 'ze kunnen toch niets bewijzen' — fout. De fiscus moet alleen de discrepantie aantonen; de cliënt moet ze verklaren."
+
+      - id: antimisbruik-art-344
+        titel: "Antimisbruikbepaling art. 344 §1 — herkwalificatie"
+        niveau: 3
+        beats:
+          - "Open met de positie ten opzichte van de andere bewijsmiddelen: art. 344 §1 is geen 'gewoon' bewijsmiddel — het is een herkwalificatie-recht dat de fiscus toelaat een rechtshandeling FISCAAL anders te kwalificeren dan ze juridisch geldt."
+          - "Voorwaarden: (a) de rechtshandeling of het samenstel ervan strijdt met de doelstellingen van een fiscale bepaling; (b) de belastingplichtige kan geen NIET-FISCALE motieven aantonen voor de keuze."
+          - "Bewijslast LIGT BIJ DE FISCUS — moet aantonen dat de structuur fiscaal-misbruik beoogt. Cliënt-tegenbewijs: aantonen dat ER WEL substantiële niet-fiscale motieven zijn (economisch, juridisch, familiaal)."
+          - "Cross-PO doorklik: AAMB (Algemene Antimisbruik-Bepaling) wordt in [[2.1]] grondiger uitgewerkt als een denkkader; hier alleen procedureel — wanneer en hoe de fiscus dit middel inzet tijdens controle of in een BvW."
+
+  # ---------- SECTIE 4: BTW-EIGENHEDEN ----------
+
+  - id: btw-eigenheden
+    titel: "4. Btw — eigen onderzoeksregime + eigen verjaring"
+    niveau: 2
+    beats:
+      - "Open met de waarschuwing: alles wat hierboven staat over WIB-onderzoek geldt NIET zonder meer voor btw. Btw heeft een PARALLEL maar EIGEN regime — eigen wetboek, eigen termijnen, eigen bevoegdheden."
+      - "Verjaring btw — art. 81bis WBTW: 3 jaar (basis) · 4 jaar (laat of geen aangifte) · 7 jaar (fraude — voorafgaande kennisgeving vereist). GEEN 10-jaars-regel zoals WIB. Onthouden: btw verjaart KORTER dan WIB in fraude-gevallen."
+      - "Onderzoeksbevoegdheden btw — art. 60-63 WBTW: parallel aan WIB maar met eigen accenten. Visitatie ter plaatse (art. 63 — wat WBTW betreft beroepslokalen tijdens werkuren) · vraag om inlichtingen (art. 62) · inzage boeken en bescheiden (art. 60-61) · bevoegdheid om elektronische bestanden te controleren (art. 61 §1) — die laatste is bij btw soms verder uitgewerkt dan bij WIB."
+      - "Bewaarplicht btw — WBTW art. 60 = 10 jaar voor facturen + onderliggende stukken. Gelijk aan WIB, geen 7-jaars-uitzondering."
+      - "Concretiseer met mini-case 3 (uit voorbeeldgroep — btw-onderzoekstermijn): eenmanszaak voert btw-renovatieaftrek in voor werken 2018; in 2025 vraagt btw-controle stukken op. Cliënt: 'altijd 7 jaar btw, jullie zijn binnen termijn'. Fout — art. 81bis differentieert. Voor REGELMATIGE aangifte 2018 = 3 jaar terug → verjaring sinds 2022. Tenzij fraude-aanwijzing + voorafgaande kennisgeving → 7 jaar."
+      - "Doorklik: voor btw-aangifte-mantel + btw-controle-specifiek + btw-bezwaar (3 maanden, niet 1 jaar) zie [[2.4]]."
+
+  # ---------- SECTIE 5: BEGINSELEN-HAAKJES ----------
+
+  - id: beginselen-haakjes
+    titel: "5. Beginselen-haakjes — waar leven de beginselen behoorlijk bestuur in dit leerstuk?"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de beginselen behoorlijk bestuur (zorgvuldigheid · redelijkheid · motivering · rechtszekerheid · vertrouwen) zijn geen apart leerstuk maar leven IN de onderzoeksgrenzen. Twee haakjes voor dit leerstuk."
+      - "Haakje 1 — ZORGVULDIGHEID bij voorafgaande kennisgeving fraude (art. 333). Een onderzoek 5 jaar terug zonder kennisgeving = geen zorgvuldig onderzoek = nietige aanslag. De zorgvuldigheidsplicht is hier OPERATIONEEL: niet alleen 'goed werken' maar concreet 'de cliënt vooraf inlichten over de aanwijzingen'."
+      - "Haakje 2 — PRIVACY bij privé-woning (art. 319 §3). Beroepslokalen mogen vrij betreden worden tijdens werkuren; een privé-woning vereist MACHTIGING POLITIERECHTER. Dit is geen formaliteit maar een grondrecht (art. 15 GW — woninginviolabiliteit). Een doorzoeking zonder machtiging is onregelmatig — bewijs hieruit verkregen is in principe niet bruikbaar."
+      - "Cross-PO doorklik: de ALGEMENE rechtsbeginselen (legaliteit, gelijkheid, non-bis-in-idem) leven in [[2.1]]; de OPERATIONELE beginselen behoorlijk bestuur (zorgvuldigheid, motivering bij BvW, redelijkheid bij sanctie) leven hier en in [[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]."
+
+  # ---------- SECTIE 6: SYNTHESE-DIALOOG ----------
+
+  - id: synthese-dialoog
+    titel: "6. De dialoog in actie — De Vlieg & Partners episode 2-3-4"
+    niveau: 2
+    beats:
+      - "Open met de synthese-vraag: hoe spelen bevoegdheid + termijn + bewijsmiddel concreet samen in één dossier?"
+      - "Werk de dialoog stap voor stap door op de De Vlieg-case (episodes E2, E3 en eerste deel van E4 uit voorbeeldgroep). Aanslagjaar 2024, aangifte VenB ingediend 12.9.2024 → aanslagtermijn loopt 3 jaar vanaf 1.1.2024 = tot 31.12.2027."
+      - "E2 (22.2.2025) — Inspecteur richt vraag om inlichtingen art. 316 over 80.000 EUR onderaannemingskosten. Drie observaties: (a) WEL gericht — over één specifieke kostenpost, niet algemeen; (b) WEL binnen termijn — 5 maanden na aangifte, dus ver binnen 3-jaarsperiode; (c) cliënt heeft 1 maand om te antwoorden vanaf 25 februari."
+      - "E3 (20.3.2025) — Cliënt antwoordt binnen termijn met contracten + facturen + foto's + prijsvergelijking 3 alternatieven. Drie observaties: (a) bewijslast voor verwerping ligt nog steeds bij de fiscus (vermoeden van juistheid aangifte); (b) cliënt heeft geanticipeerd door tegenbewijs te leveren (gemeen recht art. 339); (c) inspecteur zal nu beslissen — aanvaarden, BvW of ambtshalve aanslag."
+      - "E4 (14.4.2025) — Inspecteur stuurt BvW. Drie observaties: (a) hij gebruikt art. 26 WIB (abnormale of goedgunstige voordelen — herkwalificatie-equivalent voor verbonden ondernemingen); (b) zijn motivering moet de WET 29.7.1991 respecteren — anders nietig; (c) hij KIEST voor BvW (art. 346) en NIET voor ambtshalve aanslag (art. 351) omdat cliënt netjes heeft geantwoord. Verschil maakt verder uit: bij BvW blijft de bewijslast bij de fiscus, bij ambtshalve omkering."
+      - "Synthese (vetgedrukt): de drie draden lopen continu samen. Wie alleen 'wat mag de fiscus' kent zonder termijn, mist of de stap regelmatig is. Wie alleen termijnen kent zonder bewijsmiddelen, kan de uitkomst niet voorspellen. Wie alleen bewijsmiddelen kent zonder bevoegdheidsgrens, mist of het bewijs bruikbaar verzameld is."
+    visualisaties:
+      - type: mermaid
+        ref: taxatie_flow_bvw
+        bron: voorbeeldgroep
+
+  # ---------- VALKUILEN ----------
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat de fiscus 'altijd 7 jaar btw terug' mag. FOUT — art. 81bis WBTW differentieert: 3 jaar (regelmatig aangegeven) · 4 jaar (laat of niet aangegeven) · 7 jaar (fraude — voorafgaande kennisgeving vereist). Voor regelmatige aangifte: na 3 jaar verjaart de bevoegdheid. Examen-strikvraag — staat als foute optie 'altijd 7 jaar' in MCQ's (2015-1)."
+      - "Valkuil 2 (⚠️): denken dat 'buitenlandse inlichtingen 12 maanden' is. FOUT — art. 358 §1 2° + §2 WIB geeft 24 MAANDEN vanaf kennisname door Belgische administratie. De foute optie '12 maanden' verschijnt in MCQ's (2015-1) precies omdat klanten zich het detail niet herinneren."
+      - "Valkuil 3 (⚠️): denken dat bestelbonnen 'maar' 7 jaar bewaard moeten blijven omdat ze 'boekhoudkundig' zijn. FOUT — WIB art. 315 trekt ALLE stukken die voor de toepassing van het Wetboek van groot belang zijn binnen de 10-jaars-fiscale termijn. Bestelbonnen ondersteunen de boekhoudkundige verantwoording → vallen onder art. 315 → voorleggingsplicht tot jaar 10. Weggooien in jaar 8 = verzwaard bewijsstuk bij controle. Klassieker uit 2015-1 + 2024-1."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-is-fiscale-procedure-en-aanslagcyclus
+      hint: "Voor de timeline + drie fases waarbinnen onderzoek zich afspeelt."
+    - slug: taxatie-bericht-van-wijziging-en-ambtshalve-aanslag
+      hint: "Wat gebeurt er NA het onderzoek — BvW als gevolg, ambtshalve aanslag als sanctie op weigerend onderzoek."
+    - slug: bezwaar-bemiddeling-en-gerechtelijke-fase
+      hint: "Hoe een aanslag betwisten — bewijslast in bezwaar (omkering bij ambtshalve)."
+    - slug: invordering-en-verzet-tegen-dwangbevel
+      hint: "Wat na de aanslag — invorderingsfase wanneer cliënt niet betaalt."
+  samenvatting:
+    hint: "Voor herhaling — termijntabel + onderzoeksbevoegdheden-tabel + bewijsmiddelen-tabel naast elkaar."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [fiscale-controle, fiscale-bewijsmiddelen, aanslagtermijnen]
+    - concepten: [btw-controle, beginselen-behoorlijk-bestuur]
+    - concepten: [aangifteplicht, fiscale-procedure]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Onderzoeksbevoegdheden — boeken en bescheiden"
+    ref: "WIB92 art. 315"
+    noot: "Bewaarplicht 10 jaar (sinds AJ 2023); voorleggingsplicht bij controle."
+  - onderwerp: "Vraag om inlichtingen aan belastingplichtige"
+    ref: "WIB92 art. 316"
+    noot: "1 maand antwoordtermijn vanaf 3e werkdag; verlengbaar op gemotiveerd verzoek."
+  - onderwerp: "Controle ter plaatse (zetel + woning)"
+    ref: "WIB92 art. 319"
+    noot: "§3 — privé-woning vereist machtiging politierechter."
+  - onderwerp: "Vraag aan derden"
+    ref: "WIB92 art. 322"
+    noot: "Geen wettelijke minimum-termijn; mits redelijk."
+  - onderwerp: "Bankgeheim — Centraal Aanspreekpunt"
+    ref: "WIB92 art. 322bis"
+    noot: "Versoepeld sinds Wet 1.7.2011."
+  - onderwerp: "Antwoordtermijn vraag aan derden — geen minimum"
+    ref: "WIB92 art. 323"
+  - onderwerp: "Verlenging onderzoekstermijn naar fraude — kennisgeving"
+    ref: "WIB92 art. 333 lid 3"
+    noot: "Voorafgaande schriftelijke kennisgeving van aanwijzingen van fraude vereist op straffe van nietigheid."
+  - onderwerp: "Bewijsmiddelen — algemeen + tekenen-en-indiciën + vergelijking + antimisbruik"
+    ref: "WIB92 art. 339 · 340 · 341 · 342 · 344 §1"
+  - onderwerp: "Aanslagtermijnen directe belastingen"
+    ref: "WIB92 art. 354 (sinds Wet 20.11.2022 — 3/4/6/10 jaar) + art. 358 (bijzondere termijnen incl. 24 maanden buitenlandse inlichtingen)"
+    noot: "Voor aanslagjaren ≤ 2022 geldt nog 3+7-jaarsregel."
+  - onderwerp: "Btw — onderzoek + verjaring + bewaarplicht"
+    ref: "WBTW art. 60-63 (onderzoek + bewaarplicht 10 jaar) + art. 81bis (verjaring 3/4/7 jaar)"
+  - onderwerp: "Bewaarplicht boekhoudkundig"
+    ref: "WER art. III.86"
+    noot: "7 jaar — minimum-floor; fiscaal langer."
+  - onderwerp: "Motiveringsplicht bestuurshandelingen"
+    ref: "Wet 29.7.1991"
+    noot: "Geldt voor BvW + aanslag + directeursbeslissing. Uitgewerkt in [[taxatie-bericht-van-wijziging-en-ambtshalve-aanslag]]."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie + Grondwettelijk Hof — voorafgaande kennisgeving art. 333"
+    inhoud: "Vaste rechtspraak: een onderzoek in de fraude-termijn zonder voorafgaande schriftelijke kennisgeving aan de belastingplichtige met vermelding van de aanwijzingen van fraude is onregelmatig; de daarop gesteunde aanslag is in principe aanvechtbaar. De kennisgeving moet de aanwijzingen identificeren, niet alleen 'fraude vermoed' vermelden."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; specifieke arrest-nummers worden in samenvatting aangevuld."
+  - onderwerp: "Cassatie — vraag aan derden bij overmacht (staking)"
+    inhoud: "Een termijn van 10 dagen voor antwoord op een vraag aan derden tijdens een staking is onregelmatig wegens schending zorgvuldigheidsbeginsel — examen-klassieker uit 2013-2 + 2014-1."
+    confidence: "⚠️ te verifiëren — concrete arrest-nummers nog open."
+
+footer: "Leerstuk PO 2.5. Status: voorgesteld — POC volgens ADR-037."

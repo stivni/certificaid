@@ -1,0 +1,456 @@
+# BV De Vlieg & Partners — centrale procedure-cliënt voor PO 2.5
+#
+# Eén doorlopend fiscaal dossier dat alle 5 leerstukken van PO 2.5
+# heeft als episode op de timeline: aangifte → vraag om inlichtingen →
+# bericht van wijziging → aanslag → bezwaar → bemiddeling → rechtbank →
+# parallel: dwangbevel + bewarend beslag op niet-betwist deel.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-fiscale-procedure-en-aanslagcyclus.yaml (timeline-illustratie)
+#   - data/leerstukken/controle-onderzoek-en-bewijs.yaml (vraag om inlichtingen + bestelbonnen)
+#   - data/leerstukken/taxatie-bericht-van-wijziging-en-ambtshalve-aanslag.yaml (kern — BvW + antwoord)
+#   - data/leerstukken/bezwaar-bemiddeling-en-gerechtelijke-fase.yaml (bezwaar + FBD + rechtbank)
+#   - data/leerstukken/invordering-en-verzet-tegen-dwangbevel.yaml (dwangbevel parallel)
+#   - data/oefeningen/de-vlieg-twaalf-maanden.yaml (oefening — 5 documenten)
+#
+# Stijl-keuze: cijfer-arm. Termijnen (3/4/6/10 jaar; 1 maand; 1 jaar;
+# 24 maanden) zijn de centrale getallen — die staan in WIB92 niet in
+# het Cijferzakboekje. Bedrag-precisie is grootteorde (80.000 EUR
+# verworpen kosten), niet pedagogische kern.
+#
+# Termijn-claims hier opgenomen zijn ⚖️ via MCP `certificaid-rag`
+# `zoek_bronnen` (rerank) op 2026-06-01 bevestigd vanuit WIB92 art. 354
+# (aanslag), art. 316 (vraag om inlichtingen), art. 333 (kennisgeving
+# fraude), art. 346 (BvW), art. 354 §1 lid 4 (BvW-verlenging), art. 371
+# (bezwaar = 1 jaar vanaf 3e werkdag), art. 1385undecies Ger.W.
+# (fictieve afwijzing 6 maanden).
+
+naam: de-vlieg-partners
+beschrijving: >
+  Doorlopende procedure-cliënt voor PO 2.5 — fiscale procedure. BV De Vlieg
+  & Partners is een fictieve KMO-bouwonderneming met zaakvoerder Liesbeth
+  Vandevoorde, gevestigd in Mechelen. De case volgt één aanslagjaar (AJ 2024,
+  boekjaar 2023) doorheen alle fasen: aangifte tijdig ingediend → vraag om
+  inlichtingen over een kostenpost → bericht van wijziging → aanslagbiljet met
+  rechtzetting + belastingverhoging → bezwaar bij gewestelijke adviseur-generaal
+  → fiscale bemiddeling parallel → afwijzende beslissing → vordering bij
+  fiscale kamer rechtbank van eerste aanleg → en parallel: dwangbevel + bewarend
+  beslag op het onbetwist deel. Drie mini-cases vullen aan voor onderwerpen
+  die de hoofd-timeline niet natuurlijk dekt (PB-emigratie art. 309, 5-jaar-
+  onderzoekstermijn art. 333, btw-onderzoek art. 81bis).
+
+context_jaartal: "2026"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Cliënt-identiteit
+# ---------------------------------------------------------------------------
+
+clientidentiteit:
+  vennootschap:
+    naam: "BV De Vlieg & Partners"
+    rechtsvorm: BV
+    zetel: "Antwerpsesteenweg 142, 2800 Mechelen"
+    activiteit: "Algemene aanneming bouwwerken — schil, dakwerken, isolatierenovatie"
+    oprichting: "2014"
+    boekjaar: "kalenderjaar (1.1.2023 — 31.12.2023 voor de besproken case)"
+    werknemers: 11
+    omzet_2023: "ca. 3,4 mio EUR"
+    structuur: "BV met 100 aandelen — Liesbeth Vandevoorde (zaakvoerder) 70%, Marc Peeters (zaakvoerder) 30%"
+
+  zaakvoerder_in_dossier:
+    naam: "Liesbeth Vandevoorde"
+    leeftijd: 47
+    woonplaats_fiscaal: "Mechelen (Vlaams Gewest)"
+    rol_in_cases: "ondertekent aangifte VenB + bezwaar; aanspreekpunt voor controle"
+
+  accountant:
+    naam: "Accountantskantoor Vanrysselberghe & Co"
+    rol: "vaste fiscale adviseur — stelt aangifte op, vertegenwoordigt cliënt op kritieke momenten"
+
+  fiscaal_dossier_AJ_2024:
+    aangiftejaar: "AJ 2024"
+    inkomstenjaar: "2023"
+    aangifte_VenB_ingediend: "12 september 2024 (binnen wettelijke termijn art. 310 WIB92 — 1 maand na goedkeuring jaarrekening AV 28.6.2024, max 6 maanden na boekjaareinde)"
+    aanslagbiljet_verzonden: "8 juli 2025 (na BvW-cyclus — datum cruciaal voor bezwaartermijn-berekening)"
+
+# ---------------------------------------------------------------------------
+# DEEL B — Jaarrekening 2023 — samenvatting (cijfer-arm, alleen waar nodig)
+# ---------------------------------------------------------------------------
+
+jaarrekening_2023_kerncijfers:
+  resultaat_voor_belasting: "EUR 412.000"
+  kostenpost_betwist: "EUR 80.000 — onderaannemingskosten gefactureerd door BV Verbouwspecialisten (kleinere zustervennootschap waarvan Marc Peeters 100% aandeelhouder is)"
+  fiscale_kwalificatie_cliënt: "beroepskosten art. 49 WIB92 — beweerde marktconformiteit"
+  positie_administratie: "geen marktconformiteit aangetoond + vermoeden abnormale verbondenheid art. 26 WIB92 — verwerpt 80.000 EUR als beroepskost"
+  impact_op_resultaat: "+ EUR 80.000 belastbaar → bijkomende VenB ca. EUR 20.000 (25% × 80.000) + belastingverhoging 50% conform art. 444 + KB 27.8.1993 = EUR 10.000"
+  totale_rechtzetting: "ca. EUR 30.000 (belasting + verhoging) — exclusief gemeente-opcentiemen en nalatigheidsintresten"
+
+# ---------------------------------------------------------------------------
+# DEEL C — Procedure-timeline (kern van de voorbeeldgroep)
+# ---------------------------------------------------------------------------
+
+# Elke episode heeft: datum + handeling + wettelijke basis + welk leerstuk
+# het primair bedient + samenvatting van het correspondentie-stuk.
+
+procedure_timeline:
+
+  - episode: "E1 — Aangifte VenB"
+    datum: "12 september 2024"
+    handeling: "Aangifte VenB AJ 2024 ingediend via Biztax door zaakvoerder + accountant"
+    wettelijke_basis: "art. 310 WIB92 (termijn aangifte VenB — 1 maand na goedkeuring jaarrekening, max 6 maanden na boekjaareinde)"
+    leerstuk_primair: "wat-is-fiscale-procedure-en-aanslagcyclus (L1)"
+    correspondentie: "ontvangstbevestiging Biztax"
+
+  - episode: "E2 — Vraag om inlichtingen"
+    datum: "22 februari 2025 (verzonden door inspecteur)"
+    handeling: "Inspecteur richt vraag om inlichtingen aan cliënt over de 80.000 EUR onderaannemingskosten — verzoek om: (a) onderaannemingscontract, (b) facturen, (c) bewijs van uitvoering, (d) marktconformiteits-staving"
+    wettelijke_basis: "art. 316 WIB92 (vraag om inlichtingen aan belastingplichtige)"
+    termijn_antwoord: "1 maand — start op 3e werkdag na verzending = 25 februari 2025 → uiterste antwoord 25 maart 2025"
+    leerstuk_primair: "controle-onderzoek-en-bewijs (L2)"
+    correspondentie: "schriftelijke vraag op briefpapier FOD Financiën met vermelding antwoord-termijn en mogelijke gevolgen niet-antwoord (art. 351 ambtshalve aanslag + omkering bewijslast art. 352)"
+    accountant_actie: "Verzamelt stukken; vraagt zo nodig termijnverlenging (administratie kan toestaan op gemotiveerd verzoek vóór vervaldag)"
+
+  - episode: "E3 — Antwoord cliënt"
+    datum: "20 maart 2025"
+    handeling: "Cliënt antwoordt schriftelijk binnen termijn: levert contracten + facturen + foto's bouwplaats; beargumenteert marktconformiteit (prijsvergelijking 3 alternatieve aanbiedingen)"
+    leerstuk_primair: "controle-onderzoek-en-bewijs (L2) — sluit"
+
+  - episode: "E4 — Bericht van wijziging"
+    datum: "14 april 2025 (verzonden)"
+    handeling: "Inspecteur verzendt bericht van wijziging (BvW) — neemt antwoord cliënt niet aan; motiveert: geen onafhankelijke prijsstaving + verbondenheid via gemeenschappelijke zaakvoerder Marc Peeters → toepassing art. 26 WIB92 (abnormale of goedgunstige voordelen); voorgenomen rechtzetting +80.000 EUR + voornemen belastingverhoging 50% wegens 'tweede overtreding zonder bedoeling de belasting te ontduiken' (art. 444 + KB 27.8.1993)"
+    wettelijke_basis: "art. 346 WIB92 (bericht van wijziging)"
+    termijn_antwoord: "1 maand vanaf 3e werkdag na verzending = 17 april 2025 → uiterste antwoord 17 mei 2025 (kan op gemotiveerd verzoek verlengd)"
+    leerstuk_primair: "taxatie-bericht-van-wijziging-en-ambtshalve-aanslag (L3) — kern"
+    examen_relevantie: "BvW-verzending-termijn: BvW moet verzonden zijn binnen aanslagtermijn art. 354 (3 jaar voor regelmatige aangifte AJ 2024 = uiterlijk 31.12.2027 voor aanslag). Verlenging 6 maanden (art. 354 §1 lid 4) speelt hier niet — BvW komt ruim binnen termijn."
+
+  - episode: "E5 — Antwoord op BvW"
+    datum: "13 mei 2025"
+    handeling: "Accountant antwoordt namens cliënt — handhaaft standpunt marktconformiteit met aanvullende offertes; betwist toepassing art. 26 (geen abnormaal voordeel — verbonden onderneming dezelfde sector, normale aannemingsprijzen); subsidiair: betwist 50% belastingverhoging want eerste overtreding op die rubriek"
+    leerstuk_primair: "taxatie-bericht-van-wijziging-en-ambtshalve-aanslag (L3)"
+    valkuil: "Antwoord op BvW is procedureel verplicht voor latere bezwaar-mogelijkheid — wie niet antwoordt riskeert ambtshalve aanslag art. 351 met omkering bewijslast in bezwaar art. 352"
+
+  - episode: "E6 — Aanslagbiljet"
+    datum: "8 juli 2025 (verzendingsdatum vermeld op biljet)"
+    handeling: "Aanslag gevestigd door inkohiering — bijkomende VenB ca. EUR 20.000 + belastingverhoging EUR 10.000 + nalatigheidsintresten + gemeente-opcentiemen. Inspecteur volgt zijn BvW-standpunt; vermindert wel belastingverhoging naar 30% gezien antwoord cliënt"
+    wettelijke_basis: "art. 359 WIB92 (vestiging aanslag) + art. 297-298 WIB92 (kohier als uitvoerbare titel)"
+    leerstuk_primair: "wat-is-fiscale-procedure-en-aanslagcyclus (L1) + bezwaar-bemiddeling-en-gerechtelijke-fase (L4)"
+
+  - episode: "E7 — Bezwaar bij gewestelijke directeur"
+    datum: "9 september 2025 (verzonden aangetekend)"
+    handeling: "Accountant dient bezwaarschrift in namens cliënt — schriftelijk, ondertekend, gemotiveerd; vraagt vernietiging rechtzetting + subsidiair: vermindering belastingverhoging naar 10%; verzoekt om hoorrecht"
+    wettelijke_basis: "art. 366 WIB92 (bezwaar) + art. 371 WIB92 (termijn: 1 jaar vanaf 3e werkdag na verzending aanslagbiljet)"
+    termijn: "Bezwaartermijn start 11 juli 2025 (3e werkdag na 8 juli) → uiterste indiening 11 juli 2026. Cliënt dient ruim binnen termijn in."
+    leerstuk_primair: "bezwaar-bemiddeling-en-gerechtelijke-fase (L4) — kern"
+    valkuil: "Termijn = 1 jaar (NIET 6 maanden — vóór wetshervorming was dit anders); start = 3e werkdag NA verzending (NIET datum biljet, NIET ontvangst)"
+
+  - episode: "E8 — Aanvraag fiscale bemiddeling FBD"
+    datum: "15 november 2025"
+    handeling: "Parallel aan bezwaar vraagt cliënt fiscale bemiddeling aan bij de Fiscale Bemiddelingsdienst — schorst eventuele beroepstermijn naar rechtbank zolang bemiddelaar werkt"
+    wettelijke_basis: "Wet 25.4.2007 betreffende fiscale bemiddeling — sinds 2019 ook geldig voor invorderingsgeschillen"
+    leerstuk_primair: "bezwaar-bemiddeling-en-gerechtelijke-fase (L4)"
+    accountant_keuze: "Bemiddeling wordt gevraagd wanneer er ruimte voor compromis lijkt — hier vooral over de hoogte van de belastingverhoging"
+
+  - episode: "E9 — Bewarend beslag (parallel — invorderingsspoor)"
+    datum: "10 oktober 2025"
+    handeling: "Ontvanger eist betaling van het 'onbetwist deel' (de belastingverhoging en gemeente-opcentiemen — niet de basis-rechtzetting); cliënt betaalt niet; ontvanger laat bewarend beslag leggen op de zichtrekening BV"
+    wettelijke_basis: "art. 410 WIB92 — bezwaar schorst NIET de invordering van het onbetwist verschuldigd deel; ontvanger kan bewarend beslag laten leggen"
+    leerstuk_primair: "invordering-en-verzet-tegen-dwangbevel (L5)"
+    valkuil_examen: "Klassieker — student denkt dat bezwaar invordering schorst. Het schorst alleen invordering van het deel waarover bezwaar werd ingediend, en zelfs daar kan de ontvanger bewarend beslag laten leggen ter vrijwaring."
+
+  - episode: "E10 — Directeursbeslissing"
+    datum: "vermoedelijk eerste kwartaal 2026 (in case-narrative open einde)"
+    handeling: "Adviseur-generaal beslist op het bezwaar — vernietiging, vermindering of bevestiging. Reformatio in pejus is verboden art. 375 WIB92 (mag aanslag niet verhogen)."
+    wettelijke_basis: "art. 374-375 WIB92"
+    termijn: "Geen dwingende beslistermijn — wel: na 6 maanden zonder beslissing kan cliënt rechtstreeks naar rechter (Ger.W. art. 1385undecies = fictieve afwijzing)"
+    leerstuk_primair: "bezwaar-bemiddeling-en-gerechtelijke-fase (L4)"
+
+  - episode: "E11 — Eventueel: vordering rechtbank"
+    datum: "later, indien afwijzing"
+    handeling: "Vordering bij fiscale kamer rechtbank van eerste aanleg Antwerpen — binnen 3 maanden na kennisgeving directeursbeslissing"
+    wettelijke_basis: "Ger.W. art. 569 16° (bevoegdheid) + art. 1385undecies (termijn)"
+    leerstuk_primair: "bezwaar-bemiddeling-en-gerechtelijke-fase (L4)"
+
+  - episode: "E12 — Eventueel: dwangbevel + verzet"
+    datum: "later"
+    handeling: "Bij niet-betaling: ontvanger vaardigt dwangbevel uit (art. 13 Wetboek Invordering 2020); de enige stuiting van tenuitvoerlegging is een vordering in rechte (verzet bij beslagrechter)"
+    wettelijke_basis: "Wetboek Invordering 2020 art. 13 e.v."
+    leerstuk_primair: "invordering-en-verzet-tegen-dwangbevel (L5) — kern"
+    examen_klassieker: "Bezwaar ≠ verzet. Bezwaar = administratief, tegen aanslag, bij adviseur-generaal. Verzet = gerechtelijk, tegen tenuitvoerlegging, bij beslagrechter."
+
+# ---------------------------------------------------------------------------
+# DEEL D — Mini-cases (voor onderwerpen die de hoofd-timeline niet dekt)
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  - naam: "Mini-case 1 — Bestelbonnen en bewaarplicht"
+    leerstuk_primair: "controle-onderzoek-en-bewijs (L2)"
+    feiten: "Tijdens een gewone controle in 2025 vraagt de fiscus aan BV De Vlieg & Partners om alle bestelbonnen van 2018 (7 jaar terug) voor te leggen. De boekhouder zegt: 'die hebben we al weggegooid, ze tellen niet als boekhoudkundige stukken'."
+    juridisch_punt: "Bewaarplicht WIB92 art. 315 = 10 jaar voor 'boeken en bescheiden die voor de toepassing van het Wetboek van groot belang zijn'. Bestelbonnen vallen onder die definitie wanneer ze de boekhoudkundige verantwoording ondersteunen. WER art. III.86 vraagt 7 jaar boekhoudkundig — dit is de minimum-floor, niet de fiscale termijn. ⚖️ verifieerd via MCP wettekst."
+    examen_relevantie: "Klassieker uit 2015-1 en 2024-1. Studiematriaal moet expliciet boekhoudkundig 7 jaar vs fiscaal 10 jaar uitleggen."
+
+  - naam: "Mini-case 2 — Onderzoek 5 jaar terug + kennisgeving fraude"
+    leerstuk_primair: "controle-onderzoek-en-bewijs (L2) — fraude-traject"
+    feiten: "In 2027 — drie jaar na aangifte AJ 2024 — krijgt de fiscus anonieme tip over zwarte ontvangsten van BV De Vlieg & Partners voor 2020. Inspecteur wil de boeken 2020 controleren (= 7 jaar terug). Mag dat?"
+    juridisch_punt: "Onderzoekstermijn loopt parallel met aanslagtermijn art. 354 WIB92 — 3/4/6 jaar in regel; 10 jaar bij fraude. Voor onderzoek in de verlengde fraude-termijn vereist art. 333 lid 3 WIB92 een voorafgaande schriftelijke kennisgeving aan de belastingplichtige met de aanwijzingen van fraude. Zonder kennisgeving: onderzoek nietig, latere aanslag aanvechtbaar. ⚖️ verifieerd."
+    examen_relevantie: "2015-1 vr44 toetst dit. Examen-strikvraag: 'kan de administratie?' Antwoord = ja, maar met voorafgaande kennisgeving."
+
+  - naam: "Mini-case 3 — Btw-onderzoekstermijn"
+    leerstuk_primair: "controle-onderzoek-en-bewijs (L2) — btw-eigenheid"
+    feiten: "Cliënt-eenmanszaak X voert btw-renovatieaftrek in voor werken 2018; in 2025 vraagt btw-controle de stukken op. Cliënt zegt: 'btw-onderzoek is altijd 7 jaar terug, jullie zijn binnen termijn'."
+    juridisch_punt: "Art. 81bis WBTW differentieert: 3 jaar basis (regelmatige aangifte) / 4 jaar (niet-aangifte of laat) / 7 jaar (fraude — voorafgaande kennisgeving vereist). 'Altijd 7 jaar btw' is een courant misverstand. ⚖️ verifieerd via MCP."
+    examen_relevantie: "2015-1 MCQ-strikvraag — examinator verstopt foute waarde 'altijd 7 jaar' in een optie."
+
+  - naam: "Mini-case 4 — Bijzondere aangifte bij vertrek uit België"
+    leerstuk_primair: "wat-is-fiscale-procedure-en-aanslagcyclus (L1)"
+    feiten: "Een natuurlijk persoon, niet de hoofd-cliënt — Jan Verstraete, gepensioneerd, vertrekt definitief naar Portugal op 1 maart 2026. Hij vraagt zijn accountant: 'wat moet ik fiscaal in orde brengen vóór ik vertrek?'"
+    juridisch_punt: "Art. 309 WIB92 — bijzondere aangifte PB voor de periode 1.1.2026 tot 28.2.2026 binnen 3 maanden na vertrek. Aangifte volgt het lopende inkomstenjaar tot vertrekdatum; aanslag wordt vervroegd gevestigd."
+    examen_relevantie: "2024-1 toetst dit als aparte vraag. Geen onderdeel van de hoofdtimeline van De Vlieg — eigen mini-case."
+
+# ---------------------------------------------------------------------------
+# DEEL E — Mermaid-diagrammen (herbruikbaar voor leerstukken + samenvatting)
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  timeline_fiscale_procedure:
+    type: flowchart-lr
+    code: |
+      A[Aangifte<br/>art. 305-310 WIB] --> B[Controle<br/>art. 315-326 WIB]
+      B --> C{Resultaat?}
+      C -->|akkoord| D[Vestiging conform aangifte]
+      C -->|wijziging voorgesteld| E[Bericht van wijziging<br/>art. 346 WIB<br/>1 maand antwoord]
+      C -->|geen antwoord BvW<br/>of geen aangifte| F[Aanslag van ambtswege<br/>art. 351 WIB<br/>omkering bewijslast]
+      E --> G[Aanslag — inkohiering<br/>art. 297-298 WIB]
+      F --> G
+      D --> G
+      G --> H{Cliënt akkoord?}
+      H -->|ja| I[Definitief]
+      H -->|nee| J[Bezwaar bij directeur<br/>art. 366 + 371 WIB<br/>1 jaar vanaf 3e werkdag]
+      J --> K{Beslissing?}
+      K -->|toegewezen| I
+      K -->|afgewezen of stilzitten<br/>6 maanden| L[Fiscale rechtbank<br/>art. 1385undecies Ger.W.<br/>3 maanden]
+      G --> M[Invordering parallel<br/>onbetwist deel<br/>art. 410 WIB]
+      M --> N[Dwangbevel<br/>art. 13 W.Inv.]
+      N --> O[Verzet bij beslagrechter<br/>= enige stuiting]
+
+  taxatie_flow_bvw:
+    type: flowchart-td
+    code: |
+      A[Vraag om inlichtingen<br/>art. 316 WIB<br/>1 maand antwoordtermijn]
+      A --> B{Antwoord?}
+      B -->|akkoord| C[Geen rechtzetting]
+      B -->|argumenten cliënt| D{Inspecteur akkoord?}
+      D -->|ja| C
+      D -->|nee| E[Bericht van wijziging<br/>art. 346 WIB<br/>moet gemotiveerd zijn]
+      B -->|geen antwoord| F[Aanslag van ambtswege<br/>art. 351 WIB<br/>omkering bewijslast]
+      E --> G[1 maand antwoord cliënt]
+      G --> H{Antwoord overtuigt?}
+      H -->|ja| I[Inspecteur volgt cliënt]
+      H -->|nee — gemotiveerd| J[Vestiging aanslag]
+      H -->|geen antwoord| F
+
+  bezwaar_cascade:
+    type: flowchart-lr
+    code: |
+      A[Aanslagbiljet verzonden]
+      A --> B[Klok start<br/>3e werkdag na verzending]
+      B --> C[Bezwaar bij adviseur-generaal<br/>WIB art. 366 + 371<br/>termijn 1 jaar]
+      C --> D{Beslissing<br/>directeur?}
+      C -->|parallel| E[FBD-bemiddeling<br/>Wet 25.4.2007<br/>schorst beroepstermijn]
+      D -->|toegewezen| F[Aanslag verminderd<br/>of vernietigd]
+      D -->|afgewezen of<br/>stilzitten 6 maanden| G[Rechtbank eerste aanleg<br/>fiscale kamer<br/>3 maanden vanaf<br/>kennisgeving beslissing]
+      E --> G
+      G --> H[Hof van beroep]
+      H --> I[Hof van Cassatie<br/>1 maand]
+
+  invordering_cyclus:
+    type: flowchart-td
+    code: |
+      A[Aanslag definitief of<br/>onbetwist deel]
+      A --> B[Aanmaning ontvanger]
+      B --> C{Betaling?}
+      C -->|ja| D[Voldaan]
+      C -->|nee| E{Risico op niet-betaling?}
+      E -->|ja| F[Bewarend beslag<br/>vrijwaring]
+      E -->|nee| G[Dwangbevel<br/>art. 13 W.Inv.]
+      F --> G
+      G --> H[Uitvoerend beslag<br/>roerend / onroerend / onder derden]
+      H --> I[Verkoop / inning]
+      G -.- J[Verzet bij beslagrechter<br/>= enige stuiting tenuitvoerlegging]
+      H -.- J
+
+# ---------------------------------------------------------------------------
+# DEEL F — Termijntabel (kern voor leerstuk 2 + samenvatting)
+# ---------------------------------------------------------------------------
+
+# Alle termijnen verifieerd via MCP `certificaid-rag` `zoek_bronnen` rerank
+# op 2026-06-01 tegen WIB92 + WBTW actuele teksten.
+
+termijntabel_federaal:
+
+  - rubriek: "Aanslagtermijn directe belastingen — regelmatige aangifte"
+    termijn: "3 jaar vanaf 1 januari van het aanslagjaar"
+    bron: "WIB92 art. 354 §1 lid 1"
+    valkuil: "Sinds Wet 20.11.2022 in voege voor AJ ≥ 2023. Oudere examens (vóór 2023) hanteren nog oude regel 3 jaar standaard."
+
+  - rubriek: "Aanslagtermijn directe belastingen — niet-aangifte of laat"
+    termijn: "4 jaar"
+    bron: "WIB92 art. 354 §1 lid 2"
+
+  - rubriek: "Aanslagtermijn directe belastingen — complexe aangifte (lokaal dossier, landenrapport, ...)"
+    termijn: "6 jaar"
+    bron: "WIB92 art. 354 §1 lid 2-3"
+    valkuil: "Nieuw sinds Wet 20.11.2022 — vóór die wet kende WIB enkel 3 + 7 jaar."
+
+  - rubriek: "Aanslagtermijn directe belastingen — fraude"
+    termijn: "10 jaar"
+    bron: "WIB92 art. 354 §1 lid 4"
+    voorwaarde: "Voorafgaande schriftelijke kennisgeving aan belastingplichtige van aanwijzingen van fraude (art. 333 lid 3 WIB) — op straffe van nietigheid"
+
+  - rubriek: "Verlenging aanslagtermijn na BvW (nakende verjaring)"
+    termijn: "+ 6 maanden vanaf antwoord cliënt OF vanaf vervaldag antwoordtermijn"
+    bron: "WIB92 art. 354 §1 lid 4 (in fine)"
+    examen_relevantie: "2024-1 — examen-favoriet; redt aanslag die anders zou verjaren"
+
+  - rubriek: "Aanslagtermijn btw"
+    termijn: "3 jaar (basis) / 4 jaar (niet-aangifte of laat) / 7 jaar (fraude — voorafgaande kennisgeving vereist)"
+    bron: "WBTW art. 81bis"
+    valkuil: "Geen 10-jaars-regel zoals WIB. 'Altijd 7 jaar btw' = courant misverstand."
+
+  - rubriek: "Bijzondere termijn — buitenlandse inlichtingen via DBV"
+    termijn: "24 maanden vanaf kennisname Belgische administratie"
+    bron: "WIB92 art. 358 §1 2° + §2"
+    valkuil: "Examen-strikvraag — fout antwoord '12 maanden' verschijnt in MCQ-opties (2015-1)"
+
+  - rubriek: "Antwoordtermijn cliënt op vraag om inlichtingen (art. 316)"
+    termijn: "1 maand vanaf 3e werkdag na verzending"
+    bron: "WIB92 art. 316 — verlengbaar op gemotiveerd verzoek"
+
+  - rubriek: "Antwoordtermijn vraag aan derden (art. 323)"
+    termijn: "Geen wettelijk minimum — vrij door administratie bepaald, mits redelijk"
+    bron: "WIB92 art. 323"
+    valkuil: "Vaak 10 dagen in praktijk. Korte termijn kan onregelmatig zijn bij overmacht (bv. staking — 2013-2 en 2014-1)."
+
+  - rubriek: "Antwoordtermijn cliënt op BvW (art. 346)"
+    termijn: "1 maand vanaf 3e werkdag na verzending"
+    bron: "WIB92 art. 346 — verlengbaar op gemotiveerd verzoek"
+
+  - rubriek: "Bezwaartermijn directe belastingen (PB / VenB)"
+    termijn: "1 jaar vanaf 3e werkdag na verzending aanslagbiljet"
+    bron: "WIB92 art. 371"
+    valkuil: "NIET 6 maanden. NIET vanaf datum biljet of ontvangst — 3e werkdag na verzending."
+
+  - rubriek: "Termijn naar rechtbank na directeursbeslissing"
+    termijn: "3 maanden vanaf kennisgeving beslissing"
+    bron: "Ger.W. art. 1385undecies"
+
+  - rubriek: "Fictieve afwijzing — rechtbank zonder beslissing"
+    termijn: "Na 6 maanden stilzwijgen mag belastingplichtige rechtstreeks naar rechtbank"
+    bron: "Ger.W. art. 1385undecies"
+
+  - rubriek: "Bewaarplicht boekhoudkundig"
+    termijn: "7 jaar"
+    bron: "WER art. III.86"
+
+  - rubriek: "Bewaarplicht fiscaal (WIB)"
+    termijn: "10 jaar — sinds aj. 2023"
+    bron: "WIB92 art. 315"
+    valkuil: "Klassieker — boekhoudkundig 7 jaar vs fiscaal 10 jaar. Bestelbonnen vallen onder fiscale termijn."
+
+  - rubriek: "Bewaarplicht btw"
+    termijn: "10 jaar"
+    bron: "WBTW art. 60"
+
+  - rubriek: "Aangifte PB bij vertrek uit België"
+    termijn: "Aangifte binnen 3 maanden na vertrek"
+    bron: "WIB92 art. 309"
+
+  - rubriek: "Aangifte VenB"
+    termijn: "Binnen 1 maand na goedkeuring jaarrekening AV, en uiterlijk 7 maanden na boekjaareinde"
+    bron: "WIB92 art. 310 + KB tot uitvoering"
+
+# ---------------------------------------------------------------------------
+# DEEL G — Onderzoeksbevoegdheden-tabel (kern voor leerstuk 2)
+# ---------------------------------------------------------------------------
+
+onderzoeksbevoegdheden_tabel:
+
+  - bevoegdheid: "Boeken en bescheiden opvragen / inzien"
+    artikel: "WIB92 art. 315"
+    grens: "Bewaard te houden 10 jaar; voorleggen op redelijke vraag op zetel of woning"
+    gevolg_weigering: "Verzwaard bewijsstuk — ambtshalve aanslag art. 351 + omkering bewijslast"
+
+  - bevoegdheid: "Vraag om inlichtingen aan belastingplichtige"
+    artikel: "WIB92 art. 316"
+    termijn: "1 maand vanaf 3e werkdag"
+    grens: "Geen vraag mag een algemeen onderzoek zijn — moet betrekking hebben op gevorderde aanslag"
+    gevolg_weigering: "Ambtshalve aanslag art. 351 + boete art. 445"
+
+  - bevoegdheid: "Controle ter plaatse (zetel / woning)"
+    artikel: "WIB92 art. 319"
+    grens: "Privéwoning vereist machtiging politierechter (art. 319 §3); beroepslokalen tijdens werkuren vrij toegankelijk voor controle-ambtenaar"
+    gevolg_weigering: "Verhinderen onderzoek = boete art. 445 + ambtshalve aanslag"
+
+  - bevoegdheid: "Vraag aan derden — bv. klanten, leveranciers"
+    artikel: "WIB92 art. 322"
+    termijn: "Geen wettelijke minimum — vrij door administratie"
+    grens: "Derde moet antwoorden; geen recht op zwijgen behalve bij beroepsgeheim (advocaten, artsen — beperkt)"
+
+  - bevoegdheid: "Bankgeheim doorbreken — opvraging bankrekeningen via CAP"
+    artikel: "WIB92 art. 322bis"
+    grens: "Geen rekening-uittreksels op vraag voorafgaand aan aanwijzingen van belastingontduiking (sinds Wet 1.7.2011 versoepeld); CAP (Centraal Aanspreekpunt) als toegang"
+
+  - bevoegdheid: "Verlenging onderzoekstermijn naar fraude (10 jaar)"
+    artikel: "WIB92 art. 333 lid 3"
+    voorwaarde: "Voorafgaande schriftelijke kennisgeving met aanwijzingen van fraude — op straffe van nietigheid"
+    valkuil: "2015-1 — onderzoek 5 jaar terug = nog binnen 10-jaars-fraude-termijn maar enkel met kennisgeving"
+
+# ---------------------------------------------------------------------------
+# Bewijsmiddelen — kern voor leerstuk 2 (bewijssectie)
+# ---------------------------------------------------------------------------
+
+bewijsmiddelen_tabel:
+
+  - middel: "Gemeen recht — schriftelijke stukken, vermoedens, getuigenissen"
+    artikel: "WIB92 art. 339-340"
+    rol: "basis-bewijsmiddel"
+
+  - middel: "Tekenen en indiciën"
+    artikel: "WIB92 art. 341"
+    rol: "fiscus reconstrueert inkomen op basis van uitgaven, levensstandaard, vermogensaanwas die niet door aangegeven inkomen verklaard wordt"
+    voorbeeld: "Cliënt geeft EUR 25.000 inkomen aan maar koopt huis van EUR 600.000 zonder andere bron — fiscus mag bijschatten"
+
+  - middel: "Vergelijking met soortgelijke belastingplichtigen"
+    artikel: "WIB92 art. 342"
+    rol: "voor specifieke sectoren — bv. forfaitaire grondslagen"
+
+  - middel: "Antimisbruikbepaling — herkwalificatie"
+    artikel: "WIB92 art. 344 §1"
+    rol: "fiscus mag rechtshandelingen herkwalificeren wanneer ze geen ander doel hebben dan belastingontwijking — bewijslast op fiscus"
+
+# ---------------------------------------------------------------------------
+# Beginselen behoorlijk bestuur — kern transversaal door alle leerstukken
+# ---------------------------------------------------------------------------
+
+beginselen_behoorlijk_bestuur:
+
+  - beginsel: "Rechtszekerheid"
+    operationalisatie: "Administratieve toelichtingen + circulaires + DVB-rulings binden de fiscus (vertrouwensbeginsel-variant)"
+    in_dossier: "leerstuk 3 — een rondetafelgesprek of circulaire die de cliënt mocht volgen"
+
+  - beginsel: "Vertrouwen"
+    operationalisatie: "Cliënt die te goeder trouw vertrouwde op administratieve toelichting mag zich daarop beroepen tegen latere koerswijziging"
+    in_dossier: "leerstuk 3 + leerstuk 4 (verweer)"
+
+  - beginsel: "Redelijkheid"
+    operationalisatie: "Belastingverhogingen + boetes moeten in verhouding staan tot overtreding"
+    in_dossier: "leerstuk 3 — 50% belastingverhoging op eerste overtreding kan onredelijk zijn"
+
+  - beginsel: "Motiveringsplicht"
+    operationalisatie: "Wet 29.7.1991 — BvW + aanslag + directeursbeslissing moeten gemotiveerd zijn; ongemotiveerde aanslag = nietig"
+    in_dossier: "leerstuk 3 — toets motivering BvW; leerstuk 4 — toets motivering directeursbeslissing"
+
+  - beginsel: "Zorgvuldigheid"
+    operationalisatie: "Administratie moet alle relevante feiten verzamelen vóór beslissen; lichtvaardig onderzoek = nietig"
+    in_dossier: "leerstuk 2 + leerstuk 3"

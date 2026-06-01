@@ -1,0 +1,256 @@
+# Leerstuk-script — Taxatie, bericht van wijziging en ambtshalve aanslag
+#
+# PO 2.5 leerstuk 3 (scharniermoment-fiche). Werkt het BvW-moment uit als
+# het BESLISSENDE punt in de taxatieprocedure — daar wordt geadviseerd of
+# verloren, daar leven motiveringsplicht en redelijkheid concreet. Bouwt op
+# leerstuk 2 (onderzoek + termijnen + bewijs) en bedient leerstuk 4
+# (bezwaar als verweer na vestiging).
+#
+# Hand-off: dit leerstuk eindigt met de aanslag-vestiging. Wat erna komt
+# (bezwaar / FBD / rechtbank) hoort in [[bezwaar-bemiddeling-en-
+# gerechtelijke-fase]]. Belastingverhoging + boete als gevolgen van het
+# BvW-traject zitten hier omdat ze direct uit de vestiging volgen — voor
+# de detailtarieven Cijferzakboekje.
+
+meta:
+  slug: taxatie-bericht-van-wijziging-en-ambtshalve-aanslag
+  titel: "Taxatie, bericht van wijziging en ambtshalve aanslag — het scharniermoment"
+  po: "2.5"
+  cluster: fiscaliteit
+  voorbeeldgroep: de-vlieg-partners
+  beschrijving: >
+    Leerstuk PO 2.5 — scharniermoment-fiche. Hoe vestigt de fiscus de
+    aanslag wanneer hij het oneens is met de aangifte? Drie wegen
+    (aanvaarding · bericht van wijziging art. 346 · ambtshalve aanslag
+    art. 351) met antwoord-strategie, motiveringsplicht (Wet 29.7.1991),
+    omkering bewijslast bij ambtshalve, BvW-verlenging 6 maanden
+    (art. 354 §1 lid 4) en fiscale sancties (belastingverhoging
+    art. 444 + boete art. 445).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 2.5-overzicht.
+    Wijs erop dat dit het BESLISSENDE moment van de procedure is — wie
+    op het BvW correct antwoordt, voorkomt een ambtshalve aanslag met
+    omkering bewijslast. Wie te laat of niet antwoordt, betaalt 6
+    maanden later met bewijslast-handicap in bezwaar.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: na het onderzoek heeft de fiscus drie wegen om de aanslag te vestigen — AANVAARDING van de aangifte (geen rechtzetting), BERICHT VAN WIJZIGING (art. 346 — voorgenomen rechtzetting met motivering + cliënt heeft 1 maand om te antwoorden), of AMBTSHALVE AANSLAG (art. 351 — cliënt heeft niet of fout geantwoord, of geen aangifte ingediend; gevolg = OMKERING BEWIJSLAST in bezwaar art. 352)."
+    - "Het BvW-moment is het SCHARNIERMOMENT — daar wordt het dossier gemaakt of verloren. Drie regels: (a) ANTWOORD ALTIJD binnen termijn, ook bij accoord; (b) MOTIVEER inhoudelijk — de adviseur-generaal in latere bezwaar ziet alleen wat in het antwoord stond; (c) CHECK DE MOTIVERING VAN DE FISCUS — een ongemotiveerde of slecht gemotiveerde BvW is op grond van Wet 29.7.1991 NIETIG."
+    - "Drie technische valkuilen die in elk examen terugkomen: (1) BvW-VERLENGING 6 MAANDEN (art. 354 §1 lid 4) — wanneer aanslagtermijn nakend verstrijkt redt deze verlenging de aanslag; (2) bij ambtshalve aanslag DRAAIT BEWIJSLAST OM — cliënt moet bewijzen dat cijfers fiscus onjuist zijn; (3) belastingverhoging (10/20/30/50/100/200% art. 444 + KB 27.8.1993) is een ADMINISTRATIEVE SANCTIE die op redelijkheidsbeginsel toetsbaar is."
+  visualisaties:
+    - type: mermaid
+      ref: taxatie_flow_bvw
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Eerst de drie wegen + termijnen, dan motivering + omkering bewijslast, dan sanctie-laag en BvW-verlenging.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-wegen-uit-onderzoek
+    titel: "Drie wegen uit het onderzoek"
+    niveau: 2
+    beats:
+      - "Open met de positionering ten opzichte van leerstuk 2: het onderzoek levert een UITKOMST die voor de fiscus drie wegen openhoudt. Welke weg hij kiest hangt af van de medewerking van de cliënt + de juridische staat van het dossier."
+      - "Weg 1 — AANVAARDING: inspecteur is overtuigd door antwoord cliënt of vond geen onregelmatigheden. Aanslag wordt gevestigd conform aangifte. Geen BvW, geen sanctie. Stilzwijgend resultaat — cliënt merkt het pas wanneer de gewone aanslag binnenkomt."
+      - "Weg 2 — BERICHT VAN WIJZIGING (art. 346 WIB): inspecteur is niet overtuigd, wil rechtzetten, maar cliënt heeft wel geantwoord op vraag om inlichtingen (of de aangifte was tijdig ingediend). Procedure: schriftelijke BvW met motivering · cliënt heeft 1 maand om te antwoorden · inspecteur beslist · vestiging conform of mits aanpassing. Bewijslast BLIJFT bij fiscus."
+      - "Weg 3 — AMBTSHALVE AANSLAG (art. 351 WIB): cliënt heeft GEEN aangifte ingediend, of niet (of laat) geantwoord op vraag om inlichtingen, of niet geantwoord op BvW. Procedure: KENNISGEVING van aanslag van ambtswege · cliënt heeft 1 maand om opmerkingen te maken · inspecteur vestigt aanslag op basis van eigen schatting. GEVOLG: OMKERING BEWIJSLAST art. 352 — in bezwaar moet cliënt zelf bewijzen dat cijfers onjuist zijn."
+      - "Concretiseer met de De Vlieg-case: na E2 (vraag inlichtingen) en E3 (cliënt antwoordt netjes met stukken) kiest inspecteur weg 2 — BvW. Hij KIEST NIET voor weg 3 omdat cliënt heeft geantwoord. Verschil maakt fundamenteel uit voor latere bezwaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Weg", "Wanneer", "Termijn voor cliënt", "Bewijslast in bezwaar"]
+        rijen:
+          - ["**Aanvaarding**", "Inspecteur overtuigd of geen onregelmatigheid", "—", "—"]
+          - ["**Bericht van wijziging** (art. 346)", "Cliënt heeft (in beginsel) meegewerkt; rechtzetting voorgenomen", "1 maand vanaf 3e werkdag na verzending (verlengbaar)", "Fiscus moet bewijzen (vermoeden juistheid aangifte)"]
+          - ["**Ambtshalve aanslag** (art. 351)", "Geen aangifte · geen antwoord vraag inlichtingen · geen antwoord BvW · stukken niet voorgelegd", "1 maand opmerkingen op kennisgeving", "**Omkering** — cliënt moet bewijzen dat aanslag onjuist is (art. 352)"]
+
+  - id: bericht-van-wijziging-uitgewerkt
+    titel: "Het bericht van wijziging — art. 346 in detail"
+    niveau: 2
+    beats:
+      - "Open met de positionering: dit is de gewoonste weg na een controle waar de cliënt heeft meegewerkt maar de inspecteur het op een of meer punten oneens blijft."
+    kinderen:
+
+      - id: bvw-vorm-en-inhoud
+        titel: "Vorm + inhoud van een BvW"
+        niveau: 3
+        beats:
+          - "Open met de praktische check: wanneer cliënt belt met een BvW, wat moet je op het document zien staan vóór je inhoudelijk adviseert?"
+          - "Vorm-vereisten: schriftelijk · op briefpapier FOD Financiën · datum verzending vermeld · vermelding antwoordtermijn (1 maand) · vermelding mogelijke gevolgen (ambtshalve aanslag als geen antwoord) · ondertekening bevoegd inspecteur."
+          - "Inhoud-vereisten: (a) de WIJZIGINGEN die de inspecteur wil aanbrengen — concreet, niet 'mogelijk te corrigeren'; (b) de MOTIVERING — feitelijk + juridisch; (c) de TERMIJN voor antwoord; (d) eventueel: voornemen belastingverhoging + boete."
+          - "Motivering = grondvereiste — Wet 29.7.1991. Ongemotiveerde of gebrekkig gemotiveerde BvW = nietig. Wat is 'gemotiveerd genoeg'? Niet alleen artikel-nummer, ook de FEITELIJKE redenering: waarom acht de inspecteur de aangegeven kosten geen beroepskost? Welke stukken heeft hij onvoldoende gevonden? Een BvW die alleen 'art. 49 WIB niet vervuld' zegt, is niet voldoende — moet uitleggen welk element van art. 49 (causaal verband · noodzakelijkheid · werkelijkheid) ontbreekt."
+
+      - id: antwoord-strategie
+        titel: "Antwoord-strategie — drie reflexen"
+        niveau: 3
+        beats:
+          - "Open met de hoofdregel: ALTIJD antwoorden, ook bij accoord. Niet-antwoord = ambtshalve risico, en zelfs een akkoord-antwoord houdt de bewijslast bij de fiscus."
+          - "Reflex 1 — VERLENGING aanvragen indien nodig. Termijn 1 maand is verlengbaar op GEMOTIVEERD verzoek vóór vervaldag. Praktijk: vakantie cliënt, complexe stukken, vertaling buitenlandse contracten — dat is voldoende. Vraag tijdig (binnen eerste week na ontvangst), schriftelijk, met reden."
+          - "Reflex 2 — INHOUDELIJK gemotiveerd antwoord. Drie blokken: (a) feitelijke betwisting — welke feiten klopt de inspecteur niet?; (b) juridische betwisting — welke wetstoepassing is onjuist?; (c) subsidiair — als de rechtzetting toch overeind blijft, betwist dan de belastingverhoging op redelijkheidsgrond."
+          - "Reflex 3 — STUKKEN OPNIEUW BIJVOEGEN. Stukken die je in antwoord op vraag inlichtingen al stuurde — niet veronderstellen dat de inspecteur ze paraat heeft. Bij elke argumentatie de stavende stukken meesturen. De adviseur-generaal in latere bezwaar leest dan beide brieven naast elkaar."
+          - "Concretiseer met De Vlieg E5 (uit voorbeeldgroep — antwoord op BvW): accountant antwoordt op 13.5.2025 — handhaaft marktconformiteit met aanvullende offertes; betwist toepassing art. 26 WIB (verbonden onderneming = niet automatisch abnormaal voordeel); subsidiair: betwist 50% belastingverhoging want eerste overtreding op die rubriek."
+          - "Belangrijke nuance (blockquote-aside): de antwoord-brief is een PROCEDUREEL PIVOT. In latere bezwaar mag een NIEUW argument worden aangevoerd (geen estoppel-regel in fiscaal procesrecht) — maar de FEITELIJKE elementen die niet in de antwoord-brief stonden, krijgen later vaak minder geloofwaardigheid. Strategie: zo volledig mogelijk antwoorden, ook al lijkt accoord-gedeelte vanzelfsprekend."
+
+      - id: motivering-toetsen
+        titel: "De motivering van de fiscus toetsen"
+        niveau: 3
+        beats:
+          - "Open met het pedagogische punt: een BvW is geen voldongen feit — de motivering moet stevig zijn. Drie testen die de accountant uitvoert."
+          - "Test 1 — FEITELIJKE motivering: welke concrete feiten ondersteunen de rechtzetting? 'Bestelbonnen niet voorgelegd' — wat heeft de inspecteur dan gevraagd, wanneer, en wat ontving hij? 'Kost niet markt-conform' — op welke prijsvergelijking baseert hij zich? Onvolledige feitelijke motivering = aanvechtbaar."
+          - "Test 2 — JURIDISCHE motivering: welk wetsartikel wordt ingeroepen + hoe wordt het toegepast? Een rechtzetting onder art. 49 WIB (algemene aftrekvoorwaarde beroepskost) vereist toetsing aan: causaal verband · noodzakelijkheid voor beroep · realiteit van uitgave. Een rechtzetting onder art. 26 WIB (abnormale voordelen) vereist: aantonen dat voordeel verleend werd + dat het abnormaal of goedgunstig is."
+          - "Test 3 — PROPORTIONALITEIT van de sanctie: voorgestelde belastingverhoging in verhouding tot de overtreding? KB 27.8.1993 voorziet een schaal (10% eerste overtreding zonder bedoeling te ontduiken · 50% bij herhaling · 100% bij fraude). Een 50% op een eerste overtreding van een complexe regel kan onredelijk zijn — redelijkheidsbeginsel."
+          - "Cross-PO link: het denkkader 'beginselen behoorlijk bestuur' leeft in [[2.1]]; hier is het OPERATIONEEL — drie testen op één concreet document."
+
+  - id: ambtshalve-aanslag
+    titel: "Ambtshalve aanslag — wanneer en met welk gevolg"
+    niveau: 2
+    beats:
+      - "Open met de cliënt-vraag die de accountant elke maand hoort: 'wat gebeurt er als ik niets doe?' Antwoord = ambtshalve aanslag art. 351, en dat is in 9 van de 10 gevallen veel slechter dan een BvW-traject."
+    kinderen:
+
+      - id: wanneer-ambtshalve
+        titel: "Wanneer mag de fiscus ambtshalve aanslag vestigen?"
+        niveau: 3
+        beats:
+          - "Open met de gesloten lijst van gevallen — niet vrij naar keuze."
+          - "Geval 1: GEEN AANGIFTE ingediend binnen de wettelijke termijn (na herinnering)."
+          - "Geval 2: aangifte WEL ingediend maar de cliënt heeft niet (of laat) geantwoord op een VRAAG OM INLICHTINGEN art. 316."
+          - "Geval 3: aangifte ingediend, vraag beantwoord, maar cliënt heeft niet (of laat) geantwoord op een BvW art. 346."
+          - "Geval 4: cliënt VERHINDERT het onderzoek — weigert boeken voor te leggen, belet visitatie, weigert antwoord op derden-onderzoek."
+          - "Geval 5: bewijsmiddelen zijn onvoldoende — schrift- of cijfermateriaal ontbreekt voor reconstructie. Dan tekenen-en-indiciën-aanslag art. 341 als bewijsmiddel + ambtshalve als vorm."
+
+      - id: gevolg-omkering-bewijslast
+        titel: "Gevolg — OMKERING BEWIJSLAST art. 352"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: omkering bewijslast is de zwaarste procedurele sanctie van de fiscale procedure. Het is geen straf maar een GEVOLG — de wet veronderstelt dat wie niet meewerkt, ook in bezwaar de cijfers van de fiscus moet weerleggen."
+          - "Wat betekent het concreet? Normaal moet de fiscus aantonen dat de aangifte onjuist is (art. 339 — vermoeden van juistheid). Bij ambtshalve verschuift dat: de fiscus mag REDELIJK schatten (geen volledige bewijsplicht meer), en de cliënt moet vervolgens AANTONEN dat die schatting onjuist is."
+          - "Praktisch advies: bij dreigende ambtshalve aanslag — ALTIJD nog antwoorden, zelfs gedeeltelijk, zelfs te laat. Een laat antwoord neemt soms de ambtshalve-grondslag weg (afhankelijk van administratie-bereidheid). Een 'beter laat dan nooit' is beter dan een ambtshalve aanslag plus 1 jaar bewijs-handicap in bezwaar."
+          - "Belangrijke nuance (blockquote-aside): omkering bewijslast geldt niet ABSOLUUT — de fiscus moet de schatting nog steeds REDELIJK + GEMOTIVEERD onderbouwen. Een wildgroei-schatting (bv. 5× de aangegeven omzet zonder enige basis) blijft op redelijkheidsbeginsel aanvechtbaar. Maar de drempel voor de cliënt om te weerleggen ligt hoger."
+
+  - id: bvw-verlenging-6-maanden
+    titel: "BvW-verlenging 6 maanden — de redding bij nakende verjaring"
+    niveau: 2
+    beats:
+      - "Open met de praktische situatie: een inspecteur ontdekt eind 2027 een twijfel op aangifte VenB van aanslagjaar 2024. Gewone aanslagtermijn = 3 jaar vanaf 1.1.2024 = tot 31.12.2027. Hij heeft dus geen tijd meer voor de gewone BvW-cyclus (1 maand voor cliënt + tijd om aanslag te vestigen vóór 31.12.2027). Wat doet hij?"
+      - "Antwoord: hij beroept zich op art. 354 §1 lid 4 IN FINE — wanneer een BvW wordt verzonden in de laatste 6 maanden van de aanslagtermijn, wordt de termijn AUTOMATISCH met 6 maanden VERLENGD vanaf antwoord cliënt (of vanaf vervaldag antwoordtermijn als geen antwoord)."
+      - "Voorbeeld: BvW verzonden op 1 december 2027 (binnen 6 maanden vóór 31.12.2027) → aanslag mag gevestigd worden tot 1 juli 2028 (of later als cliënt later antwoordt)."
+      - "Examen-favoriet — komt expliciet voor in voorbeeldexamen 2024-1. Klassieke fout-optie in MCQ: 'aanslag verjaart op 31.12.2027 ongeacht het BvW' — fout. De verlenging redt de aanslag."
+      - "Strategische implicatie voor de accountant: bij een BvW DICHT BIJ HET TERMIJN-EINDE — geen 'tijdrekken' meer mogelijk. De verlenging maakt de fiscus immuun voor verjaring. Beste strategie = inhoudelijk verweer voeren."
+      - "Belangrijke nuance (blockquote-aside): de verlenging is geen 'algemene' termijnverlenging maar gebonden aan het BvW-mechanisme. Voor andere stappen (vraag inlichtingen, ambtshalve aanslag) geldt zij niet automatisch — wel via art. 358 voor bijzondere termijnen."
+
+  - id: sanctie-laag
+    titel: "De sanctie-laag — belastingverhoging + boete"
+    niveau: 2
+    beats:
+      - "Open met de positionering: een rechtzetting via BvW gaat zelden alleen om de fiscale meerwaarde — er komt vaak een belastingverhoging + soms een boete bij. Drie soorten sanctie te onderscheiden."
+      - "BELASTINGVERHOGING art. 444 WIB: percentage van de bijkomende belasting. Schaal in KB 27.8.1993: 10% (eerste overtreding zonder bedoeling te ontduiken) · 20% (tweede overtreding) · 30% (derde) · 50% (intentioneel) · 100% (fraude met opzet) · 200% (georganiseerde fraude). Voor specifieke bedragen: Cijferzakboekje."
+      - "BOETE art. 445 WIB: VAST bedrag voor specifieke overtredingen — bv. niet-naleven verplichting tot voorlegging, niet-aangifte. Bedragen in KB; orde van grootte: 50-1.250 EUR per overtreding."
+      - "GEHEIME COMMISSIELONEN-AANSLAG art. 219 WIB: bijzondere sanctie-aanslag op niet-aangegeven commissielonen, presentiegelden, lonen of voordelen van alle aard. Tarief 100% (in beginsel) of 50% (indien begunstigde identificeerbaar). Kort hier vermelden — uitgewerkt in [[2.3]]."
+      - "Drie advies-haakjes voor de cliënt: (a) belastingverhoging is OP REDELIJKHEIDSBEGINSEL toetsbaar — 50% op eerste overtreding kan onevenredig zijn; (b) cumulatie met strafrechtelijke vervolging vereist non-bis-in-idem-toets (vooral bij fraude-tarieven); (c) een betaling van het OPDIENDE deel zonder verzet kan in latere bezwaar als impliciete erkenning worden gelezen — communiceer expliciet 'onder voorbehoud van bezwaar'."
+      - "Concretiseer met De Vlieg E4 + E6: BvW kondigt 50% belastingverhoging aan op 'tweede overtreding zonder bedoeling te ontduiken' (art. 444 + KB 27.8.1993). Accountant betwist in antwoord: eerste overtreding op die rubriek → 10% redelijker. In E6 vermindert inspecteur effectief naar 30% — gedeeltelijke winst zonder bezwaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Sanctie", "Wetbron", "Mechaniek", "Redelijkheidstoets"]
+        rijen:
+          - ["**Belastingverhoging**", "WIB92 art. 444 + KB 27.8.1993", "% van bijkomende belasting (10-200%)", "Ja — proportionaliteit + niet-cumulatie met andere sancties"]
+          - ["**Boete**", "WIB92 art. 445", "Vast bedrag per overtreding — bedragen in Cijferzakboekje", "Ja — proportionaliteit"]
+          - ["**Geheime commissielonen-aanslag** (cross-PO)", "WIB92 art. 219", "100% (of 50% bij identificeerbaar begunstigde)", "Uitgewerkt in [[2.3]]"]
+
+  - id: beginselen-haakjes
+    titel: "Beginselen-haakjes — motivering + redelijkheid + zorgvuldigheid"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: drie beginselen behoorlijk bestuur landen IN dit leerstuk concreet."
+      - "Haakje 1 — MOTIVERINGSPLICHT (Wet 29.7.1991): toetsbaar op de BvW + op de directeursbeslissing in bezwaar. Een ongemotiveerde BvW is NIETIG — dat is geen formaliteit maar een grondrecht (rechten van verdediging)."
+      - "Haakje 2 — REDELIJKHEID: vooral bij belastingverhoging. Een tarief moet IN VERHOUDING staan tot de overtreding. Een 50% op een eerste, niet-intentionele overtreding van een complex aftrek-vereiste is op redelijkheidsbeginsel aanvechtbaar."
+      - "Haakje 3 — ZORGVULDIGHEID: vooral bij ambtshalve aanslag. De schatting moet REDELIJK + GEMOTIVEERD zijn. Een wildgroei-schatting (factor 5 op aangegeven omzet zonder basis) is onzorgvuldig."
+      - "Cross-PO doorklik: [[2.1]] voor het denkkader; deze drie haakjes zijn de OPERATIONELE uitwerking binnen één concreet document — de BvW en de daaropvolgende aanslag."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat 'niets antwoorden op BvW' = 'tijdrekken'. FOUT — geen antwoord = ambtshalve aanslag art. 351 + OMKERING BEWIJSLAST art. 352 in latere bezwaar. De cliënt verschuift dus van 'fiscus moet bewijzen' naar 'cliënt moet bewijzen'. Strategie 'wachten en zien' kost vaak het hele dossier."
+      - "Valkuil 2 (⚠️): denken dat aanslag bij nakende verjaring 'gered' is. FOUT — art. 354 §1 lid 4 in fine voorziet BvW-verlenging van 6 maanden wanneer BvW verzonden wordt in de laatste 6 maanden van de aanslagtermijn. Cliënt die op 1 december 2027 een BvW krijgt voor AJ 2024 (gewone termijn t.e.m. 31.12.2027) zit dus tot juli 2028 in procedure — geen verjaring."
+      - "Valkuil 3 (⚠️): belastingverhoging klakkeloos aanvaarden. FOUT — de schaal KB 27.8.1993 voorziet 10% voor EERSTE OVERTREDING zonder bedoeling te ontduiken. Een 50% (intentioneel) of 100% (fraude) is een SCHARP STANDPUNT van de fiscus — toetsbaar op redelijkheidsbeginsel. Subsidiair argument 'subsidiair betwisten we de belastingverhoging' hoort altijd in het antwoord op BvW."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: controle-onderzoek-en-bewijs
+      hint: "Wat er VOOR de BvW gebeurde — onderzoek + termijnen + bewijsmiddelen."
+    - slug: bezwaar-bemiddeling-en-gerechtelijke-fase
+      hint: "Wat NA de aanslag komt — bezwaar bij directeur · FBD · rechtbank."
+    - slug: invordering-en-verzet-tegen-dwangbevel
+      hint: "Parallel met bezwaar — de invorderingsfase, want bezwaar schorst niet."
+    - slug: wat-is-fiscale-procedure-en-aanslagcyclus
+      hint: "Voor het kader — drie fases + twee scharniermomenten."
+  samenvatting:
+    hint: "Voor herhaling — BvW-flow + ambtshalve aanslag + verlenging 6 maanden + sanctie-laag."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [taxatieprocedure, beginselen-behoorlijk-bestuur]
+    - concepten: [fiscale-sancties, geheime-commissielonen]
+    - concepten: [aanslagtermijnen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Bericht van wijziging"
+    ref: "WIB92 art. 346"
+    noot: "1 maand antwoordtermijn vanaf 3e werkdag na verzending; verlengbaar op gemotiveerd verzoek."
+  - onderwerp: "Ambtshalve aanslag"
+    ref: "WIB92 art. 351"
+    noot: "Bij geen aangifte, geen of laat antwoord op vraag om inlichtingen of BvW, of verhindering onderzoek."
+  - onderwerp: "Omkering bewijslast bij ambtshalve aanslag"
+    ref: "WIB92 art. 352"
+    noot: "In bezwaar moet belastingplichtige bewijzen dat aanslag onjuist is."
+  - onderwerp: "Vestiging van de aanslag — kohier"
+    ref: "WIB92 art. 297-298 + 359"
+  - onderwerp: "BvW-verlenging 6 maanden bij nakende verjaring"
+    ref: "WIB92 art. 354 §1 lid 4 in fine"
+    noot: "BvW verzonden in laatste 6 mnd van aanslagtermijn verlengt termijn automatisch met 6 mnd vanaf antwoord cliënt of vervaldag."
+  - onderwerp: "Belastingverhoging"
+    ref: "WIB92 art. 444 + KB 27.8.1993 (schaal 10-200%)"
+    noot: "Tarieven via Cijferzakboekje opvragen."
+  - onderwerp: "Boete fiscale overtredingen"
+    ref: "WIB92 art. 445"
+  - onderwerp: "Bijzondere aanslag geheime commissielonen (cross-PO)"
+    ref: "WIB92 art. 219"
+    noot: "100% (of 50% indien begunstigde identificeerbaar). Uitgewerkt in [[2.3]]."
+  - onderwerp: "Motiveringsplicht bestuurshandelingen"
+    ref: "Wet 29.7.1991"
+    noot: "Ongemotiveerde of gebrekkig gemotiveerde BvW = nietig."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — motivering BvW"
+    inhoud: "Vaste rechtspraak: een BvW moet de feitelijke EN juridische redenen vermelden waarop de voorgenomen rechtzetting steunt. 'Art. 49 WIB niet vervuld' zonder concrete feitelijke uitwerking volstaat niet — Wet 29.7.1991 vereist dat de belastingplichtige de redenering kan verifiëren."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; specifieke arrest-nummers worden in samenvatting aangevuld."
+  - onderwerp: "Grondwettelijk Hof + Cassatie — redelijkheid belastingverhoging"
+    inhoud: "Belastingverhogingen zijn ADMINISTRATIEVE SANCTIES — de rechter mag de proportionaliteit toetsen aan het redelijkheidsbeginsel en kan ze verminderen wanneer ze niet in verhouding staan tot de overtreding."
+    confidence: "⚠️ te verifiëren — concrete arrest-nummers nog open."
+
+footer: "Leerstuk PO 2.5. Status: voorgesteld — POC volgens ADR-037."

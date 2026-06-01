@@ -1,7 +1,7 @@
 ---
 title: 2.5 Voorbeeldexamenvragen Fiscale procedure
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.5 (Fiscale procedure).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "8. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-2-5]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

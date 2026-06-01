@@ -1,0 +1,284 @@
+# Leerstuk-script — Bezwaar, bemiddeling en gerechtelijke fase
+#
+# PO 2.5 leerstuk 4 (geschilroute-fiche). Drie chronologische schakels in
+# één keuzeboom: bezwaar bij adviseur-generaal (art. 366+371 WIB) →
+# eventueel FBD-bemiddeling (Wet 25.4.2007, schorst beroepstermijn) →
+# rechtbank van eerste aanleg fiscale kamer (Ger.W. art. 1385undecies) →
+# hof van beroep → cassatie. Bouwt op leerstuk 3 (BvW + aanslagvestiging
+# is voorwaarde) en sluit aan op leerstuk 5 (bezwaar ≠ verzet).
+#
+# Hand-off: dit leerstuk eindigt waar het invorderingsspoor uitzicht
+# behoeft — bezwaar schorst invordering NIET; daarom in [[invordering-
+# en-verzet-tegen-dwangbevel]] de parallelle dwangbevel-route.
+
+meta:
+  slug: bezwaar-bemiddeling-en-gerechtelijke-fase
+  titel: "Bezwaar, bemiddeling en gerechtelijke fase — de geschilroute"
+  po: "2.5"
+  cluster: fiscaliteit
+  voorbeeldgroep: de-vlieg-partners
+  beschrijving: >
+    Leerstuk PO 2.5 — geschilroute-fiche. Hoe een gevestigde aanslag
+    betwisten? Drie chronologische schakels: bezwaar bij adviseur-generaal
+    (art. 366 + 371 WIB — 1 jaar termijn, NIET 6 maanden) · fiscale
+    bemiddelingsdienst (Wet 25.4.2007 — schorst beroepstermijn naar
+    rechter) · gerechtelijke fase (Ger.W. art. 1385undecies — fictieve
+    afwijzing na 6 maanden stilzwijgen). Reformatio in pejus is verboden
+    (art. 375 WIB). Belangrijk: bezwaar ≠ verzet — dat onderscheid is de
+    brug naar leerstuk 5.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 2.5-overzicht.
+    Wijs erop dat dit leerstuk EXPLICIET de FEDERALE bezwaarroute uitwerkt;
+    gewest-eigenheden (Vlabel 3 mnd · Brussels 186 dgn · Waals 6 mnd · btw
+    3 mnd) komen kort aan bod met doorklik naar [[2.7]] en [[2.4]].
+    Belangrijk onderscheid: bezwaar ≠ verzet — bezwaar is administratief
+    tegen de aanslag, verzet is gerechtelijk tegen het dwangbevel.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: federale bezwaar = drie chronologische schakels — (1) BEZWAAR bij ADVISEUR-GENERAAL binnen 1 JAAR vanaf 3e werkdag na verzending aanslagbiljet (art. 366 + 371 WIB) · (2) eventueel FISCALE BEMIDDELING (Wet 25.4.2007) parallel met bezwaar — schorst de beroepstermijn naar de rechtbank · (3) na directeursbeslissing (of bij stilzwijgen 6 maanden = fictieve afwijzing): RECHTBANK VAN EERSTE AANLEG fiscale kamer binnen 3 MAANDEN (Ger.W. art. 1385undecies)."
+    - "Drie technische valkuilen — examen-favorieten: (a) termijn = 1 JAAR niet 6 maanden, en start op 3e WERKDAG NA VERZENDING niet op datum biljet of ontvangst; (b) REFORMATIO IN PEJUS verboden (art. 375 WIB) — de directeur mag de aanslag NIET verhogen op bezwaar, alleen handhaven, verminderen of vernietigen; (c) bezwaar SCHORST INVORDERING NIET (art. 410) — onbetwist deel blijft opeisbaar, ontvanger kan bewarend beslag laten leggen."
+    - "Gewest- + btw-eigenheden anders dan federaal — kort: Vlabel = 3 maanden (VCF art. 3.5.2.0.1) · Brussels = 186 dagen (Brusselse Codex Fiscale Procedure art. 100) · Waals = 6 maanden (Décret 6.5.1999 art. 25) · btw = 3 maanden. Voor uitwerking zie [[2.7]] en [[2.4]]."
+  visualisaties:
+    - type: mermaid
+      ref: bezwaar_cascade
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'Eerst de termijn-en-vorm-regels van het bezwaar, dan de FBD-tussenkomst, dan de rechtbank-cascade. Aan het einde: bezwaar ≠ verzet — brug naar leerstuk 5.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: termijn-1-jaar
+    titel: "De bezwaartermijn — 1 jaar vanaf 3e werkdag na verzending"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: hoeveel tijd heeft de cliënt om bezwaar in te dienen, en wanneer start de klok?"
+      - "TERMIJN = 1 JAAR (art. 371 WIB). Niet 6 maanden — dat was vóór wetshervorming en leeft nog in oude (verouderde) concept-records en cursus-materiaal. Wie nog 6 maanden hanteert, levert de cliënt 6 maanden bezwaarrecht in."
+      - "START = 3e WERKDAG NA VERZENDING van het aanslagbiljet. Niet de datum bovenaan het biljet, niet de datum van ontvangst, niet de eerste werkdag na verzending. Drie WERKDAGEN — weekenden en feestdagen overslaan."
+      - "Concretiseer met De Vlieg E6-E7 (uit voorbeeldgroep): aanslagbiljet verzonden op dinsdag 8 juli 2025. Werkdagen: woensdag 9 · donderdag 10 · vrijdag 11. Klok start dus op vrijdag 11 juli 2025. Uiterste bezwaardatum = 11 juli 2026. Bezwaar ingediend op 9 september 2025 → ruim binnen termijn."
+      - "Vorm-vereisten: SCHRIFTELIJK · GEMOTIVEERD · ONDERTEKEND (door belastingplichtige of door lasthebber met volmacht) · gericht aan de ADVISEUR-GENERAAL van de Algemene Administratie van de Fiscaliteit (ex-gewestelijk directeur). Liefst aangetekend — datum poststempel geldt als indieningsdatum."
+      - "Belangrijke nuance (blockquote-aside): wat als de cliënt OP DE LAATSTE DAG ontdekt dat hij bezwaar wil maken? Een aangetekende brief op de uiterste dag is in beginsel tijdig (datum poststempel telt). Voor zekerheid in spoedeisende gevallen: schriftelijk via e-mail naar het officieel adres + later bevestigd met aangetekend. Vorm-vereisten zijn relatief soepel; termijn is hard."
+
+  - id: bezwaar-uitgewerkt
+    titel: "Bezwaar bij de adviseur-generaal — vorm + behandeling"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het bezwaar bij adviseur-generaal (ex-gewestelijk directeur) is een ADMINISTRATIEF beroep — geen rechter, maar een hogere ambtenaar van dezelfde administratie die de aanslag opnieuw bekijkt."
+    kinderen:
+
+      - id: wie-kan-indienen
+        titel: "Wie kan indienen + wie kan ondertekenen?"
+        niveau: 3
+        beats:
+          - "Open met de praktische vraag — klassieker uit voorbeeldexamens 2013-2 en 2014-1."
+          - "De belastingplichtige zelf — natuurlijke persoon ondertekent persoonlijk; vennootschap ondertekent via wettelijk vertegenwoordiger (zaakvoerder, bestuurder)."
+          - "Een lasthebber met EXPLICIETE VOLMACHT — typisch de accountant. Volmacht hoeft niet bij elke bezwaar opnieuw — een doorlopende lastgevingsovereenkomst tussen cliënt + accountant volstaat."
+          - "Een advocaat — vanzelfsprekend bevoegd zonder aparte volmacht (algemene mandaten-regeling)."
+          - "Aandachtspunt: een vennootschap met meerdere zaakvoerders — wie ondertekent? In beginsel ELKE bestuurder/zaakvoerder met vertegenwoordigingsbevoegdheid volgens de statuten. Twijfel? Bij twee zaakvoerders met collegiale werking: beide laten tekenen, of een uitdrukkelijke volmacht voor één."
+
+      - id: inhoud-bezwaarschrift
+        titel: "Inhoud — wat moet erin staan?"
+        niveau: 3
+        beats:
+          - "Open met de scherpe stelling: een bezwaarschrift is geen formulier maar een ARGUMENTATIEF document — het moet de adviseur-generaal overtuigen op feit + recht."
+          - "Verplichte elementen: identificatie cliënt + aanslagjaar + aanslagnummer · datum aanslagbiljet · GRIEVEN (wat wordt betwist) · MOTIVERING (waarom) · CONCLUSIES (wat wordt gevraagd — vernietiging, vermindering tot bedrag X, subsidiair vermindering belastingverhoging) · ondertekening."
+          - "Strategische tips: drie blokken redeneren — FEIT (welke feiten betwist je?) · RECHT (welke wetstoepassing is fout?) · SUBSIDIAIR (als alles vooraf overeind blijft, betwist dan minstens de belastingverhoging op redelijkheid)."
+          - "Verzoek om HOORZITTING expliciet vermelden — adviseur-generaal kan dit toestaan en biedt de cliënt + accountant gelegenheid mondeling te argumenteren. Niet automatisch maar vaak gewillig toegekend in complexere dossiers."
+          - "Concretiseer met De Vlieg E7 (uit voorbeeldgroep): accountant dient bezwaarschrift in namens cliënt op 9.9.2025 — gemotiveerd, met argumenten over marktconformiteit + verbondenheid + subsidiair vermindering belastingverhoging naar 10%. Verzoekt hoorrecht."
+
+      - id: bezwaar-niet-invordering
+        titel: "Bezwaar schorst de invordering NIET"
+        niveau: 3
+        beats:
+          - "Open met de scherpe waarschuwing — examen-klassieker."
+          - "Art. 410 WIB: bezwaar schorst de invordering NIET. Het ONBETWIST verschuldigd deel blijft opeisbaar. Zelfs voor het betwist deel kan de ontvanger BEWAREND BESLAG laten leggen ter vrijwaring."
+          - "Praktische gevolgtrekking: bij elk bezwaar drie sporen tegelijk — (a) inhoudelijk bezwaar bij adviseur-generaal; (b) verzoek tot OPSCHORTING INVORDERING (kan toegestaan worden — discretionair); (c) tijdig BETALEN van het onbetwist deel om beslag te vermijden."
+          - "Concretiseer met De Vlieg E9: parallel met het bezwaar legt de ontvanger op 10.10.2025 bewarend beslag op de zichtrekening BV — voor het onbetwist verschuldigd deel (belastingverhoging + gemeente-opcentiemen). Cliënt verrast want 'ik heb toch bezwaar?' — fout reflex."
+          - "Doorklik: invordering wordt verder uitgewerkt in [[invordering-en-verzet-tegen-dwangbevel]]."
+
+      - id: reformatio-in-pejus
+        titel: "Reformatio in pejus verboden — de directeur mag niet verhogen"
+        niveau: 3
+        beats:
+          - "Open met de pedagogische lijn: een bezwaar is een ASYMMETRISCH rechtsmiddel — de adviseur-generaal mag de aanslag vernietigen, verminderen of handhaven, maar NIET VERHOGEN. Dit heet 'reformatio in pejus verboden' en is geregeld in art. 375 WIB."
+          - "Waarom belangrijk? Het verlaagt de DREMPEL voor bezwaar — de cliënt riskeert niet dat hij na bezwaar slechter af is dan vóór. Dat verschilt van bepaalde andere administratieve beroepen (bv. sociale zekerheid)."
+          - "Belangrijke nuance: de fiscus mag wel een NIEUWE aanslag vestigen voor andere periodes of andere grieven, en kan in lopende gerechtelijke fase nog tegenvorderingen instellen. Het verbod geldt strikt het VOORWERP van het bezwaar — de aanslag waartegen bezwaar werd ingediend kan niet hoger worden."
+          - "Strategisch advies: bezwaar is daarom een LAAG-RISICO beweging — de cliënt verliest hooguit zijn moeite. Voor advisering: 'als er twijfel is over de juistheid, bezwaar indienen — slechter dan vandaag kan het op dat bezwaar niet worden'."
+
+      - id: beslistermijn-directeur
+        titel: "Beslistermijn van de adviseur-generaal"
+        niveau: 3
+        beats:
+          - "Open met de eigenaardigheid: er is GEEN dwingende termijn voor de adviseur-generaal om te beslissen op een bezwaar. Maar de cliënt heeft een uitweg."
+          - "Na 6 MAANDEN ZONDER BESLISSING (of 9 maanden bij ambtshalve aanslag) mag de belastingplichtige RECHTSTREEKS naar de rechtbank — dit heet 'FICTIEVE AFWIJZING' (Ger.W. art. 1385undecies)."
+          - "Praktijk: cliënt + accountant bekijken na 5 maanden of er beweging is. Bij stilzwijgen wordt vaak nog 1-2 maanden gewacht voor inhoudelijke pogingen, daarna pas overgang naar rechtbank. Soms is een schriftelijk rappel + dreiging met fictieve afwijzing voldoende om de directeursbeslissing te activeren."
+          - "Concretiseer met De Vlieg E10 (uit voorbeeldgroep): bezwaar ingediend op 9.9.2025 → fictieve afwijzing mogelijk vanaf 9.3.2026. Bij echte directeursbeslissing (gunstig, ongunstig of gedeeltelijk gunstig) start de termijn van 3 maanden naar de rechtbank vanaf KENNISGEVING van de beslissing."
+
+  - id: fiscale-bemiddelingsdienst
+    titel: "De Fiscale Bemiddelingsdienst (FBD) — parallel spoor"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de FBD is een NEUTRALE TUSSENPERSOON binnen de FOD Financiën — niet de inspecteur, niet de adviseur-generaal, maar een derde die probeert tot een redelijk akkoord te komen. Opgericht door Wet 25.4.2007."
+      - "Wanneer aanvragen? Tijdens een lopend bezwaar (parallel) of bij een geschil over de invordering. NIET vóór er een bezwaar is — geen 'pre-bezwaar' rol."
+      - "BELANGRIJKSTE MECHANIEK: een FBD-aanvraag SCHORST DE TERMIJN voor beroep naar de rechtbank (Ger.W. art. 1385undecies — schorsing tot afsluiting bemiddeling). Dat geeft de cliënt extra tijd om tot een akkoord te komen zonder dat de rechtbankweg verstrijkt."
+      - "Wat kan een FBD-traject opleveren? Een akkoord dat de adviseur-generaal in zijn beslissing overneemt — bv. vermindering belastingverhoging, overeenkomst over kwalificatie kostenpost, gedeeltelijke vermindering van de basisrechtzetting. Geen bindende uitspraak — bemiddelaar 'adviseert' maar de directeur beslist."
+      - "Sinds 2019: ook voor INVORDERINGSGESCHILLEN — niet alleen taxatie. Bv. cliënt vraagt afbetalingsplan + opschorting beslag."
+      - "Concretiseer met De Vlieg E8 (uit voorbeeldgroep): op 15.11.2025 — parallel aan het bezwaar — vraagt cliënt fiscale bemiddeling aan, vooral over de hoogte van de belastingverhoging waar ruimte voor compromis lijkt. Schorst de eventuele beroepstermijn naar rechtbank zolang FBD werkt."
+      - "Belangrijke nuance (blockquote-aside): FBD is GEEN volwaardig alternatief voor bezwaar — eerder een AANVULLING. De adviseur-generaal blijft de juridische beslisser; de FBD probeert het gesprek vlot te krijgen. Strategisch: aanvragen wanneer er ruimte voor compromis lijkt, niet wanneer de positie gepolariseerd is."
+
+  - id: gerechtelijke-fase
+    titel: "De gerechtelijke fase — rechtbank, hof, cassatie"
+    niveau: 2
+    beats:
+      - "Open met de positionering: na de bezwaarbeslissing (of bij fictieve afwijzing 6 maanden) opent de WEG NAAR DE RECHTER. Bezwaar is een TOEGANGSVOORWAARDE — geen bezwaar = geen rechtbank, met enkele uitzonderingen."
+    kinderen:
+
+      - id: rechtbank-eerste-aanleg
+        titel: "Rechtbank van eerste aanleg — fiscale kamer"
+        niveau: 3
+        beats:
+          - "Bevoegdheid: art. 569 16° Ger.W. — rechtbank van eerste aanleg, fiscale kamer (typisch geconcentreerd in 1-2 zetels per arrondissement)."
+          - "Termijn: 3 MAANDEN vanaf KENNISGEVING van de directeursbeslissing (Ger.W. art. 1385undecies). Bij FICTIEVE AFWIJZING (stilzwijgen 6 maanden): cliënt kan vanaf maand 7 rechtstreeks naar rechtbank, geen aparte 3-maandsklok meer."
+          - "Vorm: door advocaat — voor de rechter is rechtsbijstand verplicht in fiscale procedure. De accountant blijft betrokken voor inhoudelijke voorbereiding."
+          - "Wat oordeelt de rechter? VOLLE jurisdictie over feit + recht — geen marginale controle zoals bij sommige administratieve rechters. De rechter kan de aanslag vernietigen, verminderen of handhaven. REFORMATIO IN PEJUS is ook hier niet toegelaten (gelijk standaard rechtsprincipe)."
+          - "Concretiseer met De Vlieg E11: na hypothetische afwijzing directeur → vordering bij rechtbank van eerste aanleg Antwerpen, fiscale kamer, binnen 3 maanden."
+
+      - id: hoger-beroep-cassatie
+        titel: "Hoger beroep + cassatie"
+        niveau: 3
+        beats:
+          - "Open met de cascade: vonnis rechtbank → eventueel HOGER BEROEP bij hof van beroep, fiscale kamer."
+          - "Termijn hoger beroep: 1 MAAND vanaf BETEKENING van het vonnis (gewone Ger.W.-termijn). De andere partij (de fiscus) heeft eenzelfde termijn voor incidenteel beroep."
+          - "Hof van beroep oordeelt opnieuw over FEIT + RECHT (volle jurisdictie). Vaak voorgehouden door specialisaties — fiscale kamers binnen het hof."
+          - "Daarna: HOF VAN CASSATIE — termijn 3 MAANDEN vanaf betekening arrest hof van beroep. Cassatie oordeelt ENKEL over RECHTSVRAGEN, niet over feiten. Klassieke gronden: schending wetsartikel, schending motiveringsplicht, schending procedure-regels."
+          - "Praktische tip voor de accountant: cassatie is voor STRUCTURELE rechtsvragen — niet voor een hertoetsing van feiten. Voor 'gewone' rechtzettingen volstaat de rechtbank + eventueel hof van beroep. Cassatie wordt overwogen wanneer een principekwestie zich stelt (bv. interpretatie nieuwe wet)."
+
+  - id: gewest-en-btw-eigenheden-kort
+    titel: "Andere routes — gewest en btw kort"
+    niveau: 2
+    beats:
+      - "Open met de waarschuwing: alles wat hierboven staat geldt voor FEDERALE directe belastingen (PB · VenB · RPB · BNI). Andere belastingen volgen ANDERE routes."
+      - "VLAAMSE GEWESTBELASTINGEN (OV · verkeer · BIV · erf · registratie · leegstand · planbaten): bezwaar bij VLABEL binnen 3 MAANDEN vanaf 3e werkdag na verzending aanslagbiljet (VCF art. 3.5.2.0.1). Niet 1 jaar — KORTER dan federaal."
+      - "BRUSSELSE GEWESTBELASTINGEN: bezwaar bij Bruxelles Fiscalité binnen 186 DAGEN vanaf 7e dag na verzending (Brusselse Codex Fiscale Procedure art. 100). Atypisch lang — verschilt op start-dag én op duur."
+      - "WAALSE GEWESTBELASTINGEN: bezwaar bij SPW Fiscalité binnen 6 MAANDEN vanaf datum uitwerking kennisgeving (Décret 6.5.1999 art. 25 + 25bis)."
+      - "BTW: bezwaar binnen 3 MAANDEN vanaf 3e werkdag na verzending dwangbevel of taxatieve handeling (afwijkende mechaniek WBTW)."
+      - "GEMEENTEN + PROVINCIES: bezwaar bij College B&S of Bestendige Deputatie binnen 3 maanden (Wet 24.12.1996 art. 9)."
+      - "Doorklik: gewestelijke + lokale routes worden uitgewerkt in [[2.7]] (Vlabel · Brussels · Waals · gemeente); btw-eigenheden in [[2.4]]."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Belasting", "Bezwaarinstantie", "Termijn", "Wetbron"]
+        rijen:
+          - ["**Federaal** (PB · VenB · RPB · BNI)", "Adviseur-generaal AAFisc", "**1 jaar** vanaf 3e werkdag na verzending", "WIB92 art. 366 + 371"]
+          - ["**Vlaams** (OV · verkeer · BIV · erf · registratie)", "Vlabel", "3 maanden vanaf 3e werkdag", "VCF art. 3.5.2.0.1"]
+          - ["**Brussels** (gewestbelasting)", "Bruxelles Fiscalité", "186 dagen vanaf 7e dag na verzending", "Brusselse Codex Fiscale Procedure art. 100"]
+          - ["**Waals** (gewestbelasting)", "SPW Fiscalité", "6 maanden vanaf uitwerking kennisgeving", "Décret 6.5.1999 art. 25"]
+          - ["**Btw** (federaal)", "Adviseur-generaal AAFisc btw", "3 maanden", "Cross-PO [[2.4]]"]
+          - ["**Gemeente · provincie**", "College B&S · Bestendige Deputatie", "3 maanden vanaf 3e werkdag", "Wet 24.12.1996 art. 9 · cross-PO [[2.7]]"]
+
+  - id: beginselen-haakje-reformatio
+    titel: "Beginselen-haakje — reformatio in pejus + motivering directeursbeslissing"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: twee beginselen behoorlijk bestuur leven concreet in dit leerstuk."
+      - "Haakje 1 — REFORMATIO IN PEJUS verboden (art. 375 WIB): operationalisering van REDELIJKHEID + RECHTSZEKERHEID. De cliënt moet kunnen vertrouwen dat het indienen van een rechtsmiddel hem niet slechter af maakt — anders zou bezwaar afgeschrikt worden."
+      - "Haakje 2 — MOTIVERINGSPLICHT bij directeursbeslissing (Wet 29.7.1991): de adviseur-generaal moet zijn beslissing FEITELIJK + JURIDISCH motiveren. Een afwijzing met enkel 'bezwaar ongegrond' = niet voldoende — moet de argumenten van de cliënt adresseren."
+      - "Cross-PO doorklik: [[2.1]] voor de algemene rechtsbeginselen; deze twee haakjes zijn de operationele uitwerking binnen de bezwaarfase."
+
+  - id: bezwaar-niet-verzet
+    titel: "Brug naar leerstuk 5 — bezwaar ≠ verzet"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: bezwaar EN verzet zijn beide rechtsmiddelen — maar ze hebben verschillende functies, verschillende organen, verschillende termijnen en verschillende effecten."
+      - "BEZWAAR — administratief beroep TEGEN DE AANSLAG · bij ADVISEUR-GENERAAL · termijn 1 jaar · resultaat = aanslag wordt verminderd of vernietigd. Behandeld in dit leerstuk."
+      - "VERZET — gerechtelijk verweer TEGEN DE TENUITVOERLEGGING · bij BESLAGRECHTER · termijn typisch 1 maand vanaf betekening dwangbevel · resultaat = beslag wordt vernietigd of opgeschort. Behandeld in [[invordering-en-verzet-tegen-dwangbevel]]."
+      - "Klassieker uit voorbeeldexamen 2015-1 vr44: cliënt krijgt dwangbevel — kan hij 'bezwaar' indienen? Antwoord = nee, dat is administratief en gaat over de aanslag. Voor dwangbevel: VERZET via vordering in rechte bij beslagrechter."
+      - "Strategisch: een aanslag betwisten via bezwaar + parallel een dwangbevel betwisten via verzet = twee tegelijk lopende procedures op verschillende gronden. Niet zelden in praktijk wanneer cliënt zowel inhoudelijk als procedureel betwist."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 6 maanden bezwaartermijn hanteren in plaats van 1 JAAR. FOUT — art. 371 WIB zegt expliciet 1 jaar. De foutieve '6 maanden' leeft in oude cursus-materiaal en zelfs in een stale concept-record. Wie 6 maanden hanteert, levert de cliënt een half jaar bezwaarrecht in zonder reden."
+      - "Valkuil 2 (⚠️): start-datum verwarren. FOUT — niet de datum bovenaan het biljet, niet de datum van ontvangst — maar de 3e WERKDAG NA VERZENDING. Voor een biljet verzonden op vrijdag 7 augustus: werkdagen 1=maandag 10, 2=dinsdag 11, 3=woensdag 12 → klok start op woensdag. Examen-favoriet in MCQ-vorm."
+      - "Valkuil 3 (⚠️): denken dat bezwaar invordering schorst. FOUT — art. 410 WIB. Onbetwist deel blijft opeisbaar; ontvanger kan bewarend beslag laten leggen. Cliënt die alleen aan bezwaar denkt en niet aan invordering ziet zijn rekening geblokkeerd. Drie sporen meedenken: bezwaar inhoudelijk · verzoek opschorting invordering · tijdig betalen onbetwist deel."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: invordering-en-verzet-tegen-dwangbevel
+      hint: "Wat parallel met bezwaar loopt — dwangbevel + bewarend beslag + verzet bij beslagrechter."
+    - slug: taxatie-bericht-van-wijziging-en-ambtshalve-aanslag
+      hint: "Wat VOORAF ging — BvW + aanslagvestiging, voorwaarde voor bezwaar."
+    - slug: controle-onderzoek-en-bewijs
+      hint: "Voor de bewijslast-context — vooral bij ambtshalve aanslag (omkering) in bezwaar."
+    - slug: wat-is-fiscale-procedure-en-aanslagcyclus
+      hint: "Voor het kader — drie fases timeline."
+  samenvatting:
+    hint: "Voor herhaling — bezwaar-cascade + termijntabel + reformatio in pejus + FBD-schorsing."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken (let op: concept-record bezwaarprocedure bevat een verouderde '6 maanden'-claim — de wettekst art. 371 WIB zegt 1 jaar):"
+  groepen:
+    - concepten: [bezwaarprocedure, fiscale-bemiddelingsprocedure, gerechtelijke-fase-belasting]
+    - concepten: [beginselen-behoorlijk-bestuur, fiscale-actoren]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Bezwaar — bij wie + vorm"
+    ref: "WIB92 art. 366"
+    noot: "Schriftelijk, gemotiveerd, ondertekend, bij adviseur-generaal AAFisc."
+  - onderwerp: "Bezwaartermijn directe belastingen"
+    ref: "WIB92 art. 371"
+    noot: "**1 jaar** vanaf 3e werkdag na verzending aanslagbiljet. NIET 6 maanden."
+  - onderwerp: "Reformatio in pejus verboden"
+    ref: "WIB92 art. 375"
+    noot: "Adviseur-generaal mag aanslag niet verhogen op bezwaar — alleen handhaven, verminderen of vernietigen."
+  - onderwerp: "Ambtshalve ontheffing (cross-fase rechtsmiddel)"
+    ref: "WIB92 art. 376"
+    noot: "5 jaar — voor materiële vergissingen + dubbele belasting; geen verkorting tot bezwaartermijn."
+  - onderwerp: "Invordering — bezwaar schorst niet"
+    ref: "WIB92 art. 410"
+    noot: "Onbetwist deel opeisbaar; bewarend beslag mogelijk."
+  - onderwerp: "Gerechtelijke fase — rechtbank fiscale kamer"
+    ref: "Ger.W. art. 569 16° (bevoegdheid) + art. 1385undecies (termijn + fictieve afwijzing)"
+    noot: "3 maanden vanaf kennisgeving directeursbeslissing; fictieve afwijzing na 6 maanden stilzwijgen."
+  - onderwerp: "Fiscale Bemiddelingsdienst"
+    ref: "Wet 25.4.2007 betreffende de fiscale bemiddelingsdienst"
+    noot: "Aanvraag schorst de termijn voor beroep naar rechtbank tot afsluiting bemiddeling. Sinds 2019 ook bevoegd voor invorderingsgeschillen."
+  - onderwerp: "Motiveringsplicht directeursbeslissing"
+    ref: "Wet 29.7.1991"
+  - onderwerp: "Gewest-bezwaartermijnen (cross-PO doorklik [[2.7]])"
+    ref: "VCF art. 3.5.2.0.1 (Vl 3 mnd) · Brusselse Codex Fiscale Procedure art. 100 (Br 186 dagen) · Décret 6.5.1999 art. 25 (W 6 mnd)"
+  - onderwerp: "Lokale bezwaarprocedure (cross-PO doorklik [[2.7]])"
+    ref: "Wet 24.12.1996 art. 9 (gemeente + provincie, 3 maanden)"
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — start bezwaartermijn op 3e werkdag na verzending"
+    inhoud: "Vaste rechtspraak: de bezwaartermijn van art. 371 WIB start op de 3e werkdag na verzending van het aanslagbiljet — niet op de datum vermeld op het biljet, niet op de datum van ontvangst. Beschermingsregel ten gunste van de belastingplichtige; bij vormgebrek (geen of foute vermelding bezwaarinstantie/termijn) start de termijn helemaal niet."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; specifieke arrest-nummers nog open."
+  - onderwerp: "Cassatie — reformatio in pejus"
+    inhoud: "Vaste rechtspraak: de adviseur-generaal mag de aanslag op bezwaar niet verhogen; ook de rechter in eerste aanleg of beroep is in fiscale procedure gehouden aan dit principe (art. 375 WIB + algemeen rechtsbeginsel)."
+    confidence: "⚠️ te verifiëren — concrete arrest-nummers nog open."
+
+footer: "Leerstuk PO 2.5. Status: voorgesteld — POC volgens ADR-037."
