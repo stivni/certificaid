@@ -1,7 +1,7 @@
 ---
 title: 2.6 Voorbeeldexamenvragen Registratie- en successierechten
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 2.6 (Registratie- en successierechten).
-explorer_title: "7. Voorbeeldexamenvragen"
+explorer_title: "8. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-2-6]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

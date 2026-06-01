@@ -79,6 +79,12 @@ Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting**
 
 → [[studiemateriaal/2-6/samenvatting|Samenvatting PO 2.6 — Registratie- en successierechten]] (2-4 A4, printbaar)
 
+### Actief testen — oefening
+
+Het examen zal nooit een volledige estate-planning-case in één keer toetsen — wel fragmenten die je alleen scherp herkent als je het hele pad één keer hebt afgelegd. Voor wie de leerstukken doorgenomen heeft, is er een doorgewerkte mini-case op familie Verdonck-Beysens: huwelijksstelsel ontrafelen, drie registratie-verrichtingen, aangifte van nalatenschap simuleren, tarief erfbelasting toepassen, planning-advies formuleren.
+
+→ [[studiemateriaal/2-6/oefening|Oefening: Familie Verdonck-Beysens — vermogensplanning en aangifte van nalatenschap]] (75 min)
+
 ---
 
 ## 4. Examen-radar — wat is in de praktijk al bevraagd?

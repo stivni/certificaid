@@ -1,0 +1,401 @@
+---
+title: "Oefening: Familie Verdonck-Beysens — vermogensplanning en aangifte van nalatenschap"
+description: "Doorgewerkte mini-case PO 2.6. Vlaams gezin met scheiding van goederen en gemengd vermogen verspreid over twee gewesten + familiebedrijf. Student loopt zelf het volledige pad: civielrechtelijke kaart, drie registratie-verrichtingen, aangifte van nalatenschap, tarief erfbelasting, planning-advies."
+explorer_title: "7. Oefening"
+tags:
+  - oefening
+  - po-2.6
+  - cluster-registratie-en-successierechten
+  - studietijd-75min
+---
+
+<div class="no-print">
+
+> **Oefening — doe eerst zelf, controleer dan.** Dit is een doorgewerkt familieadvies, geen toetsing op losse fragmenten. Werk elke stap eerst zelf uit met pen en papier; klap de uitwerking pas open als je vastloopt of je antwoord wil controleren. Het examen toetst zelden de volle case — wel sub-vragen op één familie-feitenkader (60-75 % van de 2.6-examenvragen heeft 3-5 deelvragen op één casus). Het volledige pad één keer doorlopen bouwt het mentale frame dat die fragment-vragen vereisen. Reken op 75 minuten als je het écht doet. Voor verhaal en routekaart: [[studiemateriaal/2-6|overzicht PO 2.6]].
+
+</div>
+
+## Opgave
+
+**Familie Verdonck-Beysens** komt eind april 2026 bij je langs voor een totaaloverzicht van hun vermogenssituatie. Geert Verdonck (58, gedelegeerd bestuurder eigen tuinaanlegbedrijf) en Anneke Beysens (56, deeltijds zaakvoerder van een kleine interieurzaak in eigen naam) wonen in Leuven en zijn gehuwd sinds **1995 onder het stelsel van scheiding van goederen** (notarieel huwelijkscontract).
+
+**Drie kinderen**: Lukas (28, gehuwd met Sarah, één pasgeboren kleinkind), Marieke (26, alleenstaand, kandidaat-koper van een appartement in Brussel), Wouter (23, student rechten, woont thuis). Alle drie wettige afstammelingen.
+
+Geert kreeg recent een ernstige cardiale waarschuwing — vandaar de adviesaanvraag. Hij wil weten "hoe het er bij overlijden voor staat", maar er liggen ook drie concrete vastgoed-verrichtingen op tafel die spoedig moeten beslist worden. Anneke wil daarnaast haar geërfde appartement in Namen opheffen (zit in onverdeeldheid met haar broer Pierre).
+
+Werkwijze: lees eerst alle opgave-data hieronder. Werk dan de stappen één voor één uit. Open pas de uitwerking nadat je je eigen antwoord hebt opgeschreven. Plan op 75 min — stap 1 is civielrechtelijk kader (kan sneller als huwelijksstelsels paraat zitten); stap 3 + 4 zijn het zwaarste rekenwerk.
+
+### Familieleden en relaties
+
+| Persoon | Leeftijd / status | Woonplaats | Rol |
+|:---|:---|:---|:---|
+| Geert Verdonck | 58 | Leuven (Vlaams gewest), sinds 1996 | Vader · gedelegeerd bestuurder Verdonck Tuinaanleg BV |
+| Anneke Beysens | 56 | Leuven (Vlaams gewest), sinds 1996 | Moeder · zaakvoerder Interieur Beysens (eenmanszaak) |
+| Huwelijk Geert ↔ Anneke | Gehuwd 1995 | Notarieel huwelijkscontract, voor het huwelijk verleden bij notaris De Vos, Leuven | Stelsel scheiding van goederen — geen wijzigingsakte sindsdien |
+| Lukas Verdonck | 28 | Aarschot — gehuwd met Sarah Vermeulen (wettelijk stelsel), één kind | Zoon — werkt bij Verdonck Tuinaanleg sinds 2022 (loondienst) |
+| Marieke Verdonck | 26 | Brussel (kotwoner — wil eigen woning kopen) | Dochter — junior advocate balie Brussel, alleenstaand |
+| Wouter Verdonck | 23 | Leuven (woont bij ouders) | Zoon — student rechten, geen inkomen |
+| Pierre Beysens | 53 | Namen (Waals gewest) | Broer Anneke — mede-eigenaar appartement Namen (onverdeeldheid met Anneke sinds erfenis tante 2015) |
+
+### Vermogensinventaris op referentie-datum 30-04-2026 (in EUR)
+
+Onderstaande tabel toont per goed de **feiten** (titularis, verkrijgings-wijze, verkrijgings-jaar). Het is aan jou om in stap 1 de civielrechtelijke kwalificatie te maken (eigen Geert / eigen Anneke / onverdeeldheid).
+
+| Goed | Titularis-vermelding op akte | Verkrijgings-wijze + jaar | Huidige waarde |
+|:---|:---|:---|---:|
+| Gezinswoning Leuven (Tiensestraat) | Geert + Anneke (elk 1/2) | Gezamenlijke aankoop 2002 — betaald uit beider arbeidsinkomsten | 420.000 |
+| Beleggingsportefeuille A — Argenta | Rekening op naam Geert alleen | Opgebouwd 2005-2025 uit Geerts arbeidsinkomsten + dividenden Verdonck Tuinaanleg | 120.000 |
+| Beleggingsportefeuille B — KBC | Rekening op naam Anneke alleen | Opgebouwd 2010-2025 uit Anneke's beroepsinkomsten Interieur Beysens | 80.000 |
+| Verdonck Tuinaanleg BV (aandelen) | Geert 80 % · Bart Cools (externe partner) 20 % | Oprichting 2003 door Geert (kapitaal €18.600 ingebracht uit Geerts spaargeld) + kapitaalverhoging 2010 door Bart (externe instap) | Geschatte waarde 100 %: 450.000 → Geert-aandeel: 360.000 |
+| Appartement Namen (Rue de Bruxelles) | Anneke + Pierre Beysens (elk 1/2) | Erfenis Anneke's tante Mathilde † 2015 — Anneke + Pierre erfden onverdeeld in gelijke delen | 260.000 (volledig) → Anneke-aandeel: 130.000 |
+| Tak 21-levensverzekering (Belfius) | Verzekeringnemer + verzekerde: Geert. Begunstigde bij overlijden: Anneke | Aanvangsdatum 2012 — premies betaald van Geerts persoonlijke rekening (Argenta-rekening hierboven) | Reservewaarde: 90.000 |
+| Spaarrekening Hello bank | Gezamenlijke rekening Geert + Anneke | Geopend 2005 voor "huishoud-buffer" — stortingen ongeveer gelijk verdeeld sinds opening; geen specifieke administratie | 60.000 |
+
+*Plus Pierre's 130k in onverdeeldheid Namen + Bart's 90k in Verdonck Tuinaanleg — niet vermogen van het echtpaar Verdonck-Beysens.*
+
+### Drie registratie-verrichtingen die spoedig moeten beslist worden
+
+**(A) Aankoop appartement Brussel door Marieke.** Marieke heeft een appartement gevonden in Sint-Gillis (Brussel) voor €310.000. Het wordt haar hoofdverblijfplaats — ze verlaat haar kotwoning. Marieke heeft nog geen ander onroerend goed in volle eigendom; zij koopt alléén (geen partner-mede-koper). Marieke vraagt: "mama, papa: kunnen jullie helpen kijken wat ik betaal aan registratierechten?" Compromis gepland midden mei 2026.
+
+**(B) Anneke + Pierre willen onverdeeldheid Namen opheffen.** Anneke en haar broer Pierre zijn sinds 2015 in onverdeeldheid voor het appartement in Namen (geërfd van hun tante Mathilde). Pierre — die er zelf woont — wil het appartement integraal verwerven. De familie is het eens over een vergoeding van €130.000 die Pierre aan Anneke betaalt voor haar onverdeelde helft. Notariële akte gepland voor juni 2026. Vraag aan jou: "welke heffing is van toepassing en hoeveel betalen we?"
+
+**(C) Verdonck Tuinaanleg BV wil terrein kopen — aanwijzing van lastgever.** Verdonck Tuinaanleg wil een aanpalend braakliggend terrein kopen voor uitbreiding van haar werkplaats. Het terrein ligt in **Andenne (provincie Namen, Waals gewest)**, prijs €180.000. Geert vreest dat als de eigenaar weet dat een BV koopt, hij de prijs zal optrekken. Geert vraagt zijn neef Tom Janssens (geen band met de BV) om in eigen naam een compromis te ondertekenen met de clausule "voor zichzelf of een later aan te wijzen persoon". **Compromis ondertekend op vrijdag 15 mei 2026.** De aanwijzingsakte ten gunste van Verdonck Tuinaanleg BV is gepland op **donderdag 21 mei 2026** bij notaris Lefèvre, Andenne. Klopt deze planning?
+
+### Hypothetisch scenario voor stap 3-5 — Geert overlijdt 10 september 2026
+
+Voor de stappen 3, 4 en 5 werken we met een hypothetisch overlijdens-scenario. Stel: Geert overlijdt onverwacht thuis in Leuven op **10 september 2026** (na een hartstilstand). Geen testament — wettelijke devolutie speelt. Hervormd erfrecht 2018 van toepassing. Op datum overlijden:
+
+- geen schenkingen gerealiseerd door Geert sinds 2015 (de levensverzekering bestaat sinds 2012; aandelen Verdonck Tuinaanleg nooit geschonken)
+- vermogensinventaris zoals hierboven
+- de drie verrichtingen uit "drie verrichtingen op tafel" zijn op overlijdens-datum NIET meer gerealiseerd (Marieke heeft nog niet gekocht; Pierre heeft Anneke nog niet uitgekocht; de terreinaankoop is hangende). Werk dus met de inventaris zoals ze er op 30 april 2026 stond.
+
+### Vermeende passief-posten op datum overlijden Geert (10-09-2026)
+
+Onderstaande lijst wordt door Anneke en de kinderen samen opgesteld als "kosten en schulden die met de nalatenschap moeten verrekend worden". Niet alles wat hier staat is aannemelijk passief voor de erfbelasting. Aan jou om te screenen.
+
+| # | Post | Bedrag (€) | Documenten |
+|:---:|:---|---:|:---|
+| 1 | Begrafenis, rouwplechtigheid + grafmonument | 8.500 | Facturen ondernemer 15-09-2026 |
+| 2 | Achterstallige inkomstenbelasting Geert (aanslagjaar 2025, vastgesteld door FOD vóór overlijden — niet betaald) | 3.200 | Aanslagbiljet 12-07-2026 |
+| 3 | Ereloon notaris voor opmaak attest van erfopvolging + indiening aangifte van nalatenschap | 1.800 | Factuur notaris 25-09-2026 |
+| 4 | Lening van zoon Lukas aan Geert (toegestaan in maart 2023, gedocumenteerd in onderhandse schuldbekentenis; bestemming volgens schuldbekentenis: "renovatie keuken en badkamer gezinswoning Tiensestraat") | 15.000 | Schuldbekentenis 18-03-2023 + bankafschriften overschrijving Lukas → Geert + facturen renovatie 2023 |
+| 5 | Aankoop nieuwe gasketel — geleverd en betaald door Anneke uit eigen rekening 5 oktober 2026 | 2.400 | Factuur installateur 30-09-2026 |
+
+---
+
+## Stappen
+
+### Stap 1 — Civielrechtelijke kaart van het vermogen
+
+Maak op basis van de vermogensinventaris + het opgegeven huwelijksstelsel een kaart van het vermogen: kwalificeer elk goed als "eigen Geert", "eigen Anneke" of "onverdeeldheid" (met aandeel per echtgenoot).
+
+Wie zijn de erfgenamen van Geert bij hypothetisch overlijden (geen testament)? In welke hoedanigheid en in welke verhouding? Wat is "reservataire bescherming" (hervormd erfrecht 2018) en hoeveel ervan voor de afstammelingen samen?
+
+<details>
+
+<summary><strong>Oplossing — klik om te tonen</strong></summary>
+
+**Vertrekpunt huwelijksstelsel.** Scheiding van goederen — er is **géén gemeenschap**. Elk goed is óf eigen vermogen van één van de echtgenoten óf valt in een onverdeeldheid (50/50 of andere verhouding) op basis van wie betaald heeft. Bij scheiding van goederen is er geen wettelijke vermoeden van gemeenschap; elk goed moet civielrechtelijk worden gekwalificeerd op basis van titel + financiering. Dit verschilt fundamenteel van het wettelijk stelsel waar arbeidsinkomsten gemeenschappelijk worden.
+
+**Kwalificatie per goed** (zie tabel hieronder).
+
+| Goed | Kwalificatie | Aandeel Geert | Aandeel Anneke | Andere |
+|:---|:---|---:|---:|:---|
+| Gezinswoning Leuven | Onverdeeldheid (gezamenlijke aankoop, beider arbeidsinkomsten) | 210.000 (50 %) | 210.000 (50 %) | — |
+| Portefeuille Argenta | Eigen Geert (rekening op zijn naam, uit eigen arbeidsinkomsten) | 120.000 | 0 | — |
+| Portefeuille KBC | Eigen Anneke (rekening op haar naam, uit eigen arbeidsinkomsten) | 0 | 80.000 | — |
+| Aandelen Verdonck Tuinaanleg BV | Eigen Geert (oprichting uit eigen spaargeld 2003 — geen gemeenschap want scheiding van goederen) | 360.000 (80 %) | 0 | Bart Cools 90.000 (20 %, geen vermogen V-B) |
+| Appartement Namen | Eigen Anneke (erfenis 2015 — in onverdeeldheid met broer Pierre) | 0 | 130.000 (50 %) | Pierre 130.000 (50 %, geen vermogen V-B) |
+| Tak 21-levensverzekering | Eigen Geert (verzekeringnemer, premies uit zijn rekening Argenta) | Reservewaarde 90.000 | 0 (begunstigde, geen titularis) | — |
+| Spaarrekening Hello (gezamenlijk) | Onverdeeldheid (ongeveer gelijke stortingen — vermoeden 50/50) | 30.000 (50 %) | 30.000 (50 %) | — |
+| **Totaal eigen + onverdeelde aandeel** | | **€850.000** | **€450.000** | |
+
+**Erfgenamen Geert bij overlijden zonder testament + hervormd erfrecht 2018.** Anneke (overlevende echtgenoot) + Lukas + Marieke + Wouter (3 wettige afstammelingen). Anneke verkrijgt het **vruchtgebruik op de volledige nalatenschap**; de 3 afstammelingen verkrijgen de **blote eigendom in gelijke delen** (1/3 elk).
+
+**Reservataire bescherming hervormd erfrecht 2018.** Sinds 1 september 2018 is de globale reserve van afstammelingen vast op **1/2 van de fictieve massa in volle eigendom**, ongeacht het aantal kinderen (voorheen 1/2-2/3-3/4 afhankelijk van 1-2-3+ kinderen). Voor de afstammelingen samen: **1/2 in volle eigendom**. De andere helft (beschikbaar deel) zou Geert vrij kunnen weggeven via testament of schenking. Voor Anneke: ze heeft een eigen reserve = **vruchtgebruik op de gezinswoning + huisraad**, ongeacht het beschikbaar deel.
+
+> **Let op.** Klassieke fout: bij scheiding van goederen automatisch denken dat "wat verdiend is tijdens het huwelijk gemeenschappelijk is". Onjuist — die regel geldt voor het wettelijk stelsel (gemeenschap van aanwinsten). Bij scheiding van goederen blijft elke euro arbeidsinkomen eigen vermogen. Cruciaal voor stap 3: de Tak 21-premies komen uit Geerts eigen vermogen → de fictie-uitkering wordt VOLLEDIG belastbaar (niet 50 %, zoals in het wettelijk stelsel waar premies uit gemeenschap = 50 % belastbaar).
+
+</details>
+
+### Stap 2 — Drie registratie-verrichtingen — tarief, grondslag, termijn
+
+Bepaal voor elk van de drie verrichtingen (A, B, C) op tafel: welk recht is van toepassing, wat is de grondslag, welk tarief, welk bedrag? Vermeld telkens bevoegd gewest + wettelijke basis. Voor verrichting C: klopt de geplande timing (compromis vrijdag 15 mei, aanwijzing donderdag 21 mei 2026)? Reken het uit. Voor verrichting B: er is een keuze tussen twee mogelijke heffingen — bepaal welke en motiveer.
+
+<details>
+
+<summary><strong>Oplossing — klik om te tonen</strong></summary>
+
+**Verrichting A — Marieke koopt appartement Brussel €310.000 als enige eigen woning.**
+
+Bevoegd gewest = ligging onroerend goed = **Brussels Hoofdstedelijk Gewest**. Federaal W.Reg. (geen VCF — Brussel volgt nog federale regels). Toepasselijk recht: **verkooprecht** = **12,50 %** standaard tarief in Brussel. Abattement eigen woning: Marieke voldoet aan voorwaarden (natuurlijk persoon, geheelheid in volle eigendom, hoofdverblijf binnen 3 jaar, geen ander onroerend goed in volle eigendom op datum akte). Vermindering van de **grondslag** met €200.000.
+
+Berekening: 12,50 % × (€310.000 − €200.000) = 12,50 % × €110.000 = **€13.750**. Zonder abattement zou Marieke 12,50 % × €310.000 = €38.750 betalen → **besparing €25.000**.
+
+**Verrichting B — Pierre koopt Anneke's helft Namen uit voor €130.000 (massa €260.000).**
+
+Bevoegd gewest = ligging onroerend goed = **Waals gewest**. Federaal W.Reg. (Wallonië volgt nog federale regels). Keuze tussen twee heffingen: (i) verkooprecht 12,50 % omdat Anneke een vermogensbestanddeel verkoopt aan Pierre? (ii) verdeelrecht 1 % omdat het gaat om uittreding uit een onverdeeldheid?
+
+**Correcte heffing = verdeelrecht.** Pierre is **mede-eigenaar** van het appartement (onverdeeldheid sinds erfenis 2015), dus de uittreding van Anneke is geen "verkoop aan een derde" maar een **verdeling van onverdeeldheid**. Verdeelrecht geldt zodra een mede-eigenaar uittreedt en het goed integraal bij de andere mede-eigenaar(s) belandt.
+
+Tarief = **1 %** (Wallonië + Brussel). Vergelijk: Vlaanderen = 2,5 %. **Grondslag = volledige verkoopwaarde van het onverdeelde goed (de "massa")** = €260.000, NIET het aandeel dat overdraagt. Dit is een belangrijk verschil: bij verkooprecht zou de grondslag de prijs van de helft (€130.000) zijn; bij verdeelrecht is het de hele waarde.
+
+Berekening: 1 % × €260.000 = **€2.600**. Vergelijkings-rekensom (als fiscus zou herkwalificeren naar verkooprecht): 12,50 % × €130.000 = €16.250 → besparing van €13.650 door correcte kwalificatie verdeelrecht.
+
+**Verrichting C — Aanwijzing van lastgever (command-techniek) — terrein Andenne €180.000.**
+
+Bevoegd gewest = ligging onroerend goed = **Waals gewest** (Andenne ligt in provincie Namen). Toepasselijke termijn-regel voor aanwijzing van lastgever in Brussel + Wallonië = **uiterlijk de vijfde werkdag na het compromis**. Niet de Vlaamse/federale eerste-werkdag-regel — die geldt alléén in Vlaanderen.
+
+Werkdagen-telling vanaf compromis vrijdag 15 mei 2026: 1e werkdag = maandag 18 mei · 2e = dinsdag 19 mei · 3e = woensdag 20 mei · 4e = donderdag 21 mei · 5e = vrijdag 22 mei. Aanwijzing geplande **donderdag 21 mei = 4e werkdag → BINNEN de Waalse termijn** (1 dag marge tot vrijdag 22 mei).
+
+Indien voorwaarden vervuld (clausule in compromis + authentieke aanwijzingsakte + tijdig geregistreerd): **aanwijzingsakte = vast recht €50** + **verkoopakte aan Verdonck Tuinaanleg BV = éénmaal verkooprecht** 12,50 % × €180.000 = **€22.500**. Bij gemiste termijn: aanwijzing wordt fiscaal als wederverkoop behandeld → **tweemaal verkooprecht** (eerst Tom betaalt op compromis, dan Verdonck Tuinaanleg betaalt op aanwijzingsakte) = 2 × €22.500 = €45.000.
+
+Strategische opmerking: had de transactie in Vlaanderen plaatsgevonden (eerste-werkdag-regel), dan was de geplande timing **drie werkdagen te laat** geweest. Het gewest van ligging is dus cruciaal voor de termijn-keuze.
+
+**Overzicht heffingen**
+
+| Verrichting | Heffing | Grondslag | Tarief | Bedrag (€) |
+|:---|:---|---:|:---|---:|
+| (A) Marieke koopt Brussel — eigen woning | Verkooprecht + abattement | 310.000 − 200.000 = 110.000 | 12,50 % | **13.750** |
+| (B) Pierre koopt Anneke's helft Namen | Verdeelrecht (Wallonië) | 260.000 (massa volledige goed) | 1 % | **2.600** |
+| (C-tijdig) Aanwijzing + verkoop Andenne | Verkooprecht + vast recht aanwijzing | 180.000 | 12,50 % + €50 vast | **22.550** |
+| (C-laattijdig) Tweemaal verkooprecht als termijn gemist | Verkooprecht × 2 op compromis + aanwijzing | 180.000 × 2 | 12,50 % × 2 | 45.000 |
+
+**Werkdagen-telling verrichting C**
+
+| Werkdag | Datum | Status |
+|:---|:---|:---|
+| Compromis | vrijdag 15 mei 2026 | Start termijn (= dag 0) |
+| 1e werkdag | maandag 18 mei 2026 | Vlaanderen-deadline overschreden (federaal = uiterlijk hier) |
+| 2e werkdag | dinsdag 19 mei 2026 | — |
+| 3e werkdag | woensdag 20 mei 2026 | — |
+| 4e werkdag | **donderdag 21 mei 2026** | **Gepland aanwijzing — BINNEN Waalse termijn** |
+| 5e werkdag | vrijdag 22 mei 2026 | Laatste Waalse termijn |
+
+> **Let op.** Drie typische valstrikken in deze stap. (1) Verrichting B als verkooprecht behandelen — verkeerd: zodra het gaat om uittreding uit een onverdeeldheid is het altijd verdeelrecht, ook als één partij effectief "koopt" van de andere. (2) Verrichting B-grondslag op €130.000 zetten — verkeerd: verdeelrecht slaat op de massa €260.000. (3) Verrichting C met de Vlaamse eerste-werkdag-regel rekenen omdat "de BV in Vlaanderen zit" — verkeerd: termijn-regel volgt de ligging van het onroerend goed (= Wallonië), niet de zetel van de koper. Met de Waalse vijfde-werkdag-regel is donderdag 21 mei nog binnen termijn (4e werkdag); met de Vlaamse eerste-werkdag-regel zou het 3 werkdagen te laat zijn.
+
+</details>
+
+### Stap 3 — Aangifte van nalatenschap — bevoegd gewest, termijn, actief, passief, netto
+
+Geert overlijdt op 10 september 2026. Bepaal: bevoegd gewest, termijn voor indiening aangifte, termijn voor betaling erfbelasting, en wie aangifteplichtig is. Stel het bruto-actief van Geerts nalatenschap op (vergeet de fictiebepalingen niet). Screen de vijf vermeende passief-posten op aannemelijkheid — welke posten zijn aannemelijk, welke niet, en met welke motivering? Wees alert bij de lening van Lukas. Bereken de netto-nalatenschap.
+
+<details>
+
+<summary><strong>Oplossing — klik om te tonen</strong></summary>
+
+**Bevoegd gewest** = gewest van **fiscale woonplaats erflater** = Vlaanderen (Geert woonde sinds 1996 in Leuven). Beheerd door **Vlabel**, niet door FOD Financiën. Cruciaal: de ligging van het onroerend goed (Namen-aandeel Anneke is geen issue — het was geen vermogen van Geert; Wallonië-terrein is niet aangekocht) speelt geen rol voor de bevoegdheid bij erfbelasting.
+
+**Termijn aangifte** = 4 maanden vanaf overlijden bij overlijden in het Rijk. Overlijden 10-09-2026 → uiterlijk **10-01-2027**.
+
+**Termijn betaling erfbelasting** = 2 maanden na verstrijken aangiftetermijn → uiterlijk **10-03-2027**.
+
+**Aangifteplichtigen**: erfgenamen + algemene legatarissen + algemene begiftigden. Hier — geen testament, geen legaten — zijn dat: **Anneke + Lukas + Marieke + Wouter**. Anneke verkrijgt vruchtgebruik op het geheel (overlevende echtgenoot); de drie afstammelingen verkrijgen blote eigendom in gelijke delen.
+
+**Bruto-actief Geerts nalatenschap** — alleen eigen vermogen Geert + onverdeelde aandelen Geert, want **scheiding van goederen** (geen helft-gemeenschap zoals bij wettelijk stelsel):
+
+| Bruto-actief post | Bedrag (€) | Wettelijke basis |
+|:---|---:|:---|
+| Portefeuille Argenta (eigen Geert) | 120.000 | Eigen vermogen |
+| 50 % gezinswoning Leuven (onverdeeld aandeel Geert) | 210.000 | Eigen aandeel uit onverdeeldheid |
+| 80 % aandelen Verdonck Tuinaanleg BV | 360.000 | Eigen vermogen — uit oprichting 2003 |
+| 50 % spaarrekening Hello | 30.000 | Vermoeden gelijke storting — onverdeeldheid |
+| Tak 21 fictie-uitkering aan Anneke | 90.000 | Fictiebepaling — volledig (premies eigen) |
+| **Bruto-totaal** | **810.000** | |
+
+Belangrijke noot bij de Tak 21: de premies werden betaald uit Geerts eigen vermogen (zijn Argenta-rekening). Bij scheiding van goederen geldt **géén 50 %-halvering** zoals bij wettelijk stelsel — de fictie-uitkering is **volledig** belastbaar als legaat aan Anneke.
+
+**Screening passief.** De toets is: bestond de schuld op overlijdens-datum + is het ofwel een begrafeniskost ofwel een schuld van de erflater zelf?
+
+| # | Post | Bedrag (€) | Aannemelijk? | Motivering |
+|:---:|:---|---:|:---|:---|
+| 1 | Begrafeniskosten | 8.500 | JA — 8.500 | Begrafeniskosten zonder plafond |
+| 2 | Achterstallige inkomstenbelasting 2025 | 3.200 | JA — 3.200 | Schuld bestaand op overlijdens-datum (aanslag 12-07-2026 < 10-09-2026) |
+| 3 | Ereloon notaris voor attest erfopvolging + aangifte | 1.800 | NEE | Schuld ontstaan ná overlijden (factuur 25-09-2026); geen begrafeniskost; klassieke valstrik |
+| 4 | Lening Lukas voor renovatie gezinswoning (2023, gedocumenteerd) | 15.000 | DEELS — 7.500 pro-rata | Uitzondering voor lening bij erfgenaam mits bestemming nalatenschapsgoed. Gezinswoning slechts 50 % in nalatenschap (onverdeeldheid) → pro-rata 50 % |
+| 5 | Aankoop gasketel oktober 2026 (Anneke betaalt) | 2.400 | NEE | Geen schuld op overlijdens-datum + geen begrafeniskost; betaald door overlevende echtgenoot na overlijden |
+| **Totaal aanvaard passief** | | **19.200** | | |
+
+Toelichting op post 4 — de subtiele post. Algemene regel: leningen bij erfgenamen worden in beginsel **niet aanvaard** als passief (om constructies te vermijden waar erfgenamen fictieve schulden creëren). Uitzondering: lening bij erfgenaam **wel aanvaard** als de gelden bewijsbaar besteed werden aan een goed dat in de nalatenschap valt (verbetering van nalatenschapsgoed). Hier: lening 2023 voor renovatie gezinswoning, gedocumenteerd met bankafschriften + facturen. Complicatie: de gezinswoning valt slechts voor **50 %** in Geerts nalatenschap (onverdeeldheid Geert/Anneke). De renovatie verbeterde dus voor 50 % een goed in nalatenschap en voor 50 % een goed buiten nalatenschap. **Defensieve interpretatie**: pro-rata aanvaarden voor 50 % = €7.500.
+
+**Netto-nalatenschap**
+
+| Berekening | Bedrag (€) |
+|:---|---:|
+| Bruto-actief | 810.000 |
+| Aannemelijk passief | −19.200 |
+| **Netto-nalatenschap Geert** | **790.800** |
+
+> **Let op.** Vier valstrikken in deze stap. (1) Een "helft van de gemeenschap" aan de nalatenschap toevoegen — onjuist bij scheiding van goederen, daar bestaat geen gemeenschap. Alleen Geerts eigen vermogen + zijn aandeel in onverdeeldheden valt in de nalatenschap. (2) De Tak 21-fictie voor 50 % belastbaar maken — die halvering geldt alléén bij premies uit gemeenschapsvermogen (wettelijk stelsel). Bij scheiding van goederen = volledig belastbaar. (3) Het ereloon voor het attest van erfopvolging als passief aanvaarden — klassieke examen-valstrik. (4) De lening Lukas integraal aanvaarden — onjuist want de uitzondering vereist bestemming voor een nalatenschapsgoed, en de gezinswoning is maar voor 50 % in nalatenschap → pro-rata defensieve aanpak.
+
+</details>
+
+### Stap 4 — Tarief erfbelasting toepassen — devolutie, gunstregime, vrijstelling gezinswoning, fictiebepaling
+
+Verdeel de netto-nalatenschap (€790.800) tussen de erfgenamen rekening houdend met: hervormd erfrecht 2018 (vruchtgebruik echtgenoot + blote eigendom afstammelingen), vrijstelling gezinswoning Anneke, gunstregime familiale onderneming, fictie-legaat levensverzekering.
+
+Bepaal voor elke erfgenaam (Anneke / Lukas / Marieke / Wouter) op welke goederen welk tarief van toepassing is. Toets ook de voorwaarden voor het gunstregime familiebedrijf — kwalificeert Verdonck Tuinaanleg BV op basis van de gegeven feiten? Gebruik voor de vruchtgebruik-kapitalisatie de coëfficiënt voor 56-jarige (Cijferzakboekje): forfait vruchtgebruik = 10,5 × 4 % = **42 %** (blote eigendom = 58 %). Geef per erfgenaam een tariefoverzicht (geen exacte euro-precisie nodig op de progressieve schalen — de werkwijze is wat telt).
+
+<details>
+
+<summary><strong>Oplossing — klik om te tonen</strong></summary>
+
+**Devolutie hervormd erfrecht 2018** (geen testament): Anneke (overlevende echtgenoot) krijgt **vruchtgebruik op de volledige netto-nalatenschap**. Lukas + Marieke + Wouter krijgen **blote eigendom in 3 gelijke delen** (€263.600 per kind in blote eigendom, vóór fiscale opdeling).
+
+**Drie bijzondere regimes spelen tegelijk** — opsplitsing van de €790.800 in vier pakketten:
+
+**Pakket A — Vrijstelling gezinswoning voor Anneke.** Geerts onverdeeld aandeel gezinswoning Leuven = €210.000. Anneke (overlevende echtgenoot) is voor haar verkrijging op de gezinswoning **volledig vrijgesteld van erfbelasting**, ongeacht of ze vruchtgebruik of volle eigendom verwerft. Voor de blote eigendom van de kinderen op deze €210.000 geldt de vrijstelling NIET — zij betalen tarief rechte lijn op hun aandeel in de blote eigendom van Geerts helft (€210.000 × 58 % blote eigendom = €121.800, verdeeld over 3 = €40.600 per kind).
+
+**Pakket B — Gunstregime familiale onderneming.** Aandelen Verdonck Tuinaanleg BV = €360.000. Voorwaarden te toetsen op de gegeven feiten:
+
+- **Familiale vennootschap**: ≥ 50 % aandelen in handen van schenker/erflater + familie? Geert alleen 80 % → **ja**. Externe partner Bart 20 % verstoort niet (minderheidsbelang).
+- **Reële economische activiteit**: tuinaanleg + werknemers + in groei → activiteit ≥ aandelen vast in eigen bedrijfsuitoefening → géén patrimonium-vennootschap → **ja**.
+- **Continuïteits- + participatie-voorwaarde** (3 jaar na overlijden): erfgenamen moeten activiteit voortzetten + ≥ 50 % aandelen binnen familie houden. Dit moet gecontroleerd worden achteraf via attest (Vlabel). Toezegging in aangifte → gunstregime toepasbaar.
+
+**Tarief gunstregime**: **3 % rechte lijn** (vlak tarief, niet progressief). De kinderen verkrijgen blote eigendom op deze aandelen: €360.000 × 58 % = €208.800, verdeeld over 3 kinderen = €69.600 per kind in blote eigendom. Tarief: 3 % × €69.600 = **€2.088 per kind** (totaal kinderen: €6.264). Anneke's vruchtgebruik op deze aandelen: €360.000 × 42 % = €151.200; tarief: 3 % × €151.200 = **€4.536**.
+
+**Pakket C — Fictie-legaat levensverzekering aan Anneke.** €90.000 belastbaar bij Anneke als fictie-legaat — niét bij de kinderen. Anneke betaalt erfbelasting op €90.000 in volle eigendom (geen vruchtgebruik-opsplitsing want fictie-legaat = volle eigendom verkrijging). Tarief rechte lijn: 3 % tot €50.000 + 9 % op €50.000-€250.000 + 27 % boven €250.000. Hier: 3 % × €50.000 + 9 % × €40.000 = €1.500 + €3.600 = **€5.100**.
+
+**Pakket D — Rest van de nalatenschap onder gewone tarieven rechte lijn.** Portefeuille Argenta €120.000 + onverdeeld spaargeld €30.000 = €150.000. Anneke (vruchtgebruik 42 %): €150.000 × 42 % = €63.000. Kinderen (blote eigendom 58 %, samen): €150.000 × 58 % = €87.000, verdeeld over 3 = €29.000 per kind.
+
+Tarief rechte lijn op deze €63.000 voor Anneke: 3 % × €50.000 + 9 % × €13.000 = €1.500 + €1.170 = **€2.670**. Tarief rechte lijn per kind op €29.000 (+ €40.600 uit pakket A blote eigendom) = totaal gewoon-tarief-grondslag per kind = €69.600. Tarief: 3 % × €50.000 + 9 % × €19.600 = €1.500 + €1.764 = **€3.264 per kind** (totaal kinderen: €9.792).
+
+**Totaal-overzicht erfbelasting Geert** (indicatief; exact resultaat hangt af van precies-gehanteerde vruchtgebruik-kapitalisatie + tariefschijven):
+
+| Verkrijging | Bedrag (€) | Regime | Tarief | Erfbelasting (€) |
+|:---|---:|:---|:---|---:|
+| **ANNEKE** | | | | |
+| Vruchtgebruik gezinswoning (42 % × 210.000) | 88.200 | Vrijstelling overlevende echtgenoot | 0 % | **0** |
+| Vruchtgebruik aandelen Verdonck Tuinaanleg (42 % × 360.000) | 151.200 | Gunstregime familiale onderneming | 3 % vlak | **4.536** |
+| Vruchtgebruik portefeuille + spaargeld (42 % × 150.000) | 63.000 | Gewoon tarief rechte lijn | Progressief 3-9-27 % | **±2.670** |
+| Fictie-legaat Tak 21 (volle eigendom) | 90.000 | Gewoon tarief rechte lijn | Progressief 3-9-27 % | **±5.100** |
+| **Subtotaal Anneke** | | | | **±12.300** |
+| **LUKAS / MARIEKE / WOUTER (per kind)** | | | | |
+| Blote eigendom gezinswoning + portefeuille + spaargeld (58 % gecombineerd) | 69.600 | Gewoon tarief rechte lijn | Progressief 3-9-27 % | **±3.264** |
+| Blote eigendom aandelen Verdonck Tuinaanleg (58 % × 360.000 / 3) | 69.600 | Gunstregime familiale onderneming | 3 % vlak | **2.088** |
+| **Subtotaal per kind** | | | | **±5.352** |
+| **TOTAAL ERFBELASTING (alle erfgenamen)** | | | | **±28.350** |
+
+> **Let op.** Drie valstrikken. (1) Het gunstregime erfbelasting familiebedrijf-aandelen heeft een **vlak tarief 3 %** rechte lijn (en 7 % anderen) — niet de progressieve schalen 3-9-27 %. Studenten passen vaak per ongeluk de progressieve onroerende schenkings-schalen 3-9-18-27 % toe. (2) De vrijstelling gezinswoning geldt **alléén voor de overlevende echtgenoot** — niet voor de blote-eigendom-verkrijging van de kinderen op de gezinswoning. Veel studenten denken dat "de gezinswoning vrijgesteld is voor iedereen". (3) Vergeet niet dat Anneke's vruchtgebruik gekapitaliseerd wordt voor de erfbelasting (forfaitair op basis van leeftijd, niet op werkelijke contante waarde). Bij 56 jaar: coëfficiënt 10,5 × 4 % = 42 % vruchtgebruik / 58 % blote eigendom.
+
+</details>
+
+### Stap 5 — Planning-advies voor Anneke + kinderen (3 voorstellen)
+
+Na verwerking van Geerts overlijden zit Anneke (56 j) met een vermogen bestaande uit haar eigen €450.000 + vruchtgebruik op Geerts €790.800 (effectief gekapitaliseerd 42 % = ±€332.000) + €0 deelname appartement Namen (intussen verkocht aan Pierre).
+
+Formuleer drie planning-voorstellen voor de overlevende fase: hoe kan Anneke + de drie kinderen zich voorbereiden op haar latere overlijden, met aandacht voor de aandelen Verdonck Tuinaanleg (in vruchtgebruik bij haar, blote eigendom bij de kinderen)? Per voorstel: instrument(en), motivering, voor- en nadelen, kritische voorwaarden of tijdshorizon.
+
+<details>
+
+<summary><strong>Oplossing — klik om te tonen</strong></summary>
+
+**Voorstel 1 — Schenking met voorbehoud van vruchtgebruik door Anneke aan de kinderen (portefeuille KBC + eventueel spaarrekening).**
+
+*Instrument*: notariële schenking met voorbehoud van vruchtgebruik over haar eigen portefeuille KBC €80.000.
+
+*Motivering*: roerende schenking met notariële akte → tarief 3 % rechte lijn Vlaanderen = €2.400 in totaal. Vergelijk met later via erfbelasting: progressieve schalen tot 27 % → potentieel meer. Voorbehoud van vruchtgebruik: Anneke houdt opbrengsten (dividenden, intresten) en stemrecht op aandelen.
+
+*Voorwaarden + tijdshorizon*: registratie verplicht. Aandacht voor fictie-bepaling 3 jaar: bij niet-geregistreerde schenking (handgift, bankgift) telt schenking nog tot nalatenschap als schenker binnen 3 jaar overlijdt. Notariële schenking = registratie inbegrepen → ontsnapt aan fictie.
+
+*Nadeel*: 3 % is reëel betaalde belasting (niet besparing = volledig vermijdbaar). Niet doen als horizon Anneke nog erg lang is en risico onbestaand.
+
+**Voorstel 2 — Herziening Tak 21 + "cascade"-begunstiging via een nieuwe levensverzekering Anneke.**
+
+*Instrument*: nieuwe levensverzekering door Anneke aangegaan, kinderen als begunstigden in gelijke delen.
+
+*Motivering*: levensverzekering biedt flexibiliteit (begunstiging eenzijdig wijzigbaar door verzekeringnemer) + opbrengsten Tak 21-conform belast (RV 30 % bij afkoop binnen 8 jaar; nul na 8 jaar).
+
+*Aandachtspunt fictie-uitkering*: bij overlijden Anneke wordt de uitkering aan de kinderen óók fictie-legaat → erfbelasting verschuldigd op tarief rechte lijn. Voordeel t.o.v. behoud roerend in haar eigen vermogen: progressie-spreiding mogelijk via meerdere begunstigden, of via tussentijdse opname Anneke.
+
+*Strategische valstrik*: dezelfde fictiebepaling die Geerts oorspronkelijke Tak 21 belastbaar maakte ten gunste van Anneke (€90.000 aan tarief 3 + 9 %). Levensverzekering is geen toverstaf — fictie-aanstrijking houdt het belastbaar.
+
+**Voorstel 3 — Versterking gunstregime familiale onderneming + geleidelijke aandelen-overdracht.**
+
+*Instrument*: Anneke + kinderen vragen formeel attest gunstregime aan Vlabel (volgt op aangifte van nalatenschap, post-overlijden) zodat het 3 %-tarief voor de blote-eigendom-verkrijging van de aandelen Verdonck Tuinaanleg definitief vastligt. Daarna: continueren van de activiteit + ≥ 50 % familiebezit gedurende 3 jaar (voorwaarde gunstregime — anders herziening met progressief tarief).
+
+Op middellange termijn: schenking door Anneke (in vruchtgebruik) + kinderen (in blote eigendom) van bijkomende aandelen (indien Anneke nog uitbreiding-belang heeft via dividenden uit haar vruchtgebruik) — gunstregime biedt 0 % schenkbelasting indien voorwaarden vervuld. Voordeel: anticipatie op generatiewissel zonder fiscale kost; nadeel: complexiteit + noodzaak om Lukas (werkt al in bedrijf) anders te behandelen dan Marieke + Wouter (geen actieve rol). Optioneel: certificering van aandelen via Stichting Administratiekantoor (STAK) → familiale zeggenschap losgekoppeld van eigendom — instrument voor lange-termijn-controle.
+
+*Voorwaarde*: ondertekening continuïteits-attest binnen 3 jaar na overlijden Geert. Mislukt continuïteit → herziening tarief (van 3 % vlak naar progressief 3-27 % rechte lijn op €360.000 = ±€54.000 — substantieel risico).
+
+**Niet-voorstel (bewust).** Huwelijksvermogensrechtelijke herzieningen (verblijvings-beding, finaal verrekenbeding) zijn voor Anneke niet meer relevant — het stelsel scheiding van goederen is met Geerts overlijden "uitgewerkt". Voor een eventueel hernieuwd huwelijk: nieuwe analyse, niet hier.
+
+**Niet-voorstel (bewust).** Het appartement Namen speelt geen rol in de planning Anneke — zij was uitgetreden uit de onverdeeldheid (verrichting B) vóór Geerts overlijden. Het goed bevindt zich nu volledig in Pierre's vermogen.
+
+> **Let op.** Drie subtiele valstrikken in de planning. (1) De gunstregime familiale onderneming heeft TWEE varianten — schenking (0 %) en erfopvolging (3 %). Veel adviseurs vergeten dat het 0 %-tarief in een schenkings-scenario potentieel veel waardevoller is, maar dat vereist dat schenker tijdens leven schenkt + 3 jaar overleeft. (2) Levensverzekering wordt vaak als "belastingvrije overdracht" verkocht — fout. De fictiebepaling onderwerpt de uitkering aan tarief rechte lijn alsof het een legaat is. (3) Stichting Administratiekantoor (STAK) en certificering zijn diepe instrumenten — passen bij grote familiale structuren, maar zijn voor een kleine ondernemende familie zoals Verdonck-Beysens (€450k bedrijf, 8 werknemers) doorgaans disproportioneel. Behoedzaam voorstellen.
+
+</details>
+
+---
+
+## Afsluiting
+
+Wat je vooral moet meenemen: in PO 2.6 leeft het examen op het schakelen tussen **drie heffingen** (verkooprecht, verdeelrecht, erfbelasting) + **drie gewesten** (Vlaanderen via VCF, Brussel/Wallonië via federaal W.Reg./W.Succ.) + **drie civielrechtelijke kapstokken** (huwelijksstelsel, devolutie, planning-instrumenten). De examenvraag is zelden de volle case, vaak een sub-fragment waar je moet wéten welke heffing + welk gewest + welke wettelijke basis.
+
+Wat opvalt bij Verdonck-Beysens: het stelsel van **scheiding van goederen** is de centrale variant ten opzichte van de leerstuk-voorbeeldfamilie De Wilde (wettelijk stelsel). Drie gevolgen kruisen door alle stappen heen: (i) geen helft-gemeenschap in nalatenschap — alleen eigen vermogen Geert + onverdeelde aandelen, (ii) Tak 21-fictie volledig belastbaar (niet 50 %), (iii) verdeelrecht voor onverdeeldheid Namen (geen gemeenschapsgoed maar onverdeeldheid via erfenis 2015).
+
+Wat je vermoedelijk fout deed in eerste poging: (a) helft van Geerts arbeidsinkomsten/bezittingen aan Anneke toebedeeld "omdat ze gehuwd zijn" — onjuist bij scheiding van goederen; (b) verrichting B als verkoop behandeld i.p.v. verdeling; (c) Tak 21 voor 50 % belastbaar — geldt alléén bij wettelijk stelsel; (d) gunstregime familiale onderneming met progressief tarief 3-9-27 % berekend i.p.v. vlak 3 % rechte lijn; (e) gezinswoning-vrijstelling toegepast op de blote eigendom van de kinderen — vrijstelling geldt alleen voor de overlevende echtgenoot.
+
+### Doelstellingen gedekt
+
+- 2.6.taak.1.doel.1 — proactief en methodisch geïntegreerde adviezen formuleren
+- 2.6.taak.2.doel.1 — geïntegreerde adviezen overdracht/ontbinding onderneming (gunstregime familiebedrijf)
+- 2.6.taak.3.doel.1 — geïntegreerd advies in complexe fiscale omgeving
+- 2.6.taak.4.doel.1 — feitenonderzoek (vermogensinventaris, civielrechtelijke kaart)
+- 2.6.taak.4.doel.2 — geavanceerde concepten toepassen (fictiebepaling, gunstregime, onverdeeldheid + verdeelrecht)
+- 2.6.taak.5.doel.1 — vertegenwoordigen Vlabel (aangifte van nalatenschap, attest gunstregime)
+
+### Valkuilen geoefend
+
+- Scheiding van goederen ≠ gemeenschap — kwalificatie elk goed afzonderlijk
+- Tak 21-fictie 100 % belastbaar bij premies uit eigen vermogen (niet 50 %)
+- Verdeelrecht bij uittreding mede-eigenaar uit onverdeeldheid (≠ verkooprecht)
+- Termijn aanwijzing van lastgever: 1e werkdag Vlaanderen/federaal, 5e werkdag Brussel/Wallonië
+- Lening bij erfgenaam alleen aanvaard mits bestemming voor nalatenschapsgoed (pro-rata indien gemengd)
+- Vrijstelling gezinswoning geldt alléén voor overlevende echtgenoot, niet voor blote eigendom kinderen
+- Gunstregime familiale onderneming = vlak tarief 3 % rechte lijn (niet progressief)
+- Ereloon attest erfopvolging = NIET aannemelijk passief (ontstaat ná overlijden)
+
+---
+
+<div class="no-print">
+
+## Wanneer dit zit, ga dan naar
+
+- [[wat-zijn-registratie-en-successierechten]] — Entry-fiche: twee heffingen, drie gewesten, vier instanties als kapstok
+- [[registratierechten-vastgoed]] — Vier evenredige rechten + abattement + minimum-regels — de techniek achter stap 2
+- [[registratieformaliteit-en-procedure]] — Termijnen + command-techniek + sterkmaking — de procedure achter verrichting C
+- [[erfbelasting-en-aangifte-nalatenschap]] — Devolutie + bruto-actief + aannemelijk passief + tarieven — het zware leerstuk achter stappen 3-4
+- [[successieplanning-en-gunstregime]] — Planning-instrumenten + gunstregime familiale onderneming — synthese achter stap 5
+- [[studiemateriaal/2-6/samenvatting|Samenvatting PO 2.6]] — Beslisboom heffingen + tarief-tabellen + termijn-kompas + valkuilen op 2-4 A4, printbaar voor de examen-week
+- [[huwelijksvermogensrecht]] — Detail op scheiding van goederen vs wettelijk stelsel
+- [[erfrecht]] — Hervormd erfrecht 2018: devolutie + reservataire bescherming
+- [[verdeelrecht]] — Uittreding mede-eigenaar uit onverdeeldheid — tarief + grondslag (massa)
+- [[aangifte-nalatenschap]] — Procedure + termijnen + aangifteplichtigen + Vlabel-bevoegdheid
+- [[gunstregime-familiale-onderneming]] — Voorwaarden + tarief schenking (0 %) vs erfopvolging (3 % rechte lijn)
+- [Voorbeeldexamen-vragen PO 2.6](voorbeeldexamenvragen) — voor wie dezelfde stof in een ander format wil oefenen
+
+</div>
+
+---
+
+## Wettelijk fundament
+
+- **Stelsel scheiding van goederen (huwelijksvermogen)**: BW art. 2.94 (gewijzigd hervorming 2018) — uitsluiting van gemeenschap; elk goed eigen of onverdeeld.
+- **Hervormd erfrecht 2018 — wettelijke devolutie + vruchtgebruik echtgenoot**: BW art. 4.50 (devolutie echtgenoot vruchtgebruik); art. 4.146 (globale reserve afstammelingen 1/2 in volle eigendom); art. 4.150 (concrete reserve echtgenoot gezinswoning).
+- **Verkooprecht — standaard en Brussels abattement**: W.Reg. art. 44 (tarief 12,50 % Brussel + Wallonië); art. 46bis W.Reg. Brussel (abattement €200.000 grondslagvermindering).
+- **Verkooprecht Vlaanderen — standaard en enige eigen woning**: VCF art. 2.9.4.1.1 (standaard 12 %); art. 2.9.4.2.11 (enige eigen woning 2 % sinds decreet 23.12.2022); art. 2.9.4.2.12 (energetisch 1 %).
+- **Verdeelrecht — uittreding mede-eigenaar uit onverdeeldheid**: W.Reg. art. 109 (1 % Brussel + Wallonië, grondslag = volledige verkoopwaarde onverdeeld goed); VCF art. 2.10.1.0.1 (belastbaar feit) + art. 2.10.4.0.1 (tarief 2,5 % Vlaanderen).
+- **Aanwijzing van lastgever (command) — termijnen per gewest**: Vlaanderen + federaal — VCF art. 2.9.6.0.1, 1°, c en W.Reg. art. 158, 1°, c (uiterlijk eerste werkdag na compromis); Brussel + Wallonië — W.Reg. art. 159, 1°, b (vijfde werkdag).
+- **Bevoegd gewest erfbelasting**: VCF art. 5/1 (fiscale woonplaats erflater bepaalt bevoegdheid); art. 3.3.1.0.5 (aangifteplichtigen) + 3.3.1.0.6 (termijn 4/5/6 maanden) + 3.10.4.4.1 (betalings­termijn 2 maanden).
+- **Fictiebepaling levensverzekering**: VCF art. 2.7.1.0.6 (uitkering bij overlijden = fictie-legaat; bij gemeenschapsvermogen 50 %, bij eigen vermogen 100 % belastbaar).
+- **Aannemelijk passief — begrafeniskosten + schulden + uitzonderingen erfgenaam-lening**: VCF art. 2.7.3.4.1 (limitatieve lijst aannemelijk passief); W.Succ. art. 27 (schulden bestaand op overlijdens-datum) + art. 33 (uitzonderingen — w.o. 33, 2° lening erfgenaam met bestemming nalatenschapsgoed).
+- **Vrijstelling gezinswoning overlevende echtgenoot**: VCF art. 2.7.6.0.3 (Vlaanderen — 100 % vrijstelling voor overlevende echtgenoot, niet voor afstammelingen).
+- **Tarieven erfbelasting rechte lijn Vlaanderen**: VCF art. 2.7.4.1.1 (rechte lijn: 3 % tot €50k / 9 % €50k-€250k / 27 % > €250k); art. 2.7.4.2.2 (gunstregime familiale onderneming bij erfopvolging: 3 % rechte lijn / 7 % anderen, vlak).
+- **Gunstregime familiale onderneming — voorwaarden**: VCF art. 2.7.4.2.2 (erfopvolging) + art. 2.8.6.0.3 (schenking 0 % rechte lijn / 0 % anderen) — voorwaarden: familiale vennootschap (≥ 50 % bij familie), reële economische activiteit, continuïteit + participatie 3 jaar.
+- **Fictiebepaling schenking < 3 jaar**: VCF art. 2.7.1.0.5 (niet-geregistreerde schenking binnen 3 jaar vóór overlijden valt terug in fictieve nalatenschap; geregistreerde notariële schenking ontsnapt).
+- **Kapitalisatie vruchtgebruik voor erfbelasting**: VCF art. 2.7.3.3.2 (forfaitaire kapitalisatie op leeftijd vruchtgebruiker; cijferzakboekje voor coëfficiënten — bij 56 j: 10,5 × 4 % = 42 %).
+
+---
+
+*Oefening PO 2.6 — Familie Verdonck-Beysens. Status: voorgesteld (2026-06-01). Modelantwoorden gevalideerd op interne cijferconsistentie + drie pijlers (geen hints in opgave, realistische individuele aangifte, niet-voorkauwende instructies). POC-status voor oefening-laag — kandidaat-voorbeeld voor ADR-038.*
