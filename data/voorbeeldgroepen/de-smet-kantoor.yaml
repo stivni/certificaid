@@ -1,0 +1,446 @@
+# De Smet & Partners — voorbeeldgroep voor PO 4.0 (deontologie + AML)
+#
+# Mock Belgisch accountantskantoor met cliëntenportefeuille. Gebruikt om de
+# zes leerstukken van PO 4.0 te illustreren met concrete dilemma's.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-het-accountantsberoep.yaml
+#   - data/leerstukken/deontologische-beginselen-en-onafhankelijkheid.yaml
+#   - data/leerstukken/opdrachtaanvaarding-en-clientenrelatie.yaml
+#   - data/leerstukken/beroepsgeheim-en-aansprakelijkheid.yaml
+#   - data/leerstukken/antiwitwasplichten-in-de-praktijk.yaml
+#   - data/leerstukken/kwaliteitstoezicht-en-tucht.yaml
+
+naam: de-smet-kantoor
+beschrijving: >
+  Kantoor De Smet & Partners BV is een mock Belgisch accountantskantoor in
+  Gent met 3 vennoten, 5 medewerkers en 2 stagiairs. De portefeuille bevat
+  uiteenlopende cliënten — een horeca-BV met cash-verkopen (AML-trigger), een
+  productievennootschap waarvan de zaakvoerder echtgenote is van een vennoot
+  (belangenconflict), een nieuwe cliënt die overkomt van confrater Janssen
+  (predecessor-procedure), een vastgoed-cliënt met verdachte cash-aankoop
+  (CFI-melding) en enkele standaarddossiers. Het kantoor doorloopt in 2026
+  een geplande ITAA-kwaliteitstoetsing.
+
+referentiejaar: "2026"
+balansdatum_kantoor: "31-12-2025"
+
+# ---------------------------------------------------------------------------
+# Kantoor — structuur en bezetting
+# ---------------------------------------------------------------------------
+
+kantoor:
+  naam: "De Smet & Partners BV"
+  rechtsvorm: "BV (professionele vennootschap, ITAA-erkend)"
+  vestiging: "Gent"
+  opgericht: 2009
+  itaa_nummer: "B-50.123"
+  verzekering: "Beroepsaansprakelijkheidsverzekering AXA Belgium — minimum 1,5 mln EUR per schadegeval, in lijn met ITAA-vereisten"
+  jaaromzet_2025: "1,8 mln EUR"
+  amlco:
+    naam: "Pieter De Smet"
+    rol: "AMLCO (verantwoordelijke voor antiwitwasbeleid)"
+
+bezetting:
+  vennoten:
+    - naam: "Pieter De Smet"
+      titel: "Gecertificeerd accountant + gecertificeerd belastingadviseur"
+      anciënniteit: "15 jaar — oprichtend vennoot"
+      bijzonderheid: "Echtgenote Sofie Vandenbroucke is zaakvoerder van Nordica Productions BV — bestaand cliëntdossier"
+      mandaten_extern: "geen bestuursmandaten in cliëntenvennootschappen"
+    - naam: "Eva Janssens"
+      titel: "Gecertificeerd accountant"
+      anciënniteit: "10 jaar — vennoot sinds 2018"
+      bijzonderheid: "Penningmeester van VZW Gentse Schaakclub (onbezoldigd) — geen cliëntrelatie"
+    - naam: "Tom Vermeulen"
+      titel: "Gecertificeerd belastingadviseur"
+      anciënniteit: "7 jaar — vennoot sinds 2022"
+
+  medewerkers:
+    - naam: "Bart Devos"
+      titel: "Senior boekhouder (geen ITAA-titel)"
+      anciënniteit: "12 jaar"
+      bijzonderheid: "Voormalig medewerker overweegt vertrek; mogelijke meeneem-cliënten — zie dilemma-case"
+    - naam: "Karolien Maes"
+      titel: "Accountant (recent gecertificeerd)"
+      anciënniteit: "5 jaar"
+    - naam: "Ahmed Bouazza"
+      titel: "Junior boekhouder"
+      anciënniteit: "3 jaar"
+    - naam: "Lara Mertens"
+      titel: "Office manager / administratie"
+      anciënniteit: "8 jaar"
+    - naam: "Wouter De Schepper"
+      titel: "IT-systeembeheerder (extern, deeltijds)"
+      anciënniteit: "extern"
+
+  stagiairs:
+    - naam: "Lina Vermeulen"
+      titel: "Stagiair gecertificeerd accountant (jaar 3)"
+      stagemeester: "Pieter De Smet"
+    - naam: "Joris Devolder"
+      titel: "Stagiair gecertificeerd accountant (jaar 1)"
+      stagemeester: "Eva Janssens"
+
+# ---------------------------------------------------------------------------
+# Cliëntenportefeuille
+# ---------------------------------------------------------------------------
+
+clienten:
+  - id: "aurelia-industries"
+    naam: "Aurelia Industries NV"
+    sector: "Industriële productie (machinebouw)"
+    omvang: "Grote vennootschap — omzet 18 mln, 95 werknemers"
+    opdracht_types: ["Samenstelling jaarrekening", "Fiscaal advies", "VenB-aangifte"]
+    relatie_jaren: 8
+    aml_risico: "laag"
+    bijzonderheid: "Eén van de oudste cliënten. Standaard dossier."
+
+  - id: "vrolijke-hap"
+    naam: "Vrolijke Hap BV"
+    sector: "Horeca (restaurantketen, 3 vestigingen)"
+    omvang: "Kleine vennootschap — omzet 2,8 mln"
+    opdracht_types: ["Boekhouding", "BTW-aangifte", "VenB-aangifte"]
+    relatie_jaren: "nieuw — intake 2026"
+    aml_risico: "verhoogd"
+    bijzonderheid: |
+      Cash-zware sector. UBO blijkt twee neven te zijn (50/50 aandeelhouders).
+      Een van hen heeft een Bulgaarse fiscaliteit. Geen strafregister-issues
+      maar wel cash-stortingen van 8.500 EUR die in PDF-formaat als
+      "kasinkomsten" werden geboekt zonder onderliggende kasstaten.
+
+  - id: "nordica-productions"
+    naam: "Nordica Productions BV"
+    sector: "Mediaproductie (video / podcasts)"
+    omvang: "Kleine vennootschap — omzet 750 k"
+    opdracht_types: ["Samenstelling jaarrekening", "Fiscaal advies"]
+    relatie_jaren: 5
+    aml_risico: "laag"
+    bijzonderheid: |
+      Zaakvoerder Sofie Vandenbroucke is echtgenote van vennoot Pieter De Smet.
+      Reeds bij intake (2021) als familiariteitsbedreiging opgenomen — opdracht
+      uitgevoerd door collega-vennoot Eva Janssens, Pieter onthoudt zich.
+      Schriftelijk vastgelegd in opdrachtbrief en in interne onafhankelijkheids-
+      register.
+
+  - id: "greentech"
+    naam: "GreenTech BVBA"
+    sector: "Cleantech (zonnepaneel-installatie)"
+    omvang: "Kleine vennootschap — omzet 1,2 mln"
+    opdracht_types: ["Boekhouding", "Fiscaal advies", "VenB-aangifte"]
+    relatie_jaren: 4
+    aml_risico: "laag"
+    bijzonderheid: |
+      Cliënt weigert sinds Q3 2025 zijn ereloon-facturen te betalen
+      (achterstallig 7.200 EUR over drie facturen). Vraagt nu de boekhouding
+      en de werkdocumenten terug — overweegt naar ander kantoor. Triggert
+      retentierecht-vraag.
+
+  - id: "bouwgroep-vs"
+    naam: "Bouwgroep Vandersteen"
+    sector: "Bouw (algemene aannemer)"
+    omvang: "Middelgroot — omzet 5 mln"
+    opdracht_types: ["Boekhouding", "BTW", "Geschillen"]
+    relatie_jaren: "nieuw — overname uit confrater Bart Janssen"
+    aml_risico: "matig"
+    bijzonderheid: |
+      Confrater Bart Janssen ging in 2026 op pensioen en heeft zijn portfolio
+      overgedragen. Bouwgroep VS is daar één van de overgehevelde dossiers —
+      vraagt om predecessor-contact en correcte dossieroverdracht.
+
+  - id: "noordzee-vastgoed"
+    naam: "Noordzee Vastgoed NV"
+    sector: "Vastgoed (residentieel, kustprojecten)"
+    omvang: "Middelgroot — omzet 4,5 mln"
+    opdracht_types: ["Boekhouding", "Fiscaal advies"]
+    relatie_jaren: 6
+    aml_risico: "verhoogd"
+    bijzonderheid: |
+      In maart 2026 ontvangt het kantoor een verzoek van een bank om de
+      jaarrekening 2024 en een door de accountant ondertekend overzicht van
+      lopende contracten te bezorgen — zonder uitdrukkelijke instructie van de
+      cliënt. Daarnaast: bij een vastgoedtransactie in 2025 ontving cliënt
+      voor 22.000 EUR contant van een koper (boven de 3.000 EUR-cap).
+
+# ---------------------------------------------------------------------------
+# Dilemma-cases — leerstuk-koppeling
+# ---------------------------------------------------------------------------
+# Elk leerstuk steunt op één of meer dilemma's. Beats verwijzen hierheen
+# zodat dezelfde cliëntsituatie in meerdere leerstukken kan landen zonder
+# data-duplicatie.
+# ---------------------------------------------------------------------------
+
+dilemma_cases:
+
+  intake-vrolijke-hap:
+    leerstuk_trigger: ["opdrachtaanvaarding-en-clientenrelatie", "antiwitwasplichten-in-de-praktijk"]
+    situatie: |
+      Een nieuwe horeca-cliënt biedt zich aan: Vrolijke Hap BV, drie kleine
+      restaurants, cash-zware omzet (~30% van omzet contant), nieuwe BV
+      opgericht in januari 2026 door twee neven, een van hen heeft een
+      tweede woning in Bulgarije. Pieter De Smet doet de eerste intake.
+    leerpunten:
+      - "KYC: identificatie + UBO-bevestiging + risicoclassificatie van bij start"
+      - "Verhoogd cliëntenonderzoek — bron van middelen, plausibiliteit van omzet"
+      - "Opdrachtbrief moet AML-clausule bevatten + termijn permanente waakzaamheid"
+      - "Klassificatie 'verhoogd risico' triggert quarterly review i.p.v. annual"
+
+  echtgenote-zaakvoerder:
+    leerstuk_trigger: ["deontologische-beginselen-en-onafhankelijkheid"]
+    situatie: |
+      Nordica Productions BV, zaakvoerder = echtgenote van vennoot Pieter
+      De Smet. Familiariteitsbedreiging op kantoorniveau. Geen
+      onafhankelijkheids-eis voor samenstellingsopdracht, maar wel
+      objectiviteits-eis.
+    leerpunten:
+      - "Threats-and-safeguards-analyse: familiariteit + self-interest"
+      - "Waarborgen: andere vennoot doet de opdracht + interne review"
+      - "Schriftelijke documentatie in opdrachtbrief én onafhankelijkheids-register"
+      - "Verschil tussen onafhankelijkheids-eis (zekerheidsopdracht — striker) en objectiviteits-eis (alle opdrachten)"
+
+  dossieroverdracht-bouwgroep:
+    leerstuk_trigger: ["opdrachtaanvaarding-en-clientenrelatie"]
+    situatie: |
+      Confrater Bart Janssen draagt zijn portfolio over bij pensionering.
+      Bouwgroep Vandersteen is één van de overgehevelde dossiers. Voorganger
+      moet gecontacteerd worden vóór opdracht-aanvaarding (deontologische
+      norm). Geen aanbrengcommissie toegelaten.
+    leerpunten:
+      - "Predecessor-procedure: schriftelijk contact opnemen vóór aanvaarding"
+      - "Voorganger antwoordt over: ereloon-achterstand · openstaande discussies · deontologische voorbehoud"
+      - "Geen aanbrengcommissie (verboden onder ITAA-deontologie)"
+      - "Cliënt-instemming voor informatie-uitwisseling tussen voorganger en opvolger"
+
+  honorarium-greentech:
+    leerstuk_trigger: ["opdrachtaanvaarding-en-clientenrelatie"]
+    situatie: |
+      GreenTech BVBA betaalt sinds Q3 2025 niet meer (7.200 EUR open). Vraagt
+      werkdocumenten + boekhouding terug. Stagiair Lina vraagt of kantoor de
+      stukken kan achterhouden tot betaling.
+    leerpunten:
+      - "Retentierecht: drie categorieën stukken (eigendomsstukken cliënt vs werkdocumenten accountant vs gemengde stukken)"
+      - "Procedure: vervaltermijn → aanmaning → ingebrekestelling → retentie aankondigen"
+      - "Deontologische beperking: cliëntenbelang weegt zwaar — eigendomsstukken (originele facturen, statuten) moeten ten minste in kopie ter beschikking"
+      - "Opdrachtbrief-clausule kan retentierecht expliciet voorzien"
+
+  bank-vraag-noordzee:
+    leerstuk_trigger: ["beroepsgeheim-en-aansprakelijkheid"]
+    situatie: |
+      Bank vraagt jaarrekening 2024 + contractenoverzicht van Noordzee
+      Vastgoed NV, zonder uitdrukkelijke instructie van de cliënt. Bank
+      verwijst naar bestaande relatie + "het is in het belang van uw cliënt".
+    leerpunten:
+      - "Beroepsgeheim absoluut — wijkt niet voor 'cliëntbelang' of commerciële druk"
+      - "Bank kan alleen op uitdrukkelijke schriftelijke toelating cliënt informatie ontvangen"
+      - "Jaarrekening = publiek (NBB-neerlegging) — die mag zonder issue; contractenoverzicht ≠ publiek = geheim"
+      - "Schriftelijk antwoord aan bank: bevestiging geheimhouding + vraag aan cliënt om eventueel zelf de stukken te bezorgen"
+
+  cfi-melding-noordzee:
+    leerstuk_trigger: ["antiwitwasplichten-in-de-praktijk"]
+    situatie: |
+      Noordzee Vastgoed NV ontving in 2025 22.000 EUR contant van een koper
+      voor een aanbetaling — bedrag boven 3.000 EUR cap. Accountant
+      ontdekt dit bij doorlopende waakzaamheid (Q1 2026). Vraag: melden?
+    leerpunten:
+      - "Cash-limiet 3.000 EUR (Wet 18-09-2017 art. 67) — overschrijding is op zich verdacht"
+      - "Vermoeden witwassen → CFI-melding (geen aangifte aan parket, geen mededeling aan cliënt)"
+      - "Tippingverbod: cliënt niet inlichten over de melding (art. 55 AML-wet)"
+      - "Beroepsgeheim wijkt voor CFI-melding (wettelijke uitzondering)"
+      - "Bewaarplicht: bewijsstukken 10 jaar"
+
+  kwaliteitstoetsing-aankondiging:
+    leerstuk_trigger: ["kwaliteitstoezicht-en-tucht"]
+    situatie: |
+      ITAA kondigt op 15 april 2026 een kwaliteitstoetsing aan voor
+      15 juni 2026. Pieter De Smet krijgt de brief en vraagt aan stagiair
+      Lina om de voorbereiding te coördineren.
+    leerpunten:
+      - "Aankondiging minstens 2 maanden vooraf (art. 58 ITAA-wet)"
+      - "Toetser bekijkt: kantoor-organisatie + steekproef opdrachten + permanente vorming"
+      - "Voorbereiding: AML-procedure-document, opdrachtbrieven-templates, threats-analyses, vormings-bewijzen"
+      - "Drie sancties-niveaus mogelijk: positief / met aanbevelingen / negatief (heroriëntatie of tucht-doorverwijzing)"
+
+  meeneem-clienten-bart:
+    leerstuk_trigger: ["kwaliteitstoezicht-en-tucht", "deontologische-beginselen-en-onafhankelijkheid"]
+    situatie: |
+      Senior medewerker Bart Devos overweegt vertrek en wil enkele cliënten
+      meenemen naar nieuw kantoor. Hij is geen ITAA-lid (boekhouder) maar
+      sterft van een aanbrengcommissie-deal aan de overnemende ITAA-confrater.
+    leerpunten:
+      - "Aanbrengcommissie verboden onder ITAA-deontologie"
+      - "Cliëntenbestand-vertrouwelijkheid: medewerker mag cliëntenlijst niet meenemen of gebruiken"
+      - "Mogelijk strafrechtelijk + tucht voor de ontvangende ITAA-vennoot"
+      - "Procedure tegen Bart: civielrechtelijk (concurrentiebeding) — tegen confrater: tuchtklacht bij ITAA"
+
+# ---------------------------------------------------------------------------
+# Tabellen die in meerdere leerstukken gebruikt worden
+# ---------------------------------------------------------------------------
+
+tabellen:
+
+  vijf-fundamentele-beginselen:
+    titel: "De vijf fundamentele beginselen — kern + concretisering"
+    kolommen: ["Beginsel", "Kern", "Concretisering"]
+    rijen:
+      - ["**Integriteit**", "Eerlijk en oprecht in alle professionele relaties", "Geen valse of misleidende verklaringen; standpunt durven innemen ook tegen cliënt-belang in"]
+      - ["**Objectiviteit**", "Geen vooroordeel, belangenconflict of ongeoorloofde beïnvloeding", "Geldt voor *elke* opdracht (ook fiscaal advies); strenger voor zekerheidsopdrachten → onafhankelijkheid"]
+      - ["**Vakbekwaamheid + zorgvuldigheid**", "Kennis op peil + zorgvuldig handelen volgens standaarden", "Permanente vorming + opdracht weigeren bij ontbreken expertise"]
+      - ["**Vertrouwelijkheid**", "Geen openbaarmaking of gebruik van cliëntinfo buiten mandaat", "Strafrechtelijk gesanctioneerd (art. 458 SW) — dieper dan gewone discretie"]
+      - ["**Professioneel gedrag**", "Wet + reglement naleven; geen handeling die het beroep in diskrediet brengt", "Geen agressieve marketing, geen onverenigbare nevenactiviteit, correct toon naar derden"]
+
+  vijf-bedreigingen-onafhankelijkheid:
+    titel: "Vijf bedreigingen voor onafhankelijkheid (IESBA Section 120)"
+    kolommen: ["Bedreiging", "Wat?", "Concreet voorbeeld uit dit kantoor"]
+    rijen:
+      - ["**Self-interest** (eigenbelang)", "Financieel of ander persoonlijk belang in de cliënt", "Honorarium-afhankelijkheid (één cliënt > 30% van kantooromzet); aandelenbezit in cliënt"]
+      - ["**Self-review** (zelftoetsing)", "Eigen werk later opnieuw moeten beoordelen", "Boekhouding zelf voeren én daarna controle erop willen doen"]
+      - ["**Advocacy** (belangenbehartiging)", "Standpunt voor cliënt verdedigen alsof hij eigen is", "Fiscale geschillenadvocaat *en* commissaris voor dezelfde cliënt"]
+      - ["**Familiariteit**", "Te nauwe relatie met cliënt-management", "Vennoot Pieter — echtgenote is zaakvoerder cliënt (Nordica)"]
+      - ["**Intimidatie**", "Druk om aanpassing van oordeel", "Cliënt dreigt met opzegging of klacht als opdracht-besluit niet hem volgt"]
+
+  drie-sporen-aansprakelijkheid:
+    titel: "Drie sporen van aansprakelijkheid — cumulatief, niet alternatief"
+    kolommen: ["Spoor", "Grondslag", "Door wie ingesteld", "Sanctie"]
+    rijen:
+      - ["**Burgerrechtelijk**", "Art. 44 ITAA-wet + opdrachtbrief (contractueel) of art. 1382 BW (buitencontractueel)", "Cliënt of derde (bv. bank)", "Schadevergoeding"]
+      - ["**Strafrechtelijk**", "Wetboek (bv. art. 458 SW beroepsgeheim, art. 196 SW valsheid)", "Parket", "Boete + gevangenisstraf"]
+      - ["**Tuchtrechtelijk**", "Hoofdstuk 8 Wet 17 maart 2019 (ITAA-wet)", "Tuchtcommissie ITAA (klacht, vaststelling, ambtshalve)", "Berisping → schrapping van het register"]
+
+  aml-procedure-cyclus:
+    titel: "AML-cyclus — vier fases per cliëntrelatie"
+    kolommen: ["Fase", "Wat doet de accountant?", "Wanneer?"]
+    rijen:
+      - ["**1. Identificatie (KYC)**", "Cliënt + lasthebbers + UBO identificeren via eID, KBO, UBO-register", "Vóór opdracht-aanvaarding"]
+      - ["**2. Risicogradering**", "Lage / standaard / hoge risico-classificatie op basis van sector + geografie + structuur + opdracht-type", "Bij intake + bij significante wijziging"]
+      - ["**3. Doorlopende waakzaamheid**", "Transacties monitoren op consistentie met cliëntprofiel; verhoogd onderzoek bij rode vlaggen", "Continu tijdens de opdracht"]
+      - ["**4. Melding CFI bij vermoeden**", "Vermoeden witwassen of terrorisme-financiering → schriftelijke melding aan CFI, geen tipping cliënt", "Bij ontdekking — geen wachttermijn"]
+
+  normbronnen-hierarchie:
+    titel: "Normbronnen — zes lagen die op de accountant rusten"
+    kolommen: ["Laag", "Inhoud", "Voorbeeld voor PO 4.0"]
+    rijen:
+      - ["**1. Wet**", "Parlementaire wet — bovenste laag", "Wet 17 maart 2019 (ITAA) + Wet 18 september 2017 (AML)"]
+      - ["**2. KB**", "Uitvoeringsbesluit", "KB 9 december 2019 (deontologische code ITAA)"]
+      - ["**3. Reglement ITAA**", "Door Raad ITAA, na publicatie in Staatsblad", "Reglement antiwitwasprocedure ITAA"]
+      - ["**4. ITAA-norm**", "Beroepsnorm voor specifieke opdrachten", "Norm-opdrachtbrief, Norm permanente vorming, Norm intern kwaliteitsbeheer"]
+      - ["**5. Internationale standaard**", "IFAC / IAASB / IESBA — toegepast via verwijzing in ITAA-norm", "IESBA Code of Ethics, ISA 210, ISQM 1 + 2, ISRE 2400"]
+      - ["**6. Tuchtrechtspraak**", "Beslissingen tuchtcommissie + Hof van Beroep — interpretatieve laag", "Uitspraken over confraternele dossieroverdracht, ereloon-billijkheid"]
+
+  itaa-organen:
+    titel: "ITAA — interne organen + bevoegdheid"
+    kolommen: ["Orgaan", "Samenstelling", "Bevoegdheid voor PO 4.0"]
+    rijen:
+      - ["**Raad ITAA**", "Voorzitter + ondervoorzitter + 16 leden (NL/FR-paritair) — 3-jarig mandaat", "Reglementen uitvaardigen, register beheren, normen voorstellen"]
+      - ["**Commissie kwaliteitstoetsing**", "Door Raad benoemde toetsers + magistraat-voorzitter", "Periodieke peer review organiseren (typisch 6-jarige cyclus)"]
+      - ["**Tuchtcommissie** (1e aanleg)", "NL + FR kamer; magistraat-voorzitter + 2 ITAA-leden", "Tuchtsancties uitspreken na onderzoek rechtskundig assessor"]
+      - ["**Commissie van Beroep ITAA**", "Magistraat-voorzitter + leden uit ITAA + IBR (kruisbestuiving)", "Hoger beroep tegen tuchtbeslissingen"]
+      - ["**Stagecommissie**", "Door Raad benoemd", "Toelating tot stage, opvolgen stagiair, voorbereiding bekwaamheidsexamen"]
+
+  monopolieopdrachten:
+    titel: "Opdrachten exclusief voorbehouden aan gecertificeerd accountants (art. 3, 6°-8° Wet-ITAA)"
+    kolommen: ["Categorie", "Voorbeelden", "Reden monopolie"]
+    rijen:
+      - ["**Expertise**", "Gerechtelijk expertiseverslag inzake boekhouding; expertise vereffening / omvorming", "Gerecht / overheid vereist beëdigd professional"]
+      - ["**Attesterende opdrachten**", "Inbrengverslag in natura, omzettingsverslag (WVV), quasi-inbreng", "Bescherming van derden / kapitaalbehoud"]
+      - ["**Andere wettelijk voorbehouden**", "Verslag commissaris in bepaalde gevallen, attestering jaarrekening kleine vzw", "Wet wijst expliciet aan"]
+    noot: "Pure 'boekhouding voeren' is *geen* monopolie — kan ook door erkende boekhouder / eigen administratie. Het monopolie zit in attestering + expertise + wettelijk verslag."
+
+# ---------------------------------------------------------------------------
+# Beslisbomen — gebruik via mermaid_diagrammen ref
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  organogram-kantoor:
+    type: flowchart-td
+    code: |
+      V[Vennoten<br/>Pieter De Smet · Eva Janssens · Tom Vermeulen]
+      V --> M[Medewerkers]
+      V --> S[Stagiairs]
+      M --> M1[Bart Devos<br/>senior boekhouder]
+      M --> M2[Karolien Maes<br/>accountant]
+      M --> M3[Ahmed Bouazza<br/>junior boekhouder]
+      M --> M4[Lara Mertens<br/>administratie]
+      S --> S1[Lina Vermeulen<br/>stagejaar 3]
+      S --> S2[Joris Devolder<br/>stagejaar 1]
+      V -.->|AMLCO-rol| AML[Antiwitwas-verantwoordelijke<br/>= Pieter De Smet]
+      V -.->|Kwaliteits-verantwoordelijke| QM[ISQM-eigenaar<br/>= Eva Janssens]
+
+  threats-and-safeguards:
+    type: flowchart-td
+    code: |
+      A[Cliëntsituatie of opdracht] --> B[Identificeer<br/>bedreiging<br/>5 categorieën]
+      B --> C{Welke<br/>bedreiging?}
+      C -->|Self-interest| D1[Bv. honorarium-afhankelijkheid]
+      C -->|Self-review| D2[Bv. eigen werk reviewen]
+      C -->|Advocacy| D3[Bv. cliëntstandpunt verdedigen]
+      C -->|Familiariteit| D4[Bv. echtgenote zaakvoerder]
+      C -->|Intimidatie| D5[Bv. cliënt dreigt met opzegging]
+      D1 --> E[Beoordeel<br/>significantie]
+      D2 --> E
+      D3 --> E
+      D4 --> E
+      D5 --> E
+      E -->|Onaanvaardbaar| F1[Opdracht weigeren<br/>of beëindigen]
+      E -->|Aanvaardbaar mits waarborgen| F2[Waarborgen treffen<br/>+ documenteren]
+      F2 --> G[Engagement Quality Reviewer<br/>· Andere vennoot doet opdracht<br/>· Chinese walls<br/>· Schriftelijke disclosure<br/>· Periodieke rotatie]
+
+  aml-beslisboom:
+    type: flowchart-td
+    code: |
+      A[Cliëntrelatie of transactie] --> B[Rode vlag?]
+      B -->|Nee — normaal profiel| Z1[Doorlopende waakzaamheid]
+      B -->|Ja — verhoogd onderzoek nodig| C[Verhoogd cliëntenonderzoek]
+      C --> D{Vermoeden van witwassen<br/>of terrorisme-financiering?}
+      D -->|Nee — risico genuanceerd| Z2[Documenteer beoordeling<br/>+ hogere monitoring]
+      D -->|Ja| E[Schriftelijke melding CFI]
+      E --> F[Tippingverbod:<br/>cliënt niet inlichten]
+      F --> G[Bewaarplicht 10 jaar<br/>· KYC-stukken<br/>· risicoclassificatie<br/>· melding + ontvangstbewijs]
+
+  tuchtprocedure-flow:
+    type: flowchart-lr
+    code: |
+      A[Klacht of vaststelling] --> B[Rechtskundig assessor<br/>onderzoekt]
+      B --> C{Voldoende elementen?}
+      C -->|Nee| Z[Seponering]
+      C -->|Ja| D[Verwijzing tuchtcommissie<br/>eerste aanleg]
+      D --> E[Tuchtcommissie<br/>NL of FR kamer]
+      E --> F{Sanctie?}
+      F -->|Geen inbreuk| Z2[Vrijspraak]
+      F -->|Berisping / waarschuwing| S1[Lichte sanctie]
+      F -->|Schorsing / schrapping| S2[Zware sanctie]
+      S1 --> G[Eventueel beroep<br/>Commissie van Beroep ITAA]
+      S2 --> G
+
+# ---------------------------------------------------------------------------
+# Mock-opdrachtbrief-clausules (voor leerstuk 3)
+# ---------------------------------------------------------------------------
+
+mock_opdrachtbrief:
+  titel: "Opdrachtbrief — Vrolijke Hap BV (intake 2026) — uittreksel inhoud"
+  clausules:
+    - rubriek: "Identificatie partijen"
+      inhoud: "Kantoor De Smet & Partners BV (ITAA B-50.123), vertegenwoordigd door Pieter De Smet (gecertificeerd accountant, ITAA-nummer 12345) ↔ Vrolijke Hap BV (KBO 0123.456.789), vertegenwoordigd door zaakvoerders Karim en Yusuf Y."
+    - rubriek: "Begindatum opdracht"
+      inhoud: "1 maart 2026 — vanaf die datum draagt het kantoor zijn deontologische verantwoordelijkheid."
+    - rubriek: "Type opdracht"
+      inhoud: "Samenstellingsopdracht jaarrekening (ISRS 4410) + BTW-aangifte + VenB-aangifte. Geen audit, geen review."
+    - rubriek: "Honoraria"
+      inhoud: "Forfait 850 EUR/maand voor boekhouding + 1.200 EUR/aangifte voor BTW (kwartaal) + 2.500 EUR voor VenB-aangifte + jaarrekening. Indexatie jaarlijks volgens gezondheidsindex."
+    - rubriek: "Werkdocumenten + eigendom"
+      inhoud: "Eigendomsstukken cliënt (originele facturen, contracten) blijven cliënt-eigendom. Werkdocumenten kantoor (interne nota's, threats-analyses, AML-fiche) blijven kantoor-eigendom."
+    - rubriek: "Retentierecht"
+      inhoud: "Bij niet-betaling van vervallen erelonen kan het kantoor werkdocumenten achterhouden tot betaling, mits formele aanmaning + ingebrekestelling per aangetekend schrijven. Eigendomsstukken cliënt worden ten minste in kopie ter beschikking gesteld."
+    - rubriek: "Antiwitwas"
+      inhoud: "Cliënt erkent KYC-procedure en stelt UBO-stukken jaarlijks of bij wijziging ter beschikking. Het kantoor is wettelijk verplicht tot CFI-melding zonder cliënt-tippings bij vermoeden van witwassen."
+    - rubriek: "Beëindiging"
+      inhoud: "Door beide partijen opzegbaar mits drie maanden vooropzeg per aangetekend schrijven. Bij beëindiging zorgt kantoor voor confraternele overdracht aan opvolger (cliënt-instemming voorondersteld)."
+
+# ---------------------------------------------------------------------------
+# Notes voor render
+# ---------------------------------------------------------------------------
+
+render_notes:
+  - "De voorbeeldgroep is bewust niet-financieel (geen balansen, geen boekingen). Voor PO 4.0 zijn de relevante bouwstenen: profielen + dilemma-cases + procedure-tabellen + beslisbomen."
+  - "Cijfers (omzet, honorarium, jaaromzet kantoor) zijn fictief maar in lijn met realistische orde van grootte voor een middelgroot Gents kantoor."
+  - "Drempel-bedragen (3.000 EUR cash-cap, 1,5 mln EUR verzekering) niet hardcoden in leerstukken — verwijzen naar Cijferzakboekje / Wet 18-09-2017 / KB."

@@ -1,0 +1,233 @@
+# Leerstuk-script — Opdrachtaanvaarding en cliëntenrelatie
+#
+# PO 4.0 leerstuk 3 (proces — zwaarste). Zet neer: vier-stappen-
+# aanvaardingsproces (KYC + integriteit + bekwaamheid + onafhankelijk-
+# heid) + opdrachtbrief-inhoud + kantoorvoering tijdens de opdracht +
+# beëindiging incl. confraterne overdracht + retentierecht.
+#
+# Hand-off: dit leerstuk dekt taak.1 (cliëntaanvaarding) + taak.2
+# (communicatie). Leerstuk 4 verdiept beroepsgeheim ↔ communicatie-
+# grenzen; leerstuk 5 verdiept de AML-fase van de aanvaarding.
+
+meta:
+  slug: opdrachtaanvaarding-en-clientenrelatie
+  titel: "Opdrachtaanvaarding en cliëntenrelatie"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — proces (zwaarste): hoe pak je een nieuwe cliënt
+    op — van intake (4 stappen: KYC + integriteit + bekwaamheid +
+    onafhankelijkheid) tot opdrachtbrief (13 inhoudsvelden) tot
+    kantoorvoering tijdens de opdracht (review-piramide + dossier)
+    tot beëindiging (confraterne overdracht + retentierecht). Op De
+    Smet & Partners met vier cliëntcases: Vrolijke Hap (intake-
+    horeca), Bouwgroep Vandersteen (predecessor), GreenTech (retentie-
+    recht), Nordica (al beoordeeld in leerstuk 2).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit het zwaarste leerstuk is — de cliëntcyclus van
+    intake tot afscheid, met alle deontologische scharniermomenten.
+    Bouwt voort op [[deontologische-beginselen-en-onafhankelijkheid]]
+    voor de threats-and-safeguards-cyclus. Examen-favoriet: 4×
+    dossieroverdracht + 3× erelonen + 4× cliëntenacceptatie in de
+    voorbeeldexamens.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: elke nieuwe cliënt doorloopt VIER aanvaardingsstappen — (1) cliëntenonderzoek + integriteits-check (KYC voor AML); (2) competentie + capaciteit (kan kantoor de opdracht aan?); (3) onafhankelijkheids-evaluatie (threats-and-safeguards); (4) eventueel overdrachtsgesprek met vorige beroepsbeoefenaar. Pas bij groen licht op alle vier: opdrachtbrief opstellen + ondertekenen + uitvoering starten."
+    - "OPDRACHTBRIEF = verplicht schriftelijk voor élke opdracht (ITAA-norm-opdrachtbrief + art. 42 Wet-ITAA). Geen uitzondering — ook bij vaste cliënt sinds 15 jaar. Dertien inhoudsvelden, ondertekening in tweevoud, vóór uitvoering. Drie functies tegelijk: contractueel (wat doen we voor welk bedrag), risico-management (scope + aansprakelijkheid), deontologisch (vanaf welke datum draagt accountant verantwoordelijkheid)."
+    - "BEËINDIGING is geen administratieve formaliteit. Bij wissel: confraterne overdracht met predecessor-gesprek (geen aanbrengcommissie — verboden). Bij honoraria-geschil: retentierecht mogelijk maar deontologisch begrensd — eigendomsstukken cliënt blijven cliënt-eigendom, kopie verplicht beschikbaar; en stukken die cliënt nodig heeft voor wettelijke verplichtingen (aangiftes binnen vervaltermijn) mogen NIET worden achtergehouden."
+  visualisaties:
+    - type: mermaid
+      ref: organogram-kantoor
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We doorlopen de cyclus op vier cliëntcases — intake Vrolijke Hap (KYC + onafhankelijkheid), Bouwgroep Vandersteen (confraterne overdracht), GreenTech (retentie-vraag), Nordica (al door leerstuk 2 ingericht).'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vier-stappen-aanvaarding
+    titel: "Vier stappen vóór je tekent"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: aanvaarding is GEEN administratieve formaliteit. Het is een actieve professionele beslissing — wie te snel ja zegt, sleept zich vier fases lang door problemen óf moet de opdracht terug geven met reputatie-impact. ITAA-norm-kmo-controlenorm § 2.2.1 schrijft vier cumulatieve stappen voor."
+      - "Stap 1 — CLIËNTENONDERZOEK + INTEGRITEITS-CHECK. KYC-component is verplicht onder de Antiwitwaswet 18-09-2017 (uitgewerkt in [[antiwitwasplichten-in-de-praktijk]]). Bovenop KYC: algemene integriteitsbeoordeling — open bronnen, gerechtelijke databanken (faillissementsregister, KBO), referenties. Bij wissel: contact met vorige accountant. Cliënt met lopende strafprocedure of weigering vorige accountant = rode vlag. Bij Vrolijke Hap: KYC + UBO-bevestiging via UBO-register + sectorrisico (horeca-cash) → verhoogd onderzoek."
+      - "Stap 2 — COMPETENTIE + CAPACITEIT. Kan dit kantoor de opdracht aan? Vier sub-vragen: (a) sector-kennis — heeft het kantoor expertise in de cliëntsector?; (b) volume — zijn er voldoende uren beschikbaar in de geplande periode?; (c) vertegenwoordiger-natuurlijke persoon — wie tekent? Heeft die de juiste hoedanigheid (gecertificeerd accountant voor monopolieopdrachten, bedrijfsrevisor voor commissaris-mandaten)?; (d) externe expertise — is een specialist nodig (IT-audit, fiscale specialist, juridisch)?. Het vakbekwaamheids-beginsel uit [[deontologische-beginselen-en-onafhankelijkheid]] dwingt afwijzen bij ontbrekende expertise."
+      - "Stap 3 — ONAFHANKELIJKHEIDS- EN ETHIEK-EVALUATIE. Doorloop threats-and-safeguards-cyclus (zie [[deontologische-beginselen-en-onafhankelijkheid]]) — vijf bedreigingen scannen + niveau evalueren + waarborgen treffen of opdracht weigeren. Bij Nordica (echtgenote-zaakvoerder): familiariteitsbedreiging → waarborgen toegepast (andere vennoot doet opdracht + interne review + register-vermelding). Bij assurance-opdrachten: extra checklist financiële belangen, familie, niet-assurance-diensten."
+      - "Stap 4 — OVERDRACHTSGESPREK met vorige beroepsbeoefenaar (alleen bij wisseling). Confraternele verplichting onder ITAA-deontologie + IESBA Section 320. Doel: (a) cliënt-instemming verkrijgen voor uitwisseling; (b) vorige accountant vragen of er deontologische bezwaren zijn; (c) bij commissaris-opdracht: laatste verslag + werkdocumenten kennen. Belangrijk: GEEN AANBRENGCOMMISSIE TOEGELATEN. De voorganger mag geen vergoeding ontvangen voor het 'doorgeven' van de cliënt — dat schendt art. 30 KB plichtenleer (ronselverbod). Bouwgroep Vandersteen-case: Bart Janssen draagt zijn portefeuille over wegens pensionering. Pieter belt Bart vóór hij Bouwgroep tekent; geen bezwaren; geen commissie. Cliënt-instemming voor uitwisseling = vereist."
+      - "Synthese (vetgedrukt): de vier stappen zijn CUMULATIEF. Eén nee = geen aanvaarding. Documentatie van elke stap in een engagement-acceptance-memo, ge-reviewed door tweede partner — bij kwaliteitstoetsing is dat memo het hoofdbewijsstuk."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Wat checken?", "Bewijsstuk in dossier", "Cross-link"]
+        rijen:
+          - ["**1. KYC + integriteits-check**", "Identificatie cliënt + UBO + bestuurders · gerechtelijke databanken · vorige opzegging", "Kopie identiteitsstukken + UBO-bewijs + integriteits-fiche", "[[antiwitwasplichten-in-de-praktijk]]"]
+          - ["**2. Competentie + capaciteit**", "Sector-kennis · uren-budget · juiste hoedanigheid · externe expertise nodig?", "Competentie-memo", "—"]
+          - ["**3. Onafhankelijkheid + ethiek**", "5 bedreigingen scannen · waarborgen plannen · onafhankelijkheidsregister checken", "Threats-and-safeguards-fiche", "[[deontologische-beginselen-en-onafhankelijkheid]]"]
+          - ["**4. Overdrachtsgesprek (bij wissel)**", "Cliënt-instemming · contact voorganger · geen aanbrengcommissie", "Schriftelijke bevestiging gesprek + cliënt-mandaat", "—"]
+
+  - id: opdrachtbrief-inhoud
+    titel: "De opdrachtbrief — 13 inhoudsvelden, verplicht schriftelijk"
+    niveau: 2
+    beats:
+      - "Open met het wettelijk fundament: art. 42 Wet-ITAA + ITAA-norm-opdrachtbrief verplichten een schriftelijke opdrachtbrief vóór ELKE opdracht — geen uitzondering. Niet alleen voor commissaris-mandaten, ook voor courante boekhoudingen en fiscale aangiftes. Bij doorlopende mandaten: ofwel jaarlijks nieuw, ofwel raamovereenkomst met jaarlijkse bevestiging. 'We doen dat altijd zo' is geen verdediging bij tucht."
+      - "Drie functies van de opdrachtbrief — vetgedrukt. (1) Contractueel — wat doen we voor welk bedrag, welke verantwoordelijkheden voor cliënt en accountant. (2) Risico-management — scope-afbakening voorkomt scope creep ('we dachten dat u dat ook deed'), aansprakelijkheidsclausules beperken risico binnen wettelijke grenzen. (3) Deontologisch — vanaf welke begindatum draagt de accountant zijn deontologische verantwoordelijkheid; expliciete vermelding type opdracht (controle vs samenstelling vs review) voorkomt verwarring over zekerheidsniveau."
+      - "Dertien verplichte inhoudsvelden — toon de tabel. Sommige zijn intuïtief (partijen + honoraria + termijnen), andere subtiel (begindatum, type opdracht met normverwijzing, aansprakelijkheids-clausule, klachtenprocedure). De vertegenwoordiger-natuurlijke persoon moet expliciet vermeld worden — niet alleen het kantoor — omdat hij persoonlijk de deontologische verantwoordelijkheid draagt. Bij De Smet: Pieter tekent voor de samenstellingsopdracht Aurelia; bij een potentieel monopolieopdracht (omzettingsverslag) is handtekening-delegatie verboden."
+      - "Aansprakelijkheidsclausule — examen-favoriet. Mag de accountant zijn aansprakelijkheid contractueel beperken? Antwoord: ja, maar BEHALVE in twee gevallen (art. 44 lid 2 Wet-ITAA): (a) fout met bedrieglijk opzet of oogmerk te schaden (algemeen contractenrecht); (b) opdrachten voorbehouden aan gecertificeerd accountants (monopolieopdrachten = wettelijk geen exoneratie). Voor commissaris-opdrachten: bedrijfsrevisor mag evenmin exonereren (art. 14 revisorenwet). Voor andere opdrachten: beperking tot bv. 5× of 10× honorarium gangbaar."
+      - "Concretiseer met mock-opdrachtbrief Vrolijke Hap — uittreksel tonen. Belangrijke clausules: (a) begindatum 1 maart 2026; (b) type opdracht = samenstelling ISRS 4410 + BTW + VenB (expliciet GEEN audit, GEEN review); (c) honorarium-modaliteiten + opschortingsclausule bij wanbetaling; (d) AML-clausule (cliënt erkent KYC-procedure); (e) eigendomsstukken vs werkdocumenten; (f) retentierecht-clausule; (g) opzegtermijn 3 maanden."
+      - "Belangrijke nuance (blockquote-aside): de norm laat toe DRINGENDE prestaties uit te voeren vóór ondertekening (bv. fiscaal bezwaarschrift met deadline). Voorwaarde: opdrachtbrief zo snel mogelijk met retroactiviteits-clausule + schriftelijke rechtvaardiging waarom de tijd er niet was. Mag niet door de accountant zelf veroorzaakt zijn — 'ik vergat te tekenen' telt niet."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Nr.", "Veld", "Cruciaal omdat..."]
+        rijen:
+          - ["1", "Identificatie partijen + vertegenwoordiger-natuurlijke persoon", "Persoonlijke deontologische verantwoordelijkheid + juiste hoedanigheid bij monopolie"]
+          - ["2", "**Begindatum opdracht**", "Vanaf wanneer draagt accountant zijn deontologische verantwoordelijkheid"]
+          - ["3", "**Type opdracht** + verwijzing toepasselijke norm", "Zekerheidsniveau (controle/review/samenstelling/AUP) — voorkomt verwachtingsgap"]
+          - ["4", "Scope — welke financiële overzichten of procedures", "Voorkomt scope creep"]
+          - ["5", "Verantwoordelijkheden management — toegang verschaffen, info aanleveren", "Wettelijke afbakening cliënt-plichten"]
+          - ["6", "Verantwoordelijkheden beroepsbeoefenaar", "Uitvoeren volgens norm + beroepsgeheim + professioneel oordeel"]
+          - ["7", "Honoraria — bedrag/methode + betalingsvoorwaarden + opschortingsclausule", "Inning + retentierecht-onderbouwing"]
+          - ["8", "Termijnen — aanlevering documenten + rapport-deadline", "Examen-favoriet 4.0.taak.2.doel.4 (termijnen)"]
+          - ["9", "Vertrouwelijkheid + AVG/GDPR", "Beroepsgeheim contractueel bevestigd"]
+          - ["10", "**Aansprakelijkheid** — contractuele beperking (binnen grenzen art. 44 Wet-ITAA)", "GEEN beperking bij monopolieopdrachten of bedrieglijk opzet"]
+          - ["11", "Duurtijd + beëindiging — onbepaalde duur of bepaalde duur + opzegtermijn", "Confraterne overdrachtsregeling"]
+          - ["12", "**Klachtenprocedure** — intern + ITAA-mediator", "Voorkomt directe escalatie naar tucht"]
+          - ["13", "Algemene voorwaarden — als bijlage te ondertekenen", "Volledigheid contract"]
+
+  - id: kantoor-organisatie-tijdens-opdracht
+    titel: "Kantoor-organisatie tijdens de opdracht"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de opdrachtbrief is het beginpunt — de uitvoering vraagt structuur. ITAA-norm intern kwaliteitsmanagement (gebaseerd op ISQM 1) vereist een kantoorsysteem dat redelijke zekerheid biedt over kwaliteit en deontologische naleving. Vier dimensies komen samen tijdens een opdracht."
+      - "Dimensie 1 — TEAM-COÖRDINATIE + SUPERVISIE. Opdracht-toewijzing op basis van competentie + ervaring. Review-piramide: junior werkt → senior reviewt → partner tekent. Voor monopolieopdrachten: handtekening NIET delegeerbaar (art. 16 KB plichtenleer). Voor risicovolle opdrachten: bijkomende Engagement Quality Review door tweede partner. Bij De Smet: stagiair Joris doet voorbereidend werk op Bouwgroep Vandersteen → Karolien (senior) reviewt → Eva (vennoot) tekent."
+      - "Dimensie 2 — DOSSIERVOERING. Voor monopolieopdrachten: schriftelijke aantekening werkzaamheden verplicht (art. 16 KB plichtenleer). Voor alle opdrachten: dossier met opdrachtbrief + threats-analyses + werkpapieren + cliëntcommunicatie + afgeleverde verslagen. Bewaartermijn minstens 10 jaar (AML-wet) of langer afhankelijk van opdrachttype. Vorm vrij — papier of digitaal — maar wel ordentelijk en retrieve-baar voor kwaliteitstoetsing of latere klacht."
+      - "Dimensie 3 — STAKEHOLDER-COMMUNICATIE. Drie informatie-niveaus: (a) publiek toelaatbaar — naam cliënt + algemene aard opdracht; (b) vertrouwelijk — boekhouding cliënt, aangiftes (niet 'geheim' in zin van art. 458 SW maar contractueel beschermd); (c) beroepsgeheim — vertrouwelijke informatie in beroepsuitoefening, strafrechtelijk beschermd. Externe communicatie (banken, fiscus, sociale zekerheid, rechtbank) gebeurt via CLIËNT-MANDAAT — cliënt is bron, accountant is mandataris. Diepere uitwerking in [[beroepsgeheim-en-aansprakelijkheid]]."
+      - "Dimensie 4 — DIGITALE WERKOMGEVING + AVG/GDPR. Cliëntportaal, dossierbeheer, e-signature, cloud-hosting. Beveiligingsmaatregelen niet vrijblijvend: een datalek wegens onvoldoende IT-beveiliging is tegelijk AVG-overtreding (boete) én schending beroepsgeheim (tuchtspoor). Concrete vereisten: 2FA, encrypted storage, toegangscontrole per dossier, verwerkersovereenkomst (DPA) met cloud-leverancier, datalek-melding GBA binnen 72u."
+      - "Concretiseer met De Smet-organogram (mermaid). Pieter (verantwoordelijke op hoogste niveau + AMLCO), Eva (ISQM-eigenaar = kwaliteitsmanager), Tom (gecertificeerd belastingadviseur). Twee stagiairs onder stagemeester-vennoten. Externe IT-systeembeheerder (Wouter — deeltijds) bewaakt cybersecurity. Maandelijks partner-overleg behandelt threats-incidenten + cliënt-portfolio-evaluatie."
+    visualisaties:
+      - type: mermaid
+        ref: organogram-kantoor
+        bron: voorbeeldgroep
+
+  - id: beeindiging-en-overdracht
+    titel: "Beëindiging en confraterne overdracht"
+    niveau: 2
+    beats:
+      - "Open met het Bouwgroep-Vandersteen-perspectief vanuit De Smet (de opvolger). Confrater Bart Janssen draagt zijn portefeuille over bij pensionering. Vier deontologische scharniermomenten."
+      - "Scharnier 1 — PREDECESSOR-PROCEDURE vóór aanvaarding. De OPVOLGER (Pieter) moet schriftelijk contact opnemen met de VOORGANGER (Bart). Doel: bezwaren? Ereloon-achterstand? Lopende discussies? Deontologische voorbehoud? Voorganger is gebonden door beroepsgeheim — mag alleen in algemene termen antwoorden (zie [[beroepsgeheim-en-aansprakelijkheid]] — IESBA Section 320 expliciete uitzondering)."
+      - "Scharnier 2 — CLIËNT-INSTEMMING voor informatie-uitwisseling. Cliënt (Bouwgroep) moet schriftelijk toestaan dat voorganger met opvolger praat. Zonder die instemming: voorganger blokkeert op beroepsgeheim, en opvolger kan zijn aanvaardings-beslissing niet volledig motiveren — gevolg: opvolger moet weigeren of opdracht-acceptance onder voorbehoud."
+      - "Scharnier 3 — GEEN AANBRENGCOMMISSIE. Belangrijk + examen-favoriet. ITAA-deontologie verbiedt elke vorm van vergoeding tussen voorganger en opvolger voor het 'doorgeven' van een cliënt (art. 30 KB plichtenleer). Bouwgroep-overdracht moet GRATIS verlopen. Tegen-voorbeeld in De Smet: Bart Devos (boekhouder, geen ITAA-lid) overweegt vertrek en wil cliënten meenemen — als de overnemende ITAA-vennoot hem een 'aanbrengcommissie' zou betalen, pleegt die ITAA-vennoot een tuchtfeit (zie [[kwaliteitstoezicht-en-tucht]]). Bart zelf valt niet onder ITAA-tucht maar mogelijk wel onder concurrentiebeding."
+      - "Scharnier 4 — DOSSIER-OVERDRACHT. Eigendomsstukken cliënt (originele facturen, contracten, statuten) MOETEN naar de cliënt of nieuwe accountant. Werkdocumenten kantoor (interne nota's, threats-analyses, draft-rapporten) BLIJVEN bij voorganger (zijn eigendom). Hybride stukken (afgeronde aangiften, jaarrekening klaar voor neerlegging) zijn grijs gebied — typisch wel overdragen tenzij honoraria-geschil. Bij geschil: retentierecht-discussie (zie volgend hoofdstuk)."
+      - "Synthese (vetgedrukt): opdracht-beëindiging is geen administratie maar een deontologisch reglement-blok. Aanbrengcommissie verbieden, predecessor-procedure volgen, cliënt-instemming verkrijgen, eigendomsstukken behoorlijk overdragen. Bij wanorde: tuchtklacht door cliënt of opvolger is realistisch."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Scharnier", "Wie?", "Wat?", "Tucht-risico bij overtreding"]
+        rijen:
+          - ["**1. Predecessor-procedure**", "Opvolger contacteert voorganger schriftelijk", "Bezwaren? Ereloon? Lopende discussies?", "Geen contact = onafhankelijkheid-fout"]
+          - ["**2. Cliënt-instemming**", "Cliënt geeft schriftelijke toestemming voor uitwisseling", "Zonder: voorganger zwijgt onder beroepsgeheim", "Voorganger mag dan niets zeggen (beroepsgeheim absoluut)"]
+          - ["**3. Geen aanbrengcommissie**", "Voorganger ↔ opvolger", "Vergoeding 'voor doorgeven cliënt' verboden", "Tuchtfeit voor ontvangende ITAA-vennoot (art. 30 KB plichtenleer)"]
+          - ["**4. Dossier-overdracht**", "Voorganger naar cliënt/opvolger", "Eigendomsstukken cliënt moeten over — werkdocumenten blijven", "Achterhouden eigendomsstukken = tuchtfeit + civiel risico"]
+
+  - id: retentierecht
+    titel: "Retentierecht bij honoraria-geschil"
+    niveau: 2
+    beats:
+      - "Open met de GreenTech-case. GreenTech BVBA betaalt sinds Q3 2025 niet meer — 7.200 EUR open over drie facturen. Cliënt vraagt nu de boekhouding en werkdocumenten terug. Mag De Smet & Partners stukken achterhouden tot betaling?"
+      - "Conceptueel: het retentierecht van de accountant is het RECHT om bij niet-betaling van vervallen honoraria of bij geschil dossiers en stukken onder zich te houden tot de schuld is voldaan. Geen specifieke wettelijke bepaling voor accountants — afgeleid uit algemene burgerrechtelijke retentierecht-leer + ingeperkt door deontologische beginselen (publiek belang + zorgplicht + objectiviteit)."
+      - "DRIE CATEGORIEËN STUKKEN — vetgedrukt onderscheid. (a) EIGENDOMSSTUKKEN CLIËNT — originele facturen, contracten, bankafschriften, statuten, salarisfiches. Eigendom blijft cliënt. Retentie hier is deontologisch erg moeilijk. Accountant moet ten minste KOPIE ter beschikking stellen. (b) WERKDOCUMENTEN ACCOUNTANT — werkpapieren, interne analyses, threats-fiches, draft-notes. Eigendom accountant. Retentie eerder verdedigbaar. (c) HYBRIDE RESULTATEN — definitieve fiscale aangifte, jaarrekening klaar voor neerlegging, opdrachtverslag. Vermogensrechtelijk werkdocument maar functioneel onmisbaar voor cliënt-wettelijke verplichtingen. Grijs gebied — meestal ongepast wanneer vervaltermijn dringt."
+      - "VIER CUMULATIEVE VOORWAARDEN voor legitieme retentie: (1) duidelijke schuldvordering — vervallen factuur of erkend geschilbedrag; (2) connexiteit — het achtergehouden stuk komt voort uit dezelfde prestaties die tot de onbetaalde factuur leidden; (3) voorafgaande aanmaning per aangetekend schrijven + ingebrekestelling; (4) proportionaliteit — schade voor cliënt mag niet buiten verhouding staan tot onbetaalde bedrag."
+      - "ABSOLUTE GRENZEN — wanneer NOOIT retentie. (a) Cliënt heeft stukken acuut nodig voor wettelijke verplichting met vervaltermijn (fiscale aangifte op vervaltermijn, jaarrekening-neerlegging) — retentie hier veroorzaakt boetes voor cliënt, schade buiten verhouding, schending zorgplicht. (b) Toezichthouders (ITAA-kwaliteitstoetsing, CFI, FOD Financiën) hebben recht op AML-stukken binnen 10-jaar-bewaartermijn — retentie tegenover cliënt = OK, weigering tegenover toezichthouder = niet-OK. (c) Geen vervallen factuur of erkend geschil — retentie als preventief drukmiddel is deontologisch ongepast."
+      - "Concrete gedragslijn GreenTech-case (mini-stappenplan): (1) inventariseer stukken per categorie; (2) ga na of acute vervaltermijnen lopen (BTW-aangifte? VenB? Jaarrekening-neerlegging?); (3) ingebrekestelling met retentie-aankondiging + termijn 15 dagen; (4) bij niet-betaling: schriftelijke kennisgeving retentie van werkdocumenten + eigendomsstukken-kopieën aanbieden; (5) parallelle invorderingsprocedure starten (niet 'retentie als enige drukmiddel'); (6) bij twijfel: Raad ITAA voor bemiddeling."
+      - "PREVENTIE in opdrachtbrief — vetgedrukt. Beste preventie is een retentierecht-clausule in de opdrachtbrief: honorarium-betaaltermijnen + verwijlinterest + bij niet-betaling > 60 dagen voorbehoud van retentie voor werkdocumenten exclusief stukken die cliënt wettelijk acuut nodig heeft + bemiddeling via Raad ITAA. Contractueel onderbouwd retentierecht is deontologisch beter verdedigbaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Soort stuk", "Eigendom", "Retentie deontologisch?", "Voorbeeld bij GreenTech"]
+        rijen:
+          - ["**Eigendomsstuk cliënt**", "Cliënt", "Erg moeilijk te verdedigen — kopie verplicht", "Originele aankoopfacturen, statuten, contracten"]
+          - ["**Werkdocument accountant**", "Accountant", "Verdedigbaar mits 4 voorwaarden", "Threats-analyses, interne nota's, draft-fiches"]
+          - ["**Hybride resultaat**", "Accountant (vermogensrechtelijk)", "Grijs — meestal ongepast bij vervaltermijn", "Afgeronde VenB-aangifte vóór indien-deadline"]
+          - ["**AML-stuk** (KYC, transactie-bewijs)", "Accountant", "Tegen cliënt: OK · Tegen toezichthouder: NOOIT", "10-jaar bewaartermijn — beschikbaar voor inspectie"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat een vaste cliënt geen nieuwe opdrachtbrief nodig heeft. FOUT — ITAA-norm-opdrachtbrief én ITAA-norm-intern-kwaliteitsmanagement vereisen schriftelijke opdrachtbrief voor ELKE opdracht. Bij doorlopende mandaten: ofwel jaarlijks nieuwe brief, ofwel raamovereenkomst met jaarlijkse bevestiging. Bij kwaliteitstoetsing is een ontbrekende opdrachtbrief direct vaststelbare tekortkoming — geen verdediging mogelijk."
+      - "Valkuil 2 (⚠️): aanbrengcommissie betalen of ontvangen bij dossier-overdracht. FOUT — ITAA-deontologie verbiedt elke vorm van vergoeding tussen voorganger en opvolger voor het 'doorgeven' van een cliënt (art. 30 KB plichtenleer). Bij Bart-Devos-scenario: als de ontvangende ITAA-vennoot hem zou betalen voor de meegenomen cliënten, pleegt die vennoot een tuchtfeit. Het maakt niet uit of de betaling 'consultancyhonorarium' of 'opleidingsvergoeding' heet — substantie boven vorm."
+      - "Valkuil 3 (⚠️): retentierecht zien als drukmiddel zonder grenzen. FOUT — drie absolute grenzen. (a) Cliënt heeft stukken nodig voor acute wettelijke vervaltermijn → retentie veroorzaakt boetes → schade buiten verhouding → tuchtfeit. (b) Eigendomsstukken cliënt blijven cliënt-eigendom — kopie verplicht. (c) AML-stukken moeten beschikbaar blijven voor toezichthouders. Wie GreenTech-aangifte vlak voor de vervaltermijn achterhoudt, krijgt een tuchtklacht — en de invorderingsprocedure had hij sowieso parallel kunnen voeren."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: beroepsgeheim-en-aansprakelijkheid
+      hint: "Wat mag je tegen welke derde zeggen — predecessor-gesprek, bank-vragen, communicatie met fiscus — en welke aansprakelijkheid loopt je bij een fout. Drie sporen (burgerlijk + strafrechtelijk + tucht)."
+    - slug: antiwitwasplichten-in-de-praktijk
+      hint: "Verdieping KYC en risicogradering uit Stap 1 van de aanvaarding — plus doorlopende waakzaamheid en CFI-melding."
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "Hoe de kantoor-organisatie wordt getoetst (ISQM 1 + ITAA-kwaliteitstoetsing) en wat er gebeurt bij overtreding (tuchtprocedure)."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vier-stappen-aanvaarding + opdrachtbrief-checklist + retentie-grenzen op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [opdrachtaanvaarding-en-opdrachtbrief, kantoor-organisatie]
+    - concepten: [retentierecht-accountant, onafhankelijkheid]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Opdrachtbrief — wettelijke basis"
+    ref: "Wet 17 maart 2019 (ITAA-wet) art. 42"
+    noot: "Vereiste schriftelijke opdrachtbrief vóór elke opdracht. Vertegenwoordiger-natuurlijke persoon expliciet vermelden."
+  - onderwerp: "Aansprakelijkheid + verbod op exoneratie"
+    ref: "Wet 17 maart 2019 art. 44"
+    noot: "Lid 1 = burgerrechtelijke aansprakelijkheid gemeen recht. Lid 2 = geen exoneratie bij bedrieglijk opzet of voorbehouden opdrachten. Lid 3 = verzekeringsplicht."
+  - onderwerp: "Onverenigbaarheden bij opdrachtaanvaarding"
+    ref: "Wet 17 maart 2019 art. 48"
+    noot: "Verbiedt voorwaarden die objectieve uitvoering in gedrang brengen."
+  - onderwerp: "Opdrachtbrief-vormvereisten + 13 inhoudsvelden"
+    ref: "ITAA-norm-opdrachtbrief § 2-8"
+    noot: "Inclusief retroactiviteit-uitzondering bij dringende prestaties (§ 5)."
+  - onderwerp: "Aanvaardings-discipline + threats-analyse"
+    ref: "ITAA-norm intern kwaliteitsmanagement par. 11 + 13"
+    noot: "Vereist documentatie van aanvaarding + onafhankelijkheids-evaluatie."
+  - onderwerp: "Aanvaardings-cyclus voor controle/review-opdrachten"
+    ref: "ITAA-norm-kmo-controlenorm § 2.2.1 §32-§38"
+    noot: "Vier-stappen-proces uitgewerkt voor assurance-context."
+  - onderwerp: "Internationale aanvaardings-standaard"
+    ref: "ISA 210 (Overeenkomen van de voorwaarden van controleopdrachten) + ISA 220 (herzien) — cliëntaanvaarding en -continuering"
+    noot: "Bindend voor commissaris-opdrachten."
+  - onderwerp: "IESBA — bedreigingen + overdrachtsgesprek + belangenconflict"
+    ref: "IESBA Code of Ethics — Section 120 + Section 320 + Section 310"
+    noot: "Section 320 = predecessor-procedure bij wisseling. Section 310 = belangenconflicten + informed consent + Chinese walls."
+  - onderwerp: "Verbod handtekening-delegatie + schriftelijke aantekening werkzaamheden"
+    ref: "KB 1 maart 1998 — Reglement van plichtenleer art. 16-17"
+    noot: "Geldt voor monopolieopdrachten — vertegenwoordiger-natuurlijke persoon tekent zelf."
+  - onderwerp: "Ronselverbod (= geen aanbrengcommissie)"
+    ref: "KB 1 maart 1998 — Reglement van plichtenleer art. 30"
+    noot: "Vergoeding mag niet afhangen van andere diensten. Geldt ook voor cliënt-overdracht tussen ITAA-leden."
+  - onderwerp: "KYC bij opdrachtaanvaarding"
+    ref: "Wet 18 september 2017 (antiwitwaswet) art. 19 + 21-32"
+    noot: "Uitgewerkt in [[antiwitwasplichten-in-de-praktijk]]."
+  - onderwerp: "Retentierecht — algemene burgerrechtelijke leer"
+    ref: "Burgerlijk Wetboek (Boek 5 BW) — algemene retentierecht-leer"
+    noot: "Geen specifiek wettelijk regime voor accountants — afgeleid uit algemene leer + ingeperkt door deontologische beginselen (art. 37 Wet-ITAA)."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."

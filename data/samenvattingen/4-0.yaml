@@ -1,0 +1,234 @@
+# Samenvatting-script — PO 4.0 Deontologische beginselen en antiwitwaswetgeving
+#
+# Schema in data/samenvattingen/SCHEMA.md.
+# Gebouwd op basis van de zes PO 4.0-leerstukken — NIET uit de oude themafiches
+# (die worden gearchiveerd per ADR-039).
+#
+# Status: nieuw — kapstok voor herhaling in de week vóór het examen.
+
+meta:
+  slug: "4-0"
+  titel: "Deontologische beginselen en antiwitwaswetgeving"
+  po: "4.0"
+  beschrijving: "PO-samenvatting (geheugen-kapstok): vijf beginselen, threats-and-safeguards, AML-cyclus, drie sporen aansprakelijkheid, tucht en valkuilen op enkele A4 — printbaar voor de week vóór het examen"
+  explorer_title: "7. Samenvatting"
+  print_a4: 4
+
+intro:
+  callout_beat: >
+    Standaard samenvatting-intro met expliciete "kapstok voor herhaling, niet
+    om voor het eerst te leren". Verwijs door naar de zes leerstukken van
+    het leerpad (voor uitleg en doorwerking) en naar de minicursus (voor
+    verhaal en routekaart).
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie 1: TAKE-AWAY
+# ---------------------------------------------------------------------------
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Vijf fundamentele beginselen** sturen elk professioneel oordeel: integriteit · objectiviteit · vakbekwaamheid en zorgvuldigheid · vertrouwelijkheid · professioneel gedrag. **Onafhankelijkheid** is een verbijzondering van objectiviteit voor zekerheidsopdrachten — feitelijk én in schijn."
+    - "**Threats-and-safeguards**: elke situatie eerst toetsen aan vijf bedreigingen (self-interest · self-review · advocacy · familiariteit · intimidatie). Aanvaardbaar mits gepaste waarborgen, anders opdracht weigeren."
+    - "**Beroepsgeheim is strafrechtelijk gesanctioneerd** (art. 458 SW, 1-3 jaar + boete). Drie sporen aansprakelijkheid lopen *cumulatief*: burgerrechtelijk (art. 44 ITAA-wet) + strafrechtelijk + tuchtrechtelijk (Hoofdstuk 8 ITAA-wet)."
+    - "**AML-cyclus in 4 fases**: identificeren (KYC + UBO) → risicogradering → doorlopende waakzaamheid → bij vermoeden melden aan CFI *zonder cliënt te tippen*. Cash-cap = 3.000 EUR (Wet 18-09-2017)."
+    - "**Opdrachtbrief verplicht voor *elke* opdracht** (art. 42 ITAA-wet) — geen uitzonderingen. Bij dossieroverdracht: **predecessor contacteren vóór aanvaarding**, geen aanbrengcommissie."
+
+# ---------------------------------------------------------------------------
+# Optionele extra blokken — volgorde = render-volgorde
+# ---------------------------------------------------------------------------
+
+extra_blokken:
+
+  - id: vijf-beginselen-vs-onafhankelijkheid
+    type: tabel-vergelijking
+    titel: "Vergelijking — vijf beginselen vs onafhankelijkheid"
+    intro: "De vijf beginselen gelden voor **elke** opdracht; onafhankelijkheid is een verbijzondering die alléén voor zekerheidsopdrachten geldt."
+    kolommen: ["Beginsel / vereiste", "Geldt voor wie?", "Concretisering", "Bron"]
+    rijen:
+      - ["**Integriteit**", "Élke opdracht, élk lid", "Eerlijk + oprecht; standpunt durven innemen tegen cliënt-belang in", "IESBA Section 111"]
+      - ["**Objectiviteit**", "Élke opdracht", "Geen vooroordeel / belangenconflict / ongeoorloofde beïnvloeding", "IESBA Section 112"]
+      - ["**Vakbekwaamheid + zorgvuldigheid**", "Élke opdracht", "Kennis op peil + werk volgens standaarden — opdracht weigeren bij ontbreken expertise", "IESBA Section 113"]
+      - ["**Vertrouwelijkheid**", "Élke opdracht (zelfs ná einde mandaat)", "Geen openbaarmaking / gebruik buiten mandaat; strafrechtelijk via art. 458 SW", "IESBA Section 114 + art. 458 SW"]
+      - ["**Professioneel gedrag**", "Élke opdracht + privé-handelen dat het beroep raakt", "Wet + reglement naleven; geen handeling die beroep in diskrediet brengt", "IESBA Section 115"]
+      - ["**Onafhankelijkheid** *(verbijzondering)*", "Zekerheidsopdrachten (audit, review, andere assurance)", "*Mind*: geesteshouding zonder beïnvloeding · *Appearance*: geen redelijke derde mag twijfelen", "IESBA Section 400.4"]
+
+  - id: vijf-bedreigingen-onafhankelijkheid
+    type: tabel-vergelijking
+    titel: "Vijf bedreigingen voor onafhankelijkheid (IESBA Section 120)"
+    kolommen: ["Bedreiging", "Wat?", "Klassiek voorbeeld"]
+    rijen:
+      - ["**Self-interest** (eigenbelang)", "Financieel of persoonlijk belang in cliënt", "Honorarium-afhankelijkheid (één cliënt > 30 % kantooromzet); aandelenbezit in cliënt"]
+      - ["**Self-review** (zelftoetsing)", "Eigen werk later opnieuw moeten beoordelen", "Boekhouding zelf voeren én daarna willen controleren"]
+      - ["**Advocacy** (belangenbehartiging)", "Cliënt-standpunt verdedigen alsof eigen", "Fiscale geschillenadvocaat én commissaris voor dezelfde cliënt"]
+      - ["**Familiariteit**", "Te nauwe relatie met cliënt-management", "Echtgenoot is zaakvoerder cliënt; langjarige opdracht zonder rotatie"]
+      - ["**Intimidatie**", "Druk om oordeel aan te passen", "Cliënt dreigt met opzegging of klacht als oordeel niet gunstig is"]
+    noot: "**Waarborgen** *(safeguards)*: andere vennoot doet opdracht · EQR-reviewer · Chinese walls · rotatie · schriftelijke disclosure · in laatste instantie: opdracht weigeren."
+
+  - id: threats-safeguards-flow
+    type: mermaid
+    titel: "Threats-and-safeguards — beslisboom"
+    mermaid_type: flowchart-td
+    code: |
+      A[Cliëntsituatie of opdracht] --> B[Identificeer bedreiging<br/>5 categorieën]
+      B --> C{Significant?}
+      C -->|Nee| Z[Door — geen actie]
+      C -->|Ja, maar beheersbaar| D[Waarborgen treffen<br/>+ documenteren]
+      C -->|Ja, niet te beheersen| E[Opdracht weigeren<br/>of beëindigen]
+      D --> F[EQR-review · andere vennoot ·<br/>Chinese walls · rotatie · disclosure]
+
+  - id: opdrachtcyclus
+    type: tabel-vergelijking
+    titel: "Opdrachtcyclus — wat moet vóór wat?"
+    kolommen: ["Fase", "Wat gebeurt er?", "Documenteren"]
+    rijen:
+      - ["**1. Pre-aanvaarding**", "KYC (cliënt + UBO) · integriteits-check · bekwaamheidstoets · onafhankelijkheidstoets · AML-risicoclassificatie", "Aanvaardings-memo + threats-analyse"]
+      - ["**2. Opdrachtbrief**", "Schriftelijk vastleggen vóór start (art. 42 ITAA-wet) — verplicht voor élke opdracht type", "Ondertekend door beide partijen"]
+      - ["**3. Uitvoering**", "Doorlopende waakzaamheid (AML + ethiek) · supervisie · dossieropbouw · ISQM-kwaliteitscontroles", "Werkdossier + AML-fiche actueel"]
+      - ["**4. Beëindiging**", "Voorafgaande opzeg (typisch 3m) · cliënt informeren over gevolgen · confraternele overdracht aan opvolger", "Slot-memo + dossier-overdracht-bewijs"]
+    noot: "Bij overname van confrater: **predecessor schriftelijk contacteren** vóór aanvaarding — geen aanbrengcommissie (verboden)."
+
+  - id: drie-sporen-aansprakelijkheid
+    type: tabel-vergelijking
+    titel: "Drie sporen aansprakelijkheid — cumulatief, niet alternatief"
+    intro: "Eén feit kan in alle drie de sporen aansprakelijkheid genereren. De accountant verdedigt zich apart in elk spoor."
+    kolommen: ["Spoor", "Grondslag", "Sanctie", "Wie stelt in?"]
+    rijen:
+      - ["**Burgerrechtelijk**", "Art. 44 ITAA-wet + opdrachtbrief (contractueel) of art. 1382 BW (buitencontractueel)", "Schadevergoeding — gedekt door verplichte beroepsaansprakelijkheidsverzekering (min. ITAA-cap)", "Cliënt of derde (bv. bank die op JR afging)"]
+      - ["**Strafrechtelijk**", "Specifieke misdrijven: art. 458 SW (beroepsgeheim) · art. 196 SW (valsheid) · art. 322 SW (medeplichtigheid)", "Boete + gevangenisstraf", "Parket"]
+      - ["**Tuchtrechtelijk**", "Hoofdstuk 8 Wet 17-03-2019 (ITAA-wet)", "Berisping → waarschuwing → schorsing → schrapping", "Tuchtcommissie ITAA (klacht of ambtshalve)"]
+    noot: "Tegenover de tuchtoverheid geldt het beroepsgeheim **niet** (vaste rechtspraak Cassatie). Naar derden buiten de drie sporen blijft het geheim absoluut."
+
+  - id: beroepsgeheim-reikwijdte
+    type: tabel-vergelijking
+    titel: "Beroepsgeheim — wat valt er onder, wat niet?"
+    kolommen: ["Categorie", "Onder beroepsgeheim?", "Voorbeeld"]
+    rijen:
+      - ["Interne nota's accountant", "✅ Ja", "Threats-analyse, AML-fiche, opdrachtbrief"]
+      - ["Communicatie met cliënt over inhoud", "✅ Ja", "E-mails over fiscale optimalisatie"]
+      - ["Timesheets", "✅ Ja", "Identificeren de cliënt"]
+      - ["Dagboeken + rekeningen cliënt zelf", "❌ Nee *(maar contractueel beschermd)*", "Originele factuur cliënt"]
+      - ["Bewijsstukken cliënt", "❌ Nee *(idem)*", "Bankafschrift, contract"]
+      - ["Jaarrekening na NBB-neerlegging", "❌ Nee (publiek)", "Geconsolideerde JR online raadpleegbaar"]
+    noot: "**Uitzonderingen op het beroepsgeheim** (limitatief): rechtsgetuigenis · parlementaire onderzoekscommissie · tuchtonderzoek · CFI-melding (AML-wet) · vraag van bevoegde fiscale ambtenaar met aangepaste basis · uitdrukkelijke schriftelijke cliënt-toelating."
+
+  - id: aml-cyclus
+    type: tabel-vergelijking
+    titel: "AML — vier fases per cliëntrelatie"
+    kolommen: ["Fase", "Wat doet de accountant?", "Sleutel-drempel / wet"]
+    rijen:
+      - ["**1. Identificatie (KYC)**", "Cliënt + lasthebbers + UBO identificeren via eID, KBO, UBO-register", "Wet 18-09-2017 art. 21-32"]
+      - ["**2. Risicogradering**", "Laag / standaard / hoog risico op basis van sector + geografie + structuur + opdracht-type", "Risicogebaseerde benadering — art. 19"]
+      - ["**3. Doorlopende waakzaamheid**", "Transacties monitoren op consistentie met cliëntprofiel; verhoogd onderzoek bij rode vlaggen", "Permanent — geen wachttermijn"]
+      - ["**4. Melding CFI**", "Schriftelijke melding bij vermoeden witwassen of terrorisme-financiering — *geen tipping cliënt*", "Art. 47-50 + tipping-verbod art. 55"]
+    noot: "Cash-cap = **3.000 EUR** (art. 67 AML-wet) · Bewaarplicht = **10 jaar** voor KYC-stukken, risicoclassificatie, melding-bewijs · AMLCO = verantwoordelijke voor beleid en CFI-meldingen."
+
+  - id: aml-beslisboom
+    type: mermaid
+    titel: "AML — beslisboom voor verdachte transactie"
+    mermaid_type: flowchart-td
+    code: |
+      A[Verrichting of cliëntrelatie] --> B{Rode vlag?}
+      B -->|Nee — normaal profiel| Z1[Doorlopende waakzaamheid<br/>volgens risicogradering]
+      B -->|Ja — verhoogd onderzoek| C[Verhoogd cliëntenonderzoek<br/>bron middelen · plausibiliteit]
+      C --> D{Vermoeden witwassen<br/>of terrorisme-financiering?}
+      D -->|Nee — genuanceerd risico| Z2[Documenteer + hogere monitoring]
+      D -->|Ja| E[Schriftelijke melding aan CFI]
+      E --> F[Tipping-verbod:<br/>cliënt NIET inlichten<br/>art. 55 AML-wet]
+      F --> G[Bewaarplicht 10 jaar<br/>KYC + classificatie + melding]
+
+  - id: tucht-procedure
+    type: mermaid
+    titel: "Tuchtprocedure ITAA — vier stappen + beroep"
+    mermaid_type: flowchart-lr
+    code: |
+      A[Klacht of vaststelling] --> B[Onderzoek rechtskundig<br/>assessor]
+      B --> C{Voldoende<br/>elementen?}
+      C -->|Nee| Z[Seponering]
+      C -->|Ja| D[Tuchtcommissie<br/>NL of FR kamer]
+      D --> E{Beslissing?}
+      E -->|Geen inbreuk| Z2[Vrijspraak]
+      E -->|Berisping / waarschuwing| S1[Lichte sanctie]
+      E -->|Schorsing / schrapping| S2[Zware sanctie]
+      S1 --> G[Commissie van Beroep ITAA]
+      S2 --> G
+
+  - id: kwaliteit-en-vorming
+    type: tabel-vergelijking
+    titel: "Kwaliteitsmechanismen + permanente vorming"
+    kolommen: ["Mechanisme", "Wat?", "Frequentie / drempel"]
+    rijen:
+      - ["**ISQM 1** — kantoorniveau", "Kwaliteitsmanagementsysteem (8 componenten) op kantoor", "Permanent · jaarlijkse evaluatie"]
+      - ["**ISQM 2** — opdrachtniveau (EQR)", "Engagement Quality Review door onafhankelijke reviewer bij hoog-risico-opdrachten", "Per relevante opdracht"]
+      - ["**ITAA-kwaliteitstoetsing**", "Externe peer review door ITAA-toetser — kantoor-organisatie + opdrachten-steekproef + vormings-bewijs", "Aankondiging min. 2 maanden vooraf · cyclus ~6 jaar"]
+      - ["**Permanente vorming**", "Vakbekwaamheid op peil houden via erkende activiteiten", "**120 uur per 3 jaar** + min. **20 uur per jaar**"]
+    noot: "Tucht-doorverwijzing kan ontstaan uit kwaliteitstoetsing-rapport, ITAA-Raad-vaststelling, klacht cliënt of derde, of procureur-generaal."
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VALKUILEN
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  titel: "Klassieke valkuilen (examen-radar)"
+  format: tabel
+  rijen:
+    - valkuil: "'Onafhankelijkheid geldt voor élke opdracht'"
+      wat_klopt_niet: "Onafhankelijkheid is een *verbijzondering* voor zekerheidsopdrachten — niet voor samenstellings- of advies-opdrachten"
+      wat_klopt_wel: "**Objectiviteit** geldt voor élke opdracht. Onafhankelijkheid alleen bij audit / review / assurance."
+    - valkuil: "'Cash-cap = 3.000 EUR is een AML-meldingsdrempel'"
+      wat_klopt_niet: "De cap is een **verbod** op cash-betalingen boven 3.000 EUR — geen meldingsdrempel"
+      wat_klopt_wel: "CFI-melding gebeurt bij *vermoeden* van witwassen (geen vast bedrag). Cash-cap is een separate verbodsregel met eigen sanctie."
+    - valkuil: "'Ik mag aan de fiscus alles vertellen wat hij vraagt'"
+      wat_klopt_niet: "Het beroepsgeheim is absoluut tegenover de fiscus, behalve bij bevoegde ambtenaar met aangepaste wettelijke basis"
+      wat_klopt_wel: "Cliënt informeren, cliënt zelf de info laten geven, of schriftelijke uitdrukkelijke toelating cliënt — anders weigeren."
+    - valkuil: "'Bij tucht mag ik me beroepen op beroepsgeheim'"
+      wat_klopt_niet: "Tegenover de tuchtoverheid geldt het beroepsgeheim *niet* (vaste Cassatie-rechtspraak)"
+      wat_klopt_wel: "Volledige medewerking met rechtskundig assessor verplicht — wel via beroep op rechten van verdediging."
+    - valkuil: "'Aanbrengcommissie naar collega is OK bij overdracht'"
+      wat_klopt_niet: "Aanbrengcommissie is *verboden* onder ITAA-deontologie — voor zowel de aanbrenger als de ontvanger"
+      wat_klopt_wel: "Predecessor schriftelijk contacteren · cliënt-instemming · geen vergoeding voor het 'aanbrengen' zelf."
+    - valkuil: "'Retentierecht laat me alle dossierstukken achterhouden bij wanbetaling'"
+      wat_klopt_niet: "Eigendomsstukken cliënt (originele facturen, statuten, bankafschriften) blijven cliënt-eigendom — minstens kopie ter beschikking"
+      wat_klopt_wel: "Alleen *werkdocumenten kantoor* mogen na ingebrekestelling effectief worden achtergehouden — en deontologisch ingeperkt door zorgplicht."
+    - valkuil: "'Permanente vorming = 40 uur per jaar'"
+      wat_klopt_niet: "Norm is **120 uur over 3 jaar** met minimum 20 uur per individueel jaar"
+      wat_klopt_wel: "Concentratie in één jaar mag — mits totaal 120/3 jaar én minimum 20/jaar gehaald wordt."
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VERDIEPING (doorklik)
+# ---------------------------------------------------------------------------
+
+doorklik:
+  intro: "Werkt iets niet meer scherp? Klik door naar het leerstuk of de concept-fiche die het uitwerkt:"
+  leerstukken:
+    - slug: wat-is-het-accountantsberoep
+      hint: "titel, instituut, monopolieopdrachten, normen-hiërarchie"
+    - slug: deontologische-beginselen-en-onafhankelijkheid
+      hint: "vijf beginselen + threats-and-safeguards + onafhankelijkheid + onverenigbaarheden"
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "intake-procedure, opdrachtbrief, kantoorvoering, dossieroverdracht, retentierecht"
+    - slug: beroepsgeheim-en-aansprakelijkheid
+      hint: "reikwijdte geheim + uitzonderingen + drie sporen aansprakelijkheid + verzekeringsplicht"
+    - slug: antiwitwasplichten-in-de-praktijk
+      hint: "AML-cyclus (4 fases), KYC, UBO, CFI-melding, tipping-verbod, cash-cap, bewaarplicht"
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "ISQM 1 + 2 · kwaliteitstoetsing ITAA · tuchtprocedure · permanente vorming"
+  concept_groepen:
+    - label: "Beroep & instituut"
+      concepten: [gecertificeerd-accountant, itaa-beroepsorganisatie, normbronnen, opdracht-types]
+    - label: "Fundamentele beginselen"
+      concepten: [deontologie, onafhankelijkheid]
+    - label: "Cliëntenrelatie & kantoor"
+      concepten: [opdrachtaanvaarding-en-opdrachtbrief, kantoor-organisatie, retentierecht-accountant]
+    - label: "Geheim & aansprakelijkheid"
+      concepten: [beroepsgeheim, beroepsaansprakelijkheid]
+    - label: "Antiwitwas"
+      concepten: [antiwitwaspreventie]
+    - label: "Kwaliteit & tucht"
+      concepten: [kwaliteitsmanagement-opdracht, kwaliteitstoetsing-itaa, tuchtprocedure-itaa, permanente-vorming]
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+footer: "Samenvatting PO 4.0. Status: nieuw — gebouwd vanuit de zes leerstukken, vervangt de oude cluster-themafiches (antiwitwas-praktijk, beroepsgeheim-en-aansprakelijkheid, deontologische-beginselen, opdrachtaanvaarding-en-tucht) per ADR-039."

@@ -1,0 +1,210 @@
+# Leerstuk-script — Beroepsgeheim en aansprakelijkheid
+#
+# PO 4.0 leerstuk 4 (specifiek — smal en diep). Zet neer: art. 458 SW
+# als grond + reikwijdte + uitzonderingen (rechterlijke vordering, AML-
+# CFI-melding, juridisch-advies-uitzondering) + drie sporen aansprake-
+# lijkheid (burgerlijk + strafrechtelijk + tucht) + verzekeringsplicht.
+#
+# Hand-off: dit leerstuk leeft op het kruispunt — het beroepsgeheim
+# raakt aan AML (leerstuk 5: CFI-melding als wettelijke uitzondering),
+# aan opdrachtaanvaarding (leerstuk 3: predecessor-gesprek), en aan
+# kwaliteitstoezicht (leerstuk 6: tucht als één van drie sporen).
+
+meta:
+  slug: beroepsgeheim-en-aansprakelijkheid
+  titel: "Beroepsgeheim en aansprakelijkheid"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — specifiek (smal en diep): beroepsgeheim als
+    strafrechtelijk beschermde geheimhoudingsplicht (art. 458 SW +
+    art. 120 Wet-ITAA) — reikwijdte + uitzonderingen + tipping-off-
+    discipline. Drie sporen aansprakelijkheid (burgerlijk +
+    strafrechtelijk + tucht) cumulatief — één feit kan alle drie
+    triggeren. Verzekeringsplicht art. 44 lid 3 Wet-ITAA. Op De Smet
+    & Partners met centrale Noordzee-Vastgoed-case (bankvraag).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit leerstuk twee onderwerpen samenneemt die in de
+    praktijk constant samenlopen: wat MAG je zeggen (beroepsgeheim) en
+    welke schade-RISICO loopt je bij een fout (drie sporen aansprake-
+    lijkheid). Schending van het beroepsgeheim is meteen ook een
+    strafrechtelijk feit én een tucht-feit én een civiel feit — één
+    feit, drie procedures.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: beroepsgeheim is voor de gecertificeerd accountant een STRAFRECHTELIJK BESCHERMDE geheimhoudingsplicht (art. 458 SW + art. 120 Wet-ITAA — sanctie 1-3 jaar gevangenis + boete). Het wijkt niet voor cliënt-belang of commerciële druk — alleen voor uitdrukkelijke wettelijke uitzonderingen: getuigenis in rechte, CFI-melding bij witwasvermoeden, instemming van de cliënt zelf."
+    - "Drie SPOREN aansprakelijkheid lopen parallel — cumulatief, niet alternatief. Spoor 1 BURGERLIJK (schadevergoeding aan cliënt of derde via opdrachtbrief of art. 1382 BW). Spoor 2 STRAFRECHTELIJK (boete + gevangenis bij art. 458 SW, art. 196 SW valsheid, art. 322 SW witwassen). Spoor 3 TUCHTRECHTELIJK (waarschuwing tot schrapping uit register). Eén feit kan op alle drie sancties opleveren."
+    - "VERZEKERING is verplicht (art. 44 lid 3 Wet-ITAA) maar dekt alleen het BURGERLIJKE spoor. Strafrechtelijke boetes (publiek) + tuchtsancties (publiek) zijn NIET verzekerbaar. Bij bedrieglijk opzet of voorbehouden opdrachten: ook geen contractuele aansprakelijkheidsbeperking mogelijk (art. 44 lid 2 Wet-ITAA)."
+  visualisaties:
+    - type: tabel-vergelijking
+      ref: drie-sporen-aansprakelijkheid
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken het beroepsgeheim uit op de Noordzee-Vastgoed bankvraag-case, dan de drie sporen op een hypothetische jaarrekening-fout. Beide kruisen elkaar bij CFI-melding — wettelijke uitzondering met tipping-off-spiegel.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: beroepsgeheim-absoluut
+    titel: "Het beroepsgeheim — wettelijke basis en absoluut karakter"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke verankering. Art. 458 Strafwetboek (1867) is de algemene strafbepaling voor alle beroepen met beroepsgeheim — artsen, advocaten, notarissen, geestelijken. Sinds 2019 uitdrukkelijk van toepassing op gecertificeerd accountants en belastingadviseurs via art. 120 Wet-ITAA — ook op stagiairs en medewerkers ('de personen voor wie zij instaan')."
+      - "SANCTIE bij schending: gevangenisstraf 1-3 jaar + geldboete 100-1000 EUR (volgens letter van art. 458 SW; in praktijk met opdeciemen-verhoging). PLUS automatisch tuchtspoor (art. 120 lid 2 Wet-ITAA — overtreding triggert tuchtprocedure ITAA). PLUS civielrechtelijke aansprakelijkheid voor schade aan cliënt of derde. Drie sporen tegelijk — uitgewerkt in volgend hoofdstuk."
+      - "REIKWIJDTE — wat valt onder het geheim? Drie tests: (i) is het een 'geheim' — informatie van nature uit niet publiek; (ii) is het TOEVERTROUWD aan de accountant — uitdrukkelijk of stilzwijgend; (iii) is het in het KADER VAN DE BEROEPSUITOEFENING. De informatie hoeft niet van de cliënt zelf te komen — ook info van derden over de cliënt valt eronder. Geldt ook na het einde van de opdracht en zelfs na het overlijden van de cliënt. Tegen 'derden' — niet tussen ITAA-collega's binnen hetzelfde kantoor of dossier."
+      - "WAT VALT ER WEL ONDER en wat NIET — onderscheid dat in examenvragen terugkeert. Vallen onder: interne nota's van de accountant, communicaties met cliënt over vertrouwelijke onderwerpen, opdrachtbrief, timesheets (omdat ze cliënt identificeren), threats-analyses, AML-fiches. Vallen NIET onder beroepsgeheim (zijn geen 'geheim' in zin van art. 458 SW) maar blijven contractueel + deontologisch beschermd: dagboeken en rekeningen van cliënt, bewijsstukken van boekingen, ingediende belastingaangiftes, jaarrekeningen neergelegd bij NBB. Onderscheid is belangrijk wanneer de fiscus directe info bij de cliënt vraagt — dan zijn die documenten geen geheim, ze moeten geleverd door cliënt zelf."
+      - "ABSOLUUT KARAKTER (vetgedrukt). Het geheim wijkt NIET voor: (a) de wens van de cliënt om informatie te delen met derden zonder uitdrukkelijke toelating; (b) commerciële druk of 'cliënt-belang'; (c) een rechtstreekse vraag van de fiscale administratie. De enige doorbrekingen zijn (i) getuigenis in rechte of voor een parlementaire onderzoekscommissie (spreekrecht, geen plicht), (ii) wettelijke meldingsplicht (CFI bij witwassen — zie volgend hoofdstuk + [[antiwitwasplichten-in-de-praktijk]]), en (iii) uitdrukkelijke instemming van de cliënt zelf."
+      - "Concretiseer met BANK-VRAAG-NOORDZEE-case. Maart 2026: een bank vraagt De Smet & Partners de jaarrekening 2024 + een door de accountant ondertekend contractenoverzicht van cliënt Noordzee Vastgoed NV. Bank verwijst naar 'bestaande relatie' en 'cliëntbelang'. Mag het kantoor dat doorsturen? Gedragslijn: (1) jaarrekening 2024 = neergelegd bij NBB = publiek = mag bezorgd zonder issue; (2) contractenoverzicht = niet-publiek = beroepsgeheim — alleen op uitdrukkelijke schriftelijke toelating van Noordzee; (3) ondertekening door accountant zou bovendien zekerheid suggereren waar er geen is (verwachtingsgap-fout). Schriftelijk antwoord aan bank: bevestiging geheimhouding + verwijzing naar cliënt zelf."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Document", "Valt onder art. 458 SW?", "Concrete behandeling"]
+        rijen:
+          - ["**Interne nota accountant** (threats-analyse, draft-advies)", "Ja", "Mag niet aan derde zonder cliënt-instemming"]
+          - ["**Cliënt-communicatie** (mailwisseling vertrouwelijke onderwerpen)", "Ja", "Idem"]
+          - ["**Opdrachtbrief**", "Ja", "Identificeert cliënt + scope — beschermd"]
+          - ["**Timesheets**", "Ja", "Bevatten cliënt-identificatie — beschermd"]
+          - ["**Dagboeken + rekeningen cliënt**", "Neen (cliënt-eigendom + wettelijke bewaring)", "Geen 'geheim' — maar contractueel + deontologisch wel beschermd → verwijs naar cliënt"]
+          - ["**Ingediende belastingaangifte**", "Neen", "Cliënt-eigendom — verwijs naar cliënt"]
+          - ["**Jaarrekening neergelegd bij NBB**", "Neen (publiek)", "Mag bezorgd zonder issue"]
+          - ["**Contractenoverzicht door accountant samengesteld** (niet publiek)", "Ja", "Alleen op uitdrukkelijke cliënt-toelating"]
+
+  - id: uitzonderingen-cfi-tipping
+    titel: "Wettelijke uitzonderingen — CFI-melding + tipping-off-discipline"
+    niveau: 2
+    beats:
+      - "Open met de spanning: het beroepsgeheim verbiedt openbaarmaking, maar de Antiwitwaswet 18-09-2017 LEGT meldingsplicht op aan de Cel voor Financiële Informatieverwerking (CFI) bij vermoeden van witwassen of terrorismefinanciering. Hoe valt dat te rijmen? Antwoord: de wetgever heeft het opgelost door de CFI-melding uitdrukkelijk als WETTELIJKE UITZONDERING op art. 458 SW te benoemen."
+      - "Mechanisme: wanneer de accountant tijdens een opdracht een vermoeden van witwassen identificeert, MELDT hij dat aan de CFI (art. 47-59 Antiwitwaswet). Die melding is wettelijk verplicht — niet melden is een overtreding van de Antiwitwaswet. De melder geniet IMMUNITEIT (art. 57 Antiwitwaswet): geen burgerrechtelijke + strafrechtelijke + tuchtrechtelijke aansprakelijkheid wanneer de melding te goeder trouw gebeurt. Het beroepsgeheim wordt dus NIET geschonden door een CFI-melding."
+      - "TIPPING-OFF-VERBOD — spiegelregel (art. 55 Antiwitwaswet). Zodra een melding gemaakt is (of een opsporingsonderzoek loopt), mag de accountant — en alle medewerkers van het kantoor — dit feit NIET ter kennis brengen aan de cliënt of aan derden. Doel: voorkomen dat cliënt bewijsmateriaal vernietigt of vlucht. Schending = strafbaar (art. 132 Antiwitwaswet — administratieve sancties tot 1,25 mln EUR). Geldt ook intern: medewerkers die door omstandigheden weten van de melding moeten het onder zich houden."
+      - "UITZONDERINGEN op tipping-off (art. 56 §3 Antiwitwaswet) — vier scenarios waarin communicatie wel mag: (a) poging om de cliënt te ONTRADEN van een illegale activiteit (telt niet als 'kennisgeving' in zin van art. 55 — je mag zonder verwijzing naar CFI proberen de cliënt af te brengen); (b) kennisgeving aan het ITAA (toezichthouder); (c) kennisgeving aan parket, politie, onderzoeksrechter voor repressieve doeleinden; (d) mededeling aan andere beroepsbeoefenaars binnen hetzelfde kantoor of in dezelfde verrichting."
+      - "JURIDISCH-ADVIES-UITZONDERING (art. 53 Antiwitwaswet). De meldingsplicht aan de CFI geldt NIET wanneer de accountant juridisch advies verstrekt 'bij het bepalen van de rechtspositie' of 'bij verdediging of vertegenwoordiging in/voor een rechtsgeding'. In dat geval blijft het beroepsgeheim onverkort gelden. Uitzondering vervalt zodra (i) de accountant zelf deelneemt aan witwasactiviteiten, (ii) advies wordt gegeven voor witwasdoeleinden, of (iii) de accountant weet dat de cliënt advies voor zulke doeleinden zoekt."
+      - "Concretiseer met CFI-MELDING-NOORDZEE-case (verwijst naar [[antiwitwasplichten-in-de-praktijk]] voor diepte). Q1 2026: De Smet ontdekt bij doorlopende waakzaamheid dat Noordzee Vastgoed in 2025 22.000 EUR contant van een koper ontving (boven 3.000 EUR cash-cap art. 67 Antiwitwaswet). Knipperlicht → AMLCO Pieter onderzoekt → vermoeden witwassen → CFI-melding via info@ctif-cfi.be. TIPPING-OFF: noch Pieter noch wie dan ook in het kantoor mag aan Noordzee laten weten dat een melding gemaakt is. Wel toegelaten: Pieter mag (vóór melding) proberen Noordzee te ontraden van toekomstige cash-transacties zonder verwijzing naar CFI."
+      - "FISCALE ADMINISTRATIE — examen-favoriet. Mag de fiscus rechtstreeks bij De Smet & Partners cliëntdossiers opvragen? Antwoord: het beroepsgeheim is in principe TEGENSTELBAAR aan de fiscus. De fiscale ambtenaar moet zijn vraag richten aan de cliënt zelf — niet aan de accountant. Praktische gedragslijn: vriendelijk weigeren onder verwijzing naar beroepsgeheim + cliënt verwijzen + cliënt onmiddellijk informeren (dit is GEEN tipping-off — geen CFI-melding actief). Cliënt kan vrijwillig stukken delen of een mandaat geven; alleen dan kan accountant doorgeven."
+    visualisaties:
+      - type: mermaid
+        ref: aml-beslisboom
+        bron: voorbeeldgroep
+
+  - id: drie-sporen-aansprakelijkheid
+    titel: "Drie sporen aansprakelijkheid — cumulatief, niet alternatief"
+    niveau: 2
+    beats:
+      - "Open met het misverstand: studenten denken dat strafrechtelijke vrijspraak betekent dat ook burgerrechtelijk en tuchtrechtelijk geen veroordeling kan volgen. FOUT. De drie sporen lopen ONAFHANKELIJK en zijn CUMULATIEF — niet alternatief. Eén feit kan op alle drie sporen sancties opleveren."
+      - "SPOOR 1 — BURGERRECHTELIJK. Schadevergoeding aan cliënt of derde. Tegen cliënt: CONTRACTUEEL op grond van de opdrachtbrief (art. 1101+ BW oud / Boek 5 BW nieuw). Tegen derden (bv. bank die op jaarrekening afging): BUITENCONTRACTUEEL op grond van art. 1382 BW / Boek 5 BW. Bewijslast bij eiser: fout (zorgvuldigheidsnorm 'normaal zorgvuldig en bekwaam beroepsgenoot in dezelfde omstandigheden') + schade + causaal verband. Wettelijke basis voor accountants: art. 44 lid 1 Wet-ITAA."
+      - "SPOOR 2 — STRAFRECHTELIJK. Boete + gevangenisstraf bij wettelijk omschreven misdrijven. Klassieke gevallen voor accountants: (a) art. 458 SW — schending beroepsgeheim; (b) art. 196 SW — valsheid in geschrifte (valse jaarrekening, valse attestering); (c) art. 322 SW — medeplichtigheid aan oplichting of witwassen; (d) art. 449-450 WIB92 — fiscale strafmisdrijven bij medewerking aan fraude; (e) strafbare deelneming aan vennootschapsmisdrijven (WVV). Vervolging door parket; bewijslast 'beyond reasonable doubt'."
+      - "SPOOR 3 — TUCHTRECHTELIJK. Sancties van ITAA bij overtreding van wet, reglement of norm. Vier sancties (oplopend): waarschuwing → berisping → schorsing max. 1 jaar → schrapping uit register. Plus de 'terechtwijzing' door de Raad (art. 85, 3° Wet-ITAA) voor minder ernstige feiten — geen formele tuchtsanctie. Uitgewerkt in [[kwaliteitstoezicht-en-tucht]]. Bewijslast: 'inbreuk vastgesteld op het normatief kader'."
+      - "ONAFHANKELIJKE PROCEDURES — vetgedrukt. Vrijspraak op één spoor sluit veroordeling op een ander spoor NIET uit. Strafrechtelijke vrijspraak ('beyond reasonable doubt') belet burgerrechtelijke veroordeling ('waarschijnlijkheid') niet. Tuchtrechtelijke schrapping is gevolg voor beroepsuitoefening — genereert geen schadevergoeding aan cliënt (daarvoor moet cliënt apart het burgerrechtelijke spoor inslaan)."
+      - "Concretiseer met DRIE-SPOREN-VOORBEELD — accountant boekt opzettelijk fictieve aankoopfacturen om belastbare basis cliënt te verlagen. Spoor 1 — fiscus dwingt herziening aanslag → cliënt vordert schade van accountant (gemiste vrijstellingen + boetes); contractuele aansprakelijkheid op grond van opdrachtbrief. Spoor 2 — parket vervolgt voor art. 196 SW valsheid + art. 449 WIB92 fiscale fraude; gevangenisstraf + boete + verbeurdverklaring. Spoor 3 — ITAA tuchtprocedure wegens integriteits-overtreding; sanctie: schrapping uit register. BA-verzekering dekt geen van de drie — bedrieglijk opzet sluit dekking uit én strafrechtelijke + tuchtsancties zijn sowieso niet verzekerbaar."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: drie-sporen-aansprakelijkheid
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Spoor", "Bewijslast", "Sanctie", "Verzekerbaar (BA-polis)?"]
+        rijen:
+          - ["**Burgerrechtelijk (contractueel)** — cliënt eist schade", "Fout + schade + causaal verband — 'waarschijnlijkheid'", "Schadevergoeding", "Ja — verplichte BA-verzekering art. 44 lid 3 Wet-ITAA"]
+          - ["**Burgerrechtelijk (buitencontractueel)** — derde (bank, schuldeiser) eist", "Idem op grond van art. 1382 BW / Boek 5 BW", "Schadevergoeding", "Ja"]
+          - ["**Strafrechtelijk** — parket vervolgt", "Bestanddelen misdrijf — 'beyond reasonable doubt'", "Boete + gevangenis + verbeurdverklaring", "Neen — boete = publiek karakter"]
+          - ["**Tuchtrechtelijk** — ITAA-tuchtcommissie", "Inbreuk op wet/reglement/norm", "Waarschuwing · berisping · schorsing 1 jaar · schrapping", "Neen — publiek tuchtrecht"]
+
+  - id: verzekeringsplicht-en-grenzen-exoneratie
+    titel: "Verzekeringsplicht en grenzen aan exoneratie"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke verplichting. Art. 44 lid 3 Wet-ITAA verplicht elke gecertificeerd accountant tot een BA-verzekering (Beroepsaansprakelijkheid). Bevestigingsattest moet jaarlijks aan het ITAA bezorgd worden ter goedkeuring. Minimum-voorwaarden door de Koning bepaald na advies van de Raad. Bij De Smet & Partners: collectieve polis bij AXA Belgium met minimum 1,5 mln EUR per schadegeval (in lijn met ITAA-vereisten)."
+      - "WAT DEKT DE VERZEKERING? Alleen het BURGERLIJKE spoor — schadevergoeding aan cliënt of derde. Bij gewone vergissingen of nalatigheden (de accountant vergeet een vrijgestelde reserve, een fiscale aftrek, een termijn): verzekering keert uit binnen polis-limieten. Bij De Smet-voorbeeld: Devos vergeet bij Aurelia een 45.000 EUR vrijgestelde reserve → contractuele aansprakelijkheid → BA-verzekering keert 45.000 EUR uit."
+      - "WAT DEKT DE VERZEKERING NIET — vetgedrukt vier categorieën. (a) Strafrechtelijke boetes (publiek karakter). (b) Tuchtsancties (publiek tuchtrecht). (c) Fouten met bedrieglijk opzet of oogmerk te schaden (wettelijk uitgesloten — algemeen contractenrecht én polisvoorwaarden). (d) Verlies cliëntèle of reputatie na een schrapping. De verzekering is essentieel maar geen vrijbrief — zware fouten ondergraven de dekking."
+      - "EXONERATIE-CLAUSULE in opdrachtbrief — examen-favoriet. Mag de accountant zijn aansprakelijkheid contractueel beperken? Antwoord met art. 44 lid 2 Wet-ITAA. Twee absolute verboden: (1) fout met bedrieglijk opzet of oogmerk te schaden — algemeen contractenrecht, geldt voor alle opdrachten; (2) opdrachten voorbehouden aan gecertificeerd accountants (monopolieopdrachten) — wettelijk verbod om aansprakelijkheid te beperken. Voor commissaris-opdrachten: bedrijfsrevisor mag evenmin exonereren (art. 14 revisorenwet). Voor andere opdrachten: beperking tot bv. 5× of 10× honorarium contractueel gangbaar en geldig."
+      - "Concretiseer met de twee aansprakelijkheids-scenarios op De Smet. (a) Devos vergeet vrijgestelde reserve Aurelia → 45.000 EUR schade → contractuele aansprakelijkheid → BA-verzekering keert uit (geen bedrieglijk opzet, geen monopolieopdracht). (b) Hypothetisch: Devos werkt mee aan valse boekhouding bij Zelena Bio NV → 'bedrieglijk opzet' → BA-verzekering UITGESLOTEN + strafrechtelijke + tucht-cumul — Devos draagt persoonlijk + sociaal-vermogen-impact."
+      - "Belangrijke nuance (blockquote-aside): de zorgvuldigheidsnorm bij burgerrechtelijke aansprakelijkheid is 'NORMAAL ZORGVULDIG EN BEKWAAM BEROEPSGENOOT IN DEZELFDE OMSTANDIGHEDEN GEPLAATST'. Niet de standaard van een gewone burger — de standaard van een professionele peer. De rechter toetst aan toepasselijke ITAA-normen, IESBA-code, IFAC-richtlijnen, stand van de techniek op het moment van de opdracht. Dossierdiscipline is dus de eerste verdedigingslijn — wie netjes documenteert hoe hij beslissingen nam, krijgt makkelijker het voordeel van de twijfel bij latere claim."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Scenario", "Spoor 1 burgerlijk", "Spoor 2 strafrechtelijk", "Spoor 3 tucht", "BA-verzekering dekt?"]
+        rijen:
+          - ["Vergeten vrijgestelde reserve (vergissing)", "Ja — schadevergoeding cliënt", "Neen", "Mogelijk berisping bij herhaling", "Ja — schadevergoeding"]
+          - ["Slordige opdrachtbrief — scope-discussie achteraf", "Ja — schade door scope-creep", "Neen", "Mogelijk bij ernstige slordigheid", "Ja — schadevergoeding"]
+          - ["Schending beroepsgeheim (lekken cliëntinfo)", "Ja — schadevergoeding cliënt + derden", "Ja — art. 458 SW (1-3 jaar + boete)", "Ja — tot schrapping", "Alleen burgerlijk; boete + tuchtsanctie NIET"]
+          - ["Valse aankoopfacturen boeken voor cliënt", "Ja — schade aan crediteuren", "Ja — art. 196 SW valsheid + art. 449 WIB92", "Ja — schrapping waarschijnlijk", "**Geen dekking — bedrieglijk opzet uitgesloten**"]
+          - ["Inbreng-attestering met overschatting (monopolieopdracht)", "Ja — exoneratie NIET mogelijk (art. 44 lid 2)", "Mogelijk bij opzet", "Ja", "Beperkt — wettelijk geen contractuele exoneratie"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat de CFI-melding een SCHENDING van het beroepsgeheim is en dus moet worden vermeden. FOUT — de CFI-melding is een WETTELIJKE UITZONDERING op art. 458 SW (art. 47-59 Antiwitwaswet). De melder geniet volledige immuniteit (art. 57). NIET melden bij vermoeden is daarentegen WEL een overtreding — van de Antiwitwaswet. Wie het beroepsgeheim als excuus gebruikt om de meldingsplicht te omzeilen, pleegt twee overtredingen tegelijk."
+      - "Valkuil 2 (⚠️): tipping-off-verbod verwarren met 'mag ik nooit iets vertellen aan de cliënt over witwasvermoedens?'. FOUT — tipping-off (art. 55 Antiwitwaswet) geldt enkel ná een CFI-melding (of bij lopend onderzoek). VÓÓR de melding mag de accountant nog steeds proberen de cliënt te ONTRADEN van een illegale verrichting (art. 56 §3 — geen tipping-off). Het verbod is precies geformuleerd: niet zeggen 'er is gemeld' of 'er loopt onderzoek'. Algemene gespreken over compliance-zorgen mogen wel."
+      - "Valkuil 3 (⚠️): denken dat de BA-verzekering een vrijbrief is. FOUT — vier dekkings-uitsluitingen tegelijk: (a) strafrechtelijke boetes niet verzekerbaar; (b) tuchtsancties niet verzekerbaar; (c) bedrieglijk opzet uitgesloten — net wanneer je dekking het meeste zou willen; (d) bij monopolieopdrachten en bedrieglijk opzet ook geen contractuele exoneratie mogelijk. De verzekering dekt nalatigheden en vergissingen — niet opzet of zware fout. Dossierdiscipline is de eerste verdedigingslijn, niet de polis."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: antiwitwasplichten-in-de-praktijk
+      hint: "Verdieping van de CFI-melding als wettelijke uitzondering op het beroepsgeheim — KYC + risicogradering + meldingsplicht + tipping-off-discipline + cash-cap 3.000 EUR."
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "Hoe de tuchtprocedure (spoor 3) concreet verloopt — klacht · rechtskundig assessor · tuchtcommissie · sancties + kwaliteitstoetsing als preventief mechanisme."
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "Toepassing op de opdrachtbrief — aansprakelijkheidsclausule binnen wettelijke grenzen + scope-afbakening als risico-management."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — wat valt onder beroepsgeheim, uitzonderingen, drie sporen aansprakelijkheid, dekkingsmatrix BA-verzekering."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [beroepsgeheim, beroepsaansprakelijkheid]
+    - concepten: [deontologie, tuchtprocedure-itaa]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Beroepsgeheim — algemene strafbepaling"
+    ref: "Strafwetboek art. 458"
+    noot: "1-3 jaar gevangenis + geldboete 100-1000 EUR (basis-tarief, met opdeciemen vermenigvuldigd in praktijk)."
+  - onderwerp: "Beroepsgeheim — uitdrukkelijke toepasselijkheid op ITAA-leden"
+    ref: "Wet 17 maart 2019 (ITAA-wet) art. 120"
+    noot: "Geldt voor beroepsbeoefenaars, stagiairs én personen voor wie zij instaan (medewerkers, kantoorpersoneel, ITAA-organen)."
+  - onderwerp: "CFI-meldingsplicht — wettelijke uitzondering op beroepsgeheim"
+    ref: "Wet 18 september 2017 (antiwitwaswet) art. 47-59"
+    noot: "Vermoeden witwassen of terrorisme-financiering → melding aan Cel voor Financiële Informatieverwerking. Immuniteit melder via art. 57."
+  - onderwerp: "Tipping-off-verbod"
+    ref: "Wet 18 september 2017 (antiwitwaswet) art. 55"
+    noot: "Geen mededeling aan cliënt of derden dat melding gemaakt of onderzoek loopt. Sanctie via art. 132 (administratief tot 1,25 mln EUR)."
+  - onderwerp: "Uitzonderingen op tipping-off"
+    ref: "Wet 18 september 2017 art. 56 §3"
+    noot: "(a) ontraden cliënt van illegale activiteit; (b) ITAA-kennisgeving; (c) parket/politie repressief; (d) collega's in zelfde entiteit/verrichting."
+  - onderwerp: "Juridisch-advies-uitzondering op meldingsplicht"
+    ref: "Wet 18 september 2017 art. 53"
+    noot: "Bij 'bepalen rechtspositie' of 'verdediging in rechtsgeding'. Vervalt bij eigen deelname aan witwassen of bekende witwasintentie."
+  - onderwerp: "Burgerrechtelijke aansprakelijkheid accountant"
+    ref: "Wet 17 maart 2019 art. 44 lid 1"
+    noot: "Algemene aansprakelijkheid voor de uitvoering van de opdrachten — gemeen recht (contractueel of buitencontractueel)."
+  - onderwerp: "Verbod op contractuele exoneratie"
+    ref: "Wet 17 maart 2019 art. 44 lid 2"
+    noot: "(1) Geen exoneratie bij bedrieglijk opzet of oogmerk te schaden; (2) geen exoneratie bij opdrachten voorbehouden aan gecertificeerd accountants of bedrijfsrevisor."
+  - onderwerp: "Verzekeringsplicht — BA-verzekering"
+    ref: "Wet 17 maart 2019 art. 44 lid 3 + 4"
+    noot: "Jaarlijks bevestigen aan ITAA ter goedkeuring. Minimum-voorwaarden door Koning na advies Raad."
+  - onderwerp: "Tuchtprocedure (spoor 3) — wettelijke basis"
+    ref: "Wet 17 maart 2019 — Hoofdstuk 8 (Handhaving), art. 94 e.v."
+    noot: "Uitgewerkt in [[kwaliteitstoezicht-en-tucht]]."
+  - onderwerp: "Strafrechtelijke aansprakelijkheid — typische gevallen"
+    ref: "Strafwetboek art. 196 (valsheid in geschrifte) + art. 322 (medeplichtigheid witwassen/oplichting) + WIB92 art. 449-450 (fiscale strafmisdrijven)"
+    noot: "Naast art. 458 SW voor beroepsgeheim."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."

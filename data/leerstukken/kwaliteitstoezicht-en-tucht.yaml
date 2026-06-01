@@ -1,0 +1,247 @@
+# Leerstuk-script — Kwaliteitstoezicht en tucht
+#
+# PO 4.0 leerstuk 6 (proces — afdwingings-laag). Zet neer: hoe naleving
+# van de voorgaande vijf leerstukken wordt afgedwongen. Vier mechanismen:
+# (1) intern kwaliteitsmanagement (ISQM 1 + ISQM 2 + ISA 220) op kantoor-
+# niveau; (2) externe kwaliteitstoetsing ITAA als peer review; (3) tucht-
+# procedure bij ernstige overtreding; (4) permanente vorming als preventie.
+#
+# Hand-off: dit is het AFSLUITENDE leerstuk van PO 4.0 — vat de
+# afdwingings-laag samen. Verwijst naar alle voorgaande leerstukken voor
+# wat wordt afgedwongen.
+
+meta:
+  slug: kwaliteitstoezicht-en-tucht
+  titel: "Kwaliteitstoezicht en tucht"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — proces (afdwingings-laag): vier mechanismen die
+    naleving van de deontologische en wettelijke verplichtingen
+    afdwingen. (1) Intern kwaliteitsmanagement op kantoorniveau (ISQM 1)
+    + op opdrachtniveau (ISA 220) + Engagement Quality Review voor
+    hoog-risico-opdrachten (ISQM 2). (2) Externe kwaliteitstoetsing
+    ITAA — peer review elke 5-6 jaar. (3) Tuchtprocedure bij ernstige
+    overtreding — klacht → assessor → tuchtcommissie → beroep. (4)
+    Permanente vorming als preventie — 120u/3jr + min 20u/jaar. Op
+    De Smet & Partners met kwaliteitstoetsing-aankondiging-case en
+    Bart-Devos-meeneem-clienten-case.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit het AFSLUITENDE leerstuk is — wie alle voorgaande
+    regels kent maar niet weet hoe ze worden afgedwongen, mist de helft
+    van het beeld. Vier mechanismen werken samen: vorming voorkomt,
+    kwaliteitsmanagement structureert, kwaliteitstoetsing controleert,
+    tucht sanctioneert.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: vier mechanismen dwingen naleving af in oplopende ernst — (1) PERMANENTE VORMING als preventie (120u/3jr + min 20u/jaar); (2) INTERN KWALITEITSMANAGEMENT op kantoor (ISQM 1) + opdracht (ISA 220) + Engagement Quality Review voor hoog-risico (ISQM 2); (3) EXTERNE KWALITEITSTOETSING ITAA — peer review elke 5-6 jaar als systemische check; (4) TUCHTPROCEDURE bij ernstige overtreding — klacht → rechtskundig assessor → tuchtcommissie → beroep, met sancties tot schrapping uit register."
+    - "De drempels in cijfers: permanente vorming 120u/3 opeenvolgende kalenderjaren + minstens 20u per jaar — niet 'gemiddeld 40u' maar tegelijk beide voorwaarden. Kwaliteitstoetsing aangekondigd MINSTENS 2 MAANDEN vooraf (art. 58 Wet-ITAA). Vier tuchtsancties oplopend: waarschuwing → berisping → schorsing max 1 jaar → schrapping (definitief)."
+    - "Drie sporen aansprakelijkheid blijven gescheiden (zie [[beroepsgeheim-en-aansprakelijkheid]]): tucht oordeelt OVER DE GESCHIKTHEID om het beroep verder uit te oefenen — niet over schadevergoeding (= burgerlijk spoor) en niet over strafmaat (= strafrechtelijk spoor). Cassatie-rechtspraak: beroepsgeheim is NIET tegenstelbaar aan tuchtoverheid — accountant moet volledig meewerken aan onderzoek door rechtskundig assessor."
+  visualisaties:
+    - type: mermaid
+      ref: tuchtprocedure-flow
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We doorlopen de vier mechanismen van licht naar zwaar. Centraal: de aangekondigde ITAA-kwaliteitstoetsing van 15 juni 2026 in De Smet & Partners — wat moet klaar liggen, wat kan misgaan.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: permanente-vorming
+    titel: "Permanente vorming — preventie via vakbekwaamheid"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke verankering en het deontologische beginsel. Vakbekwaamheid + zorgvuldigheid is één van de vijf fundamentele beginselen (IESBA Section 110.1 A1 c) — uitgewerkt in de ITAA-norm permanente vorming (in werking sinds 1 januari 2021). De norm vertaalt het abstracte beginsel in een concrete tellings-verplichting: 120 uur over 3 opeenvolgende kalenderjaren, minstens 20 uur per jaar."
+      - "DRIE DREMPELS — vetgedrukt, examen-favoriet. (a) 120 UUR over 3 opeenvolgende kalenderjaren — geen 'gemiddeld 40 per jaar' maar cumulatieve drempel. (b) MINIMUM 20 UUR per individueel kalenderjaar — voorkomt concentratie van vorming in één eindjaar. Concreet: 20 + 20 + 80 = 120 voldoet; 10 + 10 + 100 voldoet NIET want jaar 1 en jaar 2 onder de 20u-drempel. (c) Bij overmacht of (her)inschrijving in de loop van het jaar: PRO RATA TEMPORIS berekening."
+      - "CATEGORIEËN A EN B — verschil in tellings-regime. Categorie A = EXTERNE vorming: seminaries en opleidingscycli van erkende vormingsoperatoren · doceren bij erkende instellingen · vorming op afstand mét afsluitende toets · publicaties. Categorie B = INTERN of BIJDRAGEND: commissiewerk binnen ITAA · vormingen door eigen kantoor of netwerk voor eigen beroepsbeoefenaars. Geen verplichte minimum-mix in de norm — wel kijkt de kwaliteitstoetsing naar evenwicht."
+      - "TELLINGS-BIJZONDERHEDEN. Doceren bij erkende instelling: 2 uur per uitgevoerd uur. Publicaties wetenschappelijk/technisch: 2 uur per 3.000 tekens. GECOMBINEERD beperkt tot max 30 uur per kalenderjaar (art. 7 7°). E-learning telt als categorie A op cumulatieve voorwaarden: minimaal 30 minuten + controle dat alle onderdelen doorlopen + afsluitende toets. Zonder toets: hoogstens categorie B."
+      - "Wat NIET telt — vetgedrukt. Vormingsactiviteiten 'duidelijk gericht op promotie van een commercieel product of dienst' (art. 6 §1 laatste lid). UITZONDERING: tools-opleidingen die (a) ≥ 45 minuten duren én (b) duidelijke opleidingsdoelen hebben m.b.t. relevante vakgebieden. Concreet: een 'demo' van een nieuwe boekhoudsoftware door de leverancier telt NIET; een gestructureerde training over de fiscale modules van een ERP-systeem MET leerdoelen telt WEL."
+      - "SANCTIE-CASCADE bij niet-naleving (art. 11 norm permanente vorming). Drie graden: (1) terechtwijzing door de Raad ITAA (art. 85 3° Wet-ITAA) — formeel maar zonder tuchtgevolgen + 3 maanden om in te halen; (2) bij gebrek aan remediëring: intrekking van de hoedanigheid van beroepsbeoefenaar door de Raad — de facto verwijdering uit register; (3) zware of herhaalde gevallen: verwijzing naar tuchtcommissie."
+      - "Concretiseer met De Smet & Partners. Drie vennoten + 2 medewerkers met ITAA-titel (Karolien recent gecertificeerd) + 2 stagiairs (Lina jaar 3, Joris jaar 1). Voor elk individueel: jaarrapportering aan ITAA via portaal. Stagiairs: aangepast regime via stagecommissie, niet via Cel Permanente Vorming. Bij kwaliteitstoetsing: vormings-attesten per beroepsbeoefenaar moeten beschikbaar zijn."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Vormingsactiviteit", "Categorie", "Telling", "Bewijsstuk"]
+        rijen:
+          - ["ITAA-najaarscongres BTW-actualia (1 dag)", "A", "7 uur", "Aanwezigheidsattest ITAA"]
+          - ["Webinar IFRS 16 met afsluitende toets (90 min)", "A", "1,5 uur", "Toets-resultaat + login-log"]
+          - ["Webinar fiscale hervorming zonder toets (90 min)", "B (geen toets)", "1,5 uur als B", "Login-log + aanwezigheidsverklaring"]
+          - ["Doceren stagecyclus 1 uur", "A", "2 uur (bonus)", "Verklaring van de erkende instelling"]
+          - ["Publicatie van 6.000 tekens in beroeps-vakblad", "A", "4 uur (2× 3.000)", "Publicatie zelf + tekens-bewijs"]
+          - ["Intern kantoor-seminarie 'nieuwe BTW-aangifte' (2 uur)", "B", "2 uur", "Aanwezigheidslijst + agenda"]
+          - ["Software-demo van boekhoudleverancier (zonder leerdoelen, < 45 min)", "Telt NIET", "0 uur", "—"]
+
+  - id: kwaliteitsmanagement-isqm
+    titel: "Intern kwaliteitsmanagement — ISQM 1 + ISA 220 + ISQM 2"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke en normatieve verankering. De ITAA-norm intern kwaliteitsmanagement (Belgische vertaling van ISQM 1 — International Standard on Quality Management) verplicht ELK kantoor — niet alleen audit-kantoren — om een kwaliteitsmanagementsysteem te hebben. Geldt voor elk kantoor dat audit, review, assurance OF aanverwante diensten (samenstelling, AUP) uitvoert."
+      - "ACHT COMPONENTEN van ISQM 1 — voor de stagiair: niet leren als checklist maar als blok-architectuur. (1) Risk assessment process — identificatie van kwaliteits-risico's eigen aan dit kantoor. (2) Governance and leadership — verantwoordelijkheid bij de top, kwaliteitscultuur. (3) Relevant ethical requirements — onafhankelijkheid, integriteit, beroepsgeheim. (4) Acceptance and continuance of client relationships — selectie + voortzetting. (5) Engagement performance — uitvoering elke opdracht. (6) Resources — menselijke, technologische, intellectuele middelen. (7) Information and communication — interne + externe stromen. (8) Monitoring and remediation process — toezicht op systeemwerking + oplossen tekortkomingen."
+      - "PROACTIVE RISK-BASED-AANPAK (post-2022, vetgedrukt). Pre-2022 werkte het systeem met ISA 220 (oud) + ISQC 1 — reactief. Kantoren stelden procedures op en hoopten dat ze werkten. Na Carillion / Wirecard / Steinhoff-affaires werd duidelijk dat te veel audits door procedurele mazen vielen. ISQM 1 (in werking voor boekjaren vanaf 15-12-2022) draait dit om: kantoor MOET zelf zijn kwaliteits-risico's identificeren, beleidsmaatregelen formuleren om die te mitigeren, monitoren of de maatregelen werken, en deficiencies remediëren. Geen 'one-size-fits-all'."
+      - "PROPORTIONALITEIT. Eenmanskantoor heeft geen 'audit-comité' nodig, wel een geschreven kwaliteitsprocedure. Multi-partner-kantoor heeft een complexere governance-laag. De norm is principle-based — de invulling is evenredig met omvang en activiteit. Bij De Smet & Partners (8 beroepsbeoefenaars + 1 administratie): Pieter als verantwoordelijke op hoogste niveau, Eva als ISQM-eigenaar (kwaliteits-verantwoordelijke), Tom voor permanente vorming, externe IT-systeembeheerder Wouter."
+      - "ISA 220 (HERZIEN) op OPDRACHTNIVEAU. Voor elke audit-opdracht draagt de OPDRACHTPARTNER persoonlijk de eindverantwoordelijkheid. Hij moet (a) zich vergewissen dat het team voldoende bekwaam, beschikbaar en onafhankelijk is; (b) zelf direct betrokken zijn bij planning, kritieke oordelen en eindverslag; (c) de review-procedures volgen; (d) bij twijfel escaleren binnen het kantoor; (e) het verslag enkel uitgeven na voldoende bewijswerk. Voor reviews (ISRE) en aanverwante diensten (ISRS): gelijkaardige opdrachtniveau-vereisten."
+      - "ISQM 2 — ENGAGEMENT QUALITY REVIEW (EQR). De aparte kwaliteitsreview op opdrachtniveau door een ervaren ONAFHANKELIJKE reviewer — niet betrokken bij uitvoering — bij specifieke hoog-risico-opdrachten. Reviewer evalueert significante oordelen, conclusies en concept-verslag VÓÓR uitgifte. EQR-TRIGGER: (1) controle van financiële overzichten van Public Interest Entities (PIE = beursgenoteerden + financiële entiteiten) — dwingende minimum; (2) opdrachten waar het kantoor in zijn risk-assessment heeft bepaald dat EQR aangewezen is (eerste-jaar-opdracht grote groep, hoge fraude-indicatoren, complexe consolidatie)."
+      - "Concretiseer met De Smet's KWALITEITSDOSSIER. (a) Op kantoorniveau — schriftelijk vastgelegd: risico-assessment, kwaliteitsdoelstellingen, beleidsmaatregelen, monitoring-resultaten. (b) Per opdracht — revisiedossier dat aantoont hoe de opdrachtpartner zijn ISA 220-verantwoordelijkheden heeft uitgeoefend. (c) Voor EQR-opdrachten (komen bij De Smet niet voor — geen PIE-cliënten): documentatie van de review met werkpapieren reviewer, vragen, conclusies."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Niveau", "Standaard", "Wie verantwoordelijk?", "Resultaat in dossier"]
+        rijen:
+          - ["**Kantoor**", "ISQM 1 + ITAA-norm intern kwaliteitsmanagement", "Verantwoordelijke op hoogste niveau (Pieter)", "Schriftelijk kwaliteitssysteem + jaarlijkse evaluatie + remediation-acties"]
+          - ["**Opdracht**", "ISA 220 (herzien) — audit · ISRE-vereisten — review · ISRS-vereisten — samenstelling/AUP", "Opdrachtpartner", "Revisiedossier per opdracht — aantonen invulling 8 componenten"]
+          - ["**Engagement Quality Review (EQR)**", "ISQM 2", "Onafhankelijke reviewer (ervaren partner, niet in team)", "Review-werkpapieren + concept-verslag-vrijgave"]
+
+  - id: kwaliteitstoetsing-itaa
+    titel: "Externe kwaliteitstoetsing ITAA — peer review als systemische check"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: intern kwaliteitsmanagement is goed — maar wie controleert dat de kantoor-procedures effectief werken? Antwoord: de externe peer review. Art. 57-60 Wet-ITAA verplicht elke gecertificeerd accountant en belastingadviseur tot periodieke kwaliteitstoetsing. Niet een 'inspectie om sancties' maar een PEDAGOGISCH EN PREVENTIEF instrument — feedback van een ervaren peer."
+      - "VIER STAPPEN — kennen voor het examen. (1) AANKONDIGING — minstens 2 maanden vooraf (art. 58 lid 1). Schriftelijke brief van Commissie kwaliteitstoetsing met toetser-naam, scope (organisatie + opdrachten) en voor te bereiden documenten. (2) BEZOEK toetser op kantoor — bekijkt typisch (a) algemene organisatie (kwaliteitssysteem, opdrachtbrieven-templates, AML-procedure), (b) steekproef van opdrachten, (c) permanente-vormingsattesten, (d) klachten-register. (3) RAPPORTERING — gemotiveerd verslag met bevindingen + voorgesteld eindoordeel. Beroepsbeoefenaar heeft HOORRECHT — kan opmerkingen formuleren. (4) GEVOLGEN — actieplan en/of tuchtspoor."
+      - "DRIE UITKOMSTEN. (a) CONFORM — alles in orde, volgende toetsing in reguliere cyclus. (b) CONFORM MET OPMERKINGEN — kleinere bevindingen, aanbevelingen worden bij volgende cyclus opnieuw nagekeken. Geen verdere actie. (c) NIET-CONFORM — verplicht ACTIEPLAN binnen 6 maanden + heronderzoek na 1-2 jaar. Bij blijvende of ernstige tekortkomingen: dossier wordt overgedragen aan rechtskundig assessor — start van tuchtprocedure."
+      - "FREQUENTIE — typisch 5-6 jaar voor standaard kantoren. Korter (3 jaar of minder) bij vorig ongunstig resultaat of risico-profiel. Ad-hoc bij signalen (klacht, kantoor-overname, media-signaal)."
+      - "BEROEPSGEHEIM TEGENOVER TOETSER — examen-favoriet. Art. 58 lid 2 Wet-ITAA verplicht inzage in álle informatie die betrekking heeft op de beroepsuitoefening. De toetser is zelf gebonden door beroepsgeheim — cliëntinformatie blijft beschermd binnen het toetsings-kader. INZAGE WEIGEREN is op zich een tuchtfeit."
+      - "Concretiseer met de KWALITEITSTOETSING-AANKONDIGING-CASE op De Smet. Op 15 april 2026 ontvangt Pieter de aankondiging voor een toetsing op 15 juni 2026 — exact 2 maanden vooraf (wettelijk minimum). Stagiair Lina krijgt de opdracht de voorbereiding te coördineren. Wat moet klaar? (a) AML-procedure-document up-to-date + AMLCO-aanstellings-document; (b) opdrachtbrieven-templates met alle 13 inhoudsvelden; (c) threats-and-safeguards-fiches per cliënt (Nordica-onafhankelijkheidsregister, Vrolijke Hap-verhoogd-risico-fiche); (d) permanente-vormings-attesten per beroepsbeoefenaar; (e) klachten- en incidenten-register (leeg of remediated). Constructieve houding aanbevolen — toetser is geen tegenstander."
+    visualisaties:
+      - type: mermaid
+        ref: tuchtprocedure-flow
+        bron: voorbeeldgroep
+
+  - id: tuchtprocedure
+    titel: "Tuchtprocedure — bij ernstige overtreding"
+    niveau: 2
+    beats:
+      - "Open met de positionering. Tucht is publiekrechtelijk — beschermt de kwaliteit en integriteit van het beroep, niet de individuele cliënt (daarvoor bestaat het burgerrechtelijke spoor — zie [[beroepsgeheim-en-aansprakelijkheid]]). Hoofdstuk 8 Wet-ITAA (art. 94 e.v.). Vier procedure-stappen + vier sancties oplopend."
+      - "STAP 1 — KLACHT of vaststelling. Drie kanalen (art. 94): (i) BELANGHEBBENDE — cliënt, derde, ITAA-collega; (ii) PROCUREUR-GENERAAL bij Hof van Beroep; (iii) AMBTSHALVE — eigen vaststelling door rechtskundig assessor of Raad ITAA, bv. op basis van audit-bevinding, kwaliteitstoetsing-resultaat of media-signaal."
+      - "STAP 2 — ONDERZOEK door RECHTSKUNDIG ASSESSOR. Magistraat — onderzoekt feiten, ondervraagt de beroepsbeoefenaar, hoort getuigen, wordt bijgestaan door referendarissen. De beroepsbeoefenaar is verplicht mee te werken; CASSATIE-LEER: beroepsgeheim is NIET TEGENSTELBAAR aan tuchtoverheid. Op einde van onderzoek beslist de assessor: (a) verwijzing naar tuchtcommissie wanneer voldoende bezwaren bestaan, OF (b) klassering zonder gevolg — eventueel onder voorwaarden."
+      - "STAP 3 — TUCHTCOMMISSIE — eerste aanleg. NL- of FR-kamer. Samengesteld uit beroepsmagistraten + ITAA-leden (gemengde samenstelling voor juridische rigor + vakkennis). Beroepsbeoefenaar wordt opgeroepen en kan zich laten bijstaan door advocaat. Zitting is in principe NIET OPENBAAR (tuchtgeheim). De beslissing is met REDENEN OMKLEED."
+      - "STAP 4 — BEROEP bij COMMISSIE VAN BEROEP ITAA. Tegen tuchtcommissie-beslissing is beroep mogelijk (art. 106 Wet-ITAA). NL-kamer voor NL-tuchtcommissie-uitspraken, FR voor FR. Tegen beslissing van Commissie van Beroep is cassatieberoep bij Hof van Cassatie mogelijk — beperkt tot rechtsvragen, niet feiten-herziening."
+      - "VIER SANCTIES — oplopende ernst. (1) WAARSCHUWING — formele berisping zonder verdere gevolgen. (2) BERISPING — strenger geformuleerde afkeuring. (3) SCHORSING voor maximum 1 JAAR — tijdelijk verbod beroep uit te oefenen. (4) SCHRAPPING uit openbaar register — DEFINITIEF verbod. Plus: 'TERECHTWIJZING' door Raad (art. 85 3° Wet-ITAA) voor minder ernstige feiten — geen formele tuchtsanctie."
+      - "OMSTANDIGHEDEN BIJ SANCTIE-BEPALING (art. 100 Wet-ITAA). Zes factoren: (1) ernst + duur inbreuk; (2) verantwoordelijkheidsgraad; (3) financiële draagkracht; (4) omvang behaalde of vermeden winst; (5) mate van medewerking met ITAA; (6) recidive."
+      - "Concretiseer met MEENEEM-CLIENTEN-BART-CASE. Bart Devos (boekhouder, GEEN ITAA-lid) overweegt vertrek naar nieuw kantoor en wil cliënten meenemen. Ontvangende ITAA-vennoot stelt aanbrengcommissie voor. WAT GEBEURT ER? Tegen Bart zelf: civielrechtelijk (concurrentiebeding van zijn arbeidsovereenkomst), niet ITAA-tucht (geen lid). Tegen ontvangende ITAA-vennoot: TUCHTKLACHT mogelijk wegens (a) aanbrengcommissie = ronselverbod art. 30 KB plichtenleer; (b) overname cliëntenbestand zonder confraternele predecessor-procedure. Mogelijk strafrechtelijk indien cliënten-info gestolen + civiel door De Smet (concurrentiebeding + tort)."
+      - "PUBLICATIE TUCHTRECHTSPRAAK. Definitieve uitspraken worden in geanonimiseerde vorm gepubliceerd op ITAA-website — pedagogische functie voor de beroepsstand. Zware sancties (schrapping) kunnen niet-geanonimiseerd gepubliceerd worden ten behoeve van derden die met de geschrapte persoon zaken zouden doen."
+    visualisaties:
+      - type: mermaid
+        ref: tuchtprocedure-flow
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Sanctie", "Wat?", "Wettelijke basis"]
+        rijen:
+          - ["**Terechtwijzing**", "Formele afkeuring door Raad — geen tuchtsanctie", "Wet 17-03-2019 art. 85 3°"]
+          - ["**Waarschuwing**", "Formele berisping — eerste graad", "Hoofdstuk 8 Wet-ITAA"]
+          - ["**Berisping**", "Strenger geformuleerde afkeuring", "Hoofdstuk 8 Wet-ITAA"]
+          - ["**Schorsing** max 1 jaar", "Tijdelijk verbod beroep uit te oefenen", "Hoofdstuk 8 Wet-ITAA"]
+          - ["**Schrapping** uit register", "Definitief verbod beroep + verlies van titel", "Hoofdstuk 8 Wet-ITAA"]
+
+  - id: cumulatieve-sporen-recap
+    titel: "Drie sporen samen — wat tucht NIET doet"
+    niveau: 2
+    beats:
+      - "Open met de positionering: tucht is één van DRIE SPOREN — niet bovenop, niet alternatief. Recap [[beroepsgeheim-en-aansprakelijkheid]]: (1) BURGERLIJK — schadevergoeding aan cliënt of derde; (2) STRAFRECHTELIJK — boete + gevangenis bij art. 458 SW / art. 196 SW / art. 322 SW; (3) TUCHT — sancties van waarschuwing tot schrapping."
+      - "WAT TUCHT WEL DOET. Beoordeelt of een beroepsbeoefenaar geschikt blijft om het beroep verder uit te oefenen. Sancties zijn publiekrechtelijk — geen schadevergoeding. Bewijslast: 'inbreuk vastgesteld op het normatief kader' — lichter dan strafrechtelijk ('beyond reasonable doubt') maar hoger dan burgerlijk ('waarschijnlijkheid')."
+      - "WAT TUCHT NIET DOET — vetgedrukt drie zaken. (a) GEEN SCHADEVERGOEDING voor klager. Wie schade lijdt door fout van accountant moet apart het burgerrechtelijke spoor inslaan. Tuchtcommissie spreekt alleen over de beroepsbeoefenaar. (b) GEEN STRAFRECHTELIJKE SANCTIE. Boete en gevangenis komen uit het strafspoor — parket vervolgt, strafrechtbank oordeelt. (c) GEEN BURGERLIJKE PARTIJ-positie voor klager. De klager is GEEN procespartij in tuchtrecht — hij krijgt het 'gemotiveerd resultaat' meegedeeld (art. 6 KB plichtenleer 1998), kan worden gehoord wanneer commissie dat nodig acht, maar voert geen pleidooi."
+      - "ONAFHANKELIJKE PROCEDURES — cassatie-leer. Strafrechtelijke vrijspraak ('beyond reasonable doubt') sluit een burgerrechtelijke veroordeling ('waarschijnlijkheid') of een tuchtsanctie NIET uit. Eén feit kan op alle drie sporen sancties opleveren. Voorbeeld: accountant werkt mee aan valse boekhouding → strafrechtelijk veroordeeld (art. 196 SW) → burgerlijk veroordeeld (schade aan crediteuren) → tuchtrechtelijk geschrapt (integriteits-overtreding)."
+      - "Concretiseer met DE-SMET-HYPOTHETISCH (alleen ter illustratie, geen scenario in voorbeeldgroep): stel een accountant van De Smet werkt mee aan valse VenB-aangifte voor Vrolijke Hap, fiscus ontdekt het. (1) Strafrechtelijk — parket vervolgt voor art. 449 WIB92 + art. 196 SW; veroordeling = boete + voorwaardelijke gevangenis. (2) Burgerlijk — Vrolijke Hap vordert schade (fiscale boetes + verhoogde rechtzettingen); BA-verzekering DEKT NIET (bedrieglijk opzet). (3) Tucht — schrapping uit register na onderzoek door rechtskundig assessor. De accountant verliest titel + persoonlijk financieel impact + reputatie."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: drie-sporen-aansprakelijkheid
+        bron: voorbeeldgroep
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat 20 uur in jaar 1, 20 in jaar 2, 80 in jaar 3 OK is voor permanente vorming. Klopt — voldoet aan beide drempels (120u over 3 jaar én min 20u per jaar). MAAR: 10 + 10 + 100 = 120 voldoet NIET — jaar 1 en 2 onder 20u-drempel. Dubbele drempel: cumulatief én jaarlijks. Examen-klassieker."
+      - "Valkuil 2 (⚠️): beroepsgeheim inroepen tegen kwaliteitstoetser of tegen rechtskundig assessor. FOUT — art. 58 lid 2 Wet-ITAA + cassatie-leer: beroepsgeheim is NIET tegenstelbaar aan tuchtoverheid of kwaliteitstoetser. De toetser/assessor is zelf gebonden door beroepsgeheim — cliëntinformatie blijft binnen het kader beschermd. Inzage weigeren = op zich een tuchtfeit."
+      - "Valkuil 3 (⚠️): denken dat klager actief deelneemt aan tuchtprocedure en zelf schadevergoeding krijgt via tuchtspoor. FOUT — klager is GEEN procespartij in tuchtrecht. Hij krijgt het 'gemotiveerd resultaat' meegedeeld (art. 6 KB plichtenleer 1998) en kan worden gehoord; voert geen pleidooi. Tuchtcommissie spreekt geen schadevergoeding uit — alleen sancties tegen de beroepsbeoefenaar. Wie schadevergoeding wil, moet apart het BURGERRECHTELIJKE spoor inslaan via gewone rechtbank."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, heb je de zes leerstukken van PO 4.0 doorlopen. Voor verdere verdieping:"
+  leerstukken:
+    - slug: wat-is-het-accountantsberoep
+      hint: "Eerste leerstuk — beroep + instituut + normbronnen. Recap voor wie het kantoor-niveau-perspectief wil vasthouden."
+    - slug: deontologische-beginselen-en-onafhankelijkheid
+      hint: "Tweede leerstuk — vijf beginselen + threats-and-safeguards. Wat het kwaliteitsmanagement structureert en het tuchtspoor afdwingt."
+    - slug: beroepsgeheim-en-aansprakelijkheid
+      hint: "Vierde leerstuk — drie sporen aansprakelijkheid in detail. Tuchtspoor is één van die drie."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vier afdwingings-mechanismen + cijfers + sanctie-cascade + drie-sporen-recap op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [kwaliteitsmanagement-opdracht, kwaliteitstoetsing-itaa]
+    - concepten: [tuchtprocedure-itaa, permanente-vorming]
+    - concepten: [deontologie, itaa-beroepsorganisatie]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Permanente vorming — wettelijke basis"
+    ref: "ITAA-norm permanente vorming art. 1 + 3 + 6 + 8 + 11 + 13"
+    noot: "120u/3jr + min 20u/jaar. In werking sinds 1 januari 2021."
+  - onderwerp: "Permanente vorming — categorieën A en B + bonus-tellings"
+    ref: "ITAA-norm permanente vorming art. 7 (1°-7°)"
+    noot: "Doceren = 2u per uitgevoerd uur. Publicaties = 2u per 3.000 tekens. Doceren + publicaties max 30u/jaar."
+  - onderwerp: "Permanente vorming — sanctie-cascade"
+    ref: "ITAA-norm permanente vorming art. 11"
+    noot: "Terechtwijzing (Raad art. 85 3° Wet-ITAA) → intrekking hoedanigheid → tuchtverwijzing."
+  - onderwerp: "Cel Permanente Vorming — toezichtsorgaan"
+    ref: "ITAA-norm permanente vorming art. 13"
+    noot: "Paritair samengesteld. Stagiairs onder stagecommissie, niet onder Cel."
+  - onderwerp: "Intern kwaliteitsmanagement — kantoorniveau"
+    ref: "ITAA-norm intern kwaliteitsmanagement (Belgische vertaling ISQM 1)"
+    noot: "Verplicht voor elk kantoor — proportioneel naar omvang."
+  - onderwerp: "ISQM 1 — Quality Management for Firms"
+    ref: "ISQM 1 — IAASB"
+    noot: "Acht componenten. In werking voor boekjaren vanaf 15-12-2022."
+  - onderwerp: "ISQM 2 — Engagement Quality Review"
+    ref: "ISQM 2 — IAASB"
+    noot: "EQR verplicht bij PIE-audits + andere hoog-risico-opdrachten."
+  - onderwerp: "ISA 220 — Kwaliteitsmanagement op opdrachtniveau (audit)"
+    ref: "ISA 220 (herzien)"
+    noot: "Opdrachtpartner persoonlijke eindverantwoordelijkheid."
+  - onderwerp: "Externe kwaliteitstoetsing ITAA — wettelijke basis"
+    ref: "Wet 17 maart 2019 (ITAA-wet) art. 57-60"
+    noot: "Verplicht voor alle gecertificeerde leden. Aankondiging min 2 maanden vooraf (art. 58 lid 1)."
+  - onderwerp: "Kwaliteitstoetsing — inzage-plicht"
+    ref: "Wet 17 maart 2019 art. 58 lid 2"
+    noot: "Beroepsgeheim NIET tegenstelbaar aan toetser — toetser is zelf gebonden."
+  - onderwerp: "Onafhankelijkheid toetser"
+    ref: "Wet 17 maart 2019 art. 57"
+    noot: "Selectie volgens objectieve procedure; specifieke ITAA-opleiding."
+  - onderwerp: "Tuchtprocedure — wettelijke basis"
+    ref: "Wet 17 maart 2019 (ITAA-wet) Hoofdstuk 8 (Handhaving), art. 94 e.v."
+    noot: "Klacht-initiatie via belanghebbende, procureur-generaal, of ambtshalve (rechtskundig assessor / Raad)."
+  - onderwerp: "Tuchtprocedure — verloop + tuchtcommissie"
+    ref: "Wet 17 maart 2019 art. 94-95 + 100"
+    noot: "Onderzoek door rechtskundig assessor → verwijzing naar tuchtcommissie (NL/FR-kamer) → gemotiveerde uitspraak."
+  - onderwerp: "Tuchtprocedure — beroep"
+    ref: "Wet 17 maart 2019 art. 106"
+    noot: "Commissie van Beroep ITAA. Cassatieberoep bij Hof van Cassatie mogelijk — alleen rechtsvragen."
+  - onderwerp: "Sancties — vier graden + factoren bij bepaling"
+    ref: "Wet 17 maart 2019 Hoofdstuk 8 + art. 100"
+    noot: "Waarschuwing · berisping · schorsing max 1 jaar · schrapping. Zes factoren bij sanctie-keuze (ernst, duur, draagkracht, behaalde winst, medewerking, recidive)."
+  - onderwerp: "Terechtwijzing als alternatief voor tuchtsanctie"
+    ref: "Wet 17 maart 2019 art. 85 3°"
+    noot: "Door Raad bij minder ernstige feiten — geen formele tuchtsanctie."
+  - onderwerp: "Klager geen procespartij in tuchtrecht"
+    ref: "KB 1 maart 1998 — Reglement van plichtenleer art. 6 + 7"
+    noot: "Klager krijgt 'gemotiveerd resultaat'; kan worden gehoord; geen pleidooi."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."

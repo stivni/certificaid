@@ -23,8 +23,8 @@ Legenda: ✅ volledig uitgewerkt (leerstukken + samenvatting, eventueel oefening
 - ✅ [[studiemateriaal/1-3|1.3 Analyse van de jaarrekening]]
 - ✅ [[studiemateriaal/1-4|1.4 Geconsolideerde jaarrekening]]
 - ✅ [[studiemateriaal/1-5|1.5 Europese wetgeving en IFRS]]
-- ○ [[studiemateriaal/1-6|1.6 Externe controle]]
-- ○ [[studiemateriaal/1-7|1.7 Interne controle]]
+- ✅ [[studiemateriaal/1-6|1.6 Externe controle]]
+- ✅ [[studiemateriaal/1-7|1.7 Interne controle]]
 - ✅ [[studiemateriaal/1-8|1.8 Analytische boekhouding en management accounting]]
 - ✅ [[studiemateriaal/1-9|1.9 Financiële analyse]]
 
@@ -49,8 +49,8 @@ Legenda: ✅ volledig uitgewerkt (leerstukken + samenvatting, eventueel oefening
 
 <div class="two-column-list">
 
-- ○ [[studiemateriaal/3-0|3.0 Vennootschapsrecht en insolventie]]
-- ○ [[studiemateriaal/4-0|4.0 Deontologie en antiwitwas]]
+- ✅ [[studiemateriaal/3-0|3.0 Vennootschapsrecht en insolventie]]
+- ✅ [[studiemateriaal/4-0|4.0 Deontologie en antiwitwas]]
 
 </div>
 

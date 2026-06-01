@@ -1,0 +1,205 @@
+# Leerstuk-script — Wat is het accountantsberoep?
+#
+# PO 4.0 leerstuk 1 (entry + doorklik). Zet neer: wie is gecertificeerd
+# accountant, wie reglementeert hem (ITAA), welke normen-hiërarchie geldt,
+# welke opdracht-types zijn er. Vier sub-onderwerpen samen één entry-
+# leerstuk — geen technische diepte, wel routekaart.
+#
+# Hand-off: dit leerstuk introduceert vocabulaire — "gecertificeerd
+# accountant", "ITAA", "monopolieopdracht", "normbronnen", "deontologie"
+# (kort) — dat de volgende vijf leerstukken nodig hebben. Leerstuk 2
+# bouwt het deontologische beginselen-kader; dit leerstuk plaatst het
+# beroep zelf in zijn institutionele context.
+
+meta:
+  slug: wat-is-het-accountantsberoep
+  titel: "Wat is het accountantsberoep?"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — entry: wie is gecertificeerd accountant, wie
+    reglementeert hem (ITAA — Wet 17 maart 2019), welke zes lagen
+    normbronnen rusten op elke opdracht, en welke opdracht-types
+    voert hij uit. Plaatsing van het beroep in zijn institutionele
+    context — geen technische diepte, wel routekaart voor de volgende
+    vijf leerstukken.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit leerstuk vocabulaire neerzet — "gecertificeerd
+    accountant", "ITAA", "monopolieopdracht", "normbronnen" — dat de
+    volgende leerstukken nodig hebben. Wie de regels op zijn beroep
+    kent, herkent in elke deontologische vraag welke laag actief is.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: gecertificeerd accountant = natuurlijke of rechtspersoon ingeschreven in het openbaar register van het ITAA op grond van de Wet 17 maart 2019, met wettelijk beschermde titel + monopolie op een handvol opdrachten (attesterende verslagen, expertise, wettelijk voorbehouden verslagen) — daarnaast gewone advies-, samenstellings- en fiscale opdrachten."
+    - "Eén instituut — drie petten: ITAA reglementeert (normen + register), controleert (kwaliteitstoetsing + tucht) én vertegenwoordigt (de beroepsstand bij wetgever en EU). Sinds de fusie van IAB + BIBF in 2019. Cumul met IBR-bedrijfsrevisoren-titel is verboden."
+    - "Zes lagen normbronnen rusten op elke opdracht — van wet (bovenaan) tot tuchtrechtspraak (onderaan). Bij elk dossier vraag je: welke laag levert de regel? Hogere laag wijkt nooit voor lagere; lagere mag wel verfijnen of strenger maken."
+  visualisaties:
+    - type: mermaid
+      ref: organogram-kantoor
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken de vier onderwerpen achtereen uit op het kantoor De Smet & Partners — beroep + instituut + normen + opdrachten — zodat je bij elk volgend leerstuk weet WIE handelt onder WELKE regels.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wie-is-de-accountant
+    titel: "Wie is de gecertificeerd accountant?"
+    niveau: 2
+    beats:
+      - "Open met het kantoor De Smet & Partners als anker: drie vennoten met ITAA-titel, twee stagiairs, vijf medewerkers waarvan één boekhouder zonder ITAA-titel. De titel maakt het verschil — niet de werkplek."
+      - "Definitie: gecertificeerd accountant is een natuurlijke persoon óf rechtspersoon ingeschreven in het openbaar register van het ITAA met de hoedanigheid 'gecertificeerd accountant' op grond van de Wet 17 maart 2019. Titel is wettelijk beschermd: wie hem voert zonder inschrijving pleegt een strafbaar feit."
+      - "Toelatingsvoorwaarden (cumulatief): universitair diploma + slagen voor toelatingsexamen + drie jaar stage onder erkende stagemeester + bekwaamheidsexamen + eedaflegging. Lina (stagiair jaar 3 in De Smet & Partners) staat midden in dit traject; Pieter De Smet (vennoot, 15 jaar anciënniteit) heeft het volledig doorlopen."
+      - "Concretiseer met de Lina-Pieter-vergelijking (tabel): wat MAG de stagiair, wat NIET. Stagiair mag de meeste activiteiten van art. 3 Wet-ITAA uitoefenen onder verantwoordelijkheid van zijn stagemeester — UITGEZONDERD de monopolieopdrachten van art. 3, 6° tot 8° (attesterende verslagen, expertise). Die blijven exclusief voor de volwaardige gecertificeerd accountant."
+      - "Belangrijke nuance (blockquote-aside): de oude titels 'accountant' en 'accountant-belastingconsulent' uit de pre-2019-wet zijn formeel vervangen door 'gecertificeerd accountant' en 'gecertificeerd belastingadviseur'. Wie vóór 2019 ingeschreven was, werd via overgangsbepaling automatisch omgezet — examenmateriaal van vóór 2019 dat 'IAB' of 'accountant' noemt, lees je als 'ITAA' resp. 'gecertificeerd accountant'."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Wie?", "Mag boekhouding voeren?", "Mag fiscaal advies geven?", "Mag attesterende opdracht doen?", "Mag handtekening delegeren bij monopolie-opdracht?"]
+        rijen:
+          - ["**Volwaardig gecertificeerd accountant** (Pieter, Eva, Tom)", "Ja", "Ja", "Ja", "Neen (art. 16 KB plichtenleer)"]
+          - ["**Stagiair gecertificeerd accountant** (Lina, Joris)", "Ja, onder stagemeester", "Ja, onder stagemeester", "Neen — alleen bijstaan", "n.v.t."]
+          - ["**Boekhouder zonder ITAA-titel** (Bart Devos)", "Ja (voor eigen erkenning of als werknemer ITAA-kantoor)", "Beperkt", "Neen", "n.v.t."]
+          - ["**Bedrijfsrevisor (IBR-lid)**", "Geen typische opdracht", "Ja, mits geen cumul", "Ja, op wettelijke controle", "Neen (art. 14 revisorenwet)"]
+
+  - id: itaa-instituut
+    titel: "Wat is het ITAA?"
+    niveau: 2
+    beats:
+      - "Open met de drievoudige rol: het ITAA is tegelijk poort (toelatings- + bekwaamheidsexamen via stagecommissie), referentiekader (normen + permanente vorming) en toezichthouder (kwaliteitstoetsing + tucht). Voor de stagiair is dit drie petten in één bril."
+      - "Structuur op één blik: algemene vergadering kiest een Raad van 16 leden + voorzitter + ondervoorzitter (3-jarig mandaat, paritair NL/FR + gecertificeerd accountant/belastingadviseur). De Raad benoemt uit zijn midden een uitvoerend comité voor het dagelijks bestuur en stelt verschillende commissies in."
+      - "Vier commissies + tuchtorganen die je vermoedelijk in een examen-vraag ziet — toon de tabel. Stagecommissie voor toelating, Cel Permanente Vorming voor bijscholing, Commissie kwaliteitstoetsing voor peer review, en de tuchtorganen (Tuchtcommissie + Commissie van Beroep) voor sancties. Elk orgaan komt in een later leerstuk terug."
+      - "Eén belangrijk verschil dat altijd terugkeert (vetgedrukt): ITAA ≠ IBR. ITAA = gecertificeerd accountants + belastingadviseurs (Wet 17-03-2019). IBR = bedrijfsrevisoren (Wet 7-12-2016). Twee aparte instituten, twee aparte registers, twee aparte tuchtspoor. Een bedrijfsrevisor mag GEEN gecertificeerd belastingadviseur worden — cumul is wettelijk uitgesloten. Tussen beide instituten bestaan wel gedragslijnen voor confraternele relaties bij gedeelde opdrachten (fusie, splitsing, inbreng in natura)."
+      - "Concretiseer met De Smet & Partners: Pieter is gecertificeerd accountant + gecertificeerd belastingadviseur (cumul binnen ITAA toegelaten), Tom is alleen gecertificeerd belastingadviseur, Eva is gecertificeerd accountant. Bart Devos is geen ITAA-lid en kan dus geen vennoot worden — alleen werknemer."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Orgaan", "Samenstelling (grof)", "Bevoegdheid voor PO 4.0", "Uitgewerkt in"]
+        rijen:
+          - ["**Algemene vergadering**", "Alle ingeschreven leden (geen stagiairs)", "Verkiezing Raad + bijdragen + procedurekosten", "—"]
+          - ["**Raad ITAA**", "Voorzitter + ondervoorzitter + 16 leden — 3-jarig mandaat", "Normen + reglementen + register", "Doorheen alle leerstukken"]
+          - ["**Stagecommissie**", "Door Raad benoemd", "Toelating beroep + opvolgen stage + bekwaamheidsexamen", "—"]
+          - ["**Cel Permanente Vorming**", "Paritair NL/FR + GA/GBA", "Controle bijscholings-uren", "[[kwaliteitstoezicht-en-tucht]]"]
+          - ["**Commissie kwaliteitstoetsing**", "Door Raad benoemd + magistraat-voorzitter", "Periodieke peer review", "[[kwaliteitstoezicht-en-tucht]]"]
+          - ["**Tuchtcommissie + Commissie van Beroep**", "Magistraten + beroepsbeoefenaars", "Tuchtonderzoek + sancties + beroep", "[[kwaliteitstoezicht-en-tucht]]"]
+
+  - id: zes-lagen-normbronnen
+    titel: "Zes lagen normbronnen rusten op elke opdracht"
+    niveau: 2
+    beats:
+      - "Open met de praktijk-vraag van elke jonge accountant: 'in welke tekst staat dit?'. Het antwoord ligt zelden in één bundel. Bij elke opdracht staan zes lagen open — en wie weet welke laag actief is voor zijn vraag, vindt de regel binnen vijf minuten."
+      - "Laag 1 — WET. Bovenste laag. Kerntekst: Wet 17 maart 2019 (ITAA-wet). Sectorwetten: WVV, WIB92, WER boek III + XX, Antiwitwaswet 18-09-2017. De wet bepaalt wie het beroep mag uitoefenen, welke titel, welke opdrachten zijn voorbehouden, onverenigbaarheden, organen van het ITAA, tuchtsancties."
+      - "Laag 2 — KONINKLIJKE BESLUITEN. Uitvoeringsbesluiten die de wet concretiseren. Twee kerntexten voor de stagiair: (a) KB 9 december 2019 — deontologische code ITAA, gebaseerd op art. 49 Wet-ITAA; (b) KB 1 maart 1998 — Reglement van plichtenleer, oudere tekst maar niet vervangen — zijn art. 16 (verbod handtekening-delegatie) en art. 30 (ronselverbod) leven nog actief in de huidige praktijk."
+      - "Laag 3 — REGLEMENTEN ITAA. Door de Raad uitgevaardigd, na publicatie in het Staatsblad. Voorbeelden: reglement permanente vorming, reglement kwaliteitstoetsing, reglement procedurekosten tuchtprocedure."
+      - "Laag 4 — ITAA-BEROEPSNORMEN. Technische normen voor specifieke opdracht-types of werkdomeinen. Goedgekeurd door de Raad na advies van de Hoge Raad voor de Economische Beroepen (advies binnen 3 maanden — anders geacht gunstig). Voorbeelden: ITAA-norm opdrachtbrief, ITAA-norm samenstellingsopdrachten (gebaseerd op ISRS 4410), ITAA-norm intern kwaliteitsmanagement, ITAA-norm AWW (antiwitwas), ITAA-norm permanente vorming."
+      - "Laag 5 — INTERNATIONALE STANDAARDEN. ISA / ISRE / ISRS / ISAE van de IAASB (International Auditing and Assurance Standards Board). Op zich géén rechtstreeks bindende werking in België — bindend zodra een ITAA-norm of een KB ernaar verwijst. Uitzondering: IFRS/IAS voor beursgenoteerde EU-groepen — rechtstreeks bindend via Verordening (EG) 1606/2002."
+      - "Laag 6 — TUCHTRECHTSPRAAK. Beslissingen van de Tuchtcommissie + Commissie van Beroep + cassatie-arresten over tucht-zaken. Geen formeel stare decisis maar wel de facto richtinggevend — geanonimiseerde uitspraken worden gepubliceerd op de ITAA-website."
+      - "Synthese (vetgedrukt): bij elk dossier vraag je 'welke laag levert de regel?' — bovenliggende laag wijkt nooit voor onderliggende. Een ITAA-norm kan de wet niet wegmaken, maar wel concretiseren of strenger maken. Drie voorbeelden in tabel-vorm: opdrachtbrief (laag 1-2-4), threats-and-safeguards (laag 1-2-4-5), AML-melding (laag 1-3-4-5)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: normbronnen-hierarchie
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Onderwerp", "Welke lagen actief?", "Concrete tekst"]
+        rijen:
+          - ["Opdrachtbrief verplicht stellen", "Laag 1 + 2 + 4", "Wet ITAA art. 42 → KB plichtenleer → ITAA-norm-opdrachtbrief"]
+          - ["Threats-and-safeguards-cyclus", "Laag 2 + 4 + 5", "KB 9-12-2019 → ITAA-norm intern kwaliteitsmanagement → IESBA Code Section 120"]
+          - ["CFI-melding bij vermoeden witwassen", "Laag 1 + 3 + 4", "Antiwitwaswet 18-09-2017 → reglement AWW → ITAA-norm AWW"]
+          - ["Permanente vorming 120u/3jr", "Laag 4", "ITAA-norm permanente vorming art. 3"]
+
+  - id: opdracht-types-kort
+    titel: "Welke opdracht-types voert hij uit?"
+    niveau: 2
+    beats:
+      - "Open met de hoofdverdeling: de gecertificeerd accountant levert NIET-ASSURANCE-werk (boekhouding, fiscale aangifte, advies, samenstelling) én — voor wie ervoor gekwalificeerd is — ASSURANCE-werk (controle, beoordeling, agreed-upon procedures, isae-opdracht). Het onderscheid bepaalt zekerheidsniveau + aansprakelijkheid + welke norm geldt."
+      - "Vier types op één rij. Zekerheidsladder van hoog naar laag: (a) CONTROLE — redelijke mate van zekerheid, positief oordeel 'getrouw beeld'; ISA-stelsel; typisch commissaris-mandaat; (b) BEOORDELING — beperkte mate, conclusie in negatieve vorm 'niets gebleken'; ISRE 2400/2410; (c) SAMENSTELLING — geen zekerheid, alleen vermelding dat de informatie samengesteld is; ISRS 4410; de meest courante kmo-opdracht; (d) OVEREENGEKOMEN PROCEDURES (AUP) — geen zekerheid, alleen feitelijke bevindingen; ISRS 4400."
+      - "Belangrijke afbakening voor de stagiair (vetgedrukt): drie van de vier types kan een gecertificeerd accountant uitvoeren — CONTROLE in de strikte zin (commissaris-mandaat boven WVV-groottecriteria) is voorbehouden aan de bedrijfsrevisor (IBR-lid). De wettelijke commissaris-opdracht hoort dus naar PO 1.6 ('Commissaris'). Daar leer je over ISA in diepte."
+      - "MONOPOLIEOPDRACHTEN — eigen accent. Naast deze typologie reserveert art. 3, 6° tot 8° Wet-ITAA een handvol opdrachten EXCLUSIEF voor gecertificeerd accountants: (a) expertise — gerechtelijke + privé-expertise inzake boekhouding; (b) attesterende opdrachten — inbrengverslagen, omzettingsverslagen, quasi-inbreng (WVV); (c) andere wettelijk voorbehouden verslagen. Voor die opdrachten gelden vier discipline-regels: (1) handtekening niet delegeerbaar; (2) essentiële elementen niet overdraagbaar; (3) bijstand alleen door andere ITAA-leden of vaste medewerkers; (4) ronselverbod — vergoeding niet afhankelijk van andere diensten (art. 30 KB plichtenleer)."
+      - "Concretiseer met De Smet & Partners: het kantoor doet voor Aurelia Industries een samenstellingsopdracht (ISRS 4410, geen zekerheid); voor Vrolijke Hap een boekhouding + BTW-aangifte (gewoon dienstverleningswerk); en in 2025 een omzettingsverslag voor een cliënt bij omvorming BVBA → BV (monopolieopdracht, zelf-ondertekend door Pieter, niet delegeerbaar)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: monopolieopdrachten
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Type opdracht", "Zekerheidsniveau", "Norm-stelsel", "Wie voert uit?"]
+        rijen:
+          - ["Wettelijke controle (commissaris)", "Redelijk — 'getrouw beeld'", "ISA + ITAA-KMO-controlenorm", "**Bedrijfsrevisor (IBR)** — niet ITAA-accountant"]
+          - ["Vrijwillige controle / beoordeling (review)", "Beperkt — 'niets gebleken'", "ISRE 2400 + ITAA-KMO-controlenorm hfdst 4", "Gecertificeerd accountant + bedrijfsrevisor"]
+          - ["Samenstelling", "Geen", "ISRS 4410 + ITAA-norm samenstelling", "Gecertificeerd accountant — de meest courante KMO-opdracht"]
+          - ["Overeengekomen procedures (AUP)", "Geen — alleen feiten", "ISRS 4400", "Gecertificeerd accountant + bedrijfsrevisor"]
+          - ["Bijzondere wettelijke verslagen — inbreng in natura, omzetting, quasi-inbreng", "Attestering volgens wet", "WVV + ITAA-norm bijzondere mandaten", "**Monopolie gecertificeerd accountant** — niet delegeerbaar"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat 'accountant' en 'gecertificeerd accountant' inwisselbare termen zijn. FOUT — sinds 2019 bestaat één wettelijk beschermde titel 'gecertificeerd accountant' (of 'gecertificeerd belastingadviseur'). Oude termen uit de pre-2019-wet zijn formeel vervangen. Wie 'accountant' zegt op een examenvraag, denk meteen 'staat dat er als wettelijke term of als algemene term?' — alleen 'gecertificeerd accountant' is wettelijk."
+      - "Valkuil 2 (⚠️): ITAA + IBR verwarren. FOUT — twee aparte instituten met aparte wetten en registers. ITAA (Wet 17-03-2019) = gecertificeerd accountants + belastingadviseurs. IBR (Wet 7-12-2016) = bedrijfsrevisoren = die de wettelijke audit doen. Cumul tussen beide hoedanigheden is uitgesloten. Confraterneliteits-gedragslijnen regelen hun samenwerking bij gedeelde opdrachten."
+      - "Valkuil 3 (⚠️): handtekening delegeren bij monopolieopdracht. FOUT — art. 16 KB plichtenleer verbiedt dat. De vertegenwoordiger-natuurlijke persoon ondertekent zelf bij attesterende verslagen, expertise, en andere wettelijk voorbehouden opdrachten. Bijstand door medewerkers mag — handtekening niet. Bij overtreding: tuchtspoor + nietigheid van het verslag mogelijk."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: deontologische-beginselen-en-onafhankelijkheid
+      hint: "De vijf beginselen die op elke opdracht rusten — integriteit, objectiviteit, vakbekwaamheid, vertrouwelijkheid, professioneel gedrag — plus onafhankelijkheid als strengere standaard voor assurance-opdrachten. Met threats-and-safeguards-cyclus."
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "Hoe een nieuwe cliënt opnemen — intake + opdrachtbrief + kantoorvoering + beëindiging incl. confraterne overdracht."
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "Welke mechanismen dwingen naleving af — kwaliteitsmanagement op kantoor + ITAA-kwaliteitstoetsing + tuchtprocedure + permanente vorming."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — beroepsstructuur + organen-tabel + normbronnen-hiërarchie op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [gecertificeerd-accountant, itaa-beroepsorganisatie]
+    - concepten: [normbronnen, opdracht-types]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Beroepsstatuut + titel + toelatingsvoorwaarden"
+    ref: "Wet 17 maart 2019 (ITAA-wet) art. 3 + 10 + 13 + 16"
+    noot: "art. 3 = beroepsactiviteiten; art. 10 = toelatingsvoorwaarden; art. 13 = stage; art. 16 = stagiair-grenzen."
+  - onderwerp: "Monopolieopdrachten — voorbehouden activiteiten"
+    ref: "Wet 17 maart 2019 art. 3, 6° tot 8°"
+    noot: "Expertise + attesterende opdrachten + andere wettelijk voorbehouden. Discipline-regels in KB plichtenleer art. 16-17 + 30."
+  - onderwerp: "Onverenigbaarheden + objectieve uitvoering"
+    ref: "Wet 17 maart 2019 art. 48"
+    noot: "Algemene basis voor onverenigbaarheden-leer; uitgewerkt in [[deontologische-beginselen-en-onafhankelijkheid]]."
+  - onderwerp: "ITAA als instituut + organen + register"
+    ref: "Wet 17 maart 2019 art. 29 + 32 + 65 + 69 + 70"
+    noot: "Openbaar register + algemene vergadering + Raad + uitvoerend comité."
+  - onderwerp: "Cumul-verbod ITAA ↔ IBR"
+    ref: "Wet 17 maart 2019 art. 10 §5"
+    noot: "Bedrijfsrevisor mag niet om hoedanigheid gecertificeerd belastingadviseur verzoeken."
+  - onderwerp: "Deontologische code als KB"
+    ref: "KB 9 december 2019 (deontologische code ITAA)"
+    noot: "Gebaseerd op art. 49 Wet-ITAA. Uitgewerkt in [[deontologische-beginselen-en-onafhankelijkheid]]."
+  - onderwerp: "Plichtenleer — oudere KB nog deels in voege"
+    ref: "KB 1 maart 1998 — Reglement van plichtenleer art. 16 + 17 + 30"
+    noot: "Niet vervangen; art. 16 = verbod handtekening-delegatie; art. 30 = ronselverbod."
+  - onderwerp: "Publiek toezicht — Hoge Raad voor de Economische Beroepen"
+    ref: "Wet 17 maart 2019 art. 80"
+    noot: "Adviezen op nieuwe ITAA-normen; geen advies binnen 3 maanden = geacht gunstig."
+  - onderwerp: "IFRS rechtstreekse bindendheid voor beursgenoteerde EU-groepen"
+    ref: "Verordening (EG) 1606/2002 art. 2"
+    noot: "Uitzondering op de regel dat internationale standaarden alleen via verwijzing bindend zijn."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."

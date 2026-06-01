@@ -1,7 +1,7 @@
 ---
 title: 4.0 Voorbeeldexamenvragen Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 4.0 (Deontologische beginselen in verband met het beroep en beginselen op het vlak van antiwitwaswetgeving).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "9. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-4-0]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

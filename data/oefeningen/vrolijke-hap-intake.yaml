@@ -1,0 +1,268 @@
+# Oefening-script — PO 4.0 intake Vrolijke Hap
+#
+# Doorlopende mini-case waarin de stagiair de volledige intake-procedure
+# uitvoert voor een nieuwe cliënt: predecessor-check → KYC → UBO →
+# risicogradering → threats-analyse → opdrachtbrief + AML-monitoring.
+#
+# Status: POC voor PO 4.0 — eerste oefening in een niet-cijfermatig PO.
+
+meta:
+  slug: "vrolijke-hap-intake"
+  titel: "Oefening: intake Vrolijke Hap BV"
+  po: "4.0"
+  cluster: "deontologie-en-aml"
+  beschrijving: "Doorgewerkte intake-case: KYC + UBO + risicogradering + threats-analyse + opdrachtbrief voor een horeca-cliënt met verhoogd AML-risico"
+  studietijd: "60-75 min"
+  niveau: "volledig"
+
+intro:
+  callout_beat: >
+    Standaard oefening-intro: "doe eerst zelf, klap pas dan open ter controle".
+    Verwijs naar de zes leerstukken voor verdieping. Benadruk dat dit een
+    didactisch-bredere oefening is dan de voorbeeldexamen-vragen — die staan
+    apart op de voorbeeldexamenvragen-pagina.
+
+# ---------------------------------------------------------------------------
+# OPGAVE — alleen data die de stagiair vóór de eerste stap krijgt
+# ---------------------------------------------------------------------------
+
+opgave:
+
+  scenario_beats:
+    - "Het is 15 februari 2026. Jij bent stagiair Lina Vermeulen, derde stagejaar, bij kantoor De Smet & Partners BV in Gent. Vennoot Pieter De Smet draagt je een nieuwe intake op: Vrolijke Hap BV biedt zich aan via warme aanbeveling van een bestaande cliënt."
+    - "Pieter wil dat jij de volledige intake-procedure doorloopt en hem een memo aanlevert vóór einde maand, zodat hij beslist of het kantoor de opdracht aanvaardt. Alle praktische data over Vrolijke Hap krijg je hieronder. Verder mag je veronderstellen dat het kantoor zelf alle algemene faciliteiten heeft (verzekering, AMLCO = Pieter zelf, ISQM-systeem op orde, vorming bijgewerkt)."
+    - "**Doe eerst elke stap zelf** — gebruik enkel papier of een tekstbestand. Klap de oplossing-blokken pas open ter controle. De oefening loopt op realistische stagiair-tijd (60-75 min); neem de tijd voor reflectie."
+
+  client_profiel:
+    titel: "Profiel Vrolijke Hap BV — info aangeleverd door cliënt + KBO-uittreksel"
+    kolommen: ["Veld", "Waarde"]
+    rijen:
+      - ["Naam", "Vrolijke Hap BV"]
+      - ["KBO-nummer", "0801.234.567"]
+      - ["Rechtsvorm", "Besloten Vennootschap"]
+      - ["Oprichting", "12 januari 2026 (huidig boekjaar = eerste)"]
+      - ["Statutaire zetel", "Gent (Sleepstraat 14)"]
+      - ["Sector", "Horeca — restaurantketen (3 vestigingen Gent + Brugge)"]
+      - ["Geschatte jaaromzet", "2,8 mln EUR (raming bedrijfsplan)"]
+      - ["Aandeelhouders bij oprichting", "Karim Y. (50 %) + Yusuf Y. (50 %), neven, beiden natuurlijke personen"]
+      - ["Zaakvoerders", "Karim Y. en Yusuf Y. (gemeenschappelijk)"]
+      - ["Type opdracht waar cliënt om vraagt", "Boekhouding + BTW-aangifte (kwartaal) + VenB-aangifte + jaarrekening (samenstelling)"]
+      - ["Voorganger", "Geen — eerste boekjaar, geen vorige cijferberoeper"]
+      - ["Aandeel cash-omzet (raming bedrijfsplan)", "30 % van omzet contant"]
+
+  extra_info:
+    titel: "Aanvullende info uit intake-gesprek (15-02-2026)"
+    bullets:
+      - "Karim Y. is Belg-rijksinwoner, woont al 22 jaar in Gent."
+      - "Yusuf Y. is Belg-rijksinwoner sinds 2018 (eerder Bulgaars staatsburger; dubbele nationaliteit; woont sinds 2018 in Gent). Hij behoudt een tweede woning in Sofia waarmee af en toe verhuur-inkomsten worden gegenereerd."
+      - "Geen van beide neven staat op een EU-sanctielijst (controle via geconsolideerde EU-database aan de balie van het kantoor uitgevoerd)."
+      - "De cliënt levert eID-kopieën aan + KBO-uittreksel + oprichtingsakte + bedrijfsplan."
+      - "Pieter De Smet heeft géén persoonlijke band met de neven of hun familie. Geen vennoot van het kantoor is bestuurder of medewerker bij Vrolijke Hap."
+      - "Het kantoor heeft één bestaande horeca-cliënt (eenmanszaak café), goed voor 8 % van de kantooromzet. Vrolijke Hap zou bij aanvaarding ~3 % van de kantooromzet vertegenwoordigen."
+
+  ubo_constellatie:
+    titel: "UBO-constellatie zoals aangegeven door cliënt"
+    kolommen: ["UBO", "% directe eigendom", "% stemrecht", "Controle-mechanisme", "Risico-relevante feiten"]
+    rijen:
+      - ["Karim Y.", "50 %", "50 %", "Aandeelhouder + gemeenschappelijk zaakvoerder", "Geen"]
+      - ["Yusuf Y.", "50 %", "50 %", "Aandeelhouder + gemeenschappelijk zaakvoerder", "Tweede woning + verhuur in Bulgarije (~12 k EUR/jaar)"]
+
+  risico_signalen:
+    titel: "Risico-signalen — door jou geïdentificeerd tijdens intake-gesprek"
+    bullets:
+      - "**Hoge cash-omzet** (30 % volgens bedrijfsplan) typisch voor horeca, maar verhoogt witwasrisico"
+      - "**Eerste boekjaar** — geen historie om profiel-consistentie te toetsen"
+      - "**Buitenlandse vermogensband** (vastgoed + verhuur Bulgarije bij UBO Yusuf Y.)"
+      - "**Sector horeca** staat in de ITAA-AML-leidraad als sector met verhoogde waakzaamheid"
+      - "**Geen voorganger** — kantoor is eerste lijn voor AML-screening, geen externe due diligence beschikbaar"
+
+# ---------------------------------------------------------------------------
+# STAPPEN — instructie + uitwerking per stap
+# ---------------------------------------------------------------------------
+
+stappen:
+
+  - id: stap-1-predecessor
+    titel: "Stap 1 — Predecessor-check"
+    instructie_beats:
+      - "Bekijk het client-profiel. Beslis: moet je in dit geval de predecessor-procedure (voorganger-contact) doorlopen? Onderbouw je antwoord vanuit de deontologische verplichting en geef aan welke uitkomst je documenteert."
+    uitwerking_beats:
+      - "Conclusie: predecessor-procedure is hier *niet* van toepassing omdat de vennootschap pas opgericht is in januari 2026 en geen vorige cijferberoeper had. Documenteer dat in het aanvaardings-memo als korte vermelding 'geen voorganger — eerste boekjaar'."
+      - "Belangrijk: de afwezigheid van een voorganger ontneemt je niet van de plicht om alsnog grondig KYC + integriteits-check te doen. Bij een nieuwe vennootschap is de waakzaamheid juist hoger omdat je geen historische dossier-info kan inkijken."
+      - "Wettelijke basis: deontologische norm vereist alleen predecessor-contact als er een voorganger is. Geen aanbrengcommissie is hier sowieso niet aan de orde."
+    valkuil_beat: "Valkuil: stagiairs slaan KYC over wanneer er 'geen voorganger' is, denkend dat het dossier 'leeg' is. Het tegenovergestelde is waar — bij een leeg dossier moet de eerste lijn (jouw kantoor) volle KYC doen."
+
+  - id: stap-2-kyc-en-ubo
+    titel: "Stap 2 — KYC en UBO-identificatie"
+    instructie_beats:
+      - "Beschrijf welke stukken je verzamelt voor cliënten-identificatie en UBO-bevestiging. Geef per UBO aan welk soort verificatie je voert. Beslis of de UBO-aangifte van Vrolijke Hap volstaat of dat extra controle nodig is."
+    uitwerking_beats:
+      - "Voor de **vennootschap** verzamel je: KBO-uittreksel (datum vandaag), oprichtingsakte met statuten, UBO-registeruitreksel via portaal FOD Financiën, en het bedrijfsplan voor context. Bewaar elektronische kopie in het cliëntdossier."
+      - "Voor de **lasthebbers/zaakvoerders** (zelfde personen als UBO's) verzamel je: eID-kopie of paspoort-kopie, bewijs van woonadres (recent uittreksel rijksregister of factuur)."
+      - "Voor **UBO Karim Y.**: standaard identiteitsverificatie volstaat. Geen verhoogd onderzoek nodig (Belg-rijksinwoner zonder buitenlandse vermogensband, niet PEP)."
+      - "Voor **UBO Yusuf Y.**: standaard identiteitsverificatie + **aanvullend onderzoek** naar de Bulgaarse tak (vastgoed + verhuur). Vraag een verklaring op eer over de aard van het Bulgaarse vermogen en de bron, plus eventueel een attest van fiscale residentie. Bewaar correspondentie in het dossier."
+      - "Documenteer in het UBO-fiche: directe eigendom (50/50), controlemechanisme (gemeenschappelijk zaakvoerder + 50 % stemrecht), en de risico-relevante feiten per UBO. Datum van verificatie + initialen verifier."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        ref: kyc-ubo-checklist
+        titel: "KYC-checklist Vrolijke Hap — wat verzamel ik per onderwerp?"
+        kolommen: ["Onderwerp", "Bewijsstuk", "Verifieer wat?", "Bewaarduur"]
+        rijen:
+          - ["Identiteit vennootschap", "KBO-uittreksel actueel + oprichtingsakte", "Bestaan + zetel + rechtsvorm + zaakvoerders", "10 jaar"]
+          - ["UBO-aangifte", "UBO-registeruitreksel (≤ 30 dagen oud)", "% eigendom + controle-mechanisme + identiteit", "10 jaar"]
+          - ["Identiteit Karim Y.", "eID-kopie + rijksregister-uittreksel", "Naam, geboortedatum, adres, nationaliteit", "10 jaar"]
+          - ["Identiteit Yusuf Y.", "eID-kopie + rijksregister + verklaring buitenlandse band", "Idem + aard Bulgaars vermogen", "10 jaar"]
+          - ["Bron middelen oprichting", "Verklaring oprichters + bedrijfsplan + bankafschrift inbreng", "Plausibele herkomst kapitaal", "10 jaar"]
+    valkuil_beat: "Valkuil: een 'standaard'-UBO-check uitvoeren voor beide neven terwijl de buitenlandse vermogensband bij Yusuf Y. om aanvullend onderzoek vraagt. Risico-classificatie is niet 'cliëntbreed' maar per UBO te valideren."
+
+  - id: stap-3-risicogradering
+    titel: "Stap 3 — Risicogradering"
+    instructie_beats:
+      - "Classificeer Vrolijke Hap BV in het AML-risicoregime (vereenvoudigd / standaard / verhoogd) en motiveer je keuze met minstens drie elementen. Beschrijf welke gevolgen die classificatie heeft voor de waakzaamheids-frequentie."
+    uitwerking_beats:
+      - "Classificatie: **verhoogd risico**. Motivatie cumulatief: (a) hoge cash-omzet in horeca (sector-risico), (b) buitenlandse vermogensband bij één UBO, (c) eerste boekjaar zonder historische profiel-data. Elk element op zich zou wellicht 'standaard' rechtvaardigen; de combinatie tilt het naar 'verhoogd'."
+      - "Gevolgen voor waakzaamheid: (1) **frequentere monitoring** — driemaandelijkse review in plaats van jaarlijkse; (2) **plausibiliteits-check op kasstroomprofiel** — vergelijk cash-instroom met sector-benchmarks en bedrijfsplan; (3) **risico-fiche jaarlijks bijwerken** — minstens bij elke significante wijziging; (4) **verhoogd cliëntenonderzoek bij grote transacties** — drempel typisch 10 k EUR per transactie of 30 k cumulatief per maand."
+      - "Documentatie: risico-classificatie + motivatie + monitoring-cyclus in een AML-fiche dat het kantoor ten allen tijde kan voorleggen aan ITAA-toetsing of CFI op vraag. Geüpdatet bij wijziging van profiel."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        ref: risico-gradering-uitleg
+        titel: "Risico-elementen Vrolijke Hap — gewicht en classificatie-effect"
+        kolommen: ["Element", "Aard", "Op zichzelf indicatief voor", "In combinatie met andere"]
+        rijen:
+          - ["Hoge cash-omzet horeca", "Sector + transactie-type", "Standaard tot verhoogd", "Tilt naar verhoogd"]
+          - ["Buitenlandse vermogensband (Bulgarije, niet-EU-FATF-issue)", "Geografisch + UBO-profiel", "Standaard met aandachtspunt", "Tilt naar verhoogd"]
+          - ["Eerste boekjaar zonder historie", "Profiel-data", "Standaard met aandachtspunt", "Tilt naar verhoogd"]
+          - ["Twee gemeenschappelijke zaakvoerders/UBO", "Governance", "Standaard (geen complex constructie)", "Neutraal"]
+    valkuil_beat: "Valkuil: classificeren als 'standaard' omdat geen enkel element op zich genoeg lijkt. Het AML-regime is bewust cumulatief — drie 'aandachtspunten' samen verdienen 'verhoogd', zelfs als ze los gezien beheersbaar lijken."
+
+  - id: stap-4-threats-analyse
+    titel: "Stap 4 — Threats-analyse voor onafhankelijkheid en objectiviteit"
+    instructie_beats:
+      - "Loop de vijf bedreigingen uit het IESBA-raamwerk af voor deze opdracht. Beslis per bedreiging of er een significant risico is en welke waarborg(en) je nodig hebt. Vergeet niet dat een samenstellingsopdracht *geen* onafhankelijkheids-eis heeft maar wél een objectiviteits-eis."
+    uitwerking_beats:
+      - "**Self-interest**: één bestaande horeca-cliënt + Vrolijke Hap = ~11 % van kantooromzet. Onder de typische drempel van 15-20 % voor concentratie-bezorgdheid. Risico: laag. Waarborg: monitoring blijven uitvoeren bij sector-uitbreiding."
+      - "**Self-review**: opdracht-type = samenstelling, geen audit. Geen self-review-bedreiging omdat het kantoor zijn eigen werk niet zal moeten reviewen in een latere assurance-opdracht. Risico: niet van toepassing."
+      - "**Advocacy**: er is geen geschil-context, geen rechtszaak. Niet van toepassing."
+      - "**Familiariteit**: geen persoonlijke band tussen vennoten/medewerkers en de neven. Risico: laag. Geen aanvullende maatregelen."
+      - "**Intimidatie**: nieuwe cliënt zonder druk-context. Risico: laag. Wel attent blijven bij eerste rapportering — cliënt kan druk uitoefenen om optimistische cijfers te presenteren."
+      - "Eindoordeel threats-analyse: opdracht aanvaardbaar zonder bijzondere waarborgen voor onafhankelijkheid. Wel: schriftelijke documentatie in opdrachtbrief + interne onafhankelijkheids-register, zodat de keuze bij een latere ITAA-toetsing reconstrueerbaar is."
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        ref: threats-analyse-vrolijke-hap
+        titel: "Threats-analyse Vrolijke Hap — uitkomst per bedreiging"
+        kolommen: ["Bedreiging", "Aanwezig?", "Waarborg / actie"]
+        rijen:
+          - ["Self-interest", "Laag (~11 % concentratie horeca)", "Monitoring bij sector-uitbreiding"]
+          - ["Self-review", "Niet van toepassing", "Geen audit-opdracht voorzien"]
+          - ["Advocacy", "Niet van toepassing", "Geen geschil-context"]
+          - ["Familiariteit", "Laag (geen band)", "Geen aanvullende waarborg"]
+          - ["Intimidatie", "Laag", "Attent blijven bij eerste rapportering"]
+    valkuil_beat: "Valkuil: stagiairs verwarren onafhankelijkheids-eis met objectiviteits-eis. Een samenstellingsopdracht vraagt geen onafhankelijkheid (strenger) maar wél objectiviteit. De vijf-bedreigingen-analyse loop je toch — net om objectiviteit te bewaken."
+
+  - id: stap-5-opdrachtbrief
+    titel: "Stap 5 — Opdrachtbrief opstellen"
+    instructie_beats:
+      - "Stel een opdrachtbrief-skelet op met de verplichte rubrieken voor deze opdracht. Maak één concrete clausule volledig uit (bv. honoraria of beëindiging). Wat NIET in een opdrachtbrief mag ontbreken voor deze specifieke cliënt?"
+    uitwerking_beats:
+      - "**Verplichte rubrieken** in elke opdrachtbrief (ITAA-norm opdrachtbrief): (1) identificatie partijen, (2) begindatum opdracht, (3) type opdracht + scope, (4) wederzijdse verplichtingen, (5) honoraria + betalingstermijn, (6) werkdocumenten + eigendom + retentierecht, (7) antiwitwas-clausule, (8) duur + opzegmodaliteiten, (9) beroepsaansprakelijkheid + verzekering, (10) toepasselijk recht + bevoegde rechtbank."
+      - "**Voor Vrolijke Hap specifiek** vereisen extra aandacht: (a) **scope-precisie** — uitdrukkelijk vermelden dat het een samenstellingsopdracht is (ISRS 4410), geen audit en geen review. Beschermt tegen verwarring over zekerheidsniveau; (b) **AML-clausule** — explicitering dat het kantoor verplicht is tot CFI-melding zonder tippings, dat de cliënt KYC-stukken jaarlijks bevestigt en bij wijziging UBO-data update; (c) **cash-clausule** — vermelding van de wettelijke cash-cap (3.000 EUR) en dat het kantoor cash-vorderingen of -betalingen boven die drempel niet aanvaardt; (d) **honorarium** transparant voorrekken — geen succes-fee, geen variabele component gekoppeld aan fiscaal resultaat."
+      - "Mock-clausule voorbeeld voor **beëindiging**: 'Deze opdracht is door beide partijen opzegbaar mits een vooropzeg van drie maanden per aangetekend schrijven. Bij beëindiging staat het kantoor de overdracht van de werkdocumenten en de eigendomsstukken aan de opvolger toe, mits de cliënt schriftelijk de identiteit van de opvolger meedeelt. Het kantoor behoudt zich het recht voor om bij niet-betaling van vervallen ereloon-facturen de werkdocumenten achter te houden tot betaling, na formele ingebrekestelling per aangetekend schrijven (retentierecht in zijn deontologische beperking).'"
+      - "Documenteer de ondertekende opdrachtbrief in het permanent dossier. Begindatum bepaalt vanaf wanneer het kantoor zijn deontologische verantwoordelijkheid draagt — zorg dat die niet retroactief ligt."
+    valkuil_beat: "Valkuil: opdrachtbrief opstellen met datum van vandaag terwijl het kantoor al twee weken aan de boekhouding bezig is. Verantwoordelijkheid loopt vanaf de schriftelijke begindatum. Een mondelinge afspraak vóór ondertekening dekt de verantwoordelijkheid retrospectief niet."
+
+  - id: stap-6-monitoring-plan
+    titel: "Stap 6 — Monitoring-plan en aanvaardingsmemo"
+    instructie_beats:
+      - "Schets het AML-monitoring-plan voor de eerste 12 maanden. Wat triggert een verhoogd onderzoek? Wat moet de stagiair bij kwartaalcontrole concreet doen? Stel een korte aanvaardingsmemo (5-7 regels) op die de vennoot kan tekenen."
+    uitwerking_beats:
+      - "Monitoring-cyclus: **kwartaalreview** (12 maart, 12 juni, 12 september, 12 december 2026). Per kwartaal: vergelijk gefactureerde omzet met cash-instroom; toets plausibiliteit tegen bedrijfsplan; check op afwijkende transacties (cash-stortingen boven 5 k EUR, internationale overschrijvingen, ongeplande contante uitbetalingen)."
+      - "Triggers voor **verhoogd onderzoek**: (a) cash-storting boven 8 k EUR zonder onderliggende kasstaat; (b) cumulatieve cash-instroom > 25 % afwijking van bedrijfsplan-raming; (c) nieuwe internationale leverancier of klant (vooral niet-EU); (d) UBO-wijziging of structuur-wijziging; (e) klacht of vraag van bank of fiscus over transactie."
+      - "Bij vermoeden van witwassen: **CFI-melding** opstellen via het ITAA-meldingsportaal, ondertekend door de AMLCO (Pieter De Smet). Geen mededeling aan cliënt (tipping-verbod). Bewaar het ontvangstbewijs van de CFI in een apart AML-melding-dossier."
+      - "**Aanvaardingsmemo** (voorbeeld-structuur): 'Memo aanvaarding cliënt Vrolijke Hap BV (KBO 0801.234.567), opgesteld door Lina Vermeulen, 15 februari 2026. Predecessor-check niet van toepassing (eerste boekjaar). KYC en UBO-verificatie uitgevoerd; UBO-fiche bewaard in dossier. Risico-classificatie: verhoogd risico, motivatie in AML-fiche. Threats-analyse: opdracht aanvaardbaar, geen significante onafhankelijkheids-bedreigingen voor samenstellingsopdracht. Opdrachtbrief op te stellen met scope-precisie + AML- en cash-clausules. Monitoring-cyclus: kwartaal. Akkoord voor aanvaarding: [vennoot-handtekening Pieter De Smet, datum].'"
+    uitwerking_visualisaties:
+      - type: tabel-inline
+        ref: monitoring-jaarplan
+        titel: "Monitoring-jaarplan Vrolijke Hap — eerste 12 maanden"
+        kolommen: ["Moment", "Wat?", "Wie?", "Triggert verhoogd onderzoek bij..."]
+        rijen:
+          - ["Maart 2026 (Q1-review)", "Toets eerste 6 weken activiteit + bankrekeningen-opening + kassasysteem", "Lina + Pieter (AMLCO)", "Cash-instroom > 10 % afwijking bedrijfsplan"]
+          - ["Juni 2026 (Q2 + jaarrekening Q1)", "BTW-aangifte + cash-monitoring + plausibiliteit", "Lina", "Cash > 25 % afwijking · ongeplande internationale transactie"]
+          - ["September 2026 (Q3)", "Doorlopende monitoring + halfjaarbezoek vestiging", "Lina + Pieter", "Idem Q2 + structuur-wijziging UBO"]
+          - ["December 2026 (Q4 + jaarafsluiting)", "Volledige jaarrekening + UBO-update + AML-fiche jaarcheck", "Lina + Pieter", "Eindjaars-anomalieën"]
+    valkuil_beat: "Valkuil: AMLCO-rol verwarren met operationele compliance. AMLCO (Pieter) tekent de CFI-melding en is eindverantwoordelijke voor het beleid — Lina voert de monitoring uit als operationele kracht. Beide rollen samen in één persoon werkt alleen in kleine kantoren waar dubbelpetten organisch zijn."
+
+# ---------------------------------------------------------------------------
+# AFSLUITING
+# ---------------------------------------------------------------------------
+
+afsluiting:
+
+  reflectie_beats:
+    - "Je hebt nu de volledige intake-cyclus afgelegd. Belangrijke kapstokken om mee te nemen: predecessor-vraag is conditioneel (alleen bij voorganger), KYC is altijd verplicht, risico-classificatie is cumulatief, threats-analyse maak je ook bij niet-zekerheidsopdrachten om objectiviteit te bewaken, opdrachtbrief is verplicht voor élke opdracht, en monitoring-cyclus volgt uit de risico-classificatie."
+    - "Op het examen zie je geen 60-minuten intake-cases. Wel: korte juist/fout-stellingen of open vragen die één van deze stappen apart toetsen. De waarde van deze oefening: de hele logica één keer doorlopen hebben maakt elke deelvraag herkenbaar."
+    - "Wanneer je deze oefening hebt afgewerkt en de samenvatting goed kent, ben je klaar voor de voorbeeldexamenvragen op de aparte pagina."
+
+  doelstellingen_gedekt:
+    - "4.0.taak.1 (aanvaarding van klanten)"
+    - "4.0.taak.1.doel.1 (risicoanalyse)"
+    - "4.0.taak.1.doel.2 (interne procedures)"
+    - "4.0.taak.1.doel.4 (deontologie naleven)"
+    - "4.0.taak.1.doel.5 (antiwitwaswetgeving naleven)"
+    - "4.0.taak.2 (communicatie met actoren — beperkt aspect via opdrachtbrief)"
+    - "4.0.taak.4 (team coördineren — beperkt aspect via stagiair-vennoot-rolverdeling)"
+
+  valkuilen_geoefend:
+    - "KYC overslaan omdat er geen voorganger is"
+    - "Cliëntbrede risico-classificatie i.p.v. per UBO"
+    - "Eén bedreiging laag classificeren in plaats van cumulatief"
+    - "Onafhankelijkheids-eis verwarren met objectiviteits-eis"
+    - "Opdrachtbrief retroactief dateren"
+    - "AMLCO-rol verwarren met operationele compliance"
+
+# ---------------------------------------------------------------------------
+# VERDER LEZEN
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  leerstukken:
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "volledige uitwerking van de intake-cyclus en opdrachtbrief-inhoud"
+    - slug: antiwitwasplichten-in-de-praktijk
+      hint: "AML-cyclus in vier fases + CFI-melding + bewaarplicht"
+    - slug: deontologische-beginselen-en-onafhankelijkheid
+      hint: "threats-and-safeguards-raamwerk in detail"
+    - slug: wat-is-het-accountantsberoep
+      hint: "normbronnen-hiërarchie + monopolieopdrachten"
+  samenvatting:
+    hint: "geheugen-kapstok voor herhaling vlak voor het examen"
+  examenvragen_link: "voorbeeldexamenvragen"
+
+# ---------------------------------------------------------------------------
+# WETTELIJK FUNDAMENT
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichting tot opdrachtbrief voor elke opdracht"
+    ref: "Wet van 17 maart 2019 (ITAA-wet) — bepaling over opdrachtbrief, uitgewerkt in ITAA-norm-opdrachtbrief"
+    noot: "Geldt voor controle, beoordeling, samenstelling, AUP, advies — geen uitzonderingen"
+  - onderwerp: "Beroepsaansprakelijkheid + verzekeringsplicht"
+    ref: "Wet van 17 maart 2019 — bepaling over burgerlijke aansprakelijkheid en verzekeringscap"
+    noot: "Cap volgens Cijferzakboekje"
+  - onderwerp: "Cliëntenonderzoek (KYC) en UBO"
+    ref: "Wet van 18 september 2017 (AML-wet) art. 21-32 + Wet 26 juni 2020 (UBO-register)"
+  - onderwerp: "Risicogebaseerde benadering"
+    ref: "Wet 18 september 2017 art. 19"
+  - onderwerp: "Meldingsplicht CFI + tipping-verbod"
+    ref: "Wet 18 september 2017 art. 47-50 (melding) + art. 55 (tipping-verbod)"
+  - onderwerp: "Cash-cap"
+    ref: "Wet 18 september 2017 art. 67 — drempel volgens Cijferzakboekje"
+  - onderwerp: "Bewaarplicht KYC-stukken"
+    ref: "Wet 18 september 2017 — 10-jaarstermijn"
+  - onderwerp: "Beroepsgeheim"
+    ref: "Art. 458 Strafwetboek + Wet-ITAA bepaling over doorwerking"
+  - onderwerp: "Threats-and-safeguards-raamwerk"
+    ref: "IESBA Code of Ethics 2024 Section 120"
+  - onderwerp: "Verbod aanbrengcommissie + confraternele dossieroverdracht"
+    ref: "KB 9 december 2019 (deontologische code ITAA)"
+
+footer: "Oefening PO 4.0. Status: nieuw (POC) — eerste oefening in een niet-cijfermatig PO. Test of deontologie-oefeningen didactisch werken voor stagiairs."

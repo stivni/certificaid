@@ -1,0 +1,198 @@
+# Leerstuk-script — Deontologische beginselen en onafhankelijkheid
+#
+# PO 4.0 leerstuk 2 (techniek — denkmotor). Zet neer: vijf fundamentele
+# beginselen + threats-and-safeguards-cyclus + onafhankelijkheid als
+# strengere standaard voor assurance-opdrachten + onverenigbaarheden.
+#
+# Hand-off: dit leerstuk levert de "denkmotor" — bij elke opdracht moet
+# de accountant zich afvragen welke bedreiging speelt en welke waarborg
+# nodig is. Leerstukken 3-4-5 verwijzen ernaar voor de toepassing op
+# concrete situaties (opdrachtaanvaarding, beroepsgeheim-grenzen,
+# AML-objectiviteit).
+
+meta:
+  slug: deontologische-beginselen-en-onafhankelijkheid
+  titel: "Deontologische beginselen en onafhankelijkheid"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — techniek (denkmotor): vijf fundamentele beginselen
+    + threats-and-safeguards-cyclus + onafhankelijkheid als strengere
+    standaard voor assurance-opdrachten + onverenigbaarheden + Chinese
+    walls. Wettelijk verankerd in art. 37 Wet-ITAA + KB 9 december 2019
+    + IESBA Code of Ethics. Pas toe op het kantoor De Smet & Partners
+    met centrale Nordica-case (familiariteitsbedreiging).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit het "denkmotor"-leerstuk is — vijf beginselen die
+    geen checklist zijn maar een redeneerwijze: bij elke opdracht
+    identificeer je bedreigingen, evalueer je hun niveau, en pas je
+    waarborgen toe (of weiger je). De volgende leerstukken passen dit
+    toe op opdracht-aanvaarding, beroepsgeheim en antiwitwas.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: vijf fundamentele beginselen sturen elk professioneel oordeel — INTEGRITEIT (eerlijk en oprecht) · OBJECTIVITEIT (geen vooringenomenheid) · VAKBEKWAAMHEID + ZORGVULDIGHEID (kennis op peil en zorgvuldig werken) · VERTROUWELIJKHEID (cliëntinformatie beschermen) · PROFESSIONEEL GEDRAG (wet naleven + beroep niet schaden). Bij elke opdracht doorloop je de threats-and-safeguards-cyclus."
+    - "Onafhankelijkheid is GEEN zesde beginsel — het is de strengere standaard van OBJECTIVITEIT voor assurance-opdrachten (controle, review, isae-opdracht). Twee dimensies samen: independence-of-mind (interne stand) + independence-in-appearance (een redelijke buitenstaander moet het ook zien). Beide moeten voldoen."
+    - "Threats-and-safeguards = drie stappen. Identificeer welke van vijf bedreigingen speelt (self-interest · self-review · advocacy · familiarity · intimidation). Evalueer of die bedreiging aanvaardbaar is. Pak aan via waarborgen (Engagement Quality Reviewer, andere vennoot doet opdracht, Chinese walls) — OF weiger / beëindig de opdracht als geen voldoende waarborg bestaat."
+  visualisaties:
+    - type: mermaid
+      ref: threats-and-safeguards
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken de vijf beginselen achtereen uit op Nordica Productions (de echtgenote-zaakvoerder-case) als rode draad — daarna zoomen we in op onafhankelijkheid en onverenigbaarheden.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vijf-beginselen
+    titel: "Vijf fundamentele beginselen — de denkmotor"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke verankering: art. 37 Wet-ITAA verheft de deontologische beginselen tot rechtsgrondslag. Niet een ethiek-discussie maar een juridische verplichting. Schending = tuchtspoor + mogelijk burgerrechtelijke + strafrechtelijke aansprakelijkheid (drie sporen — zie [[beroepsgeheim-en-aansprakelijkheid]])."
+      - "De vijf beginselen zijn afkomstig uit de IESBA Code of Ethics (internationaal) en doorgewerkt in het KB 9 december 2019 (deontologische code ITAA). Geen Belgische uitvinding — wereldwijd dezelfde grondprincipes voor de beroepsstand."
+      - "Stel de tabel voor — vijf rijen die je doorlopen. Per beginsel: kern in één zin + concretisering op De Smet & Partners. Belangrijk: GEEN beginsel staat los van een ander. Schending van vertrouwelijkheid (laag 2) is bijna altijd ook schending van integriteit (laag 1)."
+      - "Integriteit eerst — dieper uitwerken: eerlijk en oprecht in alle relaties. Concreet: geen valse verklaringen, geen verzwijgen van misleidende posten, MORELE MOED om standpunten in te nemen tegen cliënt-belang in. Bij De Smet: stagiair Lina merkt dat zaakvoerder Karim van Vrolijke Hap cash-inkomsten zonder kasstaten boekt — integriteit vereist dat ze dit aankaart, niet wegkijkt."
+      - "Objectiviteit — kort. Geen vooringenomenheid + geen belangenconflict + geen ongepaste invloed. Geldt voor ELKE beroepsactiviteit, ook fiscaal advies (niet alleen voor assurance — daar komt de strengere onafhankelijkheid bovenop, zie volgend hoofdstuk)."
+      - "Vakbekwaamheid + zorgvuldigheid — kort. Kennis op peil houden + zorgvuldig werken volgens standaarden. Concrete uitwerking in permanente vorming (120u/3jr — zie [[kwaliteitstoezicht-en-tucht]]) + opdracht weigeren bij ontbrekende expertise. Bij De Smet: het kantoor heeft geen IFRS-expertise; als een cliënt vraagt om geconsolideerde jaarrekening onder IFRS, moet het kantoor de opdracht weigeren of externe IFRS-specialist inschakelen."
+      - "Vertrouwelijkheid — kort. Cliëntinformatie beschermen — in België versterkt door het strafrechtelijke beroepsgeheim (art. 458 SW, met sanctie 1-3 jaar gevangenis). Dieper uitgewerkt in [[beroepsgeheim-en-aansprakelijkheid]]."
+      - "Professioneel gedrag — kort. Wet + reglement naleven; geen gedrag dat het beroep in diskrediet brengt. Dekt reclame-beperkingen, eerlijke acquisitie, correcte toon naar derden. Concrete grens bij De Smet: stagiair Joris zou op LinkedIn cliënt-namen kunnen vermelden voor 'social proof' — verboden onder professioneel gedrag (én vertrouwelijkheid)."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: vijf-fundamentele-beginselen
+        bron: voorbeeldgroep
+
+  - id: threats-and-safeguards
+    titel: "Threats-and-safeguards — de cyclus die elke opdracht structureert"
+    niveau: 2
+    beats:
+      - "Open met het misverstand: studenten denken dat de vijf beginselen een checklist zijn die je éénmaal bij intake afvinkt. FOUT. De beginselen leven via een CYCLUS — drie stappen die je bij ELKE wijziging tijdens de opdracht opnieuw doorloopt."
+      - "Stap 1 — IDENTIFICEER bedreigingen voor de vijf beginselen. IESBA Section 120 onderscheidt vijf categorieën: (a) self-interest — eigen financieel of persoonlijk belang in de cliënt; (b) self-review — eigen werk later moeten beoordelen; (c) advocacy — cliëntstandpunt verdedigen alsof eigen; (d) familiariteit — te nauwe relatie met cliënt-management; (e) intimidation — werkelijke of vermeende druk."
+      - "Toon de tabel met de vijf bedreigingen, telkens met een voorbeeld uit De Smet & Partners. Centraal voorbeeld: NORDICA PRODUCTIONS — zaakvoerder is echtgenote van vennoot Pieter De Smet. Dat is een familiariteits-bedreiging (en mogelijk een self-interest, want huishouden deelt voordelen)."
+      - "Stap 2 — EVALUEER het niveau. Drie graden: laag (geen actie nodig), middel (waarborgen vereist), onaanvaardbaar (opdracht weigeren of beëindigen). Drijfveer: zou een redelijk geïnformeerde derde partij hier twijfelen aan ons oordeel? Dat is de zogenaamde 'reasonable and informed third party'-toets van IESBA."
+      - "Stap 3 — PAK AAN. Drie opties: (a) elimineer de omstandigheid die de bedreiging veroorzaakt (verkoop bv. de aandelen); (b) pas waarborgen toe die het niveau terugbrengen; (c) weiger of beëindig de opdracht. Klassieke waarborgen: Engagement Quality Reviewer (een ervaren collega die niet aan de opdracht werkt, doet onafhankelijke review); team-rotatie; scope-aanpassing; functie-scheiding via Chinese walls; schriftelijke disclosure aan cliënt."
+      - "Concretiseer met Nordica (lange uitwerking, blockquote-aside): bij intake in 2021 identificeerde het kantoor de familiariteitsbedreiging — echtgenote Sofie is zaakvoerder. Evaluatie: zou een redelijke derde twijfelen? Voor een SAMENSTELLINGSOPDRACHT (geen zekerheid, geen onafhankelijkheidseis maar wel objectiviteits-eis) — middel niveau. Waarborgen toegepast: (1) collega-vennoot Eva Janssens voert de opdracht uit; (2) Pieter onthoudt zich uitdrukkelijk; (3) schriftelijke vastlegging in opdrachtbrief én in intern onafhankelijkheidsregister. Bij elke nieuwe ontwikkeling — Sofie wordt bestuurder elders, scope-uitbreiding naar fiscaal advies — wordt de cyclus opnieuw doorlopen."
+      - "Synthese (vetgedrukt): threats-and-safeguards is geen formaliteit maar professionele denkdiscipline. Bij elke opdracht-wijziging, elk teamlid-mutatie, elke nieuwe gevraagde dienst: cyclus opnieuw. Documentatie in opdrachtdossier is bewijsstuk bij tuchtprocedure of kwaliteitstoetsing."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: vijf-bedreigingen-onafhankelijkheid
+        bron: voorbeeldgroep
+      - type: mermaid
+        ref: threats-and-safeguards
+        bron: voorbeeldgroep
+
+  - id: onafhankelijkheid-twee-dimensies
+    titel: "Onafhankelijkheid — strengere standaard voor assurance-opdrachten"
+    niveau: 2
+    beats:
+      - "Open met de term-introductie: onafhankelijkheid is NIET gelijk aan objectiviteit. Het is een verbijzondering — een strengere standaard die alleen geldt voor ASSURANCE-opdrachten (controle, review, isae, AUP, bijzondere wettelijke verslagen). Voor niet-assurance-opdrachten (boekhouding, fiscaal advies, samenstelling) geldt objectiviteit, maar niet de volledige onafhankelijkheidsstandaard."
+      - "Waarom strenger? Omdat bij assurance-opdrachten DERDEN op het oordeel van de accountant steunen — banken, fiscus, beleggers, aandeelhouders. Het verschil tussen 'de accountant heeft de cijfers samengesteld' (cliënt-relatie) en 'de accountant verklaart dat de cijfers een getrouw beeld geven' (verklaring aan de wereld) is enorm. Hoe meer zekerheid de accountant belooft, hoe groter de geloofwaardigheidsdraagkracht — en hoe strikter de onafhankelijkheidsregels."
+      - "Twee dimensies samen — vetgedrukt. Independence-of-mind = interne stand. De accountant moet zijn conclusies kunnen vormen zonder beïnvloeding. Independence-in-appearance = naar buiten toe. Een redelijke geïnformeerde derde mag geen aanleiding hebben om te twijfelen aan zijn objectiviteit. Beide moeten voldoen — een audit-partner die zelf overtuigd is van zijn onpartijdigheid maar zichtbaar grote belangen heeft in de cliënt, voldoet niet."
+      - "Onverenigbaarheden — wat absoluut verboden is (lijst, geen casus-per-casus). Art. 48 Wet-ITAA verbiedt activiteiten die de onafhankelijkheid hypothekeren. De IESBA-Code Section 510-540 detailleert: (a) geen direct financieel belang in audit-cliënt (geen aandelen, geen leningen); (b) geen onmiddellijke familie in posities van invloed bij de cliënt; (c) bepaalde combinaties van assurance + niet-assurance-diensten verboden (vooral bij PIE — Public Interest Entities = beursgenoteerden + financiële instellingen)."
+      - "Concreet onverenigbaarheden-voorbeeld op De Smet: vennoot Pieter mag geen bestuursmandaat aanvaarden in cliënt-vennootschap Aurelia Industries. Eva mag als penningmeester van de Gentse Schaakclub blijven werken (geen cliëntrelatie). Maar als de Schaakclub plots een ITAA-opdracht zou krijgen, moet Eva ofwel haar onbezoldigde mandaat opgeven, ofwel mag het kantoor de opdracht niet aanvaarden."
+      - "Chinese walls — organisatorisch instrument. Bij grotere kantoren waar twee cliënten potentieel tegenstrijdige belangen hebben (bv. tegenpartijen in een onderhandeling). Componenten: (1) functionele scheiding — andere teams; (2) fysieke scheiding — andere werkzones; (3) informationele afscherming — geen toegang tot elkaars dossiers; (4) toezicht-laag — onafhankelijke partner bewaakt. Maar Chinese walls zijn GEEN wondermiddel. Bij absoluut verboden combinaties (bv. controle van een vennootschap waar de auditor zelf grote aandeelhouder is) blijft opdracht-weigering de enige uitweg."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Aspect", "Objectiviteit", "Onafhankelijkheid"]
+        rijen:
+          - ["**Toepassingsgebied**", "Elke beroepsactiviteit", "Alleen assurance-opdrachten (controle · review · isae · AUP · bijzondere verslagen)"]
+          - ["**Aard**", "Geesteshouding — geen ongepaste invloed", "Mentaal **én** zichtbaar — schijn telt"]
+          - ["**Norm-bron**", "IESBA Section 110", "IESBA Section 400 + Independence Standards (Section 510-940)"]
+          - ["**Concrete verboden**", "Geen absolute — case-by-case", "Wettelijke lijst (financiële belangen, familie, niet-assurance-diensten bij PIE)"]
+          - ["**Sanctie bij schending**", "Tucht via deontologie", "Tucht + nietigheid verslag + FSMA-sancties bij PIE"]
+
+  - id: speciale-gevallen
+    titel: "Twee speciale gevallen — bestuursmandaat en kantoor-afhankelijkheid"
+    niveau: 2
+    beats:
+      - "Geval 1 — BESTUURSMANDAAT in cliëntvennootschap. Examen-favoriet. Mag een gecertificeerd accountant tegelijk bestuurder zijn van een cliënt? Antwoord nuance: GEEN BEZOLDIGD BESTUURSMANDAAT in een cliënt die hij ook professioneel bedient — dat creëert self-review + advocacy + onverenigbaarheid (art. 48 Wet-ITAA). Onbezoldigd mandaat in non-profit zonder cliëntrelatie (zoals Eva in de Schaakclub): OK. Bestuursmandaat in eigen kantoor-vennootschap (Pieter is vennoot in De Smet & Partners BV): OK, dat is de eigen praktijk."
+      - "Geval 2 — HONORARIUM-AFHANKELIJKHEID. Wanneer één cliënt meer dan 30% van de kantoor-omzet uitmaakt, ontstaat een self-interest + intimidation threat — het kantoor wordt economisch afhankelijk en kan onder druk komen om mild te oordelen. IESBA Section 410 stelt waarborgen voor: jaarlijkse herevaluatie, externe partner-review, diversificatie. Bij De Smet (totaal 1,8 mln EUR omzet): Aurelia Industries doet 360 k EUR → 20% (binnen veilige zone). Bij groeiende cliënt-omzet: opnieuw toetsen."
+      - "Concretiseer met meeneem-clienten-case (kruisverwijzing naar Leerstuk 6): Bart Devos (senior boekhouder zonder ITAA-titel) overweegt vertrek naar nieuw kantoor en wil enkele cliënten meenemen. Speel-veld kruispunt drie beginselen: vertrouwelijkheid (cliëntenlijst is geheim — Bart mag die niet meenemen), professioneel gedrag (ronselverbod art. 30 KB plichtenleer geldt voor ITAA-leden, dus voor de ontvangende ITAA-vennoot), en onverenigbaarheid (cliënten-portefeuille kopen is verboden vorm van aanbrengcommissie). Tucht-uitkomst: tegen ontvangende ITAA-vennoot — niet tegen Bart die geen lid is, maar tegen wie hem aanwerft."
+      - "Belangrijke nuance (blockquote-aside): de IESBA-Code is geen rigide checklist maar een 'principles-based framework'. Er bestaat geen uitputtende lijst van verboden situaties — wel een lijst kernverboden (financiële belangen, familie, bepaalde dienst-combinaties bij PIE) en daarnaast de threats-and-safeguards-cyclus voor alle andere gevallen. Wie alleen de verboden-lijst kent, mist 80% van de praktijksituaties."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Situatie", "Bedreiging", "Aanvaardbaar mits...", "Verboden wanneer..."]
+        rijen:
+          - ["Onbezoldigd bestuursmandaat non-profit zonder cliëntrelatie", "Geen", "Geen waarborgen nodig", "Cliënt-relatie ontstaat met de non-profit"]
+          - ["Bezoldigd bestuursmandaat in cliënt", "Self-review + advocacy + onverenigbaarheid", "Onmogelijk — fundamenteel conflict", "Altijd verboden onder art. 48"]
+          - ["Familielid in cliënt-management (bv. echtgenoot zaakvoerder)", "Familiariteit", "Waarborgen: andere vennoot doet opdracht + interne review + register-vermelding", "Onmogelijke waarborg bij assurance-opdracht met PIE-cliënt"]
+          - ["Honorarium-afhankelijkheid > 15-30%", "Self-interest + intimidation", "Jaarlijkse review + externe EQR + diversificatie-plan", "Aanhoudend > 30% zonder mitigatie"]
+          - ["Aanbrengcommissie tussen kantoren", "Ronselverbod (art. 30 KB plichtenleer)", "Onmogelijk — absoluut verbod", "Altijd verboden onder ITAA-deontologie"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): onafhankelijkheid gelijkstellen aan objectiviteit. FOUT — objectiviteit is een fundamenteel beginsel voor ELKE opdracht. Onafhankelijkheid is een strengere afgeleide, alleen voor assurance-opdrachten, met twee dimensies (mind + appearance). Examen-klassieker is een open vraag met fiscaal-advies-context — dan geldt objectiviteit, niet onafhankelijkheid in de strikte IESBA-zin."
+      - "Valkuil 2 (⚠️): denken dat 'ik ben subjectief overtuigd dat ik onpartijdig ben' volstaat. FOUT — independence-in-appearance vereist dat een redelijke buitenstaander OOK geen aanleiding ziet om te twijfelen. Een audit-partner met groot aandelenbezit in de cliënt schaadt de schijn — zijn eigen overtuiging is irrelevant. Schijn telt evenveel als feit."
+      - "Valkuil 3 (⚠️): threats-and-safeguards éénmaal doen bij opdrachtaanvaarding en vergeten. FOUT — de cyclus is doorlopend. Bij elke nieuwe ontwikkeling (cliënt wijzigt bestuur, nieuwe niet-assurance-dienst gevraagd, teamlid huwt iemand uit cliënt-organisatie) loop je 'identificeer-evalueer-aanpak' opnieuw door. Documentatie bij elke ronde. Wie alleen de intake-fiche heeft, krijgt bij kwaliteitstoetsing de kritiek 'continuous monitoring afwezig'."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "Threats-and-safeguards in actie — wat gebeurt er bij intake van een nieuwe cliënt, in de opdrachtbrief, en bij confraterne overdracht. Documentatie + onafhankelijkheidsregister."
+    - slug: beroepsgeheim-en-aansprakelijkheid
+      hint: "Verdieping vertrouwelijkheid (strafrechtelijk beschermd via art. 458 SW) + drie sporen aansprakelijkheid bij schending van een beginsel."
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "Hoe naleving van de beginselen wordt afgedwongen — kantoor-kwaliteitssysteem + kwaliteitstoetsing + tuchtprocedure."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vijf beginselen + vijf bedreigingen + onafhankelijkheids-checklist op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [deontologie, onafhankelijkheid]
+    - concepten: [gecertificeerd-accountant, normbronnen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Deontologische beginselen — wettelijke verankering"
+    ref: "Wet 17 maart 2019 (ITAA-wet) art. 37"
+    noot: "Algemene rechtsgrondslag — accountant handelt met respect voor de beginselen van de deontologie + in het publiek belang."
+  - onderwerp: "Onverenigbaarheden + objectieve uitvoering"
+    ref: "Wet 17 maart 2019 art. 48"
+    noot: "Verbiedt activiteiten die de onafhankelijkheid hypothekeren of belangenconflict creëren."
+  - onderwerp: "Deontologische code als KB"
+    ref: "KB 9 december 2019 — deontologische code ITAA"
+    noot: "Uitvoeringsbesluit van art. 49 Wet-ITAA. Werkt vijf beginselen + threats-and-safeguards-kader uit."
+  - onderwerp: "Ronselverbod"
+    ref: "KB 1 maart 1998 — Reglement van plichtenleer art. 30"
+    noot: "Vergoeding mag niet afhangen van andere diensten — verbod aanbrengcommissie + pakket-aanbiedingen."
+  - onderwerp: "Vijf fundamentele beginselen"
+    ref: "IESBA Code of Ethics 2024 — Section 110.1 A1"
+    noot: "Integriteit + objectiviteit + vakbekwaamheid/zorgvuldigheid + vertrouwelijkheid + professioneel gedrag. Bindend via verwijzing in KB 9-12-2019 en ITAA-normen."
+  - onderwerp: "Threats-and-safeguards-cyclus"
+    ref: "IESBA Code of Ethics 2024 — Section 120"
+    noot: "Identificeer · evalueer · pak aan. Continue toepassing."
+  - onderwerp: "Vijf categorieën bedreigingen"
+    ref: "IESBA Code of Ethics 2024 — Section 120.6 A3"
+    noot: "Self-interest · self-review · advocacy · familiariteit · intimidatie."
+  - onderwerp: "Onafhankelijkheid — independence-of-mind + appearance"
+    ref: "IESBA Code of Ethics 2024 — Section 400.4-400.5"
+    noot: "Twee dimensies — beide moeten voldoen."
+  - onderwerp: "Onafhankelijkheid — financiële belangen, familie, niet-assurance-diensten"
+    ref: "IESBA Code of Ethics 2024 — Section 510 + 521 + 600"
+    noot: "Concrete verboden voor assurance-opdrachten. Strenger voor PIE (Section 540 voor partner-rotatie)."
+  - onderwerp: "Onafhankelijkheidsverklaring bij commissaris-opdracht"
+    ref: "Wet 7 december 2016 (revisorenwet) art. 14"
+    noot: "Formele verklaring aan algemene vergadering. Cross-PO doorklik naar PO 1.6 (commissaris)."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."

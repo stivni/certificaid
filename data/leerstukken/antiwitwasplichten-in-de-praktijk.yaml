@@ -1,0 +1,252 @@
+# Leerstuk-script — Antiwitwasplichten in de praktijk
+#
+# PO 4.0 leerstuk 5 (proces — tweede zwaarste). Zet neer: AML-cyclus
+# (KYC + risicogradering + doorlopende waakzaamheid + CFI-melding) +
+# UBO-register + cash-cap 3.000 EUR + AMLCO + 10-jaar bewaarplicht +
+# knipperlichten + sanctie-cascade.
+#
+# Hand-off: dit leerstuk leeft op het kruispunt — KYC overlapt met
+# Stap 1 van opdrachtaanvaarding ([[opdrachtaanvaarding-en-clienten-
+# relatie]]); CFI-melding overlapt met de wettelijke uitzondering op
+# het beroepsgeheim ([[beroepsgeheim-en-aansprakelijkheid]]); en
+# AML-kwaliteits-discipline overlapt met kwaliteitstoetsing-scope
+# ([[kwaliteitstoezicht-en-tucht]]).
+
+meta:
+  slug: antiwitwasplichten-in-de-praktijk
+  titel: "Antiwitwasplichten in de praktijk"
+  po: "4.0"
+  cluster: deontologie-en-aml
+  voorbeeldgroep: de-smet-kantoor
+  beschrijving: >
+    Leerstuk PO 4.0 — proces: hoe pas je antiwitwas in elke
+    cliëntrelatie toe — vier-fases AML-cyclus (KYC + risicogradering
+    + doorlopende waakzaamheid + CFI-melding) + UBO-register + cash-
+    cap 3.000 EUR + AMLCO als kantoor-verantwoordelijke + 10-jaar
+    bewaarplicht + tipping-off-discipline + sanctie-cascade (admini-
+    stratief tot 1,25 mln EUR). Op De Smet & Partners met twee
+    centrale cases: intake Vrolijke Hap (horeca-cash) en CFI-melding
+    Noordzee Vastgoed (22.000 EUR cash boven cap).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het PO 4.0-overzicht.
+    Wijs erop dat dit leerstuk vaak getest is in voorbeeldexamens (5×
+    in 7 examens — meest bevraagde AML-onderwerpen: cash-limiet, CFI,
+    AMLCO, UBO, KYC). De accountant is onder Antiwitwaswet 18-09-2017
+    expliciet ONDERWORPEN ENTITEIT (art. 5 §1 23°) — gelijke
+    verplichtingen als een bank.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: AML is GEEN aparte opdracht — het is een doorlopende verplichting verweven in elke cliëntrelatie. Vier fases per cliënt: (1) IDENTIFICATIE + KYC + UBO; (2) RISICOGRADERING (laag/standaard/hoog); (3) DOORLOPENDE WAAKZAAMHEID met knipperlichten-detectie; (4) MELDING aan CFI bij vermoeden van witwassen, mét tipping-off-discipline."
+    - "Drie HARDE drempels te onthouden: (a) UBO = natuurlijke persoon met > 25% directe of indirecte eigendom/controle/winsten; (b) CASH-CAP 3.000 EUR per transactie (art. 67 Antiwitwaswet — onder dit bedrag mag contante betaling, daarboven niet); (c) BEWAARTERMIJN 10 jaar voor AML-dossier (KYC + risicogradering + interne verslagen + CFI-meldingen)."
+    - "AMLCO = Anti-Money Laundering Compliance Officer. Verplicht per kantoor (art. 9 Antiwitwaswet). In klein kantoor < 10 beroepsbeoefenaars: kan dezelfde persoon zijn als 'verantwoordelijke op het hoogste niveau'. Vanaf 10 beroepsbeoefenaars: onderscheiden persoon. Stagiairs mogen NIET AMLCO zijn. Sanctie bij niet-naleving van AML-regime: tot 1,25 mln EUR administratieve boete (art. 132 Antiwitwaswet) + tucht + strafrechtelijk."
+  visualisaties:
+    - type: mermaid
+      ref: aml-beslisboom
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We doorlopen de vier fases op twee cases — intake Vrolijke Hap (KYC + horeca-risico) en doorlopende waakzaamheid Noordzee Vastgoed (cash-cap-overtreding → CFI-melding → tipping-off-discipline).'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wettelijk-kader
+    titel: "Het AML-kader — wat rust er op de accountant?"
+    niveau: 2
+    beats:
+      - "Open met de wettelijke verankering. De Antiwitwaswet 18-09-2017 zet de EU 5e en 6e antiwitwasrichtlijn om in Belgisch recht. Volledige titel verwijst expliciet naar 'voorkoming van het witwassen van geld en de financiering van terrorisme en tot BEPERKING VAN HET GEBRUIK VAN CONTANTEN' — drie pijlers samen."
+      - "DE ACCOUNTANT ALS ONDERWORPEN ENTITEIT. Art. 5 §1 23° van de wet duidt de gecertificeerd accountant + belastingadviseur uitdrukkelijk aan als 'onderworpen entiteit' — gelijke verplichtingen als een bank. Geen schaal-onderscheid: ook een eenmanskantoor moet alle stappen doorlopen. Geldt voor stagiairs (via stagemeester) en voor het ITAA-kantoor als rechtspersoon. Werknemers zonder ITAA-titel vallen niet zelf onder de wet maar moeten meewerken aan de kantoor-procedures (art. 10)."
+      - "PIJLERS van het regime — drie samen. (1) CLIËNTENONDERZOEK (KYC) bij elke nieuwe en bestaande relatie. (2) DOORLOPENDE WAAKZAAMHEID gedurende de hele relatie. (3) MELDINGSPLICHT aan de CFI bij vermoeden. Bovenop: INTERN BELEID + AMLCO + opleiding personeel + 10-jaar bewaring + KYC-update bij wijzigingen."
+      - "RATIO LEGIS — de poortwachters-functie. Witwasstromen passeren onvermijdelijk via professionele dienstverleners: boekhouders, advocaten, notarissen, banken. Criminele opbrengsten moeten 'gewassen' worden via legitieme economische circuits — de accountant ziet de transacties dichter dan wie ook. EU-richtlijnen dwingen de lidstaten om die professionals te onderwerpen aan waakzaamheids- en meldingsplichten. Spanning met beroepsgeheim is opgelost (zie [[beroepsgeheim-en-aansprakelijkheid]] + volgend hoofdstuk): CFI-melding = wettelijke uitzondering, tipping-off-verbod = spiegelregel."
+      - "Concretiseer met De Smet & Partners. Vier cliënten met verschillende risico-profielen: Aurelia Industries (laag — industrie, lang relatie), Vrolijke Hap (verhoogd — horeca-cash + Bulgaarse UBO), GreenTech (laag — cleantech), Noordzee Vastgoed (verhoogd — vastgoed-sector). AMLCO = Pieter De Smet (vennoot — in klein kantoor onder 10 beroepsbeoefenaars mag hij zelf AMLCO + verantwoordelijke hoogste niveau zijn)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Cliënt", "Sector + risico-trigger", "AML-classificatie", "Frequentie review"]
+        rijen:
+          - ["Aurelia Industries NV", "Industrie · 8 jaar relatie · 18 mln omzet", "**Laag**", "Driejaarlijks bij standaard cyclus"]
+          - ["Vrolijke Hap BV", "Horeca · cash-zware sector · nieuwe BV 2026 · UBO met Bulgaarse fiscaliteit", "**Verhoogd**", "Kwartaal (i.p.v. jaarlijks)"]
+          - ["Nordica Productions BV", "Mediaproductie · echtgenote vennoot · 5 jaar relatie", "**Laag** (familiariteit ≠ AML-risico)", "Standaard jaarlijks"]
+          - ["GreenTech BVBA", "Cleantech · zonnepanelen", "**Laag**", "Standaard jaarlijks"]
+          - ["Bouwgroep Vandersteen", "Bouw · cash-aanwezigheid in deelmarkten · overname uit confrater", "**Matig**", "Halfjaarlijks tijdens eerste jaar"]
+          - ["Noordzee Vastgoed NV", "Vastgoed · 22.000 EUR cash-transactie 2025 → knipperlicht", "**Verhoogd**", "Onmiddellijke verhoogde waakzaamheid + CFI-overweging"]
+
+  - id: fase-1-kyc
+    titel: "Fase 1 — Cliëntenonderzoek (KYC) en UBO"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: KYC vóór opdracht-aanvaarding — niet erna. Sequentie altijd: KYC + integriteits-check → competentie + onafhankelijkheid → opdrachtbrief → uitvoering. Wie eerst tekent en daarna KYC doet, pleegt een tuchtfeit én een strafrechtelijk feit."
+      - "VIJF COMPONENTEN van KYC (art. 21-32 Antiwitwaswet). (a) IDENTIFICATIE + identiteitsverificatie van de cliënt op basis van betrouwbare bron (eID, paspoort, KBO voor rechtspersonen). (b) IDENTIFICATIE van de LASTHEBBERS (volmachthouders, bestuurders, zaakvoerders die voor de cliënt handelen). (c) IDENTIFICATIE van de UIEINDELIJKE BEGUNSTIGDE (UBO) — natuurlijke persoon die uiteindelijk de eigendom of controle heeft. (d) BEGRIP van het doel en de aard van de zakelijke relatie. (e) DOORLOPENDE WAAKZAAMHEID — uitgewerkt in fase 3."
+      - "UBO — diepere uitwerking. Definitie art. 4 27° Antiwitwaswet: natuurlijke persoon die UITEINDELIJK (direct of indirect) > 25% van de aandelen, stemrechten of winsten van een vennootschap controleert. Bij geen dominante aandeelhouder: 'subsidiary mechanism' — hoogste hiërarchische verantwoordelijke wordt UBO. Bij trusts: oprichter, trustees en begunstigden zijn ALLEMAAL UBO. Bij Vrolijke Hap: twee neven elk 50% aandeelhouder → beiden UBO. Beide moeten geregistreerd in UBO-register."
+      - "UBO-REGISTER (Wet 26 juni 2020) — centraal Belgisch register beheerd door FOD Financiën. Elke Belgische vennootschap, vereniging of stichting registreert zijn UBO. Cliënt blijft eindverantwoordelijke voor correctheid. De accountant heeft een actieve rol: (a) bij intake — UBO-register raadplegen + cross-checken met eigen onderzoek; (b) bij wijziging — cliënt herinneren aan update-plicht; (c) bij DISCREPANTIE tussen UBO-register en eigen vaststelling — meldingsplicht aan toezichthouder art. 74 Antiwitwaswet."
+      - "Concretiseer met VROLIJKE HAP intake (centrale case). Twee neven Karim Y. en Yusuf Y. (50/50 aandeelhouders → beiden UBO). Yusuf heeft tweede woning + fiscale verblijfplaats in Bulgarije — verhoogd onderzoek nodig: bronafkomst middelen, bestuurssamenstelling, herkomst eerste cash-inleg. Cash-inkomsten ~30% omzet in horeca — niet abnormaal maar wel een knipperlicht voor doorlopende waakzaamheid. PEP-check (Politiek Prominent Persoon — art. 4 28-30): geen treffer."
+      - "TROFEEEN bij weigering KYC — vetgedrukt. Wanneer cliëntenonderzoek NIET kan voltooid worden (geen identificatie cliënt/UBO mogelijk, info ongeloofwaardig, geen risico-inschatting): accountant MOET (a) zakenrelatie WEIGEREN of beëindigen, én (b) onderzoeken of een CFI-melding nodig is (art. 33 §2 + 34 §4 + 35 §3 Antiwitwaswet). Geen 'tekenen-met-voorbehoud' — onmogelijke KYC = geen opdracht."
+    visualisaties:
+      - type: tabel-vergelijking
+        ref: aml-procedure-cyclus
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Component", "Vrolijke Hap-toepassing", "Bewijsstuk in dossier"]
+        rijen:
+          - ["**Cliënt-identificatie**", "KBO-uittreksel + statuten Vrolijke Hap BV", "Kopie KBO + statuten"]
+          - ["**Lasthebbers identificatie**", "Karim en Yusuf als zaakvoerders + eID", "Kopie eID + benoemingsbesluit"]
+          - ["**UBO-identificatie**", "Beide neven 50/50 → beiden UBO + UBO-register-raadpleging", "UBO-register-uittreksel + interne UBO-fiche"]
+          - ["**Aard zakelijke relatie**", "Doel = boekhouding + BTW + VenB; horeca-sector", "AML-fiche met sector-risico-analyse"]
+          - ["**Bron-middelen-onderzoek** (verhoogd)", "Eerste cash-inleg horeca-zaak verklaard via persoonlijke spaargelden + bankafschrift", "Schriftelijke verklaring + bankbewijs"]
+
+  - id: fase-2-risicogradering
+    titel: "Fase 2 — Risicogradering"
+    niveau: 2
+    beats:
+      - "Open met het principe: de diepgang van het onderzoek is EVENREDIG met het ingeschatte witwasrisico. 'One-size-fits-all' zou ofwel kapitalen verspillen op laag-risico cliënten, ofwel te kort schieten op hoog-risico cliënten. Drie regimes (art. 37-41 Antiwitwaswet)."
+      - "REGIME VEREENVOUDIGD (art. 41) — voor cliënten met laag risico. Voorbeelden: genoteerde EU-vennootschap met openbaarheidsverplichtingen, Belgische overheidsorganen, EU-financiële instelling onder toezicht. Onderzoek: standaard identificatie + verminderd verificatie-werk. NIET 'geen onderzoek' — alleen lichter."
+      - "REGIME STANDAARD — voor het overgrote deel van de cliënten. KYC volgens vijf-componenten-checklist + jaarlijkse review. De meeste De Smet-cliënten (Aurelia, Nordica, GreenTech) zitten hier."
+      - "REGIME VERSCHERPT (art. 37-40) — voor cliënten met hoog risico. Triggers: (a) Politiek Prominent Persoon (PEP — art. 4 28-30 + 5 jaar na ambtsbeëindiging blijft PEP-status); (b) cliënten gevestigd in hoog-risico-derde-landen of in landen zonder of met lage belasting; (c) gevallen waar voorafgaande identiteitsverificatie onmogelijk was; (d) andere risico-indicatoren (cash-zware sector, complexe vennootschapsstructuur, ongebruikelijke transacties)."
+      - "Wat doe je bij VERSCHERPT regime? (a) Goedkeuring op senior-niveau (kantoor-partner) vóór relatie wordt voortgezet — niet alleen de behandelende medewerker beslist. (b) Bijkomend onderzoek herkomst van fondsen — niet alleen 'wie' maar 'waarvandaan komt het geld'. (c) Doorlopende waakzaamheid met verhoogde frequentie — bv. kwartaal i.p.v. jaarlijks. (d) Documentatie in dossier — PEP-status, beslissingsproces, frequentie monitoring."
+      - "Concretiseer met VROLIJKE HAP. Verhoogd risico om drie redenen: (1) cash-zware sector (horeca ~30% cash); (2) nieuwe BV (geen relatie-history); (3) UBO met fiscale verblijfplaats in Bulgarije. Gevolg: senior-vennoot Pieter beslist over aanvaarding (niet alleen de medewerker die intake doet); herkomst-onderzoek van eerste investering wordt expliciet gedaan; review-frequentie quarterly (4× per jaar) i.p.v. annual. Documenteer alles in een KYC-fiche + threats-fiche."
+      - "Belangrijke nuance (blockquote-aside): risicogradering = LEVEND PROCES, geen eenmalige beslissing. Bij elke significante wijziging — nieuwe bestuurder, sectorwijziging, ongebruikelijke transactie, expansion naar nieuw land — moet de classificatie opnieuw bekeken. Een cliënt die start als 'laag risico' kan na 5 jaar 'verhoogd risico' worden. Bij kwaliteitstoetsing wordt naar dynamische actualisatie gekeken — niet alleen naar de initiële fiche."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Regime", "Voor wie?", "Wat anders dan standaard?", "Voorbeeld bij De Smet"]
+        rijen:
+          - ["**Vereenvoudigd**", "Beursgenoteerde EU-venn · overheid · EU-financiële instelling onder toezicht", "Lichter verificatie-werk", "Geen — geen typische De Smet-cliënt"]
+          - ["**Standaard**", "Overgrote deel van de cliënten", "Volledige 5-componenten KYC + jaarlijkse review", "Aurelia · Nordica · GreenTech"]
+          - ["**Verscherpt**", "PEP · hoog-risico-land · onmogelijke verificatie vooraf · sector-of-structuur-risico", "Senior-goedkeuring + herkomst-fondsen + kwartaalreview + extra documentatie", "Vrolijke Hap (horeca-cash + Bulgaarse UBO) · Noordzee na cash-incident"]
+
+  - id: fase-3-en-4-waakzaamheid-en-cfi
+    titel: "Fase 3+4 — Doorlopende waakzaamheid en CFI-melding"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: KYC bij intake is de DEUR — doorlopende waakzaamheid is het ALARM. Transacties monitoren op consistentie met cliënt-profiel; bij rode vlaggen verhoogd onderzoek; bij vermoeden van witwassen of terrorisme-financiering: CFI-melding."
+      - "KNIPPERLICHTEN — niet-limitatieve lijst uit ITAA-Handleiding interne procedures AWW 2019 (art. 19). Een handvol klassiekers die in elke examen-vraag kunnen opduiken: cliënt leeft boven zijn stand · aankoopfacturen direct gevolgd door verkoopfacturen voor bijna hetzelfde bedrag · doorsluisrekeningen (geld blijft niet lang staan) · inbreng in contanten bij oprichting of kapitaalverhoging · inbreng in natura klaarblijkelijk overgewaardeerd · verdachte vereffening kort na oprichting · talrijke aankoopfacturen van één onderaannemer · offshorevennootschappen voor consultancykosten · jaarrekening niet of laattijdig neergelegd · vennootschap heeft geen werknemers in een sector waar dat onnormaal is."
+      - "INTERNE PROCEDURE bij knipperlicht — vier stappen. (1) Medewerker die knipperlicht detecteert: schriftelijke INTERNE MELDING aan AMLCO via standaardformulier 'Interne melding atypische verrichting'. (2) AMLCO doet aanvullend ONDERZOEK — financiële documenten checken, herkomst fondsen onderzoeken, eventueel met cliënt nogmaals praten (zonder tipping-off als melding al overwogen). (3) Bij geen verband met witwassen: schriftelijke samenvatting (intern verslag) — 10 jaar bewaren. (4) Bij wel vermoeden: AMLCO maakt intern verslag met onderzoeksresultaten + maakt CFI-melding."
+      - "CFI-MELDING — wettelijke uitzondering op beroepsgeheim. Wanneer de accountant feiten of verrichtingen IDENTIFICEERT die hij weet of vermoedt dat ze verband houden met witwassen of terrorisme-financiering: WETTELIJKE PLICHT om dit te melden aan de Cel voor Financiële Informatieverwerking (CFI) — art. 47-59 Antiwitwaswet. In praktijk: AMLCO van het kantoor mailt naar info@ctif-cfi.be. De melder geniet IMMUNITEIT (art. 57 Antiwitwaswet) — geen burgerrechtelijke + strafrechtelijke + tuchtrechtelijke aansprakelijkheid bij melding te goeder trouw."
+      - "TIPPING-OFF-DISCIPLINE — art. 55 Antiwitwaswet. Strafrechtelijk verbod om aan cliënt of derden te zeggen dat een melding gemaakt is of dat onderzoek loopt. Geldt ook intern: medewerkers die door omstandigheden weten van de melding houden het onder zich, ook tegenover collega's. UITZONDERINGEN art. 56 §3 (zie [[beroepsgeheim-en-aansprakelijkheid]]): (a) ontraden cliënt van illegale activiteit (zonder verwijzing naar CFI); (b) kennisgeving aan ITAA; (c) kennisgeving aan parket/politie repressief; (d) collega's in zelfde entiteit/verrichting."
+      - "Concretiseer met CFI-MELDING-NOORDZEE-CASE (centrale case voor dit hoofdstuk). In maart 2026 ontdekt De Smet dat Noordzee Vastgoed in 2025 22.000 EUR contant ontvangen heeft van een koper voor een aanbetaling — overschrijding cash-cap art. 67. (1) Stagiair Lina merkt dit op tijdens jaarafsluiting → interne melding aan AMLCO Pieter. (2) Pieter onderzoekt: oorsprong betaling, plausibiliteit ('koper had cash beschikbaar uit verkoop andere zaak'), eerdere transacties van Noordzee. Onderzoek versterkt het vermoeden — combinatie cash-overschrijding + onvoldoende documentatie + vastgoedtransactie. (3) Pieter maakt CFI-melding via info@ctif-cfi.be. (4) Strikt tipping-off: NIEMAND in De Smet & Partners — vennoten, medewerkers, stagiair Lina — mag aan Noordzee laten weten dat melding gemaakt is. Bewijsstukken 10 jaar bewaren in beveiligde dossier-locatie."
+    visualisaties:
+      - type: mermaid
+        ref: aml-beslisboom
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Knipperlicht uit ITAA-handleiding", "Concreet teken bij cliënt", "Volgende stap"]
+        rijen:
+          - ["Cash boven 3.000 EUR-cap", "Noordzee 22.000 EUR cash van koper", "Interne melding AMLCO → onderzoek → CFI"]
+          - ["Inbreng in contanten bij oprichting", "750.000 EUR cash-storting in nieuwe BV", "Verscherpt onderzoek + CFI-overweging"]
+          - ["Doorsluisrekeningen", "Geld komt en gaat in dagen", "Verhoogde transactie-monitoring"]
+          - ["Cliënt leeft boven zijn stand", "Aangegeven inkomen vs lifestyle", "Bron-middelen-onderzoek"]
+          - ["Offshorevennootschappen voor consultancy", "Belgische cliënt betaalt aan Maltees consultancy-shell", "Substantie-test + UBO van die shell controleren"]
+          - ["Geen werknemers in een sector waar dat onnormaal is", "Bouw-BV zonder bouwarbeiders", "Cash-loon-vermoeden + onderzoek"]
+
+  - id: cash-cap-en-bewaarplicht
+    titel: "Cash-cap 3.000 EUR + 10-jaar bewaarplicht"
+    niveau: 2
+    beats:
+      - "Open met de cash-cap. De volledige titel van de Antiwitwaswet 18-09-2017 verwijst expliciet naar 'beperking van het gebruik van contanten'. Concrete drempel: 3.000 EUR per transactie tussen ondernemingen onderling en tussen ondernemingen en consumenten (art. 67 Antiwitwaswet). Tot 3.000 EUR cash mag; daarboven niet."
+      - "TOEPASSINGSVELD — alle handelaars, dienstverleners en beroepsbeoefenaars als ONDERNEMERS. Strikter voor handelaars in kunst, edele metalen, oude metalen (sectoren met klassiek witwasrisico). Uitzonderingen: financiële instellingen onderling, bepaalde nutsbedrijven. Voor de accountant geldt de cap dubbel: (a) eigen kantoor — honoraria boven 3.000 EUR mogen niet contant ontvangen, zelfs niet bij gespreide betaling als de totale opdracht boven de drempel uitkomt; (b) cliënt-monitoring — cash-stromen die de drempel naderen of opsplitsen zijn een KNIPPERLICHT dat samen met andere indicatoren cumuleert."
+      - "OPSPLITSEN = OMZEILEN. Eén economische verrichting in meerdere deelbetalingen verdelen om onder de cap te blijven kwalificeert als omzeiling en is sanctioneerbaar (art. 137 Antiwitwaswet — geldboete tot 225.000 EUR + tot 10% van de betaling). Concreet: 5.000 EUR splitsen in twee betalingen van 2.500 EUR over 2 dagen voor één en dezelfde aankoop = strafbaar."
+      - "PER-TRANSACTIE-DREMPEL — niet per maand of jaar. Een cliënt mag 50× per jaar 2.500 EUR cash ontvangen voor afzonderlijke transacties — elk binnen de cap. Maar één transactie van 22.000 EUR cash zoals bij Noordzee = klare overtreding. Voor de accountant relevant: bij jaarafsluiting de cash-stromen toetsen tegen de cap per individuele transactie, niet alleen op het totaal."
+      - "10-JAAR BEWAARPLICHT — vetgedrukt, examen-favoriet. Alle interne verslagen, KYC-dossiers, risico-fiches, intern-meldingen en CFI-meldingen worden BEWAARD GEDURENDE 10 JAAR na het einde van de verrichting of de zakenrelatie. Geldt zowel voor positieve (geen vermoeden) als negatieve (vermoeden + CFI-melding) bevindingen. Tegenover de cliënt mag retentierecht uitgeoefend worden — tegenover de toezichthouders (ITAA, CFI, FOD Financiën) NOOIT: stukken moeten beschikbaar voor inspectie."
+      - "Concretiseer Noordzee-vervolg: na de CFI-melding bewaart De Smet & Partners het AML-dossier in beveiligde digitale opslag — KYC-fiche, risicogradering (verhoogd na cash-incident), interne melding, AMLCO-onderzoek, CFI-melding-bevestiging, eventuele follow-up communicatie. Bewaartermijn loopt vanaf 2036 (10 jaar na meldingsdatum) tenzij relatie eerder eindigt en bewaring vanaf einde-relatie loopt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Situatie", "Cash-toelaatbaar?", "Behandeling bij detectie"]
+        rijen:
+          - ["Cliënt betaalt 2.500 EUR cash voor honorarium", "Ja (onder 3.000 cap)", "Standaard kassabonnetje + boekhouding"]
+          - ["Cliënt biedt 3.500 EUR cash voor honorarium", "Neen (boven cap)", "Weigeren cash + vragen om overschrijving"]
+          - ["Cliënt splitst 5.000 EUR in 2× 2.500 EUR", "Neen — opsplitsen = omzeiling", "Weigeren + interne melding AMLCO (knipperlicht)"]
+          - ["Cliënt's koper betaalt 22.000 EUR cash voor aanbetaling vastgoed", "Neen (Noordzee-case)", "Knipperlicht → AMLCO → onderzoek → CFI-melding overweging"]
+          - ["Notariële vastgoedakte", "Volledig bancair (geen cash)", "Notaris waakt + bankcontrole"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): denken dat AML 'extra paperwork voor banken' is en niet voor een ITAA-kantoor. FOUT — de gecertificeerd accountant is uitdrukkelijk ONDERWORPEN ENTITEIT (art. 5 §1 23° Antiwitwaswet). De verplichtingen zijn even bindend als voor een bank: KYC, risico-classificatie, AMLCO, meldingsplicht, 10-jaar bewaring. Niet-naleving = administratieve boete tot 1,25 mln EUR + tucht + strafrechtelijk. Geen schaal-onderscheid — ook eenmanskantoor moet alle stappen doorlopen."
+      - "Valkuil 2 (⚠️): bij CFI-melding eerst de cliënt informeren uit 'fair play'. FOUT — tipping-off (art. 55 Antiwitwaswet) is een strafrechtelijk verbod om de cliënt vóór, tijdens of ná de CFI-melding te informeren over die melding. Doel: voorkomen dat cliënt bewijsmateriaal vernietigt of vlucht. Wel TOEGELATEN: proberen de cliënt te ontraden van een illegale verrichting (art. 56 §3) — maar zonder verwijzing naar een CFI-melding. Subtiel onderscheid dat in examen-vragen voortdurend terugkeert."
+      - "Valkuil 3 (⚠️): UBO gelijkstellen aan de bestuurder of zaakvoerder. FOUT — UBO is de natuurlijke persoon die UITEINDELIJK de eigendom of controle heeft (> 25% van aandelen/stemrechten/winsten). De bestuurder kan UBO zijn maar hoeft niet. Bij vennootschappen met versplinterd aandelenbezit zonder dominante aandeelhouder: 'subsidiary mechanism' — hoogste hiërarchische verantwoordelijke wordt UBO. Bij trusts: oprichter, trustees en begunstigden zijn ALLEMAAL UBO. Bij Vrolijke Hap: twee neven elk 50% = beiden UBO; zaakvoerderschap is een aparte vraag."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: kwaliteitstoezicht-en-tucht
+      hint: "Hoe de AML-naleving wordt getoetst — ITAA als AML-toezichthouder + kwaliteitstoetsing checkt AML-procedure + tuchtspoor bij ernstige overtreding. Verdere uitwerking van AMLCO-rol."
+    - slug: beroepsgeheim-en-aansprakelijkheid
+      hint: "Diepere uitwerking van de spanning tussen beroepsgeheim en CFI-melding — wettelijke uitzondering + tipping-off als spiegel + juridisch-advies-uitzondering art. 53."
+    - slug: opdrachtaanvaarding-en-clientenrelatie
+      hint: "Hoe KYC in de opdracht-aanvaarding past — KYC is Stap 1 van het vier-stappen-proces vóór de opdrachtbrief."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — AML-cyclus + cash-cap + UBO-definitie + AMLCO-vereisten + sanctie-cascade op één pagina."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [antiwitwaspreventie, beroepsgeheim]
+    - concepten: [opdrachtaanvaarding-en-opdrachtbrief, gecertificeerd-accountant]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Antiwitwaswet — algemene basis"
+    ref: "Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten"
+    noot: "Zet EU 5e en 6e antiwitwasrichtlijn om. Vervangt oude AML-wet 11 januari 1993."
+  - onderwerp: "Onderworpen entiteiten — gecertificeerd accountant"
+    ref: "Wet 18 september 2017 art. 5 §1 23°"
+    noot: "Geldt ook voor stagiairs en voor het kantoor als rechtspersoon. Werknemers via interne procedures (art. 10)."
+  - onderwerp: "Cliëntenonderzoek (KYC) — verplichte componenten"
+    ref: "Wet 18 september 2017 art. 19 + 21-32"
+    noot: "Identificatie cliënt + lasthebbers + UBO + aard zakelijke relatie + doorlopende waakzaamheid."
+  - onderwerp: "UBO — definitie + drempel 25%"
+    ref: "Wet 18 september 2017 art. 4 27°"
+    noot: "Natuurlijke persoon met > 25% directe/indirecte eigendom/controle/winsten. Subsidiary mechanism bij versplintering."
+  - onderwerp: "UBO-register"
+    ref: "Wet 26 juni 2020 — instelling UBO-register + gewijzigde artikelen WER + Antiwitwaswet"
+    noot: "Centraal Belgisch register beheerd door FOD Financiën. Cliënt verantwoordelijk voor registratie + update."
+  - onderwerp: "Risicogebaseerde benadering"
+    ref: "Wet 18 september 2017 art. 37-41"
+    noot: "Drie regimes: vereenvoudigd (art. 41) · standaard · verscherpt (art. 37-40)."
+  - onderwerp: "Cash-cap 3.000 EUR per transactie"
+    ref: "Wet 18 september 2017 art. 67"
+    noot: "Sanctie art. 137 — geldboete 250 tot 225.000 EUR + max 10% van het bedrag boven de cap."
+  - onderwerp: "CFI-meldingsplicht — wettelijke uitzondering op beroepsgeheim"
+    ref: "Wet 18 september 2017 art. 47-59"
+    noot: "Bij vermoeden witwassen of terrorisme-financiering. Immuniteit melder via art. 57."
+  - onderwerp: "Tipping-off-verbod"
+    ref: "Wet 18 september 2017 art. 55"
+    noot: "Geen mededeling aan cliënt of derden dat melding gemaakt of onderzoek loopt."
+  - onderwerp: "Uitzonderingen op tipping-off"
+    ref: "Wet 18 september 2017 art. 56 §3"
+    noot: "Ontraden cliënt · ITAA-kennisgeving · parket/politie repressief · collega's zelfde entiteit/verrichting."
+  - onderwerp: "Juridisch-advies-uitzondering op meldingsplicht"
+    ref: "Wet 18 september 2017 art. 53"
+    noot: "Bij 'bepalen rechtspositie' of 'verdediging in rechtsgeding'. Vervalt bij eigen deelname witwassen."
+  - onderwerp: "AMLCO — aanstelling"
+    ref: "Wet 18 september 2017 art. 9 §2"
+    noot: "Onderscheiden persoon vanaf 10 beroepsbeoefenaars. Stagiairs uitgesloten."
+  - onderwerp: "UBO-discrepantie-melding"
+    ref: "Wet 18 september 2017 art. 74"
+    noot: "Bij discrepantie UBO-register vs eigen cliëntonderzoek — meldingsplicht aan toezichthouder."
+  - onderwerp: "Administratieve sancties"
+    ref: "Wet 18 september 2017 art. 132"
+    noot: "Tot 1,25 mln EUR. Door ITAA als toezichtsorgaan voor zijn leden."
+  - onderwerp: "Knipperlichten-lijst (niet-limitatief)"
+    ref: "ITAA-Handleiding interne procedures AWW 2019 art. 19"
+    noot: "Pedagogische lijst die de stagiair moet kunnen herkennen."
+  - onderwerp: "10-jaar bewaarplicht AML-dossier"
+    ref: "ITAA-Handleiding interne procedures AWW 2019 punt 12.4.2.2-3"
+    noot: "Vanaf einde verrichting of einde zakelijke relatie."
+
+footer: "Leerstuk PO 4.0. Status: voorgesteld — POC volgens ADR-037."
