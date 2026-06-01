@@ -82,13 +82,13 @@ Themafiche-laag retreert per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafi
 | **1.6** | `controleopdracht-aanpak` · `controleverklaring` · `opdrachtaanvaarding-en-tucht` · `opdracht-types` · `fouten-en-fraude-controle` · `bijzondere-mandaten` · `reorganisatie-en-bijzondere-mandaten` | B + C | Mergen bij leerpad-bouw; reorganisatie aparte cross-PO beslissing |
 | **1.7** | `interne-controle-frameworks` · `functiescheiding-en-cyclus` | B | Mergen bij leerpad-bouw |
 | **1.9** | (gedekt door 1.3-themafiches — geen aparte fiches) | — | n.v.t. |
-| **2.1** | ✅ Inhoud gemigreerd: `fiscale-beginselen` (→ L3 + samenvatting) · `anti-misbruik` (→ L4 + samenvatting) · `dvb-ruling` (→ L5 + samenvatting). `deontologische-beginselen` + `antiwitwas-praktijk` horen NIET bij fiscaal recht — verplaatst-vermelding naar PO 4.0/cabinet management. | A/B | — (✅ klaar via PO 2.1-leerpad; oude themafiches uitfaseren bij opkuis) |
+| **2.1** | ✅ Inhoud gemigreerd + themafiches verwijderd: `fiscale-beginselen` (→ L3 + samenvatting) · `anti-misbruik` (→ L4 + samenvatting) · `dvb-ruling` (→ L5 + samenvatting). `deontologische-beginselen` + `antiwitwas-praktijk` horen NIET bij fiscaal recht — verplaatst-vermelding naar PO 4.0/cabinet management. | A/B | — (✅ klaar via PO 2.1-leerpad) |
 | **2.2** | `pb-berekeningsschema` · `inkomstencategorieen` · `voordelen-alle-aard` · `art-171-afzonderlijke-aanslagvoeten` · `aftrekken-en-belastingverminderingen` | B | Mergen bij leerpad-bouw |
-| **2.3** | `venb-bewerkingsschema` · `verlaagd-tarief-20` · `verworpen-uitgaven` · `meerwaarden-venb` · `dbv-toepassing` · `fiscale-fusie-splitsing` · `dvb-ruling` | B | Mergen bij leerpad-bouw |
+| **2.3** | `venb-bewerkingsschema` · `verlaagd-tarief-20` · `verworpen-uitgaven` · `meerwaarden-venb` · `dbv-toepassing` · `fiscale-fusie-splitsing` *(verwijst naar `anti-misbruik` — link broken sinds PO 2.1-opkuis, bij PO 2.3-leerpad opvangen)* | B | Mergen bij leerpad-bouw |
 | **2.4** | `btw-vier-kernvragen` · `btw-aftrek` · `btw-vastgoed` · `grensoverschrijdende-btw` · `vrijstellingsregeling-kleine-onderneming` | B | Mergen bij leerpad-bouw |
-| **2.5** | `fiscale-procedure-gewest-gemeente` · `taxatieprocedure` · `bezwaar-en-gerechtelijke-fase` · `invordering-en-dwangbevel` · `fiscale-termijnen` · `fiscale-beginselen` | B | Mergen bij leerpad-bouw |
+| **2.5** | `fiscale-procedure-gewest-gemeente` · `taxatieprocedure` · `bezwaar-en-gerechtelijke-fase` · `invordering-en-dwangbevel` · `fiscale-termijnen` *(N.B. `fiscale-beginselen` is opgegaan in PO 2.1 — kort verwijzen vanuit 2.5)* | B | Mergen bij leerpad-bouw |
 | **2.6** | `registratierechten` · `successierechten-en-erfrecht` · `successieplanning` | B | Mergen bij leerpad-bouw |
-| **2.7** | `transfer-pricing-en-beps` · `vaste-inrichting` · `eu-fiscale-richtlijnen` · `anti-misbruik` | B | Mergen bij leerpad-bouw |
+| **2.7** | `transfer-pricing-en-beps` · `vaste-inrichting` · `eu-fiscale-richtlijnen` *(N.B. `anti-misbruik` algemeen is opgegaan in PO 2.1 — voor 2.7 focus op EU/ATAD-specifieke anti-misbruik)* | B | Mergen bij leerpad-bouw |
 | **2.8** | `gewestelijke-fiscaliteit` · `gemeentelijke-belastingen` | B | Mergen bij leerpad-bouw |
 | **3.0** | `vennootschapsvormen` · `insolventie-wer-boek-xx` | B | Mergen bij leerpad-bouw |
 
