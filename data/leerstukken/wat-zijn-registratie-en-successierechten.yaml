@@ -1,0 +1,177 @@
+# Leerstuk-script — wat zijn registratie- en successierechten?
+#
+# PO 2.6, lstk 1 van 5. Entry-leerstuk (kort, doorklik-zwaar): introduceert het
+# vak — twee heffingen + drie gewesten + vier spelers + civielrechtelijke
+# kapstok. Voedt alle vier volgende leerstukken; geen techniek-detail hier.
+
+meta:
+  slug: wat-zijn-registratie-en-successierechten
+  titel: "Wat zijn registratie- en successierechten?"
+  po: "2.6"
+  cluster: registratie-en-successierechten
+  voorbeeldgroep: de-wilde
+  beschrijving: >
+    Leerstuk PO 2.6 — het entry-leerstuk. Plaatst registratie- en erfbelasting
+    naast elkaar als twee gewestelijke heffingen op vermogensoverdracht (bij
+    leven of bij overlijden), schetst de vier instanties die tussenkomen
+    (federaal, Vlabel, FOD Financiën, notaris), en legt de civielrechtelijke
+    kapstok (huwelijksvermogen + erfopvolging) waarop de fiscale techniek
+    bouwt.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de minicursus PO 2.6 en
+    aankondiging dat wikilinks doorheen de tekst naar concept-fiches en
+    broer-leerstukken leiden voor verdere uitwerking.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: registratierechten en erfbelasting zijn twee gewestelijke heffingen op vermogensoverdracht — registratierechten bij leven (akten over onroerend goed of schenkingen), erfbelasting bij overlijden (de nalatenschap)."
+    - "Tweede zin: ze worden samen bestudeerd omdat ze communicerende vaten zijn — wie tijdens leven schenkt en registreert, betaalt schenkbelasting; wie wacht tot overlijden, betaalt erfbelasting. Plannen = kiezen welk vat je vult."
+    - "Derde zin: sinds de regionalisering zijn er drie regimes naast elkaar — Vlaanderen (VCF), Brussel en Wallonië (W.Reg./W.Succ.). Tarieven, vrijstellingen en gunstregimes verschillen substantieel; het gewest van fiscale woonplaats (bij erfbelasting) of ligging van het goed (bij vastgoed-rechten) bepaalt welk regime speelt."
+    - "Vierde zin: vier spelers staan rond elke verrichting — de notaris (verlijdt en biedt aan ter registratie), Vlabel (Vlaams Belastingdienst — heft in Vlaanderen), de FOD Financiën (heft in Brussel en Wallonië), en de federale wetgever (bepaalt nog steeds de huwelijks- en erfrechtelijke basis). De accountant orkestreert het advies tussen deze spelers."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Heffing", "Wanneer?", "Bron-wetboek", "Wie int (3 gewesten)?"]
+      rijen:
+        - ["**Registratiebelasting**", "Bij registratie van een akte — verkoop, schenking, hypotheek, verdeling onverdeeldheid", "VCF Boek 2 (Vlaanderen) · W.Reg. (Brussel/Wallonië)", "Vlabel · FOD Financiën · FOD Financiën"]
+        - ["**Erfbelasting** *(historisch: successierechten)*", "Bij overlijden — op de nalatenschap", "VCF Boek 2 (Vlaanderen) · W.Succ. (Brussel/Wallonië)", "Vlabel · FOD Financiën · FOD Financiën"]
+  afsluiter: "Korte zin: 'We werken nu het kader uit in drie korte secties — heffing, gewest, civielrechtelijke kapstok — en sluiten af met wat de accountant hier doet.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: twee-heffingen-een-instrumentarium
+    titel: "Twee heffingen, één instrumentarium"
+    niveau: 2
+    beats:
+      - "Open met het basisinzicht: vermogen wisselt van eigenaar via twee kanalen — bij leven (verkoop, schenking, verdeling, hypotheek) of bij overlijden (nalatenschap). De Belgische fiscus heft op beide momenten, maar via verschillende technische apparaten die historisch én juridisch verbonden zijn."
+      - "Eerste kanaal: registratiebelasting. Een akte (notarieel of onderhands) waarbij vastgoed of een schenking-titel wordt overgedragen, wordt geregistreerd. De registratie heeft een dubbel doel: (a) de fiscus int (verkooprecht, schenkbelasting, verdeelrecht, hypotheekrecht); (b) de akte krijgt vaste datum en bewijskracht tegenover derden. De heffing is dus tegelijk fiscaal én juridisch."
+      - "Tweede kanaal: erfbelasting. Bij overlijden valt het volledige vermogen van de overledene (na aftrek aannemelijk passief en correctie voor huwelijksvermogen) als nalatenschap toe aan erfgenamen en legatarissen. De aangifte van nalatenschap wordt binnen 4 maanden ingediend, de heffing is per erfgenaam (in Vlaanderen) of per nalatenschap (in Brussel/Wallonië)."
+      - "Waarom samen bestudeerd? Omdat beide vaten communiceren. Een schenking bij leven (schenkbelasting) onttrekt het goed aan de toekomstige nalatenschap (erfbelasting). Een schenking < 3 jaar vóór overlijden zónder registratie wordt zelfs alsnog in de nalatenschap meegerekend — de fictiebepaling. Wie planning doet, kiest tussen vaten en moet beide kennen."
+      - "Korte historie (blockquote-aside): tot 2014 bestond één federaal regime (W.Reg. + W.Succ.). Sinds 1.1.2015 heeft Vlaanderen de inning + tarieven in eigen handen via de Vlaamse Codex Fiscaliteit (VCF, Boek 2). Brussel en Wallonië houden het federale W.Reg./W.Succ. met regionale tariefingrepen. Drie regimes leven sindsdien naast elkaar; de civielrechtelijke basis (BW Boek 2 + 4) blijft federaal."
+      - "Vooruitblik: de evenredige registratierechten (verkooprecht, verdeelrecht, hypotheekrecht, schenkrecht) krijgen techniek-werk in [[registratierechten-vastgoed]]. De procedure (welke akten? termijnen? sancties?) zit in [[registratieformaliteit-en-procedure]]. De erfbelasting + aangifte volgen in [[erfbelasting-en-aangifte-nalatenschap]]. Plannings-instrumenten + gunstregime sluiten af in [[successieplanning-en-gunstregime]]."
+    visualisaties:
+      - type: mermaid
+        ref: twee-heffingen-flow
+        bron: voorbeeldgroep
+
+  - id: drie-gewesten-vier-instanties
+    titel: "Drie gewesten, vier instanties"
+    niveau: 2
+    beats:
+      - "Open met de federale herstructurering: sinds de zesde staatshervorming (2014) zijn registratie- en erfbelasting **gewestelijke** belastingen. Maar de regionalisering verloopt asymmetrisch — Vlaanderen heeft volledige overname (inning + tarief), Brussel en Wallonië hebben tarief-autonomie maar laten de FOD Financiën innen."
+      - "Welk gewest speelt? Voor erfbelasting: het gewest waar de erflater zijn **fiscale woonplaats** had op de dag van overlijden (art. 5/1 VCF + analoge regel federaal). Voor registratierechten op vastgoed: het gewest waar het **onroerend goed ligt**. Voor schenkingen: het gewest waar de schenker zijn fiscale woonplaats heeft (roerende schenking) of waar het vastgoed ligt (onroerende schenking)."
+      - "Toon de tabel met de drie regimes naast elkaar — bronwet + tarief-aanpak + inner. Concretiseer met De Wilde-cijfers: gezinswoning Antwerpen (Vlaanderen, VCF) vs studio Brussel (BHG, W.Reg.) vs hypothetisch Wallonië."
+      - "Vier instanties rond elke verrichting. (1) De **notaris** verlijdt de akte en biedt ze aan ter registratie — hij is wettelijk gemandateerd, inclusief solidaire aansprakelijkheid voor het recht. (2) **Vlabel** (Vlaamse Belastingdienst) int de Vlaamse registratie- en erfbelasting. (3) De **FOD Financiën** (Algemene Administratie van de Patrimoniumdocumentatie) int in Brussel + Wallonië. (4) De **federale wetgever** behoudt bevoegdheid over het civiele recht — huwelijksvermogen (BW Boek 2, hervorming 2018) en erfrecht (BW Boek 4, hervorming 2018) zijn dezelfde in alle drie gewesten."
+      - "Implicatie: een cliënt met vermogen in twee gewesten (zoals De Wilde — gezinswoning Antwerpen + studio Brussel) krijgt twee parallelle dossiers per akte, soms bij verschillende instanties. De accountant moet weten welke regel waar geldt en mag de twee niet mengen."
+      - "Blockquote-aside: terminologie blijft een doolhof. 'Registratierechten' (federaal) = 'registratiebelasting' (VCF). 'Successierechten' (federaal) = 'erfbelasting' (VCF). De ITAA-LEX en examens gebruiken beide; in dit leerpad kiezen we 'registratiebelasting' en 'erfbelasting' als hoofdterm tenzij we specifiek over het federale W.Reg./W.Succ. spreken."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "**Vlaanderen**", "**Brussel (BHG)**", "**Wallonië**"]
+        rijen:
+          - ["Bronwetboek registratie", "VCF Boek 2", "W.Reg. (federaal, met regionale wijzigingen)", "W.Reg. (federaal, met regionale wijzigingen)"]
+          - ["Bronwetboek erfbelasting", "VCF Boek 2", "W.Succ.", "W.Succ."]
+          - ["Wie int?", "**Vlabel** (autonoom)", "FOD Financiën", "FOD Financiën"]
+          - ["Standaardtarief verkooprecht", "12 % (3 % enige eigen woning)", "12,50 % (abattement €200.000)", "12,50 % (klein-beschrijf 5 %)"]
+          - ["Verdeelrecht", "2,5 %", "1 %", "1 %"]
+          - ["Bevoegdheid civiel recht (huwelijk + erf)", "Federaal (BW Boek 2 + 4) — identiek over de drie gewesten", "Federaal", "Federaal"]
+
+  - id: civielrechtelijke-kapstok
+    titel: "De civielrechtelijke kapstok — huwelijksvermogen + erfopvolging"
+    niveau: 2
+    beats:
+      - "Open met het inzicht dat fiscaliteit hier volgt op civiel recht — niet andersom. Vooraleer je kan berekenen 'hoeveel erfbelasting betaalt Lieve?', moet je weten **wat in de nalatenschap valt** (huwelijksvermogen bepaalt dat) en **wie erft** (devolutie volgens erfrecht). Twee burgerlijke fundamenten dragen het hele fiscale gebouw."
+      - "Eerste fundament — huwelijksvermogensrecht. Geregeld in BW Boek 2 (hervorming 2018, in werking sinds 1.9.2018). Drie hoofdstelsels: (a) wettelijk stelsel (gemeenschap van aanwinsten) — gehuwd zonder contract; (b) gemeenschap van alle goederen — contractueel; (c) zuivere scheiding van goederen — contractueel. Het stelsel bepaalt welk goed gemeenschappelijk is en welk eigen — en dus wat in de nalatenschap valt bij overlijden van één echtgenoot."
+      - "Toepassen op De Wilde: Filip + Lieve zijn gehuwd in 1988 onder het wettelijk stelsel (geen huwelijkscontract). Gevolg: arbeidsinkomsten, gemeenschappelijke aankopen en hun opbrengsten zijn **gemeenschappelijk**; goederen verworven vóór het huwelijk of nadien via erfenis/schenking blijven **eigen**. Concreet: gezinswoning Antwerpen + studio Brussel + portefeuille = gemeenschap. Tweede verblijf Knokke (geërfd Filip 2010) + 20 % aandelen De Wilde Bouw via erfenis = eigen Filip."
+      - "Tweede fundament — erfrecht. Geregeld in BW Boek 4 (hervorming 2018). Drie hoofdregels: (a) afstammelingen erven bij voorrang (kinderen, kleinkinderen via plaatsvervulling); (b) overlevende echtgenoot erft naast de afstammelingen het **vruchtgebruik op de hele nalatenschap** (art. 4.50 BW oud / 4.196 nieuw); (c) bij afwezigheid van afstammelingen erft de overlevende echtgenoot meer (volle eigendom met regels voor de zijlijn)."
+      - "Reserve: kinderen hebben gezamenlijk een reservatair erfdeel van **de helft** van de nalatenschap (BW Boek 4 hervormd 2018 — vroegere reserves voor ouders zijn afgeschaft). Reservatair = je kunt de kinderen niet onterven; testament dat hen volledig uitsluit wordt op die helft teruggebracht."
+      - "Toepassen op De Wilde-scenario (hypothetisch overlijden Filip): wettelijke devolutie speelt (geen testament). Lieve krijgt **vruchtgebruik** op de hele netto-nalatenschap; Sofie + Stef krijgen elk de **helft van de blote eigendom**. De gezinswoning Antwerpen is fiscaal extra beschermd — vrijstelling erfbelasting voor overlevende echtgenoot (art. 2.7.6.0.3 VCF, Vlaanderen). Dat detail werken we uit in [[erfbelasting-en-aangifte-nalatenschap]]."
+      - "Blockquote-aside: het civiele fundament leeft niet als examenvak op zichzelf in PO 2.6 — het examen toetst de **fiscale gevolgen** van civiele keuzes. Maar zonder dit fundament kun je geen aangifte van nalatenschap correct opstellen en geen huwelijkscontract als planningsinstrument adviseren. Vandaar dat het hier kort wordt geactiveerd; [[erfbelasting-en-aangifte-nalatenschap]] werkt het uit voor zover nodig, en [[successieplanning-en-gunstregime]] activeert het opnieuw bij het huwelijkscontract als planning-instrument."
+    visualisaties:
+      - type: mermaid
+        ref: familie-de-wilde-structuur
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Goed", "Verkrijging", "Stelsel", "Bij overlijden Filip — in nalatenschap?"]
+        rijen:
+          - ["Gezinswoning Antwerpen", "Aankoop 1992 (arbeidsinkomsten)", "Gemeenschappelijk", "Helft Filip (225k) → wel in nalatenschap"]
+          - ["Tweede verblijf Knokke", "Erfenis vader 2010", "Eigen Filip", "Volledig (350k) → in nalatenschap"]
+          - ["Studio Brussel", "Aankoop 2008 (gemeenschap)", "Gemeenschappelijk", "Helft Filip (110k) → in nalatenschap"]
+          - ["20 % aandelen De Wilde Bouw (erfenis 2010)", "Erfenis vader", "Eigen Filip", "Volledig (~300k) → in nalatenschap"]
+          - ["40 % aandelen De Wilde Bouw (aankoop 1995 + kapverhoging)", "Arbeidsinkomsten + erfenis-onafhankelijk", "Gemeenschappelijk", "Helft (~300k) → in nalatenschap"]
+          - ["Beleggingsportefeuille KBC", "Spaargeld arbeid", "Gemeenschappelijk", "Helft (250k) → in nalatenschap"]
+
+  - id: wat-doet-de-accountant
+    titel: "Wat doet de accountant in dit vak?"
+    niveau: 2
+    beats:
+      - "Open: het examenprogramma noemt **vijf taken** voor de accountant in PO 2.6 (begeleiding oprichting onderneming, advies overdracht/ontbinding, totaaladvies fiscaal, fiscale formaliteiten, vertegenwoordiging Vlabel/FOD). Die taken vragen drie rollen — adviseur, formaliteit-uitvoerder, vertegenwoordiger."
+      - "Rol 1 — strategisch adviseur. Bij oprichting, herstructurering of generatiewissel rekent de accountant alternatieven door: schenken of verkopen? Schenking nu (schenkbelasting bekend) of overlijden afwachten (erfbelasting onzeker, mogelijk gunstregime)? Met of zonder huwelijkscontract-aanpassing? De fiscale uitkomst is zelden het enige criterium — familiale dynamiek + financieringscapaciteit + controle-behoeften spelen mee."
+      - "Rol 2 — formaliteit-uitvoerder. Bij elke akte loopt een termijn: 15 dagen voor de notariële akte zelf, eerste werkdag na compromis voor aanwijzing van lastgever, 4 maanden voor aangifte van nalatenschap, 2 extra maanden voor betaling. Een gemiste termijn betekent boete (typisch 20-50 % belastingverhoging) of verlies van een gunstregime. De accountant bewaakt het kalenderwerk."
+      - "Rol 3 — vertegenwoordiger. Bij bezwaar tegen een Vlabel- of FOD-aanslag, of bij een ruling-aanvraag (voorafgaande beslissing — DVB voor federaal, Vlabel voor regionaal), treedt de accountant op als gemandateerde. Hij voert het inhoudelijke gesprek en bewaart de bewijslast."
+      - "Eén overkoepelende competentie: **fiscale risico's signaleren en verklaren**. Een cliënt die 'wil schenken aan de kinderen' moet horen dat dit ófwel via notariële akte met registratie ófwel via handgift met aangetekende brief moet — en wat het verschil betekent voor de 3-jaar-fictiebepaling. Hier ligt de adviseur-toegevoegde-waarde."
+      - "Blockquote-aside: PO 2.6 staat op **integratie-niveau** in het examenprogramma. Het examen testte historisch zelden geïsoleerde formules (geen 'wat is het tarief verkooprecht?'); wél integratie binnen één familie-case (compromis + abattement + grondslag-keuze + termijn-bewaking — alles in één vraag-keten). Dat is het type werk dat de leerpath uitwerkt: technisch redeneren in geïntegreerde dossiers."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit kader hebt, ga dan verder met:"
+  leerstukken:
+    - slug: registratierechten-vastgoed
+      hint: "De vier evenredige rechten (verkoop · verdeel · hypotheek · schenking) — grondslag, abattement, gunsttarieven, drie gewesten naast elkaar."
+    - slug: registratieformaliteit-en-procedure
+      hint: "Welke akten moeten verplicht geregistreerd worden, binnen welke termijn, en welke procedure-trucs (command, sterkmaking, ruling) bestaan."
+    - slug: erfbelasting-en-aangifte-nalatenschap
+      hint: "Devolutie + nalatenschap-grondslag (actief min aannemelijk passief) + tariefschalen + aangifte-procedure + fictiebepalingen."
+    - slug: successieplanning-en-gunstregime
+      hint: "Vier planningsinstrumenten (testament · schenking · huwelijkscontract · levensverzekering) + gunstregime familiale onderneming + synthese-advies."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — beslisboom heffingen + tabel drie gewesten + termijn-kompas."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [registratie-en-successierechten, erfbelasting, schenkbelasting]
+    - concepten: [huwelijksvermogensrecht, erfrecht]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Koepel registratie- en successierechten (Vlaanderen)"
+    ref: "Vlaamse Codex Fiscaliteit (VCF) Boek 2 (sinds 1.1.2015)"
+    noot: >
+      Vlaanderen heeft inning + tarieven volledig overgenomen. Brussel en
+      Wallonië behouden W.Reg. (registratierechten) en W.Succ.
+      (successierechten) federaal, met eigen tarief-ingrepen.
+  - onderwerp: "Koepel registratierechten (Brussel + Wallonië)"
+    ref: "Wetboek der registratie-, hypotheek- en griffierechten (W.Reg.)"
+    noot: "Inning door FOD Financiën — Algemene Administratie van de Patrimoniumdocumentatie."
+  - onderwerp: "Koepel successierechten (Brussel + Wallonië)"
+    ref: "Wetboek der successierechten (W.Succ.)"
+    noot: "Idem — FOD Financiën int. Tarieven met regionale variaties."
+  - onderwerp: "Bevoegd gewest voor erfbelasting"
+    ref: "VCF art. 5/1 (Vlaanderen) + analoge federale regel W.Succ."
+    noot: "Fiscale woonplaats erflater op de dag van overlijden bepaalt het bevoegde gewest, ongeacht ligging van het vermogen."
+  - onderwerp: "Huwelijksvermogensrecht — wettelijk stelsel + varianten"
+    ref: "BW Boek 2 (hervorming wet 22 juli 2018, in werking 1.9.2018)"
+    noot: "Federaal — geldt identiek in alle drie gewesten. Stelsel-keuze bepaalt wat in nalatenschap valt."
+  - onderwerp: "Erfrecht — wettelijke devolutie + reservataire bescherming"
+    ref: "BW Boek 4 (hervorming wet 31 juli 2017, in werking 1.9.2018)"
+    noot: "Federaal. Overlevende echtgenoot krijgt vruchtgebruik op hele nalatenschap naast afstammelingen; afstammelingen-reserve = helft van de nalatenschap."
+  - onderwerp: "Vrijstelling gezinswoning overlevende echtgenoot (Vlaanderen)"
+    ref: "VCF art. 2.7.6.0.3"
+    noot: "Vlaamse vrijstelling 100 % op het deel gezinswoning dat naar de overlevende echtgenoot toekomt. Brussel + Wallonië hebben eigen, beperkter vrijstellingsregime."
+
+footer: "Leerstuk PO 2.6 — lstk 1 van 5 (entry). Status: voorgesteld."

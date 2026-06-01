@@ -1,0 +1,257 @@
+# Leerstuk-script — successieplanning + gunstregime familiale onderneming
+#
+# PO 2.6, lstk 5 van 5. Synthese-leerstuk: brengt alle planning-instrumenten
+# samen op één rij (testament · schenking · huwelijkscontract · levens-
+# verzekering · vennootschap). Werkt schenking met voorbehoud vruchtgebruik
+# + gunstregime familiale onderneming uit, en sluit af met een geïntegreerd
+# advies voor de De Wilde-familie.
+
+meta:
+  slug: successieplanning-en-gunstregime
+  titel: "Successieplanning en gunstregime familiale onderneming — instrumenten + synthese"
+  po: "2.6"
+  cluster: registratie-en-successierechten
+  voorbeeldgroep: de-wilde
+  beschrijving: >
+    Leerstuk PO 2.6 — het synthese-leerstuk. Vier klassieke planningsinstru-
+    menten op één rij (testament · schenking · huwelijkscontract · levens-
+    verzekering), de schenkings-techniek met voorbehoud van vruchtgebruik
+    in detail, het gunstregime familiale onderneming (0 % schenking + 3 %
+    erfbelasting), de vennootschap als planningsinstrument, en een
+    geïntegreerd advies-scenario "wat zou planning hebben bespaard?".
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 2.6. Vermeld
+    dat dit synthese-leerstuk op vier voorgaande leerstukken bouwt — vooral
+    [[erfbelasting-en-aangifte-nalatenschap]] (waaruit blijkt waarom planning
+    bestaat) en [[registratierechten-vastgoed]] (waaruit blijkt hoe
+    schenking-onroerend belast wordt). De stagiair die hier komt heeft
+    de techniek door en bouwt nu de integratie-stap.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: successieplanning = **bij leven het vermogen structureren** zodat bij overlijden zo min mogelijk erfbelasting verschuldigd is + de overdracht conform de wensen van de erflater verloopt. Vier klassieke instrumenten + één vennootschaps-cluster."
+    - "Tweede zin: **testament** organiseert binnen het reservataire kader; **schenking** verlaat het patrimonium definitief (mits geregistreerd of 3 jaar overleven); **huwelijkscontract** herverdeelt vermogen tussen echtgenoten; **levensverzekering** kanaliseert naar een aangewezen begunstigde buiten de nalatenschap (deels — fictie ankert het terug)."
+    - "Derde zin: vijfde laag — de **vennootschap** (managementvennootschap, holding, patrimoniumvennootschap) maakt **gefaseerde overdracht** mogelijk + houdt **controle** bij de schenker via vruchtgebruik + meerstemmig aandeel."
+    - "Vierde zin: kers op de taart = **gunstregime familiale onderneming**. **0 %** schenking aandelen (VCF art. 2.8.6.0.3); **3 %** erfbelasting rechte lijn / 7 % anderen bij erfopvolging (VCF art. 2.7.4.2.2). Voorwaarden strikt — familiale venn., reële activiteit, continuïteit + participatie 3 jaar nadien — maar substantieel: een familiebedrijf van €1.500.000 kan zonder gunstregime €200-300k erfbelasting kosten, met gunstregime €45k of zelfs €0."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Instrument", "Wat doet het?", "Wanneer ideaal?"]
+      rijen:
+        - ["**Testament**", "Organiseert overgang binnen reservataire kader", "Wens uit te drukken zonder vermogen nu af te staan"]
+        - ["**Schenking *(met of zonder vruchtgebruik)***", "Verlaat patrimonium tijdens leven", "Lange planning-horizon (3 jaar+) + controle-behoud via vruchtgebruik"]
+        - ["**Huwelijkscontract**", "Herverdeelt vermogen tussen echtgenoten", "Vermogensverdeling optimaliseren — verblijvings-beding, gemeenschap"]
+        - ["**Levensverzekering**", "Kapitaal naar aangewezen begunstigde", "Sneller en flexibeler dan schenking — beperkt door fictie"]
+        - ["**Vennootschap als planningsinstrument**", "Gefaseerde overdracht + behoud controle", "Bij familiebedrijf of substantieel vastgoed-vermogen"]
+        - ["**Gunstregime familiale onderneming**", "Drastisch verlaagd tarief", "Familiebedrijf met reële activiteit + continuïteit"]
+  afsluiter: "Korte zin: 'We werken hieronder vier secties uit — vier instrumenten op één rij, schenking-met-vruchtgebruik in detail, gunstregime familiale onderneming, en een geïntegreerd advies voor De Wilde.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vier-instrumenten-op-een-rij
+    titel: "Vier klassieke instrumenten — wat doet wat?"
+    niveau: 2
+    beats:
+      - "Open: er is geen 'beste' instrument — er is een **best passend** instrument per familiale situatie. Vier kerngereedschappen, elk met eigen reikwijdte + kost + tijdshorizon."
+      - "**Instrument 1 — Testament.** Een eenzijdige akte waarbij de erflater zijn laatste wil vastlegt. Twee vormen: (a) **eigenhandig testament** — volledig handgeschreven, gedagtekend en ondertekend. Geen registratiekost; aanbeveling: bewaring bij notaris (Centraal Register van Testamenten). (b) **notarieel testament** — bij notaris opgesteld, automatisch geregistreerd. Vereist bij beperkingen op de testator (handicap, analfabetisme, hoge leeftijd met juridische onzekerheid)."
+      - "**Wat kan een testament?** Binnen het reservataire kader (afstammelingen krijgen helft van nalatenschap als wettelijke reserve, BW Boek 4 hervormd 2018) kan de erflater het **beschikbaar deel** (andere helft) toewijzen aan wie hij wil — kinderen ongelijk verdelen, erfdeel toevoegen aan langstlevende, derden begunstigen, goede doelen. Het testament treedt in werking bij overlijden — geen overdracht bij leven."
+      - "**Fiscaal**: testament leidt niet tot extra heffing — de gewone erfbelasting volgt bij overlijden. Voordeel: geen heffing tijdens leven (anders dan schenking). Nadeel: het volledig vermogen blijft tot overlijden in het patrimonium, dus belast tegen progressief tarief."
+      - "**Instrument 2 — Schenking.** Een overeenkomst waarbij iemand bij leven kosteloos een goed overdraagt. Verschillende vormen + verschillende fiscale gevolgen — werkt §2 hieronder uit."
+      - "**Instrument 3 — Huwelijkscontract.** Twee echtgenoten regelen contractueel hun vermogensregime. Bij PO 2.6: relevant als planning-instrument via **clausules** die bij overlijden van één echtgenoot het vermogen herverdelen. Drie klassieke clausules: (a) **verblijvings-beding** — bij overlijden krijgt overlevende echtgenoot het hele gemeenschapsvermogen, met of zonder inbrengverplichting. (b) **beding van aanwas** — onverdeeld goed van twee echtgenoten gaat volledig naar overlevende. (c) **sterfhuisclausule** — variant in extremis bij ziekte."
+      - "**Fiscaal**: huwelijkscontract-clausules zijn civielrechtelijk geldig maar **fiscaal vaak een fictie-bepaling** (zie [[erfbelasting-en-aangifte-nalatenschap]] §5 — fictie 3 + 4). De fiscus belast de aanwas als legaat. Het voordeel zit dus elders: **civielrechtelijke beheersbaarheid** + **bescherming overlevende echtgenoot** (afstammelingen kunnen geen claim leggen op het verblijvingsbeding-goed)."
+      - "**Instrument 4 — Levensverzekering.** Een contract tussen verzekeringnemer + verzekeraar waarbij bij overlijden van de verzekerde een kapitaal of rente wordt uitbetaald aan een **aangewezen begunstigde** (de naam staat in de polis). Klassiek: Tak 21 (gewaarborgde rente, conservatief), Tak 23 (beleggingsfonds, hoger rendement-risico)."
+      - "**Fiscaal**: de uitkering valt **niet automatisch in de nalatenschap** — ze gaat civielrechtelijk direct naar de begunstigde. **Maar de fictie art. 2.7.1.0.6 VCF / art. 8 W.Succ.** behandelt de uitkering als legaat voor de erfbelasting. **Pro-rata-correctie**: als de premies uit gemeenschapsvermogen werden betaald, is slechts de helft fictief belast (50 % bij wettelijk stelsel). Dat is precies De Wilde-scenario — Filip's Tak 23 €180.000 met Lieve als begunstigde: bij overlijden Filip wordt **€90.000** als fictief legaat aan Lieve belast."
+      - "**Strategische gebruik levensverzekering**: kan kapitaal **buiten de toekomstige nalatenschap** kanaliseren naar een specifieke persoon (bv. een kind uit eerste huwelijk, een partner zonder huwelijksstatuut). Sneller dan schenking-met-formaliteit. Maar de fictie houdt het fiscaal grotendeels gelijk — voordeel zit vooral in **flexibiliteit** + **discretie** + **directe uitkering**, niet in fiscale bonus."
+      - "Toon de vier-instrumenten-tabel volledig — wanneer wat past, kost-orde, controle-behoud."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Instrument", "Overdracht bij leven?", "Belastbaar moment", "Controle-behoud schenker"]
+        rijen:
+          - ["Testament", "Nee", "Bij overlijden *(erfbelasting)*", "Volledig — kan tot dood gewijzigd worden"]
+          - ["Schenking *(zonder voorbehoud)*", "**Ja — definitief**", "Bij schenking *(schenkbelasting)*", "Geen — overdracht is voltrokken"]
+          - ["Schenking met voorbehoud vruchtgebruik", "Ja *(blote eigendom)*", "Bij schenking *(schenkbelasting)* + bij overlijden *(consolidatie volle eigendom — vrijgesteld)*", "Beperkt — schenker behoudt inkomsten + stemrecht"]
+          - ["Huwelijkscontract — verblijvings-beding", "Nee *(treedt in bij overlijden)*", "Erfbelasting *(fictie)*", "Beperkt door huwelijksdynamiek"]
+          - ["Levensverzekering", "Nee *(uitkering bij overlijden)*", "Erfbelasting *(fictie)*", "Volledig — kan begunstigde wijzigen"]
+          - ["Vennootschap *(holding, patrimonium)*", "Gefaseerd via aandelen-schenking", "Schenking + verkoop", "Zeer hoog — meerstemmig aandeel + vruchtgebruik"]
+
+  - id: schenking-met-vruchtgebruik
+    titel: "Schenking met voorbehoud van vruchtgebruik — de klassieke techniek"
+    niveau: 2
+    beats:
+      - "Open: dit is **de meest gebruikte planning-techniek** in de Belgische praktijk. Reden: het lost twee tegengestelde behoeften tegelijk op — vermogen *nu* uit het patrimonium halen (toekomstige erfbelasting vermijden) zonder de controle of inkomsten *nu* op te geven."
+      - "**Mechanisme**: de schenker draagt de **blote eigendom** van een goed (aandelen, vastgoed, beleggingsportefeuille) over aan de begiftigde (kind), terwijl hij zelf het **vruchtgebruik** behoudt — voor levensduur of voor een bepaalde termijn. Het vruchtgebruik geeft recht op de **vruchten** van het goed (dividenden, huurinkomsten, intresten) + bij aandelen: het **stemrecht** in de algemene vergadering. De begiftigde krijgt het goed in **volle eigendom** pas bij overlijden van de schenker — **gratis fiscaal** (de consolidatie van vruchtgebruik en blote eigendom is geen nieuwe schenking)."
+      - "**Fiscaal**: schenkbelasting wordt geheven op de **waarde van de blote eigendom** op het ogenblik van schenking. Berekening: volle waarde min vruchtgebruik-forfait (afhankelijk van leeftijd schenker — art. 47 W.Reg. tabel). Voor een 62-jarige (Filip): coëfficiënt **9,5 × jaarlijkse forfaitaire opbrengst 4 %** = **vruchtgebruik ~38 %**, blote eigendom **~62 %**. Schenkbelasting wordt dus geheven op ongeveer 62 % van de waarde, niet 100 %."
+      - "**Lange-termijn-voordeel**: bij overlijden schenker wordt de **consolidatie volle eigendom belastingvrij** voltrokken — geen erfbelasting op het goed. Voorwaarde: schenking moet **meer dan 3 jaar vóór overlijden geregistreerd** zijn, anders kicke fictie art. 2.7.1.0.5 VCF en wordt de schenking alsnog in de erfbelasting verwerkt."
+      - "**Toon scenario De Wilde** uit voorbeeldgroep: Filip overweegt schenking 30 % aandelen De Wilde Bouw NV (van zijn 60 %) aan zoon Stef in 2026. Volle waarde 30 % = €450.000. Aandelen zijn **roerend** → schenkbelasting Vlaanderen vlak **3 % rechte lijn** (art. 2.8.4.1.1 § 2 VCF), NIET progressief 3-9-18-27 %. Zonder gunstregime: 3 % × 450.000 = **€13.500**. Met gunstregime familiale onderneming (art. 2.8.6.0.3 VCF — zie §3): **€0**. Besparing schenking: €13.500. Het echte voordeel van het gunstregime ligt bij **erfopvolging** (3 % rechte lijn over hele grondslag vs progressief 3-27 % bij overlijden) en bij **grotere familiebedrijven**."
+      - "**Belangrijke nuance — onroerend vs roerend tarief**: schenking onroerend goed (gebouw, grond) wordt belast tegen onroerende schenkbelasting-schalen (in Vlaanderen 3-9-18-27 % rechte lijn). Schenking van **aandelen** (zelfs van een vennootschap met onroerend goed) valt onder **roerende** schenkbelasting (Vlaanderen vlak **3 % rechte lijn / 7 % anderen**, art. 2.8.4.1.1 § 2 VCF — sterk verlaagd sinds 2004). Klassieke planning-techniek: vastgoed in een vennootschap brengen, dan aandelen schenken — 3 % i.p.v. 3-27 % progressief. Risico: anti-misbruik-toetsing als de structuur duidelijk artificieel is."
+      - "**Drie cruciale voorwaarden voor de techniek**: (1) **Notariële akte** voor schenking onroerend goed (verplicht, BW Boek 4); voor schenking aandelen: notarieel of via documentaire schenking met aangetekende brief + handgift. (2) **Registratie** binnen termijn → schenkbelasting betaald → fictie speelt niet, ongeacht 3 jaars-grens. (3) **Voorbehoud van vruchtgebruik in de akte** — duidelijk geformuleerd, met definitie van wat 'vruchten' omvat (dividenden? stemrecht? recht op kapitaalvermindering?)."
+      - "Blockquote-aside: **alternatief is 'roerende schenking via bankgift'** (handgift met aangetekende brief 'pacte adjoint'). Voordeel: geen schenkbelasting verschuldigd (vlak 0 %), enkel als donateur 3 jaar overleeft + geen fictie. Risico: schenker overlijdt < 3 jaar → fictie speelt → progressief erfbelasting-tarief. Voor het familiebedrijf-scenario van De Wilde is dit **niet aan te raden**: aandelen-schenking via bankgift zou de kwalificatie als familiale vennootschap kunnen problematiseren (geen geregistreerde overdracht). Notariële schenking met registratie blijft de veilige weg."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Schenking ZONDER vruchtgebruik", "Schenking MET voorbehoud vruchtgebruik"]
+        rijen:
+          - ["Wat wordt overgedragen?", "Volle eigendom", "Blote eigendom *(vruchtgebruik blijft bij schenker)*"]
+          - ["Wat behoudt schenker?", "Niets — definitief uit patrimonium", "**Vruchten *(dividend, huur, intrest)* + stemrecht aandelen**"]
+          - ["Schenkbelasting-grondslag", "Volle waarde", "Volle waarde min vruchtgebruik-forfait *(art. 47 W.Reg.)*"]
+          - ["Voor 62-jarige schenker", "100 % grondslag", "~62 % grondslag *(vruchtgebruik-forfait 38 %, art. 47 W.Reg.)*"]
+          - ["Bij overlijden schenker", "Geen impact *(was al definitief)*", "**Consolidatie volle eigendom — belastingvrij** *(geen nieuwe heffing)*"]
+          - ["Risico fictie 3 jaar", "Ja als ongeregistreerd", "Ja als ongeregistreerd"]
+
+  - id: gunstregime-familiale-onderneming
+    titel: "Gunstregime familiale onderneming — 0 % schenking + 3 % erfopvolging"
+    niveau: 2
+    beats:
+      - "Open: voor wie een **familiale vennootschap met reële economische activiteit** overdraagt aan kinderen, voorziet het Vlaamse gunstregime **drastisch verlaagde tarieven**. Bij schenking aandelen: **0 %** (i.p.v. progressief). Bij erfopvolging (overlijden) aandelen: **3 % rechte lijn / 7 % anderen** (i.p.v. progressief tot 27 %). Substantieel — voor een familiebedrijf van €1-2 miljoen scheelt het tienduizenden tot honderdduizenden euro."
+      - "**Wettelijke basis**: VCF art. 2.8.6.0.3 (schenking) + VCF art. 2.7.4.2.2 (erfopvolging). Beide artikelen werken op dezelfde voorwaarden + parallelle procedure (Vlabel-attest)."
+      - "**Drie voorwaarden bij schenking** (alle cumulatief, te toetsen op moment schenking en 3 jaar nadien)."
+      - "**Voorwaarde 1 — Familiale vennootschap.** Aandelen voor minstens **50 %** in handen van schenker + familie (echtgenoot, afstammelingen, ouders, broers/zussen + hun afstammelingen). De Wilde Bouw NV vóór schenking 2018: Filip 60 % + Lieve 20 % = 80 % familie → ruim voorbij 50 %."
+      - "**Voorwaarde 2 — Reële economische activiteit.** Geen patrimonium-vennootschap (vennootschap die alleen vastgoed of beleggingen beheert). Concreet getest via twee proxies: (a) **loonkost > 1,5 %** van totale activa; (b) **niet te veel onroerend goed** (geen overmaat). Bouwaannemingsbedrijf met 25 werknemers (De Wilde Bouw) voldoet ruim — productie + werkgevers-loonlast."
+      - "**Voorwaarde 3 — Continuïteit + participatie 3 jaar.** Na schenking (of overlijden) moet de familie **gedurende 3 jaar**: (a) de activiteit **voortzetten** zonder substantiële wijziging; (b) **familiebezit** behouden van minstens 50 %; (c) **niet vereffenen** of overdragen aan derde. Schenking-2018 De Wilde aan Sofie: 3 jaar verstreken eind 2021 → gunstregime definitief verworven."
+      - "**Schenkings-mechaniek**: notariële schenkingsakte met expliciete vermelding gunstregime + voorafgaand **attest van Vlabel** (kwalificatie als familiale vennootschap). Akte vermeldt aandelen-aantal + waarde + voorbehoud (vruchtgebruik). Registratie binnen 4 maanden → 0 % schenkbelasting. **Voorbehoud van vruchtgebruik combineerbaar** — schenker behoudt dividenden + stemrecht, kinderen krijgen blote eigendom met gunstregime."
+      - "**Erfopvolgings-mechaniek (overlijden zonder voorafgaande schenking)**: aandelen vallen in nalatenschap → tarief familiale onderneming **3 %** rechte lijn / **7 %** anderen op het totale aandeel — i.p.v. progressief. Voorwaarden idem (familiale venn + reële activiteit + continuïteit 3 jaar nadien). De erfgenamen kunnen dit gunstregime claimen in de aangifte van nalatenschap; Vlabel-attest blijft vereist."
+      - "Concretiseer met De Wilde scenario `schenking-aandelen-familiebedrijf`: schenking 30 % aandelen aan Stef in 2026, volle waarde €450.000 (roerend, vlak 3 % rechte lijn). **Met gunstregime**: schenkbelasting €0. **Zonder gunstregime**: 3 % × 450.000 = **€13.500**. Besparing schenking: €13.500. Het werkelijke voordeel van het gunstregime komt vooral tot uiting bij **erfopvolging**: vergelijk de besparing met de €270.000 erfbelasting-besparing in de §-vergelijking hieronder."
+      - "**Vergelijk schenking nu vs erfopvolging straks** voor De Wilde: stel Filip leeft 20 jaar, vermogen aandelen groeit naar €2.000.000 → erfbelasting bij overlijden zonder gunstregime: tarief rechte lijn 3-9-27 % progressief × €2.000.000/2 (Sofie) ≈ €270.000 voor Sofie alleen. Met gunstregime erfopvolging: 3 % × €1.000.000 = €30.000. Schenking 2026 met 0 % gunstregime + 20 jaar groei buiten patrimonium = nog gunstiger; bovendien is groei al in handen kinderen."
+      - "**Blockquote-aside — anti-misbruik**: Vlabel kan het gunstregime achteraf intrekken als blijkt dat de familiale vennootschap-kwalificatie kunstmatig is opgezet (bv. patrimoniumvennootschap met later toegevoegde 'activiteit'-laagje om de drempels te halen). De accountant adviseert hier voorzichtig: **ruling vragen** bij twijfel (zie [[registratieformaliteit-en-procedure]] §4) — Vlabel-ruling voor familiale onderneming bindt de administratie voor het beschreven feitenkader."
+      - "**Brusselse + Waalse varianten**: bestaan ook, met eigen voorwaarden + tariefniveau. Brussel: schenking aandelen familiale vennootschap aan 3 %; Wallonië: 0 % maar met striktere continuïteitsvoorwaarden. Voor cliënt met fiscale woonplaats Brussel of Wallonië: andere regelschalen + andere indienings-administratie. Dit leerstuk focust op Vlaanderen — voor de andere gewesten verwijst de accountant naar de regionale W.Reg./W.Succ.-tekst."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Voorwaarde", "Op moment schenking/overlijden", "3 jaar nadien"]
+        rijen:
+          - ["Familiale vennootschap", "≥ 50 % aandelen schenker + familie", "≥ 50 % familie-bezit behouden"]
+          - ["Reële economische activiteit", "Loonkost > 1,5 % totaal activa + geen overmaat onroerend", "Activiteit ongewijzigd voortgezet"]
+          - ["Continuïteit", "Notariële schenkingsakte + Vlabel-attest", "Geen vereffening, geen overdracht > 50 % aan derde"]
+      - type: tabel-inline
+        kolommen: ["De Wilde Bouw schenking 30 % aandelen aan Stef *(volle waarde €450.000)*", "Schenkbelasting", "Effect"]
+        rijen:
+          - ["Zonder gunstregime *(onroerende schenking-schalen)*", "**~€67.500** *(progressief)*", "Baseline"]
+          - ["Met gunstregime art. 2.8.6.0.3 VCF", "**€0**", "Besparing €67.500"]
+          - ["Met voorbehoud vruchtgebruik *(Filip behoudt dividend + stemrecht)*", "**€0**", "Filip controle behouden, fiscaal optimaal"]
+
+  - id: vennootschap-als-planningsinstrument
+    titel: "Vennootschap als planningsinstrument — kort overzicht"
+    niveau: 2
+    beats:
+      - "Open: voor cliënten met substantieel vermogen of een familiebedrijf opent een **vennootschapsstructuur** drie planning-mogelijkheden — gefaseerde overdracht, controle-behoud bij schenker, fiscale optimalisatie. Vier varianten worden in PO 2.6 kort vermeld; diepte ligt bij **PO 3.0** (vennootschapsrecht)."
+      - "**Variant 1 — Managementvennootschap.** Werkende eigenaar (bestuurder) richt een aparte vennootschap op die zijn diensten aanbiedt aan de operationele vennootschap. Voordelen: inkomstenoptimalisatie (loon vs dividend), latere overdracht aandelen managementvenn. mogelijk. Risico: anti-simulatie + minimum-bezoldigingsregel (art. 215 WIB)."
+      - "**Variant 2 — Holding.** Een tussenvennootschap die aandelen van één of meer operationele vennootschappen bezit. Voordelen: gefaseerde overdracht holding-aandelen naar kinderen (DBI-regime voor dividenden binnen-holding); meerstemmige aandelen + categorie-aandelen voor controle-behoud. Klassieke structuur bij familiebedrijven > €2 miljoen vermogen."
+      - "**Variant 3 — Patrimoniumvennootschap.** Vennootschap die hoofdzakelijk **vastgoed of beleggingen** beheert (geen reële activiteit). **Cruciaal voor PO 2.6**: een patrimoniumvennootschap kwalificeert **niet** als familiale vennootschap voor het gunstregime — geen 0 % schenkbelasting. Voor planning is ze dus minder krachtig dan een operationele venn. Wel nuttig voor **vermogensbeheer + estate-fasering** zonder het gunstregime-objectief."
+      - "**Variant 4 — Gemeenrechtelijke vennootschap (maatschap).** Burgerlijke vennootschap zonder rechtspersoonlijkheid — alle vennoten zijn hoofdelijk aansprakelijk. Klassiek gebruikt als **familiale vermogensvehikel** voor wie discretie + flexibiliteit wil zonder vennootschapsbelasting. Sinds hervorming 2018 verplicht ingeschreven in KBO + jaarrekening neerleggen. Gebruik vooral voor beleggingsportefeuille-management + gefaseerde overdracht aandelen-maatschap."
+      - "**Trust** (vermeld in 2.6.VI.E): Anglo-Saksisch instrument, in België niet rechtstreeks gekend (geen Belgisch trustrecht). Voor Belgische cliënten met buitenlands vermogen of Anglo-Saksische familie-banden: trust **wordt fiscaal doorzien** — Cayman-tax (wet 2015) belast jaarlijks pro rata. Beperkt nut in pure Belgische planning."
+      - "**Repatriëring + fiscale regularisatie**: cliënten met niet-aangegeven buitenlands vermogen kunnen via de **EBA-procedure** (Einmalige Belasting Aanslag, sinds 2016 permanent gemaakt) repatriëren tegen forfaitaire heffing + boete. Beperkte rol in moderne planning — vooral relevant bij overgangs-dossiers."
+      - "Blockquote-aside: de **vennootschap als planningsinstrument** is een onderwerp dat het examenprogramma kort aanstipt maar dat vooral **PO 3.0** (vennootschapsrecht) en **PO 2.3** (vennootschapsbelasting) diep behandelen. Voor PO 2.6 hoeft de stagiair de **fiscale logica** te kennen — niet de vennootschapsrechtelijke uitwerking. Voor reëel cliënt-advies wordt typisch een notaris + corporate-jurist + accountant samen ingeschakeld."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Vennootschapsvorm", "Planning-functie", "Gunstregime familiale onderneming?"]
+        rijen:
+          - ["Managementvennootschap", "Inkomensoptimalisatie + gefaseerde overdracht", "Soms — afhankelijk van reële activiteit"]
+          - ["Holding", "Gefaseerde overdracht + controle-behoud", "**Ja** *(als operationele dochters reële activiteit hebben)*"]
+          - ["Patrimoniumvennootschap", "Vermogensbeheer + estate-fasering", "**Nee** *(geen reële activiteit)*"]
+          - ["Gemeenrechtelijke vennootschap *(maatschap)*", "Discrete familievermogensvehikel", "N.v.t. *(geen aandelen-overdracht in klassieke zin)*"]
+          - ["Trust", "Anglo-Saksische context", "Doorzien door Cayman-tax"]
+
+  - id: geintegreerd-advies
+    titel: "Geïntegreerd advies — wat zou planning hebben bespaard?"
+    niveau: 2
+    beats:
+      - "Open: het examen-doelstelling 2.6.taak.4.doel.2 ('geavanceerde concepten op complexe gevallen') vraagt **synthetiserend werk** — combineer instrumenten + bereken de fiscale impact + adviseer een planning-pad. We doen dat hier met De Wilde."
+      - "**Vertrekpunt**: scenario `filip-overlijdt-hypothetisch` (lstk 4) toonde de **erfbelasting-uitkomst zonder voorafgaande planning**. Bruto nalatenschap €1.645k, passief €36k, netto €1.609k. Toegedeeld volgens wettelijke devolutie: Lieve vruchtgebruik op alles + 0 % op gezinswoning-aandeel; Sofie + Stef blote eigendom op rest. Vereenvoudigde erfbelasting-schatting: **~€150-200k** totaal voor de familie (afhankelijk van precieze vruchtgebruik-kapitalisatie en gunstregime-claim voor familiebedrijf-aandelen)."
+      - "**Planning-scenario** (uit voorbeeldgroep `tweede-overlijdens-scenario-lieve`): stel Filip had **vóór overlijden** drie maatregelen genomen — (a) notariële schenking met voorbehoud van vruchtgebruik aan Sofie + Stef van **resterende 60 %** aandelen De Wilde Bouw (gunstregime familiale onderneming → 0 % schenkbelasting); (b) huwelijkscontract-clausule **verblijvings-beding** met inbrengverplichting bij tweede overlijden; (c) Tak 23-polis omgezet naar **cross-begunstiging** Filip ↔ Lieve."
+      - "**Effect maatregel (a)** — aandelen-schenking gunstregime: aandelen waarde €900.000 (60 % van €1.500.000) verlaat het patrimonium in 2025. Met gunstregime: schenkbelasting €0. Bij overlijden 2026: aandelen niet meer in nalatenschap → erfbelasting-besparing op €900.000. Bij rechte lijn 9-27 % progressief: minstens €100-150k bespaard."
+      - "**Effect maatregel (b)** — verblijvings-beding: gemeenschapsvermogen gaat bij eerste overlijden volledig naar overlevende echtgenoot (Lieve) i.p.v. half. Civielrechtelijk versterkt het Lieve's positie. Fiscaal: **fictie art. 2.7.1.0.7 VCF** activeert — Vlabel belast de aanwas als legaat. Maar **vrijstelling gezinswoning + lager tarief overlevende echtgenoot** dempt het effect. Hoofdvoordeel: bescherming van Lieve + uitstellen erfbelasting kinderen tot tweede overlijden."
+      - "**Effect maatregel (c)** — Tak 23 cross-begunstiging: bij gelijktijdig overlijden geen circulaire problemen. Maar fictie blijft (50 % belastbaar). Minder dramatisch dan de schenking-maatregel."
+      - "**Tijdshorizon-overweging**: maatregelen (a) en (c) moeten **vóór de 3-jaar-fictie-grens** gerealiseerd zijn anders kicken art. 2.7.1.0.5 (schenking) en art. 2.7.1.0.6 (verzekering). Filip overweegt in 2026; als hij plant in 2026 en overlijdt in 2030: 4 jaar verstreken → fictie speelt niet. Als hij overlijdt in 2028: schenking 2 jaar geleden + niet geregistreerd? Probleem. Daarom: **registreren binnen 4 maanden** zorgt dat de 3-jaars-grens **niet kicke** (de schenkbelasting is al betaald → fictie speelt niet, ongeacht termijn)."
+      - "**Synthese-tabel toont totaal-bespaard**: in optimistisch scenario (alle maatregelen 3+ jaar vóór overlijden gerealiseerd + gunstregime familiale onderneming behouden) kan een planning van **~€100-150k schenkbelasting + advieskost** een erfbelasting-besparing van **€150-200k+** opleveren. Netto-resultaat: **€50-100k** in de familiekas in plaats van bij de fiscus."
+      - "**Wat de accountant doet**: deze synthese **vóóraf opbouwen** in een cliënt-rapport. Per maatregel kosten + baten + voorwaarden + risico's documenteren. Combineren met **ruling-aanvraag** bij twijfel over familiale vennootschap-kwalificatie. En kritisch zijn: niet elke planning past elke familie. Filip + Lieve hebben kinderen die loyaal samenwerken; in andere families kan een schenking met voorbehoud van vruchtgebruik tot **conflict** leiden (kinderen die blote eigenaar zijn maar geen dividend krijgen, voelen zich 'op papier rijk en in werkelijkheid arm')."
+      - "Blockquote-aside: **planning is niet altijd het antwoord**. Voor kleine vermogens (~€500k of minder) is het tariefverschil tussen wel/niet plannen vaak gering, en de advieskosten + complexiteit niet evenredig. De ITAA-stagiair leert hier vooral **wanneer planning loont** (substantieel vermogen + familiebedrijf + langere tijdshorizon) en wanneer **eenvoud beter is** (testament + duidelijke devolutie + correct ingediende aangifte)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["De Wilde — scenario", "Aandelen overdracht", "Schenkbelasting", "Erfbelasting *(geschat)*", "Totale fiscale kost"]
+        rijen:
+          - ["**Geen planning** *(scenario lstk 4)*", "Aandelen blijven bij Filip → vallen in nalatenschap", "€0", "~€150-200k *(incl. gunstregime erfopvolging voor familiebedrijf-aandelen)*", "**~€150-200k**"]
+          - ["**Met planning** *(schenking 2025 + verblijvings-beding + cross-verzekering)*", "Aandelen geschonken met gunstregime + vruchtgebruik", "€0 *(gunstregime art. 2.8.6.0.3)*", "~€50-100k *(reductie nalatenschap)*", "**~€50-100k**"]
+          - ["**Besparing planning**", "", "", "", "**~€100k+**"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    type_blokken: warning-bullets
+    beats:
+      - "Valkuil 1 (⚠️): **Schenking niet registreren + 3-jaar-fictie onderschatten**. Een vader die in januari handgift doet aan kinderen + overlijdt in november van hetzelfde jaar → fictie kicke, schenking wordt als legaat in erfbelasting verwerkt + boete voor laattijdige aangifte van schenkbelasting (achteraf moet erfbelasting betaald). De veilige weg: **notariële akte + registratie binnen 4 maanden** → schenkbelasting betaald → fictie speelt nooit, ongeacht overlevingstijd."
+      - "Valkuil 2 (⚠️): **Gunstregime familiale onderneming claimen zonder Vlabel-attest**. De erfgenamen vinken in de aangifte het gunstregime aan, betalen 3 % i.p.v. progressief — Vlabel controleert achteraf de familiale-vennootschap-kwalificatie. Als ze in werkelijkheid een **patrimoniumvennootschap** is (geen reële activiteit, vooral vastgoed): bijkomende aanslag + 50 % belastingverhoging + interesten. Vóór schenking of overlijden: **ruling aanvragen** bij Vlabel om de kwalificatie te bevestigen. Kost: een paar maanden behandeling; baat: rechtszekerheid voor honderdduizenden euros."
+      - "Valkuil 3 (⚠️): **Voorbehoud van vruchtgebruik niet duidelijk in akte**. De schenkingsakte vermeldt 'voorbehoud van vruchtgebruik' zonder verdere precisering. Twee jaar later: dispuut tussen schenker (wil dividend ontvangen) en kinderen (vinden dat het dividend bij blote eigendom hoort omdat het 'kapitaalvermindering' is). Bij notariële opmaak: **expliciet definiëren** wat vruchten omvatten (gewoon dividend ja; uitzonderlijk dividend bij kapitaalvermindering: neen). Sluiten van toekomstige geschillen door duidelijke akte-tekst."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Synthese is rond. Verdere lectuur:"
+  leerstukken:
+    - slug: erfbelasting-en-aangifte-nalatenschap
+      hint: "Terug-link — voor wie de fictiebepalingen of de tariefschalen wil herwerken in het kader van een planning-scenario."
+    - slug: registratierechten-vastgoed
+      hint: "Voor schenkbelasting onroerend goed (tarief progressief) + vergelijking met aandelen-schenking (vlak)."
+    - slug: registratieformaliteit-en-procedure
+      hint: "Voor ruling-procedure — Vlabel-attest familiale onderneming, DVB-ruling voor federaal aanvaarde structuren."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — beslisboom instrumenten + voorwaarden gunstregime + tijdshorizon-checklist."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [successieplanning, gunstregime-familiale-onderneming]
+    - concepten: [schenking-met-voorbehoud-vruchtgebruik, testament-instrument]
+    - concepten: [levensverzekering-successieplanning, inbreng-onroerend-in-vennootschap]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Schenkingen — vormvoorschriften"
+    ref: "BW Boek 4 (hervorming 2018) — schenking onroerend vereist notariële akte (art. 4.117 e.v.); schenking roerend kan via handgift met aangetekende brief"
+    noot: "Civiele vormvereisten — fiscaal volgt: notariële schenking → automatische registratie + schenkbelasting; handgift → vrijwillige registratie."
+  - onderwerp: "Reservatair erfdeel afstammelingen"
+    ref: "BW Boek 4 (hervorming 2018) — helft van nalatenschap"
+    noot: "Beperking testamentaire vrijheid + planning-impact: maximaal 'beschikbaar deel' kan toegewezen worden aan niet-reservataire erfgenamen."
+  - onderwerp: "Gunstregime familiale onderneming — schenking"
+    ref: "VCF art. 2.8.6.0.3"
+    noot: "0 % schenkbelasting bij familiale vennootschap met reële activiteit + continuïteit + participatie 3 jaar nadien. Brussel + Wallonië: eigen verlaagd-tarief-regime."
+  - onderwerp: "Gunstregime familiale onderneming — erfopvolging"
+    ref: "VCF art. 2.7.4.2.2"
+    noot: "3 % rechte lijn / 7 % anderen op aandelen familiale vennootschap. Vereist Vlabel-attest in aangifte van nalatenschap."
+  - onderwerp: "Schenkbelasting roerend goed (aandelen) Vlaanderen"
+    ref: "VCF art. 2.8.4.1.1 — vlak tarief rechte lijn 3 % / anderen 7 %"
+    noot: "Sinds 2004 substantieel verlaagd om planning te stimuleren. Onroerend goed-schenking blijft progressief 3-27 %."
+  - onderwerp: "Fictie schenking < 3 jaar zonder registratie"
+    ref: "VCF art. 2.7.1.0.5 / W.Succ. art. 7"
+    noot: "Schenking gedaan binnen 3 jaar vóór overlijden zonder schenkbelasting → behandeld als legaat. Registratie binnen termijn → fictie speelt niet."
+  - onderwerp: "Voorbehoud vruchtgebruik — forfaitaire waardering"
+    ref: "W.Reg. art. 47 (forfait vruchtgebruik volgens leeftijd vruchtgebruiker)"
+    noot: "Schenkbelasting op blote eigendom = volle waarde min forfait. Voor 62-jarige ~14 % vruchtgebruik-forfait."
+  - onderwerp: "Huwelijkscontract — verblijvings-beding + beding van aanwas"
+    ref: "BW Boek 2 (hervorming 2018) — huwelijkscontract notarieel"
+    noot: "Civielrechtelijk geldig; fiscaal fictie art. 2.7.1.0.7 VCF (overgang behandeld als legaat)."
+  - onderwerp: "Levensverzekering — fictie + pro-rata-regel"
+    ref: "VCF art. 2.7.1.0.6 / W.Succ. art. 8"
+    noot: "Uitkering aan begunstigde = legaat; bij gemeenschap-financiering: 50 % belastbaar."
+  - onderwerp: "Vennootschap als planningsinstrument"
+    ref: "WVV (Wetboek van vennootschappen en verenigingen) + WIB 92"
+    noot: "Diepere behandeling in PO 3.0 (vennootschapsrecht) + PO 2.3 (vennootschapsbelasting). Hier alleen de fiscale logica."
+  - onderwerp: "Ruling Vlabel familiale onderneming"
+    ref: "VCF art. 3.22.0.0.1 e.v."
+    noot: "Voorafgaande beslissing bindt Vlabel voor beschreven feitenkader. Aanbevolen bij twijfel over familiale-vennootschap-kwalificatie."
+  - onderwerp: "Anti-misbruik"
+    ref: "VCF art. 3.17.0.0.2 / W.Reg. art. 18 § 2"
+    noot: "Vlabel/fiscus kan kunstmatige structuren herkwalificeren. Toepassing bij schijn-familiale-vennootschap of artificiële vruchtgebruik-splitsing."
+
+footer: "Leerstuk PO 2.6 — lstk 5 van 5 (synthese). Status: voorgesteld."

@@ -1,0 +1,282 @@
+# Leerstuk-script — erfbelasting + aangifte van nalatenschap
+#
+# PO 2.6, lstk 4 van 5. Techniek-leerstuk (zwaarst van het pakket): brengt
+# civielrechtelijk fundament (huwelijksvermogen + devolutie) samen met
+# fiscale techniek (grondslag, tarief, aangifte, fictiebepalingen). Werkt
+# de hypothetische overlijdens-aangifte van Filip De Wilde volledig door.
+
+meta:
+  slug: erfbelasting-en-aangifte-nalatenschap
+  titel: "Erfbelasting en aangifte van nalatenschap — devolutie, grondslag, tarief, procedure"
+  po: "2.6"
+  cluster: registratie-en-successierechten
+  voorbeeldgroep: de-wilde
+  beschrijving: >
+    Leerstuk PO 2.6 — het zwaarste leerstuk. Vijf vragen samen: wie erft
+    (devolutie hervormd erfrecht 2018), wat valt in de nalatenschap (bruto
+    actief min aannemelijk passief, gecorrigeerd voor huwelijksvermogen),
+    hoeveel belasting (gewest + tarief-schaal per erfgenaam-categorie),
+    hoe dien je aangifte (4-maand-termijn + aangifteplichtigen), en welke
+    fictiebepalingen breiden de grondslag uit?
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 2.6. Vermeld
+    dat dit leerstuk zwaarder is dan de vorige drie — vijf vragen samen
+    omdat ze didactisch onlosmakelijk zijn. De stagiair die alleen het
+    tarief kent zonder devolutie kan geen aangifte opstellen. Leerstukken
+    [[wat-zijn-registratie-en-successierechten]] (kader) +
+    [[registratieformaliteit-en-procedure]] (proces) zijn vooraf nodig.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: erfbelasting is een **gewestelijke heffing op de overgang van vermogen bij overlijden**. Drie kwesties moeten samenhangend beantwoord worden — wat valt in de nalatenschap (civiel + fiscaal), wie erft welk deel (devolutie), tegen welk tarief (per erfgenaam, per gewest)."
+    - "Tweede zin: de **aangifte van nalatenschap** is het procedurele instrument — binnen 4 maanden na overlijden in België (5 maanden bij overlijden in EU, 6 maanden daarbuiten), ingediend door de erfgenamen en algemene legatarissen, betaling binnen 2 maanden na verstrijken aangiftetermijn."
+    - "Derde zin: vijf **fictiebepalingen** breiden de grondslag uit — om planning-trucs in extremis te neutraliseren. Schenking < 3 jaar zonder registratie, levensverzekering aan overlevende echtgenoot of derde, beding van aanwas, sterfhuisclausule, schuldbekentenis aan erfgenaam."
+    - "Vierde zin: voor de accountant zit het zwaarste werk in **stap 1 (inventarisatie vermogen + huwelijksstelsel-toepassing)** en **stap 2 (aannemelijk-passief-classificering)** — de helft van examen-vragen test of de stagiair de juiste posten kan rangschikken volgens art. 27 + 33 W.Succ./VCF."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Stap", "Wat doe je?"]
+      rijen:
+        - ["1. Civiel kader", "Huwelijksstelsel + devolutie bepalen → wat valt in nalatenschap + wie erft"]
+        - ["2. Bruto actief", "Inventarisatie + waardering goederen erflater + helft gemeenschap"]
+        - ["3. Aannemelijk passief", "Schulden bestaand op overlijdens-dag + begrafeniskosten *(art. 27)* + uitzondering lening erfgenaam *(art. 33)*"]
+        - ["4. Fictie-bepalingen", "Schenking < 3 jaar zonder registratie · levensverzekering · beding van aanwas · sterfhuisclausule"]
+        - ["5. Bevoegd gewest + tarief", "Fiscale woonplaats erflater bepaalt VCF / W.Succ. — tarief progressief per erfgenaam"]
+        - ["6. Aangifte indienen", "4 maanden in België · 5/6 maanden Europa/buitenland · aangifteplichtigen art. 38"]
+  afsluiter: "Korte zin: 'We werken het hieronder in vijf secties uit, met de hypothetische overlijdens-aangifte van Filip De Wilde als doorlopende voorbeeldcase.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: civiel-fundament-uitgewerkt
+    titel: "Civielrechtelijk fundament — huwelijksvermogen + devolutie"
+    niveau: 2
+    beats:
+      - "Open: erfbelasting bouwt op civiel recht. Het examen straft hard wie 'snel naar tarief' wil zonder eerst de civiele basis vast te leggen. Twee kennisstromen moeten samenkomen — huwelijksvermogensrecht (BW Boek 2, hervorming 2018) bepaalt **wat in de nalatenschap valt**, erfrecht (BW Boek 4, hervorming 2018) bepaalt **wie erft welk deel**."
+      - "**Huwelijksvermogen — drie stelsels.** (a) **Wettelijk stelsel** (gemeenschap van aanwinsten + behoud eigen goederen) — geldt voor wie huwt zonder huwelijkscontract. Aanwinsten (arbeidsinkomsten, gemeenschappelijke aankopen) zijn gemeenschappelijk; goederen van vóór huwelijk + erfenissen + schenkingen nadien blijven eigen. (b) **Gemeenschap van alle goederen** — contractueel, alles gemeenschappelijk. (c) **Zuivere scheiding van goederen** — contractueel, niets gemeenschappelijk."
+      - "Toepassing op De Wilde (uit voorbeeldgroep): Filip + Lieve gehuwd 1988, wettelijk stelsel. Bij overlijden Filip wordt het gemeenschapsvermogen **eerst ontbonden** (helft naar Lieve als overlevende echtgenoot, helft in nalatenschap Filip); eigen goederen Filip (Tweede verblijf Knokke, 20 % aandelen via erfenis) gaan integraal in nalatenschap; eigen goederen Lieve blijven van haar."
+      - "Toon de tabel met **wat in de nalatenschap valt vs wat niet**. Cruciaal: de **helft van het gemeenschapsvermogen** komt in de nalatenschap — niet het geheel. Dit is een klassieke beginnersfout."
+      - "**Devolutie — hervormd erfrecht 2018.** Drie hoofdregels. (a) **Afstammelingen erven bij voorrang** (kinderen, dan kleinkinderen via plaatsvervulling, dan achterkleinkinderen). (b) **Overlevende echtgenoot** krijgt naast afstammelingen het **vruchtgebruik op de hele nalatenschap** (art. 4.50 BW oud / art. 4.196 BW nieuw). Afstammelingen krijgen de blote eigendom. Vruchtgebruik is gekapitaliseerd op basis van leeftijd-tabellen (Lebreton-tabel / Schryvers-tabel) voor de fiscale waardering. (c) **Bij afwezigheid van afstammelingen** erft de overlevende echtgenoot meer — volle eigendom met regels voor de zijlijn (ouders, broers, zussen)."
+      - "**Reservatair erfdeel.** Afstammelingen hebben een **wettelijke reserve** van de helft van de nalatenschap (BW hervorming 2018 — vroegere reserves voor ouders zijn afgeschaft). De andere helft is het 'beschikbaar deel' waarover de erflater testamentair vrij kan beschikken. Wie kinderen onterft tot beneden de reserve: testament wordt teruggebracht tot wat reservataire bescherming toelaat."
+      - "Toon de devolutie-schema voor De Wilde: Filip overlijdt zonder testament, 2 kinderen (Sofie + Stef) + overlevende echtgenoot Lieve. Lieve krijgt vruchtgebruik op de hele nalatenschap; Sofie + Stef krijgen elk de **helft van de blote eigendom**. Bij gezinswoning Antwerpen extra: vrijstelling erfbelasting voor overlevende echtgenoot art. 2.7.6.0.3 VCF (Vlaanderen) — Lieve betaalt 0 % op het volledige aandeel van Filip in de gezinswoning."
+      - "**Vier legataris-categorieën** (examen-favoriet). Een **testament** kan iemand niet-erfgenaam aanwijzen als legataris — vier kwalificaties met verschillende rechten + aangifteplichten. (1) **Algemeen legataris** — krijgt de hele nalatenschap (of het beschikbaar deel ervan). (2) **Legataris onder algemene titel** — krijgt een fractie (bv. 1/3) of een categorie goederen (bv. alle onroerend goed). (3) **Bijzondere legataris** — krijgt een specifiek goed (bv. 'mijn schilderij van Magritte aan Jan'). (4) **Wettelijke legataris** — bestond historisch voor de overlevende echtgenoot (vandaag geïntegreerd in wettelijke devolutie)."
+      - "Blockquote-aside: het verschil tussen de vier categorieën raakt **aangifteplicht**. Erfgenamen + algemene legatarissen + algemene begiftigden zijn aangifteplichtig (art. 38 W.Succ. / art. 3.3.1.0.5 VCF). Bijzondere legatarissen meestal niet — zij ontvangen hun specifieke goed en betalen erfbelasting op hun aandeel, maar de aangifte zelf wordt door de algemene erfgenamen ingediend. Een examenvraag uit 2014-1 testte dit precies — de student moest weten wie aangifteplichtig is bij een testament met meerdere legataris-types."
+    visualisaties:
+      - type: mermaid
+        ref: devolutie-filip-wilde
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Goed", "Stelsel-kwalificatie", "In nalatenschap Filip?"]
+        rijen:
+          - ["Gezinswoning Antwerpen", "Gemeenschap", "**Helft** *(225k)* → wel"]
+          - ["Tweede verblijf Knokke", "Eigen Filip *(erfenis 2010)*", "**Volledig** *(350k)* → wel"]
+          - ["Studio Brussel", "Gemeenschap", "**Helft** *(110k)* → wel"]
+          - ["20 % aandelen via erfenis 2010", "Eigen Filip", "**Volledig** *(~300k)* → wel"]
+          - ["40 % aandelen via aankoop", "Gemeenschap", "**Helft** *(~300k)* → wel"]
+          - ["Beleggingsportefeuille KBC", "Gemeenschap", "Helft *(250k)* → wel"]
+          - ["Tak 23 levensverzekering Filip", "Premies uit gemeenschap", "Fictie-bepaling *(zie verder)* → 50 % belastbaar"]
+          - ["Zicht- en spaarrekeningen", "Gemeenschap", "Helft *(20k)* → wel"]
+      - type: tabel-inline
+        kolommen: ["Legataris-categorie", "Wat krijgt hij?", "Aangifteplichtig?"]
+        rijen:
+          - ["**Erfgenaam *(wettelijke devolutie)***", "Volgens wettelijke regels (afstammelingen, echtgenoot, ouders, broers/zussen)", "**Ja**"]
+          - ["**Algemeen legataris**", "Hele nalatenschap (of beschikbaar deel)", "**Ja**"]
+          - ["**Legataris onder algemene titel**", "Fractie (1/3, 1/4) of categorie goederen", "Soms — afhankelijk van scope"]
+          - ["**Bijzondere legataris**", "Specifiek goed of bedrag", "**Nee** *(maar wel verschuldigd erfbelasting op zijn aandeel)*"]
+          - ["**Algemeen begiftigde** *(contractuele erfstelling)*", "Vergelijkbaar met algemeen legataris", "**Ja**"]
+
+  - id: bruto-actief-en-passief
+    titel: "Bruto actief min aannemelijk passief — wat staat erin?"
+    niveau: 2
+    beats:
+      - "Open: het netto-belastbaar bedrag = **bruto actief van de nalatenschap min aannemelijk passief**. Beide componenten verdienen apart aandacht — vooral het passief, omdat dat **klassieke examen-camouflage** is."
+      - "**Bruto actief — vijf componenten.** (1) **Eigen onroerend goed** van de erflater (verkoopwaarde op dag overlijden). (2) **Helft van het gemeenschappelijk onroerend goed** (huwelijksstelsel-bepaald). (3) **Roerend goed** — beleggingen, cash, voertuigen, kunst (waardering volgens marktwaarde of forfait). (4) **Aandelen + bedrijfsbelangen** — waardering volgens de werkelijke economische waarde. (5) **Vorderingen** (op derden, op vennootschappen, op familieleden). Sommige fictie-uitbreidingen volgen — werkt §3 hieronder uit."
+      - "**Waardering**: verkoopwaarde op datum overlijden. Voor onroerend goed: vrij gewaardeerd (in de praktijk: schattingsverslag of vergelijkbare verkoopprijzen). Voor effecten: beurskoers op dag overlijden of binnen een redelijke periode (15 dagen). Voor aandelen niet-genoteerd: substantie + DCF + multiples — terrein waar Vlabel kritisch is en waar de accountant verdedigingsstrategie opbouwt."
+      - "**Aannemelijk passief (art. 27 + 33 W.Succ. / art. 2.7.3.4.1 VCF) — de kern-camouflage.** Stelregel: alleen **schulden die bestonden op de dag van overlijden** zijn aftrekbaar, plus **begrafeniskosten** (zonder plafond). Schulden ontstaan **na** overlijden zijn géén passief — ze zijn een last van de erfgenamen, niet van de nalatenschap."
+      - "**Vier voorbeelden van WEL passief**: (1) openstaande hypothecaire lening op gezinswoning. (2) lopende facturen (energie, water, telecom) gefactureerd voor overlijden, betaald nadien. (3) belastingschulden voor overlijdens-jaar (PB + lokale belastingen) — die rusten op de erflater zelf. (4) begrafeniskosten + repatriëring + plechtigheid — art. 27 noemt deze expliciet."
+      - "**Vier voorbeelden van GEEN passief**: (1) **ereloon notaris voor opmaak attest van erfopvolging of aangifte van nalatenschap** — ontstaan **ná** overlijden. (2) **stookolie geleverd na overlijdens-datum** — geen schuld erflater. (3) **lening bij een erfgenaam** — verworpen door **art. 33, 1° W.Succ.** als anti-misbruik (ouders konden anders 'leningen' opzetten kort vóór overlijden). (4) **belasting op vermogen nadien** — N.v.t. tot 2026 in België."
+      - "**Cruciale uitzondering art. 33, 2° W.Succ. / VCF**: een **lening bij een erfgenaam** is **wél aannemelijk** als de lening **bestemd was voor verbetering van een nalatenschapsgoed** (verbouwing, renovatie). De wet wil legitieme onroerend-goed-investeringen tussen familie niet straffen."
+      - "Concretiseer met De Wilde-scenario `filip-overlijdt-hypothetisch`: vijf passief-posten getoetst. (1) Begrafeniskosten €9.500 — **AANGENOMEN**. (2) Lopende facturen €1.800 (gas/water gefactureerd voor overlijden) — **AANGENOMEN**. (3) Ereloon advocaat voor opmaak aangifte €3.500 — **NIET AANGENOMEN** (ontstaan ná). (4) Lening van zoon Stef €25.000 voor renovatie Knokke — **AANGENOMEN** op grond van art. 33, 2° (bestemming verbetering nalatenschapsgoed). (5) Stookolie €1.200 geleverd juli 2026 — **NIET AANGENOMEN** (na overlijden mei 2026)."
+      - "Toon de aannemelijk-passief-tabel volledig + reken bruto, passief, netto. Bruto De Wilde scenario = €1.645.000 (incl. fictie levensverzekering €90.000). Passief = €36.300. Netto-belastbaar = **€1.608.700** vóór tarief-toepassing."
+      - "Blockquote-aside: in examenvragen van 2008, 2013-1, 2014-1, 2015-1 zit elke keer een gemengde lijst van vijf-zes passief-posten waarvan er twee-drie te schrappen zijn. Het is **de** klassieke 2.6-camouflage. Tip: gebruik altijd het dubbele criterium 'bestond de schuld op overlijdens-dag?' + 'kennis art. 33 uitzonderingen?'. Niet één laatste vraag stellen — beide."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Filip overlijdt — passief-posten", "Bedrag", "Status art. 27 + 33", "Argument"]
+        rijen:
+          - ["Begrafeniskosten + repatriëring + plechtigheid", "€9.500", "**AANGENOMEN**", "Art. 27 — zonder plafond"]
+          - ["Lopende facturen (gas, water) gefactureerd vóór overlijden", "€1.800", "**AANGENOMEN**", "Schuld bestaand op overlijdens-dag"]
+          - ["Ereloon advocaat voor aangifte van nalatenschap", "€3.500", "**NIET AANGENOMEN**", "Ontstaan ná overlijden"]
+          - ["Lening van zoon Stef *(renovatie Knokke)*", "€25.000", "**AANGENOMEN**", "Uitzondering art. 33, 2° — bestemming verbetering nalatenschapsgoed"]
+          - ["Stookolie geleverd juli 2026", "€1.200", "**NIET AANGENOMEN**", "Levering na overlijden"]
+          - ["**Aannemelijk passief totaal**", "**€36.300**", "", ""]
+      - type: tabel-inline
+        kolommen: ["Filip nalatenschap-saldo", "Bedrag"]
+        rijen:
+          - ["Bruto actief *(incl. fictie levensverzekering €90.000)*", "**€1.645.000**"]
+          - ["Aannemelijk passief", "**−€36.300**"]
+          - ["**Netto belastbaar bedrag**", "**€1.608.700**"]
+
+  - id: tarief-en-bevoegd-gewest
+    titel: "Bevoegd gewest + tariefschalen — wie betaalt hoeveel?"
+    niveau: 2
+    beats:
+      - "Open: het gewest dat de erfbelasting heft = het gewest van **fiscale woonplaats van de erflater op de dag van overlijden** (art. 5/1 VCF + federaal analoog). De ligging van het vermogen of de woonplaats van de erfgenaam is niet beslissend. Bij verhuis korte tijd voor overlijden: meetdatum is 'voornaamste verblijfplaats in de laatste 5 jaar'."
+      - "Voor De Wilde: Filip heeft fiscale woonplaats Antwerpen sinds 1990 → bij overlijden 2026 toepassing **VCF (Vlaanderen)**. Dat geldt voor het hele vermogen — ook studio Brussel + (theoretisch) Waals onroerend. Brussel- of Wallonië-W.Succ. komt niet kijken."
+      - "**Vlaamse tariefschalen — drie categorieën.** (a) **Rechte lijn** (afstammelingen + echtgenoot + wettelijk samenwonende) — meest gunstig. Schalen 2026 (Cijferzakboekje): 3 % tot €50.000 / 9 % tussen €50.000-€250.000 / 27 % boven €250.000. **Per erfgenaam afzonderlijk** — Sofie en Stef worden niet samengeteld; elk een eigen aanslag. (b) **Broers en zussen** — minder gunstig. 25 % tot €75.000 / 30 % tot €125.000 / 55 % boven. (c) **Anderen** (vrienden, derden) — duurst. 25 % tot €75.000 / 45 % tot €125.000 / 55 % boven."
+      - "**Bijzondere tariefschalen.** (a) **Onroerend goed wordt apart belast** van roerend goed bij berekening per schijf (anti-progressie-stapeling). (b) **Gunstregime familiale onderneming bij erfopvolging** (art. 2.7.4.2.2 VCF): **3 %** rechte lijn / **7 %** anderen — i.p.v. progressieve schalen. Voorwaarden: familiale vennootschap, reële economische activiteit, continuïteit + participatie 3 jaar nadien. (c) **Vrijstelling gezinswoning overlevende echtgenoot** (art. 2.7.6.0.3 VCF): **0 %** op het deel gezinswoning naar overlevende echtgenoot — Lieve betaalt geen erfbelasting op de helft gezinswoning die ze van Filip krijgt."
+      - "**Brussel + Wallonië tariefschalen** (W.Succ.) — verschillen in detail. Brussel: 3 % tot €50k / 8 % tot €100k / 9 % tot €175k / 18 % tot €250k / 24 % tot €500k / 30 % boven (rechte lijn). Wallonië: 3-30 % progressief (rechte lijn). Geen vrijstelling gezinswoning zoals VCF; wel vermindering of abattement in beperkte mate."
+      - "Concretiseer De Wilde tarief-berekening (vereenvoudigd). Netto nalatenschap €1.608.700. Toedeling civiel: Lieve krijgt vruchtgebruik op alles + volle eigendom op gezinswoning-aandeel; Sofie + Stef krijgen elk blote eigendom op de helft van de rest. **Lieve**: gezinswoning-helft Filip €225.000 → 0 % VCF vrijstelling = €0. Vruchtgebruik op rest gekapitaliseerd (Lieve 60, kapitalisatiecoëfficiënt ~33 % volgens forfait) — rechte lijn tarief op gekapitaliseerd bedrag. **Sofie + Stef**: elk blote eigendom op (€1.608.700 − €225.000 − Lievenvruchtgebruik) / 2. Tarief rechte lijn 3 %/9 %/27 % per schijf. Voor aandelen De Wilde Bouw NV (€600.000 in nalatenschap): mogelijk gunstregime art. 2.7.4.2.2 VCF → **3 % vlak** i.p.v. progressief — als familiale vennootschap-voorwaarden voldaan blijven 3 jaar na overlijden."
+      - "Blockquote-aside: **per-erfgenaam-tarif vs nalatenschapstarief**. In Vlaanderen + Wallonië wordt erfbelasting per erfgenaam geheven (per persoon eigen schaal). In Brussel: per nalatenschap (één globale schaal). Implicatie: een nalatenschap van €600.000 verdeeld over 3 kinderen kost in Vlaanderen veel minder dan in Brussel — elke €200k aanslag valt in lage schijven."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Vlaamse erfbelasting tariefschijf", "Rechte lijn", "Broers/zussen", "Anderen"]
+        rijen:
+          - ["€0 — €50.000", "**3 %**", "25 %", "25 %"]
+          - ["€50.000 — €75.000", "**9 %**", "25 %", "25 %"]
+          - ["€75.000 — €125.000", "**9 %**", "30 %", "45 %"]
+          - ["€125.000 — €250.000", "**9 %**", "55 %", "55 %"]
+          - ["> €250.000", "**27 %**", "55 %", "55 %"]
+      - type: tabel-inline
+        kolommen: ["Bijzondere tariefregime VCF", "Tarief", "Voorwaarden"]
+        rijen:
+          - ["Gezinswoning → overlevende echtgenoot *(art. 2.7.6.0.3)*", "**0 %**", "Echtgenoot is overlevende; gezinswoning was hoofdverblijf"]
+          - ["Familiale onderneming bij erfopvolging *(art. 2.7.4.2.2)*", "**3 %** rechte lijn · **7 %** anderen", "Familiale venn., reële activiteit, continuïteit + participatie 3 jaar nadien"]
+          - ["Roerende schenking < 3 jaar zonder registratie", "Reguliere erfbelasting *(fictie)*", "Art. 2.7.1.0.5 VCF"]
+
+  - id: aangifte-van-nalatenschap
+    titel: "Aangifte van nalatenschap — termijn, aangifteplichtigen, sancties"
+    niveau: 2
+    beats:
+      - "Open: de aangifte van nalatenschap is **een aparte aangifte** met eigen termijnen + sancties — niet hetzelfde als de algemene registratiebelasting-formaliteit (lstk 3). Vier vragen: wie? wanneer? waar? wat als laattijdig?"
+      - "**Wie? Aangifteplichtigen** (art. 38 W.Succ. / art. 3.3.1.0.5 VCF): (1) **erfgenamen** — wettelijke + testamentaire; (2) **algemene legatarissen** — wie het hele beschikbaar deel krijgt; (3) **algemene begiftigden** — bij contractuele erfstelling. **Bijzondere legatarissen** zijn niet aangifteplichtig — zij worden belast op hun aandeel maar dragen niet de aangifte. **Hoofdelijke aansprakelijkheid**: de aangifte mag door één aangifteplichtige worden ondertekend met effect voor allen, maar elke aangifteplichtige is hoofdelijk aansprakelijk voor de juistheid."
+      - "**Wanneer? Termijnen** (art. 40 W.Succ. / art. 3.3.1.0.6 VCF). (a) **Overlijden in België**: **4 maanden** vanaf overlijdens-datum. (b) **Overlijden in een EU-lidstaat**: **5 maanden**. (c) **Overlijden buiten de EU**: **6 maanden**. Filip overlijdt 15 mei 2026 in België → aangifte uiterlijk **15 september 2026**."
+      - "**Termijnverlenging mogelijk** — moet aangevraagd worden bij Vlabel/FOD vóór verstrijken van de oorspronkelijke termijn. Toegekend bij bijzondere omstandigheden (complexe internationaal vermogen, vermissing erfgenamen, lopende rechtszaak rond legataris-kwalificatie). Niet routine — geen automatisme."
+      - "**Waar? Bevoegde administratie**: Vlabel (Vlaanderen) of FOD Financiën — Algemene Administratie van de Patrimoniumdocumentatie (Brussel/Wallonië). Online indienen of via gestandaardiseerd papier-formulier."
+      - "**Wat staat er in de aangifte?** Inventaris bruto actief + aannemelijk passief + verklaring fictie-bepalingen + identificatie aangifteplichtigen + huwelijksstelsel-verklaring + verklaring eerdere schenkingen < 3 jaar (al dan niet geregistreerd) + bij gunstregime familiale onderneming: verklaring + attest Vlabel (voor familiale vennootschap-kwalificatie)."
+      - "**Betaaltermijn (art. 77 W.Succ. / art. 3.10.4.4.1 VCF)**: erfbelasting moet betaald worden **binnen 2 maanden na verstrijken van de aangiftetermijn**. Filip-scenario: aangiftetermijn 15 september 2026 → **betaling uiterlijk 15 november 2026**. Bij betalingsmoeilijkheden — afbetalingsplan kan aangevraagd worden (renteloos voor beperkte termijn, daarna met nalatigheidsrente)."
+      - "**Sancties laattijdigheid.** (a) Laattijdige aangifte: belastingverhoging variërend van 10 % (lichte vertraging, goede trouw) tot 100 % (fraude) — art. 3.18.0.0.4 VCF. (b) Laattijdige betaling: nalatigheidsinteresten + eventuele dwanginvordering (beslag op nalatenschap-bestanddelen). (c) Onvolledige aangifte: na controle bijkomende aanslag + 50 % belastingverhoging klassiek."
+      - "Toon termijn-kompas voor Filip: overlijden 15 mei 2026 → aangifte 15 september → betaling 15 november. **6 maanden** beslaat het hele proces. De accountant orchestreert."
+      - "Blockquote-aside: een **opschortende voorwaarde** in een testament (bv. 'mijn zoon krijgt het gebouw als hij de naam draagt') schorst de heffing **niet** automatisch. De aangifte moet binnen termijn, met provisorische opname; bij realisatie of niet-realisatie volgt verrekening. Examenvraag 2014-1 testte dit precies — student moet weten dat termijn loopt, niet wacht op vervulling van de voorwaarde."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Termijn", "Wettelijk", "Filip-scenario *(overlijden 15 mei 2026)*"]
+        rijen:
+          - ["Aangifte indienen — overlijden in België", "**4 maanden** *(art. 40 W.Succ./3.3.1.0.6 VCF)*", "Uiterlijk **15 september 2026**"]
+          - ["Aangifte — overlijden in EU", "5 maanden", "n.v.t."]
+          - ["Aangifte — overlijden buiten EU", "6 maanden", "n.v.t."]
+          - ["Betaling erfbelasting", "**2 maanden** na aangiftetermijn *(art. 77 W.Succ./3.10.4.4.1 VCF)*", "Uiterlijk **15 november 2026**"]
+          - ["Termijnverlenging aangifte", "Op aanvraag — vóór termijn", "Filip-scenario: geen aanvraag nodig"]
+
+  - id: fictiebepalingen
+    titel: "Fictiebepalingen — de grondslag uitgebreid"
+    niveau: 2
+    beats:
+      - "Open: vijf **fictiebepalingen** breiden de belastbare grondslag uit naar verrichtingen **bij leven** die fiscaal worden behandeld alsof het overdrachten **bij overlijden** waren. Allemaal anti-misbruik: planning-trucs in extremis worden geneutraliseerd."
+      - "**Fictie 1 — Schenking < 3 jaar zonder registratie (art. 2.7.1.0.5 VCF / art. 7 W.Succ.).** Een schenking gedaan binnen 3 jaar vóór overlijden, **zonder dat de schenkbelasting werd betaald** (= niet geregistreerd), wordt voor de erfbelasting beschouwd als legaat. Doel: voorkomen dat ouders kort vóór overlijden 'snel' alles wegschenken via handgift om de erfbelasting te ontwijken."
+      - "**Implicatie voor planning**: schenking **registreren binnen 4 maanden** (schenkbelasting betalen) → fictie speelt niet, het goed verlaat de toekomstige nalatenschap definitief. Schenking **niet registreren** (puur handgift + aangetekende brief) → moet 3 jaar overleven, anders alsnog erfbelasting. **Hier ligt een planning-trade-off** die in [[successieplanning-en-gunstregime]] uitgewerkt wordt."
+      - "**Fictie 2 — Levensverzekering aan begunstigde (art. 2.7.1.0.6 VCF / art. 8 W.Succ.).** Uitkering van een levensverzekering bij overlijden van de verzekerde aan een aangeduide begunstigde wordt voor de erfbelasting **als legaat van de erflater aan de begunstigde** beschouwd. Reden: zonder fictie zou een Tak 21/23-verzekering een belasting-vrije vermogensoverdracht zijn buiten de nalatenschap om."
+      - "**Pro-rata-regel**: alleen het deel dat met gemeenschapsvermogen werd gefinancierd is fictief belast — 50 % bij wettelijk stelsel. Voor Filip-scenario: Tak 23 reserve €180.000, premies uit gemeenschap → **50 % = €90.000** wordt als legaat aan Lieve beschouwd in de aangifte. Lieve is rechte lijn → tarief progressief, maar mogelijk vrijstelling gezinswoning kicke. Niet automatisch — moet expliciet in aangifte."
+      - "**Fictie 3 — Beding van aanwas (art. 2.7.1.0.7 VCF).** Wanneer twee echtgenoten of partners contractueel afspreken dat bij overlijden van één van hen het gemeenschappelijk goed (typisch onroerend) volledig overgaat naar de overlevende (i.p.v. aan de erfgenamen), wordt dit civielrechtelijk geldig — maar fiscaal behandeld alsof het overgenomen aandeel een legaat is. Anti-misbruik tegen ontwijking van het erfdeel van de kinderen + de erfbelasting."
+      - "**Fictie 4 — Sterfhuisclausule (art. 2.7.1.0.7 VCF, deels overlappend).** Een variant van het beding van aanwas, contractueel ingeschreven in een huwelijkscontract bij ziekte van één echtgenoot. De goederen van de zieke echtgenoot vallen onmiddellijk bij overlijden van die echtgenoot aan de gezonde, zonder dat dat als 'gewone' nalatenschap geldt. Fiscaal: als legaat beschouwd voor de erfbelasting."
+      - "**Fictie 5 — Schuldbekentenis aan erfgenaam (art. 33 W.Succ. / art. 2.7.3.4.1 VCF).** Reeds vermeld in §2 over passief — als anti-misbruik: een 'schuldbekentenis' kort vóór overlijden waarbij de overledene zogezegd geld leende van een erfgenaam wordt **niet als passief erkend**. Uitzondering art. 33, 2°: lening met bestemming verbetering nalatenschapsgoed = wél aftrekbaar."
+      - "Toon de fictie-tabel met de vijf gevallen + Filip-toepassing."
+      - "Blockquote-aside: fictiebepalingen zijn **examen-favoriet** omdat ze het verschil tonen tussen civielrechtelijke vorm en fiscale realiteit. De student die alleen burgerlijk recht heeft, ziet de schenking 'definitief uit het patrimonium'; de fiscalist ziet de 3-jaars-radar nog tikken. Inzicht in beide perspectieven is voor de accountant essentieel — dat is precies wat de adviesvraag van de cliënt vraagt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Fictie", "Wat wordt belast?", "Wetsbasis VCF", "De Wilde-toepassing"]
+        rijen:
+          - ["Schenking < 3 jaar zonder registratie", "Geschonken goed = fictief legaat", "Art. 2.7.1.0.5", "Schenking aandelen 2018 aan Sofie was geregistreerd → fictie speelt niet"]
+          - ["Levensverzekering aan begunstigde", "Uitkering pro rata = fictief legaat", "Art. 2.7.1.0.6", "Tak 23 €180k → 50 % (€90k) belastbaar als legaat aan Lieve"]
+          - ["Beding van aanwas", "Overgang aandeel onverdeeld goed", "Art. 2.7.1.0.7", "Filip-Lieve hebben geen beding van aanwas — niet van toepassing"]
+          - ["Sterfhuisclausule", "Idem — variant huwelijkscontract", "Art. 2.7.1.0.7", "Niet van toepassing"]
+          - ["Schuldbekentenis aan erfgenaam", "Lening = geen passief tenzij verbetering goed", "Art. 33 W.Succ. / 2.7.3.4.1 VCF", "Lening Stef €25k = AANGENOMEN (uitzondering — renovatie Knokke)"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    type_blokken: warning-bullets
+    beats:
+      - "Valkuil 1 (⚠️): **Helft gemeenschapsvermogen vergeten af te trekken**. Bij overlijden van Filip is alleen de **helft** van de gemeenschapsgoederen in zijn nalatenschap — niet het geheel. Studio Brussel staat voor €220.000 op tafel; nalatenschap-aandeel Filip = €110.000. Student die het geheel optelt zit op het dubbele en betaalt fictief erfbelasting op vermogen dat al naar Lieve gaat als overlevende echtgenoot. Eerste check bij elke aangifte: **welk stelsel + helft eraf**."
+      - "Valkuil 2 (⚠️): **Ereloon notaris/advocaat voor de aangifte als passief inschrijven**. Klassieke camouflage. Het ereloon ontstaat **ná** overlijden = geen schuld van de erflater. Geen aftrek. Examenvragen 2008, 2013-1, 2014-1, 2015-1 testen dit elke keer. Cijfers van rond €3.000-€5.000 worden 'plausibel' in een lijstje gezet — student moet ze schrappen."
+      - "Valkuil 3 (⚠️): **Fictiebepaling levensverzekering vergeten in te schrijven**. De Tak 21/23-uitkering aan de overlevende echtgenoot komt **niet automatisch** in de aangifte — de aangifteplichtige moet expliciet pro rata vermelden (50 % bij gemeenschap-financiering). Vlabel/FOD kan achteraf bij controle vaststellen + bijkomende aanslag + 50 % belastingverhoging. Voorkomen: bij elk overlijden polis-overzicht opvragen."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: successieplanning-en-gunstregime
+      hint: "Hoe je erfbelasting kunt beperken via planning bij leven — testament, schenking, huwelijkscontract, levensverzekering + gunstregime familiale onderneming. Synthese-leerstuk dat op dit techniek-leerstuk bouwt."
+    - slug: registratierechten-vastgoed
+      hint: "Schenking onroerend bij leven (schenkbelasting) als alternatief voor erfbelasting bij overlijden — dezelfde progressieve schalen, andere triggermomenten."
+    - slug: registratieformaliteit-en-procedure
+      hint: "Bezwaarprocedure als de aanslag erfbelasting verkeerd is — ruling bij twijfel over gunstregime familiale onderneming."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — tabel passief-posten + tariefschalen + fictie-overzicht + termijn-kompas."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [erfbelasting, aangifte-nalatenschap]
+    - concepten: [erfrecht, huwelijksvermogensrecht]
+    - concepten: [levensverzekering-successieplanning, gunstregime-familiale-onderneming]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Bevoegd gewest erfbelasting"
+    ref: "VCF art. 5/1 (Vlaanderen) + analoge federale regel voor W.Succ. Brussel/Wallonië"
+    noot: "Fiscale woonplaats erflater op dag overlijden; bij verhuis < 5 jaar: voornaamste verblijfplaats in laatste 5 jaar."
+  - onderwerp: "Huwelijksvermogensrecht — hervorming 2018"
+    ref: "BW Boek 2 — wet 22 juli 2018 (in werking 1.9.2018)"
+    noot: "Wettelijk stelsel = gemeenschap van aanwinsten + behoud eigen goederen. Federaal — geldt identiek in alle drie gewesten."
+  - onderwerp: "Erfrecht — hervorming 2018"
+    ref: "BW Boek 4 — wet 31 juli 2017 (in werking 1.9.2018)"
+    noot: "Reservataire erfgenaam = afstammelingen (helft van nalatenschap); overlevende echtgenoot krijgt vruchtgebruik op hele nalatenschap naast afstammelingen (art. 4.50 oud / 4.196 nieuw)."
+  - onderwerp: "Bruto actief + aannemelijk passief"
+    ref: "W.Succ. art. 15 (actief) + art. 27 (passief) + art. 33 (uitzondering lening erfgenaam) / VCF art. 2.7.3.x"
+    noot: "Schulden bestaand op dag overlijden + begrafeniskosten. Uitzondering art. 33, 2°: lening van erfgenaam voor verbetering nalatenschapsgoed."
+  - onderwerp: "Tariefschalen erfbelasting Vlaanderen"
+    ref: "VCF art. 2.7.4.1.1 (rechte lijn) · art. 2.7.4.2.1 (anderen)"
+    noot: "Schalen rechte lijn 3 % / 9 % / 27 %. Bedragen in Cijferzakboekje. Brussel + Wallonië: eigen W.Succ.-schalen."
+  - onderwerp: "Vrijstelling gezinswoning overlevende echtgenoot"
+    ref: "VCF art. 2.7.6.0.3"
+    noot: "100 % vrijstelling op deel gezinswoning dat naar overlevende echtgenoot toekomt. Vlaamse vrijstelling — Brussel + Wallonië beperkter."
+  - onderwerp: "Gunstregime familiale onderneming bij erfopvolging"
+    ref: "VCF art. 2.7.4.2.2"
+    noot: "3 % rechte lijn / 7 % anderen i.p.v. progressief. Voorwaarden: familiale venn., reële economische activiteit, continuïteit + participatie 3 jaar nadien."
+  - onderwerp: "Aangifte van nalatenschap — termijn"
+    ref: "W.Succ. art. 40 / VCF art. 3.3.1.0.6"
+    noot: "4 maanden overlijden in België; 5 maanden EU; 6 maanden buiten EU. Termijnverlenging mogelijk op aanvraag vóór verstrijken."
+  - onderwerp: "Aangifteplichtigen"
+    ref: "W.Succ. art. 38 / VCF art. 3.3.1.0.5"
+    noot: "Erfgenamen + algemene legatarissen + algemene begiftigden. Hoofdelijk aansprakelijk voor juistheid."
+  - onderwerp: "Betaaltermijn erfbelasting"
+    ref: "W.Succ. art. 77 / VCF art. 3.10.4.4.1"
+    noot: "2 maanden na verstrijken aangiftetermijn. Afbetalingsplan mogelijk."
+  - onderwerp: "Fictie schenking < 3 jaar zonder registratie"
+    ref: "VCF art. 2.7.1.0.5 / W.Succ. art. 7"
+    noot: "Schenking gedaan binnen 3 jaar vóór overlijden zonder schenkbelasting → behandeld als legaat."
+  - onderwerp: "Fictie levensverzekering"
+    ref: "VCF art. 2.7.1.0.6 / W.Succ. art. 8"
+    noot: "Uitkering bij overlijden van verzekerde aan begunstigde = legaat voor erfbelasting; pro-rata-regel voor financiering uit gemeenschap."
+  - onderwerp: "Fictie beding van aanwas + sterfhuisclausule"
+    ref: "VCF art. 2.7.1.0.7"
+    noot: "Contractuele aanwas-clausules tussen echtgenoten/partners: overgang behandeld als legaat."
+  - onderwerp: "Belastingverhoging laattijdige aangifte"
+    ref: "VCF art. 3.18.0.0.4 + uitvoeringsbesluiten"
+    noot: "10-100 % afhankelijk van mate goede trouw + herhaling + fraude."
+
+footer: "Leerstuk PO 2.6 — lstk 4 van 5 (techniek 3, zwaarst). Status: voorgesteld."

@@ -1,0 +1,226 @@
+# Leerstuk-script — registratierechten op vastgoed
+#
+# PO 2.6, lstk 2 van 5. Techniek-leerstuk (mid-zwaar): vier evenredige
+# rechten (verkoop · verdeel · hypotheek · schenking-onroerend) op één rij,
+# met grondslag-logica art. 45-46, minimum-regels art. 48/49, abattement
+# eigen woning + verlaagde tarieven, drie gewesten in vergelijking.
+# Voedt lstk 3 (formaliteit per akte) en lstk 5 (schenking onroerend
+# als planning-instrument).
+
+meta:
+  slug: registratierechten-vastgoed
+  titel: "Welke registratierechten treffen welke vastgoed-transactie?"
+  po: "2.6"
+  cluster: registratie-en-successierechten
+  voorbeeldgroep: de-wilde
+  beschrijving: >
+    Leerstuk PO 2.6 — vier evenredige registratierechten op vastgoed
+    (verkoop · verdeel · hypotheek · schenking-onroerend) naast elkaar
+    uitgewerkt: grondslag-logica, minimumregels bij blote eigendom /
+    vruchtgebruik, abattement + verlaagd tarief eigen woning, en
+    vergelijking van Vlaanderen, Brussel en Wallonië.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 2.6. Vermeld
+    dat de stagiair eerst [[wat-zijn-registratie-en-successierechten]] gelezen
+    moet hebben — die geeft de koepel + de drie gewesten + de civiele basis.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: vier evenredige rechten treffen een vastgoed-akte — verkooprecht (overdracht aan derde), verdeelrecht (uittreding uit onverdeeldheid tussen mede-eigenaars), hypotheekrecht (vestiging hypotheek), schenkrecht (kosteloze overdracht). De grondslag is steeds een verkoopwaarde of bedongen prijs; alleen het tarief verschilt."
+    - "Tweede zin: het juiste tarief volgt drie keuze-assen — (a) welk type verrichting? (verkoop ≠ verdeling ≠ hypotheek ≠ schenking), (b) welk gewest? (Vlaanderen 12 % / Brussel 12,50 % / Wallonië 12,50 %), (c) gunstregime van toepassing? (2 % verlaagd VCF eigen woning, abattement €200.000 Brussel, klein-beschrijf 5 % Wallonië)."
+    - "Derde zin: voor de stagiair zijn cijfers uit het hoofd geen examenvereiste — ze staan in het Cijferzakboekje. Wél: weten welk recht in welke situatie speelt + de grondslag correct kunnen bepalen (volle eigendom ≠ blote eigendom ≠ massa) + de gunstregime-voorwaarden herkennen."
+    - "Vierde zin: vier klassieke valkuilen om in dit leerstuk te vermijden — (1) verdeelrecht verwarren met verkooprecht bij uitkoop mede-eigenaar, (2) abattement vragen op blote eigendom (uitgesloten), (3) minimum-grondslag art. 48 vergeten bij vruchtgebruik-voorbehoud, (4) tarief-keuze maken zonder gewestelijke ligging vast te stellen."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Recht", "Wanneer?", "Vlaams tarief", "Brussels tarief", "Waals tarief"]
+      rijen:
+        - ["**Verkooprecht**", "Overdracht onroerend goed aan derde", "12 % (2 % enige eigen woning)", "12,50 % (abattement €200.000)", "12,50 % (klein-beschrijf 5 %)"]
+        - ["**Verdeelrecht**", "Uittreding uit onverdeeldheid (broers/scheiding)", "2,5 %", "1 %", "1 %"]
+        - ["**Hypotheekrecht**", "Vestiging hypotheek", "1 %", "1 %", "1 %"]
+        - ["**Schenkrecht onroerend** *(rechte lijn)*", "Onroerende schenking aan kind/echtgenoot", "3-9-18-27 % progressief", "2-5,4-12-24 % progressief", "3-9-18-24 % progressief"]
+  afsluiter: "Korte zin: 'We werken hieronder eerst de vier rechten op één rij uit, dan de grondslag-logica, dan abattement + verlaagd tarief, dan verdeelrecht-mechaniek, en sluiten af met een synthese-tabel en accountant-perspectief.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vier-rechten-op-een-rij
+    titel: "Vier rechten op één rij — wat treffen ze en wanneer?"
+    niveau: 2
+    beats:
+      - "Open met de stelregel die de student het meest helpt: één onroerend goed, vier mogelijke heffingen, ze sluiten elkaar uit (per verrichting speelt er één). De vraag is dus altijd: welk type verrichting? Daaruit volgt het recht."
+      - "**Verkooprecht** treft overdrachten **aan een derde** — koper buiten de familie- of mede-eigendomskring. Tarief is gewest-bepaald (12 % VCF / 12,50 % W.Reg.). Verkooprecht is altijd ten laste van de **koper** (art. 35 W.Reg.; art. 2.9.1.0.1 VCF) — verkoper draagt het niet, tenzij contractueel afgesproken."
+      - "**Verdeelrecht** treft de **uittreding van een mede-eigenaar uit een onverdeeldheid**. Twee broers erven samen een huis → één koopt de andere uit = verdeelrecht. Een scheidende echtgenoot neemt de gezinswoning over = verdeelrecht. Het is een **familie-of-onverdeeldheids-recht**, geen koop. Tarief beduidend lager: VCF 2,5 %; Brussel/Wallonië 1 %."
+      - "**Hypotheekrecht** treft de **vestiging van een hypotheek** — niet de overdracht van het goed, maar het vestigen van een zakelijke zekerheid erop. Tarief 1 % (alle drie gewesten) op het hypothecair ingeschreven bedrag. Meestal in dezelfde notariële akte met de aankoop, maar conceptueel een aparte heffing."
+      - "**Schenkrecht onroerend** treft de **kosteloze overdracht onder levenden** van een onroerend goed. Progressief tarief per schijf, met onderscheid rechte lijn (kinderen, kleinkinderen, echtgenoot, samenwonende partner) versus anderen (broers, zussen, vrienden). Hier ligt het regimeverschil tussen de gewesten het sterkst — Vlaanderen heeft sterk verlaagd 'roerende schenking' (3-7 % vlak) maar voor onroerende schenkingen blijft het progressief."
+      - "Concretiseer met De Wilde-scenario's: (a) Filip + Lieve verkopen studio Brussel aan derde voor €240.000 = verkooprecht Brussel 12,50 %. (b) Filip + broer waren in onverdeeldheid op vakantieverblijf Knokke — broer koopt Filip uit voor €280.000 (massa €560.000) = verdeelrecht Vlaanderen 2,5 % op massa, niet verkooprecht op de helft. (c) Filip neemt een hypothecaire lening van €150.000 op gezinswoning = hypotheekrecht 1 % = €1.500."
+      - "Synthese (vetgedrukt): bepaal eerst het **type verrichting** (verkoop · verdeling · hypotheek · schenking), dan het **gewest** (ligging van het goed), dan het **gunstregime**. Pas dan reken je."
+    visualisaties:
+      - type: mermaid
+        ref: beslisboom-vier-rechten
+        bron: voorbeeldgroep
+
+  - id: grondslag-logica
+    titel: "De grondslag-logica — verkoopwaarde, prijs, of minimum?"
+    niveau: 2
+    beats:
+      - "Open: nu het type-recht vaststaat, komt de tweede vraag — **waarop reken je het tarief?** De wet hanteert één algemene regel + twee minimum-regels die als anti-misbruik-vangnetten dienen."
+      - "**Algemene regel (art. 45-46 W.Reg./art. 2.9.3.0.1 VCF):** grondslag = de **bedongen prijs en lasten**, met als **minimum** de **verkoopwaarde van het overgedragen goed**. In gewone gevallen (volle eigendom, normale marktwaarde) is bedongen prijs = verkoopwaarde, dus rekent de fiscus op de prijs. Als de prijs aantoonbaar onder de marktwaarde ligt (bv. familie-verkoop tegen vriendenprijs), wordt op de verkoopwaarde geheven — het verschil heet 'tekortschatting'."
+      - "**Bijzondere regel art. 48 W.Reg. / art. 2.9.3.0.6 VCF** — verkoop van **blote eigendom met voorbehoud vruchtgebruik door de vervreemder**. Grondslag = **verkoopwaarde van de volle eigendom**, niet alleen van de blote eigendom. Reden: de overdrager houdt vruchtgebruik over voor zichzelf; de fiscus weigert dat hij de heffing zou ontwijken door alleen de blote eigendom over te dragen tegen een lagere som."
+      - "**Bijzondere regel art. 49 W.Reg.** — verkoop van blote eigendom **waarbij vruchtgebruik door een derde gevestigd is** (niet voorbehouden door de vervreemder). Grondslag = volle eigendom **min de forfaitaire waarde van het vruchtgebruik volgens art. 47**. Hier mag wél een aftrek toegepast worden, omdat de vervreemder zelf geen rechten meer behoudt."
+      - "Toon de tabel met de drie grondslag-regimes. Concretiseer met De Wilde mini-case: Filip + Lieve overwegen blote eigendom aan te kopen + De Wilde Bouw NV koopt vruchtgebruik 10 jaar — toepassing art. 49 want vruchtgebruik door derde (vennootschap). Volle waarde €400.000 / blote eigendom betaling €280.000. Grondslag voor blote-eigendom-koper Filip+Lieve = €400.000 min forfaitaire waarde vruchtgebruik."
+      - "Blockquote-aside: de minimum-regels bestaan om 'splitsings-trucs' te neutraliseren. Klassieke planning: ouders kopen blote eigendom + vennootschap koopt vruchtgebruik → ouders krijgen volle eigendom bij einde vruchtgebruik. Zonder minimum-regel zouden ze de heffing op de helft betalen. Met art. 48 of 49 vermindert het belastingvoordeel of verdwijnt het. Anti-misbruik (art. 3.17.0.0.2 VCF / art. 18 § 2 W.Reg.) kan daar bovenop nog kicken — herkwalificatie als geheel-eigendom-aankoop indien geen niet-fiscale motieven aantoonbaar."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Situatie", "Grondslag", "Wetsbasis"]
+        rijen:
+          - ["Verkoop volle eigendom aan derde", "Bedongen prijs (min. = verkoopwaarde)", "Art. 45-46 W.Reg. / art. 2.9.3.0.1 VCF"]
+          - ["Verkoop blote eigendom — vruchtgebruik voorbehouden door vervreemder", "Verkoopwaarde **volle eigendom** *(geen aftrek)*", "Art. 48 W.Reg. / art. 2.9.3.0.6 VCF"]
+          - ["Verkoop blote eigendom — vruchtgebruik door derde gevestigd (niet voorbehouden)", "Volle eigendom **min** forfait vruchtgebruik *(wel aftrek)*", "Art. 49 W.Reg."]
+          - ["Verdeling onverdeeldheid", "Verkoopwaarde van de **volledige massa** *(niet alleen het overgedragen aandeel)*", "Art. 109 W.Reg. / art. 2.10.1.0.1 VCF"]
+
+  - id: abattement-en-verlaagd-tarief
+    titel: "Abattement Brussel + verlaagd tarief Vlaanderen — eigen woning"
+    niveau: 2
+    beats:
+      - "Open: koper die zijn **enige + eigen + hoofdverblijfplaats** koopt, krijgt in elk gewest een fiscale gunst — maar via drie verschillende mechanismen die elkaar niet spiegelen."
+      - "**Vlaanderen — verlaagd tarief art. 2.9.4.2.11 VCF (sinds 2022).** Verkooprecht zakt van 12 % naar **2 %** voor de enige eigen woning. Voorwaarden: (a) **enige** woning (geen ander onroerend in volle eigendom in bezit op moment akte, met overgangstermijn 2 jaar); (b) **eigen** (natuurlijke persoon, niet via vennootschap); (c) **hoofdverblijfplaats** vestigen binnen 3 jaar na akte + behouden minstens 5 jaar. Bij ingrijpende energetische renovatie of monumentale waarde: nog verder naar **1 %**. Voorwaarden zijn cumulatief en moeten in de akte vermeld worden."
+      - "**Brussel — abattement art. 46bis W.Reg.** Vermindering van de **grondslag met €200.000** (niet van het tarief). Effect: koper betaalt 12,50 % × (prijs − 200.000) in plaats van 12,50 % × prijs. Voorwaarden: natuurlijke persoon, geheelheid in volle eigendom, hoofdverblijfplaats binnen 2 jaar na akte, behouden minstens 5 jaar. Anders dan VCF: geen 'enige' woning-vereiste, wel 'geheelheid in volle eigendom' — splitsing met vennootschap zou abattement uitsluiten."
+      - "**Wallonië — klein-beschrijf 5 % (W.Reg. + decreet).** Verminderd tarief voor 'bescheiden woning' (kadastraal inkomen onder een drempel, woning hoofdverblijf). Tarief 5 % i.p.v. 12,50 %. Beperkter dan VCF — niet alle starters profiteren."
+      - "Concretiseer met De Wilde: Sofie + Tom kopen appartement Gent voor €380.000 als hoofdverblijfplaats. **Eerste hoofdverblijfplaats** voor Sofie. Verkooprecht standaard: 12 % × 380.000 = €45.600. Met verlaagd tarief 2 %: 2 % × 380.000 = €7.600. Besparing **€38.000** — substantieel."
+      - "Concretiseer met De Wilde — Brusselse vergelijking: koper studio Brussel (€240.000) is 28-jarige werknemer die er gaat wonen → abattement art. 46bis kan worden gevraagd. Grondslag = €240.000 − €200.000 = €40.000. Verkooprecht 12,50 % × 40.000 = €5.000 in plaats van €30.000 zonder abattement. Besparing **€25.000**."
+      - "Toon de drie gewesten naast elkaar in vergelijkingstabel. Onderstreep: per gewest een **andere techniek** (tarief verlagen vs grondslag verminderen) maar het effect is breeduit gericht op koper-stimulering."
+      - "**Examen-favoriete valkuil**: abattement Brussel vragen op een **blote-eigendomsaankoop**. Art. 46bis vereist 'geheelheid in volle eigendom' — splitsing met vruchtgebruik (door vennootschap of derde) sluit het abattement uit. Idem voor het Vlaamse verlaagd tarief 2 %: de koper moet er hoofdverblijfplaats vestigen, en als hij alleen blote eigendom heeft, kan dat juridisch maar moeilijk."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["", "**Vlaanderen** *(verlaagd tarief)*", "**Brussel** *(abattement op grondslag)*", "**Wallonië** *(klein-beschrijf)*"]
+        rijen:
+          - ["Mechanisme", "Tarief 12 % → **2 %**", "Grondslag − **€200.000**", "Tarief 12,50 % → **5 %**"]
+          - ["Kernvoorwaarde 1", "Enige woning *(geen ander VE-vastgoed)*", "Geheelheid in volle eigendom *(geen splitsing)*", "Bescheiden KI *(onder drempel)*"]
+          - ["Kernvoorwaarde 2", "Hoofdverblijfplaats binnen 3 jaar", "Hoofdverblijfplaats binnen 2 jaar", "Hoofdverblijf"]
+          - ["Behoudstermijn", "5 jaar", "5 jaar", "5 jaar"]
+          - ["Tarief renovatie", "**1 %** bij ingrijpende energetische renovatie of monument", "Geen verdere verlaging", "Cumulatie met andere stimuli (decreten)"]
+          - ["Wetsbasis", "Art. 2.9.4.2.11 VCF", "Art. 46bis W.Reg. (Brusselse versie)", "W.Reg. + Waals decreet"]
+      - type: tabel-inline
+        kolommen: ["Sofie's aankoop Gent (€380.000)", "Berekening", "Verkooprecht"]
+        rijen:
+          - ["Zonder gunstregime", "12 % × 380.000", "**€45.600**"]
+          - ["Met VCF 2 %", "2 % × 380.000", "**€7.600** *(besparing €38.000)*"]
+          - ["Met VCF 1 % bij energetische renovatie", "1 % × 380.000", "**€3.800** *(besparing €41.800)*"]
+
+  - id: verdeelrecht-mechaniek
+    titel: "Verdeelrecht — wanneer 1 % / 2,5 % i.p.v. 12 %?"
+    niveau: 2
+    beats:
+      - "Open met het examen-favoriet onderscheid: bij uittreding van een mede-eigenaar **kan** je beneden de €560.000 op €14.000 of op €33.600 uitkomen — vijfvoudig verschil. De keuze is geen optie maar juridisch bepaald door **de aard van de overdracht**."
+      - "Stelregel: **verdeelrecht** speelt zodra een onverdeeldheid wordt opgeheven door uittreding van een mede-eigenaar tegen vergoeding aan zijn voormalige mede-eigenaar(s). **Verkooprecht** speelt zodra een mede-eigenaar zijn aandeel verkoopt aan iemand **buiten** de onverdeeldheid."
+      - "Concretiseer De Wilde mini-case: bij overlijden vader Filip (2010) erfden Filip + zijn broer elk **de helft** van vakantieverblijf Knokke (toen waarde €560.000). In 2016 koopt **Filip de helft van zijn broer uit** voor €280.000 — bedongen prijs. Dit is **verdeling** (Filip blijft mede-eigenaar; broer treedt uit). Grondslag = **massa €560.000**, tarief 2,5 % VCF = **€14.000**."
+      - "Contrast: zou Filip's broer zijn aandeel hebben verkocht aan **een derde** (vrienden, een vennootschap, een buurman) → verkooprecht 12 % VCF op het overgedragen aandeel (€280.000) = **€33.600** + geen abattement (geen hoofdverblijfplaats van koper)."
+      - "**Cruciale grondslag-regel art. 109 W.Reg. / art. 2.10.1.0.1 VCF**: het verdeelrecht wordt geheven op de **massa-waarde** (de volledige verkoopwaarde van het onverdeelde goed), niet alleen op het overgedragen aandeel. Reden: de blijvende mede-eigenaar versterkt zijn positie naar 'volle eigendom' — fiscaal wordt dat als één-keer-geheven beschouwd op het totale goed."
+      - "Drie gewesten naast elkaar: VCF 2,5 % / Brussel 1 % / Wallonië 1 %. Vlaanderen is duurder maar nog steeds vijf keer goedkoper dan verkooprecht. Ligging van het goed bepaalt — Filip's broer-uitkoop betreft Knokke (Vlaams) → VCF 2,5 %. Was het een Brusselse onverdeeldheid geweest → W.Reg. 1 % op massa."
+      - "Blockquote-aside: het verdeelrecht is een **familie-recht** in oorsprong — historisch ontwikkeld om erfenis-verdelingen niet zwaarder te belasten dan nodig (anders zou elke uitkoop tussen broers exorbitant duur worden). Bij scheidings-vastgoed werkt het analoog: één ex-partner neemt de gezinswoning over tegen vergoeding aan de ander = verdeling. Tarief volgt het gewest van ligging."
+      - "**Examen-valkuil**: 'Filip verkoopt zijn aandeel aan zijn broer' suggereert verkoop, maar juridisch is het verdeling want broer was al mede-eigenaar. Lees de feiten: was de overdragende partij al mede-eigenaar van de overnemer? Ja → verdeling. Nee → verkoop."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["De Wilde Knokke — verschillende scenario's", "Grondslag", "Vlaams tarief", "Bedrag"]
+        rijen:
+          - ["Filip koopt broer uit *(verdeling)*", "Massa €560.000", "2,5 %", "**€14.000**"]
+          - ["Broer verkoopt aan derde *(verkoop)*", "Aandeel €280.000", "12 % *(geen hoofdverblijf koper)*", "**€33.600**"]
+          - ["Derde koopt heel verblijf na uitkoop *(verkoop volle eigendom)*", "Verkoopwaarde €560.000", "12 % *(geen hoofdverblijf)*", "€67.200"]
+          - ["Filip koopt broer uit *(scenario Brussel — hypothetisch)*", "Massa €560.000", "1 %", "**€5.600**"]
+
+  - id: synthese-en-accountant-perspectief
+    titel: "Synthese — vier rechten + accountant-perspectief"
+    niveau: 2
+    beats:
+      - "Open: dit leerstuk heeft vier rechten + drie gewesten + drie grondslag-regimes + drie gunstregime-mechanismen geactiveerd. De student onthoudt drie dingen."
+      - "**Eén — typologie eerst.** Bepaal het type verrichting (verkoop · verdeling · hypotheek · schenking-onroerend) vóór je een tarief opzoekt. Een verkeerde typologie geeft een vijfvoudig fout antwoord."
+      - "**Twee — gewest tweede.** Het gewest volgt **de ligging van het goed** (registratierechten) — niet de woonplaats van koper of verkoper. Filip met fiscale woonplaats Antwerpen die studio Brussel verkoopt valt onder W.Reg. (BHG)."
+      - "**Drie — gunstregime is voorwaardelijk.** Abattement of verlaagd tarief vereist precieze voorwaarden in de akte. Zonder vermelding in de akte → geen gunstregime. Zonder hoofdverblijfplaats binnen termijn → terug-verschuldigd recht + boetes."
+      - "Voor de accountant: dit leerstuk komt vooral terug bij **vastgoed-transacties van cliënten** (aankoop, scheidings-uittreding, schenking aandelen-via-onroerend-tussenstap) en bij **scenario-vergelijking** ('moet ik schenken of verkopen aan mijn kind?'). De accountant rekent niet altijd zelf het exacte tarief (Cijferzakboekje volstaat) — wél bewaakt hij dat de juiste regelvraag wordt gesteld vóór de notaris de akte verlijdt."
+      - "Vooruitblik: in [[registratieformaliteit-en-procedure]] werken we uit **welke akten** moeten geregistreerd worden en **binnen welke termijn** — proces-as i.p.v. tarief-as. In [[successieplanning-en-gunstregime]] keert de schenking-onroerend-belasting terug als planning-instrument (schenking met voorbehoud van vruchtgebruik + gunstregime familiale vennootschap voor aandelen)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Recht", "Wanneer?", "Grondslag-regel", "Gunstregime?"]
+        rijen:
+          - ["Verkooprecht", "Verkoop aan derde", "Bedongen prijs *(min = verkoopwaarde)*", "VCF 2 %/1 % · Brussel abattement · Wallonië klein-beschrijf"]
+          - ["Verdeelrecht", "Uittreding mede-eigenaar", "Massa van het goed", "Geen specifiek gunstregime"]
+          - ["Hypotheekrecht", "Hypotheekvestiging", "Hypothecair ingeschreven bedrag", "Geen"]
+          - ["Schenkrecht onroerend", "Onroerende schenking", "Verkoopwaarde van het geschonken goed", "Gunstregime familiale onderneming *(aandelen, geen vastgoed)*"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    type_blokken: warning-bullets
+    beats:
+      - "Valkuil 1 (⚠️): **Verkooprecht heffen op een uitkoop tussen mede-eigenaars**. Filip koopt broer uit = verdeling (2,5 %), geen verkoop (12 %). Lees: was de overdragende partij al mede-eigenaar van de overnemer? Ja → verdeling. Een student die hier verkeerd typologeert, betaalt vijf keer meer."
+      - "Valkuil 2 (⚠️): **Abattement of verlaagd tarief vragen op blote eigendom**. Art. 46bis W.Reg. en art. 2.9.4.2.11 VCF eisen 'geheelheid in volle eigendom' / 'eigen woning' — splitsing met vennootschap of derde-vruchtgebruiker sluit het gunstregime uit. Cliënt-advies: 'als je het regime wil, koop dan volle eigendom of niets'. (Zie De Wilde mini-case `blote-eigendom-met-vennootschap`.)"
+      - "Valkuil 3 (⚠️): **Minimum-grondslag art. 48 vergeten bij blote-eigendom-koop met voorbehoud vruchtgebruik door vervreemder**. Koper denkt 'ik betaal alleen de blote eigendom, dus de heffing volgt' — fout. Grondslag = volle eigendom-waarde. Bij art. 49 (vruchtgebruik door derde gevestigd) mag wel een aftrek volgens forfait art. 47 — twee verschillende regimes, klassieke verwarring."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: registratieformaliteit-en-procedure
+      hint: "De proces-as: welke akten moet je registreren, binnen welke termijn, met welke sancties — en de command/sterkmaking-techniek."
+    - slug: erfbelasting-en-aangifte-nalatenschap
+      hint: "Van leven naar overlijden — devolutie, nalatenschap-grondslag, aangifte van nalatenschap, tarieven + fictiebepalingen."
+    - slug: successieplanning-en-gunstregime
+      hint: "Schenking als planning-instrument + gunstregime familiale onderneming — keuze schenken nu vs erven later."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — vergelijkingstabel drie gewesten + abattement-voorwaarden + grondslag-regels."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [verkooprecht, verdeelrecht, hypotheekrecht]
+    - concepten: [schenkbelasting, registratie-en-successierechten]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verkooprecht — algemeen tarief"
+    ref: "W.Reg. art. 44 (Brussel/Wallonië 12,50 %) · VCF art. 2.9.4.1.1 (Vlaanderen 12 %)"
+    noot: "Ten laste van de koper (art. 35 W.Reg. / art. 2.9.1.0.1 VCF)."
+  - onderwerp: "Verlaagd tarief enige eigen woning (Vlaanderen)"
+    ref: "VCF art. 2.9.4.2.11 (2 % sinds 2022; 1 % bij ingrijpende energetische renovatie of monument)"
+    noot: "Cumulatieve voorwaarden: enige + eigen + hoofdverblijf binnen 3 jaar + behouden ≥ 5 jaar."
+  - onderwerp: "Abattement eigen woning (Brussel)"
+    ref: "W.Reg. art. 46bis (Brusselse versie — vermindering grondslag €200.000)"
+    noot: "Voorwaarden: natuurlijke persoon, geheelheid in volle eigendom, hoofdverblijf binnen 2 jaar, behouden ≥ 5 jaar."
+  - onderwerp: "Grondslag verkooprecht — algemene regel"
+    ref: "W.Reg. art. 45-46 / VCF art. 2.9.3.0.1"
+    noot: "Bedongen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen goed."
+  - onderwerp: "Minimum-grondslag blote eigendom met voorbehoud vruchtgebruik door vervreemder"
+    ref: "W.Reg. art. 48 / VCF art. 2.9.3.0.6"
+    noot: "Grondslag = verkoopwaarde **volle eigendom**, geen aftrek voor het voorbehouden vruchtgebruik."
+  - onderwerp: "Grondslag blote eigendom met vruchtgebruik door derde gevestigd"
+    ref: "W.Reg. art. 49 (forfait vruchtgebruik volgens art. 47)"
+    noot: "Wél aftrek volgens forfait — verschil met art. 48 is wezenlijk."
+  - onderwerp: "Verdeelrecht — tarief + grondslag"
+    ref: "W.Reg. art. 109 (Brussel/Wallonië 1 %) · VCF art. 2.10.1.0.1 (belastbaar feit) + art. 2.10.4.0.1 (Vlaanderen 2,5 % tarief; 1 % bij verdeling tussen ex-echtgenoten/ex-wett. samenwoners)"
+    noot: "Grondslag = volledige verkoopwaarde van het onverdeelde goed (massa), niet alleen het overgedragen aandeel."
+  - onderwerp: "Hypotheekrecht"
+    ref: "W.Reg. art. 87 e.v. / VCF art. 2.11.4.0.1"
+    noot: "1 % op het hypothecair ingeschreven bedrag, alle drie gewesten."
+  - onderwerp: "Schenkbelasting onroerend goed — progressieve tarieven"
+    ref: "VCF art. 2.8.4.1.1 (Vlaanderen — schalen rechte lijn 3-9-18-27 % en andere 10-20-30-40 %) · W.Reg. art. 131 (Brussel + Wallonië, eigen schalen)"
+    noot: "Voor het gunstregime familiale onderneming (0 % schenking aandelen Vlaanderen): zie [[successieplanning-en-gunstregime]]."
+  - onderwerp: "Antimisbruik fiscaal"
+    ref: "VCF art. 3.17.0.0.2 / W.Reg. art. 18 § 2"
+    noot: "Fiscus kan herkwalificeren bij ontbreken niet-fiscale motieven — relevant bij blote-eigendom-vennootschap-splitsing."
+
+footer: "Leerstuk PO 2.6 — lstk 2 van 5 (techniek 1, mid-zwaar). Status: voorgesteld."

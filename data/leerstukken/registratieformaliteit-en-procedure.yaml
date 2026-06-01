@@ -1,0 +1,208 @@
+# Leerstuk-script — registratieformaliteit en procedure
+#
+# PO 2.6, lstk 3 van 5. Proces-leerstuk (mid-licht): welke akten moeten
+# (verplicht of vrijwillig) geregistreerd worden, binnen welke termijn, met
+# welke sancties? Plus procedure-trucs (command/sterkmaking) en
+# vertegenwoordiging Vlabel/FOD (bezwaar, ruling). Voedt lstk 4 (waar
+# aangifte van nalatenschap een aparte procedurele lijn vormt).
+
+meta:
+  slug: registratieformaliteit-en-procedure
+  titel: "Registratieformaliteit en procedure — welke akten, welke termijnen, welke trucs?"
+  po: "2.6"
+  cluster: registratie-en-successierechten
+  voorbeeldgroep: de-wilde
+  beschrijving: >
+    Leerstuk PO 2.6 — de proces-as van registratierechten. Welke akten
+    moeten verplicht geregistreerd worden, welke vrijwillig? Welke termijnen
+    + sancties bij laattijdigheid? De command/sterkmakings-techniek voor
+    compromis-koop. En de vertegenwoordigings-rol van de accountant bij
+    bezwaar of ruling tegenover Vlabel of FOD Financiën.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar minicursus PO 2.6. Vermeld
+    dat [[wat-zijn-registratie-en-successierechten]] de heffingen + spelers
+    geeft, en [[registratierechten-vastgoed]] de tarieven en grondslagen.
+    Hier gaat het over **proces** — welke akte, welke termijn, welke
+    handeling.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: registratie is **een formaliteit met dubbele functie** — fiscaal (heffen) en juridisch (vaste datum + bewijskracht). Niet elke akte moet, niet elke akte mag niet — er is een precieze grens."
+    - "Tweede zin: drie categorieën van akten — (a) **verplicht** registreerbaar (notariële akten over onroerend goed, schenkingen, akten over hypotheek), (b) **vrijwillig** registreerbaar (onderhandse akten waar partijen vaste datum willen), (c) **niet onderworpen** (commerciële contracten zonder onroerend-goed-component)."
+    - "Derde zin: termijnen zijn strikt. **15 dagen** voor authentieke akten (notarieel) — door notaris bewaakt. **4 maanden** voor onderhandse akten van vastgoed-overdracht. **Eerste werkdag na compromis** voor aanwijzing van lastgever — kortste fatale termijn van het Wetboek."
+    - "Vierde zin: twee procedure-trucs verdienen aandacht — (1) **command + sterkmaking** (aanwijzing van lastgever) bij compromis-koop, en (2) **ruling-aanvraag** bij Vlabel of DVB (federaal) om vooraf zekerheid te krijgen over gunstregime-toepassing. Plus de bezwaarprocedure als achteraf de aanslag verkeerd is."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Akte", "Verplicht registreren?", "Termijn"]
+      rijen:
+        - ["Notariële akte verkoop onroerend goed", "Ja (verplicht)", "15 dagen vanaf akte"]
+        - ["Notariële akte schenking", "Ja", "15 dagen"]
+        - ["Onderhandse akte verkoop onroerend goed (compromis)", "Ja", "4 maanden vanaf akte"]
+        - ["Onderhandse akte huur > 9 jaar", "Ja", "4 maanden"]
+        - ["Aanwijzing van lastgever (command)", "Ja", "**Eerste werkdag na compromis** *(fatale termijn)*"]
+        - ["Aangifte van nalatenschap *(aparte lijn — zie lstk 4)*", "Ja", "4 maanden vanaf overlijden in België"]
+        - ["Onderhandse handelsovereenkomst zonder onroerend", "Vrijwillig", "Geen *(als men vaste datum wenst)*"]
+  afsluiter: "Korte zin: 'We werken hieronder vier onderdelen uit — welke akten + termijnen, sancties, command-techniek, en vertegenwoordiging.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: welke-akten-welke-termijn
+    titel: "Welke akten moet je registreren — en wanneer?"
+    niveau: 2
+    beats:
+      - "Open: het Wetboek der registratierechten (W.Reg.) noemt zelf de **lijst van verplicht registreerbare akten** (art. 19 e.v.). De Vlaamse Codex Fiscaliteit volgt deze logica voor de Vlaamse component. Drie hoofdcategorieën leven naast elkaar."
+      - "**Categorie 1 — Authentieke akten (notarieel of door overheidsambtenaar verleden).** Alle notariële akten over onroerend goed (verkoop, schenking, hypotheek, ruil, inbreng), schenkingsakten van roerende goederen ten overstaan van een notaris, en akten van vennootschap (oprichting, statutenwijziging, kapitaalverhoging) zijn verplicht registreerbaar binnen **15 dagen** (art. 32 W.Reg. / art. 3.12.3.0.1 VCF). De notaris bewaakt deze termijn — hij is solidair aansprakelijk voor het recht (art. 35 W.Reg.)."
+      - "**Categorie 2 — Onderhandse akten met vastgoed-component.** Een onderhandse verkoopovereenkomst (compromis) waarbij vastgoed wordt overgedragen, een huurcontract > 9 jaar, een onderhandse schenking — verplicht registreren binnen **4 maanden** vanaf de akte (art. 32 W.Reg.). Het compromis triggert het verkooprecht; de latere notariële akte van levering wordt afgerekend tegen het reeds betaalde recht."
+      - "**Categorie 3 — Vrijwillige registratie.** Onderhandse contracten zonder onroerend-goed-component (zakelijke contracten, schuldbekentenissen, samenlevingsovereenkomsten) mogen worden geregistreerd als de partijen vaste datum + bewijskracht wensen. Tarief = vast recht (€50). Geen verplichting — geen sanctie bij niet-registratie, alleen verlies van vaste datum."
+      - "Concretiseer De Wilde: (a) verkoop studio Brussel via notariële akte → 15 dagen registratietermijn, notaris bewaakt. (b) compromis met aanwijzing van lastgever (zie verder) → eerste werkdag voor de aanwijzingsakte, dan notariële akte binnen 15 dagen. (c) handgift roerend (cash schenking aan kinderen door overschrijving + aangetekende brief 'pacte adjoint') → géén verplichte registratie, vrijwillig mogelijk om de 3-jaar-fictiebepaling te omzeilen (zie lstk 4)."
+      - "Blockquote-aside: de termijn loopt **vanaf de datum van de akte**, niet vanaf de levering of de notariële datum-vaststelling. Een compromis van 5 april = termijn loopt vanaf 5 april. Notariële akten van die zelfde verkoop later zijn een afzonderlijke termijn (15 dagen vanaf datum notariële akte). Twee aparte tellers — beide moeten gerespecteerd zijn voor risicovrije aflevering."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Categorie", "Voorbeeld", "Termijn", "Wie bewaakt?"]
+        rijen:
+          - ["Authentieke akte onroerend", "Notariële verkoopakte gezinswoning", "**15 dagen** vanaf akte", "Notaris *(solidair aansprakelijk)*"]
+          - ["Authentieke akte schenking", "Notariële schenkingsakte ouders → kinderen", "15 dagen", "Notaris"]
+          - ["Authentieke akte vennootschap", "Oprichtingsakte BV / NV", "15 dagen", "Notaris"]
+          - ["Onderhandse akte vastgoed", "Compromis verkoop appartement", "**4 maanden** vanaf akte", "Partijen *(meestal koper)*"]
+          - ["Onderhandse akte huur > 9 jaar", "Handelshuur 27 jaar", "4 maanden", "Partijen"]
+          - ["Aanwijzing van lastgever", "Akte van command na compromis", "**Eerste werkdag na compromis** *(fataal)*", "Partijen *(en notaris bij authentieke akte)*"]
+          - ["Vrijwillig", "Onderhandse leningsovereenkomst", "*(geen termijn)*", "Partijen op eigen initiatief"]
+
+  - id: sancties-bij-laattijdigheid
+    titel: "Sancties — wat als je een termijn mist?"
+    niveau: 2
+    beats:
+      - "Open: een gemiste termijn betekent niet 'geen registratie' — het betekent registratie **mét** boete + nalatigheidsinteresten. Soms ook verlies van een gunstregime. De accountant moet weten wat hier op het spel staat."
+      - "**Boete bij laattijdige registratie.** Klassiek: 100 % van het recht (oud W.Reg. art. 41bis) of een belastingverhoging variërend van 10 % (eerste overtreding goede trouw) tot 200 % (herhaling of frauduleus opzet) onder de moderne procedure. In VCF: art. 3.18.0.0.4 (verhoging bij niet-aangifte of laattijdige aangifte). De Vlaamse en federale schaal verschillen in detail — het algemene principe is identiek."
+      - "**Nalatigheidsinteresten.** Op het verschuldigde recht + boete loopt nalatigheidsrente vanaf de wettelijke vervaldag. Tarief: marktconform, jaarlijks aangepast. Bij hoge bedragen tikt het snel op."
+      - "**Verlies van gunstregime.** Sommige gunstregimes (verlaagd tarief eigen woning, abattement, gunstregime familiale onderneming) hangen aan termijnen + voorwaarden die in de akte vermeld moeten zijn. Niet-tijdige registratie of niet-vermelding van het gunstregime → terugkeer naar standaardtarief + verschuldigde verhoging. Niet altijd reparabel."
+      - "**Solidaire aansprakelijkheid (notaris + partijen).** Bij notariële akten: notaris is solidair aansprakelijk voor het recht (art. 35 W.Reg.). Bij onderhandse akten: alle ondertekenende partijen zijn hoofdelijk aansprakelijk — de fiscus kan kiezen wie hij vervolgt. In praktijk wordt de koper vervolgd (hij draagt het recht economisch), maar juridisch staat de verkoper er ook voor."
+      - "Concretiseer met De Wilde — hypothetisch scenario: studio Brussel verkocht in compromis 1 maart 2026 zonder dat partijen registreren. Notariële levering pas in oktober 2026. Termijn 4 maanden compromis verloopt 1 juli → fiscus heft verkooprecht 12,50 % × €240.000 = €30.000 + boete (10-50 %) + interesten. Een gemiste 4-maanden-termijn op een gemiddelde aankoop kost al snel **€5.000 tot €15.000 extra**."
+      - "Blockquote-aside: voor de accountant is dit **belangrijker dan tariefkennis**. Een cliënt belt zelden met 'wat is mijn verkooprecht?' (notaris weet dat) — wél met 'we zijn dit vergeten te registreren, wat nu?'. De adviseur kent het regularisatie-pad: ofwel snel registreren met boete-aanvaarding, ofwel een bezwaarschrift opbouwen indien sprake van overmacht of dwaling."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Termijn gemist", "Belastingverhoging", "Aanvullende gevolgen"]
+        rijen:
+          - ["15 dagen authentieke akte", "10-50 % afhankelijk van mate goede trouw + herhaling", "Notaris-aansprakelijkheid in praktijk eerste; civiele regress mogelijk"]
+          - ["4 maanden onderhandse akte vastgoed", "10-100 % belastingverhoging + interesten", "Koper meestal vervolgd; bij oneerlijkheid hoger"]
+          - ["Eerste werkdag command (aanwijzing van lastgever)", "Geen boete — gunstregime command **vervalt**", "Tweemaal verkooprecht *(compromis + aanwijzing als wederverkoop)* — zie verder"]
+          - ["Vrijwillige registratie *(geen termijn)*", "N.v.t.", "Verlies van vaste datum bij niet-registratie; geen fiscale sanctie"]
+
+  - id: command-en-sterkmaking
+    titel: "De command-techniek — koop met aanwijzing van lastgever"
+    niveau: 2
+    beats:
+      - "Open met het scenario dat het examen herhaaldelijk testte: een onderneming wil een goed kopen maar wil dat niet meteen vertonen aan de verkoper (om prijsverhoging te vermijden) of nog beslissen wie uiteindelijk koper wordt. Oplossing: **iemand anders sluit het compromis** met een clausule 'voor zichzelf of een later aan te wijzen persoon'. Pas in een latere akte (aanwijzing van lastgever, ook 'akte van command' of 'déclaration de command' in Franstalige notarissen) wordt de uiteindelijke koper bekendgemaakt."
+      - "**Wettelijke basis**: art. 158, 1° W.Reg. (federaal — Brussel/Wallonië) / art. 2.9.6.0.1 VCF (Vlaanderen). De techniek bestaat al lang en wordt veel gebruikt — typisch door makelaars, immobiliënvennootschappen, holdings."
+      - "**Drie cumulatieve voorwaarden** waaraan de command-techniek moet voldoen om fiscaal als één-keer-registreerbaar te worden behandeld: (a) **voorbehoud in het compromis** — de clausule 'voor zichzelf of een later aan te wijzen persoon' moet expliciet in het compromis staan, niet later toegevoegd. (b) **authentieke akte van aanwijzing** — de aanwijzing zelf moet bij authentieke akte gebeuren (notaris). (c) **termijn — let op gewest**: voor Vlaanderen + federaal (art. 158 W.Reg. / art. 2.9.6.0.1 VCF) = uiterlijk de **eerste werkdag** na het compromis; voor Brussel + Wallonië (art. 159, 1°, b W.Reg.) = uiterlijk de **vijfde werkdag** na het compromis. Eerst checken waar de goederen liggen vóór je de termijn invult."
+      - "**Wat gebeurt bij naleving?** Aanwijzingsakte = vast recht (€50). De verkoopakte zelf (van verkoper → aangewezen lastgever) wordt evenredig belast — verkooprecht éénmaal. **Totaal**: één verkooprecht + €50."
+      - "**Wat gebeurt bij niet-naleving (één voorwaarde gemist)?** De fiscus behandelt de aanwijzing als een **wederverkoop** (eerste van Joris naar zichzelf via compromis + tweede van Joris naar de aangewezen partij). Resultaat: **tweemaal verkooprecht**. Bij een aankoop van €320.000 in Vlaanderen: in plaats van €38.400 wordt het **€76.800**."
+      - "Concretiseer met De Wilde-scenario `compromis-met-sterkmaking`: De Wilde Bouw NV wil aanpalend terrein kopen voor €320.000. Filip vraagt zijn neef Joris (zonder band met de NV) een compromis te sluiten op vrijdag 5 april 2026, mét clausule. Aanwijzingsakte ten gunste van De Wilde Bouw NV verlijden op **maandag 8 april** (eerste werkdag na vrijdag) — voorwaarde (c) net gehaald. Eindbedrag: €38.400 + €50 vast recht."
+      - "**Klassieke valstrik**: compromis op vrijdag → uiterlijk **maandag** (eerste werkdag, niet zaterdag) authentieke akte + registratie/betekening. Als Joris het pas op woensdag verlijdt → termijn gemist → tweemaal verkooprecht. Onverhoorbaar: geen sanering achteraf mogelijk. Mini-case `command-termijn-gemist` in voorbeeldgroep documenteert dit."
+      - "Blockquote-aside: de term **'sterkmaking'** (Franstalig: 'porte-fort') is **niet hetzelfde** als command. Sterkmaking = iemand belooft dat een derde een akte zal ratificeren (art. 1120 oud BW / 5.106 nieuw BW). Command = iemand sluit voor zichzelf met clausule voor later aan te wijzen persoon. Beide worden vaak verward in examenvragen — een sterkmakings-akte volgt een ander fiscaal regime (typisch wederverkoop indien geratificeerd door derde)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Wat moet gebeuren?", "Termijn", "Tarief"]
+        rijen:
+          - ["1. Compromis met clausule", "Joris (lastgever) sluit compromis met verkoper — clausule 'voor zichzelf of later aan te wijzen persoon' verplicht", "Datum compromis = startdatum", "n.v.t. (compromis zelf nog niet geregistreerd)"]
+          - ["2. Authentieke akte van aanwijzing", "Joris wijst De Wilde Bouw NV aan als lastgever bij notariële akte", "**Eerste werkdag na compromis** *(fataal)*", "**€50 vast recht**"]
+          - ["3. Akte van verkoop verkoper → De Wilde Bouw NV", "Notariële verkoopakte verlijdt aan de aangewezen lastgever", "15 dagen", "**Verkooprecht éénmaal** *(12 % × €320.000 = €38.400)*"]
+          - ["**Totaal bij naleving**", "", "", "**€38.450**"]
+          - ["**Totaal bij gemiste termijn (c)**", "Aanwijzing = wederverkoop → twee transacties belast", "", "**€76.800** *(2 × verkooprecht)*"]
+
+  - id: vertegenwoordiging-bezwaar-ruling
+    titel: "Vertegenwoordiging — bezwaar, ruling, minnelijk overleg"
+    niveau: 2
+    beats:
+      - "Open: de accountant treedt op als **gemandateerde** tegenover Vlabel (Vlaanderen) of FOD Financiën (Brussel/Wallonië). Drie procedure-instrumenten beheersen — bezwaar achteraf, ruling vooraf, minnelijk overleg."
+      - "**Bezwaarschrift** — instrumenteel rechtsmiddel tegen een aanslag waarmee men niet akkoord gaat. Termijn: **3 maanden** vanaf de verzending van het aanslagbiljet (art. 3.5.1.0.4 VCF / art. 215 W.Succ. + analoge regels W.Reg.). Vorm: schriftelijk, gemotiveerd, ingediend bij Vlabel (Vlaams) of bij de bevoegde dienst van de FOD Financiën (federaal). De gemandateerde accountant kan namens de cliënt ondertekenen — mandaat moet expliciet zijn (volmacht of advies-overeenkomst die het opneemt)."
+      - "**Ruling-aanvraag (voorafgaande beslissing)** — vraagt vóór een verrichting zekerheid over de fiscale behandeling. Twee bevoegde instanties: (a) **DVB** (Dienst Voorafgaande Beslissingen — federaal) voor federale belastingen + W.Reg./W.Succ. in Brussel/Wallonië; (b) **Vlabel** heeft eigen ruling-procedure voor VCF-materies. Termijn van behandeling: typisch 3 maanden. Een positieve ruling bindt de administratie voor het beschreven feitenkader."
+      - "**Wanneer is een ruling nuttig?** Bij complexe verrichtingen met substantiële fiscale impact — gunstregime familiale onderneming (geldt mijn onderneming als 'familiale vennootschap'? halen we de continuïteitsvoorwaarden?), inbreng vastgoed in vennootschap (anti-misbruik?), gesplitste aankoop met voorbehoud vruchtgebruik (herkwalificatie-risico?), schenking met last (gevolgen voor 3-jaar-fictie?)."
+      - "**Minnelijk overleg + waarderingsdiscussie**. Voor waarderingsgeschillen (vastgoed-aanslag te hoog volgens cliënt) bestaat een **minnelijk overleg-procedure**: vraag aan de administratie om de waardering te herzien aan de hand van een tegenexpertise. Slaagt het niet → gerechtelijk via fiscale rechtbank."
+      - "Voor de accountant: dit type werk vraagt **dossier-discipline**. Elk gesprek met Vlabel/FOD wordt gedocumenteerd. Alle relevante feiten (huwelijksstelsel, eerdere schenkingen, fiscale woonplaats, akteverwijzingen) moeten geverifieerd worden — een bezwaarschrift dat steunt op een verkeerd feit valt automatisch om."
+      - "Blockquote-aside: de **belastingprocedure** zit grotendeels in **PO 2.4** (controleprocedures, bezwaar, gerechtelijk fase). Het 2.6-specifieke deel is hier: de accountant kent de **inhoudelijke argumenten** rond registratie- of erfbelasting-geschillen (waardering, gunstregime-toepassing, fictie-bepalingen) — en weet welk loket (Vlabel of FOD) competent is. De volledige procedure-leer leeft elders in het programma."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Instrument", "Wanneer?", "Termijn", "Bevoegd loket"]
+        rijen:
+          - ["Bezwaarschrift", "Na aanslag — niet akkoord", "**3 maanden** vanaf aanslagbiljet", "Vlabel *(VCF)* · FOD Financiën *(W.Reg./W.Succ.)*"]
+          - ["Ruling-aanvraag", "Vóór verrichting — zekerheid gewenst", "Behandeling ~3 maanden", "DVB *(federaal)* · Vlabel *(VCF)*"]
+          - ["Minnelijk overleg waardering", "Waarderings-geschil onroerend", "Per dossier", "Vlabel of FOD"]
+          - ["Gerechtelijke fase", "Na afwijzing bezwaar", "3 maanden voor dagvaarding", "Rechtbank van eerste aanleg *(fiscale kamer)*"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    type_blokken: warning-bullets
+    beats:
+      - "Valkuil 1 (⚠️): **De command-termijn 'eerste werkdag' verkeerd interpreteren**. Vrijdag-compromis → maandag (de zaterdag telt niet, geen werkdag). Dinsdag-compromis → woensdag. Bij feestdag opletten. De fout 'aanwijzing op woensdag bij vrijdag-compromis' kost direct het dubbele recht — zie mini-case `command-termijn-gemist`."
+      - "Valkuil 2 (⚠️): **Vrijwillige registratie verwarren met verplichte**. Een onderhandse leningsovereenkomst tussen vader en kind is **niet verplicht** registreerbaar — registratie is alleen om vaste datum te bekomen. Maar een **schenking** van vader aan kind (hand-tot-hand) zonder authentieke akte: ook geen verplichting, maar **wel zwaar aangeraden** om de 3-jaar-fictiebepaling te omzeilen (zie [[erfbelasting-en-aangifte-nalatenschap]] en [[successieplanning-en-gunstregime]])."
+      - "Valkuil 3 (⚠️): **Geen mandaat = geen bezwaar**. De gemandateerde accountant moet expliciet gemachtigd zijn — volmacht of opdracht-overeenkomst die fiscale vertegenwoordiging vermeldt. Een bezwaarschrift door een 'consultant' zonder mandaat wordt door Vlabel/FOD geweigerd. Belangrijk om dit vroeg in de cliëntrelatie te regelen."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: erfbelasting-en-aangifte-nalatenschap
+      hint: "Naast de registratie-formaliteit bestaat de **aangifte van nalatenschap** — eigen procedure met 4-maanden-termijn, eigen aangifteplichtigen, eigen sancties."
+    - slug: successieplanning-en-gunstregime
+      hint: "Veel planningsinstrumenten hangen aan **formele voorwaarden** (registratie, voorbehoud in akte, ruling-bevestiging) — zonder formaliteit valt het gunstregime weg."
+    - slug: registratierechten-vastgoed
+      hint: "Tarief- en grondslag-detail voor de evenredige rechten — terug-link wanneer een procedureel argument een tariefkwestie raakt."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — termijn-kompas + command-flow + bezwaar-pad."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [registratieformaliteit-akten, registratie-en-successierechten]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Verplichte registratie + termijnen authentieke akten"
+    ref: "W.Reg. art. 19 + art. 32 / VCF art. 3.12.3.0.1"
+    noot: "Authentieke akten over onroerend goed, schenkingen, vennootschap: 15 dagen vanaf akte."
+  - onderwerp: "Termijn onderhandse akten vastgoed-overdracht"
+    ref: "W.Reg. art. 32, 4° (4 maanden) — analoge VCF-bepaling"
+    noot: "Compromis, onderhandse schenking, huur > 9 jaar: 4 maanden."
+  - onderwerp: "Aanwijzing van lastgever (command/déclaration de command)"
+    ref: "W.Reg. art. 158, 1° / VCF art. 2.9.6.0.1"
+    noot: "Drie cumulatieve voorwaarden: voorbehoud in compromis, authentieke aanwijzingsakte, registratie uiterlijk de eerste werkdag na compromis. Bij niet-naleving: wederverkoop → tweemaal verkooprecht."
+  - onderwerp: "Solidaire aansprakelijkheid notaris"
+    ref: "W.Reg. art. 35"
+    noot: "Notaris is solidair aansprakelijk voor het verkooprecht bij notariële akten."
+  - onderwerp: "Belastingverhoging bij laattijdige aangifte/registratie (Vlaanderen)"
+    ref: "VCF art. 3.18.0.0.4 + uitvoeringsbesluiten"
+    noot: "Verhoging variërend van 10 % (eerste overtreding goede trouw) tot 200 % (herhaling/fraude)."
+  - onderwerp: "Nalatigheidsinteresten"
+    ref: "VCF art. 3.9.2.0.1 / federaal: KB Wetboek W.Reg."
+    noot: "Op het verschuldigde recht + boete vanaf wettelijke vervaldag."
+  - onderwerp: "Bezwaarprocedure Vlabel"
+    ref: "VCF art. 3.5.1.0.4 (termijn 3 maanden vanaf aanslagbiljet)"
+    noot: "Schriftelijk, gemotiveerd, bij Vlabel. Bij afwijzing → gerechtelijk via fiscale rechtbank."
+  - onderwerp: "Ruling (voorafgaande beslissing) federaal"
+    ref: "Wet 24 december 2002 — Dienst Voorafgaande Beslissingen (DVB)"
+    noot: "Voor federale belastingen + W.Reg./W.Succ. in Brussel/Wallonië."
+  - onderwerp: "Ruling Vlabel"
+    ref: "VCF art. 3.22.0.0.1 e.v."
+    noot: "Eigen Vlaamse ruling-procedure voor VCF-materies (gunstregime, gesplitste aankoop, e.a.)."
+  - onderwerp: "Vrijwillige registratie + vast recht"
+    ref: "W.Reg. art. 8 / VCF art. 2.10.4.0.1 (vast algemeen recht €50)"
+
+footer: "Leerstuk PO 2.6 — lstk 3 van 5 (proces, mid-licht). Status: voorgesteld."

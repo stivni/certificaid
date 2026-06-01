@@ -1,6 +1,6 @@
 ---
 title: "PO 2.6 — Registratie- en successierechten · overzicht"
-description: "Overzicht voor PO 2.6: waarom dit vak, wat je moet kunnen, concept-kaart, leesroute"
+description: "Overzicht voor PO 2.6: waarom dit vak, wat je moet kunnen, leerstukken-leesroute, examen-radar"
 explorer_title: "2.6 Registratie & successie"
 tags:
   - overzicht
@@ -31,139 +31,74 @@ Een cliënt wil zijn huis aan zijn kinderen overlaten, een familiebedrijf doorge
 
 ### De oplossing
 
-Registratie- en successierechten worden als één geïntegreerd domein bestudeerd omdat ze samen het instrumentarium vormen voor **vermogensoverdracht onder levenden of bij overlijden**. Wie de twee heffingen begrijpt, kan voor elke transactie de optimale techniek voorstellen: schenking voor overlijden, gesplitste aankoop met vruchtgebruik, sterfhuisclausule, of inbreng in een vennootschap als planningsinstrument.
+Registratie- en successierechten worden als één geïntegreerd domein bestudeerd omdat ze samen het instrumentarium vormen voor **vermogensoverdracht onder levenden of bij overlijden**. Twee heffingen, drie gewesten, vier instanties (federaal · Vlabel · FOD Financiën · notaris) — wie dat raamwerk kent, kan voor elke verrichting de juiste heffing identificeren én de optimale techniek voorstellen. → Het hele kader + de civielrechtelijke kapstok (huwelijksvermogen + erfrecht): [[wat-zijn-registratie-en-successierechten]].
 
-### Het werkingsveld
+### Vier evenredige rechten op vastgoed
 
-De [[registratie-en-successierechten|registratiebelasting]] treft akten en geschriften: overdracht van onroerend goed, vestiging van hypotheek, schenking, verdeling van onverdeeldheid. De [[erfbelasting]] treft de overgang van vermogen bij overlijden. Sinds de regionalisering bepaalt elk gewest zijn eigen tarieven en gunstregimes — wat in Vlaanderen, Wallonië en Brussel verschillende uitkomsten geeft voor dezelfde feitelijke situatie. De **fiscale woonplaats** van de erflater en de **ligging** van het onroerend goed zijn de aanknopingspunten die het bevoegde gewest bepalen.
+Vier rechten dekken het hele vastgoed-veld: **verkooprecht** bij overdracht, **verdeelrecht** bij uittreding uit onverdeeldheid, **hypotheekrecht** bij vestiging van zekerheid, en **schenkbelasting** bij schenking. Tarieven verschillen per gewest; abattementen en verlaagde tarieven voor de eigen woning werken anders in Vlaanderen, Wallonië en Brussel. De minimum-grondslagregels bij blote eigendom en vruchtgebruik zijn de klassieke examenvalstrik. → De vier rechten, drie gewesten en de grondslag-logica: [[registratierechten-vastgoed]].
+
+### De akte, de termijn en de procedurele truc
+
+Niet elke akte moet geregistreerd worden — wat verplicht is, wanneer en met welke sanctie, zijn aparte vragen. De **aanwijzing van lastgever** (command, sterkmaking) is een klassieke techniek om de identiteit van de eindkoper voor het compromis te verbergen — maar drie cumulatieve voorwaarden moeten vervuld zijn, anders wordt de aanwijzing als wederverkoop behandeld en betaal je tweemaal verkooprecht. → Procedure, termijnen, sancties en vertegenwoordiging bij Vlabel/FOD: [[registratieformaliteit-en-procedure]].
+
+### Wat overgaat bij overlijden
+
+Bij overlijden bepaalt het **huwelijksstelsel** wat in de nalatenschap valt, het **erfrecht** wie erft (en in welke hoedanigheid), en de **erfbelasting** wat de overheid afroomt. Tarieven zijn progressief en gewestelijk; de aangifte van nalatenschap moet binnen 4 maanden (overlijden in België); aannemelijk passief is limitatief opgesomd in de wet. Fictiebepalingen breiden de grondslag uit naar schenkingen kort vóór overlijden en levensverzekering-uitkeringen. → Devolutie, grondslag, tarief, aangifte en fictiebepalingen: [[erfbelasting-en-aangifte-nalatenschap]].
 
 ### Drie technieken om vermogen door te geven
 
-De accountant kiest tussen drie hoofdtechnieken, vaak in combinatie. Een [[testament-instrument|testament]] laat het vermogen pas bij overlijden overgaan — eenvoudig maar duurder, want de erfbelasting volgt het volledige tarief. Een [[schenking-met-voorbehoud-vruchtgebruik|schenking onder levenden]] verschuift het vermogen vroeger en valt onder de doorgaans lagere schenktarieven, maar legt de schenker vast. Een [[successieplanning|gestructureerde planning]] combineert beide met [[huwelijksvermogensrecht|huwelijkscontracten]], [[levensverzekering-successieplanning|levensverzekeringen]] en patrimonium-vennootschappen om controle, inkomsten én fiscale optimalisatie te combineren.
+De accountant kiest tussen drie hoofdtechnieken, vaak in combinatie. Een **testament** laat het vermogen pas bij overlijden overgaan — eenvoudig maar duurder, want de erfbelasting volgt het volledige tarief. Een **schenking onder levenden** (vooral met voorbehoud van vruchtgebruik) verschuift het vermogen vroeger en valt onder doorgaans lagere schenktarieven, maar legt de schenker vast. Een **gestructureerde planning** combineert beide met huwelijkscontracten, levensverzekeringen en patrimonium-vennootschappen — en bij familiebedrijven met het **gunstregime familiale onderneming** (0% schenking, verlaagd tarief erfbelasting). → De vijf instrumenten, hun combinatie en het gunstregime: [[successieplanning-en-gunstregime]].
 
 ### Wat doet de accountant hier?
 
-Drie rollen kruisen elkaar — al is bij dit vak één rol dominant: de **adviseur** die complexe dossiers ontwart waarin registratie-, schenk- en erfbelasting samenkomen met huwelijksvermogen, vastgoed en vennootschapsstructuur. De **boekhouder** verzorgt de praktische zijde: tijdig aangifte van nalatenschap, registratie van akten, betaling van rechten. De **commissaris** speelt zelden een directe rol in dit domein, behalve onrechtstreeks bij vennootschappen die als planningsinstrument worden gebruikt. In elke concept-fiche vind je per rol concrete acties die de accountant uitvoert.
+Drie rollen kruisen elkaar — al is bij dit vak één rol dominant: de **adviseur** die complexe dossiers ontwart waarin registratie-, schenk- en erfbelasting samenkomen met huwelijksvermogen, vastgoed en vennootschapsstructuur. De **boekhouder** verzorgt de praktische zijde: tijdig aangifte van nalatenschap, registratie van akten, betaling van rechten. De **commissaris** speelt zelden een directe rol in dit domein, behalve onrechtstreeks bij vennootschappen die als planningsinstrument worden gebruikt. In elke leerstuk vind je per rol concrete acties — geen aparte rol-blok meer hier.
 
 ---
 
-## 3. Wat moet je kunnen?
+## 3. Wat moet je kunnen + hoe pak je het aan
 
 Het examenprogramma noemt voor dit vak vijf taken; de meest typerende is:
 
 > *De belastingplichtige in alle fiscale aangelegenheden advies verlenen*
 
-Daaronder valt ook de begeleiding bij oprichting, overdracht of ontbinding van een onderneming, het bijstaan bij fiscale verplichtingen en de vertegenwoordiging tegenover Vlabel of FOD Financiën. Het werk valt uiteen in een **Kern** die specifiek bij dit vak hoort, en delen die **Rakend** zijn met aanverwante PO's.
+Daaronder valt ook de begeleiding bij oprichting, overdracht of ontbinding van een onderneming, het bijstaan bij fiscale verplichtingen en de vertegenwoordiging tegenover Vlabel of FOD Financiën. Vijf leerstukken bouwen het pakket van kader naar synthese — werk ze in deze volgorde:
 
-### De kern — registratie- en successierechten in dossier
+### Leesroute door de leerstukken (vijf stappen)
 
-Concreet moet je deze acties zelfstandig kunnen uitvoeren:
+1. **Kader + civielrechtelijke kapstok** — [[wat-zijn-registratie-en-successierechten]]. Twee heffingen, drie gewesten, vier instanties, plus een eerste laag huwelijksstelsel + devolutie. Zonder dit framework belanden de technieken in een vacuüm.
+2. **Vastgoed-rechten** — [[registratierechten-vastgoed]]. Vier evenredige rechten, drie gewesten, minimum-grondslag bij blote eigendom + vruchtgebruik, abattement + verlaagde tarieven voor de eigen woning. Examen-favoriet.
+3. **Formaliteit en procedure** — [[registratieformaliteit-en-procedure]]. Verplichte versus vrijwillige registratie, termijnen, sancties, aanwijzing van lastgever (command) en de vertegenwoordigingsrol tegenover Vlabel/FOD.
+4. **Erfbelasting + aangifte van nalatenschap** — [[erfbelasting-en-aangifte-nalatenschap]]. De zwaarste leerstuk: devolutie hervormd erfrecht 2018, vier legataris-categorieën, aannemelijk passief, tarief per gewest en categorie, aangifte- en betaaltermijnen, fictiebepalingen.
+5. **Synthese — planning en gunstregime** — [[successieplanning-en-gunstregime]]. Vijf instrumenten, hun combinatie, het gunstregime familiale onderneming (0% schenking / verlaagd erfbelastingtarief) en geïntegreerd advies in complexe casussen.
 
-**Als adviseur — de dominante rol in dit vak:**
-- Een [[successieplanning|estate-planning-dossier]] opbouwen vanuit huwelijksstelsel, vermogenssamenstelling en familiale situatie
-- De juiste [[schenkbelasting|schenkingstechniek]] kiezen (notarieel, hand- of bankgift, gesplitste aankoop)
-- De [[schenking-met-voorbehoud-vruchtgebruik|schenking met voorbehoud van vruchtgebruik]] correct structureren — inclusief de fictie-bepaling bij overlijden binnen 3 jaar
-- Het [[gunstregime-familiale-onderneming|gunstregime voor familiebedrijven]] toepassen (0% schenking, verlaagd tarief erfbelasting)
-- [[inbreng-onroerend-in-vennootschap|Inbreng van vastgoed in een vennootschap]] fiscaal beoordelen vóór ze gebeurt
-- [[levensverzekering-successieplanning|Levensverzekeringen]] inschakelen als planningsinstrument, met aandacht voor de fictie-bepaling
-- De impact van [[huwelijksvermogensrecht|huwelijksvermogensregime]] en [[erfrecht|wettelijke devolutie]] op de planning analyseren
+Elke leerstuk bundelt de **rol-uitwerking** (adviseur · boekhouder · commissaris-onrechtstreeks) en de **wettelijke verwijzingen** (VCF Boek 2-3 Vlaanderen, W.Reg./W.Succ. federaal voor Brussel + Wallonië, BW Boek 2 + 4 voor huwelijksvermogen + erfrecht) in zijn eigen "Wettelijk fundament"-sectie. Niet meer apart op te zoeken hier.
 
-**Als boekhouder die de cliënt bijstaat met formaliteiten:**
-- De [[aangifte-nalatenschap]] tijdig en correct indienen (4 maanden bij overlijden in België)
-- [[registratieformaliteit-akten|Akten en geschriften]] correct laten registreren binnen de wettelijke termijn
-- Bij niet-tijdige formaliteiten de gevolgen inschatten: boetes, nalatigheidsinteresten, hoofdelijke aansprakelijkheid
+### Voor de herhaling — samenvatting
 
-**Als vertegenwoordiger tegenover de administratie:**
-- [[gewestelijke-fiscale-procedure|Bezwaar indienen]] bij Vlabel of FOD Financiën over waardering, gunsttarieven of fictie-toepassing
-- Een [[voorafgaande-beslissing-dvb|ruling aanvragen]] die de fiscale behandeling van een verrichting bevestigt
-- [[fiscale-bemiddelingsprocedure|Minnelijk overleg voeren]] bij waarderingsdiscussies
+Wanneer je de stof grondig gezien hebt en het examen nadert: de **samenvatting** is een kapstok op enkele A4 (printbaar) met vergelijkingstabellen per gewest, beslisboom voor de juiste heffing, een termijn-kompas, een passief-screening-tabel en de klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
 
-### Rakend — wat dit vak deelt met andere domeinen
-
-De **fiscale procedure** (bezwaar, controle, termijnen) volgt grotendeels de algemene regels uit PO 2.4. De **registratierechten als gewestbelasting** delen hun bevoegdheidskader met PO 2.7. Voor die delen:
-
-- **Overzicht PO 2.7 — Regionale en lokale belastingen** *(nog te maken — overlap voor gewestelijke bevoegdheid en procedure)*
-- **Overzicht PO 2.4 — Procedure en fiscale geschillen** *(nog te maken — algemene bezwaar- en geschillenregels)*
-- **Overzicht PO 3.0 — Vennootschaps- en verenigingsrecht** *(nog te maken — vennootschap als planningsinstrument)*
-
-### Wat je daarvoor moet kennen
-
-Naast de operationele acties moet je deze begrippen en kaders beheersen:
-
-**De heffingen zelf**
-- [[registratie-en-successierechten]] — overkoepelend, definitie en kenmerken
-- [[verkooprecht]] — bij overdracht van onroerend goed (Vlaanderen, Wallonië, Brussel)
-- [[verdeelrecht]] — bij uittreding uit onverdeeldheid (echtscheiding, erfenis)
-- [[hypotheekrecht]] — bij vestiging van zekerheid op vastgoed
-- [[schenkbelasting]] — voor schenkingen onder levenden
-- [[erfbelasting]] — voor de overgang bij overlijden
-
-**Het juridisch fundament**
-- [[huwelijksvermogensrecht]] — wettelijk stelsel, scheiding van goederen, gemeenschap
-- [[erfrecht]] — wettelijke en testamentaire devolutie, reservataire erfgenamen
-
-**De planningsinstrumenten**
-- [[testament-instrument]] — vormvereisten en fiscale gevolgen
-- [[schenking-met-voorbehoud-vruchtgebruik]] — de klassieke techniek
-- [[levensverzekering-successieplanning]] — als financieel én planningsinstrument
-- [[successieplanning]] — overkoepelend, combineert de andere
-- [[inbreng-onroerend-in-vennootschap]] — vastgoed in vennootschapsstructuur
-- [[gunstregime-familiale-onderneming]] — 0%-schenking voor bedrijven
-
-**De formaliteiten**
-- [[aangifte-nalatenschap]] — termijnen en sancties
-- [[registratieformaliteit-akten]] — verplichte versus vrijwillige registratie
-
-**Wettelijke kaders (geen aparte fiches — verweven in de records)**
-- Vlaamse Codex Fiscaliteit (VCF) voor erf- en registratiebelasting in Vlaanderen
-- Wetboek der Registratie-, Hypotheek- en Griffierechten (federaal + Wallonië/Brussel)
-- Wetboek Successierechten (federaal + Wallonië/Brussel)
-- Burgerlijk Wetboek Boek 4 (erfrecht) en Boek 2 (huwelijksvermogensrecht) — sinds hervorming 2018/2020
+→ [[studiemateriaal/2-6/samenvatting|Samenvatting PO 2.6 — Registratie- en successierechten]] (2-4 A4, printbaar)
 
 ---
 
-## 4. Studie-aanpak
+## 4. Examen-radar — wat is in de praktijk al bevraagd?
 
-### Leesroute door de fiches (vijf stappen)
+Uit de voorbeeldexamens 2003-bibf tot 2015-1 zijn **13 unieke vraag-eenheden** met dit vak getagd, allemaal met modelantwoord. De spreiding raakt zowel registratierechten als successierechten in evenwicht.
 
-Werk de stof op in vijf stappen — van het juridisch fundament naar de fiscale technieken en formaliteiten.
-
-1. **Begin met het juridisch fundament**: [[huwelijksvermogensrecht]] + [[erfrecht]]. Zonder die twee blijft alle planning theoretisch — je weet niet wat in de gemeenschap valt, wat reservatair beschermd is, of wie standaard erft.
-2. **Daarna de overkoepelende heffingen**: [[registratie-en-successierechten]] + [[erfbelasting]] + [[schenkbelasting]]. Hier zie je de structuur: tarief, grondslag, vrijstellingen per gewest.
-3. **Dan de specifieke registratierechten**: [[verkooprecht]] + [[verdeelrecht]] + [[hypotheekrecht]]. Per type ken je de grondslag en het tarief — examen-stof bij uitstek.
-4. **Vervolgens de planningsinstrumenten**: [[testament-instrument]] + [[schenking-met-voorbehoud-vruchtgebruik]] + [[levensverzekering-successieplanning]] + [[successieplanning]]. Combineer ze in casussen.
-5. **Sluit af met de bijzondere regimes en formaliteiten**: [[gunstregime-familiale-onderneming]] + [[inbreng-onroerend-in-vennootschap]] + [[aangifte-nalatenschap]] + [[registratieformaliteit-akten]]. Dit zijn de toepassingen die op het examen klassiek terugkomen.
-
-### Voor de herhaling — themafiche
-
-Wanneer je de stof grondig gezien hebt en het examen nadert, gebruik je een **themafiche** als opfrissingsdocument. Een themafiche is een kapstok op één pagina (printbaar als PDF) die alles van een onderwerp samenvat: vergelijkingstabel, beslisboom, formules, klassieke valkuilen. Niet bedoeld om voor het eerst te leren.
-
-| Themafiche | Rol voor dit vak |
-|---|---|
-| [[themafiches/registratierechten|Registratierechten]] | **Kern** — 4 evenredige rechten + procedurele formaliteit + tarieven per gewest |
-| [[themafiches/successieplanning|Successieplanning & gunstregime]] | **Kern** — 4 planninginstrumenten + gunstregime familiale ond. |
-| [[themafiches/successierechten-en-erfrecht|Successierechten & erfrecht]] | **Kern** — devolutie + erfbelasting + huwelijksstelsel-interactie |
-
----
-
-## 5. Examen-radar — wat is in de praktijk al bevraagd?
-
-Uit de voorbeeldexamens 2003-bibf tot 2015-1 zijn **11 unieke vraag-eenheden** met dit vak getagd, allemaal met modelantwoord. De spreiding raakt zowel registratierechten als successierechten in evenwicht.
-
-| Onderwerp | Hoe vaak? | Type vraag | Centraal concept |
+| Onderwerp | Hoe vaak? | Type vraag | Leerstuk |
 |---|---|---|---|
-| **Registratierechten op vastgoed-transacties** (vermindering eigen woning, blote eigendom, onverdeeldheid) | 3× (2013-1, 2013-2, 2015-1) | Toepassings-case + grondslag | [[verkooprecht]] · [[verdeelrecht]] |
-| **Aangifte nalatenschap** (passief, opschortende voorwaarde, verzaking, schenking effecten) | 4× (2008-bibf, 2013-1, 2014-1, 2015-1) | Begrip + procedure | [[aangifte-nalatenschap]] · [[erfbelasting]] |
-| **Verplichte registratie en formaliteiten** (compromis, sterkmaking, omzetting eenmanszaak naar BV) | 3× (2003-bibf, 2013-1, 2013-2) | Procedure + termijnen | [[registratieformaliteit-akten]] |
-| **Schenking als planningsinstrument** | 1× (2014-1) | Toepassing | [[schenkbelasting]] · [[schenking-met-voorbehoud-vruchtgebruik]] |
+| **Registratierechten op vastgoed-transacties** (vermindering eigen woning, blote eigendom/vruchtgebruik, onverdeeldheid) | 3× (2013-1, 2013-2, 2015-1) | Toepassings-case + grondslag-bepaling | [[registratierechten-vastgoed]] |
+| **Aangifte van nalatenschap** (passief, opschortende voorwaarde, verzaking, schenking effecten, hoedanigheid legataris) | 4× (2008-bibf, 2013-1, 2014-1, 2015-1) | Begrip + procedure + categorisering | [[erfbelasting-en-aangifte-nalatenschap]] |
+| **Verplichte registratie en formaliteiten** (compromis, sterkmaking, omzetting eenmanszaak naar BV) | 3× (2003-bibf, 2013-1, 2013-2) | Procedure + termijnen + tarief-keuze | [[registratieformaliteit-en-procedure]] |
+| **Schenking als planningsinstrument** | 1× (2014-1) | Toepassing techniek | [[successieplanning-en-gunstregime]] |
 
-**Patroon dat opvalt**: het examen test zelden of je tarieven uit het hoofd kent — die staan in het Cijferzakboekje. Wel of je *de juiste grondslag* kan bepalen (blote eigendom waarderen, passief van een nalatenschap opbouwen), *de juiste partij* identificeert (wie is hoofdelijk aansprakelijk, wie moet wat tekenen), en *termijnen* respecteert (4 maanden aangifte, 15 dagen registratie van een notariële akte). Casussen mengen vaak twee heffingen — registratie én erfbelasting — wat vraagt om gestructureerd denken vóór je rekent.
+**Patroon dat opvalt**: het examen test zelden of je tarieven uit het hoofd kent — die staan in het Cijferzakboekje. Wel of je *de juiste grondslag* kan bepalen (blote eigendom waarderen, passief van een nalatenschap opbouwen), *de juiste partij* identificeert (wie is hoofdelijk aansprakelijk, wie moet wat tekenen), en *termijnen* respecteert (4 maanden aangifte, 15 dagen registratie van een notariële akte, de eerste werkdag na compromis voor command). Casussen mengen vaak twee heffingen — registratie én erfbelasting — wat vraagt om gestructureerd denken vóór je rekent.
 
 → **De volledige vragen met uitgewerkte modelantwoorden** vind je op de [voorbeeldexamen-pagina PO 2.6](voorbeeldexamenvragen).
 
 ---
 
-## 6. Concepten die ook in andere PO's leven
+## 5. Concepten die ook in andere PO's leven
 
 Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen**:
 
@@ -179,4 +114,4 @@ Als je meerdere PO's tegelijk voorbereidt, herken hier de **dubbele rendementen*
 
 ---
 
-*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.6). Status: voorgesteld — nog niet inhoudelijk gecureerd.*
+*Overzicht afgeleid uit het officiële ITAA-examenprogramma (PO 2.6) + leerpad-skelet 2-6.*

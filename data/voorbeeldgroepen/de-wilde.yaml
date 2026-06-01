@@ -1,0 +1,563 @@
+# Familie De Wilde — voorbeeldgroep voor PO 2.6 (registratie- en successierechten)
+#
+# Mock Belgisch gezin in Vlaanderen, met gemengd vermogen (onroerend + financieel +
+# familiebedrijf) verdeeld over drie gewesten. Cijfers fictief maar intern consistent.
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-zijn-registratie-en-successierechten.yaml
+#   - data/leerstukken/registratierechten-vastgoed.yaml
+#   - data/leerstukken/registratieformaliteit-en-procedure.yaml
+#   - data/leerstukken/erfbelasting-en-aangifte-nalatenschap.yaml
+#   - data/leerstukken/successieplanning-en-gunstregime.yaml
+#   - data/samenvattingen/2-6.yaml
+#
+# De oefening (data/oefeningen/verdonck-beysens-vermogensplanning.yaml) gebruikt een
+# ANDERE familie zodat de student getoetst wordt op nieuwe cijfers.
+#
+# Consistentie-toetsen (door auteur uitgevoerd):
+#   - Vermogenstotaal = ∑ onroerend + financieel + familiebedrijf
+#   - Aandelen-percentages De Wilde Bouw NV = 100 %
+#   - Devolutie scenario "Filip overlijdt" sluit aan op huwelijksstelsel + erfrecht 2018
+#   - Tarieven erfbelasting Vlaams gewest 2025 (Cijferzakboekje)
+#   - Termijnen W.Succ./VCF + W.Reg./VCF consistent met examenrechtsstof 2014-1, 2015-1
+
+naam: de-wilde
+beschrijving: >
+  Familie De Wilde is een fictief Vlaams gezin (echtpaar + twee meerderjarige kinderen)
+  met een gemengd vermogen verspreid over drie gewesten: gezinswoning + studio Brussel
+  + tweede verblijf Knokke + aandelen van een familiebedrijf in de bouwsector. Wordt
+  gebruikt om alle vier evenredige registratierechten + aangifte van nalatenschap +
+  fictiebepalingen + gunstregime familiale onderneming binnen één coherente case te
+  illustreren. Eén hypothetisch overlijdens-scenario (Filip) genereert een uitgewerkte
+  aangifte van nalatenschap.
+
+referentie_datum: "01-01-2026"
+gewest_fiscaal_woonplaats: vlaams
+
+# ---------------------------------------------------------------------------
+# Personen
+# ---------------------------------------------------------------------------
+
+personen:
+  - id: filip
+    naam: "Filip De Wilde"
+    rol: "vader / erflater in hypothetisch scenario"
+    geboortejaar: 1963
+    leeftijd: 62
+    woonplaats: "Antwerpen (Vlaams gewest) — sinds 1990"
+    fiscale_woonplaats: vlaams
+    beroep: "Gedelegeerd bestuurder De Wilde Bouw NV"
+
+  - id: lieve
+    naam: "Lieve Janssens"
+    rol: "moeder / overlevende echtgenoot in scenario"
+    geboortejaar: 1965
+    leeftijd: 60
+    woonplaats: "Antwerpen (Vlaams gewest) — sinds 1990"
+    fiscale_woonplaats: vlaams
+    beroep: "Office manager De Wilde Bouw NV (deeltijds)"
+
+  - id: sofie
+    naam: "Sofie De Wilde"
+    rol: "dochter — meerderjarig"
+    geboortejaar: 1990
+    leeftijd: 35
+    woonplaats: "Gent (Vlaams gewest)"
+    fiscale_woonplaats: vlaams
+    relatie: "gehuwd met Tom Verschueren (wettelijk stelsel, 2015) — twee kinderen (kleinkinderen Filip & Lieve, beiden minderjarig)"
+    beroep: "Architect (eigen vennootschap)"
+    aandeelhouderschap_familiebedrijf: "20 %"
+
+  - id: stef
+    naam: "Stef De Wilde"
+    rol: "zoon — meerderjarig"
+    geboortejaar: 1993
+    leeftijd: 32
+    woonplaats: "Brussel (Brussels Hoofdstedelijk Gewest)"
+    fiscale_woonplaats: brussels
+    relatie: "wettelijk samenwonend met Anouk Lemaire (verklaring 2021) — geen kinderen"
+    beroep: "Werfleider De Wilde Bouw NV"
+    aandeelhouderschap_familiebedrijf: 0
+
+# ---------------------------------------------------------------------------
+# Huwelijksvermogen Filip ↔ Lieve
+# ---------------------------------------------------------------------------
+
+huwelijk:
+  filip_lieve:
+    huwelijksdatum: "1988-06-18"
+    stelsel: "Wettelijk stelsel"
+    stelsel_uitleg: >
+      Gemeenschap van aanwinsten + behoud van eigen goederen. Door huwelijk verkregen
+      goederen (loon, opbrengsten, gezamenlijke aankopen) zijn gemeenschappelijk; goederen
+      van vóór het huwelijk + nadien verkregen via schenking of erfenis (met eventuele
+      vervanging) blijven eigen.
+    huwelijkscontract: "Geen huwelijkscontract — wettelijk stelsel zonder afwijking"
+    eigen_goederen:
+      - "Aandelen De Wilde Bouw NV (Filip 60 % — geërfd van vader in 2010, eigen vermogen via vervanging)"
+      - "Tweede verblijf Knokke (Filip — geërfd van vader in 2010, eigen vermogen)"
+    gemeenschappelijke_goederen:
+      - "Gezinswoning Antwerpen (aangekocht 1992 — gemeenschappelijk)"
+      - "Studio Brussel (aangekocht 2008 — gemeenschappelijk)"
+      - "Beleggingsportefeuille bij KBC (opgebouwd uit arbeidsinkomsten)"
+      - "Tak 23 levensverzekering Filip (premies betaald uit gemeenschap)"
+      - "Aandelen De Wilde Bouw NV (Lieve 20 % — aangekocht in 2005 met gemeenschapsgeld)"
+
+# ---------------------------------------------------------------------------
+# Vermogensinventaris op referentie-datum
+# ---------------------------------------------------------------------------
+
+vermogen:
+  onroerend:
+    - id: gezinswoning-antwerpen
+      omschrijving: "Gezinswoning Antwerpen"
+      ligging_gewest: vlaams
+      ligging_stad: Antwerpen
+      type: "Eengezinswoning"
+      aankoop_jaar: 1992
+      aankoopprijs_destijds: 175000
+      huidige_waarde: 450000
+      titularis: "Filip + Lieve (gemeenschappelijk, elk 50 %)"
+      bestemming: "Hoofdverblijfplaats"
+      hypotheek: "Geen (afgelost in 2017)"
+
+    - id: tweede-verblijf-knokke
+      omschrijving: "Tweede verblijf Knokke"
+      ligging_gewest: vlaams
+      ligging_stad: Knokke
+      type: "Appartement (3 slaapkamers, zeezicht)"
+      verkrijgings_jaar: 2010
+      verkrijgings_wijze: "Erfenis van Filip's vader (eigen goed Filip)"
+      verkrijgings_waarde: 280000
+      huidige_waarde: 350000
+      titularis: "Filip (eigen goed via erfenis)"
+      bestemming: "Vakantieverblijf, niet verhuurd"
+
+    - id: studio-brussel
+      omschrijving: "Studio Brussel"
+      ligging_gewest: brussels
+      ligging_stad: Brussel (Elsene)
+      type: "Studio (verhuurd)"
+      aankoop_jaar: 2008
+      aankoopprijs_destijds: 145000
+      huidige_waarde: 220000
+      titularis: "Filip + Lieve (gemeenschappelijk, elk 50 %)"
+      bestemming: "Verhuurd als studentenkot (€650/maand)"
+
+  financieel:
+    - id: beleggingsportefeuille
+      omschrijving: "Beleggingsportefeuille bij KBC Bank"
+      huidige_waarde: 500000
+      samenstelling: "70 % aandelen ETF wereld + 25 % obligatie-ETF + 5 % cash"
+      titularis: "Gezamenlijke rekening Filip + Lieve (gemeenschapsvermogen)"
+
+    - id: levensverzekering-tak23
+      omschrijving: "Tak 23 levensverzekering"
+      verzekeringnemer: "Filip"
+      verzekerde: "Filip"
+      begunstigde_overlijden: "Lieve"
+      begunstigde_subsidiair: "Sofie + Stef in gelijke delen"
+      reservewaarde: 180000
+      premies_bron: "Uit gemeenschapsvermogen"
+      aanvangsdatum: "2015-01-01"
+
+    - id: zichtrekeningen
+      omschrijving: "Zicht- en spaarrekeningen"
+      huidige_waarde: 40000
+      titularis: "Gezamenlijke rekeningen Filip + Lieve"
+
+  familiebedrijf:
+    id: de-wilde-bouw-nv
+    naam: "De Wilde Bouw NV"
+    rechtsvorm: NV
+    zetel: "Antwerpen (Vlaams gewest)"
+    activiteit: "Algemene bouwaanneming + renovatie kantoren (NACE 41.20)"
+    werknemers: 25
+    oprichting: 1995
+    geschatte_waarde_totaal: 1500000
+    waardering_methode: "Discounted cashflow + 7× normalised EBIT (€215k); peer-multiples bevestigen €1.4-1.6 mio"
+    aandeelhouders:
+      - persoon: filip
+        percentage: 60
+        verkrijgings_wijze: "Gemengd: 40 % bij oprichting 1995, 20 % erfenis vader 2010"
+        eigen_of_gemeenschap: "Eigen voor zover 20 % uit erfenis, gemeenschappelijk voor zover 40 % uit arbeidsinkomsten"
+      - persoon: lieve
+        percentage: 20
+        verkrijgings_wijze: "Aankoop 2005 (kapitaalverhoging)"
+        eigen_of_gemeenschap: gemeenschap
+      - persoon: sofie
+        percentage: 20
+        verkrijgings_wijze: "Schenking met voorbehoud van vruchtgebruik door Filip in 2018 (notarieel, registratie Vlaanderen, 0 % tarief gunstregime familiale onderneming art. 2.8.6.0.3 VCF — voorwaarden vervuld)"
+        eigen_of_gemeenschap: "Eigen Sofie (clausule uitsluiting in schenkingsakte)"
+    bestuur: "Filip (gedelegeerd bestuurder, A-mandaat) + Lieve (bestuurder) + Sofie (bestuurder sinds 2020)"
+    kwalificatie_gunstregime: >
+      De Wilde Bouw NV kwalificeert als familiale vennootschap in de zin van
+      art. 2.8.6.0.3 VCF (Vlaanderen) op het ogenblik van schenking 2018:
+      - Aandelen voor ≥ 50 % in handen van schenker + familie (was 80 % voor schenking, blijft 80 % nadien)
+      - Reële economische activiteit (geen patrimonium-venn., loonkost > 1,5 % van totaal activa, geen overmaat aan onroerend goed)
+      - Continuïteits- en participatie-voorwaarde voor 3 jaar na schenking → vervuld eind 2021
+
+  totalen:
+    onroerend: 1020000
+    financieel: 720000
+    familiebedrijf: 1500000
+    vermogen_netto_familie: 3240000
+    aandeel_filip_eigen: "Tweede verblijf Knokke (350k) + 20 % familiebedrijf via erfenis 2010 (geraamd 300k) = ca. 650k eigen"
+    aandeel_lieve_eigen: 0
+    gemeenschappelijk: "Gezinswoning + studio Brussel + portefeuille + levensverzekering-reserve + zichtrekeningen + 40 % familiebedrijf Filip + 20 % familiebedrijf Lieve = ca. 2.290k gemeenschap"
+
+# ---------------------------------------------------------------------------
+# Scenario's — verrichtingen die per leerstuk worden uitgewerkt
+# ---------------------------------------------------------------------------
+
+scenarios:
+
+  - id: verkoop-studio-brussel
+    leerstuk: registratierechten-vastgoed
+    titel: "Filip + Lieve verkopen studio Brussel"
+    feiten: >
+      Filip + Lieve beslissen in maart 2026 om de studio Brussel (gemeenschappelijk
+      goed, huidige waarde €220.000) te verkopen aan een derde voor €240.000.
+      De koper is een 28-jarige werknemer die er zijn hoofdverblijfplaats zal vestigen.
+    didactische_punten:
+      - "Verkooprecht Brussels Hoofdstedelijk Gewest: 12,50 % (art. 44 W.Reg. Brussel)"
+      - "Grondslag = overeengekomen prijs (€240.000), met als minimum de verkoopwaarde van het overgedragen goed (art. 45-46 W.Reg.)"
+      - "Koper kan abattement eigen woning vragen (art. 46bis W.Reg. Brussel): vermindering grondslag met €200.000 — voorwaarden: natuurlijke persoon, geheelheid in volle eigendom, hoofdverblijfplaats binnen 3 jaar, behouden ≥ 5 jaar"
+      - "Verkoper geen registratierecht verschuldigd; verkooprecht is altijd door koper"
+    berekening_voorbeeld:
+      grondslag: 240000
+      verkooprecht_basis_brussel: "12,50 % × 240.000 = €30.000"
+      met_abattement: "12,50 % × (240.000 − 200.000) = €5.000"
+      besparing: 25000
+
+  - id: aankoop-appartement-sofie
+    leerstuk: registratierechten-vastgoed
+    titel: "Sofie + Tom kopen appartement Gent als hoofdverblijfplaats"
+    feiten: >
+      Sofie + Tom kopen in juni 2026 een appartement Gent voor €380.000, dat dient
+      als hun hoofdverblijfplaats. Geen eerder onroerend goed in volle eigendom in
+      bezit.
+    didactische_punten:
+      - "Verkooprecht Vlaams gewest: standaardtarief 12 % (art. 2.9.4.1.1 VCF) — vanaf 1.1.2022"
+      - "Verlaagd tarief 2 % voor enige eigen woning (art. 2.9.4.2.11 VCF, sinds decreet 23.12.2022) — voorwaarden: enige + eigen + hoofdverblijfplaats binnen 3 jaar"
+      - "Verlaagd tarief naar 1 % bij ingrijpende energetische renovatie of monumentale waarde"
+      - "Voorwaarden zijn cumulatief en moeten in de akte vermeld worden"
+    berekening_voorbeeld:
+      grondslag: 380000
+      verkooprecht_basis: "12 % × 380.000 = €45.600"
+      verkooprecht_verlaagd_2pct: "2 % × 380.000 = €7.600"
+      besparing: 38000
+
+  - id: verdeling-vakantieverblijf-broer
+    leerstuk: registratierechten-vastgoed
+    titel: "Mini-case: Filip + broer in onverdeeldheid sinds 2010 — broer koopt Filip uit"
+    feiten: >
+      Bij het overlijden van Filip's vader (2010) erfde Filip samen met zijn broer
+      het vakantieverblijf in Knokke voor onverdeelde helft elk. In 2016 hebben ze
+      onderling beslist dat Filip de helft van zijn broer overnam tegen €280.000
+      (massa op dat ogenblik €560.000). Sindsdien is het verblijf 100 % Filip.
+    didactische_punten:
+      - "Bij uittreding van mede-eigenaars uit een onverdeeldheid: verdeelrecht (art. 109 W.Reg. = 1 % federaal/Brussel; art. 2.10.1.0.1 VCF = 2,5 % Vlaams)"
+      - "Grondslag = volledige verkoopwaarde van het onverdeelde goed (massa), niet enkel het overgenomen aandeel"
+      - "Zou Filip aan een derde verkocht hebben → verkooprecht (12 % VCF / 12,50 % W.Reg. Brussel) op het overgedragen aandeel — veel duurder"
+    berekening_voorbeeld:
+      grondslag_verdeelrecht: 560000
+      verdeelrecht_vlaanderen: "2,5 % × 560.000 = €14.000"
+      alternatief_verkooprecht_op_helft: "12 % × 280.000 = €33.600 (en geen abattement want geen hoofdverblijf)"
+
+  - id: compromis-met-sterkmaking
+    leerstuk: registratieformaliteit-en-procedure
+    titel: "De Wilde Bouw NV wil aanpalend terrein kopen — compromis met aanwijzing van lastgever"
+    feiten: >
+      De Wilde Bouw NV wil het aanpalende braakliggend terrein kopen voor uitbreiding
+      van haar werkplaats. Om de eigenaar (die De Wilde Bouw kent als groei-onderneming)
+      geen prijsverhoging te laten doorvoeren, vraagt Filip zijn neef Joris (geen band
+      met de NV) een onderhandse koopovereenkomst (compromis) af te sluiten op 5 april
+      2026 met de clausule "voor zichzelf of een later aan te wijzen persoon" — prijs
+      €320.000.
+    didactische_punten:
+      - "Aanwijzing van lastgever (akte van command, déclaration de command) — art. 158, 1° W.Reg. (federaal) / art. 2.9.6.0.1 VCF (Vlaanderen)"
+      - "Drie cumulatieve voorwaarden: (a) voorbehoud in compromis, (b) authentieke akte van aanwijzing, (c) registratie/betekening uiterlijk de eerste werkdag na compromis"
+      - "Als voorwaarden vervuld: aanwijzingsakte = vast recht (€50); verkoopakte aan De Wilde Bouw NV = evenredig verkooprecht éénmaal"
+      - "Als één voorwaarde gemist: aanwijzing = wederverkoop → tweemaal verkooprecht (compromis Joris + akte De Wilde Bouw NV)"
+      - "Klassiek timing-probleem: compromis op vrijdag → enkel maandag om authentieke akte te verlijden + aan te bieden"
+    berekening_voorbeeld:
+      grondslag: 320000
+      verkooprecht_vlaanderen: "12 % × 320.000 = €38.400"
+      met_command_voorwaarden_vervuld: "€38.400 verkooprecht éénmaal + €50 vast recht aanwijzing"
+      bij_gemiste_voorwaarde: "€38.400 × 2 = €76.800 (tweemaal heffing)"
+
+  - id: schenking-aandelen-familiebedrijf
+    leerstuk: successieplanning-en-gunstregime
+    titel: "Filip overweegt schenking 30 % aandelen De Wilde Bouw aan Stef (continuïteit)"
+    feiten: >
+      Filip overweegt 30 % van zijn aandelen (van zijn 60 %) De Wilde Bouw NV aan
+      zoon Stef te schenken — Stef werkt al 5 jaar in het bedrijf en zou samen met
+      Sofie de operationele leiding overnemen. Schenking gebeurt notarieel in 2026.
+    didactische_punten:
+      - "Schenking van aandelen van een familiale vennootschap: gunstregime art. 2.8.6.0.3 VCF (Vlaanderen) — 0 % schenkbelasting indien voorwaarden vervuld"
+      - "Voorwaarden bij schenking: (1) familiale vennootschap met reële economische activiteit, (2) ≥ 50 % aandelen bij schenker + familie, (3) continuïteit + participatie 3 jaar nadien behouden"
+      - "Voorwaarden bij erfopvolging (i.p.v. schenking): verlaagd tarief erfbelasting (3 % rechte lijn / 7 % derden, art. 2.7.4.2.2 VCF) i.p.v. progressieve tarieven (3-27 %)"
+      - "Schenking met voorbehoud van vruchtgebruik: Filip behoudt dividenden + stemrecht; Stef wordt blote eigenaar"
+      - "Fictiebepaling art. 2.7.1.0.5 VCF: schenking < 3 jaar vóór overlijden zonder registratie → toch erfbelasting. Notariële schenking met registratie ontsnapt aan fictie (al geregistreerd)."
+    berekening_voorbeeld:
+      grondslag_schenking: 450000  # 30 % van €1.500.000
+      schenkbelasting_zonder_gunstregime: "Aandelen = ROEREND → vlak tarief 3 % rechte lijn Vlaanderen (art. 2.8.4.1.1 § 2 VCF): 3 % × €450.000 = €13.500"
+      schenkbelasting_gunstregime: "0 % × 450.000 = €0 (art. 2.8.6.0.3 VCF — voorwaarden vervuld)"
+      besparing: 13500
+      pedagogische_noot: >
+        Klassieke valstrik: niet de progressieve onroerende schalen (3-9-18-27 %) toepassen op aandelen.
+        Aandelen vallen onder roerend vlak tarief 3 % rechte lijn / 7 % anderen. Daarom is het gunstregime
+        vooral waardevol bij ERFOPVOLGING (3 % rechte lijn vs progressief 3-27 % over hele nalatenschap)
+        en bij GROTE familiebedrijven, niet zozeer bij kleine roerende schenkingen.
+
+  - id: filip-overlijdt-hypothetisch
+    leerstuk: erfbelasting-en-aangifte-nalatenschap
+    titel: "Hypothetisch overlijdens-scenario Filip — aangifte van nalatenschap"
+    feiten: >
+      Filip overlijdt onverwacht op 15 mei 2026 in België (Vlaams gewest, woonplaats
+      Antwerpen). Geen testament — wettelijke devolutie speelt. Hervormd erfrecht 2018
+      van toepassing. Op het ogenblik van overlijden: aandelen-schenking aan Sofie 2018
+      (registratie Vlaanderen, 8 jaar oud — buiten 3-jaar-fictie); GEEN schenking aan
+      Stef gerealiseerd.
+    didactische_punten:
+      - "Bevoegd gewest = gewest van fiscale woonplaats erflater (Vlaams) — geen rol voor plaats van overlijden of ligging onroerend goed (art. 5/1 VCF)"
+      - "Aangifteplichtigen (art. 3.3.1.0.5 VCF): erfgenamen + algemene legatarissen + algemene begiftigden — Lieve + Sofie + Stef hier (legaten N/A, geen testament)"
+      - "Termijn aangifte = 4 maanden vanaf overlijden (in Rijk) — uiterlijk 15 september 2026 (art. 3.3.1.0.6 VCF)"
+      - "Termijn betaling = 2 maanden na verstrijken aangiftetermijn — uiterlijk 15 november 2026 (art. 3.10.4.4.1 VCF)"
+      - "Devolutie hervormd erfrecht 2018: overlevende echtgenoot krijgt vruchtgebruik volledige nalatenschap; afstammelingen krijgen blote eigendom (art. 4.50 BW)"
+      - "Fictiebepaling levensverzekering art. 2.7.1.0.6 VCF: uitkering Tak 23 aan Lieve wordt als legaat beschouwd voor erfbelasting (premies uit gemeenschap → 50 % belastbaar)"
+      - "Helft van het gemeenschapsvermogen valt in de nalatenschap (huwelijksstelsel = wettelijk); andere helft = eigen vermogen Lieve, niet belastbaar"
+    aangifte_uitgewerkt:
+      bruto_nalatenschap_filip:
+        eigen_goederen:
+          - omschrijving: "Tweede verblijf Knokke (eigen goed Filip via erfenis 2010)"
+            waarde: 350000
+          - omschrijving: "20 % aandelen De Wilde Bouw NV (eigen goed Filip via erfenis 2010 — schatting 20 % × €1.500.000)"
+            waarde: 300000
+        helft_gemeenschap_filip:
+          - omschrijving: "Helft gezinswoning Antwerpen"
+            waarde: 225000
+          - omschrijving: "Helft studio Brussel (NB: wordt 2026 verkocht — verkoop niet meer gerealiseerd op overlijdens-datum)"
+            waarde: 110000
+          - omschrijving: "Helft beleggingsportefeuille"
+            waarde: 250000
+          - omschrijving: "Helft zichtrekeningen"
+            waarde: 20000
+          - omschrijving: "Helft aandelen Filip oorspronkelijk 40 % gemeenschappelijk — gehalveerd = 20 %"
+            waarde: 300000
+        fictie_levensverzekering:
+          - omschrijving: "Tak 23 Filip → Lieve begunstigde — premies uit gemeenschap, 50 % belastbaar art. 2.7.1.0.6 VCF"
+            waarde_volledige_reserve: 180000
+            belastbaar_aandeel: 90000
+            classificatie: "Fictie-legaat aan Lieve"
+        bruto_totaal: 1645000  # 350+300+225+110+250+20+300+90
+      aannemelijk_passief:
+        - post: "Begrafeniskosten + repatriëring + plechtigheid"
+          bedrag: 9500
+          status: "AANGENOMEN (art. 2.7.3.4.1 VCF — begrafeniskosten zonder plafond)"
+        - post: "Openstaande facturen (gas, water, energie, dagelijks beheer) gefactureerd vóór overlijden, betaald nadien"
+          bedrag: 1800
+          status: "AANGENOMEN (art. 2.7.3.4.1 VCF — schuld bestaand op de dag van overlijden)"
+        - post: "Ereloon advocaat voor opmaak aangifte van nalatenschap"
+          bedrag: 3500
+          status: "NIET AANGENOMEN — schuld ontstaan ná overlijden, geen begrafeniskost"
+        - post: "Lening van zoon Stef in 2024 voor renovatie tweede verblijf Knokke (schuldbekentenis, gebruikt voor verbetering goed in nalatenschap)"
+          bedrag: 25000
+          status: "AANGENOMEN op grond van art. 33, 2° W.Succ./art. 2.7.3.4.1 VCF — uitzondering: lening bij erfgenaam met bestemming verbetering van nalatenschapsgoed"
+        - post: "Stookolie geleverd na overlijden (juli 2026)"
+          bedrag: 1200
+          status: "NIET AANGENOMEN — schuld ontstaan ná overlijden, geen schuld erflater"
+      passief_aannemelijk_totaal: 36300  # 9500 + 1800 + 25000
+      netto_nalatenschap: 1608700  # bruto 1.645.000 − passief 36.300
+      verdeling_devolutie:
+        scenario: "Geen testament — wettelijke devolutie + hervormd erfrecht 2018"
+        overlevende_echtgenoot_lieve: "Vruchtgebruik op volledige netto-nalatenschap + 50 % volle eigendom op de gemeenschapshelft van Filip's deel = juridisch gemengd, voor de erfbelasting omgezet"
+        afstammelingen: "Sofie + Stef — blote eigendom op de volledige netto-nalatenschap, in gelijke delen"
+      tarief_toegepast:
+        lieve_overlevende_echtgenoot: "Volle eigendom gezinswoning (Vlaanderen): 0 % erfbelasting (vrijstelling overlevende echtgenoot gezinswoning, art. 2.7.6.0.3 VCF). Vruchtgebruik op rest: tarief rechte lijn 3-27 % progressief over gekapitaliseerd vruchtgebruik."
+        sofie_stef: "Tarief rechte lijn (art. 2.7.4.1.1 VCF) over blote eigendom: 3 % tot €50.000 / 9 % tot €250.000 / 27 % boven €250.000 per erfgenaam — afzonderlijke aanslag per erfgenaam"
+        familiebedrijf_aandelen: "Aandelen De Wilde Bouw NV (€300.000 in nalatenschap) — gunstregime erfopvolging art. 2.7.4.2.2 VCF mogelijk: verlaagd tarief 3 % rechte lijn (mits continuïteit + participatie 3 jaar) i.p.v. progressief"
+
+  - id: tweede-overlijdens-scenario-lieve
+    leerstuk: successieplanning-en-gunstregime
+    titel: "Wat zou een vooraf-gemaakte planning hebben bespaard?"
+    feiten: >
+      Stel dat Filip vóór zijn overlijden de planning had opgezet die hij overwoog
+      (zie scenario 'schenking-aandelen-familiebedrijf'): notariële schenking met
+      voorbehoud van vruchtgebruik aan Stef + Sofie van resterende 60 %, plus
+      huwelijkscontract-clausule "verblijvingsbeding" (langstlevende krijgt alles
+      tegen inbrengverplichting bij overlijden tweede echtgenoot).
+    didactische_punten:
+      - "Vergelijkende oefening: 'zonder planning' vs 'met planning' — €-impact + erfbelasting-besparing"
+      - "Tijdshorizon kritisch: schenking moet > 3 jaar vóór overlijden geregistreerd zijn anders fictiebepaling art. 2.7.1.0.5 VCF"
+      - "Verblijvingsbeding huwelijkscontract: economisch overdragend, fiscaal niet belast met erfbelasting bij eerste overlijden (mits voorwaarden), wel met inbrengverplichting bij tweede overlijden"
+      - "Levensverzekering met cross-begunstiging tussen echtgenoten + clausule 'in geval van gelijktijdig overlijden' → verminderbare fictiebepaling"
+
+# ---------------------------------------------------------------------------
+# Mini-cases — secundaire valstrik-scenarios om in leerstukken te citeren
+# ---------------------------------------------------------------------------
+
+mini_cases:
+
+  - id: blote-eigendom-met-vennootschap
+    titel: "Filip overweegt: De Wilde Bouw NV koopt vruchtgebruik op nieuwe woning"
+    leerstuk: registratierechten-vastgoed
+    feiten: >
+      Variante 1: Filip + Lieve kopen blote eigendom van een nieuw appartement Antwerpen
+      voor €280.000; De Wilde Bouw NV koopt het vruchtgebruik (10 jaar) voor €120.000.
+      Volle waarde appartement: €400.000.
+    didactische_punten:
+      - "Belastbare grondslag voor blote-eigendom-koop met voorbehoud vruchtgebruik door vervreemder: art. 48 W.Reg./art. 2.9.3.0.6 VCF — minimum = verkoopwaarde volle eigendom (€400.000)"
+      - "Maar hier vruchtgebruik door derde (vennootschap) gevestigd, niet voorbehouden door vervreemder: art. 49 W.Reg. — minimum = volle eigendom min forfaitaire waarde vruchtgebruik art. 47 (geen voorbehoud = wel-aftrek)"
+      - "Brusselse abattement art. 46bis: vereist geheelheid in volle eigendom door natuurlijke persoon. Splitsing met vennootschap → abattement UITGESLOTEN. Klassieke examenvalstrik."
+      - "Anti-misbruik (art. 18, § 2 W.Reg. / art. 3.17.0.0.2 VCF): fiscus kan herkwalificeren als geheel-eigendom-aankoop indien geen niet-fiscale motieven"
+
+  - id: command-termijn-gemist
+    titel: "Sterkmaking — wat als Joris de eerste werkdag mist?"
+    leerstuk: registratieformaliteit-en-procedure
+    feiten: >
+      Compromis ondertekend op vrijdag 5 april 2026 met clausule "voor zichzelf of
+      een later aan te wijzen persoon". Joris (de neef) verlijdt de aanwijzingsakte
+      ten gunste van De Wilde Bouw NV pas op woensdag 10 april 2026 (i.p.v. uiterlijk
+      maandag 8 april).
+    didactische_punten:
+      - "Termijn = uiterlijk de eerste werkdag na compromis (art. 158, 1°, c W.Reg./art. 2.9.6.0.1, 1°, c VCF)"
+      - "Termijn gemist → fiscus behandelt aanwijzing als wederverkoop → tweemaal verkooprecht (Joris betaalt op compromis + De Wilde Bouw betaalt op aanwijzing)"
+      - "Geen sanering achteraf mogelijk — kortste fataal termijn van de RSR"
+
+# ---------------------------------------------------------------------------
+# Tarief-referenties + Cijferzakboekje-link
+# ---------------------------------------------------------------------------
+
+tarieven_referentie:
+  bron: "Cijferzakboekje 2026 (raadpleegbaar bij examen) + Vlaamse Codex Fiscaliteit + W.Reg. + W.Succ."
+  vlaams_gewest:
+    verkooprecht_standaard: "12 % (art. 2.9.4.1.1 VCF)"
+    verkooprecht_enige_eigen_woning: "2 % (art. 2.9.4.2.11 VCF) — sinds decreet 23.12.2022"
+    verkooprecht_renovatie_energetisch: "1 % bij ingrijpende energetische renovatie"
+    verdeelrecht: "2,5 % (tarief: art. 2.10.4.0.1 VCF; belastbaar feit: art. 2.10.1.0.1 VCF). Verlaagd tarief 1 % bij verdeling tussen ex-echtgenoten/ex-wettelijke samenwoners na scheiding."
+    hypotheekrecht: "1 % (art. 2.11.4.0.1 VCF / art. 87 W.Reg. federaal — schiphypotheek 0,50 % art. 88)"
+    schenkbelasting_onroerend_rechte_lijn:
+      tot_150k: "3 %"
+      tot_250k: "9 %"
+      tot_450k: "18 %"
+      boven_450k: "27 %"
+    schenkbelasting_onroerend_andere:
+      tot_150k: "10 %"
+      tot_250k: "20 %"
+      tot_450k: "30 %"
+      boven_450k: "40 %"
+    schenkbelasting_familiale_onderneming: "0 % (art. 2.8.6.0.3 VCF — voorwaarden)"
+    erfbelasting_rechte_lijn:
+      tot_50k: "3 %"
+      tot_250k: "9 %"
+      boven_250k: "27 %"
+    erfbelasting_familiale_onderneming_erfopvolging: "3 % rechte lijn / 7 % anderen (art. 2.7.4.2.2 VCF)"
+    gezinswoning_overlevende_echtgenoot: "Vrijstelling 100 % (art. 2.7.6.0.3 VCF)"
+  brussels_gewest:
+    verkooprecht_standaard: "12,50 % (art. 44 W.Reg. Brussel)"
+    abattement_eigen_woning: "Vermindering grondslag €200.000 (art. 46bis W.Reg.) — voorwaarden hoofdverblijf"
+    verdeelrecht: "1 % (art. 109 W.Reg.)"
+  waals_gewest:
+    verkooprecht_standaard: "12,50 % (art. 44 W.Reg.)"
+    verkooprecht_bescheiden_woning: "5 % onder bepaalde voorwaarden (klein-beschrijf)"
+    verdeelrecht: "1 % (art. 109 W.Reg.)"
+
+termijnen_referentie:
+  registratie_authentieke_akte: "15 dagen vanaf de akte (art. 32, 5° W.Reg./art. 3.12.3.0.1 VCF)"
+  registratie_onderhandse_akte_verkoop_onroerend: "4 maanden vanaf de akte"
+  aanwijzing_van_lastgever: "Vlaanderen + federaal: uiterlijk de **eerste werkdag** na het compromis (art. 158, 1°, c W.Reg. / art. 2.9.6.0.1, 1°, c VCF). Brussel + Wallonië (post-2015 niet-VCF): **vijfde werkdag** na het compromis (art. 159, 1°, b W.Reg.)."
+  aangifte_nalatenschap_overlijden_in_belgie: "4 maanden vanaf overlijden (art. 40 W.Succ./art. 3.3.1.0.6 VCF)"
+  aangifte_nalatenschap_overlijden_europa: "5 maanden"
+  aangifte_nalatenschap_overlijden_buiten_europa: "6 maanden"
+  betaling_erfbelasting: "2 maanden na verstrijken aangiftetermijn (art. 77 W.Succ./art. 3.10.4.4.1 VCF)"
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen — visualisaties die in leerstuk-scripts worden gerefereerd
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  twee-heffingen-flow:
+    titel: "Twee heffingen, één instrumentarium — vermogensoverdracht in twee tijden"
+    beschrijving: >
+      Vereenvoudigd flow-diagram: vermogen kan tijdens leven (registratiebelasting)
+      of bij overlijden (erfbelasting) overdragen. Schenking + leven = communicerende
+      vaten met nalatenschap + overlijden. Drie gewesten heffen elk eigen tarief.
+    mermaid_code: |
+      flowchart TD
+        V[Vermogen erflater] --> L{Overdracht<br/>bij leven of bij overlijden?}
+        L -->|Bij leven| S1[Schenking onroerend<br/>= schenkbelasting]
+        L -->|Bij leven| S2[Schenking roerend<br/>= schenkbelasting<br/>of handgift]
+        L -->|Bij leven| V1[Verkoop / hypotheek<br/>= verkooprecht / hypotheekrecht]
+        L -->|Bij overlijden| N[Nalatenschap<br/>= erfbelasting]
+        S1 -.fictie 3 jaar.-> N
+        S2 -.fictie 3 jaar.-> N
+        N --> G{Welk gewest?}
+        G -->|Fiscale woonplaats VL| VL[VCF Boek 2 — Vlabel]
+        G -->|Fiscale woonplaats BR| BR[W.Succ. — FOD Financiën]
+        G -->|Fiscale woonplaats WA| WA[W.Succ. — FOD Financiën]
+
+  familie-de-wilde-structuur:
+    titel: "Familie De Wilde — structuur + vermogen op referentie-datum 2026"
+    beschrijving: >
+      Family-tree met vermogenscategorieën gekoppeld aan personen. Filip + Lieve
+      gehuwd 1988, wettelijk stelsel. Twee kinderen Sofie + Stef. Aandelen
+      De Wilde Bouw NV verdeeld 60/20/20 over Filip/Lieve/Sofie.
+    mermaid_code: |
+      flowchart TD
+        F[Filip De Wilde<br/>62 j · Antwerpen<br/>fiscaal Vlaanderen] ---|Wettelijk stelsel<br/>sinds 1988| L[Lieve Janssens<br/>60 j · Antwerpen]
+        F --> S[Sofie · 35<br/>Gent · gehuwd Tom<br/>2 kleinkinderen]
+        L --> S
+        F --> T[Stef · 32<br/>Brussel · samenwonend<br/>met Anouk]
+        L --> T
+        S -.20%.-> BV[De Wilde Bouw NV<br/>€1.500.000<br/>25 werknemers]
+        F -.60%.-> BV
+        L -.20%.-> BV
+        F --- GW[Gemeenschap:<br/>gezinswoning · studio Brussel<br/>portefeuille · Tak 23]
+        L --- GW
+        F --- EF[Eigen Filip:<br/>tweede verblijf Knokke<br/>20% aandelen erfenis 2010]
+
+  beslisboom-vier-rechten:
+    titel: "Welke evenredige registratierecht treft deze vastgoed-verrichting?"
+    beschrijving: >
+      Beslisboom: type verrichting → gewest → gunstregime. Vier eindknopen
+      corresponderen met verkooprecht, verdeelrecht, hypotheekrecht, schenkrecht.
+    mermaid_code: |
+      flowchart TD
+        START{Welk type verrichting<br/>op onroerend goed?} --> V[Verkoop aan derde]
+        START --> D[Uittreding mede-eigenaar<br/>uit onverdeeldheid]
+        START --> H[Vestiging hypotheek]
+        START --> SCH[Kosteloze overdracht<br/>= schenking]
+        V --> VG{Welk gewest?}
+        VG -->|Vlaanderen| VV[Verkooprecht 12%<br/>3% verlaagd eigen woning<br/>1% energetische renovatie]
+        VG -->|Brussel| VB[Verkooprecht 12,50%<br/>Abattement €200k]
+        VG -->|Wallonië| VW[Verkooprecht 12,50%<br/>5% klein-beschrijf]
+        D --> DG{Welk gewest?}
+        DG -->|Vlaanderen| DV[Verdeelrecht 2,5%<br/>op massa-waarde]
+        DG -->|Brussel/Wallonië| DBW[Verdeelrecht 1%<br/>op massa-waarde]
+        H --> HH[Hypotheekrecht 1%<br/>alle gewesten]
+        SCH --> SCHO{Roerend of onroerend?}
+        SCHO -->|Onroerend| SCHON[Schenkbelasting progressief<br/>3-9-18-27% VCF rechte lijn]
+        SCHO -->|Roerend incl. aandelen| SCHR[Schenkbelasting VCF<br/>3% rechte lijn / 7% anderen]
+
+  devolutie-filip-wilde:
+    titel: "Devolutie hypothetisch overlijden Filip — hervormd erfrecht 2018"
+    beschrijving: >
+      Wettelijke devolutie zonder testament: overlevende echtgenoot krijgt
+      vruchtgebruik op hele nalatenschap; afstammelingen krijgen blote eigendom
+      in gelijke delen. Voor gezinswoning Antwerpen: vrijstelling overlevende
+      echtgenoot art. 2.7.6.0.3 VCF.
+    mermaid_code: |
+      flowchart TD
+        F[Filip overlijdt 15 mei 2026<br/>Vlaanderen — geen testament] --> N[Netto nalatenschap<br/>€1.608.700]
+        N --> L[Lieve · overlevende echtgenoot]
+        N --> S[Sofie · afstammeling]
+        N --> T[Stef · afstammeling]
+        L -->|Vruchtgebruik op hele NL| LVG[Vruchtgebruik gekapitaliseerd<br/>op leeftijd Lieve = 60]
+        L -->|0% gezinswoning| LGW[Volle eigendom gezinswoning-aandeel<br/>art. 2.7.6.0.3 VCF]
+        S -->|Blote eigendom 50%| SBE[Blote eigendom helft<br/>tarief 3-9-27% per schijf]
+        T -->|Blote eigendom 50%| TBE[Blote eigendom helft<br/>tarief 3-9-27% per schijf]
+        SBE -.gunstregime familiale onderneming.-> SBE2[Aandelen 50% × €600k = €300k<br/>tarief 3% art. 2.7.4.2.2 VCF]
+        TBE -.gunstregime familiale onderneming.-> TBE2[Aandelen 50% × €600k = €300k<br/>tarief 3% art. 2.7.4.2.2 VCF]
+
