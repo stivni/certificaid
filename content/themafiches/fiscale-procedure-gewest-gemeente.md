@@ -9,7 +9,7 @@ tags:
 
 <div class="no-print">
 
-> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+> ⚠️ **Uitgefaseerd — vervangen door PO 2.7 leerlaag-pakket.** Per **ADR-039** + voltooiing PO 2.7 leerpad (2026-06-01): deze themafiche is vervangen door [[studiemateriaal/2-7/samenvatting|Samenvatting PO 2.7]] (geheugen-kapstok met termijntabel en bezwaarroute-beslisboom) + leerstuk [[procedure-gewest-en-gemeente]] (didactische uitwerking met de 4 routes en de afgrenzing met PO 2.5). **Let op — drie wetsclaim-correcties t.o.v. deze themafiche**: federale bezwaartermijn = 1 jaar (WIB92 art. 371, niet 6 mnd), Brusselse Codex art. 100 = 186 dagen (niet 3 mnd), Waals decreet art. 25 + 25bis (niet art. 28).
 
 </div>
 

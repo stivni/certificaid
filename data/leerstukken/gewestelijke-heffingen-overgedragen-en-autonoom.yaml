@@ -1,0 +1,295 @@
+# Leerstuk-script — Gewestelijke heffingen: overgedragen en autonoom
+#
+# PO 2.7 leerstuk 2 (techniek 1 — gewestelijk niveau). Zwaarste leerstuk in
+# het pakket — vergelijkbaar met `hoe-consolideren` voor PO 1.4. De
+# categorische dichotomie OVERGEDRAGEN ↔ AUTONOOM is de rode draad; mag
+# niet versplinteren in losse heffing-secties.
+#
+# Hand-off: bouwt op het bevoegdheidskader van leerstuk 1. Aanvullende
+# gemeentelijke opcentiemen op OV worden hier kort aangeraakt en uitgewerkt
+# in leerstuk 3. Procedure-route (Vlabel-bezwaar) komt hier alleen als korte
+# pointer voor — uitgewerkt in leerstuk 4.
+
+meta:
+  slug: gewestelijke-heffingen-overgedragen-en-autonoom
+  titel: "Gewestelijke heffingen — overgedragen en autonoom"
+  po: "2.7"
+  cluster: regionale-en-lokale-fiscaliteit
+  voorbeeldgroep: vermeulen-stranddorp
+  beschrijving: >
+    Leerstuk PO 2.7 — de werkpaarden van het gewest-niveau: onroerende
+    voorheffing, verkeersbelasting, BIV, leegstandsheffing bedrijfsruimten,
+    planbatenheffing. Categorische dichotomie overgedragen vs autonoom
+    + drie-gewesten-vergelijking voor de zes hoofdheffingen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 2.7. Vermeld dat dit het zwaarste leerstuk van het pakket is:
+    OV-mechaniek + verkeersbelasting + BIV + twee autonome Vlaamse
+    heffingen. Wijs naar concept-fiches voor definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: gewestelijke heffingen vallen in twee soorten — OVERGEDRAGEN (federaal vastgelegd in de Bijzondere Financieringswet als gewestbevoegdheid; gewest bepaalt grondslag/tarief/vrijstellingen) en AUTONOOM (gewest verzint eigen heffing op eigen materie, geen federaal equivalent)."
+    - "Drie hoofd-overgedragen heffingen die je dagelijks tegenkomt: onroerende voorheffing, verkeersbelasting, belasting op inverkeerstelling (BIV)."
+    - "Twee autonome Vlaamse hoofd-heffingen die het programma expliciet vraagt: leegstandsheffing bedrijfsruimten (VCF Titel 2.6) + planbatenheffing (VCRO 2.6.4 e.v.). Brussel en Wallonië kennen vergelijkbare maar niet identieke heffingen."
+    - "Het scharnier zit in de tarief-vrijheid: bij overgedragen kan het gewest het tarief vrij bepalen (vandaar verschillen Vl/Br/W); bij autonoom is er sowieso geen tarief-grens want het is volledig nieuwe materie."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Categorie", "Tariefvrijheid?", "Hoofdvoorbeelden"]
+      rijen:
+        - ["**Overgedragen**", "Gewest bepaalt grondslag + tarief + vrijstellingen binnen BFW art. 3", "OV · verkeersbelasting · BIV · registratie- + erfbelasting"]
+        - ["**Aanvullend op federaal**", "Gewest kiest opcentiem of korting op gewest-aandeel", "Aanvullende gewestelijke PB · gewestelijke belastingverminderingen PB"]
+        - ["**Autonoom**", "Volledige gewest-bevoegdheid, eigen materie", "Leegstandsheffing bedrijfsruimten (Vl) · planbatenheffing (Vl) · leegstandsheffing gebouwen Br/W"]
+  afsluiter: "Korte zin: 'We werken eerst de overgedragen heffingen door (OV — verkeer — BIV) en daarna de autonome (leegstand + planbaten), telkens met cijfer-voorbeeld uit de familie Vermeulen.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: scharnier-overgedragen-vs-autonoom
+    titel: "Het scharnier: overgedragen vs autonoom"
+    niveau: 2
+    beats:
+      - "Open met de essentie: het verschil OVERGEDRAGEN ↔ AUTONOOM bepaalt hoe vrij het gewest is om aan de heffing te morrelen"
+      - "Overgedragen heffing — uitleg in 3 stappen: (1) historisch federaal opgezette belasting; (2) sinds BFW (gewijzigd 2014) gewestelijk geworden; (3) gewest kan tarief + vrijstellingen wijzigen, MAAR de essentiële kenmerken (belastbaar feit, grondslag-bepaling) blijven federaal verankerd"
+      - "Autonome heffing — uitleg in 3 stappen: (1) gewest beslist zélf de belasting in te voeren; (2) geen federaal equivalent vereist; (3) gewest beslist over alles: belastbaar feit + grondslag + tarief + vrijstellingen + procedure"
+      - "Concretiseer met de erfbelasting: dezelfde overledene (Wouter Vermeulen, fictief overlijden) zou in Vlaanderen → erfbelasting Vlaams Gewest, in Brussel → successierecht Brussels Gewest, in Wallonië → successierecht Waals Gewest. Allemaal dezelfde basis-grondslag (netto-aandeel verkrijger) maar drie verschillende tarieftabellen — dat is overgedragen-vrijheid in actie."
+      - "Contrasteer met leegstandsheffing bedrijfsruimten: dit BESTAAT alleen in Vlaanderen, op initiatief van het Vlaams Gewest, met eigen criteria + eigen tariefschijven (VCF Titel 2.6). Brussel + Wallonië hebben aparte leegstandsheffingen op andere doelgroepen (gebouwen, woningen) — geen identieke kopie."
+      - "Synthese (vetgedrukt): bij elke gewestelijke heffing: vraag eerst of ze overgedragen of autonoom is — dat bepaalt of een tarief-verschil tussen gewesten 'normaal' is of een echte autonomie-keuze."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Overgedragen", "Autonoom"]
+        rijen:
+          - ["Federaal equivalent?", "Ja — historisch federaal", "Nee — eigen creatie gewest"]
+          - ["Wie bepaalt belastbaar feit?", "Federaal verankerd in BFW art. 3", "Gewest"]
+          - ["Wie bepaalt tarief?", "Gewest", "Gewest"]
+          - ["Wie bepaalt vrijstellingen?", "Gewest", "Gewest"]
+          - ["Wie bepaalt procedure?", "Gewest (Titel 3 VCF, Br Codex, W Decreet)", "Gewest (eigen titel in codex)"]
+          - ["Voorbeeld", "OV · verkeer · BIV · registratie- + erfbelasting", "Vl: leegstand bedrijfsruimten + planbaten"]
+
+  - id: onroerende-voorheffing
+    titel: "Onroerende voorheffing — de overgedragen werkpaard"
+    niveau: 2
+    beats:
+      - "Open met de praktische realiteit: OV is voor de meeste belastingplichtigen de zwaarste jaarlijkse vastgoedbelasting na hypotheekrente"
+      - "Definitorisch: jaarlijkse gewestelijke belasting op onroerend goed, gebaseerd op het geïndexeerd kadastraal inkomen — sinds 6e staatshervorming volledig gewestelijk"
+      - "Introduceer kadastraal inkomen (KI) — voor wie het concept nog niet kent: het door AAPD (Algemene Administratie van de Patrimoniumdocumentatie, vroeger Kadaster) vastgestelde forfaitaire jaarlijkse netto-huurinkomen, geraamd naar referentietijdstip 1 januari 1975 (art. 486 WIB92). Jaarlijks geïndexeerd. KI 1.450 niet-geïndexeerd × indexcoëfficiënt aanslagjaar = geïndexeerd KI."
+      - "Toon de OV-formule en werk hem door op de eigen woning Vermeulen-Decoster in Lier"
+      - "Belangrijke nuance: 'opcentiem' is een vermenigvuldigingsfactor, geen procentuele opslag — 1.000 opcentiemen = 10× vermenigvuldigen (10/100 × 100 + 100 = 10× basis-tarief). Examen-valkuil bij snelle berekening."
+    kinderen:
+
+      - id: ov-formule
+        titel: "OV-formule + cijfer-voorbeeld"
+        niveau: 3
+        beats:
+          - "Toon de formule als KaTeX of in vet-tekst-formule"
+          - "Werk Vermeulen-case door: studio Knokke Wouter, KI 850 niet-geïndexeerd (plaatshouder uit voorbeeldgroep — exacte cijfers via [[bron://cijferzakboekje-2026]])"
+          - "Stap 1: geïndexeerd KI = niet-geïndexeerd KI × indexcoëfficiënt aanslagjaar (haalbaar via Cijferzakboekje of MCP `certificaid-tarieven`)"
+          - "Stap 2: basis-OV = geïndexeerd KI × 3,97 % (Vlaams gewestelijk tarief 2026)"
+          - "Stap 3: totale OV = basis-OV × (1 + (gemeentelijke opcentiemen + provinciale opcentiemen) / 100)"
+          - "Concretiseer met Knokke-Heist gemeentelijke + West-Vlaanderen provinciale opcentiemen → eindbedrag"
+          - "Waarschuwing/aside (blockquote): drempel-cijfers en exacte indexcoëfficiënt staan in het Cijferzakboekje 2026 — niet hardcoden, want jaarlijks bijgesteld"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Stap", "Formule", "Voorbeeld Vermeulen studio Knokke"]
+            rijen:
+              - ["1. Index KI", "niet-geïndexeerd KI × indexcoëfficiënt", "850 × ⚠️ (zie Cijferzakboekje 2026)"]
+              - ["2. Basis-OV Vlaams Gewest", "geïndexeerd KI × 3,97 %", "(geïndexeerd KI) × 0,0397"]
+              - ["3. Totale OV met opcentiemen", "basis-OV × (1 + (gem-opcentiemen + prov-opcentiemen) / 100)", "basis-OV × (1 + (gem-Knokke + 300-W.Vl.) / 100)"]
+
+      - id: ov-vergelijking-drie-gewesten
+        titel: "Drie gewesten — drie tarieven voor de OV"
+        niveau: 3
+        beats:
+          - "Toon de tabel met basis-tarief + indicatieve opcentiemen-range per gewest"
+          - "Vlaanderen heeft het HOOGSTE basistarief (3,97 %) maar veel verminderingen op gezinswoning + energie-prestatie + kinderen ten laste — effectief tarief vaak lager dan Brussel/Wallonië"
+          - "Brussel en Wallonië houden het oude federale 1,25 % als basistarief — eenvoudiger, minder verminderingen"
+          - "Concretiseer met scenario: dezelfde studio in Knokke (Vl) of in Oostduinkerke (Vl) → eindbedrag verschilt door gemeentelijke opcentiemen; dezelfde studio in Knokke (Vl) of De Haan op de andere kant van de West-Vlaamse kust → idem"
+          - "Wouter-vraag: hij overweegt later een tweede verblijf in Brussel-stad i.p.v. Knokke — voor OV maakt dat een verschil omdat Brussel basistarief 1,25 % heeft (versus Vlaanderen 3,97 %), maar de Brusselse gemeentelijke opcentiemen zijn doorgaans hoger. Netto: ⚠️ te bepalen met concrete cijfers per gemeente."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Gewest", "Basistarief OV", "Typische opcentiemen", "Bron"]
+            rijen:
+              - ["Vlaanderen", "3,97 %", "Gem: 700-2.500 · Prov: geplafonneerd sinds 2018", "VCF Titel 2.1 (art. 2.1.4.0.1)"]
+              - ["Brussel", "1,25 %", "Gem: 2.000-3.500 (hoger dan Vl) · Geen provincies meer", "Ord. Brusselse OV"]
+              - ["Wallonië", "1,25 %", "Gem: 1.000-3.000 · Prov: nog vrij vastgesteld", "Walloons fiscaal wetboek"]
+
+  - id: verkeersbelasting-en-biv
+    titel: "Verkeersbelasting + BIV — de mobiele werkpaarden"
+    niveau: 2
+    beats:
+      - "Open met het onderscheid: VERKEERSBELASTING is een JAARLIJKSE belasting zolang het voertuig is ingeschreven; BIV is een EENMALIGE belasting bij eerste inschrijving op naam van een nieuwe titularis"
+      - "Belangrijk om bij examen niet te verwarren — twee aparte heffingen, twee aparte momenten, andere grondslag"
+      - "Beide zijn overgedragen gewestbelastingen — alle gewesten heffen ze, maar Vlaanderen heeft sinds 2012 (BIV) en 2016 (verkeersbelasting) een ecoboni-malus-systeem ingebouwd dat CO₂ + euronorm + brandstof in rekening brengt; Brussel en Wallonië hanteren nog grotendeels de klassieke tabel uit het WIGB (Wetboek Inkomstenbelastingen Gelijkgestelde Belastingen) op basis van cilinderinhoud + ouderdom"
+      - "Geen opcentiemen toegelaten — VCF art. 2.3.4.2.2 verbiedt expliciet dat gemeenten/provincies/agglomeraties opcentiemen heffen op de BIV. Voor verkeersbelasting evenmin in Vlaanderen; in Brussel/Wallonië historisch wel een gemeente-deel maar geplafonneerd."
+    kinderen:
+
+      - id: verkeer-vermeulen
+        titel: "Vermeulen-voertuigen — drie cases"
+        niveau: 3
+        beats:
+          - "Werk drie voertuigen uit de voorbeeldgroep door"
+          - "Wagen 1: Audi A6 hybride (bedrijfswagen Wouter, 11 PK fiscaal, CO₂ 145 g/km, Vlaams). Vlaamse verkeersbelasting: gemoduleerd systeem — basisbedrag × CO₂-correctie × brandstof+euronorm-correctie. Hybride = lichte boni op brandstof; 145 g CO₂ = malus op CO₂. Concreet bedrag via Cijferzakboekje 2026."
+          - "Wagen 2: Renault Master bestelwagen (Vermeulen Constructie BV). Bedrijfsvoertuig — andere tariefcategorie (vrachtwagen-vergelijking op nuttige last) — niet onderworpen aan CO₂-modulering Vlaanderen."
+          - "Wagen 3: Peugeot 208 Sofie (Wallonië). Waalse verkeersbelasting volgt klassieke cc-tabel + nog éco-malus-component bij BIV — vergelijk met Vlaams systeem voor zelfde wagen → cijferverschil illustreert overgedragen-vrijheid in actie"
+          - "Synthese: drie gewesten + drie tarief-systemen voor dezelfde wagen — daar zit de gewestelijke fiscale autonomie concreet"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Voertuig", "Verkeersbelasting Vl (jaar)", "BIV Vl (eenmalig)", "BIV Wallonië (eenmalig)"]
+            rijen:
+              - ["Audi A6 hybride 11 PK CO₂ 145", "⚠️ (~250-400 EUR Cijferzakboekje 2026)", "⚠️ (boni-malus + CO₂)", "⚠️ (cc-tabel + éco-malus)"]
+              - ["Renault Master bestelwagen", "⚠️ (forfait bedrijfsvoertuig)", "n.v.t. (na 1ste inschrijving)", "n.v.t."]
+              - ["Peugeot 208 Sofie Wallonië", "n.v.t. — Waalse heffing", "n.v.t.", "⚠️ (cc-tabel + éco-malus)"]
+
+      - id: oldtimer-en-vrijstellingen
+        titel: "Oldtimer-tarief + elektrisch — gewest-keuzes"
+        niveau: 3
+        beats:
+          - "Vlaanderen: elektrische wagens 0 EUR verkeersbelasting + 0 EUR BIV sinds 2016 (volledige vrijstelling — beleids­keuze)"
+          - "Oldtimer-tarief: voor voertuigen ≥ 25 jaar vlak verminderd forfait — voorwaarden cumulatief: origineel, beperkt gebruik (geen woon-werk), bewijs"
+          - "Brussel/Wallonië volgen Vlaanderen niet op elektrisch — daar nog wel BIV verschuldigd (vermindering, niet 0)"
+          - "Pedagogisch belang: tarief-keuze is een beleids­hefboom — Vlaanderen gebruikt verkeersbelasting + BIV als ecologische instrumenten, Brussel/Wallonië minder uitgesproken"
+
+  - id: leegstandsheffing-bedrijfsruimten
+    titel: "Leegstandsheffing bedrijfsruimten — de autonome bestraffer"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie van deze heffing: dit is dé voorbeeld-autonome gewestbelasting in het programma — geen federaal equivalent, volledig Vlaams uitgevonden, beleidsgericht (anti-leegstand)"
+      - "Definitorisch: Vlaamse heffing op onroerend goed met economische bestemming dat langer dan een welbepaalde periode leeg of verwaarloosd is. Decreet 19 april 1995 inzake heffing op leegstaande en/of verwaarloosde bedrijfsruimten + verder uitgewerkt in VCF Titel 2.6."
+      - "Mechaniek in twee stappen — dit MOET de stagiair kunnen reproduceren"
+      - "Stap 1 — INVENTARIS-OPNAME: gemeente of Vlaamse administratie stelt vast dat een bedrijfsruimte leeg is (≥ 12 opeenvolgende maanden ≥ 50 % van oppervlakte) of verwaarloosd (zichtbare structurele gebreken). Opname in de Vlaamse inventaris leegstaande/verwaarloosde bedrijfsruimten."
+      - "Stap 2 — HEFFING: eerste jaar inventaris-opname = waarschuwingsjaar (geen heffing). Vanaf jaar 2 (= volgend op de derde opeenvolgende registratie volgens VCF art. 2.6.7.0.1) progressief stijgend tarief. Belastingplichtige op 1 januari = eigenaar of houder zakelijk recht."
+      - "Concretiseer met Vermeulen-case: bedrijfsruimte Aalst (eigendom Vermeulen Constructie BV, 1.800 m² verlaten loods, leegstand sinds 2023, opgenomen in inventaris 2024). Aanslagjaar 2026: inventaris-jaar 2 → eerste effectieve heffing. Vermeld dat het tarief progressief stijgt (jaar 2 → jaar 3 → jaar 4) en exacte bedragen in VCF + uitvoeringsbesluiten + Cijferzakboekje."
+      - "Schrapping uit inventaris: ofwel effectief hergebruik (≥ 50 % oppervlakte ≥ 6 opeenvolgende maanden in actief economisch gebruik) ofwel sloop of fundamentele renovatie. Voor Vermeulen Constructie BV: ofwel verkopen ofwel herbestemmen → wegwerken van de schuldgenererende status."
+      - "Aside (blockquote): gemeentelijke opcentiemen op deze heffing zijn toegelaten (VCF art. 2.6.4.0.2) — een gemeente kan de heffing dus VERZWAREN. Voor cliënt-advies: kijk niet alleen naar de Vlaamse tabel maar ook naar het gemeente-niveau."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Inventaris-jaar", "Status", "Heffing"]
+        rijen:
+          - ["1ste jaar", "Inventaris-opname — waarschuwing", "Geen heffing"]
+          - ["2de jaar", "Eerste registratie", "Geen heffing"]
+          - ["3de jaar", "Tweede registratie", "Geen heffing"]
+          - ["4de jaar e.v.", "Derde opeenvolgende registratie + volgende jaren", "Heffing verschuldigd — progressief tarief (Cijferzakboekje 2026)"]
+
+  - id: planbatenheffing
+    titel: "Planbatenheffing — de autonome meerwaarde-pakker"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische functie: tweede klassieke autonome Vlaamse heffing. Anders dan leegstand (bestraffend), is planbaten EVENWICHTS-belasting — wanneer een overheid via planning waarde toevoegt aan een perceel, pakt ze een deel van die waardestijging."
+      - "Definitorisch: Vlaamse gewestbelasting op de meerwaarde van een perceel die ontstaat wanneer een ruimtelijk uitvoeringsplan (RUP) of bijzonder plan van aanleg (BPA) de bestemming wijzigt naar een waardevollere categorie — typisch agrarisch/natuur → wonen/industrie/recreatie. Rechtsgrond: VCRO art. 2.6.4 t.e.m. 2.6.18, inning via VCF Titel 3."
+      - "Mechaniek (uniek qua belastingrecht): meerwaarde = forfait per m² × oppervlakte, met progressief tarief in vijf schijven van 5 % tot 30 %. Schijfgrenzen jaarlijks geïndexeerd — Cijferzakboekje 2026 of Vlabel-overzicht."
+      - "Concretiseer met Vermeulen-grond Geraardsbergen: 1,2 ha agrarisch (erfenis Wouter vader 2018) → in 2025 RUP-wijziging naar woongebied. Heffing-schuld ontstaat bij definitieve bestemmingswijziging, MAAR betaling wordt opgeschort tot 'realisatie' = verkoop of bouwvergunning. Wouter kan dus jaren wachten met betaling als hij niet verkoopt of bouwt."
+      - "Belangrijke nuance: deze opschorting-tot-realisatie is unieke regel — bij OV/verkeer/BIV betaal je elk jaar of bij elke handeling; bij planbaten ontstaat de SCHULD bij plan-wijziging maar betaal je pas bij realisatie. Voor advies aan vermogende cliënten: 'wachten met verkopen' = wachten met betalen."
+      - "Brussel en Wallonië hebben geen identieke planbatenheffing — wel vergelijkbare 'plus-values d'urbanisme' maar afzonderlijk geregeld, niet in dezelfde codex. Voor multi-gewestelijk advies: niet veronderstellen dat de mechaniek transponeerbaar is."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Element", "Planbatenheffing Vlaanderen"]
+        rijen:
+          - ["Belastbaar feit", "Definitieve goedkeuring RUP/BPA met bestemmings­wijziging naar hogere waarde"]
+          - ["Grondslag", "Forfaitaire meerwaarde per m² × oppervlakte (verschil oude vs nieuwe bestemming)"]
+          - ["Tarief", "Progressief in 5 schijven (5 % tot 30 %) — schijfgrenzen jaarlijks geïndexeerd"]
+          - ["Wanneer schuld?", "Bij definitieve bestemmings­wijziging (RUP-goedkeuring)"]
+          - ["Wanneer betaalbaar?", "Bij realisatie: verkoop, bouwvergunning, of vrijwillig bij gewest"]
+          - ["Procedure", "VCF Titel 3 (Vlabel) — bezwaar 3 maanden vanaf aanslagbiljet"]
+
+  - id: aanvullende-gewestelijke-pb
+    titel: "Aanvullende gewestelijke personenbelasting — het derde mechanisme"
+    niveau: 2
+    beats:
+      - "Open met de positionering: dit is GEEN aparte belasting maar een opcentiemen-mechanisme bovenop de federale PB — sinds 6e staatshervorming (2014) een gewestbevoegdheid binnen de federale PB-cascade"
+      - "Mechaniek: federale wetgever berekent de PB volgens WIB92; gewest mag opcentiemen heffen op de 'gewestelijke schijf' van die berekende PB (BFW art. 5/1 + WIB92 art. 96/1-96/4)"
+      - "Belangrijke nuance — verwar niet met aanvullende gemeentebelasting PB! De aanvullende GEWESTELIJKE PB zit verwerkt in de federaal opgemaakte aanslag (eindbedrag PB houdt al rekening met gewest-opcentiemen); de aanvullende GEMEENTELIJKE PB komt daarna nog eens op het totaal-bedrag. Uitwerking gemeentelijk niveau in [[gemeente-en-provinciebelastingen]]."
+      - "Praktisch effect: de drie gewesten kunnen hun PB-bewoners verschillend belasten via opcentiemen (verhoging) of kortingen (vermindering); ze kunnen ook eigen belastingverminderingen invoeren — woonbonus (Vl, uitgedoofd voor leningen ≥ 2020 maar overgangsregime), chèque habitat (W), enz."
+      - "Aside (blockquote): inhoudelijke tarieven + verminderingen wonen materieel in PO 2.1 (Personenbelasting) en in [[gewestelijke-belastingverminderingen-pb]]. Hier alleen vermelden dat de bevoegdheid bestaat en hoe ze grondwettelijk-mechanisch is opgehangen."
+
+  - id: registratie-en-erf-cross-verwijzing
+    titel: "Registratie- en erfbelasting — kort kruisverwijzing"
+    niveau: 2
+    beats:
+      - "Korte sectie: registratie- en erfbelasting zijn klassieke overgedragen gewestbelastingen (BFW art. 3, eerste lid, 4° + 8°)"
+      - "Tarieven + vrijstellingen verschillen STERK per gewest (Vlaanderen heeft sinds 2018 hertekend tarieven erfbelasting in rechte lijn; Brussel en Wallonië werken nog met hun aangepaste W.Succ.)"
+      - "Voor inhoudelijke tarieven, abattementen, fictiebepalingen: doorklik naar PO 2.6. Hier alleen vermelden dat de bevoegdheid 'gewestelijk' is + lokalisatie-regel: erfbelasting volgt LAATSTE FISCALE WOONPLAATS van de overledene (5-jaarsregel bij verhuis); schenkbelasting volgt fiscale woonplaats SCHENKER op datum schenking."
+      - "Synthese: deze twee heffingen passen in de OVERGEDRAGEN-categorie — gewest beslist over tarief, federale grondslag-structuur blijft (nettoaandeel verkrijger, akte-trigger)"
+      - "Verwijzing naar [[geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer]] voor het concrete advies bij vermogensoverdracht in de Vermeulen-familie"
+    type_blokken: korte-sectie
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): basis-OV-tarief verwarren tussen gewesten. Vlaanderen 3,97 % is HOGER dan Brussel/Wallonië 1,25 %, maar dat zegt nog niets over de effectieve aanslag — gemeentelijke opcentiemen wegen zwaarder. Vermijd het reflex 'Vlaanderen is duurder voor OV' zonder concrete cijfers per gemeente."
+      - "Valkuil 2 (⚠️): planbatenheffing-schuld vs planbatenheffing-betaling. De SCHULD ontstaat bij RUP-goedkeuring; de BETALING wordt opgeschort tot realisatie (verkoop/vergunning). Bij examen: 'wanneer ontstaat de schuld?' ≠ 'wanneer moet je betalen?'"
+      - "Valkuil 3 (⚠️): leegstandsheffing bedrijfsruimten verwarren met gemeentelijke leegstandsheffing. Vlaamse heffing (VCF Titel 2.6) = bedrijfsruimten + economisch bestemde panden. Gemeentelijke leegstandsheffing (sui-generis-reglement) = vaak woningen + andere panden. Twee verschillende heffingen, twee verschillende grondslagen — opcentiemen op Vlaamse leegstand zijn wel toegelaten (VCF art. 2.6.4.0.2), maar dat is GEEN parallelle gemeentelijke heffing."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: gemeente-en-provinciebelastingen
+      hint: "Drie hefbomen lokaal — aanvullende PB, opcentiemen OV, sui-generis — en de wettigheidstoets in 4 criteria."
+    - slug: procedure-gewest-en-gemeente
+      hint: "Vlabel-bezwaar 3 maanden, Brussel + Wallonië-verschillen, college-bezwaar tegen gemeentebelasting."
+    - slug: geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer
+      hint: "Synthese — gewestelijke heffingen in concreet advies bij familievermogen."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — overgedragen vs autonoom + drie-gewesten-tabel."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [onroerende-voorheffing, kadastraal-inkomen, gemeentelijke-opcentiemen-onroerende-voorheffing]
+    - concepten: [verkeersbelasting, belasting-inverkeerstelling]
+    - concepten: [leegstandsheffing-bedrijfsruimten, planbatenheffing]
+    - concepten: [gewestelijke-fiscale-autonomie, gewestelijke-belastingverminderingen-pb, registratie-en-successierechten, erfbelasting]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Lijst overgedragen gewestbelastingen"
+    ref: "Bijzondere Financieringswet 16.01.1989 (BFW) art. 3"
+    noot: "Registratierechten op onroerende overdrachten · schenkbelasting · erfbelasting · onroerende voorheffing · verkeersbelasting · BIV · eurovignet · spelen-en-weddenschappen. Voor Vlaanderen volledig overgenomen in VCF."
+  - onderwerp: "Vlaamse Codex Fiscaliteit — overzicht relevante titels"
+    ref: "Decreet 13.12.2013 — VCF"
+    noot: "OV = Titel 2.1 (basistarief 3,97 % art. 2.1.4.0.1); verkeersbelasting = Titel 2.2; BIV = Titel 2.3 (verbod opcentiemen art. 2.3.4.2.2); leegstandsheffing bedrijfsruimten = Titel 2.6 (heffing vanaf 3de opeenvolgende registratie — art. 2.6.7.0.1; opcentiemen toegelaten — art. 2.6.4.0.2); procedure = Titel 3."
+  - onderwerp: "Kadastraal inkomen als grondslag OV"
+    ref: "WIB92 art. 486 (vaststelling KI) + art. 518 (indexering)"
+  - onderwerp: "Planbatenheffing — rechtsgrond"
+    ref: "Vlaamse Codex Ruimtelijke Ordening (VCRO) art. 2.6.4 t.e.m. 2.6.18"
+    noot: "Inning volgens VCF Titel 3."
+  - onderwerp: "Verbod opcentiemen gemeente/provincie op federale directe belastingen"
+    ref: "WIB92 art. 464"
+    noot: "Uitzondering: aanvullende gemeentebelasting PB (art. 465-470/2) is uitdrukkelijk toegelaten."
+  - onderwerp: "Toelating opcentiemen op OV en op leegstand"
+    ref: "WIB92 art. 464/1 + VCF art. 2.1.4.0.2 + VCF art. 2.6.4.0.2"
+  - onderwerp: "Aanvullende gewestelijke PB"
+    ref: "BFW art. 5/1 e.v. (versie 2014) + WIB92 art. 96/1 t.e.m. 96/4"
+  - onderwerp: "Lokalisatie erfbelasting + schenkbelasting"
+    ref: "BFW art. 5 §2"
+    noot: "Erfbelasting: laatste fiscale woonplaats overledene + 5-jaarsregel. Schenkbelasting onroerend goed: fiscale woonplaats schenker op datum schenking."
+  - onderwerp: "Brusselse + Waalse gewestelijke fiscale codes (kort)"
+    ref: "Ord. 6 maart 2019 — Brusselse Codex Fiscale Procedure (⚠️ te verifiëren via primaire bron) · Decreet 6 mei 1999 — Waalse vestiging, invordering, geschillen"
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Grondwettelijk Hof — proportionaliteit gewestelijke autonome heffingen"
+    inhoud: "Het Grondwettelijk Hof toetst gewestelijke autonome belastingen (zoals planbatenheffing, leegstandsheffing) aan het gelijkheidsbeginsel + proportionaliteitseis: het tarief en de modaliteiten mogen niet kennelijk onredelijk zijn ten opzichte van het beoogde beleidsdoel. Vaste rechtspraak bij planbatenheffing (meerwaarde-pakker) en leegstand (anti-leegstand-instrument). Concrete arrest-referenties: nader te bevestigen via primaire bron."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; specifieke arrest-nummers laten we hier open, in samenvatting of synthese-leerstuk kan een specifieke ankerzaak toegevoegd worden"
+
+footer: "Leerstuk PO 2.7. Status: voorgesteld — POC volgens ADR-037."

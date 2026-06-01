@@ -1,0 +1,247 @@
+# Leerstuk-script — Wat zijn regionale en lokale belastingen?
+#
+# PO 2.7 leerstuk 1 (entry + bevoegdheidskader). Zet de fiscale driehoek
+# federaal — gewest — gemeente neer, met grondwettelijke basis (art. 170,
+# 41, 162 GW) + Bijzondere Financieringswet 16.01.1989. Roept de drie
+# gemeenschappelijke principes (legaliteit · gelijkheid · non-bis-in-idem)
+# eenmalig op; latere leerstukken roepen ze terug.
+#
+# Hand-off: dit leerstuk introduceert de begrippen "overgedragen vs autonoom"
+# (uitleg ondergebracht in leerstuk 2) en "belastingreglement" (uitleg
+# ondergebracht in leerstuk 3) — hier alleen vermelden, niet uitwerken.
+
+meta:
+  slug: wat-zijn-regionale-en-lokale-belastingen
+  titel: "Wat zijn regionale en lokale belastingen?"
+  po: "2.7"
+  cluster: regionale-en-lokale-fiscaliteit
+  voorbeeldgroep: vermeulen-stranddorp
+  beschrijving: >
+    Leerstuk PO 2.7 — entry + bevoegdheidskader: de fiscale driehoek
+    federaal · gewest · gemeente met grondwettelijke + BFW-basis,
+    en de drie gemeenschappelijke principes (legaliteit, gelijkheid,
+    non-bis-in-idem) als fundament van alle latere leerstukken.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar de overzichtspagina van
+    PO 2.7 en aankondiging dat wikilinks naar concept-fiches en broer-
+    leerstukken doorheen de tekst zullen verschijnen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: regionale en lokale belastingen = alle belastingen onder federaal niveau, geheven door gewesten + provincies + gemeenten, elk met eigen bevoegdheid om grondslag/tarief/vrijstellingen vast te stellen."
+    - "Drie grondwettelijke kapstokken: art. 170 GW (legaliteit) — art. 41 GW (gemeente/provincie autonoom voor eigen belangen) — art. 162 GW (instellingen bij wet geregeld); en de Bijzondere Financieringswet van 16 januari 1989 die gewest-bevoegdheden lijst."
+    - "Drie principes die overal gelden: (1) geen belasting zonder norm op het juiste niveau · (2) gelijke behandeling van gelijke gevallen · (3) non-bis-in-idem (geen dubbele belasting op dezelfde grondslag, behoudens uitdrukkelijk toegelaten)."
+  visualisaties:
+    - type: mermaid
+      ref: bevoegdheidsdriehoek
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'In dit leerstuk leg ik de drie niveaus + drie principes vast — de andere leerstukken bouwen hierop verder.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-niveaus-fiscaliteit
+    titel: "De drie niveaus van Belgische fiscaliteit"
+    niveau: 2
+    beats:
+      - "Open met de bevinding dat België geen unitair fiscaal systeem heeft — sinds opeenvolgende staatshervormingen wonen er drie niveaus naast elkaar in dezelfde portemonnee"
+      - "Federaal niveau introduceren: PB, VenB, BTW, accijnzen, douane — basis WIB92 + Btw-Wetboek + W.Acc."
+      - "Gewestelijk niveau introduceren: drie gewesten met eigen fiscale bevoegdheden — onroerende voorheffing, verkeersbelasting, BIV, eurovignet, registratie- en erfbelasting + autonome heffingen zoals leegstand en planbaten"
+      - "Lokaal niveau introduceren: gemeenten + provincies met aanvullende belastingen op federale/gewestelijke heffingen + eigen sui-generis-belastingen"
+      - "Concreet voorbeeld uit Vermeulen-case: één cliënt (Wouter, woont in Lier — Vlaams Gewest) betaalt parallel aan FOD Financiën (federale PB), Vlabel (OV Lier-woning + verkeersbelasting wagen), gemeente Lier (aanvullende PB-belasting + opcentiemen OV) en provincie Antwerpen (provinciale opcentiemen OV). Vier facturen voor één leven."
+      - "Synthese (vetgedrukt): elke belasting heeft één bevoegd niveau — voor advies + aangifte + bezwaar moet je dat eerst correct identificeren"
+    visualisaties:
+      - type: mermaid
+        ref: bevoegdheidsdriehoek
+        bron: voorbeeldgroep
+
+  - id: grondwettelijk-fundament
+    titel: "Het grondwettelijk fundament"
+    niveau: 2
+    beats:
+      - "Open met de stelling: elk fiscaal niveau ontleent zijn bevoegdheid aan een grondwettelijke bepaling — geen niveau verzint zijn eigen bevoegdheid"
+      - "Toon de tabel met drie GW-artikelen + één bijzondere wet — voor elk: welk niveau · welke bevoegdheid · welke randvoorwaarde"
+      - "Belangrijke nuance over art. 170 §2 GW: gewesten heffen via decreet of ordonnantie, maar enkel binnen wat de BFW als 'gewestbevoegdheid' aanduidt"
+      - "Synthese: één hiërarchie van normen — wet > decreet/ordonnantie > belastingreglement; elk niveau respecteert de grenzen van het hogere"
+    kinderen:
+
+      - id: tabel-grondwettelijk-fundament
+        titel: "Tabel — vier rechtsgronden van Belgische fiscaliteit"
+        niveau: 3
+        beats:
+          - "Toon vier-rij tabel met telkens: rechtsgrond · niveau · soort norm · voorbeeld"
+          - "Wijs aan dat art. 170 GW alle vier paragraven combineert in één artikel — het is de centrale bepaling"
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Rechtsgrond", "Niveau", "Norm-instrument", "Voorbeeld"]
+            rijen:
+              - ["Art. 170 §1 GW", "Federaal", "Wet (door Kamer + Senaat)", "WIB92, Btw-Wetboek"]
+              - ["Art. 170 §2 GW + BFW 16.01.1989 art. 3", "Gewest", "Decreet (Vl, W) / Ordonnantie (Br)", "VCF, Brusselse Codex Fiscale Procedure, Waals Decreet 6.5.1999"]
+              - ["Art. 170 §3 GW + art. 41 GW", "Provincie", "Provinciaal belastingreglement (raadsbeslissing)", "Provinciale opcentiemen OV West-Vlaanderen"]
+              - ["Art. 170 §4 GW + art. 41 + art. 162 GW", "Gemeente", "Gemeentelijk belastingreglement (raadsbeslissing)", "Aanvullende gemeentebelasting PB Stranddorp + reglement tweede verblijven"]
+
+  - id: drie-categorieen-bevoegdheid
+    titel: "Drie categorieën gewestelijke fiscale ontvangsten — de scharnier"
+    niveau: 2
+    beats:
+      - "Open met de scharnierende vraag: 'wie bepaalt het tarief?' — daar zit de hele bevoegdheidskwestie"
+      - "Introduceer DRIE categorieën van gewestelijke fiscale ontvangsten — dit is een sleutel-onderscheid dat in leerstuk 2 verder uitgewerkt wordt"
+      - "Categorie 1: EIGEN gewestbelastingen — gewest bepaalt alles (grondslag, tarief, vrijstellingen). BFW art. 3 lijst ze op: registratie-, schenk- en erfbelasting · onroerende voorheffing · verkeersbelasting · BIV · eurovignet · spelen-en-weddenschappen. Op deze categorie heeft het gewest VOLLE autonomie."
+      - "Categorie 2: GEDEELDE / OVERGEDRAGEN belastingen — federaal heft de belasting + houdt de grondslag in handen, gewest mag enkel een aandeel of marge. Belangrijkste: gewestelijke aanvullende PB via opcentiemen of kortingen (sinds 6e staatshervorming 2014)."
+      - "Categorie 3: AUTONOME gewestbelastingen — gewest verzint een nieuwe heffing op een eigen materie (geen federaal equivalent). Vlaamse voorbeelden: leegstandsheffing bedrijfsruimten + planbatenheffing — uitgewerkt in [[gewestelijke-heffingen-overgedragen-en-autonoom]]"
+      - "Concretiseer: tarief Vlaamse erfbelasting in rechte lijn ≠ tarief Brusselse ≠ tarief Waalse — drie gewesten, drie regimes voor dezelfde belasting. Sofie (Wallonië) die studio van Wouter erft: Vlaamse erfbelasting van toepassing (5-jaarsregel, laatste fiscale woonplaats overledene)."
+      - "Verwijs door naar [[gewestelijke-heffingen-overgedragen-en-autonoom]] voor de techniek en de gewest-vergelijking"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Categorie", "Wie bepaalt grondslag + tarief?", "Voorbeelden"]
+        rijen:
+          - ["**Eigen gewestbelastingen** (overgedragen)", "Gewest — volle autonomie binnen BFW", "Onroerende voorheffing · verkeersbelasting · BIV · registratie- + erfbelasting"]
+          - ["**Aanvullende belastingen op federale heffing**", "Federaal bepaalt grondslag; gewest kiest enkel opcentiem/korting op gewest-aandeel", "Gewestelijke opcentiemen op PB · gewestelijke belastingverminderingen PB (woonbonus, chèque habitat)"]
+          - ["**Autonome gewestbelastingen**", "Gewest — eigen materie, geen federaal equivalent", "Leegstandsheffing bedrijfsruimten (Vl) · planbatenheffing (Vl)"]
+
+  - id: lokaal-eigen-aard
+    titel: "Het lokale niveau — gemeente + provincie"
+    niveau: 2
+    beats:
+      - "Open met het verschil tussen lokaal en gewestelijk: gemeente + provincie hebben geen lijst van toegewezen belastingen, maar een algemene bevoegdheid om te heffen op alles wat federaal of gewestelijk niet verboden is"
+      - "Twee soorten lokale heffingen — dit is geen detail maar de werkverdeling: (a) AANVULLENDE belastingen op een hogere heffing (federale PB, gewestelijke OV); (b) SUI-GENERIS-belastingen — eigen heffing op een eigen feit (hond houden, terras op openbaar domein, tweede verblijf, leegstand)"
+      - "Concretiseer met gemeente Stranddorp uit de voorbeeldgroep: 7,8 % aanvullende gemeentebelasting PB · 950 opcentiemen op OV · drie sui-generis-reglementen (tweede verblijven · honden · terrassen)"
+      - "Wijs op het fundamentele verschil met federaal/gewestelijk: lokale heffing kan op nagenoeg elke economische activiteit of feitelijke situatie op het grondgebied, tenzij expliciet verboden — dat verklaart waarom gemeentereglementen zo divers zijn"
+      - "Verwijs door naar [[gemeente-en-provinciebelastingen]] voor de wettigheidstoets in 4 criteria + de drie hefbomen van gemeentelijke financiering"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Soort lokale belasting", "Mechaniek", "Voorbeeld bij gemeente Stranddorp"]
+        rijen:
+          - ["Aanvullende belasting", "% opslag op een hoger niveau", "7,8 % aanvullende gemeentebelasting PB · 950 opcentiemen OV"]
+          - ["Sui-generis-belasting", "Eigen heffing op eigen feit, vastgesteld bij gemeentelijk belastingreglement", "Belasting tweede verblijven (1.250 EUR/jaar) · hondenbelasting · terrasbelasting"]
+
+  - id: drie-principes
+    titel: "Drie principes die over alle niveaus heen gelden"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische lijn: de drie principes komen één keer hier voluit — latere leerstukken roepen ze terug zonder ze opnieuw uit te leggen"
+      - "Principe 1 — LEGALITEITSBEGINSEL (art. 170 GW): geen belasting zonder een geldige norm op het juiste niveau. Een gemeentereglement vastgesteld door het College i.p.v. de raad is nietig — geen delegatie van het heffingsrecht."
+      - "Principe 2 — GELIJKHEIDSBEGINSEL (art. 10-11 + 172 GW): gelijke gevallen worden gelijk behandeld; ongelijke behandeling kan, maar enkel met een objectieve en redelijke rechtvaardiging. Sluit aan bij de wettigheidstoets uit [[gemeente-en-provinciebelastingen]]."
+      - "Principe 3 — NON-BIS-IN-IDEM tussen niveaus: een lager niveau mag niet hetzelfde belastbaar feit raken dat al door een hoger niveau belast wordt, behoudens uitdrukkelijke toelating. Concrete uitwerking: WIB92 art. 464 verbiedt gemeenten + provincies om opcentiemen te heffen op PB, VenB, RPB of BNI. Uitzondering: aanvullende gemeentebelasting PB (art. 465 e.v. WIB92) is wel uitdrukkelijk toegelaten — daarom 'opcentiem' op gewestelijke OV mag, maar 'opcentiem' op federale PB niet (alleen aanvullende belasting)."
+      - "Concretiseer non-bis-in-idem met scenario: gemeente Stranddorp wil opcentiemen op de verkeersbelasting heffen — niet toegelaten, want VCF art. 2.3.4.2.2 verbiedt dat expliciet"
+      - "Synthese: deze drie principes zijn de filter waardoor élke heffing moet — een belastingreglement dat een principe schendt is nietig"
+
+  - id: bevoegdheids-puzzel-aanknopingspunten
+    titel: "Wie heft welke belasting? — de aanknopingspunten"
+    niveau: 2
+    beats:
+      - "Open met de praktijkvraag waar een accountant elke dag mee zit: 'mijn cliënt verhuist tussen gewesten — wat verandert er fiscaal?'"
+      - "Toon de tabel met aanknopingspunten per type belasting — een Vlaamse cliënt is GEEN automatisch Vlaamse cliënt voor alle belastingen"
+      - "Concretiseer met de familie Vermeulen: Wouter woont in Lier (Vlaams) maar bezit een studio in Knokke (Vlaams) + grond in Geraardsbergen (Vlaams) + een leegstand-pand in Aalst (Vlaams). Allemaal Vlaamse heffingen want alle vastgoed in Vlaanderen. MAAR dochter Sofie woont in Namen (Wallonië) — bij latere schenking aan Sofie blijft de schenkingsbelasting Vlaams (gewest waar de schenker fiscaal verblijft), niet Waals."
+      - "Belangrijke nuance: aanvullende gemeentebelasting PB volgt de fiscale woonplaats op 1 januari van het aanslagjaar (gemeente Lier voor Wouter, gemeente Brussel-stad voor Bram); onroerende voorheffing volgt de ligging van het goed; verkeersbelasting volgt de inschrijver-woonplaats"
+      - "Synthese: één cliënt kan voor verschillende belastingen tegelijk in twee of drie gewesten + meerdere gemeenten belast worden — de samenloop-analyse vraagt aandacht (uitgewerkt in [[geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer]])"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Belasting", "Aanknopingspunt"]
+        rijen:
+          - ["Personenbelasting (federaal) + aanvullende gemeentebelasting PB", "Fiscale woonplaats op 1 januari van het aanslagjaar"]
+          - ["Onroerende voorheffing + gemeentelijke/provinciale opcentiemen", "Ligging van het onroerend goed (gemeente + gewest waar perceel ligt)"]
+          - ["Verkeersbelasting + BIV", "Woonplaats van de titularis-inschrijver van het voertuig"]
+          - ["Erfbelasting", "Laatste fiscale woonplaats van de overledene (5-jaarsregel bij verhuis tussen gewesten — gewest waar overledene het langst woonde in de laatste 5 jaar vóór overlijden)"]
+          - ["Schenkbelasting onroerend goed", "Fiscale woonplaats van de schenker op datum schenking"]
+          - ["Sui-generis-gemeentebelasting", "Grondgebied van de gemeente die heft (waar het belastbaar feit zich voordoet)"]
+
+  - id: gemeenschapsbelastingen-dunne-laag
+    titel: "Een dunne laag: belastingen van de gemeenschappen"
+    niveau: 2
+    beats:
+      - "Korte sectie — de gemeenschappen (Vlaamse + Franse + Duitstalige) hebben fiscale bevoegdheden, maar in de praktijk heffen ze nauwelijks eigen belastingen"
+      - "Reden: gemeenschappen worden hoofdzakelijk gefinancierd via dotaties uit de federale begroting (BFW Titel III) — eigen fiscaliteit is marginaal"
+      - "Eén voorbeeld: kijk- en luistergeld (afgeschaft in alle gemeenschappen tegen 2018) — historisch een gemeenschapsbelasting"
+      - "Pedagogische functie hier: vermelden dat de bevoegdheid bestaat (programma-doelstelling 2.7.I.B.4), maar niet uitwerken — examen zal hier zelden op terugkomen"
+      - "Blockquote-aside: korte historische noot dat de federale wetgeving inzake gemeenschap-fiscaliteit beperkt bleef tot inning-grenzen en accijns-aandelen — geen autonoom belastingbeleid op gang gekomen"
+    type_blokken: korte-sectie
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): bevoegdheidsallocatie verwarren — 'Vlaamse cliënt = Vlaamse fiscaliteit voor alles' is fout. Per belasting opnieuw lokaliseren via het aanknopingspunt. Geef voorbeeld: een werknemer ingeschreven in Brussel die in Antwerpen werkt, betaalt aanvullende gemeentebelasting PB aan Brussel-stad (woonplaats), niet aan Antwerpen."
+      - "Valkuil 2 (⚠️): non-bis-in-idem verwarren met 'geen dubbele belasting'. Wat NIET mag: gemeente heft een nieuwe belasting op dezelfde grondslag als federale PB (verbod WIB92 art. 464). Wat WEL mag: gemeente heft aanvullende belasting op PB-aanslag (uitdrukkelijk toegelaten art. 465 e.v.). Zelfde feit kan dus meermaals belast worden, mits wettelijk toegelaten."
+      - "Valkuil 3 (⚠️): 'gemeentelijke opcentiem' verwarren met 'aanvullende gemeentebelasting PB' — dat zijn TWEE verschillende technieken. Opcentiem = vermenigvuldigingsfactor op een basis-tarief (Vl OV: 3,97 % × (1 + opcentiemen/100)). Aanvullende belasting = procentuele opslag op een eindaanslag (PB-aanslag × 7,8 %). Allebei lokaal, allebei procentueel, maar mechanisch anders — uitgewerkt in [[gemeente-en-provinciebelastingen]]."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: gewestelijke-heffingen-overgedragen-en-autonoom
+      hint: "Welke gewestelijke heffingen bestaan, wat is overgedragen vs autonoom, en hoe verschillen de drie gewesten?"
+    - slug: gemeente-en-provinciebelastingen
+      hint: "Drie hefbomen lokaal + de wettigheidstoets in 4 criteria — examen-favoriet."
+    - slug: procedure-gewest-en-gemeente
+      hint: "Vier procedure-routes met eigen termijnen + administraties + rechtsmiddelen."
+    - slug: geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer
+      hint: "Synthese — federale + gewestelijke + lokale fiscaliteit samen afwegen bij vestigingskeuze of vermogensoverdracht."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — bevoegdheidstabel + termijntabel + wettigheidstoets bij elkaar."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [lokale-en-regionale-belastingen, gewestelijke-fiscale-autonomie, lokale-fiscale-autonomie]
+    - concepten: [aanvullende-gemeentebelasting-pb, gemeentelijke-opcentiemen-onroerende-voorheffing]
+    - concepten: [registratie-en-successierechten, gewestelijke-belastingverminderingen-pb]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Legaliteitsbeginsel — federaal · gewest · provincie · gemeente"
+    ref: "Grondwet art. 170 §1-§4"
+    noot: "§1 federaal-wet; §2 gewest-decreet/ordonnantie; §3 provincie-raadsbeslissing; §4 gemeente-raadsbeslissing."
+  - onderwerp: "Gemeentelijke + provinciale autonomie voor eigen belangen"
+    ref: "Grondwet art. 41 + art. 162"
+  - onderwerp: "Gelijkheid + non-discriminatie inzake belastingen"
+    ref: "Grondwet art. 10-11 + art. 172"
+  - onderwerp: "Gewestelijke fiscale bevoegdheid — lijst eigen belastingen"
+    ref: "Bijzondere Financieringswet 16.01.1989 (BFW) art. 3"
+    noot: "Lijst van overgedragen gewestbelastingen: registratierechten op onroerende overdrachten + schenkbelasting + erfbelasting + onroerende voorheffing + verkeersbelasting + BIV + eurovignet + spelen-en-weddenschappen."
+  - onderwerp: "Aanvullende gewestelijke personenbelasting"
+    ref: "BFW art. 5/1 e.v. (versie 2014) + WIB92 art. 96/1-96/4"
+    noot: "Gewest kan opcentiemen + kortingen op gewestelijke schijf PB instellen + eigen belastingverminderingen."
+  - onderwerp: "Non-bis-in-idem — verbod gemeente/provincie opcentiemen op federale directe belastingen"
+    ref: "WIB92 art. 464"
+    noot: "Verbod opcentiemen op PB, VenB, RPB, BNI. Uitdrukkelijke uitzondering: aanvullende gemeentebelasting PB (art. 465-470/2) is wel toegelaten. Voor OV: art. 464/1 laat gemeentelijke + provinciale opcentiemen op de OV uitdrukkelijk toe."
+  - onderwerp: "Verbod opcentiemen op BIV"
+    ref: "WIGB art. 107 + VCF art. 2.3.4.2.2"
+  - onderwerp: "Vlaamse gewestelijke fiscale code"
+    ref: "Vlaamse Codex Fiscaliteit (Decreet 13.12.2013) — VCF"
+    noot: "Bundelt OV (Titel 2.1), verkeersbelasting (2.2), BIV (2.3), leegstandsheffing bedrijfsruimten (2.6), erfbelasting + registratiebelasting (2.7-2.8) en de procedure (Titel 3). Beheerd door Vlabel."
+  - onderwerp: "Brusselse gewestelijke fiscale procedure"
+    ref: "Ordonnantie van 6 maart 2019 — Brusselse Codex Fiscale Procedure"
+    noot: "⚠️ te verifiëren via primaire bron — niet rechtstreeks in RAG-corpus aanwezig; vermeld via concept-record gewestelijke-fiscale-procedure."
+  - onderwerp: "Waalse gewestelijke fiscale procedure"
+    ref: "Decreet van 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen"
+  - onderwerp: "Lokale belastingreglement — bevoegdheid gemeenteraad"
+    ref: "Grondwet art. 170 §4 + Decreet over het Lokaal Bestuur (Vl) + Wet 24.12.1996 (gemeente- en provinciebelastingen, federaal kader)"
+    noot: "⚠️ te verifiëren — Wet 24.12.1996 niet rechtstreeks in RAG-corpus aangetroffen; vermeld via concept-record lokale-belasting-reglement."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Grondwettelijk Hof — gelijkheidstoets gemeentelijke belastingen"
+    inhoud: "Vaste rechtspraak van het Grondwettelijk Hof: een gemeentelijk belastingreglement moet gelijke gevallen gelijk behandelen; ongelijke behandeling vereist een objectieve en redelijke rechtvaardiging die in verhouding staat tot het doel van het reglement (art. 10-11 + 172 GW). Toepassing op lokale belastingen wordt uitgewerkt in [[gemeente-en-provinciebelastingen]]."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd in tientallen GwH-arresten; specifieke arrest-referenties laten we open voor het synthese-leerstuk waar de wettigheidstoets concreet wordt toegepast"
+
+footer: "Leerstuk PO 2.7. Status: voorgesteld — POC volgens ADR-037."

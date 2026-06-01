@@ -1,0 +1,260 @@
+# Vermeulen & Stranddorp — dunne bindcase voor PO 2.7 leerstukken
+#
+# Geen Aurelia-achtige doorgaande mock-case. Fiscale leerstof heeft geen
+# doorgaande financiële draad — feiten verschillen per heffing (KI · voertuig ·
+# leegstand-inventaris · reglement-tekst). Daarom: een light-weight galerij
+# van mini-personages en mock-gemeentereglementen die in verschillende
+# leerstukken opduiken, elk met eigen feitenset.
+#
+# Wordt geconsumeerd door:
+#   - data/leerstukken/wat-zijn-regionale-en-lokale-belastingen.yaml (referenties als illustratie)
+#   - data/leerstukken/gewestelijke-heffingen-overgedragen-en-autonoom.yaml (Vermeulen-vastgoed)
+#   - data/leerstukken/gemeente-en-provinciebelastingen.yaml (gemeente Stranddorp reglementen — kern)
+#   - data/leerstukken/procedure-gewest-en-gemeente.yaml (Vermeulen-bezwaar)
+#   - data/leerstukken/geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer.yaml (familie-synthese — kern)
+#   - data/oefeningen/vermeulen-vermogen-en-vestiging.yaml (oefening — kern)
+#
+# Consistentie-toets:
+#   - Cijfers (KI, opcentiemen, tarieven) zijn alleen waar nodig en moeten
+#     in scripts-fase via MCP `certificaid-tarieven` of Cijferzakboekje
+#     bevestigd worden — geen training-only-cijfers.
+#   - Personages zijn fictief; rijksregisternummers, adressen, BTW-nummers niet ingevuld.
+
+naam: vermeulen-stranddorp
+beschrijving: >
+  Lichte bindcase voor PO 2.7 — Regionale en lokale belastingen. Bestaat uit
+  twee bouwstenen: (a) de familie Vermeulen-Decoster — een Vlaams gezin met
+  vastgoed verspreid over drie gewesten + een operationele BV, geschikt om
+  geïntegreerd fiscaal advies + samenloop tussen federaal, gewestelijk en
+  lokaal te illustreren; (b) een fictieve kustgemeente Stranddorp (provincie
+  West-Vlaanderen) met drie mock-belastingreglementen die de
+  wettigheidstoets-mechanica scherp stellen. De bindcase is bewust DUN —
+  leerstukken 1, 2, 4 leunen er kort op (als illustratie), leerstukken 3 en
+  5 + de oefening werken er uitgebreider mee.
+
+context_jaartal: "2026"
+
+# ---------------------------------------------------------------------------
+# DEEL A — Familie Vermeulen-Decoster
+# ---------------------------------------------------------------------------
+
+familie_vermeulen:
+
+  personen:
+    - naam: "Wouter Vermeulen"
+      leeftijd: 62
+      woonplaats_fiscaal: "Lier (Vlaams Gewest)"
+      beroep: "zaakvoerder Vermeulen Constructie BV"
+      gezinssituatie: "gehuwd met Annick Decoster, twee meerderjarige kinderen (Sofie en Bram)"
+      rol_in_cases: "hoofdpersonage — eigenaar vastgoed + zaakvoerder + plant vermogensoverdracht"
+
+    - naam: "Annick Decoster"
+      leeftijd: 60
+      woonplaats_fiscaal: "Lier (Vlaams Gewest)"
+      beroep: "loontrekkende (bediende)"
+      rol_in_cases: "voor PB-aanvullende belasting + gemeentelijke opcentiemen-illustratie"
+
+    - naam: "Sofie Vermeulen"
+      leeftijd: 32
+      woonplaats_fiscaal: "Namen (Waals Gewest) — sinds 2024"
+      beroep: "loontrekkende"
+      rol_in_cases: "ontvangster van geplande schenking studio Knokke → cross-PO 2.6 + cross-gewest scenario"
+
+    - naam: "Bram Vermeulen"
+      leeftijd: 28
+      woonplaats_fiscaal: "Brussel (Brussels Hoofdstedelijk Gewest)"
+      beroep: "zelfstandige in bijberoep"
+      rol_in_cases: "geen vastgoed — illustreert pure aanvullende gemeentebelasting PB-impact"
+
+  vastgoed:
+    - omschrijving: "Eigen woning Lier (Vlaams Gewest)"
+      eigenaar: "Wouter + Annick (50/50)"
+      kadastraal_inkomen_geindexeerd_2026: "⚠️ te bepalen via MCP `certificaid-tarieven` of Cijferzakboekje (KI 2026 = niet-geïndexeerd 1.450 × indexcoëfficiënt 2026)"
+      bestemming: "gezinswoning — federale vrijstelling onroerende voorheffing eigen woning Vlaams Gewest (sinds 2018: 100% gemeentelijke verminderingen mogelijk maar Vlaams Gewest heft geen OV op eigen woning sinds aanslagjaar 2008 + Brussel/Wallonië wel)"
+      rol_in_cases: "leerstuk 2 — verschillen OV-regimes per gewest op eigen woning"
+
+    - omschrijving: "Verhuurde studio Knokke-Heist (Vlaams Gewest)"
+      eigenaar: "Wouter (100%)"
+      kadastraal_inkomen_geindexeerd_2026: "⚠️ te bepalen — niet-geïndexeerd 850 als plaatshouder"
+      bestemming: "verhuurd aan particulieren — onroerende voorheffing + opcentiemen Knokke-Heist + mogelijke gemeentebelasting tweede verblijf (geldt voor eigenaar als hij er zelf zou verblijven; hier verhuurd dus n.v.t.)"
+      rol_in_cases: "leerstuk 2 (OV-cijfer) + leerstuk 5 (geplande schenking aan Sofie — cross-PO 2.6)"
+
+    - omschrijving: "Leegstaande bedrijfsruimte Aalst (Vlaams Gewest)"
+      eigenaar: "Vermeulen Constructie BV"
+      situatie: "verlaten loods 1.800 m² + bureel — leegstand sinds 2023; opgenomen in Vlaamse inventaris leegstaande en/of verwaarloosde bedrijfsruimten sinds 2024 (vermoede registratie-datum)"
+      rol_in_cases: "leerstuk 2 (leegstandsheffing bedrijfsruimten autonome heffing) + leerstuk 4 (bezwaar tegen registratie inventaris)"
+
+    - omschrijving: "Grond Geraardsbergen (Vlaams Gewest)"
+      eigenaar: "Wouter (100%) — erfenis van vader 2018"
+      situatie: "1,2 ha agrarisch gebied; bestemming gewijzigd naar woongebied via RUP gemeente Geraardsbergen in 2025"
+      rol_in_cases: "leerstuk 2 (planbatenheffing — autonome heffing) — illustreert progressieve tariefschijven"
+
+  voertuigen:
+    - omschrijving: "Bedrijfswagen Wouter — Audi A6 hybride, fiscaal vermogen 11 PK, CO₂ 145 g/km"
+      eigenaar: "Vermeulen Constructie BV"
+      gebruik: "professioneel + persoonlijk (VAA in PB)"
+      rol_in_cases: "leerstuk 2 — verkeersbelasting Vlaanderen + BIV (na aanschaf 2024) + cross-PO 2.1 voordeel-van-alle-aard"
+
+    - omschrijving: "Bestelwagen — Renault Master, professioneel"
+      eigenaar: "Vermeulen Constructie BV"
+      rol_in_cases: "leerstuk 2 — verkeersbelasting tarief bedrijfsvoertuig"
+
+    - omschrijving: "Privéwagen Sofie — Peugeot 208"
+      eigenaar: "Sofie (Wallonië)"
+      rol_in_cases: "leerstuk 1 — voor BIV-verschil Vl vs W (Wallonië past nog éco-malus toe)"
+
+  vennootschap:
+    naam: "Vermeulen Constructie BV"
+    rechtsvorm: BV
+    zetel: "Lier"
+    activiteit: "algemene aanneming bouwwerken"
+    boekjaar: "2025 (afsluitend 31-12-2025)"
+    omzet: "ca. 2,8 mio EUR"
+    werknemers: 8
+    rol_in_cases: "leerstuk 5 — adviesvraag of zetel verplaatsen naar Brussel voor lager onroerende-voorheffing-tarief; leerstuk 2 — voertuigen + leegstandsheffing op bedrijfspand"
+
+  vermogenstransfer_in_voorbereiding:
+    omschrijving: "Wouter overweegt schenking studio Knokke aan Sofie + grond Geraardsbergen aan Bram"
+    fiscale_uitdaging: "Sofie woont in Wallonië → schenkingsrechten op vastgoed worden geheven door het gewest waar schenker fiscaal verblijft (Vlaanderen, want Wouter) — niet door gewest van begunstigde. Maar mocht Wouter overlijden binnen 5 jaar zonder geregistreerde schenking: erfbelasting Vlaams Gewest op nalatenschap, ongeacht waar Sofie woont."
+    rol_in_cases: "leerstuk 5 — geïntegreerd advies-case + cross-PO 2.6 doorklik. NIET inhoudelijke tarieven (die leven in PO 2.6) — wel de bevoegdheidskeuze."
+
+# ---------------------------------------------------------------------------
+# DEEL B — Mock-gemeente Stranddorp (kustgemeente, prov. West-Vlaanderen)
+# ---------------------------------------------------------------------------
+
+gemeente_stranddorp:
+
+  beschrijving: >
+    Fictieve kustgemeente van middelgrote omvang (12.000 inwoners,
+    seizoenspopulatie 35.000) in West-Vlaanderen. Centraal in de bindcase
+    omdat een kustgemeente alle vier reglements-types laat zien: aanvullende
+    PB · opcentiemen OV · sui-generis-heffingen (tweede verblijven, terrassen,
+    leegstand) · combinatie met provinciale heffing. Wordt gebruikt om in
+    leerstuk 3 en de oefening de wettigheidstoets in 4 criteria op concrete
+    mock-reglementen toe te passen.
+
+  basisgegevens:
+    aanvullende_gemeentebelasting_pb: "7,8 % op de hoofdsom van de personenbelasting (binnen wettelijk plafond, vergelijkbaar met meeste kustgemeenten)"
+    opcentiemen_onroerende_voorheffing: "950 opcentiemen (boven gemiddelde — 8,5 % effectief tarief op basis 2,5 % Vlaams Gewest)"
+    provinciale_opcentiemen: "300 opcentiemen West-Vlaanderen"
+
+  mock_reglementen:
+
+    - naam: "Belasting op tweede verblijven 2026"
+      grondslag: "elk verblijf dat niet als hoofdverblijfplaats dient van een persoon ingeschreven in het bevolkingsregister"
+      tarief: "1.250 EUR / jaar / verblijf — forfaitair, geen progressie"
+      vrijstellingen: "verhuurde studio's met handelshuur > 8 maanden/jaar (op vraag); woningen in renovatie met vergunning < 12 maanden"
+      formaliteiten: "vastgesteld door gemeenteraad 15.10.2025; bekendgemaakt via webtoepassing 25.10.2025; goedkeuring toezicht binnen termijn"
+      examen_relevantie: "wettigheidstoets — formele OK; materiële toets: gelijkheidsbeginsel houdt (Grondwettelijk Hof aanvaardt onderscheid hoofdverblijf/tweede verblijf indien proportioneel)"
+      rol_in_cases: "leerstuk 3 — basisvoorbeeld wettigheidstoets dat correct doorstaat"
+
+    - naam: "Hondenbelasting 2026"
+      grondslag: "per hond gehouden door een inwoner; progressief naar aantal honden"
+      tarief: "50 EUR voor 1ste hond · 100 EUR voor 2de hond · 200 EUR voor elke volgende hond"
+      vrijstellingen: "blindengeleidehonden + assistentiehonden + bewakingshonden voor zelfstandige bewakingsondernemingen"
+      formaliteiten: "gemeenteraad 12.01.2026 — alarm: geen voorafgaande bekendmaking ontwerp? Bekendmaking definitief reglement op gemeente-website 20.01.2026."
+      examen_relevantie: "wettigheidstoets — TWIJFEL: progressieve tariefschijven zonder objectieve rechtvaardiging? Vrijstelling 'bewakingshonden bewakingsondernemingen' lijkt eigenbelang van bedrijven (gelijkheidsbeginsel?). Examen-vraag-stoffer."
+      rol_in_cases: "leerstuk 3 + oefening — wettigheidstoets-case waar minstens één criterium zwak is"
+
+    - naam: "Terras- en uitstalbelasting 2026"
+      grondslag: "per m² openbaar domein in gebruik voor terras of uitstalling"
+      tarief: "45 EUR/m²/jaar — uniform"
+      vrijstellingen: "ambachtelijke markten zaterdagen; kraampjes < 4 m² gedurende < 5 dagen/jaar"
+      formaliteiten: "ongewijzigd hernieuwd uit 2024, geen nieuwe gemeenteraadsbeslissing voor 2026 — alarm: belastingreglementen vervallen rechtsgeldigheid na termijn (max 6 jaar voor opcentiemen, jaarlijks vernieuwbaar voor sui-generis tenzij meerjarig vastgesteld)"
+      rol_in_cases: "leerstuk 3 — formele wettigheidsval (geldigheidsduur)"
+
+  rol_provincie_west_vlaanderen:
+    omschrijving: "Provincie West-Vlaanderen heft 300 opcentiemen op de OV — daarmee komt het totaaltarief op studio Knokke op (basis-OV × gemeente-opcentiemen × provincie-opcentiemen). Provinciebelastingen sinds 2018 in Vlaanderen afgebouwd voor andere heffingen — illustreert dat sub-sectie in leerstuk 3."
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagrammen — herbruikbaar voor leerstukken en samenvatting
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  bevoegdheidsdriehoek:
+    type: flowchart-td
+    code: |
+      F[Federaal<br/>PB · VenB · BTW · accijnzen<br/>art. 170 §1 GW]
+      G1[Vlaams Gewest<br/>OV · verkeer · BIV · erf · registratie<br/>BFW art. 3-4 + autonome]
+      G2[Brussels Hoofdstedelijk Gewest<br/>idem + eigen accenten]
+      G3[Waals Gewest<br/>idem + chèque habitat]
+      P[Provincie<br/>opcentiemen OV · enkele heffingen<br/>art. 41 GW · prov.decreet]
+      M[Gemeente<br/>aanvullende PB · opcentiemen OV · sui generis<br/>art. 162 GW · gemeentewet/WL24.12.1996]
+      F --> G1
+      F --> G2
+      F --> G3
+      G1 --> P
+      G1 --> M
+      G2 --> M
+      G3 --> P
+      G3 --> M
+
+  bezwaar-route-beslisboom:
+    type: flowchart-td
+    code: |
+      A[Welk soort heffing?]
+      A -->|Federale rijksbelasting<br/>WIB92 PB/VenB/BTW| B1[Federale adviseur-generaal<br/>WIB92 art. 366 · termijn 6 mnd]
+      A -->|Gewestelijke<br/>overgedragen of autonome| B2{Welk gewest?}
+      A -->|Lokale<br/>gemeente of provincie| B3[College B&S<br/>termijn 3 mnd · daarna fiscale rechtbank]
+      B2 -->|Vlaams| C1[Vlabel · VCF art. 3.5.1.0.1<br/>termijn 3 mnd]
+      B2 -->|Brussels| C2[Bruxelles Fiscalité · Ord. 6.3.2019<br/>termijn 3 mnd]
+      B2 -->|Waals| C3[Walfin · Walencode<br/>termijn 6 mnd]
+      C1 --> D[Fiscale rechtbank<br/>WIB92 art. 1385]
+      C2 --> D
+      C3 --> D
+      B3 --> D
+
+  wettigheidstoets-4-criteria:
+    type: flowchart-td
+    code: |
+      A[Reglement voorgelegd]
+      A --> B{1. Formele wettigheid<br/>gemeenteraad bevoegd?<br/>bekendmaking correct?<br/>geldigheidsduur?}
+      B -->|nee| F[Reglement OF aanslag<br/>nietig op formele grond]
+      B -->|ja| C{2. Materiële bevoegdheid<br/>territoriaal binnen gemeente?<br/>fiscale autonomie respecteerd?<br/>bovenmacht?}
+      C -->|nee| F
+      C -->|ja| D{3. Algemene rechtsbeginselen<br/>gelijkheid?<br/>proportionaliteit?<br/>willekeur?<br/>non-bis-in-idem WIB92 art. 464?}
+      D -->|nee| F
+      D -->|ja| E{4. Procedureregels<br/>aanslagprocedure correct?<br/>termijn aanslag?<br/>hoorrecht?}
+      E -->|nee| F
+      E -->|ja| G[Aanslag rechtsgeldig]
+
+# ---------------------------------------------------------------------------
+# Termijntabel — herbruikbaar voor leerstuk 4 + samenvatting
+# ---------------------------------------------------------------------------
+
+termijntabel_bezwaar:
+  - heffing: "Federale PB / VenB"
+    bron: "WIB92 art. 366 (bij wie) + art. 371 (termijn)"
+    bezwaarinstantie: "Adviseur-generaal van de fiscale administratie"
+    termijn: "1 jaar vanaf 3de werkdag volgend op verzending aanslagbiljet (WIB92 art. 371)"
+
+  - heffing: "Vlaamse gewestbelasting (OV · verkeer · BIV · erfbelasting · registratie)"
+    bron: "VCF art. 3.5.1.0.1"
+    bezwaarinstantie: "Vlabel"
+    termijn: "3 maanden vanaf datum aanslagbiljet"
+
+  - heffing: "Brusselse gewestbelasting"
+    bron: "Brusselse Codex Fiscale Procedure (Ord. 6.3.2019) art. 100"
+    bezwaarinstantie: "Bruxelles Fiscalité — Direction réclamations"
+    termijn: "186 dagen vanaf 7de dag na verzending aanslagbiljet (NIET 3 maanden — atypisch lange termijn, Brusselse Codex art. 100)"
+
+  - heffing: "Waalse gewestbelasting"
+    bron: "Décret 6 mai 1999 art. 25 (bezwaarrecht + termijn) + art. 25bis (ambtswege-werking)"
+    bezwaarinstantie: "SPW Fiscalité (Walfin)"
+    termijn: "6 maanden vanaf datum uitwerking kennisgeving (Décret 6 mei 1999 art. 25)"
+
+  - heffing: "Gemeentebelasting (sui generis · aanvullende · opcentiemen)"
+    bron: "Wet 24.12.1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen art. 9 ⚠️ te verifiëren"
+    bezwaarinstantie: "College van burgemeester en schepenen"
+    termijn: "3 maanden vanaf datum aanslagbiljet"
+
+  - heffing: "Provinciebelasting"
+    bron: "Wet 24.12.1996 art. 9 (provinciale variant) ⚠️ te verifiëren"
+    bezwaarinstantie: "Deputatie van de provincieraad"
+    termijn: "3 maanden vanaf datum aanslagbiljet"
+
+  - heffing: "Beroep tegen beslissing bezwaar (alle types)"
+    bron: "WIB92 art. 1385 / Ger.W."
+    bezwaarinstantie: "Rechtbank van eerste aanleg — fiscale kamer"
+    termijn: "3 maanden vanaf kennisgeving beslissing OF stilzitten 18 maanden na bezwaarschrift"

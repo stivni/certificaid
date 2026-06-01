@@ -1,0 +1,250 @@
+# Leerstuk-script — Gemeente- en provinciebelastingen + wettigheidstoets
+#
+# PO 2.7 leerstuk 3 (techniek 2 + reglementstoets). Drie hefbomen
+# gemeentelijke financiering (aanvullende PB · opcentiemen OV · sui generis)
+# + wettigheidstoets in 4 criteria (examen-favoriet) + provinciale belastingen
+# als laatste sub-sectie. Gemeente Stranddorp is hier de KERN-voorbeeldbron.
+#
+# Hand-off: bouwt op het bevoegdheidskader van leerstuk 1 + lokale niveau-
+# introductie. Procedure (bezwaarroute college + Raad van State) komt hier
+# als korte pointer, uitgewerkt in leerstuk 4.
+
+meta:
+  slug: gemeente-en-provinciebelastingen
+  titel: "Gemeente- en provinciebelastingen — drie hefbomen + wettigheidstoets"
+  po: "2.7"
+  cluster: regionale-en-lokale-fiscaliteit
+  voorbeeldgroep: vermeulen-stranddorp
+  beschrijving: >
+    Leerstuk PO 2.7 — de drie hefbomen waarmee gemeenten hun financiering
+    rondkrijgen (aanvullende PB · opcentiemen OV · sui-generis-belastingen) +
+    de wettigheidstoets in 4 criteria die elk reglement moet doorstaan,
+    illustratief uitgewerkt op de mock-reglementen van gemeente Stranddorp.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar PO 2.7-overzicht. Wijs erop
+    dat de wettigheidstoets in 4 criteria een vaste examenstof is en dat
+    gemeente Stranddorp uit de voorbeeldgroep drie concrete reglementen
+    aanlevert om de toets op toe te passen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: gemeenten financieren zich via DRIE hefbomen — aanvullende belasting op de federale PB, opcentiemen op de gewestelijke OV, sui-generis-belastingen op eigen feiten (honden, tweede verblijven, terrassen, leegstand)."
+    - "Elk gemeentelijk belastingreglement moet vier wettigheidscriteria doorstaan: (1) formele wettigheid (bevoegde raad + correcte bekendmaking + geldigheidsduur); (2) materiële bevoegdheid (territoriaal + geen federale/gewestelijke materie); (3) algemene rechtsbeginselen (gelijkheid + proportionaliteit + non-bis-in-idem); (4) procedureregels (aanslagprocedure + termijn + hoorrecht)."
+    - "Provinciale belastingen volgen identieke mechaniek, maar zijn in praktijk sinds 2018 in Vlaanderen sterk afgebouwd — provinciale opcentiemen op OV blijven het hoofdmechanisme."
+  visualisaties:
+    - type: mermaid
+      ref: wettigheidstoets-4-criteria
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst de drie hefbomen door, dan de wettigheidstoets op de mock-reglementen van gemeente Stranddorp.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: lokale-fiscale-autonomie
+    titel: "Lokale fiscale autonomie — het algemene kader"
+    niveau: 2
+    beats:
+      - "Open met het verschil met gewestelijk: gewest heeft een GELIJSTE bevoegdheid (BFW art. 3 lijst); gemeente + provincie hebben een ALGEMENE bevoegdheid om alles te belasten wat federaal of gewestelijk niet verboden is"
+      - "Grondslag: art. 170 §4 GW (legaliteit lokaal) + art. 41 GW (eigen belangen door eigen raad) + art. 162 GW (instellingen bij wet geregeld) — gezien in leerstuk 1, hier wordt het CONCREET"
+      - "Heffend orgaan = de GEMEENTERAAD (gemeentebelasting) of de PROVINCIERAAD (provinciale belasting). Het college van burgemeester en schepenen of de deputatie mag GEEN belasting heffen of moduleren bij eigen besluit — geen delegatie van het heffingsrecht. Dit is een harder principe dan op federaal niveau (waar de wetgever wel mag delegeren aan de Koning binnen grenzen)."
+      - "Concretiseer met Stranddorp: drie reglementen vastgesteld door gemeenteraad (tweede verblijven 15.10.2025 · honden 12.01.2026 · terrassen ongewijzigd hernieuwd uit 2024). Eén ervan heeft een geldigheids­probleem — dat komt in de wettigheidstoets-sectie aan bod."
+      - "Belangrijke nuance: 'algemene bevoegdheid' betekent niet 'onbegrensd'. Vier hard grenzen: (a) geen federale of gewestelijke materies belasten; (b) gelijkheids­beginsel; (c) proportionaliteit; (d) niet-confiscatoir karakter (geen uithollen eigendomsrecht). Die grenzen werken we uit in de toets."
+
+  - id: drie-hefbomen
+    titel: "Drie hefbomen — hoe gemeenten zich financieren"
+    niveau: 2
+    beats:
+      - "Open met de financieringsmix: voor de meeste gemeenten leveren de drie hefbomen sámen 60-80 % van de eigen fiscale ontvangsten op"
+      - "Toon de tabel met de drie hefbomen + hun mechanisme + hun aandeel"
+      - "Synthese: de drie hefbomen werken MECHANISCH anders maar zitten allemaal in hetzelfde gemeentereglement (één raadsbeslissing kan meerdere belastingen omvatten of het kan per belasting apart)"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Hefboom", "Mechanisme", "Voorbeeld Stranddorp"]
+        rijen:
+          - ["**Aanvullende belasting PB**", "% opslag op federale PB-aanslag van inwoners", "7,8 % op hoofdsom PB"]
+          - ["**Opcentiemen OV**", "Vermenigvuldigingsfactor op basis-OV (gewestelijk)", "950 opcentiemen → effectief tarief ≈ 3,97 % × 10,5 = 41,7 %"]
+          - ["**Sui-generis-belasting**", "Eigen heffing op eigen feit + eigen tarief + eigen reglement", "Tweede verblijven 1.250 EUR/jaar + honden + terrassen"]
+    kinderen:
+
+      - id: aanvullende-gemeentebelasting-pb-werking
+        titel: "Hefboom 1 — aanvullende belasting op de federale PB"
+        niveau: 3
+        beats:
+          - "Mechaniek: gemeenten heffen procentuele opcentiemen (in praktijk 6-9 %, gemiddeld 7 %) op de federaal berekende PB van hun inwoners (WIB92 art. 465-470)"
+          - "Grondslag: de Staats-PB op gezamenlijk belaste inkomsten VÓÓR verrekening van voorheffingen en voorafbetalingen (WIB92 art. 466) — niet de uiteindelijk te betalen som"
+          - "Belangrijk: afzonderlijk belaste inkomsten (RV op dividenden bv.) volgen de AGB NIET — alleen gezamenlijk belaste delen. Examen-detail."
+          - "Inning: FOD Financiën int de AGB samen met de federale PB op één aanslagbiljet en stort door aan de gemeente. Voor de inwoner: één bedrag, één bezwaarprocedure (federale!) — bij betwisting van AGB-bedrag loopt bezwaar via WIB92-mechanisme (federale gewestelijk-directeur), niet via gemeentereglement-bezwaar"
+          - "Concretiseer met Vermeulen-Decoster: Wouter + Annick wonen in Lier. Lier heft AGB op PB (tarief ⚠️ via Cijferzakboekje of gemeente-website). Brussel-stad waar Bram woont heeft een lager tarief (Brussels Hoofdstedelijk Gewest gemeenten gemiddeld 5-6 % vs Vlaamse 7 %)."
+          - "Aside (blockquote): de AGB-PB lijkt OPCENTIEMEN te zijn maar is mechanisch een AANVULLENDE belasting — terminologie verwarrend maar wettelijk verschil. Opcentiem = factor op tarief-basis (zoals OV); aanvullende belasting = % opslag op eind-aanslag (zoals AGB-PB). Examen-vraag favoriet."
+
+      - id: opcentiemen-ov-werking
+        titel: "Hefboom 2 — gemeentelijke + provinciale opcentiemen op OV"
+        niveau: 3
+        beats:
+          - "Mechaniek: gemeente (en in Wallonië nog provincie) past een vermenigvuldigingsfactor toe op de basis-OV (gewestelijk tarief × geïndexeerd KI)"
+          - "1.000 opcentiemen = 10× vermenigvuldigen (= 1000/100, dus +1000 % opslag). Dat is GEEN typo — een gemeente met 1.500 opcentiemen verveelvoudigt de basis-OV met factor 16 (1 + 1500/100). Stranddorp 950 opcentiemen → factor 10,5."
+          - "Volledige formule: OV-totaal = geïndexeerd KI × gewestelijk basistarief × (1 + (gemeente-opcentiemen + provincie-opcentiemen) / 100)"
+          - "Werk Vermeulen-case door: studio Knokke-Heist. Stel KI 850 niet-geïndexeerd, indexcoëfficiënt 2026 ⚠️ (Cijferzakboekje). Basis-OV Vl = geïndexeerd KI × 3,97 %. Plus gemeente Knokke-Heist + provincie West-Vlaanderen 300 opcentiemen. Eindbedrag: ⚠️ in cijfers met Cijferzakboekje 2026."
+          - "Spreiding tussen gemeenten: in Vlaanderen typisch 700-2.500 opcentiemen. Lage gemeenten (rijke randgemeenten) houden bewust laag om OV-aantrekkelijk te blijven. Voor cliënt-advies: bij vastgoedaankoop kijk altijd naar gemeente-opcentiemen, niet alleen naar het gewest-tarief."
+          - "Provincie sinds 2018 in Vlaanderen: provinciale opcentiemen op OV werden geplafonneerd op niveau 2017 + indexering. Wallonië nog vrij vastgesteld. Brussel heeft sinds 1995 geen provincies meer."
+
+      - id: sui-generis-werking
+        titel: "Hefboom 3 — sui-generis-belastingen"
+        niveau: 3
+        beats:
+          - "Mechaniek: de gemeente verzint een eigen heffing op een eigen feit, vastgesteld bij gemeentelijk belastingreglement (raadsbeslissing). Geen federale of gewestelijke kapstok nodig."
+          - "Klassieke verzameling sui-generis-belastingen: huisvuilbelasting · hondenbelasting · belasting tweede verblijven (kustgemeenten) · belasting op drijfkracht (sterk in onbruik) · belasting op naamborden + uithangborden · belasting op parkeren · belasting op terrassen · leegstandsbelasting (gemeentelijk, niet te verwarren met Vlaamse heffing bedrijfsruimten)"
+          - "Gemeente Stranddorp drie voorbeelden uit voorbeeldgroep: (a) tweede verblijven 1.250 EUR/jaar — kustgemeente-favoriet; (b) hondenbelasting progressief 50/100/200 EUR; (c) terrasbelasting 45 EUR/m²/jaar op openbaar domein"
+          - "Belangrijke beperking — vier grenzen aan gemeentelijke creativiteit: (1) niet-bevoegdheidsoverschrijding (geen federale of gewestelijke materies — bv. geen gemeentelijke 'BIV' of 'PB'); (2) gelijkheidsbeginsel (onderscheid in tarief mag, maar met objectieve rechtvaardiging); (3) proportionaliteit (heffing moet redelijk verband met dienst of feit houden); (4) niet-confiscatoir (mag eigendomsrecht niet uithollen)"
+          - "Aside (blockquote): zelfde activiteit (hond houden) kan in gemeente A 60 EUR kosten en in gemeente B niets. Voor een onderneming met meerdere vestigingen: aanzienlijke verschillen tussen gemeenten. Dat is gewenste lokale autonomie, niet een wet-fout."
+
+  - id: wettigheidstoets-4-criteria
+    titel: "Wettigheidstoets — vier criteria die elk reglement moet doorstaan"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische ankerregel: dit is examen-favoriet bij PO 2.7-vragen. Stagiair moet de vier criteria PARAAT hebben en weten welk soort fout welk criterium activeert"
+      - "Toon de beslisboom uit voorbeeldgroep — vier opeenvolgende vragen, elk een hek dat moet open"
+      - "Belangrijk: één faal op één criterium = NIETIGHEID van het reglement OF de aanslag. De Raad van State (binnen 60 dagen na bekendmaking) toetst het reglement zelf; de fiscale rechtbank toetst de individuele aanslag (na bezwaar bij college B&S)."
+    visualisaties:
+      - type: mermaid
+        ref: wettigheidstoets-4-criteria
+        bron: voorbeeldgroep
+    kinderen:
+
+      - id: criterium-1-formele-wettigheid
+        titel: "Criterium 1 — Formele wettigheid"
+        niveau: 3
+        beats:
+          - "Drie deel-vragen: (a) is de gemeenteraad bevoegd geweest? (b) is de bekendmaking correct verlopen? (c) is de geldigheidsduur respecteerd?"
+          - "Bevoegdheid: raadsbeslissing in openbare zitting + meerderheid van stemmen. Reglement dat door College B&S werd vastgesteld = ongeldig (geen delegatie heffingsrecht)."
+          - "Bekendmaking: aanplakking gemeentehuis + publicatie op gemeente-website (sinds Decreet Lokaal Bestuur). Toezicht door provinciegouverneur — kan reglement schorsen of vernietigen indien wettigheidsbezwaar."
+          - "Geldigheidsduur: belastingreglementen moeten jaarlijks vernieuwd worden tenzij meerjarig vastgesteld; opcentiemen max 6 jaar. Reglement zonder geldige vernieuwing = vervallen, aanslag op basis daarvan = nietig."
+          - "Concrete toets op Stranddorp-reglementen — terrasbelasting 2026 is 'ongewijzigd hernieuwd uit 2024' zonder nieuwe gemeenteraadsbeslissing: ALARM op geldigheidsduur. Als de termijn verstreken is en geen verlenging via raad is gestemd, faalt criterium 1."
+
+      - id: criterium-2-materiele-bevoegdheid
+        titel: "Criterium 2 — Materiële bevoegdheid"
+        niveau: 3
+        beats:
+          - "Drie deel-vragen: (a) territoriaal binnen het grondgebied? (b) belast de gemeente geen federale of gewestelijke materie? (c) respecteert ze de fiscale autonomie van hogere niveaus?"
+          - "Territoriaal: belastbaar feit moet ZICH AFSPELEN op het grondgebied van de gemeente. Gemeente Stranddorp kan geen tweede verblijf-belasting heffen op een verblijf in Knokke."
+          - "Non-bevoegdheidsoverschrijding: dit is de WIB92 art. 464-grens. Voorbeeld: een gemeente kan geen 'BIV' of 'verkeersbelasting' invoeren (verboden door VCF). Wel: aanvullende belasting PB (uitdrukkelijk toegelaten art. 465 e.v. WIB92)."
+          - "Voor Stranddorp-tweede-verblijven-reglement: territoriaal OK (verblijf moet in Stranddorp staan); geen federale materie (federale PB raakt niet aan tweede-verblijf-bezit als eigen feit); geen gewestelijke overlap (Vlaanderen heft geen tweede-verblijf-belasting) → criterium 2 = OK"
+
+      - id: criterium-3-rechtsbeginselen
+        titel: "Criterium 3 — Algemene rechtsbeginselen"
+        niveau: 3
+        beats:
+          - "Vier deel-vragen: (a) gelijkheidsbeginsel? (b) proportionaliteit? (c) willekeur? (d) non-bis-in-idem (WIB92 art. 464)?"
+          - "Gelijkheid (art. 10-11 + 172 GW): gelijke gevallen gelijk behandelen. Onderscheid mag, maar moet OBJECTIEF (gebaseerd op feitelijk verschil) en REDELIJK (in verhouding tot het doel) zijn."
+          - "Werk uit op Stranddorp HONDENBELASTING — examen-stof: het reglement bevat (a) progressief tarief 50/100/200 EUR; (b) vrijstelling voor blindengeleidehonden + assistentiehonden + bewakingshonden voor zelfstandige bewakingsondernemingen."
+          - "Toets op gelijkheid: vrijstelling voor blindengeleidehonden = OK (sociale rechtvaardiging, objectief). Vrijstelling voor 'bewakingshonden bewakings­ondernemingen' = TWIJFEL — dit lijkt eigenbelang van bedrijven; ongelijke behandeling met andere honden-eigenaars zonder objectief verschil dat in verhouding staat tot het doel van de heffing. Vermoedelijke FAIL op criterium 3."
+          - "Toets op progressieve tariefschijven (50/100/200 EUR): kan geldig zijn als rechtvaardiging is dat meer honden = grotere overlast voor de gemeente (proportionaliteit-argument); kan ongeldig zijn als gebrek aan objectieve onderbouwing van de schijfgrenzen blijkt. Voor cliënt-advies: vraag de gemeente om de motiveringsnota — daar staat de rechtvaardiging in."
+          - "Non-bis-in-idem (WIB92 art. 464): hondenbelasting raakt geen federale/gewestelijke materie → OK. Maar: als gemeente naast deze ook 'algemene gezinsbelasting' heft met als grondslag mede 'aantal honden', dan dubbele belasting op zelfde feit — overweeg of de wetgever dat uitdrukkelijk heeft toegestaan."
+        visualisaties:
+          - type: tabel-inline
+            kolommen: ["Onderdeel Stranddorp-hondenreglement", "Toets", "Uitkomst"]
+            rijen:
+              - ["Vrijstelling blindengeleidehonden", "Gelijkheid — objectieve rechtvaardiging (sociale functie)", "✅ Wettig"]
+              - ["Vrijstelling assistentiehonden", "Gelijkheid — objectieve rechtvaardiging (zorg-functie)", "✅ Wettig"]
+              - ["Vrijstelling bewakingshonden voor bewakingsondernemingen", "Gelijkheid — twijfelachtige rechtvaardiging; eigenbelang bedrijven?", "❌ Vermoedelijk fail"]
+              - ["Progressief tarief 50/100/200 EUR", "Proportionaliteit + gelijkheid — afhankelijk van motivering", "⚠️ Twijfel; vraag motiveringsnota"]
+
+      - id: criterium-4-procedureregels
+        titel: "Criterium 4 — Procedureregels"
+        niveau: 3
+        beats:
+          - "Drie deel-vragen: (a) aanslagprocedure correct gevolgd? (b) termijn aanslag respecteerd? (c) hoorrecht gerespecteerd waar nodig?"
+          - "Aanslagprocedure: aanslagbiljet moet duidelijk vermelden = belastingplichtige · belastbaar feit · grondslag · tarief · termijn betalen · bezwaarinstantie + bezwaartermijn. Onvolledig aanslagbiljet = nietig."
+          - "Termijn aanslag: gemeentelijke belastingen moeten typisch binnen 3 jaar na belastbaar feit gevestigd worden. Voor laattijdige aanslag: nietigheid."
+          - "Hoorrecht: bij ambtshalve aanslag of bij belasting op aangifte met afwijking — belastingplichtige moet kunnen worden gehoord. Vooral relevant bij sui-generis-belastingen met aangifteplicht (tweede verblijven, leegstand)."
+          - "Voor stagiair-praktijk: bij verkrijgen van een aanslag → check de vier elementen op het biljet → vergelijk met termijn. Procedurele fouten zijn vaak de snelste route naar nietigheid (sneller dan inhoudelijke wettigheid aantonen)."
+
+  - id: provinciale-belastingen
+    titel: "Provinciale belastingen — laatste sub-sectie"
+    niveau: 2
+    beats:
+      - "Korte sectie: provincies (10 in België — 5 Vlaamse + 5 Waalse; Brussel heeft geen provincies sinds 1995) volgen IDENTIEKE mechaniek als gemeenten: provincieraad heft via reglement, deputatie behandelt bezwaar (binnen 3 mnd), zelfde wettigheidstoets in 4 criteria."
+      - "Twee hoofdcategorieën: (a) provinciale opcentiemen op de gewestelijke onroerende voorheffing — VERREWEG belangrijkste opbrengstpost (in Vlaanderen sinds 2018 geplafonneerd); (b) eigen provinciale belastingen op specifieke activiteiten (bedrijfsbelasting, milieu, grondwaterwinning, omgevingsvergunningen)"
+      - "Vlaamse afbouw sinds 2018: persoonsgebonden bevoegdheden (cultuur, sport, welzijn, jeugd) overgedragen aan Vlaanderen of gemeenten; provinciale fiscaliteit geplafonneerd op niveau 2017 + indexering. Praktijkrelevantie afnemend in Vlaanderen, in Wallonië nog onverkort."
+      - "Concretiseer met Stranddorp: provincie West-Vlaanderen heft 300 opcentiemen op OV — verzwaart de OV-rekening van Wouter (studio Knokke + leegstand Aalst) verder. Voor cliënt-advies bij vastgoed in Wallonië: provinciale opcentiemen kunnen daar veel hoger zijn dan de Vlaamse plafonds — niet vergeten meerekenen."
+      - "Verbod: provincies mogen GEEN opcentiemen heffen op PB/VenB/RPB/BNI (WIB92 art. 464); wel op OV (art. 464/1) en op leegstandsheffing (VCF art. 2.6.4.0.2). De wettigheidstoets in 4 criteria geldt onverkort."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): aanvullende gemeentebelasting PB verwarren met gemeentelijke opcentiemen OV. Twee verschillende mechanismen, twee verschillende heffingen: AGB-PB = % opslag op eindaanslag PB (federale procedure voor bezwaar); opcentiemen OV = factor op basis-tarief (gewestelijke procedure voor bezwaar via Vlabel). Mechanisch en procedureel verschillend."
+      - "Valkuil 2 (⚠️): denken dat 'sui-generis = gemeente verzint maar wat'. Sui-generis = belasting OP EIGEN FEIT, niet 'belasting naar willekeur'. Vier grenzen blijven gelden: territoriaal + geen hogere materie + algemene rechtsbeginselen + procedure­regels. Examen-trap: 'mag gemeente X een belasting heffen op Y?' — altijd toets in 4 criteria. Antwoord 'ja, sui-generis-bevoegdheid' zonder toets = onvolledig."
+      - "Valkuil 3 (⚠️): de wettigheidstoets gebruiken voor TARIEF-kritiek. De toets toetst de WETTIGHEID (mag de gemeente dit reglement uitvaardigen?), niet de OPPORTUNITEIT (is dit tarief redelijk?). Een hoog tarief is niet noodzakelijk onwettig — alleen als het kennelijk onredelijk is in verhouding tot het doel (proportionaliteit-criterium binnen criterium 3). Examen-vraag-grens: stagiair moet niet 'het tarief is te hoog' als wettigheids­bezwaar formuleren."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: procedure-gewest-en-gemeente
+      hint: "Bezwaarroute lokaal: college B&S binnen 3 maanden, daarna fiscale rechtbank — en de aparte route tegen het reglement zelf via Raad van State."
+    - slug: geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer
+      hint: "Hoe gemeente-opcentiemen + sui-generis-heffingen meewegen in een vestigingsadvies."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — drie hefbomen + wettigheidstoets in 4 criteria."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [lokale-fiscale-autonomie, lokale-belasting-reglement]
+    - concepten: [aanvullende-gemeentebelasting-pb, gemeentelijke-opcentiemen-onroerende-voorheffing, gemeentebelastingen-sui-generis]
+    - concepten: [provinciale-belastingen]
+    - concepten: [lokale-en-regionale-belastingen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Lokale fiscale autonomie — bevoegdheid + heffingsorgaan"
+    ref: "Grondwet art. 41 + art. 162 + art. 170 §3-§4"
+  - onderwerp: "Gelijkheids­beginsel inzake belastingen"
+    ref: "Grondwet art. 10-11 + art. 172"
+  - onderwerp: "Aanvullende gemeentebelasting op de PB"
+    ref: "WIB92 art. 465 t.e.m. 470/2"
+    noot: "Gemeente bepaalt tarief jaarlijks; grondslag = Staats-PB op gezamenlijk belaste inkomsten vóór verrekening voorheffingen (art. 466). Inning + doorstorting FOD Financiën."
+  - onderwerp: "Verbod opcentiemen op directe federale belastingen"
+    ref: "WIB92 art. 464"
+    noot: "Geen opcentiemen op PB, VenB, RPB, BNI; geen belasting op vee."
+  - onderwerp: "Toelating opcentiemen op OV"
+    ref: "WIB92 art. 464/1 + VCF art. 2.1.4.0.2"
+  - onderwerp: "Toelating opcentiemen op leegstandsheffing bedrijfsruimten"
+    ref: "VCF art. 2.6.4.0.2"
+  - onderwerp: "Verbod opcentiemen op BIV"
+    ref: "VCF art. 2.3.4.2.2 (verwijzing naar art. 107 WIGB)"
+  - onderwerp: "Lokaal belastingreglement — kaderwet"
+    ref: "Wet 24 december 1996 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen + Decreet Lokaal Bestuur (Vl) + Wallonië/Brussel-equivalenten"
+    noot: "⚠️ te verifiëren via primaire bron — Wet 24.12.1996 niet rechtstreeks aangetroffen in RAG-corpus; vermeld via concept-record lokale-belasting-reglement. Bezwaartermijn 3 maanden bij College B&S vanaf 3de werkdag na verzending aanslagbiljet."
+  - onderwerp: "Vernietiging reglement"
+    ref: "Gecoördineerde wetten Raad van State — vernietigingsberoep binnen 60 dagen na bekendmaking"
+  - onderwerp: "Toezicht op gemeentelijke fiscaliteit"
+    ref: "Decreet Lokaal Bestuur (Vl) — schorsings- en vernietigingsbevoegdheid provinciegouverneur (algemeen toezicht)"
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Grondwettelijk Hof + Raad van State — wettigheidstoets gemeentelijke belastingreglementen"
+    inhoud: "Zowel het Grondwettelijk Hof als de Raad van State hebben in vaste rechtspraak het toetsings­kader voor gemeentelijke + provinciale belastingreglementen verfijnd. Sleutel-arresten betreffen typisch (a) discriminatie­vragen (bv. onderscheid hoofdverblijf/tweede verblijf — aanvaard wegens objectieve verschillen) en (b) proportionaliteit-vragen (tarief moet redelijk verband houden met het doel of de dienst). Specifieke arrest-referenties worden in de samenvatting + voorbeeldexamenvragen-laag van PO 2.7 verder aangevuld."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd; concrete arrest-nummers zijn beleids-afhankelijk en worden in synthese-fase aangevuld zodra een examen-vraag of CBN-norm een specifiek arrest activeert"
+
+footer: "Leerstuk PO 2.7. Status: voorgesteld — POC volgens ADR-037."

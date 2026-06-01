@@ -1,0 +1,224 @@
+# Leerstuk-script — Procedure gewest en gemeente
+#
+# PO 2.7 leerstuk 4 (proces-fiche). Vier procedure-routes met eigen termijnen
+# + administraties + rechtsmiddelen. Federale algemene procedure (PO 2.5)
+# blijft buiten dit leerstuk; hier alleen gewest- + lokale eigenheden +
+# het raakvlak naar federaal (vergelijkings-tabel).
+#
+# Hand-off: bouwt op het bevoegdheidskader van leerstuk 1 + technische
+# leerstukken 2 en 3. Federale procedure-detail (WIB92 art. 346, 354, 366):
+# doorklik naar PO 2.5.
+
+meta:
+  slug: procedure-gewest-en-gemeente
+  titel: "Procedure gewest en gemeente — vier routes bij een geschil"
+  po: "2.7"
+  cluster: regionale-en-lokale-fiscaliteit
+  voorbeeldgroep: vermeulen-stranddorp
+  beschrijving: >
+    Leerstuk PO 2.7 — vier procedure-routes bij gewestelijke + lokale fiscale
+    geschillen: Vlabel · Bruxelles Fiscalité · Walfin · College B&S /
+    Bestendige Deputatie. Per route: bezwaartermijn, behandelende instantie,
+    doorstroom naar fiscale rechtbank. Inclusief speciale route tegen het
+    reglement zelf via Raad van State.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar PO 2.7-overzicht. Wijs erop
+    dat de vier routes elk eigen termijnen + administraties + rechtsmiddelen
+    hebben — verkeerd geadresseerd bezwaar = vaak verlies van termijn.
+    Federale algemene procedure (WIB92 art. 366 + 1385) ligt in PO 2.5;
+    dit leerstuk doet de gewestelijke + lokale eigenheden.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: bij een gewestelijke of lokale fiscale aanslag loopt het bezwaar via VIER mogelijke routes — afhankelijk van WIE de heffing oplegt: Vlabel (Vlaamse gewestbelasting), Bruxelles Fiscalité (Brusselse gewestbelasting), Walfin/SPW Fiscalité (Waalse gewestbelasting), College B&S of Bestendige Deputatie (gemeente of provincie). Elke route heeft EIGEN termijnen en EIGEN procedure-codex."
+    - "Termijnen onthouden — alle vier verschillend: Vlaamse + lokale = 3 maanden (vanaf 3de werkdag na verzending aanslagbiljet); Brusselse = 186 dagen vanaf 7de dag na verzending (Brusselse Codex art. 100 — atypisch lang); Waalse = 6 maanden (Décret 6.5.1999 art. 25, vanaf datum uitwerking kennisgeving); federale = 1 JAAR (WIB92 art. 371) ter vergelijking. De federale 1-jaarstermijn is langer dan de gewestelijke — meest voorkomende verwarring is omgekeerd ('federaal 3 mnd, gewest 6 mnd') wat in beide richtingen fout is."
+    - "Aparte route tegen het reglement zelf: vernietigings­beroep bij Raad van State binnen 60 dagen na bekendmaking — dit kan NAAST de individuele bezwaarroute lopen."
+    - "Alle administratieve routes monden uit in de FISCALE RECHTBANK (rechtbank van eerste aanleg — fiscale kamer), met beroep daarna bij hof van beroep."
+  visualisaties:
+    - type: mermaid
+      ref: bezwaar-route-beslisboom
+      bron: voorbeeldgroep
+  afsluiter: "Korte zin: 'We werken eerst de termijntabel door, dan elke route in detail, en sluiten af met de aparte reglement-bezwaar-route bij Raad van State.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: termijntabel-bovenaan
+    titel: "De termijntabel — eerste reflex bij elk geschil"
+    niveau: 2
+    beats:
+      - "Open met de praktische ankerregel: bij elk aanslagbiljet dat een cliënt aanlevert, kijk je eerst aan WELKE administratie het bezwaar moet, en BINNEN WELKE termijn"
+      - "Toon de termijntabel uit de voorbeeldgroep — zeven rijen, één per type heffing"
+      - "Belangrijk: het AANSLAGBILJET vermeldt zelf de bezwaarinstantie + bezwaartermijn (verplicht in de gemotiveerde aanslag). Bij twijfel: het biljet is autoritair. Maar voor advies vooraf, ken je de tabel uit het hoofd."
+      - "Aside (blockquote): één klassieke valkuil is het verschil 'vanaf datum aanslagbiljet' versus 'vanaf 3de werkdag na verzending'. De Vlabel-termijn (VCF art. 3.5.2.0.1) telt expliciet vanaf de 3de werkdag na verzending — drie dagen extra. Voor federale PB (WIB92 art. 371): ook vanaf 3de werkdag na verzending. Voor lokaal: typisch vanaf de 3de werkdag (art. 9 Wet 24.12.1996 ⚠️ te verifiëren)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Heffing", "Bron", "Bezwaarinstantie", "Termijn"]
+        rijen:
+          - ["**Federale PB / VenB / BTW**", "WIB92 art. 366 (bij wie) + art. 371 (termijn)", "Adviseur-generaal AAFisc (ex-gewestelijk-directeur)", "1 jaar vanaf 3de werkdag na verzending aanslagbiljet (WIB92 art. 371)"]
+          - ["**Vlaamse gewestbelasting** (OV · verkeer · BIV · erf · registratie · leegstand · planbaten)", "VCF art. 3.5.2.0.1", "Vlabel", "3 maanden vanaf 3de werkdag na verzending aanslagbiljet"]
+          - ["**Brusselse gewestbelasting**", "Brusselse Codex Fiscale Procedure (Ord. 6.3.2019) art. 100", "Bruxelles Fiscalité — Direction réclamations", "186 dagen vanaf 7de dag na verzending aanslagbiljet (atypisch lang)"]
+          - ["**Waalse gewestbelasting**", "Décret 6.5.1999 art. 25 + 25bis", "SPW Fiscalité (Walfin)", "6 maanden vanaf datum uitwerking kennisgeving"]
+          - ["**Gemeentebelasting** (sui generis · aanvullende · opcentiemen via gemeente)", "Wet 24.12.1996 art. 9 ⚠️ te verifiëren", "College van burgemeester en schepenen", "3 maanden vanaf 3de werkdag na verzending"]
+          - ["**Provinciebelasting**", "Wet 24.12.1996 art. 9 (provinciale variant) ⚠️ te verifiëren", "Bestendige Deputatie van de provincieraad", "3 maanden vanaf 3de werkdag na verzending"]
+          - ["**Reglement zelf** (vernietigings­beroep)", "Gecoördineerde wetten Raad van State", "Raad van State — Afdeling Bestuursrechtspraak", "60 dagen na bekendmaking reglement"]
+          - ["**Beroep tegen bezwaar-beslissing**", "WIB92 art. 1385 / Ger.W.", "Rechtbank van eerste aanleg — fiscale kamer", "3 maanden vanaf kennisgeving beslissing OF stilzitten 18 mnd na bezwaarschrift"]
+
+  - id: vier-routes-uitwerking
+    titel: "De vier routes uitgewerkt"
+    niveau: 2
+    beats:
+      - "Open met de drie pedagogische uitgangspunten: (a) elke route start administratief, eindigt gerechtelijk; (b) termijnen zijn dwingend — overschrijden = onontvankelijkheid; (c) bewijslast verschilt nauwelijks (heffingsoverheid moet feitelijk + juridisch onderbouwen)"
+      - "Per route: wie heft, wie behandelt bezwaar, welke termijn, wat doet bezwaarinstantie, wat als geen beslissing of negatief"
+    kinderen:
+
+      - id: route-1-vlabel
+        titel: "Route 1 — Vlabel (Vlaamse gewestbelasting)"
+        niveau: 3
+        beats:
+          - "Wie heft: Vlabel (Vlaamse Belastingdienst) voor alle Vlaamse gewestbelastingen — onroerende voorheffing · verkeersbelasting · belasting inverkeerstelling · erfbelasting · schenkbelasting · registratiebelasting · leegstandsheffing bedrijfsruimten · planbatenheffing"
+          - "Bezwaar: schriftelijk bij Vlabel binnen 3 maanden vanaf 3de werkdag na verzending aanslagbiljet (VCF art. 3.5.2.0.1). Op straffe van verval — formele en materiële motivering, ondertekening, bewijsstukken bijgevoegd."
+          - "Indiening: per aangetekende brief (datum poststempel = indieningsdatum) of via Vlabel-platform. Aanvullende bezwaren mogen ZOLANG er geen beslissing is gevallen, ook na termijn (VCF art. 3.5.2.0.2)."
+          - "Behandeling: door Vlabel-personeelslid (bevoegd ambtenaar). Mogelijkheid hoorzitting op verzoek. Bemiddeling via Vlaamse Belastingbemiddeling (vergelijkbaar met federale FBD)."
+          - "Beroep bij rechtbank van eerste aanleg (fiscale kamer): WIB92 art. 1385decies-undecies. Termijn: 3 maanden vanaf kennisgeving Vlabel-beslissing OF stilzitten 18 maanden na bezwaarschrift (= fictie van impliciete weigering)."
+          - "Voor Vermeulen-case: hij ontvangt aanslagbiljet planbatenheffing op grond Geraardsbergen → bezwaar bij Vlabel binnen 3 mnd (vanaf 3de werkdag na verzending). Argumenten zou kunnen zijn: betwist waardering meerwaarde · betwist territoriale toepassing (gemeente Geraardsbergen) · vraag opschorting tot realisatie."
+
+      - id: route-2-bruxelles
+        titel: "Route 2 — Bruxelles Fiscalité (Brusselse gewestbelasting)"
+        niveau: 3
+        beats:
+          - "Wie heft: Bruxelles Fiscalité (sinds 2017 een eigen Brusselse fiscale administratie) voor de Brusselse gewestbelastingen — Brusselse erfbelasting + registratiebelasting (via gewest-aangepaste federale wetboeken), Brusselse OV (basistarief 1,25 %), Brusselse verkeersbelasting + BIV."
+          - "Bezwaar: termijn van 186 DAGEN vanaf 7de dag na verzending aanslagbiljet (Brusselse Codex Fiscale Procedure, Ord. 6.3.2019 art. 100 — atypisch lang, ≠ 3 maanden Vlaams). Schriftelijk bij Bruxelles Fiscalité — Direction réclamations / Directie bezwaren."
+          - "Eigen accenten van de Brusselse Codex: (a) eigen bewijsmiddelen-regeling (art. 53 Codex); (b) eigen onderzoeksbevoegdheden; (c) administratieve boetes (art. 86 Codex); (d) gedwongen invordering. Voor accountant: de Brusselse procedure LEUNT op de federale (WIB92-mechanica) maar is autonoom uitgewerkt."
+          - "Belangrijk: door inwerkingtreding 1 januari 2020 is de Brusselse Codex nu ZELFSTANDIG — niet langer een loutere verwijzing naar WIB92."
+          - "⚠️ te verifiëren — de exacte artikel-nummers van de Brusselse Codex Fiscale Procedure zijn niet rechtstreeks in het RAG-corpus aangetroffen. Voor concreet bezwaarschrift: raadpleeg de originele ordonnantie of de gepubliceerde tekst via JustelBe."
+
+      - id: route-3-walfin
+        titel: "Route 3 — Walfin / SPW Fiscalité (Waalse gewestbelasting)"
+        niveau: 3
+        beats:
+          - "Wie heft: SPW Fiscalité (Service Public de Wallonie — Fiscalité, ook 'Walfin' genoemd) voor de Waalse gewestbelastingen — Waalse erfbelasting + registratiebelasting (via gewest-aangepaste federale W.Succ. en W.Reg.), Waalse OV (1,25 %), Waalse verkeersbelasting + BIV."
+          - "Bezwaar: termijn van 6 MAANDEN vanaf datum uitwerking kennisgeving (Décret 6 mai 1999 art. 25). LET OP — deze termijn is afwijkend van de Vlaamse + lokale 3 mnd (en van de Brusselse 186 dagen). Vergeten te onthouden = vaak verlies van termijn voor wie Vlabel-reflex gebruikt voor een Waalse aanslag."
+          - "Belangrijke nuance Décret 6.5.1999 art. 25bis: bezwaarschrift tegen een belasting gevestigd op betwiste bestanddelen geldt VAN AMBTSWEGE voor andere belastingen gevestigd op dezelfde bestanddelen of als supplement — zelfs als bezwaartermijn voor die andere belastingen verstreken zou zijn. Examen-trap: een Waals bezwaar dekt automatisch hangende supplementen."
+          - "Indiening: schriftelijk bij door regering aangewezen ambtenaar SPW Fiscalité. Bezwaarschrift dekt automatisch andere belastingen op dezelfde betwiste bestanddelen (Décret 6 mei 1999 art. 25bis — ambtswege-werking)."
+          - "Beroep bij rechtbank: na afwijzing of stilzwijgen 6 mnd. WIB92 art. 1385decies-undecies van toepassing via verwijzing in Décret."
+          - "Voor cliënt-advies: indien Vermeulen-familie een Waals dossier krijgt (bv. hypothetische verhuis Wouter naar Waals Gewest), gebruik géén Vlabel-reflexen — Waalse termijnen + Waalse vorm-regels gelden."
+
+      - id: route-4-college-deputatie
+        titel: "Route 4 — College B&S of Bestendige Deputatie (lokaal)"
+        niveau: 3
+        beats:
+          - "Wie heft: gemeente (College van burgemeester en schepenen voert het reglement uit; gemeenteraad stelt het reglement vast) of provincie (deputatie voert uit; provincieraad stelt vast)"
+          - "Bezwaar: schriftelijk bij het COLLEGE van burgemeester en schepenen (gemeentebelasting) of de DEPUTATIE (provinciebelasting), binnen 3 maanden vanaf 3de werkdag na verzending aanslagbiljet (Wet 24.12.1996 art. 9 ⚠️ te verifiëren)."
+          - "Behandeling: college/deputatie beslist binnen 6 maanden (typisch — exacte termijn in concept-record lokale-belasting-reglement). Bij niet-beslissing binnen 6 mnd: stilzwijgende verwerping (impliciete weigering) — belasting­plichtige kan dan rechtstreeks naar rechtbank."
+          - "Beroep bij rechtbank van eerste aanleg (fiscale kamer): zelfde mechanisme als bij andere routes — WIB92 art. 1385decies-undecies via verwijzing."
+          - "Werk Vermeulen-case door: Wouter ontvangt aanslag hondenbelasting Stranddorp 2026 (hij heeft hypothetisch 2 honden) → 200 EUR (50 + 100 + 50). Hij betwist tariefschijf en mogelijke ongelijkheid bij vrijstelling 'bewakingshonden bewakings­ondernemingen' (zie wettigheidstoets in [[gemeente-en-provinciebelastingen]]). Bezwaarschrift bij College B&S Stranddorp binnen 3 mnd. Argumenten: gelijkheidsbeginsel (criterium 3 wettigheidstoets)."
+          - "Aside (blockquote): bij gemeentelijk bezwaar kan de belastingplichtige bovendien — los van het bezwaar tegen de individuele aanslag — een vernietigings­beroep tegen het reglement ZELF instellen bij de Raad van State binnen 60 dagen na bekendmaking. De twee routes lopen parallel: succesvol bij Raad van State = reglement weg = aanslagen op basis daarvan ook weg."
+
+  - id: speciale-route-raad-van-state
+    titel: "Speciale route — vernietigings­beroep tegen het reglement"
+    niveau: 2
+    beats:
+      - "Open met het pedagogische punt: dit is een ANDERE route dan het individuele bezwaar — geen bezwaar tegen JOUW aanslag, maar bezwaar tegen het REGLEMENT zelf"
+      - "Wie kan beroep instellen: ieder met een RECHTSTREEKS BELANG (typisch belasting­plichtigen onder het reglement, ondernemers­verenigingen, etc.)"
+      - "Bij wie: Raad van State — Afdeling Bestuursrechtspraak"
+      - "Termijn: 60 DAGEN na publicatie van het reglement (aanplakking gemeentehuis + gemeente-website). Dit is een KORTE termijn — vaak verstreken voordat de eerste aanslagen worden verstuurd."
+      - "Procedure: schriftelijk verzoekschrift + memorie + advies advocaat (in praktijk verplicht voor de pleidooien). Raad oordeelt over WETTIGHEID (niet over opportuniteit) — typisch de 4 criteria uit [[gemeente-en-provinciebelastingen]]: formele wettigheid · materiële bevoegdheid · algemene rechtsbeginselen · procedureregels."
+      - "Gevolg bij vernietiging: reglement met TERUGWERKENDE KRACHT geschrapt — alle aanslagen op basis daarvan worden ongedaan gemaakt. Krachtig instrument."
+      - "Praktijktip: deze route is in praktijk minder gebruikt dan individueel bezwaar, omdat (a) korte termijn (60 dgn vanaf bekendmaking, niet vanaf eigen aanslag) en (b) procedurele drempel (advocaat + verzoekschrift). Voor accountants is dit typisch een STRATEGISCHE keuze in samenwerking met juridisch advocaat."
+      - "Concretiseer met Stranddorp-terrasbelasting (ongewijzigd hernieuwd uit 2024 zonder nieuwe raadsbeslissing): formele wettigheids­twijfel op criterium 1 (geldigheidsduur). Indien een terras-uitbater binnen 60 dgn na bekendmaking 2026-versie een vernietigings­beroep zou instellen, mogelijk gegrond verklaard → reglement weg → opbrengsten 2026 terug te storten aan alle uitbaters."
+
+  - id: bezwaar-vs-betaling
+    titel: "Bezwaar schorst niet automatisch de betaling"
+    niveau: 2
+    beats:
+      - "Korte sectie: ALLE vier routes hebben gemeen dat bezwaar NIET automatisch de plicht tot betalen opschort"
+      - "Praktische gevolgtrekking: bij geschil moet de belasting­plichtige in principe BETALEN binnen de gewone termijn (typisch 2 mnd na aanslagbiljet voor Vlabel; gemeente-termijn varieert) terwijl het bezwaar loopt"
+      - "Uitstel kan: VCF art. 3.10.4.6.1 voor Vlaamse heffingen — bij bezwaar of ontheffings­aanvraag of gerechtelijke procedure KAN de invordering van betwiste belastingen worden opgeschort tot de procedure afgerond is. Maar dit is een MOGELIJKHEID, geen automatisme — moet vragen + onderbouwen."
+      - "Federale variant: vergelijkbare regeling via WIB92. Lokaal: doorgaans GEEN automatische opschorting (gemeente moet vorderen om budgettair op koers te blijven)."
+      - "Voor cliënt-advies: bij elk bezwaar uitdrukkelijk de vraag van INVORDERINGS-OPSCHORTING meenemen — niet veronderstellen dat ze automatisch loopt. Anders: cliënt betaalt eerst, en bij succes wordt teruggestort (met nalatigheids­interesten in voordeel)."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): verkeerd geadresseerd bezwaar = verlies van termijn. Vermeulen-cliënt ontvangt aanslag onroerende voorheffing → bezwaar moet naar VLABEL, niet naar federale gewestelijk-directeur (OV is sinds 2014 volledig Vlaamse heffing). Reflex 'federaal' voor wie nieuw is bij gewest-heffingen → automatisch onontvankelijk."
+      - "Valkuil 2 (⚠️): elke gewest- en federale termijn verwarren. Echte spread: Vlaams + lokaal = 3 mnd; Brussels = 186 dagen (Brusselse Codex art. 100); Waals = 6 mnd (Décret 6.5.1999 art. 25); federaal = 1 JAAR (WIB92 art. 371). Wie reflexmatig één termijn op alle dossiers toepast, verliest bezwaartijd. Agenderen per dossier."
+      - "Valkuil 3 (⚠️): bezwaar individueel verwarren met vernietigings­beroep reglement. Twee verschillende routes, twee verschillende organen (college/deputatie vs Raad van State), twee verschillende termijnen (3 mnd na aanslag vs 60 dgn na bekendmaking), twee verschillende effecten (individuele aanslag weg vs heel reglement weg). Strategisch overwegen: voor één cliënt soms eerst bezwaar individueel (vooral als termijn naar Raad van State al verstreken is)."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: wat-zijn-regionale-en-lokale-belastingen
+      hint: "Voor het bevoegdheids­kader dat bepaalt welke route geldt."
+    - slug: gewestelijke-heffingen-overgedragen-en-autonoom
+      hint: "Voor de specifieke gewest-heffingen waarop een route van toepassing is."
+    - slug: gemeente-en-provinciebelastingen
+      hint: "Voor de wettigheidstoets in 4 criteria — basis voor inhoudelijke bezwaar­argumenten."
+    - slug: geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer
+      hint: "Hoe procedure-overweging meeweegt bij vestigingskeuze of bezwaar­strategie."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — termijntabel + 4 routes + reglement-bezwaar."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [gewestelijke-fiscale-procedure, lokale-belasting-reglement]
+    - concepten: [fiscale-bemiddelingsprocedure]
+    - concepten: [lokale-en-regionale-belastingen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Vlaamse bezwaartermijn"
+    ref: "VCF art. 3.5.2.0.1 (3 mnd vanaf 3de werkdag na verzending aanslagbiljet) + art. 3.5.2.0.2 (aanvullende bezwaren) + art. 3.5.2.0.4 (specifiek voor onroerende voorheffing — niet vóór 31 maart van het jaar volgend op aanslagjaar)"
+  - onderwerp: "Vlaamse opschorting invordering bij bezwaar"
+    ref: "VCF art. 3.10.4.6.1"
+  - onderwerp: "Waalse bezwaartermijn + AMB-AMB-WEGE-werking"
+    ref: "Décret 6 mei 1999 art. 25-28"
+    noot: "6 mnd bezwaartermijn (art. 25); bezwaarschrift dekt automatisch andere belastingen op dezelfde betwiste bestanddelen (art. 25bis)."
+  - onderwerp: "Brusselse gewestelijke fiscale procedure"
+    ref: "Ord. 6 maart 2019 — Brusselse Codex Fiscale Procedure (in werking 1.1.2020)"
+    noot: "Brusselse Codex Fiscale Procedure (Ord. 6.3.2019) art. 100 — bezwaarinstantie = Bruxelles Fiscalité; termijn = 186 dagen vanaf 7de dag na verzending (NIET 3 mnd — atypisch lang)."
+  - onderwerp: "Lokale bezwaarprocedure"
+    ref: "Wet 24 december 1996 art. 9 betreffende de vestiging en de invordering van de provincie- en gemeentebelastingen"
+    noot: "⚠️ te verifiëren — Wet 24.12.1996 niet rechtstreeks in RAG-corpus aangetroffen; bezwaartermijn 3 mnd bij College B&S (gemeente) of Deputatie (provincie)."
+  - onderwerp: "Beroep bij fiscale rechtbank"
+    ref: "WIB92 art. 1385decies + 1385undecies (Gerechtelijk Wetboek)"
+    noot: "Termijn: 3 mnd vanaf kennisgeving administratieve beslissing OF stilzitten 18 mnd na bezwaar. Van toepassing bij federaal, Vlaams (via VCF), Waals (via Décret), Brussels (via Codex) en lokaal."
+  - onderwerp: "Vernietigings­beroep tegen reglement"
+    ref: "Gecoördineerde wetten Raad van State"
+    noot: "60 dgn na bekendmaking — Afdeling Bestuursrechtspraak."
+  - onderwerp: "Federale fiscale procedure (raakvlak — niet kern)"
+    ref: "WIB92 art. 366 (bezwaar adviseur-generaal) + art. 371 (termijn 1 JAAR vanaf 3de werkdag) + art. 376 (ambtshalve ontheffing)"
+    noot: "Voor uitwerking: zie PO 2.5."
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — gevolgen vormgebreken aanslagbiljet"
+    inhoud: "Vaste cassatierechtspraak: een aanslagbiljet zonder vermelding van bezwaar­instantie + bezwaartermijn (of met onjuiste vermelding) doet de termijn NIET ingaan — beschermings­regel ten gunste van de belasting­plichtige. Geldt voor zowel federale als gewestelijke en lokale aanslagbiljetten. Concrete arrest-referenties worden in samenvatting van PO 2.7 verder aangevuld."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd in Cassatie-rechtspraak; specifieke arrest-nummers worden in synthese-fase aangevuld"
+  - onderwerp: "Raad van State — vernietiging gemeentelijke belasting­reglementen"
+    inhoud: "Vaste rechtspraak van de Raad van State (Afdeling Bestuursrechtspraak) op de vier wettigheids­criteria uit [[gemeente-en-provinciebelastingen]]. Klassieke gronden voor vernietiging: ontbrekend belang van de gemeente (gelijkheidstoets fail), gebrekkige motivering, geldigheidsduur verstreken zonder vernieuwing. Concrete arrest-referenties worden in samenvatting + voorbeeldexamenvragen aangevuld."
+    confidence: "⚠️ te verifiëren — concrete arrest-nummers laten we open voor synthese-fase"
+
+footer: "Leerstuk PO 2.7. Status: voorgesteld — POC volgens ADR-037."

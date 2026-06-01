@@ -9,7 +9,7 @@ tags:
 
 <div class="no-print">
 
-> ⚠️ **Voorlopig — themafiche-laag wordt uitgefaseerd.** Per **ADR-039** vervangt één PO-samenvatting per programmaonderdeel de cluster-themafiches. Deze fiche blijft beschikbaar tot het relevante PO een leerpad krijgt — dan migreert de inhoud naar `content/studiemateriaal/<po-slug>/samenvatting.md`. Voor cross-PO themafiches (vergelijkingen tussen verschillende PO's) volgt een aparte beslissing per fiche: incorporeren in alle relevante samenvattingen, óf upgraden naar concept-fiche.
+> ⚠️ **Uitgefaseerd — vervangen door PO 2.7 leerlaag-pakket.** Per **ADR-039** + voltooiing PO 2.7 leerpad (2026-06-01): deze themafiche is vervangen door [[studiemateriaal/2-7/samenvatting|Samenvatting PO 2.7]] (geheugen-kapstok) + de vijf leerstukken onder [[studiemateriaal/2-7|PO 2.7-overzicht]]. Deze fiche blijft beschikbaar als historische bron tot een opkuis-ronde.
 
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: 2.7 Voorbeeldexamenvragen Regionale en lokale belastingen
 description: Voor programmaonderdeel 2.7 (Regionale en lokale belastingen) zijn (nog) geen voorbeeldexamenvragen geclassificeerd.
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "8. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-2-7, leeg]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

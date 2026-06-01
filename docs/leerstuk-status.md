@@ -1,6 +1,6 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-06-01 (PO 2.1 alle 5 leerlagen voltooid — Van Daele-voorbeeldgroep + 5 leerstukken + Van Daele-oefening + samenvatting geleverd; eerste fiscale PO)
+**Laatste update**: 2026-06-01 (PO 2.7 alle 5 leerlagen voltooid — Vermeulen-Stranddorp-voorbeeldgroep + 5 leerstukken + Vermeulen-oefening + samenvatting geleverd; tweede fiscale PO; titels PO 2.7/2.8 gecorrigeerd o.b.v. programma.json)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
@@ -24,8 +24,8 @@
 | **2.4** BTW | — | — | — | — | — | — | Openstaand |
 | **2.5** Fiscale procedure | — | — | — | — | — | — | Openstaand |
 | **2.6** Registratie- en successierechten | — | — | — | — | — | — | Openstaand |
-| **2.7** Internationale fiscaliteit | — | — | — | — | — | — | Openstaand |
-| **2.8** Btw-procedures | — | — | — | — | — | — | Openstaand |
+| **2.7** Regionale en lokale belastingen | ✅ [docs/leerpad-skelet-2-7.md](leerpad-skelet-2-7.md) | ✅ 5/5 ([data/leerstukken/](../data/leerstukken/)) | ✅ 5/5 (`content/studiemateriaal/2-7/`) | ✅ [content/studiemateriaal/2-7/index.md](../content/studiemateriaal/2-7/index.md) (5-secties ADR-036; § Voor herhaling → samenvatting + § Oefening) | ✅ [content/studiemateriaal/2-7/samenvatting.md](../content/studiemateriaal/2-7/samenvatting.md) (~1980 woorden, 3-4 A4; YAML-bron [data/samenvattingen/2-7.yaml](../data/samenvattingen/2-7.yaml); 3 themafiches `{gewestelijke-fiscaliteit,gemeentelijke-belastingen,fiscale-procedure-gewest-gemeente}` uit te faseren) | ✅ Familie Vermeulen ([data/oefeningen/vermeulen-vermogen-en-vestiging.yaml](../data/oefeningen/vermeulen-vermogen-en-vestiging.yaml) + [content/studiemateriaal/2-7/oefening.md](../content/studiemateriaal/2-7/oefening.md)) — multi-case-dossier · 5 scoped vragen · 75 min | **Voltooid** alle vijf leerlagen (vijfde PO na 1.4, 1.8, 1.3, 2.1) |
+| **2.8** Europees en internationaal fiscaal recht | — | — | — | — | — | — | Openstaand |
 | **3.0** Vennootschapsrecht | — | — | — | — | — | — | Openstaand |
 | **4.0** Cabinet management | — | — | — | — | — | — | Openstaand |
 
@@ -40,6 +40,7 @@
 | `aurelia` | [data/voorbeeldgroepen/aurelia.yaml](../data/voorbeeldgroepen/aurelia.yaml) | PO 1.4 (alle leerstukken) | Mock Belgische groep met 4 deelnemingen — alle controle-niveaus en methodes |
 | `meridia-meubel` | [data/voorbeeldgroepen/meridia-meubel.yaml](../data/voorbeeldgroepen/meridia-meubel.yaml) | PO 1.8 (alle leerstukken) | Mock middelgrote meubelproductie-BV (tafel-eik standaard + kast-op-maat job-order) — productie-context met kostendragers/kostenplaatsen, masterbudget 2026, variantierapport Q1 2026 |
 | `belova` | [data/voorbeeldgroepen/belova.yaml](../data/voorbeeldgroepen/belova.yaml) | PO 1.3 (alle 5 leerstukken) | Mock Belgische NV groothandel meubilair (62 vte, balanstotaal 8,4 mln), volledig schema, 3-jaar evolutie, comfortabele liquiditeit + dalende rentabiliteit + werkkapitaal-stress + covenant-spanning — geschikt voor alle vier ratio-families + kasstroom + diagnose-pad |
+| `vermeulen-stranddorp` | [data/voorbeeldgroepen/vermeulen-stranddorp.yaml](../data/voorbeeldgroepen/vermeulen-stranddorp.yaml) | PO 2.7 (L1 illustratie · L2 vastgoed+voertuigen · L3 + oefening kern · L4 termijntabel+beslisboom · L5 synthese kern) | **Dunne bindcase** (NIET centrale mock zoals Aurelia). Familie Vermeulen-Decoster (Wouter Vlaams + Sofie Waals + Bram Brussels) met vastgoed in 3 gewesten + Vermeulen Constructie BV + fictieve kustgemeente Stranddorp met 3 mock-belastingreglementen voor wettigheidstoets. Inclusief mermaid-diagrammen (bevoegdheidsdriehoek · bezwaar-route · wettigheidstoets-4-criteria) + termijntabel bezwaar |
 
 Voor nieuwe PO's: overweeg eerst of een bestaande voorbeeldgroep hergebruikt kan worden. Anders maken in `data/voorbeeldgroepen/<naam>.yaml`.
 
@@ -86,10 +87,10 @@ Themafiche-laag retreert per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafi
 | **2.2** | `pb-berekeningsschema` · `inkomstencategorieen` · `voordelen-alle-aard` · `art-171-afzonderlijke-aanslagvoeten` · `aftrekken-en-belastingverminderingen` | B | Mergen bij leerpad-bouw |
 | **2.3** | `venb-bewerkingsschema` · `verlaagd-tarief-20` · `verworpen-uitgaven` · `meerwaarden-venb` · `dbv-toepassing` · `fiscale-fusie-splitsing` *(verwijst naar `anti-misbruik` — link broken sinds PO 2.1-opkuis, bij PO 2.3-leerpad opvangen)* | B | Mergen bij leerpad-bouw |
 | **2.4** | `btw-vier-kernvragen` · `btw-aftrek` · `btw-vastgoed` · `grensoverschrijdende-btw` · `vrijstellingsregeling-kleine-onderneming` | B | Mergen bij leerpad-bouw |
-| **2.5** | `fiscale-procedure-gewest-gemeente` · `taxatieprocedure` · `bezwaar-en-gerechtelijke-fase` · `invordering-en-dwangbevel` · `fiscale-termijnen` *(N.B. `fiscale-beginselen` is opgegaan in PO 2.1 — kort verwijzen vanuit 2.5)* | B | Mergen bij leerpad-bouw |
+| **2.5** | `taxatieprocedure` · `bezwaar-en-gerechtelijke-fase` · `invordering-en-dwangbevel` · `fiscale-termijnen` *(N.B. `fiscale-beginselen` is opgegaan in PO 2.1; `fiscale-procedure-gewest-gemeente` verplaatst naar PO 2.7 omdat het materieel daar hoort)* | B | Mergen bij leerpad-bouw |
 | **2.6** | `registratierechten` · `successierechten-en-erfrecht` · `successieplanning` | B | Mergen bij leerpad-bouw |
-| **2.7** | `transfer-pricing-en-beps` · `vaste-inrichting` · `eu-fiscale-richtlijnen` *(N.B. `anti-misbruik` algemeen is opgegaan in PO 2.1 — voor 2.7 focus op EU/ATAD-specifieke anti-misbruik)* | B | Mergen bij leerpad-bouw |
-| **2.8** | `gewestelijke-fiscaliteit` · `gemeentelijke-belastingen` | B | Mergen bij leerpad-bouw |
+| **2.7** | ✅ Drie themafiches uitgefaseerd via leerlaag-pakket (samenvatting from-scratch geschreven, NIET via themafiche-migratie — gebruiker-keuze): `gewestelijke-fiscaliteit` · `gemeentelijke-belastingen` · `fiscale-procedure-gewest-gemeente`. Themafiche-bestanden in `content/themafiches/` houden deprecation-callout tot opkuis-ronde. | A/B | — (✅ klaar via PO 2.7-leerpad) |
+| **2.8** | `transfer-pricing-en-beps` · `vaste-inrichting` · `eu-fiscale-richtlijnen` *(N.B. `anti-misbruik` algemeen is opgegaan in PO 2.1 — voor 2.8 focus op EU/ATAD-specifieke anti-misbruik)* | B | Mergen bij leerpad-bouw |
 | **3.0** | `vennootschapsvormen` · `insolventie-wer-boek-xx` | B | Mergen bij leerpad-bouw |
 
 **Procedure bij leerpad-bouw**:

@@ -1,0 +1,237 @@
+# Leerstuk-script — Geïntegreerd advies bij vestigingskeuze en vermogenstransfer
+#
+# PO 2.7 leerstuk 5 (synthese-fiche). Andere denkmodus dan kennis-toepassen:
+# vooruit-redeneren, samenloop-detectie, proceskosten-afweging. Drie typische
+# case-types: (a) vestigingskeuze vennootschap; (b) tweede verblijf in ander
+# gewest; (c) familiale vermogensoverdracht.
+#
+# Hand-off: integreert alle voorgaande leerstukken op concrete Vermeulen-cases.
+# Inhoudelijke tarieven registratie + erfbelasting → cross-PO doorklik naar 2.6
+# (alleen bevoegdheidskeuze-component hier).
+
+meta:
+  slug: geintegreerd-advies-bij-vestigingskeuze-en-vermogenstransfer
+  titel: "Geïntegreerd advies — vestigingskeuze en vermogenstransfer"
+  po: "2.7"
+  cluster: regionale-en-lokale-fiscaliteit
+  voorbeeldgroep: vermeulen-stranddorp
+  beschrijving: >
+    Leerstuk PO 2.7 — synthese: van losse heffingen naar geïntegreerd advies
+    waarin federale, gewestelijke en lokale fiscaliteit samen worden afgewogen.
+    Drie typische case-modi (vestigingskeuze · tweede verblijf · vermogens­
+    overdracht), telkens met 5-stappen samenloop-analyse op de familie Vermeulen.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar PO 2.7-overzicht. Wijs erop
+    dat dit leerstuk een ANDERE denkmodus vraagt dan de voorgaande: niet
+    "ken je deze heffing?" maar "weeg federaal + gewest + gemeente tegen
+    elkaar af, met procedurele consequenties en cross-PO uitlopers."
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Eén-zin-antwoord: geïntegreerd advies is GEEN optelsom van losse heffingen, maar een redenering die voor één cliëntbeslissing alle drie niveaus (federaal · gewest · gemeente) tegelijk afweegt + procedurele gevolgen meeneemt + cross-PO uitlopers (vooral PO 2.1 PB en PO 2.6 registratie/erf) signaleert."
+    - "Vijf standaard-stappen in samenloop-analyse: (1) inventariseer welke niveaus het feit raken; (2) toets non-bis-in-idem; (3) bereken cumulatieve effectieve druk; (4) identificeer compensatie-mechanismen; (5) vermijd verrassingen via voorafgaande ruling waar mogelijk."
+    - "Drie typische case-modi in PO 2.7: (a) vestigingskeuze vennootschap (welk gewest? welke gemeente?); (b) tweede verblijf in ander gewest; (c) familiale vermogensoverdracht (schenking of erfopvolging) cross-gewest."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Case-modus", "Hoofdvraag", "Voorbeeld Vermeulen"]
+      rijen:
+        - ["Vestigingskeuze", "Welk gewest + gemeente minimaliseert totale fiscale druk?", "Vermeulen Constructie BV: zetel Lier behouden of naar Brussel?"]
+        - ["Tweede verblijf", "Welke gewest-OV + gemeente-opcentiemen + sui-generis-belasting?", "Wouter overweegt 2de verblijf — Knokke (Vl) of Brussel?"]
+        - ["Vermogensoverdracht", "Welk gewest is bevoegd? Welke planning vermijdt verrassingen?", "Wouter wil studio Knokke schenken aan Sofie (Wallonië)"]
+  afsluiter: "Korte zin: 'We werken de drie case-modi één voor één door op de Vermeulen-familie + Stranddorp.'"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: vijf-stappen-samenloop
+    titel: "De vijf-stappen samenloop-analyse"
+    niveau: 2
+    beats:
+      - "Open met de ankerregel: dit is GEEN losse stappen-lijst maar een denkframe dat de accountant elk dossier toepast — een fiscale checklist met methodisch karakter"
+      - "Stap 1 — INVENTARISEER welke niveaus het fenomeen raken. Voor vastgoed: federale RV (op huurinkomen onder bepaalde regimes), gewestelijke OV, gemeentelijke + provinciale opcentiemen op OV, mogelijke gemeentelijke sui-generis-belasting (tweede verblijven, leegstand)."
+      - "Stap 2 — TOETS non-bis-in-idem (WIB92 art. 464). Geldt samenloop wettelijk uitdrukkelijk toegelaten (zoals aanvullende gemeentebelasting PB, opcentiemen OV) of is ze verboden? Voor elk niveau-paar afzonderlijk toetsen."
+      - "Stap 3 — BEREKEN cumulatieve effectieve druk. Niet alleen per niveau apart, maar de TOTALE last over alle niveaus, in EUR voor de cliënt. Cijfer-discipline: drempels en tarieven via Cijferzakboekje of MCP certificaid-tarieven, niet uit het geheugen."
+      - "Stap 4 — IDENTIFICEER compensatie-mechanismen. Sommige belastingen zijn aftrekbaar of verrekenbaar op een hoger niveau (historisch: OV deels verrekenbaar in PB voor eigen woning); gewestelijke belastingverminderingen kunnen sommige gewest-keuzes compenseren."
+      - "Stap 5 — VERMIJD verrassingen via voorafgaande RULING bij Vlabel/Bruxelles Fiscalité/SPW Fiscalité waar mogelijk. Vooral bij planbatenheffing (waarderingsvraag), erfbelasting (woonplaats-twijfel), registratiebelasting (gunst­regime familiebedrijf). Communiceer cumulatieve impact aan cliënt VÓÓR beslissing."
+      - "Synthese (vetgedrukt): dit framework is generiek toepasbaar — vestigingskeuze, vermogensoverdracht, bedrijfsovername, vastgoedaankoop — telkens dezelfde 5 stappen, andere inhoud"
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Vraag", "Praktische bron"]
+        rijen:
+          - ["1. Inventariseer", "Welke niveaus raken het feit?", "Concept-records + [[wat-zijn-regionale-en-lokale-belastingen]]"]
+          - ["2. Toets non-bis-in-idem", "Mag de samenloop wettelijk?", "WIB92 art. 464 + uitzonderingen + [[gemeente-en-provinciebelastingen]]"]
+          - ["3. Bereken cumulatief", "Wat is totale druk in EUR?", "Cijferzakboekje + MCP certificaid-tarieven"]
+          - ["4. Identificeer compensaties", "Zijn er aftrek- of verrekenings­mechanismen?", "[[gewestelijke-belastingverminderingen-pb]] + PO 2.1"]
+          - ["5. Vermijd verrassingen", "Is ruling mogelijk + wenselijk?", "Vlabel/Bruxelles Fiscalité/SPW Fiscalité"]
+
+  - id: case-1-vestigingskeuze
+    titel: "Case 1 — Vestigingskeuze voor Vermeulen Constructie BV"
+    niveau: 2
+    beats:
+      - "Open met de cliëntvraag: Wouter overweegt zetel Vermeulen Constructie BV te verplaatsen van Lier naar Brussel-stad. Argument: 'in Brussel is de OV lager (1,25 % basis vs Vlaanderen 3,97 %)'. Klopt dat?"
+      - "Stap 1 — INVENTARISEER: vennootschap betaalt federale VenB (niet relevant — gelijk in alle gewesten); aanvullende gemeentebelasting PB volgt werknemers (niet de zetel); OV op bedrijfspand volgt LIGGING (niet de zetel — als pand in Lier blijft, blijft OV Lier); verkeers + BIV op bedrijfswagens volgen titularis (BV zelf — dus zetel-gemeente); gemeente-specifieke belastingen zoals bedrijfs­belasting + drijfkracht volgen zetel-gemeente."
+      - "Stap 2 — TOETS non-bis-in-idem: alle vermelde lagen wettelijk toegelaten — geen blokkades"
+      - "Stap 3 — BEREKEN cumulatief. Toon de vergelijkings­tabel Lier vs Brussel-stad"
+      - "Stap 4 — IDENTIFICEER compensatie: gewestelijke belastingverminderingen voor onderzoek+ontwikkeling of energie verschillen per gewest, maar voor algemene aanneming (Vermeulen Constructie BV) marginaal"
+      - "Stap 5 — RULING: niet zinvol voor deze beslissing"
+      - "Synthese: het ARGUMENT 'OV in Brussel is lager' KLOPT alleen voor het zetel-pand. Als het bedrijfspand in Lier blijft, blijft de OV-Lier ook gelden. Een zetel-verhuizing zonder fysieke verhuizing is fiscaal weinig zinvol — voor cliënt: vragen naar dieper beoogde voordelen (commercieel? gemeente­subsidies?). Voor advies: KLAAR-EN-DUIDELIJK fictieve verhuizing afraden, want fiscaal misbruik-risico bij art. 344 WIB92."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Belasting", "Vermeulen Constructie BV in Lier (Vl)", "Vermeulen Constructie BV in Brussel-stad"]
+        rijen:
+          - ["Federale VenB", "Standaard tarief (gelijk in alle gewesten)", "Standaard tarief (gelijk)"]
+          - ["OV op bedrijfspand Aalst (blijft)", "Vlaams basistarief 3,97 % × KI × (1 + opc Aalst/100)", "Onveranderd — pand niet verhuisd"]
+          - ["OV op kantoor zetel", "Vlaams basistarief 3,97 % × KI × (1 + opc Lier/100)", "Brussels basistarief 1,25 % × KI × (1 + opc Brussel/100) — typisch hogere opcentiemen"]
+          - ["Aanvullende gemeentebelasting PB (van werknemers)", "Volgt elke werknemer naar zijn woon-gemeente (niet zetel)", "Idem — geen impact zetel-verhuis"]
+          - ["Verkeersbelasting + BIV voertuigen BV", "Vlaamse tarief (gemoduleerd CO₂)", "Brussels tarief (klassieke cc-tabel grotendeels)"]
+          - ["Gemeente-bedrijfsbelasting + sui generis", "Volgens reglement Lier", "Volgens reglement Brussel-stad — vaak hoger"]
+
+  - id: case-2-tweede-verblijf
+    titel: "Case 2 — Tweede verblijf voor Wouter en Annick"
+    niveau: 2
+    beats:
+      - "Open met de cliëntvraag: Wouter overweegt een tweede verblijf — twee opties op tafel: studio Knokke-Heist (Vl) of appartement Brussel-stad (Br)"
+      - "Stap 1 — INVENTARISEER: federale PB onroerend inkomen (geïndexeerd KI × 1,40 bruteringscoëfficiënt voor verhuurd aan particulier-niet-beroep, art. 7 WIB92 — cross-PO 2.1); gewestelijke OV (basistarief verschilt) + gewestelijke aanvullende PB; gemeente-opcentiemen op OV + aanvullende gemeentebelasting PB; gemeente-specifieke belasting op tweede verblijven indien van toepassing"
+      - "Stap 2 — TOETS non-bis-in-idem: gemeentelijke belasting op tweede verblijven naast OV is toegelaten (sui-generis-feit ≠ vastgoed-grondslag van OV); naast Vlaamse leegstandsheffing als pand 12 mnd leegstaat is opletten — twee verschillende grondslagen (tweede-verblijf-bezit vs leegstand-status) en doorgaans naast elkaar verschuldigd, maar zelfde economisch effect"
+      - "Stap 3 — BEREKEN cumulatief. Toon de vergelijkings­tabel Knokke vs Brussel — let op verschuiving in samenstelling: Brussel heeft LAGER OV-basistarief maar HOGER opcentiemen-tarief en geen Vlaamse leegstandsheffing maar wel eigen Brusselse gewest-leegstand"
+      - "Stap 4 — IDENTIFICEER: in Vlaanderen voor verhuurde studio kan integratie­woonbonus (uitgedoofd voor leningen ≥ 2020) of energie-vermindering soms compenseren; in Brussel andere set verminderingen"
+      - "Stap 5 — RULING niet relevant tenzij planbaten-component bij grond"
+      - "Synthese: vergelijking is GETAL-AFHANKELIJK. Voor Wouter (oudere belegger, lange-termijn verhuurder): Knokke-Heist heeft KI-traditie laag voor kuststudio's, gemeente Knokke-Heist heeft historisch LAGE aanvullende gemeentebelasting PB (zelfs 0 % in verleden) maar HOGE OV-opcentiemen. Brussel-stad heeft middentarief. Concrete cijfers via Cijferzakboekje 2026."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Belasting", "Studio Knokke-Heist (Vl)", "Appartement Brussel-stad (Br)"]
+        rijen:
+          - ["OV basistarief", "3,97 % Vl", "1,25 % Br"]
+          - ["Gemeente-opcentiemen OV", "Knokke-Heist ⚠️ (zie reglement)", "Brussel-stad ⚠️ (typisch 2.000-3.500)"]
+          - ["Provincie-opcentiemen OV", "West-Vlaanderen ⚠️ (geplafonneerd)", "Geen (Brussel heeft geen provincies)"]
+          - ["Federaal onroerend inkomen PB (verhuurd particulier)", "Geïndexeerd KI × 1,40 (vak III) — cross-PO 2.1", "Idem (federale regel)"]
+          - ["Belasting tweede verblijven (sui generis)", "Knokke-Heist heeft reglement ⚠️ (te raadplegen)", "Brussel-stad heeft reglement ⚠️"]
+          - ["Mogelijke leegstandsheffing bij niet-verhuur > 12 mnd", "Vlaams Decreet leegstand bedrijfsruimten (nvt voor woning) OF gemeente-leegstandsbelasting", "Brusselse leegstands­heffing (woninggericht)"]
+
+  - id: case-3-vermogensoverdracht
+    titel: "Case 3 — Vermogensoverdracht aan kinderen"
+    niveau: 2
+    beats:
+      - "Open met de cliëntvraag: Wouter wil studio Knokke schenken aan dochter Sofie (Namen, Wallonië) + grond Geraardsbergen aan zoon Bram (Brussel). Welke gewest-bevoegdheden, welke planning?"
+      - "Stap 1 — INVENTARISEER. Schenkings­belasting op vastgoed: gewest waar SCHENKER fiscaal verblijft op datum schenking = Vlaanderen (Wouter Lier). Niet gewest waar begunstigde woont. Tarieven + vrijstellingen: → cross-PO 2.6 voor inhoud."
+      - "Stap 2 — TOETS non-bis-in-idem: schenkings­belasting + erfbelasting kunnen niet OP HETZELFDE GOED beide volle tarief — fictiebepalingen W.Succ. of VCF voorzien correctie wanneer vóór-overlijden-schenking binnen termijn (Vl: 3 of 5 jaar afhankelijk van regime) in nalatenschap wordt teruggevoegd"
+      - "Stap 3 — BEREKEN cumulatief: tarieven Vlaams gewest erfbelasting in rechte lijn 3-27 % progressief (Cijferzakboekje 2026) versus Vlaams gewest schenkbelasting in rechte lijn (vlakkere progressie). Voor concrete cijfers → cross-PO 2.6."
+      - "Stap 4 — IDENTIFICEER compensatie: Vlaamse gunst­regimes — gezinswoning vrijgesteld voor langstlevende partner (Vl), specifieke verminderingen voor kinderen < 21, registratie­gunsten bij familie­bedrijf­overdracht. Niet automatisch — moet pro-actief gepland."
+      - "Stap 5 — RULING via Vlabel — vooral bij twijfel over woonplaats (5-jaarsregel erfbelasting bij verhuis tussen gewesten in laatste 5 jaar) of bij familie­bedrijf­overdracht-gunsten. KLASSIEK voorzichtigheids­advies."
+      - "Synthese: het CRUCIALE PUNT voor PO 2.7 = de BEVOEGDHEIDS­REGEL. Inhoudelijke tarieven horen in PO 2.6. Voor Vermeulen: alle schenkingen + eventueel overlijden van Wouter zouden VLAAMSE erf-/schenkbelasting opleveren (Lier = Vl) — ongeacht waar Sofie/Bram wonen. Bram in Brussel + Sofie in Namen ⇒ geen Brussels of Waals tarief van toepassing op de transactie (wat tegen-intuïtief is voor cliënt)."
+      - "Aside (blockquote): cliëntcommunicatie — 'mijn dochter woont in Wallonië, dus we gaan Waalse erfbelasting betalen' is een vaak gemaakte aanname die FOUT is. Wijs cliënt vroeg op de lokalisatie­regel. Voor advies: indien Wouter zou overwegen naar Wallonië te verhuizen (Sofie achterna) → 5-jaarsregel betekent dat erfbelasting Vlaams blijft als overlijden binnen 5 jaar valt; pas na 5 jaar volledig Waalse heffing van toepassing."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Transactie", "Bevoegd gewest", "Aanknopingspunt"]
+        rijen:
+          - ["Schenking studio Knokke aan Sofie", "Vlaanderen", "Fiscale woonplaats schenker (Wouter — Lier)"]
+          - ["Schenking grond Geraardsbergen aan Bram", "Vlaanderen", "Idem — Wouter Lier"]
+          - ["Erfbelasting bij eventueel overlijden Wouter (huidige situatie)", "Vlaanderen", "Laatste fiscale woonplaats overledene (Lier)"]
+          - ["Erfbelasting bij hypothetisch overlijden binnen 5 jr na verhuis Wouter naar Wallonië", "Vlaanderen (waar Wouter het langst woonde in laatste 5 jr)", "5-jaarsregel BFW art. 5 §2"]
+          - ["Verkoop studio Knokke (later, indien gevolgde verkoop)", "Vlaanderen — registratie­recht op overdracht", "Ligging onroerend goed (Knokke = Vl)"]
+
+  - id: cross-po-uitlopers
+    titel: "Cross-PO uitlopers — wat hoort waar?"
+    niveau: 2
+    beats:
+      - "Open met de pedagogische ankerregel: PO 2.7 is een KADER-vak — voor inhoudelijke uitdieping van een specifieke belasting altijd doorklik naar het materiële PO"
+      - "Toon de cross-PO-tabel"
+      - "Synthese: voor de stagiair = altijd VRAGEN bij examen 'is dit een 2.7-vraag (kader + bevoegdheid) of een 2.6/2.5/2.1-vraag (techniek + tarief)?' Verkeerd geadresseerd antwoord = vaak halve punten verloren."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Onderwerp", "Hoort materieel in", "PO 2.7-component"]
+        rijen:
+          - ["Tarieven erfbelasting Vlaanderen", "PO 2.6", "Bevoegdheid + lokalisatie­regel"]
+          - ["Tarieven schenkbelasting per gewest", "PO 2.6", "Bevoegdheid + woonplaats­regel"]
+          - ["Gewestelijke belastingverminderingen PB (woonbonus, chèque habitat, ...)", "PO 2.1", "Bevoegdheid (BFW art. 5/1 e.v.) + aanvullende gewest-PB"]
+          - ["Onroerend inkomen-categorie PB (vak III)", "PO 2.1", "Aanknopingspunt fiscale woonplaats"]
+          - ["Algemene federale fiscale procedure (WIB92 art. 366 + 354)", "PO 2.5", "Vergelijking met gewest- + lokale eigenheden"]
+          - ["Voordeel van alle aard auto + cataloguswaarde", "PO 2.1", "Voertuigen die ook verkeersbelasting + BIV triggeren"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): cliënt-aanname 'mijn kind woont in gewest X dus dat gewest is bevoegd'. FOUT voor schenkbelasting (volgt schenker) en erfbelasting (volgt overledene). Communicatie-discipline: bij elke vermogensoverdracht­vraag eerst de lokalisatie­regel uitleggen voor de cliënt aan een tariefverwachting gehecht raakt."
+      - "Valkuil 2 (⚠️): zetelkeuze-advies dat ENKEL kijkt naar OV op de zetel zelf. Een vennootschap betaalt OV op AL haar onroerende goederen (waar ook ze liggen), niet alleen op de zetel. Bovendien verandert verhuizen van de zetel niets aan de OV van bestaande panden — alleen het zetel-kantoor verschuift mee. Voor advies: ontkoppel zetelkeuze van vastgoed-portefeuille-keuzes."
+      - "Valkuil 3 (⚠️): geen rekening houden met procedure-consequenties. Een gewest-keuze beïnvloedt ook welke ADMINISTRATIE en welke TERMIJNEN gelden bij bezwaar (zie [[procedure-gewest-en-gemeente]]). Wallonië 6-mnd-termijn versus Vlaanderen 3 mnd kan strategisch matter bij volatiele dossiers. Synthese-advies dat dit niet meeneemt = incompleet."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, je hebt het hele PO 2.7-pakket beheerst. Ga voor verdere oefening naar:"
+  leerstukken:
+    - slug: wat-zijn-regionale-en-lokale-belastingen
+      hint: "Voor het bevoegdheids­kader dat dit synthese-leerstuk activeert."
+    - slug: gewestelijke-heffingen-overgedragen-en-autonoom
+      hint: "Voor de specifieke gewest-heffingen waarop een case betrekking heeft."
+    - slug: gemeente-en-provinciebelastingen
+      hint: "Voor de lokale-niveau-component in elke case."
+    - slug: procedure-gewest-en-gemeente
+      hint: "Voor de procedurele consequenties van elke gewest-keuze."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór het examen — 5-stappen samenloop + drie case-modi."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken (incl. cross-PO):"
+  groepen:
+    - concepten: [lokale-en-regionale-belastingen, gewestelijke-fiscale-autonomie, lokale-fiscale-autonomie]
+    - concepten: [registratie-en-successierechten, erfbelasting]
+    - concepten: [gewestelijke-belastingverminderingen-pb, aanvullende-gemeentebelasting-pb]
+    - concepten: [onroerende-voorheffing, kadastraal-inkomen, planbatenheffing]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Bevoegdheids­verdeling drie niveaus"
+    ref: "Grondwet art. 41 + 162 + 170 + BFW 16.01.1989 art. 3 + 5"
+  - onderwerp: "Lokalisatie erfbelasting + 5-jaarsregel"
+    ref: "BFW art. 5 §2"
+    noot: "Bevoegd gewest = laatste fiscale woonplaats overledene; bij verhuis in laatste 5 jr vóór overlijden = gewest waar overledene het langst woonde in die periode."
+  - onderwerp: "Lokalisatie schenkbelasting onroerend goed"
+    ref: "BFW art. 5 §2 + W.Reg. art. 132 (gewestelijke bepaling) + VCF art. 2.7-2.8"
+    noot: "Bevoegd gewest = fiscale woonplaats schenker op datum schenking — niet ligging onroerend goed."
+  - onderwerp: "Lokalisatie OV"
+    ref: "BFW art. 3, eerste lid, 5° + VCF art. 2.1.1.0.1 (Vlaanderen)"
+    noot: "Ligging van het onroerend goed."
+  - onderwerp: "Lokalisatie aanvullende gemeentebelasting PB"
+    ref: "WIB92 art. 466 + 467"
+    noot: "Fiscale woonplaats van de belasting­plichtige op 1 januari aanslagjaar."
+  - onderwerp: "Lokalisatie verkeersbelasting + BIV"
+    ref: "WIGB / VCF Titel 2.2 + 2.3"
+    noot: "Woonplaats titularis-inschrijver van het voertuig."
+  - onderwerp: "Aanvullende gewestelijke PB + gewest-verminderingen"
+    ref: "BFW art. 5/1 e.v. + WIB92 art. 96/1-96/4 + art. 14538/1"
+    noot: "Voor inhoudelijke verminderingen + tarieven: zie PO 2.1 en concept-record gewestelijke-belastingverminderingen-pb."
+  - onderwerp: "Ruling Vlabel"
+    ref: "VCF Titel 3 — voorafgaande beslissingen"
+  - onderwerp: "Anti-misbruik bij vestigingskeuze"
+    ref: "WIB92 art. 344 §1 (algemene anti-misbruik) + VCF art. 3.17.0.0.2 (Vlaams equivalent)"
+
+# ---------------------------------------------------------------------------
+# Klassieke rechtspraak
+# ---------------------------------------------------------------------------
+
+rechtspraak:
+  - onderwerp: "Cassatie — werkelijke woonplaats voor fiscale lokalisatie"
+    inhoud: "Vaste cassatierechtspraak bij betwistingen over fiscale woonplaats (relevant voor lokalisatie erfbelasting, schenkbelasting, aanvullende gewestelijke PB): de FEITELIJKE situatie weegt zwaarder dan de inschrijving in het rijksregister. Centrum van levensbelangen + duurzaamheid + woon-werk-patroon = beslissende elementen. Belangrijk bij Vermeulen-type cases waarin een verhuis kort voor overlijden of schenking wordt geopereerd om gunstigere gewest-tarieven op te zoeken — anti-misbruik kan getriggerd worden."
+    confidence: "⚠️ te verifiëren — algemene leer is bestendigd in Cassatie + Hof van Beroep-rechtspraak; specifieke arrest-nummers worden in synthese-fase aangevuld"
+  - onderwerp: "Grondwettelijk Hof — gelijkheidstoets gewest-tariefverschillen"
+    inhoud: "Het Grondwettelijk Hof heeft herhaaldelijk geoordeeld dat tariefverschillen tussen gewesten voor dezelfde overgedragen heffing (bv. erfbelasting Vlaanderen vs Brussel vs Wallonië) GEEN ongeoorloofde discriminatie vormen, omdat de gewestelijke fiscale autonomie expliciet door de Grondwet (art. 170 §2) wordt erkend. Verschillen volgens woonplaats = inherent aan het federale model. Concrete arrest-referenties: nader aan te vullen in synthese-fase."
+    confidence: "⚠️ te verifiëren — algemene leer; arrest-nummers ankeren wordt opgelegd aan voorbeeldexamenvragen-fase als er een specifiek arrest in een vraag opduikt"
+
+footer: "Leerstuk PO 2.7. Status: voorgesteld — POC volgens ADR-037."
