@@ -1,0 +1,577 @@
+# Bracke Installatie BV — voorbeeldgroep voor PO 1.7 (interne controle)
+#
+# Mock middelgrote Belgische installateur (HVAC + sanitair + elektriciteit).
+# Cijfers fictief, intern consistent. Wordt geconsumeerd door:
+#   - data/leerstukken/wat-is-interne-controle-en-coso.yaml
+#   - data/leerstukken/functiescheiding-en-controlemaatregelen.yaml
+#   - data/leerstukken/cyclus-analyse-en-controlemiddelen.yaml
+#   - data/leerstukken/fouten-fraude-en-risicobeheersing.yaml
+#   - data/leerstukken/interne-audit-evaluatie-en-aanbevelingen.yaml
+#   - data/oefeningen/bracke-ic-quickscan.yaml
+#
+# Ontwerp-principes:
+#   - Vijf transactionele cycli (aankoop · verkoop · voorraad · kas/treasury · lonen) —
+#     elk met expliciete walkthrough + bewuste IC-zwaktes.
+#   - Functiescheiding-zwaktes ZIJN AANWEZIG (didactisch doel: stagiair leert ze
+#     herkennen). Niet "Bracke heeft alles op orde" — wel: "Bracke is realistisch
+#     KMO met groei-pijnen".
+#   - Eén centrale fraude-case (Bart fictieve leveranciers) voor leerstuk 4.
+#   - Mock managementletter met 3 IC-bevindingen voor leerstuk 5.
+#   - Zichtbare zwaktes vragen om concrete aanbevelingen (doel.6).
+#
+# Consistentie-toetsen (door auteur uitgevoerd):
+#   - Aantal bezetting in organogram = aantal in bezetting-tabel (32 werknemers)
+#   - Omzet 6,8 mln = som van project-types (70 % B2B + 30 % particulier)
+#   - DSO 68 dagen consistent met handelsvorderingen-saldo
+#   - Mock-balans sluit (totaal activa = totaal passiva = 4,2 mln EUR)
+
+naam: bracke-instal
+beschrijving: >
+  Bracke Installatie BV is een mock Belgische middelgrote installateur (HVAC +
+  sanitair + elektriciteit) gevestigd in Aalst. 32 medewerkers (8 administratief
+  + 24 op de werf), omzet 6,8 mln EUR (boekjaar 2025), balanstotaal 4,2 mln EUR.
+  Werkt met Odoo-ERP + TimeSquare-tijdregistratie + Isabel-6-bankkoppeling. Geen
+  commissaris (onder de drempel — art. 3:72 WVV); wel een vrijwillig
+  IC-beoordelingsverslag besteld bij confrater-accountant (revisor-perspectief
+  als didactisch vehikel). Bracke heeft de klassieke groei-pijnen van een KMO
+  in transitie: snel gegroeid van 8 naar 32 werknemers in 6 jaar zonder dat de
+  IC-procedures mee evolueerden. Eind 2025 ontdekte de boekhouder een
+  systematisch lek bij aankopen — een fraude-zaak die het management nu
+  noopt tot een IC-quickscan.
+
+sector: bouw — installatie (HVAC + sanitair + elektriciteit)
+rechtsvorm: BV
+omvang: middelgrote vennootschap (onder commissaris-drempel art. 3:72 WVV)
+oprichting: 2008
+balansdatum: "31-12-2025"
+boekjaar_referentie: "2025"
+vestiging: "Aalst (Oost-Vlaanderen)"
+btw_nummer: "BE 0890.123.456"
+
+erp_landschap:
+  primaire_software: "Odoo Community 17 (sinds 2022 — vóór dat: Sage BOB Light)"
+  modules_actief: ["aankoop", "verkoop", "voorraad", "boekhouding", "project"]
+  modules_niet_actief: ["HR (loonadministratie uitbesteed aan SD Worx)", "asset management"]
+  tijdregistratie: "TimeSquare (badge-systeem op de werf + mobiele app voor monteurs)"
+  bank: "Isabel 6 (KBC + BNP Paribas Fortis)"
+  cloud_storage: "Microsoft 365 (SharePoint voor projectdossiers + OneDrive personeel)"
+  back_up: "Odoo cloud-back-up dagelijks (door provider); geen lokale fallback"
+
+# ---------------------------------------------------------------------------
+# Organogram en bezetting
+# ---------------------------------------------------------------------------
+
+organogram_mermaid: |
+  graph TD
+      ZV1["Pieter Bracke<br/>Zaakvoerder<br/>(50% aandelen)"] --> ADMIN["Administratief<br/>team (8 vte)"]
+      ZV2["Sofie Vermeulen<br/>Co-zaakvoerder<br/>(50% aandelen)"] --> TECH["Technisch<br/>team (24 vte)"]
+      ZV1 -.- ZV2
+      ADMIN --> ELINE["Eline Janssens<br/>Hoofdboekhouder<br/>(10 j anciënniteit)"]
+      ADMIN --> KARIM["Karim Boutaleb<br/>Projectadministratie<br/>(facturatie + DSO)"]
+      ADMIN --> NORA["Nora De Cock<br/>Receptie + Aankoop<br/>(bestelbonnen + leveranciers-contact)"]
+      ADMIN --> ASSIST["3 admin assistants<br/>(magazijnier, planning, klantenservice)"]
+      ADMIN --> AMLCO_GDPR["Geen DPO of compliance-rol<br/>— Pieter Bracke = AMLCO de facto"]
+      TECH --> WL1["Werfleider Marc Peeters<br/>(HVAC-team — 8 monteurs)"]
+      TECH --> WL2["Werfleider Bart Devlieger<br/>(Sanitair — 8 monteurs)<br/><i>tot 2025-11 — ontslagen wegens fraude</i>"]
+      TECH --> WL3["Werfleider Jens Vandewalle<br/>(Elektriciteit — 8 monteurs)"]
+
+bezetting:
+  zaakvoerders:
+    - naam: "Pieter Bracke"
+      rol: "Zaakvoerder (operationeel + commercieel)"
+      anciënniteit: "17 j (oprichter)"
+      bevoegdheden_odoo: "Admin-rechten — alle modules + alle goedkeuringsworkflows"
+      handtekening: "Tekent alle betalingen > 25.000 EUR + alle opdrachtbrieven leveranciers + alle arbeidsovereenkomsten"
+      bijzonderheid: "Doet zelf alle kasstortingen bij de bank (1× per 2 weken) — geen tweede paar ogen"
+    - naam: "Sofie Vermeulen"
+      rol: "Co-zaakvoerder (technisch + HR)"
+      anciënniteit: "12 j (sinds 2014 mede-aandeelhouder)"
+      bevoegdheden_odoo: "Admin-rechten technisch + HR (lonen-export goedkeuring)"
+      handtekening: "Tekent betalingen tussen 10.000 - 25.000 EUR + monteurs-arbeidsovereenkomsten"
+      bijzonderheid: "Halftijds (afwezig elke woensdag + vrijdagnamiddag) — backup voor Pieter ontbreekt vaak"
+
+  administratief:
+    - naam: "Eline Janssens"
+      rol: "Hoofdboekhouder"
+      vte: 1.0
+      anciënniteit: "10 j (sinds 2015)"
+      bevoegdheden_odoo: "Boekhouding-admin + aankoop-validator + leveranciers-master-edit + Isabel-6-batch-aanmaker"
+      bijzonderheid: "Heeft historisch breed mandaat — kan in 1 sessie leveranciersgegevens aanpassen, factuur boeken en betaalbatch klaarzetten. Bedrog-trigger Bart (zie fraude-case) zat hier"
+    - naam: "Karim Boutaleb"
+      rol: "Projectadministratie / verkoop-facturatie"
+      vte: 1.0
+      anciënniteit: "3 j"
+      bevoegdheden_odoo: "Verkoop-module (facturatie + creditnota's) + klantenmaster-edit + DSO-opvolging"
+      bijzonderheid: "Maakt klantenfiches aan vanaf de eerste bestelbon — geen kredietacceptatie-functie aanwezig"
+    - naam: "Nora De Cock"
+      rol: "Receptie + aankoop-coordinatie"
+      vte: 1.0
+      anciënniteit: "5 j"
+      bevoegdheden_odoo: "Aankoop-module (bestelaanvragen + bestelbonnen) + leveranciers-master-read-only"
+      bijzonderheid: "Voert bestelbonnen in op aanvraag werfleiders; geen onafhankelijke prijsvergelijking voor leveringen < 5.000 EUR"
+    - naam: "3 admin assistants"
+      rollen: "Magazijnier (Davy) + Planning (Liesbet) + Klantenservice (Tine)"
+      vte: 3.0
+      bijzonderheid: "Davy beheert magazijn fysiek + boekt voorraadbewegingen — alleen Davy heeft sleutel én Odoo-rechten op magazijn (functiescheiding-zwakte)"
+
+  technisch:
+    - rol: "Werfleider Marc Peeters (HVAC)"
+      vte: 1.0
+      team: "8 monteurs"
+      bevoegdheden_odoo: "Werkbon-aanmaak + materiaalaanvraag + uren-validatie eigen team"
+    - rol: "Werfleider Bart Devlieger (Sanitair)"
+      vte: 1.0
+      team: "8 monteurs"
+      status: "Tot 2025-11 actief — ontslagen wegens vastgestelde fraude (zie fraude-case)"
+    - rol: "Werfleider Jens Vandewalle (Elektriciteit)"
+      vte: 1.0
+      team: "8 monteurs"
+      bevoegdheden_odoo: "Idem Marc"
+
+totaal_vte:
+  zaakvoerders: 1.5
+  administratief: 7.0   # Eline + Karim + Nora + 3 admin + halftijds vacature
+  technisch: 27.0       # 3 werfleiders + 24 monteurs
+  totaal: 35.5
+  noot: "Bezetting 32 hoofden / 35,5 vte — verschil door deeltijd-zaakvoerder + deeltijdse monteurs"
+
+# ---------------------------------------------------------------------------
+# Klant- en omzet-profiel
+# ---------------------------------------------------------------------------
+
+omzet_2025:
+  totaal: 6800000          # EUR
+  b2b: 4760000             # 70% — algemene aannemers + property-developers
+  particulier: 2040000     # 30% — renovatie + nieuwbouw eigenaars
+  per_team:
+    hvac: 2700000
+    sanitair: 2100000
+    elektriciteit: 2000000
+
+klanten_kerncijfers:
+  aantal_actieve_klanten: 184
+  aantal_b2b: 38
+  aantal_particulier: 146
+  top_klant_b2b: "Algemene Aannemingen Verstraeten NV — 18% omzet (1,22 mln EUR/jaar)"
+  gemiddelde_projectgrootte_b2b: 25000   # EUR
+  gemiddelde_projectgrootte_particulier: 8000
+  gemiddelde_doorlooptijd_b2b: 40   # dagen
+  gemiddelde_doorlooptijd_particulier: 10
+  dso_2025: 68             # dagen (sectorgemiddelde 52 — Bracke loopt achter)
+
+leveranciers_kerncijfers:
+  aantal_actieve_leveranciers: 87
+  top_leverancier: "Vaillant Belgium NV — 22% inkoop (HVAC-units)"
+  inkoop_2025: 3940000     # EUR
+  dpo_2025: 45             # dagen
+  voorraadrotatie_magazijn: 8   # ×/jaar (centrale voorraad bij Aalst)
+
+# ---------------------------------------------------------------------------
+# Mock-balans + resultatenrekening 31-12-2025
+# ---------------------------------------------------------------------------
+
+balans_2025:
+  totaal_activa: 4200000
+  vaste_activa:
+    materiële_vaste_activa: 1200000   # gebouw Aalst + 12 bestelwagens + magazijn-installaties
+    immateriële_vaste_activa: 80000   # Odoo-licenties + maatwerk
+    financiële_vaste_activa: 50000    # waarborgen + 1 deelneming
+    subtotaal: 1330000
+  vlottende_activa:
+    voorraden: 420000                 # magazijn materiaal + installaties in WIP
+    handelsvorderingen: 1267000       # 6.8 mln × 68/365 ≈ 1.267 mln
+    overige_vorderingen: 38000
+    liquide_middelen: 1145000         # incl 2 kasrekeningen klein-onkost
+    subtotaal: 2870000
+
+  totaal_passiva: 4200000
+  eigen_vermogen:
+    inbreng: 100000
+    reserves: 850000
+    overgedragen_resultaat: 720000
+    resultaat_boekjaar: 410000
+    subtotaal: 2080000
+  schulden:
+    leasing_op_meer_dan_1_jaar: 320000      # 8 bestelwagens leasing
+    leveranciers: 485000                     # 3.94 mln × 45/365 ≈ 0.486 mln
+    btw_te_betalen: 156000
+    rsz_te_betalen: 89000
+    bedrijfsvoorheffing: 67000
+    schulden_aan_kredietinstellingen_kort: 245000   # rekening-courant
+    overige_schulden: 758000                 # vakantiegeld + provisies + lange leverancier-deals
+    subtotaal: 2120000
+
+resultaat_2025:
+  omzet: 6800000
+  kostprijs_verkopen: -3940000
+  brutomarge: 2860000
+  bezoldigingen: -1820000   # 32 mens. × ~57 k loaded
+  afschrijvingen: -180000
+  andere_bedrijfskosten: -385000
+  bedrijfsresultaat: 475000
+  financieel_resultaat: -28000
+  belasting: -37000
+  resultaat_boekjaar: 410000
+
+# ---------------------------------------------------------------------------
+# Per-cyclus walkthroughs + bewuste IC-zwaktes
+# Hoofd-data-bron voor leerstuk 3 (cyclus-analyse-en-controlemiddelen)
+# ---------------------------------------------------------------------------
+
+cycli:
+
+  aankoop:
+    naam: "Aankoop / Procure-to-Pay"
+    flow_mermaid: |
+      graph LR
+          A["Werfleider:<br/>bestelaanvraag"] --> B{"Bedrag<br/>> 5.000?"}
+          B -->|Ja| C["Pieter:<br/>goedkeuring vóór bestelling"]
+          B -->|Neen| D["Nora:<br/>bestelling plaatst<br/>(zonder goedkeuring)"]
+          C --> D
+          D --> E["Levering bij werf of magazijn<br/>(werfleider of Davy ontvangt)"]
+          E --> F["Factuur binnenkomst<br/>(Eline boekt in Odoo)"]
+          F --> G{"3-way match<br/>geslaagd?"}
+          G -->|Ja| H["Eline maakt<br/>betaalbatch"]
+          G -->|Neen| I["Eline contacteert<br/>leverancier voor rechtzetting"]
+          H --> J{"Bedrag > 10.000?"}
+          J -->|Ja| K["Sofie of Pieter<br/>tekent batch"]
+          J -->|Neen| L["Eline geeft<br/>batch zelf vrij"]
+          K --> M["Betaling via Isabel 6"]
+          L --> M
+    drempels:
+      goedkeuring_bestelling: "5.000 EUR (per bestelling)"
+      tweede_handtekening_betaling: "10.000 EUR (per betaling)"
+    sleutelcontroles_aanwezig:
+      - "3-way match bestelbon ↔ ontvangstbon ↔ factuur (Odoo automatisch — flagging bij verschil > 2%)"
+      - "Tweede handtekening boven 10.000 EUR"
+      - "Maandelijkse rekening-courant-reconciliatie leveranciers door Eline"
+    zwaktes_aanwezig:
+      Z1:
+        omschrijving: "Eline heeft simultane rechten op leveranciers-master + factuur-boeking + betaalbatch — geen functiescheiding tussen bewaring (leveranciers-data) en uitvoering (betaling)"
+        risico: "Eline (of iemand met Eline-paswoord) kan nieuwe leverancier aanmaken, factuur boeken en betaling klaarzetten zonder dat een tweede persoon het ziet. Functioneel-frauderisico"
+        koppeling_examen: "ISA 315 herzien-2019 Bijlage 3 §A157 — functiescheiding leveranciers-master vs betaling als preventieve maatregel"
+      Z2:
+        omschrijving: "Betalingen onder 10.000 EUR (drempel) gaan zonder tweede handtekening — boekhouder kan alleen vrijgeven"
+        risico: "Drempel is hoog gezien gemiddelde projectkost (25k B2B). Veel materiaalfacturen vallen onder de drempel en passeren ongezien"
+      Z3:
+        omschrijving: "Werfleider keurt bestelling onder 5.000 EUR zelf goed — geen onafhankelijk prijscheck door Nora"
+        risico: "Werfleider kan systematisch dezelfde leverancier kiezen (relatie · kickback) zonder concurrentie"
+
+  verkoop:
+    naam: "Verkoop / Order-to-Cash"
+    flow_mermaid: |
+      graph LR
+          A["Klantcontact:<br/>vraag offerte"] --> B["Werfleider:<br/>technische offerte<br/>+ prijsraming"]
+          B --> C{"Bedrag<br/>> 10.000?"}
+          C -->|Ja| D["Pieter:<br/>commerciële goedkeuring"]
+          C -->|Neen| E["Werfleider:<br/>stuurt offerte direct"]
+          D --> E
+          E --> F["Klant tekent;<br/>Karim maakt klantenfiche aan<br/>(eerste keer)"]
+          F --> G["Project gepland;<br/>monteurs uitgevoerd"]
+          G --> H["Werkbon getekend<br/>door klant"]
+          H --> I["Karim factureert<br/>(eind- of voorschotfactuur)"]
+          I --> J["DSO-opvolging<br/>door Karim"]
+          J --> K{"> 60 dagen<br/>open?"}
+          K -->|Ja| L["Karim escaleert<br/>naar Pieter"]
+    sleutelcontroles_aanwezig:
+      - "Goedkeuring Pieter boven 10.000 EUR commercieel"
+      - "Werkbon-handtekening klant vóór facturatie"
+      - "DSO-rapport wekelijks (top 20 oudste)"
+    zwaktes_aanwezig:
+      Z4:
+        omschrijving: "Karim maakt klantenfiches aan zodra de eerste bestelbon binnenkomt — geen kredietacceptatie-stap door onafhankelijke functie"
+        risico: "Bracke kan beginnen werken voor insolvabele klanten. Twee verlieslatende dossiers in 2025 (afschrijving ~22.000 EUR totaal — particuliere klanten in faling)"
+        koppeling_examen: "Direct replica van examen 2014-1 vr10 (risico's klantenfiches door verkoop)"
+      Z5:
+        omschrijving: "Karim heeft simultane rechten op klantenmaster + creditnota-aanmaak — kan dubbelboeking corrigeren zonder spoor"
+        risico: "Karim kan eigen vergissingen ongedaan maken zonder dat Eline of Pieter het ziet"
+      Z6:
+        omschrijving: "BTW-regime wordt door Karim ingevuld op klantenfiche — geen vier-ogen-validatie. Eén klant per ongeluk in 21 % i.p.v. 6 % verlegd (renovatie ouder dan 10 j) — BTW-rechtzetting ca 4.800 EUR"
+        risico: "BTW-fouten + boetes (geringere oorzaak, maar systeem-zwakte)"
+
+  voorraad:
+    naam: "Voorraad — magazijn Aalst + werf-buffers"
+    flow_mermaid: |
+      graph LR
+          A["Levering bij magazijn"] --> B["Davy:<br/>fysieke ontvangst<br/>+ boekhoudkundige inboeking"]
+          B --> C["Werfleider vraagt<br/>materiaal voor werf"]
+          C --> D["Davy:<br/>uitslag uit magazijn<br/>+ boekt magazijnbon"]
+          D --> E["Werf-buffer:<br/>opslag op werf"]
+          E --> F["Monteurs gebruiken;<br/>resterend = retour magazijn"]
+          F --> G["Davy:<br/>retour-boeking<br/>(maar niet altijd)"]
+          G --> H["Cyclische telling<br/>2× per jaar"]
+          H --> I["Eline:<br/>aansluiting<br/>met boekhouding"]
+    sleutelcontroles_aanwezig:
+      - "Magazijn afgesloten — alleen Davy heeft sleutel + Odoo-rechten"
+      - "Cyclische tellingen 2× per jaar (juni + december)"
+      - "ABC-classificatie voor top-30 artikelen — frequentere telling"
+    zwaktes_aanwezig:
+      Z7:
+        omschrijving: "Davy combineert bewaring (sleutel + fysiek beheer) + registratie (Odoo-boekingen) zonder onafhankelijke controle"
+        risico: "Klassieke ACR-IH-overtreding — Davy kan diefstal afdekken door magazijnbon te falsifiëren"
+        koppeling_examen: "ISA 501 §4 (voorraad-controle); ACR-IH-leer Bewaren + Registreren samen verboden"
+      Z8:
+        omschrijving: "Retour-boekingen van werf naar magazijn gebeuren niet systematisch — werfleider beslist of restmateriaal teruggaat of bij volgende werf gebruikt wordt. Geen tracking"
+        risico: "Materiaal-leakage naar privé-gebruik door monteurs (in 2025 telling: ~18.000 EUR voorraad-discrepantie vastgesteld, oorzaak niet 100% geïdentificeerd)"
+      Z9:
+        omschrijving: "Voorraadtelling gedaan door Davy zelf (telpartner ontbreekt) — geen onafhankelijke verificatie"
+        risico: "Telling onbetrouwbaar — Davy telt waar de Odoo-data zegt te tellen"
+
+  kas_treasury:
+    naam: "Kas / Treasury"
+    componenten:
+      - "Kleine kas op kantoor (max 1.500 EUR voor klein-onkosten)"
+      - "Werfleider-creditcards (limiet 2.500 EUR/maand) — 3 stuks"
+      - "Bank-betalingen via Isabel 6 (zie aankoop-flow)"
+      - "Klant-betalingen: 95 % bankoverschrijving + 5 % cash (vooral particulier)"
+    flow_klein_kas: |
+      graph LR
+          A["Werknemer:<br/>kleine onkost<br/>(bv tankbeurt, parkeer)"] --> B["Bonnetje + onkostennota"]
+          B --> C["Nora:<br/>uitbetaling uit kas"]
+          C --> D["Werknemer tekent af"]
+          D --> E["Eline:<br/>boekt onkost"]
+          E --> F["Maandelijks:<br/>Pieter telt kas?"]
+    sleutelcontroles_aanwezig:
+      - "Maandelijkse bank-reconciliatie Eline (alle banken)"
+      - "Onkostennota's aftekenen door werknemer + Nora"
+    zwaktes_aanwezig:
+      Z10:
+        omschrijving: "Kascontrole formeel maandelijks door Pieter — in praktijk laatste 8 maanden niet uitgevoerd (te druk). Geen procesvervinger door Sofie"
+        risico: "Klein-kas-fraude blijft onopgemerkt; geen periodieke verzekering van saldo"
+        koppeling_examen: "Examen 2014-1 vr11 / 2013-1 vr9 — procedure kasbetalingen kleine kosten met min 2 functiescheidingen"
+      Z11:
+        omschrijving: "Pieter doet zelf alle cash-stortingen bij de bank (1× per 2 weken) — geen tweede paar ogen op samengetelde envelopinhoud"
+        risico: "Cash-flow van particulier-klanten niet onafhankelijk verifieerbaar"
+      Z12:
+        omschrijving: "Werfleider-creditcards: maandelijks afrekenstaat wordt ingediend door werfleider zelf — Eline boekt zonder onafhankelijke vergelijking met werkstaten"
+        risico: "Persoonlijk gebruik van zakelijke creditcard kan onopgemerkt blijven"
+
+  lonen:
+    naam: "Lonen / Hire-to-Retire"
+    flow_mermaid: |
+      graph LR
+          A["Monteur:<br/>badge in/uit TimeSquare"] --> B["Werfleider:<br/>uren-validatie<br/>maandelijks"]
+          B --> C["Eline:<br/>export uren naar SD Worx"]
+          C --> D["SD Worx:<br/>loonberekening + fiches"]
+          D --> E["Sofie:<br/>goedkeuring loonbatch"]
+          E --> F["SD Worx betaalt;<br/>boeking in Odoo"]
+          F --> G["RSZ + BV<br/>doorboekingen door Eline"]
+    sleutelcontroles_aanwezig:
+      - "Werfleider valideert eigen team-uren"
+      - "Sofie tekent loonbatch (4-ogen op totaal)"
+      - "SD Worx als 3e partij (geautomatiseerde berekening)"
+    zwaktes_aanwezig:
+      Z13:
+        omschrijving: "Geen onboarding/offboarding-protocol — werfleider kan ex-medewerker maandenlang doorbetaalde uren aanleveren. In 2025 vastgesteld: ex-monteur Frank (ontslag mei 2025) kreeg 4 maanden doorbetaald (~12.800 EUR netto) — Sofie betaalt de batch goed zonder vergelijking met actieve personeelslijst"
+        risico: "Spookmedewerker-risico — TimeSquare detecteert geen ontbrekende badge omdat werfleider de uren manueel invoert voor monteurs die op werf zijn ('badge stuk' = bypass)"
+        koppeling_examen: "Klassieke H2R-fraude — examen 2013-1 maatregelen na onregelmatigheden boekhouder analoog"
+      Z14:
+        omschrijving: "Werfleider valideert eigen team — zelf-controle. Geen onafhankelijke check op overuren-aanvragen door 2e persoon"
+        risico: "Werfleider kan eigen kennissen extra overuren toekennen"
+
+# ---------------------------------------------------------------------------
+# Centrale fraude-case (leerstuk 4 + leerstuk 5)
+# ---------------------------------------------------------------------------
+
+fraude_case_bart:
+  korte_beschrijving: >
+    Bart Devlieger, werfleider sanitair (8 j anciënniteit), heeft van september
+    2024 tot november 2025 systematisch fictieve aankoopfacturen laten betalen
+    via een gefingeerde leverancier op naam van zijn schoonbroer's BV
+    (Sanitair Maes & Co BV). Totaal lek: 47.300 EUR. Ontdekt eind november 2025
+    door Eline tijdens jaarafsluitings-controle (toevallige opmerking over
+    leverancier die niet voorkwam in offerte-database).
+  fraudedriehoek:
+    druk: "Persoonlijke schulden (echtscheiding 2024 + alimentatie + lening renovatie eigen huis)"
+    gelegenheid:
+      - "Z1 zwakte: Eline kon zonder 4-ogen leveranciers aanmaken — Bart vroeg Eline de leverancier aan te maken voor een 'eenmalige levering', Eline deed dit zonder verificatie"
+      - "Z3 zwakte: bestellingen onder 5.000 EUR door werfleider zelf goedgekeurd — Bart maakte 12 valse bestelaanvragen tussen 1.800 en 4.500 EUR"
+      - "Z2 zwakte: betalingen onder 10.000 EUR door Eline alleen vrijgegeven — alle 12 facturen vielen onder de drempel"
+      - "Bart 'leverde' zelf ontvangstbewijzen (op eigen werf) — geen onafhankelijke ontvangst-controle door Davy (omdat werf-leveringen niet via magazijn)"
+    rationalisatie: "Bart zou achteraf zeggen: 'Bracke heeft mij onderbetaald jaren — ik nam alleen wat me toekwam'"
+  modus_operandi: |
+    1. Bart leverde fictieve materiaal-bestelaanvraag in (HVAC- of sanitair-onderdelen, plausibele bedragen)
+    2. Bestelling onder drempel — geen Pieter-goedkeuring
+    3. Schoonbroer-BV stuurt factuur (3-way match werkt formeel: bestelbon ↔ Bart-ontvangstbewijs ↔ factuur sluiten)
+    4. Eline boekt en zet betaalbatch klaar (onder drempel — geen 2e handtekening)
+    5. Betaling gaat naar schoonbroer-BV — schoonbroer storteert door naar Bart
+  totalen:
+    aantal_valse_facturen: 12
+    periode: "september 2024 – november 2025 (14 maanden)"
+    totaal_bedrag: 47300       # EUR
+    gemiddelde_factuur: 3942
+  drie_zwaktes_die_het_mogelijk_maakten:
+    - "Z1 (leveranciers-master + boeking + betaling bij één persoon)"
+    - "Z2 (drempel 10.000 EUR voor 2e handtekening te hoog)"
+    - "Z3 (werfleider keurt eigen bestellingen onder 5.000 EUR goed)"
+  drie_controles_die_het_opgemerkt_hadden:
+    - "Periodieke leveranciers-spend-analyse (top 20 nieuwe leveranciers > X EUR) door Pieter — was nooit ingericht"
+    - "Onafhankelijke goedkeuring nieuwe leveranciers door Pieter of Sofie vóór eerste betaling — niet aanwezig"
+    - "Periodieke vergelijking offerte-database vs aankoopfacturen (welke leveranciers worden betaald zonder ooit een offerte te hebben gegeven?) — bestaat niet"
+  na_de_ontdekking:
+    - "Bart ontslagen wegens dringende reden (november 2025)"
+    - "Strafklacht ingediend door Pieter (lopend)"
+    - "Bracke vorderde 47.300 EUR + schade — schoonbroer-BV inmiddels in vereffening"
+    - "Pieter besloot IC-quickscan te laten doen door confrater-accountant (vrijwillige review-opdracht) — managementletter mock hieronder"
+
+# ---------------------------------------------------------------------------
+# Mock-managementletter (leerstuk 5 + oefening)
+# ---------------------------------------------------------------------------
+
+managementletter:
+  opdracht: "Vrijwillige IC-beoordelingsopdracht door confrater-accountant Marc Vlaeminck (ITAA-nummer B-31.456) — verslag december 2025"
+  scope: "Beoordeling van opzet (design effectiveness) en bestaan van interne controle op de vier hoofd-cycli (aankoop · verkoop · voorraad · kas/treasury) na vaststelling van fraude-incident Bart Devlieger"
+  beperkingen: "Geen operating-effectiveness-test (geen test-of-controls over periode); geen volledige loon-cyclus-evaluatie (uitbesteed); geen IT-general-controls audit (uit scope)"
+  bevindingen:
+    B1:
+      ernst: "Significant deficiency"
+      beschrijving: "Onvoldoende functiescheiding boekhouding leveranciers — één persoon (hoofdboekhouder) heeft simultane rechten op leveranciers-master + factuur-boeking + betaalbatch-aanmaak"
+      koppeling_zwakte: "Z1"
+      koppeling_fraude: "Materiële trigger voor Bart-incident"
+      isa_265_categorie: "Te communiceren aan bestuur"
+      voorstel_aanbeveling: "Splits Odoo-rollen: leveranciers-master alleen door Pieter of Sofie aanpasbaar; betaalbatch-aanmaak en -vrijgave door twee verschillende personen; nieuwe leverancier krijgt 'in afwachting'-status tot Pieter validatie geeft"
+    B2:
+      ernst: "Significant deficiency"
+      beschrijving: "Drempels voor goedkeuring bestellingen + betalingen niet meer afgestemd op huidige bedrijfsschaal — drempel 5.000/10.000 dateert van 2018, gemiddelde projectbedrag is sindsdien verdubbeld"
+      koppeling_zwakte: "Z2 + Z3"
+      isa_265_categorie: "Te communiceren aan bestuur"
+      voorstel_aanbeveling: "Drempel goedkeuring bestelling verlagen naar 2.500 EUR; drempel 2e handtekening betaling naar 5.000 EUR; periodieke spend-analyse top-20-leveranciers > 25.000 EUR/jaar"
+    B3:
+      ernst: "Deficiency"
+      beschrijving: "Voorraad-beheer — Davy combineert bewaring + registratie zonder onafhankelijke controle; cyclische tellingen niet bemand door telpartner"
+      koppeling_zwakte: "Z7 + Z9"
+      isa_265_categorie: "Optioneel te communiceren — beoordeling management"
+      voorstel_aanbeveling: "Tweede telpartner per telling (roteren — bv. een werfleider); periodieke (kwartaal) cycli-tellingen voor ABC-categorie A door Nora i.p.v. Davy"
+    B4:
+      ernst: "Deficiency"
+      beschrijving: "Klein-kas-procedure — geen documenteerde kascontrole laatste 8 maanden"
+      koppeling_zwakte: "Z10 + Z11"
+      isa_265_categorie: "Optioneel"
+      voorstel_aanbeveling: "Maandelijkse kascontrole formaliseren — Sofie of Nora controleert (rotatie), proces-verbaal in fysiek schrift"
+  niet_bevonden_maar_te_overwegen:
+    - "Aanstelling AMLCO formaliseren (Pieter de facto, geen schriftelijk mandaat)"
+    - "DPO-rol voor GDPR (klantenbestand 184 actief)"
+    - "Onboarding/offboarding-protocol HR (Frank-incident)"
+
+# ---------------------------------------------------------------------------
+# Tabellen voor classificatie-vragen (leerstuk 2 + oefening)
+# ---------------------------------------------------------------------------
+
+classificatie_8_activiteiten:
+  context: "Bracke aankoop-cyclus — direct replica van examen 2013-2 vr10 maar in Bracke-context"
+  activiteiten:
+    - activiteit: "Goedkeuring bestelling > 5.000 EUR door Pieter"
+      categorie_correct: "1 - Autorisatie"
+    - activiteit: "Ontvangst HVAC-units door Davy in magazijn"
+      categorie_correct: "2 - Bewaring activa"
+    - activiteit: "Inboeken factuur Vaillant door Eline"
+      categorie_correct: "3 - Registratie en rapportering"
+    - activiteit: "3-way match controle door Eline (bestelbon ↔ ontvangstbon ↔ factuur)"
+      categorie_correct: "4 - Controle procedures"
+    - activiteit: "Aanmaak wekelijkse betaalbatch door Eline (selectie te betalen facturen)"
+      categorie_correct: "3 - Registratie en rapportering"
+    - activiteit: "Goedkeuring betaalbatch > 10.000 EUR door Sofie"
+      categorie_correct: "4 - Controle procedures"
+    - activiteit: "Uitvoering bankbetaling via Isabel 6"
+      categorie_correct: "2 - Bewaring activa"
+    - activiteit: "Aanmaak nieuwe leverancier in Odoo door Eline"
+      categorie_correct: "1 - Autorisatie"
+
+# ---------------------------------------------------------------------------
+# Klantenfiches-case (leerstuk 3 + oefening)
+# Replica van examen 2014-1 vr10 maar op Bracke-context
+# ---------------------------------------------------------------------------
+
+klantenfiches_case:
+  scenario: >
+    Bij Bracke maakt Karim (projectadministratie) de nieuwe klantenfiches aan
+    op het moment dat de werfleider de eerste door een nieuwe klant getekende
+    offerte binnenbrengt. Karim vult BTW-nummer, leveradres, kortingscategorie
+    en betalingsvoorwaarden in op basis van wat de werfleider vermeldt.
+  drie_risicos_te_detecteren:
+    R1:
+      risico: "Onvoldoende functiescheiding — werfleider initieert verkoop, Karim legt klantenfiche aan zonder onafhankelijke verificatie. Werfleider kan fictieve klant introduceren (omzet-inflate voor commissie of voor eigen prestige)"
+      koppeling: "Z4 + Z5"
+    R2:
+      risico: "Geen kredietacceptatie-functie vooraf — klant wordt aangemaakt zonder onafhankelijke kredietcheck (door financiële dienst of credit controller). Twee gevallen in 2025 met afschrijvingen totaal 22.000 EUR"
+      koppeling: "Z4"
+    R3:
+      risico: "Master-data-kwaliteit zonder vier-ogen-validatie — BTW-regime, kortingspercentages, betalingsvoorwaarden kunnen fout of manipuleerbaar zijn (één BTW-rechtzetting 4.800 EUR in 2025)"
+      koppeling: "Z6"
+
+# ---------------------------------------------------------------------------
+# Verkoopcyclus-doelstellingen classificatie (oefening — optioneel)
+# Replica van examen 2015-1 vr14
+# ---------------------------------------------------------------------------
+
+verkoopcyclus_doelstellingen_bracke:
+  context: "Doelstellingen bij operationele audit verkoopcyclus Bracke (HVAC/sanitair/elektriciteit)"
+  doelstellingen:
+    - doelstelling: "Opstellen prijsstrategie per project-segment (HVAC vs sanitair vs elektriciteit)"
+      financieel: false
+      operationeel: true
+      conformiteit: false
+    - doelstelling: "Op-tijd-levering aan B2B-aannemers tegen laagste materiaal- en personeelsinzet"
+      financieel: true
+      operationeel: true
+      conformiteit: false
+    - doelstelling: "Enkel goedgekeurde offertes worden door werfleiders gestart"
+      financieel: true
+      operationeel: false
+      conformiteit: true
+    - doelstelling: "Alle gefactureerde projecten zijn werkelijk uitgevoerd en getekend door klant (geen fictieve omzet)"
+      financieel: true
+      operationeel: false
+      conformiteit: true
+    - doelstelling: "Voorschotfacturatie bij B2B-projecten > 30 dagen doorlooptijd, om DSO te verlagen"
+      financieel: true
+      operationeel: true
+      conformiteit: false
+
+# ---------------------------------------------------------------------------
+# COSO-mapping op Bracke (leerstuk 1 + samenvatting)
+# ---------------------------------------------------------------------------
+
+coso_componenten_bracke:
+  controleomgeving:
+    sterk: "Pieter is zichtbaar aanwezig op kantoor (tone at the top); informele gedragscode"
+    zwak: "Geen geschreven gedragscode; geen klokkenluiders-procedure (te kleine schaal vond Pieter)"
+  risico_inschatting:
+    sterk: "Operationele risico-discussie tijdens maandelijkse werfleiders-meeting"
+    zwak: "Geen formele risico-register; fraude-risico's niet eerder geëxpliciteerd vóór Bart-incident"
+  controleactiviteiten:
+    sterk: "3-way match in Odoo; maandelijkse bank-reconciliatie; cyclische voorraad-tellingen"
+    zwak: "Functiescheidings-gaten (Z1-Z14 hierboven); drempels niet up-to-date"
+  informatie_communicatie:
+    sterk: "Odoo als gecentraliseerd informatiesysteem; wekelijkse DSO-rapport"
+    zwak: "Geen formele rapportering richting bestuur (Pieter + Sofie zijn bestuur — informeel uitwisselen)"
+  monitoring:
+    sterk: "Externe accountant doet jaarlijks samenstellingsopdracht + nu vrijwillige review"
+    zwak: "Geen interne audit-functie (verklaarbaar — te klein); geen formele zelf-evaluatie"
+
+# ---------------------------------------------------------------------------
+# Drie-rollen-tabel (leerstuk 1)
+# ---------------------------------------------------------------------------
+
+drie_rollen_bracke:
+  bedrijfsleider:
+    wie: "Pieter + Sofie als bestuur"
+    verantwoordelijkheid: "Ontwerp + onderhoud + bewaking van IC-systeem (cf. WVV art. 7:96 — bestuursverantwoordelijkheid voor goede werking)"
+    huidige_acties: "Drempel-aanpassing + Odoo-rolherinrichting na Bart-incident + maandelijkse kascontrole formaliseren"
+  interne_auditor:
+    wie: "Niet aanwezig (Bracke te klein voor 3e-lijn-functie)"
+    compensatie: "Vrijwillige periodieke review door externe accountant — 'verlengde 2e lijn'"
+  externe_auditor:
+    wie: "Marc Vlaeminck (confrater-accountant, vrijwillige opdracht — geen commissaris)"
+    perspectief: "ISA 315 herzien-2019 — risk-based; vrijwillige scope-beperking aanvaard"
+    output: "Managementletter (zie hierboven)"
+
+# ---------------------------------------------------------------------------
+# Notitie over wetgevende referenties
+# ---------------------------------------------------------------------------
+
+wettelijke_context:
+  niet_commissaris_plichtig: "Bracke ligt onder drempels art. 3:72 WVV (omzet < 9 mln + balanstotaal < 4,5 mln of grenzen niet overschreden 2 opeenvolgende boekjaren)"
+  wel_iaa_norm_toepasselijk: "ITAA KMO-controlenorm geldt als referentiekader voor confrater-accountant Marc Vlaeminck's vrijwillige opdracht"
+  bestuursverantwoordelijkheid: "WVV art. 7:96 — bestuur moet over een passende organisatie beschikken (interpretatie omvat IC). Geen aparte alarmbel-procedure aan de orde (Bracke heeft gezonde balans)"
+  geen_auditcomité: "Vereist enkel voor genoteerde + OOB (WVV art. 7:99) — niet voor Bracke"

@@ -1,0 +1,231 @@
+# Leerstuk-script — wat is interne controle en COSO
+#
+# PO 1.7 leerstuk 1 van 5 (entry). Geeft de kapstok: definitie + afbakening
+# vs externe controle / management / interne audit + 4 doelstellingen +
+# redelijke zekerheid + 5 inherente beperkingen + COSO 5 componenten + 4
+# COSO-risico-categorieën + 3 Lines of Defense + KMO-proportionaliteit.
+# Bouwt de gemeenschappelijke woordenschat op die de 4 latere leerstukken
+# zonder herhaling kunnen oproepen.
+
+meta:
+  slug: wat-is-interne-controle-en-coso
+  titel: "Wat is interne controle, en welk referentiekader (COSO) structureert haar?"
+  po: "1.7"
+  cluster: interne-controle
+  voorbeeldgroep: bracke-instal
+  beschrijving: >
+    Leerstuk PO 1.7 — entry. Wat IC is (en wat ze NIET is — geen externe
+    controle, geen management-control, geen interne audit), welke 4
+    doelstellingen ze dient (betrouwbare rapportering · operationele
+    effectiviteit · compliance · bescherming activa), waarom ze nooit
+    absolute maar enkel redelijke zekerheid biedt (5 inherente beperkingen),
+    en welk referentiekader haar structureert (COSO 2013 — 5 componenten +
+    4 risico-categorieën). Sluit af met de 3 Lines of Defense + KMO-
+    proportionaliteit (ITAA-norm).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 1.7.
+    Wijs erop dat dit het entry-leerstuk is dat de kapstok zet voor de
+    andere vier — alle latere leerstukken bouwen op de begrippen die hier
+    ingevoerd worden (4 doelen, COSO-componenten, dubbele dimensie,
+    redelijke zekerheid). Vermeld expliciet: IC is iets dat het MANAGEMENT
+    ontwerpt en onderhoudt — niet wat de externe auditor of de interne
+    auditor doet (zij toetsen het).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: interne controle is het samenhangende systeem van procedures, gedragsregels en organisatorische maatregelen dat het management opzet om een REDELIJKE — nooit absolute — zekerheid te krijgen dat de onderneming haar VIER hoofddoelstellingen bereikt: betrouwbare rapportering, effectieve en efficiënte bedrijfsvoering, naleving van wet- en regelgeving, en bescherming van activa."
+    - "Tweede zin: het wereldwijde referentiekader is COSO Internal Control 2013 — FIVE COMPONENTS (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring) gestructureerd langs DRIE doel-categorieën (operations · reporting · compliance) en doorvertaald in een verantwoordelijkheids-model met 3 Lines (operationeel management · risk/compliance · interne audit)."
+    - "Derde zin — de KMO-toets: dezelfde 4 doelen + 5 componenten gelden voor een 32-koppige Bracke als voor een beursgenoteerde groep, maar de UITWERKING verschilt (proportionaliteit) — minder uitgebreide functiescheiding, sterkere afhankelijkheid van direct toezicht door de zaakvoerder, kosten-baten als hoofdbeperking. De ITAA KMO-controlenorm operationaliseert deze proportionaliteit."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Wat IC IS", "Wat IC NIET is", "Verwarring vermijden"]
+      rijen:
+        - ["Een systeem opgezet door MANAGEMENT", "Een audit-functie", "IC is wat de organisatie zelf doet vóór een auditor langskomt"]
+        - ["Een DOORLOPEND proces", "Een eenmalige checklist", "Verweven in dagelijkse werking, niet ad-hoc"]
+        - ["Geeft REDELIJKE zekerheid", "Garandeert foutloosheid", "5 inherente beperkingen — collusie · override · oordeel · breakdown · kosten-baten"]
+        - ["Dient 4 DOELEN tegelijk", "Beschermt enkel tegen fraude", "Rapportering + operations + compliance + activa — alle vier"]
+  afsluiter: "We bouwen het verhaal in drie stappen: eerst de definitie + afbakening (wat IC wel en niet is), dan de 4 doelen + 5 inherente beperkingen, dan het COSO-kader (5 componenten + 4 risico-categorieën + 3 Lines). De Bracke-case dient als rode draad — een 32-koppige installateur met klassieke KMO-groeipijnen."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: definitie-en-afbakening
+    titel: "Definitie en afbakening — wat IC IS en wat ze NIET is"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: 'interne controle' klinkt als iets wat een controleur doet — maar dat is een misleidende eerste indruk. IC is iets wat het MANAGEMENT ontwerpt en onderhoudt, niet wat een auditor uitvoert."
+      - "Werk de ITAA-definitie uit (Bijlage 1 KMO-controlenorm — vermeld voluit als anker): 'het proces dat is opgezet, wordt geïmplementeerd en gesuperviseerd door het toezichthoudend orgaan, het management en andere personeelsleden met als doel een redelijke mate van zekerheid te verschaffen dat de doelstellingen van de KMO worden bereikt'. Vier kernwoorden eruit halen: PROCES (niet checklist) · GESUPERVISEERD DOOR MANAGEMENT (niet door auditor) · REDELIJKE mate van zekerheid (niet absolute) · DOELSTELLINGEN VAN DE KMO (operations + reporting + compliance)."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — bedrijfsprofiel + erp_landschap): een 32-koppige installateur met Odoo-ERP, Isabel-bankkoppeling en SD Worx-loonadministratie. Wat is HIER IC? Het 3-way match in Odoo · de Eline-rol-rechten · de drempel voor 2e handtekening · de werfleider-validatie van uren · de maandelijkse bank-reconciliatie. ALLEMAAL ontworpen door Pieter en Sofie als bestuur — niet door een externe."
+      - "Werk dan de drie afbakeningen uit als vergelijkingstabel — de stagiair MAG deze drie functies niet verwarren. (1) IC ≠ EXTERNE CONTROLE — externe auditor TOETST de IC vanaf buiten (PO 1.6). (2) IC ≠ MANAGEMENT CONTROL — management control is strategisch sturen via KPI's en budget; IC is operationeel-betrouwbaarheid borgen. (3) IC ≠ INTERNE AUDIT — interne audit is de DERDE LIJN die de IC zelf onafhankelijk evalueert (komt in leerstuk 5)."
+      - "Blockquote-aside: de NL-EN terminologie loopt door elkaar. ISA-standaarden spreken van 'system of internal control' of 'systeem van interne beheersing'. ITAA-norm gebruikt 'interne beheersing'. In de Belgische praktijk: interne controle = interne beheersing = systeem van interne beheersing = internal control system — VIER termen, ÉÉN concept. Wikilink naar [[interne-controle]] voor de definitorische opzoek."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Functie", "Wie?", "Wat doet ze?", "PO"]
+        rijen:
+          - ["**Interne controle**", "Management + alle personeel", "Systeem ontwerpen + dagelijks uitvoeren", "1.7 (dit PO)"]
+          - ["Externe controle", "Commissaris / vrijwillig accountant", "IC TOETSEN van buitenaf voor zekerheidsverslag", "1.6"]
+          - ["Management control", "Directie + controller", "Strategisch sturen via KPI's, budget, dashboards", "1.8"]
+          - ["Interne audit", "Onafhankelijke interne functie (3e lijn)", "IC EVALUEREN van binnenuit, rapporteert aan bestuur", "1.7 leerstuk 5"]
+
+  - id: vier-doelstellingen
+    titel: "De vier doelstellingen — waarom doe je dit?"
+    niveau: 2
+    beats:
+      - "Open met de stelling: elk IC-systeem dient TEGELIJK vier doelen — niet één. Wie alleen op fraude-preventie focust mist drie kwart van het verhaal."
+      - "Werk de vier doelen uit, in COSO/ISA/ITAA-overlappende terminologie. (1) BETROUWBAARHEID FINANCIËLE EN NIET-FINANCIËLE INFORMATIE — jaarrekening + maandcijfers + KPI-dashboards moeten correct + volledig + tijdig. (2) EFFECTIEVE EN EFFICIËNTE BEDRIJFSVOERING — middelen worden doeltreffend ingezet (operations-doel). (3) NALEVING VAN WET- EN REGELGEVING — fiscaal, sociaal, vennootschapsrechtelijk, GDPR, anti-witwas (compliance-doel). (4) BESCHERMING VAN HET PATRIMONIUM — voorkomen van verlies, diefstal, vernietiging van activa (safeguarding)."
+      - "Belangrijke nuance: ISA 315 + COSO werken klassiek met DRIE doelen (operations · reporting · compliance) waarin 'bescherming van activa' onder operations valt. De ITAA-norm en Belgische doctrine maken er VIER van door safeguarding apart te zetten. Voor het examen: noem er vier — de splitsing is examen-conform (examen 2024-1)."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `coso_componenten_bracke.controleactiviteiten`): per doel één concrete Bracke-controle. Rapportering = 3-way match in Odoo + maandelijkse bank-reconciliatie. Operations = wekelijks DSO-rapport top 20 oudste klanten. Compliance = BTW-regime-validatie bij klantenfiches. Bescherming activa = magazijn-afsluiting + Isabel-batch-vrijgave > 10.000 EUR door 2e persoon."
+      - "Examen-haak (zonder jaar-citaat): de vraag 'wat zijn de doelstellingen van IC?' is KLASSIEK. Drie of vier opnoemen is bijna altijd de openingsvraag — koppel ze meteen aan een Bracke-controle om uit te tonen dat je het toepast, niet alleen opsomt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Doel", "Wat houdt het in?", "Bracke-voorbeeld"]
+        rijen:
+          - ["**1. Betrouwbare rapportering**", "Cijfers (extern + intern) zijn correct, volledig, tijdig", "3-way match in Odoo + maandelijkse bank-reconciliatie"]
+          - ["**2. Operationele effectiviteit + efficiëntie**", "Middelen doeltreffend ingezet — strategie wordt uitgevoerd", "Wekelijks DSO-rapport — top 20 oudste klanten"]
+          - ["**3. Compliance — naleving wet + regelgeving**", "Fiscaal · sociaal · WVV · GDPR · AML", "BTW-regime-validatie op klantenfiche; AMLCO-rol (formeel ontbrekend bij Bracke)"]
+          - ["**4. Bescherming van activa**", "Voorkomen verlies · diefstal · vernietiging activa", "Magazijn-sleutel beperkt; betaling > 10.000 EUR vereist 2e handtekening"]
+
+  - id: redelijke-zekerheid
+    titel: "Redelijke zekerheid — waarom IC nooit absolute zekerheid geeft"
+    niveau: 2
+    beats:
+      - "Open met de scherpe stelling: zelfs het beste IC-systeem ter wereld kan FRAUDE niet uitsluiten. Hooguit het waarschijnlijker maken dat ze gedetecteerd wordt. Wie absolute zekerheid belooft, verkoopt iets dat niet bestaat."
+      - "Werk de term 'redelijke zekerheid' uit: een niveau van zekerheid dat een ECONOMISCH REDELIJKE eigenaar zou accepteren gegeven de kostprijs van bijkomende controles. Niet 100 %, niet 50 % — een drempel die de marginale controle-kost gelijk maakt aan de marginale risico-reductie."
+      - "Werk dan de 5 INHERENTE BEPERKINGEN uit (ISA 315 herzien-2019 + ITAA-norm). (1) MENSELIJK OORDEEL — controles steunen op interpretatie; oordeel kan fout zijn. (2) BREAKDOWN — zelfs een goed ontworpen controle valt soms uit (zieke medewerker, IT-storing, vergissing). (3) COLLUSIE — twee mensen die samenspannen omzeilen elke functiescheiding (klassiek voorbeeld: boekhouder + magazijnier). (4) MANAGEMENT OVERRIDE — directie kan elke controle uitschakelen ('niet voor mij'). De GROOTSTE inherente beperking — daarom is tone-at-the-top zo belangrijk (komt terug in leerstuk 4). (5) KOSTEN-BATEN — boven een bepaalde diepgang kost extra controle meer dan ze opbrengt; rationale grens."
+      - "Concretiseer met Bracke fraude-case (uit voorbeeldgroep — `fraude_case_bart` korte_beschrijving): 14 maanden lang fictieve aankoopfacturen via een gefingeerde leverancier — 47.300 EUR. WAAROM kon dat? Drie controles waren formeel aanwezig (3-way match, drempels, master-data-control) maar de inherente beperkingen sloegen toe: COLLUSIE (Bart vroeg Eline een leverancier aan te maken — Eline deed dat op vertrouwen, geen onafhankelijke validatie), KOSTEN-BATEN (drempels uit 2018 nog steeds gebruikt — niet 'rendabel' om die aan te passen), MANAGEMENT OVERRIDE ontbrak hier maar inherente FUNCTIESCHEIDINGS-ZWAKTE (Z1) was de hoofd-trigger."
+      - "Examen-valkuil-aanduiding: een vraag die suggereert dat IC fraude VOLLEDIG uitsluit is een TEST op begrip van redelijke zekerheid. Antwoord-formule: 'IC biedt slechts redelijke zekerheid; absolute uitsluiting is niet mogelijk wegens [noem de 2 relevante inherente beperkingen]'."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Inherente beperking", "Wat houdt ze in?", "Bracke-illustratie"]
+        rijen:
+          - ["1. Menselijk oordeel", "Controles steunen op interpretatie — fout mogelijk", "Eline beoordeelt 'is deze nieuwe leverancier OK?' op vertrouwen"]
+          - ["2. Breakdown", "Goed ontworpen controle valt soms uit", "Zieke werfleider → goedkeuring overgeslagen door tijdsdruk"]
+          - ["3. Collusie", "Twee mensen omzeilen elke functiescheiding", "Bart + (onbewust) Eline — leverancier-aanmaak zonder check"]
+          - ["4. Management override", "Directie kan elke controle uitschakelen ('niet voor mij')", "Pieter doet alleen kasstortingen — drempel niet op hem van toepassing"]
+          - ["5. Kosten-baten", "Boven bepaalde diepgang kost controle meer dan ze opbrengt", "Drempel 10.000 EUR uit 2018 — 'niet rendabel' om elke betaling 2-ogen te doen"]
+
+  - id: coso-vijf-componenten
+    titel: "Het COSO-kader — vijf componenten als ontwerp-grammatica"
+    niveau: 2
+    beats:
+      - "Open met de positionering: COSO Internal Control 2013 (opvolger van 1992) is GEEN wet en GEEN bindende norm — wel de DE FACTO wereldwijde standaard waarop ISA 315 expliciet gealigneerd is, en die de ITAA-norm voor KMO's overneemt. Wie 'COSO' zegt, bedoelt typisch dit 2013-kader (er bestaat ook COSO ERM 2017 voor risicomanagement — dat is een andere uitbreiding, examen-irrelevant voor PO 1.7)."
+      - "Werk de 5 componenten uit als een PIRAMIDE — bottom-up gelezen. (1) CONTROLEOMGEVING (control environment) — het FUNDAMENT: tone-at-the-top, integriteit, gedragscode, competentie, accountability. Zonder dit storten alle andere componenten in. (2) RISICO-INSCHATTING — welke risico's bedreigen onze 4 doelen? Identificatie + evaluatie (kans × impact). Komt uitgebreid terug in leerstuk 4. (3) CONTROLEACTIVITEITEN — de concrete maatregelen (autorisaties, functiescheiding, reconciliaties, 3-way match). De TECHNIEK-laag — leerstuk 2 en 3. (4) INFORMATIE EN COMMUNICATIE — de juiste info bij de juiste persoon op de juiste tijd (Odoo · DSO-rapport · maandrapportage richting bestuur). (5) MONITORING — continu of periodiek checken of de controles werken (eigen monitoring + interne audit + externe review)."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `coso_componenten_bracke` VOLLEDIG): per component één 'sterk'-punt + één 'zwak'-punt. Controleomgeving sterk = Pieter zichtbaar aanwezig (tone at the top); zwak = geen geschreven gedragscode. Risico-inschatting sterk = maandelijkse werfleiders-meeting; zwak = fraude-risico niet eerder geëxpliciteerd vóór Bart-incident. Controleactiviteiten sterk = 3-way match; zwak = drempels niet up-to-date. Informatie + communicatie sterk = Odoo gecentraliseerd; zwak = geen formele bestuursrapportering. Monitoring sterk = jaarlijkse externe accountant; zwak = geen interne audit-functie."
+      - "Blockquote-aside: ISA 315 (herzien-2019) gebruikt EXACT dezelfde 5 componenten — daarom is een COSO-mapping ook bruikbaar voor de externe auditor (cross-leesbaar). Voor de stagiair als adviseur: gebruik COSO als ontwerp-kader voor je IC-aanbevelingen, en weet dat de externe auditor in dezelfde taal denkt."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["COSO-component", "Hoofdvraag", "Bracke — sterk", "Bracke — zwak"]
+        rijen:
+          - ["**1. Controleomgeving**", "Is het fundament er? (tone, integriteit, competentie)", "Pieter zichtbaar — informele gedragscode", "Geen geschreven gedragscode; geen klokkenluider"]
+          - ["**2. Risico-inschatting**", "Welke risico's bedreigen onze 4 doelen?", "Maandelijkse werfleiders-meeting met risico-discussie", "Geen formeel risico-register; fraude pas geëxpliciteerd na Bart"]
+          - ["**3. Controleactiviteiten**", "Welke concrete maatregelen mitigeren?", "3-way match, cyclische telling, bank-reconciliatie", "Functiescheidings-gaten Z1-Z14; drempels uit 2018"]
+          - ["**4. Informatie + communicatie**", "Juiste info bij juiste persoon op juiste tijd?", "Odoo gecentraliseerd; wekelijks DSO-rapport", "Geen formele rapportering richting bestuur"]
+          - ["**5. Monitoring**", "Checken we periodiek of controles werken?", "Jaarlijkse samenstelling + nu vrijwillige review", "Geen interne audit; geen formele zelf-evaluatie"]
+
+  - id: vier-risico-categorieen
+    titel: "De vier COSO-risico-categorieën — een examen-favoriet"
+    niveau: 2
+    beats:
+      - "Open met de praktische context: COSO classificeert risico's in vier categorieën, en die classificatie is een examen-klassieker (examen 2024-1). Niet verwarren met de 4 DOELSTELLINGEN — risico's en doelen zijn verschillende dimensies."
+      - "Werk de vier risico-categorieën uit. (1) STRATEGISCH — risico's voor de langere-termijn-strategie (marktverlies, technologie-shift, reputatie). (2) OPERATIONEEL — risico's voor de dagelijkse werking (proces-fouten, leveranciersfaling, IT-uitval). (3) RAPPORTERINGS-/INFORMATIE-RISICO — risico op foutieve of incomplete jaarrekening, management-info. (4) COMPLIANCE / CONFORMITEIT — risico op niet-naleving (boetes, sancties, intrekking vergunning)."
+      - "Concretiseer met Bracke per categorie: STRATEGISCH = verlies van top-klant Verstraeten (18 % omzet). OPERATIONEEL = werfleider-ontslag in piekseizoen. RAPPORTERINGS = BTW-rechtzetting wegens fout regime op klantenfiche. COMPLIANCE = geen formele AMLCO terwijl klantenbestand 184 actief telt — risico bij eventuele inspectie."
+      - "Blockquote-aside: ISA 315 gebruikt een licht andere indeling op het niveau van AUDIT-risico's (inherent · controle · ontdekking) — dat is iets anders. COSO-risico-categorieën gaan over wat de ONDERNEMING bedreigt; ISA-audit-risico's gaan over wat een AUDITOR foutief kan oordelen. Niet door elkaar gebruiken op examen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["COSO-risico-categorie", "Bedreiging", "Bracke-illustratie"]
+        rijen:
+          - ["**Strategisch**", "Lange-termijn-strategie + reputatie", "Verlies top-klant Verstraeten (18 % omzet)"]
+          - ["**Operationeel**", "Dagelijkse processen + continuïteit", "Werfleider-ontslag in piekseizoen"]
+          - ["**Rapportering / informatie**", "Cijfer-betrouwbaarheid", "BTW-rechtzetting wegens fout regime klantenfiche"]
+          - ["**Compliance / conformiteit**", "Wet- en regel-naleving", "Geen formele AMLCO; geen DPO bij 184 klanten"]
+
+  - id: drie-lines-of-defense
+    titel: "Three Lines of Defense — wie doet wat?"
+    niveau: 2
+    beats:
+      - "Open met de positionering: COSO + IIA hebben samen het 3-Lines-model ontwikkeld dat VERANTWOORDELIJKHEID voor IC verdeelt over drie organisatie-niveaus. Geen wet — maar het standaard-governance-mental-model, en daarom essentieel voor de stagiair die met grote ondernemingen werkt."
+      - "Werk de drie lijnen uit. EERSTE LIJN = OPERATIONEEL MANAGEMENT. Iedere afdeling is primair zelf verantwoordelijk voor de controles in haar eigen processen. Bracke: Eline boekhoudt + reconcilieert; werfleider valideert uren; Davy beheert magazijn. TWEEDE LIJN = RISK + COMPLIANCE-FUNCTIES. Onafhankelijke staf die methodes en beleid zet voor risk en compliance — typisch CRO, AMLCO, DPO, compliance officer. Bracke: deze lijn is bijna afwezig (Pieter is AMLCO 'de facto' zonder mandaat). DERDE LIJN = INTERNE AUDIT. Volledig onafhankelijke functie die de werking van 1e + 2e lijn EVALUEERT en aan bestuur rapporteert. Bracke: te klein voor interne audit (vervangen door vrijwillige externe review)."
+      - "Concretiseer met Bracke mermaid-diagram (uit voorbeeldgroep — `drie_rollen_bracke`): voor Bracke is 1e lijn de boekhoudster + werfleiders + magazijnier; 2e lijn quasi-onbestaand; 3e lijn vervangen door externe accountant Marc Vlaeminck (vrijwillige opdracht — geen commissaris). KMO-realiteit."
+      - "Verbinding met de andere leerstukken: het 3-Lines-model komt SAMEN met de interne audit (3e lijn) uitgebreid terug in [[interne-audit-evaluatie-en-aanbevelingen]] — hier vermelden we het als GOVERNANCE-overzicht."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Lijn", "Wie?", "Wat doet ze?", "Bracke (32 vte)"]
+        rijen:
+          - ["**1e lijn — Operationeel**", "Lijn-management + werknemers", "Voert de controles in eigen proces uit", "Eline · werfleiders · Davy magazijn"]
+          - ["**2e lijn — Risk + compliance**", "CRO · AMLCO · DPO · compliance officer", "Stelt methodes + beleid op; onafhankelijk van operatie", "Quasi-afwezig (Pieter de facto AMLCO)"]
+          - ["**3e lijn — Interne audit**", "Onafhankelijke interne audit-functie", "Evalueert 1e + 2e lijn; rapporteert aan bestuur", "Te klein — vervangen door externe Marc Vlaeminck"]
+
+  - id: kmo-proportionaliteit
+    titel: "KMO-proportionaliteit — dezelfde principes, andere uitwerking"
+    niveau: 2
+    beats:
+      - "Open met de stelling: alle wat hierboven staat geldt voor BRACKE evenzeer als voor een beursgenoteerde groep — maar de UITWERKING verschilt fundamenteel. Een 32-koppige KMO kan geen volledige functiescheiding hebben en geen 3-lijnen-defensie. Dat is geen reden om IC weg te laten — wel om ze ANDERS in te richten."
+      - "Werk de proportionaliteits-mechaniek uit. Bij een KMO met beperkte staf: (a) functiescheidings-gaten worden COMPENSEERD door DIRECT TOEZICHT van de zaakvoerder (review van betalingen, paraaf van onkostennota's, periodieke kascontrole); (b) zachte controles (cultuur · vertrouwen · betrokkenheid bedrijfsleider) wegen ZWAARDER dan in grote ondernemingen waar formele procedures domineren; (c) management override is paradoxaal genoeg LAGER omdat de zaakvoerder ZELF de cultuur belichaamt — maar OOK hoger omdat dezelfde zaakvoerder elke controle kan uitschakelen ('niet voor mij')."
+      - "Werk de KMO-trade-off uit met ISA 315 §A157: 'het kan minder praktisch uitvoerbaar zijn om functiescheiding in minder complexe entiteiten tot stand te brengen. In een door de eigenaar bestuurde entiteit kan de eigenaar-bestuurder echter mogelijk meer effectief toezicht uitoefenen door directe betrokkenheid'. Examen-formule: 'beperkte functiescheiding moet WORDEN gecompenseerd door direct toezicht — alleen \"er is geen functiescheiding mogelijk\" is geen aanvaardbaar antwoord'."
+      - "Concretiseer met Bracke: Pieter doet ZELF alle kasstortingen + tekent betalingen > 25.000 EUR + monitort de werfleiders-meeting. Dat compenseert deels voor de afwezigheid van een 2e lijn. Maar het CREËERT TEGELIJK een nieuwe zwakte (Z11): één persoon doet alle kasstortingen zonder 2e paar ogen — direct toezicht ZONDER zelf onder controle te staan."
+      - "Verwijs naar ITAA KMO-controlenorm als referentiekader voor proportionaliteit (Bijlage 1 — definitie interne beheersing voor KMO-context). De norm operationaliseert proportionaliteit voor de Belgische beroepsbeoefenaar."
+    type: blockquote-aside
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): IC = AUDIT verwarren. FOUT. IC is wat het management ONTWERPT en dagelijks uitvoert; audit is wat een onafhankelijke functie ACHTERAF evalueert. Wie deze twee verwart denkt dat IC iets is dat een externe komt installeren — terwijl het juist de organisatie zelf is die het systeem moet bouwen."
+      - "Valkuil 2 (⚠️): vier doelen reduceren tot fraude-preventie. FOUT. IC dient TEGELIJK vier doelen (rapportering · operations · compliance · activa-bescherming). Wie alleen aan fraude denkt mist drie kwart van het verhaal — en raakt het examen-antwoord op de hoofddoel-vraag (examen-favoriet) niet."
+      - "Valkuil 3 (⚠️): absolute zekerheid beloven. FOUT. IC biedt slechts REDELIJKE zekerheid wegens 5 inherente beperkingen (oordeel · breakdown · collusie · management override · kosten-baten). Wie aan een cliënt of in een aanbeveling 'volledige uitsluiting van fraude' belooft, levert een onbedoeld onhoudbare claim."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Nu je de kapstok hebt, ga verder met:"
+  leerstukken:
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "De drie controle-taxonomieën die in elk examen terugkomen — 5 functies ACR-IH, 4 categorieën (Aut · Bew · Reg · Contr), preventief/detectief/correctief. Plus accountingcontrole vs administratieve controle."
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "Het werkpaard: 5 transactionele cycli (aankoop · verkoop · voorraad · kas · lonen) + IT-controles (ITGC + applicatie + cloud) + 8-stappen-ontwerp-flow."
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "Wat de inherente beperkingen IN DE PRAKTIJK doen ontstaan — fraudedriehoek, risico-architectuur, tone-at-the-top."
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Wie EVALUEERT het IC-systeem (3e lijn + extern) en hoe rapporteer je IC-tekortkomingen via een managementletter."
+  samenvatting:
+    hint: "Voor herhaling vlak vóór examen — definitie + 4 doelen + 5 inherente beperkingen + COSO 5 componenten + 4 risico-categorieën + 3 Lines + KMO-proportionaliteit op één visueel kaart-blad."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [interne-controle, coso-framework]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "ITAA KMO-controlenorm — definitie interne beheersing"
+    ref: "ITAA-norm KMO-controlenorm, Bijlage 1 (Definities)"
+    noot: "Definieert interne beheersing als proces dat redelijke zekerheid biedt over rapportering + operations + compliance — KMO-context."
+  - onderwerp: "ISA 315 herzien-2019 — kader interne beheersing"
+    ref: "ISA 315 (herzien-2019), Bijlage 3 §20-22"
+    noot: "Vijf componenten + classificatie preventief/detectief; §A157 voor KMO-proportionaliteit en compensatie via direct toezicht."
+  - onderwerp: "COSO Internal Control — Integrated Framework (2013)"
+    ref: "COSO 2013 — internationale doctrine (geen wettekst)"
+    noot: "Wereldwijde de-facto-standaard, waarop ISA 315 expliciet is gealigneerd; 5 componenten + 3 doel-categorieën + 17 onderliggende principes."
+  - onderwerp: "Bestuursverantwoordelijkheid voor IC"
+    ref: "⚠️ te verifiëren — concept-record `auditcomite` verwijst naar WVV art. 7:87 + 7:106 voor algemene bestuurstaken; art. 7:96 (alarmbel) raakt continuïteit, niet rechtstreeks IC-ontwerp"
+    noot: "Het WVV legt geen expliciete IC-norm op voor niet-genoteerde vennootschappen; IC-verantwoordelijkheid volgt uit de algemene bestuursverantwoordelijkheid + boekhoudplicht WER Boek III."
+  - onderwerp: "Boekhoudkundige onderbouw — registratie + inventaris"
+    ref: "⚠️ context — WER Boek III art. III.82 e.v. (boekhoudplicht) + KB 29 april 2019 (jaarrekening)"
+    noot: "IC voor financiële rapportering vindt haar wettelijke ankering in de boekhoudplicht; cut-off + overeenstemmingsbeginsel zijn dwingend."
+
+footer: "Leerstuk PO 1.7 — entry (1 van 5). Volgende stap: [[functiescheiding-en-controlemaatregelen]]."

@@ -1,7 +1,7 @@
 ---
 title: 1.7 Voorbeeldexamenvragen Interne controle
 description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel 1.7 (Interne controle).
-explorer_title: "Voorbeeldexamenvragen"
+explorer_title: "8. Voorbeeldexamenvragen"
 tags: [examen, voorbeeldvragen, po-1-7]
 gegenereerd_uit: tools/examen/render_merged_v4.py
 gegenereerd_op: 2026-06-01

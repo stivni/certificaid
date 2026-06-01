@@ -1,0 +1,187 @@
+# Leerstuk-script — fouten, fraude en risicobeheersing
+#
+# PO 1.7 leerstuk 4 van 5 (specifiek, smal-en-diep). Drie zaken samen:
+# (1) onderscheid fout vs fraude vs verspilling; (2) fraudedriehoek
+# Cressey + 3 fraudecategorieën (misappropriatie · frauduleuze
+# rapportering · corruptie); (3) risico-identificatie-methode (PESTEL
+# + cyclus-scan + heat map). Plus management override + tone-at-the-top.
+# Bouwt op redelijke zekerheid (L1) + preventief/detectief (L2) +
+# cyclus-zwaktes (L3). Voedt L5 (managementletter).
+
+meta:
+  slug: fouten-fraude-en-risicobeheersing
+  titel: "Wat is het onderscheid tussen fouten en fraude, en hoe stuurt risico-analyse de IC-architectuur?"
+  po: "1.7"
+  cluster: interne-controle
+  voorbeeldgroep: bracke-instal
+  beschrijving: >
+    Leerstuk PO 1.7 — specifiek. Drie zaken in één pedagogische beweging:
+    (1) onderscheid fout · fraude · verspilling — verschillende oorzaken
+    vragen verschillende mitigaties; (2) fraudedriehoek Cressey (druk ·
+    gelegenheid · rationalisatie) + 3 fraudecategorieën (misappropriatie ·
+    frauduleuze rapportering · corruptie); (3) risico-identificatie-
+    methode (PESTEL extern · cyclus-scan intern · heat map kans×impact)
+    als input voor de controle-architectuur uit L3. Plus management
+    override als grootste inherente beperking en tone-at-the-top als
+    zachte controle.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 1.7.
+    Verwijs naar [[wat-is-interne-controle-en-coso]] (redelijke zekerheid
+    + 5 inherente beperkingen — waarvan management override de grootste)
+    en [[cyclus-analyse-en-controlemiddelen]] (cyclus-zwaktes die fraude
+    mogelijk maken). De Bart-incident bij Bracke (47.300 EUR over 14 mnd)
+    is de rode draad — alle drie de fraudedriehoek-hoeken zijn er
+    illustreerbaar.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: een goed IC-systeem onderscheidt FOUTEN (onbedoelde afwijkingen door menselijke vergissing) van FRAUDE (bewuste handeling voor onrechtmatig voordeel) van VERSPILLING (onefficiënt gebruik van middelen zonder bedrog) — DRIE oorzaken die DRIE verschillende mitigatie-strategieën vragen."
+    - "Tweede zin — de fraudedriehoek (Cressey 1973) verklaart waarom fraude ontstaat: drie elementen MOETEN SAMENKOMEN — (1) DRUK (persoonlijke schulden, verslaving, ambitie); (2) GELEGENHEID (functiescheidings-gat, ontbrekende controle); (3) RATIONALISATIE (zelfrechtvaardiging). De stagiair-IC-adviseur kan op de gelegenheids-hoek werken (controles), op druk niet (privé-leven) en op rationalisatie deels (tone-at-the-top + ethische code)."
+    - "Derde zin — risico-identificatie als IC-stuur: drie complementaire methodes — PESTEL voor EXTERNE risico's (politiek · economisch · sociaal · technologisch · ecologisch · legal); CYCLUS-SCAN voor INTERNE proces-risico's (per processtap risico-inventarisatie); HEAT MAP (kans × impact) voor PRIORITERING. De top-risico's voeden de controle-selectie uit [[cyclus-analyse-en-controlemiddelen]] — en management override blijft DE grootste inherente beperking die geen enkele controle volledig wegneemt."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Type afwijking", "Intentie?", "Mitigatie-strategie"]
+      rijen:
+        - ["**Fout**", "Onbedoeld — vergissing, onachtzaamheid, kennistekort", "Procedures + training + ERP-validatie"]
+        - ["**Fraude**", "Bewust — voor onrechtmatig voordeel", "Functiescheiding + 4-ogen + tone-at-the-top + detectieve controles"]
+        - ["**Verspilling**", "Geen bedrog — onefficiënt gebruik middelen", "Performance-monitoring + budget-control"]
+  afsluiter: "We werken in drie stappen: eerst het onderscheid fout · fraude · verspilling (waarom mitigaties verschillen), dan de fraudedriehoek + 3 fraudecategorieën met de Bart-case als rode draad, tot slot de risico-identificatie-methode die de hele IC-architectuur stuurt. Sluit af met management override + tone-at-the-top."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-categorieen-afwijking
+    titel: "Drie categorieën afwijking — fout vs fraude vs verspilling"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: niet alle 'mis-uitgaven' zijn fraude. Een IC-systeem dat alle afwijkingen als fraude behandelt is paranoïde en mist de doelmatige reactie op feiten die ANDERE wortels hebben."
+      - "Werk de drie categorieën uit langs DE AS BEDOELEN-EN-GEVOLGEN. (1) FOUTEN — onbedoelde afwijkingen door menselijke VERGISSING, onachtzaamheid of kennistekort. Voorbeelden: invoer-fout, foutieve berekening, verkeerde toepassing boekhoudregel, vergeten boeking, dubbele inboeking. Komen veel vaker voor dan fraude, makkelijker te detecteren (geen verhulling). (2) FRAUDE — BEWUST handelen voor ONRECHTMATIG financieel voordeel. Vereist INTENTIE. Twee hoofdtypes (ISA 240): (a) FRAUDULEUZE FINANCIËLE VERSLAGGEVING — vervalsen van rekeningen om financiële toestand mooier voor te stellen (typisch door of met medeplichtigheid van management); (b) ONEIGENLIJKE TOE-EIGENING VAN ACTIVA — diefstal van geld, voorraad, of vermogen door medewerkers. (3) VERSPILLING — ONNODIG OF ONEFFICIËNT gebruik van middelen ZONDER bedrog-intentie. Voorbeelden: te dure inkoop zonder prijsvergelijking, overuren toekennen zonder reden, leasingauto duurder dan nodig."
+      - "Werk waarom de mitigaties VERSCHILLEN. (a) FOUTEN: mitigeerbaar door BETERE PROCEDURES + TRAINING + ERP-VALIDATIE-REGELS (input-checks, verplichte velden, range-controles). Cultuur-component klein. (b) FRAUDE: mitigeerbaar door FUNCTIESCHEIDING (gelegenheid wegnemen) + TONE-AT-THE-TOP (rationalisatie ontmoedigen) + DETECTIEVE CONTROLES (verhoogde pakkans verlaagt aantrekkelijkheid). Cultuur-component groot. (c) VERSPILLING: mitigeerbaar door PERFORMANCE-MONITORING (KPI's per afdeling) + BUDGET-CONTROL (afwijking budget-realiteit). Geen functiescheidings-issue."
+      - "Concretiseer met Bracke voorbeelden. FOUT = Karim's BTW-rechtzetting 4.800 EUR (verkeerde regime — geen bedrog, gewoon vergissing). FRAUDE = Bart-incident 47.300 EUR (intentie + verhulling via fake leverancier). VERSPILLING = de werfleider-creditcards-betalingen zonder onafhankelijke vergelijking met werkstaten (Z12 — geen bedrog vermoed, wel onefficiënt + ruimte voor 'grijs gebruik')."
+      - "Examen-haak (zonder jaar-citaat): vragen over 'onregelmatigheden door boekhouder' splitsen vaak in fout-vs-fraude. Antwoord-formule: classificeer eerst (intentie aanwezig?), dan koppel mitigatie aan oorzaak. Onregelmatigheid zonder intentie = fout-mitigatie (training); met intentie = fraude-mitigatie (functiescheiding + 4-ogen)."
+
+  - id: fraudedriehoek
+    titel: "De fraudedriehoek — waarom fraude ontstaat (Cressey 1973)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de fraudedriehoek is GEEN wettekst — het is een crimineel-sociologisch model van Donald Cressey (1953, breed bekend uit 1973-publicatie) dat verklaart hoe fraude tot stand komt. Drie hoeken die SAMEN MOETEN voorkomen — neem één hoek weg en de fraude vindt niet plaats. De stagiair-IC-adviseur kan op TWEE van de drie werken; één blijft buiten zijn bereik."
+      - "Werk de drie hoeken uit. (1) DRUK (incentive / pressure) — persoonlijke nood die de fraudeur motiveert. Voorbeelden: persoonlijke schulden, echtscheiding, verslavingen, levensstijl-druk, prestatie-eisen op het werk, financieel-management-druk om winst hoger te tonen. De stagiair-IC-adviseur kan HIER NIETS aan doen (privé-leven van werknemers). (2) GELEGENHEID (opportunity) — feitelijke mogelijkheid om fraude te plegen ZONDER betrapt te worden. Komt voort uit ZWAKKE INTERNE CONTROLES: functiescheidings-gaten, ontbrekende reviews, te ruime toegangsrechten, niet-uitgevoerde controle-procedures. DIT IS WAAR DE IC-ADVISEUR HET MEEST KAN BIJDRAGEN — gelegenheid wegnemen door functiescheiding + 4-ogen + ERP-restricties. (3) RATIONALISATIE (rationalization) — psychologische zelf-rechtvaardiging die de fraudeur over de morele drempel duwt. Voorbeelden: 'ik leen alleen tijdelijk', 'ze betalen me onderbetaald — ik neem wat me toekomt', 'iedereen hier rotzooit'. De IC-adviseur kan HIERAAN BEPERKT BIJDRAGEN via tone-at-the-top + ethische code + klokkenluiders-procedure (signaal dat rationaliseren niet 'normaal' is)."
+      - "Concretiseer met Bracke Bart-case (uit voorbeeldgroep — `fraude_case_bart.fraudedriehoek`). DRUK: persoonlijke schulden (echtscheiding 2024 + alimentatie + lening renovatie). GELEGENHEID: drie functiescheidings-zwaktes Z1+Z2+Z3 (Eline kon leveranciers aanmaken + factuur boeken + betaling — Bart's bestellingen onder 5.000 EUR drempel — betalingen onder 10.000 EUR drempel). RATIONALISATIE: 'Bracke heeft me onderbetaald jaren — ik nam alleen wat me toekwam'. Bij eliminatie van de gelegenheid-hoek (= Z1+Z2+Z3 wegnemen) had Bart de fraude niet kunnen plegen — druk + rationalisatie alleen volstaan niet."
+      - "Werk een belangrijke nuance uit: COLLUSIE doorbreekt de fraudedriehoek-logica. Bij collusie verlagen TWEE fraudeurs samen de gelegenheids-drempel (omzeilen samen elke functiescheiding). Dat is waarom ISA 240 collusie als 'inherente beperking' lijst — geen IC-controle is collusie-bestendig (zie [[wat-is-interne-controle-en-coso]] 5 inherente beperkingen)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Hoek fraudedriehoek", "Wat houdt ze in?", "IC kan aan?", "Bracke (Bart)"]
+        rijen:
+          - ["**Druk (incentive)**", "Persoonlijke nood die motiveert", "**Nee** — privé-leven", "Echtscheiding + alimentatie + lening"]
+          - ["**Gelegenheid (opportunity)**", "Feitelijke mogelijkheid zonder pakkans", "**JA** — functiescheiding + 4-ogen + ERP-restricties", "Z1 + Z2 + Z3 (master + drempels + bestelling)"]
+          - ["**Rationalisatie**", "Zelf-rechtvaardiging over morele drempel", "**Beperkt** — tone-at-the-top + ethische code + klokkenluider", "'Bracke heeft me onderbetaald — ik nam wat me toekwam'"]
+
+  - id: drie-fraudecategorieen
+    titel: "Drie fraude-categorieën — misappropriatie, frauduleuze rapportering, corruptie"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het Association of Certified Fraud Examiners (ACFE) onderscheidt drie hoofd-categorieën fraude — een typologie die ISA 240 grotendeels overneemt. Belangrijk voor het examen omdat de mitigatie per categorie verschilt."
+      - "Werk de drie uit. (1) ONEIGENLIJKE TOE-EIGENING VAN ACTIVA (asset misappropriation) — diefstal van geld, voorraad, of materieel door medewerkers. Verreweg meest voorkomende fraude-type. Sub-types: cash-skimming (skimmen vóór boeking), fictieve leveranciers (Bart-modus), expense-padding (opklikken kosten), spookmedewerker, voorraad-diefstal. (2) FRAUDULEUZE FINANCIËLE VERSLAGGEVING (fraudulent financial reporting) — vervalsen van rekeningen om financiële toestand mooier voor te stellen. Typisch door of met medeplichtigheid van MANAGEMENT (override). Sub-types: omzet-inflate (te vroeg facturen boeken), kosten-onderwaardering (kosten naar volgende periode duwen), waarderings-manipulatie (voorraad of vorderingen overschatten). Examen Enron · WorldCom · Carillion-stijl. (3) CORRUPTIE — misbruik van positie voor persoonlijk voordeel. Sub-types: omkoping (kickback), conflict-of-interest, afpersing. Vaak in B2B-context (inkoop, contracten)."
+      - "Werk de mitigatie per categorie. ASSET MISAPPROPRIATION ⇒ functiescheiding + cyclische telling + onafhankelijke 4-ogen-betaling + spend-analyse. FRAUDULEUZE RAPPORTERING ⇒ auditcomité-toezicht + sterke controleomgeving + onafhankelijke externe auditor + management-incentive-beoordeling. CORRUPTIE ⇒ giften-en-uitnodigingen-beleid + conflict-of-interest-declaratie + AML-monitoring + klokkenluider."
+      - "Concretiseer met Bracke. Bart = ASSET MISAPPROPRIATION (oneigenlijke toe-eigening via fake-leverancier-mechaniek). Frank = ASSET MISAPPROPRIATION (spookmedewerker — passieve variant, monteur betaalt zelf niet maar Bracke betaalt aan iemand die niet werkt). Hypothese-CORRUPTIE-scenario bij Bracke: werfleider die structureel bij dezelfde leverancier bestelt zonder concurrentie + kickback ontvangt (Z3 zwakte — bestelling onder 5.000 EUR werfleider zelf goedkeurt). Hypothese-FRAUDULEUZE-RAPPORTERING-scenario: Pieter beslist eind 2025 een grote voorraad-positie hoger te waarderen om bank-rating te halen — management-override met balans-impact."
+
+  - id: management-override
+    titel: "Management override — de grootste inherente beperking"
+    niveau: 2
+    beats:
+      - "Open met de stelling: van de 5 inherente beperkingen uit [[wat-is-interne-controle-en-coso]] is MANAGEMENT OVERRIDE de grootste — omdat de directie ELKE controle kan uitschakelen, ook controles die ze zelf heeft opgezet. ISA 240 maakt dit expliciet: 'management is in a unique position to perpetrate fraud because of its ability to manipulate accounting records and prepare fraudulent financial statements by overriding controls that otherwise appear to be operating effectively'."
+      - "Werk de mechaniek uit. Een goed IC-systeem rust op de aanname dat DIRECTIE zelf onder de controles staat. Management override doorbreekt die aanname: de zaakvoerder die zegt 'maak deze betaling vrij zonder 2e handtekening — vertrouw me', of de CFO die boekingen na cut-off naar de vorige periode laat schuiven om resultaat-doel te halen, of de bestuurder die de externe auditor onder druk zet."
+      - "Werk de mitigaties uit. (a) AUDITCOMITÉ-TOEZICHT bij grote ondernemingen (komt in L5). (b) EXTERNE AUDITOR-RAPPORTERING aan AvA + bestuur — directie kan extern oordeel niet zomaar verbergen. (c) KLOKKENLUIDERS-PROCEDURE — medewerkers kunnen anoniem melden. (d) TONE-AT-THE-TOP — paradoxaal: de beste mitigatie is dezelfde directie zelf — als zij integriteit voorleeft, neemt override-risico af. (e) PERIODIEKE EXTERNE REVIEW bij KMO zoals Bracke (vrijwillige opdracht confrater-accountant)."
+      - "Concretiseer met Bracke. Z11 (Pieter doet alle kasstortingen ZELF) = potentiële management-override-bron — Pieter staat zelf niet onder controle. Z10 (kascontrole formeel maandelijks door Pieter — in praktijk niet uitgevoerd) = override door negering eigen verplichting. Mitigatie: Sofie als 2e zaakvoerder zou periodiek Pieter's stortingen kunnen tegentekenen — maar Sofie is halftijds (zwakke 4-ogen)."
+
+  - id: tone-at-the-top
+    titel: "Tone-at-the-top en de zachte controles"
+    niveau: 2
+    beats:
+      - "Open met de stelling: tot nu toe spraken we over HARDE controles (functiescheiding, autorisatie, 3-way match — meetbaar, audit-baar). Maar het FUNDAMENT van elk IC-systeem is een ZACHTE laag — de CONTROLEOMGEVING (COSO-component 1) waarin TONE-AT-THE-TOP centraal staat."
+      - "Werk de term uit: 'tone at the top' = de cultuur, ethische waarden en gedragsvoorbeelden die directie en bestuur uitstralen. Als de zaakvoerder zelf onkostennota's misbruikt, schrappen alle gedragscode-trainingen niet. Als hij integriteit voorleeft, neemt frauderiskeren in de hele organisatie af."
+      - "Werk de mechaniek uit. Tone-at-the-top beïnvloedt de RATIONALISATIE-hoek van de fraudedriehoek. Een werknemer die ziet dat directie eerlijk handelt, vindt het moeilijker zichzelf te rechtvaardigen ('iedereen hier rotzooit' werkt niet). Een werknemer die ziet dat directie zelf de regels omzeilt, rationaliseert makkelijker ('Pieter doet het ook')."
+      - "Werk de COMPONENTEN uit. (1) GEDRAGSCODE (code of conduct) — geschreven document met principes + voorbeelden + sancties. (2) ETHIEK-TRAINING — periodiek + onboarding-onderdeel. (3) KLOKKENLUIDERS-PROCEDURE (whistleblower hotline) — anonieme meld-kanaal. (4) ETHISCHE LEIDERSCHAP-VOORBEELDEN — directie volgt zelf de regels (geen privé-gebruik bedrijfsauto, geen besluit zonder voorbereiding, geen 'gunst' aan familie)."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `coso_componenten_bracke.controleomgeving`). STERK: Pieter zichtbaar aanwezig op kantoor (tone-at-the-top); informele gedragscode. ZWAK: GEEN geschreven gedragscode; GEEN klokkenluiders-procedure ('te kleine schaal vond Pieter' — bewuste keuze die nu een blinde vlek blijkt). Voorstel-aanbeveling: voor een 32-koppige Bracke is een 1-pagina-gedragscode + jaarlijkse afstemming op de werfleiders-meeting realistisch en proportioneel."
+
+  - id: risico-identificatie
+    titel: "Risico-identificatie — drie complementaire methodes"
+    niveau: 2
+    beats:
+      - "Open met de positionering: tot nu toe ging het over WAT fraude is. Hoe IDENTIFICEER je systematisch alle risico's die de onderneming bedreigen — niet alleen fraude, maar alles waarvoor IC een antwoord moet bieden? Drie complementaire methodes."
+      - "Werk METHODE 1 uit — PESTEL voor EXTERNE risico's. Acroniem: POLITIEK · ECONOMISCH · SOCIAAL · TECHNOLOGISCH · ECOLOGISCH · LEGAL. Per dimensie scan je wat de onderneming bedreigt vanuit haar omgeving. Voorbeeld Bracke: P = verandering bouwregelgeving; E = renteverhoging zou renovatie-vraag drukken; S = vergrijzing personeel (3 monteurs > 55 jaar); T = warmtepomp-shift weg van traditionele HVAC; E = milieu-eisen rond koelmiddel; L = nieuwe BTW-regels renovatie."
+      - "Werk METHODE 2 uit — CYCLUS-SCAN voor INTERNE proces-risico's. Per cyclus (uit [[cyclus-analyse-en-controlemiddelen]]) ga je systematisch elke processtap af en lijst je wat fout kan gaan. Gebruikt categorieën: foutieve invoer, ontbrekende boeking, dubbele boeking, ongeautoriseerde transactie, fraude-vector, IT-uitval, niet-naleving. Bracke heeft de Z1-Z14-zwaktes uit deze scan."
+      - "Werk METHODE 3 uit — HEAT MAP (kans × impact) voor PRIORITERING. Niet elk risico verdient gelijk veel mitigatie. Plot elk risico op een 5×5-matrix: horizontaal = kans (zeldzaam · onwaarschijnlijk · mogelijk · waarschijnlijk · bijna zeker), verticaal = impact (insignificant · klein · matig · ernstig · catastrofaal). Top-rechts (hoog kans × hoog impact) = prioritair mitigeren. Rechts-onder (laag kans × hoog impact) = transfer (verzekering). Links-boven (hoog kans × laag impact) = procedure + monitoring. Links-onder (laag kans × laag impact) = accepteren."
+      - "Concretiseer met Bracke heat map. TOP-RECHTS = Z1 (Eline simultane rechten) — hoge kans × hoge impact (realiteit Bart 47.300 EUR). TOP-RECHTS = Z13 (spookmedewerker) — hoge kans × matige impact (12.800 EUR Frank-incident). RECHTS-ONDER = brand magazijn → verzekering. LINKS-BOVEN = bonnetje-fraude klein-kas → maandelijkse kascontrole. Drie verschillende mitigatie-reflexen per kwadrant."
+      - "Werk de FEEDBACK-LUS uit: risico-identificatie is GEEN eenmalige oefening. Bij wijziging (nieuwe werknemer, nieuwe leverancier, nieuwe ERP-module, fraude-incident) moet de risico-inschatting WORDEN HERZIEN. COSO-component 2 (risico-inschatting) is een DOORLOPENDE activiteit, geen jaarlijkse opfrissing."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Methode", "Doel", "Bracke-voorbeeld"]
+        rijen:
+          - ["**PESTEL**", "Externe risico's systematisch identificeren", "Renteverhoging dempt renovatie-vraag · warmtepomp-shift"]
+          - ["**Cyclus-scan**", "Interne proces-risico's per stap", "Z1-Z14 zwaktes per cyclus"]
+          - ["**Heat map (kans × impact)**", "Prioriteren — waar eerst mitigeren", "Z1 top-rechts; brand magazijn rechts-onder (verzekering)"]
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): elk incident als fraude behandelen. FOUT. Fout · fraude · verspilling hebben verschillende oorzaken en vragen verschillende mitigaties. Wie een vergissing als fraude behandelt verliest vertrouwen + tijd; wie fraude als 'vergissing' afdoet laat de hoofdoorzaak intact. Antwoord-formule: classificeer EERST (intentie aanwezig?), dan reageer."
+      - "Valkuil 2 (⚠️): denken dat goede controles fraude volledig uitsluiten. FOUT. COLLUSIE doorbreekt elke functiescheiding. MANAGEMENT OVERRIDE schakelt elke controle uit. Controles VERHOGEN de pakkans en VERLAGEN de aantrekkelijkheid — ze ELIMINEREN het risico niet. Verwijs naar redelijke zekerheid uit [[wat-is-interne-controle-en-coso]]."
+      - "Valkuil 3 (⚠️): tone-at-the-top als 'soft' afdoen. FOUT. De controleomgeving is COSO-component 1, het FUNDAMENT. Een zwakke controleomgeving ondergraaft alle harde controles. Een 32-koppige Bracke zonder geschreven gedragscode is niet 'te klein' — dat is een blinde vlek die zich wreekt bij het volgende fraude-incident."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Hoe een externe of interne auditor IC-tekortkomingen detecteert en communiceert via managementletter (ISA 265) — inclusief de Bracke-bevindingen na het Bart-incident."
+    - slug: wat-is-interne-controle-en-coso
+      hint: "Voor de 5 inherente beperkingen — waarvan management override + collusie hier centraal stonden."
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "Voor de Z1-Z14 cyclus-zwaktes die hier als gelegenheids-hoek van de fraudedriehoek dienden."
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "Voor functiescheiding als primaire mitigatie van de gelegenheids-hoek."
+  samenvatting:
+    hint: "Voor herhaling — fraudedriehoek + 3 fraudecategorieën + risico-identificatie-methode + management override + tone-at-the-top."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [fouten-en-fraude, interne-controle]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Auditor-verantwoordelijkheid voor fraude"
+    ref: "ISA 240 — De verantwoordelijkheden van de auditor met betrekking tot fraude in het kader van een controle van financiële overzichten"
+    noot: "Onderscheid fout vs fraude (intentie); twee hoofdtypes fraude — frauduleuze financiële verslaggeving + oneigenlijke toe-eigening; professioneel-kritische instelling; management override als specifieke risico-bron."
+  - onderwerp: "Frauderisico als specifieke COSO-component"
+    ref: "ISA 315 (herzien-2019), Bijlage 3"
+    noot: "COSO-component 2 (risico-inschatting) vereist expliciete overweging van frauderisico bij elke onderneming."
+  - onderwerp: "ITAA KMO-controlenorm — fraude-overwegingen KMO"
+    ref: "ITAA-norm KMO-controlenorm — §97-98 + Bijlage 1"
+    noot: "Werkt fraude-risico-overwegingen operationeel uit voor Belgische KMO-context."
+  - onderwerp: "Fraudedriehoek (Cressey 1973)"
+    ref: "ACFE-doctrine — Cressey, *Other People's Money* (1953) + Albrecht-uitbreiding fraud diamond (1984)"
+    noot: "Geen wettekst; sociologische audit-doctrine, internationaal erkend. Drie-hoeken (druk · gelegenheid · rationalisatie) impliciet in ISA 240."
+  - onderwerp: "3 fraude-categorieën (misappropriatie · frauduleuze rapportering · corruptie)"
+    ref: "ACFE *Report to the Nations* — internationale doctrine"
+    noot: "Geen wettekst; ACFE-typologie wordt door ISA 240 grotendeels overgenomen."
+
+footer: "Leerstuk PO 1.7 — specifiek (4 van 5). Volgende stap: [[interne-audit-evaluatie-en-aanbevelingen]]."

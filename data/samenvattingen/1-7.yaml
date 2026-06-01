@@ -1,0 +1,293 @@
+# Samenvatting-script — PO 1.7 Interne controle
+#
+# Kader-PO met sterke taxonomie- en cyclus-componenten. Samenvatting bundelt
+# de 4 IC-doelen + 5 COSO-componenten + drie functiescheidings-taxonomieën +
+# 5-cycli-overzicht + IT-controles-laag + fraudedriehoek + ISA 265 ernst-niveaus
+# + SMART-aanbeveling-formaat.
+#
+# Status: eerste-versie samenvatting POC, op basis van vijf gerenderde
+# leerstukken (NIET op basis van eerdere themafiches — die worden verwijderd
+# per ADR-039, gebruiker-keuze conform PO 2.5 en PO 2.7).
+
+meta:
+  slug: "1-7"
+  titel: "Interne controle"
+  po: "1.7"
+  beschrijving: "PO-samenvatting (geheugen-kapstok): 4 doelen interne controle, 5 COSO-componenten, drie functiescheidings-taxonomieën (BURCB · 4 categorieën · preventief/detectief/correctief), 5-cycli-overzicht, IT-controles, fraudedriehoek, ISA 265 ernst-niveaus en SMART-aanbeveling-formaat — printbaar op 3-4 A4."
+  explorer_title: "6. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Kader-PO over hoe een onderneming haar eigen processen onder controle
+    houdt — niet over hoe een externe auditor het systeem toetst. Deze
+    samenvatting bundelt de 4 doelen + 5 COSO-componenten + drie
+    functiescheidings-taxonomieën + 5-cycli-overzicht + IT-laag +
+    fraudedriehoek + ISA 265 ernst-niveaus + SMART-formaat. Voor verhaal
+    en routekaart: minicursus PO 1.7. Voor de auditor-kant (extern):
+    PO 1.6. Voor herhaling, niet om voor het eerst te leren.
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie 1: TAKE-AWAY (6 scherpe bullets — zaken die NIET in
+# een tabel verderop af te lezen zijn)
+# ---------------------------------------------------------------------------
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Interne controle is een management-systeem, geen auditor-werk.** Het bestuur ontwerpt, implementeert en onderhoudt het IC-systeem; de externe auditor (commissaris) evalueert het van buitenaf. Verwar 'interne controle' niet met 'interne audit' — die laatste is een 3e-lijn-functie die het IC-systeem toetst."
+    - "**Redelijke zekerheid, nooit absolute.** Vijf inherente beperkingen blijven altijd staan: menselijk oordeel, breakdown van controles, collusie, management override, kosten-baten. Een aanbeveling die suggereert 'fraude volledig uitsluiten' past het concept verkeerd toe."
+    - "**Drie taxonomieën die je gegarandeerd op het examen ziet.** (1) BURCB — vijf controletechnische functies (Beschikken · Uitvoeren · Registreren · Controleren · Bewaren) met regel 'max 2 niet-aangrenzende per persoon'. (2) Vier-categorieën-typologie (1 Autorisatie · 2 Bewaring · 3 Registratie · 4 Controleprocedures). (3) Karakter-driehoek (preventief · detectief · correctief). De examinator gebruikt ze door elkaar."
+    - "**Functiescheiding is geen magic bullet.** Sluit collusie en management override **niet** uit. In een KMO mag direct toezicht door de eigenaar-bestuurder compenseren voor beperkte functiescheiding (ISA 315 §A157) — maar de stelregel 'geen functiescheiding nodig in KMO' is fout: vermeld altijd de compenserende controle expliciet."
+    - "**Application control alleen zo betrouwbaar als onderliggende ITGC.** Een automatische 3-way match in Odoo geeft géén comfort als toegangsbeheer, change management of audit trail rammelt. Walkthrough levert design-bewijs en momentopname; operating effectiveness vereist test-of-controls over een periode (ISA 330)."
+    - "**Een SMART-aanbeveling die het rest-risico verzwijgt is professioneel zwakker dan één die het expliciet benoemt.** Wie 'het probleem oplost' zonder na te denken over wat overblijft, mist het examen-punt rond redelijke (nooit absolute) zekerheid. Goede ITAA-praktijk: SMART + verwacht rest-risico + opvolg-mechanisme."
+
+# ---------------------------------------------------------------------------
+# Optionele extra blokken — volgorde = render-volgorde
+# ---------------------------------------------------------------------------
+
+extra_blokken:
+
+  - id: vier-doelen-interne-controle
+    type: tabel-vergelijking
+    titel: "Vier doelstellingen van interne controle (COSO + ITAA-norm)"
+    intro: "Elke controle moet aantoonbaar bijdragen aan minstens één van deze vier doelen. Bij elke procedure de toetsvraag: 'welk(e) doel(en) dient ze?'"
+    kolommen: ["Doel", "Wat", "Concreet voorbeeld"]
+    rijen:
+      - ["**Operations**", "Effectieve en efficiënte bedrijfsvoering", "DSO-monitoring · voorraad-rotatie · projectmarge-rapportering"]
+      - ["**Reporting**", "Betrouwbare interne + externe rapportering (financieel + niet-financieel)", "Maandelijkse bank-reconciliatie · cut-off-controle bij jaareinde"]
+      - ["**Compliance**", "Naleving van wetten, reglementen en interne richtlijnen", "Tijdige BTW-aangifte · GDPR-register · CFI-melding waar van toepassing"]
+      - ["**Safeguarding of assets**", "Bescherming vermogen tegen verlies, diefstal, misbruik", "Kluis voor kasbeheer · RBAC op IT-toegang · cyclische voorraad-telling"]
+    noot: "Diepte: [[wat-is-interne-controle-en-coso]]. ITAA-norm KMO-controlenorm Bijlage 1 als referentiekader. COSO IC 2013 als internationale doctrine."
+
+  - id: vijf-coso-componenten
+    type: tabel-vergelijking
+    titel: "Vijf COSO-componenten (IC 2013, ISA 315 herzien-2019 kader)"
+    intro: "ISA 315 hanteert dezelfde 5-componenten-structuur. Wie de stof rond deze kapstok kent, kan elke IC-evaluatie systematisch opbouwen."
+    kolommen: ["Component", "Kern", "Vragen bij Bracke-type KMO"]
+    rijen:
+      - ["**1. Controleomgeving**", "Tone at the top · ethiek · structuur · HR", "Is er een geschreven gedragscode? Klokkenluiders-procedure? AMLCO benoemd?"]
+      - ["**2. Risico-inschatting**", "Doelen → risico's → respons", "Bestaat een formeel risico-register? Fraude-risico's geïdentificeerd?"]
+      - ["**3. Controle-activiteiten**", "Procedures die risico's mitigeren", "Functiescheiding? 3-way match? Autorisatie-drempels up-to-date?"]
+      - ["**4. Informatie & communicatie**", "Info-flow op + neer + horizontaal", "Welk ERP? Rapportering richting bestuur formeel of informeel?"]
+      - ["**5. Monitoring**", "Doorlopend + periodiek toetsen werking", "Self-assessment? Interne audit-functie? Externe review?"]
+    noot: "Diepte: [[wat-is-interne-controle-en-coso]]."
+
+  - id: drie-lines-of-defense
+    type: mermaid
+    titel: "3 Lines of Defense (IIA-model herzien 2020)"
+    intro: "Conceptueel model voor rolverdeling — geen organigram-eis. In KMO mag één persoon meerdere lijnen vervullen, mits documentatie + compenserend toezicht."
+    mermaid_type: flowchart-td
+    code: |
+      L1[1e lijn — Operationeel management<br/>controles in dagelijkse activiteiten<br/>verkoop · aankoop · cash · IT-gebruik]
+      L2[2e lijn — Risk · Compliance · Quality<br/>kader + monitoring + advies<br/>risk-officer · DPO · compliance · controlling]
+      L3[3e lijn — Interne audit<br/>onafhankelijke assurance<br/>aan auditcomité]
+      B[Bestuur + Auditcomité<br/>oversight]
+      E[Externe assurance<br/>commissaris · regelgever]
+      L1 --> B
+      L2 --> B
+      L3 --> B
+      E -.-> B
+
+  - id: drie-taxonomieën-functiescheiding
+    type: tabellen-en-formules
+    titel: "Drie taxonomieën functiescheiding + controlemaatregelen"
+    sub_blokken:
+
+      - type: tabel-inline
+        sub_titel: "1. BURCB — vijf controletechnische functies (Starreveld-traditie)"
+        kolommen: ["Letter", "Functie", "Rol", "Voorbeeld aankoop"]
+        rijen:
+          - ["**B**", "**B**eschikken", "Beslist of transactie mag gebeuren", "Goedkeuring bestelling boven drempel"]
+          - ["**U**", "**U**itvoeren / Initiëren", "Voert transactie fysiek uit", "Bestelling plaatsen · ontvangst goederen"]
+          - ["**R**", "**R**egistreren", "Boekt + reconcilieert", "Factuur boeken · bankreconciliatie"]
+          - ["**C**", "**C**ontroleren", "Toetst of vorige stap correct verliep", "3-way match · review betaalbatch"]
+          - ["**B**", "**B**ewaren", "Bewaart activa", "Magazijn · kassa · IT-rechten"]
+        noot: "Vuistregel: maximaal 2 niet-aangrenzende functies per persoon. B + R is verboden combo (registreert wat hij zelf beschikt). U + B (bewaren) is verboden (uitvoeren + bewaren = diefstal-risico)."
+
+      - type: tabel-inline
+        sub_titel: "2. Vier-categorieën-typologie (ITAA-doctrine + ISA 315)"
+        kolommen: ["Categorie", "Wat", "Voorbeeld"]
+        rijen:
+          - ["**1 Autorisatie**", "Poortwachters-beslissing — mag dit?", "Goedkeuring bestelling · aanmaak nieuwe leverancier (master-data)"]
+          - ["**2 Bewaring van activa**", "Custody — wie heeft fysieke/digitale toegang?", "Ontvangst goederen · uitvoering bankbetaling · magazijn-sleutel"]
+          - ["**3 Registratie & rapportering**", "Boeken + verslagleggen", "Factuur boeken · aanmaak betaalbatch · journaalpost"]
+          - ["**4 Controleprocedures**", "Detecterende controle op vorige stap", "3-way match · maandelijkse reconciliatie · review-rapport"]
+        noot: "Een fraudegevoelige combinatie wordt voorkomen door 1+2 (autorisatie + custody) te scheiden — bv. wie nieuwe leverancier aanmaakt mag niet betalen."
+
+      - type: tabel-inline
+        sub_titel: "3. Karakter-driehoek (preventief / detectief / correctief)"
+        kolommen: ["Karakter", "Wat", "Voorbeeld"]
+        rijen:
+          - ["**Preventief**", "Stopt fout/fraude **vóór** ze ontstaat — staat op transactiepad", "Functiescheiding · autorisatie · ERP-veld-validatie · toegangsbeperking"]
+          - ["**Detectief (≈ repressief)**", "Ontdekt fout/fraude **nadat** opgetreden", "Bank-reconciliatie · voorraad-telling · exceptie-rapport · interne audit"]
+          - ["**Correctief**", "Herstelt + neemt oorzaak weg", "Correctieboeking · disciplinaire actie · procedure-herziening"]
+        noot: "Preventief en detectief zijn **complementair**, geen alternatieven. Een sluitend systeem combineert beide: alleen preventief geeft blinde vlekken (wat als de controle faalt?), alleen detectief betekent schade incasseren vóór correctie."
+
+      - type: formule
+        sub_titel: "Bonus: accountingcontrole vs administratieve controle"
+        beschrijving: "Klassiek onderscheid (Starreveld). **Accountingcontrole** bewaakt de juistheid van de boekhouding zelf (cut-off · reconciliatie · aansluiting klantenadm). **Administratieve controle** bewaakt de processen rond de transactie (autorisatie · functiescheiding · vier-ogen). Onderscheid gaat over **wat** wordt gecontroleerd, niet **wanneer**: output (boeken) vs proces (weg ernaartoe)."
+        formule: "\\text{IC-systeem} = \\text{Accountingcontrole}_{\\text{output}} + \\text{Administratieve controle}_{\\text{proces}}"
+
+  - id: vijf-cycli-overzicht
+    type: tabel-vergelijking
+    titel: "Vijf transactionele cycli — top-risico × sleutelcontroles"
+    intro: "Cyclus-aanpak is werkpaard van zowel IC-design als IC-evaluatie. Per cyclus: top-risico's identificeren + sleutelcontroles benoemen + IT-laag toevoegen."
+    kolommen: ["Cyclus", "Top-risico", "Klassieke sleutelcontroles"]
+    rijen:
+      - ["**Aankoop (P2P)**", "Fictieve leveranciers · over-betaling · kickback", "3-way match (PO + ontvangst + factuur) · leveranciers-master discipline · functiescheiding besteller↔ontvanger↔betaler · spend-analyse top-20"]
+      - ["**Verkoop (O2C)**", "Niet-geboekte verkoop · krediet-overschrijding · prijslijst-omzeiling", "Onafhankelijke kredietacceptatie · order-tot-cash autorisatie · DSO-monitoring · saldo-bevestiging klanten"]
+      - ["**Voorraad**", "Verlies/diefstal · waarderings-fout · obsolescence", "Cyclische tellingen met telpartner · ABC-classificatie · waarderings-controle · functiescheiding houden↔registreren"]
+      - ["**Kas/treasury**", "Onbevoegde betalingen · cash-fraude · creditcard-misbruik", "Maandelijkse bank-reconciliatie · 4-ogen op betalingen · maandelijkse kascontrole · creditcard-vergelijking met werkstaten"]
+      - ["**Lonen (H2R)**", "Spookmedewerker · onterechte loonsverhoging · oneigenlijke toegangsrechten", "Onboarding/offboarding-protocol · functiescheiding HR-administratie↔betaling · 4-ogen op loonbatch · RBAC-review"]
+    noot: "Diepte per cyclus + IT-laag: [[cyclus-analyse-en-controlemiddelen]]. Cycli zijn verweven — een verkoop triggert voorraad-afname; een aankoop triggert betaling. Niet los analyseren."
+
+  - id: it-controles
+    type: tabel-vergelijking
+    titel: "IT-controles — ITGC vs application vs IT-dependent manual"
+    intro: "Drie types die elk een ander stuk afdekken. Application control vertrouwen zonder ITGC-toetsing is een klassieke fout."
+    kolommen: ["Type", "Wat", "Voorbeelden", "Risico bij verzaken"]
+    rijen:
+      - ["**ITGC** (General IT Controls)", "Onderbouwt application controls", "Access management (RBAC) · change management · backup/recovery · operations", "Application controls onbetrouwbaar; geen audit trail"]
+      - ["**Application controls**", "Geautomatiseerd per proces", "Veld-validaties · automatische BTW-berekening · automatische reconciliatie · 3-way match", "Falen detecteer je niet zonder ITGC"]
+      - ["**IT-dependent manual**", "Manual control op IT-output", "Manager review van system-generated rapport", "Output kan vervalst worden zonder ITGC; manager 'tekent blind'"]
+    noot: "Cloud (M365/Azure/AWS): **shared responsibility** — provider beheert infrastructuur, cliënt blijft verantwoordelijk voor user-management, data-classificatie, application-config. 'Cloud = geen eigen IT-controle' is fout."
+
+  - id: fraudedriehoek
+    type: mermaid
+    titel: "Fraudedriehoek (Cressey 1953)"
+    intro: "Drie hoeken die samen moeten staan voor fraude tot stand komt. Alleen aan de gelegenheid-hoek kan een IC-ontwerper werken — druk en rationalisatie zijn niet stuurbaar. Vandaar: blokkeer de gelegenheid en je blokkeert de fraude."
+    mermaid_type: flowchart-td
+    code: |
+      F[Fraude<br/>realiseert zich]
+      D[**Druk**<br/>persoonlijke nood<br/>schulden · gokverslaving<br/>familie · status<br/>NIET STUURBAAR]
+      G[**Gelegenheid**<br/>zwakke functiescheiding<br/>geen monitoring<br/>te hoge drempels<br/>STUURBAAR — IC-architectuur]
+      R[**Rationalisatie**<br/>verhaal voor jezelf<br/>'ik verdien dit'<br/>'ze hebben mij onderbetaald'<br/>NIET STUURBAAR]
+      D --> F
+      G --> F
+      R --> F
+
+  - id: drie-fraudecategorieën
+    type: tabel-vergelijking
+    titel: "Drie fraudecategorieën (ISA 240 + ACFE-doctrine)"
+    intro: "Verschillende dader-profielen, verschillende detectie-aanpak. Een aanbeveling tegen één categorie raakt niet altijd de andere."
+    kolommen: ["Categorie", "Wat", "Typische dader", "Detectie"]
+    rijen:
+      - ["**Misappropriatie van activa**", "Diefstal van cash, voorraad, vaste activa", "Werknemer met custody-toegang", "Reconciliatie · cyclische telling · forensische analyse"]
+      - ["**Frauduleuze financiële rapportering**", "Manipulatie van cijfers — omzet inflate · kosten verbergen · ongoorloofde provisies", "Top-management (CEO/CFO)", "Analytische review · benchmarks · whistleblower"]
+      - ["**Corruptie**", "Steekpenningen · kickbacks · belangenconflict", "Inkoop · sales · publieke functies", "Spend-analyse · related-party checks · klokkenluiders-procedure"]
+    noot: "Diepte: [[fouten-fraude-en-risicobeheersing]]. ISA 240 hanteert de eerste twee als hoofdtypes; corruptie als variant."
+
+  - id: managementletter-isa-265
+    type: tabel-vergelijking
+    titel: "Managementletter ISA 265 — drie ernst-niveaus"
+    intro: "De externe auditor communiceert tekortkomingen in de interne beheersing volgens een vaste hiërarchie. Significant deficiency + material weakness MOETEN schriftelijk + tijdig aan het met governance belaste orgaan."
+    kolommen: ["Niveau", "Wat", "Aan wie gecommuniceerd?", "Voorbeeld Bracke"]
+    rijen:
+      - ["**Deficiency**", "Een controle ontbreekt of werkt niet zoals bedoeld — beperkt risico", "Optioneel — beoordeling auditor", "Geen documenteerde kascontrole laatste 8 maanden"]
+      - ["**Significant deficiency**", "Verdient aandacht van bestuur — risico op materiële afwijking realistisch", "**Verplicht** schriftelijk aan bestuur", "Eline simultane rechten op leveranciers-master + factuur-boeking + betaalbatch (Bart-fraude-trigger)"]
+      - ["**Material weakness**", "Redelijke kans dat een materiële afwijking niet vroegtijdig wordt voorkomen of gedetecteerd", "**Verplicht** schriftelijk aan bestuur + verzwaard tijdig", "Geen 4-ogen op betalingen + drempels te hoog — significante materiële fraude mogelijk"]
+    noot: "Diepte: [[interne-audit-evaluatie-en-aanbevelingen]]. ISA 265 is dwingende communicatieplicht — auditor mag significant deficiency niet 'opzij leggen'."
+
+  - id: smart-aanbeveling
+    type: tabellen-en-formules
+    titel: "SMART-aanbeveling-formaat — examen-favoriet"
+    sub_blokken:
+
+      - type: formule
+        sub_titel: "Doelstelling 1.7.taak.1.doel.6 — aanbeveling formuleren"
+        beschrijving: "Een goede aanbeveling tegenover een IC-tekortkoming voldoet aan vijf criteria + benoemt expliciet het rest-risico. Wie 'het probleem oplost' zonder rest-risico te benoemen, mist het examen-punt rond redelijke (nooit absolute) zekerheid."
+        formule: "\\text{Aanbeveling} = S + M + A + R + T + \\text{Rest-risico}"
+
+      - type: tabel-inline
+        sub_titel: "Vijf SMART-letters + rest-risico"
+        kolommen: ["Letter", "Vraag", "Voorbeeld Bracke (B1 — Eline-rechten splitsen)"]
+        rijen:
+          - ["**S**pecifiek", "Welke wijziging exact?", "Splits Odoo-rollen: master-data alleen door Pieter/Sofie; betaalbatch-aanmaak en -vrijgave door twee verschillende personen"]
+          - ["**M**eetbaar", "Waaraan herken je succes?", "100 % van nieuwe leveranciers heeft Pieter/Sofie-handtekening vóór eerste betaling (audit-trail na 3 mnd)"]
+          - ["**A**cceptabel", "Wie draagt de last + aanvaardt die?", "Eline blijft hoofdboekhouder; alleen master-data en betalingsvrijgave verschuiven naar zaakvoerders (10-15 min/week extra)"]
+          - ["**R**ealistisch", "Haalbaar binnen context?", "Odoo ondersteunt RBAC out-of-the-box; zaakvoerders meestal aanwezig of op afstand bereikbaar"]
+          - ["**T**ijd-gebonden", "Concrete deadline?", "Implementatie tegen 2026-02-28; eerste audit-cyclus Q1 2026 in april"]
+          - ["**+ Rest-risico**", "Wat blijft over?", "Management override (zaakvoerders kunnen formeel goedkeuren zonder verifiëren) + collusie zaakvoerder ↔ werfleider — mitigatie via periodieke externe spend-analyse"]
+        noot: "Patroon: de SMART-discipline + expliciet rest-risico is wat een ITAA-conform advies onderscheidt van een naïeve 'oplossing'. Diepte: [[interne-audit-evaluatie-en-aanbevelingen]]."
+
+  - id: ontwerp-flow
+    type: mermaid
+    titel: "8-stappen-ontwerpflow interne controle"
+    intro: "De canonieke aanpak (programma 1.7.VIII.A). Iteratief — bij wijziging (nieuw ERP, M&A, regelgeving) terug naar stap 2."
+    mermaid_type: flowchart-td
+    code: |
+      S1[1. Doelstellingen vastleggen<br/>operations · reporting · compliance · safeguarding]
+      S2[2. Proces-mapping<br/>per cyclus]
+      S3[3. Risico-identificatie<br/>per processtap]
+      S4[4. Risico-evaluatie<br/>kans × impact heat map]
+      S5[5. Controle-selectie<br/>preventief · detectief · correctief]
+      S6[6. Documentatie<br/>flowchart · narrative · matrix]
+      S7[7. Uitrol + training<br/>+ verantwoordelijke per controle]
+      S8[8. Monitoring<br/>walkthrough · tests · self-assessment]
+      S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> S8
+      S8 -.-> S3
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VALKUILEN (7 — overgenomen uit valkuilen-secties van
+# de vijf leerstukken, scherp geformuleerd op samenvattings-niveau)
+# ---------------------------------------------------------------------------
+
+valkuilen:
+  titel: "Klassieke valkuilen"
+  format: tabel
+  rijen:
+    - valkuil: "Interne controle = interne audit"
+      wat_klopt_niet: "Beide intern, dus synoniem"
+      wat_klopt_wel: "**Interne controle = systeem** ontworpen door management (1e + 2e lijn). **Interne audit = 3e-lijn-functie** die het systeem toetst. Twee verschillende dingen."
+    - valkuil: "IC geeft absolute zekerheid"
+      wat_klopt_niet: "Een goed IC-systeem voorkomt fouten en fraude volledig"
+      wat_klopt_wel: "Slechts **redelijke** zekerheid — vijf inherente beperkingen blijven: menselijk oordeel · breakdown · collusie · management override · kosten-baten."
+    - valkuil: "Functiescheiding als magic bullet"
+      wat_klopt_niet: "Met goede ACR-IH geen fraude meer mogelijk"
+      wat_klopt_wel: "Sluit collusie en management override **niet** uit. Combineer met monitoring + tone-at-the-top + auditcomité (waar van toepassing)."
+    - valkuil: "Pseudo-functiescheiding via gedeelde paswoorden"
+      wat_klopt_niet: "Op papier verdeeld ⇒ effectief"
+      wat_klopt_wel: "Alleen effectief als systemen het technisch afdwingen — RBAC + audittrail per gebruiker. Gedeelde logins maken functiescheiding onbestaande."
+    - valkuil: "Application control vertrouwen zonder ITGC-toetsing"
+      wat_klopt_niet: "Systeem rekent automatisch ⇒ correct"
+      wat_klopt_wel: "Application control is zo betrouwbaar als de **onderliggende ITGC** (toegang · change management · operations). Geen ITGC-test ⇒ geen vertrouwen."
+    - valkuil: "Walkthrough = test of controls"
+      wat_klopt_niet: "Eén transactie nalopen ⇒ controle getoetst"
+      wat_klopt_wel: "Walkthrough geeft enkel **design-bewijs + momentopname**. Operating effectiveness vereist steekproef over hele periode (ISA 330)."
+    - valkuil: "Aanbeveling zonder rest-risico"
+      wat_klopt_niet: "SMART-aanbeveling is volledig zodra de vijf letters geadresseerd zijn"
+      wat_klopt_wel: "Aanbeveling die rest-risico verzwijgt mist het 'redelijke (nooit absolute) zekerheid'-principe. Goede praktijk: SMART **+ rest-risico expliciet + opvolg-mechanisme**."
+
+# ---------------------------------------------------------------------------
+# Verplichte sectie: VERDIEPING (doorklik)
+# ---------------------------------------------------------------------------
+
+doorklik:
+  intro: "Werkt iets niet meer scherp? Klik door naar het leerstuk dat het uitwerkt of het concept dat het definieert:"
+  leerstukken:
+    - slug: wat-is-interne-controle-en-coso
+      hint: "4 doelstellingen + 5 COSO-componenten + redelijke zekerheid + 5 inherente beperkingen + 3 Lines + KMO-proportionaliteit"
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "BURCB + 4-categorieën + preventief/detectief/correctief + accountingcontrole vs administratieve controle + KMO-compensatie (ISA 315 §A157)"
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "5 cycli systematisch (P2P · O2C · voorraad · kas · H2R) + sleutelcontroles per cyclus + IT-laag (ITGC vs application) + 8-stappen-flow"
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "Fraudedriehoek Cressey · 3 fraudecategorieën · management override · tone-at-the-top · risico-identificatie-methodes"
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Interne audit (3e lijn) + auditcomité + design vs operating effectiveness + ISA 265 ernst-niveaus + SMART-aanbeveling-formaat"
+  concept_groepen:
+    - label: "Begrippen + kader"
+      concepten: [interne-controle, coso-framework, ontwerp-interne-controle]
+    - label: "Hefbomen"
+      concepten: [functiescheiding, cyclus-analyse, it-controles]
+    - label: "Wat misgaat"
+      concepten: [fouten-en-fraude]
+    - label: "Evaluatie + governance"
+      concepten: [interne-audit, auditcomite, evaluatie-interne-controle]
+
+# ---------------------------------------------------------------------------
+# Footer
+# ---------------------------------------------------------------------------
+
+footer: "Samenvatting PO 1.7 — Interne controle. Status: voorgesteld — POC volgens ADR-039. Geschreven from-scratch op basis van de vijf gerenderde leerstukken (NIET via themafiche-migratie — themafiches verwijderd in dezelfde commit per ADR-039)."

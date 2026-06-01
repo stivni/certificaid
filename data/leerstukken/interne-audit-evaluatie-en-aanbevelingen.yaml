@@ -1,0 +1,231 @@
+# Leerstuk-script — interne audit, evaluatie en aanbevelingen
+#
+# PO 1.7 leerstuk 5 van 5 (proces — afdwingings- + evaluatie-luik). Vier
+# zaken die één pedagogische beweging vormen: (1) interne audit als 3e
+# lijn (charter + risk-based plan + technieken); (2) auditcomité (alleen
+# voor genoteerde + OOB); (3) evaluatie IC (design vs operating; drie
+# ernst-niveaus); (4) managementletter (ISA 265) → SMART-aanbevelingen.
+# Bouwt op alle vorige leerstukken; sluit cyclus PO 1.7. Cross-verwijzing
+# naar PO 1.6.
+
+meta:
+  slug: interne-audit-evaluatie-en-aanbevelingen
+  titel: "Wie evalueert het IC-systeem, hoe rapporteert hij, en hoe vertaalt men aanbevelingen naar actie?"
+  po: "1.7"
+  cluster: interne-controle
+  voorbeeldgroep: bracke-instal
+  beschrijving: >
+    Leerstuk PO 1.7 — proces (sluit het PO af). Vier zaken samen:
+    (1) INTERNE AUDIT als 3e-lijn-functie — onafhankelijkheid · audit
+    charter · risk-based plan · controletechnieken (inspectie · observatie ·
+    navraag · herrekening · analytische review · externe bevestiging);
+    (2) AUDITCOMITÉ als governance-orgaan (WVV art. 7:99 — beperkt tot
+    genoteerde + OOB); (3) EVALUATIE IC — design effectiveness (walkthrough)
+    vs operating effectiveness (test of controls); 3 ernst-niveaus
+    (deficiency · significant deficiency · material weakness);
+    (4) MANAGEMENTLETTER (ISA 265) → SMART-aanbevelingen → actie.
+    Plus auditrisico-model (inherent · controle · ontdekking) als
+    info-box. Cross-verwijzing naar PO 1.6 (externe controle).
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 1.7.
+    Verwijs naar alle vorige leerstukken — dit is het AFSLUITENDE leerstuk
+    dat alles wat eerder kwam (COSO uit L1, taxonomieën uit L2, cycli
+    uit L3, risico's uit L4) toepast op de EVALUATIE-laag. Plus
+    cross-verwijzing naar [[1.6]] voor het externe-controle-perspectief.
+    De mock-managementletter Bracke (na Bart-incident) is de rode draad —
+    drie ernst-niveaus, vier bevindingen, SMART-aanbevelingen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: het IC-systeem dat L1-L4 hebben opgebouwd MOET worden GEËVALUEERD — door MANAGEMENT zelf (continue monitoring, COSO-component 5), door INTERNE AUDIT (onafhankelijke 3e lijn — verplicht alleen voor genoteerde + financiële instellingen), of door de EXTERNE AUDITOR (in zijn planningsfase als basis voor risico-inschatting + steun op IC). Drie actoren, drie doelen, één gemeenschappelijk vocabularium."
+    - "Tweede zin — evaluatie kent TWEE criteria + DRIE ernst-niveaus. Criteria: (a) DESIGN EFFECTIVENESS — is de controle THEORETISCH geschikt om het risico af te dekken (getoetst via WALKTHROUGH — één transactie); (b) OPERATING EFFECTIVENESS — werkt de controle in de PRAKTIJK over de periode (getoetst via TEST OF CONTROLS — steekproef). Ernst-niveaus (ISA 265): (1) DEFICIENCY (gewone tekortkoming); (2) SIGNIFICANT DEFICIENCY (belangrijk genoeg om aan bestuur te communiceren); (3) MATERIAL WEAKNESS (groot genoeg om financiële rapportering te bedreigen)."
+    - "Derde zin — de RAPPORTERING gaat via een MANAGEMENTLETTER (ISA 265 — verplicht voor significant deficiencies en material weaknesses). De stagiair-IC-adviseur (of opvolger als interne functie) vertaalt deze tekortkomingen naar SMART-aanbevelingen — Specifiek · Meetbaar · Acceptabel · Realistisch · Tijd-gebonden — met verantwoordelijke, prioriteit en deadline. Eindpunt: management volgt op + bestuur reviewt."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Wie evalueert?", "Doel", "Output", "Frequentie"]
+      rijen:
+        - ["**Management zelf**", "Continue monitoring (COSO-comp 5)", "Maandrapport · KPI-dashboard", "Continu"]
+        - ["**Interne audit (3e lijn)**", "Onafhankelijke beoordeling 1e + 2e lijn", "Auditrapport · advies aan auditcomité", "Per cyclus 1×/jaar of meer"]
+        - ["**Externe auditor**", "Basis voor risico-inschatting + steun op IC", "Managementletter (ISA 265) · controleverslag", "Jaarlijks bij audit"]
+  afsluiter: "We werken in vier stappen: eerst de interne audit als 3e lijn (charter + plan + technieken), dan auditcomité (alleen voor genoteerde + OOB), dan evaluatie-mechaniek (design vs operating + 3 ernst-niveaus), tot slot managementletter + SMART-aanbevelingen met de Bracke-Marc-Vlaeminck-mock als rode draad."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: interne-audit-functie
+    titel: "Interne audit — de 3e lijn"
+    niveau: 2
+    beats:
+      - "Open met de positionering uit L1: het 3-Lines-model verdeelt IC-verantwoordelijkheid over operationeel management (1e lijn), risk + compliance (2e lijn), en INTERNE AUDIT als ONAFHANKELIJKE 3E LIJN. Interne audit is GEEN tweede uitvoerder van controles — het is een KRITISCHE BEOORDELAAR van wat 1e + 2e lijn doen."
+      - "Werk WANNEER interne audit VERPLICHT is. Belgisch wettelijk kader: alleen voor BEURSGENOTEERDE vennootschappen, KREDIETINSTELLINGEN (Nationale Bank-vereiste), VERZEKERAARS (FSMA-vereiste), en OOB (Organisaties van Openbaar Belang — financiële + nuts). Voor 'gewone' grote ondernemingen niet wettelijk verplicht, maar VAAK aanwezig als governance-keuze. KMO's zoals Bracke: te klein voor 3e-lijn-functie — compensatie via vrijwillige externe review (Bracke's confrater-accountant Marc Vlaeminck)."
+      - "Werk de KERN-ELEMENTEN uit. (1) ONAFHANKELIJKHEID — interne auditor is werknemer van de onderneming MAAR rapporteert NIET aan operationeel management dat hij controleert. Hij rapporteert aan AUDITCOMITÉ of bestuursorgaan rechtstreeks. (2) AUDIT CHARTER — formeel document goedgekeurd door bestuur dat MANDAAT + AUTORITEIT + VERANTWOORDELIJKHEID + ONAFHANKELIJKHEID vastlegt. Bevat: scope (alle activiteiten, inclusief dochters), toegangsrechten (onbeperkte toegang tot data + personen), rapporteringslijn, budgetautonomie. (3) RISK-BASED AUDITPLAN — jaarlijks of meerjarig plan op basis van risico-inschatting van alle business-units. Hoge risico's = jaarlijks; lage risico's = elke 3-5 jaar. Goedgekeurd door auditcomité. (4) IIA-STANDARDS — internationale standaarden van het Institute of Internal Auditors als referentiekader."
+      - "Werk de TECHNIEKEN uit — direct toepasbaar op het examen. Klassieke ISA 500 §A14-A25 zeven controletechnieken: (1) INSPECTIE — documenten/activa fysiek nazien; (2) OBSERVATIE — proces gadeslaan terwijl het wordt uitgevoerd; (3) EXTERNE BEVESTIGING — derde-partij bevestigt (saldobevestiging klanten · leveranciers · banken); (4) HERBEREKENING — wiskundige juistheid van een berekening; (5) HERRREKENING (re-performance) — controle zelf opnieuw uitvoeren; (6) NAVRAAG (inquiry) — vraag aan persoon; laagste zekerheids-niveau; (7) ANALYTISCHE REVIEW — cijfer-analyse via ratio's, trends, plausibiliteits-checks."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `drie_rollen_bracke.interne_auditor`). 'Niet aanwezig (Bracke te klein voor 3e-lijn-functie)' + compensatie via vrijwillige periodieke review door externe accountant Marc Vlaeminck — 'verlengde 2e lijn'. Hypothetische toepassing op een fictieve grote-Bracke (200 vte, 5 vestigingen): risk-based plan zou aankoop + verkoop jaarlijks, voorraad elke 2 jaar, IT-controle elke 2 jaar, lonen elke 3 jaar."
+      - "Examen-haak: vragen over 'welke controletechnieken kan de interne controleur op X toepassen' (klassieker voor magazijn + voor leveranciers-saldo). Antwoord-formule: noem 4 technieken uit de zeven, koppel ze concreet aan het object (bv. voor magazijn: fysieke inspectie + bijwoning telling + waarneming proces + aansluiting fysiek-administratie + cut-off-test). Voor leveranciers: externe bevestiging + inspectie facturen + herberekening saldo + analytische review DPO-evolutie."
+
+  - id: auditcomite
+    titel: "Auditcomité — governance-orgaan (genoteerd + OOB)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het auditcomité is een GESPECIALISEERD RAADCOMITÉ binnen het bestuursorgaan, samengesteld uit NIET-UITVOERENDE bestuurders waarvan minstens één ONAFHANKELIJK en met EXPERTISE in financiële verslaggeving en/of audit. WVV art. 7:99 maakt het verplicht voor BEURSGENOTEERDE vennootschappen en OOB. NIET voor 'gewone' grote of middelgrote vennootschappen."
+      - "Werk de OPDRACHT uit. Het auditcomité is VOORBEREIDEND + ADVISEREND voor de raad van bestuur — geen vervanging. Het monitort: (a) het FINANCIËLE VERSLAGGEVINGSPROCES (jaarrekening + tussentijdse cijfers); (b) de INTERNE BEHEERSING + risicomanagement; (c) de WETTELIJKE CONTROLE door de commissaris; (d) de INTERNE AUDIT-functie."
+      - "Werk de 5 WETTELIJKE TAKEN uit (WVV art. 7:87 + 7:106 — vermeld via concept-record auditcomite, ⚠️ te verifiëren via wetstekst). (1) Raad van bestuur INLICHTEN over resultaat wettelijke controle + integriteit financiële verslaglegging. (2) MONITORING financiële verslaggevingsproces + aanbevelingen integriteit. (3) MONITORING doeltreffendheid IC + risk management + interne audit. (4) MONITORING wettelijke controle (commissaris). (5) BEOORDELEN onafhankelijkheid commissaris + aanvullende niet-controle-diensten."
+      - "Werk de SAMENSTELLING uit: niet-uitvoerende leden van de raad van bestuur; ten minste één ONAFHANKELIJK + financiële expertise (WVV art. 7:99 + 7:87 §3). Doel: voorkomen dat het comité bemand wordt door bestuurders die zelf de gerapporteerde cijfers maken."
+      - "Werk de PRAKTIJK uit: komt 3-6× per jaar samen; agenda typisch: jaarrekening vóór goedkeuring door RvB, tussentijdse cijfers (kwartaal of halfjaar), bevindingen + managementletter van commissaris, plan + rapportering interne audit, dossier benoeming + vergoeding commissaris."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `wettelijke_context.geen_auditcomité`): 'Vereist enkel voor genoteerde + OOB (WVV art. 7:99) — niet voor Bracke'. Bracke heeft GEEN auditcomité — de zaakvoerders (Pieter + Sofie) zijn samen het de-facto-bestuur en de-facto-audit-functie. Voor de stagiair: als je adviseert aan een KMO, vermeld auditcomité ALS BEST PRACTICE voor toekomstige groei, niet als wettelijke vereiste."
+      - "Verwijs door: [[auditcomite]] voor definitorisch detail en uitwerking 5 wettelijke taken."
+    type: blockquote-aside
+
+  - id: evaluatie-mechaniek
+    titel: "Evaluatie van IC — design vs operating effectiveness"
+    niveau: 2
+    beats:
+      - "Open met de kern: het evalueren van een IC-systeem volgt TWEE CRITERIA in volgorde — eerst DESIGN, dan OPERATING. Geen design = geen reden om operating te toetsen (de controle KAN het beoogde risico niet afdekken, zelfs als ze perfect wordt uitgevoerd). Volg de zin: 'is de controle THEORETISCH geschikt? Zo ja, werkt ze in de PRAKTIJK?'."
+      - "Werk DESIGN EFFECTIVENESS uit. Definitie: toetst of een controle, INDIEN CORRECT UITGEVOERD, het beoogde risico zou afdekken. Methode: typisch via INQUIRY (navraag) + OBSERVATIE + WALKTHROUGH (volg één transactie van begin tot eind). Een controle kan DESIGN-INEFFECTIEF zijn als: (a) de procedure niet adresseert wat ze zegt te doen ('goedkeuring' zonder echte inhoudelijke beoordeling); (b) er een functiescheidings-zwakte in de design zelf zit (Z1 — Eline kon legitiem leverancier aanmaken + factuur boeken + betaling). Bracke: Z1-tot-Z14 zijn DESIGN-zwaktes. De fraude-controle (3-way match) was design-effectief, maar de leveranciers-master-controle was design-ineffectief."
+      - "Werk OPERATING EFFECTIVENESS uit. Definitie: toetst of een als design-effectief beoordeelde controle ook in de PRAKTIJK wordt uitgevoerd OVER DE HELE relevante periode. Methode: TEST OF CONTROLS op STEEKPROEF van transacties. Bij geautomatiseerde controles (Odoo 3-way match) volstaat vaak een KLEINERE STEEKPROEF (mits gekoppeld aan ITGC); bij handmatige controles is een GROTERE steekproef nodig + spreiding over de periode. Bracke: zelfs als de maandelijkse kascontrole DESIGN-effectief is, was ze OPERATING-INEFFECTIEF in 2025 (laatste 8 maanden niet uitgevoerd — Z10)."
+      - "Werk de DRIE WERKZAAMHEDEN uit in OPLOPENDE zekerheid: (a) INQUIRY — vraag aan uitvoerder hoe hij de controle doet (laagste zekerheid; alleen design-indicatie); (b) WALKTHROUGH — volg één concrete transactie door de cyclus (middel; design-effectiveness); (c) TEST OF CONTROLS — steekproef + her-uitvoering of inspectie van bewijs (hoogste; operating-effectiveness)."
+      - "Verwijs door: [[evaluatie-interne-controle]] voor definitorisch detail."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Criterium", "Methode", "Zekerheidsniveau", "Bracke-illustratie"]
+        rijen:
+          - ["**Design effectiveness**", "Inquiry + observatie + WALKTHROUGH (1 transactie)", "Middel — design-vraag", "Z1-Z14 zwaktes = design-falen leveranciers-master-controle"]
+          - ["**Operating effectiveness**", "TEST OF CONTROLS (steekproef over periode)", "Hoog — operating-vraag", "Z10 = design OK (maandelijkse kascontrole) maar 8 mnd niet uitgevoerd"]
+
+  - id: drie-ernst-niveaus
+    titel: "Drie ernst-niveaus — deficiency · significant deficiency · material weakness"
+    niveau: 2
+    beats:
+      - "Open met de stelling: niet elke tekortkoming krijgt dezelfde communicatie-aandacht. ISA 265 onderscheidt DRIE ERNST-NIVEAUS — en alleen de twee zwaardere worden formeel aan bestuur gecommuniceerd."
+      - "Werk de DRIE niveaus uit. (1) DEFICIENCY (gewone tekortkoming) — een controle die de fout of fraude in haar normale werkkring niet voorkomt of detecteert. Niet noodzakelijk te communiceren aan bestuur — kan informeel met management besproken worden. (2) SIGNIFICANT DEFICIENCY (significante tekortkoming) — een deficiency of combinatie van deficiencies die BELANGRIJK GENOEG is om aan de met governance belaste personen te WORDEN gecommuniceerd. Beoordeling op basis van waarschijnlijkheid van afwijking + omvang. (3) MATERIAL WEAKNESS (materiële zwakte) — een deficiency of combinatie die een REDELIJKE MOGELIJKHEID inhoudt dat een afwijking van MATERIEEL belang in de financiële overzichten niet tijdig wordt voorkomen of gedetecteerd. ZWAARSTE — verplicht communiceren + impact op auditverklaring."
+      - "Werk de BEOORDELINGS-FACTOREN uit (ISA 265 §A5-A11): (a) waarschijnlijkheid dat de tekortkoming leidt tot een afwijking — hoog = ernstiger; (b) potentiële OMVANG — hoog = ernstiger; (c) BLOOTSTELLING (welke transacties); (d) AANTAL DEFICIENCIES dat optreedt in zelfde gebied (cluster-effect); (e) INTERACTIE met andere deficiencies."
+      - "Concretiseer met Bracke managementletter (uit voorbeeldgroep — `managementletter.bevindingen`). B1 = SIGNIFICANT DEFICIENCY — onvoldoende functiescheiding boekhouding leveranciers (Z1) — koppeling met materiële Bart-fraude (47.300 EUR realiteit). B2 = SIGNIFICANT DEFICIENCY — drempels niet up-to-date (Z2+Z3) — combinatie van twee deficiencies wordt significant. B3 = DEFICIENCY — voorraad-beheer Davy combineert bewaring + registratie. B4 = DEFICIENCY — kasprocedure formeel maandelijks maar niet uitgevoerd. Drie geconcretiseerde gradaties — twee gecommuniceerd, twee optioneel."
+      - "Werk de communicatie-vorm uit. Significant deficiency + material weakness ⇒ FORMEEL SCHRIFTELIJK in MANAGEMENTLETTER (zie volgende sectie). Tijdig — niet pas bij eindverslag. Deficiency ⇒ informeel mondeling of in opvolg-document, optie bestuur."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Ernst-niveau", "Definitie", "Bestuur communiceren?", "Bracke-bevinding"]
+        rijen:
+          - ["**1. Deficiency**", "Controle voorkomt/detecteert fout niet in normale werking", "Niet noodzakelijk; informeel", "B3 voorraad-beheer · B4 kascontrole"]
+          - ["**2. Significant deficiency**", "Belangrijk genoeg om bestuur te informeren", "**JA — verplicht via ML**", "B1 leveranciers-functiescheiding · B2 drempels"]
+          - ["**3. Material weakness**", "Redelijke mogelijkheid materiële afwijking JR", "**JA — verplicht + auditverklaring-impact**", "Niet aanwezig bij Bracke (Bart-incident reeds afgesloten)"]
+
+  - id: managementletter
+    titel: "De managementletter — ISA 265-communicatie"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de managementletter (vaak ook 'aanbevelingsbrief' of 'long form report' genoemd) is het FORMELE SCHRIFTELIJKE KANAAL waarlangs de auditor (extern of intern) tekortkomingen in IC communiceert aan management + bestuur. ISA 265 maakt deze communicatie VERPLICHT voor significant deficiencies en material weaknesses."
+      - "Werk de STRUCTUUR uit. Een managementletter bevat typisch: (a) OPDRACHT + SCOPE — welke opdracht (commissaris jaarcontrole · vrijwillige IC-beoordeling · interne audit-opdracht) + welke cycli/periodes onderzocht. (b) BEPERKINGEN — wat NIET in scope (bv. geen operating-effectiveness-test); voorkomt overinterpretatie. (c) BEVINDINGEN — per IC-tekortkoming: omschrijving + ERNST-niveau + KOPPELING met cyclus-zwakte + impact + voorstel-aanbeveling. (d) NIET-BEVONDEN-MAAR-TE-OVERWEGEN — verbeter-suggesties die geen formele bevinding zijn (governance, GDPR, AML, onboarding-protocol)."
+      - "Werk de DOELGROEP uit: 'aan de met governance belaste personen' (ISA 265-formule) — bij Bracke = de zaakvoerders Pieter + Sofie. Bij grote vennootschap = bestuursorgaan + auditcomité. Niet bedoeld voor extern publiek (≠ controleverklaring)."
+      - "Concretiseer met Bracke managementletter (uit voorbeeldgroep — `managementletter` VOLLEDIG). Opdracht: vrijwillige IC-beoordelingsopdracht door confrater-accountant Marc Vlaeminck na Bart-incident. Scope: opzet (design) + bestaan IC op 4 hoofdcycli. Beperking: geen operating-effectiveness-test. 4 bevindingen (B1-B4) geclassificeerd in 2 significant + 2 deficiency. Plus 3 NIET-BEVONDEN-MAAR-TE-OVERWEGEN-punten (AMLCO, DPO, onboarding/offboarding)."
+      - "Examen-haak (zonder jaar-citaat): vragen over 'interpreteren managementletter' of 'formuleren aanbevelingen' zijn examen-doel 1.7.taak.1.doel.5 en doel.6. Antwoord-formule: (a) lees ELKE bevinding op ernst-niveau (significant vs deficiency); (b) koppel terug naar cyclus-zwakte; (c) formuleer aanbeveling in SMART-formaat (zie volgende sectie)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Bevinding", "Ernst", "Cyclus-zwakte", "Voorstel-aanbeveling"]
+        rijen:
+          - ["**B1** Functiescheiding boekhouding leveranciers", "**Significant**", "Z1 — Eline simultane rechten", "Splits Odoo-rollen + 2 personen voor betaalbatch + nieuwe-leverancier-validatie door Pieter"]
+          - ["**B2** Drempels niet afgestemd op huidige schaal", "**Significant**", "Z2 + Z3", "Verlaag drempel bestelling naar 2.500 EUR + 2e handtekening naar 5.000 EUR + periodieke spend-analyse"]
+          - ["**B3** Voorraad-beheer Davy combineert bewaring + registratie", "**Deficiency**", "Z7 + Z9", "2e telpartner per telling + kwartaal-cycli A-categorie door Nora"]
+          - ["**B4** Kascontrole formeel maar niet uitgevoerd", "**Deficiency**", "Z10 + Z11", "Maandelijkse kascontrole formaliseren door Sofie of Nora (rotatie) + proces-verbaal"]
+
+  - id: smart-aanbevelingen
+    titel: "SMART-aanbevelingen — van bevinding naar actie"
+    niveau: 2
+    beats:
+      - "Open met de stelling: een bevinding zonder aanbeveling is een diagnose zonder behandeling. Een aanbeveling zonder structuur is een wens zonder uitvoering. SMART-format zet de aanbeveling om in iets dat MEN KAN OPVOLGEN."
+      - "Werk SMART uit. (S) SPECIFIEK — concreet wat, geen 'verbeter het IC-systeem'. (M) MEETBAAR — hoe weet je dat het is gebeurd? (drempel verlaagd? Odoo-rol gesplitst?). (A) ACCEPTABEL — door wie? Inkoop en boekhouding moeten beide kunnen leven met het voorstel. (R) REALISTISCH — proportioneel met bedrijfsschaal; geen 5-koppige auditfunctie voor Bracke. (T) TIJD-GEBONDEN — deadline + tussenmijlpalen."
+      - "Werk extra ELEMENTEN uit die elke goede aanbeveling toevoegt: (a) VERANTWOORDELIJKE — wie 'owns' de actie? (Pieter · Sofie · Eline · extern). (b) PRIORITEIT — kritisch / hoog / middel / laag. (c) RISICO ADRESSED — welke cyclus-zwakte/Z-nummer wordt gemitigeerd. (d) IMPACT-ESTIMATIE — wat verandert er in EUR/risico-reductie?"
+      - "Concretiseer met Bracke B1 in SMART-formaat. SPECIFIEK: 'Splits Odoo-rol Eline in (a) boekhouding-admin (lees + boek), (b) AP-validator (factuur-validatie), (c) Isabel-batch-aanmaker. Geef admin-rechten leveranciers-master uitsluitend aan Pieter + Sofie.' MEETBAAR: 'Verificatie via Odoo access-rapport per kwartaal — Eline mag geen leveranciers-master-edit-recht hebben.' ACCEPTABEL: 'Doorgesproken met Eline + Pieter — werkbaar mits Pieter dagelijks 10 min voor leverancier-validatie reserveert.' REALISTISCH: 'Odoo-rol-herinrichting is 1 dagje werk voor IT-consultant.' TIJD-GEBONDEN: 'Uitvoering Q1 2026 — uiterlijk 31 maart 2026. Eerste opvolging Pieter na 3 maanden.' VERANTWOORDELIJKE: Pieter. PRIORITEIT: KRITISCH (directe trigger Bart-fraude). RISICO ADRESSED: Z1. IMPACT-ESTIMATIE: voorkomt herhaling fraude-vector (47.300 EUR realiteit)."
+      - "Werk de OPVOLG-CYCLUS uit. Aanbevelingen worden niet eenmalig overgemaakt — ze worden OPGEVOLGD. Stap 1: bestuur geeft fiat (geheel · gedeeltelijk · niet — met motivering). Stap 2: management implementeert. Stap 3: opvolg-review na X maanden (interne audit of externe accountant). Stap 4: status-rapport aan bestuur (gerealiseerd · in uitvoering · niet uitgevoerd — waarom). Een aanbeveling die 2 jaar later nog 'in uitvoering' staat is een rode vlag."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["SMART-letter", "Wat houdt ze in?", "Bracke B1-voorbeeld"]
+        rijen:
+          - ["**S — Specifiek**", "Concreet wat — geen 'verbeter IC'", "Splits Odoo-rol Eline in 3 + admin leveranciers-master enkel Pieter/Sofie"]
+          - ["**M — Meetbaar**", "Hoe weet je dat het is gebeurd?", "Verificatie via Odoo access-rapport per kwartaal"]
+          - ["**A — Acceptabel**", "Door wie? Werkbaar?", "Doorgesproken met Eline + Pieter; werkbaar"]
+          - ["**R — Realistisch**", "Proportioneel met schaal?", "1 dagje IT-consultant; geen nieuwe staf"]
+          - ["**T — Tijd-gebonden**", "Deadline + mijlpaal", "Uiterlijk 31 maart 2026; opvolging na 3 mnd"]
+
+  - id: auditrisico-model
+    titel: "Auditrisico-model — inherent · controle · ontdekking (info-box)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: het AUDITRISICO-model is een EXTERNE AUDITOR-concept (PO 1.6) — maar relevant voor de IC-adviseur omdat het verklaart HOE de externe auditor zijn werk plant. Drie risico-componenten met multiplicatieve relatie."
+      - "Werk de drie componenten uit. (1) INHERENT RISICO (IR) — risico op afwijking BINNEN het soort transactie/saldo, ZONDER REKENING TE HOUDEN MET CONTROLES. Bv. kasverkopen hebben hoger inherent risico dan vaste activa-afschrijving. (2) CONTROLE-RISICO (CR) — risico dat een afwijking NIET VOORKOMEN/DETECTEERD wordt door de IC. Hoog bij Bracke pre-incident (Z1). Lager bij goed IC-systeem. (3) ONTDEKKINGSRISICO (DR) — risico dat de externe auditor de afwijking NIET ONTDEKT met zijn werkzaamheden. Onder controle van de auditor (omvang steekproef, methode)."
+      - "Werk de formule uit: AUDITRISICO = IR × CR × DR. Bij gegeven IR + CR moet de auditor zijn DR aanpassen om gewenst audit-risico te halen (typisch 5 %). Hoog CR (zwakke IC) ⇒ DR moet LAAG zijn ⇒ MEER substantive werk door auditor. Lage CR (sterke IC) ⇒ DR mag HOGER ⇒ MINDER substantive werk. Daarom test de externe auditor de IC — om te zien of hij erop kan steunen."
+      - "Implicatie voor IC-adviseur: door betere IC verlaagt management het CONTROLE-RISICO ⇒ externe auditor kan met minder werk uit (lagere honoraria) + minder verstoring + meer focus op echte risico's. Win-win."
+      - "Verwijs door: dieper auditrisico-perspectief in [[1.6]] PO Externe controle."
+    type: blockquote-aside
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): interne audit en externe audit door elkaar gebruiken. FOUT. Interne audit = ONDERDEEL van organisatie (werknemer, rapport aan bestuur intern). Externe audit = ONAFHANKELIJKE derde (commissaris, rapport aan AvA + bestuur). Verschillende mandaten, verschillende normen (IIA-standards vs ISA), verschillende verslagen. Verwar nooit."
+      - "Valkuil 2 (⚠️): design en operating effectiveness verwarren. FOUT. Design = THEORETISCH geschikt (één walkthrough). Operating = WERKT IN PRAKTIJK over periode (test of controls steekproef). Wie ze verwart denkt dat één walkthrough volstaat voor een audit — fout. ISA 330 vereist test of controls voor operating-zekerheid."
+      - "Valkuil 3 (⚠️): elke deficiency als significant rapporteren. FOUT. ISA 265 maakt onderscheid op basis van WAARSCHIJNLIJKHEID + OMVANG. Gewone deficiency hoort niet zwaar in managementletter — verstroomt het signaal. Bewaar het 'significant'-label voor wat het bestuur echt MOET weten. Bracke B1+B2 = significant; B3+B4 = deficiency (optioneel)."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, sluit het PO af met:"
+  leerstukken:
+    - slug: wat-is-interne-controle-en-coso
+      hint: "Voor het COSO-kader + 3 Lines + redelijke zekerheid — het fundament waarop dit evaluatie-luik bouwt."
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "Voor de cycli die HIER geëvalueerd werden — design-effectiveness van Z1-Z14 zwaktes."
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "Voor de taxonomieën waarmee de bevindingen geclassificeerd worden — preventief/detectief, 4-categorieën."
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "Voor de fraude-context (Bart-incident → managementletter → SMART-aanbevelingen)."
+  samenvatting:
+    hint: "Voor herhaling — interne audit (charter + plan + 7 technieken) + auditcomité (genoteerd + OOB) + evaluatie design/operating + 3 ernst-niveaus + SMART-aanbevelingen."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [interne-audit, auditcomite, evaluatie-interne-controle]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Communiceren tekortkomingen interne beheersing"
+    ref: "ISA 265 — Het communiceren van tekortkomingen in de interne beheersing aan de met governance belaste personen en het management"
+    noot: "Onderscheid 3 ernst-niveaus; significant deficiency + material weakness verplicht schriftelijk communiceren."
+  - onderwerp: "Inspelen door auditor op ingeschatte risico's — test of controls"
+    ref: "ISA 330 — Inspelen door de auditor op ingeschatte risico's"
+    noot: "Operating-effectiveness wordt getoetst via test of controls op steekproef over periode; volstaat NIET op basis van enkel inquiry."
+  - onderwerp: "Gebruikmaken van werkzaamheden interne auditors"
+    ref: "ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors"
+    noot: "Externe auditor kan deels steunen op interne audit mits onafhankelijkheid + competentie + werkmethode-evaluatie."
+  - onderwerp: "Auditor-verantwoordelijkheid fraude"
+    ref: "ISA 240 — fraude"
+    noot: "Auditor moet specifiek frauderisico inschatten + speciaal aandacht voor management override."
+  - onderwerp: "Controletechnieken — zeven generieke"
+    ref: "ISA 500 §A14-A25"
+    noot: "Inspectie · waarneming · externe bevestiging · herberekening · herrekening · navraag · cijferanalyse — kern-arsenaal interne én externe auditor."
+  - onderwerp: "Auditcomité — wettelijke vereisten"
+    ref: "⚠️ te verifiëren — concept-record `auditcomite` verwijst naar WVV art. 7:87 + 7:99 + 7:106 (genoteerd + OOB)"
+    noot: "Auditcomité verplicht voor genoteerde + OOB; samenstelling niet-uitvoerend + min 1 onafhankelijk + financiële expertise; 5 wettelijke taken."
+  - onderwerp: "Interne audit als 3e-lijn-functie"
+    ref: "IIA Professional Practices Framework — internationale doctrine"
+    noot: "Geen Belgische wettekst voor 'gewone' grote ondernemingen; wel verplicht voor kredietinstellingen (NBB) + verzekeraars (FSMA) + genoteerde."
+  - onderwerp: "ITAA-norm — toetsing IC en review-rapportering"
+    ref: "ITAA-norm KMO-controlenorm — §97-98 toetsingen + Bijlage 3 (modelverslag)"
+    noot: "Operationele uitwerking ISA 315 + ISA 330 + ISA 265 voor Belgische KMO-context."
+
+footer: "Leerstuk PO 1.7 — proces afsluitend (5 van 5). Sluit het PO af; cross-verwijzing naar [[1.6]] Externe controle."

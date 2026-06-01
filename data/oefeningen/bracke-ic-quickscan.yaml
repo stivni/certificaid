@@ -1,0 +1,214 @@
+# Oefening-script — Bracke IC-quickscan (PO 1.7)
+#
+# Scoped IC-quickscan op de Bracke-installatie-case. Vijf onafhankelijke
+# deelvragen die elk een ander leerstuk activeren — gemodelleerd naar de
+# Vermeulen-aanpak (vijf scoped vragen, geen één doorlopende case).
+#
+# Vignetten uit data/voorbeeldgroepen/bracke-instal.yaml.
+
+meta:
+  slug: bracke-ic-quickscan
+  titel: "Oefening: Bracke — IC-quickscan in vijf stappen"
+  po: "1.7"
+  cluster: interne-controle
+  beschrijving: >
+    IC-quickscan op de Bracke-installatie-case. Vijf onafhankelijke vragen die
+    samen alle vijf leerstukken activeren: aankoop-cyclus-zwaktes detecteren,
+    acht activiteiten classificeren in de 4-categorieën-typologie, drie
+    risico's identificeren bij de klantenfiches-procedure, de Bart-fraude-case
+    analyseren via de fraudedriehoek, en voor één managementletter-bevinding
+    een SMART-aanbeveling formuleren. Modelantwoord per stap in `<details>`-blokken.
+  studietijd: "60-75 min"
+  niveau: scoped
+
+intro:
+  callout_beat: >
+    IC-quickscan-oefening. Aankondigen: vijf onafhankelijke vragen op de
+    Bracke-installatie-case — elke vraag activeert één van de vijf leerstukken
+    van PO 1.7. Expliciete vermelding: "doe eerst zelf, klap de uitwerking pas
+    open als je vastloopt of klaar bent". Motivatie: het examen test bijna
+    altijd herkenning + classificatie in een concrete bedrijfssituatie — niet
+    abstracte theorie. Wie deze vijf vragen kan lopen, dekt het examen-patroon
+    af. Werkwijze: lees eerst de Bracke-context hieronder, werk dan stap 1
+    t/m 5 één voor één. Plan 60-75 min — stap 1 en 4 vragen meer schrijfwerk
+    (analyse + onderbouwing); stap 2 is een snelle classificatie-tabel; stap 3
+    is een korte risico-opsomming; stap 5 vraagt SMART-discipline.
+
+opgave:
+
+  scenario_beats:
+    - "Bracke Installatie BV is een Belgische middelgrote installateur (HVAC + sanitair + elektriciteit), gevestigd in Aalst — 32 medewerkers, omzet 6,8 mln EUR, balanstotaal 4,2 mln EUR, geen commissaris (onder drempel art. 3:72 WVV). Pieter Bracke (zaakvoerder, 50 % aandelen) en Sofie Vermeulen (co-zaakvoerder, 50 %) leiden het kantoor; Eline Janssens is hoofdboekhouder (10 jaar anciënniteit, breed Odoo-mandaat); Karim Boutaleb doet projectadministratie en verkoop-facturatie; Nora De Cock combineert receptie en aankoop-coördinatie; Davy beheert het magazijn (sleutel én Odoo-rechten); drie werfleiders (Marc · Bart — ondertussen ontslagen — · Jens) sturen elk een team van 8 monteurs."
+    - "Eind 2025 ontdekte Eline een systematisch lek bij aankopen: werfleider Bart Devlieger had 14 maanden lang fictieve materiaal-aankopen via een gefingeerde leverancier (op naam van zijn schoonbroer's BV) doorgesluisd voor in totaal 47.300 EUR. Bart is ontslagen, strafklacht loopt, schoonbroer-BV inmiddels in vereffening. Het incident heeft Pieter doen besluiten een vrijwillige IC-beoordelingsopdracht uit te besteden aan confrater-accountant Marc Vlaeminck — een mock-managementletter met vier bevindingen ligt nu op tafel."
+    - "Jij krijgt vandaag de oefenrol van een stagiair die voor confrater-accountant Vlaeminck mag meewerken aan de IC-quickscan. Vijf onafhankelijke deelvragen — elk activeert één leerstuk uit PO 1.7. Lees eerst de Bracke-context hieronder, werk dan elke stap één voor één uit, en open de modeluitwerking pas nadat je je eigen antwoord hebt opgeschreven."
+
+  bedrijfsprofiel_recap:
+    beat: "Eén-tabel-recap voor wie de Bracke-context niet vers heeft: middelgrote KMO · Odoo 17 ERP + TimeSquare-tijdregistratie + Isabel-6-bank · drempel goedkeuring bestelling 5.000 EUR + drempel 2e handtekening betaling 10.000 EUR (drempels dateren van 2018, bedrijfsschaal sindsdien verdubbeld) · Eline heeft simultane rechten op leveranciers-master + factuur-boeking + betaalbatch · Karim maakt klantenfiches aan zodra eerste bestelbon binnenkomt (zonder kredietacceptatie-functie) · Davy combineert bewaring + registratie van voorraad zonder onafhankelijke controle · maandelijkse kascontrole laatste 8 maanden niet uitgevoerd · loonadministratie uitbesteed aan SD Worx."
+
+# ---------------------------------------------------------------------------
+# STAPPEN — vijf onafhankelijke deelvragen
+# ---------------------------------------------------------------------------
+
+stappen:
+
+  - id: stap-1-aankoop-cyclus
+    titel: "Stap 1 — Aankoop-cyclus: identificeer drie functiescheidings-zwaktes"
+    instructie_beats:
+      - "Beschouw de aankoop-cyclus van Bracke zoals beschreven in de opgave (werfleider → bestelaanvraag → bestelling Nora of Pieter-goedkeuring boven 5.000 → levering bij werf of magazijn → factuur-binnenkomst Eline → 3-way match → betaalbatch Eline → 2e handtekening Sofie of Pieter boven 10.000 → uitvoering Isabel 6)."
+      - "Identificeer **drie functiescheidings-zwaktes** in deze cyclus. Voor elke zwakte: beschrijf de zwakte zelf, koppel ze aan de toepasselijke ACR-IH-functie (of 4-categorieën-typologie), en benoem het concrete bedrijfsrisico dat eruit volgt."
+      - "Hint die je *niet* mag gebruiken voor je eigen antwoord (alleen voor zelf-correctie): de drie zwaktes spelen ook een rol in de Bart-fraude-case van stap 4."
+    uitwerking_beats:
+      - "Drie zwaktes — elk geformuleerd als (i) wat is er fout, (ii) welke ACR-IH-functie wordt overschreden, (iii) welk risico volgt."
+      - "Zwakte 1: Eline combineert beheer van leveranciers-master + factuur-boeking + aanmaak betaalbatch in één persoon. ACR-IH-overtreding: zij combineert Registreren (boeking) met aspecten van Beschikken (leveranciers-master toevoegen = autorisatie nieuwe tegenpartij) en Uitvoeren (betaalbatch klaarzetten). Risico: Eline (of iemand met haar paswoord) kan nieuwe leverancier aanmaken, factuur boeken en betaling klaarzetten zonder dat een tweede persoon iets ziet — klassiek frauderisico, exact wat ISA 315 herzien-2019 §A157 als preventieve maatregel beoogt te blokkeren."
+      - "Zwakte 2: drempel voor 2e handtekening op betalingen ligt op 10.000 EUR. Bij gemiddelde projectkost van 25k B2B valt het overgrote deel van materiaalfacturen onder die drempel — Eline geeft die zelf vrij. ACR-IH-overtreding: bewaring (uitvoering betaling via Isabel) zonder onafhankelijke controle. Risico: meerderheid van betalingen passeert zonder vier-ogen-controle. De Bart-fraude bewees dit risico: alle 12 valse facturen vielen onder de drempel."
+      - "Zwakte 3: werfleider keurt zelf bestellingen onder 5.000 EUR goed — geen onafhankelijke prijscheck of leveranciers-validatie door Nora. ACR-IH-overtreding: dezelfde persoon initieert én autoriseert (Beschikken). Risico: werfleider kan systematisch dezelfde leverancier kiezen op basis van privé-relatie of kickback. Eveneens bewezen door Bart-case."
+      - "Eventuele bonus-observatie voor wie verder ziet: leveringen bij de werf (i.p.v. magazijn) worden door de werfleider zelf bevestigd — geen onafhankelijke ontvangst-controle door Davy. Vierde zwakte (Bewaring ↔ Uitvoeren) die de 3-way match formeel laat sluiten op een ontvangstbewijs dat niemand verifieert."
+    uitwerking_visualisaties:
+      - type: mermaid
+        ref: cycli.aankoop.flow_mermaid
+    valkuil_beat: >
+      Verleiding tot 'algemene' antwoorden ("Eline heeft te veel macht") zonder
+      concrete ACR-IH-functie te benoemen. Het examen waardeert juist het
+      koppelen van een zwakte aan de specifieke functie die geschonden wordt.
+      Tweede valkuil: niet vergeten dat de 4-categorieën-typologie (1 Aut · 2 Bew
+      · 3 Reg · 4 Contr) een legitieme alternatieve taxonomie is — beide tellen
+      voor het examen.
+
+  - id: stap-2-classificatie
+    titel: "Stap 2 — Acht activiteiten classificeren in de 4-categorieën-typologie"
+    instructie_beats:
+      - "De ITAA-doctrine deelt taken in een aankoop-cyclus in vier onverenigbare categorieën: 1 Autorisatie · 2 Bewaring van activa · 3 Registratie en rapportering · 4 Controleprocedures."
+      - "Duid voor elke van de acht activiteiten hieronder aan welke categorie van toepassing is. Bij twijfel: kies één primaire categorie en motiveer kort waarom."
+      - "Tip: vraag jezelf telkens 'wat doet deze persoon ten opzichte van de transactie?' — beslist hij dat ze mag (autorisatie), bewaakt hij het actief (bewaring), boekt hij iets (registratie), of toetst hij of een vorige stap correct verliep (controle)?"
+    uitwerking_beats:
+      - "Tabel met acht rijen — Bracke-specifieke activiteiten + correcte categorie + één-zin-motivering per rij. Gegevens uit voorbeeldgroep.classificatie_8_activiteiten."
+      - "Patroon dat opvalt: master-data-onderhoud (nieuwe leverancier aanmaken) valt onder autorisatie — niet onder registratie, ook al gebeurt het in het ERP. Reden: het bepaalt welke tegenpartijen überhaupt mogen worden betaald, een poortwachters-taak."
+      - "Tweede patroon: aanmaak van een betaalbatch is registratie (selectie van te betalen facturen), maar de uitvoering van de betaling is bewaring (treasury beschikt over het bankactief)."
+      - "Klassieke fraudegevoelige combinaties die deze indeling helpt voorkomen: (i) aanmaak leveranciersgegevens + uitvoering betaling = fictieve leverancier op eigen rekening; (ii) bestelling + ontvangst goederen = bestelling op naam vennootschap, levering naar privé; (iii) aanmaak + controle betalingsvoorstel = eigen voorstel zelf goedkeuren."
+    uitwerking_visualisaties:
+      - type: tabel-vergelijking
+        ref: classificatie_8_activiteiten
+    valkuil_beat: >
+      Verleiding om 'aanmaak nieuwe leverancier in Odoo' als registratie te
+      classificeren omdat het in het ERP gebeurt. Fout — categorie volgt het
+      *karakter* van de handeling (poortwachters-beslissing = autorisatie), niet
+      het *systeem* waarin ze plaatsvindt.
+
+  - id: stap-3-klantenfiches
+    titel: "Stap 3 — Klantenfiches-procedure: identificeer drie risico's"
+    instructie_beats:
+      - "Bij Bracke maakt Karim (projectadministratie) de nieuwe klantenfiches aan op het moment dat de werfleider de eerste door een nieuwe klant getekende offerte binnenbrengt. Karim vult BTW-nummer, leveradres, kortingscategorie en betalingsvoorwaarden in op basis van wat de werfleider vermeldt."
+      - "Detecteer **drie risico's** in deze procedure. Voor elk risico: beschrijf het risico, benoem de IC-zwakte die het mogelijk maakt, en (als je daarover gegevens hebt uit de Bracke-context) geef een concreet voorbeeld van een vastgestelde uitwerking."
+    uitwerking_beats:
+      - "Drie risico's — elk geformuleerd als (i) risico, (ii) onderliggende IC-zwakte, (iii) concrete uitwerking in Bracke."
+      - "Risico 1: onvoldoende functiescheiding tussen initiëring van verkoop (werfleider) en aanmaak klantenfiche (Karim, op informatie van werfleider) zonder onafhankelijke verificatie. Werfleider kan fictieve klant introduceren — geen externe bron-validatie. Concreet bij Bracke: omzet-inflate voor commissie of prestige zou mogelijk zijn omdat geen geijkte bron de identiteit valideert."
+      - "Risico 2: geen kredietacceptatie-functie vooraf. Klant wordt aangemaakt zonder onafhankelijke kredietcheck — Bracke kan beginnen werken voor insolvabele klanten. Concreet bij Bracke: twee verlieslatende dossiers in 2025 met afschrijvingen totaal ca. 22.000 EUR (particuliere klanten in faling)."
+      - "Risico 3: master-data-kwaliteit zonder vier-ogen-validatie. BTW-regime, kortingspercentages, betalingsvoorwaarden kunnen fout of manipuleerbaar zijn. Concreet bij Bracke: één BTW-rechtzetting ca. 4.800 EUR in 2025 (renovatie ouder dan 10 jaar in 21 % geboekt i.p.v. 6 %)."
+      - "Bonus voor wie verder kijkt: GDPR-risico (persoonsgegevens zonder verwerkings-grondslag), doublures (zelfde klant meermaals aangemaakt onder licht verschillende benamingen), anti-witwas-KYC (bij Bracke geen issue maar in andere sectoren wel)."
+    valkuil_beat: >
+      Verleiding om enkel 'fraude door werfleider' te benoemen. De examenstijl
+      wil een spreiding van risico-types: functiescheiding (governance) + krediet
+      (financieel) + master-data (operationeel/fiscaal). Drie verschillende
+      categorieën onderscheiden is meer punten waard dan drie variaties op één
+      thema.
+
+  - id: stap-4-fraude-analyse
+    titel: "Stap 4 — Bart-fraude-case: fraudedriehoek + drie zwaktes + drie controles"
+    instructie_beats:
+      - "Werfleider Bart Devlieger heeft van september 2024 tot november 2025 via 12 valse aankoopfacturen (gemiddeld 3.940 EUR per factuur, alle onder de 10.000-EUR-drempel) systematisch 47.300 EUR doorgesluisd naar een gefingeerde leverancier op naam van zijn schoonbroer's BV. Dezelfde Bart leverde zelf de 'ontvangstbewijzen' op de werf — de 3-way match in Odoo sloot formeel."
+      - "Beantwoord drie deelvragen: (a) Analyseer de fraude via de **fraudedriehoek** (Cressey 1973) — druk · gelegenheid · rationalisatie. Benoem voor elke hoek de Bracke-specifieke invulling. (b) Welke **drie IC-zwaktes** maakten deze fraude mogelijk? Verwijs naar de zwaktes uit stap 1. (c) Welke **drie controles** hadden het lek vroeger kunnen detecteren — controles die Bracke nu niet had?"
+    uitwerking_beats:
+      - "Deel (a) — fraudedriehoek toegepast op Bart: druk = persoonlijke financiële nood (echtscheiding 2024 + alimentatie + renovatie eigen huis). Gelegenheid = de drie IC-zwaktes uit stap 1 (Eline-master-rechten + lage drempel 10k + werfleider keurt eigen bestelling). Rationalisatie = Bart's typische post-hoc verklaring 'Bracke heeft mij onderbetaald — ik nam alleen wat me toekwam'. Crucial inzicht: druk en rationalisatie kunnen we als IC-ontwerper *niet* sturen — alleen aan de gelegenheid kunnen we werken."
+      - "Deel (b) — drie IC-zwaktes (verwijst naar stap 1): Z1 leveranciers-master-rechten bij Eline (Bart vroeg Eline een 'eenmalige levering'-leverancier aan te maken, Eline deed dit zonder verificatie); Z2 drempel 10.000 EUR voor 2e handtekening (alle 12 facturen vielen onder); Z3 werfleider keurt eigen bestellingen < 5.000 EUR (Bart maakte 12 valse bestelaanvragen tussen 1.800 en 4.500 EUR)."
+      - "Deel (c) — drie controles die het lek vroeger hadden gedetecteerd: (1) periodieke leveranciers-spend-analyse top-20 nieuwe leveranciers > X EUR door Pieter (was niet ingericht — zou Bart's schoonbroer-BV als nieuwe top-20-leverancier hebben gesignaleerd); (2) onafhankelijke goedkeuring nieuwe leveranciers door Pieter of Sofie vóór eerste betaling (compenserende preventieve controle bij ontbrekende functiescheiding); (3) periodieke vergelijking offerte-database vs aankoopfacturen — welke leveranciers worden betaald zonder ooit een offerte te hebben gegeven? (detecterende controle die fictieve leveranciers ontmaskert)."
+      - "Conceptueel: deel (b) toont de gelegenheid, deel (c) toont preventieve én detecterende compenserende controles. Wie alleen detectieve maatregelen voorstelt (deel c1 en c3) mist de preventieve laag (deel c2)."
+    valkuil_beat: >
+      Twee klassieke valkuilen. Eerste: de fraudedriehoek toepassen alsof het
+      enkel een classificatie-oefening is — examen-puntenwinst zit in de
+      Bracke-specifieke invulling per hoek (welke druk had Bart écht, welke
+      gelegenheid bood Bracke écht, welke rationalisatie heeft hij naar
+      verluidt gebruikt). Tweede: alle drie de voorgestelde controles als
+      detectief formuleren (spend-analyse, vergelijking achteraf). Bij een
+      KMO is een preventieve controle (onafhankelijke goedkeuring nieuwe
+      leverancier) vaak goedkoper en effectiever — vermeld er minstens één.
+
+  - id: stap-5-smart-aanbeveling
+    titel: "Stap 5 — Managementletter-respons: formuleer een SMART-aanbeveling"
+    instructie_beats:
+      - "De confrater-accountant Marc Vlaeminck heeft een mock-managementletter overhandigd met vier bevindingen: B1 (significant deficiency — Eline simultane rechten op leveranciers-master + factuur-boeking + betaalbatch), B2 (significant deficiency — drempels 5.000/10.000 EUR niet meer afgestemd op huidige schaal), B3 (deficiency — Davy combineert bewaring + registratie voorraad zonder telpartner), B4 (deficiency — geen documenteerde kascontrole laatste 8 maanden)."
+      - "Kies één bevinding (advies: B1 — meest impactvol). Formuleer een aanbeveling voor het bestuur volgens het **SMART-formaat**: Specifiek (welke wijziging exact?) · Meetbaar (waaraan herken je succes?) · Acceptabel (wie draagt de last en aanvaardt die?) · Realistisch (haalbaar binnen de Bracke-context?) · Tijd-gebonden (concrete deadline)."
+      - "Voeg toe: het verwachte rest-risico na implementatie. Geen enkele aanbeveling reduceert het risico tot nul — beschrijf wat nog overblijft."
+    uitwerking_beats:
+      - "Aanbeveling voor B1 in SMART-formaat — modelantwoord."
+      - "**Specifiek**: splits de Odoo-rollen van Eline in drie functies: (i) leveranciers-master-onderhoud (alleen Pieter of Sofie als admin, geen Eline); (ii) factuur-boeking + 3-way match (Eline blijft); (iii) betaalbatch-aanmaak (Eline maakt aan) gescheiden van vrijgave (Sofie of Pieter geeft vrij). Nieuwe leverancier krijgt 'in afwachting'-status tot Pieter validatie geeft."
+      - "**Meetbaar**: na 3 maanden audit-trail-controle door Marc Vlaeminck: 100 % van nieuwe leveranciers heeft Pieter- of Sofie-handtekening vóór eerste betaling; 100 % van betaalbatches heeft aparte aanmaker en vrijgever."
+      - "**Acceptabel**: Eline blijft hoofdboekhouder met breed mandaat (factuur-boeking + reconciliaties + cashflow-rapportering), enkel master-data en betalingsvrijgave verschuiven. Sofie aanvaardt extra last (10-15 min/week voor batchgoedkeuring) als compensatie voor het frauderisico."
+      - "**Realistisch**: Odoo ondersteunt rolgebaseerde toegang out-of-the-box (RBAC). Pieter of Sofie is meestal aanwezig of op afstand bereikbaar voor goedkeuring. Bij ziekte: backup-procedure (de andere zaakvoerder)."
+      - "**Tijd-gebonden**: implementatie tegen 2026-02-28 (3 maanden vanaf managementletter); eerste audit-cyclus over Q1 2026 in april."
+      - "**Rest-risico**: management override blijft mogelijk (Pieter of Sofie kunnen formeel goedkeuren zonder werkelijk te verifiëren). Mitigatie hiervoor: periodieke (kwartaal) spend-analyse top-20-leveranciers door externe accountant — niet door bestuur zelf. Tweede rest-risico: collusie tussen Eline en een werfleider zou nog mogelijk zijn — gedeeltelijk gemitigeerd door scope-beperking van Eline's mandaat."
+      - "Pedagogisch sluitstuk: een SMART-aanbeveling die het rest-risico expliciet benoemt is professioneel sterker dan één die 'het probleem oplost'. Geen enkel IC-systeem geeft absolute zekerheid — eerlijk benoemen wat overblijft maakt de aanbeveling geloofwaardig."
+    uitwerking_visualisaties:
+      - type: tabel-vergelijking
+        ref: managementletter.bevindingen
+    valkuil_beat: >
+      Twee valkuilen. Eerste: vaag formuleren ("verbeter de functiescheiding"
+      i.p.v. "splits Odoo-rollen X/Y/Z"). SMART-Specifiek vraagt
+      systeem-niveau-precisie. Tweede: rest-risico vergeten benoemen — dan
+      blijft de aanbeveling steken in een 'oplossing'-frame, terwijl de
+      examen-stof juist hamert op 'redelijke (nooit absolute) zekerheid'.
+
+# ---------------------------------------------------------------------------
+# AFSLUITING
+# ---------------------------------------------------------------------------
+
+afsluiting:
+  reflectie_beats:
+    - "Vijf stappen, vijf leerstukken geactiveerd. Wie alle vijf vlot kan lopen, beheerst het examen-patroon van PO 1.7 — herkennen + classificeren + risico's identificeren + analyseren via taxonomieën + adviseren in SMART-formaat. Het examen test geen abstracte theorie maar je vermogen om in een concrete bedrijfssituatie de juiste taxonomie aan te roepen en concreet te formuleren."
+    - "Twee meta-inzichten uit deze quickscan. Eerste: de Bracke-zwaktes zijn niet eigen aan Bracke — ze zijn typisch voor een KMO in transitie (snel gegroeid zonder dat de IC-procedures mee evolueerden). Wat hier de Bart-fraude mogelijk maakte, leeft in honderden Belgische KMO's. Tweede: de relatie tussen leerstuk en oefening is van een ander didactisch type dan tussen leerstuk en samenvatting. Een leerstuk legt uit; een samenvatting reduceert; een oefening activeert. Wie alleen leest en samenvat haalt het examen niet — wie ook actief deze deelvragen heeft uitgewerkt, ziet patronen sneller."
+    - "Volgende stap: doorblader de modelantwoorden op de [voorbeeldexamen-pagina PO 1.7](voorbeeldexamenvragen). De examen-stijl ligt zeer dicht bij deze oefening — vooral examen 2014-1 (klantenfiches), 2013-2 (8 activiteiten classificeren) en 2024-1 (verkoopcyclus-advies)."
+  doelstellingen_gedekt:
+    - "1.7.taak.1.doel.1 (redelijke zekerheid + compliance — stap 5 rest-risico)"
+    - "1.7.taak.1.doel.2 (referentiepunten — ISA 315 + ITAA-norm + COSO impliciet)"
+    - "1.7.taak.1.doel.3 (risico's opsporen — stap 1 + 3 + 4)"
+    - "1.7.taak.1.doel.4 (evenwicht zekerheid/compliance — stap 4c + stap 5)"
+    - "1.7.taak.1.doel.5 (interpreteren managementletter — stap 5)"
+    - "1.7.taak.1.doel.6 (aanbevelingen formuleren — stap 5)"
+  valkuilen_geoefend:
+    - "Algemene i.p.v. ACR-IH-specifieke functiescheidings-zwakte-formulering (stap 1)"
+    - "Master-data-onderhoud als registratie classificeren i.p.v. autorisatie (stap 2)"
+    - "Alleen één risico-categorie noemen i.p.v. spreiding over functiescheiding/krediet/master-data (stap 3)"
+    - "Fraudedriehoek als pure classificatie i.p.v. case-specifieke invulling (stap 4a)"
+    - "Alleen detectieve compenserende controles voorstellen (stap 4c)"
+    - "Vage SMART-Specifiek + rest-risico vergeten (stap 5)"
+
+verder_lezen:
+  leerstukken:
+    - slug: wat-is-interne-controle-en-coso
+      hint: "Voor de 4 doelstellingen + COSO-componenten + 5 inherente beperkingen die de rest-risico-analyse stutten"
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "Voor de ACR-IH + 4-categorieën + preventief/detectief/correctief-taxonomieën uit stap 1 + 2 + 4c"
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "Voor de cyclus-walkthrough-methodiek en het IT-controles-luik dat in stap 1 + 3 impliciet meespeelt"
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "Voor de fraudedriehoek + 3 categorieën fraude + management override (stap 4)"
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Voor ISA 265 management letter + 3 ernst-niveaus + SMART-aanbeveling-formaat (stap 5)"
+  samenvatting:
+    hint: "Compacte herhaling van alle taxonomieën + cyclus-tabel + fraudedriehoek + drempels-discipline op 3-4 A4 printbaar"
+  examenvragen_link: "voorbeeldexamenvragen"
+
+wettelijk_fundament:
+  - onderwerp: "Beheersingsmaatregelen — preventief vs detectief + functiescheiding"
+    ref: "ISA 315 (herzien-2019), Bijlage 3 §20-22 + §A157"
+    noot: "Bijlage 3 §A157 erkent expliciet dat KMO's via direct toezicht door de eigenaar-bestuurder kunnen compenseren voor beperkte functiescheiding"
+  - onderwerp: "Definities interne beheersing + drie doelstellingen"
+    ref: "ITAA KMO-controlenorm, Bijlage 1 (Definities)"
+  - onderwerp: "Fraude-verantwoordelijkheden auditor + fraude-categorieën"
+    ref: "ISA 240"
+    noot: "Twee hoofd-categorieën: frauduleuze financiële rapportering + misappropriatie van activa. Corruptie als variante."
+  - onderwerp: "Communicatie tekortkomingen interne beheersing — management letter"
+    ref: "ISA 265"
+    noot: "Onderscheidt deficiency · significant deficiency · material weakness — significant deficiency moet ten minste aan het met governance belaste orgaan gecommuniceerd worden"
+  - onderwerp: "Bestuursverantwoordelijkheid voor passende organisatie"
+    ref: "⚠️ te verifiëren — algemene WVV-bestuursplicht voor passende organisatie wordt vaak met IC-verantwoordelijkheid geïdentificeerd, exacte artikel-referentie niet rechtstreeks via RAG geverifieerd"
+
+footer: "Oefening PO 1.7 — Interne controle. Status: POC voor scoped IC-quickscan-format."

@@ -1,0 +1,255 @@
+# Leerstuk-script — cyclus-analyse en controlemiddelen
+#
+# PO 1.7 leerstuk 3 van 5 (zwaarste). Vijf transactionele cycli (aankoop
+# · verkoop · voorraad · kas/treasury · lonen) met per cyclus: flow +
+# top-risico's + sleutelcontroles. Daarna IT-laag (ITGC + applicatie +
+# IT-dependent manual + cloud) + walkthrough-techniek + 8-stappen-
+# ontwerpflow. Bouwt op functiescheiding (L2) + COSO (L1). Voedt L4
+# (risico-architectuur) en L5 (audit-evaluatie).
+
+meta:
+  slug: cyclus-analyse-en-controlemiddelen
+  titel: "Hoe analyseer je een onderneming per transactiecyclus en welke sleutelcontroles passen per cyclus?"
+  po: "1.7"
+  cluster: interne-controle
+  voorbeeldgroep: bracke-instal
+  beschrijving: >
+    Leerstuk PO 1.7 — proces (zwaarste). Vijf transactionele cycli als
+    kapstok voor IC-ontwerp en IC-evaluatie: AANKOOP (P2P — 3-way match
+    + leveranciers-master) · VERKOOP (O2C — kredietacceptatie + klantenfiche
+    + DSO) · VOORRAAD (cyclische telling + cut-off) · KAS/TREASURY
+    (functiescheiding + reconciliatie) · LONEN (H2R — spookmedewerker-
+    risico). Per cyclus: flow + top-risico's + sleutelcontroles. Daarna
+    IT-controles als overkoepelende laag (ITGC + applicatie + cloud).
+    8-stappen-ontwerpflow als methode.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 1.7.
+    Verwijs ook naar [[wat-is-interne-controle-en-coso]] (COSO-kader) en
+    [[functiescheiding-en-controlemaatregelen]] (3 taxonomieën — deze
+    worden HIER per cyclus toegepast). Dit is het zwaarste leerstuk —
+    cyclus-aanpak is HET werkpaard van zowel IC-ontwerp als externe audit.
+    De 5 cycli + IT-laag worden door elkaar bevraagd op het examen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: cyclus-analyse splitst de bedrijfsvoering op in 5 CANONIEKE TRANSACTIONELE CYCLI — AANKOOP (procure-to-pay) · VERKOOP (order-to-cash) · VOORRAAD · KAS/TREASURY · LONEN (hire-to-retire) — en ontwerpt per cyclus de sleutelcontroles die de typische risico's mitigeren. Het is de standaard-methodologie voor zowel IC-ontwerp (door management) als IC-evaluatie (door externe auditor — ISA 315 herzien-2019)."
+    - "Tweede zin — per cyclus telkens drie elementen: (a) flow (wie doet wat in welke volgorde); (b) top-risico's per stap; (c) SLEUTELCONTROLES — typisch een combinatie van AUTORISATIE (drempel-goedkeuring) + FUNCTIESCHEIDING (5-functies BURCB) + MATCHING / RECONCILIATIE (3-way match, bank-reconciliatie, cyclische telling). De controle-architectuur volgt het ACR-IH-principe uit [[functiescheiding-en-controlemaatregelen]]."
+    - "Derde zin — boven de 5 cycli ligt de IT-LAAG: General IT Controls (ITGC — toegang · change management · operations · backup) en application controls (input-validatie · processing · output) werken complementair. In een Odoo-gedreven KMO zoals Bracke is bijna elke transactie IT-gedreven; wie IT niet doorgrondt mist het overgrote deel van de werkende controles. Plus: het 8-stappen-ontwerpflow als methode voor wie IC bouwt of herziet."
+  visualisaties:
+    - type: mermaid
+      ref: aankoop.flow_mermaid
+      bron: voorbeeldgroep
+  afsluiter: "We doorlopen de 5 cycli in vaste volgorde — aankoop (zwaartepunt), verkoop, voorraad, kas/treasury, lonen — telkens met Bracke-flow en de bewuste IC-zwaktes Z1-Z14 als didactische illustratie. Daarna de IT-laag (ITGC + applicatie + cloud). Tot slot het 8-stappen-ontwerpflow als methode voor wie een IC-systeem opbouwt."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wat-is-cyclus-analyse
+    titel: "Wat is cyclus-analyse — en waarom werkt ze?"
+    niveau: 2
+    beats:
+      - "Open met de scharniervraag: een onderneming heeft tientallen processen, honderden risico's, duizenden transacties per maand. Hoe maak je dat behapbaar voor IC-ontwerp én voor externe audit? Antwoord: door alles op te splitsen in een BEPERKT AANTAL TYPISCHE CYCLI — elk met eigen processtappen, risico's, sleutelcontroles en IT-systemen."
+      - "Werk de 5 canonieke cycli uit + hun Engelse term (waarmee de stagiair in elke ERP-context werkt). (1) AANKOOP — Procure-to-Pay (P2P). (2) VERKOOP — Order-to-Cash (O2C). (3) VOORRAAD. (4) KAS/TREASURY. (5) LONEN — Hire-to-Retire (H2R). Soms 6e cyclus: VASTE ACTIVA (CapEx + afschrijving). Soms 7e: FINANCIERING (kredieten + dividend). Voor PO 1.7 + KMO-context: de 5 hierboven zijn voldoende."
+      - "Werk de waarde uit: in plaats van losse risico's te lijsten, biedt cyclus-aanpak een COHERENT VERHAAL dat correspondeert met de feitelijke werking. De stagiair leert risico's herkennen in VOLGORDE VAN TRANSACTIE-UITVOERING. Voorbeeld: een fictieve verkoop kan ontstaan op de ORDER-stap (vóór de levering), niet op de boekings-stap (na de factuur). Wie cyclus-vertaalt kan op de juiste stap kijken."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `cycli` overzicht). Alle 5 cycli zijn aanwezig: aankoop via Nora + Odoo + Isabel; verkoop via werfleider-offerte + Karim + DSO; voorraad in magazijn Aalst + werf-buffers; kas/treasury via Pieter-cash-stortingen + Isabel-bankbetalingen + werfleider-creditcards; lonen via TimeSquare-badging + SD Worx. Klassieke KMO-installateur-architectuur."
+      - "Verbind met L2: per cyclus passen we de 5-functies-leer (BURCB) toe — wie BESCHIKT, wie UITVOERT, wie REGISTREERT, wie CONTROLEERT, wie BEWAART. Functiescheidings-gaten = risico-bronnen. De Z1-Z14-zwaktes in Bracke zijn allemaal cyclus-gebonden functiescheidings-overtredingen."
+
+  - id: cyclus-aankoop
+    titel: "Cyclus 1 — Aankoop (Procure-to-Pay)"
+    niveau: 2
+    beats:
+      - "Open met de cyclus-flow: behoefte → bestelaanvraag → goedkeuring → bestelling → ontvangst → factuur → 3-way match → betaling. Zes processtappen, vijf functies (BURCB), drie sleutelcontroles."
+      - "Werk de TOP-RISICO'S per stap uit. (a) BESTELAANVRAAG: bestelling die niet aan bedrijfsdoel beantwoordt (privé-gebruik) of bij voorkeur-leverancier zonder concurrentie. (b) GOEDKEURING: drempel te hoog → veel bestellingen passeren ongecontroleerd. (c) ONTVANGST: levering bij werf zonder onafhankelijke controle = fictieve levering mogelijk. (d) FACTUUR: dubbele factuur, fictieve leverancier. (e) 3-WAY MATCH: gefingeerd via gefingeerde leverancier + bestelbon + ontvangstbewijs (Bart-modus). (f) BETALING: betaling onder drempel passeert zonder 2e handtekening."
+      - "Werk de SLEUTELCONTROLES uit. (1) AUTORISATIE-DREMPEL bestelling — Pieter goedkeurt > 5.000 EUR (Bracke realiteit). (2) 3-WAY MATCH — Odoo vergelijkt automatisch bestelbon ↔ ontvangstbon ↔ factuur op hoeveelheid + prijs (flagging bij verschil > 2 %). (3) FUNCTIESCHEIDING leveranciers-master vs betaling — moet aan VERSCHILLENDE personen worden toegewezen (geschonden bij Bracke = Z1). (4) 2E HANDTEKENING betaling > drempel — Sofie of Pieter boven 10.000 EUR. (5) PERIODIEKE SPEND-ANALYSE top-20-leveranciers (preventief detectief — niet ingericht bij Bracke)."
+      - "Concretiseer met Bracke aankoop-mermaid (uit voorbeeldgroep — `cycli.aankoop.flow_mermaid`) + Z1-Z3-zwaktes als illustratie. Z1 = leveranciers-master + factuur-boeking + betaling bij Eline = klassieke fraude-trigger (Bart-incident). Z2 = drempel 10.000 EUR uit 2018 te hoog. Z3 = werfleider keurt onder 5.000 EUR zelf goed."
+      - "Examen-haak: 'wat zijn risico's bij een aankoopprocedure?' is een examen-klassieker — antwoord-formule = (a) noem 3 risico's per stap; (b) koppel elk aan een sleutelcontrole; (c) classifeer de controle als preventief/detectief; (d) verwijs naar functiescheiding-categorie (1-4)."
+    visualisaties:
+      - type: mermaid
+        ref: aankoop.flow_mermaid
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Stap", "Top-risico", "Sleutelcontrole"]
+        rijen:
+          - ["Bestelaanvraag werfleider", "Privé-gebruik · voorkeur-leverancier zonder concurrentie", "Onafhankelijke prijsvergelijking door aankoop (Nora)"]
+          - ["Goedkeuring bestelling", "Drempel te hoog → veel bestellingen ongecontroleerd", "Autorisatie Pieter > 5.000 EUR (Z3: drempel te hoog)"]
+          - ["Ontvangst goederen", "Fictieve levering bij werf (Bart-modus)", "Onafhankelijke ontvangst-functie (Davy magazijn)"]
+          - ["Factuur-binnenkomst", "Dubbele · fictieve leverancier", "Functiescheiding Eline ≠ Pieter (Z1: geschonden bij Bracke)"]
+          - ["3-way match", "Gefingeerd via fake leverancier", "Odoo automatisch flagging > 2 % verschil"]
+          - ["Betaling", "Onder-drempel passeert zonder 2e handtekening", "2e handtekening > 10.000 EUR (Z2: drempel te hoog)"]
+
+  - id: cyclus-verkoop
+    titel: "Cyclus 2 — Verkoop (Order-to-Cash)"
+    niveau: 2
+    beats:
+      - "Open met de cyclus-flow: vraag offerte → werfleider technische offerte → klant tekent → klantenfiche aanmaken (eerste keer) → project plannen + uitvoeren → werkbon getekend → facturatie → DSO-opvolging → eventueel rappel/escalatie."
+      - "Werk de TOP-RISICO'S uit. (a) OFFERTE: te lage prijs (winstmarge-verlies); te hoge prijs (deal-verlies). (b) KLANTENFICHE AANMAKEN: FICTIEVE KLANTEN (verkoper-bonus); foute master-data (BTW-regime, kortingscategorie, betalingsvoorwaarden); GEEN kredietacceptatie vóór levering. (c) FACTURATIE: niet alle leveringen gefactureerd (volledigheid); foutieve periode-toerekening (cut-off); foutieve klant/bedrag. (d) DSO: lange openstaande posten — risico op afschrijvingen handelsvorderingen."
+      - "Werk de SLEUTELCONTROLES uit. (1) AUTORISATIE-DREMPEL offerte — Pieter goedkeurt > 10.000 EUR commercieel. (2) FUNCTIESCHEIDING klantfiche-aanmaak vs verkoop-uitvoering — IDEALITER een onafhankelijke credit controller maakt klantfiche aan na kredietcheck (geschonden bij Bracke = Z4). (3) WERKBON-HANDTEKENING klant vóór facturatie — bewijst dat levering effectief plaatsvond. (4) DSO-RAPPORT wekelijks top 20 oudste — detectieve controle op betalingsachterstand. (5) MASTER-DATA-VALIDATIE BTW-regime door 2e persoon (geschonden bij Bracke = Z6 → 4.800 EUR BTW-rechtzetting)."
+      - "Concretiseer met Bracke verkoop-mermaid (uit voorbeeldgroep — `cycli.verkoop.flow_mermaid`) + Z4-Z6 als illustratie. Z4 = Karim maakt klantenfiches aan zonder kredietacceptatie-functie. Z5 = Karim heeft simultane rechten klantenmaster + creditnota-aanmaak. Z6 = BTW-regime door Karim alleen, geen 2e ogen → 4.800 EUR BTW-rechtzetting."
+      - "Examen-haak (zonder jaar-citaat): de KLANTENFICHES-CASE is examen-klassieker — 3 risico's detecteren bij 'verkoopafdeling maakt nieuwe klantenfiches aan'. Modelantwoord-formule = (R1) GEBREK AAN FUNCTIESCHEIDING — verkoper initieert + legt master aan ⇒ fictieve klanten/ghost-customers mogelijk. (R2) GEEN KREDIETWAARDIGHEIDSTOETSING vóór levering ⇒ oninbare vorderingen. (R3) MASTER-DATA-KWALITEIT zonder vier-ogen ⇒ BTW-fouten + foutieve kortingen + foutieve betalingsvoorwaarden."
+    visualisaties:
+      - type: mermaid
+        ref: verkoop.flow_mermaid
+        bron: voorbeeldgroep
+      - type: tabel-inline
+        kolommen: ["Stap", "Top-risico", "Sleutelcontrole"]
+        rijen:
+          - ["Offerte werfleider", "Te lage marge · te hoge prijs deal-verlies", "Standaard prijslijst + Pieter-goedkeuring > 10.000 EUR"]
+          - ["Klantenfiche aanmaken", "Fictieve klant · geen kredietcheck · BTW-fout", "Functiescheiding verkoop ↔ credit controller (Z4 geschonden bij Bracke)"]
+          - ["Project + werkbon", "Levering zonder afspraak met klant", "Werkbon-handtekening klant vereist vóór facturatie"]
+          - ["Facturatie", "Volledigheid (niet alle leveringen gefactureerd); cut-off", "Wekelijkse aansluiting werkbonnen ↔ facturen door Karim"]
+          - ["DSO-opvolging", "Afschrijvingen handelsvorderingen", "DSO-rapport top 20 oudste; > 60 dgn escalatie naar Pieter"]
+
+  - id: cyclus-voorraad
+    titel: "Cyclus 3 — Voorraad"
+    niveau: 2
+    beats:
+      - "Open met de cyclus-flow: levering bij magazijn → fysieke ontvangst + boekhoudkundige inboeking → uitslag naar werf → werf-buffer → monteurs gebruiken → retour magazijn (eventueel) → cyclische telling → aansluiting boekhouding."
+      - "Werk de TOP-RISICO'S uit. (a) ONTVANGST: niet-geleverde goederen geboekt; verkeerde hoeveelheid geboekt. (b) UITSLAG: materiaal vertrekt zonder boeking → krimp. (c) WERF-BUFFER: materiaal-leakage naar privé-gebruik door monteurs. (d) RETOUR: niet-geboekte retourstromen vertekenen voorraad. (e) TELLING: foutieve telling door enkele teller; vermenging met andere lokaties."
+      - "Werk de SLEUTELCONTROLES uit. (1) MAGAZIJN AFGESLOTEN — alleen magazijnier heeft sleutel + Odoo-rechten. (2) CYCLISCHE TELLING 2× per jaar (juni + december) + ABC-classificatie voor top-30 artikelen (frequentere telling). (3) TWEE TELLERS per telling — onafhankelijke verificatie (geschonden bij Bracke = Z9). (4) FUNCTIESCHEIDING bewaring ↔ registratie — magazijnier mag niet beide doen (geschonden bij Bracke = Z7 — klassieke ACR-IH-overtreding). (5) CUT-OFF bij jaareinde: laatste ontvangst- en leverbonnen vóór + na telling vergelijken met voorraad-registratie."
+      - "Concretiseer met Bracke voorraad-flow (uit voorbeeldgroep — `cycli.voorraad.flow_mermaid`) + Z7-Z9 als illustratie. Z7 = Davy combineert bewaring + registratie. Z8 = retour-boekingen niet systematisch → ~18.000 EUR voorraad-discrepantie. Z9 = telling door Davy zelf zonder telpartner."
+      - "Werk de externe-audit-koppeling uit (ISA 501 §4 — voluit als anker): bij MATERIËLE voorraad MOET de auditor de fysieke voorraadopname BIJWONEN, tenzij praktisch onuitvoerbaar. Hij EVALUEERT de instructies van het management, WAARNEEMT de uitvoering, INSPECTEERT de voorraad (bestaan + conditie + incourant), en doet TELLINGEN TER TOETSING. Voor de stagiair-IC-adviseur: dit is het 'extern-auditor-perspectief' op dezelfde cyclus."
+    visualisaties:
+      - type: mermaid
+        ref: voorraad.flow_mermaid
+        bron: voorbeeldgroep
+
+  - id: cyclus-kas-treasury
+    titel: "Cyclus 4 — Kas / Treasury"
+    niveau: 2
+    beats:
+      - "Open met de positionering: kas/treasury omvat meer dan een 'kasje op kantoor'. Bij Bracke (uit voorbeeldgroep — `cycli.kas_treasury.componenten`): kleine kas op kantoor (1.500 EUR max) + WERFLEIDER-CREDITCARDS (limiet 2.500 EUR/maand × 3) + BANK-BETALINGEN via Isabel 6 + KLANT-BETALINGEN 95 % bank + 5 % cash. Drie verschillende deel-kanalen, drie verschillende risico-profielen."
+      - "Werk de TOP-RISICO'S uit. (a) KLEINE KAS: kas-tekort onopgemerkt; bonnetjes-fraude. (b) CREDITCARDS WERFLEIDERS: privé-gebruik gedekt als beroepskost. (c) BANK-BETALINGEN: ongeautoriseerde betaling (zie aankoop-cyclus Z1+Z2). (d) CASH-INNINGEN: niet alle cash gestort; verschil tussen ontvangst en boeking."
+      - "Werk de SLEUTELCONTROLES uit. (1) MAANDELIJKSE BANK-RECONCILIATIE Eline — saldo 550 met Isabel-uittreksel. (2) MAANDELIJKSE KASCONTROLE — Pieter telt kas + sluit aan op kasboek (geschonden bij Bracke = Z10 — laatste 8 maanden niet uitgevoerd). (3) CASH-STORTINGEN met twee getuigen of dubbele paraaf (geschonden bij Bracke = Z11 — Pieter doet alleen). (4) CREDITCARD-AFREKENING: maandelijkse vergelijking creditcard-staat met werkstaten door onafhankelijke persoon (geschonden bij Bracke = Z12). (5) ONKOSTENNOTA AFTEKENING door werknemer + bevoegde 2e persoon vóór uitbetaling."
+      - "Concretiseer met Bracke kleine-kas-flow (uit voorbeeldgroep — `cycli.kas_treasury.flow_klein_kas`) + Z10-Z12 als illustratie + Bart-incident-koppeling (Bart's fraude liep gedeeltelijk via Isabel-betalingen onder drempel)."
+      - "Examen-haak: 'stel een procedure op voor kasbetalingen kleine kosten met MINIMAAL 2 functiescheidingen' (klassieke vraag). Modelprocedure: stap 1 werknemer initieert (uitvoering) + bewaart bonnetje; stap 2 zaakvoerder/diensthoofd KEURT GOED (beschikkende functie); stap 3 secretaresse BETAALT uit + BEWAART kas (uitvoerende + bewarende); stap 4 BOEKHOUDER REGISTREERT (registrerende — andere persoon dan secretaresse); stap 5 zaakvoerder DOET KASCONTROLE (controlerende — niet de secretaresse en niet de boekhouder). 5 functies, 4 personen, 3 functiescheidingen."
+    visualisaties:
+      - type: mermaid
+        ref: kas_treasury.flow_klein_kas
+        bron: voorbeeldgroep
+
+  - id: cyclus-lonen
+    titel: "Cyclus 5 — Lonen (Hire-to-Retire)"
+    niveau: 2
+    beats:
+      - "Open met de cyclus-flow: monteur badgt in/uit TimeSquare → werfleider valideert uren maandelijks → boekhouder exporteert naar SD Worx → SD Worx berekent loonfiches → zaakvoerder keurt loonbatch goed → SD Worx betaalt → RSZ + BV-doorboekingen."
+      - "Werk de TOP-RISICO'S uit. (a) ONBOARDING: medewerker actief in systeem zonder contract; verkeerde loonklasse. (b) UREN-VALIDATIE: werfleider valideert EIGEN team-uren (zelf-controle) ⇒ overuren-toekenning aan kennissen mogelijk. (c) SPOOKMEDEWERKER: ex-medewerker blijft uren ontvangen na ontslag — werfleider voert uren handmatig in ('badge stuk'). (d) LOONBATCH-GOEDKEURING: batch goedgekeurd zonder vergelijking met actieve personeelslijst. (e) OFFBOARDING: geen formele uittreding ⇒ doorbetaalde uren + behoud toegang."
+      - "Werk de SLEUTELCONTROLES uit. (1) ONBOARDING-PROTOCOL met HR-validatie + contract-cross-check vóór TimeSquare-activering. (2) UREN-VALIDATIE door werfleider + 2E OOG van zaakvoerder op overuren-aanvragen (geschonden bij Bracke = Z14). (3) MAANDELIJKSE VERGELIJKING actieve personeelslijst ↔ SD Worx-batch (geschonden bij Bracke = Z13 — Frank-spookmedewerker 4 maanden, ~12.800 EUR netto). (4) FUNCTIESCHEIDING uren-validatie ↔ loonberekening ↔ goedkeuring batch — drie verschillende personen (verbetering t.o.v. Bracke). (5) PERIODIEKE STEEKPROEF zaakvoerder: pak willekeurig 5 loonfiches + vergelijk met TimeSquare-data."
+      - "Concretiseer met Bracke loon-flow (uit voorbeeldgroep — `cycli.lonen.flow_mermaid`) + Frank-spookmedewerker-case (uit `cycli.lonen.zwaktes_aanwezig.Z13`)."
+      - "Blockquote-aside: KMO-specifiek — loonadministratie wordt typisch UITBESTEED aan een sociaal secretariaat (SD Worx, Securex, Acerta). Dat is een COMPENSEREDE controle (extern derde partij doet berekening) maar verplaatst de IC-verantwoordelijkheid NIET — het bestuur blijft verantwoordelijk voor wat aan SD Worx wordt aangeleverd én voor de goedkeuring van wat terugkomt."
+    visualisaties:
+      - type: mermaid
+        ref: lonen.flow_mermaid
+        bron: voorbeeldgroep
+
+  - id: it-laag
+    titel: "IT-laag — General IT Controls + application controls"
+    niveau: 2
+    beats:
+      - "Open met de positionering: in een Odoo-gedreven KMO als Bracke passeert BIJNA ELKE TRANSACTIE door één of meer applicaties (ERP · TimeSquare · Isabel · SD Worx · SharePoint). IT-controles vormen vandaag het ZWAARTEPUNT van interne controle — wie ze niet doorgrondt mist het overgrote deel van de werkende beheersing."
+      - "Werk de twee groepen IT-controles uit (ISA 315 herzien-2019 par. A172). (1) GENERAL IT CONTROLS (ITGC) — overkoepelende controles op de informatica-omgeving ZELF. Vier hoofd-categorieën: (a) TOEGANGSBEHEER (RBAC — Role-Based Access Control, wie heeft welke rechten), (b) CHANGE MANAGEMENT (hoe wordt een ERP-update getest + goedgekeurd vóór productie), (c) IT OPERATIONS (monitoring, incident-respons), (d) BACKUP EN RECOVERY (continuïteit). (2) APPLICATION CONTROLS — controles INGEBOUWD in een SPECIFIEKE applicatie die op individuele transacties ingrijpen. Drie verwerkingsfasen: INPUT (data komen binnen — veld-validatie, verplichte velden, ranges), PROCESSING (data worden verwerkt — automatische 3-way match, automatische BTW-berekening), OUTPUT (rapportering — overzichten, dashboards)."
+      - "Werk de complementariteit uit: application controls VERGEN werkende ITGC om betrouwbaar te zijn. Voorbeeld: Odoo's 3-way match (application control) werkt alleen als toegangsbeheer (ITGC) verhindert dat een gebruiker zelf de bestelbon-data manipuleert vóór de match draait."
+      - "Werk de DERDE CATEGORIE uit — IT-DEPENDENT MANUAL CONTROLS: handmatige controles die VOLLEDIG steunen op IT-output (bv. Eline reviewt het exceptie-rapport voor prijswijzigingen > 3 % — handmatig oordeel, maar IT genereert het rapport). Falen ITGC + applicatie → handmatige controle ook onbetrouwbaar."
+      - "Werk CLOUD-SHARED-RESPONSIBILITY uit: bij Bracke draait Odoo in de cloud. Verantwoordelijkheids-verdeling: PROVIDER doet infrastructuur, ITGC op host-niveau, fysieke beveiliging, basis-backup. CLIËNT (Bracke) doet configuratie, gebruikersrechten, application-data, business-continuity-plan. Vuistregel: 'cloud verkleint je IT-werk maar elimineert het niet — wat ER OP draait is je verantwoordelijkheid'."
+      - "Concretiseer met Bracke. ITGC-zwakte bij Bracke: ERP-licentie met admin-rechten breed verdeeld (Pieter + Sofie + Eline) — geen periodieke access-review. Back-up alleen door Odoo-provider, geen lokale fallback (continuïteits-risico bij provider-uitval). Application controls AANWEZIG: 3-way match in Odoo (flagging > 2 %); BTW-velden verplicht; verschil-detectie tussen bestelbon en factuur."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Type IT-controle", "Wat houdt ze in?", "Bracke-voorbeeld"]
+        rijen:
+          - ["**ITGC — Toegangsbeheer**", "Wie mag wat in welke applicatie? (RBAC)", "Odoo-rollen Eline = boekh-admin + AP-validator (te breed — Z1)"]
+          - ["**ITGC — Change management**", "ERP-updates getest vóór productie", "Odoo cloud-updates door provider — Bracke heeft geen test-omgeving"]
+          - ["**ITGC — Operations**", "Monitoring + incident-response", "Geen formeel monitoring; Eline detecteert problemen ad-hoc"]
+          - ["**ITGC — Backup + recovery**", "Continuïteit bij uitval", "Odoo cloud-back-up dagelijks (provider); geen lokale fallback"]
+          - ["**Application — input**", "Veld-validatie + verplichte velden", "BTW-velden verplicht bij klantfiche-aanmaak"]
+          - ["**Application — processing**", "Automatische verwerkings-checks", "3-way match Odoo flagging > 2 % verschil"]
+          - ["**Application — output**", "Rapportering met logica-checks", "DSO-rapport wekelijks; exceptie-rapport prijswijzigingen"]
+          - ["**IT-dependent manual**", "Handmatige beoordeling van IT-output", "Eline review van prijswijziging-exceptie-rapport"]
+          - ["**Cloud shared responsibility**", "Wie doet wat (provider vs cliënt)?", "Odoo-provider = infra; Bracke = config + rechten + data"]
+
+  - id: walkthrough-techniek
+    titel: "Walkthrough — de techniek om een cyclus te doorgronden"
+    niveau: 2
+    beats:
+      - "Open met de stelling: een walkthrough is GEEN audit — het is een DOORLEEF-EXERCITIE waarbij je één concrete transactie van begin tot eind volgt om TE LEREN HOE DE CYCLUS ECHT WERKT (vs hoe het procedurehandboek het beschrijft)."
+      - "Werk de 4 stappen uit. (1) SELECTEER één concrete transactie (bv. Bracke-bestelling Vaillant HVAC-unit factuur F2025-487). (2) VOLG HEM DOOR ALLE STAPPEN — wie deed wat wanneer, welk document, welk Odoo-scherm, welke goedkeuring. (3) DOCUMENTEER de werkelijke flow (flowchart of narrative). (4) IDENTIFICEER waar werkelijke flow afwijkt van geschreven procedure — gap = potentieel risico."
+      - "Werk de waarde uit: walkthrough is de manier om DESIGN-EFFECTIVENESS te toetsen (komt in [[interne-audit-evaluatie-en-aanbevelingen]]). Het is NIET hetzelfde als test-of-controls (operating effectiveness) — daar test je over een PERIODE op steekproef. Walkthrough = één transactie, één moment, één verifying lus."
+      - "Concretiseer met Bracke: een walkthrough van de aankoop-cyclus tussen werfleider Marc Peeters en leverancier Vaillant zou de stagiair tonen dat (a) Pieter inderdaad goedkeurt > 5.000 EUR; (b) Davy soms NIET aanwezig is bij werf-leveringen (gap met procedure); (c) Eline 3-way match-flagging review doet wekelijks, niet realtime (gap met design). Drie gaps = drie verbeter-aanbevelingen."
+
+  - id: ontwerp-acht-stappen
+    titel: "Het 8-stappen-ontwerpflow — IC bouwen of herzien"
+    niveau: 2
+    beats:
+      - "Open met de positionering: tot nu toe lazen we cycli AS-IS (zoals ze bestaan). Maar wat als de stagiair als adviseur een IC-systeem MOET ONTWERPEN of na een fraude-incident moet HERZIEN? Daarvoor bestaat een methodologische 8-stappen-flow — toepassing van COSO op de feitelijke processen."
+      - "Werk de 8 stappen uit. (1) DOELSTELLINGEN FORMULEREN — welke van de 4 IC-doelen worden geadresseerd? Per cyclus operationaliseren. (2) PROCES-MAPPING (as-is) — alle bestaande processen in kaart (flowcharts, narratives) — walkthroughs gebruiken om mapping te valideren. (3) RISICO-IDENTIFICATIE per processtap — wat kan er fout gaan (input-fout, dubbele boeking, ongeautoriseerde transactie, fraude, IT-uitval, niet-naleving)? (4) RISICO-EVALUATIE — kans × impact; heat map; prioriteren. (5) CONTROLE-SELECTIE per risico — welke controle (preventief vs detectief, automatisch vs handmatig) past best? Kosten-baten. (6) DOCUMENTATIE — procedures schrijven, autorisatie-matrix, rol-mapping. (7) IMPLEMENTATIE + UITROL — communicatie, training, ERP-configuratie. (8) MONITORING + BIJSTURING — periodieke review of controles nog werken; aanpassen bij wijzigingen."
+      - "Concretiseer met Bracke post-Bart-incident: stap 1 = doelstelling 'voorkom herhaling fraude'; stap 2 = bestaande aankoopcyclus mappen (gedaan); stap 3 = Z1 + Z2 + Z3 als hoofdrisico's; stap 4 = hoog kans × hoog impact (47.300 EUR realiteit); stap 5 = nieuwe leverancier 'in afwachting'-status + drempel 2.500 EUR + spend-analyse top-20; stap 6 + 7 + 8 = procedures aanpassen + Odoo-rolherinrichting + maandelijkse opvolging."
+      - "Verwijs naar [[ontwerp-interne-controle]] voor definitorisch detail. De 8-stappen-flow is operationele toepassing van de 5 COSO-componenten."
+    type: blockquote-aside
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): cycli geïsoleerd lezen. FOUT. Cycli OVERLAPPEN — een werfleider-creditcard hoort bij kas-cyclus MAAR ook bij aankoop (materiaal-aankoop) MAAR ook bij lonen (representatie). De stagiair die elke transactie in één cyclus stopt mist 30 % van de risico's. Antwoord-formule: bij overlap, vermeld alle relevante cycli."
+      - "Valkuil 2 (⚠️): IT-controles overslaan in KMO. FOUT. Zelfs een 32-koppige Bracke heeft Odoo + Isabel + SD Worx + TimeSquare — IT-controles zijn al het zwaartepunt. ITGC + applicatie-controles MOETEN besproken worden in elke cyclus-analyse. Antwoord-formule: per cyclus minstens één IT-controle benoemen."
+      - "Valkuil 3 (⚠️): walkthrough verwarren met test-of-controls. FOUT. Walkthrough = ÉÉN transactie om TE LEREN hoe het werkt (design effectiveness). Test-of-controls = STEEKPROEF over een PERIODE om TE TOETSEN of de controle effectief werkt (operating effectiveness — zie [[interne-audit-evaluatie-en-aanbevelingen]]). Verschillende doelen, verschillende methodes."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "De RISICO-architectuur die de controle-selectie per cyclus voedt — fraudedriehoek, risico-identificatie-methode, heat map kans × impact."
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Hoe deze cycli geëvalueerd worden — design effectiveness (walkthrough) vs operating effectiveness (test of controls); management letter."
+    - slug: functiescheiding-en-controlemaatregelen
+      hint: "De drie taxonomieën die HIER per cyclus werden toegepast — voor herhaling van BURCB + 1234 + preventief/detectief."
+    - slug: wat-is-interne-controle-en-coso
+      hint: "Voor de COSO-componenten waar cyclus-controles in passen — vooral 'controleactiviteiten' (component 3)."
+  samenvatting:
+    hint: "Voor herhaling — 5 cycli + sleutelcontroles per cyclus + IT-laag (ITGC + applicatie + cloud) + 8-stappen-ontwerpflow."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [cyclus-analyse, it-controles, ontwerp-interne-controle]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Cyclus-aanpak — algemeen kader interne beheersing"
+    ref: "ISA 315 (herzien-2019), Bijlage 3"
+    noot: "Cyclus-aanpak is standaard methodologie binnen ISA 315; auditor identificeert per cyclus de relevante beweringen (assertions) en bijhorende controles."
+  - onderwerp: "IT-controles — ITGC + application controls"
+    ref: "ISA 315 (herzien-2019), par. A172"
+    noot: "Vier hoofd-categorieën ITGC: toegangsbeheer · change management · IT operations · backup en recovery."
+  - onderwerp: "Voorraad — fysieke opname bijwonen"
+    ref: "ISA 501 §4"
+    noot: "Bij materiële voorraad MOET de auditor de fysieke voorraadopname bijwonen (tenzij praktisch onuitvoerbaar) — instructies evalueren, uitvoering waarnemen, voorraad inspecteren, tellingen ter toetsing uitvoeren."
+  - onderwerp: "Controletechnieken — algemeen"
+    ref: "ISA 500 §A14-A25"
+    noot: "Zeven generieke controletechnieken — inspectie · waarneming · externe bevestiging · herberekening · herrekening · navraag · cijferanalyse."
+  - onderwerp: "Test-of-controls — responses to assessed risks"
+    ref: "ISA 330 — Inspelen door de auditor op ingeschatte risico's"
+    noot: "Wanneer de auditor wil steunen op IC moet hij test of controls uitvoeren over de relevante periode."
+  - onderwerp: "Cut-off + overeenstemmingsbeginsel"
+    ref: "⚠️ context — KB 29 april 2019 op de jaarrekening + WER Boek III art. III.89"
+    noot: "Boekhoudkundige basis voor cut-off-controle en aansluiting boekhouding met inventaris; geverifieerd via examen-vragen modelantwoord (2014-1)."
+  - onderwerp: "Ontwerp interne controle — 8-stappen-flow"
+    ref: "COSO 2013 — internationale doctrine (geen wettekst)"
+    noot: "Methodologische uitwerking van de 5 COSO-componenten; ondersteund door ISA 315-eisen op design effectiveness."
+
+footer: "Leerstuk PO 1.7 — proces zwaarste (3 van 5). Volgende stap: [[fouten-fraude-en-risicobeheersing]]."

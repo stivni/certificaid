@@ -1,0 +1,196 @@
+# Leerstuk-script — functiescheiding en controlemaatregelen
+#
+# PO 1.7 leerstuk 2 van 5 (techniek — denkmotor). Drie taxonomieën die in
+# elk examen terugkomen: (1) 5 controletechnische functies BURCB; (2) 4
+# categorieën (1 Aut · 2 Bew · 3 Reg · 4 Contr); (3) karakter-driehoek
+# preventief/detectief/correctief. Plus accountingcontrole vs
+# administratieve controle. Bouwt op COSO + dubbele dimensie uit L1.
+# Bouwstenen-uit voor L3 (cyclus-toepassing) en L4 (fraude-mitigatie).
+
+meta:
+  slug: functiescheiding-en-controlemaatregelen
+  titel: "Hoe scheidt men onverenigbare functies en welke taxonomieën classificeren controlemaatregelen?"
+  po: "1.7"
+  cluster: interne-controle
+  voorbeeldgroep: bracke-instal
+  beschrijving: >
+    Leerstuk PO 1.7 — techniek. Drie taxonomieën die elk examen toetst:
+    (1) 5 controletechnische functies — Beschikken, Uitvoeren, Registreren,
+    Controleren, Bewaren (BURCB) — vuistregel max 2 niet-aangrenzende per
+    persoon; (2) 4-categorieën-typologie (1 Autorisatie · 2 Bewaring activa
+    · 3 Registratie · 4 Controleprocedures) — examen 2013-2 / 2014-1 gebruik;
+    (3) karakter-driehoek preventief/detectief/correctief. Plus
+    accountingcontrole vs administratieve controle (Starreveld). Plus
+    KMO-compensaties als functiescheiding niet haalbaar is.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 1.7 en
+    naar [[wat-is-interne-controle-en-coso]] dat de COSO-kapstok zet.
+    Wijs erop dat dit het "denkmotor"-leerstuk is — de drie taxonomieën
+    hier worden hergebruikt in [[cyclus-analyse-en-controlemiddelen]]
+    (per-cyclus controle-architectuur) en [[fouten-fraude-en-risicobeheersing]]
+    (fraude-mitigaties als anti-functiescheidings-doorbraak).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Open in één zin: functiescheiding is het organisatorisch principe dat ONVERENIGBARE functies aan VERSCHILLENDE personen worden toegewezen — zodat geen enkele persoon ALLEEN een volledige transactie kan initiëren, uitvoeren, registreren en bewaren. Doel (ISA 315): de mogelijkheid beperken om fouten te maken EN te verhullen of fraude te plegen EN te verhullen."
+    - "Tweede zin — drie taxonomieën die elk examen door elkaar gebruikt en die je daarom alle drie MOET beheersen: (1) 5 CONTROLETECHNISCHE FUNCTIES — Beschikken · Uitvoeren · Registreren · Controleren · Bewaren (ezelsbruggetje BURCB); vuistregel: één persoon mag MAX TWEE niet-aangrenzende functies cumuleren; (2) 4-CATEGORIEËN — 1 Autorisatie · 2 Bewaring van activa · 3 Registratie en rapportering · 4 Controleprocedures; (3) KARAKTER-DRIEHOEK preventief (vóór feit) · detectief / repressief (na feit) · correctief (na herstel + structurele aanpassing)."
+    - "Derde zin — de KMO-realiteit: bij beperkte staf is volledige functiescheiding vaak onhaalbaar. Compensatie verloopt via DIRECT TOEZICHT door zaakvoerder + zachte controles. ISA 315 §A157 erkent dit expliciet. Examen-formule: 'beperkte functiescheiding moet WORDEN GECOMPENSEERD, niet weggewuifd'."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Taxonomie", "Categorieën / functies", "Examen-gebruik"]
+      rijen:
+        - ["**5 functies (BURCB)**", "Beschikken · Uitvoeren · Registreren · Controleren · Bewaren", "Procedures opstellen met min 2 functiescheidingen"]
+        - ["**4 categorieën**", "1 Autorisatie · 2 Bewaring activa · 3 Registratie · 4 Controleprocedures", "Activiteiten classificeren (kruisjes-vraag)"]
+        - ["**Karakter-driehoek**", "Preventief · Detectief (repressief) · Correctief", "Maatregelen classificeren (kruisjes-vraag)"]
+        - ["**Accounting vs administratief**", "Accountingcontrole (boekhouding-output) · Administratief (proces-input)", "Begripsverklaring + voorbeelden"]
+  afsluiter: "We werken de drie taxonomieën één voor één uit, telkens met Bracke-voorbeelden. Daarna accountingcontrole vs administratieve controle (Starreveld-traditie). Tot slot: hoe compenseert een KMO als Bracke voor onvermijdelijke functiescheidings-gaten."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: principe-functiescheiding
+    titel: "Het principe — waarom functies scheiden?"
+    niveau: 2
+    beats:
+      - "Open met de fundamentele logica: één persoon die alle stappen van een transactie alleen kan doen, kan een fout MAKEN en die fout VERHULLEN — of bewust frauderen en zijn spoor uitwissen. Functiescheiding doorbreekt die single-point-of-failure."
+      - "Werk de ISA-formulering uit (ISA 315 herzien-2019 Bijlage 3): 'functiescheiding is bedoeld om beperkingen aan te brengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken fouten te maken en te verhullen of fraude te plegen en te verhullen'. Twee werkwoorden zijn essentieel: MAKEN én VERHULLEN. Eén persoon mag mogelijk een fout maken (menselijk), maar moet die fout NIET kunnen wegmoffelen zonder dat een ander het ziet."
+      - "Concretiseer met Bracke fraude-case (uit voorbeeldgroep — `fraude_case_bart.modus_operandi`): Bart kon 47.300 EUR via fictieve facturen wegsluizen WANT de leveranciers-master + factuur-boeking + betaalbatch lagen ALLE DRIE bij Eline. Z1-zwakte in de aankoopcyclus. Eén persoon die simultaan masterdata kan aanpassen + factuur boeken + betaling vrijgeven heeft de complete keten in handen — fraude-vehikel par excellence."
+      - "Verbind met L1: functiescheiding valt onder COSO-component CONTROLEACTIVITEITEN, en heeft een KARAKTER preventief (eerste taxonomie hieronder)."
+
+  - id: vijf-functies-burcb
+    titel: "Taxonomie 1 — de 5 controletechnische functies (BURCB)"
+    niveau: 2
+    beats:
+      - "Open met de leer — klassieke Belgische beroepspraktijk (Starreveld-traditie, ITAA-doctrine): elke volledige transactie omvat vijf onderscheiden FUNCTIES. Het ezelsbruggetje BURCB bewijst goed dienst — Beschikken · Uitvoeren · Registreren · Controleren · Bewaren."
+      - "Werk de vijf functies uit. (B) BESCHIKKEN — beslissingsbevoegdheid om een transactie aan te gaan ('we kopen deze HVAC-units'). Strategisch-managerial. (U) UITVOEREN — feitelijke handeling stellen (bestelling plaatsen, levering doen, dienst verlenen). Operationeel. (R) REGISTREREN — boeking in administratie (factuur boeken, magazijnbon ingeven). Administratief. (C) CONTROLEREN — onafhankelijke check op één van de andere functies (3-way match, kascontrole, reconciliatie). Toezichtsfunctie. (B) BEWAREN — fysiek of digitaal beheer van activa (kassleutel, magazijnsleutel, bankrekening-toegang). Custody."
+      - "Werk de vuistregel uit: één persoon mag MAXIMAAL TWEE niet-aangrenzende functies cumuleren. 'Niet-aangrenzend' betekent: ze liggen niet naast elkaar in de transactie-flow. Onveilige combinaties: B+B (Beschikken + Bewaren — autorisatie zonder check op feitelijke output); R+B-bewaren (Registreren + Bewaren — eigen toe-eigening verbergen in eigen administratie); B-beschikken + U (Beschikken + Uitvoeren — eigen beslissing zelf uitvoeren zonder onafhankelijke ontvangst-check)."
+      - "Concretiseer met Bracke (aankoop-cyclus uit voorbeeldgroep — `cycli.aankoop` + classificatie). Een SCHONE flow zou zijn: werfleider BESCHIKT (bestelaanvraag) + Pieter AUTORISEERT > 5.000 EUR → Nora UITVOERT (bestelling plaatst) → Davy BEWAART (ontvangt magazijn) → Eline REGISTREERT (boekt factuur) → Sofie CONTROLEERT (3-way match review) + 2e handtekening betaling > 10.000 EUR. Vijf functies, vijf personen — geen Bracke-realiteit, maar het IDEAAL."
+      - "Examen-toepassing: 'stel een procedure op met minimaal twee functiescheidingen' (klassieke vraag — kasprocedure kleine kosten). Methodologie: (a) doorloop transactie van begin tot eind; (b) duid bij elke stap aan welke van de 5 functies actief is; (c) wijs verschillende personen toe; (d) check dat geen persoon meer dan 2 niet-aangrenzende functies heeft. Bij KMO: vermeld expliciet de COMPENSEERDENDE direct-toezicht-controle door zaakvoerder."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Functie (BURCB)", "Wat houdt ze in?", "Bracke-aankoop voorbeeld"]
+        rijen:
+          - ["**B — Beschikken**", "Beslissingsbevoegdheid: 'we kopen dit'", "Werfleider stelt bestelaanvraag op; Pieter goedkeurt > 5.000 EUR"]
+          - ["**U — Uitvoeren**", "Feitelijke handeling stellen", "Nora plaatst de bestelling bij leverancier"]
+          - ["**R — Registreren**", "Boeking in administratie", "Eline boekt factuur in Odoo"]
+          - ["**C — Controleren**", "Onafhankelijke check op andere functie", "3-way match review; 2e handtekening betaling"]
+          - ["**B — Bewaren**", "Fysiek/digitaal beheer activa", "Davy bewaart magazijn; Eline beheert Isabel-toegang"]
+
+  - id: vier-categorieen
+    titel: "Taxonomie 2 — de 4-categorieën-typologie (1 Aut · 2 Bew · 3 Reg · 4 Contr)"
+    niveau: 2
+    beats:
+      - "Open met de positionering: de 4-categorieën-typologie is EEN ANDERE manier om dezelfde transactie-flow te lezen — typisch gebruikt in IIA/COSO-context en in de Belgische examen-vraag-traditie (2013-2 + 2014-1). De stagiair MOET BEIDE beheersen — het examen gebruikt nu de ene, dan de andere."
+      - "Werk de 4 categorieën uit. (1) AUTORISATIE — het GEVEN VAN TOESTEMMING om een transactie te starten of een masterdata-record aan te maken. Niet de feitelijke handeling, wel de poortwachter. (2) BEWARING VAN ACTIVA — feitelijke CUSTODY: wie heeft de sleutel, wie heeft de toegang, wie geeft fysiek af? (3) REGISTRATIE EN RAPPORTERING — boeking in systemen + opmaak van rapporten + lijsten + voorstellen. De administratieve verwerking. (4) CONTROLEPROCEDURES — DETECTERENDE controles: 3-way match, reconciliatie, review van een voorstel door 2e persoon."
+      - "Mapping op de 5-functies-leer: AUTORISATIE = B-beschikken. BEWARING = B-bewaren. REGISTRATIE = R + (deels) U. CONTROLEPROCEDURES = C. De 4-categorieën verkleinen het schema (minder granulariteit) maar zijn praktischer voor classificatie-vragen."
+      - "Concretiseer met Bracke (uit voorbeeldgroep — `classificatie_8_activiteiten` VOLLEDIG — replica van examen 2013-2 maar op Bracke-cijfers). Toon de 8 activiteiten met juiste categorie als doorgewerkte oefening — niet als opdracht (oefening leeft in `oefening.md`)."
+      - "Examen-formule voor classificatie-vragen: stel jezelf één vraag per activiteit — 'wie geeft hier TOESTEMMING (1), wie HOUDT iets fysiek (2), wie SCHRIJFT iets op (3), wie KIJKT NA wat een ander deed (4)?'. Eén-na-één-toepassing voorkomt door-elkaar-haspelen."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Activiteit Bracke aankoopcyclus", "Categorie (1-4)"]
+        rijen:
+          - ["Goedkeuring bestelling > 5.000 EUR door Pieter", "**1 — Autorisatie**"]
+          - ["Ontvangst HVAC-units door Davy in magazijn", "**2 — Bewaring activa**"]
+          - ["Inboeken factuur Vaillant door Eline", "**3 — Registratie en rapportering**"]
+          - ["3-way match controle door Eline (bestelbon ↔ ontvangstbon ↔ factuur)", "**4 — Controleprocedures**"]
+          - ["Aanmaak wekelijkse betaalbatch door Eline (selectie te betalen facturen)", "**3 — Registratie en rapportering**"]
+          - ["Goedkeuring betaalbatch > 10.000 EUR door Sofie", "**4 — Controleprocedures**"]
+          - ["Uitvoering bankbetaling via Isabel 6", "**2 — Bewaring activa**"]
+          - ["Aanmaak nieuwe leverancier in Odoo door Eline", "**1 — Autorisatie**"]
+
+  - id: karakter-driehoek
+    titel: "Taxonomie 3 — karakter-driehoek preventief · detectief · correctief"
+    niveau: 2
+    beats:
+      - "Open met de stelling: controles kunnen NIET ALLEEN naar functie geclassificeerd worden, maar OOK naar TIJDSTIP-VAN-WERKING ten opzichte van een mogelijk incident. Deze derde taxonomie is examen-favoriet (examen 2013-2 vr12)."
+      - "Werk de drie karakter-types uit. (1) PREVENTIEF — VOORKOMT incidenten VÓÓR ze gebeuren. Plaatst zich op het transactiepad als poortwachter. Voorbeelden: functiescheiding (verhindert dat één persoon alleen kan frauderen), autorisatie-drempels (blokkeert bestelling boven 5.000 EUR zonder Pieter), ERP-validatie-regel (Odoo weigert factuur > 110 % van bestelbon), toegangs-beveiliging magazijn. (2) DETECTIEF (REPRESSIEF) — SIGNALEERT incidenten NA dat ze gebeurd zijn, zodat ze gecorrigeerd kunnen worden. Voorbeelden: bank-reconciliatie maandelijks, fysieke voorraad-telling jaarlijks, exceptie-rapport prijswijzigingen > 3 %, interne audit review achteraf. (3) CORRECTIEF — HERSTELT na een incident én past het systeem aan om herhaling te voorkomen. Voorbeelden: BTW-rechtzetting na fout in klantenfiche, procedure-aanpassing na fraude-incident, opleiding van betrokken medewerker."
+      - "Werk de complementariteit uit: preventief + detectief zijn GEEN alternatieven maar COMPLEMENTAIR. Alleen preventief = blinde vlek (wat als de control faalt?); alleen detectief = schade incasseren vóór correctie. Een sluitend IC-systeem heeft BEIDE — en correctief sluit de feedback-loop."
+      - "Concretiseer met Bracke per type. PREVENTIEF: functiescheiding in normale aankoopcyclus (5 personen — zou het ideaal zijn); 3-way match in Odoo blokkeert factuur > 102 % van bestelbon. DETECTIEF: maandelijkse bank-reconciliatie door Eline; voorraadtelling 2× per jaar (juni + december); jaarlijkse externe samenstelling. CORRECTIEF: na Bart-incident — drempel-aanpassing + Odoo-rolherinrichting + spend-analyse top-20-leveranciers > 25 k introduceren."
+      - "Examen-valkuil: een 'fysieke voorraadtelling' is DETECTIEF, niet preventief — ze STELT verschillen vast tussen werkelijk en geboekt. De CORRECTIEBOEKING die erop volgt is correctief. Verwar niet de telling met de boeking erna."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Karakter", "Tijdstip", "Bracke-voorbeelden"]
+        rijen:
+          - ["**Preventief**", "VÓÓR incident — blokkeert", "Functiescheiding · 3-way match Odoo · autorisatie-drempels · toegangsbeveiliging"]
+          - ["**Detectief (repressief)**", "NA incident — signaleert", "Bank-reconciliatie maandelijks · voorraad-telling 2×/jaar · externe samenstelling jaarlijks"]
+          - ["**Correctief**", "NA detectie — herstelt + past systeem aan", "BTW-rechtzetting na klantenfiche-fout · drempel-aanpassing na Bart-incident"]
+
+  - id: accountingcontrole-vs-administratief
+    titel: "Bonus-taxonomie — accountingcontrole vs administratieve controle"
+    niveau: 2
+    beats:
+      - "Open met de positionering: nog een examen-vraag-type (examen 2015-1 vr12) — onderscheid tussen accountingcontrole (boekhoudkundige controle) en administratieve controle. Komt uit de Starreveld-traditie, in ITAA-context bevestigd door ISA 315 (herzien-2019) Bijlage 3."
+      - "Werk het onderscheid uit. ACCOUNTINGCONTROLE bewaakt de JUISTHEID, VOLLEDIGHEID EN TIJDIGHEID VAN DE BOEKHOUDING ZELF — alle controles die zorgen dat transacties correct in de boeken belanden. Gericht op de OUTPUT (boekhouding). ADMINISTRATIEVE CONTROLE bewaakt de RECHTMATIGHEID, DOELMATIGHEID EN BETROUWBAARHEID VAN DE ADMINISTRATIEVE PROCESSEN — autorisaties, functiescheiding, procedure-naleving — VÓÓR ze de boekhouding bereiken. Gericht op het PROCES (weg ernaartoe)."
+      - "Werk de scherpe stelling uit: het onderscheid gaat over WAT wordt gecontroleerd, niet WANNEER. Accountingcontrole = output = de boeken. Administratieve controle = proces = de weg ernaartoe. Een goed IC-systeem heeft BEIDE NODIG — administratieve controle voorkomt fouten, accountingcontrole detecteert wat er toch nog inglipt."
+      - "Concretiseer met Bracke. ACCOUNTINGCONTROLES: maandelijkse bank-grootboekreconciliatie (saldo 550 met Isabel-uittreksel); aansluitingscontrole klanten-grootboek met individuele klantfiches; jaarlijkse voorraad-telling met aansluiting magazijnboek; cut-off-controle bij jaareinde. ADMINISTRATIEVE CONTROLES: 3-way match in aankoopcyclus VÓÓR betaling; autorisatiematrix Pieter > 5.000 EUR; functiescheiding aanmaken-leveranciers vs betalen; vier-ogen op contracten met top-klanten."
+
+  - id: kmo-compensatie
+    titel: "KMO-realiteit — compenseren als functiescheiding niet haalbaar is"
+    niveau: 2
+    beats:
+      - "Open met de stelling: een 32-koppige Bracke kan niet 5 personen op een aankoop-flow zetten. Bij beperkte staf moet je ANDERE controles inzetten om hetzelfde doel (geen single-point-of-failure) te bereiken."
+      - "Werk de ISA-erkenning uit (ISA 315 herzien-2019 §A157, voluit als anker): 'het kan minder praktisch uitvoerbaar zijn om functiescheiding in minder complexe entiteiten met minder medewerkers tot stand te brengen. In een door de eigenaar bestuurde entiteit kan de eigenaar-bestuurder echter mogelijk meer effectief toezicht uitoefenen door directe betrokkenheid... wat de over het algemeen beperktere mogelijkheden voor functiescheiding kan compenseren'."
+      - "Werk de drie KMO-compensaties uit. (1) DIRECT TOEZICHT DOOR ZAAKVOERDER — parafeer alle onkostennota's, do je eigen kascontrole, review alle nieuwe leveranciers > X EUR. (2) ROULATIE — laat verschillende personen periodiek elkaars taken doen (bv. wekelijks andere persoon voor de bank-reconciliatie); detecteert verbergende patronen. (3) STEEKPROEFCONTROLES van zaakvoerder op typisch-fraudegevoelige activiteiten — bv. periodieke spend-analyse top-20-leveranciers."
+      - "Belangrijke nuance: BRACKE — Pieter doet wel direct toezicht (bedrijfsleider zichtbaar aanwezig), MAAR hij is OOK uitvoerder van bepaalde controles (alle kasstortingen ZELF — Z11). Direct toezicht door iemand die ZELF niet onder toezicht staat is een nieuwe management-override-risico. Echte 4-ogen vereist dat de zaakvoerder zelf onder review staat — bv. door de externe accountant of mede-zaakvoerder Sofie."
+      - "Examen-formule (KLASSIEKER): 'beperkte functiescheiding ⇒ compenseren via direct toezicht'. Antwoord moet NOOIT zijn 'er is geen functiescheiding mogelijk, dus geen IC'. Dat is examen-fout. Antwoord moet zijn: 'functiescheiding beperkt; compensatie via [concreet voorstel: direct toezicht door zaakvoerder + periodieke roulatie + externe review]'."
+
+  - id: drie-valkuilen
+    titel: "Drie valkuilen"
+    niveau: 2
+    beats:
+      - "Valkuil 1 (⚠️): 5-functies-leer en 4-categorieën-typologie door elkaar gebruiken zonder te beseffen welke geldt. FOUT. Het examen specificeert WELKE taxonomie gevraagd wordt — lees de vraag goed. 'Min 2 functiescheidingen' ⇒ 5-functies-leer (BURCB). 'Categorie 1-4' ⇒ 4-categorieën. Wie BURCB-functies in een 1234-vraag stopt verliest punten."
+      - "Valkuil 2 (⚠️): preventief en detectief verwarren. FOUT. Functiescheiding = PREVENTIEF (voorkomt). Inventarisatie = DETECTIEF (signaleert). Confirmatie van leverancier-saldo = DETECTIEF (verifieert achteraf). ICT-toegangs-beveiliging = PREVENTIEF (blokkeert). Wie de tijdslijn niet vasthoudt classificeert fout."
+      - "Valkuil 3 (⚠️): 'geen functiescheiding mogelijk in KMO' als excuus. FOUT. Beperkte functiescheiding MOET worden gecompenseerd door direct toezicht, roulatie of steekproef. Het examen-antwoord 'er kan niets gedaan worden' is altijd onvoldoende — vermeld concrete compenserende controles."
+    type_blokken: warning-bullets
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Wanneer je dit snapt, ga dan naar:"
+  leerstukken:
+    - slug: cyclus-analyse-en-controlemiddelen
+      hint: "De drie taxonomieën hier toegepast per transactiecyclus — aankoop · verkoop · voorraad · kas · lonen. Plus IT-laag (ITGC + applicatie + cloud) en het 8-stappen-ontwerp."
+    - slug: fouten-fraude-en-risicobeheersing
+      hint: "Hoe functiescheidings-gaten worden geëxploiteerd door fraudeurs — fraudedriehoek (druk · gelegenheid · rationalisatie) + 3 fraudecategorieën."
+    - slug: wat-is-interne-controle-en-coso
+      hint: "Voor het COSO-kader + 4 doelen + redelijke zekerheid + 5 inherente beperkingen — fundament dat hier wordt toegepast."
+    - slug: interne-audit-evaluatie-en-aanbevelingen
+      hint: "Hoe de externe en interne auditor de functiescheiding EVALUEREN — design vs operating effectiveness."
+  samenvatting:
+    hint: "Voor herhaling — de drie taxonomieën op één blad + accountingcontrole-vs-administratieve-controle + KMO-compensatie-formules."
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [functiescheiding, interne-controle]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Functiescheiding als preventieve beheersingsmaatregel"
+    ref: "ISA 315 (herzien-2019), Bijlage 3 §20-22"
+    noot: "Functiescheiding is bedoeld om beperkingen aan te brengen in de mogelijkheden om fouten te maken EN te verhullen of fraude te plegen EN te verhullen."
+  - onderwerp: "KMO-compensatie via direct toezicht zaakvoerder"
+    ref: "ISA 315 (herzien-2019), §A157"
+    noot: "Bij minder complexe entiteiten met beperkte staf kan de eigenaar-bestuurder via directe betrokkenheid effectief toezicht uitoefenen ter compensatie."
+  - onderwerp: "ITAA-norm voor KMO-context"
+    ref: "ITAA-norm KMO-controlenorm — §97-98 toetsingen + Bijlage 1 (Definities)"
+    noot: "Werkt ISA 315-principes operationeel uit voor KMO-controleopdrachten; vereist evaluatie functiescheiding en compenserende controles."
+  - onderwerp: "5 controletechnische functies (BURCB) + 4-categorieën-typologie"
+    ref: "Starreveld-traditie + COSO 2013 — internationale doctrine (geen wettekst)"
+    noot: "Klassieke audit-doctrine; impliciet in ISA 315 §26 (interne beheersingsactiviteiten). 4-categorieën-typologie (Aut · Bew · Reg · Contr) is COSO/IIA-uitwerking."
+
+footer: "Leerstuk PO 1.7 — techniek (2 van 5). Volgende stap: [[cyclus-analyse-en-controlemiddelen]]."
