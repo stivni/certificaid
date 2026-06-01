@@ -110,9 +110,8 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     controls,
-    Component.DesktopOnly(Component.Explorer(explorerOpts)),
+    Component.Explorer(explorerOpts),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -127,9 +126,8 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     controls,
-    Component.DesktopOnly(Component.Explorer(explorerOpts)),
+    Component.Explorer(explorerOpts),
   ],
   right: [],
 }
