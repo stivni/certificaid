@@ -1,0 +1,411 @@
+# Van Daele Holding — voorbeeldgroep voor PO 2.1 (Algemene beginselen van fiscaal recht)
+#
+# Denkkader-voorbeeldgroep. Géén kloppende balansen, géén ratio-cijfers — wel
+# één fictieve familie-holdingstructuur met vier mini-vignetten die in de vijf
+# leerstukken van PO 2.1 als case-haakje worden gebruikt.
+#
+# Wordt geconsumeerd door (alle PO 2.1-leerstukken kunnen één of meer vignetten oproepen):
+#   - data/leerstukken/belasting-en-bronnen.yaml          (L1)
+#   - data/leerstukken/wie-heft-wie-betaalt.yaml          (L2 — vooral V4)
+#   - data/leerstukken/beginselen-en-grenzen.yaml         (L3 — V1, V3, V4)
+#   - data/leerstukken/planning-en-misbruik.yaml          (L4 — V1, V2)
+#   - data/leerstukken/rechtszekerheid-bouwen.yaml        (L5 — V2)
+#
+# Bron-discipline: elke juridische claim in juridische_haakjes is via MCP
+# (zoek_bronnen / zoek_concepten) geverifieerd vóór schrijven. ⚖️ = direct uit
+# wettekst-RAG bevestigd; 🤖 = via concept-record (geen separate wettekst-hit).
+# Cijfers (familievermogen, gebouwwaarden) zijn fictieve orde-van-grootte.
+# Geen examen-jaar-referenties — PO 2.1 heeft geen examen-bron (zie skelet §1.3).
+
+naam: van-daele-holding
+beschrijving: >
+  De Van Daele-holding is een mock Belgische familiale vermogensstructuur
+  rond pater familias Marc Van Daele (61) en zijn twee meerderjarige kinderen
+  Lotte (34) en Wouter (31). Het familievermogen — historisch opgebouwd door
+  een succesvolle bouwmaterialenhandel — is gebundeld in Van Daele Holding NV.
+  Onder de holding hangt één actieve werkmaatschappij (Van Daele Bouwhandel NV)
+  plus twee privé-onroerende goederen die deels in de holding en deels privé
+  worden gehouden. De groep is bewust klein én juridisch overzichtelijk gekozen:
+  ze biedt vier didactische haakjes voor PO 2.1 (planning vs misbruik · ruling ·
+  bronnen-hiërarchie · gewestelijke autonomie) zonder dat de student in
+  consolidatie- of cijferdetail verzandt.
+
+sector: "Bouwmaterialenhandel (NACE 46.73) — familiaal vermogen"
+rechtsvorm_holding: NV
+rechtsvorm_werkmaatschappij: NV
+balansdatum: "31-12-2025"
+
+# ---------------------------------------------------------------------------
+# Familie en structuur
+# ---------------------------------------------------------------------------
+
+familie_en_structuur:
+
+  personen:
+    - naam: "Marc Van Daele"
+      leeftijd: 61
+      rol: "pater familias · CEO holding · 70 % aandelen"
+      profiel: >
+        Stichter en historische motor van het familievermogen. Wil de
+        volgende vijf jaar geleidelijk uit de operationele leiding stappen
+        en de structuur fiscaal optimaal aan de kinderen overdragen.
+
+    - naam: "Lotte Van Daele"
+      leeftijd: 34
+      rol: "dochter · 15 % aandelen · bestuurder werkmaatschappij"
+      profiel: >
+        Actief in het bedrijf sinds 10 jaar. Operationele opvolger.
+
+    - naam: "Wouter Van Daele"
+      leeftijd: 31
+      rol: "zoon · 15 % aandelen · niet actief in de zaak"
+      profiel: >
+        Werkt als architect, wenst niet operationeel betrokken te zijn —
+        wél vermogensbelang behouden.
+
+  vennootschappen:
+    - naam: "Van Daele Holding NV"
+      rechtsvorm: NV
+      rol: "topvennootschap — houdt 100 % van de werkmaatschappij + één privé-pand"
+      balanstotaal_richting: "~€ 8 miljoen (familievermogen geconcentreerd in deelneming + vastgoed + liquiditeiten)"
+
+    - naam: "Van Daele Bouwhandel NV"
+      rechtsvorm: NV
+      rol: "werkmaatschappij — exploitatie bouwmaterialenhandel (3 verkooppunten Vlaanderen)"
+      balanstotaal_richting: "~€ 4,5 miljoen"
+
+  onroerend_goed:
+    - naam: "Bedrijfsgebouw Wevelgem"
+      bestemming: "hoofdzetel + magazijn — verhuurd door Marc privé aan Van Daele Bouwhandel"
+      waarde_richting: "~€ 1,2 miljoen"
+      eigenaar: "Marc Van Daele privé"
+      gebruikt_in_vignet: ["V2"]
+
+    - naam: "Pand Aalst (leegstand)"
+      bestemming: "voormalig tweede verkooppunt, gesloten in 2023 — staat sindsdien leeg"
+      waarde_richting: "~€ 450.000"
+      eigenaar: "Van Daele Holding NV"
+      gebruikt_in_vignet: ["V4"]
+
+# ---------------------------------------------------------------------------
+# Mermaid-diagram — structuur in één blik
+# ---------------------------------------------------------------------------
+
+mermaid_diagrammen:
+
+  groepsstructuur:
+    type: flowchart-td
+    code: |
+      M[Marc Van Daele<br/>pater familias · 61]
+      L[Lotte Van Daele<br/>34 · operationeel]
+      W[Wouter Van Daele<br/>31 · architect]
+      H[Van Daele Holding NV<br/>topvennootschap]
+      B[Van Daele Bouwhandel NV<br/>werkmaatschappij]
+      G1[Bedrijfsgebouw Wevelgem<br/>€ 1,2 mio · privé Marc]
+      G2[Pand Aalst<br/>€ 450 k · leegstand sinds 2023]
+
+      M -->|70 % aandelen| H
+      L -->|15 % aandelen| H
+      W -->|15 % aandelen| H
+      H -->|100 % aandelen| B
+      H -->|eigenaar| G2
+      M -.->|eigenaar privé,<br/>verhuurd aan B| G1
+      G1 -.->|huur| B
+
+      style G2 stroke-dasharray: 5 5
+      style G1 stroke-dasharray: 5 5
+
+# ---------------------------------------------------------------------------
+# Vignet 1 — gefaseerde schenking aandelen via holding
+# ---------------------------------------------------------------------------
+
+vignet_v1_gefaseerde_schenking:
+
+  vignet_naam: "V1 — Gefaseerde schenking van holding-aandelen aan de kinderen"
+  leerstuk_gebruik: ["L3 beginselen-en-grenzen", "L4 planning-en-misbruik"]
+  spanningsas: "Minst belaste weg (toelaatbare planning) ↔ simulatie / fiscaal misbruik (verboden)"
+
+  feitenrelaas: >
+    Marc Van Daele wenst de volgende vijf jaar zijn 70 %-aandelenpakket in
+    Van Daele Holding NV stelselmatig aan Lotte en Wouter over te dragen,
+    zodat bij zijn overlijden zo weinig mogelijk vermogen in de
+    nalatenschap valt. Hij overweegt twee scenario's. (Scenario A) Klassieke
+    notariële schenking voor Belgische notaris met betaling van het Vlaamse
+    schenkbelasting-tarief voor familiale vennootschappen — gespreid over
+    drie tranches in jaar 1, 3 en 5. (Scenario B) Een handgift via
+    bankoverschrijving van een geldsom aan elk kind, gevolgd door een
+    onmiddellijke kapitaalverhoging in de holding waarbij de kinderen
+    nieuwe aandelen onderschrijven en Marc's percentage proportioneel
+    daalt. Scenario B wordt voorgesteld door een buitenlandse fiscalist
+    die argumenteert dat 'het economisch resultaat hetzelfde is maar geen
+    Belgische schenkbelasting verschuldigd is mits de driejaars-termijn
+    wordt afgewacht'. De familie-adviseur (de stagiair) krijgt beide
+    scenario's ter beoordeling. De vraag is niet of de constructies
+    civielrechtelijk kúnnen — dat kan — wel of ze fiscaal blijven binnen
+    de grenzen van de minst belaste weg, of dat scenario B mogelijk
+    simulatie of fiscaal misbruik uitmaakt. Bijkomende vraag: heeft het
+    feit dat Marc al concrete erfopvolgings-intentie heeft uitgesproken
+    in familieoverleg, enige invloed op de fiscale beoordeling?
+
+  juridische_haakjes:
+    - claim: "Belastingplichtige mag de minst belaste weg kiezen (Brepols-doctrine)"
+      bron: "Cass. 6 juni 1961, Brepols — bevestigd door Au Vieux Saint-Martin (Cass. 29 januari 1988)"
+      status: "🤖 via concept-record `simulatie-leer` — cassatie-arresten zitten niet apart in bronnen-RAG, doctrine-consensus"
+
+    - claim: "Simulatie: fiscus mag de tegenakte aanvoeren wanneer partijen één enkel rechtsgevolg van de gekozen vorm wensen te ontlopen terwijl ze de overige aanvaarden"
+      bron: "Au Vieux Saint-Martin (Cass. 29 januari 1988) · art. 1321 oud BW / 5.197 nieuw BW"
+      status: "🤖 via concept-record `simulatie-leer`"
+
+    - claim: "Algemene anti-misbruik-bepaling — art. 344 §1 WIB92: 'Aan de administratie kan niet worden tegengeworpen, de rechtshandeling … wanneer de administratie aantoont dat er sprake is van fiscaal misbruik'"
+      bron: "WIB92 art. 344 §1"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+    - claim: "Tegenbewijs: belastingplichtige moet aantonen dat de keuze 'door andere motieven verantwoord is dan het ontwijken van inkomstenbelastingen'"
+      bron: "WIB92 art. 344 §1 derde lid"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+  didactisch_kernpunt: >
+    Dit is hét didactisch scharnier-vignet van PO 2.1: het toont dat 'minst
+    belaste weg' een grondrecht is van de belastingplichtige (Brepols) maar
+    geen vrijbrief. Het verschil tussen scenario A (klassieke planning) en
+    scenario B (constructie) zit in de vraag of álle juridische gevolgen
+    van de gekozen vorm écht aanvaard worden of dat de partijen één gevolg
+    veinzen. De stagiair moet leren dat de scheidslijn niet ligt bij 'is
+    de fiscale gunst groot?' maar bij 'is de gekozen rechtshandeling reëel
+    en zijn alle gevolgen gewenst?'.
+
+  mogelijk_antwoord_richting: >
+    Scenario A is klassieke planning binnen de minst belaste weg (Brepols
+    geldt); scenario B verdient een dubbele toets: simulatie (wordt de
+    handgift werkelijk gewild of is het een schenking van aandelen
+    vermomd als kapitaalverhoging?) én art. 344 §1 WIB ('in strijd met
+    de doelstellingen van de schenkbelasting-bepalingen?'). Dat is een
+    feitenkwestie — niet zwart-wit. De rol van de adviseur is de risico's
+    expliciet te benoemen en een DVB-ruling te overwegen (link met V2/L5).
+
+# ---------------------------------------------------------------------------
+# Vignet 2 — bedrijfsgebouw verkopen aan eigen holding
+# ---------------------------------------------------------------------------
+
+vignet_v2_vastgoed_aan_holding:
+
+  vignet_naam: "V2 — Bedrijfsgebouw verkopen aan de eigen holding i.p.v. verhuren"
+  leerstuk_gebruik: ["L4 planning-en-misbruik", "L5 rechtszekerheid-bouwen"]
+  spanningsas: "Fiscaal misbruik-risico (art. 344 §1 WIB) ↔ proactieve rechtszekerheid via DVB-ruling"
+
+  feitenrelaas: >
+    Marc verhuurt zijn privé-bedrijfsgebouw in Wevelgem aan Van Daele
+    Bouwhandel NV voor een jaarlijkse huur van € 84.000. De huur wordt
+    in zijn personenbelasting belast als onroerend inkomen — een nadeel
+    omdat een groot deel boven de geherkwalificeerde drempels uitstijgt
+    en als bezoldiging-bestuurder wordt belast (art. 32 WIB). Zijn fiscalist
+    suggereert dat Marc het gebouw verkoopt aan Van Daele Holding NV voor
+    de marktwaarde (€ 1,2 miljoen). De holding financiert de aankoop met
+    een banklening; Marc int de verkoopsom belastingvrij (privé-meerwaarde
+    op een gebouw aangehouden > 5 jaar — art. 90, 10° WIB e contrario) en
+    legt die om in een lijfrentebelegging. De huur die voorheen privé
+    binnenkwam vloeit nu naar de holding, waar ze kan worden ingezet
+    voor de aflossing van de banklening en voor latere uitkering aan
+    de kinderen-aandeelhouders. Marc vraagt zijn adviseur of deze
+    herstructurering hem aan een art. 344 §1 WIB-discussie blootstelt
+    en, zo ja, of een voorafgaande beslissing van de Dienst Voorafgaande
+    Beslissingen (DVB) aangewezen is. Bijkomende parameter: in eerdere
+    administratieve commentaren en rechtspraak is de herkwalificatie van
+    'huur als bezoldiging' (art. 32 WIB) een gevoelige zone.
+
+  juridische_haakjes:
+    - claim: "Art. 344 §1 WIB92 — fiscaal misbruik treedt op als de verrichting (1°) buiten het toepassingsgebied van een bepaling plaatst in strijd met haar doelstellingen, OF (2°) een belastingvoordeel beoogt dat in strijd is met die doelstellingen"
+      bron: "WIB92 art. 344 §1 tweede lid 1°-2°"
+      status: "⚖️ direct geverifieerd via zoek_bronnen — volledige tekst opgehaald"
+
+    - claim: "Voorafgaande beslissing in fiscale zaken — schriftelijke aanvraag, behandeling door DVB, bindende werking voor maximaal vijf jaar (art. 23)"
+      bron: "Wet 24 december 2002 art. 20-28 — art. 21 (aanvraagvereisten), art. 22 (weigeringsgronden), art. 23 (5-jaar-binding)"
+      status: "⚖️ direct geverifieerd via zoek_bronnen — art. 21, 22, 23 expliciet teruggevonden"
+
+    - claim: "Een ruling kan niet gegeven worden voor situaties die identiek zijn aan reeds afgesloten verrichtingen of die voorwerp uitmaken van een administratief beroep — art. 22 1°"
+      bron: "Wet 24 december 2002 art. 22 1°"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+    - claim: "Het systeem van voorafgaande beslissingen wordt uitgevoerd door K.B. 30 januari 2003 (uitvoeringsbesluit art. 26 van de wet)"
+      bron: "K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+  didactisch_kernpunt: >
+    Een verrichting die volledig binnen de letter van het privé- én
+    vennootschapsfiscaal recht blijft kan tóch fiscaal misbruik vormen
+    als de gekozen weg in 'strijd met de doelstellingen' van een bepaling
+    leidt tot een belastingvoordeel dat in wezen het hoofddoel is. De
+    stagiair leert dat de antwoord-strategie operationeel is: ofwel
+    aantonen dat niet-fiscale motieven het primaire doel zijn
+    (vermogensbeheer, opvolgings-voorbereiding), ofwel preventief
+    zekerheid kopen via DVB-ruling.
+
+  mogelijk_antwoord_richting: >
+    Reëel risico op art. 344 §1 WIB-discussie — vooral wanneer de huur-
+    naar-de-holding-flow direct na de verkoop wordt aangewend om
+    uitkeerbare reserves op te bouwen. DVB-ruling actief overwegen: de
+    DVB zal kijken naar timing, financiering, marktconforme huur, en de
+    geheel van rechtshandelingen. Verdedigbare niet-fiscale motieven:
+    risico-isolering bedrijfsvastgoed buiten privévermogen, pre-financiering
+    successieplanning, professioneel vastgoedbeheer.
+
+# ---------------------------------------------------------------------------
+# Vignet 3 — onduidelijke wetstoepassing van een nieuwe gunstmaatregel
+# ---------------------------------------------------------------------------
+
+vignet_v3_onduidelijke_gunstmaatregel:
+
+  vignet_naam: "V3 — Onduidelijke wettekst van een recente gunstmaatregel"
+  leerstuk_gebruik: ["L1 belasting-en-bronnen", "L3 beginselen-en-grenzen"]
+  spanningsas: "Bronnen-hiërarchie (wet > KB > circulaire) ↔ interpretatie-leer (grammaticaal/teleologisch · in dubio contra fiscum)"
+
+  feitenrelaas: >
+    Bij de jaarafsluiting 2025 loopt Marc een recente programmawet tegen
+    het lijf die een nieuw fiscaal gunstregime invoert voor
+    investeringen door familiale holdings in energie-efficiëntie van
+    de werkmaatschappij. De wettekst spreekt van 'investeringen die de
+    energieprestaties van de bedrijfsactiviteit substantieel verbeteren';
+    het bijhorende KB definieert noch de drempel 'substantieel' noch de
+    bewijsstukken. Een administratieve circulaire — uitgegeven door de
+    centrale diensten van de Algemene Administratie van de Fiscaliteit —
+    geeft een eigen invulling: 'substantieel' wordt gelijkgesteld aan een
+    EPC-vermindering van minstens 30 %. Marc plant een dakisolatie- en
+    PV-installatie van € 280.000 in het Wevelgemse gebouw — de geschatte
+    EPC-vermindering is 24 %. Volgens de strikte letter van de wet
+    zou ze kunnen kwalificeren ('substantieel' is een rekbaar begrip);
+    volgens de circulaire niet. Marc's adviseur moet de mogelijke
+    bronnen-conflict-vraag beoordelen: welke bron telt, en wat als de
+    wet meerdere lezingen toelaat?
+
+  juridische_haakjes:
+    - claim: "Bronnen-hiërarchie in fiscaal recht: Grondwet > wet/decreet > KB > ministerieel besluit > circulaire. Een circulaire is een interne dienstinstructie en is niet bindend voor de belastingplichtige noch voor de rechter — ze bindt enkel de administratie zelf"
+      bron: "Bronnen-hiërarchie volgt uit art. 170 GW (legaliteitsbeginsel) — circulaire-statuut uit doctrine + Cassatie-rechtspraak"
+      status: "🤖 via concept-record `fiscaal-recht` + art. 170 GW ⚖️ via zoek_bronnen"
+
+    - claim: "Legaliteitsbeginsel — art. 170 §1 GW: 'Geen belasting ten behoeve van de Staat kan worden ingevoerd dan door een wet'. Gevolg: strikte interpretatie + verbod analogie + geen belasting waar de wet zwijgt"
+      bron: "Grondwet art. 170 §1"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+    - claim: "Interpretatie van fiscale wet: grammaticaal vertrekpunt; bij blijvende twijfel klassiek 'in dubio contra fiscum' — door moderne Cassatie genuanceerd"
+      bron: "Concept-record `interpretatie-fiscale-wet` — grammaticaal · teleologisch · systematisch · in dubio contra fiscum"
+      status: "🤖 via concept-record (record uitvoerig gemotiveerd)"
+
+  didactisch_kernpunt: >
+    Een circulaire is geen wet. Wanneer een belastingplichtige zich op
+    de wettekst zelf beroept (grammaticaal én eventueel teleologisch),
+    kan hij ook tegen een ongunstige circulaire ingaan — de circulaire
+    bindt de fiscus, niet de belastingplichtige of de rechter. Bij
+    blijvende twijfel speelt het strikte-interpretatie-beginsel
+    (afgeleide van art. 170 GW). De stagiair leert het verschil tussen
+    'de fiscus past de circulaire toe' (operationele realiteit) en 'de
+    circulaire is bindend' (juridisch onjuist).
+
+  mogelijk_antwoord_richting: >
+    Tweesporig advies: (a) operationeel — de circulaire zal door de
+    controle-ambtenaar worden toegepast; rekenen op een betwisting bij
+    bezwaar of rechter; (b) juridisch — beargumenteerd dossier opbouwen
+    met grammaticale + teleologische lezing van de wettekst. Eventueel
+    DVB-ruling overwegen om interpretatieconflict ex ante te beslechten
+    (zie L5).
+
+# ---------------------------------------------------------------------------
+# Vignet 4 — Vlaamse leegstandsheffing op een privé-pand van de holding
+# ---------------------------------------------------------------------------
+
+vignet_v4_leegstandsheffing:
+
+  vignet_naam: "V4 — Vlaamse leegstandsheffing bedrijfsruimten op het pand Aalst"
+  leerstuk_gebruik: ["L2 wie-heft-wie-betaalt", "L3 beginselen-en-grenzen"]
+  spanningsas: "Federaal/gewest/lokaal-driehoek (gewestelijke fiscale autonomie) ↔ legaliteits- en gelijkheidsbeginsel op gewestelijk niveau"
+
+  feitenrelaas: >
+    Het pand in Aalst — voormalig tweede verkooppunt — staat sinds 2023
+    leeg. Eind 2025 ontvangt Van Daele Holding NV een eerste aanmaning
+    van VLABEL met de mededeling dat de leegstandsheffing bedrijfsruimten
+    voor het pand in voorbereiding is en dat het pand is opgenomen in
+    de inventaris leegstaande bedrijfsruimten. Marc reageert verbaasd:
+    'Sinds wanneer kan een Vlaamse administratie een belasting heffen
+    op iets wat federaal niet bestaat?' De adviseur moet uitleggen
+    waarom VLABEL bevoegd is, waar die bevoegdheid uit voortvloeit, hoe
+    de gewestelijke wetgever zelf gebonden blijft door grondwettelijke
+    beginselen (legaliteit, gelijkheid), en welke mogelijke verweren
+    binnen het Vlaamse regime openstaan (opschorting bij goede staat
+    of bedrijfseconomische omstandigheden). Bijkomend wenst Marc te weten
+    welke administratie zijn gesprekspartner wordt bij betwisting — de
+    federale fiscus is hier niet de juiste deur.
+
+  juridische_haakjes:
+    - claim: "Gewestelijke fiscale autonomie — art. 170 §2 Grondwet: 'Geen belasting ten behoeve van de gemeenschap of het gewest kan worden ingevoerd dan door een decreet of een in artikel 134 bedoelde regel'"
+      bron: "Grondwet art. 170 §2"
+      status: "⚖️ direct geverifieerd via zoek_bronnen — volledige tekst opgehaald"
+
+    - claim: "Bijzondere wet van 16 januari 1989 betreffende de financiering van de Gemeenschappen en de Gewesten — kader voor gewestelijke fiscale bevoegdheden (art. 3, lid 1, 4° regelt overdracht oude federale registratierechten naar gewesten)"
+      bron: "BFW 16 januari 1989 — vermeld in talrijke gewestelijke-bepaling-verwijzingen in Wetboek Successierechten"
+      status: "⚖️ indirect bevestigd via zoek_bronnen (BFW-verwijzingen in federaal Successierecht)"
+
+    - claim: "Vlaamse leegstandsheffing bedrijfsruimten — VCF art. 2.6.1.0.1: 'Er wordt een leegstandsheffing geheven op de bedrijfsruimten die opgenomen zijn in de inventaris'. Verschuldigd vanaf het kalenderjaar volgend op de derde opeenvolgende registratie (art. 2.6.7.0.1)"
+      bron: "Decreet 13 december 2013 (Vlaamse Codex Fiscaliteit) art. 2.6.1.0.1 + art. 2.6.7.0.1"
+      status: "⚖️ direct geverifieerd via zoek_bronnen — beide artikelen opgehaald"
+
+    - claim: "Opschorting van de leegstandsheffing kan worden verleend op verzoek van de eigenaar voor bedrijfsruimten die door bedrijfseconomische omstandigheden geheel of gedeeltelijk leegstaan maar in goede staat verkeren — beperkt tot één jaar"
+      bron: "VCF art. 2.6.7.5.1"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+    - claim: "Gelijkheidsbeginsel in fiscale zaken geldt evenzeer op gewestelijk niveau — art. 172 GW: 'Inzake belastingen kunnen geen voorrechten worden ingevoerd. Geen vrijstelling of vermindering van belasting kan worden ingevoerd dan door een wet' (door Grondwettelijk Hof toegepast op decreten)"
+      bron: "Grondwet art. 172"
+      status: "⚖️ direct geverifieerd via zoek_bronnen"
+
+  didactisch_kernpunt: >
+    België is fiscaal polycentrisch. De federale wetgever is niet de
+    enige heffende overheid: ook gewesten (decreet) en gemeenten
+    (gemeenteraadsbeslissing) hebben een eigen — grondwettelijk
+    verankerde — fiscale bevoegdheid. Wat federaal niet bestaat, kan
+    perfect gewestelijk bestaan. De gewestelijke wetgever blijft echter
+    zelf gebonden door de grondwettelijke beginselen (legaliteit,
+    gelijkheid, niet-retroactiviteit) — én door de Vlaamse Codex
+    Fiscaliteit als materieel én procedureel kader. De juiste
+    gesprekspartner is hier VLABEL, niet de federale FOD Financiën.
+
+  mogelijk_antwoord_richting: >
+    Eerst feitelijke verificatie: registratiedatum in inventaris (drie
+    opeenvolgende jaren?) — daarna twee operationele pistes: (a) verzoek
+    tot opschorting wegens bedrijfseconomische omstandigheden (art.
+    2.6.7.5.1 VCF) indien pand in goede staat én herbestemming gepland;
+    (b) feitelijk de leegstand actief beëindigen (verhuur, verkoop). De
+    adviseur moet ook uitleggen aan Marc dat het verweer 'gelijkheid
+    geschonden' tegen het decreet zelf alleen lukt voor het Grondwettelijk
+    Hof — een hoge drempel — en operationeel zelden de eerste lijn is.
+
+# ---------------------------------------------------------------------------
+# Auteur-notities
+# ---------------------------------------------------------------------------
+
+auteur_notities:
+
+  keuzes_verantwoorden: >
+    (1) Vier vignetten i.p.v. één centrale verrichting: PO 2.1 toetst
+    denkkader, niet één case. Vier losgekoppelde vignetten dekken de
+    vier spannings-assen (planning vs misbruik · ruling-instrument ·
+    bronnen-hiërarchie · gewestelijke autonomie) zonder ze in één
+    geforceerde case te dwingen. (2) Bouwmaterialenhandel als sector:
+    bewust gewoon — het didactisch werk gebeurt in de juridische analyse,
+    niet in sector-specifieke fiscale subtiliteiten. (3) Familievermogen
+    € 8 miljoen: groot genoeg om planning relevant te maken, klein genoeg
+    om niet in DBI / internationale structuren te belanden. (4) Pand Aalst
+    bewust in de holding (niet privé) om het accent op vennootschapsadres
+    voor VLABEL te leggen. (5) Bedrijfsgebouw Wevelgem bewust privé bij
+    Marc om de art. 32 WIB-herkwalificatie-spanning binnen handbereik
+    te houden voor V2.
+
+  hooks_voor_leerstuk_script_auteur:
+    - "L3 kan V1 (planning) en V4 (gelijkheid op gewestelijk niveau) als haakjes gebruiken; V3 dient als haakje voor interpretatie-leer + bronnen-hiërarchie"
+    - "L4 leunt zwaar op V1 én V2 — beide vignetten illustreren samen het Brepols → simulatie → art. 344 §1 WIB-spectrum"
+    - "L5 heeft V2 als operationele case (DVB-ruling overwegen na art. 344-risico)"
+    - "L2 heeft V4 als haakje voor 'wie heft' (VLABEL i.p.v. FOD Financiën) en federaal/gewest/lokaal-driehoek"
+    - "L1 kan V3 inroepen voor de bronnen-hiërarchie-uitleg (wet vs circulaire)"
+
+  bewust_niet_opgenomen:
+    - "Geen cijferdetail in balansen — denkkader-vak"
+    - "Geen examen-jaar-referenties — PO 2.1 heeft geen examen-bron en regel 1 in skelet"
+    - "Geen exacte tariefcijfers Vlaamse schenkbelasting of leegstandsheffing — tarief-bedragen zitten in Cijferzakboekje (raadpleegbaar op examen); niet hardcoderen in voorbeeldgroep om stale-risico te vermijden"
+    - "Geen internationale dimensie (geen buitenlandse holding, geen DBV-vraag) — territorialiteit komt in L3 als principe aan bod, niet als case"

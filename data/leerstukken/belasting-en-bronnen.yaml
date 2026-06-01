@@ -1,0 +1,183 @@
+# Leerstuk-script — Wat is een belasting en uit welke bronnen volgt ze?
+#
+# Entry-leerstuk PO 2.1. Fundering: wat onderscheidt een belasting van andere
+# overheidsheffingen, welke functies vervult ze, en uit welke bronnen — in welke
+# rangorde — wordt ze geput? Bewust géén anti-misbruik hier (komt in L4).
+#
+# Dekt kenniselementen: 2.1.I (definitie) · 2.1.II (functies) · 2.1.III (bronnen) ·
+# 2.1.V (indeling). Vignet-haakje: V3 (onduidelijke gunstmaatregel) voor het
+# bronnen-hiërarchie-stuk.
+
+meta:
+  slug: belasting-en-bronnen
+  titel: "Wat is een belasting en uit welke bronnen volgt ze?"
+  po: "2.1"
+  cluster: fiscaal-recht-algemeen
+  voorbeeldgroep: van-daele-holding
+  beschrijving: >
+    Leerstuk PO 2.1 — fundering: wat is een belasting (eenzijdig, voor algemeen
+    belang, geen tegenprestatie), welke functies vervult ze (budgettair · sturend ·
+    herverdelend · signaal), uit welke bronnen wordt ze geput (Grondwet → wet →
+    KB → circulaire) en hoe deel je de Belgische belastingen in.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 2.1. Vermeld
+    dat dit het instap-leerstuk is — alle latere leerstukken (L2 actoren, L3
+    beginselen, L4 misbruik, L5 ruling) bouwen op de basisbegrippen die hier
+    worden neergezet. Wikilinks doorheen de tekst leiden naar concept-fiches voor
+    definitorische opzoek.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Een belasting is een verplichte, eenzijdige geldelijke bijdrage die de overheid op grond van haar gezag heft, voor algemeen belang, zonder rechtstreekse individuele tegenprestatie. Drie kenmerken samen: eenzijdig + algemene uitgaven + geen tegenprestatie. Mis er één, dan is het geen belasting (maar een retributie of een sociale bijdrage)."
+    - "Een belasting heeft vier functies die door elkaar lopen: ze financiert de overheid (budgettair), ze stuurt gedrag (accijns op tabak, voordeel voor R&D), ze herverdeelt (progressieve PB-schijven) en ze geeft een signaal (CO₂-taks). Eén heffing kan meerdere functies tegelijk vervullen."
+    - "Een belasting bestaat alleen als ze in een wet staat (legaliteit, art. 170 GW). De bronnen volgen een strikte rangorde: Grondwet → verdrag → wet → KB → ministerieel besluit → circulaire. Een circulaire is geen wet — ze bindt de fiscus, niet de belastingplichtige of de rechter."
+    - "Belgische belastingen worden ingedeeld langs drie assen: (1) direct vs indirect (treft inkomen/vermogen vs een transactie); (2) personeel vs zakelijk (kijkt naar persoonlijke situatie of niet); (3) federaal vs gewest vs lokaal (welke overheid heft). Bij elke fiscale vraag loop je deze assen door — ze bepalen welk wetboek geldt."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Vraag", "Antwoord in één regel"]
+      rijen:
+        - ["**Wat is een belasting?**", "Verplicht · eenzijdig · algemeen belang · geen tegenprestatie"]
+        - ["**Waarom heft de overheid?**", "Inkomsten + gedrag sturen + herverdelen + signaal"]
+        - ["**Waaruit haalt de belasting haar bestaansrecht?**", "Een wet (legaliteitsbeginsel) — geen wet, geen belasting"]
+        - ["**Welk wetboek geldt voor mijn casus?**", "Diagnose langs drie assen: direct/indirect · personeel/zakelijk · federaal/gewest/lokaal"]
+  afsluiter: "We werken de vier vragen één voor één uit en gebruiken onderweg een concrete vignet uit de Van Daele-holding om de bronnen-hiërarchie tastbaar te maken."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: wat-is-een-belasting
+    titel: "Vraag 1 — Wat is een belasting precies?"
+    niveau: 2
+    beats:
+      - "Vertrek vanuit de intuïtie: iedereen 'betaalt belastingen', maar wat onderscheidt een belasting van een andere geldstroom richting overheid (paspoort-vergoeding, RSZ-bijdrage, parkeerboete)? Stel de vraag open zodat de student voelt dat de afbakening écht nodig is."
+      - "Geef de klassieke definitie in eigen woorden: een belasting is een verplichte, eenzijdige geldelijke bijdrage die de overheid op grond van haar gezag heft, bij personen of zaken die zich op haar grondgebied bevinden of een aanknopingspunt met dat grondgebied vertonen, om haar uitgaven van algemeen belang te financieren — zonder rechtstreekse, individueel-bepaalde tegenprestatie."
+      - "Werk de drie kenmerken stuk voor stuk uit met een mini-voorbeeld per kenmerk. (1) Eenzijdig — geen contract, je kunt niet onderhandelen. Voorbeeld: je tekent geen overeenkomst om PB te betalen, ze rolt uit de wet. (2) Voor algemene overheidsuitgaven — geen geoormerkt potje voor één concrete dienst. Voorbeeld: PB financiert defensie én onderwijs én rechtspraak samen. (3) Geen rechtstreekse tegenprestatie — je krijgt geen factuur 'in ruil voor'. Voorbeeld: wie veel PB betaalt, krijgt niet meer politie of onderwijs voor zichzelf."
+      - "Maak het belang van het onderscheid duidelijk: alleen belastingen vallen onder de strikte wettelijkheids-eis (art. 170 GW). Een retributie kan met een lagere norm (reglement) worden ingevoerd. Verkeerd classificeren leidt vaak tot vernietiging van de heffing wegens ontbrekende wettelijke basis."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Soort heffing", "Tegenprestatie?", "Voor wat?", "Wettelijke vorm"]
+        rijen:
+          - ["**Belasting**", "Geen", "Algemene overheidsuitgaven", "Wet (federaal/gewest) of raadsbesluit (provincie/gemeente)"]
+          - ["**Retributie**", "Ja — concrete dienst", "Kostendekkend voor die dienst", "Reglement volstaat (paspoort, parkeermeter)"]
+          - ["**Sociale bijdrage**", "Geen individueel direct", "Specifiek sociaal stelsel (pensioen, ziekteverzekering)", "Eigen sociale wetgeving — geen belastingrecht stricto sensu"]
+          - ["**Administratieve boete**", "Geen", "Bestraffend karakter na overtreding", "Eigen procedure (bestuursrechtelijk of strafrechtelijk)"]
+    kinderen:
+
+      - id: bestanddelen-belasting
+        titel: "Bestanddelen die elke belasting bevat"
+        niveau: 3
+        beats:
+          - "Open: omdat een belasting alleen bij wet bestaat, moet die wet vier essentiële bestanddelen vastleggen. Mist er één, dan kan de fiscus niet heffen — zelfs niet als ze het via circulaire 'voor de hand liggend' zou willen aanvullen."
+          - "Som de vier bestanddelen op met telkens een concretisering: (1) subject = wie betaalt (natuurlijke persoon, vennootschap, vereniging zonder winstoogmerk); (2) belastbaar feit = welke gebeurtenis triggert de heffing (inkomen verwerven, goed verkrijgen, transactie verrichten); (3) grondslag = waarop wordt het tarief toegepast (belastbaar inkomen, marktwaarde, factuurbedrag); (4) tarief = welk percentage of vast bedrag. Daarnaast: vrijstellingen, verminderingen en de procedure."
+          - "Geef het belang voor de praktijk: bij elke fiscale vraag in een dossier moet de adviseur deze vier punten kunnen identificeren. Wie subject of belastbaar feit niet scherp heeft, slaat in de aangifte de plank mis."
+
+  - id: waarom-heft-de-overheid
+    titel: "Vraag 2 — Welke functies vervult een belasting?"
+    niveau: 2
+    beats:
+      - "Open met de observatie dat een belasting nooit louter geld ophalen is. Achter elke fiscale wet zit ten minste één politieke intentie. Vier functies lopen vaak door elkaar — vandaag is haast geen enkele belasting nog 'puur budgettair'."
+      - "Werk de vier functies uit, telkens met één concreet Belgisch voorbeeld. (1) **Budgettair** — financiert algemene overheidsuitgaven (onderwijs, justitie, defensie, sociale zekerheid). Kwantitatief de oudste en grootste functie. Voorbeeld: PB is jaarlijks goed voor het leeuwendeel van de federale ontvangsten. (2) **Sturend** — gedrag aanmoedigen of ontmoedigen. Voorbeeld: investeringsaftrek voor R&D (aanmoediging), accijns op tabak (ontmoediging). (3) **Herverdelend** — corrigeert ongelijkheid. Voorbeeld: progressieve PB-schijven (hogere marginale tarieven bij hoger inkomen), belastingvrije som, belastingvermindering voor kinderen ten laste. (4) **Signaal** — toont publiekelijk wat de samenleving belangrijk vindt. Voorbeeld: CO₂-belasting (signaal klimaat), suikertaks (signaal volksgezondheid)."
+      - "Maak expliciet dat één belasting meerdere functies tegelijk vervult. Een accijns op gesuikerde dranken brengt geld op (budgettair), ontmoedigt suikerconsumptie (sturend) én geeft een volksgezondheids-signaal (signaal). Voor de stagiair-adviseur: weten welke functie dominant is, helpt om de ratio legis van een bepaling te lezen — cruciaal bij teleologische interpretatie (zie L3)."
+      - "Blockquote-aside: waarom dit ertoe doet in je dossier. Veel fiscale gunstregimes (tax shelter, energie-aftrek, investeringsaftrek, vrijstellingen voor sociale doelen) zijn instrumenten van sturende fiscaliteit. Hun strikte interpretatie hangt af van het sturingsdoel — een gunstmaatregel die haar doel niet dient, kan vatbaar zijn voor herziening of voor toepassing van de algemene anti-misbruik-bepaling (zie L4)."
+
+  - id: bronnen-hierarchie
+    titel: "Vraag 3 — Uit welke bronnen, in welke rangorde, volgt een belasting?"
+    niveau: 2
+    beats:
+      - "Open met het cruciale punt: een belasting bestaat enkel als ze in een wet staat. Dit is het legaliteitsbeginsel — geen wet, geen belasting. Dat principe (art. 170 Grondwet) ordent ook de andere bronnen: lagere bronnen kunnen hogere bronnen niet uitbreiden, beperken of contra-leggen."
+      - "Toon de hiërarchie als pyramide, van hoog naar laag. Werk per niveau in één zin uit wat het bindt en wie het maakt."
+      - "Stip vooral het verschil aan tussen 'wet' en 'circulaire'. Een wet komt van het bevoegde parlement (federaal, gewest, gemeenschap) of van een gemeente-/provincieraad. Een circulaire is een interne dienstinstructie van de administratie — ze beschrijft hoe de fiscus de wet wil toepassen. Een circulaire bindt de fiscus zelf (vertrouwensbeginsel), maar bindt de belastingplichtige niet en bindt de rechter niet."
+      - "Concretiseer met vignet V3 (onduidelijke gunstmaatregel): een wettekst spreekt van 'substantiële verbetering van de energieprestatie'; een circulaire vult dat in als 'minstens 30 % EPC-vermindering'. Marc Van Daele haalt 24 %. Volgens de circulaire valt hij erbuiten; volgens de letter van de wet kan hij wél kwalificeren. De circulaire mag de wet niet inperken — dus de adviseur kan met de wettekst in de hand argumenteren. Of dat operationeel slaagt is een tweede vraag (de fiscus zal de circulaire toepassen) — maar juridisch is het standpunt verdedigbaar."
+      - "Blockquote-aside: rechtspraak is geen primaire bron maar wordt steeds belangrijker. Cassatie en het Hof van Justitie van de EU bepalen vaak hoe de wet moet worden gelezen. Het Grondwettelijk Hof toetst fiscale wetten aan de Grondwet (vooral art. 10-11 gelijkheid en 170-172 legaliteit). Een arrest bindt formeel alleen het beslechte geschil, maar werkt in de praktijk richtinggevend voor latere zaken."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Niveau", "Bron", "Wie maakt ze?", "Wie bindt ze?"]
+        rijen:
+          - ["1", "**Grondwet**", "Constituante (verkozen vergadering met bijzondere meerderheid)", "Iedereen — wetgever, fiscus, rechter, burger"]
+          - ["2", "**Internationale verdragen met directe werking** (dubbelbelastingverdragen, EU-recht)", "Onderhandelaars + parlementaire goedkeuring", "Voorrang op nationale wet bij directe werking"]
+          - ["3", "**Wet / decreet / ordonnantie** — WIB92, WBTW, Wbk Reg, Wbk Succ, VCF, Brusselse Codex, Waals decreet", "Federaal parlement, gewestparlementen, gemeenschapsparlementen", "Iedereen — bindt fiscus en belastingplichtige"]
+          - ["4", "**Koninklijk Besluit / Besluit Vlaamse Regering** — uitvoering van wet (KB/WIB, KB/WBTW, ...)", "Koning / regering, met advies van Raad van State", "Iedereen — maar mag wet niet wijzigen of uitbreiden"]
+          - ["5", "**Ministerieel Besluit** — uitvoering van KB", "Bevoegde minister", "Iedereen — binnen de grenzen van het KB"]
+          - ["6", "**Circulaire + administratieve commentaar** — Com.IB-92, fiscale circulaires", "FOD Financiën (centrale diensten)", "Alleen de fiscus zelf (vertrouwensbeginsel) — niet de belastingplichtige, niet de rechter"]
+    kinderen:
+
+      - id: fiscaal-en-ander-recht
+        titel: "Fiscaal recht staat in dialoog met andere rechtstakken"
+        niveau: 3
+        beats:
+          - "Open: fiscaal recht is autonoom maar zelden geïsoleerd. Drie naburige takken klinken voortdurend mee."
+          - "Werk drie verbindingen uit met telkens één voorbeeld. (1) **Boekhoudrecht** (KB/WVV, CBN-adviezen) levert vaak de grondslag voor de fiscale winst — art. 24 WIB92 vertrekt van de boekhoudkundige winst. Maar fiscaal recht wijkt af waar het wil: verworpen uitgaven (art. 53 WIB92), DBI-aftrek, beperkingen op autokosten. (2) **Vennootschapsrecht** (WVV) bepaalt welke rechtsvorm voor welk fiscaal regime in aanmerking komt — een NV en een BV worden verschillend belast voor sommige aspecten. (3) **Burgerlijk recht** levert de juridische bouwblokken (huur, lening, schenking, verkoop). Fiscaal kan ze anders kwalificeren — dat is het terrein van simulatie-leer en anti-misbruik (komt in L4)."
+          - "Blockquote-aside: het Europees recht heeft directe werking en kan strijdige nationale fiscale regels opzij zetten. Vooral op het terrein van btw (richtlijn 2006/112) en van het vrij verkeer (PB, VenB) is dat in de praktijk voelbaar. De accountant moet bij grensoverschrijdende dossiers altijd de EU-laag mee bekijken."
+
+  - id: indeling-belastingen
+    titel: "Vraag 4 — Hoe deel je de Belgische belastingen in?"
+    niveau: 2
+    beats:
+      - "Open met het waarom: bij elke fiscale casus moet je weten welk wetboek geldt. De drie indelings-assen functioneren als diagnose-vragen. Loop ze door, en je weet aan welke deur je moet kloppen."
+      - "Toon de drie assen in een tabel met telkens een korte mini-test. Per as: wat onderscheidt het, waar zie je het in de wet, welk concreet voorbeeld."
+      - "Concretiseer met de Van Daele-structuur: welke belastingen treffen de groep? VenB op Van Daele Bouwhandel NV en Van Daele Holding NV (federaal, direct, zakelijk). PB op de huur en de bezoldiging van Marc (federaal, direct, personeel). Btw op de aan- en verkopen van de bouwhandel (federaal, indirect, zakelijk). Onroerende voorheffing op het pand Aalst (gewest — VLABEL int, direct, zakelijk). Vlaamse leegstandsheffing op datzelfde pand (gewest, direct, zakelijk — zie V4). Gemeentebelasting op kantooroppervlakte indien van toepassing (gemeente, direct, zakelijk)."
+      - "Blockquote-aside: deze indeling is geen academisch lijstje — ze stuurt het hele adviestraject. Direct/indirect bepaalt vooral wie de belasting economisch draagt versus juridisch betaalt (zie L2). Personeel/zakelijk bepaalt of de persoonlijke situatie van de belastingplichtige meetelt (alleenstaande, kinderen ten laste, handicap). Federaal/gewest/lokaal bepaalt welke administratie je gesprekspartner is en welke procedure-codex geldt (zie L2)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["As", "Test", "Voorbeeld 'ja'", "Voorbeeld 'nee'"]
+        rijen:
+          - ["**Direct vs indirect**", "Treft de belasting een toestand die in de tijd voortduurt (bezit, inkomen) of een welomschreven gebeurtenis (transactie)?", "Direct: PB, VenB, onroerende voorheffing (inkomen of vermogen, jaarlijks)", "Indirect: btw, registratierechten, accijnzen (eenmalige transactie of verbruik)"]
+          - ["**Personeel vs zakelijk**", "Houdt de heffing rekening met de persoonlijke situatie van de belastingplichtige (gezinslast, leeftijd, handicap)?", "Personeel: PB met belastingvrije som, kinderlast, alleenstaande-status", "Zakelijk: btw (zelfde tarief voor iedereen), onroerende voorheffing (kijkt naar het goed), VenB (geen persoonlijke factoren)"]
+          - ["**Federaal vs gewest vs lokaal**", "Welke overheid heeft de bepaling uitgevaardigd?", "Federaal: PB-basis, VenB, btw, accijnzen. Gewest: registratie- en successierechten, OV, verkeersbelasting, leegstandsheffing. Lokaal: gemeentelijke opcentiemen, terrasvergoeding-reglement", "—"]
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Met de fundering gelegd ga je verder met:"
+  leerstukken:
+    - slug: wie-heft-wie-betaalt
+      hint: "Het actoren-landschap: welke overheden heffen, wie zit aan tafel, hoe verdelen federaal/gewest/gemeente zich, en wie is je gesprekspartner als adviseur?"
+    - slug: beginselen-en-grenzen
+      hint: "Welke grondwettelijke en algemene beginselen begrenzen de fiscus — en hoe lees je een fiscale wet wanneer ze meerdere interpretaties toelaat?"
+  samenvatting:
+    hint: "Tabel met de drie indelings-assen + bronnen-pyramide voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [belasting-definitie-en-functies, fiscaal-recht]
+    - concepten: [indeling-belastingen, toepassingsgebied-belasting]
+    - concepten: [normbronnen]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Legaliteitsbeginsel federaal — geen belasting zonder wet"
+    ref: "Grondwet art. 170 §1"
+    noot: "Verifieerbare basis voor de bronnen-hiërarchie en voor het bestaan van elke federale belasting."
+  - onderwerp: "Bevoegdheid gewest / gemeenschap"
+    ref: "Grondwet art. 170 §2"
+    noot: "Belasting van gewest of gemeenschap door decreet of ordonnantie. Wordt verder uitgewerkt in L2."
+  - onderwerp: "Bevoegdheid provincie en bovengemeentelijk bestuur"
+    ref: "Grondwet art. 170 §3"
+  - onderwerp: "Bevoegdheid agglomeratie, federatie van gemeenten, gemeente"
+    ref: "Grondwet art. 170 §4"
+  - onderwerp: "Retributie / belasting-onderscheid"
+    ref: "Grondwet art. 173"
+    noot: "Buiten provincies, polders en wateringen kan van burgers geen retributie worden gevorderd dan alleen als belasting ten behoeve van de Staat, gemeenschap, gewest, agglomeratie, federatie van gemeenten of gemeente. Bevestigt het belasting-monopolie."
+  - onderwerp: "Belastbare winst vennootschappen — boekhoud-pijler"
+    ref: "WIB92 art. 24"
+    noot: "Illustreert de verhouding fiscaal recht ↔ boekhoudrecht: fiscale winst vertrekt van de boekhoudkundige winst."
+  - onderwerp: "Niet-aftrekbaarheid verboden uitgaven — fiscale moraliteits-neutraliteit"
+    ref: "WIB92 art. 53"
+    noot: "Illustreert de afwijking fiscaal ↔ boekhoudkundig (zie ook L3 over moraliteits-neutraliteit)."
+
+footer: "Leerstuk PO 2.1 — fundering. Volgende stap: [[wie-heft-wie-betaalt]]."

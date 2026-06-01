@@ -1,0 +1,155 @@
+# Leerstuk-script — Hoe bouwt de accountant rechtszekerheid?
+#
+# Proces/instrument-leerstuk PO 2.1. De DVB-ruling als enige actieve
+# rechtszekerheidsinstrument dat onder PO 2.1 valt. Procedurele rechtszekerheid
+# (bezwaar, bemiddeling, gerechtelijke fase) hoort bij PO 2.5.
+#
+# Dekt: taak 1 (advies — ruling als operationeel instrument) + raakt 2.1.III
+# (DVB als administratieve bron met bindende werking voor één dossier).
+# Vignet-haakje: V2 (vastgoed-aan-holding — preventieve ruling na AAMB-risico
+# in L4).
+
+meta:
+  slug: rechtszekerheid-bouwen
+  titel: "Hoe bouwt de accountant rechtszekerheid vóór een verrichting?"
+  po: "2.1"
+  cluster: fiscaal-recht-algemeen
+  voorbeeldgroep: van-daele-holding
+  beschrijving: >
+    Leerstuk PO 2.1 — instrument. De voorafgaande beslissing in fiscale zaken
+    (DVB-ruling) als operationeel rechtszekerheidsinstrument: wanneer aanvragen,
+    welke procedure, welke bindende werking, welke grenzen. Wet 24 december 2002
+    art. 20-28 + KB 30 januari 2003.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 2.1. Vermeld
+    dat dit het sluitstuk is van PO 2.1 — na de fundering (L1 belasting), het
+    landschap (L2 actoren), het denkkader (L3 beginselen) en het operationele
+    denkproces (L4 planning vs misbruik) staat hier het preventieve instrument.
+    Voor een planning waar de AAMB-toets twijfelachtig uitvalt (zie
+    [[planning-en-misbruik]]) is de DVB-ruling vaak de meest effectieve
+    risico-neutralisatie.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Een voorafgaande beslissing — in de praktijk 'ruling' genoemd — is een schriftelijke beslissing van de federale Dienst Voorafgaande Beslissingen (DVB) waarin de fiscus zich bindt over de fiscale gevolgen van een door de belastingplichtige voorgenomen verrichting. Geregeld in art. 20-28 van de Wet van 24 december 2002 en het KB van 30 januari 2003. De beslissing geldt typisch 5 jaar, verlengbaar, zolang de feitelijke en juridische context onveranderd blijft."
+    - "Drie operationele regels die je nooit mag vergeten. (1) Vooraf — voor reeds uitgevoerde verrichtingen kan geen ruling worden gegeven (art. 22). (2) Reëel uit te voeren — de beslissing bindt de fiscus alleen als de werkelijke uitvoering overeenkomt met wat in de aanvraag staat. (3) Niet boven de wet — een ruling mag geen beslissing geven die strijdig is met de wet of die haar strekking ondermijnt."
+    - "Wanneer overweegt de adviseur een ruling? Bij verrichtingen met substantiële fiscale impact waarvan het resultaat onzeker is: herstructurering (fusie, splitsing, partiële inbreng), holding-opzet, grensoverschrijdende structuur, octrooi-inkomsten, tax shelter, of — zoals in vignet V2 — een vastgoedoverdracht aan eigen holding met AAMB-risico. Niet voor elke planning: voor evidente, goed gedocumenteerde planning is de ruling overhead."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Vraag", "Antwoord in één regel"]
+      rijen:
+        - ["**Wat is een ruling?**", "Schriftelijke beslissing van de DVB die de fiscale gevolgen van een voorgenomen verrichting vastlegt"]
+        - ["**Wie is gebonden?**", "De fiscus is gebonden zolang de verrichting reëel zoals beschreven wordt uitgevoerd; de belastingplichtige NIET (hij kan afzien)"]
+        - ["**Hoe lang?**", "Typisch 5 jaar, verlengbaar — vroeger einde bij wetswijziging, feitelijke wijziging of onvolledige/onjuiste info"]
+        - ["**Wanneer kan het niet?**", "Reeds uitgevoerd · in bezwaar of geschil · zuiver hypothetisch · strijdig met de wet"]
+        - ["**Wanneer is het aangewezen?**", "Substantiële fiscale impact + reële onzekerheid + voorzienbaar uitvoeringspad"]
+  afsluiter: "We werken de procedure stap voor stap uit en concretiseren met vignet V2 — de vastgoedoverdracht van Marc Van Daele aan de Van Daele Holding NV, waar de AAMB-toets uit L4 twijfelachtig uitviel."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: waarom-ruling
+    titel: "Waarom een ruling? De ratio achter het instrument"
+    niveau: 2
+    beats:
+      - "Open met het waarom. Het Belgisch fiscaal recht is complex, evolutief en op meerdere niveaus geregeld (federaal, gewest, gemeente — zie L2). Een belastingplichtige die een omvangrijke transactie plant, wil niet jaren later via bezwaar of rechtbank vernemen of hij de wet correct heeft toegepast. Een ruling is het preventieve antwoord: vooraf weten waar je staat."
+      - "Werk drie functies uit. (1) **Rechtszekerheid** voor de belastingplichtige — wat de fiscus vooraf schriftelijk bevestigt, kan ze later niet meer terugnemen (binnen de voorwaarden). (2) **Vroege detectie** voor de overheid — agressieve fiscale planning komt vroeger in het vizier dan via achteraf-controle. (3) **Internationale geloofwaardigheid** — buitenlandse investeerders willen comfort dat hun structuur ook over 5 jaar nog werkt; een Belgische ruling geeft dat comfort."
+      - "Concretiseer met V2. Marc weet uit L4 dat zijn vastgoedoverdracht aan de holding AAMB-risico draagt. Drie scenario's. (a) Niets doen, hopen dat geen controle volgt — risico op naheffing + boete, en geen rechtszekerheid voor de cashflow-planning. (b) Niet uitvoeren — fiscaal veilig maar de vermogensplanning loopt vast. (c) Ruling aanvragen — DVB beoordeelt de structuur vooraf, eventueel met aanpassingen, en levert bindend comfort. Voor een transactie van € 1,2 miljoen met meerdere fiscale lagen (privé-meerwaarde, herkwalificatie huur, AAMB) is optie (c) doorgaans de verstandige route."
+      - "Blockquote-aside: ruling-cultuur en LuxLeaks-context. Sinds 2015 (LuxLeaks-onthullingen) en 2017 (BEPS-context) is de DVB veel strenger geworden tegenover constructies die enkel een fiscaal voordeel beogen. Geanonimiseerde rulings worden gepubliceerd op fisconetplus. Voor de adviseur betekent dit: rulings worden niet meer 'gewoon afgeleverd' — er is een echte onderhandeling, en marginale planning zal afgewezen worden. Een ruling vragen is geen tactiek om iets controversieels te legitimeren."
+
+  - id: wanneer-wel-niet
+    titel: "Wanneer wel, wanneer niet?"
+    niveau: 2
+    beats:
+      - "Open met het wettelijk kader. Art. 22 van de Wet 24 december 2002 lijst expliciet de gevallen waarin de DVB geen beslissing kan geven. Drie zware uitsluitingen — vier eigenlijk — die de adviseur uit zijn hoofd moet kennen."
+      - "Werk de uitsluitingen uit. (1) **Reeds uitgevoerde verrichtingen** — de DVB beslist niet retroactief. Wie de transactie eerst doet en dan een ruling vraagt 'om zeker te zijn', is te laat. (2) **Lopende controle, bezwaar of geschil** — voor dezelfde of identieke verrichting kan geen ruling worden gegeven zodra de administratieve of gerechtelijke procedure loopt. (3) **Zuiver hypothetische vragen** — de DVB verlangt een concreet, voorgenomen feitencomplex met identificeerbare partijen, bedragen en timing. Een algemene 'wat als'-vraag krijgt geen ruling. (4) **Strijdig met de wet of haar strekking** — de DVB mag geen beslissing geven die de wet uitbreidt, beperkt of contra-legt. Dit is sinds 2012 strenger geworden, met expliciete weigering voor structuren die op AAMB botsen."
+      - "Werk dan de positieve kant uit: klassieke ruling-onderwerpen. Herstructurering met fiscaal-neutrale fusie of splitsing (kwalificatie als 'door de fiscale wet vereiste fiscaal neutrale verrichting'). Inbreng in natura met waardering. Holding-structuren — wat zijn de fiscale gevolgen van een specifieke opzet? Beroepsmatige terbeschikkingstelling van vastgoed door bestuurder aan vennootschap. Transfer pricing-prijsstellingen. Octrooi-inkomsten en innovatieaftrek. Tax shelter. Erfbelasting-planning (Vlaams via VLABEL — eigen ruling-systeem)."
+      - "Concretiseer met V2. Marc's vastgoedoverdracht is een typisch ruling-dossier. De verrichting is voorgenomen (niet uitgevoerd — voorwaarde 1 voldaan). Er loopt geen controle of bezwaar over hetzelfde onroerend goed (voorwaarde 2 voldaan). Het is concreet — gebouw geïdentificeerd, prijs vastgelegd, financieringsopzet uitgewerkt (voorwaarde 3 voldaan). De vraag aan de DVB is concreet: wordt de huur die na de verkoop naar de holding vloeit niet geherkwalificeerd onder art. 32 WIB92 in de privé-PB van Marc, en wordt de constructie als geheel niet onder art. 344 §1 WIB92 verworpen? De adviseur kan zijn niet-fiscale motieven contemporain documenteren — risico-isolering, successieplanning, professioneel vastgoedbeheer. Voorwaarde 4 (niet strijdig met wet) wordt door de DVB zelf beoordeeld."
+      - "Blockquote-aside: gewestelijke rulings. Voor Vlaamse gewestbelastingen (erfbelasting, registratiebelasting, OV waar overgenomen door VLABEL) bestaat een apart Vlaams ruling-systeem bij VLABEL. Het werkt op vergelijkbare principes maar volgt een eigen procedurecodex (Vlaamse Codex Fiscaliteit). De federale DVB beslist niet over gewestbelastingen die door VLABEL worden geïnd — voor een vastgoedaankoop in Vlaanderen met registratierecht-vraag moet je dus naar VLABEL. De accountant moet bij gewest-overschrijdende dossiers de twee paden tegelijk overwegen."
+
+  - id: hoe-loopt-procedure
+    titel: "Hoe loopt de procedure?"
+    niveau: 2
+    beats:
+      - "Open met het overzicht: zes stappen, van eerste verkenning tot publicatie. De duur tussen indiening en beslissing is wettelijk drie maanden, verlengbaar in onderling overleg."
+      - "Werk de zes stappen één voor één uit. (1) **Pre-filing** — vrijblijvend, eventueel anoniem, verkennend gesprek met een DVB-team. Doel: voelen of het dossier kans heeft, welke argumenten cruciaal zullen zijn, of de structurering bijgestuurd moet worden. Vrijblijvend = geen binding. (2) **Schriftelijke aanvraag** — feiten, voorgenomen verrichting, fiscale vragen aan de DVB, beoogde fiscale behandeling van de aanvrager. Hier wordt het dossier formeel ingediend; vanaf nu loopt de termijn. (3) **Behandeling door DVB-team** — drie leden, gespecialiseerd per materie. Ze beoordelen het dossier, vragen verduidelijking, leggen de aanvrager soms vragen voor. (4) **Onderhandeling** — bijsturing van de verrichting kan voorgesteld worden om binnen de wet te blijven. Een 'kleine bijstelling' van de structuur (een datum vervroegen, een waardering verfijnen, een clausule toevoegen) kan voldoende zijn om een gunstige beslissing mogelijk te maken. (5) **Schriftelijke gemotiveerde beslissing** — binnen drie maanden vanaf de volledige aanvraag, verlengbaar in onderling overleg. De beslissing motiveert waarom de DVB tot haar conclusie komt. (6) **Geanonimiseerde publicatie** op fisconetplus — recente rulings (2017-) worden gepubliceerd om de fiscale praktijk transparant te maken. De namen van partijen worden weggehaald; de inhoudelijke beoordeling blijft."
+      - "Cruciaal: de aanvraag moet volledig zijn. Een onvolledige aanvraag (ontbrekende feiten, onduidelijke timing, geen marktwaardering, geen niet-fiscale motieven) wordt of teruggestuurd voor aanvulling of leidt tot een negatieve beslissing. Voor de stagiair-adviseur: investeer tijd in het aanvraagdossier — een degelijke aanvraag wint meer tijd dan ze kost."
+      - "Blockquote-aside: rol van de accountant in het ruling-traject. De accountant is typisch niet alleen de adviseur die het dossier opbouwt — hij is vaak ook de mandataris die de aanvraag ondertekent en de besprekingen voert. Voor de stagiair betekent dit: leer aanvraag-documentatie schrijven (helder feitenrelaas, concrete vragen, voorgestelde beoordeling), en bouw een dossier op dat een onbekende DVB-medewerker in één lectuur kan vatten. Een goed ruling-dossier leest als een memorandum dat de zaak voor zichzelf laat spreken."
+
+  - id: bindende-werking
+    titel: "De bindende werking — wat de ruling waard is"
+    niveau: 2
+    beats:
+      - "Open met het kernpunt. Eens uitgereikt bindt de beslissing de fiscale administratie (art. 23 Wet 24-12-2002 — geen §-onderverdeling in de wettekst). De aanslagdienst mag niet afwijken van de ruling-uitspraak. Voorwaarde: de feitelijke uitvoering komt overeen met wat in de aanvraag werd beschreven. De belastingplichtige is NIET gebonden — hij kan afzien van de verrichting of er anders mee omgaan zonder fiscale gevolgen."
+      - "Werk de geldigheidsduur uit. Een ruling geldt typisch 5 jaar (art. 23), tenzij anders bepaald — verlengbaar op gemotiveerde aanvraag. De geldigheid eindigt vroeger indien (a) de feitelijke context wijzigt, (b) de wetgeving wijzigt, of (c) blijkt dat de beslissing op onvolledige of onjuiste informatie steunde. Voor de adviseur: een ruling is geen 'eeuwig geldig zegel'. Vóór elke verlengde uitvoering moet hij toetsen: zijn alle feiten nog zoals beschreven, en is de wet nog dezelfde?"
+      - "Concretiseer met V2. Stel: Marc krijgt een gunstige ruling op zijn vastgoedoverdracht. Twee jaar later beslist hij de holding-financiering te herstructureren — de banklening wordt vervangen door een familielening. Verandert dit de ruling? Mogelijk: de financierings-as was deel van de beoordeling (timing, marktconformiteit). Een herstructurering die de uitvoering wezenlijk wijzigt, kan de bindende werking aantasten. Voorzichtigheidsadvies: nieuwe vraag aan de DVB voor de aanpassing wordt doorgevoerd."
+      - "Belangrijk: ruling-bescherming valt weg bij feitelijke afwijking. Wat 'wezenlijk' is, is een feitenkwestie. Een verschuiving in timing van enkele weken: meestal geen probleem. Een bedrag dat 20 % afwijkt van de aanvraag: gevoelig. Een andere financieringsbron, andere partijen, andere transactie-structuur: nieuwe ruling overwegen. Bij twijfel: nieuwe aanvraag."
+      - "Blockquote-aside: AAMB en ruling. De ruling neutraliseert het AAMB-risico voor de gespecifieerde verrichting — dat is haar grootste praktijkwaarde voor planning-dossiers. Maar de DVB zelf zal weigeren een ruling te geven die op AAMB botst. Dit creëert een ironie: als je de ruling het meest nodig hebt (twijfelachtige AAMB-toets), is ze het moeilijkst te krijgen. De ruling-procedure dwingt zo de adviseur om de structuur eerlijk te beoordelen — als de DVB het niet wil dragen, is dat een sterk signaal voor het dossier."
+
+  - id: grenzen-en-praktijk
+    titel: "Grenzen aan de ruling-bescherming"
+    niveau: 2
+    beats:
+      - "Open met de eerlijke nuance. Een ruling is sterk maar niet absoluut. De DVB mag geen beslissing geven die strijdig is met de wet of die haar strekking ondermijnt. Rulings die de wetgeving omzeilen kunnen later door de rechter naast zich neergelegd worden — Cassatie-arresten 2015-2018 hebben dat principe bevestigd in de nasleep van de strengere ruling-cultuur."
+      - "Werk drie operationele grenzen uit. (1) **De wet evolueert** — een ruling die geldig is onder de huidige wet kan door een nieuwe wet worden achterhaald. De ruling-bescherming geldt typisch tot aan de wetswijziging — eventueel met een overgangsperiode als de wetgever dat voorziet. (2) **De feiten moeten kloppen** — een 'vergeten' feit dat de DVB tot een andere beslissing zou hebben gebracht, ontneemt de ruling haar bindende werking. Het volledigheidsbeginsel is dus geen vrijblijvende formaliteit. (3) **De rechter behoudt zijn beoordelingsbevoegdheid** — een ruling bindt de fiscus, niet de rechter. In een fiscaal geschil kan de rechter (theoretisch) de ruling-beoordeling tegenspreken, vooral bij flagrante miskenning van de wet. In de praktijk gebeurt dat zelden, omdat de fiscus zich gewoon aan de ruling houdt — maar het juridische principe blijft."
+      - "Blockquote-aside: ruling als deel van een breder advies-traject. De adviseur die enkel een ruling vraagt zonder grondige interne analyse, mist het punt. Een ruling-aanvraag is het eindpunt van een diepgaande voorbereiding: feiten verzamelen, niet-fiscale motieven documenteren, AAMB-toets uitvoeren (zie L4), structuur eventueel bijstellen, en pas dan formeel aanvragen. De ruling formaliseert wat de adviseur al verifieerd heeft — niet andersom."
+
+  - id: rol-accountant-synthese
+    titel: "De rol van de accountant — synthese over PO 2.1 heen"
+    niveau: 2
+    beats:
+      - "Open met de zoom-out. PO 2.1 ging niet over één onderwerp maar over een denkkader dat door alle taken van de accountant loopt. Vat de rol op vijf momenten samen, één per leerstuk."
+      - "Werk de vijf rolposities uit, kort en concreet. (1) **In L1 — bronnen onderscheiden**. Bij elke fiscale vraag eerst de wet lezen, dan pas de circulaire. Een circulaire die de wet inperkt is geen voldongen feit; er bestaat een argumentatie. (2) **In L2 — actoren herkennen**. Welke administratie is je gesprekspartner? Welke procedure-codex geldt? Federaal of gewest? Een verkeerde gesprekspartner aanspreken kost tijd en geloofwaardigheid. (3) **In L3 — beginselen inroepen**. Legaliteit, gelijkheid, niet-retroactiviteit en in dubio contra fiscum zijn geen academische curiosa — het zijn argumenten in je bezwaar of pleidooi. Wie ze niet kent, mist verdedigingsmiddelen. (4) **In L4 — misbruik-risico inschatten**. Vóór elke planning de drie-lagen-toets: simulatie, SAAR, AAMB. Documenteer niet-fiscale motieven contemporain. (5) **In L5 — ruling overwegen**. Bij substantiële onzekerheid: aanvraag overwegen. Niet voor elke transactie, wél als de risico's serieus zijn en het uitvoeringspad voorzienbaar."
+      - "Drie taken in de praktijk gecombineerd. Dezelfde adviseur doorloopt typisch in één dossier: **adviseren** (taak 1) over de structurering, **bijstaan** (taak 2) bij de aangifte en de bewijsstukken, en **vertegenwoordigen** (taak 3) als de fiscus controleert of betwist. Voor de stagiair: leer schakelen tussen die drie posities. Het denkkader uit PO 2.1 is hetzelfde — de toon en het doel verschilt per fase."
+      - "Blockquote-aside: PO 2.1 als fundering voor wat komt. PO 2.2 (PB), PO 2.3 (VenB), PO 2.4 (btw) en PO 2.5 (procedure) bouwen op het denkkader uit dit programmaonderdeel. De stagiair die de acht beginselen vlot kan inzetten, de drie-lagen-toets kan doorlopen en weet wanneer een ruling het juiste instrument is, heeft het werkelijke gewicht van PO 2.1 mee. Geen losse definities — een werkmethode."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Met dit instrument is het PO 2.1-leerpad rond. Voor herhaling en oefening:"
+  leerstukken:
+    - slug: planning-en-misbruik
+      hint: "Terug naar de operationele drie-lagen-toets — voor wie wil checken hoe ruling en AAMB-analyse op elkaar inhaken in concrete planning-dossiers."
+    - slug: beginselen-en-grenzen
+      hint: "Het denkkader nog eens nalopen — vooral de interpretatie-leer is bij ruling-discussies recurrent."
+  samenvatting:
+    hint: "Procedure-flowchart (pre-filing → aanvraag → onderhandeling → beslissing) + checklist 'wanneer wel/niet ruling' voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [voorafgaande-beslissing-dvb]
+    - concepten: [algemene-anti-misbruik-bepaling, anti-misbruik]
+    - concepten: [fiscale-actoren]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Wettelijk kader voorafgaande beslissingen — Dienst Voorafgaande Beslissingen"
+    ref: "Wet 24 december 2002 art. 20-28"
+    noot: "Programmawet — instelling van het systeem. Art. 21 regelt de aanvraagvereisten, art. 22 de uitsluitingen (vier cumulatieve gronden: 1° reeds fiscale gevolgen / administratief beroep / gerechtelijke handeling; 2° niet aangewezen of zonder uitwerking; 3° invordering en vervolgingen; 4° Pillar 2), art. 23 de bindende werking en geldigheidsduur, art. 24 de anonieme publicatie."
+  - onderwerp: "Uitvoeringsbesluit ruling-procedure"
+    ref: "KB 30 januari 2003 — uitvoering art. 26 Wet 24 december 2002"
+    noot: "Vlaamse Codex Fiscaliteit voorziet een afzonderlijke Vlaamse ruling-procedure voor Vlaamse gewestbelastingen."
+  - onderwerp: "Uitsluitingen — reeds uitgevoerd, in geschil, hypothetisch, strijdig met de wet"
+    ref: "Wet 24 december 2002 art. 22"
+  - onderwerp: "Bindende werking en geldigheidsduur"
+    ref: "Wet 24 december 2002 art. 23"
+  - onderwerp: "Algemene anti-misbruik-bepaling — relatie met ruling"
+    ref: "WIB92 art. 344 §1"
+    noot: "Een ruling neutraliseert het AAMB-risico voor de gespecifieerde verrichting; de DVB zal echter weigeren een ruling te geven die op AAMB botst."
+
+footer: "Leerstuk PO 2.1 — sluitstuk. Leerpad PO 2.1 is volledig — ga naar [[samenvatting]] voor herhaling of [[oefening]] voor doorwerk."

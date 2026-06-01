@@ -1,6 +1,6 @@
 # Leerstuk-status — stand-van-zaken per PO
 
-**Laatste update**: 2026-05-31 (PO 1.3 alle 5 leerlagen voltooid — Belova-voorbeeldgroep + 5 leerstukken + Tessera-oefening + samenvatting geleverd)
+**Laatste update**: 2026-06-01 (PO 2.1 alle 5 leerlagen voltooid — Van Daele-voorbeeldgroep + 5 leerstukken + Van Daele-oefening + samenvatting geleverd; eerste fiscale PO)
 **Update-discipline**: elke sessie die een leerstuk-artefact wijzigt, update deze tabel in dezelfde commit.
 
 ---
@@ -18,7 +18,7 @@
 | **1.7** Interne controle | — | — | — | — | — | — | Openstaand |
 | **1.8** Analytische boekhouding | ✅ [docs/leerpad-skelet-1-8.md](leerpad-skelet-1-8.md) | ✅ 4/4 ([data/leerstukken/](../data/leerstukken/)) | ✅ 4/4 (`content/studiemateriaal/1-8/`) | ✅ [content/studiemateriaal/1-8/index.md](../content/studiemateriaal/1-8/index.md) (§ Voor de herhaling + § Oefening toegevoegd) | ✅ [content/studiemateriaal/1-8/samenvatting.md](../content/studiemateriaal/1-8/samenvatting.md) (1388 woorden, 3-4 A4; YAML-bron [data/samenvattingen/1-8.yaml](../data/samenvattingen/1-8.yaml); 4 oude themafiches uitgefaseerd per ADR-039) | ✅ Patisserie Beauclair ([data/oefeningen/beauclair-kostprijs-en-variantie.yaml](../data/oefeningen/beauclair-kostprijs-en-variantie.yaml) + [content/studiemateriaal/1-8/oefening.md](../content/studiemateriaal/1-8/oefening.md)) — kostprijs full vs ABC · knelpunt-mix · keep-or-drop · standaardkost + Q1-variantie · 75-90 min | **Voltooid** alle vijf leerlagen (tweede PO na 1.4) |
 | **1.9** Financiële analyse | — | — | — | — | — | — | Openstaand |
-| **2.1** Beroepsethiek | — | — | — | — | — | — | Openstaand |
+| **2.1** Algemene beginselen van fiscaal recht | ✅ [docs/leerpad-skelet-2-1.md](leerpad-skelet-2-1.md) | ✅ 5/5 ([data/leerstukken/](../data/leerstukken/)) | ✅ 5/5 (`content/studiemateriaal/2-1/`) | ✅ [content/studiemateriaal/2-1/index.md](../content/studiemateriaal/2-1/index.md) (5-secties + § Praktijk-observatie i.p.v. examen-radar + § Oefening) | ✅ [content/studiemateriaal/2-1/samenvatting.md](../content/studiemateriaal/2-1/samenvatting.md) (~1500 woorden, 3 A4; YAML-bron [data/samenvattingen/2-1.yaml](../data/samenvattingen/2-1.yaml)) | ✅ Van Daele ([data/oefeningen/van-daele-fiscaal-beoordelen.yaml](../data/oefeningen/van-daele-fiscaal-beoordelen.yaml) + [content/studiemateriaal/2-1/oefening.md](../content/studiemateriaal/2-1/oefening.md)) — denkkader-oefening · 5 stappen · 45-60 min | **Voltooid** alle vijf leerlagen (vierde PO na 1.4, 1.8, 1.3) |
 | **2.2** Personenbelasting | — | — | — | — | — | — | Openstaand |
 | **2.3** Vennootschapsbelasting | — | — | — | — | — | — | Openstaand |
 | **2.4** BTW | — | — | — | — | — | — | Openstaand |
@@ -82,7 +82,7 @@ Themafiche-laag retreert per [ADR-039](adr/ADR-039-samenvatting-vervangt-themafi
 | **1.6** | `controleopdracht-aanpak` · `controleverklaring` · `opdrachtaanvaarding-en-tucht` · `opdracht-types` · `fouten-en-fraude-controle` · `bijzondere-mandaten` · `reorganisatie-en-bijzondere-mandaten` | B + C | Mergen bij leerpad-bouw; reorganisatie aparte cross-PO beslissing |
 | **1.7** | `interne-controle-frameworks` · `functiescheiding-en-cyclus` | B | Mergen bij leerpad-bouw |
 | **1.9** | (gedekt door 1.3-themafiches — geen aparte fiches) | — | n.v.t. |
-| **2.1** | `deontologische-beginselen` · `antiwitwas-praktijk` | B | Mergen bij leerpad-bouw |
+| **2.1** | ✅ Inhoud gemigreerd: `fiscale-beginselen` (→ L3 + samenvatting) · `anti-misbruik` (→ L4 + samenvatting) · `dvb-ruling` (→ L5 + samenvatting). `deontologische-beginselen` + `antiwitwas-praktijk` horen NIET bij fiscaal recht — verplaatst-vermelding naar PO 4.0/cabinet management. | A/B | — (✅ klaar via PO 2.1-leerpad; oude themafiches uitfaseren bij opkuis) |
 | **2.2** | `pb-berekeningsschema` · `inkomstencategorieen` · `voordelen-alle-aard` · `art-171-afzonderlijke-aanslagvoeten` · `aftrekken-en-belastingverminderingen` | B | Mergen bij leerpad-bouw |
 | **2.3** | `venb-bewerkingsschema` · `verlaagd-tarief-20` · `verworpen-uitgaven` · `meerwaarden-venb` · `dbv-toepassing` · `fiscale-fusie-splitsing` · `dvb-ruling` | B | Mergen bij leerpad-bouw |
 | **2.4** | `btw-vier-kernvragen` · `btw-aftrek` · `btw-vastgoed` · `grensoverschrijdende-btw` · `vrijstellingsregeling-kleine-onderneming` | B | Mergen bij leerpad-bouw |

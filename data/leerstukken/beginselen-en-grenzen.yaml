@@ -1,0 +1,206 @@
+# Leerstuk-script — Welke beginselen begrenzen de fiscus?
+#
+# Hart van het denkkader PO 2.1. Acht beginselen + interpretatie-leer. Werkt
+# door op alle latere PO's (2.2 PB, 2.3 VenB, 2.4 btw, 2.5 procedure). Zware
+# concept-dichtheid maar één coherent verhaal: wat mag de fiscus, en hoe lees
+# je een fiscale wet.
+#
+# Dekt kenniselementen: 2.1.VI · 2.1.VII (legaliteit + annaliteit) · 2.1.VIII
+# (gelijkheid, niet-retroactiviteit, territorialiteit) · 2.1.IX.A non bis in
+# idem · 2.1.IX.B realiteit (introductie — uitwerking in L4) · 2.1.IX.C
+# moraliteits-neutraliteit · interpretatie-leer. Vignet-haakjes: V1 (gelijkheid,
+# niet-retroactiviteit), V3 (interpretatie), V4 (gelijkheid gewestelijk).
+
+meta:
+  slug: beginselen-en-grenzen
+  titel: "Welke grondwettelijke en algemene beginselen begrenzen de fiscus?"
+  po: "2.1"
+  cluster: fiscaal-recht-algemeen
+  voorbeeldgroep: van-daele-holding
+  beschrijving: >
+    Leerstuk PO 2.1 — denkkader. Acht beginselen die de fiscus binden plus de
+    interpretatie-leer: legaliteit (art. 170 GW), annaliteit (art. 171),
+    gelijkheid (art. 172 + 10-11), niet-retroactiviteit, territorialiteit,
+    non bis in idem, realiteit en moraliteits-neutraliteit. Per beginsel:
+    grondslag, gevolg, en wanneer de belastingplichtige er een argument uit
+    haalt.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 2.1. Vermeld
+    expliciet dat [[belasting-en-bronnen]] (legaliteit als grondslag van de
+    bronnen-hiërarchie) en [[wie-heft-wie-betaalt]] (federaal/gewest/gemeente —
+    elk niveau is door dezelfde beginselen gebonden) eerst gelezen moeten zijn.
+    Dit leerstuk is het hart van het denkkader — alle latere fiscale PO's
+    werken met deze beginselen als argumentatie-arsenaal.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Acht beginselen schragen het Belgisch fiscaal recht. Ze hebben verschillende juridische gewichten — drie zitten in de Grondwet (legaliteit, annaliteit, gelijkheid), de rest zijn algemene rechtsbeginselen of jurisprudentiële regels. Samen begrenzen ze wat de fiscus mag, wanneer en hoe."
+    - "De drie grondwettelijke beginselen geven de stagiair zijn sterkste argumenten: art. 170 GW (legaliteit — geen belasting zonder wet), art. 171 (annaliteit — wet wordt jaarlijks gestemd), art. 172 (gelijkheid in fiscale zaken). Voeg art. 10-11 GW toe (algemeen gelijkheidsbeginsel) en je hebt het constitutionele toetsingskader."
+    - "Naast deze drie staan vijf andere kernbeginselen: niet-retroactiviteit (rechtszekerheid), territorialiteit (waar mag België heffen?), non bis in idem (geen dubbele bestraffing voor dezelfde feiten), realiteit (de wet volgt de economische werkelijkheid — wordt instrument in L4) en moraliteits-neutraliteit (fiscus belast inkomsten ongeacht hun illegaal karakter). Plus één afgeleide regel: strikte interpretatie."
+    - "Bij elke fiscale wet die meerdere lezingen toelaat, volgt de interpretatie een vaste volgorde: grammaticaal eerst (wat zegt de tekst?), dan teleologisch (wat wilde de wetgever?) en systematisch (hoe past de bepaling in het geheel?). Pas bij blijvende twijfel komt 'in dubio contra fiscum' in beeld — maar veel beperkter dan studenten denken."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Beginsel", "Wettelijke basis", "Gevolg in één regel"]
+      rijen:
+        - ["**Legaliteit**", "Grondwet art. 170", "Geen belasting zonder wet — strikte interpretatie + verbod analogie"]
+        - ["**Annaliteit**", "Grondwet art. 171", "Wet wordt jaarlijks gestemd — elk aanslagjaar staat fiscaal op zichzelf"]
+        - ["**Gelijkheid fiscaal**", "Grondwet art. 172 + 10-11", "Gelijke gevallen gelijk behandelen — verschil moet objectief en proportioneel zijn"]
+        - ["**Niet-retroactiviteit**", "Algemeen rechtsbeginsel + rechtszekerheid", "Nieuwe wet geldt niet voor het verleden — tenzij uitdrukkelijke afwijking, streng getoetst"]
+        - ["**Territorialiteit**", "WIB92 art. 5 (rijksinwoners) + art. 227 (BNI) + DBV's", "België belast op personeel óf bronstaat-aanknopingspunt — DBV verdeelt"]
+        - ["**Non bis in idem**", "EVRM Protocol 7 + Cassatie-leer", "Geen dubbele bestraffing voor dezelfde feiten — toegepast op cumul administratieve sanctie + strafvervolging"]
+        - ["**Realiteit**", "Brepols + art. 344 §1 WIB92", "Fiscus volgt economische realiteit — minst belaste weg mag, simulatie en misbruik niet (L4)"]
+        - ["**Moraliteits-neutraliteit**", "Cassatie-leer + WIB92 art. 53 — 24°", "Illegale inkomsten zijn belastbaar; kosten van strafbare feiten zijn niet aftrekbaar"]
+  afsluiter: "We werken de beginselen één voor één uit, beginnend met de drie grondwettelijke. Eerst de fundering (wat zegt de Grondwet?), dan de uitwerking (welke argumenten halen je eruit?). Het realiteitsbeginsel introduceren we hier alleen — de operationele toepassing zit in [[planning-en-misbruik]]."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: legaliteit
+    titel: "Legaliteit — geen belasting zonder wet"
+    niveau: 2
+    beats:
+      - "Open met de tekst zelf. Art. 170 §1 GW: 'Geen belasting ten behoeve van de Staat kan worden ingevoerd dan door een wet.' Eén zin die het hele fiscaal recht draagt. De ratio: bescherming van de burger tegen willekeurige overheidsheffingen — alleen verkozen organen mogen belastingen invoeren ('no taxation without representation')."
+      - "Werk de gevolgen uit. (1) **Wet vereist** — een belasting bestaat alleen als ze in een wet staat. Een minister, een FOD-circulaire of een gemeentecollege kan geen belasting uit het niets invoeren. (2) **Wet door bevoegd parlement** — federaal voor §1, decreet voor §2 (gewest), raadsbesluit voor §3-4 (provincie, gemeente). Zie L2. (3) **Essentiële kenmerken in de wet** — subject, belastbaar feit, grondslag en tarief moeten door de wetgever zelf worden vastgelegd. Uitvoeringsdetails kunnen aan de Koning of de regering worden gedelegeerd, maar de kern blijft bij het parlement."
+      - "Verbinden met de bronnen-hiërarchie. Het legaliteitsbeginsel verklaart waarom een circulaire (zoals in V3) de wet niet kan inperken: een lagere bron mag geen belasting toevoegen waar de wet zwijgt, en mag geen belasting uitbreiden waar de wet beperkter is. De wettekst bindt iedereen; de circulaire bindt alleen de fiscus."
+      - "Twee afgeleiden van het legaliteitsbeginsel. (1) **Strikte interpretatie** — wat niet duidelijk in de wet staat, kan niet belast worden. Werk dit verder uit in de sectie over interpretatie. (2) **Verbod van analogie** — een fiscale bepaling kan niet door analogie worden uitgebreid naar een geval dat de wetgever niet voorzag, ook niet als dat geval 'lijkt op' het beoogde geval. Het Hof van Cassatie houdt hier strikt aan vast."
+      - "Blockquote-aside: legaliteit en vrijstellingen werken asymmetrisch. Heffende bepalingen worden strikt geïnterpreteerd ten gunste van de belastingplichtige (in dubio contra fiscum). Vrijstellings- en gunstbepalingen worden ook strikt geïnterpreteerd — maar dan ten nadele van de belastingplichtige. Een vrijstelling moet duidelijk in de wet staan, anders bestaat ze niet. Voor de stagiair-adviseur: een 'wellicht' van vrijstelling is geen vrijstelling."
+
+  - id: annaliteit
+    titel: "Annaliteit — elk aanslagjaar staat op zichzelf"
+    niveau: 2
+    beats:
+      - "Open met de tekst. Art. 171 GW: 'Over de belastingen ten behoeve van de Staat, de gemeenschap en het gewest wordt jaarlijks gestemd. De regelen die ze invoeren, zijn slechts voor een jaar van kracht indien zij niet worden vernieuwd.' De ratio: democratische controle — het parlement moet jaarlijks instemmen met de heffing."
+      - "Werk twee gevolgen uit. (1) **Begroting jaarlijks goedgekeurd** — voor de fiscus kan blijven heffen moet de begroting elk jaar opnieuw door het parlement. In de praktijk gebeurt dit via de jaarlijkse begrotingswet plus eventuele programma- en herstelwetten. (2) **Aanslagjaar als zelfstandige fiscale eenheid** — de fiscale toestand wordt per kalenderjaar (PB) of boekjaar (VenB) afzonderlijk vastgesteld. Verlies in jaar N kan niet automatisch winst in jaar N-1 compenseren; daarvoor is een aparte wettelijke regel nodig (verliesoverdracht volgens art. 78 WIB92 voor PB, art. 206 voor VenB)."
+      - "Concretiseer met een mini-voorbeeld. Marc heeft in 2024 een fiscaal verlies in zijn liberale activiteit. In 2025 boekt hij winst. De winst van 2025 wordt belast als winst van aanslagjaar 2026 — annaliteit. Hij kan zijn verlies van 2024 wél overdragen, maar enkel binnen de grenzen die de wet voorziet (zelfde categorie inkomsten, binnen de aangegeven termijn, met bewijs). Annaliteit verbiedt automatische compensatie; het wettelijk regeling van overdracht is een uitzondering die je in de wet moet zien staan."
+      - "Blockquote-aside: 'jaarlijkse stemming' is geen formaliteit. In het verleden zijn er momenten geweest waarop de begroting niet op tijd was goedgekeurd; in die periodes loopt de inning op basis van voorlopige twaalfden ('voorschotten') terwijl het parlement nog niet heeft gestemd. Voor de stagiair niet essentieel — wel een illustratie dat de annaliteit een levend principe is, geen oude formaliteit."
+
+  - id: gelijkheid
+    titel: "Gelijkheid — gelijke gevallen, gelijke behandeling"
+    niveau: 2
+    beats:
+      - "Open met de twee teksten. Art. 172 GW (specifiek fiscaal): 'Inzake belastingen kunnen geen voorrechten worden ingevoerd. Geen vrijstelling of vermindering van belasting kan worden ingevoerd dan door een wet.' Art. 10 en 11 GW (algemeen): gelijkheid van Belgen voor de wet en non-discriminatie. Samen vormen ze het constitutionele gelijkheids-arsenaal."
+      - "Werk de toets-criteria uit zoals het Grondwettelijk Hof ze hanteert. Drie cumulatieve voorwaarden voor toelaatbaar verschil in behandeling: (1) **objectief criterium** — het onderscheid moet steunen op een meetbaar, niet-subjectief kenmerk (woonplaats, inkomenshoogte, soort activiteit); (2) **redelijke verantwoording** — het criterium moet een legitiem doel dienen (bv. herverdeling, sturing); (3) **proportionaliteit** — het verschil in behandeling mag niet onevenredig zijn aan het beoogde doel. Schendt een fiscale wet één van deze voorwaarden, dan kan het Grondwettelijk Hof haar vernietigen."
+      - "Concretiseer met vignet V4. Marc vraagt: kan ik via het Grondwettelijk Hof argumenteren dat de Vlaamse leegstandsheffing gelijkheid schendt? Antwoord van de adviseur: art. 172 GW geldt evenzeer op gewestelijk niveau — een decreet kan vernietigd worden wegens schending van het gelijkheidsbeginsel. Maar de drempel is hoog. De Vlaamse decreetgever heeft de leegstandsheffing kunnen verantwoorden via een legitiem doel (activering vastgoed-aanbod, tegengaan stedelijk verval) en heeft uitzonderingen voorzien (opschorting bij bedrijfseconomische omstandigheden, vrijstelling voor pas verworven pand). Het verweer 'gelijkheid geschonden' is daarom operationeel zelden de eerste lijn — gebruikelijker zijn een opschortingsverzoek of een betwisting van de feitelijke inventarisatie."
+      - "Verbind met L1 — vignet V1 (gefaseerde schenking). Marc plant een schenking in tranches. Een nieuwe wet die het Vlaams schenkbelasting-tarief voor familiale vennootschappen aanpast, kan worden aangevochten als ze willekeurig onderscheid maakt tussen familiale vennootschappen die kunnen kwalificeren en die niet. Maar het Grondwettelijk Hof laat de wetgever een ruime appreciatiemarge — vooral bij economische sturingsbelastingen. Praktijkles: gelijkheid als verweer werkt zelden in eerste lijn; ze is wel een sterk argument bij flagrante onevenwichten."
+      - "Blockquote-aside: dubbel onderscheid 'voorrechten' versus 'vrijstellingen'. Art. 172 GW combineert twee zaken. (1) **Verbod van voorrechten** — niemand mag op grond van zijn persoon (adel, ambt, sociale klasse) een fiscaal voordeel krijgen dat anderen niet krijgen. Dit is een historisch erfenis-principe uit 1831, nog steeds geldig. (2) **Vrijstellingen alleen bij wet** — alleen het parlement (federaal, gewest of gemeenschap) kan vrijstelling of vermindering invoeren. De minister of de FOD kan geen vrijstelling uit het niets toekennen, ook niet via gunst-beslissing."
+
+  - id: niet-retroactiviteit
+    titel: "Niet-retroactiviteit — nieuwe wet geldt niet voor het verleden"
+    niveau: 2
+    beats:
+      - "Open met het principe. Een fiscale wet geldt in beginsel voor situaties die ontstaan na haar inwerkingtreding — niet voor het verleden. De ratio: rechtszekerheid. Wie een transactie plant, moet kunnen vertrouwen op de fiscale spelregels die golden op het moment van de feiten."
+      - "Werk een mini-voorbeeld uit. Een wet van 15 maart 2026 wijzigt de berekeningsregels van de PB. Voor aanslagjaar 2026 (inkomsten 2025) wordt de wet toegepast zoals ze geldt op 1 januari 2026 — de wet van 15 maart 2026 komt te laat. Ze geldt — bij gebreke aan uitdrukkelijke retroactiviteit — pas vanaf aanslagjaar 2027 (inkomsten 2026). Dit illustreert tegelijk annaliteit en niet-retroactiviteit: de fiscale wet die geldt op 1 januari van het aanslagjaar bepaalt de heffing op de inkomsten van het voorbije inkomstenjaar."
+      - "Belangrijke uitzondering: de wetgever kán uitdrukkelijk retroactieve werking voorzien. Dat is grondwettelijk problematisch en wordt door het Grondwettelijk Hof streng getoetst aan het rechtszekerheids- en gelijkheidsbeginsel. Toelaatbaar geacht in uitzonderlijke gevallen: technische correctie, omzetting van een EU-richtlijn met vaste datum, anti-misbruikbepaling die een bekend recent gat dicht. Niet toelaatbaar: gewone tariefverhoging met retroactieve werking, of een gunstmaatregel die met terugwerkende kracht wordt afgeschaft."
+      - "Concretiseer met vignet V1. Marc plant zijn gefaseerde schenking in 2026, 2028 en 2030. Wat als de wetgever in 2027 het Vlaamse schenkbelasting-tarief voor familiale vennootschappen verhoogt? In beginsel geldt het nieuwe tarief vanaf de inwerkingtreding voor schenkingen na die datum. De tranche van 2026 is gevangen — daar gold het oude tarief. De tranches 2028 en 2030 vallen onder het nieuwe tarief. Praktijkles: gefaseerde schenking creëert ook risico — wie spreidt, koopt geen zekerheid voor de latere tranches. Een ruling (zie L5) kan dat risico ten dele neutraliseren."
+
+  - id: territorialiteit
+    titel: "Territorialiteit — waar mag België belasten?"
+    niveau: 2
+    beats:
+      - "Open met het principe in twee aanknopingspunten. (1) **Personeel aanknopingspunt** — rijksinwoners worden belast op hun wereldwijd inkomen (art. 5 WIB92 voor PB; vennootschappen met zetel in België voor VenB). (2) **Bronstaat-aanknopingspunt** — niet-inwoners en buitenlandse vennootschappen worden belast op inkomsten of activiteiten met een Belgische bron (belasting van niet-inwoners, BNI, art. 227 e.v. WIB92)."
+      - "Werk de spanning uit. Een Belgisch rijksinwoner met een appartement in Spanje wordt in België belast op de Spaanse huurinkomsten (wereldwijd-inkomen-principe). Maar Spanje belast diezelfde inkomsten ook (bronstaat). Zonder regeling: dubbele belasting. Het dubbelbelastingverdrag België-Spanje verdeelt de heffingsbevoegdheid — typisch krijgt Spanje het belastingrecht voor de huurinkomsten (bronstaat-voorrang voor onroerend goed), en België vermindert via vrijstelling met progressievoorbehoud. Dit valt grotendeels buiten PO 2.1 — uitwerking in internationaal fiscaal recht en in de PO PB/VenB."
+      - "Belangrijk voor PO 2.1: het principe als grens. België mag niet onbeperkt heffen op situaties zonder enige Belgische band. Een Duitse inwoner met enkel Duitse activiteit en geen Belgisch aanknopingspunt valt buiten het Belgisch heffingsbereik. Het aanknopingspunt zelf is grondwettelijk verankerd in art. 170 GW (legaliteit — de wet zelf moet de aanknopingspunten vastleggen)."
+      - "Blockquote-aside: territorialiteit op gewestelijk niveau. Welk gewest is bevoegd? Zie L2 — lokalisatie-criterium per belasting (ligging onroerend goed, woonplaats erflater, fiscale woonplaats op 1 januari aanslagjaar). De gewestelijke territorialiteit is een operationele uitwerking van het algemene principe — geen apart beginsel, wel een dagelijkse adviespraktijk-vraag."
+
+  - id: non-bis-in-idem
+    titel: "Non bis in idem — geen dubbele bestraffing voor dezelfde feiten"
+    niveau: 2
+    beats:
+      - "Open met het principe. Hetzelfde feit kan niet tweemaal worden bestraft of belast in eenzelfde rechtsorde. In fiscale context werkt het beginsel vooral op de sanctie-laag: geen cumul van strafrechtelijke vervolging en administratieve sanctie met strafrechtelijk karakter voor identieke feiten. De wettelijke basis: art. 4 Protocol 7 bij het EVRM, plus de Engel-criteria van het Europees Hof voor de Rechten van de Mens (sanctie met strafrechtelijk karakter wordt 'sanctie van strafrechtelijke aard' in de zin van het EVRM)."
+      - "Werk uit wanneer non bis in idem een issue wordt. Een belastingplichtige die in 2025 een aangifte-fout maakt kan twee wegen tegenkomen. (1) De fiscus legt een **belastingverhoging** op (art. 444 WIB92 — administratieve sanctie). (2) Het parket vervolgt strafrechtelijk wegens fiscale fraude (art. 449-450 WIB92). Op zich kunnen beide procedures parallel lopen — maar zodra de belastingverhoging zwaar genoeg is om als 'sanctie van strafrechtelijke aard' te kwalificeren (typisch boven een bepaald percentage), kan een latere strafvervolging voor dezelfde feiten onverenigbaar zijn met non bis in idem."
+      - "Bijkomende laag: non bis in idem op grondslag-niveau. In internationale context werkt het beginsel ook tegen dubbele economische belasting van dezelfde inkomsten in twee landen — daarvoor zijn de dubbelbelastingverdragen geschreven (zie L2 territorialiteit, en internationaal fiscaal recht). Binnen België: het gewest mag geen belasting heffen op een grondslag die al federaal wordt belast, tenzij uitdrukkelijk toegelaten."
+      - "Blockquote-aside: praktische betekenis voor de stagiair. Non bis in idem is een verdediging die je zelden in eerste lijn inroept — maar bij grote sanctie-dossiers (belastingverhoging + parket-vervolging) wordt het ineens cruciaal. De rechtspraak is technisch (Engel-criteria, A en B tegen Noorwegen) en de drempels schuiven. Bij twijfel: gespecialiseerd advies inroepen."
+
+  - id: realiteit-introductie
+    titel: "Realiteit — de wet volgt economische werkelijkheid (introductie)"
+    niveau: 2
+    beats:
+      - "Open met het principe zoals het in L3 hoort: een algemeen begrenzend beginsel. Het fiscaal recht volgt in beginsel de economische werkelijkheid van een verrichting — niet enkel de juridische verpakking. Partijen mogen wel de minst belaste juridische weg kiezen (Brepols, Cassatie 6 juni 1961), maar wanneer de gekozen rechtshandeling niet overeenstemt met wat partijen werkelijk wilden, kan de fiscus de echte verhouding belasten."
+      - "Werk de twee zijden van het principe uit. (1) **Voor de belastingplichtige als recht** — keuze van de minst belaste weg. Wie tussen twee fiscaal verschillende, beide juridisch toelaatbare wegen mag kiezen, mag de fiscaal voordeligste nemen — zolang de gekozen weg reëel is. Een vennootschap die kiest tussen dividend of bestuurdersbezoldiging maakt een legitieme fiscale keuze; de fiscus mag die niet herkwalificeren louter omdat de andere optie meer zou hebben opgebracht. (2) **Voor de fiscus als grens** — bij geveinsdheid (simulatie) of bij rechtshandelingen die in strijd met de doelstellingen van de wet zijn (fiscaal misbruik) mag de fiscus de gekozen kwalificatie negeren."
+      - "Vermeld de drie naburige technieken zonder ze uit te werken (dat doet L4). (1) **Interpretatie / realiteitsbeginsel** — de fiscus betwist de kwalificatie van een rechtshandeling op basis van feiten. (2) **Simulatie-leer** — de fiscus stelt vast dat de werkelijk gewilde rechtshandeling verschilt van de voorgewende. (3) **Algemene anti-misbruik-bepaling (AAMB, art. 344 §1 WIB92)** — de rechtshandeling is reëel maar werd gekozen om louter fiscale redenen en strijdig met doel van de wet."
+      - "Verwijs door: 'De operationele toepassing van het realiteitsbeginsel — wanneer is een planning toelaatbaar en wanneer slaat de fiscus terug met simulatie of misbruik — werken we uit in [[planning-en-misbruik]].'"
+
+  - id: moraliteit-neutraliteit
+    titel: "Moraliteits-neutraliteit — fiscus oordeelt niet over moraal"
+    niveau: 2
+    beats:
+      - "Open met het principe in twee delen. Het fiscaal recht is in beginsel moreel-neutraal. (1) **Belastbaarheid van illegale inkomsten** — inkomsten worden belast ongeacht hun (il)legaal karakter. Inkomsten uit drugshandel, prostitutie of corruptie zijn fiscaal belastbaar; de fiscus eist haar deel, los van strafrechtelijke vervolging. (2) **Niet-aftrekbaarheid van strafbare kosten** — kosten verbonden aan strafbare feiten (steekpenningen, geheime commissielonen) zijn uitgesloten van aftrek (art. 53, 24° WIB92)."
+      - "Werk de logica uit. Het fiscaal recht straft niet — het belast. Wie illegaal verdient, ontsnapt niet aan de fiscus omdat de inkomsten 'fout' zijn. Tegelijk wil de wetgever niet dat het fiscaal systeem strafbare gedragingen vergemakkelijkt: kosten van smeergeld zijn niet aftrekbaar, zelfs als ze 'noodzakelijk' waren voor de illegale activiteit. De combinatie 'volle belasting op de opbrengst + geen aftrek van de kost' werkt effectief ontmoedigend."
+      - "Praktijkbetekenis voor de stagiair. Een cliënt die een boete of dading betaalt aan een buitenlandse instantie: aftrekbaar? Geen automatisch antwoord. Een boete met strafrechtelijk karakter is niet aftrekbaar (art. 53, 6° WIB92). Een dading die het strafrechtelijk gevolg dekt: idem. Een commerciële boete (vertraging in levering): wel aftrekbaar als beroepsmatig. De grens loopt op het strafrechtelijk karakter, niet op de morele kwalificatie."
+      - "Blockquote-aside: spanning met witwaswetgeving en de antwitwasverplichtingen van de accountant. Dat de fiscus belast wat illegaal is verdiend, betekent niet dat de accountant van zijn meldingsplicht is ontslagen. Witwasrelevante feiten gaan naar de CFI; de fiscale aangifte is een aparte plicht. Beide kunnen samenvallen — vermijd verwarring."
+
+  - id: interpretatie
+    titel: "Interpretatie — hoe lees je een fiscale wet?"
+    niveau: 2
+    beats:
+      - "Open met de praktische vraag. Een wettekst laat meerdere lezingen toe — bijvoorbeeld 'substantiële verbetering van de energieprestatie' uit V3. Hoe beslist een rechter, en welke argumentatie haalt de adviseur uit zijn kast? Het antwoord volgt een vaste methodologische volgorde, niet een vrije keuze."
+      - "Werk de drie methodes uit in volgorde. (1) **Grammaticaal** (eerst). Vertrek van de tekst van de wet in zijn gewone betekenis. Niet 'wat de wetgever bedoelde' maar 'wat de wet zegt'. Definities in de wet (bv. 'rijksinwoner' in art. 2 WIB92, 'kleine vennootschap' in art. 1:24 WVV) hebben voorrang op gangbare taalkundige betekenis. Het legaliteitsbeginsel versterkt deze methode in fiscaal recht — een belasting bestaat enkel binnen de letterlijke grenzen van de wet. (2) **Teleologisch** (als de tekst meerdere lezingen toelaat). Wat wilde de wetgever bereiken? Te raadplegen: parlementaire voorbereiding (memorie van toelichting, kamerverslagen), de ratio legis zoals door Cassatie of het Grondwettelijk Hof beschreven. Moderne Cassatie geeft in fiscale zaken meer ruimte aan teleologische interpretatie dan vroeger — ook ten nadele van de belastingplichtige. (3) **Systematisch**. Hoe past dit artikel in het geheel van het wetboek? Verbinding met aanverwante artikelen, hoofdstukstructuur, definities elders. Een bepaling lezen 'in haar context', niet geïsoleerd."
+      - "Werk dan 'in dubio contra fiscum' uit met de juiste nuance. Bij blijvende twijfel — na uitputting van de grammaticale, teleologische en systematische methode — beslist de rechter ten gunste van de belastingplichtige. Dit volgt uit het legaliteitsbeginsel: wat de wet niet duidelijk belast, kan niet belast worden. Maar de moderne Cassatie eist effectieve, blijvende twijfel — niet louter een argumenteerbare alternatieve lezing. En het werkt asymmetrisch: voor vrijstellingsbepalingen geldt het omgekeerde (strikt ten nadele van de belastingplichtige — vrijstelling moet duidelijk in de wet staan)."
+      - "Concretiseer met vignet V3 stap voor stap. Marc's adviseur staat voor 'substantiële verbetering van de energieprestatie' versus circulaire die '30 % EPC-vermindering' eist. Stap 1 grammaticaal — 'substantieel' is een rekbaar begrip; 24 % EPC-vermindering is op het eerste zicht substantieel. Stap 2 teleologisch — wat wilde de wetgever? Stimuleren van energiezuinige investeringen door familiale holdings. Het is plausibel dat de wetgever een drempel rond de bovenkant van wat normaal haalbaar is wilde, maar de tekst noemt geen percentage. Stap 3 systematisch — bestaan er aanverwante fiscale bepalingen die een 30 %-drempel hanteren? Indien ja, sterker argument voor de circulaire-uitlegging; indien nee, sterker argument voor de wettelijke openheid. Stap 4 in dubio contra fiscum — als na deze drie methodes echte twijfel blijft, ten gunste van Marc. Praktisch advies van de adviseur: documenteer beide pistes, overweeg een ruling bij de DVB (L5)."
+      - "Blockquote-aside: bewijslast in de interpretatie-discussie. Hoofdregel: de fiscus draagt de bewijslast van het bestaan en de omvang van het belastbaar feit. Belangrijke omkeringen: bij aanslag van ambtswege (art. 351 WIB92) komt de bewijslast op de belastingplichtige om de raming van de fiscus te weerleggen; bij vrijstellingen en gunstregimes moet de belastingplichtige de voorwaarden bewijzen. Wie een gunstregime claimt, bewijst — een operationele les voor de aangifte-praktijk."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Nu het denkkader staat, ga verder met:"
+  leerstukken:
+    - slug: planning-en-misbruik
+      hint: "De operationele toepassing van het realiteitsbeginsel: minst belaste weg, simulatie, en de algemene anti-misbruik-bepaling. Drie technieken die in elk planning-dossier door elkaar lopen."
+    - slug: rechtszekerheid-bouwen
+      hint: "Hoe maak je de fiscale gevolgen van een transactie zeker vóór je ze uitvoert — de voorafgaande beslissing (DVB-ruling)?"
+  samenvatting:
+    hint: "Tabel met de acht beginselen + grondslag + gevolg + één concrete dossier-toepassing per beginsel"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [fiscale-beginselen, interpretatie-fiscale-wet]
+    - concepten: [beginselen-behoorlijk-bestuur]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Algemeen gelijkheidsbeginsel en non-discriminatie"
+    ref: "Grondwet art. 10-11"
+  - onderwerp: "Legaliteit fiscaal — federaal en alle niveaus"
+    ref: "Grondwet art. 170"
+  - onderwerp: "Annaliteit — jaarlijkse stemming"
+    ref: "Grondwet art. 171"
+  - onderwerp: "Gelijkheid in fiscale zaken — geen voorrechten, vrijstellingen bij wet"
+    ref: "Grondwet art. 172"
+  - onderwerp: "Territorialiteit — rijksinwoners belast op wereldwijd inkomen"
+    ref: "WIB92 art. 5"
+  - onderwerp: "Territorialiteit — belasting van niet-inwoners op Belgische bron"
+    ref: "WIB92 art. 227 e.v."
+  - onderwerp: "Belastbare winst vennootschappen — boekhoud-pijler"
+    ref: "WIB92 art. 24"
+  - onderwerp: "Niet-aftrekbaarheid steekpenningen (moraliteits-neutraliteit aan kostenzijde)"
+    ref: "WIB92 art. 53, 24°"
+  - onderwerp: "Niet-aftrekbaarheid administratieve en strafrechtelijke boetes"
+    ref: "WIB92 art. 53, 6°"
+  - onderwerp: "Bewijsmiddelen gemeen recht voor fiscale feiten"
+    ref: "WIB92 art. 340"
+  - onderwerp: "Tekentechniek — vermoeden op uiterlijke tekenen van welstand"
+    ref: "WIB92 art. 341"
+  - onderwerp: "Omkering bewijslast bij aanslag van ambtswege"
+    ref: "WIB92 art. 351"
+  - onderwerp: "Non bis in idem — verdrag basis"
+    ref: "EVRM Protocol 7 art. 4 + Engel-criteria EHRM"
+    noot: "Geen Belgisch grondwetartikel; berust op verdragsrecht plus Cassatie-leer."
+  - onderwerp: "Algemene anti-misbruik-bepaling (introductie in L3, uitwerking in L4)"
+    ref: "WIB92 art. 344 §1"
+
+footer: "Leerstuk PO 2.1 — denkkader. Volgende stap: [[planning-en-misbruik]]."

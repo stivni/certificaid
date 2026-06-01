@@ -1,0 +1,165 @@
+# Leerstuk-script — Wie heft, wie betaalt, wie zit er aan tafel?
+#
+# Scope-leerstuk PO 2.1. Het Belgisch fiscaal landschap is polycentrisch: federaal,
+# gewest, gemeente. De accountant moet weten welke deur de juiste is. Dekt ook het
+# economisch versus juridisch onderscheid 'wie draagt' versus 'wie betaalt'.
+#
+# Dekt kenniselementen: 2.1.IV (actoren) · 2.1.V (federaal/gewest/lokaal-as) ·
+# raakt 2.1.VIII (toepassingsgebied — wie?). Vignet-haakje: V4 (Vlaamse
+# leegstandsheffing) voor het gewestelijk-niveau-stuk.
+
+meta:
+  slug: wie-heft-wie-betaalt
+  titel: "Wie heft de belasting, wie betaalt ze, wie zit er aan tafel?"
+  po: "2.1"
+  cluster: fiscaal-recht-algemeen
+  voorbeeldgroep: van-daele-holding
+  beschrijving: >
+    Leerstuk PO 2.1 — het actoren-landschap. Welke overheden mogen welke
+    belastingen heffen (federaal, gewest, gemeente), wat is gewestelijke en
+    lokale fiscale autonomie, wie is belastingplichtige (en wie betaalt
+    juridisch versus economisch), en wie is de gesprekspartner van de
+    accountant.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 2.1. Vermeld
+    expliciet dat [[belasting-en-bronnen]] eerst gelezen moet zijn — daar zijn
+    de drie indelings-assen ingevoerd; dit leerstuk werkt vooral de federaal/
+    gewest/lokaal-as uit en koppelt ze aan de actoren die in een dossier
+    voorbij komen.
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "België is fiscaal polycentrisch. Drie niveaus heffen tegelijk: federaal (PB-basis, VenB, btw, accijnzen), gewest (registratie- en successierechten, OV, verkeersbelasting, leegstandsheffing) en lokaal (provincie- en gemeentebelastingen, opcentiemen). De Grondwet verankert elk niveau apart — art. 170 §1 t/m §4. Bij elke fiscale vraag check je: welk niveau, welke administratie, welke procedure-codex."
+    - "Wie betaalt? Twee vragen die verschillen. De **belastingplichtige** is wie juridisch wordt aangeslagen. De **belastingdrager** is wie economisch de last voelt. Bij directe belastingen vallen die twee meestal samen (Marc krijgt zijn aanslagbiljet PB en betaalt hem ook). Bij indirecte belastingen vallen ze uiteen (de bouwhandel int de btw bij de klant en stort ze door — de klant draagt, de handelaar betaalt)."
+    - "Drie soorten gesprekspartners aan tafel: (1) de **administraties** (FOD Financiën met AAFisc en AABBI, VLABEL voor Vlaamse gewestbelastingen, gemeentediensten); (2) de **belastingplichtige zelf** (natuurlijke persoon, vennootschap, vereniging zonder winstoogmerk); (3) de **rechtbank** in geschillen. De accountant staat ernaast als adviseur, mandataris of vertegenwoordiger."
+  visualisaties:
+    - type: mermaid
+      ref: groepsstructuur
+      bron: voorbeeldgroep
+      notitie: "Toon Van Daele-structuur — gebruikt later om te zien welk niveau welke belasting heft op welke entiteit"
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: drie-niveaus
+    titel: "Drie heffende niveaus — federaal, gewest, gemeente"
+    niveau: 2
+    beats:
+      - "Open met de Grondwet als ordenende as. Art. 170 staat niet voor niets in vier paragrafen: elk niveau krijgt zijn eigen lid, met zijn eigen vereiste. Lees ze achter elkaar en het Belgisch fiscaal landschap klikt vast."
+      - "Werk de vier paragrafen één voor één uit. (1) **§1 federaal** — 'Geen belasting ten behoeve van de Staat kan worden ingevoerd dan door een wet.' Bevoegdheid van het federaal parlement. Wetboeken: WIB92, WBTW, Wbk Reg federaal, accijns- en douanewetgeving. (2) **§2 gewest en gemeenschap** — 'Geen belasting ten behoeve van de gemeenschap of het gewest kan worden ingevoerd dan door een decreet of een in artikel 134 bedoelde regel.' Bevoegdheid van de gewest- en gemeenschapsparlementen. Wetboeken: Vlaamse Codex Fiscaliteit, Brusselse Codex Fiscale Procedure, Waals decreet 6 mei 1999. (3) **§3 provincie** — 'Geen last of belasting kan door de provincie of het bovengemeentelijk bestuur worden ingevoerd dan door een beslissing van haar raad.' (4) **§4 agglomeratie, federatie van gemeenten, gemeente** — 'Geen last of belasting kan door de agglomeratie, de federatie van gemeenten en de gemeente worden ingevoerd dan door een beslissing van hun raad.'"
+      - "Belangrijke nuance op gewestelijk niveau: gewesten kennen drie soorten ontvangsten. (1) **Eigen gewestbelastingen** — gewest bepaalt grondslag, tarief en vrijstellingen. De Bijzondere Financieringswet van 16 januari 1989 lijst ze op: registratierechten op overdracht onroerend goed, schenkings- en successierechten, hypotheekrechten, onroerende voorheffing, verkeersbelasting, belasting op inverkeerstelling (BIV), eurovignet, belasting op spelen en weddenschappen, en enkele kleinere. (2) **Aanvullende gewestelijke PB** — gewest moduleert via opcentiemen of kortingen op de gewestelijke schijf van de federaal berekende PB. (3) **Gedeelde belastingen** — federaal heft, een deel van de opbrengst gaat naar het gewest via dotatie."
+      - "Lokaal niveau: gemeente kan aanvullende belasting op PB heffen ('opcenten gemeentebelasting') én eigen belastingen invoeren (toeristenbelasting, terrasvergoeding, belasting op reclameborden) via gemeenteraadsreglement. Provincies kunnen sinds 2018 geen aanvullende PB meer heffen, maar wel eigen provinciebelastingen via provincieraadsbeslissing."
+      - "Concretiseer met de Van Daele-structuur uit het 'antwoord in één blik'-diagram. Op één holding kan je vlot drie niveaus tegelijk identificeren: federaal (VenB op Van Daele Holding NV), gewest (onroerende voorheffing en leegstandsheffing op het pand Aalst), gemeente (aanvullende gemeentebelasting op de PB van Marc, eventueel een gemeentebelasting op kantooroppervlakte). Eén dossier, drie deuren."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Niveau", "Wettelijke basis", "Wettelijk instrument", "Voorbeelden", "Beleidsmaker"]
+        rijen:
+          - ["**Federaal**", "Grondwet art. 170 §1", "Wet (federaal parlement)", "PB-basis, VenB, btw, accijnzen, douane", "Federale regering + Kamer"]
+          - ["**Gewest / gemeenschap**", "Grondwet art. 170 §2 + Bijzondere Financieringswet 16-01-1989", "Decreet (Vlaanderen, Wallonië, Duitstalige Gemeenschap) of ordonnantie (Brussel)", "Registratie- en successierechten, OV, verkeersbelasting, BIV, leegstandsheffing, opcentiemen PB", "Vlaamse / Waalse / Brusselse / Duitstalige regering + parlement"]
+          - ["**Provincie**", "Grondwet art. 170 §3 + art. 41/162", "Provincieraadsbeslissing", "Provinciebelasting op vergunningplichtige inrichtingen, eigen heffingen", "Provincieraad"]
+          - ["**Gemeente / agglomeratie**", "Grondwet art. 170 §4 + art. 41/162", "Belastingreglement van gemeenteraad", "Aanvullende gemeentebelasting PB (opcenten), opcentiemen OV, eigen belastingen (terras, reclame, ophalen huisvuil als belasting)", "Gemeenteraad + college"]
+
+  - id: gewestelijke-autonomie-uitgewerkt
+    titel: "Gewestelijke autonomie — wat het Vlaamse Gewest concreet kan"
+    niveau: 2
+    beats:
+      - "Open met vignet V4. Marc Van Daele reageert verbaasd op een aanmaning van VLABEL: 'Sinds wanneer kan een Vlaamse administratie een belasting heffen op iets wat federaal niet bestaat?' De adviseur moet uitleggen: wel degelijk. De gewestelijke autonomie is een grondwettelijk verankerde, zelfstandige fiscale bevoegdheid — geen afgeleide van de federale fiscus."
+      - "Werk uit wat dat in de praktijk betekent. Hetzelfde belastbaar feit kan in elk gewest anders uitvallen. Een nalatenschap die openvalt in Brussel wordt belast volgens de Brusselse erfbelasting-tarieven; dezelfde nalatenschap in Vlaanderen volgens de Vlaamse Codex Fiscaliteit. Registratierecht bij aankoop van een woning verschilt substantieel tussen Vlaanderen, Wallonië en Brussel (klein-beschrijf, abattementen, meeneembaarheid)."
+      - "Belangrijk lokalisatie-criterium. Welk gewest is bevoegd? Antwoord: het gewest waar het belastbaar feit zich voordoet. Voor onroerende voorheffing en registratierechten: ligging van het onroerend goed. Voor successierechten: laatste fiscale woonplaats van de erflater (en bij wisseling: woonplaats waar hij het langst woonde in de laatste 5 jaar). Voor verkeersbelasting en BIV: woonplaats van de inschrijver. Voor aanvullende gewestelijke PB: fiscale woonplaats van de belastingplichtige op 1 januari van het aanslagjaar."
+      - "Toepassing op V4: het pand Aalst ligt in het Vlaamse Gewest. Dus de Vlaamse Codex Fiscaliteit is van toepassing — niet alleen voor de onroerende voorheffing, maar ook voor de leegstandsheffing bedrijfsruimten. De wettelijke basis: VCF art. 2.6.1.0.1 voert de heffing in, art. 2.6.7.0.1 bepaalt dat ze verschuldigd is vanaf het kalenderjaar volgend op de derde opeenvolgende registratie in de inventaris. VLABEL is de bevoegde administratie. Marc heeft eventueel een opschortingsverzoek wegens bedrijfseconomische omstandigheden onder art. 2.6.7.5.1 VCF — maar geen federale fiscus om naar terug te vallen."
+      - "Blockquote-aside: het gewest blijft gebonden door de grondwettelijke beginselen. Legaliteit (art. 170 §2 GW) eist dat de Vlaamse decreetgever zelf de grondslag, het tarief en de vrijstellingen vastlegt. Gelijkheid (art. 172 GW) is door het Grondwettelijk Hof uitdrukkelijk toepasselijk verklaard op decreten. Een Vlaamse heffing die ongelijk uitvalt voor vergelijkbare situaties is dus aanvechtbaar voor het Grondwettelijk Hof — een hoge drempel, maar het verweer bestaat. Operationeel zelden de eerste lijn — meestal start de discussie met het opschortingsverzoek of een betwisting van de inventarisatie."
+
+  - id: lokale-autonomie
+    titel: "Lokale autonomie — wat de gemeente kan"
+    niveau: 2
+    beats:
+      - "Open met het feit dat het lokale niveau vaak vergeten wordt in de fiscale analyse — terwijl het ondertussen substantieel kan wegen op een KMO-dossier (aanvullende gemeentebelasting PB, opcentiemen OV, lokale heffingen)."
+      - "Werk twee mechanismen uit. (1) **Aanvullende belasting op PB**. Art. 465 WIB92 staat de gemeente toe een aanvullende belasting te heffen, uitgedrukt als percentage van de PB-basis. Tarieven variëren typisch tussen 6 % en 9 % naargelang de gemeente — een dossier dat verhuist van een gemeente met 6 % naar één met 9 % betekent een directe PB-stijging zonder dat de federale tarieven wijzigen. (2) **Eigen gemeentebelastingen** via gemeenteraadsreglement: terrasvergoeding, reclame-borden, huisvuilophaling als belasting, belasting op tweede verblijven, leegstand woningen op gemeentelijk niveau (bovenop een eventuele gewestelijke leegstandsheffing voor bedrijfsruimten)."
+      - "Klassieke valkuil: een gemeentecollegebeslissing volstaat niet om een belasting in te voeren. Het is altijd de gemeenteraad die het reglement aanneemt — anders is de heffing nietig wegens schending van art. 170 §4 GW. Een terrasvergoeding kan ofwel een belasting zijn (verplichte bijdrage zonder direct individueel tegenprestatie — vereist gemeenteraadsreglement) ofwel een retributie (tegenprestatie voor het gebruik van openbaar domein — andere juridische grondslag, andere procedure)."
+      - "Blockquote-aside: provincies sinds 2018. Sinds het Vlaams Decreet van 18 mei 2018 (afslanking provincies) kunnen Vlaamse provincies geen aanvullende belasting meer heffen op PB. Eigen provinciebelastingen blijven mogelijk binnen hun bevoegdheidssfeer. Waalse en Brusselse provincies kennen een eigen regeling — de praktijk weegt er meer dan in Vlaanderen."
+
+  - id: wie-betaalt-juridisch-economisch
+    titel: "Wie betaalt? Juridisch versus economisch"
+    niveau: 2
+    beats:
+      - "Open met het onderscheid dat in elk btw- en in elk voorheffings-dossier opduikt. De wet wijst altijd één persoon aan als 'belastingplichtige' — wie juridisch moet aangeven en betalen. Maar wie de last in zijn portemonnee voelt is een tweede vraag. Voor de accountant is dat onderscheid niet academisch: het bepaalt wie je in een dossier vertegenwoordigt, wie de fiscus aanspreekt, en wie de discussie met de fiscus mag voeren."
+      - "Werk drie scenario's uit. (1) **Directe belastingen — meestal samenvallend**. PB op Marc: Marc is belastingplichtige (juridisch aangeslagen) én belastingdrager (economisch belast). VenB op Van Daele Holding NV: de vennootschap betaalt en draagt. (2) **Indirecte belastingen — uiteenvallend**. Btw op een verkoop door Van Daele Bouwhandel: de bouwhandel is btw-belastingplichtige (int de btw, stort ze door), maar de klant is de belastingdrager (zijn portemonnee wordt lichter). (3) **Voorheffingen — drie partijen**. Bedrijfsvoorheffing op het loon dat Lotte ontvangt als bestuurder: de werkgever (Van Daele Bouwhandel) is wettelijke schuldenaar tegenover de fiscus, Lotte is de belastingplichtige op haar inkomen (uiteindelijke afrekening via aangifte), de fiscus is de schuldeiser. De voorheffing wordt later verrekend in Lotte's PB-eindafrekening."
+      - "Bijkomende laag: hoofdelijke medeschuldenaars. In sommige situaties stelt de wet meerdere personen aansprakelijk voor dezelfde schuld — een zaakvoerder kan onder strikte voorwaarden hoofdelijk worden aangesproken voor bedrijfsvoorheffing of btw die de vennootschap niet doorstort. Dat verandert de relatie 'wie betaalt' weer fundamenteel — niet relevant voor de basisindeling, wel voor de adviespraktijk."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Belasting", "Wettelijke schuldenaar (betaalt juridisch)", "Belastingplichtige (wordt aangeslagen)", "Belastingdrager (draagt economisch)"]
+        rijen:
+          - ["PB op Marc", "Marc", "Marc", "Marc"]
+          - ["VenB op Van Daele Holding NV", "Holding NV", "Holding NV", "Holding NV (vermindert het uitkeerbaar resultaat)"]
+          - ["Btw bij verkoop bouwmaterialen", "Bouwhandel NV (stort door)", "Bouwhandel NV (statuut btw-belastingplichtige)", "Eindklant (op de factuur)"]
+          - ["Bedrijfsvoorheffing op bestuurdersbezoldiging Lotte", "Bouwhandel NV (werkgever)", "Lotte (in haar PB)", "Lotte (de voorheffing komt op haar PB-eindafrekening)"]
+          - ["Onroerende voorheffing pand Aalst", "Holding NV (eigenaar)", "Holding NV", "Holding NV"]
+
+  - id: gesprekspartners
+    titel: "Met wie zit de accountant aan tafel?"
+    niveau: 2
+    beats:
+      - "Open met de praktische vraag: wie bel je, naar wie schrijf je, en voor welke administratie verschijn je in een geschil? Het antwoord verschilt per belasting, en het verschilt per gewest. Voor de stagiair is dit de minst spectaculaire kennis, maar in de praktijk de meest gebruikte."
+      - "Werk de federale administraties uit. **FOD Financiën** bundelt vier algemene administraties die voor de accountant relevant zijn. (1) **AAFisc** (Algemene Administratie van de Fiscaliteit) — beheer en controle van PB, VenB, btw, BNI. (2) **AABBI** (Algemene Administratie van de Bijzondere Belastinginspectie) — onderzoeken bij ernstige inbreuken en grote of complexe dossiers. (3) **Algemene Administratie van de Inning en de Invordering** — bij niet-betaling. (4) **Algemene Administratie van de Patrimoniumdocumentatie** — kadaster, hypotheek, federaal beheer registratierechten waar dat nog niet door VLABEL is overgenomen."
+      - "Gewestelijke administraties. **VLABEL** (Vlaamse Belastingdienst) int sinds 2015 de Vlaamse erfbelasting (vervangt federale successierechten in Vlaanderen), sinds 2015 ook de Vlaamse registratiebelasting voor de meeste verrichtingen, en in opbouwende fasen onroerende voorheffing en verkeersbelasting. **Brussel Fiscaliteit** en **Service Public de Wallonie — Fiscalité** doen vergelijkbaar werk voor hun gewest, met een eigen tempo van overname van de inning."
+      - "Lokale administraties: gemeentediensten (financiële dienst gemeente) en provinciebesturen voor hun eigen belastingen. Sommige gemeenten geven de inning van bepaalde belastingen uit aan gespecialiseerde firma's — de procedure verandert dan in detail, niet in juridische aard."
+      - "Concretiseer voor Van Daele. PB van Marc — federale FOD Financiën (AAFisc). VenB van de twee vennootschappen — eveneens AAFisc. Btw van de bouwhandel — AAFisc, btw-team. Erfbelasting bij overlijden van Marc — VLABEL (woonplaats Vlaanderen). Registratierecht bij overdracht van het bedrijfsgebouw aan de holding (V2) — VLABEL (ligging Vlaanderen). Onroerende voorheffing pand Aalst — VLABEL. Leegstandsheffing pand Aalst — VLABEL. Aanvullende gemeentebelasting PB — federaal int voor rekening van de gemeente."
+      - "Blockquote-aside: de rol van de accountant. Drie posities, vaak in één dossier door elkaar. (1) **Adviseur** (taak 2.1.taak.1) — proactief, voor de verrichting. (2) **Compliance-bijstand** (taak 2.1.taak.2) — bij aangifte, bewijsstukken, termijnen. (3) **Vertegenwoordiger** (taak 2.1.taak.3) — mandataris die de belastingplichtige bijstaat of vertegenwoordigt in dialoog met de administratie. Welke positie je inneemt bepaalt mee welke argumenten je in stelling brengt en welke documenten je nodig hebt."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Nu het landschap helder is, ga verder met:"
+  leerstukken:
+    - slug: beginselen-en-grenzen
+      hint: "Welke grondwettelijke en algemene beginselen begrenzen alle heffende overheden — federaal, gewest én gemeente — en hoe lees je een fiscale wet?"
+    - slug: planning-en-misbruik
+      hint: "Hoe ver mag een belastingplichtige gaan om de meest gunstige weg te kiezen — en wanneer slaat de fiscus terug met simulatie of fiscaal misbruik?"
+  samenvatting:
+    hint: "Driehoek federaal/gewest/gemeente + tabel 'wie betaalt juridisch versus economisch' voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [fiscale-actoren, gewestelijke-fiscale-autonomie]
+    - concepten: [lokale-fiscale-autonomie, lokale-en-regionale-belastingen]
+    - concepten: [toepassingsgebied-belasting]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Heffende bevoegdheid — vier niveaus"
+    ref: "Grondwet art. 170 §§1-4"
+    noot: "Federaal (§1), gewest/gemeenschap (§2), provincie (§3), agglomeratie/federatie/gemeente (§4). Elk niveau vereist een eigen wettelijk instrument."
+  - onderwerp: "Belasting-monopolie tegenover retributie"
+    ref: "Grondwet art. 173"
+    noot: "Buiten enkele uitzonderingen kan van burgers geen retributie worden gevorderd dan alleen als belasting ten behoeve van Staat, gemeenschap, gewest, agglomeratie, federatie van gemeenten of gemeente."
+  - onderwerp: "Bijzondere Financieringswet — gewestelijke fiscale autonomie"
+    ref: "Bijzondere wet 16 januari 1989 (BFW) art. 3 (eigen gewestbelastingen) + art. 5 (lokalisatie + overname inning) + art. 5/1 e.v. (aanvullende gewestelijke PB)"
+    noot: "Lijst eigen gewestbelastingen: registratie- en successierechten, hypotheekrechten, OV, verkeersbelasting, BIV, eurovignet, spelen en weddenschappen, automatische ontspanningstoestellen, openingsbelasting slijterijen."
+  - onderwerp: "Aanvullende gemeentebelasting op PB"
+    ref: "WIB92 art. 465"
+    noot: "In afwijking van art. 464 mogen agglomeraties en gemeenten een aanvullende belasting op de PB vestigen. Tarieven vastgesteld door gemeenteraadsreglement."
+  - onderwerp: "Opcentiemen provincie/agglomeratie/gemeente op OV en bepaalde gewestbelastingen"
+    ref: "WIB92 art. 464/1"
+  - onderwerp: "Vlaamse leegstandsheffing bedrijfsruimten"
+    ref: "Vlaamse Codex Fiscaliteit art. 2.6.1.0.1 (heffing) + art. 2.6.7.0.1 (verschuldigd vanaf jaar volgend op derde opeenvolgende registratie) + art. 2.6.7.5.1 (opschorting bedrijfseconomische omstandigheden)"
+    noot: "Eigen Vlaamse heffing — geen federaal equivalent. Wordt geïnd door VLABEL."
+  - onderwerp: "Belastbare inkomsten van bestuurder — bedrijfsleidersbezoldiging"
+    ref: "WIB92 art. 32"
+    noot: "Werkgever houdt bedrijfsvoorheffing in en stort door; bestuurder geeft aan in PB. Klassiek voorbeeld van uiteenvallen 'wettelijke schuldenaar' versus 'belastingplichtige'."
+
+footer: "Leerstuk PO 2.1 — landschap. Volgende stap: [[beginselen-en-grenzen]]."

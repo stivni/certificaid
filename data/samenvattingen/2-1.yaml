@@ -1,0 +1,147 @@
+meta:
+  slug: "2-1"
+  titel: "Algemene beginselen van fiscaal recht"
+  po: "2.1"
+  beschrijving: "PO-samenvatting (geheugen-kapstok): acht beginselen, bronnen-hiërarchie, drie-lagen-test planning/simulatie/misbruik, voorafgaande beslissing — op enkele A4, printbaar voor de week vóór het examen."
+  explorer_title: "6. Samenvatting"
+  print_a4: 3
+
+intro:
+  callout_beat: >
+    Kapstok op enkele A4 voor herhaling vlak vóór het examen. Vaste blokken: de acht
+    beginselen, bronnen-hiërarchie, het drie-lagen-denkproces minst-belaste-weg /
+    simulatie / misbruik, en de voorafgaande beslissing. Bedoeld om in één avond door
+    te lopen — niet om voor het eerst te leren. Voor uitleg + doorwerking: de vijf
+    leerstukken van dit leerpad. Voor verhaal en routekaart: het overzicht.
+
+take_away:
+  titel: "Take-away — wat je écht moet weten"
+  bullets:
+    - "**Wat is een belasting?** Eenzijdig opgelegd · zonder rechtstreekse tegenprestatie · voor algemeen belang. Verschilt van retributie (geld voor concrete dienst) en sociale bijdrage (recht op uitkering)."
+    - "**Bronnen in rangorde**: Grondwet → internationale verdragen + EU-recht → wet (federaal of decreet) → KB/MB → circulaire. **De circulaire bindt enkel de fiscus** (via vertrouwensbeginsel) — niet de rechter, niet de belastingplichtige."
+    - "**Vier heffende niveaus**: federale staat, gemeenschappen/gewesten, provincies, gemeenten. Elk niveau heeft een eigen grondwettelijke basis (art. 170 GW §1-§4)."
+    - "**Acht beginselen**: vier grondwettelijk (legaliteit · annaliteit · gelijkheid · niet-retroactiviteit) + vier algemeen (territorialiteit · non bis in idem · realiteit · moraliteits-neutraliteit). Strikte interpretatie is het *gevolg* van legaliteit."
+    - "**Drie-lagen-test in elk dossier**: (1) minst belaste weg → toelaatbaar; (2) simulatie → fiscus mag tegenakte aanvoeren; (3) fiscaal misbruik → akte blijft civielrechtelijk geldig maar fiscus mag haar niet tegenwerpen."
+    - "**Voorafgaande beslissing (DVB-ruling)**: bindt fiscus voor 5 jaar — mits feiten en wet ongewijzigd. Vooraf aanvragen (vóór de verrichting fiscale gevolgen heeft). Weigert bij lopende controle/beroep, bij invordering, en bij Pillar 2."
+
+extra_blokken:
+  - id: acht-beginselen
+    type: tabel-vergelijking
+    titel: "De acht beginselen — overzicht"
+    intro: "Vier grondwettelijke pijlers + vier algemene rechtsbeginselen. Wettekst-refs in 'Wettelijk fundament' van [[beginselen-en-grenzen]]."
+    kolommen: ["Beginsel", "Bron", "Wat zegt het?", "Examen-haakje"]
+    rijen:
+      - ["**Legaliteit**", "Grondwet art. 170", "Geen belasting zonder wet (of decreet); strikte interpretatie + verbod analogie", "Argument bij delegatie aan KB of bij circulaire die wet uitbreidt"]
+      - ["**Annaliteit**", "Grondwet art. 171", "Jaarlijkse stemming bij begroting; bij niet-vernieuwing vervalt heffing na één jaar", "Toets op overgangsrecht bij wisseling regering"]
+      - ["**Gelijkheid (fiscaal)**", "Grondwet art. 172", "Geen voorrechten; vrijstelling enkel bij wet — gekoppeld aan art. 10/11 GW", "Bezwaargrond bij ongerechtvaardigd onderscheid"]
+      - ["**Niet-retroactiviteit**", "Wet zelf + algemeen rechtsbeginsel", "Belasting kan in beginsel niet ingaan op feiten van vóór publicatie", "Toets op nieuwe wet die ingaat op afgesloten boekjaar"]
+      - ["**Territorialiteit**", "Algemeen rechtsbeginsel + grenzen aan extraterritoriaal heffen", "Belastingjurisdictie volgt verbondenheid met grondgebied (woonst, bron, plaats)", "Verschil tussen rijksinwoner (wereldinkomen) en niet-inwoner (Belgische bron)"]
+      - ["**Non bis in idem**", "EVRM Protocol 7 art. 4 + intern fiscaal", "Niet tweemaal gestraft voor hetzelfde feit (strafrechtelijke component)", "Engel-criteria bepalen of fiscale boete 'straf' is"]
+      - ["**Realiteit**", "Algemeen rechtsbeginsel", "Belastingwet volgt economische werkelijkheid — opmaat naar simulatie + anti-misbruik", "Brepols-doctrine: civielrechtelijke kwalificatie telt, tenzij geveinsd"]
+      - ["**Moraliteits-neutraliteit**", "Algemeen rechtsbeginsel", "Belastbaar feit is onafhankelijk van legaal/illegaal karakter; sommige uitgaven blijven wel niet-aftrekbaar", "Steekpenningen + boetes als illustratie (niet-aftrekbaar)"]
+
+  - id: drie-lagen
+    type: tabel-vergelijking
+    titel: "Drie-lagen-test — planning, simulatie of misbruik?"
+    intro: "Het denkproces dat je in elk dossier loopt. Loop deze drie lagen door — pas wanneer een laag 'pakt' kan de fiscus optreden."
+    kolommen: ["Laag", "Wat doet de belastingplichtige?", "Wat doet de fiscus?", "Wettelijk anker"]
+    rijen:
+      - ["**1. Minst belaste weg**", "Kiest, binnen de wet, de optie met laagste belasting — alle gevolgen aanvaardend", "Niets — keuze is toelaatbaar (Brepols, Cass. 6 juni 1961)", "Algemeen rechtsbeginsel — geen anti-bepaling"]
+      - ["**2. Simulatie**", "Stelt iets voor *anders* dan wat partijen werkelijk willen (tegenakte naast openbare akte)", "Mag de civielrechtelijke werkelijkheid (tegenakte) aanvoeren — herkwalificeert", "Au Vieux Saint-Martin, Cass. 29 januari 1988 + algemeen leerstuk"]
+      - ["**3. Fiscaal misbruik**", "Verrichting is civielrechtelijk geldig en niet geveinsd, maar in wezen gericht op fiscaal voordeel in strijd met doelstelling wet", "Negeert de gekozen weg fiscaal — herstel op de 'normale' weg. Tegenbewijs: andere niet-fiscale motieven", "Art. 344 §1 WIB92 (directe belastingen) · art. 1 §10 WBTW · Vlaamse parallel + WDRT/Brussels/Waals"]
+    noot: "De drie lagen worden cumulatief getoetst — eerst kijken of simulatie speelt, pas dán naar de anti-misbruikregel grijpen. Bewijslast eerste twee elementen ligt bij fiscus; tegenbewijs niet-fiscale motieven bij belastingplichtige."
+
+  - id: vier-voorwaardentest
+    type: mermaid
+    titel: "Beslisboom — is dit fiscaal misbruik?"
+    intro: "Vier voorwaarden cumulatief. Pas wanneer alle vier zijn voldaan, slaat art. 344 §1 WIB / art. 1 §10 WBTW toe. Eén breuk volstaat om uit het misbruik-vakje te springen."
+    mermaid_type: flowchart-td
+    code: |
+      A[Verrichting onder de loep] --> B{1. Akte valt onder<br>belastingbepaling X<br>maar ontwijkt haar?}
+      B -- nee --> X[Geen misbruik]
+      B -- ja --> C{2. Akte valt binnen<br>belastingbepaling Y<br>en valt onder gunstregime?}
+      C -- nee --> X
+      C -- ja --> D{3. In strijd met<br>doelstellingen van<br>fiscale bepaling?}
+      D -- nee --> X
+      D -- ja --> E{4. Verrichting<br>wezenlijk gericht op<br>fiscaal voordeel?}
+      E -- nee --> X
+      E -- ja --> F{Tegenbewijs:<br>andere motieven dan<br>belastingontwijking?}
+      F -- ja --> X
+      F -- nee --> Y[Fiscaal misbruik —<br>fiscus herkwalificeert]
+
+  - id: voorafgaande-beslissing
+    type: tabellen-en-formules
+    titel: "Voorafgaande beslissing — kompas"
+    intro: "De DVB-ruling is het instrument om fiscale onzekerheid vóór de verrichting weg te nemen. Niet voor elke vraag inzetbaar."
+    sub_blokken:
+      - type: tabel-inline
+        titel: "Wanneer wel, wanneer niet?"
+        kolommen: ["Wel mogelijk", "Niet mogelijk"]
+        rijen:
+          - ["Geplande verrichting (nog geen fiscale gevolgen gehad)", "Verrichting heeft reeds fiscale gevolgen of zit in administratief beroep / gerechtelijke procedure"]
+          - ["Concrete feiten + concrete wetstoepassing", "Vraag enkel naar interpretatie zonder concreet dossier"]
+          - ["Belasting binnen DVB-bevoegdheid (PB, VenB, BTW, ...)", "Invorderingsfase of vervolgingen"]
+          - ["—", "Pillar 2 (sinds 2024)"]
+        noot: "Wet 24 december 2002 art. 20 + art. 22 — uitsluitingsgronden cumulatief: één volstaat om aanvraag te weigeren."
+      - type: tabel-inline
+        titel: "Bindende werking — hoofdregel + uitzonderingen"
+        kolommen: ["Hoofdregel", "Geldt niet als..."]
+        rijen:
+          - ["Beslissing bindt fiscus voor 5 jaar zolang de aanvrager de werkelijke uitvoering respecteert", "Voorwaarden waarin beslissing voorziet niet of niet meer zijn vervuld"]
+          - ["—", "Verrichting niet conform de beschrijving in aanvraag is uitgevoerd"]
+          - ["—", "Essentiële elementen van verrichting niet gerealiseerd op de wijze die in aanvraag was voorgesteld"]
+          - ["—", "Latere bepalingen van Belgisch recht, EU-recht of internationaal verdrag de toestand wijzigen"]
+
+valkuilen:
+  titel: "Klassieke valkuilen"
+  format: "tabel"
+  rijen:
+    - valkuil: "Circulaire = wet"
+      wat_klopt_niet: "Behandelt circulaire als bindende rechtsbron"
+      wat_klopt_wel: "Circulaire is interne dienstinstructie — bindt enkel fiscus (vertrouwensbeginsel), niet de rechter, niet de belastingplichtige"
+    - valkuil: "Minst belaste weg = misbruik"
+      wat_klopt_niet: "Elke fiscaal gemotiveerde keuze automatisch gelijkstellen aan ontwijking"
+      wat_klopt_wel: "Keuze van minst belaste weg is toelaatbaar (Brepols). Pas bij simulatie of bij voldoen aan vier-voorwaardentest art. 344 §1 WIB ligt de grens"
+    - valkuil: "Simulatie en misbruik gelijkstellen"
+      wat_klopt_niet: "De twee categorieën door elkaar gebruiken"
+      wat_klopt_wel: "Bij simulatie is de akte niet wat ze voorstelt (tegenakte). Bij misbruik is de akte civielrechtelijk wél echt, maar fiscaal niet tegenwerpelijk wegens strijd met doelstelling wet"
+    - valkuil: "Vier voorwaarden niet cumulatief lezen"
+      wat_klopt_niet: "Eén voorwaarde van art. 344 §1 WIB volstaat voor misbruik"
+      wat_klopt_wel: "De vier voorwaarden + tegenbewijs zijn cumulatief — fiscus moet alle elementen aantonen vooraleer misbruik vaststaat"
+    - valkuil: "DVB-ruling kan álle vragen beantwoorden"
+      wat_klopt_niet: "Ruling aanvragen voor verrichtingen die reeds gevolgen hebben of in geschil zijn"
+      wat_klopt_wel: "Ruling is uitsluitend vooraf inzetbaar. Reeds-fiscale-gevolgen + lopende controle/beroep + invordering + Pillar 2 = weigering"
+    - valkuil: "Strikte interpretatie ≠ in dubio contra fiscum"
+      wat_klopt_niet: "De twee regels gelijk schakelen"
+      wat_klopt_wel: "Strikte interpretatie geldt voor élke fiscale wet (gevolg legaliteit). In dubio contra fiscum geldt enkel bij écht onduidelijke tekst — na grammaticale + teleologische + systematische lezing"
+    - valkuil: "Lokale belasting = zelfde regime als federale"
+      wat_klopt_niet: "Gemeentebelasting onder federale bevoegdheid plaatsen"
+      wat_klopt_wel: "Gemeenten hebben fiscale autonomie (art. 170 §4 + art. 41/162 GW), met eigen procedure. Federale wet geldt enkel waar uitdrukkelijk verwezen"
+
+doorklik:
+  intro: "Voor wie iets niet meer scherp heeft, klik door naar het leerstuk waar het volledig wordt uitgewerkt — of naar het concept-record voor definitorisch detail."
+  leerstukken:
+    - slug: belasting-en-bronnen
+      hint: "Definitie belasting · functies · bronnen-hiërarchie · indelings-assen"
+    - slug: wie-heft-wie-betaalt
+      hint: "Vier heffende niveaus · gewestelijke + lokale autonomie · onderscheid schuldenaar/belastingplichtige/drager"
+    - slug: beginselen-en-grenzen
+      hint: "Acht beginselen volledig uitgewerkt · interpretatie-leer · in dubio contra fiscum"
+    - slug: planning-en-misbruik
+      hint: "Drie-lagen-test · simulatie-leer · vier-voorwaardentest art. 344 §1 WIB"
+    - slug: rechtszekerheid-bouwen
+      hint: "Voorafgaande beslissing — procedure, weigeringsgronden, bindende werking"
+  concept_groepen:
+    - label: "Kaders + bronnen"
+      concepten: [belasting-definitie-en-functies, fiscaal-recht, normbronnen, indeling-belastingen]
+    - label: "Actoren + autonomie"
+      concepten: [fiscale-actoren, gewestelijke-fiscale-autonomie, lokale-fiscale-autonomie, lokale-en-regionale-belastingen, toepassingsgebied-belasting]
+    - label: "Beginselen + interpretatie"
+      concepten: [fiscale-beginselen, interpretatie-fiscale-wet]
+    - label: "Planning + misbruik"
+      concepten: [simulatie-leer, algemene-anti-misbruik-bepaling, anti-misbruik, verboden-constructies]
+    - label: "Rechtszekerheid"
+      concepten: [voorafgaande-beslissing-dvb]
+
+footer:
+  string: "Samenvatting PO 2.1 — geheugen-kapstok voor herhaling. Gebaseerd op de vijf leerstukken van dit leerpad; wettelijke claims daar verankerd via MCP-verificatie."

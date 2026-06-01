@@ -1,0 +1,172 @@
+# Leerstuk-script — Minst belaste weg, simulatie of misbruik?
+#
+# Techniek-leerstuk PO 2.1. Operationele toepassing van het realiteitsbeginsel
+# uit L3. Drie lagen door elkaar: (1) minst belaste weg = legitiem (Brepols);
+# (2) simulatie = veinzing — fiscus mag tegenakte aanvoeren; (3) algemene
+# anti-misbruik-bepaling (AAMB) = de gekozen weg is reëel maar strijdig met
+# wetsdoel.
+#
+# Dekt kenniselementen: 2.1.IX.B realiteit (centrale toepassing) + operationeel
+# anker voor taak 1 (advies) en taak 3 (verdediging). Vignet-haakjes: V1
+# (gefaseerde schenking) en V2 (vastgoed-aan-holding).
+
+meta:
+  slug: planning-en-misbruik
+  titel: "Mag dit? Minst belaste weg, simulatie of fiscaal misbruik"
+  po: "2.1"
+  cluster: fiscaal-recht-algemeen
+  voorbeeldgroep: van-daele-holding
+  beschrijving: >
+    Leerstuk PO 2.1 — techniek. Hoe denk je over een fiscale planning? Drie
+    lagen: Brepols (vrije keuze minst belaste weg), simulatie (fiscus mag de
+    tegenakte aanvoeren) en de algemene anti-misbruik-bepaling van art. 344 §1
+    WIB92 (constructie strijdig met doelstelling van de wet). Inclusief
+    vier-voorwaardentest, tegenbewijs en herstel-effect.
+
+intro:
+  callout_beat: >
+    Standaard leerstuk-intro met verwijzing naar het overzicht PO 2.1. Vermeld
+    dat [[beginselen-en-grenzen]] (in het bijzonder de introductie van het
+    realiteitsbeginsel) eerst gelezen moet zijn. Dit leerstuk is operationeel
+    — geen catalogus van regels maar een denkproces dat je in elke planning
+    toepast. Sluit aan bij [[rechtszekerheid-bouwen]] voor het preventieve
+    instrument (DVB-ruling).
+
+# ---------------------------------------------------------------------------
+# Antwoord in één blik
+# ---------------------------------------------------------------------------
+
+antwoord_in_een_blik:
+  beats:
+    - "Drie lagen liggen door elkaar in elke planning-discussie. **Brepols** (Cassatie 6 juni 1961): de belastingplichtige mag de minst belaste weg kiezen — zolang de gekozen rechtshandelingen reëel zijn en alle juridische gevolgen door partijen aanvaard worden. **Simulatie**: als partijen één enkel gevolg willen ontlopen terwijl ze de andere aanvaarden, mag de fiscus de tegenakte aanvoeren (Au Vieux Saint-Martin, Cassatie 29 januari 1988). **AAMB** (art. 344 §1 WIB92): als de rechtshandeling reëel is maar in wezen het verkrijgen van een belastingvoordeel beoogt dat strijdig is met de doelstellingen van de wet, mag de fiscus haar fiscaal wegdenken."
+    - "Zaak van de adviseur: bij elke planning eerst de drie lagen toetsen. Is de gekozen weg reëel (geen simulatie)? Werkt ze niet tegen de doelstelling van een bepaling (geen AAMB-risico)? Bestaan er overtuigende niet-fiscale motieven? Documenteer alles contemporain met de transactie — niet achteraf rationaliseren."
+    - "Belangrijk: AAMB werkt uitsluitend fiscaal. De civielrechtelijke geldigheid van de rechtshandeling blijft volledig intact. De fiscus 'denkt de constructie weg' voor de berekening van de belasting, maar de notariële akte, het vruchtgebruik of de schenking blijven juridisch bestaan."
+  visualisaties:
+    - type: tabel-inline
+      kolommen: ["Instrument", "Vereiste", "Wie bewijst?", "Gevolg"]
+      rijen:
+        - ["**Minst belaste weg** (Brepols)", "Gekozen rechtshandeling is reëel + alle juridische gevolgen worden aanvaard", "Belastingplichtige kan altijd inroepen", "Fiscaal voordeel blijft — fiscus mag niet herkwalificeren"]
+        - ["**Simulatie**", "Partijen willen iets anders dan ze laten zien (geveinsdheid). Bewijs via tegenakte, correspondentie, vermoedens", "Fiscus", "De werkelijke handeling wordt belast (zwaarder gevolg dan AAMB)"]
+        - ["**AAMB — art. 344 §1 WIB92**", "(1) één verrichting; (2) strijdig met doelstellingen van een bepaling; (3) in wezen fiscaal hoofddoel; (4) geen overtuigend tegenbewijs niet-fiscale motieven", "Eerste drie: fiscus. Tegenbewijs: belastingplichtige", "Fiscale herstelling 'alsof het misbruik niet heeft plaatsgevonden' — civielrechtelijke geldigheid intact"]
+  afsluiter: "We werken de drie lagen één voor één uit en gebruiken V1 (gefaseerde schenking) en V2 (vastgoed-aan-holding) als concrete cases. Beide vignetten kruisen meerdere lagen — dat is geen toeval, dat is de praktijk."
+
+# ---------------------------------------------------------------------------
+# Opbouw
+# ---------------------------------------------------------------------------
+
+opbouw:
+
+  - id: minst-belaste-weg
+    titel: "Laag 1 — De minst belaste weg (Brepols-doctrine)"
+    niveau: 2
+    beats:
+      - "Open met het arrest. In Brepols (Cassatie 6 juni 1961) erkende het Hof van Cassatie dat de belastingplichtige het recht heeft om de minst belaste weg te kiezen — zolang de gekozen rechtshandelingen reëel zijn en alle juridische gevolgen door partijen aanvaard worden. Een grondrecht van de belastingplichtige: geen plicht om het meest belaste pad te nemen 'omdat het de Staat ten goede komt'."
+      - "Werk de twee voorwaarden uit. (1) **Reëel** — de gekozen rechtshandeling moet werkelijk worden uitgevoerd, niet op papier blijven. Een 'verkoop' zonder prijsbetaling is niet reëel. (2) **Alle gevolgen aanvaard** — de partijen moeten ook de niet-fiscale gevolgen van de gekozen vorm aanvaarden (overdracht van eigendom, risico, aansprakelijkheid). Dit is de cruciale nuance uit Au Vieux Saint-Martin (Cassatie 29 januari 1988): wie één gevolg wil ontlopen terwijl hij de andere aanvaardt, simuleert."
+      - "Concretiseer met vignet V1 scenario A. Marc schenkt gefaseerd aandelen via klassieke notariële schenking voor Belgische notaris, met betaling van het Vlaamse schenkbelasting-tarief voor familiale vennootschappen. Brepols geldt onverkort. Dit is klassieke fiscale planning: hij koos voor schenking onder een gunstig tarief, betaalde wat verschuldigd was, en de schenking werd reëel uitgevoerd (eigendomsoverdracht, registratie). Geen simulatie, geen misbruik."
+      - "Belangrijke nuance vooraf. Brepols geldt ook als het motief van de keuze uitsluitend fiscaal is. Wie kiest tussen dividend en bestuurdersbezoldiging mag de fiscaal voordeligste nemen — het feit dat het motief 'fiscaal' was, maakt de keuze niet onrechtmatig. Pas als de keuze de wet zélf zou frustreren (laag 3 — AAMB) verandert de analyse."
+      - "Blockquote-aside: belastingontwijking versus belastingontduiking. Twee termen die studenten vaak verwarren. **Belastingontwijking** (tax avoidance) — legale planning binnen de grenzen van de wet, eventueel met louter fiscale motieven. Brepols beschermt dit. **Belastingontduiking** (tax evasion) — verzwijgen of vervalsen van feiten om belasting te ontlopen. Strafrechtelijk vervolgbaar (art. 449-450 WIB92). De grens loopt over het feitelijke informatie-aanbod aan de fiscus — niet over de fiscale motivering van de keuze."
+
+  - id: simulatie
+    titel: "Laag 2 — Simulatie (de fiscus voert de tegenakte aan)"
+    niveau: 2
+    beats:
+      - "Open met het civielrechtelijk vertrekpunt. Tegenakten gelden niet ten aanzien van derden (art. 5.197 BW, oud art. 1321 BW). De fiscus is een derde — dus als partijen in een geheime tegenakte iets anders afspreken dan in hun ostensibele akte staat, mag de fiscus zich op de werkelijke afspraak beroepen. Dit is geen nieuw instrument; het is een algemene civielrechtelijke regel toegepast op fiscale verhoudingen."
+      - "Werk de definitie scherp uit. De simulatie-leer is een jurisprudentiële techniek waarmee de fiscus een veinzed rechtshandeling kan opzijzetten en de werkelijk gewilde handeling (de 'tegenakte') fiscaal kan belasten. Drie cumulatieve voorwaarden: (1) bewijs van geveinsdheid — partijen toonden naar buiten één rechtshandeling, wilden in werkelijkheid een andere; (2) de werkelijke rechtshandeling moet identificeerbaar zijn — anders bestaat er geen alternatief om te belasten; (3) de fiscus moet zich op de werkelijke handeling beroepen, niet enkel de schijn betwisten."
+      - "Concreet voorbeeld dat overal terugkomt: broer 'verkoopt' onroerend goed van € 300.000 aan zijn zus voor € 50.000; geen betaling vindt werkelijk plaats. Naar buiten toe: verkoop tegen € 50.000 met bescheiden registratierechten. In werkelijkheid: schenking. De fiscus kan via simulatie de werkelijke schenking belasten (schenkingsrechten — tarief tussen broer en zus hoog). Bewijsmiddelen: geen betalingsbewijs, geen koopmotief, geen marktconforme prijs — concordante vermoedens."
+      - "Bewijslast in detail. De fiscus moet bewijzen dat partijen niet wilden wat de ostensibele akte uitdrukt. Bewijsmiddelen volgens art. 340 WIB92 (bewijsmiddelen gemeen recht): tegenakten, schriftelijke correspondentie, getuigen, vermoedens (concordante feiten die enkel zinvol zijn als simulatie wordt aanvaard). De bewijslast is zwaar — louter onverklaarbare gunstige fiscale gevolgen volstaan niet. Daarvoor bestaat AAMB."
+      - "Toepassing op vignet V1 scenario B. Marc handgift geld aan elk kind via bankoverschrijving; onmiddellijk daarna kapitaalverhoging in de holding waarbij de kinderen nieuwe aandelen onderschrijven en Marc's percentage proportioneel daalt. Vraag: simulatie? Het hangt af van de feitelijke uitvoering. Werd het geld werkelijk overgedragen en stond het ter beschikking van de kinderen vóór de kapitaalverhoging — al was het maar één werkdag? Werd de kapitaalverhoging via een eigen besluit en met onafhankelijke procedure beslist? Bestaat er een schriftelijke afspraak (tegenakte) die het scenario als geheel terugbrengt naar 'in feite een schenking van aandelen door Marc'? Bij ja op de tegenakte: simulatie. Bij nee, maar met sterk vermoeden dat partijen één gevolg (schenkbelasting) wilden ontlopen terwijl ze de andere aanvaardden: simulatie blijft mogelijk. Bij echte uitvoering van twee zelfstandige rechtshandelingen: geen simulatie, en de fiscus moet naar AAMB grijpen (laag 3)."
+
+  - id: aamb
+    titel: "Laag 3 — De algemene anti-misbruik-bepaling (AAMB)"
+    niveau: 2
+    beats:
+      - "Open met de tekst zelf in eigen woorden. Art. 344 §1 WIB92 stelt de fiscus in staat een rechtshandeling of geheel van rechtshandelingen niet tegen te werpen wanneer er sprake is van 'fiscaal misbruik'. Fiscaal misbruik bestaat wanneer de belastingplichtige (1°) zich in strijd met de doelstellingen van een bepaling buiten haar toepassingsgebied plaatst, OF (2°) aanspraak maakt op een belastingvoordeel waarvan de toekenning in strijd zou zijn met de doelstellingen van de bepaling die het voordeel verleent — en die rechtshandeling in wezen het verkrijgen van dat voordeel tot doel heeft."
+      - "Werk de vier-voorwaardentest cumulatief uit. Toon ze als beslisboom."
+      - "Belangrijk verschil met simulatie. Bij simulatie is de gekozen rechtshandeling niet écht gewild — partijen wilden iets anders. Bij AAMB is de rechtshandeling écht gewild en civielrechtelijk geldig, maar werd gekozen om louter fiscale redenen en strijdig met de wetsdoelen. De gevolg-laag verschilt fundamenteel: bij simulatie wordt de werkelijke handeling belast (civielrechtelijke consequenties mogelijk); bij AAMB blijft alles civielrechtelijk staan en wordt enkel fiscaal hersteld."
+      - "Werk het herstel-effect uit. Slaagt het tegenbewijs niet, dan herstelt de fiscus de belastbare grondslag 'zodanig dat de verrichting aan een belastingheffing overeenkomstig het doel van de wet wordt onderworpen, alsof het misbruik niet heeft plaatsgevonden'. Concreet: fictieve aanslag op de structuur die de wetgever had bedoeld. Een opdeling vruchtgebruik-blote eigendom die alleen werd opgezet om afschrijving in de vennootschap mogelijk te maken, wordt fiscaal hersteld alsof het privé-vastgoed van de zaakvoerder zou betreffen — geen afschrijving."
+      - "Toepassing op vignet V2 (vastgoed-aan-holding). Marc verkoopt zijn bedrijfsgebouw aan de holding voor marktwaarde; holding financiert met banklening; Marc int privé belastingvrij (art. 90, 10° WIB92 e contrario voor gebouw > 5 jaar). De huurstroom verschuift van Marc privé naar de holding. Stap 1 verrichting — opeenvolging van verkoop + financiering + verlegging huurstroom. Stap 2 strijd met doelstellingen — argumenteerbaar dat de wetgever niet bedoelde dat een zaakvoerder zijn eigen privé-vastgoed via een belastingvrije verkoop in de fiscale schoot van zijn vennootschap kan brengen en zo art. 32 WIB92-herkwalificatie (huur als bezoldiging) ontwijkt. Stap 3 hoofddoel — afhankelijk van de timing, financiering en marktconformiteit van de huur. Stap 4 tegenbewijs — Marc kan inroepen: risico-isolering bedrijfsvastgoed buiten privévermogen, pre-financiering successieplanning, professioneel vastgoedbeheer. De waarde van die motieven hangt af van wat contemporain gedocumenteerd is. Conclusie van de adviseur: reëel AAMB-risico — DVB-ruling actief overwegen (zie L5)."
+    visualisaties:
+      - type: tabel-inline
+        kolommen: ["Stap", "Test", "Bewijslast", "Toepassing op V2 (vastgoed-aan-holding)"]
+        rijen:
+          - ["1", "**Eén verrichting** — vormen de rechtshandelingen één geheel of een gefragmenteerde structuur die naar één resultaat leidt?", "Fiscus", "Verkoop bedrijfsgebouw + holding-financiering + omleiding huurstroom: vermoedelijk één samenhangend geheel"]
+          - ["2", "**Strijd met doelstellingen** — plaatst de verrichting de belastingplichtige in strijd met de ratio legis buiten een belasting-grijpend artikel (1°), of misbruikt ze een gunstig artikel (2°)?", "Fiscus", "Argumenteerbaar: ontwijken van art. 32 WIB92-herkwalificatie zonder dat de wetgever dat resultaat in deze constellatie wilde toelaten"]
+          - ["3", "**Hoofddoel fiscaal** — was het verkrijgen van het belastingvoordeel 'in wezen' het doel?", "Fiscus", "Hangt af van marktconformiteit huur, timing aflossing, alternatieve niet-fiscale verklaringen"]
+          - ["4", "**Tegenbewijs** — kan belastingplichtige aantonen dat de keuze door andere motieven verantwoord is dan het ontwijken van inkomstenbelastingen?", "Belastingplichtige", "Risico-isolering, successieplanning, vastgoedbeheer — kracht hangt af van contemporaine documentatie"]
+
+  - id: saars-vermelding
+    titel: "Specifieke anti-misbruik-bepalingen (SAAR's) — kort aanstippen"
+    niveau: 2
+    beats:
+      - "Open met het verhoudingspunt. AAMB is een vangnet. De wetgever heeft op specifieke punten waar misbruik systematisch werd vastgesteld, specifieke anti-misbruik-bepalingen (SAAR's) ingevoerd. Wanneer een SAAR van toepassing is, gaat ze voor op de AAMB — de fiscus moet ze eerst aanwenden voor ze naar het algemene instrument grijpt."
+      - "Geef vier voorbeelden zonder ze uit te werken (uitwerking in PO 2.2, 2.3 of internationaal fiscaal). (1) **Kaaiman-taks** (art. 5/1 WIB92) — belasting op inkomsten van bepaalde buitenlandse 'juridische constructies' in laagbelastende rechtsstelsels. (2) **DAC-6 meldingsplicht** — verplichte rapportering van grensoverschrijdende constructies met fiscale planning-kenmerken aan de fiscus, omgezet uit EU-richtlijn. (3) **Art. 18 WIB92** — herkwalificatie van interesten op rekening-courant of leningen tussen vennootschap en bestuurder bij onderkapitalisatie. (4) **Art. 26 WIB92** — abnormale of goedgunstige voordelen aan verbonden ondernemingen. Elk SAAR heeft een eigen toepassingsvoorwaarde en een eigen gevolg."
+      - "Verbinden met de adviespraktijk. Bij elke planning loopt de toets in deze volgorde. (1) Is er simulatie? (2) Is een SAAR van toepassing? (3) Is er AAMB-risico? Pas als (1) en (2) negatief zijn, komt (3) in beeld. Dit volgorde-respect bewaakt de wettelijke subsidiariteit van het algemene instrument."
+      - "Blockquote-aside: parallelle AAMB's in andere fiscale codices. Art. 344 §1 WIB92 is niet beperkt tot inkomstenbelastingen. Parallelle, inhoudelijk grotendeels identieke teksten gelden voor: btw (art. 1 §10 WBTW), registratie- en successierechten federaal (WBT&R art. 18 §2), Vlaamse gewestbelastingen inclusief erfbelasting (VCF art. 3.17.0.0.2), Brusselse gewestbelastingen (Brusselse Codex Fiscale Procedure art. 52), Waalse gewestbelastingen (Decreet 6 mei 1999 art. 12quinquies), diverse rechten en taksen (WDRT art. 202). De opbouw is overal vergelijkbaar (verrichting + doelstellings-strijd + tegenbewijs + herstel). De accountant kan dus niet 'naar het volgende wetboek vluchten' om aan AAMB te ontsnappen."
+
+  - id: praktijk-denkproces
+    titel: "Het denkproces in de adviespraktijk"
+    niveau: 2
+    beats:
+      - "Open met de vraag: hoe pas je dit toe vóór een transactie? Geef een vaste checklist die de stagiair-adviseur kan internaliseren."
+      - "Werk vier stappen uit. (1) **Identificeer de fiscale impact** — welke belasting wordt geraakt door de geplande verrichting? Welke bepaling levert het voordeel of het verzwarend gevolg? (2) **Toets simulatie** — vragen partijen wat ze écht willen, of komt er een tegenakte aan te pas? Loopt de feitelijke uitvoering parallel met de juridische vorm? (3) **Toets SAAR + AAMB** — bestaat er een SAAR die op deze constellatie past? Werkt de gekozen weg tegen de doelstelling van een fiscale bepaling? (4) **Documenteer niet-fiscale motieven contemporain** — raadsverslagen, businessplannen, advies-correspondentie met datum vóór of tijdens de transactie. Een rationalisatie achteraf wordt door fiscus en rechter vaak als onvoldoende beoordeeld."
+      - "Voor de hoog-risico-gevallen: ruling overwegen. Wanneer de AAMB-toets twijfelachtig uitvalt — strijdigheid met doelstelling is argumenteerbaar maar niet zeker; tegenbewijs is verdedigbaar maar niet ijzersterk — is een DVB-ruling het meest effectieve preventie-instrument. Een geldige ruling neutraliseert het AAMB-risico voor de gespecifieerde verrichting. Uitwerking in [[rechtszekerheid-bouwen]]."
+      - "Blockquote-aside: drie veelgemaakte fouten van stagiairs. (1) Tegenbewijs onderschatten — algemene 'familiale' of 'economische' motieven die na de feiten worden geconstrueerd, vallen vaak door. Het tegenbewijs moet concreet, contemporain en zwaarwichtig zijn. (2) Civiele nietigheid verwarren met fiscale niet-tegenwerpbaarheid — AAMB werkt uitsluitend fiscaal; de civielrechtelijke geldigheid blijft intact. (3) AAMB als rest-bevoegdheid op alles toepassen — een gunstige keuze tussen twee fiscale wegen die de wetgever bewust open laat (bv. dividend versus loon binnen een KMO) = vrije fiscale keuze, geen misbruik. Zonder duidelijk gefrustreerde doelstelling faalt de AAMB."
+
+# ---------------------------------------------------------------------------
+# Afsluiting
+# ---------------------------------------------------------------------------
+
+verder_lezen:
+  intro: "Nu het denkproces zit, ga verder met:"
+  leerstukken:
+    - slug: rechtszekerheid-bouwen
+      hint: "De DVB-ruling als preventief instrument: hoe maak je de fiscale gevolgen van een transactie bindend zeker vóór je ze uitvoert?"
+    - slug: beginselen-en-grenzen
+      hint: "Terug naar het denkkader — voor wie het realiteitsbeginsel en de strikte interpretatie nog eens wil situeren binnen de acht beginselen."
+  samenvatting:
+    hint: "Stappenplan 'simulatie → SAAR → AAMB' + vier-voorwaardentest art. 344 §1 + tegenbewijs-checklist voor herhaling vlak vóór het examen"
+
+doorklik_concepten:
+  intro: "Voor wie definitorisch detail wil opzoeken:"
+  groepen:
+    - concepten: [simulatie-leer, algemene-anti-misbruik-bepaling]
+    - concepten: [anti-misbruik, verboden-constructies]
+    - concepten: [interpretatie-fiscale-wet]
+
+# ---------------------------------------------------------------------------
+# Wettelijk fundament
+# ---------------------------------------------------------------------------
+
+wettelijk_fundament:
+  - onderwerp: "Algemene anti-misbruik-bepaling — inkomstenbelastingen"
+    ref: "WIB92 art. 344 §1"
+    noot: "Vier-voorwaardentest cumulatief: één verrichting + strijdig met doelstellingen + hoofddoel fiscaal + geen overtuigend tegenbewijs."
+  - onderwerp: "Algemene anti-misbruik-bepaling — juridische constructies (kaaiman-link)"
+    ref: "WIB92 art. 344/1"
+  - onderwerp: "Algemene anti-misbruik-bepaling — btw"
+    ref: "WBTW art. 1 §10"
+    noot: "Inhoudelijk vergelijkbaar: fiscaal voordeel in strijd met doelstellingen van het Wetboek + handelingen die in wezen het voordeel beogen."
+  - onderwerp: "Parallelle anti-misbruik-bepaling — diverse rechten en taksen"
+    ref: "WDRT art. 202"
+  - onderwerp: "Parallelle anti-misbruik-bepaling — Waals Gewest"
+    ref: "Decreet 6 mei 1999 art. 12quinquies"
+  - onderwerp: "Parallelle anti-misbruik-bepaling — Brussels Hoofdstedelijk Gewest"
+    ref: "Brusselse Codex Fiscale Procedure art. 52"
+  - onderwerp: "Parallelle anti-misbruik-bepaling — Vlaamse gewestbelastingen (incl. erfbelasting)"
+    ref: "Vlaamse Codex Fiscaliteit art. 3.17.0.0.2"
+  - onderwerp: "Simulatie — civielrechtelijke basis (tegenakten niet tegenwerpbaar derden)"
+    ref: "Burgerlijk Wetboek art. 5.197 (oud art. 1321)"
+  - onderwerp: "Bewijsmiddelen gemeen recht — toepasselijk op simulatie-bewijs"
+    ref: "WIB92 art. 340"
+  - onderwerp: "Brepols — vrije keuze minst belaste weg"
+    ref: "Hof van Cassatie, 6 juni 1961"
+    noot: "Cassatie-arrest niet apart als wettekst in de bronnen-RAG; doctrinaire en jurisprudentiële consensus."
+  - onderwerp: "Au Vieux Saint-Martin — alle gevolgen moeten aanvaard worden"
+    ref: "Hof van Cassatie, 29 januari 1988"
+    noot: "Idem — cassatie-arrest niet apart in de wetteksten-RAG; algemene jurisprudentiële consensus."
+  - onderwerp: "Bedrijfsleidersbezoldiging — kader voor herkwalificatie huur (V2-context)"
+    ref: "WIB92 art. 32"
+  - onderwerp: "Privé-meerwaarde gebouw aangehouden > 5 jaar (e contrario context V2)"
+    ref: "WIB92 art. 90, 10°"
+
+footer: "Leerstuk PO 2.1 — operationeel denkkader. Volgende stap: [[rechtszekerheid-bouwen]]."
